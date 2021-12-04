@@ -1,4 +1,4 @@
-summon minecraft:marker ^ ^ ^1 {Tags:["direction"]}
+summon minecraft:area_effect_cloud ^ ^ ^1 {Tags:["direction"],Age:-2147483648,Duration:-1,WaitTime:-2147483648}
 
 execute store result score #playerX pos run data get entity @s Pos[0] 1000
 execute store result score #playerY pos run data get entity @s Pos[1] 1000
