@@ -1,1 +1,1 @@
-kill @a[team=alive,predicate=ssbrc:great_bay]
+kill @a[team=alive,scores={flag.dead=..0},predicate=ssbrc:great_bay]

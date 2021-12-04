@@ -1,1 +1,1 @@
-kill @a[team=alive,predicate=ssbrc:below_y_04]
+kill @a[team=alive,scores={flag.dead=..0},predicate=ssbrc:below_y_04]
