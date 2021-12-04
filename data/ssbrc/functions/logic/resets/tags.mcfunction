@@ -140,7 +140,6 @@ tag @s remove wilyCastle
 # Misc
 tag @s remove abilityActive
 tag @s remove abilityUsed
-tag @s remove abilityActive
 tag @s remove alive
 tag @s remove characterPicked
 tag @s remove kaclang

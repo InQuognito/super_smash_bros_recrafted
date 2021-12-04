@@ -63,3 +63,6 @@ scoreboard objectives add ryu.wS dummy
 scoreboard objectives add samus.wS dummy
 scoreboard objectives add snake.wS dummy
 scoreboard objectives add sonic.wS dummy
+
+# Options
+scoreboard objectives add options dummy

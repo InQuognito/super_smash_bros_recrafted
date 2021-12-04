@@ -14,8 +14,8 @@ scoreboard objectives add math dummy
 scoreboard objectives add motionX dummy
 scoreboard objectives add motionY dummy
 scoreboard objectives add motionZ dummy
-scoreboard objectives add options dummy
 scoreboard objectives add pos dummy
+scoreboard objectives add random dummy
 scoreboard objectives add reset dummy
 scoreboard objectives add respawn dummy
 scoreboard objectives add selectFavorite minecraft.used:minecraft.carrot_on_a_stick
