@@ -22,3 +22,4 @@ tag @e[tag=projectile] remove projectile
 kill @e[tag=direction]
 
 scoreboard players operation @s mana -= #hero.bangManaCost vars
+scoreboard players set @s bang 10

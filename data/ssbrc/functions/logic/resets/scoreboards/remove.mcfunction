@@ -1,3 +1,4 @@
+scoreboard objectives remove bang
 scoreboard objectives remove capacity
 scoreboard objectives remove flag.dead
 scoreboard objectives remove health

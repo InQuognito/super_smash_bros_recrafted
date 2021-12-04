@@ -1,5 +1,6 @@
 function ssbrc:logic/resets/scoreboards/stats
 
+scoreboard objectives add bang dummy
 scoreboard objectives add capacity dummy
 scoreboard objectives add flag.dead deathCount
 scoreboard objectives add health health
