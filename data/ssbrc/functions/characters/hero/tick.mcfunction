@@ -5,7 +5,7 @@ execute as @a[scores={useAbility=1..,mana=2..},nbt={SelectedItem:{tag:{ability.h
 execute as @s[scores={useAbility=1..,mana=3..},nbt={SelectedItem:{tag:{ability.hero:3}}}] run function ssbrc:characters/hero/magic/kaclang
 execute as @s[scores={useAbility=1..,mana=21..},nbt={SelectedItem:{tag:{ability.hero:4}}}] run function ssbrc:characters/hero/magic/magic_burst_activate
 
-scoreboard players set @s useAbility 0
+scoreboard players reset @s useAbility
 
 # Mana
 title @s[tag=!magicLost,scores={mana=..0}] actionbar [{"text":"Out of Mana: Warrior Switch","bold":true,"color":"red"}]
