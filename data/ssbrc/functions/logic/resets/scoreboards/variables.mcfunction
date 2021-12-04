@@ -1,4 +1,4 @@
-scoreboard players set #hero.manaGainedOnKill vars 1
+scoreboard players set #hero.manaGainedOnKill vars 6
 scoreboard players set #hero.manaGainedOnDeath vars 7
 scoreboard players set #hero.flameSlashManaCost vars 1
 scoreboard players set #hero.bangManaCost vars 2
