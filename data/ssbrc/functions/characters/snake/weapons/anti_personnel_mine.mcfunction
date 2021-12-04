@@ -5,4 +5,4 @@ playsound entity.generic.explode player @a
 kill @e[tag=snake.apm.harm]
 kill @s
 
-execute as @e[tag=apm.active,distance=0..1.5] at @s run function ssbrc:characters/snake/weapons/anti_personnel_mine
+execute as @e[tag=apm.active,distance=..1.5] at @s run function ssbrc:characters/snake/weapons/anti_personnel_mine

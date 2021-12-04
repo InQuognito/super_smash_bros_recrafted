@@ -62,7 +62,7 @@ scoreboard players add @e[tag=apm.inactive] snake.apm 1
 execute as @e[tag=apm.inactive,scores={snake.apm=40..}] run data merge entity @s {Item:{id:"minecraft:gray_terracotta",Count:1b,tag:{CustomModelData:3}}}
 execute as @e[tag=apm.inactive,scores={snake.apm=80..}] run data merge entity @s {Item:{id:"minecraft:gray_terracotta",Count:1b,tag:{CustomModelData:4}}}
 execute as @e[tag=apm.inactive,scores={snake.apm=80..}] run tag @s add apm.active
-data modify entity @e[tag=apm.inactive,limit=1] Owner set from entity @s UUID
+data modify entity @e[tag=apm.inactive,scores={snake.apm=80..},limit=1] Owner set from entity @s UUID
 execute as @e[tag=apm.inactive,scores={snake.apm=80..}] run tag @s remove apm.inactive
 execute as @e[tag=apm.active,scores={snake.apm=80..}] run scoreboard players reset @s snake.apm
 
