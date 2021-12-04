@@ -1,6 +1,6 @@
 scoreboard players set @s respawn 0
 
-title @s actionbar ""
+title @s title ""
 
 gamemode adventure @s
 effect clear @s minecraft:blindness

@@ -12,6 +12,7 @@ recipe take @s *
 
 effect clear @s
 
+title @s title ""
 title @s actionbar ""
 
 spawnpoint @s -521 5 55 90.0
