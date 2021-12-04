@@ -20,3 +20,5 @@ execute if score $gameMode options matches 2 run scoreboard players operation $g
 scoreboard players set $start map 1
 
 scoreboard players reset $startCountdown timer
+
+scoreboard players set @a respawn 0
