@@ -11,7 +11,7 @@ scoreboard players operation $targetX pos -= $playerX pos
 scoreboard players operation $targetY pos -= $playerY pos
 scoreboard players operation $targetZ pos -= $playerZ pos
 
-summon minecraft:fireball ^ ^ ^1 {ExplosionPower:1,Tags:["projectile"]}
+execute anchored eyes run summon minecraft:fireball ^ ^ ^1 {ExplosionPower:1,Tags:["projectile"]}
 data modify entity @e[tag=projectile,limit=1] Owner set from entity @s UUID
 
 execute store result entity @e[tag=projectile,limit=1] Motion[0] double 0.001 run scoreboard players get $targetX pos
