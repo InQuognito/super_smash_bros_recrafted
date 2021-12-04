@@ -4,6 +4,10 @@ execute if score $gameMode options matches 2 store result bossbar minecraft:time
 execute if score $gameMode options matches 2 run bossbar set minecraft:timer players @a
 execute if score $gameMode options matches 2 run bossbar set minecraft:timer visible true
 
+execute if score $gameMode options matches 1 run scoreboard players set @a[team=alive] stocks 3
+execute if score $gameMode options matches 1 run scoreboard objectives setdisplay sidebar stocks
+execute if score $gameMode options matches 2 run scoreboard objectives setdisplay sidebar kills
+
 effect clear @a jump_boost
 effect clear @a slowness
 

@@ -4,6 +4,7 @@ scoreboard objectives remove health
 scoreboard objectives remove id
 scoreboard objectives remove integers
 scoreboard objectives remove itemCount
+scoreboard objectives remove kills
 scoreboard objectives remove magicBurst
 scoreboard objectives remove mana
 scoreboard objectives remove map

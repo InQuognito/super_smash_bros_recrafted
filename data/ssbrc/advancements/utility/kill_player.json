@@ -16,6 +16,6 @@
 		}
 	},
 	"rewards": {
-		"function": "ssbrc:logic/stats/kills"
+		"function": "ssbrc:logic/stocks/get_kill"
 	}
 }

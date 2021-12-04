@@ -6,6 +6,7 @@ scoreboard objectives add health health
 scoreboard objectives add id dummy
 scoreboard objectives add integers dummy
 scoreboard objectives add itemCount dummy
+scoreboard objectives add kills dummy
 scoreboard objectives add magicBurst dummy
 scoreboard objectives add mana dummy
 scoreboard objectives add map dummy
