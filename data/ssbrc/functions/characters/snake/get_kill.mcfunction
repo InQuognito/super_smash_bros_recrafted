@@ -3,7 +3,8 @@ function ssbrc:math/rng/lcg
 
 execute if score result random matches 0 run tag @s[tag=snake.psg1] add psg1Give
 execute if score result random matches 0 run scoreboard players add @s[tag=psg1Give,scores={snake.psg1A=1..}] snake.psg1M 4
-execute if score result random matches 0 run scoreboard players set @s[tag=psg1Give,scores={snake.psg1M=..0,snake.psg1A=..0}] snake.psg1M 4
+execute if score result random matches 0 run scoreboard players set @s[tag=psg1Give,scores={snake.psg1M=..0,snake.psg1A=..0}] snake.psg1M 3
+execute if score result random matches 0 run scoreboard players set @s[tag=psg1Give,scores={snake.psg1M=3,snake.psg1A=..0}] snake.psg1A 1
 execute if score result random matches 0 run tag @s[tag=psg1Give,scores={snake.psg1M=..0,snake.psg1A=..0}] remove snake.psg1R
 execute if score result random matches 0 run tellraw @s[tag=psg1Give] {"text":"Scavenger | +4 PSG-1 Mags","color":"green"}
 execute if score result random matches 0 run tag @s[tag=psg1Give] add itemsGiven
