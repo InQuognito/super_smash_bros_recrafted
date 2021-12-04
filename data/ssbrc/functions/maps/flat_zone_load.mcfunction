@@ -27,6 +27,10 @@ execute if score $hazards options matches 0 run fill 783 4 207 785 4 209 minecra
 
 execute if score $hazards options matches 0 run fill 776 7 213 778 7 214 minecraft:black_concrete replace
 
+execute if score $hazards options matches 0 run setblock 767 4 209 minecraft:green_terracotta
+execute if score $hazards options matches 0 run setblock 767 4 202 minecraft:green_terracotta
+execute if score $hazards options matches 0 run setblock 767 4 195 minecraft:green_terracotta
+
 function ssbrc:maps/flat_zone/gas_station_guy_1_left
 function ssbrc:maps/flat_zone/gas_station_guy_2_left
 function ssbrc:maps/flat_zone/house_light_random
@@ -34,7 +38,7 @@ function ssbrc:maps/flat_zone/lion_1
 function ssbrc:maps/flat_zone/lion_2
 execute if score $hazards options matches 1 run function ssbrc:maps/flat_zone/middle_platform_ne
 execute if score $hazards options matches 1 run function ssbrc:maps/flat_zone/south_parkour_platform_on
-function ssbrc:maps/flat_zone/turtle
+execute if score $hazards options matches 1 run function ssbrc:maps/flat_zone/turtle
 function ssbrc:maps/flat_zone/zookeeper_1
 function ssbrc:maps/flat_zone/zookeeper_2
 
