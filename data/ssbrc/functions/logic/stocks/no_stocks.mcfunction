@@ -7,6 +7,5 @@ schedule function ssbrc:logic/heal 5t replace
 
 title @s actionbar ""
 
-execute store result score #playersLeft stocks run team list alive
-execute if score #playersLeft stocks matches 1 as @a[team=alive,limit=1] run function ssbrc:logic/post_game/end
-execute if score #playersLeft stocks matches 0 run function ssbrc:logic/post_game/end
+execute store result score #playersLeft temp run team list alive
+execute if score #playersLeft temp matches ..1 as @a[team=alive,limit=1] run function ssbrc:logic/post_game/end

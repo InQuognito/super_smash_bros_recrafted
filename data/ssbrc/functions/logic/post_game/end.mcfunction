@@ -22,5 +22,6 @@ execute if entity @s[tag=snake] run title @a subtitle [{"text":"Selected Charact
 execute if entity @s[tag=sonic] run title @a subtitle [{"text":"Selected Character: ","color":"gold"},{"text":"Sonic","bold":true,"color":"yellow"}]
 
 title @a title [{"selector":"@s","bold":true,"color":"yellow"},{"text":" wins!","color":"gold"}]
+tag @s add winner
 
 function ssbrc:logic/post_game/update_stats

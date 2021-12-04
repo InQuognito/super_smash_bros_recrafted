@@ -1,6 +1,3 @@
-gamemode spectator @a[team=dead]
-gamemode spectator @a[team=spectator]
-
 scoreboard players remove @a[scores={respawn=1..}] respawn 1
 title @a[scores={respawn=60}] title [{"text":"3","color":"red"}]
 title @a[scores={respawn=40}] title [{"text":"2","color":"yellow"}]

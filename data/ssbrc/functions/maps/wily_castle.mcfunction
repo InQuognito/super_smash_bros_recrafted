@@ -7,4 +7,4 @@ summon minecraft:marker 5001.5 18.0 5050.5 {Tags:["spawnpoint","tpDest"]}
 summon minecraft:marker 4927.5 10.0 5096.5 {Tags:["spawnpoint","tpDest"]}
 summon minecraft:marker 5019.5 11.0 5033.5 {Tags:["spawnpoint","tpDest"]}
 
-function ssbrc:logic/pre_game/start
+function ssbrc:logic/pre_game/prepare_match
