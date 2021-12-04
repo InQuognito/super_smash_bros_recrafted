@@ -8,7 +8,7 @@ execute if score $gameMode options matches 2 store result bossbar minecraft:time
 execute if score $gameMode options matches 2 run scoreboard players operation $gameTimePercent timer = $gameTime timer
 execute if score $gameMode options matches 2 run scoreboard players operation $gameTimePercent timer *= #100 integers
 execute if score $gameMode options matches 2 run scoreboard players operation $gameTimePercent timer /= $timeLimit options
-execute if score $gameMode options matches 2 run scoreboard players operation $gameTimePercent timer /= #100 integers
+#execute if score $gameMode options matches 2 run scoreboard players operation $gameTimePercent timer /= #100 integers
 
 execute if score $gameMode options matches 2 if score $gameTimePercent timer matches 50 run bossbar set minecraft:timer color green
 execute if score $gameMode options matches 2 if score $gameTimePercent timer matches 25 run bossbar set minecraft:timer color yellow
