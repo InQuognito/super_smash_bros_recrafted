@@ -16,4 +16,4 @@ effect give @a[tag=greninja] minecraft:dolphins_grace 1000000 255 true
 
 effect give @a[team=alive] minecraft:slow_falling 1000000 255 true
 
-kill @a[team=alive,scores={flag.dead=..0},predicate=ssbrc:below_y_-15]
+kill @a[team=alive,scores={respawn=..0},predicate=ssbrc:below_y_-15]
