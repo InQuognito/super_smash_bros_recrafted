@@ -1,4 +1,4 @@
-scoreboard players reset @s respawn
+scoreboard players set @s respawn 0
 
 gamemode adventure @s
 effect clear @s minecraft:blindness
