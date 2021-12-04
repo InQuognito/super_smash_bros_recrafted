@@ -1,3 +1,5 @@
+execute as @a at @s run spawnpoint @s ^ ^ ^ ~
+
 execute as @a[scores={flag.dead=1..}] run function ssbrc:logic/stocks/lose_stock
 function ssbrc:logic/tick/respawn
 
