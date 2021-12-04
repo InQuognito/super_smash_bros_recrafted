@@ -5,14 +5,14 @@ execute if score $start map matches 1 if score $gameMode options matches 2 run s
 # Timer Display
 execute if score $gameMode options matches 2 store result bossbar minecraft:timer value run scoreboard players get $gameTime timer
 
-execute if score $gameMode options matches 2 run scoreboard players operation $gameTimePercent temp = $gameTime timer
-execute if score $gameMode options matches 2 run scoreboard players operation $gameTimePercent temp *= #100 integers
-execute if score $gameMode options matches 2 run scoreboard players operation $gameTimePercent temp /= $timeLimit options
-execute if score $gameMode options matches 2 run scoreboard players operation $gameTimePercent temp /= #100 integers
+execute if score $gameMode options matches 2 run scoreboard players operation $gameTimePercent timer = $gameTime timer
+execute if score $gameMode options matches 2 run scoreboard players operation $gameTimePercent timer *= #100 integers
+execute if score $gameMode options matches 2 run scoreboard players operation $gameTimePercent timer /= $timeLimit options
+execute if score $gameMode options matches 2 run scoreboard players operation $gameTimePercent timer /= #100 integers
 
-execute if score $gameMode options matches 2 if score $gameTimePercent temp matches 50 run bossbar set minecraft:timer color green
-execute if score $gameMode options matches 2 if score $gameTimePercent temp matches 25 run bossbar set minecraft:timer color yellow
-execute if score $gameMode options matches 2 if score $gameTimePercent temp matches 10 run bossbar set minecraft:timer color red
+execute if score $gameMode options matches 2 if score $gameTimePercent timer matches 50 run bossbar set minecraft:timer color green
+execute if score $gameMode options matches 2 if score $gameTimePercent timer matches 25 run bossbar set minecraft:timer color yellow
+execute if score $gameMode options matches 2 if score $gameTimePercent timer matches 10 run bossbar set minecraft:timer color red
 
 execute if score $start map matches 1 if score $gameMode options matches 2 if score $gameTime timer matches ..0 run function ssbrc:logic/post_game/end
 
