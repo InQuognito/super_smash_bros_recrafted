@@ -14,7 +14,7 @@ execute if score $gameMode options matches 2 if score $gameTimePercent temp matc
 execute if score $gameMode options matches 2 if score $gameTimePercent temp matches 25 run bossbar set minecraft:timer color yellow
 execute if score $gameMode options matches 2 if score $gameTimePercent temp matches 10 run bossbar set minecraft:timer color red
 
-execute if score $gameMode options matches 2 if score $gameTime timer matches ..0 run function ssbrc:logic/post_game/end
+execute if score $start map matches 1 if score $gameMode options matches 2 if score $gameTime timer matches ..0 run function ssbrc:logic/post_game/end
 
 # Start Countdown
 execute if score $startCountdown timer matches 3 as @a at @s run playsound ssbrc:smash_ultimate_countdown voice @s
