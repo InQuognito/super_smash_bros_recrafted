@@ -1,4 +1,5 @@
 gamemode spectator @s
+tp @s @r[scores={flag.dead=..0}]
 
 scoreboard players set @s respawn 60
 
