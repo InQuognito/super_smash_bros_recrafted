@@ -38,8 +38,8 @@ execute if score $greatBay map matches 1 if score result_music random matches 0 
 execute if score $greatBay map matches 1 if score result_music random matches 1 as @a at @s run playsound ssbrc:termina_field music @s
 execute if score $greatBay map matches 1 if score result_music random matches 1 run schedule function ssbrc:logic/pre_game/music_loop 1320t replace
 
-#execute if score $greatPlateau map matches 1 if score result_music random matches 0 as @a at @s run playsound ssbrc:aquos_arena_intro music @s
-#execute if score $greatPlateau map matches 1 if score result_music random matches 0 run schedule function ssbrc:logic/pre_game/music_loop 0t replace
+execute if score $greatPlateau map matches 1 if score result_music random matches 0 as @a at @s run playsound ssbrc:kass_theme music @s
+execute if score $greatPlateau map matches 1 if score result_music random matches 0 run schedule function ssbrc:logic/pre_game/music_loop 1780t replace
 #execute if score $greatPlateau map matches 1 if score result_music random matches 1 as @a at @s run playsound ssbrc:battle_on_the_big_bridge_intro music @s
 #execute if score $greatPlateau map matches 1 if score result_music random matches 1 run schedule function ssbrc:logic/pre_game/music_loop 0t replace
 
@@ -70,18 +70,18 @@ execute if score $mementos map matches 1 if score result_music random matches 0 
 
 execute if score $mushroomKingdom map matches 1 if score result_music random matches 0 as @a at @s run playsound ssbrc:bob_omb_battlefield music @s
 execute if score $mushroomKingdom map matches 1 if score result_music random matches 0 run schedule function ssbrc:logic/pre_game/music_loop 1360t replace
-#execute if score $mushroomKingdom map matches 1 if score result_music random matches 1 as @a at @s run playsound ssbrc:super_mario_bros_main_theme music @s
-#execute if score $mushroomKingdom map matches 1 if score result_music random matches 1 run schedule function ssbrc:logic/pre_game/music_loop 0t replace
+execute if score $mushroomKingdom map matches 1 if score result_music random matches 1 as @a at @s run playsound ssbrc:super_mario_bros_main_theme music @s
+execute if score $mushroomKingdom map matches 1 if score result_music random matches 1 run schedule function ssbrc:logic/pre_game/music_loop 1720t replace
 
 execute if score $saturnValley map matches 1 if score result_music random matches 0 as @a at @s run playsound ssbrc:humoresque_of_a_little_dog music @s
 execute if score $saturnValley map matches 1 if score result_music random matches 0 run schedule function ssbrc:logic/pre_game/music_loop 1760t replace
-#execute if score $saturnValley map matches 1 if score result_music random matches 1 as @a at @s run playsound ssbrc:mr_saturm_theme music @s
-#execute if score $saturnValley map matches 1 if score result_music random matches 1 run schedule function ssbrc:logic/pre_game/music_loop 0t replace
+execute if score $saturnValley map matches 1 if score result_music random matches 1 as @a at @s run playsound ssbrc:mr_saturn_theme_z music @s
+execute if score $saturnValley map matches 1 if score result_music random matches 1 run schedule function ssbrc:logic/pre_game/music_loop 820t replace
 
 execute if score $sectorZ map matches 1 if score result_music random matches 0 as @a at @s run playsound ssbrc:area_6 music @s
 execute if score $sectorZ map matches 1 if score result_music random matches 0 run schedule function ssbrc:logic/pre_game/music_loop 1300t replace
-#execute if score $sectorZ map matches 1 if score result_music random matches 1 as @a at @s run playsound ssbrc:star_wolf_intro music @s
-#execute if score $sectorZ map matches 1 if score result_music random matches 1 run schedule function ssbrc:logic/pre_game/music_loop 0t replace
+execute if score $sectorZ map matches 1 if score result_music random matches 1 as @a at @s run playsound ssbrc:star_wolf music @s
+execute if score $sectorZ map matches 1 if score result_music random matches 1 run schedule function ssbrc:logic/pre_game/music_loop 880t replace
 
 execute if score $shadowMosesIsland map matches 1 if score result_music random matches 0 as @a at @s run playsound ssbrc:encounter music @s
 execute if score $shadowMosesIsland map matches 1 if score result_music random matches 0 run schedule function ssbrc:logic/pre_game/music_loop 2400t replace
