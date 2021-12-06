@@ -4,10 +4,6 @@ scoreboard players set @s useAbility 0
 
 scoreboard players remove @s[tag=abilityActive,scores={timer=1..}] timer 1
 
-item replace entity @s[tag=abilityActive,scores={timer=..0}] armor.head with minecraft:barrier
-item replace entity @s[tag=abilityActive,scores={timer=..0}] armor.chest with minecraft:leather_chestplate{Unbreakable:1,HideFlags:127}
-item replace entity @s[tag=abilityActive,scores={timer=..0}] armor.legs with minecraft:leather_leggings{Unbreakable:1,HideFlags:127}
-
 item modify entity @s[tag=abilityActive,scores={timer=..0}] armor.head ssbrc:kits/head
 item modify entity @s[tag=abilityActive,scores={timer=..0}] armor.chest ssbrc:kits/chest_color
 item modify entity @s[tag=abilityActive,scores={timer=..0}] armor.legs ssbrc:kits/legs_color
