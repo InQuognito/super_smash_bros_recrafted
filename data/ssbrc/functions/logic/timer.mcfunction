@@ -25,4 +25,3 @@ execute if score $startCountdown timer matches 0 run function ssbrc:logic/start
 execute if score $startCountdown timer matches 1.. run scoreboard players remove $startCountdown timer 1
 
 schedule function ssbrc:logic/timer 1s replace
-#
