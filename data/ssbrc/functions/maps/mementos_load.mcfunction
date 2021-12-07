@@ -3,6 +3,8 @@ scoreboard players set $mementos map 1
 scoreboard players set #mapPicked mapVote 1
 forceload add -1248 800 -1121 959
 
+function ssbrc:maps/mementos/red
+
 kill @e[type=!minecraft:player]
 
 summon minecraft:armor_stand -1185.5 18.0 819.5 {Invulnerable:1b,ShowArms:1b,DisabledSlots:4144959,Pose:{RightArm:[0.0f,0.0f,113.0f],LeftLeg:[8.0f,0.0f,0.0f],LeftArm:[0.0f,0.0f,346.0f],RightLeg:[350.0f,0.0f,0.0f]},Small:1b,ArmorItems:[{id:"minecraft:leather_boots",Count:1b,tag:{display:{color:13619151}}},{id:"minecraft:leather_leggings",Count:1b,tag:{display:{color:7039851}}},{id:"minecraft:leather_chestplate",Count:1b,tag:{display:{color:13619151}}},{id:"minecraft:player_head",Count:1b,tag:{SkullOwner:{Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDJkMTA2ZjJiN2ZlYmMwYzM0N2YyNjNkZjhkNzA0MTQ0M2VlZTk4ZDRjZDIyM2ZkMWE5NTgzN2IwMWM0MDIwYSJ9fX0="}]},Id:[I; 1482869269,1796688058,-1981259047,-946338927]}}}],NoBasePlate:1b}
