@@ -131,22 +131,22 @@ fill -1156 57 826 -1145 62 930 minecraft:yellow_stained_glass replace minecraft:
 fill -1156 57 826 -1145 62 930 minecraft:yellow_stained_glass replace minecraft:red_stained_glass
 
 
-fill -1230 57 815 -1146 62 825 minecraft:gold_block replace minecraft:lapis_block
-fill -1230 57 815 -1146 62 825 minecraft:gold_block replace minecraft:redstone_block
-fill -1230 57 815 -1146 62 825 minecraft:yellow_stained_glass replace minecraft:blue_stained_glass
-fill -1230 57 815 -1146 62 825 minecraft:yellow_stained_glass replace minecraft:red_stained_glass
+fill -1230 65 815 -1146 85 825 minecraft:gold_block replace minecraft:lapis_block
+fill -1230 65 815 -1146 85 825 minecraft:gold_block replace minecraft:redstone_block
+fill -1230 65 815 -1146 85 825 minecraft:yellow_stained_glass replace minecraft:blue_stained_glass
+fill -1230 65 815 -1146 85 825 minecraft:yellow_stained_glass replace minecraft:red_stained_glass
 
-fill -1242 57 826 -1231 62 930 minecraft:gold_block replace minecraft:lapis_block
-fill -1242 57 826 -1231 62 930 minecraft:gold_block replace minecraft:redstone_block
-fill -1242 57 826 -1231 62 930 minecraft:yellow_stained_glass replace minecraft:blue_stained_glass
-fill -1242 57 826 -1231 62 930 minecraft:yellow_stained_glass replace minecraft:red_stained_glass
+fill -1242 65 826 -1231 85 930 minecraft:gold_block replace minecraft:lapis_block
+fill -1242 65 826 -1231 85 930 minecraft:gold_block replace minecraft:redstone_block
+fill -1242 65 826 -1231 85 930 minecraft:yellow_stained_glass replace minecraft:blue_stained_glass
+fill -1242 65 826 -1231 85 930 minecraft:yellow_stained_glass replace minecraft:red_stained_glass
 
-fill -1230 57 931 -1146 62 941 minecraft:gold_block replace minecraft:lapis_block
-fill -1230 57 931 -1146 62 941 minecraft:gold_block replace minecraft:redstone_block
-fill -1230 57 931 -1146 62 941 minecraft:yellow_stained_glass replace minecraft:blue_stained_glass
-fill -1230 57 931 -1146 62 941 minecraft:yellow_stained_glass replace minecraft:red_stained_glass
+fill -1230 65 931 -1146 85 941 minecraft:gold_block replace minecraft:lapis_block
+fill -1230 65 931 -1146 85 941 minecraft:gold_block replace minecraft:redstone_block
+fill -1230 65 931 -1146 85 941 minecraft:yellow_stained_glass replace minecraft:blue_stained_glass
+fill -1230 65 931 -1146 85 941 minecraft:yellow_stained_glass replace minecraft:red_stained_glass
 
-fill -1145 57 826 -1134 62 930 minecraft:gold_block replace minecraft:lapis_block
-fill -1145 57 826 -1134 62 930 minecraft:gold_block replace minecraft:redstone_block
-fill -1145 57 826 -1134 62 930 minecraft:yellow_stained_glass replace minecraft:blue_stained_glass
-fill -1145 57 826 -1134 62 930 minecraft:yellow_stained_glass replace minecraft:red_stained_glass
+fill -1145 65 826 -1134 85 930 minecraft:gold_block replace minecraft:lapis_block
+fill -1145 65 826 -1134 85 930 minecraft:gold_block replace minecraft:redstone_block
+fill -1145 65 826 -1134 85 930 minecraft:yellow_stained_glass replace minecraft:blue_stained_glass
+fill -1145 65 826 -1134 85 930 minecraft:yellow_stained_glass replace minecraft:red_stained_glass
