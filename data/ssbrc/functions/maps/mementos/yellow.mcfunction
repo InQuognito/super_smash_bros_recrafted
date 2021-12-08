@@ -152,16 +152,16 @@ fill -1145 65 826 -1134 85 930 minecraft:orange_stained_glass replace minecraft:
 fill -1145 65 826 -1134 85 930 minecraft:orange_stained_glass replace minecraft:red_stained_glass
 
 # Top Layer
-fill -1249 91 808 -1127 100 808 minecraft:yellow_glazed_terracotta replace minecraft:light_blue_glazed_terracotta
+fill -1249 91 808 -1127 100 808 minecraft:yellow_glazed_terracotta replace minecraft:lapis_block
 fill -1249 91 808 -1127 100 808 minecraft:yellow_glazed_terracotta replace minecraft:red_glazed_terracotta
 
-fill -1249 91 808 -1249 100 948 minecraft:yellow_glazed_terracotta replace minecraft:light_blue_glazed_terracotta
+fill -1249 91 808 -1249 100 948 minecraft:yellow_glazed_terracotta replace minecraft:lapis_block
 fill -1249 91 808 -1249 100 948 minecraft:yellow_glazed_terracotta replace minecraft:red_glazed_terracotta
 
-fill -1249 91 948 -1127 100 948 minecraft:yellow_glazed_terracotta replace minecraft:light_blue_glazed_terracotta
+fill -1249 91 948 -1127 100 948 minecraft:yellow_glazed_terracotta replace minecraft:lapis_block
 fill -1249 91 948 -1127 100 948 minecraft:yellow_glazed_terracotta replace minecraft:red_glazed_terracotta
 
-fill -1127 91 808 -1127 100 948 minecraft:yellow_glazed_terracotta replace minecraft:light_blue_glazed_terracotta
+fill -1127 91 808 -1127 100 948 minecraft:yellow_glazed_terracotta replace minecraft:lapis_block
 fill -1127 91 808 -1127 100 948 minecraft:yellow_glazed_terracotta replace minecraft:red_glazed_terracotta
 
 fill -1248 100 809 -1128 100 947 minecraft:orange_stained_glass replace minecraft:red_stained_glass
