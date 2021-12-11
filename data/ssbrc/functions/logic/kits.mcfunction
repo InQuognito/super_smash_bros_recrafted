@@ -4,6 +4,8 @@ item modify entity @s armor.head ssbrc:kits/head
 item replace entity @s[tag=!ganondorf,tag=!kingkrool,tag=!pit,tag=!samus] armor.chest with minecraft:leather_chestplate{Unbreakable:1,HideFlags:127}
 item replace entity @a[tag=ganondorf] armor.chest with minecraft:netherite_chestplate{Unbreakable:1,HideFlags:127} 1
 item replace entity @s[tag=pit] armor.chest with minecraft:elytra{Damage:417,HideFlags:127} 1
+item replace entity @a[tag=samus] armor.chest with minecraft:golden_chestplate{Unbreakable:1,HideFlags:127} 1
+
 item modify entity @s armor.chest ssbrc:kits/chest_color
 
 item replace entity @s armor.legs with minecraft:leather_leggings{Unbreakable:1,HideFlags:127}
