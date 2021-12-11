@@ -1,5 +1,5 @@
 tellraw @s[tag=!samus] {"text":"You have selected Samus!","color":"gold"}
-execute as @s run function ssbrc:logic/resets/remove_tags
+function ssbrc:logic/resets/remove_tags
 tag @s[tag=!samus] add samus
 tag @s add characterPicked
 

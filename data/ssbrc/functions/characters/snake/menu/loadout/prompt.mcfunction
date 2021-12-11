@@ -1,4 +1,4 @@
-execute as @s run function ssbrc:logic/resets/remove_tags
+function ssbrc:logic/resets/remove_tags
 
 scoreboard players set @s capacity 0
 
