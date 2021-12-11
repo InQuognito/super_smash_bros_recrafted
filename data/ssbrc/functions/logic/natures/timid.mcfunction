@@ -1,3 +1,5 @@
+function ssbrc:logic/natures/remove
+
 attribute @s generic.movement_speed modifier add 19192183-0000-0000-0000-000000000003 "nature.timid" 0.1 multiply_base
 attribute @s generic.attack_damage modifier add 19192183-0000-0000-0000-000000000002 "nature.timid" -0.1 multiply_base
 
