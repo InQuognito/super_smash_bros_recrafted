@@ -1,4 +1,4 @@
-execute if entity @s[tag=greninja,tag=shiny] run advancement grant @a[team=alive] only ssbrc:characters/greninja/shiny
+execute if entity @s[tag=shiny] run advancement grant @a[team=alive] only ssbrc:characters/greninja/shiny
 
 function ssbrc:logic/natures/select
 
