@@ -1,3 +1,6 @@
+execute as @s[tag=charizard,predicate=ssbrc:shiny_chance] run tag @s add shiny
+execute as @s[tag=greninja,predicate=ssbrc:shiny_chance] run tag @s add shiny
+
 item replace entity @s armor.head with minecraft:barrier{HideFlags:127}
 item modify entity @s armor.head ssbrc:kits/head
 

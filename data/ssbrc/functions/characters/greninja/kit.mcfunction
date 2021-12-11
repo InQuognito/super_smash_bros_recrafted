@@ -1,5 +1,6 @@
-execute as @s[predicate=ssbrc:shiny_chance] run tag @s add shiny
-advancement grant @s[tag=shiny] only ssbrc:characters/greninja/shiny
+execute if entity @s[tag=greninja,tag=shiny] run advancement grant @a[team=alive] only ssbrc:characters/greninja/shiny
+
+function ssbrc:logic/natures/select
 
 item modify entity @s armor.feet ssbrc:kits/enchantments/fire_protection
 
