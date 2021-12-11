@@ -1,5 +1,5 @@
 tellraw @s[tag=!joker] [{"text":"You have selected ","color":"white"},{"text":"Joker","color":"dark_red"},{"text":"!","color":"white"}]
-execute as @s run function ssbrc:characters/remove_tags
+execute as @s run function ssbrc:logic/resets/remove_tags
 tag @s[tag=!joker] add joker
 tag @s add characterPicked
 
