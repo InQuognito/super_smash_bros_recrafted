@@ -16,7 +16,10 @@ item replace entity @s[tag=captainfalcon] armor.feet with minecraft:golden_boots
 item replace entity @s[tag=fox] armor.feet with minecraft:iron_boots{Unbreakable:1,HideFlags:127} 1
 item modify entity @s armor.feet ssbrc:kits/feet_color
 
+item modify entity @s armor.head ssbrc:kits/remove_armor
 item modify entity @s armor.chest ssbrc:kits/remove_armor
+item modify entity @s armor.legs ssbrc:kits/remove_armor
+item modify entity @s armor.feet ssbrc:kits/remove_armor
 execute as @s[tag=!kirby] run attribute @s generic.armor base set 6.0
 execute as @s[tag=ganondorf] run attribute @s generic.armor base set 12.0
 execute as @s[tag=bowser] run attribute @s generic.armor base set 12.0
