@@ -15,5 +15,5 @@ title @s[scores={samus.energy=..99}] actionbar [{"text":"Energy: ","bold":true,"
 title @s[scores={samus.energy=100}] actionbar [{"text":"Energy: ","bold":true,"color":"gold"},{"score":{"name":"@s","objective":"samus.energy"},"bold":true,"color":"gold"},{"text":"/","color":"white"},{"text":"100","bold":true,"color":"gold"}]
 
 scoreboard players add #samusEnergy temp 1
-execute if score #samusEnergy temp matches 1.. run scoreboard players add @s[scores={samus.energy=..99}] samus.energy 1
-execute if score #samusEnergy temp matches 1.. run scoreboard players set #samusEnergy temp 0
+execute if score #samusEnergy temp matches 2.. run scoreboard players add @s[scores={samus.energy=..99}] samus.energy 1
+execute if score #samusEnergy temp matches 2.. run scoreboard players set #samusEnergy temp 0
