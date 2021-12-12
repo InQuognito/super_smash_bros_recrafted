@@ -8,7 +8,7 @@ tp @e[tag=samus.waveBeam,tag=!adjusted] ^ ^-0.3 ^1 ~ ~
 function ssbrc:characters/samus/logic/weapons/wave_beam/id
 
 tag @e[tag=samus.waveBeam,tag=!adjusted] add adjusted
-scoreboard players set @s waveBeam 40
+scoreboard players set @s samus.waveBeam 40
 
 scoreboard players operation $RayLength temp = $out math
 execute as @e[tag=samus.waveBeam] at @s run function ssbrc:characters/samus/logic/weapons/wave_beam/raycast_loop
