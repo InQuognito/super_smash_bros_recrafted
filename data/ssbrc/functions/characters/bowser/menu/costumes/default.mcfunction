@@ -1,4 +1,4 @@
-function ssbrc:characters/samus/menu/costumes/reset
+function ssbrc:characters/bowser/menu/costumes/reset
 tag @s add bowser.default
 
-function ssbrc:characters/samus/menu/select_character
+function ssbrc:characters/bowser/menu/select_character
