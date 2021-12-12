@@ -1,4 +1,4 @@
-scoreboard players set @s mana 0
+scoreboard players set @s hero.mana 0
 
 tag @s add magicBurst
 

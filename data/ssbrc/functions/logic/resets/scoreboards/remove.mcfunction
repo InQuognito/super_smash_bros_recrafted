@@ -1,6 +1,7 @@
 scoreboard objectives remove flag.dead
 scoreboard objectives remove health
 scoreboard objectives remove hero.bang
+scoreboard objectives remove hero.mana
 scoreboard objectives remove id
 scoreboard objectives remove integers
 scoreboard objectives remove itemCount
@@ -8,7 +9,6 @@ scoreboard objectives remove kills
 scoreboard objectives remove link.swordBeam
 scoreboard objectives remove link.swordSpin
 scoreboard objectives remove magicBurst
-scoreboard objectives remove mana
 scoreboard objectives remove map
 scoreboard objectives remove mapVote
 scoreboard objectives remove math
@@ -19,6 +19,7 @@ scoreboard objectives remove pos
 scoreboard objectives remove random
 scoreboard objectives remove reset
 scoreboard objectives remove respawn
+scoreboard objectives remove samus.energy
 scoreboard objectives remove samus.plasmaBeam
 scoreboard objectives remove samus.powerBeam
 scoreboard objectives remove samus.waveBeam

@@ -3,6 +3,7 @@ function ssbrc:logic/resets/scoreboards/stats
 scoreboard objectives add flag.dead deathCount
 scoreboard objectives add health health
 scoreboard objectives add hero.bang dummy
+scoreboard objectives add hero.mana dummy
 scoreboard objectives add id dummy
 scoreboard objectives add integers dummy
 scoreboard objectives add itemCount dummy
@@ -10,7 +11,6 @@ scoreboard objectives add kills dummy
 scoreboard objectives add link.swordBeam dummy
 scoreboard objectives add link.swordSpin dummy
 scoreboard objectives add magicBurst dummy
-scoreboard objectives add mana dummy
 scoreboard objectives add map dummy
 scoreboard objectives add mapVote dummy
 scoreboard objectives add math dummy
@@ -21,6 +21,7 @@ scoreboard objectives add pos dummy
 scoreboard objectives add random dummy
 scoreboard objectives add reset dummy
 scoreboard objectives add respawn dummy
+scoreboard objectives add samus.energy dummy
 scoreboard objectives add samus.plasmaBeam dummy
 scoreboard objectives add samus.powerBeam dummy
 scoreboard objectives add samus.waveBeam dummy

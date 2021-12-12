@@ -2,5 +2,5 @@ item replace entity @s hotbar.0 with minecraft:iron_sword{ability.hero:1,CustomM
 item replace entity @s hotbar.1 with minecraft:carrot_on_a_stick{ability.hero:2,CustomModelData:1,Unbreakable:1,display:{Name:'[{"text":"Bang","italic":false,"color":"red","bold":true}]'},HideFlags:127} 1
 item replace entity @s hotbar.2 with minecraft:carrot_on_a_stick{ability.hero:3,CustomModelData:2,Unbreakable:1,display:{Name:'[{"text":"Kaclang","italic":false,"color":"dark_aqua","bold":true}]'},HideFlags:127} 1
 
-scoreboard players set @s mana 15
+scoreboard players set @s hero.mana 15
 scoreboard players set @s hero.bang 0
