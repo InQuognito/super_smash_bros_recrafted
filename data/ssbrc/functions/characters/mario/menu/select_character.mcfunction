@@ -1,8 +1,8 @@
-tag @s add link.default
+tag @s add mario.default
 
 tellraw @s [{"text":"You have selected ","color":"white"},{"text":"Mario","color":"red"},{"text":"!","color":"white"}]
 
-tellraw @s[tag=link.default] [{"text":"Costume: ","color":"yellow"},{"text":"Default","color":"red"}]
+tellraw @s[tag=mario.default] [{"text":"Costume: ","color":"yellow"},{"text":"Default","color":"red"}]
 
 function ssbrc:logic/resets/remove_tags
 tag @s add mario
