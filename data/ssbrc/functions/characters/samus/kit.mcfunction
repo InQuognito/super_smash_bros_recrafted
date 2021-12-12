@@ -4,6 +4,8 @@ item replace entity @s hotbar.0 with minecraft:carrot_on_a_stick{powerBeam:1,Unb
 item replace entity @s hotbar.1 with minecraft:carrot_on_a_stick{waveBeam:1,Unbreakable:1,display:{Name:'[{"text":"Wave Beam","italic":false,"color":"light_purple","bold":true}]',Lore:['[{"text":"A Piercing Wave Beam","italic":false}]','[{"text":"*Consumes Arrows","italic":false}]']},Enchantments:[{id:"piercing",lvl:1},{id:"quick_charge",lvl:1}],HideFlags:4} 1
 item replace entity @s hotbar.2 with minecraft:carrot_on_a_stick{plasmaBeam:1,Unbreakable:1,display:{Name:'[{"text":"Plasma Beam","italic":false,"color":"dark_red","bold":true}]',Lore:['[{"text":"Flaming Plasma Beam","italic":false}]','[{"text":"*Consumes Arrows","italic":false}]']},Enchantments:[{id:"flame",lvl:1}],HideFlags:4} 1
 
+scoreboard players set @s samus.energy 100
+
 scoreboard players set @s samus.powerBeam 0
 scoreboard players set @s samus.waveBeam 0
 scoreboard players set @s samus.plasmaBeam 0
