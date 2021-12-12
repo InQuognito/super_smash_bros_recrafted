@@ -14,5 +14,6 @@ scoreboard players remove @s[scores={samus.plasmaBeam=1..}] samus.plasmaBeam 1
 title @s[scores={samus.energy=..99}] actionbar [{"text":"Energy: ","bold":true,"color":"gold"},{"score":{"name":"@s","objective":"samus.energy"},"color":"yellow"},{"text":"/","color":"white"},{"text":"100","bold":true,"color":"gold"}]
 title @s[scores={samus.energy=100}] actionbar [{"text":"Energy: ","bold":true,"color":"gold"},{"score":{"name":"@s","objective":"samus.energy"},"bold":true,"color":"gold"},{"text":"/","color":"white"},{"text":"100","bold":true,"color":"gold"}]
 
+scoreboard players add #samusEnergy temp 1
 execute if score #samusEnergy temp matches 1.. run scoreboard players add @s[scores={samus.energy=..99}] samus.energy 1
 execute if score #samusEnergy temp matches 1.. run scoreboard players set #samusEnergy temp 0
