@@ -7,4 +7,4 @@ execute if score $RayLength temp matches 1.. facing ^-1 ^-1 ^ run tp @s[tag=angl
 
 particle minecraft:dust 1.0 1.0 1.0 0.75 ^ ^ ^ 0.0 0.0 0.0 0 0 normal @a
 
-execute if score $RayLength temp matches 1.. as @s[tag=marker] at @s positioned ^ ^ ^0.1 run function ssbrc:characters/samus/logic/wave_beam_raycast_loop
+execute if score $RayLength temp matches 1.. as @s[tag=marker] at @s positioned ^ ^ ^0.1 run function ssbrc:characters/samus/logic/weapons/wave_beam/raycast_loop

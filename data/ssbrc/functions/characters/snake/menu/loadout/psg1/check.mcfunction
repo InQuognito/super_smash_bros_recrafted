@@ -1,4 +1,4 @@
-scoreboard players operation $item temp = @s capacity
+scoreboard players operation $item temp = @s snake.capacity
 scoreboard players operation $item temp += #snake.psg1Weight vars
 
 execute unless score $item temp <= #10 integers run title @s actionbar {"text":"You're overencumbered! You can't hold this.","color":"red"}
