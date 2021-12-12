@@ -1,24 +1,5 @@
 [
 	{
-		"function": "minecraft:set_name",
-		"entity": "this",
-		"name": {
-			"text": "Bowser",
-			"color": "dark_green",
-			"bold": true,
-			"italic": false
-		},
-		"conditions": [
-			{
-				"condition": "minecraft:entity_properties",
-				"entity": "this",
-				"predicate": {
-					"nbt": "{Tags:[\"bowser\",\"bowser.default\"]}"
-				}
-			}
-		]
-	},
-	{
 		"function": "minecraft:set_nbt",
 		"tag": "{CustomModelData:110}",
 		"conditions": [
@@ -27,25 +8,6 @@
 				"entity": "this",
 				"predicate": {
 					"nbt": "{Tags:[\"bowser\",\"bowser.default\"]}"
-				}
-			}
-		]
-	},
-	{
-		"function": "minecraft:set_name",
-		"entity": "this",
-		"name": {
-			"text": "Captain Falcon",
-			"color": "red",
-			"bold": true,
-			"italic": false
-		},
-		"conditions": [
-			{
-				"condition": "minecraft:entity_properties",
-				"entity": "this",
-				"predicate": {
-					"nbt": "{Tags:[\"captainfalcon\",\"captainfalcon.default\"]}"
 				}
 			}
 		]
@@ -64,25 +26,6 @@
 		]
 	},
 	{
-		"function": "minecraft:set_name",
-		"entity": "this",
-		"name": {
-			"text": "Charizard",
-			"color": "gold",
-			"bold": true,
-			"italic": false
-		},
-		"conditions": [
-			{
-				"condition": "minecraft:entity_properties",
-				"entity": "this",
-				"predicate": {
-					"nbt": "{Tags:[\"charizard\",\"charizard.default\"]}"
-				}
-			}
-		]
-	},
-	{
 		"function": "minecraft:set_nbt",
 		"tag": "{CustomModelData:130}",
 		"conditions": [
@@ -91,25 +34,6 @@
 				"entity": "this",
 				"predicate": {
 					"nbt": "{Tags:[\"charizard\",\"charizard.default\"]}"
-				}
-			}
-		]
-	},
-	{
-		"function": "minecraft:set_name",
-		"entity": "this",
-		"name": {
-			"text": "Charizard",
-			"color": "black",
-			"bold": true,
-			"italic": false
-		},
-		"conditions": [
-			{
-				"condition": "minecraft:entity_properties",
-				"entity": "this",
-				"predicate": {
-					"nbt": "{Tags:[\"charizard\",\"charizard.shiny\"]}"
 				}
 			}
 		]
@@ -128,25 +52,6 @@
 		]
 	},
 	{
-		"function": "minecraft:set_name",
-		"entity": "this",
-		"name": {
-			"text": "Donkey Kong",
-			"color": "gold",
-			"bold": true,
-			"italic": false
-		},
-		"conditions": [
-			{
-				"condition": "minecraft:entity_properties",
-				"entity": "this",
-				"predicate": {
-					"nbt": "{Tags:[\"donkeykong\",\"donkeykong.default\"]}"
-				}
-			}
-		]
-	},
-	{
 		"function": "minecraft:set_nbt",
 		"tag": "{CustomModelData:140}",
 		"conditions": [
@@ -155,25 +60,6 @@
 				"entity": "this",
 				"predicate": {
 					"nbt": "{Tags:[\"donkeykong\",\"donkeykong.default\"]}"
-				}
-			}
-		]
-	},
-	{
-		"function": "minecraft:set_name",
-		"entity": "this",
-		"name": {
-			"text": "Donkey Kong",
-			"color": "white",
-			"bold": true,
-			"italic": false
-		},
-		"conditions": [
-			{
-				"condition": "minecraft:entity_properties",
-				"entity": "this",
-				"predicate": {
-					"nbt": "{Tags:[\"donkeykong\",\"donkeykong.super\"]}"
 				}
 			}
 		]
@@ -192,25 +78,6 @@
 		]
 	},
 	{
-		"function": "minecraft:set_name",
-		"entity": "this",
-		"name": {
-			"text": "Fox",
-			"color": "white",
-			"bold": true,
-			"italic": false
-		},
-		"conditions": [
-			{
-				"condition": "minecraft:entity_properties",
-				"entity": "this",
-				"predicate": {
-					"nbt": "{Tags:[\"fox\",\"fox.default\"]}"
-				}
-			}
-		]
-	},
-	{
 		"function": "minecraft:set_nbt",
 		"tag": "{CustomModelData:150}",
 		"conditions": [
@@ -219,25 +86,6 @@
 				"entity": "this",
 				"predicate": {
 					"nbt": "{Tags:[\"fox\",\"fox.default\"]}"
-				}
-			}
-		]
-	},
-	{
-		"function": "minecraft:set_name",
-		"entity": "this",
-		"name": {
-			"text": "Ganondorf",
-			"color": "black",
-			"bold": true,
-			"italic": false
-		},
-		"conditions": [
-			{
-				"condition": "minecraft:entity_properties",
-				"entity": "this",
-				"predicate": {
-					"nbt": "{Tags:[\"ganondorf\",\"ganondorf.default\"]}"
 				}
 			}
 		]
@@ -256,25 +104,6 @@
 		]
 	},
 	{
-		"function": "minecraft:set_name",
-		"entity": "this",
-		"name": {
-			"text": "Greninja",
-			"color": "aqua",
-			"bold": true,
-			"italic": false
-		},
-		"conditions": [
-			{
-				"condition": "minecraft:entity_properties",
-				"entity": "this",
-				"predicate": {
-					"nbt": "{Tags:[\"greninja\",\"greninja.default\"]}"
-				}
-			}
-		]
-	},
-	{
 		"function": "minecraft:set_nbt",
 		"tag": "{CustomModelData:170}",
 		"conditions": [
@@ -283,25 +112,6 @@
 				"entity": "this",
 				"predicate": {
 					"nbt": "{Tags:[\"greninja\",\"greninja.default\"]}"
-				}
-			}
-		]
-	},
-	{
-		"function": "minecraft:set_name",
-		"entity": "this",
-		"name": {
-			"text": "Greninja",
-			"color": "black",
-			"bold": true,
-			"italic": false
-		},
-		"conditions": [
-			{
-				"condition": "minecraft:entity_properties",
-				"entity": "this",
-				"predicate": {
-					"nbt": "{Tags:[\"greninja\",\"greninja.shiny\"]}"
 				}
 			}
 		]
@@ -320,25 +130,6 @@
 		]
 	},
 	{
-		"function": "minecraft:set_name",
-		"entity": "this",
-		"name": {
-			"text": "Hero",
-			"color": "yellow",
-			"bold": true,
-			"italic": false
-		},
-		"conditions": [
-			{
-				"condition": "minecraft:entity_properties",
-				"entity": "this",
-				"predicate": {
-					"nbt": "{Tags:[\"hero\",\"hero.default\"]}"
-				}
-			}
-		]
-	},
-	{
 		"function": "minecraft:set_nbt",
 		"tag": "{CustomModelData:180}",
 		"conditions": [
@@ -347,25 +138,6 @@
 				"entity": "this",
 				"predicate": {
 					"nbt": "{Tags:[\"hero\",\"hero.default\"]}"
-				}
-			}
-		]
-	},
-	{
-		"function": "minecraft:set_name",
-		"entity": "this",
-		"name": {
-			"text": "Joker",
-			"color": "dark_red",
-			"bold": true,
-			"italic": false
-		},
-		"conditions": [
-			{
-				"condition": "minecraft:entity_properties",
-				"entity": "this",
-				"predicate": {
-					"nbt": "{Tags:[\"joker\",\"joker.default\"]}"
 				}
 			}
 		]
@@ -384,25 +156,6 @@
 		]
 	},
 	{
-		"function": "minecraft:set_name",
-		"entity": "this",
-		"name": {
-			"text": "King K. Rool",
-			"color": "dark_green",
-			"bold": true,
-			"italic": false
-		},
-		"conditions": [
-			{
-				"condition": "minecraft:entity_properties",
-				"entity": "this",
-				"predicate": {
-					"nbt": "{Tags:[\"kingkrool\",\"kingkrool.default\"]}"
-				}
-			}
-		]
-	},
-	{
 		"function": "minecraft:set_nbt",
 		"tag": "{CustomModelData:200}",
 		"conditions": [
@@ -411,25 +164,6 @@
 				"entity": "this",
 				"predicate": {
 					"nbt": "{Tags:[\"kingkrool\",\"kingkrool.default\"]}"
-				}
-			}
-		]
-	},
-	{
-		"function": "minecraft:set_name",
-		"entity": "this",
-		"name": {
-			"text": "Kirby",
-			"color": "light_purple",
-			"bold": true,
-			"italic": false
-		},
-		"conditions": [
-			{
-				"condition": "minecraft:entity_properties",
-				"entity": "this",
-				"predicate": {
-					"nbt": "{Tags:[\"kirby\",\"kirby.default\"]}"
 				}
 			}
 		]
@@ -448,25 +182,6 @@
 		]
 	},
 	{
-		"function": "minecraft:set_name",
-		"entity": "this",
-		"name": {
-			"text": "Link",
-			"color": "dark_green",
-			"bold": true,
-			"italic": false
-		},
-		"conditions": [
-			{
-				"condition": "minecraft:entity_properties",
-				"entity": "this",
-				"predicate": {
-					"nbt": "{Tags:[\"link\",\"link.default\"]}"
-				}
-			}
-		]
-	},
-	{
 		"function": "minecraft:set_nbt",
 		"tag": "{CustomModelData:220}",
 		"conditions": [
@@ -475,25 +190,6 @@
 				"entity": "this",
 				"predicate": {
 					"nbt": "{Tags:[\"link\",\"link.default\"]}"
-				}
-			}
-		]
-	},
-	{
-		"function": "minecraft:set_name",
-		"entity": "this",
-		"name": {
-			"text": "Dark Link",
-			"color": "dark_gray",
-			"bold": true,
-			"italic": false
-		},
-		"conditions": [
-			{
-				"condition": "minecraft:entity_properties",
-				"entity": "this",
-				"predicate": {
-					"nbt": "{Tags:[\"link\",\"link.dark\"]}"
 				}
 			}
 		]
@@ -512,25 +208,6 @@
 		]
 	},
 	{
-		"function": "minecraft:set_name",
-		"entity": "this",
-		"name": {
-			"text": "Link",
-			"color": "dark_green",
-			"bold": true,
-			"italic": false
-		},
-		"conditions": [
-			{
-				"condition": "minecraft:entity_properties",
-				"entity": "this",
-				"predicate": {
-					"nbt": "{Tags:[\"link\",\"link.goron\"]}"
-				}
-			}
-		]
-	},
-	{
 		"function": "minecraft:set_nbt",
 		"tag": "{CustomModelData:222}",
 		"conditions": [
@@ -539,25 +216,6 @@
 				"entity": "this",
 				"predicate": {
 					"nbt": "{Tags:[\"link\",\"link.goron\"]}"
-				}
-			}
-		]
-	},
-	{
-		"function": "minecraft:set_name",
-		"entity": "this",
-		"name": {
-			"text": "Link",
-			"color": "dark_green",
-			"bold": true,
-			"italic": false
-		},
-		"conditions": [
-			{
-				"condition": "minecraft:entity_properties",
-				"entity": "this",
-				"predicate": {
-					"nbt": "{Tags:[\"link\",\"link.zora\"]}"
 				}
 			}
 		]
@@ -576,25 +234,6 @@
 		]
 	},
 	{
-		"function": "minecraft:set_name",
-		"entity": "this",
-		"name": {
-			"text": "Mario",
-			"color": "red",
-			"bold": true,
-			"italic": false
-		},
-		"conditions": [
-			{
-				"condition": "minecraft:entity_properties",
-				"entity": "this",
-				"predicate": {
-					"nbt": "{Tags:[\"mario\",\"mario.default\"]}"
-				}
-			}
-		]
-	},
-	{
 		"function": "minecraft:set_nbt",
 		"tag": "{CustomModelData:230}",
 		"conditions": [
@@ -603,25 +242,6 @@
 				"entity": "this",
 				"predicate": {
 					"nbt": "{Tags:[\"mario\",\"mario.default\"]}"
-				}
-			}
-		]
-	},
-	{
-		"function": "minecraft:set_name",
-		"entity": "this",
-		"name": {
-			"text": "Golden Mario",
-			"color": "gold",
-			"bold": true,
-			"italic": false
-		},
-		"conditions": [
-			{
-				"condition": "minecraft:entity_properties",
-				"entity": "this",
-				"predicate": {
-					"nbt": "{Tags:[\"mario\",\"mario.gold\"]}"
 				}
 			}
 		]
@@ -640,25 +260,6 @@
 		]
 	},
 	{
-		"function": "minecraft:set_name",
-		"entity": "this",
-		"name": {
-			"text": "Megaman",
-			"color": "dark_aqua",
-			"bold": true,
-			"italic": false
-		},
-		"conditions": [
-			{
-				"condition": "minecraft:entity_properties",
-				"entity": "this",
-				"predicate": {
-					"nbt": "{Tags:[\"megaman\",\"megaman.default\"]}"
-				}
-			}
-		]
-	},
-	{
 		"function": "minecraft:set_nbt",
 		"tag": "{CustomModelData:240}",
 		"conditions": [
@@ -667,25 +268,6 @@
 				"entity": "this",
 				"predicate": {
 					"nbt": "{Tags:[\"megaman\",\"megaman.default\"]}"
-				}
-			}
-		]
-	},
-	{
-		"function": "minecraft:set_name",
-		"entity": "this",
-		"name": {
-			"text": "Ness",
-			"color": "dark_purple",
-			"bold": true,
-			"italic": false
-		},
-		"conditions": [
-			{
-				"condition": "minecraft:entity_properties",
-				"entity": "this",
-				"predicate": {
-					"nbt": "{Tags:[\"ness\",\"ness.default\"]}"
 				}
 			}
 		]
@@ -704,25 +286,6 @@
 		]
 	},
 	{
-		"function": "minecraft:set_name",
-		"entity": "this",
-		"name": {
-			"text": "Ness",
-			"color": "dark_aqua",
-			"bold": true,
-			"italic": false
-		},
-		"conditions": [
-			{
-				"condition": "minecraft:entity_properties",
-				"entity": "this",
-				"predicate": {
-					"nbt": "{Tags:[\"ness\",\"ness.moonside\"]}"
-				}
-			}
-		]
-	},
-	{
 		"function": "minecraft:set_nbt",
 		"tag": "{CustomModelData:251}",
 		"conditions": [
@@ -731,25 +294,6 @@
 				"entity": "this",
 				"predicate": {
 					"nbt": "{Tags:[\"ness\",\"ness.moonside\"]}"
-				}
-			}
-		]
-	},
-	{
-		"function": "minecraft:set_name",
-		"entity": "this",
-		"name": {
-			"text": "Ness",
-			"color": "aqua",
-			"bold": true,
-			"italic": false
-		},
-		"conditions": [
-			{
-				"condition": "minecraft:entity_properties",
-				"entity": "this",
-				"predicate": {
-					"nbt": "{Tags:[\"ness\",\"ness.pajamas\"]}"
 				}
 			}
 		]
@@ -768,25 +312,6 @@
 		]
 	},
 	{
-		"function": "minecraft:set_name",
-		"entity": "this",
-		"name": {
-			"text": "Pit",
-			"color": "white",
-			"bold": true,
-			"italic": false
-		},
-		"conditions": [
-			{
-				"condition": "minecraft:entity_properties",
-				"entity": "this",
-				"predicate": {
-					"nbt": "{Tags:[\"pit\",\"pit.default\"]}"
-				}
-			}
-		]
-	},
-	{
 		"function": "minecraft:set_nbt",
 		"tag": "{CustomModelData:260}",
 		"conditions": [
@@ -795,25 +320,6 @@
 				"entity": "this",
 				"predicate": {
 					"nbt": "{Tags:[\"pit\",\"pit.default\"]}"
-				}
-			}
-		]
-	},
-	{
-		"function": "minecraft:set_name",
-		"entity": "this",
-		"name": {
-			"text": "Ryu",
-			"color": "white",
-			"bold": true,
-			"italic": false
-		},
-		"conditions": [
-			{
-				"condition": "minecraft:entity_properties",
-				"entity": "this",
-				"predicate": {
-					"nbt": "{Tags:[\"ryu\",\"ryu.default\"]}"
 				}
 			}
 		]
@@ -832,25 +338,6 @@
 		]
 	},
 	{
-		"function": "minecraft:set_name",
-		"entity": "this",
-		"name": {
-			"text": "Evil Ryu",
-			"color": "dark_gray",
-			"bold": true,
-			"italic": false
-		},
-		"conditions": [
-			{
-				"condition": "minecraft:entity_properties",
-				"entity": "this",
-				"predicate": {
-					"nbt": "{Tags:[\"ryu\",\"abilityActive\"]}"
-				}
-			}
-		]
-	},
-	{
 		"function": "minecraft:set_nbt",
 		"tag": "{CustomModelData:271}",
 		"conditions": [
@@ -859,25 +346,6 @@
 				"entity": "this",
 				"predicate": {
 					"nbt": "{Tags:[\"ryu\",\"abilityActive\"]}"
-				}
-			}
-		]
-	},
-	{
-		"function": "minecraft:set_name",
-		"entity": "this",
-		"name": {
-			"text": "Samus",
-			"color": "gold",
-			"bold": true,
-			"italic": false
-		},
-		"conditions": [
-			{
-				"condition": "minecraft:entity_properties",
-				"entity": "this",
-				"predicate": {
-					"nbt": "{Tags:[\"samus\",\"samus.default\"]}"
 				}
 			}
 		]
@@ -896,25 +364,6 @@
 		]
 	},
 	{
-		"function": "minecraft:set_name",
-		"entity": "this",
-		"name": {
-			"text": "Samus",
-			"color": "aqua",
-			"bold": true,
-			"italic": false
-		},
-		"conditions": [
-			{
-				"condition": "minecraft:entity_properties",
-				"entity": "this",
-				"predicate": {
-					"nbt": "{Tags:[\"samus\",\"samus.gravity\"]}"
-				}
-			}
-		]
-	},
-	{
 		"function": "minecraft:set_nbt",
 		"tag": "{CustomModelData:281}",
 		"conditions": [
@@ -923,25 +372,6 @@
 				"entity": "this",
 				"predicate": {
 					"nbt": "{Tags:[\"samus\",\"samus.gravity\"]}"
-				}
-			}
-		]
-	},
-	{
-		"function": "minecraft:set_name",
-		"entity": "this",
-		"name": {
-			"text": "Samus",
-			"color": "red",
-			"bold": true,
-			"italic": false
-		},
-		"conditions": [
-			{
-				"condition": "minecraft:entity_properties",
-				"entity": "this",
-				"predicate": {
-					"nbt": "{Tags:[\"samus\",\"samus.phazon\"]}"
 				}
 			}
 		]
@@ -960,25 +390,6 @@
 		]
 	},
 	{
-		"function": "minecraft:set_name",
-		"entity": "this",
-		"name": {
-			"text": "Snake",
-			"color": "gray",
-			"bold": true,
-			"italic": false
-		},
-		"conditions": [
-			{
-				"condition": "minecraft:entity_properties",
-				"entity": "this",
-				"predicate": {
-					"nbt": "{Tags:[\"snake\",\"snake.default\"]}"
-				}
-			}
-		]
-	},
-	{
 		"function": "minecraft:set_nbt",
 		"tag": "{CustomModelData:290}",
 		"conditions": [
@@ -987,25 +398,6 @@
 				"entity": "this",
 				"predicate": {
 					"nbt": "{Tags:[\"snake\",\"snake.default\"]}"
-				}
-			}
-		]
-	},
-	{
-		"function": "minecraft:set_name",
-		"entity": "this",
-		"name": {
-			"text": "Sonic",
-			"color": "blue",
-			"bold": true,
-			"italic": false
-		},
-		"conditions": [
-			{
-				"condition": "minecraft:entity_properties",
-				"entity": "this",
-				"predicate": {
-					"nbt": "{Tags:[\"sonic\",\"sonic.default\"]}"
 				}
 			}
 		]
