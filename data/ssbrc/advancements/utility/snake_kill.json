@@ -23,6 +23,6 @@
 		}
 	},
 	"rewards": {
-		"function": "ssbrc:characters/snake/get_kill"
+		"function": "ssbrc:characters/snake/logic/get_kill"
 	}
 }

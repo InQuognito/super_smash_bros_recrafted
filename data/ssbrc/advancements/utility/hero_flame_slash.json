@@ -21,6 +21,6 @@
 		}
 	},
 	"rewards": {
-		"function": "ssbrc:characters/hero/magic/flame_slash"
+		"function": "ssbrc:characters/hero/logic/magic/flame_slash"
 	}
 }

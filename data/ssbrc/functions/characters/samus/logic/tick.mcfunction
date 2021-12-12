@@ -16,4 +16,8 @@ title @s[scores={samus.energy=100}] actionbar [{"text":"Energy: ","bold":true,"c
 
 scoreboard players add #samusEnergy temp 1
 execute if score #samusEnergy temp matches 2.. run scoreboard players add @s[scores={samus.energy=..99}] samus.energy 1
+execute if score #samusEnergy temp matches 2.. run scoreboard players add @s[scores={timer=1..,samus.energy=..98}] samus.energy 2
 execute if score #samusEnergy temp matches 2.. run scoreboard players set #samusEnergy temp 0
+
+scoreboard players remove @s[scores={timer=1..}] timer 1
+scoreboard players reset @s[scores={timer=..0}] timer
