@@ -5,5 +5,5 @@ tp @e[tag=samus.plasmaBeam,tag=!adjusted] ^ ^-0.3 ^1 ~ ~
 function ssbrc:characters/samus/logic/weapons/plasma_beam/id
 
 tag @e[tag=samus.plasmaBeam,tag=!adjusted] add adjusted
-scoreboard players set @s samus.plasmaBeam 50
+scoreboard players set @s samus.plasmaBeam 20
 scoreboard players remove @s samus.energy 40
