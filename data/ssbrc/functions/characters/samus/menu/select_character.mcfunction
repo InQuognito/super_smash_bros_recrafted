@@ -1,6 +1,14 @@
-tellraw @s[tag=!samus] {"text":"You have selected Samus!","color":"gold"}
+tag @s[tag=!samus.gravity,tag=!samus.phazon] add samus.default
+
+tellraw @s [{"text":"You have selected ","color":"white"},{"text":"Samus","color":"gold"},{"text":"!","color":"white"}]
+
+tellraw @s[tag=samus.default] [{"text":"Costume: ","color":"yellow"},{"text":"Default","color":"gold"}]
+tellraw @s[tag=samus.gravity] [{"text":"Costume: ","color":"yellow"},{"text":"Gravity Suit","color":"aqua"}]
+tellraw @s[tag=samus.phazon] [{"text":"Costume: ","color":"yellow"},{"text":"Phazon","color":"red"}]
+
 function ssbrc:logic/resets/remove_tags
-tag @s[tag=!samus] add samus
+tag @s add samus
+
 tag @s add characterPicked
 
 team leave @s

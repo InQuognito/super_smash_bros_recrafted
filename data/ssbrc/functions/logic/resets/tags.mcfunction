@@ -110,10 +110,26 @@ tag @s[tag=favorite.slot3.snake] add favorite.slot3
 tag @s[tag=favorite.slot3.sonic] add favorite.slot3
 
 # Costumes
-tag @s remove default
-tag @s remove dark
-tag @s remove goron
-tag @s remove zora
+execute as @a run function ssbrc:characters/bowser/menu/costumes/reset
+execute as @a run function ssbrc:characters/captainfalcon/menu/costumes/reset
+execute as @a run function ssbrc:characters/charizard/menu/costumes/reset
+execute as @a run function ssbrc:characters/donkeykong/menu/costumes/reset
+execute as @a run function ssbrc:characters/fox/menu/costumes/reset
+execute as @a run function ssbrc:characters/ganondorf/menu/costumes/reset
+execute as @a run function ssbrc:characters/greninja/menu/costumes/reset
+execute as @a run function ssbrc:characters/hero/menu/costumes/reset
+execute as @a run function ssbrc:characters/joker/menu/costumes/reset
+execute as @a run function ssbrc:characters/kingkrool/menu/costumes/reset
+execute as @a run function ssbrc:characters/kirby/menu/costumes/reset
+execute as @a run function ssbrc:characters/link/menu/costumes/reset
+execute as @a run function ssbrc:characters/mario/menu/costumes/reset
+execute as @a run function ssbrc:characters/megaman/menu/costumes/reset
+execute as @a run function ssbrc:characters/ness/menu/costumes/reset
+execute as @a run function ssbrc:characters/pit/menu/costumes/reset
+execute as @a run function ssbrc:characters/ryu/menu/costumes/reset
+execute as @a run function ssbrc:characters/samus/menu/costumes/reset
+execute as @a run function ssbrc:characters/snake/menu/costumes/reset
+execute as @a run function ssbrc:characters/sonic/menu/costumes/reset
 
 # Maps
 tag @s remove battlefield

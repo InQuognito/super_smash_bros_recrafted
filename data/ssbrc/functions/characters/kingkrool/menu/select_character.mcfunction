@@ -1,6 +1,12 @@
-tellraw @s[tag=!kingkrool] [{"text":"You have selected ","color":"white"},{"text":"King K. Rool","color":"dark_green"},{"text":"!","color":"white"}]
+tag @s add kingkrool.default
+
+tellraw @s [{"text":"You have selected ","color":"white"},{"text":"King K. Rool","color":"dark_green"},{"text":"!","color":"white"}]
+
+tellraw @s[tag=kingkrool.default] [{"text":"Costume: ","color":"yellow"},{"text":"Default","color":"dark_green"}]
+
 function ssbrc:logic/resets/remove_tags
-tag @s[tag=!kingkrool] add kingkrool
+tag @s add kingkrool
+
 tag @s add characterPicked
 
 team leave @s

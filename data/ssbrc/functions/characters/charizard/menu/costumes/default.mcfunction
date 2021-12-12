@@ -1,4 +1,4 @@
 function ssbrc:characters/charizard/menu/costumes/reset
-tag @s add default
+tag @s add charizard.default
 
 function ssbrc:characters/charizard/menu/select_character

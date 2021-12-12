@@ -1,6 +1,12 @@
-tellraw @s[tag=!snake] {"text":"You have selected Snake!","color":"gray"}
+tag @s add snake.default
+
+tellraw @s [{"text":"You have selected ","color":"white"},{"text":"Snake","color":"gray"},{"text":"!","color":"white"}]
+
+tellraw @s[tag=snake.default] [{"text":"Costume: ","color":"yellow"},{"text":"Default","color":"gray"}]
+
 function ssbrc:logic/resets/remove_tags
-tag @s[tag=!snake] add snake
+tag @s add snake
+
 tag @s add characterPicked
 
 team leave @s
