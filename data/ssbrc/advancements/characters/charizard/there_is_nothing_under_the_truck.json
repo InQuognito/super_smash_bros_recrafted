@@ -2,7 +2,7 @@
 	"display": {
 		"icon": {
 			"item": "minecraft:barrier",
-			"nbt": "{CustomModelData:140}"
+			"nbt": "{CustomModelData:130}"
 		},
 		"title": {
 			"text": "There Is Nothing Under the Truck",
