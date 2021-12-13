@@ -1,0 +1,99 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:barrier",
+			"nbt": "{CustomModelData:230}"
+		},
+		"title": {
+			"text": "Charizard",
+			"color": "red",
+			"bold": true,
+			"italic": false,
+			"extra": [
+				{
+					"text": " Mastery",
+					"color": "white",
+					"bold": true,
+					"italic": false
+				}
+			]
+		},
+		"description": {
+			"text": "Complete challenges and feats to unlock skins!",
+			"color": "gray",
+			"bold": false,
+			"italic": false
+		},
+		"frame": "challenge",
+		"show_toast": false,
+		"announce_to_chat": false,
+		"background": "minecraft:textures/gui/advancements/backgrounds/stone.png"
+	},
+	"criteria": {
+		"novice": {
+			"trigger": "minecraft:impossible"
+		},
+		"veteran": {
+			"trigger": "minecraft:impossible"
+		},
+		"survivalist": {
+			"trigger": "minecraft:impossible"
+		},
+		"slayer": {
+			"trigger": "minecraft:impossible"
+		},
+		"master": {
+			"trigger": "minecraft:impossible"
+		},
+		"a_shiny_encounter": {
+			"trigger": "minecraft:impossible"
+		},
+		"rival_battle": {
+			"trigger": "minecraft:impossible"
+		},
+		"the_best_of_the_worst": {
+			"trigger": "minecraft:impossible"
+		},
+		"there_is_nothing_under_the_truck": {
+			"trigger": "minecraft:impossible"
+		},
+		"world_champion": {
+			"trigger": "minecraft:impossible"
+		}
+	},
+	"requirements": [
+		[
+			"novice"
+		],
+		[
+			"veteran"
+		],
+		[
+			"survivalist"
+		],
+		[
+			"slayer"
+		],
+		[
+			"master"
+		],
+		[
+			"a_shiny_encounter"
+		],
+		[
+			"rival_battle"
+		],
+		[
+			"the_best_of_the_worst"
+		],
+		[
+			"there_is_nothing_under_the_truck"
+		],
+		[
+			"world_champion"
+		]
+	],
+	"rewards": {
+		"function": "ssbrc:advancements/charizard/mastery"
+	}
+}
