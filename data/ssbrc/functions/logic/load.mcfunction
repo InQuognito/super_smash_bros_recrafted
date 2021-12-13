@@ -22,3 +22,18 @@ time set noon
 weather clear
 
 setworldspawn -521 5 55
+
+###########################################################
+# REMOVE - UNLOCKS (MOST) COSTUMES ON RELOAD - DEBUG ONLY #
+###########################################################
+advancement grant @a only ssbrc:characters/donkeykong/costumes/super
+advancement grant @a only ssbrc:characters/hero/costumes/erdick
+advancement grant @a only ssbrc:characters/hero/costumes/rek
+advancement grant @a only ssbrc:characters/link/costumes/dark
+advancement grant @a only ssbrc:characters/link/costumes/goron
+advancement grant @a only ssbrc:characters/link/costumes/zora
+advancement grant @a only ssbrc:characters/ness/costumes/moonside
+advancement grant @a only ssbrc:characters/ness/costumes/pajamas
+advancement grant @a only ssbrc:characters/samus/costumes/gravity
+advancement grant @a only ssbrc:characters/samus/costumes/phazon
+###########################################################
