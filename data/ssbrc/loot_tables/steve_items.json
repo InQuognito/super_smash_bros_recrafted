@@ -6,17 +6,17 @@
 			"entries": [
 				{
 					"type": "minecraft:item",
-					"weight": 1,
+					"weight": 10,
 					"name": "minecraft:stick"
 				},
 				{
 					"type": "minecraft:item",
-					"weight": 1,
+					"weight": 7,
 					"name": "minecraft:oak_planks"
 				},
 				{
 					"type": "minecraft:item",
-					"weight": 1,
+					"weight": 15,
 					"name": "minecraft:gold_ingot",
 					"conditions": [
 						{
@@ -33,7 +33,7 @@
 				},
 				{
 					"type": "minecraft:loot_table",
-					"weight": 1,
+					"weight": 68,
 					"name": "ssbrc:steve_items_tiers",
 					"conditions": [
 						{
