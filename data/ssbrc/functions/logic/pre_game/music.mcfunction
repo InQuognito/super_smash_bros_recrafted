@@ -1,5 +1,5 @@
-scoreboard players set max random 2
-function ssbrc:math/rng/lcg_music
+execute unless score $start map matches 1 run scoreboard players set max random 2
+execute unless score $start map matches 1 run function ssbrc:math/rng/lcg_music
 
 execute if score $battlefield map matches 1 if score result_music random matches 0 run tellraw @a [{"text":"Now Playing: ","bold":true,"color":"gold"},{"text":"Aquos Arena","color":"yellow"}]
 execute if score $battlefield map matches 1 if score result_music random matches 0 run function ssbrc:logic/pre_game/music_loop
@@ -89,12 +89,24 @@ execute if score $magicant map matches 1 if score result_music random matches 1 
 execute if score $magicant map matches 1 if score result_music random matches 1 run tellraw @a [{"text":"Now Playing: ","bold":true,"color":"gold"},{"text":"Eight Melodies","color":"yellow"}]
 execute if score $magicant map matches 1 if score result_music random matches 1 run schedule function ssbrc:logic/pre_game/music_loop 180t replace
 
-execute if score $mementos map matches 1 if score result_music random matches 0 as @a at @s run playsound ssbrc:axe_to_grind_intro music @s
-execute if score $mementos map matches 1 if score result_music random matches 0 run tellraw @a [{"text":"Now Playing: ","bold":true,"color":"gold"},{"text":"Axe to Grind","color":"yellow"}]
-execute if score $mementos map matches 1 if score result_music random matches 0 run schedule function ssbrc:logic/pre_game/music_loop 280t replace
-execute if score $mementos map matches 1 if score result_music random matches 1 as @a at @s run playsound ssbrc:take_over_intro music @s
-execute if score $mementos map matches 1 if score result_music random matches 1 run tellraw @a [{"text":"Now Playing: ","bold":true,"color":"gold"},{"text":"Take Over","color":"yellow"}]
-execute if score $mementos map matches 1 if score result_music random matches 1 run schedule function ssbrc:logic/pre_game/music_loop 320t replace
+execute if score $mementosType map matches 1 if score result_music random matches 0 as @a at @s run playsound ssbrc:light_in_starless_sky_intro music @s
+execute if score $mementosType map matches 1 if score result_music random matches 0 run tellraw @a [{"text":"Now Playing: ","bold":true,"color":"gold"},{"text":"Light in Starless Sky","color":"yellow"}]
+execute if score $mementosType map matches 1 if score result_music random matches 0 run schedule function ssbrc:logic/pre_game/music_loop 440t replace
+execute if score $mementosType map matches 1 if score result_music random matches 1 as @a at @s run playsound ssbrc:mass_destruction_dual_mix_part_1 music @s
+execute if score $mementosType map matches 1 if score result_music random matches 1 run tellraw @a [{"text":"Now Playing: ","bold":true,"color":"gold"},{"text":"Mass Destruction - Dual Mix","color":"yellow"}]
+execute if score $mementosType map matches 1 if score result_music random matches 1 run schedule function ssbrc:logic/pre_game/music_loop 1680t replace
+execute if score $mementosType map matches 2 if score result_music random matches 0 as @a at @s run playsound ssbrc:reach_out_to_the_truth_intro music @s
+execute if score $mementosType map matches 2 if score result_music random matches 0 run tellraw @a [{"text":"Now Playing: ","bold":true,"color":"gold"},{"text":"Reach Out to the Truth","color":"yellow"}]
+execute if score $mementosType map matches 2 if score result_music random matches 0 run schedule function ssbrc:logic/pre_game/music_loop 400t replace
+execute if score $mementosType map matches 2 if score result_music random matches 1 as @a at @s run playsound ssbrc:time_to_make_history_intro music @s
+execute if score $mementosType map matches 2 if score result_music random matches 1 run tellraw @a [{"text":"Now Playing: ","bold":true,"color":"gold"},{"text":"Time to Make History","color":"yellow"}]
+execute if score $mementosType map matches 2 if score result_music random matches 1 run schedule function ssbrc:logic/pre_game/music_loop 120t replace
+execute if score $mementosType map matches 3 if score result_music random matches 0 as @a at @s run playsound ssbrc:axe_to_grind_intro music @s
+execute if score $mementosType map matches 3 if score result_music random matches 0 run tellraw @a [{"text":"Now Playing: ","bold":true,"color":"gold"},{"text":"Axe to Grind","color":"yellow"}]
+execute if score $mementosType map matches 3 if score result_music random matches 0 run schedule function ssbrc:logic/pre_game/music_loop 280t replace
+execute if score $mementosType map matches 3 if score result_music random matches 1 as @a at @s run playsound ssbrc:take_over_intro music @s
+execute if score $mementosType map matches 3 if score result_music random matches 1 run tellraw @a [{"text":"Now Playing: ","bold":true,"color":"gold"},{"text":"Take Over","color":"yellow"}]
+execute if score $mementosType map matches 3 if score result_music random matches 1 run schedule function ssbrc:logic/pre_game/music_loop 320t replace
 
 execute if score $mushroomKingdom map matches 1 if score result_music random matches 0 as @a at @s run playsound ssbrc:bob_omb_battlefield_intro music @s
 execute if score $mushroomKingdom map matches 1 if score result_music random matches 0 run tellraw @a [{"text":"Now Playing: ","bold":true,"color":"gold"},{"text":"Bob-Omb Battlefield","color":"yellow"}]

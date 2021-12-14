@@ -3,7 +3,15 @@ scoreboard players set $mementos map 1
 scoreboard players set #mapPicked mapVote 1
 forceload add -1248 800 -1121 959
 
-function ssbrc:maps/mementos/red
+scoreboard players set max random 3
+function ssbrc:math/rng/lcg_music
+
+execute if score result random matches 0 run scoreboard players set $mementosType map 1
+execute if score result random matches 0 run function ssbrc:maps/mementos/blue
+execute if score result random matches 1 run scoreboard players set $mementosType map 2
+execute if score result random matches 1 run function ssbrc:maps/mementos/yellow
+execute if score result random matches 2 run scoreboard players set $mementosType map 3
+execute if score result random matches 2 run function ssbrc:maps/mementos/red
 
 kill @e[type=!minecraft:player]
 

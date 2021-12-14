@@ -63,10 +63,18 @@ execute if score $magicant map matches 1 if score result_music random matches 0 
 execute if score $magicant map matches 1 if score result_music random matches 1 as @a at @s run playsound ssbrc:eight_melodies music @s
 execute if score $magicant map matches 1 if score result_music random matches 1 run schedule function ssbrc:logic/pre_game/music_loop 2380t replace
 
-execute if score $mementos map matches 1 if score result_music random matches 0 as @a at @s run playsound ssbrc:axe_to_grind music @s
-execute if score $mementos map matches 1 if score result_music random matches 0 run schedule function ssbrc:logic/pre_game/music_loop 3320t replace
-execute if score $mementos map matches 1 if score result_music random matches 1 as @a at @s run playsound ssbrc:take_over music @s
-execute if score $mementos map matches 1 if score result_music random matches 1 run schedule function ssbrc:logic/pre_game/music_loop 3360t replace
+execute if score $mementosType map matches 1 if score result_music random matches 0 as @a at @s run playsound ssbrc:light_in_starless_sky music @s
+execute if score $mementosType map matches 1 if score result_music random matches 0 run schedule function ssbrc:logic/pre_game/music_loop 4460t replace
+execute if score $mementosType map matches 1 if score result_music random matches 1 as @a at @s run playsound ssbrc:mass_destruction_dual_mix_part_2 music @s
+execute if score $mementosType map matches 1 if score result_music random matches 1 run schedule function ssbrc:logic/pre_game/music 1680t replace
+execute if score $mementosType map matches 2 if score result_music random matches 0 as @a at @s run playsound ssbrc:reach_out_to_the_truth music @s
+execute if score $mementosType map matches 2 if score result_music random matches 0 run schedule function ssbrc:logic/pre_game/music_loop 1580t replace
+execute if score $mementosType map matches 2 if score result_music random matches 1 as @a at @s run playsound ssbrc:time_to_make_history music @s
+execute if score $mementosType map matches 2 if score result_music random matches 1 run schedule function ssbrc:logic/pre_game/music_loop 1400t replace
+execute if score $mementosType map matches 3 if score result_music random matches 0 as @a at @s run playsound ssbrc:axe_to_grind music @s
+execute if score $mementosType map matches 3 if score result_music random matches 0 run schedule function ssbrc:logic/pre_game/music_loop 3320t replace
+execute if score $mementosType map matches 3 if score result_music random matches 1 as @a at @s run playsound ssbrc:take_over music @s
+execute if score $mementosType map matches 3 if score result_music random matches 1 run schedule function ssbrc:logic/pre_game/music_loop 3360t replace
 
 execute if score $mushroomKingdom map matches 1 if score result_music random matches 0 as @a at @s run playsound ssbrc:bob_omb_battlefield music @s
 execute if score $mushroomKingdom map matches 1 if score result_music random matches 0 run schedule function ssbrc:logic/pre_game/music_loop 1360t replace
