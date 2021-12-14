@@ -38,4 +38,3 @@ clear @s[tag=captainfalcon] minecraft:arrow
 give @s[tag=captainfalcon] minecraft:arrow 5
 give @s[tag=charizard] minecraft:arrow 4
 give @s[tag=fox] minecraft:arrow 4
-give @s[tag=samus] minecraft:arrow 5
