@@ -20,6 +20,7 @@ scoreboard players reset @s ryu.k
 scoreboard players reset @s samus.k
 scoreboard players reset @s snake.k
 scoreboard players reset @s sonic.k
+scoreboard players reset @s steve.k
 
 scoreboard players reset @s bowser.gP
 scoreboard players reset @s captainfalcon.gP
@@ -41,6 +42,7 @@ scoreboard players reset @s ryu.gP
 scoreboard players reset @s samus.gP
 scoreboard players reset @s snake.gP
 scoreboard players reset @s sonic.gP
+scoreboard players reset @s steve.gP
 
 scoreboard players reset @s bowser.wS
 scoreboard players reset @s captainfalcon.wS
@@ -62,6 +64,7 @@ scoreboard players reset @s ryu.wS
 scoreboard players reset @s samus.wS
 scoreboard players reset @s snake.wS
 scoreboard players reset @s sonic.wS
+scoreboard players reset @s steve.wS
 
 function ssbrc:logic/resets/favorites/slot_1
 function ssbrc:logic/resets/favorites/slot_2

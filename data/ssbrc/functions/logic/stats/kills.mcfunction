@@ -19,5 +19,6 @@ scoreboard players add @s[tag=ryu] ryu.k 1
 scoreboard players add @s[tag=samus] samus.k 1
 scoreboard players add @s[tag=snake] snake.k 1
 scoreboard players add @s[tag=sonic] sonic.k 1
+scoreboard players add @s[tag=steve] steve.k 1
 
 advancement revoke @s only ssbrc:utility/kill_player

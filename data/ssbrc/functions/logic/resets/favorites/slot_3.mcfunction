@@ -20,3 +20,4 @@ tag @a remove favorite.slot3.ryu
 tag @a remove favorite.slot3.samus
 tag @a remove favorite.slot3.snake
 tag @a remove favorite.slot3.sonic
+tag @a remove favorite.slot3.steve

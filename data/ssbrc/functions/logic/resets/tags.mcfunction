@@ -19,6 +19,7 @@ tag @s remove ryu
 tag @s remove samus
 tag @s remove snake
 tag @s remove sonic
+tag @s remove steve
 
 # Favorites
 tag @s remove favoritetry.bowser
@@ -41,6 +42,7 @@ tag @s remove favoritetry.ryu
 tag @s remove favoritetry.samus
 tag @s remove favoritetry.snake
 tag @s remove favoritetry.sonic
+tag @s remove favoritetry.steve
 
 tag @s remove favorite.slot1
 tag @s remove favorite.slot2
@@ -66,6 +68,7 @@ tag @s[tag=favorite.slot1.ryu] add favorite.slot1
 tag @s[tag=favorite.slot1.samus] add favorite.slot1
 tag @s[tag=favorite.slot1.snake] add favorite.slot1
 tag @s[tag=favorite.slot1.sonic] add favorite.slot1
+tag @s[tag=favorite.slot1.steve] add favorite.steve
 
 tag @s[tag=favorite.slot2.bowser] add favorite.slot2
 tag @s[tag=favorite.slot2.captainfalcon] add favorite.slot2
@@ -87,6 +90,7 @@ tag @s[tag=favorite.slot2.ryu] add favorite.slot2
 tag @s[tag=favorite.slot2.samus] add favorite.slot2
 tag @s[tag=favorite.slot2.snake] add favorite.slot2
 tag @s[tag=favorite.slot2.sonic] add favorite.slot2
+tag @s[tag=favorite.slot2.steve] add favorite.slot2
 
 tag @s[tag=favorite.slot3.bowser] add favorite.slot3
 tag @s[tag=favorite.slot3.captainfalcon] add favorite.slot3
@@ -108,6 +112,7 @@ tag @s[tag=favorite.slot3.ryu] add favorite.slot3
 tag @s[tag=favorite.slot3.samus] add favorite.slot3
 tag @s[tag=favorite.slot3.snake] add favorite.slot3
 tag @s[tag=favorite.slot3.sonic] add favorite.slot3
+tag @s[tag=favorite.slot3.steve] add favorite.steve
 
 # Costumes
 execute as @a run function ssbrc:characters/bowser/menu/costumes/reset
@@ -130,6 +135,7 @@ execute as @a run function ssbrc:characters/ryu/menu/costumes/reset
 execute as @a run function ssbrc:characters/samus/menu/costumes/reset
 execute as @a run function ssbrc:characters/snake/menu/costumes/reset
 execute as @a run function ssbrc:characters/sonic/menu/costumes/reset
+execute as @a run function ssbrc:characters/steve/menu/costumes/reset
 
 # Maps
 tag @s remove battlefield

@@ -50,6 +50,7 @@ execute as @s[tag=ryu] run function ssbrc:characters/ryu/kit
 execute as @s[tag=samus] run function ssbrc:characters/samus/kit
 execute as @s[tag=snake] run function ssbrc:characters/snake/kit
 execute as @s[tag=sonic] run function ssbrc:characters/sonic/kit
+execute as @s[tag=steve] run function ssbrc:characters/steve/kit
 
 item modify entity @s armor.feet ssbrc:kits/enchantments/feather_falling
 

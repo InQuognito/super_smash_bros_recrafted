@@ -9,8 +9,6 @@ effect give @a[tag=donkeykong] minecraft:jump_boost 1000000 4 true
 effect give @a[tag=ganondorf] minecraft:jump_boost 1000000 4 true
 effect give @a[tag=kingkrool] minecraft:jump_boost 1000000 4 true
 
-effect give @a[tag=sonic] minecraft:speed 1000000 0 true
-
 effect give @a[tag=greninja] minecraft:conduit_power 1000000 255 true
 effect give @a[tag=greninja] minecraft:dolphins_grace 1000000 255 true
 

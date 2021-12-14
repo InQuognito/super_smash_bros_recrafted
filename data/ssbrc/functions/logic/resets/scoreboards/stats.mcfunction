@@ -19,6 +19,7 @@ scoreboard objectives add ryu.k dummy
 scoreboard objectives add samus.k dummy
 scoreboard objectives add snake.k dummy
 scoreboard objectives add sonic.k dummy
+scoreboard objectives add steve.k dummy
 
 # Games Played
 scoreboard objectives add bowser.gP dummy
@@ -41,6 +42,7 @@ scoreboard objectives add ryu.gP dummy
 scoreboard objectives add samus.gP dummy
 scoreboard objectives add snake.gP dummy
 scoreboard objectives add sonic.gP dummy
+scoreboard objectives add steve.gP dummy
 
 # Win Streak
 scoreboard objectives add bowser.wS dummy
@@ -63,6 +65,7 @@ scoreboard objectives add ryu.wS dummy
 scoreboard objectives add samus.wS dummy
 scoreboard objectives add snake.wS dummy
 scoreboard objectives add sonic.wS dummy
+scoreboard objectives add steve.wS dummy
 
 # Options
 scoreboard objectives add options dummy

@@ -14,6 +14,8 @@ effect clear @a slowness
 execute as @a[team=alive] run function ssbrc:logic/kits
 function ssbrc:logic/pre_game/music
 
+execute if entity @a[tag=steve] run schedule function ssbrc:characters/steve/logic/spawn_item 15s replace
+
 tag @e[tag=tpDest] remove tpDest
 
 execute if score $gameMode options matches 2 run scoreboard players operation $gameTime timer = $timeLimit options

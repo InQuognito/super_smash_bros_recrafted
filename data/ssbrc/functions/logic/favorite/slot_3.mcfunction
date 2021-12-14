@@ -20,6 +20,7 @@ execute if entity @s[tag=favoritetry.ryu] run tag @s add favorite.slot3
 execute if entity @s[tag=favoritetry.samus] run tag @s add favorite.slot3
 execute if entity @s[tag=favoritetry.snake] run tag @s add favorite.slot3
 execute if entity @s[tag=favoritetry.sonic] run tag @s add favorite.slot3
+execute if entity @s[tag=favoritetry.steve] run tag @s add favorite.slot3
 
 execute if entity @s[tag=favoritetry.bowser] run tag @s add favorite.slot3.bowser
 execute if entity @s[tag=favoritetry.captainfalcon] run tag @s add favorite.slot3.captainfalcon
@@ -41,6 +42,7 @@ execute if entity @s[tag=favoritetry.ryu] run tag @s add favorite.slot3.ryu
 execute if entity @s[tag=favoritetry.samus] run tag @s add favorite.slot3.samus
 execute if entity @s[tag=favoritetry.snake] run tag @s add favorite.slot3.snake
 execute if entity @s[tag=favoritetry.sonic] run tag @s add favorite.slot3.sonic
+execute if entity @s[tag=favoritetry.steve] run tag @s add favorite.slot3.steve
 
 function ssbrc:logic/resets/favorites/try
 item replace entity @s[nbt=!{Inventory:[{Slot:5b,id:"minecraft:carrot_on_a_stick"}]}] hotbar.5 with minecraft:carrot_on_a_stick

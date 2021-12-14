@@ -35,6 +35,7 @@ execute as @a[tag=!ryu,predicate=!ssbrc:sneaking,nbt={SelectedItem:{tag:{favorit
 execute as @a[tag=!samus,predicate=!ssbrc:sneaking,nbt={SelectedItem:{tag:{favorite.samus:1}}},scores={selectFavorite=1..}] run function ssbrc:characters/samus/menu/select_character
 execute as @a[tag=!snake,predicate=!ssbrc:sneaking,nbt={SelectedItem:{tag:{favorite.snake:1}}},scores={selectFavorite=1..}] run function ssbrc:characters/snake/menu/loadout/prompt
 execute as @a[tag=!sonic,predicate=!ssbrc:sneaking,nbt={SelectedItem:{tag:{favorite.sonic:1}}},scores={selectFavorite=1..}] run function ssbrc:characters/sonic/menu/select_character
+execute as @a[tag=!steve,predicate=!ssbrc:sneaking,nbt={SelectedItem:{tag:{favorite.steve:1}}},scores={selectFavorite=1..}] run function ssbrc:characters/steve/menu/select_character
 
 execute as @a[predicate=ssbrc:sneaking,nbt={SelectedItem:{tag:{favorite.bowser:1}}},scores={selectFavorite=1..}] run function ssbrc:characters/bowser/menu/prompt
 execute as @a[predicate=ssbrc:sneaking,nbt={SelectedItem:{tag:{favorite.captainfalcon:1}}},scores={selectFavorite=1..}] run function ssbrc:characters/captainfalcon/menu/prompt
@@ -56,5 +57,6 @@ execute as @a[predicate=ssbrc:sneaking,nbt={SelectedItem:{tag:{favorite.ryu:1}}}
 execute as @a[predicate=ssbrc:sneaking,nbt={SelectedItem:{tag:{favorite.samus:1}}},scores={selectFavorite=1..}] run function ssbrc:characters/samus/menu/prompt
 execute as @a[predicate=ssbrc:sneaking,nbt={SelectedItem:{tag:{favorite.snake:1}}},scores={selectFavorite=1..}] run function ssbrc:characters/snake/menu/prompt
 execute as @a[predicate=ssbrc:sneaking,nbt={SelectedItem:{tag:{favorite.sonic:1}}},scores={selectFavorite=1..}] run function ssbrc:characters/sonic/menu/prompt
+execute as @a[predicate=ssbrc:sneaking,nbt={SelectedItem:{tag:{favorite.steve:1}}},scores={selectFavorite=1..}] run function ssbrc:characters/steve/menu/prompt
 
 scoreboard players reset @a selectFavorite

@@ -20,6 +20,7 @@ execute if entity @s[tag=ryu] run title @a subtitle [{"text":"Selected Character
 execute if entity @s[tag=samus] run title @a subtitle [{"text":"Selected Character: ","color":"gold"},{"text":"Samus","bold":true,"color":"yellow"}]
 execute if entity @s[tag=snake] run title @a subtitle [{"text":"Selected Character: ","color":"gold"},{"text":"Snake","bold":true,"color":"yellow"}]
 execute if entity @s[tag=sonic] run title @a subtitle [{"text":"Selected Character: ","color":"gold"},{"text":"Sonic","bold":true,"color":"yellow"}]
+execute if entity @s[tag=steve] run title @a subtitle [{"text":"Selected Character: ","color":"gold"},{"text":"Steve","bold":true,"color":"yellow"}]
 
 title @a title [{"selector":"@s","bold":true,"color":"yellow"},{"text":" wins!","color":"gold"}]
 tag @s add winner

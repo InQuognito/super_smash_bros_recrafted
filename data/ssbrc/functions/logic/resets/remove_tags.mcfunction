@@ -18,5 +18,6 @@ tag @s remove ryu
 tag @s remove samus
 tag @s remove snake
 tag @s remove sonic
+tag @s remove steve
 
 tag @s remove characterPicked

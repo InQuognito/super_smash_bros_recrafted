@@ -18,3 +18,4 @@ tag @a remove favoritetry.ryu
 tag @a remove favoritetry.samus
 tag @a remove favoritetry.snake
 tag @a remove favoritetry.sonic
+tag @a remove favoritetry.steve

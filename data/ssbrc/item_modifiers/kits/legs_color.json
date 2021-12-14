@@ -401,5 +401,18 @@
 				}
 			}
 		]
+	},
+	{
+		"function": "minecraft:set_nbt",
+		"tag": "{display:{color:5066061}}",
+		"conditions": [
+			{
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"nbt": "{Tags:[\"steve\",\"steve.default\"]}"
+				}
+			}
+		]
 	}
 ]
