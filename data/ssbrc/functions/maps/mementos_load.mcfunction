@@ -4,7 +4,7 @@ scoreboard players set #mapPicked mapVote 1
 forceload add -1248 800 -1121 959
 
 scoreboard players set max random 3
-function ssbrc:math/rng/lcg_music
+function ssbrc:math/rng/lcg
 
 execute if score result random matches 0 run scoreboard players set $mementosType map 1
 execute if score result random matches 0 run function ssbrc:maps/mementos/blue
