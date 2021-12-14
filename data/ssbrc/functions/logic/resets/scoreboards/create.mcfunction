@@ -45,6 +45,7 @@ scoreboard objectives add snake.socomR dummy
 scoreboard objectives add snake.socomF dummy
 scoreboard objectives add snake.sgA dummy
 scoreboard objectives add snake.sgF dummy
+scoreboard objectives add steve.tier dummy
 scoreboard objectives add stocks dummy
 scoreboard objectives add timer dummy
 scoreboard objectives add temp dummy

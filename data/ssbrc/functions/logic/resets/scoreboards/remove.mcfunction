@@ -43,6 +43,7 @@ scoreboard objectives remove snake.socomR
 scoreboard objectives remove snake.socomF
 scoreboard objectives remove snake.sgA
 scoreboard objectives remove snake.sgF
+scoreboard objectives remove steve.tier
 scoreboard objectives remove stocks
 scoreboard objectives remove timer
 scoreboard objectives remove temp
