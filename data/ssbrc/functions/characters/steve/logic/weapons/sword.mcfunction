@@ -17,7 +17,7 @@ execute if score @s steve.tier matches 2 run tellraw @s[tag=steve.hasIron] {"tex
 execute if score @s steve.tier matches 2.. run title @s[tag=!steve.hasIron] actionbar {"text":"You have no need for this, and throw it away.","color":"red"}
 
 execute if score @s steve.tier matches ..0 run scoreboard players set @s[tag=steve.hasStone] steve.tier 1
-execute if score @s steve.tier matches 1 run give @s[tag=steve.hasStone] minecraft:stone_sword{Damage:0,HideFlags:127}
+execute if score @s steve.tier matches 1 run give @s[tag=steve.hasStone] minecraft:stone_sword{Damage:116,HideFlags:127}
 execute if score @s steve.tier matches 1 run tellraw @s[tag=steve.hasStone] {"text":"Crafted a Stone Sword!","color":"green"}
 execute if score @s steve.tier matches 1.. run title @s[tag=!steve.hasStone] actionbar {"text":"You have no need for this, and throw it away.","color":"red"}
 

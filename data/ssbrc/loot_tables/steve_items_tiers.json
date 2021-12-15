@@ -6,28 +6,21 @@
 			"entries": [
 				{
 					"type": "minecraft:item",
-					"weight": 1,
-					"name": "minecraft:stone",
-					"conditions": [
-						{
-							"condition": "minecraft:entity_scores",
-							"entity": "this",
-							"scores": {
-								"steve.tier": 0
-							}
-						}
-					]
+					"weight": 20,
+					"name": "minecraft:stone"
 				},
 				{
 					"type": "minecraft:item",
-					"weight": 1,
+					"weight": 20,
 					"name": "minecraft:iron_ingot",
 					"conditions": [
 						{
 							"condition": "minecraft:entity_scores",
 							"entity": "this",
 							"scores": {
-								"steve.tier": 1
+								"steve.tier": {
+									"min": 1
+								}
 							}
 						}
 					]
@@ -35,27 +28,20 @@
 				{
 					"type": "minecraft:item",
 					"weight": 1,
-					"name": "minecraft:diamond",
-					"conditions": [
-						{
-							"condition": "minecraft:entity_scores",
-							"entity": "this",
-							"scores": {
-								"steve.tier": 2
-							}
-						}
-					]
+					"name": "minecraft:diamond"
 				},
 				{
 					"type": "minecraft:item",
-					"weight": 1,
+					"weight": 20,
 					"name": "minecraft:netherite_ingot",
 					"conditions": [
 						{
 							"condition": "minecraft:entity_scores",
 							"entity": "this",
 							"scores": {
-								"steve.tier": 3
+								"steve.tier": {
+									"min": 3
+								}
 							}
 						}
 					]

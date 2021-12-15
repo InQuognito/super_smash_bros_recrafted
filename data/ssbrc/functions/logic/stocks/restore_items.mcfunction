@@ -39,7 +39,6 @@ give @s[tag=steve,scores={steve.tier=0}] minecraft:wooden_sword{Unbreakable:1,Hi
 give @s[tag=steve,scores={steve.tier=1}] minecraft:stone_sword{Damage:0,HideFlags:127}
 give @s[tag=steve,scores={steve.tier=2}] minecraft:iron_sword{Damage:0,HideFlags:127}
 give @s[tag=steve,scores={steve.tier=3}] minecraft:diamond_sword{Damage:0,HideFlags:127}
-give @s[tag=steve,scores={steve.tier=4}] minecraft:netherite_sword{Damage:0,HideFlags:127}
 
 clear @s[tag=captainfalcon] minecraft:arrow
 give @s[tag=captainfalcon] minecraft:arrow 5
