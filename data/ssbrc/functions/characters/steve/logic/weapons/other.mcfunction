@@ -4,10 +4,10 @@ tag @s[nbt={Inventory:[{id:"minecraft:oak_planks"}]}] add steve.getShield
 
 clear @s #ssbrc:steve_items
 
-give @s[tag=steve.getCrossbow] minecraft:crossbow{Unbreakable:1b,HideFlags:127}
+give @s[tag=steve.getCrossbow] minecraft:crossbow{Unbreakable:1,HideFlags:127}
 tellraw @s[tag=steve.getCrossbow] [{"text":"RARE","bold":true,"color":"gold"},{"text":"! ","bold":true,"color":"yellow"},{"text":"Crafted a ","color":"green"},{"text":"Crossbow","bold":true,"color":"green"},{"text":"! It's enchanted!","color":"green"}]
 
-give @s[tag=steve.getBow] minecraft:bow{Unbreakable:1b,HideFlags:127}
+give @s[tag=steve.getBow] minecraft:bow{Unbreakable:1,HideFlags:127}
 tellraw @s[tag=steve.getBow] {"text":"Crafted a Bow!","color":"green"}
 
 give @s[nbt={Inventory:[{id:"minecraft:crossbow"},{id:"minecraft:stick"}]}] minecraft:arrow 8

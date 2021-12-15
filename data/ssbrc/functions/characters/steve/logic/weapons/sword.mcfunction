@@ -4,7 +4,7 @@ scoreboard players set @s[nbt={Inventory:[{id:"minecraft:diamond"}]}] steve.tier
 scoreboard players set @s[nbt={Inventory:[{id:"minecraft:netherite_ingot"}]}] steve.tier 4
 
 clear @s #ssbrc:swords
-give @s[scores={steve.tier=0}] minecraft:wooden_sword{Unbreakable:1b,HideFlags:127}
+give @s[scores={steve.tier=0}] minecraft:wooden_sword{Unbreakable:1,HideFlags:127}
 give @s[scores={steve.tier=1}] minecraft:stone_sword{Damage:0,HideFlags:127}
 give @s[scores={steve.tier=2}] minecraft:iron_sword{Damage:0,HideFlags:127}
 give @s[scores={steve.tier=3}] minecraft:diamond_sword{Damage:0,HideFlags:127}
