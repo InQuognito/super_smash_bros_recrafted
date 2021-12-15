@@ -11,7 +11,7 @@
 					"functions": [
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{Tags:[\"steve.item\"]}"
+							"tag": "{steve.item:1}"
 						}
 					]
 				},
@@ -22,7 +22,7 @@
 					"functions": [
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{Tags:[\"steve.item\"]}"
+							"tag": "{steve.item:1}"
 						}
 					]
 				},
@@ -33,7 +33,7 @@
 					"functions": [
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{Tags:[\"steve.item.tier\"]}"
+							"tag": "{steve.item.tier:1}"
 						}
 					],
 					"conditions": [

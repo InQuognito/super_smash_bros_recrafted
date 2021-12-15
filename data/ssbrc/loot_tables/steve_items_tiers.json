@@ -66,7 +66,7 @@
 	"functions": [
 		{
 			"function": "minecraft:set_nbt",
-			"tag": "{Tags:[\"steve.item.tier\"]}"
+			"tag": "{steve.item.tier:1}"
 		}
 	]
 }
