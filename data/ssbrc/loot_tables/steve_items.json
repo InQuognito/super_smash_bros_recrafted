@@ -7,17 +7,35 @@
 				{
 					"type": "minecraft:item",
 					"weight": 10,
-					"name": "minecraft:stick"
+					"name": "minecraft:stick",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{Tags:[\"steve.item\"]}"
+						}
+					]
 				},
 				{
 					"type": "minecraft:item",
 					"weight": 7,
-					"name": "minecraft:oak_planks"
+					"name": "minecraft:oak_planks",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{Tags:[\"steve.item\"]}"
+						}
+					]
 				},
 				{
 					"type": "minecraft:item",
 					"weight": 15,
 					"name": "minecraft:gold_ingot",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{Tags:[\"steve.item.tier\"]}"
+						}
+					],
 					"conditions": [
 						{
 							"condition": "minecraft:entity_scores",
@@ -49,12 +67,6 @@
 					]
 				}
 			]
-		}
-	],
-	"functions": [
-		{
-			"function": "minecraft:set_nbt",
-			"tag": "{Tags:[\"steve.item\"]}"
 		}
 	]
 }
