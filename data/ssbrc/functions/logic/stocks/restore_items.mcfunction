@@ -30,9 +30,16 @@ clear @s[tag=ness] minecraft:splash_potion{CustomPotionColor:552489,display:{Nam
 execute if entity @s[tag=ness] run item replace entity @s hotbar.2 with minecraft:splash_potion{CustomPotionColor:552489,display:{Name:'[{"text":"PK Flash","italic":false,"bold":true,"color":"green"}]'},CustomPotionEffects:[{Id:15b,Duration:160,Amplifier:0b},{Id:7b,Duration:1,Amplifier:0b},{Id:2b,Duration:160,Amplifier:1b},{Id:18b,Duration:160,Amplifier:1b}]} 1
 execute if score @s[tag=ness] itemCount matches 1 run item replace entity @s hotbar.3 with minecraft:splash_potion{CustomPotionColor:552489,display:{Name:'[{"text":"PK Flash","italic":false,"bold":true,"color":"green"}]'},CustomPotionEffects:[{Id:15b,Duration:160,Amplifier:0b},{Id:7b,Duration:1,Amplifier:0b},{Id:2b,Duration:160,Amplifier:1b},{Id:18b,Duration:160,Amplifier:1b}]} 1
 
-item replace entity @s[tag=pit] armor.chest with minecraft:elytra{Damage:417,display:{Name:'[{"text":"Clipped Wings","italic":false,"color":"yellow"}]'},HideFlags:127} 1
+item replace entity @s[tag=pit] armor.chest with minecraft:elytra{Damage:417,HideFlags:127} 1
 
 execute if score @s[tag=ryu] stocks matches 1 run item replace entity @s hotbar.2 with carrot_on_a_stick{ability.ryu:1,display:{Name:'[{"text":"Satsui no Hado Rage","italic":false,"color":"#660000","bold":true}]'},Unbreakable:1,CustomModelData:4} 1
+
+clear @s[tag=steve] #ssbrc:swords
+give @s[tag=steve,scores={steve.tier=0}] minecraft:wooden_sword{Unbreakable:1,HideFlags:127}
+give @s[tag=steve,scores={steve.tier=1}] minecraft:stone_sword{Damage:0,HideFlags:127}
+give @s[tag=steve,scores={steve.tier=2}] minecraft:iron_sword{Damage:0,HideFlags:127}
+give @s[tag=steve,scores={steve.tier=3}] minecraft:diamond_sword{Damage:0,HideFlags:127}
+give @s[tag=steve,scores={steve.tier=4}] minecraft:netherite_sword{Damage:0,HideFlags:127}
 
 clear @s[tag=captainfalcon] minecraft:arrow
 give @s[tag=captainfalcon] minecraft:arrow 5
