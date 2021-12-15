@@ -3,13 +3,10 @@
 		"requirement": {
 			"trigger": "minecraft:inventory_changed",
 			"conditions": {
-				"player": [
+				"player": [],
+				"items": [
 					{
-						"condition": "minecraft:entity_properties",
-						"entity": "this",
-						"predicate": {
-							"nbt": "{Tags:[\"steve\"]}"
-						}
+						"tag": "ssbrc:steve_items"
 					}
 				]
 			}
