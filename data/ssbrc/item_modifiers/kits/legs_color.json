@@ -404,7 +404,7 @@
 	},
 	{
 		"function": "minecraft:set_nbt",
-		"tag": "{display:{color:5066061}}",
+		"tag": "{display:{color:1912256}}",
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
