@@ -1,19 +1,19 @@
-tag @s[tag=!steve.hasBow,tag=!steve.hasCrossbow,predicate=ssbrc:chance_20,nbt={Inventory:[{id:"minecraft:stick"}]}] add steve.getCrossbow
+clear @s #ssbrc:steve_items
+
+tag @s[tag=!steve.hasBow,tag=!steve.hasCrossbow,predicate=ssbrc:chance_20,tag=steve.hasStick] add steve.getCrossbow
 give @s[tag=steve.getCrossbow] minecraft:crossbow{Unbreakable:1,HideFlags:127}
 tellraw @s[tag=steve.getCrossbow] [{"text":"RARE","bold":true,"color":"gold"},{"text":"! ","bold":true,"color":"yellow"},{"text":"Crafted a Crossbow! It's enchanted!","bold":false,"color":"green"}]
 tag @s[tag=steve.getCrossbow] add steve.hasCrossbow
 
-tag @s[tag=!steve.hasBow,tag=!steve.hasCrossbow,nbt={Inventory:[{id:"minecraft:stick"}]}] add steve.getBow
+tag @s[tag=!steve.hasBow,tag=!steve.hasCrossbow,tag=steve.hasStick] add steve.getBow
 give @s[tag=steve.getBow] minecraft:bow{Unbreakable:1,HideFlags:127}
 tellraw @s[tag=steve.getBow] {"text":"Crafted a Bow!","color":"green"}
 tag @s[tag=steve.getBow] add steve.hasBow
 
-tag @s[tag=steve.hasCrossbow,nbt={Inventory:[{id:"minecraft:stick"}]}] add steve.getCrossbowArrows
-tag @s[tag=steve.hasBow,nbt={Inventory:[{id:"minecraft:stick"}]}] add steve.getBowArrows
+tag @s[tag=steve.hasCrossbow,tag=steve.hasStick] add steve.getCrossbowArrows
+tag @s[tag=steve.hasBow,tag=steve.hasStick] add steve.getBowArrows
 
-tag @s[nbt={Inventory:[{id:"minecraft:oak_planks"}]}] add steve.getShield
-
-clear @s #ssbrc:steve_items
+tag @s[tag=steve.hasWood] add steve.getShield
 
 give @s[tag=steve.getCrossbowArrows] minecraft:arrow 8
 give @s[tag=steve.getBowArrows] minecraft:arrow 16

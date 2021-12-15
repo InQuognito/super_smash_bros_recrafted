@@ -183,5 +183,4 @@ tag @s remove snake.socom
 tag @s remove snake.socomR
 tag @s remove steve.hasBow
 tag @s remove steve.hasCrossbow
-tag @s remove steve.spawner
 tag @s remove teleportMe
