@@ -36,4 +36,5 @@ advancement grant @a only ssbrc:characters/ness/costumes/moonside
 advancement grant @a only ssbrc:characters/ness/costumes/pajamas
 advancement grant @a only ssbrc:characters/samus/costumes/gravity
 advancement grant @a only ssbrc:characters/samus/costumes/phazon
+advancement grant @a only ssbrc:characters/steve/costumes/alex
 ###########################################################
