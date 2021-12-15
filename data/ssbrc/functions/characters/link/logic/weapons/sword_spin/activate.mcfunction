@@ -1,1 +1,1 @@
-tag @s add swordSpin
+tag @s add link.swordSpin

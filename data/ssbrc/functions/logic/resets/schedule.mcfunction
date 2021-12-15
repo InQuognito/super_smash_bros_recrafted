@@ -1,6 +1,7 @@
-schedule clear ssbrc:logic/timer
-schedule clear ssbrc:logic/map_voting/timer_tick
+schedule clear ssbrc:characters/steve/logic/spawn_item
+schedule clear ssbrc:logic/pre_game/map_voting/timer
 schedule clear ssbrc:logic/pre_game/music
+schedule clear ssbrc:logic/timer
 
 # Maps
 schedule clear ssbrc:maps/battlefield

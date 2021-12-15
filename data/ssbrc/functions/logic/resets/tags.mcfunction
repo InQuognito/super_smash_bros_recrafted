@@ -162,15 +162,12 @@ tag @s remove wilyCastle
 # Misc
 tag @s remove abilityActive
 tag @s remove abilityUsed
-tag @s remove alive
 tag @s remove characterPicked
-tag @s remove kaclang
-tag @s remove magicLost
-tag @s remove needsHeal
-tag @s remove overflowReached
+tag @s remove hero.kaclang
+tag @s remove hero.magicLost
+tag @s remove link.swordSpin
 tag @s remove pickingCharacter
 tag @s remove pickingMap
-tag @s remove selectingLoadout
 tag @s remove shiny
 tag @s remove snake.apm
 tag @s remove snake.famas
@@ -179,9 +176,10 @@ tag @s remove snake.psg1
 tag @s remove snake.psg1R
 tag @s remove snake.s1000
 tag @s remove snake.s1000R
+tag @s remove snake.selectingLoadout
 tag @s remove snake.sg
 tag @s remove snake.sgF
 tag @s remove snake.socom
 tag @s remove snake.socomR
-tag @s remove swordSpin
+tag @s remove steve.spawner
 tag @s remove teleportMe

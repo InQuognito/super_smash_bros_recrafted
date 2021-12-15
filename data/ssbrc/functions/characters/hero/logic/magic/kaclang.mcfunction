@@ -1,4 +1,4 @@
-tag @s add kaclang
+tag @s add hero.kaclang
 
 clear @s #ssbrc:swords
 clear @s minecraft:carrot_on_a_stick

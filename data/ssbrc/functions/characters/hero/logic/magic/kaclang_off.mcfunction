@@ -14,6 +14,6 @@ item replace entity @s[scores={hero.mana=1..}] hotbar.0 with minecraft:iron_swor
 item replace entity @s[scores={hero.mana=2..}] hotbar.1 with minecraft:carrot_on_a_stick{ability.hero:2,CustomModelData:1,Unbreakable:1,display:{Name:'[{"text":"Bang","italic":false,"color":"red","bold":true}]'},HideFlags:127} 1
 item replace entity @s[scores={hero.mana=3..}] hotbar.2 with minecraft:carrot_on_a_stick{ability.hero:3,CustomModelData:2,Unbreakable:1,display:{Name:'[{"text":"Kaclang","italic":false,"color":"dark_aqua","bold":true}]'},HideFlags:127} 1
 
-tag @s remove kaclang
+tag @s remove hero.kaclang
 
-execute as @s[tag=!magicLost,scores={hero.mana=..0}] run function ssbrc:characters/hero/logic/lose_magic
+execute as @s[tag=!hero.magicLost,scores={hero.mana=..0}] run function ssbrc:characters/hero/logic/lose_magic

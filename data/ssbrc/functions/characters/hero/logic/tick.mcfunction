@@ -1,36 +1,36 @@
 # Magic
-execute as @s[tag=!magicLost,tag=!kaclang,scores={hero.mana=..0}] run function ssbrc:characters/hero/logic/lose_magic
+execute as @s[tag=!hero.magicLost,tag=!hero.kaclang,scores={hero.mana=..0}] run function ssbrc:characters/hero/logic/lose_magic
 execute as @s[scores={useAbility=1..,hero.mana=1..},nbt={SelectedItem:{tag:{ability.hero:1}}}] at @s run function ssbrc:characters/hero/logic/magic/flame_slash
 execute as @a[scores={useAbility=1..,hero.mana=2..,hero.bang=..0},nbt={SelectedItem:{tag:{ability.hero:2}}}] at @s run function ssbrc:characters/hero/logic/magic/bang
-execute as @s[scores={useAbility=1..,hero.mana=3..},nbt={SelectedItem:{tag:{ability.hero:3}}}] run function ssbrc:characters/hero/logic/magic/kaclang
+execute as @s[scores={useAbility=1..,hero.mana=3..},nbt={SelectedItem:{tag:{ability.hero:3}}}] run function ssbrc:characters/hero/logic/magic/hero.kaclang
 execute as @s[scores={useAbility=1..,hero.mana=21..},nbt={SelectedItem:{tag:{ability.hero:4}}}] run function ssbrc:characters/hero/logic/magic/magic_burst_activate
 
 scoreboard players remove @s[scores={hero.bang=1..}] hero.bang 1
 scoreboard players reset @s useAbility
 
 # Mana
-title @s[tag=!magicLost,scores={hero.mana=..0}] actionbar [{"text":"Out of Mana: Warrior Switch","bold":true,"color":"red"}]
-title @s[tag=!magicLost,scores={hero.mana=1}] actionbar [{"text":"Mana: ","bold":true,"color":"white"},{"text":"\u25ae","color":"yellow"}]
-title @s[tag=!magicLost,scores={hero.mana=2}] actionbar [{"text":"Mana: ","bold":true,"color":"white"},{"text":"\u25ae\u25ae","color":"yellow"}]
-title @s[tag=!magicLost,scores={hero.mana=3}] actionbar [{"text":"Mana: ","bold":true,"color":"white"},{"text":"\u25ae\u25ae\u25ae","color":"yellow"}]
-title @s[tag=!magicLost,scores={hero.mana=4}] actionbar [{"text":"Mana: ","bold":true,"color":"white"},{"text":"\u25ae\u25ae\u25ae\u25ae","color":"yellow"}]
-title @s[tag=!magicLost,scores={hero.mana=5}] actionbar [{"text":"Mana: ","bold":true,"color":"white"},{"text":"\u25ae\u25ae\u25ae\u25ae\u25ae","color":"yellow"}]
-title @s[tag=!magicLost,scores={hero.mana=6}] actionbar [{"text":"Mana: ","bold":true,"color":"white"},{"text":"\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae","color":"yellow"}]
-title @s[tag=!magicLost,scores={hero.mana=7}] actionbar [{"text":"Mana: ","bold":true,"color":"white"},{"text":"\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae","color":"yellow"}]
-title @s[tag=!magicLost,scores={hero.mana=8}] actionbar [{"text":"Mana: ","bold":true,"color":"white"},{"text":"\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae","color":"yellow"}]
-title @s[tag=!magicLost,scores={hero.mana=9}] actionbar [{"text":"Mana: ","bold":true,"color":"white"},{"text":"\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae","color":"yellow"}]
-title @s[tag=!magicLost,scores={hero.mana=10}] actionbar [{"text":"Mana: ","bold":true,"color":"white"},{"text":"\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae","color":"yellow"}]
-title @s[tag=!magicLost,scores={hero.mana=11}] actionbar [{"text":"Mana: ","bold":true,"color":"white"},{"text":"\u25ae","color":"aqua"},{"text":"\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae","color":"yellow"}]
-title @s[tag=!magicLost,scores={hero.mana=12}] actionbar [{"text":"Mana: ","bold":true,"color":"white"},{"text":"\u25ae\u25ae","color":"aqua"},{"text":"\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae","color":"yellow"}]
-title @s[tag=!magicLost,scores={hero.mana=13}] actionbar [{"text":"Mana: ","bold":true,"color":"white"},{"text":"\u25ae\u25ae\u25ae","color":"aqua"},{"text":"\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae","color":"yellow"}]
-title @s[tag=!magicLost,scores={hero.mana=14}] actionbar [{"text":"Mana: ","bold":true,"color":"white"},{"text":"\u25ae\u25ae\u25ae\u25ae","color":"aqua"},{"text":"\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae","color":"yellow"}]
-title @s[tag=!magicLost,scores={hero.mana=15}] actionbar [{"text":"Mana: ","bold":true,"color":"white"},{"text":"\u25ae\u25ae\u25ae\u25ae\u25ae","color":"aqua"},{"text":"\u25ae\u25ae\u25ae\u25ae\u25ae","color":"yellow"}]
-title @s[tag=!magicLost,scores={hero.mana=16}] actionbar [{"text":"Mana: ","bold":true,"color":"white"},{"text":"\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae","color":"aqua"},{"text":"\u25ae\u25ae\u25ae\u25ae","color":"yellow"}]
-title @s[tag=!magicLost,scores={hero.mana=17}] actionbar [{"text":"Mana: ","bold":true,"color":"white"},{"text":"\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae","color":"aqua"},{"text":"\u25ae\u25ae\u25ae","color":"yellow"}]
-title @s[tag=!magicLost,scores={hero.mana=18}] actionbar [{"text":"Mana: ","bold":true,"color":"white"},{"text":"\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae","color":"aqua"},{"text":"\u25ae\u25ae","color":"yellow"}]
-title @s[tag=!magicLost,scores={hero.mana=19}] actionbar [{"text":"Mana: ","bold":true,"color":"white"},{"text":"\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae","color":"aqua"},{"text":"\u25ae","color":"yellow"}]
-title @s[tag=!magicLost,scores={hero.mana=20}] actionbar [{"text":"Mana: ","bold":true,"color":"white"},{"text":"\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae","color":"aqua"}]
-title @s[tag=!magicLost,tag=!magicBurstUsed,scores={hero.mana=21..}] actionbar [{"text":"Mana: ","bold":true,"color":"white"},{"text":"OVERFLOW SWITCH","color":"light_purple"}]
+title @s[tag=!hero.magicLost,scores={hero.mana=..0}] actionbar [{"text":"Out of Mana: Warrior Switch","bold":true,"color":"red"}]
+title @s[tag=!hero.magicLost,scores={hero.mana=1}] actionbar [{"text":"Mana: ","bold":true,"color":"white"},{"text":"\u25ae","color":"yellow"}]
+title @s[tag=!hero.magicLost,scores={hero.mana=2}] actionbar [{"text":"Mana: ","bold":true,"color":"white"},{"text":"\u25ae\u25ae","color":"yellow"}]
+title @s[tag=!hero.magicLost,scores={hero.mana=3}] actionbar [{"text":"Mana: ","bold":true,"color":"white"},{"text":"\u25ae\u25ae\u25ae","color":"yellow"}]
+title @s[tag=!hero.magicLost,scores={hero.mana=4}] actionbar [{"text":"Mana: ","bold":true,"color":"white"},{"text":"\u25ae\u25ae\u25ae\u25ae","color":"yellow"}]
+title @s[tag=!hero.magicLost,scores={hero.mana=5}] actionbar [{"text":"Mana: ","bold":true,"color":"white"},{"text":"\u25ae\u25ae\u25ae\u25ae\u25ae","color":"yellow"}]
+title @s[tag=!hero.magicLost,scores={hero.mana=6}] actionbar [{"text":"Mana: ","bold":true,"color":"white"},{"text":"\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae","color":"yellow"}]
+title @s[tag=!hero.magicLost,scores={hero.mana=7}] actionbar [{"text":"Mana: ","bold":true,"color":"white"},{"text":"\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae","color":"yellow"}]
+title @s[tag=!hero.magicLost,scores={hero.mana=8}] actionbar [{"text":"Mana: ","bold":true,"color":"white"},{"text":"\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae","color":"yellow"}]
+title @s[tag=!hero.magicLost,scores={hero.mana=9}] actionbar [{"text":"Mana: ","bold":true,"color":"white"},{"text":"\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae","color":"yellow"}]
+title @s[tag=!hero.magicLost,scores={hero.mana=10}] actionbar [{"text":"Mana: ","bold":true,"color":"white"},{"text":"\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae","color":"yellow"}]
+title @s[tag=!hero.magicLost,scores={hero.mana=11}] actionbar [{"text":"Mana: ","bold":true,"color":"white"},{"text":"\u25ae","color":"aqua"},{"text":"\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae","color":"yellow"}]
+title @s[tag=!hero.magicLost,scores={hero.mana=12}] actionbar [{"text":"Mana: ","bold":true,"color":"white"},{"text":"\u25ae\u25ae","color":"aqua"},{"text":"\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae","color":"yellow"}]
+title @s[tag=!hero.magicLost,scores={hero.mana=13}] actionbar [{"text":"Mana: ","bold":true,"color":"white"},{"text":"\u25ae\u25ae\u25ae","color":"aqua"},{"text":"\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae","color":"yellow"}]
+title @s[tag=!hero.magicLost,scores={hero.mana=14}] actionbar [{"text":"Mana: ","bold":true,"color":"white"},{"text":"\u25ae\u25ae\u25ae\u25ae","color":"aqua"},{"text":"\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae","color":"yellow"}]
+title @s[tag=!hero.magicLost,scores={hero.mana=15}] actionbar [{"text":"Mana: ","bold":true,"color":"white"},{"text":"\u25ae\u25ae\u25ae\u25ae\u25ae","color":"aqua"},{"text":"\u25ae\u25ae\u25ae\u25ae\u25ae","color":"yellow"}]
+title @s[tag=!hero.magicLost,scores={hero.mana=16}] actionbar [{"text":"Mana: ","bold":true,"color":"white"},{"text":"\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae","color":"aqua"},{"text":"\u25ae\u25ae\u25ae\u25ae","color":"yellow"}]
+title @s[tag=!hero.magicLost,scores={hero.mana=17}] actionbar [{"text":"Mana: ","bold":true,"color":"white"},{"text":"\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae","color":"aqua"},{"text":"\u25ae\u25ae\u25ae","color":"yellow"}]
+title @s[tag=!hero.magicLost,scores={hero.mana=18}] actionbar [{"text":"Mana: ","bold":true,"color":"white"},{"text":"\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae","color":"aqua"},{"text":"\u25ae\u25ae","color":"yellow"}]
+title @s[tag=!hero.magicLost,scores={hero.mana=19}] actionbar [{"text":"Mana: ","bold":true,"color":"white"},{"text":"\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae","color":"aqua"},{"text":"\u25ae","color":"yellow"}]
+title @s[tag=!hero.magicLost,scores={hero.mana=20}] actionbar [{"text":"Mana: ","bold":true,"color":"white"},{"text":"\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae","color":"aqua"}]
+title @s[tag=!hero.magicLost,tag=!magicBurstUsed,scores={hero.mana=21..}] actionbar [{"text":"Mana: ","bold":true,"color":"white"},{"text":"OVERFLOW SWITCH","color":"light_purple"}]
 scoreboard players set @s[tag=magicBurstUsed,scores={hero.mana=21..}] hero.mana 20
 
 item replace entity @s[tag=!magicBurstUsed,scores={hero.mana=21..}] hotbar.4 with minecraft:carrot_on_a_stick{ability.hero:4,CustomModelData:3,Unbreakable:1,display:{Name:'[{"text":"Magic Burst","italic":false,"color":"light_purple","bold":true}]'},HideFlags:127} 1
@@ -47,7 +47,7 @@ execute as @e[scores={motionX=..25,motionY=..25,motionZ=..25}] run data merge en
 
 # Kaclang
 scoreboard players remove @s[scores={timer=1..}] timer 1
-execute if entity @s[tag=kaclang,scores={timer=..0}] run function ssbrc:characters/hero/logic/magic/kaclang_off
+execute if entity @s[tag=hero.kaclang,scores={timer=..0}] run function ssbrc:characters/hero/logic/magic/kaclang_off
 scoreboard players reset @s[scores={timer=..0}] timer
 
 # Magic Burst
