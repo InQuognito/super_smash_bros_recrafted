@@ -1,4 +1,4 @@
-tag @s[predicate=ssbrc:chance_2.5,nbt=!{Inventory:[{id:"minecraft:crossbow"}]},nbt={Inventory:[{id:"minecraft:stick"}]}] add steve.getCrossbow
+tag @s[predicate=ssbrc:chance_20,nbt=!{Inventory:[{id:"minecraft:crossbow"}]},nbt={Inventory:[{id:"minecraft:stick"}]}] add steve.getCrossbow
 tag @s[nbt=!{Inventory:[{id:"minecraft:bow"}]},nbt={Inventory:[{id:"minecraft:stick"}]}] add steve.getBow
 tag @s[nbt={Inventory:[{id:"minecraft:oak_planks"}]}] add steve.getShield
 
