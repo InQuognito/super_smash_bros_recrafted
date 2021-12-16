@@ -5,7 +5,7 @@ execute if entity @s[predicate=ssbrc:sneaking,scores={useAbility=1..}] run funct
 execute if entity @s[predicate=!ssbrc:sneaking] at @s run function ssbrc:characters/link/logic/weapons/sword_spin/deactivate
 scoreboard players reset @s useAbility
 
-execute as @e[tag=linkSwordBeam] at @s run function ssbrc:characters/link/logic/weapons/sword_beam/entity
+execute as @e[tag=link.swordBeam] at @s run function ssbrc:characters/link/logic/weapons/sword_beam/entity
 scoreboard players remove @s[scores={link.swordBeam=1..}] link.swordBeam 1
 
 scoreboard players add $rot temp 15
