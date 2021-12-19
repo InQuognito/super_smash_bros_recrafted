@@ -7,7 +7,18 @@
 				{
 					"type": "minecraft:item",
 					"weight": 20,
-					"name": "minecraft:stone"
+					"name": "minecraft:stone",
+					"conditions": [
+						{
+							"condition": "minecraft:entity_scores",
+							"entity": "this",
+							"scores": {
+								"steve.tier": {
+									"max": 1
+								}
+							}
+						}
+					]
 				},
 				{
 					"type": "minecraft:item",
