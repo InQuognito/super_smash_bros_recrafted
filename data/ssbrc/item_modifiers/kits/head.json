@@ -437,7 +437,7 @@
 				"condition": "minecraft:entity_properties",
 				"entity": "this",
 				"predicate": {
-					"nbt": "{Tags:[\"alteredbeast\",\"alteredbeast.default\",\"alteredbeast.form.human\"]}"
+					"nbt": "{Tags:[\"alteredbeast\",\"alteredbeast.default\"]}"
 				}
 			}
 		]
