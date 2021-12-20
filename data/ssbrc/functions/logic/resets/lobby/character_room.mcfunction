@@ -62,7 +62,7 @@ summon minecraft:area_effect_cloud 76.5 8.0 141.5 {CustomName:'{"text":"Steve","
 summon minecraft:armor_stand 78.5 6.0 141.5 {Tags:["lobbyStand","steve","steve.default"],Rotation:[90f,0f]}
 
 
-summon minecraft:area_effect_cloud 61.5 8.0 157.5 {CustomName:'{"text":"Shadow","color":"dark_gray"}',CustomNameVisible:1b,Age:-2147483648,Duration:-1,WaitTime:-2147483648}
+summon minecraft:area_effect_cloud 61.5 8.0 156.5 {CustomName:'{"text":"Shadow","color":"dark_gray"}',CustomNameVisible:1b,Age:-2147483648,Duration:-1,WaitTime:-2147483648}
 summon minecraft:armor_stand 61.5 6.0 158.5 {Tags:["lobbyStand","shadow","shadow.default"],Rotation:[-180f,0f]}
 
 summon minecraft:area_effect_cloud 68.5 8.0 131.5 {CustomName:'{"text":"Shovel Knight","color":"dark_aqua"}',CustomNameVisible:1b,Age:-2147483648,Duration:-1,WaitTime:-2147483648}
