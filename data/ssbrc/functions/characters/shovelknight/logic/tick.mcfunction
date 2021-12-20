@@ -1,5 +1,5 @@
 # Magic
-execute as @a[scores={useAbility=1..,mana=1..,shovelknight.flareWand=..0},nbt={SelectedItem:{tag:{ability.shovelknight:1}}}] at @s run function ssbrc:characters/shovelknight/logic/magic/flare_wand/summon
+execute as @a[scores={useAbility=1..,mana=1..,shovelknight.flareWand=..0},nbt={SelectedItem:{tag:{ability.shovelknight:1}}}] at @s anchored eyes run function ssbrc:characters/shovelknight/logic/magic/flare_wand/summon
 execute as @s[scores={useAbility=1..,mana=3..,shovelknight.phaseLocket=..0},nbt={SelectedItem:{tag:{ability.shovelknight:2}}}] run function ssbrc:characters/shovelknight/logic/magic/phase_locket
 
 scoreboard players reset @s useAbility
