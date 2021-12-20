@@ -26,6 +26,8 @@ scoreboard objectives add samus.plasmaBeam dummy
 scoreboard objectives add samus.powerBeam dummy
 scoreboard objectives add samus.waveBeam dummy
 scoreboard objectives add selectFavorite minecraft.used:minecraft.carrot_on_a_stick
+scoreboard objectives add shovelknight.flareWand dummy
+scoreboard objectives add shovelknight.phaseLocket dummy
 scoreboard objectives add snake.apm dummy
 scoreboard objectives add snake.capacity dummy
 scoreboard objectives add snake.famasA dummy

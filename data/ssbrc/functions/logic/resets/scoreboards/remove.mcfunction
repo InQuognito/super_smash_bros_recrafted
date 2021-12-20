@@ -24,6 +24,8 @@ scoreboard objectives remove samus.plasmaBeam
 scoreboard objectives remove samus.powerBeam
 scoreboard objectives remove samus.waveBeam
 scoreboard objectives remove selectFavorite
+scoreboard objectives remove shovelknight.flareWand
+scoreboard objectives remove shovelknight.phaseLocket
 scoreboard objectives remove snake.apm
 scoreboard objectives remove snake.capacity
 scoreboard objectives remove snake.famasA
