@@ -17,6 +17,7 @@ tag @s remove ness
 tag @s remove pit
 tag @s remove ryu
 tag @s remove samus
+tag @s remove shovelknight
 tag @s remove snake
 tag @s remove sonic
 tag @s remove steve
@@ -40,6 +41,7 @@ tag @s remove favoritetry.ness
 tag @s remove favoritetry.pit
 tag @s remove favoritetry.ryu
 tag @s remove favoritetry.samus
+tag @s remove favoritetry.shovelknight
 tag @s remove favoritetry.snake
 tag @s remove favoritetry.sonic
 tag @s remove favoritetry.steve
@@ -66,9 +68,10 @@ tag @s[tag=favorite.slot1.ness] add favorite.slot1
 tag @s[tag=favorite.slot1.pit] add favorite.slot1
 tag @s[tag=favorite.slot1.ryu] add favorite.slot1
 tag @s[tag=favorite.slot1.samus] add favorite.slot1
+tag @s[tag=favorite.slot1.shovelknight] add favorite.slot1
 tag @s[tag=favorite.slot1.snake] add favorite.slot1
 tag @s[tag=favorite.slot1.sonic] add favorite.slot1
-tag @s[tag=favorite.slot1.steve] add favorite.steve
+tag @s[tag=favorite.slot1.steve] add favorite.slot1
 
 tag @s[tag=favorite.slot2.bowser] add favorite.slot2
 tag @s[tag=favorite.slot2.captainfalcon] add favorite.slot2
@@ -88,6 +91,7 @@ tag @s[tag=favorite.slot2.ness] add favorite.slot2
 tag @s[tag=favorite.slot2.pit] add favorite.slot2
 tag @s[tag=favorite.slot2.ryu] add favorite.slot2
 tag @s[tag=favorite.slot2.samus] add favorite.slot2
+tag @s[tag=favorite.slot2.shovelknight] add favorite.slot2
 tag @s[tag=favorite.slot2.snake] add favorite.slot2
 tag @s[tag=favorite.slot2.sonic] add favorite.slot2
 tag @s[tag=favorite.slot2.steve] add favorite.slot2
@@ -110,9 +114,10 @@ tag @s[tag=favorite.slot3.ness] add favorite.slot3
 tag @s[tag=favorite.slot3.pit] add favorite.slot3
 tag @s[tag=favorite.slot3.ryu] add favorite.slot3
 tag @s[tag=favorite.slot3.samus] add favorite.slot3
+tag @s[tag=favorite.slot3.shovelknight] add favorite.slot3
 tag @s[tag=favorite.slot3.snake] add favorite.slot3
 tag @s[tag=favorite.slot3.sonic] add favorite.slot3
-tag @s[tag=favorite.slot3.steve] add favorite.steve
+tag @s[tag=favorite.slot3.steve] add favorite.slot3
 
 # Costumes
 execute as @a run function ssbrc:characters/bowser/menu/costumes/reset
@@ -133,6 +138,7 @@ execute as @a run function ssbrc:characters/ness/menu/costumes/reset
 execute as @a run function ssbrc:characters/pit/menu/costumes/reset
 execute as @a run function ssbrc:characters/ryu/menu/costumes/reset
 execute as @a run function ssbrc:characters/samus/menu/costumes/reset
+execute as @a run function ssbrc:characters/shovelknight/menu/costumes/reset
 execute as @a run function ssbrc:characters/snake/menu/costumes/reset
 execute as @a run function ssbrc:characters/sonic/menu/costumes/reset
 execute as @a run function ssbrc:characters/steve/menu/costumes/reset

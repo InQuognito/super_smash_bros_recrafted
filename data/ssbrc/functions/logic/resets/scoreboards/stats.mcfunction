@@ -17,6 +17,7 @@ scoreboard objectives add ness.k dummy
 scoreboard objectives add pit.k dummy
 scoreboard objectives add ryu.k dummy
 scoreboard objectives add samus.k dummy
+scoreboard objectives add shovelknight.k dummy
 scoreboard objectives add snake.k dummy
 scoreboard objectives add sonic.k dummy
 scoreboard objectives add steve.k dummy
@@ -40,6 +41,7 @@ scoreboard objectives add ness.gP dummy
 scoreboard objectives add pit.gP dummy
 scoreboard objectives add ryu.gP dummy
 scoreboard objectives add samus.gP dummy
+scoreboard objectives add shovelknight.gP dummy
 scoreboard objectives add snake.gP dummy
 scoreboard objectives add sonic.gP dummy
 scoreboard objectives add steve.gP dummy
@@ -63,6 +65,7 @@ scoreboard objectives add ness.wS dummy
 scoreboard objectives add pit.wS dummy
 scoreboard objectives add ryu.wS dummy
 scoreboard objectives add samus.wS dummy
+scoreboard objectives add shovelknight.wS dummy
 scoreboard objectives add snake.wS dummy
 scoreboard objectives add sonic.wS dummy
 scoreboard objectives add steve.wS dummy

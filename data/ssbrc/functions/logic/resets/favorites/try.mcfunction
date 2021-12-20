@@ -16,6 +16,7 @@ tag @a remove favoritetry.ness
 tag @a remove favoritetry.pit
 tag @a remove favoritetry.ryu
 tag @a remove favoritetry.samus
+tag @a remove favoritetry.shovelknight
 tag @a remove favoritetry.snake
 tag @a remove favoritetry.sonic
 tag @a remove favoritetry.steve

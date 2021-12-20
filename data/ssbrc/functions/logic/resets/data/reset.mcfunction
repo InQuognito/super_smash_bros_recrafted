@@ -18,6 +18,7 @@ scoreboard players reset @s ness.k
 scoreboard players reset @s pit.k
 scoreboard players reset @s ryu.k
 scoreboard players reset @s samus.k
+scoreboard players reset @s shovelknight.k
 scoreboard players reset @s snake.k
 scoreboard players reset @s sonic.k
 scoreboard players reset @s steve.k
@@ -40,6 +41,7 @@ scoreboard players reset @s ness.gP
 scoreboard players reset @s pit.gP
 scoreboard players reset @s ryu.gP
 scoreboard players reset @s samus.gP
+scoreboard players reset @s shovelknight.gP
 scoreboard players reset @s snake.gP
 scoreboard players reset @s sonic.gP
 scoreboard players reset @s steve.gP
@@ -62,6 +64,7 @@ scoreboard players reset @s ness.wS
 scoreboard players reset @s pit.wS
 scoreboard players reset @s ryu.wS
 scoreboard players reset @s samus.wS
+scoreboard players reset @s shovelknight.wS
 scoreboard players reset @s snake.wS
 scoreboard players reset @s sonic.wS
 scoreboard players reset @s steve.wS

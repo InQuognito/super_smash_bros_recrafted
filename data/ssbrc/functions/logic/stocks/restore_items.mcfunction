@@ -11,8 +11,8 @@ clear @s[tag=hero] minecraft:shield
 item replace entity @s[tag=hero] hotbar.0 with minecraft:iron_sword{ability.hero:1,CustomModelData:1,Unbreakable:1,AttributeModifiers:[{AttributeName:"generic.attack_damage",Amount:6,Slot:mainhand,Name:"generic.attack_damage",UUID:[I;-12164,22807,92130,-45614]},{AttributeName:"generic.attack_speed",Amount:-2.6,Slot:mainhand,Name:"generic.attack_speed",UUID:[I;-12164,22907,92130,-45814]}],display:{Name:'[{"text":"Flame Slash","italic":false,"color":"gold","bold":true}]'},Enchantments:[{id:"fire_aspect",lvl:1}],HideFlags:127} 1
 item replace entity @s[tag=hero] hotbar.1 with minecraft:carrot_on_a_stick{ability.hero:2,CustomModelData:1,Unbreakable:1,display:{Name:'[{"text":"Bang","italic":false,"color":"red","bold":true}]'},HideFlags:127} 1
 item replace entity @s[tag=hero] hotbar.2 with minecraft:carrot_on_a_stick{ability.hero:3,CustomModelData:2,Unbreakable:1,display:{Name:'[{"text":"Kaclang","italic":false,"color":"dark_aqua","bold":true}]'},HideFlags:127} 1
-scoreboard players operation @s[tag=hero] hero.mana += #hero.manaGainedOnDeath vars
-scoreboard players set @s[tag=hero,scores={hero.mana=22..}] hero.mana 21
+scoreboard players operation @s[tag=hero] mana += #manaGainedOnDeath vars
+scoreboard players set @s[tag=hero,scores={mana=22..}] mana 21
 tag @s[tag=hero] remove hero.magicLost
 tag @s[tag=hero] remove hero.kaclang
 

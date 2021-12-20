@@ -18,6 +18,7 @@ tag @s remove favorite.slot1.ness
 tag @s remove favorite.slot1.pit
 tag @s remove favorite.slot1.ryu
 tag @s remove favorite.slot1.samus
+tag @s remove favorite.slot1.shovelknight
 tag @s remove favorite.slot1.snake
 tag @s remove favorite.slot1.sonic
 tag @s remove favorite.slot1.steve

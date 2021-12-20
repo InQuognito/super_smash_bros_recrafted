@@ -25,6 +25,6 @@ item modify entity @s armor.feet ssbrc:kits/enchantments/binding_curse
 
 attribute @s generic.knockback_resistance base set 1000000.0
 
-scoreboard players operation @s hero.mana -= #hero.kaclangManaCost vars
+scoreboard players operation @s mana -= #hero.kaclangManaCost vars
 
 scoreboard players set @s timer 200

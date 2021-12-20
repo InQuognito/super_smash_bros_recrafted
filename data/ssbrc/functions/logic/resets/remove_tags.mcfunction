@@ -16,6 +16,7 @@ tag @s remove ness
 tag @s remove pit
 tag @s remove ryu
 tag @s remove samus
+tag @s remove shovelknight
 tag @s remove snake
 tag @s remove sonic
 tag @s remove steve
