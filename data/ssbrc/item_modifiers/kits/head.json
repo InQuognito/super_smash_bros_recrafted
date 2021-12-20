@@ -427,5 +427,19 @@
 				}
 			}
 		]
+	},
+
+	{
+		"function": "minecraft:set_nbt",
+		"tag": "{CustomModelData:2000}",
+		"conditions": [
+			{
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"nbt": "{Tags:[\"shovelknight\",\"shovelknight.default\"]}"
+				}
+			}
+		]
 	}
 ]

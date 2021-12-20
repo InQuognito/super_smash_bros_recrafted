@@ -4,18 +4,20 @@ execute as @s[tag=greninja,predicate=ssbrc:shiny_chance] run tag @s add shiny
 item replace entity @s armor.head with minecraft:barrier{HideFlags:127}
 item modify entity @s armor.head ssbrc:kits/head
 
-item replace entity @s[tag=!ganondorf,tag=!kingkrool,tag=!pit,tag=!samus.default] armor.chest with minecraft:leather_chestplate{Unbreakable:1,HideFlags:127}
+item replace entity @s[tag=!ganondorf,tag=!kingkrool,tag=!pit,tag=!samus.default,tag=!shovelknight] armor.chest with minecraft:leather_chestplate{Unbreakable:1,HideFlags:127}
 item replace entity @a[tag=ganondorf] armor.chest with minecraft:netherite_chestplate{Unbreakable:1,HideFlags:127} 1
 item replace entity @s[tag=pit] armor.chest with minecraft:elytra{Damage:417,HideFlags:127} 1
 item replace entity @a[tag=samus.default] armor.chest with minecraft:golden_chestplate{Unbreakable:1,HideFlags:127} 1
+item replace entity @a[tag=shovelknight] armor.chest with minecraft:diamond_chestplate{Unbreakable:1,HideFlags:127} 1
 item modify entity @s armor.chest ssbrc:kits/chest_color
 
 item replace entity @s armor.legs with minecraft:leather_leggings{Unbreakable:1,HideFlags:127}
 item modify entity @s armor.legs ssbrc:kits/legs_color
 
-item replace entity @s[tag=!captainfalcon,tag=!fox] armor.feet with minecraft:leather_boots{Unbreakable:1,HideFlags:127}
+item replace entity @s[tag=!captainfalcon,tag=!fox,tag=!shovelknight] armor.feet with minecraft:leather_boots{Unbreakable:1,HideFlags:127}
 item replace entity @s[tag=captainfalcon] armor.feet with minecraft:golden_boots{Unbreakable:1,HideFlags:127} 1
 item replace entity @s[tag=fox] armor.feet with minecraft:iron_boots{Unbreakable:1,HideFlags:127} 1
+item replace entity @s[tag=shovelknight] armor.feet with minecraft:diamond_boots{Unbreakable:1,HideFlags:127} 1
 item modify entity @s armor.feet ssbrc:kits/feet_color
 
 item modify entity @s armor.head ssbrc:kits/remove_armor
