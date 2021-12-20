@@ -64,6 +64,13 @@ summon minecraft:armor_stand 61.5 6.0 146.5 {Tags:["lobbyStand","sonic","sonic.d
 summon minecraft:area_effect_cloud 76.5 8.0 141.5 {CustomName:'{"text":"Steve","color":"dark_aqua"}',CustomNameVisible:1b,Age:-2147483648,Duration:-1,WaitTime:-2147483648}
 summon minecraft:armor_stand 78.5 6.0 141.5 {Tags:["lobbyStand","steve","steve.default"],Rotation:[90f,0f]}
 
+summon minecraft:area_effect_cloud 76.5 8.0 131.5 {CustomName:'{"text":"Team Rocket","color":"dark_purple"}',CustomNameVisible:1b,Age:-2147483648,Duration:-1,WaitTime:-2147483648}
+summon minecraft:armor_stand 77.5 6.0 129.5 {Tags:["lobbyStand","james","james.default"],Rotation:[45f,0f]}
+summon minecraft:armor_stand 77.5 6.0 133.5 {Tags:["lobbyStand","jesse","jesse.default"],Rotation:[135f,0f]}
+summon minecraft:armor_stand 78.5 6.0 131.5 {Tags:["lobbyStand","meowth","meowth.default"],Rotation:[90f,0f]}
+summon minecraft:armor_stand 78.5 6.0 130.5 {Tags:["lobbyStand","arbok","arbok.default"],Rotation:[67.5f,0f]}
+summon minecraft:armor_stand 78.5 6.0 132.5 {Tags:["lobbyStand","wobbuffet","wobbuffet.default"],Rotation:[112.5f,0f]}
+
 summon minecraft:area_effect_cloud 35.5 6.5 159.5 {CustomName:'{"text":"Spectate","color":"white"}',CustomNameVisible:1b,Age:-2147483648,Duration:-1,WaitTime:-2147483648}
 
 execute as @e[tag=lobbyStand] run data merge entity @s {Invulnerable:1b,NoBasePlate:1b,NoGravity:1b,DisabledSlots:4144959}
