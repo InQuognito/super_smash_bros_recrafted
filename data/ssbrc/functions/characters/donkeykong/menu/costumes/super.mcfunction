@@ -1,4 +1,4 @@
-function ssbrc:characters/samus/menu/costumes/reset
+function ssbrc:characters/donkeykong/menu/costumes/reset
 tag @s add donkeykong.super
 
-function ssbrc:characters/samus/menu/select_character
+function ssbrc:characters/donkeykong/menu/select_character
