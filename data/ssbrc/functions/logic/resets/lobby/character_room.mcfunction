@@ -52,7 +52,7 @@ summon minecraft:armor_stand 19.5 6.0 146.5 {Tags:["lobbyStand","ryu","ryu.defau
 summon minecraft:area_effect_cloud 38.5 8.0 159.5 {CustomName:'{"text":"Samus","color":"gold"}',CustomNameVisible:1b,Age:-2147483648,Duration:-1,WaitTime:-2147483648}
 summon minecraft:armor_stand 38.5 6.0 161.5 {Tags:["lobbyStand","samus","samus.default"],Rotation:[-180f,0f],ArmorItems:[{},{},{id:"minecraft:golden_chestplate",Count:1b},{}]}
 
-summon minecraft:area_effect_cloud 67.5 8.0 131.5 {CustomName:'{"text":"Shovel Knight","color":"dark_aqua"}',CustomNameVisible:1b,Age:-2147483648,Duration:-1,WaitTime:-2147483648}
+summon minecraft:area_effect_cloud 68.5 8.0 131.5 {CustomName:'{"text":"Shovel Knight","color":"dark_aqua"}',CustomNameVisible:1b,Age:-2147483648,Duration:-1,WaitTime:-2147483648}
 summon minecraft:armor_stand 66.5 6.0 131.5 {Tags:["lobbyStand","shovelknight","shovelknight.default"],Rotation:[-90f,0f]}
 
 summon minecraft:area_effect_cloud 11.5 8.0 150.5 {CustomName:'{"text":"Snake","color":"light_gray"}',CustomNameVisible:1b,Age:-2147483648,Duration:-1,WaitTime:-2147483648}
@@ -61,7 +61,7 @@ summon minecraft:armor_stand 9.5 6.0 150.5 {Tags:["lobbyStand","snake","snake.de
 summon minecraft:area_effect_cloud 61.5 8.0 148.5 {CustomName:'{"text":"Sonic","color":"blue"}',CustomNameVisible:1b,Age:-2147483648,Duration:-1,WaitTime:-2147483648}
 summon minecraft:armor_stand 61.5 6.0 146.5 {Tags:["lobbyStand","sonic","sonic.default"],Rotation:[0f,0f]}
 
-summon minecraft:area_effect_cloud 77.5 8.0 141.5 {CustomName:'{"text":"Steve","color":"dark_aqua"}',CustomNameVisible:1b,Age:-2147483648,Duration:-1,WaitTime:-2147483648}
+summon minecraft:area_effect_cloud 76.5 8.0 141.5 {CustomName:'{"text":"Steve","color":"dark_aqua"}',CustomNameVisible:1b,Age:-2147483648,Duration:-1,WaitTime:-2147483648}
 summon minecraft:armor_stand 78.5 6.0 141.5 {Tags:["lobbyStand","steve","steve.default"],Rotation:[90f,0f]}
 
 summon minecraft:area_effect_cloud 35.5 6.5 159.5 {CustomName:'{"text":"Spectate","color":"white"}',CustomNameVisible:1b,Age:-2147483648,Duration:-1,WaitTime:-2147483648}
