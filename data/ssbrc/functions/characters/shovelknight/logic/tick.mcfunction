@@ -4,6 +4,7 @@ execute as @s[scores={useAbility=1..,mana=3..,shovelknight.phaseLocket=..0},nbt=
 
 scoreboard players reset @s useAbility
 
+execute as @e[tag=shovelknight.flareWand] at @s run function ssbrc:characters/shovelknight/logic/magic/flare_wand/entity
 scoreboard players remove @s[scores={shovelknight.flareWand=1..}] shovelknight.flareWand 1
 scoreboard players remove @s[scores={shovelknight.phaseLocket=1..}] shovelknight.phaseLocket 1
 
