@@ -1,6 +1,8 @@
 execute as @s[tag=charizard,predicate=ssbrc:shiny_chance] run tag @s add shiny
 execute as @s[tag=greninja,predicate=ssbrc:shiny_chance] run tag @s add shiny
 
+tag @s[tag=alteredbeast] add alteredbeast.form.human
+
 item replace entity @s armor.head with minecraft:barrier{HideFlags:127}
 item modify entity @s armor.head ssbrc:kits/head
 
@@ -54,6 +56,7 @@ execute as @s[tag=snake] run function ssbrc:characters/snake/kit
 execute as @s[tag=sonic] run function ssbrc:characters/sonic/kit
 execute as @s[tag=steve] run function ssbrc:characters/steve/kit
 
+execute as @s[tag=alteredbeast] run function ssbrc:characters/alteredbeast/kits/human
 execute as @s[tag=shovelknight] run function ssbrc:characters/shovelknight/kit
 
 item modify entity @s armor.feet ssbrc:kits/enchantments/feather_falling

@@ -1,5 +1,6 @@
 schedule clear ssbrc:logic/timer
 
+execute if entity @s[tag=alteredbeast] run title @a subtitle [{"text":"Selected Character: ","color":"gold"},{"text":"Altered Beast","bold":true,"color":"yellow"}]
 execute if entity @s[tag=bowser] run title @a subtitle [{"text":"Selected Character: ","color":"gold"},{"text":"Bowser","bold":true,"color":"yellow"}]
 execute if entity @s[tag=captainfalcon] run title @a subtitle [{"text":"Selected Character: ","color":"gold"},{"text":"Captain Falcon","bold":true,"color":"yellow"}]
 execute if entity @s[tag=charizard] run title @a subtitle [{"text":"Selected Character: ","color":"gold"},{"text":"Charizard","bold":true,"color":"yellow"}]

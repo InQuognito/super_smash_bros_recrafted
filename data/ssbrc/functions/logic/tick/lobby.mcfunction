@@ -15,6 +15,7 @@ effect give @a minecraft:saturation 1000000 255 true
 effect give @a minecraft:speed 1000000 1 true
 
 # Favorites
+execute as @a[tag=!alteredbeast,predicate=!ssbrc:sneaking,nbt={SelectedItem:{tag:{favorite.alteredbeast:1}}},scores={selectFavorite=1..}] run function ssbrc:characters/alteredbeast/menu/select_character
 execute as @a[tag=!bowser,predicate=!ssbrc:sneaking,nbt={SelectedItem:{tag:{favorite.bowser:1}}},scores={selectFavorite=1..}] run function ssbrc:characters/bowser/menu/select_character
 execute as @a[tag=!captainfalcon,predicate=!ssbrc:sneaking,nbt={SelectedItem:{tag:{favorite.captainfalcon:1}}},scores={selectFavorite=1..}] run function ssbrc:characters/captainfalcon/menu/select_character
 execute as @a[tag=!charizard,predicate=!ssbrc:sneaking,nbt={SelectedItem:{tag:{favorite.charizard:1}}},scores={selectFavorite=1..}] run function ssbrc:characters/charizard/menu/select_character
@@ -38,6 +39,7 @@ execute as @a[tag=!snake,predicate=!ssbrc:sneaking,nbt={SelectedItem:{tag:{favor
 execute as @a[tag=!sonic,predicate=!ssbrc:sneaking,nbt={SelectedItem:{tag:{favorite.sonic:1}}},scores={selectFavorite=1..}] run function ssbrc:characters/sonic/menu/select_character
 execute as @a[tag=!steve,predicate=!ssbrc:sneaking,nbt={SelectedItem:{tag:{favorite.steve:1}}},scores={selectFavorite=1..}] run function ssbrc:characters/steve/menu/select_character
 
+execute as @a[predicate=ssbrc:sneaking,nbt={SelectedItem:{tag:{favorite.alteredbeast:1}}},scores={selectFavorite=1..}] run function ssbrc:characters/alteredbeast/menu/prompt
 execute as @a[predicate=ssbrc:sneaking,nbt={SelectedItem:{tag:{favorite.bowser:1}}},scores={selectFavorite=1..}] run function ssbrc:characters/bowser/menu/prompt
 execute as @a[predicate=ssbrc:sneaking,nbt={SelectedItem:{tag:{favorite.captainfalcon:1}}},scores={selectFavorite=1..}] run function ssbrc:characters/captainfalcon/menu/prompt
 execute as @a[predicate=ssbrc:sneaking,nbt={SelectedItem:{tag:{favorite.charizard:1}}},scores={selectFavorite=1..}] run function ssbrc:characters/charizard/menu/prompt

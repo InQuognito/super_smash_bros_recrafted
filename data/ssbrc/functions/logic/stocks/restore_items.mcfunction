@@ -42,6 +42,9 @@ give @s[tag=steve,scores={steve.tier=1}] minecraft:stone_sword{Damage:0,HideFlag
 give @s[tag=steve,scores={steve.tier=2}] minecraft:iron_sword{Damage:0,HideFlags:127}
 give @s[tag=steve,scores={steve.tier=3}] minecraft:diamond_sword{Damage:0,HideFlags:127}
 
+clear @s[tag=alteredbeast.form.waretiger] minecraft:firework_rocket
+item replace entity @s[tag=alteredbeast.form.waretiger] weapon.offhand with minecraft:firework_rocket{Fireworks:{Flight:3,Explosions:[{Type:1,Flicker:1b,Trail:1b,Colors:[I;14602026,14597930,14593834],FadeColors:[I;17233746]}]},display:{Name:'[{"text":"Golden Shower","italic":false,"bold":true,"color":"gold"}]'}} 3
+
 clear @s[tag=captainfalcon] minecraft:arrow
 give @s[tag=captainfalcon] minecraft:arrow 5
 give @s[tag=charizard] minecraft:arrow 4

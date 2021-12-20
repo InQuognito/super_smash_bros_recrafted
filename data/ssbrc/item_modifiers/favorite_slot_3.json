@@ -690,6 +690,38 @@
 		"function": "minecraft:set_name",
 		"entity": "this",
 		"name": {
+			"text": "Altered Beast",
+			"color": "gold",
+			"bold": true,
+			"italic": false
+		},
+		"conditions": [
+			{
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"nbt": "{Tags:[favorite.slot3.alteredbeast]}"
+				}
+			}
+		]
+	},
+	{
+		"function": "minecraft:set_nbt",
+		"tag": "{favorite.alteredbeast:1,CustomModelData:1820}",
+		"conditions": [
+			{
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"nbt": "{Tags:[favorite.slot3.alteredbeast]}"
+				}
+			}
+		]
+	},
+	{
+		"function": "minecraft:set_name",
+		"entity": "this",
+		"name": {
 			"text": "Shovel Knight",
 			"color": "dark_aqua",
 			"bold": true,

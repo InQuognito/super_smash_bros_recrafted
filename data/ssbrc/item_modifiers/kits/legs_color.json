@@ -424,6 +424,19 @@
 				"condition": "minecraft:entity_properties",
 				"entity": "this",
 				"predicate": {
+					"nbt": "{Tags:[\"alteredbeast\",\"alteredbeast.default\",\"alteredbeast.form.human\"]}"
+				}
+			}
+		]
+	},
+	{
+		"function": "minecraft:set_nbt",
+		"tag": "{display:{color:10523820}}",
+		"conditions": [
+			{
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
 					"nbt": "{Tags:[\"arbok\",\"arbok.default\"]}"
 				}
 			}

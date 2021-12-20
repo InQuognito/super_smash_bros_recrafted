@@ -1,4 +1,5 @@
 # Kills
+scoreboard objectives add alteredbeast.k dummy
 scoreboard objectives add bowser.k dummy
 scoreboard objectives add captainfalcon.k dummy
 scoreboard objectives add charizard.k dummy
@@ -23,6 +24,7 @@ scoreboard objectives add sonic.k dummy
 scoreboard objectives add steve.k dummy
 
 # Games Played
+scoreboard objectives add alteredbeast.gP dummy
 scoreboard objectives add bowser.gP dummy
 scoreboard objectives add captainfalcon.gP dummy
 scoreboard objectives add charizard.gP dummy
@@ -47,6 +49,7 @@ scoreboard objectives add sonic.gP dummy
 scoreboard objectives add steve.gP dummy
 
 # Win Streak
+scoreboard objectives add alteredbeast.wS dummy
 scoreboard objectives add bowser.wS dummy
 scoreboard objectives add captainfalcon.wS dummy
 scoreboard objectives add charizard.wS dummy

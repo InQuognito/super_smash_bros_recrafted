@@ -1,5 +1,6 @@
 function ssbrc:logic/resets/favorites/slot_1
 
+execute if entity @s[tag=favoritetry.alteredbeast] run tag @s add favorite.slot1
 execute if entity @s[tag=favoritetry.bowser] run tag @s add favorite.slot1
 execute if entity @s[tag=favoritetry.captainfalcon] run tag @s add favorite.slot1
 execute if entity @s[tag=favoritetry.charizard] run tag @s add favorite.slot1
@@ -23,6 +24,7 @@ execute if entity @s[tag=favoritetry.snake] run tag @s add favorite.slot1
 execute if entity @s[tag=favoritetry.sonic] run tag @s add favorite.slot1
 execute if entity @s[tag=favoritetry.steve] run tag @s add favorite.slot1
 
+execute if entity @s[tag=favoritetry.alteredbeast] run tag @s add favorite.slot1.alteredbeast
 execute if entity @s[tag=favoritetry.bowser] run tag @s add favorite.slot1.bowser
 execute if entity @s[tag=favoritetry.captainfalcon] run tag @s add favorite.slot1.captainfalcon
 execute if entity @s[tag=favoritetry.charizard] run tag @s add favorite.slot1.charizard

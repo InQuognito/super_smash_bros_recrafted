@@ -1,3 +1,4 @@
+tag @s remove alteredbeast
 tag @s remove bowser
 tag @s remove captainfalcon
 tag @s remove charizard

@@ -1,3 +1,4 @@
+scoreboard players add @a[team=!spectator,tag=alteredbeast] alteredbeast.gP 1
 scoreboard players add @a[team=!spectator,tag=bowser] bowser.gP 1
 scoreboard players add @a[team=!spectator,tag=captainfalcon] captainfalcon.gP 1
 scoreboard players add @a[team=!spectator,tag=charizard] charizard.gP 1
@@ -22,6 +23,7 @@ scoreboard players add @a[team=!spectator,tag=sonic] sonic.gP 1
 scoreboard players add @a[team=!spectator,tag=steve] steve.gP 1
 
 tag @s add winner
+scoreboard players reset @a[team=!spectator,tag=!winner,tag=alteredbeast] alteredbeast.wS
 scoreboard players reset @a[team=!spectator,tag=!winner,tag=bowser] bowser.wS
 scoreboard players reset @a[team=!spectator,tag=!winner,tag=captainfalcon] captainfalcon.wS
 scoreboard players reset @a[team=!spectator,tag=!winner,tag=charizard] charizard.wS
@@ -46,6 +48,7 @@ scoreboard players reset @a[team=!spectator,tag=!winner,tag=sonic] sonic.wS
 scoreboard players reset @a[team=!spectator,tag=!winner,tag=steve] steve.wS
 tag @a remove winner
 
+scoreboard players reset @s[tag=!alteredbeast] alteredbeast.wS
 scoreboard players reset @s[tag=!bowser] bowser.wS
 scoreboard players reset @s[tag=!captainfalcon] captainfalcon.wS
 scoreboard players reset @s[tag=!charizard] charizard.wS
@@ -69,6 +72,7 @@ scoreboard players reset @s[tag=!snake] snake.wS
 scoreboard players reset @s[tag=!sonic] sonic.wS
 scoreboard players reset @s[tag=!steve] steve.wS
 
+scoreboard players add @s[tag=alteredbeast] alteredbeast.wS 1
 scoreboard players add @s[tag=bowser] bowser.wS 1
 scoreboard players add @s[tag=captainfalcon] captainfalcon.wS 1
 scoreboard players add @s[tag=charizard] charizard.wS 1

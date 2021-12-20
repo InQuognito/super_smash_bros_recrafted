@@ -1,3 +1,4 @@
+tag @a remove favoritetry.alteredbeast
 tag @a remove favoritetry.bowser
 tag @a remove favoritetry.captainfalcon
 tag @a remove favoritetry.charizard
