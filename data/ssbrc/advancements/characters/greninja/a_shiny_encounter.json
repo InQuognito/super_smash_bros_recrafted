@@ -2,7 +2,7 @@
 	"display": {
 		"icon": {
 			"item": "minecraft:barrier",
-			"nbt": "{CustomModelData:130}"
+			"nbt": "{CustomModelData:420}"
 		},
 		"title": {
 			"text": "A Shiny Encounter",
