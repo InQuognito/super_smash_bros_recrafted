@@ -1,8 +1,11 @@
 # Magic
-execute as @a[scores={useAbility=1..,mana=1..},nbt={SelectedItem:{tag:{ability.shovelknight:1}}}] at @s run function ssbrc:characters/shovelknight/logic/magic/flare_wand
-execute as @s[scores={useAbility=1..,mana=3..},nbt={SelectedItem:{tag:{ability.shovelknight:2}}}] run function ssbrc:characters/shovelknight/logic/magic/phase_locket
+execute as @a[scores={useAbility=1..,mana=1..,shovelknight.flareWand=..0},nbt={SelectedItem:{tag:{ability.shovelknight:1}}}] at @s run function ssbrc:characters/shovelknight/logic/magic/flare_wand/summon
+execute as @s[scores={useAbility=1..,mana=3..,shovelknight.phaseLocket=..0},nbt={SelectedItem:{tag:{ability.shovelknight:2}}}] run function ssbrc:characters/shovelknight/logic/magic/phase_locket
 
 scoreboard players reset @s useAbility
+
+scoreboard players remove @s[scores={shovelknight.flareWand=1..}] shovelknight.flareWand 1
+scoreboard players remove @s[scores={shovelknight.phaseLocket=1..}] shovelknight.phaseLocket 1
 
 # Mana
 title @s[scores={mana=..0}] actionbar [{"text":"Out of Mana","bold":true,"color":"red"}]
