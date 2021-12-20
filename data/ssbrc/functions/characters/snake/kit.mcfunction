@@ -1,10 +1,10 @@
-give @s[tag=snake.psg1] minecraft:carrot_on_a_stick{PSG1:1,CustomModelData:6,Unbreakable:1,display:{Name:'[{"text":"PSG-1","italic":false,"color":"green","bold":true}]'},HideFlags:127} 1
-give @s[tag=snake.famas] minecraft:carrot_on_a_stick{Famas:1,CustomModelData:5,Unbreakable:1,display:{Name:'[{"text":"FAMAS","italic":false,"color":"green","bold":true}]'},HideFlags:127} 1
-give @s[tag=snake.s1000] minecraft:carrot_on_a_stick{S1000:1,CustomModelData:7,Unbreakable:1,display:{Name:'[{"text":"S1000","italic":false,"color":"green","bold":true}]'},HideFlags:127} 1
-give @s[tag=snake.socom] minecraft:carrot_on_a_stick{Socom:1,CustomModelData:8,Unbreakable:1,display:{Name:'[{"text":"SOCOM","italic":false,"color":"green","bold":true}]'},HideFlags:127} 1
+give @s[tag=snake.psg1] minecraft:carrot_on_a_stick{PSG1:1,CustomModelData:-6,Unbreakable:1,display:{Name:'[{"text":"PSG-1","italic":false,"color":"green","bold":true}]'},HideFlags:127} 1
+give @s[tag=snake.famas] minecraft:carrot_on_a_stick{Famas:1,CustomModelData:-5,Unbreakable:1,display:{Name:'[{"text":"FAMAS","italic":false,"color":"green","bold":true}]'},HideFlags:127} 1
+give @s[tag=snake.s1000] minecraft:carrot_on_a_stick{S1000:1,CustomModelData:-7,Unbreakable:1,display:{Name:'[{"text":"S1000","italic":false,"color":"green","bold":true}]'},HideFlags:127} 1
+give @s[tag=snake.socom] minecraft:carrot_on_a_stick{Socom:1,CustomModelData:-8,Unbreakable:1,display:{Name:'[{"text":"SOCOM","italic":false,"color":"green","bold":true}]'},HideFlags:127} 1
 give @s minecraft:iron_sword{CustomModelData:2,Unbreakable:1,AttributeModifiers:[{AttributeName:"generic.attack_damage",Amount:4,Slot:mainhand,Name:"generic.attack_damage",UUID:[I;-121615,34731,13025,-69462]},{AttributeName:"generic.attack_speed",Amount:-1.4,Slot:mainhand,Name:"generic.attack_speed",UUID:[I;-121615,34831,13025,-69662]}],display:{Name:'[{"text":"CQC Knife","italic":false,"color":"green","bold":true}]'},HideFlags:4} 1
 give @s[tag=snake.apm] minecraft:gray_terracotta{CustomModelData:1,display:{Name:'[{"text":"Anti-Personnel Mine (Drop to Activate)","italic":false,"color":"green","bold":true}]'},HideFlags:127} 2
-give @s[tag=snake.sg] minecraft:carrot_on_a_stick{SG:1,CustomModelData:9,Unbreakable:1,display:{Name:'[{"text":"Smoke Grenade","italic":false,"color":"green","bold":true}]'},HideFlags:127} 1
+give @s[tag=snake.sg] minecraft:carrot_on_a_stick{SG:1,CustomModelData:-9,Unbreakable:1,display:{Name:'[{"text":"Smoke Grenade","italic":false,"color":"green","bold":true}]'},HideFlags:127} 1
 
 scoreboard players set @s[tag=snake.psg1] snake.psg1M 7
 scoreboard players set @s[tag=snake.psg1] snake.psg1A 1
