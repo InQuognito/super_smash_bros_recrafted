@@ -71,11 +71,11 @@ execute as @e[tag=lobbyStand] run data merge entity @s {Invulnerable:1b,NoBasePl
 execute as @e[tag=lobbyStand] run item replace entity @s armor.head with minecraft:barrier
 execute as @e[tag=lobbyStand] run item modify entity @s armor.head ssbrc:kits/head
 
-execute as @e[tag=lobbyStand,tag=!lobbyStatue,tag=!ganondorf,tag=!kingkrool,tag=!pit,tag=!samus] run item replace entity @s armor.chest with minecraft:leather_chestplate
-execute as @e[tag=lobbyStand,tag=!lobbyStatue,tag=!ganondorf,tag=!kingkrool,tag=!pit,tag=!samus] run item modify entity @s armor.chest ssbrc:kits/chest_color
+execute as @e[tag=lobbyStand,tag=!lobbyStatue,tag=!ganondorf,tag=!kingkrool,tag=!pit,tag=!samus,tag=!shovelknight] run item replace entity @s armor.chest with minecraft:leather_chestplate
+execute as @e[tag=lobbyStand,tag=!lobbyStatue,tag=!ganondorf,tag=!kingkrool,tag=!pit,tag=!samus,tag=!shovelknight] run item modify entity @s armor.chest ssbrc:kits/chest_color
 
 execute as @e[tag=lobbyStand,tag=!lobbyStatue] run item replace entity @s armor.legs with minecraft:leather_leggings
 execute as @e[tag=lobbyStand,tag=!lobbyStatue] run item modify entity @s armor.legs ssbrc:kits/legs_color
 
-execute as @e[tag=lobbyStand,tag=!lobbyStatue,tag=!captainfalcon,tag=!fox] run item replace entity @s armor.feet with minecraft:leather_boots
-execute as @e[tag=lobbyStand,tag=!lobbyStatue,tag=!captainfalcon,tag=!fox] run item modify entity @s armor.feet ssbrc:kits/feet_color
+execute as @e[tag=lobbyStand,tag=!lobbyStatue,tag=!captainfalcon,tag=!fox,tag=!shovelknight] run item replace entity @s armor.feet with minecraft:leather_boots
+execute as @e[tag=lobbyStand,tag=!lobbyStatue,tag=!captainfalcon,tag=!fox,tag=!shovelknight] run item modify entity @s armor.feet ssbrc:kits/feet_color
