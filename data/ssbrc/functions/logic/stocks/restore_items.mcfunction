@@ -66,3 +66,8 @@ effect give @s[tag=mario] minecraft:jump_boost 1000000 2 true
 
 effect give @s[tag=greninja] minecraft:conduit_power 1000000 255 true
 effect give @s[tag=greninja] minecraft:dolphins_grace 1000000 255 true
+
+execute as @s[tag=!kirby] run attribute @s generic.armor base set 6.0
+execute as @s[tag=ganondorf] run attribute @s generic.armor base set 12.0
+execute as @s[tag=bowser] run attribute @s generic.armor base set 12.0
+execute as @s[tag=kingkrool] run attribute @s generic.armor base set 18.0
