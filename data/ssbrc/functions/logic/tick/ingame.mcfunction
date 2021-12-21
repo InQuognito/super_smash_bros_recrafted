@@ -6,8 +6,6 @@ function ssbrc:logic/tick/respawn
 gamemode spectator @a[team=dead]
 gamemode spectator @a[team=spectator]
 
-execute unless score $sectorZ map matches 1 run function ssbrc:logic/tick/effects
-
 execute as @e[type=#minecraft:arrows,tag=!counted] if entity @s run function ssbrc:logic/tick/arrows/count
 kill @e[tag=bullet,nbt={inGround:1b}]
 

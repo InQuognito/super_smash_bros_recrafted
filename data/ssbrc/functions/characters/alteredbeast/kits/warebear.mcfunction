@@ -3,7 +3,8 @@ tag @s add alteredbeast.form.warebear
 
 tellraw @s [{"text":"Altered Beast Form: ","bold":true,"color":"gold"},{"text":"Warebear","bold":false,"color":"yellow"}]
 
-effect clear @s minecraft:speed
+effect clear @s minecraft:jump_boost
+effect give @s minecraft:jump_boost 1000000 0 true
 
 clear @s minecraft:iron_axe
 
