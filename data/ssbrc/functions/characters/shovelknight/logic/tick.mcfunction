@@ -8,8 +8,11 @@ execute as @e[tag=shovelknight.flareWand] at @s run function ssbrc:characters/sh
 scoreboard players remove @s[scores={shovelknight.flareWand=1..}] shovelknight.flareWand 1
 scoreboard players remove @s[scores={shovelknight.phaseLocket=1..}] shovelknight.phaseLocket 1
 
-effect give @s[scores={timer=1..}] minecraft:invisibility 1 0 true
-effect clear @s[scores={timer=1..}] minecraft:invisibility
+effect give @s[scores={temp=0}] minecraft:invisibility 1 0 true
+effect clear @s[scores={temp=1}] minecraft:invisibility
+
+scoreboard players add @s temp 1
+execute if score @s temp matches 1.. run scoreboard players set @s temp 0
 
 scoreboard players remove @s[scores={timer=1..}] timer 1
 execute if score @s timer matches ..0 run function ssbrc:characters/shovelknight/logic/magic/phase_locket/off
