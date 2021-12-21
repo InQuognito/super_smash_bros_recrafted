@@ -174,6 +174,12 @@ tag @s remove wilyCastle
 # Misc
 tag @s remove abilityActive
 tag @s remove abilityUsed
+tag @s remove alteredbeast.form.demigod
+tag @s remove alteredbeast.form.human
+tag @s remove alteredbeast.form.warebear
+tag @s remove alteredbeast.form.waredragon
+tag @s remove alteredbeast.form.waretiger
+tag @s remove alteredbeast.form.warewolf
 tag @s remove characterPicked
 tag @s remove hero.kaclang
 tag @s remove hero.magicLost
