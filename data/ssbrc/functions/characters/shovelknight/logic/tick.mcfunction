@@ -18,10 +18,10 @@ item replace entity @s[scores={temp=2}] armor.head with minecraft:barrier{Custom
 item replace entity @s[scores={temp=2}] armor.chest with minecraft:leather_chestplate{display:{color:5789784},Unbreakable:1,HideFlags:127,Enchantments:[{id:"minecraft:binding_curse",lvl:1}]}
 item replace entity @s[scores={temp=2}] armor.legs with minecraft:leather_leggings{display:{color:5789784},Unbreakable:1,HideFlags:127,Enchantments:[{id:"minecraft:binding_curse",lvl:1}]}
 item replace entity @s[scores={temp=2}] armor.feet with minecraft:leather_boots{display:{color:5789784},Unbreakable:1,HideFlags:127,Enchantments:[{id:"minecraft:binding_curse",lvl:1}]}
-#item modify entity @s[scores={temp=2}] armor.head ssbrc:kits/remove_armor
-#item modify entity @s[scores={temp=2}] armor.chest ssbrc:kits/remove_armor
-#item modify entity @s[scores={temp=2}] armor.legs ssbrc:kits/remove_armor
-#item modify entity @s[scores={temp=2}] armor.feet ssbrc:kits/remove_armor
+item modify entity @s[scores={temp=2}] armor.head ssbrc:kits/remove_armor
+item modify entity @s[scores={temp=2}] armor.chest ssbrc:kits/remove_armor
+item modify entity @s[scores={temp=2}] armor.legs ssbrc:kits/remove_armor
+item modify entity @s[scores={temp=2}] armor.feet ssbrc:kits/remove_armor
 effect clear @s[scores={temp=2}] minecraft:invisibility
 
 scoreboard players add @s[scores={temp=0..}] temp 1
