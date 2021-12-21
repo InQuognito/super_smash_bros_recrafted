@@ -14,21 +14,17 @@ item replace entity @s[scores={temp=0}] armor.legs with minecraft:air
 item replace entity @s[scores={temp=0}] armor.feet with minecraft:air
 effect give @s[scores={temp=0}] minecraft:invisibility 1 0 true
 
-item replace entity @s[scores={temp=2}] armor.head with minecraft:barrier
-item replace entity @s[scores={temp=2}] armor.chest with minecraft:leather_chestplate
-item replace entity @s[scores={temp=2}] armor.legs with minecraft:leather_leggings
-item replace entity @s[scores={temp=2}] armor.feet with minecraft:leather_boots
-item modify entity @s[scores={temp=2}] armor.head ssbrc:kits/head
-item modify entity @s[scores={temp=2}] armor.chest ssbrc:kits/chest_color
-item modify entity @s[scores={temp=2}] armor.legs ssbrc:kits/legs_color
-item modify entity @s[scores={temp=2}] armor.feet ssbrc:kits/feet_color
-item modify entity @s[scores={temp=2}] armor.head ssbrc:kits/remove_armor
-item modify entity @s[scores={temp=2}] armor.chest ssbrc:kits/remove_armor
-item modify entity @s[scores={temp=2}] armor.legs ssbrc:kits/remove_armor
-item modify entity @s[scores={temp=2}] armor.feet ssbrc:kits/remove_armor
+item replace entity @s[scores={temp=2}] armor.head with minecraft:barrier{CustomModelData:2002,HideFlags:127,Enchantments:[{id:"minecraft:binding_curse",lvl:1}]}
+item replace entity @s[scores={temp=2}] armor.chest with minecraft:leather_chestplate{display:{color:5789784},Unbreakable:1,HideFlags:127,Enchantments:[{id:"minecraft:binding_curse",lvl:1}]}
+item replace entity @s[scores={temp=2}] armor.legs with minecraft:leather_leggings{display:{color:5789784},Unbreakable:1,HideFlags:127,Enchantments:[{id:"minecraft:binding_curse",lvl:1}]}
+item replace entity @s[scores={temp=2}] armor.feet with minecraft:leather_boots{display:{color:5789784},Unbreakable:1,HideFlags:127,Enchantments:[{id:"minecraft:binding_curse",lvl:1}]}
+#item modify entity @s[scores={temp=2}] armor.head ssbrc:kits/remove_armor
+#item modify entity @s[scores={temp=2}] armor.chest ssbrc:kits/remove_armor
+#item modify entity @s[scores={temp=2}] armor.legs ssbrc:kits/remove_armor
+#item modify entity @s[scores={temp=2}] armor.feet ssbrc:kits/remove_armor
 effect clear @s[scores={temp=2}] minecraft:invisibility
 
-scoreboard players add @s temp 1
+scoreboard players add @s[scores={temp=0..}] temp 1
 execute if score @s temp matches 3.. run scoreboard players set @s temp 0
 
 scoreboard players remove @s[scores={timer=1..}] timer 1
