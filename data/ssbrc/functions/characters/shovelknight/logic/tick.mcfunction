@@ -29,7 +29,7 @@ item modify entity @s[scores={temp=2}] armor.feet ssbrc:kits/remove_armor
 effect clear @s[scores={temp=2}] minecraft:invisibility
 
 scoreboard players add @s temp 1
-execute if score @s temp matches 2.. run scoreboard players set @s temp 0
+execute if score @s temp matches 3.. run scoreboard players set @s temp 0
 
 scoreboard players remove @s[scores={timer=1..}] timer 1
 execute if score @s timer matches ..0 run function ssbrc:characters/shovelknight/logic/magic/phase_locket/off
