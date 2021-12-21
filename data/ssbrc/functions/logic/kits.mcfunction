@@ -26,13 +26,13 @@ item modify entity @s armor.head ssbrc:kits/remove_armor
 item modify entity @s armor.chest ssbrc:kits/remove_armor
 item modify entity @s armor.legs ssbrc:kits/remove_armor
 item modify entity @s armor.feet ssbrc:kits/remove_armor
-execute as @s[tag=!kirby] run attribute @s generic.armor base set 6.0
-execute as @s[tag=ganondorf] run attribute @s generic.armor base set 12.0
-execute as @s[tag=bowser] run attribute @s generic.armor base set 12.0
-execute as @s[tag=kingkrool] run attribute @s generic.armor base set 18.0
+execute as @s[tag=!kirby] run attribute @s minecraft:generic.armor base set 6.0
+execute as @s[tag=ganondorf] run attribute @s minecraft:generic.armor base set 12.0
+execute as @s[tag=bowser] run attribute @s minecraft:generic.armor base set 12.0
+execute as @s[tag=kingkrool] run attribute @s minecraft:generic.armor base set 18.0
 
-attribute @s generic.attack_damage base set 2.0
-attribute @s generic.attack_speed base set 4.0
+attribute @s minecraft:generic.attack_damage base set 2.0
+attribute @s minecraft:generic.attack_speed base set 4.0
 
 execute as @s[tag=bowser] run function ssbrc:characters/bowser/kit
 execute as @s[tag=captainfalcon] run function ssbrc:characters/captainfalcon/kit
