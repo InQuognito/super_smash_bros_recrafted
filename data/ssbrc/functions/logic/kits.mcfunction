@@ -66,4 +66,19 @@ item modify entity @s armor.chest ssbrc:kits/enchantments/binding_curse
 item modify entity @s armor.legs ssbrc:kits/enchantments/binding_curse
 item modify entity @s armor.feet ssbrc:kits/enchantments/binding_curse
 
+effect give @s minecraft:saturation 1000000 255 true
+
+effect give @s[tag=!snake] minecraft:glowing 1000000 255 true
+
+effect give @s[tag=!alteredbeast.form.warebear,tag=!bowser,tag=!donkeykong,tag=!ganondorf,tag=!kingkrool,tag=!mario] minecraft:jump_boost 1000000 1 true
+effect give @s[tag=alteredbeast.form.warebear] minecraft:jump_boost 1000000 0 true
+effect give @s[tag=boswer] minecraft:jump_boost 1000000 0 true
+effect give @s[tag=donkeykong] minecraft:jump_boost 1000000 0 true
+effect give @s[tag=ganondorf] minecraft:jump_boost 1000000 0 true
+effect give @s[tag=kingkrool] minecraft:jump_boost 1000000 0 true
+effect give @s[tag=mario] minecraft:jump_boost 1000000 2 true
+
+effect give @s[tag=greninja] minecraft:conduit_power 1000000 255 true
+effect give @s[tag=greninja] minecraft:dolphins_grace 1000000 255 true
+
 execute at @s[tag=shiny] run particle minecraft:electric_spark ~ ~0.5 ~ 0.2 0.2 0.2 1.5 5 normal @s
