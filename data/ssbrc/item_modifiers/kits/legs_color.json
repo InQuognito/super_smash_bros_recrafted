@@ -418,13 +418,78 @@
 
 	{
 		"function": "minecraft:set_nbt",
-		"tag": "{display:{color:10523820}}",
+		"tag": "{display:{color:6245431}}",
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
 				"entity": "this",
 				"predicate": {
-					"nbt": "{Tags:[\"alteredbeast\",\"alteredbeast.default\"]}"
+					"nbt": "{Tags:[\"alteredbeast\",\"alteredbeast.default\",\"alteredbeast.form.human\"]}"
+				}
+			}
+		]
+	},
+	{
+		"function": "minecraft:set_nbt",
+		"tag": "{display:{color:6245431}}",
+		"conditions": [
+			{
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"nbt": "{Tags:[\"alteredbeast\",\"alteredbeast.default\",\"alteredbeast.form.demigod\"]}"
+				}
+			}
+		]
+	},
+	{
+		"function": "minecraft:set_nbt",
+		"tag": "{display:{color:6892032}}",
+		"conditions": [
+			{
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"nbt": "{Tags:[\"alteredbeast\",\"alteredbeast.default\",\"alteredbeast.form.warebear\"]}"
+				}
+			}
+		]
+	},
+	{
+		"function": "minecraft:set_nbt",
+		"tag": "{display:{color:3899195}}",
+		"conditions": [
+			{
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"nbt": "{Tags:[\"alteredbeast\",\"alteredbeast.default\",\"alteredbeast.form.waredragon\"]}"
+				}
+			}
+		]
+	},
+	{
+		"function": "minecraft:set_nbt",
+		"tag": "{display:{color:14655566}}",
+		"conditions": [
+			{
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"nbt": "{Tags:[\"alteredbeast\",\"alteredbeast.default\",\"alteredbeast.form.waretiger\"]}"
+				}
+			}
+		]
+	},
+	{
+		"function": "minecraft:set_nbt",
+		"tag": "{display:{color:3943706}}",
+		"conditions": [
+			{
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"nbt": "{Tags:[\"alteredbeast\",\"alteredbeast.default\",\"alteredbeast.form.warewolf\"]}"
 				}
 			}
 		]
