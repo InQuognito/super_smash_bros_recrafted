@@ -9,6 +9,8 @@ gamemode spectator @a[team=spectator]
 execute as @e[type=#minecraft:arrows,tag=!counted] if entity @s run function ssbrc:logic/tick/arrows/count
 kill @e[tag=bullet,nbt={inGround:1b}]
 
+effect give @a[team=alive,scores={flag.dead=..0},predicate=ssbrc:below_y_01] minecraft:blindness 1 0 true
+
 # Maps
 execute if score $battlefield map matches 1 run function ssbrc:logic/tick/maps/battlefield
 execute if score $flatZone map matches 1 run function ssbrc:logic/tick/maps/flat_zone
