@@ -13,9 +13,9 @@ scoreboard players operation #targetZ pos -= #playerZ pos
 
 execute as @s at @s anchored eyes run summon minecraft:snowball ~ ~ ~ {Tags:["projectile"],Passengers:[{id:"minecraft:area_effect_cloud",Tags:["smokeGrenade"],Age:-2147483648,Duration:-1,WaitTime:-2147483648}]}
 
-execute store result entity @e[tag=projectile,limit=1] Motion[0] double 0.0025 run scoreboard players get #targetX pos
-execute store result entity @e[tag=projectile,limit=1] Motion[1] double 0.0025 run scoreboard players get #targetY pos
-execute store result entity @e[tag=projectile,limit=1] Motion[2] double 0.0025 run scoreboard players get #targetZ pos
+execute store result entity @e[tag=projectile,limit=1] Motion[0] double 0.0015 run scoreboard players get #targetX pos
+execute store result entity @e[tag=projectile,limit=1] Motion[1] double 0.0015 run scoreboard players get #targetY pos
+execute store result entity @e[tag=projectile,limit=1] Motion[2] double 0.0015 run scoreboard players get #targetZ pos
 
 tag @e[tag=projectile] remove projectile
 kill @e[tag=direction]
