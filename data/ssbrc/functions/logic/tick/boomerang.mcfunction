@@ -22,8 +22,8 @@ tp @s[scores={temp=30}] ^ ^ ^0.40
 tp @s[scores={temp=29}] ^ ^ ^0.42
 tp @s[scores={temp=28}] ^ ^ ^0.44
 tp @s[scores={temp=27}] ^ ^ ^0.46
-tp @s[scores={temp=26}] ^ ^ ^0.48
-tp @s[scores={temp=..25}] ^ ^ ^0.50
+tp @s[scores={temp=16..26}] ^ ^ ^0.48
+tp @s[scores={temp=..15}] ^ ^ ^0.50
 
 scoreboard players add @s temp 1
 
