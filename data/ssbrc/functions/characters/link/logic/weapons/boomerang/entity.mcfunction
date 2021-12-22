@@ -13,6 +13,7 @@ execute if score @s temp matches 41.. if score @s id = @p[distance=..1] id run k
 
 scoreboard players add @s temp 1
 
+kill @s[scores={temp=150..}]
 execute unless block ^ ^ ^0.1 #ssbrc:passthrough run scoreboard players set @s temp 65
 
 particle minecraft:dust 0.733 0.525 0.216 0.75 ^ ^ ^ 0.0 0.0 0.0 0 0 normal @a
