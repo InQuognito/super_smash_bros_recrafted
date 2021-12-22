@@ -19,6 +19,7 @@ clear @a
 effect clear @a
 effect give @a minecraft:instant_health 1 50 true
 
+scoreboard players set @a[team=alive] flag.dead 0
 scoreboard players set @a[team=alive] health 40
 
 effect give @a[team=alive] minecraft:slowness 1000000 255 true
