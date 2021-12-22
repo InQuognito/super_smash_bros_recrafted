@@ -76,6 +76,11 @@ execute if score $mementosType map matches 3 if score result_music random matche
 execute if score $mementosType map matches 3 if score result_music random matches 1 as @a at @s run playsound ssbrc:take_over music @s
 execute if score $mementosType map matches 3 if score result_music random matches 1 run schedule function ssbrc:logic/pre_game/music_loop 3360t replace
 
+execute if score $miiverse map matches 1 if score result_music random matches 0 as @a at @s run playsound ssbrc:mario_paint_medley music @s
+execute if score $miiverse map matches 1 if score result_music random matches 0 run schedule function ssbrc:logic/pre_game/music_loop 2040t replace
+execute if score $miiverse map matches 1 if score result_music random matches 1 as @a at @s run playsound ssbrc:nintendo_land_medley music @s
+execute if score $miiverse map matches 1 if score result_music random matches 1 run schedule function ssbrc:logic/pre_game/music_loop 2420t replace
+
 execute if score $mushroomKingdom map matches 1 if score result_music random matches 0 as @a at @s run playsound ssbrc:bob_omb_battlefield music @s
 execute if score $mushroomKingdom map matches 1 if score result_music random matches 0 run schedule function ssbrc:logic/pre_game/music_loop 1360t replace
 execute if score $mushroomKingdom map matches 1 if score result_music random matches 1 as @a at @s run playsound ssbrc:super_mario_bros_main_theme music @s

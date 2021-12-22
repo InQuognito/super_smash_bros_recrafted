@@ -108,6 +108,12 @@ execute if score $mementosType map matches 3 if score result_music random matche
 execute if score $mementosType map matches 3 if score result_music random matches 1 run tellraw @a [{"text":"Now Playing: ","bold":true,"color":"gold"},{"text":"Take Over","color":"yellow"}]
 execute if score $mementosType map matches 3 if score result_music random matches 1 run schedule function ssbrc:logic/pre_game/music_loop 320t replace
 
+execute if score $miiverse map matches 1 if score result_music random matches 0 as @a at @s run playsound ssbrc:mario_paint_medley_intro music @s
+execute if score $miiverse map matches 1 if score result_music random matches 0 run tellraw @a [{"text":"Now Playing: ","bold":true,"color":"gold"},{"text":"Mario Paint Medley","color":"yellow"}]
+execute if score $miiverse map matches 1 if score result_music random matches 0 run schedule function ssbrc:logic/pre_game/music_loop 100t replace
+execute if score $miiverse map matches 1 if score result_music random matches 1 run tellraw @a [{"text":"Now Playing: ","bold":true,"color":"gold"},{"text":"Nintendo Land Medley","color":"yellow"}]
+execute if score $miiverse map matches 1 if score result_music random matches 1 run function ssbrc:logic/pre_game/music_loop
+
 execute if score $mushroomKingdom map matches 1 if score result_music random matches 0 as @a at @s run playsound ssbrc:bob_omb_battlefield_intro music @s
 execute if score $mushroomKingdom map matches 1 if score result_music random matches 0 run tellraw @a [{"text":"Now Playing: ","bold":true,"color":"gold"},{"text":"Bob-Omb Battlefield","color":"yellow"}]
 execute if score $mushroomKingdom map matches 1 if score result_music random matches 0 run schedule function ssbrc:logic/pre_game/music_loop 120t replace
