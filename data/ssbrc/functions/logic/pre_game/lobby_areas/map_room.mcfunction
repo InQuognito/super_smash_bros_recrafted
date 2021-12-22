@@ -40,6 +40,7 @@ summon minecraft:area_effect_cloud 1.5 5.0 14.5 {Age:-2147483648,Duration:-1,Wai
 summon minecraft:area_effect_cloud 3.5 5.0 14.5 {Age:-2147483648,Duration:-1,WaitTime:-2147483648,Tags:["voteCounter","jungleJapes"],CustomNameVisible:1b}
 summon minecraft:area_effect_cloud 3.5 5.0 28.5 {Age:-2147483648,Duration:-1,WaitTime:-2147483648,Tags:["voteCounter","magicant"],CustomNameVisible:1b}
 summon minecraft:area_effect_cloud 7.5 5.0 28.5 {Age:-2147483648,Duration:-1,WaitTime:-2147483648,Tags:["voteCounter","mementos"],CustomNameVisible:1b}
+summon minecraft:area_effect_cloud -0.5 11.0 14.5 {Age:-2147483648,Duration:-1,WaitTime:-2147483648,Tags:["voteCounter","miiverse"],CustomNameVisible:1b}
 summon minecraft:area_effect_cloud 5.5 5.0 28.5 {Age:-2147483648,Duration:-1,WaitTime:-2147483648,Tags:["voteCounter","mushroomKingdom"],CustomNameVisible:1b}
 summon minecraft:area_effect_cloud 1.5 5.0 28.5 {Age:-2147483648,Duration:-1,WaitTime:-2147483648,Tags:["voteCounter","saturnValley"],CustomNameVisible:1b}
 summon minecraft:area_effect_cloud 10.5 5.0 25.5 {Age:-2147483648,Duration:-1,WaitTime:-2147483648,Tags:["voteCounter","sectorZ"],CustomNameVisible:1b}

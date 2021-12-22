@@ -12,6 +12,7 @@ execute if entity @s[tag=icicleMountain] run scoreboard players remove @e[tag=vo
 execute if entity @s[tag=jungleJapes] run scoreboard players remove @e[tag=voteCounter,tag=jungleJapes] mapVote 1
 execute if entity @s[tag=magicant] run scoreboard players remove @e[tag=voteCounter,tag=magicant] mapVote 1
 execute if entity @s[tag=mementos] run scoreboard players remove @e[tag=voteCounter,tag=mementos] mapVote 1
+execute if entity @s[tag=miiverse] run scoreboard players remove @e[tag=voteCounter,tag=miiverse] mapVote 1
 execute if entity @s[tag=mushroomKingdom] run scoreboard players remove @e[tag=voteCounter,tag=mushroomKingdom] mapVote 1
 execute if entity @s[tag=saturnValley] run scoreboard players remove @e[tag=voteCounter,tag=saturnValley] mapVote 1
 execute if entity @s[tag=sectorZ] run scoreboard players remove @e[tag=voteCounter,tag=sectorZ] mapVote 1
@@ -33,6 +34,7 @@ tag @s remove icicleMountain
 tag @s remove jungleJapes
 tag @s remove magicant
 tag @s remove mementos
+tag @s remove miiverse
 tag @s remove mushroomKingdom
 tag @s remove saturnValley
 tag @s remove sectorZ
