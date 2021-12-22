@@ -25,6 +25,9 @@ tp @s[scores={temp=17}] ^ ^ ^0.46
 tp @s[scores={temp=16}] ^ ^ ^0.48
 tp @s[scores={temp=..15}] ^ ^ ^0.50
 
-scoreboard players add @s temp 1
+execute store result entity @s[scores={temp=40}] Rotation float -1.0 run data get entity @s Rotation 1.0
 
-kill @s[scores={temp=100..}]
+scoreboard players add @s[scores={temp=..40}] temp 1
+scoreboard players remove @s[scores={temp=41..}] temp 1
+
+kill @s[scores={temp=..-1}]
