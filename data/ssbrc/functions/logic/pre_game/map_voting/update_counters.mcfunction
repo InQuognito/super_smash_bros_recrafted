@@ -1,3 +1,5 @@
+execute as @e[tag=voteCounter] run scoreboard players operation @s temp = @s mapVote
+
 execute if entity @s[tag=battlefield] run scoreboard players remove @e[tag=voteCounter,tag=battlefield] mapVote 1
 execute if entity @s[tag=castleSiege] run scoreboard players remove @e[tag=voteCounter,tag=castleSiege] mapVote 1
 execute if entity @s[tag=draculasCastle] run scoreboard players remove @e[tag=voteCounter,tag=draculasCastle] mapVote 1
@@ -42,5 +44,5 @@ tag @s remove shadowMosesIsland
 tag @s remove spearPillar
 tag @s remove wilyCastle
 
-tag @e[tag=voteCounter] add voteCounter.update
+execute as @e[tag=voteCounter] unless score @s mapVote = @s temp run tag @s add voteCounter.update
 execute as @e[tag=voteCounter.update,sort=random,limit=1] run function ssbrc:logic/pre_game/map_voting/update_counters_entity
