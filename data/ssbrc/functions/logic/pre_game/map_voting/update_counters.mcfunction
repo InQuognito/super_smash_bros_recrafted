@@ -44,5 +44,5 @@ tag @s remove shadowMosesIsland
 tag @s remove spearPillar
 tag @s remove wilyCastle
 
-execute as @e[tag=voteCounter] unless score @s mapVote = @s temp run tag @s add voteCounter.update
+execute as @e[tag=voteCounter] run tag @s add voteCounter.update
 execute as @e[tag=voteCounter.update,sort=random,limit=1] run function ssbrc:logic/pre_game/map_voting/update_counters_entity
