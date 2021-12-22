@@ -23,7 +23,7 @@ tp @s[scores={temp=19}] ^ ^ ^0.42
 tp @s[scores={temp=18}] ^ ^ ^0.44
 tp @s[scores={temp=17}] ^ ^ ^0.46
 tp @s[scores={temp=16}] ^ ^ ^0.48
-tp @s[scores={temp=15}] ^ ^ ^0.50
+tp @s[scores={temp=..15}] ^ ^ ^0.50
 
 scoreboard players add @s temp 1
 
