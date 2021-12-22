@@ -8,8 +8,8 @@ execute if score @s[scores={id=6}] temp matches 41.. facing entity @p[scores={id
 execute if score @s[scores={id=7}] temp matches 41.. facing entity @p[scores={id=7}] eyes run function ssbrc:characters/link/logic/weapons/boomerang/movement_return
 execute if score @s[scores={id=8}] temp matches 41.. facing entity @p[scores={id=8}] eyes run function ssbrc:characters/link/logic/weapons/boomerang/movement_return
 
-execute if score @s temp matches 41.. if score @s id = @p[distance=..1] id run give @p[distance=..1] minecraft:carrot_on_a_stick{link.ability:1,Unbreakable:1,HideFlags:127}
-execute if score @s temp matches 41.. if score @s id = @p[distance=..1] id run kill @s
+execute if score @s temp matches 41.. if score @s id = @p[dx=0.5,dy=0.5,dz=0.5] id run give @p[dx=0.5,dy=0.5,dz=0.5] minecraft:carrot_on_a_stick{link.ability:1,Unbreakable:1,HideFlags:127}
+execute if score @s temp matches 41.. if score @s id = @p[dx=0.5,dy=0.5,dz=0.5] id run kill @s
 
 scoreboard players add @s temp 1
 
