@@ -1,3 +1,30 @@
+tp @s[scores={temp=41}] ^ ^ ^0.01
+tp @s[scores={temp=42}] ^ ^ ^0.02
+tp @s[scores={temp=43}] ^ ^ ^0.04
+tp @s[scores={temp=44}] ^ ^ ^0.06
+tp @s[scores={temp=45}] ^ ^ ^0.08
+tp @s[scores={temp=46}] ^ ^ ^0.10
+tp @s[scores={temp=47}] ^ ^ ^0.12
+tp @s[scores={temp=48}] ^ ^ ^0.14
+tp @s[scores={temp=49}] ^ ^ ^0.16
+tp @s[scores={temp=50}] ^ ^ ^0.18
+tp @s[scores={temp=51}] ^ ^ ^0.20
+tp @s[scores={temp=52}] ^ ^ ^0.22
+tp @s[scores={temp=53}] ^ ^ ^0.24
+tp @s[scores={temp=54}] ^ ^ ^0.26
+tp @s[scores={temp=55}] ^ ^ ^0.28
+tp @s[scores={temp=56}] ^ ^ ^0.30
+tp @s[scores={temp=57}] ^ ^ ^0.32
+tp @s[scores={temp=58}] ^ ^ ^0.34
+tp @s[scores={temp=59}] ^ ^ ^0.36
+tp @s[scores={temp=60}] ^ ^ ^0.38
+tp @s[scores={temp=61}] ^ ^ ^0.40
+tp @s[scores={temp=62}] ^ ^ ^0.42
+tp @s[scores={temp=63}] ^ ^ ^0.44
+tp @s[scores={temp=64}] ^ ^ ^0.46
+tp @s[scores={temp=65}] ^ ^ ^0.48
+tp @s[scores={temp=66..}] ^ ^ ^0.50
+
 tp @s[scores={temp=40}] ^ ^ ^0.01
 tp @s[scores={temp=39}] ^ ^ ^0.02
 tp @s[scores={temp=38}] ^ ^ ^0.04
@@ -25,9 +52,6 @@ tp @s[scores={temp=17}] ^ ^ ^0.46
 tp @s[scores={temp=16}] ^ ^ ^0.48
 tp @s[scores={temp=..15}] ^ ^ ^0.50
 
-execute store result entity @s[scores={temp=40}] Rotation float -1.0 run data get entity @s Rotation 1.0
+scoreboard players add @s temp 1
 
-scoreboard players add @s[scores={temp=..40}] temp 1
-scoreboard players remove @s[scores={temp=41..}] temp 1
-
-kill @s[scores={temp=..-1}]
+kill @s[scores={temp=80..}]
