@@ -13,6 +13,7 @@ execute unless score $sectorZ map matches 1 run effect give @a[team=alive,scores
 
 # Maps
 execute if score $battlefield map matches 1 run function ssbrc:logic/tick/maps/battlefield
+execute if score $finalDestination map matches 1 run function ssbrc:logic/tick/maps/final_destination
 execute if score $flatZone map matches 1 run function ssbrc:logic/tick/maps/flat_zone
 execute if score $gardenOfHope map matches 1 run function ssbrc:logic/tick/maps/garden_of_hope
 execute if score $greatBay map matches 1 run function ssbrc:logic/tick/maps/great_bay
