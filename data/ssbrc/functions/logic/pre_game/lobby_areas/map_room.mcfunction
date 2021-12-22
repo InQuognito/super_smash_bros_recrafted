@@ -50,34 +50,8 @@ summon minecraft:area_effect_cloud -3.5 5.0 21.5 {Age:-2147483648,Duration:-1,Wa
 
 scoreboard players set @e[tag=voteCounter] mapVote 0
 
-forceload add 5000000 5000000 5000015 5000015
-
-setblock 5000000 50 5000000 minecraft:oak_sign{Text1:'[{"text":"Votes: ","color":"gold"},{"score":{"name":"@e[tag=voteCounter,tag=battlefield,limit=1]","objective":"mapVote"},"bold":true,"color":"yellow"}]',Text2:'[{"text":"Votes: ","color":"gold"},{"score":{"name":"@e[tag=voteCounter,tag=castleSiege,limit=1]","objective":"mapVote"},"bold":true,"color":"yellow"}]',Text3:'[{"text":"Votes: ","color":"gold"},{"score":{"name":"@e[tag=voteCounter,tag=draculasCastle,limit=1]","objective":"mapVote"},"bold":true,"color":"yellow"}]',Text4:'[{"text":"Votes: ","color":"gold"},{"score":{"name":"@e[tag=voteCounter,tag=dreamLand,limit=1]","objective":"mapVote"},"bold":true,"color":"yellow"}]',} destroy
-setblock 5000001 50 5000000 minecraft:oak_sign{Text1:'[{"text":"Votes: ","color":"gold"},{"score":{"name":"@e[tag=voteCounter,tag=finalDestination,limit=1]","objective":"mapVote"},"bold":true,"color":"yellow"}]',Text2:'[{"text":"Votes: ","color":"gold"},{"score":{"name":"@e[tag=voteCounter,tag=flatZone,limit=1]","objective":"mapVote"},"bold":true,"color":"yellow"}]',Text3:'[{"text":"Votes: ","color":"gold"},{"score":{"name":"@e[tag=voteCounter,tag=gardenOfHope,limit=1]","objective":"mapVote"},"bold":true,"color":"yellow"}]',Text4:'[{"text":"Votes: ","color":"gold"},{"score":{"name":"@e[tag=voteCounter,tag=greatBay,limit=1]","objective":"mapVote"},"bold":true,"color":"yellow"}]',} destroy
-setblock 5000002 50 5000000 minecraft:oak_sign{Text1:'[{"text":"Votes: ","color":"gold"},{"score":{"name":"@e[tag=voteCounter,tag=greatPlateau,limit=1]","objective":"mapVote"},"bold":true,"color":"yellow"}]',Text2:'[{"text":"Votes: ","color":"gold"},{"score":{"name":"@e[tag=voteCounter,tag=greenHillZone,limit=1]","objective":"mapVote"},"bold":true,"color":"yellow"}]',Text3:'[{"text":"Votes: ","color":"gold"},{"score":{"name":"@e[tag=voteCounter,tag=icicleMountain,limit=1]","objective":"mapVote"},"bold":true,"color":"yellow"}]',Text4:'[{"text":"Votes: ","color":"gold"},{"score":{"name":"@e[tag=voteCounter,tag=jungleJapes,limit=1]","objective":"mapVote"},"bold":true,"color":"yellow"}]',} destroy
-setblock 5000003 50 5000000 minecraft:oak_sign{Text1:'[{"text":"Votes: ","color":"gold"},{"score":{"name":"@e[tag=voteCounter,tag=magicant,limit=1]","objective":"mapVote"},"bold":true,"color":"yellow"}]',Text2:'[{"text":"Votes: ","color":"gold"},{"score":{"name":"@e[tag=voteCounter,tag=mementos,limit=1]","objective":"mapVote"},"bold":true,"color":"yellow"}]',Text3:'[{"text":"Votes: ","color":"gold"},{"score":{"name":"@e[tag=voteCounter,tag=mushroomKingdom,limit=1]","objective":"mapVote"},"bold":true,"color":"yellow"}]',Text4:'[{"text":"Votes: ","color":"gold"},{"score":{"name":"@e[tag=voteCounter,tag=saturnValley,limit=1]","objective":"mapVote"},"bold":true,"color":"yellow"}]',} destroy
-setblock 5000004 50 5000000 minecraft:oak_sign{Text1:'[{"text":"Votes: ","color":"gold"},{"score":{"name":"@e[tag=voteCounter,tag=sectorZ,limit=1]","objective":"mapVote"},"bold":true,"color":"yellow"}]',Text2:'[{"text":"Votes: ","color":"gold"},{"score":{"name":"@e[tag=voteCounter,tag=shadowMosesIsland,limit=1]","objective":"mapVote"},"bold":true,"color":"yellow"}]',Text3:'[{"text":"Votes: ","color":"gold"},{"score":{"name":"@e[tag=voteCounter,tag=spearPillar,limit=1]","objective":"mapVote"},"bold":true,"color":"yellow"}]',Text4:'[{"text":"Votes: ","color":"gold"},{"score":{"name":"@e[tag=voteCounter,tag=wilyCastle,limit=1]","objective":"mapVote"},"bold":true,"color":"yellow"}]',} destroy
-
-data modify entity @e[tag=voteCounter,tag=battlefield,limit=1] CustomName set from block 5000000 50 5000000 Text1
-data modify entity @e[tag=voteCounter,tag=castleSiege,limit=1] CustomName set from block 5000000 50 5000000 Text2
-data modify entity @e[tag=voteCounter,tag=draculasCastle,limit=1] CustomName set from block 5000000 50 5000000 Text3
-data modify entity @e[tag=voteCounter,tag=dreamLand,limit=1] CustomName set from block 5000000 50 5000000 Text4
-data modify entity @e[tag=voteCounter,tag=finalDestination,limit=1] CustomName set from block 5000001 50 5000000 Text1
-data modify entity @e[tag=voteCounter,tag=flatZone,limit=1] CustomName set from block 5000001 50 5000000 Text2
-data modify entity @e[tag=voteCounter,tag=gardenOfHope,limit=1] CustomName set from block 5000001 50 5000000 Text3
-data modify entity @e[tag=voteCounter,tag=greatBay,limit=1] CustomName set from block 5000001 50 5000000 Text4
-data modify entity @e[tag=voteCounter,tag=greatPlateau,limit=1] CustomName set from block 5000002 50 5000000 Text1
-data modify entity @e[tag=voteCounter,tag=greenHillZone,limit=1] CustomName set from block 5000002 50 5000000 Text2
-data modify entity @e[tag=voteCounter,tag=icicleMountain,limit=1] CustomName set from block 5000002 50 5000000 Text3
-data modify entity @e[tag=voteCounter,tag=jungleJapes,limit=1] CustomName set from block 5000002 50 5000000 Text4
-data modify entity @e[tag=voteCounter,tag=magicant,limit=1] CustomName set from block 5000003 50 5000000 Text1
-data modify entity @e[tag=voteCounter,tag=mementos,limit=1] CustomName set from block 5000003 50 5000000 Text2
-data modify entity @e[tag=voteCounter,tag=mushroomKingdom,limit=1] CustomName set from block 5000003 50 5000000 Text3
-data modify entity @e[tag=voteCounter,tag=saturnValley,limit=1] CustomName set from block 5000003 50 5000000 Text4
-data modify entity @e[tag=voteCounter,tag=sectorZ,limit=1] CustomName set from block 5000004 50 5000000 Text1
-data modify entity @e[tag=voteCounter,tag=shadowMosesIsland,limit=1] CustomName set from block 5000004 50 5000000 Text2
-data modify entity @e[tag=voteCounter,tag=spearPillar,limit=1] CustomName set from block 5000004 50 5000000 Text3
-data modify entity @e[tag=voteCounter,tag=wilyCastle,limit=1] CustomName set from block 5000004 50 5000000 Text4
+execute as @e[tag=voteCounter] unless score @s mapVote = @s temp run tag @s add voteCounter.update
+execute as @e[tag=voteCounter.update,sort=random,limit=1] run function ssbrc:logic/pre_game/map_voting/update_counters_entity
 
 gamemode spectator @a[team=spectator]
 team join temp @a[team=!spectator]
