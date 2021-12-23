@@ -5,14 +5,14 @@
 			"condition": "minecraft:entity_properties",
 			"entity": "this",
 			"predicate": {
-				"nbt": "{Tags:[\"chibiRobo\"]}"
+				"nbt": "{Tags:[\"frozenHijinx\"]}"
 			}
 		},
 		{
 			"condition": "minecraft:entity_properties",
 			"entity": "this",
 			"predicate": {
-				"nbt": "{Tags:[\"frozenHijinx\"]}"
+				"nbt": "{Tags:[\"gamer\"]}"
 			}
 		},
 		{

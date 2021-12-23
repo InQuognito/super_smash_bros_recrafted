@@ -19,6 +19,13 @@
 			"condition": "minecraft:entity_properties",
 			"entity": "this",
 			"predicate": {
+				"nbt": "{Tags:[\"miiverse\"]}"
+			}
+		},
+		{
+			"condition": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
 				"nbt": "{Tags:[\"mushroomKingdom\"]}"
 			}
 		},
@@ -27,13 +34,6 @@
 			"entity": "this",
 			"predicate": {
 				"nbt": "{Tags:[\"pacMaze\"]}"
-			}
-		},
-		{
-			"condition": "minecraft:entity_properties",
-			"entity": "this",
-			"predicate": {
-				"nbt": "{Tags:[\"princessPeachCastle\"]}"
 			}
 		},
 		{
