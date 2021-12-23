@@ -13,6 +13,6 @@
 		}
 	},
 	"rewards": {
-		"function": "ssbrc:characters/steve/logic/pickup"
+		"function": "ssbrc:characters/steve/logic/pickup_test"
 	}
 }

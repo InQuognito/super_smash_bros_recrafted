@@ -12,3 +12,5 @@ item modify entity @s armor.head ssbrc:kits/head
 item modify entity @s armor.chest ssbrc:kits/chest_color
 item modify entity @s armor.legs ssbrc:kits/legs_color
 item modify entity @s armor.feet ssbrc:kits/feet_color
+
+item modify entity @s armor.feet ssbrc:kits/enchantments/feather_falling_infinity

@@ -21,5 +21,3 @@ tag @s remove steve.hasNetherite
 
 tellraw @s[tag=!steve] {"text":"You pick up the item and throw it away so Steve can't get to it.","color":"red"}
 clear @s[tag=!steve] #ssbrc:steve_items
-
-advancement revoke @s only ssbrc:utility/pickup_steve_items
