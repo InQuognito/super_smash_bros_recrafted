@@ -16,7 +16,7 @@ scoreboard objectives remove motionX
 scoreboard objectives remove motionY
 scoreboard objectives remove motionZ
 scoreboard objectives remove pos
-scoreboard objectives remove random
+#scoreboard objectives remove random
 scoreboard objectives remove reset
 scoreboard objectives remove respawn
 scoreboard objectives remove samus.energy
