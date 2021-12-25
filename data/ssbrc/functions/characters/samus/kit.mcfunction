@@ -5,7 +5,3 @@ item replace entity @s hotbar.1 with minecraft:carrot_on_a_stick{ability.samus:2
 item replace entity @s hotbar.2 with minecraft:carrot_on_a_stick{ability.samus:3,Unbreakable:1,display:{Name:'[{"text":"Plasma Beam","italic":false,"color":"green","bold":true}]'},HideFlags:127} 1
 
 scoreboard players set @s samus.energy 100
-
-scoreboard players set @s samus.powerBeam 0
-scoreboard players set @s samus.waveBeam 0
-scoreboard players set @s samus.plasmaBeam 0

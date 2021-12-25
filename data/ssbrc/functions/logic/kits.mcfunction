@@ -82,3 +82,10 @@ effect give @s[tag=greninja] minecraft:conduit_power 1000000 255 true
 effect give @s[tag=greninja] minecraft:dolphins_grace 1000000 255 true
 
 execute at @s[tag=shiny] run particle minecraft:electric_spark ~ ~0.5 ~ 0.2 0.2 0.2 1.5 5 normal @s
+
+scoreboard players set @s cooldown.1 0
+scoreboard players set @s cooldown.2 0
+scoreboard players set @s cooldown.3 0
+scoreboard players set @s duration.1 0
+scoreboard players set @s duration.2 0
+scoreboard players set @s duration.3 0

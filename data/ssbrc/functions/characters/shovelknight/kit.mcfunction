@@ -2,6 +2,4 @@ item replace entity @s hotbar.0 with minecraft:diamond_shovel{Unbreakable:1,Attr
 item replace entity @s hotbar.1 with minecraft:carrot_on_a_stick{ability.shovelknight:1,Unbreakable:1,display:{Name:'[{"text":"Flare Wand","italic":false,"color":"red","bold":true}]'},HideFlags:127} 1
 item replace entity @s hotbar.2 with minecraft:carrot_on_a_stick{ability.shovelknight:2,Unbreakable:1,display:{Name:'[{"text":"Phase Locket","italic":false,"color":"dark_aqua","bold":true}]'},HideFlags:127} 1
 
-scoreboard players set @s shovelknight.flareWand 0
-scoreboard players set @s shovelknight.phaseLocket 0
 scoreboard players set @s mana 10
