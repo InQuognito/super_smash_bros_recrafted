@@ -1,3 +1,5 @@
+scoreboard players reset @s duration.2
+
 item replace entity @s armor.chest with minecraft:diamond_chestplate
 item replace entity @s armor.feet with minecraft:diamond_boots
 
