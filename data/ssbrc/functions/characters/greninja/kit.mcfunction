@@ -1,6 +1,6 @@
 execute if entity @s[tag=shiny] run advancement grant @a[team=alive] only ssbrc:characters/greninja/a_shiny_encounter
 
-function ssbrc:logic/natures/select
+function ssbrc:logic/characters/natures/select
 
 item modify entity @s armor.feet ssbrc:kits/enchantments/fire_protection
 
