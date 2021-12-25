@@ -6,5 +6,5 @@ function ssbrc:characters/shovelknight/logic/magic/flare_wand/id
 
 tag @e[tag=shovelknight.flareWand,tag=!adjusted] add adjusted
 
-scoreboard players set @s shovelknight.flareWand 15
+scoreboard players set @s cooldown.1 15
 scoreboard players operation @s mana -= #shovelknight.flareWandManaCost vars

@@ -14,5 +14,5 @@ item modify entity @s armor.chest ssbrc:kits/chest_color
 item modify entity @s armor.legs ssbrc:kits/legs_color
 item modify entity @s armor.feet ssbrc:kits/feet_color
 
-scoreboard players set @s shovelknight.phaseLocket 300
+scoreboard players set @s cooldown.2 300
 scoreboard players operation @s mana -= #shovelknight.phaseLocketManaCost vars
