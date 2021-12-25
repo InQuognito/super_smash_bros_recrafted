@@ -35,6 +35,7 @@ item replace entity @s[tag=pit] armor.chest with minecraft:elytra{Damage:417,Hid
 execute if score @s[tag=ryu] stocks matches 1 run item replace entity @s hotbar.2 with carrot_on_a_stick{ability.ryu:1,display:{Name:'[{"text":"Satsui no Hado Rage","italic":false,"color":"#660000","bold":true}]'},Unbreakable:1,CustomModelData:4} 1
 
 scoreboard players set @s[tag=shovelknight] mana 10
+scoreboard players set @s[tag=shovelknight] cooldown.2 0
 
 clear @s[tag=steve] #ssbrc:swords
 give @s[tag=steve,scores={steve.tier=0}] minecraft:wooden_sword{Unbreakable:1,HideFlags:127}
