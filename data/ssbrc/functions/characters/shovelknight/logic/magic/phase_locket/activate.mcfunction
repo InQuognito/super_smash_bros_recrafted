@@ -1,6 +1,6 @@
 effect give @s minecraft:resistance 5 255 true
 
-scoreboard players set @s timer 100
+scoreboard players set @s duration.2 100
 scoreboard players set @s temp 0
 
 item replace entity @s armor.chest with minecraft:leather_chestplate
