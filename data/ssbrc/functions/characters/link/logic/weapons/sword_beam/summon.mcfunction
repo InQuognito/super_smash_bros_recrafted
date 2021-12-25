@@ -5,4 +5,4 @@ tp @e[tag=link.swordBeam,tag=!adjusted] ^ ^-0.3 ^1.5 ~ ~
 function ssbrc:characters/link/logic/weapons/sword_beam/id
 
 tag @e[tag=link.swordBeam,tag=!adjusted] add adjusted
-scoreboard players set @s link.swordBeam 20
+scoreboard players set @s cooldown.1 20

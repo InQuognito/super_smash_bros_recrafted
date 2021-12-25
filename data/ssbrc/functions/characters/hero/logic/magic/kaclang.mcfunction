@@ -27,4 +27,4 @@ attribute @s generic.knockback_resistance base set 1000000.0
 
 scoreboard players operation @s mana -= #hero.kaclangManaCost vars
 
-scoreboard players set @s timer 200
+scoreboard players set @s duration.1 200

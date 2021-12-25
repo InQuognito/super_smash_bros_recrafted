@@ -1,15 +1,17 @@
 function ssbrc:logic/resets/scoreboards/stats
 
+scoreboard objectives add cooldown.1 dummy
+scoreboard objectives add cooldown.2 dummy
+scoreboard objectives add cooldown.3 dummy
+scoreboard objectives add duration.1 dummy
+scoreboard objectives add duration.2 dummy
+scoreboard objectives add duration.3 dummy
 scoreboard objectives add flag.dead deathCount
 scoreboard objectives add health health
-scoreboard objectives add hero.bang dummy
-scoreboard objectives add hero.magicBurst dummy
 scoreboard objectives add id dummy
 scoreboard objectives add integers dummy
 scoreboard objectives add itemCount dummy
 scoreboard objectives add kills dummy
-scoreboard objectives add link.swordBeam dummy
-scoreboard objectives add link.swordSpin dummy
 scoreboard objectives add mana dummy
 scoreboard objectives add map dummy
 scoreboard objectives add mapVote dummy
@@ -22,12 +24,7 @@ scoreboard objectives add random dummy
 scoreboard objectives add reset dummy
 scoreboard objectives add respawn dummy
 scoreboard objectives add samus.energy dummy
-scoreboard objectives add samus.plasmaBeam dummy
-scoreboard objectives add samus.powerBeam dummy
-scoreboard objectives add samus.waveBeam dummy
 scoreboard objectives add selectFavorite minecraft.used:minecraft.carrot_on_a_stick
-scoreboard objectives add shovelknight.flareWand dummy
-scoreboard objectives add shovelknight.phaseLocket dummy
 scoreboard objectives add snake.apm dummy
 scoreboard objectives add snake.capacity dummy
 scoreboard objectives add snake.famasA dummy
