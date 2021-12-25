@@ -15,6 +15,9 @@ scoreboard players remove @a[scores={cooldown.3=1..}] cooldown.3 1
 scoreboard players remove @a[scores={duration.1=1..}] duration.1 1
 scoreboard players remove @a[scores={duration.2=1..}] duration.2 1
 scoreboard players remove @a[scores={duration.3=1..}] duration.3 1
+scoreboard players reset @a[scores={duration.1=..0}] duration.1
+scoreboard players reset @a[scores={duration.2=..0}] duration.2
+scoreboard players reset @a[scores={duration.3=..0}] duration.3
 
 execute unless score $sectorZ map matches 1 run effect give @a[team=alive,scores={flag.dead=..0},predicate=ssbrc:below_y_0] minecraft:blindness 2 0 true
 

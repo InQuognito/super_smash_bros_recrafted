@@ -5,10 +5,6 @@ scoreboard players reset @s useAbility
 
 execute as @e[tag=shovelknight.flareWand] at @s run function ssbrc:characters/shovelknight/logic/magic/flare_wand/entity
 
-scoreboard players add @s[scores={temp=0..}] temp 1
-execute if score @s temp matches 3.. run scoreboard players set @s temp 0
-
-scoreboard players remove @s[scores={duration.2=1..}] duration.2 1
 execute if score @s duration.2 matches ..0 run function ssbrc:characters/shovelknight/logic/magic/phase_locket/off
 
 # Mana
