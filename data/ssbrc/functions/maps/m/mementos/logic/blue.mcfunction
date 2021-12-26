@@ -1,3 +1,5 @@
+time set 1500
+
 # Stage
 fill -1201 8 856 -1175 22 900 minecraft:blue_terracotta replace minecraft:red_concrete
 fill -1201 8 856 -1175 22 900 minecraft:blue_terracotta replace minecraft:yellow_concrete

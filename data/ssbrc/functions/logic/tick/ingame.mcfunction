@@ -7,7 +7,7 @@ gamemode spectator @a[team=dead]
 gamemode spectator @a[team=spectator]
 
 execute as @e[type=#minecraft:arrows,tag=!counted] if entity @a run function ssbrc:logic/tick/arrows/count
-kill @e[tag=bullet,nbt={inGround:1b}]
+kill @e[tag=killInGround,nbt={inGround:1b}]
 
 scoreboard players remove @a[scores={cooldown.1=1..}] cooldown.1 1
 scoreboard players remove @a[scores={cooldown.2=1..}] cooldown.2 1

@@ -16,7 +16,7 @@ summon minecraft:armor_stand 26.5 6.0 160.5 {Tags:["lobbyStand","fox","fox.defau
 summon minecraft:area_effect_cloud 51.5 8.0 156.5 {CustomName:'{"text":"Ganondorf","color":"black"}',CustomNameVisible:1b,Age:-2147483648,Duration:-1,WaitTime:-2147483648}
 summon minecraft:armor_stand 51.5 6.0 158.5 {Tags:["lobbyStand","ganondorf","ganondorf.default"],Rotation:[-180f,0f],ArmorItems:[{},{},{id:"minecraft:netherite_chestplate",Count:1b},{}]}
 
-summon minecraft:area_effect_cloud 14.5 8.0 156.5 {CustomName:'{"text":"Greninja","color":"aqua"}',CustomNameVisible:1b,Age:-2147483648,Duration:-1,WaitTime:-2147483648}
+summon minecraft:area_effect_cloud 14.5 8.0 156.5 {CustomName:'{"text":"Greninja","color":"blue"}',CustomNameVisible:1b,Age:-2147483648,Duration:-1,WaitTime:-2147483648}
 summon minecraft:armor_stand 14.5 6.0 158.5 {Tags:["lobbyStand","greninja","greninja.default"],Rotation:[-180f,0f]}
 
 summon minecraft:area_effect_cloud 14.5 8.0 148.5 {CustomName:'{"text":"Hero","color":"yellow"}',CustomNameVisible:1b,Age:-2147483648,Duration:-1,WaitTime:-2147483648}
@@ -65,7 +65,7 @@ summon minecraft:armor_stand 78.5 6.0 141.5 {Tags:["lobbyStand","steve","steve.d
 summon minecraft:area_effect_cloud 68.5 8.0 103.5 {CustomName:'{"text":"Altered Beast","color":"gold"}',CustomNameVisible:1b,Age:-2147483648,Duration:-1,WaitTime:-2147483648}
 summon minecraft:armor_stand 68.5 6.0 101.5 {Tags:["lobbyStand","alteredbeast","alteredbeast.default","alteredbeast.form.human"],Rotation:[0f,0f]}
 
-summon minecraft:area_effect_cloud 61.5 8.0 156.5 {CustomName:'{"text":"Shadow","color":"dark_gray"}',CustomNameVisible:1b,Age:-2147483648,Duration:-1,WaitTime:-2147483648}
+summon minecraft:area_effect_cloud 61.5 8.0 156.5 {CustomName:'{"text":"Shadow","color":"black"}',CustomNameVisible:1b,Age:-2147483648,Duration:-1,WaitTime:-2147483648}
 summon minecraft:armor_stand 61.5 6.0 158.5 {Tags:["lobbyStand","shadow","shadow.default"],Rotation:[-180f,0f]}
 
 summon minecraft:area_effect_cloud 68.5 8.0 131.5 {CustomName:'{"text":"Shovel Knight","color":"dark_aqua"}',CustomNameVisible:1b,Age:-2147483648,Duration:-1,WaitTime:-2147483648}

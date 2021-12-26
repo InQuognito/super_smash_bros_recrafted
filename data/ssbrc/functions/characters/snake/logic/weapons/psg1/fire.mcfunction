@@ -11,7 +11,7 @@ scoreboard players operation #targetX pos -= #playerX pos
 scoreboard players operation #targetY pos -= #playerY pos
 scoreboard players operation #targetZ pos -= #playerZ pos
 
-execute at @s anchored eyes run summon minecraft:arrow ^ ^ ^1 {damage:1.25,Tags:["psg1Bullet","bullet","projectile"],NoGravity:1b}
+execute at @s anchored eyes run summon minecraft:arrow ^ ^ ^1 {damage:1.25,Tags:["psg1Bullet","bullet","killInGround","projectile"],NoGravity:1b}
 data modify entity @e[tag=bullet,limit=1] Owner set from entity @s UUID
 
 execute store result entity @e[tag=projectile,limit=1] Motion[0] double 0.01 run scoreboard players get #targetX pos

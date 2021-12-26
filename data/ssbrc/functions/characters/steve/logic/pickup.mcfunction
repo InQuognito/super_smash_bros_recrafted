@@ -19,5 +19,5 @@ tag @s remove steve.hasIron
 tag @s remove steve.hasDiamond
 tag @s remove steve.hasNetherite
 
-tellraw @s[tag=!steve] {"text":"You pick up the item and throw it away so Steve can't get to it.","color":"red"}
+tellraw @s[tag=!steve] {"text":"Discarded.","color":"red"}
 clear @s[tag=!steve] #ssbrc:steve_items

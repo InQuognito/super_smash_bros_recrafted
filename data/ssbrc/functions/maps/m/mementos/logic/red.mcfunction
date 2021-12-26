@@ -1,3 +1,5 @@
+time set night
+
 # Stage
 fill -1201 8 856 -1175 22 900 minecraft:red_concrete replace minecraft:blue_terracotta
 fill -1201 8 856 -1175 22 900 minecraft:red_concrete replace minecraft:yellow_concrete
