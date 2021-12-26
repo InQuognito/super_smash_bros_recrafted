@@ -5,25 +5,25 @@
 			"nbt": "{CustomModelData:1520}"
 		},
 		"title": {
-			"text": "Veteran",
-			"color": "yellow",
+			"text": "Life's End... Isn't It Beautiful?",
+			"color": "light_purple",
 			"bold": false,
 			"italic": false
 		},
 		"description": {
-			"text": "Play ",
+			"text": "Defeated another ",
 			"color": "gray",
 			"bold": false,
 			"italic": false,
 			"extra": [
 				{
-					"text": "10",
-					"color": "blue",
+					"text": "Snake",
+					"color": "white",
 					"bold": false,
 					"italic": false
 				},
 				{
-					"text": " games.",
+					"text": ".",
 					"color": "gray",
 					"bold": false,
 					"italic": false
@@ -34,13 +34,13 @@
 		"show_toast": true,
 		"announce_to_chat": true
 	},
-	"parent": "ssbrc:characters/snake/novice",
+	"parent": "ssbrc:characters/snake/slayer",
 	"criteria": {
 		"impossible": {
 			"trigger": "minecraft:impossible"
 		}
 	},
 	"rewards": {
-		"function": "ssbrc:advancements/snake/veteran"
+		"function": "ssbrc:advancements/snake/lifes_end"
 	}
 }

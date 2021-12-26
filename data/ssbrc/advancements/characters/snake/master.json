@@ -2,7 +2,7 @@
 	"display": {
 		"icon": {
 			"item": "minecraft:barrier",
-			"nbt": "{CustomModelData:119}"
+			"nbt": "{CustomModelData:1520}"
 		},
 		"title": {
 			"text": "Master",

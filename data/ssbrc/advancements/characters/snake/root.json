@@ -2,7 +2,7 @@
 	"display": {
 		"icon": {
 			"item": "minecraft:barrier",
-			"nbt": "{CustomModelData:119}"
+			"nbt": "{CustomModelData:1520}"
 		},
 		"title": {
 			"text": "Template",
@@ -19,7 +19,7 @@
 			]
 		},
 		"description": {
-			"text": "Complete challenges and feats to unlock skins!",
+			"text": "Complete challenges to unlock a reward!",
 			"color": "gray",
 			"bold": false,
 			"italic": false

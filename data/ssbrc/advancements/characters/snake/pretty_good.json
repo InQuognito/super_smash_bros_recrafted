@@ -5,25 +5,25 @@
 			"nbt": "{CustomModelData:1520}"
 		},
 		"title": {
-			"text": "Veteran",
-			"color": "yellow",
+			"text": "Pretty Good",
+			"color": "light_purple",
 			"bold": false,
 			"italic": false
 		},
 		"description": {
-			"text": "Play ",
+			"text": "Land a shot from at least ",
 			"color": "gray",
 			"bold": false,
 			"italic": false,
 			"extra": [
 				{
-					"text": "10",
-					"color": "blue",
+					"text": "25",
+					"color": "white",
 					"bold": false,
 					"italic": false
 				},
 				{
-					"text": " games.",
+					"text": " blocks away.",
 					"color": "gray",
 					"bold": false,
 					"italic": false
@@ -34,13 +34,13 @@
 		"show_toast": true,
 		"announce_to_chat": true
 	},
-	"parent": "ssbrc:characters/snake/novice",
+	"parent": "ssbrc:characters/snake/slayer",
 	"criteria": {
 		"impossible": {
 			"trigger": "minecraft:impossible"
 		}
 	},
 	"rewards": {
-		"function": "ssbrc:advancements/snake/veteran"
+		"function": "ssbrc:advancements/snake/pretty_good"
 	}
 }
