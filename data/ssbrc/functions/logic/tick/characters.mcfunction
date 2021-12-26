@@ -1,3 +1,4 @@
+execute as @s[tag=bowser] if entity @s run function ssbrc:characters/bowser/logic/tick
 execute as @s[tag=hero] if entity @s run function ssbrc:characters/hero/logic/tick
 execute as @s[tag=joker] if entity @s run function ssbrc:characters/joker/logic/tick
 execute as @s[tag=link] if entity @s run function ssbrc:characters/link/logic/tick
