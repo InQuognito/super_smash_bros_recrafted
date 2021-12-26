@@ -4,6 +4,7 @@ scoreboard objectives remove cooldown.3
 scoreboard objectives remove duration.1
 scoreboard objectives remove duration.2
 scoreboard objectives remove duration.3
+scoreboard objectives remove fallDistance
 scoreboard objectives remove flag.dead
 scoreboard objectives remove health
 scoreboard objectives remove id

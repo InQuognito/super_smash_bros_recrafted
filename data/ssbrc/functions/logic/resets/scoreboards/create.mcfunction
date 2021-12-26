@@ -6,6 +6,7 @@ scoreboard objectives add cooldown.3 dummy
 scoreboard objectives add duration.1 dummy
 scoreboard objectives add duration.2 dummy
 scoreboard objectives add duration.3 dummy
+scoreboard objectives add fallDistance minecraft.custom:minecraft.fall_one_cm
 scoreboard objectives add flag.dead deathCount
 scoreboard objectives add health health
 scoreboard objectives add id dummy
