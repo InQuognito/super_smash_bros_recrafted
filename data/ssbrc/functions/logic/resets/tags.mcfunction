@@ -182,7 +182,6 @@ tag @s remove alteredbeast.form.waredragon
 tag @s remove alteredbeast.form.waretiger
 tag @s remove alteredbeast.form.warewolf
 tag @s remove characterPicked
-tag @s remove hero.kaclang
 tag @s remove hero.magicLost
 tag @s remove link.swordSpin
 tag @s remove pickingCharacter

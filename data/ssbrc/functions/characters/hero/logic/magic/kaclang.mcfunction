@@ -1,5 +1,3 @@
-tag @s add hero.kaclang
-
 clear @s #ssbrc:swords
 clear @s minecraft:carrot_on_a_stick
 
@@ -27,4 +25,4 @@ attribute @s generic.knockback_resistance base set 1000000.0
 
 scoreboard players operation @s mana -= #hero.kaclangManaCost vars
 
-scoreboard players set @s duration.1 200
+scoreboard players set @s duration.2 200

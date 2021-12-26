@@ -1,4 +1,4 @@
-execute as @s[tag=!hero.magicLost,tag=!hero.kaclang,scores={mana=..0}] run function ssbrc:characters/hero/logic/lose_magic
+execute as @s[tag=!hero.magicLost,scores={mana=..0,duration.2=..0}] run function ssbrc:characters/hero/logic/lose_magic
 execute as @s[scores={useAbility=1..,mana=1..},nbt={SelectedItem:{tag:{ability.hero:1}}}] at @s run function ssbrc:characters/hero/logic/magic/flame_slash
 execute as @a[scores={useAbility=1..,mana=2..,cooldown.1=..0},nbt={SelectedItem:{tag:{ability.hero:2}}}] at @s run function ssbrc:characters/hero/logic/magic/bang
 execute as @s[scores={useAbility=1..,mana=3..},nbt={SelectedItem:{tag:{ability.hero:3}}}] run function ssbrc:characters/hero/logic/magic/kaclang
@@ -43,20 +43,21 @@ execute as @e[type=minecraft:fireball,scores={temp=10..}] store result score @s 
 execute as @e[scores={motionX=..25,motionY=..25,motionZ=..25}] run data merge entity @s {ExplosionPower:2,power:[0.0,-0.075,0.0]}
 
 # Kaclang
-scoreboard players remove @s[scores={duration.1=1..}] duration.1 1
-execute if entity @s[tag=hero.kaclang,scores={duration.1=..0}] run function ssbrc:characters/hero/logic/magic/kaclang_off
-scoreboard players reset @s[scores={duration.1=..0}] duration.1
+scoreboard players remove @s[scores={duration.2=1..}] duration.2 1
+execute if entity @s[scores={duration.2=..0}] run function ssbrc:characters/hero/logic/magic/kaclang_off
+execute if entity @s[scores={duration.2=1..}] run function ssbrc:logic/characters/shockwave/check
+scoreboard players reset @s[scores={duration.2=..0}] duration.2
 
 # Magic Burst
-scoreboard players add @s[tag=magicBurst] duration.2 1
+scoreboard players add @s[tag=magicBurst] duration.3 1
 
-execute as @s[scores={duration.2=1..10}] at @s run particle minecraft:portal ~ ~ ~ 0.0 0.0 0.0 0.75 10 normal @a
-execute as @s[scores={duration.2=5..15}] at @s run particle minecraft:portal ~ ~ ~ 0.0 0.0 0.0 1.3 25 normal @a
-execute as @s[scores={duration.2=10..20}] at @s run particle minecraft:portal ~ ~ ~ 0.0 0.0 0.0 3.0 75 normal @a
-execute as @s[scores={duration.2=70..100}] at @s run particle minecraft:dust 0.75 0.0 0.75 2.0 ~ ~ ~ 3.0 3.0 3.0 0.15 750 normal @a
-execute as @s[scores={duration.2=70..100}] at @s run particle minecraft:dust 1.0 0.0 1.0 1.0 ~ ~ ~ 4.0 4.0 4.0 1.5 100 normal @a
+execute as @s[scores={duration.3=1..10}] at @s run particle minecraft:portal ~ ~ ~ 0.0 0.0 0.0 0.75 10 normal @a
+execute as @s[scores={duration.3=5..15}] at @s run particle minecraft:portal ~ ~ ~ 0.0 0.0 0.0 1.3 25 normal @a
+execute as @s[scores={duration.3=10..20}] at @s run particle minecraft:portal ~ ~ ~ 0.0 0.0 0.0 3.0 75 normal @a
+execute as @s[scores={duration.3=70..100}] at @s run particle minecraft:dust 0.75 0.0 0.75 2.0 ~ ~ ~ 3.0 3.0 3.0 0.15 750 normal @a
+execute as @s[scores={duration.3=70..100}] at @s run particle minecraft:dust 1.0 0.0 1.0 1.0 ~ ~ ~ 4.0 4.0 4.0 1.5 100 normal @a
 
-execute as @s[scores={duration.2=70}] at @s run function ssbrc:characters/hero/logic/magic/magic_burst
+execute as @s[scores={duration.3=70}] at @s run function ssbrc:characters/hero/logic/magic/magic_burst
 
-tag @s[scores={duration.2=101}] remove magicBurst
-scoreboard players reset @s[scores={duration.2=101}] duration.2
+tag @s[scores={duration.3=101}] remove magicBurst
+scoreboard players reset @s[scores={duration.3=101}] duration.3
