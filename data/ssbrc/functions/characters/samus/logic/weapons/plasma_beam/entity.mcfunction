@@ -1,4 +1,4 @@
-tp @s ^ ^ ^0.3
+tp @s ^ ^ ^0.7
 
 particle minecraft:dust 0.3 1.0 0.0 0.75 ^ ^ ^ 0.0 0.0 0.0 0 0 normal @a
 
