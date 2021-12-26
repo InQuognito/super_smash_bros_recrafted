@@ -10,11 +10,11 @@ fill -1204 15 920 -1170 45 921 minecraft:air
 fill -1204 15 920 -1170 45 920 minecraft:barrier
 
 execute if score result random matches 0 run scoreboard players set $mementosType map 1
-execute if score result random matches 0 run function ssbrc:maps/m/mementos/logic/blue
+execute if score result random matches 0 run schedule function ssbrc:maps/m/mementos/logic/blue 10t replace
 execute if score result random matches 1 run scoreboard players set $mementosType map 2
-execute if score result random matches 1 run function ssbrc:maps/m/mementos/logic/yellow
+execute if score result random matches 1 run schedule function ssbrc:maps/m/mementos/logic/yellow 10t replace
 execute if score result random matches 2 run scoreboard players set $mementosType map 3
-execute if score result random matches 2 run function ssbrc:maps/m/mementos/logic/red
+execute if score result random matches 2 run schedule function ssbrc:maps/m/mementos/logic/red 10t replace
 
 kill @e[type=!minecraft:player]
 
