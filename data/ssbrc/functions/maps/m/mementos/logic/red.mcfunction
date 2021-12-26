@@ -1,5 +1,8 @@
 time set night
 
+# Logo
+clone -1117 41 993 -1143 15 992 -1201 15 920
+
 # Stage
 fill -1201 8 856 -1175 22 900 minecraft:red_concrete replace minecraft:blue_terracotta
 fill -1201 8 856 -1175 22 900 minecraft:red_concrete replace minecraft:yellow_concrete

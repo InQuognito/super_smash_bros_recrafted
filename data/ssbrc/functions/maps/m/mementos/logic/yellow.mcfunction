@@ -1,5 +1,8 @@
 time set day
 
+# Logo
+clone -1149 41 1015 -1174 11 1014 -1201 15 920
+
 # Stage
 fill -1201 8 856 -1175 22 900 minecraft:yellow_concrete replace minecraft:blue_terracotta
 fill -1201 8 856 -1175 22 900 minecraft:yellow_concrete replace minecraft:red_concrete

@@ -6,6 +6,9 @@ forceload add -1248 800 -1121 959
 scoreboard players set max random 3
 function ssbrc:math/rng/lcg
 
+fill -1204 15 920 -1170 45 921 minecraft:air
+fill -1204 15 920 -1170 45 920 minecraft:barrier
+
 execute if score result random matches 0 run scoreboard players set $mementosType map 1
 execute if score result random matches 0 run function ssbrc:maps/m/mementos/logic/blue
 execute if score result random matches 1 run scoreboard players set $mementosType map 2
