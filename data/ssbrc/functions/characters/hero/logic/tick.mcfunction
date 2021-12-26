@@ -46,7 +46,6 @@ execute as @e[scores={motionX=..25,motionY=..25,motionZ=..25}] run data merge en
 scoreboard players remove @s[scores={duration.2=1..}] duration.2 1
 execute if entity @s[scores={duration.2=..0}] run function ssbrc:characters/hero/logic/magic/kaclang_off
 execute if entity @s[scores={duration.2=1..}] run function ssbrc:logic/characters/shockwave/check
-scoreboard players reset @s[scores={duration.2=..0}] duration.2
 
 # Magic Burst
 scoreboard players add @s[tag=magicBurst] duration.3 1
