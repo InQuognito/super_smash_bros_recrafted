@@ -20,7 +20,7 @@
 		"show_toast": true,
 		"announce_to_chat": true
 	},
-	"parent": "ssbrc:characters/snake/slayer",
+	"parent": "ssbrc:characters/snake/novice",
 	"criteria": {
 		"impossible": {
 			"trigger": "minecraft:impossible"
