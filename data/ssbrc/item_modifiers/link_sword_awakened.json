@@ -1,7 +1,7 @@
 [
 	{
 		"function": "minecraft:set_nbt",
-		"tag": "{masterSword:1,awakened:1,Unbreakable:1,AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Amount:9,Slot:mainhand,Name:\"generic.attack_damage\",UUID:[I;-1211022,10969,201940,-21938]},{AttributeName:\"generic.attack_speed\",Amount:-1.2,Slot:mainhand,Name:\"generic.attack_speed\",UUID:[I;-1211022,11069,201940,-22138]}],display:{Name:'[{\"text\":\"Master Sword\",\"italic\":false,\"color\":\"aqua\"}]'},HideFlags:127}",
+		"tag": "{masterSword:1,awakened:1,CustomModelData:-6,Unbreakable:1,AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Amount:9,Slot:mainhand,Name:\"generic.attack_damage\",UUID:[I;-1211022,10969,201940,-21938]},{AttributeName:\"generic.attack_speed\",Amount:-1.2,Slot:mainhand,Name:\"generic.attack_speed\",UUID:[I;-1211022,11069,201940,-22138]}],display:{Name:'[{\"text\":\"Master Sword\",\"italic\":false,\"color\":\"aqua\"}]'},HideFlags:127}",
 		"conditions": [
 			{
 				"condition": "minecraft:entity_scores",
@@ -30,7 +30,7 @@
 	},
 	{
 		"function": "minecraft:set_nbt",
-		"tag": "{masterSword:1,awakened:0,Unbreakable:1,AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Amount:7,Slot:mainhand,Name:\"generic.attack_damage\",UUID:[I;-1211022,10969,201940,-21938]},{AttributeName:\"generic.attack_speed\",Amount:-1.6,Slot:mainhand,Name:\"generic.attack_speed\",UUID:[I;-1211022,11069,201940,-22138]}],display:{Name:'[{\"text\":\"Master Sword\",\"italic\":false,\"color\":\"white\"}]'},HideFlags:127}",
+		"tag": "{masterSword:1,awakened:0,CustomModelData:-5,Unbreakable:1,AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Amount:7,Slot:mainhand,Name:\"generic.attack_damage\",UUID:[I;-1211022,10969,201940,-21938]},{AttributeName:\"generic.attack_speed\",Amount:-1.6,Slot:mainhand,Name:\"generic.attack_speed\",UUID:[I;-1211022,11069,201940,-22138]}],display:{Name:'[{\"text\":\"Master Sword\",\"italic\":false,\"color\":\"white\"}]'},HideFlags:127}",
 		"conditions": [
 			{
 				"condition": "minecraft:entity_scores",
