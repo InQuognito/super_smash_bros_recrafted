@@ -144,6 +144,28 @@
 	},
 	{
 		"function": "minecraft:set_nbt",
+		"tag": "{CustomModelData:442}",
+		"conditions": [
+			{
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"nbt": "{Tags:[\"hero\"]}"
+				}
+			},
+			{
+				"condition": "minecraft:entity_scores",
+				"entity": "this",
+				"scores": {
+					"duration.2": {
+						"min": 1
+					}
+				}
+			}
+		]
+	},
+	{
+		"function": "minecraft:set_nbt",
 		"tag": "{CustomModelData:600}",
 		"conditions": [
 			{
