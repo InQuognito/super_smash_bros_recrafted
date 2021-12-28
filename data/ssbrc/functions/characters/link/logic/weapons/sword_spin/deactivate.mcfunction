@@ -25,5 +25,5 @@ function ssbrc:characters/link/logic/weapons/sword_beam/id
 
 tag @s remove self
 
-tag @s remove duration.1
+tag @s remove link.swordSpin
 scoreboard players reset @s duration.1
