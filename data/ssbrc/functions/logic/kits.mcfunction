@@ -59,7 +59,7 @@ effect give @s[tag=!snake] minecraft:glowing 1000000 255 true
 
 effect give @s[tag=!alteredbeast.form.warebear,tag=!bowser,tag=!donkeykong,tag=!ganondorf,tag=!kingkrool,tag=!mario] minecraft:jump_boost 1000000 1 true
 effect give @s[tag=alteredbeast.form.warebear] minecraft:jump_boost 1000000 0 true
-effect give @s[tag=boswer] minecraft:jump_boost 1000000 0 true
+effect give @s[tag=bowser] minecraft:jump_boost 1000000 0 true
 effect give @s[tag=donkeykong] minecraft:jump_boost 1000000 0 true
 effect give @s[tag=ganondorf] minecraft:jump_boost 1000000 0 true
 effect give @s[tag=kingkrool] minecraft:jump_boost 1000000 0 true
