@@ -11,14 +11,6 @@ effect give @s minecraft:absorption 20 1 true
 effect give @s minecraft:speed 20 0 true
 effect give @s minecraft:strength 20 0 true
 
-tag @s add abilityActive
+scoreboard players set @s duration.1 400
 
-item modify entity @s armor.head ssbrc:kits/head
-item modify entity @s armor.chest ssbrc:kits/chest_color
-item modify entity @s armor.legs ssbrc:kits/legs_color
-
-item modify entity @s armor.head ssbrc:kits/enchantments/binding_curse
-item modify entity @s armor.chest ssbrc:kits/enchantments/binding_curse
-item modify entity @s armor.legs ssbrc:kits/enchantments/binding_curse
-
-scoreboard players set @s timer 400
+function ssbrc:logic/characters/update_armor
