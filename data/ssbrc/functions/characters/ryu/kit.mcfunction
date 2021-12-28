@@ -2,4 +2,4 @@ item replace entity @s hotbar.0 with minecraft:iron_sword{Unbreakable:1,Attribut
 item replace entity @s hotbar.1 with minecraft:bow{Unbreakable:1,display:{Name:'[{"text":"Hadoken","italic":false,"color":"aqua","bold":true}]'},Enchantments:[{id:"flame",lvl:1},{id:"infinity",lvl:1}],HideFlags:5} 1
 item replace entity @s hotbar.8 with minecraft:arrow 1
 
-execute if score @s stocks matches 1 run item replace entity @s hotbar.2 with carrot_on_a_stick{ability.ryu:1,CustomModelData:-4,Unbreakable:1,display:{Name:'[{"text":"Satsui no Hado Rage","italic":false,"color":"#660000","bold":true}]'}} 1
+execute if score @s stocks matches 1 run item replace entity @s hotbar.2 with carrot_on_a_stick{ability.ryu:1,CustomModelData:-7,Unbreakable:1,display:{Name:'[{"text":"Satsui no Hado Rage","italic":false,"color":"#660000","bold":true}]'}} 1
