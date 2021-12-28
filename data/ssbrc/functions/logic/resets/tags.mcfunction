@@ -1,5 +1,6 @@
 # Characters
 tag @s remove alteredbeast
+tag @s remove alucard
 tag @s remove bowser
 tag @s remove captainfalcon
 tag @s remove charizard
@@ -25,6 +26,7 @@ tag @s remove steve
 
 # Favorites
 tag @s remove favoritetry.alteredbeast
+tag @s remove favoritetry.alucard
 tag @s remove favoritetry.bowser
 tag @s remove favoritetry.captainfalcon
 tag @s remove favoritetry.charizard
@@ -53,6 +55,7 @@ tag @s remove favorite.slot2
 tag @s remove favorite.slot3
 
 tag @s[tag=favorite.slot1.alteredbeast] add favorite.slot1
+tag @s[tag=favorite.slot1.alucard] add favorite.slot1
 tag @s[tag=favorite.slot1.bowser] add favorite.slot1
 tag @s[tag=favorite.slot1.captainfalcon] add favorite.slot1
 tag @s[tag=favorite.slot1.charizard] add favorite.slot1
@@ -77,6 +80,7 @@ tag @s[tag=favorite.slot1.sonic] add favorite.slot1
 tag @s[tag=favorite.slot1.steve] add favorite.slot1
 
 tag @s[tag=favorite.slot2.alteredbeast] add favorite.slot2
+tag @s[tag=favorite.slot2.alucard] add favorite.slot2
 tag @s[tag=favorite.slot2.bowser] add favorite.slot2
 tag @s[tag=favorite.slot2.captainfalcon] add favorite.slot2
 tag @s[tag=favorite.slot2.charizard] add favorite.slot2
@@ -101,6 +105,7 @@ tag @s[tag=favorite.slot2.sonic] add favorite.slot2
 tag @s[tag=favorite.slot2.steve] add favorite.slot2
 
 tag @s[tag=favorite.slot3.alteredbeast] add favorite.slot3
+tag @s[tag=favorite.slot3.alucard] add favorite.slot3
 tag @s[tag=favorite.slot3.bowser] add favorite.slot3
 tag @s[tag=favorite.slot3.captainfalcon] add favorite.slot3
 tag @s[tag=favorite.slot3.charizard] add favorite.slot3
@@ -126,6 +131,7 @@ tag @s[tag=favorite.slot3.steve] add favorite.slot3
 
 # Costumes
 execute as @a run function ssbrc:characters/alteredbeast/menu/costumes/reset
+execute as @a run function ssbrc:characters/alucard/menu/costumes/reset
 execute as @a run function ssbrc:characters/bowser/menu/costumes/reset
 execute as @a run function ssbrc:characters/captainfalcon/menu/costumes/reset
 execute as @a run function ssbrc:characters/charizard/menu/costumes/reset
@@ -183,7 +189,6 @@ tag @s remove alteredbeast.form.waretiger
 tag @s remove alteredbeast.form.warewolf
 tag @s remove characterPicked
 tag @s remove hero.magicLost
-tag @s remove link.swordSpin
 tag @s remove pickingCharacter
 tag @s remove pickingMap
 tag @s remove shiny

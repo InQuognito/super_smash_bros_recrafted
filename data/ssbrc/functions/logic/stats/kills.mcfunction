@@ -1,4 +1,5 @@
 scoreboard players add @s[tag=alteredbeast] alteredbeast.k 1
+scoreboard players add @s[tag=alucard] alucard.k 1
 scoreboard players add @s[tag=bowser] bowser.k 1
 scoreboard players add @s[tag=captainfalcon] captainfalcon.k 1
 scoreboard players add @s[tag=charizard] charizard.k 1

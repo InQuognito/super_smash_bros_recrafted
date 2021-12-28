@@ -722,6 +722,38 @@
 		"function": "minecraft:set_name",
 		"entity": "this",
 		"name": {
+			"text": "Alucard",
+			"color": "light_gray",
+			"bold": true,
+			"italic": false
+		},
+		"conditions": [
+			{
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"nbt": "{Tags:[favorite.slot3.alucard]}"
+				}
+			}
+		]
+	},
+	{
+		"function": "minecraft:set_nbt",
+		"tag": "{favorite.alucard:1,CustomModelData:1840}",
+		"conditions": [
+			{
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"nbt": "{Tags:[favorite.slot3.alucard]}"
+				}
+			}
+		]
+	},
+	{
+		"function": "minecraft:set_name",
+		"entity": "this",
+		"name": {
 			"text": "Shovel Knight",
 			"color": "dark_aqua",
 			"bold": true,

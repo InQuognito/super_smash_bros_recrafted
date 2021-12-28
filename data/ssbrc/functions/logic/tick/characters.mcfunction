@@ -8,4 +8,5 @@ execute as @s[tag=samus] if entity @s run function ssbrc:characters/samus/logic/
 execute as @s[tag=snake] if entity @s run function ssbrc:characters/snake/logic/tick
 
 execute as @s[tag=alteredbeast] if entity @s run function ssbrc:characters/alteredbeast/logic/tick
+execute as @s[tag=alucard] if entity @s run function ssbrc:characters/alucard/logic/tick
 execute as @s[tag=shovelknight] if entity @s run function ssbrc:characters/shovelknight/logic/tick

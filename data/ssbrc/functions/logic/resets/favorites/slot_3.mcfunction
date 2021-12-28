@@ -1,6 +1,7 @@
 tag @s remove favorite.slot3
 
 tag @s remove favorite.slot3.alteredbeast
+tag @s remove favorite.slot3.alucard
 tag @a remove favorite.slot3.bowser
 tag @a remove favorite.slot3.captainfalcon
 tag @a remove favorite.slot3.charizard
