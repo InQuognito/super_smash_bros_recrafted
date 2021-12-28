@@ -1,5 +1,8 @@
 function ssbrc:logic/resets/scoreboards/stats
 
+scoreboard objectives add charge.1 dummy
+scoreboard objectives add charge.2 dummy
+scoreboard objectives add charge.3 dummy
 scoreboard objectives add cooldown.1 dummy
 scoreboard objectives add cooldown.2 dummy
 scoreboard objectives add cooldown.3 dummy

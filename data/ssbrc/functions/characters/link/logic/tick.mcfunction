@@ -13,4 +13,4 @@ scoreboard players add $rot temp 15
 execute if score $rot temp matches 360.. run scoreboard players reset $rot temp
 execute as @e[tag=spinner] store result entity @s Rotation[0] float 1.0 run scoreboard players get $rot temp
 
-execute as @a[scores={duration.1=1..}] at @s anchored eyes run function ssbrc:characters/link/logic/weapons/sword_spin/charge
+execute as @a[scores={charge.1=1..}] at @s anchored eyes run function ssbrc:characters/link/logic/weapons/sword_spin/charge

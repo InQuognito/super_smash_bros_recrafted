@@ -1,1 +1,1 @@
-scoreboard players set @s duration.1 1
+scoreboard players set @s charge.1 1

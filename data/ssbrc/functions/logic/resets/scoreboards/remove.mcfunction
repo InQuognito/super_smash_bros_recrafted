@@ -1,3 +1,6 @@
+scoreboard objectives remove charge.1
+scoreboard objectives remove charge.2
+scoreboard objectives remove charge.3
 scoreboard objectives remove cooldown.1
 scoreboard objectives remove cooldown.2
 scoreboard objectives remove cooldown.3
