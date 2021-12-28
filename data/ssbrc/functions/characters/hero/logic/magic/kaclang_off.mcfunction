@@ -16,3 +16,5 @@ item replace entity @s[scores={mana=3..}] hotbar.2 with minecraft:carrot_on_a_st
 
 execute as @s[tag=!hero.magicLost,scores={mana=..0}] run function ssbrc:characters/hero/logic/lose_magic
 scoreboard players reset @s duration.2
+
+effect give @s minecraft:jump_boost 1000000 1 true
