@@ -332,7 +332,16 @@
 				"condition": "minecraft:entity_properties",
 				"entity": "this",
 				"predicate": {
-					"nbt": "{Tags:[\"ryu\",\"abilityActive\"]}"
+					"nbt": "{Tags:[\"ryu\"]}"
+				}
+			},
+			{
+				"condition": "minecraft:entity_scores",
+				"entity": "this",
+				"scores": {
+					"duration.1": {
+						"min": 1
+					}
 				}
 			}
 		]
