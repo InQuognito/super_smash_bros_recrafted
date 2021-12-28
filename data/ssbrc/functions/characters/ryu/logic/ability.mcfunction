@@ -7,9 +7,9 @@ effect clear @s minecraft:nausea
 effect clear @s minecraft:poison
 effect clear @s minecraft:weakness
 
-effect give @s minecraft:absorption 20 1 true
-effect give @s minecraft:speed 20 0 true
-effect give @s minecraft:strength 20 0 true
+effect give @s minecraft:absorption 1000000 1 true
+effect give @s minecraft:speed 1000000 0 true
+effect give @s minecraft:strength 1000000 0 true
 
 scoreboard players set @s duration.1 400
 

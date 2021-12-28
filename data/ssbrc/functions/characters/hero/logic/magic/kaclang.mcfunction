@@ -10,9 +10,9 @@ effect clear @s minecraft:nausea
 effect clear @s minecraft:poison
 effect clear @s minecraft:weakness
 
-effect give @s minecraft:jump_boost 10 200 true
-effect give @s minecraft:resistance 10 255 true
-effect give @s minecraft:slowness 10 255 true
+effect give @s minecraft:jump_boost 1000000 200 true
+effect give @s minecraft:resistance 1000000 255 true
+effect give @s minecraft:slowness 1000000 255 true
 
 item replace entity @s armor.chest with minecraft:iron_chestplate{Unbreakable:1,HideFlags:127} 1
 item replace entity @s armor.legs with minecraft:iron_leggings{Unbreakable:1,HideFlags:127} 1
