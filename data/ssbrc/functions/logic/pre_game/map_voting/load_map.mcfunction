@@ -1,4 +1,4 @@
-function ssbrc:logic/resets/tags/maps
+execute as @a run function ssbrc:logic/resets/tags/maps
 
 execute unless score #mapPicked mapVote matches 1 if entity @s[tag=battlefield] run function ssbrc:maps/b/battlefield/load
 execute unless score #mapPicked mapVote matches 1 if entity @s[tag=castleSiege] run function ssbrc:maps/c/castle_siege/load
