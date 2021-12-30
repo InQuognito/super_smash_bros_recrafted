@@ -29,6 +29,7 @@ execute if score $greatPlateau map matches 1 run function ssbrc:logic/tick/maps/
 execute if score $greenHillZone map matches 1 run function ssbrc:logic/tick/maps/green_hill_zone
 execute if score $icicleMountain map matches 1 run function ssbrc:logic/tick/maps/icicle_mountain
 execute if score $mementos map matches 1 run function ssbrc:logic/tick/maps/mementos
+execute if score $miiverse map matches 1 run function ssbrc:logic/tick/maps/miiverse
 execute if score $sectorZ map matches 1 run function ssbrc:logic/tick/maps/sector_z
 
 # Characters
