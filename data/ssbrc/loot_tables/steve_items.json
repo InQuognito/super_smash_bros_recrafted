@@ -5,10 +5,6 @@
 			"rolls": 1,
 			"entries": [
 				{
-					"type": "minecraft:empty",
-					"weight": 40
-				},
-				{
 					"type": "minecraft:item",
 					"weight": 15,
 					"name": "minecraft:stick",
@@ -55,7 +51,7 @@
 				},
 				{
 					"type": "minecraft:loot_table",
-					"weight": 60,
+					"weight": 40,
 					"name": "ssbrc:steve_items_tiers"
 				}
 			]

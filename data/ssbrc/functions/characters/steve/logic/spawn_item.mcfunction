@@ -6,4 +6,4 @@ execute as @e[nbt={Item:{tag:{Tags:[steve.item.teleport]}}}] run function ssbrc:
 
 execute as @e[nbt={Item:{tag:{Tags:[steve.item]}}}] run data merge entity @s {Glowing:1}
 
-schedule function ssbrc:characters/steve/logic/spawn_item 15s replace
+schedule function ssbrc:characters/steve/logic/spawn_item 10s replace
