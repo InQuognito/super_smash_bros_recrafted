@@ -232,4 +232,4 @@ execute if score $wilyCastle map matches 1 if score result random matches 7 run 
 execute if score $wilyCastle map matches 1 if score result random matches 8 run tp @s 4935 13 5100
 execute if score $wilyCastle map matches 1 if score result random matches 9 run tp @s 5004 11 5086
 
-tag @s remove steve.item.teleport
+data remove entity @s Item.tag.Tags[2]
