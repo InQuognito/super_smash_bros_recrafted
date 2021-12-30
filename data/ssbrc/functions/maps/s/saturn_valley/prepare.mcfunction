@@ -8,3 +8,5 @@ summon minecraft:marker -215.5 6.0 568.5 {Tags:["spawnpoint","tpDest"]}
 summon minecraft:marker -197.5 13.0 582.5 {Tags:["spawnpoint","tpDest"]}
 
 function ssbrc:logic/pre_game/prepare_match
+
+tag @a[team=!spectator] add saturnValley

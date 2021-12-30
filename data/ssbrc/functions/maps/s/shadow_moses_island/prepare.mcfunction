@@ -8,3 +8,5 @@ summon minecraft:marker 150.5 14.0 -1444.5 {Tags:["spawnpoint","tpDest"]}
 summon minecraft:marker 91.5 8.0 -1420.5 {Tags:["spawnpoint","tpDest"]}
 
 function ssbrc:logic/pre_game/prepare_match
+
+tag @a[team=!spectator] add shadowMosesIsland

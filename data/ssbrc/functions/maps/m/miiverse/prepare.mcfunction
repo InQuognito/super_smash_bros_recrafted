@@ -8,3 +8,5 @@ summon minecraft:marker -701.5 21.0 601.5 {Tags:["spawnpoint","tpDest"]}
 summon minecraft:marker -685.5 18.0 598.5 {Tags:["spawnpoint","tpDest"]}
 
 function ssbrc:logic/pre_game/prepare_match
+
+tag @a[team=!spectator] add miiverse

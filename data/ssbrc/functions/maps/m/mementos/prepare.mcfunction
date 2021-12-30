@@ -10,3 +10,5 @@ summon minecraft:marker -1186.5 12.0 872.5 {Tags:["spawnpoint","tpDest"]}
 summon minecraft:marker -1180.5 10.0 874.5 {Tags:["spawnpoint","tpDest"]}
 
 function ssbrc:logic/pre_game/prepare_match
+
+tag @a[team=!spectator] add mementos

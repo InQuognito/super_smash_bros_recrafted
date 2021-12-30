@@ -8,3 +8,5 @@ summon minecraft:marker 1613.5 24.0 461.5 {Tags:["spawnpoint","tpDest"]}
 summon minecraft:marker 1626.5 24.0 432.5 {Tags:["spawnpoint","tpDest"]}
 
 function ssbrc:logic/pre_game/prepare_match
+
+tag @a[team=!spectator] add castleSiege

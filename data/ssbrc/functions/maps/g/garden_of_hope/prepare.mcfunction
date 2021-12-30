@@ -8,3 +8,5 @@ summon minecraft:marker 562.5 16.0 528.5 {Tags:["spawnpoint","tpDest"]}
 summon minecraft:marker 560.5 16.0 549.5 {Tags:["spawnpoint","tpDest"]}
 
 function ssbrc:logic/pre_game/prepare_match
+
+tag @a[team=!spectator] add gardenOfHope

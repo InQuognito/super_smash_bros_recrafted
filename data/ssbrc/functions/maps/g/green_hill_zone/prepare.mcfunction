@@ -8,3 +8,5 @@ summon minecraft:marker -23.5 13.0 242.5 {Tags:["spawnpoint","tpDest"]}
 summon minecraft:marker -39.5 17.0 219.5 {Tags:["spawnpoint","tpDest"]}
 
 function ssbrc:logic/pre_game/prepare_match
+
+tag @a[team=!spectator] add greenHillZone
