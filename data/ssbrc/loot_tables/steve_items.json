@@ -15,7 +15,7 @@
 					"functions": [
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{Tags:[\"steve.item\",\"steve.item.other\"]}"
+							"tag": "{Tags:[\"steve.item\",\"steve.item.other\",\"steve.item.teleport\"]}"
 						}
 					]
 				},
@@ -26,7 +26,7 @@
 					"functions": [
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{Tags:[\"steve.item\",\"steve.item.other\"]}"
+							"tag": "{Tags:[\"steve.item\",\"steve.item.other\",\"steve.item.teleport\"]}"
 						}
 					]
 				},
@@ -37,7 +37,7 @@
 					"functions": [
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{Tags:[\"steve.item\",\"steve.item.tier\"]}"
+							"tag": "{Tags:[\"steve.item\",\"steve.item.tier\",\"steve.item.teleport\"]}"
 						}
 					],
 					"conditions": [
@@ -59,12 +59,6 @@
 					"name": "ssbrc:steve_items_tiers"
 				}
 			]
-		}
-	],
-	"functions": [
-		{
-			"function": "minecraft:set_nbt",
-			"tag": "{Tags:[\"steve.item.teleport\"]}"
 		}
 	]
 }
