@@ -41,11 +41,7 @@ execute if score @s[tag=ryu] stocks matches 1 run item replace entity @s hotbar.
 scoreboard players set @s[tag=shovelknight] mana 10
 scoreboard players set @s[tag=shovelknight] cooldown.2 0
 
-clear @s[tag=steve] #ssbrc:swords
-give @s[tag=steve,scores={steve.tier=0}] minecraft:wooden_sword{Unbreakable:1,HideFlags:127}
-give @s[tag=steve,scores={steve.tier=1}] minecraft:stone_sword{Damage:0,HideFlags:127}
-give @s[tag=steve,scores={steve.tier=2}] minecraft:iron_sword{Damage:0,HideFlags:127}
-give @s[tag=steve,scores={steve.tier=3}] minecraft:diamond_sword{Damage:0,HideFlags:127}
+execute as @s[tag=steve] run function ssbrc:characters/steve/logic/weapons/sword
 
 clear @s[tag=alteredbeast.form.waretiger] minecraft:trident
 clear @s[tag=alteredbeast.form.waretiger] minecraft:firework_rocket
