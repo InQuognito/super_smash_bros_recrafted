@@ -155,28 +155,7 @@ execute as @a run function ssbrc:characters/snake/menu/costumes/reset
 execute as @a run function ssbrc:characters/sonic/menu/costumes/reset
 execute as @a run function ssbrc:characters/steve/menu/costumes/reset
 
-# Maps
-tag @s remove battlefield
-tag @s remove castleSiege
-tag @s remove draculasCastle
-tag @s remove dreamLand
-tag @s remove finalDestination
-tag @s remove flatZone
-tag @s remove gardenOfHope
-tag @s remove greatBay
-tag @s remove greatPlateau
-tag @s remove greenHillZone
-tag @s remove icicleMountain
-tag @s remove jungleJapes
-tag @s remove magicant
-tag @s remove mementos
-tag @s remove miiverse
-tag @s remove mushroomKingdom
-tag @s remove saturnValley
-tag @s remove sectorZ
-tag @s remove shadowMosesIsland
-tag @s remove spearPillar
-tag @s remove wilyCastle
+function ssbrc:logic/resets/tags/maps
 
 # Misc
 tag @s remove abilityActive

@@ -22,27 +22,7 @@ execute if entity @s[tag=shadowMosesIsland] run scoreboard players remove @e[tag
 execute if entity @s[tag=spearPillar] run scoreboard players remove @e[tag=voteCounter,tag=spearPillar] mapVote 1
 execute if entity @s[tag=wilyCastle] run scoreboard players remove @e[tag=voteCounter,tag=wilyCastle] mapVote 1
 
-tag @s remove battlefield
-tag @s remove castleSiege
-tag @s remove draculasCastle
-tag @s remove dreamLand
-tag @s remove finalDestination
-tag @s remove flatZone
-tag @s remove gardenOfHope
-tag @s remove greatBay
-tag @s remove greatPlateau
-tag @s remove greenHillZone
-tag @s remove icicleMountain
-tag @s remove jungleJapes
-tag @s remove magicant
-tag @s remove mementos
-tag @s remove miiverse
-tag @s remove mushroomKingdom
-tag @s remove saturnValley
-tag @s remove sectorZ
-tag @s remove shadowMosesIsland
-tag @s remove spearPillar
-tag @s remove wilyCastle
+function ssbrc:logic/resets/tags/maps
 
 execute as @e[tag=voteCounter] run tag @s add voteCounter.update
 execute as @e[tag=voteCounter.update,sort=random,limit=1] run function ssbrc:logic/pre_game/map_voting/update_counters_entity
