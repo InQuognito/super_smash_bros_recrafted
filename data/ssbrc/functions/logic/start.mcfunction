@@ -16,8 +16,9 @@ function ssbrc:logic/music/start
 
 execute if entity @a[tag=alteredbeast] run tellraw @a [{"text":"Zeus: ","bold":true,"color":"yellow"},{"text":"Rise from your grave and fight for me, my Champion.","bold":false,"color":"gold"}]
 execute if entity @a[tag=link] run summon minecraft:armor_stand 0.5 25.0 0.5 {Tags:["spinner"],Invulnerable:1b,Invisible:1b,NoGravity:1b}
-execute as @a[tag=steve] store result score $steveItemCap temp if entity @s
-scoreboard players operation $steveItemCap temp *= #2 integers
+scoreboard players set $steveItemCap temp 1
+execute as @a[tag=steve] store result score $steveCount temp if entity @s
+scoreboard players operation $steveItemCap temp += $steveCount temp
 execute if entity @a[tag=steve] run schedule function ssbrc:characters/steve/logic/spawn_item 15s replace
 
 tag @e[tag=tpDest] remove tpDest

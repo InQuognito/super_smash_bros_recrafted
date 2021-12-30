@@ -1,10 +1,9 @@
-execute as @r[tag=steve] run tag @s add steve.spawner
-execute if score $steveItemCount temp < $steveItemCap temp as @a[tag=steve.spawner] at @s run loot spawn ~ ~100 ~ loot ssbrc:steve_items
+execute store result score $steveItemCount temp if entity @e[tag=steve.item]
+execute if score $steveItemCount temp >= $steveItemCap temp as @e[tag=steve.item] run function ssbrc:characters/steve/logic/delete_oldest
 
-execute as @e[nbt={Item:{tag:{steve.item:1}}}] at @a[tag=steve.spawner] run spreadplayers ~ ~ 0 25 false @s
-execute as @e[nbt={Item:{tag:{steve.item:1}}}] run data merge entity @s {Glowing:1}
+execute as @r[tag=steve] at @s run loot spawn ~ ~100 ~ loot ssbrc:steve_items
+execute as @e[tag=steve.item.teleport] run function ssbrc:characters/steve/logic/spawn_locations
 
-tag @a remove steve.spawner
+execute as @e[tag=steve.item] run data merge entity @s {Glowing:1}
 
-execute store result score $steveItemCount temp if entity @e[nbt={Item:{tag:{steve.item:1}}}]
 schedule function ssbrc:characters/steve/logic/spawn_item 15s replace
