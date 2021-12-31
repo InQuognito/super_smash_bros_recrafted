@@ -3,7 +3,7 @@ execute as @s[tag=greninja,predicate=ssbrc:shiny_chance] run tag @s add shiny
 
 tag @s[tag=alteredbeast] add alteredbeast.form.human
 
-item replace entity @s armor.head with minecraft:barrier{HideFlags:127}
+item replace entity @s armor.head with minecraft:barrier
 
 item replace entity @s[tag=!ganondorf,tag=!kingkrool,tag=!pit,tag=!samus.default,tag=!shovelknight] armor.chest with minecraft:leather_chestplate{Unbreakable:1,HideFlags:127}
 item replace entity @a[tag=ganondorf] armor.chest with minecraft:netherite_chestplate{Unbreakable:1,HideFlags:127} 1
