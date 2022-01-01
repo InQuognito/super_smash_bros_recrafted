@@ -13,4 +13,4 @@ item modify entity @s hotbar.4 ssbrc:favorite_slot_2
 item modify entity @s hotbar.5 ssbrc:favorite_slot_3
 
 team join waiting @s
-effect give @s minecraft:glowing 1000000 0 true
+effect give @s minecraft:glowing 1000000 255 true

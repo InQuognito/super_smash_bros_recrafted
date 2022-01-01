@@ -4,6 +4,7 @@ item replace entity @s armor.legs with minecraft:leather_leggings
 item replace entity @s armor.feet with minecraft:leather_boots
 function ssbrc:logic/characters/update_armor
 
+effect give @s minecraft:glowing 1000000 255 true
 effect clear @s minecraft:invisibility
 effect clear @s minecraft:levitation
 
