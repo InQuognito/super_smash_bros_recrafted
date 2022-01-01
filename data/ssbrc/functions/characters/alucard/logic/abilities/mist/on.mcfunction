@@ -1,4 +1,4 @@
-scoreboard players set @s duration.2 40
+scoreboard players set @s duration.1 40
 
 function ssbrc:logic/characters/remove_armor
 
