@@ -51,6 +51,7 @@ execute as @s[tag=sonic] run function ssbrc:characters/sonic/kit
 execute as @s[tag=steve] run function ssbrc:characters/steve/kit
 
 execute as @s[tag=alteredbeast] run function ssbrc:characters/alteredbeast/kits/human
+execute as @s[tag=alucard] run function ssbrc:characters/alucard/kit
 execute as @s[tag=shovelknight] run function ssbrc:characters/shovelknight/kit
 
 effect give @s minecraft:saturation 1000000 255 true
