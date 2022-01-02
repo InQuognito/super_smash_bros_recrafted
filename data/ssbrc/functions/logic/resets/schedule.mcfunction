@@ -1,6 +1,6 @@
 schedule clear ssbrc:characters/steve/logic/spawn_item
+schedule clear ssbrc:logic/music/loop
 schedule clear ssbrc:logic/pre_game/map_voting/timer
-schedule clear ssbrc:logic/pre_game/music
 schedule clear ssbrc:logic/timer
 
 # Maps
@@ -48,3 +48,7 @@ schedule clear ssbrc:maps/f/flat_zone/logic/south_parkour_platform_warn
 schedule clear ssbrc:maps/f/flat_zone/logic/turtle
 schedule clear ssbrc:maps/f/flat_zone/logic/zookeeper_1
 schedule clear ssbrc:maps/f/flat_zone/logic/zookeeper_2
+
+# Luigis Mansion
+schedule clear ssbrc:maps/l/luigis_mansion/logic/blackout_check
+schedule clear ssbrc:maps/l/luigis_mansion/logic/blackout_off
