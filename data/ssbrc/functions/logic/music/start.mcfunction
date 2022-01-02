@@ -64,10 +64,10 @@ execute if score $greatPlateau map matches 1 if score result_music random matche
 execute if score $greatPlateau map matches 1 if score result_music random matches 1 run schedule function ssbrc:logic/music/loop 160t replace
 
 execute if score $greenHillZone map matches 1 if score result_music random matches 0 as @a at @s run playsound ssbrc:sonic_adventure_2_intro music @s
-execute if score $greenHillZone map matches 1 if score result_music random matches 0 run tellraw @a [{"text":"Now Playing: ","bold":true,"color":"gold"},{"text":"Sonic Adventure 2","color":"yellow"}]
+execute if score $greenHillZone map matches 1 if score result_music random matches 0 run tellraw @a [{"text":"Now Playing: ","bold":true,"color":"gold"},{"text":"Green Hill Zone - Sonic Adventure 2","color":"yellow"}]
 execute if score $greenHillZone map matches 1 if score result_music random matches 0 run schedule function ssbrc:logic/music/loop 300t replace
 execute if score $greenHillZone map matches 1 if score result_music random matches 1 as @a at @s run playsound ssbrc:sonic_mania_intro music @s
-execute if score $greenHillZone map matches 1 if score result_music random matches 1 run tellraw @a [{"text":"Now Playing: ","bold":true,"color":"gold"},{"text":"Sonic Mania","color":"yellow"}]
+execute if score $greenHillZone map matches 1 if score result_music random matches 1 run tellraw @a [{"text":"Now Playing: ","bold":true,"color":"gold"},{"text":"Green Hill Zone - Sonic Mania","color":"yellow"}]
 execute if score $greenHillZone map matches 1 if score result_music random matches 1 run schedule function ssbrc:logic/music/loop 280t replace
 
 execute if score $icicleMountain map matches 1 if score result_music random matches 0 as @a at @s run playsound ssbrc:ice_climber_melee_intro music @s
@@ -83,7 +83,7 @@ execute if score $jungleJapes map matches 1 if score result_music random matches
 execute if score $jungleJapes map matches 1 if score result_music random matches 1 run function ssbrc:logic/music/loop
 
 execute if score $magicant map matches 1 if score result_music random matches 0 as @a at @s run playsound ssbrc:cognitive_dissonance_intro music @s
-execute if score $magicant map matches 1 if score result_music random matches 0 run tellraw @a [{"text":"Now Playing: ","bold":true,"color":"gold"},{"text":"Cognitive Dissonance","color":"yellow"}]
+execute if score $magicant map matches 1 if score result_music random matches 0 run tellraw @a [{"text":"Now Playing: ","bold":true,"color":"gold"},{"text":"Magicant (Cognitive Dissonance)","color":"yellow"}]
 execute if score $magicant map matches 1 if score result_music random matches 0 run schedule function ssbrc:logic/music/loop 140t replace
 execute if score $magicant map matches 1 if score result_music random matches 1 as @a at @s run playsound ssbrc:eight_melodies_intro music @s
 execute if score $magicant map matches 1 if score result_music random matches 1 run tellraw @a [{"text":"Now Playing: ","bold":true,"color":"gold"},{"text":"Eight Melodies","color":"yellow"}]
@@ -137,7 +137,7 @@ execute if score $sectorZ map matches 1 if score result_music random matches 1 r
 execute if score $shadowMosesIsland map matches 1 if score result_music random matches 0 as @a at @s run playsound ssbrc:encounter_intro music @s
 execute if score $shadowMosesIsland map matches 1 if score result_music random matches 0 run tellraw @a [{"text":"Now Playing: ","bold":true,"color":"gold"},{"text":"Encounter","color":"yellow"}]
 execute if score $shadowMosesIsland map matches 1 if score result_music random matches 0 run schedule function ssbrc:logic/music/loop 2720t replace
-execute if score $shadowMosesIsland map matches 1 if score result_music random matches 1 run tellraw @a [{"text":"Now Playing: ","bold":true,"color":"gold"},{"text":"Metal Gear 3 Online Main Theme","color":"yellow"}]
+execute if score $shadowMosesIsland map matches 1 if score result_music random matches 1 run tellraw @a [{"text":"Now Playing: ","bold":true,"color":"gold"},{"text":"Metal Gear Online 3 Main Theme","color":"yellow"}]
 execute if score $shadowMosesIsland map matches 1 if score result_music random matches 1 run function ssbrc:logic/music/loop
 
 execute if score $spearPillar map matches 1 if score result_music random matches 0 as @a at @s run playsound ssbrc:dialga_and_palkia_battle_intro music @s
