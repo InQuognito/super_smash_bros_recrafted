@@ -133,6 +133,17 @@ execute if score $jungleJapes map matches 1 if score result random matches 7 run
 execute if score $jungleJapes map matches 1 if score result random matches 8 run tp @s 2261 35 1590
 execute if score $jungleJapes map matches 1 if score result random matches 9 run tp @s 2277 31 1613
 
+execute if score $luigisMansion map matches 1 if score result random matches 0 run tp @s -304 18 -1142
+execute if score $luigisMansion map matches 1 if score result random matches 1 run tp @s -289 13 -1153
+execute if score $luigisMansion map matches 1 if score result random matches 2 run tp @s -289 15 -1137
+execute if score $luigisMansion map matches 1 if score result random matches 3 run tp @s -317 12 -1147
+execute if score $luigisMansion map matches 1 if score result random matches 4 run tp @s -333 12 -1149
+execute if score $luigisMansion map matches 1 if score result random matches 5 run tp @s -322 17 -1127
+execute if score $luigisMansion map matches 1 if score result random matches 6 run tp @s -332 17 -1108
+execute if score $luigisMansion map matches 1 if score result random matches 7 run tp @s -313 18 -1104
+execute if score $luigisMansion map matches 1 if score result random matches 8 run tp @s -292 17 -1113
+execute if score $luigisMansion map matches 1 if score result random matches 9 run tp @s -291 18 -1120
+
 execute if score $magicant map matches 1 if score result random matches 0 run tp @s 628 20 -898
 execute if score $magicant map matches 1 if score result random matches 1 run tp @s 672 19 -898
 execute if score $magicant map matches 1 if score result random matches 2 run tp @s 632 19 -876

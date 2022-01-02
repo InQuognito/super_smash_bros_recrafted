@@ -82,6 +82,13 @@ execute if score $jungleJapes map matches 1 if score result_music random matches
 execute if score $jungleJapes map matches 1 if score result_music random matches 1 if score $music options matches 0 run schedule function ssbrc:logic/music/loop 3120t replace
 execute if score $jungleJapes map matches 1 if score result_music random matches 1 if score $music options matches 1 run schedule function ssbrc:logic/music/start 3120t replace
 
+execute if score $luigisMansion map matches 1 if score result_music random matches 0 as @a at @s run playsound ssbrc:dark_hallways music @s
+execute if score $luigisMansion map matches 1 if score result_music random matches 0 if score $music options matches 0 run schedule function ssbrc:logic/music/loop 940t replace
+execute if score $luigisMansion map matches 1 if score result_music random matches 0 if score $music options matches 1 run schedule function ssbrc:logic/music/start 940t replace
+execute if score $luigisMansion map matches 1 if score result_music random matches 1 as @a at @s run playsound ssbrc:luigis_mansion_theme music @s
+execute if score $luigisMansion map matches 1 if score result_music random matches 1 if score $music options matches 0 run schedule function ssbrc:logic/music/loop 1660t replace
+execute if score $luigisMansion map matches 1 if score result_music random matches 1 if score $music options matches 1 run schedule function ssbrc:logic/music/start 1660t replace
+
 execute if score $magicant map matches 1 if score result_music random matches 0 as @a at @s run playsound ssbrc:cognitive_dissonance music @s
 execute if score $magicant map matches 1 if score result_music random matches 0 if score $music options matches 0 run schedule function ssbrc:logic/music/loop 1860t replace
 execute if score $magicant map matches 1 if score result_music random matches 0 if score $music options matches 1 run schedule function ssbrc:logic/music/start 1860t replace

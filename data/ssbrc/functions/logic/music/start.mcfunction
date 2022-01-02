@@ -82,6 +82,13 @@ execute if score $jungleJapes map matches 1 if score result_music random matches
 execute if score $jungleJapes map matches 1 if score result_music random matches 1 run tellraw @a [{"text":"Now Playing: ","bold":true,"color":"gold"},{"text":"Jungle Swing","color":"yellow"}]
 execute if score $jungleJapes map matches 1 if score result_music random matches 1 run function ssbrc:logic/music/loop
 
+execute if score $luigisMansion map matches 1 if score result_music random matches 0 as @a at @s run playsound ssbrc:dark_hallways_intro music @s
+execute if score $luigisMansion map matches 1 if score result_music random matches 0 run tellraw @a [{"text":"Now Playing: ","bold":true,"color":"gold"},{"text":"Dark Hallways","color":"yellow"}]
+execute if score $luigisMansion map matches 1 if score result_music random matches 0 run schedule function ssbrc:logic/music/loop 160t replace
+execute if score $luigisMansion map matches 1 if score result_music random matches 1 as @a at @s run playsound ssbrc:luigis_mansion_theme_intro music @s
+execute if score $luigisMansion map matches 1 if score result_music random matches 1 run tellraw @a [{"text":"Now Playing: ","bold":true,"color":"gold"},{"text":"Luigis Mansion Theme","color":"yellow"}]
+execute if score $luigisMansion map matches 1 if score result_music random matches 1 run schedule function ssbrc:logic/music/loop 120t replace
+
 execute if score $magicant map matches 1 if score result_music random matches 0 as @a at @s run playsound ssbrc:cognitive_dissonance_intro music @s
 execute if score $magicant map matches 1 if score result_music random matches 0 run tellraw @a [{"text":"Now Playing: ","bold":true,"color":"gold"},{"text":"Cognitive Dissonance","color":"yellow"}]
 execute if score $magicant map matches 1 if score result_music random matches 0 run schedule function ssbrc:logic/music/loop 140t replace

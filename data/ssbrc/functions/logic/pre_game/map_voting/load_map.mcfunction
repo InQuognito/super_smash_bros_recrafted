@@ -12,6 +12,7 @@ execute unless score #mapPicked mapVote matches 1 if entity @s[tag=greatPlateau]
 execute unless score #mapPicked mapVote matches 1 if entity @s[tag=greenHillZone] run function ssbrc:maps/g/green_hill_zone/load
 execute unless score #mapPicked mapVote matches 1 if entity @s[tag=icicleMountain] run function ssbrc:maps/i/icicle_mountain/load
 execute unless score #mapPicked mapVote matches 1 if entity @s[tag=jungleJapes] run function ssbrc:maps/j/jungle_japes/load
+execute unless score #mapPicked mapVote matches 1 if entity @s[tag=luigisMansion] run function ssbrc:maps/l/luigis_mansion/load
 execute unless score #mapPicked mapVote matches 1 if entity @s[tag=magicant] run function ssbrc:maps/m/magicant/load
 execute unless score #mapPicked mapVote matches 1 if entity @s[tag=mementos] run function ssbrc:maps/m/mementos/load
 execute unless score #mapPicked mapVote matches 1 if entity @s[tag=miiverse] run function ssbrc:maps/m/miiverse/load

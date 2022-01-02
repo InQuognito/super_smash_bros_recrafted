@@ -10,6 +10,7 @@ tag @s remove greatPlateau
 tag @s remove greenHillZone
 tag @s remove icicleMountain
 tag @s remove jungleJapes
+tag @s remove luigisMansion
 tag @s remove magicant
 tag @s remove mementos
 tag @s remove miiverse

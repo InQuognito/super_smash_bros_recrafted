@@ -12,6 +12,7 @@ execute if entity @s[tag=greatPlateau] run scoreboard players remove @e[tag=vote
 execute if entity @s[tag=greenHillZone] run scoreboard players remove @e[tag=voteCounter,tag=greenHillZone] mapVote 1
 execute if entity @s[tag=icicleMountain] run scoreboard players remove @e[tag=voteCounter,tag=icicleMountain] mapVote 1
 execute if entity @s[tag=jungleJapes] run scoreboard players remove @e[tag=voteCounter,tag=jungleJapes] mapVote 1
+execute if entity @s[tag=luigisMansion] run scoreboard players remove @e[tag=voteCounter,tag=luigisMansion] mapVote 1
 execute if entity @s[tag=magicant] run scoreboard players remove @e[tag=voteCounter,tag=magicant] mapVote 1
 execute if entity @s[tag=mementos] run scoreboard players remove @e[tag=voteCounter,tag=mementos] mapVote 1
 execute if entity @s[tag=miiverse] run scoreboard players remove @e[tag=voteCounter,tag=miiverse] mapVote 1
