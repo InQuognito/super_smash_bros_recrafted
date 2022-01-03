@@ -31,4 +31,7 @@ fill -340 8 -1165 -285 24 -1145 minecraft:redstone_wall_torch[facing=west] repla
 fill -340 8 -1144 -285 24 -1124 minecraft:redstone_wall_torch[facing=west] replace minecraft:soul_wall_torch[facing=west]
 fill -340 8 -1123 -285 24 -1102 minecraft:redstone_wall_torch[facing=west] replace minecraft:soul_wall_torch[facing=west]
 
+fill -337 16 -1107 -335 16 -1105 minecraft:blast_furnace[facing=north,lit=false] replace minecraft:blast_furnace[facing=north]
+fill -337 16 -1107 -335 16 -1105 minecraft:blast_furnace[facing=east,lit=false] replace minecraft:blast_furnace[facing=east]
+
 schedule function ssbrc:maps/l/luigis_mansion/logic/blackout_off 40s replace
