@@ -168,6 +168,7 @@ tag @s remove alteredbeast.form.waretiger
 tag @s remove alteredbeast.form.warewolf
 tag @s remove characterPicked
 tag @s remove hero.magicLost
+tag @s remove mapRoom
 tag @s remove pickingCharacter
 tag @s remove pickingMap
 tag @s remove shiny
