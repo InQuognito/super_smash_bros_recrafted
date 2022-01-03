@@ -5,6 +5,8 @@ forceload add -352 -1168 -273 -1089
 
 kill @e[type=!minecraft:player]
 
+function ssbrc:maps/l/luigis_mansion/logic/blackout_off
+
 time set midnight
 weather thunder
 
