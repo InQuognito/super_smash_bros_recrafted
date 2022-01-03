@@ -32,3 +32,5 @@ scoreboard players set $start map 1
 scoreboard players reset $startCountdown timer
 
 scoreboard players set @a respawn 0
+
+tag @a remove loaded
