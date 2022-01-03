@@ -1,0 +1,2 @@
+summon minecraft:area_effect_cloud -507.5 7.0 55.5 {CustomName:'{"text":"Kills","bold":true,"underlined":true,"color":"gold"}',CustomNameVisible:1b,Age:-2147483648,Duration:-1,WaitTime:-2147483648}
+summon minecraft:area_effect_cloud -507.5 5.75 55.5 {CustomName:'[{"text":"1. "},{"selector":"@s"},{"text":" - "},{"score":{"name":"@s","objective":"stats.kills"}}]',CustomNameVisible:1b,Age:-2147483648,Duration:-1,WaitTime:-2147483648}
