@@ -23,7 +23,6 @@ scoreboard players add @a[team=!spectator,tag=snake] snake.gP 1
 scoreboard players add @a[team=!spectator,tag=sonic] sonic.gP 1
 scoreboard players add @a[team=!spectator,tag=steve] steve.gP 1
 
-tag @s add winner
 scoreboard players reset @a[team=!spectator,tag=!winner,tag=alteredbeast] alteredbeast.wS
 scoreboard players reset @a[team=!spectator,tag=!winner,tag=alucard] alucard.wS
 scoreboard players reset @a[team=!spectator,tag=!winner,tag=bowser] bowser.wS
@@ -48,7 +47,6 @@ scoreboard players reset @a[team=!spectator,tag=!winner,tag=shovelknight] shovel
 scoreboard players reset @a[team=!spectator,tag=!winner,tag=snake] snake.wS
 scoreboard players reset @a[team=!spectator,tag=!winner,tag=sonic] sonic.wS
 scoreboard players reset @a[team=!spectator,tag=!winner,tag=steve] steve.wS
-tag @a remove winner
 
 scoreboard players reset @s[tag=!alteredbeast] alteredbeast.wS
 scoreboard players reset @s[tag=!alucard] alucard.wS
@@ -101,5 +99,6 @@ scoreboard players add @s[tag=sonic] sonic.wS 1
 scoreboard players add @s[tag=steve] steve.wS 1
 
 scoreboard players add @s stats.wins 1
+scoreboard players add @a[tag=!winner] stats.losses 1
 
 function ssbrc:logic/stats/advancements
