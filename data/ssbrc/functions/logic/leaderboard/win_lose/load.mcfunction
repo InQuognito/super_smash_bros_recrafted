@@ -12,6 +12,12 @@ summon minecraft:area_effect_cloud -507.5 6.50 51.5 {Tags:["leaderboard.counter"
 summon minecraft:area_effect_cloud -507.5 6.25 51.5 {Tags:["leaderboard.counter"],CustomName:'{"text":"W/L Ratio","bold":true,"color":"gold"}',CustomNameVisible:1b,Age:-2147483648,Duration:-1,WaitTime:-2147483648}
 summon minecraft:area_effect_cloud -507.5 6.00 51.5 {Tags:["leaderboard.counter"],CustomName:'{"text":"K/D Ratio","bold":false,"color":"yellow"}',CustomNameVisible:1b,Age:-2147483648,Duration:-1,WaitTime:-2147483648}
 
+execute as @a run scoreboard players operation #temp stats.wins *= #100 integers
+execute as @a run scoreboard players operation #temp stats.losses *= #100 integers
+execute as @a run scoreboard players operation @s stats.wL = @s stats.wins
+execute as @a run scoreboard players operation @s stats.wL /= @s stats.losses
+execute as @a run scoreboard players operation @s stats.wL /= #100 integers
+
 tag @a remove leaderboard.loaded
 
 scoreboard players operation $most stats.wL > @a[tag=!leaderboard.loaded,scores={stats.wL=1..}] stats.wL
