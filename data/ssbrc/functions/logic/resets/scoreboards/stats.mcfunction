@@ -78,4 +78,7 @@ scoreboard objectives add steve.wS dummy
 
 # Options
 scoreboard objectives add options dummy
+scoreboard objectives add stats.kD dummy
 scoreboard objectives add stats.kills minecraft.custom:minecraft.player_kills
+scoreboard objectives add stats.wins dummy
+scoreboard objectives add stats.wL dummy
