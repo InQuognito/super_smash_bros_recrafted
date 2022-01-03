@@ -1,3 +1,3 @@
 scoreboard players set $blackout temp 0
 
-tellraw @a "The lights come back on"
+effect give @a[team=alive] minecraft:glowing 1000000 255 true
