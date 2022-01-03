@@ -22,7 +22,7 @@ tellraw @s[tag=steve.getCrossbowArrows] {"text":"Crafted some arrows!","color":"
 tellraw @s[tag=steve.getBowArrows] {"text":"Crafted some arrows!","color":"green"}
 
 clear @s[tag=steve.getShield] minecraft:shield
-item replace entity @s[tag=steve.getShield] weapon.offhand with minecraft:shield{Damage:300,HideFlags:127}
+item replace entity @s[tag=steve.getShield] weapon.offhand with minecraft:shield{Damage:326,HideFlags:127}
 tellraw @s[tag=steve.getShield] {"text":"Crafted a Shield!","color":"green"}
 
 tag @s remove steve.getCrossbow

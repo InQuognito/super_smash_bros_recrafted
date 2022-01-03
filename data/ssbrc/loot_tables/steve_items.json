@@ -42,8 +42,7 @@
 							"entity": "this",
 							"scores": {
 								"steve.tier": {
-									"min": 0,
-									"max": 2
+									"min": 1
 								}
 							}
 						}
