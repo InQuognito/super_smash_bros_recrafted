@@ -1,5 +1,5 @@
 # Reset Players
-execute as @a[predicate=!ssbrc:sneaking,tag=!loaded] run function ssbrc:logic/resets/players
+execute as @a[tag=!loaded] run function ssbrc:logic/resets/players
 tag @a add loaded
 
 # Character select room
