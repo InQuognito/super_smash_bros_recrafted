@@ -16,7 +16,7 @@ summon minecraft:area_effect_cloud -507.5 5.25 51.5 {CustomName:'{"text":"Click 
 
 tag @a remove leaderboard.loaded
 
-scoreboard players operation $most stats.wins > @a stats.wins
-function ssbrc:logic/leaderboard/wins/place_1
+execute as @a[tag=!leaderboard.loaded] run scoreboard players operation $most stats.wins > @s stats.wins
+execute as @a[tag=!leaderboard.loaded] if score @s stats.wins = $most stats.wins run function ssbrc:logic/leaderboard/wins/place_1
 
 setblock -505 5 51 minecraft:command_block{Command:"/function ssbrc:logic/leaderboard/kills/load"} destroy

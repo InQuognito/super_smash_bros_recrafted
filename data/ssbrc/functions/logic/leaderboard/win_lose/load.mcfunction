@@ -18,7 +18,7 @@ scoreboard players operation @s stats.wL /= @s stats.gP
 
 tag @a remove leaderboard.loaded
 
-scoreboard players operation $most stats.wL > @a stats.wL
-function ssbrc:logic/leaderboard/win_lose/place_1
+execute as @a[tag=!leaderboard.loaded] run scoreboard players operation $most stats.wL > @s stats.wL
+execute as @a[tag=!leaderboard.loaded] if score @s stats.wL = $most stats.wL run function ssbrc:logic/leaderboard/win_lose/place_1
 
 setblock -505 5 51 minecraft:command_block{Command:"/function ssbrc:logic/leaderboard/kill_death/load"} destroy
