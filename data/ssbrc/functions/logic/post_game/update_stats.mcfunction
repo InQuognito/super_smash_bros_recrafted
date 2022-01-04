@@ -99,6 +99,6 @@ scoreboard players add @s[tag=sonic] sonic.wS 1
 scoreboard players add @s[tag=steve] steve.wS 1
 
 scoreboard players add @s stats.wins 1
-scoreboard players add @a[tag=!winner] stats.losses 1
+scoreboard players add @a stats.gP 1
 
 function ssbrc:logic/stats/advancements
