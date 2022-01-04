@@ -12,9 +12,9 @@ summon minecraft:area_effect_cloud -507.5 6.25 51.5 {Tags:["leaderboard.counter"
 summon minecraft:area_effect_cloud -507.5 6.00 51.5 {Tags:["leaderboard.counter"],CustomName:'{"text":"W/L Ratio","bold":false,"color":"yellow"}',CustomNameVisible:1b,Age:-2147483648,Duration:-1,WaitTime:-2147483648}
 summon minecraft:area_effect_cloud -507.5 5.75 51.5 {Tags:["leaderboard.counter"],CustomName:'{"text":"K/D Ratio","bold":true,"color":"gold"}',CustomNameVisible:1b,Age:-2147483648,Duration:-1,WaitTime:-2147483648}
 
-scoreboard players operation @s stats.kD = @s stats.kills
-scoreboard players operation @s stats.kD *= #100 integers
-scoreboard players operation @s stats.kD /= @s stats.deaths
+execute as @a run scoreboard players operation @s stats.kD = @s stats.kills
+execute as @a run scoreboard players operation @s stats.kD *= #100 integers
+execute as @a run scoreboard players operation @s stats.kD /= @s stats.deaths
 
 tag @a remove leaderboard.loaded
 
