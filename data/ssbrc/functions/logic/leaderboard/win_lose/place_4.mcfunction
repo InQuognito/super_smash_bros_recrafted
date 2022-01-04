@@ -5,3 +5,6 @@ setblock -484 4 55 minecraft:oak_sign{Text1:'[{"text":"4. ","bold":true,"color":
 tag @s remove leaderboard.self
 
 data modify entity @e[tag=leaderboard.4,limit=1] CustomName set from block -484 4 55 Text1
+
+execute as @a[tag=!leaderboard.loaded] run scoreboard players operation $most stats.wL > @s stats.wL
+execute as @a[tag=!leaderboard.loaded] if score @s stats.wL = $most stats.wL run function ssbrc:logic/leaderboard/win_lose/place_5
