@@ -18,19 +18,6 @@ scoreboard players operation @s stats.wL /= @s stats.gP
 
 tag @a remove leaderboard.loaded
 
-scoreboard players operation $most stats.wL > @a[tag=!leaderboard.loaded,scores={stats.wL=1..}] stats.wL
-execute as @a[tag=!leaderboard.loaded] if score @s stats.wL = $most stats.wL run function ssbrc:logic/leaderboard/win_lose/place_1
-
-scoreboard players operation $most stats.wL > @a[tag=!leaderboard.loaded,scores={stats.wL=1..}] stats.wL
-execute as @a[tag=!leaderboard.loaded] if score @s stats.wL = $most stats.wL run function ssbrc:logic/leaderboard/win_lose/place_2
-
-scoreboard players operation $most stats.wL > @a[tag=!leaderboard.loaded,scores={stats.wL=1..}] stats.wL
-execute as @a[tag=!leaderboard.loaded] if score @s stats.wL = $most stats.wL run function ssbrc:logic/leaderboard/win_lose/place_3
-
-scoreboard players operation $most stats.wL > @a[tag=!leaderboard.loaded,scores={stats.wL=1..}] stats.wL
-execute as @a[tag=!leaderboard.loaded] if score @s stats.wL = $most stats.wL run function ssbrc:logic/leaderboard/win_lose/place_4
-
-scoreboard players operation $most stats.wL > @a[tag=!leaderboard.loaded,scores={stats.wL=1..}] stats.wL
-execute as @a[tag=!leaderboard.loaded] if score @s stats.wL = $most stats.wL run function ssbrc:logic/leaderboard/win_lose/place_5
+execute as @a[tag=!leaderboard.loaded,scores={stats.wL=1..}] run function ssbrc:logic/leaderboard/win_lose/update
 
 setblock -505 5 51 minecraft:command_block{Command:"/function ssbrc:logic/leaderboard/kill_death/load"} destroy
