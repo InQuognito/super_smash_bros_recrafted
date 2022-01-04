@@ -18,6 +18,7 @@ scoreboard players operation @s stats.wL /= @s stats.gP
 
 tag @a remove leaderboard.loaded
 
+scoreboard players reset $most stats.wL
 execute as @a[tag=!leaderboard.loaded] run scoreboard players operation $most stats.wL > @s stats.wL
 execute as @a[tag=!leaderboard.loaded] if score @s stats.wL = $most stats.wL run function ssbrc:logic/leaderboard/win_lose/place_1
 

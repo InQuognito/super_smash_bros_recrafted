@@ -6,5 +6,6 @@ tag @s remove leaderboard.self
 
 data modify entity @e[tag=leaderboard.3,limit=1] CustomName set from block -484 4 55 Text1
 
+scoreboard players reset $most stats.kills
 execute as @a[tag=!leaderboard.loaded] run scoreboard players operation $most stats.kills > @s stats.kills
 execute as @a[tag=!leaderboard.loaded] if score @s stats.kills = $most stats.kills run function ssbrc:logic/leaderboard/kills/place_4

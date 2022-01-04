@@ -14,6 +14,7 @@ summon minecraft:area_effect_cloud -507.5 5.75 51.5 {Tags:["leaderboard.counter"
 
 tag @a remove leaderboard.loaded
 
+scoreboard players reset $most stats.kills
 execute as @a[tag=!leaderboard.loaded] run scoreboard players operation $most stats.kills > @s stats.kills
 execute as @a[tag=!leaderboard.loaded] if score @s stats.kills = $most stats.kills run function ssbrc:logic/leaderboard/kills/place_1
 

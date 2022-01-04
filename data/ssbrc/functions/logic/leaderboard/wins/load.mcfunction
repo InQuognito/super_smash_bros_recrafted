@@ -16,6 +16,7 @@ summon minecraft:area_effect_cloud -507.5 5.25 51.5 {CustomName:'{"text":"Click 
 
 tag @a remove leaderboard.loaded
 
+scoreboard players reset $most stats.wins
 execute as @a[tag=!leaderboard.loaded] run scoreboard players operation $most stats.wins > @s stats.wins
 execute as @a[tag=!leaderboard.loaded] if score @s stats.wins = $most stats.wins run function ssbrc:logic/leaderboard/wins/place_1
 
