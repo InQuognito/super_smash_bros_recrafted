@@ -232,6 +232,17 @@ execute if score $spearPillar map matches 1 if score result random matches 7 run
 execute if score $spearPillar map matches 1 if score result random matches 8 run tp @s 799 15 -32
 execute if score $spearPillar map matches 1 if score result random matches 9 run tp @s 816 15 -44
 
+execute if score $towerOfFate map matches 1 if score result random matches 0 run tp @s 6000 28 500
+execute if score $towerOfFate map matches 1 if score result random matches 1 run tp @s 6000 28 508
+execute if score $towerOfFate map matches 1 if score result random matches 2 run tp @s 5992 28 500
+execute if score $towerOfFate map matches 1 if score result random matches 3 run tp @s 6000 28 492
+execute if score $towerOfFate map matches 1 if score result random matches 4 run tp @s 6008 28 500
+execute if score $towerOfFate map matches 1 if score result random matches 5 run tp @s 5993 28 507
+execute if score $towerOfFate map matches 1 if score result random matches 6 run tp @s 5993 28 493
+execute if score $towerOfFate map matches 1 if score result random matches 7 run tp @s 6007 28 493
+execute if score $towerOfFate map matches 1 if score result random matches 8 run tp @s 6007 28 507
+execute if score $towerOfFate map matches 1 if score result random matches 9 run tp @s 6000 30 500
+
 execute if score $wilyCastle map matches 1 if score result random matches 0 run tp @s 4990 17 5067
 execute if score $wilyCastle map matches 1 if score result random matches 1 run tp @s 5022 20 5046
 execute if score $wilyCastle map matches 1 if score result random matches 2 run tp @s 5028 27 5026

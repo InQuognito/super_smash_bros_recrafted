@@ -19,4 +19,5 @@ tag @s remove saturnValley
 tag @s remove sectorZ
 tag @s remove shadowMosesIsland
 tag @s remove spearPillar
+tag @s remove towerOfFate
 tag @s remove wilyCastle

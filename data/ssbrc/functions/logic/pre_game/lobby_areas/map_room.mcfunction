@@ -47,6 +47,7 @@ summon minecraft:area_effect_cloud 1.5 5.0 28.5 {Age:-2147483648,Duration:-1,Wai
 summon minecraft:area_effect_cloud 10.5 5.0 25.5 {Age:-2147483648,Duration:-1,WaitTime:-2147483648,Tags:["voteCounter","sectorZ"],CustomNameVisible:1b}
 summon minecraft:area_effect_cloud -0.5 5.0 14.5 {Age:-2147483648,Duration:-1,WaitTime:-2147483648,Tags:["voteCounter","shadowMosesIsland"],CustomNameVisible:1b}
 summon minecraft:area_effect_cloud 10.5 5.0 21.5 {Age:-2147483648,Duration:-1,WaitTime:-2147483648,Tags:["voteCounter","spearPillar"],CustomNameVisible:1b}
+summon minecraft:area_effect_cloud 10.5 11.0 21.5 {Age:-2147483648,Duration:-1,WaitTime:-2147483648,Tags:["voteCounter","towerOfFate"],CustomNameVisible:1b}
 summon minecraft:area_effect_cloud -3.5 5.0 21.5 {Age:-2147483648,Duration:-1,WaitTime:-2147483648,Tags:["voteCounter","wilyCastle"],CustomNameVisible:1b}
 
 scoreboard players set @e[tag=voteCounter] mapVote 0
