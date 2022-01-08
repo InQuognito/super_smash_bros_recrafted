@@ -10,4 +10,4 @@ execute if score result random matches 5 run data modify entity @s ArmorItems[3]
 execute if score result random matches 6 run data modify entity @s ArmorItems[3].tag.CustomModelData set value 8
 execute if score result random matches 7 run data modify entity @s ArmorItems[3].tag.CustomModelData set value 9
 
-tag @s remove placePainting
+tag @s remove luigisMansion.painting
