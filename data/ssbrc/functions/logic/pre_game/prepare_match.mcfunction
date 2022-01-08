@@ -1,5 +1,7 @@
 team join alive @a[team=!spectator]
 execute store result score $playersPlaying temp run team list alive
+scoreboard players operation $totalStocks temp = $playersPlaying temp
+scoreboard players operation $totalStocks temp *= $stockLimit options
 
 function ssbrc:logic/resets/gamerules
 execute unless score $playersPlaying temp matches 1.. if entity @a[team=spectator] run gamerule spectatorsGenerateChunks true
