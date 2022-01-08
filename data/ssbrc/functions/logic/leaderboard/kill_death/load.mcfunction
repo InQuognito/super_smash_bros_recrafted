@@ -17,10 +17,7 @@ execute as @a run scoreboard players operation @s stats.kD *= #100 integers
 execute as @a run scoreboard players operation @s stats.kD /= @s stats.deaths
 
 tag @a remove leaderboard.loaded
-tag @a remove leaderboard.next
-scoreboard players reset $most stats.kD
-execute as @a[tag=!leaderboard.loaded] run scoreboard players operation $most stats.kD > @s stats.kD
-execute as @a[tag=!leaderboard.loaded] if score @s stats.kD = $most stats.kD run tag @s add leaderboard.next
+execute as @a[tag=!leaderboard.loaded] run function ssbrc:logic/leaderboard/kill_death/calculate
 execute as @r[tag=leaderboard.next] run function ssbrc:logic/leaderboard/kill_death/place_1
 
 setblock -505 5 51 minecraft:command_block{Command:"/function ssbrc:logic/leaderboard/wins/load"} destroy
