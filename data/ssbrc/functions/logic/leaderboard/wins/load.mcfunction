@@ -15,9 +15,10 @@ summon minecraft:area_effect_cloud -507.5 5.75 51.5 {Tags:["leaderboard.counter"
 summon minecraft:area_effect_cloud -507.5 5.25 51.5 {CustomName:'{"text":"Click to Toggle","bold":false,"color":"gold"}',CustomNameVisible:1b,Age:-2147483648,Duration:-1,WaitTime:-2147483648}
 
 tag @a remove leaderboard.loaded
-
+tag @a remove leaderboard.next
 scoreboard players reset $most stats.wins
 execute as @a[tag=!leaderboard.loaded] run scoreboard players operation $most stats.wins > @s stats.wins
-execute as @a[tag=!leaderboard.loaded] if score @s stats.wins = $most stats.wins run function ssbrc:logic/leaderboard/wins/place_1
+execute as @a[tag=!leaderboard.loaded] if score @s stats.wins = $most stats.wins run tag @s add leaderboard.next
+execute as @r[tag=leaderboard.next] run function ssbrc:logic/leaderboard/wins/place_1
 
 setblock -505 5 51 minecraft:command_block{Command:"/function ssbrc:logic/leaderboard/kills/load"} destroy

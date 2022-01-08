@@ -1,3 +1,4 @@
+tag @a remove leaderboard.next
 tag @s add leaderboard.loaded
 
 tag @s add leaderboard.self
