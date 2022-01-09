@@ -5,4 +5,4 @@ tp @e[tag=alteredbeast.flameHands,tag=!adjusted] ^ ^-0.3 ^1.5 ~ ~
 function ssbrc:characters/link/logic/weapons/sword_beam/id
 
 tag @e[tag=alteredbeast.flameHands,tag=!adjusted] add adjusted
-scoreboard players set @s cooldown.1 20
+scoreboard players set @s cooldown.2 20
