@@ -2,7 +2,7 @@ execute positioned 0.0 0 0.0 run summon marker ^ ^ ^1 {Tags:["direction"]}
 
 summon minecraft:spectral_arrow ^ ^ ^1 {damage:0.4,Tags:["link.boomerang","projectile"],NoGravity:1b,PierceLevel:3}
 
-scoreboard players set @e[tag=projectile] motionx 60
+scoreboard players set @e[tag=projectile] motionX 60
 
 function ssbrc:characters/link/logic/weapons/boomerang/id
 data modify entity @e[tag=projectile,limit=1] Owner set from entity @s UUID
