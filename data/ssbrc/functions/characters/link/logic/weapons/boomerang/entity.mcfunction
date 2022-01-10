@@ -1,4 +1,3 @@
-#execute if score @s temp matches ..40 run function ssbrc:characters/link/logic/weapons/boomerang/movement_forward
 execute if score @s[scores={id=1}] temp matches 41.. facing entity @p[scores={id=1}] eyes run function ssbrc:characters/link/logic/weapons/boomerang/movement_return
 execute if score @s[scores={id=2}] temp matches 41.. facing entity @p[scores={id=2}] eyes run function ssbrc:characters/link/logic/weapons/boomerang/movement_return
 execute if score @s[scores={id=3}] temp matches 41.. facing entity @p[scores={id=3}] eyes run function ssbrc:characters/link/logic/weapons/boomerang/movement_return
@@ -12,6 +11,9 @@ execute if score @s temp matches 41.. if score @s id = @p[dx=0.5,dy=0.5,dz=0.5] 
 execute if score @s temp matches 41.. if score @s id = @p[dx=0.5,dy=0.5,dz=0.5] id run kill @s
 
 scoreboard players add @s temp 1
+
+execute store result entity @s Motion float 1.0 run scoreboard players get @s motionX
+scoreboard players remove @s motionX 1
 
 kill @s[scores={temp=300..}]
 execute unless block ^ ^ ^0.2 #ssbrc:passthrough run scoreboard players set @s temp 65
