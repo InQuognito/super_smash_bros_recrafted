@@ -11,7 +11,7 @@ scoreboard players operation #targetX pos -= #playerX pos
 scoreboard players operation #targetY pos -= #playerY pos
 scoreboard players operation #targetZ pos -= #playerZ pos
 
-execute at @s anchored eyes run summon minecraft:spectral_arrow ^ ^-0.3 ^1 {damage:0.4,Tags:["link.boomerang","temp.spawn","projectile"],NoGravity:1b,PierceLevel:3}
+execute at @s anchored eyes run summon minecraft:spectral_arrow ^ ^ ^1 {damage:0.4,Tags:["link.boomerang","temp.spawn","projectile"],NoGravity:1b,PierceLevel:3}
 data modify entity @e[tag=temp.spawn,limit=1] Owner set from entity @s UUID
 function ssbrc:characters/link/logic/weapons/boomerang/id
 
