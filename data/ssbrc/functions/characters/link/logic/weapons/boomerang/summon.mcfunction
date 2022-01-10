@@ -1,4 +1,4 @@
-execute positioned 0.0 0 0.0 run summon marker ^ ^ ^1 {Tags:["direction"]}
+execute positioned 0.0 0 0.0 run summon minecraft:marker ^ ^ ^1 {Tags:["direction"]}
 
 summon minecraft:spectral_arrow ^ ^ ^1 {damage:0.4,Tags:["link.boomerang","projectile"],NoGravity:1b,PierceLevel:3}
 
