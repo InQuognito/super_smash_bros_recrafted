@@ -15,9 +15,9 @@ execute at @s anchored eyes run summon minecraft:spectral_arrow ^ ^-0.3 ^1 {dama
 data modify entity @e[tag=temp.spawn,limit=1] Owner set from entity @s UUID
 function ssbrc:characters/link/logic/weapons/boomerang/id
 
-execute store result entity @e[tag=projectile,limit=1] Motion[0] double 0.001 run scoreboard players get #targetX pos
-execute store result entity @e[tag=projectile,limit=1] Motion[1] double 0.001 run scoreboard players get #targetY pos
-execute store result entity @e[tag=projectile,limit=1] Motion[2] double 0.001 run scoreboard players get #targetZ pos
+execute store result entity @e[tag=projectile,limit=1] Motion[0] double 0.005 run scoreboard players get #targetX pos
+execute store result entity @e[tag=projectile,limit=1] Motion[1] double 0.005 run scoreboard players get #targetY pos
+execute store result entity @e[tag=projectile,limit=1] Motion[2] double 0.005 run scoreboard players get #targetZ pos
 
 tag @e[tag=projectile] remove projectile
 kill @e[tag=direction]
