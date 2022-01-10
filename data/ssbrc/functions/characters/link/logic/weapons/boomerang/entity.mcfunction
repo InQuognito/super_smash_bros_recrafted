@@ -6,7 +6,7 @@ execute if score @s temp matches 41.. if score @s id = @p[dx=0.5,dy=0.5,dz=0.5] 
 
 scoreboard players add @s temp 1
 
-execute store result entity @s Motion double 1.0 run scoreboard players get @s motionX
+execute store result entity @s Motion[0] double 1.0 run scoreboard players get @s motionX
 scoreboard players remove @s motionX 1
 
 kill @s[scores={temp=300..}]
