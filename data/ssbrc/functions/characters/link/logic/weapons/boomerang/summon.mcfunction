@@ -1,4 +1,4 @@
-summon minecraft:marker ~ ~ ~ {Tags:["direction"]}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags:["direction"]}
 
 execute store result entity @e[tag=direction,limit=1] Rotation[0] float 1.0 run scoreboard players get offsetX temp
 execute store result entity @e[tag=direction,limit=1] Rotation[1] float 1.0 run scoreboard players get offsetY temp
