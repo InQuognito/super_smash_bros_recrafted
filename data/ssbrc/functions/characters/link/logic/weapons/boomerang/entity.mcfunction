@@ -1,4 +1,4 @@
-execute if score @s temp matches ..40 run function ssbrc:characters/link/logic/weapons/boomerang/movement_forward
+#execute if score @s temp matches ..40 run function ssbrc:characters/link/logic/weapons/boomerang/movement_forward
 execute if score @s[scores={id=1}] temp matches 41.. facing entity @p[scores={id=1}] eyes run function ssbrc:characters/link/logic/weapons/boomerang/movement_return
 execute if score @s[scores={id=2}] temp matches 41.. facing entity @p[scores={id=2}] eyes run function ssbrc:characters/link/logic/weapons/boomerang/movement_return
 execute if score @s[scores={id=3}] temp matches 41.. facing entity @p[scores={id=3}] eyes run function ssbrc:characters/link/logic/weapons/boomerang/movement_return
