@@ -18,9 +18,9 @@ execute unless block ^ ^ ^0.1 #ssbrc:passthrough run scoreboard players set @s t
 
 particle minecraft:dust 0.733 0.525 0.216 0.75 ^ ^ ^ 0.0 0.0 0.0 0 0 normal @a
 
-execute as @a if score @s id = @e[tag=link.boomerang,sort=nearest,limit=1] id run tag @s add self
-execute as @a unless score @s id = @e[tag=link.boomerang,sort=nearest,limit=1] id run tag @s[tag=self] remove self
+#execute as @a if score @s id = @e[tag=link.boomerang,sort=nearest,limit=1] id run tag @s add self
+#execute as @a unless score @s id = @e[tag=link.boomerang,sort=nearest,limit=1] id run tag @s[tag=self] remove self
 
-execute positioned ^ ^ ^ run effect give @a[tag=!self,dx=0.15,dy=0.15,dz=0.15] minecraft:instant_damage 1 0 true
+execute positioned ^ ^ ^ as @a if score @s id = @e[tag=link.boomerang,sort=nearest,limit=1] id run effect give @a[tag=!self,dx=0.15,dy=0.15,dz=0.15] minecraft:instant_damage 1 0 true
 
-execute as @a if score @s id = @e[tag=link.boomerang,sort=nearest,limit=1] id run tag @s[tag=self] remove self
+#execute as @a if score @s id = @e[tag=link.boomerang,sort=nearest,limit=1] id run tag @s[tag=self] remove self
