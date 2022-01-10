@@ -1,10 +1,5 @@
 summon minecraft:area_effect_cloud ~ ~ ~ {Tags:["direction"]}
 
-execute store result entity @e[tag=direction,limit=1] Rotation[0] float 1.0 run scoreboard players get offsetX temp
-execute store result entity @e[tag=direction,limit=1] Rotation[1] float 1.0 run scoreboard players get offsetY temp
-
-execute as @e[tag=direction] at @s run tp @s ^ ^ ^1
-
 execute store result score #playerX pos run data get entity @s Pos[0] 1000
 execute store result score #playerY pos run data get entity @s Pos[1] 1000
 execute store result score #playerZ pos run data get entity @s Pos[2] 1000
