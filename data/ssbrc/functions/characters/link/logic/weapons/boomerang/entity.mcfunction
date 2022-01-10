@@ -1,11 +1,5 @@
-execute if score @s[scores={id=1}] temp matches 41.. facing entity @p[scores={id=1}] eyes run function ssbrc:characters/link/logic/weapons/boomerang/movement_return
-execute if score @s[scores={id=2}] temp matches 41.. facing entity @p[scores={id=2}] eyes run function ssbrc:characters/link/logic/weapons/boomerang/movement_return
-execute if score @s[scores={id=3}] temp matches 41.. facing entity @p[scores={id=3}] eyes run function ssbrc:characters/link/logic/weapons/boomerang/movement_return
-execute if score @s[scores={id=4}] temp matches 41.. facing entity @p[scores={id=4}] eyes run function ssbrc:characters/link/logic/weapons/boomerang/movement_return
-execute if score @s[scores={id=5}] temp matches 41.. facing entity @p[scores={id=5}] eyes run function ssbrc:characters/link/logic/weapons/boomerang/movement_return
-execute if score @s[scores={id=6}] temp matches 41.. facing entity @p[scores={id=6}] eyes run function ssbrc:characters/link/logic/weapons/boomerang/movement_return
-execute if score @s[scores={id=7}] temp matches 41.. facing entity @p[scores={id=7}] eyes run function ssbrc:characters/link/logic/weapons/boomerang/movement_return
-execute if score @s[scores={id=8}] temp matches 41.. facing entity @p[scores={id=8}] eyes run function ssbrc:characters/link/logic/weapons/boomerang/movement_return
+scoreboard players operation #temp id = @s id
+execute if score @s[scores={id=1}] temp matches 41.. as @a if score @s id = #temp id facing entity @s eyes run function ssbrc:characters/link/logic/weapons/boomerang/movement_return
 
 execute if score @s temp matches 41.. if score @s id = @p[dx=0.5,dy=0.5,dz=0.5] id run give @p[dx=0.5,dy=0.5,dz=0.5] minecraft:carrot_on_a_stick{link.ability:1,CustomModelData:-4,Unbreakable:1,display:{Name:'[{"text":"Boomerang","italic":false,"color":"gold"}]'},HideFlags:127} 1
 execute if score @s temp matches 41.. if score @s id = @p[dx=0.5,dy=0.5,dz=0.5] id run kill @s
