@@ -1,9 +1,9 @@
 # Weapons
-execute as @s[tag=snake.psg1,tag=!snake.psg1R,scores={useAbility=1..},nbt={SelectedItem:{tag:{PSG1:1}}}] run function ssbrc:characters/snake/logic/weapons/psg1/check
-execute as @s[tag=snake.famas,scores={useAbility=1..},nbt={SelectedItem:{tag:{Famas:1}}}] at @s run function ssbrc:characters/snake/logic/weapons/famas/check
-execute as @s[tag=snake.s1000,tag=!snake.s1000R,scores={useAbility=1..},nbt={SelectedItem:{tag:{S1000:1}}}] at @s run function ssbrc:characters/snake/logic/weapons/s1000/check
-execute as @s[tag=snake.socom,tag=!snake.socomR,scores={useAbility=1..},nbt={SelectedItem:{tag:{Socom:1}}}] at @s run function ssbrc:characters/snake/logic/weapons/socom/check
-execute as @s[tag=snake.sg,scores={useAbility=1..},nbt={SelectedItem:{tag:{SG:1}}}] at @s run function ssbrc:characters/snake/logic/weapons/smoke_grenade/check
+execute as @s[tag=!snake.psg1R,scores={useAbility=1..},nbt={SelectedItem:{tag:{PSG1:1}}}] run function ssbrc:characters/snake/logic/weapons/psg1/check
+execute as @s[scores={useAbility=1..},nbt={SelectedItem:{tag:{Famas:1}}}] at @s run function ssbrc:characters/snake/logic/weapons/famas/check
+execute as @s[tag=!snake.s1000R,scores={useAbility=1..},nbt={SelectedItem:{tag:{S1000:1}}}] at @s run function ssbrc:characters/snake/logic/weapons/s1000/check
+execute as @s[tag=!snake.socomR,scores={useAbility=1..},nbt={SelectedItem:{tag:{Socom:1}}}] at @s run function ssbrc:characters/snake/logic/weapons/socom/check
+execute as @s[scores={useAbility=1..},nbt={SelectedItem:{tag:{SG:1}}}] at @s run function ssbrc:characters/snake/logic/weapons/smoke_grenade/check
 
 scoreboard players set @s useAbility 0
 
@@ -14,15 +14,15 @@ execute as @a[tag=snake,scores={timer=1200..}] run tellraw @s [{"text":"Otacon",
 
 # Ammo HUD
 title @s actionbar ""
-title @s[tag=snake.psg1,nbt={SelectedItem:{tag:{PSG1:1}}},scores={snake.psg1M=-1..}] actionbar [{"score":{"name":"@s","objective":"snake.psg1A"},"color":"green"},{"text":" | ","color":"white"},{"score":{"name":"@s","objective":"snake.psg1M"},"color":"dark_green"}]
-title @s[tag=snake.psg1,nbt={SelectedItem:{tag:{PSG1:1}}},scores={snake.psg1M=..0,snake.psg1A=..0}] actionbar {"text":"Out of Ammo!","color":"red"}
-title @s[tag=snake.famas,nbt={SelectedItem:{tag:{Famas:1}}},scores={snake.famasM=-1..}] actionbar [{"score":{"name":"@s","objective":"snake.famasA"},"color":"green"},{"text":" | ","color":"white"},{"score":{"name":"@s","objective":"snake.famasM"},"color":"dark_green"}]
-title @s[tag=snake.famas,nbt={SelectedItem:{tag:{Famas:1}}},scores={snake.famasM=..0,snake.famasA=..0}] actionbar {"text":"Out of Ammo!","color":"red"}
-title @s[tag=snake.s1000,nbt={SelectedItem:{tag:{S1000:1}}},scores={snake.s1000M=-1..}] actionbar [{"score":{"name":"@s","objective":"snake.s1000A"},"color":"green"},{"text":" | ","color":"white"},{"score":{"name":"@s","objective":"snake.s1000M"},"color":"dark_green"}]
-title @s[tag=snake.s1000,nbt={SelectedItem:{tag:{S1000:1}}},scores={snake.s1000M=..0,snake.s1000A=..0}] actionbar {"text":"Out of Ammo!","color":"red"}
-title @s[tag=snake.socom,nbt={SelectedItem:{tag:{Socom:1}}},scores={snake.socomM=-1..}] actionbar [{"score":{"name":"@s","objective":"snake.socomA"},"color":"green"},{"text":" | ","color":"white"},{"score":{"name":"@s","objective":"snake.socomM"},"color":"dark_green"}]
-title @s[tag=snake.socom,nbt={SelectedItem:{tag:{Socom:1}}},scores={snake.socomM=..0,snake.socomA=..0}] actionbar {"text":"Out of Ammo!","color":"red"}
-title @s[tag=snake.sg,nbt={SelectedItem:{tag:{SG:1}}},scores={snake.sgA=0..}] actionbar {"score":{"name":"@s","objective":"snake.sgA"},"color":"green"}
+title @s[nbt={SelectedItem:{tag:{PSG1:1}}},scores={snake.psg1M=-1..}] actionbar [{"score":{"name":"@s","objective":"snake.psg1A"},"color":"green"},{"text":" | ","color":"white"},{"score":{"name":"@s","objective":"snake.psg1M"},"color":"dark_green"}]
+title @s[nbt={SelectedItem:{tag:{PSG1:1}}},scores={snake.psg1M=..0,snake.psg1A=..0}] actionbar {"text":"Out of Ammo!","color":"red"}
+title @s[nbt={SelectedItem:{tag:{Famas:1}}},scores={snake.famasM=-1..}] actionbar [{"score":{"name":"@s","objective":"snake.famasA"},"color":"green"},{"text":" | ","color":"white"},{"score":{"name":"@s","objective":"snake.famasM"},"color":"dark_green"}]
+title @s[nbt={SelectedItem:{tag:{Famas:1}}},scores={snake.famasM=..0,snake.famasA=..0}] actionbar {"text":"Out of Ammo!","color":"red"}
+title @s[nbt={SelectedItem:{tag:{S1000:1}}},scores={snake.s1000M=-1..}] actionbar [{"score":{"name":"@s","objective":"snake.s1000A"},"color":"green"},{"text":" | ","color":"white"},{"score":{"name":"@s","objective":"snake.s1000M"},"color":"dark_green"}]
+title @s[nbt={SelectedItem:{tag:{S1000:1}}},scores={snake.s1000M=..0,snake.s1000A=..0}] actionbar {"text":"Out of Ammo!","color":"red"}
+title @s[nbt={SelectedItem:{tag:{Socom:1}}},scores={snake.socomM=-1..}] actionbar [{"score":{"name":"@s","objective":"snake.socomA"},"color":"green"},{"text":" | ","color":"white"},{"score":{"name":"@s","objective":"snake.socomM"},"color":"dark_green"}]
+title @s[nbt={SelectedItem:{tag:{Socom:1}}},scores={snake.socomM=..0,snake.socomA=..0}] actionbar {"text":"Out of Ammo!","color":"red"}
+title @s[nbt={SelectedItem:{tag:{SG:1}}},scores={snake.sgA=0..}] actionbar {"score":{"name":"@s","objective":"snake.sgA"},"color":"green"}
 
 # Reload
 scoreboard players remove @s[scores={snake.psg1R=1..}] snake.psg1R 1
