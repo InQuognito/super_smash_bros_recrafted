@@ -6,5 +6,5 @@ tag @s remove leaderboard.self
 
 data modify entity @e[tag=leaderboard.1,limit=1] CustomName set from block -484 4 55 Text1
 
-execute as @a[tag=!leaderboard.loaded] run function ssbrc:logic/leaderboard/wins/calculate
+execute as @a[tag=!leaderboard.loaded,scores={stats.wins=1..}] run function ssbrc:logic/leaderboard/wins/calculate
 execute as @r[tag=!leaderboard.loaded,tag=leaderboard.next] run function ssbrc:logic/leaderboard/wins/place_2
