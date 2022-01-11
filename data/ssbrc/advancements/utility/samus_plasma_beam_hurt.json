@@ -1,0 +1,17 @@
+{
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:entity_hurt_player",
+			"conditions": {
+				"damage": {
+					"source_entity": {
+						"nbt": "{Tags:[\"samus.plasmaBeam\"]}"
+					}
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "ssbrc:characters/samus/logic/weapons/plasma_beam/effects"
+	}
+}

@@ -1,4 +1,4 @@
-execute unless block ^ ^ ^0.2 #ssbrc:passthrough run scoreboard players set @s temp 30
+execute unless block ^ ^ ^0.1 #ssbrc:passthrough run scoreboard players set @s temp 30
 
 scoreboard players operation #temp id = @s id
 execute if score @s temp matches 20.. as @a if score @s id = #temp id facing entity @s eyes run function ssbrc:characters/link/logic/weapons/boomerang/movement_return
