@@ -25,7 +25,6 @@ scoreboard objectives remove pos
 #scoreboard objectives remove random
 scoreboard objectives remove reset
 scoreboard objectives remove respawn
-scoreboard objectives remove samus.energy
 scoreboard objectives remove selectFavorite
 scoreboard objectives remove snake.apm
 scoreboard objectives remove snake.capacity

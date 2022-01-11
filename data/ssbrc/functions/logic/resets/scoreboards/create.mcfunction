@@ -27,7 +27,6 @@ scoreboard objectives add pos dummy
 scoreboard objectives add random dummy
 scoreboard objectives add reset dummy
 scoreboard objectives add respawn dummy
-scoreboard objectives add samus.energy dummy
 scoreboard objectives add selectFavorite minecraft.used:minecraft.carrot_on_a_stick
 scoreboard objectives add snake.apm dummy
 scoreboard objectives add snake.capacity dummy
