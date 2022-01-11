@@ -1,8 +1,15 @@
-summon minecraft:area_effect_cloud ^ ^ ^ {Tags:["link.swordBeam","temp.spawn"],Age:-2147483648,Duration:-1,WaitTime:-2147483648}
-data modify entity @e[tag=temp.spawn,limit=1] Owner set from entity @s UUID
+execute positioned 0.0 0.0 0.0 run summon minecraft:marker ^ ^ ^1 {Tags:["direction"]}
 
-tp @e[tag=link.swordBeam,tag=!adjusted] ^ ^-0.3 ^1.5 ~ ~
-function ssbrc:characters/link/logic/weapons/sword_beam/id
+summon minecraft:arrow ^-0.50 ^ ^1 {damage:0.3,Tags:["link.swordBeam","projectile"],NoGravity:1b}
+summon minecraft:arrow ^-0.25 ^ ^1 {damage:0.3,Tags:["link.swordBeam","projectile"],NoGravity:1b}
+summon minecraft:arrow ^ ^ ^1 {damage:0.3,Tags:["link.swordBeam","projectile"],NoGravity:1b}
+summon minecraft:arrow ^0.25 ^ ^1 {damage:0.3,Tags:["link.swordBeam","projectile"],NoGravity:1b}
+summon minecraft:arrow ^0.50 ^ ^1 {damage:0.3,Tags:["link.swordBeam","projectile"],NoGravity:1b}
 
-tag @e[tag=link.swordBeam,tag=!adjusted] add adjusted
+execute as @e[tag=projectile] run data modify entity @s Owner set from entity @p UUID
+execute as @e[tag=projectile] run data modify entity @s Motion set from entity @e[tag=direction,limit=1] Pos
+
+tag @e[tag=projectile] remove projectile
+kill @e[tag=direction]
+
 scoreboard players set @s cooldown.1 20
