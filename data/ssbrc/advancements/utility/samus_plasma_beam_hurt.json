@@ -4,8 +4,10 @@
 			"trigger": "minecraft:entity_hurt_player",
 			"conditions": {
 				"damage": {
-					"source_entity": {
-						"nbt": "{Tags:[\"samus.plasmaBeam\"]}"
+					"type": {
+						"direct_entity": {
+							"nbt": "{Tags:[\"samus.plasmaBeam\"]}"
+						}
 					}
 				}
 			}
