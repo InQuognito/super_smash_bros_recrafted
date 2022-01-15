@@ -161,5 +161,5 @@ execute if score $wilyCastle map matches 1 if score result_music random matches 
 execute if score $wilyCastle map matches 1 if score result_music random matches 0 if score $music options matches 0 run schedule function ssbrc:logic/music/loop 2200t replace
 execute if score $wilyCastle map matches 1 if score result_music random matches 0 if score $music options matches 1 run schedule function ssbrc:logic/music/start 2200t replace
 execute if score $wilyCastle map matches 1 if score result_music random matches 1 as @a at @s run playsound ssbrc:mega_man_4_medley music @s
-execute if score $wilyCastle map matches 1 if score result_music random matches 1 if score $music options matches 0 run schedule function ssbrc:logic/music/loop 2860t replace
-execute if score $wilyCastle map matches 1 if score result_music random matches 1 if score $music options matches 1 run schedule function ssbrc:logic/music/start 2860t replace
+execute if score $wilyCastle map matches 1 if score result_music random matches 1 if score $music options matches 0 run schedule function ssbrc:logic/music/loop 2880t replace
+execute if score $wilyCastle map matches 1 if score result_music random matches 1 if score $music options matches 1 run schedule function ssbrc:logic/music/start 2880t replace
