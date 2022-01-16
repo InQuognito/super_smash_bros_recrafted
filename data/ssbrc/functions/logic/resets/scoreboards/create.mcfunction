@@ -1,6 +1,6 @@
 function ssbrc:logic/resets/scoreboards/stats
 
-scoreboard objectives add characterSelect trigger
+scoreboard objectives add menu trigger
 scoreboard objectives add charge.1 dummy
 scoreboard objectives add charge.2 dummy
 scoreboard objectives add charge.3 dummy

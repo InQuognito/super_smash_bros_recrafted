@@ -2,7 +2,7 @@ kill @e[type=!minecraft:player]
 clear @a
 
 scoreboard players reset @a useAbility
-scoreboard players reset @a characterSelect
+scoreboard players reset @a menu
 
 summon minecraft:glow_item_frame -0.5 5.0 14.5 {Fixed:1b,Facing:3b,Item:{id:"minecraft:filled_map",Count:1b,tag:{map:24}}}
 summon minecraft:glow_item_frame 1.5 5.0 14.5 {Fixed:1b,Facing:3b,Item:{id:"minecraft:filled_map",Count:1b,tag:{map:25}}}
