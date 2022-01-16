@@ -14,6 +14,8 @@ effect give @a minecraft:resistance 1000000 255 true
 effect give @a minecraft:saturation 1000000 255 true
 effect give @a minecraft:speed 1000000 1 true
 
+function ssbrc:logic/tick/triggers/character_select
+
 # Favorites
 execute as @a[tag=!alteredbeast,predicate=!ssbrc:sneaking,nbt={SelectedItem:{tag:{favorite.alteredbeast:1}}},scores={selectFavorite=1..}] run function ssbrc:characters/alteredbeast/menu/select_character
 execute as @a[tag=!alucard,predicate=!ssbrc:sneaking,nbt={SelectedItem:{tag:{favorite.alucard:1}}},scores={selectFavorite=1..}] run function ssbrc:characters/alucard/menu/select_character

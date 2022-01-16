@@ -1,5 +1,6 @@
 scoreboard players reset * map
 scoreboard players set $towerOfFate map 1
+scoreboard players set $songCount map 2
 scoreboard players set #mapPicked mapVote 1
 forceload add 5984 480 6015 527
 

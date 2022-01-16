@@ -1,5 +1,6 @@
 scoreboard players reset * map
-schedule function ssbrc:maps/g/great_bay/on 3s replace
+scoreboard players set $greatBay map 1
+scoreboard players set $songCount map 2
 scoreboard players set #mapPicked mapVote 1
 forceload add 2624 32 2703 127
 

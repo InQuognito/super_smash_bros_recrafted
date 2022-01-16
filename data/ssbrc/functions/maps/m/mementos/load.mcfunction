@@ -1,5 +1,6 @@
 scoreboard players reset * map
 scoreboard players set $mementos map 1
+scoreboard players set $songCount map 2
 scoreboard players set #mapPicked mapVote 1
 forceload add -1248 800 -1105 1023
 

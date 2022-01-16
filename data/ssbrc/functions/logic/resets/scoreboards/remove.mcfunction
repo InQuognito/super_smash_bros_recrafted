@@ -1,3 +1,4 @@
+scoreboard objectives remove characterSelect
 scoreboard objectives remove charge.1
 scoreboard objectives remove charge.2
 scoreboard objectives remove charge.3
