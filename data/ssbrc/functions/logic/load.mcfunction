@@ -22,12 +22,13 @@ forceload add -544 32 -497 79
 forceload add 0 96 95 175
 forceload add -64 -208 -1 -145
 
-schedule function ssbrc:logic/resets/lobby 1s replace
-
 time set noon
 weather clear
 
 setworldspawn -521 5 55
+
+function ssbrc:logic/timer
+schedule function ssbrc:logic/resets/lobby 1s replace
 
 ###########################################################
 # REMOVE - UNLOCKS (MOST) COSTUMES ON RELOAD - DEBUG ONLY #

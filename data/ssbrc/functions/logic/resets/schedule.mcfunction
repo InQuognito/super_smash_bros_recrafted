@@ -1,6 +1,5 @@
 schedule clear ssbrc:characters/steve/logic/spawn_item
 schedule clear ssbrc:logic/music/loop
-schedule clear ssbrc:logic/pre_game/map_voting/timer
 schedule clear ssbrc:logic/timer
 
 # Maps
