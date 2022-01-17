@@ -26,6 +26,9 @@ execute if entity @s[tag=sonic] run title @a subtitle [{"text":"Selected Charact
 execute if entity @s[tag=steve] run title @a subtitle [{"text":"Selected Character: ","color":"gold"},{"text":"Steve","bold":true,"color":"yellow"}]
 
 title @a title [{"selector":"@s","bold":true,"color":"yellow"},{"text":" wins!","color":"gold"}]
+
+execute if score $gameMode options matches 1 run tellraw @a [{"text":"Match Duration: ","color":"gold"},{"score":{"name":"$gameTime","objective":"timer"},"color":"yellow"},{"text":"s","color":"gold"}]
+
 tag @s add winner
 
 function ssbrc:logic/post_game/update_stats
