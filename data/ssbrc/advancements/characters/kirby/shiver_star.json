@@ -6,15 +6,29 @@
 		},
 		"title": {
 			"text": "Shiver Star",
-			"color": "dark_red",
+			"color": "light_purple",
 			"bold": false,
 			"italic": false
 		},
 		"description": {
-			"text": "Explored 2 icy regions.",
-			"color": "dark_red",
+			"text": "Explored ",
+			"color": "light_gray",
 			"bold": false,
-			"italic": false
+			"italic": false,
+			"extra": [
+				{
+					"text": "2",
+					"color": "blue",
+					"bold": false,
+					"italic": false
+				},
+				{
+					"text": " icy regions.",
+					"color": "light_gray",
+					"bold": false,
+					"italic": false
+				}
+			]
 		},
 		"frame": "task",
 		"show_toast": true,
