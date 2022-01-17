@@ -2,17 +2,12 @@
 execute as @a[tag=!loaded] run function ssbrc:logic/resets/players
 tag @a add loaded
 
-# Character select room
-execute as @a[x=-529.5,y=5.0,z=61.5,distance=..1] run function ssbrc:logic/pre_game/lobby_areas/character_room
+# Teleport - Character Select
+execute as @a[x=-529.5,y=5.0,z=61.5,distance=..1] run function ssbrc:logic/pre_game/character_select/goto
 
-# Credits
+# Teleport - Credits
 tp @a[x=-529.5,y=5.0,z=49.5,distance=..1] -29.5 5.0 -163.5 180.0 0.0
 tp @a[x=-29.5,y=6.0,z=-159.5,distance=..1] -520.5 5.0 55.5 90.0 0.0
-
-effect give @a minecraft:regeneration 1000000 255 true
-effect give @a minecraft:resistance 1000000 255 true
-effect give @a minecraft:saturation 1000000 255 true
-effect give @a minecraft:speed 1000000 3 true
 
 execute as @a run function ssbrc:logic/tick/triggers/menu
 

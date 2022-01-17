@@ -62,8 +62,9 @@ team join temp @a[team=!spectator]
 execute store result score #playersAll temp run team list temp
 team empty temp
 
-scoreboard players set $mapVote timer 26
-function ssbrc:logic/pre_game/map_voting/timer
+scoreboard players set $gameStage temp 2
+scoreboard players set $countdown timer 30
+
 tp @a 3.5 3.0 21.5 0.0 0.0
 
 team join waiting @a[team=!spectator]

@@ -81,7 +81,8 @@ summon minecraft:armor_stand 78.5 6.0 131.5 {Tags:["lobbyStand","meowth","meowth
 summon minecraft:armor_stand 78.5 6.0 130.5 {Tags:["lobbyStand","arbok","arbok.default"],Rotation:[67.5f,0f]}
 summon minecraft:armor_stand 78.5 6.0 132.5 {Tags:["lobbyStand","wobbuffet","wobbuffet.default"],Rotation:[112.5f,0f]}
 
-summon minecraft:area_effect_cloud 35.5 6.5 159.5 {CustomName:'{"text":"Spectate","color":"white"}',CustomNameVisible:1b,Age:-2147483648,Duration:-1,WaitTime:-2147483648}
+summon minecraft:area_effect_cloud 35.5 6.25 152.5 {CustomName:'{"text":"Spectate","color":"white"}',CustomNameVisible:1b,Age:-2147483648,Duration:-1,WaitTime:-2147483648}
+summon minecraft:area_effect_cloud 72.5 6.25 115.5 {CustomName:'{"text":"Spectate","color":"white"}',CustomNameVisible:1b,Age:-2147483648,Duration:-1,WaitTime:-2147483648}
 
 execute as @e[tag=lobbyStand] run data merge entity @s {Invulnerable:1b,NoBasePlate:1b,NoGravity:1b,DisabledSlots:4144959}
 
