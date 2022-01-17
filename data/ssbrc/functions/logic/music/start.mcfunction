@@ -1,5 +1,5 @@
-execute unless score $start map matches 1 run scoreboard players operation max random = $songCount map
-execute unless score $start map matches 1 run function ssbrc:math/rng/lcg_music
+scoreboard players operation max random = $songCount map
+function ssbrc:math/rng/lcg_music
 
 execute if score $battlefield map matches 1 if score result_music random matches 0 run tellraw @a [{"text":"Now Playing: ","bold":true,"color":"gold"},{"text":"Aquos Arena","color":"yellow"}]
 execute if score $battlefield map matches 1 if score result_music random matches 0 run function ssbrc:logic/music/loop
