@@ -14,10 +14,7 @@
 			"text": "No amount of strength could possibly move it.",
 			"color": "gray",
 			"bold": false,
-			"italic": false,
-			"extra": [
-
-            ]
+			"italic": false
 		},
 		"frame": "goal",
 		"show_toast": true,
