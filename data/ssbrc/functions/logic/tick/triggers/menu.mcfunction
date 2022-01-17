@@ -124,5 +124,5 @@ execute if score @s[tag=!mapRoom,tag=!shovelknight] menu matches 2001 run functi
 execute if score @s[tag=!mapRoom,tag=!shovelknight] menu matches 2002 run function ssbrc:characters/shovelknight/menu/favorite
 execute if score @s[tag=!mapRoom,tag=!shovelknight] menu matches 2003 run function ssbrc:characters/shovelknight/menu/skin_options
 
-scoreboard players reset @a menu
-scoreboard players enable @a menu
+scoreboard players reset @s menu
+scoreboard players enable @s menu
