@@ -72,4 +72,4 @@ effect give @a[team=!spectator] minecraft:glowing 1000000 255 true
 
 tag @a add mapRoom
 
-tellraw @a ""
+title @a actionbar ""
