@@ -14,3 +14,5 @@ tag @s add characterPicked
 
 team leave @s
 effect clear @s minecraft:glowing
+
+function ssbrc:logic/pre_game/character_select/check_participation
