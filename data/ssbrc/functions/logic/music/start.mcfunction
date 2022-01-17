@@ -157,10 +157,10 @@ execute if score $spearPillar map matches 1 if score result_music random matches
 execute if score $spearPillar map matches 1 if score result_music random matches 1 run tellraw @a [{"text":"Now Playing: ","bold":true,"color":"gold"},{"text":"Team Galactic Battle","color":"yellow"}]
 execute if score $spearPillar map matches 1 if score result_music random matches 1 run schedule function ssbrc:logic/music/loop 300t replace
 
-execute if score $spearPillar map matches 1 if score result_music random matches 0 run tellraw @a [{"text":"Now Playing: ","bold":true,"color":"gold"},{"text":"Hitting Close to Home","color":"yellow"}]
-execute if score $spearPillar map matches 1 if score result_music random matches 0 run function ssbrc:logic/music/loop
-execute if score $spearPillar map matches 1 if score result_music random matches 1 run tellraw @a [{"text":"Now Playing: ","bold":true,"color":"gold"},{"text":"The Fateful Return","color":"yellow"}]
-execute if score $spearPillar map matches 1 if score result_music random matches 1 run function ssbrc:logic/music/loop
+execute if score $towerOfFate map matches 1 if score result_music random matches 0 run tellraw @a [{"text":"Now Playing: ","bold":true,"color":"gold"},{"text":"Hitting Close to Home","color":"yellow"}]
+execute if score $towerOfFate map matches 1 if score result_music random matches 0 run function ssbrc:logic/music/loop
+execute if score $towerOfFate map matches 1 if score result_music random matches 1 run tellraw @a [{"text":"Now Playing: ","bold":true,"color":"gold"},{"text":"The Fateful Return","color":"yellow"}]
+execute if score $towerOfFate map matches 1 if score result_music random matches 1 run function ssbrc:logic/music/loop
 
 execute if score $wilyCastle map matches 1 if score result_music random matches 0 as @a at @s run playsound ssbrc:mega_man_2_medley_intro music @s
 execute if score $wilyCastle map matches 1 if score result_music random matches 0 run tellraw @a [{"text":"Now Playing: ","bold":true,"color":"gold"},{"text":"Mega Man 2 Medley","color":"yellow"}]
