@@ -6,7 +6,7 @@ tellraw @s[tag=ness.default] [{"text":"Costume: ","color":"yellow"},{"text":"Def
 tellraw @s[tag=ness.moonside] [{"text":"Costume: ","color":"yellow"},{"text":"Moonside","color":"aqua"}]
 tellraw @s[tag=ness.pajamas] [{"text":"Costume: ","color":"yellow"},{"text":"Pajamas","color":"dark_aqua"}]
 
-function ssbrc:logic/resets/remove_tags
+function ssbrc:logic/resets/tags/characters
 tag @s add ness
 
 tag @s add characterPicked

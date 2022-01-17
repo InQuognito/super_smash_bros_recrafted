@@ -4,7 +4,7 @@ tellraw @s [{"text":"You have selected ","color":"white"},{"text":"Ganondorf","c
 
 tellraw @s[tag=ganondorf.default] [{"text":"Costume: ","color":"yellow"},{"text":"Default","color":"black"}]
 
-function ssbrc:logic/resets/remove_tags
+function ssbrc:logic/resets/tags/characters
 tag @s add ganondorf
 
 tag @s add characterPicked

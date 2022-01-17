@@ -6,7 +6,7 @@ tellraw @s[tag=samus.default] [{"text":"Costume: ","color":"yellow"},{"text":"De
 tellraw @s[tag=samus.gravity] [{"text":"Costume: ","color":"yellow"},{"text":"Gravity Suit","color":"aqua"}]
 tellraw @s[tag=samus.phazon] [{"text":"Costume: ","color":"yellow"},{"text":"Phazon Suit","color":"red"}]
 
-function ssbrc:logic/resets/remove_tags
+function ssbrc:logic/resets/tags/characters
 tag @s add samus
 
 tag @s add characterPicked

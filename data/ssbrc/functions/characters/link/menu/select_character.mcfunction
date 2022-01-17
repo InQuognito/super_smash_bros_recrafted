@@ -7,7 +7,7 @@ tellraw @s[tag=link.dark] [{"text":"Costume: ","color":"yellow"},{"text":"Dark L
 tellraw @s[tag=link.goron] [{"text":"Costume: ","color":"yellow"},{"text":"Goron Tunic","color":"red"}]
 tellraw @s[tag=link.zora] [{"text":"Costume: ","color":"yellow"},{"text":"Zora Tunic","color":"blue"}]
 
-function ssbrc:logic/resets/remove_tags
+function ssbrc:logic/resets/tags/characters
 tag @s add link
 
 tag @s add characterPicked

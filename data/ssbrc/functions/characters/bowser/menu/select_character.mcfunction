@@ -4,7 +4,7 @@ tellraw @s [{"text":"You have selected ","color":"white"},{"text":"Bowser","colo
 
 tellraw @s[tag=bowser.default] [{"text":"Costume: ","color":"yellow"},{"text":"Default","color":"green"}]
 
-function ssbrc:logic/resets/remove_tags
+function ssbrc:logic/resets/tags/characters
 tag @s add bowser
 
 tag @s add characterPicked

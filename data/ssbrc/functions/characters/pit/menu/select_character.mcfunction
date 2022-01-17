@@ -4,7 +4,7 @@ tellraw @s [{"text":"You have selected ","color":"white"},{"text":"Pit","color":
 
 tellraw @s[tag=pit.default] [{"text":"Costume: ","color":"yellow"},{"text":"Default","color":"white"}]
 
-function ssbrc:logic/resets/remove_tags
+function ssbrc:logic/resets/tags/characters
 tag @s add pit
 
 tag @s add characterPicked

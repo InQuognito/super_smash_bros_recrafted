@@ -5,7 +5,7 @@ tellraw @s [{"text":"You have selected ","color":"white"},{"text":"Charizard","c
 tellraw @s[tag=charizard.default] [{"text":"Costume: ","color":"yellow"},{"text":"Default","color":"gold"}]
 tellraw @s[tag=charizard.shiny] [{"text":"Costume: ","color":"yellow"},{"text":"Shiny","color":"dark_gray"}]
 
-function ssbrc:logic/resets/remove_tags
+function ssbrc:logic/resets/tags/characters
 tag @s[tag=!charizard] add charizard
 tag @s add characterPicked
 

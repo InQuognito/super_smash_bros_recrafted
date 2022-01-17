@@ -4,7 +4,7 @@ tellraw @s [{"text":"You have selected ","color":"white"},{"text":"Mario","color
 
 tellraw @s[tag=mario.default] [{"text":"Costume: ","color":"yellow"},{"text":"Default","color":"red"}]
 
-function ssbrc:logic/resets/remove_tags
+function ssbrc:logic/resets/tags/characters
 tag @s add mario
 
 tag @s add characterPicked

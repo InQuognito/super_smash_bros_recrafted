@@ -4,7 +4,7 @@ tellraw @s [{"text":"You have selected ","color":"white"},{"text":"King K. Rool"
 
 tellraw @s[tag=kingkrool.default] [{"text":"Costume: ","color":"yellow"},{"text":"Default","color":"dark_green"}]
 
-function ssbrc:logic/resets/remove_tags
+function ssbrc:logic/resets/tags/characters
 tag @s add kingkrool
 
 tag @s add characterPicked

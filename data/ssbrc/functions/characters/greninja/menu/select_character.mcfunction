@@ -5,7 +5,7 @@ tellraw @s [{"text":"You have selected ","color":"white"},{"text":"Greninja","co
 tellraw @s[tag=greninja.default] [{"text":"Costume: ","color":"yellow"},{"text":"Default","color":"blue"}]
 tellraw @s[tag=greninja.shiny] [{"text":"Costume: ","color":"yellow"},{"text":"Shiny","color":"dark_gray"}]
 
-function ssbrc:logic/resets/remove_tags
+function ssbrc:logic/resets/tags/characters
 tag @s add greninja
 
 tag @s add characterPicked

@@ -4,7 +4,7 @@ tellraw @s [{"text":"You have selected ","color":"white"},{"text":"Shovel Knight
 
 tellraw @s[tag=shovelknight.default] [{"text":"Costume: ","color":"yellow"},{"text":"Default","color":"dark_aqua"}]
 
-function ssbrc:logic/resets/remove_tags
+function ssbrc:logic/resets/tags/characters
 tag @s add shovelknight
 
 tag @s add characterPicked
