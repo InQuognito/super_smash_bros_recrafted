@@ -63,7 +63,7 @@ execute store result score #playersAll temp run team list temp
 team empty temp
 
 scoreboard players set $gameStage temp 2
-scoreboard players set $countdown timer 30
+scoreboard players set $countdown timer 31
 
 tp @a 3.5 3.0 21.5 0.0 0.0
 
