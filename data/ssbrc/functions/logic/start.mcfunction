@@ -27,9 +27,9 @@ tag @e[tag=tpDest] remove tpDest
 
 execute if score $gameMode options matches 2 run scoreboard players operation $gameTime timer = $timeLimit options
 execute if score $gameMode options matches 2 store result bossbar minecraft:timer value run scoreboard players get $gameTime timer
-scoreboard players set $start map 1
 
-scoreboard players reset $startCountdown timer
+scoreboard players set $gameStage temp 4
+scoreboard players reset $countdown timer
 
 scoreboard players set @a respawn 0
 
