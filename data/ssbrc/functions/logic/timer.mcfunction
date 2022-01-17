@@ -11,11 +11,11 @@ execute if score $gameStage temp matches 2 if score #votesLocked temp matches 1 
 execute if score $gameStage temp matches 2 if score #votesLocked temp matches 1 run function ssbrc:logic/pre_game/map_voting/pick_map
 
 # Start Countdown
-execute if score $countdown timer matches 3 as @a at @s run playsound ssbrc:smash_ultimate_countdown voice @s
-execute if score $countdown timer matches 3 run title @a title {"text":"3","color":"dark_red"}
-execute if score $countdown timer matches 2 run title @a title {"text":"2","color":"red"}
-execute if score $countdown timer matches 1 run title @a title {"text":"1","color":"gold"}
-execute if score $countdown timer matches 0 run function ssbrc:logic/start
+execute if score $gameStage temp matches 3 if score $countdown timer matches 3 as @a at @s run playsound ssbrc:smash_ultimate_countdown voice @s
+execute if score $gameStage temp matches 3 if score $countdown timer matches 3 run title @a title {"score":{"name":"$countdown","objective":"timer"},"color":"dark_red"}
+execute if score $gameStage temp matches 3 if score $countdown timer matches 2 run title @a title {"score":{"name":"$countdown","objective":"timer"},"color":"red"}
+execute if score $gameStage temp matches 3 if score $countdown timer matches 1 run title @a title {"score":{"name":"$countdown","objective":"timer"},"color":"gold"}
+execute if score $gameStage temp matches 3 if score $countdown timer matches 0 run function ssbrc:logic/start
 
 # Game Time
 execute if score $start map matches 1 if score $gameMode options matches 1 run scoreboard players add $gameTime timer 1
