@@ -1,0 +1,32 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:barrier",
+			"nbt": "{CustomModelData:700}"
+		},
+		"title": {
+			"text": "Shiver Star",
+			"color": "dark_red",
+			"bold": false,
+			"italic": false
+		},
+		"description": {
+			"text": "Explored 2 icy regions.",
+			"color": "dark_red",
+			"bold": false,
+			"italic": false
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true
+	},
+	"parent": "ssbrc:characters/kirby/novice",
+	"criteria": {
+		"impossible": {
+			"trigger": "minecraft:impossible"
+		}
+	},
+	"rewards": {
+		"function": "ssbrc:advancements/kirby/shiver_star"
+	}
+}
