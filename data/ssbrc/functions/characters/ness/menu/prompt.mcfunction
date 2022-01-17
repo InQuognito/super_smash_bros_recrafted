@@ -4,5 +4,5 @@ tellraw @s [{"text":"=== ","color":"white"},{"text":"Ness","color":"dark_purple"
 
 function ssbrc:logic/resets/tags/characters
 
-team leave @s
-effect clear @s minecraft:glowing
+team join waiting @s
+effect give @s minecraft:glowing 1000000 255 true
