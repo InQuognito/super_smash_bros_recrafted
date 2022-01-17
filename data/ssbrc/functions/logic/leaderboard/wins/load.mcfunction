@@ -14,6 +14,8 @@ summon minecraft:area_effect_cloud -507.5 5.75 51.5 {Tags:["leaderboard.counter"
 
 summon minecraft:area_effect_cloud -507.5 5.25 51.5 {CustomName:'{"text":"Click to Toggle","bold":false,"color":"gold"}',CustomNameVisible:1b,Age:-2147483648,Duration:-1,WaitTime:-2147483648}
 
+setblock -484 4 55 minecraft:air replace
+
 tag @a remove leaderboard.loaded
 execute as @a[tag=!leaderboard.loaded,scores={stats.wins=1..}] run function ssbrc:logic/leaderboard/wins/calculate
 execute as @r[tag=!leaderboard.loaded,tag=leaderboard.next] run function ssbrc:logic/leaderboard/wins/place_1

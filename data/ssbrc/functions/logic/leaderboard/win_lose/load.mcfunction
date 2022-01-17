@@ -16,6 +16,8 @@ execute as @a run scoreboard players operation @s stats.wL = @s stats.wins
 execute as @a run scoreboard players operation @s stats.wL *= #100 integers
 execute as @a run scoreboard players operation @s stats.wL /= @s stats.gP
 
+setblock -484 4 55 minecraft:air replace
+
 tag @a remove leaderboard.loaded
 execute as @a[tag=!leaderboard.loaded,scores={stats.wL=1..}] run function ssbrc:logic/leaderboard/win_lose/calculate
 execute as @r[tag=!leaderboard.loaded,tag=leaderboard.next] run function ssbrc:logic/leaderboard/win_lose/place_1
