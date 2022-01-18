@@ -188,16 +188,16 @@ execute if score $miiverse map matches 1 if score result random matches 7 run tp
 execute if score $miiverse map matches 1 if score result random matches 8 run tp @s -682 20 602
 execute if score $miiverse map matches 1 if score result random matches 9 run tp @s -684 20 600
 
-execute if score $mushroomKingdom map matches 1 if score result random matches 0 run tp @s replaceme
-execute if score $mushroomKingdom map matches 1 if score result random matches 1 run tp @s replaceme
-execute if score $mushroomKingdom map matches 1 if score result random matches 2 run tp @s replaceme
-execute if score $mushroomKingdom map matches 1 if score result random matches 3 run tp @s replaceme
-execute if score $mushroomKingdom map matches 1 if score result random matches 4 run tp @s replaceme
-execute if score $mushroomKingdom map matches 1 if score result random matches 5 run tp @s replaceme
-execute if score $mushroomKingdom map matches 1 if score result random matches 6 run tp @s replaceme
-execute if score $mushroomKingdom map matches 1 if score result random matches 7 run tp @s replaceme
-execute if score $mushroomKingdom map matches 1 if score result random matches 8 run tp @s replaceme
-execute if score $mushroomKingdom map matches 1 if score result random matches 9 run tp @s replaceme
+execute if score $mushroomKingdom map matches 1 if score result random matches 0 run tp @s -215 25 -144
+execute if score $mushroomKingdom map matches 1 if score result random matches 1 run tp @s -228 24 -157
+execute if score $mushroomKingdom map matches 1 if score result random matches 2 run tp @s -218 32 -160
+execute if score $mushroomKingdom map matches 1 if score result random matches 3 run tp @s -208 26 -147
+execute if score $mushroomKingdom map matches 1 if score result random matches 4 run tp @s -222 25 -151
+execute if score $mushroomKingdom map matches 1 if score result random matches 5 run tp @s -231 38 -134
+execute if score $mushroomKingdom map matches 1 if score result random matches 6 run tp @s -213 36 -141
+execute if score $mushroomKingdom map matches 1 if score result random matches 7 run tp @s -224 38 -168
+execute if score $mushroomKingdom map matches 1 if score result random matches 8 run tp @s -248 38 -161
+execute if score $mushroomKingdom map matches 1 if score result random matches 9 run tp @s -240 39 -145
 
 execute if score $saturnValley map matches 1 if score result random matches 0 run tp @s -190 14 593
 execute if score $saturnValley map matches 1 if score result random matches 1 run tp @s -198 15 582
