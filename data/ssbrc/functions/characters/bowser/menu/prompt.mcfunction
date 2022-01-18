@@ -6,3 +6,5 @@ function ssbrc:logic/resets/tags/characters
 
 team join waiting @s
 effect give @s minecraft:glowing 1000000 255 true
+
+function ssbrc:logic/pre_game/character_select/check_participation
