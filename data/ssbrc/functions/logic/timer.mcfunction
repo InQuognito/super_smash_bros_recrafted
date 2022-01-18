@@ -1,5 +1,6 @@
 # Goto Map Room Countdown
 execute if score $gameStage temp matches 0..1 if score $countdown timer matches ..90 run title @a actionbar [{"text":"Starting in: ","color":"gold"},{"score":{"name":"$countdown","objective":"timer"},"color":"yellow"},{"text":"s","color":"gold"}]
+execute if score $gameStage temp matches 0..1 if score $countdown timer matches 60 run function ssbrc:logic/pre_game/character_select/check_participation
 execute if score $gameStage temp matches 0..1 if score $countdown timer matches 0 run function ssbrc:logic/pre_game/map_voting/goto
 
 # Map Voting Countdown
