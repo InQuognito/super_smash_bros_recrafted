@@ -283,6 +283,19 @@
 	},
 	{
 		"function": "minecraft:set_nbt",
+		"tag": "{CustomModelData:842}",
+		"conditions": [
+			{
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"nbt": "{Tags:[\"mario\",\"mario.flowerpower\"]}"
+				}
+			}
+		]
+	},
+	{
+		"function": "minecraft:set_nbt",
 		"tag": "{CustomModelData:880}",
 		"conditions": [
 			{

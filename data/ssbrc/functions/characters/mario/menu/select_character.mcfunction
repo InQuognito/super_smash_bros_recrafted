@@ -1,8 +1,9 @@
-tag @s add mario.default
+tag @s[tag=!mario.flowerpower] add mario.default
 
 tellraw @s [{"text":"You have selected ","color":"white"},{"text":"Mario","color":"red"},{"text":"!","color":"white"}]
 
 tellraw @s[tag=mario.default] [{"text":"Costume: ","color":"yellow"},{"text":"Default","color":"red"}]
+tellraw @s[tag=mario.flowerpower] [{"text":"Costume: ","color":"yellow"},{"text":"Flower Power","color":"white"}]
 
 function ssbrc:logic/resets/tags/characters
 tag @s add mario

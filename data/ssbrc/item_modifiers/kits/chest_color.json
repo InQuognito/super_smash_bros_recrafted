@@ -222,6 +222,19 @@
 	},
 	{
 		"function": "minecraft:set_nbt",
+		"tag": "{display:{color:16777215}}",
+		"conditions": [
+			{
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"nbt": "{Tags:[\"mario\",\"mario.flowerpower\"]}"
+				}
+			}
+		]
+	},
+	{
+		"function": "minecraft:set_nbt",
 		"tag": "{display:{color:7584217}}",
 		"conditions": [
 			{
