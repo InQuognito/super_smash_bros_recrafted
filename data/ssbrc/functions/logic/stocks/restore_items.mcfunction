@@ -1,3 +1,4 @@
+# Items
 clear @s[tag=captainfalcon] minecraft:golden_sword
 item replace entity @s[tag=captainfalcon] hotbar.2 with minecraft:golden_sword{Damage:33,AttributeModifiers:[{AttributeName:"generic.attack_damage",Amount:17,Slot:mainhand,Name:"generic.attack_damage",UUID:[I;-121512,40620,123840,-81240]},{AttributeName:"generic.attack_speed",Amount:-3,Slot:mainhand,Name:"generic.attack_speed",UUID:[I;-121512,40720,123840,-81440]},{AttributeName:"generic.movement_speed",Amount:-.05,Slot:mainhand,Name:"generic.movement_speed",UUID:[I;-121512,40820,123840,-81640]}],display:{Name:'[{"text":"Falcon Punch","italic":false,"color":"gold","bold":true}]'},Enchantments:[{id:"fire_aspect",lvl:2},{id:"knockback",lvl:1}],HideFlags:127} 1
 
@@ -59,9 +60,9 @@ clear @s[tag=captainfalcon] minecraft:arrow
 give @s[tag=captainfalcon] minecraft:arrow 5
 give @s[tag=charizard] minecraft:arrow 4
 give @s[tag=fox] minecraft:arrow 4
+give @s[tag=link] minecraft:arrow 5
 
-
-
+# Effects
 effect give @s minecraft:saturation 1000000 255 true
 
 execute unless score $blackout temp matches 1 run effect give @s[tag=!snake] minecraft:glowing 1000000 255 true

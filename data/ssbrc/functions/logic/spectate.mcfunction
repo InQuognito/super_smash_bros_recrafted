@@ -4,3 +4,5 @@ team join spectator @s[team=!spectator]
 tag @s add characterPicked
 
 effect clear @s minecraft:glowing
+
+function ssbrc:logic/pre_game/character_select/check_participation

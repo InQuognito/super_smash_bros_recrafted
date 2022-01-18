@@ -70,6 +70,7 @@ tp @a 3.5 3.0 21.5 0.0 0.0
 team join waiting @a[team=!spectator]
 effect give @a[team=!spectator] minecraft:glowing 1000000 255 true
 
+tag @a remove characterSelect
 tag @a add mapRoom
 
 title @a actionbar ""
