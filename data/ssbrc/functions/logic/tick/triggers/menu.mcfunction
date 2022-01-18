@@ -92,7 +92,7 @@ execute if score @s[tag=!mapRoom,tag=!samus] menu matches 1421 run function ssbr
 execute if score @s[tag=!mapRoom,tag=!samus] menu matches 1422 run function ssbrc:characters/samus/menu/favorite
 execute if score @s[tag=!mapRoom,tag=!samus] menu matches 1423 run function ssbrc:characters/samus/menu/skin_options
 
-execute if score @s[tag=!mapRoom,tag=!snake] menu matches 1520 run function ssbrc:characters/snake/menu/select_character
+execute if score @s[tag=!mapRoom,tag=!snake] menu matches 1520 run function ssbrc:characters/snake/menu/loadout/prompt
 execute if score @s[tag=!mapRoom,tag=!snake] menu matches 1521 run function ssbrc:characters/snake/menu/skin_options
 execute if score @s[tag=!mapRoom,tag=!snake] menu matches 1522 run function ssbrc:characters/snake/menu/favorite
 execute if score @s[tag=!mapRoom,tag=!snake] menu matches 1523 run function ssbrc:characters/snake/menu/skin_options
