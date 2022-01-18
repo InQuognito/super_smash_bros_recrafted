@@ -4,6 +4,7 @@ schedule clear ssbrc:logic/timer
 
 # Maps
 schedule clear ssbrc:maps/b/battlefield/load
+schedule clear ssbrc:maps/b/bowsers_castle/load
 schedule clear ssbrc:maps/c/castle_siege/load
 schedule clear ssbrc:maps/d/draculas_castle/load
 schedule clear ssbrc:maps/d/dream_land/load

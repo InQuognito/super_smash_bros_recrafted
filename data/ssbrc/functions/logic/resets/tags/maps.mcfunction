@@ -1,4 +1,5 @@
 tag @s remove battlefield
+tag @s remove bowsersCastle
 tag @s remove castleSiege
 tag @s remove draculasCastle
 tag @s remove dreamLand

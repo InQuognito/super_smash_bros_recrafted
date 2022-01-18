@@ -12,6 +12,17 @@ execute if score $battlefield map matches 1 if score result random matches 7 run
 execute if score $battlefield map matches 1 if score result random matches 8 run tp @s 297 18 -567
 execute if score $battlefield map matches 1 if score result random matches 9 run tp @s 302 28 -562
 
+execute if score $bowsersCastle map matches 1 if score result random matches 0 run tp @s -681.5 31.0 844.5
+execute if score $bowsersCastle map matches 1 if score result random matches 1 run tp @s -701.5 31.0 844.5
+execute if score $bowsersCastle map matches 1 if score result random matches 2 run tp @s -724.5 31.0 844.5
+execute if score $bowsersCastle map matches 1 if score result random matches 3 run tp @s -697.5 31.0 864.5
+execute if score $bowsersCastle map matches 1 if score result random matches 4 run tp @s -681.5 31.0 866.5
+execute if score $bowsersCastle map matches 1 if score result random matches 5 run tp @s -705.1 31.0 821.5
+execute if score $bowsersCastle map matches 1 if score result random matches 6 run tp @s -721.5 31.0 824.5
+execute if score $bowsersCastle map matches 1 if score result random matches 7 run tp @s -709.5 31.0 844.5
+execute if score $bowsersCastle map matches 1 if score result random matches 8 run tp @s -731.5 31.0 844.5
+execute if score $bowsersCastle map matches 1 if score result random matches 9 run tp @s -687.5 31.0 841.5
+
 execute if score $castleSiege map matches 1 if score result random matches 0 run tp @s 1651 29 449
 execute if score $castleSiege map matches 1 if score result random matches 1 run tp @s 1643 28 451
 execute if score $castleSiege map matches 1 if score result random matches 2 run tp @s 1658 31 437

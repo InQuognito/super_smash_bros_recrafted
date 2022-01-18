@@ -26,6 +26,7 @@ summon minecraft:glow_item_frame 10.5 5.0 21.5 {Fixed:1b,Facing:4b,Item:{id:"min
 summon minecraft:glow_item_frame -3.5 5.0 21.5 {Fixed:1b,Facing:5b,Item:{id:"minecraft:feather",tag:{CustomModelData:20},Count:1b}}
 
 summon minecraft:area_effect_cloud -3.5 5.0 19.5 {Age:-2147483648,Duration:-1,WaitTime:-2147483648,Tags:["voteCounter","battlefield"],CustomNameVisible:1b}
+summon minecraft:area_effect_cloud 3.5 11.0 28.5 {Age:-2147483648,Duration:-1,WaitTime:-2147483648,Tags:["voteCounter","bowsersCastle"],CustomNameVisible:1b}
 summon minecraft:area_effect_cloud -3.5 5.0 25.5 {Age:-2147483648,Duration:-1,WaitTime:-2147483648,Tags:["voteCounter","castleSiege"],CustomNameVisible:1b}
 summon minecraft:area_effect_cloud 5.5 5.0 14.5 {Age:-2147483648,Duration:-1,WaitTime:-2147483648,Tags:["voteCounter","draculasCastle"],CustomNameVisible:1b}
 summon minecraft:area_effect_cloud 7.5 5.0 14.5 {Age:-2147483648,Duration:-1,WaitTime:-2147483648,Tags:["voteCounter","dreamLand"],CustomNameVisible:1b}

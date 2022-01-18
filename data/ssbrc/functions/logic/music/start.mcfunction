@@ -7,6 +7,13 @@ execute if score $battlefield map matches 1 if score result_music random matches
 execute if score $battlefield map matches 1 if score result_music random matches 1 run tellraw @a [{"text":"Now Playing: ","bold":true,"color":"gold"},{"text":"Battle on the Big Bridge","color":"yellow"}]
 execute if score $battlefield map matches 1 if score result_music random matches 1 run schedule function ssbrc:logic/music/loop 660t replace
 
+execute if score $bowsersCastle map matches 1 if score result_music random matches 0 as @a at @s run playsound ssbrc:bowsers_lava_lair_intro music @s
+execute if score $bowsersCastle map matches 1 if score result_music random matches 0 run tellraw @a [{"text":"Now Playing: ","bold":true,"color":"gold"},{"text":"Bowser's Lava Lair","color":"yellow"}]
+execute if score $bowsersCastle map matches 1 if score result_music random matches 0 run schedule function ssbrc:logic/music/loop 1460t replace
+execute if score $bowsersCastle map matches 1 if score result_music random matches 1 as @a at @s run playsound ssbrc:chase_giga_bowser_intro music @s
+execute if score $bowsersCastle map matches 1 if score result_music random matches 1 run tellraw @a [{"text":"Now Playing: ","bold":true,"color":"gold"},{"text":"Chase Giga Bowser","color":"yellow"}]
+execute if score $bowsersCastle map matches 1 if score result_music random matches 1 run schedule function ssbrc:logic/music/loop 960t replace
+
 execute if score $castleSiege map matches 1 if score result_music random matches 0 as @a at @s run playsound ssbrc:story_5_meeting_intro music @s
 execute if score $castleSiege map matches 1 if score result_music random matches 0 run tellraw @a [{"text":"Now Playing: ","bold":true,"color":"gold"},{"text":"Story 5 Meeting","color":"yellow"}]
 execute if score $castleSiege map matches 1 if score result_music random matches 0 run schedule function ssbrc:logic/music/loop 20t replace
@@ -59,9 +66,12 @@ execute if score $greatBay map matches 1 if score result_music random matches 1 
 execute if score $greatPlateau map matches 1 if score result_music random matches 0 as @a at @s run playsound ssbrc:kass_theme_intro music @s
 execute if score $greatPlateau map matches 1 if score result_music random matches 0 run tellraw @a [{"text":"Now Playing: ","bold":true,"color":"gold"},{"text":"Kass's Theme","color":"yellow"}]
 execute if score $greatPlateau map matches 1 if score result_music random matches 0 run schedule function ssbrc:logic/music/loop 160t replace
-execute if score $greatPlateau map matches 1 if score result_music random matches 1 as @a at @s run playsound ssbrc:rescue_operation_intro music @s
-execute if score $greatPlateau map matches 1 if score result_music random matches 1 run tellraw @a [{"text":"Now Playing: ","bold":true,"color":"gold"},{"text":"Rescue Operation","color":"yellow"}]
-execute if score $greatPlateau map matches 1 if score result_music random matches 1 run schedule function ssbrc:logic/music/loop 160t replace
+execute if score $greatPlateau map matches 1 if score result_music random matches 1 as @a at @s run playsound ssbrc:legend_of_zelda_main_theme_intro music @s
+execute if score $greatPlateau map matches 1 if score result_music random matches 1 run tellraw @a [{"text":"Now Playing: ","bold":true,"color":"gold"},{"text":"Legend of Zelda Main Theme","color":"yellow"}]
+execute if score $greatPlateau map matches 1 if score result_music random matches 1 run schedule function ssbrc:logic/music/loop 140t replace
+execute if score $greatPlateau map matches 1 if score result_music random matches 2 as @a at @s run playsound ssbrc:rescue_operation_intro music @s
+execute if score $greatPlateau map matches 1 if score result_music random matches 2 run tellraw @a [{"text":"Now Playing: ","bold":true,"color":"gold"},{"text":"Rescue Operation","color":"yellow"}]
+execute if score $greatPlateau map matches 1 if score result_music random matches 2 run schedule function ssbrc:logic/music/loop 160t replace
 
 execute if score $greenHillZone map matches 1 if score result_music random matches 0 as @a at @s run playsound ssbrc:sonic_adventure_2_intro music @s
 execute if score $greenHillZone map matches 1 if score result_music random matches 0 run tellraw @a [{"text":"Now Playing: ","bold":true,"color":"gold"},{"text":"Green Hill Zone - Sonic Adventure 2","color":"yellow"}]

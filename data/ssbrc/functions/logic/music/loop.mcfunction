@@ -5,6 +5,13 @@ execute if score $battlefield map matches 1 if score result_music random matches
 execute if score $battlefield map matches 1 if score result_music random matches 1 if score $music options matches 0 run schedule function ssbrc:logic/music/loop 1360t replace
 execute if score $battlefield map matches 1 if score result_music random matches 1 if score $music options matches 1 run schedule function ssbrc:logic/music/start 1360t replace
 
+execute if score $bowsersCastle map matches 1 if score result_music random matches 0 as @a at @s run playsound ssbrc:bowsers_lava_lair music @s
+execute if score $bowsersCastle map matches 1 if score result_music random matches 0 if score $music options matches 0 run schedule function ssbrc:logic/music/loop 1080t replace
+execute if score $bowsersCastle map matches 1 if score result_music random matches 1 if score $music options matches 1 run schedule function ssbrc:logic/music/start 1080t replace
+execute if score $bowsersCastle map matches 1 if score result_music random matches 1 as @a at @s run playsound ssbrc:chase_giga_bowser music @s
+execute if score $bowsersCastle map matches 1 if score result_music random matches 1 if score $music options matches 0 run schedule function ssbrc:logic/music/loop 940t replace
+execute if score $bowsersCastle map matches 1 if score result_music random matches 1 if score $music options matches 1 run schedule function ssbrc:logic/music/start 940t replace
+
 execute if score $castleSiege map matches 1 if score result_music random matches 0 as @a at @s run playsound ssbrc:story_5_meeting music @s
 execute if score $castleSiege map matches 1 if score result_music random matches 0 if score $music options matches 0 run schedule function ssbrc:logic/music/loop 2280t replace
 execute if score $castleSiege map matches 1 if score result_music random matches 0 if score $music options matches 1 run schedule function ssbrc:logic/music/start 2280t replace
@@ -57,9 +64,12 @@ execute if score $greatBay map matches 1 if score result_music random matches 1 
 execute if score $greatPlateau map matches 1 if score result_music random matches 0 as @a at @s run playsound ssbrc:kass_theme music @s
 execute if score $greatPlateau map matches 1 if score result_music random matches 0 if score $music options matches 0 run schedule function ssbrc:logic/music/loop 1780t replace
 execute if score $greatPlateau map matches 1 if score result_music random matches 0 if score $music options matches 1 run schedule function ssbrc:logic/music/start 1780t replace
-execute if score $greatPlateau map matches 1 if score result_music random matches 1 as @a at @s run playsound ssbrc:rescue_operation music @s
-execute if score $greatPlateau map matches 1 if score result_music random matches 1 if score $music options matches 0 run schedule function ssbrc:logic/music/loop 2760t replace
-execute if score $greatPlateau map matches 1 if score result_music random matches 1 if score $music options matches 1 run schedule function ssbrc:logic/music/start 2760t replace
+execute if score $greatPlateau map matches 1 if score result_music random matches 1 as @a at @s run playsound ssbrc:legend_of_zelda_main_theme music @s
+execute if score $greatPlateau map matches 1 if score result_music random matches 1 if score $music options matches 0 run schedule function ssbrc:logic/music/loop 660t replace
+execute if score $greatPlateau map matches 1 if score result_music random matches 1 if score $music options matches 1 run schedule function ssbrc:logic/music/start 660t replace
+execute if score $greatPlateau map matches 1 if score result_music random matches 2 as @a at @s run playsound ssbrc:rescue_operation music @s
+execute if score $greatPlateau map matches 1 if score result_music random matches 2 if score $music options matches 0 run schedule function ssbrc:logic/music/loop 2760t replace
+execute if score $greatPlateau map matches 1 if score result_music random matches 2 if score $music options matches 1 run schedule function ssbrc:logic/music/start 2760t replace
 
 execute if score $greenHillZone map matches 1 if score result_music random matches 0 as @a at @s run playsound ssbrc:sonic_adventure_2 music @s
 execute if score $greenHillZone map matches 1 if score result_music random matches 0 if score $music options matches 0 run schedule function ssbrc:logic/music/loop 740t replace
