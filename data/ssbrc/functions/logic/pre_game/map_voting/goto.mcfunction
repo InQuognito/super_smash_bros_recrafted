@@ -4,29 +4,26 @@ clear @a
 scoreboard players reset @a useAbility
 scoreboard players reset @a menu
 
-summon minecraft:glow_item_frame -0.5 5.0 14.5 {Fixed:1b,Facing:3b,Item:{id:"minecraft:filled_map",Count:1b,tag:{map:24}}}
-summon minecraft:glow_item_frame 1.5 5.0 14.5 {Fixed:1b,Facing:3b,Item:{id:"minecraft:filled_map",Count:1b,tag:{map:25}}}
-summon minecraft:glow_item_frame 3.5 5.0 14.5 {Fixed:1b,Facing:3b,Item:{id:"minecraft:filled_map",Count:1b,tag:{map:26}}}
-summon minecraft:glow_item_frame 5.5 5.0 14.5 {Fixed:1b,Facing:3b,Item:{id:"minecraft:filled_map",Count:1b,tag:{map:27}}}
-summon minecraft:glow_item_frame 7.5 5.0 14.5 {Fixed:1b,Facing:3b,Item:{id:"minecraft:filled_map",Count:1b,tag:{map:28}}}
-
-summon minecraft:glow_item_frame 10.5 5.0 17.5 {Fixed:1b,Facing:4b,Item:{id:"minecraft:filled_map",Count:1b,tag:{map:9}}}
-summon minecraft:glow_item_frame 10.5 5.0 19.5 {Fixed:1b,Facing:4b,Item:{id:"minecraft:filled_map",Count:1b,tag:{map:10}}}
-summon minecraft:glow_item_frame 10.5 5.0 21.5 {Fixed:1b,Facing:4b,Item:{id:"minecraft:filled_map",Count:1b,tag:{map:11}}}
-summon minecraft:glow_item_frame 10.5 5.0 23.5 {Fixed:1b,Facing:4b,Item:{id:"minecraft:filled_map",Count:1b,tag:{map:12}}}
-summon minecraft:glow_item_frame 10.5 5.0 25.5 {Fixed:1b,Facing:4b,Item:{id:"minecraft:filled_map",Count:1b,tag:{map:13}}}
-
-summon minecraft:glow_item_frame 7.5 5.0 28.5 {Fixed:1b,Facing:2b,Item:{id:"minecraft:filled_map",Count:1b,tag:{map:14}}}
-summon minecraft:glow_item_frame 5.5 5.0 28.5 {Fixed:1b,Facing:2b,Item:{id:"minecraft:filled_map",Count:1b,tag:{map:15}}}
-summon minecraft:glow_item_frame 3.5 5.0 28.5 {Fixed:1b,Facing:2b,Item:{id:"minecraft:filled_map",Count:1b,tag:{map:16}}}
-summon minecraft:glow_item_frame 1.5 5.0 28.5 {Fixed:1b,Facing:2b,Item:{id:"minecraft:filled_map",Count:1b,tag:{map:17}}}
-summon minecraft:glow_item_frame -0.5 5.0 28.5 {Fixed:1b,Facing:2b,Item:{id:"minecraft:filled_map",Count:1b,tag:{map:18}}}
-
-summon minecraft:glow_item_frame -3.5 5.0 25.5 {Fixed:1b,Facing:5b,Item:{id:"minecraft:filled_map",Count:1b,tag:{map:19}}}
-summon minecraft:glow_item_frame -3.5 5.0 23.5 {Fixed:1b,Facing:5b,Item:{id:"minecraft:filled_map",Count:1b,tag:{map:20}}}
-summon minecraft:glow_item_frame -3.5 5.0 21.5 {Fixed:1b,Facing:5b,Item:{id:"minecraft:filled_map",Count:1b,tag:{map:21}}}
-summon minecraft:glow_item_frame -3.5 5.0 19.5 {Fixed:1b,Facing:5b,Item:{id:"minecraft:filled_map",Count:1b,tag:{map:22}}}
-summon minecraft:glow_item_frame -3.5 5.0 17.5 {Fixed:1b,Facing:5b,Item:{id:"minecraft:filled_map",Count:1b,tag:{map:23}}}
+summon minecraft:glow_item_frame -3.5 5.0 19.5 {Fixed:1b,Facing:5b,Item:{id:"minecraft:feather",tag:{CustomModelData:1},Count:1b}}
+summon minecraft:glow_item_frame -3.5 5.0 25.5 {Fixed:1b,Facing:5b,Item:{id:"minecraft:feather",tag:{CustomModelData:2},Count:1b}}
+summon minecraft:glow_item_frame 5.5 5.0 14.5 {Fixed:1b,Facing:3b,Item:{id:"minecraft:feather",tag:{CustomModelData:3},Count:1b}}
+summon minecraft:glow_item_frame 7.5 5.0 14.5 {Fixed:1b,Facing:3b,Item:{id:"minecraft:feather",tag:{CustomModelData:4},Count:1b}}
+summon minecraft:glow_item_frame -3.5 5.0 17.5 {Fixed:1b,Facing:5b,Item:{id:"minecraft:feather",tag:{CustomModelData:5},Count:1b}}
+summon minecraft:glow_item_frame -0.5 5.0 28.5 {Fixed:1b,Facing:2b,Item:{id:"minecraft:feather",tag:{CustomModelData:6},Count:1b}}
+summon minecraft:glow_item_frame 10.5 5.0 23.5 {Fixed:1b,Facing:4b,Item:{id:"minecraft:feather",tag:{CustomModelData:7},Count:1b}}
+summon minecraft:glow_item_frame 10.5 5.0 17.5 {Fixed:1b,Facing:4b,Item:{id:"minecraft:feather",tag:{CustomModelData:8},Count:1b}}
+summon minecraft:glow_item_frame -3.5 5.0 23.5 {Fixed:1b,Facing:5b,Item:{id:"minecraft:feather",tag:{CustomModelData:9},Count:1b}}
+summon minecraft:glow_item_frame 10.5 5.0 19.5 {Fixed:1b,Facing:4b,Item:{id:"minecraft:feather",tag:{CustomModelData:10},Count:1b}}
+summon minecraft:glow_item_frame 1.5 5.0 14.5 {Fixed:1b,Facing:3b,Item:{id:"minecraft:feather",tag:{CustomModelData:11},Count:1b}}
+summon minecraft:glow_item_frame 3.5 5.0 14.5 {Fixed:1b,Facing:3b,Item:{id:"minecraft:feather",tag:{CustomModelData:12},Count:1b}}
+summon minecraft:glow_item_frame 3.5 5.0 28.5 {Fixed:1b,Facing:2b,Item:{id:"minecraft:feather",tag:{CustomModelData:13},Count:1b}}
+summon minecraft:glow_item_frame 7.5 5.0 28.5 {Fixed:1b,Facing:2b,Item:{id:"minecraft:feather",tag:{CustomModelData:14},Count:1b}}
+summon minecraft:glow_item_frame 5.5 5.0 28.5 {Fixed:1b,Facing:2b,Item:{id:"minecraft:feather",tag:{CustomModelData:15},Count:1b}}
+summon minecraft:glow_item_frame 1.5 5.0 28.5 {Fixed:1b,Facing:2b,Item:{id:"minecraft:feather",tag:{CustomModelData:16},Count:1b}}
+summon minecraft:glow_item_frame 10.5 5.0 25.5 {Fixed:1b,Facing:4b,Item:{id:"minecraft:feather",tag:{CustomModelData:17},Count:1b}}
+summon minecraft:glow_item_frame -0.5 5.0 14.5 {Fixed:1b,Facing:3b,Item:{id:"minecraft:feather",tag:{CustomModelData:18},Count:1b}}
+summon minecraft:glow_item_frame 10.5 5.0 21.5 {Fixed:1b,Facing:4b,Item:{id:"minecraft:feather",tag:{CustomModelData:19},Count:1b}}
+summon minecraft:glow_item_frame -3.5 5.0 21.5 {Fixed:1b,Facing:5b,Item:{id:"minecraft:feather",tag:{CustomModelData:20},Count:1b}}
 
 summon minecraft:area_effect_cloud -3.5 5.0 19.5 {Age:-2147483648,Duration:-1,WaitTime:-2147483648,Tags:["voteCounter","battlefield"],CustomNameVisible:1b}
 summon minecraft:area_effect_cloud -3.5 5.0 25.5 {Age:-2147483648,Duration:-1,WaitTime:-2147483648,Tags:["voteCounter","castleSiege"],CustomNameVisible:1b}
@@ -67,6 +64,7 @@ scoreboard players set $countdown timer 31
 
 tp @a 3.5 3.0 21.5 0.0 0.0
 
+execute as @a[team=!spectator,tag=!characterSelect] run function ssbrc:logic/spectate
 team join waiting @a[team=!spectator]
 effect give @a[team=!spectator] minecraft:glowing 1000000 255 true
 
