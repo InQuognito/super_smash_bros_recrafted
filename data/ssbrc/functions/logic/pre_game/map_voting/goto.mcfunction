@@ -54,6 +54,9 @@ scoreboard players set @e[tag=voteCounter] mapVote 0
 execute as @e[tag=voteCounter] unless score @s mapVote = @s temp run tag @s add voteCounter.update
 execute as @e[tag=voteCounter.update,sort=random,limit=1] run function ssbrc:logic/pre_game/map_voting/update_counters_entity
 
+execute as @a[team=!spectator,tag=!characterSelect] run function ssbrc:logic/spectate
+execute as @a[team=waiting,tag=!characterPicked] run function ssbrc:logic/spectate
+
 gamemode spectator @a[team=spectator]
 team join temp @a[team=!spectator]
 execute store result score #playersAll temp run team list temp
@@ -64,7 +67,6 @@ scoreboard players set $countdown timer 31
 
 tp @a 3.5 3.0 21.5 0.0 0.0
 
-execute as @a[team=!spectator,tag=!characterSelect] run function ssbrc:logic/spectate
 team join waiting @a[team=!spectator]
 effect give @a[team=!spectator] minecraft:glowing 1000000 255 true
 
