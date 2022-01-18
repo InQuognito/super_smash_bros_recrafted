@@ -6,8 +6,9 @@ function ssbrc:logic/tick/respawn
 gamemode spectator @a[team=dead]
 gamemode spectator @a[team=spectator]
 
-execute as @e[type=#minecraft:arrows,tag=!counted] if entity @a run function ssbrc:logic/tick/arrows/count
-kill @e[tag=bullet,nbt={inGround:1b}]
+#execute as @e[type=#minecraft:arrows,tag=!counted] if entity @a run function ssbrc:logic/tick/arrows/count
+#kill @e[tag=bullet,nbt={inGround:1b}]
+kill @e[type=#minecraft:arrows,nbt={inGround:1b}]
 kill @e[type=minecraft:item,nbt={Item:{id:"minecraft:trident"}}]
 
 scoreboard players remove @a[scores={cooldown.1=1..}] cooldown.1 1
@@ -31,6 +32,7 @@ execute if score $greenHillZone map matches 1 run function ssbrc:logic/tick/maps
 execute if score $icicleMountain map matches 1 run function ssbrc:logic/tick/maps/icicle_mountain
 execute if score $mementos map matches 1 run function ssbrc:logic/tick/maps/mementos
 execute if score $miiverse map matches 1 run function ssbrc:logic/tick/maps/miiverse
+execute if score $mushroomKingdom map matches 1 run function ssbrc:logic/tick/maps/mushroom_kingdom
 execute if score $sectorZ map matches 1 run function ssbrc:logic/tick/maps/sector_z
 
 # Characters
