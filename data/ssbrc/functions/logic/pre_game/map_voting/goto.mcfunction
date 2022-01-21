@@ -5,53 +5,53 @@ scoreboard players reset @a useAbility
 scoreboard players reset @a menu
 
 # Battlefield
-summon minecraft:glow_item_frame -3.5 5.0 19.5 {Fixed:1b,Facing:5b,Item:{id:"minecraft:feather",tag:{CustomModelData:1},Count:1b}}
+summon minecraft:glow_item_frame -3.5 5.0 19.5 {Fixed:1b,Invisible:1b,Facing:5b,Item:{id:"minecraft:feather",tag:{CustomModelData:1},Count:1b}}
 # Bowsers Castle
-summon minecraft:glow_item_frame 3.5 11.0 28.5 {Fixed:1b,Facing:2b,Item:{id:"minecraft:feather",tag:{CustomModelData:2},Count:1b}}
+summon minecraft:glow_item_frame 3.5 11.0 28.5 {Fixed:1b,Invisible:1b,Facing:2b,Item:{id:"minecraft:feather",tag:{CustomModelData:2},Count:1b}}
 # Castle Siege
-summon minecraft:glow_item_frame -3.5 5.0 25.5 {Fixed:1b,Facing:5b,Item:{id:"minecraft:feather",tag:{CustomModelData:3},Count:1b}}
+summon minecraft:glow_item_frame -3.5 5.0 25.5 {Fixed:1b,Invisible:1b,Facing:5b,Item:{id:"minecraft:feather",tag:{CustomModelData:3},Count:1b}}
 # Draculas Castle
-summon minecraft:glow_item_frame 5.5 5.0 14.5 {Fixed:1b,Facing:3b,Item:{id:"minecraft:feather",tag:{CustomModelData:4},Count:1b}}
+summon minecraft:glow_item_frame 5.5 5.0 14.5 {Fixed:1b,Invisible:1b,Facing:3b,Item:{id:"minecraft:feather",tag:{CustomModelData:4},Count:1b}}
 # Dream Land
-summon minecraft:glow_item_frame 7.5 5.0 14.5 {Fixed:1b,Facing:3b,Item:{id:"minecraft:feather",tag:{CustomModelData:5},Count:1b}}
+summon minecraft:glow_item_frame 7.5 5.0 14.5 {Fixed:1b,Invisible:1b,Facing:3b,Item:{id:"minecraft:feather",tag:{CustomModelData:5},Count:1b}}
 # Final Destination
-summon minecraft:glow_item_frame -3.5 5.0 17.5 {Fixed:1b,Facing:5b,Item:{id:"minecraft:feather",tag:{CustomModelData:6},Count:1b}}
+summon minecraft:glow_item_frame -3.5 5.0 17.5 {Fixed:1b,Invisible:1b,Facing:5b,Item:{id:"minecraft:feather",tag:{CustomModelData:6},Count:1b}}
 # Flat Zone
-summon minecraft:glow_item_frame -0.5 5.0 28.5 {Fixed:1b,Facing:2b,Item:{id:"minecraft:feather",tag:{CustomModelData:7},Count:1b}}
+summon minecraft:glow_item_frame -0.5 5.0 28.5 {Fixed:1b,Invisible:1b,Facing:2b,Item:{id:"minecraft:feather",tag:{CustomModelData:7},Count:1b}}
 # Garden of Hope
-summon minecraft:glow_item_frame 10.5 5.0 23.5 {Fixed:1b,Facing:4b,Item:{id:"minecraft:feather",tag:{CustomModelData:8},Count:1b}}
+summon minecraft:glow_item_frame 10.5 5.0 23.5 {Fixed:1b,Invisible:1b,Facing:4b,Item:{id:"minecraft:feather",tag:{CustomModelData:8},Count:1b}}
 # Great Bay
-summon minecraft:glow_item_frame 10.5 5.0 17.5 {Fixed:1b,Facing:4b,Item:{id:"minecraft:feather",tag:{CustomModelData:9},Count:1b}}
+summon minecraft:glow_item_frame 10.5 5.0 17.5 {Fixed:1b,Invisible:1b,Facing:4b,Item:{id:"minecraft:feather",tag:{CustomModelData:9},Count:1b}}
 # Great Plateau
-summon minecraft:glow_item_frame -3.5 5.0 23.5 {Fixed:1b,Facing:5b,Item:{id:"minecraft:feather",tag:{CustomModelData:10},Count:1b}}
+summon minecraft:glow_item_frame -3.5 5.0 23.5 {Fixed:1b,Invisible:1b,Facing:5b,Item:{id:"minecraft:feather",tag:{CustomModelData:10},Count:1b}}
 # Green Hill Zone
-summon minecraft:glow_item_frame 10.5 5.0 19.5 {Fixed:1b,Facing:4b,Item:{id:"minecraft:feather",tag:{CustomModelData:11},Count:1b}}
+summon minecraft:glow_item_frame 10.5 5.0 19.5 {Fixed:1b,Invisible:1b,Facing:4b,Item:{id:"minecraft:feather",tag:{CustomModelData:11},Count:1b}}
 # Icicle Mountain
-summon minecraft:glow_item_frame 1.5 5.0 14.5 {Fixed:1b,Facing:3b,Item:{id:"minecraft:feather",tag:{CustomModelData:12},Count:1b}}
+summon minecraft:glow_item_frame 1.5 5.0 14.5 {Fixed:1b,Invisible:1b,Facing:3b,Item:{id:"minecraft:feather",tag:{CustomModelData:12},Count:1b}}
 # Jungle Japes
-summon minecraft:glow_item_frame 3.5 5.0 14.5 {Fixed:1b,Facing:3b,Item:{id:"minecraft:feather",tag:{CustomModelData:13},Count:1b}}
+summon minecraft:glow_item_frame 3.5 5.0 14.5 {Fixed:1b,Invisible:1b,Facing:3b,Item:{id:"minecraft:feather",tag:{CustomModelData:13},Count:1b}}
 # Luigis Mansion
-summon minecraft:glow_item_frame 3.5 11.0 14.5 {Fixed:1b,Facing:3b,Item:{id:"minecraft:feather",tag:{CustomModelData:14},Count:1b}}
+summon minecraft:glow_item_frame 3.5 11.0 14.5 {Fixed:1b,Invisible:1b,Facing:3b,Item:{id:"minecraft:feather",tag:{CustomModelData:14},Count:1b}}
 # Magicant
-summon minecraft:glow_item_frame 3.5 5.0 28.5 {Fixed:1b,Facing:2b,Item:{id:"minecraft:feather",tag:{CustomModelData:15},Count:1b}}
+summon minecraft:glow_item_frame 3.5 5.0 28.5 {Fixed:1b,Invisible:1b,Facing:2b,Item:{id:"minecraft:feather",tag:{CustomModelData:15},Count:1b}}
 # Mementos
-summon minecraft:glow_item_frame 7.5 5.0 28.5 {Fixed:1b,Facing:2b,Item:{id:"minecraft:feather",tag:{CustomModelData:16},Count:1b}}
+summon minecraft:glow_item_frame 7.5 5.0 28.5 {Fixed:1b,Invisible:1b,Facing:2b,Item:{id:"minecraft:feather",tag:{CustomModelData:16},Count:1b}}
 # Miiverse
-summon minecraft:glow_item_frame -0.5 11.0 14.5 {Fixed:1b,Facing:3b,Item:{id:"minecraft:feather",tag:{CustomModelData:17},Count:1b}}
+summon minecraft:glow_item_frame -0.5 11.0 14.5 {Fixed:1b,Invisible:1b,Facing:3b,Item:{id:"minecraft:feather",tag:{CustomModelData:17},Count:1b}}
 # Mushroom Kingdom
-summon minecraft:glow_item_frame 5.5 5.0 28.5 {Fixed:1b,Facing:2b,Item:{id:"minecraft:feather",tag:{CustomModelData:18},Count:1b}}
+summon minecraft:glow_item_frame 5.5 5.0 28.5 {Fixed:1b,Invisible:1b,Facing:2b,Item:{id:"minecraft:feather",tag:{CustomModelData:18},Count:1b}}
 # Saturn Valley
-summon minecraft:glow_item_frame 1.5 5.0 28.5 {Fixed:1b,Facing:2b,Item:{id:"minecraft:feather",tag:{CustomModelData:19},Count:1b}}
+summon minecraft:glow_item_frame 1.5 5.0 28.5 {Fixed:1b,Invisible:1b,Facing:2b,Item:{id:"minecraft:feather",tag:{CustomModelData:19},Count:1b}}
 # Sector Z
-summon minecraft:glow_item_frame 10.5 5.0 25.5 {Fixed:1b,Facing:4b,Item:{id:"minecraft:feather",tag:{CustomModelData:20},Count:1b}}
+summon minecraft:glow_item_frame 10.5 5.0 25.5 {Fixed:1b,Invisible:1b,Facing:4b,Item:{id:"minecraft:feather",tag:{CustomModelData:20},Count:1b}}
 # Shadow Moses Island
-summon minecraft:glow_item_frame -0.5 5.0 14.5 {Fixed:1b,Facing:3b,Item:{id:"minecraft:feather",tag:{CustomModelData:21},Count:1b}}
+summon minecraft:glow_item_frame -0.5 5.0 14.5 {Fixed:1b,Invisible:1b,Facing:3b,Item:{id:"minecraft:feather",tag:{CustomModelData:21},Count:1b}}
 # Spear Pillar
-summon minecraft:glow_item_frame 10.5 5.0 21.5 {Fixed:1b,Facing:4b,Item:{id:"minecraft:feather",tag:{CustomModelData:22},Count:1b}}
+summon minecraft:glow_item_frame 10.5 5.0 21.5 {Fixed:1b,Invisible:1b,Facing:4b,Item:{id:"minecraft:feather",tag:{CustomModelData:22},Count:1b}}
 # Tower of Fate
-summon minecraft:glow_item_frame 10.5 11.0 21.5 {Fixed:1b,Facing:4b,Item:{id:"minecraft:feather",tag:{CustomModelData:23},Count:1b}}
+summon minecraft:glow_item_frame 10.5 11.0 21.5 {Fixed:1b,Invisible:1b,Facing:4b,Item:{id:"minecraft:feather",tag:{CustomModelData:23},Count:1b}}
 # Wily Castle
-summon minecraft:glow_item_frame -3.5 5.0 21.5 {Fixed:1b,Facing:5b,Item:{id:"minecraft:feather",tag:{CustomModelData:24},Count:1b}}
+summon minecraft:glow_item_frame -3.5 5.0 21.5 {Fixed:1b,Invisible:1b,Facing:5b,Item:{id:"minecraft:feather",tag:{CustomModelData:24},Count:1b}}
 
 summon minecraft:area_effect_cloud -3.5 5.0 19.5 {Age:-2147483648,Duration:-1,WaitTime:-2147483648,Tags:["voteCounter","battlefield"],CustomNameVisible:1b}
 summon minecraft:area_effect_cloud 3.5 11.0 28.5 {Age:-2147483648,Duration:-1,WaitTime:-2147483648,Tags:["voteCounter","bowsersCastle"],CustomNameVisible:1b}
