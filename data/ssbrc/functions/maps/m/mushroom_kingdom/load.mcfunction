@@ -89,6 +89,14 @@ summon minecraft:item_frame -211.5 40.5 -167.5 {Facing:4b,Fixed:1b,Invisible:1b,
 summon minecraft:item_frame -211.5 37.5 -166.5 {Facing:2b,Fixed:1b,Invisible:1b,Item:{id:"minecraft:sugar",Count:1b,tag:{CustomModelData:6}}}
 summon minecraft:item_frame -212.5 37.5 -165.5 {Facing:4b,Fixed:1b,Invisible:1b,Item:{id:"minecraft:sugar",Count:1b,tag:{CustomModelData:6}}}
 
+summon minecraft:item_frame -229.5 27.5 -148.5 {Facing:5b,Fixed:1b,Invisible:1b,Item:{id:"minecraft:sugar",Count:1b,tag:{CustomModelData:6}}}
+summon minecraft:item_frame -231.5 27.5 -148.5 {Facing:4b,Fixed:1b,Invisible:1b,Item:{id:"minecraft:sugar",Count:1b,tag:{CustomModelData:6}}}
+
+summon minecraft:item_frame -209.5 27.5 -158.5 {Facing:4b,Fixed:1b,Invisible:1b,Item:{id:"minecraft:sugar",Count:1b,tag:{CustomModelData:6}}}
+summon minecraft:item_frame -207.5 27.5 -158.5 {Facing:5b,Fixed:1b,Invisible:1b,Item:{id:"minecraft:sugar",Count:1b,tag:{CustomModelData:6}}}
+summon minecraft:item_frame -209.5 27.5 -156.5 {Facing:4b,Fixed:1b,Invisible:1b,Item:{id:"minecraft:sugar",Count:1b,tag:{CustomModelData:6}}}
+summon minecraft:item_frame -207.5 27.5 -156.5 {Facing:5b,Fixed:1b,Invisible:1b,Item:{id:"minecraft:sugar",Count:1b,tag:{CustomModelData:6}}}
+
 time set noon
 weather clear
 
