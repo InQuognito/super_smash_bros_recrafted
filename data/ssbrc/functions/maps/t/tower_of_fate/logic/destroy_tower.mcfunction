@@ -23,7 +23,6 @@ execute if score #towerOfFateDestroyedTimer temp matches 205.. positioned 5993.5
 execute if score #towerOfFateDestroyedTimer temp matches 115.. positioned 6002.5 22.5 495.5 run function ssbrc:maps/t/tower_of_fate/logic/explosion
 
 execute if score #towerOfFateDestroyedTimer temp matches 160.. positioned 6000.5 22.5 500.5 run function ssbrc:maps/t/tower_of_fate/logic/explosion
-execute if score #towerOfFateDestroyedTimer temp matches 160.. run function ssbrc:maps/t/tower_of_fate/logic/lower_tower
 execute if score #towerOfFateDestroyedTimer temp matches 160.. run clone 6049 27 536 6073 27 560 5988 21 488
 
 execute if score #towerOfFateDestroyedTimer temp matches 160.. run scoreboard players reset #towerOfFateDestroyedTimer temp
