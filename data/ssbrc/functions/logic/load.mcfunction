@@ -39,6 +39,7 @@ advancement grant @a only ssbrc:characters/hero/costumes/rek
 advancement grant @a only ssbrc:characters/link/costumes/dark
 advancement grant @a only ssbrc:characters/link/costumes/goron
 advancement grant @a only ssbrc:characters/link/costumes/zora
+advancement grant @a only ssbrc:characters/mario/costumes/flowerpower
 advancement grant @a only ssbrc:characters/ness/costumes/moonside
 advancement grant @a only ssbrc:characters/ness/costumes/pajamas
 advancement grant @a only ssbrc:characters/samus/costumes/gravity
