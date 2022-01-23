@@ -11,3 +11,4 @@ execute if score result random matches 6 run data modify entity @s ArmorItems[3]
 execute if score result random matches 7 run data modify entity @s ArmorItems[3].tag.CustomModelData set value 9
 
 tag @s remove luigisMansion.painting
+execute as @e[tag=luigisMansion.painting,sort=random,limit=1] run function ssbrc:maps/l/luigis_mansion/logic/decide_painting
