@@ -33,6 +33,7 @@ execute if score $gameStage temp matches 4 if score $gameMode options matches 2 
 execute if score $gameStage temp matches 4 if score $gameMode options matches 2 if score $gameTimePercent temp matches 25 run bossbar set minecraft:timer color yellow
 execute if score $gameStage temp matches 4 if score $gameMode options matches 2 if score $gameTimePercent temp matches 10 run bossbar set minecraft:timer color red
 
+execute if score $gameStage temp matches 4 if score $towerOfFate map matches 1 if score $gameMode options matches 2 if score $gameTimePercent temp matches 33 run function ssbrc:maps/t/tower_of_fate/logic/destroy_tower
 execute if score $gameStage temp matches 4 if score $gameMode options matches 2 if score $gameTime timer matches ..0 run function ssbrc:logic/post_game/calculate_winner
 
 scoreboard players remove $countdown timer 1
