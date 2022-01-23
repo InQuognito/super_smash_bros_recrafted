@@ -1,5 +1,3 @@
-function ssbrc:maps/t/tower_of_fate/logic/lower_tower
-
 summon minecraft:marker 6000.5 25.0 508.5 {Tags:["spawnpoint","tpDest"]}
 summon minecraft:marker 5992.5 25.0 500.5 {Tags:["spawnpoint","tpDest"]}
 summon minecraft:marker 6008.5 25.0 500.5 {Tags:["spawnpoint","tpDest"]}
