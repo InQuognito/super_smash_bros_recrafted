@@ -410,7 +410,7 @@
 				"condition": "minecraft:entity_properties",
 				"entity": "this",
 				"predicate": {
-					"nbt": "{Tags:[\"toad1\"]}"
+					"nbt": "{Tags:[\"toad.blue\"]}"
 				}
 			}
 		]
@@ -423,7 +423,7 @@
 				"condition": "minecraft:entity_properties",
 				"entity": "this",
 				"predicate": {
-					"nbt": "{Tags:[\"toad2\"]}"
+					"nbt": "{Tags:[\"toad.green\"]}"
 				}
 			}
 		]
@@ -436,7 +436,7 @@
 				"condition": "minecraft:entity_properties",
 				"entity": "this",
 				"predicate": {
-					"nbt": "{Tags:[\"toad3\"]}"
+					"nbt": "{Tags:[\"toad.red\"]}"
 				}
 			}
 		]
