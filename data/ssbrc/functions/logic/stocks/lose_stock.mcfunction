@@ -10,7 +10,7 @@ scoreboard players remove @s[tag=steve,scores={steve.tier=1..}] steve.tier 1
 scoreboard players reset $stockPercentage temp
 scoreboard players operation $stockPercentage temp += @a stocks
 scoreboard players operation $stockPercentage temp *= #100 integers
-scoreboard players operation $stockPercentage temp /= #totalStocks temp
+scoreboard players operation $stockPercentage temp /= $totalStocks temp
 execute if score $towerOfFate map matches 1 if score $gameMode options matches 1 if score $stockPercentage temp matches 33 run function ssbrc:maps/t/tower_of_fate/logic/destroy_tower
 
 scoreboard players set @s flag.dead 0
