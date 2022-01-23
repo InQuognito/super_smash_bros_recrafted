@@ -1,3 +1,5 @@
+execute as @e[tag=luigisMansion.painting,sort=random,limit=1] run function ssbrc:maps/l/luigis_mansion/logic/decide_painting
+
 summon minecraft:marker -309.5 16.0 -1139.5 {Tags:["spawnpoint","tpDest"]}
 summon minecraft:marker -309.5 16.0 -1129.5 {Tags:["spawnpoint","tpDest"]}
 summon minecraft:marker -334.5 12.0 -1151.5 {Tags:["spawnpoint","tpDest"]}
