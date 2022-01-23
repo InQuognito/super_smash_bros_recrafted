@@ -10,4 +10,12 @@ execute if score result random matches 5 run function ssbrc:maps/t/tower_of_fate
 execute if score result random matches 6 run function ssbrc:maps/t/tower_of_fate/logic/lower_towers/pridemoor_keep
 execute if score result random matches 7 run function ssbrc:maps/t/tower_of_fate/logic/lower_towers/stranded_ship
 
+# Main Platform
 clone 6033 23 537 6057 23 561 5988 21 488
+# Small Platforms
+clone 6038 42 536 6060 42 558 5989 24 489
+
+setblock 6000 23 489 minecraft:ladder[facing=north]
+setblock 6012 23 500 minecraft:ladder[facing=east]
+setblock 6000 23 511 minecraft:ladder[facing=south]
+setblock 5989 23 500 minecraft:ladder[facing=west]
