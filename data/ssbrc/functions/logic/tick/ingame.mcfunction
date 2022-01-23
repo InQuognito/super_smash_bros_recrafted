@@ -34,6 +34,7 @@ execute if score $mementos map matches 1 run function ssbrc:logic/tick/maps/meme
 execute if score $miiverse map matches 1 run function ssbrc:logic/tick/maps/miiverse
 execute if score $mushroomKingdom map matches 1 run function ssbrc:logic/tick/maps/mushroom_kingdom
 execute if score $sectorZ map matches 1 run function ssbrc:logic/tick/maps/sector_z
+execute if score $towerOfFate map matches 1 run function ssbrc:logic/tick/maps/tower_of_fate
 
 # Characters
 execute as @a[team=alive] run function ssbrc:logic/tick/characters

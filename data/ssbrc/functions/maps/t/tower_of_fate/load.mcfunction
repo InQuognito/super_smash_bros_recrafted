@@ -6,8 +6,6 @@ forceload add 5984 480 6015 527
 
 kill @e[type=!minecraft:player]
 
-function ssbrc:maps/t/tower_of_fate/logic/lower_tower
-
 time set noon
 weather clear
 
