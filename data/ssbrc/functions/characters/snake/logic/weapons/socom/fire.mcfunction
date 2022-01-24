@@ -36,7 +36,6 @@ kill @e[tag=direction]
 execute at @s run playsound ssbrc:generic_fire player @a
 
 scoreboard players remove @s snake.socomA 1
-scoreboard players set @s snake.socomF 10
+scoreboard players set @s snake.socomF 5
 
-execute if score @s snake.socomA matches 0 run tag @s add snake.socomR
-scoreboard players set @s[tag=snake.socomR] snake.socomR 40
+execute if score @s snake.socomA matches 0 run scoreboard players set @s snake.socomR 40
