@@ -33,4 +33,4 @@ execute if score #towerOfFateDestroyedTimer temp matches 160 run clone 6049 27 5
 execute if score #towerOfFateDestroyedTimer temp matches 160.. run scoreboard players reset #towerOfFateDestroyedTimer temp
 
 # Lost City
-execute if score #towerOfFateLostCity temp matches 1 as @a[team=alive,gamemode=adventure,scores={flag.dead=..0}] run function ssbrc:maps/t/tower_of_fate/logic/lower_towers/lost_city/mark_block
+execute if score #towerOfFateLostCity temp matches 1 as @a[team=alive,gamemode=adventure,scores={flag.dead=..0}] at @s run function ssbrc:maps/t/tower_of_fate/logic/lower_towers/lost_city/mark_block
