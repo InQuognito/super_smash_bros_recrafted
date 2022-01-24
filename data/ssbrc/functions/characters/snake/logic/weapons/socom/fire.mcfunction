@@ -38,4 +38,4 @@ execute at @s run playsound ssbrc:generic_fire player @a
 scoreboard players remove @s snake.socomA 1
 scoreboard players set @s snake.socomF 5
 
-execute if score @s snake.socomA matches 0 run scoreboard players set @s snake.socomR 40
+execute unless score @s snake.socomM matches ..0 if score @s snake.socomA matches 0 run scoreboard players set @s snake.socomR 40

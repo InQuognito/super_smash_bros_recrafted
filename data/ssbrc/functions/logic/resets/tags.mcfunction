@@ -174,16 +174,11 @@ tag @s remove pickingMap
 tag @s remove shiny
 tag @s remove snake.apm
 tag @s remove snake.famas
-tag @s remove snake.famasR
 tag @s remove snake.psg1
-tag @s remove snake.psg1R
 tag @s remove snake.s1000
-tag @s remove snake.s1000R
 tag @s remove snake.selectingLoadout
 tag @s remove snake.sg
-tag @s remove snake.sgF
 tag @s remove snake.socom
-tag @s remove snake.socomR
 tag @s remove steve.hasBow
 tag @s remove steve.hasCrossbow
 tag @s remove teleportMe
