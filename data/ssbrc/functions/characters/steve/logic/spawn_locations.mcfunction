@@ -199,6 +199,17 @@ execute if score $mushroomKingdom map matches 1 if score result random matches 7
 execute if score $mushroomKingdom map matches 1 if score result random matches 8 run tp @s -248 38 -161
 execute if score $mushroomKingdom map matches 1 if score result random matches 9 run tp @s -240 39 -145
 
+execute if score $pacMaze map matches 1 if score result random matches 0 run tp @s 23363.5 6.0 8666.5
+execute if score $pacMaze map matches 1 if score result random matches 1 run tp @s 23357.5 6.0 8666.5
+execute if score $pacMaze map matches 1 if score result random matches 2 run tp @s 23357.5 6.0 8648.5
+execute if score $pacMaze map matches 1 if score result random matches 3 run tp @s 23363.5 6.0 8648.5
+execute if score $pacMaze map matches 1 if score result random matches 4 run tp @s 23348.5 6.0 8639.5
+execute if score $pacMaze map matches 1 if score result random matches 5 run tp @s 23372.5 6.0 8639.5
+execute if score $pacMaze map matches 1 if score result random matches 6 run tp @s 23366.5 6.0 8633.5
+execute if score $pacMaze map matches 1 if score result random matches 7 run tp @s 23354.5 6.0 8633.5
+execute if score $pacMaze map matches 1 if score result random matches 8 run tp @s 23348.5 6.0 8622.5
+execute if score $pacMaze map matches 1 if score result random matches 9 run tp @s 23372.5 6.0 8622.5
+
 execute if score $saturnValley map matches 1 if score result random matches 0 run tp @s -190 14 593
 execute if score $saturnValley map matches 1 if score result random matches 1 run tp @s -198 15 582
 execute if score $saturnValley map matches 1 if score result random matches 2 run tp @s -208 16 576

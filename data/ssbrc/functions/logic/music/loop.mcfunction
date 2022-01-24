@@ -142,6 +142,13 @@ execute if score $mushroomKingdom map matches 1 if score result_music random mat
 execute if score $mushroomKingdom map matches 1 if score result_music random matches 2 if score $music options matches 0 run schedule function ssbrc:logic/music/loop 1720t replace
 execute if score $mushroomKingdom map matches 1 if score result_music random matches 2 if score $music options matches 1 run schedule function ssbrc:logic/music/start 1720t replace
 
+execute if score $pacMaze map matches 1 if score result_music random matches 0 as @a at @s run playsound ssbrc:pac_man_club_mix music @s
+execute if score $pacMaze map matches 1 if score result_music random matches 0 if score $music options matches 0 run schedule function ssbrc:logic/music/loop 2180t replace
+execute if score $pacMaze map matches 1 if score result_music random matches 0 if score $music options matches 1 run schedule function ssbrc:logic/music/start 2180t replace
+execute if score $pacMaze map matches 1 if score result_music random matches 1 as @a at @s run playsound ssbrc:pac_rainbow music @s
+execute if score $pacMaze map matches 1 if score result_music random matches 1 if score $music options matches 0 run schedule function ssbrc:logic/music/loop 6220t replace
+execute if score $pacMaze map matches 1 if score result_music random matches 1 if score $music options matches 1 run schedule function ssbrc:logic/music/start 6220t replace
+
 execute if score $saturnValley map matches 1 if score result_music random matches 0 as @a at @s run playsound ssbrc:humoresque_of_a_little_dog music @s
 execute if score $saturnValley map matches 1 if score result_music random matches 0 if score $music options matches 0 run schedule function ssbrc:logic/music/loop 1760t replace
 execute if score $saturnValley map matches 1 if score result_music random matches 0 if score $music options matches 1 run schedule function ssbrc:logic/music/start 1760t replace

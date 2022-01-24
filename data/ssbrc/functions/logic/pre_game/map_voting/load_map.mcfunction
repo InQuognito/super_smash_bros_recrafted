@@ -18,6 +18,7 @@ execute unless score #mapPicked mapVote matches 1 if entity @s[tag=magicant] run
 execute unless score #mapPicked mapVote matches 1 if entity @s[tag=mementos] run function ssbrc:maps/m/mementos/load
 execute unless score #mapPicked mapVote matches 1 if entity @s[tag=miiverse] run function ssbrc:maps/m/miiverse/load
 execute unless score #mapPicked mapVote matches 1 if entity @s[tag=mushroomKingdom] run function ssbrc:maps/m/mushroom_kingdom/load
+execute unless score #mapPicked mapVote matches 1 if entity @s[tag=pacMaze] run function ssbrc:maps/p/pac_maze/load
 execute unless score #mapPicked mapVote matches 1 if entity @s[tag=saturnValley] run function ssbrc:maps/s/saturn_valley/load
 execute unless score #mapPicked mapVote matches 1 if entity @s[tag=sectorZ] run function ssbrc:maps/s/sector_z/load
 execute unless score #mapPicked mapVote matches 1 if entity @s[tag=shadowMosesIsland] run function ssbrc:maps/s/shadow_moses_island/load

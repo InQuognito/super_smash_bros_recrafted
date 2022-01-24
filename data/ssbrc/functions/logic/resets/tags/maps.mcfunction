@@ -16,6 +16,7 @@ tag @s remove magicant
 tag @s remove mementos
 tag @s remove miiverse
 tag @s remove mushroomKingdom
+tag @s remove pacMaze
 tag @s remove saturnValley
 tag @s remove sectorZ
 tag @s remove shadowMosesIsland

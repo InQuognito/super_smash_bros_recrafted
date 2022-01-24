@@ -18,6 +18,7 @@ execute if entity @s[tag=magicant] run scoreboard players remove @e[tag=voteCoun
 execute if entity @s[tag=mementos] run scoreboard players remove @e[tag=voteCounter,tag=mementos] mapVote 1
 execute if entity @s[tag=miiverse] run scoreboard players remove @e[tag=voteCounter,tag=miiverse] mapVote 1
 execute if entity @s[tag=mushroomKingdom] run scoreboard players remove @e[tag=voteCounter,tag=mushroomKingdom] mapVote 1
+execute if entity @s[tag=pacMaze] run scoreboard players remove @e[tag=voteCounter,tag=pacMaze] mapVote 1
 execute if entity @s[tag=saturnValley] run scoreboard players remove @e[tag=voteCounter,tag=saturnValley] mapVote 1
 execute if entity @s[tag=sectorZ] run scoreboard players remove @e[tag=voteCounter,tag=sectorZ] mapVote 1
 execute if entity @s[tag=shadowMosesIsland] run scoreboard players remove @e[tag=voteCounter,tag=shadowMosesIsland] mapVote 1
