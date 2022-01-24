@@ -23,6 +23,8 @@ execute if entity @a[tag=steve] run schedule function ssbrc:characters/steve/log
 
 execute if score $luigisMansion map matches 1 if score $hazards options matches 1 run function ssbrc:maps/l/luigis_mansion/logic/blackout_check
 
+scoreboard players reset @a fallDistance
+
 tag @e[tag=tpDest] remove tpDest
 
 execute if score $gameMode options matches 2 run scoreboard players operation $gameTime timer = $timeLimit options
