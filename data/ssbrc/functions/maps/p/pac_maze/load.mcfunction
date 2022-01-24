@@ -2,7 +2,7 @@ scoreboard players reset * map
 scoreboard players set $pacMaze map 1
 scoreboard players set $songCount map 2
 scoreboard players set #mapPicked mapVote 1
-forceload add 608 -912 687 -833
+forceload add 23328 8608 23391 8671
 
 kill @e[type=!minecraft:player]
 
