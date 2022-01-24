@@ -38,4 +38,4 @@ execute at @s run playsound ssbrc:generic_fire player @a
 scoreboard players remove @s snake.famasA 1
 scoreboard players set @s snake.famasF 4
 
-execute unless score @s snake.famasM matches ..0 if score @s snake.famasA matches 0 run scoreboard players set @s[tag=snake.famasR] snake.famasR 50
+execute unless score @s snake.famasM matches ..0 if score @s snake.famasA matches 0 run scoreboard players set @s snake.famasR 50
