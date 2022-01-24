@@ -16,6 +16,6 @@ clone 6033 23 537 6057 23 561 5988 21 488
 clone 6038 42 536 6060 42 558 5989 24 489
 
 setblock 6000 23 489 minecraft:ladder[facing=north]
-setblock 6012 23 500 minecraft:ladder[facing=east]
+setblock 6011 23 500 minecraft:ladder[facing=east]
 setblock 6000 23 511 minecraft:ladder[facing=south]
 setblock 5989 23 500 minecraft:ladder[facing=west]

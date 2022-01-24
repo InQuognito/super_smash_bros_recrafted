@@ -26,4 +26,4 @@ execute if score #towerOfFateDestroyedTimer temp matches 160.. positioned 6000.5
 execute if score #towerOfFateDestroyedTimer temp matches 160.. run fill 5989 23 489 6011 24 511 minecraft:air
 execute if score #towerOfFateDestroyedTimer temp matches 160.. run clone 6049 27 536 6073 27 560 5988 21 488
 
-execute if score #towerOfFateDestroyedTimer temp matches 160.. run scoreboard players reset #towerOfFateDestroyedTimer temp
+execute if score #towerOfFateDestroyedTimer temp matches 161.. run scoreboard players reset #towerOfFateDestroyedTimer temp
