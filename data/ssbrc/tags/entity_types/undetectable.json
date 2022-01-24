@@ -3,7 +3,6 @@
 		"minecraft:armor_stand",
 		"minecraft:glow_item_frame",
 		"minecraft:item",
-		"minecraft:item_frame",
-		"minecraft:player"
+		"minecraft:item_frame"
 	]
 }
