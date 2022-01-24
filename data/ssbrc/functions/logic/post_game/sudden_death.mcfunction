@@ -1,3 +1,5 @@
+execute as @a at @s run playsound ssbrc:sudden_death voice @s
+
 scoreboard players set $gameMode options 1
 scoreboard players set @s stocks 1
 
