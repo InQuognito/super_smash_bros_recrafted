@@ -1,11 +1,11 @@
 # Weapons
-execute as @s[tag=!snake.psg1R,scores={useAbility=1..},nbt={SelectedItem:{tag:{PSG1:1}}}] run function ssbrc:characters/snake/logic/weapons/psg1/check
-execute as @s[scores={useAbility=1..},nbt={SelectedItem:{tag:{Famas:1}}}] at @s run function ssbrc:characters/snake/logic/weapons/famas/check
-execute as @s[tag=!snake.s1000R,scores={useAbility=1..},nbt={SelectedItem:{tag:{S1000:1}}}] at @s run function ssbrc:characters/snake/logic/weapons/s1000/check
-execute as @s[tag=!snake.socomR,scores={useAbility=1..},nbt={SelectedItem:{tag:{Socom:1}}}] at @s run function ssbrc:characters/snake/logic/weapons/socom/check
-execute as @s[scores={useAbility=1..},nbt={SelectedItem:{tag:{SG:1}}}] at @s run function ssbrc:characters/snake/logic/weapons/smoke_grenade/check
+execute as @s[scores={useAbility=1..},nbt={SelectedItem:{tag:{PSG1:1}}}] unless score @s snake.psg1R matches 1.. at @s run function ssbrc:characters/snake/logic/weapons/psg1/check
+execute as @s[scores={useAbility=1..},nbt={SelectedItem:{tag:{Famas:1}}}] unless score @s snake.famasR matches 1.. at @s run function ssbrc:characters/snake/logic/weapons/famas/check
+execute as @s[scores={useAbility=1..},nbt={SelectedItem:{tag:{S1000:1}}}] unless score @s snake.s1000R matches 1.. at @s run function ssbrc:characters/snake/logic/weapons/s1000/check
+execute as @s[scores={useAbility=1..},nbt={SelectedItem:{tag:{Socom:1}}}] unless score @s snake.socomR matches 1.. at @s run function ssbrc:characters/snake/logic/weapons/socom/check
+execute as @s[scores={useAbility=1..},nbt={SelectedItem:{tag:{SG:1}}}] unless score @s snake.sgF matches 1.. at @s run function ssbrc:characters/snake/logic/weapons/smoke_grenade/check
 
-scoreboard players set @s useAbility 0
+scoreboard players reset @s useAbility
 
 # Glowing
 scoreboard players add @a[tag=snake] timer 1
@@ -26,18 +26,18 @@ title @s[nbt={SelectedItem:{tag:{SG:1}}},scores={snake.sgA=0..}] actionbar {"sco
 
 # Reload
 scoreboard players remove @s[scores={snake.psg1R=1..}] snake.psg1R 1
-scoreboard players remove @s[tag=snake.famasR] snake.famasR 1
+scoreboard players remove @s[scores={snake.famasR=1..}] snake.famasR 1
 execute as @a[scores={snake.famasR=45}] at @s run playsound ssbrc:generic_reload player @a
-scoreboard players remove @s[tag=snake.s1000R] snake.s1000R 1
+scoreboard players remove @s[scores={snake.s1000R=1..}] snake.s1000R 1
 execute as @a[scores={snake.s1000M=1..,snake.s1000R=35}] at @s run playsound ssbrc:shotgun_shell player @a
 execute as @a[scores={snake.s1000M=1..,snake.s1000R=15}] at @s run playsound ssbrc:shotgun_reload player @a
-scoreboard players remove @s[tag=snake.socomR] snake.socomR 1
+scoreboard players remove @s[scores={snake.socomR=1..}] snake.socomR 1
 execute as @a[scores={snake.socomR=35}] at @s run playsound ssbrc:generic_reload player @a
 
-execute if score @s[tag=snake.psg1R] snake.psg1R matches ..0 at @s run function ssbrc:characters/snake/logic/weapons/psg1/reload
-execute if score @s[tag=snake.famasR] snake.famasR matches ..0 at @s run function ssbrc:characters/snake/logic/weapons/famas/reload
-execute if score @s[tag=snake.s1000R] snake.s1000R matches ..0 at @s run function ssbrc:characters/snake/logic/weapons/s1000/reload
-execute if score @s[tag=snake.socomR] snake.socomR matches ..0 at @s run function ssbrc:characters/snake/logic/weapons/socom/reload
+execute if score @s snake.psg1R matches ..0 at @s run function ssbrc:characters/snake/logic/weapons/psg1/reload
+execute if score @s snake.famasR matches ..0 at @s run function ssbrc:characters/snake/logic/weapons/famas/reload
+execute if score @s snake.s1000R matches ..0 at @s run function ssbrc:characters/snake/logic/weapons/s1000/reload
+execute if score @s snake.socomR matches ..0 at @s run function ssbrc:characters/snake/logic/weapons/socom/reload
 
 # Rate of Fire
 scoreboard players remove @s[scores={snake.famasF=1..}] snake.famasF 1
