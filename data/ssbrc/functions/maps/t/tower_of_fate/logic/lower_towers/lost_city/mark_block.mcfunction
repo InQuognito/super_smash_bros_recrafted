@@ -4,7 +4,7 @@ execute if block ~ ~-0.1 ~ minecraft:coarse_dirt align xyz positioned ~0.5 ~-0.5
 execute if block ~ ~-0.1 ~ minecraft:dirt align xyz positioned ~0.5 ~-0.5 ~0.5 unless entity @e[type=minecraft:marker,tag=lostCityBlock,distance=..0.1] run summon minecraft:marker ~ ~ ~ {Tags:["lostCityBlock","lostCity.dirt"]}
 execute if block ~ ~-0.1 ~ minecraft:sand align xyz positioned ~0.5 ~-0.5 ~0.5 unless entity @e[type=minecraft:marker,tag=lostCityBlock,distance=..0.1] run summon minecraft:marker ~ ~ ~ {Tags:["lostCityBlock","lostCity.sand"]}
 
-execute as @e[tag=lostCityBlock] at @s run particle minecraft:dust 1.0 1.0 1.0 1.0 ~ ~0.6 ~ 0.0 0.0 0.0 0 1 normal @a
+execute as @e[tag=lostCityBlock] at @s run particle minecraft:dust 1.0 1.0 1.0 1.0 ~ ~0.5 ~ 0.0 0.0 0.0 0 1 normal @a
 
 scoreboard players add @e[tag=lostCityBlock] temp 1
 
