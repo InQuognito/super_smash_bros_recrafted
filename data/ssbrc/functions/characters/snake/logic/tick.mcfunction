@@ -70,6 +70,9 @@ execute as @e[tag=apm.inactive] at @s positioned ~ ~0.5 ~ if entity @e[type=!#ss
 execute as @e[tag=apm.active] at @s positioned ~ ~0.5 ~ if entity @e[type=!#ssbrc:undetectable,distance=..1] run function ssbrc:characters/snake/logic/weapons/anti_personnel_mine
 execute as @e[tag=apm.active] at @s positioned ~ ~0.5 ~ if entity @a[distance=..2] run function ssbrc:characters/snake/logic/weapons/anti_personnel_mine
 
+scoreboard players add @e[tag=snake.apm.harm] temp 1
+kill @e[tag=snake.apm.harm,scores={temp=7..}]
+
 # Smoke Grenade
 tag @e[tag=smokeGrenade,predicate=ssbrc:no_vehicle] add active
 execute at @e[tag=smokeGrenade,tag=active] run particle minecraft:smoke ~ ~ ~ 1.5 1.5 1.5 0.05 400 force @a
