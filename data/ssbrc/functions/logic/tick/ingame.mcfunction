@@ -23,5 +23,7 @@ execute unless score $sectorZ map matches 1 run effect give @a[team=alive,gamemo
 # Maps
 function ssbrc:logic/tick/maps
 
+execute as @e[tag=camera] at @s run function ssbrc:logic/tick/cameras
+
 # Characters
 execute as @a[team=alive] run function ssbrc:logic/tick/characters
