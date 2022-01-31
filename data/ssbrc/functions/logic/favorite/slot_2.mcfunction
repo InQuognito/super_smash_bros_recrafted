@@ -1,30 +1,5 @@
 function ssbrc:logic/resets/favorites/slot_2
 
-execute if entity @s[tag=favoritetry.alteredbeast] run tag @s add favorite.slot2
-execute if entity @s[tag=favoritetry.alucard] run tag @s add favorite.slot2
-execute if entity @s[tag=favoritetry.bowser] run tag @s add favorite.slot2
-execute if entity @s[tag=favoritetry.captainfalcon] run tag @s add favorite.slot2
-execute if entity @s[tag=favoritetry.charizard] run tag @s add favorite.slot2
-execute if entity @s[tag=favoritetry.donkeykong] run tag @s add favorite.slot2
-execute if entity @s[tag=favoritetry.fox] run tag @s add favorite.slot2
-execute if entity @s[tag=favoritetry.ganondorf] run tag @s add favorite.slot2
-execute if entity @s[tag=favoritetry.greninja] run tag @s add favorite.slot2
-execute if entity @s[tag=favoritetry.hero] run tag @s add favorite.slot2
-execute if entity @s[tag=favoritetry.joker] run tag @s add favorite.slot2
-execute if entity @s[tag=favoritetry.kingkrool] run tag @s add favorite.slot2
-execute if entity @s[tag=favoritetry.kirby] run tag @s add favorite.slot2
-execute if entity @s[tag=favoritetry.link] run tag @s add favorite.slot2
-execute if entity @s[tag=favoritetry.mario] run tag @s add favorite.slot2
-execute if entity @s[tag=favoritetry.megaman] run tag @s add favorite.slot2
-execute if entity @s[tag=favoritetry.ness] run tag @s add favorite.slot2
-execute if entity @s[tag=favoritetry.pit] run tag @s add favorite.slot2
-execute if entity @s[tag=favoritetry.ryu] run tag @s add favorite.slot2
-execute if entity @s[tag=favoritetry.samus] run tag @s add favorite.slot2
-execute if entity @s[tag=favoritetry.shovelknight] run tag @s add favorite.slot2
-execute if entity @s[tag=favoritetry.snake] run tag @s add favorite.slot2
-execute if entity @s[tag=favoritetry.sonic] run tag @s add favorite.slot2
-execute if entity @s[tag=favoritetry.steve] run tag @s add favorite.slot2
-
 execute if entity @s[tag=favoritetry.alteredbeast] run tag @s add favorite.slot2.alteredbeast
 execute if entity @s[tag=favoritetry.alucard] run tag @s add favorite.slot2.alucard
 execute if entity @s[tag=favoritetry.bowser] run tag @s add favorite.slot2.bowser
