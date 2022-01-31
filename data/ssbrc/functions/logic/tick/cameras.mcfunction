@@ -1,4 +1,4 @@
-execute anchored eyes facing entity @p[distance=..5] eyes run tp @s ~ ~ ~ ~ ~
+execute anchored eyes facing entity @p[team=alive,scores={flag.dead=..0},distance=..5] eyes run tp @s ~ ~ ~ ~ ~
 
 data modify storage facing Head set value [0f,0f,0f]
 
