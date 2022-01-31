@@ -1,6 +1,6 @@
 function ssbrc:logic/resets/scoreboards/stats
 
-scoreboard objectives add menu trigger
+scoreboard objectives add animation dummy
 scoreboard objectives add charge.1 dummy
 scoreboard objectives add charge.2 dummy
 scoreboard objectives add charge.3 dummy
@@ -25,6 +25,7 @@ scoreboard objectives add mana dummy
 scoreboard objectives add map dummy
 scoreboard objectives add mapVote dummy
 scoreboard objectives add math dummy
+scoreboard objectives add menu trigger
 scoreboard objectives add motionX dummy
 scoreboard objectives add motionY dummy
 scoreboard objectives add motionZ dummy

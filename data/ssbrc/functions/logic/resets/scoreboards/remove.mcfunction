@@ -1,4 +1,4 @@
-scoreboard objectives remove menu
+scoreboard objectives remove animation
 scoreboard objectives remove charge.1
 scoreboard objectives remove charge.2
 scoreboard objectives remove charge.3
@@ -23,6 +23,7 @@ scoreboard objectives remove mana
 scoreboard objectives remove map
 scoreboard objectives remove mapVote
 scoreboard objectives remove math
+scoreboard objectives remove menu
 scoreboard objectives remove motionX
 scoreboard objectives remove motionY
 scoreboard objectives remove motionZ
