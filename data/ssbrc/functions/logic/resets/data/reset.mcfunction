@@ -75,9 +75,5 @@ scoreboard players reset @s snake.wS
 scoreboard players reset @s sonic.wS
 scoreboard players reset @s steve.wS
 
-function ssbrc:logic/resets/favorites/slot_1
-function ssbrc:logic/resets/favorites/slot_2
-function ssbrc:logic/resets/favorites/slot_3
-
 tellraw @s {"text":"All data has been successfully reset.","color":"dark_red"}
 scoreboard players reset @s reset

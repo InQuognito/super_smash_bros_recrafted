@@ -10,10 +10,6 @@
 		}
 	},
 	{
-		"function": "minecraft:set_nbt",
-		"tag": "{}"
-	},
-	{
 		"function": "minecraft:set_name",
 		"entity": "this",
 		"name": {
@@ -24,23 +20,23 @@
 		},
 		"conditions": [
 			{
-				"condition": "minecraft:entity_properties",
+				"condition": "minecraft:entity_scores",
 				"entity": "this",
-				"predicate": {
-					"nbt": "{Tags:[favorite.slot2.bowser]}"
+				"scores": {
+					"favorite.slot1": 60
 				}
 			}
 		]
 	},
 	{
 		"function": "minecraft:set_nbt",
-		"tag": "{favorite.bowser:1,CustomModelData:60}",
+		"tag": "{CustomModelData:60}",
 		"conditions": [
 			{
-				"condition": "minecraft:entity_properties",
+				"condition": "minecraft:entity_scores",
 				"entity": "this",
-				"predicate": {
-					"nbt": "{Tags:[favorite.slot2.bowser]}"
+				"scores": {
+					"favorite.slot1": 60
 				}
 			}
 		]
@@ -56,23 +52,23 @@
 		},
 		"conditions": [
 			{
-				"condition": "minecraft:entity_properties",
+				"condition": "minecraft:entity_scores",
 				"entity": "this",
-				"predicate": {
-					"nbt": "{Tags:[favorite.slot2.captainfalcon]}"
+				"scores": {
+					"favorite.slot1": 120
 				}
 			}
 		]
 	},
 	{
 		"function": "minecraft:set_nbt",
-		"tag": "{favorite.captainfalcon:1,CustomModelData:120}",
+		"tag": "{CustomModelData:120}",
 		"conditions": [
 			{
-				"condition": "minecraft:entity_properties",
+				"condition": "minecraft:entity_scores",
 				"entity": "this",
-				"predicate": {
-					"nbt": "{Tags:[favorite.slot2.captainfalcon]}"
+				"scores": {
+					"favorite.slot1": 120
 				}
 			}
 		]
@@ -88,23 +84,23 @@
 		},
 		"conditions": [
 			{
-				"condition": "minecraft:entity_properties",
+				"condition": "minecraft:entity_scores",
 				"entity": "this",
-				"predicate": {
-					"nbt": "{Tags:[favorite.slot2.charizard]}"
+				"scores": {
+					"favorite.slot1": 140
 				}
 			}
 		]
 	},
 	{
 		"function": "minecraft:set_nbt",
-		"tag": "{favorite.charizard:1,CustomModelData:140}",
+		"tag": "{CustomModelData:140}",
 		"conditions": [
 			{
-				"condition": "minecraft:entity_properties",
+				"condition": "minecraft:entity_scores",
 				"entity": "this",
-				"predicate": {
-					"nbt": "{Tags:[favorite.slot2.charizard]}"
+				"scores": {
+					"favorite.slot1": 140
 				}
 			}
 		]
@@ -120,23 +116,23 @@
 		},
 		"conditions": [
 			{
-				"condition": "minecraft:entity_properties",
+				"condition": "minecraft:entity_scores",
 				"entity": "this",
-				"predicate": {
-					"nbt": "{Tags:[favorite.slot2.donkeykong]}"
+				"scores": {
+					"favorite.slot1": 300
 				}
 			}
 		]
 	},
 	{
 		"function": "minecraft:set_nbt",
-		"tag": "{favorite.donkeykong:1,CustomModelData:300}",
+		"tag": "{CustomModelData:300}",
 		"conditions": [
 			{
-				"condition": "minecraft:entity_properties",
+				"condition": "minecraft:entity_scores",
 				"entity": "this",
-				"predicate": {
-					"nbt": "{Tags:[favorite.slot2.donkeykong]}"
+				"scores": {
+					"favorite.slot1": 300
 				}
 			}
 		]
@@ -152,23 +148,23 @@
 		},
 		"conditions": [
 			{
-				"condition": "minecraft:entity_properties",
+				"condition": "minecraft:entity_scores",
 				"entity": "this",
-				"predicate": {
-					"nbt": "{Tags:[favorite.slot2.fox]}"
+				"scores": {
+					"favorite.slot1": 380
 				}
 			}
 		]
 	},
 	{
 		"function": "minecraft:set_nbt",
-		"tag": "{favorite.fox:1,CustomModelData:380}",
+		"tag": "{CustomModelData:380}",
 		"conditions": [
 			{
-				"condition": "minecraft:entity_properties",
+				"condition": "minecraft:entity_scores",
 				"entity": "this",
-				"predicate": {
-					"nbt": "{Tags:[favorite.slot2.fox]}"
+				"scores": {
+					"favorite.slot1": 380
 				}
 			}
 		]
@@ -184,23 +180,23 @@
 		},
 		"conditions": [
 			{
-				"condition": "minecraft:entity_properties",
+				"condition": "minecraft:entity_scores",
 				"entity": "this",
-				"predicate": {
-					"nbt": "{Tags:[favorite.slot2.ganondorf]}"
+				"scores": {
+					"favorite.slot1": 400
 				}
 			}
 		]
 	},
 	{
 		"function": "minecraft:set_nbt",
-		"tag": "{favorite.ganondorf:1,CustomModelData:400}",
+		"tag": "{CustomModelData:400}",
 		"conditions": [
 			{
-				"condition": "minecraft:entity_properties",
+				"condition": "minecraft:entity_scores",
 				"entity": "this",
-				"predicate": {
-					"nbt": "{Tags:[favorite.slot2.ganondorf]}"
+				"scores": {
+					"favorite.slot1": 400
 				}
 			}
 		]
@@ -216,23 +212,23 @@
 		},
 		"conditions": [
 			{
-				"condition": "minecraft:entity_properties",
+				"condition": "minecraft:entity_scores",
 				"entity": "this",
-				"predicate": {
-					"nbt": "{Tags:[favorite.slot2.greninja]}"
+				"scores": {
+					"favorite.slot1": 420
 				}
 			}
 		]
 	},
 	{
 		"function": "minecraft:set_nbt",
-		"tag": "{favorite.greninja:1,CustomModelData:420}",
+		"tag": "{CustomModelData:420}",
 		"conditions": [
 			{
-				"condition": "minecraft:entity_properties",
+				"condition": "minecraft:entity_scores",
 				"entity": "this",
-				"predicate": {
-					"nbt": "{Tags:[favorite.slot2.greninja]}"
+				"scores": {
+					"favorite.slot1": 420
 				}
 			}
 		]
@@ -248,23 +244,23 @@
 		},
 		"conditions": [
 			{
-				"condition": "minecraft:entity_properties",
+				"condition": "minecraft:entity_scores",
 				"entity": "this",
-				"predicate": {
-					"nbt": "{Tags:[favorite.slot2.hero]}"
+				"scores": {
+					"favorite.slot1": 440
 				}
 			}
 		]
 	},
 	{
 		"function": "minecraft:set_nbt",
-		"tag": "{favorite.hero:1,CustomModelData:440}",
+		"tag": "{CustomModelData:440}",
 		"conditions": [
 			{
-				"condition": "minecraft:entity_properties",
+				"condition": "minecraft:entity_scores",
 				"entity": "this",
-				"predicate": {
-					"nbt": "{Tags:[favorite.slot2.hero]}"
+				"scores": {
+					"favorite.slot1": 440
 				}
 			}
 		]
@@ -280,23 +276,23 @@
 		},
 		"conditions": [
 			{
-				"condition": "minecraft:entity_properties",
+				"condition": "minecraft:entity_scores",
 				"entity": "this",
-				"predicate": {
-					"nbt": "{Tags:[favorite.slot2.joker]}"
+				"scores": {
+					"favorite.slot1": 600
 				}
 			}
 		]
 	},
 	{
 		"function": "minecraft:set_nbt",
-		"tag": "{favorite.joker:1,CustomModelData:600}",
+		"tag": "{CustomModelData:600}",
 		"conditions": [
 			{
-				"condition": "minecraft:entity_properties",
+				"condition": "minecraft:entity_scores",
 				"entity": "this",
-				"predicate": {
-					"nbt": "{Tags:[favorite.slot2.joker]}"
+				"scores": {
+					"favorite.slot1": 600
 				}
 			}
 		]
@@ -312,23 +308,23 @@
 		},
 		"conditions": [
 			{
-				"condition": "minecraft:entity_properties",
+				"condition": "minecraft:entity_scores",
 				"entity": "this",
-				"predicate": {
-					"nbt": "{Tags:[favorite.slot2.kingkrool]}"
+				"scores": {
+					"favorite.slot1": 680
 				}
 			}
 		]
 	},
 	{
 		"function": "minecraft:set_nbt",
-		"tag": "{favorite.kingkrool:1,CustomModelData:680}",
+		"tag": "{CustomModelData:680}",
 		"conditions": [
 			{
-				"condition": "minecraft:entity_properties",
+				"condition": "minecraft:entity_scores",
 				"entity": "this",
-				"predicate": {
-					"nbt": "{Tags:[favorite.slot2.kingkrool]}"
+				"scores": {
+					"favorite.slot1": 680
 				}
 			}
 		]
@@ -344,23 +340,23 @@
 		},
 		"conditions": [
 			{
-				"condition": "minecraft:entity_properties",
+				"condition": "minecraft:entity_scores",
 				"entity": "this",
-				"predicate": {
-					"nbt": "{Tags:[favorite.slot2.kirby]}"
+				"scores": {
+					"favorite.slot1": 700
 				}
 			}
 		]
 	},
 	{
 		"function": "minecraft:set_nbt",
-		"tag": "{favorite.kirby:1,CustomModelData:700}",
+		"tag": "{CustomModelData:700}",
 		"conditions": [
 			{
-				"condition": "minecraft:entity_properties",
+				"condition": "minecraft:entity_scores",
 				"entity": "this",
-				"predicate": {
-					"nbt": "{Tags:[favorite.slot2.kirby]}"
+				"scores": {
+					"favorite.slot1": 700
 				}
 			}
 		]
@@ -376,23 +372,23 @@
 		},
 		"conditions": [
 			{
-				"condition": "minecraft:entity_properties",
+				"condition": "minecraft:entity_scores",
 				"entity": "this",
-				"predicate": {
-					"nbt": "{Tags:[favorite.slot2.link]}"
+				"scores": {
+					"favorite.slot1": 720
 				}
 			}
 		]
 	},
 	{
 		"function": "minecraft:set_nbt",
-		"tag": "{favorite.link:1,CustomModelData:720}",
+		"tag": "{CustomModelData:720}",
 		"conditions": [
 			{
-				"condition": "minecraft:entity_properties",
+				"condition": "minecraft:entity_scores",
 				"entity": "this",
-				"predicate": {
-					"nbt": "{Tags:[favorite.slot2.link]}"
+				"scores": {
+					"favorite.slot1": 720
 				}
 			}
 		]
@@ -408,23 +404,23 @@
 		},
 		"conditions": [
 			{
-				"condition": "minecraft:entity_properties",
+				"condition": "minecraft:entity_scores",
 				"entity": "this",
-				"predicate": {
-					"nbt": "{Tags:[favorite.slot2.mario]}"
+				"scores": {
+					"favorite.slot1": 840
 				}
 			}
 		]
 	},
 	{
 		"function": "minecraft:set_nbt",
-		"tag": "{favorite.mario:1,CustomModelData:840}",
+		"tag": "{CustomModelData:840}",
 		"conditions": [
 			{
-				"condition": "minecraft:entity_properties",
+				"condition": "minecraft:entity_scores",
 				"entity": "this",
-				"predicate": {
-					"nbt": "{Tags:[favorite.slot2.mario]}"
+				"scores": {
+					"favorite.slot1": 840
 				}
 			}
 		]
@@ -440,23 +436,23 @@
 		},
 		"conditions": [
 			{
-				"condition": "minecraft:entity_properties",
+				"condition": "minecraft:entity_scores",
 				"entity": "this",
-				"predicate": {
-					"nbt": "{Tags:[favorite.slot2.megaman]}"
+				"scores": {
+					"favorite.slot1": 880
 				}
 			}
 		]
 	},
 	{
 		"function": "minecraft:set_nbt",
-		"tag": "{favorite.megaman:1,CustomModelData:880}",
+		"tag": "{CustomModelData:880}",
 		"conditions": [
 			{
-				"condition": "minecraft:entity_properties",
+				"condition": "minecraft:entity_scores",
 				"entity": "this",
-				"predicate": {
-					"nbt": "{Tags:[favorite.slot2.megaman]}"
+				"scores": {
+					"favorite.slot1": 880
 				}
 			}
 		]
@@ -472,23 +468,23 @@
 		},
 		"conditions": [
 			{
-				"condition": "minecraft:entity_properties",
+				"condition": "minecraft:entity_scores",
 				"entity": "this",
-				"predicate": {
-					"nbt": "{Tags:[favorite.slot2.ness]}"
+				"scores": {
+					"favorite.slot1": 1080
 				}
 			}
 		]
 	},
 	{
 		"function": "minecraft:set_nbt",
-		"tag": "{favorite.ness:1,CustomModelData:1080}",
+		"tag": "{CustomModelData:1080}",
 		"conditions": [
 			{
-				"condition": "minecraft:entity_properties",
+				"condition": "minecraft:entity_scores",
 				"entity": "this",
-				"predicate": {
-					"nbt": "{Tags:[favorite.slot2.ness]}"
+				"scores": {
+					"favorite.slot1": 1080
 				}
 			}
 		]
@@ -504,23 +500,23 @@
 		},
 		"conditions": [
 			{
-				"condition": "minecraft:entity_properties",
+				"condition": "minecraft:entity_scores",
 				"entity": "this",
-				"predicate": {
-					"nbt": "{Tags:[favorite.slot2.pit]}"
+				"scores": {
+					"favorite.slot1": 1220
 				}
 			}
 		]
 	},
 	{
 		"function": "minecraft:set_nbt",
-		"tag": "{favorite.pit:1,CustomModelData:1220}",
+		"tag": "{CustomModelData:1220}",
 		"conditions": [
 			{
-				"condition": "minecraft:entity_properties",
+				"condition": "minecraft:entity_scores",
 				"entity": "this",
-				"predicate": {
-					"nbt": "{Tags:[favorite.slot2.pit]}"
+				"scores": {
+					"favorite.slot1": 1220
 				}
 			}
 		]
@@ -536,23 +532,23 @@
 		},
 		"conditions": [
 			{
-				"condition": "minecraft:entity_properties",
+				"condition": "minecraft:entity_scores",
 				"entity": "this",
-				"predicate": {
-					"nbt": "{Tags:[favorite.slot2.ryu]}"
+				"scores": {
+					"favorite.slot1": 1400
 				}
 			}
 		]
 	},
 	{
 		"function": "minecraft:set_nbt",
-		"tag": "{favorite.ryu:1,CustomModelData:1400}",
+		"tag": "{CustomModelData:1400}",
 		"conditions": [
 			{
-				"condition": "minecraft:entity_properties",
+				"condition": "minecraft:entity_scores",
 				"entity": "this",
-				"predicate": {
-					"nbt": "{Tags:[favorite.slot2.ryu]}"
+				"scores": {
+					"favorite.slot1": 1400
 				}
 			}
 		]
@@ -568,23 +564,23 @@
 		},
 		"conditions": [
 			{
-				"condition": "minecraft:entity_properties",
+				"condition": "minecraft:entity_scores",
 				"entity": "this",
-				"predicate": {
-					"nbt": "{Tags:[favorite.slot2.samus]}"
+				"scores": {
+					"favorite.slot1": 1420
 				}
 			}
 		]
 	},
 	{
 		"function": "minecraft:set_nbt",
-		"tag": "{favorite.samus:1,CustomModelData:1420}",
+		"tag": "{CustomModelData:1420}",
 		"conditions": [
 			{
-				"condition": "minecraft:entity_properties",
+				"condition": "minecraft:entity_scores",
 				"entity": "this",
-				"predicate": {
-					"nbt": "{Tags:[favorite.slot2.samus]}"
+				"scores": {
+					"favorite.slot1": 1420
 				}
 			}
 		]
@@ -600,23 +596,23 @@
 		},
 		"conditions": [
 			{
-				"condition": "minecraft:entity_properties",
+				"condition": "minecraft:entity_scores",
 				"entity": "this",
-				"predicate": {
-					"nbt": "{Tags:[favorite.slot2.snake]}"
+				"scores": {
+					"favorite.slot1": 1520
 				}
 			}
 		]
 	},
 	{
 		"function": "minecraft:set_nbt",
-		"tag": "{favorite.snake:1,CustomModelData:1520}",
+		"tag": "{CustomModelData:1520}",
 		"conditions": [
 			{
-				"condition": "minecraft:entity_properties",
+				"condition": "minecraft:entity_scores",
 				"entity": "this",
-				"predicate": {
-					"nbt": "{Tags:[favorite.slot2.snake]}"
+				"scores": {
+					"favorite.slot1": 1520
 				}
 			}
 		]
@@ -632,23 +628,23 @@
 		},
 		"conditions": [
 			{
-				"condition": "minecraft:entity_properties",
+				"condition": "minecraft:entity_scores",
 				"entity": "this",
-				"predicate": {
-					"nbt": "{Tags:[favorite.slot2.sonic]}"
+				"scores": {
+					"favorite.slot1": 1540
 				}
 			}
 		]
 	},
 	{
 		"function": "minecraft:set_nbt",
-		"tag": "{favorite.sonic:1,CustomModelData:1540}",
+		"tag": "{CustomModelData:1540}",
 		"conditions": [
 			{
-				"condition": "minecraft:entity_properties",
+				"condition": "minecraft:entity_scores",
 				"entity": "this",
-				"predicate": {
-					"nbt": "{Tags:[favorite.slot2.sonic]}"
+				"scores": {
+					"favorite.slot1": 1540
 				}
 			}
 		]
@@ -664,23 +660,23 @@
 		},
 		"conditions": [
 			{
-				"condition": "minecraft:entity_properties",
+				"condition": "minecraft:entity_scores",
 				"entity": "this",
-				"predicate": {
-					"nbt": "{Tags:[favorite.slot2.steve]}"
+				"scores": {
+					"favorite.slot1": 1580
 				}
 			}
 		]
 	},
 	{
 		"function": "minecraft:set_nbt",
-		"tag": "{favorite.steve:1,CustomModelData:1580}",
+		"tag": "{CustomModelData:1580}",
 		"conditions": [
 			{
-				"condition": "minecraft:entity_properties",
+				"condition": "minecraft:entity_scores",
 				"entity": "this",
-				"predicate": {
-					"nbt": "{Tags:[favorite.slot2.steve]}"
+				"scores": {
+					"favorite.slot1": 1580
 				}
 			}
 		]
@@ -697,23 +693,23 @@
 		},
 		"conditions": [
 			{
-				"condition": "minecraft:entity_properties",
+				"condition": "minecraft:entity_scores",
 				"entity": "this",
-				"predicate": {
-					"nbt": "{Tags:[favorite.slot2.alteredbeast]}"
+				"scores": {
+					"favorite.slot1": 1820
 				}
 			}
 		]
 	},
 	{
 		"function": "minecraft:set_nbt",
-		"tag": "{favorite.alteredbeast:1,CustomModelData:1820}",
+		"tag": "{CustomModelData:1820}",
 		"conditions": [
 			{
-				"condition": "minecraft:entity_properties",
+				"condition": "minecraft:entity_scores",
 				"entity": "this",
-				"predicate": {
-					"nbt": "{Tags:[favorite.slot2.alteredbeast]}"
+				"scores": {
+					"favorite.slot1": 1820
 				}
 			}
 		]
@@ -729,23 +725,23 @@
 		},
 		"conditions": [
 			{
-				"condition": "minecraft:entity_properties",
+				"condition": "minecraft:entity_scores",
 				"entity": "this",
-				"predicate": {
-					"nbt": "{Tags:[favorite.slot2.alucard]}"
+				"scores": {
+					"favorite.slot1": 1840
 				}
 			}
 		]
 	},
 	{
 		"function": "minecraft:set_nbt",
-		"tag": "{favorite.alucard:1,CustomModelData:1840}",
+		"tag": "{CustomModelData:1840}",
 		"conditions": [
 			{
-				"condition": "minecraft:entity_properties",
+				"condition": "minecraft:entity_scores",
 				"entity": "this",
-				"predicate": {
-					"nbt": "{Tags:[favorite.slot2.alucard]}"
+				"scores": {
+					"favorite.slot1": 1840
 				}
 			}
 		]
@@ -761,23 +757,23 @@
 		},
 		"conditions": [
 			{
-				"condition": "minecraft:entity_properties",
+				"condition": "minecraft:entity_scores",
 				"entity": "this",
-				"predicate": {
-					"nbt": "{Tags:[favorite.slot2.shovelknight]}"
+				"scores": {
+					"favorite.slot1": 2000
 				}
 			}
 		]
 	},
 	{
 		"function": "minecraft:set_nbt",
-		"tag": "{favorite.shovelknight:1,CustomModelData:2000}",
+		"tag": "{CustomModelData:2000}",
 		"conditions": [
 			{
-				"condition": "minecraft:entity_properties",
+				"condition": "minecraft:entity_scores",
 				"entity": "this",
-				"predicate": {
-					"nbt": "{Tags:[favorite.slot2.shovelknight]}"
+				"scores": {
+					"favorite.slot1": 2000
 				}
 			}
 		]

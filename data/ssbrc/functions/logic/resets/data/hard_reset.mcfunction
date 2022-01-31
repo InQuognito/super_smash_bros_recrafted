@@ -1,5 +1,4 @@
 function ssbrc:logic/resets/scoreboards/remove
-function ssbrc:logic/resets/scoreboards/create
 
 # Kills
 scoreboard objectives remove alteredbeast.k
@@ -87,5 +86,12 @@ scoreboard objectives remove stats.kD
 scoreboard objectives remove stats.kills
 scoreboard objectives remove stats.wins
 scoreboard objectives remove stats.wL
+
+# Favorites
+scoreboard objectives remove favorite.slot1
+scoreboard objectives remove favorite.slot2
+scoreboard objectives remove favorite.slot3
+
+function ssbrc:logic/resets/scoreboards/create
 
 function ssbrc:logic/resets/scoreboards/stats
