@@ -9,3 +9,4 @@ effect clear @s minecraft:invisibility
 effect clear @s minecraft:levitation
 
 scoreboard players reset @s duration.1
+scoreboard players reset @s alucard.ability

@@ -7,7 +7,7 @@ scoreboard players reset @s useAbility
 execute as @e[tag=link.swordBeam] at @s run function ssbrc:characters/link/logic/weapons/sword_beam/entity
 execute as @e[tag=link.boomerang] at @s run function ssbrc:characters/link/logic/weapons/boomerang/entity
 
-item modify entity @s weapon.mainhand ssbrc:link_sword_awakened
+item modify entity @s weapon.mainhand ssbrc:link_sword
 
 scoreboard players add $rot temp 15
 execute if score $rot temp matches 360.. run scoreboard players reset $rot temp
