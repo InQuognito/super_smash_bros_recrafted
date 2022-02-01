@@ -8,5 +8,3 @@ effect give @s minecraft:invisibility 1000000 0 true
 effect give @s minecraft:levitation 1000000 0 true
 
 scoreboard players set @s cooldown.1 600
-
-tag @s remove alucard.ability
