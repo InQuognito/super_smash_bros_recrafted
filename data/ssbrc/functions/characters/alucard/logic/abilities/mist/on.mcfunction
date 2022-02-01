@@ -1,5 +1,5 @@
 scoreboard players set @s[tag=!alucard.ability] duration.1 40
-scoreboard players set @s[tag=!alucard.ability] duration.1 80
+scoreboard players set @s[tag=alucard.ability] duration.1 80
 
 function ssbrc:logic/characters/remove_armor
 
