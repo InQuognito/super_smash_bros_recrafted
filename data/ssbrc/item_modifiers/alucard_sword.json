@@ -10,9 +10,8 @@
 					"equipment": {
 						"mainhand": {
 							"items": [
-								"minecraft:carrot_on_a_stick"
-							],
-							"nbt": "{alucard.ability:1}"
+								"minecraft:iron_sword"
+							]
 						}
 					}
 				}
@@ -31,9 +30,8 @@
 					"equipment": {
 						"mainhand": {
 							"items": [
-								"minecraft:carrot_on_a_stick"
-							],
-							"nbt": "{alucard.ability:1}"
+								"minecraft:iron_sword"
+							]
 						}
 					}
 				}
