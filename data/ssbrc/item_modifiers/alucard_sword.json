@@ -1,7 +1,7 @@
 [
 	{
 		"function": "minecraft:set_nbt",
-		"tag": "{AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Amount:5,Slot:mainhand,Name:\"generic.attack_damage\",UUID:[I;-1211022,10969,201940,-21938]}]}",
+		"tag": "{id:\"minecraft:iron_sword\",AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Amount:5,Slot:mainhand,Name:\"generic.attack_damage\",UUID:[I;-1211022,10969,201940,-21938]}]}",
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -9,9 +9,7 @@
 				"predicate": {
 					"equipment": {
 						"mainhand": {
-							"items": [
-								"minecraft:iron_sword"
-							]
+							"tag": "ssbrc:swords"
 						}
 					}
 				}
@@ -20,7 +18,7 @@
 	},
 	{
 		"function": "minecraft:set_nbt",
-		"tag": "{AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Amount:15,Slot:mainhand,Name:\"generic.attack_damage\",UUID:[I;-1211022,10969,201940,-21938]}]}",
+		"tag": "{id:\"minecraft:netherite_sword\",AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Amount:15,Slot:mainhand,Name:\"generic.attack_damage\",UUID:[I;-1211022,10969,201940,-21938]}]}",
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -29,9 +27,7 @@
 					"nbt": "{Tags:[\"alucard.ability\"]}",
 					"equipment": {
 						"mainhand": {
-							"items": [
-								"minecraft:iron_sword"
-							]
+							"tag": "ssbrc:swords"
 						}
 					}
 				}
