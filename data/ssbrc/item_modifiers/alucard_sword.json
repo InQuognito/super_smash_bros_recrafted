@@ -1,8 +1,26 @@
 [
 	{
-		"function": "minecraft:set_nbt",
-		"tag": "{AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Amount:5,Slot:mainhand,Name:\"generic.attack_damage\",UUID:[I;-1211022,10969,201940,-21938]}]}",
+		"function": "minecraft:set_attributes",
+		"modifiers": [
+			{
+				"attribute": "minecraft:generic.attack_damage",
+				"name": "",
+				"amount": 5,
+				"operation": "addition",
+				"slot": "mainhand"
+			}
+		],
 		"conditions": [
+			{
+				"condition": "minecraft:inverted",
+				"term": {
+					"condition": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"nbt": "{Tags:[\"alucard.ability\"]}"
+					}
+				}
+			},
 			{
 				"condition": "minecraft:entity_properties",
 				"entity": "this",
@@ -10,9 +28,8 @@
 					"equipment": {
 						"mainhand": {
 							"items": [
-								"minecraft:carrot_on_a_stick"
-							],
-							"nbt": "{alucard.ability:1}"
+								"minecraft:iron_sword"
+							]
 						}
 					}
 				}
@@ -20,8 +37,16 @@
 		]
 	},
 	{
-		"function": "minecraft:set_nbt",
-		"tag": "{AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Amount:15,Slot:mainhand,Name:\"generic.attack_damage\",UUID:[I;-1211022,10969,201940,-21938]}]}",
+		"function": "minecraft:set_attributes",
+		"modifiers": [
+			{
+				"attribute": "minecraft:generic.attack_damage",
+				"name": "",
+				"amount": 15,
+				"operation": "addition",
+				"slot": "mainhand"
+			}
+		],
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -31,9 +56,8 @@
 					"equipment": {
 						"mainhand": {
 							"items": [
-								"minecraft:carrot_on_a_stick"
-							],
-							"nbt": "{alucard.ability:1}"
+								"minecraft:iron_sword"
+							]
 						}
 					}
 				}
