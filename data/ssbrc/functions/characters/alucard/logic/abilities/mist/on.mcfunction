@@ -1,6 +1,10 @@
 scoreboard players set @s[tag=!alucard.ability] duration.1 40
 scoreboard players set @s[tag=alucard.ability] duration.1 80
 
+execute if entity @s[tag=alucard.ability] run summon minecraft:area_effect_cloud ~ ~ ~ {Tags:["alucard.mist","noOwner"],Particle:"underwater",ReapplicationDelay:10,Radius:2f,Duration:200,Effects:[{Id:7b,Amplifier:0b,Duration:1,ShowParticles:0b}]}
+data modify entity @e[tag=alucard.mist,tag=noOwner,limit=1] Owner set from entity @s UUID
+tag @e[tag=alucard.mist] remove noOwner
+
 clear @s
 
 effect clear @s minecraft:glowing
