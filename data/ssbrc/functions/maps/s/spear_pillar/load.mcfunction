@@ -9,6 +9,10 @@ forceload add 528 -208 639 -81
 
 kill @e[type=!minecraft:player]
 
+scoreboard players set #shinyPalkia temp 0
+scoreboard players set #shinyDialga temp 0
+scoreboard players set #shinyGiratina temp 0
+
 # Palkia
 execute if predicate ssbrc:shiny_chance run scoreboard players set #shinyPalkia temp 1
 execute unless score #shinyPalkia temp matches 1 run clone 606 1 6 637 35 24 774 21 15
