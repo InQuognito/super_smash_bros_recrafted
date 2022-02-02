@@ -10,14 +10,25 @@ execute if score #towerOfFateDestroyedTimer temp matches 5 positioned 5993.5 25.
 #execute if score #towerOfFateDestroyedTimer temp matches 5 run
 execute if score #towerOfFateDestroyedTimer temp matches 20 positioned 5992.5 25.5 501.5 run function ssbrc:maps/t/tower_of_fate/logic/explosion
 #execute if score #towerOfFateDestroyedTimer temp matches 20 run
+execute if score #towerOfFateDestroyedTimer temp matches 20 run fill 5989 23 498 5994 24 502 minecraft:air replace
+
 execute if score #towerOfFateDestroyedTimer temp matches 45 positioned 5998.5 25.5 494.5 run function ssbrc:maps/t/tower_of_fate/logic/explosion
 #execute if score #towerOfFateDestroyedTimer temp matches 45 run
 execute if score #towerOfFateDestroyedTimer temp matches 65 positioned 6000.5 25.5 491.5 run function ssbrc:maps/t/tower_of_fate/logic/explosion
 #execute if score #towerOfFateDestroyedTimer temp matches 65 run
+execute if score #towerOfFateDestroyedTimer temp matches 65 run fill 5998 23 489 6002 24 494 minecraft:air replace
+
 execute if score #towerOfFateDestroyedTimer temp matches 90 positioned 5998.5 25.5 508.5 run function ssbrc:maps/t/tower_of_fate/logic/explosion
 #execute if score #towerOfFateDestroyedTimer temp matches 90 run
 execute if score #towerOfFateDestroyedTimer temp matches 110 positioned 6002.5 25.5 509.5 run function ssbrc:maps/t/tower_of_fate/logic/explosion
 #execute if score #towerOfFateDestroyedTimer temp matches 110 run
+execute if score #towerOfFateDestroyedTimer temp matches 110 run fill 5998 23 506 6002 24 511 minecraft:air replace
+
+execute if score #towerOfFateDestroyedTimer temp matches 90 positioned 5998.5 25.5 508.5 run function ssbrc:maps/t/tower_of_fate/logic/explosion
+#execute if score #towerOfFateDestroyedTimer temp matches 90 run
+execute if score #towerOfFateDestroyedTimer temp matches 110 positioned 6002.5 25.5 509.5 run function ssbrc:maps/t/tower_of_fate/logic/explosion
+#execute if score #towerOfFateDestroyedTimer temp matches 110 run
+execute if score #towerOfFateDestroyedTimer temp matches 110 run fill 5998 23 506 6002 24 511 minecraft:air replace
 
 execute if score #towerOfFateDestroyedTimer temp matches 135 positioned 6007.5 22.5 497.5 run function ssbrc:maps/t/tower_of_fate/logic/explosion
 execute if score #towerOfFateDestroyedTimer temp matches 150 positioned 5995.5 22.5 508.5 run function ssbrc:maps/t/tower_of_fate/logic/explosion
@@ -30,7 +41,7 @@ execute if score #towerOfFateDestroyedTimer temp matches 115 positioned 6002.5 2
 execute if score #towerOfFateDestroyedTimer temp matches 160 positioned 6000.5 22.5 500.5 run function ssbrc:maps/t/tower_of_fate/logic/explosion
 execute if score #towerOfFateDestroyedTimer temp matches 160 run clone 6049 27 536 6073 27 560 5988 21 488
 
-execute if score #towerOfFateDestroyedTimer temp matches 160.. run scoreboard players reset #towerOfFateDestroyedTimer temp
+execute if score #towerOfFateDestroyedTimer temp matches 161.. run scoreboard players reset #towerOfFateDestroyedTimer temp
 
 # Lost City
 execute if score #towerOfFateLostCity temp matches 1 as @a[team=alive,gamemode=adventure,scores={respawn=..0}] at @s run function ssbrc:maps/t/tower_of_fate/logic/lower_towers/lost_city/mark_block
