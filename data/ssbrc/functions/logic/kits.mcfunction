@@ -20,13 +20,8 @@ item replace entity @s[tag=shovelknight] armor.feet with minecraft:diamond_boots
 
 function ssbrc:logic/characters/update_armor
 
-execute as @s[tag=!kirby] run attribute @s minecraft:generic.armor base set 6.0
-execute as @s[tag=ganondorf] run attribute @s minecraft:generic.armor base set 12.0
-execute as @s[tag=bowser] run attribute @s minecraft:generic.armor base set 12.0
-execute as @s[tag=kingkrool] run attribute @s minecraft:generic.armor base set 18.0
-
-attribute @s minecraft:generic.attack_damage base set 2.0
-attribute @s minecraft:generic.attack_speed base set 4.0
+function ssbrc:logic/characters/attributes
+function ssbrc:logic/characters/effects
 
 execute as @s[tag=bowser] run function ssbrc:characters/bowser/kit
 execute as @s[tag=captainfalcon] run function ssbrc:characters/captainfalcon/kit
@@ -53,23 +48,6 @@ execute as @s[tag=steve] run function ssbrc:characters/steve/kit
 execute as @s[tag=alteredbeast] run function ssbrc:characters/alteredbeast/kits/human
 execute as @s[tag=alucard] run function ssbrc:characters/alucard/kit
 execute as @s[tag=shovelknight] run function ssbrc:characters/shovelknight/kit
-
-effect give @s minecraft:saturation 1000000 255 true
-
-effect give @s[tag=!snake] minecraft:glowing 1000000 255 true
-
-effect give @s[tag=!alteredbeast.form.warebear,tag=!bowser,tag=!donkeykong,tag=!ganondorf,tag=!kingkrool,tag=!mario] minecraft:jump_boost 1000000 1 true
-effect give @s[tag=alteredbeast.form.warebear] minecraft:jump_boost 1000000 0 true
-effect give @s[tag=bowser] minecraft:jump_boost 1000000 0 true
-effect give @s[tag=donkeykong] minecraft:jump_boost 1000000 0 true
-effect give @s[tag=ganondorf] minecraft:jump_boost 1000000 0 true
-effect give @s[tag=kingkrool] minecraft:jump_boost 1000000 0 true
-effect give @s[tag=mario] minecraft:jump_boost 1000000 2 true
-
-effect give @s[tag=greninja] minecraft:conduit_power 1000000 255 true
-effect give @s[tag=greninja] minecraft:dolphins_grace 1000000 255 true
-
-execute at @s[tag=shiny] run particle minecraft:electric_spark ~ ~0.5 ~ 0.2 0.2 0.2 1.5 5 normal @s
 
 scoreboard players set @s cooldown.1 0
 scoreboard players set @s cooldown.2 0

@@ -19,15 +19,3 @@ scoreboard players set @s[tag=snake.socom] snake.socomA 8
 scoreboard players set @s[tag=snake.socom] snake.socomF 0
 scoreboard players set @s[tag=snake.sg] snake.sgA 2
 scoreboard players set @s[tag=snake.sg] snake.sgF 0
-
-execute as @s[scores={snake.capacity=0}] run attribute @s generic.movement_speed base set 0.105
-execute as @s[scores={snake.capacity=1}] run attribute @s generic.movement_speed base set 0.099
-execute as @s[scores={snake.capacity=2}] run attribute @s generic.movement_speed base set 0.098
-execute as @s[scores={snake.capacity=3}] run attribute @s generic.movement_speed base set 0.097
-execute as @s[scores={snake.capacity=4}] run attribute @s generic.movement_speed base set 0.096
-execute as @s[scores={snake.capacity=5}] run attribute @s generic.movement_speed base set 0.095
-execute as @s[scores={snake.capacity=6}] run attribute @s generic.movement_speed base set 0.094
-execute as @s[scores={snake.capacity=7}] run attribute @s generic.movement_speed base set 0.093
-execute as @s[scores={snake.capacity=8}] run attribute @s generic.movement_speed base set 0.092
-execute as @s[scores={snake.capacity=9}] run attribute @s generic.movement_speed base set 0.091
-execute as @s[scores={snake.capacity=10}] run attribute @s generic.movement_speed base set 0.090

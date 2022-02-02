@@ -62,24 +62,5 @@ give @s[tag=charizard] minecraft:arrow 4
 give @s[tag=fox] minecraft:arrow 4
 give @s[tag=link] minecraft:arrow 5
 
-# Effects
-effect give @s minecraft:saturation 1000000 255 true
-
-execute unless score $blackout temp matches 1 run effect give @s[tag=!snake] minecraft:glowing 1000000 255 true
-
-effect give @s[tag=!alteredbeast.form.warebear,tag=!bowser,tag=!donkeykong,tag=!ganondorf,tag=!kingkrool,tag=!mario] minecraft:jump_boost 1000000 1 true
-effect give @s[tag=alteredbeast.form.warebear] minecraft:jump_boost 1000000 0 true
-effect give @s[tag=boswer] minecraft:jump_boost 1000000 0 true
-effect give @s[tag=donkeykong] minecraft:jump_boost 1000000 0 true
-effect give @s[tag=ganondorf] minecraft:jump_boost 1000000 0 true
-effect give @s[tag=kingkrool] minecraft:jump_boost 1000000 0 true
-effect give @s[tag=mario] minecraft:jump_boost 1000000 2 true
-
-effect give @s[tag=greninja] minecraft:conduit_power 1000000 255 true
-effect give @s[tag=greninja] minecraft:dolphins_grace 1000000 255 true
-
-attribute @s[tag=!kirby] minecraft:generic.armor base set 6.0
-attribute @s[tag=alteredbeast.form.warebear] minecraft:generic.armor base set 12.0
-attribute @s[tag=ganondorf] minecraft:generic.armor base set 12.0
-attribute @s[tag=bowser] minecraft:generic.armor base set 12.0
-attribute @s[tag=kingkrool] minecraft:generic.armor base set 18.0
+function ssbrc:logic/characters/effects
+function ssbrc:logic/characters/attributes
