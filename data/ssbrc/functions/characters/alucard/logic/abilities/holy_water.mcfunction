@@ -24,3 +24,4 @@ tag @e[tag=projectile] remove projectile
 kill @e[tag=direction]
 
 scoreboard players set @s cooldown.2 300
+tag @s remove alucard.ability
