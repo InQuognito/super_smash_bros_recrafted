@@ -4,6 +4,9 @@ scoreboard players set $songCount map 2
 scoreboard players set #mapPicked mapVote 1
 forceload add 784 -64 831 -1
 
+forceload add 592 -64 687 -33
+forceload add 528 -208 639 -81
+
 kill @e[type=!minecraft:player]
 
 # Palkia
