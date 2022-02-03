@@ -1,0 +1,16 @@
+{
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:item_durability_changed",
+			"conditions": {
+				"durability": 0,
+				"item": {
+					"nbt": "{aymr:1}"
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "ssbrc:characters/byleth/logic/break_aymr"
+	}
+}

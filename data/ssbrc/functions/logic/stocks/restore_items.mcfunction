@@ -1,4 +1,7 @@
 # Items
+clear @s minecraft:shield
+item replace entity @s[tag=byleth.blackEagles] weapon.offhand with minecraft:shield{Damage:310,HideFlags:127} 1
+
 clear @s[tag=captainfalcon] minecraft:golden_sword{falconpunch:1}
 item replace entity @s[tag=captainfalcon] hotbar.2 with minecraft:golden_sword{Damage:33,AttributeModifiers:[{AttributeName:"generic.attack_damage",Amount:17,Slot:mainhand,Name:"generic.attack_damage",UUID:[I;-121512,40620,123840,-81240]},{AttributeName:"generic.attack_speed",Amount:-3,Slot:mainhand,Name:"generic.attack_speed",UUID:[I;-121512,40720,123840,-81440]},{AttributeName:"generic.movement_speed",Amount:-.05,Slot:mainhand,Name:"generic.movement_speed",UUID:[I;-121512,40820,123840,-81640]}],display:{Name:'[{"text":"Falcon Punch","italic":false,"color":"gold","bold":true}]'},Enchantments:[{id:"fire_aspect",lvl:2},{id:"knockback",lvl:1}],HideFlags:127} 1
 
@@ -56,6 +59,7 @@ clear @s[tag=alteredbeast.form.waretiger] minecraft:firework_rocket
 item replace entity @s[tag=alteredbeast.form.waretiger] weapon.mainhand with minecraft:trident{Unbreakable:1,AttributeModifiers:[{AttributeName:"generic.attack_damage",Amount:6,Slot:mainhand,Name:"generic.attack_damage",UUID:[I;-12164,22807,92130,-45614]},{AttributeName:"generic.attack_speed",Amount:-1.9,Slot:mainhand,Name:"generic.attack_speed",UUID:[I;-12164,22907,92130,-45814]}],display:{Name:'[{"text":"Enchanted Tiger Claws","italic":false,"color":"dark_aqua","bold":true}]'},Enchantments:[{id:"minecraft:loyalty",lvl:3}],HideFlags:127} 1
 item replace entity @s[tag=alteredbeast.form.waretiger] weapon.offhand with minecraft:firework_rocket{Fireworks:{Flight:3,Explosions:[{Type:1,Flicker:1b,Trail:1b,Colors:[I;14602026,14597930,14593834],FadeColors:[I;17233746]}]},display:{Name:'[{"text":"Golden Shower","italic":false,"bold":true,"color":"gold"}]'}} 3
 
+give @s[tag=byleth.blackEagles] minecraft:arrow 4
 clear @s[tag=captainfalcon] minecraft:arrow
 give @s[tag=captainfalcon] minecraft:arrow 5
 give @s[tag=charizard] minecraft:arrow 4
