@@ -7,6 +7,7 @@ tellraw @s[tag=snake.default] [{"text":"Costume: ","color":"yellow"},{"text":"De
 function ssbrc:logic/resets/tags/characters
 tag @s add snake
 
+tag @s remove snake.selectingLoadout
 tag @s add characterPicked
 
 team leave @s
