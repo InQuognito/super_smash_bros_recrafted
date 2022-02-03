@@ -17,7 +17,7 @@ execute as @a[nbt={SelectedItem:{tag:{slot:3}}}] store result score @s favorite.
 
 # Favorites
 execute as @a[tag=!bowser,predicate=!ssbrc:sneaking,scores={selectFavorite=1..,favorite.temp=60}] run function ssbrc:characters/bowser/menu/select_character
-execute as @a[tag=!byleth,predicate=!ssbrc:sneaking,scores={selectFavorite=1..,favorite.temp=100}] run function ssbrc:characters/byleth/menu/select_character
+execute as @a[tag=!byleth,predicate=!ssbrc:sneaking,scores={selectFavorite=1..,favorite.temp=100}] run function ssbrc:characters/byleth/menu/loadout/prompt
 execute as @a[tag=!captainfalcon,predicate=!ssbrc:sneaking,scores={selectFavorite=1..,favorite.temp=120}] run function ssbrc:characters/captainfalcon/menu/select_character
 execute as @a[tag=!charizard,predicate=!ssbrc:sneaking,scores={selectFavorite=1..,favorite.temp=140}] run function ssbrc:characters/charizard/menu/select_character
 execute as @a[tag=!donkeykong,predicate=!ssbrc:sneaking,scores={selectFavorite=1..,favorite.temp=300}] run function ssbrc:characters/donkeykong/menu/select_character
