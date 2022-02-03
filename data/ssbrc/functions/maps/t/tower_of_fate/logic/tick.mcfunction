@@ -43,5 +43,8 @@ execute if score #towerOfFateDestroyedTimer temp matches 300 run clone 6049 27 5
 
 execute if score #towerOfFateDestroyedTimer temp matches 301.. run scoreboard players reset #towerOfFateDestroyedTimer temp
 
+# Explodatorium
+execute if score #towerOfFateLostCity temp matches 1 as @a[team=alive,gamemode=adventure,scores={respawn=..0}] at @s run function ssbrc:maps/t/tower_of_fate/logic/lower_towers/explodatorium/mark_block
+
 # Lost City
 execute if score #towerOfFateLostCity temp matches 1 as @a[team=alive,gamemode=adventure,scores={respawn=..0}] at @s run function ssbrc:maps/t/tower_of_fate/logic/lower_towers/lost_city/mark_block
