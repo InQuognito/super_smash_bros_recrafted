@@ -7,7 +7,7 @@ execute if score @s[tag=!mapRoom,tag=!bowser] menu matches 61 run function ssbrc
 execute if score @s[tag=!mapRoom,tag=!bowser] menu matches 62 run function ssbrc:characters/bowser/menu/favorite
 execute if score @s[tag=!mapRoom,tag=!bowser] menu matches 63 run function ssbrc:characters/bowser/menu/skin_options
 
-execute if score @s[tag=!mapRoom,tag=!byleth] menu matches 100 run function ssbrc:characters/byleth/menu/select_character
+execute if score @s[tag=!mapRoom,tag=!byleth] menu matches 100 run function ssbrc:characters/byleth/menu/loadout/prompt
 execute if score @s[tag=!mapRoom,tag=!byleth] menu matches 101 run function ssbrc:characters/byleth/menu/skin_options
 execute if score @s[tag=!mapRoom,tag=!byleth] menu matches 102 run function ssbrc:characters/byleth/menu/favorite
 execute if score @s[tag=!mapRoom,tag=!byleth] menu matches 103 run function ssbrc:characters/byleth/menu/skin_options

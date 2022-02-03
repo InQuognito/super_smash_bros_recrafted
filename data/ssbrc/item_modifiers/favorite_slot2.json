@@ -45,6 +45,38 @@
 		"function": "minecraft:set_name",
 		"entity": "this",
 		"name": {
+			"text": "Byleth",
+			"color": "blue",
+			"bold": true,
+			"italic": false
+		},
+		"conditions": [
+			{
+				"condition": "minecraft:entity_scores",
+				"entity": "this",
+				"scores": {
+					"favorite.slot2": 100
+				}
+			}
+		]
+	},
+	{
+		"function": "minecraft:set_nbt",
+		"tag": "{CustomModelData:100}",
+		"conditions": [
+			{
+				"condition": "minecraft:entity_scores",
+				"entity": "this",
+				"scores": {
+					"favorite.slot2": 100
+				}
+			}
+		]
+	},
+	{
+		"function": "minecraft:set_name",
+		"entity": "this",
+		"name": {
 			"text": "Captain Falcon",
 			"color": "red",
 			"bold": true,
