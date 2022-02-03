@@ -25,6 +25,7 @@ function ssbrc:logic/characters/attributes
 function ssbrc:logic/characters/effects
 
 execute as @s[tag=bowser] run function ssbrc:characters/bowser/kit
+execute as @s[tag=byleth] run function ssbrc:characters/byleth/kit
 execute as @s[tag=captainfalcon] run function ssbrc:characters/captainfalcon/kit
 execute as @s[tag=charizard] run function ssbrc:characters/charizard/kit
 execute as @s[tag=donkeykong] run function ssbrc:characters/donkeykong/kit

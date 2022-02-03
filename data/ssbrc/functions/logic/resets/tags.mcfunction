@@ -2,6 +2,7 @@
 tag @s remove alteredbeast
 tag @s remove alucard
 tag @s remove bowser
+tag @s remove byleth
 tag @s remove captainfalcon
 tag @s remove charizard
 tag @s remove donkeykong
@@ -28,6 +29,7 @@ tag @s remove steve
 tag @s remove favoritetry.alteredbeast
 tag @s remove favoritetry.alucard
 tag @s remove favoritetry.bowser
+tag @s remove favoritetry.byleth
 tag @s remove favoritetry.captainfalcon
 tag @s remove favoritetry.charizard
 tag @s remove favoritetry.donkeykong
@@ -50,89 +52,11 @@ tag @s remove favoritetry.snake
 tag @s remove favoritetry.sonic
 tag @s remove favoritetry.steve
 
-tag @s remove favorite.slot1
-tag @s remove favorite.slot2
-tag @s remove favorite.slot3
-
-tag @s[tag=favorite.slot1.alteredbeast] add favorite.slot1
-tag @s[tag=favorite.slot1.alucard] add favorite.slot1
-tag @s[tag=favorite.slot1.bowser] add favorite.slot1
-tag @s[tag=favorite.slot1.captainfalcon] add favorite.slot1
-tag @s[tag=favorite.slot1.charizard] add favorite.slot1
-tag @s[tag=favorite.slot1.donkeykong] add favorite.slot1
-tag @s[tag=favorite.slot1.fox] add favorite.slot1
-tag @s[tag=favorite.slot1.ganondorf] add favorite.slot1
-tag @s[tag=favorite.slot1.greninja] add favorite.slot1
-tag @s[tag=favorite.slot1.hero] add favorite.slot1
-tag @s[tag=favorite.slot1.joker] add favorite.slot1
-tag @s[tag=favorite.slot1.kingkrool] add favorite.slot1
-tag @s[tag=favorite.slot1.kirby] add favorite.slot1
-tag @s[tag=favorite.slot1.link] add favorite.slot1
-tag @s[tag=favorite.slot1.mario] add favorite.slot1
-tag @s[tag=favorite.slot1.megaman] add favorite.slot1
-tag @s[tag=favorite.slot1.ness] add favorite.slot1
-tag @s[tag=favorite.slot1.pit] add favorite.slot1
-tag @s[tag=favorite.slot1.ryu] add favorite.slot1
-tag @s[tag=favorite.slot1.samus] add favorite.slot1
-tag @s[tag=favorite.slot1.shovelknight] add favorite.slot1
-tag @s[tag=favorite.slot1.snake] add favorite.slot1
-tag @s[tag=favorite.slot1.sonic] add favorite.slot1
-tag @s[tag=favorite.slot1.steve] add favorite.slot1
-
-tag @s[tag=favorite.slot2.alteredbeast] add favorite.slot2
-tag @s[tag=favorite.slot2.alucard] add favorite.slot2
-tag @s[tag=favorite.slot2.bowser] add favorite.slot2
-tag @s[tag=favorite.slot2.captainfalcon] add favorite.slot2
-tag @s[tag=favorite.slot2.charizard] add favorite.slot2
-tag @s[tag=favorite.slot2.donkeykong] add favorite.slot2
-tag @s[tag=favorite.slot2.fox] add favorite.slot2
-tag @s[tag=favorite.slot2.ganondorf] add favorite.slot2
-tag @s[tag=favorite.slot2.greninja] add favorite.slot2
-tag @s[tag=favorite.slot2.hero] add favorite.slot2
-tag @s[tag=favorite.slot2.joker] add favorite.slot2
-tag @s[tag=favorite.slot2.kingkrool] add favorite.slot2
-tag @s[tag=favorite.slot2.kirby] add favorite.slot2
-tag @s[tag=favorite.slot2.link] add favorite.slot2
-tag @s[tag=favorite.slot2.mario] add favorite.slot2
-tag @s[tag=favorite.slot2.megaman] add favorite.slot2
-tag @s[tag=favorite.slot2.ness] add favorite.slot2
-tag @s[tag=favorite.slot2.pit] add favorite.slot2
-tag @s[tag=favorite.slot2.ryu] add favorite.slot2
-tag @s[tag=favorite.slot2.samus] add favorite.slot2
-tag @s[tag=favorite.slot2.shovelknight] add favorite.slot2
-tag @s[tag=favorite.slot2.snake] add favorite.slot2
-tag @s[tag=favorite.slot2.sonic] add favorite.slot2
-tag @s[tag=favorite.slot2.steve] add favorite.slot2
-
-tag @s[tag=favorite.slot3.alteredbeast] add favorite.slot3
-tag @s[tag=favorite.slot3.alucard] add favorite.slot3
-tag @s[tag=favorite.slot3.bowser] add favorite.slot3
-tag @s[tag=favorite.slot3.captainfalcon] add favorite.slot3
-tag @s[tag=favorite.slot3.charizard] add favorite.slot3
-tag @s[tag=favorite.slot3.donkeykong] add favorite.slot3
-tag @s[tag=favorite.slot3.fox] add favorite.slot3
-tag @s[tag=favorite.slot3.ganondorf] add favorite.slot3
-tag @s[tag=favorite.slot3.greninja] add favorite.slot3
-tag @s[tag=favorite.slot3.hero] add favorite.slot3
-tag @s[tag=favorite.slot3.joker] add favorite.slot3
-tag @s[tag=favorite.slot3.kingkrool] add favorite.slot3
-tag @s[tag=favorite.slot3.kirby] add favorite.slot3
-tag @s[tag=favorite.slot3.link] add favorite.slot3
-tag @s[tag=favorite.slot3.mario] add favorite.slot3
-tag @s[tag=favorite.slot3.megaman] add favorite.slot3
-tag @s[tag=favorite.slot3.ness] add favorite.slot3
-tag @s[tag=favorite.slot3.pit] add favorite.slot3
-tag @s[tag=favorite.slot3.ryu] add favorite.slot3
-tag @s[tag=favorite.slot3.samus] add favorite.slot3
-tag @s[tag=favorite.slot3.shovelknight] add favorite.slot3
-tag @s[tag=favorite.slot3.snake] add favorite.slot3
-tag @s[tag=favorite.slot3.sonic] add favorite.slot3
-tag @s[tag=favorite.slot3.steve] add favorite.slot3
-
 # Costumes
 execute as @a run function ssbrc:characters/alteredbeast/menu/costumes/reset
 execute as @a run function ssbrc:characters/alucard/menu/costumes/reset
 execute as @a run function ssbrc:characters/bowser/menu/costumes/reset
+execute as @a run function ssbrc:characters/byleth/menu/costumes/reset
 execute as @a run function ssbrc:characters/captainfalcon/menu/costumes/reset
 execute as @a run function ssbrc:characters/charizard/menu/costumes/reset
 execute as @a run function ssbrc:characters/donkeykong/menu/costumes/reset

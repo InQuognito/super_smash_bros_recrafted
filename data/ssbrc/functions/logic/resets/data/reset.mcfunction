@@ -3,6 +3,7 @@ advancement revoke @s everything
 scoreboard players reset @s alteredbeast.k
 scoreboard players reset @s alucard.k
 scoreboard players reset @s bowser.k
+scoreboard players reset @s byleth.k
 scoreboard players reset @s captainfalcon.k
 scoreboard players reset @s charizard.k
 scoreboard players reset @s donkeykong.k
@@ -28,6 +29,7 @@ scoreboard players reset @s steve.k
 scoreboard players reset @s alteredbeast.gP
 scoreboard players reset @s alucard.gP
 scoreboard players reset @s bowser.gP
+scoreboard players reset @s byleth.gP
 scoreboard players reset @s captainfalcon.gP
 scoreboard players reset @s charizard.gP
 scoreboard players reset @s donkeykong.gP
@@ -53,6 +55,7 @@ scoreboard players reset @s steve.gP
 scoreboard players reset @s alteredbeast.wS
 scoreboard players reset @s alucard.wS
 scoreboard players reset @s bowser.wS
+scoreboard players reset @s byleth.wS
 scoreboard players reset @s captainfalcon.wS
 scoreboard players reset @s charizard.wS
 scoreboard players reset @s donkeykong.wS

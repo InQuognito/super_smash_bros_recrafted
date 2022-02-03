@@ -33,6 +33,7 @@ schedule function ssbrc:logic/resets/lobby 1s replace
 ###########################################################
 # REMOVE - UNLOCKS (MOST) COSTUMES ON RELOAD - DEBUG ONLY #
 ###########################################################
+advancement grant @a only ssbrc:characters/byleth/costumes/female
 advancement grant @a only ssbrc:characters/donkeykong/costumes/super
 advancement grant @a only ssbrc:characters/hero/costumes/erdick
 advancement grant @a only ssbrc:characters/hero/costumes/rek

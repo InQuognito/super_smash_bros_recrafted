@@ -14,6 +14,32 @@
 	},
 	{
 		"function": "minecraft:set_nbt",
+		"tag": "{display:{color:2631720}}",
+		"conditions": [
+			{
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"nbt": "{Tags:[\"byleth\",\"byleth.default\"]}"
+				}
+			}
+		]
+	},
+	{
+		"function": "minecraft:set_nbt",
+		"tag": "{display:{color:2631720}}",
+		"conditions": [
+			{
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"nbt": "{Tags:[\"byleth\",\"byleth.female\"]}"
+				}
+			}
+		]
+	},
+	{
+		"function": "minecraft:set_nbt",
 		"tag": "{display:{color:15766848}}",
 		"conditions": [
 			{

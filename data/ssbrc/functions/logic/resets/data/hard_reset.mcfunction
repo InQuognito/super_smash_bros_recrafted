@@ -4,6 +4,7 @@ function ssbrc:logic/resets/scoreboards/remove
 scoreboard objectives remove alteredbeast.k
 scoreboard objectives remove alucard.k
 scoreboard objectives remove bowser.k
+scoreboard objectives remove byleth.k
 scoreboard objectives remove captainfalcon.k
 scoreboard objectives remove charizard.k
 scoreboard objectives remove donkeykong.k
@@ -30,6 +31,7 @@ scoreboard objectives remove steve.k
 scoreboard objectives remove alteredbeast.gP
 scoreboard objectives remove alucard.gP
 scoreboard objectives remove bowser.gP
+scoreboard objectives remove byleth.gP
 scoreboard objectives remove captainfalcon.gP
 scoreboard objectives remove charizard.gP
 scoreboard objectives remove donkeykong.gP
@@ -56,6 +58,7 @@ scoreboard objectives remove steve.gP
 scoreboard objectives remove alteredbeast.wS
 scoreboard objectives remove alucard.wS
 scoreboard objectives remove bowser.wS
+scoreboard objectives remove byleth.wS
 scoreboard objectives remove captainfalcon.wS
 scoreboard objectives remove charizard.wS
 scoreboard objectives remove donkeykong.wS

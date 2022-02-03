@@ -1,4 +1,5 @@
 execute if entity @s[tag=favoritetry.bowser] run scoreboard players set @s favorite.slot1 60
+execute if entity @s[tag=favoritetry.byleth] run scoreboard players set @s favorite.slot1 100
 execute if entity @s[tag=favoritetry.captainfalcon] run scoreboard players set @s favorite.slot1 120
 execute if entity @s[tag=favoritetry.charizard] run scoreboard players set @s favorite.slot1 140
 execute if entity @s[tag=favoritetry.donkeykong] run scoreboard players set @s favorite.slot1 300

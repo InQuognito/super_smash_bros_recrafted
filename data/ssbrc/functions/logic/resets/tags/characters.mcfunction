@@ -1,6 +1,7 @@
 tag @s remove alteredbeast
 tag @s remove alucard
 tag @s remove bowser
+tag @s remove byleth
 tag @s remove captainfalcon
 tag @s remove charizard
 tag @s remove donkeykong
