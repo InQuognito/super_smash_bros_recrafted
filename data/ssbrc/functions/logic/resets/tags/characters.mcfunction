@@ -23,5 +23,6 @@ tag @s remove shovelknight
 tag @s remove snake
 tag @s remove sonic
 tag @s remove steve
+tag @s remove teamrocket
 
 tag @s remove characterPicked

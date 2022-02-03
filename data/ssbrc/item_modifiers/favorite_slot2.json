@@ -792,20 +792,52 @@
 				"condition": "minecraft:entity_scores",
 				"entity": "this",
 				"scores": {
-					"favorite.slot2": 2000
+					"favorite.slot2": 1920
 				}
 			}
 		]
 	},
 	{
 		"function": "minecraft:set_nbt",
-		"tag": "{CustomModelData:2000}",
+		"tag": "{CustomModelData:1920}",
 		"conditions": [
 			{
 				"condition": "minecraft:entity_scores",
 				"entity": "this",
 				"scores": {
-					"favorite.slot2": 2000
+					"favorite.slot2": 1920
+				}
+			}
+		]
+	},
+	{
+		"function": "minecraft:set_name",
+		"entity": "this",
+		"name": {
+			"text": "Team Rocket",
+			"color": "dark_purple",
+			"bold": true,
+			"italic": false
+		},
+		"conditions": [
+			{
+				"condition": "minecraft:entity_scores",
+				"entity": "this",
+				"scores": {
+					"favorite.slot2": 1940
+				}
+			}
+		]
+	},
+	{
+		"function": "minecraft:set_nbt",
+		"tag": "{CustomModelData:1940}",
+		"conditions": [
+			{
+				"condition": "minecraft:entity_scores",
+				"entity": "this",
+				"scores": {
+					"favorite.slot2": 1940
 				}
 			}
 		]

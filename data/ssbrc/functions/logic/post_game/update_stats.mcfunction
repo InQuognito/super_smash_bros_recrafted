@@ -23,6 +23,7 @@ scoreboard players add @a[team=!spectator,tag=shovelknight] shovelknight.gP 1
 scoreboard players add @a[team=!spectator,tag=snake] snake.gP 1
 scoreboard players add @a[team=!spectator,tag=sonic] sonic.gP 1
 scoreboard players add @a[team=!spectator,tag=steve] steve.gP 1
+scoreboard players add @a[team=!spectator,tag=teamrocket] teamrocket.gP 1
 
 scoreboard players reset @a[team=!spectator,tag=!winner,tag=alteredbeast] alteredbeast.wS
 scoreboard players reset @a[team=!spectator,tag=!winner,tag=alucard] alucard.wS
@@ -49,6 +50,7 @@ scoreboard players reset @a[team=!spectator,tag=!winner,tag=shovelknight] shovel
 scoreboard players reset @a[team=!spectator,tag=!winner,tag=snake] snake.wS
 scoreboard players reset @a[team=!spectator,tag=!winner,tag=sonic] sonic.wS
 scoreboard players reset @a[team=!spectator,tag=!winner,tag=steve] steve.wS
+scoreboard players reset @a[team=!spectator,tag=!winner,tag=teamrocket] teamrocket.wS
 
 scoreboard players reset @s[tag=!alteredbeast] alteredbeast.wS
 scoreboard players reset @s[tag=!alucard] alucard.wS
@@ -75,6 +77,7 @@ scoreboard players reset @s[tag=!shovelknight] shovelknight.wS
 scoreboard players reset @s[tag=!snake] snake.wS
 scoreboard players reset @s[tag=!sonic] sonic.wS
 scoreboard players reset @s[tag=!steve] steve.wS
+scoreboard players reset @s[tag=!teamrocket] teamrocket.wS
 
 scoreboard players add @s[tag=alteredbeast] alteredbeast.wS 1
 scoreboard players add @s[tag=alucard] alucard.wS 1
@@ -101,6 +104,7 @@ scoreboard players add @s[tag=shovelknight] shovelknight.wS 1
 scoreboard players add @s[tag=snake] snake.wS 1
 scoreboard players add @s[tag=sonic] sonic.wS 1
 scoreboard players add @s[tag=steve] steve.wS 1
+scoreboard players add @s[tag=teamrocket] teamrocket.wS 1
 
 scoreboard players add @s stats.wins 1
 scoreboard players add @a stats.gP 1

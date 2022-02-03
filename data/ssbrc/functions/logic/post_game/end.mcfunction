@@ -22,6 +22,7 @@ execute if entity @s[tag=samus] run title @a subtitle [{"text":"Selected Charact
 execute if entity @s[tag=snake] run title @a subtitle [{"text":"Selected Character: ","color":"gold"},{"text":"Snake","bold":true,"color":"yellow"}]
 execute if entity @s[tag=sonic] run title @a subtitle [{"text":"Selected Character: ","color":"gold"},{"text":"Sonic","bold":true,"color":"yellow"}]
 execute if entity @s[tag=steve] run title @a subtitle [{"text":"Selected Character: ","color":"gold"},{"text":"Steve","bold":true,"color":"yellow"}]
+execute if entity @s[tag=teamrocket] run title @a subtitle [{"text":"Selected Character: ","color":"gold"},{"text":"Team Rocket","bold":true,"color":"yellow"}]
 
 execute if entity @s[tag=alteredbeast] run title @a subtitle [{"text":"Selected Character: ","color":"gold"},{"text":"Altered Beast","bold":true,"color":"yellow"}]
 execute if entity @s[tag=alucard] run title @a subtitle [{"text":"Selected Character: ","color":"gold"},{"text":"Alucard","bold":true,"color":"yellow"}]

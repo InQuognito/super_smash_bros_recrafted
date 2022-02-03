@@ -124,10 +124,15 @@ execute if score @s[tag=!mapRoom,tag=!alucard] menu matches 1841 run function ss
 execute if score @s[tag=!mapRoom,tag=!alucard] menu matches 1842 run function ssbrc:characters/alucard/menu/favorite
 execute if score @s[tag=!mapRoom,tag=!alucard] menu matches 1843 run function ssbrc:characters/alucard/menu/skin_options
 
-execute if score @s[tag=!mapRoom,tag=!shovelknight] menu matches 2000 run function ssbrc:characters/shovelknight/menu/select_character
-execute if score @s[tag=!mapRoom,tag=!shovelknight] menu matches 2001 run function ssbrc:characters/shovelknight/menu/skin_options
-execute if score @s[tag=!mapRoom,tag=!shovelknight] menu matches 2002 run function ssbrc:characters/shovelknight/menu/favorite
-execute if score @s[tag=!mapRoom,tag=!shovelknight] menu matches 2003 run function ssbrc:characters/shovelknight/menu/skin_options
+execute if score @s[tag=!mapRoom,tag=!shovelknight] menu matches 1920 run function ssbrc:characters/shovelknight/menu/select_character
+execute if score @s[tag=!mapRoom,tag=!shovelknight] menu matches 1921 run function ssbrc:characters/shovelknight/menu/skin_options
+execute if score @s[tag=!mapRoom,tag=!shovelknight] menu matches 1922 run function ssbrc:characters/shovelknight/menu/favorite
+execute if score @s[tag=!mapRoom,tag=!shovelknight] menu matches 1923 run function ssbrc:characters/shovelknight/menu/skin_options
+
+execute if score @s[tag=!mapRoom,tag=!teamrocket] menu matches 1940 run function ssbrc:characters/teamrocket/menu/select_character
+execute if score @s[tag=!mapRoom,tag=!teamrocket] menu matches 1941 run function ssbrc:characters/teamrocket/menu/skin_options
+execute if score @s[tag=!mapRoom,tag=!teamrocket] menu matches 1942 run function ssbrc:characters/teamrocket/menu/favorite
+execute if score @s[tag=!mapRoom,tag=!teamrocket] menu matches 1943 run function ssbrc:characters/teamrocket/menu/skin_options
 
 scoreboard players reset @s menu
 scoreboard players enable @s menu

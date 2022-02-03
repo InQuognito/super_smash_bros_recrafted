@@ -25,6 +25,7 @@ scoreboard players reset @s shovelknight.k
 scoreboard players reset @s snake.k
 scoreboard players reset @s sonic.k
 scoreboard players reset @s steve.k
+scoreboard players reset @s teamrocket.k
 
 scoreboard players reset @s alteredbeast.gP
 scoreboard players reset @s alucard.gP
@@ -51,6 +52,7 @@ scoreboard players reset @s shovelknight.gP
 scoreboard players reset @s snake.gP
 scoreboard players reset @s sonic.gP
 scoreboard players reset @s steve.gP
+scoreboard players reset @s teamrocket.gP
 
 scoreboard players reset @s alteredbeast.wS
 scoreboard players reset @s alucard.wS
@@ -77,6 +79,7 @@ scoreboard players reset @s shovelknight.wS
 scoreboard players reset @s snake.wS
 scoreboard players reset @s sonic.wS
 scoreboard players reset @s steve.wS
+scoreboard players reset @s teamrocket.wS
 
 tellraw @s {"text":"All data has been successfully reset.","color":"dark_red"}
 scoreboard players reset @s reset

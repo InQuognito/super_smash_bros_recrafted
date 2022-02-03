@@ -26,6 +26,7 @@ scoreboard objectives remove shovelknight.k
 scoreboard objectives remove snake.k
 scoreboard objectives remove sonic.k
 scoreboard objectives remove steve.k
+scoreboard objectives remove teamrocket.k
 
 # Games Played
 scoreboard objectives remove alteredbeast.gP
@@ -53,6 +54,7 @@ scoreboard objectives remove shovelknight.gP
 scoreboard objectives remove snake.gP
 scoreboard objectives remove sonic.gP
 scoreboard objectives remove steve.gP
+scoreboard objectives remove teamrocket.gP
 
 # Win Streak
 scoreboard objectives remove alteredbeast.wS
@@ -80,6 +82,7 @@ scoreboard objectives remove shovelknight.wS
 scoreboard objectives remove snake.wS
 scoreboard objectives remove sonic.wS
 scoreboard objectives remove steve.wS
+scoreboard objectives remove teamrocket.wS
 
 # Options
 scoreboard objectives remove options

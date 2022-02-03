@@ -24,6 +24,7 @@ tag @s remove shovelknight
 tag @s remove snake
 tag @s remove sonic
 tag @s remove steve
+tag @s remove teamrocket
 
 # Favorites
 tag @s remove favoritetry.alteredbeast
@@ -51,6 +52,7 @@ tag @s remove favoritetry.shovelknight
 tag @s remove favoritetry.snake
 tag @s remove favoritetry.sonic
 tag @s remove favoritetry.steve
+tag @s remove favoritetry.teamrocket
 
 # Costumes
 execute as @a run function ssbrc:characters/alteredbeast/menu/costumes/reset
@@ -78,6 +80,7 @@ execute as @a run function ssbrc:characters/shovelknight/menu/costumes/reset
 execute as @a run function ssbrc:characters/snake/menu/costumes/reset
 execute as @a run function ssbrc:characters/sonic/menu/costumes/reset
 execute as @a run function ssbrc:characters/steve/menu/costumes/reset
+execute as @a run function ssbrc:characters/teamrocket/menu/costumes/reset
 
 function ssbrc:logic/resets/tags/maps
 
