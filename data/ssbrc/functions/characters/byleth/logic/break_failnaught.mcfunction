@@ -1,3 +1,4 @@
+clear @s minecraft:bow
 give @s minecraft:bow{Unbreakable:1,HideFlags:127} 1
 
 item replace entity @s hotbar.8 with minecraft:arrow 16
