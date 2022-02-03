@@ -2,7 +2,7 @@ summon minecraft:area_effect_cloud 56.5 8.0 156.5 {CustomName:'{"text":"Bowser",
 summon minecraft:armor_stand 56.5 6.0 158.5 {Tags:["lobbyStand","bowser","bowser.default"],Rotation:[180f,0f]}
 
 summon minecraft:area_effect_cloud 62.5 8.0 124.5 {CustomName:'{"text":"Byleth","color":"dark_blue"}',CustomNameVisible:1b,Age:-2147483648,Duration:-1,WaitTime:-2147483648}
-summon minecraft:armor_stand 60.5 6.0 124.5 {Tags:["lobbyStand","bowser","bowser.default"],Rotation:[-90f,0f]}
+summon minecraft:armor_stand 60.5 6.0 124.5 {Tags:["lobbyStand","byleth","byleth.default"],Rotation:[-90f,0f]}
 
 summon minecraft:area_effect_cloud 44.5 8.0 158.5 {CustomName:'{"text":"Captain Falcon","color":"red"}',CustomNameVisible:1b,Age:-2147483648,Duration:-1,WaitTime:-2147483648}
 summon minecraft:armor_stand 44.5 6.0 160.5 {Tags:["lobbyStand","captainfalcon","captainfalcon.default"],Rotation:[180f,0f],ArmorItems:[{id:"minecraft:golden_boots",Count:1b},{},{},{}]}
