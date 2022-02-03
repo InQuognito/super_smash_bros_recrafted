@@ -1,8 +1,6 @@
 kill @a[team=alive,scores={respawn=..0},predicate=ssbrc:below_y_-50]
 tp @a[scores={respawn=59},predicate=ssbrc:below_y_-50] @r[team=alive,scores={respawn=..0}]
 
-execute if score #towerOfFateClockworkTower temp matches 1 run kill @a[team=alive,scores={respawn=..0},x=5996.5,y=9.0,z=496.5,dx=8,dy=0,dz=8]
-
 # Destroy Tower
 execute if score #towerOfFateDestroyed temp matches 1 if score #towerOfFateDestroyedTimer temp matches 1.. run scoreboard players add #towerOfFateDestroyedTimer temp 1
 
@@ -43,8 +41,11 @@ execute if score #towerOfFateDestroyedTimer temp matches 300 run clone 6049 27 5
 
 execute if score #towerOfFateDestroyedTimer temp matches 301.. run scoreboard players reset #towerOfFateDestroyedTimer temp
 
+# Clockwork Tower
+execute if score $towerOfFateClockworkTower temp matches 1 run kill @a[team=alive,scores={respawn=..0},x=5996.5,y=9.0,z=496.5,dx=8,dy=0,dz=8]
+
 # Explodatorium
-execute if score #towerOfFateExplodatorium temp matches 1 as @a[team=alive,gamemode=adventure,scores={respawn=..0}] at @s run function ssbrc:maps/t/tower_of_fate/logic/lower_towers/explodatorium/mark_block
+execute if score $towerOfFateExplodatorium temp matches 1 as @a[team=alive,gamemode=adventure,scores={respawn=..0}] at @s run function ssbrc:maps/t/tower_of_fate/logic/lower_towers/explodatorium/mark_block
 
 # Lost City
-execute if score #towerOfFateLostCity temp matches 1 as @a[team=alive,gamemode=adventure,scores={respawn=..0}] at @s run function ssbrc:maps/t/tower_of_fate/logic/lower_towers/lost_city/mark_block
+execute if score $towerOfFateLostCity temp matches 1 as @a[team=alive,gamemode=adventure,scores={respawn=..0}] at @s run function ssbrc:maps/t/tower_of_fate/logic/lower_towers/lost_city/mark_block
