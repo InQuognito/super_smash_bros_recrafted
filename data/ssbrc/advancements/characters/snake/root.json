@@ -6,7 +6,7 @@
 		},
 		"title": {
 			"text": "Snake",
-			"color": "light_gray",
+			"color": "gray",
 			"bold": true,
 			"italic": false,
 			"extra": [

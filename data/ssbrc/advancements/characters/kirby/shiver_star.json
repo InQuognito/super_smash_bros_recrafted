@@ -12,7 +12,7 @@
 		},
 		"description": {
 			"text": "Explored ",
-			"color": "light_gray",
+			"color": "gray",
 			"bold": false,
 			"italic": false,
 			"extra": [
@@ -24,7 +24,7 @@
 				},
 				{
 					"text": " icy regions.",
-					"color": "light_gray",
+					"color": "gray",
 					"bold": false,
 					"italic": false
 				}
