@@ -41,8 +41,8 @@ execute as @a[tag=!steve,predicate=!ssbrc:sneaking,scores={selectFavorite=1..,fa
 
 execute as @a[tag=!alteredbeast,predicate=!ssbrc:sneaking,scores={selectFavorite=1..,favorite.temp=1820}] run function ssbrc:characters/alteredbeast/menu/select_character
 execute as @a[tag=!alucard,predicate=!ssbrc:sneaking,scores={selectFavorite=1..,favorite.temp=1840}] run function ssbrc:characters/alucard/menu/select_character
-execute as @a[tag=!shovelknight,predicate=!ssbrc:sneaking,scores={selectFavorite=1..,favorite.temp=2000}] run function ssbrc:characters/shovelknight/menu/select_character
-execute as @a[tag=!teamrocket,predicate=!ssbrc:sneaking,scores={selectFavorite=1..,favorite.temp=1919}] run function ssbrc:characters/teamrocket/menu/select_character
+execute as @a[tag=!shovelknight,predicate=!ssbrc:sneaking,scores={selectFavorite=1..,favorite.temp=1920}] run function ssbrc:characters/shovelknight/menu/select_character
+execute as @a[tag=!teamrocket,predicate=!ssbrc:sneaking,scores={selectFavorite=1..,favorite.temp=1940}] run function ssbrc:characters/teamrocket/menu/select_character
 
 execute as @a[predicate=ssbrc:sneaking,scores={selectFavorite=1..,favorite.temp=60}] run function ssbrc:characters/bowser/menu/prompt
 execute as @a[predicate=ssbrc:sneaking,scores={selectFavorite=1..,favorite.temp=100}] run function ssbrc:characters/byleth/menu/prompt
@@ -69,7 +69,7 @@ execute as @a[predicate=ssbrc:sneaking,scores={selectFavorite=1..,favorite.temp=
 
 execute as @a[predicate=ssbrc:sneaking,scores={selectFavorite=1..,favorite.temp=1820}] run function ssbrc:characters/alteredbeast/menu/prompt
 execute as @a[predicate=ssbrc:sneaking,scores={selectFavorite=1..,favorite.temp=1840}] run function ssbrc:characters/alucard/menu/prompt
-execute as @a[predicate=ssbrc:sneaking,scores={selectFavorite=1..,favorite.temp=2000}] run function ssbrc:characters/shovelknight/menu/prompt
-execute as @a[predicate=ssbrc:sneaking,scores={selectFavorite=1..,favorite.temp=1919}] run function ssbrc:characters/teamrocket/menu/prompt
+execute as @a[predicate=ssbrc:sneaking,scores={selectFavorite=1..,favorite.temp=1920}] run function ssbrc:characters/shovelknight/menu/prompt
+execute as @a[predicate=ssbrc:sneaking,scores={selectFavorite=1..,favorite.temp=1940}] run function ssbrc:characters/teamrocket/menu/prompt
 
 scoreboard players reset @a selectFavorite
