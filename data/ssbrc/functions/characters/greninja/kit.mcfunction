@@ -1,3 +1,4 @@
+tag @s[predicate=ssbrc:shiny_chance] add shiny
 execute if entity @s[tag=shiny] run advancement grant @a[team=alive] only ssbrc:characters/greninja/a_shiny_encounter
 
 function ssbrc:logic/characters/natures/select

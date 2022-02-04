@@ -12,6 +12,8 @@ attribute @s minecraft:generic.attack_damage base set 2.0
 attribute @s minecraft:generic.attack_speed base set 4.0
 
 # Movement Speed
+attribute @s generic.movement_speed base set 0.1
+
 attribute @s[tag=ganondorf] minecraft:generic.movement_speed base set 0.085
 attribute @s[tag=kingkrool] minecraft:generic.movement_speed base set 0.085
 attribute @s[tag=snake,scores={snake.capacity=0}] minecraft:generic.movement_speed base set 0.105
@@ -24,5 +26,7 @@ attribute @s[tag=snake,scores={snake.capacity=6}] minecraft:generic.movement_spe
 attribute @s[tag=snake,scores={snake.capacity=7}] minecraft:generic.movement_speed base set 0.093
 attribute @s[tag=snake,scores={snake.capacity=8}] minecraft:generic.movement_speed base set 0.092
 attribute @s[tag=snake,scores={snake.capacity=9}] minecraft:generic.movement_speed base set 0.091
-attribute @s[tag=snake,scores={snake.capacity=10}] minecraft:generic.movement_speed base set 0.090
+attribute @s[tag=snake,scores={snake.capacity=10}] minecraft:generic.movement_speed base set 0.09
 attribute @s[tag=sonic] minecraft:generic.movement_speed base set 0.15
+attribute @s[tag=teamrocket.meowth] minecraft:generic.movement_speed base set 0.125
+attribute @s[tag=teamrocket.wobbuffet] minecraft:generic.movement_speed base set 0.9

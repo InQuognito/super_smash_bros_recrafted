@@ -650,7 +650,7 @@
 				"condition": "minecraft:entity_properties",
 				"entity": "this",
 				"predicate": {
-					"nbt": "{Tags:[\"arbok\",\"arbok.default\"]}"
+					"nbt": "{Tags:[\"teamrocket.arbok\",\"teamrocket.default\"]}"
 				}
 			}
 		]
@@ -663,7 +663,7 @@
 				"condition": "minecraft:entity_properties",
 				"entity": "this",
 				"predicate": {
-					"nbt": "{Tags:[\"meowth\",\"meowth.default\"]}"
+					"nbt": "{Tags:[\"teamrocket.meowth\",\"teamrocket.default\"]}"
 				}
 			}
 		]
@@ -676,7 +676,7 @@
 				"condition": "minecraft:entity_properties",
 				"entity": "this",
 				"predicate": {
-					"nbt": "{Tags:[\"wobbuffet\",\"wobbuffet.default\"]}"
+					"nbt": "{Tags:[\"teamrocket.wobbuffet\",\"teamrocket.default\"]}"
 				}
 			}
 		]

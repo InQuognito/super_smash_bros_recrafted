@@ -1,29 +1,3 @@
-execute as @s[tag=charizard,predicate=ssbrc:shiny_chance] run tag @s add shiny
-execute as @s[tag=greninja,predicate=ssbrc:shiny_chance] run tag @s add shiny
-
-tag @s[tag=alteredbeast] add alteredbeast.form.human
-
-item replace entity @s armor.head with minecraft:barrier{HideFlags:127}
-
-item replace entity @s[tag=!ganondorf,tag=!kingkrool,tag=!pit,tag=!samus.default,tag=!shovelknight] armor.chest with minecraft:leather_chestplate{Unbreakable:1,HideFlags:127}
-item replace entity @a[tag=ganondorf] armor.chest with minecraft:netherite_chestplate{Unbreakable:1,HideFlags:127} 1
-item replace entity @a[tag=kingkrool] armor.chest with minecraft:golden_chestplate{Unbreakable:1,HideFlags:127} 1
-item replace entity @s[tag=pit] armor.chest with minecraft:elytra{Damage:417,HideFlags:127} 1
-item replace entity @a[tag=samus.default] armor.chest with minecraft:golden_chestplate{Unbreakable:1,HideFlags:127} 1
-item replace entity @a[tag=shovelknight] armor.chest with minecraft:diamond_chestplate{Unbreakable:1,HideFlags:127} 1
-
-item replace entity @s armor.legs with minecraft:leather_leggings{Unbreakable:1,HideFlags:127}
-
-item replace entity @s[tag=!captainfalcon,tag=!fox,tag=!shovelknight] armor.feet with minecraft:leather_boots{Unbreakable:1,HideFlags:127}
-item replace entity @s[tag=captainfalcon] armor.feet with minecraft:golden_boots{Unbreakable:1,HideFlags:127} 1
-item replace entity @s[tag=fox] armor.feet with minecraft:iron_boots{Unbreakable:1,HideFlags:127} 1
-item replace entity @s[tag=shovelknight] armor.feet with minecraft:diamond_boots{Unbreakable:1,HideFlags:127} 1
-
-function ssbrc:logic/characters/update_armor
-
-function ssbrc:logic/characters/attributes
-function ssbrc:logic/characters/effects
-
 execute as @s[tag=bowser] run function ssbrc:characters/bowser/kit
 execute as @s[tag=byleth] run function ssbrc:characters/byleth/kit
 execute as @s[tag=captainfalcon] run function ssbrc:characters/captainfalcon/kit
@@ -51,6 +25,27 @@ execute as @s[tag=alteredbeast] run function ssbrc:characters/alteredbeast/kits/
 execute as @s[tag=alucard] run function ssbrc:characters/alucard/kit
 execute as @s[tag=shovelknight] run function ssbrc:characters/shovelknight/kit
 execute as @s[tag=teamrocket] run function ssbrc:characters/teamrocket/kit
+
+item replace entity @s armor.head with minecraft:barrier{HideFlags:127}
+
+item replace entity @s[tag=!ganondorf,tag=!kingkrool,tag=!pit,tag=!samus.default,tag=!shovelknight] armor.chest with minecraft:leather_chestplate{Unbreakable:1,HideFlags:127}
+item replace entity @a[tag=ganondorf] armor.chest with minecraft:netherite_chestplate{Unbreakable:1,HideFlags:127} 1
+item replace entity @a[tag=kingkrool] armor.chest with minecraft:golden_chestplate{Unbreakable:1,HideFlags:127} 1
+item replace entity @s[tag=pit] armor.chest with minecraft:elytra{Damage:417,HideFlags:127} 1
+item replace entity @a[tag=samus.default] armor.chest with minecraft:golden_chestplate{Unbreakable:1,HideFlags:127} 1
+item replace entity @a[tag=shovelknight] armor.chest with minecraft:diamond_chestplate{Unbreakable:1,HideFlags:127} 1
+
+item replace entity @s armor.legs with minecraft:leather_leggings{Unbreakable:1,HideFlags:127}
+
+item replace entity @s[tag=!captainfalcon,tag=!fox,tag=!shovelknight] armor.feet with minecraft:leather_boots{Unbreakable:1,HideFlags:127}
+item replace entity @s[tag=captainfalcon] armor.feet with minecraft:golden_boots{Unbreakable:1,HideFlags:127} 1
+item replace entity @s[tag=fox] armor.feet with minecraft:iron_boots{Unbreakable:1,HideFlags:127} 1
+item replace entity @s[tag=shovelknight] armor.feet with minecraft:diamond_boots{Unbreakable:1,HideFlags:127} 1
+
+function ssbrc:logic/characters/update_armor
+
+function ssbrc:logic/characters/attributes
+function ssbrc:logic/characters/effects
 
 scoreboard players set @s cooldown.1 0
 scoreboard players set @s cooldown.2 0

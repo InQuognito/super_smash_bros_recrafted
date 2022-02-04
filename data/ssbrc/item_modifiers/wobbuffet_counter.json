@@ -1,0 +1,301 @@
+[
+	{
+		"function": "minecraft:set_nbt",
+		"tag": "{AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Amount:0.35,Slot:mainhand,Name:\"generic.attack_damage\",UUID:[I;-1211022,10969,201940,-21938]}]}",
+		"conditions": [
+			{
+				"condition": "minecraft:entity_scores",
+				"entity": "this",
+				"scores": {
+					"health": {
+						"max": 40,
+						"min": 37
+					}
+				}
+			},
+			{
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"equipment": {
+						"mainhand": {
+							"items": [
+								"minecraft:iron_sword"
+							],
+							"nbt": "{counter:1}"
+						}
+					}
+				}
+			}
+		]
+	},
+	{
+		"function": "minecraft:set_nbt",
+		"tag": "{AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Amount:1.00,Slot:mainhand,Name:\"generic.attack_damage\",UUID:[I;-1211022,10969,201940,-21938]}]}",
+		"conditions": [
+			{
+				"condition": "minecraft:entity_scores",
+				"entity": "this",
+				"scores": {
+					"health": {
+						"max": 36,
+						"min": 33
+					}
+				}
+			},
+			{
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"equipment": {
+						"mainhand": {
+							"items": [
+								"minecraft:iron_sword"
+							],
+							"nbt": "{counter:1}"
+						}
+					}
+				}
+			}
+		]
+	},
+	{
+		"function": "minecraft:set_nbt",
+		"tag": "{AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Amount:1.84,Slot:mainhand,Name:\"generic.attack_damage\",UUID:[I;-1211022,10969,201940,-21938]}]}",
+		"conditions": [
+			{
+				"condition": "minecraft:entity_scores",
+				"entity": "this",
+				"scores": {
+					"health": {
+						"max": 32,
+						"min": 29
+					}
+				}
+			},
+			{
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"equipment": {
+						"mainhand": {
+							"items": [
+								"minecraft:iron_sword"
+							],
+							"nbt": "{counter:1}"
+						}
+					}
+				}
+			}
+		]
+	},
+	{
+		"function": "minecraft:set_nbt",
+		"tag": "{AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Amount:2.83,Slot:mainhand,Name:\"generic.attack_damage\",UUID:[I;-1211022,10969,201940,-21938]}]}",
+		"conditions": [
+			{
+				"condition": "minecraft:entity_scores",
+				"entity": "this",
+				"scores": {
+					"health": {
+						"max": 28,
+						"min": 25
+					}
+				}
+			},
+			{
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"equipment": {
+						"mainhand": {
+							"items": [
+								"minecraft:iron_sword"
+							],
+							"nbt": "{counter:1}"
+						}
+					}
+				}
+			}
+		]
+	},
+	{
+		"function": "minecraft:set_nbt",
+		"tag": "{AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Amount:3.95,Slot:mainhand,Name:\"generic.attack_damage\",UUID:[I;-1211022,10969,201940,-21938]}]}",
+		"conditions": [
+			{
+				"condition": "minecraft:entity_scores",
+				"entity": "this",
+				"scores": {
+					"health": {
+						"max": 24,
+						"min": 21
+					}
+				}
+			},
+			{
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"equipment": {
+						"mainhand": {
+							"items": [
+								"minecraft:iron_sword"
+							],
+							"nbt": "{counter:1}"
+						}
+					}
+				}
+			}
+		]
+	},
+	{
+		"function": "minecraft:set_nbt",
+		"tag": "{AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Amount:5.20,Slot:mainhand,Name:\"generic.attack_damage\",UUID:[I;-1211022,10969,201940,-21938]}]}",
+		"conditions": [
+			{
+				"condition": "minecraft:entity_scores",
+				"entity": "this",
+				"scores": {
+					"health": {
+						"max": 20,
+						"min": 17
+					}
+				}
+			},
+			{
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"equipment": {
+						"mainhand": {
+							"items": [
+								"minecraft:iron_sword"
+							],
+							"nbt": "{counter:1}"
+						}
+					}
+				}
+			}
+		]
+	},
+	{
+		"function": "minecraft:set_nbt",
+		"tag": "{AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Amount:6.55,Slot:mainhand,Name:\"generic.attack_damage\",UUID:[I;-1211022,10969,201940,-21938]}]}",
+		"conditions": [
+			{
+				"condition": "minecraft:entity_scores",
+				"entity": "this",
+				"scores": {
+					"health": {
+						"max": 16,
+						"min": 13
+					}
+				}
+			},
+			{
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"equipment": {
+						"mainhand": {
+							"items": [
+								"minecraft:iron_sword"
+							],
+							"nbt": "{counter:1}"
+						}
+					}
+				}
+			}
+		]
+	},
+	{
+		"function": "minecraft:set_nbt",
+		"tag": "{AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Amount:8.00,Slot:mainhand,Name:\"generic.attack_damage\",UUID:[I;-1211022,10969,201940,-21938]}]}",
+		"conditions": [
+			{
+				"condition": "minecraft:entity_scores",
+				"entity": "this",
+				"scores": {
+					"health": {
+						"max": 12,
+						"min": 9
+					}
+				}
+			},
+			{
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"equipment": {
+						"mainhand": {
+							"items": [
+								"minecraft:iron_sword"
+							],
+							"nbt": "{counter:1}"
+						}
+					}
+				}
+			}
+		]
+	},
+	{
+		"function": "minecraft:set_nbt",
+		"tag": "{AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Amount:9.55,Slot:mainhand,Name:\"generic.attack_damage\",UUID:[I;-1211022,10969,201940,-21938]}]}",
+		"conditions": [
+			{
+				"condition": "minecraft:entity_scores",
+				"entity": "this",
+				"scores": {
+					"health": {
+						"max": 8,
+						"min": 5
+					}
+				}
+			},
+			{
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"equipment": {
+						"mainhand": {
+							"items": [
+								"minecraft:iron_sword"
+							],
+							"nbt": "{counter:1}"
+						}
+					}
+				}
+			}
+		]
+	},
+	{
+		"function": "minecraft:set_nbt",
+		"tag": "{AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Amount:11.18,Slot:mainhand,Name:\"generic.attack_damage\",UUID:[I;-1211022,10969,201940,-21938]}]}",
+		"conditions": [
+			{
+				"condition": "minecraft:entity_scores",
+				"entity": "this",
+				"scores": {
+					"health": {
+						"max": 4
+					}
+				}
+			},
+			{
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"equipment": {
+						"mainhand": {
+							"items": [
+								"minecraft:iron_sword"
+							],
+							"nbt": "{counter:1}"
+						}
+					}
+				}
+			}
+		]
+	}
+]
