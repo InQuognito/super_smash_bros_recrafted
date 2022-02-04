@@ -80,9 +80,9 @@ summon minecraft:armor_stand 66.5 6.0 131.5 {Tags:["lobbyStand","shovelknight","
 summon minecraft:area_effect_cloud 76.5 8.0 131.5 {CustomName:'{"text":"Team Rocket","color":"dark_purple"}',CustomNameVisible:1b,Age:-2147483648,Duration:-1,WaitTime:-2147483648}
 summon minecraft:armor_stand 77.5 6.0 129.5 {Tags:["lobbyStand","james"],Rotation:[45f,0f]}
 summon minecraft:armor_stand 77.5 6.0 133.5 {Tags:["lobbyStand","jesse"],Rotation:[135f,0f]}
-summon minecraft:armor_stand 78.5 6.0 130.5 {Tags:["lobbyStand","arbok","arbok.default"],Rotation:[67.5f,0f]}
-summon minecraft:armor_stand 78.5 6.0 131.5 {Tags:["lobbyStand","meowth","meowth.default"],Rotation:[90f,0f],Small:1b}
-summon minecraft:armor_stand 78.5 6.0 132.5 {Tags:["lobbyStand","wobbuffet","wobbuffet.default"],Rotation:[112.5f,0f]}
+summon minecraft:armor_stand 78.5 6.0 130.5 {Tags:["lobbyStand","teamrocket.arbok"],Rotation:[67.5f,0f]}
+summon minecraft:armor_stand 78.5 6.0 131.5 {Tags:["lobbyStand","teamrocket.meowth"],Rotation:[90f,0f],Small:1b}
+summon minecraft:armor_stand 78.5 6.0 132.5 {Tags:["lobbyStand","teamrocket.wobbuffet"],Rotation:[112.5f,0f]}
 
 summon minecraft:area_effect_cloud 35.5 6.25 152.5 {CustomName:'{"text":"Spectate","color":"white"}',CustomNameVisible:1b,Age:-2147483648,Duration:-1,WaitTime:-2147483648}
 summon minecraft:area_effect_cloud 72.5 6.25 115.5 {CustomName:'{"text":"Spectate","color":"white"}',CustomNameVisible:1b,Age:-2147483648,Duration:-1,WaitTime:-2147483648}
