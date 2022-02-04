@@ -23,7 +23,7 @@ execute if entity @s[tag=favoritetry.steve] run scoreboard players set @s favori
 
 execute if entity @s[tag=favoritetry.alteredbeast] run scoreboard players set @s favorite.slot2 1820
 execute if entity @s[tag=favoritetry.alucard] run scoreboard players set @s favorite.slot2 1840
-execute if entity @s[tag=favoritetry.shovelknight] run scoreboard players set @s favorite.slot2 2000
-execute if entity @s[tag=favoritetry.teamrocket] run scoreboard players set @s favorite.slot2 1919
+execute if entity @s[tag=favoritetry.shovelknight] run scoreboard players set @s favorite.slot2 1920
+execute if entity @s[tag=favoritetry.teamrocket] run scoreboard players set @s favorite.slot2 1940
 
 function ssbrc:logic/favorite/update

@@ -1,12 +1,4 @@
 {
-	"display": {
-		"icon": {
-			"item": "minecraft:stone"
-		},
-		"title": "aaa",
-		"description": "",
-		"announce_to_chat": true
-	},
 	"criteria": {
 		"requirement": {
 			"trigger": "minecraft:item_durability_changed",
