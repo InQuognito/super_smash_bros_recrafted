@@ -3,8 +3,10 @@
 		"requirement": {
 			"trigger": "minecraft:item_durability_changed",
 			"conditions": {
-				"durability": 1,
 				"item": {
+					"durability": {
+						"min": 1
+					},
 					"nbt": "{areadbhar:1}"
 				}
 			}
