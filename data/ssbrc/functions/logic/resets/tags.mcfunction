@@ -93,6 +93,9 @@ tag @s remove alteredbeast.form.warebear
 tag @s remove alteredbeast.form.waredragon
 tag @s remove alteredbeast.form.waretiger
 tag @s remove alteredbeast.form.warewolf
+tag @s remove byleth.blackEagles
+tag @s remove byleth.blueLions
+tag @s remove byleth.goldenDeer
 tag @s remove byleth.selectingLoadout
 tag @s remove byleth.weaponBroken
 tag @s remove characterPicked
