@@ -1,5 +1,6 @@
 function ssbrc:characters/teamrocket/kits/reset
 tag @s add teamrocket.meowth
+tag @s add teamrocket.picked
 tellraw @s {"text":"Das right!","color":"yellow"}
 
 clear @s

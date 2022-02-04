@@ -1,4 +1,5 @@
 function ssbrc:characters/teamrocket/kits/reset
+tag @s add teamrocket.picked
 tag @s add teamrocket.arbok
 tellraw @s {"text":"Hissssss!","color":"light_purple"}
 

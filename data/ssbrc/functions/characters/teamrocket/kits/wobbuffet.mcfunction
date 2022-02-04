@@ -1,5 +1,6 @@
 function ssbrc:characters/teamrocket/kits/reset
 tag @s add teamrocket.wobbuffet
+tag @s add teamrocket.picked
 tellraw @s {"text":"Wobbu-Wobb!","color":"aqua"}
 
 clear @s
