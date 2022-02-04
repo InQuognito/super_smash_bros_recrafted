@@ -47,7 +47,7 @@ summon minecraft:area_effect_cloud 32.5 8.0 159.5 {CustomName:'{"text":"Ness","c
 summon minecraft:armor_stand 32.5 6.0 161.5 {Tags:["lobbyStand","ness","ness.default"],Rotation:[-180f,0f]}
 
 summon minecraft:area_effect_cloud 51.5 8.0 148.5 {CustomName:'{"text":"Pit","color":"white"}',CustomNameVisible:1b,Age:-2147483648,Duration:-1,WaitTime:-2147483648}
-summon minecraft:armor_stand 51.5 6.0 146.5 {Tags:["lobbyStand","pit","pit.default"],Rotation:[0f,0f],ArmorItems:[{},{},{id:"minecraft:elytra",Count:1b},{}]}
+summon minecraft:armor_stand 51.5 6.0 146.5 {Tags:["lobbyStand","pit","pit.default"],Rotation:[0f,0f]}
 
 summon minecraft:area_effect_cloud 19.5 8.0 148.5 {CustomName:'{"text":"Ryu","color":"white"}',CustomNameVisible:1b,Age:-2147483648,Duration:-1,WaitTime:-2147483648}
 summon minecraft:armor_stand 19.5 6.0 146.5 {Tags:["lobbyStand","ryu","ryu.default"],Rotation:[0f,0f]}
@@ -92,8 +92,8 @@ execute as @e[tag=lobbyStand] run data merge entity @s {Invulnerable:1b,NoBasePl
 execute as @e[tag=lobbyStand] run item replace entity @s armor.head with minecraft:barrier
 execute as @e[tag=lobbyStand] run item modify entity @s armor.head ssbrc:kits/head
 
-execute as @e[tag=lobbyStand,tag=!lobbyStatue,tag=!ganondorf,tag=!kingkrool,tag=!pit,tag=!samus,tag=!shovelknight] run item replace entity @s armor.chest with minecraft:leather_chestplate
-execute as @e[tag=lobbyStand,tag=!lobbyStatue,tag=!ganondorf,tag=!kingkrool,tag=!pit,tag=!samus,tag=!shovelknight] run item modify entity @s armor.chest ssbrc:kits/chest_color
+execute as @e[tag=lobbyStand,tag=!lobbyStatue,tag=!ganondorf,tag=!kingkrool,tag=!samus,tag=!shovelknight] run item replace entity @s armor.chest with minecraft:leather_chestplate
+execute as @e[tag=lobbyStand,tag=!lobbyStatue,tag=!ganondorf,tag=!kingkrool,tag=!samus,tag=!shovelknight] run item modify entity @s armor.chest ssbrc:kits/chest_color
 
 execute as @e[tag=lobbyStand,tag=!lobbyStatue] run item replace entity @s armor.legs with minecraft:leather_leggings
 execute as @e[tag=lobbyStand,tag=!lobbyStatue] run item modify entity @s armor.legs ssbrc:kits/legs_color
