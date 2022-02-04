@@ -1,8 +1,9 @@
-tag @s add pit.default
+tag @s[tag=!pit.gold] add pit.default
 
 tellraw @s [{"text":"You have selected ","color":"white"},{"text":"Pit","color":"white"},{"text":"!","color":"white"}]
 
 tellraw @s[tag=pit.default] [{"text":"Costume: ","color":"yellow"},{"text":"Default","color":"white"}]
+tellraw @s[tag=pit.gold] [{"text":"Costume: ","color":"yellow"},{"text":"Gold","color":"gold"}]
 
 function ssbrc:logic/resets/tags/characters
 tag @s add pit

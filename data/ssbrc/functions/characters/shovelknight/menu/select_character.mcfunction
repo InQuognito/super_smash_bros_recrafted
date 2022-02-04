@@ -1,8 +1,9 @@
-tag @s add shovelknight.default
+tag @s[tag=!shovelknight.gold] add shovelknight.default
 
 tellraw @s [{"text":"You have selected ","color":"white"},{"text":"Shovel Knight","color":"dark_aqua"},{"text":"!","color":"white"}]
 
 tellraw @s[tag=shovelknight.default] [{"text":"Costume: ","color":"yellow"},{"text":"Default","color":"dark_aqua"}]
+tellraw @s[tag=shovelknight.gold] [{"text":"Costume: ","color":"yellow"},{"text":"Gold","color":"gold"}]
 
 function ssbrc:logic/resets/tags/characters
 tag @s add shovelknight
