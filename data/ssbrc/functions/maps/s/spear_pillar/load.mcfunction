@@ -2,7 +2,7 @@ scoreboard players reset * map
 scoreboard players set $spearPillar map 1
 scoreboard players set $songCount map 2
 scoreboard players set #mapPicked mapVote 1
-forceload add 768 26 847 47
+forceload add 768 -128 847 47
 
 forceload add 592 -64 687 31
 forceload add 528 -208 639 -81

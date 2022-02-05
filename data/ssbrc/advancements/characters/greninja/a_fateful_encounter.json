@@ -2,16 +2,16 @@
 	"display": {
 		"icon": {
 			"item": "minecraft:barrier",
-			"nbt": "{CustomModelData:420}"
+			"nbt": "{CustomModelData:422}"
 		},
 		"title": {
-			"text": "A Shiny Encounter",
+			"text": "A Fateful Encounter",
 			"color": "dark_red",
 			"bold": false,
 			"italic": false
 		},
 		"description": {
-			"text": "Encounter a ",
+			"text": "Catch a ",
 			"color": "gray",
 			"bold": false,
 			"italic": false,
@@ -23,8 +23,14 @@
 					"italic": false
 				},
 				{
-					"text": " pokemon.",
+					"text": " Greninja.",
 					"color": "gray",
+					"bold": false,
+					"italic": false
+				},
+				{
+					"text": "Unlocks Greninja Skin: Shiny",
+					"color": "green",
 					"bold": false,
 					"italic": false
 				}

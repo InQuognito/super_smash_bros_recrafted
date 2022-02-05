@@ -45,7 +45,7 @@
 		"master": {
 			"trigger": "minecraft:impossible"
 		},
-		"a_shiny_encounter": {
+		"PLACEHOLDER": {
 			"trigger": "minecraft:impossible"
 		},
 		"rival_battle": {
@@ -78,7 +78,7 @@
 			"master"
 		],
 		[
-			"a_shiny_encounter"
+			"PLACEHOLDER"
 		],
 		[
 			"rival_battle"
