@@ -16,6 +16,6 @@
 		}
 	},
 	"rewards": {
-		"function": "ssbrc:characters/byleth/logic/get_kill"
+		"function": "ssbrc:characters/byleth/logic/kill"
 	}
 }
