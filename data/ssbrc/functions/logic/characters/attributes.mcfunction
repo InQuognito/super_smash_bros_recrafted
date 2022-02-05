@@ -11,6 +11,9 @@ attribute @s minecraft:generic.attack_damage base set 2.0
 # Attack Speed
 attribute @s minecraft:generic.attack_speed base set 4.0
 
+# Max Health
+attribute @s minecraft:generic.max_health base set 40.0
+
 # Movement Speed
 attribute @s generic.movement_speed base set 0.1
 

@@ -71,5 +71,5 @@ give @s[tag=charizard] minecraft:arrow 4
 give @s[tag=fox] minecraft:arrow 4
 give @s[tag=link] minecraft:arrow 5
 
-function ssbrc:logic/characters/effects
 function ssbrc:logic/characters/attributes
+function ssbrc:logic/characters/effects
