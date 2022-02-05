@@ -319,7 +319,16 @@
 				"condition": "minecraft:entity_properties",
 				"entity": "this",
 				"predicate": {
-					"nbt": "{Tags:[\"hero\",\"gold\"]}"
+					"nbt": "{Tags:[\"hero\",\"hero.default\"]}"
+				}
+			},
+			{
+				"condition": "minecraft:entity_scores",
+				"entity": "this",
+				"scores": {
+					"duration.2": {
+						"min": 1
+					}
 				}
 			}
 		]
@@ -332,7 +341,20 @@
 				"condition": "minecraft:entity_properties",
 				"entity": "this",
 				"predicate": {
-					"nbt": "{Tags:[\"hero\"]}"
+					"nbt": "{Tags:[\"hero\",\"gold\"]}"
+				}
+			}
+		]
+	},
+	{
+		"function": "minecraft:set_nbt",
+		"tag": "{CustomModelData:441}",
+		"conditions": [
+			{
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"nbt": "{Tags:[\"hero\",\"gold\"]}"
 				}
 			},
 			{
