@@ -7,5 +7,3 @@ tag @s remove leaderboard.self
 data modify entity @e[tag=leaderboard.5,limit=1] CustomName set from block -484 4 55 Text1
 
 tag @a remove leaderboard.next
-
-say i am JediMasterhomer
