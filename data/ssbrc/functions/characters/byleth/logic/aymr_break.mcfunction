@@ -3,7 +3,3 @@ give @s minecraft:golden_sword{Unbreakable:1,AttributeModifiers:[{AttributeName:
 
 scoreboard players reset @s charge.1
 tag @s add byleth.weaponBroken
-
-advancement revoke @s only ssbrc:utility/byleth_break_aymr
-
-say broke aymr
