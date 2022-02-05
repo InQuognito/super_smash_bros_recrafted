@@ -5,55 +5,55 @@ scoreboard players reset @a useAbility
 scoreboard players reset @a menu
 
 # Battlefield
-summon minecraft:glow_item_frame -3.5 5.0 19.5 {Fixed:1b,Invisible:1b,Facing:5b,Item:{id:"minecraft:feather",tag:{CustomModelData:20},Count:1b}}
+summon minecraft:glow_item_frame -3.5 5.0 19.5 {Fixed:1b,Invisible:1b,Facing:5b,Item:{id:"minecraft:sugar",tag:{CustomModelData:50},Count:1b}}
 # Bowsers Castle
-summon minecraft:glow_item_frame 3.5 11.0 28.5 {Fixed:1b,Invisible:1b,Facing:2b,Item:{id:"minecraft:feather",tag:{CustomModelData:22},Count:1b}}
+summon minecraft:glow_item_frame 3.5 11.0 28.5 {Fixed:1b,Invisible:1b,Facing:2b,Item:{id:"minecraft:sugar",tag:{CustomModelData:150},Count:1b}}
 # Castle Siege
-summon minecraft:glow_item_frame -3.5 5.0 25.5 {Fixed:1b,Invisible:1b,Facing:5b,Item:{id:"minecraft:feather",tag:{CustomModelData:40},Count:1b}}
+summon minecraft:glow_item_frame -3.5 5.0 25.5 {Fixed:1b,Invisible:1b,Facing:5b,Item:{id:"minecraft:sugar",tag:{CustomModelData:200},Count:1b}}
 # Draculas Castle
-summon minecraft:glow_item_frame 5.5 5.0 14.5 {Fixed:1b,Invisible:1b,Facing:3b,Item:{id:"minecraft:feather",tag:{CustomModelData:61},Count:1b}}
+summon minecraft:glow_item_frame 5.5 5.0 14.5 {Fixed:1b,Invisible:1b,Facing:3b,Item:{id:"minecraft:sugar",tag:{CustomModelData:300},Count:1b}}
 # Dream Land
-summon minecraft:glow_item_frame 7.5 5.0 14.5 {Fixed:1b,Invisible:1b,Facing:3b,Item:{id:"minecraft:feather",tag:{CustomModelData:62},Count:1b}}
+summon minecraft:glow_item_frame 7.5 5.0 14.5 {Fixed:1b,Invisible:1b,Facing:3b,Item:{id:"minecraft:sugar",tag:{CustomModelData:350},Count:1b}}
 # Final Destination
-summon minecraft:glow_item_frame -3.5 5.0 17.5 {Fixed:1b,Invisible:1b,Facing:5b,Item:{id:"minecraft:feather",tag:{CustomModelData:100},Count:1b}}
+summon minecraft:glow_item_frame -3.5 5.0 17.5 {Fixed:1b,Invisible:1b,Facing:5b,Item:{id:"minecraft:sugar",tag:{CustomModelData:400},Count:1b}}
 # Flat Zone
-summon minecraft:glow_item_frame -0.5 5.0 28.5 {Fixed:1b,Invisible:1b,Facing:2b,Item:{id:"minecraft:feather",tag:{CustomModelData:101},Count:1b}}
+summon minecraft:glow_item_frame -0.5 5.0 28.5 {Fixed:1b,Invisible:1b,Facing:2b,Item:{id:"minecraft:sugar",tag:{CustomModelData:450},Count:1b}}
 # Garden of Hope
-summon minecraft:glow_item_frame 10.5 5.0 23.5 {Fixed:1b,Invisible:1b,Facing:4b,Item:{id:"minecraft:feather",tag:{CustomModelData:121},Count:1b}}
+summon minecraft:glow_item_frame 10.5 5.0 23.5 {Fixed:1b,Invisible:1b,Facing:4b,Item:{id:"minecraft:sugar",tag:{CustomModelData:600},Count:1b}}
 # Great Bay
-summon minecraft:glow_item_frame 10.5 5.0 17.5 {Fixed:1b,Invisible:1b,Facing:4b,Item:{id:"minecraft:feather",tag:{CustomModelData:122},Count:1b}}
+summon minecraft:glow_item_frame 10.5 5.0 17.5 {Fixed:1b,Invisible:1b,Facing:4b,Item:{id:"minecraft:sugar",tag:{CustomModelData:650},Count:1b}}
 # Great Plateau
-summon minecraft:glow_item_frame -3.5 5.0 23.5 {Fixed:1b,Invisible:1b,Facing:5b,Item:{id:"minecraft:feather",tag:{CustomModelData:123},Count:1b}}
+summon minecraft:glow_item_frame -3.5 5.0 23.5 {Fixed:1b,Invisible:1b,Facing:5b,Item:{id:"minecraft:sugar",tag:{CustomModelData:700},Count:1b}}
 # Green Hill Zone
-summon minecraft:glow_item_frame 10.5 5.0 19.5 {Fixed:1b,Invisible:1b,Facing:4b,Item:{id:"minecraft:feather",tag:{CustomModelData:124},Count:1b}}
+summon minecraft:glow_item_frame 10.5 5.0 19.5 {Fixed:1b,Invisible:1b,Facing:4b,Item:{id:"minecraft:sugar",tag:{CustomModelData:750},Count:1b}}
 # Icicle Mountain
-summon minecraft:glow_item_frame 1.5 5.0 14.5 {Fixed:1b,Invisible:1b,Facing:3b,Item:{id:"minecraft:feather",tag:{CustomModelData:160},Count:1b}}
+summon minecraft:glow_item_frame 1.5 5.0 14.5 {Fixed:1b,Invisible:1b,Facing:3b,Item:{id:"minecraft:sugar",tag:{CustomModelData:850},Count:1b}}
 # Jungle Japes
-summon minecraft:glow_item_frame 3.5 5.0 14.5 {Fixed:1b,Invisible:1b,Facing:3b,Item:{id:"minecraft:feather",tag:{CustomModelData:180},Count:1b}}
+summon minecraft:glow_item_frame 3.5 5.0 14.5 {Fixed:1b,Invisible:1b,Facing:3b,Item:{id:"minecraft:sugar",tag:{CustomModelData:900},Count:1b}}
 # Luigis Mansion
-summon minecraft:glow_item_frame 3.5 11.0 14.5 {Fixed:1b,Invisible:1b,Facing:3b,Item:{id:"minecraft:feather",tag:{CustomModelData:221},Count:1b}}
+summon minecraft:glow_item_frame 3.5 11.0 14.5 {Fixed:1b,Invisible:1b,Facing:3b,Item:{id:"minecraft:sugar",tag:{CustomModelData:1000},Count:1b}}
 # Magicant
-summon minecraft:glow_item_frame 3.5 5.0 28.5 {Fixed:1b,Invisible:1b,Facing:2b,Item:{id:"minecraft:feather",tag:{CustomModelData:240},Count:1b}}
+summon minecraft:glow_item_frame 3.5 5.0 28.5 {Fixed:1b,Invisible:1b,Facing:2b,Item:{id:"minecraft:sugar",tag:{CustomModelData:1050},Count:1b}}
 # Mementos
-summon minecraft:glow_item_frame 7.5 5.0 28.5 {Fixed:1b,Invisible:1b,Facing:2b,Item:{id:"minecraft:feather",tag:{CustomModelData:241},Count:1b}}
+summon minecraft:glow_item_frame 7.5 5.0 28.5 {Fixed:1b,Invisible:1b,Facing:2b,Item:{id:"minecraft:sugar",tag:{CustomModelData:1100},Count:1b}}
 # Miiverse
-summon minecraft:glow_item_frame -0.5 11.0 14.5 {Fixed:1b,Invisible:1b,Facing:3b,Item:{id:"minecraft:feather",tag:{CustomModelData:242},Count:1b}}
+summon minecraft:glow_item_frame -0.5 11.0 14.5 {Fixed:1b,Invisible:1b,Facing:3b,Item:{id:"minecraft:sugar",tag:{CustomModelData:1150},Count:1b}}
 # Mushroom Kingdom
-summon minecraft:glow_item_frame 5.5 5.0 28.5 {Fixed:1b,Invisible:1b,Facing:2b,Item:{id:"minecraft:feather",tag:{CustomModelData:243},Count:1b}}
+summon minecraft:glow_item_frame 5.5 5.0 28.5 {Fixed:1b,Invisible:1b,Facing:2b,Item:{id:"minecraft:sugar",tag:{CustomModelData:1200},Count:1b}}
 # Pac Maze
-summon minecraft:glow_item_frame 10.5 11.0 17.5 {Fixed:1b,Invisible:1b,Facing:4b,Item:{id:"minecraft:feather",tag:{CustomModelData:300},Count:1b}}
+summon minecraft:glow_item_frame 10.5 11.0 17.5 {Fixed:1b,Invisible:1b,Facing:4b,Item:{id:"minecraft:sugar",tag:{CustomModelData:1300},Count:1b}}
 # Saturn Valley
-summon minecraft:glow_item_frame 1.5 5.0 28.5 {Fixed:1b,Invisible:1b,Facing:2b,Item:{id:"minecraft:feather",tag:{CustomModelData:361},Count:1b}}
+summon minecraft:glow_item_frame 1.5 5.0 28.5 {Fixed:1b,Invisible:1b,Facing:2b,Item:{id:"minecraft:sugar",tag:{CustomModelData:1500},Count:1b}}
 # Sector Z
-summon minecraft:glow_item_frame 10.5 5.0 25.5 {Fixed:1b,Invisible:1b,Facing:4b,Item:{id:"minecraft:feather",tag:{CustomModelData:362},Count:1b}}
+summon minecraft:glow_item_frame 10.5 5.0 25.5 {Fixed:1b,Invisible:1b,Facing:4b,Item:{id:"minecraft:sugar",tag:{CustomModelData:1550},Count:1b}}
 # Shadow Moses Island
-summon minecraft:glow_item_frame -0.5 5.0 14.5 {Fixed:1b,Invisible:1b,Facing:3b,Item:{id:"minecraft:feather",tag:{CustomModelData:363},Count:1b}}
+summon minecraft:glow_item_frame -0.5 5.0 14.5 {Fixed:1b,Invisible:1b,Facing:3b,Item:{id:"minecraft:sugar",tag:{CustomModelData:1600},Count:1b}}
 # Spear Pillar
-summon minecraft:glow_item_frame 10.5 5.0 21.5 {Fixed:1b,Invisible:1b,Facing:4b,Item:{id:"minecraft:feather",tag:{CustomModelData:364},Count:1b}}
+summon minecraft:glow_item_frame 10.5 5.0 21.5 {Fixed:1b,Invisible:1b,Facing:4b,Item:{id:"minecraft:sugar",tag:{CustomModelData:1650},Count:1b}}
 # Tower of Fate
-summon minecraft:glow_item_frame 10.5 11.0 21.5 {Fixed:1b,Invisible:1b,Facing:4b,Item:{id:"minecraft:feather",tag:{CustomModelData:380},Count:1b}}
+summon minecraft:glow_item_frame 10.5 11.0 21.5 {Fixed:1b,Invisible:1b,Facing:4b,Item:{id:"minecraft:sugar",tag:{CustomModelData:1750},Count:1b}}
 # Wily Castle
-summon minecraft:glow_item_frame -3.5 5.0 21.5 {Fixed:1b,Invisible:1b,Facing:5b,Item:{id:"minecraft:feather",tag:{CustomModelData:440},Count:1b}}
+summon minecraft:glow_item_frame -3.5 5.0 21.5 {Fixed:1b,Invisible:1b,Facing:5b,Item:{id:"minecraft:sugar",tag:{CustomModelData:1800},Count:1b}}
 
 summon minecraft:area_effect_cloud -3.5 5.0 19.5 {Age:-2147483648,Duration:-1,WaitTime:-2147483648,Tags:["voteCounter","battlefield"],CustomNameVisible:1b}
 summon minecraft:area_effect_cloud 3.5 11.0 28.5 {Age:-2147483648,Duration:-1,WaitTime:-2147483648,Tags:["voteCounter","bowsersCastle"],CustomNameVisible:1b}
