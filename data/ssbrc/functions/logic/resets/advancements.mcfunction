@@ -4,7 +4,8 @@ advancement revoke @a only ssbrc:utility/alteredbeast_kill
 advancement revoke @a only ssbrc:utility/alucard_hit
 advancement revoke @a only ssbrc:utility/arbok_poison_jab
 advancement revoke @a only ssbrc:utility/alteredbeast_kill
-advancement revoke @a only ssbrc:utility/byleth_hit
+advancement revoke @a only ssbrc:utility/byleth_hit_melee
+advancement revoke @a only ssbrc:utility/byleth_hit_bow
 advancement revoke @a only ssbrc:utility/byleth_kill
 advancement revoke @a only ssbrc:utility/greninja_night_slash
 advancement revoke @a only ssbrc:utility/hero_flame_slash
