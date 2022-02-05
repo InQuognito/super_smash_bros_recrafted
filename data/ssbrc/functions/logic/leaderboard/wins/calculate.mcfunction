@@ -5,3 +5,5 @@ scoreboard players operation $most stats.wins > @a[tag=!leaderboard.loaded] stat
 execute if score @s stats.wins = $most stats.wins run tag @s add leaderboard.next
 execute if entity @s[tag=leaderboard.next] run say i am next
 scoreboard players reset $most stats.wins
+
+execute as @r[tag=!leaderboard.loaded,tag=leaderboard.next] run function ssbrc:logic/leaderboard/wins/place_1
