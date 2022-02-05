@@ -64,7 +64,7 @@ execute if entity @s[tag=!teamrocket.picked,tag=teamrocket.arbok] run function s
 execute if entity @s[tag=!teamrocket.picked,tag=teamrocket.meowth] run function ssbrc:characters/teamrocket/kits/wobbuffet
 execute if entity @s[tag=!teamrocket.picked,tag=teamrocket.wobbuffet] run function ssbrc:characters/teamrocket/kits/arbok
 
-give @s[tag=byleth.blackEagles] minecraft:arrow 4
+give @s[tag=byleth.blackEagles,tag=byleth.weaponBroken] minecraft:arrow 4
 clear @s[tag=captainfalcon] minecraft:arrow
 give @s[tag=captainfalcon] minecraft:arrow 5
 give @s[tag=charizard] minecraft:arrow 4
