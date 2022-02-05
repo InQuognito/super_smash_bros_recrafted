@@ -19,7 +19,6 @@ execute as @a run scoreboard players operation @s stats.wL /= @s stats.gP
 setblock -484 4 55 minecraft:air replace
 
 tag @a remove leaderboard.loaded
-execute as @a[tag=!leaderboard.loaded,scores={stats.wL=1..}] run function ssbrc:logic/leaderboard/win_lose/calculate
-execute as @r[tag=!leaderboard.loaded,tag=leaderboard.next] run function ssbrc:logic/leaderboard/win_lose/place_1
+execute as @a[tag=!leaderboard.loaded,scores={stats.wL=1..}] run function ssbrc:logic/leaderboard/win_lose/calculate_1
 
 setblock -505 5 51 minecraft:command_block{Command:"/function ssbrc:logic/leaderboard/kill_death/load"} destroy
