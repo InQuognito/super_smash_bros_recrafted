@@ -35,7 +35,7 @@ item replace entity @s[tag=pit] armor.chest with minecraft:elytra{Damage:417,Hid
 item replace entity @s[tag=samus.default] armor.chest with minecraft:golden_chestplate{Unbreakable:1,HideFlags:127} 1
 item replace entity @s[tag=shovelknight] armor.chest with minecraft:diamond_chestplate{Unbreakable:1,HideFlags:127} 1
 
-item replace entity @s[tag=gold] armor.chest with minecraft:golden_chestplate{Unbreakable:1,HideFlags:127} 1
+item replace entity @s[tag=gold,tag=!pit] armor.chest with minecraft:golden_chestplate{Unbreakable:1,HideFlags:127} 1
 
 item replace entity @s[tag=!gold] armor.legs with minecraft:leather_leggings{Unbreakable:1,HideFlags:127}
 item replace entity @s[tag=gold] armor.legs with minecraft:golden_leggings{Unbreakable:1,HideFlags:127} 1
