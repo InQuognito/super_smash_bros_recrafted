@@ -14,6 +14,7 @@ scoreboard objectives remove fallDistance
 #scoreboard objectives remove favorite.slot3
 scoreboard objectives remove favorite.temp
 scoreboard objectives remove flag.dead
+scoreboard objectives remove flag.fireBow
 scoreboard objectives remove health
 scoreboard objectives remove id
 scoreboard objectives remove integers

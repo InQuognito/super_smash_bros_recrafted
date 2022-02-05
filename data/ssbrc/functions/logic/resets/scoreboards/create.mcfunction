@@ -16,6 +16,7 @@ scoreboard objectives add favorite.slot2 dummy
 scoreboard objectives add favorite.slot3 dummy
 scoreboard objectives add favorite.temp dummy
 scoreboard objectives add flag.dead deathCount
+scoreboard objectives add flag.fireBow minecraft.used:minecraft.bow
 scoreboard objectives add health health
 scoreboard objectives add id dummy
 scoreboard objectives add integers dummy
