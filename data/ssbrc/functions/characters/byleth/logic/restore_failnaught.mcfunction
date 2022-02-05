@@ -2,3 +2,5 @@ clear @s minecraft:bow
 give @s minecraft:bow{failnaught:1,Damage:364,Enchantments:[{id:"minecraft:power",lvl:1},{id:"minecraft:punch",lvl:1},{id:"minecraft:infinity",lvl:1}],display:{Name:'[{"text":"Failnaught","italic":false,"color":"red","bold":true}]'},HideFlags:127} 1
 
 tag @s remove byleth.weaponBroken
+
+say restored failnaught

@@ -5,3 +5,5 @@ scoreboard players reset @s charge.1
 tag @s add byleth.weaponBroken
 
 advancement revoke @s only ssbrc:utility/byleth_break_areadbhar
+
+say broke areadbhar
