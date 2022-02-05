@@ -1,9 +1,9 @@
-tag @s[tag=!kirby.gold] add kirby.default
+tag @s[tag=!gold] add kirby.default
 
 tellraw @s [{"text":"You have selected ","color":"white"},{"text":"Kirby","color":"light_purple"},{"text":"!","color":"white"}]
 
 tellraw @s[tag=kirby.default] [{"text":"Costume: ","color":"yellow"},{"text":"Default","color":"light_purple"}]
-tellraw @s[tag=kirby.gold] [{"text":"Costume: ","color":"yellow"},{"text":"Gold","color":"gold"}]
+tellraw @s[tag=gold] [{"text":"Costume: ","color":"yellow"},{"text":"Gold","color":"gold"}]
 
 function ssbrc:logic/resets/tags/characters
 tag @s add kirby

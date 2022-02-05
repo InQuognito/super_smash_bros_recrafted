@@ -1,2 +1,2 @@
 tag @s remove kingkrool.default
-tag @s remove kingkrool.gold
+tag @s remove gold

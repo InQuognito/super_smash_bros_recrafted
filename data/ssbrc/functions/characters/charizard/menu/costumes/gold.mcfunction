@@ -1,4 +1,4 @@
 function ssbrc:characters/charizard/menu/costumes/reset
-tag @s add charizard.gold
+tag @s add gold
 
 function ssbrc:characters/charizard/menu/select_character

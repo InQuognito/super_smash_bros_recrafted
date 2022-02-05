@@ -1,2 +1,2 @@
 tag @s remove captainfalcon.default
-tag @s remove captainfalcon.gold
+tag @s remove gold

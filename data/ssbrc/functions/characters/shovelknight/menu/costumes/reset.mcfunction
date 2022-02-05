@@ -1,2 +1,2 @@
 tag @s remove shovelknight.default
-tag @s remove shovelknight.gold
+tag @s remove gold

@@ -1,4 +1,4 @@
 function ssbrc:characters/byleth/menu/costumes/reset
-tag @s add byleth.gold
+tag @s add gold
 
 function ssbrc:characters/byleth/menu/select_character

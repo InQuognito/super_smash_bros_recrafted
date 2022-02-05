@@ -1,2 +1,2 @@
 tag @s remove teamrocket.default
-tag @s remove teamrocket.gold
+tag @s remove gold

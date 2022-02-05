@@ -5,7 +5,7 @@ tellraw @s [{"text":"You have selected ","color":"white"},{"text":"Byleth","colo
 tellraw @s[tag=byleth.default] [{"text":"Costume: ","color":"yellow"},{"text":"Default","color":"dark_gray"}]
 tellraw @s[tag=byleth.male] [{"text":"Costume: ","color":"yellow"},{"text":"Male","color":"dark_blue"}]
 tellraw @s[tag=byleth.female] [{"text":"Costume: ","color":"yellow"},{"text":"Female","color":"dark_purple"}]
-tellraw @s[tag=byleth.gold] [{"text":"Costume: ","color":"yellow"},{"text":"Gold","color":"gold"}]
+tellraw @s[tag=gold] [{"text":"Costume: ","color":"yellow"},{"text":"Gold","color":"gold"}]
 
 function ssbrc:logic/resets/tags/characters
 tag @s add byleth

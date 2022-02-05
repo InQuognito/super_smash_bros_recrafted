@@ -1,2 +1,2 @@
 tag @s remove alteredbeast.default
-tag @s remove alteredbeast.gold
+tag @s remove gold

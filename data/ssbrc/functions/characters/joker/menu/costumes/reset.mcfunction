@@ -1,2 +1,2 @@
 tag @s remove joker.default
-tag @s remove joker.gold
+tag @s remove gold

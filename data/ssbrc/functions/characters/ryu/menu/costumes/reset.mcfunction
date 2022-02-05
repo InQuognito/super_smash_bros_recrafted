@@ -1,2 +1,2 @@
 tag @s remove ryu.default
-tag @s remove ryu.gold
+tag @s remove gold

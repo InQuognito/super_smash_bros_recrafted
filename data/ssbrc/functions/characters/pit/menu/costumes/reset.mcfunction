@@ -1,2 +1,2 @@
 tag @s remove pit.default
-tag @s remove pit.gold
+tag @s remove gold

@@ -1,2 +1,2 @@
 tag @s remove sonic.default
-tag @s remove sonic.gold
+tag @s remove gold

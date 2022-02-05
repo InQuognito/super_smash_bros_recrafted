@@ -1,9 +1,9 @@
-tag @s[tag=!ganondorf.gold,tag=!ganondorf.oot] add ganondorf.default
+tag @s[tag=!gold,tag=!ganondorf.oot] add ganondorf.default
 
 tellraw @s [{"text":"You have selected ","color":"white"},{"text":"Ganondorf","color":"black"},{"text":"!","color":"white"}]
 
 tellraw @s[tag=ganondorf.default] [{"text":"Costume: ","color":"yellow"},{"text":"Default","color":"black"}]
-tellraw @s[tag=ganondorf.gold] [{"text":"Costume: ","color":"yellow"},{"text":"Gold","color":"gold"}]
+tellraw @s[tag=gold] [{"text":"Costume: ","color":"yellow"},{"text":"Gold","color":"gold"}]
 tellraw @s[tag=ganondorf.oot] [{"text":"Costume: ","color":"yellow"},{"text":"Ocarina of Time","color":"red"}]
 
 function ssbrc:logic/resets/tags/characters

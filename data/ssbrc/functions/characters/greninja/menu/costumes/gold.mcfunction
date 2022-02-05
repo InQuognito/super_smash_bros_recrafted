@@ -1,4 +1,4 @@
 function ssbrc:characters/greninja/menu/costumes/reset
-tag @s add greninja.gold
+tag @s add gold
 
 function ssbrc:characters/greninja/menu/select_character
