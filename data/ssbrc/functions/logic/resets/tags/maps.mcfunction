@@ -1,3 +1,4 @@
+tag @s remove acropolisGraveyard
 tag @s remove battlefield
 tag @s remove bowsersCastle
 tag @s remove castleSiege

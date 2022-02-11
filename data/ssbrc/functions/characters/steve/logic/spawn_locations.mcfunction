@@ -1,6 +1,17 @@
 scoreboard players set max random 10
 function ssbrc:math/rng/lcg
 
+execute if score $acropolisGraveyard map matches 1 if score result random matches 0 run tp @s -1352.5 22.0 -455.5
+execute if score $acropolisGraveyard map matches 1 if score result random matches 1 run tp @s -1343.5 22.0 -425.5
+execute if score $acropolisGraveyard map matches 1 if score result random matches 2 run tp @s -1361.5 22.0 -425.5
+execute if score $acropolisGraveyard map matches 1 if score result random matches 3 run tp @s -1375.5 22.0 -448.5
+execute if score $acropolisGraveyard map matches 1 if score result random matches 4 run tp @s -1356.5 22.0 -460.5
+execute if score $acropolisGraveyard map matches 1 if score result random matches 5 run tp @s -1336.5 22.0 -470.5
+execute if score $acropolisGraveyard map matches 1 if score result random matches 6 run tp @s -1329.5 22.0 -456.5
+execute if score $acropolisGraveyard map matches 1 if score result random matches 7 run tp @s -1329.5 22.0 -438.5
+execute if score $acropolisGraveyard map matches 1 if score result random matches 8 run tp @s -1361.5 22.0 -443.5
+execute if score $acropolisGraveyard map matches 1 if score result random matches 9 run tp @s -1352.5 15.0 -450.5
+
 execute if score $battlefield map matches 1 if score result random matches 0 run tp @s 302 24 -567
 execute if score $battlefield map matches 1 if score result random matches 1 run tp @s 302 24 -557
 execute if score $battlefield map matches 1 if score result random matches 2 run tp @s 296 21 -562

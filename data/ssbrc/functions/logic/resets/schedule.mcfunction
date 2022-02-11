@@ -3,6 +3,7 @@ schedule clear ssbrc:logic/music/loop
 schedule clear ssbrc:logic/timer
 
 # Maps
+schedule clear ssbrc:maps/a/acropolis_graveyard/load
 schedule clear ssbrc:maps/b/battlefield/load
 schedule clear ssbrc:maps/b/bowsers_castle/load
 schedule clear ssbrc:maps/c/castle_siege/load

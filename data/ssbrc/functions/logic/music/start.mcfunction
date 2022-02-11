@@ -1,6 +1,13 @@
 scoreboard players operation max random = $songCount map
 function ssbrc:math/rng/lcg_music
 
+execute if score $acropolisGraveyard map matches 1 if score result_music random matches 0 as @a at @s run playsound ssbrc:anatasia_battle_intro music @s
+execute if score $acropolisGraveyard map matches 1 if score result_music random matches 0 run tellraw @a [{"text":"Now Playing: ","bold":true,"color":"gold"},{"text":"Anatasia Battle","color":"yellow"}]
+execute if score $acropolisGraveyard map matches 1 if score result_music random matches 0 run schedule function ssbrc:logic/music/loop 320t replace
+execute if score $acropolisGraveyard map matches 1 if score result_music random matches 1 as @a at @s run playsound ssbrc:rise_from_your_grave_intro music @s
+execute if score $acropolisGraveyard map matches 1 if score result_music random matches 1 run tellraw @a [{"text":"Now Playing: ","bold":true,"color":"gold"},{"text":"Rise From Your Grave","color":"yellow"}]
+execute if score $acropolisGraveyard map matches 1 if score result_music random matches 1 run schedule function ssbrc:logic/music/loop 2400t replace
+
 execute if score $battlefield map matches 1 if score result_music random matches 0 run tellraw @a [{"text":"Now Playing: ","bold":true,"color":"gold"},{"text":"Aquos Arena","color":"yellow"}]
 execute if score $battlefield map matches 1 if score result_music random matches 0 run function ssbrc:logic/music/loop
 execute if score $battlefield map matches 1 if score result_music random matches 1 as @a at @s run playsound ssbrc:battle_on_the_big_bridge_intro music @s

@@ -4,6 +4,8 @@ clear @a
 scoreboard players reset @a useAbility
 scoreboard players reset @a menu
 
+# Acropolis Graveyard
+summon minecraft:glow_item_frame -3.5 11.0 17.5 {Fixed:1b,Invisible:1b,Facing:5b,Item:{id:"minecraft:sugar",tag:{CustomModelData:1},Count:1b}}
 # Battlefield
 summon minecraft:glow_item_frame -3.5 5.0 19.5 {Fixed:1b,Invisible:1b,Facing:5b,Item:{id:"minecraft:sugar",tag:{CustomModelData:50},Count:1b}}
 # Bowsers Castle
