@@ -57,6 +57,7 @@ summon minecraft:glow_item_frame 10.5 11.0 21.5 {Fixed:1b,Invisible:1b,Facing:4b
 # Wily Castle
 summon minecraft:glow_item_frame -3.5 5.0 21.5 {Fixed:1b,Invisible:1b,Facing:5b,Item:{id:"minecraft:sugar",tag:{CustomModelData:1800},Count:1b}}
 
+summon minecraft:area_effect_cloud -3.5 11.0 17.5 {Age:-2147483648,Duration:-1,WaitTime:-2147483648,Tags:["voteCounter","acropolisGraveyard"],CustomNameVisible:1b}
 summon minecraft:area_effect_cloud -3.5 5.0 19.5 {Age:-2147483648,Duration:-1,WaitTime:-2147483648,Tags:["voteCounter","battlefield"],CustomNameVisible:1b}
 summon minecraft:area_effect_cloud 3.5 11.0 28.5 {Age:-2147483648,Duration:-1,WaitTime:-2147483648,Tags:["voteCounter","bowsersCastle"],CustomNameVisible:1b}
 summon minecraft:area_effect_cloud -3.5 5.0 25.5 {Age:-2147483648,Duration:-1,WaitTime:-2147483648,Tags:["voteCounter","castleSiege"],CustomNameVisible:1b}
