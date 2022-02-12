@@ -1,5 +1,5 @@
 tp @r[tag=teleportMe] @s
-execute unless score $playersPlaying temp matches 1.. run tp @r[team=spectator] @s
+tp @r[team=spectator] @s
 tag @a[distance=..1] remove teleportMe
 tag @s remove tpDest
 
