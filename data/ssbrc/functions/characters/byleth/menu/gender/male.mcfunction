@@ -1,4 +1,4 @@
-function ssbrc:characters/byleth/menu/costumes/reset
+function ssbrc:characters/byleth/menu/gender/reset
 tag @s add byleth.male
 
 function ssbrc:characters/byleth/menu/loadout/prompt
