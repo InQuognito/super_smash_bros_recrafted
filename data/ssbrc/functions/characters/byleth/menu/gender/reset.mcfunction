@@ -1,2 +1,2 @@
-tag @s remove female
-tag @s remove male
+tag @s remove byleth.female
+tag @s remove byleth.male
