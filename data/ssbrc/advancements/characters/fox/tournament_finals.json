@@ -11,23 +11,11 @@
 			"italic": false
 		},
 		"description": {
-			"text": "1",
+			"text": "1v1",
 			"color": "blue",
 			"bold": false,
 			"italic": false,
 			"extra": [
-				{
-					"text": "v",
-					"color": "gray",
-					"bold": false,
-					"italic": false
-				},
-				{
-					"text": "1",
-					"color": "blue",
-					"bold": false,
-					"italic": false
-				},
 				{
 					"text": ". ",
 					"color": "gray",
