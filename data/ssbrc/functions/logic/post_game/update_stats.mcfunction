@@ -108,5 +108,3 @@ scoreboard players add @s[tag=teamrocket] teamrocket.wS 1
 
 scoreboard players add @s stats.wins 1
 scoreboard players add @a stats.gP 1
-
-function ssbrc:logic/stats/advancements

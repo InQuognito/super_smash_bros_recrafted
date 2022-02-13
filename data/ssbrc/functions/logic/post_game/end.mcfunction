@@ -34,4 +34,7 @@ execute if score $gameMode options matches 1 run tellraw @a [{"text":"Match Dura
 
 tag @s add winner
 
-function ssbrc:logic/post_game/update_stats
+execute unless score $playersPlaying temp matches 1 run function ssbrc:logic/post_game/update_stats
+execute unless score $playersPlaying temp matches 1 run function ssbrc:logic/stats/advancements
+execute if score $playersPlaying temp matches 1 run tellraw @s {"text":"One-player matches do not count towards your stats.","color":"red"}
+function ssbrc:logic/load

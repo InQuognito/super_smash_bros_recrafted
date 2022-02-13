@@ -14,7 +14,6 @@ scoreboard players add @s[tag=kirby] kirby.k 1
 scoreboard players add @s[tag=kingkrool] kingkrool.k 1
 scoreboard players add @s[tag=link] link.k 1
 scoreboard players add @s[tag=mario] mario.k 1
-execute if score $gameTime timer matches ..60 run advancement grant @s[tag=mario] only ssbrc:characters/mario/minute_man
 scoreboard players add @s[tag=megaman] megaman.k 1
 scoreboard players add @s[tag=ness] ness.k 1
 scoreboard players add @s[tag=pit] pit.k 1

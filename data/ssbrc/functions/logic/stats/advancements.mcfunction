@@ -11,4 +11,3 @@ execute if entity @a[tag=gamenwatch,tag=flatZone] run advancement grant @s[tag=m
 execute unless entity @a[tag=!castleSiege,tag=!hyruleCastle,tag=!princessPeachCastle,tag=!suzakuCastle,tag=!wilyCastle] run advancement grant @a[tag=mario] only ssbrc:characters/mario/in_another_castle
 #partners in time
 execute if score $playersPlaying temp matches 4 if entity @a[tag=bowser,limit=1] if entity @a[tag=ganon,limit=1] if entity @a[tag=kingkrool,limit=1] run advancement grant @s[tag=mario] only ssbrc:characters/mario/three_trouble_kings
-function ssbrc:logic/load
