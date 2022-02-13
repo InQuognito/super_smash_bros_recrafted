@@ -11,10 +11,36 @@
 			"italic": false
 		},
 		"description": {
-			"text": "Defeat an enemy with more stocks than you on your final stock.",
+			"text": "Defeat an enemy with ",
 			"color": "gray",
 			"bold": false,
-			"italic": false
+			"italic": false,
+			"extra": [
+				{
+					"text": "more stocks than you",
+					"color": "blue",
+					"bold": false,
+					"italic": false
+				},
+				{
+					"text": " on ",
+					"color": "gray",
+					"bold": false,
+					"italic": false
+				},
+				{
+					"text": "your final stock",
+					"color": "blue",
+					"bold": false,
+					"italic": false
+				},
+				{
+					"text": ".",
+					"color": "gray",
+					"bold": false,
+					"italic": false
+				}
+			]
 		},
 		"frame": "task",
 		"show_toast": true,

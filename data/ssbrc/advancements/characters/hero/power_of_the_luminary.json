@@ -11,10 +11,24 @@
 			"italic": false
 		},
 		"description": {
-			"text": "Win a match with mana to spare.",
+			"text": "Win a match with ",
 			"color": "gray",
 			"bold": false,
-			"italic": false
+			"italic": false,
+			"extra": [
+				{
+					"text": "mana",
+					"color": "aqua",
+					"bold": false,
+					"italic": false
+				},
+				{
+					"text": " to spare.",
+					"color": "gray",
+					"bold": false,
+					"italic": false
+				}
+			]
 		},
 		"frame": "task",
 		"show_toast": true,

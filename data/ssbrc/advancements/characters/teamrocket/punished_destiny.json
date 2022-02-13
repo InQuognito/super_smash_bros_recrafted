@@ -11,10 +11,24 @@
 			"italic": false
 		},
 		"description": {
-			"text": "Whiffed a Destiny Bond... and got punished for it",
+			"text": "Whiff a ",
 			"color": "gray",
 			"bold": false,
-			"italic": false
+			"italic": false,
+			"extra": [
+				{
+					"text": "Destiny Bond",
+					"color": "blue",
+					"bold": false,
+					"italic": false
+				},
+				{
+					"text": "... and get punished for it.",
+					"color": "gray",
+					"bold": false,
+					"italic": false
+				}
+			]
 		},
 		"frame": "task",
 		"show_toast": true,

@@ -11,10 +11,24 @@
 			"italic": false
 		},
 		"description": {
-			"text": "Played a time battle... and never got a single KO",
+			"text": "Play a time battle... and never get a ",
 			"color": "gray",
 			"bold": false,
-			"italic": false
+			"italic": false,
+			"extra": [
+				{
+					"text": "single",
+					"color": "blue",
+					"bold": false,
+					"italic": false
+				},
+				{
+					"text": " KO.",
+					"color": "gray",
+					"bold": false,
+					"italic": false
+				}
+			]
 		},
 		"frame": "task",
 		"show_toast": true,

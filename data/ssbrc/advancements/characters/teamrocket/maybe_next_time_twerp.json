@@ -23,7 +23,19 @@
 					"italic": false
 				},
 				{
-					"text": " games in a row.",
+					"text": " games ",
+					"color": "gray",
+					"bold": false,
+					"italic": false
+				},
+				{
+					"text": "in a row.",
+					"color": "blue",
+					"bold": false,
+					"italic": false
+				},
+				{
+					"text": ".",
 					"color": "gray",
 					"bold": false,
 					"italic": false
