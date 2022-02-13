@@ -1,4 +1,4 @@
 function ssbrc:characters/teamrocket/menu/costumes/reset
-tag @s add teamrocket.default
+tag @s add default
 
 function ssbrc:characters/teamrocket/menu/select_character

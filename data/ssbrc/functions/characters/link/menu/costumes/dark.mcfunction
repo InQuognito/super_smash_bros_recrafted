@@ -1,4 +1,4 @@
 function ssbrc:characters/link/menu/costumes/reset
-tag @s add link.dark
+tag @s add dark
 
 function ssbrc:characters/link/menu/select_character

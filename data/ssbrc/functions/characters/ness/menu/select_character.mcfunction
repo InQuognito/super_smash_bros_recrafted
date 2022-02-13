@@ -1,11 +1,11 @@
-tag @s[tag=!gold,tag=!ness.moonside,tag=!ness.pajamas] add ness.default
+tag @s[tag=!gold,tag=!moonside,tag=!pajamas] add default
 
 tellraw @s [{"text":"You have selected ","color":"white"},{"text":"Ness","color":"dark_purple"},{"text":"!","color":"white"}]
 
-tellraw @s[tag=ness.default] [{"text":"Costume: ","color":"yellow"},{"text":"Default","color":"dark_purple"}]
+tellraw @s[tag=default] [{"text":"Costume: ","color":"yellow"},{"text":"Default","color":"dark_purple"}]
 tellraw @s[tag=gold] [{"text":"Costume: ","color":"yellow"},{"text":"Gold","color":"gold"}]
-tellraw @s[tag=ness.moonside] [{"text":"Costume: ","color":"yellow"},{"text":"Moonside","color":"aqua"}]
-tellraw @s[tag=ness.pajamas] [{"text":"Costume: ","color":"yellow"},{"text":"Pajamas","color":"dark_aqua"}]
+tellraw @s[tag=moonside] [{"text":"Costume: ","color":"yellow"},{"text":"Moonside","color":"aqua"}]
+tellraw @s[tag=pajamas] [{"text":"Costume: ","color":"yellow"},{"text":"Pajamas","color":"dark_aqua"}]
 
 function ssbrc:logic/resets/tags/characters
 tag @s add ness

@@ -1,4 +1,4 @@
 function ssbrc:characters/alucard/menu/costumes/reset
-tag @s add alucard.default
+tag @s add default
 
 function ssbrc:characters/alucard/menu/select_character

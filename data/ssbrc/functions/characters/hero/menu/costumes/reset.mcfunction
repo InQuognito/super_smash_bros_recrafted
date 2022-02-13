@@ -1,4 +1,4 @@
-tag @s remove hero.default
+tag @s remove default
 tag @s remove gold
-tag @s remove hero.erdick
-tag @s remove hero.rek
+tag @s remove erdick
+tag @s remove rek

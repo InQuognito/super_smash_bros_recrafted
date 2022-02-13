@@ -1,4 +1,4 @@
 function ssbrc:characters/steve/menu/costumes/reset
-tag @s add steve.default
+tag @s add default
 
 function ssbrc:characters/steve/menu/select_character

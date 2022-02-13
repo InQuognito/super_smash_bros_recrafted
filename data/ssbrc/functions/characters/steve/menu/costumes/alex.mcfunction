@@ -1,4 +1,4 @@
 function ssbrc:characters/steve/menu/costumes/reset
-tag @s add steve.alex
+tag @s add alex
 
 function ssbrc:characters/steve/menu/select_character

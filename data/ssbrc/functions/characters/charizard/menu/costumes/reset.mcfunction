@@ -1,3 +1,3 @@
-tag @s remove charizard.default
+tag @s remove default
 tag @s remove gold
-tag @s remove charizard.shiny
+tag @s remove shiny

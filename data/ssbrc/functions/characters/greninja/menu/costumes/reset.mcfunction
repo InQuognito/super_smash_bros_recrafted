@@ -1,3 +1,3 @@
-tag @s remove greninja.default
+tag @s remove default
 tag @s remove gold
-tag @s remove greninja.shiny
+tag @s remove shiny

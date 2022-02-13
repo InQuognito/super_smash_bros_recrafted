@@ -1,8 +1,8 @@
-tag @s[tag=!gold] add megaman.default
+tag @s[tag=!gold] add default
 
 tellraw @s [{"text":"You have selected ","color":"white"},{"text":"Megaman","color":"dark_aqua"},{"text":"!","color":"white"}]
 
-tellraw @s[tag=megaman.default] [{"text":"Costume: ","color":"yellow"},{"text":"Default","color":"dark_aqua"}]
+tellraw @s[tag=default] [{"text":"Costume: ","color":"yellow"},{"text":"Default","color":"dark_aqua"}]
 tellraw @s[tag=gold] [{"text":"Costume: ","color":"yellow"},{"text":"Gold","color":"gold"}]
 
 function ssbrc:logic/resets/tags/characters

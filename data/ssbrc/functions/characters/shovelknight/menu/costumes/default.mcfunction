@@ -1,4 +1,4 @@
 function ssbrc:characters/shovelknight/menu/costumes/reset
-tag @s add shovelknight.default
+tag @s add default
 
 function ssbrc:characters/shovelknight/menu/select_character

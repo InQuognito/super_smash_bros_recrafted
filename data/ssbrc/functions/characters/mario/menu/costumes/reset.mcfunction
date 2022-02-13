@@ -1,3 +1,3 @@
-tag @s remove mario.default
+tag @s remove default
 tag @s remove gold
-tag @s remove mario.flowerpower
+tag @s remove flowerpower

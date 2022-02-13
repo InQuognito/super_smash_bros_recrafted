@@ -7,7 +7,7 @@
 				"condition": "minecraft:entity_properties",
 				"entity": "this",
 				"predicate": {
-					"nbt": "{Tags:[\"bowser\",\"bowser.default\"]}"
+					"nbt": "{Tags:[\"bowser\",\"default\"]}"
 				}
 			}
 		]
@@ -20,7 +20,7 @@
 				"condition": "minecraft:entity_properties",
 				"entity": "this",
 				"predicate": {
-					"nbt": "{Tags:[\"byleth\",\"byleth.default\"]}"
+					"nbt": "{Tags:[\"byleth\",\"female\"]}"
 				}
 			}
 		]
@@ -33,7 +33,7 @@
 				"condition": "minecraft:entity_properties",
 				"entity": "this",
 				"predicate": {
-					"nbt": "{Tags:[\"byleth\",\"byleth.female\"]}"
+					"nbt": "{Tags:[\"byleth\",\"male\"]}"
 				}
 			}
 		]
@@ -46,20 +46,7 @@
 				"condition": "minecraft:entity_properties",
 				"entity": "this",
 				"predicate": {
-					"nbt": "{Tags:[\"charizard\",\"charizard.default\"]}"
-				}
-			}
-		]
-	},
-	{
-		"function": "minecraft:set_nbt",
-		"tag": "{display:{color:5921386}}",
-		"conditions": [
-			{
-				"condition": "minecraft:entity_properties",
-				"entity": "this",
-				"predicate": {
-					"nbt": "{Tags:[\"charizard\",\"charizard.shiny\"]}"
+					"nbt": "{Tags:[\"charizard\",\"default\"]}"
 				}
 			}
 		]
@@ -79,13 +66,13 @@
 	},
 	{
 		"function": "minecraft:set_nbt",
-		"tag": "{display:{color:15975594}}",
+		"tag": "{display:{color:5921386}}",
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
 				"entity": "this",
 				"predicate": {
-					"nbt": "{Tags:[\"donkeykong\",\"donkeykong.default\"]}"
+					"nbt": "{Tags:[\"charizard\",\"naturalShiny\"]}"
 				}
 			}
 		]
@@ -98,7 +85,20 @@
 				"condition": "minecraft:entity_properties",
 				"entity": "this",
 				"predicate": {
-					"nbt": "{Tags:[\"donkeykong\",\"donkeykong.super\"]}"
+					"nbt": "{Tags:[\"donkeykong\",\"default\"]}"
+				}
+			}
+		]
+	},
+	{
+		"function": "minecraft:set_nbt",
+		"tag": "{display:{color:15975594}}",
+		"conditions": [
+			{
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"nbt": "{Tags:[\"donkeykong\",\"super\"]}"
 				}
 			}
 		]
@@ -111,7 +111,7 @@
 				"condition": "minecraft:entity_properties",
 				"entity": "this",
 				"predicate": {
-					"nbt": "{Tags:[\"ganondorf\",\"ganondorf.default\"]}"
+					"nbt": "{Tags:[\"ganondorf\",\"default\"]}"
 				}
 			}
 		]
@@ -124,20 +124,7 @@
 				"condition": "minecraft:entity_properties",
 				"entity": "this",
 				"predicate": {
-					"nbt": "{Tags:[\"greninja\",\"greninja.default\"]}"
-				}
-			}
-		]
-	},
-	{
-		"function": "minecraft:set_nbt",
-		"tag": "{display:{color:2240050}}",
-		"conditions": [
-			{
-				"condition": "minecraft:entity_properties",
-				"entity": "this",
-				"predicate": {
-					"nbt": "{Tags:[\"greninja\",\"greninja.shiny\"]}"
+					"nbt": "{Tags:[\"greninja\",\"default\"]}"
 				}
 			}
 		]
@@ -157,13 +144,26 @@
 	},
 	{
 		"function": "minecraft:set_nbt",
+		"tag": "{display:{color:2240050}}",
+		"conditions": [
+			{
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"nbt": "{Tags:[\"greninja\",\"naturalShiny\"]}"
+				}
+			}
+		]
+	},
+	{
+		"function": "minecraft:set_nbt",
 		"tag": "{display:{color:10528354}}",
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
 				"entity": "this",
 				"predicate": {
-					"nbt": "{Tags:[\"hero\",\"hero.default\"]}"
+					"nbt": "{Tags:[\"hero\",\"default\"]}"
 				}
 			}
 		]
@@ -176,7 +176,7 @@
 				"condition": "minecraft:entity_properties",
 				"entity": "this",
 				"predicate": {
-					"nbt": "{Tags:[\"joker\",\"joker.default\"]}"
+					"nbt": "{Tags:[\"joker\",\"default\"]}"
 				}
 			}
 		]
@@ -189,7 +189,7 @@
 				"condition": "minecraft:entity_properties",
 				"entity": "this",
 				"predicate": {
-					"nbt": "{Tags:[\"kingkrool\",\"kingkrool.default\"]}"
+					"nbt": "{Tags:[\"kingkrool\",\"default\"]}"
 				}
 			}
 		]
@@ -202,7 +202,7 @@
 				"condition": "minecraft:entity_properties",
 				"entity": "this",
 				"predicate": {
-					"nbt": "{Tags:[\"kirby\",\"kirby.default\"]}"
+					"nbt": "{Tags:[\"kirby\",\"default\"]}"
 				}
 			}
 		]
@@ -215,7 +215,7 @@
 				"condition": "minecraft:entity_properties",
 				"entity": "this",
 				"predicate": {
-					"nbt": "{Tags:[\"link\",\"link.default\"]}"
+					"nbt": "{Tags:[\"link\",\"default\"]}"
 				}
 			}
 		]
@@ -228,7 +228,7 @@
 				"condition": "minecraft:entity_properties",
 				"entity": "this",
 				"predicate": {
-					"nbt": "{Tags:[\"link\",\"link.dark\"]}"
+					"nbt": "{Tags:[\"link\",\"dark\"]}"
 				}
 			}
 		]
@@ -241,7 +241,7 @@
 				"condition": "minecraft:entity_properties",
 				"entity": "this",
 				"predicate": {
-					"nbt": "{Tags:[\"link\",\"link.goron\"]}"
+					"nbt": "{Tags:[\"link\",\"goron\"]}"
 				}
 			}
 		]
@@ -254,7 +254,7 @@
 				"condition": "minecraft:entity_properties",
 				"entity": "this",
 				"predicate": {
-					"nbt": "{Tags:[\"link\",\"link.zora\"]}"
+					"nbt": "{Tags:[\"link\",\"zora\"]}"
 				}
 			}
 		]
@@ -267,7 +267,7 @@
 				"condition": "minecraft:entity_properties",
 				"entity": "this",
 				"predicate": {
-					"nbt": "{Tags:[\"mario\",\"mario.default\"]}"
+					"nbt": "{Tags:[\"mario\",\"default\"]}"
 				}
 			}
 		]
@@ -280,7 +280,7 @@
 				"condition": "minecraft:entity_properties",
 				"entity": "this",
 				"predicate": {
-					"nbt": "{Tags:[\"mario\",\"mario.flowerpower\"]}"
+					"nbt": "{Tags:[\"mario\",\"flowerpower\"]}"
 				}
 			}
 		]
@@ -293,7 +293,7 @@
 				"condition": "minecraft:entity_properties",
 				"entity": "this",
 				"predicate": {
-					"nbt": "{Tags:[\"megaman\",\"megaman.default\"]}"
+					"nbt": "{Tags:[\"megaman\",\"default\"]}"
 				}
 			}
 		]
@@ -306,7 +306,7 @@
 				"condition": "minecraft:entity_properties",
 				"entity": "this",
 				"predicate": {
-					"nbt": "{Tags:[\"ness\",\"ness.default\"]}"
+					"nbt": "{Tags:[\"ness\",\"default\"]}"
 				}
 			}
 		]
@@ -319,7 +319,7 @@
 				"condition": "minecraft:entity_properties",
 				"entity": "this",
 				"predicate": {
-					"nbt": "{Tags:[\"ness\",\"ness.moonside\"]}"
+					"nbt": "{Tags:[\"ness\",\"moonside\"]}"
 				}
 			}
 		]
@@ -332,7 +332,7 @@
 				"condition": "minecraft:entity_properties",
 				"entity": "this",
 				"predicate": {
-					"nbt": "{Tags:[\"ness\",\"ness.pajamas\"]}"
+					"nbt": "{Tags:[\"ness\",\"pajamas\"]}"
 				}
 			}
 		]
@@ -345,7 +345,7 @@
 				"condition": "minecraft:entity_properties",
 				"entity": "this",
 				"predicate": {
-					"nbt": "{Tags:[\"peach\",\"peach.default\"]}"
+					"nbt": "{Tags:[\"peach\",\"default\"]}"
 				}
 			}
 		]
@@ -358,7 +358,7 @@
 				"condition": "minecraft:entity_properties",
 				"entity": "this",
 				"predicate": {
-					"nbt": "{Tags:[\"pit\",\"pit.default\"]}"
+					"nbt": "{Tags:[\"pit\",\"default\"]}"
 				}
 			}
 		]
@@ -371,7 +371,7 @@
 				"condition": "minecraft:entity_properties",
 				"entity": "this",
 				"predicate": {
-					"nbt": "{Tags:[\"ryu\",\"ryu.default\"]}"
+					"nbt": "{Tags:[\"ryu\",\"default\"]}"
 				}
 			}
 		]
@@ -384,7 +384,7 @@
 				"condition": "minecraft:entity_properties",
 				"entity": "this",
 				"predicate": {
-					"nbt": "{Tags:[\"samus\",\"samus.default\"]}"
+					"nbt": "{Tags:[\"samus\",\"default\"]}"
 				}
 			}
 		]
@@ -397,7 +397,7 @@
 				"condition": "minecraft:entity_properties",
 				"entity": "this",
 				"predicate": {
-					"nbt": "{Tags:[\"samus\",\"samus.gravity\"]}"
+					"nbt": "{Tags:[\"samus\",\"gravity\"]}"
 				}
 			}
 		]
@@ -410,7 +410,7 @@
 				"condition": "minecraft:entity_properties",
 				"entity": "this",
 				"predicate": {
-					"nbt": "{Tags:[\"samus\",\"samus.phazon\"]}"
+					"nbt": "{Tags:[\"samus\",\"phazon\"]}"
 				}
 			}
 		]
@@ -423,7 +423,7 @@
 				"condition": "minecraft:entity_properties",
 				"entity": "this",
 				"predicate": {
-					"nbt": "{Tags:[\"snake\",\"snake.default\"]}"
+					"nbt": "{Tags:[\"snake\",\"default\"]}"
 				}
 			}
 		]
@@ -436,7 +436,7 @@
 				"condition": "minecraft:entity_properties",
 				"entity": "this",
 				"predicate": {
-					"nbt": "{Tags:[\"sonic\",\"sonic.default\"]}"
+					"nbt": "{Tags:[\"sonic\",\"default\"]}"
 				}
 			}
 		]
@@ -449,7 +449,7 @@
 				"condition": "minecraft:entity_properties",
 				"entity": "this",
 				"predicate": {
-					"nbt": "{Tags:[\"steve\",\"steve.default\"]}"
+					"nbt": "{Tags:[\"steve\",\"default\"]}"
 				}
 			}
 		]
@@ -462,7 +462,7 @@
 				"condition": "minecraft:entity_properties",
 				"entity": "this",
 				"predicate": {
-					"nbt": "{Tags:[\"steve\",\"steve.alex\"]}"
+					"nbt": "{Tags:[\"steve\",\"alex\"]}"
 				}
 			}
 		]
@@ -475,7 +475,7 @@
 				"condition": "minecraft:entity_properties",
 				"entity": "this",
 				"predicate": {
-					"nbt": "{Tags:[\"toad.blue\"]}"
+					"nbt": "{Tags:[\"blue\"]}"
 				}
 			}
 		]
@@ -488,7 +488,7 @@
 				"condition": "minecraft:entity_properties",
 				"entity": "this",
 				"predicate": {
-					"nbt": "{Tags:[\"toad.green\"]}"
+					"nbt": "{Tags:[\"green\"]}"
 				}
 			}
 		]
@@ -501,7 +501,7 @@
 				"condition": "minecraft:entity_properties",
 				"entity": "this",
 				"predicate": {
-					"nbt": "{Tags:[\"toad.red\"]}"
+					"nbt": "{Tags:[\"red\"]}"
 				}
 			}
 		]
@@ -515,7 +515,7 @@
 				"condition": "minecraft:entity_properties",
 				"entity": "this",
 				"predicate": {
-					"nbt": "{Tags:[\"alteredbeast\",\"alteredbeast.default\",\"alteredbeast.form.human\"]}"
+					"nbt": "{Tags:[\"alteredbeast\",\"default\",\"alteredbeast.form.human\"]}"
 				}
 			}
 		]
@@ -528,7 +528,7 @@
 				"condition": "minecraft:entity_properties",
 				"entity": "this",
 				"predicate": {
-					"nbt": "{Tags:[\"alteredbeast\",\"alteredbeast.default\",\"alteredbeast.form.demigod\"]}"
+					"nbt": "{Tags:[\"alteredbeast\",\"default\",\"alteredbeast.form.demigod\"]}"
 				}
 			}
 		]
@@ -541,7 +541,7 @@
 				"condition": "minecraft:entity_properties",
 				"entity": "this",
 				"predicate": {
-					"nbt": "{Tags:[\"alteredbeast\",\"alteredbeast.default\",\"alteredbeast.form.warebear\"]}"
+					"nbt": "{Tags:[\"alteredbeast\",\"default\",\"alteredbeast.form.warebear\"]}"
 				}
 			}
 		]
@@ -554,7 +554,7 @@
 				"condition": "minecraft:entity_properties",
 				"entity": "this",
 				"predicate": {
-					"nbt": "{Tags:[\"alteredbeast\",\"alteredbeast.default\",\"alteredbeast.form.waredragon\"]}"
+					"nbt": "{Tags:[\"alteredbeast\",\"default\",\"alteredbeast.form.waredragon\"]}"
 				}
 			}
 		]
@@ -567,7 +567,7 @@
 				"condition": "minecraft:entity_properties",
 				"entity": "this",
 				"predicate": {
-					"nbt": "{Tags:[\"alteredbeast\",\"alteredbeast.default\",\"alteredbeast.form.waretiger\"]}"
+					"nbt": "{Tags:[\"alteredbeast\",\"default\",\"alteredbeast.form.waretiger\"]}"
 				}
 			}
 		]
@@ -580,7 +580,7 @@
 				"condition": "minecraft:entity_properties",
 				"entity": "this",
 				"predicate": {
-					"nbt": "{Tags:[\"alteredbeast\",\"alteredbeast.default\",\"alteredbeast.form.warewolf\"]}"
+					"nbt": "{Tags:[\"alteredbeast\",\"default\",\"alteredbeast.form.warewolf\"]}"
 				}
 			}
 		]
@@ -593,7 +593,7 @@
 				"condition": "minecraft:entity_properties",
 				"entity": "this",
 				"predicate": {
-					"nbt": "{Tags:[\"alucard\",\"alucard.default\"]}"
+					"nbt": "{Tags:[\"alucard\",\"default\"]}"
 				}
 			}
 		]
@@ -606,7 +606,7 @@
 				"condition": "minecraft:entity_properties",
 				"entity": "this",
 				"predicate": {
-					"nbt": "{Tags:[\"shadow\",\"shadow.default\"]}"
+					"nbt": "{Tags:[\"shadow\",\"default\"]}"
 				}
 			}
 		]
@@ -619,7 +619,7 @@
 				"condition": "minecraft:entity_properties",
 				"entity": "this",
 				"predicate": {
-					"nbt": "{Tags:[\"shovelknight\",\"shovelknight.default\"]}"
+					"nbt": "{Tags:[\"shovelknight\",\"default\"]}"
 				}
 			},
 			{
@@ -667,7 +667,7 @@
 				"condition": "minecraft:entity_properties",
 				"entity": "this",
 				"predicate": {
-					"nbt": "{Tags:[\"teamrocket.arbok\",\"teamrocket.default\"]}"
+					"nbt": "{Tags:[\"arbok\",\"default\"]}"
 				}
 			}
 		]
@@ -680,7 +680,7 @@
 				"condition": "minecraft:entity_properties",
 				"entity": "this",
 				"predicate": {
-					"nbt": "{Tags:[\"teamrocket.meowth\",\"teamrocket.default\"]}"
+					"nbt": "{Tags:[\"meowth\",\"default\"]}"
 				}
 			}
 		]
@@ -693,7 +693,7 @@
 				"condition": "minecraft:entity_properties",
 				"entity": "this",
 				"predicate": {
-					"nbt": "{Tags:[\"teamrocket.wobbuffet\",\"teamrocket.default\"]}"
+					"nbt": "{Tags:[\"wobbuffet\",\"default\"]}"
 				}
 			}
 		]
