@@ -1,0 +1,46 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:barrier",
+			"nbt": "{CustomModelData:1940}"
+		},
+		"title": {
+			"text": "Veteran",
+			"color": "yellow",
+			"bold": false,
+			"italic": false
+		},
+		"description": {
+			"text": "Play ",
+			"color": "gray",
+			"bold": false,
+			"italic": false,
+			"extra": [
+				{
+					"text": "10",
+					"color": "blue",
+					"bold": false,
+					"italic": false
+				},
+				{
+					"text": " games.",
+					"color": "gray",
+					"bold": false,
+					"italic": false
+				}
+			]
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true
+	},
+	"parent": "ssbrc:characters/teamrocket/novice",
+	"criteria": {
+		"impossible": {
+			"trigger": "minecraft:impossible"
+		}
+	},
+	"rewards": {
+		"function": "ssbrc:advancements/teamrocket/veteran"
+	}
+}

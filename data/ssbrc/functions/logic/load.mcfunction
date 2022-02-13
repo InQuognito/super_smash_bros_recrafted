@@ -46,6 +46,7 @@ advancement grant @a only ssbrc:characters/donkeykong/costumes/super
 advancement grant @a only ssbrc:characters/donkeykong/costumes/gold
 advancement grant @a only ssbrc:characters/fox/costumes/gold
 advancement grant @a only ssbrc:characters/ganondorf/costumes/gold
+advancement grant @a only ssbrc:characters/ganondorf/costumes/oot
 advancement grant @a only ssbrc:characters/greninja/costumes/gold
 advancement grant @a only ssbrc:characters/giegue/costumes/gold
 advancement grant @a only ssbrc:characters/hero/costumes/gold
