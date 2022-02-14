@@ -908,7 +908,7 @@
 	},
 	{
 		"function": "minecraft:set_nbt",
-		"tag": "{CustomModelData:1171}",
+		"tag": "{CustomModelData:1172}",
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -921,13 +921,13 @@
 	},
 	{
 		"function": "minecraft:set_nbt",
-		"tag": "{CustomModelData:1172}",
+		"tag": "{CustomModelData:1173}",
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
 				"entity": "this",
 				"predicate": {
-					"nbt": "{Tags:[\"toad\",\"green\"]}"
+					"nbt": "{Tags:[\"toad\",\"yellow\"]}"
 				}
 			}
 		]

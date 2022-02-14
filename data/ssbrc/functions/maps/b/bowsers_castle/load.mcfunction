@@ -22,7 +22,7 @@ summon minecraft:armor_stand -734.959 27.0 854.474 {Tags:["propStand","peach","d
 
 summon minecraft:armor_stand -734.897 27.0 834.552 {Tags:["propStand","toad","default"],NoBasePlate:1b,NoGravity:1b,ShowArms:1b,Small:1b,Rotation:[270f],Pose:{LeftArm:[332f,30f,328f],RightArm:[338f,18f,12f]}}
 summon minecraft:armor_stand -737.7 26.6 833.175 {Tags:["propStand","toad","blue"],NoBasePlate:1b,NoGravity:1b,ShowArms:1b,Small:1b,Rotation:[320f],Pose:{LeftLeg:[267f,0f,0f],RightLeg:[267f,0f,0f],LeftArm:[332f,30f,328f],RightArm:[330f,18f,12f]}}
-summon minecraft:armor_stand -736.46 27.0 835.889 {Tags:["propStand","toad","green"],NoBasePlate:1b,ShowArms:1b,Small:1b,Pose:{LeftArm:[221f,342f,46f],RightArm:[245f,40f,12f]}}
+summon minecraft:armor_stand -736.46 27.0 835.889 {Tags:["propStand","toad","yellow"],NoBasePlate:1b,ShowArms:1b,Small:1b,Pose:{LeftArm:[221f,342f,46f],RightArm:[245f,40f,12f]}}
 
 execute as @e[tag=propStand] run item replace entity @s armor.head with minecraft:barrier
 execute as @e[tag=propStand] run item modify entity @s armor.head ssbrc:kits/head

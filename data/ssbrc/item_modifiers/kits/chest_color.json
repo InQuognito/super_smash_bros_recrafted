@@ -478,13 +478,26 @@
 	},
 	{
 		"function": "minecraft:set_nbt",
+		"tag": "{display:{color:5394431}}",
+		"conditions": [
+			{
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"nbt": "{Tags:[\"toad\",\"default\"]}"
+				}
+			}
+		]
+	},
+	{
+		"function": "minecraft:set_nbt",
 		"tag": "{display:{color:7302655}}",
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
 				"entity": "this",
 				"predicate": {
-					"nbt": "{Tags:[\"blue\"]}"
+					"nbt": "{Tags:[\"toad\",\"blue\"]}"
 				}
 			}
 		]
@@ -497,20 +510,7 @@
 				"condition": "minecraft:entity_properties",
 				"entity": "this",
 				"predicate": {
-					"nbt": "{Tags:[\"green\"]}"
-				}
-			}
-		]
-	},
-	{
-		"function": "minecraft:set_nbt",
-		"tag": "{display:{color:5394431}}",
-		"conditions": [
-			{
-				"condition": "minecraft:entity_properties",
-				"entity": "this",
-				"predicate": {
-					"nbt": "{Tags:[\"red\"]}"
+					"nbt": "{Tags:[\"toad\",\"yellow\"]}"
 				}
 			}
 		]

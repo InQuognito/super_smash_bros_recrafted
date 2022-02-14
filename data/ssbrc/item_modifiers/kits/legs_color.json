@@ -549,7 +549,7 @@
 				"condition": "minecraft:entity_properties",
 				"entity": "this",
 				"predicate": {
-					"nbt": "{Tags:[\"toad\",\"green\"]}"
+					"nbt": "{Tags:[\"toad\",\"yellow\"]}"
 				}
 			}
 		]
