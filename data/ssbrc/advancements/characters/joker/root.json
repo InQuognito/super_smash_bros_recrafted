@@ -2,11 +2,11 @@
 	"display": {
 		"icon": {
 			"item": "minecraft:barrier",
-			"nbt": "{CustomModelData:440}"
+			"nbt": "{CustomModelData:600}"
 		},
 		"title": {
-			"text": "Hero",
-			"color": "yellow",
+			"text": "Joker",
+			"color": "dark_red",
 			"bold": true,
 			"italic": false,
 			"extra": [
@@ -45,19 +45,19 @@
 		"master": {
 			"trigger": "minecraft:impossible"
 		},
-		"dragon_slayer": {
+		"bowser_mushroom_kingdom_dystopia": {
 			"trigger": "minecraft:impossible"
 		},
-		"grinding_exp": {
+		"legendary_phantom_thief": {
 			"trigger": "minecraft:impossible"
 		},
-		"king_metal": {
+		"one_who_rebels_against_god": {
 			"trigger": "minecraft:impossible"
 		},
-		"overflow": {
+		"the_thorough_trickster": {
 			"trigger": "minecraft:impossible"
 		},
-		"power_of_the_luminary": {
+		"with_oracles_support": {
 			"trigger": "minecraft:impossible"
 		}
 	},
@@ -78,22 +78,22 @@
 			"master"
 		],
 		[
-			"dragon_slayer"
+			"bowser_mushroom_kingdom_dystopia"
 		],
 		[
-			"grinding_exp"
+			"legendary_phantom_thief"
 		],
 		[
-			"king_metal"
+			"one_who_rebels_against_god"
 		],
 		[
-			"overflow"
+			"the_thorough_trickster"
 		],
 		[
-			"power_of_the_luminary"
+			"with_oracles_support"
 		]
 	],
 	"rewards": {
-		"function": "ssbrc:advancements/hero/mastery"
+		"function": "ssbrc:advancements/joker/mastery"
 	}
 }

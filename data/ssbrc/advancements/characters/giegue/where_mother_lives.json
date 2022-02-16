@@ -1,0 +1,32 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:barrier",
+			"nbt": "{CustomModelData:1860}"
+		},
+		"title": {
+			"text": "Where Mother Lives",
+			"color": "dark_red",
+			"bold": false,
+			"italic": false
+		},
+		"description": {
+			"text": "Take a Melody...",
+			"color": "red",
+			"bold": false,
+			"italic": false
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true
+	},
+	"parent": "ssbrc:characters/giegue/novice",
+	"criteria": {
+		"impossible": {
+			"trigger": "minecraft:impossible"
+		}
+	},
+	"rewards": {
+		"function": "ssbrc:advancements/giegue/where_mother_lives"
+	}
+}

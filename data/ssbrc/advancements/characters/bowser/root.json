@@ -2,11 +2,11 @@
 	"display": {
 		"icon": {
 			"item": "minecraft:barrier",
-			"nbt": "{CustomModelData:440}"
+			"nbt": "{CustomModelData:60}"
 		},
 		"title": {
-			"text": "Hero",
-			"color": "yellow",
+			"text": "Bowser",
+			"color": "green",
 			"bold": true,
 			"italic": false,
 			"extra": [
@@ -45,19 +45,19 @@
 		"master": {
 			"trigger": "minecraft:impossible"
 		},
-		"dragon_slayer": {
+		"bowser_bomb": {
 			"trigger": "minecraft:impossible"
 		},
-		"grinding_exp": {
+		"castle_defense": {
 			"trigger": "minecraft:impossible"
 		},
-		"king_metal": {
+		"gargantuans": {
 			"trigger": "minecraft:impossible"
 		},
-		"overflow": {
+		"king_koopa": {
 			"trigger": "minecraft:impossible"
 		},
-		"power_of_the_luminary": {
+		"maybe_next_time_faucet_freak": {
 			"trigger": "minecraft:impossible"
 		}
 	},
@@ -78,22 +78,22 @@
 			"master"
 		],
 		[
-			"dragon_slayer"
+			"bowser_bomb"
 		],
 		[
-			"grinding_exp"
+			"castle_defense"
 		],
 		[
-			"king_metal"
+			"gargantuans"
 		],
 		[
-			"overflow"
+			"king_koopa"
 		],
 		[
-			"power_of_the_luminary"
+			"maybe_next_time_faucet_freak"
 		]
 	],
 	"rewards": {
-		"function": "ssbrc:advancements/hero/mastery"
+		"function": "ssbrc:advancements/bowser/mastery"
 	}
 }

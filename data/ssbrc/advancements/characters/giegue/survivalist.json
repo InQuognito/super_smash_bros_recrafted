@@ -2,40 +2,28 @@
 	"display": {
 		"icon": {
 			"item": "minecraft:barrier",
-			"nbt": "{CustomModelData:440}"
+			"nbt": "{CustomModelData:1860}"
 		},
 		"title": {
-			"text": "Metal Man",
-			"color": "light_purple",
+			"text": "Survivalist",
+			"color": "yellow",
 			"bold": false,
 			"italic": false
 		},
 		"description": {
-			"text": "Absorb ",
+			"text": "Win with ",
 			"color": "gray",
 			"bold": false,
 			"italic": false,
 			"extra": [
 				{
-					"text": "200",
+					"text": "more than one",
 					"color": "blue",
 					"bold": false,
 					"italic": false
 				},
 				{
-					"text": " damage with ",
-					"color": "gray",
-					"bold": false,
-					"italic": false
-				},
-				{
-					"text": "Kaclang",
-					"color": "aqua",
-					"bold": false,
-					"italic": false
-				},
-				{
-					"text": ".",
+					"text": " stock left.",
 					"color": "gray",
 					"bold": false,
 					"italic": false
@@ -46,13 +34,13 @@
 		"show_toast": true,
 		"announce_to_chat": true
 	},
-	"parent": "ssbrc:characters/hero/survivalist",
+	"parent": "ssbrc:characters/giegue/veteran",
 	"criteria": {
 		"impossible": {
 			"trigger": "minecraft:impossible"
 		}
 	},
 	"rewards": {
-		"function": "ssbrc:advancements/hero/metal_man"
+		"function": "ssbrc:advancements/giegue/survivalist"
 	}
 }

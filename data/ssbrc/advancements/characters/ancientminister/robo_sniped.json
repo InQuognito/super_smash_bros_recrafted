@@ -1,0 +1,58 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:barrier",
+			"nbt": "{CustomModelData:1}"
+		},
+		"title": {
+			"text": "Robo Sniped",
+			"color": "light_purple",
+			"bold": false,
+			"italic": false
+		},
+		"description": {
+			"text": "Landed a hit from a fully charged ",
+			"color": "gray",
+			"bold": false,
+			"italic": false,
+			"extra": [
+				{
+					"text": "Robo Beam",
+					"color": "aqua",
+					"bold": false,
+					"italic": false
+				},
+				{
+					"text": " from a distance of at least ",
+					"color": "gray",
+					"bold": false,
+					"italic": false
+				},
+				{
+					"text": "20 meters",
+					"color": "blue",
+					"bold": false,
+					"italic": false
+				},
+				{
+					"text": ".",
+					"color": "gray",
+					"bold": false,
+					"italic": false
+				}
+			]
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true
+	},
+	"parent": "ssbrc:characters/ancientminister/slayer",
+	"criteria": {
+		"impossible": {
+			"trigger": "minecraft:impossible"
+		}
+	},
+	"rewards": {
+		"function": "ssbrc:advancements/ancientminister/robo_sniped"
+	}
+}

@@ -1,0 +1,58 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:barrier",
+			"nbt": "{CustomModelData:600}"
+		},
+		"title": {
+			"text": "With Oracle's Support",
+			"color": "light_purple",
+			"bold": false,
+			"italic": false
+		},
+		"description": {
+			"text": "Absorb ",
+			"color": "gray",
+			"bold": false,
+			"italic": false,
+			"extra": [
+				{
+					"text": "100",
+					"color": "blue",
+					"bold": false,
+					"italic": false
+				},
+				{
+					"text": " damage with ",
+					"color": "gray",
+					"bold": false,
+					"italic": false
+				},
+				{
+					"text": "Final Guard",
+					"color": "aqua",
+					"bold": false,
+					"italic": false
+				},
+				{
+					"text": ".",
+					"color": "gray",
+					"bold": false,
+					"italic": false
+				}
+			]
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true
+	},
+	"parent": "ssbrc:characters/joker/survivalist",
+	"criteria": {
+		"impossible": {
+			"trigger": "minecraft:impossible"
+		}
+	},
+	"rewards": {
+		"function": "ssbrc:advancements/joker/with_oracles_support"
+	}
+}

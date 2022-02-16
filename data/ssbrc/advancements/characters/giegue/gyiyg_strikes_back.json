@@ -1,0 +1,46 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:barrier",
+			"nbt": "{CustomModelData:1860}"
+		},
+		"title": {
+			"text": "Gyiyg Strikes Back",
+			"color": "light_purple",
+			"bold": false,
+			"italic": false
+		},
+		"description": {
+			"text": "Defeat ",
+			"color": "gray",
+			"bold": false,
+			"italic": false,
+			"extra": [
+				{
+					"text": "Ness",
+					"color": "yellow",
+					"bold": false,
+					"italic": false
+				},
+				{
+					"text": ".",
+					"color": "gray",
+					"bold": false,
+					"italic": false
+				}
+			]
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true
+	},
+	"parent": "ssbrc:characters/giegue/novice",
+	"criteria": {
+		"impossible": {
+			"trigger": "minecraft:impossible"
+		}
+	},
+	"rewards": {
+		"function": "ssbrc:advancements/giegue/gyiyg_strikes_back"
+	}
+}

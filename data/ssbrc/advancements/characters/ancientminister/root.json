@@ -2,11 +2,11 @@
 	"display": {
 		"icon": {
 			"item": "minecraft:barrier",
-			"nbt": "{CustomModelData:440}"
+			"nbt": "{CustomModelData:1}"
 		},
 		"title": {
-			"text": "Hero",
-			"color": "yellow",
+			"text": "Ancient Minister",
+			"color": "red",
 			"bold": true,
 			"italic": false,
 			"extra": [
@@ -45,19 +45,19 @@
 		"master": {
 			"trigger": "minecraft:impossible"
 		},
-		"dragon_slayer": {
+		"gyromited": {
 			"trigger": "minecraft:impossible"
 		},
-		"grinding_exp": {
+		"robo_sniped": {
 			"trigger": "minecraft:impossible"
 		},
-		"king_metal": {
+		"stacked_up": {
 			"trigger": "minecraft:impossible"
 		},
-		"overflow": {
+		"subspace_rising": {
 			"trigger": "minecraft:impossible"
 		},
-		"power_of_the_luminary": {
+		"the_last_of_his_kind": {
 			"trigger": "minecraft:impossible"
 		}
 	},
@@ -78,22 +78,22 @@
 			"master"
 		],
 		[
-			"dragon_slayer"
+			"gyromited"
 		],
 		[
-			"grinding_exp"
+			"robo_sniped"
 		],
 		[
-			"king_metal"
+			"stacked_up"
 		],
 		[
-			"overflow"
+			"subspace_rising"
 		],
 		[
-			"power_of_the_luminary"
+			"the_last_of_his_kind"
 		]
 	],
 	"rewards": {
-		"function": "ssbrc:advancements/hero/mastery"
+		"function": "ssbrc:advancements/ancientminister/mastery"
 	}
 }

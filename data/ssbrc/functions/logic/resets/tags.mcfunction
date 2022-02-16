@@ -25,6 +25,9 @@ tag @s remove snake
 tag @s remove sonic
 tag @s remove steve
 tag @s remove teamrocket
+tag @s remove arbok
+tag @s remove meowth
+tag @s remove wobbuffet
 
 # Favorites
 tag @s remove favoritetry.alteredbeast

@@ -2,11 +2,11 @@
 	"display": {
 		"icon": {
 			"item": "minecraft:barrier",
-			"nbt": "{CustomModelData:440}"
+			"nbt": "{CustomModelData:1860}"
 		},
 		"title": {
-			"text": "Hero",
-			"color": "yellow",
+			"text": "Giegue",
+			"color": "white",
 			"bold": true,
 			"italic": false,
 			"extra": [
@@ -45,19 +45,19 @@
 		"master": {
 			"trigger": "minecraft:impossible"
 		},
-		"dragon_slayer": {
+		"all_is_devastation": {
 			"trigger": "minecraft:impossible"
 		},
-		"grinding_exp": {
+		"eight_melodies": {
 			"trigger": "minecraft:impossible"
 		},
-		"king_metal": {
+		"gyiyg_strikes_back": {
 			"trigger": "minecraft:impossible"
 		},
-		"overflow": {
+		"it_hurts_i_feel_good": {
 			"trigger": "minecraft:impossible"
 		},
-		"power_of_the_luminary": {
+		"where_mother_lives": {
 			"trigger": "minecraft:impossible"
 		}
 	},
@@ -78,22 +78,22 @@
 			"master"
 		],
 		[
-			"dragon_slayer"
+			"all_is_devastation"
 		],
 		[
-			"grinding_exp"
+			"eight_melodies"
 		],
 		[
-			"king_metal"
+			"gyiyg_strikes_back"
 		],
 		[
-			"overflow"
+			"it_hurts_i_feel_good"
 		],
 		[
-			"power_of_the_luminary"
+			"where_mother_lives"
 		]
 	],
 	"rewards": {
-		"function": "ssbrc:advancements/hero/mastery"
+		"function": "ssbrc:advancements/giegue/mastery"
 	}
 }
