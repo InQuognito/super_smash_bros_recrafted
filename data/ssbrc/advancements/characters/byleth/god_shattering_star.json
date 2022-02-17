@@ -1,0 +1,58 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:barrier",
+			"nbt": "{CustomModelData:100}"
+		},
+		"title": {
+			"text": "God Shattering Star",
+			"color": "light_purple",
+			"bold": false,
+			"italic": false
+		},
+		"description": {
+			"text": "Win a game against ",
+			"color": "gray",
+			"bold": false,
+			"italic": false,
+			"extra": [
+				{
+					"text": "Ganondorf",
+					"color": "gold",
+					"bold": false,
+					"italic": false
+				},
+				{
+					"text": " as a representative of ",
+					"color": "gray",
+					"bold": false,
+					"italic": false
+				},
+				{
+					"text": "Golden Deer",
+					"color": "aqua",
+					"bold": false,
+					"italic": false
+				},
+				{
+					"text": ".",
+					"color": "gray",
+					"bold": false,
+					"italic": false
+				}
+			]
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true
+	},
+	"parent": "ssbrc:characters/byleth/novice",
+	"criteria": {
+		"impossible": {
+			"trigger": "minecraft:impossible"
+		}
+	},
+	"rewards": {
+		"function": "ssbrc:advancements/byleth/edge_of_dawn"
+	}
+}

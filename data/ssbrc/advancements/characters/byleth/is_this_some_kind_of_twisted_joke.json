@@ -1,0 +1,58 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:barrier",
+			"nbt": "{CustomModelData:100}"
+		},
+		"title": {
+			"text": "Is This Some Kind of Twisted Joke?",
+			"color": "light_purple",
+			"bold": false,
+			"italic": false
+		},
+		"description": {
+			"text": "As a representative of ",
+			"color": "gray",
+			"bold": false,
+			"italic": false,
+			"extra": [
+				{
+					"text": "Blue Lions",
+					"color": "aqua",
+					"bold": false,
+					"italic": false
+				},
+				{
+					"text": ", kill every other player ",
+					"color": "gray",
+					"bold": false,
+					"italic": false
+				},
+				{
+					"text": "at least once",
+					"color": "blue",
+					"bold": false,
+					"italic": false
+				},
+				{
+					"text": " and win the game.",
+					"color": "gray",
+					"bold": false,
+					"italic": false
+				}
+			]
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true
+	},
+	"parent": "ssbrc:characters/byleth/master",
+	"criteria": {
+		"impossible": {
+			"trigger": "minecraft:impossible"
+		}
+	},
+	"rewards": {
+		"function": "ssbrc:advancements/byleth/is_this_some_kind_of_twisted_joke"
+	}
+}

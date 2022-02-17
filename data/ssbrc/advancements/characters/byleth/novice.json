@@ -1,0 +1,46 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:barrier",
+			"nbt": "{CustomModelData:100}"
+		},
+		"title": {
+			"text": "Novice",
+			"color": "yellow",
+			"bold": false,
+			"italic": false
+		},
+		"description": {
+			"text": "Win ",
+			"color": "gray",
+			"bold": false,
+			"italic": false,
+			"extra": [
+				{
+					"text": "1",
+					"color": "blue",
+					"bold": false,
+					"italic": false
+				},
+				{
+					"text": " game.",
+					"color": "gray",
+					"bold": false,
+					"italic": false
+				}
+			]
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true
+	},
+	"parent": "ssbrc:characters/byleth/root",
+	"criteria": {
+		"impossible": {
+			"trigger": "minecraft:impossible"
+		}
+	},
+	"rewards": {
+		"function": "ssbrc:advancements/byleth/novice"
+	}
+}

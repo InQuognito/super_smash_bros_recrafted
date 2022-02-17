@@ -1,0 +1,99 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:barrier",
+			"nbt": "{CustomModelData:100}"
+		},
+		"title": {
+			"text": "Byleth",
+			"color": "dark_aqua",
+			"bold": true,
+			"italic": false,
+			"extra": [
+				{
+					"text": " Mastery",
+					"color": "white",
+					"bold": true,
+					"italic": false
+				}
+			]
+		},
+		"description": {
+			"text": "Complete challenges to unlock a reward!",
+			"color": "gray",
+			"bold": false,
+			"italic": false
+		},
+		"frame": "challenge",
+		"show_toast": false,
+		"announce_to_chat": false,
+		"background": "minecraft:textures/gui/advancements/backgrounds/stone.png"
+	},
+	"criteria": {
+		"novice": {
+			"trigger": "minecraft:impossible"
+		},
+		"veteran": {
+			"trigger": "minecraft:impossible"
+		},
+		"survivalist": {
+			"trigger": "minecraft:impossible"
+		},
+		"slayer": {
+			"trigger": "minecraft:impossible"
+		},
+		"master": {
+			"trigger": "minecraft:impossible"
+		},
+		"brains_over_brawn": {
+			"trigger": "minecraft:impossible"
+		},
+		"edge_of_dawn": {
+			"trigger": "minecraft:impossible"
+		},
+		"god_shattering_star": {
+			"trigger": "minecraft:impossible"
+		},
+		"is_this_some_kind_of_twisted_joke": {
+			"trigger": "minecraft:impossible"
+		},
+		"too_many_swordsmen_are_there": {
+			"trigger": "minecraft:impossible"
+		}
+	},
+	"requirements": [
+		[
+			"novice"
+		],
+		[
+			"veteran"
+		],
+		[
+			"survivalist"
+		],
+		[
+			"slayer"
+		],
+		[
+			"master"
+		],
+		[
+			"brains_over_brawn"
+		],
+		[
+			"edge_of_dawn"
+		],
+		[
+			"god_shattering_star"
+		],
+		[
+			"is_this_some_kind_of_twisted_joke"
+		],
+		[
+			"too_many_swordsmen_are_there"
+		]
+	],
+	"rewards": {
+		"function": "ssbrc:advancements/byleth/mastery"
+	}
+}

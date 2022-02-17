@@ -1,0 +1,46 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:barrier",
+			"nbt": "{CustomModelData:1220}"
+		},
+		"title": {
+			"text": "Slayer",
+			"color": "yellow",
+			"bold": false,
+			"italic": false
+		},
+		"description": {
+			"text": "Get ",
+			"color": "gray",
+			"bold": false,
+			"italic": false,
+			"extra": [
+				{
+					"text": "15",
+					"color": "blue",
+					"bold": false,
+					"italic": false
+				},
+				{
+					"text": " kills.",
+					"color": "gray",
+					"bold": false,
+					"italic": false
+				}
+			]
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true
+	},
+	"parent": "ssbrc:characters/pit/novice",
+	"criteria": {
+		"impossible": {
+			"trigger": "minecraft:impossible"
+		}
+	},
+	"rewards": {
+		"function": "ssbrc:advancements/pit/slayer"
+	}
+}

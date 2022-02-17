@@ -1,0 +1,58 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:barrier",
+			"nbt": "{CustomModelData:100}"
+		},
+		"title": {
+			"text": "Too Many Swordsmen Are There?",
+			"color": "light_purple",
+			"bold": false,
+			"italic": false
+		},
+		"description": {
+			"text": "Win a match against ",
+			"color": "gray",
+			"bold": false,
+			"italic": false,
+			"extra": [
+				{
+					"text": "3",
+					"color": "blue",
+					"bold": false,
+					"italic": false
+				},
+				{
+					"text": " other ",
+					"color": "gray",
+					"bold": false,
+					"italic": false
+				},
+				{
+					"text": "swordsmen",
+					"color": "gold",
+					"bold": false,
+					"italic": false
+				},
+				{
+					"text": ".",
+					"color": "gray",
+					"bold": false,
+					"italic": false
+				}
+			]
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true
+	},
+	"parent": "ssbrc:characters/byleth/veteran",
+	"criteria": {
+		"impossible": {
+			"trigger": "minecraft:impossible"
+		}
+	},
+	"rewards": {
+		"function": "ssbrc:advancements/byleth/too_many_swordsmen_are_there"
+	}
+}

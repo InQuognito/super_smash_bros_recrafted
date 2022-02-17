@@ -1,0 +1,99 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:barrier",
+			"nbt": "{CustomModelData:1420}"
+		},
+		"title": {
+			"text": "Samus",
+			"color": "gold",
+			"bold": true,
+			"italic": false,
+			"extra": [
+				{
+					"text": " Mastery",
+					"color": "white",
+					"bold": true,
+					"italic": false
+				}
+			]
+		},
+		"description": {
+			"text": "Complete challenges to unlock a reward!",
+			"color": "gray",
+			"bold": false,
+			"italic": false
+		},
+		"frame": "challenge",
+		"show_toast": false,
+		"announce_to_chat": false,
+		"background": "minecraft:textures/gui/advancements/backgrounds/stone.png"
+	},
+	"criteria": {
+		"novice": {
+			"trigger": "minecraft:impossible"
+		},
+		"veteran": {
+			"trigger": "minecraft:impossible"
+		},
+		"survivalist": {
+			"trigger": "minecraft:impossible"
+		},
+		"slayer": {
+			"trigger": "minecraft:impossible"
+		},
+		"master": {
+			"trigger": "minecraft:impossible"
+		},
+		"cold_armor": {
+			"trigger": "minecraft:impossible"
+		},
+		"famicom_club": {
+			"trigger": "minecraft:impossible"
+		},
+		"galactic_avenger": {
+			"trigger": "minecraft:impossible"
+		},
+		"phazon_overloaded": {
+			"trigger": "minecraft:impossible"
+		},
+		"zebesian_invasion": {
+			"trigger": "minecraft:impossible"
+		}
+	},
+	"requirements": [
+		[
+			"novice"
+		],
+		[
+			"veteran"
+		],
+		[
+			"survivalist"
+		],
+		[
+			"slayer"
+		],
+		[
+			"master"
+		],
+		[
+			"cold_armor"
+		],
+		[
+			"famicom_club"
+		],
+		[
+			"galactic_avenger"
+		],
+		[
+			"phazon_overloaded"
+		],
+		[
+			"zebesian_invasion"
+		]
+	],
+	"rewards": {
+		"function": "ssbrc:advancements/samus/mastery"
+	}
+}

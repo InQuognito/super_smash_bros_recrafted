@@ -1,0 +1,70 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:barrier",
+			"nbt": "{CustomModelData:1400}"
+		},
+		"title": {
+			"text": "Baby's First Command Input",
+			"color": "light_purple",
+			"bold": false,
+			"italic": false
+		},
+		"description": {
+			"text": "Unleash ",
+			"color": "gray",
+			"bold": false,
+			"italic": false,
+			"extra": [
+				{
+					"text": "5",
+					"color": "blue",
+					"bold": false,
+					"italic": false
+				},
+				{
+					"text": " ",
+					"color": "gray",
+					"bold": false,
+					"italic": false
+				},
+				{
+					"text": "Hadoken",
+					"color": "aqua",
+					"bold": false,
+					"italic": false
+				},
+				{
+					"text": "s in less than ",
+					"color": "gray",
+					"bold": false,
+					"italic": false
+				},
+				{
+					"text": "10 seconds",
+					"color": "blue",
+					"bold": false,
+					"italic": false
+				},
+				{
+					"text": ".",
+					"color": "gray",
+					"bold": false,
+					"italic": false
+				}
+			]
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true
+	},
+	"parent": "ssbrc:characters/ryu/novice",
+	"criteria": {
+		"impossible": {
+			"trigger": "minecraft:impossible"
+		}
+	},
+	"rewards": {
+		"function": "ssbrc:advancements/ryu/babys_first_command_input"
+	}
+}

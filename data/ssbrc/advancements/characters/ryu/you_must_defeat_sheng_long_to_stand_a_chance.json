@@ -1,0 +1,46 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:barrier",
+			"nbt": "{CustomModelData:1400}"
+		},
+		"title": {
+			"text": "You Must Defeat Sheng Long to Stand a Chance",
+			"color": "light_purple",
+			"bold": false,
+			"italic": false
+		},
+		"description": {
+			"text": "Obtain a perfect victory on the first stock of a ",
+			"color": "gray",
+			"bold": false,
+			"italic": false,
+			"extra": [
+				{
+					"text": "1v1",
+					"color": "blue",
+					"bold": false,
+					"italic": false
+				},
+				{
+					"text": " match.",
+					"color": "gray",
+					"bold": false,
+					"italic": false
+				}
+			]
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true
+	},
+	"parent": "ssbrc:characters/ryu/master",
+	"criteria": {
+		"impossible": {
+			"trigger": "minecraft:impossible"
+		}
+	},
+	"rewards": {
+		"function": "ssbrc:advancements/ryu/you_must_defeat_sheng_long_to_stand_a_chance"
+	}
+}
