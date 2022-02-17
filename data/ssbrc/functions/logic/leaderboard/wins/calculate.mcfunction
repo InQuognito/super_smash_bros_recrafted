@@ -9,8 +9,6 @@ scoreboard players operation #wL.decimal temp %= #100 integers
 scoreboard players operation #wL.integer temp = @s stats.wL
 scoreboard players operation #wL.integer temp /= #100 integers
 
-tellraw @a [{"score":{"name":"#wL.integer","objective":"temp"},"bold":false,"color":"yellow"}]
-
 scoreboard players reset $most stats.wL
 scoreboard players operation $most stats.wL > @a[tag=!leaderboard.loaded] stats.wL
 execute if score @s stats.wL = $most stats.wL run tag @s add leaderboard.next
