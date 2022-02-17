@@ -1,6 +1,6 @@
 kill @e[tag=leaderboard.label]
 
-summon minecraft:area_effect_cloud -507.5 7.0 55.5 {Tags:["leaderboard.label"],CustomName:'[{"text":"Wins","bold":true,"underlined":true,"color":"green"},{"text":" | ","bold":true,"underlined":false,"color":"white"},{"text":"W/L Ratio","bold":true,"underlined":true,"color":"red"}]',CustomNameVisible:1b,Age:-2147483648,Duration:-1,WaitTime:-2147483648}
+summon minecraft:area_effect_cloud -507.5 7.0 55.5 {Tags:["leaderboard.label"],CustomName:'[{"text":"Wins","bold":true,"underlined":true,"color":"blue"},{"text":" | ","bold":true,"underlined":false,"color":"white"},{"text":"W/L Ratio","bold":true,"underlined":true,"color":"dark_aqua"}]',CustomNameVisible:1b,Age:-2147483648,Duration:-1,WaitTime:-2147483648}
 summon minecraft:area_effect_cloud -507.5 6.0 55.5 {Tags:["leaderboard.label","leaderboard.1"],CustomNameVisible:1b,Age:-2147483648,Duration:-1,WaitTime:-2147483648}
 summon minecraft:area_effect_cloud -507.5 5.5 55.5 {Tags:["leaderboard.label","leaderboard.2"],CustomNameVisible:1b,Age:-2147483648,Duration:-1,WaitTime:-2147483648}
 summon minecraft:area_effect_cloud -507.5 5.0 55.5 {Tags:["leaderboard.label","leaderboard.3"],CustomNameVisible:1b,Age:-2147483648,Duration:-1,WaitTime:-2147483648}
