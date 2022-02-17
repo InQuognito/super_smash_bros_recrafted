@@ -18,4 +18,4 @@ tag @a remove leaderboard.loaded
 execute as @a[tag=!leaderboard.loaded,scores={stats.wins=1..}] run function ssbrc:logic/leaderboard/wins/calculate_1
 
 setblock -505 5 51 minecraft:command_block{Command:"/function ssbrc:logic/leaderboard/kills/load"} destroy
-setblock -507 5 51 minecraft:polished_blackstone_button[face=wall,facing=west] replace
+setblock -507 5 51 minecraft:polished_blackstone_button[face=wall,facing=west,powered=false] replace
