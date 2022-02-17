@@ -83,7 +83,7 @@ advancement grant @a only ssbrc:characters/sora/costumes/gold
 advancement grant @a only ssbrc:characters/steve/costumes/gold
 advancement grant @a only ssbrc:characters/steve/costumes/alex
 advancement grant @a only ssbrc:characters/teamrocket/costumes/gold
-advancement grant @a only ssbrc:characters/yarsrevenge/costumes/gold
+advancement grant @a only ssbrc:characters/yar/costumes/gold
 advancement grant @a only ssbrc:characters/yoshi/costumes/gold
 advancement grant @a only ssbrc:characters/zelda/costumes/gold
 ###########################################################
