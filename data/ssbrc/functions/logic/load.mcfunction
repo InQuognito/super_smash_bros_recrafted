@@ -4,6 +4,10 @@ function ssbrc:logic/resets/scoreboards/create
 function ssbrc:logic/resets/scoreboards/constants
 function ssbrc:logic/resets/scoreboards/variables
 
+scoreboard objectives setdisplay belowName
+scoreboard objectives setdisplay list
+scoreboard objectives setdisplay sidebar
+
 execute unless score $gameMode options matches 0.. run scoreboard players set $gameMode options 1
 execute unless score $stockLimit options matches 0.. run scoreboard players set $stockLimit options 3
 execute unless score $timeLimit options matches 0.. run scoreboard players set $timeLimit options 300
