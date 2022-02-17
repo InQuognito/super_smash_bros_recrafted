@@ -1,6 +1,6 @@
 kill @e[tag=leaderboard.label]
 
-summon minecraft:area_effect_cloud -507.5 7.0 55.5 {Tags:["leaderboard.label"],CustomName:'{"text":"Wins","bold":true,"underlined":true,"color":"gold"}',CustomNameVisible:1b,Age:-2147483648,Duration:-1,WaitTime:-2147483648}
+summon minecraft:area_effect_cloud -507.5 7.0 55.5 {Tags:["leaderboard.label"],CustomName:'{"text":"Wins | Games Played | W/L Ratio","bold":true,"underlined":true,"color":"gold"}',CustomNameVisible:1b,Age:-2147483648,Duration:-1,WaitTime:-2147483648}
 summon minecraft:area_effect_cloud -507.5 6.0 55.5 {Tags:["leaderboard.label","leaderboard.1"],CustomNameVisible:1b,Age:-2147483648,Duration:-1,WaitTime:-2147483648}
 summon minecraft:area_effect_cloud -507.5 5.5 55.5 {Tags:["leaderboard.label","leaderboard.2"],CustomNameVisible:1b,Age:-2147483648,Duration:-1,WaitTime:-2147483648}
 summon minecraft:area_effect_cloud -507.5 5.0 55.5 {Tags:["leaderboard.label","leaderboard.3"],CustomNameVisible:1b,Age:-2147483648,Duration:-1,WaitTime:-2147483648}
@@ -9,8 +9,6 @@ summon minecraft:area_effect_cloud -507.5 4.0 55.5 {Tags:["leaderboard.label","l
 
 summon minecraft:area_effect_cloud -507.5 6.50 51.5 {Tags:["leaderboard.label"],CustomName:'{"text":"Wins","bold":true,"color":"gold"}',CustomNameVisible:1b,Age:-2147483648,Duration:-1,WaitTime:-2147483648}
 summon minecraft:area_effect_cloud -507.5 6.25 51.5 {Tags:["leaderboard.label"],CustomName:'{"text":"Kills","bold":false,"color":"yellow"}',CustomNameVisible:1b,Age:-2147483648,Duration:-1,WaitTime:-2147483648}
-summon minecraft:area_effect_cloud -507.5 6.00 51.5 {Tags:["leaderboard.label"],CustomName:'{"text":"W/L Ratio","bold":false,"color":"yellow"}',CustomNameVisible:1b,Age:-2147483648,Duration:-1,WaitTime:-2147483648}
-summon minecraft:area_effect_cloud -507.5 5.75 51.5 {Tags:["leaderboard.label"],CustomName:'{"text":"K/D Ratio","bold":false,"color":"yellow"}',CustomNameVisible:1b,Age:-2147483648,Duration:-1,WaitTime:-2147483648}
 
 summon minecraft:area_effect_cloud -507.5 5.25 51.5 {CustomName:'{"text":"Click to Toggle","bold":false,"color":"gold"}',CustomNameVisible:1b,Age:-2147483648,Duration:-1,WaitTime:-2147483648}
 
