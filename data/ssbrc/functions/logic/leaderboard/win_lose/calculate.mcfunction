@@ -1,8 +1,8 @@
 tag @a remove leaderboard.next
 
-scoreboard players operation @s stats.wL = @s stats.kills
+scoreboard players operation @s stats.wL = @s stats.wins
 scoreboard players operation @s stats.wL *= #100 integers
-scoreboard players operation @s stats.wL /= @s stats.deaths
+scoreboard players operation @s stats.wL /= @s stats.gP
 
 scoreboard players operation #wL.decimal temp = @s stats.wL
 scoreboard players operation #wL.decimal temp %= #100 integers
