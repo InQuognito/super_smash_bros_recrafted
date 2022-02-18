@@ -1,5 +1,3 @@
-function ssbrc:logic/resets/scoreboards/stats
-
 scoreboard objectives add animation dummy
 scoreboard objectives add charge.1 dummy
 scoreboard objectives add charge.2 dummy
@@ -15,6 +13,7 @@ scoreboard objectives add favorite.slot1 dummy
 scoreboard objectives add favorite.slot2 dummy
 scoreboard objectives add favorite.slot3 dummy
 scoreboard objectives add favorite.temp dummy
+scoreboard objectives add flag.damage minecraft.custom:minecraft.damage_dealt
 scoreboard objectives add flag.dead deathCount
 scoreboard objectives add flag.fireBow minecraft.used:minecraft.bow
 scoreboard objectives add flag.sprinting dummy
@@ -36,6 +35,8 @@ scoreboard objectives add random dummy
 scoreboard objectives add reset dummy
 scoreboard objectives add respawn dummy
 scoreboard objectives add selectFavorite minecraft.used:minecraft.carrot_on_a_stick
+scoreboard objectives add shadow.meter.hero dummy
+scoreboard objectives add shadow.meter.villain dummy
 scoreboard objectives add snake.apm dummy
 scoreboard objectives add snake.capacity dummy
 scoreboard objectives add snake.famasA dummy
@@ -62,3 +63,5 @@ scoreboard objectives add temp dummy
 scoreboard objectives add useAbility minecraft.used:minecraft.carrot_on_a_stick
 scoreboard objectives add useChargeAbility minecraft.used:minecraft.warped_fungus_on_a_stick
 scoreboard objectives add vars dummy
+
+function ssbrc:logic/resets/scoreboards/stats

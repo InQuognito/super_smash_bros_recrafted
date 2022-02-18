@@ -1,6 +1,10 @@
 execute as @a[scores={useAbility=1..,cooldown.1=..0},nbt={SelectedItem:{tag:{chaosSpear:1}}}] run scoreboard players set @s charge.1 1
 scoreboard players reset @s useAbility
 
+# Chaos Meters
+execute if score @s shadow.meter.hero > @s shadow.meter.villain run function ssbrc:characters/shadow/logic/chaos_meters/hero_display
+execute if score @s shadow.meter.villain > @s shadow.meter.hero run function ssbrc:characters/shadow/logic/chaos_meters/villain_display
+
 # Chaos Spear
 scoreboard players add @s[scores={charge.1=1..}] charge.1 1
 execute at @s[scores={charge.1=1..}] anchored eyes run function ssbrc:characters/shadow/logic/chaos_spear/initiate

@@ -13,6 +13,7 @@ scoreboard objectives remove fallDistance
 #scoreboard objectives remove favorite.slot2
 #scoreboard objectives remove favorite.slot3
 scoreboard objectives remove favorite.temp
+scoreboard objectives remove flag.damage
 scoreboard objectives remove flag.dead
 scoreboard objectives remove flag.fireBow
 scoreboard objectives remove flag.sprinting
@@ -34,6 +35,8 @@ scoreboard objectives remove pos
 scoreboard objectives remove reset
 scoreboard objectives remove respawn
 scoreboard objectives remove selectFavorite
+scoreboard objectives remove shadow.meter.hero
+scoreboard objectives remove shadow.meter.villain
 scoreboard objectives remove snake.apm
 scoreboard objectives remove snake.capacity
 scoreboard objectives remove snake.famasA
