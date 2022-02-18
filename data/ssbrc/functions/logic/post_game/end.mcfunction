@@ -26,6 +26,7 @@ execute if entity @s[tag=teamrocket] run title @a subtitle [{"text":"Selected Ch
 
 execute if entity @s[tag=alteredbeast] run title @a subtitle [{"text":"Selected Character: ","color":"gold"},{"text":"Altered Beast","bold":true,"color":"yellow"}]
 execute if entity @s[tag=alucard] run title @a subtitle [{"text":"Selected Character: ","color":"gold"},{"text":"Alucard","bold":true,"color":"yellow"}]
+execute if entity @s[tag=shadow] run title @a subtitle [{"text":"Selected Character: ","color":"gold"},{"text":"Shadow","bold":true,"color":"yellow"}]
 execute if entity @s[tag=shovelknight] run title @a subtitle [{"text":"Selected Character: ","color":"gold"},{"text":"Shovel Knight","bold":true,"color":"yellow"}]
 
 title @a title [{"selector":"@s","bold":true,"color":"yellow"},{"text":" wins!","color":"gold"}]
