@@ -8,3 +8,5 @@ title @s[scores={shadow.meter.hero=1051..1225}] actionbar [{"text":"\u25ae\u25ae
 title @s[scores={shadow.meter.hero=1226..1400}] actionbar [{"text":"\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae","color":"blue"},{"text":"\u25ae\u25ae","color":"dark_gray"}]
 title @s[scores={shadow.meter.hero=1401..1600}] actionbar [{"text":"\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae","color":"blue"},{"text":"\u25ae","color":"dark_gray"}]
 title @s[scores={shadow.meter.hero=1601..}] actionbar [{"text":"\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae","color":"blue"}]
+
+execute if score @s shadow.meter.hero matches 1601.. run function ssbrc:characters/shadow/logic/chaos_control/on
