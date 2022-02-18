@@ -60,9 +60,9 @@ item replace entity @s[tag=alteredbeast.form.waretiger] weapon.mainhand with min
 item replace entity @s[tag=alteredbeast.form.waretiger] weapon.offhand with minecraft:firework_rocket{Fireworks:{Flight:3,Explosions:[{Type:1,Flicker:1b,Trail:1b,Colors:[I;14602026,14597930,14593834],FadeColors:[I;17233746]}]},display:{Name:'[{"text":"Golden Shower","italic":false,"bold":true,"color":"gold"}]'}} 3
 
 tag @s remove teamrocket.picked
-execute if entity @s[tag=!teamrocket.picked,tag=teamrocket.arbok] run function ssbrc:characters/teamrocket/kits/meowth
-execute if entity @s[tag=!teamrocket.picked,tag=teamrocket.meowth] run function ssbrc:characters/teamrocket/kits/wobbuffet
-execute if entity @s[tag=!teamrocket.picked,tag=teamrocket.wobbuffet] run function ssbrc:characters/teamrocket/kits/arbok
+execute if entity @s[tag=!teamrocket.picked,tag=arbok] run function ssbrc:characters/teamrocket/kits/meowth
+execute if entity @s[tag=!teamrocket.picked,tag=meowth] run function ssbrc:characters/teamrocket/kits/wobbuffet
+execute if entity @s[tag=!teamrocket.picked,tag=wobbuffet] run function ssbrc:characters/teamrocket/kits/arbok
 
 give @s[tag=byleth.blackEagles,tag=byleth.weaponBroken] minecraft:arrow 4
 clear @s[tag=captainfalcon] minecraft:arrow
