@@ -33,6 +33,7 @@ execute if score $gameMode options matches 2 store result bossbar minecraft:time
 scoreboard players set $gameStage temp 4
 scoreboard players reset $countdown timer
 
-scoreboard players set @a respawn 0
+scoreboard players set @a[team=alive] flag.sprinting 0
+scoreboard players set @a[team=alive] respawn 0
 
 tag @a remove loaded
