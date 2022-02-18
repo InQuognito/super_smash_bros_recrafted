@@ -16,6 +16,11 @@ execute if score @s shadow.meter.villain > @s shadow.meter.hero run function ssb
 scoreboard players remove @a[scores={shadow.chaosControl=1..}] shadow.chaosControl 1
 execute as @a[scores={shadow.chaosControl=..0}] run function ssbrc:characters/shadow/logic/chaos_control/off
 
+# Chaos Blast
+execute as @s[scores={charge.2=1..}] at @s run function ssbrc:characters/shadow/logic/chaos_blast/charge
+execute as @s[scores={charge.2=70}] at @s run function ssbrc:characters/shadow/logic/chaos_blast/unleash
+scoreboard players reset @s[scores={charge.2=101..}] charge.2
+
 # Acceleration
 scoreboard players set @s[scores={flag.sprinting=..-1}] flag.sprinting 0
 scoreboard players remove @s[scores={flag.sprinting=1..},predicate=!ssbrc:sprinting] flag.sprinting 3
