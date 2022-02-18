@@ -20,6 +20,7 @@ tag @s remove ness
 tag @s remove pit
 tag @s remove ryu
 tag @s remove samus
+tag @s remove shadow
 tag @s remove shovelknight
 tag @s remove snake
 tag @s remove sonic
@@ -51,6 +52,7 @@ tag @s remove favoritetry.ness
 tag @s remove favoritetry.pit
 tag @s remove favoritetry.ryu
 tag @s remove favoritetry.samus
+tag @s remove favoritetry.shadow
 tag @s remove favoritetry.shovelknight
 tag @s remove favoritetry.snake
 tag @s remove favoritetry.sonic
@@ -79,6 +81,7 @@ execute as @a run function ssbrc:characters/ness/menu/costumes/reset
 execute as @a run function ssbrc:characters/pit/menu/costumes/reset
 execute as @a run function ssbrc:characters/ryu/menu/costumes/reset
 execute as @a run function ssbrc:characters/samus/menu/costumes/reset
+execute as @a run function ssbrc:characters/shadow/menu/costumes/reset
 execute as @a run function ssbrc:characters/shovelknight/menu/costumes/reset
 execute as @a run function ssbrc:characters/snake/menu/costumes/reset
 execute as @a run function ssbrc:characters/sonic/menu/costumes/reset
