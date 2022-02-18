@@ -6,5 +6,3 @@ execute if entity @s[tag=alteredbeast.form.demigod,predicate=ssbrc:alteredbeast_
 execute if entity @s[tag=alteredbeast.form.demigod,predicate=ssbrc:alteredbeast_random] run function ssbrc:characters/alteredbeast/kits/random
 
 execute if entity @s[tag=alteredbeast.form.human] run function ssbrc:characters/alteredbeast/kits/demigod
-
-advancement revoke @s only ssbrc:utility/alteredbeast_kill

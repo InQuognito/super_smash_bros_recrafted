@@ -16,6 +16,6 @@
 		}
 	},
 	"rewards": {
-		"function": "ssbrc:characters/teamrocket/logic/arbok/poison_jab_chance"
+		"function": "ssbrc:characters/teamrocket/logic/arbok/poison_jab"
 	}
 }
