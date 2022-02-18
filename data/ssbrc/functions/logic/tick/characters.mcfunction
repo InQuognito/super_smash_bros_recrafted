@@ -7,6 +7,7 @@ execute as @s[tag=pit] run function ssbrc:characters/pit/logic/tick
 execute as @s[tag=ryu] run function ssbrc:characters/ryu/logic/tick
 execute as @s[tag=samus] run function ssbrc:characters/samus/logic/tick
 execute as @s[tag=snake] run function ssbrc:characters/snake/logic/tick
+execute as @s[tag=sonic] run function ssbrc:characters/sonic/logic/tick
 execute as @s[tag=steve] run function ssbrc:characters/steve/logic/tick
 execute as @s[tag=teamrocket] run function ssbrc:characters/teamrocket/logic/tick
 
