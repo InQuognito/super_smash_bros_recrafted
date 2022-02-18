@@ -782,6 +782,38 @@
 		"function": "minecraft:set_name",
 		"entity": "this",
 		"name": {
+			"text": "Shadow",
+			"color": "black",
+			"bold": true,
+			"italic": false
+		},
+		"conditions": [
+			{
+				"condition": "minecraft:entity_scores",
+				"entity": "this",
+				"scores": {
+					"favorite.slot2": 1900
+				}
+			}
+		]
+	},
+	{
+		"function": "minecraft:set_nbt",
+		"tag": "{CustomModelData:1900}",
+		"conditions": [
+			{
+				"condition": "minecraft:entity_scores",
+				"entity": "this",
+				"scores": {
+					"favorite.slot2": 1900
+				}
+			}
+		]
+	},
+	{
+		"function": "minecraft:set_name",
+		"entity": "this",
+		"name": {
 			"text": "Shovel Knight",
 			"color": "dark_aqua",
 			"bold": true,
