@@ -23,6 +23,7 @@ execute as @s[tag=steve] run function ssbrc:characters/steve/kit
 
 execute as @s[tag=alteredbeast] run function ssbrc:characters/alteredbeast/kits/human
 execute as @s[tag=alucard] run function ssbrc:characters/alucard/kit
+execute as @s[tag=shadow] run function ssbrc:characters/shadow/kit
 execute as @s[tag=shovelknight] run function ssbrc:characters/shovelknight/kit
 execute as @s[tag=teamrocket] run function ssbrc:characters/teamrocket/kit
 
