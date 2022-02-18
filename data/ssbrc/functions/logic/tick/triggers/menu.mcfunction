@@ -124,6 +124,11 @@ execute if score @s[tag=!mapRoom,tag=!alucard] menu matches 1841 run function ss
 execute if score @s[tag=!mapRoom,tag=!alucard] menu matches 1842 run function ssbrc:characters/alucard/menu/favorite
 execute if score @s[tag=!mapRoom,tag=!alucard] menu matches 1843 run function ssbrc:characters/alucard/menu/skin_options
 
+execute if score @s[tag=!mapRoom,tag=!shadow] menu matches 1900 run function ssbrc:characters/shadow/menu/select_character
+execute if score @s[tag=!mapRoom,tag=!shadow] menu matches 1901 run function ssbrc:characters/shadow/menu/skin_options
+execute if score @s[tag=!mapRoom,tag=!shadow] menu matches 1902 run function ssbrc:characters/shadow/menu/favorite
+execute if score @s[tag=!mapRoom,tag=!shadow] menu matches 1903 run function ssbrc:characters/shadow/menu/skin_options
+
 execute if score @s[tag=!mapRoom,tag=!shovelknight] menu matches 1920 run function ssbrc:characters/shovelknight/menu/select_character
 execute if score @s[tag=!mapRoom,tag=!shovelknight] menu matches 1921 run function ssbrc:characters/shovelknight/menu/skin_options
 execute if score @s[tag=!mapRoom,tag=!shovelknight] menu matches 1922 run function ssbrc:characters/shovelknight/menu/favorite
