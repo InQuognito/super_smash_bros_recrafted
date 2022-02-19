@@ -1,5 +1,5 @@
-tag @s remove teamrocket.arbok
-tag @s remove teamrocket.meowth
-tag @s remove teamrocket.wobbuffet
+tag @s remove arbok
+tag @s remove meowth
+tag @s remove wobbuffet
 
 tag @s remove teamrocket.picked
