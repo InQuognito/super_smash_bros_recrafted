@@ -9,7 +9,7 @@ item modify entity @s weapon.mainhand ssbrc:alucard_sword
 
 # Holy Water
 execute as @e[tag=alucard.holyWater,tag=!large,tag=!active,predicate=ssbrc:no_vehicle] run data merge entity @s {Particle:"flame",Radius:2f,Duration:200,Effects:[{Id:20b,Amplifier:1b,Duration:100,ShowParticles:0b}]}
-execute as @e[tag=alucard.holyWater,tag=large,tag=!active,predicate=ssbrc:no_vehicle] run data merge entity @s {Particle:"flame",Radius:5f,Duration:200,Effects:[{Id:20b,Amplifier:1b,Duration:100,ShowParticles:0b}]}
+execute as @e[tag=alucard.holyWater,tag=large,tag=!active,predicate=ssbrc:no_vehicle] run data merge entity @s {Particle:"flame",Radius:3.5f,Duration:200,Effects:[{Id:20b,Amplifier:1b,Duration:100,ShowParticles:0b}]}
 tag @e[tag=alucard.holyWater,tag=!active,predicate=ssbrc:no_vehicle] add active
 
 # Particles

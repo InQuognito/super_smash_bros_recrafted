@@ -1,8 +1,8 @@
 tag @s[tag=!gold] add default
 
-tellraw @s [{"text":"You have selected ","color":"white"},{"text":"Shadow","color":"black"},{"text":"!","color":"white"}]
+tellraw @s [{"text":"You have selected ","color":"white"},{"text":"Shadow","color":"dark_red"},{"text":"!","color":"white"}]
 
-tellraw @s[tag=default] [{"text":"Costume: ","color":"yellow"},{"text":"Default","color":"black"}]
+tellraw @s[tag=default] [{"text":"Costume: ","color":"yellow"},{"text":"Default","color":"dark_red"}]
 tellraw @s[tag=gold] [{"text":"Costume: ","color":"yellow"},{"text":"Gold","color":"gold"}]
 
 function ssbrc:logic/resets/tags/characters
