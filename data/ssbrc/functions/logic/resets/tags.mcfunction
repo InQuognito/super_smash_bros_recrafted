@@ -107,9 +107,9 @@ tag @s remove byleth.weaponBroken
 tag @s remove characterPicked
 tag @s remove hero.magicLost
 tag @s remove mapRoom
+tag @s remove naturalShiny
 tag @s remove pickingCharacter
 tag @s remove pickingMap
-tag @s remove shiny
 tag @s remove snake.apm
 tag @s remove snake.famas
 tag @s remove snake.psg1

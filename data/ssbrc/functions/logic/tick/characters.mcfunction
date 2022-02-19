@@ -16,4 +16,4 @@ execute as @s[tag=alucard] run function ssbrc:characters/alucard/logic/tick
 execute as @s[tag=shadow] run function ssbrc:characters/shadow/logic/tick
 execute as @s[tag=shovelknight] run function ssbrc:characters/shovelknight/logic/tick
 
-execute at @a[tag=shiny] run particle minecraft:glow ~ ~0.7 ~ 0.5 0.4 0.5 0 1 normal @a
+execute at @a[tag=naturalShiny] run particle minecraft:glow ~ ~0.7 ~ 0.5 0.4 0.5 0 1 normal @a

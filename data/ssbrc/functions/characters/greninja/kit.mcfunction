@@ -1,5 +1,5 @@
-tag @s[predicate=ssbrc:shiny_chance] add shiny
-execute if entity @s[tag=shiny] run advancement grant @a[team=alive] only ssbrc:characters/greninja/a_shiny_encounter
+tag @s[predicate=ssbrc:shiny_chance] add naturalShiny
+advancement grant @a[tag=naturalShiny] only ssbrc:characters/greninja/a_fateful_encounter
 
 function ssbrc:logic/characters/natures/select
 
