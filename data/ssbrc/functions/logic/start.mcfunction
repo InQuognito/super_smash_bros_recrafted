@@ -1,5 +1,6 @@
 title @a title {"text":"GO!","color":"dark_green"}
 
+scoreboard players reset @a stocks
 execute if score $gameMode options matches 1 run scoreboard players operation @a[team=alive] stocks = $stockLimit options
 execute if score $gameMode options matches 1 run scoreboard objectives setdisplay sidebar stocks
 
