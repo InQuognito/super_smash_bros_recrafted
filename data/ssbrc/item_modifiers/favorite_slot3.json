@@ -206,7 +206,7 @@
 		"entity": "this",
 		"name": {
 			"text": "Ganondorf",
-			"color": "black",
+			"color": "red",
 			"bold": true,
 			"italic": false
 		},
@@ -770,7 +770,7 @@
 		"entity": "this",
 		"name": {
 			"text": "Shadow",
-			"color": "black",
+			"color": "dark_red",
 			"bold": true,
 			"italic": false
 		},
