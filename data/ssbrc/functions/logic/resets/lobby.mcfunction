@@ -15,7 +15,7 @@ function ssbrc:logic/resets/lobby/credits
 forceload remove all
 forceload add 0 0 0 0
 
-execute as @r[tag=!winner] run function ssbrc:logic/book
+execute as @r[tag=!winner] run function ssbrc:logic/options_book
 tag @a remove winner
 
 function ssbrc:logic/leaderboard/wins/load

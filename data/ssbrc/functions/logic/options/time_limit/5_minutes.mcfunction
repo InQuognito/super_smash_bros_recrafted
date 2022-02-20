@@ -3,3 +3,5 @@ execute if score $gameMode options matches 2 if score $timeLimit options matches
 execute unless score $gameMode options matches 2 run tellraw @s [{"text":"Time Battle","color":"yellow"},{"text":" is not enabled!","color":"red"}]
 
 scoreboard players set $timeLimit options 300
+
+function ssbrc:logic/options_book

@@ -3,3 +3,5 @@ execute if score $gameMode options matches 1 if score $stockLimit options matche
 execute unless score $gameMode options matches 1 run tellraw @s [{"text":"Stock Battle","color":"yellow"},{"text":" is not enabled!","color":"red"}]
 
 scoreboard players set $stockLimit options 3
+
+function ssbrc:logic/options_book

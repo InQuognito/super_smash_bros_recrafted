@@ -3,4 +3,4 @@ execute if score $gameMode options matches 1 run tellraw @s [{"text":"Game Mode"
 
 scoreboard players set $gameMode options 1
 
-function ssbrc:logic/book
+function ssbrc:logic/options_book
