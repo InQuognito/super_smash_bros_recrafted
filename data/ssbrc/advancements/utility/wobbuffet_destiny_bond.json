@@ -15,7 +15,7 @@
 						"condition": "minecraft:entity_scores",
 						"entity": "this",
 						"scores": {
-							"duration.1": {
+							"duration.3": {
 								"min": 1
 							}
 						}

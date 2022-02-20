@@ -1,6 +1,6 @@
 execute as @s[scores={useAbility=1..,cooldown.1=..0},nbt={SelectedItem:{tag:{acid:1}}}] at @s run function ssbrc:characters/teamrocket/logic/arbok/acid
 execute as @s[scores={useAbility=1..,cooldown.2=..0},nbt={SelectedItem:{tag:{payday:1}}}] at @s run function ssbrc:characters/teamrocket/logic/meowth/payday/summon
-execute as @s[scores={useAbility=1..,cooldown.3=..0},nbt={SelectedItem:{tag:{destinyBond:1}}}] at @s run function ssbrc:characters/teamrocket/logic/wobbuffett/destiny_bond
+execute as @s[scores={useAbility=1..,cooldown.3=..0},nbt={SelectedItem:{tag:{destinyBond:1}}}] at @s run function ssbrc:characters/teamrocket/logic/wobbuffet/destiny_bond/on
 scoreboard players reset @s useAbility
 
 # Acid
@@ -13,3 +13,6 @@ tag @e[tag=teamrocket.meowth.payday,tag=!active,predicate=ssbrc:no_vehicle] add 
 
 # Counter
 item modify entity @s weapon.mainhand ssbrc:wobbuffet_counter
+
+# Destiny Bond
+execute at @s[scores={duration.3=1..60}] run particle minecraft:dust 0.0 0.0 0.0 0.5 ~ ~0.75 ~ 0.3 0.3 0.3 0.0 1 normal @a
