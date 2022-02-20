@@ -93,12 +93,12 @@ function ssbrc:logic/resets/tags/maps
 # Misc
 tag @s remove abilityActive
 tag @s remove abilityUsed
-tag @s remove alteredbeast.form.demigod
-tag @s remove alteredbeast.form.human
-tag @s remove alteredbeast.form.warebear
-tag @s remove alteredbeast.form.waredragon
-tag @s remove alteredbeast.form.waretiger
-tag @s remove alteredbeast.form.warewolf
+tag @s remove demigod
+tag @s remove human
+tag @s remove warebear
+tag @s remove waredragon
+tag @s remove waretiger
+tag @s remove warewolf
 tag @s remove byleth.blackEagles
 tag @s remove byleth.blueLions
 tag @s remove byleth.goldenDeer

@@ -1,0 +1,29 @@
+{
+	"condition": "minecraft:inverted",
+	"term": {
+		"condition": "minecraft:alternative",
+		"terms": [
+			{
+				"condition": "minecraft:reference",
+				"name": "ssbrc:kits/armor/chest/golden"
+			},
+			{
+				"condition": "minecraft:reference",
+				"name": "ssbrc:kits/armor/chest/chainmail"
+			},
+			{
+				"condition": "minecraft:reference",
+				"name": "ssbrc:kits/armor/chest/iron"
+			},{
+				"condition": "minecraft:reference",
+				"name": "ssbrc:kits/armor/chest/diamond"
+			},{
+				"condition": "minecraft:reference",
+				"name": "ssbrc:kits/armor/chest/netherite"
+			},{
+				"condition": "minecraft:reference",
+				"name": "ssbrc:kits/armor/chest/elytra"
+			}
+		]
+	}
+}

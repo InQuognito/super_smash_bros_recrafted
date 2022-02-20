@@ -1,5 +1,5 @@
-tag @s remove alteredbeast.form.demigod
-tag @s add alteredbeast.form.warebear
+tag @s remove demigod
+tag @s add warebear
 
 tellraw @s [{"text":"Altered Beast Form: ","bold":true,"color":"gold"},{"text":"Warebear","bold":false,"color":"yellow"}]
 

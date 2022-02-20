@@ -1,5 +1,5 @@
-tag @s remove alteredbeast.form.human
-tag @s add alteredbeast.form.demigod
+tag @s remove human
+tag @s add demigod
 
 tellraw @s [{"text":"Altered Beast Form: ","bold":true,"color":"gold"},{"text":"Demigod","bold":false,"color":"yellow"}]
 

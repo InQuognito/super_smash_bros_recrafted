@@ -3,4 +3,4 @@ execute positioned -24.5 17.5 252.5 as @p[team=alive] if entity @s[distance=4.1.
 
 fill -4 14 229 0 14 233 minecraft:campfire[facing=east,lit=false] replace
 
-kill @a[team=alive,scores={respawn=..0},predicate=ssbrc:below_y_0]
+kill @a[team=alive,scores={respawn=..0},predicate=ssbrc:below_y/0]

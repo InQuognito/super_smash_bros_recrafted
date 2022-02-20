@@ -1,4 +1,4 @@
-#execute if entity @s[tag=byleth.blackEagles,predicate=ssbrc:sneaking,nbt={SelectedItem:{tag:{aymr:1}}},scores={cooldown.1=..0}] run function ssbrc:characters/byleth/logic/abilities/mist/on
+#execute if entity @s[tag=byleth.blackEagles,predicate=ssbrc:flag/sneaking,nbt={SelectedItem:{tag:{aymr:1}}},scores={cooldown.1=..0}] run function ssbrc:characters/byleth/logic/abilities/mist/on
 
 execute if score @s[tag=byleth.blackEagles] charge.1 matches 10.. run function ssbrc:characters/byleth/logic/aymr_break
 execute if score @s[tag=byleth.blueLions] charge.1 matches 20.. run function ssbrc:characters/byleth/logic/areadbhar_break

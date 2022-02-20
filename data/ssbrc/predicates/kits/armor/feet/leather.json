@@ -1,0 +1,28 @@
+{
+	"condition": "minecraft:inverted",
+	"term": {
+		"condition": "minecraft:alternative",
+		"terms": [
+			{
+				"condition": "minecraft:reference",
+				"name": "ssbrc:kits/armor/feet/golden"
+			},
+			{
+				"condition": "minecraft:reference",
+				"name": "ssbrc:kits/armor/feet/chainmail"
+			},
+			{
+				"condition": "minecraft:reference",
+				"name": "ssbrc:kits/armor/feet/iron"
+			},
+			{
+				"condition": "minecraft:reference",
+				"name": "ssbrc:kits/armor/feet/diamond"
+			},
+			{
+				"condition": "minecraft:reference",
+				"name": "ssbrc:kits/armor/feet/netherite"
+			}
+		]
+	}
+}

@@ -1,6 +1,6 @@
 # Armor
 attribute @s[tag=!kirby] minecraft:generic.armor base set 6.0
-attribute @s[tag=alteredbeast.form.warebear] minecraft:generic.armor base set 12.0
+attribute @s[tag=warebear] minecraft:generic.armor base set 12.0
 attribute @s[tag=ganondorf] minecraft:generic.armor base set 12.0
 attribute @s[tag=bowser] minecraft:generic.armor base set 12.0
 attribute @s[tag=kingkrool] minecraft:generic.armor base set 18.0

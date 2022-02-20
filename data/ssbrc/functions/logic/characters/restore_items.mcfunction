@@ -54,10 +54,10 @@ give @s[tag=steve,scores={steve.tier=0}] minecraft:wooden_sword{Unbreakable:1,Hi
 give @s[tag=steve,scores={steve.tier=1}] minecraft:stone_sword{Unbreakable:1,HideFlags:127,AttributeModifiers:[{AttributeName:"generic.attack_damage",Amount:5,Slot:mainhand,Name:"generic.attack_damage",UUID:[I;-12164,33707,92130,-67414]},{AttributeName:"generic.attack_speed",Amount:-2.4,Slot:mainhand,Name:"generic.attack_speed",UUID:[I;-12164,33807,92130,-67614]}]}
 give @s[tag=steve,scores={steve.tier=2}] minecraft:iron_sword{Unbreakable:1,HideFlags:127,AttributeModifiers:[{AttributeName:"generic.attack_damage",Amount:6,Slot:mainhand,Name:"generic.attack_damage",UUID:[I;-12164,33707,92130,-67414]},{AttributeName:"generic.attack_speed",Amount:-2.4,Slot:mainhand,Name:"generic.attack_speed",UUID:[I;-12164,33807,92130,-67614]}]}
 
-clear @s[tag=alteredbeast.form.waretiger] minecraft:trident
-clear @s[tag=alteredbeast.form.waretiger] minecraft:firework_rocket
-item replace entity @s[tag=alteredbeast.form.waretiger] weapon.mainhand with minecraft:trident{Unbreakable:1,AttributeModifiers:[{AttributeName:"generic.attack_damage",Amount:6,Slot:mainhand,Name:"generic.attack_damage",UUID:[I;-12164,22807,92130,-45614]},{AttributeName:"generic.attack_speed",Amount:-1.9,Slot:mainhand,Name:"generic.attack_speed",UUID:[I;-12164,22907,92130,-45814]}],display:{Name:'[{"text":"Enchanted Tiger Claws","italic":false,"color":"dark_aqua","bold":true}]'},Enchantments:[{id:"minecraft:loyalty",lvl:3}],HideFlags:127} 1
-item replace entity @s[tag=alteredbeast.form.waretiger] weapon.offhand with minecraft:firework_rocket{Fireworks:{Flight:3,Explosions:[{Type:1,Flicker:1b,Trail:1b,Colors:[I;14602026,14597930,14593834],FadeColors:[I;17233746]}]},display:{Name:'[{"text":"Golden Shower","italic":false,"bold":true,"color":"gold"}]'}} 3
+clear @s[tag=waretiger] minecraft:trident
+clear @s[tag=waretiger] minecraft:firework_rocket
+item replace entity @s[tag=waretiger] weapon.mainhand with minecraft:trident{Unbreakable:1,AttributeModifiers:[{AttributeName:"generic.attack_damage",Amount:6,Slot:mainhand,Name:"generic.attack_damage",UUID:[I;-12164,22807,92130,-45614]},{AttributeName:"generic.attack_speed",Amount:-1.9,Slot:mainhand,Name:"generic.attack_speed",UUID:[I;-12164,22907,92130,-45814]}],display:{Name:'[{"text":"Enchanted Tiger Claws","italic":false,"color":"dark_aqua","bold":true}]'},Enchantments:[{id:"minecraft:loyalty",lvl:3}],HideFlags:127} 1
+item replace entity @s[tag=waretiger] weapon.offhand with minecraft:firework_rocket{Fireworks:{Flight:3,Explosions:[{Type:1,Flicker:1b,Trail:1b,Colors:[I;14602026,14597930,14593834],FadeColors:[I;17233746]}]},display:{Name:'[{"text":"Golden Shower","italic":false,"bold":true,"color":"gold"}]'}} 3
 
 tag @s remove teamrocket.picked
 execute if entity @s[tag=!teamrocket.picked,tag=arbok] run function ssbrc:characters/teamrocket/kits/meowth

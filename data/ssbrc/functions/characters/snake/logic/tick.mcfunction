@@ -74,7 +74,7 @@ scoreboard players add @e[tag=snake.apm.harm] temp 1
 kill @e[tag=snake.apm.harm,scores={temp=7..}]
 
 # Smoke Grenade
-tag @e[tag=smokeGrenade,predicate=ssbrc:no_vehicle] add active
+tag @e[tag=smokeGrenade,predicate=ssbrc:flag/no_vehicle] add active
 execute at @e[tag=smokeGrenade,tag=active] run particle minecraft:smoke ~ ~ ~ 1.5 1.5 1.5 0.05 400 force @a
 
 scoreboard players remove @e[tag=smokeGrenade,tag=active] timer 1

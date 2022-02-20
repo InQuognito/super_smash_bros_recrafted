@@ -1,7 +1,7 @@
 effect clear @s
 
-effect give @s[tag=!alteredbeast.form.warebear,tag=!bowser,tag=!donkeykong,tag=!ganondorf,tag=!kingkrool,tag=!mario,tag=!teamrocket.wobbuffet] minecraft:jump_boost 1000000 1 true
-effect give @s[tag=alteredbeast.form.warebear] minecraft:jump_boost 1000000 0 true
+effect give @s[tag=!warebear,tag=!bowser,tag=!donkeykong,tag=!ganondorf,tag=!kingkrool,tag=!mario,tag=!teamrocket.wobbuffet] minecraft:jump_boost 1000000 1 true
+effect give @s[tag=warebear] minecraft:jump_boost 1000000 0 true
 effect give @s[tag=boswer] minecraft:jump_boost 1000000 0 true
 effect give @s[tag=donkeykong] minecraft:jump_boost 1000000 0 true
 effect give @s[tag=ganondorf] minecraft:jump_boost 1000000 0 true

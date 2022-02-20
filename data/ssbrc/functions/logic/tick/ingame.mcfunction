@@ -18,7 +18,7 @@ scoreboard players remove @a[scores={duration.1=1..}] duration.1 1
 scoreboard players remove @a[scores={duration.2=1..}] duration.2 1
 scoreboard players remove @a[scores={duration.3=1..}] duration.3 1
 
-execute unless score $sectorZ map matches 1 run effect give @a[team=alive,gamemode=adventure,scores={respawn=..0},predicate=ssbrc:below_y_0] minecraft:blindness 2 0 true
+execute unless score $sectorZ map matches 1 run effect give @a[team=alive,gamemode=adventure,scores={respawn=..0},predicate=ssbrc:below_y/0] minecraft:blindness 2 0 true
 
 # Maps
 function ssbrc:logic/tick/maps

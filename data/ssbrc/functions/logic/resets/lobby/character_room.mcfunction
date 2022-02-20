@@ -66,7 +66,7 @@ summon minecraft:armor_stand 78.5 6.0 141.5 {Tags:["lobbyStand","steve","default
 
 
 summon minecraft:area_effect_cloud 68.5 8.0 103.5 {CustomName:'{"text":"Altered Beast","color":"gold"}',CustomNameVisible:1b,Age:-2147483648,Duration:-1,WaitTime:-2147483648}
-summon minecraft:armor_stand 68.5 6.0 101.5 {Tags:["lobbyStand","alteredbeast","default","alteredbeast.form.human"],Rotation:[0f,0f]}
+summon minecraft:armor_stand 68.5 6.0 101.5 {Tags:["lobbyStand","alteredbeast","default","human"],Rotation:[0f,0f]}
 
 summon minecraft:area_effect_cloud 75.5 8.0 151.5 {CustomName:'{"text":"Alucard","color":"gray"}',CustomNameVisible:1b,Age:-2147483648,Duration:-1,WaitTime:-2147483648}
 summon minecraft:armor_stand 77.5 6.0 151.5 {Tags:["lobbyStand","alucard","default"],Rotation:[90f,0f]}

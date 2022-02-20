@@ -1,6 +1,6 @@
 clear @s #ssbrc:steve_items
 
-tag @s[tag=!steve.hasBow,tag=!steve.hasCrossbow,predicate=ssbrc:chance_30,tag=steve.hasStick] add steve.getCrossbow
+tag @s[tag=!steve.hasBow,tag=!steve.hasCrossbow,predicate=ssbrc:random_chance/30,tag=steve.hasStick] add steve.getCrossbow
 give @s[tag=steve.getCrossbow] minecraft:crossbow{Unbreakable:1,HideFlags:127,Enchantments:[{id:"quick_charge",lvl:1}]}
 tellraw @s[tag=steve.getCrossbow] [{"text":"RARE","bold":true,"color":"gold"},{"text":"! ","bold":true,"color":"yellow"},{"text":"Crafted a Crossbow! It's enchanted!","bold":false,"color":"green"}]
 tag @s[tag=steve.getCrossbow] add steve.hasCrossbow
