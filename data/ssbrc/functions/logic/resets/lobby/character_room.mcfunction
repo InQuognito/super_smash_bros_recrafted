@@ -89,14 +89,4 @@ summon minecraft:area_effect_cloud 72.5 6.25 115.5 {CustomName:'{"text":"Spectat
 
 execute as @e[tag=lobbyStand] run data merge entity @s {Invulnerable:1b,NoBasePlate:1b,NoGravity:1b,DisabledSlots:4144959}
 
-execute as @e[tag=lobbyStand] run item replace entity @s armor.head with minecraft:barrier
-execute as @e[tag=lobbyStand] run item modify entity @s armor.head ssbrc:kits/head
-
-execute as @e[tag=lobbyStand,tag=!lobbyStatue,tag=!ganondorf,tag=!kingkrool,tag=!samus,tag=!shovelknight] run item replace entity @s armor.chest with minecraft:leather_chestplate
-execute as @e[tag=lobbyStand,tag=!lobbyStatue,tag=!ganondorf,tag=!kingkrool,tag=!samus,tag=!shovelknight] run item modify entity @s armor.chest ssbrc:kits/chest_color
-
-execute as @e[tag=lobbyStand,tag=!lobbyStatue] run item replace entity @s armor.legs with minecraft:leather_leggings
-execute as @e[tag=lobbyStand,tag=!lobbyStatue] run item modify entity @s armor.legs ssbrc:kits/legs_color
-
-execute as @e[tag=lobbyStand,tag=!lobbyStatue,tag=!captainfalcon,tag=!fox,tag=!shovelknight] run item replace entity @s armor.feet with minecraft:leather_boots
-execute as @e[tag=lobbyStand,tag=!lobbyStatue,tag=!captainfalcon,tag=!fox,tag=!shovelknight] run item modify entity @s armor.feet ssbrc:kits/feet_color
+execute as @e[tag=lobbyStand] run function ssbrc:logic/characters/armor/get
