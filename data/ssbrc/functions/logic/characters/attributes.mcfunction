@@ -1,9 +1,8 @@
 # Armor
-attribute @s[tag=!kirby] minecraft:generic.armor base set 6.0
-attribute @s[tag=warebear] minecraft:generic.armor base set 12.0
-attribute @s[tag=ganondorf] minecraft:generic.armor base set 12.0
-attribute @s[tag=bowser] minecraft:generic.armor base set 12.0
-attribute @s[tag=kingkrool] minecraft:generic.armor base set 18.0
+attribute @s[predicate=ssbrc:kits/armor_values/none] minecraft:generic.armor base set 0.0
+attribute @s[predicate=ssbrc:kits/armor_values/low] minecraft:generic.armor base set 6.0
+attribute @s[predicate=ssbrc:kits/armor_values/medium] minecraft:generic.armor base set 12.0
+attribute @s[predicate=ssbrc:kits/armor_values/high] minecraft:generic.armor base set 18.0
 
 # Attack Damage
 attribute @s minecraft:generic.attack_damage base set 2.0
@@ -33,4 +32,4 @@ attribute @s[tag=snake,scores={snake.capacity=8}] minecraft:generic.movement_spe
 attribute @s[tag=snake,scores={snake.capacity=9}] minecraft:generic.movement_speed base set 0.091
 attribute @s[tag=snake,scores={snake.capacity=10}] minecraft:generic.movement_speed base set 0.09
 attribute @s[tag=sonic] minecraft:generic.movement_speed base set 0.11
-attribute @s[tag=wobbuffet] minecraft:generic.movement_speed base set 0.08
+attribute @s[tag=wobbuffet] minecraft:generic.movement_speed base set 0.085

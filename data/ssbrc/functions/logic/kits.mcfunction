@@ -27,8 +27,7 @@ execute as @s[tag=shadow] run function ssbrc:characters/shadow/kit
 execute as @s[tag=shovelknight] run function ssbrc:characters/shovelknight/kit
 execute as @s[tag=teamrocket] run function ssbrc:characters/teamrocket/kit
 
-function ssbrc:logic/characters/get_armor
-function ssbrc:logic/characters/update_armor
+function ssbrc:logic/characters/armor/get
 
 function ssbrc:logic/characters/attributes
 function ssbrc:logic/characters/effects

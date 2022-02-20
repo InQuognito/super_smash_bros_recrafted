@@ -5,14 +5,21 @@
 			"condition": "minecraft:entity_properties",
 			"entity": "this",
 			"predicate": {
-				"nbt": "{Tags:[\"waredragon\"]}"
+				"nbt": "{Tags:[\"bowser\"]}"
 			}
 		},
 		{
 			"condition": "minecraft:entity_properties",
 			"entity": "this",
 			"predicate": {
-				"nbt": "{Tags:[\"meowth\"]}"
+				"nbt": "{Tags:[\"ganondorf\"]}"
+			}
+		},
+		{
+			"condition": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
+				"nbt": "{Tags:[\"warebear\"]}"
 			}
 		}
 	]

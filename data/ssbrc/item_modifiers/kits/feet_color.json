@@ -515,7 +515,7 @@
 				"condition": "minecraft:entity_properties",
 				"entity": "this",
 				"predicate": {
-					"nbt": "{Tags:[\"alteredbeast\",\"default\",\"alteredbeast.form.human\"]}"
+					"nbt": "{Tags:[\"alteredbeast\",\"default\",\"human\"]}"
 				}
 			}
 		]
@@ -528,7 +528,7 @@
 				"condition": "minecraft:entity_properties",
 				"entity": "this",
 				"predicate": {
-					"nbt": "{Tags:[\"alteredbeast\",\"default\",\"alteredbeast.form.demigod\"]}"
+					"nbt": "{Tags:[\"alteredbeast\",\"default\",\"demigod\"]}"
 				}
 			}
 		]
@@ -541,7 +541,7 @@
 				"condition": "minecraft:entity_properties",
 				"entity": "this",
 				"predicate": {
-					"nbt": "{Tags:[\"alteredbeast\",\"default\",\"alteredbeast.form.warebear\"]}"
+					"nbt": "{Tags:[\"alteredbeast\",\"default\",\"warebear\"]}"
 				}
 			}
 		]
@@ -554,7 +554,7 @@
 				"condition": "minecraft:entity_properties",
 				"entity": "this",
 				"predicate": {
-					"nbt": "{Tags:[\"alteredbeast\",\"default\",\"alteredbeast.form.waredragon\"]}"
+					"nbt": "{Tags:[\"alteredbeast\",\"default\",\"waredragon\"]}"
 				}
 			}
 		]
@@ -567,7 +567,7 @@
 				"condition": "minecraft:entity_properties",
 				"entity": "this",
 				"predicate": {
-					"nbt": "{Tags:[\"alteredbeast\",\"default\",\"alteredbeast.form.waretiger\"]}"
+					"nbt": "{Tags:[\"alteredbeast\",\"default\",\"waretiger\"]}"
 				}
 			}
 		]
@@ -580,7 +580,7 @@
 				"condition": "minecraft:entity_properties",
 				"entity": "this",
 				"predicate": {
-					"nbt": "{Tags:[\"alteredbeast\",\"default\",\"alteredbeast.form.warewolf\"]}"
+					"nbt": "{Tags:[\"alteredbeast\",\"default\",\"warewolf\"]}"
 				}
 			}
 		]

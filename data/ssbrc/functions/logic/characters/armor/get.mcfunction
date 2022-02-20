@@ -13,3 +13,5 @@ item replace entity @s[predicate=ssbrc:kits/armor/feet/leather] armor.feet with 
 item replace entity @s[predicate=ssbrc:kits/armor/feet/golden] armor.feet with minecraft:golden_boots{Unbreakable:1,HideFlags:127} 1
 item replace entity @s[predicate=ssbrc:kits/armor/feet/iron] armor.feet with minecraft:iron_boots{Unbreakable:1,HideFlags:127} 1
 item replace entity @s[predicate=ssbrc:kits/armor/feet/diamond] armor.feet with minecraft:diamond_boots{Unbreakable:1,HideFlags:127} 1
+
+function ssbrc:logic/characters/armor/update

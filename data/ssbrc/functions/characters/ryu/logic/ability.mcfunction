@@ -14,4 +14,4 @@ effect give @s minecraft:strength 1000000 0 true
 
 scoreboard players set @s duration.1 400
 
-function ssbrc:logic/characters/update_armor
+function ssbrc:logic/characters/armor/update

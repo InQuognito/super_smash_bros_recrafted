@@ -17,7 +17,7 @@ effect give @s minecraft:slowness 1000000 255 true
 item replace entity @s armor.chest with minecraft:iron_chestplate{Unbreakable:1,HideFlags:127} 1
 item replace entity @s armor.legs with minecraft:iron_leggings{Unbreakable:1,HideFlags:127} 1
 item replace entity @s armor.feet with minecraft:iron_boots{Unbreakable:1,HideFlags:127} 1
-function ssbrc:logic/characters/update_armor
+function ssbrc:logic/characters/armor/update
 
 attribute @s generic.knockback_resistance base set 1000000.0
 

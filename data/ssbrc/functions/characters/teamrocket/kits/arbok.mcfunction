@@ -17,4 +17,4 @@ item replace entity @s[tag=gold] armor.chest with minecraft:golden_chestplate
 item replace entity @s[tag=gold] armor.legs with minecraft:golden_leggings
 item replace entity @s[tag=gold] armor.feet with minecraft:golden_boots
 
-function ssbrc:logic/characters/update_armor
+function ssbrc:logic/characters/armor/update
