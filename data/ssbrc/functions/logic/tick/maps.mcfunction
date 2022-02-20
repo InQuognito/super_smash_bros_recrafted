@@ -12,4 +12,5 @@ execute if score $miiverse map matches 1 run function ssbrc:maps/m/miiverse/logi
 execute if score $mushroomKingdom map matches 1 run function ssbrc:maps/m/mushroom_kingdom/logic/tick
 execute if score $pacMaze map matches 1 run function ssbrc:maps/p/pac_maze/logic/tick
 execute if score $sectorZ map matches 1 run function ssbrc:maps/s/sector_z/logic/tick
+execute if score $spearPillar map matches 1 run function ssbrc:maps/s/spear_pillar/logic/tick
 execute if score $towerOfFate map matches 1 run function ssbrc:maps/t/tower_of_fate/logic/tick
