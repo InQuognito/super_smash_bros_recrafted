@@ -22,6 +22,7 @@ scoreboard objectives remove ness.k
 scoreboard objectives remove pit.k
 scoreboard objectives remove ryu.k
 scoreboard objectives remove samus.k
+scoreboard objectives remove shadow.k
 scoreboard objectives remove shovelknight.k
 scoreboard objectives remove snake.k
 scoreboard objectives remove sonic.k
@@ -50,6 +51,7 @@ scoreboard objectives remove ness.gP
 scoreboard objectives remove pit.gP
 scoreboard objectives remove ryu.gP
 scoreboard objectives remove samus.gP
+scoreboard objectives remove shadow.gP
 scoreboard objectives remove shovelknight.gP
 scoreboard objectives remove snake.gP
 scoreboard objectives remove sonic.gP
@@ -78,6 +80,7 @@ scoreboard objectives remove ness.wS
 scoreboard objectives remove pit.wS
 scoreboard objectives remove ryu.wS
 scoreboard objectives remove samus.wS
+scoreboard objectives remove shadow.wS
 scoreboard objectives remove shovelknight.wS
 scoreboard objectives remove snake.wS
 scoreboard objectives remove sonic.wS
