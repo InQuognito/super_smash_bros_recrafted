@@ -15,4 +15,4 @@ tag @e[tag=teamrocket.meowth.payday,tag=!active,predicate=ssbrc:no_vehicle] add 
 item modify entity @s weapon.mainhand ssbrc:wobbuffet_counter
 
 # Destiny Bond
-execute at @s[scores={duration.3=1..}] run particle minecraft:dust 0.0 0.0 0.0 0.5 ~ ~0.75 ~ 0.3 0.3 0.3 0.0 1 normal @a
+execute at @s[scores={duration.3=1..}] run particle minecraft:dust 0.0 0.0 0.0 0.5 ~ ~0.75 ~ 0.5 1.0 0.5 0.0 5 normal @a
