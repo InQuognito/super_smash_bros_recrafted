@@ -1,13 +1,13 @@
-item modify entity @s[predicate=ssbrc:characters/enchantments/protection] armor.chest ssbrc:kits/enchantments/protection
-item modify entity @s[predicate=ssbrc:characters/enchantments/projectile_protection] armor.chest ssbrc:kits/enchantments/projectile_protection
-item modify entity @s[predicate=ssbrc:characters/enchantments/fire_protection] armor.chest ssbrc:kits/enchantments/fire_protection
+item modify entity @s[predicate=ssbrc:characters/enchantments/protection] armor.chest ssbrc:characters/enchantments/protection
+item modify entity @s[predicate=ssbrc:characters/enchantments/projectile_protection] armor.chest ssbrc:characters/enchantments/projectile_protection
+item modify entity @s[predicate=ssbrc:characters/enchantments/fire_protection] armor.chest ssbrc:characters/enchantments/fire_protection
 
-item modify entity @s[predicate=ssbrc:characters/enchantments/thorns] armor.chest ssbrc:kits/enchantments/thorns
+item modify entity @s[predicate=ssbrc:characters/enchantments/thorns] armor.chest ssbrc:characters/enchantments/thorns
 
-item modify entity @s[predicate=!ssbrc:kits/enchantments/feather_falling_infinity] armor.feet ssbrc:kits/enchantments/feather_falling
-item modify entity @s[predicate=ssbrc:characters/enchantments/feather_falling_infinity] armor.feet ssbrc:kits/enchantments/feather_falling_infinity
+item modify entity @s[predicate=!ssbrc:characters/enchantments/feather_falling_infinity] armor.feet ssbrc:characters/enchantments/feather_falling
+item modify entity @s[predicate=ssbrc:characters/enchantments/feather_falling_infinity] armor.feet ssbrc:characters/enchantments/feather_falling_infinity
 
-item modify entity @s armor.head ssbrc:kits/enchantments/binding_curse
-item modify entity @s armor.chest ssbrc:kits/enchantments/binding_curse
-item modify entity @s armor.legs ssbrc:kits/enchantments/binding_curse
-item modify entity @s armor.feet ssbrc:kits/enchantments/binding_curse
+item modify entity @s armor.head ssbrc:characters/enchantments/binding_curse
+item modify entity @s armor.chest ssbrc:characters/enchantments/binding_curse
+item modify entity @s armor.legs ssbrc:characters/enchantments/binding_curse
+item modify entity @s armor.feet ssbrc:characters/enchantments/binding_curse

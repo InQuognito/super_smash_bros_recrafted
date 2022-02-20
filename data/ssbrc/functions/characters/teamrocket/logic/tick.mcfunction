@@ -12,7 +12,7 @@ execute as @e[tag=teamrocket.meowth.payday,tag=!active,predicate=ssbrc:flag/no_v
 tag @e[tag=teamrocket.meowth.payday,tag=!active,predicate=ssbrc:flag/no_vehicle] add active
 
 # Counter
-item modify entity @s weapon.mainhand ssbrc:wobbuffet_counter
+item modify entity @s weapon.mainhand ssbrc:characters/wobbuffet.counter
 
 # Destiny Bond
 execute at @s[scores={duration.3=1..}] run particle minecraft:dust 0.0 0.0 0.0 0.5 ~ ~0.75 ~ 0.5 1.0 0.5 0.0 5 normal @a

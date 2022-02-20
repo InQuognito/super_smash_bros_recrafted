@@ -11,6 +11,6 @@ execute if score @s favorite.slot1 matches 1.. run item replace entity @s hotbar
 execute if score @s favorite.slot2 matches 1.. run item replace entity @s hotbar.4 with minecraft:carrot_on_a_stick{slot:2}
 execute if score @s favorite.slot3 matches 1.. run item replace entity @s hotbar.5 with minecraft:carrot_on_a_stick{slot:3}
 
-item modify entity @s hotbar.3 ssbrc:favorite_slot1
-item modify entity @s hotbar.4 ssbrc:favorite_slot2
-item modify entity @s hotbar.5 ssbrc:favorite_slot3
+item modify entity @s hotbar.3 ssbrc:favorites/slot1
+item modify entity @s hotbar.4 ssbrc:favorites/slot2
+item modify entity @s hotbar.5 ssbrc:favorites/slot3

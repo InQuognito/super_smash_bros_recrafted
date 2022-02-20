@@ -1,0 +1,156 @@
+[
+	{
+		"function": "minecraft:set_name",
+		"entity": "this",
+		"name": {
+			"text": "Statistics",
+			"color": "gold",
+			"bold": true,
+			"italic": false
+		}
+	},
+	{
+		"function": "minecraft:set_lore",
+		"entity": "this",
+		"lore": [
+			{
+				"text": "Wins: ",
+				"color": "gold",
+				"bold": false,
+				"italic": false,
+				"extra": [
+					{
+						"score": {
+							"name": "@s",
+							"objective": "stats.wins"
+						},
+						"color": "yellow",
+						"bold": false,
+						"italic": false
+					}
+				]
+			}
+		],
+		"replace": false
+	},
+	{
+		"function": "minecraft:set_lore",
+		"entity": "this",
+		"lore": [
+			{
+				"text": "Games Played: ",
+				"color": "gold",
+				"bold": false,
+				"italic": false,
+				"extra": [
+					{
+						"score": {
+							"name": "@s",
+							"objective": "stats.gP"
+						},
+						"color": "yellow",
+						"bold": false,
+						"italic": false
+					}
+				]
+			}
+		],
+		"replace": false
+	},
+	{
+		"function": "minecraft:set_lore",
+		"entity": "this",
+		"lore": [
+			{
+				"text": "W/L Ratio: ",
+				"color": "gold",
+				"bold": false,
+				"italic": false,
+				"extra": [
+					{
+						"score": {
+							"name": "@s",
+							"objective": "stats.wL"
+						},
+						"color": "yellow",
+						"bold": false,
+						"italic": false
+					}
+				]
+			}
+		],
+		"replace": false
+	},
+	{
+		"function": "minecraft:set_lore",
+		"entity": "this",
+		"lore": [
+			{
+				"text": "Kills: ",
+				"color": "gold",
+				"bold": false,
+				"italic": false,
+				"extra": [
+					{
+						"score": {
+							"name": "@s",
+							"objective": "stats.kills"
+						},
+						"color": "yellow",
+						"bold": false,
+						"italic": false
+					}
+				]
+			}
+		],
+		"replace": false
+	},
+	{
+		"function": "minecraft:set_lore",
+		"entity": "this",
+		"lore": [
+			{
+				"text": "Deaths: ",
+				"color": "gold",
+				"bold": false,
+				"italic": false,
+				"extra": [
+					{
+						"score": {
+							"name": "@s",
+							"objective": "stats.deaths"
+						},
+						"color": "yellow",
+						"bold": false,
+						"italic": false
+					}
+				]
+			}
+		],
+		"replace": false
+	},
+	{
+		"function": "minecraft:set_lore",
+		"entity": "this",
+		"lore": [
+			{
+				"text": "K/D Ratio: ",
+				"color": "gold",
+				"bold": false,
+				"italic": false,
+				"extra": [
+					{
+						"score": {
+							"name": "@s",
+							"objective": "stats.kD"
+						},
+						"color": "yellow",
+						"bold": false,
+						"italic": false
+					}
+				]
+			}
+		],
+		"replace": false
+	}
+]
