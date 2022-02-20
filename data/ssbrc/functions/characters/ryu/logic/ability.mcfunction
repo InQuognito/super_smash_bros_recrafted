@@ -1,12 +1,6 @@
 clear @s minecraft:carrot_on_a_stick{ability.ryu:1}
 
-effect clear @s minecraft:blindness
-effect clear @s minecraft:hunger
-effect clear @s minecraft:mining_fatigue
-effect clear @s minecraft:nausea
-effect clear @s minecraft:poison
-effect clear @s minecraft:slowness
-effect clear @s minecraft:weakness
+function ssbrc:logic/characters/effects/cleanse
 
 effect give @s minecraft:absorption 1000000 1 true
 effect give @s minecraft:speed 1000000 0 true

@@ -5,27 +5,23 @@
 		"terms": [
 			{
 				"condition": "minecraft:reference",
-				"name": "ssbrc:kits/armor/chest/golden"
+				"name": "ssbrc:characters/armor/legs/golden"
 			},
 			{
 				"condition": "minecraft:reference",
-				"name": "ssbrc:kits/armor/chest/chainmail"
+				"name": "ssbrc:characters/armor/legs/chainmail"
 			},
 			{
 				"condition": "minecraft:reference",
-				"name": "ssbrc:kits/armor/chest/iron"
+				"name": "ssbrc:characters/armor/legs/iron"
 			},
 			{
 				"condition": "minecraft:reference",
-				"name": "ssbrc:kits/armor/chest/diamond"
+				"name": "ssbrc:characters/armor/legs/diamond"
 			},
 			{
 				"condition": "minecraft:reference",
-				"name": "ssbrc:kits/armor/chest/netherite"
-			},
-			{
-				"condition": "minecraft:reference",
-				"name": "ssbrc:kits/armor/chest/elytra"
+				"name": "ssbrc:characters/armor/legs/netherite"
 			}
 		]
 	}

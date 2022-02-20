@@ -25,8 +25,8 @@ tag @s remove snake
 tag @s remove sonic
 tag @s remove steve
 tag @s remove teamrocket
-tag @s remove teamrocket.arbok
-tag @s remove teamrocket.meowth
-tag @s remove teamrocket.wobbuffet
+tag @s remove arbok
+tag @s remove meowth
+tag @s remove wobbuffet
 
 tag @s remove characterPicked
