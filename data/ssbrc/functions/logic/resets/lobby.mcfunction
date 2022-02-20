@@ -1,6 +1,7 @@
 kill @e[type=!minecraft:player]
 
-summon minecraft:area_effect_cloud -524.5 6.0 55.5 {CustomName:'[{"text":"Welcome to ","bold":false,"color":"yellow"},{"text":"Super Smash Bros. Re:Crafted!","bold":true,"color":"gold"}]',CustomNameVisible:1b,Age:-2147483648,Duration:-1,WaitTime:-2147483648}
+summon minecraft:area_effect_cloud -524.5 6.0 55.5 {CustomName:'{"text":"Welcome to","bold":false,"color":"yellow"}',CustomNameVisible:1b,Age:-2147483648,Duration:-1,WaitTime:-2147483648}
+summon minecraft:area_effect_cloud -524.5 5.75 55.5 {CustomName:'{"text":"Super Smash Bros. Re:Crafted!","bold":true,"color":"gold"}',CustomNameVisible:1b,Age:-2147483648,Duration:-1,WaitTime:-2147483648}
 summon minecraft:area_effect_cloud -528.5 5.5 60.5 {CustomName:'{"text":"Choose a Fighter","color":"yellow"}',CustomNameVisible:1b,Age:-2147483648,Duration:-1,WaitTime:-2147483648}
 summon minecraft:area_effect_cloud -528.5 5.5 50.5 {CustomName:'{"text":"Credits","color":"yellow"}',CustomNameVisible:1b,Age:-2147483648,Duration:-1,WaitTime:-2147483648}
 summon minecraft:area_effect_cloud -29.5 5.5 -161.5 {CustomName:'{"text":"Return to Lobby","color":"yellow"}',CustomNameVisible:1b,Age:-2147483648,Duration:-1,WaitTime:-2147483648}
