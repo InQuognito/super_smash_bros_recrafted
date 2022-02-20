@@ -8,9 +8,9 @@ execute as @s[scores={useAbility=1..},nbt={SelectedItem:{tag:{SG:1}}}] unless sc
 scoreboard players reset @s useAbility
 
 # Glowing
-scoreboard players add @a[tag=snake] timer 1
-execute as @a[tag=snake,scores={timer=1200..}] run function ssbrc:characters/snake/logic/reset_glowing
-execute as @a[tag=snake,scores={timer=1200..}] run tellraw @s [{"text":"Otacon","color":"green"},{"text":": ","color":"white"},{"text":"Snake, your position has been compromised!","color":"yellow"}]
+scoreboard players add @s timer 1
+execute as @s[scores={timer=1200..}] run function ssbrc:characters/snake/logic/get_hurt
+execute as @s[scores={timer=1200..}] run tellraw @s [{"text":"Otacon","color":"green"},{"text":": ","color":"white"},{"text":"Snake, your position has been compromised!","color":"yellow"}]
 
 # Ammo HUD
 title @s actionbar ""

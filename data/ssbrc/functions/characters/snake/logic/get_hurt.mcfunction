@@ -1,2 +1,2 @@
-execute if score $gameStage temp matches 4 run effect give @s[tag=snake] minecraft:glowing 10 0 true
-execute if score $gameStage temp matches 4 run scoreboard players set @s[tag=snake] timer -180
+effect give @s minecraft:glowing 10 0 true
+scoreboard players set @s timer -180
