@@ -2,3 +2,5 @@ execute unless score $gameMode options matches 1 run tellraw @a [{"text":"Game M
 execute if score $gameMode options matches 1 run tellraw @s [{"text":"Game Mode","color":"yellow"},{"text":" is already set to this!","color":"red"}]
 
 scoreboard players set $gameMode options 1
+
+function ssbrc:logic/book
