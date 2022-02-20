@@ -3,6 +3,7 @@ effect give @s minecraft:resistance 5 255 true
 scoreboard players set @s duration.2 100
 
 item replace entity @s armor.chest with minecraft:leather_chestplate
+item replace entity @s armor.legs with minecraft:leather_leggings
 item replace entity @s armor.feet with minecraft:leather_boots
 
 item modify entity @s armor.chest ssbrc:kits/remove_armor

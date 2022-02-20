@@ -4,13 +4,7 @@ effect clear @s minecraft:slowness
 
 attribute @s generic.knockback_resistance base set 0.0
 
-item replace entity @s[tag=!gold] armor.chest with minecraft:leather_chestplate{Unbreakable:1,HideFlags:127} 1
-item replace entity @s[tag=!gold] armor.legs with minecraft:leather_leggings{Unbreakable:1,HideFlags:127} 1
-item replace entity @s[tag=!gold] armor.feet with minecraft:leather_boots{Unbreakable:1,HideFlags:127} 1
-item replace entity @s[tag=gold] armor.chest with minecraft:golden_chestplate{Unbreakable:1,HideFlags:127} 1
-item replace entity @s[tag=gold] armor.legs with minecraft:golden_leggings{Unbreakable:1,HideFlags:127} 1
-item replace entity @s[tag=gold] armor.feet with minecraft:golden_boots{Unbreakable:1,HideFlags:127} 1
-
+function ssbrc:logic/characters/get_armor
 function ssbrc:logic/characters/update_armor
 
 item replace entity @s[scores={mana=..0}] hotbar.0 with minecraft:iron_sword{CustomModelData:2,Unbreakable:1,AttributeModifiers:[{AttributeName:"generic.attack_damage",Amount:6,Slot:mainhand,Name:"generic.attack_damage",UUID:[I;-12164,22807,92130,-45614]},{AttributeName:"generic.attack_speed",Amount:-1.8,Slot:mainhand,Name:"generic.attack_speed",UUID:[I;-12144,22907,92130,-45814]}],display:{Name:'[{"text":"Sword of Light","italic":false,"color":"yellow"}]'},HideFlags:127} 1
