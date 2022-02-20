@@ -30,7 +30,7 @@ execute as @s[tag=teamrocket] run function ssbrc:characters/teamrocket/kit
 function ssbrc:logic/characters/armor/get
 
 function ssbrc:logic/characters/attributes
-function ssbrc:logic/characters/effects
+function ssbrc:logic/characters/effects/default
 
 scoreboard players set @s cooldown.1 0
 scoreboard players set @s cooldown.2 0
