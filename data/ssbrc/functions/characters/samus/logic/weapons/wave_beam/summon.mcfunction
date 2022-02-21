@@ -1,6 +1,6 @@
 execute positioned 0.0 0.0 0.0 run summon minecraft:marker ^ ^ ^1 {Tags:["direction"]}
 
-summon minecraft:arrow ^ ^ ^1 {damage:11.0,Tags:["samus.waveBeam","projectile"],NoGravity:1b}
+#summon minecraft:arrow ^ ^ ^1 {damage:11.0,Tags:["samus.waveBeam","projectile"],NoGravity:1b}
 
 data modify entity @e[tag=projectile,limit=1] Owner set from entity @s UUID
 data modify entity @e[tag=projectile,limit=1] Motion set from entity @e[tag=direction,limit=1] Pos
@@ -23,4 +23,4 @@ tag @e[tag=samus.waveBeam,tag=!adjusted] add adjusted
 scoreboard players set @s cooldown.2 25
 
 scoreboard players operation $RayLength temp = $out math
-execute as @e[tag=samus.waveBeam] at @s run function ssbrc:characters/samus/logic/weapons/wave_beam/raycast_loop
+execute as @e[tag=samus.waveBeam,tag=marker] at @s run function ssbrc:characters/samus/logic/weapons/wave_beam/raycast_loop
