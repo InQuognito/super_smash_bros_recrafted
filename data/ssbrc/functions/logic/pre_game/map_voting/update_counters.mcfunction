@@ -27,6 +27,8 @@ execute if entity @s[tag=spearPillar] run scoreboard players remove @e[tag=voteC
 execute if entity @s[tag=towerOfFate] run scoreboard players remove @e[tag=voteCounter,tag=towerOfFate] mapVote 1
 execute if entity @s[tag=wilyCastle] run scoreboard players remove @e[tag=voteCounter,tag=wilyCastle] mapVote 1
 
+execute if entity @s[tag=random] run scoreboard players remove @e[tag=voteCounter,tag=random] mapVote 1
+
 function ssbrc:logic/resets/tags/maps
 
 execute as @e[tag=voteCounter] run tag @s add voteCounter.update
