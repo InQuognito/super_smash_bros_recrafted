@@ -1,5 +1,5 @@
-execute positioned 23382.0 5.0 8638.0 as @a[dx=0,dy=5,dz=2] run tp @s 23339.5 5.0 8639.5 -90.0 ~
-execute positioned 23338.0 5.0 8638.0 as @a[dx=0,dy=5,dz=2] run tp @s 23381.5 5.0 8639.5 90.0 ~
+execute positioned 23383.0 5.0 8638.0 as @a[dx=0,dy=5,dz=2] run tp @s 23339.5 5.0 8639.5 -90.0 ~
+execute positioned 23337.0 5.0 8638.0 as @a[dx=0,dy=5,dz=2] run tp @s 23381.5 5.0 8639.5 90.0 ~
 
 # Ghost Animation
 execute as @e[tag=ghost.active] store result entity @s ArmorItems[3].tag.CustomModelData int 0.5 run scoreboard players get @s animation
