@@ -7,4 +7,4 @@
 #execute as @s[tag=!marker] at @s run particle minecraft:dust 0.48 0.11 0.47 0.75 ^ ^ ^ 0.0 0.0 0.0 0 0 normal @a
 
 scoreboard players add @s temp 1
-kill @s[scores={temp=50..}]
+kill @s[scores={temp=60..}]
