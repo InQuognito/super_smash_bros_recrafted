@@ -10,8 +10,6 @@ function ssbrc:logic/id/test
 
 title @a actionbar ""
 
-scoreboard players reset $none temp
-
 gamemode adventure @a[team=alive]
 
 clear @a

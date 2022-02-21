@@ -1,4 +1,3 @@
-scoreboard players set $none temp 1
 scoreboard players set #arrowMax temp 10
 
 scoreboard players set #-1 integers -1
