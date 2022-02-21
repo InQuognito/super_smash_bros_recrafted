@@ -5,6 +5,7 @@ tellraw @s [{"text":"You have selected ","color":"white"},{"text":"Steve","color
 tellraw @s[tag=default] [{"text":"Costume: ","color":"yellow"},{"text":"Default","color":"dark_aqua"}]
 tellraw @s[tag=gold] [{"text":"Costume: ","color":"yellow"},{"text":"Gold","color":"gold"}]
 tellraw @s[tag=alex] [{"text":"Costume: ","color":"yellow"},{"text":"Alex","color":"yellow"}]
+tellraw @s[tag=herobrine] [{"text":"Costume: ","color":"yellow"},{"text":"Herobrine","color":"white"}]
 
 function ssbrc:logic/resets/tags/characters
 tag @s add steve
