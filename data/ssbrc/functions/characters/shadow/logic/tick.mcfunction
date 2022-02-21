@@ -23,7 +23,7 @@ scoreboard players reset @s[scores={charge.2=101..}] charge.2
 
 execute as @e[tag=chaosBlastShockwave] at @s run particle minecraft:dust 0.3 0.0 0.0 1.0 ~ ~ ~ 0.0 0.0 0.0 1.0 1 normal @a
 scoreboard players add @e[tag=chaosBlastShockwave] temp 1
-kill @e[tag=chaosBlastShockwave,scores={temp=100..}]
+kill @e[tag=chaosBlastShockwave,scores={temp=60..}]
 
 # Acceleration
 scoreboard players set @s[scores={flag.sprinting=..-1}] flag.sprinting 0
