@@ -4,5 +4,5 @@ execute if entity @s[scores={useAbility=1..,cooldown.1=..0},nbt={SelectedItem:{t
 scoreboard players reset @s useAbility
 
 execute as @e[tag=samus.powerBeam] at @s run function ssbrc:characters/samus/logic/weapons/power_beam/entity
-#execute as @e[tag=samus.waveBeam] at @s run function ssbrc:characters/samus/logic/weapons/wave_beam/entity
+execute as @e[tag=samus.waveBeam] at @s run function ssbrc:characters/samus/logic/weapons/wave_beam/entity
 execute as @e[tag=samus.plasmaBeam] at @s run function ssbrc:characters/samus/logic/weapons/plasma_beam/entity
