@@ -80,6 +80,7 @@ advancement grant @a only ssbrc:characters/samus/costumes/gold
 advancement grant @a only ssbrc:characters/samus/costumes/gravity
 advancement grant @a only ssbrc:characters/samus/costumes/phazon
 advancement grant @a only ssbrc:characters/shadow/costumes/gold
+advancement grant @a only ssbrc:characters/shadow/costumes/alt
 advancement grant @a only ssbrc:characters/shovelknight/costumes/gold
 advancement grant @a only ssbrc:characters/snake/costumes/gold
 advancement grant @a only ssbrc:characters/sonic/costumes/gold
