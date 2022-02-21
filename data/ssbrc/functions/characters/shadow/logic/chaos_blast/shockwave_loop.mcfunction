@@ -2,7 +2,9 @@ tag @s remove shadow.chaosBlast
 
 execute positioned 0.0 0.0 0.0 run summon minecraft:marker ^ ^ ^1 {Tags:["direction"]}
 
-summon minecraft:arrow ^ ^ ^1 {damage:20.0,Tags:["chaosBlastShockwave","projectile"],NoGravity:1b}
+execute if entity @s[tag=default] run summon minecraft:arrow ^ ^ ^1 {damage:20.0,Tags:["chaosBlastShockwave","chaosBlastShockwave.default","projectile"],NoGravity:1b}
+execute if entity @s[tag=gold] run summon minecraft:arrow ^ ^ ^1 {damage:20.0,Tags:["chaosBlastShockwave","chaosBlastShockwave.gold","projectile"],NoGravity:1b}
+execute if entity @s[tag=alt] run summon minecraft:arrow ^ ^ ^1 {damage:20.0,Tags:["chaosBlastShockwave","chaosBlastShockwave.alt","projectile"],NoGravity:1b}
 
 data modify entity @e[tag=projectile,limit=1] Owner set from entity @p[team=alive] UUID
 data modify entity @e[tag=projectile,limit=1] Motion set from entity @e[tag=direction,limit=1] Pos
