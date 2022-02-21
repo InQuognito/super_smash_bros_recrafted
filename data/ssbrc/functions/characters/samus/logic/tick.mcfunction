@@ -5,3 +5,8 @@ scoreboard players reset @s useAbility
 
 execute as @e[tag=samus.powerBeam] at @s run function ssbrc:characters/samus/logic/weapons/power_beam/entity
 execute as @e[tag=samus.plasmaBeam] at @s run function ssbrc:characters/samus/logic/weapons/plasma_beam/entity
+
+execute as @e[tag=samus.waveBeam] at @s run particle minecraft:dust 0.5 0.0 0.5 0.75 ^ ^ ^ 0.0 0.0 0.0 0 0 normal @a
+
+scoreboard players add @e[tag=samus.waveBeam] temp 1
+kill @e[tag=samus.waveBeam,scores={temp=60..}]
