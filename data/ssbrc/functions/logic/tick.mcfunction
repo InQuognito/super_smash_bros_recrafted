@@ -1,4 +1,4 @@
-execute if score $none temp matches 1 run function ssbrc:logic/tick/lobby
+execute unless score $gameStage temp matches 0.. run function ssbrc:logic/tick/lobby
 execute if score $gameStage temp matches 4 run function ssbrc:logic/tick/ingame
 
 # Positioning of particles for bow charging
