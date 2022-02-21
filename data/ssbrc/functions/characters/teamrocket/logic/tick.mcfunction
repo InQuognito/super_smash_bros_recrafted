@@ -15,4 +15,5 @@ tag @e[tag=teamrocket.meowth.payday,tag=!active,predicate=ssbrc:flag/no_vehicle]
 item modify entity @s weapon.mainhand ssbrc:characters/wobbuffet.counter
 
 # Destiny Bond
-execute at @s[scores={duration.3=1..}] run particle minecraft:dust 0.0 0.0 0.0 0.5 ~ ~0.75 ~ 0.5 1.0 0.5 0.0 5 normal @a
+execute at @s[scores={duration.3=40..}] run particle minecraft:dust 0.0 0.0 0.0 0.5 ~ ~0.75 ~ 0.5 1.0 0.5 0.0 5 normal @a
+execute if score @s duration.3 matches ..0 run function ssbrc:characters/teamrocket/logic/wobbuffet/destiny_bond/off

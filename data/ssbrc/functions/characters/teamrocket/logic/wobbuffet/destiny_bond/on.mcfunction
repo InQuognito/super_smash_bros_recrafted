@@ -1,6 +1,5 @@
-scoreboard players set @s duration.3 60
+scoreboard players set @s duration.3 100
 
-effect give @s minecraft:jump_boost 6 200 true
-effect give @s minecraft:slowness 6 255 true
+function ssbrc:logic/characters/effects/mobility/immobilize
 
 scoreboard players set @s cooldown.3 600
