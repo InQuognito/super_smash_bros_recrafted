@@ -28,3 +28,4 @@ item replace entity @s inventory.13 with minecraft:paper
 item modify entity @s inventory.13 ssbrc:statistics_card
 
 function ssbrc:logic/leaderboard/wins/load
+tag @s add loaded

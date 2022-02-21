@@ -1,6 +1,5 @@
 # Reset Players
 execute as @a[tag=!loaded] run function ssbrc:logic/resets/players
-tag @a add loaded
 
 # Teleport - Character Select
 execute as @a[x=-529.5,y=5.0,z=61.5,distance=..1] run function ssbrc:logic/pre_game/character_select/goto
