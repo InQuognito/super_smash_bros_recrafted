@@ -14,8 +14,6 @@ execute unless score $timeLimit options matches 0.. run scoreboard players set $
 execute unless score $hazards options matches 0.. run scoreboard players set $hazards options 1
 execute unless score $music options matches 0.. run scoreboard players set $music options 0
 
-tag @a remove loaded
-
 function ssbrc:logic/resets/advancements
 function ssbrc:logic/resets/bossbars
 function ssbrc:logic/resets/gamerules
@@ -30,6 +28,8 @@ time set noon
 weather clear
 
 setworldspawn -521 5 55
+
+tag @a remove loaded
 
 function ssbrc:logic/timer
 schedule function ssbrc:logic/resets/lobby 1s replace
