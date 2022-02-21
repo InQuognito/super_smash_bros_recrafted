@@ -16,17 +16,7 @@ execute unless entity @a[tag=shadow] run summon minecraft:armor_stand -29.444 31
 summon minecraft:armor_stand -76.449 25.0 233.467 {Invulnerable:1b,ShowArms:1b,DisabledSlots:4144959,Pose:{RightArm:[330.0f,13.0f,0.0f],LeftLeg:[348.0f,0.0f,0.0f],LeftArm:[215.0f,352.0f,0.0f],RightLeg:[13.0f,0.0f,0.0f]},Rotation:[270.0f,0.0f],ArmorItems:[{id:"minecraft:leather_boots",Count:1b,tag:{display:{color:8439583}}},{id:"minecraft:leather_leggings",Count:1b,tag:{display:{color:12142657}}},{id:"minecraft:leather_chestplate",Count:1b,tag:{display:{color:11546150}}},{id:"minecraft:player_head",Count:1b,tag:{SkullOwner:{Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjI4NTNmOThlY2JlZGZhZjg4MzZiY2JiNzdkMzdkMzg4MTcyZGM5ZDJjMzNmMDk1NmJlMjIxNjY0NmU0NGQifX19"}]},Id:[I; 2055932220,618546984,-1337458658,812759000]}}}],NoBasePlate:1b}
 summon minecraft:armor_stand -15.38 31.69933 274.29 {NoGravity:1b,Invulnerable:1b,ShowArms:1b,DisabledSlots:4144959,Pose:{RightArm:[330.0f,35.0f,0.0f],LeftLeg:[31.0f,0.0f,0.0f],LeftArm:[312.0f,338.0f,0.0f],RightLeg:[13.0f,0.0f,0.0f]},Rotation:[180.0f,0.0f],ArmorItems:[{id:"minecraft:leather_boots",Count:1b,tag:{display:{color:10082796}}},{id:"minecraft:leather_leggings",Count:1b,tag:{display:{color:15596284}}},{id:"minecraft:leather_chestplate",Count:1b,tag:{display:{color:15596284}}},{id:"minecraft:player_head",Count:1b,tag:{SkullOwner:{Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYWEyN2UwYmVjMDZjYzM0ZjQ3OGQyYTEzYWRlYThhNjY2NjdiOWZlYzE5M2M5ODEzNTJiNjFkMmZmMDY5NjEifX19"}]},Id:[I; 517880758,-39370290,-1103566824,-1113036040]}}}],NoBasePlate:1b}
 
-execute as @e[tag=propStand] run item replace entity @s armor.head with minecraft:barrier
-execute as @e[tag=propStand] run item modify entity @s armor.head ssbrc:kits/head
-
-execute as @e[tag=propStand] run item replace entity @s armor.chest with minecraft:leather_chestplate
-execute as @e[tag=propStand] run item modify entity @s armor.chest ssbrc:kits/chest_color
-
-execute as @e[tag=propStand] run item replace entity @s armor.legs with minecraft:leather_leggings
-execute as @e[tag=propStand] run item modify entity @s armor.legs ssbrc:kits/legs_color
-
-execute as @e[tag=propStand] run item replace entity @s armor.feet with minecraft:leather_boots
-execute as @e[tag=propStand] run item modify entity @s armor.feet ssbrc:kits/feet_color
+execute as @e[tag=propStand] run function ssbrc:logic/characters/armor/get
 
 time set noon
 weather clear
