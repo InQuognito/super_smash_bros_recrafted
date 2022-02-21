@@ -21,6 +21,10 @@ execute as @s[scores={charge.2=1..}] at @s run function ssbrc:characters/shadow/
 execute as @s[scores={charge.2=70}] at @s run function ssbrc:characters/shadow/logic/chaos_blast/unleash
 scoreboard players reset @s[scores={charge.2=101..}] charge.2
 
+execute as @e[tag=chaosBlastShockwave] at @s run particle minecraft:dust 0.3 0.0 0.0 1.0 ~ ~ ~ 0.0 0.0 0.0 1.0 1 normal @a
+scoreboard players add @e[tag=chaosBlastShockwave] temp 1
+kill @e[tag=chaosBlastShockwave,scores={temp=100..}]
+
 # Acceleration
 scoreboard players set @s[scores={flag.sprinting=..-1}] flag.sprinting 0
 scoreboard players remove @s[scores={flag.sprinting=1..},predicate=!ssbrc:flag/sprinting] flag.sprinting 3
