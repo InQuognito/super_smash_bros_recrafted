@@ -87,6 +87,7 @@ advancement grant @a only ssbrc:characters/sonic/costumes/gold
 advancement grant @a only ssbrc:characters/sora/costumes/gold
 advancement grant @a only ssbrc:characters/steve/costumes/gold
 advancement grant @a only ssbrc:characters/steve/costumes/alex
+advancement grant @a only ssbrc:characters/steve/costumes/herobrine
 advancement grant @a only ssbrc:characters/teamrocket/costumes/gold
 advancement grant @a only ssbrc:characters/yar/costumes/gold
 advancement grant @a only ssbrc:characters/yoshi/costumes/gold
