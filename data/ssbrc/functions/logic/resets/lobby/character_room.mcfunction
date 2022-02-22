@@ -10,7 +10,7 @@ summon minecraft:armor_stand 44.5 6.0 160.5 {Tags:["lobbyStand","captainfalcon",
 summon minecraft:area_effect_cloud 19.5 8.0 156.5 {CustomName:'{"text":"Charizard","color":"gold"}',CustomNameVisible:1b,Age:-2147483648,Duration:-1,WaitTime:-2147483648}
 summon minecraft:armor_stand 19.5 6.0 158.5 {Tags:["lobbyStand","charizard","default"],Rotation:[180f,0f]}
 
-summon minecraft:area_effect_cloud 80.5 8.0 112.5 {CustomName:'{"text":"Dark Samus","color":"dark_aqua"}',CustomNameVisible:1b,Age:-2147483648,Duration:-1,WaitTime:-2147483648}
+summon minecraft:area_effect_cloud 79.5 8.0 112.5 {CustomName:'{"text":"Dark Samus","color":"dark_aqua"}',CustomNameVisible:1b,Age:-2147483648,Duration:-1,WaitTime:-2147483648}
 summon minecraft:armor_stand 81.5 6.0 112.5 {Tags:["lobbyStand","darksamus","default"],Rotation:[90f,0f]}
 
 summon minecraft:area_effect_cloud 26.5 8.0 142.5 {CustomName:'{"text":"Donkey Kong","color":"gold"}',CustomNameVisible:1b,Age:-2147483648,Duration:-1,WaitTime:-2147483648}
