@@ -22,6 +22,7 @@ scoreboard players operation $steveItemCap temp += $steveCount temp
 execute if entity @a[tag=steve] run schedule function ssbrc:characters/steve/logic/spawn_item 15s replace
 
 execute if score $luigisMansion map matches 1 if score $hazards options matches 1 run function ssbrc:maps/l/luigis_mansion/logic/blackout_check
+execute if score $pacMaze map matches 1 if score $hazards options matches 1 run function ssbrc:maps/p/pac_maze/logic/ghosts/blinky/release
 
 scoreboard players reset @a fallDistance
 
