@@ -86,11 +86,8 @@
 			}
 		},
 		{
-			"condition": "minecraft:entity_properties",
-			"entity": "this",
-			"predicate": {
-				"nbt": "{Tags:[\"link\"]}"
-			}
+			"condition": "minecraft:reference",
+			"name": "ssbrc:characters/alignment/link_hero"
 		},
 		{
 			"condition": "minecraft:entity_properties",
@@ -142,11 +139,8 @@
 			}
 		},
 		{
-			"condition": "minecraft:entity_properties",
-			"entity": "this",
-			"predicate": {
-				"nbt": "{Tags:[\"ryu\"]}"
-			}
+			"condition": "minecraft:reference",
+			"name": "ssbrc:characters/alignment/ryu_hero"
 		},
 		{
 			"condition": "minecraft:entity_properties",
@@ -154,6 +148,10 @@
 			"predicate": {
 				"nbt": "{Tags:[\"samus\"]}"
 			}
+		},
+		{
+			"condition": "minecraft:reference",
+			"name": "ssbrc:characters/alignment/shadow_hero"
 		},
 		{
 			"condition": "minecraft:entity_properties",
@@ -184,11 +182,8 @@
 			}
 		},
 		{
-			"condition": "minecraft:entity_properties",
-			"entity": "this",
-			"predicate": {
-				"nbt": "{Tags:[\"steve\"]}"
-			}
+			"condition": "minecraft:reference",
+			"name": "ssbrc:characters/alignment/steve_hero"
 		},
 		{
 			"condition": "minecraft:entity_properties",
