@@ -7,6 +7,7 @@ scoreboard objectives remove bowser.k
 scoreboard objectives remove byleth.k
 scoreboard objectives remove captainfalcon.k
 scoreboard objectives remove charizard.k
+scoreboard objectives remove darksamus.k
 scoreboard objectives remove donkeykong.k
 scoreboard objectives remove fox.k
 scoreboard objectives remove ganon.k
@@ -36,6 +37,7 @@ scoreboard objectives remove bowser.gP
 scoreboard objectives remove byleth.gP
 scoreboard objectives remove captainfalcon.gP
 scoreboard objectives remove charizard.gP
+scoreboard objectives remove darksamus.gP
 scoreboard objectives remove donkeykong.gP
 scoreboard objectives remove fox.gP
 scoreboard objectives remove ganon.gP
@@ -65,6 +67,7 @@ scoreboard objectives remove bowser.wS
 scoreboard objectives remove byleth.wS
 scoreboard objectives remove captainfalcon.wS
 scoreboard objectives remove charizard.wS
+scoreboard objectives remove darksamus.wS
 scoreboard objectives remove donkeykong.wS
 scoreboard objectives remove fox.wS
 scoreboard objectives remove ganon.wS

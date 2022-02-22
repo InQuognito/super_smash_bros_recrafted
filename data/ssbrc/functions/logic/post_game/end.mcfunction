@@ -4,6 +4,7 @@ execute if entity @s[tag=bowser] run title @a subtitle [{"text":"Selected Charac
 execute if entity @s[tag=byleth] run title @a subtitle [{"text":"Selected Character: ","color":"gold"},{"text":"Byleth","bold":true,"color":"yellow"}]
 execute if entity @s[tag=captainfalcon] run title @a subtitle [{"text":"Selected Character: ","color":"gold"},{"text":"Captain Falcon","bold":true,"color":"yellow"}]
 execute if entity @s[tag=charizard] run title @a subtitle [{"text":"Selected Character: ","color":"gold"},{"text":"Charizard","bold":true,"color":"yellow"}]
+execute if entity @s[tag=darksamus] run title @a subtitle [{"text":"Selected Character: ","color":"gold"},{"text":"Dark Samus","bold":true,"color":"yellow"}]
 execute if entity @s[tag=donkeykong] run title @a subtitle [{"text":"Selected Character: ","color":"gold"},{"text":"Donkey Kong","bold":true,"color":"yellow"}]
 execute if entity @s[tag=fox] run title @a subtitle [{"text":"Selected Character: ","color":"gold"},{"text":"Fox","bold":true,"color":"yellow"}]
 execute if entity @s[tag=ganondorf] run title @a subtitle [{"text":"Selected Character: ","color":"gold"},{"text":"Ganondorf","bold":true,"color":"yellow"}]

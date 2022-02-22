@@ -19,6 +19,13 @@
 			"condition": "minecraft:entity_properties",
 			"entity": "this",
 			"predicate": {
+				"nbt": "{Tags:[\"darksamus\"]}"
+			}
+		},
+		{
+			"condition": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
 				"nbt": "{Tags:[\"ganondorf\"]}"
 			}
 		},
@@ -57,6 +64,13 @@
 			"entity": "this",
 			"predicate": {
 				"nbt": "{Tags:[\"teamrocket\"]}"
+			}
+		},
+		{
+			"condition": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
+				"nbt": "{Tags:[\"wolf\"]}"
 			}
 		}
 	]

@@ -6,6 +6,7 @@ scoreboard players reset @s bowser.k
 scoreboard players reset @s byleth.k
 scoreboard players reset @s captainfalcon.k
 scoreboard players reset @s charizard.k
+scoreboard players reset @s darksamus.k
 scoreboard players reset @s donkeykong.k
 scoreboard players reset @s fox.k
 scoreboard players reset @s ganon.k
@@ -34,6 +35,7 @@ scoreboard players reset @s bowser.gP
 scoreboard players reset @s byleth.gP
 scoreboard players reset @s captainfalcon.gP
 scoreboard players reset @s charizard.gP
+scoreboard players reset @s darksamus.gP
 scoreboard players reset @s donkeykong.gP
 scoreboard players reset @s fox.gP
 scoreboard players reset @s ganon.gP
@@ -62,6 +64,7 @@ scoreboard players reset @s bowser.wS
 scoreboard players reset @s byleth.wS
 scoreboard players reset @s captainfalcon.wS
 scoreboard players reset @s charizard.wS
+scoreboard players reset @s darksamus.wS
 scoreboard players reset @s donkeykong.wS
 scoreboard players reset @s fox.wS
 scoreboard players reset @s ganon.wS

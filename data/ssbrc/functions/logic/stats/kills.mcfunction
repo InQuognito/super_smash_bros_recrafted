@@ -4,6 +4,7 @@ scoreboard players add @s[tag=bowser] bowser.k 1
 scoreboard players add @s[tag=byleth] byleth.k 1
 scoreboard players add @s[tag=captainfalcon] captainfalcon.k 1
 scoreboard players add @s[tag=charizard] charizard.k 1
+scoreboard players add @s[tag=darksamus] darksamus.k 1
 scoreboard players add @s[tag=donkeykong] donkeykong.k 1
 scoreboard players add @s[tag=fox] fox.k 1
 scoreboard players add @s[tag=ganon] ganon.k 1

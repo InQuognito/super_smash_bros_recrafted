@@ -2,6 +2,7 @@ execute as @s[tag=bowser] run function ssbrc:characters/bowser/kit
 execute as @s[tag=byleth] run function ssbrc:characters/byleth/kit
 execute as @s[tag=captainfalcon] run function ssbrc:characters/captainfalcon/kit
 execute as @s[tag=charizard] run function ssbrc:characters/charizard/kit
+execute as @s[tag=darksamus] run function ssbrc:characters/darksamus/kit
 execute as @s[tag=donkeykong] run function ssbrc:characters/donkeykong/kit
 execute as @s[tag=fox] run function ssbrc:characters/fox/kit
 execute as @s[tag=ganondorf] run function ssbrc:characters/ganondorf/kit

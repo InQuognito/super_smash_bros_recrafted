@@ -4,6 +4,7 @@ tag @a remove favoritetry.bowser
 tag @a remove favoritetry.byleth
 tag @a remove favoritetry.captainfalcon
 tag @a remove favoritetry.charizard
+tag @a remove favoritetry.darksamus
 tag @a remove favoritetry.donkeykong
 tag @a remove favoritetry.fox
 tag @a remove favoritetry.ganondorf

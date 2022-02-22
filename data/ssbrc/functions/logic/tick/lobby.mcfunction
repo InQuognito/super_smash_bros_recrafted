@@ -19,6 +19,7 @@ execute as @a[tag=!bowser,predicate=!ssbrc:flag/sneaking,scores={selectFavorite=
 execute as @a[tag=!byleth,predicate=!ssbrc:flag/sneaking,scores={selectFavorite=1..,favorite.temp=100}] run function ssbrc:characters/byleth/menu/loadout/prompt
 execute as @a[tag=!captainfalcon,predicate=!ssbrc:flag/sneaking,scores={selectFavorite=1..,favorite.temp=120}] run function ssbrc:characters/captainfalcon/menu/select_character
 execute as @a[tag=!charizard,predicate=!ssbrc:flag/sneaking,scores={selectFavorite=1..,favorite.temp=140}] run function ssbrc:characters/charizard/menu/select_character
+execute as @a[tag=!darksamus,predicate=!ssbrc:flag/sneaking,scores={selectFavorite=1..,favorite.temp=260}] run function ssbrc:characters/darksamus/menu/select_character
 execute as @a[tag=!donkeykong,predicate=!ssbrc:flag/sneaking,scores={selectFavorite=1..,favorite.temp=300}] run function ssbrc:characters/donkeykong/menu/select_character
 execute as @a[tag=!fox,predicate=!ssbrc:flag/sneaking,scores={selectFavorite=1..,favorite.temp=380}] run function ssbrc:characters/fox/menu/select_character
 execute as @a[tag=!ganondorf,predicate=!ssbrc:flag/sneaking,scores={selectFavorite=1..,favorite.temp=400}] run function ssbrc:characters/ganondorf/menu/select_character
@@ -48,6 +49,7 @@ execute as @a[predicate=ssbrc:flag/sneaking,scores={selectFavorite=1..,favorite.
 execute as @a[predicate=ssbrc:flag/sneaking,scores={selectFavorite=1..,favorite.temp=100}] run function ssbrc:characters/byleth/menu/prompt
 execute as @a[predicate=ssbrc:flag/sneaking,scores={selectFavorite=1..,favorite.temp=120}] run function ssbrc:characters/captainfalcon/menu/prompt
 execute as @a[predicate=ssbrc:flag/sneaking,scores={selectFavorite=1..,favorite.temp=140}] run function ssbrc:characters/charizard/menu/prompt
+execute as @a[predicate=ssbrc:flag/sneaking,scores={selectFavorite=1..,favorite.temp=260}] run function ssbrc:characters/darksamus/menu/prompt
 execute as @a[predicate=ssbrc:flag/sneaking,scores={selectFavorite=1..,favorite.temp=300}] run function ssbrc:characters/donkeykong/menu/prompt
 execute as @a[predicate=ssbrc:flag/sneaking,scores={selectFavorite=1..,favorite.temp=380}] run function ssbrc:characters/fox/menu/prompt
 execute as @a[predicate=ssbrc:flag/sneaking,scores={selectFavorite=1..,favorite.temp=400}] run function ssbrc:characters/ganondorf/menu/prompt

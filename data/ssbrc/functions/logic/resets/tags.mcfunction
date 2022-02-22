@@ -5,6 +5,7 @@ tag @s remove bowser
 tag @s remove byleth
 tag @s remove captainfalcon
 tag @s remove charizard
+tag @s remove darksamus
 tag @s remove donkeykong
 tag @s remove fox
 tag @s remove ganondorf
@@ -37,6 +38,7 @@ tag @s remove favoritetry.bowser
 tag @s remove favoritetry.byleth
 tag @s remove favoritetry.captainfalcon
 tag @s remove favoritetry.charizard
+tag @s remove favoritetry.samus
 tag @s remove favoritetry.donkeykong
 tag @s remove favoritetry.fox
 tag @s remove favoritetry.ganondorf
@@ -66,6 +68,7 @@ execute as @a run function ssbrc:characters/bowser/menu/costumes/reset
 execute as @a run function ssbrc:characters/byleth/menu/costumes/reset
 execute as @a run function ssbrc:characters/captainfalcon/menu/costumes/reset
 execute as @a run function ssbrc:characters/charizard/menu/costumes/reset
+execute as @a run function ssbrc:characters/darksamus/menu/costumes/reset
 execute as @a run function ssbrc:characters/donkeykong/menu/costumes/reset
 execute as @a run function ssbrc:characters/fox/menu/costumes/reset
 execute as @a run function ssbrc:characters/ganondorf/menu/costumes/reset

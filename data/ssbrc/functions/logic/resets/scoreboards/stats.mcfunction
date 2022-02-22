@@ -5,6 +5,7 @@ scoreboard objectives add bowser.k dummy
 scoreboard objectives add byleth.k dummy
 scoreboard objectives add captainfalcon.k dummy
 scoreboard objectives add charizard.k dummy
+scoreboard objectives add darksamus.k dummy
 scoreboard objectives add donkeykong.k dummy
 scoreboard objectives add fox.k dummy
 scoreboard objectives add ganon.k dummy
@@ -34,6 +35,7 @@ scoreboard objectives add bowser.gP dummy
 scoreboard objectives add byleth.gP dummy
 scoreboard objectives add captainfalcon.gP dummy
 scoreboard objectives add charizard.gP dummy
+scoreboard objectives add darksamus.gP dummy
 scoreboard objectives add donkeykong.gP dummy
 scoreboard objectives add fox.gP dummy
 scoreboard objectives add ganon.gP dummy
@@ -63,6 +65,7 @@ scoreboard objectives add bowser.wS dummy
 scoreboard objectives add byleth.wS dummy
 scoreboard objectives add captainfalcon.wS dummy
 scoreboard objectives add charizard.wS dummy
+scoreboard objectives add darksamus.wS dummy
 scoreboard objectives add donkeykong.wS dummy
 scoreboard objectives add fox.wS dummy
 scoreboard objectives add ganon.wS dummy

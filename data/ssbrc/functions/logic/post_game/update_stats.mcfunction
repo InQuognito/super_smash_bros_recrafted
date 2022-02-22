@@ -4,6 +4,7 @@ scoreboard players add @s[tag=bowser] bowser.gP 1
 scoreboard players add @s[tag=byleth] byleth.gP 1
 scoreboard players add @s[tag=captainfalcon] captainfalcon.gP 1
 scoreboard players add @s[tag=charizard] charizard.gP 1
+scoreboard players add @s[tag=darksamus] darksamus.gP 1
 scoreboard players add @s[tag=donkeykong] donkeykong.gP 1
 scoreboard players add @s[tag=fox] fox.gP 1
 scoreboard players add @s[tag=ganon] ganon.gP 1
@@ -32,6 +33,7 @@ scoreboard players reset @s[tag=!winner,tag=bowser] bowser.wS
 scoreboard players reset @s[tag=!winner,tag=byleth] byleth.wS
 scoreboard players reset @s[tag=!winner,tag=captainfalcon] captainfalcon.wS
 scoreboard players reset @s[tag=!winner,tag=charizard] charizard.wS
+scoreboard players reset @s[tag=!winner,tag=darksamus] darksamus.wS
 scoreboard players reset @s[tag=!winner,tag=donkeykong] donkeykong.wS
 scoreboard players reset @s[tag=!winner,tag=fox] fox.wS
 scoreboard players reset @s[tag=!winner,tag=ganon] ganon.wS
@@ -60,6 +62,7 @@ scoreboard players reset @s[tag=!bowser] bowser.wS
 scoreboard players reset @s[tag=!byleth] byleth.wS
 scoreboard players reset @s[tag=!captainfalcon] captainfalcon.wS
 scoreboard players reset @s[tag=!charizard] charizard.wS
+scoreboard players reset @s[tag=!darksamus] darksamus.wS
 scoreboard players reset @s[tag=!donkeykong] donkeykong.wS
 scoreboard players reset @s[tag=!fox] fox.wS
 scoreboard players reset @s[tag=!ganon] ganon.wS
@@ -88,6 +91,7 @@ scoreboard players add @s[tag=bowser] bowser.wS 1
 scoreboard players add @s[tag=byleth] byleth.wS 1
 scoreboard players add @s[tag=captainfalcon] captainfalcon.wS 1
 scoreboard players add @s[tag=charizard] charizard.wS 1
+scoreboard players add @s[tag=darksamus] darksamus.wS 1
 scoreboard players add @s[tag=donkeykong] donkeykong.wS 1
 scoreboard players add @s[tag=fox] fox.wS 1
 scoreboard players add @s[tag=ganon] ganon.wS 1

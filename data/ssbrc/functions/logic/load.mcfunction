@@ -46,6 +46,7 @@ advancement grant @a only ssbrc:characters/captainfalcon/costumes/gold
 advancement grant @a only ssbrc:characters/charizard/costumes/gold
 advancement grant @a only ssbrc:characters/charizard/a_fateful_encounter
 advancement grant @a only ssbrc:characters/cloud/costumes/gold
+advancement grant @a only ssbrc:characters/darksamus/costumes/gold
 advancement grant @a only ssbrc:characters/donkeykong/costumes/super
 advancement grant @a only ssbrc:characters/donkeykong/costumes/gold
 advancement grant @a only ssbrc:characters/fox/costumes/gold
