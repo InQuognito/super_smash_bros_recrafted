@@ -7,8 +7,8 @@ forceload add -352 -1168 -273 -1089
 kill @e[type=!minecraft:player]
 
 # Paintings
-summon minecraft:armor_stand -322.5 17.5 -1108.5 {Invisible:1,DisabledSlots:4144959,Rotation:[90f,0f],NoGravity:1,ArmorItems:[{},{},{},{id:"minecraft:sugar",tag:{CustomModelData:2},Count:1b}]}
-summon minecraft:armor_stand -302.5 17.5 -1108.5 {Invisible:1,DisabledSlots:4144959,Rotation:[-90f,0f],NoGravity:1,ArmorItems:[{},{},{},{id:"minecraft:sugar",tag:{CustomModelData:2},Count:1b}]}
+summon minecraft:armor_stand -322.5 17.5 -1108.5 {Invisible:1,DisabledSlots:4144959,Rotation:[90f,0f],NoGravity:1,ArmorItems:[{},{},{},{id:"minecraft:sugar",tag:{CustomModelData:1002},Count:1b}]}
+summon minecraft:armor_stand -302.5 17.5 -1108.5 {Invisible:1,DisabledSlots:4144959,Rotation:[-90f,0f],NoGravity:1,ArmorItems:[{},{},{},{id:"minecraft:sugar",tag:{CustomModelData:1002},Count:1b}]}
 
 summon minecraft:armor_stand -295.5 18.5 -1104.5 {Tags:["luigisMansion.painting"],Invisible:1,DisabledSlots:4144959,Rotation:[180f,0f],NoGravity:1,ArmorItems:[{},{},{},{id:"minecraft:sugar",Count:1b}]}
 summon minecraft:armor_stand -336.5 17.5 -1119.5 {Tags:["luigisMansion.painting"],Invisible:1,DisabledSlots:4144959,Rotation:[-90f,0f],NoGravity:1,ArmorItems:[{},{},{},{id:"minecraft:sugar",Count:1b}]}
