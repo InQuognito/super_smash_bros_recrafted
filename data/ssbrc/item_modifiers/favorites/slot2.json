@@ -141,6 +141,25 @@
 		"function": "minecraft:set_name",
 		"entity": "this",
 		"name": {
+			"text": "Dark Samus",
+			"color": "aqua",
+			"bold": true,
+			"italic": false
+		},
+		"conditions": [
+			{
+				"condition": "minecraft:entity_scores",
+				"entity": "this",
+				"scores": {
+					"favorite.slot2": 260
+				}
+			}
+		]
+	},
+	{
+		"function": "minecraft:set_name",
+		"entity": "this",
+		"name": {
 			"text": "Donkey Kong",
 			"color": "gold",
 			"bold": true,
