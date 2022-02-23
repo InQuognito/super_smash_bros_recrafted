@@ -1,3 +1,3 @@
-effect give @s minecraft:poison 5 1 true
+effect give @s minecraft:poison 4 1 true
 
 advancement revoke @s only ssbrc:utility/effects/poison
