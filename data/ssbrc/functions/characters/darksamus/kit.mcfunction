@@ -1,1 +1,1 @@
-item replace entity @s hotbar.0 with minecraft:carrot_on_a_stick{phazonBeam:1,CustomModelData:261,Unbreakable:1,display:{Name:'[{"text":"Phazon Beam","italic":false,"color":"dark_aqua","bold":true}]'},HideFlags:127} 1
+item replace entity @s hotbar.0 with minecraft:carrot_on_a_stick{phazonBeam:1,CustomModelData:261,Unbreakable:1,display:{Name:'[{"text":"Phazon Beam","italic":false,"color":"aqua","bold":true}]'},HideFlags:127} 1
