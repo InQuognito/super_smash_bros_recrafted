@@ -6,7 +6,7 @@
 				"damage": {
 					"type": {
 						"direct_entity": {
-							"nbt": "{Tags:[\"arrow.wither\"]}"
+							"nbt": "{Tags:[\"effect.wither\"]}"
 						}
 					}
 				}

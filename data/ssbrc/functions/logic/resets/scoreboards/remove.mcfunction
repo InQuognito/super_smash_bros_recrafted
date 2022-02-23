@@ -13,7 +13,8 @@ scoreboard objectives remove fallDistance
 #scoreboard objectives remove favorite.slot2
 #scoreboard objectives remove favorite.slot3
 scoreboard objectives remove favorite.temp
-scoreboard objectives remove flag.damage
+scoreboard objectives remove flag.damageDealt
+scoreboard objectives remove flag.damageTaken
 scoreboard objectives remove flag.dead
 scoreboard objectives remove flag.fireBow
 scoreboard objectives remove flag.sprinting

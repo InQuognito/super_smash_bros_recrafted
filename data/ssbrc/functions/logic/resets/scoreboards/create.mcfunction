@@ -13,7 +13,8 @@ scoreboard objectives add favorite.slot1 dummy
 scoreboard objectives add favorite.slot2 dummy
 scoreboard objectives add favorite.slot3 dummy
 scoreboard objectives add favorite.temp dummy
-scoreboard objectives add flag.damage minecraft.custom:minecraft.damage_dealt
+scoreboard objectives add flag.damageDealt minecraft.custom:minecraft.damage_dealt
+scoreboard objectives add flag.damageTaken minecraft.custom:minecraft.damage_taken
 scoreboard objectives add flag.dead deathCount
 scoreboard objectives add flag.fireBow minecraft.used:minecraft.bow
 scoreboard objectives add flag.sprinting dummy
