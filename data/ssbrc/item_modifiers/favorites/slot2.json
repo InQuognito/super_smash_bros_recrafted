@@ -157,6 +157,19 @@
 		]
 	},
 	{
+		"function": "minecraft:set_nbt",
+		"tag": "{CustomModelData:260}",
+		"conditions": [
+			{
+				"condition": "minecraft:entity_scores",
+				"entity": "this",
+				"scores": {
+					"favorite.slot2": 260
+				}
+			}
+		]
+	},
+	{
 		"function": "minecraft:set_name",
 		"entity": "this",
 		"name": {
