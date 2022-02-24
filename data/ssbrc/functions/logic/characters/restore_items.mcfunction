@@ -88,6 +88,6 @@ item replace entity @s[tag=waretiger] weapon.offhand with minecraft:firework_roc
 
 # Team Rocket
 tag @s[tag=teamrocket] remove teamrocket.picked
-execute if entity @s[tag=teamrocket,tag=arbok] run function ssbrc:characters/teamrocket/kits/meowth
-execute if entity @s[tag=teamrocket,tag=meowth] run function ssbrc:characters/teamrocket/kits/wobbuffet
-execute if entity @s[tag=teamrocket,tag=wobbuffet] run function ssbrc:characters/teamrocket/kits/arbok
+execute if entity @s[tag=teamrocket,tag=wobbuffet,tag=!teamrocket.picked] run function ssbrc:characters/teamrocket/kits/arbok
+execute if entity @s[tag=teamrocket,tag=meowth,tag=!teamrocket.picked] run function ssbrc:characters/teamrocket/kits/wobbuffet
+execute if entity @s[tag=teamrocket,tag=arbok,tag=!teamrocket.picked] run function ssbrc:characters/teamrocket/kits/meowth

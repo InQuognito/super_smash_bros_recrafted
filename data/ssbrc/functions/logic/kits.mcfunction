@@ -37,6 +37,3 @@ execute if score $sectorZ map matches 1 run function ssbrc:maps/s/sector_z/logic
 scoreboard players set @s cooldown.1 0
 scoreboard players set @s cooldown.2 0
 scoreboard players set @s cooldown.3 0
-scoreboard players reset @s duration.1
-scoreboard players reset @s duration.2
-scoreboard players reset @s duration.3
