@@ -1,4 +1,4 @@
-execute store result score $steveItemCount temp if entity @e[nbt={Item:{tag:{Tags:[steve.item]}}}]
+execute store result score $steveItemCount temp if entity @e[nbt={Item:{tag:{Tags:[steve.item.normal]}}}]
 
 tag @s[nbt={Inventory:[{id:"minecraft:stick"}]}] add steve.hasStick
 tag @s[nbt={Inventory:[{id:"minecraft:oak_planks"}]}] add steve.hasWood

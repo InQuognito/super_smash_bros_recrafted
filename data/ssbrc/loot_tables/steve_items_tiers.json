@@ -74,7 +74,7 @@
 	"functions": [
 		{
 			"function": "minecraft:set_nbt",
-			"tag": "{Tags:[\"steve.item\",\"steve.item.tier\",\"steve.item.teleport\"]}"
+			"tag": "{Tags:[\"steve.item\",\"steve.item.normal\",\"steve.item.tier\",\"steve.item.teleport\"]}"
 		}
 	]
 }
