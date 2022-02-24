@@ -18,11 +18,11 @@ execute if score result random matches 1 run tellraw @s[tag=famasGive] {"text":"
 execute if score result random matches 1 run tag @s[tag=famasGive] add itemsGiven
 
 execute if score result random matches 2 run tag @s[tag=snake.s1000] add s1000Give
-execute if score result random matches 2 run scoreboard players add @s[tag=s1000Give,scores={snake.s1000A=1..}] snake.s1000M 1
+execute if score result random matches 2 run scoreboard players add @s[tag=s1000Give,scores={snake.s1000A=1..}] snake.s1000M 2
 execute if score result random matches 2 run scoreboard players set @s[tag=s1000Give,scores={snake.s1000M=..0,snake.s1000A=..0}] snake.s1000M 0
 execute if score result random matches 2 run scoreboard players set @s[tag=s1000Give,scores={snake.s1000M=0,snake.s1000A=..0}] snake.s1000A 2
 execute if score result random matches 2 run tag @s[tag=s1000Give,scores={snake.s1000M=0,snake.s1000A=..0}] remove snake.s1000R
-execute if score result random matches 2 run tellraw @s[tag=s1000Give] {"text":"Scavenger | +2 S1000 Shells","color":"green"}
+execute if score result random matches 2 run tellraw @s[tag=s1000Give] {"text":"Scavenger | +4 S1000 Shells","color":"green"}
 execute if score result random matches 2 run tag @s[tag=s1000Give] add itemsGiven
 
 execute if score result random matches 3 run tag @s[tag=snake.socom] add socomGive
