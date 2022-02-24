@@ -131,6 +131,19 @@
 	},
 	{
 		"function": "minecraft:set_nbt",
+		"tag": "{display:{color:14668730}}",
+		"conditions": [
+			{
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"nbt": "{Tags:[\"ganondorf\",\"oot\"]}"
+				}
+			}
+		]
+	},
+	{
+		"function": "minecraft:set_nbt",
 		"tag": "{display:{color:3491733}}",
 		"conditions": [
 			{
@@ -177,6 +190,32 @@
 				"entity": "this",
 				"predicate": {
 					"nbt": "{Tags:[\"hero\",\"default\"]}"
+				}
+			}
+		]
+	},
+	{
+		"function": "minecraft:set_nbt",
+		"tag": "{display:{color:10528354}}",
+		"conditions": [
+			{
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"nbt": "{Tags:[\"hero\",\"erdick\"]}"
+				}
+			}
+		]
+	},
+	{
+		"function": "minecraft:set_nbt",
+		"tag": "{display:{color:6901828}}",
+		"conditions": [
+			{
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"nbt": "{Tags:[\"hero\",\"rek\"]}"
 				}
 			}
 		]

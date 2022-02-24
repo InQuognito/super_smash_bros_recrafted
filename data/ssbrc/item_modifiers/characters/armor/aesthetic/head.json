@@ -396,6 +396,76 @@
 	},
 	{
 		"function": "minecraft:set_nbt",
+		"tag": "{CustomModelData:443}",
+		"conditions": [
+			{
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"nbt": "{Tags:[\"hero\",\"erdick\"]}"
+				}
+			}
+		]
+	},
+	{
+		"function": "minecraft:set_nbt",
+		"tag": "{CustomModelData:444}",
+		"conditions": [
+			{
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"nbt": "{Tags:[\"hero\",\"erdick\"]}"
+				}
+			},
+			{
+				"condition": "minecraft:entity_scores",
+				"entity": "this",
+				"scores": {
+					"duration.2": {
+						"min": 1
+					}
+				}
+			}
+		]
+	},
+	{
+		"function": "minecraft:set_nbt",
+		"tag": "{CustomModelData:445}",
+		"conditions": [
+			{
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"nbt": "{Tags:[\"hero\",\"rek\"]}"
+				}
+			}
+		]
+	},
+	{
+		"function": "minecraft:set_nbt",
+		"tag": "{CustomModelData:446}",
+		"conditions": [
+			{
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"nbt": "{Tags:[\"hero\",\"rek\"]}"
+				}
+			},
+			{
+				"condition": "minecraft:entity_scores",
+				"entity": "this",
+				"scores": {
+					"duration.2": {
+						"min": 1
+					}
+				}
+			}
+		]
+	},
+	{
+		"function": "minecraft:set_nbt",
 		"tag": "{CustomModelData:600}",
 		"conditions": [
 			{
