@@ -36,6 +36,7 @@ scoreboard objectives remove pos
 scoreboard objectives remove reset
 scoreboard objectives remove respawn
 scoreboard objectives remove selectFavorite
+scoreboard objectives remove shadow.chaosControl
 scoreboard objectives remove shadow.meter.hero
 scoreboard objectives remove shadow.meter.villain
 scoreboard objectives remove snake.apm

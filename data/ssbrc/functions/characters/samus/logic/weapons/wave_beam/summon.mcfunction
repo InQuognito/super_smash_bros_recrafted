@@ -15,3 +15,5 @@ summon minecraft:marker ^ ^ ^ {Tags:["samus.waveBeam","angle3","temp.spawn"]}
 execute as @e[tag=samus.waveBeam] at @s run function ssbrc:characters/samus/logic/weapons/wave_beam/move_forward
 
 scoreboard players set @s cooldown.1 25
+
+execute if score @s shadow.chaosControl matches 1.. run function ssbrc:logic/characters/cooldown_modifiers/chaos_control/1

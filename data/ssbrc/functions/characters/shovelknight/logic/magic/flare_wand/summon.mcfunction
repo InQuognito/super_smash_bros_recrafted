@@ -10,3 +10,5 @@ kill @e[tag=direction]
 
 scoreboard players set @s cooldown.1 15
 scoreboard players operation @s mana -= #shovelknight.flareWandManaCost vars
+
+execute if score @s shadow.chaosControl matches 1.. run function ssbrc:logic/characters/cooldown_modifiers/chaos_control/1
