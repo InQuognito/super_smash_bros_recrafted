@@ -5,3 +5,5 @@ execute unless block ~-1.0 ~7.0 ~ minecraft:red_concrete if predicate ssbrc:rand
 
 execute unless entity @s[tag=turned] run function ssbrc:maps/p/pac_maze/logic/ghosts/directions/turn
 tag @s remove turned
+
+say turn
