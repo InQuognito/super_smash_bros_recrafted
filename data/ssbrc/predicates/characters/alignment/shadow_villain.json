@@ -11,13 +11,13 @@
 		"value": {
 			"type": "minecraft:score",
 			"target": "this",
-			"score": "shadow.alignment.villain"
+			"score": "shadow.alignment.hero"
 		},
 		"range": {
 			"min": {
 				"type": "minecraft:score",
 				"target": "this",
-				"score": "shadow.alignment.hero"
+				"score": "shadow.alignment.villain"
 			}
 		}
 	}
