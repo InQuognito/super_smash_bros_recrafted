@@ -44,6 +44,8 @@ summon minecraft:glow_item_frame -0.5 11.0 14.5 {Fixed:1b,Invisible:1b,Facing:3b
 summon minecraft:glow_item_frame 5.5 5.0 28.5 {Fixed:1b,Invisible:1b,Facing:2b,Item:{id:"minecraft:sugar",tag:{CustomModelData:1200},Count:1b}}
 # Pac Maze
 summon minecraft:glow_item_frame 10.5 11.0 17.5 {Fixed:1b,Invisible:1b,Facing:4b,Item:{id:"minecraft:sugar",tag:{CustomModelData:1300},Count:1b}}
+# Pallet Town
+summon minecraft:glow_item_frame -3.5 11.0 19.5 {Fixed:1b,Invisible:1b,Facing:4b,Item:{id:"minecraft:sugar",tag:{CustomModelData:1350},Count:1b}}
 # Saturn Valley
 summon minecraft:glow_item_frame 1.5 5.0 28.5 {Fixed:1b,Invisible:1b,Facing:2b,Item:{id:"minecraft:sugar",tag:{CustomModelData:1500},Count:1b}}
 # Sector Z
@@ -80,6 +82,7 @@ summon minecraft:area_effect_cloud 7.5 5.0 28.5 {Age:-2147483648,Duration:-1,Wai
 summon minecraft:area_effect_cloud -0.5 11.0 14.5 {Age:-2147483648,Duration:-1,WaitTime:-2147483648,Tags:["voteCounter","miiverse"],CustomNameVisible:1b}
 summon minecraft:area_effect_cloud 5.5 5.0 28.5 {Age:-2147483648,Duration:-1,WaitTime:-2147483648,Tags:["voteCounter","mushroomKingdom"],CustomNameVisible:1b}
 summon minecraft:area_effect_cloud 10.5 11.0 17.5 {Age:-2147483648,Duration:-1,WaitTime:-2147483648,Tags:["voteCounter","pacMaze"],CustomNameVisible:1b}
+summon minecraft:area_effect_cloud -3.5 11.0 19.5 {Age:-2147483648,Duration:-1,WaitTime:-2147483648,Tags:["voteCounter","palletTown"],CustomNameVisible:1b}
 summon minecraft:area_effect_cloud 1.5 5.0 28.5 {Age:-2147483648,Duration:-1,WaitTime:-2147483648,Tags:["voteCounter","saturnValley"],CustomNameVisible:1b}
 summon minecraft:area_effect_cloud 10.5 5.0 25.5 {Age:-2147483648,Duration:-1,WaitTime:-2147483648,Tags:["voteCounter","sectorZ"],CustomNameVisible:1b}
 summon minecraft:area_effect_cloud -0.5 5.0 14.5 {Age:-2147483648,Duration:-1,WaitTime:-2147483648,Tags:["voteCounter","shadowMosesIsland"],CustomNameVisible:1b}

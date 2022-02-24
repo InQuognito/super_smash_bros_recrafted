@@ -221,6 +221,17 @@ execute if score $pacMaze map matches 1 if score result random matches 7 run tp 
 execute if score $pacMaze map matches 1 if score result random matches 8 run tp @s 23348.5 6.0 8622.5
 execute if score $pacMaze map matches 1 if score result random matches 9 run tp @s 23372.5 6.0 8622.5
 
+execute if score $palletTown map matches 1 if score result random matches 0 run tp @s -540.5 19.0 -111.5
+execute if score $palletTown map matches 1 if score result random matches 1 run tp @s -543.5 13.0 -131.5
+execute if score $palletTown map matches 1 if score result random matches 2 run tp @s -555.5 12.0 -135.5
+execute if score $palletTown map matches 1 if score result random matches 3 run tp @s -568.5 14.0 -131.5
+execute if score $palletTown map matches 1 if score result random matches 4 run tp @s -560.5 14.0 -148.5
+execute if score $palletTown map matches 1 if score result random matches 5 run tp @s -565.5 14.0 -166.5
+execute if score $palletTown map matches 1 if score result random matches 6 run tp @s -548.5 18.0 -146.5
+execute if score $palletTown map matches 1 if score result random matches 7 run tp @s -544.5 18.0 -140.5
+execute if score $palletTown map matches 1 if score result random matches 8 run tp @s -549.5 19.0 -125.5
+execute if score $palletTown map matches 1 if score result random matches 9 run tp @s -543.5 20.0 -150.5
+
 execute if score $saturnValley map matches 1 if score result random matches 0 run tp @s -190 14 593
 execute if score $saturnValley map matches 1 if score result random matches 1 run tp @s -198 15 582
 execute if score $saturnValley map matches 1 if score result random matches 2 run tp @s -208 16 576
