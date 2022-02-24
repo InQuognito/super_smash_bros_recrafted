@@ -1,7 +1,7 @@
 scoreboard players operation @s shadow.meter.hero += @s flag.damageDealt
-scoreboard players operation $shadowMeter temp = @s flag.damageDealt
-scoreboard players operation $shadowMeter temp /= #2 integers
-scoreboard players operation @s shadow.meter.villain -= $shadowMeter temp
+#scoreboard players operation $shadowMeter temp = @s flag.damageDealt
+#scoreboard players operation $shadowMeter temp /= #2 integers
+#scoreboard players operation @s shadow.meter.villain -= $shadowMeter temp
 scoreboard players reset @s flag.damageDealt
 
 advancement revoke @s only ssbrc:utility/shadow_hurt_hero

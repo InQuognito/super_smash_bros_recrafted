@@ -9,5 +9,6 @@ scoreboard players set @a[team=alive,tag=!self] shadow.chaosControl 400
 tag @s remove self
 
 scoreboard players set @s shadow.meter.hero 0
+scoreboard players set @s shadow.meter.villain 0
 
 clear @s minecraft:carrot_on_a_stick{chaosControl:1}
