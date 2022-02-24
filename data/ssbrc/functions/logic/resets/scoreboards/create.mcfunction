@@ -36,6 +36,7 @@ scoreboard objectives add pos dummy
 scoreboard objectives add random dummy
 scoreboard objectives add reset dummy
 scoreboard objectives add respawn dummy
+scoreboard objectives add rotation dummy
 scoreboard objectives add selectFavorite minecraft.used:minecraft.carrot_on_a_stick
 scoreboard objectives add shadow.chaosControl dummy
 scoreboard objectives add shadow.meter.hero dummy

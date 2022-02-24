@@ -9,8 +9,8 @@ execute as @e[tag=link.boomerang] at @s run function ssbrc:characters/link/logic
 
 item modify entity @s weapon.mainhand ssbrc:characters/link.master_sword
 
-scoreboard players add $rot temp 15
-execute if score $rot temp matches 360.. run scoreboard players reset $rot temp
-execute as @e[tag=spinner] store result entity @s Rotation[0] float 1.0 run scoreboard players get $rot temp
+scoreboard players add $swordSpin rotation 15
+execute if score $swordSpin rotation matches 360.. run scoreboard players reset $swordSpin rotation
+execute as @e[tag=spinner] store result entity @s Rotation[0] float 1.0 run scoreboard players get $swordSpin rotation
 
 execute as @a[scores={charge.1=1..}] at @s anchored eyes run function ssbrc:characters/link/logic/weapons/sword_spin/charge
