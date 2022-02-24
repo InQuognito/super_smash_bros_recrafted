@@ -5,6 +5,7 @@ scoreboard objectives remove charge.3
 scoreboard objectives remove cooldown.1
 scoreboard objectives remove cooldown.2
 scoreboard objectives remove cooldown.3
+scoreboard objectives remove debug
 scoreboard objectives remove duration.1
 scoreboard objectives remove duration.2
 scoreboard objectives remove duration.3

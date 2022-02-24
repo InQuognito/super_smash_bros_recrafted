@@ -5,6 +5,7 @@ scoreboard objectives add charge.3 dummy
 scoreboard objectives add cooldown.1 dummy
 scoreboard objectives add cooldown.2 dummy
 scoreboard objectives add cooldown.3 dummy
+scoreboard objectives add debug dummy
 scoreboard objectives add duration.1 dummy
 scoreboard objectives add duration.2 dummy
 scoreboard objectives add duration.3 dummy
