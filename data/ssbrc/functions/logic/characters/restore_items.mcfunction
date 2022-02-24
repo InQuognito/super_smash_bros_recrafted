@@ -87,7 +87,7 @@ item replace entity @s[tag=waretiger] weapon.mainhand with minecraft:trident{Unb
 item replace entity @s[tag=waretiger] weapon.offhand with minecraft:firework_rocket{Fireworks:{Flight:3,Explosions:[{Type:1,Flicker:1b,Trail:1b,Colors:[I;14602026,14597930,14593834],FadeColors:[I;17233746]}]},display:{Name:'[{"text":"Golden Shower","italic":false,"bold":true,"color":"gold"}]'}} 3
 
 # Team Rocket
-tag @s remove teamrocket.picked
-execute if entity @s[tag=!teamrocket.picked,tag=arbok] run function ssbrc:characters/teamrocket/kits/meowth
-execute if entity @s[tag=!teamrocket.picked,tag=meowth] run function ssbrc:characters/teamrocket/kits/wobbuffet
-execute if entity @s[tag=!teamrocket.picked,tag=wobbuffet] run function ssbrc:characters/teamrocket/kits/arbok
+tag @s[tag=teamrocket] remove teamrocket.picked
+execute if entity @s[tag=teamrocket,tag=arbok] run function ssbrc:characters/teamrocket/kits/meowth
+execute if entity @s[tag=teamrocket,tag=meowth] run function ssbrc:characters/teamrocket/kits/wobbuffet
+execute if entity @s[tag=teamrocket,tag=wobbuffet] run function ssbrc:characters/teamrocket/kits/arbok

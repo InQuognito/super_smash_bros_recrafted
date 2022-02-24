@@ -122,4 +122,5 @@ tag @s remove snake.sg
 tag @s remove snake.socom
 tag @s remove steve.hasBow
 tag @s remove steve.hasCrossbow
+tag @s remove teamrocket.picked
 tag @s remove teleportMe
