@@ -53,3 +53,13 @@ schedule clear ssbrc:maps/f/flat_zone/logic/zookeeper_2
 # Luigis Mansion
 schedule clear ssbrc:maps/l/luigis_mansion/logic/blackout_check
 schedule clear ssbrc:maps/l/luigis_mansion/logic/blackout_off
+
+# Pac-Maze
+schedule clear ssbrc:maps/p/pac_maze/logic/ghosts/blinky/animation
+schedule clear ssbrc:maps/p/pac_maze/logic/ghosts/blinky/release
+schedule clear ssbrc:maps/p/pac_maze/logic/ghosts/clyde/animation
+schedule clear ssbrc:maps/p/pac_maze/logic/ghosts/clyde/release
+schedule clear ssbrc:maps/p/pac_maze/logic/ghosts/inky/animation
+schedule clear ssbrc:maps/p/pac_maze/logic/ghosts/inky/release
+schedule clear ssbrc:maps/p/pac_maze/logic/ghosts/pinky/animation
+schedule clear ssbrc:maps/p/pac_maze/logic/ghosts/pinky/release
