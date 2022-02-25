@@ -7,3 +7,6 @@ execute as @e[tag=ghost,tag=active,nbt={Rotation:[0f,0f]}] at @s run kill @a[tea
 execute as @e[tag=ghost,tag=active,nbt={Rotation:[90f,0f]}] at @s run kill @a[team=alive,scores={respawn=..0},dx=0,dy=2,dz=1.5]
 execute as @e[tag=ghost,tag=active,nbt={Rotation:[180f,0f]}] at @s run kill @a[team=alive,scores={respawn=..0},dx=1.5,dy=2,dz=0]
 execute as @e[tag=ghost,tag=active,nbt={Rotation:[-90f,0f]}] at @s run kill @a[team=alive,scores={respawn=..0},dx=0,dy=2,dz=1.5]
+
+execute as @e[tag=pacMaze.dot] at @s if entity @p[distance=..0.5] run function ssbrc:maps/p/pac_maze/logic/dots/pickup_dot
+execute as @e[tag=pacMaze.pellet] at @s if entity @p[distance=..0.5] run function ssbrc:maps/p/pac_maze/logic/dots/pickup_pellet

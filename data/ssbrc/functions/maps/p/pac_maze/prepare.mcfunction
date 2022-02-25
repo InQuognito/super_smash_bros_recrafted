@@ -5,11 +5,6 @@ scoreboard players set @e[tag=pinky] animation 1309
 scoreboard players set @e[tag=inky] animation 1317
 scoreboard players set @e[tag=clyde] animation 1325
 
-schedule function ssbrc:maps/p/pac_maze/logic/ghosts/blinky/animation 3s replace
-schedule function ssbrc:maps/p/pac_maze/logic/ghosts/pinky/animation 3s replace
-schedule function ssbrc:maps/p/pac_maze/logic/ghosts/inky/animation 3s replace
-schedule function ssbrc:maps/p/pac_maze/logic/ghosts/clyde/animation 3s replace
-
 summon minecraft:marker 23348.5 5.0 8660.5 {Tags:["spawnpoint","tpDest"]}
 summon minecraft:marker 23372.5 5.0 8660.5 {Tags:["spawnpoint","tpDest"]}
 summon minecraft:marker 23363.5 5.0 8615.5 {Tags:["spawnpoint","tpDest"]}
