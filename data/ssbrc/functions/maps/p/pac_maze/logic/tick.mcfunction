@@ -1,4 +1,4 @@
-execute as @s[scores={useAbility=1..},nbt={SelectedItem:{tag:{powerPellet:1}}}] run function ssbrc:maps/p/pac_maze/logic/dots/use_power_pellet
+execute as @a[scores={useAbility=1..},nbt={SelectedItem:{tag:{powerPellet:1}}}] run function ssbrc:maps/p/pac_maze/logic/dots/use_power_pellet
 scoreboard players reset @s useAbility
 
 execute positioned 23382.5 5.0 8638.0 as @a[dx=0.5,dy=5,dz=2] run tp @s 23339.5 5.0 8639.5 -90.0 ~
