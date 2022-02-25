@@ -34,3 +34,5 @@ summon minecraft:glow_item_frame 23380.5 5.0 8666.5 {Tags:["pacMaze.dot","pacMaz
 
 execute store result score $dotGroup.o temp if entity @e[tag=pacMaze.dot.o]
 scoreboard players set #dotGroup.o temp 1
+
+scoreboard players set #spawnedDotGroup temp 1
