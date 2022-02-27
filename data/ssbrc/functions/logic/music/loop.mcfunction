@@ -189,7 +189,7 @@ execute if score $spearPillar map matches 1 if score result_music random matches
 execute if score $spearPillar map matches 1 if score result_music random matches 0 if score $music options matches 1 run schedule function ssbrc:logic/music/start 3320t replace
 execute if score $spearPillar map matches 1 if score result_music random matches 1 as @a at @s run playsound ssbrc:team_galactic_battle music @s
 execute if score $spearPillar map matches 1 if score result_music random matches 1 if score $music options matches 0 run schedule function ssbrc:logic/music/loop 1240t replace
-execute if score $spearPillar map matches 1 if score result_music random matches 1 if score $music options matches 1 run schedule function ssbrc:logic/music/start 1240t replace
+execute if score $spearPillar map matches 1 if score result_music random matches 1 if score $music options matches 1 run schedule function ssbrc:logic/music/start 1260t replace
 
 execute if score $towerOfFate map matches 1 if score result_music random matches 0 as @a at @s run playsound ssbrc:hitting_close_to_home music @s
 execute if score $towerOfFate map matches 1 if score result_music random matches 0 if score $music options matches 0 run schedule function ssbrc:logic/music/loop 5120t replace
