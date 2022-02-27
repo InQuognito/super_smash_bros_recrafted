@@ -17,5 +17,5 @@ execute if score result random matches 12 unless score #dotGroup.m temp matches 
 execute if score result random matches 13 unless score #dotGroup.n temp matches 1 unless score #spawnedDotGroup temp matches 1 run function ssbrc:maps/p/pac_maze/logic/dots/groups/summon/n
 execute if score result random matches 14 unless score #dotGroup.o temp matches 1 unless score #spawnedDotGroup temp matches 1 run function ssbrc:maps/p/pac_maze/logic/dots/groups/summon/o
 
-execute unless score #spawnedDotGroup temp matches 1 run function ssbrc:maps/p/pac_maze/logic/dots/spawn_dot_group
+execute unless score #spawnedDotGroup temp matches 1 run function ssbrc:maps/p/pac_maze/logic/dots/spawn
 scoreboard players reset #spawnedDotGroup temp
