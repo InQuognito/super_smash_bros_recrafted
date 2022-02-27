@@ -16,3 +16,9 @@ execute as @e[tag=pacMaze.pellet] at @s if entity @p[distance=..0.5] run functio
 execute if score $dotGroup.total temp matches 4.. run function ssbrc:maps/p/pac_maze/logic/pellets/spawn
 
 execute as @e[tag=ghost,tag=active,tag=!retreating,tag=!dead] at @s run playsound ssbrc:siren player @a[team=alive,scores={respawn=..0}]
+
+# Respawn ghosts
+execute as @e[tag=ghost,tag=blinky,scores={cooldown.1=..0}] run function ssbrc:maps/p/pac_maze/logic/ghosts/blinky/release
+execute as @e[tag=ghost,tag=clyde,scores={cooldown.1=..0}] run function ssbrc:maps/p/pac_maze/logic/ghosts/blinky/release
+execute as @e[tag=ghost,tag=inky,scores={cooldown.1=..0}] run function ssbrc:maps/p/pac_maze/logic/ghosts/blinky/release
+execute as @e[tag=ghost,tag=pinky,scores={cooldown.1=..0}] run function ssbrc:maps/p/pac_maze/logic/ghosts/blinky/release
