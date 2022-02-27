@@ -14,3 +14,5 @@ execute as @e[tag=pacMaze.dot] at @s if entity @p[distance=..0.5] run function s
 execute as @e[tag=pacMaze.pellet] at @s if entity @p[distance=..0.5] run function ssbrc:maps/p/pac_maze/logic/pellets/pickup
 
 execute if score $dotGroup.total temp matches 4.. run function ssbrc:maps/p/pac_maze/logic/pellets/spawn
+
+execute as @e[tag=ghost,tag=active,tag=!retreating,tag=!dead] at @s run playsound ssbrc:siren player @a[team=alive,scores={respawn=..0}]

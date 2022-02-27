@@ -7,5 +7,3 @@ execute align xyz positioned ~.5 ~ ~.5 if entity @s[tag=ghost,tag=active,tag=!tu
 execute rotated as @s run tp @s[tag=!retreating,tag=!dead,tag=!turned] ^ ^ ^0.2
 execute rotated as @s run tp @s[tag=retreating,tag=!turned] ^ ^ ^0.1
 execute rotated as @s run tp @s[tag=dead,tag=!turned] ^ ^ ^0.1
-
-execute at @a[distance=..10] run playsound ssbrc:siren player @a
