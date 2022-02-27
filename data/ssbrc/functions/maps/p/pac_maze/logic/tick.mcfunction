@@ -19,6 +19,6 @@ execute as @e[tag=ghost,tag=active,tag=!retreating,tag=!dead] at @s run playsoun
 
 # Respawn ghosts
 execute as @e[tag=ghost,tag=blinky,scores={cooldown.1=..0}] run function ssbrc:maps/p/pac_maze/logic/ghosts/blinky/release
-execute as @e[tag=ghost,tag=clyde,scores={cooldown.1=..0}] run function ssbrc:maps/p/pac_maze/logic/ghosts/blinky/release
-execute as @e[tag=ghost,tag=inky,scores={cooldown.1=..0}] run function ssbrc:maps/p/pac_maze/logic/ghosts/blinky/release
-execute as @e[tag=ghost,tag=pinky,scores={cooldown.1=..0}] run function ssbrc:maps/p/pac_maze/logic/ghosts/blinky/release
+execute as @e[tag=ghost,tag=clyde,scores={cooldown.1=..0}] run function ssbrc:maps/p/pac_maze/logic/ghosts/clyde/release
+execute as @e[tag=ghost,tag=inky,scores={cooldown.1=..0}] run function ssbrc:maps/p/pac_maze/logic/ghosts/inky/release
+execute as @e[tag=ghost,tag=pinky,scores={cooldown.1=..0}] run function ssbrc:maps/p/pac_maze/logic/ghosts/pinky/release
