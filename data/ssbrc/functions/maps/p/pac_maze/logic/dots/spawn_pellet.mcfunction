@@ -9,3 +9,5 @@ execute if score result random matches 3 run summon minecraft:glow_item_frame 23
 scoreboard players reset $dotGroup.total temp
 
 tellraw @a {"text":"A power pellet has spawned!"}
+
+playsound ssbrc:extend player @a
