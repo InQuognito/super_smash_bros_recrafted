@@ -118,7 +118,7 @@ execute if score $mementosType map matches 1 if score result_music random matche
 execute if score $mementosType map matches 1 if score result_music random matches 0 run schedule function ssbrc:logic/music/loop 440t replace
 execute if score $mementosType map matches 1 if score result_music random matches 1 as @a at @s run playsound ssbrc:mass_destruction_dual_mix_part_1 music @s
 execute if score $mementosType map matches 1 if score result_music random matches 1 run tellraw @a [{"text":"Now Playing: ","bold":true,"color":"gold"},{"text":"Mass Destruction - Dual Mix","color":"yellow"}]
-execute if score $mementosType map matches 1 if score result_music random matches 1 run schedule function ssbrc:logic/music/loop 1680t replace
+execute if score $mementosType map matches 1 if score result_music random matches 1 run schedule function ssbrc:logic/music/loop 1683t replace
 execute if score $mementosType map matches 2 if score result_music random matches 0 as @a at @s run playsound ssbrc:reach_out_to_the_truth_intro music @s
 execute if score $mementosType map matches 2 if score result_music random matches 0 run tellraw @a [{"text":"Now Playing: ","bold":true,"color":"gold"},{"text":"Reach Out to the Truth","color":"yellow"}]
 execute if score $mementosType map matches 2 if score result_music random matches 0 run schedule function ssbrc:logic/music/loop 417t replace
