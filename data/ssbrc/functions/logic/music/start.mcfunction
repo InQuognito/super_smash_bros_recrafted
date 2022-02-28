@@ -127,7 +127,7 @@ execute if score $mementosType map matches 2 if score result_music random matche
 execute if score $mementosType map matches 2 if score result_music random matches 1 run schedule function ssbrc:logic/music/loop 130t replace
 execute if score $mementosType map matches 3 if score result_music random matches 0 as @a at @s run playsound ssbrc:axe_to_grind_intro music @s
 execute if score $mementosType map matches 3 if score result_music random matches 0 run tellraw @a [{"text":"Now Playing: ","bold":true,"color":"gold"},{"text":"Axe to Grind","color":"yellow"}]
-execute if score $mementosType map matches 3 if score result_music random matches 0 run schedule function ssbrc:logic/music/loop 280t replace
+execute if score $mementosType map matches 3 if score result_music random matches 0 run schedule function ssbrc:logic/music/loop 290t replace
 execute if score $mementosType map matches 3 if score result_music random matches 1 as @a at @s run playsound ssbrc:take_over_intro music @s
 execute if score $mementosType map matches 3 if score result_music random matches 1 run tellraw @a [{"text":"Now Playing: ","bold":true,"color":"gold"},{"text":"Take Over","color":"yellow"}]
 execute if score $mementosType map matches 3 if score result_music random matches 1 run schedule function ssbrc:logic/music/loop 339t replace
