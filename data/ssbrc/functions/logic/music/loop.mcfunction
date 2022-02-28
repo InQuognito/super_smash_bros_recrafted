@@ -114,8 +114,8 @@ execute if score $magicant map matches 1 if score result_music random matches 1 
 execute if score $magicant map matches 1 if score result_music random matches 1 if score $music options matches 1 run schedule function ssbrc:logic/music/start 2380t replace
 
 execute if score $mementosType map matches 1 if score result_music random matches 0 as @a at @s run playsound ssbrc:light_in_starless_sky music @s
-execute if score $mementosType map matches 1 if score result_music random matches 0 if score $music options matches 0 run schedule function ssbrc:logic/music/loop 4460t replace
-execute if score $mementosType map matches 1 if score result_music random matches 0 if score $music options matches 1 run schedule function ssbrc:logic/music/start 4460t replace
+execute if score $mementosType map matches 1 if score result_music random matches 0 if score $music options matches 0 run schedule function ssbrc:logic/music/loop 4465t replace
+execute if score $mementosType map matches 1 if score result_music random matches 0 if score $music options matches 1 run schedule function ssbrc:logic/music/start 4465t replace
 execute if score $mementosType map matches 1 if score result_music random matches 1 as @a at @s run playsound ssbrc:mass_destruction_dual_mix_part_2 music @s
 execute if score $mementosType map matches 1 if score result_music random matches 1 if score $music options matches 0 run schedule function ssbrc:logic/music/mass_destruction_dual_mix 1690t replace
 execute if score $mementosType map matches 1 if score result_music random matches 1 if score $music options matches 1 run schedule function ssbrc:logic/music/start 1690t replace
