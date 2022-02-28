@@ -123,8 +123,8 @@ execute if score $mementosType map matches 2 if score result_music random matche
 execute if score $mementosType map matches 2 if score result_music random matches 0 if score $music options matches 0 run schedule function ssbrc:logic/music/loop 1581t replace
 execute if score $mementosType map matches 2 if score result_music random matches 0 if score $music options matches 1 run schedule function ssbrc:logic/music/start 1581t replace
 execute if score $mementosType map matches 2 if score result_music random matches 1 as @a at @s run playsound ssbrc:time_to_make_history music @s
-execute if score $mementosType map matches 2 if score result_music random matches 1 if score $music options matches 0 run schedule function ssbrc:logic/music/loop 1410t replace
-execute if score $mementosType map matches 2 if score result_music random matches 1 if score $music options matches 1 run schedule function ssbrc:logic/music/start 1410t replace
+execute if score $mementosType map matches 2 if score result_music random matches 1 if score $music options matches 0 run schedule function ssbrc:logic/music/loop 1460t replace
+execute if score $mementosType map matches 2 if score result_music random matches 1 if score $music options matches 1 run schedule function ssbrc:logic/music/start 1460t replace
 execute if score $mementosType map matches 3 if score result_music random matches 0 as @a at @s run playsound ssbrc:axe_to_grind music @s
 execute if score $mementosType map matches 3 if score result_music random matches 0 if score $music options matches 0 run schedule function ssbrc:logic/music/loop 3320t replace
 execute if score $mementosType map matches 3 if score result_music random matches 0 if score $music options matches 1 run schedule function ssbrc:logic/music/start 3320t replace
