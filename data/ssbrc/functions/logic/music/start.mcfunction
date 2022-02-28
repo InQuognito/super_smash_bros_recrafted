@@ -130,7 +130,7 @@ execute if score $mementosType map matches 3 if score result_music random matche
 execute if score $mementosType map matches 3 if score result_music random matches 0 run schedule function ssbrc:logic/music/loop 280t replace
 execute if score $mementosType map matches 3 if score result_music random matches 1 as @a at @s run playsound ssbrc:take_over_intro music @s
 execute if score $mementosType map matches 3 if score result_music random matches 1 run tellraw @a [{"text":"Now Playing: ","bold":true,"color":"gold"},{"text":"Take Over","color":"yellow"}]
-execute if score $mementosType map matches 3 if score result_music random matches 1 run schedule function ssbrc:logic/music/loop 330t replace
+execute if score $mementosType map matches 3 if score result_music random matches 1 run schedule function ssbrc:logic/music/loop 335t replace
 
 execute if score $miiverse map matches 1 if score result_music random matches 0 as @a at @s run playsound ssbrc:mario_paint_medley_intro music @s
 execute if score $miiverse map matches 1 if score result_music random matches 0 run tellraw @a [{"text":"Now Playing: ","bold":true,"color":"gold"},{"text":"Mario Paint Medley","color":"yellow"}]
