@@ -1,0 +1,99 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:barrier",
+			"nbt": "{CustomModelData:1540}"
+		},
+		"title": {
+			"text": "Sonic",
+			"color": "blue",
+			"bold": true,
+			"italic": false,
+			"extra": [
+				{
+					"text": " Mastery",
+					"color": "white",
+					"bold": true,
+					"italic": false
+				}
+			]
+		},
+		"description": {
+			"text": "Complete challenges to unlock a reward!",
+			"color": "gray",
+			"bold": false,
+			"italic": false
+		},
+		"frame": "challenge",
+		"show_toast": false,
+		"announce_to_chat": false,
+		"background": "minecraft:textures/gui/advancements/backgrounds/stone.png"
+	},
+	"criteria": {
+		"novice": {
+			"trigger": "minecraft:impossible"
+		},
+		"veteran": {
+			"trigger": "minecraft:impossible"
+		},
+		"survivalist": {
+			"trigger": "minecraft:impossible"
+		},
+		"slayer": {
+			"trigger": "minecraft:impossible"
+		},
+		"master": {
+			"trigger": "minecraft:impossible"
+		},
+		"chaos_controlled": {
+			"trigger": "minecraft:impossible"
+		},
+		"knight_of_the_wind": {
+			"trigger": "minecraft:impossible"
+		},
+		"sonic_boom": {
+			"trigger": "minecraft:impossible"
+		},
+		"to_be_this_good_takes_ages": {
+			"trigger": "minecraft:impossible"
+		},
+		"what_nintendont": {
+			"trigger": "minecraft:impossible"
+		}
+	},
+	"requirements": [
+		[
+			"novice"
+		],
+		[
+			"veteran"
+		],
+		[
+			"survivalist"
+		],
+		[
+			"slayer"
+		],
+		[
+			"master"
+		],
+		[
+			"chaos_controlled"
+		],
+		[
+			"knight_of_the_wind"
+		],
+		[
+			"sonic_boom"
+		],
+		[
+			"to_be_this_good_takes_ages"
+		],
+		[
+			"what_nintendont"
+		]
+	],
+	"rewards": {
+		"function": "ssbrc:advancements/sonic/mastery"
+	}
+}

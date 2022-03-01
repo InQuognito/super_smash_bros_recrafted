@@ -1,0 +1,58 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:barrier",
+			"nbt": "{CustomModelData:1540}"
+		},
+		"title": {
+			"text": "Knight of the Wind",
+			"color": "light_purple",
+			"bold": false,
+			"italic": false
+		},
+		"description": {
+			"text": "Defeat ",
+			"color": "gray",
+			"bold": false,
+			"italic": false,
+			"extra": [
+				{
+					"text": "3",
+					"color": "blue",
+					"bold": false,
+					"italic": false
+				},
+				{
+					"text": " ",
+					"color": "gray",
+					"bold": false,
+					"italic": false
+				},
+				{
+					"text": "swordsmen",
+					"color": "gold",
+					"bold": false,
+					"italic": false
+				},
+				{
+					"text": ".",
+					"color": "gray",
+					"bold": false,
+					"italic": false
+				}
+			]
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true
+	},
+	"parent": "ssbrc:characters/sonic/slayer",
+	"criteria": {
+		"impossible": {
+			"trigger": "minecraft:impossible"
+		}
+	},
+	"rewards": {
+		"function": "ssbrc:advancements/sonic/knight_of_the_wind"
+	}
+}
