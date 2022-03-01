@@ -114,23 +114,23 @@ execute if score $magicant map matches 1 if score result_music random matches 1 
 execute if score $magicant map matches 1 if score result_music random matches 1 if score $music options matches 1 run schedule function ssbrc:logic/music/start 2380t replace
 
 execute if score $mementosType map matches 1 if score result_music random matches 0 as @a at @s run playsound ssbrc:light_in_starless_sky music @s
-execute if score $mementosType map matches 1 if score result_music random matches 0 if score $music options matches 0 run schedule function ssbrc:logic/music/loop 4460t replace
-execute if score $mementosType map matches 1 if score result_music random matches 0 if score $music options matches 1 run schedule function ssbrc:logic/music/start 4460t replace
+execute if score $mementosType map matches 1 if score result_music random matches 0 if score $music options matches 0 run schedule function ssbrc:logic/music/loop 4465t replace
+execute if score $mementosType map matches 1 if score result_music random matches 0 if score $music options matches 1 run schedule function ssbrc:logic/music/start 4465t replace
 execute if score $mementosType map matches 1 if score result_music random matches 1 as @a at @s run playsound ssbrc:mass_destruction_dual_mix_part_2 music @s
-execute if score $mementosType map matches 1 if score result_music random matches 1 if score $music options matches 0 run schedule function ssbrc:logic/music/mass_destruction_dual_mix 1680t replace
-execute if score $mementosType map matches 1 if score result_music random matches 1 if score $music options matches 1 run schedule function ssbrc:logic/music/start 1680t replace
+execute if score $mementosType map matches 1 if score result_music random matches 1 if score $music options matches 0 run schedule function ssbrc:logic/music/mass_destruction_dual_mix 1694t replace
+execute if score $mementosType map matches 1 if score result_music random matches 1 if score $music options matches 1 run schedule function ssbrc:logic/music/start 1694t replace
 execute if score $mementosType map matches 2 if score result_music random matches 0 as @a at @s run playsound ssbrc:reach_out_to_the_truth music @s
-execute if score $mementosType map matches 2 if score result_music random matches 0 if score $music options matches 0 run schedule function ssbrc:logic/music/loop 1580t replace
-execute if score $mementosType map matches 2 if score result_music random matches 0 if score $music options matches 1 run schedule function ssbrc:logic/music/start 1580t replace
+execute if score $mementosType map matches 2 if score result_music random matches 0 if score $music options matches 0 run schedule function ssbrc:logic/music/loop 1581t replace
+execute if score $mementosType map matches 2 if score result_music random matches 0 if score $music options matches 1 run schedule function ssbrc:logic/music/start 1581t replace
 execute if score $mementosType map matches 2 if score result_music random matches 1 as @a at @s run playsound ssbrc:time_to_make_history music @s
-execute if score $mementosType map matches 2 if score result_music random matches 1 if score $music options matches 0 run schedule function ssbrc:logic/music/loop 1400t replace
-execute if score $mementosType map matches 2 if score result_music random matches 1 if score $music options matches 1 run schedule function ssbrc:logic/music/start 1400t replace
+execute if score $mementosType map matches 2 if score result_music random matches 1 if score $music options matches 0 run schedule function ssbrc:logic/music/loop 1460t replace
+execute if score $mementosType map matches 2 if score result_music random matches 1 if score $music options matches 1 run schedule function ssbrc:logic/music/start 1460t replace
 execute if score $mementosType map matches 3 if score result_music random matches 0 as @a at @s run playsound ssbrc:axe_to_grind music @s
-execute if score $mementosType map matches 3 if score result_music random matches 0 if score $music options matches 0 run schedule function ssbrc:logic/music/loop 3320t replace
-execute if score $mementosType map matches 3 if score result_music random matches 0 if score $music options matches 1 run schedule function ssbrc:logic/music/start 3320t replace
+execute if score $mementosType map matches 3 if score result_music random matches 0 if score $music options matches 0 run schedule function ssbrc:logic/music/loop 3321t replace
+execute if score $mementosType map matches 3 if score result_music random matches 0 if score $music options matches 1 run schedule function ssbrc:logic/music/start 3321t replace
 execute if score $mementosType map matches 3 if score result_music random matches 1 as @a at @s run playsound ssbrc:take_over music @s
-execute if score $mementosType map matches 3 if score result_music random matches 1 if score $music options matches 0 run schedule function ssbrc:logic/music/loop 3360t replace
-execute if score $mementosType map matches 3 if score result_music random matches 1 if score $music options matches 1 run schedule function ssbrc:logic/music/start 3360t replace
+execute if score $mementosType map matches 3 if score result_music random matches 1 if score $music options matches 0 run schedule function ssbrc:logic/music/loop 3362t replace
+execute if score $mementosType map matches 3 if score result_music random matches 1 if score $music options matches 1 run schedule function ssbrc:logic/music/start 3362t replace
 
 execute if score $miiverse map matches 1 if score result_music random matches 0 as @a at @s run playsound ssbrc:mario_paint_medley music @s
 execute if score $miiverse map matches 1 if score result_music random matches 0 if score $music options matches 0 run schedule function ssbrc:logic/music/loop 2040t replace
