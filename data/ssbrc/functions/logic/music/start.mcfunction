@@ -146,7 +146,7 @@ execute if score $mushroomKingdom map matches 1 if score result_music random mat
 execute if score $mushroomKingdom map matches 1 if score result_music random matches 1 run schedule function ssbrc:logic/music/loop 112t replace
 execute if score $mushroomKingdom map matches 1 if score result_music random matches 2 as @a at @s run playsound ssbrc:super_mario_bros_main_theme_intro music @s
 execute if score $mushroomKingdom map matches 1 if score result_music random matches 2 run tellraw @a [{"text":"Now Playing: ","bold":true,"color":"gold"},{"text":"Super Mario Bros. Main Theme","color":"yellow"}]
-execute if score $mushroomKingdom map matches 1 if score result_music random matches 2 run schedule function ssbrc:logic/music/loop 67t replace
+execute if score $mushroomKingdom map matches 1 if score result_music random matches 2 run schedule function ssbrc:logic/music/loop 68t replace
 
 execute if score $pacMaze map matches 1 if score result_music random matches 0 as @a at @s run playsound ssbrc:pac_man_club_mix_intro music @s
 execute if score $pacMaze map matches 1 if score result_music random matches 0 run tellraw @a [{"text":"Now Playing: ","bold":true,"color":"gold"},{"text":"PAC-MAN (Club Mix)","color":"yellow"}]
