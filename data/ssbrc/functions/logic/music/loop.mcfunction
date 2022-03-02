@@ -117,8 +117,8 @@ execute if score $mementosType map matches 1 if score result_music random matche
 execute if score $mementosType map matches 1 if score result_music random matches 0 if score $music options matches 0 run schedule function ssbrc:logic/music/loop 4465t replace
 execute if score $mementosType map matches 1 if score result_music random matches 0 if score $music options matches 1 run schedule function ssbrc:logic/music/start 4465t replace
 execute if score $mementosType map matches 1 if score result_music random matches 1 as @a at @s run playsound ssbrc:mass_destruction_dual_mix_part_2 music @s
-execute if score $mementosType map matches 1 if score result_music random matches 1 if score $music options matches 0 run schedule function ssbrc:logic/music/mass_destruction_dual_mix 1694t replace
-execute if score $mementosType map matches 1 if score result_music random matches 1 if score $music options matches 1 run schedule function ssbrc:logic/music/start 1694t replace
+execute if score $mementosType map matches 1 if score result_music random matches 1 if score $music options matches 0 run schedule function ssbrc:logic/music/mass_destruction_dual_mix 1710t replace
+execute if score $mementosType map matches 1 if score result_music random matches 1 if score $music options matches 1 run schedule function ssbrc:logic/music/start 1710t replace
 execute if score $mementosType map matches 2 if score result_music random matches 0 as @a at @s run playsound ssbrc:reach_out_to_the_truth music @s
 execute if score $mementosType map matches 2 if score result_music random matches 0 if score $music options matches 0 run schedule function ssbrc:logic/music/loop 1581t replace
 execute if score $mementosType map matches 2 if score result_music random matches 0 if score $music options matches 1 run schedule function ssbrc:logic/music/start 1581t replace
