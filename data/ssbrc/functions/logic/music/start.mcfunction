@@ -143,7 +143,7 @@ execute if score $mushroomKingdom map matches 1 if score result_music random mat
 execute if score $mushroomKingdom map matches 1 if score result_music random matches 0 run schedule function ssbrc:logic/music/loop 125t replace
 execute if score $mushroomKingdom map matches 1 if score result_music random matches 1 as @a at @s run playsound ssbrc:mario_paint_medley_intro music @s
 execute if score $mushroomKingdom map matches 1 if score result_music random matches 1 run tellraw @a [{"text":"Now Playing: ","bold":true,"color":"gold"},{"text":"Mario Paint Medley","color":"yellow"}]
-execute if score $mushroomKingdom map matches 1 if score result_music random matches 1 run schedule function ssbrc:logic/music/loop 110t replace
+execute if score $mushroomKingdom map matches 1 if score result_music random matches 1 run schedule function ssbrc:logic/music/loop 112t replace
 execute if score $mushroomKingdom map matches 1 if score result_music random matches 2 as @a at @s run playsound ssbrc:super_mario_bros_main_theme_intro music @s
 execute if score $mushroomKingdom map matches 1 if score result_music random matches 2 run tellraw @a [{"text":"Now Playing: ","bold":true,"color":"gold"},{"text":"Super Mario Bros. Main Theme","color":"yellow"}]
 execute if score $mushroomKingdom map matches 1 if score result_music random matches 2 run schedule function ssbrc:logic/music/loop 64t replace
