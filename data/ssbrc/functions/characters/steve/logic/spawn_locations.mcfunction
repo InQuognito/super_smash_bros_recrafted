@@ -232,6 +232,17 @@ execute if score $palletTown map matches 1 if score result random matches 7 run 
 execute if score $palletTown map matches 1 if score result random matches 8 run tp @s -549.5 19.0 -125.5
 execute if score $palletTown map matches 1 if score result random matches 9 run tp @s -543.5 20.0 -150.5
 
+execute if score $planetZebes map matches 1 if score $planetZebesCrateria temp matches 1 if score result random matches 0 run tp @s 40001.5 85.0 40019.5
+execute if score $planetZebes map matches 1 if score $planetZebesCrateria temp matches 1 if score result random matches 1 run tp @s 40001.5 93.0 40030.5
+execute if score $planetZebes map matches 1 if score $planetZebesCrateria temp matches 1 if score result random matches 2 run tp @s 39984.5 93.0 40012.5
+execute if score $planetZebes map matches 1 if score $planetZebesCrateria temp matches 1 if score result random matches 3 run tp @s 39986.5 93.0 39981.5
+execute if score $planetZebes map matches 1 if score $planetZebesCrateria temp matches 1 if score result random matches 4 run tp @s 40004.5 93.0 39996.5
+execute if score $planetZebes map matches 1 if score $planetZebesCrateria temp matches 1 if score result random matches 5 run tp @s 40025.5 93.0 40019.5
+execute if score $planetZebes map matches 1 if score $planetZebesCrateria temp matches 1 if score result random matches 6 run tp @s 40009.5 91.0 40018.5
+execute if score $planetZebes map matches 1 if score $planetZebesCrateria temp matches 1 if score result random matches 7 run tp @s 39996.5 92.0 40016.5
+execute if score $planetZebes map matches 1 if score $planetZebesCrateria temp matches 1 if score result random matches 8 run tp @s 39984.5 93.0 40005.5
+execute if score $planetZebes map matches 1 if score $planetZebesCrateria temp matches 1 if score result random matches 9 run tp @s 40018.5 93.0 39982.5
+
 execute if score $saturnValley map matches 1 if score result random matches 0 run tp @s -190 14 593
 execute if score $saturnValley map matches 1 if score result random matches 1 run tp @s -198 15 582
 execute if score $saturnValley map matches 1 if score result random matches 2 run tp @s -208 16 576
