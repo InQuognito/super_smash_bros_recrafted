@@ -1,4 +1,4 @@
-execute as @a at @a run spawnpoint @a ~ ~1 ~ ~
+execute as @a at @s run spawnpoint @s ~ ~1 ~ ~
 
 execute as @a[scores={flag.dead=1..}] run function ssbrc:logic/stocks/lose_stock
 function ssbrc:logic/tick/respawn
@@ -6,8 +6,6 @@ function ssbrc:logic/tick/respawn
 gamemode spectator @a[team=dead]
 gamemode spectator @a[team=spectator]
 
-#execute as @e[type=#minecraft:arrows,tag=!counted] if entity @a run function ssbrc:logic/tick/arrows/count
-#kill @e[tag=bullet,nbt={inGround:1b}]
 kill @e[type=#minecraft:arrows,nbt={inGround:1b}]
 kill @e[type=minecraft:item,nbt={Item:{id:"minecraft:trident"}}]
 
