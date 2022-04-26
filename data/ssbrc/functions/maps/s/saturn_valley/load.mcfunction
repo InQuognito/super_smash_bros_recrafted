@@ -4,6 +4,8 @@ scoreboard players set $songCount map 2
 scoreboard players set #mapPicked mapVote 1
 forceload add -256 560 -177 639
 
+function ssbrc:maps/s/saturn_valley/logic/well/off
+
 time set noon
 weather clear
 

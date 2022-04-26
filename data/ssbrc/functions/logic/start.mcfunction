@@ -4,6 +4,7 @@ scoreboard players reset @a stocks
 execute if score $gameMode options matches 1 run scoreboard players operation @a[team=alive] stocks = $stockLimit options
 execute if score $gameMode options matches 1 run scoreboard objectives setdisplay sidebar stocks
 
+execute if score $gameMode options matches 2 run scoreboard players set @a[team=alive] stocks 1
 execute if score $gameMode options matches 2 store result bossbar minecraft:timer max run scoreboard players get $timeLimit options
 execute if score $gameMode options matches 2 run bossbar set minecraft:timer players @a
 execute if score $gameMode options matches 2 run bossbar set minecraft:timer visible true
@@ -22,7 +23,7 @@ scoreboard players operation $steveItemCap temp += $playersPlaying temp
 execute if entity @a[tag=steve] run function ssbrc:characters/steve/logic/spawn_item
 #############
 
-function ssbrc:logic/start_maps
+function ssbrc:logic/start_hazards
 
 scoreboard players reset @a fallDistance
 

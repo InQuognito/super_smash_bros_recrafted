@@ -66,7 +66,10 @@ execute if score @s[tag=ness] itemCount matches 1 run item replace entity @s hot
 item replace entity @s[tag=pit] armor.chest with minecraft:elytra{Damage:417,HideFlags:127} 1
 
 # Ryu
-execute if score @s[tag=ryu] stocks matches 1 run item replace entity @s hotbar.2 with carrot_on_a_stick{ability.ryu:1,CustomModelData:1401,Unbreakable:1,display:{Name:'[{"text":"Satsui no Hado Rage","italic":false,"color":"#660000","bold":true}]'}} 1
+execute if score $gameMode options matches 1 if score @s[tag=ryu] stocks matches 1 run item replace entity @s hotbar.2 with carrot_on_a_stick{ability.ryu:1,CustomModelData:1401,Unbreakable:1,display:{Name:'[{"text":"Satsui no Hado Rage","italic":false,"color":"#660000","bold":true}]'}} 1
+execute if score $gameMode options matches 2 run scoreboard players operation #stockModulo temp = @s stocks
+execute if score $gameMode options matches 2 run scoreboard players operation #stockModulo temp %= #3 integers
+execute if score $gameMode options matches 2 if score #stockModulo temp matches 0 run item replace entity @s hotbar.2 with carrot_on_a_stick{ability.ryu:1,CustomModelData:1401,Unbreakable:1,display:{Name:'[{"text":"Satsui no Hado Rage","italic":false,"color":"#660000","bold":true}]'}} 1
 
 # Shovelknight
 scoreboard players set @s[tag=shovelknight] mana 10
@@ -85,6 +88,10 @@ clear @s[tag=waretiger] minecraft:trident
 clear @s[tag=waretiger] minecraft:firework_rocket
 item replace entity @s[tag=waretiger] weapon.mainhand with minecraft:trident{Unbreakable:1,AttributeModifiers:[{AttributeName:"generic.attack_damage",Amount:6,Slot:mainhand,Name:"generic.attack_damage",UUID:[I;-12164,22807,92130,-45614]},{AttributeName:"generic.attack_speed",Amount:-1.9,Slot:mainhand,Name:"generic.attack_speed",UUID:[I;-12164,22907,92130,-45814]}],display:{Name:'[{"text":"Enchanted Tiger Claws","italic":false,"color":"dark_aqua","bold":true}]'},Enchantments:[{id:"minecraft:loyalty",lvl:3}],HideFlags:127} 1
 item replace entity @s[tag=waretiger] weapon.offhand with minecraft:firework_rocket{Fireworks:{Flight:3,Explosions:[{Type:1,Flicker:1b,Trail:1b,Colors:[I;14602026,14597930,14593834],FadeColors:[I;17233746]}]},display:{Name:'[{"text":"Golden Shower","italic":false,"bold":true,"color":"gold"}]'}} 3
+
+# Alucard
+clear @s[tag=alucard] minecraft:shield
+item replace entity @s[tag=alucard] weapon.offhand with minecraft:shield{Damage:300,display:{Name:'[{"text":"Alucard Shield","italic":false,"color":"white","bold":true}]'},HideFlags:127} 1
 
 # Team Rocket
 tag @s[tag=teamrocket] remove teamrocket.picked

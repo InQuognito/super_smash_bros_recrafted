@@ -60,3 +60,7 @@ schedule clear ssbrc:maps/p/pac_maze/logic/ghosts/clyde/release
 schedule clear ssbrc:maps/p/pac_maze/logic/ghosts/inky/release
 schedule clear ssbrc:maps/p/pac_maze/logic/ghosts/pinky/release
 schedule clear ssbrc:maps/p/pac_maze/logic/ghosts/animation
+
+# Saturn Valley
+schedule clear ssbrc:maps/s/saturn_valley/logic/well/off
+schedule clear ssbrc:maps/s/saturn_valley/logic/well/on

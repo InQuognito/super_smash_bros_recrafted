@@ -7,6 +7,6 @@ gamemode adventure @s
 function ssbrc:logic/characters/attributes
 function ssbrc:logic/characters/effects/default
 
-function ssbrc:logic/characters/restore_items
+execute if entity @s[team=alive] run function ssbrc:logic/characters/restore_items
 
 tp @s @e[tag=spawnpoint,sort=random,limit=1]
