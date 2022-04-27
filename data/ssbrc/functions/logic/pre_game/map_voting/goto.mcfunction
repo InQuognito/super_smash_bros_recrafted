@@ -21,7 +21,7 @@ summon minecraft:glow_item_frame -3.5 5.0 17.5 {Fixed:1b,Invisible:1b,Facing:5b,
 # Flat Zone
 summon minecraft:glow_item_frame -0.5 5.0 28.5 {Fixed:1b,Invisible:1b,Facing:2b,Item:{id:"minecraft:sugar",tag:{CustomModelData:450},Count:1b}}
 # Garden of Hope
-summon minecraft:glow_item_frame 10.5 5.0 23.5 {Fixed:1b,Invisible:1b,Facing:4b,Item:{id:"minecraft:sugar",tag:{CustomModelData:600},Count:1b}}
+summon minecraft:glow_item_frame 10.5 11.0 23.5 {Fixed:1b,Invisible:1b,Facing:4b,Item:{id:"minecraft:sugar",tag:{CustomModelData:600},Count:1b}}
 # Great Bay
 summon minecraft:glow_item_frame 10.5 5.0 17.5 {Fixed:1b,Invisible:1b,Facing:4b,Item:{id:"minecraft:sugar",tag:{CustomModelData:650},Count:1b}}
 # Great Plateau
@@ -62,7 +62,7 @@ summon minecraft:glow_item_frame 10.5 11.0 21.5 {Fixed:1b,Invisible:1b,Facing:4b
 summon minecraft:glow_item_frame -3.5 5.0 21.5 {Fixed:1b,Invisible:1b,Facing:5b,Item:{id:"minecraft:sugar",tag:{CustomModelData:1800},Count:1b}}
 
 # Random
-summon minecraft:glow_item_frame 10.5 11.0 23.5 {Fixed:1b,Invisible:1b,Facing:4b,Item:{id:"minecraft:sugar",tag:{CustomModelData:1201},Count:1b}}
+summon minecraft:glow_item_frame 10.5 5.0 23.5 {Fixed:1b,Invisible:1b,Facing:4b,Item:{id:"minecraft:sugar",tag:{CustomModelData:1201},Count:1b}}
 
 summon minecraft:area_effect_cloud -3.5 11.0 17.5 {Age:-2147483648,Duration:-1,WaitTime:-2147483648,Tags:["voteCounter","acropolisGraveyard"],CustomNameVisible:1b}
 summon minecraft:area_effect_cloud -3.5 5.0 19.5 {Age:-2147483648,Duration:-1,WaitTime:-2147483648,Tags:["voteCounter","battlefield"],CustomNameVisible:1b}
@@ -72,7 +72,7 @@ summon minecraft:area_effect_cloud 5.5 5.0 14.5 {Age:-2147483648,Duration:-1,Wai
 summon minecraft:area_effect_cloud 7.5 5.0 14.5 {Age:-2147483648,Duration:-1,WaitTime:-2147483648,Tags:["voteCounter","dreamLand"],CustomNameVisible:1b}
 summon minecraft:area_effect_cloud -3.5 5.0 17.5 {Age:-2147483648,Duration:-1,WaitTime:-2147483648,Tags:["voteCounter","finalDestination"],CustomNameVisible:1b}
 summon minecraft:area_effect_cloud -0.5 5.0 28.5 {Age:-2147483648,Duration:-1,WaitTime:-2147483648,Tags:["voteCounter","flatZone"],CustomNameVisible:1b}
-summon minecraft:area_effect_cloud 10.5 5.0 23.5 {Age:-2147483648,Duration:-1,WaitTime:-2147483648,Tags:["voteCounter","gardenOfHope"],CustomNameVisible:1b}
+summon minecraft:area_effect_cloud 10.5 11.0 23.5 {Age:-2147483648,Duration:-1,WaitTime:-2147483648,Tags:["voteCounter","gardenOfHope"],CustomNameVisible:1b}
 summon minecraft:area_effect_cloud 10.5 5.0 17.5 {Age:-2147483648,Duration:-1,WaitTime:-2147483648,Tags:["voteCounter","greatBay"],CustomNameVisible:1b}
 summon minecraft:area_effect_cloud -3.5 5.0 23.5 {Age:-2147483648,Duration:-1,WaitTime:-2147483648,Tags:["voteCounter","greatPlateau"],CustomNameVisible:1b}
 summon minecraft:area_effect_cloud 10.5 5.0 19.5 {Age:-2147483648,Duration:-1,WaitTime:-2147483648,Tags:["voteCounter","greenHillZone"],CustomNameVisible:1b}
@@ -93,7 +93,7 @@ summon minecraft:area_effect_cloud 10.5 5.0 21.5 {Age:-2147483648,Duration:-1,Wa
 summon minecraft:area_effect_cloud 10.5 11.0 21.5 {Age:-2147483648,Duration:-1,WaitTime:-2147483648,Tags:["voteCounter","towerOfFate"],CustomNameVisible:1b}
 summon minecraft:area_effect_cloud -3.5 5.0 21.5 {Age:-2147483648,Duration:-1,WaitTime:-2147483648,Tags:["voteCounter","wilyCastle"],CustomNameVisible:1b}
 
-summon minecraft:area_effect_cloud 10.5 11.0 23.5 {Age:-2147483648,Duration:-1,WaitTime:-2147483648,Tags:["voteCounter","random"],CustomNameVisible:1b}
+summon minecraft:area_effect_cloud 10.5 5.0 23.5 {Age:-2147483648,Duration:-1,WaitTime:-2147483648,Tags:["voteCounter","random"],CustomNameVisible:1b}
 
 scoreboard players set @e[tag=voteCounter] mapVote 0
 
