@@ -2,9 +2,6 @@ execute store result score $steveItemCount temp if entity @e[nbt={Item:{tag:{Tag
 execute if score $steveItemCount temp >= $steveItemCap temp as @e[nbt={Item:{tag:{Tags:[steve.item]}}}] run function ssbrc:characters/steve/logic/delete_oldest
 
 execute as @r[tag=steve] at @s run loot spawn ~ ~100 ~ loot ssbrc:steve_items
-execute as @e[nbt={Item:{tag:{Tags:[steve.item.teleport]}}}] run function ssbrc:characters/steve/logic/spawn_locations
-
-execute as @e[nbt={Item:{tag:{Tags:[steve.item]}}}] run data merge entity @s {Glowing:1}
 
 execute if score $playersPlaying temp matches ..2 run schedule function ssbrc:characters/steve/logic/spawn_item 160t replace
 execute if score $playersPlaying temp matches 3 run schedule function ssbrc:characters/steve/logic/spawn_item 150t replace
