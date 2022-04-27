@@ -9,3 +9,5 @@ team join waiting @s
 effect give @s minecraft:glowing 1000000 255 true
 
 execute if score $gameStage temp matches 1 run scoreboard players set $countdown timer 5
+
+function ssbrc:logic/inputs/reset
