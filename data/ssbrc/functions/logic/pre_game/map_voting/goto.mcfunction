@@ -45,9 +45,9 @@ summon minecraft:glow_item_frame 5.5 5.0 28.5 {Fixed:1b,Invisible:1b,Facing:2b,I
 # Pac Maze
 summon minecraft:glow_item_frame 10.5 11.0 17.5 {Fixed:1b,Invisible:1b,Facing:4b,Item:{id:"minecraft:sugar",tag:{CustomModelData:1300},Count:1b}}
 # Pallet Town
-summon minecraft:glow_item_frame -3.5 11.0 19.5 {Fixed:1b,Invisible:1b,Facing:4b,Item:{id:"minecraft:sugar",tag:{CustomModelData:1350},Count:1b}}
+summon minecraft:glow_item_frame -3.5 11.0 19.5 {Fixed:1b,Invisible:1b,Facing:5b,Item:{id:"minecraft:sugar",tag:{CustomModelData:1350},Count:1b}}
 # Planet Zebes
-summon minecraft:glow_item_frame -0.5 11.0 28.5 {Fixed:1b,Invisible:1b,Facing:4b,Item:{id:"minecraft:sugar",tag:{CustomModelData:1400},Count:1b}}
+summon minecraft:glow_item_frame -0.5 11.0 28.5 {Fixed:1b,Invisible:1b,Facing:2b,Item:{id:"minecraft:sugar",tag:{CustomModelData:1400},Count:1b}}
 # Saturn Valley
 summon minecraft:glow_item_frame 1.5 5.0 28.5 {Fixed:1b,Invisible:1b,Facing:2b,Item:{id:"minecraft:sugar",tag:{CustomModelData:1500},Count:1b}}
 # Sector Z
