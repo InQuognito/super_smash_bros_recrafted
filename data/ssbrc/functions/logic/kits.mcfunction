@@ -31,8 +31,7 @@ execute as @s[tag=teamrocket] run function ssbrc:characters/teamrocket/kit
 function ssbrc:logic/characters/armor/get
 
 function ssbrc:logic/characters/attributes
-execute unless score $sectorZ map matches 1 run function ssbrc:logic/characters/effects/default
-execute if score $sectorZ map matches 1 run function ssbrc:maps/s/sector_z/logic/effects
+function ssbrc:logic/characters/effects/default
 
 scoreboard players set @s cooldown.1 0
 scoreboard players set @s cooldown.2 0

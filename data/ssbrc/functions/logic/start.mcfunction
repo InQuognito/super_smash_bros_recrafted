@@ -10,8 +10,8 @@ execute if score $gameMode options matches 2 run bossbar set minecraft:timer pla
 execute if score $gameMode options matches 2 run bossbar set minecraft:timer visible true
 execute if score $gameMode options matches 2 run scoreboard objectives setdisplay sidebar kills
 
-effect clear @a jump_boost
-effect clear @a slowness
+effect clear @a minecraft:jump_boost
+effect clear @a minecraft:slowness
 
 execute as @a[team=alive] run function ssbrc:logic/kits
 function ssbrc:logic/music/start
