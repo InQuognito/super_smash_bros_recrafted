@@ -3,8 +3,6 @@ execute as @a[scores={useAbility=1..,cooldown.1=..0},nbt={SelectedItem:{tag:{cha
 execute as @a[scores={useAbility=1..,cooldown.1=..0},nbt={SelectedItem:{tag:{chaosControl:1}}}] run function ssbrc:characters/shadow/logic/chaos_control/on
 execute as @a[scores={useAbility=1..,cooldown.1=..0},nbt={SelectedItem:{tag:{chaosBlast:1}}}] run function ssbrc:characters/shadow/logic/chaos_blast/activate
 
-scoreboard players reset @s useAbility
-
 # Chaos Spear
 scoreboard players add @s[scores={charge.1=1..}] charge.1 1
 execute at @s[scores={charge.1=1..}] anchored eyes run function ssbrc:characters/shadow/logic/chaos_spear/initiate

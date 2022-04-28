@@ -1,6 +1,5 @@
 execute if entity @s[scores={useAbility=1..,cooldown.1=..0},nbt={SelectedItem:{tag:{phazonBeam:1}}}] at @s anchored eyes run function ssbrc:characters/darksamus/logic/phazon_beam/summon
 execute if entity @s[scores={useAbility=1..},nbt={SelectedItem:{tag:{phazonOverload:1}}}] at @s anchored eyes run function ssbrc:characters/darksamus/logic/phazon_overload/on
-scoreboard players reset @s useAbility
 
 execute as @e[tag=darksamus.phazonBeam] at @s run function ssbrc:characters/darksamus/logic/phazon_beam/entity
 

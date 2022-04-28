@@ -5,8 +5,6 @@ execute as @s[scores={useAbility=1..},nbt={SelectedItem:{tag:{S1000:1}}}] unless
 execute as @s[scores={useAbility=1..},nbt={SelectedItem:{tag:{Socom:1}}}] unless score @s snake.socomR matches 1.. at @s run function ssbrc:characters/snake/logic/weapons/socom/check
 execute as @s[scores={useAbility=1..},nbt={SelectedItem:{tag:{SG:1}}}] unless score @s snake.sgF matches 1.. at @s run function ssbrc:characters/snake/logic/weapons/smoke_grenade/check
 
-scoreboard players reset @s useAbility
-
 # Glowing
 scoreboard players add @s timer 1
 execute as @s[scores={timer=1200..}] run function ssbrc:characters/snake/logic/get_hurt

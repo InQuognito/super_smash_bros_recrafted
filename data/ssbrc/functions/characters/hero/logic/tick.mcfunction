@@ -2,7 +2,6 @@ execute as @s[tag=!hero.magicLost,scores={mana=..0}] unless score @s duration.2 
 execute as @a[scores={useAbility=1..,cooldown.1=..0},nbt={SelectedItem:{tag:{ability.hero:2}}}] at @s if score @s mana >= #hero.bangManaCost vars run function ssbrc:characters/hero/logic/magic/bang
 execute as @s[scores={useAbility=1..},nbt={SelectedItem:{tag:{ability.hero:3}}}] if score @s mana >= #hero.kaclangManaCost vars run function ssbrc:characters/hero/logic/magic/kaclang
 execute as @s[scores={useAbility=1..,mana=21..},nbt={SelectedItem:{tag:{ability.hero:4}}}] run function ssbrc:characters/hero/logic/magic/magic_burst_activate
-scoreboard players reset @s useAbility
 
 # Mana
 title @s[tag=!hero.magicLost,scores={mana=..0}] actionbar [{"text":"Out of Mana: Warrior Switch","bold":true,"color":"red"}]
