@@ -9,6 +9,7 @@ tellraw @s[tag=gold] [{"text":"Costume: ","color":"yellow"},{"text":"Gold","colo
 function ssbrc:logic/resets/tags/characters
 tag @s add byleth
 
+tag @s remove byleth.selectingLoadout
 tag @s remove selectingLoadout
 tag @s add characterPicked
 

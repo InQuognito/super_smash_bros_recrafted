@@ -38,4 +38,5 @@ scoreboard players reset $countdown timer
 scoreboard players set @a[team=alive] flag.sprinting 0
 scoreboard players set @a[team=alive] respawn 0
 
+tag @s remove characterPicked
 tag @a remove loaded
