@@ -3,4 +3,4 @@ item replace entity @s hotbar.1 with minecraft:bow{Unbreakable:1,HideFlags:127} 
 
 item replace entity @s weapon.offhand with minecraft:shield{Damage:310,HideFlags:127} 1
 
-item replace entity @s hotbar.8 with minecraft:arrow 8
+item replace entity @s hotbar.8 with minecraft:spectral_arrow 8

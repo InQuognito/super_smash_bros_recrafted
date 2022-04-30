@@ -2,14 +2,14 @@
 clear @s minecraft:shield
 item replace entity @s[tag=byleth.blackEagles] weapon.offhand with minecraft:shield{Damage:310,HideFlags:127} 1
 
-give @s[tag=byleth.blackEagles,tag=byleth.weaponBroken] minecraft:arrow 4
+give @s[tag=byleth.blackEagles,tag=byleth.weaponBroken] minecraft:spectral_arrow 4
 
 # Captain Falcon
 clear @s[tag=captainfalcon] minecraft:golden_sword{falconpunch:1}
 item replace entity @s[tag=captainfalcon] hotbar.2 with minecraft:golden_sword{Damage:33,AttributeModifiers:[{AttributeName:"generic.attack_damage",Amount:17,Slot:mainhand,Name:"generic.attack_damage",UUID:[I;-121512,40620,123840,-81240]},{AttributeName:"generic.attack_speed",Amount:-3,Slot:mainhand,Name:"generic.attack_speed",UUID:[I;-121512,40720,123840,-81440]},{AttributeName:"generic.movement_speed",Amount:-.05,Slot:mainhand,Name:"generic.movement_speed",UUID:[I;-121512,40820,123840,-81640]}],display:{Name:'[{"text":"Falcon Punch","italic":false,"color":"gold","bold":true}]'},Enchantments:[{id:"fire_aspect",lvl:2},{id:"knockback",lvl:1}],HideFlags:127} 1
 
-clear @s[tag=captainfalcon] minecraft:arrow
-give @s[tag=captainfalcon] minecraft:arrow 5
+clear @s[tag=captainfalcon] minecraft:spectral_arrow
+give @s[tag=captainfalcon] minecraft:spectral_arrow 5
 
 # Charizard
 clear @s[tag=charizard] minecraft:lingering_potion{CustomPotionColor:4666420,display:{Name:'[{"text":"Smokescreen","italic":false,"bold":true,"color":"dark_gray"}]'},HideFlags:127,CustomPotionEffects:[{Id:15b,Duration:240,Amplifier:0b,ShowParticles:0b,ShowIcon:0b}]} 2
@@ -31,6 +31,7 @@ clear @s[tag=ganondorf] minecraft:trident
 item replace entity @s[tag=ganondorf] hotbar.1 with minecraft:trident{Unbreakable:1,display:{Name:'[{"text":"Trident of Power","italic":false,"color":"dark_gray","bold":true}]'},Enchantments:[{id:"loyalty",lvl:1}],HideFlags:127} 1
 
 # Hero
+execute if entity @s[tag=hero] run function ssbrc:characters/hero/logic/magic/kaclang_off
 clear @s[tag=hero] minecraft:carrot_on_a_stick
 clear @s[tag=hero] minecraft:shield
 item replace entity @s[tag=hero] hotbar.0 with minecraft:iron_sword{ability.hero:1,CustomModelData:2,Unbreakable:1,AttributeModifiers:[{AttributeName:"generic.attack_damage",Amount:6,Slot:mainhand,Name:"generic.attack_damage",UUID:[I;-12164,22807,92130,-45614]},{AttributeName:"generic.attack_speed",Amount:-2.6,Slot:mainhand,Name:"generic.attack_speed",UUID:[I;-12164,22907,92130,-45814]}],display:{Name:'[{"text":"Flame Slash","italic":false,"color":"gold","bold":true}]'},Enchantments:[{id:"fire_aspect",lvl:1}],HideFlags:127} 1
