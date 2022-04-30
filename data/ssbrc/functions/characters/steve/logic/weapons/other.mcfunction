@@ -15,8 +15,8 @@ tag @s[tag=steve.hasBow,tag=steve.hasStick] add steve.getBowArrows
 
 tag @s[tag=steve.hasWood] add steve.getShield
 
-give @s[tag=steve.getCrossbowArrows] minecraft:arrow 8
-give @s[tag=steve.getBowArrows] minecraft:arrow 16
+give @s[tag=steve.getCrossbowArrows] minecraft:spectral_arrow 8
+give @s[tag=steve.getBowArrows] minecraft:spectral_arrow 16
 
 tellraw @s[tag=steve.getCrossbowArrows] {"text":"Crafted some arrows!","color":"green"}
 tellraw @s[tag=steve.getBowArrows] {"text":"Crafted some arrows!","color":"green"}
