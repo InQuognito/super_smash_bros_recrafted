@@ -5,6 +5,7 @@ scoreboard players set @s respawn 61
 scoreboard players reset @s duration.1
 scoreboard players reset @s duration.2
 scoreboard players reset @s duration.3
+scoreboard players reset @s[tag=shadow] charge.1
 
 scoreboard players set @s flag.sprinting 0
 

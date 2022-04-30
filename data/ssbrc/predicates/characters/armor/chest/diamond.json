@@ -2,11 +2,8 @@
 	"condition": "minecraft:alternative",
 	"terms": [
 		{
-			"condition": "minecraft:entity_properties",
-			"entity": "this",
-			"predicate": {
-				"nbt": "{Tags:[\"shovelknight\"]}"
-			}
+			"condition": "minecraft:reference",
+			"name": "ssbrc:characters/shovelknight.no_phase_locket"
 		}
 	]
 }

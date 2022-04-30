@@ -2,7 +2,7 @@ item replace entity @s hotbar.0 with carrot_on_a_stick{masterSword:1,awakened:1,
 item replace entity @s hotbar.1 with minecraft:bow{CustomModelData:1,Unbreakable:1,display:{Name:'[{"text":"Fairy Bow","italic":false,"color":"blue"}]'},HideFlags:127} 1
 item replace entity @s hotbar.2 with carrot_on_a_stick{link.ability:1,CustomModelData:721,Unbreakable:1,display:{Name:'[{"text":"Boomerang","italic":false,"color":"gold"}]'},HideFlags:127} 1
 
-item replace entity @s hotbar.8 with minecraft:arrow 10
+item replace entity @s hotbar.8 with minecraft:spectral_arrow 10
 
 item replace entity @s[tag=!dark] weapon.offhand with minecraft:shield{Damage:300,BlockEntityTag:{Base:11,Patterns:[{Pattern:"flo",Color:14},{Pattern:"hh",Color:11},{Pattern:"tt",Color:4},{Pattern:"ts",Color:11},{Pattern:"cbo",Color:8}]},HideFlags:127} 1
 item replace entity @s[tag=dark] weapon.offhand with minecraft:shield{Damage:300,BlockEntityTag:{Base:15,Patterns:[{Pattern:"flo",Color:14},{Pattern:"hh",Color:15},{Pattern:"tt",Color:4},{Pattern:"ts",Color:15},{Pattern:"cbo",Color:8}]},HideFlags:127} 1
