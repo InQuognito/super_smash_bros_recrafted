@@ -27,3 +27,5 @@ execute positioned -0.5 4.5 14.5 if block ~ ~ ~ #minecraft:buttons[powered=true]
 execute positioned 10.5 4.5 21.5 if block ~ ~ ~ #minecraft:buttons[powered=true] run function ssbrc:maps/s/spear_pillar/vote
 execute positioned 10.5 10.5 21.5 if block ~ ~ ~ #minecraft:buttons[powered=true] run function ssbrc:maps/t/tower_of_fate/vote
 execute positioned -3.5 4.5 21.5 if block ~ ~ ~ #minecraft:buttons[powered=true] run function ssbrc:maps/w/wily_castle/vote
+
+execute positioned 10.5 4.5 23.5 if block ~ ~ ~ #minecraft:buttons[powered=true] run function ssbrc:logic/pre_game/map_voting/random_vote
