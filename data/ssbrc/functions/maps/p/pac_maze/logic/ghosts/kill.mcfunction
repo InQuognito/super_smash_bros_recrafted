@@ -1,4 +1,5 @@
 tag @s remove retreating
+tag @s remove active
 tag @s add dead
 scoreboard players set @s cooldown.1 600
 
