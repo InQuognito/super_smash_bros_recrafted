@@ -1,4 +1,3 @@
-execute as @s[tag=bowser] run function ssbrc:characters/bowser/logic/tick
 execute as @s[tag=byleth] run function ssbrc:characters/byleth/logic/tick
 execute as @s[tag=darksamus] run function ssbrc:characters/darksamus/logic/tick
 execute as @s[tag=hero] run function ssbrc:characters/hero/logic/tick
@@ -17,6 +16,7 @@ execute as @s[tag=alucard] run function ssbrc:characters/alucard/logic/tick
 execute as @s[tag=shadow] run function ssbrc:characters/shadow/logic/tick
 execute as @s[tag=shovelknight] run function ssbrc:characters/shovelknight/logic/tick
 
-execute at @a[tag=naturalShiny] run particle minecraft:glow ~ ~0.7 ~ 0.5 0.4 0.5 0 1 normal @a
+execute at @s[tag=naturalShiny] run particle minecraft:glow ~ ~0.7 ~ 0.5 0.4 0.5 0 1 normal @a
 
 execute as @s[predicate=ssbrc:characters/weight/heavy] at @s run function ssbrc:logic/characters/shockwave/check
+scoreboard players reset @s fallDistance
