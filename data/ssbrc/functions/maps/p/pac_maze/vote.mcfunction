@@ -5,3 +5,5 @@ tag @s add pacMaze
 
 team leave @s
 effect clear @s minecraft:glowing
+
+function ssbrc:logic/inputs/reset
