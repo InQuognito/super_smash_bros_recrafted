@@ -21,14 +21,14 @@ execute if score #shinyDialga temp matches 1 run clone 648 1 -58 674 31 -38 816 
 
 # Giratina
 execute if predicate ssbrc:shiny_chance run scoreboard players set #shinyGiratina temp 1
-execute unless score #shinyGiratina temp matches 1 run clone 591 3 -197 604 40 -151 787 11 -124
-execute unless score #shinyGiratina temp matches 1 run clone 605 3 -197 615 40 -151 801 11 -124
-execute unless score #shinyGiratina temp matches 1 run clone 616 3 -197 629 40 -151 812 11 -124
-execute unless score #shinyGiratina temp matches 1 run clone 630 3 -197 638 40 -151 826 11 -124
-execute if score #shinyGiratina temp matches 1 run clone 538 3 -134 551 40 -88 787 11 -124
-execute if score #shinyGiratina temp matches 1 run clone 552 3 -134 562 40 -88 801 11 -124
-execute if score #shinyGiratina temp matches 1 run clone 563 3 -134 576 40 -88 812 11 -124
-execute if score #shinyGiratina temp matches 1 run clone 577 3 -134 585 40 -88 826 11 -124
+execute unless score #shinyGiratina temp matches 1 run clone 591 2 -197 604 40 -151 787 10 -124
+execute unless score #shinyGiratina temp matches 1 run clone 605 2 -197 615 40 -151 801 10 -124
+execute unless score #shinyGiratina temp matches 1 run clone 616 2 -197 629 40 -151 812 10 -124
+execute unless score #shinyGiratina temp matches 1 run clone 630 2 -197 638 40 -151 826 10 -124
+execute if score #shinyGiratina temp matches 1 run clone 538 2 -134 551 40 -88 787 10 -124
+execute if score #shinyGiratina temp matches 1 run clone 552 2 -134 562 40 -88 801 10 -124
+execute if score #shinyGiratina temp matches 1 run clone 563 2 -134 576 40 -88 812 10 -124
+execute if score #shinyGiratina temp matches 1 run clone 577 2 -134 585 40 -88 826 10 -124
 
 summon minecraft:glow_item_frame 803.5 51.0 23.5 {Facing:2b,ItemRotation:1b,Item:{id:"minecraft:black_candle",Count:1b},Fixed:1b}
 summon minecraft:glow_item_frame 803.5 51.0 25.5 {Facing:3b,ItemRotation:7b,Item:{id:"minecraft:black_candle",Count:1b},Fixed:1b}
