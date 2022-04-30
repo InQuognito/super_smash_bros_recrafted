@@ -49,8 +49,8 @@ item replace entity @s[tag=joker] hotbar.2 with minecraft:lingering_potion{Custo
 clear @s[tag=link] minecraft:carrot_on_a_stick{link.ability:1}
 clear @s[tag=link] minecraft:shield
 item replace entity @s[tag=link] hotbar.2 with carrot_on_a_stick{link.ability:1,CustomModelData:721,Unbreakable:1,display:{Name:'[{"text":"Boomerang","italic":false,"color":"gold"}]'},HideFlags:127} 1
-item replace entity @s[tag=link] weapon.offhand with minecraft:shield{Damage:300,BlockEntityTag:{Base:11,Patterns:[{Pattern:"flo",Color:14},{Pattern:"hh",Color:11},{Pattern:"tt",Color:4},{Pattern:"ts",Color:11},{Pattern:"cbo",Color:8}]},HideFlags:127} 1
-
+item replace entity @s[tag=link,tag=!dark] weapon.offhand with minecraft:shield{Damage:300,display:{Name:'[{"text":"Hylian Shield","italic":false,"color":"blue","bold":true}]'},BlockEntityTag:{Base:11,Patterns:[{Pattern:"flo",Color:14},{Pattern:"hh",Color:11},{Pattern:"tt",Color:4},{Pattern:"ts",Color:11},{Pattern:"cbo",Color:8}]},HideFlags:127} 1
+item replace entity @s[tag=link,tag=dark] weapon.offhand with minecraft:shield{Damage:300,display:{Name:'[{"text":"Hylian Shield","italic":false,"color":"dark_gray","bold":true}]'},BlockEntityTag:{Base:15,Patterns:[{Pattern:"flo",Color:14},{Pattern:"hh",Color:15},{Pattern:"tt",Color:4},{Pattern:"ts",Color:15},{Pattern:"cbo",Color:8}]},HideFlags:127} 1
 give @s[tag=link] minecraft:spectral_arrow 5
 
 # Megaman
@@ -87,7 +87,7 @@ give @s[tag=steve,scores={steve.tier=2}] minecraft:iron_sword{Unbreakable:1,Hide
 # Altered Beast
 clear @s[tag=waretiger] minecraft:trident
 clear @s[tag=waretiger] minecraft:firework_rocket
-item replace entity @s[tag=waretiger] weapon.mainhand with minecraft:trident{Unbreakable:1,AttributeModifiers:[{AttributeName:"generic.attack_damage",Amount:6,Slot:mainhand,Name:"generic.attack_damage",UUID:[I;-12164,22807,92130,-45614]},{AttributeName:"generic.attack_speed",Amount:-1.9,Slot:mainhand,Name:"generic.attack_speed",UUID:[I;-12164,22907,92130,-45814]}],display:{Name:'[{"text":"Enchanted Tiger Claws","italic":false,"color":"dark_aqua","bold":true}]'},Enchantments:[{id:"minecraft:loyalty",lvl:3}],HideFlags:127} 1
+item replace entity @s[tag=waretiger] hotbar.0 with minecraft:trident{Unbreakable:1,AttributeModifiers:[{AttributeName:"generic.attack_damage",Amount:6,Slot:mainhand,Name:"generic.attack_damage",UUID:[I;-12164,22807,92130,-45614]},{AttributeName:"generic.attack_speed",Amount:-1.9,Slot:mainhand,Name:"generic.attack_speed",UUID:[I;-12164,22907,92130,-45814]}],display:{Name:'[{"text":"Feral Claws","italic":false,"color":"dark_aqua","bold":true}]'},Enchantments:[{id:"minecraft:loyalty",lvl:3}],HideFlags:127} 1
 item replace entity @s[tag=waretiger] weapon.offhand with minecraft:firework_rocket{Fireworks:{Flight:3,Explosions:[{Type:1,Flicker:1b,Trail:1b,Colors:[I;14602026,14597930,14593834],FadeColors:[I;17233746]}]},display:{Name:'[{"text":"Golden Shower","italic":false,"bold":true,"color":"gold"}]'}} 3
 
 # Alucard

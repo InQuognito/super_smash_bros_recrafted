@@ -63,6 +63,7 @@ scoreboard objectives remove snake.sgF
 scoreboard objectives remove steve.tier
 scoreboard objectives remove stocks
 scoreboard objectives remove timer
+scoreboard objectives remove timer.trident
 scoreboard objectives remove temp
 scoreboard objectives remove useAbility
 scoreboard objectives remove useChargeAbility
