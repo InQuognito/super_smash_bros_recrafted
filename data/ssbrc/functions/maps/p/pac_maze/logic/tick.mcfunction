@@ -10,4 +10,4 @@ execute as @a[scores={useAbility=1..},nbt={SelectedItem:{tag:{powerPellet:1}}}] 
 execute if score $dotGroup.total temp matches 4.. run function ssbrc:maps/p/pac_maze/logic/pellets/spawn
 
 scoreboard players add $ghostSirenTimer temp 1
-execute if score $ghostSirenTimer temp matches 30.. as @e[tag=ghost,tag=active,tag=!retreating,tag=!dead] at @s run function ssbrc:maps/p/pac_maze/logic/ghosts/siren
+execute if score $ghostSirenTimer temp matches 30.. as @e[tag=ghost,tag=active,tag=!retreating] at @s run function ssbrc:maps/p/pac_maze/logic/ghosts/siren
