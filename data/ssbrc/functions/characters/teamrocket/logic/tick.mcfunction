@@ -7,7 +7,7 @@ execute as @e[tag=teamrocket.arbok.acid,tag=!active,predicate=ssbrc:flag/no_vehi
 tag @e[tag=teamrocket.arbok.acid,tag=!active,predicate=ssbrc:flag/no_vehicle] add active
 
 # Payday
-execute as @e[tag=teamrocket.meowth.payday,tag=!active,predicate=ssbrc:flag/no_vehicle] run data merge entity @s {Particle:"minecraft:dust 0.5 0.25 1.0 1",Radius:2f,Duration:900,Effects:[{Id:19b,Amplifier:3b,Duration:100,ShowParticles:0b}]}
+execute as @e[tag=teamrocket.meowth.payday,tag=!active,predicate=ssbrc:flag/no_vehicle] run data merge entity @s {Particle:"minecraft:dust 1.0 1.0 0.0 1",Radius:1f,Duration:200,Effects:[{Id:19b,Amplifier:3b,Duration:100,ShowParticles:0b}]}
 tag @e[tag=teamrocket.meowth.payday,tag=!active,predicate=ssbrc:flag/no_vehicle] add active
 
 # Counter
