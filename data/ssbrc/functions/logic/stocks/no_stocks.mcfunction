@@ -6,6 +6,6 @@ title @s actionbar ""
 
 execute store result score #playersLeft temp run team list alive
 
-execute if score #playersLeft temp matches 1 unless entity @s[tag=wobbuffet] as @a[team=alive,limit=1] run function ssbrc:logic/post_game/end
-execute if score #playersLeft temp matches 1 if entity @s[tag=wobbuffet] run function ssbrc:logic/post_game/end
+execute if score #playersLeft temp matches 1 unless entity @s[tag=wobbuffet,scores={duration.3=40..}] as @a[team=alive,limit=1] run function ssbrc:logic/post_game/end
+execute if score #playersLeft temp matches 1 if entity @s[tag=wobbuffet,scores={duration.3=40..}] run function ssbrc:logic/post_game/end
 execute if score #playersLeft temp matches ..0 run function ssbrc:logic/post_game/end
