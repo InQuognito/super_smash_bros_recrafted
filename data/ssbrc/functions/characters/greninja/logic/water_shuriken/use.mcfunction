@@ -9,3 +9,4 @@ tag @e[tag=projectile] remove projectile
 kill @e[tag=direction]
 
 scoreboard players remove @s charge.2 1
+clear @s[scores={charge.2=..0}] minecraft:carrot_on_a_stick{waterShuriken:1}
