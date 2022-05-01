@@ -1,4 +1,4 @@
-scoreboard players set @s cooldown.1 4
+scoreboard players set @s cooldown.1 8
 scoreboard players add @s charge.1 1
 
 effect give @s[scores={charge.1=1}] minecraft:levitation 1 25 true
