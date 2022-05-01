@@ -2,5 +2,5 @@ execute at @s if block ~ ~-0.1 ~ minecraft:air if entity @s[predicate=ssbrc:flag
 execute at @s unless block ~ ~-0.1 ~ minecraft:air run scoreboard players set @s charge.1 0
 
 scoreboard players add @s[scores={cooldown.1=1..}] charge.2 1
-effect clear @s[scores={charge.2=2..}] minecraft:levitation
-scoreboard players reset @s[scores={charge.2=2..}]
+effect clear @s[scores={charge.2=4..}] minecraft:levitation
+scoreboard players set @s[scores={charge.2=4..}] charge.2 0
