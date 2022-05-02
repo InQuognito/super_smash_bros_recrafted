@@ -22,6 +22,6 @@ execute store result entity @e[tag=projectile,limit=1] Motion[2] double 0.00125 
 tag @e[tag=projectile] remove projectile
 kill @e[tag=direction]
 
-scoreboard players set @s cooldown.2 80
+scoreboard players set @s cooldown.2 400
 
 execute if score @s shadow.chaosControl matches 1.. run function ssbrc:logic/characters/cooldown_modifiers/chaos_control/2
