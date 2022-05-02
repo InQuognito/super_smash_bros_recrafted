@@ -6,6 +6,9 @@ forceload add -608 -208 -529 -97
 
 kill @e[type=!minecraft:player]
 
+summon minecraft:leash_knot -551 15 -156
+summon minecraft:leash_knot -556 15 -160
+
 #Nurse Joy
 summon armor_stand -553.441 14.93750 -159.561 {Invulnerable:1b,NoBasePlate:1b,ShowArms:1b,Rotation:[29f],Pose:{LeftLeg:[357f,0f,0f],RightLeg:[5f,0f,0f],LeftArm:[312f,22f,0f],RightArm:[312f,339f,0f]}}
 #Officer Jenny
