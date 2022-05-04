@@ -24,17 +24,7 @@ summon minecraft:armor_stand -734.897 27.0 834.552 {Tags:["propStand","toad","de
 summon minecraft:armor_stand -737.7 26.6 833.175 {Tags:["propStand","toad","blue"],NoBasePlate:1b,NoGravity:1b,ShowArms:1b,Small:1b,Rotation:[320f],Pose:{LeftLeg:[267f,0f,0f],RightLeg:[267f,0f,0f],LeftArm:[332f,30f,328f],RightArm:[330f,18f,12f]}}
 summon minecraft:armor_stand -736.46 27.0 835.889 {Tags:["propStand","toad","yellow"],NoBasePlate:1b,ShowArms:1b,Small:1b,Pose:{LeftArm:[221f,342f,46f],RightArm:[245f,40f,12f]}}
 
-execute as @e[tag=propStand] run item replace entity @s armor.head with minecraft:barrier
-execute as @e[tag=propStand] run item modify entity @s armor.head ssbrc:kits/head
-
-execute as @e[tag=propStand] run item replace entity @s armor.chest with minecraft:leather_chestplate
-execute as @e[tag=propStand] run item modify entity @s armor.chest ssbrc:kits/chest_color
-
-execute as @e[tag=propStand] run item replace entity @s armor.legs with minecraft:leather_leggings
-execute as @e[tag=propStand] run item modify entity @s armor.legs ssbrc:kits/legs_color
-
-execute as @e[tag=propStand] run item replace entity @s armor.feet with minecraft:leather_boots
-execute as @e[tag=propStand] run item modify entity @s armor.feet ssbrc:kits/feet_color
+execute as @e[tag=propStand] run function ssbrc:logic/characters/armor/get
 
 time set noon
 weather clear
