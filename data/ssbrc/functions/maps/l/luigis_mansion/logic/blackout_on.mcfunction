@@ -37,7 +37,7 @@ fill -337 16 -1107 -335 16 -1105 minecraft:blast_furnace[facing=east,lit=false] 
 execute at @e[type=minecraft:marker,tag=lanternOff.floor] run setblock ~ ~ ~ minecraft:air replace
 execute at @e[type=minecraft:marker,tag=lanternOff.hanging] run setblock ~ ~ ~ minecraft:air replace
 
-execute as @e[type=minecraft:marker,tag=lanternOff.floor] run summon minecraft:item_frame ~ ~ ~ {Tags:["lanternOff"],Facing:1b,Invisible:1b,Fixed:1b,Item:{id:"minecraft:sugar",Count:1b,tag:{CustomModelData:1020}}}
-execute as @e[type=minecraft:marker,tag=lanternOff.hanging] run summon minecraft:item_frame ~ ~ ~ {Tags:["lanternOff"],Facing:0b,Invisible:1b,Fixed:1b,Item:{id:"minecraft:sugar",Count:1b,tag:{CustomModelData:1021}}}
+execute at @e[type=minecraft:marker,tag=lanternOff.floor] run summon minecraft:item_frame ~ ~ ~ {Tags:["lanternOff"],Facing:1b,Invisible:1b,Fixed:1b,Item:{id:"minecraft:sugar",Count:1b,tag:{CustomModelData:1020}}}
+execute at @e[type=minecraft:marker,tag=lanternOff.hanging] run summon minecraft:item_frame ~ ~ ~ {Tags:["lanternOff"],Facing:0b,Invisible:1b,Fixed:1b,Item:{id:"minecraft:sugar",Count:1b,tag:{CustomModelData:1021}}}
 
 schedule function ssbrc:maps/l/luigis_mansion/logic/blackout_off 40s replace
