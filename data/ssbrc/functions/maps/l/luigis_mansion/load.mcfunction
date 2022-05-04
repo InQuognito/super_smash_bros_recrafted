@@ -34,6 +34,17 @@ summon minecraft:armor_stand -338.5 16.0 -1130.5 {Invisible:1,DisabledSlots:4144
 summon minecraft:armor_stand -338.5 16.0 -1139.5 {Invisible:1,DisabledSlots:4144959,Rotation:[-90f,0f],NoGravity:1,ArmorItems:[{},{},{},{id:"minecraft:sugar",tag:{CustomModelData:1018},Count:1b}]}
 summon minecraft:armor_stand -338.5 16.0 -1142.5 {Invisible:1,DisabledSlots:4144959,Rotation:[-90f,0f],NoGravity:1,ArmorItems:[{},{},{},{id:"minecraft:sugar",tag:{CustomModelData:1018},Count:1b}]}
 
+# Lanterns
+summon minecraft:marker -295.5 20.5 -1112.5 {Tags:["lanternOff.hanging"]}
+summon minecraft:marker -291.5 19.5 -1137.5 {Tags:["lanternOff.hanging"]}
+summon minecraft:marker -287.5 19.5 -1137.5 {Tags:["lanternOff.hanging"]}
+summon minecraft:marker -291.5 19.5 -1130.5 {Tags:["lanternOff.hanging"]}
+summon minecraft:marker -287.5 19.5 -1130.5 {Tags:["lanternOff.hanging"]}
+
+summon minecraft:marker -288.5 13.5 -1152.5 {Tags:["lanternOff.hanging"]}
+
+summon minecraft:marker -293.5 11.5 -1149.5 {Tags:["lanternOff.floor"]}
+
 function ssbrc:maps/l/luigis_mansion/logic/blackout_off
 
 time set midnight
