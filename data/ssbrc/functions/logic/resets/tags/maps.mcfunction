@@ -1,5 +1,6 @@
 tag @s remove acropolisGraveyard
 tag @s remove battlefield
+tag @s remove bigBattlefield
 tag @s remove bowsersCastle
 tag @s remove castleSiege
 tag @s remove draculasCastle
@@ -21,6 +22,7 @@ tag @s remove pacMaze
 tag @s remove palletTown
 tag @s remove planetZebes
 tag @s remove saturnValley
+tag @s remove sandOcean
 tag @s remove sectorZ
 tag @s remove shadowMosesIsland
 tag @s remove spearPillar
