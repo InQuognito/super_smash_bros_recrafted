@@ -2,6 +2,7 @@ execute as @e[tag=voteCounter] run scoreboard players operation @s temp = @s map
 
 execute if entity @s[tag=acropolisGraveyard] run scoreboard players remove @e[tag=voteCounter,tag=acropolisGraveyard] mapVote 1
 execute if entity @s[tag=battlefield] run scoreboard players remove @e[tag=voteCounter,tag=battlefield] mapVote 1
+execute if entity @s[tag=bigBattlefield] run scoreboard players remove @e[tag=voteCounter,tag=bigBattlefield] mapVote 1
 execute if entity @s[tag=bowsersCastle] run scoreboard players remove @e[tag=voteCounter,tag=bowsersCastle] mapVote 1
 execute if entity @s[tag=castleSiege] run scoreboard players remove @e[tag=voteCounter,tag=castleSiege] mapVote 1
 execute if entity @s[tag=draculasCastle] run scoreboard players remove @e[tag=voteCounter,tag=draculasCastle] mapVote 1
