@@ -1,0 +1,100 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:barrier",
+			"nbt": "{CustomModelData:1960}"
+		},
+		"title": {
+			"text": "Yar",
+			"color": "green",
+			"bold": true,
+			"italic": false,
+			"extra": [
+				{
+					"text": " Mastery",
+					"color": "white",
+					"bold": true,
+					"italic": false
+				}
+			]
+		},
+		"description": {
+			"text": "Complete challenges to unlock a reward!",
+			"color": "gray",
+			"bold": false,
+			"italic": false
+		},
+		"frame": "challenge",
+		"show_toast": false,
+		"announce_to_chat": false,
+		"background": "minecraft:textures/gui/advancements/backgrounds/stone.png"
+	},
+	"parent": "ssbrc:series/retro_fighters/root",
+	"criteria": {
+		"novice": {
+			"trigger": "minecraft:impossible"
+		},
+		"veteran": {
+			"trigger": "minecraft:impossible"
+		},
+		"survivalist": {
+			"trigger": "minecraft:impossible"
+		},
+		"slayer": {
+			"trigger": "minecraft:impossible"
+		},
+		"master": {
+			"trigger": "minecraft:impossible"
+		},
+		"a_mission_accomplished": {
+			"trigger": "minecraft:impossible"
+		},
+		"if_at_first_you_dont_succeed": {
+			"trigger": "minecraft:impossible"
+		},
+		"qotile_ultimatum": {
+			"trigger": "minecraft:impossible"
+		},
+		"retro_not_old": {
+			"trigger": "minecraft:impossible"
+		},
+		"yars_return": {
+			"trigger": "minecraft:impossible"
+		}
+	},
+	"requirements": [
+		[
+			"novice"
+		],
+		[
+			"veteran"
+		],
+		[
+			"survivalist"
+		],
+		[
+			"slayer"
+		],
+		[
+			"master"
+		],
+		[
+			"a_mission_accomplished"
+		],
+		[
+			"if_at_first_you_dont_succeed"
+		],
+		[
+			"qotile_ultimatum"
+		],
+		[
+			"retro_not_old"
+		],
+		[
+			"yars_return"
+		]
+	],
+	"rewards": {
+		"function": "ssbrc:advancements/yar/mastery"
+	}
+}

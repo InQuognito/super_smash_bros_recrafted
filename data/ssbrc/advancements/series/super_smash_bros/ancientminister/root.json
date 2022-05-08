@@ -1,0 +1,100 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:barrier",
+			"nbt": "{CustomModelData:1}"
+		},
+		"title": {
+			"text": "Ancient Minister",
+			"color": "red",
+			"bold": true,
+			"italic": false,
+			"extra": [
+				{
+					"text": " Mastery",
+					"color": "white",
+					"bold": true,
+					"italic": false
+				}
+			]
+		},
+		"description": {
+			"text": "Complete challenges to unlock a reward!",
+			"color": "gray",
+			"bold": false,
+			"italic": false
+		},
+		"frame": "challenge",
+		"show_toast": false,
+		"announce_to_chat": false,
+		"background": "minecraft:textures/gui/advancements/backgrounds/stone.png"
+	},
+	"parent": "ssbrc:series/super_smash_bros/root",
+	"criteria": {
+		"novice": {
+			"trigger": "minecraft:impossible"
+		},
+		"veteran": {
+			"trigger": "minecraft:impossible"
+		},
+		"survivalist": {
+			"trigger": "minecraft:impossible"
+		},
+		"slayer": {
+			"trigger": "minecraft:impossible"
+		},
+		"master": {
+			"trigger": "minecraft:impossible"
+		},
+		"gyromited": {
+			"trigger": "minecraft:impossible"
+		},
+		"robo_sniped": {
+			"trigger": "minecraft:impossible"
+		},
+		"stacked_up": {
+			"trigger": "minecraft:impossible"
+		},
+		"subspace_rising": {
+			"trigger": "minecraft:impossible"
+		},
+		"the_last_of_his_kind": {
+			"trigger": "minecraft:impossible"
+		}
+	},
+	"requirements": [
+		[
+			"novice"
+		],
+		[
+			"veteran"
+		],
+		[
+			"survivalist"
+		],
+		[
+			"slayer"
+		],
+		[
+			"master"
+		],
+		[
+			"gyromited"
+		],
+		[
+			"robo_sniped"
+		],
+		[
+			"stacked_up"
+		],
+		[
+			"subspace_rising"
+		],
+		[
+			"the_last_of_his_kind"
+		]
+	],
+	"rewards": {
+		"function": "ssbrc:advancements/ancientminister/mastery"
+	}
+}

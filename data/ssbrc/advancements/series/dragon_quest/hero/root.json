@@ -1,0 +1,100 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:barrier",
+			"nbt": "{CustomModelData:440}"
+		},
+		"title": {
+			"text": "Hero",
+			"color": "yellow",
+			"bold": true,
+			"italic": false,
+			"extra": [
+				{
+					"text": " Mastery",
+					"color": "white",
+					"bold": true,
+					"italic": false
+				}
+			]
+		},
+		"description": {
+			"text": "Complete challenges to unlock a reward!",
+			"color": "gray",
+			"bold": false,
+			"italic": false
+		},
+		"frame": "challenge",
+		"show_toast": false,
+		"announce_to_chat": false,
+		"background": "minecraft:textures/gui/advancements/backgrounds/stone.png"
+	},
+	"parent": "ssbrc:series/dragon_quest/root",
+	"criteria": {
+		"novice": {
+			"trigger": "minecraft:impossible"
+		},
+		"veteran": {
+			"trigger": "minecraft:impossible"
+		},
+		"survivalist": {
+			"trigger": "minecraft:impossible"
+		},
+		"slayer": {
+			"trigger": "minecraft:impossible"
+		},
+		"master": {
+			"trigger": "minecraft:impossible"
+		},
+		"dragon_slayer": {
+			"trigger": "minecraft:impossible"
+		},
+		"grinding_exp": {
+			"trigger": "minecraft:impossible"
+		},
+		"king_metal": {
+			"trigger": "minecraft:impossible"
+		},
+		"overflow": {
+			"trigger": "minecraft:impossible"
+		},
+		"power_of_the_luminary": {
+			"trigger": "minecraft:impossible"
+		}
+	},
+	"requirements": [
+		[
+			"novice"
+		],
+		[
+			"veteran"
+		],
+		[
+			"survivalist"
+		],
+		[
+			"slayer"
+		],
+		[
+			"master"
+		],
+		[
+			"dragon_slayer"
+		],
+		[
+			"grinding_exp"
+		],
+		[
+			"king_metal"
+		],
+		[
+			"overflow"
+		],
+		[
+			"power_of_the_luminary"
+		]
+	],
+	"rewards": {
+		"function": "ssbrc:advancements/hero/mastery"
+	}
+}

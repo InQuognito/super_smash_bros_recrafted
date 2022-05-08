@@ -1,0 +1,100 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:barrier",
+			"nbt": "{CustomModelData:700}"
+		},
+		"title": {
+			"text": "Kirby",
+			"color": "light_purple",
+			"bold": true,
+			"italic": false,
+			"extra": [
+				{
+					"text": " Mastery",
+					"color": "white",
+					"bold": true,
+					"italic": false
+				}
+			]
+		},
+		"description": {
+			"text": "Complete challenges to unlock a reward!",
+			"color": "gray",
+			"bold": false,
+			"italic": false
+		},
+		"frame": "challenge",
+		"show_toast": false,
+		"announce_to_chat": false,
+		"background": "minecraft:textures/gui/advancements/backgrounds/stone.png"
+	},
+	"parent": "ssbrc:series/kirby/root",
+	"criteria": {
+		"novice": {
+			"trigger": "minecraft:impossible"
+		},
+		"veteran": {
+			"trigger": "minecraft:impossible"
+		},
+		"survivalist": {
+			"trigger": "minecraft:impossible"
+		},
+		"slayer": {
+			"trigger": "minecraft:impossible"
+		},
+		"master": {
+			"trigger": "minecraft:impossible"
+		},
+		"super_tuff_pink_puff": {
+			"trigger": "minecraft:impossible"
+		},
+		"mass_attack": {
+			"trigger": "minecraft:impossible"
+		},
+		"shiver_star": {
+			"trigger": "minecraft:impossible"
+		},
+		"samurai_kirby": {
+			"trigger": "minecraft:impossible"
+		},
+		"copy_master": {
+			"trigger": "minecraft:impossible"
+		}
+	},
+	"requirements": [
+		[
+			"novice"
+		],
+		[
+			"veteran"
+		],
+		[
+			"survivalist"
+		],
+		[
+			"slayer"
+		],
+		[
+			"master"
+		],
+		[
+			"super_tuff_pink_puff"
+		],
+		[
+			"mass_attack"
+		],
+		[
+			"shiver_star"
+		],
+		[
+			"samurai_kirby"
+		],
+		[
+			"copy_master"
+		]
+	],
+	"rewards": {
+		"function": "ssbrc:advancements/kirby/mastery"
+	}
+}

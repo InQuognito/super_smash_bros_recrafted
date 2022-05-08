@@ -1,0 +1,100 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:barrier",
+			"nbt": "{CustomModelData:720}"
+		},
+		"title": {
+			"text": "Link",
+			"color": "dark_green",
+			"bold": true,
+			"italic": false,
+			"extra": [
+				{
+					"text": " Mastery",
+					"color": "white",
+					"bold": true,
+					"italic": false
+				}
+			]
+		},
+		"description": {
+			"text": "Complete challenges to unlock a reward!",
+			"color": "gray",
+			"bold": false,
+			"italic": false
+		},
+		"frame": "challenge",
+		"show_toast": false,
+		"announce_to_chat": false,
+		"background": "minecraft:textures/gui/advancements/backgrounds/stone.png"
+	},
+	"parent": "ssbrc:series/the_legend_of_zelda/root",
+	"criteria": {
+		"novice": {
+			"trigger": "minecraft:impossible"
+		},
+		"veteran": {
+			"trigger": "minecraft:impossible"
+		},
+		"survivalist": {
+			"trigger": "minecraft:impossible"
+		},
+		"slayer": {
+			"trigger": "minecraft:impossible"
+		},
+		"master": {
+			"trigger": "minecraft:impossible"
+		},
+		"a_hand_that_holds_courage": {
+			"trigger": "minecraft:impossible"
+		},
+		"boomerangd": {
+			"trigger": "minecraft:impossible"
+		},
+		"dawn_of_a_new_day": {
+			"trigger": "minecraft:impossible"
+		},
+		"four_swords_adventures": {
+			"trigger": "minecraft:impossible"
+		},
+		"triforce_gathering": {
+			"trigger": "minecraft:impossible"
+		}
+	},
+	"requirements": [
+		[
+			"novice"
+		],
+		[
+			"veteran"
+		],
+		[
+			"survivalist"
+		],
+		[
+			"slayer"
+		],
+		[
+			"master"
+		],
+		[
+			"a_hand_that_holds_courage"
+		],
+		[
+			"boomerangd"
+		],
+		[
+			"dawn_of_a_new_day"
+		],
+		[
+			"four_swords_adventures"
+		],
+		[
+			"triforce_gathering"
+		]
+	],
+	"rewards": {
+		"function": "ssbrc:advancements/link/mastery"
+	}
+}

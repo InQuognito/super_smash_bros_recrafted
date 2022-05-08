@@ -1,0 +1,100 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:barrier",
+			"nbt": "{CustomModelData:1560}"
+		},
+		"title": {
+			"text": "Sora",
+			"color": "yellow",
+			"bold": true,
+			"italic": false,
+			"extra": [
+				{
+					"text": " Mastery",
+					"color": "white",
+					"bold": true,
+					"italic": false
+				}
+			]
+		},
+		"description": {
+			"text": "Complete challenges to unlock a reward!",
+			"color": "gray",
+			"bold": false,
+			"italic": false
+		},
+		"frame": "challenge",
+		"show_toast": false,
+		"announce_to_chat": false,
+		"background": "minecraft:textures/gui/advancements/backgrounds/stone.png"
+	},
+	"parent": "ssbrc:series/kingdom_hearts/root",
+	"criteria": {
+		"novice": {
+			"trigger": "minecraft:impossible"
+		},
+		"veteran": {
+			"trigger": "minecraft:impossible"
+		},
+		"survivalist": {
+			"trigger": "minecraft:impossible"
+		},
+		"slayer": {
+			"trigger": "minecraft:impossible"
+		},
+		"master": {
+			"trigger": "minecraft:impossible"
+		},
+		"critical_mode": {
+			"trigger": "minecraft:impossible"
+		},
+		"fair_and_square": {
+			"trigger": "minecraft:impossible"
+		},
+		"my_friends_are_my_power": {
+			"trigger": "minecraft:impossible"
+		},
+		"organization_13": {
+			"trigger": "minecraft:impossible"
+		},
+		"steamboat_willie": {
+			"trigger": "minecraft:impossible"
+		}
+	},
+	"requirements": [
+		[
+			"novice"
+		],
+		[
+			"veteran"
+		],
+		[
+			"survivalist"
+		],
+		[
+			"slayer"
+		],
+		[
+			"master"
+		],
+		[
+			"critical_mode"
+		],
+		[
+			"fair_and_square"
+		],
+		[
+			"my_friends_are_my_power"
+		],
+		[
+			"organization_13"
+		],
+		[
+			"steamboat_willie"
+		]
+	],
+	"rewards": {
+		"function": "ssbrc:advancements/sora/mastery"
+	}
+}
