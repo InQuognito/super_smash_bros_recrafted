@@ -5,7 +5,12 @@ execute if entity @s[tag=alucard.ability] run summon minecraft:area_effect_cloud
 data modify entity @e[tag=alucard.mist,tag=noOwner,limit=1] Owner set from entity @s UUID
 tag @e[tag=alucard.mist] remove noOwner
 
+execute store result score @s damage run data get entity @s Inventory[{Slot:-106b}].tag.Damage
+
 clear @s
+
+attribute @s minecraft:generic.attack_damage base set 0.0
+attribute @s minecraft:generic.attack_speed base set 0.0
 
 effect clear @s minecraft:glowing
 effect give @s minecraft:invisibility 1000000 0 true

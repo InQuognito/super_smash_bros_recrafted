@@ -67,6 +67,7 @@ execute if score @s[tag=ness] itemCount matches 1 run item replace entity @s hot
 item replace entity @s[tag=pit] armor.chest with minecraft:elytra{Damage:417,HideFlags:127} 1
 
 # Ryu
+execute if entity @s[tag=ryu] run function ssbrc:characters/ryu/logic/off
 execute if score $gameMode options matches 1 if score @s[tag=ryu] stocks matches 1 run item replace entity @s hotbar.2 with carrot_on_a_stick{ability.ryu:1,CustomModelData:1401,Unbreakable:1,display:{Name:'[{"text":"Satsui no Hado Rage","italic":false,"color":"#660000","bold":true}]'}} 1
 execute if score $gameMode options matches 2 run scoreboard players operation #stockModulo temp = @s stocks
 execute if score $gameMode options matches 2 run scoreboard players operation #stockModulo temp %= #3 integers
