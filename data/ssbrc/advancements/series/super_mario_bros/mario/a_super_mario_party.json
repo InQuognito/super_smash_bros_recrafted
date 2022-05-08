@@ -5,49 +5,34 @@
 			"nbt": "{CustomModelData:840}"
 		},
 		"title": {
-			"text": "Three Trouble Kings",
-			"color": "dark_red",
+			"text": "A Super Mario Party",
+			"color": "light_purple",
 			"bold": false,
 			"italic": false
 		},
 		"description": {
-			"text": "Emerge victorious against ",
+			"text": "Play in a match consisting of ",
 			"color": "gray",
 			"bold": false,
 			"italic": false,
 			"extra": [
 				{
-					"text": "Bowser",
-					"color": "red",
+					"text": "only",
+					"color": "blue",
 					"bold": false,
-					"italic": false,
-					"obfuscated": true
+					"italic": false
 				},
 				{
-					"text": ", ",
+					"text": " characters from the ",
 					"color": "gray",
 					"bold": false,
 					"italic": false
 				},
 				{
-					"text": "Ganondorf",
-					"color": "red",
-					"bold": false,
-					"italic": false,
-					"obfuscated": true
-				},
-				{
-					"text": ", and ",
-					"color": "gray",
+					"text": "Mushroom Kingdom",
+					"color": "blue",
 					"bold": false,
 					"italic": false
-				},
-				{
-					"text": "King K. Rool",
-					"color": "red",
-					"bold": false,
-					"italic": false,
-					"obfuscated": true
 				},
 				{
 					"text": ".",
@@ -57,17 +42,17 @@
 				}
 			]
 		},
-		"frame": "goal",
+		"frame": "task",
 		"show_toast": true,
 		"announce_to_chat": true
 	},
-	"parent": "ssbrc:characters/mario/slayer",
+	"parent": "ssbrc:series/super_mario_bros/mario/veteran",
 	"criteria": {
 		"impossible": {
 			"trigger": "minecraft:impossible"
 		}
 	},
 	"rewards": {
-		"function": "ssbrc:advancements/mario/three_trouble_kings"
+		"function": "ssbrc:advancements/mario/a_super_mario_party"
 	}
 }

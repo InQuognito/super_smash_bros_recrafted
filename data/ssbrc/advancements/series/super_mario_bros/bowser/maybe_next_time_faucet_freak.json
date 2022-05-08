@@ -2,40 +2,40 @@
 	"display": {
 		"icon": {
 			"item": "minecraft:barrier",
-			"nbt": "{CustomModelData:840}"
+			"nbt": "{CustomModelData:60}"
 		},
 		"title": {
-			"text": "Master",
-			"color": "yellow",
+			"text": "Maybe Next Time, Faucet Freak!",
+			"color": "light_purple",
 			"bold": false,
 			"italic": false
 		},
 		"description": {
-			"text": "Win ",
+			"text": "Win a ",
 			"color": "gray",
 			"bold": false,
 			"italic": false,
 			"extra": [
 				{
-					"text": "3",
+					"text": "1v1",
 					"color": "blue",
 					"bold": false,
 					"italic": false
 				},
 				{
-					"text": " games ",
+					"text": " against ",
 					"color": "gray",
 					"bold": false,
 					"italic": false
 				},
 				{
-					"text": "in a row",
-					"color": "blue",
+					"text": "Mario",
+					"color": "yellow",
 					"bold": false,
 					"italic": false
 				},
 				{
-					"text": ".",
+					"text": "... by means of lava.",
 					"color": "gray",
 					"bold": false,
 					"italic": false
@@ -46,13 +46,13 @@
 		"show_toast": true,
 		"announce_to_chat": true
 	},
-	"parent": "ssbrc:characters/mario/veteran",
+	"parent": "ssbrc:series/super_mario_bros/bowser/slayer",
 	"criteria": {
 		"impossible": {
 			"trigger": "minecraft:impossible"
 		}
 	},
 	"rewards": {
-		"function": "ssbrc:advancements/mario/master"
+		"function": "ssbrc:advancements/bowser/maybe_next_time_faucet_freak"
 	}
 }

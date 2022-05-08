@@ -2,11 +2,11 @@
 	"display": {
 		"icon": {
 			"item": "minecraft:barrier",
-			"nbt": "{CustomModelData:840}"
+			"nbt": "{CustomModelData:60}"
 		},
 		"title": {
-			"text": "Mario",
-			"color": "red",
+			"text": "Bowser",
+			"color": "green",
 			"bold": true,
 			"italic": false,
 			"extra": [
@@ -29,6 +29,7 @@
 		"announce_to_chat": false,
 		"background": "minecraft:textures/gui/advancements/backgrounds/stone.png"
 	},
+	"parent": "ssbrc:series/super_mario_bros/root",
 	"criteria": {
 		"novice": {
 			"trigger": "minecraft:impossible"
@@ -45,19 +46,19 @@
 		"master": {
 			"trigger": "minecraft:impossible"
 		},
-		"a_super_mario_party": {
+		"bowser_bomb": {
 			"trigger": "minecraft:impossible"
 		},
-		"bombs_away": {
+		"castle_defense": {
 			"trigger": "minecraft:impossible"
 		},
-		"in_another_castle": {
+		"gargantuans": {
 			"trigger": "minecraft:impossible"
 		},
-		"partners_in_time": {
+		"king_koopa": {
 			"trigger": "minecraft:impossible"
 		},
-		"three_trouble_kings": {
+		"maybe_next_time_faucet_freak": {
 			"trigger": "minecraft:impossible"
 		}
 	},
@@ -78,22 +79,22 @@
 			"master"
 		],
 		[
-			"a_super_mario_party"
+			"bowser_bomb"
 		],
 		[
-			"bombs_away"
+			"castle_defense"
 		],
 		[
-			"in_another_castle"
+			"gargantuans"
 		],
 		[
-			"partners_in_time"
+			"king_koopa"
 		],
 		[
-			"three_trouble_kings"
+			"maybe_next_time_faucet_freak"
 		]
 	],
 	"rewards": {
-		"function": "ssbrc:advancements/mario/mastery"
+		"function": "ssbrc:advancements/bowser/mastery"
 	}
 }

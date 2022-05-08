@@ -5,7 +5,7 @@
 			"nbt": "{CustomModelData:840}"
 		},
 		"title": {
-			"text": "Novice",
+			"text": "Master",
 			"color": "yellow",
 			"bold": false,
 			"italic": false
@@ -17,13 +17,25 @@
 			"italic": false,
 			"extra": [
 				{
-					"text": "1",
+					"text": "3",
 					"color": "blue",
 					"bold": false,
 					"italic": false
 				},
 				{
-					"text": " game.",
+					"text": " games ",
+					"color": "gray",
+					"bold": false,
+					"italic": false
+				},
+				{
+					"text": "in a row",
+					"color": "blue",
+					"bold": false,
+					"italic": false
+				},
+				{
+					"text": ".",
 					"color": "gray",
 					"bold": false,
 					"italic": false
@@ -34,13 +46,13 @@
 		"show_toast": true,
 		"announce_to_chat": true
 	},
-	"parent": "ssbrc:characters/mario/root",
+	"parent": "ssbrc:series/super_mario_bros/mario/veteran",
 	"criteria": {
 		"impossible": {
 			"trigger": "minecraft:impossible"
 		}
 	},
 	"rewards": {
-		"function": "ssbrc:advancements/mario/novice"
+		"function": "ssbrc:advancements/mario/master"
 	}
 }

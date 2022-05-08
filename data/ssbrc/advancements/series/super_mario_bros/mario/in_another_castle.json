@@ -1,0 +1,47 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:barrier",
+			"nbt": "{CustomModelData:840}"
+		},
+		"title": {
+			"text": "Where is the Princess?",
+			"color": "dark_red",
+			"bold": false,
+			"italic": false
+		},
+		"description": {
+			"text": "You can find her ",
+			"color": "gray",
+			"bold": false,
+			"italic": false,
+			"extra": [
+				{
+					"text": "in another castle",
+					"color": "red",
+					"bold": false,
+					"italic": false,
+					"obfuscated": true
+				},
+				{
+					"text": ".",
+					"color": "gray",
+					"bold": false,
+					"italic": false
+				}
+			]
+		},
+		"frame": "goal",
+		"show_toast": true,
+		"announce_to_chat": true
+	},
+	"parent": "ssbrc:series/super_mario_bros/mario/novice",
+	"criteria": {
+		"impossible": {
+			"trigger": "minecraft:impossible"
+		}
+	},
+	"rewards": {
+		"function": "ssbrc:advancements/mario/in_another_castle"
+	}
+}

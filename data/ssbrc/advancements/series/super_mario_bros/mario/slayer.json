@@ -5,25 +5,25 @@
 			"nbt": "{CustomModelData:840}"
 		},
 		"title": {
-			"text": "Survivalist",
+			"text": "Slayer",
 			"color": "yellow",
 			"bold": false,
 			"italic": false
 		},
 		"description": {
-			"text": "Win with ",
+			"text": "Get ",
 			"color": "gray",
 			"bold": false,
 			"italic": false,
 			"extra": [
 				{
-					"text": "more than one",
+					"text": "15",
 					"color": "blue",
 					"bold": false,
 					"italic": false
 				},
 				{
-					"text": " stock left.",
+					"text": " kills.",
 					"color": "gray",
 					"bold": false,
 					"italic": false
@@ -34,13 +34,13 @@
 		"show_toast": true,
 		"announce_to_chat": true
 	},
-	"parent": "ssbrc:characters/mario/veteran",
+	"parent": "ssbrc:series/super_mario_bros/mario/novice",
 	"criteria": {
 		"impossible": {
 			"trigger": "minecraft:impossible"
 		}
 	},
 	"rewards": {
-		"function": "ssbrc:advancements/mario/survivalist"
+		"function": "ssbrc:advancements/mario/slayer"
 	}
 }

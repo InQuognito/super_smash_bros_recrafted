@@ -2,28 +2,28 @@
 	"display": {
 		"icon": {
 			"item": "minecraft:barrier",
-			"nbt": "{CustomModelData:840}"
+			"nbt": "{CustomModelData:60}"
 		},
 		"title": {
-			"text": "Bombs Away",
-			"color": "light_purple",
+			"text": "Novice",
+			"color": "yellow",
 			"bold": false,
 			"italic": false
 		},
 		"description": {
-			"text": "Win a battle against ",
+			"text": "Win ",
 			"color": "gray",
 			"bold": false,
 			"italic": false,
 			"extra": [
 				{
-					"text": "Mr. Game & Watch",
-					"color": "white",
+					"text": "1",
+					"color": "blue",
 					"bold": false,
 					"italic": false
 				},
 				{
-					"text": " on his home stage.",
+					"text": " game.",
 					"color": "gray",
 					"bold": false,
 					"italic": false
@@ -34,13 +34,13 @@
 		"show_toast": true,
 		"announce_to_chat": true
 	},
-	"parent": "ssbrc:characters/mario/slayer",
+	"parent": "ssbrc:series/super_mario_bros/bowser/root",
 	"criteria": {
 		"impossible": {
 			"trigger": "minecraft:impossible"
 		}
 	},
 	"rewards": {
-		"function": "ssbrc:advancements/mario/bombs_away"
+		"function": "ssbrc:advancements/bowser/novice"
 	}
 }

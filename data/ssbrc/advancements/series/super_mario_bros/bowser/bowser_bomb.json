@@ -2,35 +2,23 @@
 	"display": {
 		"icon": {
 			"item": "minecraft:barrier",
-			"nbt": "{CustomModelData:840}"
+			"nbt": "{CustomModelData:60}"
 		},
 		"title": {
-			"text": "A Super Mario Party",
+			"text": "Bowser Bomb",
 			"color": "light_purple",
 			"bold": false,
 			"italic": false
 		},
 		"description": {
-			"text": "Play in a match consisting of ",
+			"text": "Generate a massive ",
 			"color": "gray",
 			"bold": false,
 			"italic": false,
 			"extra": [
 				{
-					"text": "only",
-					"color": "blue",
-					"bold": false,
-					"italic": false
-				},
-				{
-					"text": " characters from the ",
-					"color": "gray",
-					"bold": false,
-					"italic": false
-				},
-				{
-					"text": "Mushroom Kingdom",
-					"color": "blue",
+					"text": "Shockwave",
+					"color": "aqua",
 					"bold": false,
 					"italic": false
 				},
@@ -46,13 +34,13 @@
 		"show_toast": true,
 		"announce_to_chat": true
 	},
-	"parent": "ssbrc:characters/mario/veteran",
+	"parent": "ssbrc:series/super_mario_bros/bowser/novice",
 	"criteria": {
 		"impossible": {
 			"trigger": "minecraft:impossible"
 		}
 	},
 	"rewards": {
-		"function": "ssbrc:advancements/mario/a_super_mario_party"
+		"function": "ssbrc:advancements/bowser/bowser_bomb"
 	}
 }

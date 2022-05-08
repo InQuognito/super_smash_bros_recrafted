@@ -2,51 +2,45 @@
 	"display": {
 		"icon": {
 			"item": "minecraft:barrier",
-			"nbt": "{CustomModelData:840}"
+			"nbt": "{CustomModelData:60}"
 		},
 		"title": {
-			"text": "Partners in Time",
-			"color": "dark_red",
+			"text": "Veteran",
+			"color": "yellow",
 			"bold": false,
 			"italic": false
 		},
 		"description": {
-			"text": "Fought alongside ",
+			"text": "Play ",
 			"color": "gray",
 			"bold": false,
 			"italic": false,
 			"extra": [
 				{
-					"text": "Luigi",
-					"color": "dark_green",
+					"text": "10",
+					"color": "blue",
 					"bold": false,
 					"italic": false
 				},
 				{
-					"text": " in at least ",
+					"text": " games.",
 					"color": "gray",
 					"bold": false,
 					"italic": false
-				},
-				{
-					"text": "three different eras across time.",
-					"color": "red",
-					"bold": false,
-					"italic": true
 				}
 			]
 		},
-		"frame": "goal",
+		"frame": "task",
 		"show_toast": true,
 		"announce_to_chat": true
 	},
-	"parent": "ssbrc:characters/mario/in_another_castle",
+	"parent": "ssbrc:series/super_mario_bros/bowser/novice",
 	"criteria": {
 		"impossible": {
 			"trigger": "minecraft:impossible"
 		}
 	},
 	"rewards": {
-		"function": "ssbrc:advancements/mario/partners_in_time"
+		"function": "ssbrc:advancements/bowser/veteran"
 	}
 }

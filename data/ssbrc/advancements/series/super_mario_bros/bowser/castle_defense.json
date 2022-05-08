@@ -2,26 +2,25 @@
 	"display": {
 		"icon": {
 			"item": "minecraft:barrier",
-			"nbt": "{CustomModelData:840}"
+			"nbt": "{CustomModelData:60}"
 		},
 		"title": {
-			"text": "Where is the Princess?",
-			"color": "dark_red",
+			"text": "Castle Defense",
+			"color": "light_purple",
 			"bold": false,
 			"italic": false
 		},
 		"description": {
-			"text": "You can find her ",
+			"text": "Defended ",
 			"color": "gray",
 			"bold": false,
 			"italic": false,
 			"extra": [
 				{
-					"text": "in another castle",
-					"color": "red",
+					"text": "your home",
+					"color": "gold",
 					"bold": false,
-					"italic": false,
-					"obfuscated": true
+					"italic": false
 				},
 				{
 					"text": ".",
@@ -31,17 +30,17 @@
 				}
 			]
 		},
-		"frame": "goal",
+		"frame": "task",
 		"show_toast": true,
 		"announce_to_chat": true
 	},
-	"parent": "ssbrc:characters/mario/novice",
+	"parent": "ssbrc:series/super_mario_bros/bowser/novice",
 	"criteria": {
 		"impossible": {
 			"trigger": "minecraft:impossible"
 		}
 	},
 	"rewards": {
-		"function": "ssbrc:advancements/mario/in_another_castle"
+		"function": "ssbrc:advancements/bowser/castle_defense"
 	}
 }

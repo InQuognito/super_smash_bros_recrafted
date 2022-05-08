@@ -5,25 +5,25 @@
 			"nbt": "{CustomModelData:840}"
 		},
 		"title": {
-			"text": "Veteran",
-			"color": "yellow",
+			"text": "Bombs Away",
+			"color": "light_purple",
 			"bold": false,
 			"italic": false
 		},
 		"description": {
-			"text": "Play ",
+			"text": "Win a battle against ",
 			"color": "gray",
 			"bold": false,
 			"italic": false,
 			"extra": [
 				{
-					"text": "10",
-					"color": "blue",
+					"text": "Mr. Game & Watch",
+					"color": "white",
 					"bold": false,
 					"italic": false
 				},
 				{
-					"text": " games.",
+					"text": " on his home stage.",
 					"color": "gray",
 					"bold": false,
 					"italic": false
@@ -34,13 +34,13 @@
 		"show_toast": true,
 		"announce_to_chat": true
 	},
-	"parent": "ssbrc:characters/mario/novice",
+	"parent": "ssbrc:series/super_mario_bros/mario/slayer",
 	"criteria": {
 		"impossible": {
 			"trigger": "minecraft:impossible"
 		}
 	},
 	"rewards": {
-		"function": "ssbrc:advancements/mario/veteran"
+		"function": "ssbrc:advancements/mario/bombs_away"
 	}
 }

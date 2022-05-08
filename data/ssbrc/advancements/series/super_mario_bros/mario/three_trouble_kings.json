@@ -1,0 +1,73 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:barrier",
+			"nbt": "{CustomModelData:840}"
+		},
+		"title": {
+			"text": "Three Trouble Kings",
+			"color": "dark_red",
+			"bold": false,
+			"italic": false
+		},
+		"description": {
+			"text": "Emerge victorious against ",
+			"color": "gray",
+			"bold": false,
+			"italic": false,
+			"extra": [
+				{
+					"text": "Bowser",
+					"color": "red",
+					"bold": false,
+					"italic": false,
+					"obfuscated": true
+				},
+				{
+					"text": ", ",
+					"color": "gray",
+					"bold": false,
+					"italic": false
+				},
+				{
+					"text": "Ganondorf",
+					"color": "red",
+					"bold": false,
+					"italic": false,
+					"obfuscated": true
+				},
+				{
+					"text": ", and ",
+					"color": "gray",
+					"bold": false,
+					"italic": false
+				},
+				{
+					"text": "King K. Rool",
+					"color": "red",
+					"bold": false,
+					"italic": false,
+					"obfuscated": true
+				},
+				{
+					"text": ".",
+					"color": "gray",
+					"bold": false,
+					"italic": false
+				}
+			]
+		},
+		"frame": "goal",
+		"show_toast": true,
+		"announce_to_chat": true
+	},
+	"parent": "ssbrc:series/super_mario_bros/mario/slayer",
+	"criteria": {
+		"impossible": {
+			"trigger": "minecraft:impossible"
+		}
+	},
+	"rewards": {
+		"function": "ssbrc:advancements/mario/three_trouble_kings"
+	}
+}
