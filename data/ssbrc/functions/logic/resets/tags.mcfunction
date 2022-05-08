@@ -96,6 +96,7 @@ function ssbrc:logic/resets/tags/maps
 # Misc
 tag @s remove abilityActive
 tag @s remove abilityUsed
+tag @s remove alucard.ability
 tag @s remove demigod
 tag @s remove human
 tag @s remove warebear
