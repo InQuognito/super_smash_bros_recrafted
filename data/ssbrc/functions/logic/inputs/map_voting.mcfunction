@@ -1,6 +1,6 @@
 execute positioned -3.5 10.5 17.5 if block ~ ~ ~ #minecraft:buttons[powered=true] run function ssbrc:maps/a/acropolis_graveyard/vote
 execute positioned -3.5 4.5 19.5 if block ~ ~ ~ #minecraft:buttons[powered=true] run function ssbrc:maps/b/battlefield/vote
-execute positioned -3.5 4.5 19.5 if block ~ ~ ~ #minecraft:buttons[powered=true] run function ssbrc:maps/b/big_battlefield/vote
+execute positioned 5.5 10.5 14.5 if block ~ ~ ~ #minecraft:buttons[powered=true] run function ssbrc:maps/b/big_battlefield/vote
 execute positioned 3.5 10.5 28.5 if block ~ ~ ~ #minecraft:buttons[powered=true] run function ssbrc:maps/b/bowsers_castle/vote
 execute positioned -3.5 4.5 25.5 if block ~ ~ ~ #minecraft:buttons[powered=true] run function ssbrc:maps/c/castle_siege/vote
 execute positioned 5.5 4.5 14.5 if block ~ ~ ~ #minecraft:buttons[powered=true] run function ssbrc:maps/d/draculas_castle/vote
