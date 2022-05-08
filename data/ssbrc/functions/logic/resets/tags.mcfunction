@@ -62,34 +62,34 @@ tag @s remove favoritetry.steve
 tag @s remove favoritetry.teamrocket
 
 # Costumes
-execute as @a run function ssbrc:characters/alteredbeast/menu/costumes/reset
-execute as @a run function ssbrc:characters/alucard/menu/costumes/reset
-execute as @a run function ssbrc:characters/bowser/menu/costumes/reset
-execute as @a run function ssbrc:characters/byleth/menu/costumes/reset
-execute as @a run function ssbrc:characters/captainfalcon/menu/costumes/reset
-execute as @a run function ssbrc:characters/charizard/menu/costumes/reset
-execute as @a run function ssbrc:characters/darksamus/menu/costumes/reset
-execute as @a run function ssbrc:characters/donkeykong/menu/costumes/reset
-execute as @a run function ssbrc:characters/fox/menu/costumes/reset
-execute as @a run function ssbrc:characters/ganondorf/menu/costumes/reset
-execute as @a run function ssbrc:characters/greninja/menu/costumes/reset
-execute as @a run function ssbrc:characters/hero/menu/costumes/reset
-execute as @a run function ssbrc:characters/joker/menu/costumes/reset
-execute as @a run function ssbrc:characters/kingkrool/menu/costumes/reset
-execute as @a run function ssbrc:characters/kirby/menu/costumes/reset
-execute as @a run function ssbrc:characters/link/menu/costumes/reset
-execute as @a run function ssbrc:characters/mario/menu/costumes/reset
-execute as @a run function ssbrc:characters/megaman/menu/costumes/reset
-execute as @a run function ssbrc:characters/ness/menu/costumes/reset
-execute as @a run function ssbrc:characters/pit/menu/costumes/reset
-execute as @a run function ssbrc:characters/ryu/menu/costumes/reset
-execute as @a run function ssbrc:characters/samus/menu/costumes/reset
-execute as @a run function ssbrc:characters/shadow/menu/costumes/reset
-execute as @a run function ssbrc:characters/shovelknight/menu/costumes/reset
-execute as @a run function ssbrc:characters/snake/menu/costumes/reset
-execute as @a run function ssbrc:characters/sonic/menu/costumes/reset
-execute as @a run function ssbrc:characters/steve/menu/costumes/reset
-execute as @a run function ssbrc:characters/teamrocket/menu/costumes/reset
+function ssbrc:characters/alteredbeast/menu/costumes/reset
+function ssbrc:characters/alucard/menu/costumes/reset
+function ssbrc:characters/bowser/menu/costumes/reset
+function ssbrc:characters/byleth/menu/costumes/reset
+function ssbrc:characters/captainfalcon/menu/costumes/reset
+function ssbrc:characters/charizard/menu/costumes/reset
+function ssbrc:characters/darksamus/menu/costumes/reset
+function ssbrc:characters/donkeykong/menu/costumes/reset
+function ssbrc:characters/fox/menu/costumes/reset
+function ssbrc:characters/ganondorf/menu/costumes/reset
+function ssbrc:characters/greninja/menu/costumes/reset
+function ssbrc:characters/hero/menu/costumes/reset
+function ssbrc:characters/joker/menu/costumes/reset
+function ssbrc:characters/kingkrool/menu/costumes/reset
+function ssbrc:characters/kirby/menu/costumes/reset
+function ssbrc:characters/link/menu/costumes/reset
+function ssbrc:characters/mario/menu/costumes/reset
+function ssbrc:characters/megaman/menu/costumes/reset
+function ssbrc:characters/ness/menu/costumes/reset
+function ssbrc:characters/pit/menu/costumes/reset
+function ssbrc:characters/ryu/menu/costumes/reset
+function ssbrc:characters/samus/menu/costumes/reset
+function ssbrc:characters/shadow/menu/costumes/reset
+function ssbrc:characters/shovelknight/menu/costumes/reset
+function ssbrc:characters/snake/menu/costumes/reset
+function ssbrc:characters/sonic/menu/costumes/reset
+function ssbrc:characters/steve/menu/costumes/reset
+function ssbrc:characters/teamrocket/menu/costumes/reset
 
 function ssbrc:logic/resets/tags/maps
 
