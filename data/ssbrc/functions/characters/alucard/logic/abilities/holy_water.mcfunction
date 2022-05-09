@@ -1,4 +1,4 @@
-summon minecraft:area_effect_cloud ^ ^ ^1.5 {Tags:["direction"]}
+summon minecraft:area_effect_cloud ^ ^ ^1 {Tags:["direction"]}
 
 execute store result score #playerX pos run data get entity @s Pos[0] 1000
 execute store result score #playerY pos run data get entity @s Pos[1] 1000
@@ -11,8 +11,8 @@ scoreboard players operation #targetX pos -= #playerX pos
 scoreboard players operation #targetY pos -= #playerY pos
 scoreboard players operation #targetZ pos -= #playerZ pos
 
-execute if entity @s[tag=!alucard.ability] anchored eyes run summon minecraft:snowball ^ ^ ^0.3 {Tags:["projectile"],Passengers:[{id:"minecraft:area_effect_cloud",Tags:["alucard.holyWater","noOwner"],Age:-2147483648,Duration:-1,WaitTime:-2147483648}]}
-execute if entity @s[tag=alucard.ability] anchored eyes run summon minecraft:snowball ^ ^ ^0.3 {Tags:["projectile"],Passengers:[{id:"minecraft:area_effect_cloud",Tags:["alucard.holyWater","large","noOwner"],Age:-2147483648,Duration:-1,WaitTime:-2147483648}]}
+execute if entity @s[tag=!alucard.ability] anchored eyes run summon minecraft:snowball ^ ^ ^0.2 {Tags:["projectile"],Passengers:[{id:"minecraft:area_effect_cloud",Tags:["alucard.holyWater","noOwner"],Age:-2147483648,Duration:-1,WaitTime:-2147483648}]}
+execute if entity @s[tag=alucard.ability] anchored eyes run summon minecraft:snowball ^ ^ ^0.2 {Tags:["projectile"],Passengers:[{id:"minecraft:area_effect_cloud",Tags:["alucard.holyWater","large","noOwner"],Age:-2147483648,Duration:-1,WaitTime:-2147483648}]}
 data modify entity @e[tag=alucard.holyWater,tag=noOwner,limit=1] Owner set from entity @s UUID
 tag @e[tag=alucard.holyWater] remove noOwner
 
