@@ -11,8 +11,8 @@ scoreboard players operation #targetX pos -= #playerX pos
 scoreboard players operation #targetY pos -= #playerY pos
 scoreboard players operation #targetZ pos -= #playerZ pos
 
-execute if entity @s[tag=!alucard.ability] anchored eyes run summon minecraft:snowball ~ ~ ~ {Tags:["projectile"],Passengers:[{id:"minecraft:area_effect_cloud",Tags:["alucard.holyWater","noOwner"],Age:-2147483648,Duration:-1,WaitTime:-2147483648}]}
-execute if entity @s[tag=alucard.ability] anchored eyes run summon minecraft:snowball ~ ~ ~ {Tags:["projectile"],Passengers:[{id:"minecraft:area_effect_cloud",Tags:["alucard.holyWater","large","noOwner"],Age:-2147483648,Duration:-1,WaitTime:-2147483648}]}
+execute if entity @s[tag=!alucard.ability] anchored eyes run summon minecraft:snowball ^ ^ ^0.3 {Tags:["projectile"],Passengers:[{id:"minecraft:area_effect_cloud",Tags:["alucard.holyWater","noOwner"],Age:-2147483648,Duration:-1,WaitTime:-2147483648}]}
+execute if entity @s[tag=alucard.ability] anchored eyes run summon minecraft:snowball ^ ^ ^0.3 {Tags:["projectile"],Passengers:[{id:"minecraft:area_effect_cloud",Tags:["alucard.holyWater","large","noOwner"],Age:-2147483648,Duration:-1,WaitTime:-2147483648}]}
 data modify entity @e[tag=alucard.holyWater,tag=noOwner,limit=1] Owner set from entity @s UUID
 tag @e[tag=alucard.holyWater] remove noOwner
 
