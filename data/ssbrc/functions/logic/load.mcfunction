@@ -34,9 +34,9 @@ tag @a remove loaded
 function ssbrc:logic/timer
 schedule function ssbrc:logic/resets/lobby 1s replace
 
-###########################################################
-# REMOVE - UNLOCKS (MOST) COSTUMES ON RELOAD - DEBUG ONLY #
-###########################################################
+############################################################
+# REMOVE - UNLOCKS SLL ADVANCEMENTS ON RELOAD - DEBUG ONLY #
+############################################################
 advancement grant @a through ssbrc:series/castlevania/root
 advancement grant @a through ssbrc:series/donkey_kong/root
 advancement grant @a through ssbrc:series/dragon_quest/root
