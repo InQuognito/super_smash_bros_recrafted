@@ -1,25 +1,12 @@
-summon minecraft:area_effect_cloud ^ ^ ^0.7 {Tags:["direction"]}
+execute positioned 0.0 0.0 0.0 run summon minecraft:marker ^ ^ ^0.7 {Tags:["direction"]}
 
-execute store result score #playerX pos run data get entity @s Pos[0] 1000
-execute store result score #playerY pos run data get entity @s Pos[1] 1000
-execute store result score #playerZ pos run data get entity @s Pos[2] 1000
-execute store result score #targetX pos as @e[tag=direction,limit=1] run data get entity @s Pos[0] 1000
-execute store result score #targetY pos as @e[tag=direction,limit=1] run data get entity @s Pos[1] 1000
-execute store result score #targetZ pos as @e[tag=direction,limit=1] run data get entity @s Pos[2] 1000
+summon minecraft:snowball ^ ^ ^0.2 {Tags:["vehicleProjectile"],Passengers:[{id:"minecraft:area_effect_cloud",Tags:["teamrocket.arbok.acid","projectile"],Age:-2147483648,Duration:-1,WaitTime:-2147483648}]}
 
-scoreboard players operation #targetX pos -= #playerX pos
-scoreboard players operation #targetY pos -= #playerY pos
-scoreboard players operation #targetZ pos -= #playerZ pos
-
-execute anchored eyes run summon minecraft:snowball ^ ^ ^0.2 {Tags:["projectile"],Passengers:[{id:"minecraft:area_effect_cloud",Tags:["teamrocket.arbok.acid","noOwner"],Age:-2147483648,Duration:-1,WaitTime:-2147483648}]}
-data modify entity @e[tag=teamrocket.arbok.acid,tag=noOwner,limit=1] Owner set from entity @s UUID
-tag @e[tag=teamrocket.arbok.acid] remove noOwner
-
-execute store result entity @e[tag=projectile,limit=1] Motion[0] double 0.00125 run scoreboard players get #targetX pos
-execute store result entity @e[tag=projectile,limit=1] Motion[1] double 0.00125 run scoreboard players get #targetY pos
-execute store result entity @e[tag=projectile,limit=1] Motion[2] double 0.00125 run scoreboard players get #targetZ pos
+data modify entity @e[tag=projectile,limit=1] Owner set from entity @s UUID
+data modify entity @e[tag=vehicleProjectile,limit=1] Motion set from entity @e[tag=direction,limit=1] Pos
 
 tag @e[tag=projectile] remove projectile
+tag @e[tag=vehicleProjectile] remove vehicleProjectile
 kill @e[tag=direction]
 
 scoreboard players set @s cooldown.1 300
