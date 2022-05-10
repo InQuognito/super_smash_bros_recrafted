@@ -1,7 +1,7 @@
 [
 	{
 		"function": "minecraft:set_nbt",
-		"tag": "{AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Amount:0.35,Slot:mainhand,Name:\"generic.attack_damage\",UUID:[I;-1211022,10969,201940,-21938]}]}",
+		"tag": "{AttributeModifiers:[{AttributeName:\"minecraft:generic.attack_damage\",Amount:0.35,Slot:mainhand,Name:\"minecraft:generic.attack_damage\",UUID:[I;-1211022,10969,201940,-21938]}]}",
 		"conditions": [
 			{
 				"condition": "minecraft:entity_scores",
@@ -31,7 +31,7 @@
 	},
 	{
 		"function": "minecraft:set_nbt",
-		"tag": "{AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Amount:1.00,Slot:mainhand,Name:\"generic.attack_damage\",UUID:[I;-1211022,10969,201940,-21938]}]}",
+		"tag": "{AttributeModifiers:[{AttributeName:\"minecraft:generic.attack_damage\",Amount:1.00,Slot:mainhand,Name:\"minecraft:generic.attack_damage\",UUID:[I;-1211022,10969,201940,-21938]}]}",
 		"conditions": [
 			{
 				"condition": "minecraft:entity_scores",
@@ -61,7 +61,7 @@
 	},
 	{
 		"function": "minecraft:set_nbt",
-		"tag": "{AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Amount:1.84,Slot:mainhand,Name:\"generic.attack_damage\",UUID:[I;-1211022,10969,201940,-21938]}]}",
+		"tag": "{AttributeModifiers:[{AttributeName:\"minecraft:generic.attack_damage\",Amount:1.84,Slot:mainhand,Name:\"minecraft:generic.attack_damage\",UUID:[I;-1211022,10969,201940,-21938]}]}",
 		"conditions": [
 			{
 				"condition": "minecraft:entity_scores",
@@ -91,7 +91,7 @@
 	},
 	{
 		"function": "minecraft:set_nbt",
-		"tag": "{AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Amount:2.83,Slot:mainhand,Name:\"generic.attack_damage\",UUID:[I;-1211022,10969,201940,-21938]}]}",
+		"tag": "{AttributeModifiers:[{AttributeName:\"minecraft:generic.attack_damage\",Amount:2.83,Slot:mainhand,Name:\"minecraft:generic.attack_damage\",UUID:[I;-1211022,10969,201940,-21938]}]}",
 		"conditions": [
 			{
 				"condition": "minecraft:entity_scores",
@@ -121,7 +121,7 @@
 	},
 	{
 		"function": "minecraft:set_nbt",
-		"tag": "{AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Amount:3.95,Slot:mainhand,Name:\"generic.attack_damage\",UUID:[I;-1211022,10969,201940,-21938]}]}",
+		"tag": "{AttributeModifiers:[{AttributeName:\"minecraft:generic.attack_damage\",Amount:3.95,Slot:mainhand,Name:\"minecraft:generic.attack_damage\",UUID:[I;-1211022,10969,201940,-21938]}]}",
 		"conditions": [
 			{
 				"condition": "minecraft:entity_scores",
@@ -151,7 +151,7 @@
 	},
 	{
 		"function": "minecraft:set_nbt",
-		"tag": "{AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Amount:5.20,Slot:mainhand,Name:\"generic.attack_damage\",UUID:[I;-1211022,10969,201940,-21938]}]}",
+		"tag": "{AttributeModifiers:[{AttributeName:\"minecraft:generic.attack_damage\",Amount:5.20,Slot:mainhand,Name:\"minecraft:generic.attack_damage\",UUID:[I;-1211022,10969,201940,-21938]}]}",
 		"conditions": [
 			{
 				"condition": "minecraft:entity_scores",
@@ -181,7 +181,7 @@
 	},
 	{
 		"function": "minecraft:set_nbt",
-		"tag": "{AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Amount:6.55,Slot:mainhand,Name:\"generic.attack_damage\",UUID:[I;-1211022,10969,201940,-21938]}]}",
+		"tag": "{AttributeModifiers:[{AttributeName:\"minecraft:generic.attack_damage\",Amount:6.55,Slot:mainhand,Name:\"minecraft:generic.attack_damage\",UUID:[I;-1211022,10969,201940,-21938]}]}",
 		"conditions": [
 			{
 				"condition": "minecraft:entity_scores",
@@ -211,7 +211,7 @@
 	},
 	{
 		"function": "minecraft:set_nbt",
-		"tag": "{AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Amount:8.00,Slot:mainhand,Name:\"generic.attack_damage\",UUID:[I;-1211022,10969,201940,-21938]}]}",
+		"tag": "{AttributeModifiers:[{AttributeName:\"minecraft:generic.attack_damage\",Amount:8.00,Slot:mainhand,Name:\"minecraft:generic.attack_damage\",UUID:[I;-1211022,10969,201940,-21938]}]}",
 		"conditions": [
 			{
 				"condition": "minecraft:entity_scores",
@@ -241,7 +241,7 @@
 	},
 	{
 		"function": "minecraft:set_nbt",
-		"tag": "{AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Amount:9.55,Slot:mainhand,Name:\"generic.attack_damage\",UUID:[I;-1211022,10969,201940,-21938]}]}",
+		"tag": "{AttributeModifiers:[{AttributeName:\"minecraft:generic.attack_damage\",Amount:9.55,Slot:mainhand,Name:\"minecraft:generic.attack_damage\",UUID:[I;-1211022,10969,201940,-21938]}]}",
 		"conditions": [
 			{
 				"condition": "minecraft:entity_scores",
@@ -271,7 +271,7 @@
 	},
 	{
 		"function": "minecraft:set_nbt",
-		"tag": "{AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Amount:11.18,Slot:mainhand,Name:\"generic.attack_damage\",UUID:[I;-1211022,10969,201940,-21938]}]}",
+		"tag": "{AttributeModifiers:[{AttributeName:\"minecraft:generic.attack_damage\",Amount:11.18,Slot:mainhand,Name:\"minecraft:generic.attack_damage\",UUID:[I;-1211022,10969,201940,-21938]}]}",
 		"conditions": [
 			{
 				"condition": "minecraft:entity_scores",

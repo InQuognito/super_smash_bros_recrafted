@@ -1,6 +1,6 @@
-item replace entity @s hotbar.0 with carrot_on_a_stick{masterSword:1,awakened:1,CustomModelData:723,Unbreakable:1,AttributeModifiers:[{AttributeName:"generic.attack_damage",Amount:9,Slot:mainhand,Name:"generic.attack_damage",UUID:[I;-1211022,10969,201940,-21938]},{AttributeName:"generic.attack_speed",Amount:-1.2,Slot:mainhand,Name:"generic.attack_speed",UUID:[I;-1211022,11069,201940,-22138]}],display:{Name:'[{"text":"Master Sword","italic":false,"color":"aqua"}]'},HideFlags:127} 1
+item replace entity @s hotbar.0 with minecraft:carrot_on_a_stick{masterSword:1,awakened:1,CustomModelData:723,Unbreakable:1,AttributeModifiers:[{AttributeName:"minecraft:generic.attack_damage",Amount:9,Slot:mainhand,Name:"minecraft:generic.attack_damage",UUID:[I;-1211022,10969,201940,-21938]},{AttributeName:"minecraft:generic.attack_speed",Amount:-1.2,Slot:mainhand,Name:"minecraft:generic.attack_speed",UUID:[I;-1211022,11069,201940,-22138]}],display:{Name:'[{"text":"Master Sword","italic":false,"color":"aqua"}]'},HideFlags:127} 1
 item replace entity @s hotbar.1 with minecraft:bow{CustomModelData:1,Unbreakable:1,display:{Name:'[{"text":"Fairy Bow","italic":false,"color":"blue"}]'},HideFlags:127} 1
-item replace entity @s hotbar.2 with carrot_on_a_stick{link.ability:1,CustomModelData:721,Unbreakable:1,display:{Name:'[{"text":"Boomerang","italic":false,"color":"gold"}]'},HideFlags:127} 1
+item replace entity @s hotbar.2 with minecraft:carrot_on_a_stick{link.ability:1,CustomModelData:721,Unbreakable:1,display:{Name:'[{"text":"Boomerang","italic":false,"color":"gold"}]'},HideFlags:127} 1
 
 item replace entity @s hotbar.8 with minecraft:spectral_arrow 10
 
