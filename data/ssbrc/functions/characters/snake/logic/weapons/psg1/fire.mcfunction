@@ -1,6 +1,6 @@
 execute positioned 0.0 0.0 0.0 run summon minecraft:marker ^ ^ ^10 {Tags:["direction"]}
 
-summon minecraft:arrow ^ ^ ^0.2 {damage:1.25,Tags:["psg1Bullet","bullet","killInGround","projectile"],NoGravity:1b}
+summon minecraft:arrow ^ ^ ^0.3 {damage:1.25,Tags:["psg1Bullet","bullet","killInGround","projectile"],NoGravity:1b}
 
 data modify entity @e[tag=projectile,limit=1] Owner set from entity @s UUID
 data modify entity @e[tag=projectile,limit=1] Motion set from entity @e[tag=direction,limit=1] Pos

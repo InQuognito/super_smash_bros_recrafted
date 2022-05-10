@@ -1,6 +1,6 @@
 execute positioned 0.0 0.0 0.0 run summon minecraft:marker ^ ^ ^10 {Tags:["direction"]}
 
-summon minecraft:arrow ^ ^ ^0.2 {damage:0.5,Tags:["socomBullet","bullet","killInGround","projectile"],NoGravity:1b}
+summon minecraft:arrow ^ ^ ^0.3 {damage:0.5,Tags:["socomBullet","bullet","killInGround","projectile"],NoGravity:1b}
 
 function ssbrc:characters/snake/logic/weapons/socom/offset
 execute store result score offsetX temp run data get entity @e[tag=projectile,limit=1] Rotation[0]

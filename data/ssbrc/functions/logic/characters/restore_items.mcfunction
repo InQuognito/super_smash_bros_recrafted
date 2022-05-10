@@ -48,7 +48,7 @@ item replace entity @s[tag=joker] hotbar.2 with minecraft:lingering_potion{Custo
 # Link
 clear @s[tag=link] minecraft:carrot_on_a_stick{link.ability:1}
 clear @s[tag=link] minecraft:shield
-item replace entity @s[tag=link] hotbar.2 with carrot_on_a_stick{link.ability:1,CustomModelData:721,Unbreakable:1,display:{Name:'[{"text":"Boomerang","italic":false,"color":"gold"}]'},HideFlags:127} 1
+item replace entity @s[tag=link] hotbar.2 with minecraft:carrot_on_a_stick{link.ability:1,CustomModelData:721,Unbreakable:1,display:{Name:'[{"text":"Boomerang","italic":false,"color":"gold"}]'},HideFlags:127} 1
 item replace entity @s[tag=link,tag=!dark] weapon.offhand with minecraft:shield{Damage:300,display:{Name:'[{"text":"Hylian Shield","italic":false,"color":"blue","bold":true}]'},BlockEntityTag:{Base:11,Patterns:[{Pattern:"flo",Color:14},{Pattern:"hh",Color:11},{Pattern:"tt",Color:4},{Pattern:"ts",Color:11},{Pattern:"cbo",Color:8}]},HideFlags:127} 1
 item replace entity @s[tag=link,tag=dark] weapon.offhand with minecraft:shield{Damage:300,display:{Name:'[{"text":"Hylian Shield","italic":false,"color":"dark_gray","bold":true}]'},BlockEntityTag:{Base:15,Patterns:[{Pattern:"flo",Color:14},{Pattern:"hh",Color:15},{Pattern:"tt",Color:4},{Pattern:"ts",Color:15},{Pattern:"cbo",Color:8}]},HideFlags:127} 1
 give @s[tag=link] minecraft:spectral_arrow 5
@@ -68,10 +68,9 @@ item replace entity @s[tag=pit] armor.chest with minecraft:elytra{Damage:417,Hid
 
 # Ryu
 execute if entity @s[tag=ryu] run function ssbrc:characters/ryu/logic/off
-execute if score $gameMode options matches 1 if score @s[tag=ryu] stocks matches 1 run item replace entity @s hotbar.2 with carrot_on_a_stick{ability.ryu:1,CustomModelData:1401,Unbreakable:1,display:{Name:'[{"text":"Satsui no Hado Rage","italic":false,"color":"#660000","bold":true}]'}} 1
-execute if score $gameMode options matches 2 run scoreboard players operation #stockModulo temp = @s stocks
-execute if score $gameMode options matches 2 run scoreboard players operation #stockModulo temp %= #3 integers
-execute if score $gameMode options matches 2 if score #stockModulo temp matches 0 run item replace entity @s hotbar.2 with carrot_on_a_stick{ability.ryu:1,CustomModelData:1401,Unbreakable:1,display:{Name:'[{"text":"Satsui no Hado Rage","italic":false,"color":"#660000","bold":true}]'}} 1
+execute if score $gameMode options matches 1 if score @s[tag=ryu] stocks matches 1 run item replace entity @s hotbar.2 with minecraft:carrot_on_a_stick{ability.ryu:1,CustomModelData:1401,Unbreakable:1,display:{Name:'[{"text":"Satsui no Hado Rage","italic":false,"color":"#660000","bold":true}]'}} 1
+execute if score $gameMode options matches 2 run clear @s[tag=ryu] minecraft:carrot_on_a_stick{ability.ryu:1}
+execute if score $gameMode options matches 2 if score $gameTime timer matches ..60 run item replace entity @s hotbar.2 with minecraft:carrot_on_a_stick{ability.ryu:1,CustomModelData:1401,Unbreakable:1,display:{Name:'[{"text":"Satsui no Hado Rage","italic":false,"color":"#660000","bold":true}]'}} 1
 
 # Shovelknight
 scoreboard players set @s[tag=shovelknight] mana 10

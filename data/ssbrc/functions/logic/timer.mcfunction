@@ -36,6 +36,9 @@ execute if score $gameStage temp matches 4 if score $gameMode options matches 2 
 execute if score $gameStage temp matches 4 if score $towerOfFate map matches 1 if score $gameMode options matches 2 if score $gameTimePercent temp matches 33 run function ssbrc:maps/t/tower_of_fate/logic/destroy_tower
 execute if score $gameStage temp matches 4 if score $gameMode options matches 2 if score $gameTime timer matches ..0 run function ssbrc:logic/post_game/calculate_winner
 
+# Ryu
+execute if score $gameStage temp matches 4 if score $gameMode options matches 2 if score $gameTime timer matches ..60 as @a[nbt=!{Inventory:[{id:"minecraft:carrot_on_a_stick",tag:{ability.ryu:1}}]}] run item replace entity @s hotbar.2 with minecraft:carrot_on_a_stick{ability.ryu:1,CustomModelData:1401,Unbreakable:1,display:{Name:'[{"text":"Satsui no Hado Rage","italic":false,"color":"#660000","bold":true}]'}} 1
+
 # Waretiger - Regain Trident If Lost
 execute if score $gameStage temp matches 4 as @a[predicate=ssbrc:characters/kits/trident,nbt={Inventory:[{id:"minecraft:trident"}]}] run scoreboard players reset @s timer.trident
 execute if score $gameStage temp matches 4 as @a[predicate=ssbrc:characters/kits/trident,nbt=!{Inventory:[{id:"minecraft:trident"}]}] run scoreboard players add @s timer.trident 1
