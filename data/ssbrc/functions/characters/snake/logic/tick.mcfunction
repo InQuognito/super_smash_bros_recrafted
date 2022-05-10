@@ -1,9 +1,9 @@
 # Weapons
-execute as @s[scores={useAbility=1..},nbt={SelectedItem:{tag:{PSG1:1}}}] unless score @s snake.psg1R matches 1.. at @s run function ssbrc:characters/snake/logic/weapons/psg1/check
-execute as @s[scores={useAbility=1..},nbt={SelectedItem:{tag:{Famas:1}}}] unless score @s snake.famasR matches 1.. at @s run function ssbrc:characters/snake/logic/weapons/famas/check
-execute as @s[scores={useAbility=1..},nbt={SelectedItem:{tag:{S1000:1}}}] unless score @s snake.s1000R matches 1.. at @s run function ssbrc:characters/snake/logic/weapons/s1000/check
-execute as @s[scores={useAbility=1..},nbt={SelectedItem:{tag:{Socom:1}}}] unless score @s snake.socomR matches 1.. at @s run function ssbrc:characters/snake/logic/weapons/socom/check
-execute as @s[scores={useAbility=1..},nbt={SelectedItem:{tag:{SG:1}}}] unless score @s snake.sgF matches 1.. at @s run function ssbrc:characters/snake/logic/weapons/smoke_grenade/check
+execute as @s[scores={useAbility=1..},nbt={SelectedItem:{tag:{PSG1:1}}}] unless score @s snake.psg1R matches 1.. at @s anchored eyes run function ssbrc:characters/snake/logic/weapons/psg1/check
+execute as @s[scores={useAbility=1..},nbt={SelectedItem:{tag:{Famas:1}}}] unless score @s snake.famasR matches 1.. at @s anchored eyes run function ssbrc:characters/snake/logic/weapons/famas/check
+execute as @s[scores={useAbility=1..},nbt={SelectedItem:{tag:{S1000:1}}}] unless score @s snake.s1000R matches 1.. at @s anchored eyes run function ssbrc:characters/snake/logic/weapons/s1000/check
+execute as @s[scores={useAbility=1..},nbt={SelectedItem:{tag:{Socom:1}}}] unless score @s snake.socomR matches 1.. at @s anchored eyes run function ssbrc:characters/snake/logic/weapons/socom/check
+execute as @s[scores={useAbility=1..},nbt={SelectedItem:{tag:{SG:1}}}] unless score @s snake.sgF matches 1.. at @s anchored eyes run function ssbrc:characters/snake/logic/weapons/smoke_grenade/check
 
 # Glowing
 scoreboard players add @s timer 1
