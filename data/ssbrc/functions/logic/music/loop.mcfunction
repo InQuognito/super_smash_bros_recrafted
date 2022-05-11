@@ -159,7 +159,7 @@ execute if score $pacMaze map matches 1 if score result_music random matches 1 i
 execute if score $palletTown map matches 1 if score result_music random matches 0 as @a at @s run playsound ssbrc:battle_lets_go_pikachu_eevee music @s
 execute if score $palletTown map matches 1 if score result_music random matches 0 if score $music options matches 0 run schedule function ssbrc:logic/music/loop 1660t replace
 execute if score $palletTown map matches 1 if score result_music random matches 0 if score $music options matches 1 run schedule function ssbrc:logic/music/start 1660t replace
-execute if score $palletTown map matches 1 if score result_music random matches 1 as @a at @s run playsound ssbrc:road_to_veridian_city music @s
+execute if score $palletTown map matches 1 if score result_music random matches 1 as @a at @s run playsound ssbrc:road_to_viridian_city music @s
 execute if score $palletTown map matches 1 if score result_music random matches 1 if score $music options matches 0 run schedule function ssbrc:logic/music/loop 1860t replace
 execute if score $palletTown map matches 1 if score result_music random matches 1 if score $music options matches 1 run schedule function ssbrc:logic/music/start 1860t replace
 
