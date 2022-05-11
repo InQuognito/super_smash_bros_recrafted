@@ -7,8 +7,8 @@ execute at @s if block ~ ~-0.1 ~ minecraft:air if entity @s[predicate=ssbrc:flag
 item modify entity @s weapon.mainhand ssbrc:characters/alucard.alucard_sword
 
 # Holy Water
-execute as @e[tag=alucard.holyWater,tag=!large,tag=!active,predicate=ssbrc:flag/no_vehicle] run data merge entity @s {Particle:"flame",Radius:1.5f,Duration:200,Effects:[{Id:20b,Amplifier:1b,Duration:100,ShowParticles:0b}]}
-execute as @e[tag=alucard.holyWater,tag=large,tag=!active,predicate=ssbrc:flag/no_vehicle] run data merge entity @s {Particle:"flame",Radius:3.0f,Duration:200,Effects:[{Id:20b,Amplifier:1b,Duration:100,ShowParticles:0b}]}
+execute as @e[tag=alucard.holyWater,tag=!large,tag=!active,predicate=ssbrc:flag/no_vehicle] run data merge entity @s {Particle:"minecraft:flame",Radius:1.5f,Duration:200,Effects:[{Id:20b,Amplifier:1b,Duration:100,ShowParticles:0b}]}
+execute as @e[tag=alucard.holyWater,tag=large,tag=!active,predicate=ssbrc:flag/no_vehicle] run data merge entity @s {Particle:"minecraft:flame",Radius:3.0f,Duration:200,Effects:[{Id:20b,Amplifier:1b,Duration:100,ShowParticles:0b}]}
 tag @e[tag=alucard.holyWater,tag=!active,predicate=ssbrc:flag/no_vehicle] add active
 
 # Particles

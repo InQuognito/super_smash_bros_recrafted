@@ -1,9 +1,17 @@
 scoreboard players set @s[tag=!alucard.ability] duration.1 40
 scoreboard players set @s[tag=alucard.ability] duration.1 80
 
-execute if entity @s[tag=alucard.ability] run summon minecraft:area_effect_cloud ~ ~ ~ {Tags:["alucard.mist","noOwner"],Radius:2f,Duration:200,Effects:[{Id:19b,Amplifier:1b,Duration:100,ShowParticles:0b}]}
+execute if entity @s[tag=alucard.ability] run summon minecraft:area_effect_cloud ~ ~0 ~ {Tags:["alucard.mist","noOwner"],Radius:2f,Duration:200,Effects:[{Id:19b,Amplifier:1b,Duration:100,ShowParticles:0b}]}
 data modify entity @e[tag=alucard.mist,tag=noOwner,limit=1] Owner set from entity @s UUID
-tag @e[tag=alucard.mist] remove noOwner
+tag @e[tag=alucard.mist,tag=noOwner] remove noOwner
+
+execute if entity @s[tag=alucard.ability] run summon minecraft:area_effect_cloud ~ ~1 ~ {Tags:["alucard.mist","noOwner"],Radius:2f,Duration:200,Effects:[{Id:19b,Amplifier:1b,Duration:100,ShowParticles:0b}]}
+data modify entity @e[tag=alucard.mist,tag=noOwner,limit=1] Owner set from entity @s UUID
+tag @e[tag=alucard.mist,tag=noOwner] remove noOwner
+
+execute if entity @s[tag=alucard.ability] run summon minecraft:area_effect_cloud ~ ~2 ~ {Tags:["alucard.mist","noOwner"],Radius:2f,Duration:200,Effects:[{Id:19b,Amplifier:1b,Duration:100,ShowParticles:0b}]}
+data modify entity @e[tag=alucard.mist,tag=noOwner,limit=1] Owner set from entity @s UUID
+tag @e[tag=alucard.mist,tag=noOwner] remove noOwner
 
 execute store result score @s damage run data get entity @s Inventory[{Slot:-106b}].tag.Damage
 
