@@ -78,5 +78,8 @@ execute at @e[tag=smokeGrenade,tag=active] run particle minecraft:smoke ~ ~ ~ 1.
 scoreboard players remove @e[tag=smokeGrenade,tag=active] timer 1
 kill @e[tag=smokeGrenade,tag=active,scores={timer=..0}]
 
+# PSG-1 Zoom
+execute as @s[nbt={SelectedItem:{tag:{PSG1:1}}},predicate=ssbrc:flag/sneaking] run effect give @s minecraft:slowness 1 10 true
+
 # Bullet Trails
 execute at @e[tag=psg1Bullet] run particle minecraft:end_rod ~ ~ ~ 0.0 0.0 0.0 0.0 10 normal @a
