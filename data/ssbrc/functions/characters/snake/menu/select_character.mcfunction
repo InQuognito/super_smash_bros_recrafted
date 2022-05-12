@@ -9,7 +9,6 @@ function ssbrc:logic/resets/tags/characters
 tag @s add snake
 
 tag @s remove snake.selectingLoadout
-tag @s remove selectingLoadout
 tag @s add characterPicked
 
 team leave @s

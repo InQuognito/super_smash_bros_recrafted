@@ -10,7 +10,6 @@ function ssbrc:logic/resets/tags/characters
 tag @s add byleth
 
 tag @s remove byleth.selectingLoadout
-tag @s remove selectingLoadout
 tag @s add characterPicked
 
 team leave @s
