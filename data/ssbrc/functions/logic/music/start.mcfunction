@@ -161,6 +161,12 @@ execute if score $palletTown map matches 1 if score result_music random matches 
 execute if score $palletTown map matches 1 if score result_music random matches 1 run tellraw @a [{"text":"Now Playing: ","bold":true,"color":"gold"},{"text":"Road to Viridian City","color":"yellow"}]
 execute if score $palletTown map matches 1 if score result_music random matches 1 run schedule function ssbrc:logic/music/loop 120t replace
 
+execute if score $sandOcean map matches 1 if score result_music random matches 0 as @a at @s run playsound ssbrc:brain_cleaner_intro music @s
+execute if score $sandOcean map matches 1 if score result_music random matches 0 run tellraw @a [{"text":"Now Playing: ","bold":true,"color":"gold"},{"text":"Brain Cleaner","color":"yellow"}]
+execute if score $sandOcean map matches 1 if score result_music random matches 0 run schedule function ssbrc:logic/music/loop 400t replace
+execute if score $sandOcean map matches 1 if score result_music random matches 1 run tellraw @a [{"text":"Now Playing: ","bold":true,"color":"gold"},{"text":"Sand Ocean","color":"yellow"}]
+execute if score $sandOcean map matches 1 if score result_music random matches 1 run function ssbrc:logic/music/loop
+
 execute if score $saturnValley map matches 1 if score result_music random matches 0 as @a at @s run playsound ssbrc:humoresque_of_a_little_dog_intro music @s
 execute if score $saturnValley map matches 1 if score result_music random matches 0 run tellraw @a [{"text":"Now Playing: ","bold":true,"color":"gold"},{"text":"Humoresque of a Little Dog","color":"yellow"}]
 execute if score $saturnValley map matches 1 if score result_music random matches 0 run schedule function ssbrc:logic/music/loop 160t replace

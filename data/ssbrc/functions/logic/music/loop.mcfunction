@@ -163,6 +163,13 @@ execute if score $palletTown map matches 1 if score result_music random matches 
 execute if score $palletTown map matches 1 if score result_music random matches 1 if score $music options matches 0 run schedule function ssbrc:logic/music/loop 1860t replace
 execute if score $palletTown map matches 1 if score result_music random matches 1 if score $music options matches 1 run schedule function ssbrc:logic/music/start 1860t replace
 
+execute if score $sandOcean map matches 1 if score result_music random matches 0 as @a at @s run playsound ssbrc:brain_cleaner music @s
+execute if score $sandOcean map matches 1 if score result_music random matches 0 if score $music options matches 0 run schedule function ssbrc:logic/music/loop 1760t replace
+execute if score $sandOcean map matches 1 if score result_music random matches 0 if score $music options matches 1 run schedule function ssbrc:logic/music/start 1760t replace
+execute if score $sandOcean map matches 1 if score result_music random matches 1 as @a at @s run playsound ssbrc:sand_ocean music @s
+execute if score $sandOcean map matches 1 if score result_music random matches 1 if score $music options matches 0 run schedule function ssbrc:logic/music/loop 1140t replace
+execute if score $sandOcean map matches 1 if score result_music random matches 1 if score $music options matches 1 run schedule function ssbrc:logic/music/start 1140t replace
+
 execute if score $saturnValley map matches 1 if score result_music random matches 0 as @a at @s run playsound ssbrc:humoresque_of_a_little_dog music @s
 execute if score $saturnValley map matches 1 if score result_music random matches 0 if score $music options matches 0 run schedule function ssbrc:logic/music/loop 1760t replace
 execute if score $saturnValley map matches 1 if score result_music random matches 0 if score $music options matches 1 run schedule function ssbrc:logic/music/start 1760t replace
