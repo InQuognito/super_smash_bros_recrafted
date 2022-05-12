@@ -1,1 +1,3 @@
-execute if score @s duration.1 matches 1.. run function ssbrc:characters/bowser/logic/fire_breath/raycast
+execute if entity @s[predicate=ssbrc:flag/sneaking] run function ssbrc:characters/bowser/logic/fire_breath/tick
+
+scoreboard players add @s[predicate=!ssbrc:flag/sneaking,scores={charge.1=..99}] charge.1 1
