@@ -79,26 +79,26 @@
 	},
 	{
 		"function": "minecraft:set_nbt",
-		"tag": "{CustomModelData:101}",
-		"conditions": [
-			{
-				"condition": "minecraft:entity_properties",
-				"entity": "this",
-				"predicate": {
-					"nbt": "{Tags:[\"byleth\",\"female\"]}"
-				}
-			}
-		]
-	},
-	{
-		"function": "minecraft:set_nbt",
 		"tag": "{CustomModelData:100}",
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
 				"entity": "this",
 				"predicate": {
-					"nbt": "{Tags:[\"byleth\",\"male\"]}"
+					"nbt": "{Tags:[\"byleth\",\"default\",\"female\"]}"
+				}
+			}
+		]
+	},
+	{
+		"function": "minecraft:set_nbt",
+		"tag": "{CustomModelData:101}",
+		"conditions": [
+			{
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"nbt": "{Tags:[\"byleth\",\"default\",\"male\"]}"
 				}
 			}
 		]
@@ -111,7 +111,20 @@
 				"condition": "minecraft:entity_properties",
 				"entity": "this",
 				"predicate": {
-					"nbt": "{Tags:[\"byleth\",\"gold\"]}"
+					"nbt": "{Tags:[\"byleth\",\"gold\",\"female\"]}"
+				}
+			}
+		]
+	},
+	{
+		"function": "minecraft:set_nbt",
+		"tag": "{CustomModelData:103}",
+		"conditions": [
+			{
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"nbt": "{Tags:[\"byleth\",\"gold\",\"male\"]}"
 				}
 			}
 		]

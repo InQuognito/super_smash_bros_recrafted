@@ -46,7 +46,7 @@
 				"condition": "minecraft:entity_properties",
 				"entity": "this",
 				"predicate": {
-					"nbt": "{Tags:[\"byleth\",\"female\"]}"
+					"nbt": "{Tags:[\"byleth\",\"default\",\"female\"]}"
 				}
 			}
 		]
@@ -59,7 +59,7 @@
 				"condition": "minecraft:entity_properties",
 				"entity": "this",
 				"predicate": {
-					"nbt": "{Tags:[\"byleth\",\"male\"]}"
+					"nbt": "{Tags:[\"byleth\",\"default\",\"male\"]}"
 				}
 			}
 		]
