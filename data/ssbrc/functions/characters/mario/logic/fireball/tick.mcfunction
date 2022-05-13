@@ -17,3 +17,5 @@ execute unless block ~ ~ ~0.1 #ssbrc:passthrough run kill @s
 execute unless block ~ ~0.1 ~ #ssbrc:passthrough run kill @s
 
 execute if entity @a[distance=..0] run kill @s
+
+scoreboard players add @s temp 1
