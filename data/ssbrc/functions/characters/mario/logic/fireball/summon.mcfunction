@@ -2,7 +2,7 @@ execute rotated as @s run summon minecraft:area_effect_cloud ^ ^ ^0.3 {Tags:["fi
 
 data modify entity @e[tag=projectile,limit=1] Owner set from entity @s UUID
 
-scoreboard players set @e[tag=projectile] point 0
+scoreboard players set @e[tag=projectile] point 60
 scoreboard players set @e[tag=projectile] slope 0
 
 tag @e[tag=projectile] remove projectile
