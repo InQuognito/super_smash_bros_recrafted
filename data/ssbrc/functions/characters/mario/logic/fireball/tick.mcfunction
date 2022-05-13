@@ -8,6 +8,3 @@ execute unless score @s point matches 80.. run scoreboard players operation @s p
 execute unless score @s point matches 80.. run scoreboard players remove @s slope 1
 
 execute unless block ~ ~ ~0.1 #ssbrc:passthrough run function ssbrc:characters/mario/logic/fireball/bounce
-
-scoreboard players add @s temp 1
-kill @s[scores={temp=70..}]
