@@ -34,6 +34,7 @@ scoreboard objectives remove menu
 scoreboard objectives remove motionX
 scoreboard objectives remove motionY
 scoreboard objectives remove motionZ
+scoreboard objectives remove point
 scoreboard objectives remove pos
 #scoreboard objectives remove random
 scoreboard objectives remove reset
@@ -43,6 +44,7 @@ scoreboard objectives remove selectFavorite
 scoreboard objectives remove shadow.chaosControl
 scoreboard objectives remove shadow.meter.hero
 scoreboard objectives remove shadow.meter.villain
+scoreboard objectives remove slope
 scoreboard objectives remove snake.apm
 scoreboard objectives remove snake.capacity
 scoreboard objectives remove snake.famasA

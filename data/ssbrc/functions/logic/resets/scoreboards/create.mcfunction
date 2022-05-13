@@ -34,6 +34,7 @@ scoreboard objectives add menu trigger
 scoreboard objectives add motionX dummy
 scoreboard objectives add motionY dummy
 scoreboard objectives add motionZ dummy
+scoreboard objectives add point dummy
 scoreboard objectives add pos dummy
 scoreboard objectives add random dummy
 scoreboard objectives add reset dummy
@@ -43,6 +44,7 @@ scoreboard objectives add selectFavorite minecraft.used:minecraft.carrot_on_a_st
 scoreboard objectives add shadow.chaosControl dummy
 scoreboard objectives add shadow.meter.hero dummy
 scoreboard objectives add shadow.meter.villain dummy
+scoreboard objectives add slope dummy
 scoreboard objectives add snake.apm dummy
 scoreboard objectives add snake.capacity dummy
 scoreboard objectives add snake.famasA dummy
