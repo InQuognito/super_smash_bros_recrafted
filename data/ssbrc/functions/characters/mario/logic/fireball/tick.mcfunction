@@ -1,4 +1,5 @@
 tp @s ^ ^ ^0.3
+tp @s @p[dy=-2]
 
 particle minecraft:dust 1.0 0.0 0.0 1.0 ~ ~ ~ 0.0 0.0 0.0 0.0 1
 
