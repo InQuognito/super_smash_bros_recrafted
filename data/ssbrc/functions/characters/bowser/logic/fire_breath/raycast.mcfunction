@@ -6,4 +6,4 @@ execute if score @s bowser.fireBreath matches 21..40 run particle minecraft:flam
 execute if score @s bowser.fireBreath matches 1..20 run particle minecraft:flame ~ ~ ~ 0.5 0.5 0.5 0.0075 5 normal @a
 
 execute unless score @s bowser.fireBreath >= @s charge.1 run scoreboard players add @s bowser.fireBreath 1
-execute if score @s bowser.fireBreath matches ..100 positioned ^ ^ ^0.1 run function ssbrc:characters/bowser/logic/fire_breath/raycast
+execute unless score @s bowser.fireBreath >= @s charge.1 positioned ^ ^ ^0.1 run function ssbrc:characters/bowser/logic/fire_breath/raycast
