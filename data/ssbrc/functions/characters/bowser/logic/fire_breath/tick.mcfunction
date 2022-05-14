@@ -8,6 +8,6 @@ scoreboard players reset @a[scores={bowser.fireBreath=10..}] bowser.fireBreath
 tag @a remove fireBreath
 
 scoreboard players set @s bowser.fireBreath 0
-execute at @s anchored eyes positioned ^ ^-0.3 ^0.3 run function ssbrc:characters/bowser/logic/fire_breath/raycast
+execute if block ^ ^ ^0.3 #ssbrc:passthrough at @s anchored eyes positioned ^ ^-0.3 ^0.3 run function ssbrc:characters/bowser/logic/fire_breath/raycast
 
 scoreboard players set @s cooldown.1 80
