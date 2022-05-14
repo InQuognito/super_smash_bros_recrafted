@@ -12,4 +12,4 @@ execute if score @s bowser.fireBreath matches 61..80 run tag @a[distance=..0.5] 
 execute if score @s bowser.fireBreath matches 81..100 run tag @a[distance=..1] add fireBreath
 
 scoreboard players add @s bowser.fireBreath 1
-execute if score @s bowser.fireBreath < @s charge.1 positioned ^ ^ ^0.1 run function ssbrc:characters/bowser/logic/fire_breath/raycast
+execute if block ^ ^ ^0.3 #ssbrc:passthrough if score @s bowser.fireBreath < @s charge.1 positioned ^ ^ ^0.1 run function ssbrc:characters/bowser/logic/fire_breath/raycast
