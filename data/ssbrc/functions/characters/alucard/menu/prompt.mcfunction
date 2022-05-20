@@ -4,7 +4,7 @@ tellraw @s [{"text":"=== ","color":"white"},{"text":"Alucard","color":"gray"},{"
 
 function ssbrc:logic/resets/tags/characters
 
-team join waiting @s
+execute if score $teams options matches 0 run team join team2 @s
 effect give @s minecraft:glowing 1000000 255 true
 
 execute if score $gameStage temp matches 1 run scoreboard players set $countdown timer 5

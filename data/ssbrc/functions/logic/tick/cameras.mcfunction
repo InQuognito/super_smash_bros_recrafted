@@ -1,4 +1,4 @@
-execute anchored eyes facing entity @p[team=alive,scores={respawn=..0},distance=..5] eyes run tp @s ~ ~ ~ ~ ~
+execute anchored eyes facing entity @p[tag=alive,scores={respawn=..0},distance=..5] eyes run tp @s ~ ~ ~ ~ ~
 
 data modify storage ssbrc:facing Head set value [0f,0f,0f]
 

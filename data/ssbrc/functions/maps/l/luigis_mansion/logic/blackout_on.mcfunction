@@ -1,6 +1,6 @@
 scoreboard players set $blackout temp 1
 
-effect clear @a[team=alive] minecraft:glowing
+effect clear @a[tag=alive] minecraft:glowing
 
 fill -340 8 -1165 -285 24 -1145 minecraft:light[level=0] replace minecraft:light
 fill -340 8 -1144 -285 24 -1124 minecraft:light[level=0] replace minecraft:light
