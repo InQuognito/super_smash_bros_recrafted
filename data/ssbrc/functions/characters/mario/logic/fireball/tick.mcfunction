@@ -7,8 +7,6 @@ execute unless score @s point matches 80.. run scoreboard players remove @s slop
 
 execute unless block ~ ~-0.3 ~ #ssbrc:passthrough run function ssbrc:characters/mario/logic/fireball/bounce
 
-execute if entity @a[distance=..0] run kill @s
-
 tp @s ^ ^ ^0.3
 
 tag @s add self
