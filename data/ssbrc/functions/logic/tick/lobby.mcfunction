@@ -14,6 +14,15 @@ execute as @a[nbt={SelectedItem:{tag:{slot:1}}}] store result score @s favorite.
 execute as @a[nbt={SelectedItem:{tag:{slot:2}}}] store result score @s favorite.temp run scoreboard players get @s favorite.slot2
 execute as @a[nbt={SelectedItem:{tag:{slot:3}}}] store result score @s favorite.temp run scoreboard players get @s favorite.slot3
 
+# Teams
+execute as @a[scores={useAbility=1..},nbt={SelectedItem:{tag:{teamFlag:1,team.pink:1}}}] run function ssbrc:logic/teams/red
+execute as @a[scores={useAbility=1..},nbt={SelectedItem:{tag:{teamFlag:1,team.red:1}}}] run function ssbrc:logic/teams/blue
+execute as @a[scores={useAbility=1..},nbt={SelectedItem:{tag:{teamFlag:1,team.blue:1}}}] run function ssbrc:logic/teams/green
+execute as @a[scores={useAbility=1..},nbt={SelectedItem:{tag:{teamFlag:1,team.green:1}}}] run function ssbrc:logic/teams/yellow
+execute as @a[scores={useAbility=1..},nbt={SelectedItem:{tag:{teamFlag:1,team.yellow:1}}}] run function ssbrc:logic/teams/purple
+execute as @a[scores={useAbility=1..},nbt={SelectedItem:{tag:{teamFlag:1,team.purple:1}}}] run function ssbrc:logic/teams/orange
+execute as @a[scores={useAbility=1..},nbt={SelectedItem:{tag:{teamFlag:1,team.orange:1}}}] run function ssbrc:logic/teams/pink
+
 # Favorites
 execute as @a[tag=!bowser,predicate=!ssbrc:flag/sneaking,scores={selectFavorite=1..,favorite.temp=60}] run function ssbrc:characters/bowser/menu/select_character
 execute as @a[tag=!byleth,predicate=!ssbrc:flag/sneaking,scores={selectFavorite=1..,favorite.temp=100}] run function ssbrc:characters/byleth/menu/loadout/prompt
