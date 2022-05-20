@@ -4,6 +4,15 @@ scoreboard players operation $totalStocks temp *= $stockLimit options
 function ssbrc:logic/resets/gamerules
 execute unless score $playersAlive temp matches 1.. if entity @a[team=spectator] run gamerule spectatorsGenerateChunks true
 
+team modify team1 nametagVisibility hideForOtherTeams
+team modify team2 nametagVisibility hideForOtherTeams
+team modify team3 nametagVisibility hideForOtherTeams
+team modify team4 nametagVisibility hideForOtherTeams
+team modify team5 nametagVisibility hideForOtherTeams
+team modify team6 nametagVisibility hideForOtherTeams
+team modify team7 nametagVisibility hideForOtherTeams
+team modify team8 nametagVisibility hideForOtherTeams
+
 function ssbrc:logic/id/set
 
 title @a actionbar ""
