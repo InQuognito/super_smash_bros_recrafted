@@ -110,9 +110,8 @@ execute as @a[team=!spectator,tag=!characterSelect] run function ssbrc:logic/spe
 execute as @a[team=waiting,tag=!characterPicked] run function ssbrc:logic/spectate
 
 gamemode spectator @a[team=spectator]
-team join temp @a[team=!spectator]
-execute store result score #playersAll temp run team list temp
-team empty temp
+
+execute store result score #playersAll temp if entity @a[tag=alive]
 
 scoreboard players set $gameStage temp 2
 scoreboard players set $countdown timer 31
