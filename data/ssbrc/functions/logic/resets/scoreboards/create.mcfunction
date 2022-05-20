@@ -35,6 +35,7 @@ scoreboard objectives add menu trigger
 scoreboard objectives add motionX dummy
 scoreboard objectives add motionY dummy
 scoreboard objectives add motionZ dummy
+scoreboard objectives add moveDistance minecraft.custom:minecraft.walk_one_cm
 scoreboard objectives add point dummy
 scoreboard objectives add pos dummy
 scoreboard objectives add random dummy

@@ -35,6 +35,7 @@ scoreboard objectives remove menu
 scoreboard objectives remove motionX
 scoreboard objectives remove motionY
 scoreboard objectives remove motionZ
+scoreboard objectives remove moveDistance
 scoreboard objectives remove point
 scoreboard objectives remove pos
 #scoreboard objectives remove random
