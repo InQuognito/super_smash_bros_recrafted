@@ -70,6 +70,7 @@ scoreboard objectives add snake.sgF dummy
 scoreboard objectives add steve.tier dummy
 scoreboard objectives add stocks dummy
 scoreboard objectives add timer dummy
+scoreboard objectives add timer.stalfos dummy
 scoreboard objectives add timer.trident dummy
 scoreboard objectives add temp dummy
 scoreboard objectives add useAbility minecraft.used:minecraft.carrot_on_a_stick
