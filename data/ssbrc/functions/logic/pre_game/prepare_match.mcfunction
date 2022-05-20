@@ -13,6 +13,7 @@ team modify team6 nametagVisibility hideForOtherTeams
 team modify team7 nametagVisibility hideForOtherTeams
 team modify team8 nametagVisibility hideForOtherTeams
 
+scoreboard players set $global id -1
 function ssbrc:logic/id/set
 
 title @a actionbar ""

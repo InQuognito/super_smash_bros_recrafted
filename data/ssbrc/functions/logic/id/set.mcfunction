@@ -1,8 +1,6 @@
 scoreboard players add $global id 1
 scoreboard players operation @s id = $global id
 
-tellraw @a ["",{"text":"id value: "},{"score":{"name":"$global","objective":"id"}}]
-
 execute if score $teams options matches 0 if score @s id matches 1 run team join team1
 execute if score $teams options matches 0 if score @s id matches 2 run team join team2
 execute if score $teams options matches 0 if score @s id matches 3 run team join team3
