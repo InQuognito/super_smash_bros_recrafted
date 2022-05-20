@@ -7,7 +7,7 @@ execute unless score @s point matches 80.. run scoreboard players remove @s slop
 
 execute unless block ~ ~-0.3 ~ #ssbrc:passthrough run function ssbrc:characters/mario/logic/fireball/bounce
 
-tp @s ^ ^ ^0.3
+execute rotated as @s run tp @s ^ ^ ^0.3
 
 tag @s add self
 execute as @a[dx=0] positioned ~-0.99 ~-0.99 ~-0.99 if entity @s[dx=0] run tp @e[type=minecraft:area_effect_cloud,tag=self] @s
