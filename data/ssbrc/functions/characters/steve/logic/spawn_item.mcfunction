@@ -3,10 +3,10 @@ execute if score $steveItemCount temp >= $steveItemCap temp as @e[nbt={Item:{tag
 
 execute as @r[tag=steve] at @s run loot spawn ~ ~100 ~ loot ssbrc:steve_items
 
-execute if score $playersPlaying temp matches ..2 run schedule function ssbrc:characters/steve/logic/spawn_item 160t replace
-execute if score $playersPlaying temp matches 3 run schedule function ssbrc:characters/steve/logic/spawn_item 150t replace
-execute if score $playersPlaying temp matches 4 run schedule function ssbrc:characters/steve/logic/spawn_item 140t replace
-execute if score $playersPlaying temp matches 5 run schedule function ssbrc:characters/steve/logic/spawn_item 130t replace
-execute if score $playersPlaying temp matches 6 run schedule function ssbrc:characters/steve/logic/spawn_item 120t replace
-execute if score $playersPlaying temp matches 7 run schedule function ssbrc:characters/steve/logic/spawn_item 110t replace
-execute if score $playersPlaying temp matches 8.. run schedule function ssbrc:characters/steve/logic/spawn_item 100t replace
+execute if score $playersAlive temp matches ..2 run schedule function ssbrc:characters/steve/logic/spawn_item 160t replace
+execute if score $playersAlive temp matches 3 run schedule function ssbrc:characters/steve/logic/spawn_item 150t replace
+execute if score $playersAlive temp matches 4 run schedule function ssbrc:characters/steve/logic/spawn_item 140t replace
+execute if score $playersAlive temp matches 5 run schedule function ssbrc:characters/steve/logic/spawn_item 130t replace
+execute if score $playersAlive temp matches 6 run schedule function ssbrc:characters/steve/logic/spawn_item 120t replace
+execute if score $playersAlive temp matches 7 run schedule function ssbrc:characters/steve/logic/spawn_item 110t replace
+execute if score $playersAlive temp matches 8.. run schedule function ssbrc:characters/steve/logic/spawn_item 100t replace
