@@ -14,6 +14,8 @@ execute if score $gameMode options matches 1 if score @s stocks matches ..0 run 
 
 execute if score $gameMode options matches 2 run scoreboard players add @s stocks 1
 
+execute if predicate ssbrc:flag/killer/ganondorf run tag @s add stalfosSource
+
 scoreboard players reset $stockPercentage temp
 scoreboard players operation $stockPercentage temp += @a stocks
 scoreboard players operation $stockPercentage temp *= #100 integers
