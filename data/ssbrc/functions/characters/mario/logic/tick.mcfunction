@@ -3,7 +3,7 @@ execute as @s[scores={useAbility=1..,cooldown.1=..0},nbt={SelectedItem:{tag:{fir
 # Super Jump
 execute if entity @s[predicate=ssbrc:flag/sneaking] run scoreboard players add @s charge.1 1
 
-scoreboard players reset @s[predicate=!ssbrc:flag/sneaking,scores={cooldown.1=..0}] charge.1
+scoreboard players reset @s[predicate=!ssbrc:flag/sneaking] charge.1
 scoreboard players reset @s[scores={moveDistance=200..}] charge.1
 scoreboard players reset @s[scores={moveDistance=200..}] moveDistance
 
