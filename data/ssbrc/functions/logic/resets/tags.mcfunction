@@ -110,6 +110,7 @@ tag @s remove byleth.selectingLoadout
 tag @s remove byleth.weaponBroken
 tag @s remove characterPicked
 tag @s remove hero.magicLost
+tag @s remove idSet
 tag @s remove mapRoom
 tag @s remove naturalShiny
 tag @s remove pickingCharacter

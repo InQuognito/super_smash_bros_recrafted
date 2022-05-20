@@ -4,7 +4,7 @@ scoreboard players operation $totalStocks temp *= $stockLimit options
 function ssbrc:logic/resets/gamerules
 execute unless score $playersAlive temp matches 1.. if entity @a[team=spectator] run gamerule spectatorsGenerateChunks true
 
-function ssbrc:logic/id/test
+function ssbrc:logic/id/set
 
 title @a actionbar ""
 
