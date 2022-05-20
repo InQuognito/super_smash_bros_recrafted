@@ -1,5 +1,3 @@
-team join alive @a[team=!spectator]
-execute store result score $playersPlaying temp run team list alive
 scoreboard players operation $totalStocks temp = $playersPlaying temp
 scoreboard players operation $totalStocks temp *= $stockLimit options
 

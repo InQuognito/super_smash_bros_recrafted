@@ -111,7 +111,7 @@ execute as @a[team=waiting,tag=!characterPicked] run function ssbrc:logic/specta
 
 gamemode spectator @a[team=spectator]
 
-execute store result score #playersAll temp if entity @a[tag=alive]
+execute store result score $playersPlaying temp if entity @a[tag=alive]
 
 scoreboard players set $gameStage temp 2
 scoreboard players set $countdown timer 31

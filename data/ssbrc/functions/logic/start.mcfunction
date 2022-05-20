@@ -7,6 +7,7 @@ team modify team4 nametagVisibility never
 team modify team5 nametagVisibility never
 team modify team6 nametagVisibility never
 team modify team7 nametagVisibility never
+team modify team8 nametagVisibility never
 
 scoreboard players reset @a stocks
 execute if score $gameMode options matches 1 run scoreboard players operation @a[tag=alive] stocks = $stockLimit options
