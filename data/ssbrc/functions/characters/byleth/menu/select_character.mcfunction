@@ -12,7 +12,7 @@ tag @s add byleth
 tag @s remove byleth.selectingLoadout
 tag @s add characterPicked
 
-team leave @s
+execute if score $teams options matches 0 run team leave @s
 effect clear @s minecraft:glowing
 
 function ssbrc:logic/pre_game/character_select/check_participation

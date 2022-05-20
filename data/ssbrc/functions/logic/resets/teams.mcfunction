@@ -5,19 +5,23 @@ team remove team4
 team remove team5
 team remove team6
 team remove team7
+team remove team8
 team remove dead
 team remove spectator
+team remove waiting
 team remove temp
 
 team add team1
 team add team2
-execute if score $teams options matches 1 run team add team3
-execute if score $teams options matches 1 run team add team4
-execute if score $teams options matches 1 run team add team5
-execute if score $teams options matches 1 run team add team6
-execute if score $teams options matches 1 run team add team7
+team add team3
+team add team4
+team add team5
+team add team6
+team add team7
+team add team8
 team add dead
 team add spectator
+team add waiting
 team add temp
 
 execute if score $teams options matches 0 run team modify team1 color green
@@ -34,7 +38,7 @@ execute if score $teams options matches 0 run team modify team1 seeFriendlyInvis
 execute if score $teams options matches 1 run team modify team1 seeFriendlyInvisibles true
 team modify team1 suffix ""
 
-execute if score $teams options matches 0 run team modify team2 color yellow
+execute if score $teams options matches 0 run team modify team2 color green
 execute if score $teams options matches 1 run team modify team2 color blue
 team modify team2 collisionRule always
 team modify team2 deathMessageVisibility never
@@ -50,52 +54,85 @@ team modify team2 suffix ""
 team modify team3 color green
 team modify team3 collisionRule always
 team modify team3 deathMessageVisibility never
-team modify team3 displayName "Green"
-team modify team3 friendlyFire false
+execute if score $teams options matches 0 run team modify team3 displayName "Alive"
+execute if score $teams options matches 1 run team modify team3 displayName "Green"
+execute if score $teams options matches 0 run team modify team3 friendlyFire true
+execute if score $teams options matches 1 run team modify team3 friendlyFire false
 team modify team3 nametagVisibility always
 team modify team3 prefix ""
-team modify team3 seeFriendlyInvisibles true
+execute if score $teams options matches 0 run team modify team3 seeFriendlyInvisibles false
+execute if score $teams options matches 1 run team modify team3 seeFriendlyInvisibles true
 team modify team3 suffix ""
 
-team modify team4 color yellow
+execute if score $teams options matches 0 run team modify team4 color green
+execute if score $teams options matches 1 run team modify team4 color yellow
 team modify team4 collisionRule always
 team modify team4 deathMessageVisibility never
-team modify team4 displayName "Yellow"
-team modify team4 friendlyFire false
+execute if score $teams options matches 0 run team modify team4 displayName "Alive"
+execute if score $teams options matches 1 run team modify team4 displayName "Yellow"
+execute if score $teams options matches 0 run team modify team4 friendlyFire true
+execute if score $teams options matches 1 run team modify team4 friendlyFire false
 team modify team4 nametagVisibility always
 team modify team4 prefix ""
-team modify team4 seeFriendlyInvisibles true
+execute if score $teams options matches 0 run team modify team4 seeFriendlyInvisibles false
+execute if score $teams options matches 1 run team modify team4 seeFriendlyInvisibles true
 team modify team4 suffix ""
 
-team modify team5 color dark_purple
+execute if score $teams options matches 0 run team modify team5 color green
+execute if score $teams options matches 1 run team modify team5 color dark_purple
 team modify team5 collisionRule always
 team modify team5 deathMessageVisibility never
-team modify team5 displayName "Purple"
-team modify team5 friendlyFire false
+execute if score $teams options matches 0 run team modify team5 displayName "Alive"
+execute if score $teams options matches 1 run team modify team5 displayName "Purple"
+execute if score $teams options matches 0 run team modify team5 friendlyFire true
+execute if score $teams options matches 1 run team modify team5 friendlyFire false
 team modify team5 nametagVisibility always
 team modify team5 prefix ""
-team modify team5 seeFriendlyInvisibles true
+execute if score $teams options matches 0 run team modify team5 seeFriendlyInvisibles false
+execute if score $teams options matches 1 run team modify team5 seeFriendlyInvisibles true
 team modify team5 suffix ""
 
-team modify team6 color gold
+execute if score $teams options matches 0 run team modify team6 color green
+execute if score $teams options matches 1 run team modify team6 color gold
 team modify team6 collisionRule always
 team modify team6 deathMessageVisibility never
-team modify team6 displayName "Orange"
-team modify team6 friendlyFire false
+execute if score $teams options matches 0 run team modify team6 displayName "Alive"
+execute if score $teams options matches 1 run team modify team6 displayName "Orange"
+execute if score $teams options matches 0 run team modify team6 friendlyFire true
+execute if score $teams options matches 1 run team modify team6 friendlyFire false
 team modify team6 nametagVisibility always
 team modify team6 prefix ""
-team modify team6 seeFriendlyInvisibles true
+execute if score $teams options matches 0 run team modify team6 seeFriendlyInvisibles false
+execute if score $teams options matches 1 run team modify team6 seeFriendlyInvisibles true
 team modify team6 suffix ""
 
-team modify team7 color light_purple
+execute if score $teams options matches 0 run team modify team7 color green
+execute if score $teams options matches 1 run team modify team7 color light_purple
 team modify team7 collisionRule always
 team modify team7 deathMessageVisibility never
-team modify team7 displayName "Pink"
-team modify team7 friendlyFire false
+execute if score $teams options matches 0 run team modify team7 displayName "Alive"
+execute if score $teams options matches 1 run team modify team7 displayName "Pink"
+execute if score $teams options matches 0 run team modify team7 friendlyFire true
+execute if score $teams options matches 1 run team modify team7 friendlyFire false
 team modify team7 nametagVisibility always
 team modify team7 prefix ""
-team modify team7 seeFriendlyInvisibles true
+execute if score $teams options matches 0 run team modify team7 seeFriendlyInvisibles false
+execute if score $teams options matches 1 run team modify team7 seeFriendlyInvisibles true
 team modify team7 suffix ""
+
+execute if score $teams options matches 0 run team modify team8 color green
+execute if score $teams options matches 1 run team modify team8 color aqua
+team modify team8 collisionRule always
+team modify team8 deathMessageVisibility never
+execute if score $teams options matches 0 run team modify team8 displayName "Alive"
+execute if score $teams options matches 1 run team modify team8 displayName "Aqua"
+execute if score $teams options matches 0 run team modify team8 friendlyFire true
+execute if score $teams options matches 1 run team modify team8 friendlyFire false
+team modify team8 nametagVisibility always
+team modify team8 prefix ""
+execute if score $teams options matches 0 run team modify team8 seeFriendlyInvisibles false
+execute if score $teams options matches 1 run team modify team8 seeFriendlyInvisibles true
+team modify team8 suffix ""
 
 team modify dead color dark_gray
 team modify dead collisionRule never
@@ -116,6 +153,16 @@ team modify spectator nametagVisibility always
 team modify spectator prefix "[X] "
 team modify spectator seeFriendlyInvisibles true
 team modify spectator suffix ""
+
+team modify waiting color yellow
+team modify waiting collisionRule always
+team modify waiting deathMessageVisibility never
+team modify waiting displayName "Waiting"
+team modify waiting friendlyFire false
+team modify waiting nametagVisibility never
+team modify waiting prefix ""
+team modify waiting seeFriendlyInvisibles true
+team modify waiting suffix ""
 
 team modify temp color white
 team modify temp collisionRule always
