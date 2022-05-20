@@ -1,6 +1,7 @@
 execute as @s[tag=bowser] run function ssbrc:characters/bowser/logic/tick
 execute as @s[tag=byleth] run function ssbrc:characters/byleth/logic/tick
 execute as @s[tag=darksamus] run function ssbrc:characters/darksamus/logic/tick
+execute as @s[tag=ganondorf] run function ssbrc:characters/ganondorf/logic/tick
 execute as @s[tag=greninja] run function ssbrc:characters/greninja/logic/tick
 execute as @s[tag=hero] run function ssbrc:characters/hero/logic/tick
 execute as @s[tag=joker] run function ssbrc:characters/joker/logic/tick
