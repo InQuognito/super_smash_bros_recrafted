@@ -11,4 +11,4 @@ execute if score $teams options matches 0 if score @s id matches 7 run team join
 execute if score $teams options matches 0 if score @s id matches 8 run team join team8
 
 tag @s add idSet
-execute as @a[tag=alive,tag=!idSet] run function ssbrc:logic/id/set
+execute as @r[tag=alive,tag=!idSet] run function ssbrc:logic/id/set
