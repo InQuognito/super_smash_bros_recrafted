@@ -19,7 +19,7 @@ summon minecraft:armor_stand 26.5 6.0 140.5 {Tags:["lobbyStand","donkeykong","de
 summon minecraft:area_effect_cloud 26.5 7.75 158.5 {CustomName:'{"text":"Fox","color":"white"}',CustomNameVisible:1b,Age:-2147483648,Duration:-1,WaitTime:-2147483648}
 summon minecraft:armor_stand 26.5 6.0 160.5 {Tags:["lobbyStand","fox","default"],Rotation:[-180f,0f],ArmorItems:[{id:"minecraft:iron_boots",Count:1b},{},{},{}]}
 
-summon minecraft:area_effect_cloud 51.5 7.75 156.5 {CustomName:'{"text":"Ganondorf","color":"black"}',CustomNameVisible:1b,Age:-2147483648,Duration:-1,WaitTime:-2147483648}
+summon minecraft:area_effect_cloud 51.5 7.75 156.5 {CustomName:'{"text":"Ganondorf","color":"red"}',CustomNameVisible:1b,Age:-2147483648,Duration:-1,WaitTime:-2147483648}
 summon minecraft:armor_stand 51.5 6.0 158.5 {Tags:["lobbyStand","ganondorf","default"],Rotation:[-180f,0f],ArmorItems:[{},{},{id:"minecraft:netherite_chestplate",Count:1b},{}]}
 
 summon minecraft:area_effect_cloud 14.5 7.75 156.5 {CustomName:'{"text":"Greninja","color":"blue"}',CustomNameVisible:1b,Age:-2147483648,Duration:-1,WaitTime:-2147483648}
