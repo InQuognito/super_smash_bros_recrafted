@@ -18,7 +18,7 @@ execute if score @s moveDistance matches 200.. run function ssbrc:logic/characte
 scoreboard players reset @s[scores={moveDistance=200..}] moveDistance
 
 # Ice Ball
-execute as @e[type=minecraft:area_effect_cloud,tag=ice_ball] at @s run function ssbrc:characters/luigi/logic/ice_ball/tick
+execute as @e[type=minecraft:area_effect_cloud,tag=iceBall] at @s run function ssbrc:characters/luigi/logic/ice_ball/tick
 
 # Water Walking
 execute if block ~ ~-1 ~ minecraft:water if score @s[predicate=ssbrc:flag/sprinting] charge.2 matches 1.. run effect give @s minecraft:levitation 1000000 255 true
