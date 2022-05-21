@@ -14,6 +14,7 @@ tag @s remove joker
 tag @s remove kirby
 tag @s remove kingkrool
 tag @s remove link
+tag @s remove luigi
 tag @s remove mario
 tag @s remove megaman
 tag @s remove ness

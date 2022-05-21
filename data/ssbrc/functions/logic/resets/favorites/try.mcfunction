@@ -14,6 +14,7 @@ tag @a remove favoritetry.joker
 tag @a remove favoritetry.kirby
 tag @a remove favoritetry.kingkrool
 tag @a remove favoritetry.link
+tag @a remove favoritetry.luigi
 tag @a remove favoritetry.mario
 tag @a remove favoritetry.megaman
 tag @a remove favoritetry.ness

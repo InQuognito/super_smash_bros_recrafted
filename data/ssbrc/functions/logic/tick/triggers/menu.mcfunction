@@ -72,6 +72,11 @@ execute if score @s[tag=!mapRoom,tag=!link] menu matches 721 run function ssbrc:
 execute if score @s[tag=!mapRoom,tag=!link] menu matches 722 run function ssbrc:characters/link/menu/favorite
 execute if score @s[tag=!mapRoom,tag=!link] menu matches 723 run function ssbrc:characters/link/menu/how_to_play
 
+execute if score @s[tag=!mapRoom,tag=!luigi] menu matches 820 run function ssbrc:characters/luigi/menu/select_character
+execute if score @s[tag=!mapRoom,tag=!luigi] menu matches 821 run function ssbrc:characters/luigi/menu/skin_options
+execute if score @s[tag=!mapRoom,tag=!luigi] menu matches 822 run function ssbrc:characters/luigi/menu/favorite
+execute if score @s[tag=!mapRoom,tag=!luigi] menu matches 823 run function ssbrc:characters/luigi/menu/how_to_play
+
 execute if score @s[tag=!mapRoom,tag=!mario] menu matches 840 run function ssbrc:characters/mario/menu/select_character
 execute if score @s[tag=!mapRoom,tag=!mario] menu matches 841 run function ssbrc:characters/mario/menu/skin_options
 execute if score @s[tag=!mapRoom,tag=!mario] menu matches 842 run function ssbrc:characters/mario/menu/favorite
