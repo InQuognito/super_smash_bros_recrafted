@@ -8,6 +8,7 @@ tag @e[tag=teamrocket.arbok.acid,tag=!active,predicate=ssbrc:flag/no_vehicle] ad
 
 # Payday
 execute as @e[tag=teamrocket.meowth.payday] at @s run function ssbrc:characters/teamrocket/logic/meowth/payday/entity
+execute as @e[tag=paydayProjectile] at @s run particle minecraft:dust 1.0 1.0 0.0 0.5 ~ ~ ~ 0.0 0.0 0.0 0.0 1 normal @a
 
 # Counter
 item modify entity @s weapon.mainhand ssbrc:characters/wobbuffet.counter

@@ -1,6 +1,6 @@
 execute positioned 0.0 0.0 0.0 run summon minecraft:marker ~ ~2 ~ {Tags:["direction"]}
 
-summon minecraft:arrow ~ ~1 ~ {damage:0.5,Tags:["projectile"]}
+summon minecraft:arrow ~ ~1 ~ {damage:0.5,Tags:["paydayProjectile","projectile"]}
 
 function ssbrc:characters/teamrocket/logic/meowth/payday/projectiles/offset
 execute store result score offsetX temp run data get entity @e[tag=projectile,limit=1] Rotation[0]
