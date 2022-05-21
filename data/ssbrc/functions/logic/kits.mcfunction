@@ -12,6 +12,7 @@ execute as @s[tag=joker] run function ssbrc:characters/joker/kit
 execute as @s[tag=kingkrool] run function ssbrc:characters/kingkrool/kit
 execute as @s[tag=kirby] run function ssbrc:characters/kirby/kit
 execute as @s[tag=link] run function ssbrc:characters/link/kit
+execute as @s[tag=luigi] run function ssbrc:characters/luigi/kit
 execute as @s[tag=mario] run function ssbrc:characters/mario/kit
 execute as @s[tag=megaman] run function ssbrc:characters/megaman/kit
 execute as @s[tag=ness] run function ssbrc:characters/ness/kit
