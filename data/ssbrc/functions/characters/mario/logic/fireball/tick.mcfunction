@@ -1,9 +1,9 @@
 particle minecraft:dust 1.0 0.0 0.0 2.0 ~ ~ ~ 0.0 0.0 0.0 0.0 1
 
-execute store result entity @s Rotation[1] float 0.25 run scoreboard players get @s point
+execute store result entity @s Rotation[1] float 0.5 run scoreboard players get @s point
 
 scoreboard players operation @s point -= @s slope
-scoreboard players remove @s slope 5
+scoreboard players remove @s slope 10
 
 execute unless block ~ ~-0.3 ~ #ssbrc:passthrough run function ssbrc:characters/mario/logic/fireball/bounce
 
