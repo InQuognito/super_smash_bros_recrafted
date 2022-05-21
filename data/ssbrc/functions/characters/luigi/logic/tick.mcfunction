@@ -18,7 +18,7 @@ execute as @e[type=minecraft:area_effect_cloud,tag=iceBall] at @s run function s
 # Water Walking
 execute at @s if block ~ ~-1 ~ minecraft:water if score @s[predicate=ssbrc:flag/sprinting] charge.2 matches 1.. run effect give @s minecraft:levitation 1000000 255 true
 execute if entity @s[predicate=!ssbrc:flag/sprinting] run effect clear @s minecraft:levitation
-execute if score @s[predicate=ssbrc:flag/sprinting] charge.2 matches 0 run effect clear @s minecraft:levitation
+execute if score @s charge.2 matches 0 run effect clear @s minecraft:levitation
 
 execute at @s unless block ~ ~-1 ~ minecraft:water run scoreboard players add @s[scores={charge.2=..19}] charge.2 1
-execute at @s if block ~ ~-1 ~ minecraft:water run scoreboard players remove @s[scores={charge.2=1..}] charge.2 1
+execute at @s if block ~ ~-1 ~ #ssbrc:passthrough run scoreboard players remove @s[scores={charge.2=1..}] charge.2 1
