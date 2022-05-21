@@ -40,6 +40,9 @@ summon minecraft:armor_stand 44.5 6.0 140.5 {Tags:["lobbyStand","kirby","default
 summon minecraft:area_effect_cloud 33.5 7.75 133.5 {CustomName:'{"text":"Link","color":"dark_green"}',CustomNameVisible:1b,Age:-2147483648,Duration:-1,WaitTime:-2147483648}
 summon minecraft:armor_stand 31.5 6.0 133.5 {Tags:["lobbyStand","link","default"],Rotation:[-90f,0f]}
 
+summon minecraft:area_effect_cloud 53.5 7.75 113.5 {CustomName:'{"text":"Luigi","color":"dark_green"}',CustomNameVisible:1b,Age:-2147483648,Duration:-1,WaitTime:-2147483648}
+summon minecraft:armor_stand 53.5 6.0 111.5 {Tags:["lobbyStand","luigi","default"],Rotation:[0f,0f]}
+
 summon minecraft:area_effect_cloud 37.5 7.75 133.5 {CustomName:'{"text":"Mario","color":"red"}',CustomNameVisible:1b,Age:-2147483648,Duration:-1,WaitTime:-2147483648}
 summon minecraft:armor_stand 39.5 6.0 133.5 {Tags:["lobbyStand","mario","default"],Rotation:[90f,0f]}
 
