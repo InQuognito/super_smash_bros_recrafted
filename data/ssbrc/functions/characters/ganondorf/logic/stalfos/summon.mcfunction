@@ -2,7 +2,7 @@ summon minecraft:skeleton ~ ~ ~ {Tags:["getTeam"],CustomName:'[{"text":"Stalfos"
 data modify entity @e[type=minecraft:skeleton,tag=getTeam,limit=1] Team merge from entity @s Team
 
 tag @e remove getTeam
-scoreboard players operation #max timer.stalfos > @a timer.stalfos
+scoreboard players operation #max timer.stalfos > @e timer.stalfos
 execute as @e[tag=stalfosSpawn] if score #max timer.stalfos = @s timer.stalfos run kill @s
 tag @s remove stalfosGet
 scoreboard players reset @s charge.1
