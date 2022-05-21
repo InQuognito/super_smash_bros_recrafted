@@ -19,7 +19,7 @@ scoreboard players remove @e[scores={duration.3=1..}] duration.3 1
 execute unless score $sectorZ map matches 1 run effect give @a[tag=alive,gamemode=adventure,scores={respawn=..0},predicate=ssbrc:below_y/0] minecraft:blindness 2 0 true
 
 # Characters
-execute as @a[tag=alive] run function ssbrc:logic/tick/characters
+execute as @a[tag=alive,gamemode=adventure] run function ssbrc:logic/tick/characters
 
 # Maps
 function ssbrc:logic/tick/maps

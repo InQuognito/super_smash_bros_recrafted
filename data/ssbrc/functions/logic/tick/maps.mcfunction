@@ -1,4 +1,5 @@
 execute if score $battlefield map matches 1 run function ssbrc:maps/b/battlefield/logic/tick
+execute if score $bigBattlefield map matches 1 run function ssbrc:maps/b/big_battlefield/logic/tick
 execute if score $bowsersCastle map matches 1 run function ssbrc:maps/b/bowsers_castle/logic/tick
 execute if score $draculasCastle map matches 1 run function ssbrc:maps/d/draculas_castle/logic/tick
 execute if score $finalDestination map matches 1 run function ssbrc:maps/f/final_destination/logic/tick
