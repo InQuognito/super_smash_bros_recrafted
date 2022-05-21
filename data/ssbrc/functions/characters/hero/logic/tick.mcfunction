@@ -1,7 +1,7 @@
-execute as @s[tag=!hero.magicLost,scores={mana=..0}] unless score @s duration.2 matches 1.. run function ssbrc:characters/hero/logic/lose_magic
+execute if entity @s[tag=!hero.magicLost,scores={mana=..0}] unless score @s duration.2 matches 1.. run function ssbrc:characters/hero/logic/lose_magic
 execute as @a[scores={useAbility=1..,cooldown.1=..0},nbt={SelectedItem:{tag:{ability.hero:2}}}] at @s anchored eyes if score @s mana >= #hero.bangManaCost vars run function ssbrc:characters/hero/logic/magic/bang
-execute as @s[scores={useAbility=1..},nbt={SelectedItem:{tag:{ability.hero:3}}}] if score @s mana >= #hero.kaclangManaCost vars run function ssbrc:characters/hero/logic/magic/kaclang
-execute as @s[scores={useAbility=1..,mana=21..},nbt={SelectedItem:{tag:{ability.hero:4}}}] run function ssbrc:characters/hero/logic/magic/magic_burst_activate
+execute if entity @s[scores={useAbility=1..},nbt={SelectedItem:{tag:{ability.hero:3}}}] if score @s mana >= #hero.kaclangManaCost vars run function ssbrc:characters/hero/logic/magic/kaclang
+execute if entity @s[scores={useAbility=1..,mana=21..},nbt={SelectedItem:{tag:{ability.hero:4}}}] run function ssbrc:characters/hero/logic/magic/magic_burst_activate
 
 # Mana
 title @s[tag=!hero.magicLost,scores={mana=..0}] actionbar [{"text":"Out of Mana: Warrior Switch","bold":true,"color":"red"}]
@@ -48,12 +48,12 @@ execute if entity @s[scores={duration.2=..0}] run function ssbrc:characters/hero
 # Magic Burst
 scoreboard players add @s[scores={charge.1=1..}] charge.1 1
 
-execute as @s[scores={charge.1=1..10}] at @s run particle minecraft:portal ~ ~ ~ 0.0 0.0 0.0 0.75 10 normal @a
-execute as @s[scores={charge.1=5..15}] at @s run particle minecraft:portal ~ ~ ~ 0.0 0.0 0.0 1.3 25 normal @a
-execute as @s[scores={charge.1=10..20}] at @s run particle minecraft:portal ~ ~ ~ 0.0 0.0 0.0 3.0 75 normal @a
-execute as @s[scores={charge.1=70..100}] at @s run particle minecraft:dust 0.75 0.0 0.75 2.0 ~ ~ ~ 3.0 3.0 3.0 0.15 750 normal @a
-execute as @s[scores={charge.1=70..100}] at @s run particle minecraft:dust 1.0 0.0 1.0 1.0 ~ ~ ~ 4.0 4.0 4.0 1.5 100 normal @a
+execute if entity @s[scores={charge.1=1..10}] at @s run particle minecraft:portal ~ ~ ~ 0.0 0.0 0.0 0.75 10 normal @a
+execute if entity @s[scores={charge.1=5..15}] at @s run particle minecraft:portal ~ ~ ~ 0.0 0.0 0.0 1.3 25 normal @a
+execute if entity @s[scores={charge.1=10..20}] at @s run particle minecraft:portal ~ ~ ~ 0.0 0.0 0.0 3.0 75 normal @a
+execute if entity @s[scores={charge.1=70..100}] at @s run particle minecraft:dust 0.75 0.0 0.75 2.0 ~ ~ ~ 3.0 3.0 3.0 0.15 750 normal @a
+execute if entity @s[scores={charge.1=70..100}] at @s run particle minecraft:dust 1.0 0.0 1.0 1.0 ~ ~ ~ 4.0 4.0 4.0 1.5 100 normal @a
 
-execute as @s[scores={charge.1=70}] at @s run function ssbrc:characters/hero/logic/magic/magic_burst
+execute if entity @s[scores={charge.1=70}] at @s run function ssbrc:characters/hero/logic/magic/magic_burst
 
 scoreboard players reset @s[scores={charge.1=101..}] charge.1

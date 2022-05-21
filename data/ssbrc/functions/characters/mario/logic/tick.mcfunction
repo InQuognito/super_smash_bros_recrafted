@@ -1,4 +1,4 @@
-execute as @s[scores={useAbility=1..,cooldown.1=..0},nbt={SelectedItem:{tag:{fireball:1}}}] at @s anchored eyes run function ssbrc:characters/mario/logic/fireball/summon
+execute if entity @s[scores={useAbility=1..,cooldown.1=..0},nbt={SelectedItem:{tag:{fireball:1}}}] at @s anchored eyes run function ssbrc:characters/mario/logic/fireball/summon
 
 # Super Jump
 execute if entity @s[predicate=ssbrc:flag/sneaking] run scoreboard players add @s charge.1 1

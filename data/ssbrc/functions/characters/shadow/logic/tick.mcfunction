@@ -1,7 +1,7 @@
-execute as @a[scores={useAbility=1..,cooldown.1=..0},nbt={SelectedItem:{tag:{chaosSpear:1}}}] run scoreboard players set @s charge.1 1
+execute if entity @s[scores={useAbility=1..,cooldown.1=..0},nbt={SelectedItem:{tag:{chaosSpear:1}}}] run scoreboard players set @s charge.1 1
 
-execute as @a[scores={useAbility=1..,cooldown.1=..0},nbt={SelectedItem:{tag:{chaosControl:1}}}] run function ssbrc:characters/shadow/logic/chaos_control/on
-execute as @a[scores={useAbility=1..,cooldown.1=..0},nbt={SelectedItem:{tag:{chaosBlast:1}}}] run function ssbrc:characters/shadow/logic/chaos_blast/activate
+execute if entity @s[scores={useAbility=1..,cooldown.1=..0},nbt={SelectedItem:{tag:{chaosControl:1}}}] run function ssbrc:characters/shadow/logic/chaos_control/on
+execute if entity @s[scores={useAbility=1..,cooldown.1=..0},nbt={SelectedItem:{tag:{chaosBlast:1}}}] run function ssbrc:characters/shadow/logic/chaos_blast/activate
 
 # Chaos Spear
 scoreboard players add @s[scores={charge.1=1..}] charge.1 1
@@ -19,8 +19,8 @@ scoreboard players remove @a[scores={shadow.chaosControl=1..}] shadow.chaosContr
 execute as @a[scores={shadow.chaosControl=..0}] run function ssbrc:characters/shadow/logic/chaos_control/off
 
 # Chaos Blast
-execute as @s[scores={charge.2=1..}] at @s run function ssbrc:characters/shadow/logic/chaos_blast/charge
-execute as @s[scores={charge.2=70}] at @s run function ssbrc:characters/shadow/logic/chaos_blast/unleash
+execute if entity @s[scores={charge.2=1..}] at @s run function ssbrc:characters/shadow/logic/chaos_blast/charge
+execute if entity @s[scores={charge.2=70}] at @s run function ssbrc:characters/shadow/logic/chaos_blast/unleash
 scoreboard players reset @s[scores={charge.2=101..}] charge.2
 
 execute as @e[tag=chaosBlastShockwave.default] at @s run particle minecraft:dust 0.3 0.0 0.0 1.0 ~ ~ ~ 0.1 0.1 0.1 1.0 1 normal @a

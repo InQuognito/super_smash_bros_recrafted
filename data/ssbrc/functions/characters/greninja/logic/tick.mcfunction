@@ -1,4 +1,4 @@
-execute as @s[scores={useAbility=1..},nbt={SelectedItem:{tag:{waterShuriken:1}}}] at @s run function ssbrc:characters/greninja/logic/water_shuriken/check
+execute if entity @s[scores={useAbility=1..},nbt={SelectedItem:{tag:{waterShuriken:1}}}] at @s run function ssbrc:characters/greninja/logic/water_shuriken/check
 
 title @s[nbt={SelectedItem:{tag:{waterShuriken:1}}},scores={charge.2=0..}] actionbar {"score":{"name":"@s","objective":"charge.2"},"color":"blue"}
 
