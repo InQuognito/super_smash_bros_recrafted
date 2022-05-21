@@ -9,4 +9,4 @@ data modify entity @e[tag=projectile,limit=1] Motion set from entity @e[tag=dire
 tag @e[tag=projectile] remove projectile
 kill @e[tag=direction]
 
-clear @s minecraft:carrot_on_a_stick{link.ability:1}
+clear @s minecraft:carrot_on_a_stick{boomerang:1}

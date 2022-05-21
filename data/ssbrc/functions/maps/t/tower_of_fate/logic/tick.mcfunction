@@ -1,5 +1,5 @@
 kill @a[tag=alive,scores={respawn=..0},predicate=ssbrc:below_y/-50]
-tp @a[scores={respawn=59},predicate=ssbrc:below_y/-50] @r[tag=alive,scores={respawn=..0}]
+execute as @a[scores={respawn=59},predicate=ssbrc:below_y/-50] run tp @s @r[tag=alive,scores={respawn=..0}]
 
 # Destroy Tower
 execute if score #towerOfFateDestroyed temp matches 1 if score #towerOfFateDestroyedTimer temp matches 1.. run scoreboard players add #towerOfFateDestroyedTimer temp 1
