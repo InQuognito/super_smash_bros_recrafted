@@ -2,8 +2,11 @@
 	"condition": "minecraft:alternative",
 	"terms": [
 		{
-			"condition": "minecraft:reference",
-			"name": "ssbrc:characters/luigi.super_jump"
+			"condition": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
+				"nbt": "{Tags:[\"luigi\"]}"
+			}
 		},
 		{
 			"condition": "minecraft:entity_properties",
