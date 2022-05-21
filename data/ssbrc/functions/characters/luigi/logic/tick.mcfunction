@@ -5,7 +5,7 @@ execute if entity @s[predicate=ssbrc:flag/sneaking] run scoreboard players add @
 
 execute if score @s charge.1 matches 60.. at @s run particle minecraft:glow ~ ~0.01 ~ 0.2 0.2 0.2 0.0 2 normal @a
 
-execute if score @s charge.1 matches 60.. if score @s jumps matches 1.. run effect give @s minecraft:slow_falling 3 255 true
+execute if score @s charge.1 matches 60.. if score @s jumps matches 1.. run effect give @s minecraft:slow_falling 2 255 true
 
 execute if score @s charge.1 matches 60 run function ssbrc:logic/characters/effects/defaults/jump_boost
 execute if score @s jumps matches 1.. run function ssbrc:logic/characters/effects/defaults/jump_boost
