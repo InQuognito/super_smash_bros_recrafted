@@ -3,6 +3,6 @@ data modify entity @e[type=minecraft:skeleton,tag=getTeam,limit=1] Team merge fr
 
 tag @e remove getTeam
 scoreboard players operation #max timer.stalfos > @a timer.stalfos
-execute as @a[tag=stalfosSpawn] if score #max timer.stalfos = @s timer.stalfos run kill @s
+execute as @e[tag=stalfosSpawn] if score #max timer.stalfos = @s timer.stalfos run kill @s
 tag @s remove stalfosGet
 scoreboard players reset @s charge.1
