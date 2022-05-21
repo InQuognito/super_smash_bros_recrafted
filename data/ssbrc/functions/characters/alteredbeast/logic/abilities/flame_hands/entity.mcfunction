@@ -1,4 +1,4 @@
-particle minecraft:dust 0.941 0.106 0.106 0.75 ^ ^ ^ 0.0 0.0 0.0 0 0 normal @a
+particle minecraft:dust 0.941 0.106 0.106 2.25 ^ ^ ^ 0.0 0.0 0.0 0 0 normal @a
 
 scoreboard players add @s temp 1
 kill @s[scores={temp=20..}]

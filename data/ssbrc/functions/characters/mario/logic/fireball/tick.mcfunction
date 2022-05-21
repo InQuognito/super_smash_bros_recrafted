@@ -1,4 +1,4 @@
-particle minecraft:dust 1.0 0.0 0.0 1.0 ~ ~ ~ 0.0 0.0 0.0 0.0 1
+particle minecraft:dust 1.0 0.0 0.0 2.0 ~ ~ ~ 0.0 0.0 0.0 0.0 1
 
 execute store result entity @s Rotation[1] float 0.5 run scoreboard players get @s point
 
