@@ -19,6 +19,7 @@ execute if entity @s[tag=teamrocket] run function ssbrc:characters/teamrocket/lo
 
 execute if entity @s[tag=alteredbeast] run function ssbrc:characters/alteredbeast/logic/tick
 execute if entity @s[tag=alucard] run function ssbrc:characters/alucard/logic/tick
+execute if entity @s[tag=giegue] run function ssbrc:characters/giegue/logic/tick
 execute if entity @s[tag=shadow] run function ssbrc:characters/shadow/logic/tick
 execute if entity @s[tag=shovelknight] run function ssbrc:characters/shovelknight/logic/tick
 

@@ -1,4 +1,5 @@
-scoreboard players add @s[tag=stalfosGet] charge.1 1
-execute if entity @s[tag=stalfosGet,scores={charge.1=1..}] at @e[tag=stalfosSpawn] run function ssbrc:characters/giegue/logic/stalfos/summon
+execute if entity @s[scores={useAbility=1..,cooldown.1=..0},nbt={SelectedItem:{tag:{pkFreeze:1}}}] at @s anchored eyes run function ssbrc:characters/giegue/logic/abilities/pk_freeze/summon
+execute if entity @s[scores={useAbility=1..,cooldown.2=..0},nbt={SelectedItem:{tag:{pkBeam:1}}}] at @s anchored eyes run function ssbrc:characters/giegue/logic/abilities/pk_beam/summon
 
-scoreboard players add @e[tag=stalfosSpawn] timer.stalfos 1
+execute as @e[type=minecraft:arrow,tag=pkFreeze] at @s run function ssbrc:characters/giegue/logic/abilities/pk_freeze/tick
+execute as @e[type=minecraft:area_effect_cloud,tag=pkBeam] at @s run function ssbrc:characters/giegue/logic/abilities/pk_beam/tick
