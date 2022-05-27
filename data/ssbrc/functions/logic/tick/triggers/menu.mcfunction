@@ -134,6 +134,11 @@ execute if score @s[tag=!mapRoom,tag=!alucard] menu matches 1841 run function ss
 execute if score @s[tag=!mapRoom,tag=!alucard] menu matches 1842 run function ssbrc:characters/alucard/menu/favorite
 execute if score @s[tag=!mapRoom,tag=!alucard] menu matches 1843 run function ssbrc:characters/alucard/menu/how_to_play
 
+execute if score @s[tag=!mapRoom,tag=!giegue] menu matches 1860 run function ssbrc:characters/giegue/menu/select_character
+execute if score @s[tag=!mapRoom,tag=!giegue] menu matches 1861 run function ssbrc:characters/giegue/menu/skin_options
+execute if score @s[tag=!mapRoom,tag=!giegue] menu matches 1862 run function ssbrc:characters/giegue/menu/favorite
+execute if score @s[tag=!mapRoom,tag=!giegue] menu matches 1863 run function ssbrc:characters/giegue/menu/how_to_play
+
 execute if score @s[tag=!mapRoom,tag=!shadow] menu matches 1900 run function ssbrc:characters/shadow/menu/select_character
 execute if score @s[tag=!mapRoom,tag=!shadow] menu matches 1901 run function ssbrc:characters/shadow/menu/skin_options
 execute if score @s[tag=!mapRoom,tag=!shadow] menu matches 1902 run function ssbrc:characters/shadow/menu/favorite
