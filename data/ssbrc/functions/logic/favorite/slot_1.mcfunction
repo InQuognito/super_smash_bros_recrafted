@@ -12,6 +12,7 @@ execute if entity @s[tag=favoritetry.joker] run scoreboard players set @s favori
 execute if entity @s[tag=favoritetry.kingkrool] run scoreboard players set @s favorite.slot1 680
 execute if entity @s[tag=favoritetry.kirby] run scoreboard players set @s favorite.slot1 700
 execute if entity @s[tag=favoritetry.link] run scoreboard players set @s favorite.slot1 720
+execute if entity @s[tag=favoritetry.luigi] run scoreboard players set @s favorite.slot1 820
 execute if entity @s[tag=favoritetry.mario] run scoreboard players set @s favorite.slot1 840
 execute if entity @s[tag=favoritetry.megaman] run scoreboard players set @s favorite.slot1 880
 execute if entity @s[tag=favoritetry.ness] run scoreboard players set @s favorite.slot1 1080
@@ -24,6 +25,7 @@ execute if entity @s[tag=favoritetry.steve] run scoreboard players set @s favori
 
 execute if entity @s[tag=favoritetry.alteredbeast] run scoreboard players set @s favorite.slot1 1820
 execute if entity @s[tag=favoritetry.alucard] run scoreboard players set @s favorite.slot1 1840
+execute if entity @s[tag=favoritetry.giegue] run scoreboard players set @s favorite.slot1 1860
 execute if entity @s[tag=favoritetry.shadow] run scoreboard players set @s favorite.slot1 1900
 execute if entity @s[tag=favoritetry.shovelknight] run scoreboard players set @s favorite.slot1 1920
 execute if entity @s[tag=favoritetry.teamrocket] run scoreboard players set @s favorite.slot1 1940
