@@ -5,22 +5,22 @@ summon minecraft:area_effect_cloud 62.5 7.75 124.5 {CustomName:'{"text":"Byleth"
 summon minecraft:armor_stand 60.5 6.0 124.5 {Tags:["lobbyStand","byleth","default","female"],Rotation:[-90f,0f]}
 
 summon minecraft:area_effect_cloud 44.5 7.75 158.5 {CustomName:'{"text":"Captain Falcon","color":"red"}',CustomNameVisible:1b,Age:-2147483648,Duration:-1,WaitTime:-2147483648}
-summon minecraft:armor_stand 44.5 6.0 160.5 {Tags:["lobbyStand","captainfalcon","default"],Rotation:[180f,0f],ArmorItems:[{id:"minecraft:golden_boots",Count:1b},{},{},{}]}
+summon minecraft:armor_stand 44.5 6.0 160.5 {Tags:["lobbyStand","captainfalcon","default"],Rotation:[180f,0f]}
 
 summon minecraft:area_effect_cloud 19.5 7.75 156.5 {CustomName:'{"text":"Charizard","color":"gold"}',CustomNameVisible:1b,Age:-2147483648,Duration:-1,WaitTime:-2147483648}
 summon minecraft:armor_stand 19.5 6.0 158.5 {Tags:["lobbyStand","charizard","default"],Rotation:[180f,0f]}
 
 summon minecraft:area_effect_cloud 79.5 7.75 112.5 {CustomName:'{"text":"Dark Samus","color":"aqua"}',CustomNameVisible:1b,Age:-2147483648,Duration:-1,WaitTime:-2147483648}
-summon minecraft:armor_stand 81.5 6.0 112.5 {Tags:["lobbyStand","darksamus","default"],Rotation:[90f,0f]}
+summon minecraft:armor_stand 81.5 6.0 112.5 {Tags:["lobbyStand","darksamus","default"],Rotation:[90f,0f],HandItems:[{id:"minecraft:carrot_on_a_stick",Count:1b,tag:{CustomModelData:261}},{}]}
 
 summon minecraft:area_effect_cloud 26.5 7.75 142.5 {CustomName:'{"text":"Donkey Kong","color":"gold"}',CustomNameVisible:1b,Age:-2147483648,Duration:-1,WaitTime:-2147483648}
 summon minecraft:armor_stand 26.5 6.0 140.5 {Tags:["lobbyStand","donkeykong","default"],Rotation:[0f,0f]}
 
 summon minecraft:area_effect_cloud 26.5 7.75 158.5 {CustomName:'{"text":"Fox","color":"white"}',CustomNameVisible:1b,Age:-2147483648,Duration:-1,WaitTime:-2147483648}
-summon minecraft:armor_stand 26.5 6.0 160.5 {Tags:["lobbyStand","fox","default"],Rotation:[-180f,0f],ArmorItems:[{id:"minecraft:iron_boots",Count:1b},{},{},{}]}
+summon minecraft:armor_stand 26.5 6.0 160.5 {Tags:["lobbyStand","fox","default"],Rotation:[-180f,0f]}
 
 summon minecraft:area_effect_cloud 51.5 7.75 156.5 {CustomName:'{"text":"Ganondorf","color":"red"}',CustomNameVisible:1b,Age:-2147483648,Duration:-1,WaitTime:-2147483648}
-summon minecraft:armor_stand 51.5 6.0 158.5 {Tags:["lobbyStand","ganondorf","default"],Rotation:[-180f,0f],ArmorItems:[{},{},{id:"minecraft:netherite_chestplate",Count:1b},{}]}
+summon minecraft:armor_stand 51.5 6.0 158.5 {Tags:["lobbyStand","ganondorf","default"],Rotation:[-180f,0f]}
 
 summon minecraft:area_effect_cloud 14.5 7.75 156.5 {CustomName:'{"text":"Greninja","color":"blue"}',CustomNameVisible:1b,Age:-2147483648,Duration:-1,WaitTime:-2147483648}
 summon minecraft:armor_stand 14.5 6.0 158.5 {Tags:["lobbyStand","greninja","default"],Rotation:[-180f,0f]}
@@ -32,7 +32,7 @@ summon minecraft:area_effect_cloud 11.5 7.75 154.5 {CustomName:'{"text":"Joker",
 summon minecraft:armor_stand 9.5 6.0 154.5 {Tags:["lobbyStand","joker","default"],Rotation:[-90f,0f]}
 
 summon minecraft:area_effect_cloud 68.5 7.75 141.5 {CustomName:'{"text":"King K. Rool","color":"dark_green"}',CustomNameVisible:1b,Age:-2147483648,Duration:-1,WaitTime:-2147483648}
-summon minecraft:armor_stand 66.5 6.0 141.5 {Tags:["lobbyStand","kingkrool","default"],Rotation:[-90f,0f],ArmorItems:[{},{},{id:"minecraft:golden_chestplate",Count:1b},{}]}
+summon minecraft:armor_stand 66.5 6.0 141.5 {Tags:["lobbyStand","kingkrool","default"],Rotation:[-90f,0f]}
 
 summon minecraft:area_effect_cloud 44.5 7.75 142.5 {CustomName:'{"text":"Kirby","color":"light_purple"}',CustomNameVisible:1b,Age:-2147483648,Duration:-1,WaitTime:-2147483648}
 summon minecraft:armor_stand 44.5 6.0 140.5 {Tags:["lobbyStand","kirby","default"],Rotation:[0f,0f]}
@@ -59,7 +59,7 @@ summon minecraft:area_effect_cloud 19.5 7.75 148.5 {CustomName:'{"text":"Ryu","c
 summon minecraft:armor_stand 19.5 6.0 146.5 {Tags:["lobbyStand","ryu","default"],Rotation:[0f,0f]}
 
 summon minecraft:area_effect_cloud 38.5 7.75 159.5 {CustomName:'{"text":"Samus","color":"gold"}',CustomNameVisible:1b,Age:-2147483648,Duration:-1,WaitTime:-2147483648}
-summon minecraft:armor_stand 38.5 6.0 161.5 {Tags:["lobbyStand","samus","default"],Rotation:[-180f,0f],ArmorItems:[{},{},{id:"minecraft:golden_chestplate",Count:1b},{}]}
+summon minecraft:armor_stand 38.5 6.0 161.5 {Tags:["lobbyStand","samus","default"],Rotation:[-180f,0f],HandItems:[{id:"minecraft:carrot_on_a_stick",Count:1b,tag:{CustomModelData:1422}},{}]}
 
 summon minecraft:area_effect_cloud 11.5 7.75 150.5 {CustomName:'{"text":"Snake","color":"gray"}',CustomNameVisible:1b,Age:-2147483648,Duration:-1,WaitTime:-2147483648}
 summon minecraft:armor_stand 9.5 6.0 150.5 {Tags:["lobbyStand","snake","default"],Rotation:[-90f,0f]}
@@ -81,7 +81,7 @@ summon minecraft:area_effect_cloud 61.5 7.75 156.5 {CustomName:'{"text":"Shadow"
 summon minecraft:armor_stand 61.5 6.0 158.5 {Tags:["lobbyStand","shadow","default"],Rotation:[-180f,0f]}
 
 summon minecraft:area_effect_cloud 68.5 7.75 131.5 {CustomName:'{"text":"Shovel Knight","color":"dark_aqua"}',CustomNameVisible:1b,Age:-2147483648,Duration:-1,WaitTime:-2147483648}
-summon minecraft:armor_stand 66.5 6.0 131.5 {Tags:["lobbyStand","shovelknight","default"],Rotation:[-90f,0f],ArmorItems:[{id:"minecraft:diamond_boots",Count:1b},{},{id:"minecraft:diamond_chestplate",Count:1b},{}]}
+summon minecraft:armor_stand 66.5 6.0 131.5 {Tags:["lobbyStand","shovelknight","default"],Rotation:[-90f,0f]}
 
 summon minecraft:area_effect_cloud 76.5 7.75 131.5 {CustomName:'{"text":"Team Rocket","color":"dark_purple"}',CustomNameVisible:1b,Age:-2147483648,Duration:-1,WaitTime:-2147483648}
 summon minecraft:armor_stand 77.5 6.0 129.5 {Tags:["lobbyStand","james"],Rotation:[45f,0f]}
