@@ -1,35 +1,5 @@
 # Characters
-tag @s remove alteredbeast
-tag @s remove alucard
-tag @s remove bowser
-tag @s remove byleth
-tag @s remove captainfalcon
-tag @s remove charizard
-tag @s remove darksamus
-tag @s remove donkeykong
-tag @s remove fox
-tag @s remove ganondorf
-tag @s remove greninja
-tag @s remove hero
-tag @s remove joker
-tag @s remove kirby
-tag @s remove kingkrool
-tag @s remove link
-tag @s remove mario
-tag @s remove megaman
-tag @s remove ness
-tag @s remove pit
-tag @s remove ryu
-tag @s remove samus
-tag @s remove shadow
-tag @s remove shovelknight
-tag @s remove snake
-tag @s remove sonic
-tag @s remove steve
-tag @s remove teamrocket
-tag @s remove arbok
-tag @s remove meowth
-tag @s remove wobbuffet
+function ssbrc:logic/resets/tags/characters
 
 # Favorites
 tag @s remove favoritetry.alteredbeast
@@ -42,12 +12,14 @@ tag @s remove favoritetry.samus
 tag @s remove favoritetry.donkeykong
 tag @s remove favoritetry.fox
 tag @s remove favoritetry.ganondorf
+tag @s remove favoritetry.giegue
 tag @s remove favoritetry.greninja
 tag @s remove favoritetry.hero
 tag @s remove favoritetry.joker
 tag @s remove favoritetry.kirby
 tag @s remove favoritetry.kingkrool
 tag @s remove favoritetry.link
+tag @s remove favoritetry.luigi
 tag @s remove favoritetry.mario
 tag @s remove favoritetry.megaman
 tag @s remove favoritetry.ness
@@ -72,12 +44,14 @@ function ssbrc:characters/darksamus/menu/costumes/reset
 function ssbrc:characters/donkeykong/menu/costumes/reset
 function ssbrc:characters/fox/menu/costumes/reset
 function ssbrc:characters/ganondorf/menu/costumes/reset
+function ssbrc:characters/giegue/menu/costumes/reset
 function ssbrc:characters/greninja/menu/costumes/reset
 function ssbrc:characters/hero/menu/costumes/reset
 function ssbrc:characters/joker/menu/costumes/reset
 function ssbrc:characters/kingkrool/menu/costumes/reset
 function ssbrc:characters/kirby/menu/costumes/reset
 function ssbrc:characters/link/menu/costumes/reset
+function ssbrc:characters/luigi/menu/costumes/reset
 function ssbrc:characters/mario/menu/costumes/reset
 function ssbrc:characters/megaman/menu/costumes/reset
 function ssbrc:characters/ness/menu/costumes/reset
@@ -96,8 +70,10 @@ function ssbrc:logic/resets/tags/maps
 # Misc
 tag @s remove abilityActive
 tag @s remove abilityUsed
+tag @s remove alive
 tag @s remove alucard.ability
 tag @s remove demigod
+tag @s remove fireBreath
 tag @s remove human
 tag @s remove warebear
 tag @s remove waredragon

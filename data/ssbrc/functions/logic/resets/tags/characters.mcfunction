@@ -8,6 +8,7 @@ tag @s remove darksamus
 tag @s remove donkeykong
 tag @s remove fox
 tag @s remove ganondorf
+tag @s remove giegue
 tag @s remove greninja
 tag @s remove hero
 tag @s remove joker
