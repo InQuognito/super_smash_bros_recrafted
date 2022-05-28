@@ -25,6 +25,7 @@ execute if entity @s[tag=steve] run function ssbrc:characters/steve/kit
 
 execute if entity @s[tag=alteredbeast] run function ssbrc:characters/alteredbeast/kits/human
 execute if entity @s[tag=alucard] run function ssbrc:characters/alucard/kit
+execute if entity @s[tag=giegue] run function ssbrc:characters/giegue/kit
 execute if entity @s[tag=shadow] run function ssbrc:characters/shadow/kit
 execute if entity @s[tag=shovelknight] run function ssbrc:characters/shovelknight/kit
 execute if entity @s[tag=teamrocket] run function ssbrc:characters/teamrocket/kit
