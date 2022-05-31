@@ -1,0 +1,21 @@
+summon minecraft:marker ~ ~ ~ {Tags:["phazonPool"]}
+
+execute store result score #phazonPoolPosX temp run data get entity @e[tag=phazonPool,limit=1] Pos[0]
+execute store result score #phazonPoolPosZ temp run data get entity @e[tag=phazonPool,limit=1] Pos[2]
+
+scoreboard players set max random 2
+function ssbrc:math/rng/lcg
+
+scoreboard players operation #phazonPoolOffsetX temp = result random
+scoreboard players add #phazonPoolOffsetX temp 1
+
+function ssbrc:math/rng/lcg
+
+scoreboard players operation #phazonPoolOffsetZ temp = result random
+scoreboard players add #phazonPoolOffsetZ temp 1
+
+scoreboard players operation #phazonPoolPosX temp += #phazonPoolOffsetX temp
+scoreboard players operation #phazonPoolPosZ temp += #phazonPoolOffsetZ temp
+
+execute store result entity @e[tag=phazonPool,limit=1] Pos[0] double 1.0 run scoreboard players get #phazonPoolPosX temp
+execute store result entity @e[tag=phazonPool,limit=1] Pos[2] double 1.0 run scoreboard players get #phazonPoolPosZ temp
