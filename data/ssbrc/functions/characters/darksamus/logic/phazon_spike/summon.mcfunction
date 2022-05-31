@@ -20,7 +20,7 @@ scoreboard players operation #phazonSpikePosZ temp += #phazonSpikeOffsetZ temp
 execute store result entity @e[tag=phazonSpike.marker,limit=1] Pos[0] double 1.0 run scoreboard players get #phazonSpikePosX temp
 execute store result entity @e[tag=phazonSpike.marker,limit=1] Pos[2] double 1.0 run scoreboard players get #phazonSpikePosZ temp
 
-execute at @e[tag=phazonSpike.marker,limit=1] run summon minecraft:item_frame ~ ~ ~ {Tags:["phazonSpike"],ItemRotation:0,Fixed:1b,Invisible:1b,Facing:1b,Item:{id:"minecraft:carrot_on_a_stick",tag:{CustomModelData:262},Count:1b}}
+execute at @e[tag=phazonSpike.marker,limit=1] run summon minecraft:item_frame ~ ~ ~ {Tags:["phazonSpike","edit"],ItemRotation:0,Fixed:1b,Invisible:1b,Facing:1b,Item:{id:"minecraft:carrot_on_a_stick",tag:{CustomModelData:262},Count:1b}}
 
 scoreboard players set max random 8
 function ssbrc:math/rng/lcg
