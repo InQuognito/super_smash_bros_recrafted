@@ -10,3 +10,6 @@ scoreboard players operation @s charge.2 *= #100 integers
 scoreboard players operation @s cooldown.2 += @s charge.2
 
 execute if score @s shadow.chaosControl matches 1.. run function ssbrc:logic/characters/cooldown_modifiers/chaos_control/2
+
+scoreboard players set @s duration.1 60
+function ssbrc:logic/characters/effects/mobility/immobilize

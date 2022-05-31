@@ -109,6 +109,8 @@ execute as @e[tag=voteCounter.update,sort=random,limit=1] run function ssbrc:log
 execute as @a[team=!spectator,tag=!characterSelect] run function ssbrc:logic/spectate
 execute as @a[team=waiting,tag=!characterPicked] run function ssbrc:logic/spectate
 
+execute as @a[tag=snake,tag=snake.selectingLoadout] run function ssbrc:characters/snake/menu/select_character
+
 gamemode spectator @a[team=spectator]
 
 tag @a[team=!spectator] add alive

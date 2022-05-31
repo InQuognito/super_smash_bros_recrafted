@@ -25,5 +25,5 @@ execute if entity @s[tag=shovelknight] run function ssbrc:characters/shovelknigh
 
 execute at @s[tag=naturalShiny] run particle minecraft:glow ~ ~0.7 ~ 0.5 0.4 0.5 0 1 normal @a
 
-execute if entity @s[predicate=ssbrc:characters/weight/heavy] at @s run function ssbrc:logic/characters/shockwave/check
+execute at @s[scores={fallDistance=1..}] run function ssbrc:logic/characters/shockwave/check
 scoreboard players reset @s fallDistance
