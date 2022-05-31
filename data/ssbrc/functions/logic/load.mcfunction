@@ -52,7 +52,6 @@ advancement grant @a through ssbrc:series/kirby/root
 advancement grant @a through ssbrc:series/mega_man/root
 advancement grant @a through ssbrc:series/metal_gear_solid/root
 advancement grant @a through ssbrc:series/metroid/root
-advancement grant @a through ssbrc:series/miscellaneous_fighters/root
 advancement grant @a through ssbrc:series/persona/root
 advancement grant @a through ssbrc:series/pokemon/root
 advancement grant @a through ssbrc:series/retro_fighters/root
