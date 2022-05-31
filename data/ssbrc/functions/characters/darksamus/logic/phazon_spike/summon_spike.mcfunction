@@ -2,4 +2,4 @@ summon minecraft:item_frame ~ ~ ~ {Tags:["phazonSpike","edit"],ItemRotation:0,Fi
 execute as @e[type=minecraft:item_frame,tag=phazonSpike,tag=edit,sort=nearest,limit=1] run function ssbrc:characters/darksamus/logic/phazon_spike/rotate_spike
 tag @e[type=minecraft:item_frame,tag=phazonSpike,tag=edit,sort=nearest,limit=1] remove edit
 
-data merge entity @s {Radius:0.3f,Duration:30,ReapplicationDelay:30,Effects:[{Id:7b,Amplifier:1b,Duration:1,ShowParticles:0b}]}
+data merge entity @s {Radius:0.5f,Duration:30,ReapplicationDelay:30,Effects:[{Id:7b,Amplifier:1b,Duration:1,ShowParticles:0b}]}
