@@ -2,6 +2,7 @@ execute if score $teams options matches 0 if entity @s[tag=bowser] run title @a 
 execute if score $teams options matches 0 if entity @s[tag=byleth] run title @a subtitle [{"text":"Selected Character: ","color":"gold"},{"text":"Byleth","bold":true,"color":"yellow"}]
 execute if score $teams options matches 0 if entity @s[tag=captainfalcon] run title @a subtitle [{"text":"Selected Character: ","color":"gold"},{"text":"Captain Falcon","bold":true,"color":"yellow"}]
 execute if score $teams options matches 0 if entity @s[tag=charizard] run title @a subtitle [{"text":"Selected Character: ","color":"gold"},{"text":"Charizard","bold":true,"color":"yellow"}]
+execute if score $teams options matches 0 if entity @s[tag=cloud] run title @a subtitle [{"text":"Selected Character: ","color":"gold"},{"text":"Cloud","bold":true,"color":"yellow"}]
 execute if score $teams options matches 0 if entity @s[tag=darksamus] run title @a subtitle [{"text":"Selected Character: ","color":"gold"},{"text":"Dark Samus","bold":true,"color":"yellow"}]
 execute if score $teams options matches 0 if entity @s[tag=donkeykong] run title @a subtitle [{"text":"Selected Character: ","color":"gold"},{"text":"Donkey Kong","bold":true,"color":"yellow"}]
 execute if score $teams options matches 0 if entity @s[tag=fox] run title @a subtitle [{"text":"Selected Character: ","color":"gold"},{"text":"Fox","bold":true,"color":"yellow"}]
@@ -12,6 +13,7 @@ execute if score $teams options matches 0 if entity @s[tag=joker] run title @a s
 execute if score $teams options matches 0 if entity @s[tag=kirby] run title @a subtitle [{"text":"Selected Character: ","color":"gold"},{"text":"Kirby","bold":true,"color":"yellow"}]
 execute if score $teams options matches 0 if entity @s[tag=kingkrool] run title @a subtitle [{"text":"Selected Character: ","color":"gold"},{"text":"King K. Rool","bold":true,"color":"yellow"}]
 execute if score $teams options matches 0 if entity @s[tag=link] run title @a subtitle [{"text":"Selected Character: ","color":"gold"},{"text":"Link","bold":true,"color":"yellow"}]
+execute if score $teams options matches 0 if entity @s[tag=luigi] run title @a subtitle [{"text":"Selected Character: ","color":"gold"},{"text":"Luigi","bold":true,"color":"yellow"}]
 execute if score $teams options matches 0 if entity @s[tag=mario] run title @a subtitle [{"text":"Selected Character: ","color":"gold"},{"text":"Mario","bold":true,"color":"yellow"}]
 execute if score $teams options matches 0 if entity @s[tag=megaman] run title @a subtitle [{"text":"Selected Character: ","color":"gold"},{"text":"Megaman","bold":true,"color":"yellow"}]
 execute if score $teams options matches 0 if entity @s[tag=ness] run title @a subtitle [{"text":"Selected Character: ","color":"gold"},{"text":"Ness","bold":true,"color":"yellow"}]
@@ -25,6 +27,7 @@ execute if score $teams options matches 0 if entity @s[tag=teamrocket] run title
 
 execute if score $teams options matches 0 if entity @s[tag=alteredbeast] run title @a subtitle [{"text":"Selected Character: ","color":"gold"},{"text":"Altered Beast","bold":true,"color":"yellow"}]
 execute if score $teams options matches 0 if entity @s[tag=alucard] run title @a subtitle [{"text":"Selected Character: ","color":"gold"},{"text":"Alucard","bold":true,"color":"yellow"}]
+execute if score $teams options matches 0 if entity @s[tag=giegue] run title @a subtitle [{"text":"Selected Character: ","color":"gold"},{"text":"Giegue","bold":true,"color":"yellow"}]
 execute if score $teams options matches 0 if entity @s[tag=shadow] run title @a subtitle [{"text":"Selected Character: ","color":"gold"},{"text":"Shadow","bold":true,"color":"yellow"}]
 execute if score $teams options matches 0 if entity @s[tag=shovelknight] run title @a subtitle [{"text":"Selected Character: ","color":"gold"},{"text":"Shovel Knight","bold":true,"color":"yellow"}]
 
