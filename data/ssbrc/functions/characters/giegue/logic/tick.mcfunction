@@ -5,3 +5,4 @@ execute as @e[type=minecraft:area_effect_cloud,tag=pkFreeze] at @s run function 
 execute as @e[type=minecraft:area_effect_cloud,tag=pkBeam] at @s run function ssbrc:characters/giegue/logic/abilities/pk_beam/tick
 
 execute if entity @s[scores={duration.1=1}] run function ssbrc:logic/characters/effects/mobility/mobilize
+execute if entity @s[scores={duration.1=1}] run function ssbrc:logic/kits
