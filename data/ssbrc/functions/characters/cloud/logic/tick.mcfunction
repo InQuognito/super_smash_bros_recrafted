@@ -5,7 +5,7 @@ execute if entity @s[tag=operator,predicate=!ssbrc:flag/sneaking,scores={useAbil
 
 execute as @e[type=minecraft:arrow,tag=bladeBeam] at @s run function ssbrc:characters/cloud/logic/blade_beam/tick
 
-# Mana
+# Limit
 title @s[scores={cloud.limit=1..10}] actionbar [{"text":"LIMIT: ","bold":true,"color":"white"},{"text":"\u25ae","color":"red"},{"text":"\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae","color":"dark_gray"}]
 title @s[scores={cloud.limit=11..20}] actionbar [{"text":"LIMIT: ","bold":true,"color":"white"},{"text":"\u25ae\u25ae","color":"red"},{"text":"\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae","color":"dark_gray"}]
 title @s[scores={cloud.limit=21..30}] actionbar [{"text":"LIMIT: ","bold":true,"color":"white"},{"text":"\u25ae\u25ae\u25ae","color":"red"},{"text":"\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae","color":"dark_gray"}]
@@ -18,4 +18,4 @@ title @s[scores={cloud.limit=81..90}] actionbar [{"text":"LIMIT: ","bold":true,"
 title @s[scores={cloud.limit=91..100}] actionbar [{"text":"LIMIT: ","bold":true,"color":"white"},{"text":"\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae","color":"red"}]
 title @s[scores={cloud.limit=101..}] actionbar {"text":"LIMIT BREAK","bold":true,"color":"blue"}
 
-scoreboard players set @s[scores={cloud.limit=102..}] mana 101
+scoreboard players set @s[scores={cloud.limit=102..}] cloud.limit 101
