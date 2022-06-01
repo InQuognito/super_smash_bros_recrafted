@@ -2,6 +2,7 @@ execute if entity @s[tag=bowser] run function ssbrc:characters/bowser/kit
 execute if entity @s[tag=byleth] run function ssbrc:characters/byleth/kit
 execute if entity @s[tag=captainfalcon] run function ssbrc:characters/captainfalcon/kit
 execute if entity @s[tag=charizard] run function ssbrc:characters/charizard/kit
+execute if entity @s[tag=cloud] run function ssbrc:characters/cloud/kit
 execute if entity @s[tag=darksamus] run function ssbrc:characters/darksamus/kit
 execute if entity @s[tag=donkeykong] run function ssbrc:characters/donkeykong/kit
 execute if entity @s[tag=fox] run function ssbrc:characters/fox/kit
