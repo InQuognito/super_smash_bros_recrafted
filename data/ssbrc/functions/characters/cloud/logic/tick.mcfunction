@@ -3,6 +3,8 @@ execute if entity @s[tag=punisher,predicate=ssbrc:flag/sneaking,scores={useAbili
 
 execute if entity @s[tag=operator,predicate=!ssbrc:flag/sneaking,scores={useAbility=1..,cooldown.1=..0},nbt={SelectedItem:{tag:{busterSword:1}}}] at @s anchored eyes run function ssbrc:characters/cloud/logic/blade_beam/summon
 
+execute as @e[type=minecraft:arrow,tag=bladeBeam] at @s run function ssbrc:characters/cloud/logic/blade_beam/tick
+
 # Mana
 title @s[scores={cloud.limit=1..10}] actionbar [{"text":"LIMIT: ","bold":true,"color":"white"},{"text":"\u25ae","color":"red"},{"text":"\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae","color":"dark_gray"}]
 title @s[scores={cloud.limit=11..20}] actionbar [{"text":"LIMIT: ","bold":true,"color":"white"},{"text":"\u25ae\u25ae","color":"red"},{"text":"\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae","color":"dark_gray"}]
