@@ -6,9 +6,11 @@ scoreboard players set #2 integers 2
 scoreboard players set #4 integers 4
 scoreboard players set #7 integers 7
 scoreboard players set #10 integers 10
+scoreboard players set #30 integers 30
 scoreboard players set #33 integers 33
 scoreboard players set #45 integers 45
 scoreboard players set #50 integers 50
 scoreboard players set #100 integers 100
 scoreboard players set #135 integers 135
+scoreboard players set #150 integers 150
 scoreboard players set #225 integers 225

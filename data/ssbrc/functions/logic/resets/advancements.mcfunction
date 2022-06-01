@@ -5,6 +5,7 @@ advancement revoke @a only ssbrc:utility/arbok_poison_jab
 advancement revoke @a only ssbrc:utility/click_button
 advancement revoke @a only ssbrc:utility/flag.get_hurt
 advancement revoke @a only ssbrc:utility/flag.get_kill
+advancement revoke @a only ssbrc:utility/flag.hurt_by_player
 advancement revoke @a only ssbrc:utility/flag.hurt_player
 advancement revoke @a only ssbrc:utility/greninja_night_slash
 advancement revoke @a only ssbrc:utility/pickup_steve_items
