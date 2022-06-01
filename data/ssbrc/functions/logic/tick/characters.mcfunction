@@ -1,5 +1,6 @@
 execute if entity @s[tag=bowser] run function ssbrc:characters/bowser/logic/tick
 execute if entity @s[tag=byleth] run function ssbrc:characters/byleth/logic/tick
+execute if entity @s[tag=cloud] run function ssbrc:characters/cloud/logic/tick
 execute if entity @s[tag=darksamus] run function ssbrc:characters/darksamus/logic/tick
 execute if entity @s[tag=ganondorf] run function ssbrc:characters/ganondorf/logic/tick
 execute if entity @s[tag=greninja] run function ssbrc:characters/greninja/logic/tick

@@ -22,6 +22,11 @@ execute if score @s[tag=!mapRoom,tag=!charizard] menu matches 141 run function s
 execute if score @s[tag=!mapRoom,tag=!charizard] menu matches 142 run function ssbrc:characters/charizard/menu/favorite
 execute if score @s[tag=!mapRoom,tag=!charizard] menu matches 143 run function ssbrc:characters/charizard/menu/how_to_play
 
+execute if score @s[tag=!mapRoom,tag=!cloud] menu matches 180 run function ssbrc:characters/cloud/menu/select_character
+execute if score @s[tag=!mapRoom,tag=!cloud] menu matches 181 run function ssbrc:characters/cloud/menu/skin_options
+execute if score @s[tag=!mapRoom,tag=!cloud] menu matches 182 run function ssbrc:characters/cloud/menu/favorite
+execute if score @s[tag=!mapRoom,tag=!cloud] menu matches 183 run function ssbrc:characters/cloud/menu/how_to_play
+
 execute if score @s[tag=!mapRoom,tag=!darksamus] menu matches 260 run function ssbrc:characters/darksamus/menu/select_character
 execute if score @s[tag=!mapRoom,tag=!darksamus] menu matches 261 run function ssbrc:characters/darksamus/menu/skin_options
 execute if score @s[tag=!mapRoom,tag=!darksamus] menu matches 262 run function ssbrc:characters/darksamus/menu/favorite

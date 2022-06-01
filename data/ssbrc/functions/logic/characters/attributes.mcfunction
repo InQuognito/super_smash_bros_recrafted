@@ -5,17 +5,23 @@ attribute @s[predicate=ssbrc:characters/armor_values/medium] minecraft:generic.a
 attribute @s[predicate=ssbrc:characters/armor_values/high] minecraft:generic.armor base set 18.0
 
 # Attack Damage
-attribute @s minecraft:generic.attack_damage base set 2.0
+attribute @s[tag=!cloud,tag=!punisher] minecraft:generic.attack_damage base set 2.0
+attribute @s[tag=cloud,tag=punisher] minecraft:generic.attack_damage base set 8.0
 
 # Attack Speed
 attribute @s minecraft:generic.attack_speed base set 4.0
+
+# Knockback Resistance
+attribute @s[predicate=ssbrc:characters/knockback_resistance/none] minecraft:generic.knockback_resistance base set 0.0
+attribute @s[predicate=ssbrc:characters/knockback_resistance/medium] minecraft:generic.knockback_resistance base set 0.4
 
 # Max Health
 attribute @s minecraft:generic.max_health base set 40.0
 
 # Movement Speed
-attribute @s generic.movement_speed base set 0.1
+attribute @s[predicate=ssbrc:characters/speed/default] minecraft:generic.movement_speed base set 0.1
 
+attribute @s[tag=cloud,tag=punisher] minecraft:generic.movement_speed base set 0.06
 attribute @s[tag=ganondorf] minecraft:generic.movement_speed base set 0.085
 attribute @s[tag=kingkrool] minecraft:generic.movement_speed base set 0.085
 attribute @s[tag=meowth] minecraft:generic.movement_speed base set 0.125

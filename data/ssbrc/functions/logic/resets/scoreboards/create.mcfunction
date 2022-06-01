@@ -4,6 +4,7 @@ scoreboard objectives add bowser.fireBreath.hurt dummy
 scoreboard objectives add charge.1 dummy
 scoreboard objectives add charge.2 dummy
 scoreboard objectives add charge.3 dummy
+scoreboard objectives add cloud.limit dummy
 scoreboard objectives add cooldown.1 dummy
 scoreboard objectives add cooldown.2 dummy
 scoreboard objectives add cooldown.3 dummy

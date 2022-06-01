@@ -4,6 +4,7 @@ tag @s remove bowser
 tag @s remove byleth
 tag @s remove captainfalcon
 tag @s remove charizard
+tag @s remove cloud
 tag @s remove darksamus
 tag @s remove donkeykong
 tag @s remove fox

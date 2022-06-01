@@ -8,7 +8,7 @@ tag @s remove favoritetry.bowser
 tag @s remove favoritetry.byleth
 tag @s remove favoritetry.captainfalcon
 tag @s remove favoritetry.charizard
-tag @s remove favoritetry.samus
+tag @s remove favoritetry.cloud
 tag @s remove favoritetry.donkeykong
 tag @s remove favoritetry.fox
 tag @s remove favoritetry.ganondorf
@@ -40,6 +40,7 @@ function ssbrc:characters/bowser/menu/costumes/reset
 function ssbrc:characters/byleth/menu/costumes/reset
 function ssbrc:characters/captainfalcon/menu/costumes/reset
 function ssbrc:characters/charizard/menu/costumes/reset
+function ssbrc:characters/cloud/menu/costumes/reset
 function ssbrc:characters/darksamus/menu/costumes/reset
 function ssbrc:characters/donkeykong/menu/costumes/reset
 function ssbrc:characters/fox/menu/costumes/reset

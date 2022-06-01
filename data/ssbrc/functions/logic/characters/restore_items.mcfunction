@@ -18,6 +18,11 @@ item replace entity @s[tag=charizard] hotbar.3 with minecraft:lingering_potion{C
 
 give @s[tag=charizard] minecraft:spectral_arrow 4
 
+# Cloud
+tag @s[tag=cloud] remove punisher
+tag @s[tag=cloud] add operator
+scoreboard players set @s[tag=cloud] cloud.limit 0
+
 # Donkey Kong
 clear @s[tag=donkeykong] minecraft:splash_potion{CustomPotionColor:16744448,display:{Name:'[{"text":"Orange Bomb","italic":false,"bold":true,"color":"gold"}]'},HideFlags:127,CustomPotionEffects:[{Id:7b,Duration:0,Amplifier:0b,ShowParticles:0b,ShowIcon:0b}]} 2
 item replace entity @s[tag=donkeykong] hotbar.2 with minecraft:splash_potion{CustomPotionColor:16744448,display:{Name:'[{"text":"Orange Bomb","italic":false,"bold":true,"color":"gold"}]'},HideFlags:127,CustomPotionEffects:[{Id:7b,Duration:0,Amplifier:0b,ShowParticles:0b,ShowIcon:0b}]} 1
