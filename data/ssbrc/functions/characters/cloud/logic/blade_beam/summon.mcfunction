@@ -16,8 +16,8 @@ execute if entity @s[scores={cloud.limit=101..}] run summon minecraft:arrow ^ ^0
 execute if entity @s[scores={cloud.limit=101..}] run summon minecraft:arrow ^ ^0.75 ^1 {damage:0.3,Tags:["bladeBeam","limitBreak","projectile"],NoGravity:1b}
 execute if entity @s[scores={cloud.limit=101..}] run summon minecraft:arrow ^ ^1.00 ^1 {damage:0.3,Tags:["bladeBeam","limitBreak","projectile"],NoGravity:1b}
 
-data modify entity @e[tag=projectile,limit=1] Owner set from entity @s UUID
-data modify entity @e[tag=projectile,limit=1] Motion set from entity @e[tag=direction,limit=1] Pos
+execute as @e[tag=projectile] run data modify entity @s Owner set from entity @p UUID
+execute as @e[tag=projectile] run data modify entity @s Motion set from entity @e[tag=direction,limit=1] Pos
 
 tag @e[tag=projectile] remove projectile
 kill @e[tag=direction]
