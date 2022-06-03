@@ -74,7 +74,6 @@ tag @s remove abilityUsed
 tag @s remove alive
 tag @s remove alucard.ability
 tag @s remove characterPicked
-tag @s remove characterSelect
 tag @s remove demigod
 tag @s remove fireBreath
 tag @s remove human
@@ -89,10 +88,11 @@ tag @s remove byleth.selectingLoadout
 tag @s remove byleth.weaponBroken
 tag @s remove hero.magicLost
 tag @s remove idSet
-tag @s remove mapRoom
 tag @s remove naturalShiny
 tag @s remove operator
 tag @s remove punisher
+tag @s remove room.characterSelect
+tag @s remove room.mapVoting
 tag @s remove snake.apm
 tag @s remove snake.famas
 tag @s remove snake.psg1

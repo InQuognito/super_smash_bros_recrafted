@@ -9,4 +9,4 @@ execute if score $teams options matches 1 run item replace entity @s hotbar.0 wi
 
 effect give @s minecraft:glowing 1000000 255 true
 
-tag @s add characterSelect
+tag @s add room.characterSelect

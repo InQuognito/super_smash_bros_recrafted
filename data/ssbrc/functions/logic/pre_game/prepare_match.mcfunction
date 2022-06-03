@@ -36,4 +36,4 @@ schedule function ssbrc:logic/pre_game/teleport_begin 2t replace
 scoreboard players set $gameStage temp 3
 scoreboard players set $countdown timer 3
 
-tag @a remove mapRoom
+tag @a remove room.mapVoting

@@ -106,7 +106,7 @@ scoreboard players set @e[tag=voteCounter] mapVote 0
 execute as @e[tag=voteCounter] unless score @s mapVote = @s temp run tag @s add voteCounter.update
 execute as @e[tag=voteCounter.update,sort=random,limit=1] run function ssbrc:logic/pre_game/map_voting/update_counters_entity
 
-execute as @a[team=!spectator,tag=!characterSelect] run function ssbrc:logic/spectate
+execute as @a[team=!spectator,tag=!room.characterSelect] run function ssbrc:logic/spectate
 execute as @a[team=waiting,tag=!characterPicked] run function ssbrc:logic/spectate
 
 execute as @a[tag=snake,tag=snake.selectingLoadout] run function ssbrc:series/metal_gear_solid/snake/menu/select_character
@@ -124,7 +124,7 @@ tp @a 3.5 3.0 21.5 0.0 0.0
 execute if score $teams options matches 0 run team join waiting @a[team=!spectator]
 effect give @a[team=!spectator] minecraft:glowing 1000000 255 true
 
-tag @a remove characterSelect
-tag @a add mapRoom
+tag @a remove room.characterSelect
+tag @a add room.mapVoting
 
 title @a actionbar ""
