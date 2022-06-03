@@ -45,6 +45,4 @@ execute if score $gameStage temp matches 4 as @a[predicate=ssbrc:characters/kits
 execute if score $gameStage temp matches 4 as @a[predicate=ssbrc:characters/kits/trident,scores={timer.trident=10..}] run function ssbrc:logic/characters/restore_items/trident
 
 scoreboard players remove $countdown timer 1
-schedule clear ssbrc:logic/timer
-execute unless score #timerActivatedElsewhere temp matches 1 run schedule function ssbrc:logic/timer 1s replace
-scoreboard players reset #timerActivatedElsewhere temp
+schedule function ssbrc:logic/timer 1s replace
