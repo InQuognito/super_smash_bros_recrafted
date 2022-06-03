@@ -9,4 +9,6 @@ function ssbrc:logic/resets/teams
 
 clear @a minecraft:carrot_on_a_stick{teamFlag:1}
 
+team join waiting @a[tag=characterSelect,tag=!characterPicked]
+
 execute if score $gameStage temp matches 1 run scoreboard players set $countdown timer 5

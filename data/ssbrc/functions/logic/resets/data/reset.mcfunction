@@ -1,5 +1,7 @@
 advancement revoke @s everything
 
+scoreboard players reset @s currency
+
 scoreboard players reset @s alteredbeast.k
 scoreboard players reset @s alucard.k
 scoreboard players reset @s bowser.k

@@ -90,8 +90,8 @@ scoreboard objectives remove sonic.wS
 scoreboard objectives remove steve.wS
 scoreboard objectives remove teamrocket.wS
 
-# Options
-scoreboard objectives remove options
+# Stats
+scoreboard objectives remove currency
 scoreboard objectives remove stats.deaths
 scoreboard objectives remove stats.gP
 scoreboard objectives remove stats.kD
@@ -103,6 +103,9 @@ scoreboard objectives remove stats.wL
 scoreboard objectives remove favorite.slot1
 scoreboard objectives remove favorite.slot2
 scoreboard objectives remove favorite.slot3
+
+# Misc
+scoreboard objectives remove options
 
 function ssbrc:logic/resets/scoreboards/create
 
