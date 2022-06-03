@@ -12,7 +12,7 @@ execute unless block ~ ~-0.5 ~ #ssbrc:passthrough run function ssbrc:series/supe
 execute rotated as @s run tp @s ^ ^ ^0.5
 
 tag @s add self
-execute positioned ~-0.15 ~-0.15 ~-0.15 as @a[dx=0] positioned ~-0.7 ~-0.7 ~-0.7 if entity @s[dx=0] run tp @e[type=minecraft:area_effect_cloud,tag=self] @s
+execute positioned ~-0.15 ~-0.15 ~-0.15 as @a[dx=0] positioned ~-0.7 ~-0.7 ~-0.7 if entity @s[dx=0] run tag @s add damage.fireball
 execute positioned ~-0.15 ~-0.15 ~-0.15 as @a[dx=0] positioned ~-0.7 ~-0.7 ~-0.7 if entity @s[dx=0] run kill @e[type=minecraft:area_effect_cloud,tag=self]
 tag @s remove self
 
