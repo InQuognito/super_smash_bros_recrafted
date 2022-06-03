@@ -36,3 +36,5 @@ execute positioned 77.5 5.5 146.5 if block ~ ~ ~ #minecraft:buttons[powered=true
 execute positioned 79.5 5.5 124.5 if block ~ ~ ~ #minecraft:buttons[powered=true] run function ssbrc:series/retro_fighters/yar/menu/prompt
 execute positioned 61.5 5.5 106.5 if block ~ ~ ~ #minecraft:buttons[powered=true] run function ssbrc:series/yoshi/yoshi/menu/prompt
 execute positioned 53.5 5.5 118.5 if block ~ ~ ~ #minecraft:buttons[powered=true] run function ssbrc:series/the_legend_of_zelda/zelda/menu/prompt
+
+say inputs/character_select
