@@ -9,4 +9,4 @@ kill @e[type=!minecraft:player]
 time set 12430
 weather clear
 
-schedule function ssbrc:maps/w/wily_castle/prepare 1s replace
+schedule function ssbrc:maps/y/yars_revenge/prepare 1s replace
