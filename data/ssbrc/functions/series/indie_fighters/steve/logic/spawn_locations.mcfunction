@@ -309,5 +309,16 @@ execute if score $wilyCastle map matches 1 if score result random matches 7 run 
 execute if score $wilyCastle map matches 1 if score result random matches 8 run tp @s 4935 13 5100
 execute if score $wilyCastle map matches 1 if score result random matches 9 run tp @s 5004 11 5086
 
+execute if score $yarsRevenge map matches 1 if score result random matches 0 run tp @s 9995.5 4.0 19911.5
+execute if score $yarsRevenge map matches 1 if score result random matches 1 run tp @s 9994.5 4.0 19939.5
+execute if score $yarsRevenge map matches 1 if score result random matches 2 run tp @s 9973.5 5.0 19939.5
+execute if score $yarsRevenge map matches 1 if score result random matches 3 run tp @s 9984.5 4.0 19923.5
+execute if score $yarsRevenge map matches 1 if score result random matches 4 run tp @s 9976.5 4.0 19907.5
+execute if score $yarsRevenge map matches 1 if score result random matches 5 run tp @s 9973.5 4.0 19879.5
+execute if score $yarsRevenge map matches 1 if score result random matches 6 run tp @s 9980.5 6.0 19866.5
+execute if score $yarsRevenge map matches 1 if score result random matches 7 run tp @s 9992.5 4.0 19878.5
+execute if score $yarsRevenge map matches 1 if score result random matches 8 run tp @s 10008.5 8.0 19896.5
+execute if score $yarsRevenge map matches 1 if score result random matches 9 run tp @s 9958.5 7.0 19916.5
+
 data merge entity @s {Glowing:1}
 data remove entity @s Item.tag.Tags[3]

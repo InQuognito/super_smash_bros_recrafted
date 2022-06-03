@@ -29,6 +29,7 @@ execute if entity @s[tag=shadowMosesIsland] run scoreboard players remove @e[tag
 execute if entity @s[tag=spearPillar] run scoreboard players remove @e[tag=voteCounter,tag=spearPillar] mapVote 1
 execute if entity @s[tag=towerOfFate] run scoreboard players remove @e[tag=voteCounter,tag=towerOfFate] mapVote 1
 execute if entity @s[tag=wilyCastle] run scoreboard players remove @e[tag=voteCounter,tag=wilyCastle] mapVote 1
+execute if entity @s[tag=yarsRevenge] run scoreboard players remove @e[tag=voteCounter,tag=yarsRevenge] mapVote 1
 
 execute if entity @s[tag=random] run scoreboard players remove @e[tag=voteCounter,tag=random] mapVote 1
 
