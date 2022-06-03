@@ -7,4 +7,5 @@ execute unless score $gameStage temp matches 0 if score #characterPicked temp < 
 execute unless score $gameStage temp matches 0 if score #characterPicked temp < #players temp run scoreboard players set $gameStage temp 0
 
 schedule clear ssbrc:logic/timer
+scoreboard players set #timerActivatedElsewhere temp 1
 function ssbrc:logic/timer

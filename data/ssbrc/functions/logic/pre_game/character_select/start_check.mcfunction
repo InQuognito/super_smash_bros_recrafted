@@ -9,4 +9,5 @@ execute if score $teams options matches 1 if score #characterPicked temp = #play
 execute if score $teams options matches 1 if score #characterPicked temp = #players temp unless score #characterPicked temp = $highestTeam teamAmount run function ssbrc:logic/pre_game/map_voting/goto
 
 schedule clear ssbrc:logic/timer
+scoreboard players set #timerActivatedElsewhere temp 1
 function ssbrc:logic/timer
