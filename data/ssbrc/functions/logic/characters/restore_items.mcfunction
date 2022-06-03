@@ -36,7 +36,7 @@ clear @s[tag=ganondorf] minecraft:trident
 item replace entity @s[tag=ganondorf] hotbar.1 with minecraft:trident{Unbreakable:1,display:{Name:'[{"text":"Trident of Power","italic":false,"color":"dark_gray","bold":true}]'},Enchantments:[{id:"loyalty",lvl:1}],HideFlags:127} 1
 
 # Hero
-execute if entity @s[tag=hero] run function ssbrc:characters/hero/logic/magic/kaclang_off
+execute if entity @s[tag=hero] run function ssbrc:series/dragon_quest/hero/logic/magic/kaclang_off
 clear @s[tag=hero] minecraft:carrot_on_a_stick
 clear @s[tag=hero] minecraft:shield
 item replace entity @s[tag=hero,tag=!rek] hotbar.0 with minecraft:iron_sword{ability.hero:1,CustomModelData:2,Unbreakable:1,AttributeModifiers:[{AttributeName:"minecraft:generic.attack_damage",Amount:6,Slot:mainhand,Name:"minecraft:generic.attack_damage",UUID:[I;-12164,22807,92130,-45614]},{AttributeName:"minecraft:generic.attack_speed",Amount:-2.6,Slot:mainhand,Name:"minecraft:generic.attack_speed",UUID:[I;-12164,22907,92130,-45814]}],display:{Name:'[{"text":"Flame Slash","italic":false,"color":"gold","bold":true}]'},Enchantments:[{id:"fire_aspect",lvl:1}],HideFlags:127} 1
@@ -73,7 +73,7 @@ execute if score @s[tag=ness] itemCount matches 1 run item replace entity @s hot
 item replace entity @s[tag=pit] armor.chest with minecraft:elytra{Damage:417,HideFlags:127} 1
 
 # Ryu
-execute if entity @s[tag=ryu] run function ssbrc:characters/ryu/logic/off
+execute if entity @s[tag=ryu] run function ssbrc:series/street_fighter/ryu/logic/off
 execute if score $gameMode options matches 1 if score @s[tag=ryu] stocks matches 1 run item replace entity @s[tag=!abilityUsed] hotbar.2 with minecraft:carrot_on_a_stick{ability.ryu:1,CustomModelData:1401,Unbreakable:1,display:{Name:'[{"text":"Satsui no Hado Rage","italic":false,"color":"#660000","bold":true}]'}} 1
 execute if score $gameMode options matches 2 run clear @s[tag=ryu] minecraft:carrot_on_a_stick{ability.ryu:1}
 execute if score $gameMode options matches 2 if score $gameTime timer matches ..60 run item replace entity @s[tag=ryu,tag=!abilityUsed] hotbar.2 with minecraft:carrot_on_a_stick{ability.ryu:1,CustomModelData:1401,Unbreakable:1,display:{Name:'[{"text":"Satsui no Hado Rage","italic":false,"color":"#660000","bold":true}]'}} 1
@@ -102,6 +102,6 @@ item replace entity @s[tag=alucard] weapon.offhand with minecraft:shield{Damage:
 
 # Team Rocket
 tag @s[tag=teamrocket] remove teamrocket.picked
-execute if entity @s[tag=teamrocket,tag=wobbuffet,tag=!teamrocket.picked] run function ssbrc:characters/teamrocket/kits/arbok
-execute if entity @s[tag=teamrocket,tag=meowth,tag=!teamrocket.picked] run function ssbrc:characters/teamrocket/kits/wobbuffet
-execute if entity @s[tag=teamrocket,tag=arbok,tag=!teamrocket.picked] run function ssbrc:characters/teamrocket/kits/meowth
+execute if entity @s[tag=teamrocket,tag=wobbuffet,tag=!teamrocket.picked] run function ssbrc:series/pokemon/teamrocket/kits/arbok
+execute if entity @s[tag=teamrocket,tag=meowth,tag=!teamrocket.picked] run function ssbrc:series/pokemon/teamrocket/kits/wobbuffet
+execute if entity @s[tag=teamrocket,tag=arbok,tag=!teamrocket.picked] run function ssbrc:series/pokemon/teamrocket/kits/meowth
