@@ -90,8 +90,10 @@ tag @s remove hero.magicLost
 tag @s remove idSet
 tag @s remove mapRoom
 tag @s remove naturalShiny
+tag @s remove operator
 tag @s remove pickingCharacter
 tag @s remove pickingMap
+tag @s remove punisher
 tag @s remove snake.apm
 tag @s remove snake.famas
 tag @s remove snake.psg1

@@ -73,6 +73,7 @@ scoreboard objectives remove snake.sgA
 scoreboard objectives remove snake.sgF
 scoreboard objectives remove steve.tier
 scoreboard objectives remove stocks
+scoreboard objectives remove teamAmount
 scoreboard objectives remove timer
 scoreboard objectives remove timer.stalfos
 scoreboard objectives remove timer.trident
