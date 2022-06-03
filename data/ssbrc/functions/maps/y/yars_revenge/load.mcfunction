@@ -2,7 +2,7 @@ scoreboard players reset * map
 scoreboard players set $yarsRevenge map 1
 scoreboard players set $songCount map 2
 scoreboard players set #mapPicked mapVote 1
-forceload add 4912 5008 5055 5119
+forceload add 9952 19856 10015 20015
 
 kill @e[type=!minecraft:player]
 
