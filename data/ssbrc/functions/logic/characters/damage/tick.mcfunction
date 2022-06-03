@@ -1,1 +1,1 @@
-execute as @a[tag=damage.fireball] run function ssbrc:logic/characters/damage/fireball
+execute as @a[tag=damage.fireball] at @s run function ssbrc:logic/characters/damage/fireball
