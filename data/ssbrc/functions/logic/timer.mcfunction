@@ -26,7 +26,7 @@ execute if score $gameStage temp matches 4 if score $gameMode options matches 2 
 execute if score $gameStage temp matches 4 if score $gameMode options matches 2 store result bossbar minecraft:timer value run scoreboard players get $gameTime timer
 
 execute if score $gameStage temp matches 4 if score $gameMode options matches 2 run scoreboard players operation $gameTimePercent temp = $gameTime timer
-execute if score $gameStage temp matches 4 if score $gameMode options matches 2 run scoreboard players operation $gameTimePercent temp *= #100 integers
+execute if score $gameStage temp matches 4 if score $gameMode options matches 2 run scoreboard players operation $gameTimePercent temp *= 100 integers
 execute if score $gameStage temp matches 4 if score $gameMode options matches 2 run scoreboard players operation $gameTimePercent temp /= $timeLimit options
 
 execute if score $gameStage temp matches 4 if score $gameMode options matches 2 if score $gameTimePercent temp matches 50 run bossbar set minecraft:timer color green
