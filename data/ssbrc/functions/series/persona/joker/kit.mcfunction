@@ -3,3 +3,4 @@ item replace entity @s hotbar.1 with minecraft:carrot_on_a_stick{tt33:1,Unbreaka
 item replace entity @s hotbar.2 with minecraft:splash_potion{CustomPotionColor:11538705,display:{Name:'[{"text":"Eiagon","italic":false,"color":"gold","bold":true}]'},HideFlags:127,CustomPotionEffects:[{Id:7b,Duration:1,Amplifier:0b,ShowParticles:0b,ShowIcon:0b},{Id:9b,Duration:160,Amplifier:0b,ShowParticles:0b,ShowIcon:0b},{Id:20b,Duration:320,Amplifier:0b,ShowParticles:0b,ShowIcon:0b}]} 1
 
 scoreboard players set @s joker.tt33A 8
+scoreboard players set @s joker.tt33F 0
