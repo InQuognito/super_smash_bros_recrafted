@@ -69,7 +69,6 @@ function ssbrc:series/pokemon/teamrocket/menu/costumes/reset
 function ssbrc:logic/resets/tags/maps
 
 # Misc
-tag @s remove abilityActive
 tag @s remove abilityUsed
 tag @s remove alive
 tag @s remove alucard.ability
