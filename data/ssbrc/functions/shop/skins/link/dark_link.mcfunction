@@ -1,4 +1,4 @@
-advancement grant @s only ssbrc:series/the_legend_of_zelda/link/costumes/dark
+advancement grant @s only ssbrc:series/the_legend_of_zelda/link/costumes/dark_link
 
 scoreboard players operation @s currency -= #skin.common vars
 
