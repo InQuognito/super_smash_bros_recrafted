@@ -31,6 +31,8 @@ scoreboard objectives remove health
 scoreboard objectives remove id
 scoreboard objectives remove integers
 scoreboard objectives remove itemCount
+scoreboard objectives remove joker.tt33A
+scoreboard objectives remove joker.tt33F
 scoreboard objectives remove jumps
 scoreboard objectives remove kills
 scoreboard objectives remove mana

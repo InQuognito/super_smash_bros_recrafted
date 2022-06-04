@@ -31,6 +31,8 @@ scoreboard objectives add health health
 scoreboard objectives add id dummy
 scoreboard objectives add integers dummy
 scoreboard objectives add itemCount dummy
+scoreboard objectives add joker.tt33A dummy
+scoreboard objectives add joker.tt33F dummy
 scoreboard objectives add jumps minecraft.custom:minecraft.jump
 scoreboard objectives add kills dummy
 scoreboard objectives add mana dummy
