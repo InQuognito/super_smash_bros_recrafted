@@ -178,8 +178,11 @@ scoreboard players operation #value.bonus.yearLongBattle vars = #value.playGame 
 scoreboard players operation #value.bonus.yearLongBattle vars *= 1 integers
 
 # Prices
-scoreboard players operation #price.skin vars = #value.winGame vars
-scoreboard players operation #price.skin vars *= 5 integers
+scoreboard players operation #price.skin.common vars = #value.winGame vars
+scoreboard players operation #price.skin.common vars *= 5 integers
+
+scoreboard players operation #price.skin.uncommon vars = #value.skin.common vars
+scoreboard players operation #price.skin.uncommon vars *= 2 integers
 
 scoreboard players operation #price.fighter.common vars = #value.skin vars
 scoreboard players operation #price.fighter.common vars *= 3 integers
