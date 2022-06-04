@@ -35,31 +35,8 @@ tag @a remove loaded
 function ssbrc:logic/timer
 schedule function ssbrc:logic/resets/lobby 1s replace
 
-############################################################
-# REMOVE - UNLOCKS SLL ADVANCEMENTS ON RELOAD - DEBUG ONLY #
-############################################################
-advancement grant @a through ssbrc:series/castlevania/root
-advancement grant @a through ssbrc:series/donkey_kong/root
-advancement grant @a through ssbrc:series/dragon_quest/root
-advancement grant @a through ssbrc:series/earthbound/root
-advancement grant @a through ssbrc:series/f_zero/root
-advancement grant @a through ssbrc:series/final_fantasy/root
-advancement grant @a through ssbrc:series/fire_emblem/root
-advancement grant @a through ssbrc:series/indie_fighters/root
-advancement grant @a through ssbrc:series/kid_icarus/root
-advancement grant @a through ssbrc:series/kingdom_hearts/root
-advancement grant @a through ssbrc:series/kirby/root
-advancement grant @a through ssbrc:series/mega_man/root
-advancement grant @a through ssbrc:series/metal_gear_solid/root
-advancement grant @a through ssbrc:series/metroid/root
-advancement grant @a through ssbrc:series/persona/root
-advancement grant @a through ssbrc:series/pokemon/root
-advancement grant @a through ssbrc:series/retro_fighters/root
-advancement grant @a through ssbrc:series/sonic_the_hedgehog/root
-advancement grant @a through ssbrc:series/star_fox/root
-advancement grant @a through ssbrc:series/street_fighter/root
-advancement grant @a through ssbrc:series/super_mario_bros/root
-advancement grant @a through ssbrc:series/super_smash_bros/root
-advancement grant @a through ssbrc:series/the_legend_of_zelda/root
-advancement grant @a through ssbrc:series/yoshi/root
-###########################################################
+#######################
+# REMOVE - DEBUG ONLY #
+#######################
+scoreboard players set @a currency 99999
+#######################
