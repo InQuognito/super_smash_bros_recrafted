@@ -184,8 +184,8 @@ scoreboard players operation #price.skin.common vars *= 5 integers
 scoreboard players operation #price.skin.uncommon vars = #value.skin.common vars
 scoreboard players operation #price.skin.uncommon vars *= 2 integers
 
-scoreboard players operation #price.fighter.common vars = #value.skin vars
+scoreboard players operation #price.fighter.common vars = #price.skin.common vars
 scoreboard players operation #price.fighter.common vars *= 3 integers
 
-scoreboard players operation #price.fighter.uncommon vars = #value.fighter.common vars
+scoreboard players operation #price.fighter.uncommon vars = #price.fighter.common vars
 scoreboard players operation #price.fighter.uncommon vars *= 2 integers
