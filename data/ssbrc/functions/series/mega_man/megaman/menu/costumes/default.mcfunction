@@ -1,4 +1,4 @@
-function ssbrc:series/mega_man/megaman/menu/costumes/reset
+function ssbrc:series/mega_man/megaman/menu/skins/reset
 tag @s add default
 
 function ssbrc:series/mega_man/megaman/menu/select_character

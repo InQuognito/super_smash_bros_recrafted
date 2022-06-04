@@ -1,4 +1,4 @@
-function ssbrc:series/street_fighter/ryu/menu/costumes/reset
+function ssbrc:series/street_fighter/ryu/menu/skins/reset
 tag @s add default
 
 function ssbrc:series/street_fighter/ryu/menu/select_character

@@ -1,4 +1,4 @@
-function ssbrc:series/final_fantasy/cloud/menu/costumes/reset
+function ssbrc:series/final_fantasy/cloud/menu/skins/reset
 tag @s add default
 
 function ssbrc:series/final_fantasy/cloud/menu/select_character

@@ -1,4 +1,4 @@
-advancement grant @s only ssbrc:series/the_legend_of_zelda/link/costumes/goron_tunic
+advancement grant @s only ssbrc:series/the_legend_of_zelda/link/skins/goron_tunic
 
 scoreboard players operation @s currency -= #price.skin.common vars
 
