@@ -22,6 +22,6 @@
 		}
 	},
 	"rewards": {
-		"function": "ssbrc:characters/shadow/logic/chaos_meters/hero"
+		"function": "ssbrc:series/sonic_the_hedgehog/shadow/logic/chaos_meters/hero"
 	}
 }
