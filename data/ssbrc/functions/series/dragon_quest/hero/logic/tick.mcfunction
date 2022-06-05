@@ -1,7 +1,7 @@
 execute if entity @s[tag=!hero.magicLost,scores={mana=..0}] unless score @s duration.2 matches 1.. run function ssbrc:series/dragon_quest/hero/logic/lose_magic
-execute as @a[scores={useAbility=1..,cooldown.1=..0},nbt={SelectedItem:{tag:{ability.hero:2}}}] at @s anchored eyes if score @s mana >= #hero.bangManaCost vars run function ssbrc:series/dragon_quest/hero/logic/magic/bang
-execute if entity @s[scores={useAbility=1..},nbt={SelectedItem:{tag:{ability.hero:3}}}] if score @s mana >= #hero.kaclangManaCost vars run function ssbrc:series/dragon_quest/hero/logic/magic/kaclang
-execute if entity @s[scores={useAbility=1..,mana=21..},nbt={SelectedItem:{tag:{ability.hero:4}}}] run function ssbrc:series/dragon_quest/hero/logic/magic/magic_burst_activate
+execute as @a[scores={useAbility=1..,cooldown.1=..0},nbt={SelectedItem:{tag:{bang:1}}}] at @s anchored eyes if score @s mana >= #hero.bangManaCost vars run function ssbrc:series/dragon_quest/hero/logic/magic/bang
+execute if entity @s[scores={useAbility=1..},nbt={SelectedItem:{tag:{kaclang:1}}}] if score @s mana >= #hero.kaclangManaCost vars run function ssbrc:series/dragon_quest/hero/logic/magic/kaclang
+execute if entity @s[scores={useAbility=1..,mana=21..},nbt={SelectedItem:{tag:{magicBurst:1}}}] run function ssbrc:series/dragon_quest/hero/logic/magic/magic_burst_activate
 
 # Mana
 title @s[tag=!hero.magicLost,scores={mana=..0}] actionbar [{"text":"Out of Mana: Warrior Switch","bold":true,"color":"red"}]
@@ -29,8 +29,8 @@ title @s[tag=!hero.magicLost,tag=!magicBurstUsed,scores={mana=21..}] actionbar [
 
 scoreboard players set @s[tag=magicBurstUsed,scores={mana=21..}] mana 20
 
-item replace entity @s[tag=!magicBurstUsed,scores={mana=21..}] hotbar.4 with minecraft:carrot_on_a_stick{ability.hero:4,CustomModelData:443,Unbreakable:1,display:{Name:'[{"text":"Magic Burst","italic":false,"color":"light_purple","bold":true}]'},HideFlags:127} 1
-clear @s[scores={mana=..20}] minecraft:carrot_on_a_stick{ability.hero:4}
+item replace entity @s[tag=!magicBurstUsed,scores={mana=21..}] hotbar.4 with minecraft:carrot_on_a_stick{magicBurst:1,CustomModelData:443,Unbreakable:1,display:{Name:'[{"text":"Magic Burst","italic":false,"color":"light_purple","bold":true}]'},HideFlags:127} 1
+clear @s[scores={mana=..20}] minecraft:carrot_on_a_stick{magicBurst:1}
 
 # Fireballs
 scoreboard players add @e[type=minecraft:fireball] temp 1
