@@ -184,7 +184,7 @@ scoreboard objectives add teamrocket.gP dummy
 scoreboard objectives add teamrocket.wins dummy
 scoreboard objectives add teamrocket.winStreak dummy
 
-# Options
+# Misc
 scoreboard objectives add options dummy
 scoreboard objectives add stats.deaths minecraft.custom:minecraft.deaths
 scoreboard objectives add stats.gP dummy

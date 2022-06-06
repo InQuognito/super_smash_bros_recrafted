@@ -75,6 +75,8 @@ scoreboard objectives add snake.socomR dummy
 scoreboard objectives add snake.socomF dummy
 scoreboard objectives add snake.sgA dummy
 scoreboard objectives add snake.sgF dummy
+scoreboard objectives add stats.deaths.temp minecraft.custom:minecraft.deaths
+scoreboard objectives add stats.kills.temp minecraft.custom:minecraft.player_kills
 scoreboard objectives add steve.tier dummy
 scoreboard objectives add stocks dummy
 scoreboard objectives add teamAmount dummy

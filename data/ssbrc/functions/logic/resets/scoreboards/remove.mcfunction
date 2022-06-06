@@ -75,6 +75,8 @@ scoreboard objectives remove snake.socomR
 scoreboard objectives remove snake.socomF
 scoreboard objectives remove snake.sgA
 scoreboard objectives remove snake.sgF
+scoreboard objectives remove stats.deaths.temp
+scoreboard objectives remove stats.kills.temp
 scoreboard objectives remove steve.tier
 scoreboard objectives remove stocks
 scoreboard objectives remove teamAmount

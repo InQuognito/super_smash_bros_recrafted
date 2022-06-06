@@ -1,111 +1,199 @@
 function ssbrc:logic/resets/scoreboards/remove
 
-# Kills
-scoreboard objectives remove alteredbeast.k
-scoreboard objectives remove alucard.k
-scoreboard objectives remove bowser.k
-scoreboard objectives remove byleth.k
-scoreboard objectives remove captainfalcon.k
-scoreboard objectives remove charizard.k
-scoreboard objectives remove darksamus.k
-scoreboard objectives remove donkeykong.k
-scoreboard objectives remove fox.k
-scoreboard objectives remove ganon.k
-scoreboard objectives remove greninja.k
-scoreboard objectives remove hero.k
-scoreboard objectives remove joker.k
-scoreboard objectives remove kirby.k
-scoreboard objectives remove kingkrool.k
-scoreboard objectives remove link.k
-scoreboard objectives remove mario.k
-scoreboard objectives remove megaman.k
-scoreboard objectives remove ness.k
-scoreboard objectives remove pit.k
-scoreboard objectives remove ryu.k
-scoreboard objectives remove samus.k
-scoreboard objectives remove shadow.k
-scoreboard objectives remove shovelknight.k
-scoreboard objectives remove snake.k
-scoreboard objectives remove sonic.k
-scoreboard objectives remove steve.k
-scoreboard objectives remove teamrocket.k
-
-# Games Played
+scoreboard objectives remove alteredbeast.deaths
+scoreboard objectives remove alteredbeast.kills
 scoreboard objectives remove alteredbeast.gP
+scoreboard objectives remove alteredbeast.wins
+scoreboard objectives remove alteredbeast.winStreak
+
+scoreboard objectives remove alucard.deaths
+scoreboard objectives remove alucard.kills
 scoreboard objectives remove alucard.gP
+scoreboard objectives remove alucard.wins
+scoreboard objectives remove alucard.winStreak
+
+scoreboard objectives remove bowser.deaths
+scoreboard objectives remove bowser.kills
 scoreboard objectives remove bowser.gP
+scoreboard objectives remove bowser.wins
+scoreboard objectives remove bowser.winStreak
+
+scoreboard objectives remove byleth.deaths
+scoreboard objectives remove byleth.kills
 scoreboard objectives remove byleth.gP
+scoreboard objectives remove byleth.wins
+scoreboard objectives remove byleth.winStreak
+
+scoreboard objectives remove captainfalcon.deaths
+scoreboard objectives remove captainfalcon.kills
 scoreboard objectives remove captainfalcon.gP
+scoreboard objectives remove captainfalcon.wins
+scoreboard objectives remove captainfalcon.winStreak
+
+scoreboard objectives remove charizard.deaths
+scoreboard objectives remove charizard.kills
 scoreboard objectives remove charizard.gP
+scoreboard objectives remove charizard.wins
+scoreboard objectives remove charizard.winStreak
+
+scoreboard objectives remove cloud.deaths
+scoreboard objectives remove cloud.kills
+scoreboard objectives remove cloud.gP
+scoreboard objectives remove cloud.wins
+scoreboard objectives remove cloud.winStreak
+
+scoreboard objectives remove darksamus.deaths
+scoreboard objectives remove darksamus.kills
 scoreboard objectives remove darksamus.gP
+scoreboard objectives remove darksamus.wins
+scoreboard objectives remove darksamus.winStreak
+
+scoreboard objectives remove donkeykong.deaths
+scoreboard objectives remove donkeykong.kills
 scoreboard objectives remove donkeykong.gP
+scoreboard objectives remove donkeykong.wins
+scoreboard objectives remove donkeykong.winStreak
+
+scoreboard objectives remove fox.deaths
+scoreboard objectives remove fox.kills
 scoreboard objectives remove fox.gP
-scoreboard objectives remove ganon.gP
+scoreboard objectives remove fox.wins
+scoreboard objectives remove fox.winStreak
+
+scoreboard objectives remove ganondorf.deaths
+scoreboard objectives remove ganondorf.kills
+scoreboard objectives remove ganondorf.gP
+scoreboard objectives remove ganondorf.wins
+scoreboard objectives remove ganondorf.winStreak
+
+scoreboard objectives remove giegue.deaths
+scoreboard objectives remove giegue.kills
+scoreboard objectives remove giegue.gP
+scoreboard objectives remove giegue.wins
+scoreboard objectives remove giegue.winStreak
+
+scoreboard objectives remove greninja.deaths
+scoreboard objectives remove greninja.kills
 scoreboard objectives remove greninja.gP
+scoreboard objectives remove greninja.wins
+scoreboard objectives remove greninja.winStreak
+
+scoreboard objectives remove hero.deaths
+scoreboard objectives remove hero.kills
 scoreboard objectives remove hero.gP
+scoreboard objectives remove hero.wins
+scoreboard objectives remove hero.winStreak
+
+scoreboard objectives remove joker.deaths
+scoreboard objectives remove joker.kills
 scoreboard objectives remove joker.gP
+scoreboard objectives remove joker.wins
+scoreboard objectives remove joker.winStreak
+
+scoreboard objectives remove kirby.deaths
+scoreboard objectives remove kirby.kills
 scoreboard objectives remove kirby.gP
+scoreboard objectives remove kirby.wins
+scoreboard objectives remove kirby.winStreak
+
+scoreboard objectives remove kingkrool.deaths
+scoreboard objectives remove kingkrool.kills
 scoreboard objectives remove kingkrool.gP
+scoreboard objectives remove kingkrool.wins
+scoreboard objectives remove kingkrool.winStreak
+
+scoreboard objectives remove link.deaths
+scoreboard objectives remove link.kills
 scoreboard objectives remove link.gP
+scoreboard objectives remove link.wins
+scoreboard objectives remove link.winStreak
+
+scoreboard objectives remove luigi.deaths
+scoreboard objectives remove luigi.kills
+scoreboard objectives remove luigi.gP
+scoreboard objectives remove luigi.wins
+scoreboard objectives remove luigi.winStreak
+
+scoreboard objectives remove mario.deaths
+scoreboard objectives remove mario.kills
 scoreboard objectives remove mario.gP
+scoreboard objectives remove mario.wins
+scoreboard objectives remove mario.winStreak
+
+scoreboard objectives remove megaman.deaths
+scoreboard objectives remove megaman.kills
 scoreboard objectives remove megaman.gP
+scoreboard objectives remove megaman.wins
+scoreboard objectives remove megaman.winStreak
+
+scoreboard objectives remove ness.deaths
+scoreboard objectives remove ness.kills
 scoreboard objectives remove ness.gP
+scoreboard objectives remove ness.wins
+scoreboard objectives remove ness.winStreak
+
+scoreboard objectives remove pit.deaths
+scoreboard objectives remove pit.kills
 scoreboard objectives remove pit.gP
+scoreboard objectives remove pit.wins
+scoreboard objectives remove pit.winStreak
+
+scoreboard objectives remove ryu.deaths
+scoreboard objectives remove ryu.kills
 scoreboard objectives remove ryu.gP
+scoreboard objectives remove ryu.wins
+scoreboard objectives remove ryu.winStreak
+
+scoreboard objectives remove samus.deaths
+scoreboard objectives remove samus.kills
 scoreboard objectives remove samus.gP
+scoreboard objectives remove samus.wins
+scoreboard objectives remove samus.winStreak
+
+scoreboard objectives remove shadow.deaths
+scoreboard objectives remove shadow.kills
 scoreboard objectives remove shadow.gP
+scoreboard objectives remove shadow.wins
+scoreboard objectives remove shadow.winStreak
+
+scoreboard objectives remove shovelknight.deaths
+scoreboard objectives remove shovelknight.kills
 scoreboard objectives remove shovelknight.gP
+scoreboard objectives remove shovelknight.wins
+scoreboard objectives remove shovelknight.winStreak
+
+scoreboard objectives remove snake.deaths
+scoreboard objectives remove snake.kills
 scoreboard objectives remove snake.gP
+scoreboard objectives remove snake.wins
+scoreboard objectives remove snake.winStreak
+
+scoreboard objectives remove sonic.deaths
+scoreboard objectives remove sonic.kills
 scoreboard objectives remove sonic.gP
+scoreboard objectives remove sonic.wins
+scoreboard objectives remove sonic.winStreak
+
+scoreboard objectives remove steve.deaths
+scoreboard objectives remove steve.kills
 scoreboard objectives remove steve.gP
+scoreboard objectives remove steve.wins
+scoreboard objectives remove steve.winStreak
+
+scoreboard objectives remove teamrocket.deaths
+scoreboard objectives remove teamrocket.kills
 scoreboard objectives remove teamrocket.gP
+scoreboard objectives remove teamrocket.wins
+scoreboard objectives remove teamrocket.winStreak
 
-# Win Streak
-scoreboard objectives remove alteredbeast.wS
-scoreboard objectives remove alucard.wS
-scoreboard objectives remove bowser.wS
-scoreboard objectives remove byleth.wS
-scoreboard objectives remove captainfalcon.wS
-scoreboard objectives remove charizard.wS
-scoreboard objectives remove darksamus.wS
-scoreboard objectives remove donkeykong.wS
-scoreboard objectives remove fox.wS
-scoreboard objectives remove ganon.wS
-scoreboard objectives remove greninja.wS
-scoreboard objectives remove hero.wS
-scoreboard objectives remove joker.wS
-scoreboard objectives remove kirby.wS
-scoreboard objectives remove kingkrool.wS
-scoreboard objectives remove link.wS
-scoreboard objectives remove mario.wS
-scoreboard objectives remove megaman.wS
-scoreboard objectives remove ness.wS
-scoreboard objectives remove pit.wS
-scoreboard objectives remove ryu.wS
-scoreboard objectives remove samus.wS
-scoreboard objectives remove shadow.wS
-scoreboard objectives remove shovelknight.wS
-scoreboard objectives remove snake.wS
-scoreboard objectives remove sonic.wS
-scoreboard objectives remove steve.wS
-scoreboard objectives remove teamrocket.wS
-
-# Stats
-scoreboard objectives remove currency
+# Misc
+scoreboard objectives remove options
 scoreboard objectives remove stats.deaths
 scoreboard objectives remove stats.gP
 scoreboard objectives remove stats.kD
 scoreboard objectives remove stats.kills
 scoreboard objectives remove stats.wins
 scoreboard objectives remove stats.wL
-
-# Favorites
-scoreboard objectives remove favorite.slot1
-scoreboard objectives remove favorite.slot2
-scoreboard objectives remove favorite.slot3
-
-# Misc
-scoreboard objectives remove options
 
 function ssbrc:logic/resets/scoreboards/create
 
