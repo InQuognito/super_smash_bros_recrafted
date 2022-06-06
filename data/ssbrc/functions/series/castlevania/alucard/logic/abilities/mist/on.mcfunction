@@ -13,7 +13,7 @@ execute if entity @s[tag=alucard.ability] run summon minecraft:area_effect_cloud
 data modify entity @e[tag=alucard.mist,tag=noOwner,limit=1] Owner set from entity @s UUID
 tag @e[tag=alucard.mist,tag=noOwner] remove noOwner
 
-execute store result score @s damage run data get entity @s Inventory[{Slot:-106b}].tag.Damage
+execute store result score @s durability run data get entity @s Inventory[{Slot:-106b}].tag.Damage
 
 clear @s
 

@@ -14,6 +14,7 @@ scoreboard objectives remove damage.fireball
 scoreboard objectives remove damage.fireBreath
 scoreboard objectives remove damage.iceBall
 scoreboard objectives remove debug
+scoreboard objectives remove durability
 scoreboard objectives remove duration.1
 scoreboard objectives remove duration.2
 scoreboard objectives remove duration.3

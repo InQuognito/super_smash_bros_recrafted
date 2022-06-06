@@ -3,7 +3,7 @@
 	"damage": {
 		"type": "minecraft:score",
 		"target": "this",
-		"score": "damage"
+		"score": "durability"
 	},
 	"add": false
 }
