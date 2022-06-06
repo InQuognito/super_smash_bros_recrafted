@@ -346,7 +346,7 @@
 		"entity": "this",
 		"lore": [
 			{
-				"text": "Right click to view all statistics!",
+				"text": "Use this item to view all statistics!",
 				"color": "light_purple",
 				"bold": false,
 				"italic": false
