@@ -45,7 +45,8 @@
 									"pattern": "piglin",
 									"color": "gray"
 								}
-							]
+							],
+							"append": false
 						},
 						{
 							"function": "minecraft:set_nbt",
@@ -61,7 +62,7 @@
 								{
 									"source": "damage",
 									"target": "Damage",
-									"op": "append"
+									"op": "replace"
 								}
 							]
 						}
