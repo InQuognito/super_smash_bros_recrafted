@@ -61,7 +61,7 @@
 								{
 									"source": "damage",
 									"target": "Damage",
-									"op": "replace"
+									"op": "append"
 								}
 							]
 						}
