@@ -100,7 +100,9 @@ item replace entity @s[tag=waretiger] weapon.offhand with minecraft:firework_roc
 
 # Alucard
 clear @s[tag=alucard] minecraft:shield
-item replace entity @s[tag=alucard] weapon.offhand with minecraft:shield{Damage:300,display:{Name:'[{"text":"Alucard Shield","italic":false,"color":"white","bold":true}]'},BlockEntityTag:{Base:14,Patterns:[{Color:7,Pattern:"tt"},{Color:15,Pattern:"sc"},{Color:7,Pattern:"mr"},{Color:4,Pattern:"flo"},{Color:7,Pattern:"pig"}]},HideFlags:127} 1
+scoreboard players set @s[tag=alucard] durability 300
+execute store result storage ssbrc:alucard_shield damage int 1.0 run scoreboard players get @s durability
+loot replace entity @s[tag=alucard] weapon.offhand loot ssbrc:alucard_shield
 
 # Team Rocket
 tag @s[tag=teamrocket] remove teamrocket.picked
