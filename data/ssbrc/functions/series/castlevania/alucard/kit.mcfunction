@@ -3,4 +3,5 @@ item replace entity @s hotbar.1 with minecraft:carrot_on_a_stick{ability.alucard
 item replace entity @s hotbar.4 with minecraft:carrot_on_a_stick{ability.alucard:2,CustomModelData:1842,Unbreakable:1,display:{Name:'[{"text":"Blood Metamorphosis","italic":false,"color":"dark_red","bold":true}]'},HideFlags:127} 1
 
 scoreboard players set @s durability 300
+execute store result storage ssbrc:alucard_shield damage int 1.0 run scoreboard players get @s durability
 loot replace entity @s weapon.offhand loot ssbrc:alucard_shield
