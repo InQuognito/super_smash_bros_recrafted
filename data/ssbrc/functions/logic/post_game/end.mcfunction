@@ -15,6 +15,6 @@ execute if score $teams options matches 1 if entity @s[team=team8] run tag @a[te
 execute unless score $playersAlive temp matches 1 as @a[team=!spectator] run function ssbrc:logic/post_game/update_stats
 execute unless score $playersAlive temp matches 1 as @a[team=!spectator] run function ssbrc:logic/stats/advancements
 
-execute unless score $playersAlive temp matches 1 as @a run function ssbrc:logic/post_game/summary
+execute as @a run function ssbrc:logic/post_game/summary
 
 function ssbrc:logic/load
