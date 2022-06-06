@@ -8,4 +8,4 @@ execute if score $teams options matches 1 if entity @a[tag=winner,limit=1,team=t
 execute if score $teams options matches 1 if entity @a[tag=winner,limit=1,team=team7] run tellraw @a [{"text":"Winner: ","color":"yellow"},{"text":"Team Pink","color":"light_purple"}]
 execute if score $teams options matches 1 if entity @a[tag=winner,limit=1,team=team8] run tellraw @a [{"text":"Winner: ","color":"yellow"},{"text":"Team Aqua","color":"aqua"}]
 execute if score $gameMode options matches 1 run tellraw @a [{"text":"Match Duration: ","color":"gold"},{"score":{"name":"$gameTime","objective":"timer"},"color":"yellow"},{"text":"s","color":"gold"}]
-tellraw @a [{"text":"Credits Earned: ","color":"gold"},{"score":{"name":"@s","objective":"currency.temp"},"color":"yellow"}]
+tellraw @a [{"text":"Credits Earned: ","color":"gold"},{"score":{"name":"@s","objective":"currency.temp"},"color":"yellow"},{"text":"₡","color":"yellow"}]
