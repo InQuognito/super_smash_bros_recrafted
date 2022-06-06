@@ -302,7 +302,7 @@
 						"italic": false,
 						"extra": [
 							{
-								"text": ".0",
+								"text": ".",
 								"color": "yellow",
 								"bold": false,
 								"italic": false,
@@ -346,7 +346,31 @@
 		"entity": "this",
 		"lore": [
 			{
-				"text": "Use this item to view all statistics!",
+				"text": "\nCredits: ",
+				"color": "gold",
+				"bold": false,
+				"italic": false,
+				"extra": [
+					{
+						"score": {
+							"name": "@s",
+							"objective": "currency"
+						},
+						"color": "yellow",
+						"bold": false,
+						"italic": false
+					}
+				]
+			}
+		],
+		"replace": false
+	},
+	{
+		"function": "minecraft:set_lore",
+		"entity": "this",
+		"lore": [
+			{
+				"text": "\nUse this item to view all statistics!",
 				"color": "light_purple",
 				"bold": false,
 				"italic": false
