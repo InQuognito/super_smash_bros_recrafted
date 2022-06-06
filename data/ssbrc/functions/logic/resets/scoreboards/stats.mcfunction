@@ -88,17 +88,17 @@ scoreboard objectives add joker.gP dummy
 scoreboard objectives add joker.wins dummy
 scoreboard objectives add joker.winStreak dummy
 
-scoreboard objectives add kirby.deaths dummy
-scoreboard objectives add kirby.kills dummy
-scoreboard objectives add kirby.gP dummy
-scoreboard objectives add kirby.wins dummy
-scoreboard objectives add kirby.winStreak dummy
-
 scoreboard objectives add kingkrool.deaths dummy
 scoreboard objectives add kingkrool.kills dummy
 scoreboard objectives add kingkrool.gP dummy
 scoreboard objectives add kingkrool.wins dummy
 scoreboard objectives add kingkrool.winStreak dummy
+
+scoreboard objectives add kirby.deaths dummy
+scoreboard objectives add kirby.kills dummy
+scoreboard objectives add kirby.gP dummy
+scoreboard objectives add kirby.wins dummy
+scoreboard objectives add kirby.winStreak dummy
 
 scoreboard objectives add link.deaths dummy
 scoreboard objectives add link.kills dummy
@@ -183,6 +183,8 @@ scoreboard objectives add teamrocket.kills dummy
 scoreboard objectives add teamrocket.gP dummy
 scoreboard objectives add teamrocket.wins dummy
 scoreboard objectives add teamrocket.winStreak dummy
+
+execute as @a run function ssbrc:logic/resets/scoreboards/set_empty_stats
 
 # Misc
 scoreboard objectives add options dummy
