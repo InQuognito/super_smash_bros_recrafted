@@ -42,7 +42,7 @@ scoreboard players operation #wL.decimal temp %= 100 integers
 scoreboard players operation #wL.integer temp = @s stats.wL
 scoreboard players operation #wL.integer temp /= 100 integers
 
-item replace entity @s inventory.13 with minecraft:paper
+item replace entity @s inventory.13 with minecraft:written_book
 item modify entity @s inventory.13 ssbrc:statistics_card
 
 function ssbrc:logic/shop_book

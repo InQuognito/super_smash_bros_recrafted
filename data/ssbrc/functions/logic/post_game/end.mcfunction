@@ -2,8 +2,6 @@ schedule clear ssbrc:logic/timer
 
 execute unless score $playersAlive temp matches 1 run function ssbrc:logic/post_game/display_winner
 
-execute if score $gameMode options matches 1 run tellraw @a [{"text":"Match Duration: ","color":"gold"},{"score":{"name":"$gameTime","objective":"timer"},"color":"yellow"},{"text":"s","color":"gold"}]
-
 execute if score $teams options matches 0 run tag @s add winner
 execute if score $teams options matches 1 if entity @s[team=team1] run tag @a[team=team1] add winner
 execute if score $teams options matches 1 if entity @s[team=team2] run tag @a[team=team2] add winner
@@ -17,6 +15,6 @@ execute if score $teams options matches 1 if entity @s[team=team8] run tag @a[te
 execute unless score $playersAlive temp matches 1 as @a[team=!spectator] run function ssbrc:logic/post_game/update_stats
 execute unless score $playersAlive temp matches 1 as @a[team=!spectator] run function ssbrc:logic/stats/advancements
 
-execute if score $playersAlive temp matches 1 run tellraw @s {"text":"One-player matches do not count towards your stats.","color":"red"}
+execute unless score $playersAlive temp matches 1 as @a run function ssbrc:logic/post_game/summary
 
 function ssbrc:logic/load
