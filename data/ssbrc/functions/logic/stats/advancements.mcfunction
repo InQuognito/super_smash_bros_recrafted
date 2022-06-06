@@ -1,6 +1,6 @@
 # Stat-Based Advancements
 advancement grant @s[tag=mario] only ssbrc:characters/mario/novice
-advancement grant @a[tag=mario,scores={mario.gP=10..}] only ssbrc:characters/mario/veteran
+advancement grant @a[tag=mario,scores={mario.gamesPlayed=10..}] only ssbrc:characters/mario/veteran
 advancement grant @a[tag=mario,scores={mario.k=15..}] only ssbrc:characters/mario/slayer
 advancement grant @a[tag=mario,scores={mario.wS=3..}] only ssbrc:characters/mario/master
 

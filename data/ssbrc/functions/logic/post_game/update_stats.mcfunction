@@ -1,31 +1,31 @@
-scoreboard players add @s[tag=alteredbeast] alteredbeast.gP 1
-scoreboard players add @s[tag=alucard] alucard.gP 1
-scoreboard players add @s[tag=bowser] bowser.gP 1
-scoreboard players add @s[tag=byleth] byleth.gP 1
-scoreboard players add @s[tag=captainfalcon] captainfalcon.gP 1
-scoreboard players add @s[tag=charizard] charizard.gP 1
-scoreboard players add @s[tag=darksamus] darksamus.gP 1
-scoreboard players add @s[tag=donkeykong] donkeykong.gP 1
-scoreboard players add @s[tag=fox] fox.gP 1
-scoreboard players add @s[tag=ganon] ganon.gP 1
-scoreboard players add @s[tag=greninja] greninja.gP 1
-scoreboard players add @s[tag=hero] hero.gP 1
-scoreboard players add @s[tag=joker] joker.gP 1
-scoreboard players add @s[tag=kirby] kirby.gP 1
-scoreboard players add @s[tag=kingkrool] kingkrool.gP 1
-scoreboard players add @s[tag=link] link.gP 1
-scoreboard players add @s[tag=mario] mario.gP 1
-scoreboard players add @s[tag=megaman] megaman.gP 1
-scoreboard players add @s[tag=ness] ness.gP 1
-scoreboard players add @s[tag=pit] pit.gP 1
-scoreboard players add @s[tag=ryu] ryu.gP 1
-scoreboard players add @s[tag=samus] samus.gP 1
-scoreboard players add @s[tag=shadow] shadow.gP 1
-scoreboard players add @s[tag=shovelknight] shovelknight.gP 1
-scoreboard players add @s[tag=snake] snake.gP 1
-scoreboard players add @s[tag=sonic] sonic.gP 1
-scoreboard players add @s[tag=steve] steve.gP 1
-scoreboard players add @s[tag=teamrocket] teamrocket.gP 1
+scoreboard players add @s[tag=alteredbeast] alteredbeast.gamesPlayed 1
+scoreboard players add @s[tag=alucard] alucard.gamesPlayed 1
+scoreboard players add @s[tag=bowser] bowser.gamesPlayed 1
+scoreboard players add @s[tag=byleth] byleth.gamesPlayed 1
+scoreboard players add @s[tag=captainfalcon] captainfalcon.gamesPlayed 1
+scoreboard players add @s[tag=charizard] charizard.gamesPlayed 1
+scoreboard players add @s[tag=darksamus] darksamus.gamesPlayed 1
+scoreboard players add @s[tag=donkeykong] donkeykong.gamesPlayed 1
+scoreboard players add @s[tag=fox] fox.gamesPlayed 1
+scoreboard players add @s[tag=ganon] ganon.gamesPlayed 1
+scoreboard players add @s[tag=greninja] greninja.gamesPlayed 1
+scoreboard players add @s[tag=hero] hero.gamesPlayed 1
+scoreboard players add @s[tag=joker] joker.gamesPlayed 1
+scoreboard players add @s[tag=kirby] kirby.gamesPlayed 1
+scoreboard players add @s[tag=kingkrool] kingkrool.gamesPlayed 1
+scoreboard players add @s[tag=link] link.gamesPlayed 1
+scoreboard players add @s[tag=mario] mario.gamesPlayed 1
+scoreboard players add @s[tag=megaman] megaman.gamesPlayed 1
+scoreboard players add @s[tag=ness] ness.gamesPlayed 1
+scoreboard players add @s[tag=pit] pit.gamesPlayed 1
+scoreboard players add @s[tag=ryu] ryu.gamesPlayed 1
+scoreboard players add @s[tag=samus] samus.gamesPlayed 1
+scoreboard players add @s[tag=shadow] shadow.gamesPlayed 1
+scoreboard players add @s[tag=shovelknight] shovelknight.gamesPlayed 1
+scoreboard players add @s[tag=snake] snake.gamesPlayed 1
+scoreboard players add @s[tag=sonic] sonic.gamesPlayed 1
+scoreboard players add @s[tag=steve] steve.gamesPlayed 1
+scoreboard players add @s[tag=teamrocket] teamrocket.gamesPlayed 1
 
 scoreboard players reset @s[tag=!winner,tag=alteredbeast] alteredbeast.wS
 scoreboard players reset @s[tag=!winner,tag=alucard] alucard.wS
@@ -115,7 +115,7 @@ scoreboard players add @s[tag=steve] steve.wS 1
 scoreboard players add @s[tag=teamrocket] teamrocket.wS 1
 
 scoreboard players add @s[tag=winner] stats.wins 1
-scoreboard players add @s stats.gP 1
+scoreboard players add @s stats.gamesPlayed 1
 
 scoreboard players operation @s currency.temp += #value.playGame vars
 scoreboard players operation @s[tag=winner] currency.temp += #value.winGame vars

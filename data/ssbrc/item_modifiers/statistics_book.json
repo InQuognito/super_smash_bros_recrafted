@@ -46,7 +46,7 @@
 					{
 						"score": {
 							"name": "@s",
-							"objective": "stats.gP"
+							"objective": "stats.gamesPlayed"
 						},
 						"color": "yellow",
 						"bold": false,
