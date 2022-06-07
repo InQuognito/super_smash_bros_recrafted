@@ -34,7 +34,7 @@
 		"show_toast": true,
 		"announce_to_chat": true
 	},
-	"parent": "ssbrc:characters/ganondorf/lord_of_darkness",
+	"parent": "ssbrc:series/the_legend_of_zelda/ganondorf/lord_of_darkness",
 	"criteria": {
 		"impossible": {
 			"trigger": "minecraft:impossible"

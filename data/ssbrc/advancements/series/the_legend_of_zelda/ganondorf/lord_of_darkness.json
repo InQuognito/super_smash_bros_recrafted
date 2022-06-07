@@ -34,7 +34,7 @@
 		"show_toast": true,
 		"announce_to_chat": true
 	},
-	"parent": "ssbrc:characters/ganondorf/a_great_evil_walks_the_earth",
+	"parent": "ssbrc:series/the_legend_of_zelda/ganondorf/a_great_evil_walks_the_earth",
 	"criteria": {
 		"impossible": {
 			"trigger": "minecraft:impossible"

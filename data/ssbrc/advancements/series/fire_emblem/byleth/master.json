@@ -46,7 +46,7 @@
 		"show_toast": true,
 		"announce_to_chat": true
 	},
-	"parent": "ssbrc:characters/byleth/veteran",
+	"parent": "ssbrc:series/fire_emblem/byleth/veteran",
 	"criteria": {
 		"impossible": {
 			"trigger": "minecraft:impossible"

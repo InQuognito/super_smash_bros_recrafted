@@ -58,7 +58,7 @@
 		"show_toast": true,
 		"announce_to_chat": true
 	},
-	"parent": "ssbrc:characters/byleth/slayer",
+	"parent": "ssbrc:series/fire_emblem/byleth/slayer",
 	"criteria": {
 		"impossible": {
 			"trigger": "minecraft:impossible"

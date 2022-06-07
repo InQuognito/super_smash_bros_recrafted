@@ -8,7 +8,6 @@ team leave @s
 
 xp set @s 0 levels
 xp set @s 0 points
-recipe take @s *
 
 effect clear @s
 

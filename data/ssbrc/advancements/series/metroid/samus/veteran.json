@@ -34,7 +34,7 @@
 		"show_toast": true,
 		"announce_to_chat": true
 	},
-	"parent": "ssbrc:characters/samus/novice",
+	"parent": "ssbrc:series/metroid/samus/novice",
 	"criteria": {
 		"impossible": {
 			"trigger": "minecraft:impossible"

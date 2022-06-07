@@ -46,7 +46,7 @@
 		"show_toast": true,
 		"announce_to_chat": true
 	},
-	"parent": "ssbrc:characters/byleth/master",
+	"parent": "ssbrc:series/fire_emblem/byleth/master",
 	"criteria": {
 		"impossible": {
 			"trigger": "minecraft:impossible"

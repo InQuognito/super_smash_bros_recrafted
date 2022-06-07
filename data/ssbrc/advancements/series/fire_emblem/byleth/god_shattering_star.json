@@ -46,7 +46,7 @@
 		"show_toast": true,
 		"announce_to_chat": true
 	},
-	"parent": "ssbrc:characters/byleth/novice",
+	"parent": "ssbrc:series/fire_emblem/byleth/novice",
 	"criteria": {
 		"impossible": {
 			"trigger": "minecraft:impossible"

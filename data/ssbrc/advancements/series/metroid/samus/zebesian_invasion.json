@@ -58,7 +58,7 @@
 		"show_toast": true,
 		"announce_to_chat": true
 	},
-	"parent": "ssbrc:characters/samus/slayer",
+	"parent": "ssbrc:series/metroid/samus/slayer",
 	"criteria": {
 		"impossible": {
 			"trigger": "minecraft:impossible"

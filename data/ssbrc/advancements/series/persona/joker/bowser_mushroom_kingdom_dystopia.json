@@ -20,7 +20,7 @@
 		"show_toast": true,
 		"announce_to_chat": true
 	},
-	"parent": "ssbrc:characters/joker/veteran",
+	"parent": "ssbrc:series/persona/joker/veteran",
 	"criteria": {
 		"impossible": {
 			"trigger": "minecraft:impossible"

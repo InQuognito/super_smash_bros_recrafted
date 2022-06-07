@@ -46,7 +46,7 @@
 		"show_toast": true,
 		"announce_to_chat": true
 	},
-	"parent": "ssbrc:characters/ganondorf/a_hand_that_holds_power",
+	"parent": "ssbrc:series/the_legend_of_zelda/ganondorf/a_hand_that_holds_power",
 	"criteria": {
 		"impossible": {
 			"trigger": "minecraft:impossible"

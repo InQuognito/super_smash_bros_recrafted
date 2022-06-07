@@ -46,7 +46,7 @@
 		"show_toast": true,
 		"announce_to_chat": true
 	},
-	"parent": "ssbrc:characters/hero/veteran",
+	"parent": "ssbrc:series/dragon_quest/hero/veteran",
 	"criteria": {
 		"impossible": {
 			"trigger": "minecraft:impossible"

@@ -34,7 +34,7 @@
 		"show_toast": true,
 		"announce_to_chat": true
 	},
-	"parent": "ssbrc:characters/hero/slayer",
+	"parent": "ssbrc:series/dragon_quest/hero/slayer",
 	"criteria": {
 		"impossible": {
 			"trigger": "minecraft:impossible"

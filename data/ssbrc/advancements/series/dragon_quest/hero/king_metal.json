@@ -46,7 +46,7 @@
 		"show_toast": true,
 		"announce_to_chat": true
 	},
-	"parent": "ssbrc:characters/hero/survivalist",
+	"parent": "ssbrc:series/dragon_quest/hero/survivalist",
 	"criteria": {
 		"impossible": {
 			"trigger": "minecraft:impossible"

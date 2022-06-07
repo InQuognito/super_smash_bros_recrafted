@@ -46,7 +46,7 @@
 		"show_toast": true,
 		"announce_to_chat": true
 	},
-	"parent": "ssbrc:characters/joker/survivalist",
+	"parent": "ssbrc:series/persona/joker/survivalist",
 	"criteria": {
 		"impossible": {
 			"trigger": "minecraft:impossible"
