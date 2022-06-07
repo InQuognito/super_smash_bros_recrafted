@@ -58,7 +58,7 @@
 		"show_toast": true,
 		"announce_to_chat": true
 	},
-	"parent": "ssbrc:characters/sonic/survivalist",
+	"parent": "ssbrc:series/sonic_the_hedgehog/sonic//survivalist",
 	"criteria": {
 		"impossible": {
 			"trigger": "minecraft:impossible"

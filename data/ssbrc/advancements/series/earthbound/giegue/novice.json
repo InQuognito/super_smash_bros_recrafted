@@ -34,7 +34,7 @@
 		"show_toast": true,
 		"announce_to_chat": true
 	},
-	"parent": "ssbrc:characters/giegue/root",
+	"parent": "ssbrc:series/earthbound/giegue/root",
 	"criteria": {
 		"impossible": {
 			"trigger": "minecraft:impossible"

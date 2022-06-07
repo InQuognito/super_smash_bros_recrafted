@@ -34,7 +34,7 @@
 		"show_toast": true,
 		"announce_to_chat": true
 	},
-	"parent": "ssbrc:characters/donkeykong/novice",
+	"parent": "ssbrc:series/donkey_kong/donkeykong//novice",
 	"criteria": {
 		"impossible": {
 			"trigger": "minecraft:impossible"

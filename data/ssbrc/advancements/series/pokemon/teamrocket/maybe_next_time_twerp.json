@@ -46,7 +46,7 @@
 		"show_toast": true,
 		"announce_to_chat": true
 	},
-	"parent": "ssbrc:characters/teamrocket/blasting_off_again",
+	"parent": "ssbrc:series/pokemon/teamrocket/blasting_off_again",
 	"criteria": {
 		"impossible": {
 			"trigger": "minecraft:impossible"

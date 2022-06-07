@@ -46,7 +46,7 @@
 		"show_toast": true,
 		"announce_to_chat": true
 	},
-	"parent": "ssbrc:characters/teamrocket/veteran",
+	"parent": "ssbrc:series/pokemon/teamrocket/veteran",
 	"criteria": {
 		"impossible": {
 			"trigger": "minecraft:impossible"
