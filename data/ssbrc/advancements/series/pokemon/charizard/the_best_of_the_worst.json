@@ -34,7 +34,7 @@
 		"show_toast": true,
 		"announce_to_chat": true
 	},
-	"parent": "ssbrc:characters/charizard/novice",
+	"parent": "ssbrc:series/pokemon/charizard/novice",
 	"criteria": {
 		"impossible": {
 			"trigger": "minecraft:impossible"

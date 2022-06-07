@@ -46,7 +46,7 @@
 		"show_toast": true,
 		"announce_to_chat": true
 	},
-	"parent": "ssbrc:characters/sora/master",
+	"parent": "ssbrc:series/kingdom_hearts/sora/master",
 	"criteria": {
 		"impossible": {
 			"trigger": "minecraft:impossible"

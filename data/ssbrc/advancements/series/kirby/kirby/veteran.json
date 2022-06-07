@@ -34,7 +34,7 @@
 		"show_toast": true,
 		"announce_to_chat": true
 	},
-	"parent": "ssbrc:characters/kirby/super_tuff_pink_puff",
+	"parent": "ssbrc:series/kirby/kirby/super_tuff_pink_puff",
 	"criteria": {
 		"impossible": {
 			"trigger": "minecraft:impossible"

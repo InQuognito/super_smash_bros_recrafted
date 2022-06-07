@@ -34,7 +34,7 @@
 		"show_toast": true,
 		"announce_to_chat": true
 	},
-	"parent": "ssbrc:characters/yar/root",
+	"parent": "ssbrc:series/retro_fighters/yar/root",
 	"criteria": {
 		"impossible": {
 			"trigger": "minecraft:impossible"

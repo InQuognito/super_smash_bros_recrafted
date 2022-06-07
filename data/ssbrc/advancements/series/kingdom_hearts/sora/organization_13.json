@@ -40,7 +40,7 @@
 		"show_toast": true,
 		"announce_to_chat": true
 	},
-	"parent": "ssbrc:characters/sora/slayer",
+	"parent": "ssbrc:series/kingdom_hearts/sora/slayer",
 	"criteria": {
 		"impossible": {
 			"trigger": "minecraft:impossible"

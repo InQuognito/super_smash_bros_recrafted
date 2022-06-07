@@ -34,7 +34,7 @@
 		"show_toast": true,
 		"announce_to_chat": true
 	},
-	"parent": "ssbrc:characters/captainfalcon/master",
+	"parent": "ssbrc:series/f_zero/captainfalcon/master",
 	"criteria": {
 		"impossible": {
 			"trigger": "minecraft:impossible"

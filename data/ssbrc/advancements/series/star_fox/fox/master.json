@@ -46,7 +46,7 @@
 		"show_toast": true,
 		"announce_to_chat": true
 	},
-	"parent": "ssbrc:characters/fox/veteran",
+	"parent": "ssbrc:series/star_fox/fox/veteran",
 	"criteria": {
 		"impossible": {
 			"trigger": "minecraft:impossible"

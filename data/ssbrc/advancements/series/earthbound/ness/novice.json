@@ -34,7 +34,7 @@
 		"show_toast": true,
 		"announce_to_chat": true
 	},
-	"parent": "ssbrc:characters/ness/root",
+	"parent": "ssbrc:series/earthbound/ness/root",
 	"criteria": {
 		"impossible": {
 			"trigger": "minecraft:impossible"

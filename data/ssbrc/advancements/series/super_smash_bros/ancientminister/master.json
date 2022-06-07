@@ -46,7 +46,7 @@
 		"show_toast": true,
 		"announce_to_chat": true
 	},
-	"parent": "ssbrc:characters/ancientminister/veteran",
+	"parent": "ssbrc:series/super_smash_bros/ancientminister/veteran",
 	"criteria": {
 		"impossible": {
 			"trigger": "minecraft:impossible"

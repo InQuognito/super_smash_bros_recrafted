@@ -40,7 +40,7 @@
 		"show_toast": true,
 		"announce_to_chat": true
 	},
-	"parent": "ssbrc:characters/greninja/root",
+	"parent": "ssbrc:series/pokemon/greninja/root",
 	"criteria": {
 		"impossible": {
 			"trigger": "minecraft:impossible"

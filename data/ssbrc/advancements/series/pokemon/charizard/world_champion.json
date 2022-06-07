@@ -58,7 +58,7 @@
 		"show_toast": true,
 		"announce_to_chat": true
 	},
-	"parent": "ssbrc:characters/charizard/rival_battle",
+	"parent": "ssbrc:series/pokemon/charizard/rival_battle",
 	"criteria": {
 		"impossible": {
 			"trigger": "minecraft:impossible"

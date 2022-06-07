@@ -34,7 +34,7 @@
 		"show_toast": true,
 		"announce_to_chat": true
 	},
-	"parent": "ssbrc:characters/sora/veteran",
+	"parent": "ssbrc:series/kingdom_hearts/sora/veteran",
 	"criteria": {
 		"impossible": {
 			"trigger": "minecraft:impossible"

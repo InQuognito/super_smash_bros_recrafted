@@ -34,7 +34,7 @@
 		"show_toast": true,
 		"announce_to_chat": true
 	},
-	"parent": "ssbrc:characters/fox/novice",
+	"parent": "ssbrc:series/star_fox/fox/novice",
 	"criteria": {
 		"impossible": {
 			"trigger": "minecraft:impossible"

@@ -46,7 +46,7 @@
 		"show_toast": true,
 		"announce_to_chat": true
 	},
-	"parent": "ssbrc:characters/yar/master",
+	"parent": "ssbrc:series/retro_fighters/yar/master",
 	"criteria": {
 		"impossible": {
 			"trigger": "minecraft:impossible"

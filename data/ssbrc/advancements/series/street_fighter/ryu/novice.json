@@ -34,7 +34,7 @@
 		"show_toast": true,
 		"announce_to_chat": true
 	},
-	"parent": "ssbrc:characters/ryu/root",
+	"parent": "ssbrc:series/street_fighter/ryu/root",
 	"criteria": {
 		"impossible": {
 			"trigger": "minecraft:impossible"

@@ -34,7 +34,7 @@
 		"show_toast": true,
 		"announce_to_chat": true
 	},
-	"parent": "ssbrc:characters/snake/slayer",
+	"parent": "ssbrc:series/metal_gear_solid/snake/slayer",
 	"criteria": {
 		"impossible": {
 			"trigger": "minecraft:impossible"

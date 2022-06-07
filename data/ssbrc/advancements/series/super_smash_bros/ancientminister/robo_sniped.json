@@ -46,7 +46,7 @@
 		"show_toast": true,
 		"announce_to_chat": true
 	},
-	"parent": "ssbrc:characters/ancientminister/slayer",
+	"parent": "ssbrc:series/super_smash_bros/ancientminister/slayer",
 	"criteria": {
 		"impossible": {
 			"trigger": "minecraft:impossible"

@@ -34,7 +34,7 @@
 		"show_toast": true,
 		"announce_to_chat": true
 	},
-	"parent": "ssbrc:characters/yar/survivalist",
+	"parent": "ssbrc:series/retro_fighters/yar/survivalist",
 	"criteria": {
 		"impossible": {
 			"trigger": "minecraft:impossible"

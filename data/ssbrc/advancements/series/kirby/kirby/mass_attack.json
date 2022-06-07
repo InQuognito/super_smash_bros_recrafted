@@ -34,7 +34,7 @@
 		"show_toast": true,
 		"announce_to_chat": true
 	},
-	"parent": "ssbrc:characters/kirby/shiver_star",
+	"parent": "ssbrc:series/kirby/kirby/shiver_star",
 	"criteria": {
 		"impossible": {
 			"trigger": "minecraft:impossible"

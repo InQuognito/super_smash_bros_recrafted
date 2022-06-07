@@ -34,7 +34,7 @@
 		"show_toast": true,
 		"announce_to_chat": true
 	},
-	"parent": "ssbrc:characters/charizard/veteran",
+	"parent": "ssbrc:series/pokemon/charizard/veteran",
 	"criteria": {
 		"impossible": {
 			"trigger": "minecraft:impossible"

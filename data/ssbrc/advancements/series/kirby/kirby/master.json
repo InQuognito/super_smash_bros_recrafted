@@ -46,7 +46,7 @@
 		"show_toast": true,
 		"announce_to_chat": true
 	},
-	"parent": "ssbrc:characters/kirby/survivalist",
+	"parent": "ssbrc:series/kirby/kirby/survivalist",
 	"criteria": {
 		"impossible": {
 			"trigger": "minecraft:impossible"

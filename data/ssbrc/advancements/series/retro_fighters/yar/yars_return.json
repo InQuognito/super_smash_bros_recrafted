@@ -34,7 +34,7 @@
 		"show_toast": true,
 		"announce_to_chat": true
 	},
-	"parent": "ssbrc:characters/yar/veteran",
+	"parent": "ssbrc:series/retro_fighters/yar/veteran",
 	"criteria": {
 		"impossible": {
 			"trigger": "minecraft:impossible"

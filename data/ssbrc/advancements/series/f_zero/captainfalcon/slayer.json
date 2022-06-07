@@ -34,7 +34,7 @@
 		"show_toast": true,
 		"announce_to_chat": true
 	},
-	"parent": "ssbrc:characters/captainfalcon/novice",
+	"parent": "ssbrc:series/f_zero/captainfalcon/novice",
 	"criteria": {
 		"impossible": {
 			"trigger": "minecraft:impossible"

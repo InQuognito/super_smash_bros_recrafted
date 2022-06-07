@@ -34,7 +34,7 @@
 		"show_toast": true,
 		"announce_to_chat": true
 	},
-	"parent": "ssbrc:characters/snake/veteran",
+	"parent": "ssbrc:series/metal_gear_solid/snake/veteran",
 	"criteria": {
 		"impossible": {
 			"trigger": "minecraft:impossible"

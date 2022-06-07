@@ -46,7 +46,7 @@
 		"show_toast": true,
 		"announce_to_chat": true
 	},
-	"parent": "ssbrc:characters/captainfalcon/veteran",
+	"parent": "ssbrc:series/f_zero/captainfalcon/veteran",
 	"criteria": {
 		"impossible": {
 			"trigger": "minecraft:impossible"

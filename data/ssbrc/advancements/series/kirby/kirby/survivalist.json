@@ -34,7 +34,7 @@
 		"show_toast": true,
 		"announce_to_chat": true
 	},
-	"parent": "ssbrc:characters/kirby/samurai_kirby",
+	"parent": "ssbrc:series/kirby/kirby/samurai_kirby",
 	"criteria": {
 		"impossible": {
 			"trigger": "minecraft:impossible"

@@ -34,7 +34,7 @@
 		"show_toast": true,
 		"announce_to_chat": true
 	},
-	"parent": "ssbrc:characters/kirby/novice",
+	"parent": "ssbrc:series/kirby/kirby/novice",
 	"criteria": {
 		"impossible": {
 			"trigger": "minecraft:impossible"

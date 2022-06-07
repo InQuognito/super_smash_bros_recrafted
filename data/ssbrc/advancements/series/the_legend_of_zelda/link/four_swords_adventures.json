@@ -34,7 +34,7 @@
 		"show_toast": true,
 		"announce_to_chat": true
 	},
-	"parent": "ssbrc:characters/link/veteran",
+	"parent": "ssbrc:series/the_legend_of_zelda/link/veteran",
 	"criteria": {
 		"impossible": {
 			"trigger": "minecraft:impossible"

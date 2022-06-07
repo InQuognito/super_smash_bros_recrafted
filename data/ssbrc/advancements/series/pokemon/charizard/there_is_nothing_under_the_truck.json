@@ -20,7 +20,7 @@
 		"show_toast": true,
 		"announce_to_chat": true
 	},
-	"parent": "ssbrc:characters/charizard/world_champion",
+	"parent": "ssbrc:series/pokemon/charizard/world_champion",
 	"criteria": {
 		"impossible": {
 			"trigger": "minecraft:impossible"

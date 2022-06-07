@@ -34,7 +34,7 @@
 		"show_toast": true,
 		"announce_to_chat": true
 	},
-	"parent": "ssbrc:characters/ryu/veteran",
+	"parent": "ssbrc:series/street_fighter/ryu/veteran",
 	"criteria": {
 		"impossible": {
 			"trigger": "minecraft:impossible"

@@ -52,7 +52,7 @@
 		"show_toast": true,
 		"announce_to_chat": true
 	},
-	"parent": "ssbrc:characters/fox/master",
+	"parent": "ssbrc:series/star_fox/fox/master",
 	"criteria": {
 		"impossible": {
 			"trigger": "minecraft:impossible"

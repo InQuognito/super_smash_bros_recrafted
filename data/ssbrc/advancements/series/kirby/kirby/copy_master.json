@@ -34,7 +34,7 @@
 		"show_toast": true,
 		"announce_to_chat": true
 	},
-	"parent": "ssbrc:characters/kirby/veteran",
+	"parent": "ssbrc:series/kirby/kirby/veteran",
 	"criteria": {
 		"impossible": {
 			"trigger": "minecraft:impossible"

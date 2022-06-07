@@ -34,7 +34,7 @@
 		"show_toast": true,
 		"announce_to_chat": true
 	},
-	"parent": "ssbrc:characters/kirby/copy_master",
+	"parent": "ssbrc:series/kirby/kirby/copy_master",
 	"criteria": {
 		"impossible": {
 			"trigger": "minecraft:impossible"
