@@ -1,3 +1,6 @@
+execute positioned 35.5 6.5 152.5 if block ~ ~ ~ #minecraft:buttons[powered=true] run function ssbrc:logic/spectate
+execute positioned 72.5 6.5 115.5 if block ~ ~ ~ #minecraft:buttons[powered=true] run function ssbrc:logic/spectate
+
 execute positioned 68.5 5.5 102.5 if block ~ ~ ~ #minecraft:buttons[powered=true] if entity @s[advancements={ssbrc:series/retro_fighters/alteredbeast/skins/default=false}] run tellraw @s {"text":"You do not own this fighter!","color":"red"}
 execute positioned 68.5 5.5 102.5 if block ~ ~ ~ #minecraft:buttons[powered=true] if entity @s[advancements={ssbrc:series/retro_fighters/alteredbeast/skins/default=true}] run function ssbrc:series/retro_fighters/alteredbeast/menu/prompt
 execute positioned 76.5 5.5 151.5 if block ~ ~ ~ #minecraft:buttons[powered=true] if entity @s[advancements={ssbrc:series/castlevania/alucard/skins/default=false}] run tellraw @s {"text":"You do not own this fighter!","color":"red"}
