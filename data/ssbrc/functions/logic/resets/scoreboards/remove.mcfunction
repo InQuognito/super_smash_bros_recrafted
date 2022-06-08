@@ -9,6 +9,7 @@ scoreboard objectives remove cooldown.1
 scoreboard objectives remove cooldown.2
 scoreboard objectives remove cooldown.3
 #scoreboard objectives remove currency
+scoreboard objectives remove currency.temp
 scoreboard objectives remove damage
 scoreboard objectives remove damage.fireball
 scoreboard objectives remove damage.fireBreath

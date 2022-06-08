@@ -9,6 +9,7 @@ scoreboard objectives add cooldown.1 dummy
 scoreboard objectives add cooldown.2 dummy
 scoreboard objectives add cooldown.3 dummy
 scoreboard objectives add currency dummy
+scoreboard objectives add currency.temp dummy
 scoreboard objectives add damage dummy
 scoreboard objectives add damage.fireball dummy
 scoreboard objectives add damage.fireBreath dummy
