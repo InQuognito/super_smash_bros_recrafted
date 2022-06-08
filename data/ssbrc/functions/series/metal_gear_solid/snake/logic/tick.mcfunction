@@ -74,7 +74,7 @@ kill @e[tag=snake.apm.harm,scores={temp=7..}]
 # Smoke Grenade
 tag @e[tag=smokeGrenade,predicate=ssbrc:flag/no_vehicle] add active
 execute at @e[tag=smokeGrenade,tag=active] run particle minecraft:smoke ~ ~ ~ 1.5 1.5 1.5 0.05 400 force @a
-execute at @e[tag=smokeGrenade,tag=active] as @a[predicate=ssbrc:flag/alive,distance=..2] run effect give @s minecraft:darkness 1 255 true
+execute at @e[tag=smokeGrenade,tag=active] as @a[predicate=ssbrc:flag/alive,distance=..3] run effect give @s minecraft:darkness 3 255 true
 
 scoreboard players remove @e[tag=smokeGrenade,tag=active] timer 1
 kill @e[tag=smokeGrenade,tag=active,scores={timer=..0}]
