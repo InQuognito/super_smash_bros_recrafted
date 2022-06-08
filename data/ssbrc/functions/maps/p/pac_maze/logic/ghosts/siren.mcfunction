@@ -1,2 +1,2 @@
-playsound ssbrc:siren player @a[tag=alive,scores={respawn=..0}]
+playsound ssbrc:siren player @a[predicate=ssbrc:flag/alive]
 scoreboard players reset $ghostSirenTimer temp

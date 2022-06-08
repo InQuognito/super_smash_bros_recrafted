@@ -64,9 +64,9 @@ data modify entity @e[tag=apm.inactive,scores={snake.apm=80..},limit=1] Owner se
 execute as @e[tag=apm.inactive,scores={snake.apm=80..}] run tag @s remove apm.inactive
 execute as @e[tag=apm.active,scores={snake.apm=80..}] run scoreboard players reset @s snake.apm
 
-execute as @e[tag=apm.inactive] at @s positioned ~ ~0.5 ~ if entity @e[type=!#ssbrc:undetectable,team=!spectator,distance=..1] run kill @s
-execute as @e[tag=apm.active] at @s positioned ~ ~0.5 ~ if entity @e[type=!#ssbrc:undetectable,team=!spectator,distance=..1] run function ssbrc:series/metal_gear_solid/snake/logic/weapons/anti_personnel_mine
-execute as @e[tag=apm.active] at @s positioned ~ ~0.5 ~ if entity @a[distance=..2] run function ssbrc:series/metal_gear_solid/snake/logic/weapons/anti_personnel_mine
+execute as @e[tag=apm.inactive] at @s positioned ~ ~0.5 ~ if entity @e[type=!#ssbrc:undetectable,team=!dead,team=!spectator,distance=..1] run kill @s
+execute as @e[tag=apm.active] at @s positioned ~ ~0.5 ~ if entity @e[type=!#ssbrc:undetectable,team=!dead,team=!spectator,distance=..1] run function ssbrc:series/metal_gear_solid/snake/logic/weapons/anti_personnel_mine
+execute as @e[tag=apm.active] at @s positioned ~ ~0.5 ~ if entity @s[distance=..2] run function ssbrc:series/metal_gear_solid/snake/logic/weapons/anti_personnel_mine
 
 scoreboard players add @e[tag=snake.apm.harm] temp 1
 kill @e[tag=snake.apm.harm,scores={temp=7..}]
@@ -74,12 +74,10 @@ kill @e[tag=snake.apm.harm,scores={temp=7..}]
 # Smoke Grenade
 tag @e[tag=smokeGrenade,predicate=ssbrc:flag/no_vehicle] add active
 execute at @e[tag=smokeGrenade,tag=active] run particle minecraft:smoke ~ ~ ~ 1.5 1.5 1.5 0.05 400 force @a
+execute at @e[tag=smokeGrenade,tag=active] as @a[predicate=ssbrc:flag/alive,distance=..2] run effect give @s minecraft:darkness 1 255 true
 
 scoreboard players remove @e[tag=smokeGrenade,tag=active] timer 1
 kill @e[tag=smokeGrenade,tag=active,scores={timer=..0}]
-
-# PSG-1 Zoom
-execute if entity @s[nbt={SelectedItem:{tag:{PSG1:1}}},predicate=ssbrc:flag/sneaking] run effect give @s minecraft:slowness 1 10 true
 
 # Bullet Trails
 execute at @e[tag=psg1Bullet] run particle minecraft:end_rod ~ ~ ~ 0.0 0.0 0.0 0.0 10 normal @a
