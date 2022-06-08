@@ -2,6 +2,7 @@ execute if entity @s[tag=favoritetry.bowser] run scoreboard players set @s favor
 execute if entity @s[tag=favoritetry.byleth] run scoreboard players set @s favorite.slot2 100
 execute if entity @s[tag=favoritetry.captainfalcon] run scoreboard players set @s favorite.slot2 120
 execute if entity @s[tag=favoritetry.charizard] run scoreboard players set @s favorite.slot2 140
+execute if entity @s[tag=favoritetry.cloud] run scoreboard players set @s favorite.slot2 180
 execute if entity @s[tag=favoritetry.darksamus] run scoreboard players set @s favorite.slot2 260
 execute if entity @s[tag=favoritetry.donkeykong] run scoreboard players set @s favorite.slot2 300
 execute if entity @s[tag=favoritetry.fox] run scoreboard players set @s favorite.slot2 380

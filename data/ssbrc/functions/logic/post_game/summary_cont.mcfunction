@@ -1,4 +1,4 @@
-execute if score $teams options matches 0 run tellraw @s [{"text":"Winner: ","color":"yellow"},{"selector":"@a[tag=winner,limit=1]","color":"yellow"},{"text":"s","color":"gold"}]
+execute if score $teams options matches 0 run tellraw @s [{"text":"Winner: ","color":"yellow"},{"selector":"@a[tag=winner,limit=1]","color":"yellow"}]
 execute if score $teams options matches 1 if entity @a[tag=winner,limit=1,team=team1] run tellraw @s [{"text":"Winner: ","color":"yellow"},{"text":"Team Red","color":"red"}]
 execute if score $teams options matches 1 if entity @a[tag=winner,limit=1,team=team2] run tellraw @s [{"text":"Winner: ","color":"yellow"},{"text":"Team Blue","color":"blue"}]
 execute if score $teams options matches 1 if entity @a[tag=winner,limit=1,team=team3] run tellraw @s [{"text":"Winner: ","color":"yellow"},{"text":"Team Green","color":"green"}]
