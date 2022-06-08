@@ -1,3 +1,5 @@
+scoreboard players set #cloud.maxLimit vars 70
+
 scoreboard players set #hero.manaGainedOnKill vars 6
 scoreboard players set #hero.manaGainedOnDeath vars 7
 scoreboard players set #hero.flameSlashManaCost vars 1
