@@ -66,7 +66,7 @@ execute as @e[tag=apm.active,scores={snake.apm=80..}] run scoreboard players res
 
 execute as @e[tag=apm.inactive] at @s positioned ~ ~0.5 ~ if entity @e[type=!#ssbrc:undetectable,team=!dead,team=!spectator,distance=..1] run kill @s
 execute as @e[tag=apm.active] at @s positioned ~ ~0.5 ~ if entity @e[type=!#ssbrc:undetectable,team=!dead,team=!spectator,distance=..1] run function ssbrc:series/metal_gear_solid/snake/logic/weapons/anti_personnel_mine
-execute as @e[tag=apm.active] at @s positioned ~ ~0.5 ~ if entity @s[distance=..2] run function ssbrc:series/metal_gear_solid/snake/logic/weapons/anti_personnel_mine
+execute as @e[tag=apm.active] at @s positioned ~ ~0.5 ~ if entity @s[distance=1..2] run function ssbrc:series/metal_gear_solid/snake/logic/weapons/anti_personnel_mine
 
 scoreboard players add @e[tag=snake.apm.harm] temp 1
 kill @e[tag=snake.apm.harm,scores={temp=7..}]
