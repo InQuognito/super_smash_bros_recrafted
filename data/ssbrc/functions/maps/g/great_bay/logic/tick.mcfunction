@@ -1,2 +1,2 @@
-kill @a[predicate=ssbrc:flag/alive,predicate=ssbrc:great_bay]
-tp @a[scores={respawn=59},predicate=ssbrc:great_bay] @r[predicate=ssbrc:flag/alive]
+kill @a[tag=alive,scores={respawn=..0},predicate=ssbrc:great_bay]
+tp @a[scores={respawn=59},predicate=ssbrc:great_bay] @r[tag=alive,scores={respawn=..0}]

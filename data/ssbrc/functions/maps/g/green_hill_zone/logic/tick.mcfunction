@@ -5,4 +5,4 @@ execute positioned -24.5 17.5 252.5 as @p[tag=alive] if entity @s[distance=4.1..
 
 fill -4 14 229 0 14 233 minecraft:campfire[facing=east,lit=false] replace
 
-kill @a[predicate=ssbrc:flag/alive,predicate=ssbrc:below_y/0]
+kill @a[tag=alive,scores={respawn=..0},predicate=ssbrc:below_y/0]

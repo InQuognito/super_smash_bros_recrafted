@@ -1,5 +1,5 @@
 execute unless score #banzaiBill temp matches 20..80 run tp @s ^ ^ ^0.175
-kill @a[distance=..3,predicate=ssbrc:flag/alive]
+kill @a[distance=..3,tag=alive,scores={respawn=..0}]
 
 execute unless score #banzaiBill temp matches 80 run particle minecraft:large_smoke ~ ~ ~ 0.5 0.5 0.5 0.015 30 normal @a
 
