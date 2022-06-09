@@ -5,8 +5,8 @@ attribute @s[predicate=ssbrc:characters/armor_values/medium] minecraft:generic.a
 attribute @s[predicate=ssbrc:characters/armor_values/high] minecraft:generic.armor base set 18.0
 
 # Attack Damage
-attribute @s[tag=!cloud,tag=operator] minecraft:generic.attack_damage base set 2.0
-attribute @s[tag=cloud,tag=punisher] minecraft:generic.attack_damage base set 8.0
+attribute @s[predicate=ssbrc:characters/attack_damage/low] minecraft:generic.attack_damage base set 2.0
+attribute @s[predicate=ssbrc:characters/attack_damage/medium] minecraft:generic.attack_damage base set 8.0
 
 # Attack Speed
 attribute @s minecraft:generic.attack_speed base set 4.0

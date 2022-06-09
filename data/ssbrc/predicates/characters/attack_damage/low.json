@@ -1,0 +1,12 @@
+{
+	"condition": "minecraft:inverted",
+	"term": {
+		"condition": "minecraft:alternative",
+		"terms": [
+			{
+				"condition": "minecraft:reference",
+				"name": "ssbrc:characters/attack_damage/medium"
+			}
+		]
+	}
+}
