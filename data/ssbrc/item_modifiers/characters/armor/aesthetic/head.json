@@ -506,7 +506,7 @@
 				"condition": "minecraft:entity_properties",
 				"entity": "this",
 				"predicate": {
-					"nbt": "{Tags:[\"hero\",\"erdick\"]}"
+					"nbt": "{Tags:[\"hero\",\"erdrick\"]}"
 				}
 			}
 		]
@@ -519,7 +519,7 @@
 				"condition": "minecraft:entity_properties",
 				"entity": "this",
 				"predicate": {
-					"nbt": "{Tags:[\"hero\",\"erdick\"]}"
+					"nbt": "{Tags:[\"hero\",\"erdrick\"]}"
 				}
 			},
 			{
@@ -745,7 +745,7 @@
 				"condition": "minecraft:entity_properties",
 				"entity": "this",
 				"predicate": {
-					"nbt": "{Tags:[\"luigi\",\"flowerpower\"]}"
+					"nbt": "{Tags:[\"luigi\",\"flower_power\"]}"
 				}
 			}
 		]
@@ -784,7 +784,7 @@
 				"condition": "minecraft:entity_properties",
 				"entity": "this",
 				"predicate": {
-					"nbt": "{Tags:[\"mario\",\"flowerpower\"]}"
+					"nbt": "{Tags:[\"mario\",\"flower_power\"]}"
 				}
 			}
 		]

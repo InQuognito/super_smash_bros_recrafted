@@ -1,10 +1,10 @@
-tag @s[tag=!gold,tag=!oot] add default
+tag @s[tag=!gold,tag=!ocarinaOfTime] add default
 
 tellraw @s [{"text":"You have selected ","color":"white"},{"text":"Ganondorf","color":"red"},{"text":"!","color":"white"}]
 
 tellraw @s[tag=default] [{"text":"Skin: ","color":"yellow"},{"text":"Default","color":"red"}]
 tellraw @s[tag=gold] [{"text":"Skin: ","color":"yellow"},{"text":"Gold","color":"gold"}]
-tellraw @s[tag=oot] [{"text":"Skin: ","color":"yellow"},{"text":"Ocarina of Time","color":"red"}]
+tellraw @s[tag=ocarinaOfTime] [{"text":"Skin: ","color":"yellow"},{"text":"Ocarina of Time","color":"red"}]
 
 function ssbrc:logic/resets/tags/characters
 tag @s add ganondorf
