@@ -26,13 +26,6 @@ tag @s remove samus
 tag @s remove shadow
 tag @s remove shovelknight
 tag @s remove snake
-tag @s remove snake.apm
-tag @s remove snake.famas
-tag @s remove snake.psg1
-tag @s remove snake.s1000
-tag @s remove snake.selectingLoadout
-tag @s remove snake.sg
-tag @s remove snake.socom
 tag @s remove sonic
 tag @s remove steve
 tag @s remove teamrocket

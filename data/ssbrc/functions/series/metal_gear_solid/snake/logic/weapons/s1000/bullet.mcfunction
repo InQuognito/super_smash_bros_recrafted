@@ -1,6 +1,6 @@
 execute positioned 0.0 0.0 0.0 run summon minecraft:marker ^ ^ ^10 {Tags:["direction"]}
 
-summon minecraft:arrow ^ ^ ^1 {damage:0.5,Tags:["s1000Bullet","bullet","projectile"],NoGravity:1b}
+summon minecraft:arrow ^ ^ ^1 {damage:1.0,Tags:["s1000Bullet","bullet","projectile"],NoGravity:1b}
 
 function ssbrc:series/metal_gear_solid/snake/logic/weapons/s1000/offset
 execute store result score offsetX temp run data get entity @e[tag=projectile,limit=1] Rotation[0]

@@ -1,4 +1,9 @@
-function ssbrc:logic/resets/tags/characters
+tag @s remove snake.apm
+tag @s remove snake.famas
+tag @s remove snake.psg1
+tag @s remove snake.s1000
+tag @s remove snake.sg
+tag @s remove snake.socom
 
 scoreboard players set @s snake.capacity 0
 
