@@ -20,3 +20,6 @@ execute at @s unless block ~ ~-1 ~ minecraft:water run effect clear @s minecraft
 
 execute at @s unless block ~ ~-1 ~ minecraft:water run scoreboard players add @s[scores={charge.2=..19}] charge.2 1
 execute at @s if block ~ ~-1 ~ #ssbrc:passthrough run scoreboard players remove @s[scores={charge.2=1..}] charge.2 1
+
+scoreboard players add @s charge.3 1
+tag @s[scores={charge.3=25..}] remove jumpUpPipe
