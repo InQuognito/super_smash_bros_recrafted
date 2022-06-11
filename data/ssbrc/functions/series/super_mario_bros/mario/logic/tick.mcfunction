@@ -3,9 +3,9 @@ execute if entity @s[scores={useAbility=1..,cooldown.1=..0},nbt={SelectedItem:{t
 # Super Jump
 execute if entity @s[predicate=ssbrc:flag/sneaking] run scoreboard players add @s charge.1 1
 
-execute if score @s charge.1 matches 60.. at @s run particle minecraft:glow ~ ~0.01 ~ 0.2 0.2 0.2 0.0 2 normal @a
+execute if score @s charge.1 matches 40.. at @s run particle minecraft:glow ~ ~0.01 ~ 0.2 0.2 0.2 0.0 2 normal @a
 
-execute if score @s charge.1 matches 60 run function ssbrc:logic/characters/effects/defaults/jump_boost
+execute if score @s charge.1 matches 40 run function ssbrc:logic/characters/effects/defaults/jump_boost
 execute if score @s moveDistance matches 200.. run function ssbrc:logic/characters/effects/defaults/jump_boost
 
 scoreboard players reset @s[scores={moveDistance=200..}] charge.1
