@@ -1,5 +1,5 @@
 execute anchored eyes facing entity @p[tag=alive,scores={respawn=..0},distance=..5] eyes run tp @s ~ ~ ~ ~ ~
-execute as @p[tag=alive,tag=snake,scores={respawn=..0},distance=..5] run function ssbrc:series/metal_gear_solid/snake/logic/get_hurt
+execute if score $hazards options matches 1 as @p[tag=alive,tag=snake,scores={respawn=..0},distance=..5] run function ssbrc:series/metal_gear_solid/snake/logic/get_hurt
 
 data modify storage ssbrc:facing Head set value [0f,0f,0f]
 
