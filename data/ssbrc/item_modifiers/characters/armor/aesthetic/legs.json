@@ -176,7 +176,7 @@
 				"condition": "minecraft:entity_properties",
 				"entity": "this",
 				"predicate": {
-					"nbt": "{Tags:[\"donkeykong\",\"super\"]}"
+					"nbt": "{Tags:[\"donkeykong\",\"superKong\"]}"
 				}
 			}
 		]
@@ -901,7 +901,7 @@
 				"condition": "minecraft:entity_properties",
 				"entity": "this",
 				"predicate": {
-					"nbt": "{Tags:[\"shadow\",\"alt\"]}"
+					"nbt": "{Tags:[\"shadow\",\"yellowAndroid\"]}"
 				}
 			}
 		]
