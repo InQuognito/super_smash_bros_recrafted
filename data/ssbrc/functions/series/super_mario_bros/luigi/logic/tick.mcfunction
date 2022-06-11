@@ -5,11 +5,7 @@ execute if entity @s[predicate=ssbrc:flag/sneaking] run scoreboard players add @
 
 execute if score @s charge.1 matches 60.. at @s run particle minecraft:glow ~ ~0.01 ~ 0.2 0.2 0.2 0.0 2 normal @a
 
-execute if score @s charge.1 matches 60.. if score @s jumps matches 1.. run effect give @s minecraft:slow_falling 2 255 true
-
 scoreboard players reset @s[scores={moveDistance=200..}] charge.1
-scoreboard players reset @s[scores={jumps=1..}] charge.1
-scoreboard players reset @s[scores={jumps=1..}] jumps
 scoreboard players reset @s[scores={moveDistance=200..}] moveDistance
 
 # Ice Ball

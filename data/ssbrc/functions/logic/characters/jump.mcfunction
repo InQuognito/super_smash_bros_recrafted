@@ -1,0 +1,9 @@
+effect give @s[x=-215.5,y=24.0,z=-173.5,dx=3,dy=1,dz=3] minecraft:levitation 1 10 true
+
+execute if score @s[tag=luigi] charge.1 matches 60.. if score @s jumps matches 1.. run effect give @s minecraft:slow_falling 2 255 true
+execute if score @s[tag=mario] jumps matches 1.. run function ssbrc:logic/characters/effects/defaults/jump_boost
+
+scoreboard players reset @s[tag=luigi] charge.1
+scoreboard players reset @s[tag=mario] charge.1
+
+scoreboard players reset @s jumps
