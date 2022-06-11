@@ -8,4 +8,4 @@ execute if score $gameStage temp matches 4 if entity @s[tag=snake,predicate=ssbr
 
 execute if score $gameStage temp matches 4 run function ssbrc:logic/stocks/get_kill
 
-advancement revoke @s only ssbrc:utility/flag.get_kill
+advancement revoke @s only ssbrc:utility/flag/get_kill/on/any

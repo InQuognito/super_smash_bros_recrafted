@@ -1,7 +1,5 @@
 scoreboard players operation #limitGain temp = @s flag.damageDealt
 
-tellraw @s [{"text":"Damage Dealt on attempting processing: "},{"score":{"name":"@s","objective":"flag.damageDealt"}}]
-
 execute if entity @s[tag=operator] run scoreboard players operation #limitGain temp *= 4 integers
 execute if entity @s[tag=operator] run scoreboard players operation #limitGain temp /= 30 integers
 

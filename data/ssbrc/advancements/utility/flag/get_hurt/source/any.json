@@ -5,6 +5,6 @@
 		}
 	},
 	"rewards": {
-		"function": "ssbrc:logic/characters/flags/get_hurt"
+		"function": "ssbrc:logic/characters/flags/get_hurt/source/any"
 	}
 }

@@ -5,6 +5,6 @@
 		}
 	},
 	"rewards": {
-		"function": "ssbrc:logic/characters/flags/get_kill"
+		"function": "ssbrc:logic/characters/flags/get_kill/on/any"
 	}
 }

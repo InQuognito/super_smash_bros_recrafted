@@ -12,6 +12,6 @@
 		}
 	},
 	"rewards": {
-		"function": "ssbrc:logic/characters/flags/hurt_by_player"
+		"function": "ssbrc:logic/characters/flags/get_hurt/source/player"
 	}
 }

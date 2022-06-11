@@ -27,8 +27,5 @@ function ssbrc:logic/tick/maps
 scoreboard players reset @a useAbility
 scoreboard players reset @a useChargeAbility
 
-# AEC Damage
-function ssbrc:logic/characters/damage/tick
-
 # Banned From Having More Than One
 execute as @a[predicate=ssbrc:characters/kits/trident] run function ssbrc:logic/characters/restore_items/trident_count

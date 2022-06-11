@@ -4,4 +4,4 @@ execute if score $gameStage temp matches 4 if entity @s[tag=snake] run function 
 execute if score $gameStage temp matches 4 if entity @s[tag=sonic] run scoreboard players set @s flag.sprinting 0
 
 scoreboard players reset @s flag.damageTaken
-advancement revoke @s only ssbrc:utility/flag.get_hurt
+advancement revoke @s only ssbrc:utility/flag/get_hurt/source/any

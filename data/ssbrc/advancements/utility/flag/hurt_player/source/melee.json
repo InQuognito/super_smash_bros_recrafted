@@ -5,6 +5,6 @@
 		}
 	},
 	"rewards": {
-		"function": "ssbrc:logic/characters/flags/hurt_player"
+		"function": "ssbrc:logic/characters/flags/hurt_player/source/any"
 	}
 }
