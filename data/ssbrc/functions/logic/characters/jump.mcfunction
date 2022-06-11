@@ -1,4 +1,4 @@
-tag @s[x=-215.5,y=24.0,z=-173.5,dx=3,dy=1,dz=3] add jumpUpPipe
+tag @s[x=-215.5,y=24.0,z=-173.5,dx=3,dy=1,dz=4] add jumpUpPipe
 effect give @s[tag=jumpUpPipe] minecraft:levitation 1 10 true
 tag @s[tag=!luigi] remove jumpUpPipe
 
