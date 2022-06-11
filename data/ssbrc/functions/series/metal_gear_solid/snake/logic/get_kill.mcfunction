@@ -40,7 +40,7 @@ execute if score result random matches 4 run tag @s[tag=apmGive] add itemsGiven
 
 execute if score result random matches 5 run tag @s[tag=snake.sg] add sgGive
 execute if score result random matches 5 store result score @s[tag=sgGive] itemCount run clear @s minecraft:carrot_on_a_stick{SG:1} 0
-execute if score result random matches 5 if score @s[tag=sgGive] itemCount matches ..0 run give @s minecraft:carrot_on_a_stick{SG:1,CustomModelData:1525,Unbreakable:1,display:{Name:'[{"text":"Smoke Grenade","italic":false,"color":"green","bold":true}]'},HideFlags:127} 1
+execute if score result random matches 5 if score @s[tag=sgGive] itemCount matches ..0 run give @s minecraft:carrot_on_a_stick{SG:1,CustomModelData:1524,Unbreakable:1,display:{Name:'[{"text":"Smoke Grenade","italic":false,"color":"green","bold":true}]'},HideFlags:127} 1
 execute if score result random matches 5 run scoreboard players add @s[tag=sgGive] snake.sgA 1
 execute if score result random matches 5 run tellraw @s[tag=sgGive] {"text":"Scavenger | +1 Smoke Grenade","color":"green"}
 execute if score result random matches 5 run tag @s[tag=sgGive] add itemsGiven
