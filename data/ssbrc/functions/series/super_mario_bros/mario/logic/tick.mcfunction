@@ -12,4 +12,6 @@ scoreboard players reset @s[scores={moveDistance=200..}] charge.1
 scoreboard players reset @s[scores={moveDistance=200..}] moveDistance
 
 # Fireball
-execute as @e[type=minecraft:area_effect_cloud,tag=fireball] at @s run function ssbrc:series/super_mario_bros/mario/logic/fireball/tick
+tag @s add self
+execute as @e[type=minecraft:area_effect_cloud,tag=fireball] at @s if score @s id = @p[tag=self] id run function ssbrc:series/super_mario_bros/mario/logic/fireball/tick
+tag @s remove self
