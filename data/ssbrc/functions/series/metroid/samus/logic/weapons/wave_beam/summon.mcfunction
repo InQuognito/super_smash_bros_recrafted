@@ -1,6 +1,6 @@
 execute positioned 0.0 0.0 0.0 run summon minecraft:marker ^ ^ ^0.7 {Tags:["direction"]}
 
-summon minecraft:arrow ^ ^ ^1 {damage:12.0,Tags:["samus.waveBeam","projectile"],NoGravity:1b}
+summon minecraft:area_effect_cloud ^ ^ ^1 {Tags:["waveBeam","projectile"]}
 
 data modify entity @e[tag=projectile,limit=1] Owner set from entity @s UUID
 data modify entity @e[tag=projectile,limit=1] Motion set from entity @e[tag=direction,limit=1] Pos
