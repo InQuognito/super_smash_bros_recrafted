@@ -4,8 +4,8 @@ execute if entity @s[predicate=!ssbrc:flag/sneaking] at @s run function ssbrc:se
 execute if entity @s[scores={useAbility=1..},nbt={SelectedItem:{tag:{boomerang:1}}}] at @s anchored eyes run function ssbrc:series/the_legend_of_zelda/link/logic/weapons/boomerang/summon
 
 tag @s add self
-execute as @e[tag=link.swordBeam] at @s if score @s id = @p[tag=self] id run function ssbrc:series/the_legend_of_zelda/link/logic/weapons/sword_beam/entity
-execute as @e[tag=link.boomerang] at @s if score @s id = @p[tag=self] id run function ssbrc:series/the_legend_of_zelda/link/logic/weapons/boomerang/entity
+execute as @e[tag=swordBeam] at @s if score @s id = @p[tag=self] id run function ssbrc:series/the_legend_of_zelda/link/logic/weapons/sword_beam/tick
+execute as @e[tag=boomerang] at @s if score @s id = @p[tag=self] id run function ssbrc:series/the_legend_of_zelda/link/logic/weapons/boomerang/tick
 tag @s remove self
 
 item modify entity @s weapon.mainhand ssbrc:characters/link.master_sword
