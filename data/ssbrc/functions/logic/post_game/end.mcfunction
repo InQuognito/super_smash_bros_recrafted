@@ -1,7 +1,5 @@
 schedule clear ssbrc:logic/timer
 
-execute unless score $playersAlive temp matches 1 run function ssbrc:logic/post_game/display_winner
-
 execute if score $teams options matches 0 run tag @s add winner
 execute if score $teams options matches 1 if entity @s[team=team1] run tag @a[team=team1] add winner
 execute if score $teams options matches 1 if entity @s[team=team2] run tag @a[team=team2] add winner
