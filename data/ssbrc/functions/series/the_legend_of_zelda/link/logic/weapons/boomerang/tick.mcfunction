@@ -13,6 +13,4 @@ execute if score @s debug matches 20.. if score @s id matches 6 facing entity @p
 execute if score @s debug matches 20.. if score @s id matches 7 facing entity @p[scores={id=7}] eyes run function ssbrc:series/the_legend_of_zelda/link/logic/weapons/boomerang/return
 execute if score @s debug matches 20.. if score @s id matches 8 facing entity @p[scores={id=8}] eyes run function ssbrc:series/the_legend_of_zelda/link/logic/weapons/boomerang/return
 
-execute if score @s debug matches 20.. as @s if score @s id = @e[tag=boomerang,sort=nearest,limit=1] id at @s run function ssbrc:series/the_legend_of_zelda/link/logic/weapons/boomerang/regain
-
 scoreboard players add @s debug 1
