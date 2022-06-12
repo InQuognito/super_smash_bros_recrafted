@@ -117,7 +117,7 @@ tag @a[team=!spectator] add alive
 execute store result score $playersAlive temp if entity @a[tag=alive]
 
 scoreboard players set $gameStage temp 2
-scoreboard players set $countdown timer 31
+scoreboard players set $countdown timer 30
 
 tp @a 3.5 3.0 21.5 0.0 0.0
 
