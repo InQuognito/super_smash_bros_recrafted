@@ -8,7 +8,9 @@ scoreboard players add @s[scores={charge.1=1..}] charge.1 1
 execute at @s[scores={charge.1=1..}] anchored eyes run function ssbrc:series/sonic_the_hedgehog/shadow/logic/chaos_spear/initiate
 execute if score @s charge.1 matches 30.. at @s anchored eyes run function ssbrc:series/sonic_the_hedgehog/shadow/logic/chaos_spear/summon
 
-execute as @e[tag=chaosSpear] at @s run function ssbrc:series/sonic_the_hedgehog/shadow/logic/chaos_spear/entity
+tag @s add self
+execute as @e[type=minecraft:arrow,tag=chaosSpear] at @s if score @s id = @p[tag=self] id run function ssbrc:series/sonic_the_hedgehog/shadow/logic/chaos_spear/entity
+tag @s remove self
 
 # Chaos Meters
 execute if score @s shadow.meter.hero > @s shadow.meter.villain run function ssbrc:series/sonic_the_hedgehog/shadow/logic/chaos_meters/hero_display
@@ -25,7 +27,7 @@ scoreboard players reset @s[scores={charge.2=101..}] charge.2
 
 execute as @e[tag=chaosBlastShockwave.default] at @s run particle minecraft:dust 0.3 0.0 0.0 1.0 ~ ~ ~ 0.1 0.1 0.1 1.0 1 normal @a
 execute as @e[tag=chaosBlastShockwave.gold] at @s run particle minecraft:dust 0.5 0.5 0.0 1.0 ~ ~ ~ 0.1 0.1 0.1 1.0 1 normal @a
-execute as @e[tag=chaosBlastShockwave.alt] at @s run particle minecraft:dust 0.8 0.8 0.0 1.0 ~ ~ ~ 0.1 0.1 0.1 1.0 1 normal @a
+execute as @e[tag=chaosBlastShockwave.yellowAndroid] at @s run particle minecraft:dust 0.8 0.8 0.0 1.0 ~ ~ ~ 0.1 0.1 0.1 1.0 1 normal @a
 
 scoreboard players add @e[tag=chaosBlastShockwave] temp 1
 kill @e[tag=chaosBlastShockwave,scores={temp=30..}]
