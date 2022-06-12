@@ -4,8 +4,8 @@ execute store result entity @s Rotation[1] float 0.5 run scoreboard players get 
 
 scoreboard players operation #pointSlope temp = @s point
 scoreboard players operation #pointSlope temp += @s slope
-execute unless score #pointSlope temp matches 120.. run scoreboard players operation @s point -= @s slope
-execute unless score #pointSlope temp matches 120.. run scoreboard players remove @s slope 10
+execute unless score #pointSlope temp matches 90.. run scoreboard players operation @s point -= @s slope
+execute unless score #pointSlope temp matches 90.. run scoreboard players remove @s slope 10
 
 execute unless block ~ ~-0.5 ~ #ssbrc:passthrough run function ssbrc:series/super_mario_bros/mario/logic/fireball/bounce
 
