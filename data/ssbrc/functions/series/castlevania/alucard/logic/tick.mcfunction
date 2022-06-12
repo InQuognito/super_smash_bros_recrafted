@@ -7,9 +7,7 @@ execute at @s if block ~ ~-0.1 ~ minecraft:air if entity @s[predicate=ssbrc:flag
 item modify entity @s weapon.mainhand ssbrc:characters/alucard.alucard_sword
 
 # Holy Water
-execute as @e[tag=alucard.holyWater,tag=!large,tag=!active,predicate=ssbrc:flag/no_vehicle] run data merge entity @s {Particle:"minecraft:flame",Radius:1.5f,Duration:200,Effects:[{Id:20b,Amplifier:1b,Duration:100,ShowParticles:0b}]}
-execute as @e[tag=alucard.holyWater,tag=large,tag=!active,predicate=ssbrc:flag/no_vehicle] run data merge entity @s {Particle:"minecraft:flame",Radius:3.0f,Duration:200,Effects:[{Id:20b,Amplifier:1b,Duration:100,ShowParticles:0b}]}
-tag @e[tag=alucard.holyWater,tag=!active,predicate=ssbrc:flag/no_vehicle] add active
+execute as @e[tag=alucard.holyWater,tag=!active,predicate=ssbrc:flag/no_vehicle] run function ssbrc:series/castlevania/alucard/logic/abilities/holy_water/tick
 
 # Particles
 execute at @s[tag=alucard.ability] run particle minecraft:mycelium ~ ~0.5 ~ 0.35 0.7 0.35 1 5 normal @a

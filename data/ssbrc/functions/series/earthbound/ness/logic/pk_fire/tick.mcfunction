@@ -7,7 +7,7 @@ execute if entity @s[tag=!pillar] run function ssbrc:series/earthbound/ness/logi
 
 execute unless block ~ ~-0.5 ~ #ssbrc:passthrough run function ssbrc:series/earthbound/ness/logic/pk_fire/pillar
 
-execute rotated as @s run tp @s[tag=!pillar] ^ ^ ^0.5
+execute rotated as @s run teleport @s[tag=!pillar] ^ ^ ^0.5
 
 tag @s add self
 execute positioned ~-0.15 ~-0.15 ~-0.15 as @a[dx=0] positioned ~-0.7 ~-0.7 ~-0.7 if entity @s[dx=0] run tag @s add damage.fireball
