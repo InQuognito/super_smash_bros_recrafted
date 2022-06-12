@@ -19,4 +19,4 @@ execute as @e[tag=spinner] store result entity @s Rotation[0] float 1.0 run scor
 execute if entity @s[scores={charge.1=1..}] at @s anchored eyes run function ssbrc:series/the_legend_of_zelda/link/logic/weapons/sword_spin/charge
 
 # Boomerang
-execute at @s if score @s id = @e[tag=boomerang,scores={debug=20..},sort=nearest,limit=1,dx=0.5,dy=0.5,dz=0.5] id run function ssbrc:series/the_legend_of_zelda/link/logic/weapons/boomerang/regain
+execute positioned ~-0.15 ~-0.15 ~-0.15 as @s[dx=0] positioned ~-0.7 ~-0.7 ~-0.7 if entity @s[dx=0] if score @s id = @e[type=minecraft:area_effect_cloud,tag=boomerang,sort=nearest,limit=1] id run function ssbrc:series/the_legend_of_zelda/link/logic/weapons/boomerang/regain
