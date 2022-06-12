@@ -4,8 +4,8 @@ execute store result entity @s Rotation[1] float 0.5 run scoreboard players get 
 
 scoreboard players operation #pointSlope temp = @s point
 scoreboard players operation #pointSlope temp += @s slope
-execute unless score #pointSlope temp matches 100.. run scoreboard players operation @s point -= @s slope
-execute unless score #pointSlope temp matches 100.. run scoreboard players remove @s slope 1
+execute unless score #pointSlope temp matches 120.. run scoreboard players operation @s point -= @s slope
+execute unless score #pointSlope temp matches 120.. run scoreboard players remove @s slope 1
 
 execute unless block ~ ~-0.3 ~ #ssbrc:passthrough run function ssbrc:series/super_mario_bros/luigi/logic/ice_ball/bounce
 
@@ -15,4 +15,4 @@ execute positioned ~-0.15 ~-0.15 ~-0.15 as @a[tag=alive,scores={respawn=..0},dx=
 execute as @a[tag=damage.iceBall] at @s run function ssbrc:series/super_mario_bros/luigi/logic/ice_ball/damage
 
 scoreboard players add @s temp 1
-kill @s[scores={temp=80..}]
+kill @s[scores={temp=100..}]
