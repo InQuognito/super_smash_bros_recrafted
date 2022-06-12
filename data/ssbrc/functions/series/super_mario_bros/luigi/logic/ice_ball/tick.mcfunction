@@ -15,4 +15,4 @@ execute positioned ~-0.15 ~-0.15 ~-0.15 as @a[tag=alive,scores={respawn=..0},dx=
 execute as @a[tag=damage.iceBall] at @s run function ssbrc:series/super_mario_bros/luigi/logic/ice_ball/damage
 
 scoreboard players add @s temp 1
-kill @s[scores={temp=100..}]
+kill @s[scores={temp=120..}]
