@@ -11,8 +11,7 @@ execute unless block ~ ~-0.3 ~ #ssbrc:passthrough run function ssbrc:series/supe
 
 execute rotated as @s run tp @s ^ ^ ^0.3
 
-tag @s add self
-execute positioned ~-0.15 ~-0.15 ~-0.15 as @a[dx=0] positioned ~-0.7 ~-0.7 ~-0.7 if entity @s[dx=0] at @s run function ssbrc:series/super_mario_bros/luigi/logic/ice_ball/damage
-tag @s remove self
+execute positioned ~-0.15 ~-0.15 ~-0.15 as @a[tag=alive,scores={respawn=..0},dx=0] positioned ~-0.7 ~-0.7 ~-0.7 if entity @s[dx=0] run tag @s add damage.iceBall
+execute as @a[tag=damage.iceBall] at @s run function ssbrc:series/super_mario_bros/luigi/logic/ice_ball/damage
 
 scoreboard players add @s temp 1
