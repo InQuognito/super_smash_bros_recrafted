@@ -384,7 +384,7 @@
 				"condition": "minecraft:entity_properties",
 				"entity": "this",
 				"predicate": {
-					"nbt": "{Tags:[\"luigi\",\"flower_power\"]}"
+					"nbt": "{Tags:[\"luigi\",\"flowerPower\"]}"
 				}
 			}
 		]
@@ -410,7 +410,7 @@
 				"condition": "minecraft:entity_properties",
 				"entity": "this",
 				"predicate": {
-					"nbt": "{Tags:[\"mario\",\"flower_power\"]}"
+					"nbt": "{Tags:[\"mario\",\"flowerPower\"]}"
 				}
 			}
 		]
