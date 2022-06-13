@@ -1,5 +1,5 @@
 execute if entity @s[scores={useAbility=1..,cooldown.1=..0},nbt={SelectedItem:{tag:{pkFreeze:1}}}] at @s anchored eyes run function ssbrc:series/earthbound/giegue/logic/abilities/pk_freeze/summon
-execute if entity @s[scores={useAbility=1..,cooldown.2=..0},nbt={SelectedItem:{tag:{pkBeam:1}}}] at @s anchored eyes run function ssbrc:series/earthbound/giegue/logic/abilities/pk_beam/summon
+execute if entity @s[scores={useAbility=1..,cooldown.2=..0},nbt={SelectedItem:{tag:{pkBeam:1}}}] run scoreboard players set @s charge.1 1
 
 tag @s add self
 execute as @e[type=minecraft:area_effect_cloud,tag=pkFreeze] at @s if score @s id = @p[tag=self] id run function ssbrc:series/earthbound/giegue/logic/abilities/pk_freeze/tick
