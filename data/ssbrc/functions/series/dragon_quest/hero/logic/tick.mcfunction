@@ -1,5 +1,5 @@
 execute if entity @s[tag=!hero.magicLost,scores={mana=..0}] unless score @s duration.2 matches 1.. run function ssbrc:series/dragon_quest/hero/logic/lose_magic
-execute as @a[scores={useAbility=1..,cooldown.1=..0},nbt={SelectedItem:{tag:{bang:1}}}] at @s anchored eyes if score @s mana >= #hero.bangManaCost vars run function ssbrc:series/dragon_quest/hero/logic/magic/bang/summon
+execute if entity @s[scores={useAbility=1..,cooldown.1=..0},nbt={SelectedItem:{tag:{bang:1}}}] at @s anchored eyes if score @s mana >= #hero.bangManaCost vars run function ssbrc:series/dragon_quest/hero/logic/magic/bang/summon
 execute if entity @s[scores={useAbility=1..},nbt={SelectedItem:{tag:{kaclang:1}}}] if score @s mana >= #hero.kaclangManaCost vars run function ssbrc:series/dragon_quest/hero/logic/magic/kaclang
 execute if entity @s[scores={useAbility=1..,mana=21..},nbt={SelectedItem:{tag:{magicBurst:1}}}] run function ssbrc:series/dragon_quest/hero/logic/magic/magic_burst_activate
 
