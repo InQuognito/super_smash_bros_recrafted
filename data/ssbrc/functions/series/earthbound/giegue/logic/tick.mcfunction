@@ -12,6 +12,6 @@ execute at @s[scores={charge.1=1..}] anchored eyes run function ssbrc:series/ear
 
 execute if entity @s[scores={charge.1=2}] run function ssbrc:logic/characters/effects/mobility/immobilize
 execute if entity @s[scores={charge.1=30..}] run function ssbrc:logic/characters/effects/mobility/mobilize
-execute if entity @s[scores={charge.1=30..}] run function ssbrc:logic/kits
+execute if entity @s[scores={charge.1=30..}] run function ssbrc:series/earthbound/giegue/kit
 
 execute if score @s charge.1 matches 30.. at @s anchored eyes run function ssbrc:series/earthbound/giegue/logic/abilities/pk_beam/summon
