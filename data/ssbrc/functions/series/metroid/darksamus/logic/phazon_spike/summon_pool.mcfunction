@@ -1,4 +1,6 @@
 summon minecraft:area_effect_cloud ~ ~ ~ {Tags:["phazonPool","edit"],Age:-2147483648,Duration:-1,WaitTime:-2147483648}
+
+scoreboard players operation @e[tag=projectile,limit=1] id = @s id
 data modify entity @e[tag=phazonPool,tag=edit,limit=1] Owner set from entity @s UUID
 
 execute store result score #phazonPoolPosX temp run data get entity @e[type=minecraft:area_effect_cloud,tag=phazonPool,tag=edit,limit=1] Pos[0]
