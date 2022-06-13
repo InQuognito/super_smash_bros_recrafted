@@ -1,9 +1,12 @@
 # Magic
-execute as @a[scores={useAbility=1..,mana=1..,cooldown.1=..0},nbt={SelectedItem:{tag:{ability.shovelknight:1}}}] at @s anchored eyes run function ssbrc:series/indie_fighters/shovelknight/logic/magic/flare_wand/summon
-execute if entity @s[scores={useAbility=1..,mana=3..,cooldown.2=..0},nbt={SelectedItem:{tag:{ability.shovelknight:2}}}] run function ssbrc:series/indie_fighters/shovelknight/logic/magic/phase_locket/on
+execute if entity @s[scores={useAbility=1..,mana=1..,cooldown.1=..0},nbt={SelectedItem:{tag:{flareWand:1}}}] at @s anchored eyes run function ssbrc:series/indie_fighters/shovelknight/logic/magic/flare_wand/summon
+execute if entity @s[scores={useAbility=1..,mana=3..,cooldown.2=..0},nbt={SelectedItem:{tag:{phaseLocket:1}}}] run function ssbrc:series/indie_fighters/shovelknight/logic/magic/phase_locket/on
 
-execute as @e[tag=shovelknight.flareWand] at @s run function ssbrc:series/indie_fighters/shovelknight/logic/magic/flare_wand/entity
+tag @s add self
+execute as @e[tag=flareWand] at @s if score @s id = @p[tag=self] id run function ssbrc:series/indie_fighters/shovelknight/logic/magic/flare_wand/tick
+tag @s remove self
 
+# Phase Locket
 execute if score @s duration.2 matches ..0 run function ssbrc:series/indie_fighters/shovelknight/logic/magic/phase_locket/off
 
 # Mana

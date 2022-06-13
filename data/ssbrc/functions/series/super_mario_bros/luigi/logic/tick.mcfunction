@@ -1,5 +1,9 @@
 execute if entity @s[scores={useAbility=1..,cooldown.1=..0},nbt={SelectedItem:{tag:{iceBall:1}}}] at @s anchored eyes run function ssbrc:series/super_mario_bros/luigi/logic/ice_ball/summon
 
+tag @s add self
+execute as @e[type=minecraft:area_effect_cloud,tag=iceBall] at @s if score @s id = @p[tag=self] id run function ssbrc:series/super_mario_bros/luigi/logic/ice_ball/tick
+tag @s remove self
+
 # Super Jump
 execute if entity @s[predicate=ssbrc:flag/sneaking] run scoreboard players add @s charge.1 1
 
@@ -7,11 +11,6 @@ execute if score @s charge.1 matches 30.. at @s run particle minecraft:glow ~ ~0
 
 scoreboard players reset @s[scores={moveDistance=200..}] charge.1
 scoreboard players reset @s[scores={moveDistance=200..}] moveDistance
-
-# Ice Ball
-tag @s add self
-execute as @e[type=minecraft:area_effect_cloud,tag=iceBall] at @s if score @s id = @p[tag=self] id run function ssbrc:series/super_mario_bros/luigi/logic/ice_ball/tick
-tag @s remove self
 
 # Water Walking
 execute at @s if block ~ ~-1 ~ minecraft:water if score @s[predicate=ssbrc:flag/sprinting] charge.2 matches 1.. run effect give @s minecraft:levitation 1000000 255 true
