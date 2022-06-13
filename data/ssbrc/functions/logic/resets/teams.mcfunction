@@ -6,6 +6,7 @@ team remove team5
 team remove team6
 team remove team7
 team remove team8
+team remove admin
 team remove dead
 team remove spectator
 team remove waiting
@@ -19,6 +20,7 @@ team add team5
 team add team6
 team add team7
 team add team8
+team add admin
 team add dead
 team add spectator
 team add waiting
@@ -125,6 +127,16 @@ team modify team8 prefix ""
 execute if score $teams options matches 0 run team modify team8 seeFriendlyInvisibles false
 execute if score $teams options matches 1 run team modify team8 seeFriendlyInvisibles true
 team modify team8 suffix ""
+
+team modify admin color black
+team modify admin collisionRule never
+team modify admin deathMessageVisibility hideForOwnTeam
+team modify admin displayName "Admin"
+team modify admin friendlyFire false
+team modify admin nametagVisibility hideForOwnTeam
+team modify admin prefix "// "
+team modify admin seeFriendlyInvisibles true
+team modify admin suffix ""
 
 team modify dead color dark_gray
 team modify dead collisionRule never
