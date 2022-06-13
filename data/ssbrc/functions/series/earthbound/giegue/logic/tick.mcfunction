@@ -6,5 +6,12 @@ execute as @e[type=minecraft:area_effect_cloud,tag=pkFreeze] at @s if score @s i
 execute as @e[type=minecraft:area_effect_cloud,tag=pkBeam] at @s if score @s id = @p[tag=self] id run function ssbrc:series/earthbound/giegue/logic/abilities/pk_beam/tick
 tag @s remove self
 
-execute if entity @s[scores={duration.1=1}] run function ssbrc:logic/characters/effects/mobility/mobilize
-execute if entity @s[scores={duration.1=1}] run function ssbrc:logic/kits
+# Chaos Spear
+scoreboard players add @s[scores={charge.1=1..}] charge.1 1
+execute at @s[scores={charge.1=1..}] anchored eyes run function ssbrc:series/earthbound/giegue/logic/abilities/pk_beam/initiate
+
+execute if entity @s[scores={charge.1=1}] run function ssbrc:logic/characters/effects/mobility/immobilize
+execute if entity @s[scores={charge.1=30}] run function ssbrc:logic/characters/effects/mobility/mobilize
+execute if entity @s[scores={charge.1=30}] run function ssbrc:logic/kits
+
+execute if score @s charge.1 matches 30.. at @s anchored eyes run function ssbrc:series/earthbound/giegue/logic/abilities/pk_beam/summon
