@@ -6,7 +6,8 @@ execute if entity @s[tag=shadow.chaosBlast.default] run summon minecraft:arrow ^
 execute if entity @s[tag=shadow.chaosBlast.gold] run summon minecraft:arrow ^ ^ ^1 {damage:20.0,Tags:["chaosBlastShockwave","chaosBlastShockwave.gold","projectile"],NoGravity:1b}
 execute if entity @s[tag=shadow.chaosBlast.yellowAndroid] run summon minecraft:arrow ^ ^ ^1 {damage:20.0,Tags:["chaosBlastShockwave","chaosBlastShockwave.yellowAndroid","projectile"],NoGravity:1b}
 
-data modify entity @e[tag=projectile,limit=1] Owner set from entity @p[tag=alive] UUID
+scoreboard players operation @e[tag=projectile,limit=1] id = @p[tag=shadow,tag=alive,scores={respawn=..0}] id
+data modify entity @e[tag=projectile,limit=1] Owner set from entity @p[tag=shadow,tag=alive,scores={respawn=..0}] UUID
 data modify entity @e[tag=projectile,limit=1] Motion set from entity @e[tag=direction,limit=1] Pos
 
 tag @e[tag=projectile] remove projectile
