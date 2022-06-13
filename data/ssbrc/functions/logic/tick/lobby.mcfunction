@@ -9,10 +9,7 @@ tp @a[x=-529.5,y=5.0,z=49.5,distance=..1] -29.5 5.0 -163.5 180.0 0.0
 tp @a[x=-29.5,y=6.0,z=-159.5,distance=..1] -520.5 5.0 55.5 90.0 0.0
 
 execute as @a run function ssbrc:logic/tick/triggers/menu
-
-execute as @a[nbt={SelectedItem:{tag:{slot:1}}}] store result score @s favorite.temp run scoreboard players get @s favorite.slot1
-execute as @a[nbt={SelectedItem:{tag:{slot:2}}}] store result score @s favorite.temp run scoreboard players get @s favorite.slot2
-execute as @a[nbt={SelectedItem:{tag:{slot:3}}}] store result score @s favorite.temp run scoreboard players get @s favorite.slot3
+execute as @a run function ssbrc:logic/tick/effects
 
 # Teams
 execute as @a[scores={selectFavorite=1..},nbt={SelectedItem:{tag:{teamFlag:1,team.pink:1}}}] run function ssbrc:logic/teams/aqua
@@ -25,6 +22,10 @@ execute as @a[scores={selectFavorite=1..},nbt={SelectedItem:{tag:{teamFlag:1,tea
 execute as @a[scores={selectFavorite=1..},nbt={SelectedItem:{tag:{teamFlag:1,team.aqua:1}}}] run function ssbrc:logic/teams/red
 
 # Favorites
+execute as @a[nbt={SelectedItem:{tag:{slot:1}}}] store result score @s favorite.temp run scoreboard players get @s favorite.slot1
+execute as @a[nbt={SelectedItem:{tag:{slot:2}}}] store result score @s favorite.temp run scoreboard players get @s favorite.slot2
+execute as @a[nbt={SelectedItem:{tag:{slot:3}}}] store result score @s favorite.temp run scoreboard players get @s favorite.slot3
+
 execute as @a[tag=!bowser,predicate=!ssbrc:flag/sneaking,scores={selectFavorite=1..,favorite.temp=60}] run function ssbrc:series/super_mario_bros/bowser/menu/select_character
 execute as @a[tag=!byleth,predicate=!ssbrc:flag/sneaking,scores={selectFavorite=1..,favorite.temp=100}] run function ssbrc:series/fire_emblem/byleth/menu/loadout/prompt
 execute as @a[tag=!captainfalcon,predicate=!ssbrc:flag/sneaking,scores={selectFavorite=1..,favorite.temp=120}] run function ssbrc:series/f_zero/captainfalcon/menu/select_character
