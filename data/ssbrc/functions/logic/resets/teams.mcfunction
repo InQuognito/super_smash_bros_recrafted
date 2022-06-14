@@ -134,7 +134,7 @@ team modify admin deathMessageVisibility hideForOwnTeam
 team modify admin displayName "Admin"
 team modify admin friendlyFire false
 team modify admin nametagVisibility hideForOwnTeam
-team modify admin prefix "// "
+team modify admin prefix "//"
 team modify admin seeFriendlyInvisibles true
 team modify admin suffix ""
 
