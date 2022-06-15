@@ -8,6 +8,8 @@ scoreboard players set #hero.kaclangManaCost vars 3
 
 scoreboard players set #joker.finalGuardThreshold vars 4
 
+scoreboard players set #shadow.maxMeter vars 600
+
 scoreboard players set #shovelknight.flareWandManaCost vars 1
 scoreboard players set #shovelknight.phaseLocketManaCost vars 3
 
@@ -18,6 +20,8 @@ scoreboard players set #snake.socomWeight vars 3
 scoreboard players set #snake.apmWeight vars 2
 scoreboard players set #snake.sgWeight vars 2
 scoreboard players set #snake.totalWeight vars 10
+
+scoreboard players set #damage.chaosSpear vars 40
 
 # Common Currency Values
 scoreboard players set #value.playGame vars 50

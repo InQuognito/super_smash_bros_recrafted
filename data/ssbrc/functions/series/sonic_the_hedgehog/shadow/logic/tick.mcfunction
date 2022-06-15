@@ -3,15 +3,15 @@ execute if entity @s[scores={useAbility=1..,cooldown.1=..0},nbt={SelectedItem:{t
 execute if entity @s[scores={useAbility=1..,cooldown.1=..0},nbt={SelectedItem:{tag:{chaosControl:1}}}] run function ssbrc:series/sonic_the_hedgehog/shadow/logic/chaos_control/on
 execute if entity @s[scores={useAbility=1..,cooldown.1=..0},nbt={SelectedItem:{tag:{chaosBlast:1}}}] run function ssbrc:series/sonic_the_hedgehog/shadow/logic/chaos_blast/activate
 
-# Chaos Spear
-scoreboard players add @s[scores={charge.1=1..}] charge.1 1
-execute at @s[scores={charge.1=1..}] anchored eyes run function ssbrc:series/sonic_the_hedgehog/shadow/logic/chaos_spear/initiate
-execute if score @s charge.1 matches 30.. at @s anchored eyes run function ssbrc:series/sonic_the_hedgehog/shadow/logic/chaos_spear/summon
-
 tag @s add self
 execute as @e[type=minecraft:arrow,tag=chaosSpear] at @s if score @s id = @p[tag=self] id run function ssbrc:series/sonic_the_hedgehog/shadow/logic/chaos_spear/tick
 execute as @e[type=minecraft:arrow,tag=chaosBlastShockwave] at @s if score @s id = @p[tag=self] id run function ssbrc:series/sonic_the_hedgehog/shadow/logic/chaos_blast/tick
 tag @s remove self
+
+# Chaos Spear
+scoreboard players add @s[scores={charge.1=1..}] charge.1 1
+execute at @s[scores={charge.1=1..}] anchored eyes run function ssbrc:series/sonic_the_hedgehog/shadow/logic/chaos_spear/initiate
+execute if score @s charge.1 matches 30.. at @s anchored eyes run function ssbrc:series/sonic_the_hedgehog/shadow/logic/chaos_spear/summon
 
 # Chaos Meters
 execute if score @s shadow.meter.hero > @s shadow.meter.villain run function ssbrc:series/sonic_the_hedgehog/shadow/logic/chaos_meters/hero_display

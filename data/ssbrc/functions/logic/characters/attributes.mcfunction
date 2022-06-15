@@ -2,7 +2,7 @@
 attribute @s[predicate=ssbrc:characters/armor_values/none] minecraft:generic.armor base set 0.0
 attribute @s[predicate=ssbrc:characters/armor_values/low] minecraft:generic.armor base set 6.0
 attribute @s[predicate=ssbrc:characters/armor_values/medium] minecraft:generic.armor base set 12.0
-attribute @s[predicate=ssbrc:characters/armor_values/high] minecraft:generic.armor base set 18.0
+attribute @s[predicate=ssbrc:characters/armor_values/high] minecraft:generic.armor base set 14.0
 
 # Attack Damage
 attribute @s[predicate=ssbrc:characters/attack_damage/low] minecraft:generic.attack_damage base set 2.0
