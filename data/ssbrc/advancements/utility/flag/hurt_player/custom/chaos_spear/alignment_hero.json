@@ -4,8 +4,14 @@
 			"trigger": "minecraft:player_hurt_entity",
 			"conditions": {
 				"damage": {
+					"blocked": false,
 					"source_entity": {
 						"nbt": "{Tags:[\"shadow\"]}"
+					},
+					"type": {
+						"direct_entity": {
+							"nbt": "{Tags:[\"chaosSpear\"]}"
+						}
 					}
 				},
 				"entity": [
