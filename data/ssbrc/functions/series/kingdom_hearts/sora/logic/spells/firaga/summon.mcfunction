@@ -10,6 +10,6 @@ tag @e[tag=projectile] remove projectile
 kill @e[tag=direction]
 
 scoreboard players set @s[tag=!wisdom] cooldown.2 60
-scoreboard players set @s[tag=wisdom] cooldown.2 50
+scoreboard players set @s[tag=wisdom] cooldown.2 40
 
 execute if score @s shadow.chaosControl matches 1.. run function ssbrc:logic/characters/cooldown_modifiers/chaos_control/2
