@@ -12,6 +12,9 @@
 						}
 					}
 				],
+				"damage": {
+					"blocked": false
+				},
 				"entity": [
 					{
 						"condition": "minecraft:reference",
@@ -20,8 +23,5 @@
 				]
 			}
 		}
-	},
-	"rewards": {
-		"function": "ssbrc:series/sonic_the_hedgehog/shadow/logic/chaos_meters/villain"
 	}
 }

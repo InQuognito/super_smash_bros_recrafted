@@ -26,6 +26,8 @@ execute if entity @s[tag=shovelknight] run function ssbrc:series/indie_fighters/
 
 execute at @s[tag=naturalShiny] run particle minecraft:glow ~ ~0.7 ~ 0.5 0.4 0.5 0 1 normal @a
 
+execute if entity @s[scores={flag.damageDealt=1..}] run function ssbrc:logic/characters/damage_dealt
+
 execute at @s[scores={fallDistance=1..}] run function ssbrc:logic/characters/shockwave/check
 execute at @s[scores={jumps=1..}] run function ssbrc:logic/characters/jump
 

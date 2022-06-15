@@ -4,16 +4,16 @@
 			"trigger": "minecraft:player_hurt_entity",
 			"conditions": {
 				"damage": {
+					"blocked": false,
 					"source_entity": {
-						"nbt": "{Tags:[\"chaosSpear\"]}"
+						"nbt": "{Tags:[\"shadow\"]}"
+					},
+					"type": {
+						"direct_entity": {
+							"nbt": "{Tags:[\"chaosSpear\"]}"
+						}
 					}
-				},
-				"entity": [
-					{
-						"condition": "minecraft:reference",
-						"name": "ssbrc:characters/alignment/villain"
-					}
-				]
+				}
 			}
 		}
 	},
