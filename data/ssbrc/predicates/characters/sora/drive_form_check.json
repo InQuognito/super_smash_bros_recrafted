@@ -5,14 +5,14 @@
 			"condition": "minecraft:entity_properties",
 			"entity": "this",
 			"predicate": {
-				"nbt": "{Tags:[\"driveForm.anti\"]}"
+				"nbt": "{Tags:[\"driveForm.valor\"]}"
 			}
 		},
 		{
 			"condition": "minecraft:entity_properties",
 			"entity": "this",
 			"predicate": {
-				"nbt": "{Tags:[\"driveForm.valor\"]}"
+				"nbt": "{Tags:[\"driveForm.wisdom\"]}"
 			}
 		}
 	]
