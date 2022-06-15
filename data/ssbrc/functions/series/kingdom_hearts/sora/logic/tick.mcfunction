@@ -18,4 +18,4 @@ execute as @e[type=minecraft:area_effect_cloud,tag=thundaga] at @s if score @s i
 tag @s remove self
 
 # Anti Form
-execute at @s[tag=anti] run particle minecraft:dust 0.0 0.0 0.0 1.0 ~ ~0.75 ~ 0.2 0.4 0.2 0.0 10 normal @a
+execute at @s[tag=anti] run particle minecraft:dust 0.0 0.0 0.0 1.0 ~ ~0.75 ~ 0.2 0.3 0.2 0.0 20 normal @a
