@@ -49,6 +49,7 @@ execute as @a[tag=!ryu,predicate=!ssbrc:flag/sneaking,scores={selectFavorite=1..
 execute as @a[tag=!samus,predicate=!ssbrc:flag/sneaking,scores={selectFavorite=1..,favorite.temp=1420}] run function ssbrc:series/metroid/samus/menu/select_character
 execute as @a[tag=!snake,predicate=!ssbrc:flag/sneaking,scores={selectFavorite=1..,favorite.temp=1520}] run function ssbrc:series/metal_gear_solid/snake/menu/loadout/prompt
 execute as @a[tag=!sonic,predicate=!ssbrc:flag/sneaking,scores={selectFavorite=1..,favorite.temp=1540}] run function ssbrc:series/sonic_the_hedgehog/sonic/menu/select_character
+execute as @a[tag=!sora,predicate=!ssbrc:flag/sneaking,scores={selectFavorite=1..,favorite.temp=1560}] run function ssbrc:series/kingdom_hearts/sora/menu/select_character
 execute as @a[tag=!steve,predicate=!ssbrc:flag/sneaking,scores={selectFavorite=1..,favorite.temp=1580}] run function ssbrc:series/indie_fighters/steve/menu/select_character
 
 execute as @a[tag=!alteredbeast,predicate=!ssbrc:flag/sneaking,scores={selectFavorite=1..,favorite.temp=1820}] run function ssbrc:series/retro_fighters/alteredbeast/menu/select_character
@@ -81,6 +82,7 @@ execute as @a[predicate=ssbrc:flag/sneaking,scores={selectFavorite=1..,favorite.
 execute as @a[predicate=ssbrc:flag/sneaking,scores={selectFavorite=1..,favorite.temp=1420}] run function ssbrc:series/metroid/samus/menu/prompt
 execute as @a[predicate=ssbrc:flag/sneaking,scores={selectFavorite=1..,favorite.temp=1520}] run function ssbrc:series/metal_gear_solid/snake/menu/prompt
 execute as @a[predicate=ssbrc:flag/sneaking,scores={selectFavorite=1..,favorite.temp=1540}] run function ssbrc:series/sonic_the_hedgehog/sonic/menu/prompt
+execute as @a[predicate=ssbrc:flag/sneaking,scores={selectFavorite=1..,favorite.temp=1560}] run function ssbrc:series/kingdom_hearts/sora/menu/prompt
 execute as @a[predicate=ssbrc:flag/sneaking,scores={selectFavorite=1..,favorite.temp=1580}] run function ssbrc:series/indie_fighters/steve/menu/prompt
 
 execute as @a[predicate=ssbrc:flag/sneaking,scores={selectFavorite=1..,favorite.temp=1820}] run function ssbrc:series/retro_fighters/alteredbeast/menu/prompt

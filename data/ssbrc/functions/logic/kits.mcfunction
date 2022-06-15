@@ -22,6 +22,7 @@ execute if entity @s[tag=ryu] run function ssbrc:series/street_fighter/ryu/kit
 execute if entity @s[tag=samus] run function ssbrc:series/metroid/samus/kit
 execute if entity @s[tag=snake] run function ssbrc:series/metal_gear_solid/snake/kit
 execute if entity @s[tag=sonic] run function ssbrc:series/sonic_the_hedgehog/sonic/kit
+execute if entity @s[tag=sora] run function ssbrc:series/kingdom_hearts/sora/kit
 execute if entity @s[tag=steve] run function ssbrc:series/indie_fighters/steve/kit
 
 execute if entity @s[tag=alteredbeast] run function ssbrc:series/retro_fighters/alteredbeast/kits/human

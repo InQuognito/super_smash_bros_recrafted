@@ -122,6 +122,11 @@ execute if score @s[tag=room.characterSelect,tag=!sonic] menu matches 1541 run f
 execute if score @s[tag=room.characterSelect,tag=!sonic] menu matches 1542 run function ssbrc:series/sonic_the_hedgehog/sonic/menu/favorite
 execute if score @s[tag=room.characterSelect,tag=!sonic] menu matches 1543 run function ssbrc:series/sonic_the_hedgehog/sonic/menu/how_to_play
 
+execute if score @s[tag=room.characterSelect,tag=!sora] menu matches 1560 run function ssbrc:series/kingdom_hearts/sora/menu/select_character
+execute if score @s[tag=room.characterSelect,tag=!sora] menu matches 1561 run function ssbrc:series/kingdom_hearts/sora/menu/skin_options
+execute if score @s[tag=room.characterSelect,tag=!sora] menu matches 1562 run function ssbrc:series/kingdom_hearts/sora/menu/favorite
+execute if score @s[tag=room.characterSelect,tag=!sora] menu matches 1563 run function ssbrc:series/kingdom_hearts/sora/menu/how_to_play
+
 execute if score @s[tag=room.characterSelect,tag=!steve] menu matches 1580 run function ssbrc:series/indie_fighters/steve/menu/select_character
 execute if score @s[tag=room.characterSelect,tag=!steve] menu matches 1581 run function ssbrc:series/indie_fighters/steve/menu/skin_options
 execute if score @s[tag=room.characterSelect,tag=!steve] menu matches 1582 run function ssbrc:series/indie_fighters/steve/menu/favorite

@@ -70,6 +70,9 @@ summon minecraft:armor_stand 9.5 6.0 150.5 {Tags:["lobbyStand","snake","default"
 summon minecraft:area_effect_cloud 61.5 7.75 148.5 {CustomName:'{"text":"Sonic","color":"blue"}',CustomNameVisible:1b,Age:-2147483648,Duration:-1,WaitTime:-2147483648}
 summon minecraft:armor_stand 61.5 6.0 146.5 {Tags:["lobbyStand","sonic","default"],Rotation:[0f,0f]}
 
+summon minecraft:area_effect_cloud 71.5 7.75 155.5 {CustomName:'{"text":"Sora","color":"white"}',CustomNameVisible:1b,Age:-2147483648,Duration:-1,WaitTime:-2147483648}
+summon minecraft:armor_stand 71.5 6.0 157.5 {Tags:["lobbyStand","sora","default"],Rotation:[180f,0f]}
+
 summon minecraft:area_effect_cloud 76.5 7.75 141.5 {CustomName:'{"text":"Steve","color":"dark_aqua"}',CustomNameVisible:1b,Age:-2147483648,Duration:-1,WaitTime:-2147483648}
 summon minecraft:armor_stand 78.5 6.0 141.5 {Tags:["lobbyStand","steve","default"],Rotation:[90f,0f]}
 
