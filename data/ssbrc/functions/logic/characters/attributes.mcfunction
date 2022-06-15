@@ -9,7 +9,8 @@ attribute @s[predicate=ssbrc:characters/attack_damage/low] minecraft:generic.att
 attribute @s[predicate=ssbrc:characters/attack_damage/medium] minecraft:generic.attack_damage base set 8.0
 
 # Attack Speed
-attribute @s minecraft:generic.attack_speed base set 4.0
+attribute @s[predicate=ssbrc:characters/attack_speed/low] minecraft:generic.attack_speed base set 4.0
+attribute @s[predicate=ssbrc:characters/attack_speed/medium] minecraft:generic.attack_speed base set 6.0
 
 # Knockback Resistance
 attribute @s[predicate=ssbrc:characters/knockback_resistance/none] minecraft:generic.knockback_resistance base set 0.0
