@@ -38,5 +38,5 @@ schedule function ssbrc:logic/resets/lobby 1s replace
 #######################
 # REMOVE - DEBUG ONLY #
 #######################
-scoreboard players set @a currency 99999
+advancement grant @a through ssbrc:skins
 #######################
