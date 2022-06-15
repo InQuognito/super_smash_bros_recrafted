@@ -21,7 +21,12 @@ scoreboard players set #snake.apmWeight vars 2
 scoreboard players set #snake.sgWeight vars 2
 scoreboard players set #snake.totalWeight vars 10
 
+scoreboard players set #damage.bladeBeam vars 40
 scoreboard players set #damage.chaosSpear vars 40
+scoreboard players set #damage.fireball vars 40
+scoreboard players set #damage.plasmaBeam vars 40
+scoreboard players set #damage.powerBeam vars 40
+scoreboard players set #damage.waveBeam vars 40
 
 # Common Currency Values
 scoreboard players set #value.playGame vars 50

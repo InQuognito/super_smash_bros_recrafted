@@ -1,6 +1,4 @@
-scoreboard players operation @s[tag=shadow,advancements={ssbrc:utility/flag/hurt_player/custom/alignment_hero=true}] shadow.meter.villain += @s flag.damageDealt
-scoreboard players operation @s[tag=shadow,advancements={ssbrc:utility/flag/hurt_player/custom/alignment_villain=true}] shadow.meter.hero += @s flag.damageDealt
-advancement revoke @s only ssbrc:utility/flag/hurt_player/custom/alignment_hero
-advancement revoke @s only ssbrc:utility/flag/hurt_player/custom/alignment_villain
+execute if entity @s[tag=cloud] run function ssbrc:logic/characters/damage_calculation/damage_dealt/cloud
+execute if entity @s[tag=shadow] run function ssbrc:logic/characters/damage_calculation/damage_dealt/shadow
 
 scoreboard players reset @s flag.damageDealt
