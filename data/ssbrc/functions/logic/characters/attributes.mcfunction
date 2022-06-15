@@ -6,7 +6,7 @@ attribute @s[predicate=ssbrc:characters/armor_values/high] minecraft:generic.arm
 
 # Attack Damage
 attribute @s[predicate=ssbrc:characters/attack_damage/low] minecraft:generic.attack_damage base set 2.0
-attribute @s[predicate=ssbrc:characters/attack_damage/medium] minecraft:generic.attack_damage base set 8.0
+attribute @s[predicate=ssbrc:characters/attack_damage/medium] minecraft:generic.attack_damage base set 4.0
 
 # Attack Speed
 attribute @s[predicate=ssbrc:characters/attack_speed/low] minecraft:generic.attack_speed base set 4.0
