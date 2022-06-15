@@ -3,6 +3,7 @@ execute unless score @s stats.kills matches 1.. run scoreboard players set @s st
 execute unless score @s stats.gamesPlayed matches 1.. run scoreboard players set @s stats.gamesPlayed 0
 execute unless score @s stats.wins matches 1.. run scoreboard players set @s stats.wins 0
 execute unless score @s stats.winStreak matches 1.. run scoreboard players set @s stats.winStreak 0
+execute unless score @s currency matches 1.. run scoreboard players set @s currency 0
 
 execute unless score @s stats.alteredbeast.deaths matches 1.. run scoreboard players set @s stats.alteredbeast.deaths 0
 execute unless score @s stats.alteredbeast.kills matches 1.. run scoreboard players set @s stats.alteredbeast.kills 0
