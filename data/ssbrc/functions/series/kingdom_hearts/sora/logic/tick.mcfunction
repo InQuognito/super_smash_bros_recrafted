@@ -16,3 +16,6 @@ execute as @e[type=minecraft:arrow,tag=firaga] at @s if score @s id = @p[tag=sel
 execute as @e[type=minecraft:area_effect_cloud,tag=blizzaga] at @s if score @s id = @p[tag=self] id run function ssbrc:series/kingdom_hearts/sora/logic/spells/blizzaga/tick
 execute as @e[type=minecraft:area_effect_cloud,tag=thundaga] at @s if score @s id = @p[tag=self] id run function ssbrc:series/kingdom_hearts/sora/logic/spells/thundaga/tick
 tag @s remove self
+
+# Anti Form
+execute at @s[tag=anti] run particle minecraft:dust 0.0 0.0 0.0 1.0 ~ ~0.75 ~ 0.2 0.4 0.2 0.0 10 normal @a
