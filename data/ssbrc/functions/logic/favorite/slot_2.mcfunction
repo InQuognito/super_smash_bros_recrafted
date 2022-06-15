@@ -22,6 +22,7 @@ execute if entity @s[tag=favoritetry.ryu] run scoreboard players set @s favorite
 execute if entity @s[tag=favoritetry.samus] run scoreboard players set @s favorite.slot2 1420
 execute if entity @s[tag=favoritetry.snake] run scoreboard players set @s favorite.slot2 1520
 execute if entity @s[tag=favoritetry.sonic] run scoreboard players set @s favorite.slot2 1540
+execute if entity @s[tag=favoritetry.sora] run scoreboard players set @s favorite.slot2 1560
 execute if entity @s[tag=favoritetry.steve] run scoreboard players set @s favorite.slot2 1580
 
 execute if entity @s[tag=favoritetry.alteredbeast] run scoreboard players set @s favorite.slot2 1820

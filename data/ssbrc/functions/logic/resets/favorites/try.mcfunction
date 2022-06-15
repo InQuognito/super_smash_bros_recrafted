@@ -24,5 +24,6 @@ tag @a remove favoritetry.samus
 tag @a remove favoritetry.shovelknight
 tag @a remove favoritetry.snake
 tag @a remove favoritetry.sonic
+tag @a remove favoritetry.sora
 tag @a remove favoritetry.steve
 tag @a remove favoritetry.teamrocket
