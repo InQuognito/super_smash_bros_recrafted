@@ -39,7 +39,7 @@ tag @s remove self
 
 # Kaclang
 scoreboard players remove @s[scores={duration.2=1..}] duration.2 1
-execute if entity @s[scores={duration.2=..0}] run function ssbrc:series/dragon_quest/hero/logic/magic/kaclang_off
+execute if entity @s[scores={duration.2=1}] run function ssbrc:series/dragon_quest/hero/logic/magic/kaclang_off
 
 # Magic Burst
 scoreboard players add @s[scores={charge.1=1..}] charge.1 1

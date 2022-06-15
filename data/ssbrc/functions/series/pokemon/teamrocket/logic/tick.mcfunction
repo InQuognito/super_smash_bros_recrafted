@@ -14,4 +14,4 @@ item modify entity @s weapon.mainhand ssbrc:characters/wobbuffet.counter
 
 # Destiny Bond
 execute at @s[scores={duration.3=40..}] run particle minecraft:dust 0.0 0.0 0.0 0.5 ~ ~0.75 ~ 0.5 1.0 0.5 0.0 5 normal @a
-execute if score @s duration.3 matches ..0 run function ssbrc:series/pokemon/teamrocket/logic/wobbuffet/destiny_bond/off
+execute if score @s duration.3 matches 1 run function ssbrc:series/pokemon/teamrocket/logic/wobbuffet/destiny_bond/off

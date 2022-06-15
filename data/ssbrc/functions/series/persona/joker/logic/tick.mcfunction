@@ -4,7 +4,7 @@ execute if entity @s[scores={useAbility=1..},nbt={SelectedItem:{tag:{tt33:1}}}] 
 execute if score @s[tag=!abilityUsed] health <= #joker.finalGuardThreshold vars run function ssbrc:series/persona/joker/logic/final_guard/on
 
 execute at @s[scores={duration.1=1..}] run particle minecraft:glow ~ ~1.0 ~ 0.1 0.1 0.1 1.0 5 normal @a
-execute if score @s duration.1 matches ..0 run function ssbrc:series/persona/joker/logic/final_guard/off
+execute if score @s duration.1 matches 1 run function ssbrc:series/persona/joker/logic/final_guard/off
 
 # Ammo HUD
 title @s[nbt={SelectedItem:{tag:{tt33:1}}}] actionbar {"score":{"name":"@s","objective":"joker.tt33A"},"color":"red"}

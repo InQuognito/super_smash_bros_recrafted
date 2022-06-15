@@ -7,5 +7,3 @@ item replace entity @s hotbar.2 with minecraft:splash_potion{CustomPotionColor:1
 effect clear @s minecraft:fire_resistance
 effect clear @s minecraft:regeneration
 effect clear @s minecraft:resistance
-
-scoreboard players reset @s duration.1

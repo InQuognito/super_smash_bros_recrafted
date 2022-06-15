@@ -9,7 +9,7 @@ data modify entity @e[tag=projectile,limit=1] Motion set from entity @e[tag=dire
 tag @e[tag=projectile] remove projectile
 kill @e[tag=direction]
 
-execute unless score @s duration.1 matches 1.. run scoreboard players set @s cooldown.1 20
+execute if score @s duration.1 matches 0 run scoreboard players set @s cooldown.1 20
 execute if score @s duration.1 matches 1.. run function ssbrc:series/metroid/darksamus/logic/phazon_beam/overload
 
 execute if score @s shadow.chaosControl matches 1.. run function ssbrc:logic/characters/cooldown_modifiers/chaos_control/1

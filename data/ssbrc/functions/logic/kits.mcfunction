@@ -42,3 +42,6 @@ scoreboard players set @s cooldown.3 0
 scoreboard players set @s charge.1 0
 scoreboard players set @s charge.2 0
 scoreboard players set @s charge.3 0
+scoreboard players set @s duration.1 0
+scoreboard players set @s duration.2 0
+scoreboard players set @s duration.3 0
