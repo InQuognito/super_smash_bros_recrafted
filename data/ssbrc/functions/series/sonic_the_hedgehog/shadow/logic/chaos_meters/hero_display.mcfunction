@@ -1,6 +1,6 @@
 scoreboard players operation $shadow.heroPercent temp = @s shadow.meter.hero
 scoreboard players operation $shadow.heroPercent temp *= 100 integers
-scoreboard players operation $shadow.heroPercent temp /= #shadow.maxLimit vars
+scoreboard players operation $shadow.heroPercent temp /= #shadow.maxMeter vars
 
 execute if score $shadow.heroPercent temp matches 1..10 run title @s actionbar [{"text":"\u25ae","color":"blue"},{"text":"\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae","color":"dark_gray"}]
 execute if score $shadow.heroPercent temp matches 11..20 run title @s actionbar [{"text":"\u25ae\u25ae","color":"blue"},{"text":"\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae","color":"dark_gray"}]

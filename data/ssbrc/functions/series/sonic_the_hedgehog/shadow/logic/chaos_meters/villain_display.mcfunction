@@ -1,6 +1,6 @@
 scoreboard players operation $shadow.villainPercent temp = @s shadow.meter.villain
 scoreboard players operation $shadow.villainPercent temp *= 100 integers
-scoreboard players operation $shadow.villainPercent temp /= #shadow.maxLimit vars
+scoreboard players operation $shadow.villainPercent temp /= #shadow.maxMeter vars
 
 execute if score $shadow.villainPercent temp matches 1..10 run title @s actionbar [{"text":"\u25ae","color":"red"},{"text":"\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae","color":"dark_gray"}]
 execute if score $shadow.villainPercent temp matches 11..20 run title @s actionbar [{"text":"\u25ae\u25ae","color":"red"},{"text":"\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae","color":"dark_gray"}]

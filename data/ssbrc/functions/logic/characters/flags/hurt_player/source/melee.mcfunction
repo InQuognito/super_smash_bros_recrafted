@@ -3,6 +3,4 @@ execute if score $gameStage temp matches 4 if entity @s[tag=byleth,predicate=ssb
 execute if score $gameStage temp matches 4 if entity @s[tag=cloud] run function ssbrc:series/final_fantasy/cloud/logic/hurt_player
 execute if score $gameStage temp matches 4 if score @s[tag=hero,tag=!hero.magicLost,predicate=ssbrc:flag/holding_sword] mana >= #hero.flameSlashManaCost vars run function ssbrc:series/dragon_quest/hero/logic/hurt_player
 
-say hurt players with melee
-
 advancement revoke @s only ssbrc:utility/flag/hurt_player/source/melee
