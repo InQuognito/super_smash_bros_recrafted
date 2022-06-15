@@ -1,3 +1,9 @@
+execute unless score @s stats.deaths matches 1.. run scoreboard players set @s stats.deaths 0
+execute unless score @s stats.kills matches 1.. run scoreboard players set @s stats.kills 0
+execute unless score @s stats.gamesPlayed matches 1.. run scoreboard players set @s stats.gamesPlayed 0
+execute unless score @s stats.wins matches 1.. run scoreboard players set @s stats.wins 0
+execute unless score @s stats.winStreak matches 1.. run scoreboard players set @s stats.winStreak 0
+
 execute unless score @s stats.alteredbeast.deaths matches 1.. run scoreboard players set @s stats.alteredbeast.deaths 0
 execute unless score @s stats.alteredbeast.kills matches 1.. run scoreboard players set @s stats.alteredbeast.kills 0
 execute unless score @s stats.alteredbeast.gamesPlayed matches 1.. run scoreboard players set @s stats.alteredbeast.gamesPlayed 0
