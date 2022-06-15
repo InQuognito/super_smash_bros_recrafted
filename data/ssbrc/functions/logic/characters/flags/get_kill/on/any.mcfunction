@@ -5,6 +5,7 @@ execute if score $gameStage temp matches 4 if entity @s[tag=byleth,tag=byleth.we
 execute if score $gameStage temp matches 4 if entity @s[tag=ganondorf] run tag @s add stalfosGet
 execute if score $gameStage temp matches 4 if entity @s[tag=hero,predicate=ssbrc:flag/holding_sword] run scoreboard players operation @s mana += #hero.manaGainedOnKill vars
 execute if score $gameStage temp matches 4 if entity @s[tag=snake,predicate=ssbrc:flag/holding_sword] unless score $playersLeft temp matches 1 run function ssbrc:series/metal_gear_solid/snake/logic/get_kill
+execute if score $gameStage temp matches 4 if entity @s[tag=sora] run function ssbrc:series/kingdom_hearts/sora/logic/get_kill
 
 execute if score $gameStage temp matches 4 run function ssbrc:logic/stocks/get_kill
 

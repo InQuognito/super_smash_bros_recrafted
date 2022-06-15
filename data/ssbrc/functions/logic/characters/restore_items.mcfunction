@@ -80,8 +80,8 @@ execute if score $gameMode options matches 1 if score @s[tag=ryu] stocks matches
 execute if score $gameMode options matches 2 run clear @s[tag=ryu] minecraft:carrot_on_a_stick{ability.ryu:1}
 execute if score $gameMode options matches 2 if score $gameTime timer matches ..60 run item replace entity @s[tag=ryu,tag=!abilityUsed] hotbar.2 with minecraft:carrot_on_a_stick{ability.ryu:1,CustomModelData:1401,Unbreakable:1,display:{Name:'[{"text":"Satsui no Hado Rage","italic":false,"color":"#660000","bold":true}]'}} 1
 
-# Shovelknight
-scoreboard players set @s[tag=shovelknight] mana 10
+# Sora
+execute if entity @s[tag=sora] run function ssbrc:series/kingdom_hearts/sora/kit
 
 # Steve
 scoreboard players remove @s[tag=steve,scores={steve.tier=1..}] steve.tier 1
@@ -91,6 +91,8 @@ clear @s[tag=steve] minecraft:netherite_axe
 give @s[tag=steve,scores={steve.tier=0}] minecraft:wooden_sword{Unbreakable:1,HideFlags:127,AttributeModifiers:[{AttributeName:"minecraft:generic.attack_damage",Amount:4,Slot:mainhand,Name:"minecraft:generic.attack_damage",UUID:[I;-12164,33707,92130,-67414]},{AttributeName:"minecraft:generic.attack_speed",Amount:-2.4,Slot:mainhand,Name:"minecraft:generic.attack_speed",UUID:[I;-12164,33807,92130,-67614]}]}
 give @s[tag=steve,scores={steve.tier=1}] minecraft:stone_sword{Unbreakable:1,HideFlags:127,AttributeModifiers:[{AttributeName:"minecraft:generic.attack_damage",Amount:5,Slot:mainhand,Name:"minecraft:generic.attack_damage",UUID:[I;-12164,33707,92130,-67414]},{AttributeName:"minecraft:generic.attack_speed",Amount:-2.4,Slot:mainhand,Name:"minecraft:generic.attack_speed",UUID:[I;-12164,33807,92130,-67614]}]}
 give @s[tag=steve,scores={steve.tier=2}] minecraft:iron_sword{Unbreakable:1,HideFlags:127,AttributeModifiers:[{AttributeName:"minecraft:generic.attack_damage",Amount:6,Slot:mainhand,Name:"minecraft:generic.attack_damage",UUID:[I;-12164,33707,92130,-67414]},{AttributeName:"minecraft:generic.attack_speed",Amount:-2.4,Slot:mainhand,Name:"minecraft:generic.attack_speed",UUID:[I;-12164,33807,92130,-67614]}]}
+
+
 
 # Altered Beast
 clear @s[tag=waretiger] minecraft:trident
@@ -103,6 +105,9 @@ clear @s[tag=alucard] minecraft:shield
 scoreboard players set @s[tag=alucard] durability 300
 execute store result storage ssbrc:alucard_shield damage int 1.0 run scoreboard players get @s durability
 loot replace entity @s[tag=alucard] weapon.offhand loot ssbrc:alucard_shield
+
+# Shovelknight
+scoreboard players set @s[tag=shovelknight] mana 10
 
 # Team Rocket
 tag @s[tag=teamrocket] remove teamrocket.picked

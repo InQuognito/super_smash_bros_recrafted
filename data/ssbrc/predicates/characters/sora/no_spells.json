@@ -5,21 +5,14 @@
 			"condition": "minecraft:entity_properties",
 			"entity": "this",
 			"predicate": {
-				"nbt": "{Tags:[\"luigi\"]}"
+				"nbt": "{Tags:[\"anti\"]}"
 			}
 		},
 		{
 			"condition": "minecraft:entity_properties",
 			"entity": "this",
 			"predicate": {
-				"nbt": "{Tags:[\"mario\"]}"
-			}
-		},
-		{
-			"condition": "minecraft:entity_properties",
-			"entity": "this",
-			"predicate": {
-				"nbt": "{Tags:[\"sora\",\"valor\"]}"
+				"nbt": "{Tags:[\"valor\"]}"
 			}
 		}
 	]

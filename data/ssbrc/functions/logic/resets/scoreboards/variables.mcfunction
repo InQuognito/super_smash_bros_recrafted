@@ -13,6 +13,8 @@ scoreboard players set #shadow.maxMeter vars 600
 scoreboard players set #shovelknight.flareWandManaCost vars 1
 scoreboard players set #shovelknight.phaseLocketManaCost vars 3
 
+scoreboard players set #sora.driveForm vars 400
+
 scoreboard players set #snake.psg1Weight vars 5
 scoreboard players set #snake.famasWeight vars 5
 scoreboard players set #snake.s1000Weight vars 4
@@ -23,6 +25,9 @@ scoreboard players set #snake.totalWeight vars 10
 
 scoreboard players set #damage.bladeBeam vars 40
 scoreboard players set #damage.chaosSpear vars 40
+scoreboard players set #damage.blizzaga vars 40
+scoreboard players set #damage.firaga vars 40
+scoreboard players set #damage.thundaga vars 40
 
 # Common Currency Values
 scoreboard players set #value.playGame vars 50

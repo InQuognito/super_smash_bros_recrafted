@@ -40,4 +40,5 @@ attribute @s[tag=snake,scores={snake.capacity=8}] minecraft:generic.movement_spe
 attribute @s[tag=snake,scores={snake.capacity=9}] minecraft:generic.movement_speed base set 0.091
 attribute @s[tag=snake,scores={snake.capacity=10}] minecraft:generic.movement_speed base set 0.09
 attribute @s[tag=sonic] minecraft:generic.movement_speed base set 0.11
+attribute @s[tag=sora,tag=wisdom] minecraft:generic.movement_speed base set 0.105
 attribute @s[tag=wobbuffet] minecraft:generic.movement_speed base set 0.085
