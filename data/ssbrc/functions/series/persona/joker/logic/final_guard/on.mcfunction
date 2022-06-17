@@ -1,7 +1,7 @@
 scoreboard players set @s duration.1 40
 
-function ssbrc:logic/characters/effects/mobility/immobilize
 function ssbrc:logic/characters/effects/cleanse
+function ssbrc:logic/characters/effects/mobility/immobilize
 
 effect give @s minecraft:fire_resistance 1000000 255 true
 effect give @s minecraft:regeneration 1000000 4 true
