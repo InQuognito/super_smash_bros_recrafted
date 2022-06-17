@@ -23,6 +23,17 @@ execute if score $battlefield map matches 1 if score result random matches 7 run
 execute if score $battlefield map matches 1 if score result random matches 8 run teleport @s 297 18 -567
 execute if score $battlefield map matches 1 if score result random matches 9 run teleport @s 302 28 -562
 
+execute if score $bigBattlefield map matches 1 if score result random matches 0 run teleport @s 100042.5 29.0 99959.5
+execute if score $bigBattlefield map matches 1 if score result random matches 1 run teleport @s 100042.5 29.0 99943.5
+execute if score $bigBattlefield map matches 1 if score result random matches 2 run teleport @s 100058.5 29.0 99943.5
+execute if score $bigBattlefield map matches 1 if score result random matches 3 run teleport @s 100058.5 29.0 99959.5
+execute if score $bigBattlefield map matches 1 if score result random matches 4 run teleport @s 100057.5 24.0 99955.5
+execute if score $bigBattlefield map matches 1 if score result random matches 5 run teleport @s 100043.5 24.0 99947.5
+execute if score $bigBattlefield map matches 1 if score result random matches 6 run teleport @s 100050.5 24.0 99947.5
+execute if score $bigBattlefield map matches 1 if score result random matches 7 run teleport @s 100054.5 24.0 99951.5
+execute if score $bigBattlefield map matches 1 if score result random matches 8 run teleport @s 100050.5 24.0 99955.5
+execute if score $bigBattlefield map matches 1 if score result random matches 9 run teleport @s 100046.5 24.0 99951.5
+
 execute if score $bowsersCastle map matches 1 if score result random matches 0 run teleport @s -681.5 31.0 844.5
 execute if score $bowsersCastle map matches 1 if score result random matches 1 run teleport @s -701.5 31.0 844.5
 execute if score $bowsersCastle map matches 1 if score result random matches 2 run teleport @s -724.5 31.0 844.5
