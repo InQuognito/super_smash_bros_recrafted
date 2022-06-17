@@ -16,6 +16,6 @@ execute at @s[tag=alucard.ability] run particle minecraft:mycelium ~ ~0.5 ~ 0.35
 
 execute at @s[tag=!alucard.ability,scores={duration.1=1..}] run particle minecraft:dust 1.0 1.0 1.0 1.5 ~ ~0.75 ~ 0.4 0.4 0.4 0.05 10 normal @a
 execute at @s[tag=alucard.ability,scores={duration.1=1..}] run particle minecraft:dust 0.3 0.6 0.3 1.5 ~ ~0.75 ~ 0.4 0.4 0.4 0.05 10 normal @a
-execute if entity @s[scores={duration.1=0}] run function ssbrc:series/castlevania/alucard/logic/abilities/mist/off
+execute if entity @s[scores={duration.1=1}] run function ssbrc:series/castlevania/alucard/logic/abilities/mist/off
 
 effect clear @s[scores={duration.1=1..}] minecraft:poison
