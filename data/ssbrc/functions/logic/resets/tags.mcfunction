@@ -30,6 +30,7 @@ tag @s remove favoritetry.shadow
 tag @s remove favoritetry.shovelknight
 tag @s remove favoritetry.snake
 tag @s remove favoritetry.sonic
+tag @s remove favoritetry.sora
 tag @s remove favoritetry.steve
 tag @s remove favoritetry.teamrocket
 
@@ -63,6 +64,7 @@ function ssbrc:series/sonic_the_hedgehog/shadow/menu/skins/reset
 function ssbrc:series/indie_fighters/shovelknight/menu/skins/reset
 function ssbrc:series/metal_gear_solid/snake/menu/skins/reset
 function ssbrc:series/sonic_the_hedgehog/sonic/menu/skins/reset
+function ssbrc:series/kingdom_hearts/sora/menu/skins/reset
 function ssbrc:series/indie_fighters/steve/menu/skins/reset
 function ssbrc:series/pokemon/teamrocket/menu/skins/reset
 
@@ -99,6 +101,7 @@ tag @s remove snake.s1000
 tag @s remove snake.selectingLoadout
 tag @s remove snake.sg
 tag @s remove snake.socom
+tag @s remove stalfosGet
 tag @s remove steve.hasBow
 tag @s remove steve.hasCrossbow
 tag @s remove team1
