@@ -10,7 +10,7 @@ execute if entity @s[team=team8] run summon minecraft:skeleton ~ ~ ~ {Tags:["set
 scoreboard players operation @e[tag=setId] id = @s id
 tag @e remove setId
 
-scoreboard players operation #max timer.stalfos > @e timer.stalfos
-execute as @e[tag=stalfosSpawn] if score #max timer.stalfos = @s timer.stalfos run kill @s
+kill @e[tag=stalfosSpawn,sort=nearest,limit=1]
+
 tag @s remove stalfosGet
 scoreboard players reset @s charge.1
