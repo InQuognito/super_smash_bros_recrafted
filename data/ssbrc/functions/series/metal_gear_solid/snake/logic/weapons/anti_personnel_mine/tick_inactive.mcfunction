@@ -5,3 +5,5 @@ tag @s[scores={snake.apm=80..}] add apm.active
 data modify entity @s[scores={snake.apm=80..}] Owner set from entity @p[tag=self] UUID
 tag @s[scores={snake.apm=80..}] remove apm.inactive
 scoreboard players reset @s[scores={snake.apm=80..}] snake.apm
+
+execute if entity @e[type=!#ssbrc:undetectable,type=!minecraft:player,distance=..1] run kill @s

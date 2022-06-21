@@ -1,4 +1,4 @@
-scoreboard players add @s snake.apm 1
+execute unless entity @e[tag=apm.inactive,sort=nearest,limit=1,distance=..1] run scoreboard players add @s snake.apm 1
 
 execute if entity @s[scores={snake.apm=45..}] run summon minecraft:glow_item_frame ~ ~-0.5 ~ {Tags:["apm.inactive","projectile"],Facing:1b,Fixed:1b,Invisible:1b,Item:{id:"minecraft:gray_terracotta",Count:1b,tag:{CustomModelData:2}}}
 
