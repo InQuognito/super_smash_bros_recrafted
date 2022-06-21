@@ -1,4 +1,4 @@
-execute if score @s charge.1 < #darksamus.chargeBeamThreshold vars run scoreboard players add @s charge.1 1
+execute if score @s[predicate=ssbrc:flag/sneaking] charge.1 < #darksamus.chargeBeamThreshold vars run scoreboard players add @s charge.1 1
 
 scoreboard players operation $darksamus.chargeBeamPercent temp = @s charge.1
 scoreboard players operation $darksamus.chargeBeamPercent temp *= 100 integers

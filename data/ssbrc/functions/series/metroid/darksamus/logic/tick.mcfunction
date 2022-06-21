@@ -10,7 +10,7 @@ execute as @e[type=minecraft:item_frame,tag=phazonSpike] at @s if score @s id = 
 tag @s remove self
 
 # Charge Beam
-execute if entity @s[predicate=ssbrc:flag/sneaking,scores={charge.1=1..}] at @s anchored eyes run function ssbrc:series/metroid/darksamus/logic/charge_beam/charge
+execute if entity @s[scores={charge.1=1..}] at @s anchored eyes run function ssbrc:series/metroid/darksamus/logic/charge_beam/charge
 
 # Phazon Overload
 execute if score @s[nbt=!{Inventory:[{id:"minecraft:carrot_on_a_stick",Count:1b,tag:{phazonOverload:1}}]}] charge.2 matches 400.. run item replace entity @s hotbar.4 with minecraft:carrot_on_a_stick{phazonOverload:1,CustomModelData:162,Unbreakable:1,display:{Name:'[{"text":"Phazon Overload","italic":false,"color":"aqua","bold":true}]'},HideFlags:127} 1
