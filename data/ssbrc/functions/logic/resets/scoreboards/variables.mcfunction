@@ -1,5 +1,6 @@
 scoreboard players set #cloud.maxLimit vars 70
 
+scoreboard players set #hero.maxMana vars 20
 scoreboard players set #hero.manaGainedOnKill vars 6
 scoreboard players set #hero.manaGainedOnDeath vars 7
 scoreboard players set #hero.flameSlashManaCost vars 1
@@ -7,6 +8,12 @@ scoreboard players set #hero.bangManaCost vars 2
 scoreboard players set #hero.kaclangManaCost vars 3
 
 scoreboard players set #joker.finalGuardThreshold vars 4
+
+scoreboard players set #luigi.superJumpThreshold vars 30
+scoreboard players set #luigi.superJumpMovementFalloff vars 200
+
+scoreboard players set #mario.superJumpThreshold vars 40
+scoreboard players set #mario.superJumpMovementFalloff vars 200
 
 scoreboard players set #shadow.maxMeter vars 600
 
