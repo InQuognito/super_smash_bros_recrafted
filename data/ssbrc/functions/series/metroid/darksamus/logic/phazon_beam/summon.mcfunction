@@ -16,11 +16,13 @@ execute if score $darksamus.chargeBeamPercent temp matches 61..80 run summon min
 execute if score $darksamus.chargeBeamPercent temp matches 81..99 run summon minecraft:arrow ^ ^ ^1 {damage:6.0,Tags:["darksamus.phazonBeam","effect.poison","projectile"],NoGravity:1b}
 execute if score $darksamus.chargeBeamPercent temp matches 100.. run summon minecraft:arrow ^ ^ ^1 {damage:7.0,Tags:["darksamus.phazonBeam","effect.poison","projectile"],NoGravity:1b}
 
-scoreboard players operation @e[tag=projectile,limit=1] charge.1 = @s charge.1
+scoreboard players operation @e[tag=projectile,limit=1] charge.1 = $darksamus.chargeBeamPercent temp
 
 scoreboard players operation @e[tag=projectile,limit=1] id = @s id
 data modify entity @e[tag=projectile,limit=1] Owner set from entity @s UUID
 data modify entity @e[tag=projectile,limit=1] Motion set from entity @e[tag=direction,limit=1] Pos
+
+scoreboard players set @s charge.1 0
 
 tag @e[tag=projectile] remove projectile
 kill @e[tag=direction]
