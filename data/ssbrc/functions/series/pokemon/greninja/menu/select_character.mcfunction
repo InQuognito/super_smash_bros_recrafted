@@ -2,9 +2,9 @@ tag @s[tag=!gold,tag=!shiny] add default
 
 tellraw @s [{"text":"You have selected ","color":"white"},{"text":"Greninja","color":"blue"}]
 
-tellraw @s[tag=default] [{"text":"Skin: ","color":"yellow"},{"text":"Default","color":"blue"}]
-tellraw @s[tag=gold] [{"text":"Skin: ","color":"yellow"},{"text":"Gold","color":"gold"}]
-tellraw @s[tag=shiny] [{"text":"Skin: ","color":"yellow"},{"text":"Shiny","color":"dark_gray"}]
+tellraw @s[tag=default] [{"text":"Skin: ","color":"white"},{"text":"Default","color":"blue"}]
+tellraw @s[tag=gold] [{"text":"Skin: ","color":"white"},{"text":"Gold","color":"gold"}]
+tellraw @s[tag=shiny] [{"text":"Skin: ","color":"white"},{"text":"Shiny","color":"dark_gray"}]
 
 function ssbrc:logic/resets/tags/characters
 tag @s add greninja
