@@ -1,5 +1,7 @@
 scoreboard players set #cloud.maxLimit vars 70
 
+scoreboard players set #darksamus.chargeBeamThreshold vars 100
+
 scoreboard players set #hero.maxMana vars 20
 scoreboard players set #hero.manaGainedOnKill vars 6
 scoreboard players set #hero.manaGainedOnDeath vars 7
