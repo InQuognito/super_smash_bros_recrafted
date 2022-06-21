@@ -1,36 +1,40 @@
 execute if entity @s[tag=!hero.magicLost,scores={mana=..0}] unless score @s duration.2 matches 1.. run function ssbrc:series/dragon_quest/hero/logic/lose_magic
-execute if entity @s[scores={useAbility=1..,cooldown.1=..0},nbt={SelectedItem:{tag:{bang:1}}}] at @s anchored eyes if score @s mana >= #hero.bangManaCost vars run function ssbrc:series/dragon_quest/hero/logic/magic/bang/summon
+execute if entity @s[scores={useAbility=1..,cooldown.1=..0},nbt={SelectedItem:{tag:{bang:1}}}] if score @s mana >= #hero.bangManaCost vars at @s anchored eyes run function ssbrc:series/dragon_quest/hero/logic/magic/bang/summon
 execute if entity @s[scores={useAbility=1..},nbt={SelectedItem:{tag:{kaclang:1}}}] if score @s mana >= #hero.kaclangManaCost vars run function ssbrc:series/dragon_quest/hero/logic/magic/kaclang
-execute if entity @s[scores={useAbility=1..,mana=21..},nbt={SelectedItem:{tag:{magicBurst:1}}}] run function ssbrc:series/dragon_quest/hero/logic/magic/magic_burst_activate
+execute if score @s[scores={useAbility=1..},nbt={SelectedItem:{tag:{magicBurst:1}}}] mana >= #hero.maxMana vars run function ssbrc:series/dragon_quest/hero/logic/magic/magic_burst_activate
 
 # Mana
-title @s[tag=!hero.magicLost,scores={mana=..0}] actionbar [{"text":"Out of Mana: Warrior Switch","bold":true,"color":"red"}]
-title @s[tag=!hero.magicLost,scores={mana=1}] actionbar [{"text":"Mana: ","bold":true,"color":"white"},{"text":"\u25ae","color":"yellow"}]
-title @s[tag=!hero.magicLost,scores={mana=2}] actionbar [{"text":"Mana: ","bold":true,"color":"white"},{"text":"\u25ae\u25ae","color":"yellow"}]
-title @s[tag=!hero.magicLost,scores={mana=3}] actionbar [{"text":"Mana: ","bold":true,"color":"white"},{"text":"\u25ae\u25ae\u25ae","color":"yellow"}]
-title @s[tag=!hero.magicLost,scores={mana=4}] actionbar [{"text":"Mana: ","bold":true,"color":"white"},{"text":"\u25ae\u25ae\u25ae\u25ae","color":"yellow"}]
-title @s[tag=!hero.magicLost,scores={mana=5}] actionbar [{"text":"Mana: ","bold":true,"color":"white"},{"text":"\u25ae\u25ae\u25ae\u25ae\u25ae","color":"yellow"}]
-title @s[tag=!hero.magicLost,scores={mana=6}] actionbar [{"text":"Mana: ","bold":true,"color":"white"},{"text":"\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae","color":"yellow"}]
-title @s[tag=!hero.magicLost,scores={mana=7}] actionbar [{"text":"Mana: ","bold":true,"color":"white"},{"text":"\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae","color":"yellow"}]
-title @s[tag=!hero.magicLost,scores={mana=8}] actionbar [{"text":"Mana: ","bold":true,"color":"white"},{"text":"\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae","color":"yellow"}]
-title @s[tag=!hero.magicLost,scores={mana=9}] actionbar [{"text":"Mana: ","bold":true,"color":"white"},{"text":"\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae","color":"yellow"}]
-title @s[tag=!hero.magicLost,scores={mana=10}] actionbar [{"text":"Mana: ","bold":true,"color":"white"},{"text":"\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae","color":"yellow"}]
-title @s[tag=!hero.magicLost,scores={mana=11}] actionbar [{"text":"Mana: ","bold":true,"color":"white"},{"text":"\u25ae","color":"aqua"},{"text":"\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae","color":"yellow"}]
-title @s[tag=!hero.magicLost,scores={mana=12}] actionbar [{"text":"Mana: ","bold":true,"color":"white"},{"text":"\u25ae\u25ae","color":"aqua"},{"text":"\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae","color":"yellow"}]
-title @s[tag=!hero.magicLost,scores={mana=13}] actionbar [{"text":"Mana: ","bold":true,"color":"white"},{"text":"\u25ae\u25ae\u25ae","color":"aqua"},{"text":"\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae","color":"yellow"}]
-title @s[tag=!hero.magicLost,scores={mana=14}] actionbar [{"text":"Mana: ","bold":true,"color":"white"},{"text":"\u25ae\u25ae\u25ae\u25ae","color":"aqua"},{"text":"\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae","color":"yellow"}]
-title @s[tag=!hero.magicLost,scores={mana=15}] actionbar [{"text":"Mana: ","bold":true,"color":"white"},{"text":"\u25ae\u25ae\u25ae\u25ae\u25ae","color":"aqua"},{"text":"\u25ae\u25ae\u25ae\u25ae\u25ae","color":"yellow"}]
-title @s[tag=!hero.magicLost,scores={mana=16}] actionbar [{"text":"Mana: ","bold":true,"color":"white"},{"text":"\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae","color":"aqua"},{"text":"\u25ae\u25ae\u25ae\u25ae","color":"yellow"}]
-title @s[tag=!hero.magicLost,scores={mana=17}] actionbar [{"text":"Mana: ","bold":true,"color":"white"},{"text":"\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae","color":"aqua"},{"text":"\u25ae\u25ae\u25ae","color":"yellow"}]
-title @s[tag=!hero.magicLost,scores={mana=18}] actionbar [{"text":"Mana: ","bold":true,"color":"white"},{"text":"\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae","color":"aqua"},{"text":"\u25ae\u25ae","color":"yellow"}]
-title @s[tag=!hero.magicLost,scores={mana=19}] actionbar [{"text":"Mana: ","bold":true,"color":"white"},{"text":"\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae","color":"aqua"},{"text":"\u25ae","color":"yellow"}]
-title @s[tag=!hero.magicLost,scores={mana=20}] actionbar [{"text":"Mana: ","bold":true,"color":"white"},{"text":"\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae","color":"aqua"}]
-title @s[tag=!hero.magicLost,scores={mana=21..}] actionbar [{"text":"Mana: ","bold":true,"color":"white"},{"text":"OVERFLOW SWITCH","color":"light_purple"}]
+scoreboard players operation $hero.manaPercent temp = @s mana
+scoreboard players operation $hero.manaPercent temp *= 100 integers
+scoreboard players operation $hero.manaPercent temp /= #hero.maxMana vars
 
-scoreboard players set @s[tag=hero.magicLost,scores={mana=21..}] mana 20
+execute if score $hero.manaPercent temp matches 0 run title @s[tag=!hero.magicLost] actionbar [{"text":"Out of Mana: Warrior Switch","bold":true,"color":"red"}]
+execute if score $hero.manaPercent temp matches 1..10 run title @s[tag=!hero.magicLost] actionbar [{"text":"Mana: ","bold":true,"color":"white"},{"text":"\u25ae","color":"yellow"}]
+execute if score $hero.manaPercent temp matches 11..20 run title @s[tag=!hero.magicLost] actionbar [{"text":"Mana: ","bold":true,"color":"white"},{"text":"\u25ae\u25ae","color":"yellow"}]
+execute if score $hero.manaPercent temp matches 21..30 run title @s[tag=!hero.magicLost] actionbar [{"text":"Mana: ","bold":true,"color":"white"},{"text":"\u25ae\u25ae\u25ae","color":"yellow"}]
+execute if score $hero.manaPercent temp matches 31..40 run title @s[tag=!hero.magicLost] actionbar [{"text":"Mana: ","bold":true,"color":"white"},{"text":"\u25ae\u25ae\u25ae\u25ae","color":"yellow"}]
+execute if score $hero.manaPercent temp matches 41..50 run title @s[tag=!hero.magicLost] actionbar [{"text":"Mana: ","bold":true,"color":"white"},{"text":"\u25ae\u25ae\u25ae\u25ae\u25ae","color":"yellow"}]
+execute if score $hero.manaPercent temp matches 51..60 run title @s[tag=!hero.magicLost] actionbar [{"text":"Mana: ","bold":true,"color":"white"},{"text":"\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae","color":"yellow"}]
+execute if score $hero.manaPercent temp matches 61..70 run title @s[tag=!hero.magicLost] actionbar [{"text":"Mana: ","bold":true,"color":"white"},{"text":"\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae","color":"yellow"}]
+execute if score $hero.manaPercent temp matches 71..80 run title @s[tag=!hero.magicLost] actionbar [{"text":"Mana: ","bold":true,"color":"white"},{"text":"\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae","color":"yellow"}]
+execute if score $hero.manaPercent temp matches 81..90 run title @s[tag=!hero.magicLost] actionbar [{"text":"Mana: ","bold":true,"color":"white"},{"text":"\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae","color":"yellow"}]
+execute if score $hero.manaPercent temp matches 91..100 run title @s[tag=!hero.magicLost] actionbar [{"text":"Mana: ","bold":true,"color":"white"},{"text":"\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae","color":"yellow"}]
+execute if score $hero.manaPercent temp matches 101..110 run title @s[tag=!hero.magicLost] actionbar [{"text":"Mana: ","bold":true,"color":"white"},{"text":"\u25ae","color":"aqua"},{"text":"\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae","color":"yellow"}]
+execute if score $hero.manaPercent temp matches 111..120 run title @s[tag=!hero.magicLost] actionbar [{"text":"Mana: ","bold":true,"color":"white"},{"text":"\u25ae\u25ae","color":"aqua"},{"text":"\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae","color":"yellow"}]
+execute if score $hero.manaPercent temp matches 121..130 run title @s[tag=!hero.magicLost] actionbar [{"text":"Mana: ","bold":true,"color":"white"},{"text":"\u25ae\u25ae\u25ae","color":"aqua"},{"text":"\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae","color":"yellow"}]
+execute if score $hero.manaPercent temp matches 131..140 run title @s[tag=!hero.magicLost] actionbar [{"text":"Mana: ","bold":true,"color":"white"},{"text":"\u25ae\u25ae\u25ae\u25ae","color":"aqua"},{"text":"\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae","color":"yellow"}]
+execute if score $hero.manaPercent temp matches 141..150 run title @s[tag=!hero.magicLost] actionbar [{"text":"Mana: ","bold":true,"color":"white"},{"text":"\u25ae\u25ae\u25ae\u25ae\u25ae","color":"aqua"},{"text":"\u25ae\u25ae\u25ae\u25ae\u25ae","color":"yellow"}]
+execute if score $hero.manaPercent temp matches 151..160 run title @s[tag=!hero.magicLost] actionbar [{"text":"Mana: ","bold":true,"color":"white"},{"text":"\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae","color":"aqua"},{"text":"\u25ae\u25ae\u25ae\u25ae","color":"yellow"}]
+execute if score $hero.manaPercent temp matches 161..170 run title @s[tag=!hero.magicLost] actionbar [{"text":"Mana: ","bold":true,"color":"white"},{"text":"\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae","color":"aqua"},{"text":"\u25ae\u25ae\u25ae","color":"yellow"}]
+execute if score $hero.manaPercent temp matches 171..180 run title @s[tag=!hero.magicLost] actionbar [{"text":"Mana: ","bold":true,"color":"white"},{"text":"\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae","color":"aqua"},{"text":"\u25ae\u25ae","color":"yellow"}]
+execute if score $hero.manaPercent temp matches 181..190 run title @s[tag=!hero.magicLost] actionbar [{"text":"Mana: ","bold":true,"color":"white"},{"text":"\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae","color":"aqua"},{"text":"\u25ae","color":"yellow"}]
+execute if score $hero.manaPercent temp matches 191..199 run title @s[tag=!hero.magicLost] actionbar [{"text":"Mana: ","bold":true,"color":"white"},{"text":"\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae","color":"aqua"}]
+execute if score @s[tag=!hero.magicLost] mana >= #hero.maxMana vars run title @s actionbar [{"text":"Mana: ","bold":true,"color":"white"},{"text":"OVERFLOW SWITCH","color":"light_purple"}]
 
-item replace entity @s[tag=!hero.magicLost,scores={mana=21..}] hotbar.4 with minecraft:carrot_on_a_stick{magicBurst:1,CustomModelData:443,Unbreakable:1,display:{Name:'[{"text":"Magic Burst","italic":false,"color":"light_purple","bold":true}]'},HideFlags:127} 1
-clear @s[scores={mana=..20}] minecraft:carrot_on_a_stick{magicBurst:1}
+execute if score @s[tag=hero.magicLost] mana > #hero.maxMana vars run scoreboard players operation @s mana = #hero.maxMana vars
+
+execute if score @s[tag=!hero.magicLost] mana >= #hero.maxMana vars run item replace entity @s hotbar.4 with minecraft:carrot_on_a_stick{magicBurst:1,CustomModelData:443,Unbreakable:1,display:{Name:'[{"text":"Magic Burst","italic":false,"color":"light_purple","bold":true}]'},HideFlags:127} 1
+execute if score @s mana < #hero.maxMana vars run clear @s minecraft:carrot_on_a_stick{magicBurst:1}
 
 # Bang
 tag @s add self
