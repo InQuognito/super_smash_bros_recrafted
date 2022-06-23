@@ -41,6 +41,7 @@ execute as @a[tag=!joker,predicate=!ssbrc:flag/sneaking,scores={selectFavorite=1
 execute as @a[tag=!kingkrool,predicate=!ssbrc:flag/sneaking,scores={selectFavorite=1..,favorite.temp=680}] run function ssbrc:series/donkey_kong/kingkrool/menu/select_character
 execute as @a[tag=!kirby,predicate=!ssbrc:flag/sneaking,scores={selectFavorite=1..,favorite.temp=700}] run function ssbrc:series/kirby/kirby/menu/select_character
 execute as @a[tag=!link,predicate=!ssbrc:flag/sneaking,scores={selectFavorite=1..,favorite.temp=720}] run function ssbrc:series/the_legend_of_zelda/link/menu/select_character
+execute as @a[tag=!luigi,predicate=!ssbrc:flag/sneaking,scores={selectFavorite=1..,favorite.temp=820}] run function ssbrc:series/super_mario_bros/luigi/menu/select_character
 execute as @a[tag=!mario,predicate=!ssbrc:flag/sneaking,scores={selectFavorite=1..,favorite.temp=840}] run function ssbrc:series/super_mario_bros/mario/menu/select_character
 execute as @a[tag=!megaman,predicate=!ssbrc:flag/sneaking,scores={selectFavorite=1..,favorite.temp=880}] run function ssbrc:series/mega_man/megaman/menu/select_character
 execute as @a[tag=!ness,predicate=!ssbrc:flag/sneaking,scores={selectFavorite=1..,favorite.temp=1080}] run function ssbrc:series/earthbound/ness/menu/select_character
@@ -74,6 +75,7 @@ execute as @a[predicate=ssbrc:flag/sneaking,scores={selectFavorite=1..,favorite.
 execute as @a[predicate=ssbrc:flag/sneaking,scores={selectFavorite=1..,favorite.temp=680}] run function ssbrc:series/donkey_kong/kingkrool/menu/prompt
 execute as @a[predicate=ssbrc:flag/sneaking,scores={selectFavorite=1..,favorite.temp=700}] run function ssbrc:series/kirby/kirby/menu/prompt
 execute as @a[predicate=ssbrc:flag/sneaking,scores={selectFavorite=1..,favorite.temp=720}] run function ssbrc:series/the_legend_of_zelda/link/menu/prompt
+execute as @a[predicate=ssbrc:flag/sneaking,scores={selectFavorite=1..,favorite.temp=820}] run function ssbrc:series/super_mario_bros/luigi/menu/prompt
 execute as @a[predicate=ssbrc:flag/sneaking,scores={selectFavorite=1..,favorite.temp=840}] run function ssbrc:series/super_mario_bros/mario/menu/prompt
 execute as @a[predicate=ssbrc:flag/sneaking,scores={selectFavorite=1..,favorite.temp=880}] run function ssbrc:series/mega_man/megaman/menu/prompt
 execute as @a[predicate=ssbrc:flag/sneaking,scores={selectFavorite=1..,favorite.temp=1080}] run function ssbrc:series/earthbound/ness/menu/prompt
