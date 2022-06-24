@@ -31,6 +31,9 @@ summon minecraft:glow_item_frame -3.5 5.0 17.5 {Fixed:1b,Invisible:1b,Facing:5b,
 # Flat Zone
 summon minecraft:area_effect_cloud -0.5 5.0 28.5 {Age:-2147483648,Duration:-1,WaitTime:-2147483648,Tags:["voteCounter","flatZone"],CustomNameVisible:1b}
 summon minecraft:glow_item_frame -0.5 5.0 28.5 {Fixed:1b,Invisible:1b,Facing:2b,Item:{id:"minecraft:sugar",tag:{CustomModelData:450},Count:1b}}
+# Frozen Hijinx
+summon minecraft:area_effect_cloud 5.5 11.0 28.5 {Age:-2147483648,Duration:-1,WaitTime:-2147483648,Tags:["voteCounter","frozenHijinx"],CustomNameVisible:1b}
+summon minecraft:glow_item_frame 5.5 11.0 28.5 {Fixed:1b,Invisible:1b,Facing:2b,Item:{id:"minecraft:sugar",tag:{CustomModelData:500},Count:1b}}
 # Garden of Hope
 summon minecraft:area_effect_cloud 10.5 11.0 23.5 {Age:-2147483648,Duration:-1,WaitTime:-2147483648,Tags:["voteCounter","gardenOfHope"],CustomNameVisible:1b}
 summon minecraft:glow_item_frame 10.5 11.0 23.5 {Fixed:1b,Invisible:1b,Facing:4b,Item:{id:"minecraft:sugar",tag:{CustomModelData:600},Count:1b}}

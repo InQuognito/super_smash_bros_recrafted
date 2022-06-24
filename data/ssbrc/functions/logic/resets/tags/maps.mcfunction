@@ -7,6 +7,7 @@ tag @s remove draculasCastle
 tag @s remove dreamLand
 tag @s remove finalDestination
 tag @s remove flatZone
+tag @s remove frozenHijinx
 tag @s remove gardenOfHope
 tag @s remove greatBay
 tag @s remove greatPlateau

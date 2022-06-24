@@ -9,6 +9,7 @@ execute if entity @s[tag=draculasCastle] run scoreboard players remove @e[tag=vo
 execute if entity @s[tag=dreamLand] run scoreboard players remove @e[tag=voteCounter,tag=dreamLand] mapVote 1
 execute if entity @s[tag=finalDestination] run scoreboard players remove @e[tag=voteCounter,tag=finalDestination] mapVote 1
 execute if entity @s[tag=flatZone] run scoreboard players remove @e[tag=voteCounter,tag=flatZone] mapVote 1
+execute if entity @s[tag=frozenHijinx] run scoreboard players remove @e[tag=voteCounter,tag=frozenHijinx] mapVote 1
 execute if entity @s[tag=gardenOfHope] run scoreboard players remove @e[tag=voteCounter,tag=gardenOfHope] mapVote 1
 execute if entity @s[tag=greatBay] run scoreboard players remove @e[tag=voteCounter,tag=greatBay] mapVote 1
 execute if entity @s[tag=greatPlateau] run scoreboard players remove @e[tag=voteCounter,tag=greatPlateau] mapVote 1
