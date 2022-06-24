@@ -87,6 +87,11 @@ tag @s remove byleth.blueLions
 tag @s remove byleth.goldenDeer
 tag @s remove byleth.selectingLoadout
 tag @s remove byleth.weaponBroken
+tag @s remove damage.fireball
+tag @s remove damage.fireBreath
+tag @s remove damage.iceBall
+tag @s remove damage.pkBeam
+tag @s remove damage.pkFreeze
 tag @s remove hero.magicLost
 tag @s remove idSet
 tag @s remove naturalShiny
