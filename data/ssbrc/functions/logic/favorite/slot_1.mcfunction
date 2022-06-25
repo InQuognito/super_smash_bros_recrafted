@@ -1,7 +1,6 @@
 execute if entity @s[tag=favoritetry.bowser] run scoreboard players set @s favorite.slot1 60
 execute if entity @s[tag=favoritetry.byleth] run scoreboard players set @s favorite.slot1 100
 execute if entity @s[tag=favoritetry.captainfalcon] run scoreboard players set @s favorite.slot1 120
-execute if entity @s[tag=favoritetry.charizard] run scoreboard players set @s favorite.slot1 140
 execute if entity @s[tag=favoritetry.cloud] run scoreboard players set @s favorite.slot1 180
 execute if entity @s[tag=favoritetry.darksamus] run scoreboard players set @s favorite.slot1 260
 execute if entity @s[tag=favoritetry.donkeykong] run scoreboard players set @s favorite.slot1 300
@@ -18,6 +17,7 @@ execute if entity @s[tag=favoritetry.mario] run scoreboard players set @s favori
 execute if entity @s[tag=favoritetry.megaman] run scoreboard players set @s favorite.slot1 880
 execute if entity @s[tag=favoritetry.ness] run scoreboard players set @s favorite.slot1 1080
 execute if entity @s[tag=favoritetry.pit] run scoreboard players set @s favorite.slot1 1220
+execute if entity @s[tag=favoritetry.pokemontrainer] run scoreboard players set @s favorite.slot1 1260
 execute if entity @s[tag=favoritetry.ryu] run scoreboard players set @s favorite.slot1 1400
 execute if entity @s[tag=favoritetry.samus] run scoreboard players set @s favorite.slot1 1420
 execute if entity @s[tag=favoritetry.snake] run scoreboard players set @s favorite.slot1 1520

@@ -17,11 +17,6 @@ execute if score @s[tag=room.characterSelect,tag=!captainfalcon] menu matches 12
 execute if score @s[tag=room.characterSelect,tag=!captainfalcon] menu matches 122 run function ssbrc:series/f_zero/captainfalcon/menu/favorite
 execute if score @s[tag=room.characterSelect,tag=!captainfalcon] menu matches 123 run function ssbrc:series/f_zero/captainfalcon/menu/how_to_play
 
-execute if score @s[tag=room.characterSelect,tag=!charizard] menu matches 140 run function ssbrc:series/pokemon/charizard/menu/select_character
-execute if score @s[tag=room.characterSelect,tag=!charizard] menu matches 141 run function ssbrc:series/pokemon/charizard/menu/skin_options
-execute if score @s[tag=room.characterSelect,tag=!charizard] menu matches 142 run function ssbrc:series/pokemon/charizard/menu/favorite
-execute if score @s[tag=room.characterSelect,tag=!charizard] menu matches 143 run function ssbrc:series/pokemon/charizard/menu/how_to_play
-
 execute if score @s[tag=room.characterSelect,tag=!cloud] menu matches 180 run function ssbrc:series/final_fantasy/cloud/menu/select_character
 execute if score @s[tag=room.characterSelect,tag=!cloud] menu matches 181 run function ssbrc:series/final_fantasy/cloud/menu/skin_options
 execute if score @s[tag=room.characterSelect,tag=!cloud] menu matches 182 run function ssbrc:series/final_fantasy/cloud/menu/favorite
@@ -101,6 +96,11 @@ execute if score @s[tag=room.characterSelect,tag=!pit] menu matches 1220 run fun
 execute if score @s[tag=room.characterSelect,tag=!pit] menu matches 1221 run function ssbrc:series/kid_icarus/pit/menu/skin_options
 execute if score @s[tag=room.characterSelect,tag=!pit] menu matches 1222 run function ssbrc:series/kid_icarus/pit/menu/favorite
 execute if score @s[tag=room.characterSelect,tag=!pit] menu matches 1223 run function ssbrc:series/kid_icarus/pit/menu/how_to_play
+
+execute if score @s[tag=room.characterSelect,tag=!pokemontrainer] menu matches 1260 run function ssbrc:series/pokemon/pokemontrainer/menu/select_character
+execute if score @s[tag=room.characterSelect,tag=!pokemontrainer] menu matches 1261 run function ssbrc:series/pokemon/pokemontrainer/menu/skin_options
+execute if score @s[tag=room.characterSelect,tag=!pokemontrainer] menu matches 1262 run function ssbrc:series/pokemon/pokemontrainer/menu/favorite
+execute if score @s[tag=room.characterSelect,tag=!pokemontrainer] menu matches 1263 run function ssbrc:series/pokemon/pokemontrainer/menu/how_to_play
 
 execute if score @s[tag=room.characterSelect,tag=!ryu] menu matches 1400 run function ssbrc:series/street_fighter/ryu/menu/select_character
 execute if score @s[tag=room.characterSelect,tag=!ryu] menu matches 1401 run function ssbrc:series/street_fighter/ryu/menu/skin_options
