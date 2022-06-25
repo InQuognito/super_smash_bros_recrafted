@@ -29,7 +29,6 @@ execute as @a[nbt={SelectedItem:{tag:{slot:3}}}] store result score @s favorite.
 execute as @a[tag=!bowser,predicate=!ssbrc:flag/sneaking,scores={selectFavorite=1..,favorite.temp=60}] run function ssbrc:series/super_mario_bros/bowser/menu/select_character
 execute as @a[tag=!byleth,predicate=!ssbrc:flag/sneaking,scores={selectFavorite=1..,favorite.temp=100}] run function ssbrc:series/fire_emblem/byleth/menu/loadout/prompt
 execute as @a[tag=!captainfalcon,predicate=!ssbrc:flag/sneaking,scores={selectFavorite=1..,favorite.temp=120}] run function ssbrc:series/f_zero/captainfalcon/menu/select_character
-execute as @a[tag=!charizard,predicate=!ssbrc:flag/sneaking,scores={selectFavorite=1..,favorite.temp=140}] run function ssbrc:series/pokemon/charizard/menu/select_character
 execute as @a[tag=!cloud,predicate=!ssbrc:flag/sneaking,scores={selectFavorite=1..,favorite.temp=180}] run function ssbrc:series/final_fantasy/cloud/menu/select_character
 execute as @a[tag=!darksamus,predicate=!ssbrc:flag/sneaking,scores={selectFavorite=1..,favorite.temp=260}] run function ssbrc:series/metroid/darksamus/menu/select_character
 execute as @a[tag=!donkeykong,predicate=!ssbrc:flag/sneaking,scores={selectFavorite=1..,favorite.temp=300}] run function ssbrc:series/donkey_kong/donkeykong/menu/select_character
@@ -46,6 +45,7 @@ execute as @a[tag=!mario,predicate=!ssbrc:flag/sneaking,scores={selectFavorite=1
 execute as @a[tag=!megaman,predicate=!ssbrc:flag/sneaking,scores={selectFavorite=1..,favorite.temp=880}] run function ssbrc:series/mega_man/megaman/menu/select_character
 execute as @a[tag=!ness,predicate=!ssbrc:flag/sneaking,scores={selectFavorite=1..,favorite.temp=1080}] run function ssbrc:series/earthbound/ness/menu/select_character
 execute as @a[tag=!pit,predicate=!ssbrc:flag/sneaking,scores={selectFavorite=1..,favorite.temp=1220}] run function ssbrc:series/kid_icarus/pit/menu/select_character
+execute as @a[tag=!pokemontrainer,predicate=!ssbrc:flag/sneaking,scores={selectFavorite=1..,favorite.temp=1260}] run function ssbrc:series/pokemon/pokemontrainer/menu/select_character
 execute as @a[tag=!ryu,predicate=!ssbrc:flag/sneaking,scores={selectFavorite=1..,favorite.temp=1400}] run function ssbrc:series/street_fighter/ryu/menu/select_character
 execute as @a[tag=!samus,predicate=!ssbrc:flag/sneaking,scores={selectFavorite=1..,favorite.temp=1420}] run function ssbrc:series/metroid/samus/menu/select_character
 execute as @a[tag=!snake,predicate=!ssbrc:flag/sneaking,scores={selectFavorite=1..,favorite.temp=1520}] run function ssbrc:series/metal_gear_solid/snake/menu/loadout/prompt
@@ -63,7 +63,6 @@ execute as @a[tag=!teamrocket,predicate=!ssbrc:flag/sneaking,scores={selectFavor
 execute as @a[predicate=ssbrc:flag/sneaking,scores={selectFavorite=1..,favorite.temp=60}] run function ssbrc:series/super_mario_bros/bowser/menu/prompt
 execute as @a[predicate=ssbrc:flag/sneaking,scores={selectFavorite=1..,favorite.temp=100}] run function ssbrc:series/fire_emblem/byleth/menu/prompt
 execute as @a[predicate=ssbrc:flag/sneaking,scores={selectFavorite=1..,favorite.temp=120}] run function ssbrc:series/f_zero/captainfalcon/menu/prompt
-execute as @a[predicate=ssbrc:flag/sneaking,scores={selectFavorite=1..,favorite.temp=140}] run function ssbrc:series/pokemon/charizard/menu/prompt
 execute as @a[predicate=ssbrc:flag/sneaking,scores={selectFavorite=1..,favorite.temp=180}] run function ssbrc:series/final_fantasy/cloud/menu/prompt
 execute as @a[predicate=ssbrc:flag/sneaking,scores={selectFavorite=1..,favorite.temp=260}] run function ssbrc:series/metroid/darksamus/menu/prompt
 execute as @a[predicate=ssbrc:flag/sneaking,scores={selectFavorite=1..,favorite.temp=300}] run function ssbrc:series/donkey_kong/donkeykong/menu/prompt
@@ -80,6 +79,7 @@ execute as @a[predicate=ssbrc:flag/sneaking,scores={selectFavorite=1..,favorite.
 execute as @a[predicate=ssbrc:flag/sneaking,scores={selectFavorite=1..,favorite.temp=880}] run function ssbrc:series/mega_man/megaman/menu/prompt
 execute as @a[predicate=ssbrc:flag/sneaking,scores={selectFavorite=1..,favorite.temp=1080}] run function ssbrc:series/earthbound/ness/menu/prompt
 execute as @a[predicate=ssbrc:flag/sneaking,scores={selectFavorite=1..,favorite.temp=1220}] run function ssbrc:series/kid_icarus/pit/menu/prompt
+execute as @a[predicate=ssbrc:flag/sneaking,scores={selectFavorite=1..,favorite.temp=1260}] run function ssbrc:series/pokemon/pokemontrainer/menu/prompt
 execute as @a[predicate=ssbrc:flag/sneaking,scores={selectFavorite=1..,favorite.temp=1400}] run function ssbrc:series/street_fighter/ryu/menu/prompt
 execute as @a[predicate=ssbrc:flag/sneaking,scores={selectFavorite=1..,favorite.temp=1420}] run function ssbrc:series/metroid/samus/menu/prompt
 execute as @a[predicate=ssbrc:flag/sneaking,scores={selectFavorite=1..,favorite.temp=1520}] run function ssbrc:series/metal_gear_solid/snake/menu/prompt
