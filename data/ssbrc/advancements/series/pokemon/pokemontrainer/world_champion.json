@@ -58,13 +58,13 @@
 		"show_toast": true,
 		"announce_to_chat": true
 	},
-	"parent": "ssbrc:series/pokemon/charizard/rival_battle",
+	"parent": "ssbrc:series/pokemon/pokemontrainer/rival_battle",
 	"criteria": {
 		"impossible": {
 			"trigger": "minecraft:impossible"
 		}
 	},
 	"rewards": {
-		"function": "ssbrc:advancements/charizard/world_champion"
+		"function": "ssbrc:advancements/pokemontrainer/world_champion"
 	}
 }

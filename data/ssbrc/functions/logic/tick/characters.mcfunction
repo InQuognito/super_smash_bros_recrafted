@@ -11,6 +11,7 @@ execute if entity @s[tag=link] run function ssbrc:series/the_legend_of_zelda/lin
 execute if entity @s[tag=luigi] run function ssbrc:series/super_mario_bros/luigi/logic/tick
 execute if entity @s[tag=mario] run function ssbrc:series/super_mario_bros/mario/logic/tick
 execute if entity @s[tag=pit] run function ssbrc:series/kid_icarus/pit/logic/tick
+execute if entity @s[tag=pokemontrainer] run function ssbrc:series/pokemon/pokemontrainer/logic/tick
 execute if entity @s[tag=ryu] run function ssbrc:series/street_fighter/ryu/logic/tick
 execute if entity @s[tag=samus] run function ssbrc:series/metroid/samus/logic/tick
 execute if entity @s[tag=snake] run function ssbrc:series/metal_gear_solid/snake/logic/tick

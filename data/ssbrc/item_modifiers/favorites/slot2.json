@@ -109,38 +109,6 @@
 		"function": "minecraft:set_name",
 		"entity": "this",
 		"name": {
-			"text": "Charizard",
-			"color": "gold",
-			"bold": true,
-			"italic": false
-		},
-		"conditions": [
-			{
-				"condition": "minecraft:entity_scores",
-				"entity": "this",
-				"scores": {
-					"favorite.slot2": 140
-				}
-			}
-		]
-	},
-	{
-		"function": "minecraft:set_nbt",
-		"tag": "{CustomModelData:140}",
-		"conditions": [
-			{
-				"condition": "minecraft:entity_scores",
-				"entity": "this",
-				"scores": {
-					"favorite.slot2": 140
-				}
-			}
-		]
-	},
-	{
-		"function": "minecraft:set_name",
-		"entity": "this",
-		"name": {
 			"text": "Cloud",
 			"color": "white",
 			"bold": true,
@@ -645,6 +613,38 @@
 				"entity": "this",
 				"scores": {
 					"favorite.slot2": 1220
+				}
+			}
+		]
+	},
+	{
+		"function": "minecraft:set_name",
+		"entity": "this",
+		"name": {
+			"text": "Pokémon Trainer",
+			"color": "red",
+			"bold": true,
+			"italic": false
+		},
+		"conditions": [
+			{
+				"condition": "minecraft:entity_scores",
+				"entity": "this",
+				"scores": {
+					"favorite.slot2": 1260
+				}
+			}
+		]
+	},
+	{
+		"function": "minecraft:set_nbt",
+		"tag": "{CustomModelData:1260}",
+		"conditions": [
+			{
+				"condition": "minecraft:entity_scores",
+				"entity": "this",
+				"scores": {
+					"favorite.slot2": 1260
 				}
 			}
 		]

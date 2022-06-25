@@ -5,25 +5,25 @@
 			"nbt": "{CustomModelData:140}"
 		},
 		"title": {
-			"text": "Veteran",
-			"color": "yellow",
+			"text": "The Best of the Worst",
+			"color": "light_purple",
 			"bold": false,
 			"italic": false
 		},
 		"description": {
-			"text": "Play ",
+			"text": "Won a match with a ",
 			"color": "gray",
 			"bold": false,
 			"italic": false,
 			"extra": [
 				{
-					"text": "10",
+					"text": "hardy",
 					"color": "blue",
 					"bold": false,
 					"italic": false
 				},
 				{
-					"text": " games.",
+					"text": " nature.",
 					"color": "gray",
 					"bold": false,
 					"italic": false
@@ -34,13 +34,13 @@
 		"show_toast": true,
 		"announce_to_chat": true
 	},
-	"parent": "ssbrc:series/pokemon/charizard/novice",
+	"parent": "ssbrc:series/pokemon/pokemontrainer/novice",
 	"criteria": {
 		"impossible": {
 			"trigger": "minecraft:impossible"
 		}
 	},
 	"rewards": {
-		"function": "ssbrc:advancements/charizard/veteran"
+		"function": "ssbrc:advancements/pokemontrainer/the_best_of_the_worst"
 	}
 }

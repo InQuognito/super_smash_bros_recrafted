@@ -1,7 +1,6 @@
 execute if entity @s[tag=bowser] run function ssbrc:series/super_mario_bros/bowser/kit
 execute if entity @s[tag=byleth] run function ssbrc:series/fire_emblem/byleth/kit
 execute if entity @s[tag=captainfalcon] run function ssbrc:series/f_zero/captainfalcon/kit
-execute if entity @s[tag=charizard] run function ssbrc:series/pokemon/charizard/kit
 execute if entity @s[tag=cloud] run function ssbrc:series/final_fantasy/cloud/kit
 execute if entity @s[tag=darksamus] run function ssbrc:series/metroid/darksamus/kit
 execute if entity @s[tag=donkeykong] run function ssbrc:series/donkey_kong/donkeykong/kit
@@ -18,6 +17,7 @@ execute if entity @s[tag=mario] run function ssbrc:series/super_mario_bros/mario
 execute if entity @s[tag=megaman] run function ssbrc:series/mega_man/megaman/kit
 execute if entity @s[tag=ness] run function ssbrc:series/earthbound/ness/kit
 execute if entity @s[tag=pit] run function ssbrc:series/kid_icarus/pit/kit
+execute if entity @s[tag=pokemontrainer] run function ssbrc:series/pokemon/pokemontrainer/kit
 execute if entity @s[tag=ryu] run function ssbrc:series/street_fighter/ryu/kit
 execute if entity @s[tag=samus] run function ssbrc:series/metroid/samus/kit
 execute if entity @s[tag=snake] run function ssbrc:series/metal_gear_solid/snake/kit

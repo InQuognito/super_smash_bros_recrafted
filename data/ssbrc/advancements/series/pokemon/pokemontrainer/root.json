@@ -95,6 +95,6 @@
 		]
 	],
 	"rewards": {
-		"function": "ssbrc:advancements/charizard/mastery"
+		"function": "ssbrc:advancements/pokemontrainer/mastery"
 	}
 }

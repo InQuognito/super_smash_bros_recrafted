@@ -5,25 +5,25 @@
 			"nbt": "{CustomModelData:140}"
 		},
 		"title": {
-			"text": "Novice",
-			"color": "yellow",
+			"text": "Rival Battle",
+			"color": "light_purple",
 			"bold": false,
 			"italic": false
 		},
 		"description": {
-			"text": "Win ",
+			"text": "Your rival has challenged you! Defeat ",
 			"color": "gray",
 			"bold": false,
 			"italic": false,
 			"extra": [
 				{
-					"text": "1",
+					"text": "Greninja",
 					"color": "blue",
 					"bold": false,
 					"italic": false
 				},
 				{
-					"text": " game.",
+					"text": "!",
 					"color": "gray",
 					"bold": false,
 					"italic": false
@@ -34,13 +34,13 @@
 		"show_toast": true,
 		"announce_to_chat": true
 	},
-	"parent": "ssbrc:series/pokemon/charizard/root",
+	"parent": "ssbrc:series/pokemon/pokemontrainer/veteran",
 	"criteria": {
 		"impossible": {
 			"trigger": "minecraft:impossible"
 		}
 	},
 	"rewards": {
-		"function": "ssbrc:advancements/charizard/novice"
+		"function": "ssbrc:advancements/pokemontrainer/rival_battle"
 	}
 }

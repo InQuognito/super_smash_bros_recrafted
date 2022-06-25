@@ -20,13 +20,13 @@
 		"show_toast": true,
 		"announce_to_chat": true
 	},
-	"parent": "ssbrc:series/pokemon/charizard/world_champion",
+	"parent": "ssbrc:series/pokemon/pokemontrainer/world_champion",
 	"criteria": {
 		"impossible": {
 			"trigger": "minecraft:impossible"
 		}
 	},
 	"rewards": {
-		"function": "ssbrc:advancements/charizard/there_is_nothing_under_the_truck"
+		"function": "ssbrc:advancements/pokemontrainer/there_is_nothing_under_the_truck"
 	}
 }

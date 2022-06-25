@@ -2,35 +2,29 @@
 	"display": {
 		"icon": {
 			"item": "minecraft:barrier",
-			"nbt": "{CustomModelData:142}"
+			"nbt": "{CustomModelData:140}"
 		},
 		"title": {
-			"text": "A Fateful Encounter",
-			"color": "dark_red",
+			"text": "Slayer",
+			"color": "yellow",
 			"bold": false,
 			"italic": false
 		},
 		"description": {
-			"text": "Catch a ",
+			"text": "Get ",
 			"color": "gray",
 			"bold": false,
 			"italic": false,
 			"extra": [
 				{
-					"text": "shiny",
+					"text": "15",
 					"color": "blue",
 					"bold": false,
 					"italic": false
 				},
 				{
-					"text": " Charizard.",
+					"text": " kills.",
 					"color": "gray",
-					"bold": false,
-					"italic": false
-				},
-				{
-					"text": "Unlocks Charizard Skin: Shiny",
-					"color": "green",
 					"bold": false,
 					"italic": false
 				}
@@ -40,13 +34,13 @@
 		"show_toast": true,
 		"announce_to_chat": true
 	},
-	"parent": "ssbrc:series/pokemon/charizard/root",
+	"parent": "ssbrc:series/pokemon/pokemontrainer/veteran",
 	"criteria": {
 		"impossible": {
 			"trigger": "minecraft:impossible"
 		}
 	},
 	"rewards": {
-		"function": "ssbrc:advancements/charizard/a_shiny_encounter"
+		"function": "ssbrc:advancements/pokemontrainer/slayer"
 	}
 }

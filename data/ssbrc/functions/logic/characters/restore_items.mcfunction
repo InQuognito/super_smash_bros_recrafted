@@ -11,13 +11,6 @@ item replace entity @s[tag=captainfalcon] hotbar.2 with minecraft:golden_sword{D
 clear @s[tag=captainfalcon] minecraft:spectral_arrow
 give @s[tag=captainfalcon] minecraft:spectral_arrow 5
 
-# Charizard
-clear @s[tag=charizard] minecraft:lingering_potion{CustomPotionColor:4666420,display:{Name:'[{"text":"Smokescreen","italic":false,"bold":true,"color":"dark_gray"}]'},HideFlags:127,CustomPotionEffects:[{Id:15b,Duration:240,Amplifier:0b,ShowParticles:0b,ShowIcon:0b}]} 2
-item replace entity @s[tag=charizard] hotbar.2 with minecraft:lingering_potion{CustomPotionColor:4666420,display:{Name:'[{"text":"Smokescreen","italic":false,"bold":true,"color":"dark_gray"}]'},HideFlags:127,CustomPotionEffects:[{Id:15b,Duration:240,Amplifier:0b,ShowParticles:0b,ShowIcon:0b}]} 1
-item replace entity @s[tag=charizard] hotbar.3 with minecraft:lingering_potion{CustomPotionColor:4666420,display:{Name:'[{"text":"Smokescreen","italic":false,"bold":true,"color":"dark_gray"}]'},HideFlags:127,CustomPotionEffects:[{Id:15b,Duration:240,Amplifier:0b,ShowParticles:0b,ShowIcon:0b}]} 1
-
-give @s[tag=charizard] minecraft:spectral_arrow 4
-
 # Cloud
 tag @s[tag=cloud] remove punisher
 tag @s[tag=cloud] add operator
@@ -73,6 +66,12 @@ item replace entity @s[tag=ness,scores={itemCount=1}] hotbar.3 with minecraft:sp
 
 # Pit
 item replace entity @s[tag=pit] armor.chest with minecraft:elytra{Damage:417,HideFlags:127} 1
+
+# Pokémon Trainer
+tag @s[tag=pokemontrainer] remove pokemontrainer.picked
+execute if entity @s[tag=pokemontrainer,tag=squirtle,tag=!pokemontrainer.picked] run function ssbrc:series/pokemon/pokemontrainer/kits/charizard
+execute if entity @s[tag=pokemontrainer,tag=charizard,tag=!pokemontrainer.picked] run function ssbrc:series/pokemon/pokemontrainer/kits/ivysaur
+execute if entity @s[tag=pokemontrainer,tag=ivysaur,tag=!pokemontrainer.picked] run function ssbrc:series/pokemon/pokemontrainer/kits/squirtle
 
 # Ryu
 execute if entity @s[tag=ryu] run function ssbrc:series/street_fighter/ryu/logic/off

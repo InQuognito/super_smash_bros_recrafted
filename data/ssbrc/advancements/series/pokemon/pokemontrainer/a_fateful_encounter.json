@@ -2,29 +2,35 @@
 	"display": {
 		"icon": {
 			"item": "minecraft:barrier",
-			"nbt": "{CustomModelData:140}"
+			"nbt": "{CustomModelData:142}"
 		},
 		"title": {
-			"text": "Survivalist",
-			"color": "yellow",
+			"text": "A Fateful Encounter",
+			"color": "dark_red",
 			"bold": false,
 			"italic": false
 		},
 		"description": {
-			"text": "Win with ",
+			"text": "Catch a ",
 			"color": "gray",
 			"bold": false,
 			"italic": false,
 			"extra": [
 				{
-					"text": "more than one",
+					"text": "shiny",
 					"color": "blue",
 					"bold": false,
 					"italic": false
 				},
 				{
-					"text": " stock left.",
+					"text": " Charizard.",
 					"color": "gray",
+					"bold": false,
+					"italic": false
+				},
+				{
+					"text": "Unlocks Charizard Skin: Shiny",
+					"color": "green",
 					"bold": false,
 					"italic": false
 				}
@@ -34,13 +40,13 @@
 		"show_toast": true,
 		"announce_to_chat": true
 	},
-	"parent": "ssbrc:series/pokemon/charizard/veteran",
+	"parent": "ssbrc:series/pokemon/pokemontrainer/root",
 	"criteria": {
 		"impossible": {
 			"trigger": "minecraft:impossible"
 		}
 	},
 	"rewards": {
-		"function": "ssbrc:advancements/charizard/survivalist"
+		"function": "ssbrc:advancements/pokemontrainer/a_shiny_encounter"
 	}
 }

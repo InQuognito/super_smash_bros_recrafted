@@ -46,13 +46,13 @@
 		"show_toast": true,
 		"announce_to_chat": true
 	},
-	"parent": "ssbrc:series/pokemon/charizard/survivalist",
+	"parent": "ssbrc:series/pokemon/pokemontrainer/survivalist",
 	"criteria": {
 		"impossible": {
 			"trigger": "minecraft:impossible"
 		}
 	},
 	"rewards": {
-		"function": "ssbrc:advancements/charizard/master"
+		"function": "ssbrc:advancements/pokemontrainer/master"
 	}
 }

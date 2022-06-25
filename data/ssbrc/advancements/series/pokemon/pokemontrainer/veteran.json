@@ -5,25 +5,25 @@
 			"nbt": "{CustomModelData:140}"
 		},
 		"title": {
-			"text": "Slayer",
+			"text": "Veteran",
 			"color": "yellow",
 			"bold": false,
 			"italic": false
 		},
 		"description": {
-			"text": "Get ",
+			"text": "Play ",
 			"color": "gray",
 			"bold": false,
 			"italic": false,
 			"extra": [
 				{
-					"text": "15",
+					"text": "10",
 					"color": "blue",
 					"bold": false,
 					"italic": false
 				},
 				{
-					"text": " kills.",
+					"text": " games.",
 					"color": "gray",
 					"bold": false,
 					"italic": false
@@ -34,13 +34,13 @@
 		"show_toast": true,
 		"announce_to_chat": true
 	},
-	"parent": "ssbrc:series/pokemon/charizard/veteran",
+	"parent": "ssbrc:series/pokemon/pokemontrainer/novice",
 	"criteria": {
 		"impossible": {
 			"trigger": "minecraft:impossible"
 		}
 	},
 	"rewards": {
-		"function": "ssbrc:advancements/charizard/slayer"
+		"function": "ssbrc:advancements/pokemontrainer/veteran"
 	}
 }

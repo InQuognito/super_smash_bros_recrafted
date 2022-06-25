@@ -5,25 +5,25 @@
 			"nbt": "{CustomModelData:140}"
 		},
 		"title": {
-			"text": "The Best of the Worst",
-			"color": "light_purple",
+			"text": "Survivalist",
+			"color": "yellow",
 			"bold": false,
 			"italic": false
 		},
 		"description": {
-			"text": "Won a match with a ",
+			"text": "Win with ",
 			"color": "gray",
 			"bold": false,
 			"italic": false,
 			"extra": [
 				{
-					"text": "hardy",
+					"text": "more than one",
 					"color": "blue",
 					"bold": false,
 					"italic": false
 				},
 				{
-					"text": " nature.",
+					"text": " stock left.",
 					"color": "gray",
 					"bold": false,
 					"italic": false
@@ -34,13 +34,13 @@
 		"show_toast": true,
 		"announce_to_chat": true
 	},
-	"parent": "ssbrc:series/pokemon/charizard/novice",
+	"parent": "ssbrc:series/pokemon/pokemontrainer/veteran",
 	"criteria": {
 		"impossible": {
 			"trigger": "minecraft:impossible"
 		}
 	},
 	"rewards": {
-		"function": "ssbrc:advancements/charizard/the_best_of_the_worst"
+		"function": "ssbrc:advancements/pokemontrainer/survivalist"
 	}
 }

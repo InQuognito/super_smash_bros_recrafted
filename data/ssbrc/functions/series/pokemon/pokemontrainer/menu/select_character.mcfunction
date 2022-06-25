@@ -1,13 +1,13 @@
 tag @s[tag=!gold,tag=!shiny] add default
 
-tellraw @s [{"text":"You have selected ","color":"white"},{"text":"Charizard","color":"gold"}]
+tellraw @s [{"text":"You have selected ","color":"white"},{"text":"Pokémon Trainer","color":"gold"}]
 
 tellraw @s[tag=default] [{"text":"Skin: ","color":"white"},{"text":"Default","color":"gold"}]
 tellraw @s[tag=gold] [{"text":"Skin: ","color":"white"},{"text":"Gold","color":"gold"}]
 tellraw @s[tag=shiny] [{"text":"Skin: ","color":"white"},{"text":"Shiny","color":"dark_gray"}]
 
 function ssbrc:logic/resets/tags/characters
-tag @s add charizard
+tag @s add pokemontrainer
 tag @s add characterPicked
 
 execute if score $teams options matches 0 run team leave @s
