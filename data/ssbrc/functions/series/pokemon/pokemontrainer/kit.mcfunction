@@ -1,8 +1,6 @@
 tag @s[predicate=ssbrc:shiny_chance] add naturalShiny
 advancement grant @s[tag=naturalShiny] only ssbrc:series/pokemon/pokemontrainer/a_fateful_encounter
 
-function ssbrc:logic/characters/natures/select
-
 scoreboard players set max random 3
 function ssbrc:math/rng/lcg
 
