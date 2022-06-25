@@ -1,5 +1,5 @@
 function ssbrc:series/pokemon/pokemontrainer/kits/reset
-tag @s add teamrocket.picked
+tag @s add pokemontrainer.picked
 
 tag @s add charizard
 

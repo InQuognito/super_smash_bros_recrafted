@@ -40,7 +40,6 @@ function ssbrc:series/castlevania/alucard/menu/skins/reset
 function ssbrc:series/super_mario_bros/bowser/menu/skins/reset
 function ssbrc:series/fire_emblem/byleth/menu/skins/reset
 function ssbrc:series/f_zero/captainfalcon/menu/skins/reset
-function ssbrc:series/pokemon/charizard/menu/skins/reset
 function ssbrc:series/final_fantasy/cloud/menu/skins/reset
 function ssbrc:series/metroid/darksamus/menu/skins/reset
 function ssbrc:series/donkey_kong/donkeykong/menu/skins/reset
@@ -58,6 +57,7 @@ function ssbrc:series/super_mario_bros/mario/menu/skins/reset
 function ssbrc:series/mega_man/megaman/menu/skins/reset
 function ssbrc:series/earthbound/ness/menu/skins/reset
 function ssbrc:series/kid_icarus/pit/menu/skins/reset
+function ssbrc:series/pokemon/pokemontrainer/menu/skins/reset
 function ssbrc:series/street_fighter/ryu/menu/skins/reset
 function ssbrc:series/metroid/samus/menu/skins/reset
 function ssbrc:series/sonic_the_hedgehog/shadow/menu/skins/reset
@@ -96,6 +96,7 @@ tag @s remove hero.magicLost
 tag @s remove idSet
 tag @s remove naturalShiny
 tag @s remove operator
+tag @s remove pokemontrainer.picked
 tag @s remove punisher
 tag @s remove room.characterSelect
 tag @s remove room.mapVoting
