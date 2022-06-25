@@ -7,8 +7,8 @@ summon minecraft:armor_stand 60.5 6.0 124.5 {Tags:["lobbyStand","byleth","defaul
 summon minecraft:area_effect_cloud 44.5 7.75 158.5 {CustomName:'{"text":"Captain Falcon","color":"red"}',CustomNameVisible:1b,Age:-2147483648,Duration:-1,WaitTime:-2147483648}
 summon minecraft:armor_stand 44.5 6.0 160.5 {Tags:["lobbyStand","captainfalcon","default"],Rotation:[180f,0f]}
 
-summon minecraft:area_effect_cloud 19.5 7.75 156.5 {CustomName:'{"text":"Charizard","color":"gold"}',CustomNameVisible:1b,Age:-2147483648,Duration:-1,WaitTime:-2147483648}
-summon minecraft:armor_stand 19.5 6.0 158.5 {Tags:["lobbyStand","charizard","default"],Rotation:[180f,0f]}
+summon minecraft:area_effect_cloud 19.5 7.75 156.5 {CustomName:'{"text":"Pokémon Trainer","color":"gold"}',CustomNameVisible:1b,Age:-2147483648,Duration:-1,WaitTime:-2147483648}
+summon minecraft:armor_stand 19.5 6.0 158.5 {Tags:["lobbyStand","pokemontrainer","default"],Rotation:[180f,0f]}
 
 summon minecraft:area_effect_cloud 66.5 7.75 156.5 {CustomName:'{"text":"Cloud","color":"white"}',CustomNameVisible:1b,Age:-2147483648,Duration:-1,WaitTime:-2147483648}
 summon minecraft:armor_stand 66.5 6.0 158.5 {Tags:["lobbyStand","cloud","default"],Rotation:[180f,0f]}
