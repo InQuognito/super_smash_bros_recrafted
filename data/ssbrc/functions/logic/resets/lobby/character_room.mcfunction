@@ -56,7 +56,10 @@ summon minecraft:area_effect_cloud 51.5 7.75 148.5 {CustomName:'{"text":"Pit","c
 summon minecraft:armor_stand 51.5 6.0 146.5 {Tags:["lobbyStand","pit","default"],Rotation:[0f,0f]}
 
 summon minecraft:area_effect_cloud 19.5 7.75 156.5 {CustomName:'{"text":"Pokémon Trainer","color":"red"}',CustomNameVisible:1b,Age:-2147483648,Duration:-1,WaitTime:-2147483648}
-summon minecraft:armor_stand 19.5 6.0 158.5 {Tags:["lobbyStand","pokemontrainer","default"],Rotation:[180f,0f]}
+summon minecraft:armor_stand 19.5 6.0 159.5 {Tags:["lobbyStand","red","default"],Rotation:[180f,0f]}
+summon minecraft:armor_stand 20.5 6.0 158.5 {Tags:["lobbyStand","charizard","default"],Rotation:[180f,0f]}
+summon minecraft:armor_stand 18.5 6.0 158.5 {Tags:["lobbyStand","ivysaur","default"],Rotation:[180f,0f]}
+summon minecraft:armor_stand 19.5 6.0 158.5 {Tags:["lobbyStand","squirtle","default"],Rotation:[180f,0f],Small:1b}
 
 summon minecraft:area_effect_cloud 19.5 7.75 148.5 {CustomName:'{"text":"Ryu","color":"white"}',CustomNameVisible:1b,Age:-2147483648,Duration:-1,WaitTime:-2147483648}
 summon minecraft:armor_stand 19.5 6.0 146.5 {Tags:["lobbyStand","ryu","default"],Rotation:[0f,0f]}
@@ -93,8 +96,8 @@ summon minecraft:area_effect_cloud 68.5 7.75 131.5 {CustomName:'{"text":"Shovel 
 summon minecraft:armor_stand 66.5 6.0 131.5 {Tags:["lobbyStand","shovelknight","default"],Rotation:[-90f,0f]}
 
 summon minecraft:area_effect_cloud 76.5 7.75 131.5 {CustomName:'{"text":"Team Rocket","color":"dark_purple"}',CustomNameVisible:1b,Age:-2147483648,Duration:-1,WaitTime:-2147483648}
-summon minecraft:armor_stand 77.5 6.0 129.5 {Tags:["lobbyStand","james"],Rotation:[45f,0f]}
-summon minecraft:armor_stand 77.5 6.0 133.5 {Tags:["lobbyStand","jesse"],Rotation:[135f,0f]}
+summon minecraft:armor_stand 77.5 6.0 129.5 {Tags:["lobbyStand","james","default"],Rotation:[45f,0f]}
+summon minecraft:armor_stand 77.5 6.0 133.5 {Tags:["lobbyStand","jesse","default"],Rotation:[135f,0f]}
 summon minecraft:armor_stand 78.5 6.0 130.5 {Tags:["lobbyStand","arbok","default"],Rotation:[67.5f,0f]}
 summon minecraft:armor_stand 78.5 6.0 131.5 {Tags:["lobbyStand","meowth","default"],Rotation:[90f,0f],Small:1b}
 summon minecraft:armor_stand 78.5 6.0 132.5 {Tags:["lobbyStand","wobbuffet","default"],Rotation:[112.5f,0f]}
