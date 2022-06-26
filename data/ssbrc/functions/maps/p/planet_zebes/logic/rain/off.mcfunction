@@ -1,4 +1,4 @@
-scoreboard players reset $blackout temp
+scoreboard players reset $planetZebesRain temp
 
 effect give @a[tag=alive] minecraft:glowing 1000000 255 true
 
