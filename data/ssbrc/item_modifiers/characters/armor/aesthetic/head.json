@@ -170,58 +170,6 @@
 	},
 	{
 		"function": "minecraft:set_nbt",
-		"tag": "{CustomModelData:1260}",
-		"conditions": [
-			{
-				"condition": "minecraft:entity_properties",
-				"entity": "this",
-				"predicate": {
-					"nbt": "{Tags:[\"charizard\",\"default\"]}"
-				}
-			}
-		]
-	},
-	{
-		"function": "minecraft:set_nbt",
-		"tag": "{CustomModelData:141}",
-		"conditions": [
-			{
-				"condition": "minecraft:entity_properties",
-				"entity": "this",
-				"predicate": {
-					"nbt": "{Tags:[\"charizard\",\"gold\"]}"
-				}
-			}
-		]
-	},
-	{
-		"function": "minecraft:set_nbt",
-		"tag": "{CustomModelData:142}",
-		"conditions": [
-			{
-				"condition": "minecraft:entity_properties",
-				"entity": "this",
-				"predicate": {
-					"nbt": "{Tags:[\"charizard\",\"shiny\"]}"
-				}
-			}
-		]
-	},
-	{
-		"function": "minecraft:set_nbt",
-		"tag": "{CustomModelData:142}",
-		"conditions": [
-			{
-				"condition": "minecraft:entity_properties",
-				"entity": "this",
-				"predicate": {
-					"nbt": "{Tags:[\"charizard\",\"naturalShiny\"]}"
-				}
-			}
-		]
-	},
-	{
-		"function": "minecraft:set_nbt",
 		"tag": "{CustomModelData:180}",
 		"conditions": [
 			{
@@ -411,19 +359,6 @@
 				"entity": "this",
 				"predicate": {
 					"nbt": "{Tags:[\"greninja\",\"shiny\"]}"
-				}
-			}
-		]
-	},
-	{
-		"function": "minecraft:set_nbt",
-		"tag": "{CustomModelData:422}",
-		"conditions": [
-			{
-				"condition": "minecraft:entity_properties",
-				"entity": "this",
-				"predicate": {
-					"nbt": "{Tags:[\"greninja\",\"naturalShiny\"]}"
 				}
 			}
 		]
@@ -934,19 +869,6 @@
 	},
 	{
 		"function": "minecraft:set_nbt",
-		"tag": "{CustomModelData:1202}",
-		"conditions": [
-			{
-				"condition": "minecraft:entity_properties",
-				"entity": "this",
-				"predicate": {
-					"nbt": "{Tags:[\"pikachu\",\"naturalShiny\"]}"
-				}
-			}
-		]
-	},
-	{
-		"function": "minecraft:set_nbt",
 		"tag": "{CustomModelData:1220}",
 		"conditions": [
 			{
@@ -967,6 +889,19 @@
 				"entity": "this",
 				"predicate": {
 					"nbt": "{Tags:[\"pit\",\"gold\"]}"
+				}
+			}
+		]
+	},
+	{
+		"function": "minecraft:set_nbt",
+		"tag": "{CustomModelData:1260}",
+		"conditions": [
+			{
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"nbt": "{Tags:[\"pokemontrainer\",\"default\"]}"
 				}
 			}
 		]
@@ -1006,6 +941,97 @@
 				"entity": "this",
 				"predicate": {
 					"nbt": "{Tags:[\"squirtle\",\"default\"]}"
+				}
+			}
+		]
+	},
+	{
+		"function": "minecraft:set_nbt",
+		"tag": "{CustomModelData:1264}",
+		"conditions": [
+			{
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"nbt": "{Tags:[\"pokemontrainer\",\"gold\"]}"
+				}
+			}
+		]
+	},
+	{
+		"function": "minecraft:set_nbt",
+		"tag": "{CustomModelData:1265}",
+		"conditions": [
+			{
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"nbt": "{Tags:[\"charizard\",\"gold\"]}"
+				}
+			}
+		]
+	},
+	{
+		"function": "minecraft:set_nbt",
+		"tag": "{CustomModelData:1266}",
+		"conditions": [
+			{
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"nbt": "{Tags:[\"ivysaur\",\"gold\"]}"
+				}
+			}
+		]
+	},
+	{
+		"function": "minecraft:set_nbt",
+		"tag": "{CustomModelData:1267}",
+		"conditions": [
+			{
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"nbt": "{Tags:[\"squirtle\",\"gold\"]}"
+				}
+			}
+		]
+	},
+	{
+		"function": "minecraft:set_nbt",
+		"tag": "{CustomModelData:1268}",
+		"conditions": [
+			{
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"nbt": "{Tags:[\"charizard\",\"shiny\"]}"
+				}
+			}
+		]
+	},
+	{
+		"function": "minecraft:set_nbt",
+		"tag": "{CustomModelData:1269}",
+		"conditions": [
+			{
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"nbt": "{Tags:[\"ivysaur\",\"shiny\"]}"
+				}
+			}
+		]
+	},
+	{
+		"function": "minecraft:set_nbt",
+		"tag": "{CustomModelData:1270}",
+		"conditions": [
+			{
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"nbt": "{Tags:[\"squirtle\",\"shiny\"]}"
 				}
 			}
 		]
@@ -1731,7 +1757,7 @@
 				"condition": "minecraft:entity_properties",
 				"entity": "this",
 				"predicate": {
-					"nbt": "{Tags:[\"james\"]}"
+					"nbt": "{Tags:[\"james\",\"default\"]}"
 				}
 			}
 		]
@@ -1744,7 +1770,7 @@
 				"condition": "minecraft:entity_properties",
 				"entity": "this",
 				"predicate": {
-					"nbt": "{Tags:[\"jesse\"]}"
+					"nbt": "{Tags:[\"jesse\",\"default\"]}"
 				}
 			}
 		]

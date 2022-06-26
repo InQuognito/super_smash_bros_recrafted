@@ -209,19 +209,6 @@
 	},
 	{
 		"function": "minecraft:set_nbt",
-		"tag": "{display:{color:2240050}}",
-		"conditions": [
-			{
-				"condition": "minecraft:entity_properties",
-				"entity": "this",
-				"predicate": {
-					"nbt": "{Tags:[\"greninja\",\"naturalShiny\"]}"
-				}
-			}
-		]
-	},
-	{
-		"function": "minecraft:set_nbt",
 		"tag": "{display:{color:6575676}}",
 		"conditions": [
 			{
@@ -495,19 +482,6 @@
 	},
 	{
 		"function": "minecraft:set_nbt",
-		"tag": "{display:{color:16168481}}",
-		"conditions": [
-			{
-				"condition": "minecraft:entity_properties",
-				"entity": "this",
-				"predicate": {
-					"nbt": "{Tags:[\"pikachu\",\"naturalShiny\"]}"
-				}
-			}
-		]
-	},
-	{
-		"function": "minecraft:set_nbt",
 		"tag": "{display:{color:16314344}}",
 		"conditions": [
 			{
@@ -515,6 +489,19 @@
 				"entity": "this",
 				"predicate": {
 					"nbt": "{Tags:[\"pit\",\"default\"]}"
+				}
+			}
+		]
+	},
+	{
+		"function": "minecraft:set_nbt",
+		"tag": "{display:{color:5739447}}",
+		"conditions": [
+			{
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"nbt": "{Tags:[\"pokemontrainer\",\"default\"]}"
 				}
 			}
 		]
@@ -534,32 +521,6 @@
 	},
 	{
 		"function": "minecraft:set_nbt",
-		"tag": "{display:{color:5921386}}",
-		"conditions": [
-			{
-				"condition": "minecraft:entity_properties",
-				"entity": "this",
-				"predicate": {
-					"nbt": "{Tags:[\"charizard\",\"shiny\"]}"
-				}
-			}
-		]
-	},
-	{
-		"function": "minecraft:set_nbt",
-		"tag": "{display:{color:5921386}}",
-		"conditions": [
-			{
-				"condition": "minecraft:entity_properties",
-				"entity": "this",
-				"predicate": {
-					"nbt": "{Tags:[\"charizard\",\"naturalShiny\"]}"
-				}
-			}
-		]
-	},
-	{
-		"function": "minecraft:set_nbt",
 		"tag": "{display:{color:6139308}}",
 		"conditions": [
 			{
@@ -567,32 +528,6 @@
 				"entity": "this",
 				"predicate": {
 					"nbt": "{Tags:[\"ivysaur\",\"default\"]}"
-				}
-			}
-		]
-	},
-	{
-		"function": "minecraft:set_nbt",
-		"tag": "{display:{color:10998134}}",
-		"conditions": [
-			{
-				"condition": "minecraft:entity_properties",
-				"entity": "this",
-				"predicate": {
-					"nbt": "{Tags:[\"ivysaur\",\"shiny\"]}"
-				}
-			}
-		]
-	},
-	{
-		"function": "minecraft:set_nbt",
-		"tag": "{display:{color:10998134}}",
-		"conditions": [
-			{
-				"condition": "minecraft:entity_properties",
-				"entity": "this",
-				"predicate": {
-					"nbt": "{Tags:[\"ivysaur\",\"naturalShiny\"]}"
 				}
 			}
 		]
@@ -612,13 +547,26 @@
 	},
 	{
 		"function": "minecraft:set_nbt",
-		"tag": "{display:{color:6611711}}",
+		"tag": "{display:{color:5921386}}",
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
 				"entity": "this",
 				"predicate": {
-					"nbt": "{Tags:[\"squirtle\",\"shiny\"]}"
+					"nbt": "{Tags:[\"charizard\",\"shiny\"]}"
+				}
+			}
+		]
+	},
+	{
+		"function": "minecraft:set_nbt",
+		"tag": "{display:{color:10998134}}",
+		"conditions": [
+			{
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"nbt": "{Tags:[\"ivysaur\",\"shiny\"]}"
 				}
 			}
 		]
@@ -631,7 +579,7 @@
 				"condition": "minecraft:entity_properties",
 				"entity": "this",
 				"predicate": {
-					"nbt": "{Tags:[\"squirtle\",\"naturalShiny\"]}"
+					"nbt": "{Tags:[\"squirtle\",\"shiny\"]}"
 				}
 			}
 		]
@@ -1066,7 +1014,7 @@
 				"condition": "minecraft:entity_properties",
 				"entity": "this",
 				"predicate": {
-					"nbt": "{Tags:[\"james\"]}"
+					"nbt": "{Tags:[\"james\",\"default\"]}"
 				}
 			}
 		]
@@ -1079,7 +1027,7 @@
 				"condition": "minecraft:entity_properties",
 				"entity": "this",
 				"predicate": {
-					"nbt": "{Tags:[\"jesse\"]}"
+					"nbt": "{Tags:[\"jesse\",\"default\"]}"
 				}
 			}
 		]
