@@ -27,6 +27,8 @@ scoreboard players set @s charge.1 0
 tag @e[tag=projectile] remove projectile
 kill @e[tag=direction]
 
+item replace entity @s weapon.mainhand with minecraft:carrot_on_a_stick{phazonBeam:1,CustomModelData:261,Unbreakable:1,display:{Name:'[{"text":"Phazon Beam","italic":false,"color":"aqua","bold":true}]'},HideFlags:127} 1
+
 execute if score @s duration.1 matches 0 run scoreboard players set @s cooldown.1 20
 execute if score @s duration.1 matches 1.. run function ssbrc:series/metroid/darksamus/logic/phazon_beam/overload
 
