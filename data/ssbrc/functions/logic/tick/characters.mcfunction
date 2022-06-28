@@ -39,4 +39,4 @@ execute if entity @s[predicate=ssbrc:characters/enchantments/infinity] run item 
 function ssbrc:logic/tick/assign_teams
 
 execute unless entity @s[predicate=ssbrc:flag/enter_block/cyan_carpet] run advancement grant @s only ssbrc:utility/flag/enter_block/not_cyan_carpet
-execute if entity @s[tag=quicksand] unless score @s quicksand matches 1.. run function ssbrc:logic/quicksand/tick
+execute if entity @s[tag=quicksand] run function ssbrc:logic/quicksand/tick
