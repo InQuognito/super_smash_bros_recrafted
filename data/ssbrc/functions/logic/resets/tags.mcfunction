@@ -98,6 +98,7 @@ tag @s remove naturalShiny
 tag @s remove operator
 tag @s remove pokemontrainer.picked
 tag @s remove punisher
+tag @s remove quicksand
 tag @s remove room.characterSelect
 tag @s remove room.mapVoting
 tag @s remove snake.apm
