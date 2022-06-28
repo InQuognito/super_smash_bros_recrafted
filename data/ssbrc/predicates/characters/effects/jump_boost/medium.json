@@ -8,6 +8,10 @@
 				"terms": [
 					{
 						"condition": "minecraft:reference",
+						"name": "ssbrc:characters/effects/jump_boost/none"
+					},
+					{
+						"condition": "minecraft:reference",
 						"name": "ssbrc:characters/effects/jump_boost/low"
 					},
 					{
