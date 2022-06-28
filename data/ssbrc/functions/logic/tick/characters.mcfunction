@@ -38,4 +38,4 @@ execute if entity @s[predicate=ssbrc:characters/enchantments/infinity] run item 
 
 function ssbrc:logic/tick/assign_teams
 
-execute unless entity @s[predicate=ssbrc:flag/enter_block/cyan_carpet] run advancement revoke @s only ssbrc:utility/flag/enter_block/cyan_carpet
+execute unless entity @s[predicate=ssbrc:flag/enter_block/cyan_carpet] run advancement grant @s only ssbrc:utility/flag/enter_block/not_cyan_carpet
