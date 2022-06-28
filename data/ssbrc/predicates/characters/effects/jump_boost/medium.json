@@ -1,20 +1,35 @@
 {
-	"condition": "minecraft:inverted",
-	"term": {
-		"condition": "minecraft:alternative",
-		"terms": [
-			{
-				"condition": "minecraft:reference",
-				"name": "ssbrc:characters/effects/jump_boost/low"
-			},
-			{
-				"condition": "minecraft:reference",
-				"name": "ssbrc:characters/effects/jump_boost/high"
-			},
-			{
-				"condition": "minecraft:reference",
-				"name": "ssbrc:characters/effects/jump_boost/super"
+	"condition": "minecraft:alternative",
+	"terms": [
+		{
+			"condition": "minecraft:inverted",
+			"term": {
+				"condition": "minecraft:alternative",
+				"terms": [
+					{
+						"condition": "minecraft:reference",
+						"name": "ssbrc:characters/effects/jump_boost/low"
+					},
+					{
+						"condition": "minecraft:reference",
+						"name": "ssbrc:characters/effects/jump_boost/high"
+					},
+					{
+						"condition": "minecraft:reference",
+						"name": "ssbrc:characters/effects/jump_boost/super"
+					}
+				]
 			}
-		]
-	}
+		},
+		{
+			"condition": "minecraft:location_check",
+			"predicate": {
+				"block": {
+					"blocks": [
+						"minecraft:cyan_carpet"
+					]
+				}
+			}
+		}
+	]
 }

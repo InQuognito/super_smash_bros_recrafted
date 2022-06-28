@@ -1,12 +1,30 @@
-{
-	"condition": "minecraft:alternative",
-	"terms": [
-		{
+[
+	{
+		"condition": "minecraft:alternative",
+		"terms": [
+			{
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"nbt": "{Tags:[\"cloud\",\"punisher\"]}"
+				}
+			}
+		]
+	},
+	{
+		"condition": "minecraft:inverted",
+		"term": {
 			"condition": "minecraft:entity_properties",
 			"entity": "this",
 			"predicate": {
-				"nbt": "{Tags:[\"cloud\",\"punisher\"]}"
+				"stepping_on": {
+					"block": {
+						"blocks": [
+							"minecraft:cyan_carpet"
+						]
+					}
+				}
 			}
 		}
-	]
-}
+	}
+]

@@ -37,3 +37,5 @@ execute at @s[scores={jumps=1..}] run function ssbrc:logic/characters/jump
 execute if entity @s[predicate=ssbrc:characters/enchantments/infinity] run item replace entity @s hotbar.8 with minecraft:spectral_arrow 1
 
 function ssbrc:logic/tick/assign_teams
+
+execute unless entity @s[predicate=ssbrc:flag/enter_block/cyan_carpet] run advancement revoke @s only ssbrc:utility/flag/enter_block/cyan_carpet
