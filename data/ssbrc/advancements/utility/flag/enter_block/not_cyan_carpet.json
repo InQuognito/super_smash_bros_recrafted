@@ -4,5 +4,8 @@
 		"impossible": {
 			"trigger": "minecraft:impossible"
 		}
+	},
+	"rewards": {
+		"function": "ssbrc:logic/quicksand/off"
 	}
 }
