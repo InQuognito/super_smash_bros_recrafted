@@ -11,4 +11,4 @@ scoreboard players set @s cooldown.1 15
 execute if score @s shadow.chaosControl matches 1.. run function ssbrc:logic/characters/cooldown_modifiers/chaos_control/1
 
 scoreboard players set @s duration.1 60
-effect give @p minecraft:levitation 3 255 true
+effect give @p minecraft:levitation 1000000 255 true
