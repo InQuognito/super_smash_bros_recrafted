@@ -13,3 +13,5 @@ execute if score $fruit temp matches 7 run summon minecraft:glow_item_frame ~ ~ 
 execute if score $fruit temp matches 8 run summon minecraft:glow_item_frame ~ ~ ~ {Tags:["pacMaze.fruit","pacMaze.fruit.key"],Facing:1b,Fixed:1b,Invisible:1b,Item:{id:"minecraft:apple",Count:1b,tag:{CustomModelData:8}}}
 
 execute if score $fruit temp matches 8.. run scoreboard players set $fruit temp 0
+
+execute as @a at @s run playsound ssbrc:extend player @s
