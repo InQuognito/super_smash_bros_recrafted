@@ -1,6 +1,6 @@
-execute if entity @s[tag=pacMaze.fruit.cherry] run effect give @p minecraft:regeneration 3 0 true
+execute if entity @s[tag=pacMaze.fruit.cherry] run effect give @p minecraft:regeneration 3 1 true
 execute if entity @s[tag=pacMaze.fruit.strawberry] run effect give @p minecraft:instant_health 1 0 true
-execute if entity @s[tag=pacMaze.fruit.orange] run effect give @p minecraft:regeneration 7 0 true
+execute if entity @s[tag=pacMaze.fruit.orange] run effect give @p minecraft:regeneration 7 1 true
 execute if entity @s[tag=pacMaze.fruit.apple] run effect give @p minecraft:resistance 7 0 true
 execute if entity @s[tag=pacMaze.fruit.melon] run effect give @p minecraft:instant_health 1 1 true
 execute if entity @s[tag=pacMaze.fruit.galaxianFlagship] run effect give @p minecraft:strength 7 0 true
