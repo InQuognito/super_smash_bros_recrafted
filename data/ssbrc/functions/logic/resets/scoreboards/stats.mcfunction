@@ -194,3 +194,28 @@ scoreboard objectives add stats.kD dummy
 scoreboard objectives add stats.kills minecraft.custom:minecraft.player_kills
 scoreboard objectives add stats.wins dummy
 scoreboard objectives add stats.wL dummy
+
+# Bonuses
+scoreboard objectives add stats.765o dummy
+scoreboard objectives add stats.acrobat dummy
+scoreboard objectives add stats.aerialist dummy
+scoreboard objectives add stats.allEars dummy
+scoreboard objectives add stats.archNemesis dummy
+scoreboard objectives add stats.armistice dummy
+scoreboard objectives add stats.bloodTransfusion dummy
+scoreboard objectives add stats.callOfTheVoid dummy
+scoreboard objectives add stats.cementShoes dummy
+scoreboard objectives add stats.corruption dummy
+scoreboard objectives add stats.craftingConnoisseur dummy
+scoreboard objectives add stats.crushingWeight dummy
+scoreboard objectives add stats.dreamTeam dummy
+scoreboard objectives add stats.eagleEye dummy
+scoreboard objectives add stats.earlyBird dummy
+scoreboard objectives add stats.eight dummy
+scoreboard objectives add stats.fleshAndBlood dummy
+scoreboard objectives add stats.foodie dummy
+scoreboard objectives add stats.fullHouse dummy
+scoreboard objectives add stats.fullPower dummy
+scoreboard objectives add stats.goodFriend dummy
+scoreboard objectives add stats.heartgold dummy
+scoreboard objectives add stats.homeFieldAdvantage dummy

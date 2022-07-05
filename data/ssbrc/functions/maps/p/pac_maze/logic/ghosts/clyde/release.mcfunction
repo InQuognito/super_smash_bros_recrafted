@@ -7,3 +7,5 @@ tag @s add active
 tag @s remove retreating
 tag @s remove dead
 scoreboard players reset @s cooldown.1
+
+scoreboard players reset * 765o.tracking

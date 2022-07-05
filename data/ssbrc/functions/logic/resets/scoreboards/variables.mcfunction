@@ -10,6 +10,7 @@ scoreboard players set #hero.bangManaCost vars 2
 scoreboard players set #hero.kaclangManaCost vars 3
 
 scoreboard players set #joker.finalGuardThreshold vars 4
+scoreboard players set #joker.maxAwakening vars 300
 
 scoreboard players set #luigi.superJumpThreshold vars 30
 scoreboard players set #luigi.superJumpMovementFalloff vars 200

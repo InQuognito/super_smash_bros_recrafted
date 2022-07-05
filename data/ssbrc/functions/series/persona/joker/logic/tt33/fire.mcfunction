@@ -1,6 +1,8 @@
 execute positioned 0.0 0.0 0.0 run summon minecraft:marker ^ ^ ^10 {Tags:["direction"]}
 
-summon minecraft:arrow ^ ^ ^0.3 {damage:0.5,Tags:["tt33Bullet","bullet","projectile"],NoGravity:1b}
+execute if entity @s[tag=!incubus] run summon minecraft:arrow ^ ^ ^0.3 {damage:0.5,Tags:["tt33Bullet","bullet","projectile"],NoGravity:1b}
+execute if entity @s[tag=incubus,scores={duration.1=0}] run summon minecraft:arrow ^ ^ ^0.3 {damage:0.5,Tags:["tt33Bullet","bullet","projectile"],NoGravity:1b}
+execute if entity @s[tag=incubus,scores={duration.1=1..}] run summon minecraft:arrow ^ ^ ^0.3 {damage:0.5,Tags:["dreamNeedle","tt33Bullet","bullet","projectile"],NoGravity:1b}
 
 function ssbrc:series/persona/joker/logic/tt33/offset
 execute store result score offsetX temp run data get entity @e[tag=projectile,limit=1] Rotation[0]
