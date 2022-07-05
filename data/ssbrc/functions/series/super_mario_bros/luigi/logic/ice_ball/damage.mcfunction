@@ -6,7 +6,7 @@ execute if score @s damage matches 1 run tag @e[tag=projectile,limit=1] remove p
 
 execute if score @s damage matches 1 run kill @e[type=minecraft:area_effect_cloud,tag=iceBall,sort=nearest,limit=1]
 
-execute if score @s damage matches 2 at @p run teleport @e[type=minecraft:armor_stand,tag=damage.iceBall,sort=nearest,limit=1] ~ ~ ~
+execute if score @s damage matches 2 at @p anchored feet run teleport @e[type=minecraft:armor_stand,tag=damage.iceBall,sort=nearest,limit=1] @s
 execute as @p if entity @e[type=minecraft:armor_stand,tag=damage.iceBall,sort=nearest,limit=1,distance=..0] run say touching your feet!
 execute if score @s damage matches 3 run kill @e[type=minecraft:armor_stand,tag=damage.iceBall,sort=nearest,limit=1]
 
