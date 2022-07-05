@@ -12,7 +12,7 @@ execute unless block ~ ~-0.3 ~ #ssbrc:passthrough run function ssbrc:series/supe
 execute rotated as @s run teleport @s ^ ^ ^0.3
 
 execute positioned ~-0.15 ~-0.15 ~-0.15 as @a[tag=alive,scores={respawn=..0},dx=0] positioned ~-0.7 ~-0.7 ~-0.7 if entity @s[dx=0] unless score @s id = @e[type=minecraft:area_effect_cloud,tag=iceBall,sort=nearest,limit=1] id run tag @s add damage.iceBall
-execute as @a[tag=damage.iceBall] at @s run function ssbrc:series/super_mario_bros/luigi/logic/ice_ball/damage
+execute as @a[tag=damage.iceBall] unless score @s damage matches 1.. at @s run function ssbrc:series/super_mario_bros/luigi/logic/ice_ball/damage
 
 scoreboard players add @s temp 1
 kill @s[scores={temp=120..}]
