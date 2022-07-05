@@ -25,6 +25,8 @@ team join admin @a[team=!admin,tag=alive,scores={respawn=..0},gamemode=!adventur
 # Maps
 function ssbrc:logic/tick/maps
 
+function ssbrc:logic/tick/damage
+
 scoreboard players reset @a useAbility
 scoreboard players reset @a useChargeAbility
 
