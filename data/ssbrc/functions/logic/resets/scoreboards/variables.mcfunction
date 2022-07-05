@@ -38,6 +38,7 @@ scoreboard players set #damage.chaosSpear vars 40
 scoreboard players set #damage.blizzaga vars 40
 scoreboard players set #damage.firaga vars 40
 scoreboard players set #damage.thundaga vars 40
+scoreboard players set #damage.tt33 vars 40
 
 # Common Currency Values
 scoreboard players set #value.playGame vars 50

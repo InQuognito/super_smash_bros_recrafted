@@ -38,7 +38,7 @@ execute if score $joker.awakeningPercent temp matches 61..70 run title @s action
 execute if score $joker.awakeningPercent temp matches 71..80 run title @s actionbar [{"text":"Persona Awakening: ","bold":true,"color":"white"},{"text":"\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae","color":"red"},{"text":"\u25ae\u25ae","color":"dark_gray"}]
 execute if score $joker.awakeningPercent temp matches 81..90 run title @s actionbar [{"text":"Persona Awakening: ","bold":true,"color":"white"},{"text":"\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae","color":"red"},{"text":"\u25ae","color":"dark_gray"}]
 execute if score $joker.awakeningPercent temp matches 91..99 run title @s actionbar [{"text":"Persona Awakening: ","bold":true,"color":"white"},{"text":"\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae","color":"red"}]
-execute if score $joker.awakeningPercent temp matches 100.. run title @s actionbar {"text":"Persona Awakening BREAK","bold":true,"color":"blue"}
+execute if score $joker.awakeningPercent temp matches 100.. run title @s actionbar {"text":"Persona Awakening","bold":true,"color":"blue"}
 
 execute if score @s charge.1 >= #joker.maxAwakening vars unless score @s duration.1 matches 1.. run function ssbrc:series/persona/joker/logic/abilities/activate
 execute if score @s duration.1 matches 1 run function ssbrc:series/persona/joker/logic/abilities/deactivate

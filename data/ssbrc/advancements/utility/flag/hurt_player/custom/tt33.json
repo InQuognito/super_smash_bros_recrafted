@@ -19,6 +19,6 @@
 		}
 	},
 	"rewards": {
-		"function": "ssbrc:logic/characters/projectiles/damage_dealt/blade_beam"
+		"function": "ssbrc:logic/characters/projectiles/damage_dealt/tt33"
 	}
 }
