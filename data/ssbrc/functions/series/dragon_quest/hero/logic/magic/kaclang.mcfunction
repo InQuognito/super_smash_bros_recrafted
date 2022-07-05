@@ -1,8 +1,5 @@
 scoreboard players set @s duration.2 200
 
-clear @s #ssbrc:swords
-clear @s minecraft:carrot_on_a_stick
-
 function ssbrc:logic/characters/effects/cleanse
 effect give @s minecraft:resistance 1000000 255 true
 
