@@ -17,6 +17,7 @@ execute if entity @s[scores={useAbility=1..,cooldown.1=..0},nbt={SelectedItem:{t
 tag @s add self
 execute as @e[tag=tt33Bullet] if score @s id = @p[tag=self] id run function ssbrc:series/persona/joker/logic/tt33/tick
 execute as @e[type=minecraft:area_effect_cloud,tag=eiagon] if score @s id = @p[tag=self] id run function ssbrc:series/persona/joker/logic/abilities/eiagon/tick
+execute as @e[type=minecraft:area_effect_cloud,tag=hama,predicate=ssbrc:flag/no_vehicle] if score @s id = @p[tag=self] id run function ssbrc:series/persona/joker/logic/abilities/eiagon/tick
 tag @s remove self
 
 # Persona Awakening
