@@ -5,3 +5,5 @@ tag @e[tag=projectile,limit=1] remove projectile
 kill @e[type=minecraft:area_effect_cloud,tag=eiagon,sort=nearest,limit=1]
 
 teleport @e[type=minecraft:area_effect_cloud,tag=damage.eiagon,sort=nearest,limit=1] @s
+
+say eiagon damage

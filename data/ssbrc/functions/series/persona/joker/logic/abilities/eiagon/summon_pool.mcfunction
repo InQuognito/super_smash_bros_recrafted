@@ -2,3 +2,5 @@ summon minecraft:area_effect_cloud ~ ~ ~ {Tags:["projectile"],Particle:"minecraf
 data modify entity @e[tag=projectile,limit=1] Owner set from entity @e[type=minecraft:area_effect_cloud,tag=eiagon,sort=nearest,limit=1] Owner
 tag @e[tag=projectile,limit=1] remove projectile
 kill @s
+
+say eiagon summon pool
