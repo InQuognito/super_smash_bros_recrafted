@@ -15,7 +15,7 @@ execute if entity @s[scores={useAbility=1..,cooldown.1=..0},nbt={SelectedItem:{t
 execute if entity @s[scores={useAbility=1..,cooldown.1=..0},nbt={SelectedItem:{tag:{phantomShow:1}}}] at @s anchored eyes run function ssbrc:series/persona/joker/logic/abilities/phantom_show/summon
 
 tag @s add self
-execute as @e[tag=eiagon,predicate=ssbrc:flag/no_vehicle] if score @s id = @p[tag=self] id run function ssbrc:series/persona/joker/logic/abilities/eiagon/tick
+execute as @e[type=minecraft:area_effect_cloud,tag=eiagon] if score @s id = @p[tag=self] id run function ssbrc:series/persona/joker/logic/abilities/eiagon/tick
 execute as @e[tag=tt33Bullet] if score @s id = @p[tag=self] id run function ssbrc:series/persona/joker/logic/tt33/tick
 tag @s remove self
 
