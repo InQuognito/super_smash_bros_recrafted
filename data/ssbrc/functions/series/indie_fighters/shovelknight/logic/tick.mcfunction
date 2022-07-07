@@ -7,7 +7,7 @@ execute as @e[tag=flareWand] at @s if score @s id = @p[tag=self] id run function
 tag @s remove self
 
 # Phase Locket
-execute if score @s duration.2 matches 1 run function ssbrc:series/indie_fighters/shovelknight/logic/magic/phase_locket/off
+execute if entity @s[predicate=ssbrc:characters/shovelknight/phase_locket/off] run function ssbrc:series/indie_fighters/shovelknight/logic/magic/phase_locket/off
 
 # Mana
 title @s[scores={mana=..0}] actionbar [{"text":"Out of Mana","bold":true,"color":"red"}]

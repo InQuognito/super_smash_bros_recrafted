@@ -922,13 +922,8 @@
 				}
 			},
 			{
-				"condition": "minecraft:entity_scores",
-				"entity": "this",
-				"scores": {
-					"duration.2": {
-						"min": 1
-					}
-				}
+				"condition": "minecraft:reference",
+				"name": "ssbrc:characters/shovelknight/phase_locket/on"
 			}
 		]
 	},

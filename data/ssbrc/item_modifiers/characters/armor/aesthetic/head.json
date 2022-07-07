@@ -373,6 +373,10 @@
 				"predicate": {
 					"nbt": "{Tags:[\"hero\",\"default\"]}"
 				}
+			},
+			{
+				"condition": "minecraft:reference",
+				"name": "ssbrc:characters/hero/kaclang/off"
 			}
 		]
 	},
@@ -388,13 +392,8 @@
 				}
 			},
 			{
-				"condition": "minecraft:entity_scores",
-				"entity": "this",
-				"scores": {
-					"duration.2": {
-						"min": 1
-					}
-				}
+				"condition": "minecraft:reference",
+				"name": "ssbrc:characters/hero/kaclang/on"
 			}
 		]
 	},
@@ -408,6 +407,10 @@
 				"predicate": {
 					"nbt": "{Tags:[\"hero\",\"gold\"]}"
 				}
+			},
+			{
+				"condition": "minecraft:reference",
+				"name": "ssbrc:characters/hero/kaclang/off"
 			}
 		]
 	},
@@ -423,13 +426,8 @@
 				}
 			},
 			{
-				"condition": "minecraft:entity_scores",
-				"entity": "this",
-				"scores": {
-					"duration.2": {
-						"min": 1
-					}
-				}
+				"condition": "minecraft:reference",
+				"name": "ssbrc:characters/hero/kaclang/on"
 			}
 		]
 	},
@@ -443,6 +441,10 @@
 				"predicate": {
 					"nbt": "{Tags:[\"hero\",\"erdrick\"]}"
 				}
+			},
+			{
+				"condition": "minecraft:reference",
+				"name": "ssbrc:characters/hero/kaclang/off"
 			}
 		]
 	},
@@ -458,13 +460,8 @@
 				}
 			},
 			{
-				"condition": "minecraft:entity_scores",
-				"entity": "this",
-				"scores": {
-					"duration.2": {
-						"min": 1
-					}
-				}
+				"condition": "minecraft:reference",
+				"name": "ssbrc:characters/hero/kaclang/on"
 			}
 		]
 	},
@@ -478,6 +475,10 @@
 				"predicate": {
 					"nbt": "{Tags:[\"hero\",\"rek\"]}"
 				}
+			},
+			{
+				"condition": "minecraft:reference",
+				"name": "ssbrc:characters/hero/kaclang/off"
 			}
 		]
 	},
@@ -493,13 +494,8 @@
 				}
 			},
 			{
-				"condition": "minecraft:entity_scores",
-				"entity": "this",
-				"scores": {
-					"duration.2": {
-						"min": 1
-					}
-				}
+				"condition": "minecraft:reference",
+				"name": "ssbrc:characters/hero/kaclang/on"
 			}
 		]
 	},
@@ -1046,6 +1042,10 @@
 				"predicate": {
 					"nbt": "{Tags:[\"ryu\",\"default\"]}"
 				}
+			},
+			{
+				"condition": "minecraft:reference",
+				"name": "ssbrc:characters/ryu/satsui_no_hado/off"
 			}
 		]
 	},
@@ -1061,13 +1061,8 @@
 				}
 			},
 			{
-				"condition": "minecraft:entity_scores",
-				"entity": "this",
-				"scores": {
-					"duration.1": {
-						"min": 1
-					}
-				}
+				"condition": "minecraft:reference",
+				"name": "ssbrc:characters/ryu/satsui_no_hado/on"
 			}
 		]
 	},
@@ -1081,6 +1076,10 @@
 				"predicate": {
 					"nbt": "{Tags:[\"ryu\",\"gold\"]}"
 				}
+			},
+			{
+				"condition": "minecraft:reference",
+				"name": "ssbrc:characters/ryu/satsui_no_hado/off"
 			}
 		]
 	},
@@ -1096,13 +1095,8 @@
 				}
 			},
 			{
-				"condition": "minecraft:entity_scores",
-				"entity": "this",
-				"scores": {
-					"duration.1": {
-						"min": 1
-					}
-				}
+				"condition": "minecraft:reference",
+				"name": "ssbrc:characters/ryu/satsui_no_hado/on"
 			}
 		]
 	},
@@ -1689,6 +1683,10 @@
 				"predicate": {
 					"nbt": "{Tags:[\"shovelknight\",\"default\"]}"
 				}
+			},
+			{
+				"condition": "minecraft:reference",
+				"name": "ssbrc:characters/shovelknight/phase_locket/off"
 			}
 		]
 	},
@@ -1704,13 +1702,8 @@
 				}
 			},
 			{
-				"condition": "minecraft:entity_scores",
-				"entity": "this",
-				"scores": {
-					"duration.2": {
-						"min": 1
-					}
-				}
+				"condition": "minecraft:reference",
+				"name": "ssbrc:characters/shovelknight/phase_locket/on"
 			}
 		]
 	},
@@ -1724,6 +1717,10 @@
 				"predicate": {
 					"nbt": "{Tags:[\"shovelknight\",\"gold\"]}"
 				}
+			},
+			{
+				"condition": "minecraft:reference",
+				"name": "ssbrc:characters/shovelknight/phase_locket/off"
 			}
 		]
 	},
@@ -1739,13 +1736,8 @@
 				}
 			},
 			{
-				"condition": "minecraft:entity_scores",
-				"entity": "this",
-				"scores": {
-					"duration.2": {
-						"min": 1
-					}
-				}
+				"condition": "minecraft:reference",
+				"name": "ssbrc:characters/shovelknight/phase_locket/on"
 			}
 		]
 	},

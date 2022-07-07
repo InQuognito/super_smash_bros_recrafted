@@ -594,6 +594,10 @@
 				"predicate": {
 					"nbt": "{Tags:[\"ryu\",\"default\"]}"
 				}
+			},
+			{
+				"condition": "minecraft:reference",
+				"name": "ssbrc:characters/ryu/satsui_no_hado/off"
 			}
 		]
 	},
@@ -609,13 +613,8 @@
 				}
 			},
 			{
-				"condition": "minecraft:entity_scores",
-				"entity": "this",
-				"scores": {
-					"duration.1": {
-						"min": 1
-					}
-				}
+				"condition": "minecraft:reference",
+				"name": "ssbrc:characters/ryu/satsui_no_hado/on"
 			}
 		]
 	},
@@ -981,6 +980,10 @@
 				"predicate": {
 					"nbt": "{Tags:[\"shovelknight\",\"default\"]}"
 				}
+			},
+			{
+				"condition": "minecraft:reference",
+				"name": "ssbrc:characters/shovelknight/phase_locket/off"
 			}
 		]
 	},
@@ -996,13 +999,8 @@
 				}
 			},
 			{
-				"condition": "minecraft:entity_scores",
-				"entity": "this",
-				"scores": {
-					"duration.2": {
-						"min": 1
-					}
-				}
+				"condition": "minecraft:reference",
+				"name": "ssbrc:characters/shovelknight/phase_locket/on"
 			}
 		]
 	},
