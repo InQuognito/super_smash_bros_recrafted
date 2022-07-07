@@ -1,6 +1,7 @@
 gamemode spectator @s
+spectate @r[tag=alive,scores={respawn=..0},gamemode=adventure] @s
 
-scoreboard players set @s respawn 61
+scoreboard players set @s respawn 60
 
 scoreboard players set @s duration.1 0
 scoreboard players set @s duration.2 0
@@ -14,7 +15,7 @@ execute if score $gameMode options matches 1 if score @s stocks matches ..0 run 
 
 execute if score $gameMode options matches 2 run scoreboard players add @s stocks 1
 
-# Link
+# Kill Flying Objects Belonging to Dead Player
 tag @s add self
 execute as @e[type=minecraft:area_effect_cloud,tag=boomerang] if score @s id = @a[tag=self,limit=1] id run kill @s
 tag @s remove self

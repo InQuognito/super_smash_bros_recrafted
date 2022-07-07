@@ -1,5 +1,3 @@
-scoreboard players set @s respawn 0
-
 title @s title ""
 
 gamemode adventure @s
