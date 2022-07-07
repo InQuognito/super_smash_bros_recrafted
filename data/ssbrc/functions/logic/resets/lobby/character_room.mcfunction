@@ -107,4 +107,10 @@ summon minecraft:area_effect_cloud 72.5 6.25 115.5 {CustomName:'{"text":"Spectat
 
 execute as @e[tag=lobbyStand] run data merge entity @s {Invulnerable:1b,NoBasePlate:1b,NoGravity:1b,DisabledSlots:4144959}
 
+scoreboard players set @e[tag=lobbyStand] duration.1 1
+scoreboard players set @e[tag=lobbyStand] duration.2 1
+scoreboard players set @e[tag=lobbyStand] duration.3 1
 execute as @e[tag=lobbyStand] run function ssbrc:logic/characters/armor/get
+scoreboard players reset @e[tag=lobbyStand] duration.1
+scoreboard players reset @e[tag=lobbyStand] duration.2
+scoreboard players reset @e[tag=lobbyStand] duration.3
