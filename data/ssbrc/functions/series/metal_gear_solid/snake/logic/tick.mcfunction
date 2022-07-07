@@ -54,8 +54,5 @@ execute as @a[scores={snake.s1000A=1..,snake.s1000F=15}] at @s run playsound ssb
 scoreboard players remove @s[scores={snake.socomF=1..}] snake.socomF 1
 scoreboard players remove @s[scores={snake.sgF=1..}] snake.sgF 1
 
-# Night Vision Goggles
-execute if score @s id = @e[tag=smokeGrenade,sort=nearest,limit=1,distance=..4] id run effect clear @s minecraft:darkness
-
 # Anti-Personnel Mine
 execute as @a[tag=damage.antiPersonnelMine] at @s run function ssbrc:series/metal_gear_solid/snake/logic/weapons/anti_personnel_mine/damage
