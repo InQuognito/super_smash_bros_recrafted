@@ -1,3 +1,7 @@
+scoreboard players set @s duration.1 1
+scoreboard players set @s duration.2 1
+scoreboard players set @s duration.3 1
+
 # Byleth
 clear @s[tag=byleth] minecraft:shield
 item replace entity @s[tag=byleth.blackEagles] weapon.offhand with minecraft:shield{Damage:310,HideFlags:127} 1
@@ -17,9 +21,9 @@ tag @s[tag=cloud] add operator
 scoreboard players set @s[tag=cloud] cloud.limit 0
 
 # Donkey Kong
-clear @s[tag=donkeykong] minecraft:splash_potion{CustomPotionColor:16744448,display:{Name:'[{"text":"Orange Bomb","italic":false,"bold":true,"color":"gold"}]'},HideFlags:127,CustomPotionEffects:[{Id:7b,Duration:0,Amplifier:0b,ShowParticles:0b,ShowIcon:0b}]} 2
-item replace entity @s[tag=donkeykong] hotbar.2 with minecraft:splash_potion{CustomPotionColor:16744448,display:{Name:'[{"text":"Orange Bomb","italic":false,"bold":true,"color":"gold"}]'},HideFlags:127,CustomPotionEffects:[{Id:7b,Duration:0,Amplifier:0b,ShowParticles:0b,ShowIcon:0b}]} 1
-item replace entity @s[tag=donkeykong] hotbar.3 with minecraft:splash_potion{CustomPotionColor:16744448,display:{Name:'[{"text":"Orange Bomb","italic":false,"bold":true,"color":"gold"}]'},HideFlags:127,CustomPotionEffects:[{Id:7b,Duration:0,Amplifier:0b,ShowParticles:0b,ShowIcon:0b}]} 1
+clear @s[tag=donkeykong] minecraft:splash_potion{CustomPotionColor:16744448,display:{Name:'[{"text":"Orange Bomb","italic":false,"bold":true,"color":"gold"}]'},HideFlags:127,CustomPotionEffects:[{Id:7,Duration:0,Amplifier:0b,ShowParticles:0b,ShowIcon:0b}]} 2
+item replace entity @s[tag=donkeykong] hotbar.2 with minecraft:splash_potion{CustomPotionColor:16744448,display:{Name:'[{"text":"Orange Bomb","italic":false,"bold":true,"color":"gold"}]'},HideFlags:127,CustomPotionEffects:[{Id:7,Duration:0,Amplifier:0b,ShowParticles:0b,ShowIcon:0b}]} 1
+item replace entity @s[tag=donkeykong] hotbar.3 with minecraft:splash_potion{CustomPotionColor:16744448,display:{Name:'[{"text":"Orange Bomb","italic":false,"bold":true,"color":"gold"}]'},HideFlags:127,CustomPotionEffects:[{Id:7,Duration:0,Amplifier:0b,ShowParticles:0b,ShowIcon:0b}]} 1
 
 # Fox
 give @s[tag=fox] minecraft:spectral_arrow 4
@@ -52,14 +56,14 @@ item replace entity @s[tag=link,tag=dark] weapon.offhand with minecraft:shield{D
 give @s[tag=link] minecraft:spectral_arrow 5
 
 # Megaman
-clear @s[tag=megaman] minecraft:lingering_potion{CustomPotionColor:5974645,display:{Name:'[{"text":"Black Hole Bomb","italic":false,"color":"dark_purple","bold":true}]'},CustomPotionEffects:[{Id:22b,Duration:-1},{Id:7b,Duration:1,Amplifier:1b},{Id:2b,Duration:100,Amplifier:6b},{Id:20b,Duration:160,Amplifier:2b}]} 1
-item replace entity @s[tag=megaman] hotbar.2 with minecraft:lingering_potion{CustomPotionColor:5974645,display:{Name:'[{"text":"Black Hole Bomb","italic":false,"color":"dark_purple","bold":true}]'},CustomPotionEffects:[{Id:22b,Duration:-1},{Id:7b,Duration:1,Amplifier:1b},{Id:2b,Duration:100,Amplifier:6b},{Id:20b,Duration:160,Amplifier:2b}]} 1
+clear @s[tag=megaman] minecraft:lingering_potion{CustomPotionColor:5974645,display:{Name:'[{"text":"Black Hole Bomb","italic":false,"color":"dark_purple","bold":true}]'},CustomPotionEffects:[{Id:22,Duration:-1},{Id:7,Duration:1,Amplifier:1b},{Id:2,Duration:100,Amplifier:6b},{Id:20,Duration:160,Amplifier:2b}]} 1
+item replace entity @s[tag=megaman] hotbar.2 with minecraft:lingering_potion{CustomPotionColor:5974645,display:{Name:'[{"text":"Black Hole Bomb","italic":false,"color":"dark_purple","bold":true}]'},CustomPotionEffects:[{Id:22,Duration:-1},{Id:7,Duration:1,Amplifier:1b},{Id:2,Duration:100,Amplifier:6b},{Id:20,Duration:160,Amplifier:2b}]} 1
 
 # Ness
-execute store result score @s[tag=ness] itemCount run clear @s[tag=ness] minecraft:splash_potion{CustomPotionColor:552489,display:{Name:'[{"text":"PK Flash","italic":false,"bold":true,"color":"green"}]'},CustomPotionEffects:[{Id:15b,Duration:160,Amplifier:0b},{Id:7b,Duration:1,Amplifier:0b},{Id:2b,Duration:160,Amplifier:1b},{Id:18b,Duration:160,Amplifier:1b}]} 0
-clear @s[tag=ness] minecraft:splash_potion{CustomPotionColor:552489,display:{Name:'[{"text":"PK Flash","italic":false,"bold":true,"color":"green"}]'},CustomPotionEffects:[{Id:15b,Duration:160,Amplifier:0b},{Id:7b,Duration:1,Amplifier:0b},{Id:2b,Duration:160,Amplifier:1b},{Id:18b,Duration:160,Amplifier:1b}]} 2
-item replace entity @s[tag=ness] hotbar.2 with minecraft:splash_potion{CustomPotionColor:552489,display:{Name:'[{"text":"PK Flash","italic":false,"bold":true,"color":"green"}]'},CustomPotionEffects:[{Id:15b,Duration:160,Amplifier:0b},{Id:7b,Duration:1,Amplifier:0b},{Id:2b,Duration:160,Amplifier:1b},{Id:18b,Duration:160,Amplifier:1b}]} 1
-item replace entity @s[tag=ness,scores={itemCount=1}] hotbar.3 with minecraft:splash_potion{CustomPotionColor:552489,display:{Name:'[{"text":"PK Flash","italic":false,"bold":true,"color":"green"}]'},CustomPotionEffects:[{Id:15b,Duration:160,Amplifier:0b},{Id:7b,Duration:1,Amplifier:0b},{Id:2b,Duration:160,Amplifier:1b},{Id:18b,Duration:160,Amplifier:1b}]} 1
+execute store result score @s[tag=ness] itemCount run clear @s[tag=ness] minecraft:splash_potion{CustomPotionColor:552489,display:{Name:'[{"text":"PK Flash","italic":false,"bold":true,"color":"green"}]'},CustomPotionEffects:[{Id:15,Duration:160,Amplifier:0b},{Id:7,Duration:1,Amplifier:0b},{Id:2,Duration:160,Amplifier:1b},{Id:18,Duration:160,Amplifier:1b}]} 0
+clear @s[tag=ness] minecraft:splash_potion{CustomPotionColor:552489,display:{Name:'[{"text":"PK Flash","italic":false,"bold":true,"color":"green"}]'},CustomPotionEffects:[{Id:15,Duration:160,Amplifier:0b},{Id:7,Duration:1,Amplifier:0b},{Id:2,Duration:160,Amplifier:1b},{Id:18,Duration:160,Amplifier:1b}]} 2
+item replace entity @s[tag=ness] hotbar.2 with minecraft:splash_potion{CustomPotionColor:552489,display:{Name:'[{"text":"PK Flash","italic":false,"bold":true,"color":"green"}]'},CustomPotionEffects:[{Id:15,Duration:160,Amplifier:0b},{Id:7,Duration:1,Amplifier:0b},{Id:2,Duration:160,Amplifier:1b},{Id:18,Duration:160,Amplifier:1b}]} 1
+item replace entity @s[tag=ness,scores={itemCount=1}] hotbar.3 with minecraft:splash_potion{CustomPotionColor:552489,display:{Name:'[{"text":"PK Flash","italic":false,"bold":true,"color":"green"}]'},CustomPotionEffects:[{Id:15,Duration:160,Amplifier:0b},{Id:7,Duration:1,Amplifier:0b},{Id:2,Duration:160,Amplifier:1b},{Id:18,Duration:160,Amplifier:1b}]} 1
 
 # Pit
 item replace entity @s[tag=pit] armor.chest with minecraft:elytra{Damage:417,HideFlags:127} 1
@@ -110,3 +114,7 @@ tag @s[tag=teamrocket] remove teamrocket.picked
 execute if entity @s[tag=teamrocket,tag=wobbuffet,tag=!teamrocket.picked] run function ssbrc:series/pokemon/teamrocket/kits/arbok
 execute if entity @s[tag=teamrocket,tag=meowth,tag=!teamrocket.picked] run function ssbrc:series/pokemon/teamrocket/kits/wobbuffet
 execute if entity @s[tag=teamrocket,tag=arbok,tag=!teamrocket.picked] run function ssbrc:series/pokemon/teamrocket/kits/meowth
+
+scoreboard players set @s duration.1 0
+scoreboard players set @s duration.2 0
+scoreboard players set @s duration.3 0

@@ -38,11 +38,14 @@ scoreboard players set @s cooldown.3 0
 scoreboard players set @s charge.1 0
 scoreboard players set @s charge.2 0
 scoreboard players set @s charge.3 0
+
 scoreboard players set @s duration.1 1
 scoreboard players set @s duration.2 1
 scoreboard players set @s duration.3 1
-
 function ssbrc:logic/characters/armor/get
+scoreboard players set @s duration.1 0
+scoreboard players set @s duration.2 0
+scoreboard players set @s duration.3 0
 
 function ssbrc:logic/characters/attributes
 function ssbrc:logic/characters/effects/default

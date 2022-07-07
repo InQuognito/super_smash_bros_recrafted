@@ -33,7 +33,13 @@ summon minecraft:armor_stand -734.897 27.0 834.552 {Tags:["propStand","toad","de
 summon minecraft:armor_stand -737.7 26.6 833.175 {Tags:["propStand","toad","blue"],NoBasePlate:1b,NoGravity:1b,ShowArms:1b,Small:1b,Rotation:[320f],Pose:{LeftLeg:[267f,0f,0f],RightLeg:[267f,0f,0f],LeftArm:[332f,30f,328f],RightArm:[330f,18f,12f]}}
 summon minecraft:armor_stand -736.46 27.0 835.889 {Tags:["propStand","toad","yellow"],NoBasePlate:1b,ShowArms:1b,Small:1b,Pose:{LeftArm:[221f,342f,46f],RightArm:[245f,40f,12f]}}
 
+scoreboard players set @e[tag=propStand] duration.1 1
+scoreboard players set @e[tag=propStand] duration.2 1
+scoreboard players set @e[tag=propStand] duration.3 1
 execute as @e[tag=propStand] run function ssbrc:logic/characters/armor/get
+scoreboard players set @e[tag=propStand] duration.1 0
+scoreboard players set @e[tag=propStand] duration.2 0
+scoreboard players set @e[tag=propStand] duration.3 0
 
 time set noon
 weather clear
