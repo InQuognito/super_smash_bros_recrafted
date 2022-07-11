@@ -14,6 +14,6 @@ item modify entity @s weapon.mainhand ssbrc:characters/link.master_sword
 # Sword Spin
 scoreboard players add $swordSpin rotation 15
 execute if score $swordSpin rotation matches 360.. run scoreboard players reset $swordSpin rotation
-execute as @e[tag=spinner] store result entity @s Rotation[0] float 1.0 run scoreboard players get $swordSpin rotation
+execute as @e[tag=link.spinner] store result entity @s Rotation[0] float 1.0 run scoreboard players get $swordSpin rotation
 
 execute if entity @s[scores={charge.1=1..}] at @s anchored eyes run function ssbrc:series/the_legend_of_zelda/link/logic/weapons/sword_spin/charge

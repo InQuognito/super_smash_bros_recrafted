@@ -130,4 +130,5 @@ effect give @a[team=!spectator] minecraft:glowing 1000000 255 true
 tag @a remove room.characterSelect
 tag @a add room.mapVoting
 
-title @a actionbar ""
+title @a clear
+title @a reset

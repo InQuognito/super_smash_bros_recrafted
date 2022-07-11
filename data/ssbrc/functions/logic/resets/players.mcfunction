@@ -11,7 +11,8 @@ xp set @s 0 points
 
 effect clear @s
 
-title @s actionbar ""
+title @s clear
+title @s reset
 
 spawnpoint @s -521 5 55 90.0
 tp @s -520.5 5.0 55.5 90.0 0.0
