@@ -11,6 +11,7 @@ tag @s remove ganondorf
 tag @s remove giegue
 tag @s remove greninja
 tag @s remove hero
+tag @s remove jigglypuff
 tag @s remove joker
 tag @s remove kirby
 tag @s remove kingkrool

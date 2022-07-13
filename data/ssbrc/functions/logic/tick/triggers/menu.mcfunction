@@ -80,6 +80,13 @@ execute if score @s[tag=!hero] menu matches 445 run function ssbrc:series/dragon
 execute if score @s[tag=!hero] menu matches 446 run function ssbrc:series/dragon_quest/hero/menu/skins/erdrick
 execute if score @s[tag=!hero] menu matches 447 run function ssbrc:series/dragon_quest/hero/menu/skins/rek
 
+execute if score @s[tag=!jigglypuff] menu matches 580 run function ssbrc:series/pokemon/jigglypuff/menu/select_character
+execute if score @s[tag=!jigglypuff] menu matches 581 run function ssbrc:series/pokemon/jigglypuff/menu/skin_options
+execute if score @s[tag=!jigglypuff] menu matches 582 run function ssbrc:series/pokemon/jigglypuff/menu/favorite
+execute if score @s[tag=!jigglypuff] menu matches 583 run function ssbrc:series/pokemon/jigglypuff/menu/how_to_play
+execute if score @s[tag=!jigglypuff] menu matches 584 run function ssbrc:series/pokemon/jigglypuff/menu/skins/default
+execute if score @s[tag=!jigglypuff] menu matches 585 run function ssbrc:series/pokemon/jigglypuff/menu/skins/gold
+
 execute if score @s[tag=!joker] menu matches 600 run function ssbrc:series/persona/joker/menu/select_character
 execute if score @s[tag=!joker] menu matches 601 run function ssbrc:series/persona/joker/menu/skin_options
 execute if score @s[tag=!joker] menu matches 602 run function ssbrc:series/persona/joker/menu/favorite

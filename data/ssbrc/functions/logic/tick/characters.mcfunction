@@ -5,6 +5,7 @@ execute if entity @s[tag=darksamus] run function ssbrc:series/metroid/darksamus/
 execute if entity @s[tag=ganondorf] run function ssbrc:series/the_legend_of_zelda/ganondorf/logic/tick
 execute if entity @s[tag=greninja] run function ssbrc:series/pokemon/greninja/logic/tick
 execute if entity @s[tag=hero] run function ssbrc:series/dragon_quest/hero/logic/tick
+execute if entity @s[tag=jigglypuff] run function ssbrc:series/pokemon/jigglypuff/logic/tick
 execute if entity @s[tag=joker] run function ssbrc:series/persona/joker/logic/tick
 execute if entity @s[tag=kirby] run function ssbrc:series/kirby/kirby/logic/tick
 execute if entity @s[tag=link] run function ssbrc:series/the_legend_of_zelda/link/logic/tick

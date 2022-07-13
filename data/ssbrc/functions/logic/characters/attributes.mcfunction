@@ -5,12 +5,12 @@ attribute @s[predicate=ssbrc:characters/armor_values/medium] minecraft:generic.a
 attribute @s[predicate=ssbrc:characters/armor_values/high] minecraft:generic.armor base set 14.0
 
 # Attack Damage
-attribute @s[predicate=ssbrc:characters/attack_damage/low] minecraft:generic.attack_damage base set 2.0
-attribute @s[predicate=ssbrc:characters/attack_damage/medium] minecraft:generic.attack_damage base set 4.0
+attribute @s[predicate=ssbrc:characters/attack_damage/low] minecraft:generic.attack_damage base set 1.0
+attribute @s[predicate=ssbrc:characters/attack_damage/medium] minecraft:generic.attack_damage base set 2.0
 
 # Attack Speed
-attribute @s[predicate=ssbrc:characters/attack_speed/low] minecraft:generic.attack_speed base set 4.0
-attribute @s[predicate=ssbrc:characters/attack_speed/medium] minecraft:generic.attack_speed base set 6.0
+attribute @s[predicate=ssbrc:characters/attack_speed/low] minecraft:generic.attack_speed base set 1.0
+attribute @s[predicate=ssbrc:characters/attack_speed/medium] minecraft:generic.attack_speed base set 2.0
 
 # Knockback Resistance
 attribute @s[predicate=ssbrc:characters/knockback_resistance/none] minecraft:generic.knockback_resistance base set 0.0
@@ -25,6 +25,7 @@ attribute @s[predicate=ssbrc:characters/speed/default] minecraft:generic.movemen
 attribute @s[tag=cloud,tag=punisher] minecraft:generic.movement_speed base set 0.03
 attribute @s[tag=darksamus] minecraft:generic.movement_speed base set 0.095
 attribute @s[tag=ganondorf] minecraft:generic.movement_speed base set 0.085
+attribute @s[tag=jigglypuff] minecraft:generic.movement_speed base set 0.085
 attribute @s[tag=kingkrool] minecraft:generic.movement_speed base set 0.085
 attribute @s[tag=meowth] minecraft:generic.movement_speed base set 0.125
 attribute @s[tag=samus] minecraft:generic.movement_speed base set 0.09
