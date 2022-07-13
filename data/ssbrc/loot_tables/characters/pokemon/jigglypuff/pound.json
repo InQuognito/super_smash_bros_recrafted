@@ -31,7 +31,7 @@
 								{
 									"attribute": "minecraft:generic.attack_speed",
 									"name": "Attack Speed",
-									"amount": 1.5,
+									"amount": 0.75,
 									"operation": "multiply_base",
 									"slot": "mainhand"
 								}
