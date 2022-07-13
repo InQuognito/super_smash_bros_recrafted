@@ -8,6 +8,7 @@ execute if entity @s[tag=fox] run function ssbrc:series/star_fox/fox/kit
 execute if entity @s[tag=ganondorf] run function ssbrc:series/the_legend_of_zelda/ganondorf/kit
 execute if entity @s[tag=greninja] run function ssbrc:series/pokemon/greninja/kit
 execute if entity @s[tag=hero] run function ssbrc:series/dragon_quest/hero/kit
+execute if entity @s[tag=jigglypuff] run function ssbrc:series/pokemon/jigglypuff/kit
 execute if entity @s[tag=joker] run function ssbrc:series/persona/joker/kit
 execute if entity @s[tag=kingkrool] run function ssbrc:series/donkey_kong/kingkrool/kit
 execute if entity @s[tag=kirby] run function ssbrc:series/kirby/kirby/kit
