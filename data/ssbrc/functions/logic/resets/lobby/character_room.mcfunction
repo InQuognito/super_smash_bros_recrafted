@@ -28,6 +28,9 @@ summon minecraft:armor_stand 14.5 6.0 158.5 {Tags:["lobbyStand","greninja","defa
 summon minecraft:area_effect_cloud 14.5 7.75 148.5 {CustomName:'{"text":"Hero","color":"yellow"}',CustomNameVisible:1b,Age:-2147483648,Duration:-1,WaitTime:-2147483648}
 summon minecraft:armor_stand 14.5 6.0 146.5 {Tags:["lobbyStand","hero","default"],Rotation:[0f,0f]}
 
+summon minecraft:area_effect_cloud 62.5 7.75 106.5 {CustomName:'{"text":"Jigglypuff","color":"light_purple"}',CustomNameVisible:1b,Age:-2147483648,Duration:-1,WaitTime:-2147483648}
+summon minecraft:armor_stand 60.5 6.0 106.5 {Tags:["lobbyStand","jigglypuff","default"],Rotation:[-90f,0f]}
+
 summon minecraft:area_effect_cloud 11.5 7.75 154.5 {CustomName:'{"text":"Joker","color":"dark_red"}',CustomNameVisible:1b,Age:-2147483648,Duration:-1,WaitTime:-2147483648}
 summon minecraft:armor_stand 9.5 6.0 154.5 {Tags:["lobbyStand","joker","default"],Rotation:[-90f,0f]}
 
