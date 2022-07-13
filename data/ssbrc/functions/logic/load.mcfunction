@@ -30,8 +30,6 @@ weather clear
 
 setworldspawn -521 5 55
 
-tag @a remove loaded
-
 function ssbrc:logic/timer
 schedule function ssbrc:logic/resets/lobby 1s replace
 
@@ -40,3 +38,5 @@ schedule function ssbrc:logic/resets/lobby 1s replace
 #######################
 advancement grant @a through ssbrc:skins
 #######################
+
+tag @a remove loaded
