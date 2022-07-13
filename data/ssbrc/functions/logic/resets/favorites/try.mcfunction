@@ -9,6 +9,7 @@ tag @a remove favoritetry.fox
 tag @a remove favoritetry.ganondorf
 tag @a remove favoritetry.greninja
 tag @a remove favoritetry.hero
+tag @a remove favoritetry.jigglypuff
 tag @a remove favoritetry.joker
 tag @a remove favoritetry.kirby
 tag @a remove favoritetry.kingkrool

@@ -8,6 +8,7 @@ execute if entity @s[tag=favoritetry.fox] run scoreboard players set @s favorite
 execute if entity @s[tag=favoritetry.ganondorf] run scoreboard players set @s favorite.slot2 400
 execute if entity @s[tag=favoritetry.greninja] run scoreboard players set @s favorite.slot2 420
 execute if entity @s[tag=favoritetry.hero] run scoreboard players set @s favorite.slot2 440
+execute if entity @s[tag=favoritetry.jigglypuff] run scoreboard players set @s favorite.slot2 580
 execute if entity @s[tag=favoritetry.joker] run scoreboard players set @s favorite.slot2 600
 execute if entity @s[tag=favoritetry.kingkrool] run scoreboard players set @s favorite.slot2 680
 execute if entity @s[tag=favoritetry.kirby] run scoreboard players set @s favorite.slot2 700
