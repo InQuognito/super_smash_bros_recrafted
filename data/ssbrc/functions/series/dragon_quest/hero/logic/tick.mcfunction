@@ -33,7 +33,7 @@ execute if score @s[tag=!hero.magicLost] mana >= #hero.maxMana vars run title @s
 
 execute if score @s[tag=hero.magicLost] mana > #hero.maxMana vars run scoreboard players operation @s mana = #hero.maxMana vars
 
-execute if score @s[tag=!hero.magicLost] mana >= #hero.maxMana vars run item replace entity @s hotbar.4 with minecraft:carrot_on_a_stick{magicBurst:1,CustomModelData:443,Unbreakable:1,display:{Name:'[{"text":"Magic Burst","italic":false,"color":"light_purple","bold":true}]'},HideFlags:127} 1
+execute if score @s[tag=!hero.magicLost] mana >= #hero.maxMana vars run loot replace entity @s hotbar.4 loot ssbrc:characters/dragon_quest/hero/magic_burst
 execute if score @s mana < #hero.maxMana vars run clear @s minecraft:carrot_on_a_stick{magicBurst:1}
 
 # Bang

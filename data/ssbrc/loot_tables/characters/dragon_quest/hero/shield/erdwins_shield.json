@@ -1,0 +1,75 @@
+{
+	"type": "minecraft:command",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:shield",
+					"functions": [
+						{
+							"function": "minecraft:set_name",
+							"entity": "this",
+							"name": {
+								"text": "Erdwin's Shield",
+								"color": "yellow",
+								"bold": true,
+								"italic": false
+							}
+						},
+						{
+							"function": "minecraft:set_attributes",
+							"modifiers": [
+								{
+									"attribute": "minecraft:generic.attack_damage",
+									"name": "Attack Damage",
+									"amount": 0,
+									"operation": "multiply_base",
+									"slot": "mainhand"
+								},
+								{
+									"attribute": "minecraft:generic.attack_speed",
+									"name": "Attack Speed",
+									"amount": 0,
+									"operation": "multiply_base",
+									"slot": "mainhand"
+								}
+							]
+						},
+						{
+							"function": "minecraft:set_banner_pattern",
+							"patterns": [
+								{
+									"pattern": "minecraft:base",
+									"color": "blue"
+								},
+								{
+									"pattern": "minecraft:flower",
+									"color": "yellow"
+								},
+								{
+									"pattern": "minecraft:skull",
+									"color": "yellow"
+								},
+								{
+									"pattern": "minecraft:circle",
+									"color": "red"
+								},
+								{
+									"pattern": "minecraft:border",
+									"color": "yellow"
+								}
+							],
+							"append": false
+						},
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{erdwinsShield:1,Damage:316,HideFlags:127}"
+						}
+					]
+				}
+			]
+		}
+	]
+}

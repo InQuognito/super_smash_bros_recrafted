@@ -1,6 +1,6 @@
-item replace entity @s[tag=!rek] hotbar.0 with minecraft:iron_sword{flameSlash:1,CustomModelData:441,Unbreakable:1,AttributeModifiers:[{AttributeName:"minecraft:generic.attack_damage",Amount:4,Slot:mainhand,Name:"minecraft:generic.attack_damage",UUID:[I;-12164,22807,92130,-45614]},{AttributeName:"minecraft:generic.attack_speed",Amount:-2.6,Slot:mainhand,Name:"minecraft:generic.attack_speed",UUID:[I;-12164,22907,92130,-45814]}],display:{Name:'[{"text":"Flame Slash","italic":false,"color":"gold","bold":true}]'},HideFlags:127} 1
-item replace entity @s[tag=rek] hotbar.0 with minecraft:iron_sword{flameSlash:1,CustomModelData:442,Unbreakable:1,AttributeModifiers:[{AttributeName:"minecraft:generic.attack_damage",Amount:4,Slot:mainhand,Name:"minecraft:generic.attack_damage",UUID:[I;-12164,22807,92130,-45614]},{AttributeName:"minecraft:generic.attack_speed",Amount:-2.6,Slot:mainhand,Name:"minecraft:generic.attack_speed",UUID:[I;-12164,22907,92130,-45814]}],display:{Name:'[{"text":"Flame Slash","italic":false,"color":"gold","bold":true}]'},HideFlags:127} 1
-item replace entity @s hotbar.1 with minecraft:carrot_on_a_stick{bang:1,CustomModelData:441,Unbreakable:1,display:{Name:'[{"text":"Bang","italic":false,"color":"red","bold":true}]'},HideFlags:127} 1
-item replace entity @s hotbar.2 with minecraft:carrot_on_a_stick{kaclang:1,CustomModelData:442,Unbreakable:1,display:{Name:'[{"text":"Kaclang","italic":false,"color":"dark_aqua","bold":true}]'},HideFlags:127} 1
+loot replace entity @s[tag=!rek] hotbar.0 loot ssbrc:characters/dragon_quest/hero/flame_slash/default
+loot replace entity @s[tag=rek] hotbar.0 loot ssbrc:characters/dragon_quest/hero/flame_slash/sword_of_ramias
+loot replace entity @s hotbar.1 loot ssbrc:characters/dragon_quest/hero/bang
+loot replace entity @s hotbar.1 loot ssbrc:characters/dragon_quest/hero/kaclang
 
 scoreboard players set @s mana 15

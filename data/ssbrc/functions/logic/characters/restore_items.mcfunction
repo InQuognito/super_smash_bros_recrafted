@@ -9,7 +9,7 @@ item replace entity @s[tag=byleth.blackEagles] weapon.offhand with minecraft:shi
 give @s[tag=byleth.blackEagles,tag=byleth.weaponBroken] minecraft:spectral_arrow 4
 
 # Captain Falcon
-clear @s[tag=captainfalcon] minecraft:golden_sword{falconpunch:1}
+clear @s[tag=captainfalcon] minecraft:golden_sword{falconPunch:1}
 item replace entity @s[tag=captainfalcon] hotbar.2 with minecraft:golden_sword{Damage:33,AttributeModifiers:[{AttributeName:"minecraft:generic.attack_damage",Amount:17,Slot:mainhand,Name:"minecraft:generic.attack_damage",UUID:[I;-121512,40620,123840,-81240]},{AttributeName:"minecraft:generic.attack_speed",Amount:-3,Slot:mainhand,Name:"minecraft:generic.attack_speed",UUID:[I;-121512,40720,123840,-81440]},{AttributeName:"minecraft:generic.movement_speed",Amount:-.05,Slot:mainhand,Name:"minecraft:generic.movement_speed",UUID:[I;-121512,40820,123840,-81640]}],display:{Name:'[{"text":"Falcon Punch","italic":false,"color":"gold","bold":true}]'},Enchantments:[{id:"fire_aspect",lvl:2},{id:"knockback",lvl:1}],HideFlags:127} 1
 
 clear @s[tag=captainfalcon] minecraft:spectral_arrow
@@ -21,9 +21,8 @@ tag @s[tag=cloud] add operator
 scoreboard players set @s[tag=cloud] cloud.limit 0
 
 # Donkey Kong
-clear @s[tag=donkeykong] minecraft:splash_potion{CustomPotionColor:16744448,display:{Name:'[{"text":"Orange Bomb","italic":false,"bold":true,"color":"gold"}]'},HideFlags:127,CustomPotionEffects:[{Id:7,Duration:0,Amplifier:0b,ShowParticles:0b,ShowIcon:0b}]} 2
-item replace entity @s[tag=donkeykong] hotbar.2 with minecraft:splash_potion{CustomPotionColor:16744448,display:{Name:'[{"text":"Orange Bomb","italic":false,"bold":true,"color":"gold"}]'},HideFlags:127,CustomPotionEffects:[{Id:7,Duration:0,Amplifier:0b,ShowParticles:0b,ShowIcon:0b}]} 1
-item replace entity @s[tag=donkeykong] hotbar.3 with minecraft:splash_potion{CustomPotionColor:16744448,display:{Name:'[{"text":"Orange Bomb","italic":false,"bold":true,"color":"gold"}]'},HideFlags:127,CustomPotionEffects:[{Id:7,Duration:0,Amplifier:0b,ShowParticles:0b,ShowIcon:0b}]} 1
+clear @s[tag=donkeykong] minecraft:splash_potion{orangeBomb:1}
+loot replace entity @s hotbar.2 loot ssbrc:characters/donkey_kong/donkeykong/orange_bomb
 
 # Fox
 give @s[tag=fox] minecraft:spectral_arrow 4
@@ -60,10 +59,8 @@ clear @s[tag=megaman] minecraft:lingering_potion{CustomPotionColor:5974645,displ
 item replace entity @s[tag=megaman] hotbar.2 with minecraft:lingering_potion{CustomPotionColor:5974645,display:{Name:'[{"text":"Black Hole Bomb","italic":false,"color":"dark_purple","bold":true}]'},CustomPotionEffects:[{Id:22,Duration:-1},{Id:7,Duration:1,Amplifier:1b},{Id:2,Duration:100,Amplifier:6b},{Id:20,Duration:160,Amplifier:2b}]} 1
 
 # Ness
-execute store result score @s[tag=ness] itemCount run clear @s[tag=ness] minecraft:splash_potion{CustomPotionColor:552489,display:{Name:'[{"text":"PK Flash","italic":false,"bold":true,"color":"green"}]'},CustomPotionEffects:[{Id:15,Duration:160,Amplifier:0b},{Id:7,Duration:1,Amplifier:0b},{Id:2,Duration:160,Amplifier:1b},{Id:18,Duration:160,Amplifier:1b}]} 0
-clear @s[tag=ness] minecraft:splash_potion{CustomPotionColor:552489,display:{Name:'[{"text":"PK Flash","italic":false,"bold":true,"color":"green"}]'},CustomPotionEffects:[{Id:15,Duration:160,Amplifier:0b},{Id:7,Duration:1,Amplifier:0b},{Id:2,Duration:160,Amplifier:1b},{Id:18,Duration:160,Amplifier:1b}]} 2
-item replace entity @s[tag=ness] hotbar.2 with minecraft:splash_potion{CustomPotionColor:552489,display:{Name:'[{"text":"PK Flash","italic":false,"bold":true,"color":"green"}]'},CustomPotionEffects:[{Id:15,Duration:160,Amplifier:0b},{Id:7,Duration:1,Amplifier:0b},{Id:2,Duration:160,Amplifier:1b},{Id:18,Duration:160,Amplifier:1b}]} 1
-item replace entity @s[tag=ness,scores={itemCount=1}] hotbar.3 with minecraft:splash_potion{CustomPotionColor:552489,display:{Name:'[{"text":"PK Flash","italic":false,"bold":true,"color":"green"}]'},CustomPotionEffects:[{Id:15,Duration:160,Amplifier:0b},{Id:7,Duration:1,Amplifier:0b},{Id:2,Duration:160,Amplifier:1b},{Id:18,Duration:160,Amplifier:1b}]} 1
+clear @s[tag=ness] minecraft:splash_potion{pkFlash:1}
+loot replace entity @s[tag=ness] hotbar.2 loot ssbrc:characters/earthbound/ness/pk_flash
 
 # Pit
 item replace entity @s[tag=pit] armor.chest with minecraft:elytra{Damage:417,HideFlags:127} 1
@@ -101,10 +98,10 @@ loot replace entity @s[tag=waretiger] hotbar.0 loot ssbrc:characters/retro_fight
 loot replace entity @s[tag=waretiger] weapon.offhand loot ssbrc:characters/retro_fighters/alteredbeast/waretiger/sabretooth
 
 # Alucard
-clear @s[tag=alucard] minecraft:shield
+clear @s[tag=alucard] minecraft:shield{alucardShield:1}
 scoreboard players set @s[tag=alucard] durability 300
 execute store result storage ssbrc:alucard_shield damage int 1.0 run scoreboard players get @s durability
-loot replace entity @s[tag=alucard] weapon.offhand loot ssbrc:alucard_shield
+loot replace entity @s[tag=alucard] weapon.offhand loot ssbrc:characters/castlevania/alucard/alucard_shield
 
 # Shovelknight
 scoreboard players set @s[tag=shovelknight] mana 10

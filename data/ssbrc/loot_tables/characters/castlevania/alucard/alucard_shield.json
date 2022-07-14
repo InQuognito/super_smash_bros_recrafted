@@ -22,27 +22,27 @@
 							"function": "minecraft:set_banner_pattern",
 							"patterns": [
 								{
-									"pattern": "base",
+									"pattern": "minecraft:base",
 									"color": "red"
 								},
 								{
-									"pattern": "triangle_top",
+									"pattern": "minecraft:triangle_top",
 									"color": "gray"
 								},
 								{
-									"pattern": "cross",
+									"pattern": "minecraft:cross",
 									"color": "black"
 								},
 								{
-									"pattern": "rhombus",
+									"pattern": "minecraft:rhombus",
 									"color": "gray"
 								},
 								{
-									"pattern": "flower",
+									"pattern": "minecraft:flower",
 									"color": "yellow"
 								},
 								{
-									"pattern": "piglin",
+									"pattern": "minecraft:piglin",
 									"color": "gray"
 								}
 							],
@@ -50,7 +50,7 @@
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{HideFlags:127}"
+							"tag": "{alucardShield:1,HideFlags:127}"
 						},
 						{
 							"function": "minecraft:copy_nbt",
