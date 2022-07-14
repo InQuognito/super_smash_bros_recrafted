@@ -101,12 +101,12 @@ tag @s remove punisher
 tag @s remove quicksand
 tag @s remove room.characterSelect
 tag @s remove room.mapVoting
-tag @s remove snake.apm
+tag @s remove snake.antiPersonnelMine
 tag @s remove snake.famas
 tag @s remove snake.psg1
 tag @s remove snake.s1000
 tag @s remove snake.selectingLoadout
-tag @s remove snake.sg
+tag @s remove snake.smokeGrenade
 tag @s remove snake.socom
 tag @s remove stalfosGet
 tag @s remove steve.hasBow
