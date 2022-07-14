@@ -36,6 +36,7 @@ execute as @a[tag=!fox,predicate=!ssbrc:flag/sneaking,scores={selectFavorite=1..
 execute as @a[tag=!ganondorf,predicate=!ssbrc:flag/sneaking,scores={selectFavorite=1..,favorite.temp=400}] run function ssbrc:series/the_legend_of_zelda/ganondorf/menu/select_character
 execute as @a[tag=!greninja,predicate=!ssbrc:flag/sneaking,scores={selectFavorite=1..,favorite.temp=420}] run function ssbrc:series/pokemon/greninja/menu/select_character
 execute as @a[tag=!hero,predicate=!ssbrc:flag/sneaking,scores={selectFavorite=1..,favorite.temp=440}] run function ssbrc:series/dragon_quest/hero/menu/select_character
+execute as @a[tag=!jigglypuff,predicate=!ssbrc:flag/sneaking,scores={selectFavorite=1..,favorite.temp=580}] run function ssbrc:series/pokemon/jigglypuff/menu/select_character
 execute as @a[tag=!joker,predicate=!ssbrc:flag/sneaking,scores={selectFavorite=1..,favorite.temp=600}] run function ssbrc:series/persona/joker/menu/select_character
 execute as @a[tag=!kingkrool,predicate=!ssbrc:flag/sneaking,scores={selectFavorite=1..,favorite.temp=680}] run function ssbrc:series/donkey_kong/kingkrool/menu/select_character
 execute as @a[tag=!kirby,predicate=!ssbrc:flag/sneaking,scores={selectFavorite=1..,favorite.temp=700}] run function ssbrc:series/kirby/kirby/menu/select_character
@@ -70,6 +71,7 @@ execute as @a[predicate=ssbrc:flag/sneaking,scores={selectFavorite=1..,favorite.
 execute as @a[predicate=ssbrc:flag/sneaking,scores={selectFavorite=1..,favorite.temp=400}] run function ssbrc:series/the_legend_of_zelda/ganondorf/menu/prompt
 execute as @a[predicate=ssbrc:flag/sneaking,scores={selectFavorite=1..,favorite.temp=420}] run function ssbrc:series/pokemon/greninja/menu/prompt
 execute as @a[predicate=ssbrc:flag/sneaking,scores={selectFavorite=1..,favorite.temp=440}] run function ssbrc:series/dragon_quest/hero/menu/prompt
+execute as @a[predicate=ssbrc:flag/sneaking,scores={selectFavorite=1..,favorite.temp=580}] run function ssbrc:series/pokemon/jigglypuff/menu/prompt
 execute as @a[predicate=ssbrc:flag/sneaking,scores={selectFavorite=1..,favorite.temp=600}] run function ssbrc:series/persona/joker/menu/prompt
 execute as @a[predicate=ssbrc:flag/sneaking,scores={selectFavorite=1..,favorite.temp=680}] run function ssbrc:series/donkey_kong/kingkrool/menu/prompt
 execute as @a[predicate=ssbrc:flag/sneaking,scores={selectFavorite=1..,favorite.temp=700}] run function ssbrc:series/kirby/kirby/menu/prompt
