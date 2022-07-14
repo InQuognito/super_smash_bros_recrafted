@@ -1,0 +1,57 @@
+{
+	"type": "minecraft:command",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:carrot_on_a_stick",
+					"functions": [
+						{
+							"function": "minecraft:set_name",
+							"entity": "this",
+							"name": {
+								"text": "Kingdom Key",
+								"color": "white",
+								"bold": true,
+								"italic": false,
+								"extra": [
+									{
+										"text": "(Blizzaga)",
+										"color": "aqua",
+										"bold": false,
+										"italic": false
+									}
+								]
+							}
+						},
+						{
+							"function": "minecraft:set_attributes",
+							"modifiers": [
+								{
+									"attribute": "minecraft:generic.attack_damage",
+									"name": "Attack Damage",
+									"amount": 6,
+									"operation": "multiply_base",
+									"slot": "mainhand"
+								},
+								{
+									"attribute": "minecraft:generic.attack_speed",
+									"name": "Attack Speed",
+									"amount": 1.5,
+									"operation": "multiply_base",
+									"slot": "mainhand"
+								}
+							]
+						},
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{keyblade:1,blizzaga:1,Unbreakable:1,HideFlags:127}"
+						}
+					]
+				}
+			]
+		}
+	]
+}

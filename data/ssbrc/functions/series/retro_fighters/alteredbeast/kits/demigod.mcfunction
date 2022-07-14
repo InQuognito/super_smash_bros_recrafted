@@ -3,7 +3,7 @@ tag @s add demigod
 
 tellraw @s [{"text":"Altered Beast Form: ","bold":true,"color":"gold"},{"text":"Demigod","bold":false,"color":"yellow"}]
 
-clear @s minecraft:stone_axe
-item replace entity @s hotbar.0 with minecraft:iron_axe{Unbreakable:1,AttributeModifiers:[{AttributeName:"minecraft:generic.attack_damage",Amount:5,Slot:mainhand,Name:"minecraft:generic.attack_damage",UUID:[I;-12164,22807,92130,-45614]},{AttributeName:"minecraft:generic.attack_speed",Amount:-2.6,Slot:mainhand,Name:"minecraft:generic.attack_speed",UUID:[I;-12164,22907,92130,-45814]}],display:{Name:'[{"text":"Demi-Axe","italic":false,"color":"gray","bold":true}]'},HideFlags:127} 1
+clear @s minecraft:stone_axe{axe:1}
+loot replace entity @s hotbar.0 loot ssbrc:characters/retro_fighters/alteredbeast/demigod/axe
 
 function ssbrc:logic/characters/armor/update
