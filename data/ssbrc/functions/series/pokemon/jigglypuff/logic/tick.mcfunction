@@ -1,8 +1,8 @@
 execute if entity @s[scores={useAbility=1..},nbt={SelectedItem:{tag:{hyperVoice:1}}}] at @s run function ssbrc:series/pokemon/jigglypuff/logic/abilities/hyper_voice/activate
 execute if entity @s[scores={useAbility=1..},nbt={SelectedItem:{tag:{hyperVoice:1}}}] at @s run function ssbrc:series/pokemon/jigglypuff/logic/abilities/rest/activate
 
-execute if entity @s[tag=hotAir,predicate=ssbrc:flag/sneaking,scores={cooldown.1=..0}] unless score $sectorZ map matches 1 run function ssbrc:series/pokemon/jigglypuff/logic/abilities/hot_air/on
-execute if entity @s[tag=!hotAAir,predicate=ssbrc:flag/sneaking,scores={cooldown.1=..0}] unless score $sectorZ map matches 1 run function ssbrc:series/pokemon/jigglypuff/logic/abilities/hot_air/on
+execute if entity @s[predicate=ssbrc:flag/sneaking,predicate=ssbrc:flag/effects/slow_falling,scores={cooldown.1=..0}] unless score $sectorZ map matches 1 run function ssbrc:series/pokemon/jigglypuff/logic/abilities/hot_air/off
+execute if entity @s[predicate=ssbrc:flag/sneaking,predicate=!ssbrc:flag/effects/slow_falling,scores={cooldown.1=..0}] unless score $sectorZ map matches 1 run function ssbrc:series/pokemon/jigglypuff/logic/abilities/hot_air/on
 execute if entity @s[predicate=ssbrc:flag/sneaking] unless score $sectorZ map matches 1 run scoreboard players set @s cooldown.1 2
 
 tag @s add self
