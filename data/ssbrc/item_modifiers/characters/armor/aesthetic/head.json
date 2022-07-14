@@ -514,6 +514,19 @@
 	},
 	{
 		"function": "minecraft:set_nbt",
+		"tag": "{CustomModelData:581}",
+		"conditions": [
+			{
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"nbt": "{Tags:[\"jigglypuff\",\"shiny\"]}"
+				}
+			}
+		]
+	},
+	{
+		"function": "minecraft:set_nbt",
 		"tag": "{CustomModelData:600}",
 		"conditions": [
 			{

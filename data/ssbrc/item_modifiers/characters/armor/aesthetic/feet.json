@@ -222,13 +222,26 @@
 	},
 	{
 		"function": "minecraft:set_nbt",
-		"tag": "{display:{color:16041671}}",
+		"tag": "{display:{color:15909332}}",
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
 				"entity": "this",
 				"predicate": {
 					"nbt": "{Tags:[\"jigglypuff\",\"default\"]}"
+				}
+			}
+		]
+	},
+	{
+		"function": "minecraft:set_nbt",
+		"tag": "{display:{color:15904207}}",
+		"conditions": [
+			{
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"nbt": "{Tags:[\"jigglypuff\",\"shiny\"]}"
 				}
 			}
 		]
