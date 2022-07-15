@@ -1,5 +1,6 @@
 gamerule announceAdvancements false
-gamerule commandBlockOutput false
+execute unless score $debug options matches 1 run gamerule commandBlockOutput false
+execute if score $debug options matches 1 run gamerule commandBlockOutput true
 gamerule disableElytraMovementCheck false
 gamerule disableRaids true
 gamerule doDaylightCycle false
@@ -19,15 +20,18 @@ gamerule fireDamage true
 gamerule forgiveDeadPlayers true
 gamerule freezeDamage true
 gamerule keepInventory true
-gamerule logAdminCommands false
+execute unless score $debug options matches 1 run gamerule logAdminCommands false
+execute if score $debug options matches 1 run gamerule logAdminCommands true
 gamerule maxCommandChainLength 65536
 gamerule maxEntityCramming 24
 gamerule mobGriefing false
 gamerule naturalRegeneration false
 gamerule playersSleepingPercentage 100
 gamerule randomTickSpeed 3
-gamerule reducedDebugInfo true
-gamerule sendCommandFeedback false
+execute unless score $debug options matches 1 run gamerule reducedDebugInfo true
+execute if score $debug options matches 1 run gamerule reducedDebugInfo false
+execute unless score $debug options matches 1 run gamerule sendCommandFeedback false
+execute if score $debug options matches 1 run gamerule sendCommandFeedback true
 gamerule showDeathMessages true
 gamerule spawnRadius 1
 gamerule spectatorsGenerateChunks false
