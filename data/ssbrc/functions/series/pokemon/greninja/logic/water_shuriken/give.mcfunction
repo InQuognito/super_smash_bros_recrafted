@@ -2,4 +2,4 @@ scoreboard players set @s charge.1 0
 scoreboard players add @s[scores={charge.2=..4}] charge.2 1
 
 execute store result score @s itemCount run clear @s minecraft:carrot_on_a_stick{waterShuriken:1} 0
-execute if score @s itemCount matches ..0 run give @s minecraft:carrot_on_a_stick{waterShuriken:1,Unbreakable:1,display:{Name:'[{"text":"Water Shuriken","italic":false,"color":"blue","bold":true}]'},HideFlags:127} 1
+execute if score @s itemCount matches ..0 run loot give @s loot ssbrc:characters/pokemon/greninja/water_shuriken

@@ -4,13 +4,13 @@ scoreboard players set @s duration.3 1
 
 # Byleth
 clear @s[tag=byleth] minecraft:shield
-item replace entity @s[tag=byleth.blackEagles] weapon.offhand with minecraft:shield{Damage:310,HideFlags:127} 1
+loot replace entity @s[tag=byleth.blackEagles] weapon.offhand loot ssbrc:characters/fire_emblem/byleth/shield
 
 give @s[tag=byleth.blackEagles,tag=byleth.weaponBroken] minecraft:spectral_arrow 4
 
 # Captain Falcon
 clear @s[tag=captainfalcon] minecraft:golden_sword{falconPunch:1}
-item replace entity @s[tag=captainfalcon] hotbar.2 with minecraft:golden_sword{Damage:33,AttributeModifiers:[{AttributeName:"minecraft:generic.attack_damage",Amount:17,Slot:mainhand,Name:"minecraft:generic.attack_damage",UUID:[I;-121512,40620,123840,-81240]},{AttributeName:"minecraft:generic.attack_speed",Amount:-3,Slot:mainhand,Name:"minecraft:generic.attack_speed",UUID:[I;-121512,40720,123840,-81440]},{AttributeName:"minecraft:generic.movement_speed",Amount:-.05,Slot:mainhand,Name:"minecraft:generic.movement_speed",UUID:[I;-121512,40820,123840,-81640]}],display:{Name:'[{"text":"Falcon Punch","italic":false,"color":"gold","bold":true}]'},Enchantments:[{id:"fire_aspect",lvl:2},{id:"knockback",lvl:1}],HideFlags:127} 1
+loot replace entity @s[tag=captainfalcon] hotbar.2 loot ssbrc:characters/f_zero/captainfalcon/falcon_punch
 
 clear @s[tag=captainfalcon] minecraft:spectral_arrow
 give @s[tag=captainfalcon] minecraft:spectral_arrow 5
@@ -22,7 +22,7 @@ scoreboard players set @s[tag=cloud] cloud.limit 0
 
 # Donkey Kong
 clear @s[tag=donkeykong] minecraft:splash_potion{orangeBomb:1}
-loot replace entity @s hotbar.2 loot ssbrc:characters/donkey_kong/donkeykong/orange_bomb
+loot replace entity @s[tag=donkeykong] hotbar.2 loot ssbrc:characters/donkey_kong/donkeykong/orange_bomb
 
 # Fox
 give @s[tag=fox] minecraft:spectral_arrow 4
@@ -73,9 +73,9 @@ execute if entity @s[tag=pokemontrainer,tag=ivysaur,tag=!pokemontrainer.picked] 
 
 # Ryu
 execute if entity @s[tag=ryu] run function ssbrc:series/street_fighter/ryu/logic/off
-execute if score $gameMode options matches 1 if score @s[tag=ryu] stocks matches 1 run item replace entity @s[tag=!abilityUsed] hotbar.2 with minecraft:carrot_on_a_stick{ability.ryu:1,CustomModelData:1401,Unbreakable:1,display:{Name:'[{"text":"Satsui no Hado Rage","italic":false,"color":"#660000","bold":true}]'}} 1
-execute if score $gameMode options matches 2 run clear @s[tag=ryu] minecraft:carrot_on_a_stick{ability.ryu:1}
-execute if score $gameMode options matches 2 if score $gameTime timer matches ..60 run item replace entity @s[tag=ryu,tag=!abilityUsed] hotbar.2 with minecraft:carrot_on_a_stick{ability.ryu:1,CustomModelData:1401,Unbreakable:1,display:{Name:'[{"text":"Satsui no Hado Rage","italic":false,"color":"#660000","bold":true}]'}} 1
+execute if score $gameMode options matches 1 if score @s[tag=ryu] stocks matches 1 run loot replace entity @s[tag=!abilityUsed] hotbar.2 loot ssbrc:characters/street_fighter/ryu/satsui_no_hado_rage
+execute if score $gameMode options matches 2 run clear @s[tag=ryu] minecraft:carrot_on_a_stick{satsuiNoHadoRage:1}
+execute if score $gameMode options matches 2 if score $gameTime timer matches ..60 run loot replace entity @s[tag=ryu,tag=!abilityUsed] hotbar.2 loot ssbrc:characters/street_fighter/ryu/satsui_no_hado_rage
 
 # Sora
 execute if entity @s[tag=sora] run function ssbrc:series/kingdom_hearts/sora/kit

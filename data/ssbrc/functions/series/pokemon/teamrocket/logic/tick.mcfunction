@@ -10,7 +10,7 @@ execute as @e[tag=paydayProjectile] at @s if score @s id = @p[tag=self] id run p
 tag @s remove self
 
 # Counter
-item modify entity @s weapon.mainhand ssbrc:characters/wobbuffet.counter
+loot replace entity @s[nbt={SelectedItem:{tag:{counter:1}}}] weapon.mainhand loot ssbrc:characters/pokemon/teamrocket/wobbuffet/counter
 
 # Destiny Bond
 execute at @s[scores={duration.3=40..}] run particle minecraft:dust 0.0 0.0 0.0 0.5 ~ ~0.75 ~ 0.5 1.0 0.5 0.0 5 normal @a
