@@ -12,7 +12,7 @@
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"text": "Cracked Bat",
+								"text": "Mr. Baseball Bat",
 								"color": "gold",
 								"bold": true,
 								"italic": false
@@ -39,7 +39,7 @@
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{crackedBat:1,Unbreakable:1,HideFlags:127}"
+							"tag": "{mrBaseballBat:1,CustomModelData:1080,Unbreakable:1,HideFlags:127}"
 						}
 					]
 				}

@@ -39,7 +39,7 @@
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{leechSeed:1,Unbreakable:1,HideFlags:127}"
+							"tag": "{leechSeed:1,CustomModelData:1264,Unbreakable:1,HideFlags:127}"
 						}
 					]
 				}
