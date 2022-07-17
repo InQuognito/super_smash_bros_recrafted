@@ -1,2 +1,2 @@
-give @s minecraft:carrot_on_a_stick{boomerang:1,CustomModelData:721,Unbreakable:1,display:{Name:'[{"text":"Boomerang","italic":false,"color":"gold"}]'},HideFlags:127} 1
+loot give @s loot ssbrc:characters/the_legend_of_zelda/link/boomerang
 kill @e[tag=boomerang,sort=nearest,limit=1]
