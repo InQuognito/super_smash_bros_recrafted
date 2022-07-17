@@ -44,6 +44,8 @@ scoreboard players set @s[tag=hero,scores={mana=22..}] mana 21
 tag @s[tag=hero] remove hero.magicLost
 
 # Joker
+clear @s minecraft:carrot_on_a_stick{mask:1}
+clear @s minecraft:carrot_on_a_stick{personaAwakening:1}
 scoreboard players set @s[tag=joker] joker.tt33A 8
 
 # Link
