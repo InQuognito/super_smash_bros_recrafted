@@ -29,16 +29,16 @@ give @s[tag=fox] minecraft:spectral_arrow 4
 
 # Ganondorf
 clear @s[tag=ganondorf] minecraft:trident
-item replace entity @s[tag=ganondorf] hotbar.1 with minecraft:trident{Unbreakable:1,display:{Name:'[{"text":"Trident of Power","italic":false,"color":"dark_gray","bold":true}]'},Enchantments:[{id:"loyalty",lvl:1}],HideFlags:127} 1
+loot replace entity @s[tag=ganondorf] hotbar.1 loot ssbrc:characters/the_legend_of_zelda/ganondorf/trident_of_power
 
 # Hero
 execute if entity @s[tag=hero] run function ssbrc:series/dragon_quest/hero/logic/magic/kaclang_off
 clear @s[tag=hero] minecraft:carrot_on_a_stick
 clear @s[tag=hero] minecraft:shield
-item replace entity @s[tag=hero,tag=!rek] hotbar.0 with minecraft:iron_sword{flameSlash:1,CustomModelData:441,Unbreakable:1,AttributeModifiers:[{AttributeName:"minecraft:generic.attack_damage",Amount:6,Slot:mainhand,Name:"minecraft:generic.attack_damage",UUID:[I;-12164,22807,92130,-45614]},{AttributeName:"minecraft:generic.attack_speed",Amount:-2.6,Slot:mainhand,Name:"minecraft:generic.attack_speed",UUID:[I;-12164,22907,92130,-45814]}],display:{Name:'[{"text":"Flame Slash","italic":false,"color":"gold","bold":true}]'},HideFlags:127} 1
-item replace entity @s[tag=hero,tag=rek] hotbar.0 with minecraft:iron_sword{flameSlash:1,CustomModelData:441,Unbreakable:1,AttributeModifiers:[{AttributeName:"minecraft:generic.attack_damage",Amount:6,Slot:mainhand,Name:"minecraft:generic.attack_damage",UUID:[I;-12164,22807,92130,-45614]},{AttributeName:"minecraft:generic.attack_speed",Amount:-2.6,Slot:mainhand,Name:"minecraft:generic.attack_speed",UUID:[I;-12164,22907,92130,-45814]}],display:{Name:'[{"text":"Flame Slash","italic":false,"color":"gold","bold":true}]'},HideFlags:127} 1
-item replace entity @s[tag=hero] hotbar.1 with minecraft:carrot_on_a_stick{bang:1,CustomModelData:441,Unbreakable:1,display:{Name:'[{"text":"Bang","italic":false,"color":"red","bold":true}]'},HideFlags:127} 1
-item replace entity @s[tag=hero] hotbar.2 with minecraft:carrot_on_a_stick{kaclang:1,CustomModelData:442,Unbreakable:1,display:{Name:'[{"text":"Kaclang","italic":false,"color":"dark_aqua","bold":true}]'},HideFlags:127} 1
+loot replace entity @s[tag=hero,tag=!rek] hotbar.0 loot ssbrc:characters/dragon_quest/hero/flame_slash/default
+loot replace entity @s[tag=hero,tag=rek] hotbar.0 loot ssbrc:characters/dragon_quest/hero/flame_slash/sword_of_ramias
+loot replace entity @s[tag=hero] hotbar.1 loot ssbrc:characters/dragon_quest/hero/bang
+loot replace entity @s[tag=hero] hotbar.2 loot ssbrc:characters/dragon_quest/hero/kaclang
 scoreboard players operation @s[tag=hero] mana += #hero.manaGainedOnDeath vars
 scoreboard players set @s[tag=hero,scores={mana=22..}] mana 21
 tag @s[tag=hero] remove hero.magicLost
@@ -49,14 +49,14 @@ scoreboard players set @s[tag=joker] joker.tt33A 8
 # Link
 clear @s[tag=link] minecraft:carrot_on_a_stick{boomerang:1}
 clear @s[tag=link] minecraft:shield
-item replace entity @s[tag=link] hotbar.2 with minecraft:carrot_on_a_stick{boomerang:1,CustomModelData:721,Unbreakable:1,display:{Name:'[{"text":"Boomerang","italic":false,"color":"gold"}]'},HideFlags:127} 1
-item replace entity @s[tag=link,tag=!dark] weapon.offhand with minecraft:shield{Damage:300,display:{Name:'[{"text":"Hylian Shield","italic":false,"color":"blue","bold":true}]'},BlockEntityTag:{Base:11,Patterns:[{Pattern:"flo",Color:14},{Pattern:"hh",Color:11},{Pattern:"tt",Color:4},{Pattern:"ts",Color:11},{Pattern:"cbo",Color:8}]},HideFlags:127} 1
-item replace entity @s[tag=link,tag=dark] weapon.offhand with minecraft:shield{Damage:300,display:{Name:'[{"text":"Hylian Shield","italic":false,"color":"dark_gray","bold":true}]'},BlockEntityTag:{Base:15,Patterns:[{Pattern:"flo",Color:14},{Pattern:"hh",Color:15},{Pattern:"tt",Color:4},{Pattern:"ts",Color:15},{Pattern:"cbo",Color:8}]},HideFlags:127} 1
+loot replace entity @s[tag=link] hotbar.2 loot ssbrc:characters/the_legend_of_zelda/link/boomerang
+loot replace entity @s[tag=link,tag=!dark] weapon.offhand loot ssbrc:characters/the_legend_of_zelda/link/hylian_shield/default
+loot replace entity @s[tag=link,tag=dark] weapon.offhand loot ssbrc:characters/the_legend_of_zelda/link/hylian_shield/dark
 give @s[tag=link] minecraft:spectral_arrow 5
 
 # Megaman
-clear @s[tag=megaman] minecraft:lingering_potion{CustomPotionColor:5974645,display:{Name:'[{"text":"Black Hole Bomb","italic":false,"color":"dark_purple","bold":true}]'},CustomPotionEffects:[{Id:22,Duration:-1},{Id:7,Duration:1,Amplifier:1b},{Id:2,Duration:100,Amplifier:6b},{Id:20,Duration:160,Amplifier:2b}]} 1
-item replace entity @s[tag=megaman] hotbar.2 with minecraft:lingering_potion{CustomPotionColor:5974645,display:{Name:'[{"text":"Black Hole Bomb","italic":false,"color":"dark_purple","bold":true}]'},CustomPotionEffects:[{Id:22,Duration:-1},{Id:7,Duration:1,Amplifier:1b},{Id:2,Duration:100,Amplifier:6b},{Id:20,Duration:160,Amplifier:2b}]} 1
+clear @s[tag=megaman] minecraft:lingering_potion{blackHoleGrenade:1} 1
+loot replace entity @s[tag=megaman] hotbar.2 loot ssbrc:characters/mega_man/megaman/black_hole_grenade
 
 # Ness
 clear @s[tag=ness] minecraft:splash_potion{pkFlash:1}
@@ -85,9 +85,9 @@ scoreboard players remove @s[tag=steve,scores={steve.tier=1..}] steve.tier 1
 
 clear @s[tag=steve] #ssbrc:swords
 clear @s[tag=steve] minecraft:netherite_axe
-give @s[tag=steve,scores={steve.tier=0}] minecraft:wooden_sword{Unbreakable:1,HideFlags:127,AttributeModifiers:[{AttributeName:"minecraft:generic.attack_damage",Amount:4,Slot:mainhand,Name:"minecraft:generic.attack_damage",UUID:[I;-12164,33707,92130,-67414]},{AttributeName:"minecraft:generic.attack_speed",Amount:-2.4,Slot:mainhand,Name:"minecraft:generic.attack_speed",UUID:[I;-12164,33807,92130,-67614]}]}
-give @s[tag=steve,scores={steve.tier=1}] minecraft:stone_sword{Unbreakable:1,HideFlags:127,AttributeModifiers:[{AttributeName:"minecraft:generic.attack_damage",Amount:5,Slot:mainhand,Name:"minecraft:generic.attack_damage",UUID:[I;-12164,33707,92130,-67414]},{AttributeName:"minecraft:generic.attack_speed",Amount:-2.4,Slot:mainhand,Name:"minecraft:generic.attack_speed",UUID:[I;-12164,33807,92130,-67614]}]}
-give @s[tag=steve,scores={steve.tier=2}] minecraft:iron_sword{Unbreakable:1,HideFlags:127,AttributeModifiers:[{AttributeName:"minecraft:generic.attack_damage",Amount:6,Slot:mainhand,Name:"minecraft:generic.attack_damage",UUID:[I;-12164,33707,92130,-67414]},{AttributeName:"minecraft:generic.attack_speed",Amount:-2.4,Slot:mainhand,Name:"minecraft:generic.attack_speed",UUID:[I;-12164,33807,92130,-67614]}]}
+loot replace entity @s[tag=steve,scores={steve.tier=0}] hotbar.0 loot ssbrc:characters/indie_fighters/steve/wooden_sword
+loot replace entity @s[tag=steve,scores={steve.tier=1}] hotbar.0 loot ssbrc:characters/indie_fighters/steve/stone_sword
+loot replace entity @s[tag=steve,scores={steve.tier=2}] hotbar.0 loot ssbrc:characters/indie_fighters/steve/iron_sword
 
 
 
