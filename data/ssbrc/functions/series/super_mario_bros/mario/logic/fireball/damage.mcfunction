@@ -9,4 +9,4 @@ execute if score @s damage matches 1 run kill @e[type=minecraft:area_effect_clou
 execute if score @s damage matches 2 run teleport @e[type=minecraft:area_effect_cloud,tag=damage.fireball,sort=nearest,limit=1] ~ ~ ~
 
 tag @s[scores={damage=3}] remove damage.fireball
-scoreboard players reset @s[scores={damage=2}] damage
+scoreboard players reset @s[scores={damage=3}] damage
