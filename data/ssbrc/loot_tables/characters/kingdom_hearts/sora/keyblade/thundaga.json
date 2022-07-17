@@ -47,7 +47,7 @@
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{keyblade:1,thundaga:1,Unbreakable:1,HideFlags:127}"
+							"tag": "{keyblade:1,thundaga:1,CustomModelData:1561,Unbreakable:1,HideFlags:127}"
 						}
 					]
 				}
