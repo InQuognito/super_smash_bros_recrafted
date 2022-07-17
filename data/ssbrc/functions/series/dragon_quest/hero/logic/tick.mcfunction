@@ -3,6 +3,10 @@ execute if entity @s[scores={useAbility=1..,cooldown.1=..0},nbt={SelectedItem:{t
 execute if entity @s[scores={useAbility=1..},nbt={SelectedItem:{tag:{kaclang:1}}}] if score @s mana >= #hero.kaclangManaCost vars run function ssbrc:series/dragon_quest/hero/logic/magic/kaclang
 execute if score @s[scores={useAbility=1..},nbt={SelectedItem:{tag:{magicBurst:1}}}] mana >= #hero.maxMana vars run function ssbrc:series/dragon_quest/hero/logic/magic/magic_burst_activate
 
+tag @s add self
+execute as @e[type=minecraft:fireball,tag=bang] at @s if score @s id = @p[tag=self] id run function ssbrc:series/dragon_quest/hero/logic/magic/bang/tick
+tag @s remove self
+
 # Mana
 scoreboard players operation $hero.manaPercent temp = @s mana
 scoreboard players operation $hero.manaPercent temp *= 100 integers
@@ -35,11 +39,6 @@ execute if score @s[tag=hero.magicLost] mana > #hero.maxMana vars run scoreboard
 
 execute if score @s[tag=!hero.magicLost] mana >= #hero.maxMana vars run loot replace entity @s hotbar.4 loot ssbrc:characters/dragon_quest/hero/magic_burst
 execute if score @s mana < #hero.maxMana vars run clear @s minecraft:carrot_on_a_stick{magicBurst:1}
-
-# Bang
-tag @s add self
-execute as @e[type=minecraft:fireball,tag=bang] at @s if score @s id = @p[tag=self] id run function ssbrc:series/dragon_quest/hero/logic/magic/bang/tick
-tag @s remove self
 
 # Kaclang
 scoreboard players remove @s[scores={duration.2=1..}] duration.2 1
