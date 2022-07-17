@@ -1,5 +1,4 @@
 clear @s minecraft:carrot_on_a_stick{mask:1}
-clear @s minecraft:carrot_on_a_stick{mask:1}
 
 tag @s remove archangel
 tag @s remove arsene

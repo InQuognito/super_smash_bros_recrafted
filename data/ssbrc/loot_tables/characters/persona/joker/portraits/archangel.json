@@ -6,7 +6,7 @@
 			"entries": [
 				{
 					"type": "minecraft:item",
-					"name": "minecraft:carrot_on_a_stick",
+					"name": "minecraft:paper",
 					"functions": [
 						{
 							"function": "minecraft:set_name",
@@ -39,7 +39,7 @@
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{mask:1,archangel:1,Unbreakable:1,HideFlags:127}"
+							"tag": "{persona:1,archangel:1,Unbreakable:1,HideFlags:127}"
 						}
 					]
 				}

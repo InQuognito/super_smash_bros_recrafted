@@ -12,7 +12,7 @@
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"text": "Kingdom Key",
+								"text": "Kingdom Key ",
 								"color": "white",
 								"bold": true,
 								"italic": false,
