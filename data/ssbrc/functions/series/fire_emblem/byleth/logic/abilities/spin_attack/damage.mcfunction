@@ -9,5 +9,8 @@ execute if score @s damage matches 1 run tag @e[tag=projectile,limit=1] remove p
 
 execute if score @s damage matches 2 run teleport @e[type=minecraft:area_effect_cloud,tag=damage.spinAttack,sort=nearest,limit=1] @s
 
-tag @s[scores={damage=3}] remove damage.spinAttack
+tag @s[scores={damage=3}] remove damage.spinAttack.1
+tag @s[scores={damage=3}] remove damage.spinAttack.2
+tag @s[scores={damage=3}] remove damage.spinAttack.3
+tag @s[scores={damage=3}] remove damage.spinAttack.4
 scoreboard players reset @s[scores={damage=3}] damage
