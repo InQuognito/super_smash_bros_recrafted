@@ -5,7 +5,6 @@ execute if score @s damage matches 1 run data modify entity @e[tag=projectile,li
 execute if score @s damage matches 1 run tag @e[tag=projectile,limit=1] remove projectile
 
 execute if score @s damage matches 2 run teleport @e[tag=damage.antiPersonnelMine,sort=nearest,limit=1] ~ ~ ~
-execute if score @s damage matches 2 run kill @e[tag=damage.antiPersonnelMine,sort=nearest,limit=1]
 
-tag @s[scores={damage=2}] remove damage.antiPersonnelMine
-scoreboard players reset @s[scores={damage=2}] damage
+tag @s[scores={damage=3}] remove damage.antiPersonnelMine
+scoreboard players reset @s[scores={damage=3}] damage
