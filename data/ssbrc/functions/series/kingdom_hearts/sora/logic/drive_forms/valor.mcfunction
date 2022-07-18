@@ -4,7 +4,6 @@ tag @s add valor
 scoreboard players set @s duration.1 600
 scoreboard players add @s charge.3 1
 
-clear @s minecraft:carrot_on_a_stick
 loot replace entity @s hotbar.0 loot ssbrc:characters/kingdom_hearts/sora/keyblade/kingdom_key
 loot replace entity @s weapon.offhand loot ssbrc:characters/kingdom_hearts/sora/keyblade/star_seeker
 

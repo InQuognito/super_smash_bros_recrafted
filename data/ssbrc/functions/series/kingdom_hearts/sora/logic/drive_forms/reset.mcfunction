@@ -5,4 +5,4 @@ tag @s remove wisdom
 scoreboard players set @s duration.1 0
 scoreboard players set @s charge.2 0
 
-clear @s minecraft:carrot_on_a_stick{driveForm:1}
+clear @s minecraft:carrot_on_a_stick
