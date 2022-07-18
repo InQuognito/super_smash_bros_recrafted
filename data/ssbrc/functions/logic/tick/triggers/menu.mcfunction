@@ -86,6 +86,7 @@ execute if score @s[tag=!jigglypuff] menu matches 582 run function ssbrc:series/
 execute if score @s[tag=!jigglypuff] menu matches 583 run function ssbrc:series/pokemon/jigglypuff/menu/how_to_play
 execute if score @s[tag=!jigglypuff] menu matches 584 run function ssbrc:series/pokemon/jigglypuff/menu/skins/default
 execute if score @s[tag=!jigglypuff] menu matches 585 run function ssbrc:series/pokemon/jigglypuff/menu/skins/gold
+execute if score @s[tag=!jigglypuff] menu matches 586 run function ssbrc:series/pokemon/jigglypuff/menu/skins/shiny
 
 execute if score @s[tag=!joker] menu matches 600 run function ssbrc:series/persona/joker/menu/select_character
 execute if score @s[tag=!joker] menu matches 601 run function ssbrc:series/persona/joker/menu/skin_options
