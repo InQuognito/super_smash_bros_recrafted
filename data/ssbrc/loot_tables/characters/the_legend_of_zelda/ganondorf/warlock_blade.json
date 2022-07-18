@@ -39,7 +39,7 @@
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{warlockBlade:1,CustomModelData:401,Unbreakable:1,HideFlags:127}"
+							"tag": "{warlockBlade:1,CustomModelData:400,Unbreakable:1,HideFlags:127}"
 						}
 					]
 				}
