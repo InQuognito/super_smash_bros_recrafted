@@ -24,6 +24,7 @@ scoreboard players set #shovelknight.flareWandManaCost vars 1
 scoreboard players set #shovelknight.phaseLocketManaCost vars 3
 
 scoreboard players set #sora.driveForm vars 400
+scoreboard players set #sora.maxMp vars 70
 
 scoreboard players set #snake.psg1Weight vars 5
 scoreboard players set #snake.famasWeight vars 5

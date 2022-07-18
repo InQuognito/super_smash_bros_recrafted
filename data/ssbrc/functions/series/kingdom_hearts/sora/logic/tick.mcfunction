@@ -18,23 +18,23 @@ execute as @e[type=minecraft:area_effect_cloud,tag=thundaga] at @s if score @s i
 tag @s remove self
 
 # MP
-scoreboard players operation $sora.mpPercent temp = @s mp
+scoreboard players operation $sora.mpPercent temp = @s charge.1
 scoreboard players operation $sora.mpPercent temp *= 100 integers
-scoreboard players operation $sora.mpPercent temp /= #sora.maxMP vars
+scoreboard players operation $sora.mpPercent temp /= #sora.maxMp vars
 
-execute if score $sora.mpPercent temp matches 0 run title @s[tag=!sora.magicLost] actionbar [{"text":"Out of MP: Warrior Switch","bold":true,"color":"red"}]
-execute if score $sora.mpPercent temp matches 1..10 run title @s[tag=!sora.magicLost] actionbar [{"text":"MP: ","bold":true,"color":"white"},{"text":"\u25ae","color":"yellow"}]
-execute if score $sora.mpPercent temp matches 11..20 run title @s[tag=!sora.magicLost] actionbar [{"text":"MP: ","bold":true,"color":"white"},{"text":"\u25ae\u25ae","color":"yellow"}]
-execute if score $sora.mpPercent temp matches 21..30 run title @s[tag=!sora.magicLost] actionbar [{"text":"MP: ","bold":true,"color":"white"},{"text":"\u25ae\u25ae\u25ae","color":"yellow"}]
-execute if score $sora.mpPercent temp matches 31..40 run title @s[tag=!sora.magicLost] actionbar [{"text":"MP: ","bold":true,"color":"white"},{"text":"\u25ae\u25ae\u25ae\u25ae","color":"yellow"}]
-execute if score $sora.mpPercent temp matches 41..50 run title @s[tag=!sora.magicLost] actionbar [{"text":"MP: ","bold":true,"color":"white"},{"text":"\u25ae\u25ae\u25ae\u25ae\u25ae","color":"yellow"}]
-execute if score $sora.mpPercent temp matches 51..60 run title @s[tag=!sora.magicLost] actionbar [{"text":"MP: ","bold":true,"color":"white"},{"text":"\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae","color":"yellow"}]
-execute if score $sora.mpPercent temp matches 61..70 run title @s[tag=!sora.magicLost] actionbar [{"text":"MP: ","bold":true,"color":"white"},{"text":"\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae","color":"yellow"}]
-execute if score $sora.mpPercent temp matches 71..80 run title @s[tag=!sora.magicLost] actionbar [{"text":"MP: ","bold":true,"color":"white"},{"text":"\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae","color":"yellow"}]
-execute if score $sora.mpPercent temp matches 81..90 run title @s[tag=!sora.magicLost] actionbar [{"text":"MP: ","bold":true,"color":"white"},{"text":"\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae","color":"yellow"}]
-execute if score $sora.mpPercent temp matches 91.. run title @s[tag=!sora.magicLost] actionbar [{"text":"MP: ","bold":true,"color":"white"},{"text":"\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae","color":"yellow"}]
+execute if score $sora.mpPercent temp matches 0 run title @s actionbar {"text":"MP: ","bold":true,"color":"white"}
+execute if score $sora.mpPercent temp matches 1..10 run title @s actionbar [{"text":"MP: ","bold":true,"color":"white"},{"text":"\u25ae","color":"blue"}]
+execute if score $sora.mpPercent temp matches 11..20 run title @s actionbar [{"text":"MP: ","bold":true,"color":"white"},{"text":"\u25ae\u25ae","color":"blue"}]
+execute if score $sora.mpPercent temp matches 21..30 run title @s actionbar [{"text":"MP: ","bold":true,"color":"white"},{"text":"\u25ae\u25ae\u25ae","color":"blue"}]
+execute if score $sora.mpPercent temp matches 31..40 run title @s actionbar [{"text":"MP: ","bold":true,"color":"white"},{"text":"\u25ae\u25ae\u25ae\u25ae","color":"blue"}]
+execute if score $sora.mpPercent temp matches 41..50 run title @s actionbar [{"text":"MP: ","bold":true,"color":"white"},{"text":"\u25ae\u25ae\u25ae\u25ae\u25ae","color":"blue"}]
+execute if score $sora.mpPercent temp matches 51..60 run title @s actionbar [{"text":"MP: ","bold":true,"color":"white"},{"text":"\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae","color":"blue"}]
+execute if score $sora.mpPercent temp matches 61..70 run title @s actionbar [{"text":"MP: ","bold":true,"color":"white"},{"text":"\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae","color":"blue"}]
+execute if score $sora.mpPercent temp matches 71..80 run title @s actionbar [{"text":"MP: ","bold":true,"color":"white"},{"text":"\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae","color":"blue"}]
+execute if score $sora.mpPercent temp matches 81..90 run title @s actionbar [{"text":"MP: ","bold":true,"color":"white"},{"text":"\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae","color":"blue"}]
+execute if score $sora.mpPercent temp matches 91.. run title @s actionbar [{"text":"MP: ","bold":true,"color":"white"},{"text":"\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae","color":"blue"}]
 
-execute if score @s mp > #sora.maxMP vars run scoreboard players operation @s mp = #sora.maxMP vars
+execute if score @s charge.1 > #sora.maxMp vars run scoreboard players operation @s charge.1 = #sora.maxMp vars
 
 # Anti Form
 execute at @s[tag=anti] run particle minecraft:dust 0.0 0.0 0.0 1.0 ~ ~0.75 ~ 0.2 0.3 0.2 0.0 20 normal @a
