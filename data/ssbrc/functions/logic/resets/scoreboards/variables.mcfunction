@@ -24,7 +24,7 @@ scoreboard players set #shovelknight.flareWandManaCost vars 1
 scoreboard players set #shovelknight.phaseLocketManaCost vars 3
 
 scoreboard players set #sora.driveForm vars 400
-scoreboard players set #sora.maxMp vars 70
+scoreboard players set #sora.maxMp vars 10
 scoreboard players set #sora.firagaMpCost vars 2
 scoreboard players set #sora.blizzagaMpCost vars 1
 scoreboard players set #sora.thundagaMpCost vars 5
