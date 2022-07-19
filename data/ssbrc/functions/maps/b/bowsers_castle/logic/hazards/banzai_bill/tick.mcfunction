@@ -1,5 +1,5 @@
 execute unless score @s temp matches 20..80 run teleport @s ^ ^ ^0.175
-kill @a[distance=..3,tag=alive,scores={respawn=..0}]
+kill @a[distance=..3,tag=alive,scores={respawn=..0},gamemode=adventure]
 
 execute unless score @s temp matches 20..80 run particle minecraft:large_smoke ~ ~ ~ 0.5 0.5 0.5 0.015 30 normal @a
 
