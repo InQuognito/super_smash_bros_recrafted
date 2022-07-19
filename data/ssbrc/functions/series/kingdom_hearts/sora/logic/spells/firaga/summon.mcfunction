@@ -9,6 +9,7 @@ data modify entity @e[tag=projectile,limit=1] Motion set from entity @e[tag=dire
 tag @e[tag=projectile] remove projectile
 kill @e[tag=direction]
 
+scoreboard players operation @s charge.1 -= #sora.firagaMpCost vars
 scoreboard players set @s[tag=!wisdom] cooldown.2 60
 scoreboard players set @s[tag=wisdom] cooldown.2 40
 
