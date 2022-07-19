@@ -20,9 +20,9 @@ scoreboard players set @e[tag=propStand] duration.1 1
 scoreboard players set @e[tag=propStand] duration.2 1
 scoreboard players set @e[tag=propStand] duration.3 1
 execute as @e[tag=propStand] run function ssbrc:logic/characters/armor/get
-scoreboard players set @e[tag=propStand] duration.1 0
-scoreboard players set @e[tag=propStand] duration.2 0
-scoreboard players set @e[tag=propStand] duration.3 0
+scoreboard players reset @e[tag=propStand] duration.1
+scoreboard players reset @e[tag=propStand] duration.2
+scoreboard players reset @e[tag=propStand] duration.3
 
 time set noon
 weather clear
