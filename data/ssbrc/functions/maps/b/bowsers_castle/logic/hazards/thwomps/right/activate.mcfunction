@@ -2,3 +2,6 @@ summon minecraft:armor_stand -701.5 44.0 822.5 {Tags:["thwomp","right"],Rotation
 
 fill -704 43 821 -700 43 823 minecraft:air replace
 fill -704 40 820 -700 42 820 minecraft:waxed_copper_block replace
+
+scoreboard players set #bowsersCastleHazard temp 1
+scoreboard players set #thwompRight temp 1
