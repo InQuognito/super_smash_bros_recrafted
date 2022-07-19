@@ -2,7 +2,7 @@ function ssbrc:series/kingdom_hearts/sora/logic/drive_forms/reset
 tag @s add anti
 
 scoreboard players set @s duration.1 600
-scoreboard players set @s charge.3 0
+scoreboard players set @s charge.2 0
 
 clear @s minecraft:carrot_on_a_stick
 

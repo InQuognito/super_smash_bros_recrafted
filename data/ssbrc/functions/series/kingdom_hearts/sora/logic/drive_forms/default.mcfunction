@@ -1,7 +1,7 @@
 function ssbrc:series/kingdom_hearts/sora/logic/drive_forms/reset
 
 scoreboard players set @s duration.1 0
-scoreboard players set @s charge.2 0
+scoreboard players set @s charge.1 0
 
 loot replace entity @s hotbar.0 loot ssbrc:characters/kingdom_hearts/sora/keyblade/firaga
 
