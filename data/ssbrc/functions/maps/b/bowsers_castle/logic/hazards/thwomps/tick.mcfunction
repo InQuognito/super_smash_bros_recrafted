@@ -1,7 +1,7 @@
-execute if entity @s[tag=top] if block ~ ~-0.1 ~ minecraft:waxed_copper_block run function ssbrc:maps/b/bowsers_castle/logic/hazards/destruction/top_platform
-execute if entity @s[tag=left] if block ~ ~-0.1 ~ minecraft:waxed_copper_block run function ssbrc:maps/b/bowsers_castle/logic/hazards/destruction/left_platform
-execute if entity @s[tag=middle] if block ~ ~-0.1 ~ minecraft:waxed_copper_block run function ssbrc:maps/b/bowsers_castle/logic/hazards/destruction/bridge
-execute if entity @s[tag=right] if block ~ ~-0.1 ~ minecraft:waxed_copper_block run function ssbrc:maps/b/bowsers_castle/logic/hazards/destruction/right_platform
+execute if entity @s[tag=top] if block ~ ~-0.1 ~ minecraft:waxed_cut_copper run function ssbrc:maps/b/bowsers_castle/logic/hazards/destruction/top_platform
+execute if entity @s[tag=left] if block ~ ~-0.1 ~ minecraft:waxed_cut_copper run function ssbrc:maps/b/bowsers_castle/logic/hazards/destruction/left_platform
+execute if entity @s[tag=middle] if block ~ ~-0.1 ~ minecraft:stripped_jungle_log run function ssbrc:maps/b/bowsers_castle/logic/hazards/destruction/bridge
+execute if entity @s[tag=right] if block ~ ~-0.1 ~ minecraft:waxed_cut_copper run function ssbrc:maps/b/bowsers_castle/logic/hazards/destruction/right_platform
 
 execute positioned ~ ~-1 ~ run kill @a[tag=alive,scores={respawn=..0},gamemode=adventure,dx=1.5,dy=0,dz=1.5]
 
