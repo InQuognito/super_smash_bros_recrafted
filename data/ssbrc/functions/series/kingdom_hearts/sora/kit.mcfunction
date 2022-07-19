@@ -1,6 +1,6 @@
 function ssbrc:series/kingdom_hearts/sora/logic/drive_forms/reset
 
-scoreboard players operation @s charge.1 = #sora.maxMp vars
+scoreboard players operation @s mana = #sora.maxMp vars
 
 function ssbrc:series/kingdom_hearts/sora/logic/spell_switch/firaga
 

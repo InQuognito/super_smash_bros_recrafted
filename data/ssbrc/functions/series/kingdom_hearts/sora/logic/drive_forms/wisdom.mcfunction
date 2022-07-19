@@ -1,7 +1,7 @@
 function ssbrc:series/kingdom_hearts/sora/logic/drive_forms/reset
 tag @s add wisdom
 
-scoreboard players operation @s charge.1 = #sora.maxMp vars
+scoreboard players operation @s mana = #sora.maxMp vars
 
 scoreboard players set @s duration.1 600
 scoreboard players add @s charge.3 1

@@ -2,9 +2,9 @@ execute if entity @s[predicate=!ssbrc:characters/sora/no_spells,predicate=ssbrc:
 execute if entity @s[predicate=!ssbrc:characters/sora/no_spells,predicate=ssbrc:flag/sneaking,scores={useAbility=1..,cooldown.1=..0},nbt={SelectedItem:{tag:{blizzaga:1}}}] run function ssbrc:series/kingdom_hearts/sora/logic/spell_switch/thundaga
 execute if entity @s[predicate=!ssbrc:characters/sora/no_spells,predicate=ssbrc:flag/sneaking,scores={useAbility=1..,cooldown.1=..0},nbt={SelectedItem:{tag:{thundaga:1}}}] run function ssbrc:series/kingdom_hearts/sora/logic/spell_switch/firaga
 
-execute if entity @s[predicate=!ssbrc:characters/sora/no_spells,predicate=!ssbrc:flag/sneaking,scores={useAbility=1..,cooldown.2=..0,charge.1=2..},nbt={SelectedItem:{tag:{firaga:1}}}] if score @s charge.1 > #sora.firagaMpCost vars at @s anchored eyes run function ssbrc:series/kingdom_hearts/sora/logic/spells/firaga/summon
-execute if entity @s[predicate=!ssbrc:characters/sora/no_spells,predicate=!ssbrc:flag/sneaking,scores={useAbility=1..,cooldown.2=..0,charge.1=1..},nbt={SelectedItem:{tag:{blizzaga:1}}}] if score @s charge.1 > #sora.blizzagaMpCost vars at @s anchored eyes run function ssbrc:series/kingdom_hearts/sora/logic/spells/blizzaga/summon
-execute if entity @s[predicate=!ssbrc:characters/sora/no_spells,predicate=!ssbrc:flag/sneaking,scores={useAbility=1..,cooldown.2=..0,charge.1=5..},nbt={SelectedItem:{tag:{thundaga:1}}}] if score @s charge.1 > #sora.thundagaMpCost vars at @s rotated ~ 0 run function ssbrc:series/kingdom_hearts/sora/logic/spells/thundaga/initiate
+execute if entity @s[predicate=!ssbrc:characters/sora/no_spells,predicate=!ssbrc:flag/sneaking,scores={useAbility=1..,cooldown.2=..0,mana=2..},nbt={SelectedItem:{tag:{firaga:1}}}] if score @s mana > #sora.firagaMpCost vars at @s anchored eyes run function ssbrc:series/kingdom_hearts/sora/logic/spells/firaga/summon
+execute if entity @s[predicate=!ssbrc:characters/sora/no_spells,predicate=!ssbrc:flag/sneaking,scores={useAbility=1..,cooldown.2=..0,mana=1..},nbt={SelectedItem:{tag:{blizzaga:1}}}] if score @s mana > #sora.blizzagaMpCost vars at @s anchored eyes run function ssbrc:series/kingdom_hearts/sora/logic/spells/blizzaga/summon
+execute if entity @s[predicate=!ssbrc:characters/sora/no_spells,predicate=!ssbrc:flag/sneaking,scores={useAbility=1..,cooldown.2=..0,mana=5..},nbt={SelectedItem:{tag:{thundaga:1}}}] if score @s mana > #sora.thundagaMpCost vars at @s rotated ~ 0 run function ssbrc:series/kingdom_hearts/sora/logic/spells/thundaga/initiate
 
 execute if entity @s[scores={useAbility=1..},nbt={SelectedItem:{tag:{valor:1}}}] run tag @s add driveForm.valor
 execute if entity @s[scores={useAbility=1..},nbt={SelectedItem:{tag:{wisdom:1}}}] run tag @s add driveForm.wisdom
@@ -18,7 +18,7 @@ execute as @e[type=minecraft:area_effect_cloud,tag=thundaga] at @s if score @s i
 tag @s remove self
 
 # MP
-scoreboard players operation $sora.mpPercent temp = @s charge.1
+scoreboard players operation $sora.mpPercent temp = @s mana
 scoreboard players operation $sora.mpPercent temp *= 100 integers
 scoreboard players operation $sora.mpPercent temp /= #sora.maxMp vars
 
@@ -34,7 +34,7 @@ execute if score $sora.mpPercent temp matches 71..80 run title @s actionbar [{"t
 execute if score $sora.mpPercent temp matches 81..90 run title @s actionbar [{"text":"MP: ","bold":true,"color":"white"},{"text":"\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae","color":"blue"}]
 execute if score $sora.mpPercent temp matches 91.. run title @s actionbar [{"text":"MP: ","bold":true,"color":"white"},{"text":"\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae","color":"blue"}]
 
-execute if score @s charge.1 > #sora.maxMp vars run scoreboard players operation @s charge.1 = #sora.maxMp vars
+execute if score @s mana > #sora.maxMp vars run scoreboard players operation @s mana = #sora.maxMp vars
 
 # Anti Form
 execute at @s[tag=anti] run particle minecraft:dust 0.0 0.0 0.0 1.0 ~ ~0.75 ~ 0.2 0.3 0.2 0.0 20 normal @a
