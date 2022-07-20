@@ -1,7 +1,7 @@
 execute if entity @s[tag=top] if block ~ ~-0.1 ~ minecraft:waxed_cut_copper run function ssbrc:maps/b/bowsers_castle/logic/hazards/destruction/top_platform
 execute if entity @s[tag=left] if block ~ ~-0.1 ~ minecraft:waxed_cut_copper run function ssbrc:maps/b/bowsers_castle/logic/hazards/destruction/left_platform
-execute if entity @s[tag=middle] if block ~ ~-0.1 ~ minecraft:stripped_jungle_log run function ssbrc:maps/b/bowsers_castle/logic/hazards/destruction/bridge/partial
-execute if entity @s[tag=middle] if block ~ ~-0.1 ~ minecraft:polished_andesite run function ssbrc:maps/b/bowsers_castle/logic/hazards/destruction/bridge/full
+execute if entity @s[tag=middle,tag=!destroyer] if block ~ ~-0.1 ~ minecraft:stripped_jungle_log run function ssbrc:maps/b/bowsers_castle/logic/hazards/destruction/bridge/partial
+execute if entity @s[tag=middle,tag=!destroyer] if block ~ ~-0.1 ~ minecraft:polished_andesite run function ssbrc:maps/b/bowsers_castle/logic/hazards/destruction/bridge/full
 execute if entity @s[tag=right] if block ~ ~-0.1 ~ minecraft:waxed_cut_copper run function ssbrc:maps/b/bowsers_castle/logic/hazards/destruction/right_platform
 
 execute if score @s temp matches ..99 positioned ~ ~-0.1 ~ run kill @a[tag=alive,scores={respawn=..0},gamemode=adventure,dx=1.5,dy=0,dz=1.5]
@@ -31,4 +31,4 @@ execute if entity @s[tag=middle,y=45.5,dy=0,scores={temp=100..}] run function ss
 execute if entity @s[tag=right,y=45.5,dy=0,scores={temp=100..}] run function ssbrc:maps/b/bowsers_castle/logic/hazards/thwomps/right/deactivate
 
 scoreboard players add @s[tag=!middle] temp 1
-execute unless score #thwompMiddle temp matches 2 run scoreboard players add @s[tag=!middle] temp 1
+execute unless score #thwompMiddle temp matches 2 run scoreboard players add @s[tag=middle] temp 1
