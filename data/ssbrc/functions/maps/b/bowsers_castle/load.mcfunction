@@ -13,7 +13,7 @@ clone -640 19 835 -639 31 850 -659 19 836
 # Top Platform
 clone -707 42 899 -705 42 901 -726 26 843
 setblock -722 25 837 minecraft:ladder[facing=north] replace
-setblock -727 25 844 minecraft:ladder[facing=west] replace
+fill -727 25 844 -727 26 844 minecraft:ladder[facing=west] replace
 setblock -722 25 851 minecraft:ladder[facing=south] replace
 
 # Left Platform
