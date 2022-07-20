@@ -12,4 +12,4 @@ scoreboard players set @s duration.2 10
 effect give @p minecraft:levitation 1000000 255 true
 
 particle minecraft:cloud ~ ~0.75 ~ 0.3 0.3 0.3 0.0 15 normal @a
-particle minecraft:end_rod ^ ^0.75 ^7.5 0.0 0.0 0.0 0.0 1 normal @a
+particle minecraft:end_rod ^ ^0.75 ^15.0 0.0 0.0 0.0 0.0 1 normal @a
