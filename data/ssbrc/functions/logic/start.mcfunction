@@ -48,4 +48,3 @@ scoreboard players set @a[tag=alive] flag.sprinting 0
 scoreboard players set @a[tag=alive] respawn 0
 
 tag @s remove characterPicked
-tag @a remove loaded
