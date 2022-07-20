@@ -20,7 +20,7 @@ execute if score @s[nbt={SelectedItem:{tag:{options:1}}}] options matches 11 run
 execute if score @s[nbt={SelectedItem:{tag:{options:1}}}] options matches 12 run function ssbrc:logic/options/music/loop
 execute if score @s[nbt={SelectedItem:{tag:{options:1}}}] options matches 13 run function ssbrc:logic/options/music/shuffle
 
-tellraw @s[nbt=!{SelectedItem:{tag:{options:1}}}] {"text":"You do not have the options book!","color":"red"}
+execute if score @s[nbt=!{SelectedItem:{tag:{options:1}}}] options matches 1.. run tellraw @s {"text":"You do not have the options book!","color":"red"}
 
 scoreboard players reset @s options
 scoreboard players enable @s options
