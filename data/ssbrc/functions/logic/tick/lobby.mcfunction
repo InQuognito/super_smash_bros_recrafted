@@ -1,8 +1,15 @@
-# Reset Players
-execute as @a[tag=!loaded] run function ssbrc:logic/resets/players
+# Teleport - Character Select
+execute as @s[x=-529.5,y=5.0,z=61.5,distance=..1] unless score #players.playing temp matches 8.. run function ssbrc:logic/pre_game/character_select/goto
 
-# Ticks all players in the lobby
-execute as @a[tag=!characterPicked] run function ssbrc:logic/tick/lobby/lobby
+# Teleport - Credits
+tp @s[x=-529.5,y=5.0,z=49.5,distance=..1] -29.5 5.0 -163.5 180.0 0.0
+tp @s[x=-29.5,y=6.0,z=-159.5,distance=..1] -520.5 5.0 55.5 90.0 0.0
+
+# Effects
+function ssbrc:logic/tick/effects
+
+# Reset Players
+execute as @s[tag=!loaded] run function ssbrc:logic/resets/players
 
 # Ticks all players selecting a fighter
-execute as @a[tag=room.characterSelect] run function ssbrc:logic/tick/triggers/lobby
+execute as @s[tag=room.characterSelect] run function ssbrc:logic/tick/triggers/lobby
