@@ -5,7 +5,7 @@ execute if score @s[scores={useAbility=1..,cooldown.2=..0},nbt={SelectedItem:{ta
 
 tag @s add self
 execute as @e[type=minecraft:arrow,tag=flareWand] at @s if score @s id = @p[tag=shovelknight.flareWand,tag=self] id run function ssbrc:series/indie_fighters/shovelknight/logic/magic/flare_wand/tick
-execute as @e[type=minecraft:marker,tag=propellerDagger] at @s if score @s id = @p[tag=shovelknight.propellerDagger,tag=self,scores={duration.1=2..}] id run function ssbrc:series/indie_fighters/shovelknight/logic/magic/propeller_dagger/tick
+execute as @e[type=minecraft:marker,tag=propellerDagger] at @s if score @s id = @p[tag=shovelknight.propellerDagger,tag=self,scores={duration.2=2..}] id run function ssbrc:series/indie_fighters/shovelknight/logic/magic/propeller_dagger/tick
 tag @s remove self
 
 # Phase Locket

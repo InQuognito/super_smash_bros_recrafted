@@ -6,7 +6,7 @@ data modify entity @e[tag=projectile,limit=1] Owner set from entity @s UUID
 
 tag @e[tag=projectile] remove projectile
 
-execute if score @s shadow.chaosControl matches 1.. run function ssbrc:logic/characters/cooldown_modifiers/chaos_control/1
+execute if score @s shadow.chaosControl matches 1.. run function ssbrc:logic/characters/cooldown_modifiers/chaos_control/2
 
 scoreboard players set @s duration.2 30
 effect give @p minecraft:levitation 1000000 255 true
