@@ -8,7 +8,7 @@ tag @e[tag=projectile] remove projectile
 
 execute if score @s shadow.chaosControl matches 1.. run function ssbrc:logic/characters/cooldown_modifiers/chaos_control/2
 
-scoreboard players set @s duration.2 5
+scoreboard players set @s duration.2 10
 effect give @p minecraft:levitation 1000000 255 true
 
 particle minecraft:cloud ~ ~0.75 ~ 0.3 0.3 0.3 0.0 15 normal @a

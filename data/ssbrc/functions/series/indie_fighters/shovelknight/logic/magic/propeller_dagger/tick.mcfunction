@@ -5,4 +5,4 @@ execute if block ^ ^ ^1.6 #ssbrc:passthrough_charge run tp @s ^ ^ ^1.5
 tp @p[tag=shovelknight.propellerDagger,tag=self,scores={duration.2=1..}] ^ ^ ^ ~ ~
 
 scoreboard players add @s temp 1
-kill @s[scores={temp=5..}]
+kill @s[scores={temp=10..}]
