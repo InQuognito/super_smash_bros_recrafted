@@ -10,3 +10,4 @@ scoreboard players set @e[tag=projectile] slope 0
 tag @e[tag=projectile] remove projectile
 
 scoreboard players set @s cooldown.1 20
+scoreboard players operation @s mana -= #shovelknight.chaosSphereManaCost vars
