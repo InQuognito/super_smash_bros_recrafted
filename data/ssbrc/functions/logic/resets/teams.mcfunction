@@ -158,7 +158,7 @@ team modify ready friendlyFire false
 team modify ready nametagVisibility never
 team modify ready prefix ""
 team modify ready seeFriendlyInvisibles true
-team modify ready suffix "✔"
+team modify ready suffix " ✔"
 
 team modify spectator color gray
 team modify spectator collisionRule never
