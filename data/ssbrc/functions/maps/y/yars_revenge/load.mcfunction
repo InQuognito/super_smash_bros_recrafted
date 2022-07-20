@@ -4,8 +4,6 @@ scoreboard players set $songCount map 2
 scoreboard players set #mapPicked mapVote 1
 forceload add 9952 19856 10015 20015
 
-kill @e[type=!minecraft:player]
-
 time set 12430
 weather clear
 

@@ -4,8 +4,6 @@ scoreboard players set $songCount map 2
 scoreboard players set #mapPicked mapVote 1
 forceload add -608 -208 -529 -97
 
-kill @e[type=!minecraft:player]
-
 summon minecraft:leash_knot -551 15 -156
 summon minecraft:leash_knot -556 15 -160
 

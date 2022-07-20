@@ -4,8 +4,6 @@ scoreboard players set $songCount map 3
 scoreboard players set #mapPicked mapVote 1
 forceload add -288 -192 -177 -81
 
-kill @e[type=!minecraft:player]
-
 summon minecraft:armor_stand -218.5 26.5 -144.5 {Rotation:[15f,0f],Invisible:1b,Invulnerable:1b,NoBasePlate:1b,NoGravity:1b,DisabledSlots:4144959,ArmorItems:[{},{},{},{id:"minecraft:carrot_on_a_stick",Count:1b,tag:{CustomModelData:1741}}]}
 
 summon minecraft:area_effect_cloud -249.5 26.5 -148.5 {CustomName:'{"text":"W E L C O M E","color":"white","font":"minecraft:mario"}',CustomNameVisible:1b,Age:-2147483648,Duration:-1,WaitTime:-2147483648}

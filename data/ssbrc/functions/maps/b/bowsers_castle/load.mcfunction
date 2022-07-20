@@ -4,8 +4,6 @@ scoreboard players set $songCount map 2
 scoreboard players set #mapPicked mapVote 1
 forceload add -768 800 -641 895
 
-kill @e[type=!minecraft:player]
-
 # Bridge
 clone -712 19 897 -700 22 903 -710 22 841
 

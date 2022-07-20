@@ -1,5 +1,3 @@
-kill @e[tag=lobbyStand]
-kill @e[tag=lobbyStand.label]
 clear @a
 
 scoreboard players reset @a useAbility
