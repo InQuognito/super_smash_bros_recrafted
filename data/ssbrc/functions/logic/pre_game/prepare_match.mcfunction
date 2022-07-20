@@ -1,6 +1,9 @@
 scoreboard players operation $totalStocks temp = $playersAlive temp
 scoreboard players operation $totalStocks temp *= $stockLimit options
 
+setblock -482 4 55 minecraft:oak_sign{Text1:'[{"text":"Players Remaining: ","color":"gold"},{"score":{"name":"$playersAlive","objective":"temp"},"color":"yellow"}]'} destroy
+data modify entity @e[tag=lobby1.timer,limit=1] CustomName set from block -482 4 55 Text1
+
 function ssbrc:logic/resets/gamerules
 execute unless score $playersAlive temp matches 1.. if entity @a[team=spectator] run gamerule spectatorsGenerateChunks true
 
