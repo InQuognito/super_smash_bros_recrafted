@@ -121,6 +121,9 @@ execute store result score $playersAlive temp if entity @a[tag=alive]
 scoreboard players set $gameStage temp 2
 scoreboard players set $countdown timer 30
 
+setblock -481 4 55 minecraft:oak_sign{Text1:'[{"text":"Status: ","color":"gold"},{"text":"Stage Select","color":"yellow"}]'} destroy
+data modify entity @e[tag=lobby1.status,limit=1] CustomName set from block -481 4 55 Text1
+
 tp @a 3.5 3.0 21.5 0.0 0.0
 
 execute if score $teams options matches 0 run team join waiting @a[team=!spectator]
