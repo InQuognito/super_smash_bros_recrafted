@@ -42,6 +42,7 @@ execute if score @s mana < #hero.maxMana vars run clear @s minecraft:carrot_on_a
 
 # Kaclang
 scoreboard players remove @s[scores={duration.2=1..}] duration.2 1
+execute if score @s duration.2 matches 1.. run function ssbrc:logic/characters/effects/cleanse
 execute if entity @s[predicate=ssbrc:characters/hero/kaclang/off] run function ssbrc:series/dragon_quest/hero/logic/magic/kaclang_off
 
 # Magic Burst

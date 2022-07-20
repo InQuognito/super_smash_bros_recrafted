@@ -24,9 +24,12 @@ scoreboard players set #mario.superJumpMovementFalloff vars 200
 
 scoreboard players set #shadow.maxMeter vars 600
 
+scoreboard players set #shovelknight.chaosSphereManaCost vars 1
 scoreboard players set #shovelknight.flareWandManaCost vars 1
+scoreboard players set #shovelknight.throwingAnchorManaCost vars 1
 scoreboard players set #shovelknight.phaseLocketManaCost vars 3
 scoreboard players set #shovelknight.propellerDaggerManaCost vars 2
+scoreboard players set #shovelknight.warHornManaCost vars 5
 
 scoreboard players set #sora.driveForm vars 400
 scoreboard players set #sora.maxMp vars 10

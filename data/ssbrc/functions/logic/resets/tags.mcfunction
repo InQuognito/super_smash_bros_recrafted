@@ -70,6 +70,9 @@ function ssbrc:series/pokemon/teamrocket/menu/skins/reset
 
 function ssbrc:logic/resets/tags/maps
 
+function ssbrc:series/indie_fighters/shovelknight/kits/offense/reset
+function ssbrc:series/indie_fighters/shovelknight/kits/utility/reset
+
 # Misc
 tag @s remove abilityUsed
 tag @s remove alive
@@ -110,9 +113,6 @@ tag @s remove raoul
 tag @s remove room.characterSelect
 tag @s remove room.mapVoting
 tag @s remove sandman
-tag @s remove shovelknight.flareWand
-tag @s remove shovelknight.phaseLocket
-tag @s remove shovelknight.propellerDagger
 tag @s remove snake.antiPersonnelMine
 tag @s remove snake.famas
 tag @s remove snake.psg1
