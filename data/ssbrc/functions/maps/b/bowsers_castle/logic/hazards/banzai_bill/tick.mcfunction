@@ -5,7 +5,7 @@ execute unless score @s temp matches 20..80 run particle minecraft:large_smoke ~
 
 particle minecraft:flame ~-2 ~1.5 ~ 0.4 0.4 0.4 0.015 10 normal @a
 
-execute positioned ^2 ^ ^ if block ^0.1 ^ ^ minecraft:ladder run function ssbrc:maps/b/bowsers_castle/logic/hazards/destruction/top_platform
-execute positioned ^2 ^ ^ if block ^0.1 ^ ^ #ssbrc:bowsers_castle/rear_wall run function ssbrc:maps/b/bowsers_castle/logic/hazards/destruction/rear_wall
+execute positioned ^ ^ ^2 if block ^ ^ ^0.1 minecraft:ladder run function ssbrc:maps/b/bowsers_castle/logic/hazards/destruction/top_platform
+execute positioned ^ ^ ^2 if block ^ ^ ^0.1 #ssbrc:bowsers_castle/rear_wall run function ssbrc:maps/b/bowsers_castle/logic/hazards/destruction/rear_wall
 
 scoreboard players add @s temp 1
