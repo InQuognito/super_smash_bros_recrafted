@@ -7,6 +7,3 @@ tp @s[x=-29.5,y=6.0,z=-159.5,distance=..1] -520.5 5.0 55.5 90.0 0.0
 
 # Effects
 function ssbrc:logic/tick/effects
-
-# Ticks all players selecting a fighter
-execute as @s[tag=room.characterSelect] run function ssbrc:logic/tick/triggers/lobby
