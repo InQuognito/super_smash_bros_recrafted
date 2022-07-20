@@ -1,3 +1,7 @@
+# Lobby
+scoreboard players set #quickStart vars 10
+
+# Fighters
 scoreboard players set #cloud.maxLimit vars 70
 
 scoreboard players set #darksamus.chargeBeamThreshold vars 100

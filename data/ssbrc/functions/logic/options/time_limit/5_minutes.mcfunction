@@ -6,4 +6,4 @@ scoreboard players set $timeLimit options 300
 
 function ssbrc:logic/options_book
 
-execute if score $gameStage temp matches 1 run scoreboard players set $countdown timer 5
+execute if score $gameStage temp matches 1 run scoreboard players operation $countdown timer = #quickStart vars

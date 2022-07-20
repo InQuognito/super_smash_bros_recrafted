@@ -9,4 +9,4 @@ function ssbrc:logic/resets/teams
 
 execute as @a[tag=room.characterSelect] run function ssbrc:logic/teams/red
 
-execute if score $gameStage temp matches 1 run scoreboard players set $countdown timer 5
+execute if score $gameStage temp matches 1 run scoreboard players operation $countdown timer = #quickStart vars
