@@ -110,6 +110,9 @@ tag @s remove raoul
 tag @s remove room.characterSelect
 tag @s remove room.mapVoting
 tag @s remove sandman
+tag @s remove shovelknight.flareWand
+tag @s remove shovelknight.phaseLocket
+tag @s remove shovelknight.propellerDagger
 tag @s remove snake.antiPersonnelMine
 tag @s remove snake.famas
 tag @s remove snake.psg1
