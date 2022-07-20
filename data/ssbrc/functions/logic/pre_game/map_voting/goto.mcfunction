@@ -3,7 +3,7 @@ kill @e[tag=lobbyStand.label]
 clear @a
 
 scoreboard players reset @a useAbility
-scoreboard players reset @a menu
+execute as @a run function ssbrc:logic/resets/triggers
 
 # Acropolis Graveyard
 summon minecraft:area_effect_cloud -3.5 11.0 17.5 {Age:-2147483648,Duration:-1,WaitTime:-2147483648,Tags:["voteCounter","acropolisGraveyard"],CustomNameVisible:1b}

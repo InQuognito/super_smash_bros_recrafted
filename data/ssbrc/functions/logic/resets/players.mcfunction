@@ -1,5 +1,6 @@
 function ssbrc:logic/resets/attributes
 function ssbrc:logic/resets/tags
+function ssbrc:logic/resets/triggers
 
 gamemode adventure @s
 clear @s
