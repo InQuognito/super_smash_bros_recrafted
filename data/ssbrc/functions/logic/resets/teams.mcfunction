@@ -188,4 +188,4 @@ team modify waiting friendlyFire false
 team modify waiting nametagVisibility never
 team modify waiting prefix ""
 team modify waiting seeFriendlyInvisibles true
-team modify waiting suffix ""
+team modify waiting suffix " ⌛"
