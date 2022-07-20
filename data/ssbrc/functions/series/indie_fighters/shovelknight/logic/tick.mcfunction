@@ -9,7 +9,7 @@ execute as @e[type=minecraft:marker,tag=propellerDagger] at @s if score @s id = 
 tag @s remove self
 
 # Phase Locket
-execute if entity @s[predicate=ssbrc:characters/shovelknight/phase_locket/off] run function ssbrc:series/indie_fighters/shovelknight/logic/magic/phase_locket/off
+execute if entity @s[tag=phaseLocket,predicate=ssbrc:characters/shovelknight/phase_locket/off] run function ssbrc:series/indie_fighters/shovelknight/logic/magic/phase_locket/off
 
 # Propeller Dagger
 execute if score @s[tag=propellerDagger] duration.2 matches 1 run function ssbrc:series/indie_fighters/shovelknight/logic/magic/propeller_dagger/deactivate
