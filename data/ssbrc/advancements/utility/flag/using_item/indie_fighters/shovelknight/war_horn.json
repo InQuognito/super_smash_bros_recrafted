@@ -1,0 +1,18 @@
+{
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:using_item",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:goat_horn"
+					],
+					"nbt": "{warHorn:1}"
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "ssbrc:series/indie_fighters/shovelknight/logic/magic/war_horn/check"
+	}
+}

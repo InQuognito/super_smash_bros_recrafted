@@ -4,7 +4,6 @@ execute if score @s[scores={useAbility=1..,cooldown.1=..0},nbt={SelectedItem:{ta
 execute if score @s[scores={useAbility=1..,cooldown.1=..0},nbt={SelectedItem:{tag:{throwingAnchor:1}}}] mana >= #shovelknight.throwingAnchorManaCost vars at @s anchored eyes run function ssbrc:series/indie_fighters/shovelknight/logic/magic/throwing_anchor/activate
 execute if score @s[scores={useAbility=1..,cooldown.2=..0},nbt={SelectedItem:{tag:{phaseLocket:1}}}] mana >= #shovelknight.phaseLocketManaCost vars run function ssbrc:series/indie_fighters/shovelknight/logic/magic/phase_locket/on
 execute if score @s[scores={useAbility=1..,cooldown.2=..0},nbt={SelectedItem:{tag:{propellerDagger:1}}}] mana >= #shovelknight.propellerDaggerManaCost vars at @s run function ssbrc:series/indie_fighters/shovelknight/logic/magic/propeller_dagger/activate
-execute if score @s[scores={useAbility=1..,cooldown.2=..0},nbt={SelectedItem:{tag:{warHorn:1}}}] mana >= #shovelknight.warHornManaCost vars at @s run function ssbrc:series/indie_fighters/shovelknight/logic/magic/war_horn/activate
 
 tag @s add self
 execute as @e[type=minecraft:area_effect_cloud,tag=chaosSphere] at @s if score @s id = @p[tag=self] id run function ssbrc:series/indie_fighters/shovelknight/logic/magic/chaos_sphere/tick
