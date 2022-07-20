@@ -8,9 +8,10 @@ team remove team7
 team remove team8
 team remove admin
 team remove dead
+team remove ready
 team remove spectator
-team remove waiting
 team remove temp
+team remove waiting
 
 team add team1
 team add team2
@@ -22,9 +23,10 @@ team add team7
 team add team8
 team add admin
 team add dead
+team add ready
 team add spectator
-team add waiting
 team add temp
+team add waiting
 
 execute if score $teams options matches 0 run team modify team1 color green
 execute if score $teams options matches 1 run team modify team1 color red
