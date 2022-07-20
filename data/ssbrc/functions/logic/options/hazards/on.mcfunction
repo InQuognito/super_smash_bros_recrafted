@@ -4,3 +4,5 @@ execute if score $hazards options matches 1 run tellraw @s [{"text":"Hazards","c
 scoreboard players set $hazards options 1
 
 function ssbrc:logic/options_book
+
+execute if score $gameStage temp matches 1 run scoreboard players set $countdown timer 5

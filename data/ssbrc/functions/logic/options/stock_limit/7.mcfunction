@@ -5,3 +5,5 @@ execute unless score $gameMode options matches 1 run tellraw @s [{"text":"Stock 
 scoreboard players set $stockLimit options 7
 
 function ssbrc:logic/options_book
+
+execute if score $gameStage temp matches 1 run scoreboard players set $countdown timer 5

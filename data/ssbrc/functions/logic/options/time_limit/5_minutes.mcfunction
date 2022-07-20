@@ -5,3 +5,5 @@ execute unless score $gameMode options matches 2 run tellraw @s [{"text":"Time B
 scoreboard players set $timeLimit options 300
 
 function ssbrc:logic/options_book
+
+execute if score $gameStage temp matches 1 run scoreboard players set $countdown timer 5

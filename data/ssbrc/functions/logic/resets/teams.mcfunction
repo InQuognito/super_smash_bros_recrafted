@@ -148,6 +148,16 @@ team modify dead prefix "[X] "
 team modify dead seeFriendlyInvisibles true
 team modify dead suffix ""
 
+team modify ready color dark_green
+team modify ready collisionRule always
+team modify ready deathMessageVisibility never
+team modify ready displayName "Ready"
+team modify ready friendlyFire false
+team modify ready nametagVisibility never
+team modify ready prefix ""
+team modify ready seeFriendlyInvisibles true
+team modify ready suffix "✔"
+
 team modify spectator color gray
 team modify spectator collisionRule never
 team modify spectator deathMessageVisibility hideForOwnTeam
@@ -158,16 +168,6 @@ team modify spectator prefix "[X] "
 team modify spectator seeFriendlyInvisibles true
 team modify spectator suffix ""
 
-team modify waiting color yellow
-team modify waiting collisionRule always
-team modify waiting deathMessageVisibility never
-team modify waiting displayName "Waiting"
-team modify waiting friendlyFire false
-team modify waiting nametagVisibility never
-team modify waiting prefix ""
-team modify waiting seeFriendlyInvisibles true
-team modify waiting suffix ""
-
 team modify temp color white
 team modify temp collisionRule always
 team modify temp deathMessageVisibility never
@@ -177,3 +177,13 @@ team modify temp nametagVisibility never
 team modify temp prefix ""
 team modify temp seeFriendlyInvisibles true
 team modify temp suffix ""
+
+team modify waiting color yellow
+team modify waiting collisionRule always
+team modify waiting deathMessageVisibility never
+team modify waiting displayName "Waiting"
+team modify waiting friendlyFire false
+team modify waiting nametagVisibility never
+team modify waiting prefix ""
+team modify waiting seeFriendlyInvisibles true
+team modify waiting suffix ""

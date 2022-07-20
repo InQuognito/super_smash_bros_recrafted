@@ -22,17 +22,18 @@ scoreboard players operation $sora.mpPercent temp = @s mana
 scoreboard players operation $sora.mpPercent temp *= 100 integers
 scoreboard players operation $sora.mpPercent temp /= #sora.maxMp vars
 
-execute if score $sora.mpPercent temp matches 0 run title @s actionbar {"text":"MP: ","bold":true,"color":"white"}
-execute if score $sora.mpPercent temp matches 1..10 run title @s actionbar [{"text":"MP: ","bold":true,"color":"white"},{"text":"\u25ae","color":"blue"}]
-execute if score $sora.mpPercent temp matches 11..20 run title @s actionbar [{"text":"MP: ","bold":true,"color":"white"},{"text":"\u25ae\u25ae","color":"blue"}]
-execute if score $sora.mpPercent temp matches 21..30 run title @s actionbar [{"text":"MP: ","bold":true,"color":"white"},{"text":"\u25ae\u25ae\u25ae","color":"blue"}]
-execute if score $sora.mpPercent temp matches 31..40 run title @s actionbar [{"text":"MP: ","bold":true,"color":"white"},{"text":"\u25ae\u25ae\u25ae\u25ae","color":"blue"}]
-execute if score $sora.mpPercent temp matches 41..50 run title @s actionbar [{"text":"MP: ","bold":true,"color":"white"},{"text":"\u25ae\u25ae\u25ae\u25ae\u25ae","color":"blue"}]
-execute if score $sora.mpPercent temp matches 51..60 run title @s actionbar [{"text":"MP: ","bold":true,"color":"white"},{"text":"\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae","color":"blue"}]
-execute if score $sora.mpPercent temp matches 61..70 run title @s actionbar [{"text":"MP: ","bold":true,"color":"white"},{"text":"\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae","color":"blue"}]
-execute if score $sora.mpPercent temp matches 71..80 run title @s actionbar [{"text":"MP: ","bold":true,"color":"white"},{"text":"\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae","color":"blue"}]
-execute if score $sora.mpPercent temp matches 81..90 run title @s actionbar [{"text":"MP: ","bold":true,"color":"white"},{"text":"\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae","color":"blue"}]
-execute if score $sora.mpPercent temp matches 91.. run title @s actionbar [{"text":"MP: ","bold":true,"color":"white"},{"text":"\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae","color":"blue"}]
+title @s[tag=valor] actionbar ""
+execute if score $sora.mpPercent temp matches 0 run title @s[tag=!valor] actionbar {"text":"MP: ","bold":true,"color":"white"}
+execute if score $sora.mpPercent temp matches 1..10 run title @s[tag=!valor,tag=!anti] actionbar [{"text":"MP: ","bold":true,"color":"white"},{"text":"\u25ae","color":"blue"}]
+execute if score $sora.mpPercent temp matches 11..20 run title @s[tag=!valor,tag=!anti] actionbar [{"text":"MP: ","bold":true,"color":"white"},{"text":"\u25ae\u25ae","color":"blue"}]
+execute if score $sora.mpPercent temp matches 21..30 run title @s[tag=!valor,tag=!anti] actionbar [{"text":"MP: ","bold":true,"color":"white"},{"text":"\u25ae\u25ae\u25ae","color":"blue"}]
+execute if score $sora.mpPercent temp matches 31..40 run title @s[tag=!valor,tag=!anti] actionbar [{"text":"MP: ","bold":true,"color":"white"},{"text":"\u25ae\u25ae\u25ae\u25ae","color":"blue"}]
+execute if score $sora.mpPercent temp matches 41..50 run title @s[tag=!valor,tag=!anti] actionbar [{"text":"MP: ","bold":true,"color":"white"},{"text":"\u25ae\u25ae\u25ae\u25ae\u25ae","color":"blue"}]
+execute if score $sora.mpPercent temp matches 51..60 run title @s[tag=!valor,tag=!anti] actionbar [{"text":"MP: ","bold":true,"color":"white"},{"text":"\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae","color":"blue"}]
+execute if score $sora.mpPercent temp matches 61..70 run title @s[tag=!valor,tag=!anti] actionbar [{"text":"MP: ","bold":true,"color":"white"},{"text":"\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae","color":"blue"}]
+execute if score $sora.mpPercent temp matches 71..80 run title @s[tag=!valor,tag=!anti] actionbar [{"text":"MP: ","bold":true,"color":"white"},{"text":"\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae","color":"blue"}]
+execute if score $sora.mpPercent temp matches 81..90 run title @s[tag=!valor,tag=!anti] actionbar [{"text":"MP: ","bold":true,"color":"white"},{"text":"\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae","color":"blue"}]
+execute if score $sora.mpPercent temp matches 91.. run title @s[tag=!valor,tag=!anti] actionbar [{"text":"MP: ","bold":true,"color":"white"},{"text":"\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae","color":"blue"}]
 
 execute if score @s mana > #sora.maxMp vars run scoreboard players operation @s mana = #sora.maxMp vars
 

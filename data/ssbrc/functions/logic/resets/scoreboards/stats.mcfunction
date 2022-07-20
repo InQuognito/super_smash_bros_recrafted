@@ -187,7 +187,7 @@ scoreboard objectives add stats.teamrocket.winStreak dummy
 execute as @a run function ssbrc:logic/resets/scoreboards/set_empty_stats
 
 # Misc
-scoreboard objectives add options dummy
+scoreboard objectives add options trigger
 scoreboard objectives add stats.deaths minecraft.custom:minecraft.deaths
 scoreboard objectives add stats.gamesPlayed dummy
 scoreboard objectives add stats.kD dummy

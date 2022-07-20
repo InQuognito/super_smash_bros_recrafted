@@ -11,7 +11,7 @@ tag @s add captainfalcon
 
 tag @s add characterPicked
 
-execute if score $teams options matches 0 run team leave @s
+execute if score $teams options matches 0 run team join ready @s
 effect clear @s minecraft:glowing
 
 function ssbrc:logic/pre_game/character_select/check_participation

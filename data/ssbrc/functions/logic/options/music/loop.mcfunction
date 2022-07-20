@@ -4,3 +4,5 @@ execute if score $music options matches 0 run tellraw @s [{"text":"Music","color
 scoreboard players set $music options 0
 
 function ssbrc:logic/options_book
+
+execute if score $gameStage temp matches 1 run scoreboard players set $countdown timer 5
