@@ -5,7 +5,7 @@ summon minecraft:area_effect_cloud -524.5 5.75 55.5 {CustomName:'{"text":"Super 
 
 summon minecraft:area_effect_cloud -528.5 6.0 60.5 {CustomName:'{"text":"Join Game","color":"gold"}',CustomNameVisible:1b,Age:-2147483648,Duration:-1,WaitTime:-2147483648}
 summon minecraft:area_effect_cloud -528.5 5.75 60.5 {Tags:["lobby1.players"],CustomName:'[{"text":"Players: ","color":"gold"},{"text":"0/8","color":"yellow"}]',CustomNameVisible:1b,Age:-2147483648,Duration:-1,WaitTime:-2147483648}
-summon minecraft:area_effect_cloud -528.5 5.5 60.5 {Tags:["lobby1.status"],CustomName:'{"text":"Status: Fighter Select","color":"yellow"}',CustomNameVisible:1b,Age:-2147483648,Duration:-1,WaitTime:-2147483648}
+summon minecraft:area_effect_cloud -528.5 5.5 60.5 {Tags:["lobby1.status"],CustomName:'[{"text":"Status: ","color":"gold"},{"text":"Fighter Select","color":"yellow"}]',CustomNameVisible:1b,Age:-2147483648,Duration:-1,WaitTime:-2147483648}
 summon minecraft:area_effect_cloud -528.5 5.25 60.5 {Tags:["lobby1.timer"],CustomName:'',CustomNameVisible:1b,Age:-2147483648,Duration:-1,WaitTime:-2147483648}
 
 summon minecraft:area_effect_cloud -528.5 6.0 50.5 {CustomName:'{"text":"Credits","color":"gold"}',CustomNameVisible:1b,Age:-2147483648,Duration:-1,WaitTime:-2147483648}
