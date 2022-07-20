@@ -26,6 +26,7 @@ scoreboard players set #shadow.maxMeter vars 600
 
 scoreboard players set #shovelknight.flareWandManaCost vars 1
 scoreboard players set #shovelknight.phaseLocketManaCost vars 3
+scoreboard players set #shovelknight.propellerDaggerManaCost vars 3
 
 scoreboard players set #sora.driveForm vars 400
 scoreboard players set #sora.maxMp vars 10
