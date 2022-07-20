@@ -4,9 +4,9 @@ summon minecraft:area_effect_cloud -524.5 6.0 55.5 {CustomName:'{"text":"Welcome
 summon minecraft:area_effect_cloud -524.5 5.75 55.5 {CustomName:'{"text":"Super Smash Bros. Re:Crafted!","bold":true,"color":"gold"}',CustomNameVisible:1b,Age:-2147483648,Duration:-1,WaitTime:-2147483648}
 
 summon minecraft:area_effect_cloud -528.5 6.0 60.5 {CustomName:'{"text":"Join Game","color":"gold"}',CustomNameVisible:1b,Age:-2147483648,Duration:-1,WaitTime:-2147483648}
-summon minecraft:area_effect_cloud -528.5 5.75 60.5 {Tags:["lobby1.playerAmount"],CustomName:'[{"text":"Players: ","color":"gold"},{"score":{"name":"$players","objective":"temp"},"color":"yellow"},{"text":"/8","color":"yellow"}]',CustomNameVisible:1b,Age:-2147483648,Duration:-1,WaitTime:-2147483648}
+summon minecraft:area_effect_cloud -528.5 5.75 60.5 {Tags:["lobby1.players"],CustomName:'[{"text":"Players: ","color":"gold"},{"text":"0/8","color":"yellow"}]',CustomNameVisible:1b,Age:-2147483648,Duration:-1,WaitTime:-2147483648}
 summon minecraft:area_effect_cloud -528.5 5.5 60.5 {Tags:["lobby1.status"],CustomName:'{"text":"Status: Fighter Select","color":"yellow"}',CustomNameVisible:1b,Age:-2147483648,Duration:-1,WaitTime:-2147483648}
-summon minecraft:area_effect_cloud -528.5 5.25 60.5 {Tags:["lobby1.timer"],CustomName:'[{"text":"Starting in: ","color":"gold"},{"score":{"name":"$countdown","objective":"timer"},"color":"yellow"},{"text":"s","color":"gold"}]',CustomNameVisible:1b,Age:-2147483648,Duration:-1,WaitTime:-2147483648}
+summon minecraft:area_effect_cloud -528.5 5.25 60.5 {Tags:["lobby1.timer"],CustomName:'',CustomNameVisible:1b,Age:-2147483648,Duration:-1,WaitTime:-2147483648}
 
 summon minecraft:area_effect_cloud -528.5 6.0 50.5 {CustomName:'{"text":"Credits","color":"gold"}',CustomNameVisible:1b,Age:-2147483648,Duration:-1,WaitTime:-2147483648}
 summon minecraft:area_effect_cloud -29.5 6.0 -161.5 {CustomName:'{"text":"Return to Lobby","color":"gold"}',CustomNameVisible:1b,Age:-2147483648,Duration:-1,WaitTime:-2147483648}
