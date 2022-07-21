@@ -10,6 +10,7 @@ execute store result score offsetY temp run data get entity @e[tag=direction,lim
 scoreboard players operation offsetY temp += result random
 
 execute as @e[tag=direction] at @s run tp @s ^ ^ ^5
+execute as @e[tag=direction] at @s run summon armor_stand ~ ~ ~ {NoGravity:1b}
 
 scoreboard players operation @e[tag=projectile,limit=1] id = @s id
 data modify entity @e[tag=projectile,limit=1] Owner set from entity @s Owner
