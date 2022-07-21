@@ -9,8 +9,10 @@ function ssbrc:series/pokemon/teamrocket/logic/meowth/payday/projectiles/offset_
 execute store result score offsetY temp run data get entity @e[tag=direction,limit=1] Rotation[1]
 scoreboard players operation offsetY temp += result random
 
-execute as @e[tag=direction] at @s run tp @s ^ ^ ^5
-execute as @e[tag=direction] at @s run summon armor_stand ~ ~ ~ {NoGravity:1b}
+execute store result entity @e[tag=direction,limit=1] Rotation[0] float 1.0 run scoreboard players get offsetX temp
+execute store result entity @e[tag=direction,limit=1] Rotation[1] float 1.0 run scoreboard players get offsetY temp
+
+execute as @e[tag=direction] at @s run tp @s ^ ^ ^0.7
 
 scoreboard players operation @e[tag=projectile,limit=1] id = @s id
 data modify entity @e[tag=projectile,limit=1] Owner set from entity @s Owner
