@@ -7,7 +7,7 @@ execute store result score offsetX temp run data get entity @e[tag=direction,lim
 scoreboard players operation offsetX temp += result random
 function ssbrc:series/pokemon/teamrocket/logic/meowth/payday/projectiles/offset_y
 execute store result score offsetY temp run data get entity @e[tag=direction,limit=1] Rotation[1]
-scoreboard players operation offsetY temp -= result random
+scoreboard players operation offsetY temp += result random
 
 execute as @e[tag=direction] at @s run tp @s ^ ^ ^0.7
 
