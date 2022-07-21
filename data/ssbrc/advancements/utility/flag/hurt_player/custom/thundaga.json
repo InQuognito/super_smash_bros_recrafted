@@ -11,7 +11,7 @@
 					},
 					"type": {
 						"direct_entity": {
-							"nbt": "{Tags:[\"thundaga\"]}"
+							"type": "minecraft:lightning_bolt"
 						}
 					}
 				}
