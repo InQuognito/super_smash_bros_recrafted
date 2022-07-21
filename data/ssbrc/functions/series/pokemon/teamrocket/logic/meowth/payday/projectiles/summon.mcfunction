@@ -1,13 +1,15 @@
-execute positioned 0.0 0.0 0.0 run summon minecraft:marker ~ ~0.7 ~ {Tags:["direction"]}
+execute positioned 0.0 0.0 0.0 run summon minecraft:marker ~ ~ ~ {Tags:["direction"],Rotation:[0f,-90f]}
 
 summon minecraft:spectral_arrow ~ ~2 ~ {damage:0.5,Tags:["paydayProjectile","projectile"]}
 
-function ssbrc:series/pokemon/teamrocket/logic/meowth/payday/projectiles/offset
-execute store result score offsetX temp run data get entity @e[tag=projectile,limit=1] Rotation[0]
+function ssbrc:series/pokemon/teamrocket/logic/meowth/payday/projectiles/offset_x
+execute store result score offsetX temp run data get entity @e[tag=direction,limit=1] Rotation[0]
 scoreboard players operation offsetX temp += result random
-function ssbrc:series/pokemon/teamrocket/logic/meowth/payday/projectiles/offset
-execute store result score offsetY temp run data get entity @e[tag=projectile,limit=1] Rotation[1]
-scoreboard players operation offsetY temp += result random
+function ssbrc:series/pokemon/teamrocket/logic/meowth/payday/projectiles/offset_y
+execute store result score offsetY temp run data get entity @e[tag=direction,limit=1] Rotation[1]
+scoreboard players operation offsetY temp -= result random
+
+execute as @e[tag=direction] at @s run tp @s ^ ^ ^0.7
 
 execute store result entity @e[tag=projectile,limit=1] Rotation[0] float 1.0 run scoreboard players get offsetX temp
 execute store result entity @e[tag=projectile,limit=1] Rotation[1] float 1.0 run scoreboard players get offsetY temp
