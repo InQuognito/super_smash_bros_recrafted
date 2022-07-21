@@ -7,11 +7,11 @@
 				"damage": {
 					"blocked": false,
 					"source_entity": {
-						"nbt": "{Tags:[\"cloud\"]}"
+						"nbt": "{Tags:[\"joker\"]}"
 					},
 					"type": {
 						"direct_entity": {
-							"nbt": "{Tags:[\"bladeBeam\"]}"
+							"nbt": "{Tags:[\"tt33Bullet\"]}"
 						}
 					}
 				}
