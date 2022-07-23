@@ -3,6 +3,7 @@ particle minecraft:dust 1.0 0.0 0.0 2.0 ~ ~ ~ 0.0 0.0 0.0 0.0 1
 execute store result entity @s Rotation[1] float 0.5 run scoreboard players get @s point
 
 execute if score @s point < #mario.fireballMaxRotation vars run scoreboard players operation @s point -= @s slope
+execute if score @s point > #mario.fireballMaxRotation vars run scoreboard players operation @s point = #mario.fireballMaxRotation vars
 execute if score @s point < #mario.fireballMaxRotation vars run scoreboard players remove @s slope 10
 
 execute unless block ~ ~-0.6 ~ #ssbrc:passthrough run function ssbrc:series/super_mario_bros/mario/logic/fireball/bounce
