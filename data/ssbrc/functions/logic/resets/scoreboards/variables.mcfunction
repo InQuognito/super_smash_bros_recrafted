@@ -22,6 +22,7 @@ scoreboard players set #joker.maxAwakening vars 900
 scoreboard players set #luigi.superJumpThreshold vars 30
 scoreboard players set #luigi.superJumpMovementFalloff vars 200
 
+scoreboard players set #mario.fireballMaxRotation vars 160
 scoreboard players set #mario.superJumpThreshold vars 40
 scoreboard players set #mario.superJumpMovementFalloff vars 200
 
