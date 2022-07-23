@@ -1,7 +1,7 @@
 function ssbrc:math/rng/lcg
 
 scoreboard players operation #phazonPoolOffsetX temp = result random
-scoreboard players add #phazonPoolOffsetX temp 2
+scoreboard players add #phazonPoolOffsetX temp 1
 
 execute if predicate ssbrc:random_chance/50 run scoreboard players operation #phazonPoolOffsetX temp *= -1 integers
 
