@@ -7,3 +7,5 @@ execute if entity @s[tag=punisher] run scoreboard players operation #limitGain t
 execute if entity @s[tag=punisher] run scoreboard players operation #limitGain temp /= 150 integers
 
 scoreboard players operation @s cloud.limit += #limitGain temp
+
+function ssbrc:series/final_fantasy/cloud/logic/limit/update
