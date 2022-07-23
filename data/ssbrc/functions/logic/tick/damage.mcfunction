@@ -1,4 +1,5 @@
 execute as @a[tag=damage.iceBall] at @s anchored feet run function ssbrc:series/super_mario_bros/luigi/logic/ice_ball/damage
+execute as @a[tag=damage.phazonSpike] at @s run function ssbrc:series/metroid/darksamus/logic/phazon_spike/damage
 execute as @a[tag=damage.thundaga] at @s anchored feet run function ssbrc:series/kingdom_hearts/sora/logic/spells/thundaga/damage
 
 execute as @a[predicate=ssbrc:characters/byleth/damage/spin_attack] at @s anchored feet run function ssbrc:series/fire_emblem/byleth/logic/abilities/spin_attack/damage
