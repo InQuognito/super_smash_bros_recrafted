@@ -1,5 +1,5 @@
 execute if entity @s[predicate=!ssbrc:flag/sneaking,scores={useAbility=1..,cooldown.1=..0},nbt={SelectedItem:{tag:{phazonBeam:1}}}] at @s anchored eyes run function ssbrc:series/metroid/darksamus/logic/phazon_beam/summon
-execute if entity @s[predicate=ssbrc:flag/sneaking,scores={useAbility=1..},nbt={SelectedItem:{tag:{phazonBeam:1}}}] run function ssbrc:series/metroid/darksamus/logic/charge_beam/activate
+execute if entity @s[predicate=ssbrc:flag/sneaking,scores={useAbility=1..,charge.1=..0},nbt={SelectedItem:{tag:{phazonBeam:1}}}] run function ssbrc:series/metroid/darksamus/logic/charge_beam/activate
 execute if entity @s[predicate=!ssbrc:flag/sneaking,scores={charge.1=1..}] at @s anchored eyes run function ssbrc:series/metroid/darksamus/logic/charge_beam/deactivate
 execute if entity @s[scores={useAbility=1..},nbt={SelectedItem:{tag:{phazonOverload:1}}}] at @s anchored eyes run function ssbrc:series/metroid/darksamus/logic/phazon_overload/on
 

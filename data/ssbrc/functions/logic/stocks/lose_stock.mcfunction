@@ -6,6 +6,7 @@ scoreboard players set @s respawn 60
 scoreboard players set @s duration.1 0
 scoreboard players set @s duration.2 0
 scoreboard players set @s duration.3 0
+scoreboard players set @s[tag=darksamus] charge.1 0
 scoreboard players set @s[tag=shadow] charge.1 0
 
 scoreboard players set @s flag.sprinting 0
