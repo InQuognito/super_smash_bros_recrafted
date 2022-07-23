@@ -7,6 +7,9 @@ scoreboard players set #cloud.maxLimit vars 70
 scoreboard players set #darksamus.chargeBeamThreshold vars 100
 
 scoreboard players set #hero.maxMana vars 20
+scoreboard players operation #hero.initialMana vars = #hero.maxMana vars
+scoreboard players operation #hero.initialMana vars *= 3 integers
+scoreboard players operation #hero.initialMana vars /= 4 integers
 scoreboard players set #hero.manaGainedOnKill vars 6
 scoreboard players set #hero.manaGainedOnDeath vars 7
 scoreboard players set #hero.flameSlashManaCost vars 1
@@ -24,6 +27,7 @@ scoreboard players set #mario.superJumpMovementFalloff vars 200
 
 scoreboard players set #shadow.maxMeter vars 600
 
+scoreboard players set #shovelknight.maxMana vars 10
 scoreboard players set #shovelknight.chaosSphereManaCost vars 1
 scoreboard players set #shovelknight.flareWandManaCost vars 1
 scoreboard players set #shovelknight.throwingAnchorManaCost vars 1

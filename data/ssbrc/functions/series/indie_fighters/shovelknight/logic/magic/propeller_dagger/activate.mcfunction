@@ -6,10 +6,10 @@ data modify entity @e[tag=projectile,limit=1] Owner set from entity @s UUID
 
 tag @e[tag=projectile] remove projectile
 
-execute if score @s shadow.chaosControl matches 1.. run function ssbrc:logic/characters/cooldown_modifiers/chaos_control/2
+scoreboard players operation @s mana -= #shovelknight.propellerDaggerManaCost vars
+function ssbrc:series/indie_fighters/shovelknight/logic/mana/update
 
 scoreboard players set @s duration.2 10
-scoreboard players operation @s mana -= #shovelknight.propellerDaggerManaCost vars
 
 effect give @p minecraft:levitation 1000000 255 true
 

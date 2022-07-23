@@ -3,4 +3,5 @@ loot replace entity @s[tag=rek] hotbar.0 loot ssbrc:characters/dragon_quest/hero
 loot replace entity @s hotbar.1 loot ssbrc:characters/dragon_quest/hero/bang
 loot replace entity @s hotbar.2 loot ssbrc:characters/dragon_quest/hero/kaclang
 
-scoreboard players set @s mana 15
+scoreboard players operation @s mana = #hero.initialMana vars
+function ssbrc:series/dragon_quest/hero/logic/mana/update

@@ -98,7 +98,6 @@ tag @s remove damage.fireBreath
 tag @s remove damage.iceBall
 tag @s remove damage.pkBeam
 tag @s remove damage.pkFreeze
-tag @s remove hero.magicLost
 tag @s remove hotAir
 tag @s remove idSet
 tag @s remove incubus

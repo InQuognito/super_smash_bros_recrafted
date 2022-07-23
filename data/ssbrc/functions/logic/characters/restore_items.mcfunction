@@ -40,8 +40,7 @@ loot replace entity @s[tag=hero,tag=rek] hotbar.0 loot ssbrc:characters/dragon_q
 loot replace entity @s[tag=hero] hotbar.1 loot ssbrc:characters/dragon_quest/hero/bang
 loot replace entity @s[tag=hero] hotbar.2 loot ssbrc:characters/dragon_quest/hero/kaclang
 scoreboard players operation @s[tag=hero] mana += #hero.manaGainedOnDeath vars
-scoreboard players set @s[tag=hero,scores={mana=22..}] mana 21
-tag @s[tag=hero] remove hero.magicLost
+function ssbrc:series/dragon_quest/hero/logic/mana/update
 
 # Joker
 clear @s minecraft:carrot_on_a_stick{mask:1}
