@@ -38,7 +38,7 @@
 								{
 									"attribute": "minecraft:generic.movement_speed",
 									"name": "Movement Speed",
-									"amount": 0.25,
+									"amount": 0,
 									"operation": "multiply_base",
 									"slot": "mainhand"
 								}
