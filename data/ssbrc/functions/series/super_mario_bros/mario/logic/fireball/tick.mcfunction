@@ -6,7 +6,7 @@ execute if score @s point < #mario.fireballMaxRotation vars run scoreboard playe
 execute if score @s point > #mario.fireballMaxRotation vars run scoreboard players operation @s point = #mario.fireballMaxRotation vars
 execute if score @s point < #mario.fireballMaxRotation vars run scoreboard players remove @s slope 10
 
-execute unless block ~ ~-0.6 ~ #ssbrc:passthrough run function ssbrc:series/super_mario_bros/mario/logic/fireball/bounce
+execute if score @s point < 0 integers unless block ~ ~-0.6 ~ #ssbrc:passthrough run function ssbrc:series/super_mario_bros/mario/logic/fireball/bounce
 
 execute rotated as @s run teleport @s ^ ^ ^0.6
 
