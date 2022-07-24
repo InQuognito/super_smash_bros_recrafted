@@ -6,7 +6,7 @@ execute if entity @s[predicate=!ssbrc:characters/sora/no_spells,predicate=!ssbrc
 execute if entity @s[predicate=!ssbrc:characters/sora/no_spells,predicate=!ssbrc:flag/sneaking,scores={useAbility=1..,cooldown.2=..0},nbt={SelectedItem:{tag:{blizzaga:1}}}] if score @s mana >= #sora.blizzagaMPCost vars at @s anchored eyes run function ssbrc:series/kingdom_hearts/sora/logic/spells/blizzaga/check
 execute if entity @s[predicate=!ssbrc:characters/sora/no_spells,predicate=!ssbrc:flag/sneaking,scores={useAbility=1..,cooldown.2=..0},nbt={SelectedItem:{tag:{thundaga:1}}}] if score @s mana >= #sora.thundagaMPCost vars at @s run function ssbrc:series/kingdom_hearts/sora/logic/spells/thundaga/check
 
-execute if entity @s[tag=valor,predicate=!ssbrc:flag/sneaking,scores={useAbility=1..},nbt={SelectedItem:{tag:{strikeRaid:1}}}] at @s anchored eyes run function ssbrc:series/kingdom_hearts/sora/logic/spells/thundaga/check
+execute if entity @s[tag=valor,predicate=!ssbrc:flag/sneaking,scores={useAbility=1..},nbt={SelectedItem:{tag:{strikeRaid:1}}}] at @s anchored eyes run function ssbrc:series/kingdom_hearts/sora/logic/spells/strike_raid/activate
 
 execute if entity @s[scores={useAbility=1..},nbt={SelectedItem:{tag:{valor:1}}}] run tag @s add driveForm.valor
 execute if entity @s[scores={useAbility=1..},nbt={SelectedItem:{tag:{wisdom:1}}}] run tag @s add driveForm.wisdom
