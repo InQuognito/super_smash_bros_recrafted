@@ -1,6 +1,8 @@
-execute unless score $gameStage temp matches 4 run function ssbrc:logic/tick/lobby
+execute as @a[tag=!characterPicked] run function ssbrc:logic/tick/lobby
 execute if score $gameStage temp matches 4 run function ssbrc:logic/tick/ingame
 
-# Positioning of particles for bow charging
-#execute as @a at @s anchored eyes run particle minecraft:dust 1 1 1 1 ^-0.2 ^-0.3 ^0.9 0.0 0.0 0.0 0 1 normal @a[distance=1..]
-#execute as @a at @s anchored eyes run particle minecraft:dust 1 1 1 1 ^-0.5 ^-0.1 ^0.9 0.0 0.0 0.0 0 1 normal @s
+# Ticks all players selecting a fighter
+execute as @a[tag=room.characterSelect] run function ssbrc:logic/tick/triggers/lobby
+
+# Reset Players
+execute as @a[tag=!loaded] run function ssbrc:logic/resets/players

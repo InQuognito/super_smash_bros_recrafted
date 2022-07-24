@@ -1,3 +1,15 @@
+# Lobby
+scoreboard players set #quickStart vars 10
+
+# Fighters
+scoreboard players set #cloud.maxLimit vars 70
+
+scoreboard players set #darksamus.chargeBeamThreshold vars 100
+
+scoreboard players set #hero.maxMana vars 20
+scoreboard players operation #hero.initialMana vars = #hero.maxMana vars
+scoreboard players operation #hero.initialMana vars *= 3 integers
+scoreboard players operation #hero.initialMana vars /= 4 integers
 scoreboard players set #hero.manaGainedOnKill vars 6
 scoreboard players set #hero.manaGainedOnDeath vars 7
 scoreboard players set #hero.flameSlashManaCost vars 1
@@ -5,17 +17,53 @@ scoreboard players set #hero.bangManaCost vars 2
 scoreboard players set #hero.kaclangManaCost vars 3
 
 scoreboard players set #joker.finalGuardThreshold vars 4
+scoreboard players set #joker.maxAwakening vars 900
 
+scoreboard players set #luigi.iceBallMaxRotation vars 160
+scoreboard players set #luigi.superJumpThreshold vars 30
+scoreboard players set #luigi.superJumpMovementFalloff vars 200
+
+scoreboard players set #mario.fireballMaxRotation vars 160
+scoreboard players set #mario.superJumpThreshold vars 40
+scoreboard players set #mario.superJumpMovementFalloff vars 200
+
+scoreboard players set #shadow.maxMeter vars 600
+
+scoreboard players set #shovelknight.maxMana vars 10
+scoreboard players set #shovelknight.chaosSphereManaCost vars 1
 scoreboard players set #shovelknight.flareWandManaCost vars 1
+scoreboard players set #shovelknight.throwingAnchorManaCost vars 1
 scoreboard players set #shovelknight.phaseLocketManaCost vars 3
+scoreboard players set #shovelknight.propellerDaggerManaCost vars 2
+scoreboard players set #shovelknight.warHornManaCost vars 5
+scoreboard players set #shovelknight.chaosSphereMaxRotation vars 160
+
+scoreboard players set #sora.driveForm vars 400
+scoreboard players set #sora.maxMP vars 10
+scoreboard players set #sora.firagaMPCost vars 2
+scoreboard players set #sora.blizzagaMPCost vars 1
+scoreboard players set #sora.thundagaMPCost vars 5
+scoreboard players set #sora.thundazaRange vars 30
 
 scoreboard players set #snake.psg1Weight vars 5
 scoreboard players set #snake.famasWeight vars 5
 scoreboard players set #snake.s1000Weight vars 4
 scoreboard players set #snake.socomWeight vars 3
-scoreboard players set #snake.apmWeight vars 3
-scoreboard players set #snake.sgWeight vars 2
+scoreboard players set #snake.antiPersonnelMineWeight vars 2
+scoreboard players set #snake.smokeGrenadeWeight vars 2
 scoreboard players set #snake.totalWeight vars 10
+
+scoreboard players set #damage.bladeBeam vars 53
+scoreboard players set #damage.blizzaga vars 40
+scoreboard players set #damage.chaosSpear vars 95
+scoreboard players set #damage.firaga vars 40
+scoreboard players set #damage.thundaga vars 40
+scoreboard players set #damage.tt33 vars 40
+
+# Maps
+scoreboard players set #bowsersCastle.thwompTime vars 100
+scoreboard players operation #bowsersCastle.thwompSinkTime vars = #bowsersCastle.thwompTime vars
+scoreboard players operation #bowsersCastle.thwompSinkTime vars *= 3 integers
 
 # Common Currency Values
 scoreboard players set #value.playGame vars 50

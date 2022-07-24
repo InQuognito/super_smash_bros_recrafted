@@ -1,0 +1,150 @@
+[
+	{
+		"function": "minecraft:set_name",
+		"entity": "this",
+		"name": {
+			"text": "Rebel's Knife",
+			"color": "light_gray",
+			"bold": true,
+			"italic": false
+		},
+		"conditions": [
+			{
+				"condition": "minecraft:entity_scores",
+				"entity": "this",
+				"scores": {
+					"duration.1": 0
+				}
+			}
+		]
+	},
+	{
+		"function": "minecraft:set_nbt",
+		"tag": "{freezeBoost:0,fireBoost:0}",
+		"conditions": [
+			{
+				"condition": "minecraft:entity_scores",
+				"entity": "this",
+				"scores": {
+					"duration.1": 0
+				}
+			}
+		]
+	},
+	{
+		"function": "minecraft:set_name",
+		"entity": "this",
+		"name": {
+			"text": "Rebel's Knife ",
+			"color": "light_gray",
+			"bold": true,
+			"italic": false,
+			"extra": [
+				{
+					"text": "[ Freeze Boost ]",
+					"color": "aqua",
+					"bold": true,
+					"italic": false
+				}
+			]
+		},
+		"conditions": [
+			{
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"nbt": "{Tags:[\"jackFrost\"]}"
+				}
+			},
+			{
+				"condition": "minecraft:entity_scores",
+				"entity": "this",
+				"scores": {
+					"duration.1": {
+						"min": 1
+					}
+				}
+			}
+		]
+	},
+	{
+		"function": "minecraft:set_nbt",
+		"tag": "{freezeBoost:1,fireBoost:0}",
+		"conditions": [
+			{
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"nbt": "{Tags:[\"jackFrost\"]}"
+				}
+			},
+			{
+				"condition": "minecraft:entity_scores",
+				"entity": "this",
+				"scores": {
+					"duration.1": {
+						"min": 1
+					}
+				}
+			}
+		]
+	},
+	{
+		"function": "minecraft:set_name",
+		"entity": "this",
+		"name": {
+			"text": "Rebel's Knife ",
+			"color": "light_gray",
+			"bold": true,
+			"italic": false,
+			"extra": [
+				{
+					"text": "[ Fire Boost ]",
+					"color": "red",
+					"bold": true,
+					"italic": false
+				}
+			]
+		},
+		"conditions": [
+			{
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"nbt": "{Tags:[\"jackOLantern\"]}"
+				}
+			},
+			{
+				"condition": "minecraft:entity_scores",
+				"entity": "this",
+				"scores": {
+					"duration.1": {
+						"min": 1
+					}
+				}
+			}
+		]
+	},
+	{
+		"function": "minecraft:set_nbt",
+		"tag": "{freezeBoost:0,fireBoost:1}",
+		"conditions": [
+			{
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"nbt": "{Tags:[\"jackOLantern\"]}"
+				}
+			},
+			{
+				"condition": "minecraft:entity_scores",
+				"entity": "this",
+				"scores": {
+					"duration.1": {
+						"min": 1
+					}
+				}
+			}
+		]
+	}
+]

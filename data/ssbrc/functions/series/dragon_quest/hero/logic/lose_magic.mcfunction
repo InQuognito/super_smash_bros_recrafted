@@ -1,7 +1,9 @@
-tag @s add hero.magicLost
-
-item replace entity @s[tag=!rek] hotbar.0 with minecraft:iron_sword{CustomModelData:441,Unbreakable:1,AttributeModifiers:[{AttributeName:"minecraft:generic.attack_damage",Amount:3,Slot:mainhand,Name:"minecraft:generic.attack_damage",UUID:[I;-12164,22807,92130,-45614]},{AttributeName:"minecraft:generic.attack_speed",Amount:-1.8,Slot:mainhand,Name:"minecraft:generic.attack_speed",UUID:[I;-12144,22907,92130,-45814]}],display:{Name:'[{"text":"Sword of Light","italic":false,"color":"yellow","bold":true}]'},HideFlags:127} 1
-item replace entity @s[tag=rek] hotbar.0 with minecraft:iron_sword{CustomModelData:442,Unbreakable:1,AttributeModifiers:[{AttributeName:"minecraft:generic.attack_damage",Amount:3,Slot:mainhand,Name:"minecraft:generic.attack_damage",UUID:[I;-12164,22807,92130,-45614]},{AttributeName:"minecraft:generic.attack_speed",Amount:-1.8,Slot:mainhand,Name:"minecraft:generic.attack_speed",UUID:[I;-12144,22907,92130,-45814]}],display:{Name:'[{"text":"Sword of Ramias","italic":false,"color":"yellow","bold":true}]'},HideFlags:127} 1
-item replace entity @s weapon.offhand with minecraft:shield{Damage:316,BlockEntityTag:{Base:11,Patterns:[{Color:4,Pattern:"flo"},{Color:4,Pattern:"sku"},{Color:14,Pattern:"mc"},{Color:4,Pattern:"bo"}]},display:{Name:'[{"text":"Erdwin\'s Shield","italic":false,"color":"yellow","bold":true}]'},HideFlags:127} 1
+function ssbrc:logic/title_times/default
 
 clear @s minecraft:carrot_on_a_stick
+
+loot replace entity @s[tag=default] hotbar.0 loot ssbrc:characters/dragon_quest/hero/sword/sword_of_light
+loot replace entity @s[tag=erdrick] hotbar.0 loot ssbrc:characters/dragon_quest/hero/sword/erdricks_sword
+loot replace entity @s[tag=rek] hotbar.0 loot ssbrc:characters/dragon_quest/hero/sword/sword_of_ramias
+loot replace entity @s[tag=!erdrick] weapon.offhand loot ssbrc:characters/dragon_quest/hero/shield/erdwins_shield
+loot replace entity @s[tag=erdrick] weapon.offhand loot ssbrc:characters/dragon_quest/hero/shield/heros_shield

@@ -116,8 +116,3 @@ scoreboard players add @s[tag=teamrocket] teamrocket.wS 1
 
 scoreboard players add @s[tag=winner] stats.wins 1
 scoreboard players add @s stats.gamesPlayed 1
-
-scoreboard players operation @s currency.temp += #value.playGame vars
-scoreboard players operation @s[tag=winner] currency.temp += #value.winGame vars
-
-scoreboard players operation @s currency += @s currency.temp

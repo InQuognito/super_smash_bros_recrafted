@@ -1,4 +1,4 @@
 tag @s remove default
 tag @s remove gold
-tag @s remove gravity
-tag @s remove phazon
+tag @s remove gravitySuit
+tag @s remove phazonSuit

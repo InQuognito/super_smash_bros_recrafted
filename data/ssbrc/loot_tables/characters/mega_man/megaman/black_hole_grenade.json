@@ -1,0 +1,49 @@
+{
+	"type": "minecraft:command",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:splash_potion",
+					"functions": [
+						{
+							"function": "minecraft:set_name",
+							"entity": "this",
+							"name": {
+								"text": "Black Hole Grenade",
+								"color": "dark_purple",
+								"bold": true,
+								"italic": false
+							}
+						},
+						{
+							"function": "minecraft:set_attributes",
+							"modifiers": [
+								{
+									"attribute": "minecraft:generic.attack_damage",
+									"name": "Attack Damage",
+									"amount": 0,
+									"operation": "multiply_base",
+									"slot": "mainhand"
+								},
+								{
+									"attribute": "minecraft:generic.attack_speed",
+									"name": "Attack Speed",
+									"amount": 0,
+									"operation": "multiply_base",
+									"slot": "mainhand"
+								}
+							]
+						},
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{blackHoleGrenade:1,CustomPotionColor:5974645,CustomPotionEffects:[{Id:22,Duration:-1},{Id:7,Duration:1,Amplifier:1},{Id:2,Duration:100,Amplifier:6},{Id:20,Duration:160,Amplifier:2}],HideFlags:127}"
+						}
+					]
+				}
+			]
+		}
+	]
+}

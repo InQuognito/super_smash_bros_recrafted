@@ -1,0 +1,24 @@
+{
+	"parent": "ssbrc:utility/root",
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:player_hurt_entity",
+			"conditions": {
+				"damage": {
+					"blocked": false,
+					"source_entity": {
+						"nbt": "{Tags:[\"cloud\"]}"
+					},
+					"type": {
+						"direct_entity": {
+							"nbt": "{Tags:[\"bladeBeam\"]}"
+						}
+					}
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "ssbrc:logic/characters/projectiles/damage_dealt/blade_beam"
+	}
+}

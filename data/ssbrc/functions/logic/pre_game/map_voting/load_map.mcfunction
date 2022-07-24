@@ -9,6 +9,7 @@ execute unless score #mapPicked mapVote matches 1 if entity @s[tag=draculasCastl
 execute unless score #mapPicked mapVote matches 1 if entity @s[tag=dreamLand] run function ssbrc:maps/d/dream_land/load
 execute unless score #mapPicked mapVote matches 1 if entity @s[tag=finalDestination] run function ssbrc:maps/f/final_destination/load
 execute unless score #mapPicked mapVote matches 1 if entity @s[tag=flatZone] run function ssbrc:maps/f/flat_zone/load
+execute unless score #mapPicked mapVote matches 1 if entity @s[tag=frozenHijinx] run function ssbrc:maps/f/frozen_hijinx/load
 execute unless score #mapPicked mapVote matches 1 if entity @s[tag=gardenOfHope] run function ssbrc:maps/g/garden_of_hope/load
 execute unless score #mapPicked mapVote matches 1 if entity @s[tag=greatBay] run function ssbrc:maps/g/great_bay/load
 execute unless score #mapPicked mapVote matches 1 if entity @s[tag=greatPlateau] run function ssbrc:maps/g/great_plateau/load

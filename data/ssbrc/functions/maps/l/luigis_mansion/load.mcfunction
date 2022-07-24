@@ -4,8 +4,6 @@ scoreboard players set $songCount map 2
 scoreboard players set #mapPicked mapVote 1
 forceload add -352 -1168 -273 -1089
 
-kill @e[type=!minecraft:player]
-
 # Paintings
 summon minecraft:armor_stand -322.5 17.5 -1108.5 {Invisible:1,DisabledSlots:4144959,Rotation:[90f,0f],NoGravity:1,ArmorItems:[{},{},{},{id:"minecraft:sugar",tag:{CustomModelData:1002},Count:1b}]}
 summon minecraft:armor_stand -302.5 17.5 -1108.5 {Invisible:1,DisabledSlots:4144959,Rotation:[-90f,0f],NoGravity:1,ArmorItems:[{},{},{},{id:"minecraft:sugar",tag:{CustomModelData:1002},Count:1b}]}

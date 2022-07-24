@@ -4,8 +4,6 @@ scoreboard players set $songCount map 2
 scoreboard players set #mapPicked mapVote 1
 forceload add 5984 416 6111 575
 
-kill @e[type=!minecraft:player]
-
 # Main Platform
 clone 6033 23 537 6057 23 561 5988 21 488
 # Small Platforms

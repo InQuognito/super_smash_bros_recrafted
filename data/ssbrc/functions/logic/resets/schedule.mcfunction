@@ -1,4 +1,4 @@
-schedule clear ssbrc:characters/steve/logic/spawn_item
+schedule clear ssbrc:series/indie_fighters/steve/logic/spawn_item
 schedule clear ssbrc:logic/music/loop
 schedule clear ssbrc:logic/timer
 
@@ -60,6 +60,9 @@ schedule clear ssbrc:maps/p/pac_maze/logic/ghosts/clyde/release
 schedule clear ssbrc:maps/p/pac_maze/logic/ghosts/inky/release
 schedule clear ssbrc:maps/p/pac_maze/logic/ghosts/pinky/release
 schedule clear ssbrc:maps/p/pac_maze/logic/ghosts/animation
+
+# Planet Zebes
+schedule clear ssbrc:maps/p/planet_zebes/logic/rain/check
 
 # Saturn Valley
 schedule clear ssbrc:maps/s/saturn_valley/logic/well/off

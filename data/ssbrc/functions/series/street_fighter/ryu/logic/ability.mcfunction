@@ -1,4 +1,4 @@
-clear @s minecraft:carrot_on_a_stick{ability.ryu:1}
+clear @s minecraft:carrot_on_a_stick{satsuiNoHadoRage:1}
 
 function ssbrc:logic/characters/effects/cleanse
 

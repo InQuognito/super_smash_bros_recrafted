@@ -7,6 +7,7 @@ execute positioned 5.5 4.5 14.5 if block ~ ~ ~ #minecraft:buttons[powered=true] 
 execute positioned 7.5 4.5 14.5 if block ~ ~ ~ #minecraft:buttons[powered=true] run function ssbrc:maps/d/dream_land/vote
 execute positioned -3.5 4.5 17.5 if block ~ ~ ~ #minecraft:buttons[powered=true] run function ssbrc:maps/f/final_destination/vote
 execute positioned -0.5 4.5 28.5 if block ~ ~ ~ #minecraft:buttons[powered=true] run function ssbrc:maps/f/flat_zone/vote
+execute positioned 5.5 10.5 28.5 if block ~ ~ ~ #minecraft:buttons[powered=true] run function ssbrc:maps/f/frozen_hijinx/vote
 execute positioned 10.5 10.5 23.5 if block ~ ~ ~ #minecraft:buttons[powered=true] run function ssbrc:maps/g/garden_of_hope/vote
 execute positioned 10.5 4.5 17.5 if block ~ ~ ~ #minecraft:buttons[powered=true] run function ssbrc:maps/g/great_bay/vote
 execute positioned -3.5 4.5 23.5 if block ~ ~ ~ #minecraft:buttons[powered=true] run function ssbrc:maps/g/great_plateau/vote

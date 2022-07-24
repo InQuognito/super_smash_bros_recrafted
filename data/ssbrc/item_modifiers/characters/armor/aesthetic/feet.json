@@ -72,46 +72,7 @@
 				"condition": "minecraft:entity_properties",
 				"entity": "this",
 				"predicate": {
-					"nbt": "{Tags:[\"captainfalcon\",\"rickwheeler\"]}"
-				}
-			}
-		]
-	},
-	{
-		"function": "minecraft:set_nbt",
-		"tag": "{display:{color:15766848}}",
-		"conditions": [
-			{
-				"condition": "minecraft:entity_properties",
-				"entity": "this",
-				"predicate": {
-					"nbt": "{Tags:[\"charizard\",\"default\"]}"
-				}
-			}
-		]
-	},
-	{
-		"function": "minecraft:set_nbt",
-		"tag": "{display:{color:5921386}}",
-		"conditions": [
-			{
-				"condition": "minecraft:entity_properties",
-				"entity": "this",
-				"predicate": {
-					"nbt": "{Tags:[\"charizard\",\"shiny\"]}"
-				}
-			}
-		]
-	},
-	{
-		"function": "minecraft:set_nbt",
-		"tag": "{display:{color:5921386}}",
-		"conditions": [
-			{
-				"condition": "minecraft:entity_properties",
-				"entity": "this",
-				"predicate": {
-					"nbt": "{Tags:[\"charizard\",\"naturalShiny\"]}"
+					"nbt": "{Tags:[\"captainfalcon\",\"rickWheeler\"]}"
 				}
 			}
 		]
@@ -163,7 +124,7 @@
 				"condition": "minecraft:entity_properties",
 				"entity": "this",
 				"predicate": {
-					"nbt": "{Tags:[\"donkeykong\",\"super\"]}"
+					"nbt": "{Tags:[\"donkeykong\",\"superKong\"]}"
 				}
 			}
 		]
@@ -189,7 +150,7 @@
 				"condition": "minecraft:entity_properties",
 				"entity": "this",
 				"predicate": {
-					"nbt": "{Tags:[\"ganondorf\",\"oot\"]}"
+					"nbt": "{Tags:[\"ganondorf\",\"ocarinaOfTime\"]}"
 				}
 			}
 		]
@@ -222,19 +183,6 @@
 	},
 	{
 		"function": "minecraft:set_nbt",
-		"tag": "{display:{color:2240050}}",
-		"conditions": [
-			{
-				"condition": "minecraft:entity_properties",
-				"entity": "this",
-				"predicate": {
-					"nbt": "{Tags:[\"greninja\",\"naturalShiny\"]}"
-				}
-			}
-		]
-	},
-	{
-		"function": "minecraft:set_nbt",
 		"tag": "{display:{color:10528354}}",
 		"conditions": [
 			{
@@ -248,13 +196,13 @@
 	},
 	{
 		"function": "minecraft:set_nbt",
-		"tag": "{display:{color:10528354}}",
+		"tag": "{display:{color:4205610}}",
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
 				"entity": "this",
 				"predicate": {
-					"nbt": "{Tags:[\"hero\",\"erdick\"]}"
+					"nbt": "{Tags:[\"hero\",\"erdrick\"]}"
 				}
 			}
 		]
@@ -268,6 +216,32 @@
 				"entity": "this",
 				"predicate": {
 					"nbt": "{Tags:[\"hero\",\"rek\"]}"
+				}
+			}
+		]
+	},
+	{
+		"function": "minecraft:set_nbt",
+		"tag": "{display:{color:15909332}}",
+		"conditions": [
+			{
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"nbt": "{Tags:[\"jigglypuff\",\"default\"]}"
+				}
+			}
+		]
+	},
+	{
+		"function": "minecraft:set_nbt",
+		"tag": "{display:{color:15904207}}",
+		"conditions": [
+			{
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"nbt": "{Tags:[\"jigglypuff\",\"shiny\"]}"
 				}
 			}
 		]
@@ -384,7 +358,7 @@
 				"condition": "minecraft:entity_properties",
 				"entity": "this",
 				"predicate": {
-					"nbt": "{Tags:[\"luigi\",\"flowerpower\"]}"
+					"nbt": "{Tags:[\"luigi\",\"flowerPower\"]}"
 				}
 			}
 		]
@@ -410,7 +384,7 @@
 				"condition": "minecraft:entity_properties",
 				"entity": "this",
 				"predicate": {
-					"nbt": "{Tags:[\"mario\",\"flowerpower\"]}"
+					"nbt": "{Tags:[\"mario\",\"flowerPower\"]}"
 				}
 			}
 		]
@@ -508,19 +482,6 @@
 	},
 	{
 		"function": "minecraft:set_nbt",
-		"tag": "{display:{color:16168481}}",
-		"conditions": [
-			{
-				"condition": "minecraft:entity_properties",
-				"entity": "this",
-				"predicate": {
-					"nbt": "{Tags:[\"pikachu\",\"naturalShiny\"]}"
-				}
-			}
-		]
-	},
-	{
-		"function": "minecraft:set_nbt",
 		"tag": "{display:{color:10645594}}",
 		"conditions": [
 			{
@@ -528,6 +489,97 @@
 				"entity": "this",
 				"predicate": {
 					"nbt": "{Tags:[\"pit\",\"default\"]}"
+				}
+			}
+		]
+	},
+	{
+		"function": "minecraft:set_nbt",
+		"tag": "{display:{color:16777215}}",
+		"conditions": [
+			{
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"nbt": "{Tags:[\"pokemontrainer\",\"default\"]}"
+				}
+			}
+		]
+	},
+	{
+		"function": "minecraft:set_nbt",
+		"tag": "{display:{color:15766848}}",
+		"conditions": [
+			{
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"nbt": "{Tags:[\"charizard\",\"default\"]}"
+				}
+			}
+		]
+	},
+	{
+		"function": "minecraft:set_nbt",
+		"tag": "{display:{color:1329732}}",
+		"conditions": [
+			{
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"nbt": "{Tags:[\"ivysaur\",\"default\"]}"
+				}
+			}
+		]
+	},
+	{
+		"function": "minecraft:set_nbt",
+		"tag": "{display:{color:9031654}}",
+		"conditions": [
+			{
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"nbt": "{Tags:[\"squirtle\",\"default\"]}"
+				}
+			}
+		]
+	},
+	{
+		"function": "minecraft:set_nbt",
+		"tag": "{display:{color:5921386}}",
+		"conditions": [
+			{
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"nbt": "{Tags:[\"charizard\",\"shiny\"]}"
+				}
+			}
+		]
+	},
+	{
+		"function": "minecraft:set_nbt",
+		"tag": "{display:{color:1154074}}",
+		"conditions": [
+			{
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"nbt": "{Tags:[\"ivysaur\",\"shiny\"]}"
+				}
+			}
+		]
+	},
+	{
+		"function": "minecraft:set_nbt",
+		"tag": "{display:{color:6611711}}",
+		"conditions": [
+			{
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"nbt": "{Tags:[\"squirtle\",\"shiny\"]}"
 				}
 			}
 		]
@@ -619,6 +671,45 @@
 				"entity": "this",
 				"predicate": {
 					"nbt": "{Tags:[\"sora\",\"default\"]}"
+				}
+			}
+		]
+	},
+	{
+		"function": "minecraft:set_nbt",
+		"tag": "{display:{color:16532793}}",
+		"conditions": [
+			{
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"nbt": "{Tags:[\"sora\",\"default\",\"valor\"]}"
+				}
+			}
+		]
+	},
+	{
+		"function": "minecraft:set_nbt",
+		"tag": "{display:{color:5991138}}",
+		"conditions": [
+			{
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"nbt": "{Tags:[\"sora\",\"default\",\"wisdom\"]}"
+				}
+			}
+		]
+	},
+	{
+		"function": "minecraft:set_nbt",
+		"tag": "{display:{color:2959917}}",
+		"conditions": [
+			{
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"nbt": "{Tags:[\"sora\",\"default\",\"anti\"]}"
 				}
 			}
 		]
@@ -840,7 +931,7 @@
 				"condition": "minecraft:entity_properties",
 				"entity": "this",
 				"predicate": {
-					"nbt": "{Tags:[\"shadow\",\"alt\"]}"
+					"nbt": "{Tags:[\"shadow\",\"yellowAndroid\"]}"
 				}
 			}
 		]
@@ -857,12 +948,20 @@
 				}
 			},
 			{
-				"condition": "minecraft:entity_scores",
+				"condition": "minecraft:reference",
+				"name": "ssbrc:characters/shovelknight/phase_locket/on"
+			}
+		]
+	},
+	{
+		"function": "minecraft:set_nbt",
+		"tag": "{display:{color:1776444}}",
+		"conditions": [
+			{
+				"condition": "minecraft:entity_properties",
 				"entity": "this",
-				"scores": {
-					"duration.2": {
-						"min": 1
-					}
+				"predicate": {
+					"nbt": "{Tags:[\"james\",\"default\"]}"
 				}
 			}
 		]
@@ -875,20 +974,7 @@
 				"condition": "minecraft:entity_properties",
 				"entity": "this",
 				"predicate": {
-					"nbt": "{Tags:[\"james\"]}"
-				}
-			}
-		]
-	},
-	{
-		"function": "minecraft:set_nbt",
-		"tag": "{display:{color:1776444}}",
-		"conditions": [
-			{
-				"condition": "minecraft:entity_properties",
-				"entity": "this",
-				"predicate": {
-					"nbt": "{Tags:[\"jesse\"]}"
+					"nbt": "{Tags:[\"jesse\",\"default\"]}"
 				}
 			}
 		]

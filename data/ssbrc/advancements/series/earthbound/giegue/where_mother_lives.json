@@ -20,7 +20,7 @@
 		"show_toast": true,
 		"announce_to_chat": true
 	},
-	"parent": "ssbrc:characters/giegue/novice",
+	"parent": "ssbrc:series/earthbound/giegue/novice",
 	"criteria": {
 		"impossible": {
 			"trigger": "minecraft:impossible"

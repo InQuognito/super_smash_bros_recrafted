@@ -1,18 +1,17 @@
-execute if entity @s[scores={useAbility=1..,cooldown.1=..0},nbt={SelectedItem:{tag:{chaosSpear:1}}}] run scoreboard players set @s charge.1 1
+execute if entity @s[scores={useAbility=1..,cooldown.1=..0,charge.1=..0},nbt={SelectedItem:{tag:{chaosSpear:1}}}] run scoreboard players set @s charge.1 1
 
 execute if entity @s[scores={useAbility=1..,cooldown.1=..0},nbt={SelectedItem:{tag:{chaosControl:1}}}] run function ssbrc:series/sonic_the_hedgehog/shadow/logic/chaos_control/on
 execute if entity @s[scores={useAbility=1..,cooldown.1=..0},nbt={SelectedItem:{tag:{chaosBlast:1}}}] run function ssbrc:series/sonic_the_hedgehog/shadow/logic/chaos_blast/activate
+
+tag @s add self
+execute as @e[type=minecraft:arrow,tag=chaosSpear] at @s if score @s id = @p[tag=self] id run function ssbrc:series/sonic_the_hedgehog/shadow/logic/chaos_spear/tick
+execute as @e[type=minecraft:arrow,tag=chaosBlastShockwave] at @s if score @s id = @p[tag=self] id run function ssbrc:series/sonic_the_hedgehog/shadow/logic/chaos_blast/tick
+tag @s remove self
 
 # Chaos Spear
 scoreboard players add @s[scores={charge.1=1..}] charge.1 1
 execute at @s[scores={charge.1=1..}] anchored eyes run function ssbrc:series/sonic_the_hedgehog/shadow/logic/chaos_spear/initiate
 execute if score @s charge.1 matches 30.. at @s anchored eyes run function ssbrc:series/sonic_the_hedgehog/shadow/logic/chaos_spear/summon
-
-execute as @e[tag=chaosSpear] at @s run function ssbrc:series/sonic_the_hedgehog/shadow/logic/chaos_spear/entity
-
-# Chaos Meters
-execute if score @s shadow.meter.hero > @s shadow.meter.villain run function ssbrc:series/sonic_the_hedgehog/shadow/logic/chaos_meters/hero_display
-execute if score @s shadow.meter.villain > @s shadow.meter.hero run function ssbrc:series/sonic_the_hedgehog/shadow/logic/chaos_meters/villain_display
 
 # Chaos Control
 scoreboard players remove @a[scores={shadow.chaosControl=1..}] shadow.chaosControl 1
@@ -22,13 +21,6 @@ execute as @a[scores={shadow.chaosControl=..0}] run function ssbrc:series/sonic_
 execute if entity @s[scores={charge.2=1..}] at @s run function ssbrc:series/sonic_the_hedgehog/shadow/logic/chaos_blast/charge
 execute if entity @s[scores={charge.2=70}] at @s run function ssbrc:series/sonic_the_hedgehog/shadow/logic/chaos_blast/unleash
 scoreboard players reset @s[scores={charge.2=101..}] charge.2
-
-execute as @e[tag=chaosBlastShockwave.default] at @s run particle minecraft:dust 0.3 0.0 0.0 1.0 ~ ~ ~ 0.1 0.1 0.1 1.0 1 normal @a
-execute as @e[tag=chaosBlastShockwave.gold] at @s run particle minecraft:dust 0.5 0.5 0.0 1.0 ~ ~ ~ 0.1 0.1 0.1 1.0 1 normal @a
-execute as @e[tag=chaosBlastShockwave.alt] at @s run particle minecraft:dust 0.8 0.8 0.0 1.0 ~ ~ ~ 0.1 0.1 0.1 1.0 1 normal @a
-
-scoreboard players add @e[tag=chaosBlastShockwave] temp 1
-kill @e[tag=chaosBlastShockwave,scores={temp=30..}]
 
 # Acceleration
 scoreboard players set @s[scores={flag.sprinting=..-1}] flag.sprinting 0

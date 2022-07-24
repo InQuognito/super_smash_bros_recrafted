@@ -5,11 +5,11 @@ execute if score @s bowser.fireBreath matches 41..60 run particle minecraft:flam
 execute if score @s bowser.fireBreath matches 61..80 run particle minecraft:flame ~ ~ ~ 0.25 0.25 0.25 0.0060 4 normal @a
 execute if score @s bowser.fireBreath matches 81..100 run particle minecraft:flame ~ ~ ~ 0.5 0.5 0.5 0.0075 5 normal @a
 
-execute if score @s bowser.fireBreath matches 1..20 run tag @a[distance=..0.05] add fireBreath
-execute if score @s bowser.fireBreath matches 21..40 run tag @a[distance=..0.1] add fireBreath
-execute if score @s bowser.fireBreath matches 41..60 run tag @a[distance=..0.3] add fireBreath
-execute if score @s bowser.fireBreath matches 61..80 run tag @a[distance=..0.5] add fireBreath
-execute if score @s bowser.fireBreath matches 81..100 run tag @a[distance=..1] add fireBreath
+execute if score @s bowser.fireBreath matches 1..20 run tag @a[distance=..0.05] add damage.fireBreath
+execute if score @s bowser.fireBreath matches 21..40 run tag @a[distance=..0.1] add damage.fireBreath
+execute if score @s bowser.fireBreath matches 41..60 run tag @a[distance=..0.3] add damage.fireBreath
+execute if score @s bowser.fireBreath matches 61..80 run tag @a[distance=..0.5] add damage.fireBreath
+execute if score @s bowser.fireBreath matches 81..100 run tag @a[distance=..1] add damage.fireBreath
 
 scoreboard players add @s bowser.fireBreath 1
 execute if block ^ ^ ^0.3 #ssbrc:passthrough if score @s bowser.fireBreath < @s charge.1 positioned ^ ^ ^0.1 run function ssbrc:series/super_mario_bros/bowser/logic/fire_breath/raycast

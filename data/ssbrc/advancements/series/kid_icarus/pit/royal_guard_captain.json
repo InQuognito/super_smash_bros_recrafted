@@ -58,7 +58,7 @@
 		"show_toast": true,
 		"announce_to_chat": true
 	},
-	"parent": "ssbrc:characters/pit/slayer",
+	"parent": "ssbrc:series/kid_icarus/pit//slayer",
 	"criteria": {
 		"impossible": {
 			"trigger": "minecraft:impossible"

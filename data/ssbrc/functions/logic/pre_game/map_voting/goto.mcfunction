@@ -1,8 +1,7 @@
-kill @e[type=!minecraft:player]
 clear @a
 
 scoreboard players reset @a useAbility
-scoreboard players reset @a menu
+execute as @a run function ssbrc:logic/resets/triggers
 
 # Acropolis Graveyard
 summon minecraft:area_effect_cloud -3.5 11.0 17.5 {Age:-2147483648,Duration:-1,WaitTime:-2147483648,Tags:["voteCounter","acropolisGraveyard"],CustomNameVisible:1b}
@@ -31,6 +30,9 @@ summon minecraft:glow_item_frame -3.5 5.0 17.5 {Fixed:1b,Invisible:1b,Facing:5b,
 # Flat Zone
 summon minecraft:area_effect_cloud -0.5 5.0 28.5 {Age:-2147483648,Duration:-1,WaitTime:-2147483648,Tags:["voteCounter","flatZone"],CustomNameVisible:1b}
 summon minecraft:glow_item_frame -0.5 5.0 28.5 {Fixed:1b,Invisible:1b,Facing:2b,Item:{id:"minecraft:sugar",tag:{CustomModelData:450},Count:1b}}
+# Frozen Hijinx
+summon minecraft:area_effect_cloud 5.5 11.0 28.5 {Age:-2147483648,Duration:-1,WaitTime:-2147483648,Tags:["voteCounter","frozenHijinx"],CustomNameVisible:1b}
+summon minecraft:glow_item_frame 5.5 11.0 28.5 {Fixed:1b,Invisible:1b,Facing:2b,Item:{id:"minecraft:sugar",tag:{CustomModelData:500},Count:1b}}
 # Garden of Hope
 summon minecraft:area_effect_cloud 10.5 11.0 23.5 {Age:-2147483648,Duration:-1,WaitTime:-2147483648,Tags:["voteCounter","gardenOfHope"],CustomNameVisible:1b}
 summon minecraft:glow_item_frame 10.5 11.0 23.5 {Fixed:1b,Invisible:1b,Facing:4b,Item:{id:"minecraft:sugar",tag:{CustomModelData:600},Count:1b}}
@@ -117,7 +119,10 @@ tag @a[team=!spectator] add alive
 execute store result score $playersAlive temp if entity @a[tag=alive]
 
 scoreboard players set $gameStage temp 2
-scoreboard players set $countdown timer 31
+scoreboard players set $countdown timer 30
+
+setblock -481 4 55 minecraft:oak_sign{Text1:'[{"text":"Status: ","color":"gold"},{"text":"Stage Select","color":"yellow"}]'} destroy
+data modify entity @e[tag=lobby1.status,limit=1] CustomName set from block -481 4 55 Text1
 
 tp @a 3.5 3.0 21.5 0.0 0.0
 
@@ -127,4 +132,5 @@ effect give @a[team=!spectator] minecraft:glowing 1000000 255 true
 tag @a remove room.characterSelect
 tag @a add room.mapVoting
 
-title @a actionbar ""
+title @a clear
+title @a reset

@@ -34,7 +34,7 @@
 		"show_toast": true,
 		"announce_to_chat": true
 	},
-	"parent": "ssbrc:characters/teamrocket/root",
+	"parent": "ssbrc:series/pokemon/teamrocket/root",
 	"criteria": {
 		"impossible": {
 			"trigger": "minecraft:impossible"

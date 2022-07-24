@@ -1,9 +1,9 @@
 execute if entity @s[tag=active,tag=!turned] at @s run function ssbrc:maps/p/pac_maze/logic/ghosts/directions/move
 
-execute if entity @s[tag=active] at @s if entity @p[tag=alive,scores={respawn=..0},distance=..2] run function ssbrc:maps/p/pac_maze/logic/ghosts/touch
+execute if entity @s[tag=active] at @s if entity @a[tag=alive,scores={respawn=..0},gamemode=adventure,distance=..2] run function ssbrc:maps/p/pac_maze/logic/ghosts/touch
 execute if entity @s[tag=dead] at @s run function ssbrc:maps/p/pac_maze/logic/ghosts/dead
 
-execute if entity @s[scores={duration.1=..0}] run function ssbrc:maps/p/pac_maze/logic/ghosts/restore
+execute if entity @s[scores={duration.1=0}] run function ssbrc:maps/p/pac_maze/logic/ghosts/restore
 
 execute if entity @s[tag=blinky,scores={cooldown.1=..0}] run function ssbrc:maps/p/pac_maze/logic/ghosts/blinky/release
 execute if entity @s[tag=clyde,scores={cooldown.1=..0}] run function ssbrc:maps/p/pac_maze/logic/ghosts/clyde/release

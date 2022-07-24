@@ -1,3 +1,3 @@
 tag @s remove default
 tag @s remove gold
-tag @s remove super
+tag @s remove superKong

@@ -1,1 +1,1 @@
-item replace entity @s hotbar.0 with minecraft:red_dye{AttributeModifiers:[{AttributeName:"minecraft:generic.attack_damage",Amount:7,Slot:mainhand,Name:"minecraft:generic.attack_damage",UUID:[I;-12164,30107,92130,-60214]},{AttributeName:"minecraft:generic.attack_speed",Amount:-2.2,Slot:mainhand,Name:"minecraft:generic.attack_speed",UUID:[I;-12164,30207,92130,-60414]}],display:{Name:'[{"text":"Boxing Glove","italic":false,"color":"red","bold":true}]'},HideFlags:127} 1
+loot replace entity @s hotbar.0 loot ssbrc:characters/donkey_kong/kingkrool/boxing_glove

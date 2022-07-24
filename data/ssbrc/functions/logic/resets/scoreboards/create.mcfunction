@@ -9,6 +9,7 @@ scoreboard objectives add cooldown.1 dummy
 scoreboard objectives add cooldown.2 dummy
 scoreboard objectives add cooldown.3 dummy
 scoreboard objectives add currency dummy
+scoreboard objectives add currency.temp dummy
 scoreboard objectives add damage dummy
 scoreboard objectives add damage.fireball dummy
 scoreboard objectives add damage.fireBreath dummy
@@ -48,6 +49,8 @@ scoreboard objectives add moveDistance minecraft.custom:minecraft.walk_one_cm
 scoreboard objectives add point dummy
 scoreboard objectives add pos dummy
 scoreboard objectives add random dummy
+scoreboard objectives add raycast dummy
+scoreboard objectives add raycastSuccess dummy
 scoreboard objectives add reset dummy
 scoreboard objectives add respawn dummy
 scoreboard objectives add rotation dummy
@@ -56,7 +59,7 @@ scoreboard objectives add shadow.chaosControl dummy
 scoreboard objectives add shadow.meter.hero dummy
 scoreboard objectives add shadow.meter.villain dummy
 scoreboard objectives add slope dummy
-scoreboard objectives add snake.apm dummy
+scoreboard objectives add snake.antiPersonnelMine dummy
 scoreboard objectives add snake.capacity dummy
 scoreboard objectives add snake.famasA dummy
 scoreboard objectives add snake.famasM dummy
@@ -73,8 +76,8 @@ scoreboard objectives add snake.socomA dummy
 scoreboard objectives add snake.socomM dummy
 scoreboard objectives add snake.socomR dummy
 scoreboard objectives add snake.socomF dummy
-scoreboard objectives add snake.sgA dummy
-scoreboard objectives add snake.sgF dummy
+scoreboard objectives add snake.smokeGrenadeA dummy
+scoreboard objectives add snake.smokeGrenadeF dummy
 scoreboard objectives add stats.deaths.temp minecraft.custom:minecraft.deaths
 scoreboard objectives add stats.kills.temp minecraft.custom:minecraft.player_kills
 scoreboard objectives add steve.tier dummy
@@ -87,5 +90,53 @@ scoreboard objectives add temp dummy
 scoreboard objectives add useAbility minecraft.used:minecraft.carrot_on_a_stick
 scoreboard objectives add useChargeAbility minecraft.used:minecraft.warped_fungus_on_a_stick
 scoreboard objectives add vars dummy
+
+# Bonuses
+scoreboard objectives add 765o dummy
+scoreboard objectives add 765o.tracking dummy
+scoreboard objectives add acrobat dummy
+scoreboard objectives add acrobat.tracking dummy
+scoreboard objectives add aerialist dummy
+scoreboard objectives add aerialist.tracking dummy
+scoreboard objectives add allEars dummy
+scoreboard objectives add allEars.tracking dummy
+scoreboard objectives add archNemesis dummy
+scoreboard objectives add archNemesis.tracking dummy
+scoreboard objectives add armistice dummy
+scoreboard objectives add armistice.tracking dummy
+scoreboard objectives add bloodTransfusion dummy
+scoreboard objectives add bloodTransfusion.tracking dummy
+scoreboard objectives add callOfTheVoid dummy
+scoreboard objectives add callOfTheVoid.tracking dummy
+scoreboard objectives add cementShoes dummy
+scoreboard objectives add cementShoes.tracking dummy
+scoreboard objectives add corruption dummy
+scoreboard objectives add corruption.tracking dummy
+scoreboard objectives add craftingConnoisseur dummy
+scoreboard objectives add craftingConnoisseur.tracking dummy
+scoreboard objectives add crushingWeight dummy
+scoreboard objectives add crushingWeight.tracking dummy
+scoreboard objectives add dreamTeam dummy
+scoreboard objectives add dreamTeam.tracking dummy
+scoreboard objectives add eagleEye dummy
+scoreboard objectives add eagleEye.tracking dummy
+scoreboard objectives add earlyBird dummy
+scoreboard objectives add earlyBird.tracking dummy
+scoreboard objectives add eight dummy
+scoreboard objectives add eight.tracking dummy
+scoreboard objectives add fleshAndBlood dummy
+scoreboard objectives add fleshAndBlood.tracking dummy
+scoreboard objectives add foodie dummy
+scoreboard objectives add foodie.tracking dummy
+scoreboard objectives add fullHouse dummy
+scoreboard objectives add fullHouse.tracking dummy
+scoreboard objectives add fullPower dummy
+scoreboard objectives add fullPower.tracking dummy
+scoreboard objectives add goodFriend dummy
+scoreboard objectives add goodFriend.tracking dummy
+scoreboard objectives add heartgold dummy
+scoreboard objectives add heartgold.tracking dummy
+scoreboard objectives add homeFieldAdvantage dummy
+scoreboard objectives add homeFieldAdvantage.tracking dummy
 
 function ssbrc:logic/resets/scoreboards/stats

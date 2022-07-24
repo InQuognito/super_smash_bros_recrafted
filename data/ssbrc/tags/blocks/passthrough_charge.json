@@ -1,0 +1,12 @@
+{
+    "values": [
+		"#minecraft:buttons",
+		"#minecraft:flowers",
+		"#minecraft:signs",
+		"#minecraft:wall_signs",
+		"minecraft:air",
+		"minecraft:grass",
+		"minecraft:light",
+		"minecraft:snow"
+	]
+}

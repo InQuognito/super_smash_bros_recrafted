@@ -1,9 +1,8 @@
-scoreboard players set @s mana 0
+scoreboard players operation @s charge.1 = 1 integers
 
-scoreboard players set @s charge.1 1
-
-effect give @s minecraft:jump_boost 4 200 true
 effect give @s minecraft:resistance 3 255 true
-effect give @s minecraft:slowness 4 255 true
 
-attribute @s generic.knockback_resistance base set 1000000.0
+function ssbrc:logic/characters/effects/mobility/immobilize
+
+scoreboard players operation @s mana = 0 integers
+function ssbrc:series/dragon_quest/hero/logic/mana/update

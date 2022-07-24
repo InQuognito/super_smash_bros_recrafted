@@ -1,2 +1,2 @@
-item replace entity @s hotbar.0 with minecraft:iron_axe{Unbreakable:1,CustomModelData:841,AttributeModifiers:[{AttributeName:"minecraft:generic.attack_damage",Amount:4,Slot:mainhand,Name:"minecraft:generic.attack_damage",UUID:[I;-121615,30331,13025,-60662]},{AttributeName:"minecraft:generic.attack_speed",Amount:-2.6,Slot:mainhand,Name:"minecraft:generic.attack_speed",UUID:[I;-121615,30431,13025,-60862]}],display:{Name:'[{"text":"Hammer","italic":false,"color":"white","bold":true}]'},HideFlags:127} 1
-item replace entity @s hotbar.1 with minecraft:carrot_on_a_stick{fireball:1,Unbreakable:1,display:{Name:'[{"text":"Fireball","italic":false,"color":"red","bold":true}]'},HideFlags:127} 1
+loot replace entity @s hotbar.0 loot ssbrc:characters/super_mario_bros/mario/hammer
+loot replace entity @s hotbar.1 loot ssbrc:characters/super_mario_bros/mario/fireball

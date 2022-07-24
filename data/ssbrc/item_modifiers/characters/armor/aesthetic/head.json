@@ -163,59 +163,7 @@
 				"condition": "minecraft:entity_properties",
 				"entity": "this",
 				"predicate": {
-					"nbt": "{Tags:[\"captainfalcon\",\"rickwheeler\"]}"
-				}
-			}
-		]
-	},
-	{
-		"function": "minecraft:set_nbt",
-		"tag": "{CustomModelData:140}",
-		"conditions": [
-			{
-				"condition": "minecraft:entity_properties",
-				"entity": "this",
-				"predicate": {
-					"nbt": "{Tags:[\"charizard\",\"default\"]}"
-				}
-			}
-		]
-	},
-	{
-		"function": "minecraft:set_nbt",
-		"tag": "{CustomModelData:141}",
-		"conditions": [
-			{
-				"condition": "minecraft:entity_properties",
-				"entity": "this",
-				"predicate": {
-					"nbt": "{Tags:[\"charizard\",\"gold\"]}"
-				}
-			}
-		]
-	},
-	{
-		"function": "minecraft:set_nbt",
-		"tag": "{CustomModelData:142}",
-		"conditions": [
-			{
-				"condition": "minecraft:entity_properties",
-				"entity": "this",
-				"predicate": {
-					"nbt": "{Tags:[\"charizard\",\"shiny\"]}"
-				}
-			}
-		]
-	},
-	{
-		"function": "minecraft:set_nbt",
-		"tag": "{CustomModelData:142}",
-		"conditions": [
-			{
-				"condition": "minecraft:entity_properties",
-				"entity": "this",
-				"predicate": {
-					"nbt": "{Tags:[\"charizard\",\"naturalShiny\"]}"
+					"nbt": "{Tags:[\"captainfalcon\",\"rickWheeler\"]}"
 				}
 			}
 		]
@@ -306,7 +254,7 @@
 				"condition": "minecraft:entity_properties",
 				"entity": "this",
 				"predicate": {
-					"nbt": "{Tags:[\"donkeykong\",\"super\"]}"
+					"nbt": "{Tags:[\"donkeykong\",\"superKong\"]}"
 				}
 			}
 		]
@@ -371,7 +319,7 @@
 				"condition": "minecraft:entity_properties",
 				"entity": "this",
 				"predicate": {
-					"nbt": "{Tags:[\"ganondorf\",\"oot\"]}"
+					"nbt": "{Tags:[\"ganondorf\",\"ocarinaOfTime\"]}"
 				}
 			}
 		]
@@ -417,19 +365,6 @@
 	},
 	{
 		"function": "minecraft:set_nbt",
-		"tag": "{CustomModelData:422}",
-		"conditions": [
-			{
-				"condition": "minecraft:entity_properties",
-				"entity": "this",
-				"predicate": {
-					"nbt": "{Tags:[\"greninja\",\"naturalShiny\"]}"
-				}
-			}
-		]
-	},
-	{
-		"function": "minecraft:set_nbt",
 		"tag": "{CustomModelData:440}",
 		"conditions": [
 			{
@@ -438,6 +373,10 @@
 				"predicate": {
 					"nbt": "{Tags:[\"hero\",\"default\"]}"
 				}
+			},
+			{
+				"condition": "minecraft:reference",
+				"name": "ssbrc:characters/hero/kaclang/off"
 			}
 		]
 	},
@@ -453,13 +392,8 @@
 				}
 			},
 			{
-				"condition": "minecraft:entity_scores",
-				"entity": "this",
-				"scores": {
-					"duration.2": {
-						"min": 1
-					}
-				}
+				"condition": "minecraft:reference",
+				"name": "ssbrc:characters/hero/kaclang/on"
 			}
 		]
 	},
@@ -473,6 +407,10 @@
 				"predicate": {
 					"nbt": "{Tags:[\"hero\",\"gold\"]}"
 				}
+			},
+			{
+				"condition": "minecraft:reference",
+				"name": "ssbrc:characters/hero/kaclang/off"
 			}
 		]
 	},
@@ -488,13 +426,8 @@
 				}
 			},
 			{
-				"condition": "minecraft:entity_scores",
-				"entity": "this",
-				"scores": {
-					"duration.2": {
-						"min": 1
-					}
-				}
+				"condition": "minecraft:reference",
+				"name": "ssbrc:characters/hero/kaclang/on"
 			}
 		]
 	},
@@ -506,8 +439,12 @@
 				"condition": "minecraft:entity_properties",
 				"entity": "this",
 				"predicate": {
-					"nbt": "{Tags:[\"hero\",\"erdick\"]}"
+					"nbt": "{Tags:[\"hero\",\"erdrick\"]}"
 				}
+			},
+			{
+				"condition": "minecraft:reference",
+				"name": "ssbrc:characters/hero/kaclang/off"
 			}
 		]
 	},
@@ -519,17 +456,12 @@
 				"condition": "minecraft:entity_properties",
 				"entity": "this",
 				"predicate": {
-					"nbt": "{Tags:[\"hero\",\"erdick\"]}"
+					"nbt": "{Tags:[\"hero\",\"erdrick\"]}"
 				}
 			},
 			{
-				"condition": "minecraft:entity_scores",
-				"entity": "this",
-				"scores": {
-					"duration.2": {
-						"min": 1
-					}
-				}
+				"condition": "minecraft:reference",
+				"name": "ssbrc:characters/hero/kaclang/on"
 			}
 		]
 	},
@@ -543,6 +475,10 @@
 				"predicate": {
 					"nbt": "{Tags:[\"hero\",\"rek\"]}"
 				}
+			},
+			{
+				"condition": "minecraft:reference",
+				"name": "ssbrc:characters/hero/kaclang/off"
 			}
 		]
 	},
@@ -558,12 +494,33 @@
 				}
 			},
 			{
-				"condition": "minecraft:entity_scores",
+				"condition": "minecraft:reference",
+				"name": "ssbrc:characters/hero/kaclang/on"
+			}
+		]
+	},
+	{
+		"function": "minecraft:set_nbt",
+		"tag": "{CustomModelData:580}",
+		"conditions": [
+			{
+				"condition": "minecraft:entity_properties",
 				"entity": "this",
-				"scores": {
-					"duration.2": {
-						"min": 1
-					}
+				"predicate": {
+					"nbt": "{Tags:[\"jigglypuff\",\"default\"]}"
+				}
+			}
+		]
+	},
+	{
+		"function": "minecraft:set_nbt",
+		"tag": "{CustomModelData:581}",
+		"conditions": [
+			{
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"nbt": "{Tags:[\"jigglypuff\",\"shiny\"]}"
 				}
 			}
 		]
@@ -745,7 +702,7 @@
 				"condition": "minecraft:entity_properties",
 				"entity": "this",
 				"predicate": {
-					"nbt": "{Tags:[\"luigi\",\"flowerpower\"]}"
+					"nbt": "{Tags:[\"luigi\",\"flowerPower\"]}"
 				}
 			}
 		]
@@ -784,7 +741,7 @@
 				"condition": "minecraft:entity_properties",
 				"entity": "this",
 				"predicate": {
-					"nbt": "{Tags:[\"mario\",\"flowerpower\"]}"
+					"nbt": "{Tags:[\"mario\",\"flowerPower\"]}"
 				}
 			}
 		]
@@ -934,19 +891,6 @@
 	},
 	{
 		"function": "minecraft:set_nbt",
-		"tag": "{CustomModelData:1202}",
-		"conditions": [
-			{
-				"condition": "minecraft:entity_properties",
-				"entity": "this",
-				"predicate": {
-					"nbt": "{Tags:[\"pikachu\",\"naturalShiny\"]}"
-				}
-			}
-		]
-	},
-	{
-		"function": "minecraft:set_nbt",
 		"tag": "{CustomModelData:1220}",
 		"conditions": [
 			{
@@ -973,6 +917,149 @@
 	},
 	{
 		"function": "minecraft:set_nbt",
+		"tag": "{CustomModelData:1260}",
+		"conditions": [
+			{
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"nbt": "{Tags:[\"pokemontrainer\",\"default\"]}"
+				}
+			}
+		]
+	},
+	{
+		"function": "minecraft:set_nbt",
+		"tag": "{CustomModelData:1261}",
+		"conditions": [
+			{
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"nbt": "{Tags:[\"charizard\",\"default\"]}"
+				}
+			}
+		]
+	},
+	{
+		"function": "minecraft:set_nbt",
+		"tag": "{CustomModelData:1262}",
+		"conditions": [
+			{
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"nbt": "{Tags:[\"ivysaur\",\"default\"]}"
+				}
+			}
+		]
+	},
+	{
+		"function": "minecraft:set_nbt",
+		"tag": "{CustomModelData:1263}",
+		"conditions": [
+			{
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"nbt": "{Tags:[\"squirtle\",\"default\"]}"
+				}
+			}
+		]
+	},
+	{
+		"function": "minecraft:set_nbt",
+		"tag": "{CustomModelData:1264}",
+		"conditions": [
+			{
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"nbt": "{Tags:[\"pokemontrainer\",\"gold\"]}"
+				}
+			}
+		]
+	},
+	{
+		"function": "minecraft:set_nbt",
+		"tag": "{CustomModelData:1265}",
+		"conditions": [
+			{
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"nbt": "{Tags:[\"charizard\",\"gold\"]}"
+				}
+			}
+		]
+	},
+	{
+		"function": "minecraft:set_nbt",
+		"tag": "{CustomModelData:1266}",
+		"conditions": [
+			{
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"nbt": "{Tags:[\"ivysaur\",\"gold\"]}"
+				}
+			}
+		]
+	},
+	{
+		"function": "minecraft:set_nbt",
+		"tag": "{CustomModelData:1267}",
+		"conditions": [
+			{
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"nbt": "{Tags:[\"squirtle\",\"gold\"]}"
+				}
+			}
+		]
+	},
+	{
+		"function": "minecraft:set_nbt",
+		"tag": "{CustomModelData:1268}",
+		"conditions": [
+			{
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"nbt": "{Tags:[\"charizard\",\"shiny\"]}"
+				}
+			}
+		]
+	},
+	{
+		"function": "minecraft:set_nbt",
+		"tag": "{CustomModelData:1269}",
+		"conditions": [
+			{
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"nbt": "{Tags:[\"ivysaur\",\"shiny\"]}"
+				}
+			}
+		]
+	},
+	{
+		"function": "minecraft:set_nbt",
+		"tag": "{CustomModelData:1270}",
+		"conditions": [
+			{
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"nbt": "{Tags:[\"squirtle\",\"shiny\"]}"
+				}
+			}
+		]
+	},
+	{
+		"function": "minecraft:set_nbt",
 		"tag": "{CustomModelData:1400}",
 		"conditions": [
 			{
@@ -981,6 +1068,10 @@
 				"predicate": {
 					"nbt": "{Tags:[\"ryu\",\"default\"]}"
 				}
+			},
+			{
+				"condition": "minecraft:reference",
+				"name": "ssbrc:characters/ryu/satsui_no_hado/off"
 			}
 		]
 	},
@@ -996,13 +1087,8 @@
 				}
 			},
 			{
-				"condition": "minecraft:entity_scores",
-				"entity": "this",
-				"scores": {
-					"duration.1": {
-						"min": 1
-					}
-				}
+				"condition": "minecraft:reference",
+				"name": "ssbrc:characters/ryu/satsui_no_hado/on"
 			}
 		]
 	},
@@ -1016,6 +1102,10 @@
 				"predicate": {
 					"nbt": "{Tags:[\"ryu\",\"gold\"]}"
 				}
+			},
+			{
+				"condition": "minecraft:reference",
+				"name": "ssbrc:characters/ryu/satsui_no_hado/off"
 			}
 		]
 	},
@@ -1031,13 +1121,8 @@
 				}
 			},
 			{
-				"condition": "minecraft:entity_scores",
-				"entity": "this",
-				"scores": {
-					"duration.1": {
-						"min": 1
-					}
-				}
+				"condition": "minecraft:reference",
+				"name": "ssbrc:characters/ryu/satsui_no_hado/on"
 			}
 		]
 	},
@@ -1166,7 +1251,59 @@
 				"condition": "minecraft:entity_properties",
 				"entity": "this",
 				"predicate": {
+					"nbt": "{Tags:[\"sora\",\"default\",\"anti\"]}"
+				}
+			}
+		]
+	},
+	{
+		"function": "minecraft:set_nbt",
+		"tag": "{CustomModelData:1562}",
+		"conditions": [
+			{
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
 					"nbt": "{Tags:[\"sora\",\"gold\"]}"
+				}
+			}
+		]
+	},
+	{
+		"function": "minecraft:set_nbt",
+		"tag": "{CustomModelData:1563}",
+		"conditions": [
+			{
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"nbt": "{Tags:[\"sora\",\"gold\",\"anti\"]}"
+				}
+			}
+		]
+	},
+	{
+		"function": "minecraft:set_nbt",
+		"tag": "{CustomModelData:1564}",
+		"conditions": [
+			{
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"nbt": "{Tags:[\"sora\",\"timelessRiver\"]}"
+				}
+			}
+		]
+	},
+	{
+		"function": "minecraft:set_nbt",
+		"tag": "{CustomModelData:1565}",
+		"conditions": [
+			{
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"nbt": "{Tags:[\"sora\",\"timelessRiver\",\"anti\"]}"
 				}
 			}
 		]
@@ -1557,7 +1694,7 @@
 				"condition": "minecraft:entity_properties",
 				"entity": "this",
 				"predicate": {
-					"nbt": "{Tags:[\"shadow\",\"alt\"]}"
+					"nbt": "{Tags:[\"shadow\",\"yellowAndroid\"]}"
 				}
 			}
 		]
@@ -1572,6 +1709,10 @@
 				"predicate": {
 					"nbt": "{Tags:[\"shovelknight\",\"default\"]}"
 				}
+			},
+			{
+				"condition": "minecraft:reference",
+				"name": "ssbrc:characters/shovelknight/phase_locket/off"
 			}
 		]
 	},
@@ -1587,13 +1728,8 @@
 				}
 			},
 			{
-				"condition": "minecraft:entity_scores",
-				"entity": "this",
-				"scores": {
-					"duration.2": {
-						"min": 1
-					}
-				}
+				"condition": "minecraft:reference",
+				"name": "ssbrc:characters/shovelknight/phase_locket/on"
 			}
 		]
 	},
@@ -1607,6 +1743,10 @@
 				"predicate": {
 					"nbt": "{Tags:[\"shovelknight\",\"gold\"]}"
 				}
+			},
+			{
+				"condition": "minecraft:reference",
+				"name": "ssbrc:characters/shovelknight/phase_locket/off"
 			}
 		]
 	},
@@ -1622,13 +1762,8 @@
 				}
 			},
 			{
-				"condition": "minecraft:entity_scores",
-				"entity": "this",
-				"scores": {
-					"duration.2": {
-						"min": 1
-					}
-				}
+				"condition": "minecraft:reference",
+				"name": "ssbrc:characters/shovelknight/phase_locket/on"
 			}
 		]
 	},
@@ -1640,7 +1775,7 @@
 				"condition": "minecraft:entity_properties",
 				"entity": "this",
 				"predicate": {
-					"nbt": "{Tags:[\"james\"]}"
+					"nbt": "{Tags:[\"james\",\"default\"]}"
 				}
 			}
 		]
@@ -1653,7 +1788,7 @@
 				"condition": "minecraft:entity_properties",
 				"entity": "this",
 				"predicate": {
-					"nbt": "{Tags:[\"jesse\"]}"
+					"nbt": "{Tags:[\"jesse\",\"default\"]}"
 				}
 			}
 		]

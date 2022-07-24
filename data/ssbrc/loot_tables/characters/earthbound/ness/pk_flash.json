@@ -1,0 +1,49 @@
+{
+	"type": "minecraft:command",
+	"pools": [
+		{
+			"rolls": 2,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:splash_potion",
+					"functions": [
+						{
+							"function": "minecraft:set_name",
+							"entity": "this",
+							"name": {
+								"text": "PK Flash",
+								"color": "green",
+								"bold": true,
+								"italic": false
+							}
+						},
+						{
+							"function": "minecraft:set_attributes",
+							"modifiers": [
+								{
+									"attribute": "minecraft:generic.attack_damage",
+									"name": "Attack Damage",
+									"amount": 0,
+									"operation": "multiply_base",
+									"slot": "mainhand"
+								},
+								{
+									"attribute": "minecraft:generic.attack_speed",
+									"name": "Attack Speed",
+									"amount": 0,
+									"operation": "multiply_base",
+									"slot": "mainhand"
+								}
+							]
+						},
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{pkFlash:1,CustomPotionColor:552489,CustomPotionEffects:[{Id:15,Duration:160,Amplifier:0b},{Id:7,Duration:1,Amplifier:0b},{Id:2,Duration:160,Amplifier:1b},{Id:18,Duration:160,Amplifier:1b}],HideFlags:127}"
+						}
+					]
+				}
+			]
+		}
+	]
+}

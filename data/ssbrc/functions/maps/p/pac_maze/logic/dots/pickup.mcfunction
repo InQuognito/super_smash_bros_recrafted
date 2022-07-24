@@ -30,6 +30,9 @@ execute if score #dotGroup.m temp matches 1 if score $dotGroup.m temp matches 0 
 execute if score #dotGroup.n temp matches 1 if score $dotGroup.n temp matches 0 run function ssbrc:maps/p/pac_maze/logic/dots/groups/pickup/n
 execute if score #dotGroup.o temp matches 1 if score $dotGroup.o temp matches 0 run function ssbrc:maps/p/pac_maze/logic/dots/groups/pickup/o
 
+scoreboard players add $dots temp 1
+execute if score $dots temp matches 120.. positioned 23360.5 5.5 8642.5 run function ssbrc:maps/p/pac_maze/logic/fruit/spawn
+
 execute at @p run playsound ssbrc:munch player @a
 
 kill @s

@@ -2,14 +2,15 @@
 attribute @s[predicate=ssbrc:characters/armor_values/none] minecraft:generic.armor base set 0.0
 attribute @s[predicate=ssbrc:characters/armor_values/low] minecraft:generic.armor base set 6.0
 attribute @s[predicate=ssbrc:characters/armor_values/medium] minecraft:generic.armor base set 12.0
-attribute @s[predicate=ssbrc:characters/armor_values/high] minecraft:generic.armor base set 18.0
+attribute @s[predicate=ssbrc:characters/armor_values/high] minecraft:generic.armor base set 14.0
 
 # Attack Damage
-attribute @s[tag=!cloud,tag=!punisher] minecraft:generic.attack_damage base set 2.0
-attribute @s[tag=cloud,tag=punisher] minecraft:generic.attack_damage base set 8.0
+attribute @s[predicate=ssbrc:characters/attack_damage/low] minecraft:generic.attack_damage base set 1.0
+attribute @s[predicate=ssbrc:characters/attack_damage/medium] minecraft:generic.attack_damage base set 2.0
 
 # Attack Speed
-attribute @s minecraft:generic.attack_speed base set 4.0
+attribute @s[predicate=ssbrc:characters/attack_speed/low] minecraft:generic.attack_speed base set 1.0
+attribute @s[predicate=ssbrc:characters/attack_speed/medium] minecraft:generic.attack_speed base set 2.0
 
 # Knockback Resistance
 attribute @s[predicate=ssbrc:characters/knockback_resistance/none] minecraft:generic.knockback_resistance base set 0.0
@@ -21,10 +22,13 @@ attribute @s minecraft:generic.max_health base set 40.0
 # Movement Speed
 attribute @s[predicate=ssbrc:characters/speed/default] minecraft:generic.movement_speed base set 0.1
 
-attribute @s[tag=cloud,tag=punisher] minecraft:generic.movement_speed base set 0.06
+attribute @s[tag=cloud,tag=punisher] minecraft:generic.movement_speed base set 0.03
+attribute @s[tag=darksamus] minecraft:generic.movement_speed base set 0.095
 attribute @s[tag=ganondorf] minecraft:generic.movement_speed base set 0.085
+attribute @s[tag=jigglypuff] minecraft:generic.movement_speed base set 0.085
 attribute @s[tag=kingkrool] minecraft:generic.movement_speed base set 0.085
 attribute @s[tag=meowth] minecraft:generic.movement_speed base set 0.125
+attribute @s[tag=samus] minecraft:generic.movement_speed base set 0.09
 attribute @s[tag=shadow] minecraft:generic.movement_speed base set 0.105
 attribute @s[tag=snake,scores={snake.capacity=0}] minecraft:generic.movement_speed base set 0.105
 attribute @s[tag=snake,scores={snake.capacity=1}] minecraft:generic.movement_speed base set 0.099
@@ -38,4 +42,5 @@ attribute @s[tag=snake,scores={snake.capacity=8}] minecraft:generic.movement_spe
 attribute @s[tag=snake,scores={snake.capacity=9}] minecraft:generic.movement_speed base set 0.091
 attribute @s[tag=snake,scores={snake.capacity=10}] minecraft:generic.movement_speed base set 0.09
 attribute @s[tag=sonic] minecraft:generic.movement_speed base set 0.11
+attribute @s[tag=sora,tag=wisdom] minecraft:generic.movement_speed base set 0.105
 attribute @s[tag=wobbuffet] minecraft:generic.movement_speed base set 0.085

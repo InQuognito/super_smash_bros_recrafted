@@ -1,1 +1,1 @@
-item replace entity @s hotbar.0 with minecraft:diamond_sword{Unbreakable:1,AttributeModifiers:[{AttributeName:"minecraft:generic.attack_speed",Amount:5,Slot:mainhand,Name:"minecraft:generic.attack_speed",UUID:[I;-121615,33831,13025,-67662]},{AttributeName:"minecraft:generic.attack_damage",Amount:3,Slot:mainhand,Name:"minecraft:generic.attack_damage",UUID:[I;-121615,33931,13025,-67862]}],display:{Name:'[{"text":"Mania Punch","italic":false,"color":"blue","bold":true}]'},HideFlags:127} 1
+loot replace entity @s hotbar.0 loot ssbrc:characters/sonic_the_hedgehog/sonic/mania_punch

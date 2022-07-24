@@ -1,3 +1,3 @@
-scoreboard players reset @s duration.2
+effect clear @s minecraft:resistance
 
 function ssbrc:logic/characters/armor/get
