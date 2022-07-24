@@ -19,6 +19,7 @@ scoreboard players set #hero.kaclangManaCost vars 3
 scoreboard players set #joker.finalGuardThreshold vars 4
 scoreboard players set #joker.maxAwakening vars 900
 
+scoreboard players set #luigi.iceBallMaxRotation vars 160
 scoreboard players set #luigi.superJumpThreshold vars 30
 scoreboard players set #luigi.superJumpMovementFalloff vars 200
 
@@ -35,6 +36,7 @@ scoreboard players set #shovelknight.throwingAnchorManaCost vars 1
 scoreboard players set #shovelknight.phaseLocketManaCost vars 3
 scoreboard players set #shovelknight.propellerDaggerManaCost vars 2
 scoreboard players set #shovelknight.warHornManaCost vars 5
+scoreboard players set #shovelknight.chaosSphereMaxRotation vars 160
 
 scoreboard players set #sora.driveForm vars 400
 scoreboard players set #sora.maxMp vars 10

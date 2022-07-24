@@ -1,3 +1,4 @@
+execute as @a[tag=damage.chaosSphere] at @s run function ssbrc:series/indie_fighters/shovelknight/logic/magic/chaos_sphere/damage
 execute as @a[tag=damage.fireball] at @s run function ssbrc:series/super_mario_bros/mario/logic/fireball/damage
 execute as @a[tag=damage.iceBall] at @s anchored feet run function ssbrc:series/super_mario_bros/luigi/logic/ice_ball/damage
 execute as @a[tag=damage.phazonSpike] at @s run function ssbrc:series/metroid/darksamus/logic/phazon_spike/damage

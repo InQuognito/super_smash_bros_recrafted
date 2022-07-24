@@ -2,12 +2,11 @@ particle minecraft:dust 0.4 0.9 1.0 2.0 ~ ~ ~ 0.0 0.0 0.0 0.0 1
 
 execute store result entity @s Rotation[1] float 0.5 run scoreboard players get @s point
 
-scoreboard players operation #pointSlope temp = @s point
-scoreboard players operation #pointSlope temp += @s slope
-execute unless score #pointSlope temp matches 120.. run scoreboard players operation @s point -= @s slope
-execute unless score #pointSlope temp matches 120.. run scoreboard players remove @s slope 1
+execute if score @s point < #luigi.iceBallMaxRotation vars run scoreboard players operation @s point -= @s slope
+execute if score @s point < #luigi.iceBallMaxRotation vars run scoreboard players operation @s point -= #luigi.iceBallMaxRotation vars
+execute if score @s point < #luigi.iceBallMaxRotation vars run scoreboard players remove @s slope 1
 
-execute unless block ~ ~-0.3 ~ #ssbrc:passthrough run function ssbrc:series/super_mario_bros/luigi/logic/ice_ball/bounce
+execute if score @s point > 0 integers unless block ~ ~-0.3 ~ #ssbrc:passthrough run function ssbrc:series/super_mario_bros/luigi/logic/ice_ball/bounce
 
 execute rotated as @s run teleport @s ^ ^ ^0.3
 
