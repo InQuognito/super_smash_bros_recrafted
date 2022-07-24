@@ -1,6 +1,6 @@
 scoreboard players set @s duration.2 100
 
-effect give @s minecraft:resistance 5 255 true
+effect give @s minecraft:resistance 1000000 255 true
 
 function ssbrc:logic/characters/armor/get
 
