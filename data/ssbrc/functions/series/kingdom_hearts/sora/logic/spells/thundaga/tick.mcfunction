@@ -10,4 +10,4 @@ execute if score @s temp matches 27 positioned ^ ^ ^12.0 run function ssbrc:seri
 execute if score @s temp matches 30 positioned ^ ^ ^12.0 run summon minecraft:lightning_bolt ~ ~ ~
 
 scoreboard players add @s temp 1
-kill @s[scores={temp=30..}]
+kill @s[scores={temp=31..}]

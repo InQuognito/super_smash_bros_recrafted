@@ -12,4 +12,4 @@ execute if score @s temp matches 25 as @e[tag=thundazaBolt] at @s run function s
 execute if score @s temp matches 28 run summon minecraft:lightning_bolt ~ ~ ~
 
 scoreboard players add @s temp 1
-kill @s[scores={temp=28..}]
+kill @s[scores={temp=29..}]
