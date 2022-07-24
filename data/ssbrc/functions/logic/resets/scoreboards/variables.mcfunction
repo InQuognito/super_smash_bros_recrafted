@@ -43,6 +43,7 @@ scoreboard players set #sora.maxMp vars 10
 scoreboard players set #sora.firagaMpCost vars 2
 scoreboard players set #sora.blizzagaMpCost vars 1
 scoreboard players set #sora.thundagaMpCost vars 5
+scoreboard players set #sora.thundazaRange vars 30
 
 scoreboard players set #snake.psg1Weight vars 5
 scoreboard players set #snake.famasWeight vars 5

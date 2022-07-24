@@ -49,6 +49,8 @@ scoreboard objectives remove moveDistance
 scoreboard objectives remove point
 scoreboard objectives remove pos
 #scoreboard objectives remove random
+scoreboard objectives remove raycast
+scoreboard objectives remove raycastSuccess
 scoreboard objectives remove reset
 scoreboard objectives remove respawn
 scoreboard objectives remove rotation

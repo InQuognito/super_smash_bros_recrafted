@@ -49,6 +49,8 @@ scoreboard objectives add moveDistance minecraft.custom:minecraft.walk_one_cm
 scoreboard objectives add point dummy
 scoreboard objectives add pos dummy
 scoreboard objectives add random dummy
+scoreboard objectives add raycast dummy
+scoreboard objectives add raycastSuccess dummy
 scoreboard objectives add reset dummy
 scoreboard objectives add respawn dummy
 scoreboard objectives add rotation dummy
