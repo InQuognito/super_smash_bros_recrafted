@@ -1,6 +1,8 @@
 function ssbrc:series/kingdom_hearts/sora/logic/drive_forms/reset
 tag @s add valor
 
+title @s actionbar ""
+
 scoreboard players set @s duration.1 600
 scoreboard players add @s charge.2 1
 
