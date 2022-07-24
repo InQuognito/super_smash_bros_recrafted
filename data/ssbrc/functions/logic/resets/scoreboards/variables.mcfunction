@@ -39,10 +39,10 @@ scoreboard players set #shovelknight.warHornManaCost vars 5
 scoreboard players set #shovelknight.chaosSphereMaxRotation vars 160
 
 scoreboard players set #sora.driveForm vars 400
-scoreboard players set #sora.maxMp vars 10
-scoreboard players set #sora.firagaMpCost vars 2
-scoreboard players set #sora.blizzagaMpCost vars 1
-scoreboard players set #sora.thundagaMpCost vars 5
+scoreboard players set #sora.maxMP vars 10
+scoreboard players set #sora.firagaMPCost vars 2
+scoreboard players set #sora.blizzagaMPCost vars 1
+scoreboard players set #sora.thundagaMPCost vars 5
 scoreboard players set #sora.thundazaRange vars 30
 
 scoreboard players set #snake.psg1Weight vars 5

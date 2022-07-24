@@ -9,7 +9,7 @@ data modify entity @e[tag=projectile,limit=1] Motion set from entity @e[tag=dire
 tag @e[tag=projectile] remove projectile
 kill @e[tag=direction]
 
-scoreboard players operation @s mana -= #sora.firagaMpCost vars
+scoreboard players operation @s mana -= #sora.firagaMPCost vars
 function ssbrc:series/kingdom_hearts/sora/logic/mana/update
 
 scoreboard players set @s cooldown.2 20
