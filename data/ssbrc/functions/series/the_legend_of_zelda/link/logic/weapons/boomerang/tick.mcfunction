@@ -13,9 +13,8 @@ execute if score @s debug matches 20.. if score @s id matches 6 facing entity @p
 execute if score @s debug matches 20.. if score @s id matches 7 facing entity @p[scores={id=7}] eyes run function ssbrc:series/the_legend_of_zelda/link/logic/weapons/boomerang/return
 execute if score @s debug matches 20.. if score @s id matches 8 facing entity @p[scores={id=8}] eyes run function ssbrc:series/the_legend_of_zelda/link/logic/weapons/boomerang/return
 
-execute positioned ~-0.15 ~-0.15 ~-0.15 as @a[tag=alive,scores={respawn=..0},dx=0] positioned ~-0.7 ~-0.7 ~-0.7 if entity @s[dx=0] unless score @s id = @e[type=minecraft:area_effect_cloud,tag=boomerang,sort=nearest,limit=1] id run tag @s add damage.boomerang
-execute as @a[tag=damage.boomerang] at @s run function ssbrc:series/the_legend_of_zelda/link/logic/weapons/boomerang/damage
+execute positioned ~-0.15 ~-0.15 ~-0.15 as @a[tag=alive,scores={respawn=..0},gamemode=adventure,dx=0] positioned ~-0.7 ~-0.7 ~-0.7 if entity @s[dx=0] unless score @s id = @e[type=minecraft:marker,tag=boomerang,sort=nearest,limit=1] id run tag @s add damage.boomerang
 
-execute positioned ~-0.15 ~-0.15 ~-0.15 as @a[dx=0] positioned ~-0.7 ~-0.7 ~-0.7 if entity @s[dx=0] if score @s id = @e[type=minecraft:area_effect_cloud,tag=boomerang,sort=nearest,limit=1] id run function ssbrc:series/the_legend_of_zelda/link/logic/weapons/boomerang/regain
+execute positioned ~-0.15 ~-0.15 ~-0.15 as @a[tag=alive,scores={respawn=..0},gamemode=adventure,dx=0] positioned ~-0.7 ~-0.7 ~-0.7 if entity @s[dx=0] if score @s id = @e[type=minecraft:marker,tag=boomerang,sort=nearest,limit=1] id run function ssbrc:series/the_legend_of_zelda/link/logic/weapons/boomerang/regain
 
 scoreboard players add @s debug 1

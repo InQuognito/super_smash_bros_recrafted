@@ -6,6 +6,8 @@ execute if entity @s[predicate=!ssbrc:characters/sora/no_spells,predicate=!ssbrc
 execute if entity @s[predicate=!ssbrc:characters/sora/no_spells,predicate=!ssbrc:flag/sneaking,scores={useAbility=1..,cooldown.2=..0},nbt={SelectedItem:{tag:{blizzaga:1}}}] if score @s mana >= #sora.blizzagaMPCost vars at @s anchored eyes run function ssbrc:series/kingdom_hearts/sora/logic/spells/blizzaga/check
 execute if entity @s[predicate=!ssbrc:characters/sora/no_spells,predicate=!ssbrc:flag/sneaking,scores={useAbility=1..,cooldown.2=..0},nbt={SelectedItem:{tag:{thundaga:1}}}] if score @s mana >= #sora.thundagaMPCost vars at @s run function ssbrc:series/kingdom_hearts/sora/logic/spells/thundaga/check
 
+execute if entity @s[tag=valor,predicate=!ssbrc:flag/sneaking,scores={useAbility=1..},nbt={SelectedItem:{tag:{strikeRaid:1}}}] at @s anchored eyes run function ssbrc:series/kingdom_hearts/sora/logic/spells/thundaga/check
+
 execute if entity @s[scores={useAbility=1..},nbt={SelectedItem:{tag:{valor:1}}}] run tag @s add driveForm.valor
 execute if entity @s[scores={useAbility=1..},nbt={SelectedItem:{tag:{wisdom:1}}}] run tag @s add driveForm.wisdom
 execute if entity @s[predicate=ssbrc:characters/sora/drive_form_check] run function ssbrc:series/kingdom_hearts/sora/logic/drive_forms/anti_check
@@ -16,6 +18,7 @@ execute as @e[type=minecraft:arrow,tag=firaga] at @s if score @s id = @p[tag=sel
 execute as @e[type=minecraft:area_effect_cloud,tag=blizzaga] at @s if score @s id = @p[tag=self] id run function ssbrc:series/kingdom_hearts/sora/logic/spells/blizzaga/tick
 execute as @e[type=minecraft:marker,tag=thundaga] at @s if score @s id = @p[tag=self] id run function ssbrc:series/kingdom_hearts/sora/logic/spells/thundaga/tick
 execute as @e[type=minecraft:marker,tag=thundaza] at @s if score @s id = @p[tag=self] id run function ssbrc:series/kingdom_hearts/sora/logic/spells/thundaga/thundaza/tick
+execute as @e[type=minecraft:marker,tag=strikeRaid] at @s if score @s id = @p[tag=self] id run function ssbrc:series/kingdom_hearts/sora/logic/spells/strike_raid/tick
 tag @s remove self
 
 # Anti Form
