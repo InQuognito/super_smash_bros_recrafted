@@ -5,7 +5,6 @@ execute if score @s damage matches 1 run data modify entity @e[tag=projectile,li
 execute if score @s damage matches 1 run tag @e[tag=projectile,limit=1] remove projectile
 
 execute if score @s damage matches 2 run teleport @e[type=minecraft:area_effect_cloud,tag=damage.thundaga,sort=nearest,limit=1] ~ ~ ~
-execute if score @s damage matches 2 run summon minecraft:lightning_bolt ~ ~ ~
 
 tag @s[scores={damage=3}] remove damage.thundaga
 scoreboard players reset @s[scores={damage=3}] damage
