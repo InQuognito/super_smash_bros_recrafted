@@ -4,7 +4,7 @@ scoreboard players operation #percentage temp = @s mana
 scoreboard players operation #percentage temp *= 100 integers
 scoreboard players operation #percentage temp /= #sora.maxMP vars
 
-execute if score #percentage temp matches 0 run title @s actionbar {"text":"Out of MP: ","bold":true,"color":"red"}
+execute if score #percentage temp matches 0 run title @s actionbar {"text":"Out of MP","bold":true,"color":"red"}
 execute if score #percentage temp matches 1..10 run title @s actionbar [{"text":"MP: ","bold":true,"color":"white"},{"text":"\u25ae","color":"blue"}]
 execute if score #percentage temp matches 11..20 run title @s actionbar [{"text":"MP: ","bold":true,"color":"white"},{"text":"\u25ae\u25ae","color":"blue"}]
 execute if score #percentage temp matches 21..30 run title @s actionbar [{"text":"MP: ","bold":true,"color":"white"},{"text":"\u25ae\u25ae\u25ae","color":"blue"}]
