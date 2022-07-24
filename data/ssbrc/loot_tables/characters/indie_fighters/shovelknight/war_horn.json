@@ -39,7 +39,7 @@
 						},
 						{
 							"function": "minecraft:set_instrument",
-							"options": "minecraft:yearn_goat_horn"
+							"options": "#minecraft:goat_horns"
 						},
 						{
 							"function": "minecraft:set_nbt",
