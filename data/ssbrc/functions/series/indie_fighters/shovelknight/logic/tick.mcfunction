@@ -6,7 +6,7 @@ execute if score @s[scores={useAbility=1..,cooldown.2=..0},nbt={SelectedItem:{ta
 execute if score @s[scores={useAbility=1..,cooldown.2=..0},nbt={SelectedItem:{tag:{propellerDagger:1}}}] mana >= #shovelknight.propellerDaggerManaCost vars at @s run function ssbrc:series/indie_fighters/shovelknight/logic/magic/propeller_dagger/activate
 
 tag @s add self
-execute as @e[type=minecraft:area_effect_cloud,tag=chaosSphere] at @s if score @s id = @p[tag=self] id run function ssbrc:series/indie_fighters/shovelknight/logic/magic/chaos_sphere/tick
+execute as @e[type=minecraft:marker,tag=chaosSphere] at @s if score @s id = @p[tag=self] id run function ssbrc:series/indie_fighters/shovelknight/logic/magic/chaos_sphere/tick
 execute as @e[type=minecraft:arrow,tag=flareWand] at @s if score @s id = @p[tag=shovelknight.flareWand,tag=self] id run function ssbrc:series/indie_fighters/shovelknight/logic/magic/flare_wand/tick
 execute as @e[type=minecraft:marker,tag=propellerDagger] at @s if score @s id = @p[tag=shovelknight.propellerDagger,tag=self,scores={duration.2=2..}] id run function ssbrc:series/indie_fighters/shovelknight/logic/magic/propeller_dagger/tick
 execute as @a[tag=damage.warHorn] at @s run function ssbrc:series/indie_fighters/shovelknight/logic/magic/war_horn/damage
