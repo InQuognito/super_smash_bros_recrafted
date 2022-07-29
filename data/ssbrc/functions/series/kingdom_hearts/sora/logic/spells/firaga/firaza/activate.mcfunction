@@ -1,6 +1,6 @@
 scoreboard players set @s charge.3 1
 
-scoreboard players operation @s mana -= #sora.firagaMPCost vars
+scoreboard players operation @s mana -= #sora.firazaMPCost vars
 function ssbrc:series/kingdom_hearts/sora/logic/mana/update
 
 scoreboard players set @s cooldown.2 60
