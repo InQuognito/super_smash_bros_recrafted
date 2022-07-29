@@ -15,6 +15,7 @@ execute if score @s duration.1 matches 1 run function ssbrc:series/kingdom_heart
 
 tag @s add self
 execute as @e[type=minecraft:arrow,tag=firaga] at @s if score @s id = @p[tag=self] id run function ssbrc:series/kingdom_hearts/sora/logic/spells/firaga/tick
+execute if entity @s[scores={charge.3=1..}] at @s rotated as @e[tag=sora.spinner] run function ssbrc:series/kingdom_hearts/sora/logic/spells/firaga/firaza/tick
 execute as @e[type=minecraft:marker,tag=blizzaga] at @s if score @s id = @p[tag=self] id run function ssbrc:series/kingdom_hearts/sora/logic/spells/blizzaga/tick
 execute as @e[type=minecraft:marker,tag=thundaga] at @s if score @s id = @p[tag=self] id run function ssbrc:series/kingdom_hearts/sora/logic/spells/thundaga/tick
 execute as @e[type=minecraft:marker,tag=thundaza] at @s if score @s id = @p[tag=self] id run function ssbrc:series/kingdom_hearts/sora/logic/spells/thundaga/thundaza/tick
@@ -25,8 +26,6 @@ tag @s remove self
 execute at @s[tag=anti] run particle minecraft:dust 0.0 0.0 0.0 1.0 ~ ~0.75 ~ 0.2 0.3 0.2 0.0 20 normal @a
 
 # Firaza
-scoreboard players add $firaza rotation 15
+scoreboard players add $firaza rotation 30
 execute if score $firaza rotation matches 360.. run scoreboard players reset $firaza rotation
 execute as @e[tag=sora.spinner] store result entity @s Rotation[0] float 1.0 run scoreboard players get $firaza rotation
-
-execute if entity @s[scores={charge.3=1..}] at @s rotated as @e[tag=sora.spinner] run function ssbrc:series/kingdom_hearts/sora/logic/spells/firaga/firaza/tick
