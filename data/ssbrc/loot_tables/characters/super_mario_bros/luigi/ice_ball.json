@@ -39,7 +39,7 @@
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{iceBall:1,Unbreakable:1,HideFlags:127}"
+							"tag": "{iceBall:1,CustomModelData:821,Unbreakable:1,HideFlags:127}"
 						}
 					]
 				}
