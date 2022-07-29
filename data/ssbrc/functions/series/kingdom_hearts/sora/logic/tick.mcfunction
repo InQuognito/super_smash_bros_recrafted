@@ -26,6 +26,6 @@ tag @s remove self
 execute at @s[tag=anti] run particle minecraft:dust 0.0 0.0 0.0 1.0 ~ ~0.75 ~ 0.2 0.3 0.2 0.0 20 normal @a
 
 # Firaza
-scoreboard players add $firaza rotation 30
+scoreboard players add $firaza rotation 45
 execute if score $firaza rotation matches 360.. run scoreboard players reset $firaza rotation
 execute as @e[tag=sora.spinner] store result entity @s Rotation[0] float 1.0 run scoreboard players get $firaza rotation
