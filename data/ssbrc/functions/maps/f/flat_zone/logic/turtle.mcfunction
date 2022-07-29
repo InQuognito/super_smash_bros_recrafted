@@ -4,7 +4,7 @@ execute at @e[tag=turtle] run teleport @e[tag=turtle] ~ ~ ~-1
 execute at @e[tag=turtle] if block ~ ~-1 ~ minecraft:water run setblock ~ ~-1 ~ minecraft:green_terracotta replace
 execute at @e[tag=turtle] run setblock ~ ~-1 ~1 minecraft:water replace
 
-setblock 767 4 216 minecraft:white_concrete replace
+setblock 767 4 216 minecraft:black_concrete replace
 
 kill @e[tag=turtle,x=767,y=5,z=188,dx=0,dy=1,dz=0]
 
