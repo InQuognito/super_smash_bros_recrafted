@@ -15,7 +15,7 @@ execute if score @s duration.1 matches 1 run function ssbrc:series/kingdom_heart
 
 tag @s add self
 execute as @e[type=minecraft:arrow,tag=firaga] at @s if score @s id = @p[tag=self] id run function ssbrc:series/kingdom_hearts/sora/logic/spells/firaga/tick
-execute if entity @s[scores={charge.3=1..}] at @s rotated as @e[tag=sora.spinner] run function ssbrc:series/kingdom_hearts/sora/logic/spells/firaga/firaza/tick
+execute if entity @s[scores={charge.3=1..}] at @s rotated as @e[tag=sora.spinner] positioned ^ ^1 ^1.5 run function ssbrc:series/kingdom_hearts/sora/logic/spells/firaga/firaza/tick
 execute as @e[type=minecraft:marker,tag=blizzaga] at @s if score @s id = @p[tag=self] id run function ssbrc:series/kingdom_hearts/sora/logic/spells/blizzaga/tick
 execute as @e[type=minecraft:marker,tag=thundaga] at @s if score @s id = @p[tag=self] id run function ssbrc:series/kingdom_hearts/sora/logic/spells/thundaga/tick
 execute as @e[type=minecraft:marker,tag=thundaza] at @s if score @s id = @p[tag=self] id run function ssbrc:series/kingdom_hearts/sora/logic/spells/thundaga/thundaza/tick
