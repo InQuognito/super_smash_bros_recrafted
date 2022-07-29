@@ -2,11 +2,8 @@
 	"condition": "minecraft:alternative",
 	"terms": [
 		{
-			"condition": "minecraft:entity_properties",
-			"entity": "this",
-			"predicate": {
-				"nbt": "{Tags:[\"pit\"]}"
-			}
+			"condition": "minecraft:reference",
+			"name": "ssbrc:characters/pit/has_wings"
 		}
 	]
 }

@@ -57,6 +57,7 @@ summon minecraft:armor_stand 32.5 6.0 161.5 {Tags:["lobbyStand","ness","default"
 
 summon minecraft:area_effect_cloud 51.5 7.75 148.5 {Tags:["lobbyStand.label"],CustomName:'{"text":"Pit","color":"white"}',CustomNameVisible:1b,Age:-2147483648,Duration:-1,WaitTime:-2147483648}
 summon minecraft:armor_stand 51.5 6.0 146.5 {Tags:["lobbyStand","pit","default"],Rotation:[0f,0f]}
+summon minecraft:armor_stand 51.5 6.0 146.5 {Tags:["lobbyStand","pit","default","wingsBurned"],Rotation:[0f,0f]}
 
 summon minecraft:area_effect_cloud 19.5 7.75 156.5 {Tags:["lobbyStand.label"],CustomName:'{"text":"Pokémon Trainer","color":"red"}',CustomNameVisible:1b,Age:-2147483648,Duration:-1,WaitTime:-2147483648}
 summon minecraft:armor_stand 19.5 6.0 159.5 {Tags:["lobbyStand","pokemontrainer","default"],Rotation:[180f,0f]}
@@ -108,7 +109,7 @@ summon minecraft:armor_stand 78.5 6.0 132.5 {Tags:["lobbyStand","wobbuffet","def
 summon minecraft:area_effect_cloud 35.5 6.25 152.5 {Tags:["lobbyStand.label"],CustomName:'{"text":"Spectate","color":"white"}',CustomNameVisible:1b,Age:-2147483648,Duration:-1,WaitTime:-2147483648}
 summon minecraft:area_effect_cloud 72.5 6.25 115.5 {Tags:["lobbyStand.label"],CustomName:'{"text":"Spectate","color":"white"}',CustomNameVisible:1b,Age:-2147483648,Duration:-1,WaitTime:-2147483648}
 
-execute as @e[tag=lobbyStand] run data merge entity @s {Invulnerable:1b,NoBasePlate:1b,NoGravity:1b,DisabledSlots:4144959}
+execute as @e[tag=lobbyStand] run data merge entity @s {Invisible:1b,Invulnerable:1b,NoBasePlate:1b,NoGravity:1b,DisabledSlots:4144959}
 
 scoreboard players set @e[tag=lobbyStand] duration.1 1
 scoreboard players set @e[tag=lobbyStand] duration.2 1
