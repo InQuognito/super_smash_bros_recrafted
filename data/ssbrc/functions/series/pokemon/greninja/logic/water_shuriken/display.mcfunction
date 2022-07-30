@@ -1,8 +1,8 @@
 tp @s ~ ~ ~ ~ ~
 
-scoreboard players add $waterShuriken rotation 30
-execute if score $waterShuriken rotation matches 360.. run scoreboard players reset $waterShuriken rotation
-execute as @e[tag=greninja.spinner] store result entity @s Pose.Head[0] float 1.0 run scoreboard players get $waterShuriken rotation
+scoreboard players add @s rotation 30
+execute if score @s rotation matches 360.. run scoreboard players reset @s rotation
+execute store result entity @s Pose.Head[1] float 1.0 run scoreboard players get @s rotation
 
 scoreboard players add @s temp 1
 kill @s[scores={temp=30..}]
