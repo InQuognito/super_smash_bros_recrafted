@@ -1,4 +1,4 @@
-particle minecraft:dust 0 0.2 0.8 2.0 ^ ^ ^ 0.0 0.0 0.0 0 0 normal @a
+particle minecraft:fishing ^ ^ ^ 0.3 0.05 0.3 0.01 5 normal @a
 
 tp @s ^ ^ ^0.3
 
