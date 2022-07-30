@@ -18,7 +18,7 @@ execute unless score $sectorZ map matches 1 run effect give @a[tag=alive,scores=
 
 # Characters
 execute as @a[tag=alive,scores={respawn=..0},gamemode=adventure] run function ssbrc:logic/tick/characters
-team join admin @a[team=!admin,tag=alive,scores={respawn=..0},gamemode=!adventure]
+team join admin @a[team=!admin,tag=alive,gamemode=!adventure]
 
 # Maps
 function ssbrc:logic/tick/maps
