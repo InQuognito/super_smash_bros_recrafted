@@ -1,6 +1,6 @@
 particle minecraft:fishing ^ ^ ^ 0.3 0.05 0.3 0.01 5 normal @a
 
-tp @s ^ ^ ^0.3
+tp @s ^ ^ ^0.6
 
 execute rotated as @s as @e[tag=waterShuriken.display,sort=nearest,limit=1] run function ssbrc:series/pokemon/greninja/logic/water_shuriken/display
 
