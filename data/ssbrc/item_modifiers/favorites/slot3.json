@@ -270,7 +270,7 @@
 		"entity": "this",
 		"name": {
 			"text": "Greninja",
-			"color": "aqua",
+			"color": "blue",
 			"bold": true,
 			"italic": false
 		},
