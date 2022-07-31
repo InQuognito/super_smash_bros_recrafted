@@ -29,6 +29,7 @@ execute unless score #mapPicked mapVote matches 1 if entity @s[tag=saturnValley]
 execute unless score #mapPicked mapVote matches 1 if entity @s[tag=sectorZ] run function ssbrc:maps/s/sector_z/load
 execute unless score #mapPicked mapVote matches 1 if entity @s[tag=shadowMosesIsland] run function ssbrc:maps/s/shadow_moses_island/load
 execute unless score #mapPicked mapVote matches 1 if entity @s[tag=spearPillar] run function ssbrc:maps/s/spear_pillar/load
+execute unless score #mapPicked mapVote matches 1 if entity @s[tag=suzakuCastle] run function ssbrc:maps/s/suzaku_castle/load
 execute unless score #mapPicked mapVote matches 1 if entity @s[tag=towerOfFate] run function ssbrc:maps/t/tower_of_fate/load
 execute unless score #mapPicked mapVote matches 1 if entity @s[tag=wilyCastle] run function ssbrc:maps/w/wily_castle/load
 execute unless score #mapPicked mapVote matches 1 if entity @s[tag=yarsRevenge] run function ssbrc:maps/y/yars_revenge/load
