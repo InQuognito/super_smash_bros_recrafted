@@ -26,6 +26,7 @@ execute if entity @s[tag=saturnValley] run scoreboard players remove @e[tag=vote
 execute if entity @s[tag=sectorZ] run scoreboard players remove @e[tag=voteCounter,tag=sectorZ] mapVote 1
 execute if entity @s[tag=shadowMosesIsland] run scoreboard players remove @e[tag=voteCounter,tag=shadowMosesIsland] mapVote 1
 execute if entity @s[tag=spearPillar] run scoreboard players remove @e[tag=voteCounter,tag=spearPillar] mapVote 1
+execute if entity @s[tag=suzakuCastle] run scoreboard players remove @e[tag=voteCounter,tag=suzakuCastle] mapVote 1
 execute if entity @s[tag=towerOfFate] run scoreboard players remove @e[tag=voteCounter,tag=towerOfFate] mapVote 1
 execute if entity @s[tag=wilyCastle] run scoreboard players remove @e[tag=voteCounter,tag=wilyCastle] mapVote 1
 execute if entity @s[tag=yarsRevenge] run scoreboard players remove @e[tag=voteCounter,tag=yarsRevenge] mapVote 1
