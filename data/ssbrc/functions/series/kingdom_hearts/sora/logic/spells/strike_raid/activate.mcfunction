@@ -8,4 +8,4 @@ execute as @e[tag=projectile] at @s rotated as @s run function ssbrc:series/king
 
 tag @e[tag=projectile] remove projectile
 
-clear @s minecraft:carrot_on_a_stick{strikeRaid:1}
+clear @s minecraft:carrot_on_a_stick{starSeeker:1}
