@@ -17,6 +17,7 @@ scoreboard players set 30 integers 30
 scoreboard players set 33 integers 33
 scoreboard players set 45 integers 45
 scoreboard players set 50 integers 50
+scoreboard players set 90 integers 90
 scoreboard players set 100 integers 100
 scoreboard players set 135 integers 135
 scoreboard players set 150 integers 150
