@@ -1,6 +1,6 @@
 execute positioned 0.0 0.0 0.0 run summon minecraft:marker ^ ^ ^2 {Tags:["direction"]}
 
-summon minecraft:marker ^ ^ ^1 {Tags:["waterShuriken","projectile"],NoGravity:1b}
+summon minecraft:marker ^ ^ ^1 {Tags:["waterShuriken","projectile"]}
 
 scoreboard players operation @e[tag=projectile,limit=1] id = @s id
 data modify entity @e[tag=projectile,limit=1] Rotation set from entity @s Rotation
