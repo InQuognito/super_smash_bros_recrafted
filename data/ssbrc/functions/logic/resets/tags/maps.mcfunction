@@ -27,6 +27,7 @@ tag @s remove sandOcean
 tag @s remove sectorZ
 tag @s remove shadowMosesIsland
 tag @s remove spearPillar
+tag @s remove suzakuCastle
 tag @s remove towerOfFate
 tag @s remove wilyCastle
 tag @s remove yarsRevenge
