@@ -37,6 +37,6 @@ execute at @s[scores={jumps=1..}] run function ssbrc:logic/characters/jump
 
 execute if entity @s[predicate=ssbrc:characters/enchantments/infinity] run item replace entity @s hotbar.8 with minecraft:spectral_arrow 1
 
-execute unless entity @s[team=admin] run function ssbrc:logic/tick/assign_teams
+function ssbrc:logic/tick/assign_teams
 
 execute if score $sandOcean map matches 1 if score $hazards options matches 1 run function ssbrc:logic/characters/effects/defaults/jump_boost
