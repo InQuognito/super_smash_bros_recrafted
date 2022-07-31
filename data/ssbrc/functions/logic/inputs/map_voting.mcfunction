@@ -27,6 +27,7 @@ execute positioned 1.5 4.5 28.5 if block ~ ~ ~ #minecraft:buttons[powered=true] 
 execute positioned 10.5 4.5 25.5 if block ~ ~ ~ #minecraft:buttons[powered=true] run function ssbrc:maps/s/sector_z/vote
 execute positioned -0.5 4.5 14.5 if block ~ ~ ~ #minecraft:buttons[powered=true] run function ssbrc:maps/s/shadow_moses_island/vote
 execute positioned 10.5 4.5 21.5 if block ~ ~ ~ #minecraft:buttons[powered=true] run function ssbrc:maps/s/spear_pillar/vote
+execute positioned -3.5 10.5 21.5 if block ~ ~ ~ #minecraft:buttons[powered=true] run function ssbrc:maps/s/suzaku_castle/vote
 execute positioned 10.5 10.5 21.5 if block ~ ~ ~ #minecraft:buttons[powered=true] run function ssbrc:maps/t/tower_of_fate/vote
 execute positioned -3.5 4.5 21.5 if block ~ ~ ~ #minecraft:buttons[powered=true] run function ssbrc:maps/w/wily_castle/vote
 execute positioned 10.5 10.5 19.5 if block ~ ~ ~ #minecraft:buttons[powered=true] run function ssbrc:maps/y/yars_revenge/vote
