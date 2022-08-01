@@ -1,7 +1,6 @@
 particle minecraft:wax_off ~ ~2 ~ 0 0.3 0 1 1 normal @a
 
-tp @s ^ ^ ^0.2
-#execute unless score @s temp matches 31.. rotated as @s run function ssbrc:series/kingdom_hearts/sora/logic/spells/strike_raid/movement
+execute unless score @s temp matches 31.. rotated as @s run function ssbrc:series/kingdom_hearts/sora/logic/spells/strike_raid/movement
 
 execute as @e[tag=strikeRaid.display,sort=nearest,limit=1] run function ssbrc:series/kingdom_hearts/sora/logic/spells/strike_raid/display
 

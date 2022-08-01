@@ -1,5 +1,6 @@
 execute as @a[tag=damage.boomerang] at @s run function ssbrc:series/the_legend_of_zelda/link/logic/weapons/boomerang/damage
 execute as @a[tag=damage.chaosSphere] at @s run function ssbrc:series/indie_fighters/shovelknight/logic/magic/chaos_sphere/damage
+execute as @a[tag=damage.electrocution] at @s run function ssbrc:series/retro_fighters/alteredbeast/logic/abilities/electrocution/damage
 execute as @a[tag=damage.firaza] at @s run function ssbrc:series/kingdom_hearts/sora/logic/spells/firaga/firaza/damage
 execute as @a[tag=damage.fireball] at @s run function ssbrc:series/super_mario_bros/mario/logic/fireball/damage
 execute as @a[tag=damage.iceBall] at @s anchored feet run function ssbrc:series/super_mario_bros/luigi/logic/ice_ball/damage
