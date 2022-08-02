@@ -1,16 +1,20 @@
 particle minecraft:dust 1.0 1.0 1.0 1.5 ~ ~0.75 ~ 0.4 0.4 0.4 0.05 10 normal @a
 
-scoreboard players remove @s[scores={charge.2=1..}] charge.2 2
+scoreboard players remove @s[scores={charge.2=1..}] charge.2 3
 scoreboard players add @s charge.3 1
 
-execute if score @s charge.3 matches 1 run effect give @s minecraft:slow_falling 1000000 0 true
-execute if score @s charge.3 matches 10 run effect give @s minecraft:levitation 1000000 0 true
-execute if score @s charge.3 matches 15 run effect give @s minecraft:levitation 1000000 1 true
-execute if score @s charge.3 matches 30 run effect give @s minecraft:levitation 1000000 2 true
-execute if score @s charge.3 matches 40 run effect give @s minecraft:levitation 1000000 3 true
-execute if score @s charge.3 matches 50 run effect give @s minecraft:levitation 1000000 4 true
-execute if score @s charge.3 matches 60 run effect give @s minecraft:levitation 1000000 5 true
-execute if score @s charge.3 matches 70 run effect give @s minecraft:levitation 1000000 6 true
+scoreboard players operation #percentage temp = @s charge.3
+scoreboard players operation #percentage temp *= 100 integers
+scoreboard players operation #percentage temp /= #hero.maxMana vars
+
+execute if score #percentage temp matches ..5 run effect give @s minecraft:slow_falling 1000000 0 true
+execute if score #percentage temp matches 6..20 run effect give @s minecraft:levitation 1000000 0 true
+execute if score #percentage temp matches 21..30 run effect give @s minecraft:levitation 1000000 1 true
+execute if score #percentage temp matches 31..40 run effect give @s minecraft:levitation 1000000 2 true
+execute if score #percentage temp matches 41..50 run effect give @s minecraft:levitation 1000000 3 true
+execute if score #percentage temp matches 51..60 run effect give @s minecraft:levitation 1000000 4 true
+execute if score #percentage temp matches 61..70 run effect give @s minecraft:levitation 1000000 5 true
+execute if score #percentage temp matches 71.. run effect give @s minecraft:levitation 1000000 6 true
 
 scoreboard players set @s cooldown.1 100
 
