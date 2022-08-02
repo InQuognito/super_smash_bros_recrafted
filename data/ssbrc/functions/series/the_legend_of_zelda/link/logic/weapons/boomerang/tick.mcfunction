@@ -5,6 +5,8 @@ execute if score @s temp matches 20.. facing entity @p[tag=self] eyes run functi
 
 execute as @e[tag=boomerang.display,sort=nearest,limit=1] run function ssbrc:series/the_legend_of_zelda/link/logic/weapons/boomerang/display
 
+tp @e[type=minecraft:item,distance=..0.5] @s
+
 execute positioned ~-0.15 ~-0.15 ~-0.15 as @a[tag=alive,scores={respawn=..0},gamemode=adventure,dx=0] positioned ~-0.7 ~-0.7 ~-0.7 if entity @s[dx=0] unless score @s id = @e[type=minecraft:area_effect_cloud,tag=boomerang,sort=nearest,limit=1] id run tag @s add damage.boomerang
 
 execute positioned ~-0.15 ~-0.15 ~-0.15 as @a[tag=alive,scores={respawn=..0},gamemode=adventure,dx=0] positioned ~-0.7 ~-0.7 ~-0.7 if entity @s[dx=0] if score @s id = @e[type=minecraft:area_effect_cloud,tag=boomerang,sort=nearest,limit=1] id run function ssbrc:series/the_legend_of_zelda/link/logic/weapons/boomerang/regain
