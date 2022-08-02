@@ -13,8 +13,7 @@ execute if score #percentage temp matches 21..30 run effect give @s minecraft:le
 execute if score #percentage temp matches 31..40 run effect give @s minecraft:levitation 1000000 2 true
 execute if score #percentage temp matches 41..50 run effect give @s minecraft:levitation 1000000 3 true
 execute if score #percentage temp matches 51..60 run effect give @s minecraft:levitation 1000000 4 true
-execute if score #percentage temp matches 61..70 run effect give @s minecraft:levitation 1000000 5 true
-execute if score #percentage temp matches 71.. run effect give @s minecraft:levitation 1000000 6 true
+execute if score #percentage temp matches 61.. run effect give @s minecraft:levitation 1000000 5 true
 
 scoreboard players set @s cooldown.1 100
 
