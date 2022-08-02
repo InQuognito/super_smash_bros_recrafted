@@ -2,13 +2,13 @@ execute if score @s menu matches -1 run function ssbrc:logic/favorite/slot_1
 execute if score @s menu matches -2 run function ssbrc:logic/favorite/slot_2
 execute if score @s menu matches -3 run function ssbrc:logic/favorite/slot_3
 
-execute if score @s[tag=!rob] menu matches 0 run function ssbrc:series/super_smash_bros/rob/menu/select_character
-execute if score @s[tag=!rob] menu matches 1 run function ssbrc:series/super_smash_bros/rob/menu/skin_options
-execute if score @s[tag=!rob] menu matches 2 run function ssbrc:series/super_smash_bros/rob/menu/favorite
-execute if score @s[tag=!rob] menu matches 3 run function ssbrc:series/super_smash_bros/rob/menu/how_to_play
-execute if score @s[tag=!rob] menu matches 4 run function ssbrc:series/super_smash_bros/rob/menu/skins/default
-execute if score @s[tag=!rob] menu matches 5 run function ssbrc:series/super_smash_bros/rob/menu/skins/gold
-execute if score @s[tag=!rob] menu matches 6 run function ssbrc:series/super_smash_bros/rob/menu/skins/ancientminister
+execute if score @s[tag=!rob] menu matches 1 run function ssbrc:series/super_smash_bros/rob/menu/select_character
+execute if score @s[tag=!rob] menu matches 2 run function ssbrc:series/super_smash_bros/rob/menu/skin_options
+execute if score @s[tag=!rob] menu matches 3 run function ssbrc:series/super_smash_bros/rob/menu/favorite
+execute if score @s[tag=!rob] menu matches 4 run function ssbrc:series/super_smash_bros/rob/menu/how_to_play
+execute if score @s[tag=!rob] menu matches 5 run function ssbrc:series/super_smash_bros/rob/menu/skins/default
+execute if score @s[tag=!rob] menu matches 6 run function ssbrc:series/super_smash_bros/rob/menu/skins/gold
+execute if score @s[tag=!rob] menu matches 7 run function ssbrc:series/super_smash_bros/rob/menu/skins/ancientminister
 
 execute if score @s[tag=!bowser] menu matches 60 run function ssbrc:series/super_mario_bros/bowser/menu/select_character
 execute if score @s[tag=!bowser] menu matches 61 run function ssbrc:series/super_mario_bros/bowser/menu/skin_options
