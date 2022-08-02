@@ -7,4 +7,4 @@ effect clear @s[predicate=!ssbrc:flag/sneaking] minecraft:slow_falling
 
 #tag @s add self
 #execute as @e[tag=rob.holyWater,tag=!active,predicate=ssbrc:flag/no_vehicle] if score @s id = @p[tag=self] id run function ssbrc:series/super_smash_bros/rob/logic/abilities/holy_water/tick
-#tag @s remove self
+tag @s remove self
