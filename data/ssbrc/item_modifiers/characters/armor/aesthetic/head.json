@@ -1,19 +1,6 @@
 [
 	{
 		"function": "minecraft:set_nbt",
-		"tag": "{CustomModelData:1}",
-		"conditions": [
-			{
-				"condition": "minecraft:entity_properties",
-				"entity": "this",
-				"predicate": {
-					"nbt": "{Tags:[\"rob\",\"default\"]}"
-				}
-			}
-		]
-	},
-	{
-		"function": "minecraft:set_nbt",
 		"tag": "{CustomModelData:2}",
 		"conditions": [
 			{
@@ -28,6 +15,19 @@
 	{
 		"function": "minecraft:set_nbt",
 		"tag": "{CustomModelData:3}",
+		"conditions": [
+			{
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"nbt": "{Tags:[\"rob\",\"famicom\"]}"
+				}
+			}
+		]
+	},
+	{
+		"function": "minecraft:set_nbt",
+		"tag": "{CustomModelData:4}",
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
