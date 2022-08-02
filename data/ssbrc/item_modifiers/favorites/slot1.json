@@ -23,20 +23,20 @@
 				"condition": "minecraft:entity_scores",
 				"entity": "this",
 				"scores": {
-					"favorite.slot1": 0
+					"favorite.slot1": 1
 				}
 			}
 		]
 	},
 	{
 		"function": "minecraft:set_nbt",
-		"tag": "{CustomModelData:0}",
+		"tag": "{CustomModelData:1}",
 		"conditions": [
 			{
 				"condition": "minecraft:entity_scores",
 				"entity": "this",
 				"scores": {
-					"favorite.slot1": 0
+					"favorite.slot1": 1
 				}
 			}
 		]

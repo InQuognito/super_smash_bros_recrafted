@@ -20,7 +20,7 @@
 				"condition": "minecraft:entity_properties",
 				"entity": "this",
 				"predicate": {
-					"nbt": "{Tags:[\"rob\",\"default\",\"rob\"]}"
+					"nbt": "{Tags:[\"rob\",\"gold\"]}"
 				}
 			}
 		]
@@ -33,20 +33,7 @@
 				"condition": "minecraft:entity_properties",
 				"entity": "this",
 				"predicate": {
-					"nbt": "{Tags:[\"rob\",\"gold\"]}"
-				}
-			}
-		]
-	},
-	{
-		"function": "minecraft:set_nbt",
-		"tag": "{CustomModelData:4}",
-		"conditions": [
-			{
-				"condition": "minecraft:entity_properties",
-				"entity": "this",
-				"predicate": {
-					"nbt": "{Tags:[\"rob\",\"gold\",\"rob\"]}"
+					"nbt": "{Tags:[\"rob\",\"ancientMinister\"]}"
 				}
 			}
 		]
