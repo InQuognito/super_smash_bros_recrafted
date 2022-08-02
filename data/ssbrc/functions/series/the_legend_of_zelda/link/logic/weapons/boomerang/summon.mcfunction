@@ -6,6 +6,4 @@ data modify entity @e[tag=projectile,limit=1] Owner set from entity @s UUID
 
 execute as @e[tag=projectile] at @s run function ssbrc:series/the_legend_of_zelda/link/logic/weapons/boomerang/summon_item
 
-tag @e[tag=projectile] remove projectile
-
 clear @s minecraft:carrot_on_a_stick{boomerang:1}
