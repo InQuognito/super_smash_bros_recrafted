@@ -1,5 +1,5 @@
-summon minecraft:area_effect_cloud 56.5 7.75 156.5 {Tags:["lobbyStand.label"],CustomName:'{"text":"R.O.B","color":"white"}',CustomNameVisible:1b,Age:-2147483648,Duration:-1,WaitTime:-2147483648}
-summon minecraft:armor_stand 56.5 6.0 158.5 {Tags:["lobbyStand","rob","default"],Rotation:[180f,0f]}
+summon minecraft:area_effect_cloud 68.5 7.75 136.5 {Tags:["lobbyStand.label"],CustomName:'{"text":"R.O.B","color":"white"}',CustomNameVisible:1b,Age:-2147483648,Duration:-1,WaitTime:-2147483648}
+summon minecraft:armor_stand 66.5 6.0 136.5 {Tags:["lobbyStand","rob","default"],Rotation:[-90f,0f]}
 
 summon minecraft:area_effect_cloud 56.5 7.75 156.5 {Tags:["lobbyStand.label"],CustomName:'{"text":"Bowser","color":"green"}',CustomNameVisible:1b,Age:-2147483648,Duration:-1,WaitTime:-2147483648}
 summon minecraft:armor_stand 56.5 6.0 158.5 {Tags:["lobbyStand","bowser","default"],Rotation:[180f,0f]}
