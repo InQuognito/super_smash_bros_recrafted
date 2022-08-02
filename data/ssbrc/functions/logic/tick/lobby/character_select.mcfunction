@@ -13,6 +13,7 @@ execute as @s[nbt={SelectedItem:{tag:{slot:1}}}] store result score @s favorite.
 execute as @s[nbt={SelectedItem:{tag:{slot:2}}}] store result score @s favorite.temp run scoreboard players get @s favorite.slot2
 execute as @s[nbt={SelectedItem:{tag:{slot:3}}}] store result score @s favorite.temp run scoreboard players get @s favorite.slot3
 
+execute as @s[tag=!rob,predicate=!ssbrc:flag/sneaking,scores={favorite.temp=1}] run function ssbrc:series/super_smash_bros/rob/menu/select_character
 execute as @s[tag=!bowser,predicate=!ssbrc:flag/sneaking,scores={favorite.temp=60}] run function ssbrc:series/super_mario_bros/bowser/menu/select_character
 execute as @s[tag=!byleth,predicate=!ssbrc:flag/sneaking,scores={favorite.temp=100}] run function ssbrc:series/fire_emblem/byleth/menu/loadout/prompt
 execute as @s[tag=!captainfalcon,predicate=!ssbrc:flag/sneaking,scores={favorite.temp=120}] run function ssbrc:series/f_zero/captainfalcon/menu/select_character
@@ -48,6 +49,7 @@ execute as @s[tag=!shadow,predicate=!ssbrc:flag/sneaking,scores={favorite.temp=1
 execute as @s[tag=!shovelknight,predicate=!ssbrc:flag/sneaking,scores={favorite.temp=1920}] run function ssbrc:series/indie_fighters/shovelknight/menu/select_character
 execute as @s[tag=!teamrocket,predicate=!ssbrc:flag/sneaking,scores={favorite.temp=1940}] run function ssbrc:series/pokemon/teamrocket/menu/select_character
 
+execute as @s[predicate=ssbrc:flag/sneaking,scores={favorite.temp=1}] run function ssbrc:series/super_smash_bros/rob/menu/prompt
 execute as @s[predicate=ssbrc:flag/sneaking,scores={favorite.temp=60}] run function ssbrc:series/super_mario_bros/bowser/menu/prompt
 execute as @s[predicate=ssbrc:flag/sneaking,scores={favorite.temp=100}] run function ssbrc:series/fire_emblem/byleth/menu/prompt
 execute as @s[predicate=ssbrc:flag/sneaking,scores={favorite.temp=120}] run function ssbrc:series/f_zero/captainfalcon/menu/prompt
