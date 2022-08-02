@@ -1,6 +1,6 @@
 particle minecraft:dust 1.0 1.0 1.0 1.5 ~ ~0.75 ~ 0.4 0.4 0.4 0.05 10 normal @a
 
-scoreboard players remove @s[scores={charge.2=1..}] charge.2 3
+scoreboard players remove @s[scores={charge.2=1..}] charge.2 5
 scoreboard players add @s charge.3 1
 
 scoreboard players operation #percentage temp = @s charge.3
