@@ -1,7 +1,7 @@
 [
 	{
 		"function": "minecraft:set_nbt",
-		"tag": "{display:{color:9776000}}",
+		"tag": "{display:{color:12726307}}",
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -14,13 +14,13 @@
 	},
 	{
 		"function": "minecraft:set_nbt",
-		"tag": "{display:{color:12726307}}",
+		"tag": "{display:{color:9776000}}",
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
 				"entity": "this",
 				"predicate": {
-					"nbt": "{Tags:[\"rob\",\"default\",\"rob\"]}"
+					"nbt": "{Tags:[\"rob\",\"ancientMinister\"]}"
 				}
 			}
 		]
