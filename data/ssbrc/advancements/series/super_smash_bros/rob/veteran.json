@@ -5,25 +5,25 @@
 			"nbt": "{CustomModelData:1}"
 		},
 		"title": {
-			"text": "Novice",
+			"text": "Veteran",
 			"color": "yellow",
 			"bold": false,
 			"italic": false
 		},
 		"description": {
-			"text": "Win ",
+			"text": "Play ",
 			"color": "gray",
 			"bold": false,
 			"italic": false,
 			"extra": [
 				{
-					"text": "1",
+					"text": "10",
 					"color": "blue",
 					"bold": false,
 					"italic": false
 				},
 				{
-					"text": " game.",
+					"text": " games.",
 					"color": "gray",
 					"bold": false,
 					"italic": false
@@ -34,13 +34,13 @@
 		"show_toast": true,
 		"announce_to_chat": true
 	},
-	"parent": "ssbrc:series/super_smash_bros/ancientminister/root",
+	"parent": "ssbrc:series/super_smash_bros/rob/novice",
 	"criteria": {
 		"impossible": {
 			"trigger": "minecraft:impossible"
 		}
 	},
 	"rewards": {
-		"function": "ssbrc:advancements/ancientminister/novice"
+		"function": "ssbrc:advancements/rob/veteran"
 	}
 }

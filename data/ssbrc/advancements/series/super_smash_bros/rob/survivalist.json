@@ -5,37 +5,25 @@
 			"nbt": "{CustomModelData:1}"
 		},
 		"title": {
-			"text": "Gyromited",
-			"color": "light_purple",
+			"text": "Survivalist",
+			"color": "yellow",
 			"bold": false,
 			"italic": false
 		},
 		"description": {
-			"text": "Get ",
+			"text": "Win with ",
 			"color": "gray",
 			"bold": false,
 			"italic": false,
 			"extra": [
 				{
-					"text": "at least 3",
+					"text": "more than one",
 					"color": "blue",
 					"bold": false,
 					"italic": false
 				},
 				{
-					"text": " kills with the ",
-					"color": "gray",
-					"bold": false,
-					"italic": false
-				},
-				{
-					"text": "Roto Blade",
-					"color": "aqua",
-					"bold": false,
-					"italic": false
-				},
-				{
-					"text": " in a match.",
+					"text": " stock left.",
 					"color": "gray",
 					"bold": false,
 					"italic": false
@@ -46,13 +34,13 @@
 		"show_toast": true,
 		"announce_to_chat": true
 	},
-	"parent": "ssbrc:series/super_smash_bros/ancientminister/slayer",
+	"parent": "ssbrc:series/super_smash_bros/rob/veteran",
 	"criteria": {
 		"impossible": {
 			"trigger": "minecraft:impossible"
 		}
 	},
 	"rewards": {
-		"function": "ssbrc:advancements/ancientminister/gyromited"
+		"function": "ssbrc:advancements/rob/survivalist"
 	}
 }

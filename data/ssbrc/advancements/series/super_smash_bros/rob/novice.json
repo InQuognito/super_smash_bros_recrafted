@@ -5,25 +5,25 @@
 			"nbt": "{CustomModelData:1}"
 		},
 		"title": {
-			"text": "Stacked Up",
-			"color": "light_purple",
+			"text": "Novice",
+			"color": "yellow",
 			"bold": false,
 			"italic": false
 		},
 		"description": {
-			"text": "Win a time battle with a lead of ",
+			"text": "Win ",
 			"color": "gray",
 			"bold": false,
 			"italic": false,
 			"extra": [
 				{
-					"text": "at least 3",
+					"text": "1",
 					"color": "blue",
 					"bold": false,
 					"italic": false
 				},
 				{
-					"text": ".",
+					"text": " game.",
 					"color": "gray",
 					"bold": false,
 					"italic": false
@@ -34,13 +34,13 @@
 		"show_toast": true,
 		"announce_to_chat": true
 	},
-	"parent": "ssbrc:series/super_smash_bros/ancientminister/master",
+	"parent": "ssbrc:series/super_smash_bros/rob/root",
 	"criteria": {
 		"impossible": {
 			"trigger": "minecraft:impossible"
 		}
 	},
 	"rewards": {
-		"function": "ssbrc:advancements/ancientminister/stacked_up"
+		"function": "ssbrc:advancements/rob/novice"
 	}
 }

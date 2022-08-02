@@ -5,25 +5,25 @@
 			"nbt": "{CustomModelData:1}"
 		},
 		"title": {
-			"text": "Veteran",
-			"color": "yellow",
+			"text": "Stacked Up",
+			"color": "light_purple",
 			"bold": false,
 			"italic": false
 		},
 		"description": {
-			"text": "Play ",
+			"text": "Win a time battle with a lead of ",
 			"color": "gray",
 			"bold": false,
 			"italic": false,
 			"extra": [
 				{
-					"text": "10",
+					"text": "at least 3",
 					"color": "blue",
 					"bold": false,
 					"italic": false
 				},
 				{
-					"text": " games.",
+					"text": ".",
 					"color": "gray",
 					"bold": false,
 					"italic": false
@@ -34,13 +34,13 @@
 		"show_toast": true,
 		"announce_to_chat": true
 	},
-	"parent": "ssbrc:series/super_smash_bros/ancientminister/novice",
+	"parent": "ssbrc:series/super_smash_bros/rob/master",
 	"criteria": {
 		"impossible": {
 			"trigger": "minecraft:impossible"
 		}
 	},
 	"rewards": {
-		"function": "ssbrc:advancements/ancientminister/veteran"
+		"function": "ssbrc:advancements/rob/stacked_up"
 	}
 }

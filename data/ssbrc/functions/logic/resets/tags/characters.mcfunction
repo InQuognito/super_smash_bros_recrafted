@@ -25,6 +25,7 @@ tag @s remove pokemontrainer
 tag @s remove charizard
 tag @s remove ivysaur
 tag @s remove squirtle
+tag @s remove rob
 tag @s remove ryu
 tag @s remove samus
 tag @s remove shadow

@@ -5,25 +5,37 @@
 			"nbt": "{CustomModelData:1}"
 		},
 		"title": {
-			"text": "Survivalist",
+			"text": "Master",
 			"color": "yellow",
 			"bold": false,
 			"italic": false
 		},
 		"description": {
-			"text": "Win with ",
+			"text": "Win ",
 			"color": "gray",
 			"bold": false,
 			"italic": false,
 			"extra": [
 				{
-					"text": "more than one",
+					"text": "3",
 					"color": "blue",
 					"bold": false,
 					"italic": false
 				},
 				{
-					"text": " stock left.",
+					"text": " games ",
+					"color": "gray",
+					"bold": false,
+					"italic": false
+				},
+				{
+					"text": "in a row",
+					"color": "blue",
+					"bold": false,
+					"italic": false
+				},
+				{
+					"text": ".",
 					"color": "gray",
 					"bold": false,
 					"italic": false
@@ -34,13 +46,13 @@
 		"show_toast": true,
 		"announce_to_chat": true
 	},
-	"parent": "ssbrc:series/super_smash_bros/ancientminister/veteran",
+	"parent": "ssbrc:series/super_smash_bros/rob/veteran",
 	"criteria": {
 		"impossible": {
 			"trigger": "minecraft:impossible"
 		}
 	},
 	"rewards": {
-		"function": "ssbrc:advancements/ancientminister/survivalist"
+		"function": "ssbrc:advancements/rob/master"
 	}
 }

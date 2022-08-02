@@ -5,8 +5,8 @@
 			"nbt": "{CustomModelData:1}"
 		},
 		"title": {
-			"text": "Slayer",
-			"color": "yellow",
+			"text": "Gyromited",
+			"color": "light_purple",
 			"bold": false,
 			"italic": false
 		},
@@ -17,13 +17,25 @@
 			"italic": false,
 			"extra": [
 				{
-					"text": "15",
+					"text": "at least 3",
 					"color": "blue",
 					"bold": false,
 					"italic": false
 				},
 				{
-					"text": " kills.",
+					"text": " kills with the ",
+					"color": "gray",
+					"bold": false,
+					"italic": false
+				},
+				{
+					"text": "Roto Blade",
+					"color": "aqua",
+					"bold": false,
+					"italic": false
+				},
+				{
+					"text": " in a match.",
 					"color": "gray",
 					"bold": false,
 					"italic": false
@@ -34,13 +46,13 @@
 		"show_toast": true,
 		"announce_to_chat": true
 	},
-	"parent": "ssbrc:series/super_smash_bros/ancientminister/novice",
+	"parent": "ssbrc:series/super_smash_bros/rob/slayer",
 	"criteria": {
 		"impossible": {
 			"trigger": "minecraft:impossible"
 		}
 	},
 	"rewards": {
-		"function": "ssbrc:advancements/ancientminister/slayer"
+		"function": "ssbrc:advancements/rob/gyromited"
 	}
 }

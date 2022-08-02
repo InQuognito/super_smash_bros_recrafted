@@ -19,6 +19,7 @@ execute if entity @s[tag=megaman] run function ssbrc:series/mega_man/megaman/kit
 execute if entity @s[tag=ness] run function ssbrc:series/earthbound/ness/kit
 execute if entity @s[tag=pit] run function ssbrc:series/kid_icarus/pit/kit
 execute if entity @s[tag=pokemontrainer] run function ssbrc:series/pokemon/pokemontrainer/kit
+execute if entity @s[tag=rob] run function ssbrc:series/super_smash_bros/rob/kit
 execute if entity @s[tag=ryu] run function ssbrc:series/street_fighter/ryu/kit
 execute if entity @s[tag=samus] run function ssbrc:series/metroid/samus/kit
 execute if entity @s[tag=snake] run function ssbrc:series/metal_gear_solid/snake/kit

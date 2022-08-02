@@ -7,7 +7,7 @@
 				"condition": "minecraft:entity_properties",
 				"entity": "this",
 				"predicate": {
-					"nbt": "{Tags:[\"ancientminister\",\"default\"]}"
+					"nbt": "{Tags:[\"rob\",\"default\"]}"
 				}
 			}
 		]
@@ -20,7 +20,7 @@
 				"condition": "minecraft:entity_properties",
 				"entity": "this",
 				"predicate": {
-					"nbt": "{Tags:[\"ancientminister\",\"default\",\"rob\"]}"
+					"nbt": "{Tags:[\"rob\",\"default\",\"rob\"]}"
 				}
 			}
 		]
@@ -33,7 +33,7 @@
 				"condition": "minecraft:entity_properties",
 				"entity": "this",
 				"predicate": {
-					"nbt": "{Tags:[\"ancientminister\",\"gold\"]}"
+					"nbt": "{Tags:[\"rob\",\"gold\"]}"
 				}
 			}
 		]
@@ -46,7 +46,7 @@
 				"condition": "minecraft:entity_properties",
 				"entity": "this",
 				"predicate": {
-					"nbt": "{Tags:[\"ancientminister\",\"gold\",\"rob\"]}"
+					"nbt": "{Tags:[\"rob\",\"gold\",\"rob\"]}"
 				}
 			}
 		]

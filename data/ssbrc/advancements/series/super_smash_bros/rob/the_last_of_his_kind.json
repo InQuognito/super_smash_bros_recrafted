@@ -20,13 +20,13 @@
 		"show_toast": true,
 		"announce_to_chat": true
 	},
-	"parent": "ssbrc:series/super_smash_bros/ancientminister/survivalist",
+	"parent": "ssbrc:series/super_smash_bros/rob/survivalist",
 	"criteria": {
 		"impossible": {
 			"trigger": "minecraft:impossible"
 		}
 	},
 	"rewards": {
-		"function": "ssbrc:advancements/ancientminister/the_last_of_his_kind"
+		"function": "ssbrc:advancements/rob/the_last_of_his_kind"
 	}
 }

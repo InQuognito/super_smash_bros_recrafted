@@ -95,6 +95,6 @@
 		]
 	],
 	"rewards": {
-		"function": "ssbrc:advancements/ancientminister/mastery"
+		"function": "ssbrc:advancements/rob/mastery"
 	}
 }

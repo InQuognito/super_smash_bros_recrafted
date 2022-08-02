@@ -5,31 +5,31 @@
 			"nbt": "{CustomModelData:1}"
 		},
 		"title": {
-			"text": "Master",
-			"color": "yellow",
+			"text": "Robo Sniped",
+			"color": "light_purple",
 			"bold": false,
 			"italic": false
 		},
 		"description": {
-			"text": "Win ",
+			"text": "Landed a hit from a fully charged ",
 			"color": "gray",
 			"bold": false,
 			"italic": false,
 			"extra": [
 				{
-					"text": "3",
-					"color": "blue",
+					"text": "Robo Beam",
+					"color": "aqua",
 					"bold": false,
 					"italic": false
 				},
 				{
-					"text": " games ",
+					"text": " from a distance of at least ",
 					"color": "gray",
 					"bold": false,
 					"italic": false
 				},
 				{
-					"text": "in a row",
+					"text": "20 meters",
 					"color": "blue",
 					"bold": false,
 					"italic": false
@@ -46,13 +46,13 @@
 		"show_toast": true,
 		"announce_to_chat": true
 	},
-	"parent": "ssbrc:series/super_smash_bros/ancientminister/veteran",
+	"parent": "ssbrc:series/super_smash_bros/rob/slayer",
 	"criteria": {
 		"impossible": {
 			"trigger": "minecraft:impossible"
 		}
 	},
 	"rewards": {
-		"function": "ssbrc:advancements/ancientminister/master"
+		"function": "ssbrc:advancements/rob/robo_sniped"
 	}
 }

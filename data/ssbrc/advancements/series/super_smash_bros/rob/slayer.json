@@ -5,37 +5,25 @@
 			"nbt": "{CustomModelData:1}"
 		},
 		"title": {
-			"text": "Robo Sniped",
-			"color": "light_purple",
+			"text": "Slayer",
+			"color": "yellow",
 			"bold": false,
 			"italic": false
 		},
 		"description": {
-			"text": "Landed a hit from a fully charged ",
+			"text": "Get ",
 			"color": "gray",
 			"bold": false,
 			"italic": false,
 			"extra": [
 				{
-					"text": "Robo Beam",
-					"color": "aqua",
-					"bold": false,
-					"italic": false
-				},
-				{
-					"text": " from a distance of at least ",
-					"color": "gray",
-					"bold": false,
-					"italic": false
-				},
-				{
-					"text": "20 meters",
+					"text": "15",
 					"color": "blue",
 					"bold": false,
 					"italic": false
 				},
 				{
-					"text": ".",
+					"text": " kills.",
 					"color": "gray",
 					"bold": false,
 					"italic": false
@@ -46,13 +34,13 @@
 		"show_toast": true,
 		"announce_to_chat": true
 	},
-	"parent": "ssbrc:series/super_smash_bros/ancientminister/slayer",
+	"parent": "ssbrc:series/super_smash_bros/rob/novice",
 	"criteria": {
 		"impossible": {
 			"trigger": "minecraft:impossible"
 		}
 	},
 	"rewards": {
-		"function": "ssbrc:advancements/ancientminister/robo_sniped"
+		"function": "ssbrc:advancements/rob/slayer"
 	}
 }
