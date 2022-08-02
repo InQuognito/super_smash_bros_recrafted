@@ -1,17 +1,9 @@
-particle minecraft:dust 0.733 0.525 0.216 0.75 ^ ^ ^ 0.0 0.0 0.0 0 0 normal @a
-
 execute unless block ^ ^ ^0.3 #ssbrc:passthrough run scoreboard players set @s temp 30
 
 execute unless score @s temp matches 20.. rotated as @s run teleport @s ^ ^ ^0.6
+execute if score @s temp matches 20.. facing entity @p[tag=self] eyes run function ssbrc:series/the_legend_of_zelda/link/logic/weapons/boomerang/return
 
-execute if score @s temp matches 20.. if score @s id matches 1 facing entity @p[scores={id=1}] eyes run function ssbrc:series/the_legend_of_zelda/link/logic/weapons/boomerang/return
-execute if score @s temp matches 20.. if score @s id matches 2 facing entity @p[scores={id=2}] eyes run function ssbrc:series/the_legend_of_zelda/link/logic/weapons/boomerang/return
-execute if score @s temp matches 20.. if score @s id matches 3 facing entity @p[scores={id=3}] eyes run function ssbrc:series/the_legend_of_zelda/link/logic/weapons/boomerang/return
-execute if score @s temp matches 20.. if score @s id matches 4 facing entity @p[scores={id=4}] eyes run function ssbrc:series/the_legend_of_zelda/link/logic/weapons/boomerang/return
-execute if score @s temp matches 20.. if score @s id matches 5 facing entity @p[scores={id=5}] eyes run function ssbrc:series/the_legend_of_zelda/link/logic/weapons/boomerang/return
-execute if score @s temp matches 20.. if score @s id matches 6 facing entity @p[scores={id=6}] eyes run function ssbrc:series/the_legend_of_zelda/link/logic/weapons/boomerang/return
-execute if score @s temp matches 20.. if score @s id matches 7 facing entity @p[scores={id=7}] eyes run function ssbrc:series/the_legend_of_zelda/link/logic/weapons/boomerang/return
-execute if score @s temp matches 20.. if score @s id matches 8 facing entity @p[scores={id=8}] eyes run function ssbrc:series/the_legend_of_zelda/link/logic/weapons/boomerang/return
+execute rotated as @s as @e[tag=boomerang.display,sort=nearest,limit=1] run function ssbrc:series/the_legend_of_zelda/link/logic/weapons/boomerang/display
 
 execute positioned ~-0.15 ~-0.15 ~-0.15 as @a[tag=alive,scores={respawn=..0},gamemode=adventure,dx=0] positioned ~-0.7 ~-0.7 ~-0.7 if entity @s[dx=0] unless score @s id = @e[type=minecraft:marker,tag=boomerang,sort=nearest,limit=1] id run tag @s add damage.boomerang
 
