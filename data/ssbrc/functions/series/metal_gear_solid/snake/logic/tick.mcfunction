@@ -54,5 +54,8 @@ execute as @a[scores={snake.s1000A=1..,snake.s1000F=15}] at @s run playsound ssb
 scoreboard players remove @s[scores={snake.socomF=1..}] snake.socomF 1
 scoreboard players remove @s[scores={snake.smokeGrenadeF=1..}] snake.smokeGrenadeF 1
 
+# Smoke Grenade
+execute as @e[type=minecraft:armor_stand,tag=smokeGrenade.display] at @s unless block ~ ~-0.1 ~ #ssbrc:passthrough run function ssbrc:series/metal_gear_solid/snake/logic/weapons/smoke_grenade/kill_item
+
 # Anti-Personnel Mine
 execute as @a[tag=damage.antiPersonnelMine] at @s run function ssbrc:series/metal_gear_solid/snake/logic/weapons/anti_personnel_mine/damage
