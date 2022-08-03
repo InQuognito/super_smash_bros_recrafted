@@ -1,4 +1,4 @@
-execute if entity @s[scores={useAbility=1..,charge.2=1..},nbt={SelectedItem:{tag:{waterShuriken:1}}}] at @s anchored eyes run function ssbrc:series/pokemon/greninja/logic/water_shuriken/summon
+execute if entity @s[scores={useAbility=1..,charge.2=1..},nbt={SelectedItem:{tag:{waterShuriken:1}}}] at @s anchored eyes run function ssbrc:series/pokemon/greninja/logic/water_shuriken/activate
 
 tag @s add self
 execute as @e[type=minecraft:area_effect_cloud,tag=waterShuriken] at @s if score @s id = @p[tag=self] id run function ssbrc:series/pokemon/greninja/logic/water_shuriken/tick
