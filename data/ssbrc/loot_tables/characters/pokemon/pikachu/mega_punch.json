@@ -6,13 +6,13 @@
 			"entries": [
 				{
 					"type": "minecraft:item",
-					"name": "minecraft:carrot_on_a_stick",
+					"name": "minecraft:iron_sword",
 					"functions": [
 						{
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"text": "Robo Beam",
+								"text": "Mega Punch",
 								"color": "white",
 								"bold": true,
 								"italic": false
@@ -24,14 +24,14 @@
 								{
 									"attribute": "minecraft:generic.attack_damage",
 									"name": "Attack Damage",
-									"amount": 0,
+									"amount": 6,
 									"operation": "multiply_base",
 									"slot": "mainhand"
 								},
 								{
 									"attribute": "minecraft:generic.attack_speed",
 									"name": "Attack Speed",
-									"amount": 1024,
+									"amount": 1,
 									"operation": "multiply_base",
 									"slot": "mainhand"
 								}
@@ -39,7 +39,7 @@
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{roboBeam:1,Unbreakable:1,HideFlags:127}"
+							"tag": "{megaPunch:1,Unbreakable:1,HideFlags:127}"
 						}
 					]
 				}

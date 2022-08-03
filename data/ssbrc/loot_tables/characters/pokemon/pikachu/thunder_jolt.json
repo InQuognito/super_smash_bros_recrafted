@@ -12,8 +12,8 @@
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"text": "Robo Beam",
-								"color": "white",
+								"text": "Thunder Jolt",
+								"color": "yellow",
 								"bold": true,
 								"italic": false
 							}
@@ -39,7 +39,7 @@
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{roboBeam:1,Unbreakable:1,HideFlags:127}"
+							"tag": "{thunderJolt:1,Unbreakable:1,HideFlags:127}"
 						}
 					]
 				}

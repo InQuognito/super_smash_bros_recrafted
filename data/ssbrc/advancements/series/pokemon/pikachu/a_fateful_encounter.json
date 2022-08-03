@@ -1,0 +1,52 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:barrier",
+			"nbt": "{CustomModelData:422}"
+		},
+		"title": {
+			"text": "A Fateful Encounter",
+			"color": "dark_red",
+			"bold": false,
+			"italic": false
+		},
+		"description": {
+			"text": "Catch a ",
+			"color": "gray",
+			"bold": false,
+			"italic": false,
+			"extra": [
+				{
+					"text": "shiny",
+					"color": "blue",
+					"bold": false,
+					"italic": false
+				},
+				{
+					"text": " Pikachu.",
+					"color": "gray",
+					"bold": false,
+					"italic": false
+				},
+				{
+					"text": "Unlocks Pikachu Skin: Shiny",
+					"color": "green",
+					"bold": false,
+					"italic": false
+				}
+			]
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true
+	},
+	"parent": "ssbrc:series/pokemon/pikachu/root",
+	"criteria": {
+		"impossible": {
+			"trigger": "minecraft:impossible"
+		}
+	},
+	"rewards": {
+		"function": "ssbrc:advancements/pikachu/a_shiny_encounter"
+	}
+}

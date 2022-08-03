@@ -58,6 +58,9 @@ summon minecraft:armor_stand 56.5 6.0 146.5 {Tags:["lobbyStand","megaman","defau
 summon minecraft:area_effect_cloud 32.5 7.75 159.5 {Tags:["lobbyStand.label"],CustomName:'{"text":"Ness","color":"dark_purple"}',CustomNameVisible:1b,Age:-2147483648,Duration:-1,WaitTime:-2147483648}
 summon minecraft:armor_stand 32.5 6.0 161.5 {Tags:["lobbyStand","ness","default"],Rotation:[-180f,0f]}
 
+summon minecraft:area_effect_cloud 76.5 7.75 136.5 {Tags:["lobbyStand.label"],CustomName:'{"text":"Pikachu","color":"yellow"}',CustomNameVisible:1b,Age:-2147483648,Duration:-1,WaitTime:-2147483648}
+summon minecraft:armor_stand 78.5 6.0 136.5 {Tags:["lobbyStand","pikachu","default"],Rotation:[90f,0f],Small:1b}
+
 summon minecraft:area_effect_cloud 51.5 7.75 148.5 {Tags:["lobbyStand.label"],CustomName:'{"text":"Pit","color":"white"}',CustomNameVisible:1b,Age:-2147483648,Duration:-1,WaitTime:-2147483648}
 summon minecraft:armor_stand 51.5 6.0 146.5 {Tags:["lobbyStand","pit","default"],Rotation:[0f,0f]}
 summon minecraft:armor_stand 51.5 6.0 146.5 {Tags:["lobbyStand","pit","default","wingsBurned"],Rotation:[0f,0f]}

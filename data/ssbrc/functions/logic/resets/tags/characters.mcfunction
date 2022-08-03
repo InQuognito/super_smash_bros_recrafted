@@ -20,6 +20,7 @@ tag @s remove luigi
 tag @s remove mario
 tag @s remove megaman
 tag @s remove ness
+tag @s remove pikachu
 tag @s remove pit
 tag @s remove pokemontrainer
 tag @s remove charizard

@@ -18,6 +18,7 @@ tag @a remove favoritetry.luigi
 tag @a remove favoritetry.mario
 tag @a remove favoritetry.megaman
 tag @a remove favoritetry.ness
+tag @a remove favoritetry.pikachu
 tag @a remove favoritetry.pit
 tag @a remove favoritetry.pokemontrainer
 tag @a remove favoritetry.ryu

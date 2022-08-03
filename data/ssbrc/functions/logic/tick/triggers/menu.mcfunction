@@ -160,6 +160,14 @@ execute if score @s[tag=!ness] menu matches 1085 run function ssbrc:series/earth
 execute if score @s[tag=!ness] menu matches 1086 run function ssbrc:series/earthbound/ness/menu/skins/moonside
 execute if score @s[tag=!ness] menu matches 1087 run function ssbrc:series/earthbound/ness/menu/skins/pajamas
 
+execute if score @s[tag=!pikachu] menu matches 1200 run function ssbrc:series/pokemon/pikachu/menu/select_character
+execute if score @s[tag=!pikachu] menu matches 1201 run function ssbrc:series/pokemon/pikachu/menu/skin_options
+execute if score @s[tag=!pikachu] menu matches 1202 run function ssbrc:series/pokemon/pikachu/menu/favorite
+execute if score @s[tag=!pikachu] menu matches 1203 run function ssbrc:series/pokemon/pikachu/menu/how_to_play
+execute if score @s[tag=!pikachu] menu matches 1204 run function ssbrc:series/pokemon/pikachu/menu/skins/default
+execute if score @s[tag=!pikachu] menu matches 1205 run function ssbrc:series/pokemon/pikachu/menu/skins/gold
+execute if score @s[tag=!pikachu] menu matches 1205 run function ssbrc:series/pokemon/pikachu/menu/skins/shiny
+
 execute if score @s[tag=!pit] menu matches 1220 run function ssbrc:series/kid_icarus/pit/menu/select_character
 execute if score @s[tag=!pit] menu matches 1221 run function ssbrc:series/kid_icarus/pit/menu/skin_options
 execute if score @s[tag=!pit] menu matches 1222 run function ssbrc:series/kid_icarus/pit/menu/favorite

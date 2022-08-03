@@ -18,6 +18,7 @@ execute if entity @s[tag=favoritetry.luigi] run scoreboard players set @s favori
 execute if entity @s[tag=favoritetry.mario] run scoreboard players set @s favorite.slot1 840
 execute if entity @s[tag=favoritetry.megaman] run scoreboard players set @s favorite.slot1 880
 execute if entity @s[tag=favoritetry.ness] run scoreboard players set @s favorite.slot1 1080
+execute if entity @s[tag=favoritetry.pikachu] run scoreboard players set @s favorite.slot1 1200
 execute if entity @s[tag=favoritetry.pit] run scoreboard players set @s favorite.slot1 1220
 execute if entity @s[tag=favoritetry.pokemontrainer] run scoreboard players set @s favorite.slot1 1260
 execute if entity @s[tag=favoritetry.ryu] run scoreboard players set @s favorite.slot1 1400

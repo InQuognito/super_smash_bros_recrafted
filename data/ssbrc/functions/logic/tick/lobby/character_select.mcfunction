@@ -33,6 +33,7 @@ execute as @s[tag=!luigi,predicate=!ssbrc:flag/sneaking,scores={favorite.temp=82
 execute as @s[tag=!mario,predicate=!ssbrc:flag/sneaking,scores={favorite.temp=840}] run function ssbrc:series/super_mario_bros/mario/menu/select_character
 execute as @s[tag=!megaman,predicate=!ssbrc:flag/sneaking,scores={favorite.temp=880}] run function ssbrc:series/mega_man/megaman/menu/select_character
 execute as @s[tag=!ness,predicate=!ssbrc:flag/sneaking,scores={favorite.temp=1080}] run function ssbrc:series/earthbound/ness/menu/select_character
+execute as @s[tag=!pikachu,predicate=!ssbrc:flag/sneaking,scores={favorite.temp=1200}] run function ssbrc:series/pokemon/pikachu/menu/select_character
 execute as @s[tag=!pit,predicate=!ssbrc:flag/sneaking,scores={favorite.temp=1220}] run function ssbrc:series/kid_icarus/pit/menu/select_character
 execute as @s[tag=!pokemontrainer,predicate=!ssbrc:flag/sneaking,scores={favorite.temp=1260}] run function ssbrc:series/pokemon/pokemontrainer/menu/select_character
 execute as @s[tag=!ryu,predicate=!ssbrc:flag/sneaking,scores={favorite.temp=1400}] run function ssbrc:series/street_fighter/ryu/menu/select_character
@@ -69,6 +70,7 @@ execute as @s[predicate=ssbrc:flag/sneaking,scores={favorite.temp=820}] run func
 execute as @s[predicate=ssbrc:flag/sneaking,scores={favorite.temp=840}] run function ssbrc:series/super_mario_bros/mario/menu/prompt
 execute as @s[predicate=ssbrc:flag/sneaking,scores={favorite.temp=880}] run function ssbrc:series/mega_man/megaman/menu/prompt
 execute as @s[predicate=ssbrc:flag/sneaking,scores={favorite.temp=1080}] run function ssbrc:series/earthbound/ness/menu/prompt
+execute as @s[predicate=ssbrc:flag/sneaking,scores={favorite.temp=1200}] run function ssbrc:series/pokemon/pikachu/menu/prompt
 execute as @s[predicate=ssbrc:flag/sneaking,scores={favorite.temp=1220}] run function ssbrc:series/kid_icarus/pit/menu/prompt
 execute as @s[predicate=ssbrc:flag/sneaking,scores={favorite.temp=1260}] run function ssbrc:series/pokemon/pokemontrainer/menu/prompt
 execute as @s[predicate=ssbrc:flag/sneaking,scores={favorite.temp=1400}] run function ssbrc:series/street_fighter/ryu/menu/prompt
