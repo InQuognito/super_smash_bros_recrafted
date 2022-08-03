@@ -77,7 +77,7 @@ function ssbrc:series/indie_fighters/shovelknight/kits/utility/reset
 tag @s remove abilityUsed
 tag @s remove admin
 tag @s remove alive
-tag @s remove alucard.ability
+tag @s remove bloodMetamorphosis
 tag @s remove archangel
 tag @s remove arsene
 tag @s remove characterPicked

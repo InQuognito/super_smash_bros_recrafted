@@ -1743,7 +1743,33 @@
 				"condition": "minecraft:entity_properties",
 				"entity": "this",
 				"predicate": {
+					"nbt": "{Tags:[\"alucard\",\"default\",\"bloodMetamorphosis\"]}"
+				}
+			}
+		]
+	},
+	{
+		"function": "minecraft:set_nbt",
+		"tag": "{CustomModelData:1842}",
+		"conditions": [
+			{
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
 					"nbt": "{Tags:[\"alucard\",\"gold\"]}"
+				}
+			}
+		]
+	},
+	{
+		"function": "minecraft:set_nbt",
+		"tag": "{CustomModelData:1843}",
+		"conditions": [
+			{
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"nbt": "{Tags:[\"alucard\",\"gold\",\"bloodMetamorphosis\"]}"
 				}
 			}
 		]

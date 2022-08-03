@@ -1,7 +1,7 @@
-scoreboard players set @s[tag=!alucard.ability] duration.1 40
-scoreboard players set @s[tag=alucard.ability] duration.1 80
+scoreboard players set @s[tag=!bloodMetamorphosis] duration.1 40
+scoreboard players set @s[tag=bloodMetamorphosis] duration.1 80
 
-execute if entity @s[tag=alucard.ability] positioned ~ ~ ~ run function ssbrc:series/castlevania/alucard/logic/abilities/mist/summon
+execute if entity @s[tag=bloodMetamorphosis] positioned ~ ~ ~ run function ssbrc:series/castlevania/alucard/logic/abilities/mist/summon
 
 function ssbrc:series/castlevania/alucard/logic/abilities/mist/check_shield_durability
 clear @s

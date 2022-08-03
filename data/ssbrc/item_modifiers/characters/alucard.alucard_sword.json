@@ -20,7 +20,7 @@
 					"condition": "minecraft:entity_properties",
 					"entity": "this",
 					"predicate": {
-						"nbt": "{Tags:[\"alucard.ability\"]}"
+						"nbt": "{Tags:[\"bloodMetamorphosis\"]}"
 					}
 				}
 			}
@@ -34,7 +34,7 @@
 				"condition": "minecraft:entity_properties",
 				"entity": "this",
 				"predicate": {
-					"nbt": "{Tags:[\"alucard.ability\"]}",
+					"nbt": "{Tags:[\"bloodMetamorphosis\"]}",
 					"equipment": {
 						"mainhand": {
 							"tag": "ssbrc:swords"
