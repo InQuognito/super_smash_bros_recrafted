@@ -15,7 +15,7 @@ execute if score #percentage temp matches 41..50 run effect give @s minecraft:le
 execute if score #percentage temp matches 51..60 run effect give @s minecraft:levitation 1000000 4 true
 execute if score #percentage temp matches 61.. run effect give @s minecraft:levitation 1000000 5 true
 
-scoreboard players set @s cooldown.1 100
+scoreboard players set @s cooldown.2 100
 
 execute if score @s charge.2 matches ..0 run function ssbrc:series/super_smash_bros/rob/logic/abilities/robo_burner/off
 

@@ -9,6 +9,10 @@
 				"predicate": {
 					"nbt": "{Tags:[\"rob\",\"default\"]}"
 				}
+			},
+			{
+				"condition": "minecraft:reference",
+				"name": "ssbrc:characters/rob/charge/depleted"
 			}
 		]
 	},
@@ -20,8 +24,12 @@
 				"condition": "minecraft:entity_properties",
 				"entity": "this",
 				"predicate": {
-					"nbt": "{Tags:[\"rob\",\"gold\"]}"
+					"nbt": "{Tags:[\"rob\",\"default\"]}"
 				}
+			},
+			{
+				"condition": "minecraft:reference",
+				"name": "ssbrc:characters/rob/charge/ready"
 			}
 		]
 	},
@@ -33,14 +41,120 @@
 				"condition": "minecraft:entity_properties",
 				"entity": "this",
 				"predicate": {
-					"nbt": "{Tags:[\"rob\",\"famicom\"]}"
+					"nbt": "{Tags:[\"rob\",\"default\"]}"
 				}
+			},
+			{
+				"condition": "minecraft:reference",
+				"name": "ssbrc:characters/rob/charge/charged"
 			}
 		]
 	},
 	{
 		"function": "minecraft:set_nbt",
 		"tag": "{CustomModelData:4}",
+		"conditions": [
+			{
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"nbt": "{Tags:[\"rob\",\"gold\"]}"
+				}
+			},
+			{
+				"condition": "minecraft:reference",
+				"name": "ssbrc:characters/rob/charge/depleted"
+			}
+		]
+	},
+	{
+		"function": "minecraft:set_nbt",
+		"tag": "{CustomModelData:5}",
+		"conditions": [
+			{
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"nbt": "{Tags:[\"rob\",\"gold\"]}"
+				}
+			},
+			{
+				"condition": "minecraft:reference",
+				"name": "ssbrc:characters/rob/charge/ready"
+			}
+		]
+	},
+	{
+		"function": "minecraft:set_nbt",
+		"tag": "{CustomModelData:6}",
+		"conditions": [
+			{
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"nbt": "{Tags:[\"rob\",\"gold\"]}"
+				}
+			},
+			{
+				"condition": "minecraft:reference",
+				"name": "ssbrc:characters/rob/charge/charged"
+			}
+		]
+	},
+	{
+		"function": "minecraft:set_nbt",
+		"tag": "{CustomModelData:7}",
+		"conditions": [
+			{
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"nbt": "{Tags:[\"rob\",\"famicom\"]}"
+				}
+			},
+			{
+				"condition": "minecraft:reference",
+				"name": "ssbrc:characters/rob/charge/depleted"
+			}
+		]
+	},
+	{
+		"function": "minecraft:set_nbt",
+		"tag": "{CustomModelData:8}",
+		"conditions": [
+			{
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"nbt": "{Tags:[\"rob\",\"famicom\"]}"
+				}
+			},
+			{
+				"condition": "minecraft:reference",
+				"name": "ssbrc:characters/rob/charge/ready"
+			}
+		]
+	},
+	{
+		"function": "minecraft:set_nbt",
+		"tag": "{CustomModelData:9}",
+		"conditions": [
+			{
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"nbt": "{Tags:[\"rob\",\"famicom\"]}"
+				}
+			},
+			{
+				"condition": "minecraft:reference",
+				"name": "ssbrc:characters/rob/charge/charged"
+			}
+		]
+	},
+	{
+		"function": "minecraft:set_nbt",
+		"tag": "{CustomModelData:10}",
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",

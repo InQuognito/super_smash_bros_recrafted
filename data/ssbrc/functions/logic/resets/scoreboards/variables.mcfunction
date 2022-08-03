@@ -27,6 +27,7 @@ scoreboard players set #mario.fireballMaxRotation vars 160
 scoreboard players set #mario.superJumpThreshold vars 40
 scoreboard players set #mario.superJumpMovementFalloff vars 200
 
+scoreboard players set #rob.maxCharge vars 200
 scoreboard players set #rob.maxFuel vars 200
 
 scoreboard players set #shadow.maxMeter vars 600
