@@ -17,6 +17,7 @@ execute if entity @s[tag=luigi] run function ssbrc:series/super_mario_bros/luigi
 execute if entity @s[tag=mario] run function ssbrc:series/super_mario_bros/mario/kit
 execute if entity @s[tag=megaman] run function ssbrc:series/mega_man/megaman/kit
 execute if entity @s[tag=ness] run function ssbrc:series/earthbound/ness/kit
+execute if entity @s[tag=pikachu] run function ssbrc:series/pokemon/pikachu/kit
 execute if entity @s[tag=pit] run function ssbrc:series/kid_icarus/pit/kit
 execute if entity @s[tag=pokemontrainer] run function ssbrc:series/pokemon/pokemontrainer/kit
 execute if entity @s[tag=rob] run function ssbrc:series/super_smash_bros/rob/kit
