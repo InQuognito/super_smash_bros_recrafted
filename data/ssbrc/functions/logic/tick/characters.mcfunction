@@ -1,3 +1,10 @@
+scoreboard players remove @s[scores={cooldown.1=1..}] cooldown.1 1
+scoreboard players remove @s[scores={cooldown.2=1..}] cooldown.2 1
+scoreboard players remove @s[scores={cooldown.3=1..}] cooldown.3 1
+scoreboard players remove @s[scores={duration.1=1..}] duration.1 1
+scoreboard players remove @s[scores={duration.2=1..}] duration.2 1
+scoreboard players remove @s[scores={duration.3=1..}] duration.3 1
+
 execute if entity @s[tag=bowser] run function ssbrc:series/super_mario_bros/bowser/logic/tick
 execute if entity @s[tag=byleth] run function ssbrc:series/fire_emblem/byleth/logic/tick
 execute if entity @s[tag=cloud] run function ssbrc:series/final_fantasy/cloud/logic/tick
