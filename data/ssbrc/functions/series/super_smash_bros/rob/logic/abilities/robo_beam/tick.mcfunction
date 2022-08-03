@@ -1,7 +1,8 @@
 execute if entity @s[tag=small] run particle minecraft:dust 1.0 1.0 1.0 1.0 ~ ~ ~ 0.0 0.0 0.0 0.5 5 normal @a
 execute if entity @s[tag=large] run particle minecraft:dust 1.0 1.0 1.0 3.0 ~ ~ ~ 0.0 0.0 0.0 0.5 5 normal @a
 
-tp @s ^ ^ ^1
+tp @s[tag=small] ^ ^ ^1
+tp @s[tag=large] ^ ^ ^1.5
 
 execute unless block ^ ^ ^1 #ssbrc:passthrough run kill @s
 
