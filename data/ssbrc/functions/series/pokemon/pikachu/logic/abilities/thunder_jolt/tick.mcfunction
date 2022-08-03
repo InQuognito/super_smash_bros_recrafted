@@ -1,11 +1,16 @@
-particle minecraft:fishing ^ ^ ^ 0.3 0.05 0.3 0.01 5 normal @a
+particle minecraft:dust 0 0.408 0.055 2.0 ~ ~ ~ 0.0 0.0 0.0 0.0 1
 
-tp @s ^ ^ ^1
+execute store result entity @s Rotation[1] float 0.25 run scoreboard players get @s point
 
-execute rotated as @s as @e[tag=waterShuriken.display,sort=nearest,limit=1] run function ssbrc:series/pokemon/pikachu/logic/water_shuriken/display
+execute if score @s point < #pikachu.thunderJoltMaxRotation vars run scoreboard players operation @s point -= @s slope
+execute if score @s point > #pikachu.thunderJoltMaxRotation vars run scoreboard players operation @s point = #pikachu.thunderJoltMaxRotation vars
+execute if score @s point < #pikachu.thunderJoltMaxRotation vars run scoreboard players remove @s slope 20
 
-execute positioned ~-0.15 ~-0.15 ~-0.15 as @a[tag=alive,scores={respawn=..0},gamemode=adventure,dx=0] positioned ~-0.7 ~-0.7 ~-0.7 if entity @s[dx=0] unless score @s id = @e[type=minecraft:area_effect_cloud,tag=waterShuriken,sort=nearest,limit=1] id run tag @s add damage.waterShuriken
+execute if score @s point > 0 integers unless block ~ ~-0.15 ~ #ssbrc:passthrough run function ssbrc:series/pokemon/pikachu/logic/abilities/thunder_jolt/bounce
+
+execute rotated as @s run teleport @s ^ ^ ^0.5
+
+execute positioned ~-0.15 ~-0.15 ~-0.15 as @a[tag=alive,scores={respawn=..0},dx=0] positioned ~-0.7 ~-0.7 ~-0.7 if entity @s[dx=0] unless score @s id = @e[type=minecraft:marker,tag=thunderJolt,sort=nearest,limit=1] id run tag @s add damage.thunderJolt
 
 scoreboard players add @s temp 1
-execute if score @s temp matches 30.. run function ssbrc:series/pokemon/pikachu/logic/water_shuriken/kill
-execute unless block ^ ^ ^1 #ssbrc:passthrough run function ssbrc:series/pokemon/pikachu/logic/water_shuriken/kill
+kill @s[scores={temp=80..}]
