@@ -5,6 +5,7 @@ loot replace entity @e[tag=vehicleProjectile,limit=1] armor.head loot ssbrc:char
 
 scoreboard players operation @e[tag=projectile,limit=1] id = @s id
 data modify entity @e[tag=projectile,limit=1] Owner set from entity @s UUID
+data modify entity @e[tag=vehicleProjectile,limit=1] Rotation[0] set from entity @s Rotation[0]
 data modify entity @e[tag=vehicleProjectile,limit=1] Motion set from entity @e[tag=direction,limit=1] Pos
 
 tag @e[tag=projectile] remove projectile
