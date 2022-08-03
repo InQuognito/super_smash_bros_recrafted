@@ -18,3 +18,5 @@ execute if score #percentage temp matches 61.. run effect give @s minecraft:levi
 scoreboard players set @s cooldown.1 100
 
 execute if score @s charge.2 matches ..0 run function ssbrc:series/super_smash_bros/rob/logic/abilities/robo_burner/off
+
+function ssbrc:series/super_smash_bros/rob/logic/abilities/robo_burner/update
