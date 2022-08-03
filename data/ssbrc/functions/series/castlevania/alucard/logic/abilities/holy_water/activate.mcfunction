@@ -1,4 +1,4 @@
-execute positioned 0.0 0.0 0.0 run summon minecraft:marker ^ ^ ^0.5 {Tags:["direction"]}
+execute positioned 0.0 0.0 0.0 run summon minecraft:marker ^ ^ ^1 {Tags:["direction"]}
 
 execute if entity @s[tag=!bloodMetamorphosis] run summon minecraft:armor_stand ^ ^ ^0.3 {Tags:["holyWater.display","vehicleProjectile"],Invisible:1b,Small:1b,Passengers:[{id:"minecraft:area_effect_cloud",Tags:["holyWater","projectile"],Age:-2147483648,Duration:-1,WaitTime:-2147483648}]}
 execute if entity @s[tag=bloodMetamorphosis] run summon minecraft:armor_stand ^ ^ ^0.3 {Tags:["holyWater.display","vehicleProjectile"],Invisible:1b,Small:1b,Passengers:[{id:"minecraft:area_effect_cloud",Tags:["holyWater","large","projectile"],Age:-2147483648,Duration:-1,WaitTime:-2147483648}]}
