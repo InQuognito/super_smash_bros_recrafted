@@ -75,7 +75,7 @@ summon minecraft:area_effect_cloud 19.5 7.75 148.5 {Tags:["lobbyStand.label"],Cu
 summon minecraft:armor_stand 19.5 6.0 146.5 {Tags:["lobbyStand","ryu","default"],Rotation:[0f,0f]}
 
 summon minecraft:area_effect_cloud 38.5 7.75 159.5 {Tags:["lobbyStand.label"],CustomName:'{"text":"Samus","color":"gold"}',CustomNameVisible:1b,Age:-2147483648,Duration:-1,WaitTime:-2147483648}
-summon minecraft:armor_stand 38.5 6.0 161.5 {Tags:["lobbyStand","samus","default"],Rotation:[-180f,0f],HandItems:[{id:"minecraft:carrot_on_a_stick",Count:1b,tag:{CustomModelData:1422}},{}]}
+summon minecraft:armor_stand 38.5 6.0 161.5 {Tags:["lobbyStand","samus","default"],Rotation:[-180f,0f],HandItems:[{id:"minecraft:carrot_on_a_stick",Count:1b,tag:{CustomModelData:1421}},{}]}
 
 summon minecraft:area_effect_cloud 11.5 7.75 150.5 {Tags:["lobbyStand.label"],CustomName:'{"text":"Snake","color":"gray"}',CustomNameVisible:1b,Age:-2147483648,Duration:-1,WaitTime:-2147483648}
 summon minecraft:armor_stand 9.5 6.0 150.5 {Tags:["lobbyStand","snake","default"],Rotation:[-90f,0f]}
