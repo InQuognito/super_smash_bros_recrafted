@@ -4,7 +4,7 @@ scoreboard players operation #percentage temp = @s charge.2
 scoreboard players operation #percentage temp *= 100 integers
 scoreboard players operation #percentage temp /= #rob.maxFuel vars
 
-execute if score #percentage temp matches 0 run title @s actionbar [{"text":"Fuel: ","bold":true,"color":"white"}]
+execute if score #percentage temp matches ..0 run title @s actionbar [{"text":"Fuel: ","bold":true,"color":"white"}]
 execute if score #percentage temp matches 1..5 run title @s actionbar [{"text":"Fuel: ","bold":true,"color":"white"},{"text":"\u25ae","color":"white"}]
 execute if score #percentage temp matches 6..10 run title @s actionbar [{"text":"Fuel: ","bold":true,"color":"white"},{"text":"\u25ae\u25ae","color":"white"}]
 execute if score #percentage temp matches 11..15 run title @s actionbar [{"text":"Fuel: ","bold":true,"color":"white"},{"text":"\u25ae\u25ae\u25ae","color":"white"}]
