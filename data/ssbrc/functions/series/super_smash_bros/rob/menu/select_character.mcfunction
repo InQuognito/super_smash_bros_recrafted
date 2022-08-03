@@ -1,4 +1,4 @@
-tag @s[tag=!gold,tag=!ancientMinister] add default
+tag @s[tag=!gold,tag=!famicom,tag=!ancientMinister] add default
 
 tellraw @s [{"text":"You have selected ","color":"white"},{"text":"R.O.B.","color":"white"},{"text":"!","color":"white"}]
 
