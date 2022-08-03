@@ -120,7 +120,9 @@ execute as @e[tag=lobbyStand] run data merge entity @s {Invisible:1b,Invulnerabl
 scoreboard players set @e[tag=lobbyStand] duration.1 1
 scoreboard players set @e[tag=lobbyStand] duration.2 1
 scoreboard players set @e[tag=lobbyStand] duration.3 1
+scoreboard players set @e[tag=lobbyStand,tag=rob] charge.1 200
 execute as @e[tag=lobbyStand] run function ssbrc:logic/characters/armor/get
+scoreboard players reset @e[tag=lobbyStand,tag=rob] charge.1
 scoreboard players reset @e[tag=lobbyStand] duration.1
 scoreboard players reset @e[tag=lobbyStand] duration.2
 scoreboard players reset @e[tag=lobbyStand] duration.3
