@@ -1,4 +1,4 @@
-execute if entity @s[scores={useAbility=1..},nbt={SelectedItem:{tag:{roboBeam:1}}}] at @s run function ssbrc:series/super_smash_bros/rob/logic/abilities/robo_beam/activate
+execute if entity @s[scores={useAbility=1..},nbt={SelectedItem:{tag:{roboBeam:1}}}] at @s anchored eyes run function ssbrc:series/super_smash_bros/rob/logic/abilities/robo_beam/activate
 
 tag @s add self
 execute as @e[tag=roboBeam] if score @s id = @p[tag=self] id run function ssbrc:series/super_smash_bros/rob/logic/abilities/robo_beam/tick
