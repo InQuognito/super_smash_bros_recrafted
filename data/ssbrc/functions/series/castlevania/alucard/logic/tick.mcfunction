@@ -1,5 +1,5 @@
-execute if entity @s[scores={useAbility=1..,cooldown.2=..0},nbt={SelectedItem:{tag:{ability.alucard:1}}}] at @s anchored eyes run function ssbrc:series/castlevania/alucard/logic/abilities/holy_water/summon
-execute if entity @s[tag=!alucard.ability,scores={useAbility=1..,cooldown.3=..0},nbt={SelectedItem:{tag:{ability.alucard:2}}}] at @s run function ssbrc:series/castlevania/alucard/logic/abilities/blood_metamorphosis
+execute if entity @s[scores={useAbility=1..,cooldown.2=..0},nbt={SelectedItem:{tag:{holyWater:1}}}] at @s anchored eyes run function ssbrc:series/castlevania/alucard/logic/abilities/holy_water/summon
+execute if entity @s[tag=!alucard.ability,scores={useAbility=1..,cooldown.3=..0},nbt={SelectedItem:{tag:{bloodMetamorphosis:1}}}] at @s run function ssbrc:series/castlevania/alucard/logic/abilities/blood_metamorphosis
 
 execute at @s if block ~ ~-0.1 ~ minecraft:air if entity @s[predicate=ssbrc:flag/sneaking,scores={cooldown.1=..0}] run function ssbrc:series/castlevania/alucard/logic/abilities/mist/on
 
