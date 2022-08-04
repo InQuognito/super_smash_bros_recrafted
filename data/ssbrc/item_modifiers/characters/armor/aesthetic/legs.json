@@ -867,7 +867,7 @@
 	},
 	{
 		"function": "minecraft:set_nbt",
-		"tag": "{display:{color:16638438}}",
+		"tag": "{display:{color:15660792}}",
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",

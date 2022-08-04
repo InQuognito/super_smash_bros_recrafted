@@ -818,6 +818,19 @@
 			}
 		]
 	},
+	{
+		"function": "minecraft:set_nbt",
+		"tag": "{display:{color:10053137}}",
+		"conditions": [
+			{
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"nbt": "{Tags:[\"zelda\",\"default\"]}"
+				}
+			}
+		]
+	},
 
 	{
 		"function": "minecraft:set_nbt",
