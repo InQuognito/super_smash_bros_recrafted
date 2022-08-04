@@ -21,6 +21,7 @@ tag @a remove favoritetry.ness
 tag @a remove favoritetry.pikachu
 tag @a remove favoritetry.pit
 tag @a remove favoritetry.pokemontrainer
+tag @a remove favoritetry.rob
 tag @a remove favoritetry.ryu
 tag @a remove favoritetry.samus
 tag @a remove favoritetry.shovelknight
