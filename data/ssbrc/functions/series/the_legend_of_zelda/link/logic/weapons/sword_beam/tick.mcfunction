@@ -1,4 +1,5 @@
-particle minecraft:dust 0.3 0.6 1.0 0.75 ^ ^ ^ 0.0 0.0 0.0 0 0 normal @a
+execute if entity @p[tag=self,tag=!dark] run particle minecraft:dust 0.3 0.6 1.0 0.75 ^ ^ ^ 0.0 0.0 0.0 0 0 normal @a
+execute if entity @p[tag=self,tag=dark] run particle minecraft:dust 1.0 0.0 0.0 0.75 ^ ^ ^ 0.0 0.0 0.0 0 0 normal @a
 
 scoreboard players add @s temp 1
 kill @s[tag=!link.miniBeam,scores={temp=20..}]
