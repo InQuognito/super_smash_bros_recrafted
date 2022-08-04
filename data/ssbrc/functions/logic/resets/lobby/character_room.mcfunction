@@ -89,6 +89,12 @@ summon minecraft:armor_stand 71.5 6.0 157.5 {Tags:["lobbyStand","sora","default"
 summon minecraft:area_effect_cloud 76.5 7.75 141.5 {Tags:["lobbyStand.label"],CustomName:'{"text":"Steve","color":"dark_aqua"}',CustomNameVisible:1b,Age:-2147483648,Duration:-1,WaitTime:-2147483648}
 summon minecraft:armor_stand 78.5 6.0 141.5 {Tags:["lobbyStand","steve","default"],Rotation:[90f,0f]}
 
+summon minecraft:area_effect_cloud 76.5 7.75 146.5 {Tags:["lobbyStand.label"],CustomName:'{"text":"Wolf","color":"dark_purple"}',CustomNameVisible:1b,Age:-2147483648,Duration:-1,WaitTime:-2147483648}
+summon minecraft:armor_stand 78.5 6.0 146.5 {Tags:["lobbyStand","wolf","default"],Rotation:[90f,0f]}
+
+summon minecraft:area_effect_cloud 53.5 7.75 117.5 {Tags:["lobbyStand.label"],CustomName:'{"text":"Zelda","color":"blue"}',CustomNameVisible:1b,Age:-2147483648,Duration:-1,WaitTime:-2147483648}
+summon minecraft:armor_stand 53.5 6.0 119.5 {Tags:["lobbyStand","zelda","default"],Rotation:[180f,0f]}
+
 
 summon minecraft:area_effect_cloud 68.5 7.75 103.5 {Tags:["lobbyStand.label"],CustomName:'{"text":"Altered Beast","color":"gold"}',CustomNameVisible:1b,Age:-2147483648,Duration:-1,WaitTime:-2147483648}
 summon minecraft:armor_stand 68.5 6.0 101.5 {Tags:["lobbyStand","alteredbeast","default","human"],Rotation:[0f,0f]}
@@ -111,6 +117,9 @@ summon minecraft:armor_stand 77.5 6.0 133.5 {Tags:["lobbyStand","jesse","default
 summon minecraft:armor_stand 78.5 6.0 130.5 {Tags:["lobbyStand","arbok","default"],Rotation:[67.5f,0f]}
 summon minecraft:armor_stand 78.5 6.0 131.5 {Tags:["lobbyStand","meowth","default"],Rotation:[90f,0f],Small:1b}
 summon minecraft:armor_stand 78.5 6.0 132.5 {Tags:["lobbyStand","wobbuffet","default"],Rotation:[112.5f,0f]}
+
+summon minecraft:area_effect_cloud 78.5 7.75 124.5 {Tags:["lobbyStand.label"],CustomName:'{"text":"Yar","color":"red"}',CustomNameVisible:1b,Age:-2147483648,Duration:-1,WaitTime:-2147483648}
+summon minecraft:armor_stand 80.5 6.0 124.5 {Tags:["lobbyStand","yar","default"],Rotation:[90f,0f]}
 
 summon minecraft:area_effect_cloud 35.5 6.25 152.5 {Tags:["lobbyStand.label"],CustomName:'{"text":"Spectate","color":"white"}',CustomNameVisible:1b,Age:-2147483648,Duration:-1,WaitTime:-2147483648}
 summon minecraft:area_effect_cloud 72.5 6.25 115.5 {Tags:["lobbyStand.label"],CustomName:'{"text":"Spectate","color":"white"}',CustomNameVisible:1b,Age:-2147483648,Duration:-1,WaitTime:-2147483648}

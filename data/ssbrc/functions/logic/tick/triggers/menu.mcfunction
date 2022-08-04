@@ -230,6 +230,20 @@ execute if score @s[tag=!steve] menu matches 1585 run function ssbrc:series/indi
 execute if score @s[tag=!steve] menu matches 1586 run function ssbrc:series/indie_fighters/steve/menu/skins/alex
 execute if score @s[tag=!steve] menu matches 1587 run function ssbrc:series/indie_fighters/steve/menu/skins/herobrine
 
+execute if score @s[tag=!wolf] menu matches 1720 run function ssbrc:series/star_fox/wolf/menu/select_character
+execute if score @s[tag=!wolf] menu matches 1721 run function ssbrc:series/star_fox/wolf/menu/skin_options
+execute if score @s[tag=!wolf] menu matches 1722 run function ssbrc:series/star_fox/wolf/menu/favorite
+execute if score @s[tag=!wolf] menu matches 1723 run function ssbrc:series/star_fox/wolf/menu/how_to_play
+execute if score @s[tag=!wolf] menu matches 1724 run function ssbrc:series/star_fox/wolf/menu/skins/default
+execute if score @s[tag=!wolf] menu matches 1725 run function ssbrc:series/star_fox/wolf/menu/skins/gold
+
+execute if score @s[tag=!zelda] menu matches 1780 run function ssbrc:series/the_legend_of_zelda/zelda/menu/select_character
+execute if score @s[tag=!zelda] menu matches 1781 run function ssbrc:series/the_legend_of_zelda/zelda/menu/skin_options
+execute if score @s[tag=!zelda] menu matches 1782 run function ssbrc:series/the_legend_of_zelda/zelda/menu/favorite
+execute if score @s[tag=!zelda] menu matches 1783 run function ssbrc:series/the_legend_of_zelda/zelda/menu/how_to_play
+execute if score @s[tag=!zelda] menu matches 1784 run function ssbrc:series/the_legend_of_zelda/zelda/menu/skins/default
+execute if score @s[tag=!zelda] menu matches 1785 run function ssbrc:series/the_legend_of_zelda/zelda/menu/skins/gold
+
 
 
 execute if score @s[tag=!alteredbeast] menu matches 1820 run function ssbrc:series/retro_fighters/alteredbeast/menu/select_character
@@ -276,6 +290,13 @@ execute if score @s[tag=!teamrocket] menu matches 1942 run function ssbrc:series
 execute if score @s[tag=!teamrocket] menu matches 1943 run function ssbrc:series/pokemon/teamrocket/menu/how_to_play
 execute if score @s[tag=!teamrocket] menu matches 1944 run function ssbrc:series/pokemon/teamrocket/menu/skins/default
 execute if score @s[tag=!teamrocket] menu matches 1945 run function ssbrc:series/pokemon/teamrocket/menu/skins/gold
+
+execute if score @s[tag=!yar] menu matches 1960 run function ssbrc:series/retro_fighters/yar/menu/select_character
+execute if score @s[tag=!yar] menu matches 1961 run function ssbrc:series/retro_fighters/yar/menu/skin_options
+execute if score @s[tag=!yar] menu matches 1962 run function ssbrc:series/retro_fighters/yar/menu/favorite
+execute if score @s[tag=!yar] menu matches 1963 run function ssbrc:series/retro_fighters/yar/menu/how_to_play
+execute if score @s[tag=!yar] menu matches 1964 run function ssbrc:series/retro_fighters/yar/menu/skins/default
+execute if score @s[tag=!yar] menu matches 1965 run function ssbrc:series/retro_fighters/yar/menu/skins/gold
 
 scoreboard players reset @s menu
 scoreboard players enable @s menu

@@ -30,3 +30,6 @@ tag @a remove favoritetry.sonic
 tag @a remove favoritetry.sora
 tag @a remove favoritetry.steve
 tag @a remove favoritetry.teamrocket
+tag @a remove favoritetry.wolf
+tag @a remove favoritetry.yar
+tag @a remove favoritetry.zelda

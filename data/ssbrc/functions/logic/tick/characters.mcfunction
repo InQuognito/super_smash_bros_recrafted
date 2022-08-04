@@ -28,6 +28,8 @@ execute if entity @s[tag=snake] run function ssbrc:series/metal_gear_solid/snake
 execute if entity @s[tag=sonic] run function ssbrc:series/sonic_the_hedgehog/sonic/logic/tick
 execute if entity @s[tag=sora] run function ssbrc:series/kingdom_hearts/sora/logic/tick
 execute if entity @s[tag=steve] run function ssbrc:series/indie_fighters/steve/logic/tick
+execute if entity @s[tag=wolf] run function ssbrc:series/star_fox/wolf/logic/tick
+execute if entity @s[tag=zelda] run function ssbrc:series/the_legend_of_zelda/zelda/logic/tick
 
 execute if entity @s[tag=alteredbeast] run function ssbrc:series/retro_fighters/alteredbeast/logic/tick
 execute if entity @s[tag=alucard] run function ssbrc:series/castlevania/alucard/logic/tick
@@ -35,6 +37,7 @@ execute if entity @s[tag=giegue] run function ssbrc:series/earthbound/giegue/log
 execute if entity @s[tag=shadow] run function ssbrc:series/sonic_the_hedgehog/shadow/logic/tick
 execute if entity @s[tag=shovelknight] run function ssbrc:series/indie_fighters/shovelknight/logic/tick
 execute if entity @s[tag=teamrocket] run function ssbrc:series/pokemon/teamrocket/logic/tick
+execute if entity @s[tag=yar] run function ssbrc:series/retro_fighters/yar/logic/tick
 
 execute at @s[tag=naturalShiny] run particle minecraft:glow ~ ~0.7 ~ 0.5 0.4 0.5 0 1 normal @a
 

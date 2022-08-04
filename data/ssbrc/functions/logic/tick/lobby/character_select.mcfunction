@@ -42,6 +42,8 @@ execute as @s[tag=!snake,predicate=!ssbrc:flag/sneaking,scores={favorite.temp=15
 execute as @s[tag=!sonic,predicate=!ssbrc:flag/sneaking,scores={favorite.temp=1540}] run function ssbrc:series/sonic_the_hedgehog/sonic/menu/select_character
 execute as @s[tag=!sora,predicate=!ssbrc:flag/sneaking,scores={favorite.temp=1560}] run function ssbrc:series/kingdom_hearts/sora/menu/select_character
 execute as @s[tag=!steve,predicate=!ssbrc:flag/sneaking,scores={favorite.temp=1580}] run function ssbrc:series/indie_fighters/steve/menu/select_character
+execute as @s[tag=!wolf,predicate=!ssbrc:flag/sneaking,scores={favorite.temp=1720}] run function ssbrc:series/star_fox/wolf/menu/select_character
+execute as @s[tag=!zelda,predicate=!ssbrc:flag/sneaking,scores={favorite.temp=1780}] run function ssbrc:series/the_legend_of_zelda/zelda/menu/select_character
 
 execute as @s[tag=!alteredbeast,predicate=!ssbrc:flag/sneaking,scores={favorite.temp=1820}] run function ssbrc:series/retro_fighters/alteredbeast/menu/select_character
 execute as @s[tag=!alucard,predicate=!ssbrc:flag/sneaking,scores={favorite.temp=1840}] run function ssbrc:series/castlevania/alucard/menu/select_character
@@ -49,6 +51,7 @@ execute as @s[tag=!alucard,predicate=!ssbrc:flag/sneaking,scores={favorite.temp=
 execute as @s[tag=!shadow,predicate=!ssbrc:flag/sneaking,scores={favorite.temp=1900}] run function ssbrc:series/sonic_the_hedgehog/shadow/menu/select_character
 execute as @s[tag=!shovelknight,predicate=!ssbrc:flag/sneaking,scores={favorite.temp=1920}] run function ssbrc:series/indie_fighters/shovelknight/menu/select_character
 execute as @s[tag=!teamrocket,predicate=!ssbrc:flag/sneaking,scores={favorite.temp=1940}] run function ssbrc:series/pokemon/teamrocket/menu/select_character
+execute as @s[tag=!yar,predicate=!ssbrc:flag/sneaking,scores={favorite.temp=1960}] run function ssbrc:series/retro_fighters/yar/menu/select_character
 
 execute as @s[predicate=ssbrc:flag/sneaking,scores={favorite.temp=1}] run function ssbrc:series/super_smash_bros/rob/menu/prompt
 execute as @s[predicate=ssbrc:flag/sneaking,scores={favorite.temp=60}] run function ssbrc:series/super_mario_bros/bowser/menu/prompt
@@ -79,6 +82,8 @@ execute as @s[predicate=ssbrc:flag/sneaking,scores={favorite.temp=1520}] run fun
 execute as @s[predicate=ssbrc:flag/sneaking,scores={favorite.temp=1540}] run function ssbrc:series/sonic_the_hedgehog/sonic/menu/prompt
 execute as @s[predicate=ssbrc:flag/sneaking,scores={favorite.temp=1560}] run function ssbrc:series/kingdom_hearts/sora/menu/prompt
 execute as @s[predicate=ssbrc:flag/sneaking,scores={favorite.temp=1580}] run function ssbrc:series/indie_fighters/steve/menu/prompt
+execute as @s[predicate=ssbrc:flag/sneaking,scores={favorite.temp=1720}] run function ssbrc:series/star_fox/wolf/menu/prompt
+execute as @s[predicate=ssbrc:flag/sneaking,scores={favorite.temp=1780}] run function ssbrc:series/the_legend_of_zelda/zelda/menu/prompt
 
 execute as @s[predicate=ssbrc:flag/sneaking,scores={favorite.temp=1820}] run function ssbrc:series/retro_fighters/alteredbeast/menu/prompt
 execute as @s[predicate=ssbrc:flag/sneaking,scores={favorite.temp=1840}] run function ssbrc:series/castlevania/alucard/menu/prompt
@@ -86,5 +91,6 @@ execute as @s[predicate=ssbrc:flag/sneaking,scores={favorite.temp=1860}] run fun
 execute as @s[predicate=ssbrc:flag/sneaking,scores={favorite.temp=1900}] run function ssbrc:series/sonic_the_hedgehog/shadow/menu/prompt
 execute as @s[predicate=ssbrc:flag/sneaking,scores={favorite.temp=1920}] run function ssbrc:series/indie_fighters/shovelknight/menu/prompt
 execute as @s[predicate=ssbrc:flag/sneaking,scores={favorite.temp=1940}] run function ssbrc:series/pokemon/teamrocket/menu/prompt
+execute as @s[predicate=ssbrc:flag/sneaking,scores={favorite.temp=1960}] run function ssbrc:series/retro_fighters/yar/menu/prompt
 
 scoreboard players reset @s selectFavorite

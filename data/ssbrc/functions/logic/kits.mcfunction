@@ -27,6 +27,8 @@ execute if entity @s[tag=snake] run function ssbrc:series/metal_gear_solid/snake
 execute if entity @s[tag=sonic] run function ssbrc:series/sonic_the_hedgehog/sonic/kit
 execute if entity @s[tag=sora] run function ssbrc:series/kingdom_hearts/sora/kit
 execute if entity @s[tag=steve] run function ssbrc:series/indie_fighters/steve/kit
+execute if entity @s[tag=wolf] run function ssbrc:series/star_fox/wolf/kit
+execute if entity @s[tag=zelda] run function ssbrc:series/the_legend_of_zelda/zelda/kit
 
 execute if entity @s[tag=alteredbeast] run function ssbrc:series/retro_fighters/alteredbeast/kits/human
 execute if entity @s[tag=alucard] run function ssbrc:series/castlevania/alucard/kit
@@ -34,6 +36,7 @@ execute if entity @s[tag=giegue] run function ssbrc:series/earthbound/giegue/kit
 execute if entity @s[tag=shadow] run function ssbrc:series/sonic_the_hedgehog/shadow/kit
 execute if entity @s[tag=shovelknight] run function ssbrc:series/indie_fighters/shovelknight/kit
 execute if entity @s[tag=teamrocket] run function ssbrc:series/pokemon/teamrocket/kit
+execute if entity @s[tag=yar] run function ssbrc:series/retro_fighters/yar/kit
 
 scoreboard players set @s cooldown.1 0
 scoreboard players set @s cooldown.2 0

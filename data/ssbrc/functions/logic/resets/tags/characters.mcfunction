@@ -39,5 +39,8 @@ tag @s remove teamrocket
 tag @s remove arbok
 tag @s remove meowth
 tag @s remove wobbuffet
+tag @s remove wolf
+tag @s remove yar
+tag @s remove zelda
 
 tag @s remove characterPicked
