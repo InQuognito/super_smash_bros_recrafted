@@ -1,4 +1,4 @@
-particle minecraft:sonic_boom ~ ~ ~ 0.0 0.0 0.0 0.0 1 normal @a
+particle minecraft:sonic_boom ~ ~0.75 ~ 0.0 0.0 0.0 0.0 1 normal @a
 
 tag @s add self
 effect give @a[tag=alive,tag=!ryu,tag=!shadow,tag=!sonic] minecraft:slowness 20 1 true

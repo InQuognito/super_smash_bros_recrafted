@@ -1,6 +1,6 @@
 execute if entity @s[scores={useAbility=1..,cooldown.1=..0,charge.1=..0},nbt={SelectedItem:{tag:{chaosSpear:1}}}] run scoreboard players set @s charge.1 1
 
-execute if entity @s[scores={useAbility=1..,cooldown.1=..0},nbt={SelectedItem:{tag:{chaosControl:1}}}] run function ssbrc:series/sonic_the_hedgehog/shadow/logic/chaos_control/on
+execute if entity @s[scores={useAbility=1..,cooldown.1=..0},nbt={SelectedItem:{tag:{chaosControl:1}}}] at @s run function ssbrc:series/sonic_the_hedgehog/shadow/logic/chaos_control/on
 execute if entity @s[scores={useAbility=1..,cooldown.1=..0},nbt={SelectedItem:{tag:{chaosBlast:1}}}] run function ssbrc:series/sonic_the_hedgehog/shadow/logic/chaos_blast/activate
 
 tag @s add self
