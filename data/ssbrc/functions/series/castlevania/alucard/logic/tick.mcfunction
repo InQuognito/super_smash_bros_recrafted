@@ -15,11 +15,13 @@ item modify entity @s weapon.mainhand ssbrc:characters/alucard.alucard_sword
 execute if score @s cooldown.2 matches 1 unless score @s duration.1 matches 1.. run loot give @s loot ssbrc:characters/castlevania/alucard/holy_water
 execute as @e[type=minecraft:armor_stand,tag=holyWater.display] at @s unless block ~ ~-0.1 ~ #ssbrc:passthrough run function ssbrc:series/castlevania/alucard/logic/abilities/holy_water/kill_item
 
+# Mist
+execute if score @s duration.1 matches 1.. run function ssbrc:logic/characters/effects/cleanse
+execute if score @s duration.1 matches 1.. run kill @e[type=#ssbrc:projectiles,tag=!spawnpoint,distance=..2]
+
 # Particles
 execute at @s[tag=bloodMetamorphosis] run particle minecraft:mycelium ~ ~0.5 ~ 0.35 0.7 0.35 1 5 normal @a
 
 execute at @s[tag=!bloodMetamorphosis,scores={duration.1=1..}] run particle minecraft:dust 1.0 1.0 1.0 1.5 ~ ~0.75 ~ 0.4 0.4 0.4 0.05 10 normal @a
 execute at @s[tag=bloodMetamorphosis,scores={duration.1=1..}] run particle minecraft:dust 0.3 0.6 0.3 1.5 ~ ~0.75 ~ 0.4 0.4 0.4 0.05 10 normal @a
 execute if entity @s[scores={duration.1=1}] run function ssbrc:series/castlevania/alucard/logic/abilities/mist/off
-
-effect clear @s[scores={duration.1=1..}] minecraft:poison

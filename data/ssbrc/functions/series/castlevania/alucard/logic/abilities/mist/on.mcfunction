@@ -1,5 +1,5 @@
-scoreboard players set @s[tag=!bloodMetamorphosis] duration.1 40
-scoreboard players set @s[tag=bloodMetamorphosis] duration.1 80
+scoreboard players set @s duration.1 40
+scoreboard players operation @s[tag=bloodMetamorphosis] duration.1 *= 2 integers
 
 execute if entity @s[tag=bloodMetamorphosis] positioned ~ ~ ~ run function ssbrc:series/castlevania/alucard/logic/abilities/mist/summon
 
