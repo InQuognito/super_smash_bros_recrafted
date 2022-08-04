@@ -46,7 +46,7 @@ execute if score @s duration.1 matches 1 run function ssbrc:series/persona/joker
 execute if score @s[tag=!abilityUsed] health <= #joker.finalGuardThreshold vars run function ssbrc:series/persona/joker/logic/final_guard/on
 
 execute at @s[scores={duration.2=1..}] run particle minecraft:glow ~ ~1.0 ~ 0.1 0.1 0.1 1.0 5 normal @a
-execute if score @s duration.2 matches 1.. run function ssbrc:logic/characters/effects/cleanse
+execute if score @s duration.2 matches 1.. run function ssbrc:logic/characters/effects/cleanse_harmful
 execute if score @s duration.2 matches 1 run function ssbrc:series/persona/joker/logic/final_guard/off
 
 # Rebel's Knife

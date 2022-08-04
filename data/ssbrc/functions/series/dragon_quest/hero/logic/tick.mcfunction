@@ -7,7 +7,7 @@ execute as @e[type=minecraft:fireball,tag=bang] at @s if score @s id = @p[tag=se
 tag @s remove self
 
 # Kaclang
-execute if score @s duration.2 matches 1.. run function ssbrc:logic/characters/effects/cleanse
+execute if score @s duration.2 matches 1.. run function ssbrc:logic/characters/effects/cleanse_harmful
 execute if entity @s[predicate=ssbrc:characters/hero/kaclang/off] run function ssbrc:series/dragon_quest/hero/logic/magic/kaclang/deactivate
 
 # Magic Burst
