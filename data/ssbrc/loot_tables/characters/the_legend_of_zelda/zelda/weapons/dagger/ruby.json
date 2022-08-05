@@ -47,7 +47,7 @@
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{dagger:1,Unbreakable:1,HideFlags:127}"
+							"tag": "{dagger:1,CustomModelData:9004,Unbreakable:1,HideFlags:127}"
 						}
 					]
 				}

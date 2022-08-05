@@ -39,7 +39,7 @@
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{nayrusRing:1,Unbreakable:1,HideFlags:127}"
+							"tag": "{nayrusRing:1,CustomModelData:9034,Unbreakable:1,HideFlags:127}"
 						}
 					]
 				}

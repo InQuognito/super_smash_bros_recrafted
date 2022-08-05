@@ -39,7 +39,7 @@
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{magicBoomerang:1,Unbreakable:1,HideFlags:127}"
+							"tag": "{magicBoomerang:1,CustomModelData:9031,Unbreakable:1,HideFlags:127}"
 						}
 					]
 				}

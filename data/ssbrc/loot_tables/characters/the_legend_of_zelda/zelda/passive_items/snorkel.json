@@ -39,7 +39,7 @@
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{snorkel:1,Unbreakable:1,HideFlags:127}"
+							"tag": "{snorkel:1,CustomModelData:9039,Unbreakable:1,HideFlags:127}"
 						}
 					]
 				}
