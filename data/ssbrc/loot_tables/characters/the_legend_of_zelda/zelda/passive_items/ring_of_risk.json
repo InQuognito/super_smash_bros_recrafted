@@ -6,14 +6,14 @@
 			"entries": [
 				{
 					"type": "minecraft:item",
-					"name": "minecraft:firework_rocket",
+					"name": "minecraft:carrot_on_a_stick",
 					"functions": [
 						{
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"text": "Sabretooth",
-								"color": "gold",
+								"text": "Ring of Risk",
+								"color": "light_gray",
 								"bold": true,
 								"italic": false
 							}
@@ -38,12 +38,8 @@
 							]
 						},
 						{
-							"function": "minecraft:set_count",
-							"count": 3
-						},
-						{
 							"function": "minecraft:set_nbt",
-							"tag": "{sabretooth:1,Fireworks:{Flight:3,Explosions:[{Type:1,Flicker:1b,Trail:1b,Colors:[I;14602026,14597930,14593834],FadeColors:[I;17233746]}]},HideFlags:127}"
+							"tag": "{ringOfRisk:1,Unbreakable:1,HideFlags:127}"
 						}
 					]
 				}
