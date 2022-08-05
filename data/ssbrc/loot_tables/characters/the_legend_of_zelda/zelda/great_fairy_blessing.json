@@ -12,7 +12,7 @@
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"text": "Enchant Weapon",
+								"text": "Great Fairy Blessing",
 								"color": "yellow",
 								"bold": true,
 								"italic": false
@@ -39,7 +39,7 @@
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{enchantWeapon:1,Unbreakable:1,HideFlags:127}"
+							"tag": "{greatFairyBlessing:1,Unbreakable:1,HideFlags:127}"
 						}
 					]
 				}

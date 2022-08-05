@@ -67,6 +67,8 @@ scoreboard players set #snake.totalWeight vars 10
 
 scoreboard players set #zelda.maxMana vars 10
 scoreboard players set #zelda.maxRupees vars 30
+scoreboard players set #zelda.greatFairyBlessing vars 10
+scoreboard players set #zelda.inventoryRefresh vars 20
 
 scoreboard players set #damage.bladeBeam vars 53
 scoreboard players set #damage.blizzaga vars 40

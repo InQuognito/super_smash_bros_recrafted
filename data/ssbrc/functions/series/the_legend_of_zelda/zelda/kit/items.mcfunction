@@ -33,14 +33,10 @@ execute if score result random matches 7 run loot replace entity @s hotbar.2 loo
 execute if score result random matches 8 run loot replace entity @s hotbar.2 loot ssbrc:characters/the_legend_of_zelda/zelda/passive_items/torch_of_wisdom
 execute if score result random matches 9 run loot replace entity @s hotbar.2 loot ssbrc:characters/the_legend_of_zelda/zelda/passive_items/zoras_flippers
 
-scoreboard players set max random 5
-function ssbrc:math/rng/lcg
-
-execute if score result random matches 0 run loot replace entity @s hotbar.4 loot ssbrc:characters/the_legend_of_zelda/zelda/great_fairy_blessings/confusion
-execute if score result random matches 1 run loot replace entity @s hotbar.4 loot ssbrc:characters/the_legend_of_zelda/zelda/great_fairy_blessings/enchant_armor
-execute if score result random matches 2 run loot replace entity @s hotbar.4 loot ssbrc:characters/the_legend_of_zelda/zelda/great_fairy_blessings/enchant_weapon
-execute if score result random matches 3 run loot replace entity @s hotbar.4 loot ssbrc:characters/the_legend_of_zelda/zelda/great_fairy_blessings/half_magic
-execute if score result random matches 4 run loot replace entity @s hotbar.4 loot ssbrc:characters/the_legend_of_zelda/zelda/great_fairy_blessings/shatter_resist
+loot replace entity @s hotbar.4 loot ssbrc:characters/the_legend_of_zelda/zelda/great_fairy_blessing
+loot replace entity @s hotbar.5 loot ssbrc:characters/the_legend_of_zelda/zelda/inventory_refresh
+loot replace entity @s hotbar.6 loot ssbrc:characters/the_legend_of_zelda/zelda/rupee_wallet
 
 scoreboard players add @s charge.1 10
 execute if score @s charge.1 > #zelda.maxRupees vars run scoreboard players operation @s charge.1 = #zelda.maxRupees vars
+scoreboard players reset @s charge.2
