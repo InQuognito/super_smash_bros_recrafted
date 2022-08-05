@@ -70,6 +70,8 @@ scoreboard players set #zelda.maxRupees vars 30
 scoreboard players set #zelda.greatFairyBlessing vars 10
 scoreboard players set #zelda.inventoryRefresh vars 20
 scoreboard players set #zelda.glassBreakThreshold vars 400
+scoreboard players set #zelda.boomerangMagicCost vars 3
+scoreboard players set #zelda.magicBoomerangMagicCost vars 4
 
 scoreboard players set #damage.bladeBeam vars 53
 scoreboard players set #damage.blizzaga vars 40

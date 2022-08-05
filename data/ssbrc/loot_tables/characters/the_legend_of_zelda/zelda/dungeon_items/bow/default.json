@@ -15,7 +15,15 @@
 								"text": "Bow",
 								"color": "white",
 								"bold": true,
-								"italic": false
+								"italic": false,
+								"extra": [
+									{
+										"text": "",
+										"color": "white",
+										"bold": false,
+										"italic": false
+									}
+								]
 							}
 						},
 						{

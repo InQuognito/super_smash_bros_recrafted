@@ -15,7 +15,15 @@
 								"text": "Bow",
 								"color": "white",
 								"bold": true,
-								"italic": false
+								"italic": false,
+								"extra": [
+									{
+										"text": " - Poison Arrows",
+										"color": "green",
+										"bold": false,
+										"italic": false
+									}
+								]
 							}
 						},
 						{
@@ -39,7 +47,7 @@
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{bow:1,CustomModelData:9026,Unbreakable:1,HideFlags:127}"
+							"tag": "{bow:1,poison:1,CustomModelData:9026,Unbreakable:1,HideFlags:127}"
 						}
 					]
 				}
