@@ -38,8 +38,12 @@
 							]
 						},
 						{
+							"function": "minecraft:set_damage",
+							"damage": 330
+						},
+						{
 							"function": "minecraft:set_nbt",
-							"tag": "{mirrorShield:1,CustomModelData:9033,Damage:330,Unbreakable:1,HideFlags:127}"
+							"tag": "{mirrorShield:1,CustomModelData:9033,HideFlags:127}"
 						}
 					]
 				}

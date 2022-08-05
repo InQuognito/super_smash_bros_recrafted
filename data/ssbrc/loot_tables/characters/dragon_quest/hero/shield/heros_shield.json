@@ -64,8 +64,12 @@
 							"append": false
 						},
 						{
+							"function": "minecraft:set_damage",
+							"damage": 316
+						},
+						{
 							"function": "minecraft:set_nbt",
-							"tag": "{herosShield:1,Damage:316,HideFlags:127}"
+							"tag": "{herosShield:1,HideFlags:127}"
 						}
 					]
 				}

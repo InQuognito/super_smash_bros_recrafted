@@ -68,8 +68,12 @@
 							"append": false
 						},
 						{
+							"function": "minecraft:set_damage",
+							"damage": 300
+						},
+						{
 							"function": "minecraft:set_nbt",
-							"tag": "{hylianShield:1,Damage:300,HideFlags:127}"
+							"tag": "{hylianShield:1,HideFlags:127}"
 						}
 					]
 				}
