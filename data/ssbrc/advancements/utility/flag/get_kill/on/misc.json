@@ -1,0 +1,22 @@
+{
+	"parent": "ssbrc:utility/root",
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"type": "#ssbrc:misc"
+						}
+					}
+				]
+			}
+		}
+	},
+	"rewards": {
+		"function": "ssbrc:logic/characters/flags/get_kill/on/non_player"
+	}
+}

@@ -94,6 +94,9 @@ loot replace entity @s[tag=steve,scores={steve.tier=0}] hotbar.0 loot ssbrc:char
 loot replace entity @s[tag=steve,scores={steve.tier=1}] hotbar.0 loot ssbrc:characters/indie_fighters/steve/stone_sword
 loot replace entity @s[tag=steve,scores={steve.tier=2}] hotbar.0 loot ssbrc:characters/indie_fighters/steve/iron_sword
 
+# Zelda
+execute if entity @s[tag=zelda] run function ssbrc:series/the_legend_of_zelda/zelda/kit/items
+
 
 
 # Altered Beast

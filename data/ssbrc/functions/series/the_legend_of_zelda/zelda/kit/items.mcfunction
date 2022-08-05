@@ -1,3 +1,5 @@
+clear @s #ssbrc:equipment
+
 scoreboard players set max random 4
 function ssbrc:math/rng/lcg
 
@@ -39,3 +41,6 @@ execute if score result random matches 1 run loot replace entity @s hotbar.4 loo
 execute if score result random matches 2 run loot replace entity @s hotbar.4 loot ssbrc:characters/the_legend_of_zelda/zelda/great_fairy_blessings/enchant_weapon
 execute if score result random matches 3 run loot replace entity @s hotbar.4 loot ssbrc:characters/the_legend_of_zelda/zelda/great_fairy_blessings/half_magic
 execute if score result random matches 4 run loot replace entity @s hotbar.4 loot ssbrc:characters/the_legend_of_zelda/zelda/great_fairy_blessings/shatter_resist
+
+scoreboard players add @s charge.1 10
+execute if score @s charge.1 > #zelda.maxRupees vars run scoreboard players operation @s charge.1 = #zelda.maxRupees vars

@@ -10,7 +10,11 @@ scoreboard players set #hero.maxMana vars 20
 scoreboard players operation #hero.initialMana vars = #hero.maxMana vars
 scoreboard players operation #hero.initialMana vars *= 3 integers
 scoreboard players operation #hero.initialMana vars /= 4 integers
-scoreboard players set #hero.manaGainedOnKill vars 6
+scoreboard players set #hero.manaGainedOnPlayerKill vars 6
+scoreboard players operation #hero.manaGainedOnNonPlayerKill vars = #hero.manaGainedOnPlayerKill vars
+scoreboard players operation #hero.manaGainedOnNonPlayerKill vars /= 2 integers
+scoreboard players operation #hero.manaGainedOnMiscKill vars = #hero.manaGainedOnNonPlayerKill vars
+scoreboard players operation #hero.manaGainedOnMiscKill vars /= 2 integers
 scoreboard players set #hero.manaGainedOnDeath vars 7
 scoreboard players set #hero.flameSlashManaCost vars 1
 scoreboard players set #hero.bangManaCost vars 2
@@ -60,6 +64,9 @@ scoreboard players set #snake.socomWeight vars 3
 scoreboard players set #snake.antiPersonnelMineWeight vars 2
 scoreboard players set #snake.smokeGrenadeWeight vars 2
 scoreboard players set #snake.totalWeight vars 10
+
+scoreboard players set #zelda.maxMana vars 10
+scoreboard players set #zelda.maxRupees vars 30
 
 scoreboard players set #damage.bladeBeam vars 53
 scoreboard players set #damage.blizzaga vars 40
