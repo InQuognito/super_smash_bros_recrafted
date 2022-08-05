@@ -10,3 +10,5 @@ execute if score result random matches 4 run function ssbrc:series/the_legend_of
 scoreboard players operation @s charge.1 -= #greatFairyBlessingCost temp
 execute if score @s charge.1 > #zelda.maxRupees vars run scoreboard players operation @s charge.1 = #zelda.maxRupees vars
 scoreboard players add @s charge.2 1
+
+say blessing!
