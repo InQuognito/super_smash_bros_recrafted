@@ -7,6 +7,8 @@ gamemode spectator @a[team=spectator]
 kill @e[type=#minecraft:arrows,nbt={inGround:1b}]
 kill @e[type=minecraft:item,nbt={Item:{id:"minecraft:trident"}}]
 
+clear @a minecraft:glass_bottle
+
 scoreboard players remove @e[type=!minecraft:player,scores={cooldown.1=1..}] cooldown.1 1
 scoreboard players remove @e[type=!minecraft:player,scores={cooldown.2=1..}] cooldown.2 1
 scoreboard players remove @e[type=!minecraft:player,scores={cooldown.3=1..}] cooldown.3 1

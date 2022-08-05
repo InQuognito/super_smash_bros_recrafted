@@ -1,3 +1,4 @@
+item modify entity @s[predicate=ssbrc:characters/enchantments/blast_protection_infinity,nbt={Inventory:[{tag:{ringOfBlasting:1}}]}] armor.chest ssbrc:characters/enchantments/blast_protection_infinity
 item modify entity @s[predicate=ssbrc:characters/enchantments/protection] armor.chest ssbrc:characters/enchantments/protection
 item modify entity @s[predicate=ssbrc:characters/enchantments/projectile_protection] armor.chest ssbrc:characters/enchantments/projectile_protection
 item modify entity @s[predicate=ssbrc:characters/enchantments/fire_protection] armor.chest ssbrc:characters/enchantments/fire_protection
