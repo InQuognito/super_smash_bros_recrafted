@@ -18,4 +18,4 @@ tp @s[scores={temp=56}] ^ ^ ^0.8
 tp @s[scores={temp=57}] ^ ^ ^0.85
 tp @s[scores={temp=58}] ^ ^ ^0.9
 tp @s[scores={temp=59}] ^ ^ ^0.95
-tp @s[scores={temp=60..}] ^ ^ ^0.1
+tp @s[scores={temp=60..}] ^ ^ ^1
