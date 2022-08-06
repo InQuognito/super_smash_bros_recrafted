@@ -4,6 +4,7 @@ execute as @a[tag=damage.electrocution] at @s run function ssbrc:series/retro_fi
 execute as @a[tag=damage.firaza] at @s run function ssbrc:series/kingdom_hearts/sora/logic/spells/firaga/firaza/damage
 execute as @a[tag=damage.fireball] at @s run function ssbrc:series/super_mario_bros/mario/logic/fireball/damage
 execute as @a[tag=damage.iceBall] at @s anchored feet run function ssbrc:series/super_mario_bros/luigi/logic/ice_ball/damage
+execute as @a[tag=damage.iceRod] at @s run function ssbrc:series/the_legend_of_zelda/zelda/logic/abilities/ice_rod/damage
 execute as @a[tag=damage.magicBoomerang] at @s run function ssbrc:series/the_legend_of_zelda/zelda/logic/abilities/magic_boomerang/damage
 execute as @a[tag=damage.phazonSpike] at @s run function ssbrc:series/metroid/darksamus/logic/phazon_spike/damage
 execute as @a[tag=damage.strikeRaid] at @s run function ssbrc:series/kingdom_hearts/sora/logic/spells/strike_raid/damage
