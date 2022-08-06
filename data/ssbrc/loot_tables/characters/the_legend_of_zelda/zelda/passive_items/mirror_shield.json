@@ -39,7 +39,7 @@
 						},
 						{
 							"function": "minecraft:set_damage",
-							"damage": 330,
+							"damage": 0.02,
 							"add": false
 						},
 						{
