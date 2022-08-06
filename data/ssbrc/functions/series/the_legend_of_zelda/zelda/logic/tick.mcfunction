@@ -1,5 +1,5 @@
-execute if entity @s[scores={useAbility=1..},nbt={SelectedItem:{tag:{boomerang:1}}}] at @s anchored eyes run function ssbrc:series/the_legend_of_zelda/zelda/logic/abilities/boomerang/activate
-execute if entity @s[scores={useAbility=1..},nbt={SelectedItem:{tag:{magicBoomerang:1}}}] at @s anchored eyes run function ssbrc:series/the_legend_of_zelda/zelda/logic/abilities/magic_boomerang/activate
+execute if entity @s[scores={useAbility=1..},nbt={SelectedItem:{tag:{boomerang:1}}}] if score @s mana >= #zelda.boomerangMagicCost vars at @s anchored eyes run function ssbrc:series/the_legend_of_zelda/zelda/logic/abilities/boomerang/activate
+execute if entity @s[scores={useAbility=1..},nbt={SelectedItem:{tag:{magicBoomerang:1}}}] if score @s mana >= #zelda.magicBoomerangMagicCost vars at @s anchored eyes run function ssbrc:series/the_legend_of_zelda/zelda/logic/abilities/magic_boomerang/activate
 
 execute if entity @s[scores={useAbility=1..},nbt={SelectedItem:{tag:{greatFairyBlessing:1}}}] at @s run function ssbrc:series/the_legend_of_zelda/zelda/logic/abilities/great_fairy_blessing/check
 execute if entity @s[scores={useAbility=1..},nbt={SelectedItem:{tag:{inventoryRefresh:1}}}] if score @s charge.1 >= #zelda.inventoryRefresh vars run function ssbrc:series/the_legend_of_zelda/zelda/logic/abilities/inventory_refresh
