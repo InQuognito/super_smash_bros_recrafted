@@ -6,6 +6,6 @@ data modify entity @e[tag=projectile,limit=1] Owner set from entity @s UUID
 
 execute as @e[tag=projectile] at @s run function ssbrc:series/the_legend_of_zelda/zelda/logic/abilities/magic_boomerang/summon_item
 
-scoreboard players operation @s mana -= #zelda.magicBoomerangMagicCost vars
+scoreboard players operation @s mana -= #zelda.magicBoomerangMagicCost temp
 
 clear @s minecraft:carrot_on_a_stick{magicBoomerang:1}

@@ -1,2 +1,2 @@
-effect give @s minecraft:glowing 10 0 true
+effect give @s minecraft:glowing 10 255 true
 scoreboard players set @s timer -180
