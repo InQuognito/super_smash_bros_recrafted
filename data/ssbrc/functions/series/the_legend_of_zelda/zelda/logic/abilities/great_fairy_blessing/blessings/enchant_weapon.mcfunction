@@ -2,3 +2,5 @@ execute if entity @s[nbt={Inventory:[{tag:{dagger:1}}]}] run function ssbrc:seri
 execute if entity @s[nbt={Inventory:[{tag:{flail:1}}]}] run function ssbrc:series/the_legend_of_zelda/zelda/kit/weapons/flail_enchant
 execute if entity @s[nbt={Inventory:[{tag:{rapier:1}}]}] run function ssbrc:series/the_legend_of_zelda/zelda/kit/weapons/rapier_enchant
 execute if entity @s[nbt={Inventory:[{tag:{spear:1}}]}] run function ssbrc:series/the_legend_of_zelda/zelda/kit/weapons/spear_enchant
+
+tellraw @s [{"text":"Blessing: ","color":"yellow"},{"text":"Enchant Weapon","color":"dark_purple"}]
