@@ -37,6 +37,8 @@ loot replace entity @s hotbar.4 loot ssbrc:characters/the_legend_of_zelda/zelda/
 loot replace entity @s hotbar.5 loot ssbrc:characters/the_legend_of_zelda/zelda/inventory_refresh
 loot replace entity @s hotbar.6 loot ssbrc:characters/the_legend_of_zelda/zelda/rupee_wallet
 
+scoreboard players operation @s mana = #zelda.maxMana vars
+
 scoreboard players add @s charge.1 10
 execute if score @s charge.1 > #zelda.maxRupees vars run scoreboard players operation @s charge.1 = #zelda.maxRupees vars
 scoreboard players reset @s charge.2
