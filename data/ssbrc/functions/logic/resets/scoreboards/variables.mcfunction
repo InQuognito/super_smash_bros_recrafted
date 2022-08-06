@@ -65,13 +65,17 @@ scoreboard players set #snake.antiPersonnelMineWeight vars 2
 scoreboard players set #snake.smokeGrenadeWeight vars 2
 scoreboard players set #snake.totalWeight vars 10
 
-scoreboard players set #zelda.maxMana vars 10
+scoreboard players set #zelda.maxMagic vars 10
 scoreboard players set #zelda.maxRupees vars 30
+scoreboard players set #zelda.glassBreakThreshold vars 250
+scoreboard players set #zelda.boomerangMagicCost vars 3
+scoreboard players set #zelda.fireRodMagicCost vars 2
+scoreboard players set #zelda.fireRodAltMagicCost vars 4
+scoreboard players set #zelda.iceRodMagicCost vars 2
+scoreboard players set #zelda.iceRodAltMagicCost vars 4
+scoreboard players set #zelda.magicBoomerangMagicCost vars 4
 scoreboard players set #zelda.greatFairyBlessing vars 10
 scoreboard players set #zelda.inventoryRefresh vars 20
-scoreboard players set #zelda.glassBreakThreshold vars 300
-scoreboard players set #zelda.boomerangMagicCost vars 3
-scoreboard players set #zelda.magicBoomerangMagicCost vars 4
 
 scoreboard players set #damage.bladeBeam vars 53
 scoreboard players set #damage.blizzaga vars 40

@@ -6,7 +6,7 @@ execute if score $gameMode options matches 2 run function ssbrc:logic/timer/inga
 
 # Characters
 execute as @a[tag=sora,tag=!valor,tag=!anti] if score @s mana < #sora.maxMP vars run function ssbrc:logic/timer/characters/sora
-execute as @a[tag=zelda] if score @s mana < #zelda.maxMana vars run function ssbrc:logic/timer/characters/zelda
+execute as @a[tag=zelda] if score @s mana < #zelda.maxMagic vars run function ssbrc:logic/timer/characters/zelda
 
 # Tridents
 execute as @a[predicate=ssbrc:characters/kits/trident] run function ssbrc:logic/timer/characters/tridents
