@@ -35,7 +35,8 @@ effect give @s[nbt={Inventory:[{tag:{ringOfRisk:1}}]},scores={health=..10}] mine
 
 effect give @s[nbt={Inventory:[{tag:{snorkel:1}}]}] minecraft:water_breathing 1 255 true
 
+effect clear @s[nbt=!{Inventory:[{tag:{torchOfWisdom:1}}]}] minecraft:night_vision
 effect give @a[tag=alive,scores={respawn=..0},gamemode=adventure,distance=..10] minecraft:glowing 1 255 true
-effect give @s[nbt={Inventory:[{tag:{torchOfWisdom:1}}]}] minecraft:night_vision 1 255 true
+effect give @s[nbt={Inventory:[{tag:{torchOfWisdom:1}}]}] minecraft:night_vision 1000000 255 true
 
 effect give @s[nbt={Inventory:[{tag:{zorasFlippers:1}}]}] minecraft:dolphins_grace 1 255 true
