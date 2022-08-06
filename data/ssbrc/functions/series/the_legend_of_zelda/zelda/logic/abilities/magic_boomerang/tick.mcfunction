@@ -3,7 +3,7 @@ execute unless block ^ ^ ^0.3 #ssbrc:passthrough run scoreboard players set @s t
 execute unless score @s temp matches 40.. rotated as @s run teleport @s ^ ^ ^1
 execute if score @s temp matches 40.. facing entity @p[tag=self] eyes run function ssbrc:series/the_legend_of_zelda/zelda/logic/abilities/magic_boomerang/return
 
-execute as @e[tag=boomerang.display,sort=nearest,limit=1] run function ssbrc:series/the_legend_of_zelda/zelda/logic/abilities/magic_boomerang/display
+execute as @e[tag=magicBoomerang.display,sort=nearest,limit=1] run function ssbrc:series/the_legend_of_zelda/zelda/logic/abilities/magic_boomerang/display
 
 tp @e[type=minecraft:item,distance=..1] @s
 
