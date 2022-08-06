@@ -12,13 +12,13 @@
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"text": "Flail",
+								"text": "Dagger",
 								"color": "white",
 								"bold": true,
 								"italic": false,
 								"extra": [
 									{
-										"text": " - Obsidian",
+										"text": " - Obsidian II",
 										"color": "dark_purple",
 										"bold": false,
 										"italic": false
@@ -32,29 +32,22 @@
 								{
 									"attribute": "minecraft:generic.attack_damage",
 									"name": "Attack Damage",
-									"amount": 7,
+									"amount": 9,
 									"operation": "multiply_base",
 									"slot": "mainhand"
 								},
 								{
 									"attribute": "minecraft:generic.attack_speed",
 									"name": "Attack Speed",
-									"amount": 1,
+									"amount": 2.5,
 									"operation": "multiply_base",
 									"slot": "mainhand"
 								}
 							]
 						},
 						{
-							"function": "minecraft:set_enchantments",
-							"enchantments": {
-								"minecraft:sweeping": 1
-							},
-							"add": false
-						},
-						{
 							"function": "minecraft:set_nbt",
-							"tag": "{flail:1,obsidian:1,CustomModelData:9009,Unbreakable:1,HideFlags:127}"
+							"tag": "{dagger:1,obsidian:2,CustomModelData:9003,Unbreakable:1,HideFlags:127}"
 						}
 					]
 				}

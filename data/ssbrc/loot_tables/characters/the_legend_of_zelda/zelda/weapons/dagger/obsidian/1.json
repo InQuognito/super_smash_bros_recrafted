@@ -12,13 +12,13 @@
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"text": "Rapier",
+								"text": "Dagger",
 								"color": "white",
 								"bold": true,
 								"italic": false,
 								"extra": [
 									{
-										"text": " - Obsidian",
+										"text": " - Obsidian I",
 										"color": "dark_purple",
 										"bold": false,
 										"italic": false
@@ -32,14 +32,14 @@
 								{
 									"attribute": "minecraft:generic.attack_damage",
 									"name": "Attack Damage",
-									"amount": 4,
+									"amount": 6,
 									"operation": "multiply_base",
 									"slot": "mainhand"
 								},
 								{
 									"attribute": "minecraft:generic.attack_speed",
 									"name": "Attack Speed",
-									"amount": 2,
+									"amount": 2.5,
 									"operation": "multiply_base",
 									"slot": "mainhand"
 								}
@@ -47,7 +47,7 @@
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{rapier:1,obsidian:1,CustomModelData:9015,Unbreakable:1,HideFlags:127}"
+							"tag": "{dagger:1,obsidian:1,CustomModelData:9003,Unbreakable:1,HideFlags:127}"
 						}
 					]
 				}
