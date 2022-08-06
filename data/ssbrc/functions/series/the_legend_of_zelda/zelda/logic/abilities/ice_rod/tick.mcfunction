@@ -8,3 +8,5 @@ execute positioned ~-0.15 ~-0.15 ~-0.15 as @a[dx=0] positioned ~-0.7 ~-0.7 ~-0.7
 
 scoreboard players add @s temp 1
 kill @s[scores={temp=45..}]
+
+say ice rod tick
