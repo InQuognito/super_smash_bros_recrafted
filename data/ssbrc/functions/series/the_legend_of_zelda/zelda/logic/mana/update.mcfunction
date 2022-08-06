@@ -15,5 +15,3 @@ execute if score #percentage temp matches 61..70 run title @s actionbar [{"text"
 execute if score #percentage temp matches 71..80 run title @s actionbar [{"text":"Magic: ","bold":true,"color":"white"},{"text":"\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae","color":"blue"}]
 execute if score #percentage temp matches 81..90 run title @s actionbar [{"text":"Magic: ","bold":true,"color":"white"},{"text":"\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae","color":"blue"}]
 execute if score #percentage temp matches 91.. run title @s actionbar [{"text":"Magic: ","bold":true,"color":"white"},{"text":"\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae","color":"blue"}]
-
-execute if score @s mana > #zelda.maxMagic vars run scoreboard players operation @s mana = #zelda.maxMagic vars
