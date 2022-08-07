@@ -4,9 +4,9 @@ scoreboard players set @s duration.3 1
 
 # Byleth
 clear @s[tag=byleth] minecraft:shield
-loot replace entity @s[tag=byleth.blackEagles] weapon.offhand loot ssbrc:characters/fire_emblem/byleth/shield
+loot replace entity @s[tag=blackEagles] weapon.offhand loot ssbrc:characters/fire_emblem/byleth/shield
 
-give @s[tag=byleth.blackEagles,tag=byleth.weaponBroken] minecraft:spectral_arrow 4
+give @s[tag=blackEagles,tag=weaponBroken] minecraft:spectral_arrow 4
 
 # Captain Falcon
 clear @s[tag=captainfalcon] minecraft:golden_sword{falconPunch:1}
@@ -67,10 +67,10 @@ loot replace entity @s[tag=ness] hotbar.2 loot ssbrc:characters/earthbound/ness/
 item replace entity @s[tag=pit] armor.chest with minecraft:elytra{Damage:417,HideFlags:127} 1
 
 # Pokémon Trainer
-tag @s[tag=pokemontrainer] remove pokemontrainer.picked
-execute if entity @s[tag=pokemontrainer,tag=squirtle,tag=!pokemontrainer.picked] run function ssbrc:series/pokemon/pokemontrainer/kits/charizard
-execute if entity @s[tag=pokemontrainer,tag=charizard,tag=!pokemontrainer.picked] run function ssbrc:series/pokemon/pokemontrainer/kits/ivysaur
-execute if entity @s[tag=pokemontrainer,tag=ivysaur,tag=!pokemontrainer.picked] run function ssbrc:series/pokemon/pokemontrainer/kits/squirtle
+tag @s[tag=pokemontrainer] remove nextFighterChosen
+execute if entity @s[tag=pokemontrainer,tag=squirtle,tag=!nextFighterChosen] run function ssbrc:series/pokemon/pokemontrainer/kits/charizard
+execute if entity @s[tag=pokemontrainer,tag=charizard,tag=!nextFighterChosen] run function ssbrc:series/pokemon/pokemontrainer/kits/ivysaur
+execute if entity @s[tag=pokemontrainer,tag=ivysaur,tag=!nextFighterChosen] run function ssbrc:series/pokemon/pokemontrainer/kits/squirtle
 
 # Rob
 scoreboard players set @s[tag=rob] charge.1 0

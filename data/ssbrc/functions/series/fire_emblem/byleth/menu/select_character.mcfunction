@@ -9,7 +9,7 @@ tellraw @s[tag=gold] [{"text":"Skin: ","color":"white"},{"text":"Gold","color":"
 function ssbrc:logic/resets/tags/characters
 tag @s add byleth
 
-tag @s remove byleth.selectingLoadout
+tag @s remove selectingLoadout
 tag @s add characterPicked
 
 execute if score $teams options matches 0 run team join ready @s

@@ -1,9 +1,9 @@
 # Weapons
-execute if entity @s[scores={useAbility=1..},nbt={SelectedItem:{tag:{psg1:1}}}] unless score @s snake.psg1R matches 1.. at @s anchored eyes run function ssbrc:series/metal_gear_solid/snake/logic/weapons/psg1/check
-execute if entity @s[scores={useAbility=1..},nbt={SelectedItem:{tag:{famas:1}}}] unless score @s snake.famasR matches 1.. at @s anchored eyes run function ssbrc:series/metal_gear_solid/snake/logic/weapons/famas/check
-execute if entity @s[scores={useAbility=1..},nbt={SelectedItem:{tag:{s1000:1}}}] unless score @s snake.s1000R matches 1.. at @s anchored eyes run function ssbrc:series/metal_gear_solid/snake/logic/weapons/s1000/check
-execute if entity @s[scores={useAbility=1..},nbt={SelectedItem:{tag:{socom:1}}}] unless score @s snake.socomR matches 1.. at @s anchored eyes run function ssbrc:series/metal_gear_solid/snake/logic/weapons/socom/check
-execute if entity @s[scores={useAbility=1..},nbt={SelectedItem:{tag:{smokeGrenade:1}}}] unless score @s snake.smokeGrenadeF matches 1.. at @s anchored eyes run function ssbrc:series/metal_gear_solid/snake/logic/weapons/smoke_grenade/check
+execute if entity @s[scores={useAbility=1..},nbt={SelectedItem:{tag:{psg1:1}}}] unless score @s loadout.psg1R matches 1.. at @s anchored eyes run function ssbrc:series/metal_gear_solid/snake/logic/weapons/psg1/check
+execute if entity @s[scores={useAbility=1..},nbt={SelectedItem:{tag:{famas:1}}}] unless score @s loadout.famasR matches 1.. at @s anchored eyes run function ssbrc:series/metal_gear_solid/snake/logic/weapons/famas/check
+execute if entity @s[scores={useAbility=1..},nbt={SelectedItem:{tag:{s1000:1}}}] unless score @s loadout.s1000R matches 1.. at @s anchored eyes run function ssbrc:series/metal_gear_solid/snake/logic/weapons/s1000/check
+execute if entity @s[scores={useAbility=1..},nbt={SelectedItem:{tag:{socom:1}}}] unless score @s loadout.socomR matches 1.. at @s anchored eyes run function ssbrc:series/metal_gear_solid/snake/logic/weapons/socom/check
+execute if entity @s[scores={useAbility=1..},nbt={SelectedItem:{tag:{smokeGrenade:1}}}] unless score @s loadout.smokeGrenadeF matches 1.. at @s anchored eyes run function ssbrc:series/metal_gear_solid/snake/logic/weapons/smoke_grenade/check
 
 tag @s add self
 execute as @e[tag=bullet] at @s if score @s id = @p[tag=self] id run function ssbrc:series/metal_gear_solid/snake/logic/bullets
@@ -22,37 +22,37 @@ execute if entity @s[scores={timer=1200..}] run tellraw @s [{"text":"Otacon","co
 
 # Ammo HUD
 title @s actionbar ""
-title @s[nbt={SelectedItem:{tag:{psg1:1}}},scores={snake.psg1M=-1..}] actionbar [{"score":{"name":"@s","objective":"snake.psg1A"},"color":"green"},{"text":" | ","color":"white"},{"score":{"name":"@s","objective":"snake.psg1M"},"color":"dark_green"}]
-title @s[nbt={SelectedItem:{tag:{psg1:1}}},scores={snake.psg1M=..0,snake.psg1A=..0}] actionbar [{"text":"-","color":"red"},{"text":" | ","color":"white"},{"text":"-","color":"red"}]
-title @s[nbt={SelectedItem:{tag:{famas:1}}},scores={snake.famasM=-1..}] actionbar [{"score":{"name":"@s","objective":"snake.famasA"},"color":"green"},{"text":" | ","color":"white"},{"score":{"name":"@s","objective":"snake.famasM"},"color":"dark_green"}]
-title @s[nbt={SelectedItem:{tag:{famas:1}}},scores={snake.famasM=..0,snake.famasA=..0}] actionbar [{"text":"-","color":"red"},{"text":" | ","color":"white"},{"text":"-","color":"red"}]
-title @s[nbt={SelectedItem:{tag:{s1000:1}}},scores={snake.s1000M=-1..}] actionbar [{"score":{"name":"@s","objective":"snake.s1000A"},"color":"green"},{"text":" | ","color":"white"},{"score":{"name":"@s","objective":"snake.s1000M"},"color":"dark_green"}]
-title @s[nbt={SelectedItem:{tag:{s1000:1}}},scores={snake.s1000M=..0,snake.s1000A=..0}] actionbar [{"text":"-","color":"red"},{"text":" | ","color":"white"},{"text":"-","color":"red"}]
-title @s[nbt={SelectedItem:{tag:{socom:1}}},scores={snake.socomM=-1..}] actionbar [{"score":{"name":"@s","objective":"snake.socomA"},"color":"green"},{"text":" | ","color":"white"},{"score":{"name":"@s","objective":"snake.socomM"},"color":"dark_green"}]
-title @s[nbt={SelectedItem:{tag:{socom:1}}},scores={snake.socomM=..0,snake.socomA=..0}] actionbar [{"text":"-","color":"red"},{"text":" | ","color":"white"},{"text":"-","color":"red"}]
-title @s[nbt={SelectedItem:{tag:{smokeGrenade:1}}},scores={snake.smokeGrenadeA=0..}] actionbar {"score":{"name":"@s","objective":"snake.smokeGrenadeA"},"color":"green"}
+title @s[nbt={SelectedItem:{tag:{psg1:1}}},scores={loadout.psg1M=-1..}] actionbar [{"score":{"name":"@s","objective":"loadout.psg1A"},"color":"green"},{"text":" | ","color":"white"},{"score":{"name":"@s","objective":"loadout.psg1M"},"color":"dark_green"}]
+title @s[nbt={SelectedItem:{tag:{psg1:1}}},scores={loadout.psg1M=..0,loadout.psg1A=..0}] actionbar [{"text":"-","color":"red"},{"text":" | ","color":"white"},{"text":"-","color":"red"}]
+title @s[nbt={SelectedItem:{tag:{famas:1}}},scores={loadout.famasM=-1..}] actionbar [{"score":{"name":"@s","objective":"loadout.famasA"},"color":"green"},{"text":" | ","color":"white"},{"score":{"name":"@s","objective":"loadout.famasM"},"color":"dark_green"}]
+title @s[nbt={SelectedItem:{tag:{famas:1}}},scores={loadout.famasM=..0,loadout.famasA=..0}] actionbar [{"text":"-","color":"red"},{"text":" | ","color":"white"},{"text":"-","color":"red"}]
+title @s[nbt={SelectedItem:{tag:{s1000:1}}},scores={loadout.s1000M=-1..}] actionbar [{"score":{"name":"@s","objective":"loadout.s1000A"},"color":"green"},{"text":" | ","color":"white"},{"score":{"name":"@s","objective":"loadout.s1000M"},"color":"dark_green"}]
+title @s[nbt={SelectedItem:{tag:{s1000:1}}},scores={loadout.s1000M=..0,loadout.s1000A=..0}] actionbar [{"text":"-","color":"red"},{"text":" | ","color":"white"},{"text":"-","color":"red"}]
+title @s[nbt={SelectedItem:{tag:{socom:1}}},scores={loadout.socomM=-1..}] actionbar [{"score":{"name":"@s","objective":"loadout.socomA"},"color":"green"},{"text":" | ","color":"white"},{"score":{"name":"@s","objective":"loadout.socomM"},"color":"dark_green"}]
+title @s[nbt={SelectedItem:{tag:{socom:1}}},scores={loadout.socomM=..0,loadout.socomA=..0}] actionbar [{"text":"-","color":"red"},{"text":" | ","color":"white"},{"text":"-","color":"red"}]
+title @s[nbt={SelectedItem:{tag:{smokeGrenade:1}}},scores={loadout.smokeGrenadeA=0..}] actionbar {"score":{"name":"@s","objective":"loadout.smokeGrenadeA"},"color":"green"}
 
 # Reload
-scoreboard players remove @s[scores={snake.psg1R=1..}] snake.psg1R 1
-scoreboard players remove @s[scores={snake.famasR=1..}] snake.famasR 1
-execute as @a[scores={snake.famasR=45}] at @s run playsound ssbrc:generic_reload player @a
-scoreboard players remove @s[scores={snake.s1000R=1..}] snake.s1000R 1
-execute as @a[scores={snake.s1000M=1..,snake.s1000R=35}] at @s run playsound ssbrc:shotgun_shell player @a
-execute as @a[scores={snake.s1000M=1..,snake.s1000R=15}] at @s run playsound ssbrc:shotgun_reload player @a
-scoreboard players remove @s[scores={snake.socomR=1..}] snake.socomR 1
-execute as @a[scores={snake.socomR=35}] at @s run playsound ssbrc:generic_reload player @a
+scoreboard players remove @s[scores={loadout.psg1R=1..}] loadout.psg1R 1
+scoreboard players remove @s[scores={loadout.famasR=1..}] loadout.famasR 1
+execute as @a[scores={loadout.famasR=45}] at @s run playsound ssbrc:generic_reload player @a
+scoreboard players remove @s[scores={loadout.s1000R=1..}] loadout.s1000R 1
+execute as @a[scores={loadout.s1000M=1..,loadout.s1000R=35}] at @s run playsound ssbrc:shotgun_shell player @a
+execute as @a[scores={loadout.s1000M=1..,loadout.s1000R=15}] at @s run playsound ssbrc:shotgun_reload player @a
+scoreboard players remove @s[scores={loadout.socomR=1..}] loadout.socomR 1
+execute as @a[scores={loadout.socomR=35}] at @s run playsound ssbrc:generic_reload player @a
 
-execute if score @s snake.psg1R matches ..0 at @s run function ssbrc:series/metal_gear_solid/snake/logic/weapons/psg1/reload
-execute if score @s snake.famasR matches ..0 at @s run function ssbrc:series/metal_gear_solid/snake/logic/weapons/famas/reload
-execute if score @s snake.s1000R matches ..0 at @s run function ssbrc:series/metal_gear_solid/snake/logic/weapons/s1000/reload
-execute if score @s snake.socomR matches ..0 at @s run function ssbrc:series/metal_gear_solid/snake/logic/weapons/socom/reload
+execute if score @s loadout.psg1R matches ..0 at @s run function ssbrc:series/metal_gear_solid/snake/logic/weapons/psg1/reload
+execute if score @s loadout.famasR matches ..0 at @s run function ssbrc:series/metal_gear_solid/snake/logic/weapons/famas/reload
+execute if score @s loadout.s1000R matches ..0 at @s run function ssbrc:series/metal_gear_solid/snake/logic/weapons/s1000/reload
+execute if score @s loadout.socomR matches ..0 at @s run function ssbrc:series/metal_gear_solid/snake/logic/weapons/socom/reload
 
 # Rate of Fire
-scoreboard players remove @s[scores={snake.famasF=1..}] snake.famasF 1
-scoreboard players remove @s[scores={snake.s1000F=1..}] snake.s1000F 1
-execute as @a[scores={snake.s1000A=1..,snake.s1000F=15}] at @s run playsound ssbrc:shotgun_reload player @a
-scoreboard players remove @s[scores={snake.socomF=1..}] snake.socomF 1
-scoreboard players remove @s[scores={snake.smokeGrenadeF=1..}] snake.smokeGrenadeF 1
+scoreboard players remove @s[scores={loadout.famasF=1..}] loadout.famasF 1
+scoreboard players remove @s[scores={loadout.s1000F=1..}] loadout.s1000F 1
+execute as @a[scores={loadout.s1000A=1..,loadout.s1000F=15}] at @s run playsound ssbrc:shotgun_reload player @a
+scoreboard players remove @s[scores={loadout.socomF=1..}] loadout.socomF 1
+scoreboard players remove @s[scores={loadout.smokeGrenadeF=1..}] loadout.smokeGrenadeF 1
 
 # Smoke Grenade
 execute as @e[type=minecraft:armor_stand,tag=smokeGrenade.display] at @s unless block ~ ~-0.1 ~ #ssbrc:passthrough run function ssbrc:series/metal_gear_solid/snake/logic/weapons/smoke_grenade/kill_item

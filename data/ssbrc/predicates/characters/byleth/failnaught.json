@@ -3,7 +3,7 @@
 		"condition": "minecraft:entity_properties",
 		"entity": "this",
 		"predicate": {
-			"nbt": "{Tags:[\"byleth\",\"byleth.goldenDeer\"]}"
+			"nbt": "{Tags:[\"byleth\",\"goldenDeer\"]}"
 		}
 	},
 	{
@@ -12,7 +12,7 @@
 			"condition": "minecraft:entity_properties",
 			"entity": "this",
 			"predicate": {
-				"nbt": "{Tags:[\"byleth.weaponBroken\"]}"
+				"nbt": "{Tags:[\"weaponBroken\"]}"
 			}
 		}
 	}

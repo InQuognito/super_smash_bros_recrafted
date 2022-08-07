@@ -1,5 +1,5 @@
 function ssbrc:series/pokemon/pokemontrainer/kits/reset
-tag @s add pokemontrainer.picked
+tag @s add nextFighterChosen
 
 tag @s add squirtle
 

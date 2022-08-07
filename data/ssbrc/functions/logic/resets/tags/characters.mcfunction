@@ -1,46 +1,48 @@
-tag @s remove alteredbeast
-tag @s remove alucard
-tag @s remove bowser
-tag @s remove byleth
-tag @s remove captainfalcon
-tag @s remove cloud
-tag @s remove darksamus
-tag @s remove donkeykong
-tag @s remove fox
-tag @s remove ganondorf
-tag @s remove giegue
-tag @s remove greninja
-tag @s remove hero
-tag @s remove jigglypuff
-tag @s remove joker
-tag @s remove kirby
-tag @s remove kingkrool
-tag @s remove link
-tag @s remove luigi
-tag @s remove mario
-tag @s remove megaman
-tag @s remove ness
-tag @s remove pikachu
-tag @s remove pit
-tag @s remove pokemontrainer
-tag @s remove charizard
-tag @s remove ivysaur
-tag @s remove squirtle
-tag @s remove rob
-tag @s remove ryu
-tag @s remove samus
-tag @s remove shadow
-tag @s remove shovelknight
-tag @s remove snake
-tag @s remove sonic
-tag @s remove sora
-tag @s remove steve
-tag @s remove teamrocket
-tag @s remove arbok
-tag @s remove meowth
-tag @s remove wobbuffet
-tag @s remove wolf
+function ssbrc:logic/resets/tags/characters/castlevania/alucard
+function ssbrc:logic/resets/tags/characters/donkey_kong/donkeykong
+function ssbrc:logic/resets/tags/characters/donkey_kong/kingkrool
+function ssbrc:logic/resets/tags/characters/dragon_quest/hero
+function ssbrc:logic/resets/tags/characters/earthbound/giegue
+function ssbrc:logic/resets/tags/characters/earthbound/ness
+function ssbrc:logic/resets/tags/characters/f_zero/captainfalcon
+function ssbrc:logic/resets/tags/characters/final_fantasy/cloud
+function ssbrc:logic/resets/tags/characters/fire_emblem/byleth
+function ssbrc:logic/resets/tags/characters/indie_fighters/shovelknight
+function ssbrc:logic/resets/tags/characters/indie_fighters/steve
+function ssbrc:logic/resets/tags/characters/kid_icarus/pit
+function ssbrc:logic/resets/tags/characters/kingdom_hearts/sora
+function ssbrc:logic/resets/tags/characters/kirby/kirby
+function ssbrc:logic/resets/tags/characters/mega_man/megaman
+function ssbrc:logic/resets/tags/characters/metal_gear_solid/snake
+function ssbrc:logic/resets/tags/characters/metroid/darksamus
+function ssbrc:logic/resets/tags/characters/metroid/samus
+function ssbrc:logic/resets/tags/characters/persona/joker
+function ssbrc:logic/resets/tags/characters/pokemon/greninja
+function ssbrc:logic/resets/tags/characters/pokemon/jigglypuff
+function ssbrc:logic/resets/tags/characters/pokemon/pikachu
+function ssbrc:logic/resets/tags/characters/pokemon/pokemontrainer
+function ssbrc:logic/resets/tags/characters/pokemon/teamrocket
+function ssbrc:logic/resets/tags/characters/retro_fighters/alteredbeast
+function ssbrc:logic/resets/tags/characters/retro_fighters/yar
+function ssbrc:logic/resets/tags/characters/sonic_the_hedgehog/shadow
+function ssbrc:logic/resets/tags/characters/sonic_the_hedgehog/sonic
+function ssbrc:logic/resets/tags/characters/star_fox/fox
+function ssbrc:logic/resets/tags/characters/star_fox/wolf
+function ssbrc:logic/resets/tags/characters/street_fighter/ryu
+function ssbrc:logic/resets/tags/characters/super_mario_bros/bowser
+function ssbrc:logic/resets/tags/characters/super_mario_bros/luigi
+function ssbrc:logic/resets/tags/characters/super_mario_bros/mario
+function ssbrc:logic/resets/tags/characters/super_smash_bros/rob
+function ssbrc:logic/resets/tags/characters/the_legend_of_zelda/ganondorf
+function ssbrc:logic/resets/tags/characters/the_legend_of_zelda/link
+function ssbrc:logic/resets/tags/characters/the_legend_of_zelda/zelda
+
+# Misc
+tag @s remove abilityUsed
+tag @s remove characterPicked
+tag @s remove naturalShiny
+tag @s remove nextFighterChosen
+tag @s remove selectingLoadout
+
 tag @s remove yar
 tag @s remove zelda
-
-tag @s remove characterPicked

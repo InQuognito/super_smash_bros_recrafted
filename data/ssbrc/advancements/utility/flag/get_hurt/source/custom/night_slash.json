@@ -17,6 +17,6 @@
 		}
 	},
 	"rewards": {
-		"function": "ssbrc:series/pokemon/greninja/logic/night_slash_chance"
+		"function": "ssbrc:series/pokemon/greninja/logic/abilities/night_slash/check"
 	}
 }

@@ -1,17 +1,17 @@
 clear @s #ssbrc:steve_items
 
-tag @s[tag=!steve.hasBow,tag=!steve.hasCrossbow,predicate=ssbrc:random_chance/30,tag=steve.hasStick] add steve.getCrossbow
+tag @s[tag=!hasBow,tag=!hasCrossbow,predicate=ssbrc:random_chance/30,tag=steve.hasStick] add steve.getCrossbow
 loot give @s[tag=steve.getCrossbow] loot ssbrc:characters/indie_fighters/steve/crossbow
 tellraw @s[tag=steve.getCrossbow] [{"text":"RARE","bold":true,"color":"gold"},{"text":"! ","bold":true,"color":"yellow"},{"text":"Crafted a Crossbow! It's enchanted!","bold":false,"color":"green"}]
-tag @s[tag=steve.getCrossbow] add steve.hasCrossbow
+tag @s[tag=steve.getCrossbow] add hasCrossbow
 
-tag @s[tag=!steve.hasBow,tag=!steve.hasCrossbow,tag=steve.hasStick] add steve.getBow
+tag @s[tag=!hasBow,tag=!hasCrossbow,tag=steve.hasStick] add steve.getBow
 loot give @s[tag=steve.getBow] loot ssbrc:characters/indie_fighters/steve/bow
 tellraw @s[tag=steve.getBow] {"text":"Crafted a Bow!","color":"green"}
-tag @s[tag=steve.getBow] add steve.hasBow
+tag @s[tag=steve.getBow] add hasBow
 
-tag @s[tag=steve.hasCrossbow,tag=steve.hasStick] add steve.getCrossbowArrows
-tag @s[tag=steve.hasBow,tag=steve.hasStick] add steve.getBowArrows
+tag @s[tag=hasCrossbow,tag=steve.hasStick] add steve.getCrossbowArrows
+tag @s[tag=hasBow,tag=steve.hasStick] add steve.getBowArrows
 
 tag @s[tag=steve.hasWood] add steve.getShield
 

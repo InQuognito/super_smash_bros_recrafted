@@ -114,7 +114,7 @@ execute as @e[tag=voteCounter.update,sort=random,limit=1] run function ssbrc:log
 execute as @a[team=!spectator,tag=!room.characterSelect] run function ssbrc:logic/spectate
 execute as @a[team=waiting,tag=!characterPicked] run function ssbrc:logic/spectate
 
-execute as @a[tag=snake,tag=snake.selectingLoadout] run function ssbrc:series/metal_gear_solid/snake/menu/select_character
+execute as @a[tag=snake,tag=selectingLoadout] run function ssbrc:series/metal_gear_solid/snake/menu/select_character
 
 gamemode spectator @a[team=spectator]
 

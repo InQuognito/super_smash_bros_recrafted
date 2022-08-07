@@ -33,3 +33,6 @@ tag @s remove wilyCastle
 tag @s remove yarsRevenge
 
 tag @s remove random
+
+# Misc
+tag @s remove quicksand

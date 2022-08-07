@@ -4,4 +4,4 @@ give @s minecraft:bow{failnaught:1,Unbreakable:1,Enchantments:[{id:"minecraft:po
 clear @s minecraft:arrow
 
 scoreboard players reset @s charge.2
-tag @s remove byleth.weaponBroken
+tag @s remove weaponBroken

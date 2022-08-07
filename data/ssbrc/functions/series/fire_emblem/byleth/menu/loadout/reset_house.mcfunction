@@ -1,3 +1,3 @@
-tag @s remove byleth.blackEagles
-tag @s remove byleth.blueLions
-tag @s remove byleth.goldenDeer
+tag @s remove blackEagles
+tag @s remove blueLions
+tag @s remove goldenDeer

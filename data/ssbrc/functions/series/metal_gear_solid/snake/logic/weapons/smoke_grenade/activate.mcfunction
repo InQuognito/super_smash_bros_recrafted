@@ -11,9 +11,9 @@ tag @e[tag=projectile] remove projectile
 tag @e[tag=vehicleProjectile] remove vehicleProjectile
 kill @e[tag=direction]
 
-scoreboard players remove @s snake.smokeGrenadeA 1
+scoreboard players remove @s loadout.smokeGrenadeA 1
 
-scoreboard players set @s snake.smokeGrenadeF 300
+scoreboard players set @s loadout.smokeGrenadeF 300
 scoreboard players set @e[tag=smokeGrenade] timer 300
 
-clear @s[scores={snake.smokeGrenadeA=..0}] minecraft:carrot_on_a_stick{smokeGrenade:1}
+clear @s[scores={loadout.smokeGrenadeA=..0}] minecraft:carrot_on_a_stick{smokeGrenade:1}
