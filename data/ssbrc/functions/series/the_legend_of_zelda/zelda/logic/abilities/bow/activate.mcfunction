@@ -1,4 +1,4 @@
-execute positioned 0.0 0.0 0.0 run summon minecraft:marker ^ ^ ^1.5 {Tags:["direction"]}
+execute positioned 0.0 0.0 0.0 run summon minecraft:marker ^ ^ ^2 {Tags:["direction"]}
 
 execute if entity @s[nbt={SelectedItem:{tag:{default:1}}}] run summon minecraft:spectral_arrow ^ ^ ^1 {damage:0.3,Tags:["bow","projectile"]}
 execute if entity @s[nbt={SelectedItem:{tag:{fire:1}}}] run summon minecraft:spectral_arrow ^ ^ ^1 {damage:0.3,Tags:["bow","effect.wither","projectile"]}
@@ -13,5 +13,5 @@ kill @e[tag=direction]
 
 scoreboard players operation @s mana -= #bowMagicCost temp
 
-scoreboard players set @s cooldown.1 20
+scoreboard players set @s cooldown.1 30
 execute if score @s shadow.chaosControl matches 1.. run function ssbrc:logic/characters/cooldown_modifiers/chaos_control/1
