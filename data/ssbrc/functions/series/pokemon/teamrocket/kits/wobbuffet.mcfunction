@@ -1,5 +1,5 @@
 function ssbrc:series/pokemon/teamrocket/kits/reset
-tag @s add teamrocket.picked
+tag @s add nextFighterChosen
 
 tag @s add wobbuffet
 

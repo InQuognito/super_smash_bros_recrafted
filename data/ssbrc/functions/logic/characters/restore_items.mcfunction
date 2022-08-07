@@ -115,10 +115,10 @@ loot replace entity @s[tag=alucard] weapon.offhand loot ssbrc:characters/castlev
 scoreboard players set @s[tag=shovelknight] mana 10
 
 # Team Rocket
-tag @s[tag=teamrocket] remove teamrocket.picked
-execute if entity @s[tag=teamrocket,tag=wobbuffet,tag=!teamrocket.picked] run function ssbrc:series/pokemon/teamrocket/kits/arbok
-execute if entity @s[tag=teamrocket,tag=meowth,tag=!teamrocket.picked] run function ssbrc:series/pokemon/teamrocket/kits/wobbuffet
-execute if entity @s[tag=teamrocket,tag=arbok,tag=!teamrocket.picked] run function ssbrc:series/pokemon/teamrocket/kits/meowth
+tag @s[tag=teamrocket] remove nextFighterChosen
+execute if entity @s[tag=teamrocket,tag=wobbuffet,tag=!nextFighterChosen] run function ssbrc:series/pokemon/teamrocket/kits/arbok
+execute if entity @s[tag=teamrocket,tag=meowth,tag=!nextFighterChosen] run function ssbrc:series/pokemon/teamrocket/kits/wobbuffet
+execute if entity @s[tag=teamrocket,tag=arbok,tag=!nextFighterChosen] run function ssbrc:series/pokemon/teamrocket/kits/meowth
 
 scoreboard players set @s duration.1 0
 scoreboard players set @s duration.2 0
