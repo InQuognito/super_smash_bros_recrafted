@@ -12,6 +12,6 @@
 		}
 	},
 	"rewards": {
-		"function": "ssbrc:logic/"
+		"function": "ssbrc:logic/inputs/abilities"
 	}
 }
