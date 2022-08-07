@@ -1,5 +1,4 @@
 tag @s remove alteredbeast
-function ssbrc:series/retro_fighters/alteredbeast/menu/skins/reset
 
 tag @s remove demigod
 tag @s remove human

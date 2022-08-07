@@ -1,5 +1,4 @@
 tag @s remove snake
-function ssbrc:series/metal_gear_solid/snake/menu/skins/reset
 
 tag @s remove loadout.antiPersonnelMine
 tag @s remove loadout.famas

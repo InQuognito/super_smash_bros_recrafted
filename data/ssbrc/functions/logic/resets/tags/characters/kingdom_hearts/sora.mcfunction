@@ -1,5 +1,4 @@
 tag @s remove sora
-function ssbrc:series/kingdom_hearts/sora/menu/skins/reset
 
 tag @s remove anti
 tag @s remove valor

@@ -1,6 +1,9 @@
 # Characters
 function ssbrc:logic/resets/tags/characters
 
+# Skins
+function ssbrc:logic/resets/tags/skins
+
 # Maps
 function ssbrc:logic/resets/tags/maps
 
