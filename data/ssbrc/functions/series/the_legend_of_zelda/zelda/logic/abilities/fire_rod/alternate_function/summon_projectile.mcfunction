@@ -1,4 +1,4 @@
-execute positioned 0.0 0.0 0.0 run summon minecraft:marker ^ ^ ^1 {Tags:["direction"]}
+execute positioned 0.0 0.0 0.0 run summon minecraft:marker ^ ^ ^0.6 {Tags:["direction"]}
 
 summon minecraft:arrow ^ ^ ^ {damage:6.0,Tags:["fireRod","effect.wither","projectile"],NoGravity:1b}
 
