@@ -90,6 +90,7 @@ scoreboard objectives add temp dummy
 scoreboard objectives add useAbility minecraft.used:minecraft.carrot_on_a_stick
 scoreboard objectives add useChargeAbility minecraft.used:minecraft.warped_fungus_on_a_stick
 scoreboard objectives add vars dummy
+scoreboard objectives add zelda.bomb dummy
 
 # Bonuses
 scoreboard objectives add 765o dummy

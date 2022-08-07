@@ -1,0 +1,6 @@
+tag @s[distance=..4] add damage.bomb
+
+particle minecraft:explosion_emitter ~ ~ ~ 0.0 0.0 0.0 0.0 1 normal @a
+playsound minecraft:entity.generic.explode hostile @a
+
+clear @s minecraft:carrot_on_a_stick{bomb:1}

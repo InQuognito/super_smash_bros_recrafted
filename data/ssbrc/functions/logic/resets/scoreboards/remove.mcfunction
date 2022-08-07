@@ -90,6 +90,7 @@ scoreboard objectives remove temp
 scoreboard objectives remove useAbility
 scoreboard objectives remove useChargeAbility
 scoreboard objectives remove vars
+scoreboard objectives remove zelda.bomb
 
 # Bonuses
 scoreboard objectives remove 765o
