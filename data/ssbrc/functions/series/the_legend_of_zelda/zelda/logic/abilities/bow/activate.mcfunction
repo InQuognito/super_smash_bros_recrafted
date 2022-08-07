@@ -1,8 +1,8 @@
 execute positioned 0.0 0.0 0.0 run summon minecraft:marker ^ ^ ^1 {Tags:["direction"]}
 
-execute if entity @s[nbt={SelectedItem:{tag:{default:1}}}] run summon minecraft:arrow ^ ^ ^1 {damage:0.3,Tags:["bow","projectile"]}
-execute if entity @s[nbt={SelectedItem:{tag:{fire:1}}}] run summon minecraft:arrow ^ ^ ^1 {damage:0.3,Tags:["bow","effect.wither","projectile"]}
-execute if entity @s[nbt={SelectedItem:{tag:{poison:1}}}] run summon minecraft:arrow ^ ^ ^1 {damage:0.3,Tags:["bow","effect.poison","projectile"]}
+execute if entity @s[nbt={SelectedItem:{tag:{default:1}}}] run summon minecraft:spectral_arrow ^ ^ ^1 {damage:0.3,Tags:["bow","projectile"]}
+execute if entity @s[nbt={SelectedItem:{tag:{fire:1}}}] run summon minecraft:spectral_arrow ^ ^ ^1 {damage:0.3,Tags:["bow","effect.wither","projectile"]}
+execute if entity @s[nbt={SelectedItem:{tag:{poison:1}}}] run summon minecraft:spectral_arrow ^ ^ ^1 {damage:0.3,Tags:["bow","effect.poison","projectile"]}
 
 scoreboard players operation @e[tag=projectile,limit=1] id = @s id
 data modify entity @e[tag=projectile,limit=1] Owner set from entity @s UUID
