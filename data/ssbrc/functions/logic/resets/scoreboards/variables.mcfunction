@@ -68,6 +68,7 @@ scoreboard players set #snake.totalWeight vars 10
 scoreboard players set #zelda.maxMagic vars 10
 scoreboard players set #zelda.maxRupees vars 30
 scoreboard players set #zelda.glassBreakThreshold vars 250
+scoreboard players set #zelda.iceBlockRange vars 20
 scoreboard players set #zelda.boomerangMagicCost vars 3
 scoreboard players set #zelda.bowMagicCost vars 1
 scoreboard players set #zelda.bowFireMagicCost vars 2
