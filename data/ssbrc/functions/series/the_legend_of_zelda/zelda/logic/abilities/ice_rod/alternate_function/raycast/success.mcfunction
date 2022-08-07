@@ -2,7 +2,7 @@ summon minecraft:armor_stand ~ ~5 ~ {Tags:["iceBlock","projectile"],ArmorItems:[
 
 scoreboard players operation @e[tag=projectile,limit=1] id = @s id
 
-scoreboard players operation @s mana -= #iceRodManaCost temp
+scoreboard players operation @s mana -= #iceRodMagicCost temp
 
 scoreboard players set @s cooldown.1 60
 execute if score @s shadow.chaosControl matches 1.. run function ssbrc:logic/characters/cooldown_modifiers/chaos_control/1
