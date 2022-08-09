@@ -18,10 +18,10 @@ execute as @e[type=minecraft:armor_stand,tag=holyWater.display] at @s unless blo
 # Mist
 execute if score @s duration.1 matches 1.. run function ssbrc:logic/characters/effects/cleanse
 execute if score @s duration.1 matches 1.. at @s positioned ~ ~0.75 ~ run kill @e[type=#ssbrc:projectiles,tag=!spawnpoint,distance=..3]
+execute if score @s duration.1 matches 1 run function ssbrc:series/castlevania/alucard/logic/abilities/mist/off
 
 # Particles
 execute at @s[tag=bloodMetamorphosis] run particle minecraft:mycelium ~ ~0.5 ~ 0.35 0.7 0.35 1 5 normal @a
 
 execute at @s[tag=!bloodMetamorphosis,scores={duration.1=1..}] run particle minecraft:dust 1.0 1.0 1.0 1.5 ~ ~0.75 ~ 0.4 0.4 0.4 0.05 10 normal @a
 execute at @s[tag=bloodMetamorphosis,scores={duration.1=1..}] run particle minecraft:dust 0.3 0.6 0.3 1.5 ~ ~0.75 ~ 0.4 0.4 0.4 0.05 10 normal @a
-execute if entity @s[scores={duration.1=1}] run function ssbrc:series/castlevania/alucard/logic/abilities/mist/off
