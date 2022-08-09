@@ -15,6 +15,7 @@ execute as @e[type=minecraft:arrow,tag=fireRod] at @s if score @s id = @p[tag=se
 execute as @e[type=minecraft:marker,tag=iceRod] at @s if score @s id = @p[tag=self] id run function ssbrc:series/the_legend_of_zelda/zelda/logic/abilities/ice_rod/tick
 execute as @e[type=minecraft:armor_stand,tag=iceBlock] at @s if score @s id = @p[tag=self] id run function ssbrc:series/the_legend_of_zelda/zelda/logic/abilities/ice_rod/alternate_function/tick
 execute as @e[tag=magicBoomerang] at @s if score @s id = @p[tag=self] id run function ssbrc:series/the_legend_of_zelda/zelda/logic/abilities/magic_boomerang/tick
+execute at @s[nbt={Inventory:[{tag:{goronLocket:1}}]}] as @e[tag=effect.wither,dx=0,dy=1,dz=0] unless score @s id = @p[tag=self] id run kill @s
 tag @s remove self
 
 # Mana
@@ -26,7 +27,6 @@ execute if score @s zelda.bomb >= #zelda.bombTimer vars at @s run function ssbrc
 
 # Passive Items
 effect clear @s[nbt={Inventory:[{tag:{goronLocket:1}}]}] minecraft:wither
-execute at @s[nbt={Inventory:[{tag:{goronLocket:1}}]}] positioned ~ ~0.75 ~ run kill @e[tag=effect.wither,distance=..1.5]
 
 execute if score @s duration.3 matches 1.. if score @s cooldown.2 matches 1.. run effect clear @s[nbt=!{Inventory:[{tag:{nayrusRing:1}}]}] minecraft:resistance
 effect clear @s[nbt={Inventory:[{tag:{nayrusRing:1}}]},scores={health=7..}] minecraft:resistance
