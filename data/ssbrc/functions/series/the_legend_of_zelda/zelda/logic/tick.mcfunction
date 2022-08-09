@@ -26,6 +26,7 @@ execute if score @s zelda.bomb >= #zelda.bombTimer vars at @s run function ssbrc
 
 # Passive Items
 effect clear @s[nbt={Inventory:[{tag:{goronLocket:1}}]}] minecraft:wither
+execute at @s[nbt={Inventory:[{tag:{goronLocket:1}}]}] positioned ~ ~0.75 ~ run kill @e[tag=effect.wither,distance=..1.5]
 
 execute if score @s duration.3 matches 1.. if score @s cooldown.2 matches 1.. run effect clear @s[nbt=!{Inventory:[{tag:{nayrusRing:1}}]}] minecraft:resistance
 effect clear @s[nbt={Inventory:[{tag:{nayrusRing:1}}]},scores={health=7..}] minecraft:resistance
