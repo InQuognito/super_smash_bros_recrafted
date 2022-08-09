@@ -5,6 +5,7 @@ gamemode spectator @a[team=dead]
 gamemode spectator @a[team=spectator]
 
 kill @e[type=#minecraft:arrows,nbt={inGround:1b}]
+kill @e[type=minecraft:item,nbt={Item:{id:"minecraft:firework_rocket"}}]
 kill @e[type=minecraft:item,nbt={Item:{id:"minecraft:trident"}}]
 
 clear @a minecraft:glass_bottle
