@@ -17,7 +17,7 @@ execute as @e[type=minecraft:armor_stand,tag=holyWater.display] at @s unless blo
 
 # Mist
 execute if score @s duration.1 matches 1.. run function ssbrc:logic/characters/effects/cleanse
-execute if score @s duration.1 matches 1.. run kill @e[type=#ssbrc:projectiles,tag=!spawnpoint,distance=..2]
+execute if score @s duration.1 matches 1.. at @s run kill @e[type=#ssbrc:projectiles,tag=!spawnpoint,distance=..2]
 
 # Particles
 execute at @s[tag=bloodMetamorphosis] run particle minecraft:mycelium ~ ~0.5 ~ 0.35 0.7 0.35 1 5 normal @a
