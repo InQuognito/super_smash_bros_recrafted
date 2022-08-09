@@ -298,6 +298,17 @@ execute if score $spearPillar map matches 1 if score result random matches 7 run
 execute if score $spearPillar map matches 1 if score result random matches 8 run teleport @s 799 15 -32
 execute if score $spearPillar map matches 1 if score result random matches 9 run teleport @s 816 15 -44
 
+execute if score $suzakuCastle map matches 1 if score result random matches 0 run teleport @s 6975.5 15.0 2985.5
+execute if score $suzakuCastle map matches 1 if score result random matches 1 run teleport @s 6990.5 15.0 2987.5
+execute if score $suzakuCastle map matches 1 if score result random matches 2 run teleport @s 7018.5 15.0 2971.5
+execute if score $suzakuCastle map matches 1 if score result random matches 3 run teleport @s 7017.5 16.0 3006.5
+execute if score $suzakuCastle map matches 1 if score result random matches 4 run teleport @s 6995.5 14.0 3021.5
+execute if score $suzakuCastle map matches 1 if score result random matches 5 run teleport @s 7039.5 16.0 299.5
+execute if score $suzakuCastle map matches 1 if score result random matches 6 run teleport @s 6996.5 16.0 2961.5
+execute if score $suzakuCastle map matches 1 if score result random matches 7 run teleport @s 7020.5 15.0 2979.5
+execute if score $suzakuCastle map matches 1 if score result random matches 8 run teleport @s 7006.5 16.0 2990.5
+execute if score $suzakuCastle map matches 1 if score result random matches 9 run teleport @s 7009.5 16.0 2968.5
+
 execute if score $towerOfFate map matches 1 if score result random matches 0 run teleport @s 6000 28 500
 execute if score $towerOfFate map matches 1 if score result random matches 1 run teleport @s 6000 28 508
 execute if score $towerOfFate map matches 1 if score result random matches 2 run teleport @s 5992 28 500
