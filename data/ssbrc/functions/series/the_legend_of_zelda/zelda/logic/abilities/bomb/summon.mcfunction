@@ -1,7 +1,7 @@
 execute positioned 0.0 0.0 0.0 run summon minecraft:marker ^ ^ ^1 {Tags:["direction"]}
 
-execute if entity @s[nbt=!{Inventory:[{tag:{goronLocket:1}}]}] run summon minecraft:armor_stand ^ ^ ^1 {Tags:["bomb","projectile"],Invisible:1b}
-execute if entity @s[nbt={Inventory:[{tag:{goronLocket:1}}]}] run summon minecraft:armor_stand ^ ^ ^1 {Tags:["bomb","blasting","projectile"],Invisible:1b}
+execute if entity @s[nbt=!{Inventory:[{tag:{ringOfBlasting:1}}]}] run summon minecraft:armor_stand ^ ^ ^1 {Tags:["bomb","projectile"],Invisible:1b}
+execute if entity @s[nbt={Inventory:[{tag:{ringOfBlasting:1}}]}] run summon minecraft:armor_stand ^ ^ ^1 {Tags:["bomb","blasting","projectile"],Invisible:1b}
 loot replace entity @e[tag=projectile,limit=1] armor.head loot ssbrc:characters/the_legend_of_zelda/zelda/dungeon_items/bomb
 
 scoreboard players operation @e[tag=projectile,limit=1] id = @s id

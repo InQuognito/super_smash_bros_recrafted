@@ -11,5 +11,4 @@ tag @e[tag=vehicleProjectile] remove vehicleProjectile
 kill @e[tag=direction]
 
 scoreboard players set @s cooldown.1 300
-
 execute if score @s shadow.chaosControl matches 1.. run function ssbrc:logic/characters/cooldown_modifiers/chaos_control/1
