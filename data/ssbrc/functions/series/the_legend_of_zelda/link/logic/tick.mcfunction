@@ -20,3 +20,5 @@ execute if score $swordSpin rotation matches 360.. run scoreboard players reset 
 execute as @e[tag=link.spinner] store result entity @s Rotation[0] float 1.0 run scoreboard players get $swordSpin rotation
 
 execute if entity @s[scores={charge.1=1..}] at @s anchored eyes run function ssbrc:series/the_legend_of_zelda/link/logic/abilities/sword_spin/charge
+
+execute if entity @s[tag=spinning] run function ssbrc:series/the_legend_of_zelda/link/logic/abilities/sword_spin/tick
