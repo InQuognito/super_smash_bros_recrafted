@@ -1,0 +1,7 @@
+{
+	"function": "minecraft:set_enchantments",
+	"enchantments": {
+		"minecraft:swift_sneak": 2
+	},
+	"add": false
+}

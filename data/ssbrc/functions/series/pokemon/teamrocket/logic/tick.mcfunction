@@ -12,9 +12,6 @@ tag @s remove self
 # Payday
 execute as @e[type=minecraft:armor_stand,tag=payday.display] at @s unless block ~ ~-0.1 ~ #ssbrc:passthrough run function ssbrc:series/pokemon/teamrocket/logic/meowth/payday/kill_item
 
-# Counter
-loot replace entity @s[nbt={SelectedItem:{tag:{counter:1}}}] weapon.mainhand loot ssbrc:characters/pokemon/teamrocket/wobbuffet/counter
-
 # Destiny Bond
 execute at @s[scores={duration.3=40..}] run particle minecraft:dust 0.0 0.0 0.0 0.5 ~ ~0.75 ~ 0.5 1.0 0.5 0.0 5 normal @a
 execute if score @s duration.3 matches 1 run function ssbrc:series/pokemon/teamrocket/logic/wobbuffet/destiny_bond/off

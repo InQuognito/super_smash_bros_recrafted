@@ -5,6 +5,8 @@ item modify entity @s[predicate=ssbrc:characters/enchantments/fire_protection] a
 
 item modify entity @s[predicate=ssbrc:characters/enchantments/thorns] armor.chest ssbrc:characters/enchantments/thorns
 
+item modify entity @s[predicate=ssbrc:characters/enchantments/swift_sneak] armor.legs ssbrc:characters/enchantments/swift_sneak
+
 item modify entity @s[predicate=!ssbrc:characters/enchantments/feather_falling_infinity] armor.feet ssbrc:characters/enchantments/feather_falling
 item modify entity @s[predicate=ssbrc:characters/enchantments/feather_falling_infinity] armor.feet ssbrc:characters/enchantments/feather_falling_infinity
 
