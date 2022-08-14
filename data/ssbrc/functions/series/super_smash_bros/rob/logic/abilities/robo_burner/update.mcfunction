@@ -1,5 +1,3 @@
-function ssbrc:logic/title_times/infinite
-
 scoreboard players operation #percentage temp = @s charge.2
 scoreboard players operation #percentage temp *= 100 integers
 scoreboard players operation #percentage temp /= #rob.maxFuel vars

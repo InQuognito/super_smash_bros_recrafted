@@ -22,5 +22,8 @@ execute as @e[type=minecraft:marker,tag=thundaza] at @s if score @s id = @p[tag=
 execute as @e[type=minecraft:marker,tag=strikeRaid] at @s if score @s id = @p[tag=self] id run function ssbrc:series/kingdom_hearts/sora/logic/abilities/strike_raid/tick
 tag @s remove self
 
+# MP
+function ssbrc:series/kingdom_hearts/sora/logic/mana/update
+
 # Anti Form
 execute at @s[tag=anti] run particle minecraft:dust 0.0 0.0 0.0 1.0 ~ ~0.75 ~ 0.2 0.3 0.2 0.0 20 normal @a

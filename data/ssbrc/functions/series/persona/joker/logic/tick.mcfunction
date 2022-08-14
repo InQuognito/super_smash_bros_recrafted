@@ -22,25 +22,7 @@ execute as @e[type=minecraft:arrow,tag=phantomShow] at @s if score @s id = @p[ta
 tag @s remove self
 
 # Persona Awakening
-scoreboard players operation $joker.awakeningPercent temp = @s charge.1
-scoreboard players operation $joker.awakeningPercent temp *= 100 integers
-scoreboard players operation $joker.awakeningPercent temp /= #joker.maxAwakening vars
-
-execute if score $joker.awakeningPercent temp matches 0 run title @s[nbt=!{SelectedItem:{tag:{tt33:1}}}] actionbar ""
-execute if score $joker.awakeningPercent temp matches 1..10 run title @s[nbt=!{SelectedItem:{tag:{tt33:1}}}] actionbar [{"text":"Persona Awakening: ","bold":true,"color":"white"},{"text":"\u25ae","color":"red"},{"text":"\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae","color":"dark_gray"}]
-execute if score $joker.awakeningPercent temp matches 11..20 run title @s[nbt=!{SelectedItem:{tag:{tt33:1}}}] actionbar [{"text":"Persona Awakening: ","bold":true,"color":"white"},{"text":"\u25ae\u25ae","color":"red"},{"text":"\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae","color":"dark_gray"}]
-execute if score $joker.awakeningPercent temp matches 21..30 run title @s[nbt=!{SelectedItem:{tag:{tt33:1}}}] actionbar [{"text":"Persona Awakening: ","bold":true,"color":"white"},{"text":"\u25ae\u25ae\u25ae","color":"red"},{"text":"\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae","color":"dark_gray"}]
-execute if score $joker.awakeningPercent temp matches 31..40 run title @s[nbt=!{SelectedItem:{tag:{tt33:1}}}] actionbar [{"text":"Persona Awakening: ","bold":true,"color":"white"},{"text":"\u25ae\u25ae\u25ae\u25ae","color":"red"},{"text":"\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae","color":"dark_gray"}]
-execute if score $joker.awakeningPercent temp matches 41..50 run title @s[nbt=!{SelectedItem:{tag:{tt33:1}}}] actionbar [{"text":"Persona Awakening: ","bold":true,"color":"white"},{"text":"\u25ae\u25ae\u25ae\u25ae\u25ae","color":"red"},{"text":"\u25ae\u25ae\u25ae\u25ae\u25ae","color":"dark_gray"}]
-execute if score $joker.awakeningPercent temp matches 51..60 run title @s[nbt=!{SelectedItem:{tag:{tt33:1}}}] actionbar [{"text":"Persona Awakening: ","bold":true,"color":"white"},{"text":"\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae","color":"red"},{"text":"\u25ae\u25ae\u25ae\u25ae","color":"dark_gray"}]
-execute if score $joker.awakeningPercent temp matches 61..70 run title @s[nbt=!{SelectedItem:{tag:{tt33:1}}}] actionbar [{"text":"Persona Awakening: ","bold":true,"color":"white"},{"text":"\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae","color":"red"},{"text":"\u25ae\u25ae\u25ae","color":"dark_gray"}]
-execute if score $joker.awakeningPercent temp matches 71..80 run title @s[nbt=!{SelectedItem:{tag:{tt33:1}}}] actionbar [{"text":"Persona Awakening: ","bold":true,"color":"white"},{"text":"\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae","color":"red"},{"text":"\u25ae\u25ae","color":"dark_gray"}]
-execute if score $joker.awakeningPercent temp matches 81..90 run title @s[nbt=!{SelectedItem:{tag:{tt33:1}}}] actionbar [{"text":"Persona Awakening: ","bold":true,"color":"white"},{"text":"\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae","color":"red"},{"text":"\u25ae","color":"dark_gray"}]
-execute if score $joker.awakeningPercent temp matches 91..99 run title @s[nbt=!{SelectedItem:{tag:{tt33:1}}}] actionbar [{"text":"Persona Awakening: ","bold":true,"color":"white"},{"text":"\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae","color":"red"}]
-execute if score $joker.awakeningPercent temp matches 100.. run title @s[scores={duration.1=0}] actionbar {"text":"Persona Awakening","bold":true,"color":"blue"}
-
-execute if score @s charge.1 >= #joker.maxAwakening vars unless score @s duration.1 matches 1.. run function ssbrc:series/persona/joker/logic/abilities/activate
-execute if score @s duration.1 matches 1 run function ssbrc:series/persona/joker/logic/abilities/deactivate
+execute if score @s duration.1 matches 1 run function ssbrc:series/persona/joker/logic/abilities/persona_awakening/deactivate
 
 # Final Guard
 execute if score @s[tag=!abilityUsed] health <= #joker.finalGuardThreshold vars run function ssbrc:series/persona/joker/logic/final_guard/on
@@ -52,6 +34,12 @@ execute if score @s duration.2 matches 1 run function ssbrc:series/persona/joker
 # Rebel's Knife
 item modify entity @s[nbt={SelectedItem:{tag:{rebelsKnife:1}}}] weapon.mainhand ssbrc:characters/joker/rebels_knife
 
+# Ammo HUD
+execute unless score $joker.awakeningPercent temp matches 100.. unless score @s duration.1 matches 540.. run title @s[nbt={SelectedItem:{tag:{tt33:1}}}] actionbar {"score":{"name":"@s","objective":"joker.tt33A"},"color":"red"}
+
+# Fire Rate
+scoreboard players remove @s[scores={joker.tt33F=1..}] joker.tt33F 1
+
 # Amrita Shower
 execute if score @s[tag=highPixie,team=team1] duration.3 matches 1.. as @a[team=team1] run function ssbrc:logic/characters/effects/cleanse
 execute if score @s[tag=highPixie,team=team2] duration.3 matches 1.. as @a[team=team2] run function ssbrc:logic/characters/effects/cleanse
@@ -61,9 +49,3 @@ execute if score @s[tag=highPixie,team=team5] duration.3 matches 1.. as @a[team=
 execute if score @s[tag=highPixie,team=team6] duration.3 matches 1.. as @a[team=team6] run function ssbrc:logic/characters/effects/cleanse
 execute if score @s[tag=highPixie,team=team7] duration.3 matches 1.. as @a[team=team7] run function ssbrc:logic/characters/effects/cleanse
 execute if score @s[tag=highPixie,team=team8] duration.3 matches 1.. as @a[team=team8] run function ssbrc:logic/characters/effects/cleanse
-
-# Ammo HUD
-execute unless score $joker.awakeningPercent temp matches 100.. unless score @s duration.1 matches 540.. run title @s[nbt={SelectedItem:{tag:{tt33:1}}}] actionbar {"score":{"name":"@s","objective":"joker.tt33A"},"color":"red"}
-
-# Fire Rate
-scoreboard players remove @s[scores={joker.tt33F=1..}] joker.tt33F 1

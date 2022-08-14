@@ -15,7 +15,6 @@ effect clear @s
 title @s clear
 title @s reset
 title @s actionbar ""
-function ssbrc:logic/title_times/infinite
 
 spawnpoint @s -521 5 55 90.0
 tp @s -520.5 5.0 55.5 90.0 0.0

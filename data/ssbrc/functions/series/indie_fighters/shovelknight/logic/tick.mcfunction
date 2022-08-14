@@ -12,6 +12,9 @@ execute as @e[type=minecraft:marker,tag=propellerDagger] at @s if score @s id = 
 execute as @a[tag=damage.warHorn] at @s run function ssbrc:series/indie_fighters/shovelknight/logic/abilities/war_horn/damage
 tag @s remove self
 
+# Mana
+function ssbrc:series/indie_fighters/shovelknight/logic/mana/update
+
 # Phase Locket
 execute if entity @s[tag=shovelknight.phaseLocket,predicate=ssbrc:characters/shovelknight/phase_locket/off] run function ssbrc:series/indie_fighters/shovelknight/logic/abilities/phase_locket/off
 execute if score @s[tag=shovelknight.phaseLocket] duration.2 matches 1.. run function ssbrc:logic/characters/effects/cleanse_harmful

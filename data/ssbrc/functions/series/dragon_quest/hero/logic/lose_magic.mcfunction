@@ -1,5 +1,3 @@
-function ssbrc:logic/title_times/default
-
 clear @s minecraft:carrot_on_a_stick
 
 loot replace entity @s[tag=default] hotbar.0 loot ssbrc:characters/dragon_quest/hero/sword/sword_of_light
