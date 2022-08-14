@@ -1,8 +1,8 @@
 tag @s remove snake
 
-tag @s remove loadout.antiPersonnelMine
-tag @s remove loadout.famas
-tag @s remove loadout.psg1
-tag @s remove loadout.s1000
-tag @s remove loadout.smokeGrenade
-tag @s remove loadout.socom
+tag @s remove antiPersonnelMine
+tag @s remove famas
+tag @s remove psg1
+tag @s remove s1000
+tag @s remove smokeGrenade
+tag @s remove socom
