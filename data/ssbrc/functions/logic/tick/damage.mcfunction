@@ -11,3 +11,5 @@ execute if entity @a[tag=mario] run function ssbrc:logic/tick/damage/super_mario
 execute if entity @a[tag=rob] run function ssbrc:logic/tick/damage/super_smash_bros/rob
 execute if entity @a[tag=link] run function ssbrc:logic/tick/damage/the_legend_of_zelda/link
 execute if entity @a[tag=zelda] run function ssbrc:logic/tick/damage/the_legend_of_zelda/zelda
+
+execute as @a[predicate=ssbrc:characters/damage.shockwave] at @s run function ssbrc:logic/characters/shockwave/damage
