@@ -44,3 +44,6 @@ scoreboard players add @s charge.1 10
 execute if score @s charge.1 > #zelda.maxRupees vars run scoreboard players operation @s charge.1 = #zelda.maxRupees vars
 scoreboard players reset @s charge.2
 scoreboard players reset @s charge.3
+
+scoreboard players reset @s zelda.bomb
+tag @s remove activeBomb

@@ -1,6 +1,6 @@
 scoreboard players reset $blackout temp
 
-effect give @a[tag=alive] minecraft:glowing 1000000 255 true
+effect give @a[tag=alive,tag=!snake] minecraft:glowing 1000000 255 true
 
 fill -340 8 -1165 -285 24 -1145 minecraft:light[level=15] replace minecraft:light
 fill -340 8 -1144 -285 24 -1124 minecraft:light[level=15] replace minecraft:light
