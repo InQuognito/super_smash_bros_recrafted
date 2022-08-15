@@ -7,8 +7,8 @@ execute if entity @s[scores={useAbility=1..},nbt={SelectedItem:{tag:{smokeGrenad
 
 tag @s add self
 execute as @e[tag=bullet] at @s if score @s id = @p[tag=self] id run function ssbrc:series/metal_gear_solid/snake/logic/bullets
-tag @e[tag=smokeGrenade,tag=!active,predicate=ssbrc:flag/no_vehicle] add active
-execute as @e[tag=smokeGrenade,tag=active] at @s if score @s id = @p[tag=self] id run function ssbrc:series/metal_gear_solid/snake/logic/weapons/smoke_grenade/tick
+tag @e[type=minecraft:armor_stand,tag=smokeGrenade,tag=!active,predicate=ssbrc:flag/no_vehicle] add active
+execute as @e[type=minecraft:armor_stand,tag=smokeGrenade,tag=active] at @s if score @s id = @p[tag=self] id run function ssbrc:series/metal_gear_solid/snake/logic/weapons/smoke_grenade/tick
 execute as @e[type=minecraft:item,nbt={Item:{id:"minecraft:gray_terracotta",Count:1b,tag:{antiPersonnelMine:1}}}] at @s unless score @s id matches 1.. run scoreboard players operation @s id = @p[tag=self] id
 execute as @e[type=minecraft:item,nbt={Item:{id:"minecraft:gray_terracotta",Count:1b,tag:{antiPersonnelMine:1}}}] at @s if score @s id = @p[tag=self] id run function ssbrc:series/metal_gear_solid/snake/logic/weapons/anti_personnel_mine/tick_item
 execute as @e[tag=antiPersonnelMine.inactive] at @s if score @s id = @p[tag=self] id run function ssbrc:series/metal_gear_solid/snake/logic/weapons/anti_personnel_mine/tick_inactive
