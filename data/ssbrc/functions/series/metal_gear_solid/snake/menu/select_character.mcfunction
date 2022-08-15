@@ -5,7 +5,6 @@ tellraw @s [{"text":"You have selected ","color":"white"},{"text":"Snake","color
 tellraw @s[tag=default] [{"text":"Skin: ","color":"white"},{"text":"Default","color":"gray"}]
 tellraw @s[tag=gold] [{"text":"Skin: ","color":"white"},{"text":"Gold","color":"gold"}]
 
-function ssbrc:logic/resets/tags/characters
 tag @s add snake
 
 tag @s remove selectingLoadout

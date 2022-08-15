@@ -43,6 +43,3 @@ tag @s remove characterPicked
 tag @s remove naturalShiny
 tag @s remove nextFighterChosen
 tag @s remove selectingLoadout
-
-tag @s remove yar
-tag @s remove zelda

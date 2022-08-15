@@ -1,9 +1,4 @@
-tag @s remove antiPersonnelMine
-tag @s remove famas
-tag @s remove psg1
-tag @s remove s1000
-tag @s remove smokeGrenade
-tag @s remove socom
+function ssbrc:logic/resets/tags/characters
 
 scoreboard players set @s snake.capacity 0
 
