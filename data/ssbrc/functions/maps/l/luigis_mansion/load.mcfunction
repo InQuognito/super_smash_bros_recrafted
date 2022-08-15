@@ -32,6 +32,12 @@ summon minecraft:armor_stand -338.5 16.0 -1130.5 {Invisible:1,DisabledSlots:4144
 summon minecraft:armor_stand -338.5 16.0 -1139.5 {Invisible:1,DisabledSlots:4144959,Rotation:[-90f,0f],NoGravity:1,ArmorItems:[{},{},{},{id:"minecraft:sugar",tag:{CustomModelData:1018},Count:1b}]}
 summon minecraft:armor_stand -338.5 16.0 -1142.5 {Invisible:1,DisabledSlots:4144959,Rotation:[-90f,0f],NoGravity:1,ArmorItems:[{},{},{},{id:"minecraft:sugar",tag:{CustomModelData:1018},Count:1b}]}
 
+# Easels
+summon minecraft:armor_stand -291.5 16.0 -1113.5 {Invisible:1,DisabledSlots:4144959,Rotation:[45f,0f],NoGravity:1,ArmorItems:[{},{},{},{id:"minecraft:sugar",tag:{CustomModelData:1019},Count:1b}]}
+summon minecraft:armor_stand -289.5 16.0 -1111.5 {Invisible:1,DisabledSlots:4144959,Rotation:[90f,0f],NoGravity:1,ArmorItems:[{},{},{},{id:"minecraft:sugar",tag:{CustomModelData:1019},Count:1b}]}
+summon minecraft:armor_stand -289.5 16.0 -1108.5 {Invisible:1,DisabledSlots:4144959,Rotation:[90f,0f],NoGravity:1,ArmorItems:[{},{},{},{id:"minecraft:sugar",tag:{CustomModelData:1019},Count:1b}]}
+summon minecraft:armor_stand -291.5 16.0 -1106.5 {Invisible:1,DisabledSlots:4144959,Rotation:[135f,0f],NoGravity:1,ArmorItems:[{},{},{},{id:"minecraft:sugar",tag:{CustomModelData:1019},Count:1b}]}
+
 # Lanterns
 summon minecraft:marker -295.5 20.5 -1112.5 {Tags:["lanternOff.hanging"]}
 summon minecraft:marker -291.5 19.5 -1137.5 {Tags:["lanternOff.hanging"]}
