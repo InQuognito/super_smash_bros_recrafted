@@ -1,6 +1,6 @@
-execute positioned ~ ~ ~-1 run kill @e[type=minecraft:area_effect_cloud,dx=0,dy=3,dz=2]
-fill ~ ~-2 ~-1 ~ ~5 ~2 minecraft:air replace minecraft:barrier
-fill ~ ~ ~-1 ~ ~3 ~2 minecraft:barrier replace minecraft:air
+execute positioned ~ ~ ~-1.5 run kill @e[type=minecraft:area_effect_cloud,dx=0,dy=3,dz=3]
+execute positioned ~ ~ ~-1.5 run fill ~ ~-2 ~ ~ ~5 ~3 minecraft:air replace minecraft:barrier
+execute positioned ~ ~ ~-1.5 run fill ~ ~ ~ ~ ~3 ~3 minecraft:barrier replace minecraft:air
 
 execute if entity @s[tag=!destroyer] if block ~ ~-0.1 ~ minecraft:stripped_jungle_log run function ssbrc:maps/b/bowsers_castle/logic/hazards/destruction/bridge/partial
 execute if entity @s[tag=!destroyer] if block ~ ~-0.1 ~ minecraft:polished_andesite run function ssbrc:maps/b/bowsers_castle/logic/hazards/destruction/bridge/full
