@@ -84,6 +84,7 @@ scoreboard objectives remove steve.tier
 scoreboard objectives remove stocks
 scoreboard objectives remove teamAmount
 scoreboard objectives remove timer
+scoreboard objectives remove timer.barrelCannon
 scoreboard objectives remove timer.stalfos
 scoreboard objectives remove timer.trident
 scoreboard objectives remove temp

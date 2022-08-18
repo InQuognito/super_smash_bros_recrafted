@@ -84,6 +84,7 @@ scoreboard objectives add steve.tier dummy
 scoreboard objectives add stocks dummy
 scoreboard objectives add teamAmount dummy
 scoreboard objectives add timer dummy
+scoreboard objectives add timer.barrelCannon dummy
 scoreboard objectives add timer.stalfos dummy
 scoreboard objectives add timer.trident dummy
 scoreboard objectives add temp dummy

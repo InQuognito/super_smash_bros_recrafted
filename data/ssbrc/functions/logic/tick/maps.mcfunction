@@ -5,6 +5,7 @@ execute if score $castleSiege map matches 1 run function ssbrc:maps/c/castle_sie
 execute if score $draculasCastle map matches 1 run function ssbrc:maps/d/draculas_castle/logic/tick
 execute if score $finalDestination map matches 1 run function ssbrc:maps/f/final_destination/logic/tick
 execute if score $flatZone map matches 1 run function ssbrc:maps/f/flat_zone/logic/tick
+execute if score $frozenHijinx map matches 1 run function ssbrc:maps/f/frozen_hijinx/logic/tick
 execute if score $gardenOfHope map matches 1 run function ssbrc:maps/g/garden_of_hope/logic/tick
 execute if score $greatBay map matches 1 run function ssbrc:maps/g/great_bay/logic/tick
 execute if score $greatPlateau map matches 1 run function ssbrc:maps/g/great_plateau/logic/tick
