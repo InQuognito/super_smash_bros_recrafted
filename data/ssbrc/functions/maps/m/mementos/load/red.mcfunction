@@ -1,3 +1,5 @@
+scoreboard players set $mementosType map 3
+
 time set night
 
 # Logo

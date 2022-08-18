@@ -1,3 +1,5 @@
+scoreboard players set $mementosType map 1
+
 time set 15000
 
 # Logo
