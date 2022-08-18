@@ -1,4 +1,4 @@
-execute positioned 0.0 0.0 0.0 run summon minecraft:marker ^ ^ ^1 {Tags:["direction"]}
+execute positioned 0.0 0.0 0.0 run summon minecraft:marker ^ ^ ^1.5 {Tags:["direction"]}
 
 summon minecraft:armor_stand ^ ^ ^ {Tags:["barrelCannon.path","projectile"],Invisible:1b,Small:1b}
 
