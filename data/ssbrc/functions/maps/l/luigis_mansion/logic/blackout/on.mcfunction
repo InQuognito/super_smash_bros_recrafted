@@ -1,6 +1,8 @@
 scoreboard players set $blackout temp 1
 
 effect clear @a[tag=alive] minecraft:glowing
+effect clear @e[tag=stalfos] minecraft:glowing
+execute as @e[nbt={Item:{tag:{Tags:[steve.item]}}}] run data merge entity @s {Glowing:0}
 
 fill -340 8 -1165 -285 24 -1145 minecraft:light[level=0] replace minecraft:light
 fill -340 8 -1144 -285 24 -1124 minecraft:light[level=0] replace minecraft:light
@@ -42,4 +44,4 @@ execute at @e[type=minecraft:marker,tag=lanternOff.hanging] run summon minecraft
 
 execute as @a at @s run playsound ssbrc:blackout ambient @s
 
-schedule function ssbrc:maps/l/luigis_mansion/logic/blackout_off 40s replace
+schedule function ssbrc:maps/l/luigis_mansion/logic/blackout/off 40s replace

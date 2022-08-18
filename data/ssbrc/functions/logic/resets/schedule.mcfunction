@@ -51,8 +51,8 @@ schedule clear ssbrc:maps/f/flat_zone/logic/zookeeper_1
 schedule clear ssbrc:maps/f/flat_zone/logic/zookeeper_2
 
 # Luigis Mansion
-schedule clear ssbrc:maps/l/luigis_mansion/logic/blackout_check
-schedule clear ssbrc:maps/l/luigis_mansion/logic/blackout_off
+schedule clear ssbrc:maps/l/luigis_mansion/logic/blackout/check
+schedule clear ssbrc:maps/l/luigis_mansion/logic/blackout/off
 
 # Pac-Maze
 schedule clear ssbrc:maps/p/pac_maze/logic/ghosts/blinky/release
