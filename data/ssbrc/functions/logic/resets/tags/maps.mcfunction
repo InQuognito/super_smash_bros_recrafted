@@ -12,6 +12,7 @@ tag @s remove gardenOfHope
 tag @s remove greatBay
 tag @s remove greatPlateau
 tag @s remove greenHillZone
+tag @s remove hyruleCastle
 tag @s remove icicleMountain
 tag @s remove jungleJapes
 tag @s remove luigisMansion
