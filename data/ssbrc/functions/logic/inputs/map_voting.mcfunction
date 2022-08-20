@@ -12,6 +12,7 @@ execute positioned 10.5 10.5 23.5 if block ~ ~ ~ #minecraft:buttons[powered=true
 execute positioned 10.5 4.5 17.5 if block ~ ~ ~ #minecraft:buttons[powered=true] run function ssbrc:maps/g/great_bay/vote
 execute positioned -3.5 4.5 23.5 if block ~ ~ ~ #minecraft:buttons[powered=true] run function ssbrc:maps/g/great_plateau/vote
 execute positioned 10.5 4.5 19.5 if block ~ ~ ~ #minecraft:buttons[powered=true] run function ssbrc:maps/g/green_hill_zone/vote
+execute positioned 1.5 10.5 14.5 if block ~ ~ ~ #minecraft:buttons[powered=true] run function ssbrc:maps/h/hyrule_castle/vote
 execute positioned 1.5 4.5 14.5 if block ~ ~ ~ #minecraft:buttons[powered=true] run function ssbrc:maps/i/icicle_mountain/vote
 execute positioned 3.5 4.5 14.5 if block ~ ~ ~ #minecraft:buttons[powered=true] run function ssbrc:maps/j/jungle_japes/vote
 execute positioned 3.5 10.5 14.5 if block ~ ~ ~ #minecraft:buttons[powered=true] run function ssbrc:maps/l/luigis_mansion/vote
