@@ -14,6 +14,7 @@ execute unless score #mapPicked mapVote matches 1 if entity @s[tag=gardenOfHope]
 execute unless score #mapPicked mapVote matches 1 if entity @s[tag=greatBay] run function ssbrc:maps/g/great_bay/load
 execute unless score #mapPicked mapVote matches 1 if entity @s[tag=greatPlateau] run function ssbrc:maps/g/great_plateau/load
 execute unless score #mapPicked mapVote matches 1 if entity @s[tag=greenHillZone] run function ssbrc:maps/g/green_hill_zone/load
+execute unless score #mapPicked mapVote matches 1 if entity @s[tag=hyruleCastle] run function ssbrc:maps/h/hyrule_castle/load
 execute unless score #mapPicked mapVote matches 1 if entity @s[tag=icicleMountain] run function ssbrc:maps/i/icicle_mountain/load
 execute unless score #mapPicked mapVote matches 1 if entity @s[tag=jungleJapes] run function ssbrc:maps/j/jungle_japes/load
 execute unless score #mapPicked mapVote matches 1 if entity @s[tag=luigisMansion] run function ssbrc:maps/l/luigis_mansion/load
