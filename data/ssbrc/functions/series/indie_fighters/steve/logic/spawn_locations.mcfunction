@@ -144,6 +144,17 @@ execute if score $greenHillZone map matches 1 if score result random matches 7 r
 execute if score $greenHillZone map matches 1 if score result random matches 8 run teleport @s -23 18 226
 execute if score $greenHillZone map matches 1 if score result random matches 9 run teleport @s -35 20 214
 
+execute if score $hyruleCastle map matches 1 if score result random matches 0 run teleport @s 6981 45 1747
+execute if score $hyruleCastle map matches 1 if score result random matches 1 run teleport @s 7001 29 220
+execute if score $hyruleCastle map matches 1 if score result random matches 2 run teleport @s 6976 30 173
+execute if score $hyruleCastle map matches 1 if score result random matches 3 run teleport @s 7028 41 186
+execute if score $hyruleCastle map matches 1 if score result random matches 4 run teleport @s 7009 33 193
+execute if score $hyruleCastle map matches 1 if score result random matches 5 run teleport @s 7007 31 209
+execute if score $hyruleCastle map matches 1 if score result random matches 6 run teleport @s 6958 41 195
+execute if score $hyruleCastle map matches 1 if score result random matches 7 run teleport @s 6949 43 162
+execute if score $hyruleCastle map matches 1 if score result random matches 8 run teleport @s 6997 33 149
+execute if score $hyruleCastle map matches 1 if score result random matches 9 run teleport @s 7027 34 144
+
 execute if score $icicleMountain map matches 1 if score result random matches 0 run teleport @s 1082 24 879
 execute if score $icicleMountain map matches 1 if score result random matches 1 run teleport @s 1071 19 874
 execute if score $icicleMountain map matches 1 if score result random matches 2 run teleport @s 1049 17 880
