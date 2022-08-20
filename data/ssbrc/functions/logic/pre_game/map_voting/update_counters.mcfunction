@@ -12,6 +12,7 @@ execute if entity @s[tag=gardenOfHope] run scoreboard players remove @e[tag=vote
 execute if entity @s[tag=greatBay] run scoreboard players remove @e[tag=voteCounter,tag=greatBay] mapVote 1
 execute if entity @s[tag=greatPlateau] run scoreboard players remove @e[tag=voteCounter,tag=greatPlateau] mapVote 1
 execute if entity @s[tag=greenHillZone] run scoreboard players remove @e[tag=voteCounter,tag=greenHillZone] mapVote 1
+execute if entity @s[tag=hyruleCastle] run scoreboard players remove @e[tag=voteCounter,tag=hyruleCastle] mapVote 1
 execute if entity @s[tag=icicleMountain] run scoreboard players remove @e[tag=voteCounter,tag=icicleMountain] mapVote 1
 execute if entity @s[tag=jungleJapes] run scoreboard players remove @e[tag=voteCounter,tag=jungleJapes] mapVote 1
 execute if entity @s[tag=luigisMansion] run scoreboard players remove @e[tag=voteCounter,tag=luigisMansion] mapVote 1
