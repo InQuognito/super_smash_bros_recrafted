@@ -43,6 +43,9 @@ summon minecraft:glow_item_frame -3.5 5.0 23.5 {Fixed:1b,Invisible:1b,Facing:5b,
 # Green Hill Zone
 summon minecraft:area_effect_cloud 10.5 5.0 19.5 {Age:-2147483648,Duration:-1,WaitTime:-2147483648,Tags:["voteCounter","greenHillZone"],CustomNameVisible:1b}
 summon minecraft:glow_item_frame 10.5 5.0 19.5 {Fixed:1b,Invisible:1b,Facing:4b,Item:{id:"minecraft:sugar",tag:{CustomModelData:750},Count:1b}}
+# Hyrule Castle
+summon minecraft:area_effect_cloud 1.5 11.0 14.5 {Age:-2147483648,Duration:-1,WaitTime:-2147483648,Tags:["voteCounter","hyruleCastle"],CustomNameVisible:1b}
+summon minecraft:glow_item_frame 1.5 11.0 14.5 {Fixed:1b,Invisible:1b,Facing:3b,Item:{id:"minecraft:sugar",tag:{CustomModelData:800},Count:1b}}
 # Icicle Mountain
 summon minecraft:area_effect_cloud 1.5 5.0 14.5 {Age:-2147483648,Duration:-1,WaitTime:-2147483648,Tags:["voteCounter","icicleMountain"],CustomNameVisible:1b}
 summon minecraft:glow_item_frame 1.5 5.0 14.5 {Fixed:1b,Invisible:1b,Facing:3b,Item:{id:"minecraft:sugar",tag:{CustomModelData:850},Count:1b}}
