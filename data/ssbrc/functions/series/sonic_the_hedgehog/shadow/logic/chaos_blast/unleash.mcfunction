@@ -1,4 +1,4 @@
-effect give @a[distance=0.1..2.0] minecraft:instant_damage 1 1 true
+tag @a[tag=alive,scores={respawn=..0},gamemode=adventure,distance=0.1..2.0] add damage.chaosBlast
 
 attribute @s generic.knockback_resistance base set 0.0
 
