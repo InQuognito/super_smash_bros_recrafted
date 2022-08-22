@@ -1,3 +1,5 @@
+clear @a
+
 scoreboard players reset @a useAbility
 execute as @a run function ssbrc:logic/resets/triggers
 

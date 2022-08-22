@@ -1,0 +1,22 @@
+{
+	"parent": "ssbrc:utility/root",
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:entity_hurt_player",
+			"conditions": {
+				"damage": {
+					"source_entity": {
+						"equipment": {
+							"mainhand": {
+								"nbt": "{emerald:1}"
+							}
+						}
+					}
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "ssbrc:series/the_legend_of_zelda/zelda/logic/emerald_check"
+	}
+}

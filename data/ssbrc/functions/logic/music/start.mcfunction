@@ -111,7 +111,7 @@ execute if score $hyruleCastle map matches 1 if score result_music random matche
 execute if score $hyruleCastle map matches 1 if score result_music random matches 0 run tellraw @a [{"text":"Now Playing: ","bold":true,"color":"gold"},{"text":"Ballad of the Goddess","color":"yellow"}]
 execute if score $hyruleCastle map matches 1 if score result_music random matches 0 run schedule function ssbrc:logic/music/loop 500t replace
 execute if score $hyruleCastle map matches 1 if score result_music random matches 1 as @a at @s run playsound ssbrc:hyrule_castle_intro music @s
-execute if score $hyruleCastle map matches 1 if score result_music random matches 1 run tellraw @a [{"text":"Now Playing: ","bold":true,"color":"gold"},{"text":"Hyrule Castle","color":"yellow"}]
+execute if score $hyruleCastle map matches 1 if score result_music random matches 1 run tellraw @a [{"text":"Now Playing: ","bold":true,"color":"gold"},{"text":"Hyrule Castle Theme","color":"yellow"}]
 execute if score $hyruleCastle map matches 1 if score result_music random matches 1 run schedule function ssbrc:logic/music/loop 1720t replace
 
 execute if score $icicleMountain map matches 1 if score result_music random matches 0 as @a at @s run playsound ssbrc:ice_climber_melee_intro music @s
