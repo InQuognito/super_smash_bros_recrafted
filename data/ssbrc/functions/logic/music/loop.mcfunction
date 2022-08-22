@@ -252,12 +252,12 @@ execute if score $spearPillar map matches 1 if score result_music random matches
 execute if score $spearPillar map matches 1 if score result_music random matches 1 if score $music options matches 0 run schedule function ssbrc:logic/music/loop 1280t replace
 execute if score $spearPillar map matches 1 if score result_music random matches 1 if score $music options matches 1 run schedule function ssbrc:logic/music/start 1240t replace
 
-execute if score $suzaku_castle map matches 1 if score result_music random matches 0 as @a at @s run playsound ssbrc:ryu_stage music @s
-execute if score $suzaku_castle map matches 1 if score result_music random matches 0 if score $music options matches 0 run schedule function ssbrc:logic/music/loop 2900t replace
-execute if score $suzaku_castle map matches 1 if score result_music random matches 0 if score $music options matches 1 run schedule function ssbrc:logic/music/start 2900t replace
-execute if score $suzaku_castle map matches 1 if score result_music random matches 1 as @a at @s run playsound ssbrc:street_fighter_4_intro music @s
-execute if score $suzaku_castle map matches 1 if score result_music random matches 1 if score $music options matches 0 run schedule function ssbrc:logic/music/loop 4600t replace
-execute if score $suzaku_castle map matches 1 if score result_music random matches 1 if score $music options matches 1 run schedule function ssbrc:logic/music/start 4600t replace
+execute if score $suzakuCastle map matches 1 if score result_music random matches 0 as @a at @s run playsound ssbrc:ryu_stage music @s
+execute if score $suzakuCastle map matches 1 if score result_music random matches 0 if score $music options matches 0 run schedule function ssbrc:logic/music/loop 2900t replace
+execute if score $suzakuCastle map matches 1 if score result_music random matches 0 if score $music options matches 1 run schedule function ssbrc:logic/music/start 2900t replace
+execute if score $suzakuCastle map matches 1 if score result_music random matches 1 as @a at @s run playsound ssbrc:street_fighter_4_intro music @s
+execute if score $suzakuCastle map matches 1 if score result_music random matches 1 if score $music options matches 0 run schedule function ssbrc:logic/music/loop 4600t replace
+execute if score $suzakuCastle map matches 1 if score result_music random matches 1 if score $music options matches 1 run schedule function ssbrc:logic/music/start 4600t replace
 
 execute if score $towerOfFate map matches 1 if score result_music random matches 0 as @a at @s run playsound ssbrc:hitting_close_to_home music @s
 execute if score $towerOfFate map matches 1 if score result_music random matches 0 if score $music options matches 0 run schedule function ssbrc:logic/music/loop 5120t replace

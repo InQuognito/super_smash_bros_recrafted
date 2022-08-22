@@ -13,8 +13,6 @@ scoreboard players operation @e[tag=projectile,limit=1] temp = @s zelda.bomb
 tag @e[tag=projectile] remove projectile
 kill @e[tag=direction]
 
-scoreboard players operation @s mana -= #bombMagicCost temp
-
 scoreboard players set @s cooldown.1 20
 execute if score @s shadow.chaosControl matches 1.. run function ssbrc:logic/characters/cooldown_modifiers/chaos_control/1
 
