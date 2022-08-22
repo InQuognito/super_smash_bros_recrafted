@@ -6,5 +6,7 @@ execute if block ^ ^ ^0.7 #ssbrc:passthrough_charge run tp @s ^ ^ ^0.6
 
 tp @p[tag=self,scores={duration.1=1..}] ^ ^ ^ ~ ~
 
+tag @a[tag=alive,scores={respawn=..0},gamemode=adventure,distance=0.1..1.5] add damage.flareBlitz
+
 scoreboard players add @s temp 1
 kill @s[scores={temp=30..}]

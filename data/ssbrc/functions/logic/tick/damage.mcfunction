@@ -5,6 +5,7 @@ execute if entity @a[tag=sora] run function ssbrc:logic/tick/damage/kingdom_hear
 execute if entity @a[tag=darksamus] run function ssbrc:logic/tick/damage/metroid/darksamus
 execute if entity @a[tag=greninja] run function ssbrc:logic/tick/damage/pokemon/greninja
 execute if entity @a[tag=pikachu] run function ssbrc:logic/tick/damage/pokemon/pikachu
+execute if entity @a[tag=pokemontrainer] run function ssbrc:logic/tick/damage/pokemon/pokemontrainer
 execute if entity @a[tag=alteredbeast] run function ssbrc:logic/tick/damage/retro_fighters/alteredbeast
 execute if entity @a[tag=shadow] run function ssbrc:logic/tick/damage/sonic_the_hedgehog/shadow
 execute if entity @a[tag=bowser] run function ssbrc:logic/tick/damage/super_mario_bros/bowser

@@ -5,6 +5,7 @@ execute if score $sectorZ map matches 1 run function ssbrc:maps/s/sector_z/logic
 
 effect give @s[tag=greninja] minecraft:conduit_power 1000000 255 true
 effect give @s[tag=greninja] minecraft:dolphins_grace 1000000 255 true
+effect give @s[tag=squirtle] minecraft:water_breathing 1000000 255 true
 
 effect give @s minecraft:saturation 1000000 255 true
 
