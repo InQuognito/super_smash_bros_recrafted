@@ -26,7 +26,7 @@ data modify entity @e[tag=projectile,limit=1] Motion set from entity @e[tag=dire
 
 scoreboard players set @s charge.1 0
 
-tag @e[tag=projectile] remove projectile
+tag @e[tag=projectile,limit=1] remove projectile
 kill @e[tag=direction]
 
 item modify entity @s weapon.mainhand ssbrc:characters/darksamus/phazon_beam

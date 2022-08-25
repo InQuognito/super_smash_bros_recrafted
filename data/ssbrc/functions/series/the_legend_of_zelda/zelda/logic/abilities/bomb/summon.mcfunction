@@ -10,7 +10,7 @@ data modify entity @e[tag=projectile,limit=1] Motion set from entity @e[tag=dire
 
 scoreboard players operation @e[tag=projectile,limit=1] temp = @s zelda.bomb
 
-tag @e[tag=projectile] remove projectile
+tag @e[tag=projectile,limit=1] remove projectile
 kill @e[tag=direction]
 
 scoreboard players set @s cooldown.1 20

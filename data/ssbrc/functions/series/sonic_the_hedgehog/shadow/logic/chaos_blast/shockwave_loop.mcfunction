@@ -10,7 +10,7 @@ scoreboard players operation @e[tag=projectile,limit=1] id = @p[tag=shadow,tag=a
 data modify entity @e[tag=projectile,limit=1] Owner set from entity @p[tag=shadow,tag=alive,scores={respawn=..0}] UUID
 data modify entity @e[tag=projectile,limit=1] Motion set from entity @e[tag=direction,limit=1] Pos
 
-tag @e[tag=projectile] remove projectile
+tag @e[tag=projectile,limit=1] remove projectile
 kill @e[tag=direction]
 
 scoreboard players add @s temp 2

@@ -4,5 +4,5 @@ summon minecraft:armor_stand ^ ^ ^ {Tags:["barrelCannon.path","projectile"],Invi
 
 data modify entity @e[tag=projectile,limit=1] Motion set from entity @e[tag=direction,limit=1] Pos
 
-tag @e[tag=projectile] remove projectile
+tag @e[tag=projectile,limit=1] remove projectile
 kill @e[tag=direction]

@@ -5,7 +5,7 @@ data modify entity @e[tag=projectile,limit=1] Rotation set from entity @s Rotati
 data modify entity @e[tag=projectile,limit=1] Rotation[1] set value 15.0f
 data modify entity @e[tag=projectile,limit=1] Owner set from entity @s UUID
 
-tag @e[tag=projectile] remove projectile
+tag @e[tag=projectile,limit=1] remove projectile
 
 scoreboard players set @s cooldown.1 40
 
