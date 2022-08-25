@@ -9,4 +9,4 @@ execute if score @s temp matches 30 run tag @a[tag=alive,scores={respawn=..0},ga
 execute if score @s temp matches 60.. run function ssbrc:series/final_fantasy/cloud/logic/cross_slash/particles/middle_x
 execute if score @s temp matches 60 run tag @a[tag=alive,scores={respawn=..0},gamemode=adventure,dx=0] add damage.crossSlash
 
-execute if score @s temp matches 90.. run function ssbrc:series/final_fantasy/cloud/logic/cross_slash/enable
+execute if score @s temp matches 90.. run function ssbrc:series/final_fantasy/cloud/logic/cross_slash/end

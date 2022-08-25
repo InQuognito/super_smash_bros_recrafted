@@ -3,6 +3,7 @@ tag @s remove favoritetry.alucard
 tag @s remove favoritetry.bowser
 tag @s remove favoritetry.byleth
 tag @s remove favoritetry.captainfalcon
+tag @s remove favoritetry.cloud
 tag @s remove favoritetry.darksamus
 tag @s remove favoritetry.donkeykong
 tag @s remove favoritetry.fox
