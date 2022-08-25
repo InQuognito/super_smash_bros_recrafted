@@ -114,9 +114,7 @@ scoreboard players set @e[tag=voteCounter] mapVote 0
 execute as @e[tag=voteCounter] unless score @s mapVote = @s temp run tag @s add voteCounter.update
 execute as @e[tag=voteCounter.update,sort=random,limit=1] run function ssbrc:logic/pre_game/map_voting/update_counters_entity
 
-execute as @a[team=!spectator,tag=!room.characterSelect] run function ssbrc:logic/spectate
-execute as @a[team=waiting,tag=!characterPicked] run function ssbrc:logic/spectate
-
+execute as @a[tag=byleth,tag=selectingLoadout] run function ssbrc:series/fire_emblem/byleth/menu/select_character
 execute as @a[tag=snake,tag=selectingLoadout] run function ssbrc:series/metal_gear_solid/snake/menu/select_character
 
 gamemode spectator @a[team=spectator]
