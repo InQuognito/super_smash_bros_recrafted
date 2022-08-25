@@ -13,5 +13,5 @@ execute if score #percentage temp matches 71..80 run title @s actionbar [{"text"
 execute if score #percentage temp matches 81..90 run title @s actionbar [{"text":"Mana: ","bold":true,"color":"white"},{"text":"\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae","color":"dark_aqua"}]
 execute if score #percentage temp matches 91.. run title @s actionbar [{"text":"Mana: ","bold":true,"color":"white"},{"text":"\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae","color":"dark_aqua"}]
 
-execute if score @s mana >= #shovelknight.maxMana vars run function ssbrc:series/indie_fighters/shovelknight/logic/mana/deplete
+execute if score @s mana matches ..0 run function ssbrc:series/indie_fighters/shovelknight/logic/mana/deplete
 execute if score @s mana > #shovelknight.maxMana vars run scoreboard players operation @s mana = #shovelknight.maxMana vars
