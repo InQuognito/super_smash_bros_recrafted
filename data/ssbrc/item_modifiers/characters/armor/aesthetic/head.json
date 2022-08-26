@@ -1274,7 +1274,7 @@
 				"condition": "minecraft:entity_properties",
 				"entity": "this",
 				"predicate": {
-					"nbt": "{Tags:[\"samus\",\"gravity\"]}"
+					"nbt": "{Tags:[\"samus\",\"gravitySuit\"]}"
 				}
 			}
 		]
@@ -1287,7 +1287,7 @@
 				"condition": "minecraft:entity_properties",
 				"entity": "this",
 				"predicate": {
-					"nbt": "{Tags:[\"samus\",\"phazon\"]}"
+					"nbt": "{Tags:[\"samus\",\"phazonSuit\"]}"
 				}
 			}
 		]
