@@ -25,6 +25,7 @@ tag @s remove favoritetry.pokemontrainer
 tag @s remove favoritetry.rob
 tag @s remove favoritetry.ryu
 tag @s remove favoritetry.samus
+tag @s remove favoritetry.shadow
 tag @s remove favoritetry.shovelknight
 tag @s remove favoritetry.snake
 tag @s remove favoritetry.sonic
