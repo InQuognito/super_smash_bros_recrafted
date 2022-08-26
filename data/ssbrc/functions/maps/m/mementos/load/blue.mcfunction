@@ -172,4 +172,4 @@ fill -1127 91 808 -1127 100 948 minecraft:lapis_block replace minecraft:red_glaz
 fill -1127 91 808 -1127 100 948 minecraft:lapis_block replace minecraft:yellow_glazed_terracotta
 
 fill -1248 100 809 -1128 100 947 minecraft:blue_stained_glass replace minecraft:red_stained_glass
-fill -1248 100 809 -1128 100 947 minecraft:blue_stained_glass replace minecraft:yellow_stained_glass
+fill -1248 100 809 -1128 100 947 minecraft:blue_stained_glass replace minecraft:orange_stained_glass
