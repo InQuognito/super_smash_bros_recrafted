@@ -43,10 +43,35 @@ fill -706 40 842 -706 42 846 minecraft:air replace
 fill -704 43 821 -700 43 823 minecraft:waxed_copper_block replace
 fill -704 40 820 -700 42 820 minecraft:air replace
 
-summon minecraft:glow_item_frame -684.5 24.0 847.5 {Fixed:1b,Invisible:1b,Facing:1b,ItemRotation:6b,Item:{id:"minecraft:sugar",tag:{CustomModelData:152},Count:1b}}
-summon minecraft:glow_item_frame -684.5 24.0 841.5 {Fixed:1b,Invisible:1b,Facing:1b,ItemRotation:6b,Item:{id:"minecraft:sugar",tag:{CustomModelData:153},Count:1b}}
-summon minecraft:glow_item_frame -678.5 24.0 847.5 {Fixed:1b,Invisible:1b,Facing:1b,ItemRotation:6b,Item:{id:"minecraft:sugar",tag:{CustomModelData:154},Count:1b}}
-summon minecraft:glow_item_frame -678.5 24.0 841.5 {Fixed:1b,Invisible:1b,Facing:1b,ItemRotation:6b,Item:{id:"minecraft:sugar",tag:{CustomModelData:155},Count:1b}}
+summon minecraft:glow_item_frame -687.5 24.0 850.5 {Fixed:1b,Invisible:1b,Facing:1b,ItemRotation:6b,Item:{id:"minecraft:sugar",tag:{CustomModelData:159},Count:1b}}
+summon minecraft:glow_item_frame -687.5 24.0 847.5 {Fixed:1b,Invisible:1b,Facing:1b,ItemRotation:6b,Item:{id:"minecraft:sugar",tag:{CustomModelData:160},Count:1b}}
+summon minecraft:glow_item_frame -687.5 24.0 844.5 {Fixed:1b,Invisible:1b,Facing:1b,ItemRotation:6b,Item:{id:"minecraft:sugar",tag:{CustomModelData:161},Count:1b}}
+summon minecraft:glow_item_frame -687.5 24.0 841.5 {Fixed:1b,Invisible:1b,Facing:1b,ItemRotation:6b,Item:{id:"minecraft:sugar",tag:{CustomModelData:162},Count:1b}}
+summon minecraft:glow_item_frame -687.5 24.0 838.5 {Fixed:1b,Invisible:1b,Facing:1b,ItemRotation:6b,Item:{id:"minecraft:sugar",tag:{CustomModelData:163},Count:1b}}
+
+summon minecraft:glow_item_frame -684.5 24.0 850.5 {Fixed:1b,Invisible:1b,Facing:1b,ItemRotation:6b,Item:{id:"minecraft:sugar",tag:{CustomModelData:164},Count:1b}}
+summon minecraft:glow_item_frame -684.5 24.0 847.5 {Fixed:1b,Invisible:1b,Facing:1b,ItemRotation:6b,Item:{id:"minecraft:sugar",tag:{CustomModelData:165},Count:1b}}
+summon minecraft:glow_item_frame -684.5 24.0 844.5 {Fixed:1b,Invisible:1b,Facing:1b,ItemRotation:6b,Item:{id:"minecraft:sugar",tag:{CustomModelData:166},Count:1b}}
+summon minecraft:glow_item_frame -684.5 24.0 841.5 {Fixed:1b,Invisible:1b,Facing:1b,ItemRotation:6b,Item:{id:"minecraft:sugar",tag:{CustomModelData:167},Count:1b}}
+summon minecraft:glow_item_frame -684.5 24.0 838.5 {Fixed:1b,Invisible:1b,Facing:1b,ItemRotation:6b,Item:{id:"minecraft:sugar",tag:{CustomModelData:168},Count:1b}}
+
+summon minecraft:glow_item_frame -681.5 24.0 850.5 {Fixed:1b,Invisible:1b,Facing:1b,ItemRotation:6b,Item:{id:"minecraft:sugar",tag:{CustomModelData:169},Count:1b}}
+summon minecraft:glow_item_frame -681.5 24.0 847.5 {Fixed:1b,Invisible:1b,Facing:1b,ItemRotation:6b,Item:{id:"minecraft:sugar",tag:{CustomModelData:170},Count:1b}}
+summon minecraft:glow_item_frame -681.5 24.0 844.5 {Fixed:1b,Invisible:1b,Facing:1b,ItemRotation:6b,Item:{id:"minecraft:sugar",tag:{CustomModelData:171},Count:1b}}
+summon minecraft:glow_item_frame -681.5 24.0 841.5 {Fixed:1b,Invisible:1b,Facing:1b,ItemRotation:6b,Item:{id:"minecraft:sugar",tag:{CustomModelData:172},Count:1b}}
+summon minecraft:glow_item_frame -681.5 24.0 838.5 {Fixed:1b,Invisible:1b,Facing:1b,ItemRotation:6b,Item:{id:"minecraft:sugar",tag:{CustomModelData:173},Count:1b}}
+
+summon minecraft:glow_item_frame -678.5 24.0 850.5 {Fixed:1b,Invisible:1b,Facing:1b,ItemRotation:6b,Item:{id:"minecraft:sugar",tag:{CustomModelData:174},Count:1b}}
+summon minecraft:glow_item_frame -678.5 24.0 847.5 {Fixed:1b,Invisible:1b,Facing:1b,ItemRotation:6b,Item:{id:"minecraft:sugar",tag:{CustomModelData:175},Count:1b}}
+summon minecraft:glow_item_frame -678.5 24.0 844.5 {Fixed:1b,Invisible:1b,Facing:1b,ItemRotation:6b,Item:{id:"minecraft:sugar",tag:{CustomModelData:176},Count:1b}}
+summon minecraft:glow_item_frame -678.5 24.0 841.5 {Fixed:1b,Invisible:1b,Facing:1b,ItemRotation:6b,Item:{id:"minecraft:sugar",tag:{CustomModelData:177},Count:1b}}
+summon minecraft:glow_item_frame -678.5 24.0 838.5 {Fixed:1b,Invisible:1b,Facing:1b,ItemRotation:6b,Item:{id:"minecraft:sugar",tag:{CustomModelData:178},Count:1b}}
+
+summon minecraft:glow_item_frame -675.5 24.0 850.5 {Fixed:1b,Invisible:1b,Facing:1b,ItemRotation:6b,Item:{id:"minecraft:sugar",tag:{CustomModelData:179},Count:1b}}
+summon minecraft:glow_item_frame -675.5 24.0 847.5 {Fixed:1b,Invisible:1b,Facing:1b,ItemRotation:6b,Item:{id:"minecraft:sugar",tag:{CustomModelData:180},Count:1b}}
+summon minecraft:glow_item_frame -675.5 24.0 844.5 {Fixed:1b,Invisible:1b,Facing:1b,ItemRotation:6b,Item:{id:"minecraft:sugar",tag:{CustomModelData:181},Count:1b}}
+summon minecraft:glow_item_frame -675.5 24.0 841.5 {Fixed:1b,Invisible:1b,Facing:1b,ItemRotation:6b,Item:{id:"minecraft:sugar",tag:{CustomModelData:182},Count:1b}}
+summon minecraft:glow_item_frame -675.5 24.0 838.5 {Fixed:1b,Invisible:1b,Facing:1b,ItemRotation:6b,Item:{id:"minecraft:sugar",tag:{CustomModelData:183},Count:1b}}
 
 summon minecraft:glow_item_frame -736.5 33.0 867.5 {Fixed:1b,Invisible:1b,Facing:5b,Item:{id:"minecraft:sugar",tag:{CustomModelData:151},Count:1b}}
 summon minecraft:glow_item_frame -736.5 33.0 822.5 {Fixed:1b,Invisible:1b,Facing:5b,Item:{id:"minecraft:sugar",tag:{CustomModelData:151},Count:1b}}
