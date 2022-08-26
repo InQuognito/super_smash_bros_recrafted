@@ -1,4 +1,4 @@
-tag @s[tag=!gold,tag=!gravity,tag=!phazon] add default
+tag @s[tag=!gold,tag=!gravitySuit,tag=!phazonSuit] add default
 
 tellraw @s [{"text":"You have selected ","color":"white"},{"text":"Samus","color":"gold"},{"text":"!","color":"white"}]
 
