@@ -31,17 +31,17 @@ fill -726 43 842 -724 43 846 minecraft:waxed_copper_block replace
 fill -727 40 842 -727 42 846 minecraft:air replace
 
 # Thwomp Chamber - Left
-fill -704 43 865 -700 43 867 minecraft:waxed_copper_block replace
-fill -704 40 868 -700 42 868 minecraft:air replace
-fill -704 29 866 -701 47 866 minecraft:air replace minecraft:barrier
+fill -705 43 865 -700 43 867 minecraft:waxed_copper_block replace
+fill -705 40 868 -700 42 868 minecraft:air replace
+fill -705 29 866 -701 47 866 minecraft:air replace minecraft:barrier
 
 # Thwomp Chamber - Middle
 fill -703 43 842 -705 43 846 minecraft:waxed_copper_block replace
 fill -706 40 842 -706 42 846 minecraft:air replace
 
 # Thwomp Chamber - Right
-fill -704 43 821 -700 43 823 minecraft:waxed_copper_block replace
-fill -704 40 820 -700 42 820 minecraft:air replace
+fill -705 43 821 -700 43 823 minecraft:waxed_copper_block replace
+fill -705 40 820 -700 42 820 minecraft:air replace
 
 summon minecraft:glow_item_frame -687.5 24.0 850.5 {Fixed:1b,Invisible:1b,Facing:1b,ItemRotation:6b,Item:{id:"minecraft:sugar",tag:{CustomModelData:159},Count:1b}}
 summon minecraft:glow_item_frame -687.5 24.0 847.5 {Fixed:1b,Invisible:1b,Facing:1b,ItemRotation:6b,Item:{id:"minecraft:sugar",tag:{CustomModelData:160},Count:1b}}

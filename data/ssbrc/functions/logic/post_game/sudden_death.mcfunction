@@ -19,3 +19,5 @@ effect give @s minecraft:jump_boost 1 200 true
 title @a title {"text":"Sudden Death!","color":"dark_red"}
 
 tag @a remove mostKills
+
+execute at @e[type=minecraft:marker,tag=centerPoint] run worldborder center ~ ~
