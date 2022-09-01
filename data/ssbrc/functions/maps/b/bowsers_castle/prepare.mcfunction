@@ -9,6 +9,7 @@ summon minecraft:marker -721.5 27.0 849.5 {Tags:["spawnpoint"]}
 summon minecraft:marker -701.5 29.0 870.5 {Tags:["spawnpoint"]}
 summon minecraft:marker -702.5 29.0 818.5 {Tags:["spawnpoint"]}
 
+# a
 summon minecraft:marker -681.5 31.0 844.5 {Tags:["spawnpoint.item"]}
 summon minecraft:marker -701.5 31.0 844.5 {Tags:["spawnpoint.item"]}
 summon minecraft:marker -724.5 31.0 844.5 {Tags:["spawnpoint.item"]}
