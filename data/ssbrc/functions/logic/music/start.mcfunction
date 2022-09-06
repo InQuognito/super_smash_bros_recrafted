@@ -50,7 +50,7 @@ execute if score $draculasCastle map matches 1 if score result_music random matc
 
 execute if score $dreamLand map matches 1 if score result_music random matches 0 as @a at @s run playsound ssbrc:checker_knights_intro music @s
 execute if score $dreamLand map matches 1 if score result_music random matches 0 run tellraw @a [{"text":"Now Playing: ","bold":true,"color":"gold"},{"text":"Checker Knights","color":"yellow"}]
-execute if score $dreamLand map matches 1 if score result_music random matches 0 run schedule function ssbrc:logic/music/loop 120t replace
+execute if score $dreamLand map matches 1 if score result_music random matches 0 run schedule function ssbrc:logic/music/loop 125t replace
 execute if score $dreamLand map matches 1 if score result_music random matches 1 as @a at @s run playsound ssbrc:planet_popstar_intro music @s
 execute if score $dreamLand map matches 1 if score result_music random matches 1 run tellraw @a [{"text":"Now Playing: ","bold":true,"color":"gold"},{"text":"Planet Popstar","color":"yellow"}]
 execute if score $dreamLand map matches 1 if score result_music random matches 1 run schedule function ssbrc:logic/music/loop 40t replace
