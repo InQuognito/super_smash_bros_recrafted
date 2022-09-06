@@ -53,7 +53,7 @@ execute if score $dreamLand map matches 1 if score result_music random matches 0
 execute if score $dreamLand map matches 1 if score result_music random matches 0 run schedule function ssbrc:logic/music/loop 125t replace
 execute if score $dreamLand map matches 1 if score result_music random matches 1 as @a at @s run playsound ssbrc:planet_popstar_intro music @s
 execute if score $dreamLand map matches 1 if score result_music random matches 1 run tellraw @a [{"text":"Now Playing: ","bold":true,"color":"gold"},{"text":"Planet Popstar","color":"yellow"}]
-execute if score $dreamLand map matches 1 if score result_music random matches 1 run schedule function ssbrc:logic/music/loop 40t replace
+execute if score $dreamLand map matches 1 if score result_music random matches 1 run schedule function ssbrc:logic/music/loop 45t replace
 
 execute if score $finalDestination map matches 1 if score result_music random matches 0 as @a at @s run playsound ssbrc:final_destination_melee_intro music @s
 execute if score $finalDestination map matches 1 if score result_music random matches 0 run tellraw @a [{"text":"Now Playing: ","bold":true,"color":"gold"},{"text":"Final Destination (Melee)","color":"yellow"}]
