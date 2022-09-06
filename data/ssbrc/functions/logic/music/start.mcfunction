@@ -32,7 +32,7 @@ execute if score $castleSiege map matches 1 if score result_music random matches
 execute if score $castleSiege map matches 1 if score result_music random matches 0 run schedule function ssbrc:logic/music/loop 20t replace
 execute if score $castleSiege map matches 1 if score result_music random matches 1 as @a at @s run playsound ssbrc:with_milas_divine_protection_intro music @s
 execute if score $castleSiege map matches 1 if score result_music random matches 1 run tellraw @a [{"text":"Now Playing: ","bold":true,"color":"gold"},{"text":"With Mila's Divine Protection","color":"yellow"}]
-execute if score $castleSiege map matches 1 if score result_music random matches 1 run schedule function ssbrc:logic/music/loop 120t replace
+execute if score $castleSiege map matches 1 if score result_music random matches 1 run schedule function ssbrc:logic/music/loop 140t replace
 
 execute if score $destroyedSkyworld map matches 1 if score result_music random matches 0 as @a at @s run playsound ssbrc:dark_pits_theme_intro music @s
 execute if score $destroyedSkyworld map matches 1 if score result_music random matches 0 run tellraw @a [{"text":"Now Playing: ","bold":true,"color":"gold"},{"text":"Dark Pit's Theme","color":"yellow"}]
