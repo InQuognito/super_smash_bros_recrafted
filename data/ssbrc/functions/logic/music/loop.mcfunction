@@ -44,8 +44,8 @@ execute if score $draculasCastle map matches 1 if score result_music random matc
 execute if score $draculasCastle map matches 1 if score result_music random matches 0 if score $music options matches 0 run schedule function ssbrc:logic/music/loop 1340t replace
 execute if score $draculasCastle map matches 1 if score result_music random matches 0 if score $music options matches 1 run schedule function ssbrc:logic/music/start 1340t replace
 execute if score $draculasCastle map matches 1 if score result_music random matches 1 as @a at @s run playsound ssbrc:bloody_tears music @s
-execute if score $draculasCastle map matches 1 if score result_music random matches 1 if score $music options matches 0 run schedule function ssbrc:logic/music/loop 1670t replace
-execute if score $draculasCastle map matches 1 if score result_music random matches 1 if score $music options matches 1 run schedule function ssbrc:logic/music/start 1670t replace
+execute if score $draculasCastle map matches 1 if score result_music random matches 1 if score $music options matches 0 run schedule function ssbrc:logic/music/loop 1675t replace
+execute if score $draculasCastle map matches 1 if score result_music random matches 1 if score $music options matches 1 run schedule function ssbrc:logic/music/start 1675t replace
 
 execute if score $dreamLand map matches 1 if score result_music random matches 0 as @a at @s run playsound ssbrc:checker_knights music @s
 execute if score $dreamLand map matches 1 if score result_music random matches 0 if score $music options matches 0 run schedule function ssbrc:logic/music/loop 2420t replace
