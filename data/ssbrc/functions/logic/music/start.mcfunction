@@ -43,7 +43,7 @@ execute if score $destroyedSkyworld map matches 1 if score result_music random m
 
 execute if score $draculasCastle map matches 1 if score result_music random matches 0 as @a at @s run playsound ssbrc:aquarius_intro music @s
 execute if score $draculasCastle map matches 1 if score result_music random matches 0 run tellraw @a [{"text":"Now Playing: ","bold":true,"color":"gold"},{"text":"Aquarius","color":"yellow"}]
-execute if score $draculasCastle map matches 1 if score result_music random matches 0 run schedule function ssbrc:logic/music/loop 800t replace
+execute if score $draculasCastle map matches 1 if score result_music random matches 0 run schedule function ssbrc:logic/music/loop 795t replace
 execute if score $draculasCastle map matches 1 if score result_music random matches 1 as @a at @s run playsound ssbrc:bloody_tears_intro music @s
 execute if score $draculasCastle map matches 1 if score result_music random matches 1 run tellraw @a [{"text":"Now Playing: ","bold":true,"color":"gold"},{"text":"Bloody Tears","color":"yellow"}]
 execute if score $draculasCastle map matches 1 if score result_music random matches 1 run schedule function ssbrc:logic/music/loop 1220t replace
