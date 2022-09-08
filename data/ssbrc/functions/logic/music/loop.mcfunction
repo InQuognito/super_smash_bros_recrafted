@@ -6,8 +6,8 @@ execute if score $acropolisGraveyard map matches 1 if score result_music random 
 execute if score $acropolisGraveyard map matches 1 if score result_music random matches 1 if score $music options matches 1 run schedule function ssbrc:logic/music/start 2100t replace
 
 execute if score $battlefield map matches 1 if score result_music random matches 0 as @a at @s run playsound ssbrc:aquos_arena music @s
-execute if score $battlefield map matches 1 if score result_music random matches 0 if score $music options matches 0 run schedule function ssbrc:logic/music/loop 2660t replace
-execute if score $battlefield map matches 1 if score result_music random matches 1 if score $music options matches 1 run schedule function ssbrc:logic/music/start 2660t replace
+execute if score $battlefield map matches 1 if score result_music random matches 0 if score $music options matches 0 run schedule function ssbrc:logic/music/loop 2662t replace
+execute if score $battlefield map matches 1 if score result_music random matches 1 if score $music options matches 1 run schedule function ssbrc:logic/music/start 2662t replace
 execute if score $battlefield map matches 1 if score result_music random matches 1 as @a at @s run playsound ssbrc:battle_on_the_big_bridge music @s
 execute if score $battlefield map matches 1 if score result_music random matches 1 if score $music options matches 0 run schedule function ssbrc:logic/music/loop 1360t replace
 execute if score $battlefield map matches 1 if score result_music random matches 1 if score $music options matches 1 run schedule function ssbrc:logic/music/start 1360t replace
@@ -44,15 +44,15 @@ execute if score $draculasCastle map matches 1 if score result_music random matc
 execute if score $draculasCastle map matches 1 if score result_music random matches 0 if score $music options matches 0 run schedule function ssbrc:logic/music/loop 1340t replace
 execute if score $draculasCastle map matches 1 if score result_music random matches 0 if score $music options matches 1 run schedule function ssbrc:logic/music/start 1340t replace
 execute if score $draculasCastle map matches 1 if score result_music random matches 1 as @a at @s run playsound ssbrc:bloody_tears music @s
-execute if score $draculasCastle map matches 1 if score result_music random matches 1 if score $music options matches 0 run schedule function ssbrc:logic/music/loop 1660t replace
-execute if score $draculasCastle map matches 1 if score result_music random matches 1 if score $music options matches 1 run schedule function ssbrc:logic/music/start 1660t replace
+execute if score $draculasCastle map matches 1 if score result_music random matches 1 if score $music options matches 0 run schedule function ssbrc:logic/music/loop 1675t replace
+execute if score $draculasCastle map matches 1 if score result_music random matches 1 if score $music options matches 1 run schedule function ssbrc:logic/music/start 1675t replace
 
 execute if score $dreamLand map matches 1 if score result_music random matches 0 as @a at @s run playsound ssbrc:checker_knights music @s
-execute if score $dreamLand map matches 1 if score result_music random matches 0 if score $music options matches 0 run schedule function ssbrc:logic/music/loop 2420t replace
-execute if score $dreamLand map matches 1 if score result_music random matches 0 if score $music options matches 1 run schedule function ssbrc:logic/music/start 2420t replace
+execute if score $dreamLand map matches 1 if score result_music random matches 0 if score $music options matches 0 run schedule function ssbrc:logic/music/loop 2423t replace
+execute if score $dreamLand map matches 1 if score result_music random matches 0 if score $music options matches 1 run schedule function ssbrc:logic/music/start 2423t replace
 execute if score $dreamLand map matches 1 if score result_music random matches 1 as @a at @s run playsound ssbrc:planet_popstar music @s
-execute if score $dreamLand map matches 1 if score result_music random matches 1 if score $music options matches 0 run schedule function ssbrc:logic/music/loop 1680t replace
-execute if score $dreamLand map matches 1 if score result_music random matches 1 if score $music options matches 1 run schedule function ssbrc:logic/music/start 1680t replace
+execute if score $dreamLand map matches 1 if score result_music random matches 1 if score $music options matches 0 run schedule function ssbrc:logic/music/loop 1689t replace
+execute if score $dreamLand map matches 1 if score result_music random matches 1 if score $music options matches 1 run schedule function ssbrc:logic/music/start 1689t replace
 
 execute if score $finalDestination map matches 1 if score result_music random matches 0 as @a at @s run playsound ssbrc:final_destination_melee music @s
 execute if score $finalDestination map matches 1 if score result_music random matches 0 if score $music options matches 0 run schedule function ssbrc:logic/music/loop 1680t replace
