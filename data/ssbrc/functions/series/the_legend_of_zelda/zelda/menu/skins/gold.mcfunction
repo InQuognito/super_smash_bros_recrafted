@@ -2,3 +2,5 @@ function ssbrc:series/the_legend_of_zelda/zelda/menu/skins/reset
 tag @s add gold
 
 function ssbrc:series/the_legend_of_zelda/zelda/menu/select_character
+
+scoreboard players set @s skinPicked 1

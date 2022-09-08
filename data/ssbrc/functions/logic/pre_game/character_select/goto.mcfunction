@@ -1,5 +1,6 @@
 tp @s 35.5 7.0 116.0 0.0 0.0
 
+loot replace entity @s hotbar.1 loot ssbrc:characters/random
 function ssbrc:logic/favorite/update
 
 execute if score $teams options matches 0 run team join waiting @s

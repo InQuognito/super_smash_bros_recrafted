@@ -58,6 +58,7 @@ scoreboard objectives remove selectFavorite
 scoreboard objectives remove shadow.chaosControl
 scoreboard objectives remove shadow.meter.hero
 scoreboard objectives remove shadow.meter.villain
+scoreboard objectives remove skinPicked
 scoreboard objectives remove slope
 scoreboard objectives remove loadout.antiPersonnelMine
 scoreboard objectives remove snake.capacity
