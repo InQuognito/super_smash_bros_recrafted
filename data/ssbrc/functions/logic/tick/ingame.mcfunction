@@ -33,3 +33,7 @@ scoreboard players reset @a useChargeAbility
 
 # Banned From Having More Than One
 execute as @a[predicate=ssbrc:characters/kits/trident] run function ssbrc:logic/characters/restore_items/trident_count
+
+# Check player count and reload if 0
+execute store result score #players temp if entity @a
+execute if score #players temp matches 0 run function ssbrc:logic/load
