@@ -12,7 +12,7 @@
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"text": "Barrel Slam",
+								"text": "Banana Slamma",
 								"color": "gold",
 								"bold": true,
 								"italic": false
