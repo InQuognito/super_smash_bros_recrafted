@@ -14,4 +14,5 @@ execute as @a run function ssbrc:logic/post_game/summary_check
 
 function ssbrc:logic/reset
 tag @a[tag=alive] remove loaded
+tag @a[team=dead] remove loaded
 tag @a[team=spectator] remove loaded
