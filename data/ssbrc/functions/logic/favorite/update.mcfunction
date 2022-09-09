@@ -1,4 +1,4 @@
-function ssbrc:logic/resets/favorites/try
+function ssbrc:logic/resets/tags/favorite_try
 
 clear @s minecraft:barrier
 clear @s minecraft:carrot_on_a_stick
