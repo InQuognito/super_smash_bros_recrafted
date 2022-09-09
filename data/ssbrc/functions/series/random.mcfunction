@@ -1,4 +1,4 @@
-scoreboard players set max random 4
+scoreboard players set max random 38
 function ssbrc:math/rng/lcg
 
 execute unless score @s[advancements={ssbrc:series/castlevania/alucard/skins/default=true}] skinPicked matches 1 if score result random matches 0 run function ssbrc:series/castlevania/alucard/menu/skins/random
