@@ -1,7 +1,7 @@
-clear @a
+clear @s
 
-scoreboard players reset @a useAbility
-execute as @a run function ssbrc:logic/resets/triggers
+scoreboard players reset @s useAbility
+execute as @s run function ssbrc:logic/resets/triggers
 
 # Acropolis Graveyard
 summon minecraft:area_effect_cloud -3.5 11.0 17.5 {Age:-2147483648,Duration:-1,WaitTime:-2147483648,Tags:["voteCounter","acropolisGraveyard"],CustomNameVisible:1b}
@@ -114,12 +114,12 @@ scoreboard players set @e[tag=voteCounter] mapVote 0
 execute as @e[tag=voteCounter] unless score @s mapVote = @s temp run tag @s add voteCounter.update
 execute as @e[tag=voteCounter.update,sort=random,limit=1] run function ssbrc:logic/pre_game/map_voting/update_counters_entity
 
-execute as @a[tag=byleth,tag=selectingLoadout] run function ssbrc:series/fire_emblem/byleth/menu/select_character
-execute as @a[tag=snake,tag=selectingLoadout] run function ssbrc:series/metal_gear_solid/snake/menu/select_character
+execute as @s[tag=byleth,tag=selectingLoadout] run function ssbrc:series/fire_emblem/byleth/menu/select_character
+execute as @s[tag=snake,tag=selectingLoadout] run function ssbrc:series/metal_gear_solid/snake/menu/select_character
 
-gamemode spectator @a[team=spectator]
+gamemode spectator @s[team=spectator]
 
-tag @a[team=!spectator] add alive
+tag @s[team=!spectator] add alive
 execute store result score $playersAlive temp if entity @a[tag=alive]
 
 scoreboard players set $gameStage temp 2
@@ -128,13 +128,13 @@ scoreboard players set $countdown timer 30
 setblock -481 4 55 minecraft:oak_sign{Text1:'[{"text":"Status: ","color":"gold"},{"text":"Stage Select","color":"yellow"}]'} destroy
 data modify entity @e[tag=lobby1.status,limit=1] CustomName set from block -481 4 55 Text1
 
-tp @a 3.5 3.0 21.5 0.0 0.0
+tp @s 3.5 3.0 21.5 0.0 0.0
 
-execute if score $teams options matches 0 run team join waiting @a[team=!spectator]
-effect give @a[team=!spectator] minecraft:glowing 1000000 255 true
+execute if score $teams options matches 0 run team join waiting @s[team=!spectator]
+effect give @s[team=!spectator] minecraft:glowing 1000000 255 true
 
-tag @a remove room.characterSelect
-tag @a add room.mapVoting
+tag @s remove room.characterSelect
+tag @s add room.mapVoting
 
-title @a clear
-title @a reset
+title @s clear
+title @s reset
