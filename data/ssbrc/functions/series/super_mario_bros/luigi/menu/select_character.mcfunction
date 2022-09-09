@@ -4,7 +4,7 @@ tellraw @s [{"text":"You have selected ","color":"white"},{"text":"Luigi","color
 
 tellraw @s[tag=default] [{"text":"Skin: ","color":"white"},{"text":"Default","color":"dark_green"}]
 tellraw @s[tag=gold] [{"text":"Skin: ","color":"white"},{"text":"Gold","color":"gold"}]
-tellraw @s[tag=flowerPower] [{"text":"Skin: ","color":"white"},{"text":"Flower Power","color":"white"}]
+tellraw @s[tag=flowerPower] [{"text":"Skin: ","color":"white"},{"text":"Flower Power","color":"aqua"}]
 
 function ssbrc:logic/resets/tags/characters
 tag @s add luigi
