@@ -20,8 +20,7 @@ summon minecraft:marker -1329.5 22.0 -438.5 {Tags:["spawnpoint.item"]}
 summon minecraft:marker -1361.5 22.0 -443.5 {Tags:["spawnpoint.item"]}
 summon minecraft:marker -1352.5 15.0 -450.5 {Tags:["spawnpoint.item"]}
 
-execute as @a[tag=alive] run function ssbrc:logic/pre_game/prepare_players
-execute as @a[team=spectator] run function ssbrc:logic/pre_game/prepare_players
+execute as @a[predicate=ssbrc:ingame] run function ssbrc:logic/pre_game/prepare_players
 function ssbrc:logic/pre_game/prepare_match
 
 tag @a[tag=alive] add acropolisGraveyard

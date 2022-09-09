@@ -20,8 +20,7 @@ summon minecraft:marker 2276.5 31.0 1579.5 {Tags:["spawnpoint.item"]}
 summon minecraft:marker 2261.5 35.0 1590.5 {Tags:["spawnpoint.item"]}
 summon minecraft:marker 2277.5 31.0 1613.5 {Tags:["spawnpoint.item"]}
 
-execute as @a[tag=alive] run function ssbrc:logic/pre_game/prepare_players
-execute as @a[team=spectator] run function ssbrc:logic/pre_game/prepare_players
+execute as @a[predicate=ssbrc:ingame] run function ssbrc:logic/pre_game/prepare_players
 function ssbrc:logic/pre_game/prepare_match
 
 tag @a[tag=alive] add jungleJapes

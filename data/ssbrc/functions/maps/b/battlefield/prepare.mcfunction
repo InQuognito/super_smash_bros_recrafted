@@ -20,8 +20,7 @@ summon minecraft:marker 306.5 18.0 -555.5 {Tags:["spawnpoint.item"]}
 summon minecraft:marker 297.5 18.0 -566.5 {Tags:["spawnpoint.item"]}
 summon minecraft:marker 302.5 28.0 -561.5 {Tags:["spawnpoint.item"]}
 
-execute as @a[tag=alive] run function ssbrc:logic/pre_game/prepare_players
-execute as @a[team=spectator] run function ssbrc:logic/pre_game/prepare_players
+execute as @a[predicate=ssbrc:ingame] run function ssbrc:logic/pre_game/prepare_players
 function ssbrc:logic/pre_game/prepare_match
 
 tag @a[tag=alive] add battlefield

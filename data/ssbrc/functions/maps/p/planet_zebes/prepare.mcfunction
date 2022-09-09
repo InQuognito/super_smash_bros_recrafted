@@ -20,8 +20,7 @@ summon minecraft:marker 39996.5 92.0 40016.5 {Tags:["spawnpoint.item"]}
 summon minecraft:marker 39984.5 93.0 40005.5 {Tags:["spawnpoint.item"]}
 summon minecraft:marker 40018.5 93.0 39982.5 {Tags:["spawnpoint.item"]}
 
-execute as @a[tag=alive] run function ssbrc:logic/pre_game/prepare_players
-execute as @a[team=spectator] run function ssbrc:logic/pre_game/prepare_players
+execute as @a[predicate=ssbrc:ingame] run function ssbrc:logic/pre_game/prepare_players
 function ssbrc:logic/pre_game/prepare_match
 
 tag @a[tag=alive] add planetZebes

@@ -20,8 +20,7 @@ summon minecraft:marker 2120.5 30.0 1327.5 {Tags:["spawnpoint.item"]}
 summon minecraft:marker 2122.5 24.0 1333.5 {Tags:["spawnpoint.item"]}
 summon minecraft:marker 2135.5 26.0 1373.5 {Tags:["spawnpoint.item"]}
 
-execute as @a[tag=alive] run function ssbrc:logic/pre_game/prepare_players
-execute as @a[team=spectator] run function ssbrc:logic/pre_game/prepare_players
+execute as @a[predicate=ssbrc:ingame] run function ssbrc:logic/pre_game/prepare_players
 function ssbrc:logic/pre_game/prepare_match
 
 tag @a[tag=alive] add frozenHijinx

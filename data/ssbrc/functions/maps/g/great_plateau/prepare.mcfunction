@@ -20,8 +20,7 @@ summon minecraft:marker 1621.5 53.0 1378.5 {Tags:["spawnpoint.item"]}
 summon minecraft:marker 1619.5 60.0 1370.5 {Tags:["spawnpoint.item"]}
 summon minecraft:marker 1565.5 60.0 1358.5 {Tags:["spawnpoint.item"]}
 
-execute as @a[tag=alive] run function ssbrc:logic/pre_game/prepare_players
-execute as @a[team=spectator] run function ssbrc:logic/pre_game/prepare_players
+execute as @a[predicate=ssbrc:ingame] run function ssbrc:logic/pre_game/prepare_players
 function ssbrc:logic/pre_game/prepare_match
 
 tag @a[tag=alive] add greatPlateau

@@ -20,8 +20,7 @@ summon minecraft:marker -223.5 38.0 -167.5 {Tags:["spawnpoint.item"]}
 summon minecraft:marker -247.5 38.0 -160.5 {Tags:["spawnpoint.item"]}
 summon minecraft:marker -239.5 39.0 -144.5 {Tags:["spawnpoint.item"]}
 
-execute as @a[tag=alive] run function ssbrc:logic/pre_game/prepare_players
-execute as @a[team=spectator] run function ssbrc:logic/pre_game/prepare_players
+execute as @a[predicate=ssbrc:ingame] run function ssbrc:logic/pre_game/prepare_players
 function ssbrc:logic/pre_game/prepare_match
 
 tag @a[tag=alive] add mushroomKingdom

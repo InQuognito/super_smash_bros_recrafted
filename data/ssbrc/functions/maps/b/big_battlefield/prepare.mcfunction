@@ -20,8 +20,7 @@ summon minecraft:marker 100054.5 24.0 99951.5 {Tags:["spawnpoint.item"]}
 summon minecraft:marker 100050.5 24.0 99955.5 {Tags:["spawnpoint.item"]}
 summon minecraft:marker 100046.5 24.0 99951.5 {Tags:["spawnpoint.item"]}
 
-execute as @a[tag=alive] run function ssbrc:logic/pre_game/prepare_players
-execute as @a[team=spectator] run function ssbrc:logic/pre_game/prepare_players
+execute as @a[predicate=ssbrc:ingame] run function ssbrc:logic/pre_game/prepare_players
 function ssbrc:logic/pre_game/prepare_match
 
 tag @a[tag=alive] add bigBattlefield

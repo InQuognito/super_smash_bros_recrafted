@@ -20,8 +20,7 @@ summon minecraft:marker 9992.5 4.0 19878.5 {Tags:["spawnpoint.item"]}
 summon minecraft:marker 10008.5 8.0 19896.5 {Tags:["spawnpoint.item"]}
 summon minecraft:marker 9958.5 7.0 19916.5 {Tags:["spawnpoint.item"]}
 
-execute as @a[tag=alive] run function ssbrc:logic/pre_game/prepare_players
-execute as @a[team=spectator] run function ssbrc:logic/pre_game/prepare_players
+execute as @a[predicate=ssbrc:ingame] run function ssbrc:logic/pre_game/prepare_players
 function ssbrc:logic/pre_game/prepare_match
 
 tag @a[tag=alive] add yarsRevenge

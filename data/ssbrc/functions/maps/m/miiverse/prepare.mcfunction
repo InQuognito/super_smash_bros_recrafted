@@ -20,8 +20,7 @@ summon minecraft:marker -692.5 22.0 591.5 {Tags:["spawnpoint.item"]}
 summon minecraft:marker -681.5 20.0 602.5 {Tags:["spawnpoint.item"]}
 summon minecraft:marker -683.5 20.0 600.5 {Tags:["spawnpoint.item"]}
 
-execute as @a[tag=alive] run function ssbrc:logic/pre_game/prepare_players
-execute as @a[team=spectator] run function ssbrc:logic/pre_game/prepare_players
+execute as @a[predicate=ssbrc:ingame] run function ssbrc:logic/pre_game/prepare_players
 function ssbrc:logic/pre_game/prepare_match
 
 tag @a[tag=alive] add miiverse

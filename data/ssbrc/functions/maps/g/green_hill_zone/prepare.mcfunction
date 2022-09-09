@@ -20,8 +20,7 @@ summon minecraft:marker -43.5 18.0 248.5 {Tags:["spawnpoint.item"]}
 summon minecraft:marker -22.5 18.0 226.5 {Tags:["spawnpoint.item"]}
 summon minecraft:marker -34.5 20.0 214.5 {Tags:["spawnpoint.item"]}
 
-execute as @a[tag=alive] run function ssbrc:logic/pre_game/prepare_players
-execute as @a[team=spectator] run function ssbrc:logic/pre_game/prepare_players
+execute as @a[predicate=ssbrc:ingame] run function ssbrc:logic/pre_game/prepare_players
 function ssbrc:logic/pre_game/prepare_match
 
 tag @a[tag=alive] add greenHillZone
