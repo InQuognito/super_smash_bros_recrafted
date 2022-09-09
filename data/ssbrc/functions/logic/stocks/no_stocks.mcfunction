@@ -1,4 +1,4 @@
-tellraw @a [{"selector":"@s","bold":true,"color":"red"},{"text":" has run out of stocks!","bold":false,"color":"red"}]
+tellraw @a[predicate=ssbrc:ingame] [{"selector":"@s","bold":true,"color":"red"},{"text":" has run out of stocks!","bold":false,"color":"red"}]
 tag @s remove alive
 team join dead
 scoreboard players reset @s stocks
