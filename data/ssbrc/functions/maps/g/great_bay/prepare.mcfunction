@@ -20,6 +20,8 @@ summon minecraft:marker 2661.5 12.0 89.5 {Tags:["spawnpoint.item"]}
 summon minecraft:marker 2668.5 13.0 61.5 {Tags:["spawnpoint.item"]}
 summon minecraft:marker 2667.5 13.0 90.5 {Tags:["spawnpoint.item"]}
 
+execute as @a[tag=alive] run function ssbrc:logic/pre_game/prepare_players
+execute as @a[team=spectator] run function ssbrc:logic/pre_game/prepare_players
 function ssbrc:logic/pre_game/prepare_match
 
-tag @a[team=!spectator] add greatBay
+tag @a[tag=alive] add greatBay

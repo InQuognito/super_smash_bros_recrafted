@@ -23,6 +23,8 @@ summon minecraft:marker -312.5 18.0 -1103.5 {Tags:["spawnpoint.item"]}
 summon minecraft:marker -291.5 17.0 -1112.5 {Tags:["spawnpoint.item"]}
 summon minecraft:marker -290.5 18.0 -1119.5 {Tags:["spawnpoint.item"]}
 
+execute as @a[tag=alive] run function ssbrc:logic/pre_game/prepare_players
+execute as @a[team=spectator] run function ssbrc:logic/pre_game/prepare_players
 function ssbrc:logic/pre_game/prepare_match
 
-tag @a[team=!spectator] add luigisMansion
+tag @a[tag=alive] add luigisMansion

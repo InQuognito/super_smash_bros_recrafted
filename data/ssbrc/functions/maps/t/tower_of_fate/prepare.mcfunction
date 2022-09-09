@@ -20,6 +20,8 @@ summon minecraft:marker 6007.5 28.0 493.5 {Tags:["spawnpoint.item"]}
 summon minecraft:marker 6007.5 28.0 507.5 {Tags:["spawnpoint.item"]}
 summon minecraft:marker 6000.5 30.0 500.5 {Tags:["spawnpoint.item"]}
 
+execute as @a[tag=alive] run function ssbrc:logic/pre_game/prepare_players
+execute as @a[team=spectator] run function ssbrc:logic/pre_game/prepare_players
 function ssbrc:logic/pre_game/prepare_match
 
-tag @a[team=!spectator] add towerOfFate
+tag @a[tag=alive] add towerOfFate

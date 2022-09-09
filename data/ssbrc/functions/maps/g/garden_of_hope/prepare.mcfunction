@@ -20,6 +20,8 @@ summon minecraft:marker 544.5 23.0 534.5 {Tags:["spawnpoint.item"]}
 summon minecraft:marker 571.5 24.0 508.5 {Tags:["spawnpoint.item"]}
 summon minecraft:marker 591.5 24.0 526.5 {Tags:["spawnpoint.item"]}
 
+execute as @a[tag=alive] run function ssbrc:logic/pre_game/prepare_players
+execute as @a[team=spectator] run function ssbrc:logic/pre_game/prepare_players
 function ssbrc:logic/pre_game/prepare_match
 
-tag @a[team=!spectator] add gardenOfHope
+tag @a[tag=alive] add gardenOfHope

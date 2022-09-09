@@ -20,6 +20,8 @@ summon minecraft:marker 2047.5 65.0 980.5 {Tags:["spawnpoint.item"]}
 summon minecraft:marker 2086.5 65.0 949.5 {Tags:["spawnpoint.item"]}
 summon minecraft:marker 2125.5 66.0 933.5 {Tags:["spawnpoint.item"]}
 
+execute as @a[tag=alive] run function ssbrc:logic/pre_game/prepare_players
+execute as @a[team=spectator] run function ssbrc:logic/pre_game/prepare_players
 function ssbrc:logic/pre_game/prepare_match
 
-tag @a[team=!spectator] add dreamLand
+tag @a[tag=alive] add dreamLand

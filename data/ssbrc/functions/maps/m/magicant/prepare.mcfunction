@@ -20,6 +20,8 @@ summon minecraft:marker 650.5 25.0 -883.5 {Tags:["spawnpoint.item"]}
 summon minecraft:marker 638.5 19.0 -888.5 {Tags:["spawnpoint.item"]}
 summon minecraft:marker 654.5 19.0 -872.5 {Tags:["spawnpoint.item"]}
 
+execute as @a[tag=alive] run function ssbrc:logic/pre_game/prepare_players
+execute as @a[team=spectator] run function ssbrc:logic/pre_game/prepare_players
 function ssbrc:logic/pre_game/prepare_match
 
-tag @a[team=!spectator] add magicant
+tag @a[tag=alive] add magicant

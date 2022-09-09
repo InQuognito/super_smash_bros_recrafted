@@ -20,6 +20,8 @@ summon minecraft:marker 131.5 17.0 -1432.5 {Tags:["spawnpoint.item"]}
 summon minecraft:marker 160.5 18.0 -1425.5 {Tags:["spawnpoint.item"]}
 summon minecraft:marker 120.5 15.0 -1467.5 {Tags:["spawnpoint.item"]}
 
+execute as @a[tag=alive] run function ssbrc:logic/pre_game/prepare_players
+execute as @a[team=spectator] run function ssbrc:logic/pre_game/prepare_players
 function ssbrc:logic/pre_game/prepare_match
 
-tag @a[team=!spectator] add shadowMosesIsland
+tag @a[tag=alive] add shadowMosesIsland

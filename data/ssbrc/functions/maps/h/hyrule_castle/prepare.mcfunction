@@ -20,6 +20,8 @@ summon minecraft:marker 6949.5 43.0 162.5 {Tags:["spawnpoint.item"]}
 summon minecraft:marker 6997.5 33.0 149.5 {Tags:["spawnpoint.item"]}
 summon minecraft:marker 7027.5 34.0 144.5 {Tags:["spawnpoint.item"]}
 
+execute as @a[tag=alive] run function ssbrc:logic/pre_game/prepare_players
+execute as @a[team=spectator] run function ssbrc:logic/pre_game/prepare_players
 function ssbrc:logic/pre_game/prepare_match
 
-tag @a[team=!spectator] add hyruleCastle
+tag @a[tag=alive] add hyruleCastle

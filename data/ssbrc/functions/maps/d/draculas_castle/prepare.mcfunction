@@ -20,6 +20,8 @@ summon minecraft:marker -1064.5 10.0 28.5 {Tags:["spawnpoint.item"]}
 summon minecraft:marker -1100.5 15.0 53.5 {Tags:["spawnpoint.item"]}
 summon minecraft:marker -1071.5 12.0 17.5 {Tags:["spawnpoint.item"]}
 
+execute as @a[tag=alive] run function ssbrc:logic/pre_game/prepare_players
+execute as @a[team=spectator] run function ssbrc:logic/pre_game/prepare_players
 function ssbrc:logic/pre_game/prepare_match
 
-tag @a[team=!spectator] add draculasCastle
+tag @a[tag=alive] add draculasCastle

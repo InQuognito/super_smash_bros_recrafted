@@ -20,6 +20,8 @@ summon minecraft:marker 4970.5 13.0 5078.5 {Tags:["spawnpoint.item"]}
 summon minecraft:marker 4935.5 13.0 5100.5 {Tags:["spawnpoint.item"]}
 summon minecraft:marker 5004.5 11.0 5086.5 {Tags:["spawnpoint.item"]}
 
+execute as @a[tag=alive] run function ssbrc:logic/pre_game/prepare_players
+execute as @a[team=spectator] run function ssbrc:logic/pre_game/prepare_players
 function ssbrc:logic/pre_game/prepare_match
 
-tag @a[team=!spectator] add wilyCastle
+tag @a[tag=alive] add wilyCastle

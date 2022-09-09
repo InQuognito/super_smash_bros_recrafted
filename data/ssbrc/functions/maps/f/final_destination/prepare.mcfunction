@@ -20,6 +20,8 @@ summon minecraft:marker 23472.5 27.0 8632.5 {Tags:["spawnpoint.item"]}
 summon minecraft:marker 23450.5 26.0 8641.5 {Tags:["spawnpoint.item"]}
 summon minecraft:marker 23455.5 26.0 8632.5 {Tags:["spawnpoint.item"]}
 
+execute as @a[tag=alive] run function ssbrc:logic/pre_game/prepare_players
+execute as @a[team=spectator] run function ssbrc:logic/pre_game/prepare_players
 function ssbrc:logic/pre_game/prepare_match
 
-tag @a[team=!spectator] add finalDestination
+tag @a[tag=alive] add finalDestination
