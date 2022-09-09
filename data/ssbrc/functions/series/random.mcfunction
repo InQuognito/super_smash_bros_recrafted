@@ -1,3 +1,5 @@
+tag @s add pickingRandom
+
 scoreboard players set max random 38
 function ssbrc:math/rng/lcg
 
