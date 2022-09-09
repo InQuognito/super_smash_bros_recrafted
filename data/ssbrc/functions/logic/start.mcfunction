@@ -1,4 +1,4 @@
-title @a title {"text":"GO!","color":"dark_green"}
+title @a[predicate=ssbrc:ingame] title {"text":"GO!","color":"dark_green"}
 
 team modify team1 nametagVisibility never
 team modify team2 nametagVisibility never

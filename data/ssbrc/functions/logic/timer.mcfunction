@@ -1,8 +1,6 @@
 execute if score $gameStage temp matches 0..1 run function ssbrc:logic/timer/character_select
 execute if score $gameStage temp matches 2 run function ssbrc:logic/timer/map_voting/timer
-execute if score $gameStage temp matches 3 as @a[tag=alive] run function ssbrc:logic/timer/start_countdown
-execute if score $gameStage temp matches 3 as @a[team=spectator] run function ssbrc:logic/timer/start_countdown
-execute if score $gameStage temp matches 3 if score $countdown timer matches 0 run function ssbrc:logic/start
+execute if score $gameStage temp matches 3 run function ssbrc:logic/timer/start_countdown
 execute if score $gameStage temp matches 4 run function ssbrc:logic/timer/ingame/timer
 
 scoreboard players remove $countdown timer 1
