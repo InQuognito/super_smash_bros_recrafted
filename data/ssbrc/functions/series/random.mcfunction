@@ -1,3 +1,5 @@
+function ssbrc:logic/resets/tags/characters
+
 tag @s add pickingRandom
 
 scoreboard players set max random 38

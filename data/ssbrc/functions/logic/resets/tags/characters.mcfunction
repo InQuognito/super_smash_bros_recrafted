@@ -42,4 +42,5 @@ tag @s remove abilityUsed
 tag @s remove characterPicked
 tag @s remove naturalShiny
 tag @s remove nextFighterChosen
+tag @s remove pickingRandom
 tag @s remove selectingLoadout
