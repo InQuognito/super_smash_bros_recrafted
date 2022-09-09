@@ -1,4 +1,5 @@
 function ssbrc:logic/resets/tags/characters
+function ssbrc:logic/resets/tags/skins
 
 tag @s add pickingRandom
 
