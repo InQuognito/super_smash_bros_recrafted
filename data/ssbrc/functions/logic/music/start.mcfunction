@@ -238,7 +238,7 @@ execute if score $shadowMosesIsland map matches 1 if score result_music random m
 
 execute if score $spearPillar map matches 1 if score result_music random matches 0 run playsound ssbrc:dialga_and_palkia_battle_intro music @s
 execute if score $spearPillar map matches 1 if score result_music random matches 0 run tellraw @s [{"text":"Now Playing: ","bold":true,"color":"gold"},{"text":"Dialga and Palkia Battle","color":"yellow"}]
-execute if score $spearPillar map matches 1 if score result_music random matches 0 run schedule function ssbrc:logic/music/loop_schedule 360t replace
+execute if score $spearPillar map matches 1 if score result_music random matches 0 run schedule function ssbrc:logic/music/loop_schedule 370t replace
 execute if score $spearPillar map matches 1 if score result_music random matches 1 run playsound ssbrc:team_galactic_battle_intro music @s
 execute if score $spearPillar map matches 1 if score result_music random matches 1 run tellraw @s [{"text":"Now Playing: ","bold":true,"color":"gold"},{"text":"Team Galactic Battle","color":"yellow"}]
 execute if score $spearPillar map matches 1 if score result_music random matches 1 run schedule function ssbrc:logic/music/loop_schedule 300t replace
