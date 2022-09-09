@@ -161,8 +161,8 @@ execute if score $mementosType map matches 3 if score result_music random matche
 execute if score $mementosType map matches 3 if score result_music random matches 1 if score $music options matches 1 run schedule function ssbrc:logic/music/decide 3365t replace
 
 execute if score $miiverse map matches 1 if score result_music random matches 0 run playsound ssbrc:mario_paint_medley music @s
-execute if score $miiverse map matches 1 if score result_music random matches 0 if score $music options matches 0 run schedule function ssbrc:logic/music/loop_schedule 2040t replace
-execute if score $miiverse map matches 1 if score result_music random matches 0 if score $music options matches 1 run schedule function ssbrc:logic/music/decide 2040t replace
+execute if score $miiverse map matches 1 if score result_music random matches 0 if score $music options matches 0 run schedule function ssbrc:logic/music/loop_schedule 2050t replace
+execute if score $miiverse map matches 1 if score result_music random matches 0 if score $music options matches 1 run schedule function ssbrc:logic/music/decide 2050t replace
 execute if score $miiverse map matches 1 if score result_music random matches 1 run playsound ssbrc:nintendo_land_medley music @s
 execute if score $miiverse map matches 1 if score result_music random matches 1 if score $music options matches 0 run schedule function ssbrc:logic/music/loop_schedule 2420t replace
 execute if score $miiverse map matches 1 if score result_music random matches 1 if score $music options matches 1 run schedule function ssbrc:logic/music/decide 2420t replace
@@ -171,8 +171,8 @@ execute if score $mushroomKingdom map matches 1 if score result_music random mat
 execute if score $mushroomKingdom map matches 1 if score result_music random matches 0 if score $music options matches 0 run schedule function ssbrc:logic/music/loop_schedule 1360t replace
 execute if score $mushroomKingdom map matches 1 if score result_music random matches 0 if score $music options matches 1 run schedule function ssbrc:logic/music/decide 1360t replace
 execute if score $mushroomKingdom map matches 1 if score result_music random matches 1 run playsound ssbrc:mario_paint_medley music @s
-execute if score $mushroomKingdom map matches 1 if score result_music random matches 1 if score $music options matches 0 run schedule function ssbrc:logic/music/loop_schedule 2040t replace
-execute if score $mushroomKingdom map matches 1 if score result_music random matches 1 if score $music options matches 1 run schedule function ssbrc:logic/music/decide 2040t replace
+execute if score $mushroomKingdom map matches 1 if score result_music random matches 1 if score $music options matches 0 run schedule function ssbrc:logic/music/loop_schedule 2050t replace
+execute if score $mushroomKingdom map matches 1 if score result_music random matches 1 if score $music options matches 1 run schedule function ssbrc:logic/music/decide 2050t replace
 execute if score $mushroomKingdom map matches 1 if score result_music random matches 2 run playsound ssbrc:super_mario_bros_main_theme music @s
 execute if score $mushroomKingdom map matches 1 if score result_music random matches 2 if score $music options matches 0 run schedule function ssbrc:logic/music/loop_schedule 1720t replace
 execute if score $mushroomKingdom map matches 1 if score result_music random matches 2 if score $music options matches 1 run schedule function ssbrc:logic/music/decide 1720t replace
