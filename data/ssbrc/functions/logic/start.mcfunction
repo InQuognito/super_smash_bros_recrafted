@@ -31,7 +31,7 @@ scoreboard players operation $steveItemCap temp += $playersAlive temp
 execute if entity @a[tag=steve] run function ssbrc:series/indie_fighters/steve/logic/spawn_item
 
 execute as @a[tag=alive] run function ssbrc:logic/kits
-function ssbrc:logic/music/start
+function ssbrc:logic/music/decide
 
 function ssbrc:logic/start_hazards
 
