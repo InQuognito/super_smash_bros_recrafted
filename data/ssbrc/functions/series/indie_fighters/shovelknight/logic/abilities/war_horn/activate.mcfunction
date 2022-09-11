@@ -1,4 +1,4 @@
-tag @a[tag=!self,distance=..10] add damage.warHorn
+tag @a[distance=0.1..10] add damage.warHorn
 
 scoreboard players operation @s mana -= #shovelknight.warHornManaCost vars
 function ssbrc:series/indie_fighters/shovelknight/logic/mana/update
