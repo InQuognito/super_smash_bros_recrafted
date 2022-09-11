@@ -14,3 +14,5 @@ execute if score @s favorite.slot3 matches 1.. run item replace entity @s hotbar
 item modify entity @s hotbar.3 ssbrc:favorites/slot1
 item modify entity @s hotbar.4 ssbrc:favorites/slot2
 item modify entity @s hotbar.5 ssbrc:favorites/slot3
+
+loot replace entity @s hotbar.0 loot ssbrc:characters/random
