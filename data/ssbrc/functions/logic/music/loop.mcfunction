@@ -6,8 +6,8 @@ execute if score $acropolisGraveyard map matches 1 if score result_music random 
 execute if score $acropolisGraveyard map matches 1 if score result_music random matches 1 if score $music options matches 1 run schedule function ssbrc:logic/music/decide 2100t replace
 
 execute if score $battlefield map matches 1 if score result_music random matches 0 run playsound ssbrc:aquos_arena music @s
-execute if score $battlefield map matches 1 if score result_music random matches 0 if score $music options matches 0 run schedule function ssbrc:logic/music/loop_schedule 2662t replace
-execute if score $battlefield map matches 1 if score result_music random matches 1 if score $music options matches 1 run schedule function ssbrc:logic/music/decide 2662t replace
+execute if score $battlefield map matches 1 if score result_music random matches 0 if score $music options matches 0 run schedule function ssbrc:logic/music/loop_schedule 2665t replace
+execute if score $battlefield map matches 1 if score result_music random matches 1 if score $music options matches 1 run schedule function ssbrc:logic/music/decide 2665t replace
 execute if score $battlefield map matches 1 if score result_music random matches 1 run playsound ssbrc:battle_on_the_big_bridge music @s
 execute if score $battlefield map matches 1 if score result_music random matches 1 if score $music options matches 0 run schedule function ssbrc:logic/music/loop_schedule 1360t replace
 execute if score $battlefield map matches 1 if score result_music random matches 1 if score $music options matches 1 run schedule function ssbrc:logic/music/decide 1360t replace
