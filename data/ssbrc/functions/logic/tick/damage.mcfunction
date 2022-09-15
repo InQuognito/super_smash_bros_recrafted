@@ -1,4 +1,5 @@
 execute if entity @a[tag=hero] run function ssbrc:logic/tick/damage/dragon_quest/hero
+execute if entity @a[tag=giegue] run function ssbrc:logic/tick/damage/earthbound/giegue
 execute if entity @a[tag=cloud] run function ssbrc:logic/tick/damage/final_fantasy/cloud
 execute if entity @a[tag=byleth] run function ssbrc:logic/tick/damage/fire_emblem/byleth
 execute if entity @a[tag=shovelknight] run function ssbrc:logic/tick/damage/indie_fighters/shovelknight
