@@ -111,6 +111,10 @@ scoreboard players set @s[tag=alucard] durability 300
 execute store result storage ssbrc:alucard_shield damage int 1.0 run scoreboard players get @s durability
 loot replace entity @s[tag=alucard] weapon.offhand loot ssbrc:characters/castlevania/alucard/alucard_shield
 
+# Shadow
+scoreboard players set @s[tag=shadow] charge.1 0
+scoreboard players set @s[tag=shadow] charge.2 0
+
 # Shovelknight
 scoreboard players set @s[tag=shovelknight] mana 10
 
