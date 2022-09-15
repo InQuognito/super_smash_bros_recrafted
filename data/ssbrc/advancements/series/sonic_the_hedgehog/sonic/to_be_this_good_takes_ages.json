@@ -40,7 +40,7 @@
 		"show_toast": true,
 		"announce_to_chat": true
 	},
-	"parent": "ssbrc:series/sonic_the_hedgehog/sonic//slayer",
+	"parent": "ssbrc:series/sonic_the_hedgehog/sonic/slayer",
 	"criteria": {
 		"impossible": {
 			"trigger": "minecraft:impossible"

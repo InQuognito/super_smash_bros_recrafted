@@ -34,7 +34,7 @@
 		"show_toast": true,
 		"announce_to_chat": true
 	},
-	"parent": "ssbrc:series/kid_icarus/pit//novice",
+	"parent": "ssbrc:series/kid_icarus/pit/novice",
 	"criteria": {
 		"impossible": {
 			"trigger": "minecraft:impossible"

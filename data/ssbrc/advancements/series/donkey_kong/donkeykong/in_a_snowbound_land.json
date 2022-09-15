@@ -61,7 +61,7 @@
 		"show_toast": true,
 		"announce_to_chat": true
 	},
-	"parent": "ssbrc:series/donkey_kong/donkeykong//veteran",
+	"parent": "ssbrc:series/donkey_kong/donkeykong/veteran",
 	"criteria": {
 		"impossible": {
 			"trigger": "minecraft:impossible"

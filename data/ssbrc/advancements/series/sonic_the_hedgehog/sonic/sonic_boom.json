@@ -34,7 +34,7 @@
 		"show_toast": true,
 		"announce_to_chat": true
 	},
-	"parent": "ssbrc:series/sonic_the_hedgehog/sonic//veteran",
+	"parent": "ssbrc:series/sonic_the_hedgehog/sonic/veteran",
 	"criteria": {
 		"impossible": {
 			"trigger": "minecraft:impossible"

@@ -46,7 +46,7 @@
 		"show_toast": true,
 		"announce_to_chat": true
 	},
-	"parent": "ssbrc:series/kid_icarus/pit//veteran",
+	"parent": "ssbrc:series/kid_icarus/pit/veteran",
 	"criteria": {
 		"impossible": {
 			"trigger": "minecraft:impossible"

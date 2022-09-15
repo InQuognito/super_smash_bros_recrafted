@@ -34,7 +34,7 @@
 		"show_toast": true,
 		"announce_to_chat": true
 	},
-	"parent": "ssbrc:series/donkey_kong/donkeykong//survivalist",
+	"parent": "ssbrc:series/donkey_kong/donkeykong/survivalist",
 	"criteria": {
 		"impossible": {
 			"trigger": "minecraft:impossible"

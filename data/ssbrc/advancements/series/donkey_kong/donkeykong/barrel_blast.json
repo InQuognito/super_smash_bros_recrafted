@@ -34,7 +34,7 @@
 		"show_toast": true,
 		"announce_to_chat": true
 	},
-	"parent": "ssbrc:series/donkey_kong/donkeykong//slayer",
+	"parent": "ssbrc:series/donkey_kong/donkeykong/slayer",
 	"criteria": {
 		"impossible": {
 			"trigger": "minecraft:impossible"
