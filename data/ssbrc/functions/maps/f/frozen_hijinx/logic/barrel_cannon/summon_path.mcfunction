@@ -6,3 +6,5 @@ data modify entity @e[tag=projectile,limit=1] Motion set from entity @e[tag=dire
 
 tag @e[tag=projectile,limit=1] remove projectile
 kill @e[tag=direction]
+
+tag @s remove playerInCannon
