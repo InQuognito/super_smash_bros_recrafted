@@ -2,7 +2,7 @@ scoreboard players operation #percentage temp = @s mana
 scoreboard players operation #percentage temp *= 100 integers
 scoreboard players operation #percentage temp /= #hero.maxMana vars
 
-execute if score #percentage temp matches 0 run title @s actionbar [{"text":"Out of Mana: Warrior Switch","bold":true,"color":"red"}]
+execute if score #percentage temp matches 0 unless score @s[tag=!magicLost] duration.2 >= 1 integers run function ssbrc:series/dragon_quest/hero/logic/lose_magic
 execute if score #percentage temp matches 1..10 run title @s actionbar [{"text":"Mana: ","bold":true,"color":"white"},{"text":"\u25ae","color":"yellow"}]
 execute if score #percentage temp matches 11..20 run title @s actionbar [{"text":"Mana: ","bold":true,"color":"white"},{"text":"\u25ae\u25ae","color":"yellow"}]
 execute if score #percentage temp matches 21..30 run title @s actionbar [{"text":"Mana: ","bold":true,"color":"white"},{"text":"\u25ae\u25ae\u25ae","color":"yellow"}]
@@ -27,5 +27,3 @@ execute if score #percentage temp matches 191..199 run title @s actionbar [{"tex
 execute if score @s mana < #hero.maxMana vars run clear @s minecraft:carrot_on_a_stick{magicBurst:1}
 execute if score @s mana >= #hero.maxMana vars run function ssbrc:series/dragon_quest/hero/logic/mana/overflow
 execute if score @s mana > #hero.maxMana vars run scoreboard players operation @s mana = #hero.maxMana vars
-
-execute if score @s mana <= 0 integers unless score @s duration.2 >= 1 integers run function ssbrc:series/dragon_quest/hero/logic/lose_magic
