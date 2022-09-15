@@ -100,8 +100,8 @@ execute if score $greatPlateau map matches 1 if score result_music random matche
 execute if score $greatPlateau map matches 1 if score result_music random matches 2 if score $music options matches 1 run schedule function ssbrc:logic/music/decide 2760t replace
 
 execute if score $greenHillZone map matches 1 if score result_music random matches 0 run playsound ssbrc:sonic_adventure_2 music @s
-execute if score $greenHillZone map matches 1 if score result_music random matches 0 if score $music options matches 0 run schedule function ssbrc:logic/music/loop_schedule 740t replace
-execute if score $greenHillZone map matches 1 if score result_music random matches 0 if score $music options matches 1 run schedule function ssbrc:logic/music/decide 740t replace
+execute if score $greenHillZone map matches 1 if score result_music random matches 0 if score $music options matches 0 run schedule function ssbrc:logic/music/loop_schedule 750t replace
+execute if score $greenHillZone map matches 1 if score result_music random matches 0 if score $music options matches 1 run schedule function ssbrc:logic/music/decide 750t replace
 execute if score $greenHillZone map matches 1 if score result_music random matches 1 run playsound ssbrc:sonic_mania music @s
 execute if score $greenHillZone map matches 1 if score result_music random matches 1 if score $music options matches 0 run schedule function ssbrc:logic/music/loop_schedule 760t replace
 execute if score $greenHillZone map matches 1 if score result_music random matches 1 if score $music options matches 1 run schedule function ssbrc:logic/music/decide 760t replace
