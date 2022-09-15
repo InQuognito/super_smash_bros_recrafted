@@ -83,8 +83,8 @@ execute if score $gardenOfHope map matches 1 if score result_music random matche
 execute if score $gardenOfHope map matches 1 if score result_music random matches 1 if score $music options matches 1 run schedule function ssbrc:logic/music/decide 2540t replace
 
 execute if score $greatBay map matches 1 if score result_music random matches 0 run playsound ssbrc:legend_of_zelda_main_theme music @s
-execute if score $greatBay map matches 1 if score result_music random matches 0 if score $music options matches 0 run schedule function ssbrc:logic/music/loop_schedule 660t replace
-execute if score $greatBay map matches 1 if score result_music random matches 0 if score $music options matches 1 run schedule function ssbrc:logic/music/decide 660t replace
+execute if score $greatBay map matches 1 if score result_music random matches 0 if score $music options matches 0 run schedule function ssbrc:logic/music/loop_schedule 662t replace
+execute if score $greatBay map matches 1 if score result_music random matches 0 if score $music options matches 1 run schedule function ssbrc:logic/music/decide 662t replace
 execute if score $greatBay map matches 1 if score result_music random matches 1 run playsound ssbrc:termina_field music @s
 execute if score $greatBay map matches 1 if score result_music random matches 1 if score $music options matches 0 run schedule function ssbrc:logic/music/loop_schedule 1320t replace
 execute if score $greatBay map matches 1 if score result_music random matches 1 if score $music options matches 1 run schedule function ssbrc:logic/music/decide 1320t replace
