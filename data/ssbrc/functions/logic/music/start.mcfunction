@@ -54,7 +54,7 @@ execute if score $dreamLand map matches 1 if score result_music random matches 1
 
 execute if score $finalDestination map matches 1 if score result_music random matches 0 run playsound ssbrc:final_destination_melee_intro music @s
 execute if score $finalDestination map matches 1 if score result_music random matches 0 run tellraw @s [{"text":"Now Playing: ","bold":true,"color":"gold"},{"text":"Final Destination (Melee)","color":"yellow"}]
-execute if score $finalDestination map matches 1 if score result_music random matches 0 run schedule function ssbrc:logic/music/loop_schedule 40t replace
+execute if score $finalDestination map matches 1 if score result_music random matches 0 run schedule function ssbrc:logic/music/loop_schedule 42t replace
 execute if score $finalDestination map matches 1 if score result_music random matches 1 run playsound ssbrc:master_hand_fight_intro music @s
 execute if score $finalDestination map matches 1 if score result_music random matches 1 run tellraw @s [{"text":"Now Playing: ","bold":true,"color":"gold"},{"text":"Master Hand Fight","color":"yellow"}]
 execute if score $finalDestination map matches 1 if score result_music random matches 1 run schedule function ssbrc:logic/music/loop_schedule 840t replace
