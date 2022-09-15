@@ -12,7 +12,7 @@ tag @s remove self
 item modify entity @s weapon.mainhand ssbrc:characters/alucard.alucard_sword
 
 # Holy Water
-execute if score @s cooldown.2 matches 1 unless score @s duration.1 matches 1.. run loot give @s loot ssbrc:characters/castlevania/alucard/holy_water
+execute unless score @s duration.1 matches 1.. run loot give @s[nbt=!{Inventory:[{tag:{holyWater:1}}]},scores={cooldown.2=..0}] loot ssbrc:characters/castlevania/alucard/holy_water
 execute as @e[type=minecraft:armor_stand,tag=holyWater.display] at @s unless block ~ ~-0.1 ~ #ssbrc:passthrough run function ssbrc:series/castlevania/alucard/logic/abilities/holy_water/kill_item
 
 # Mist
