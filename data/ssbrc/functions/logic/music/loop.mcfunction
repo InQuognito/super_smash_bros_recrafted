@@ -103,8 +103,8 @@ execute if score $greenHillZone map matches 1 if score result_music random match
 execute if score $greenHillZone map matches 1 if score result_music random matches 0 if score $music options matches 0 run schedule function ssbrc:logic/music/loop_schedule 750t replace
 execute if score $greenHillZone map matches 1 if score result_music random matches 0 if score $music options matches 1 run schedule function ssbrc:logic/music/decide 750t replace
 execute if score $greenHillZone map matches 1 if score result_music random matches 1 run playsound ssbrc:sonic_mania music @s
-execute if score $greenHillZone map matches 1 if score result_music random matches 1 if score $music options matches 0 run schedule function ssbrc:logic/music/loop_schedule 760t replace
-execute if score $greenHillZone map matches 1 if score result_music random matches 1 if score $music options matches 1 run schedule function ssbrc:logic/music/decide 760t replace
+execute if score $greenHillZone map matches 1 if score result_music random matches 1 if score $music options matches 0 run schedule function ssbrc:logic/music/loop_schedule 762t replace
+execute if score $greenHillZone map matches 1 if score result_music random matches 1 if score $music options matches 1 run schedule function ssbrc:logic/music/decide 762t replace
 
 execute if score $hyruleCastle map matches 1 if score result_music random matches 0 run playsound ssbrc:ballad_of_the_goddess music @s
 execute if score $hyruleCastle map matches 1 if score result_music random matches 0 if score $music options matches 0 run schedule function ssbrc:logic/music/loop_schedule 1680t replace
