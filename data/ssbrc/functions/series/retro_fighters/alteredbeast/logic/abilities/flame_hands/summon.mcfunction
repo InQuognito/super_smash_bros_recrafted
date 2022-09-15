@@ -1,4 +1,4 @@
-execute positioned 0.0 0.0 0.0 run summon minecraft:marker ^ ^ ^1 {Tags:["direction"]}
+execute positioned 0.0 0.0 0.0 run summon minecraft:marker ^ ^ ^2 {Tags:["direction"]}
 
 summon minecraft:arrow ^ ^ ^1 {damage:0.3,Tags:["flameHands","effect.wither","projectile"],NoGravity:1b}
 
@@ -10,5 +10,4 @@ tag @e[tag=projectile,limit=1] remove projectile
 kill @e[tag=direction]
 
 scoreboard players set @s cooldown.2 20
-
 execute if score @s shadow.chaosControl matches 1.. run function ssbrc:logic/characters/cooldown_modifiers/chaos_control/2

@@ -1,5 +1,4 @@
-particle minecraft:dust 0.9 0.1 0.1 2.25 ^ ^ ^ 0.0 0.0 0.0 0 0 normal @a
+particle minecraft:flame ~ ~ ~ 0.15 0.15 0.15 0.01 25 normal @a
 
 scoreboard players add @s temp 1
-kill @s[scores={temp=20..}]
-execute unless block ^ ^ ^0.1 #ssbrc:passthrough run kill @s
+kill @s[scores={temp=5..}]

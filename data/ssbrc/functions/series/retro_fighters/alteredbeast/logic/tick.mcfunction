@@ -6,6 +6,6 @@ execute as @e[tag=flameHands] at @s if score @s id = @p[tag=self] id run functio
 tag @s remove self
 
 # Waredragon
-execute if entity @s[tag=waredragon,predicate=ssbrc:flag/sneaking] run function ssbrc:logic/characters/slow_falling
+execute at @s[tag=waredragon,predicate=ssbrc:flag/sneaking] run function ssbrc:logic/characters/slow_falling
 
 execute at @s[scores={duration.1=1..}] run function ssbrc:series/retro_fighters/alteredbeast/logic/abilities/electrocution/tick
