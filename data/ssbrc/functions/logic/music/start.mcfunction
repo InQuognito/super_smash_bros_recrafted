@@ -82,7 +82,7 @@ execute if score $gardenOfHope map matches 1 if score result_music random matche
 
 execute if score $greatBay map matches 1 if score result_music random matches 0 run playsound ssbrc:legend_of_zelda_main_theme_intro music @s
 execute if score $greatBay map matches 1 if score result_music random matches 0 run tellraw @s [{"text":"Now Playing: ","bold":true,"color":"gold"},{"text":"Legend of Zelda Main Theme","color":"yellow"}]
-execute if score $greatBay map matches 1 if score result_music random matches 0 run schedule function ssbrc:logic/music/loop_schedule 140t replace
+execute if score $greatBay map matches 1 if score result_music random matches 0 run schedule function ssbrc:logic/music/loop_schedule 150t replace
 execute if score $greatBay map matches 1 if score result_music random matches 1 run playsound ssbrc:termina_field_intro music @s
 execute if score $greatBay map matches 1 if score result_music random matches 1 run tellraw @s [{"text":"Now Playing: ","bold":true,"color":"gold"},{"text":"Termina Field","color":"yellow"}]
 execute if score $greatBay map matches 1 if score result_music random matches 1 run schedule function ssbrc:logic/music/loop_schedule 360t replace
