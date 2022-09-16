@@ -17,6 +17,12 @@ scoreboard players remove @e[type=!minecraft:player,scores={duration.1=1..}] dur
 scoreboard players remove @e[type=!minecraft:player,scores={duration.2=1..}] duration.2 1
 scoreboard players remove @e[type=!minecraft:player,scores={duration.3=1..}] duration.3 1
 
+# Charge Attacks
+scoreboard players add @a[scores={charge.input=1..}] charge.step 1
+scoreboard players add @a[scores={charge.input=1..}] charge.output 1
+scoreboard players reset @a[scores={charge.input=2..}] charge.step
+scoreboard players remove @a[scores={charge.input=2..}] charge.input 1
+
 execute unless score $sectorZ map matches 1 run effect give @a[tag=alive,scores={respawn=..0},gamemode=adventure,predicate=ssbrc:below_y/0] minecraft:blindness 2 0 true
 
 # Characters
@@ -29,7 +35,6 @@ function ssbrc:logic/tick/maps
 function ssbrc:logic/tick/damage
 
 scoreboard players reset @a useAbility
-scoreboard players reset @a useChargeAbility
 
 # Banned From Having More Than One
 execute as @a[predicate=ssbrc:characters/kits/trident] run function ssbrc:logic/characters/restore_items/trident_count

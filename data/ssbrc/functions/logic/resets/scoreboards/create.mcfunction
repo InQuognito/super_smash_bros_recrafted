@@ -4,6 +4,9 @@ scoreboard objectives add bowser.fireBreath.target dummy
 scoreboard objectives add charge.1 dummy
 scoreboard objectives add charge.2 dummy
 scoreboard objectives add charge.3 dummy
+scoreboard objectives add charge.input minecraft.used:minecraft.warped_fungus_on_a_stick
+scoreboard objectives add charge.output dummy
+scoreboard objectives add charge.step dummy
 scoreboard objectives add cloud.limit dummy
 scoreboard objectives add cooldown.1 dummy
 scoreboard objectives add cooldown.2 dummy
@@ -90,7 +93,6 @@ scoreboard objectives add timer.stalfos dummy
 scoreboard objectives add timer.trident dummy
 scoreboard objectives add temp dummy
 scoreboard objectives add useAbility minecraft.used:minecraft.carrot_on_a_stick
-scoreboard objectives add useChargeAbility minecraft.used:minecraft.warped_fungus_on_a_stick
 scoreboard objectives add vars dummy
 scoreboard objectives add zelda.bomb dummy
 

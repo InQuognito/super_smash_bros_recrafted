@@ -187,6 +187,7 @@ scoreboard objectives remove teamrocket.wins
 scoreboard objectives remove teamrocket.winStreak
 
 # Misc
+scoreboard objectives remove currency
 scoreboard objectives remove options
 scoreboard objectives remove stats.deaths
 scoreboard objectives remove stats.gamesPlayed

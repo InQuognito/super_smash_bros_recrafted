@@ -4,6 +4,9 @@ scoreboard objectives remove bowser.fireBreath.target
 scoreboard objectives remove charge.1
 scoreboard objectives remove charge.2
 scoreboard objectives remove charge.3
+scoreboard objectives remove charge.input
+scoreboard objectives remove charge.output
+scoreboard objectives remove charge.step
 scoreboard objectives remove cloud.limit
 scoreboard objectives remove cooldown.1
 scoreboard objectives remove cooldown.2
@@ -90,7 +93,6 @@ scoreboard objectives remove timer.stalfos
 scoreboard objectives remove timer.trident
 scoreboard objectives remove temp
 scoreboard objectives remove useAbility
-scoreboard objectives remove useChargeAbility
 scoreboard objectives remove vars
 scoreboard objectives remove zelda.bomb
 
