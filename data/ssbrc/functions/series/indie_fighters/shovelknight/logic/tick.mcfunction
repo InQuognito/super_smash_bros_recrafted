@@ -6,7 +6,7 @@ execute if score @s[scores={useAbility=1..,cooldown.2=..0},nbt={SelectedItem:{ta
 execute if score @s[scores={useAbility=1..,cooldown.2=..0},nbt={SelectedItem:{tag:{propellerDagger:1}}}] mana >= #shovelknight.propellerDaggerManaCost vars at @s run function ssbrc:series/indie_fighters/shovelknight/logic/abilities/propeller_dagger/activate
 
 tag @s add self
-execute at @s[nbt={SelectedItem:{tag:{shovelDrop:1}}}] positioned ~ ~-1.1 ~ as @e[type=#ssbrc:hostile,dy=0] run function ssbrc:series/indie_fighters/shovelknight/logic/abilities/shovel_drop/damage
+execute at @s[nbt={SelectedItem:{tag:{shovelDrop:1}}}] positioned ~ ~-1.1 ~ as @e[type=#ssbrc:hostile,dy=0] run function ssbrc:series/indie_fighters/shovelknight/logic/abilities/shovel_drop/hit
 execute as @e[type=minecraft:marker,tag=chaosSphere] at @s if score @s id = @p[tag=self] id run function ssbrc:series/indie_fighters/shovelknight/logic/abilities/chaos_sphere/tick
 execute as @e[type=minecraft:arrow,tag=flareWand] at @s if score @s id = @p[tag=shovelknight.flareWand,tag=self] id run function ssbrc:series/indie_fighters/shovelknight/logic/abilities/flare_wand/tick
 execute as @e[type=minecraft:marker,tag=propellerDagger] at @s if score @s id = @p[tag=shovelknight.propellerDagger,tag=self,scores={duration.2=2..}] id run function ssbrc:series/indie_fighters/shovelknight/logic/abilities/propeller_dagger/tick
@@ -17,8 +17,8 @@ tag @s remove self
 function ssbrc:series/indie_fighters/shovelknight/logic/mana/update
 
 # Shovel Drop
-execute if entity @s[predicate=ssbrc:flag/sneaking,nbt={SelectedItem:{tag:{shovelDrop:0}}}] run loot replace entity @s weapon.mainhand loot ssbrc:characters/indie_fighters/shovelknight/shovel_blade/shovel_drop
-execute if entity @s[predicate=!ssbrc:flag/sneaking,nbt={SelectedItem:{tag:{shovelDrop:1}}}] run loot replace entity @s weapon.mainhand loot ssbrc:characters/indie_fighters/shovelknight/shovel_blade/default
+execute at @s if block ~ ~-0.1 ~ minecraft:air if entity @s[predicate=ssbrc:flag/sneaking,nbt={SelectedItem:{tag:{shovelDrop:0}}}] run loot replace entity @s weapon.mainhand loot ssbrc:characters/indie_fighters/shovelknight/shovel_blade/shovel_drop
+execute at @s if entity @s[predicate=!ssbrc:flag/sneaking,nbt={SelectedItem:{tag:{shovelDrop:1}}}] run loot replace entity @s weapon.mainhand loot ssbrc:characters/indie_fighters/shovelknight/shovel_blade/default
 
 # Phase Locket
 execute if entity @s[tag=shovelknight.phaseLocket,predicate=ssbrc:characters/shovelknight/phase_locket/off] run function ssbrc:series/indie_fighters/shovelknight/logic/abilities/phase_locket/off
