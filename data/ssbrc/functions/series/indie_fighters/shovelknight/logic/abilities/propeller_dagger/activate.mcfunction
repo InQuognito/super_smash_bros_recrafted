@@ -11,7 +11,9 @@ function ssbrc:series/indie_fighters/shovelknight/logic/mana/update
 
 scoreboard players set @s duration.2 10
 
-effect give @p minecraft:levitation 1000000 255 true
+effect give @s minecraft:levitation 1000000 255 true
 
 particle minecraft:cloud ~ ~0.75 ~ 0.3 0.3 0.3 0.0 15 normal @a
 execute anchored eyes run particle minecraft:end_rod ^ ^ ^15.0 0.0 0.0 0.0 0.0 1 normal @a
+
+function ssbrc:logic/resets/charge
