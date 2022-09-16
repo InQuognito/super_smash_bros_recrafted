@@ -19,6 +19,8 @@ function ssbrc:series/indie_fighters/shovelknight/logic/mana/update
 # Shovel Drop
 execute at @s if block ~ ~-0.1 ~ minecraft:air if entity @s[predicate=ssbrc:flag/sneaking,nbt={SelectedItem:{tag:{shovelDrop:0}}}] run loot replace entity @s weapon.mainhand loot ssbrc:characters/indie_fighters/shovelknight/shovel_blade/shovel_drop
 execute at @s if entity @s[predicate=!ssbrc:flag/sneaking,nbt={SelectedItem:{tag:{shovelDrop:1}}}] run loot replace entity @s weapon.mainhand loot ssbrc:characters/indie_fighters/shovelknight/shovel_blade/default
+scoreboard players add @s[scores={charge.3=1..}] charge.3 1
+execute if score @s charge.3 matches 10.. run function ssbrc:series/indie_fighters/shovelknight/logic/abilities/shovel_drop/reset
 
 # Phase Locket
 execute if entity @s[tag=shovelknight.phaseLocket,predicate=ssbrc:characters/shovelknight/phase_locket/off] run function ssbrc:series/indie_fighters/shovelknight/logic/abilities/phase_locket/off
