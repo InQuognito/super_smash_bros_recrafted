@@ -22,6 +22,7 @@ scoreboard players add @a[scores={charge.input=1..}] charge.step 1
 scoreboard players add @a[scores={charge.input=1..}] charge.output 1
 scoreboard players reset @a[scores={charge.input=2..}] charge.step
 scoreboard players remove @a[scores={charge.input=2..}] charge.input 1
+scoreboard players reset @a[scores={charge.step=5..}] charge.input
 
 execute unless score $sectorZ map matches 1 run effect give @a[tag=alive,scores={respawn=..0},gamemode=adventure,predicate=ssbrc:below_y/0] minecraft:blindness 2 0 true
 
