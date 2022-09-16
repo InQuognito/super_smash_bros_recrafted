@@ -116,7 +116,7 @@ scoreboard players set @s[tag=shadow] charge.1 0
 scoreboard players set @s[tag=shadow] charge.2 0
 
 # Shovelknight
-function ssbrc:series/indie_fighters/shovelknight/kit
+execute if entity @s[tag=shovelknight] run function ssbrc:series/indie_fighters/shovelknight/kit
 
 # Team Rocket
 tag @s[tag=teamrocket] remove nextFighterChosen

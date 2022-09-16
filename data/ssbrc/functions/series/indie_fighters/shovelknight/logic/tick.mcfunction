@@ -10,7 +10,6 @@ execute at @s[nbt={SelectedItem:{tag:{shovelDrop:1}}}] positioned ~ ~-1.1 ~ as @
 execute as @e[type=minecraft:marker,tag=chaosSphere] at @s if score @s id = @p[tag=self] id run function ssbrc:series/indie_fighters/shovelknight/logic/abilities/chaos_sphere/tick
 execute as @e[type=minecraft:arrow,tag=flareWand] at @s if score @s id = @p[tag=shovelknight.flareWand,tag=self] id run function ssbrc:series/indie_fighters/shovelknight/logic/abilities/flare_wand/tick
 execute as @e[type=minecraft:marker,tag=propellerDagger] at @s if score @s id = @p[tag=shovelknight.propellerDagger,tag=self,scores={duration.2=2..}] id run function ssbrc:series/indie_fighters/shovelknight/logic/abilities/propeller_dagger/tick
-execute as @a[tag=damage.warHorn] at @s run function ssbrc:series/indie_fighters/shovelknight/logic/abilities/war_horn/damage
 tag @s remove self
 
 # Mana
