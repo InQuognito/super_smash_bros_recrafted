@@ -3,7 +3,7 @@ execute if score @s[scores={useAbility=1..,cooldown.1=..0},nbt={SelectedItem:{ta
 execute if score @s[scores={useAbility=1..,cooldown.1=..0},nbt={SelectedItem:{tag:{flareWand:1}}}] mana >= #shovelknight.flareWandManaCost vars at @s anchored eyes run function ssbrc:series/indie_fighters/shovelknight/logic/abilities/flare_wand/activate
 execute if score @s[scores={useAbility=1..,cooldown.1=..0},nbt={SelectedItem:{tag:{throwingAnchor:1}}}] mana >= #shovelknight.throwingAnchorManaCost vars at @s anchored eyes run function ssbrc:series/indie_fighters/shovelknight/logic/abilities/throwing_anchor/activate
 execute if score @s[scores={useAbility=1..,cooldown.2=..0},nbt={SelectedItem:{tag:{phaseLocket:1}}}] mana >= #shovelknight.phaseLocketManaCost vars run function ssbrc:series/indie_fighters/shovelknight/logic/abilities/phase_locket/on
-execute if score @s[scores={useAbility=1..,cooldown.2=..0,charge.step=5..},nbt={SelectedItem:{tag:{propellerDagger:1}}}] mana >= #shovelknight.propellerDaggerManaCost vars at @s run function ssbrc:series/indie_fighters/shovelknight/logic/abilities/propeller_dagger/activate
+execute if score @s[scores={charge.step=5..,cooldown.2=..0},nbt={SelectedItem:{tag:{propellerDagger:1}}}] mana >= #shovelknight.propellerDaggerManaCost vars at @s run function ssbrc:series/indie_fighters/shovelknight/logic/abilities/propeller_dagger/activate
 
 tag @s add self
 execute at @s[nbt={SelectedItem:{tag:{shovelDrop:1}}}] positioned ~ ~-1.1 ~ as @e[type=#ssbrc:hostile,dy=0] run function ssbrc:series/indie_fighters/shovelknight/logic/abilities/shovel_drop/hit
