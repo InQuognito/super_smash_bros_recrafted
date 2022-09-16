@@ -25,6 +25,9 @@ forceload add -544 32 -497 79
 forceload add 0 96 95 175
 forceload add -64 -208 -1 -145
 
+worldborder set 9999999
+worldborder center -520.5 55.5
+
 time set noon
 weather clear
 
