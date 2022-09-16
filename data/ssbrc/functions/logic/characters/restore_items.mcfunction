@@ -116,7 +116,7 @@ scoreboard players set @s[tag=shadow] charge.1 0
 scoreboard players set @s[tag=shadow] charge.2 0
 
 # Shovelknight
-scoreboard players set @s[tag=shovelknight] mana 10
+function ssbrc:series/indie_fighters/shovelknight/kit
 
 # Team Rocket
 tag @s[tag=teamrocket] remove nextFighterChosen

@@ -1,3 +1,5 @@
+clear @s #ssbrc:equipment
+
 loot replace entity @s hotbar.0 loot ssbrc:characters/indie_fighters/shovelknight/shovel_blade/default
 
 scoreboard players set max random 3
