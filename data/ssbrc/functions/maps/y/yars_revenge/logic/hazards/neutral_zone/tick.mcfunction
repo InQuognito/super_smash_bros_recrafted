@@ -10,3 +10,6 @@ execute if score result random matches 5 run clone 9992 14 19821 10020 14 19833 
 
 particle minecraft:glow 9969.0 1.1 19888.0 28.0 0.0 12.0 0.0 25 normal @a
 execute as @a[tag=alive,scores={respawn=..0},gamemode=adventure] at @s run function ssbrc:maps/y/yars_revenge/logic/hazards/neutral_zone/effects
+
+scoreboard players add #neutralZone temp 1
+execute if score #neutralZone temp matches 300.. run function ssbrc:maps/y/yars_revenge/logic/hazards/neutral_zone/deactivate
