@@ -21,25 +21,14 @@ fill 767 4 189 767 4 215 minecraft:water replace
 
 fill 775 6 188 785 13 188 minecraft:white_concrete replace
 
-execute if score $hazards options matches 0 run fill 774 4 196 776 4 198 minecraft:black_concrete replace
-execute if score $hazards options matches 0 run fill 774 4 207 776 4 209 minecraft:black_concrete replace
-execute if score $hazards options matches 0 run fill 783 4 196 785 4 198 minecraft:black_concrete replace
-execute if score $hazards options matches 0 run fill 783 4 207 785 4 209 minecraft:black_concrete replace
-
-execute if score $hazards options matches 0 run fill 776 7 213 778 7 214 minecraft:black_concrete replace
-
-execute if score $hazards options matches 0 run setblock 767 4 209 minecraft:green_terracotta
-execute if score $hazards options matches 0 run setblock 767 4 202 minecraft:green_terracotta
-execute if score $hazards options matches 0 run setblock 767 4 195 minecraft:green_terracotta
+execute if score $hazards options matches 0 run function ssbrc:maps/f/flat_zone/load/hazards_off
+execute if score $hazards options matches 1 run function ssbrc:maps/f/flat_zone/load/hazards_on
 
 function ssbrc:maps/f/flat_zone/logic/gas_station_guy_1_left
 function ssbrc:maps/f/flat_zone/logic/gas_station_guy_2_left
 function ssbrc:maps/f/flat_zone/logic/house_light_random
 function ssbrc:maps/f/flat_zone/logic/lion_1
 function ssbrc:maps/f/flat_zone/logic/lion_2
-execute if score $hazards options matches 1 run function ssbrc:maps/f/flat_zone/logic/middle_platform_ne
-execute if score $hazards options matches 1 run function ssbrc:maps/f/flat_zone/logic/south_parkour_platform_on
-execute if score $hazards options matches 1 run function ssbrc:maps/f/flat_zone/logic/turtle
 function ssbrc:maps/f/flat_zone/logic/zookeeper_1
 function ssbrc:maps/f/flat_zone/logic/zookeeper_2
 
