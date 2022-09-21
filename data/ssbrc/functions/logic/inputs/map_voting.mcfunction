@@ -23,6 +23,7 @@ execute positioned 5.5 4.5 28.5 if block ~ ~ ~ #minecraft:buttons[powered=true] 
 execute positioned 10.5 10.5 17.5 if block ~ ~ ~ #minecraft:buttons[powered=true] run function ssbrc:maps/p/pac_maze/vote
 execute positioned -3.5 10.5 19.5 if block ~ ~ ~ #minecraft:buttons[powered=true] run function ssbrc:maps/p/pallet_town/vote
 execute positioned -0.5 10.5 28.5 if block ~ ~ ~ #minecraft:buttons[powered=true] run function ssbrc:maps/p/planet_zebes/vote
+execute positioned 7.5 10.5 14.5 if block ~ ~ ~ #minecraft:buttons[powered=true] run function ssbrc:maps/p/pyrosphere/vote
 execute positioned 1.5 10.5 28.5 if block ~ ~ ~ #minecraft:buttons[powered=true] run function ssbrc:maps/s/sand_ocean/vote
 execute positioned 1.5 4.5 28.5 if block ~ ~ ~ #minecraft:buttons[powered=true] run function ssbrc:maps/s/saturn_valley/vote
 execute positioned 10.5 4.5 25.5 if block ~ ~ ~ #minecraft:buttons[powered=true] run function ssbrc:maps/s/sector_z/vote
