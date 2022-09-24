@@ -73,6 +73,9 @@ summon minecraft:glow_item_frame -3.5 11.0 19.5 {Fixed:1b,Invisible:1b,Facing:5b
 # Planet Zebes
 summon minecraft:area_effect_cloud -0.5 11.0 28.5 {Age:-2147483648,Duration:-1,WaitTime:-2147483648,Tags:["voteCounter","planetZebes"],CustomNameVisible:1b}
 summon minecraft:glow_item_frame -0.5 11.0 28.5 {Fixed:1b,Invisible:1b,Facing:2b,Item:{id:"minecraft:sugar",tag:{CustomModelData:1400},Count:1b}}
+# Pyrosphere
+summon minecraft:area_effect_cloud 7.5 11.0 14.5 {Age:-2147483648,Duration:-1,WaitTime:-2147483648,Tags:["voteCounter","pyrosphere"],CustomNameVisible:1b}
+summon minecraft:glow_item_frame 7.5 11.0 14.5 {Fixed:1b,Invisible:1b,Facing:3b,Item:{id:"minecraft:sugar",tag:{CustomModelData:1450},Count:1b}}
 # Sand Ocean
 summon minecraft:area_effect_cloud 1.5 11.0 28.5 {Age:-2147483648,Duration:-1,WaitTime:-2147483648,Tags:["voteCounter","sandOcean"],CustomNameVisible:1b}
 summon minecraft:glow_item_frame 1.5 11.0 28.5 {Fixed:1b,Invisible:1b,Facing:2b,Item:{id:"minecraft:sugar",tag:{CustomModelData:1450},Count:1b}}

@@ -25,6 +25,7 @@ execute unless score #mapPicked mapVote matches 1 if entity @s[tag=mushroomKingd
 execute unless score #mapPicked mapVote matches 1 if entity @s[tag=pacMaze] run function ssbrc:maps/p/pac_maze/load
 execute unless score #mapPicked mapVote matches 1 if entity @s[tag=palletTown] run function ssbrc:maps/p/pallet_town/load
 execute unless score #mapPicked mapVote matches 1 if entity @s[tag=planetZebes] run function ssbrc:maps/p/planet_zebes/load
+execute unless score #mapPicked mapVote matches 1 if entity @s[tag=pyrosphere] run function ssbrc:maps/p/pyrosphere/load
 execute unless score #mapPicked mapVote matches 1 if entity @s[tag=sandOcean] run function ssbrc:maps/s/sand_ocean/load
 execute unless score #mapPicked mapVote matches 1 if entity @s[tag=saturnValley] run function ssbrc:maps/s/saturn_valley/load
 execute unless score #mapPicked mapVote matches 1 if entity @s[tag=sectorZ] run function ssbrc:maps/s/sector_z/load
