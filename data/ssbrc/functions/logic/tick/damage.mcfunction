@@ -10,6 +10,7 @@ execute if entity @a[tag=pikachu] run function ssbrc:logic/tick/damage/pokemon/p
 execute if entity @a[tag=pokemontrainer] run function ssbrc:logic/tick/damage/pokemon/pokemontrainer
 execute if entity @a[tag=alteredbeast] run function ssbrc:logic/tick/damage/retro_fighters/alteredbeast
 execute if entity @a[tag=shadow] run function ssbrc:logic/tick/damage/sonic_the_hedgehog/shadow
+execute if entity @a[tag=wolf] run function ssbrc:logic/tick/damage/star_fox/wolf
 execute if entity @a[tag=bowser] run function ssbrc:logic/tick/damage/super_mario_bros/bowser
 execute if entity @a[tag=luigi] run function ssbrc:logic/tick/damage/super_mario_bros/luigi
 execute if entity @a[tag=mario] run function ssbrc:logic/tick/damage/super_mario_bros/mario
