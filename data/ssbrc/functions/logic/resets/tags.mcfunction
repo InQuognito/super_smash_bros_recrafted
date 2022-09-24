@@ -17,6 +17,7 @@ function ssbrc:series/indie_fighters/shovelknight/kits/utility/reset
 tag @s remove admin
 tag @s remove alive
 tag @s remove idSet
+tag @s remove mostKills
 tag @s remove room.characterSelect
 tag @s remove room.mapVoting
 tag @s remove self
