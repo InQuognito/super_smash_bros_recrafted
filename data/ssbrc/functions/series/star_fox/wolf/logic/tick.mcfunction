@@ -7,3 +7,7 @@ tag @s add self
 execute as @e[type=minecraft:arrow,tag=heavyBlaster] at @s if score @s id = @p[tag=self] id run function ssbrc:series/star_fox/wolf/logic/abilities/heavy_blaster/tick
 execute as @e[type=minecraft:armor_stand,tag=grenade] at @s if score @s id = @p[tag=self] id run function ssbrc:series/star_fox/wolf/logic/abilities/grenade/tick
 tag @s remove self
+
+# Grenade
+scoreboard players add @s[tag=activeFuse] fuse 1
+execute if score @s fuse >= #wolf.grenadeTimer vars at @s run function ssbrc:series/star_fox/wolf/logic/abilities/grenade/explode_in_hand
