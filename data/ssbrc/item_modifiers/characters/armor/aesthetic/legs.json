@@ -854,6 +854,19 @@
 	},
 	{
 		"function": "minecraft:set_nbt",
+		"tag": "{display:{color:3947319}}",
+		"conditions": [
+			{
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"nbt": "{Tags:[\"wolf\",\"default\"]}"
+				}
+			}
+		]
+	},
+	{
+		"function": "minecraft:set_nbt",
 		"tag": "{display:{color:4444225}}",
 		"conditions": [
 			{

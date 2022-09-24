@@ -11,6 +11,13 @@
 		{
 			"condition": "minecraft:reference",
 			"name": "ssbrc:characters/hero.kaclang"
+		},
+		{
+			"condition": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
+				"nbt": "{Tags:[\"wolf\"]}"
+			}
 		}
 	]
 }
