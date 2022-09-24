@@ -1,0 +1,58 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:barrier",
+			"nbt": "{CustomModelData:380}"
+		},
+		"title": {
+			"text": "Saurian Warrior",
+			"color": "dark_red",
+			"bold": false,
+			"italic": false
+		},
+		"description": {
+			"text": "Drive away a ",
+			"color": "gray",
+			"bold": false,
+			"italic": false,
+			"extra": [
+				{
+					"text": "reptilian menace",
+					"color": "red",
+					"bold": false,
+					"italic": false
+				},
+				{
+					"text": " on ",
+					"color": "gray",
+					"bold": false,
+					"italic": false
+				},
+				{
+					"text": "Jungle Japes",
+					"color": "yellow",
+					"bold": false,
+					"italic": false
+				},
+				{
+					"text": ".",
+					"color": "gray",
+					"bold": false,
+					"italic": false
+				}
+			]
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true
+	},
+	"parent": "ssbrc:series/star_fox/fox/slayer",
+	"criteria": {
+		"impossible": {
+			"trigger": "minecraft:impossible"
+		}
+	},
+	"rewards": {
+		"function": "ssbrc:advancements/fox/saurian_warrior"
+	}
+}
