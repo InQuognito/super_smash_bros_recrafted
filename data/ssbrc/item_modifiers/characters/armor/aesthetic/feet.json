@@ -1,7 +1,7 @@
 [
 	{
 		"function": "minecraft:set_nbt",
-		"tag": "{display:{color:12726307}}",
+		"tag": "{display:{color:5592405}}",
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
