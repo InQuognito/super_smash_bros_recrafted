@@ -23,6 +23,7 @@ tag @s remove mushroomKingdom
 tag @s remove pacMaze
 tag @s remove palletTown
 tag @s remove planetZebes
+tag @s remove pyrosphere
 tag @s remove saturnValley
 tag @s remove sandOcean
 tag @s remove sectorZ
