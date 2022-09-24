@@ -3,5 +3,5 @@ tag @a[tag=alive,scores={respawn=..0},gamemode=adventure,distance=..6] add damag
 particle minecraft:explosion_emitter ~ ~ ~ 0.0 0.0 0.0 0.0 1 normal @a
 playsound minecraft:entity.generic.explode hostile @a
 
-tag @s remove activeBomb
-scoreboard players reset @s zelda.bomb
+tag @s remove activeFuse
+scoreboard players reset @s fuse

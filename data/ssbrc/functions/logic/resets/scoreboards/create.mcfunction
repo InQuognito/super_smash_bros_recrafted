@@ -32,6 +32,7 @@ scoreboard objectives add flag.damageTaken minecraft.custom:minecraft.damage_tak
 scoreboard objectives add flag.dead deathCount
 scoreboard objectives add flag.fireBow minecraft.used:minecraft.bow
 scoreboard objectives add flag.sprinting dummy
+scoreboard objectives add fuse dummy
 scoreboard objectives add health health
 scoreboard objectives add id dummy
 scoreboard objectives add integers dummy
@@ -94,7 +95,6 @@ scoreboard objectives add timer.trident dummy
 scoreboard objectives add temp dummy
 scoreboard objectives add useAbility minecraft.used:minecraft.carrot_on_a_stick
 scoreboard objectives add vars dummy
-scoreboard objectives add zelda.bomb dummy
 
 # Bonuses
 scoreboard objectives add 765o dummy
