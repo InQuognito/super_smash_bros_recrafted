@@ -9,4 +9,4 @@ tag @e[tag=projectile,limit=1] remove projectile
 scoreboard players set @s duration.3 5
 effect give @p minecraft:levitation 1000000 255 true
 
-execute as @e[tag=wolfFlash,sort=nearest,limit=1] run function ssbrc:series/star_fox/wolf/logic/abilities/wolf_flash/raycast/start
+execute as @e[type=minecraft:marker,tag=wolfFlash,sort=nearest,limit=1] at @s run function ssbrc:series/star_fox/wolf/logic/abilities/wolf_flash/raycast/start
