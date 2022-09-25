@@ -38,6 +38,8 @@ loot replace entity @s hotbar.4 loot ssbrc:characters/the_legend_of_zelda/zelda/
 loot replace entity @s hotbar.5 loot ssbrc:characters/the_legend_of_zelda/zelda/inventory_refresh
 loot replace entity @s hotbar.6 loot ssbrc:characters/the_legend_of_zelda/zelda/rupee_wallet
 
+function ssbrc:series/the_legend_of_zelda/zelda/logic/apply_passives
+
 scoreboard players operation @s mana = #zelda.maxMagic vars
 
 scoreboard players add @s charge.1 10
