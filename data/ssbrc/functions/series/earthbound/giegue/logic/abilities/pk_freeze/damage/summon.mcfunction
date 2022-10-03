@@ -4,3 +4,5 @@ data modify entity @e[tag=projectile,limit=1] Owner set from entity @e[type=mine
 tag @e[tag=projectile,limit=1] remove projectile
 
 kill @e[type=minecraft:area_effect_cloud,tag=pkFreeze,sort=nearest,limit=1]
+
+function ssbrc:logic/characters/attributes/modifiers/frostbite/increase
