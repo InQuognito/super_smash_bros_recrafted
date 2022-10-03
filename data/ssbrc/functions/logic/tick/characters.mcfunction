@@ -55,4 +55,4 @@ execute if score $sandOcean map matches 1 if score $hazards options matches 1 un
 execute if score $sandOcean map matches 1 if score $hazards options matches 1 if score $sectorZ map matches 1 run function ssbrc:maps/s/sector_z/logic/effects
 
 scoreboard players add @s[scores={frostbite=1..}] frostbiteTimer 1
-execute if score @s frostbiteTimer >= #frostbiteTimer vars run function ssbrc:logic/characters/attributes/defaults/modifiers/frostbite/decrease
+execute if score @s frostbiteTimer >= #frostbiteTimer vars run function ssbrc:logic/characters/attributes/modifiers/frostbite/decrease

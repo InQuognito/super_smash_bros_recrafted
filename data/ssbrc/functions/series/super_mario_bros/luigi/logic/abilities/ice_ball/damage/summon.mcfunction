@@ -5,4 +5,4 @@ tag @e[tag=projectile,limit=1] remove projectile
 
 kill @e[type=minecraft:marker,tag=iceBall,sort=nearest,limit=1]
 
-function ssbrc:logic/characters/attributes/defaults/modifiers/frostbite/increase
+function ssbrc:logic/characters/attributes/modifiers/frostbite/increase
