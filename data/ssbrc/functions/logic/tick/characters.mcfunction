@@ -53,3 +53,6 @@ function ssbrc:logic/tick/assign_teams
 
 execute if score $sandOcean map matches 1 if score $hazards options matches 1 unless score $sectorZ map matches 1 run function ssbrc:logic/characters/effects/defaults/jump_boost
 execute if score $sandOcean map matches 1 if score $hazards options matches 1 if score $sectorZ map matches 1 run function ssbrc:maps/s/sector_z/logic/effects
+
+scoreboard players add @s[scores={frostbite=1..}] frostbiteTimer 1
+execute if score @s frostbiteTimer >= #frostbiteTimer vars run function ssbrc:logic/characters/attributes/modifiers/frostbite/decrease

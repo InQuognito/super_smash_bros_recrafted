@@ -32,6 +32,8 @@ scoreboard objectives remove flag.damageTaken
 scoreboard objectives remove flag.dead
 scoreboard objectives remove flag.fireBow
 scoreboard objectives remove flag.sprinting
+scoreboard objectives remove frostbite
+scoreboard objectives remove frostbiteTimer
 scoreboard objectives remove fuse
 scoreboard objectives remove health
 scoreboard objectives remove id
