@@ -10,7 +10,7 @@ loot replace entity @s hotbar.0 loot ssbrc:characters/pokemon/pokemontrainer/cha
 loot replace entity @s hotbar.1 loot ssbrc:characters/pokemon/pokemontrainer/charizard/flare_blitz
 
 function ssbrc:logic/characters/armor/get
-function ssbrc:logic/characters/attributes
+function ssbrc:logic/characters/attributes/defaults
 function ssbrc:logic/characters/effects/default
 
 function ssbrc:logic/characters/natures/select

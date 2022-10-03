@@ -4,7 +4,7 @@ gamemode adventure @s
 
 execute if entity @s[tag=alive] run function ssbrc:logic/characters/restore_items
 
-function ssbrc:logic/characters/attributes
+function ssbrc:logic/characters/attributes/defaults
 function ssbrc:logic/characters/effects/default
 
 tag @s add respawnMe

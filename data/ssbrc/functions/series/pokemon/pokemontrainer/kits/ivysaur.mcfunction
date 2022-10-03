@@ -10,7 +10,7 @@ loot replace entity @s hotbar.0 loot ssbrc:characters/pokemon/pokemontrainer/ivy
 loot replace entity @s hotbar.1 loot ssbrc:characters/pokemon/pokemontrainer/ivysaur/leech_seed
 
 function ssbrc:logic/characters/armor/get
-function ssbrc:logic/characters/attributes
+function ssbrc:logic/characters/attributes/defaults
 function ssbrc:logic/characters/effects/default
 
 function ssbrc:logic/characters/natures/select
