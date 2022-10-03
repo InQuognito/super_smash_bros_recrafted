@@ -9,4 +9,5 @@ attribute @s generic.attack_speed modifier remove 19192183-0000-0000-0002-000000
 attribute @s generic.attack_speed modifier remove 19192183-0000-0000-0002-000000000004
 attribute @s generic.attack_speed modifier remove 19192183-0000-0000-0002-000000000005
 
+effect clear @s minecraft:unluck
 scoreboard players reset @s frostbiteTimer

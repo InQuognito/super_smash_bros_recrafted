@@ -8,3 +8,9 @@ execute if score @s frostbite matches 2 run attribute @s generic.attack_speed mo
 execute if score @s frostbite matches 3 run attribute @s generic.attack_speed modifier add 19192183-0000-0000-0002-000000000003 "frostbite.attackSpeed.3" -0.06 multiply_base
 execute if score @s frostbite matches 4 run attribute @s generic.attack_speed modifier add 19192183-0000-0000-0002-000000000004 "frostbite.attackSpeed.4" -0.09 multiply_base
 execute if score @s frostbite matches 5 run attribute @s generic.attack_speed modifier add 19192183-0000-0000-0002-000000000005 "frostbite.attackSpeed.5" -0.12 multiply_base
+
+execute if score @s frostbite matches 1 run effect give @s minecraft:unluck 1000000 0 true
+execute if score @s frostbite matches 2 run effect give @s minecraft:unluck 1000000 1 true
+execute if score @s frostbite matches 3 run effect give @s minecraft:unluck 1000000 2 true
+execute if score @s frostbite matches 4 run effect give @s minecraft:unluck 1000000 3 true
+execute if score @s frostbite matches 5 run effect give @s minecraft:unluck 1000000 4 true
