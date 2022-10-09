@@ -10,7 +10,7 @@ execute if score @s point > 0 integers unless block ~ ~-0.6 ~ #ssbrc:passthrough
 
 execute rotated as @s run teleport @s ^ ^ ^0.5
 
-execute positioned ~-0.45 ~-0.45 ~-0.45 as @a[tag=alive,scores={respawn=..0},dx=0] positioned ~-0.1 ~-0.1 ~-0.1 if entity @s[dx=0] unless score @s id = @e[type=minecraft:marker,tag=fireball,sort=nearest,limit=1] id run tag @s add damage.fireball
+execute positioned ~-0.375 ~-0.375 ~-0.375 as @a[tag=alive,scores={respawn=..0},gamemode=adventure,dx=0] positioned ~-0.25 ~-0.25 ~-0.25 if entity @s[dx=0] unless score @s id = @e[type=minecraft:marker,tag=fireball,sort=nearest,limit=1] id run tag @s add damage.fireball
 
 scoreboard players add @s temp 1
 kill @s[scores={temp=70..}]
