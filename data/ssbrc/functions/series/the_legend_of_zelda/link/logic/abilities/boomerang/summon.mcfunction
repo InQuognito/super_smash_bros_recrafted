@@ -1,4 +1,4 @@
-summon minecraft:area_effect_cloud ^ ^ ^1 {Tags:["boomerang","projectile"],Duration:600}
+summon minecraft:area_effect_cloud ^ ^-0.5 ^1 {Tags:["boomerang","projectile"],Duration:600}
 
 scoreboard players operation @e[tag=projectile,limit=1] id = @s id
 data modify entity @e[tag=projectile,limit=1] Rotation[0] set from entity @s Rotation[0]
