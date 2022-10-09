@@ -38,13 +38,47 @@
 							]
 						},
 						{
+							"function": "minecraft:set_banner_pattern",
+							"patterns": [
+								{
+									"pattern": "minecraft:base",
+									"color": "light_gray"
+								},
+								{
+									"pattern": "minecraft:border",
+									"color": "light_gray"
+								},
+								{
+									"pattern": "minecraft:stripe_downleft",
+									"color": "white"
+								},
+								{
+									"pattern": "minecraft:gradient",
+									"color": "yellow"
+								},
+								{
+									"pattern": "minecraft:gradient_up",
+									"color": "white"
+								},
+								{
+									"pattern": "minecraft:gradient",
+									"color": "yellow"
+								},
+								{
+									"pattern": "minecraft:border",
+									"color": "light_gray"
+								}
+							],
+							"append": false
+						},
+						{
 							"function": "minecraft:set_damage",
 							"damage": 0.02,
 							"add": false
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{mirrorShield:1,CustomModelData:9033,HideFlags:127}"
+							"tag": "{mirrorShield:1,HideFlags:127}"
 						}
 					]
 				}

@@ -38,13 +38,27 @@
 							]
 						},
 						{
+							"function": "minecraft:set_banner_pattern",
+							"patterns": [
+								{
+									"pattern": "minecraft:base",
+									"color": "blue"
+								},
+								{
+									"pattern": "minecraft:border",
+									"color": "light_gray"
+								}
+							],
+							"append": false
+						},
+						{
 							"function": "minecraft:set_damage",
 							"damage": 0.04,
 							"add": false
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{smallShield:1,CustomModelData:9038,HideFlags:127}"
+							"tag": "{smallShield:1,HideFlags:127}"
 						}
 					]
 				}
