@@ -48,7 +48,7 @@ scoreboard players set #shovelknight.flareWandManaCost vars 1
 scoreboard players set #shovelknight.throwingAnchorManaCost vars 1
 scoreboard players set #shovelknight.phaseLocketManaCost vars 3
 scoreboard players set #shovelknight.propellerDaggerManaCost vars 2
-scoreboard players set #shovelknight.warHornManaCost vars 5
+scoreboard players set #shovelknight.warHornManaCost vars 7
 scoreboard players set #shovelknight.chaosSphereMaxRotation vars 160
 
 scoreboard players set #sora.driveForm vars 400
