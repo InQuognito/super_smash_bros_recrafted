@@ -1,7 +1,7 @@
 execute unless block ^ ^ ^0.3 #ssbrc:passthrough run scoreboard players set @s temp 30
 
 execute unless score @s temp matches 20.. rotated as @s run teleport @s ^ ^ ^0.6
-execute if score @s temp matches 20.. facing entity @p[tag=self] feet run function ssbrc:series/the_legend_of_zelda/link/logic/abilities/boomerang/return
+execute if score @s temp matches 20.. facing entity @p[tag=self] eyes run function ssbrc:series/the_legend_of_zelda/link/logic/abilities/boomerang/return
 
 execute as @e[tag=boomerang.display,sort=nearest,limit=1] run function ssbrc:series/the_legend_of_zelda/link/logic/abilities/boomerang/display
 
