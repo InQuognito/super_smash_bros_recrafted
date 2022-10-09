@@ -1,4 +1,4 @@
-scoreboard players operation $darksamus.chargeBeamPercent temp = @s charge.1
+scoreboard players operation $darksamus.chargeBeamPercent temp = @s charge.output
 scoreboard players operation $darksamus.chargeBeamPercent temp *= 100 integers
 scoreboard players operation $darksamus.chargeBeamPercent temp /= #darksamus.chargeBeamThreshold vars
 
@@ -24,10 +24,10 @@ scoreboard players operation @e[tag=projectile,limit=1] id = @s id
 data modify entity @e[tag=projectile,limit=1] Owner set from entity @s UUID
 data modify entity @e[tag=projectile,limit=1] Motion set from entity @e[tag=direction,limit=1] Pos
 
-scoreboard players set @s charge.1 0
-
 tag @e[tag=projectile,limit=1] remove projectile
 kill @e[tag=direction]
+
+function ssbrc:logic/resets/charge
 
 item modify entity @s weapon.mainhand ssbrc:characters/darksamus/phazon_beam
 

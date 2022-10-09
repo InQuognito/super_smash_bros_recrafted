@@ -5,6 +5,12 @@ scoreboard players remove @s[scores={duration.1=1..}] duration.1 1
 scoreboard players remove @s[scores={duration.2=1..}] duration.2 1
 scoreboard players remove @s[scores={duration.3=1..}] duration.3 1
 
+scoreboard players add @s[scores={charge.input=1..}] charge.step 1
+scoreboard players add @s[scores={charge.input=1..}] charge.output 1
+scoreboard players reset @s[scores={charge.input=2..}] charge.step
+scoreboard players remove @s[scores={charge.input=2..}] charge.input 1
+execute if score @s charge.step matches 5.. run function ssbrc:logic/resets/charge
+
 execute if entity @s[tag=bowser] run function ssbrc:series/super_mario_bros/bowser/logic/tick
 execute if entity @s[tag=byleth] run function ssbrc:series/fire_emblem/byleth/logic/tick
 execute if entity @s[tag=cloud] run function ssbrc:series/final_fantasy/cloud/logic/tick
@@ -39,7 +45,7 @@ execute if entity @s[tag=shovelknight] run function ssbrc:series/indie_fighters/
 execute if entity @s[tag=teamrocket] run function ssbrc:series/pokemon/teamrocket/logic/tick
 execute if entity @s[tag=yar] run function ssbrc:series/retro_fighters/yar/logic/tick
 
-execute at @s[tag=naturalShiny] run particle minecraft:glow ~ ~0.7 ~ 0.5 0.4 0.5 0 1 normal @a
+execute at @s[tag=naturalShiny] run particle minecraft:glow ~ ~0.7 ~ 0.5 0.4 0.5 0 1 normal @s
 
 execute if entity @s[scores={flag.damageDealt=1..}] run function ssbrc:logic/characters/damage_dealt
 execute if entity @s[scores={flag.damageTaken=1..}] run function ssbrc:logic/characters/damage_taken
