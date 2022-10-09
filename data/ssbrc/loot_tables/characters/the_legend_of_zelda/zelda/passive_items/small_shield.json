@@ -42,6 +42,14 @@
 							"patterns": [
 								{
 									"pattern": "minecraft:base",
+									"color": "light_gray"
+								},
+								{
+									"pattern": "minecraft:half_vertical",
+									"color": "blue"
+								},
+								{
+									"pattern": "minecraft:half_vertical_right",
 									"color": "blue"
 								},
 								{
