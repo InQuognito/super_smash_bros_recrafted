@@ -127,3 +127,6 @@ execute if entity @s[tag=teamrocket,tag=arbok,tag=!nextFighterChosen] run functi
 scoreboard players set @s duration.1 0
 scoreboard players set @s duration.2 0
 scoreboard players set @s duration.3 0
+
+# Yar
+execute if entity @s[tag=yar] run function ssbrc:series/retro_fighters/yar/logic/abilities/power_ups/reset
