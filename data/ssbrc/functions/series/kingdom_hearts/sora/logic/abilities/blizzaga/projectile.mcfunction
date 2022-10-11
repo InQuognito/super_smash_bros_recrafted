@@ -1,4 +1,4 @@
-execute positioned 0.0 0.0 0.0 run summon minecraft:marker ^ ^ ^ {Tags:["direction"]}
+execute positioned 0.0 0.0 0.0 run summon minecraft:marker ^ ^ ^0.01 {Tags:["direction"]}
 
 function ssbrc:series/kingdom_hearts/sora/logic/abilities/blizzaga/offset
 execute store result score offsetX temp run data get entity @e[tag=direction,limit=1] Rotation[0]
@@ -10,7 +10,7 @@ scoreboard players operation offsetY temp += result random
 execute store result entity @e[tag=direction,limit=1] Rotation[0] float 1.0 run scoreboard players get offsetX temp
 execute store result entity @e[tag=direction,limit=1] Rotation[1] float 1.0 run scoreboard players get offsetY temp
 
-execute as @e[tag=direction,limit=1] at @s run tp @s ^ ^ ^1
+execute as @e[tag=direction,limit=1] at @s run tp @s ^ ^ ^0.99
 
 summon minecraft:arrow ^ ^ ^1 {damage:8.0,Tags:["blizzaga","effect.frostbite","projectile"],NoGravity:1b}
 
