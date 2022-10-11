@@ -1,6 +1,6 @@
-execute positioned 0.0 0.0 0.0 run summon minecraft:marker ^ ^ ^0.7 {Tags:["direction"]}
+execute positioned 0.0 0.0 0.0 run summon minecraft:marker ^ ^ ^1 {Tags:["direction"]}
 
-summon minecraft:area_effect_cloud ^ ^ ^1 {Tags:["waveBeam","projectile"]}
+summon minecraft:arrow ^ ^ ^1 {damage:6.0,Tags:["rayBlaster","projectile"],NoGravity:1b}
 
 scoreboard players operation @e[tag=projectile,limit=1] id = @s id
 data modify entity @e[tag=projectile,limit=1] Owner set from entity @s UUID
@@ -9,5 +9,5 @@ data modify entity @e[tag=projectile,limit=1] Motion set from entity @e[tag=dire
 tag @e[tag=projectile,limit=1] remove projectile
 kill @e[tag=direction]
 
-scoreboard players set @s cooldown.1 30
+scoreboard players set @s cooldown.1 20
 execute if score @s shadow.chaosControl matches 1.. run function ssbrc:logic/characters/cooldown_modifiers/chaos_control/1
