@@ -1,4 +1,4 @@
-execute positioned 0.0 0.0 0.0 run summon minecraft:marker ^ ^ ^ {Tags:["direction"]}
+execute positioned 0.0 0.0 0.0 run summon minecraft:marker ^ ^ ^1 {Tags:["direction"]}
 
 function ssbrc:series/kingdom_hearts/sora/logic/abilities/blizzaga/offset
 execute store result score offsetX temp run data get entity @e[tag=direction,limit=1] Rotation[0]
