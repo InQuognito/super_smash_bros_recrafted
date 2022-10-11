@@ -1215,7 +1215,7 @@
 	},
 	{
 		"function": "minecraft:set_nbt",
-		"tag": "{CustomModelData:1940}",
+		"tag": "{CustomModelData:1960}",
 		"conditions": [
 			{
 				"condition": "minecraft:entity_scores",
