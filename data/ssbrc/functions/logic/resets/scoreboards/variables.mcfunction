@@ -55,9 +55,9 @@ scoreboard players set #sora.driveForm vars 400
 scoreboard players set #sora.maxMP vars 10
 scoreboard players set #sora.firagaMPCost vars 1
 scoreboard players set #sora.firazaMPCost vars 3
-scoreboard players set #sora.blizzagaMPCost vars 1
+scoreboard players set #sora.blizzagaMPCost vars 3
 scoreboard players set #sora.blizzazaMPCost vars 1
-scoreboard players set #sora.thundagaMPCost vars 4
+scoreboard players set #sora.thundagaMPCost vars 5
 scoreboard players set #sora.thundazaMPCost vars 5
 scoreboard players set #sora.thundazaRange vars 30
 
