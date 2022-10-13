@@ -6,14 +6,14 @@
 			"entries": [
 				{
 					"type": "minecraft:item",
-					"name": "minecraft:golden_sword",
+					"name": "minecraft:carrot_on_a_stick",
 					"functions": [
 						{
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"text": "Fire Fox",
-								"color": "red",
+								"text": "Blaster",
+								"color": "white",
 								"bold": true,
 								"italic": false
 							}
@@ -24,14 +24,14 @@
 								{
 									"attribute": "minecraft:generic.attack_damage",
 									"name": "Attack Damage",
-									"amount": 7,
+									"amount": 0,
 									"operation": "multiply_base",
 									"slot": "mainhand"
 								},
 								{
 									"attribute": "minecraft:generic.attack_speed",
 									"name": "Attack Speed",
-									"amount": 3.5,
+									"amount": 1024,
 									"operation": "multiply_base",
 									"slot": "mainhand"
 								}
@@ -40,13 +40,13 @@
 						{
 							"function": "minecraft:set_enchantments",
 							"enchantments": {
-								"minecraft:fire_aspect": 1
+								"minecraft:quick_charge": 5
 							},
 							"add": false
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{fireFox:1,Unbreakable:1,HideFlags:127}"
+							"tag": "{blaster:1,Unbreakable:1,HideFlags:127}"
 						}
 					]
 				}

@@ -6,14 +6,14 @@
 			"entries": [
 				{
 					"type": "minecraft:item",
-					"name": "minecraft:crossbow",
+					"name": "minecraft:carrot_on_a_stick",
 					"functions": [
 						{
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"text": "Light Blaster",
-								"color": "white",
+								"text": "Krazoan Staff",
+								"color": "gold",
 								"bold": true,
 								"italic": false
 							}
@@ -24,29 +24,22 @@
 								{
 									"attribute": "minecraft:generic.attack_damage",
 									"name": "Attack Damage",
-									"amount": 0,
+									"amount": 7,
 									"operation": "multiply_base",
 									"slot": "mainhand"
 								},
 								{
 									"attribute": "minecraft:generic.attack_speed",
 									"name": "Attack Speed",
-									"amount": 1024,
+									"amount": 3.5,
 									"operation": "multiply_base",
 									"slot": "mainhand"
 								}
 							]
 						},
 						{
-							"function": "minecraft:set_enchantments",
-							"enchantments": {
-								"minecraft:quick_charge": 5
-							},
-							"add": false
-						},
-						{
 							"function": "minecraft:set_nbt",
-							"tag": "{lightBlaster:1,Unbreakable:1,HideFlags:127}"
+							"tag": "{krazoanStaff:1,Unbreakable:1,HideFlags:127}"
 						}
 					]
 				}
