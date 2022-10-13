@@ -73,6 +73,7 @@ scoreboard players set #wolf.grenadeTimer vars 80
 scoreboard players set #wolf.wolfFlash vars 50
 
 scoreboard players set #yar.railgunRange vars 600
+scoreboard players set #yar.railgunPiercing vars 30
 
 scoreboard players set #zelda.maxMagic vars 10
 scoreboard players set #zelda.maxRupees vars 30

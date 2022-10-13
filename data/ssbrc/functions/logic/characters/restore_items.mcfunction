@@ -24,9 +24,6 @@ scoreboard players set @s[tag=cloud] cloud.limit 0
 clear @s[tag=donkeykong] minecraft:splash_potion{orangeBomb:1}
 loot replace entity @s[tag=donkeykong] hotbar.2 loot ssbrc:characters/donkey_kong/donkeykong/orange_bomb
 
-# Fox
-give @s[tag=fox] minecraft:spectral_arrow 4
-
 # Ganondorf
 clear @s[tag=ganondorf] minecraft:trident
 loot replace entity @s[tag=ganondorf] hotbar.1 loot ssbrc:characters/the_legend_of_zelda/ganondorf/trident_of_power
