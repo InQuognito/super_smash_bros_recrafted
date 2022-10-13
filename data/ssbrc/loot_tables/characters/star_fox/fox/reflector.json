@@ -12,7 +12,7 @@
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"text": "Blaster",
+								"text": "Reflector",
 								"color": "white",
 								"bold": true,
 								"italic": false
@@ -39,7 +39,7 @@
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{blaster:1,CustomModelData:382,Unbreakable:1,HideFlags:127}"
+							"tag": "{reflector:1,CustomModelData:383,Unbreakable:1,HideFlags:127}"
 						}
 					]
 				}
