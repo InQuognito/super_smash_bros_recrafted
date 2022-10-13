@@ -11,4 +11,4 @@ execute if score @s duration.1 matches 1 run function ssbrc:series/retro_fighter
 
 # Omnishot
 execute if score @s[tag=omnishot] duration.1 matches 1.. run scoreboard players add @s charge.2 1
-execute if score @s charge.2 matches 40.. run function ssbrc:series/retro_fighters/yar/logic/abilities/ray_blaster/variants/omnishot
+execute if score @s charge.2 matches 40.. at @s positioned ~ ~0.75 ~ run function ssbrc:series/retro_fighters/yar/logic/abilities/ray_blaster/variants/omnishot
