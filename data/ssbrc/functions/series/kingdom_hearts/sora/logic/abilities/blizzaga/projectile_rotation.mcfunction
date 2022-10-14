@@ -1,6 +1,7 @@
 tag @s add self
 
 summon minecraft:marker ~ ~ ~ {Tags:["offset"]}
+particle dust 1.0 1.0 1.0 1.0 ~ ~ ~ ~ ~ ~ 1 1 normal @a
 data modify storage ssbrc:data Temp.Rotation set from entity @s Rotation
 
 function ssbrc:series/kingdom_hearts/sora/logic/abilities/blizzaga/offset
@@ -15,5 +16,4 @@ execute store result storage ssbrc:data Temp.Rotation[1] float 1.0 run scoreboar
 
 data modify entity @e[type=minecraft:marker,tag=offset,distance=..0.1,limit=1] Rotation set from storage ssbrc:data Temp.Rotation
 
-# Then we shootface as this marker:
 execute as @e[type=minecraft:marker,tag=offset,distance=..0.1,limit=1] at @s run function ssbrc:series/kingdom_hearts/sora/logic/abilities/blizzaga/projectile

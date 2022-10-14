@@ -1,4 +1,4 @@
-execute positioned 0.0 0 0.0 run summon minecraft:marker ^ ^ ^1 {Tags:["direction"]}
+execute positioned 0.0 0.0 0.0 run summon minecraft:marker ^ ^ ^1 {Tags:["direction"]}
 
 summon minecraft:arrow ~ ~ ~ {damage:8.0,Tags:["blizzaga","effect.frostbite","projectile"],NoGravity:1b}
 
