@@ -1878,7 +1878,7 @@
 			},
 			{
 				"condition": "minecraft:reference",
-				"name": "ssbrc:characters/shovelknight/phase_locket/off"
+				"name": "ssbrc:characters/shovelknight/default/phase_locket/off"
 			}
 		]
 	},
@@ -1895,7 +1895,7 @@
 			},
 			{
 				"condition": "minecraft:reference",
-				"name": "ssbrc:characters/shovelknight/phase_locket/on"
+				"name": "ssbrc:characters/shovelknight/default/phase_locket/on"
 			}
 		]
 	},
@@ -1912,7 +1912,7 @@
 			},
 			{
 				"condition": "minecraft:reference",
-				"name": "ssbrc:characters/shovelknight/phase_locket/off"
+				"name": "ssbrc:characters/shovelknight/gold/phase_locket/off"
 			}
 		]
 	},
@@ -1929,7 +1929,7 @@
 			},
 			{
 				"condition": "minecraft:reference",
-				"name": "ssbrc:characters/shovelknight/phase_locket/on"
+				"name": "ssbrc:characters/shovelknight/gold/phase_locket/on"
 			}
 		]
 	},
@@ -1946,7 +1946,7 @@
 			},
 			{
 				"condition": "minecraft:reference",
-				"name": "ssbrc:characters/shovelknight/phase_locket/off"
+				"name": "ssbrc:characters/shovelknight/armor_of_chaos/phase_locket/off"
 			}
 		]
 	},
@@ -1963,7 +1963,7 @@
 			},
 			{
 				"condition": "minecraft:reference",
-				"name": "ssbrc:characters/shovelknight/phase_locket/on"
+				"name": "ssbrc:characters/shovelknight/armor_of_chaos/phase_locket/on"
 			}
 		]
 	},
