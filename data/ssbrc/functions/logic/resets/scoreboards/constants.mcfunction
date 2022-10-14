@@ -13,6 +13,7 @@ scoreboard players set 7 integers 7
 scoreboard players set 8 integers 8
 scoreboard players set 9 integers 9
 scoreboard players set 10 integers 10
+scoreboard players set 20 integers 20
 scoreboard players set 30 integers 30
 scoreboard players set 33 integers 33
 scoreboard players set 40 integers 40
