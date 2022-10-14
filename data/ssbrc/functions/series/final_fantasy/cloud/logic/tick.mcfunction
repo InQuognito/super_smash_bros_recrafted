@@ -6,5 +6,5 @@ execute if entity @s[tag=punisher,predicate=!ssbrc:flag/sneaking,scores={useAbil
 
 tag @s add self
 execute as @e[type=minecraft:arrow,tag=bladeBeam] at @s if score @s id = @p[tag=self] id run function ssbrc:series/final_fantasy/cloud/logic/blade_beam/tick
-execute as @e[type=minecraft:area_effect_cloud,tag=crossSlash] at @s if score @s id = @p[tag=self] id run function ssbrc:series/final_fantasy/cloud/logic/cross_slash/tick
+execute as @e[type=minecraft:marker,tag=crossSlash] at @s if score @s id = @p[tag=self] id run function ssbrc:series/final_fantasy/cloud/logic/cross_slash/tick
 tag @s remove self

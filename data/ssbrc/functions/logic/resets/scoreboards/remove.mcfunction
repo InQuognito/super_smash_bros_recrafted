@@ -128,10 +128,9 @@ scoreboard objectives remove dreamTeam
 scoreboard objectives remove dreamTeam.tracking
 scoreboard objectives remove eagleEye
 scoreboard objectives remove eagleEye.tracking
-scoreboard objectives remove earlyBird
-scoreboard objectives remove earlyBird.tracking
 scoreboard objectives remove eight
 scoreboard objectives remove eight.tracking
+scoreboard objectives remove firstStrike
 scoreboard objectives remove fleshAndBlood
 scoreboard objectives remove fleshAndBlood.tracking
 scoreboard objectives remove foodie

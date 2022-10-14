@@ -128,10 +128,9 @@ scoreboard objectives add dreamTeam dummy
 scoreboard objectives add dreamTeam.tracking dummy
 scoreboard objectives add eagleEye dummy
 scoreboard objectives add eagleEye.tracking dummy
-scoreboard objectives add earlyBird dummy
-scoreboard objectives add earlyBird.tracking dummy
 scoreboard objectives add eight dummy
 scoreboard objectives add eight.tracking dummy
+scoreboard objectives add firstStrike dummy
 scoreboard objectives add fleshAndBlood dummy
 scoreboard objectives add fleshAndBlood.tracking dummy
 scoreboard objectives add foodie dummy
