@@ -1,6 +1,6 @@
 clear @s #ssbrc:equipment
 loot replace entity @s[tag=!armorOfChaos] hotbar.0 loot ssbrc:characters/indie_fighters/shovelknight/shovel_blade/default/default
-loot replace entity @s[tag=armorOfChaos] hotbar.0 loot ssbrc:characters/indie_fighters/shovelknight/shovel_blade/grave_diggers_shovel/default
+loot replace entity @s[tag=armorOfChaos] hotbar.0 loot ssbrc:characters/indie_fighters/shovelknight/shovel_blade/shovel_of_chaos/default
 
 scoreboard players set max random 3
 function ssbrc:math/rng/lcg
