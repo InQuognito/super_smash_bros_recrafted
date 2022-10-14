@@ -2,5 +2,3 @@ summon minecraft:area_effect_cloud ~ ~1 ~ {Tags:["damage.crossSlash","projectile
 
 data modify entity @e[tag=projectile,limit=1] Owner set from entity @p[tag=cloud,sort=nearest,limit=1] UUID
 tag @e[tag=projectile,limit=1] remove projectile
-
-kill @e[type=minecraft:marker,tag=crossSlash,sort=nearest,limit=1]
