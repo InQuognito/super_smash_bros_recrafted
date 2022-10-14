@@ -1,11 +1,11 @@
-function ssbrc:series/kingdom_hearts/sora/logic/abilities/blizzaga/projectile
-function ssbrc:series/kingdom_hearts/sora/logic/abilities/blizzaga/projectile
-function ssbrc:series/kingdom_hearts/sora/logic/abilities/blizzaga/projectile
-function ssbrc:series/kingdom_hearts/sora/logic/abilities/blizzaga/projectile
-function ssbrc:series/kingdom_hearts/sora/logic/abilities/blizzaga/projectile
-function ssbrc:series/kingdom_hearts/sora/logic/abilities/blizzaga/projectile
-function ssbrc:series/kingdom_hearts/sora/logic/abilities/blizzaga/projectile
-function ssbrc:series/kingdom_hearts/sora/logic/abilities/blizzaga/projectile
+function ssbrc:series/kingdom_hearts/sora/logic/abilities/blizzaga/projectile_rotation
+function ssbrc:series/kingdom_hearts/sora/logic/abilities/blizzaga/projectile_rotation
+function ssbrc:series/kingdom_hearts/sora/logic/abilities/blizzaga/projectile_rotation
+function ssbrc:series/kingdom_hearts/sora/logic/abilities/blizzaga/projectile_rotation
+function ssbrc:series/kingdom_hearts/sora/logic/abilities/blizzaga/projectile_rotation
+function ssbrc:series/kingdom_hearts/sora/logic/abilities/blizzaga/projectile_rotation
+function ssbrc:series/kingdom_hearts/sora/logic/abilities/blizzaga/projectile_rotation
+function ssbrc:series/kingdom_hearts/sora/logic/abilities/blizzaga/projectile_rotation
 
 scoreboard players operation @s mana -= #sora.blizzagaMPCost vars
 function ssbrc:series/kingdom_hearts/sora/logic/mana/update

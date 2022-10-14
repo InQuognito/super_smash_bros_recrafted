@@ -1,24 +1,12 @@
-execute positioned 0.0 0.0 0.0 run summon minecraft:marker ^ ^ ^1 {Tags:["direction"]}
+execute positioned 0.0 0 0.0 run summon minecraft:marker ^ ^ ^1 {Tags:["direction"]}
 
-execute store result entity @e[tag=direction,limit=1] Rotation float 1.0 run data get entity @s Rotation
+summon minecraft:arrow ~ ~ ~ {damage:8.0,Tags:["blizzaga","effect.frostbite","projectile"],NoGravity:1b}
 
-function ssbrc:series/kingdom_hearts/sora/logic/abilities/blizzaga/offset
-execute store result score offsetX temp run data get entity @e[tag=direction,limit=1] Rotation[0]
-scoreboard players operation offsetX temp += result random
-function ssbrc:series/kingdom_hearts/sora/logic/abilities/blizzaga/offset
-execute store result score offsetY temp run data get entity @e[tag=direction,limit=1] Rotation[1]
-scoreboard players operation offsetY temp += result random
+scoreboard players operation @e[type=minecraft:arrow,tag=projectile,limit=1,distance=..0.1] id = @p[tag=self] id
+data modify entity @e[tag=projectile,limit=1] Owner set from entity @p[tag=self] UUID
+data modify entity @e[type=minecraft:arrow,tag=projectile,limit=1,distance=..0.1] Motion set from entity @e[type=minecraft:marker,tag=direction,limit=1] Pos
 
-execute store result entity @e[tag=direction,limit=1] Rotation[0] float 1.0 run scoreboard players get offsetX temp
-execute store result entity @e[tag=direction,limit=1] Rotation[1] float 1.0 run scoreboard players get offsetY temp
-
-execute as @e[tag=direction,limit=1] at @s run tp @s ^ ^ ^1
-
-summon minecraft:arrow ^ ^ ^1 {damage:8.0,Tags:["blizzaga","effect.frostbite","projectile"],NoGravity:1b}
-
-scoreboard players operation @e[tag=projectile,limit=1] id = @s id
-data modify entity @e[tag=projectile,limit=1] Owner set from entity @s UUID
-data modify entity @e[tag=projectile,limit=1] Motion set from entity @e[tag=direction,limit=1] Pos
-
-tag @e[tag=projectile,limit=1] remove projectile
-kill @e[tag=direction]
+tag @e[type=minecraft:arrow,tag=projectile] remove projectile
+tag @p[tag=self] remove self
+kill @e[type=minecraft:marker,tag=direction]
+kill @s
