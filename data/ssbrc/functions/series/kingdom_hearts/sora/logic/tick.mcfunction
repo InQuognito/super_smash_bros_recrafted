@@ -31,6 +31,4 @@ function ssbrc:series/kingdom_hearts/sora/logic/mana/update
 execute at @s[tag=anti] run particle minecraft:dust 0.0 0.0 0.0 1.0 ~ ~0.75 ~ 0.2 0.3 0.2 0.0 20 normal @a
 
 # Blizzaza
-scoreboard players add @s[scores={charge.4=1..}] duration.2 1
-scoreboard players reset @s[scores={duration.2=20..}] charge.4
-scoreboard players reset @s[scores={duration.2=20..}] duration.2
+scoreboard players reset @s[scores={duration.2=1}] charge.4
