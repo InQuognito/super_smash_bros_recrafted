@@ -4,7 +4,7 @@ tellraw @s [{"text":"You have selected ","color":"white"},{"text":"Sora","color"
 
 tellraw @s[tag=default] [{"text":"Skin: ","color":"white"},{"text":"Default","color":"white"}]
 tellraw @s[tag=gold] [{"text":"Skin: ","color":"white"},{"text":"Gold","color":"gold"}]
-tellraw @s[tag=timelessRiver] [{"text":"Skin: ","color":"white"},{"text":"Timeless River","color":"light_gray"}]
+tellraw @s[tag=timelessRiver] [{"text":"Skin: ","color":"white"},{"text":"Timeless River","color":"gray"}]
 
 function ssbrc:logic/resets/tags/characters
 tag @s add sora

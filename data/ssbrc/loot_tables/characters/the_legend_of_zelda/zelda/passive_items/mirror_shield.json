@@ -42,11 +42,11 @@
 							"patterns": [
 								{
 									"pattern": "minecraft:base",
-									"color": "light_gray"
+									"color": "gray"
 								},
 								{
 									"pattern": "minecraft:border",
-									"color": "light_gray"
+									"color": "gray"
 								},
 								{
 									"pattern": "minecraft:stripe_downleft",
@@ -66,7 +66,7 @@
 								},
 								{
 									"pattern": "minecraft:border",
-									"color": "light_gray"
+									"color": "gray"
 								}
 							],
 							"append": false

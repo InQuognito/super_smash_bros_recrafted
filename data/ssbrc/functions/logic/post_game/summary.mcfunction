@@ -10,7 +10,7 @@ execute if score $teams options matches 1 if entity @a[tag=winner,limit=1,team=t
 execute if score $gameMode options matches 1 run tellraw @s [{"text":"Match Duration: ","color":"gold"},{"score":{"name":"$gameTime","objective":"timer"},"color":"yellow"},{"text":"s","color":"gold"}]
 
 tellraw @s[tag=admin] {"text":"You did not gain anything for this match because you switched gamemodes.","color":"red"}
-tellraw @s[tag=spectator] {"text":"You did not gain anything for this match because you were a spectator.","color":"light_gray"}
+tellraw @s[tag=spectator] {"text":"You did not gain anything for this match because you were a spectator.","color":"gray"}
 
 execute if entity @s[tag=!admin,tag=!spectator] run function ssbrc:logic/post_game/calculate_earnings
 execute if entity @s[tag=!admin,tag=!spectator] run function ssbrc:logic/post_game/update_stats
