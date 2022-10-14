@@ -6,7 +6,7 @@ execute if score @s[scores={useAbility=1..,cooldown.2=..0},nbt={SelectedItem:{ta
 execute if score @s[scores={charge.step=5..,cooldown.2=..0},nbt={SelectedItem:{tag:{propellerDagger:1}}}] mana >= #shovelknight.propellerDaggerManaCost vars at @s run function ssbrc:series/indie_fighters/shovelknight/logic/abilities/propeller_dagger/activate
 
 tag @s add self
-execute at @s[nbt={SelectedItem:{tag:{shovelDrop:1}}}] positioned ~ ~-1.1 ~ as @e[tag=alive,scores={respawn=..0},gamemode=adventure,dy=0] run function ssbrc:series/indie_fighters/shovelknight/logic/abilities/shovel_drop/hit
+execute at @s[nbt={SelectedItem:{tag:{shovelDrop:1}}}] positioned ~ ~-2 ~ as @e[tag=alive,scores={respawn=..0},gamemode=adventure,distance=..0.5] run function ssbrc:series/indie_fighters/shovelknight/logic/abilities/shovel_drop/hit
 execute as @e[type=minecraft:marker,tag=chaosSphere] at @s if score @s id = @p[tag=self] id run function ssbrc:series/indie_fighters/shovelknight/logic/abilities/chaos_sphere/tick
 execute as @e[type=minecraft:arrow,tag=flareWand] at @s if score @s id = @p[tag=shovelknight.flareWand,tag=self] id run function ssbrc:series/indie_fighters/shovelknight/logic/abilities/flare_wand/tick
 execute as @e[type=minecraft:marker,tag=propellerDagger] at @s if score @s id = @p[tag=shovelknight.propellerDagger,tag=self,scores={duration.2=2..}] id run function ssbrc:series/indie_fighters/shovelknight/logic/abilities/propeller_dagger/tick
@@ -20,8 +20,10 @@ execute if entity @s[tag=!armorOfChaos,predicate=ssbrc:flag/sneaking,nbt={Select
 execute at @s if entity @s[tag=!armorOfChaos,predicate=!ssbrc:flag/sneaking,nbt={SelectedItem:{tag:{shovelDrop:1}}}] run loot replace entity @s weapon.mainhand loot ssbrc:characters/indie_fighters/shovelknight/shovel_blade/default/default
 execute if entity @s[tag=armorOfChaos,predicate=ssbrc:flag/sneaking,nbt={SelectedItem:{tag:{shovelDrop:0}}}] at @s if block ~ ~-0.1 ~ minecraft:air run loot replace entity @s weapon.mainhand loot ssbrc:characters/indie_fighters/shovelknight/shovel_blade/shovel_of_chaos/shovel_drop
 execute at @s if entity @s[tag=armorOfChaos,predicate=!ssbrc:flag/sneaking,nbt={SelectedItem:{tag:{shovelDrop:1}}}] run loot replace entity @s weapon.mainhand loot ssbrc:characters/indie_fighters/shovelknight/shovel_blade/shovel_of_chaos/default
+
+execute if entity @s[predicate=!ssbrc:flag/sneaking,scores={charge.3=1..}] run function ssbrc:series/indie_fighters/shovelknight/logic/abilities/shovel_drop/reset
 scoreboard players add @s[scores={charge.3=1..}] charge.3 1
-execute if score @s charge.3 matches 10.. run function ssbrc:series/indie_fighters/shovelknight/logic/abilities/shovel_drop/reset
+execute if score @s charge.3 matches 5.. run function ssbrc:series/indie_fighters/shovelknight/logic/abilities/shovel_drop/reset
 
 # Phase Locket
 execute if score @s[tag=shovelknight.phaseLocket] duration.2 matches 1 run function ssbrc:series/indie_fighters/shovelknight/logic/abilities/phase_locket/off
