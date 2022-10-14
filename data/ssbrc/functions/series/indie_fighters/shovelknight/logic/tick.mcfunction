@@ -24,7 +24,7 @@ scoreboard players add @s[scores={charge.3=1..}] charge.3 1
 execute if score @s charge.3 matches 10.. run function ssbrc:series/indie_fighters/shovelknight/logic/abilities/shovel_drop/reset
 
 # Phase Locket
-execute if entity @s[tag=shovelknight.phaseLocket,predicate=ssbrc:characters/shovelknight/phase_locket/off] run function ssbrc:series/indie_fighters/shovelknight/logic/abilities/phase_locket/off
+execute if score @s[tag=shovelknight.phaseLocket] duration.2 matches 1 run function ssbrc:series/indie_fighters/shovelknight/logic/abilities/phase_locket/off
 execute if score @s[tag=shovelknight.phaseLocket] duration.2 matches 1.. run function ssbrc:logic/characters/effects/cleanse_harmful
 
 # Propeller Dagger
