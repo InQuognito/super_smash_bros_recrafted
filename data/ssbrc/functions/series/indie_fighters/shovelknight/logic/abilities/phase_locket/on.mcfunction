@@ -2,9 +2,7 @@ scoreboard players set @s duration.2 100
 
 effect give @s minecraft:resistance 1000000 255 true
 
-tag @s remove gold
 function ssbrc:logic/characters/armor/get
-tag @s add gold
 
 scoreboard players operation @s mana -= #shovelknight.phaseLocketManaCost vars
 function ssbrc:series/indie_fighters/shovelknight/logic/mana/update

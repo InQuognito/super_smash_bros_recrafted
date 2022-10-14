@@ -3,16 +3,14 @@
 		"condition": "minecraft:entity_properties",
 		"entity": "this",
 		"predicate": {
-			"nbt": "{Tags:[\"shovelknight\"]}"
+			"nbt": "{Tags:[\"shovelknight\",\"default\"]}"
 		}
 	},
 	{
 		"condition": "minecraft:entity_scores",
 		"entity": "this",
 		"scores": {
-			"duration.2": {
-				"min": 2
-			}
+			"duration.2": 1
 		}
 	}
 ]

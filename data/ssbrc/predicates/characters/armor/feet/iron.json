@@ -18,6 +18,10 @@
 			"predicate": {
 				"nbt": "{Tags:[\"wolf\"]}"
 			}
+		},
+		{
+			"condition": "minecraft:reference",
+			"name": "ssbrc:characters/shovelknight/armor_of_chaos/phase_locket/off"
 		}
 	]
 }

@@ -1,12 +1,21 @@
-{
-	"condition": "minecraft:alternative",
-	"terms": [
-		{
-			"condition": "minecraft:entity_properties",
-			"entity": "this",
-			"predicate": {
-				"nbt": "{Tags:[\"gold\"]}"
+[
+	{
+		"condition": "minecraft:alternative",
+		"terms": [
+			{
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"nbt": "{Tags:[\"gold\"]}"
+				}
 			}
+		]
+	},
+	{
+		"condition": "minecraft:inverted",
+		"term": {
+			"condition": "minecraft:reference",
+			"name": "ssbrc:characters/shovelknight/gold/phase_locket/on"
 		}
-	]
-}
+	}
+]

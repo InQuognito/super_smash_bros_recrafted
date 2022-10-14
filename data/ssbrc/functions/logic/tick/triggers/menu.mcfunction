@@ -245,7 +245,7 @@ execute if score @s[tag=!shovelknight] menu matches 1921 run function ssbrc:seri
 execute if score @s[tag=!shovelknight] menu matches 1922 run function ssbrc:series/indie_fighters/shovelknight/menu/favorite
 execute if score @s[tag=!shovelknight] menu matches 1924 run function ssbrc:series/indie_fighters/shovelknight/menu/skins/default
 execute if score @s[tag=!shovelknight] menu matches 1925 run function ssbrc:series/indie_fighters/shovelknight/menu/skins/gold
-execute if score @s[tag=!shovelknight] menu matches 1926 run function ssbrc:series/indie_fighters/shovelknight/menu/skins/chaos_armor
+execute if score @s[tag=!shovelknight] menu matches 1926 run function ssbrc:series/indie_fighters/shovelknight/menu/skins/armor_of_chaos
 execute if score @s[tag=!shovelknight] menu matches 1927 run function ssbrc:series/indie_fighters/shovelknight/menu/skins/toad_gear
 
 execute if score @s[tag=!teamrocket] menu matches 1940 run function ssbrc:series/pokemon/teamrocket/menu/select_character
