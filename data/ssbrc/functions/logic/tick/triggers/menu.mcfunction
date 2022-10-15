@@ -145,7 +145,7 @@ execute if score @s[tag=!pikachu] menu matches 1201 run function ssbrc:series/po
 execute if score @s[tag=!pikachu] menu matches 1202 run function ssbrc:series/pokemon/pikachu/menu/favorite
 execute if score @s[tag=!pikachu] menu matches 1204 run function ssbrc:series/pokemon/pikachu/menu/skins/default
 execute if score @s[tag=!pikachu] menu matches 1205 run function ssbrc:series/pokemon/pikachu/menu/skins/gold
-execute if score @s[tag=!pikachu] menu matches 1205 run function ssbrc:series/pokemon/pikachu/menu/skins/shiny
+execute if score @s[tag=!pikachu] menu matches 1206 run function ssbrc:series/pokemon/pikachu/menu/skins/shiny
 
 execute if score @s[tag=!pit] menu matches 1220 run function ssbrc:series/kid_icarus/pit/menu/select_character
 execute if score @s[tag=!pit] menu matches 1221 run function ssbrc:series/kid_icarus/pit/menu/skin_options
