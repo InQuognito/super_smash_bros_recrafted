@@ -40,13 +40,13 @@
 		"show_toast": true,
 		"announce_to_chat": true
 	},
-	"parent": "ssbrc:series/pokemon/greninja/root",
+	"parent": "ssbrc:series/pokemon/jigglypuff/root",
 	"criteria": {
 		"impossible": {
 			"trigger": "minecraft:impossible"
 		}
 	},
 	"rewards": {
-		"function": "ssbrc:advancements/greninja/a_shiny_encounter"
+		"function": "ssbrc:advancements/jigglypuff/a_shiny_encounter"
 	}
 }

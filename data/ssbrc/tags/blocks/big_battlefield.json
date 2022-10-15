@@ -2,6 +2,8 @@
     "values": [
 		"minecraft:iron_bars",
 		"minecraft:lime_stained_glass",
-		"minecraft:polished_andesite"
+		"minecraft:polished_andesite",
+		"minecraft:polished_andesite_stairs",
+		"minecraft:polished_andesite_slab"
 	]
 }

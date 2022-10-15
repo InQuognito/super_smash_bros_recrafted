@@ -5,8 +5,8 @@
 			"nbt": "{CustomModelData:420}"
 		},
 		"title": {
-			"text": "Jigglypuff",
-			"color": "light_purple",
+			"text": "Pikachu",
+			"color": "yellow",
 			"bold": true,
 			"italic": false,
 			"extra": [
@@ -95,6 +95,6 @@
 		]
 	],
 	"rewards": {
-		"function": "ssbrc:advancements/jigglypuff/mastery"
+		"function": "ssbrc:advancements/pikachu/mastery"
 	}
 }
