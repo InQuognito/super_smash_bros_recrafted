@@ -12,8 +12,8 @@
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"text": "Heavy Blaster",
-								"color": "white",
+								"text": "Blaster",
+								"color": "dark_purple",
 								"bold": true,
 								"italic": false
 							}
@@ -39,7 +39,7 @@
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{heavyBlaster:1,Unbreakable:1,HideFlags:127}"
+							"tag": "{heavyBlaster:1,CustomModelData:1722,Unbreakable:1,HideFlags:127}"
 						}
 					]
 				}

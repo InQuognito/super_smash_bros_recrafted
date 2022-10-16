@@ -39,7 +39,7 @@
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{chaosControl:1,Unbreakable:1,HideFlags:127}"
+							"tag": "{chaosControl:1,CustomModelData:1902,Unbreakable:1,HideFlags:127}"
 						}
 					]
 				}
