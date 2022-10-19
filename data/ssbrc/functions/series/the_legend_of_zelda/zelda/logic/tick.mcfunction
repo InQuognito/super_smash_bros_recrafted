@@ -36,4 +36,4 @@ execute if score @s duration.1 matches 1.. if score @s cooldown.2 matches ..0 ru
 effect clear @s[nbt={Inventory:[{tag:{ringOfRisk:1}}]},scores={health=11..}] minecraft:strength
 effect give @s[nbt={Inventory:[{tag:{ringOfRisk:1}}]},scores={health=..10}] minecraft:strength 1000000 0 true
 
-execute at @s[nbt={Inventory:[{tag:{torchOfWisdom:1}}]}] run effect give @a[tag=alive,scores={respawn=..0},gamemode=adventure,distance=..10] minecraft:glowing 1 255 true
+execute at @s[nbt={Inventory:[{tag:{torchOfWisdom:1}}]}] run effect give @e[predicate=ssbrc:flag/targets,distance=..10] minecraft:glowing 1 255 true

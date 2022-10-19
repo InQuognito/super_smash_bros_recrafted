@@ -1,5 +1,5 @@
 gamemode spectator @s
-spectate @r[tag=alive,scores={respawn=..0},gamemode=adventure] @s
+spectate @r[predicate=ssbrc:flag/player] @s
 
 scoreboard players set @s respawn 60
 

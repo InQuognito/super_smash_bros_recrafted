@@ -6,7 +6,7 @@ particle minecraft:dust 0.5 0.0 1.0 0.5 ~ ~-0.4 ~ 0.0 0.0 0.0 0 0 normal @a
 particle minecraft:dust 0.5 0.0 1.0 0.5 ~ ~ ~ 0.0 0.0 0.0 0 0 normal @a
 particle minecraft:dust 0.5 0.0 1.0 0.5 ~ ~0.4 ~ 0.0 0.0 0.0 0 0 normal @a
 
-execute if score $rayLength temp matches 1 if entity @a[tag=alive,scores={respawn=..0},gamemode=adventure,distance=0.1..1] run function ssbrc:series/star_fox/wolf/logic/abilities/wolf_flash/hit
+execute if score $rayLength temp matches 1 run function ssbrc:series/star_fox/wolf/logic/abilities/wolf_flash/hit
 
 execute if score $rayLength temp matches 1.. run function ssbrc:series/star_fox/wolf/logic/abilities/wolf_flash/deactivate
 execute if block ^ ^ ^0.1 #ssbrc:passthrough_charge run function ssbrc:series/star_fox/wolf/logic/abilities/wolf_flash/deactivate

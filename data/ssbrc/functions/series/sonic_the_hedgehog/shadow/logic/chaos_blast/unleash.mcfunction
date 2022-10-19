@@ -1,4 +1,4 @@
-tag @a[tag=alive,scores={respawn=..0},gamemode=adventure,distance=0.1..2.0] add damage.chaosBlast
+tag @e[predicate=ssbrc:flag/targets,distance=0.1..2.0] add damage.chaosBlast
 
 attribute @s generic.knockback_resistance base set 0.0
 

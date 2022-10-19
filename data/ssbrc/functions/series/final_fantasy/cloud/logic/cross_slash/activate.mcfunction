@@ -12,5 +12,5 @@ function ssbrc:series/final_fantasy/cloud/logic/limit/update
 function ssbrc:logic/characters/effects/mobility/immobilize
 
 tag @s add self
-execute at @e[type=minecraft:marker,tag=crossSlash,sort=nearest,limit=1] as @p[tag=alive,scores={respawn=..0},gamemode=adventure,tag=!self,distance=..2.5] run function ssbrc:series/final_fantasy/cloud/logic/cross_slash/target
+execute at @e[type=minecraft:marker,tag=crossSlash,sort=nearest,limit=1] as @e[predicate=ssbrc:flag/targets,tag=!self,distance=..2.5] run function ssbrc:series/final_fantasy/cloud/logic/cross_slash/target
 tag @s remove self

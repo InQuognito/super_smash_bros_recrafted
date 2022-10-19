@@ -17,10 +17,10 @@ scoreboard players remove @e[type=!minecraft:player,scores={duration.1=1..}] dur
 scoreboard players remove @e[type=!minecraft:player,scores={duration.2=1..}] duration.2 1
 scoreboard players remove @e[type=!minecraft:player,scores={duration.3=1..}] duration.3 1
 
-execute unless score $sectorZ map matches 1 run effect give @a[tag=alive,scores={respawn=..0},gamemode=adventure,predicate=ssbrc:below_y/0] minecraft:blindness 2 0 true
+execute unless score $sectorZ map matches 1 run effect give @a[predicate=ssbrc:flag/targets,predicate=ssbrc:below_y/0] minecraft:blindness 2 0 true
 
 # Characters
-execute as @a[tag=alive,scores={respawn=..0},gamemode=adventure] run function ssbrc:logic/tick/characters
+execute as @a[predicate=ssbrc:flag/player] run function ssbrc:logic/tick/characters
 execute as @a[team=!admin,tag=alive,scores={respawn=..0},gamemode=!adventure] run function ssbrc:logic/teams/admin
 
 # Maps

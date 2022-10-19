@@ -1,8 +1,8 @@
-execute if score @s charge.1 matches 21..50 as @a[tag=alive,scores={respawn=..0},gamemode=adventure,distance=0.1..2] run tag @s add damage.swordSpin.1
-execute if score @s[predicate=!ssbrc:characters/link.master_sword.awakened] charge.1 matches 51.. as @a[tag=alive,scores={respawn=..0},gamemode=adventure,distance=0.1..2.25] run tag @s add damage.swordSpin.2
-execute if score @s[predicate=ssbrc:characters/link.master_sword.awakened] charge.1 matches 51..80 as @a[tag=alive,scores={respawn=..0},gamemode=adventure,distance=0.1..2.25] run tag @s add damage.swordSpin.2
-execute if score @s[predicate=ssbrc:characters/link.master_sword.awakened] charge.1 matches 81..120 as @a[tag=alive,scores={respawn=..0},gamemode=adventure,distance=0.1..2.25] run tag @s add damage.swordSpin.3
-execute if score @s[predicate=ssbrc:characters/link.master_sword.awakened] charge.1 matches 121.. as @a[tag=alive,scores={respawn=..0},gamemode=adventure,distance=0.1..2.5] run tag @s add damage.swordSpin.4
+execute if score @s charge.1 matches 21..50 run tag @e[predicate=ssbrc:flag/targets,distance=0.1..2] add damage.swordSpin.1
+execute if score @s[predicate=!ssbrc:characters/link.master_sword.awakened] charge.1 matches 51.. run tag @e[predicate=ssbrc:flag/targets,distance=0.1..2.25] add damage.swordSpin.2
+execute if score @s[predicate=ssbrc:characters/link.master_sword.awakened] charge.1 matches 51..80 run tag @e[predicate=ssbrc:flag/targets,distance=0.1..2.25] add damage.swordSpin.2
+execute if score @s[predicate=ssbrc:characters/link.master_sword.awakened] charge.1 matches 81..120 run tag @e[predicate=ssbrc:flag/targets,distance=0.1..2.25] add damage.swordSpin.3
+execute if score @s[predicate=ssbrc:characters/link.master_sword.awakened] charge.1 matches 121.. run tag @e[predicate=ssbrc:flag/targets,distance=0.1..2.5] add damage.swordSpin.4
 
 tag @s add spinning
 

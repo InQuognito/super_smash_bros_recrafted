@@ -1,0 +1,25 @@
+[
+	{
+		"condition": "minecraft:alternative",
+		"terms": [
+			{
+				"condition": "minecraft:reference",
+				"name": "ssbrc:flag/player"
+			},
+			{
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"type": "minecraft:salmon"
+				}
+			},
+			{
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"type": "minecraft:skeleton"
+				}
+			}
+		]
+	}
+]

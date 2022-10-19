@@ -1,10 +1,11 @@
 tag @s remove retreating
 tag @s remove active
 tag @s add dead
+
+tag @p[predicate=ssbrc:flag/player,distance=..2] add touchGhost
+
 scoreboard players set @s cooldown.1 600
 
-scoreboard players add @p[tag=alive,scores={respawn=..0},gamemode=adventure] 765o.tracking 1
-scoreboard players add @p[tag=alive,scores={respawn=..0,765o.tracking=4..},gamemode=adventure] 765o 1
-scoreboard players reset @p[tag=alive,scores={respawn=..0,765o.tracking=4..},gamemode=adventure] 765o.tracking
+execute as @p[tag=touchGhost] run function ssbrc:maps/p/pac_maze/logic/ghosts/kill_as_player
 
-execute at @p run playsound ssbrc:eat_ghost player @a
+execute at @e[predicate=ssbrc:flag/targets,sort=nearest,limit=1] run playsound ssbrc:eat_ghost player @a
