@@ -3,16 +3,23 @@
 		"condition": "minecraft:entity_properties",
 		"entity": "this",
 		"predicate": {
+			"type": "minecraft:player",
+			"type_specific": {
+				"type": "player",
+				"gamemode": "adventure"
+			},
 			"nbt": "{Tags:[\"alive\"]}"
 		}
 	},
 	{
-		"condition": "minecraft:entity_scores",
-		"entity": "this",
-		"scores": {
-			"respawn": {
-				"min": 0
-			}
+		"condition": "minecraft:value_check",
+		"value": {
+			"type": "minecraft:score",
+			"target": "this",
+			"score": "respawn"
+		},
+		"range": {
+			"max": 0
 		}
 	}
 ]
