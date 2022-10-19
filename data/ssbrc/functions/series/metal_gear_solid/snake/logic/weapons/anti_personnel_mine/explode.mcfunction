@@ -1,4 +1,4 @@
-tag @a[tag=alive,scores={respawn=..0},distance=..3,gamemode=adventure] add damage.antiPersonnelMine
+tag @a[predicate=ssbrc:flag/player,distance=..3] add damage.antiPersonnelMine
 
 particle minecraft:explosion ~ ~1 ~ 0.0 0.0 0.0 1 1 normal @a
 playsound entity.generic.explode player @a ~ ~1 ~

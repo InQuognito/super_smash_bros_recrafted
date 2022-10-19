@@ -23,4 +23,4 @@ summon minecraft:marker -543.5 20.0 -150.5 {Tags:["spawnpoint.item"]}
 execute as @a[predicate=ssbrc:ingame] run function ssbrc:logic/pre_game/prepare_players
 function ssbrc:logic/pre_game/prepare_match
 
-tag @a[tag=alive] add palletTown
+tag @a[predicate=ssbrc:flag/player] add palletTown

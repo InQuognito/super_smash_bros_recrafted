@@ -23,4 +23,4 @@ summon minecraft:marker 2125.5 66.0 933.5 {Tags:["spawnpoint.item"]}
 execute as @a[predicate=ssbrc:ingame] run function ssbrc:logic/pre_game/prepare_players
 function ssbrc:logic/pre_game/prepare_match
 
-tag @a[tag=alive] add dreamLand
+tag @a[predicate=ssbrc:flag/player] add dreamLand

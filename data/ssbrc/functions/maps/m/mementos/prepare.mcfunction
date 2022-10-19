@@ -25,4 +25,4 @@ summon minecraft:marker -1190.5 13.0 867.5 {Tags:["spawnpoint.item"]}
 execute as @a[predicate=ssbrc:ingame] run function ssbrc:logic/pre_game/prepare_players
 function ssbrc:logic/pre_game/prepare_match
 
-tag @a[tag=alive] add mementos
+tag @a[predicate=ssbrc:flag/player] add mementos

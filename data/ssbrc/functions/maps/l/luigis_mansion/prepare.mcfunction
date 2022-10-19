@@ -26,4 +26,4 @@ summon minecraft:marker -290.5 18.0 -1119.5 {Tags:["spawnpoint.item"]}
 execute as @a[predicate=ssbrc:ingame] run function ssbrc:logic/pre_game/prepare_players
 function ssbrc:logic/pre_game/prepare_match
 
-tag @a[tag=alive] add luigisMansion
+tag @a[predicate=ssbrc:flag/player] add luigisMansion

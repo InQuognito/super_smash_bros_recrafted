@@ -1,4 +1,4 @@
-tp @a[tag=alive,scores={respawn=..0},dx=2,dy=1,dz=2] ~ ~1 ~
+tp @a[predicate=ssbrc:flag/player,dx=2,dy=1,dz=2] ~ ~1 ~
 
 clone -728 70 842 -724 70 846 ~-2 ~ ~-2
 fill ~-1 ~-1 ~-1 ~1 ~-1 ~1 minecraft:lava

@@ -1,6 +1,6 @@
 scoreboard players reset $blackout temp
 
-effect give @a[tag=alive,tag=!snake] minecraft:glowing 1000000 255 true
+effect give @a[predicate=ssbrc:flag/player,tag=!snake] minecraft:glowing 1000000 255 true
 effect give @e[tag=stalfos] minecraft:glowing 1000000 255 true
 execute as @e[nbt={Item:{tag:{Tags:[steve.item]}}}] run data merge entity @s {Glowing:1}
 

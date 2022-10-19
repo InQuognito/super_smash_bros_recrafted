@@ -9,11 +9,13 @@ team modify team6 nametagVisibility never
 team modify team7 nametagVisibility never
 team modify team8 nametagVisibility never
 
+scoreboard players set @a[tag=alive] respawn 0
+
 scoreboard players reset @a stocks
-execute if score $gameMode options matches 1 run scoreboard players operation @a[tag=alive] stocks = $stockLimit options
+execute if score $gameMode options matches 1 run scoreboard players operation @a[predicate=ssbrc:flag/player] stocks = $stockLimit options
 execute if score $gameMode options matches 1 run scoreboard objectives setdisplay sidebar stocks
 
-execute if score $gameMode options matches 2 run scoreboard players set @a[tag=alive] stocks 1
+execute if score $gameMode options matches 2 run scoreboard players set @a[predicate=ssbrc:flag/player] stocks 1
 execute if score $gameMode options matches 2 store result bossbar minecraft:timer max run scoreboard players get $timeLimit options
 execute if score $gameMode options matches 2 run bossbar set minecraft:timer players @a
 execute if score $gameMode options matches 2 run bossbar set minecraft:timer visible true
@@ -30,7 +32,7 @@ scoreboard players set $steveItemCap temp 2
 scoreboard players operation $steveItemCap temp += $playersAlive temp
 execute if entity @a[tag=steve] run function ssbrc:series/indie_fighters/steve/logic/spawn_item
 
-execute as @a[tag=alive] run function ssbrc:logic/kits
+execute as @a[predicate=ssbrc:flag/player] run function ssbrc:logic/kits
 function ssbrc:logic/music/decide
 
 function ssbrc:logic/start_hazards
@@ -45,7 +47,6 @@ execute if score $gameMode options matches 2 store result bossbar minecraft:time
 scoreboard players set $gameStage temp 4
 scoreboard players reset $countdown timer
 
-scoreboard players set @a[tag=alive] flag.sprinting 0
-scoreboard players set @a[tag=alive] respawn 0
+scoreboard players set @a[predicate=ssbrc:flag/player] flag.sprinting 0
 
 tag @s remove characterPicked

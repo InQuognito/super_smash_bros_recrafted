@@ -25,4 +25,4 @@ summon minecraft:marker 7009.5 16.0 2968.5 {Tags:["spawnpoint.item"]}
 execute as @a[predicate=ssbrc:ingame] run function ssbrc:logic/pre_game/prepare_players
 function ssbrc:logic/pre_game/prepare_match
 
-tag @a[tag=alive] add suzakuCastle
+tag @a[predicate=ssbrc:flag/player] add suzakuCastle
