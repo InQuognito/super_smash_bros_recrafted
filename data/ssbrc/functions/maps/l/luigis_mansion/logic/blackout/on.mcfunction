@@ -1,7 +1,6 @@
 scoreboard players set $blackout temp 1
 
-effect clear @a[predicate=ssbrc:flag/player] minecraft:glowing
-effect clear @e[tag=stalfos] minecraft:glowing
+effect clear @a[predicate=ssbrc:flag/targets] minecraft:glowing
 execute as @e[nbt={Item:{tag:{Tags:[steve.item]}}}] run data merge entity @s {Glowing:0}
 
 fill -340 8 -1165 -285 24 -1145 minecraft:light[level=0] replace minecraft:light
