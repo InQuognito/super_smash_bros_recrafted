@@ -16,6 +16,7 @@ scoreboard players remove @e[type=!minecraft:player,scores={cooldown.3=1..}] coo
 scoreboard players remove @e[type=!minecraft:player,scores={duration.1=1..}] duration.1 1
 scoreboard players remove @e[type=!minecraft:player,scores={duration.2=1..}] duration.2 1
 scoreboard players remove @e[type=!minecraft:player,scores={duration.3=1..}] duration.3 1
+scoreboard players remove @e[type=!minecraft:player,scores={duration.4=1..}] duration.4 1
 
 execute unless score $sectorZ map matches 1 run effect give @a[predicate=ssbrc:flag/targets,predicate=ssbrc:below_y/0] minecraft:blindness 2 0 true
 

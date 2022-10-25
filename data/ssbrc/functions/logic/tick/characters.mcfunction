@@ -4,6 +4,7 @@ scoreboard players remove @s[scores={cooldown.3=1..}] cooldown.3 1
 scoreboard players remove @s[scores={duration.1=1..}] duration.1 1
 scoreboard players remove @s[scores={duration.2=1..}] duration.2 1
 scoreboard players remove @s[scores={duration.3=1..}] duration.3 1
+scoreboard players remove @s[scores={duration.4=1..}] duration.4 1
 
 scoreboard players add @s[scores={charge.input=1..}] charge.step 1
 scoreboard players add @s[scores={charge.input=1..}] charge.output 1

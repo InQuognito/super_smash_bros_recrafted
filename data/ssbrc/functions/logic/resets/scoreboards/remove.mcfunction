@@ -23,6 +23,7 @@ scoreboard objectives remove durability
 scoreboard objectives remove duration.1
 scoreboard objectives remove duration.2
 scoreboard objectives remove duration.3
+scoreboard objectives remove duration.4
 scoreboard objectives remove fallDistance
 #scoreboard objectives remove favorite.slot1
 #scoreboard objectives remove favorite.slot2

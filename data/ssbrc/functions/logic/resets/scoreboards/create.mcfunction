@@ -23,6 +23,7 @@ scoreboard objectives add durability dummy
 scoreboard objectives add duration.1 dummy
 scoreboard objectives add duration.2 dummy
 scoreboard objectives add duration.3 dummy
+scoreboard objectives add duration.4 dummy
 scoreboard objectives add fallDistance minecraft.custom:minecraft.fall_one_cm
 scoreboard objectives add favorite.slot1 dummy
 scoreboard objectives add favorite.slot2 dummy
