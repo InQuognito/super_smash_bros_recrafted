@@ -3,6 +3,9 @@ scoreboard players set @s charge.1 0
 
 scoreboard players set @s joker.tt33A 8
 
+clear @s minecraft:stone_sword{rebelsKnife:1,awakened:0}
+loot replace entity @s hotbar.0 loot ssbrc:characters/persona/joker/rebels_knife/awakened
+
 clear @s minecraft:carrot_on_a_stick{mask:1}
 clear @s minecraft:carrot_on_a_stick{personaAwakening:1}
 

@@ -35,7 +35,7 @@ execute if score @s duration.2 matches 1 run function ssbrc:series/persona/joker
 item modify entity @s[nbt={SelectedItem:{tag:{rebelsKnife:1}}}] weapon.mainhand ssbrc:characters/joker/rebels_knife
 
 # Ammo HUD
-execute unless score $joker.awakeningPercent temp matches 100.. unless score @s duration.1 matches 540.. run title @s[nbt={SelectedItem:{tag:{tt33:1}}}] actionbar {"score":{"name":"@s","objective":"joker.tt33A"},"color":"red"}
+title @s[nbt={SelectedItem:{tag:{tt33:1}}}] actionbar {"score":{"name":"@s","objective":"joker.tt33A"},"color":"red"}
 
 # Fire Rate
 scoreboard players remove @s[scores={joker.tt33F=1..}] joker.tt33F 1

@@ -9,4 +9,4 @@ effect give @s minecraft:glowing 1000000 255 true
 
 tag @s add room.characterSelect
 
-function ssbrc:logic/pre_game/character_select/count_players
+function ssbrc:logic/pre_game/character_select/check_participation
