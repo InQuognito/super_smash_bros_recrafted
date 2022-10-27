@@ -8,7 +8,6 @@ function ssbrc:series/kingdom_hearts/sora/logic/abilities/blizzaga/projectile_ro
 function ssbrc:series/kingdom_hearts/sora/logic/abilities/blizzaga/projectile_rotation
 
 scoreboard players operation @s mana -= #sora.blizzagaMPCost vars
-function ssbrc:series/kingdom_hearts/sora/logic/mana/update
 
 scoreboard players set @s cooldown.2 40
 scoreboard players operation @s[tag=wisdom] cooldown.2 /= 2 integers

@@ -5,4 +5,3 @@ effect give @s minecraft:resistance 3 255 true
 function ssbrc:logic/characters/effects/mobility/immobilize
 
 scoreboard players operation @s mana = 0 integers
-function ssbrc:series/dragon_quest/hero/logic/mana/update

@@ -9,7 +9,6 @@ execute facing ^1 ^ ^2 if score @s charge.4 matches 3.. run function ssbrc:serie
 scoreboard players operation #blizzazaCost temp = #sora.blizzazaMPCost vars
 execute if score @s charge.4 matches 3.. run scoreboard players operation #blizzazaCost temp *= 4 integers
 scoreboard players operation @s mana -= #blizzazaCost temp
-function ssbrc:series/kingdom_hearts/sora/logic/mana/update
 
 scoreboard players set @s cooldown.2 10
 execute if score @s shadow.chaosControl matches 1.. run function ssbrc:logic/characters/cooldown_modifiers/chaos_control/2

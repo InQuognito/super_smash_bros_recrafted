@@ -29,15 +29,9 @@ clear @s[tag=ganondorf] minecraft:trident
 loot replace entity @s[tag=ganondorf] hotbar.1 loot ssbrc:characters/the_legend_of_zelda/ganondorf/trident_of_power
 
 # Hero
-execute if entity @s[tag=hero] run function ssbrc:series/dragon_quest/hero/logic/magic/kaclang_off
-clear @s[tag=hero] minecraft:carrot_on_a_stick
-clear @s[tag=hero] minecraft:shield
-loot replace entity @s[tag=hero,tag=!rek] hotbar.0 loot ssbrc:characters/dragon_quest/hero/flame_slash/default
-loot replace entity @s[tag=hero,tag=rek] hotbar.0 loot ssbrc:characters/dragon_quest/hero/flame_slash/sword_of_ramias
-loot replace entity @s[tag=hero] hotbar.1 loot ssbrc:characters/dragon_quest/hero/bang
-loot replace entity @s[tag=hero] hotbar.2 loot ssbrc:characters/dragon_quest/hero/kaclang
+execute if entity @s[tag=hero] run function ssbrc:series/dragon_quest/hero/logic/magic/kaclang/deactivate
 scoreboard players operation @s[tag=hero] mana += #hero.manaGainedOnDeath vars
-execute if entity @s[tag=hero] run function ssbrc:series/dragon_quest/hero/logic/mana/update
+execute if entity @s[tag=hero] run function ssbrc:series/dragon_quest/hero/logic/magic/restore
 
 # Joker
 clear @s minecraft:carrot_on_a_stick{mask:1}

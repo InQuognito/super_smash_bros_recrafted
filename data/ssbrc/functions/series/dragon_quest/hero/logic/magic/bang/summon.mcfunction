@@ -13,4 +13,3 @@ scoreboard players set @s cooldown.1 10
 execute if score @s shadow.chaosControl matches 1.. run function ssbrc:logic/characters/cooldown_modifiers/chaos_control/1
 
 scoreboard players operation @s mana -= #hero.bangManaCost vars
-function ssbrc:series/dragon_quest/hero/logic/mana/update

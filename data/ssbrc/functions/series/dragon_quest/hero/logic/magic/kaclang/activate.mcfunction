@@ -7,4 +7,3 @@ function ssbrc:logic/characters/effects/mobility/immobilize
 function ssbrc:logic/characters/armor/get
 
 scoreboard players operation @s mana -= #hero.kaclangManaCost vars
-function ssbrc:series/dragon_quest/hero/logic/mana/update

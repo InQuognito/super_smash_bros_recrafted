@@ -7,7 +7,6 @@ data modify entity @e[tag=projectile,limit=1] Owner set from entity @s UUID
 tag @e[tag=projectile,limit=1] remove projectile
 
 scoreboard players operation @s mana -= #shovelknight.propellerDaggerManaCost vars
-function ssbrc:series/indie_fighters/shovelknight/logic/mana/update
 
 scoreboard players set @s duration.2 10
 

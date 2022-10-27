@@ -10,7 +10,6 @@ tag @e[tag=projectile,limit=1] remove projectile
 kill @e[tag=direction]
 
 scoreboard players operation @s mana -= #sora.firagaMPCost vars
-function ssbrc:series/kingdom_hearts/sora/logic/mana/update
 
 scoreboard players set @s cooldown.2 20
 scoreboard players operation @s[tag=wisdom] cooldown.2 /= 2 integers
