@@ -10,6 +10,7 @@ execute at @s[nbt={SelectedItem:{tag:{shovelDrop:1}}}] positioned ~ ~-2 ~ as @e[
 execute as @e[type=minecraft:marker,tag=chaosSphere] at @s if score @s id = @p[tag=self] id run function ssbrc:series/indie_fighters/shovelknight/logic/abilities/chaos_sphere/tick
 execute as @e[type=minecraft:arrow,tag=flareWand] at @s if score @s id = @p[tag=shovelknight.flareWand,tag=self] id run function ssbrc:series/indie_fighters/shovelknight/logic/abilities/flare_wand/tick
 execute as @e[type=minecraft:marker,tag=propellerDagger] at @s if score @s id = @p[tag=shovelknight.propellerDagger,tag=self,scores={duration.2=2..}] id run function ssbrc:series/indie_fighters/shovelknight/logic/abilities/propeller_dagger/tick
+execute as @e[type=minecraft:armor_stand,tag=throwingAnchor,tag=!hitGround] at @s if score @s id = @p[tag=shovelknight.throwingAnchor,tag=self] id run function ssbrc:series/indie_fighters/shovelknight/logic/abilities/throwing_anchor/tick
 tag @s remove self
 
 # Mana
@@ -34,3 +35,6 @@ execute if score @s[tag=shovelknight.phaseLocket] duration.2 matches 1.. run fun
 # Propeller Dagger
 execute if score @s[tag=shovelknight.propellerDagger] duration.2 matches 1 run function ssbrc:series/indie_fighters/shovelknight/logic/abilities/propeller_dagger/deactivate
 execute if entity @s[tag=shovelknight.propellerDagger,nbt={SelectedItem:{tag:{propellerDagger:1}}}] if score @s charge.input matches 1.. if score @s mana >= #shovelknight.propellerDaggerManaCost vars at @s anchored eyes run particle minecraft:end_rod ^ ^ ^15.0 0.0 0.0 0.0 0.0 1 normal @a
+
+# War Horn
+execute if score @s[tag=shovelknight.warHorn] cooldown.2 matches 260 run function ssbrc:logic/characters/effects/mobility/mobilize
