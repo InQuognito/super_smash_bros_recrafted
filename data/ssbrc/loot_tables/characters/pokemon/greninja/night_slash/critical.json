@@ -24,7 +24,7 @@
 								{
 									"attribute": "minecraft:generic.attack_damage",
 									"name": "Attack Damage",
-									"amount": 7,
+									"amount": 10,
 									"operation": "multiply_base",
 									"slot": "mainhand"
 								},
@@ -39,7 +39,7 @@
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{nightSlash:1,Unbreakable:1,HideFlags:127}"
+							"tag": "{nightSlash:1,critical:1,Unbreakable:1,HideFlags:127}"
 						}
 					]
 				}
