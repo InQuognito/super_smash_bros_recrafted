@@ -39,7 +39,7 @@
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{propellerDagger:1,Unbreakable:1,HideFlags:127}"
+							"tag": "{propellerDagger:1,CustomModelData:1920,Unbreakable:1,HideFlags:127}"
 						}
 					]
 				}

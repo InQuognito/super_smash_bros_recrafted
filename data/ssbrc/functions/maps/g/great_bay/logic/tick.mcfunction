@@ -1,1 +1,1 @@
-kill @a[predicate=ssbrc:flag/player,predicate=ssbrc:great_bay]
+kill @a[predicate=ssbrc:flag/player,predicate=ssbrc:stage/great_bay]

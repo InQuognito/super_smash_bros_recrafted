@@ -1,4 +1,4 @@
-clear @s #ssbrc:steve_items
+clear @s #ssbrc:characters/steve/items
 clear @s #ssbrc:swords
 clear @s minecraft:netherite_axe{netheriteAxe:1}
 

@@ -19,10 +19,7 @@ execute if score result random matches 4 run function ssbrc:series/the_legend_of
 execute if score result random matches 5 run function ssbrc:series/the_legend_of_zelda/zelda/logic/abilities/great_fairy_blessing/blessings/rupee_master
 execute if score result random matches 6 unless score #hasGlassWeapon temp matches 0 unless score #hasNayrusRing temp matches 0 run function ssbrc:series/the_legend_of_zelda/zelda/logic/abilities/great_fairy_blessing/blessings/shatter_resist
 
-scoreboard players operation @s charge.1 -= #greatFairyBlessingCost temp
-execute if score @s charge.1 > #zelda.maxRupees vars run scoreboard players operation @s charge.1 = #zelda.maxRupees vars
-scoreboard players add @s charge.2 1
-
+execute if score #blessingChosen temp matches 1 run function ssbrc:series/the_legend_of_zelda/zelda/logic/abilities/great_fairy_blessing/activate
 execute unless score #blessingChosen temp matches 1 run function ssbrc:series/the_legend_of_zelda/zelda/logic/abilities/great_fairy_blessing/choose
 scoreboard players reset #blessingChosen temp
 

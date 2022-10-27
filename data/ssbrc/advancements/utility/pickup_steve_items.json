@@ -7,7 +7,7 @@
 				"player": [],
 				"items": [
 					{
-						"tag": "ssbrc:steve_items"
+						"tag": "ssbrc:characters/steve/items"
 					}
 				]
 			}

@@ -39,7 +39,7 @@
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{goronLocket:1,CustomModelData:9032,Unbreakable:1,HideFlags:127}"
+							"tag": "{passiveItem:1,goronLocket:1,CustomModelData:9032,Unbreakable:1,HideFlags:127}"
 						}
 					]
 				}

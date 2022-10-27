@@ -1,4 +1,4 @@
-clear @s #ssbrc:steve_items
+clear @s #ssbrc:characters/steve/items
 
 tag @s[tag=!hasBow,tag=!hasCrossbow,predicate=ssbrc:random_chance/30,tag=steve.hasStick] add steve.getCrossbow
 loot give @s[tag=steve.getCrossbow] loot ssbrc:characters/indie_fighters/steve/crossbow

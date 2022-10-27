@@ -43,7 +43,7 @@
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{warHorn:1,Unbreakable:1,HideFlags:127}"
+							"tag": "{warHorn:1,CustomModelData:1920,Unbreakable:1,HideFlags:127}"
 						}
 					]
 				}

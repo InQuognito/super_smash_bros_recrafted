@@ -39,7 +39,7 @@
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{ringOfCharisma:1,CustomModelData:9042,Unbreakable:1,HideFlags:127}"
+							"tag": "{passiveItem:1,ringOfCharisma:1,CustomModelData:9042,Unbreakable:1,HideFlags:127}"
 						}
 					]
 				}

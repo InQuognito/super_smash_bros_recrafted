@@ -20,4 +20,4 @@ tag @s remove steve.hasDiamond
 tag @s remove steve.hasNetherite
 
 tellraw @s[tag=!steve] {"text":"Discarded.","color":"red"}
-clear @s[tag=!steve] #ssbrc:steve_items
+clear @s[tag=!steve] #ssbrc:characters/steve/items
