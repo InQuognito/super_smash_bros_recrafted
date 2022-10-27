@@ -1,6 +1,6 @@
-execute if entity @s[scores={useAbility=1..,cooldown.1=..0},nbt={SelectedItem:{tag:{bang:1}}}] if score @s mana >= #hero.bangManaCost vars at @s anchored eyes run function ssbrc:series/dragon_quest/hero/logic/magic/bang/summon
-execute if entity @s[scores={useAbility=1..},nbt={SelectedItem:{tag:{kaclang:1}}}] if score @s mana >= #hero.kaclangManaCost vars run function ssbrc:series/dragon_quest/hero/logic/magic/kaclang/activate
-execute if score @s[scores={useAbility=1..},nbt={SelectedItem:{tag:{magicBurst:1}}}] mana >= #hero.maxMana vars run function ssbrc:series/dragon_quest/hero/logic/magic/magic_burst/activate
+execute if entity @s[scores={useAbility=1..,cooldown.1=..0,duration.2=..0},nbt={SelectedItem:{tag:{bang:1}}}] if score @s mana >= #hero.bangManaCost vars at @s anchored eyes run function ssbrc:series/dragon_quest/hero/logic/magic/bang/summon
+execute if entity @s[scores={useAbility=1..,duration.2=..0},nbt={SelectedItem:{tag:{kaclang:1}}}] if score @s mana >= #hero.kaclangManaCost vars run function ssbrc:series/dragon_quest/hero/logic/magic/kaclang/activate
+execute if score @s[scores={useAbility=1..,duration.2=..0},nbt={SelectedItem:{tag:{magicBurst:1}}}] mana >= #hero.maxMana vars run function ssbrc:series/dragon_quest/hero/logic/magic/magic_burst/activate
 
 tag @s add self
 execute as @e[type=minecraft:fireball,tag=bang] at @s if score @s id = @p[tag=self] id run function ssbrc:series/dragon_quest/hero/logic/magic/bang/tick

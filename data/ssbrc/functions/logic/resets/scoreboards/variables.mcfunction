@@ -10,6 +10,8 @@ scoreboard players set #cloud.maxLimit vars 70
 scoreboard players set #darksamus.chargeBeamThreshold vars 100
 
 scoreboard players set #hero.maxMana vars 20
+scoreboard players operation #hero.halfMana vars = #hero.maxMana vars
+scoreboard players operation #hero.halfMana vars /= 2 integers
 scoreboard players operation #hero.initialMana vars = #hero.maxMana vars
 scoreboard players operation #hero.initialMana vars *= 3 integers
 scoreboard players operation #hero.initialMana vars /= 4 integers
