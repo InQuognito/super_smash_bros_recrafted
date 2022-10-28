@@ -10,7 +10,7 @@ execute unless block ~ ~-0.5 ~ #ssbrc:passthrough run function ssbrc:series/eart
 execute rotated as @s run teleport @s[tag=!pillar] ^ ^ ^0.5
 
 tag @s add self
-execute positioned ~-0.15 ~-0.15 ~-0.15 @e[predicate=ssbrc:flag/targets,dx=0] positioned ~-0.7 ~-0.7 ~-0.7 if entity @s[dx=0] run tag @s add damage.fireball
+execute positioned ~-0.15 ~-0.15 ~-0.15 as @e[predicate=ssbrc:flag/targets,dx=0] positioned ~-0.7 ~-0.7 ~-0.7 if entity @s[dx=0] run tag @s add damage.fireball
 tag @s remove self
 
 scoreboard players add @s temp 1

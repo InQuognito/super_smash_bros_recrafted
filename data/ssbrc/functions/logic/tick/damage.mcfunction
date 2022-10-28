@@ -20,3 +20,5 @@ execute if entity @a[tag=yar] run function ssbrc:logic/tick/damage/retro_fighter
 execute if entity @a[tag=zelda] run function ssbrc:logic/tick/damage/the_legend_of_zelda/zelda
 
 execute as @a[predicate=ssbrc:characters/damage.shockwave] at @s run function ssbrc:logic/characters/shockwave/damage
+
+execute as @e[type=minecraft:skeleton] run function ssbrc:logic/tick/damage/undead
