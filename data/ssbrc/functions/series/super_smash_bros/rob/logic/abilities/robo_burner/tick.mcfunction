@@ -9,6 +9,7 @@ scoreboard players operation #percentage temp /= #hero.maxMana vars
 particle minecraft:cloud ~ ~-0.4 ~ 0.3 0.0 0.3 0.02 5 normal @a
 execute unless score #percentage temp matches ..5 run particle minecraft:flame ~ ~-0.7 ~ 0.1 0.3 0.1 0.02 15 normal @a
 
+execute if score #percentage temp matches 1 run function ssbrc:logic/characters/flags/use_recovery
 execute if score #percentage temp matches ..5 run effect give @s minecraft:slow_falling 1000000 0 true
 execute if score #percentage temp matches 6..20 run effect give @s minecraft:levitation 1000000 0 true
 execute if score #percentage temp matches 21..30 run effect give @s minecraft:levitation 1000000 1 true

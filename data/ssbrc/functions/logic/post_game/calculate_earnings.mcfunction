@@ -9,6 +9,12 @@ execute if score @s 765o matches 1.. run data modify storage ssbrc:bonuses/765o 
 execute unless score @s 765o matches 1.. run data modify storage ssbrc:bonuses/765o value set value ''
 scoreboard players operation @s currency.temp += #value 765o
 
+scoreboard players operation #value acrobat = @s acrobat
+scoreboard players operation #value acrobat *= #value.bonus.acrobat vars
+execute if score @s acrobat matches 1.. run data modify storage ssbrc:bonuses/acrobat value set value '[{"score":{"name":"@s","objective":"acrobat"},"bold":true,"color":"yellow"},{"text":"x ","color":"yellow"},{"text":"Acrobat","bold":true,"color":"gold"},{"text":" - ","bold":false,"color":"white"},{"score":{"name":"#value","objective":"acrobat"},"bold":false,"color":"yellow"},{"text":"₡","bold":false,"color":"yellow"}]}}]'
+execute unless score @s acrobat matches 1.. run data modify storage ssbrc:bonuses/acrobat value set value ''
+scoreboard players operation @s currency.temp += #value acrobat
+
 scoreboard players operation #value firstStrike = @s firstStrike
 scoreboard players operation #value firstStrike *= #value.bonus.firstStrike vars
 execute if score @s firstStrike matches 1.. run data modify storage ssbrc:bonuses/first_strike value set value '[{"score":{"name":"@s","objective":"firstStrike"},"bold":true,"color":"yellow"},{"text":"x ","color":"yellow"},{"text":"First Strike","bold":true,"color":"gold"},{"text":" - ","bold":false,"color":"white"},{"score":{"name":"#value","objective":"firstStrike"},"bold":false,"color":"yellow"},{"text":"₡","bold":false,"color":"yellow"}]}}]'
@@ -18,4 +24,4 @@ scoreboard players operation @s currency.temp += #value firstStrike
 tellraw @s [{"text":"Credits Earned: ","color":"gold"},{"score":{"name":"@s","objective":"currency.temp"},"color":"yellow"},{"text":"₡","color":"yellow"}]
 scoreboard players operation @s currency += @s currency.temp
 
-tellraw @s [{"text":"[ ","color":"gold"},{"text":"Show Bonuses","color":"yellow","hoverEvent":{"action":"show_text","contents":[{"nbt":"value","storage":"ssbrc:bonuses/765o","interpret":true},"\n",{"nbt":"value","storage":"ssbrc:bonuses/first_strike","interpret":true}]}},{"text":" ]","color":"gold"}]
+tellraw @s [{"text":"[ ","color":"gold"},{"text":"Show Bonuses","color":"yellow","hoverEvent":{"action":"show_text","contents":[{"nbt":"value","storage":"ssbrc:bonuses/765o","interpret":true},{"nbt":"value","storage":"ssbrc:bonuses/first_strike","interpret":true}]}},{"text":" ]","color":"gold"}]

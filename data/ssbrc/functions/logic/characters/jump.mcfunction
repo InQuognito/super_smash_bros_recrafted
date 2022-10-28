@@ -3,6 +3,8 @@ effect give @s[tag=jumpUpPipe] minecraft:levitation 1 10 true
 tag @s[tag=!luigi] remove jumpUpPipe
 
 execute if score @s[tag=luigi] charge.1 matches 30.. if score @s jumps matches 1.. unless score $sectorZ map matches 1 run effect give @s minecraft:slow_falling 2 255 true
+execute if score @s[tag=luigi] charge.1 matches 30.. if score @s jumps matches 1.. run function ssbrc:logic/characters/flags/use_recovery
+execute if score @s[tag=mario,predicate=ssbrc:characters/effects/jump_boost/super] jumps matches 1.. run function ssbrc:logic/characters/flags/use_recovery
 execute if score @s[tag=mario] jumps matches 1.. unless score $sectorZ map matches 1 run function ssbrc:logic/characters/effects/defaults/jump_boost
 execute if score @s[tag=mario] jumps matches 1.. if score $sectorZ map matches 1 run function ssbrc:maps/s/sector_z/logic/effects
 
