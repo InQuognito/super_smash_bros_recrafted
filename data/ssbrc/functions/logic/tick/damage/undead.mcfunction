@@ -5,3 +5,8 @@ execute if entity @s[predicate=ssbrc:flag/effects/instant_damage/3] run effect g
 execute if entity @s[predicate=ssbrc:flag/effects/instant_damage/50] run effect give @s minecraft:instant_health 1 51 true
 
 say got hit by harming!
+execute if entity @s[predicate=ssbrc:flag/effects/instant_damage/0] run say 0
+execute if entity @s[predicate=ssbrc:flag/effects/instant_damage/1] run say 1
+execute if entity @s[predicate=ssbrc:flag/effects/instant_damage/2] run say 2
+execute if entity @s[predicate=ssbrc:flag/effects/instant_damage/3] run say 3
+execute if entity @s[predicate=ssbrc:flag/effects/instant_damage/50] run say 50
