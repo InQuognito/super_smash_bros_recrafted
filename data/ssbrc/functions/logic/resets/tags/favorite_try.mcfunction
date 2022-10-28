@@ -8,6 +8,7 @@ tag @s remove favoritetry.darksamus
 tag @s remove favoritetry.donkeykong
 tag @s remove favoritetry.fox
 tag @s remove favoritetry.ganondorf
+tag @s remove favoritetry.giegue
 tag @s remove favoritetry.greninja
 tag @s remove favoritetry.hero
 tag @s remove favoritetry.jigglypuff
