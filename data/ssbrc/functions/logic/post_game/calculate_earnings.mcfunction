@@ -24,4 +24,4 @@ scoreboard players operation @s currency.temp += #value firstStrike
 tellraw @s [{"text":"Credits Earned: ","color":"gold"},{"score":{"name":"@s","objective":"currency.temp"},"color":"yellow"},{"text":"₡","color":"yellow"}]
 scoreboard players operation @s currency += @s currency.temp
 
-tellraw @s [{"text":"[ ","color":"gold"},{"text":"Show Bonuses","color":"yellow","hoverEvent":{"action":"show_text","contents":[{"nbt":"value","storage":"ssbrc:bonuses/765o","interpret":true},{"nbt":"value","storage":"ssbrc:bonuses/first_strike","interpret":true}]}},{"text":" ]","color":"gold"}]
+tellraw @s [{"text":"[ ","color":"gold"},{"text":"Show Bonuses","color":"yellow","hoverEvent":{"action":"show_text","contents":[{"nbt":"value","storage":"ssbrc:bonuses/765o","interpret":true},{"nbt":"value","storage":"ssbrc:bonuses/acrobat","interpret":true},{"nbt":"value","storage":"ssbrc:bonuses/first_strike","interpret":true}]}},{"text":" ]","color":"gold"}]
