@@ -165,6 +165,7 @@ execute if score @s[tag=!ryu] menu matches 1401 run function ssbrc:series/street
 execute if score @s[tag=!ryu] menu matches 1402 run function ssbrc:series/street_fighter/ryu/menu/favorite
 execute if score @s[tag=!ryu] menu matches 1404 run function ssbrc:series/street_fighter/ryu/menu/skins/default
 execute if score @s[tag=!ryu] menu matches 1405 run function ssbrc:series/street_fighter/ryu/menu/skins/gold
+execute if score @s[tag=!ryu] menu matches 1406 run function ssbrc:series/street_fighter/ryu/menu/skins/hot
 
 execute if score @s[tag=!samus] menu matches 1420 run function ssbrc:series/metroid/samus/menu/select_character
 execute if score @s[tag=!samus] menu matches 1421 run function ssbrc:series/metroid/samus/menu/skin_options

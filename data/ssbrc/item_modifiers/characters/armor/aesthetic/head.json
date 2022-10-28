@@ -1255,6 +1255,40 @@
 	},
 	{
 		"function": "minecraft:set_nbt",
+		"tag": "{CustomModelData:1404}",
+		"conditions": [
+			{
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"nbt": "{Tags:[\"ryu\",\"hot\"]}"
+				}
+			},
+			{
+				"condition": "minecraft:reference",
+				"name": "ssbrc:characters/ryu/satsui_no_hado/off"
+			}
+		]
+	},
+	{
+		"function": "minecraft:set_nbt",
+		"tag": "{CustomModelData:1405}",
+		"conditions": [
+			{
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"nbt": "{Tags:[\"ryu\",\"hot\"]}"
+				}
+			},
+			{
+				"condition": "minecraft:reference",
+				"name": "ssbrc:characters/ryu/satsui_no_hado/on"
+			}
+		]
+	},
+	{
+		"function": "minecraft:set_nbt",
 		"tag": "{CustomModelData:1420}",
 		"conditions": [
 			{
