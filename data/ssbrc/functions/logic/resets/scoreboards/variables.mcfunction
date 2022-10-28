@@ -129,6 +129,21 @@ scoreboard players operation #value.achievement.rare vars *= 2 integers
 scoreboard players operation #value.bonus.765o vars = #value.playGame vars
 scoreboard players operation #value.bonus.765o vars *= 32 integers
 
+scoreboard players operation #value.bonus.firstStrike vars = #value.kill vars
+scoreboard players operation #value.bonus.firstStrike vars /= 2 integers
+
+
+
+
+
+
+
+
+
+
+
+
+
 scoreboard players operation #value.bonus.8 vars = #value.playGame vars
 scoreboard players operation #value.bonus.8 vars *= 1 integers
 
@@ -173,9 +188,6 @@ scoreboard players operation #value.bonus.dreamTeam vars *= 2 integers
 
 scoreboard players operation #value.bonus.eagleEye vars = #value.playGame vars
 scoreboard players operation #value.bonus.eagleEye vars *= 3 integers
-
-scoreboard players operation #value.bonus.earlyBird vars = #value.kill vars
-scoreboard players operation #value.bonus.earlyBird vars /= 2 integers
 
 scoreboard players operation #value.bonus.fleshAndBlood vars = #value.winGame vars
 scoreboard players operation #value.bonus.fleshAndBlood vars *= 2 integers
