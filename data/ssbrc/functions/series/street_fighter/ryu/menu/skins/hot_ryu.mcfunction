@@ -1,5 +1,5 @@
 function ssbrc:series/street_fighter/ryu/menu/skins/reset
-tag @s add hot
+tag @s add hotRyu
 
 function ssbrc:series/street_fighter/ryu/menu/select_character
 
