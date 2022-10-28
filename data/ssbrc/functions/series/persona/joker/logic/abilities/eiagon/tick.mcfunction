@@ -1,6 +1,6 @@
 particle minecraft:dust 0.2 0.0 0.1 1.0 ^ ^ ^ 0.0 0.0 0.0 0 0 normal @a
 
-tp @s ^ ^ ^0.5
+teleport @s ^ ^ ^0.5
 
 execute unless block ^ ^ ^0.1 #ssbrc:passthrough run function ssbrc:series/persona/joker/logic/abilities/eiagon/summon_pool
 

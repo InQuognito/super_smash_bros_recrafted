@@ -10,7 +10,7 @@ gamemode spectator @s[team=spectator]
 
 tag @s[team=!spectator] add alive
 
-tp @s 3.5 3.0 21.5 0.0 0.0
+teleport @s 3.5 3.0 21.5 0.0 0.0
 
 execute if score $teams options matches 0 run team join waiting @s[team=!spectator]
 effect give @s[team=!spectator] minecraft:glowing 1000000 255 true

@@ -1,4 +1,4 @@
 function ssbrc:logic/characters/effects/mobility/immobilize
-tp @s ~ ~ ~
+teleport @s ~ ~ ~
 
 tag @s add crossSlashTarget

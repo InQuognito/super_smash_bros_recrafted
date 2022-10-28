@@ -16,4 +16,4 @@ execute if entity @s[tag=shovelknight] run function ssbrc:series/indie_fighters/
 execute if entity @s[tag=snake] run function ssbrc:series/metal_gear_solid/snake/logic/scavenger/all
 execute if entity @s[tag=sora] run function ssbrc:series/kingdom_hearts/sora/logic/drive_forms/enable
 
-tp @s @e[tag=spawnpoint,sort=random,limit=1]
+teleport @s @e[tag=spawnpoint,sort=random,limit=1]

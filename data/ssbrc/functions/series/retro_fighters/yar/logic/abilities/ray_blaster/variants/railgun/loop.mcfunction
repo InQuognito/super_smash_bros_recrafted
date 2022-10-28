@@ -1,6 +1,6 @@
 execute unless block ^ ^ ^0.1 #ssbrc:passthrough run scoreboard players add $rayPiercing temp 1
 
-execute if score $rayPiercing temp <= #yar.railgunPiercing vars run tp @s ~ ~ ~
+execute if score $rayPiercing temp <= #yar.railgunPiercing vars run teleport @s ~ ~ ~
 
 particle minecraft:dust 1.0 0.75 0.0 5.0 ~ ~ ~ 0.0 0.0 0.0 0.5 5 normal @a
 

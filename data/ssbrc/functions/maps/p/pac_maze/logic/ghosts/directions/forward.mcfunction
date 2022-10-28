@@ -1,3 +1,3 @@
 tag @s add turned
 
-tp @s ~ ~ ~
+teleport @s ~ ~ ~

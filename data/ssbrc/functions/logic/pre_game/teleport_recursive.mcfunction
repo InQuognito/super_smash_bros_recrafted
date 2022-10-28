@@ -1,5 +1,5 @@
-tp @r[tag=teleportMe] @s
-tp @r[team=spectator] @s
+teleport @r[tag=teleportMe] @s
+teleport @r[team=spectator] @s
 tag @a[distance=..1] remove teleportMe
 tag @s remove tpDest
 

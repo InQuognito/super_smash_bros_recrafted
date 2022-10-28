@@ -1,4 +1,4 @@
-tp @s ~ ~ ~ ~ ~
+teleport @s ~ ~ ~ ~ ~
 
 scoreboard players add $in math 25
 function ssbrc:math/trig/sin

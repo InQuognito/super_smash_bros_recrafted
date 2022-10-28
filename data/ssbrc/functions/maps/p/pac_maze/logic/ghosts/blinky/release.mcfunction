@@ -1,6 +1,6 @@
 tellraw @a [{"text":"Blinky","color":"red"},{"text":" has been released!","color":"white"}]
 
-tp @s 23360.5 5.0 8633.5
+teleport @s 23360.5 5.0 8633.5
 
 tag @s add active
 

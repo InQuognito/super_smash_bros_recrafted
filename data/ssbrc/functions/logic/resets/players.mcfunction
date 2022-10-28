@@ -17,7 +17,7 @@ title @s reset
 title @s actionbar ""
 
 spawnpoint @s -521 5 55 90.0
-tp @s -520.5 5.0 55.5 90.0 0.0
+teleport @s -520.5 5.0 55.5 90.0 0.0
 
 stopsound @s
 

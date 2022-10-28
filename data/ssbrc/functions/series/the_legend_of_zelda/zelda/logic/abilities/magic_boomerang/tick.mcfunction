@@ -5,7 +5,7 @@ execute if score @s temp matches 40.. facing entity @p[tag=self] eyes run functi
 
 execute as @e[tag=magicBoomerang.display,sort=nearest,limit=1] run function ssbrc:series/the_legend_of_zelda/zelda/logic/abilities/magic_boomerang/display
 
-tp @e[type=minecraft:item,distance=..1] @s
+teleport @e[type=minecraft:item,distance=..1] @s
 
 execute positioned ~-0.15 ~-0.15 ~-0.15 as @e[predicate=ssbrc:flag/targets,dx=0] positioned ~-0.7 ~-0.7 ~-0.7 if entity @s[dx=0] unless score @s id = @e[type=minecraft:area_effect_cloud,tag=magicBoomerang,sort=nearest,limit=1] id run tag @s add damage.magicBoomerang
 

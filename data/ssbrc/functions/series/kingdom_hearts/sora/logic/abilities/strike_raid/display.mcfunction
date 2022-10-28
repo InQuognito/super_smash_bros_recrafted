@@ -1,4 +1,4 @@
-tp @s ~ ~ ~ ~ ~
+teleport @s ~ ~ ~ ~ ~
 
 scoreboard players add @s rotation 30
 execute if score @s rotation matches 360.. run scoreboard players reset @s rotation

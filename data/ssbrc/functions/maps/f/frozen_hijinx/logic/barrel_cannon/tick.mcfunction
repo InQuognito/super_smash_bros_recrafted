@@ -3,5 +3,5 @@ execute if entity @e[type=minecraft:armor_stand,tag=barrelCannon,tag=!playerInCa
 scoreboard players add @s[tag=inCannon] timer.barrelCannon 1
 execute if score @s timer.barrelCannon >= 40 integers run function ssbrc:maps/f/frozen_hijinx/logic/barrel_cannon/fire
 
-tp @s[tag=inCannon] @e[type=minecraft:armor_stand,tag=barrelCannon,sort=nearest,limit=1]
-tp @s[tag=followCannonPath] @e[type=minecraft:armor_stand,tag=barrelCannon.path,sort=nearest,limit=1]
+teleport @s[tag=inCannon] @e[type=minecraft:armor_stand,tag=barrelCannon,sort=nearest,limit=1]
+teleport @s[tag=followCannonPath] @e[type=minecraft:armor_stand,tag=barrelCannon.path,sort=nearest,limit=1]
