@@ -31,7 +31,7 @@
 								{
 									"attribute": "minecraft:generic.attack_speed",
 									"name": "Attack Speed",
-									"amount": 3.5,
+									"amount": 2.5,
 									"operation": "multiply_base",
 									"slot": "mainhand"
 								}
@@ -39,7 +39,7 @@
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{alucardSword:1,bloodMetamorphosis:1,CustomModelData:1840,Unbreakable:1,HideFlags:127}"
+							"tag": "{alucardSword:1,awakened:1,CustomModelData:1840,Unbreakable:1,HideFlags:127}"
 						}
 					]
 				}
