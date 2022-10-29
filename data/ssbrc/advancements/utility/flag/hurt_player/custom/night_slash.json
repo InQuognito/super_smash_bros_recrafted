@@ -2,7 +2,7 @@
 	"parent": "ssbrc:utility/root",
 	"criteria": {
 		"requirement": {
-			"trigger": "minecraft:entity_hurt_player",
+			"trigger": "minecraft:player_hurt_entity",
 			"conditions": {
 				"damage": {
 					"source_entity": {
