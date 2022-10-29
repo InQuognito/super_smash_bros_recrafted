@@ -1,3 +1,3 @@
 tag @s remove shadow
 
-tag @s remove damage.chaosBlast
+function ssbrc:series/sonic_the_hedgehog/shadow/logic/chaos_blast/damage/reset
