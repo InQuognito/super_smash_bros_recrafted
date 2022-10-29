@@ -93,6 +93,8 @@ execute if entity @s[predicate=ssbrc:flag/sneaking,scores={favorite.temp=1920}] 
 execute if entity @s[predicate=ssbrc:flag/sneaking,scores={favorite.temp=1940}] run function ssbrc:series/pokemon/teamrocket/menu/prompt
 execute if entity @s[predicate=ssbrc:flag/sneaking,scores={favorite.temp=1960}] run function ssbrc:series/retro_fighters/yar/menu/prompt
 
+scoreboard players reset @s favorite.temp
+
 execute if entity @s[nbt={SelectedItem:{tag:{random:1}}}] run function ssbrc:series/random
 
 scoreboard players reset @s selectFavorite
