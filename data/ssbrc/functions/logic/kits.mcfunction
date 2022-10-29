@@ -58,5 +58,4 @@ function ssbrc:logic/characters/effects/default
 
 scoreboard players set @s flag.sprinting 0
 
-scoreboard players set @s cementShoes 1
-scoreboard players set @s stiffKnees 1
+function ssbrc:logic/pre_game/bonuses

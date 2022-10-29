@@ -10,9 +10,6 @@ execute if score $teams options matches 1 if entity @s[team=team6] run tag @a[te
 execute if score $teams options matches 1 if entity @s[team=team7] run tag @a[team=team7] add winner
 execute if score $teams options matches 1 if entity @s[team=team8] run tag @a[team=team8] add winner
 
-execute if entity @s[tag=winner,scores={health=40..}] run scoreboard players set @s fullPower 1
-execute if entity @s[tag=winner,scores={health=..4}] run scoreboard players set @s heavyDamage 1
-
 execute as @a[predicate=ssbrc:ingame] run function ssbrc:logic/post_game/summary_check
 
 tag @a[predicate=ssbrc:ingame] remove loaded

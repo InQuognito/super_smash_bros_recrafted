@@ -17,3 +17,5 @@ execute if entity @s[tag=snake] run function ssbrc:series/metal_gear_solid/snake
 execute if entity @s[tag=sora] run function ssbrc:series/kingdom_hearts/sora/logic/drive_forms/enable
 
 teleport @s @e[tag=spawnpoint,sort=random,limit=1]
+
+scoreboard players set @s suddenDeath 1

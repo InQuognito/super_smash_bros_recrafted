@@ -103,6 +103,7 @@ scoreboard objectives remove vars
 # Bonuses
 scoreboard objectives remove 765o
 scoreboard objectives remove 765o.tracking
+scoreboard objectives remove 8PlayerMatch
 scoreboard objectives remove acrobat
 scoreboard objectives remove acrobat.tracking
 scoreboard objectives remove cementShoes
@@ -110,4 +111,10 @@ scoreboard objectives remove firstStrike
 scoreboard objectives remove fullPower
 scoreboard objectives remove heartgold
 scoreboard objectives remove heavyDamage
+scoreboard objectives remove luckyNumberSeven
+scoreboard objectives remove noJohns
+scoreboard objectives remove shinyEncounter
 scoreboard objectives remove stiffKnees
+scoreboard objectives remove switzerland
+scoreboard objectives remove tortoise
+scoreboard objectives remove yearLongBattle

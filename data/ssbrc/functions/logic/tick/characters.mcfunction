@@ -68,3 +68,4 @@ scoreboard players add @s[scores={frostbite=1..}] frostbiteTimer 1
 execute if score @s frostbiteTimer >= #frostbiteTimer vars run function ssbrc:logic/characters/attributes/modifiers/frostbite/decrease
 
 scoreboard players reset @s[scores={stiffKnees=1..},predicate=ssbrc:flag/sneaking] stiffKnees
+scoreboard players reset @s[scores={tortoise=1..},predicate=ssbrc:flag/sprinting] tortoise

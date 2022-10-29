@@ -113,8 +113,6 @@ execute as @e[tag=voteCounter] unless score @s mapVote = @s temp run tag @s add 
 execute as @e[tag=voteCounter.update,sort=random,limit=1] run function ssbrc:logic/pre_game/map_voting/update_counters_entity
 
 execute store result score $playersAlive temp if entity @a[predicate=ssbrc:flag/player]
-execute store result score #goldSkins temp if entity @a[predicate=ssbrc:flag/player,tag=gold]
-execute if score #goldSkins temp = $playersAlive temp run scoreboard players set @a[predicate=ssbrc:flag/player] heartgold 1
 
 scoreboard players set $gameStage temp 2
 scoreboard players set $countdown timer 30

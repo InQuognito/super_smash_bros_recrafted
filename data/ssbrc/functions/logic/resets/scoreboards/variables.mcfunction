@@ -126,8 +126,10 @@ scoreboard players operation value.achievement.rare vars = value.achievement.unc
 scoreboard players operation value.achievement.rare vars *= 2 integers
 
 # Bonus Currency Values
-scoreboard players operation value.bonus.765o vars = value.participation vars
-scoreboard players operation value.bonus.765o vars *= 32 integers
+scoreboard players set value.bonus.765o vars 1600
+
+scoreboard players operation value.bonus.8PlayerMatch vars = value.participation vars
+scoreboard players operation value.bonus.8PlayerMatch vars *= 2 integers
 
 scoreboard players operation value.bonus.acrobat vars = value.participation vars
 scoreboard players operation value.bonus.acrobat vars *= 2 integers
@@ -144,8 +146,21 @@ scoreboard players operation value.bonus.fullPower vars *= 3 integers
 scoreboard players operation value.bonus.heavyDamage vars = value.participation vars
 scoreboard players operation value.bonus.heavyDamage vars *= 1 integers
 
+scoreboard players set value.bonus.luckyNumberSeven vars 77
+
+scoreboard players operation value.bonus.noJohns vars = value.participation vars
+scoreboard players operation value.bonus.noJohns vars *= 1 integers
+
+scoreboard players set value.bonus.shinyEncounter vars 2048
+
 scoreboard players operation value.bonus.stiffKnees vars = value.participation vars
 scoreboard players operation value.bonus.stiffKnees vars *= 1 integers
+
+scoreboard players operation value.bonus.switzerland vars = value.participation vars
+scoreboard players operation value.bonus.switzerland vars *= 1 integers
+
+scoreboard players operation value.bonus.tortoise vars = value.participation vars
+scoreboard players operation value.bonus.tortoise vars *= 1 integers
 
 # Prices
 scoreboard players operation #price.skin.common vars = value.victory vars
