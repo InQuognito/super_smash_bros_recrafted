@@ -107,4 +107,6 @@ scoreboard objectives remove acrobat
 scoreboard objectives remove acrobat.tracking
 scoreboard objectives remove cementShoes
 scoreboard objectives remove firstStrike
+scoreboard objectives remove fullPower
+scoreboard objectives remove heavyDamage
 scoreboard objectives remove stiffKnees

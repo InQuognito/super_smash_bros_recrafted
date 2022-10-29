@@ -107,6 +107,8 @@ scoreboard objectives add acrobat dummy
 scoreboard objectives add acrobat.tracking dummy
 scoreboard objectives add cementShoes dummy
 scoreboard objectives add firstStrike dummy
+scoreboard objectives add fullPower dummy
+scoreboard objectives add heavyDamage dummy
 scoreboard objectives add stiffKnees dummy
 
 function ssbrc:logic/resets/scoreboards/stats
