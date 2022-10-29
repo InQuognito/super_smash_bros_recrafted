@@ -39,7 +39,7 @@
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{alucardSword:1,CustomModelData:1840,Unbreakable:1,HideFlags:127}"
+							"tag": "{alucardSword:1,bloodMetamorphosis:0,CustomModelData:1840,Unbreakable:1,HideFlags:127}"
 						}
 					]
 				}

@@ -9,7 +9,8 @@ execute as @e[tag=holyWater,tag=!active,predicate=ssbrc:flag/no_vehicle] at @s i
 tag @s remove self
 
 # Alucard Sword
-item modify entity @s weapon.mainhand ssbrc:characters/alucard.alucard_sword
+loot replace entity @s[tag=!bloodMetamorphosis,nbt={SelectedItem:{tag:{bloodMetamorphosis:1}}}] weapon.mainhand loot ssbrc:characters/castlevania/alucard/alucard_sword/default
+loot replace entity @s[tag=bloodMetamorphosis,nbt={SelectedItem:{tag:{bloodMetamorphosis:0}}}] weapon.mainhand loot ssbrc:characters/castlevania/alucard/alucard_sword/blood_metamorphosis
 
 # Holy Water
 execute unless score @s duration.1 matches 1.. run loot give @s[nbt=!{Inventory:[{tag:{holyWater:1}}]},scores={cooldown.2=..0}] loot ssbrc:characters/castlevania/alucard/holy_water
