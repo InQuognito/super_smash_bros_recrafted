@@ -165,6 +165,8 @@ scoreboard players operation value.bonus.switzerland vars *= 1 integers
 scoreboard players operation value.bonus.tortoise vars = value.participation vars
 scoreboard players operation value.bonus.tortoise vars *= 1 integers
 
+scoreboard players set value.bonus.yearLongBattle vars 365
+
 # Prices
 scoreboard players operation #price.skin.common vars = value.victory vars
 scoreboard players operation #price.skin.common vars *= 5 integers
