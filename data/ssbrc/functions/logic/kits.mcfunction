@@ -55,3 +55,8 @@ scoreboard players set @s duration.3 0
 
 function ssbrc:logic/characters/attributes/defaults
 function ssbrc:logic/characters/effects/default
+
+scoreboard players set @s flag.sprinting 0
+
+scoreboard players set @s cementShoes 1
+scoreboard players set @s stiffKnees 1

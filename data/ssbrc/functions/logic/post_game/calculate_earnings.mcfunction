@@ -15,13 +15,25 @@ execute if score @s acrobat matches 1.. run data modify storage ssbrc:bonuses/ac
 execute unless score @s acrobat matches 1.. run data modify storage ssbrc:bonuses/acrobat value set value ''
 scoreboard players operation @s currency.temp += #value acrobat
 
+scoreboard players operation #value cementShoes = @s cementShoes
+scoreboard players operation #value cementShoes *= #value.bonus.cementShoes vars
+execute if score @s cementShoes matches 1.. run data modify storage ssbrc:bonuses/cement_shoes value set value '[{"score":{"name":"@s","objective":"cementShoes"},"bold":true,"color":"yellow"},{"text":"x ","color":"yellow"},{"text":"Cement Shoes","bold":true,"color":"gold"},{"text":" - ","bold":false,"color":"white"},{"score":{"name":"#value","objective":"cementShoes"},"bold":false,"color":"yellow"},{"text":"₡","bold":false,"color":"yellow"}]}}]'
+execute unless score @s cementShoes matches 1.. run data modify storage ssbrc:bonuses/cement_shoes value set value ''
+scoreboard players operation @s currency.temp += #value cementShoes
+
 scoreboard players operation #value firstStrike = @s firstStrike
 scoreboard players operation #value firstStrike *= #value.bonus.firstStrike vars
 execute if score @s firstStrike matches 1.. run data modify storage ssbrc:bonuses/first_strike value set value '[{"score":{"name":"@s","objective":"firstStrike"},"bold":true,"color":"yellow"},{"text":"x ","color":"yellow"},{"text":"First Strike","bold":true,"color":"gold"},{"text":" - ","bold":false,"color":"white"},{"score":{"name":"#value","objective":"firstStrike"},"bold":false,"color":"yellow"},{"text":"₡","bold":false,"color":"yellow"}]}}]'
 execute unless score @s firstStrike matches 1.. run data modify storage ssbrc:bonuses/first_strike value set value ''
 scoreboard players operation @s currency.temp += #value firstStrike
 
+scoreboard players operation #value stiffKnees = @s stiffKnees
+scoreboard players operation #value stiffKnees *= #value.bonus.stiffKnees vars
+execute if score @s stiffKnees matches 1.. run data modify storage ssbrc:bonuses/stiff_knees value set value '[{"score":{"name":"@s","objective":"stiffKnees"},"bold":true,"color":"yellow"},{"text":"x ","color":"yellow"},{"text":"Stiff Knees","bold":true,"color":"gold"},{"text":" - ","bold":false,"color":"white"},{"score":{"name":"#value","objective":"stiffKnees"},"bold":false,"color":"yellow"},{"text":"₡","bold":false,"color":"yellow"}]}}]'
+execute unless score @s stiffKnees matches 1.. run data modify storage ssbrc:bonuses/stiff_knees value set value ''
+scoreboard players operation @s currency.temp += #value stiffKnees
+
 tellraw @s [{"text":"Credits Earned: ","color":"gold"},{"score":{"name":"@s","objective":"currency.temp"},"color":"yellow"},{"text":"₡","color":"yellow"}]
 scoreboard players operation @s currency += @s currency.temp
 
-tellraw @s [{"text":"[ ","color":"gold"},{"text":"Show Bonuses","color":"yellow","hoverEvent":{"action":"show_text","contents":[{"nbt":"value","storage":"ssbrc:bonuses/765o","interpret":true},{"nbt":"value","storage":"ssbrc:bonuses/acrobat","interpret":true},{"nbt":"value","storage":"ssbrc:bonuses/first_strike","interpret":true}]}},{"text":" ]","color":"gold"}]
+tellraw @s [{"text":"[ ","color":"gold"},{"text":"Show Bonuses","color":"yellow","hoverEvent":{"action":"show_text","contents":[{"nbt":"value","storage":"ssbrc:bonuses/765o","interpret":true},"\n",{"nbt":"value","storage":"ssbrc:bonuses/acrobat","interpret":true},"\n",{"nbt":"value","storage":"ssbrc:bonuses/cement_shoes","interpret":true},"\n",{"nbt":"value","storage":"ssbrc:bonuses/first_strike","interpret":true},"\n",{"nbt":"value","storage":"ssbrc:bonuses/stiff_knees","interpret":true}]}},{"text":" ]","color":"gold"}]

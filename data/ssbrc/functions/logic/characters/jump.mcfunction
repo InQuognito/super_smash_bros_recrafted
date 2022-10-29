@@ -11,4 +11,6 @@ execute if score @s[tag=mario] jumps matches 1.. if score $sectorZ map matches 1
 scoreboard players reset @s[tag=luigi] charge.1
 scoreboard players reset @s[tag=mario] charge.1
 
+scoreboard players reset @s cementShoes
+
 scoreboard players reset @s jumps

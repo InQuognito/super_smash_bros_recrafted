@@ -47,6 +47,4 @@ execute if score $gameMode options matches 2 store result bossbar minecraft:time
 scoreboard players set $gameStage temp 4
 scoreboard players reset $countdown timer
 
-scoreboard players set @a[predicate=ssbrc:flag/player] flag.sprinting 0
-
-tag @s remove characterPicked
+tag @a remove characterPicked
