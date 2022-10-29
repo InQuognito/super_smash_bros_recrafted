@@ -6,7 +6,6 @@ function ssbrc:series/the_legend_of_zelda/zelda/kit/items/passive_item
 
 loot replace entity @s hotbar.4 loot ssbrc:characters/the_legend_of_zelda/zelda/great_fairy_blessing
 loot replace entity @s hotbar.5 loot ssbrc:characters/the_legend_of_zelda/zelda/inventory_refresh
-loot replace entity @s hotbar.6 loot ssbrc:characters/the_legend_of_zelda/zelda/rupee_wallet
 
 function ssbrc:series/the_legend_of_zelda/zelda/logic/apply_passives
 
