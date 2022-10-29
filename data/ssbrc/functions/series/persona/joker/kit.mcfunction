@@ -1,4 +1,4 @@
-loot replace entity @s hotbar.0 loot ssbrc:characters/persona/joker/rebels_knife
+loot replace entity @s hotbar.0 loot ssbrc:characters/persona/joker/rebels_knife/default
 loot replace entity @s hotbar.1 loot ssbrc:characters/persona/joker/tt33
 
 function ssbrc:series/persona/joker/logic/masks/activate/arsene
