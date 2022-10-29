@@ -106,49 +106,7 @@ scoreboard objectives add 765o.tracking dummy
 scoreboard objectives add acrobat dummy
 scoreboard objectives add acrobat.tracking dummy
 scoreboard objectives add cementShoes dummy
-scoreboard objectives add cementShoes.tracking dummy
 scoreboard objectives add firstStrike dummy
 scoreboard objectives add stiffKnees dummy
-
-
-
-scoreboard objectives add aerialist dummy
-scoreboard objectives add aerialist.tracking dummy
-scoreboard objectives add allEars dummy
-scoreboard objectives add allEars.tracking dummy
-scoreboard objectives add archNemesis dummy
-scoreboard objectives add archNemesis.tracking dummy
-scoreboard objectives add armistice dummy
-scoreboard objectives add armistice.tracking dummy
-scoreboard objectives add bloodTransfusion dummy
-scoreboard objectives add bloodTransfusion.tracking dummy
-scoreboard objectives add callOfTheVoid dummy
-scoreboard objectives add callOfTheVoid.tracking dummy
-scoreboard objectives add corruption dummy
-scoreboard objectives add corruption.tracking dummy
-scoreboard objectives add craftingConnoisseur dummy
-scoreboard objectives add craftingConnoisseur.tracking dummy
-scoreboard objectives add crushingWeight dummy
-scoreboard objectives add crushingWeight.tracking dummy
-scoreboard objectives add dreamTeam dummy
-scoreboard objectives add dreamTeam.tracking dummy
-scoreboard objectives add eagleEye dummy
-scoreboard objectives add eagleEye.tracking dummy
-scoreboard objectives add eight dummy
-scoreboard objectives add eight.tracking dummy
-scoreboard objectives add fleshAndBlood dummy
-scoreboard objectives add fleshAndBlood.tracking dummy
-scoreboard objectives add foodie dummy
-scoreboard objectives add foodie.tracking dummy
-scoreboard objectives add fullHouse dummy
-scoreboard objectives add fullHouse.tracking dummy
-scoreboard objectives add fullPower dummy
-scoreboard objectives add fullPower.tracking dummy
-scoreboard objectives add goodFriend dummy
-scoreboard objectives add goodFriend.tracking dummy
-scoreboard objectives add heartgold dummy
-scoreboard objectives add heartgold.tracking dummy
-scoreboard objectives add homeFieldAdvantage dummy
-scoreboard objectives add homeFieldAdvantage.tracking dummy
 
 function ssbrc:logic/resets/scoreboards/stats

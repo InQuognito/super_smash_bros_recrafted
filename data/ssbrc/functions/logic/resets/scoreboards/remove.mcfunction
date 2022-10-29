@@ -106,47 +106,5 @@ scoreboard objectives remove 765o.tracking
 scoreboard objectives remove acrobat
 scoreboard objectives remove acrobat.tracking
 scoreboard objectives remove cementShoes
-scoreboard objectives remove cementShoes.tracking
 scoreboard objectives remove firstStrike
 scoreboard objectives remove stiffKnees
-
-
-
-scoreboard objectives remove aerialist
-scoreboard objectives remove aerialist.tracking
-scoreboard objectives remove allEars
-scoreboard objectives remove allEars.tracking
-scoreboard objectives remove archNemesis
-scoreboard objectives remove archNemesis.tracking
-scoreboard objectives remove armistice
-scoreboard objectives remove armistice.tracking
-scoreboard objectives remove bloodTransfusion
-scoreboard objectives remove bloodTransfusion.tracking
-scoreboard objectives remove callOfTheVoid
-scoreboard objectives remove callOfTheVoid.tracking
-scoreboard objectives remove corruption
-scoreboard objectives remove corruption.tracking
-scoreboard objectives remove craftingConnoisseur
-scoreboard objectives remove craftingConnoisseur.tracking
-scoreboard objectives remove crushingWeight
-scoreboard objectives remove crushingWeight.tracking
-scoreboard objectives remove dreamTeam
-scoreboard objectives remove dreamTeam.tracking
-scoreboard objectives remove eagleEye
-scoreboard objectives remove eagleEye.tracking
-scoreboard objectives remove eight
-scoreboard objectives remove eight.tracking
-scoreboard objectives remove fleshAndBlood
-scoreboard objectives remove fleshAndBlood.tracking
-scoreboard objectives remove foodie
-scoreboard objectives remove foodie.tracking
-scoreboard objectives remove fullHouse
-scoreboard objectives remove fullHouse.tracking
-scoreboard objectives remove fullPower
-scoreboard objectives remove fullPower.tracking
-scoreboard objectives remove goodFriend
-scoreboard objectives remove goodFriend.tracking
-scoreboard objectives remove heartgold
-scoreboard objectives remove heartgold.tracking
-scoreboard objectives remove homeFieldAdvantage
-scoreboard objectives remove homeFieldAdvantage.tracking
