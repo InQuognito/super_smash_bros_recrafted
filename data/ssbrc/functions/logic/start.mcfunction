@@ -1,3 +1,5 @@
+tag @a[predicate=ssbrc:ingame] remove characterPicked
+
 title @a[predicate=ssbrc:ingame] title {"text":"GO!","color":"dark_green"}
 
 team modify team1 nametagVisibility never
@@ -46,5 +48,3 @@ execute if score $gameMode options matches 2 store result bossbar minecraft:time
 
 scoreboard players set $gameStage temp 4
 scoreboard players reset $countdown timer
-
-tag @a remove characterPicked
