@@ -1,4 +1,4 @@
-tag @a[predicate=ssbrc:ingame] remove characterPicked
+tag @a[predicate=!ssbrc:ingame] remove characterPicked
 
 title @a[predicate=ssbrc:ingame] title {"text":"GO!","color":"dark_green"}
 
