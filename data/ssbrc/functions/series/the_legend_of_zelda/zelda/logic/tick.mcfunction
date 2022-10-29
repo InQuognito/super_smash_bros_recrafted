@@ -39,4 +39,4 @@ effect give @s[nbt={Inventory:[{tag:{ringOfRisk:1}}]},scores={health=..10}] mine
 execute at @s[nbt={Inventory:[{tag:{torchOfWisdom:1}}]}] run effect give @e[predicate=ssbrc:flag/targets,distance=..10] minecraft:glowing 1 255 true
 
 # Great Fairy Blessings
-execute if score @s duration.1 matches 1 run function ssbrc:series/the_legend_of_zelda/zelda/logic/abilities/great_fairy_blessings/reset
+execute if score @s duration.1 matches 1 run function ssbrc:series/the_legend_of_zelda/zelda/logic/abilities/great_fairy_blessing/blessings/reset
