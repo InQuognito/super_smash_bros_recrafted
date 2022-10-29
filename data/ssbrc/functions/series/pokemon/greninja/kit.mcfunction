@@ -5,3 +5,4 @@ execute if entity @s[tag=naturalShiny] run function ssbrc:series/pokemon/natural
 function ssbrc:logic/characters/natures/select
 
 loot replace entity @s hotbar.0 loot ssbrc:characters/pokemon/greninja/night_slash/default
+execute if predicate ssbrc:random_chance/15 run loot replace entity @s hotbar.0 loot ssbrc:characters/pokemon/greninja/night_slash/critical
