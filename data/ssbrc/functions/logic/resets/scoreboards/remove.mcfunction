@@ -105,6 +105,13 @@ scoreboard objectives remove 765o
 scoreboard objectives remove 765o.tracking
 scoreboard objectives remove acrobat
 scoreboard objectives remove acrobat.tracking
+scoreboard objectives remove cementShoes
+scoreboard objectives remove cementShoes.tracking
+scoreboard objectives remove firstStrike
+scoreboard objectives remove stiffKnees
+
+
+
 scoreboard objectives remove aerialist
 scoreboard objectives remove aerialist.tracking
 scoreboard objectives remove allEars
@@ -117,8 +124,6 @@ scoreboard objectives remove bloodTransfusion
 scoreboard objectives remove bloodTransfusion.tracking
 scoreboard objectives remove callOfTheVoid
 scoreboard objectives remove callOfTheVoid.tracking
-scoreboard objectives remove cementShoes
-scoreboard objectives remove cementShoes.tracking
 scoreboard objectives remove corruption
 scoreboard objectives remove corruption.tracking
 scoreboard objectives remove craftingConnoisseur
@@ -131,7 +136,6 @@ scoreboard objectives remove eagleEye
 scoreboard objectives remove eagleEye.tracking
 scoreboard objectives remove eight
 scoreboard objectives remove eight.tracking
-scoreboard objectives remove firstStrike
 scoreboard objectives remove fleshAndBlood
 scoreboard objectives remove fleshAndBlood.tracking
 scoreboard objectives remove foodie

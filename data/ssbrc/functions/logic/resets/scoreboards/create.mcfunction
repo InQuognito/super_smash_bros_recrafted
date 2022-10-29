@@ -105,6 +105,13 @@ scoreboard objectives add 765o dummy
 scoreboard objectives add 765o.tracking dummy
 scoreboard objectives add acrobat dummy
 scoreboard objectives add acrobat.tracking dummy
+scoreboard objectives add cementShoes dummy
+scoreboard objectives add cementShoes.tracking dummy
+scoreboard objectives add firstStrike dummy
+scoreboard objectives add stiffKnees dummy
+
+
+
 scoreboard objectives add aerialist dummy
 scoreboard objectives add aerialist.tracking dummy
 scoreboard objectives add allEars dummy
@@ -117,8 +124,6 @@ scoreboard objectives add bloodTransfusion dummy
 scoreboard objectives add bloodTransfusion.tracking dummy
 scoreboard objectives add callOfTheVoid dummy
 scoreboard objectives add callOfTheVoid.tracking dummy
-scoreboard objectives add cementShoes dummy
-scoreboard objectives add cementShoes.tracking dummy
 scoreboard objectives add corruption dummy
 scoreboard objectives add corruption.tracking dummy
 scoreboard objectives add craftingConnoisseur dummy
@@ -131,7 +136,6 @@ scoreboard objectives add eagleEye dummy
 scoreboard objectives add eagleEye.tracking dummy
 scoreboard objectives add eight dummy
 scoreboard objectives add eight.tracking dummy
-scoreboard objectives add firstStrike dummy
 scoreboard objectives add fleshAndBlood dummy
 scoreboard objectives add fleshAndBlood.tracking dummy
 scoreboard objectives add foodie dummy
