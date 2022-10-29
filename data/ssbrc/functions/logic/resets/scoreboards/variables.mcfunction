@@ -143,6 +143,9 @@ scoreboard players operation value.bonus.firstStrike vars /= 2 integers
 scoreboard players operation value.bonus.fullPower vars = value.victory vars
 scoreboard players operation value.bonus.fullPower vars *= 3 integers
 
+scoreboard players operation value.bonus.heartgold vars = value.participation vars
+scoreboard players operation value.bonus.heartgold vars *= 1 integers
+
 scoreboard players operation value.bonus.heavyDamage vars = value.participation vars
 scoreboard players operation value.bonus.heavyDamage vars *= 1 integers
 
