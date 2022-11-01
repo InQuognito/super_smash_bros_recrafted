@@ -26,6 +26,7 @@ execute if score @s duration.1 matches 1 run function ssbrc:series/persona/joker
 
 # Rebel's Guard
 execute if entity @s[tag=!rebelsGuard,predicate=ssbrc:flag/sneaking] run function ssbrc:series/persona/joker/logic/abilities/rebels_guard/activate
+execute if entity @s[tag=rebelsGuard,predicate=!ssbrc:flag/sneaking] run function ssbrc:series/persona/joker/logic/abilities/rebels_guard/deactivate
 
 # Final Guard
 execute if score @s[tag=!abilityUsed] health <= #joker.finalGuardThreshold vars run function ssbrc:series/persona/joker/logic/final_guard/on
