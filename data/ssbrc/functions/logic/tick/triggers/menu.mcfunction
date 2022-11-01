@@ -277,3 +277,5 @@ execute if score @s[tag=!yar] menu matches 1965 run function ssbrc:series/retro_
 
 scoreboard players reset @s menu
 scoreboard players enable @s menu
+scoreboard players reset @s characterTrigger
+scoreboard players enable @s characterTrigger
