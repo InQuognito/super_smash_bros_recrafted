@@ -1,6 +1,7 @@
 scoreboard objectives remove animation
 scoreboard objectives remove bowser.fireBreath
 scoreboard objectives remove bowser.fireBreath.target
+scoreboard objectives remove characterTrigger
 scoreboard objectives remove characterPicked
 scoreboard objectives remove charge.1
 scoreboard objectives remove charge.2

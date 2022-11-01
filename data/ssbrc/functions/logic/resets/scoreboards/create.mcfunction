@@ -1,6 +1,7 @@
 scoreboard objectives add animation dummy
 scoreboard objectives add bowser.fireBreath dummy
 scoreboard objectives add bowser.fireBreath.target dummy
+scoreboard objectives add characterTrigger trigger
 scoreboard objectives add characterPicked dummy
 scoreboard objectives add charge.1 dummy
 scoreboard objectives add charge.2 dummy
