@@ -107,7 +107,7 @@ execute if score $greenHillZone map matches 1 if score result_music random match
 execute if score $hyruleCastle map matches 1 if score result_music random matches 0 run playsound ssbrc:ballad_of_the_goddess_intro music @s
 execute if score $hyruleCastle map matches 1 if score result_music random matches 0 run tellraw @s [{"text":"Now Playing: ","bold":true,"color":"gold"},{"text":"Ballad of the Goddess","color":"yellow"}]
 execute if score $hyruleCastle map matches 1 if score result_music random matches 0 run schedule function ssbrc:logic/music/loop_schedule 500t replace
-execute if score $hyruleCastle map matches 1 if score result_music random matches 1 run playsound ssbrc:hyrule_castle_intro music @s
+execute if score $hyruleCastle map matches 1 if score result_music random matches 1 run playsound ssbrc:hyrule_castle_theme_intro music @s
 execute if score $hyruleCastle map matches 1 if score result_music random matches 1 run tellraw @s [{"text":"Now Playing: ","bold":true,"color":"gold"},{"text":"Hyrule Castle Theme","color":"yellow"}]
 execute if score $hyruleCastle map matches 1 if score result_music random matches 1 run schedule function ssbrc:logic/music/loop_schedule 1720t replace
 
