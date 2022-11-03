@@ -1,7 +1,4 @@
-tag @s remove gatlingGun
-tag @s remove omnishot
-tag @s remove railgun
-tag @s remove tripleShot
+function ssbrc:series/retro_fighters/yar/logic/abilities/power_ups/reset_tags
 
 loot replace entity @s hotbar.1 loot ssbrc:characters/retro_fighters/yar/ray_blaster/default
 
