@@ -1,4 +1,4 @@
-effect give @s minecraft:poison 1 2 true
+effect give @s minecraft:poison 1 1 true
 
 summon minecraft:marker ~ ~0.75 ~ {Tags:["leechSeed.healingOrb","projectile"]}
 
