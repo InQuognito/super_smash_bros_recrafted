@@ -67,10 +67,7 @@ execute if score $sandOcean map matches 1 if score $hazards options matches 1 if
 scoreboard players add @s[scores={frostbite=1..}] frostbiteTimer 1
 execute if score @s frostbiteTimer >= #frostbiteTimer vars run function ssbrc:logic/characters/attributes/modifiers/frostbite/decrease
 
-scoreboard players operation #leechSeed temp = @s[tag=leechSeed] leechSeedTimer
-scoreboard players operation #leechSeed temp %= 20 integers
-execute if score #leechSeed temp matches 0 run function ssbrc:series/pokemon/pokemontrainer/logic/ivysaur/leech_seed/summon_healing_orb
-execute if score @s leechSeedTimer matches 1 run function ssbrc:series/pokemon/pokemontrainer/logic/ivysaur/leech_seed/reset
+execute if entity @s[tag=leechSeed] run function ssbrc:series/pokemon/pokemontrainer/logic/ivysaur/leech_seed/calculate
 
 scoreboard players reset @s[scores={stiffKnees=1..},predicate=ssbrc:flag/sneaking] stiffKnees
 scoreboard players reset @s[scores={tortoise=1..},predicate=ssbrc:flag/sprinting] tortoise
