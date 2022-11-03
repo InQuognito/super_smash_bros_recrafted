@@ -5,7 +5,7 @@ scoreboard players set @s cementShoes 1
 execute store result score #goldSkins temp if entity @a[predicate=ssbrc:flag/player,tag=gold]
 execute if score #goldSkins temp = $playersAlive temp run scoreboard players set @s heartgold 1
 
-scoreboard players set @s noJohns 1
+execute unless score $stockLimit options matches 1 run scoreboard players set @s noJohns 1
 
 scoreboard players set @s stiffKnees 1
 
