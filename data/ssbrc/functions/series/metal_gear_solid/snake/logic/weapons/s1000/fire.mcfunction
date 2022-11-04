@@ -1,8 +1,11 @@
-function ssbrc:series/metal_gear_solid/snake/logic/weapons/s1000/bullet
-function ssbrc:series/metal_gear_solid/snake/logic/weapons/s1000/bullet
-function ssbrc:series/metal_gear_solid/snake/logic/weapons/s1000/bullet
-function ssbrc:series/metal_gear_solid/snake/logic/weapons/s1000/bullet
-function ssbrc:series/metal_gear_solid/snake/logic/weapons/s1000/bullet
+function ssbrc:series/metal_gear_solid/snake/logic/weapons/s1000/projectile_rotation
+function ssbrc:series/metal_gear_solid/snake/logic/weapons/s1000/projectile_rotation
+function ssbrc:series/metal_gear_solid/snake/logic/weapons/s1000/projectile_rotation
+function ssbrc:series/metal_gear_solid/snake/logic/weapons/s1000/projectile_rotation
+function ssbrc:series/metal_gear_solid/snake/logic/weapons/s1000/projectile_rotation
+function ssbrc:series/metal_gear_solid/snake/logic/weapons/s1000/projectile_rotation
+function ssbrc:series/metal_gear_solid/snake/logic/weapons/s1000/projectile_rotation
+function ssbrc:series/metal_gear_solid/snake/logic/weapons/s1000/projectile_rotation
 
 execute at @s run playsound ssbrc:shotgun_fire player @a
 
