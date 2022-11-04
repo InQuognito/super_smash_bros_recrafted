@@ -69,5 +69,7 @@ execute if score @s frostbiteTimer >= #frostbiteTimer vars run function ssbrc:lo
 
 execute if entity @s[tag=leechSeed] run function ssbrc:series/pokemon/pokemontrainer/logic/ivysaur/leech_seed/calculate
 
+execute if entity @e[type=minecraft:marker,tag=electricTerrain,distance=..12] if block ~ ~ ~ minecraft:water run tag @s add damage.electrocution
+
 scoreboard players reset @s[scores={stiffKnees=1..},predicate=ssbrc:flag/sneaking] stiffKnees
 scoreboard players reset @s[scores={tortoise=1..},predicate=ssbrc:flag/sprinting] tortoise

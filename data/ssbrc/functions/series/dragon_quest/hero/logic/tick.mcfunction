@@ -10,7 +10,7 @@ tag @s remove self
 function ssbrc:series/dragon_quest/hero/logic/mana/update
 
 # Kaclang
-execute if score @s duration.2 matches 1.. run function ssbrc:logic/characters/effects/cleanse_harmful
+execute if score @s duration.2 matches 1.. at @s run function ssbrc:series/dragon_quest/hero/logic/magic/kaclang/tick
 execute if entity @s[predicate=ssbrc:characters/hero/kaclang/off] run function ssbrc:series/dragon_quest/hero/logic/magic/kaclang/deactivate
 
 # Magic Burst

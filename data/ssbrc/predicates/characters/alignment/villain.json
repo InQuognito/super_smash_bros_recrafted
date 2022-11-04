@@ -49,7 +49,7 @@
 		},
 		{
 			"condition": "minecraft:reference",
-			"name": "ssbrc:characters/alignment/ryu_villain"
+			"name": "ssbrc:characters/ryu/satsui_no_hado/on"
 		},
 		{
 			"condition": "minecraft:reference",

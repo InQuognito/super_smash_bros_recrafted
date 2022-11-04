@@ -10,4 +10,5 @@ scoreboard players set @e[tag=projectile] slope 0
 tag @e[tag=projectile,limit=1] remove projectile
 
 scoreboard players add @s cooldown.1 20
+execute if entity @e[type=minecraft:marker,tag=electricTerrain,distance=..12] run scoreboard players operation @s cooldown.1 /= 2 integers
 execute if score @s shadow.chaosControl matches 1.. run function ssbrc:logic/characters/cooldown_modifiers/chaos_control/1
