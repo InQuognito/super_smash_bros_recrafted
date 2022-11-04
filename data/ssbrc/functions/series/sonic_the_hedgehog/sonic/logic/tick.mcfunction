@@ -4,4 +4,8 @@ scoreboard players remove @s[scores={flag.sprinting=1..},predicate=!ssbrc:flag/s
 execute unless score @s[scores={flag.sprinting=..79},predicate=ssbrc:flag/sprinting] shadow.chaosControl matches 1.. run scoreboard players add @s flag.sprinting 1
 execute at @s if entity @e[type=minecraft:marker,tag=electricTerrain,distance=..12] run scoreboard players set @s flag.sprinting 80
 
+execute at @s[scores={flag.sprinting=80..}] unless block ~ ~-0.1 ~ minecraft:air positioned ~ ~0.1 ~ run particle minecraft:smoke ^-0.25 ^ ^ 0.0 0.0 0.0 0.0 0 normal @a
+execute at @s[scores={flag.sprinting=80..}] unless block ~ ~-0.1 ~ minecraft:air positioned ~ ~0.1 ~ run particle minecraft:smoke ^0.25 ^ ^ 0.0 0.0 0.0 0.0 0 normal @a
+execute at @s[scores={flag.sprinting=80..}] unless block ~ ~-0.1 ~ minecraft:air positioned ~ ~0.1 ~ run particle minecraft:campfire_cosy_smoke ^ ^ ^ 0.0 0.0 0.0 0.0 0 normal @a
+
 function ssbrc:series/sonic_the_hedgehog/sonic/logic/speed
