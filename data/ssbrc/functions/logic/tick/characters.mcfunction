@@ -57,7 +57,7 @@ execute if entity @s[scores={flag.damageTaken=1..}] run function ssbrc:logic/cha
 execute at @s[scores={fallDistance=1..}] run function ssbrc:logic/characters/shockwave/check
 execute at @s[scores={jumps=1..}] run function ssbrc:logic/characters/jump
 
-execute as @e[predicate=ssbrc:flag/targets,tag=damage.electrocution] at @s run function ssbrc:series/retro_fighters/alteredbeast/logic/abilities/electrocution/damage
+execute at @s if entity @e[type=minecraft:marker,tag=electricTerrain,distance=..12] if block ~ ~ ~ minecraft:water run tag @s add damage.electrocution
 
 execute if entity @s[predicate=ssbrc:characters/enchantments/infinity] run item replace entity @s hotbar.8 with minecraft:spectral_arrow 1
 
@@ -70,8 +70,6 @@ scoreboard players add @s[scores={frostbite=1..}] frostbiteTimer 1
 execute if score @s frostbiteTimer >= #frostbiteTimer vars run function ssbrc:logic/characters/attributes/modifiers/frostbite/decrease
 
 execute if entity @s[tag=leechSeed] run function ssbrc:series/pokemon/pokemontrainer/logic/ivysaur/leech_seed/calculate
-
-execute if entity @e[type=minecraft:marker,tag=electricTerrain,distance=..12] if block ~ ~ ~ minecraft:water run tag @s add damage.electrocution
 
 scoreboard players reset @s[scores={stiffKnees=1..},predicate=ssbrc:flag/sneaking] stiffKnees
 scoreboard players reset @s[scores={tortoise=1..},predicate=ssbrc:flag/sprinting] tortoise

@@ -18,4 +18,5 @@ execute if entity @a[tag=link] run function ssbrc:logic/tick/damage/the_legend_o
 execute if entity @a[tag=yar] run function ssbrc:logic/tick/damage/retro_fighters/yar
 execute if entity @a[tag=zelda] run function ssbrc:logic/tick/damage/the_legend_of_zelda/zelda
 
-execute as @a[predicate=ssbrc:characters/damage.shockwave] at @s run function ssbrc:logic/characters/shockwave/damage
+execute as @e[predicate=ssbrc:flag/targets,predicate=ssbrc:characters/damage.shockwave] at @s run function ssbrc:logic/characters/shockwave/damage
+execute as @e[predicate=ssbrc:flag/targets,tag=damage.electrocution] at @s run function ssbrc:logic/characters/electrocution/damage
