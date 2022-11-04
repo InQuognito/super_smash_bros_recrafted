@@ -57,6 +57,8 @@ execute if entity @s[scores={flag.damageTaken=1..}] run function ssbrc:logic/cha
 execute at @s[scores={fallDistance=1..}] run function ssbrc:logic/characters/shockwave/check
 execute at @s[scores={jumps=1..}] run function ssbrc:logic/characters/jump
 
+execute as @e[predicate=ssbrc:flag/targets,tag=damage.electrocution] at @s run function ssbrc:series/retro_fighters/alteredbeast/logic/abilities/electrocution/damage
+
 execute if entity @s[predicate=ssbrc:characters/enchantments/infinity] run item replace entity @s hotbar.8 with minecraft:spectral_arrow 1
 
 function ssbrc:logic/tick/assign_teams
