@@ -9,8 +9,5 @@
 				}
 			}
 		}
-	},
-	"rewards": {
-		"function": "ssbrc:logic/characters/flags/hurt_player/condition/blocked"
 	}
 }

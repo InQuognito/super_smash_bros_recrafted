@@ -154,6 +154,9 @@ scoreboard players set value.bonus.luckyNumberSeven vars 77
 scoreboard players operation value.bonus.noJohns vars = value.participation vars
 scoreboard players operation value.bonus.noJohns vars *= 1 integers
 
+scoreboard players operation value.bonus.shieldBreaker vars = value.participation vars
+scoreboard players operation value.bonus.shieldBreaker vars *= 1 integers
+
 scoreboard players set value.bonus.shinyEncounter vars 2048
 
 scoreboard players operation value.bonus.stiffKnees vars = value.participation vars
