@@ -1,4 +1,4 @@
-execute if entity @s[scores={useAbility=1..,cooldown.1=..0},nbt={SelectedItem:{tag:{hyperVoice:1}}}] at @s run function ssbrc:series/pokemon/jigglypuff/logic/abilities/hyper_voice/activate
+execute if entity @s[scores={useAbility=1..,cooldown.1=..0},nbt={SelectedItem:{tag:{hyperVoice:1}}}] at @s anchored eyes run function ssbrc:series/pokemon/jigglypuff/logic/abilities/hyper_voice/activate
 execute if entity @s[scores={useAbility=1..,charge.1=..0},nbt={SelectedItem:{tag:{rest:1}}}] at @s run function ssbrc:series/pokemon/jigglypuff/logic/abilities/rest/activate
 
 tag @s add self
