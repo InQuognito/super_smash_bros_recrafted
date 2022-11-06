@@ -74,6 +74,6 @@ execute if entity @s[tag=leechSeed] run function ssbrc:series/pokemon/pokemontra
 scoreboard players reset @s[scores={stiffKnees=1..},predicate=ssbrc:flag/sneaking] stiffKnees
 scoreboard players reset @s[scores={tortoise=1..},predicate=ssbrc:flag/sprinting] tortoise
 
-execute if entity @s[advancements={ssbrc:flag/hurt_player/condition/blocked=true}] if entity @a[scores={flag.breakShield=1..}] run scoreboard players add @s shieldBreaker 1
+execute if entity @s[advancements={ssbrc:utility/flag/hurt_player/condition/blocked=true}] if entity @a[scores={flag.breakShield=1..}] run scoreboard players add @s shieldBreaker 1
 advancement revoke @s only ssbrc:utility/flag/hurt_player/condition/blocked
 scoreboard players reset @a flag.breakShield
