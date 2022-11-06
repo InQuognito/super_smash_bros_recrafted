@@ -32,6 +32,7 @@ scoreboard objectives add favorite.slot1 dummy
 scoreboard objectives add favorite.slot2 dummy
 scoreboard objectives add favorite.slot3 dummy
 scoreboard objectives add favorite.temp dummy
+scoreboard objectives add flag.breakShield minecraft.broken:minecraft.shield
 scoreboard objectives add flag.damageDealt minecraft.custom:minecraft.damage_dealt
 scoreboard objectives add flag.damageTaken minecraft.custom:minecraft.damage_taken
 scoreboard objectives add flag.dead deathCount
@@ -118,6 +119,7 @@ scoreboard objectives add heartgold dummy
 scoreboard objectives add heavyDamage dummy
 scoreboard objectives add luckyNumberSeven dummy
 scoreboard objectives add noJohns dummy
+scoreboard objectives add shieldBreaker dummy
 scoreboard objectives add shinyEncounter dummy
 scoreboard objectives add stiffKnees dummy
 scoreboard objectives add switzerland dummy

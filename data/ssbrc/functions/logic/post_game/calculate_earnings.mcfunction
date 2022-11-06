@@ -89,6 +89,11 @@ scoreboard players operation value 765o *= value.bonus.765o vars
 execute if score @s 765o matches 1.. run data modify storage ssbrc:bonuses value append value '[{"score":{"name":"@s","objective":"765o"},"bold":true,"color":"yellow"},{"text":"x ","bold":true,"color":"yellow"},{"text":"765o","bold":true,"color":"gold"},{"text":" - ","bold":false,"color":"white"},{"score":{"name":"value","objective":"765o"},"bold":false,"color":"yellow"},{"text":"₡","bold":false,"color":"yellow"}]}}]'
 scoreboard players operation @s currency.temp += value 765o
 
+scoreboard players operation value shieldBreaker = @s shieldBreaker
+scoreboard players operation value shieldBreaker *= value.bonus.shieldBreaker vars
+execute if score @s shieldBreaker matches 1.. run data modify storage ssbrc:bonuses value append value '[{"score":{"name":"@s","objective":"shieldBreaker"},"bold":true,"color":"yellow"},{"text":"x ","bold":true,"color":"yellow"},{"text":"Shield Breaker","bold":true,"color":"gold"},{"text":" - ","bold":false,"color":"white"},{"score":{"name":"value","objective":"shieldBreaker"},"bold":false,"color":"yellow"},{"text":"₡","bold":false,"color":"yellow"}]}}]'
+scoreboard players operation @s currency.temp += value shieldBreaker
+
 scoreboard players operation value shinyEncounter = @s shinyEncounter
 scoreboard players operation value shinyEncounter *= value.bonus.shinyEncounter vars
 execute if score @s shinyEncounter matches 1.. run data modify storage ssbrc:bonuses value append value '[{"score":{"name":"@s","objective":"shinyEncounter"},"bold":true,"color":"yellow"},{"text":"x ","bold":true,"color":"yellow"},{"text":"Shiny Encounter","bold":true,"color":"gold"},{"text":" - ","bold":false,"color":"white"},{"score":{"name":"value","objective":"shinyEncounter"},"bold":false,"color":"yellow"},{"text":"₡","bold":false,"color":"yellow"}]}}]'

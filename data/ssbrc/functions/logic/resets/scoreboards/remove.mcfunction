@@ -32,6 +32,7 @@ scoreboard objectives remove fallDistance
 #scoreboard objectives remove favorite.slot2
 #scoreboard objectives remove favorite.slot3
 scoreboard objectives remove favorite.temp
+scoreboard objectives remove flag.breakShield
 scoreboard objectives remove flag.damageDealt
 scoreboard objectives remove flag.damageTaken
 scoreboard objectives remove flag.dead
@@ -118,6 +119,7 @@ scoreboard objectives remove heartgold
 scoreboard objectives remove heavyDamage
 scoreboard objectives remove luckyNumberSeven
 scoreboard objectives remove noJohns
+scoreboard objectives remove shieldBreaker
 scoreboard objectives remove shinyEncounter
 scoreboard objectives remove stiffKnees
 scoreboard objectives remove switzerland
