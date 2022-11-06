@@ -6,7 +6,7 @@ execute as @e[type=minecraft:area_effect_cloud,tag=hyperVoice] at @s if score @s
 tag @s remove self
 
 # Rest
-execute if entity @s[scores={charge.1=1..}] run function ssbrc:series/pokemon/jigglypuff/logic/abilities/rest/tick
+execute if entity @s[tag=rest] run function ssbrc:series/pokemon/jigglypuff/logic/abilities/rest/tick
 
 # Hot Air
 execute if entity @s[predicate=ssbrc:flag/sneaking,predicate=ssbrc:flag/effects/slow_falling,scores={cooldown.1=..0}] unless score $sectorZ map matches 1 run function ssbrc:series/pokemon/jigglypuff/logic/abilities/hot_air/off
