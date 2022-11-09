@@ -124,14 +124,14 @@ summon minecraft:armor_stand 80.5 6.0 124.5 {Tags:["lobbyStand","yar","default"]
 summon minecraft:area_effect_cloud 35.5 6.25 152.5 {Tags:["lobbyStand.label"],CustomName:'{"text":"Spectate","color":"white"}',CustomNameVisible:1b,Age:-2147483648,Duration:-1,WaitTime:-2147483648}
 summon minecraft:area_effect_cloud 72.5 6.25 115.5 {Tags:["lobbyStand.label"],CustomName:'{"text":"Spectate","color":"white"}',CustomNameVisible:1b,Age:-2147483648,Duration:-1,WaitTime:-2147483648}
 
-execute as @e[tag=lobbyStand] run data merge entity @s {Invisible:1b,Invulnerable:1b,NoBasePlate:1b,NoGravity:1b,DisabledSlots:4144959}
+execute as @e[predicate=ssbrc:lobby_stands] run data merge entity @s {Invisible:1b,Invulnerable:1b,NoBasePlate:1b,NoGravity:1b,DisabledSlots:4144959}
 
-scoreboard players set @e[tag=lobbyStand] duration.1 1
-scoreboard players set @e[tag=lobbyStand] duration.2 1
-scoreboard players set @e[tag=lobbyStand] duration.3 1
-scoreboard players set @e[tag=lobbyStand,tag=rob] charge.1 200
-execute as @e[tag=lobbyStand] run function ssbrc:logic/characters/armor/get
-scoreboard players reset @e[tag=lobbyStand,tag=rob] charge.1
-scoreboard players reset @e[tag=lobbyStand] duration.1
-scoreboard players reset @e[tag=lobbyStand] duration.2
-scoreboard players reset @e[tag=lobbyStand] duration.3
+scoreboard players set @e[predicate=ssbrc:lobby_stands] duration.1 1
+scoreboard players set @e[predicate=ssbrc:lobby_stands] duration.2 1
+scoreboard players set @e[predicate=ssbrc:lobby_stands] duration.3 1
+scoreboard players set @e[predicate=ssbrc:lobby_stands,tag=rob] charge.1 200
+execute as @e[predicate=ssbrc:lobby_stands] run function ssbrc:logic/characters/armor/get
+scoreboard players reset @e[predicate=ssbrc:lobby_stands,tag=rob] charge.1
+scoreboard players reset @e[predicate=ssbrc:lobby_stands] duration.1
+scoreboard players reset @e[predicate=ssbrc:lobby_stands] duration.2
+scoreboard players reset @e[predicate=ssbrc:lobby_stands] duration.3

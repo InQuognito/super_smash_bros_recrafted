@@ -48,3 +48,6 @@ execute if score $gameMode options matches 2 store result bossbar minecraft:time
 
 scoreboard players set $gameStage temp 4
 scoreboard players reset $countdown timer
+
+kill @e[type=minecraft:armor_stand,tag=lobbyStand]
+kill @e[type=minecraft:area_effect_cloud,tag=lobbyStand.label]
