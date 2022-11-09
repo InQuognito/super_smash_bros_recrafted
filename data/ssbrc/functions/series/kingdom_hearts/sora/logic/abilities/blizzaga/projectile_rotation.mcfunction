@@ -1,7 +1,6 @@
 tag @s add self
 
 summon minecraft:marker ~ ~ ~ {Tags:["offset"]}
-particle dust 1.0 1.0 1.0 1.0 ~ ~ ~ ~ ~ ~ 1 1 normal @a
 data modify storage ssbrc:data Temp.Rotation set from entity @s Rotation
 
 function ssbrc:series/kingdom_hearts/sora/logic/abilities/blizzaga/offset
