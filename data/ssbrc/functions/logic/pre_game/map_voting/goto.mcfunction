@@ -1,3 +1,6 @@
+kill @e[type=minecraft:armor_stand,tag=lobbyStand]
+kill @e[type=minecraft:area_effect_cloud,tag=lobbyStand.label]
+
 clear @s
 
 scoreboard players reset @s useAbility
