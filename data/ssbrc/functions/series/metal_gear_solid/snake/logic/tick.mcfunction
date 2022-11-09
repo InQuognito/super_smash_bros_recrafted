@@ -1,9 +1,9 @@
 # Weapons
-execute if entity @s[scores={useAbility=1..},nbt={SelectedItem:{tag:{psg1:1}}}] unless score @s loadout.psg1R matches 1.. at @s anchored eyes run function ssbrc:series/metal_gear_solid/snake/logic/weapons/psg1/check
-execute if entity @s[scores={useAbility=1..},nbt={SelectedItem:{tag:{famas:1}}}] unless score @s loadout.famasR matches 1.. at @s anchored eyes run function ssbrc:series/metal_gear_solid/snake/logic/weapons/famas/check
-execute if entity @s[scores={useAbility=1..},nbt={SelectedItem:{tag:{s1000:1}}}] unless score @s loadout.s1000R matches 1.. at @s anchored eyes run function ssbrc:series/metal_gear_solid/snake/logic/weapons/s1000/check
-execute if entity @s[scores={useAbility=1..},nbt={SelectedItem:{tag:{socom:1}}}] unless score @s loadout.socomR matches 1.. at @s anchored eyes run function ssbrc:series/metal_gear_solid/snake/logic/weapons/socom/check
-execute if entity @s[scores={useAbility=1..},nbt={SelectedItem:{tag:{smokeGrenade:1}}}] unless score @s loadout.smokeGrenadeF matches 1.. at @s anchored eyes run function ssbrc:series/metal_gear_solid/snake/logic/weapons/smoke_grenade/check
+execute if entity @s[scores={useAbility=1..},nbt={SelectedItem:{tag:{psg1:1}}}] unless score @s loadout.psg1R matches 1.. run function ssbrc:series/metal_gear_solid/snake/logic/weapons/psg1/check
+execute if entity @s[scores={useAbility=1..},nbt={SelectedItem:{tag:{famas:1}}}] unless score @s loadout.famasR matches 1.. run function ssbrc:series/metal_gear_solid/snake/logic/weapons/famas/check
+execute if entity @s[scores={useAbility=1..},nbt={SelectedItem:{tag:{s1000:1}}}] unless score @s loadout.s1000R matches 1.. run function ssbrc:series/metal_gear_solid/snake/logic/weapons/s1000/check
+execute if entity @s[scores={useAbility=1..},nbt={SelectedItem:{tag:{socom:1}}}] unless score @s loadout.socomR matches 1.. run function ssbrc:series/metal_gear_solid/snake/logic/weapons/socom/check
+execute if entity @s[scores={useAbility=1..},nbt={SelectedItem:{tag:{smokeGrenade:1}}}] unless score @s loadout.smokeGrenadeF matches 1.. run function ssbrc:series/metal_gear_solid/snake/logic/weapons/smoke_grenade/check
 
 tag @s add self
 execute as @e[tag=bullet] at @s if score @s id = @p[tag=self] id run function ssbrc:series/metal_gear_solid/snake/logic/bullets
