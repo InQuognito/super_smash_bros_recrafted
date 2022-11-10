@@ -7,6 +7,7 @@ tellraw @s[tag=gold] [{"text":"Skin: ","color":"white"},{"text":"Gold","color":"
 
 tag @s add snake
 
+tag @s remove ignoreFeedback
 tag @s remove selectingLoadout
 tag @s add characterPicked
 
