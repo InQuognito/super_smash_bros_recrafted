@@ -7,9 +7,9 @@ data modify entity @e[tag=projectile,limit=1] Owner set from entity @s UUID
 
 tag @e[tag=projectile,limit=1] remove projectile
 
-scoreboard players set @s duration.1 30
+scoreboard players set @s duration.3 30
 effect give @p minecraft:levitation 1000000 255 true
 
-scoreboard players set @s charge.1 0
+scoreboard players set @s charge.3 0
 
 function ssbrc:logic/characters/flags/use_recovery
