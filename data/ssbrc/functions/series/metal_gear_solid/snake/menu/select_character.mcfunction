@@ -1,3 +1,4 @@
+say select character
 tag @s[tag=!gold] add default
 
 tellraw @s [{"text":"You have selected ","color":"white"},{"text":"Snake","color":"gray"},{"text":"!","color":"white"}]
@@ -15,5 +16,3 @@ execute if score $teams options matches 0 run team join ready @s
 effect clear @s minecraft:glowing
 
 function ssbrc:logic/pre_game/character_select/check_participation
-
-say select character

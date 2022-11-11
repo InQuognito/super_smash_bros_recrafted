@@ -1,3 +1,4 @@
+say remove all character tags
 function ssbrc:logic/resets/tags/characters/castlevania/alucard
 function ssbrc:logic/resets/tags/characters/donkey_kong/donkeykong
 function ssbrc:logic/resets/tags/characters/donkey_kong/kingkrool
@@ -44,5 +45,3 @@ tag @s remove naturalShiny
 tag @s remove nextFighterChosen
 tag @s remove pickingRandom
 tag @s remove selectingLoadout
-
-say remove all character tags
