@@ -1,4 +1,3 @@
-say prompt loadout
 function ssbrc:logic/resets/tags/characters
 
 scoreboard players set @s snake.capacity 0
