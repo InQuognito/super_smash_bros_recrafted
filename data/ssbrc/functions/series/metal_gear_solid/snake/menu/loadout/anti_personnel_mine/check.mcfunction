@@ -1,4 +1,3 @@
-say check apm
 scoreboard players operation $item temp = @s snake.capacity
 scoreboard players operation $item temp += #snake.antiPersonnelMineWeight vars
 

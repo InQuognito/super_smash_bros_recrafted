@@ -1,4 +1,3 @@
-say select s1000
 scoreboard players operation @s snake.capacity += #snake.s1000Weight vars
 tellraw @s[tag=!ignoreFeedback] [{"text":"You have selected the S1000. ","color":"green"},{"text":"[ ","color":"dark_red"},{"text":"UNDO","color":"red","clickEvent":{"action":"run_command","value":"/trigger characterTrigger set 1525"},"hoverEvent":{"action":"show_text","contents":{"text":"Click here to undo this choice.","color":"gray"}}},{"text":" ]","color":"dark_red"}]
 tag @s add s1000

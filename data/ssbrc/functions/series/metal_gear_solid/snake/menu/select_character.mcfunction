@@ -1,4 +1,3 @@
-say select character
 tag @s[tag=!gold] add default
 
 tellraw @s [{"text":"You have selected ","color":"white"},{"text":"Snake","color":"gray"},{"text":"!","color":"white"}]

@@ -1,4 +1,3 @@
-say pick random skin
 scoreboard players set @s characterPicked 2
 scoreboard players set max random 2
 function ssbrc:math/rng/lcg

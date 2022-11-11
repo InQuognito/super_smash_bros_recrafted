@@ -1,4 +1,3 @@
-say check famas
 scoreboard players operation $item temp = @s snake.capacity
 scoreboard players operation $item temp += #snake.famasWeight vars
 
