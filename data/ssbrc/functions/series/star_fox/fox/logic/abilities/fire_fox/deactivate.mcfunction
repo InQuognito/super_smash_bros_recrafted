@@ -1,3 +1,5 @@
+scoreboard players set @s charge.3 0
+
 effect clear @s minecraft:levitation
 
 scoreboard players set @s cooldown.3 60
