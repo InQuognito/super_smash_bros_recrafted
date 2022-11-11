@@ -48,3 +48,5 @@ execute unless score @s[advancements={ssbrc:series/the_legend_of_zelda/zelda/ski
 execute unless score @s characterPicked matches 1 run function ssbrc:series/random
 scoreboard players reset @s characterPicked
 scoreboard players reset @s skinPicked
+
+say random select

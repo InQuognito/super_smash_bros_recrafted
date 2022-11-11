@@ -10,3 +10,5 @@ effect give @s minecraft:glowing 1000000 255 true
 execute if score $gameStage temp matches 1 run scoreboard players operation $countdown timer = #quickStart vars
 
 function ssbrc:logic/inputs/reset
+
+say prommpt menu
