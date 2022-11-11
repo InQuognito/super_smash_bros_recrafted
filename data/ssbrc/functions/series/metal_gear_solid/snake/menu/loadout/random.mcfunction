@@ -1,11 +1,11 @@
 scoreboard players set @s characterPicked 1
+tag @s add ignoreFeedback
 
 execute if predicate ssbrc:random_chance/15 run function ssbrc:series/metal_gear_solid/snake/menu/skins/random
 
 scoreboard players set max random 6
 function ssbrc:math/rng/lcg
 
-tag @s add ignoreFeedback
 execute unless score @s snake.capacity >= #snake.totalWeight vars if score result random matches 0 run function ssbrc:series/metal_gear_solid/snake/menu/loadout/psg1/check
 execute unless score @s snake.capacity >= #snake.totalWeight vars if score result random matches 1 run function ssbrc:series/metal_gear_solid/snake/menu/loadout/famas/check
 execute unless score @s snake.capacity >= #snake.totalWeight vars if score result random matches 2 run function ssbrc:series/metal_gear_solid/snake/menu/loadout/s1000/check
