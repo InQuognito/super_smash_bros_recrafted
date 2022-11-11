@@ -44,3 +44,5 @@ tag @s remove naturalShiny
 tag @s remove nextFighterChosen
 tag @s remove pickingRandom
 tag @s remove selectingLoadout
+
+say remove all character tags
