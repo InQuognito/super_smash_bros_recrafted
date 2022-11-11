@@ -10,8 +10,8 @@ tag @s remove self
 # Fire Fox
 execute if entity @s[predicate=ssbrc:flag/sneaking] run scoreboard players add @s charge.3 1
 
-execute if score @s charge.3 matches 1.. at @s run particle minecraft:flame ~ ~0.01 ~ 0.2 0.2 0.2 0.0 2 normal @a
-execute if score @s charge.3 >= #fox.fireFoxThreshold vars run function ssbrc:series/star_fox/fox/logic/abilities/fire_fox/activate
+execute if score @s charge.3 matches 1.. at @s run particle minecraft:flame ~ ~0.01 ~ 0.4 0.2 0.4 0.0 5 normal @a
+execute if score @s charge.3 >= #fox.fireFoxThreshold vars at @s run function ssbrc:series/star_fox/fox/logic/abilities/fire_fox/activate
 execute if score @s duration.3 matches 1 run function ssbrc:series/star_fox/fox/logic/abilities/fire_fox/deactivate
 
 execute if entity @s[predicate=!ssbrc:flag/sneaking] run scoreboard players set @s charge.3 0
