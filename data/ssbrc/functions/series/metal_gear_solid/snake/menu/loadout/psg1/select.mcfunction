@@ -3,3 +3,5 @@ tellraw @s[tag=!ignoreFeedback] [{"text":"You have selected the PSG-1. ","color"
 tag @s add psg1
 
 execute unless entity @s[tag=ignoreFeedback] run function ssbrc:series/metal_gear_solid/snake/menu/loadout/display_capacity
+
+say select psg1

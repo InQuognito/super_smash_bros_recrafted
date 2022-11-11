@@ -3,3 +3,5 @@ tellraw @s[tag=!ignoreFeedback] [{"text":"You have selected the SOCOM. ","color"
 tag @s add socom
 
 execute unless entity @s[tag=ignoreFeedback] run function ssbrc:series/metal_gear_solid/snake/menu/loadout/display_capacity
+
+say select socom

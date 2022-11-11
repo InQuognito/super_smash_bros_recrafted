@@ -3,3 +3,5 @@ tellraw @s[tag=!ignoreFeedback] [{"text":"You have selected the FAMAS. ","color"
 tag @s add famas
 
 execute unless entity @s[tag=ignoreFeedback] run function ssbrc:series/metal_gear_solid/snake/menu/loadout/display_capacity
+
+say select famas
