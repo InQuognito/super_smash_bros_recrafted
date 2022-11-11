@@ -1,4 +1,3 @@
-say remove all character tags
 function ssbrc:logic/resets/tags/characters/castlevania/alucard
 function ssbrc:logic/resets/tags/characters/donkey_kong/donkeykong
 function ssbrc:logic/resets/tags/characters/donkey_kong/kingkrool
