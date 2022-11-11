@@ -6,3 +6,5 @@ execute unless score @s[advancements={ssbrc:series/metal_gear_solid/snake/skins/
 execute unless score @s[advancements={ssbrc:series/metal_gear_solid/snake/skins/gold=true}] skinPicked matches 1 if score result random matches 1 run function ssbrc:series/metal_gear_solid/snake/menu/skins/gold
 
 execute unless score @s skinPicked matches 1 run function ssbrc:series/metal_gear_solid/snake/menu/skins/random
+
+say pick random skin
