@@ -16,3 +16,16 @@ execute if score $spinAttack rotation matches 360.. run scoreboard players reset
 execute as @e[tag=byleth.spinner] store result entity @s Rotation[0] float 1.0 run scoreboard players get $spinAttack rotation
 
 execute if entity @s[scores={charge.3=1..}] at @s anchored eyes run function ssbrc:series/fire_emblem/byleth/logic/abilities/spin_attack/charge
+
+# Passive Abilities
+scoreboard players operation #percentage temp = @s health
+scoreboard players operation #percentage temp *= 100 integers
+scoreboard players operation #percentage temp /= 40 integers
+
+execute if score #percentage temp matches ..50 run effect give @s[tag=blackEagles] minecraft:resistance 1000000 0 true
+
+#execute if score #percentage temp matches ..40 run effect give @s[tag=blueLions] minecraft:resistance 1000000 0 true
+#execute if score #percentage temp matches 41.. run effect clear @s[tag=blueLions] minecraft:resistance
+
+execute if score #percentage temp matches ..40 run effect give @s[tag=goldenDeer] minecraft:speed 1000000 0 true
+execute if score #percentage temp matches 41.. run effect clear @s[tag=goldenDeer] minecraft:speed

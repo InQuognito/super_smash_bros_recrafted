@@ -7,6 +7,7 @@ clear @s[tag=byleth] minecraft:shield
 loot replace entity @s[tag=blackEagles] weapon.offhand loot ssbrc:characters/fire_emblem/byleth/shield
 
 give @s[tag=blackEagles,tag=weaponBroken] minecraft:spectral_arrow 4
+give @s[tag=blueLions] minecraft:spectral_arrow 8
 
 # Captain Falcon
 clear @s[tag=captainfalcon] minecraft:golden_sword{falconPunch:1}
