@@ -1,5 +1,5 @@
 execute if entity @s[scores={useAbility=1..,cooldown.1=..0},nbt={SelectedItem:{tag:{powerBeam:1}}}] at @s anchored eyes run function ssbrc:series/metroid/samus/logic/weapons/power_beam/summon
-execute if entity @s[scores={useAbility=1..,cooldown.1=..0},nbt={SelectedItem:{tag:{waveBeam:1}}}] at @s anchored eyes run function ssbrc:series/metroid/samus/logic/weapons/wave_beam/summon
+execute if entity @s[scores={useAbility=1..,cooldown.1=..0},nbt={SelectedItem:{tag:{waveBeam:1}}}] at @s anchored eyes run function ssbrc:series/metroid/samus/logic/weapons/wave_beam/summon_test
 execute if entity @s[scores={useAbility=1..,cooldown.1=..0},nbt={SelectedItem:{tag:{plasmaBeam:1}}}] at @s anchored eyes run function ssbrc:series/metroid/samus/logic/weapons/plasma_beam/summon
 
 tag @s add self
