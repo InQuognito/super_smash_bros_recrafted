@@ -184,6 +184,7 @@ execute if score @s[tag=!snake] menu matches 1521 run function ssbrc:series/meta
 execute if score @s[tag=!snake] menu matches 1522 run function ssbrc:series/metal_gear_solid/snake/menu/favorite
 execute if score @s[tag=!snake] menu matches 1524 run function ssbrc:series/metal_gear_solid/snake/menu/skins/default
 execute if score @s[tag=!snake] menu matches 1525 run function ssbrc:series/metal_gear_solid/snake/menu/skins/gold
+execute if score @s[tag=!snake] menu matches 1526 run function ssbrc:series/metal_gear_solid/snake/menu/skins/iroquois_pliskin
 
 execute if score @s[tag=!snake] characterTrigger matches 1520 run function ssbrc:series/metal_gear_solid/snake/menu/loadout/psg1/check
 execute if score @s[tag=!snake] characterTrigger matches 1521 run function ssbrc:series/metal_gear_solid/snake/menu/loadout/psg1/deselect

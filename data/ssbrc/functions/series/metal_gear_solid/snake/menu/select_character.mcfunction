@@ -1,9 +1,10 @@
-tag @s[tag=!gold] add default
+tag @s[tag=!gold,tag=!iroquoisPliskin] add default
 
 tellraw @s [{"text":"You have selected ","color":"white"},{"text":"Snake","color":"gray"},{"text":"!","color":"white"}]
 
 tellraw @s[tag=default] [{"text":"Skin: ","color":"white"},{"text":"Default","color":"gray"}]
 tellraw @s[tag=gold] [{"text":"Skin: ","color":"white"},{"text":"Gold","color":"gold"}]
+tellraw @s[tag=iroquoisPliskin] [{"text":"Skin: ","color":"white"},{"text":"Iroquois Pliskin","color":"dark_green"}]
 
 tag @s add snake
 
