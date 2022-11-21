@@ -2,7 +2,7 @@ summon minecraft:marker ^ ^ ^1 {Tags:["waveBeam","angle1","projectile"]}
 summon minecraft:marker ^ ^ ^1 {Tags:["waveBeam","angle2","projectile"]}
 summon minecraft:marker ^ ^ ^1 {Tags:["waveBeam","angle3","projectile"]}
 
-scoreboard players operation @e[tag=projectile,limit=1] id = @s id
+scoreboard players operation @e[tag=projectile,limit=3] id = @s id
 
 execute as @e[tag=waveBeam] at @s run function ssbrc:series/metroid/samus/logic/weapons/wave_beam/move_forward
 
