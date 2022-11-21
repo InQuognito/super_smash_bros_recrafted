@@ -74,7 +74,6 @@ scoreboard players set #snake.smokeGrenadeWeight vars 2
 scoreboard players set #snake.totalWeight vars 10
 
 scoreboard players set #wolf.grenadeTimer vars 80
-scoreboard players set #wolf.wolfFlash vars 10
 
 scoreboard players set #yar.railgunRange vars 600
 scoreboard players set #yar.railgunPiercing vars 30

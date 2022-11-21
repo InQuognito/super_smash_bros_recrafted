@@ -39,7 +39,7 @@
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{throwingAnchor:1,CustomModelData:1924,Unbreakable:1,HideFlags:127}"
+							"tag": "{throwingAnchor:1,CustomModelData:1925,Unbreakable:1,HideFlags:127}"
 						}
 					]
 				}
