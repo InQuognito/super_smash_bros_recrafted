@@ -10,15 +10,14 @@ tag @s remove self
 
 # Alucard Sword
 loot replace entity @s[tag=!bloodMetamorphosis,nbt={SelectedItem:{tag:{alucardSword:1,awakened:1}}}] weapon.mainhand loot ssbrc:characters/castlevania/alucard/alucard_sword/default
-loot replace entity @s[tag=bloodMetamorphosis,nbt={SelectedItem:{tag:{alucardSword:1,awakened:0}}}] weapon.mainhand loot ssbrc:characters/castlevania/alucard/alucard_sword/blood_metamorphosis
+loot replace entity @s[tag=bloodMetamorphosis,nbt={SelectedItem:{tag:{alucardSword:1,awakened:0}}}] weapon.mainhand loot ssbrc:characters/castlevania/alucard/alucard_sword/awakened
 
 # Holy Water
 execute unless score @s duration.1 matches 1.. run loot give @s[nbt=!{Inventory:[{tag:{holyWater:1}}]},scores={cooldown.2=..0}] loot ssbrc:characters/castlevania/alucard/holy_water
 execute as @e[type=minecraft:armor_stand,tag=holyWater.display] at @s unless block ~ ~-0.1 ~ #ssbrc:passthrough run function ssbrc:series/castlevania/alucard/logic/abilities/holy_water/kill_item
 
 # Mist
-execute if score @s duration.1 matches 1.. run function ssbrc:logic/characters/effects/cleanse
-execute if score @s duration.1 matches 1.. at @s positioned ~ ~0.75 ~ run kill @e[type=#ssbrc:projectiles,tag=!spawnpoint,distance=..3]
+execute if score @s duration.1 matches 1.. run function ssbrc:series/castlevania/alucard/logic/abilities/mist/tick
 execute if score @s duration.1 matches 1 run function ssbrc:series/castlevania/alucard/logic/abilities/mist/off
 
 # Particles

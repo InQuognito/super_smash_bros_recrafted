@@ -1,0 +1,13 @@
+{
+	"condition": "minecraft:alternative",
+	"terms": [
+		{
+			"condition": "minecraft:reference",
+			"name": "ssbrc:decorations"
+		},
+		{
+			"condition": "minecraft:reference",
+			"name": "ssbrc:location_markers"
+		}
+	]
+}

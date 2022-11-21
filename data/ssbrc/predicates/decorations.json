@@ -1,0 +1,23 @@
+{
+	"condition": "minecraft:alternative",
+	"terms": [
+		{
+			"condition": "minecraft:reference",
+			"name": "ssbrc:lobby_stands"
+		},
+		{
+			"condition": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
+				"nbt": "{Tags:[\"propStand\"]}"
+			}
+		},
+		{
+			"condition": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
+				"nbt": "{Tags:[\"decorObject\"]}"
+			}
+		}
+	]
+}
