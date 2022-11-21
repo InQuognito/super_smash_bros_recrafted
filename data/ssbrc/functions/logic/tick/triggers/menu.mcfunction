@@ -245,6 +245,7 @@ execute if score @s[tag=!alucard] menu matches 1841 run function ssbrc:series/ca
 execute if score @s[tag=!alucard] menu matches 1842 run function ssbrc:series/castlevania/alucard/menu/favorite
 execute if score @s[tag=!alucard] menu matches 1844 run function ssbrc:series/castlevania/alucard/menu/skins/default
 execute if score @s[tag=!alucard] menu matches 1845 run function ssbrc:series/castlevania/alucard/menu/skins/gold
+execute if score @s[tag=!alucard] menu matches 1846 run function ssbrc:series/castlevania/alucard/menu/skins/lords_of_shadow
 
 execute if score @s[tag=!giegue] menu matches 1860 run function ssbrc:series/earthbound/giegue/menu/select_character
 execute if score @s[tag=!giegue] menu matches 1861 run function ssbrc:series/earthbound/giegue/menu/skin_options
