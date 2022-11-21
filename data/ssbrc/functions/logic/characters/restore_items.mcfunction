@@ -117,9 +117,13 @@ execute if entity @s[tag=teamrocket,tag=wobbuffet,tag=!nextFighterChosen] run fu
 execute if entity @s[tag=teamrocket,tag=meowth,tag=!nextFighterChosen] run function ssbrc:series/pokemon/teamrocket/kits/wobbuffet
 execute if entity @s[tag=teamrocket,tag=arbok,tag=!nextFighterChosen] run function ssbrc:series/pokemon/teamrocket/kits/meowth
 
+# Yar
+execute if entity @s[tag=yar] run function ssbrc:series/retro_fighters/yar/logic/abilities/power_ups/reset
+
 scoreboard players set @s duration.1 0
 scoreboard players set @s duration.2 0
 scoreboard players set @s duration.3 0
 
-# Yar
-execute if entity @s[tag=yar] run function ssbrc:series/retro_fighters/yar/logic/abilities/power_ups/reset
+scoreboard players set @s cooldown.1 0
+scoreboard players set @s cooldown.2 0
+scoreboard players set @s cooldown.3 0
