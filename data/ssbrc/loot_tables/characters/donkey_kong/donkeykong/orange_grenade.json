@@ -12,7 +12,7 @@
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"text": "Orange Bomb",
+								"text": "Orange Grenade",
 								"color": "gold",
 								"bold": true,
 								"italic": false
@@ -39,7 +39,7 @@
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{orangeBomb:1,CustomPotionColor:16744448,CustomPotionEffects:[{Id:7,Duration:0,Amplifier:0b,ShowParticles:0b,ShowIcon:0b}],HideFlags:127}"
+							"tag": "{orangeGrenade:1,CustomPotionColor:16744448,CustomPotionEffects:[{Id:7,Duration:0,Amplifier:0b,ShowParticles:0b,ShowIcon:0b}],HideFlags:127}"
 						}
 					]
 				}
