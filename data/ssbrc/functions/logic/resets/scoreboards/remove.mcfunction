@@ -68,6 +68,10 @@ scoreboard objectives remove raycastSuccess
 scoreboard objectives remove reset
 scoreboard objectives remove respawn
 scoreboard objectives remove rotation
+scoreboard objectives remove rotationX
+scoreboard objectives remove rotationX.prev
+scoreboard objectives remove rotationY
+scoreboard objectives remove rotationY.prev
 scoreboard objectives remove selectFavorite
 scoreboard objectives remove shadow.chaosControl
 scoreboard objectives remove shadow.meter.hero

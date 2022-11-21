@@ -68,6 +68,10 @@ scoreboard objectives add raycastSuccess dummy
 scoreboard objectives add reset dummy
 scoreboard objectives add respawn dummy
 scoreboard objectives add rotation dummy
+scoreboard objectives add rotationX dummy
+scoreboard objectives add rotationX.prev dummy
+scoreboard objectives add rotationY dummy
+scoreboard objectives add rotationY.prev dummy
 scoreboard objectives add selectFavorite minecraft.used:minecraft.carrot_on_a_stick
 scoreboard objectives add shadow.chaosControl dummy
 scoreboard objectives add shadow.meter.hero dummy
