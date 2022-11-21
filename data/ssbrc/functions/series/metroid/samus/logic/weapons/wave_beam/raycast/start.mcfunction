@@ -1,4 +1,4 @@
-teleport @s ^ ^ ^0.1
+teleport @s ^ ^ ^0.25
 
 scoreboard players operation $in math = @s temp
 scoreboard players operation $in math *= 10 integers
