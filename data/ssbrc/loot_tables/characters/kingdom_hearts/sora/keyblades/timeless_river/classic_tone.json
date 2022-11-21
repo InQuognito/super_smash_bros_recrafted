@@ -12,8 +12,8 @@
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"text": "Sargassum Knife",
-								"color": "white",
+								"text": "Classic Tone",
+								"color": "yellow",
 								"bold": true,
 								"italic": false
 							}
@@ -24,14 +24,14 @@
 								{
 									"attribute": "minecraft:generic.attack_damage",
 									"name": "Attack Damage",
-									"amount": 7,
+									"amount": 0,
 									"operation": "multiply_base",
 									"slot": "mainhand"
 								},
 								{
 									"attribute": "minecraft:generic.attack_speed",
 									"name": "Attack Speed",
-									"amount": 1.5,
+									"amount": 1024,
 									"operation": "multiply_base",
 									"slot": "mainhand"
 								}
@@ -39,7 +39,7 @@
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{sargassumKnife:1,Unbreakable:1,HideFlags:127}"
+							"tag": "{keyblade:1,classicTone:1,CustomModelData:1564,Unbreakable:1,HideFlags:127}"
 						}
 					]
 				}

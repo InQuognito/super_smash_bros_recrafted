@@ -11,6 +11,6 @@ tag @s remove self
 execute if entity @s[scores={charge.output=1..,cooldown.1=..0},nbt={SelectedItem:{tag:{phazonBeam:1}}}] run function ssbrc:series/metroid/darksamus/logic/abilities/phazon_beam/charge
 
 # Phazon Overload
-execute if score @s[nbt=!{Inventory:[{id:"minecraft:carrot_on_a_stick",Count:1b,tag:{phazonOverload:1}}]}] charge.1 matches 400.. run item replace entity @s hotbar.4 with minecraft:carrot_on_a_stick{phazonOverload:1,CustomModelData:162,Unbreakable:1,display:{Name:'[{"text":"Phazon Overload","italic":false,"color":"aqua","bold":true}]'},HideFlags:127} 1
+execute if score @s[nbt=!{Inventory:[{tag:{phazonOverload:1}}]}] charge.1 matches 400.. run loot replace entity @s hotbar.4 loot ssbrc:characters/metroid/darksamus/phazon_overload
 
 execute if score @s duration.1 matches 1.. at @s run particle minecraft:dust 0.0 0.8 1.0 1.0 ~ ~0.75 ~ 0.25 0.5 0.25 0.0 5 normal @a

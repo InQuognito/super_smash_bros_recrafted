@@ -1,3 +1,4 @@
-loot replace entity @s hotbar.0 loot ssbrc:characters/kingdom_hearts/sora/keyblade/thundaga
+loot replace entity @s[tag=!timelessRiver] hotbar.0 loot ssbrc:characters/kingdom_hearts/sora/keyblades/default/thundaga
+loot replace entity @s[tag=timelessRiver] hotbar.0 loot ssbrc:characters/kingdom_hearts/sora/keyblades/timeless_river/thundaga
 
 scoreboard players set @s cooldown.1 1
