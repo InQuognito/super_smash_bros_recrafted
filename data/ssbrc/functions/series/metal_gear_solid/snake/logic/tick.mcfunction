@@ -57,5 +57,7 @@ scoreboard players remove @s[scores={loadout.smokeGrenadeF=1..}] loadout.smokeGr
 # Smoke Grenade
 execute as @e[type=minecraft:armor_stand,tag=smokeGrenade.display] at @s unless block ~ ~-0.1 ~ #ssbrc:passthrough run function ssbrc:series/metal_gear_solid/snake/logic/weapons/smoke_grenade/kill_item
 
+execute at @e[type=minecraft:marker,tag=smokeGrenade,tag=active,sort=nearest,limit=1] at @s if entity @s[tag=nightVisionGoggles,distance=4..] run function ssbrc:series/metal_gear_solid/snake/logic/night_vision_goggles/deactivate
+
 # Anti-Personnel Mine
 execute as @a[tag=damage.antiPersonnelMine] at @s run function ssbrc:series/metal_gear_solid/snake/logic/weapons/anti_personnel_mine/damage
