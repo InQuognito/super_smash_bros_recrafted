@@ -1,9 +1,9 @@
-summon minecraft:marker ~ ~ ~ {Tags:["thundaza","marker","projectile"]}
+summon minecraft:marker ~ ~ ~ {Tags:["thundaza","marker","modifyProjectile"]}
 
-scoreboard players operation @e[tag=projectile,limit=1] id = @s id
-data modify entity @e[tag=projectile,limit=1] Owner set from entity @s UUID
+scoreboard players operation @e[tag=modifyProjectile,limit=1] id = @s id
+data modify entity @e[tag=modifyProjectile,limit=1] Owner set from entity @s UUID
 
-tag @e[tag=projectile,limit=1] remove projectile
+tag @e[tag=modifyProjectile,limit=1] remove modifyProjectile
 
 scoreboard players operation @s mana -= #sora.thundazaMPCost vars
 

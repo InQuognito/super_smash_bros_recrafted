@@ -1,7 +1,7 @@
-summon minecraft:marker ~ ~ ~ {Tags:["electricTerrain","projectile"]}
+summon minecraft:marker ~ ~ ~ {Tags:["electricTerrain","modifyProjectile"]}
 
-scoreboard players operation @e[tag=projectile,limit=1] id = @s id
+scoreboard players operation @e[tag=modifyProjectile,limit=1] id = @s id
 
-tag @e[tag=projectile,limit=1] remove projectile
+tag @e[tag=modifyProjectile,limit=1] remove modifyProjectile
 
 clear @s minecraft:carrot_on_a_stick{electricTerrain:1} 1

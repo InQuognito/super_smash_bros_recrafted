@@ -1,10 +1,10 @@
 execute positioned 0.0 0.0 0.0 run summon minecraft:marker ^ ^ ^1.75 {Tags:["direction"]}
 
-summon minecraft:armor_stand ^ ^ ^ {Tags:["barrelCannon.path","projectile"],Invisible:1b,Small:1b}
+summon minecraft:armor_stand ^ ^ ^ {Tags:["barrelCannon.path","modifyProjectile"],Invisible:1b,Small:1b}
 
-data modify entity @e[tag=projectile,limit=1] Motion set from entity @e[tag=direction,limit=1] Pos
+data modify entity @e[tag=modifyProjectile,limit=1] Motion set from entity @e[tag=direction,limit=1] Pos
 
-tag @e[tag=projectile,limit=1] remove projectile
+tag @e[tag=modifyProjectile,limit=1] remove modifyProjectile
 kill @e[tag=direction]
 
 tag @s remove playerInCannon

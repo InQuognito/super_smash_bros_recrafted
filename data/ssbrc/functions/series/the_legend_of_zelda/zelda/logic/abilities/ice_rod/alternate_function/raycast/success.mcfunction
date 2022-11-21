@@ -1,6 +1,6 @@
-summon minecraft:armor_stand ~ ~5 ~ {Tags:["iceBlock","projectile"],ArmorItems:[{},{},{},{id:"minecraft:blue_ice",Count:1b,tag:{CustomModelData:1}}],Invisible:1b}
+summon minecraft:armor_stand ~ ~5 ~ {Tags:["iceBlock","modifyProjectile"],ArmorItems:[{},{},{},{id:"minecraft:blue_ice",Count:1b,tag:{CustomModelData:1}}],Invisible:1b}
 
-scoreboard players operation @e[tag=projectile,limit=1] id = @s id
+scoreboard players operation @e[tag=modifyProjectile,limit=1] id = @s id
 
 scoreboard players operation @s mana -= #iceRodMagicCost temp
 

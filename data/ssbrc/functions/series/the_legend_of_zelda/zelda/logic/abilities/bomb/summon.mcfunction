@@ -1,16 +1,16 @@
 execute positioned 0.0 0.0 0.0 run summon minecraft:marker ^ ^ ^1 {Tags:["direction"]}
 
-execute if entity @s[nbt=!{Inventory:[{tag:{ringOfBlasting:1}}]}] run summon minecraft:armor_stand ^ ^ ^1 {Tags:["bomb","projectile"],Invisible:1b}
-execute if entity @s[nbt={Inventory:[{tag:{ringOfBlasting:1}}]}] run summon minecraft:armor_stand ^ ^ ^1 {Tags:["bomb","blasting","projectile"],Invisible:1b}
-loot replace entity @e[tag=projectile,limit=1] armor.head loot ssbrc:characters/the_legend_of_zelda/zelda/dungeon_items/bomb
+execute if entity @s[nbt=!{Inventory:[{tag:{ringOfBlasting:1}}]}] run summon minecraft:armor_stand ^ ^ ^1 {Tags:["bomb","modifyProjectile"],Invisible:1b}
+execute if entity @s[nbt={Inventory:[{tag:{ringOfBlasting:1}}]}] run summon minecraft:armor_stand ^ ^ ^1 {Tags:["bomb","blasting","modifyProjectile"],Invisible:1b}
+loot replace entity @e[tag=modifyProjectile,limit=1] armor.head loot ssbrc:characters/the_legend_of_zelda/zelda/dungeon_items/bomb
 
-scoreboard players operation @e[tag=projectile,limit=1] id = @s id
-data modify entity @e[tag=projectile,limit=1] Owner set from entity @s UUID
-data modify entity @e[tag=projectile,limit=1] Motion set from entity @e[tag=direction,limit=1] Pos
+scoreboard players operation @e[tag=modifyProjectile,limit=1] id = @s id
+data modify entity @e[tag=modifyProjectile,limit=1] Owner set from entity @s UUID
+data modify entity @e[tag=modifyProjectile,limit=1] Motion set from entity @e[tag=direction,limit=1] Pos
 
-scoreboard players operation @e[tag=projectile,limit=1] temp = @s fuse
+scoreboard players operation @e[tag=modifyProjectile,limit=1] temp = @s fuse
 
-tag @e[tag=projectile,limit=1] remove projectile
+tag @e[tag=modifyProjectile,limit=1] remove modifyProjectile
 kill @e[tag=direction]
 
 scoreboard players set @s cooldown.1 20
