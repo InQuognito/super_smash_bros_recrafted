@@ -1,7 +1,7 @@
 teleport @s ^ ^ ^0.25
 
 scoreboard players operation $in math = @s temp
-scoreboard players operation $in math *= 10 integers
+scoreboard players operation $in math *= 15 integers
 
 function ssbrc:math/trig/sin
 
