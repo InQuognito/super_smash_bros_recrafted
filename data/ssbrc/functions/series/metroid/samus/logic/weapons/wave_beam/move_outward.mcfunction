@@ -1,4 +1,4 @@
-execute facing ^ ^1 ^ run teleport @s[tag=angle1] ^ ^ ^1 ~ ~
+execute facing ^ ^1 ^ run teleport @s[tag=angle1] ^ ^ ^0.1 ~ ~
 execute facing ^1 ^-1 ^ run teleport @s[tag=angle2] ^ ^ ^1 ~ ~
 execute facing ^-1 ^-1 ^ run teleport @s[tag=angle3] ^ ^ ^1 ~ ~
 
