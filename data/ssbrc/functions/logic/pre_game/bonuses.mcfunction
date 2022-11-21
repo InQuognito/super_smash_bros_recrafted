@@ -13,4 +13,4 @@ scoreboard players set @s switzerland 1
 
 scoreboard players set @s tortoise 1
 
-execute if score $timeLimit options matches 600 run scoreboard players set @s yearLongBattle 1
+execute if score $gameMode options matches 2 if score $timeLimit options matches 600 run scoreboard players set @s yearLongBattle 1
