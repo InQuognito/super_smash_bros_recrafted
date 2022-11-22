@@ -1,4 +1,4 @@
-scoreboard players remove @s loadout.socomM 1
-scoreboard players set @s[scores={loadout.socomM=0..}] loadout.socomA 8
+scoreboard players remove @s snake.socomM 1
+scoreboard players set @s[scores={snake.socomM=0..}] snake.socomA 8
 
-scoreboard players reset @s loadout.socomR
+scoreboard players reset @s snake.socomR

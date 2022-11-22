@@ -1,4 +1,4 @@
-scoreboard players remove @s loadout.famasM 1
-scoreboard players set @s[scores={loadout.famasM=0..}] loadout.famasA 24
+scoreboard players remove @s snake.famasM 1
+scoreboard players set @s[scores={snake.famasM=0..}] snake.famasA 24
 
-scoreboard players reset @s loadout.famasR
+scoreboard players reset @s snake.famasR

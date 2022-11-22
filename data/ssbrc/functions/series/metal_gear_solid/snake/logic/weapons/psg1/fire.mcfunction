@@ -11,6 +11,6 @@ kill @e[tag=direction]
 
 execute at @s run playsound ssbrc:sniper_fire player @a
 
-scoreboard players remove @s loadout.psg1A 1
+scoreboard players remove @s snake.psg1A 1
 
-execute unless score @s loadout.psg1M matches ..0 if score @s loadout.psg1A matches 0 run scoreboard players set @s loadout.psg1R 100
+execute unless score @s snake.psg1M matches ..0 if score @s snake.psg1A matches 0 run scoreboard players set @s snake.psg1R 100
