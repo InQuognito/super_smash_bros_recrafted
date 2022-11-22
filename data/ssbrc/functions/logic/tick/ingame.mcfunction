@@ -4,7 +4,7 @@ execute as @a[scores={respawn=1..}] run function ssbrc:logic/tick/respawn
 gamemode spectator @a[team=dead]
 gamemode spectator @a[team=spectator]
 
-execute as @e[type=#ssbrc:arrows] run function ssbrc:logic/tick/projectiles/check_rotation
+#execute as @e[type=#ssbrc:arrows] run function ssbrc:logic/tick/projectiles/check_rotation
 
 kill @e[type=#minecraft:arrows,nbt={inGround:1b}]
 
