@@ -6,7 +6,7 @@ execute if entity @s[predicate=!ssbrc:characters/sora/no_spells,predicate=!ssbrc
 execute if entity @s[predicate=!ssbrc:characters/sora/no_spells,predicate=!ssbrc:flag/sneaking,scores={useAbility=1..,cooldown.2=..0},nbt={SelectedItem:{tag:{blizzaga:1}}}] at @s anchored eyes run function ssbrc:series/kingdom_hearts/sora/logic/abilities/blizzaga/check
 execute if entity @s[predicate=!ssbrc:characters/sora/no_spells,predicate=!ssbrc:flag/sneaking,scores={useAbility=1..,cooldown.2=..0},nbt={SelectedItem:{tag:{thundaga:1}}}] at @s run function ssbrc:series/kingdom_hearts/sora/logic/abilities/thundaga/check
 
-execute if entity @s[tag=valor,predicate=!ssbrc:flag/sneaking,scores={useAbility=1..},nbt={SelectedItem:{tag:{strikeRaid:1}},Inventory:[{id:"minecraft:carrot_on_a_stick",Slot:-106b,tag:{starSeeker:1}}]}] at @s anchored eyes run function ssbrc:series/kingdom_hearts/sora/logic/abilities/strike_raid/activate
+execute if entity @s[tag=valor,predicate=!ssbrc:flag/sneaking,scores={useAbility=1..},nbt={SelectedItem:{tag:{strikeRaid:1}},Inventory:[{id:"minecraft:carrot_on_a_stick",Slot:-106b,tag:{strikeRaidOffhand:1}}]}] at @s anchored eyes run function ssbrc:series/kingdom_hearts/sora/logic/abilities/strike_raid/activate
 
 tag @s add self
 execute as @e[type=minecraft:arrow,tag=firaga] at @s if score @s id = @p[tag=self] id run function ssbrc:series/kingdom_hearts/sora/logic/abilities/firaga/tick
