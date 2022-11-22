@@ -3,7 +3,7 @@ loot give @s[tag=famas] loot ssbrc:characters/metal_gear_solid/snake/famas
 loot give @s[tag=s1000] loot ssbrc:characters/metal_gear_solid/snake/s1000
 loot give @s[tag=socom] loot ssbrc:characters/metal_gear_solid/snake/socom
 loot give @s loot ssbrc:characters/metal_gear_solid/snake/cqc_knife
-loot give @s[tag=antiPersonnelMine] loot ssbrc:characters/metal_gear_solid/snake/anti_personnel_mine
+loot give @s[tag=antiPersonnelMine] loot ssbrc:characters/metal_gear_solid/snake/anti_personnel_mine/inactive
 loot give @s[tag=smokeGrenade] loot ssbrc:characters/metal_gear_solid/snake/smoke_grenade
 
 scoreboard players set @s[tag=psg1] snake.psg1M 7
