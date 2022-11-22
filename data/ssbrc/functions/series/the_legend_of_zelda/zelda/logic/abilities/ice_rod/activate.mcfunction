@@ -1,10 +1,10 @@
-execute rotated as @s run summon minecraft:marker ^ ^ ^1 {Tags:["iceRod","modifyProjectile"]}
+execute rotated as @s run summon minecraft:marker ^ ^ ^1 {Tags:["iceRod","modifyEntity"]}
 
-scoreboard players operation @e[tag=modifyProjectile,limit=1] id = @s id
-data modify entity @e[tag=modifyProjectile,limit=1] Rotation set from entity @s Rotation
-data modify entity @e[tag=modifyProjectile,limit=1] Owner set from entity @s UUID
+scoreboard players operation @e[tag=modifyEntity,limit=1] id = @s id
+data modify entity @e[tag=modifyEntity,limit=1] Rotation set from entity @s Rotation
+data modify entity @e[tag=modifyEntity,limit=1] Owner set from entity @s UUID
 
-tag @e[tag=modifyProjectile,limit=1] remove modifyProjectile
+tag @e[tag=modifyEntity,limit=1] remove modifyEntity
 
 scoreboard players operation @s mana -= #iceRodMagicCost temp
 

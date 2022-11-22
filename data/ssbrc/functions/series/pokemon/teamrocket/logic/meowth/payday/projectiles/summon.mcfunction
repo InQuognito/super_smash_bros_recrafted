@@ -1,6 +1,6 @@
 execute positioned 0.0 0.0 0.0 run summon minecraft:marker ~ ~ ~ {Tags:["direction"],Rotation:[0f,-90f]}
 
-summon minecraft:arrow ~ ~2 ~ {damage:6.0,Tags:["paydayProjectile","modifyProjectile"]}
+summon minecraft:arrow ~ ~2 ~ {damage:6.0,Tags:["paydayProjectile","modifyEntity"]}
 
 function ssbrc:series/pokemon/teamrocket/logic/meowth/payday/projectiles/offset_x
 execute store result score offsetX temp run data get entity @e[tag=direction,limit=1] Rotation[0]
@@ -14,9 +14,9 @@ execute store result entity @e[tag=direction,limit=1] Rotation[1] float 1.0 run 
 
 execute as @e[tag=direction] at @s run teleport @s ^ ^ ^0.7
 
-scoreboard players operation @e[tag=modifyProjectile,limit=1] id = @p[tag=self] id
-data modify entity @e[tag=modifyProjectile,limit=1] Owner set from entity @s Owner
-data modify entity @e[tag=modifyProjectile,limit=1] Motion set from entity @e[tag=direction,limit=1] Pos
+scoreboard players operation @e[tag=modifyEntity,limit=1] id = @p[tag=self] id
+data modify entity @e[tag=modifyEntity,limit=1] Owner set from entity @s Owner
+data modify entity @e[tag=modifyEntity,limit=1] Motion set from entity @e[tag=direction,limit=1] Pos
 
-tag @e[tag=modifyProjectile,limit=1] remove modifyProjectile
+tag @e[tag=modifyEntity,limit=1] remove modifyEntity
 kill @e[tag=direction]

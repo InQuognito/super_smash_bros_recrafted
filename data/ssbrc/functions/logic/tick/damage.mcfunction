@@ -4,6 +4,7 @@ execute if entity @a[tag=cloud] run function ssbrc:logic/tick/damage/final_fanta
 execute if entity @a[tag=byleth] run function ssbrc:logic/tick/damage/fire_emblem/byleth
 execute if entity @a[tag=shovelknight] run function ssbrc:logic/tick/damage/indie_fighters/shovelknight
 execute if entity @a[tag=sora] run function ssbrc:logic/tick/damage/kingdom_hearts/sora
+execute if entity @a[tag=snake] run function ssbrc:logic/tick/damage/metal_gear_solid/snake
 execute if entity @a[tag=darksamus] run function ssbrc:logic/tick/damage/metroid/darksamus
 execute if entity @a[tag=greninja] run function ssbrc:logic/tick/damage/pokemon/greninja
 execute if entity @a[tag=jigglypuff] run function ssbrc:logic/tick/damage/pokemon/jigglypuff

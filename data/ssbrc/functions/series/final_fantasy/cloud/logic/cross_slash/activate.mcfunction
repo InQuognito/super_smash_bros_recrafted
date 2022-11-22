@@ -1,10 +1,10 @@
-summon minecraft:marker ^ ^ ^1 {Tags:["crossSlash","modifyProjectile"]}
+summon minecraft:marker ^ ^ ^1 {Tags:["crossSlash","modifyEntity"]}
 
-scoreboard players operation @e[tag=modifyProjectile,limit=1] id = @s id
-data modify entity @e[tag=modifyProjectile,limit=1] Owner set from entity @s UUID
-data modify entity @e[tag=modifyProjectile,limit=1] Rotation[0] set from entity @s Rotation[0]
+scoreboard players operation @e[tag=modifyEntity,limit=1] id = @s id
+data modify entity @e[tag=modifyEntity,limit=1] Owner set from entity @s UUID
+data modify entity @e[tag=modifyEntity,limit=1] Rotation[0] set from entity @s Rotation[0]
 
-tag @e[tag=modifyProjectile,limit=1] remove modifyProjectile
+tag @e[tag=modifyEntity,limit=1] remove modifyEntity
 
 scoreboard players operation @s cloud.limit = 0 integers
 function ssbrc:series/final_fantasy/cloud/logic/limit/update

@@ -78,7 +78,6 @@ scoreboard objectives remove shadow.meter.hero
 scoreboard objectives remove shadow.meter.villain
 scoreboard objectives remove skinPicked
 scoreboard objectives remove slope
-scoreboard objectives remove snake.antiPersonnelMine
 scoreboard objectives remove snake.capacity
 scoreboard objectives remove snake.famasA
 scoreboard objectives remove snake.famasM
@@ -95,6 +94,8 @@ scoreboard objectives remove snake.socomA
 scoreboard objectives remove snake.socomM
 scoreboard objectives remove snake.socomR
 scoreboard objectives remove snake.socomF
+scoreboard objectives remove snake.antiPersonnelMineA
+scoreboard objectives remove snake.antiPersonnelMineF
 scoreboard objectives remove snake.smokeGrenadeA
 scoreboard objectives remove snake.smokeGrenadeF
 scoreboard objectives remove stats.deaths.temp

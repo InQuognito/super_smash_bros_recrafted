@@ -78,7 +78,6 @@ scoreboard objectives add shadow.meter.hero dummy
 scoreboard objectives add shadow.meter.villain dummy
 scoreboard objectives add skinPicked dummy
 scoreboard objectives add slope dummy
-scoreboard objectives add snake.antiPersonnelMine dummy
 scoreboard objectives add snake.capacity dummy
 scoreboard objectives add snake.famasA dummy
 scoreboard objectives add snake.famasM dummy
@@ -95,6 +94,8 @@ scoreboard objectives add snake.socomA dummy
 scoreboard objectives add snake.socomM dummy
 scoreboard objectives add snake.socomR dummy
 scoreboard objectives add snake.socomF dummy
+scoreboard objectives add snake.antiPersonnelMineA dummy
+scoreboard objectives add snake.antiPersonnelMineF dummy
 scoreboard objectives add snake.smokeGrenadeA dummy
 scoreboard objectives add snake.smokeGrenadeF dummy
 scoreboard objectives add stats.deaths.temp minecraft.custom:minecraft.deaths

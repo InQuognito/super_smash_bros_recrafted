@@ -2,15 +2,15 @@ tag @s remove shadow.chaosBlast
 
 execute positioned 0.0 0.0 0.0 run summon minecraft:marker ^ ^ ^1 {Tags:["direction"]}
 
-execute if entity @s[tag=shadow.chaosBlast.default] run summon minecraft:arrow ^ ^ ^1 {damage:20.0,Tags:["chaosBlastShockwave","chaosBlastShockwave.default","modifyProjectile"],NoGravity:1b}
-execute if entity @s[tag=shadow.chaosBlast.gold] run summon minecraft:arrow ^ ^ ^1 {damage:20.0,Tags:["chaosBlastShockwave","chaosBlastShockwave.gold","modifyProjectile"],NoGravity:1b}
-execute if entity @s[tag=shadow.chaosBlast.yellowAndroid] run summon minecraft:arrow ^ ^ ^1 {damage:20.0,Tags:["chaosBlastShockwave","chaosBlastShockwave.yellowAndroid","modifyProjectile"],NoGravity:1b}
+execute if entity @s[tag=shadow.chaosBlast.default] run summon minecraft:arrow ^ ^ ^1 {damage:20.0,Tags:["chaosBlastShockwave","chaosBlastShockwave.default","modifyEntity"],NoGravity:1b}
+execute if entity @s[tag=shadow.chaosBlast.gold] run summon minecraft:arrow ^ ^ ^1 {damage:20.0,Tags:["chaosBlastShockwave","chaosBlastShockwave.gold","modifyEntity"],NoGravity:1b}
+execute if entity @s[tag=shadow.chaosBlast.yellowAndroid] run summon minecraft:arrow ^ ^ ^1 {damage:20.0,Tags:["chaosBlastShockwave","chaosBlastShockwave.yellowAndroid","modifyEntity"],NoGravity:1b}
 
-scoreboard players operation @e[tag=modifyProjectile,limit=1] id = @p[predicate=ssbrc:flag/player,tag=shadow] id
-data modify entity @e[tag=modifyProjectile,limit=1] Owner set from entity @p[predicate=ssbrc:flag/player,tag=shadow] UUID
-data modify entity @e[tag=modifyProjectile,limit=1] Motion set from entity @e[tag=direction,limit=1] Pos
+scoreboard players operation @e[tag=modifyEntity,limit=1] id = @p[predicate=ssbrc:flag/player,tag=shadow] id
+data modify entity @e[tag=modifyEntity,limit=1] Owner set from entity @p[predicate=ssbrc:flag/player,tag=shadow] UUID
+data modify entity @e[tag=modifyEntity,limit=1] Motion set from entity @e[tag=direction,limit=1] Pos
 
-tag @e[tag=modifyProjectile,limit=1] remove modifyProjectile
+tag @e[tag=modifyEntity,limit=1] remove modifyEntity
 kill @e[tag=direction]
 
 scoreboard players add @s temp 2

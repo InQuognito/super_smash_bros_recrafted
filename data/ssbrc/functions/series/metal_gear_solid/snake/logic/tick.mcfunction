@@ -3,16 +3,14 @@ execute if entity @s[scores={useAbility=1..},nbt={SelectedItem:{tag:{psg1:1}}}] 
 execute if entity @s[scores={useAbility=1..},nbt={SelectedItem:{tag:{famas:1}}}] unless score @s snake.famasR matches 1.. run function ssbrc:series/metal_gear_solid/snake/logic/weapons/famas/check
 execute if entity @s[scores={useAbility=1..},nbt={SelectedItem:{tag:{s1000:1}}}] unless score @s snake.s1000R matches 1.. run function ssbrc:series/metal_gear_solid/snake/logic/weapons/s1000/check
 execute if entity @s[scores={useAbility=1..},nbt={SelectedItem:{tag:{socom:1}}}] unless score @s snake.socomR matches 1.. run function ssbrc:series/metal_gear_solid/snake/logic/weapons/socom/check
+execute if entity @s[scores={useAbility=1..},nbt={SelectedItem:{tag:{antiPersonnelMine:1}}}] unless score @s snake.antiPersonnelMineF matches 1.. run function ssbrc:series/metal_gear_solid/snake/logic/weapons/anti_personnel_mine/check
 execute if entity @s[scores={useAbility=1..},nbt={SelectedItem:{tag:{smokeGrenade:1}}}] unless score @s snake.smokeGrenadeF matches 1.. run function ssbrc:series/metal_gear_solid/snake/logic/weapons/smoke_grenade/check
 
 tag @s add self
 execute as @e[tag=bullet] at @s if score @s id = @p[tag=self] id run function ssbrc:series/metal_gear_solid/snake/logic/bullets
+execute as @e[type=minecraft:armor_stand,tag=antiPersonnelMine] at @s if score @s id = @p[tag=self] id unless block ~ ~-0.1 ~ minecraft:air run function ssbrc:series/metal_gear_solid/snake/logic/weapons/anti_personnel_mine/tick
 tag @e[type=minecraft:marker,tag=smokeGrenade,tag=!active,predicate=ssbrc:flag/no_vehicle] add active
 execute as @e[type=minecraft:marker,tag=smokeGrenade,tag=active] at @s if score @s id = @p[tag=self] id run function ssbrc:series/metal_gear_solid/snake/logic/weapons/smoke_grenade/tick
-execute as @e[type=minecraft:item,nbt={Item:{id:"minecraft:gray_terracotta",Count:1b,tag:{antiPersonnelMine:1}}}] at @s unless score @s id matches 1.. run scoreboard players operation @s id = @p[tag=self] id
-execute as @e[type=minecraft:item,nbt={Item:{id:"minecraft:gray_terracotta",Count:1b,tag:{antiPersonnelMine:1}}}] at @s if score @s id = @p[tag=self] id run function ssbrc:series/metal_gear_solid/snake/logic/weapons/anti_personnel_mine/tick_item
-execute as @e[tag=antiPersonnelMine.inactive] at @s if score @s id = @p[tag=self] id run function ssbrc:series/metal_gear_solid/snake/logic/weapons/anti_personnel_mine/tick_inactive
-execute as @e[tag=antiPersonnelMine.active] at @s positioned ~ ~0.5 ~ if score @s id = @p[tag=self] id run function ssbrc:series/metal_gear_solid/snake/logic/weapons/anti_personnel_mine/tick_active
 tag @s remove self
 
 # Glowing
@@ -30,6 +28,7 @@ title @s[nbt={SelectedItem:{tag:{s1000:1}}},scores={snake.s1000M=-1..}] actionba
 title @s[nbt={SelectedItem:{tag:{s1000:1}}},scores={snake.s1000M=..0,snake.s1000A=..0}] actionbar [{"text":"-","color":"red"},{"text":" | ","color":"white"},{"text":"-","color":"red"}]
 title @s[nbt={SelectedItem:{tag:{socom:1}}},scores={snake.socomM=-1..}] actionbar [{"score":{"name":"@s","objective":"snake.socomA"},"color":"green"},{"text":" | ","color":"white"},{"score":{"name":"@s","objective":"snake.socomM"},"color":"dark_green"}]
 title @s[nbt={SelectedItem:{tag:{socom:1}}},scores={snake.socomM=..0,snake.socomA=..0}] actionbar [{"text":"-","color":"red"},{"text":" | ","color":"white"},{"text":"-","color":"red"}]
+title @s[nbt={SelectedItem:{tag:{antiPersonnelMine:1}}},scores={snake.antiPersonnelMineA=0..}] actionbar {"score":{"name":"@s","objective":"snake.antiPersonnelMineA"},"color":"green"}
 title @s[nbt={SelectedItem:{tag:{smokeGrenade:1}}},scores={snake.smokeGrenadeA=0..}] actionbar {"score":{"name":"@s","objective":"snake.smokeGrenadeA"},"color":"green"}
 
 # Reload
@@ -52,12 +51,10 @@ scoreboard players remove @s[scores={snake.famasF=1..}] snake.famasF 1
 scoreboard players remove @s[scores={snake.s1000F=1..}] snake.s1000F 1
 execute as @a[scores={snake.s1000A=1..,snake.s1000F=15}] at @s run playsound ssbrc:shotgun_reload player @a
 scoreboard players remove @s[scores={snake.socomF=1..}] snake.socomF 1
+scoreboard players remove @s[scores={snake.antiPersonnelMineF=1..}] snake.antiPersonnelMineF 1
 scoreboard players remove @s[scores={snake.smokeGrenadeF=1..}] snake.smokeGrenadeF 1
 
 # Smoke Grenade
 execute as @e[type=minecraft:armor_stand,tag=smokeGrenade.display] at @s unless block ~ ~-0.1 ~ #ssbrc:passthrough run function ssbrc:series/metal_gear_solid/snake/logic/weapons/smoke_grenade/kill_item
 
 execute at @e[type=minecraft:marker,tag=smokeGrenade,tag=active,sort=nearest,limit=1] at @s if entity @s[tag=nightVisionGoggles,distance=4..] run function ssbrc:series/metal_gear_solid/snake/logic/night_vision_goggles/deactivate
-
-# Anti-Personnel Mine
-execute as @a[tag=damage.antiPersonnelMine] at @s run function ssbrc:series/metal_gear_solid/snake/logic/weapons/anti_personnel_mine/damage
