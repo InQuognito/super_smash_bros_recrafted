@@ -1,4 +1,4 @@
 particle minecraft:dust 0.9 0.9 0.8 0.5 ~ ~ ~ 0.5 0.0 0.5 0.05 25 normal @a
 
 scoreboard players add @s temp 1
-data merge entity @s[scores={temp=100}] {Radius:1.0f,Duration:10,ReapplicationDelay:9999,Effects:[{Id:7,Amplifier:50b,Duration:1,ShowParticles:0b}]}
+execute if score @s temp matches 100 run tag @e[predicate=ssbrc:flag/targets,distance=..1.5] add damage.hama
