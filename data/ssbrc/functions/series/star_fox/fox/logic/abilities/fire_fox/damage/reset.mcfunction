@@ -1,2 +1,2 @@
-tag @s remove damage.flareBlitz
+tag @s remove damage.fireFox
 scoreboard players reset @s damage
