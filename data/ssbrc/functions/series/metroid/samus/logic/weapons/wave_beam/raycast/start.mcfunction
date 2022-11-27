@@ -1,4 +1,4 @@
-teleport @s ^ ^ ^0.1
+teleport @s ^ ^ ^0.15
 
 scoreboard players set $steps temp 0
 execute anchored eyes positioned ^ ^ ^ anchored feet run function ssbrc:series/metroid/samus/logic/weapons/wave_beam/raycast/loop
