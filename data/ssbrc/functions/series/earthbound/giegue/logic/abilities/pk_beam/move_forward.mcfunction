@@ -1,6 +1,6 @@
 particle minecraft:dust 1.0 1.0 0.0 5.0 ~ ~ ~ 0.0 0.0 0.0 0.5 5 normal @a
 
-teleport @s ^ ^ ^0.5
+teleport @s ^ ^ ^1.0
 
 execute unless block ^ ^ ^0.5 #ssbrc:passthrough run kill @s
 
