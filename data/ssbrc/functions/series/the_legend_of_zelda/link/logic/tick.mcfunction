@@ -1,5 +1,5 @@
 execute if entity @s[predicate=ssbrc:characters/link.master_sword.awakened,predicate=!ssbrc:flag/sneaking,scores={useAbility=1..,cooldown.1=..0},nbt={SelectedItem:{tag:{masterSword:1}}}] at @s anchored eyes run function ssbrc:series/the_legend_of_zelda/link/logic/abilities/sword_beam/summon
-execute if entity @s[predicate=ssbrc:flag/sneaking,scores={useAbility=1..},nbt={SelectedItem:{tag:{masterSword:1}}}] run function ssbrc:series/the_legend_of_zelda/link/logic/abilities/sword_spin/activate
+execute if entity @s[predicate=ssbrc:flag/sneaking,scores={useAbility=1..},nbt={SelectedItem:{tag:{masterSword:1}}}] at @s run function ssbrc:series/the_legend_of_zelda/link/logic/abilities/sword_spin/activate
 execute if entity @s[predicate=!ssbrc:flag/sneaking,scores={charge.1=1..}] at @s run function ssbrc:series/the_legend_of_zelda/link/logic/abilities/sword_spin/deactivate
 execute if entity @s[scores={useAbility=1..},nbt={SelectedItem:{tag:{boomerang:1}}}] at @s anchored eyes run function ssbrc:series/the_legend_of_zelda/link/logic/abilities/boomerang/summon
 
