@@ -9,4 +9,4 @@ execute as @e[type=minecraft:armor_stand,tag=grenade] at @s if score @s id = @p[
 tag @s remove self
 
 # Grenade
-execute if score @s[nbt={SelectedItem:{tag:{grenade:1}}}] charge.output >= #wolf.grenadeTimer vars at @s run function ssbrc:series/star_fox/wolf/logic/abilities/grenade/explode_in_hand
+execute if score @s[nbt={SelectedItem:{tag:{grenade:1}}}] charge.output matches 1.. run function ssbrc:series/star_fox/wolf/logic/abilities/grenade/fuse_tick
