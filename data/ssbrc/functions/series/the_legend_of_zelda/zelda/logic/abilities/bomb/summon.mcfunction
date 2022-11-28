@@ -2,7 +2,7 @@ execute positioned 0.0 0.0 0.0 run summon minecraft:marker ^ ^ ^1 {Tags:["direct
 
 execute if entity @s[nbt=!{Inventory:[{tag:{ringOfBlasting:1}}]}] run summon minecraft:armor_stand ^ ^ ^1 {Tags:["bomb","modifyEntity"],Invisible:1b}
 execute if entity @s[nbt={Inventory:[{tag:{ringOfBlasting:1}}]}] run summon minecraft:armor_stand ^ ^ ^1 {Tags:["bomb","blasting","modifyEntity"],Invisible:1b}
-loot replace entity @e[tag=modifyEntity,limit=1] armor.head loot ssbrc:characters/the_legend_of_zelda/zelda/dungeon_items/bomb
+loot replace entity @e[tag=modifyEntity,limit=1] armor.head loot ssbrc:characters/the_legend_of_zelda/zelda/dungeon_items/bomb/default
 
 scoreboard players operation @e[tag=modifyEntity,limit=1] id = @s id
 data modify entity @e[tag=modifyEntity,limit=1] Owner set from entity @s UUID
