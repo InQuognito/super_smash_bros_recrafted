@@ -1,5 +1,5 @@
 execute if entity @s[scores={useAbility=1..,cooldown.1=..0},nbt={SelectedItem:{tag:{blaster:1}}}] at @s anchored eyes run function ssbrc:series/star_fox/wolf/logic/abilities/blaster/activate
-execute if entity @s[scores={useAbility=1..},nbt={SelectedItem:{tag:{grenade:1}}}] run function ssbrc:series/star_fox/wolf/logic/abilities/grenade/check
+execute if entity @s[scores={charge.step=5..,cooldown.2=..0},nbt={SelectedItem:{tag:{grenade:1}}}] run function ssbrc:series/star_fox/wolf/logic/abilities/grenade/activate
 
 execute if entity @s[scores={charge.step=5..,cooldown.3=..0},predicate=ssbrc:flag/sneaking,nbt={SelectedItem:{tag:{wolfSlash:1}}}] at @s anchored feet run function ssbrc:series/star_fox/wolf/logic/abilities/wolf_flash/activate
 
@@ -9,5 +9,4 @@ execute as @e[type=minecraft:armor_stand,tag=grenade] at @s if score @s id = @p[
 tag @s remove self
 
 # Grenade
-scoreboard players add @s[tag=activeFuse] fuse 1
-execute if score @s fuse >= #wolf.grenadeTimer vars at @s run function ssbrc:series/star_fox/wolf/logic/abilities/grenade/explode_in_hand
+execute if score @s[nbt={SelectedItem:{tag:{grenade:1}}}] charge.output >= #wolf.grenadeTimer vars at @s run function ssbrc:series/star_fox/wolf/logic/abilities/grenade/explode_in_hand
