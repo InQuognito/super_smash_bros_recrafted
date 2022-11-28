@@ -22,8 +22,7 @@ tag @s remove self
 function ssbrc:series/the_legend_of_zelda/zelda/logic/mana/update
 
 # Bomb
-scoreboard players add @s[tag=activeFuse] fuse 1
-execute if score @s fuse >= #zelda.bombTimer vars at @s run function ssbrc:series/the_legend_of_zelda/zelda/logic/abilities/bomb/explode_in_hand
+execute if entity @s[tag=activeFuse] run function ssbrc:series/the_legend_of_zelda/zelda/logic/abilities/bomb/fuse_tick
 
 # Passive Items
 effect clear @s[nbt={Inventory:[{tag:{goronLocket:1}}]}] minecraft:wither
