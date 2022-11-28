@@ -70,6 +70,9 @@ summon minecraft:glow_item_frame 10.5 11.0 17.5 {Tags:["mapIcon"],Fixed:1b,Invis
 # Pallet Town
 summon minecraft:area_effect_cloud -3.5 11.0 19.5 {Age:-2147483648,Duration:-1,WaitTime:-2147483648,Tags:["voteCounter","palletTown"],CustomNameVisible:1b}
 summon minecraft:glow_item_frame -3.5 11.0 19.5 {Tags:["mapIcon"],Fixed:1b,Invisible:1b,Facing:5b,Item:{id:"minecraft:sugar",tag:{CustomModelData:1350},Count:1b}}
+# Palutena's Temple
+summon minecraft:area_effect_cloud 7.5 11.0 28.5 {Age:-2147483648,Duration:-1,WaitTime:-2147483648,Tags:["voteCounter","palutenasTemple"],CustomNameVisible:1b}
+summon minecraft:glow_item_frame 7.5 11.0 28.5 {Tags:["mapIcon"],Fixed:1b,Invisible:1b,Facing:2b,Item:{id:"minecraft:sugar",tag:{CustomModelData:250},Count:1b}}
 # Planet Zebes
 summon minecraft:area_effect_cloud -0.5 11.0 28.5 {Age:-2147483648,Duration:-1,WaitTime:-2147483648,Tags:["voteCounter","planetZebes"],CustomNameVisible:1b}
 summon minecraft:glow_item_frame -0.5 11.0 28.5 {Tags:["mapIcon"],Fixed:1b,Invisible:1b,Facing:2b,Item:{id:"minecraft:sugar",tag:{CustomModelData:1400},Count:1b}}
