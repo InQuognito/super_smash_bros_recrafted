@@ -6,4 +6,4 @@ data modify entity @e[tag=modifyEntity,limit=1] Owner set from entity @s UUID
 
 execute as @e[tag=modifyEntity] at @s run function ssbrc:series/kingdom_hearts/sora/logic/abilities/strike_raid/summon_item
 
-clear @s minecraft:carrot_on_a_stick{starSeeker:1}
+clear @s minecraft:carrot_on_a_stick{strikeRaidOffhand:1}
