@@ -129,6 +129,8 @@ scoreboard objectives add shinyEncounter dummy
 scoreboard objectives add stiffKnees dummy
 scoreboard objectives add switzerland dummy
 scoreboard objectives add tortoise dummy
+scoreboard objectives add trulyHeroic dummy
+scoreboard objectives add trulyVillainous dummy
 scoreboard objectives add yearLongBattle dummy
 
 function ssbrc:logic/resets/scoreboards/stats

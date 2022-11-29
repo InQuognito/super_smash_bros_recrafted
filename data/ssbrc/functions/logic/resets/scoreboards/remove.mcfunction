@@ -129,4 +129,6 @@ scoreboard objectives remove shinyEncounter
 scoreboard objectives remove stiffKnees
 scoreboard objectives remove switzerland
 scoreboard objectives remove tortoise
+scoreboard objectives remove trulyHeroic
+scoreboard objectives remove trulyVillainous
 scoreboard objectives remove yearLongBattle

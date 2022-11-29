@@ -79,6 +79,16 @@ scoreboard players operation value tortoise *= value.bonus.tortoise vars
 execute if score @s tortoise matches 1.. run data modify storage ssbrc:bonuses value append value '[{"text":"Tortoise","bold":true,"color":"gold"},{"text":" - ","bold":false,"color":"white"},{"score":{"name":"value","objective":"tortoise"},"bold":false,"color":"yellow"},{"text":"₡","bold":false,"color":"yellow"}]}}]'
 scoreboard players operation @s currency.temp += value tortoise
 
+scoreboard players operation value trulyHeroic = @s trulyHeroic
+scoreboard players operation value trulyHeroic *= value.bonus.trulyHeroic vars
+execute if score @s trulyHeroic matches 1.. run data modify storage ssbrc:bonuses value append value '[{"text":"Truly Heroic","bold":true,"color":"gold"},{"text":" - ","bold":false,"color":"white"},{"score":{"name":"value","objective":"trulyHeroic"},"bold":false,"color":"yellow"},{"text":"₡","bold":false,"color":"yellow"}]}}]'
+scoreboard players operation @s currency.temp += value trulyHeroic
+
+scoreboard players operation value trulyVillainous = @s trulyVillainous
+scoreboard players operation value trulyVillainous *= value.bonus.trulyVillainous vars
+execute if score @s trulyVillainous matches 1.. run data modify storage ssbrc:bonuses value append value '[{"text":"Truly Villainous","bold":true,"color":"gold"},{"text":" - ","bold":false,"color":"white"},{"score":{"name":"value","objective":"trulyVillainous"},"bold":false,"color":"yellow"},{"text":"₡","bold":false,"color":"yellow"}]}}]'
+scoreboard players operation @s currency.temp += value trulyVillainous
+
 scoreboard players operation value yearLongBattle = @s yearLongBattle
 scoreboard players operation value yearLongBattle *= value.bonus.yearLongBattle vars
 execute if score @s yearLongBattle matches 1.. run data modify storage ssbrc:bonuses value append value '[{"text":"Year-Long Battle","bold":true,"color":"gold"},{"text":" - ","bold":false,"color":"white"},{"score":{"name":"value","objective":"yearLongBattle"},"bold":false,"color":"yellow"},{"text":"₡","bold":false,"color":"yellow"}]}}]'
