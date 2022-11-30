@@ -2,7 +2,7 @@ function ssbrc:logic/resets/calculate_stats
 
 # General Statistics
 data modify storage ssbrc:statistics/general Value set value []
-data modify storage ssbrc:statistics/general Value append value '[{"text":"Statistics","bold":true,"underlined":true,"color":"dark_gray"},{"text":"\\n"}]'
+data modify storage ssbrc:statistics/general Value append value [{"text":"Statistics","bold":true,"underlined":true,"color":"dark_gray"},{"text":"\\n"}]
 
 data modify storage ssbrc:statistics/general Value append value [{"text":"Wins: ","bold":false,"underlined":false,"color":"gray"},{"score":{"name":"@s","objective":"stats.wins"},"bold":false,"underlined":false,"color":"blue"},{"text":"\\n"},{"text":"Games Played: ","bold":false,"underlined":false,"color":"gray"},{"score":{"name":"@s","objective":"stats.gamesPlayed"},"bold":false,"underlined":false,"color":"blue"},{"text":"\\n"}]
 execute if score #wL.decimal temp matches ..9 run data modify storage ssbrc:statistics/general Value append value [{"text":"W/L Ratio: ","bold":false,"underlined":false,"color":"gray"},{"score":{"name":"#wL.integer","objective":"temp"},"bold":false,"underlined":false,"color":"blue"},{"text":".0","bold":false,"underlined":false,"color":"blue"},{"score":{"name":"#wL.decimal","objective":"temp"},"bold":false,"underlined":false,"color":"blue"},{"text":"\\n"}]
