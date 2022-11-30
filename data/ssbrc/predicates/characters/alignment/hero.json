@@ -33,13 +33,6 @@
 			"condition": "minecraft:entity_properties",
 			"entity": "this",
 			"predicate": {
-				"nbt": "{Tags:[\"charizard\"]}"
-			}
-		},
-		{
-			"condition": "minecraft:entity_properties",
-			"entity": "this",
-			"predicate": {
 				"nbt": "{Tags:[\"cloud\"]}"
 			}
 		},
@@ -69,6 +62,13 @@
 			"entity": "this",
 			"predicate": {
 				"nbt": "{Tags:[\"hero\"]}"
+			}
+		},
+		{
+			"condition": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
+				"nbt": "{Tags:[\"jigglypuff\"]}"
 			}
 		},
 		{
@@ -135,7 +135,21 @@
 			"condition": "minecraft:entity_properties",
 			"entity": "this",
 			"predicate": {
+				"nbt": "{Tags:[\"pikachu\"]}"
+			}
+		},
+		{
+			"condition": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
 				"nbt": "{Tags:[\"pit\"]}"
+			}
+		},
+		{
+			"condition": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
+				"nbt": "{Tags:[\"pokemontrainer\"]}"
 			}
 		},
 		{

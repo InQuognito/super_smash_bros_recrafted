@@ -21,8 +21,8 @@ teleport @s -520.5 5.0 55.5 90.0 0.0
 
 stopsound @s
 
-function ssbrc:logic/statistics_book
+function ssbrc:logic/statistics
 
-function ssbrc:logic/shop_book
+function ssbrc:logic/shop
 
 tag @s add loaded

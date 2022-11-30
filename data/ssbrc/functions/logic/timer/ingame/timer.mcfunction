@@ -10,3 +10,8 @@ execute as @a[tag=zelda] if score @s mana < #zelda.maxMagic vars run function ss
 
 # Tridents
 execute as @a[predicate=ssbrc:characters/kits/trident] run function ssbrc:logic/timer/characters/tridents
+
+# Bonuses
+scoreboard players add @a[predicate=ssbrc:flag/player] coward.tracking 1
+scoreboard players add @a[predicate=ssbrc:flag/player,scores={coward.tracking=60..}] coward 1
+scoreboard players reset @a[predicate=ssbrc:flag/player,scores={coward.tracking=60..}] coward.tracking

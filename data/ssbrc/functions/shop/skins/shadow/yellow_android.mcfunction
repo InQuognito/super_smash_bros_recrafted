@@ -4,4 +4,4 @@ scoreboard players operation @s currency -= #price.skin.common vars
 
 tellraw @s [{"text":"You have purchased the ","color":"white"},{"text":"Yellow Android","color":"yellow"},{"text":" skin!","color":"white"}]
 
-function ssbrc:logic/shop_book
+function ssbrc:logic/shop

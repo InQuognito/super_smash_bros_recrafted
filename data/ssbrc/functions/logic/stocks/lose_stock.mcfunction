@@ -6,8 +6,6 @@ scoreboard players set @s respawn 60
 scoreboard players set @s duration.1 0
 scoreboard players set @s duration.2 0
 scoreboard players set @s duration.3 0
-scoreboard players set @s[tag=darksamus] charge.1 0
-scoreboard players set @s[tag=shadow] charge.1 0
 
 scoreboard players set @s flag.sprinting 0
 
@@ -33,4 +31,6 @@ execute unless score #towerOfFateDestroyed temp matches 1 if score $towerOfFate 
 
 scoreboard players set @s flag.dead 0
 
+scoreboard players reset @s coward.tracking
 scoreboard players reset @s noJohns
+scoreboard players reset @s rapidKill.tracking

@@ -12,7 +12,7 @@ execute if score $gameMode options matches 1 run tellraw @s [{"text":"Match Dura
 tellraw @s[tag=admin] {"text":"You did not gain anything for this match because you switched gamemodes.","color":"red"}
 tellraw @s[tag=spectator] {"text":"You did not gain anything for this match because you were a spectator.","color":"gray"}
 
+execute if entity @s[tag=!admin,tag=!spectator] run function ssbrc:logic/post_game/update_stats
 execute if entity @s[tag=!admin,tag=!spectator] run function ssbrc:logic/post_game/bonuses
 execute if entity @s[tag=!admin,tag=!spectator] run function ssbrc:logic/post_game/calculate_earnings
-execute if entity @s[tag=!admin,tag=!spectator] run function ssbrc:logic/post_game/update_stats
 execute if entity @s[tag=!admin,tag=!spectator] run function ssbrc:logic/stats/advancements

@@ -118,19 +118,29 @@ scoreboard objectives add 8PlayerMatch dummy
 scoreboard objectives add acrobat dummy
 scoreboard objectives add acrobat.tracking dummy
 scoreboard objectives add cementShoes dummy
+scoreboard objectives add coward dummy
+scoreboard objectives add coward.tracking dummy
 scoreboard objectives add firstStrike dummy
 scoreboard objectives add fullPower dummy
+scoreboard objectives add goodFriend dummy
 scoreboard objectives add heartgold dummy
 scoreboard objectives add heavyDamage dummy
+scoreboard objectives add lastSecond dummy
 scoreboard objectives add luckyNumberSeven dummy
+scoreboard objectives add mercifulMaster dummy
 scoreboard objectives add noJohns dummy
+scoreboard objectives add onARoll dummy
+scoreboard objectives add rapidKill dummy
+scoreboard objectives add rapidKill.tracking dummy
 scoreboard objectives add shieldBreaker dummy
 scoreboard objectives add shinyEncounter dummy
+scoreboard objectives add speedDemon dummy
 scoreboard objectives add stiffKnees dummy
 scoreboard objectives add switzerland dummy
 scoreboard objectives add tortoise dummy
 scoreboard objectives add trulyHeroic dummy
 scoreboard objectives add trulyVillainous dummy
+scoreboard objectives add WACCoordinator dummy
 scoreboard objectives add yearLongBattle dummy
 
 function ssbrc:logic/resets/scoreboards/stats

@@ -7,4 +7,4 @@ scoreboard players set $music options 0
 
 tellraw @s [{"text":"Options reset to default!","color":"red"}]
 
-function ssbrc:logic/options_book
+function ssbrc:logic/options

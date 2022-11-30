@@ -10,7 +10,7 @@
 		},
 		{
 			"condition": "minecraft:reference",
-			"name": "ssbrc:characters/hero.kaclang"
+			"name": "ssbrc:characters/hero/kaclang/on"
 		},
 		{
 			"condition": "minecraft:entity_properties",

@@ -107,24 +107,6 @@ scoreboard players operation #stats.captainfalcon.wL.decimal temp %= 100 integer
 scoreboard players operation #stats.captainfalcon.wL.integer temp = #stats.captainfalcon.wL temp
 scoreboard players operation #stats.captainfalcon.wL.integer temp /= 100 integers
 
-scoreboard players operation #stats.charizard.kD temp = @s stats.charizard.kills
-scoreboard players operation #stats.charizard.kD temp *= 100 integers
-scoreboard players operation #stats.charizard.kD temp /= @s stats.charizard.deaths
-
-scoreboard players operation #stats.charizard.kD.decimal temp = #stats.charizard.kD temp
-scoreboard players operation #stats.charizard.kD.decimal temp %= 100 integers
-scoreboard players operation #stats.charizard.kD.integer temp = #stats.charizard.kD temp
-scoreboard players operation #stats.charizard.kD.integer temp /= 100 integers
-
-scoreboard players operation #stats.charizard.wL temp = @s stats.charizard.wins
-scoreboard players operation #stats.charizard.wL temp *= 100 integers
-scoreboard players operation #stats.charizard.wL temp /= @s stats.charizard.gamesPlayed
-
-scoreboard players operation #stats.charizard.wL.decimal temp = #stats.charizard.wL temp
-scoreboard players operation #stats.charizard.wL.decimal temp %= 100 integers
-scoreboard players operation #stats.charizard.wL.integer temp = #stats.charizard.wL temp
-scoreboard players operation #stats.charizard.wL.integer temp /= 100 integers
-
 scoreboard players operation #stats.cloud.kD temp = @s stats.cloud.kills
 scoreboard players operation #stats.cloud.kD temp *= 100 integers
 scoreboard players operation #stats.cloud.kD temp /= @s stats.cloud.deaths
@@ -268,6 +250,24 @@ scoreboard players operation #stats.hero.wL.decimal temp = #stats.hero.wL temp
 scoreboard players operation #stats.hero.wL.decimal temp %= 100 integers
 scoreboard players operation #stats.hero.wL.integer temp = #stats.hero.wL temp
 scoreboard players operation #stats.hero.wL.integer temp /= 100 integers
+
+scoreboard players operation #stats.jigglypuff.kD temp = @s stats.jigglypuff.kills
+scoreboard players operation #stats.jigglypuff.kD temp *= 100 integers
+scoreboard players operation #stats.jigglypuff.kD temp /= @s stats.jigglypuff.deaths
+
+scoreboard players operation #stats.jigglypuff.kD.decimal temp = #stats.jigglypuff.kD temp
+scoreboard players operation #stats.jigglypuff.kD.decimal temp %= 100 integers
+scoreboard players operation #stats.jigglypuff.kD.integer temp = #stats.jigglypuff.kD temp
+scoreboard players operation #stats.jigglypuff.kD.integer temp /= 100 integers
+
+scoreboard players operation #stats.jigglypuff.wL temp = @s stats.jigglypuff.wins
+scoreboard players operation #stats.jigglypuff.wL temp *= 100 integers
+scoreboard players operation #stats.jigglypuff.wL temp /= @s stats.jigglypuff.gamesPlayed
+
+scoreboard players operation #stats.jigglypuff.wL.decimal temp = #stats.jigglypuff.wL temp
+scoreboard players operation #stats.jigglypuff.wL.decimal temp %= 100 integers
+scoreboard players operation #stats.jigglypuff.wL.integer temp = #stats.jigglypuff.wL temp
+scoreboard players operation #stats.jigglypuff.wL.integer temp /= 100 integers
 
 scoreboard players operation #stats.joker.kD temp = @s stats.joker.kills
 scoreboard players operation #stats.joker.kD temp *= 100 integers
@@ -413,6 +413,24 @@ scoreboard players operation #stats.ness.wL.decimal temp %= 100 integers
 scoreboard players operation #stats.ness.wL.integer temp = #stats.ness.wL temp
 scoreboard players operation #stats.ness.wL.integer temp /= 100 integers
 
+scoreboard players operation #stats.pikachu.kD temp = @s stats.pikachu.kills
+scoreboard players operation #stats.pikachu.kD temp *= 100 integers
+scoreboard players operation #stats.pikachu.kD temp /= @s stats.pikachu.deaths
+
+scoreboard players operation #stats.pikachu.kD.decimal temp = #stats.pikachu.kD temp
+scoreboard players operation #stats.pikachu.kD.decimal temp %= 100 integers
+scoreboard players operation #stats.pikachu.kD.integer temp = #stats.pikachu.kD temp
+scoreboard players operation #stats.pikachu.kD.integer temp /= 100 integers
+
+scoreboard players operation #stats.pikachu.wL temp = @s stats.pikachu.wins
+scoreboard players operation #stats.pikachu.wL temp *= 100 integers
+scoreboard players operation #stats.pikachu.wL temp /= @s stats.pikachu.gamesPlayed
+
+scoreboard players operation #stats.pikachu.wL.decimal temp = #stats.pikachu.wL temp
+scoreboard players operation #stats.pikachu.wL.decimal temp %= 100 integers
+scoreboard players operation #stats.pikachu.wL.integer temp = #stats.pikachu.wL temp
+scoreboard players operation #stats.pikachu.wL.integer temp /= 100 integers
+
 scoreboard players operation #stats.pit.kD temp = @s stats.pit.kills
 scoreboard players operation #stats.pit.kD temp *= 100 integers
 scoreboard players operation #stats.pit.kD temp /= @s stats.pit.deaths
@@ -430,6 +448,42 @@ scoreboard players operation #stats.pit.wL.decimal temp = #stats.pit.wL temp
 scoreboard players operation #stats.pit.wL.decimal temp %= 100 integers
 scoreboard players operation #stats.pit.wL.integer temp = #stats.pit.wL temp
 scoreboard players operation #stats.pit.wL.integer temp /= 100 integers
+
+scoreboard players operation #stats.pokemontrainer.kD temp = @s stats.pokemontrainer.kills
+scoreboard players operation #stats.pokemontrainer.kD temp *= 100 integers
+scoreboard players operation #stats.pokemontrainer.kD temp /= @s stats.pokemontrainer.deaths
+
+scoreboard players operation #stats.pokemontrainer.kD.decimal temp = #stats.pokemontrainer.kD temp
+scoreboard players operation #stats.pokemontrainer.kD.decimal temp %= 100 integers
+scoreboard players operation #stats.pokemontrainer.kD.integer temp = #stats.pokemontrainer.kD temp
+scoreboard players operation #stats.pokemontrainer.kD.integer temp /= 100 integers
+
+scoreboard players operation #stats.pokemontrainer.wL temp = @s stats.pokemontrainer.wins
+scoreboard players operation #stats.pokemontrainer.wL temp *= 100 integers
+scoreboard players operation #stats.pokemontrainer.wL temp /= @s stats.pokemontrainer.gamesPlayed
+
+scoreboard players operation #stats.pokemontrainer.wL.decimal temp = #stats.pokemontrainer.wL temp
+scoreboard players operation #stats.pokemontrainer.wL.decimal temp %= 100 integers
+scoreboard players operation #stats.pokemontrainer.wL.integer temp = #stats.pokemontrainer.wL temp
+scoreboard players operation #stats.pokemontrainer.wL.integer temp /= 100 integers
+
+scoreboard players operation #stats.rob.kD temp = @s stats.rob.kills
+scoreboard players operation #stats.rob.kD temp *= 100 integers
+scoreboard players operation #stats.rob.kD temp /= @s stats.rob.deaths
+
+scoreboard players operation #stats.rob.kD.decimal temp = #stats.rob.kD temp
+scoreboard players operation #stats.rob.kD.decimal temp %= 100 integers
+scoreboard players operation #stats.rob.kD.integer temp = #stats.rob.kD temp
+scoreboard players operation #stats.rob.kD.integer temp /= 100 integers
+
+scoreboard players operation #stats.rob.wL temp = @s stats.rob.wins
+scoreboard players operation #stats.rob.wL temp *= 100 integers
+scoreboard players operation #stats.rob.wL temp /= @s stats.rob.gamesPlayed
+
+scoreboard players operation #stats.rob.wL.decimal temp = #stats.rob.wL temp
+scoreboard players operation #stats.rob.wL.decimal temp %= 100 integers
+scoreboard players operation #stats.rob.wL.integer temp = #stats.rob.wL temp
+scoreboard players operation #stats.rob.wL.integer temp /= 100 integers
 
 scoreboard players operation #stats.ryu.kD temp = @s stats.ryu.kills
 scoreboard players operation #stats.ryu.kD temp *= 100 integers
@@ -539,6 +593,24 @@ scoreboard players operation #stats.sonic.wL.decimal temp %= 100 integers
 scoreboard players operation #stats.sonic.wL.integer temp = #stats.sonic.wL temp
 scoreboard players operation #stats.sonic.wL.integer temp /= 100 integers
 
+scoreboard players operation #stats.sora.kD temp = @s stats.sora.kills
+scoreboard players operation #stats.sora.kD temp *= 100 integers
+scoreboard players operation #stats.sora.kD temp /= @s stats.sora.deaths
+
+scoreboard players operation #stats.sora.kD.decimal temp = #stats.sora.kD temp
+scoreboard players operation #stats.sora.kD.decimal temp %= 100 integers
+scoreboard players operation #stats.sora.kD.integer temp = #stats.sora.kD temp
+scoreboard players operation #stats.sora.kD.integer temp /= 100 integers
+
+scoreboard players operation #stats.sora.wL temp = @s stats.sora.wins
+scoreboard players operation #stats.sora.wL temp *= 100 integers
+scoreboard players operation #stats.sora.wL temp /= @s stats.sora.gamesPlayed
+
+scoreboard players operation #stats.sora.wL.decimal temp = #stats.sora.wL temp
+scoreboard players operation #stats.sora.wL.decimal temp %= 100 integers
+scoreboard players operation #stats.sora.wL.integer temp = #stats.sora.wL temp
+scoreboard players operation #stats.sora.wL.integer temp /= 100 integers
+
 scoreboard players operation #stats.steve.kD temp = @s stats.steve.kills
 scoreboard players operation #stats.steve.kD temp *= 100 integers
 scoreboard players operation #stats.steve.kD temp /= @s stats.steve.deaths
@@ -574,3 +646,57 @@ scoreboard players operation #stats.teamrocket.wL.decimal temp = #stats.teamrock
 scoreboard players operation #stats.teamrocket.wL.decimal temp %= 100 integers
 scoreboard players operation #stats.teamrocket.wL.integer temp = #stats.teamrocket.wL temp
 scoreboard players operation #stats.teamrocket.wL.integer temp /= 100 integers
+
+scoreboard players operation #stats.wolf.kD temp = @s stats.wolf.kills
+scoreboard players operation #stats.wolf.kD temp *= 100 integers
+scoreboard players operation #stats.wolf.kD temp /= @s stats.wolf.deaths
+
+scoreboard players operation #stats.wolf.kD.decimal temp = #stats.wolf.kD temp
+scoreboard players operation #stats.wolf.kD.decimal temp %= 100 integers
+scoreboard players operation #stats.wolf.kD.integer temp = #stats.wolf.kD temp
+scoreboard players operation #stats.wolf.kD.integer temp /= 100 integers
+
+scoreboard players operation #stats.wolf.wL temp = @s stats.wolf.wins
+scoreboard players operation #stats.wolf.wL temp *= 100 integers
+scoreboard players operation #stats.wolf.wL temp /= @s stats.wolf.gamesPlayed
+
+scoreboard players operation #stats.wolf.wL.decimal temp = #stats.wolf.wL temp
+scoreboard players operation #stats.wolf.wL.decimal temp %= 100 integers
+scoreboard players operation #stats.wolf.wL.integer temp = #stats.wolf.wL temp
+scoreboard players operation #stats.wolf.wL.integer temp /= 100 integers
+
+scoreboard players operation #stats.yar.kD temp = @s stats.yar.kills
+scoreboard players operation #stats.yar.kD temp *= 100 integers
+scoreboard players operation #stats.yar.kD temp /= @s stats.yar.deaths
+
+scoreboard players operation #stats.yar.kD.decimal temp = #stats.yar.kD temp
+scoreboard players operation #stats.yar.kD.decimal temp %= 100 integers
+scoreboard players operation #stats.yar.kD.integer temp = #stats.yar.kD temp
+scoreboard players operation #stats.yar.kD.integer temp /= 100 integers
+
+scoreboard players operation #stats.yar.wL temp = @s stats.yar.wins
+scoreboard players operation #stats.yar.wL temp *= 100 integers
+scoreboard players operation #stats.yar.wL temp /= @s stats.yar.gamesPlayed
+
+scoreboard players operation #stats.yar.wL.decimal temp = #stats.yar.wL temp
+scoreboard players operation #stats.yar.wL.decimal temp %= 100 integers
+scoreboard players operation #stats.yar.wL.integer temp = #stats.yar.wL temp
+scoreboard players operation #stats.yar.wL.integer temp /= 100 integers
+
+scoreboard players operation #stats.zelda.kD temp = @s stats.zelda.kills
+scoreboard players operation #stats.zelda.kD temp *= 100 integers
+scoreboard players operation #stats.zelda.kD temp /= @s stats.zelda.deaths
+
+scoreboard players operation #stats.zelda.kD.decimal temp = #stats.zelda.kD temp
+scoreboard players operation #stats.zelda.kD.decimal temp %= 100 integers
+scoreboard players operation #stats.zelda.kD.integer temp = #stats.zelda.kD temp
+scoreboard players operation #stats.zelda.kD.integer temp /= 100 integers
+
+scoreboard players operation #stats.zelda.wL temp = @s stats.zelda.wins
+scoreboard players operation #stats.zelda.wL temp *= 100 integers
+scoreboard players operation #stats.zelda.wL temp /= @s stats.zelda.gamesPlayed
+
+scoreboard players operation #stats.zelda.wL.decimal temp = #stats.zelda.wL temp
+scoreboard players operation #stats.zelda.wL.decimal temp %= 100 integers
+scoreboard players operation #stats.zelda.wL.integer temp = #stats.zelda.wL temp
+scoreboard players operation #stats.zelda.wL.integer temp /= 100 integers

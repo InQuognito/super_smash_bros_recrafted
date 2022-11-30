@@ -21,6 +21,9 @@ tag @s[tag=cloud] remove punisher
 tag @s[tag=cloud] add operator
 scoreboard players set @s[tag=cloud] cloud.limit 0
 
+# Dark Samus
+scoreboard players set @s[tag=darksamus] charge.1 0
+
 # Donkey Kong
 clear @s[tag=donkeykong] minecraft:splash_potion{orangeBomb:1}
 loot replace entity @s[tag=donkeykong] hotbar.2 loot ssbrc:characters/donkey_kong/donkeykong/orange_grenade

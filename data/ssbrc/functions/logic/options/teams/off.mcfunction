@@ -3,7 +3,7 @@ execute if score $teams options matches 0 run tellraw @s [{"text":"Teams","color
 
 scoreboard players set $teams options 0
 
-function ssbrc:logic/options_book
+function ssbrc:logic/options
 
 function ssbrc:logic/resets/teams
 

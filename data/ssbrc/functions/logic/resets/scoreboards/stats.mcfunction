@@ -28,12 +28,6 @@ scoreboard objectives add stats.captainfalcon.gamesPlayed dummy
 scoreboard objectives add stats.captainfalcon.wins dummy
 scoreboard objectives add stats.captainfalcon.winStreak dummy
 
-scoreboard objectives add stats.charizard.deaths dummy
-scoreboard objectives add stats.charizard.kills dummy
-scoreboard objectives add stats.charizard.gamesPlayed dummy
-scoreboard objectives add stats.charizard.wins dummy
-scoreboard objectives add stats.charizard.winStreak dummy
-
 scoreboard objectives add stats.cloud.deaths dummy
 scoreboard objectives add stats.cloud.kills dummy
 scoreboard objectives add stats.cloud.gamesPlayed dummy
@@ -81,6 +75,12 @@ scoreboard objectives add stats.hero.kills dummy
 scoreboard objectives add stats.hero.gamesPlayed dummy
 scoreboard objectives add stats.hero.wins dummy
 scoreboard objectives add stats.hero.winStreak dummy
+
+scoreboard objectives add stats.jigglypuff.deaths dummy
+scoreboard objectives add stats.jigglypuff.kills dummy
+scoreboard objectives add stats.jigglypuff.gamesPlayed dummy
+scoreboard objectives add stats.jigglypuff.wins dummy
+scoreboard objectives add stats.jigglypuff.winStreak dummy
 
 scoreboard objectives add stats.joker.deaths dummy
 scoreboard objectives add stats.joker.kills dummy
@@ -130,11 +130,29 @@ scoreboard objectives add stats.ness.gamesPlayed dummy
 scoreboard objectives add stats.ness.wins dummy
 scoreboard objectives add stats.ness.winStreak dummy
 
+scoreboard objectives add stats.pikachu.deaths dummy
+scoreboard objectives add stats.pikachu.kills dummy
+scoreboard objectives add stats.pikachu.gamesPlayed dummy
+scoreboard objectives add stats.pikachu.wins dummy
+scoreboard objectives add stats.pikachu.winStreak dummy
+
 scoreboard objectives add stats.pit.deaths dummy
 scoreboard objectives add stats.pit.kills dummy
 scoreboard objectives add stats.pit.gamesPlayed dummy
 scoreboard objectives add stats.pit.wins dummy
 scoreboard objectives add stats.pit.winStreak dummy
+
+scoreboard objectives add stats.pokemontrainer.deaths dummy
+scoreboard objectives add stats.pokemontrainer.kills dummy
+scoreboard objectives add stats.pokemontrainer.gamesPlayed dummy
+scoreboard objectives add stats.pokemontrainer.wins dummy
+scoreboard objectives add stats.pokemontrainer.winStreak dummy
+
+scoreboard objectives add stats.rob.deaths dummy
+scoreboard objectives add stats.rob.kills dummy
+scoreboard objectives add stats.rob.gamesPlayed dummy
+scoreboard objectives add stats.rob.wins dummy
+scoreboard objectives add stats.rob.winStreak dummy
 
 scoreboard objectives add stats.ryu.deaths dummy
 scoreboard objectives add stats.ryu.kills dummy
@@ -172,6 +190,12 @@ scoreboard objectives add stats.sonic.gamesPlayed dummy
 scoreboard objectives add stats.sonic.wins dummy
 scoreboard objectives add stats.sonic.winStreak dummy
 
+scoreboard objectives add stats.sora.deaths dummy
+scoreboard objectives add stats.sora.kills dummy
+scoreboard objectives add stats.sora.gamesPlayed dummy
+scoreboard objectives add stats.sora.wins dummy
+scoreboard objectives add stats.sora.winStreak dummy
+
 scoreboard objectives add stats.steve.deaths dummy
 scoreboard objectives add stats.steve.kills dummy
 scoreboard objectives add stats.steve.gamesPlayed dummy
@@ -184,6 +208,24 @@ scoreboard objectives add stats.teamrocket.gamesPlayed dummy
 scoreboard objectives add stats.teamrocket.wins dummy
 scoreboard objectives add stats.teamrocket.winStreak dummy
 
+scoreboard objectives add stats.wolf.deaths dummy
+scoreboard objectives add stats.wolf.kills dummy
+scoreboard objectives add stats.wolf.gamesPlayed dummy
+scoreboard objectives add stats.wolf.wins dummy
+scoreboard objectives add stats.wolf.winStreak dummy
+
+scoreboard objectives add stats.yar.deaths dummy
+scoreboard objectives add stats.yar.kills dummy
+scoreboard objectives add stats.yar.gamesPlayed dummy
+scoreboard objectives add stats.yar.wins dummy
+scoreboard objectives add stats.yar.winStreak dummy
+
+scoreboard objectives add stats.zelda.deaths dummy
+scoreboard objectives add stats.zelda.kills dummy
+scoreboard objectives add stats.zelda.gamesPlayed dummy
+scoreboard objectives add stats.zelda.wins dummy
+scoreboard objectives add stats.zelda.winStreak dummy
+
 execute as @a run function ssbrc:logic/resets/scoreboards/set_empty_stats
 
 # Misc
@@ -193,6 +235,8 @@ scoreboard objectives add stats.gamesPlayed dummy
 scoreboard objectives add stats.kD dummy
 scoreboard objectives add stats.kills minecraft.custom:minecraft.player_kills
 scoreboard objectives add stats.wins dummy
+scoreboard objectives add stats.winStreak dummy
+scoreboard objectives add stats.winStreak.record dummy
 scoreboard objectives add stats.wL dummy
 
 # Bonuses

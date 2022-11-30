@@ -74,3 +74,4 @@ execute if entity @s[tag=leechSeed] run function ssbrc:series/pokemon/pokemontra
 
 scoreboard players reset @s[scores={stiffKnees=1..},predicate=ssbrc:flag/sneaking] stiffKnees
 scoreboard players reset @s[scores={tortoise=1..},predicate=ssbrc:flag/sprinting] tortoise
+scoreboard players remove @s[scores={rapidKill.tracking=1..}] rapidKill.tracking 1

@@ -39,6 +39,11 @@ scoreboard players operation value fullPower *= value.bonus.fullPower vars
 execute if score @s fullPower matches 1.. run data modify storage ssbrc:bonuses value append value '[{"text":"Full Power","bold":true,"color":"gold"},{"text":" - ","bold":false,"color":"white"},{"score":{"name":"value","objective":"fullPower"},"bold":false,"color":"yellow"},{"text":"₡","bold":false,"color":"yellow"}]}}]'
 scoreboard players operation @s currency.temp += value fullPower
 
+scoreboard players operation value goodFriend = @s goodFriend
+scoreboard players operation value goodFriend *= value.bonus.goodFriend vars
+execute if score @s goodFriend matches 1.. run data modify storage ssbrc:bonuses value append value '[{"text":"Good Friend","bold":true,"color":"gold"},{"text":" - ","bold":false,"color":"white"},{"score":{"name":"value","objective":"goodFriend"},"bold":false,"color":"yellow"},{"text":"₡","bold":false,"color":"yellow"}]}}]'
+scoreboard players operation @s currency.temp += value goodFriend
+
 scoreboard players operation value heartgold = @s heartgold
 scoreboard players operation value heartgold *= value.bonus.heartgold vars
 execute if score @s heartgold matches 1.. run data modify storage ssbrc:bonuses value append value '[{"text":"Heartgold","bold":true,"color":"gold"},{"text":" - ","bold":false,"color":"white"},{"score":{"name":"value","objective":"heartgold"},"bold":false,"color":"yellow"},{"text":"₡","bold":false,"color":"yellow"}]}}]'
@@ -49,15 +54,35 @@ scoreboard players operation value heavyDamage *= value.bonus.heavyDamage vars
 execute if score @s heavyDamage matches 1.. run data modify storage ssbrc:bonuses value append value '[{"text":"Heavy Damage","bold":true,"color":"gold"},{"text":" - ","bold":false,"color":"white"},{"score":{"name":"value","objective":"heavyDamage"},"bold":false,"color":"yellow"},{"text":"₡","bold":false,"color":"yellow"}]}}]'
 scoreboard players operation @s currency.temp += value heavyDamage
 
+scoreboard players operation value lastSecond = @s lastSecond
+scoreboard players operation value lastSecond *= value.bonus.lastSecond vars
+execute if score @s lastSecond matches 1.. run data modify storage ssbrc:bonuses value append value '[{"text":"Last Second","bold":true,"color":"gold"},{"text":" - ","bold":false,"color":"white"},{"score":{"name":"value","objective":"lastSecond"},"bold":false,"color":"yellow"},{"text":"₡","bold":false,"color":"yellow"}]}}]'
+scoreboard players operation @s currency.temp += value lastSecond
+
 scoreboard players operation value luckyNumberSeven = @s luckyNumberSeven
 scoreboard players operation value luckyNumberSeven *= value.bonus.luckyNumberSeven vars
 execute if score @s luckyNumberSeven matches 1.. run data modify storage ssbrc:bonuses value append value '[{"text":"Lucky Number Seven","bold":true,"color":"gold"},{"text":" - ","bold":false,"color":"white"},{"score":{"name":"value","objective":"luckyNumberSeven"},"bold":false,"color":"yellow"},{"text":"₡","bold":false,"color":"yellow"}]}}]'
 scoreboard players operation @s currency.temp += value luckyNumberSeven
 
+scoreboard players operation value mercifulMaster = @s mercifulMaster
+scoreboard players operation value mercifulMaster *= value.bonus.mercifulMaster vars
+execute if score @s mercifulMaster matches 1.. run data modify storage ssbrc:bonuses value append value '[{"text":"Merciful Master","bold":true,"color":"gold"},{"text":" - ","bold":false,"color":"white"},{"score":{"name":"value","objective":"mercifulMaster"},"bold":false,"color":"yellow"},{"text":"₡","bold":false,"color":"yellow"}]}}]'
+scoreboard players operation @s currency.temp += value mercifulMaster
+
 scoreboard players operation value noJohns = @s noJohns
 scoreboard players operation value noJohns *= value.bonus.noJohns vars
 execute if score @s noJohns matches 1.. run data modify storage ssbrc:bonuses value append value '[{"text":"No Johns","bold":true,"color":"gold"},{"text":" - ","bold":false,"color":"white"},{"score":{"name":"value","objective":"noJohns"},"bold":false,"color":"yellow"},{"text":"₡","bold":false,"color":"yellow"}]}}]'
 scoreboard players operation @s currency.temp += value noJohns
+
+scoreboard players operation value onARoll = @s onARoll
+scoreboard players operation value onARoll *= value.bonus.onARoll vars
+execute if score @s onARoll matches 1.. run data modify storage ssbrc:bonuses value append value '[{"text":"On a Roll","bold":true,"color":"gold"},{"text":" - ","bold":false,"color":"white"},{"score":{"name":"value","objective":"onARoll"},"bold":false,"color":"yellow"},{"text":"₡","bold":false,"color":"yellow"}]}}]'
+scoreboard players operation @s currency.temp += value onARoll
+
+scoreboard players operation value speedDemon = @s speedDemon
+scoreboard players operation value speedDemon *= value.bonus.speedDemon vars
+execute if score @s speedDemon matches 1.. run data modify storage ssbrc:bonuses value append value '[{"text":"Speed Demon","bold":true,"color":"gold"},{"text":" - ","bold":false,"color":"white"},{"score":{"name":"value","objective":"speedDemon"},"bold":false,"color":"yellow"},{"text":"₡","bold":false,"color":"yellow"}]}}]'
+scoreboard players operation @s currency.temp += value speedDemon
 
 scoreboard players operation value stiffKnees = @s stiffKnees
 scoreboard players operation value stiffKnees *= value.bonus.stiffKnees vars
@@ -89,6 +114,11 @@ scoreboard players operation value trulyVillainous *= value.bonus.trulyVillainou
 execute if score @s trulyVillainous matches 1.. run data modify storage ssbrc:bonuses value append value '[{"text":"Truly Villainous","bold":true,"color":"gold"},{"text":" - ","bold":false,"color":"white"},{"score":{"name":"value","objective":"trulyVillainous"},"bold":false,"color":"yellow"},{"text":"₡","bold":false,"color":"yellow"}]}}]'
 scoreboard players operation @s currency.temp += value trulyVillainous
 
+scoreboard players operation value WACCoordinator = @s WACCoordinator
+scoreboard players operation value WACCoordinator *= value.bonus.WACCoordinator vars
+execute if score @s WACCoordinator matches 1.. run data modify storage ssbrc:bonuses value append value '[{"text":"WAC Coordinator","bold":true,"color":"gold"},{"text":" - ","bold":false,"color":"white"},{"score":{"name":"value","objective":"WACCoordinator"},"bold":false,"color":"yellow"},{"text":"₡","bold":false,"color":"yellow"}]}}]'
+scoreboard players operation @s currency.temp += value WACCoordinator
+
 scoreboard players operation value yearLongBattle = @s yearLongBattle
 scoreboard players operation value yearLongBattle *= value.bonus.yearLongBattle vars
 execute if score @s yearLongBattle matches 1.. run data modify storage ssbrc:bonuses value append value '[{"text":"Year-Long Battle","bold":true,"color":"gold"},{"text":" - ","bold":false,"color":"white"},{"score":{"name":"value","objective":"yearLongBattle"},"bold":false,"color":"yellow"},{"text":"₡","bold":false,"color":"yellow"}]}}]'
@@ -98,6 +128,16 @@ scoreboard players operation value 765o = @s 765o
 scoreboard players operation value 765o *= value.bonus.765o vars
 execute if score @s 765o matches 1.. run data modify storage ssbrc:bonuses value append value '[{"score":{"name":"@s","objective":"765o"},"bold":true,"color":"yellow"},{"text":"x ","bold":true,"color":"yellow"},{"text":"765o","bold":true,"color":"gold"},{"text":" - ","bold":false,"color":"white"},{"score":{"name":"value","objective":"765o"},"bold":false,"color":"yellow"},{"text":"₡","bold":false,"color":"yellow"}]}}]'
 scoreboard players operation @s currency.temp += value 765o
+
+scoreboard players operation value coward = @s coward
+scoreboard players operation value coward *= value.bonus.coward vars
+execute if score @s coward matches 1.. run data modify storage ssbrc:bonuses value append value '[{"score":{"name":"@s","objective":"coward"},"bold":true,"color":"yellow"},{"text":"x ","bold":true,"color":"yellow"},{"text":"Coward","bold":true,"color":"gold"},{"text":" - ","bold":false,"color":"white"},{"score":{"name":"value","objective":"coward"},"bold":false,"color":"yellow"},{"text":"₡","bold":false,"color":"yellow"}]}}]'
+scoreboard players operation @s currency.temp += value coward
+
+scoreboard players operation value rapidKill = @s rapidKill
+scoreboard players operation value rapidKill *= value.bonus.rapidKill vars
+execute if score @s rapidKill matches 1.. run data modify storage ssbrc:bonuses value append value '[{"score":{"name":"@s","objective":"rapidKill"},"bold":true,"color":"yellow"},{"text":"x ","bold":true,"color":"yellow"},{"text":"Rapid Kill","bold":true,"color":"gold"},{"text":" - ","bold":false,"color":"white"},{"score":{"name":"value","objective":"rapidKill"},"bold":false,"color":"yellow"},{"text":"₡","bold":false,"color":"yellow"}]}}]'
+scoreboard players operation @s currency.temp += value rapidKill
 
 scoreboard players operation value shieldBreaker = @s shieldBreaker
 scoreboard players operation value shieldBreaker *= value.bonus.shieldBreaker vars
@@ -109,6 +149,7 @@ scoreboard players operation value shinyEncounter *= value.bonus.shinyEncounter 
 execute if score @s shinyEncounter matches 1.. run data modify storage ssbrc:bonuses value append value '[{"score":{"name":"@s","objective":"shinyEncounter"},"bold":true,"color":"yellow"},{"text":"x ","bold":true,"color":"yellow"},{"text":"Shiny Encounter","bold":true,"color":"gold"},{"text":" - ","bold":false,"color":"white"},{"score":{"name":"value","objective":"shinyEncounter"},"bold":false,"color":"yellow"},{"text":"₡","bold":false,"color":"yellow"}]}}]'
 scoreboard players operation @s currency.temp += value shinyEncounter
 
+scoreboard players set @s[scores={currency.temp=..-1}] currency.temp 0
 tellraw @s [{"text":"Credits Earned: ","color":"gold"},{"score":{"name":"@s","objective":"currency.temp"},"color":"yellow"},{"text":"₡","color":"yellow"}]
 scoreboard players operation @s currency += @s currency.temp
 

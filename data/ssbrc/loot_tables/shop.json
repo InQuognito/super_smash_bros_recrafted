@@ -1,0 +1,1104 @@
+{
+	"type": "minecraft:command",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:written_book",
+					"functions": [
+						{
+							"function": "minecraft:set_name",
+							"entity": "this",
+							"name": {
+								"text": "Shop",
+								"color": "gold",
+								"bold": true,
+								"italic": false
+							}
+						},
+						{
+							"function": "minecraft:copy_nbt",
+							"source": {
+								"type": "minecraft:storage",
+								"source": "ssbrc:statistics/general"
+							},
+							"ops": [
+								{
+									"source": "Value",
+									"target": "pages[]",
+									"op": "append"
+								}
+							]
+						},
+						{
+							"function": "minecraft:copy_nbt",
+							"source": {
+								"type": "minecraft:storage",
+								"source": "ssbrc:statistics/fighters/alteredbeast"
+							},
+							"ops": [
+								{
+									"source": "Value",
+									"target": "pages[]",
+									"op": "append"
+								}
+							],
+							"conditions": [
+								{
+									"condition": "minecraft:entity_properties",
+									"entity": "this",
+									"predicate": {
+										"type_specific": {
+											"type": "player",
+											"advancements": {
+												"ssbrc:series/retro_fighters/alteredbeast/skins/default": true
+											}
+										}
+									}
+								}
+							]
+						},
+						{
+							"function": "minecraft:copy_nbt",
+							"source": {
+								"type": "minecraft:storage",
+								"source": "ssbrc:statistics/fighters/alucard"
+							},
+							"ops": [
+								{
+									"source": "Value",
+									"target": "pages[]",
+									"op": "append"
+								}
+							],
+							"conditions": [
+								{
+									"condition": "minecraft:entity_properties",
+									"entity": "this",
+									"predicate": {
+										"type_specific": {
+											"type": "player",
+											"advancements": {
+												"ssbrc:series/castlevania/alucard/skins/default": true
+											}
+										}
+									}
+								}
+							]
+						},
+						{
+							"function": "minecraft:copy_nbt",
+							"source": {
+								"type": "minecraft:storage",
+								"source": "ssbrc:statistics/fighters/bowser"
+							},
+							"ops": [
+								{
+									"source": "Value",
+									"target": "pages[]",
+									"op": "append"
+								}
+							],
+							"conditions": [
+								{
+									"condition": "minecraft:entity_properties",
+									"entity": "this",
+									"predicate": {
+										"type_specific": {
+											"type": "player",
+											"advancements": {
+												"ssbrc:series/super_mario_bros/bowser/skins/default": true
+											}
+										}
+									}
+								}
+							]
+						},
+						{
+							"function": "minecraft:copy_nbt",
+							"source": {
+								"type": "minecraft:storage",
+								"source": "ssbrc:statistics/fighters/byleth"
+							},
+							"ops": [
+								{
+									"source": "Value",
+									"target": "pages[]",
+									"op": "append"
+								}
+							],
+							"conditions": [
+								{
+									"condition": "minecraft:entity_properties",
+									"entity": "this",
+									"predicate": {
+										"type_specific": {
+											"type": "player",
+											"advancements": {
+												"ssbrc:series/fire_emblem/byleth/skins/default": true
+											}
+										}
+									}
+								}
+							]
+						},
+						{
+							"function": "minecraft:copy_nbt",
+							"source": {
+								"type": "minecraft:storage",
+								"source": "ssbrc:statistics/fighters/captainfalcon"
+							},
+							"ops": [
+								{
+									"source": "Value",
+									"target": "pages[]",
+									"op": "append"
+								}
+							],
+							"conditions": [
+								{
+									"condition": "minecraft:entity_properties",
+									"entity": "this",
+									"predicate": {
+										"type_specific": {
+											"type": "player",
+											"advancements": {
+												"ssbrc:series/f_zero/captainfalcon/skins/default": true
+											}
+										}
+									}
+								}
+							]
+						},
+						{
+							"function": "minecraft:copy_nbt",
+							"source": {
+								"type": "minecraft:storage",
+								"source": "ssbrc:statistics/fighters/cloud"
+							},
+							"ops": [
+								{
+									"source": "Value",
+									"target": "pages[]",
+									"op": "append"
+								}
+							],
+							"conditions": [
+								{
+									"condition": "minecraft:entity_properties",
+									"entity": "this",
+									"predicate": {
+										"type_specific": {
+											"type": "player",
+											"advancements": {
+												"ssbrc:series/final_fantasy/cloud/skins/default": true
+											}
+										}
+									}
+								}
+							]
+						},
+						{
+							"function": "minecraft:copy_nbt",
+							"source": {
+								"type": "minecraft:storage",
+								"source": "ssbrc:statistics/fighters/darksamus"
+							},
+							"ops": [
+								{
+									"source": "Value",
+									"target": "pages[]",
+									"op": "append"
+								}
+							],
+							"conditions": [
+								{
+									"condition": "minecraft:entity_properties",
+									"entity": "this",
+									"predicate": {
+										"type_specific": {
+											"type": "player",
+											"advancements": {
+												"ssbrc:series/metroid/darksamus/skins/default": true
+											}
+										}
+									}
+								}
+							]
+						},
+						{
+							"function": "minecraft:copy_nbt",
+							"source": {
+								"type": "minecraft:storage",
+								"source": "ssbrc:statistics/fighters/donkeykong"
+							},
+							"ops": [
+								{
+									"source": "Value",
+									"target": "pages[]",
+									"op": "append"
+								}
+							],
+							"conditions": [
+								{
+									"condition": "minecraft:entity_properties",
+									"entity": "this",
+									"predicate": {
+										"type_specific": {
+											"type": "player",
+											"advancements": {
+												"ssbrc:series/donkey_kong/donkeykong/skins/default": true
+											}
+										}
+									}
+								}
+							]
+						},
+						{
+							"function": "minecraft:copy_nbt",
+							"source": {
+								"type": "minecraft:storage",
+								"source": "ssbrc:statistics/fighters/fox"
+							},
+							"ops": [
+								{
+									"source": "Value",
+									"target": "pages[]",
+									"op": "append"
+								}
+							],
+							"conditions": [
+								{
+									"condition": "minecraft:entity_properties",
+									"entity": "this",
+									"predicate": {
+										"type_specific": {
+											"type": "player",
+											"advancements": {
+												"ssbrc:series/star_fox/fox/skins/default": true
+											}
+										}
+									}
+								}
+							]
+						},
+						{
+							"function": "minecraft:copy_nbt",
+							"source": {
+								"type": "minecraft:storage",
+								"source": "ssbrc:statistics/fighters/ganondorf"
+							},
+							"ops": [
+								{
+									"source": "Value",
+									"target": "pages[]",
+									"op": "append"
+								}
+							],
+							"conditions": [
+								{
+									"condition": "minecraft:entity_properties",
+									"entity": "this",
+									"predicate": {
+										"type_specific": {
+											"type": "player",
+											"advancements": {
+												"ssbrc:series/the_legend_of_zelda/ganondorf/skins/default": true
+											}
+										}
+									}
+								}
+							]
+						},
+						{
+							"function": "minecraft:copy_nbt",
+							"source": {
+								"type": "minecraft:storage",
+								"source": "ssbrc:statistics/fighters/giegue"
+							},
+							"ops": [
+								{
+									"source": "Value",
+									"target": "pages[]",
+									"op": "append"
+								}
+							],
+							"conditions": [
+								{
+									"condition": "minecraft:entity_properties",
+									"entity": "this",
+									"predicate": {
+										"type_specific": {
+											"type": "player",
+											"advancements": {
+												"ssbrc:series/earthbound/giegue/skins/default": true
+											}
+										}
+									}
+								}
+							]
+						},
+						{
+							"function": "minecraft:copy_nbt",
+							"source": {
+								"type": "minecraft:storage",
+								"source": "ssbrc:statistics/fighters/greninja"
+							},
+							"ops": [
+								{
+									"source": "Value",
+									"target": "pages[]",
+									"op": "append"
+								}
+							],
+							"conditions": [
+								{
+									"condition": "minecraft:entity_properties",
+									"entity": "this",
+									"predicate": {
+										"type_specific": {
+											"type": "player",
+											"advancements": {
+												"ssbrc:series/pokemon/greninja/skins/default": true
+											}
+										}
+									}
+								}
+							]
+						},
+						{
+							"function": "minecraft:copy_nbt",
+							"source": {
+								"type": "minecraft:storage",
+								"source": "ssbrc:statistics/fighters/hero"
+							},
+							"ops": [
+								{
+									"source": "Value",
+									"target": "pages[]",
+									"op": "append"
+								}
+							],
+							"conditions": [
+								{
+									"condition": "minecraft:entity_properties",
+									"entity": "this",
+									"predicate": {
+										"type_specific": {
+											"type": "player",
+											"advancements": {
+												"ssbrc:series/dragon_quest/hero/skins/default": true
+											}
+										}
+									}
+								}
+							]
+						},
+						{
+							"function": "minecraft:copy_nbt",
+							"source": {
+								"type": "minecraft:storage",
+								"source": "ssbrc:statistics/fighters/jigglypuff"
+							},
+							"ops": [
+								{
+									"source": "Value",
+									"target": "pages[]",
+									"op": "append"
+								}
+							],
+							"conditions": [
+								{
+									"condition": "minecraft:entity_properties",
+									"entity": "this",
+									"predicate": {
+										"type_specific": {
+											"type": "player",
+											"advancements": {
+												"ssbrc:series/pokemon/jigglypuff/skins/default": true
+											}
+										}
+									}
+								}
+							]
+						},
+						{
+							"function": "minecraft:copy_nbt",
+							"source": {
+								"type": "minecraft:storage",
+								"source": "ssbrc:statistics/fighters/joker"
+							},
+							"ops": [
+								{
+									"source": "Value",
+									"target": "pages[]",
+									"op": "append"
+								}
+							],
+							"conditions": [
+								{
+									"condition": "minecraft:entity_properties",
+									"entity": "this",
+									"predicate": {
+										"type_specific": {
+											"type": "player",
+											"advancements": {
+												"ssbrc:series/persona/joker/skins/default": true
+											}
+										}
+									}
+								}
+							]
+						},
+						{
+							"function": "minecraft:copy_nbt",
+							"source": {
+								"type": "minecraft:storage",
+								"source": "ssbrc:statistics/fighters/kingkrool"
+							},
+							"ops": [
+								{
+									"source": "Value",
+									"target": "pages[]",
+									"op": "append"
+								}
+							],
+							"conditions": [
+								{
+									"condition": "minecraft:entity_properties",
+									"entity": "this",
+									"predicate": {
+										"type_specific": {
+											"type": "player",
+											"advancements": {
+												"ssbrc:series/donkey_kong/kingkrool/skins/default": true
+											}
+										}
+									}
+								}
+							]
+						},
+						{
+							"function": "minecraft:copy_nbt",
+							"source": {
+								"type": "minecraft:storage",
+								"source": "ssbrc:statistics/fighters/kirby"
+							},
+							"ops": [
+								{
+									"source": "Value",
+									"target": "pages[]",
+									"op": "append"
+								}
+							],
+							"conditions": [
+								{
+									"condition": "minecraft:entity_properties",
+									"entity": "this",
+									"predicate": {
+										"type_specific": {
+											"type": "player",
+											"advancements": {
+												"ssbrc:series/kirby/kirby/skins/default": true
+											}
+										}
+									}
+								}
+							]
+						},
+						{
+							"function": "minecraft:copy_nbt",
+							"source": {
+								"type": "minecraft:storage",
+								"source": "ssbrc:statistics/fighters/link"
+							},
+							"ops": [
+								{
+									"source": "Value",
+									"target": "pages[]",
+									"op": "append"
+								}
+							],
+							"conditions": [
+								{
+									"condition": "minecraft:entity_properties",
+									"entity": "this",
+									"predicate": {
+										"type_specific": {
+											"type": "player",
+											"advancements": {
+												"ssbrc:series/the_legend_of_zelda/link/skins/default": true
+											}
+										}
+									}
+								}
+							]
+						},
+						{
+							"function": "minecraft:copy_nbt",
+							"source": {
+								"type": "minecraft:storage",
+								"source": "ssbrc:statistics/fighters/luigi"
+							},
+							"ops": [
+								{
+									"source": "Value",
+									"target": "pages[]",
+									"op": "append"
+								}
+							],
+							"conditions": [
+								{
+									"condition": "minecraft:entity_properties",
+									"entity": "this",
+									"predicate": {
+										"type_specific": {
+											"type": "player",
+											"advancements": {
+												"ssbrc:series/super_mario_bros/luigi/skins/default": true
+											}
+										}
+									}
+								}
+							]
+						},
+						{
+							"function": "minecraft:copy_nbt",
+							"source": {
+								"type": "minecraft:storage",
+								"source": "ssbrc:statistics/fighters/mario"
+							},
+							"ops": [
+								{
+									"source": "Value",
+									"target": "pages[]",
+									"op": "append"
+								}
+							],
+							"conditions": [
+								{
+									"condition": "minecraft:entity_properties",
+									"entity": "this",
+									"predicate": {
+										"type_specific": {
+											"type": "player",
+											"advancements": {
+												"ssbrc:series/super_mario_bros/mario/skins/default": true
+											}
+										}
+									}
+								}
+							]
+						},
+						{
+							"function": "minecraft:copy_nbt",
+							"source": {
+								"type": "minecraft:storage",
+								"source": "ssbrc:statistics/fighters/megaman"
+							},
+							"ops": [
+								{
+									"source": "Value",
+									"target": "pages[]",
+									"op": "append"
+								}
+							],
+							"conditions": [
+								{
+									"condition": "minecraft:entity_properties",
+									"entity": "this",
+									"predicate": {
+										"type_specific": {
+											"type": "player",
+											"advancements": {
+												"ssbrc:series/mega_man/megaman/skins/default": true
+											}
+										}
+									}
+								}
+							]
+						},
+						{
+							"function": "minecraft:copy_nbt",
+							"source": {
+								"type": "minecraft:storage",
+								"source": "ssbrc:statistics/fighters/ness"
+							},
+							"ops": [
+								{
+									"source": "Value",
+									"target": "pages[]",
+									"op": "append"
+								}
+							],
+							"conditions": [
+								{
+									"condition": "minecraft:entity_properties",
+									"entity": "this",
+									"predicate": {
+										"type_specific": {
+											"type": "player",
+											"advancements": {
+												"ssbrc:series/earthbound/ness/skins/default": true
+											}
+										}
+									}
+								}
+							]
+						},
+						{
+							"function": "minecraft:copy_nbt",
+							"source": {
+								"type": "minecraft:storage",
+								"source": "ssbrc:statistics/fighters/pikachu"
+							},
+							"ops": [
+								{
+									"source": "Value",
+									"target": "pages[]",
+									"op": "append"
+								}
+							],
+							"conditions": [
+								{
+									"condition": "minecraft:entity_properties",
+									"entity": "this",
+									"predicate": {
+										"type_specific": {
+											"type": "player",
+											"advancements": {
+												"ssbrc:series/pokemon/pikachu/skins/default": true
+											}
+										}
+									}
+								}
+							]
+						},
+						{
+							"function": "minecraft:copy_nbt",
+							"source": {
+								"type": "minecraft:storage",
+								"source": "ssbrc:statistics/fighters/pit"
+							},
+							"ops": [
+								{
+									"source": "Value",
+									"target": "pages[]",
+									"op": "append"
+								}
+							],
+							"conditions": [
+								{
+									"condition": "minecraft:entity_properties",
+									"entity": "this",
+									"predicate": {
+										"type_specific": {
+											"type": "player",
+											"advancements": {
+												"ssbrc:series/kid_icarus/pit/skins/default": true
+											}
+										}
+									}
+								}
+							]
+						},
+						{
+							"function": "minecraft:copy_nbt",
+							"source": {
+								"type": "minecraft:storage",
+								"source": "ssbrc:statistics/fighters/pokemontrainer"
+							},
+							"ops": [
+								{
+									"source": "Value",
+									"target": "pages[]",
+									"op": "append"
+								}
+							],
+							"conditions": [
+								{
+									"condition": "minecraft:entity_properties",
+									"entity": "this",
+									"predicate": {
+										"type_specific": {
+											"type": "player",
+											"advancements": {
+												"ssbrc:series/pokemon/pokemontrainer/skins/default": true
+											}
+										}
+									}
+								}
+							]
+						},
+						{
+							"function": "minecraft:copy_nbt",
+							"source": {
+								"type": "minecraft:storage",
+								"source": "ssbrc:statistics/fighters/rob"
+							},
+							"ops": [
+								{
+									"source": "Value",
+									"target": "pages[]",
+									"op": "append"
+								}
+							],
+							"conditions": [
+								{
+									"condition": "minecraft:entity_properties",
+									"entity": "this",
+									"predicate": {
+										"type_specific": {
+											"type": "player",
+											"advancements": {
+												"ssbrc:series/super_smash_bros/rob/skins/default": true
+											}
+										}
+									}
+								}
+							]
+						},
+						{
+							"function": "minecraft:copy_nbt",
+							"source": {
+								"type": "minecraft:storage",
+								"source": "ssbrc:statistics/fighters/ryu"
+							},
+							"ops": [
+								{
+									"source": "Value",
+									"target": "pages[]",
+									"op": "append"
+								}
+							],
+							"conditions": [
+								{
+									"condition": "minecraft:entity_properties",
+									"entity": "this",
+									"predicate": {
+										"type_specific": {
+											"type": "player",
+											"advancements": {
+												"ssbrc:series/street_fighter/ryu/skins/default": true
+											}
+										}
+									}
+								}
+							]
+						},
+						{
+							"function": "minecraft:copy_nbt",
+							"source": {
+								"type": "minecraft:storage",
+								"source": "ssbrc:statistics/fighters/samus"
+							},
+							"ops": [
+								{
+									"source": "Value",
+									"target": "pages[]",
+									"op": "append"
+								}
+							],
+							"conditions": [
+								{
+									"condition": "minecraft:entity_properties",
+									"entity": "this",
+									"predicate": {
+										"type_specific": {
+											"type": "player",
+											"advancements": {
+												"ssbrc:series/metroid/samus/skins/default": true
+											}
+										}
+									}
+								}
+							]
+						},
+						{
+							"function": "minecraft:copy_nbt",
+							"source": {
+								"type": "minecraft:storage",
+								"source": "ssbrc:statistics/fighters/shadow"
+							},
+							"ops": [
+								{
+									"source": "Value",
+									"target": "pages[]",
+									"op": "append"
+								}
+							],
+							"conditions": [
+								{
+									"condition": "minecraft:entity_properties",
+									"entity": "this",
+									"predicate": {
+										"type_specific": {
+											"type": "player",
+											"advancements": {
+												"ssbrc:series/sonic_the_hedgehog/shadow/skins/default": true
+											}
+										}
+									}
+								}
+							]
+						},
+						{
+							"function": "minecraft:copy_nbt",
+							"source": {
+								"type": "minecraft:storage",
+								"source": "ssbrc:statistics/fighters/shovelknight"
+							},
+							"ops": [
+								{
+									"source": "Value",
+									"target": "pages[]",
+									"op": "append"
+								}
+							],
+							"conditions": [
+								{
+									"condition": "minecraft:entity_properties",
+									"entity": "this",
+									"predicate": {
+										"type_specific": {
+											"type": "player",
+											"advancements": {
+												"ssbrc:series/indie_fighters/shovelknight/skins/default": true
+											}
+										}
+									}
+								}
+							]
+						},
+						{
+							"function": "minecraft:copy_nbt",
+							"source": {
+								"type": "minecraft:storage",
+								"source": "ssbrc:statistics/fighters/snake"
+							},
+							"ops": [
+								{
+									"source": "Value",
+									"target": "pages[]",
+									"op": "append"
+								}
+							],
+							"conditions": [
+								{
+									"condition": "minecraft:entity_properties",
+									"entity": "this",
+									"predicate": {
+										"type_specific": {
+											"type": "player",
+											"advancements": {
+												"ssbrc:series/metal_gear_solid/snake/skins/default": true
+											}
+										}
+									}
+								}
+							]
+						},
+						{
+							"function": "minecraft:copy_nbt",
+							"source": {
+								"type": "minecraft:storage",
+								"source": "ssbrc:statistics/fighters/sonic"
+							},
+							"ops": [
+								{
+									"source": "Value",
+									"target": "pages[]",
+									"op": "append"
+								}
+							],
+							"conditions": [
+								{
+									"condition": "minecraft:entity_properties",
+									"entity": "this",
+									"predicate": {
+										"type_specific": {
+											"type": "player",
+											"advancements": {
+												"ssbrc:series/sonic_the_hedgehog/sonic/skins/default": true
+											}
+										}
+									}
+								}
+							]
+						},
+						{
+							"function": "minecraft:copy_nbt",
+							"source": {
+								"type": "minecraft:storage",
+								"source": "ssbrc:statistics/fighters/sora"
+							},
+							"ops": [
+								{
+									"source": "Value",
+									"target": "pages[]",
+									"op": "append"
+								}
+							],
+							"conditions": [
+								{
+									"condition": "minecraft:entity_properties",
+									"entity": "this",
+									"predicate": {
+										"type_specific": {
+											"type": "player",
+											"advancements": {
+												"ssbrc:series/kingdom_hearts/sora/skins/default": true
+											}
+										}
+									}
+								}
+							]
+						},
+						{
+							"function": "minecraft:copy_nbt",
+							"source": {
+								"type": "minecraft:storage",
+								"source": "ssbrc:statistics/fighters/steve"
+							},
+							"ops": [
+								{
+									"source": "Value",
+									"target": "pages[]",
+									"op": "append"
+								}
+							],
+							"conditions": [
+								{
+									"condition": "minecraft:entity_properties",
+									"entity": "this",
+									"predicate": {
+										"type_specific": {
+											"type": "player",
+											"advancements": {
+												"ssbrc:series/indie_fighters/steve/skins/default": true
+											}
+										}
+									}
+								}
+							]
+						},
+						{
+							"function": "minecraft:copy_nbt",
+							"source": {
+								"type": "minecraft:storage",
+								"source": "ssbrc:statistics/fighters/teamrocket"
+							},
+							"ops": [
+								{
+									"source": "Value",
+									"target": "pages[]",
+									"op": "append"
+								}
+							],
+							"conditions": [
+								{
+									"condition": "minecraft:entity_properties",
+									"entity": "this",
+									"predicate": {
+										"type_specific": {
+											"type": "player",
+											"advancements": {
+												"ssbrc:series/pokemon/teamrocket/skins/default": true
+											}
+										}
+									}
+								}
+							]
+						},
+						{
+							"function": "minecraft:copy_nbt",
+							"source": {
+								"type": "minecraft:storage",
+								"source": "ssbrc:statistics/fighters/wolf"
+							},
+							"ops": [
+								{
+									"source": "Value",
+									"target": "pages[]",
+									"op": "append"
+								}
+							],
+							"conditions": [
+								{
+									"condition": "minecraft:entity_properties",
+									"entity": "this",
+									"predicate": {
+										"type_specific": {
+											"type": "player",
+											"advancements": {
+												"ssbrc:series/star_fox/wolf/skins/default": true
+											}
+										}
+									}
+								}
+							]
+						},
+						{
+							"function": "minecraft:copy_nbt",
+							"source": {
+								"type": "minecraft:storage",
+								"source": "ssbrc:statistics/fighters/yar"
+							},
+							"ops": [
+								{
+									"source": "Value",
+									"target": "pages[]",
+									"op": "append"
+								}
+							],
+							"conditions": [
+								{
+									"condition": "minecraft:entity_properties",
+									"entity": "this",
+									"predicate": {
+										"type_specific": {
+											"type": "player",
+											"advancements": {
+												"ssbrc:series/retro_fighters/yar/skins/default": true
+											}
+										}
+									}
+								}
+							]
+						},
+						{
+							"function": "minecraft:copy_nbt",
+							"source": {
+								"type": "minecraft:storage",
+								"source": "ssbrc:statistics/fighters/zelda"
+							},
+							"ops": [
+								{
+									"source": "Value",
+									"target": "pages[]",
+									"op": "append"
+								}
+							],
+							"conditions": [
+								{
+									"condition": "minecraft:entity_properties",
+									"entity": "this",
+									"predicate": {
+										"type_specific": {
+											"type": "player",
+											"advancements": {
+												"ssbrc:series/the_legend_of_zelda/zelda/skins/default": true
+											}
+										}
+									}
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

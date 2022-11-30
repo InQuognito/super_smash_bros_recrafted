@@ -3,6 +3,7 @@ execute unless score @s stats.kills matches 1.. run scoreboard players set @s st
 execute unless score @s stats.gamesPlayed matches 1.. run scoreboard players set @s stats.gamesPlayed 0
 execute unless score @s stats.wins matches 1.. run scoreboard players set @s stats.wins 0
 execute unless score @s stats.winStreak matches 1.. run scoreboard players set @s stats.winStreak 0
+execute unless score @s stats.winStreak.record matches 1.. run scoreboard players set @s stats.winStreak.record 0
 execute unless score @s currency matches 1.. run scoreboard players set @s currency 0
 
 execute unless score @s stats.alteredbeast.deaths matches 1.. run scoreboard players set @s stats.alteredbeast.deaths 0
@@ -34,12 +35,6 @@ execute unless score @s stats.captainfalcon.kills matches 1.. run scoreboard pla
 execute unless score @s stats.captainfalcon.gamesPlayed matches 1.. run scoreboard players set @s stats.captainfalcon.gamesPlayed 0
 execute unless score @s stats.captainfalcon.wins matches 1.. run scoreboard players set @s stats.captainfalcon.wins 0
 execute unless score @s stats.captainfalcon.winStreak matches 1.. run scoreboard players set @s stats.captainfalcon.winStreak 0
-
-execute unless score @s stats.charizard.deaths matches 1.. run scoreboard players set @s stats.charizard.deaths 0
-execute unless score @s stats.charizard.kills matches 1.. run scoreboard players set @s stats.charizard.kills 0
-execute unless score @s stats.charizard.gamesPlayed matches 1.. run scoreboard players set @s stats.charizard.gamesPlayed 0
-execute unless score @s stats.charizard.wins matches 1.. run scoreboard players set @s stats.charizard.wins 0
-execute unless score @s stats.charizard.winStreak matches 1.. run scoreboard players set @s stats.charizard.winStreak 0
 
 execute unless score @s stats.cloud.deaths matches 1.. run scoreboard players set @s stats.cloud.deaths 0
 execute unless score @s stats.cloud.kills matches 1.. run scoreboard players set @s stats.cloud.kills 0
@@ -89,6 +84,12 @@ execute unless score @s stats.hero.gamesPlayed matches 1.. run scoreboard player
 execute unless score @s stats.hero.wins matches 1.. run scoreboard players set @s stats.hero.wins 0
 execute unless score @s stats.hero.winStreak matches 1.. run scoreboard players set @s stats.hero.winStreak 0
 
+execute unless score @s stats.jigglypuff.deaths matches 1.. run scoreboard players set @s stats.jigglypuff.deaths 0
+execute unless score @s stats.jigglypuff.kills matches 1.. run scoreboard players set @s stats.jigglypuff.kills 0
+execute unless score @s stats.jigglypuff.gamesPlayed matches 1.. run scoreboard players set @s stats.jigglypuff.gamesPlayed 0
+execute unless score @s stats.jigglypuff.wins matches 1.. run scoreboard players set @s stats.jigglypuff.wins 0
+execute unless score @s stats.jigglypuff.winStreak matches 1.. run scoreboard players set @s stats.jigglypuff.winStreak 0
+
 execute unless score @s stats.joker.deaths matches 1.. run scoreboard players set @s stats.joker.deaths 0
 execute unless score @s stats.joker.kills matches 1.. run scoreboard players set @s stats.joker.kills 0
 execute unless score @s stats.joker.gamesPlayed matches 1.. run scoreboard players set @s stats.joker.gamesPlayed 0
@@ -137,11 +138,29 @@ execute unless score @s stats.ness.gamesPlayed matches 1.. run scoreboard player
 execute unless score @s stats.ness.wins matches 1.. run scoreboard players set @s stats.ness.wins 0
 execute unless score @s stats.ness.winStreak matches 1.. run scoreboard players set @s stats.ness.winStreak 0
 
+execute unless score @s stats.pikachu.deaths matches 1.. run scoreboard players set @s stats.pikachu.deaths 0
+execute unless score @s stats.pikachu.kills matches 1.. run scoreboard players set @s stats.pikachu.kills 0
+execute unless score @s stats.pikachu.gamesPlayed matches 1.. run scoreboard players set @s stats.pikachu.gamesPlayed 0
+execute unless score @s stats.pikachu.wins matches 1.. run scoreboard players set @s stats.pikachu.wins 0
+execute unless score @s stats.pikachu.winStreak matches 1.. run scoreboard players set @s stats.pikachu.winStreak 0
+
 execute unless score @s stats.pit.deaths matches 1.. run scoreboard players set @s stats.pit.deaths 0
 execute unless score @s stats.pit.kills matches 1.. run scoreboard players set @s stats.pit.kills 0
 execute unless score @s stats.pit.gamesPlayed matches 1.. run scoreboard players set @s stats.pit.gamesPlayed 0
 execute unless score @s stats.pit.wins matches 1.. run scoreboard players set @s stats.pit.wins 0
 execute unless score @s stats.pit.winStreak matches 1.. run scoreboard players set @s stats.pit.winStreak 0
+
+execute unless score @s stats.pokemontrainer.deaths matches 1.. run scoreboard players set @s stats.pokemontrainer.deaths 0
+execute unless score @s stats.pokemontrainer.kills matches 1.. run scoreboard players set @s stats.pokemontrainer.kills 0
+execute unless score @s stats.pokemontrainer.gamesPlayed matches 1.. run scoreboard players set @s stats.pokemontrainer.gamesPlayed 0
+execute unless score @s stats.pokemontrainer.wins matches 1.. run scoreboard players set @s stats.pokemontrainer.wins 0
+execute unless score @s stats.pokemontrainer.winStreak matches 1.. run scoreboard players set @s stats.pokemontrainer.winStreak 0
+
+execute unless score @s stats.rob.deaths matches 1.. run scoreboard players set @s stats.rob.deaths 0
+execute unless score @s stats.rob.kills matches 1.. run scoreboard players set @s stats.rob.kills 0
+execute unless score @s stats.rob.gamesPlayed matches 1.. run scoreboard players set @s stats.rob.gamesPlayed 0
+execute unless score @s stats.rob.wins matches 1.. run scoreboard players set @s stats.rob.wins 0
+execute unless score @s stats.rob.winStreak matches 1.. run scoreboard players set @s stats.rob.winStreak 0
 
 execute unless score @s stats.ryu.deaths matches 1.. run scoreboard players set @s stats.ryu.deaths 0
 execute unless score @s stats.ryu.kills matches 1.. run scoreboard players set @s stats.ryu.kills 0
@@ -179,6 +198,12 @@ execute unless score @s stats.sonic.gamesPlayed matches 1.. run scoreboard playe
 execute unless score @s stats.sonic.wins matches 1.. run scoreboard players set @s stats.sonic.wins 0
 execute unless score @s stats.sonic.winStreak matches 1.. run scoreboard players set @s stats.sonic.winStreak 0
 
+execute unless score @s stats.sora.deaths matches 1.. run scoreboard players set @s stats.sora.deaths 0
+execute unless score @s stats.sora.kills matches 1.. run scoreboard players set @s stats.sora.kills 0
+execute unless score @s stats.sora.gamesPlayed matches 1.. run scoreboard players set @s stats.sora.gamesPlayed 0
+execute unless score @s stats.sora.wins matches 1.. run scoreboard players set @s stats.sora.wins 0
+execute unless score @s stats.sora.winStreak matches 1.. run scoreboard players set @s stats.sora.winStreak 0
+
 execute unless score @s stats.steve.deaths matches 1.. run scoreboard players set @s stats.steve.deaths 0
 execute unless score @s stats.steve.kills matches 1.. run scoreboard players set @s stats.steve.kills 0
 execute unless score @s stats.steve.gamesPlayed matches 1.. run scoreboard players set @s stats.steve.gamesPlayed 0
@@ -190,3 +215,21 @@ execute unless score @s stats.teamrocket.kills matches 1.. run scoreboard player
 execute unless score @s stats.teamrocket.gamesPlayed matches 1.. run scoreboard players set @s stats.teamrocket.gamesPlayed 0
 execute unless score @s stats.teamrocket.wins matches 1.. run scoreboard players set @s stats.teamrocket.wins 0
 execute unless score @s stats.teamrocket.winStreak matches 1.. run scoreboard players set @s stats.teamrocket.winStreak 0
+
+execute unless score @s stats.wolf.deaths matches 1.. run scoreboard players set @s stats.wolf.deaths 0
+execute unless score @s stats.wolf.kills matches 1.. run scoreboard players set @s stats.wolf.kills 0
+execute unless score @s stats.wolf.gamesPlayed matches 1.. run scoreboard players set @s stats.wolf.gamesPlayed 0
+execute unless score @s stats.wolf.wins matches 1.. run scoreboard players set @s stats.wolf.wins 0
+execute unless score @s stats.wolf.winStreak matches 1.. run scoreboard players set @s stats.wolf.winStreak 0
+
+execute unless score @s stats.yar.deaths matches 1.. run scoreboard players set @s stats.yar.deaths 0
+execute unless score @s stats.yar.kills matches 1.. run scoreboard players set @s stats.yar.kills 0
+execute unless score @s stats.yar.gamesPlayed matches 1.. run scoreboard players set @s stats.yar.gamesPlayed 0
+execute unless score @s stats.yar.wins matches 1.. run scoreboard players set @s stats.yar.wins 0
+execute unless score @s stats.yar.winStreak matches 1.. run scoreboard players set @s stats.yar.winStreak 0
+
+execute unless score @s stats.zelda.deaths matches 1.. run scoreboard players set @s stats.zelda.deaths 0
+execute unless score @s stats.zelda.kills matches 1.. run scoreboard players set @s stats.zelda.kills 0
+execute unless score @s stats.zelda.gamesPlayed matches 1.. run scoreboard players set @s stats.zelda.gamesPlayed 0
+execute unless score @s stats.zelda.wins matches 1.. run scoreboard players set @s stats.zelda.wins 0
+execute unless score @s stats.zelda.winStreak matches 1.. run scoreboard players set @s stats.zelda.winStreak 0
