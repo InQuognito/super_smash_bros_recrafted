@@ -1,6 +1,7 @@
 summon minecraft:armor_stand ~ ~5 ~ {Tags:["iceBlock","modifyEntity"],ArmorItems:[{},{},{},{id:"minecraft:blue_ice",Count:1b,tag:{CustomModelData:1}}],Invisible:1b}
 
 scoreboard players operation @e[tag=modifyEntity,limit=1] id = @s id
+tag @e[tag=modifyEntity,limit=1] remove modifyEntity
 
 scoreboard players operation @s mana -= #iceRodMagicCost temp
 
