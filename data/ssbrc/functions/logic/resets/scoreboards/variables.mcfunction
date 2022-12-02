@@ -138,7 +138,7 @@ scoreboard players operation value.bonus.acrobat vars *= 2 integers
 scoreboard players operation value.bonus.cementShoes vars = value.participation vars
 scoreboard players operation value.bonus.cementShoes vars *= 2 integers
 
-scoreboard players set value.bonus.coward vars -10
+scoreboard players set value.bonus.coward vars -25
 
 scoreboard players operation value.bonus.firstStrike vars = value.kill vars
 scoreboard players operation value.bonus.firstStrike vars /= 2 integers
