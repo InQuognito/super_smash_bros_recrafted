@@ -144,7 +144,7 @@ scoreboard players operation value.bonus.firstStrike vars = value.kill vars
 scoreboard players operation value.bonus.firstStrike vars /= 2 integers
 
 scoreboard players operation value.bonus.fullPower vars = value.victory vars
-scoreboard players operation value.bonus.fullPower vars *= 3 integers
+scoreboard players operation value.bonus.fullPower vars *= 2 integers
 
 scoreboard players operation value.bonus.goodFriend vars = value.participation vars
 scoreboard players operation value.bonus.goodFriend vars *= 2 integers
@@ -155,15 +155,15 @@ scoreboard players operation value.bonus.heartgold vars *= 1 integers
 scoreboard players operation value.bonus.heavyDamage vars = value.participation vars
 scoreboard players operation value.bonus.heavyDamage vars *= 1 integers
 
-scoreboard players operation value.bonus.lastSecond vars = value.participation vars
-scoreboard players operation value.bonus.lastSecond vars *= 1 integers
+scoreboard players operation value.bonus.lastSecond vars = value.kill vars
+scoreboard players operation value.bonus.lastSecond vars *= 2 integers
 
 scoreboard players set value.bonus.luckyNumberSeven vars 77
 
 scoreboard players operation value.bonus.mercifulMaster vars = value.participation vars
 scoreboard players operation value.bonus.mercifulMaster vars *= 1 integers
 
-scoreboard players operation value.bonus.noJohns vars = value.participation vars
+scoreboard players operation value.bonus.noJohns vars = value.victory vars
 scoreboard players operation value.bonus.noJohns vars *= 1 integers
 
 scoreboard players operation value.bonus.onARoll vars = value.participation vars
@@ -177,7 +177,7 @@ scoreboard players operation value.bonus.shieldBreaker vars /= 2 integers
 
 scoreboard players set value.bonus.shinyEncounter vars 2048
 
-scoreboard players operation value.bonus.speedDemon vars = value.participation vars
+scoreboard players operation value.bonus.speedDemon vars = value.victory vars
 scoreboard players operation value.bonus.speedDemon vars *= 1 integers
 
 scoreboard players operation value.bonus.stiffKnees vars = value.participation vars
