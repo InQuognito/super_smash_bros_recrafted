@@ -13,6 +13,8 @@ team modify team8 nametagVisibility never
 
 scoreboard players set @a[tag=alive] respawn 0
 
+scoreboard players set @a[predicate=ssbrc:flag/player] kills 0
+
 scoreboard players reset @a stocks
 execute if score $gameMode options matches 1 run scoreboard players operation @a[predicate=ssbrc:flag/player] stocks = $stockLimit options
 execute if score $gameMode options matches 1 run scoreboard objectives setdisplay sidebar stocks
