@@ -16,4 +16,4 @@ execute if entity @s[team=team6] store result score #heroes temp if entity @a[pr
 execute if entity @s[team=team7] store result score #heroes temp if entity @a[predicate=ssbrc:characters/alignment/hero,team=team7]
 execute if entity @s[team=team8] store result score #heroes temp if entity @a[predicate=ssbrc:characters/alignment/hero,team=team8]
 
-execute if score #heroes temp = #playersOnTeam temp run scoreboard players set @s trulyHeroic 1
+execute if score #playersOnTeam temp matches 2.. if score #heroes temp = #playersOnTeam temp run scoreboard players set @s trulyHeroic 1

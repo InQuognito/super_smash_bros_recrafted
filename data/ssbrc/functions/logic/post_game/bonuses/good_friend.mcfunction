@@ -16,4 +16,4 @@ execute if entity @s[team=team6] store result score #livingPlayersOnTeam temp if
 execute if entity @s[team=team7] store result score #livingPlayersOnTeam temp if entity @a[scores={stocks=1..},team=team7]
 execute if entity @s[team=team8] store result score #livingPlayersOnTeam temp if entity @a[scores={stocks=1..},team=team8]
 
-execute if score #livingPlayersOnTeam temp = #playersOnTeam temp run scoreboard players set @s goodFriend 1
+execute if score #playersOnTeam temp matches 2.. if score #livingPlayersOnTeam temp = #playersOnTeam temp run scoreboard players set @s goodFriend 1
