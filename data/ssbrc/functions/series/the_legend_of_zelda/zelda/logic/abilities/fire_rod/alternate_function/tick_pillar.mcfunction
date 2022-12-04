@@ -1,4 +1,5 @@
-particle minecraft:flame ~ ~2.5 ~ 0.15 1.0 0.15 0.01 50 normal @a
+particle minecraft:flame ~ ~2.5 ~ 0.15 0.75 0.15 0.01 50 normal @a
+particle minecraft:smoke ~ ~2 ~ 0.15 0.5 0.15 0.0 75 normal @a
 
 teleport @s ^ ^ ^0.1
 
