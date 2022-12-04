@@ -41,7 +41,7 @@ execute if entity @s[tag=yar] run function ssbrc:series/retro_fighters/yar/kit
 scoreboard players set @s cooldown.1 0
 scoreboard players set @s cooldown.2 0
 scoreboard players set @s cooldown.3 0
-scoreboard players set @s[tag=!zelda] charge.1 0
+scoreboard players set @s[tag=!pikachu,tag=!zelda] charge.1 0
 scoreboard players set @s charge.2 0
 scoreboard players set @s charge.3 0
 
