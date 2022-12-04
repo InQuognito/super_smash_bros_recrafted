@@ -8,7 +8,8 @@ tag @s remove self
 
 # Balloon Ring
 execute if entity @s[scores={charge.1=1..},tag=!balloonRing,tag=!balloonRingCooldown,predicate=ssbrc:flag/sneaking] at @s if block ~ ~-0.1 ~ minecraft:air run function ssbrc:series/pokemon/pikachu/logic/abilities/balloon_ring/activate
-execute if entity @s[tag=balloonRing,predicate=!ssbrc:flag/sneaking] run function ssbrc:series/pokemon/pikachu/logic/abilities/balloon_ring/fall
+execute if entity @s[tag=balloonRing,tag=!balloonRingCooldown,predicate=!ssbrc:flag/sneaking] run function ssbrc:series/pokemon/pikachu/logic/abilities/balloon_ring/fall
+execute if score @s[tag=balloonRing,tag=!balloonRingCooldown] duration.1 matches 1 run function ssbrc:series/pokemon/pikachu/logic/abilities/balloon_ring/fall
 
 scoreboard players add @s[tag=balloonRingCooldown] charge.2 1
 execute if score @s charge.2 matches 20.. run function ssbrc:series/pokemon/pikachu/logic/abilities/balloon_ring/deactivate
