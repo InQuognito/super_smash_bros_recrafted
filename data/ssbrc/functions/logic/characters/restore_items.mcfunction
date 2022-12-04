@@ -60,6 +60,9 @@ loot replace entity @s[tag=megaman] hotbar.2 loot ssbrc:characters/mega_man/mega
 clear @s[tag=ness] minecraft:splash_potion{pkFlash:1}
 loot replace entity @s[tag=ness] hotbar.2 loot ssbrc:characters/earthbound/ness/pk_flash
 
+# Pikachu
+scoreboard players set @s[tag=pikachu] charge.1 5
+
 # Pit
 item replace entity @s[tag=pit] armor.chest with minecraft:elytra{Damage:417,HideFlags:127} 1
 
