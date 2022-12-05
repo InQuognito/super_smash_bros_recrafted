@@ -8,7 +8,7 @@ scoreboard players operation #percentage temp = @s mana
 scoreboard players operation #percentage temp *= 100 integers
 scoreboard players operation #percentage temp /= #zelda.maxMagic vars
 
-scoreboard players set max random 7
+scoreboard players set max random 8
 function ssbrc:math/rng/lcg
 
 execute if score result random matches 0 run function ssbrc:series/the_legend_of_zelda/zelda/logic/abilities/great_fairy_blessing/blessings/confusion
@@ -18,6 +18,7 @@ execute if score result random matches 3 if score #percentage temp matches ..40 
 execute if score result random matches 4 run function ssbrc:series/the_legend_of_zelda/zelda/logic/abilities/great_fairy_blessing/blessings/half_magic
 execute if score result random matches 5 run function ssbrc:series/the_legend_of_zelda/zelda/logic/abilities/great_fairy_blessing/blessings/rupee_master
 execute if score result random matches 6 unless score #hasGlassWeapon temp matches 0 unless score #hasNayrusRing temp matches 0 run function ssbrc:series/the_legend_of_zelda/zelda/logic/abilities/great_fairy_blessing/blessings/shatter_resist
+execute if score result random matches 7 if score $teams options matches 1 run function ssbrc:series/the_legend_of_zelda/zelda/logic/abilities/great_fairy_blessing/blessings/special_bond
 
 execute if score #blessingChosen temp matches 1 run function ssbrc:series/the_legend_of_zelda/zelda/logic/abilities/great_fairy_blessing/activate
 execute unless score #blessingChosen temp matches 1 run function ssbrc:series/the_legend_of_zelda/zelda/logic/abilities/great_fairy_blessing/choose
