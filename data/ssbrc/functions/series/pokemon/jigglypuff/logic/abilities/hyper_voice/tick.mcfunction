@@ -1,22 +1,6 @@
-# Pink Particles
-#particle minecraft:note ^ ^ ^-1 0.35 0.0 0.0 1 0 normal @a
-#particle minecraft:note ^ ^ ^1 0.35 0.0 0.0 1 0 normal @a
-#particle minecraft:note ^ ^-1 ^ 0.35 0.0 0.0 1 0 normal @a
-#particle minecraft:note ^ ^1 ^ 0.35 0.0 0.0 1 0 normal @a
-#particle minecraft:note ^ ^-0.75 ^-0.75 0.35 0.0 0.0 1 0 normal @a
-#particle minecraft:note ^ ^-0.75 ^0.75 0.35 0.0 0.0 1 0 normal @a
-#particle minecraft:note ^ ^0.75 ^-0.75 0.35 0.0 0.0 1 0 normal @a
-#particle minecraft:note ^ ^0.75 ^0.75 0.35 0.0 0.0 1 0 normal @a
-
-# Rainbow Notes
-particle minecraft:note ^ ^1 ^ 0.2 0 0 1 0 normal @a
-particle minecraft:note ^ ^0.75 ^0.75 0.15 0 0 1 0 normal @a
-particle minecraft:note ^ ^ ^1 0.1 0 0 1 0 normal @a
-particle minecraft:note ^ ^-0.75 ^0.75 0.0 0 0 1 0 normal @a
-particle minecraft:note ^ ^-1 ^ 0.75 0 0 1 0 normal @a
-particle minecraft:note ^ ^-0.75 ^-0.75 0.6 0 0 1 0 normal @a
-particle minecraft:note ^ ^ ^-1 0.5 0 0 1 0 normal @a
-particle minecraft:note ^ ^0.75 ^-0.75 0.4 0 0 1 0 normal @a
+execute if entity @s[tag=!gold,tag=!shiny] run function ssbrc:series/pokemon/jigglypuff/logic/abilities/hyper_voice/music_notes/pink
+execute if entity @s[tag=gold] run function ssbrc:series/pokemon/jigglypuff/logic/abilities/hyper_voice/music_notes/gold
+execute if entity @s[tag=shiny] run function ssbrc:series/pokemon/jigglypuff/logic/abilities/hyper_voice/music_notes/rainbow
 
 teleport @s ^0.5 ^ ^
 
