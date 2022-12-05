@@ -1,4 +1,6 @@
-particle minecraft:flame ~ ~0.75 ~ 0.3 0.3 0.3 0.1 15 normal @a
+particle minecraft:cloud ~ ~ ~ 0.2 0.0 0.2 0.0 10 normal @a
+particle minecraft:dust_color_transition 0.0 0.0 1.0 1.5 1.0 1.0 1.0 ~ ~ ~ 0.25 0.1 0.25 0.0 25 normal @a
+particle minecraft:falling_water ~ ~ ~ 0.25 0.0 0.25 0.0 25 normal @a
 
 execute anchored eyes unless block ^ ^ ^0.7 #ssbrc:passthrough_charge run scoreboard players set @p[tag=self] duration.1 1
 execute anchored eyes if block ^ ^ ^0.7 #ssbrc:passthrough_charge unless block ~ ~-0.1 ~ minecraft:water run teleport @s ^ ^ ^0.6
