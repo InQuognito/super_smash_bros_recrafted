@@ -120,6 +120,7 @@ scoreboard objectives remove acrobat.tracking
 scoreboard objectives remove cementShoes
 scoreboard objectives remove coward
 scoreboard objectives remove coward.tracking
+scoreboard objectives remove einstein
 scoreboard objectives remove firstStrike
 scoreboard objectives remove fullPower
 scoreboard objectives remove goodFriend

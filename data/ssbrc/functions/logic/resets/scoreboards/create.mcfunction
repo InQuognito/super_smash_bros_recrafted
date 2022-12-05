@@ -120,6 +120,7 @@ scoreboard objectives add acrobat.tracking dummy
 scoreboard objectives add cementShoes dummy
 scoreboard objectives add coward dummy
 scoreboard objectives add coward.tracking dummy
+scoreboard objectives add einstein dummy
 scoreboard objectives add firstStrike dummy
 scoreboard objectives add fullPower dummy
 scoreboard objectives add goodFriend dummy

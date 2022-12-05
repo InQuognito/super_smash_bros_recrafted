@@ -140,6 +140,8 @@ scoreboard players operation value.bonus.cementShoes vars *= 2 integers
 
 scoreboard players set value.bonus.coward vars -25
 
+scoreboard players set value.bonus.einstein vars -25
+
 scoreboard players operation value.bonus.firstStrike vars = value.kill vars
 scoreboard players operation value.bonus.firstStrike vars /= 2 integers
 
