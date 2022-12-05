@@ -5,7 +5,7 @@ execute if entity @s[scores={useAbility=1..,cooldown.3=..0,duration.3=..0},nbt={
 tag @s add self
 execute as @e[type=minecraft:arrow,tag=fox.blaster] at @s if score @s id = @p[tag=self] id run function ssbrc:series/star_fox/fox/logic/abilities/blaster/tick
 execute as @e[type=minecraft:marker,tag=fireFox] at @s if score @s id = @p[tag=self,scores={duration.3=1..}] id run function ssbrc:series/star_fox/fox/logic/abilities/fire_fox/tick
-execute if score @s duration.2 matches 1.. at @s positioned ^ ^ ^2 as @e[type=#ssbrc:projectiles,predicate=!ssbrc:entity_kill_exceptions,distance=..2] run function ssbrc:series/star_fox/fox/logic/abilities/reflector/tick
+execute if score @s duration.2 matches 1.. at @s positioned ^ ^ ^2 as @e[type=#ssbrc:projectiles,predicate=!ssbrc:entity_kill_exceptions,tag=!reflected,distance=..2] run function ssbrc:series/star_fox/fox/logic/abilities/reflector/tick
 tag @s remove self
 
 # Fire Fox
