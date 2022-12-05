@@ -163,6 +163,8 @@ execute if score @s[tag=!pokemontrainer] menu matches 1262 run function ssbrc:se
 execute if score @s[tag=!pokemontrainer] menu matches 1264 run function ssbrc:series/pokemon/pokemontrainer/menu/skins/default
 execute if score @s[tag=!pokemontrainer] menu matches 1265 run function ssbrc:series/pokemon/pokemontrainer/menu/skins/gold
 execute if score @s[tag=!pokemontrainer] menu matches 1266 run function ssbrc:series/pokemon/pokemontrainer/menu/skins/shiny
+execute if score @s[tag=!pokemontrainer] menu matches 1267 run function ssbrc:series/pokemon/pokemontrainer/menu/skins/dawn
+execute if score @s[tag=!pokemontrainer] menu matches 1268 run function ssbrc:series/pokemon/pokemontrainer/menu/skins/viktor
 
 execute if score @s[tag=!ryu] menu matches 1400 run function ssbrc:series/street_fighter/ryu/menu/select_character
 execute if score @s[tag=!ryu] menu matches 1401 run function ssbrc:series/street_fighter/ryu/menu/skin_options
