@@ -1,10 +1,12 @@
-tag @s remove shadow.chaosBlast
+tag @s remove chaosBlast
 
 execute positioned 0.0 0.0 0.0 run summon minecraft:marker ^ ^ ^1 {Tags:["direction"]}
 
-execute if entity @s[tag=shadow.chaosBlast.default] run summon minecraft:arrow ^ ^ ^1 {damage:20.0,Tags:["chaosBlastShockwave","chaosBlastShockwave.default","modifyEntity"],NoGravity:1b}
-execute if entity @s[tag=shadow.chaosBlast.gold] run summon minecraft:arrow ^ ^ ^1 {damage:20.0,Tags:["chaosBlastShockwave","chaosBlastShockwave.gold","modifyEntity"],NoGravity:1b}
-execute if entity @s[tag=shadow.chaosBlast.yellowAndroid] run summon minecraft:arrow ^ ^ ^1 {damage:20.0,Tags:["chaosBlastShockwave","chaosBlastShockwave.yellowAndroid","modifyEntity"],NoGravity:1b}
+summon minecraft:arrow ^ ^ ^1 {damage:20.0,Tags:["chaosBlastShockwave","modifyEntity"],NoGravity:1b}
+
+execute if entity @s[tag=red] run tag @e[tag=modifyEntity,limit=1] add red
+execute if entity @s[tag=gold] run tag @e[tag=modifyEntity,limit=1] add gold
+execute if entity @s[tag=yellow] run tag @e[tag=modifyEntity,limit=1] add yellow
 
 scoreboard players operation @e[tag=modifyEntity,limit=1] id = @p[predicate=ssbrc:flag/player,tag=shadow] id
 data modify entity @e[tag=modifyEntity,limit=1] Owner set from entity @p[predicate=ssbrc:flag/player,tag=shadow] UUID

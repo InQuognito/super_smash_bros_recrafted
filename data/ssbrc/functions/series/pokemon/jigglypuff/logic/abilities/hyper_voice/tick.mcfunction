@@ -1,6 +1,6 @@
-execute if entity @s[tag=!gold,tag=!shiny] run function ssbrc:series/pokemon/jigglypuff/logic/abilities/hyper_voice/music_notes/pink
+execute if entity @s[tag=pink] run function ssbrc:series/pokemon/jigglypuff/logic/abilities/hyper_voice/music_notes/pink
 execute if entity @s[tag=gold] run function ssbrc:series/pokemon/jigglypuff/logic/abilities/hyper_voice/music_notes/gold
-execute if entity @s[tag=shiny] run function ssbrc:series/pokemon/jigglypuff/logic/abilities/hyper_voice/music_notes/rainbow
+execute if entity @s[tag=rainbow] run function ssbrc:series/pokemon/jigglypuff/logic/abilities/hyper_voice/music_notes/rainbow
 
 teleport @s ^0.5 ^ ^
 
