@@ -6,14 +6,14 @@
 			"entries": [
 				{
 					"type": "minecraft:item",
-					"name": "minecraft:netherite_axe",
+					"name": "minecraft:carrot_on_a_stick",
 					"functions": [
 						{
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
 								"text": "Aymr",
-								"color": "red",
+								"color": "white",
 								"bold": true,
 								"italic": false
 							}
@@ -39,7 +39,7 @@
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{aymr:1,Unbreakable:1,HideFlags:127}"
+							"tag": "{aymr:1,awakened:1,CustomModelData:102,Unbreakable:1,HideFlags:127}"
 						}
 					]
 				}

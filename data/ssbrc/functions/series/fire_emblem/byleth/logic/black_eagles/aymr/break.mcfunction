@@ -1,4 +1,4 @@
-clear @s minecraft:netherite_axe
+clear @s minecraft:carrot_on_a_stick{aymr:1}
 loot replace entity @s weapon.mainhand loot ssbrc:characters/fire_emblem/byleth/sword_of_the_creator
 
 scoreboard players reset @s charge.1
