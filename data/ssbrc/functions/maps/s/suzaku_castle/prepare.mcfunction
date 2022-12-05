@@ -22,6 +22,10 @@ summon minecraft:marker 7020.5 15.0 2979.5 {Tags:["spawnpoint.item"]}
 summon minecraft:marker 7006.5 16.0 2990.5 {Tags:["spawnpoint.item"]}
 summon minecraft:marker 7009.5 16.0 2968.5 {Tags:["spawnpoint.item"]}
 
+summon minecraft:salmon 6995 8 3008
+summon minecraft:salmon 7018 8 2971
+summon minecraft:salmon 7018 8 2969
+
 execute as @a[predicate=ssbrc:ingame] run function ssbrc:logic/pre_game/prepare_players
 function ssbrc:logic/pre_game/prepare_match
 
