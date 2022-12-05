@@ -3,7 +3,8 @@ tag @s add nextFighterChosen
 
 tag @s add charizard
 
-tellraw @s {"text":"Charizard, I choose you!","color":"red"}
+tellraw @s[tag=!dawn,tag=!viktor] {"text":"Charizard, I choose you!","color":"red"}
+tellraw @s[tag=dawn] {"text":"Infernape, I choose you!","color":"red"}
 
 clear @s
 loot replace entity @s hotbar.0 loot ssbrc:characters/pokemon/pokemontrainer/charizard/rock_smash

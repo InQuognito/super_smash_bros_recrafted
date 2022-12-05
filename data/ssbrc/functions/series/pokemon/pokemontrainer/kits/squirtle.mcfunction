@@ -3,7 +3,8 @@ tag @s add nextFighterChosen
 
 tag @s add squirtle
 
-tellraw @s {"text":"Squirtle, I choose you!","color":"aqua"}
+tellraw @s[tag=!dawn,tag=!viktor] {"text":"Squirtle, I choose you!","color":"aqua"}
+tellraw @s[tag=dawn] {"text":"Piplup, I choose you!","color":"aqua"}
 
 clear @s
 loot replace entity @s hotbar.0 loot ssbrc:characters/pokemon/pokemontrainer/squirtle/bite
