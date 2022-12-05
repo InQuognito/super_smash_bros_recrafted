@@ -3,7 +3,7 @@ tag @s add nextFighterChosen
 
 tag @s add squirtle
 
-tellraw @s[tag=!dawn,tag=!viktor] {"text":"Squirtle, I choose you!","color":"aqua"}
+tellraw @s[tag=!dawn,tag=!victor] {"text":"Squirtle, I choose you!","color":"aqua"}
 tellraw @s[tag=dawn] {"text":"Piplup, I choose you!","color":"aqua"}
 
 clear @s

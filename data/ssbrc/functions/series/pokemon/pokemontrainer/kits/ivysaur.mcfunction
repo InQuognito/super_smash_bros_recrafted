@@ -3,7 +3,7 @@ tag @s add nextFighterChosen
 
 tag @s add ivysaur
 
-tellraw @s[tag=!dawn,tag=!viktor] {"text":"Ivysaur, I choose you!","color":"green"}
+tellraw @s[tag=!dawn,tag=!victor] {"text":"Ivysaur, I choose you!","color":"green"}
 tellraw @s[tag=dawn] {"text":"Roserade, I choose you!","color":"green"}
 
 clear @s

@@ -1,4 +1,4 @@
-tag @s[tag=!gold,tag=!shiny,tag=!dawn,tag=!viktor] add default
+tag @s[tag=!gold,tag=!shiny,tag=!dawn,tag=!victor] add default
 
 tellraw @s [{"text":"You have selected ","color":"white"},{"text":"Pokémon Trainer","color":"red"}]
 
@@ -6,7 +6,7 @@ tellraw @s[tag=default] [{"text":"Skin: ","color":"white"},{"text":"Default","co
 tellraw @s[tag=gold] [{"text":"Skin: ","color":"white"},{"text":"Gold","color":"gold"}]
 tellraw @s[tag=shiny] [{"text":"Skin: ","color":"white"},{"text":"Shiny","color":"dark_gray"}]
 tellraw @s[tag=dawn] [{"text":"Skin: ","color":"white"},{"text":"Dawn","color":"light_purple"}]
-tellraw @s[tag=viktor] [{"text":"Skin: ","color":"white"},{"text":"Viktor","color":"dark_blue"}]
+tellraw @s[tag=victor] [{"text":"Skin: ","color":"white"},{"text":"Victor","color":"dark_blue"}]
 
 function ssbrc:logic/resets/tags/characters
 tag @s add pokemontrainer

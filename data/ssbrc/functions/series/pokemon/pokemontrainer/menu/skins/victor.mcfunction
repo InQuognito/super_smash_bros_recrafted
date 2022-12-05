@@ -1,5 +1,5 @@
 function ssbrc:series/pokemon/pokemontrainer/menu/skins/reset
-tag @s add viktor
+tag @s add victor
 
 function ssbrc:series/pokemon/pokemontrainer/menu/select_character
 
