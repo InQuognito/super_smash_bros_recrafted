@@ -9,4 +9,8 @@ execute as @e[type=minecraft:marker,tag=leechSeed.healingOrb] at @s if score @s 
 execute as @e[type=minecraft:marker,tag=surf] at @s if score @s id = @p[tag=self,scores={duration.1=1..}] id run function ssbrc:series/pokemon/pokemontrainer/logic/squirtle/surf/tick
 tag @s remove self
 
+# Flare Blitz
 execute if score @s duration.1 matches 1 run function ssbrc:series/pokemon/pokemontrainer/logic/charizard/flare_blitz/off
+
+# Surf
+execute if score @s duration.1 matches 1 run function ssbrc:series/pokemon/pokemontrainer/logic/squirtle/surf/off
