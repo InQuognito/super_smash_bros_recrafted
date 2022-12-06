@@ -5,6 +5,7 @@ tag @s add ivysaur
 
 tellraw @s[tag=!dawn,tag=!victor] {"text":"Ivysaur, I choose you!","color":"green"}
 tellraw @s[tag=dawn] {"text":"Roselia, I choose you!","color":"green"}
+tellraw @s[tag=victor] {"text":"Rillaboom, I choose you!","color":"green"}
 
 clear @s
 loot replace entity @s hotbar.0 loot ssbrc:characters/pokemon/pokemontrainer/ivysaur/knock_off

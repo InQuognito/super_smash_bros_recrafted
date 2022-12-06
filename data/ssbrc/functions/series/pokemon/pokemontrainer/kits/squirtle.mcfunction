@@ -5,6 +5,7 @@ tag @s add squirtle
 
 tellraw @s[tag=!dawn,tag=!victor] {"text":"Squirtle, I choose you!","color":"aqua"}
 tellraw @s[tag=dawn] {"text":"Piplup, I choose you!","color":"aqua"}
+tellraw @s[tag=victor] {"text":"Drizzile, I choose you!","color":"aqua"}
 
 clear @s
 loot replace entity @s hotbar.0 loot ssbrc:characters/pokemon/pokemontrainer/squirtle/bite

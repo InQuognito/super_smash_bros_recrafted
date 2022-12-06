@@ -5,6 +5,7 @@ tag @s add charizard
 
 tellraw @s[tag=!dawn,tag=!victor] {"text":"Charizard, I choose you!","color":"red"}
 tellraw @s[tag=dawn] {"text":"Infernape, I choose you!","color":"red"}
+tellraw @s[tag=victor] {"text":"Coalossal, I choose you!","color":"red"}
 
 clear @s
 loot replace entity @s hotbar.0 loot ssbrc:characters/pokemon/pokemontrainer/charizard/rock_smash
