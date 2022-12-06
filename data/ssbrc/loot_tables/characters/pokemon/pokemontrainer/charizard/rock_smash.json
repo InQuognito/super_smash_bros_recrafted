@@ -16,7 +16,38 @@
 								"color": "gray",
 								"bold": true,
 								"italic": false
-							}
+							},
+							"conditions": [
+								{
+									"condition": "minecraft:inverted",
+									"term": {
+										"condition": "minecraft:entity_properties",
+										"entity": "this",
+										"predicate": {
+											"nbt": "{Tags:[\"victor\"]}"
+										}
+									}
+								}
+							]
+						},
+						{
+							"function": "minecraft:set_name",
+							"entity": "this",
+							"name": {
+								"text": "Mega Punch",
+								"color": "white",
+								"bold": true,
+								"italic": false
+							},
+							"conditions": [
+								{
+									"condition": "minecraft:entity_properties",
+									"entity": "this",
+									"predicate": {
+										"nbt": "{Tags:[\"victor\"]}"
+									}
+								}
+							]
 						},
 						{
 							"function": "minecraft:set_attributes",

@@ -24,7 +24,7 @@
 										"condition": "minecraft:entity_properties",
 										"entity": "this",
 										"predicate": {
-											"nbt": "{Tags:[\"dawn\"]}"
+											"nbt": "{Tags:[\"dawn\",\"victor\"]}"
 										}
 									}
 								}
@@ -41,11 +41,23 @@
 							},
 							"conditions": [
 								{
-									"condition": "minecraft:entity_properties",
-									"entity": "this",
-									"predicate": {
-										"nbt": "{Tags:[\"dawn\"]}"
-									}
+									"condition": "minecraft:alternative",
+									"terms": [
+										{
+											"condition": "minecraft:entity_properties",
+											"entity": "this",
+											"predicate": {
+												"nbt": "{Tags:[\"dawn\"]}"
+											}
+										},
+										{
+											"condition": "minecraft:entity_properties",
+											"entity": "this",
+											"predicate": {
+												"nbt": "{Tags:[\"victor\"]}"
+											}
+										}
+									]
 								}
 							]
 						},

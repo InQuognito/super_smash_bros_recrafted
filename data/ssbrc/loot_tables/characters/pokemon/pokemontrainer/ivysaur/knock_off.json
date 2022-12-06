@@ -13,7 +13,7 @@
 							"entity": "this",
 							"name": {
 								"text": "Knock Off",
-								"color": "white",
+								"color": "dark_gray",
 								"bold": true,
 								"italic": false
 							}
