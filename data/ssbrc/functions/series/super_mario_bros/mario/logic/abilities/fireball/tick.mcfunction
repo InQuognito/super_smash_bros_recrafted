@@ -1,4 +1,5 @@
-particle minecraft:dust 1.0 0.0 0.0 2.0 ~ ~ ~ 0.0 0.0 0.0 0.0 1
+particle minecraft:flame ~ ~ ~ 0.05 0.05 0.05 0.0 25 normal @a
+particle minecraft:dust_color_transition 1.0 0.5 0.0 0.5 1.0 1.0 1.0 ~ ~ ~ 0.075 0.075 0.075 0.01 100 normal @a
 
 execute store result entity @s Rotation[1] float 0.25 run scoreboard players get @s point
 
