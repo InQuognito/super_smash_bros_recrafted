@@ -70,6 +70,9 @@ execute if score $sandOcean map matches 1 if score $hazards options matches 1 if
 scoreboard players add @s[scores={frostbite=1..}] frostbiteTimer 1
 execute if score @s frostbiteTimer >= #frostbiteTimer vars run function ssbrc:logic/characters/attributes/modifiers/frostbite/decrease
 
+scoreboard players add @s[tag=armorBreak] armorBreak 1
+execute if score @s armorBreak matches 60.. run function ssbrc:series/pokemon/pokemontrainer/logic/charizard/rock_smash/deactivate
+
 execute if entity @s[tag=leechSeed] run function ssbrc:series/pokemon/pokemontrainer/logic/ivysaur/leech_seed/calculate
 
 scoreboard players reset @s[scores={stiffKnees=1..},predicate=ssbrc:flag/sneaking] stiffKnees

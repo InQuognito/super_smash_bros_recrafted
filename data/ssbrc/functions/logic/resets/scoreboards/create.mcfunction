@@ -1,4 +1,5 @@
 scoreboard objectives add animation dummy
+scoreboard objectives add armorBreak dummy
 scoreboard objectives add bowser.fireBreath dummy
 scoreboard objectives add bowser.fireBreath.target dummy
 scoreboard objectives add characterTrigger trigger

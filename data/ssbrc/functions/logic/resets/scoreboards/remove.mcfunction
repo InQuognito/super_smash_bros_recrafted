@@ -1,4 +1,5 @@
 scoreboard objectives remove animation
+scoreboard objectives remove armorBreak
 scoreboard objectives remove bowser.fireBreath
 scoreboard objectives remove bowser.fireBreath.target
 scoreboard objectives remove characterTrigger
