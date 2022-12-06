@@ -1,4 +1,4 @@
-execute positioned 0.0 0.0 0.0 run summon minecraft:marker ^ ^ ^10 {Tags:["direction"]}
+execute positioned 0.0 0.0 0.0 run summon minecraft:marker ^ ^ ^6 {Tags:["direction"]}
 
 summon minecraft:arrow ~ ~ ~ {damage:0.8,Tags:["s1000Bullet","bullet","modifyEntity"],NoGravity:1b}
 
