@@ -84,4 +84,4 @@ execute if score @s timer.stat.death matches 2.. run function ssbrc:logic/stocks
 scoreboard players add @s[tag=checkKill] timer.stat.kill 1
 execute if score @s timer.stat.kill matches 2.. run function ssbrc:logic/stocks/check_kill
 scoreboard players add @s[tag=checkShockwave] timer.shockwave 1
-execute if score @s timer.shockwave matches 3.. run function ssbrc:logic/characters/shockwave/reset
+execute if score @s timer.shockwave matches 6.. run function ssbrc:logic/characters/shockwave/reset
