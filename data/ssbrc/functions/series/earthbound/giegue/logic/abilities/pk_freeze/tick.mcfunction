@@ -1,5 +1,5 @@
 execute unless entity @s[tag=pkFreeze.split] run particle minecraft:dust_color_transition 0.4 0.9 1.0 0.75 1.0 1.0 1.0 ~ ~ ~ 0.05 0.05 0.05 0.01 25 normal @a
-execute if entity @s[tag=pkFreeze.split] run particle minecraft:dust 0.4 0.9 1.0 0.25 ~ ~ ~ 0.025 0.025 0.025 0.01 10 normal @a
+execute if entity @s[tag=pkFreeze.split] run particle minecraft:dust 0.4 0.9 1.0 0.25 ~ ~ ~ 0.03 0.03 0.03 0.01 25 normal @a
 
 teleport @s ^ ^ ^0.5
 
