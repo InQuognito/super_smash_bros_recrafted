@@ -4,5 +4,4 @@ execute if score $gameStage temp matches 4 if score @s[tag=hero,nbt={SelectedIte
 execute if score $gameStage temp matches 4 if entity @s[tag=sora,tag=anti] at @s anchored eyes run function ssbrc:series/kingdom_hearts/sora/logic/drive_forms/anti/slash/start
 execute if score $gameStage temp matches 4 if entity @s[tag=zelda,nbt={SelectedItem:{tag:{ruby:1}}}] run effect give @s minecraft:regeneration 1 2 true
 
-say hit
 advancement revoke @s only ssbrc:utility/flag/hurt_player/source/melee

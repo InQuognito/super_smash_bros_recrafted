@@ -1,4 +1,4 @@
-execute rotated as @s run summon minecraft:marker ^ ^ ^1 {Tags:["antiSlash","modifyEntity"]}
+execute rotated as @s run summon minecraft:marker ^ ^ ^2 {Tags:["antiSlash","modifyEntity"]}
 
 data modify entity @e[tag=modifyEntity,limit=1] Rotation[0] set from entity @s Rotation[0]
 execute as @e[tag=modifyEntity,limit=1] store result score @s rotation run data get entity @s Rotation[0]
