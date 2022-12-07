@@ -15,3 +15,6 @@ scoreboard players add @s[tag=balloonRingCooldown] charge.2 1
 execute if score @s charge.2 matches 20.. run function ssbrc:series/pokemon/pikachu/logic/abilities/balloon_ring/deactivate
 
 execute if entity @s[tag=balloonRingCooldown] at @s unless block ~ ~-0.1 ~ minecraft:air run tag @s remove balloonRingCooldown
+
+# Electric Terrain
+execute at @s if entity @e[type=minecraft:marker,tag=electricTerrain,distance=..12] run effect give @s minecraft:speed 1 1 true
