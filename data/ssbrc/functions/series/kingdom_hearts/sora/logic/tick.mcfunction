@@ -28,7 +28,8 @@ execute if score @s duration.1 matches 1 run function ssbrc:series/kingdom_heart
 function ssbrc:series/kingdom_hearts/sora/logic/mana/update
 
 # Anti Form
-execute at @s[tag=anti] run particle minecraft:dust 0.0 0.0 0.0 1.0 ~ ~0.75 ~ 0.2 0.3 0.2 0.0 20 normal @a
+execute at @s[tag=anti] run particle minecraft:dust 0.0 0.0 0.0 1.0 ~ ~0.75 ~ 0.2 0.4 0.2 0.0 50 normal @a
+execute at @s[tag=anti] run particle minecraft:smoke ~ ~0.75 ~ 0.2 0.4 0.2 0.0 25 normal @a
 
 # Blizzaza
 scoreboard players reset @s[scores={duration.2=1}] charge.4
