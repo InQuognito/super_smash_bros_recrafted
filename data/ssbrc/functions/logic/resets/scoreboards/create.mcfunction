@@ -103,10 +103,15 @@ scoreboard objectives add stats.deaths.temp minecraft.custom:minecraft.deaths
 scoreboard objectives add stats.kills.temp minecraft.custom:minecraft.player_kills
 scoreboard objectives add steve.tier dummy
 scoreboard objectives add stocks dummy
+scoreboard objectives add suicides dummy
 scoreboard objectives add teamAmount dummy
 scoreboard objectives add timer dummy
+scoreboard objectives add timer dummy
 scoreboard objectives add timer.barrelCannon dummy
+scoreboard objectives add timer.shockwave dummy
 scoreboard objectives add timer.stalfos dummy
+scoreboard objectives add timer.stat.death dummy
+scoreboard objectives add timer.stat.kill dummy
 scoreboard objectives add timer.trident dummy
 scoreboard objectives add temp dummy
 scoreboard objectives add useAbility minecraft.used:minecraft.carrot_on_a_stick
@@ -121,6 +126,7 @@ scoreboard objectives add acrobat.tracking dummy
 scoreboard objectives add cementShoes dummy
 scoreboard objectives add coward dummy
 scoreboard objectives add coward.tracking dummy
+scoreboard objectives add crushingWeight dummy
 scoreboard objectives add einstein dummy
 scoreboard objectives add firstStrike dummy
 scoreboard objectives add fullPower dummy
@@ -132,6 +138,7 @@ scoreboard objectives add luckyNumberSeven dummy
 scoreboard objectives add mercifulMaster dummy
 scoreboard objectives add noJohns dummy
 scoreboard objectives add onARoll dummy
+scoreboard objectives add quitter dummy
 scoreboard objectives add rapidKill dummy
 scoreboard objectives add rapidKill.tracking dummy
 scoreboard objectives add shieldBreaker dummy

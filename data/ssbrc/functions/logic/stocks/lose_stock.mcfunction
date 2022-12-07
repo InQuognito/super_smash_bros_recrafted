@@ -34,3 +34,5 @@ scoreboard players set @s flag.dead 0
 scoreboard players reset @s coward.tracking
 scoreboard players reset @s noJohns
 scoreboard players reset @s rapidKill.tracking
+
+tag @s add checkDeath

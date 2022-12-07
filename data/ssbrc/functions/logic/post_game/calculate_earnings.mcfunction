@@ -129,15 +129,10 @@ scoreboard players operation value 765o *= value.bonus.765o vars
 execute if score @s 765o matches 1.. run data modify storage ssbrc:bonuses value append value '[{"score":{"name":"@s","objective":"765o"},"bold":true,"color":"yellow"},{"text":"x ","bold":true,"color":"yellow"},{"text":"765o","bold":true,"color":"gold"},{"text":" - ","bold":false,"color":"white"},{"score":{"name":"value","objective":"765o"},"bold":false,"color":"yellow"},{"text":"₡","bold":false,"color":"yellow"}]}}]'
 scoreboard players operation @s currency.temp += value 765o
 
-scoreboard players operation value coward = @s coward
-scoreboard players operation value coward *= value.bonus.coward vars
-execute if score @s coward matches 1.. run data modify storage ssbrc:bonuses value append value '[{"score":{"name":"@s","objective":"coward"},"bold":true,"color":"yellow"},{"text":"x ","bold":true,"color":"yellow"},{"text":"Coward","bold":true,"color":"gold"},{"text":" - ","bold":false,"color":"white"},{"score":{"name":"value","objective":"coward"},"bold":false,"color":"yellow"},{"text":"₡","bold":false,"color":"yellow"}]}}]'
-scoreboard players operation @s currency.temp += value coward
-
-scoreboard players operation value einstein = @s einstein
-scoreboard players operation value einstein *= value.bonus.einstein vars
-execute if score @s einstein matches 1.. run data modify storage ssbrc:bonuses value append value '[{"score":{"name":"@s","objective":"einstein"},"bold":true,"color":"yellow"},{"text":"x ","bold":true,"color":"yellow"},{"text":"Einstein","bold":true,"color":"gold"},{"text":" - ","bold":false,"color":"white"},{"score":{"name":"value","objective":"einstein"},"bold":false,"color":"yellow"},{"text":"₡","bold":false,"color":"yellow"}]}}]'
-scoreboard players operation @s currency.temp += value einstein
+scoreboard players operation value crushingWeight = @s crushingWeight
+scoreboard players operation value crushingWeight *= value.bonus.crushingWeight vars
+execute if score @s crushingWeight matches 1.. run data modify storage ssbrc:bonuses value append value '[{"score":{"name":"@s","objective":"crushingWeight"},"bold":true,"color":"yellow"},{"text":"x ","bold":true,"color":"yellow"},{"text":"Crushing Weight","bold":true,"color":"gold"},{"text":" - ","bold":false,"color":"white"},{"score":{"name":"value","objective":"crushingWeight"},"bold":false,"color":"yellow"},{"text":"₡","bold":false,"color":"yellow"}]}}]'
+scoreboard players operation @s currency.temp += value crushingWeight
 
 scoreboard players operation value rapidKill = @s rapidKill
 scoreboard players operation value rapidKill *= value.bonus.rapidKill vars
@@ -153,6 +148,19 @@ scoreboard players operation value shinyEncounter = @s shinyEncounter
 scoreboard players operation value shinyEncounter *= value.bonus.shinyEncounter vars
 execute if score @s shinyEncounter matches 1.. run data modify storage ssbrc:bonuses value append value '[{"score":{"name":"@s","objective":"shinyEncounter"},"bold":true,"color":"yellow"},{"text":"x ","bold":true,"color":"yellow"},{"text":"Shiny Encounter","bold":true,"color":"gold"},{"text":" - ","bold":false,"color":"white"},{"score":{"name":"value","objective":"shinyEncounter"},"bold":false,"color":"yellow"},{"text":"₡","bold":false,"color":"yellow"}]}}]'
 scoreboard players operation @s currency.temp += value shinyEncounter
+
+scoreboard players operation value coward = @s coward
+scoreboard players operation value coward *= value.bonus.coward vars
+execute if score @s coward matches 1.. run data modify storage ssbrc:bonuses value append value '[{"score":{"name":"@s","objective":"coward"},"bold":true,"color":"yellow"},{"text":"x ","bold":true,"color":"yellow"},{"text":"Coward","bold":true,"color":"gold"},{"text":" - ","bold":false,"color":"white"},{"score":{"name":"value","objective":"coward"},"bold":false,"color":"yellow"},{"text":"₡","bold":false,"color":"yellow"}]}}]'
+scoreboard players operation @s currency.temp += value coward
+
+scoreboard players operation value einstein = @s einstein
+scoreboard players operation value einstein *= value.bonus.einstein vars
+execute if score @s einstein matches 1.. run data modify storage ssbrc:bonuses value append value '[{"score":{"name":"@s","objective":"einstein"},"bold":true,"color":"yellow"},{"text":"x ","bold":true,"color":"yellow"},{"text":"Einstein","bold":true,"color":"gold"},{"text":" - ","bold":false,"color":"white"},{"score":{"name":"value","objective":"einstein"},"bold":false,"color":"yellow"},{"text":"₡","bold":false,"color":"yellow"}]}}]'
+scoreboard players operation @s currency.temp += value einstein
+
+execute if score @s quitter matches 1.. run data modify storage ssbrc:bonuses value append value '[{"text":"Quitter","bold":true,"color":"gold"},{"text":" - ","bold":false,"color":"white"},{"text":"ALL CREDITS FORFEIT","bold":false,"color":"red"}]}}]'
+scoreboard players reset @s currency.temp
 
 scoreboard players set @s[scores={currency.temp=..-1}] currency.temp 0
 tellraw @s [{"text":"Credits Earned: ","color":"gold"},{"score":{"name":"@s","objective":"currency.temp"},"color":"yellow"},{"text":"₡","color":"yellow"}]

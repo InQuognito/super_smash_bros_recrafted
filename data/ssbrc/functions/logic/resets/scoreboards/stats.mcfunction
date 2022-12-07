@@ -226,8 +226,6 @@ scoreboard objectives add stats.zelda.gamesPlayed dummy
 scoreboard objectives add stats.zelda.wins dummy
 scoreboard objectives add stats.zelda.winStreak dummy
 
-execute as @a run function ssbrc:logic/resets/scoreboards/set_empty_stats
-
 # Misc
 scoreboard objectives add options trigger
 scoreboard objectives add stats.deaths minecraft.custom:minecraft.deaths
@@ -263,3 +261,5 @@ scoreboard objectives add stats.fullPower dummy
 scoreboard objectives add stats.goodFriend dummy
 scoreboard objectives add stats.heartgold dummy
 scoreboard objectives add stats.homeFieldAdvantage dummy
+
+execute as @a run function ssbrc:logic/resets/scoreboards/set_empty_stats

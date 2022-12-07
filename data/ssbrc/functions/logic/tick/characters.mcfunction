@@ -78,3 +78,10 @@ execute if entity @s[tag=leechSeed] run function ssbrc:series/pokemon/pokemontra
 scoreboard players reset @s[scores={stiffKnees=1..},predicate=ssbrc:flag/sneaking] stiffKnees
 scoreboard players reset @s[scores={tortoise=1..},predicate=ssbrc:flag/sprinting] tortoise
 scoreboard players remove @s[scores={rapidKill.tracking=1..}] rapidKill.tracking 1
+
+scoreboard players add @s[tag=checkDeath] timer.stat.death 1
+execute if score @s timer.stat.death matches 2.. run function ssbrc:logic/stocks/check_death
+scoreboard players add @s[tag=checkKill] timer.stat.kill 1
+execute if score @s timer.stat.kill matches 2.. run function ssbrc:logic/stocks/check_kill
+scoreboard players add @s[tag=checkShockwave] timer.shockwave 1
+execute if score @s timer.shockwave matches 2.. run function ssbrc:logic/characters/shockwave/reset

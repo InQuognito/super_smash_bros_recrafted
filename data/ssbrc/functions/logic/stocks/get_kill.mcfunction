@@ -5,3 +5,5 @@ execute if score $gameMode options matches 2 if score $gameTime timer matches 1 
 function ssbrc:logic/stocks/bonuses/rapid_kill
 
 function ssbrc:logic/stats/kills
+
+tag @s add checkKill

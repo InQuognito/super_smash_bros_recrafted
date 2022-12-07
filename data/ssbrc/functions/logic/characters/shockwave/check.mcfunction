@@ -5,4 +5,6 @@ execute if score @s[predicate=ssbrc:characters/weight/very_heavy] fallDistance m
 
 execute if score @s[tag=darksamus,predicate=ssbrc:flag/sneaking] fallDistance matches 500.. anchored feet run function ssbrc:series/metroid/darksamus/logic/abilities/phazon_spike/activate
 
+execute if score @s[predicate=ssbrc:characters/weight/heavy] fallDistance matches 500.. run tag @s add checkShockwave
+
 scoreboard players reset @s fallDistance
