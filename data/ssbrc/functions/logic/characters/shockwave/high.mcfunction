@@ -1,5 +1,7 @@
 particle minecraft:campfire_cosy_smoke ~ ~ ~ 1.5 0.0 1.5 0 100 normal @a
 
+function ssbrc:logic/characters/shockwave/summon
+
 tag @a[distance=0.1..4] add damage.shockwave.3
 
 effect give @a[distance=0.1..4] minecraft:instant_damage 1 1 true
