@@ -19,7 +19,7 @@ function ssbrc:logic/resets/lobby/credits
 forceload remove all
 forceload add 0 0 0 0
 
-execute as @r[tag=!winner] run function ssbrc:logic/options
+tag @a remove cannotHost
 tag @a remove winner
 
 function ssbrc:logic/leaderboard/wins/load

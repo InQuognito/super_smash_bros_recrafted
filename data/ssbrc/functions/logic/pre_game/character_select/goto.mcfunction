@@ -9,4 +9,6 @@ effect give @s minecraft:glowing 1000000 255 true
 
 tag @s add room.characterSelect
 
+execute unless entity @a[nbt={Inventory:[{tag:{options:1}}]}] unless entity @s[tag=cannotHost] run function ssbrc:logic/options
+
 function ssbrc:logic/pre_game/character_select/check_participation
