@@ -8,6 +8,9 @@ execute as @e[type=minecraft:marker,tag=fireFox] at @s if score @s id = @p[tag=s
 execute if score @s duration.2 matches 1.. at @s positioned ^ ^ ^2 as @e[type=#ssbrc:projectiles,predicate=!ssbrc:entity_kill_exceptions,tag=!reflected,distance=..2] run function ssbrc:series/star_fox/fox/logic/abilities/reflector/tick
 tag @s remove self
 
+# Reflector
+execute if score @s duration.2 matches 1 run function ssbrc:series/star_fox/fox/logic/abilities/reflector/deactivate
+
 # Fire Fox
 execute unless score @s duration.3 matches 1.. if entity @s[predicate=ssbrc:flag/sneaking,scores={cooldown.3=..0,duration.3=..0}] run function ssbrc:series/star_fox/fox/logic/abilities/fire_fox/charge
 
