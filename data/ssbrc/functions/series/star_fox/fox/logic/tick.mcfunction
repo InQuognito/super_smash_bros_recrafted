@@ -18,4 +18,4 @@ execute unless score @s duration.3 matches 1.. if score @s[scores={cooldown.3=..
 execute unless score @s duration.3 matches 1.. if score @s[scores={cooldown.3=..0,duration.3=..0}] charge.3 >= #fox.fireFoxThreshold vars at @s run function ssbrc:series/star_fox/fox/logic/abilities/fire_fox/activate
 
 execute if score @s duration.3 matches 1 run function ssbrc:series/star_fox/fox/logic/abilities/fire_fox/deactivate
-execute if entity @s[predicate=!ssbrc:flag/sneaking] run function ssbrc:series/star_fox/fox/logic/abilities/fire_fox/clear
+execute unless score @s duration.2 matches 1.. unless score @s duration.3 matches 1.. if entity @s[predicate=!ssbrc:flag/sneaking] run function ssbrc:series/star_fox/fox/logic/abilities/fire_fox/clear
