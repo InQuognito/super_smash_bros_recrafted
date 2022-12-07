@@ -160,7 +160,7 @@ execute if score @s einstein matches 1.. run data modify storage ssbrc:bonuses v
 scoreboard players operation @s currency.temp += value einstein
 
 execute if score @s quitter matches 1.. run data modify storage ssbrc:bonuses value append value '[{"text":"Quitter","bold":true,"color":"gold"},{"text":" - ","bold":false,"color":"white"},{"text":"ALL CREDITS FORFEIT","bold":false,"color":"red"}]}}]'
-scoreboard players reset @s currency.temp
+execute if score @s quitter matches 1.. run scoreboard players set @s currency.temp 0
 
 scoreboard players set @s[scores={currency.temp=..-1}] currency.temp 0
 tellraw @s [{"text":"Credits Earned: ","color":"gold"},{"score":{"name":"@s","objective":"currency.temp"},"color":"yellow"},{"text":"₡","color":"yellow"}]
