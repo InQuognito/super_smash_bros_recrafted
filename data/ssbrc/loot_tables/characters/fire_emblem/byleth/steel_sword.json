@@ -6,14 +6,14 @@
 			"entries": [
 				{
 					"type": "minecraft:item",
-					"name": "minecraft:golden_sword",
+					"name": "minecraft:iron_sword",
 					"functions": [
 						{
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"text": "Sword of the Creator",
-								"color": "yellow",
+								"text": "Steel Sword",
+								"color": "white",
 								"bold": true,
 								"italic": false
 							}
@@ -24,7 +24,7 @@
 								{
 									"attribute": "minecraft:generic.attack_damage",
 									"name": "Attack Damage",
-									"amount": 4,
+									"amount": 3,
 									"operation": "multiply_base",
 									"slot": "mainhand"
 								},
@@ -38,15 +38,8 @@
 							]
 						},
 						{
-							"function": "minecraft:set_enchantments",
-							"enchantments": {
-								"minecraft:sweeping": 1
-							},
-							"add": false
-						},
-						{
 							"function": "minecraft:set_nbt",
-							"tag": "{swordOfTheCreator:1,CustomModelData:100,Unbreakable:1,HideFlags:127}"
+							"tag": "{steelSword:1,CustomModelData:100,Unbreakable:1,HideFlags:127}"
 						}
 					]
 				}
