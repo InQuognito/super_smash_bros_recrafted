@@ -1,12 +1,12 @@
 # Teams
-execute if entity @s[nbt={SelectedItem:{tag:{teamFlag:1,team.pink:1}}}] run function ssbrc:logic/teams/aqua
-execute if entity @s[nbt={SelectedItem:{tag:{teamFlag:1,team.orange:1}}}] run function ssbrc:logic/teams/pink
-execute if entity @s[nbt={SelectedItem:{tag:{teamFlag:1,team.purple:1}}}] run function ssbrc:logic/teams/orange
-execute if entity @s[nbt={SelectedItem:{tag:{teamFlag:1,team.yellow:1}}}] run function ssbrc:logic/teams/purple
-execute if entity @s[nbt={SelectedItem:{tag:{teamFlag:1,team.green:1}}}] run function ssbrc:logic/teams/yellow
-execute if entity @s[nbt={SelectedItem:{tag:{teamFlag:1,team.blue:1}}}] run function ssbrc:logic/teams/green
-execute if entity @s[nbt={SelectedItem:{tag:{teamFlag:1,team.red:1}}}] run function ssbrc:logic/teams/blue
-execute if entity @s[nbt={SelectedItem:{tag:{teamFlag:1,team.aqua:1}}}] run function ssbrc:logic/teams/red
+execute if entity @s[nbt={SelectedItem:{tag:{teamFlag:1,team.pink:1}}},scores={selectFavorite=1..}] run function ssbrc:logic/teams/aqua
+execute if entity @s[nbt={SelectedItem:{tag:{teamFlag:1,team.orange:1}}},scores={selectFavorite=1..}] run function ssbrc:logic/teams/pink
+execute if entity @s[nbt={SelectedItem:{tag:{teamFlag:1,team.purple:1}}},scores={selectFavorite=1..}] run function ssbrc:logic/teams/orange
+execute if entity @s[nbt={SelectedItem:{tag:{teamFlag:1,team.yellow:1}}},scores={selectFavorite=1..}] run function ssbrc:logic/teams/purple
+execute if entity @s[nbt={SelectedItem:{tag:{teamFlag:1,team.green:1}}},scores={selectFavorite=1..}] run function ssbrc:logic/teams/yellow
+execute if entity @s[nbt={SelectedItem:{tag:{teamFlag:1,team.blue:1}}},scores={selectFavorite=1..}] run function ssbrc:logic/teams/green
+execute if entity @s[nbt={SelectedItem:{tag:{teamFlag:1,team.red:1}}},scores={selectFavorite=1..}] run function ssbrc:logic/teams/blue
+execute if entity @s[nbt={SelectedItem:{tag:{teamFlag:1,team.aqua:1}}},scores={selectFavorite=1..}] run function ssbrc:logic/teams/red
 
 # Favorites
 execute if entity @s[nbt={SelectedItem:{tag:{slot:1}}}] store result score @s favorite.temp run scoreboard players get @s favorite.slot1
