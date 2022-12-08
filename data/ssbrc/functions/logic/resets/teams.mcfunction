@@ -45,7 +45,7 @@ execute if score $teams options matches 0 run team modify team2 color green
 execute if score $teams options matches 1 run team modify team2 color blue
 team modify team2 collisionRule always
 team modify team2 deathMessageVisibility never
-execute if score $teams options matches 0 run team modify team2 displayName "Waiting"
+execute if score $teams options matches 0 run team modify team2 displayName "Alive"
 execute if score $teams options matches 1 run team modify team2 displayName "Blue"
 team modify team2 friendlyFire false
 team modify team2 nametagVisibility always
