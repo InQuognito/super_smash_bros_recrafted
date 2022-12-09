@@ -9,7 +9,7 @@ execute as @e[type=minecraft:item_frame,tag=phazonSpike] at @s if score @s id = 
 tag @s remove self
 
 # Charge Beam
-execute if entity @s[scores={charge.output=1..,cooldown.1=..0},nbt={SelectedItem:{tag:{phazonBeam:1}}}] run function ssbrc:series/metroid/darksamus/logic/abilities/phazon_beam/charge
+execute if entity @s[scores={charge.output=1..,cooldown.1=..0,duration.1=..0},predicate=ssbrc:flag/sneaking,nbt={SelectedItem:{tag:{phazonBeam:1}}}] run function ssbrc:series/metroid/darksamus/logic/abilities/phazon_beam/charge
 
 # Phazon Overload
 execute if score @s[nbt=!{Inventory:[{tag:{phazonOverload:1}}]}] charge.1 matches 400.. run loot replace entity @s hotbar.4 loot ssbrc:characters/metroid/darksamus/phazon_overload
