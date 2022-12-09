@@ -14,3 +14,6 @@ execute if score $shadow.villainPercent temp matches 81..90 run title @s actionb
 execute if score $shadow.villainPercent temp matches 91.. run title @s actionbar [{"text":"\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae","color":"red"}]
 
 execute if score @s[nbt=!{Inventory:[{id:"minecraft:carrot_on_a_stick",Count:1b,tag:{chaosBlast:1}}]}] shadow.meter.villain >= #shadow.maxMeter vars run loot replace entity @s hotbar.4 loot ssbrc:characters/sonic_the_hedgehog/shadow/chaos_blast
+
+tag @s remove alignment.hero
+tag @s add alignment.villain

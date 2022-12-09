@@ -53,10 +53,6 @@
 		},
 		{
 			"condition": "minecraft:reference",
-			"name": "ssbrc:characters/alignment/shadow_villain"
-		},
-		{
-			"condition": "minecraft:reference",
 			"name": "ssbrc:characters/alignment/steve_villain"
 		},
 		{

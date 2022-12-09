@@ -164,10 +164,6 @@
 			}
 		},
 		{
-			"condition": "minecraft:reference",
-			"name": "ssbrc:characters/alignment/shadow_hero"
-		},
-		{
 			"condition": "minecraft:entity_properties",
 			"entity": "this",
 			"predicate": {
