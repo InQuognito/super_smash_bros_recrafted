@@ -3,3 +3,5 @@ execute if score $sectorZ map matches 1 run function ssbrc:maps/s/sector_z/logic
 effect clear @s minecraft:slowness
 
 function ssbrc:logic/characters/attributes/defaults
+
+tag @s remove immobile
