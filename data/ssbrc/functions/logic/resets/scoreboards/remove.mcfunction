@@ -99,6 +99,7 @@ scoreboard objectives remove snake.antiPersonnelMineA
 scoreboard objectives remove snake.antiPersonnelMineF
 scoreboard objectives remove snake.smokeGrenadeA
 scoreboard objectives remove snake.smokeGrenadeF
+scoreboard objectives remove stamina
 scoreboard objectives remove stats.deaths.temp
 scoreboard objectives remove stats.kills.temp
 scoreboard objectives remove steve.tier

@@ -50,7 +50,7 @@ execute if entity @s[tag=yar] run function ssbrc:series/retro_fighters/yar/logic
 
 execute if score @s charge.step matches 5.. run function ssbrc:logic/resets/charge
 
-execute at @s[tag=naturalShiny] run particle minecraft:glow ~ ~0.7 ~ 0.5 0.4 0.5 0 1 normal @a
+function ssbrc:logic/tick/stamina
 
 execute if entity @s[scores={flag.damageDealt=1..}] run function ssbrc:logic/characters/damage_dealt
 execute if entity @s[scores={flag.damageTaken=1..}] run function ssbrc:logic/characters/damage_taken
@@ -63,6 +63,8 @@ execute at @s if entity @e[type=minecraft:marker,tag=electricTerrain,distance=..
 execute if entity @s[predicate=ssbrc:characters/enchantments/infinity] run item replace entity @s hotbar.8 with minecraft:spectral_arrow 1
 
 function ssbrc:logic/tick/assign_teams
+
+execute at @s[tag=naturalShiny] run particle minecraft:glow ~ ~0.7 ~ 0.5 0.4 0.5 0 1 normal @a
 
 execute if score $sandOcean map matches 1 if score $hazards options matches 1 unless score $sectorZ map matches 1 run function ssbrc:logic/characters/effects/defaults/jump_boost
 execute if score $sandOcean map matches 1 if score $hazards options matches 1 if score $sectorZ map matches 1 run function ssbrc:maps/s/sector_z/logic/effects

@@ -99,6 +99,7 @@ scoreboard objectives add snake.antiPersonnelMineA dummy
 scoreboard objectives add snake.antiPersonnelMineF dummy
 scoreboard objectives add snake.smokeGrenadeA dummy
 scoreboard objectives add snake.smokeGrenadeF dummy
+scoreboard objectives add stamina dummy
 scoreboard objectives add stats.deaths.temp minecraft.custom:minecraft.deaths
 scoreboard objectives add stats.kills.temp minecraft.custom:minecraft.player_kills
 scoreboard objectives add steve.tier dummy
