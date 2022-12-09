@@ -1,0 +1,20 @@
+{
+	"parent": "ssbrc:utility/root",
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:entity_hurt_player",
+			"conditions": {
+				"damage": {
+					"type": {
+						"direct_entity": {
+							"nbt": "{Tags:[\"bladeBeam\",\"limitBreak\"]}"
+						}
+					}
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "ssbrc:series/final_fantasy/cloud/logic/abilities/blade_beam/multi_hit"
+	}
+}
