@@ -39,7 +39,7 @@
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{keyblade:1,strikeRaid:1,CustomModelData:1563,Unbreakable:1,HideFlags:127}"
+							"tag": "{keyblade:1,strikeRaid:1,CustomModelData:1566,Unbreakable:1,HideFlags:127}"
 						}
 					]
 				}
