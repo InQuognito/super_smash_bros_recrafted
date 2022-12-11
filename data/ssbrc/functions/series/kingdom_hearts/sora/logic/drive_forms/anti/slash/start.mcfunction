@@ -13,6 +13,6 @@ function ssbrc:math/rng/lcg
 execute store result entity @e[tag=modifyEntity,limit=1] Rotation[1] float 1.0 run scoreboard players get result random
 
 scoreboard players set $rayLength temp 15
-execute at @e[type=minecraft:marker,tag=antiSlash,tag=modifyEntity,sort=nearest,limit=1] run teleport ^ ^ ^-7.5
-execute at @e[type=minecraft:marker,tag=antiSlash,tag=modifyEntity,sort=nearest,limit=1] run function ssbrc:series/kingdom_hearts/sora/logic/drive_forms/anti/slash/loop
+execute as @e[type=minecraft:marker,tag=antiSlash,tag=modifyEntity,sort=nearest,limit=1] at @s run teleport ^ ^ ^-7.5
+execute as @e[type=minecraft:marker,tag=antiSlash,tag=modifyEntity,sort=nearest,limit=1] at @s run function ssbrc:series/kingdom_hearts/sora/logic/drive_forms/anti/slash/loop
 kill @e[tag=modifyEntity,limit=1]
