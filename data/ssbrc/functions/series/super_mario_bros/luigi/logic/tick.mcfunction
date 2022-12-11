@@ -15,7 +15,7 @@ execute if score @s moveDistance >= #luigi.superJumpMovementFalloff vars run sco
 # Water Walking
 execute at @s if block ~ ~-1 ~ minecraft:water if score @s[predicate=ssbrc:flag/sprinting] charge.2 matches 1.. run effect give @s minecraft:levitation 1000000 255 true
 
-execute if entity @s[tag=!jumpUpPipe,predicate=!ssbrc:flag/sprinting] run effect clear @s minecraft:levitation
+execute if entity @s[scores={charge.1=1..},tag=!jumpUpPipe,predicate=!ssbrc:flag/sprinting] run effect clear @s minecraft:levitation
 execute if score @s[tag=!jumpUpPipe] charge.2 matches 0 run effect clear @s minecraft:levitation
 execute at @s[tag=!jumpUpPipe] unless block ~ ~-1 ~ minecraft:water run effect clear @s minecraft:levitation
 

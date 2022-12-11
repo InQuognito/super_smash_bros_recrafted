@@ -39,7 +39,7 @@
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{persona:1,archangel:1,Unbreakable:1,HideFlags:127}"
+							"tag": "{persona:1,archangel:1,CustomModelData:600,Unbreakable:1,HideFlags:127}"
 						}
 					]
 				}
