@@ -39,7 +39,7 @@
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{destinyBond:1,Unbreakable:1,HideFlags:127}"
+							"tag": "{destinyBond:1,CustomModelData:50008,Unbreakable:1,HideFlags:127}"
 						}
 					]
 				}
