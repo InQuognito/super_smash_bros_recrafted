@@ -9,4 +9,3 @@ execute store result entity @s Rotation[1] float 1.0 run scoreboard players get 
 scoreboard players set $rayLength temp 15
 execute at @s run teleport ^ ^ ^-7.5
 execute at @s run function ssbrc:series/final_fantasy/cloud/logic/blade_beam/damage/particles/loop
-kill @s
