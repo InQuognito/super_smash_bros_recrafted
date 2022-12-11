@@ -16,7 +16,12 @@ execute as @e[type=minecraft:arrow,tag=blizzaza] at @s if score @s id = @p[tag=s
 execute as @e[type=minecraft:marker,tag=thundaga] at @s if score @s id = @p[tag=self] id run function ssbrc:series/kingdom_hearts/sora/logic/abilities/thundaga/tick
 execute as @e[type=minecraft:marker,tag=thundaza] at @s if score @s id = @p[tag=self] id run function ssbrc:series/kingdom_hearts/sora/logic/abilities/thundaga/thundaza/tick
 execute as @e[type=minecraft:marker,tag=strikeRaid] at @s if score @s id = @p[tag=self] id run function ssbrc:series/kingdom_hearts/sora/logic/abilities/strike_raid/tick
+execute at @s[tag=anti] run particle minecraft:dust 0.0 0.0 0.0 1.0 ~ ~0.75 ~ 0.2 0.4 0.2 0.0 50 normal @a[tag=!self]
+execute at @s[tag=anti] run particle minecraft:smoke ~ ~0.75 ~ 0.2 0.4 0.2 0.0 25 normal @a[tag=!self]
 tag @s remove self
+
+# MP
+function ssbrc:series/kingdom_hearts/sora/logic/mana/update
 
 # Drive Forms
 execute if entity @s[scores={useAbility=1..},nbt={SelectedItem:{tag:{valor:1}}}] run tag @s add driveForm.valor
@@ -24,12 +29,9 @@ execute if entity @s[scores={useAbility=1..},nbt={SelectedItem:{tag:{wisdom:1}}}
 execute if entity @s[predicate=ssbrc:characters/sora/drive_form_check] run function ssbrc:series/kingdom_hearts/sora/logic/drive_forms/anti_check
 execute if score @s duration.1 matches 1 run function ssbrc:series/kingdom_hearts/sora/logic/drive_forms/default
 
-# MP
-function ssbrc:series/kingdom_hearts/sora/logic/mana/update
-
 # Anti Form
-execute at @s[tag=anti] run particle minecraft:dust 0.0 0.0 0.0 1.0 ~ ~0.75 ~ 0.2 0.4 0.2 0.0 50 normal @a
-execute at @s[tag=anti] run particle minecraft:smoke ~ ~0.75 ~ 0.2 0.4 0.2 0.0 25 normal @a
+execute at @s[tag=anti] run particle minecraft:dust 0.0 0.0 0.0 1.0 ~ ~0.75 ~ 0.1 0.2 0.1 0.0 20 normal @s
+execute at @s[tag=anti] run particle minecraft:smoke ~ ~0.75 ~ 0.1 0.2 0.1 0.0 10 normal @s
 
 # Blizzaza
 scoreboard players reset @s[scores={duration.2=1}] charge.4
