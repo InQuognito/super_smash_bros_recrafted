@@ -39,7 +39,7 @@
 						},
 						{
 							"function": "minecraft:set_damage",
-							"damage": 326
+							"damage": 0.03
 						},
 						{
 							"function": "minecraft:set_nbt",
