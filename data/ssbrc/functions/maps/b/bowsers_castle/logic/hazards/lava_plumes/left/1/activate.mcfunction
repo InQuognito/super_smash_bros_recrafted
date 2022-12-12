@@ -1,0 +1,3 @@
+summon minecraft:marker -702.5 15.5 851.5 {Tags:["lavaPlume","left.1","modifyEntity"]}
+scoreboard players set @e[tag=modifyEntity,limit=1] animation 11
+tag @e[tag=modifyEntity,limit=1] remove modifyEntity

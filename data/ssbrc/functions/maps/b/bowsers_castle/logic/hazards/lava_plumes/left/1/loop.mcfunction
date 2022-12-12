@@ -7,5 +7,4 @@ fill ~-2 ~-1 ~-2 ~2 ~-1 ~2 minecraft:structure_void replace minecraft:obsidian
 teleport @s ~ ~1 ~
 
 scoreboard players remove @s animation 1
-execute if score @s animation matches 1.. run function ssbrc:maps/b/bowsers_castle/logic/hazards/lava_plumes_left/1_loop
-execute unless score @s animation matches 1.. run kill @s
+execute if score @s animation matches 0 run kill @s
