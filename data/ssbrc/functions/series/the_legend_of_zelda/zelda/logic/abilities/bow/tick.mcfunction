@@ -1,5 +1,2 @@
-particle minecraft:dust 0.808 0 0 0.75 ^ ^ ^ 0.0 0.0 0.0 0 0 normal @a
-
-scoreboard players add @s temp 1
-kill @s[scores={temp=15..}]
-execute unless block ^ ^ ^0.1 #ssbrc:passthrough run kill @s
+execute if entity @s[tag=effect.wither] run function ssbrc:series/the_legend_of_zelda/zelda/logic/abilities/bow/tick_fire
+execute if entity @s[tag=effect.poison] run function ssbrc:series/the_legend_of_zelda/zelda/logic/abilities/bow/tick_poison
