@@ -49,8 +49,6 @@ summon minecraft:marker -288.5 13.5 -1152.5 {Tags:["lanternOff.hanging"]}
 
 summon minecraft:marker -293.5 11.5 -1149.5 {Tags:["lanternOff.floor"]}
 
-function ssbrc:maps/l/luigis_mansion/logic/blackout/off
-
 time set midnight
 weather thunder
 
