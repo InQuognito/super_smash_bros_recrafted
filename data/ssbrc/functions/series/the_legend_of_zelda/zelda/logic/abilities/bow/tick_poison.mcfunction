@@ -1,1 +1,1 @@
-particle minecraft:happy_villager ~ ~ ~ 0.0 0.0 0.0 0.0 3 normal @a
+particle minecraft:dust 0.0 1.0 0.0 0.75 ~ ~ ~ 0.0 0.0 0.0 0.0 1 normal @a
