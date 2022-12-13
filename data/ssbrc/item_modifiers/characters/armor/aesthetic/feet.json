@@ -1055,6 +1055,29 @@
 			}
 		]
 	},
+	{
+		"function": "minecraft:set_nbt",
+		"tag": "{display:{color:241890}}",
+		"conditions": [
+			{
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"nbt": "{Tags:[\"zelda\"],Inventory:[{tag:{zorasFlippers:1}}]}"
+				}
+			},
+			{
+				"condition": "minecraft:inverted",
+				"term": {
+					"condition": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"nbt": "{Tags:[\"gold\"]}"
+					}
+				}
+			}
+		]
+	},
 
 	{
 		"function": "minecraft:set_nbt",
