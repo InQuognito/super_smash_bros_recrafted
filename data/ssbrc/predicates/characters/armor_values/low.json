@@ -9,6 +9,10 @@
 			},
 			{
 				"condition": "minecraft:reference",
+				"name": "ssbrc:characters/armor_values/negligible"
+			},
+			{
+				"condition": "minecraft:reference",
 				"name": "ssbrc:characters/armor_values/medium"
 			},
 			{
