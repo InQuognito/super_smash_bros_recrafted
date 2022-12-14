@@ -22,6 +22,7 @@ tag @s remove miiverse
 tag @s remove mushroomKingdom
 tag @s remove pacMaze
 tag @s remove palletTown
+tag @s remove palutenasTemple
 tag @s remove planetZebes
 tag @s remove pyrosphere
 tag @s remove saturnValley
