@@ -24,6 +24,11 @@ scoreboard players operation value acrobat *= value.bonus.acrobat vars
 execute if score @s acrobat matches 1.. run data modify storage ssbrc:bonuses value append value '[{"text":"Acrobat","bold":true,"color":"gold"},{"text":" - ","bold":false,"color":"white"},{"score":{"name":"value","objective":"acrobat"},"bold":false,"color":"yellow"},{"text":"₡","bold":false,"color":"yellow"}]}}]'
 scoreboard players operation @s currency.temp += value acrobat
 
+scoreboard players operation value armistice = @s armistice
+scoreboard players operation value armistice *= value.bonus.armistice vars
+execute if score @s armistice matches 1.. run data modify storage ssbrc:bonuses value append value '[{"text":"Armistice","bold":true,"color":"gold"},{"text":" - ","bold":false,"color":"white"},{"score":{"name":"value","objective":"armistice"},"bold":false,"color":"yellow"},{"text":"₡","bold":false,"color":"yellow"}]}}]'
+scoreboard players operation @s currency.temp += value armistice
+
 scoreboard players operation value cementShoes = @s cementShoes
 scoreboard players operation value cementShoes *= value.bonus.cementShoes vars
 execute if score @s cementShoes matches 1.. run data modify storage ssbrc:bonuses value append value '[{"text":"Cement Shoes","bold":true,"color":"gold"},{"text":" - ","bold":false,"color":"white"},{"score":{"name":"value","objective":"cementShoes"},"bold":false,"color":"yellow"},{"text":"₡","bold":false,"color":"yellow"}]}}]'
@@ -129,10 +134,20 @@ scoreboard players operation value 765o *= value.bonus.765o vars
 execute if score @s 765o matches 1.. run data modify storage ssbrc:bonuses value append value '[{"score":{"name":"@s","objective":"765o"},"bold":true,"color":"yellow"},{"text":"x ","bold":true,"color":"yellow"},{"text":"765o","bold":true,"color":"gold"},{"text":" - ","bold":false,"color":"white"},{"score":{"name":"value","objective":"765o"},"bold":false,"color":"yellow"},{"text":"₡","bold":false,"color":"yellow"}]}}]'
 scoreboard players operation @s currency.temp += value 765o
 
+scoreboard players operation value bankShot = @s bankShot
+scoreboard players operation value bankShot *= value.bonus.bankShot vars
+execute if score @s bankShot matches 1.. run data modify storage ssbrc:bonuses value append value '[{"score":{"name":"@s","objective":"bankShot"},"bold":true,"color":"yellow"},{"text":"x ","bold":true,"color":"yellow"},{"text":"Bank Shot","bold":true,"color":"gold"},{"text":" - ","bold":false,"color":"white"},{"score":{"name":"value","objective":"bankShot"},"bold":false,"color":"yellow"},{"text":"₡","bold":false,"color":"yellow"}]}}]'
+scoreboard players operation @s currency.temp += value bankShot
+
 scoreboard players operation value crushingWeight = @s crushingWeight
 scoreboard players operation value crushingWeight *= value.bonus.crushingWeight vars
 execute if score @s crushingWeight matches 1.. run data modify storage ssbrc:bonuses value append value '[{"score":{"name":"@s","objective":"crushingWeight"},"bold":true,"color":"yellow"},{"text":"x ","bold":true,"color":"yellow"},{"text":"Crushing Weight","bold":true,"color":"gold"},{"text":" - ","bold":false,"color":"white"},{"score":{"name":"value","objective":"crushingWeight"},"bold":false,"color":"yellow"},{"text":"₡","bold":false,"color":"yellow"}]}}]'
 scoreboard players operation @s currency.temp += value crushingWeight
+
+scoreboard players operation value NPCKO = @s NPCKO
+scoreboard players operation value NPCKO *= value.bonus.NPCKO vars
+execute if score @s NPCKO matches 1.. run data modify storage ssbrc:bonuses value append value '[{"score":{"name":"@s","objective":"NPCKO"},"bold":true,"color":"yellow"},{"text":"x ","bold":true,"color":"yellow"},{"text":"NPC K.O.","bold":true,"color":"gold"},{"text":" - ","bold":false,"color":"white"},{"score":{"name":"value","objective":"NPCKO"},"bold":false,"color":"yellow"},{"text":"₡","bold":false,"color":"yellow"}]}}]'
+scoreboard players operation @s currency.temp += value NPCKO
 
 scoreboard players operation value rapidKill = @s rapidKill
 scoreboard players operation value rapidKill *= value.bonus.rapidKill vars
@@ -158,6 +173,11 @@ scoreboard players operation value einstein = @s einstein
 scoreboard players operation value einstein *= value.bonus.einstein vars
 execute if score @s einstein matches 1.. run data modify storage ssbrc:bonuses value append value '[{"score":{"name":"@s","objective":"einstein"},"bold":true,"color":"yellow"},{"text":"x ","bold":true,"color":"yellow"},{"text":"Einstein","bold":true,"color":"gold"},{"text":" - ","bold":false,"color":"white"},{"score":{"name":"value","objective":"einstein"},"bold":false,"color":"yellow"},{"text":"₡","bold":false,"color":"yellow"}]}}]'
 scoreboard players operation @s currency.temp += value einstein
+
+scoreboard players operation value selfDestruct = @s suicides
+scoreboard players operation value selfDestruct *= value.bonus.selfDestruct vars
+execute if score @s selfDestruct matches 1.. run data modify storage ssbrc:bonuses value append value '[{"score":{"name":"@s","objective":"selfDestruct"},"bold":true,"color":"yellow"},{"text":"x ","bold":true,"color":"yellow"},{"text":"Self Destruct","bold":true,"color":"gold"},{"text":" - ","bold":false,"color":"white"},{"score":{"name":"value","objective":"selfDestruct"},"bold":false,"color":"yellow"},{"text":"₡","bold":false,"color":"yellow"}]}}]'
+scoreboard players operation @s currency.temp += value selfDestruct
 
 execute if score @s quitter matches 1.. run data modify storage ssbrc:bonuses value append value '[{"text":"Quitter","bold":true,"color":"gold"},{"text":" - ","bold":false,"color":"white"},{"text":"ALL CREDITS FORFEIT","bold":false,"color":"red"}]}}]'
 execute if score @s quitter matches 1.. run scoreboard players set @s currency.temp 0

@@ -124,6 +124,8 @@ scoreboard objectives add 765o.tracking dummy
 scoreboard objectives add 8PlayerMatch dummy
 scoreboard objectives add acrobat dummy
 scoreboard objectives add acrobat.tracking dummy
+scoreboard objectives add armistice dummy
+scoreboard objectives add bankShot dummy
 scoreboard objectives add cementShoes dummy
 scoreboard objectives add coward dummy
 scoreboard objectives add coward.tracking dummy
@@ -138,6 +140,7 @@ scoreboard objectives add lastSecond dummy
 scoreboard objectives add luckyNumberSeven dummy
 scoreboard objectives add mercifulMaster dummy
 scoreboard objectives add noJohns dummy
+scoreboard objectives add NPCKO dummy
 scoreboard objectives add onARoll dummy
 scoreboard objectives add quitter dummy
 scoreboard objectives add rapidKill dummy

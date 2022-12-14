@@ -50,8 +50,6 @@ execute if entity @s[tag=yar] run function ssbrc:series/retro_fighters/yar/logic
 
 execute if score @s charge.step matches 5.. run function ssbrc:logic/resets/charge
 
-function ssbrc:logic/tick/stamina
-
 execute if entity @s[scores={flag.damageDealt=1..}] run function ssbrc:logic/characters/damage_dealt
 execute if entity @s[scores={flag.damageTaken=1..}] run function ssbrc:logic/characters/damage_taken
 

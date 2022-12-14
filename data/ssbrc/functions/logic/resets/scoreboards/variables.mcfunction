@@ -135,6 +135,12 @@ scoreboard players operation value.bonus.8PlayerMatch vars *= 2 integers
 scoreboard players operation value.bonus.acrobat vars = value.participation vars
 scoreboard players operation value.bonus.acrobat vars *= 2 integers
 
+scoreboard players operation value.bonus.armistice vars = value.participation vars
+scoreboard players operation value.bonus.armistice vars *= 1 integers
+
+scoreboard players operation value.bonus.bankShot vars = value.kill vars
+scoreboard players operation value.bonus.bankShot vars *= 1 integers
+
 scoreboard players operation value.bonus.cementShoes vars = value.participation vars
 scoreboard players operation value.bonus.cementShoes vars *= 2 integers
 
@@ -168,11 +174,16 @@ scoreboard players operation value.bonus.mercifulMaster vars *= 1 integers
 scoreboard players operation value.bonus.noJohns vars = value.victory vars
 scoreboard players operation value.bonus.noJohns vars *= 1 integers
 
+scoreboard players operation value.bonus.NPCKO vars = value.kill vars
+scoreboard players operation value.bonus.NPCKO vars /= 3 integers
+
 scoreboard players operation value.bonus.onARoll vars = value.participation vars
 scoreboard players operation value.bonus.onARoll vars *= 1 integers
 
 scoreboard players operation value.bonus.rapidKill vars = value.kill vars
 scoreboard players operation value.bonus.rapidKill vars *= 1 integers
+
+scoreboard players set value.bonus.selfDestruct vars -25
 
 scoreboard players operation value.bonus.shieldBreaker vars = value.kill vars
 scoreboard players operation value.bonus.shieldBreaker vars /= 2 integers

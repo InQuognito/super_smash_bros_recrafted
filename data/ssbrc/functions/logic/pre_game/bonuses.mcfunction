@@ -1,5 +1,7 @@
 execute if score $playersAlive temp matches 8 run scoreboard players set @s 8PlayerMatch 1
 
+execute if score $teams options matches 1 as @a[predicate=ssbrc:flag/player] run function ssbrc:logic/pre_game/bonuses/armistice
+
 scoreboard players set @s cementShoes 1
 
 function ssbrc:logic/pre_game/bonuses/heartgold

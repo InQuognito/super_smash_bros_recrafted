@@ -123,6 +123,8 @@ scoreboard objectives remove 765o.tracking
 scoreboard objectives remove 8PlayerMatch
 scoreboard objectives remove acrobat
 scoreboard objectives remove acrobat.tracking
+scoreboard objectives remove armistice
+scoreboard objectives remove bankShot
 scoreboard objectives remove cementShoes
 scoreboard objectives remove coward
 scoreboard objectives remove coward.tracking
@@ -137,6 +139,7 @@ scoreboard objectives remove lastSecond
 scoreboard objectives remove luckyNumberSeven
 scoreboard objectives remove mercifulMaster
 scoreboard objectives remove noJohns
+scoreboard objectives remove NPCKO
 scoreboard objectives remove onARoll
 scoreboard objectives remove quitter
 scoreboard objectives remove rapidKill

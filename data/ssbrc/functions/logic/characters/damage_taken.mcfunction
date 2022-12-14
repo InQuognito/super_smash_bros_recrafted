@@ -4,4 +4,6 @@ execute if entity @s[tag=joker] run function ssbrc:logic/characters/damage_calcu
 execute if entity @s[tag=teamrocket,tag=wobbuffet,nbt={SelectedItem:{tag:{counter:1}}}] run function ssbrc:logic/characters/damage_calculation/damage_taken/wobbuffet
 execute if entity @s[tag=zelda,nbt={Inventory:[{tag:{glass:1}}]}] unless score @s duration.3 matches 1.. run function ssbrc:logic/characters/damage_calculation/damage_taken/zelda
 
+execute unless score $suddenDeath temp matches 1 run scoreboard players reset @s armistice
+
 scoreboard players reset @s flag.damageTaken
