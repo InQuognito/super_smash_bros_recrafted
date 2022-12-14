@@ -22,6 +22,7 @@ execute if entity @s[tag=miiverse] run scoreboard players remove @e[tag=voteCoun
 execute if entity @s[tag=mushroomKingdom] run scoreboard players remove @e[tag=voteCounter,tag=mushroomKingdom] mapVote 1
 execute if entity @s[tag=pacMaze] run scoreboard players remove @e[tag=voteCounter,tag=pacMaze] mapVote 1
 execute if entity @s[tag=palletTown] run scoreboard players remove @e[tag=voteCounter,tag=palletTown] mapVote 1
+execute if entity @s[tag=palutenasTemple] run scoreboard players remove @e[tag=voteCounter,tag=palutenasTemple] mapVote 1
 execute if entity @s[tag=planetZebes] run scoreboard players remove @e[tag=voteCounter,tag=planetZebes] mapVote 1
 execute if entity @s[tag=pyrosphere] run scoreboard players remove @e[tag=voteCounter,tag=pyrosphere] mapVote 1
 execute if entity @s[tag=saturnValley] run scoreboard players remove @e[tag=voteCounter,tag=saturnValley] mapVote 1
