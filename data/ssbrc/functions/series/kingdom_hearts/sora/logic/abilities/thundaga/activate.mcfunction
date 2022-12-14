@@ -8,5 +8,5 @@ tag @e[tag=modifyEntity,limit=1] remove modifyEntity
 
 scoreboard players operation @s mana -= #sora.thundagaMPCost vars
 
-scoreboard players set @s cooldown.2 60
+scoreboard players set @s cooldown.1 60
 execute if score @s shadow.chaosControl matches 1.. run function ssbrc:logic/characters/cooldown_modifiers/chaos_control/2
