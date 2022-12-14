@@ -33,13 +33,6 @@ execute if score $castleSiege map matches 1 if score result_music random matches
 execute if score $castleSiege map matches 1 if score result_music random matches 1 if score $music options matches 0 run schedule function ssbrc:logic/music/loop_schedule 2400t replace
 execute if score $castleSiege map matches 1 if score result_music random matches 1 if score $music options matches 1 run schedule function ssbrc:logic/music/decide 2400t replace
 
-execute if score $destroyedSkyworld map matches 1 if score result_music random matches 0 run playsound ssbrc:dark_pits_theme music @s
-execute if score $destroyedSkyworld map matches 1 if score result_music random matches 0 if score $music options matches 0 run schedule function ssbrc:logic/music/loop_schedule 2060t replace
-execute if score $destroyedSkyworld map matches 1 if score result_music random matches 0 if score $music options matches 1 run schedule function ssbrc:logic/music/decide 2060t replace
-execute if score $destroyedSkyworld map matches 1 if score result_music random matches 1 run playsound ssbrc:destroyed_skyworld music @s
-execute if score $destroyedSkyworld map matches 1 if score result_music random matches 1 if score $music options matches 0 run schedule function ssbrc:logic/music/loop_schedule 4320t replace
-execute if score $destroyedSkyworld map matches 1 if score result_music random matches 1 if score $music options matches 1 run schedule function ssbrc:logic/music/decide 4320t replace
-
 execute if score $draculasCastle map matches 1 if score result_music random matches 0 run playsound ssbrc:aquarius music @s
 execute if score $draculasCastle map matches 1 if score result_music random matches 0 if score $music options matches 0 run schedule function ssbrc:logic/music/loop_schedule 1344t replace
 execute if score $draculasCastle map matches 1 if score result_music random matches 0 if score $music options matches 1 run schedule function ssbrc:logic/music/decide 1344t replace
@@ -190,6 +183,13 @@ execute if score $palletTown map matches 1 if score result_music random matches 
 execute if score $palletTown map matches 1 if score result_music random matches 1 run playsound ssbrc:road_to_viridian_city music @s
 execute if score $palletTown map matches 1 if score result_music random matches 1 if score $music options matches 0 run schedule function ssbrc:logic/music/loop_schedule 1860t replace
 execute if score $palletTown map matches 1 if score result_music random matches 1 if score $music options matches 1 run schedule function ssbrc:logic/music/decide 1860t replace
+
+execute if score $palutenasTemple map matches 1 if score result_music random matches 0 run playsound ssbrc:dark_pits_theme music @s
+execute if score $palutenasTemple map matches 1 if score result_music random matches 0 if score $music options matches 0 run schedule function ssbrc:logic/music/loop_schedule 2060t replace
+execute if score $palutenasTemple map matches 1 if score result_music random matches 0 if score $music options matches 1 run schedule function ssbrc:logic/music/decide 2060t replace
+execute if score $palutenasTemple map matches 1 if score result_music random matches 1 run playsound ssbrc:destroyed_skyworld music @s
+execute if score $palutenasTemple map matches 1 if score result_music random matches 1 if score $music options matches 0 run schedule function ssbrc:logic/music/loop_schedule 4320t replace
+execute if score $palutenasTemple map matches 1 if score result_music random matches 1 if score $music options matches 1 run schedule function ssbrc:logic/music/decide 4320t replace
 
 execute if score $planetZebes map matches 1 if score result_music random matches 0 run playsound ssbrc:brinstar music @s
 execute if score $planetZebes map matches 1 if score result_music random matches 0 if score $music options matches 0 run schedule function ssbrc:logic/music/loop_schedule 3060t replace
