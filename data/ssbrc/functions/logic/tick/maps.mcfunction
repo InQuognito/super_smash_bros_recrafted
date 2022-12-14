@@ -16,6 +16,7 @@ execute if score $mementos map matches 1 run function ssbrc:maps/m/mementos/logi
 execute if score $miiverse map matches 1 run function ssbrc:maps/m/miiverse/logic/tick
 execute if score $mushroomKingdom map matches 1 run function ssbrc:maps/m/mushroom_kingdom/logic/tick
 execute if score $pacMaze map matches 1 run function ssbrc:maps/p/pac_maze/logic/tick
+execute if score $palutenasTemple map matches 1 run function ssbrc:maps/p/pac_maze/logic/tick
 execute if score $saturnValley map matches 1 run function ssbrc:maps/s/saturn_valley/logic/tick
 execute if score $sectorZ map matches 1 run function ssbrc:maps/s/sector_z/logic/tick
 execute if score $shadowMosesIsland map matches 1 run function ssbrc:maps/s/shadow_moses_island/logic/tick
