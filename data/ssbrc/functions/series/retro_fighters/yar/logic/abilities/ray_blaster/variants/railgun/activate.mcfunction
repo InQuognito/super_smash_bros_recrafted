@@ -6,7 +6,7 @@ data modify entity @e[tag=modifyEntity,limit=1] Owner set from entity @s UUID
 
 tag @e[tag=modifyEntity,limit=1] remove modifyEntity
 
-execute as @e[type=minecraft:area_effect_cloud,tag=rayBlaster,tag=railgun,sort=nearest,limit=1] at @s run function ssbrc:series/retro_fighters/yar/logic/abilities/ray_blaster/variants/railgun/start
+execute as @e[type=minecraft:area_effect_cloud,tag=rayBlaster,tag=railgun,sort=nearest,limit=1] at @s run function ssbrc:series/retro_fighters/yar/logic/abilities/ray_blaster/variants/railgun/raycast/start
 
 scoreboard players set @s cooldown.1 60
 execute if score @s shadow.chaosControl matches 1.. run function ssbrc:logic/characters/cooldown_modifiers/chaos_control/1
