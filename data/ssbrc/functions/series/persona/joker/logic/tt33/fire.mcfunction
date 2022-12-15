@@ -1,8 +1,8 @@
 execute positioned 0.0 0.0 0.0 run summon minecraft:marker ^ ^ ^10 {Tags:["direction"]}
 
-execute if entity @s[tag=!incubus] run summon minecraft:arrow ^ ^ ^0.3 {damage:0.5,Tags:["tt33Bullet","bullet","modifyEntity"],NoGravity:1b}
-execute if entity @s[tag=incubus,scores={duration.1=0}] run summon minecraft:arrow ^ ^ ^0.3 {damage:0.5,Tags:["tt33Bullet","bullet","modifyEntity"],NoGravity:1b}
-execute if entity @s[tag=incubus,scores={duration.1=1..}] run summon minecraft:arrow ^ ^ ^0.3 {damage:0.5,Tags:["dreamNeedle","tt33Bullet","bullet","modifyEntity"],NoGravity:1b}
+execute if entity @s[tag=!sandman] run summon minecraft:arrow ^ ^ ^0.3 {damage:0.5,Tags:["tt33Bullet","bullet","modifyEntity"],NoGravity:1b}
+execute if entity @s[tag=sandman,scores={duration.1=0}] run summon minecraft:arrow ^ ^ ^0.3 {damage:0.5,Tags:["tt33Bullet","bullet","modifyEntity"],NoGravity:1b}
+execute if entity @s[tag=sandman,scores={duration.1=1..}] run summon minecraft:arrow ^ ^ ^0.3 {damage:0.5,Tags:["dreamNeedle","tt33Bullet","bullet","modifyEntity"],NoGravity:1b}
 
 function ssbrc:series/persona/joker/logic/tt33/offset
 execute store result score offsetX temp run data get entity @e[tag=modifyEntity,limit=1] Rotation[0]

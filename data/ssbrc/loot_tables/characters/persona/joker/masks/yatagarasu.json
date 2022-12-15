@@ -6,14 +6,14 @@
 			"entries": [
 				{
 					"type": "minecraft:item",
-					"name": "minecraft:paper",
+					"name": "minecraft:carrot_on_a_stick",
 					"functions": [
 						{
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"text": "Incubus",
-								"color": "light_purple",
+								"text": "Yatagarasu",
+								"color": "dark_gray",
 								"bold": true,
 								"italic": false
 							}
@@ -39,7 +39,7 @@
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{persona:1,incubus:1,CustomModelData:603,Unbreakable:1,HideFlags:127}"
+							"tag": "{mask:1,yatagarasu:1,CustomModelData:602,Unbreakable:1,HideFlags:127}"
 						}
 					]
 				}
