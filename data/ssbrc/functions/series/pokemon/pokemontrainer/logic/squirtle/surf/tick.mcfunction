@@ -12,7 +12,7 @@ execute if block ~ ~-0.1 ~ minecraft:lava at @s run teleport @s ~ ~-0.1 ~
 
 teleport @p[tag=self,scores={duration.1=1..}] ^ ^ ^ ~ ~
 
-tag @a[predicate=ssbrc:flag/targets,distance=0.1..1.5] add damage.surf
+tag @e[predicate=ssbrc:flag/targets,distance=0.1..1.5] add damage.surf
 
 scoreboard players add @s temp 1
 kill @s[scores={temp=30..}]
