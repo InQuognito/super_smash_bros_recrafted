@@ -26,13 +26,6 @@
 			"condition": "minecraft:entity_properties",
 			"entity": "this",
 			"predicate": {
-				"nbt": "{Tags:[\"newHome\"]}"
-			}
-		},
-		{
-			"condition": "minecraft:entity_properties",
-			"entity": "this",
-			"predicate": {
 				"nbt": "{Tags:[\"palletTown\"]}"
 			}
 		},
@@ -48,13 +41,6 @@
 			"entity": "this",
 			"predicate": {
 				"nbt": "{Tags:[\"spearPillar\"]}"
-			}
-		},
-		{
-			"condition": "minecraft:entity_properties",
-			"entity": "this",
-			"predicate": {
-				"nbt": "{Tags:[\"theLabyrinth\"]}"
 			}
 		},
 		{

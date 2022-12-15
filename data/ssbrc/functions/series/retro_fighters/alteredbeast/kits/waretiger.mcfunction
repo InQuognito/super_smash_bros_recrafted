@@ -3,6 +3,8 @@ tag @s add waretiger
 
 tellraw @s [{"text":"Altered Beast Form: ","bold":true,"color":"gold"},{"text":"Waretiger","bold":false,"color":"yellow"}]
 
+function ssbrc:logic/characters/attributes/defaults
+
 clear @s #ssbrc:equipment
 loot replace entity @s hotbar.0 loot ssbrc:characters/retro_fighters/alteredbeast/waretiger/feral_claw
 loot replace entity @s hotbar.1 loot ssbrc:characters/retro_fighters/alteredbeast/waretiger/thundrous_roar
