@@ -146,6 +146,7 @@ scoreboard objectives remove rapidKill
 scoreboard objectives remove rapidKill.tracking
 scoreboard objectives remove shieldBreaker
 scoreboard objectives remove shinyEncounter
+scoreboard objectives remove sniper
 scoreboard objectives remove speedDemon
 scoreboard objectives remove stiffKnees
 scoreboard objectives remove switzerland

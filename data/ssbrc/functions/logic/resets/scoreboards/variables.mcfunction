@@ -190,6 +190,9 @@ scoreboard players operation value.bonus.shieldBreaker vars /= 2 integers
 
 scoreboard players set value.bonus.shinyEncounter vars 2048
 
+scoreboard players operation value.bonus.sniper vars = value.kill vars
+scoreboard players operation value.bonus.sniper vars *= 1 integers
+
 scoreboard players operation value.bonus.speedDemon vars = value.victory vars
 scoreboard players operation value.bonus.speedDemon vars *= 1 integers
 

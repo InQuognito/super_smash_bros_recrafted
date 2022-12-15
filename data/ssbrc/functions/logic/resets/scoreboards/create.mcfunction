@@ -147,6 +147,7 @@ scoreboard objectives add rapidKill dummy
 scoreboard objectives add rapidKill.tracking dummy
 scoreboard objectives add shieldBreaker dummy
 scoreboard objectives add shinyEncounter dummy
+scoreboard objectives add sniper dummy
 scoreboard objectives add speedDemon dummy
 scoreboard objectives add stiffKnees dummy
 scoreboard objectives add switzerland dummy

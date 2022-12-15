@@ -12,4 +12,5 @@ execute if score $gameStage temp matches 4 if entity @s[tag=zelda] run function 
 
 execute if score $gameStage temp matches 4 run function ssbrc:logic/stocks/get_kill
 
+advancement revoke @s only ssbrc:utility/flag/get_kill/distance/30
 advancement revoke @s only ssbrc:utility/flag/get_kill/on/player
