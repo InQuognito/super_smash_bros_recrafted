@@ -1,0 +1,20 @@
+{
+	"condition": "minecraft:inverted",
+	"term": {
+		"condition": "minecraft:alternative",
+		"terms": [
+			{
+				"condition": "minecraft:reference",
+				"name": "ssbrc:characters/max_health/low"
+			},
+			{
+				"condition": "minecraft:reference",
+				"name": "ssbrc:characters/max_health/medium"
+			},
+			{
+				"condition": "minecraft:reference",
+				"name": "ssbrc:characters/max_health/high"
+			}
+		]
+	}
+}
