@@ -2,8 +2,7 @@ function ssbrc:series/kingdom_hearts/sora/logic/drive_forms/reset
 
 scoreboard players operation @s mana = #sora.maxMP vars
 
-loot replace entity @s[tag=!timelessRiver] hotbar.0 loot ssbrc:characters/kingdom_hearts/sora/keyblades/default/firaga
-loot replace entity @s[tag=timelessRiver] hotbar.0 loot ssbrc:characters/kingdom_hearts/sora/keyblades/timeless_river/firaga
+function ssbrc:series/kingdom_hearts/sora/logic/spell_switch/firaga
 
 scoreboard players set @s cooldown.2 1
 
