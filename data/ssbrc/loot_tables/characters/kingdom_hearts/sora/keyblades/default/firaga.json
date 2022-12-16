@@ -167,7 +167,132 @@
 									]
 								}
 							],
-							"replace": true
+							"replace": true,
+							"conditions": [
+								{
+									"condition": "minecraft:inverted",
+									"term": {
+										"condition": "minecraft:entity_properties",
+										"entity": "this",
+										"predicate": {
+											"nbt": "{Tags:[\"wisdom\"]}"
+										}
+									}
+								}
+							]
+						},
+						{
+							"function": "minecraft:set_lore",
+							"entity": "this",
+							"lore": [
+								{
+									"text": "--------------------",
+									"color": "gray",
+									"bold": false,
+									"italic": false
+								},
+								{
+									"text": "Hybrid Weapon",
+									"color": "white",
+									"bold": false,
+									"italic": false,
+									"underlined": true
+								},
+								{
+									"text": "- [",
+									"color": "gray",
+									"bold": false,
+									"italic": false,
+									"extra": [
+										{
+											"keybind": "key.use",
+											"color": "gray",
+											"bold": false,
+											"italic": false
+										},
+										{
+											"text": "] to unleash a ring of flame around you",
+											"color": "gray",
+											"bold": false,
+											"italic": false
+										}
+									]
+								},
+								{
+									"text": "- [",
+									"color": "gray",
+									"bold": false,
+									"italic": false,
+									"extra": [
+										{
+											"keybind": "key.sneak",
+											"color": "gray",
+											"bold": false,
+											"italic": false
+										},
+										{
+											"text": "] + [",
+											"color": "gray",
+											"bold": false,
+											"italic": false
+										},
+										{
+											"keybind": "key.use",
+											"color": "gray",
+											"bold": false,
+											"italic": false
+										},
+										{
+											"text": "] to cycle selected spell",
+											"color": "gray",
+											"bold": false,
+											"italic": false
+										}
+									]
+								},
+								{
+									"text": "Fire",
+									"color": "red",
+									"bold": true,
+									"italic": false,
+									"extra": [
+										{
+											"text": " -> ",
+											"color": "white",
+											"bold": false,
+											"italic": false
+										},
+										{
+											"text": "Blizzard",
+											"color": "aqua",
+											"bold": false,
+											"italic": false
+										},
+										{
+											"text": " -> ",
+											"color": "white",
+											"bold": false,
+											"italic": false
+										},
+										{
+											"text": "Thunder",
+											"color": "yellow",
+											"bold": false,
+											"italic": false
+										}
+									]
+								}
+							],
+							"replace": true,
+							"conditions": [
+								{
+									"condition": "minecraft:entity_properties",
+										"entity": "this",
+										"predicate": {
+											"nbt": "{Tags:[\"wisdom\"]}"
+										}
+								}
+							]
 						},
 						{
 							"function": "minecraft:set_attributes",
