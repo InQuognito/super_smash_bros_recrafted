@@ -321,7 +321,36 @@
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{keyblade:1,blizzaga:1,CustomModelData:1561,Unbreakable:1,HideFlags:127}"
+							"tag": "{keyblade:1,blizzaga:1,Unbreakable:1,HideFlags:127}"
+						},
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{CustomModelData:1561}",
+							"conditions": [
+								{
+									"condition": "minecraft:inverted",
+									"term": {
+										"condition": "minecraft:entity_properties",
+										"entity": "this",
+										"predicate": {
+											"nbt": "{Tags:[\"wisdom\"]}"
+										}
+									}
+								}
+							]
+						},
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{CustomModelData:1565}",
+							"conditions": [
+								{
+									"condition": "minecraft:entity_properties",
+									"entity": "this",
+									"predicate": {
+										"nbt": "{Tags:[\"wisdom\"]}"
+									}
+								}
+							]
 						}
 					]
 				}
