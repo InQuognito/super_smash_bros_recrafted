@@ -78,13 +78,15 @@
 								{
 									"text": "Hybrid Weapon",
 									"color": "white",
-									"bold": true,
+									"bold": false,
 									"italic": false,
 									"underlined": true
 								},
 								{
 									"text": "- [",
 									"color": "gray",
+									"bold": false,
+									"italic": false,
 									"extra": [
 										{
 											"keybind": "key.use",
@@ -133,7 +135,7 @@
 									]
 								},
 								{
-									"text": "Firaga",
+									"text": "Fire",
 									"color": "red",
 									"bold": true,
 									"italic": false,
@@ -145,7 +147,7 @@
 											"italic": false
 										},
 										{
-											"text": "Blizzaga",
+											"text": "Blizzard",
 											"color": "aqua",
 											"bold": false,
 											"italic": false
@@ -157,7 +159,7 @@
 											"italic": false
 										},
 										{
-											"text": "Thundaga",
+											"text": "Thunder",
 											"color": "yellow",
 											"bold": false,
 											"italic": false
