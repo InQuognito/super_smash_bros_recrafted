@@ -66,6 +66,108 @@
 							]
 						},
 						{
+							"function": "minecraft:set_lore",
+							"entity": "this",
+							"lore": [
+								{
+									"text": "------------------------------------------",
+									"color": "gray",
+									"bold": false,
+									"italic": false
+								},
+								{
+									"text": "Hybrid Weapon",
+									"color": "white",
+									"bold": true,
+									"italic": false,
+									"underlined": true
+								},
+								{
+									"text": "- [",
+									"color": "gray",
+									"extra": [
+										{
+											"keybind": "key.use",
+											"color": "gray",
+											"bold": false,
+											"italic": false
+										},
+										{
+											"text": "] to shoot a fireball",
+											"color": "gray",
+											"bold": false,
+											"italic": false
+										}
+									]
+								},
+								{
+									"text": "- [",
+									"color": "gray",
+									"bold": false,
+									"italic": false,
+									"extra": [
+										{
+											"keybind": "key.sneak",
+											"color": "gray",
+											"bold": false,
+											"italic": false
+										},
+										{
+											"text": "] + [",
+											"color": "gray",
+											"bold": false,
+											"italic": false
+										},
+										{
+											"keybind": "key.use",
+											"color": "gray",
+											"bold": false,
+											"italic": false
+										},
+										{
+											"text": "] to cycle selected spell",
+											"color": "gray",
+											"bold": false,
+											"italic": false
+										}
+									]
+								},
+								{
+									"text": "Firaga",
+									"color": "red",
+									"bold": true,
+									"italic": false,
+									"extra": [
+										{
+											"text": " -> ",
+											"color": "white",
+											"bold": false,
+											"italic": false
+										},
+										{
+											"text": "Blizzaga",
+											"color": "aqua",
+											"bold": false,
+											"italic": false
+										},
+										{
+											"text": " -> ",
+											"color": "white",
+											"bold": false,
+											"italic": false
+										},
+										{
+											"text": "Thundaga",
+											"color": "yellow",
+											"bold": false,
+											"italic": false
+										}
+									]
+								}
+							],
+							"replace": true
+						},
+						{
 							"function": "minecraft:set_attributes",
 							"modifiers": [
 								{
