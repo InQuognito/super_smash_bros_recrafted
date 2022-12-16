@@ -12,8 +12,8 @@
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"text": "Kingdom Key",
-								"color": "white",
+								"text": "Wisdom Form",
+								"color": "blue",
 								"bold": true,
 								"italic": false
 							}
@@ -29,7 +29,7 @@
 									"italic": false
 								},
 								{
-									"text": "Hybrid Weapon",
+									"text": "Transformation Ability",
 									"color": "white",
 									"bold": false,
 									"italic": false,
@@ -48,7 +48,7 @@
 											"italic": false
 										},
 										{
-											"text": "] with both keyblades equipped to Strike Raid",
+											"text": "] to change into Wisom Form",
 											"color": "gray",
 											"bold": false,
 											"italic": false
@@ -56,10 +56,60 @@
 									]
 								},
 								{
-									"text": " - Throws offhanded keyblade forward, dealing damage",
-									"color": "gray",
-									"bold": false,
-									"italic": false
+									"text": " + ",
+									"color": "green",
+									"bold": true,
+									"italic": false,
+									"extra": [
+										{
+											"text": "Increases mana regeneration",
+											"color": "gray",
+											"bold": false,
+											"italic": false
+										}
+									]
+								},
+								{
+									"text": " + ",
+									"color": "green",
+									"bold": true,
+									"italic": false,
+									"extra": [
+										{
+											"text": "Spells gain new properties",
+											"color": "gray",
+											"bold": false,
+											"italic": false
+										}
+									]
+								},
+								{
+									"text": " + ",
+									"color": "green",
+									"bold": true,
+									"italic": false,
+									"extra": [
+										{
+											"text": "Increases movement speed",
+											"color": "gray",
+											"bold": false,
+											"italic": false
+										}
+									]
+								},
+								{
+									"text": " - ",
+									"color": "red",
+									"bold": true,
+									"italic": false,
+									"extra": [
+										{
+											"text": "Reduced attack damage",
+											"color": "gray",
+											"bold": false,
+											"italic": false
+										}
+									]
 								}
 							],
 							"replace": true
@@ -70,14 +120,14 @@
 								{
 									"attribute": "minecraft:generic.attack_damage",
 									"name": "Attack Damage",
-									"amount": 7,
+									"amount": 0,
 									"operation": "multiply_base",
 									"slot": "mainhand"
 								},
 								{
 									"attribute": "minecraft:generic.attack_speed",
 									"name": "Attack Speed",
-									"amount": 1.5,
+									"amount": 1024,
 									"operation": "multiply_base",
 									"slot": "mainhand"
 								}
@@ -85,7 +135,7 @@
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{keyblade:1,strikeRaid:1,CustomModelData:1565,Unbreakable:1,HideFlags:127}"
+							"tag": "{driveForm:1,valor:1,CustomModelData:1565,Unbreakable:1,HideFlags:127}"
 						}
 					]
 				}

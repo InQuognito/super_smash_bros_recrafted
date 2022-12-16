@@ -1,2 +1,2 @@
-item replace entity @s hotbar.2 with minecraft:carrot_on_a_stick{driveForm:1,valor:1,CustomModelData:1565,Unbreakable:1,display:{Name:'[{"text":"Valor Form","italic":false,"color":"red","bold":true}]'},HideFlags:127} 1
-item replace entity @s hotbar.3 with minecraft:carrot_on_a_stick{driveForm:1,wisdom:1,CustomModelData:1566,Unbreakable:1,display:{Name:'[{"text":"Wisdom Form","italic":false,"color":"blue","bold":true}]'},HideFlags:127} 1
+loot replace entity @s hotbar.2 loot ssbrc:characters/kingdom_hearts/sora/drive_forms/valor
+loot replace entity @s hotbar.3 loot ssbrc:characters/kingdom_hearts/sora/drive_forms/wisdom
