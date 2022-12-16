@@ -36,6 +36,26 @@
 									"underlined": true
 								},
 								{
+									"text": "- [",
+									"color": "gray",
+									"bold": false,
+									"italic": false,
+									"extra": [
+										{
+											"keybind": "key.use",
+											"color": "gray",
+											"bold": false,
+											"italic": false
+										},
+										{
+											"text": "] to throw",
+											"color": "gray",
+											"bold": false,
+											"italic": false
+										}
+									]
+								},
+								{
 									"text": "- Bounces along the ground",
 									"color": "gray",
 									"bold": false,
