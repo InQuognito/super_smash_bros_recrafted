@@ -23,7 +23,7 @@
 							"entity": "this",
 							"lore": [
 								{
-									"text": "-------------",
+									"text": "--------------",
 									"color": "gray",
 									"bold": false,
 									"italic": false
@@ -80,7 +80,7 @@
 											"italic": false
 										},
 										{
-											"text": "] to charge a spin attack, release to unleash",
+											"text": "] to charge a spin attack",
 											"color": "gray",
 											"bold": false,
 											"italic": false
