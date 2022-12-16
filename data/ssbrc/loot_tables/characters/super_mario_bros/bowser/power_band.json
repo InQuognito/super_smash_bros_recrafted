@@ -12,11 +12,31 @@
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"text": "Koopa Klaw",
-								"color": "red",
+								"text": "Power Band",
+								"color": "dark_gray",
 								"bold": true,
 								"italic": false
 							}
+						},
+						{
+							"function": "minecraft:set_lore",
+							"entity": "this",
+							"lore": [
+								{
+									"text": "---------",
+									"color": "gray",
+									"bold": false,
+									"italic": false
+								},
+								{
+									"text": "Melee Weapon",
+									"color": "white",
+									"bold": false,
+									"italic": false,
+									"underlined": true
+								}
+							],
+							"replace": true
 						},
 						{
 							"function": "minecraft:set_attributes",
@@ -39,7 +59,7 @@
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{koopaKlaw:1,Unbreakable:1,HideFlags:127}"
+							"tag": "{powerBand:1,Unbreakable:1,HideFlags:127}"
 						}
 					]
 				}

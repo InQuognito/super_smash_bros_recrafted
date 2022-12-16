@@ -103,6 +103,12 @@
 									]
 								},
 								{
+									"text": " - Inflicts frostbite on the opponent",
+									"color": "gray",
+									"bold": false,
+									"italic": false
+								},
+								{
 									"text": "- [",
 									"color": "gray",
 									"bold": false,
@@ -217,6 +223,12 @@
 											"italic": false
 										}
 									]
+								},
+								{
+									"text": " - Inflicts frostbite on the opponent",
+									"color": "gray",
+									"bold": false,
+									"italic": false
 								},
 								{
 									"text": " - On the third consecutive shot, releases 5 projectiles in a fan",
