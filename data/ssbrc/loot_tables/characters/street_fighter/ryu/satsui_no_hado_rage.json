@@ -19,6 +19,102 @@
 							}
 						},
 						{
+							"function": "minecraft:set_lore",
+							"entity": "this",
+							"lore": [
+								{
+									"text": "--------------------",
+									"color": "gray",
+									"bold": false,
+									"italic": false
+								},
+								{
+									"text": "Transformation Ability",
+									"color": "white",
+									"bold": false,
+									"italic": false,
+									"underlined": true
+								},
+								{
+									"text": "- [",
+									"color": "gray",
+									"bold": false,
+									"italic": false,
+									"extra": [
+										{
+											"keybind": "key.use",
+											"color": "gray",
+											"bold": false,
+											"italic": false
+										},
+										{
+											"text": "] to change into Evil Ryu",
+											"color": "gray",
+											"bold": false,
+											"italic": false
+										}
+									]
+								},
+								{
+									"text": " + ",
+									"color": "green",
+									"bold": true,
+									"italic": false,
+									"extra": [
+										{
+											"text": "Increases attack damage",
+											"color": "gray",
+											"bold": false,
+											"italic": false
+										}
+									]
+								},
+								{
+									"text": " + ",
+									"color": "green",
+									"bold": true,
+									"italic": false,
+									"extra": [
+										{
+											"text": "Increases movement speed",
+											"color": "gray",
+											"bold": false,
+											"italic": false
+										}
+									]
+								},
+								{
+									"text": " + ",
+									"color": "green",
+									"bold": true,
+									"italic": false,
+									"extra": [
+										{
+											"text": "Gain temporary bonus health",
+											"color": "gray",
+											"bold": false,
+											"italic": false
+										}
+									]
+								},
+								{
+									"text": " - ",
+									"color": "red",
+									"bold": true,
+									"italic": false,
+									"extra": [
+										{
+											"text": "After the effect wears off, attack speed and damage are decreased",
+											"color": "gray",
+											"bold": false,
+											"italic": false
+										}
+									]
+								}
+							],
+							"replace": true
+						},
+						{
 							"function": "minecraft:set_attributes",
 							"modifiers": [
 								{
