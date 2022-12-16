@@ -1,4 +1,4 @@
-give @p minecraft:warped_fungus_on_a_stick{powerPellet:1,CustomModelData:1,Unbreakable:1,display:{Name:'[{"text":"Power Pellet","italic":false,"color":"white","bold":true}]'},HideFlags:127} 1
+loot give @p loot ssbrc:items/power_pellet
 
 kill @s
 
