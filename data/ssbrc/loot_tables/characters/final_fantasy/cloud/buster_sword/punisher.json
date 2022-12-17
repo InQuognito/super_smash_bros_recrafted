@@ -114,16 +114,7 @@
 									]
 								}
 							],
-							"replace": true,
-							"conditions": [
-								{
-									"condition": "minecraft:entity_properties",
-										"entity": "this",
-										"predicate": {
-											"nbt": "{Tags:[\"punisher\"]}"
-										}
-								}
-							]
+							"replace": true
 						},
 						{
 							"function": "minecraft:set_attributes",
