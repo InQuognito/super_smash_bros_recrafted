@@ -5,6 +5,7 @@ execute if score $gameMode options matches 1 run scoreboard players add $gameTim
 execute if score $gameMode options matches 2 run function ssbrc:logic/timer/ingame/time_battle
 
 # Characters
+execute as @a[tag=bowser] if score @s charge.2 matches 1.. run function ssbrc:logic/timer/characters/bowser
 execute as @a[tag=sora,tag=!valor,tag=!anti] if score @s mana < #sora.maxMP vars run function ssbrc:logic/timer/characters/sora
 execute as @a[tag=zelda] if score @s mana < #zelda.maxMagic vars run function ssbrc:logic/timer/characters/zelda
 

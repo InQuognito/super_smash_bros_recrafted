@@ -2,6 +2,10 @@
 	"condition": "minecraft:alternative",
 	"terms": [
 		{
+			"condition": "minecraft:reference",
+			"name": "ssbrc:characters/bowser/rage/on"
+		},
+		{
 			"condition": "minecraft:entity_properties",
 			"entity": "this",
 			"predicate": {

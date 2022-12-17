@@ -2,6 +2,9 @@ scoreboard players set @s duration.1 1
 scoreboard players set @s duration.2 1
 scoreboard players set @s duration.3 1
 
+# Bowser
+tag @s[tag=bowser,tag=rageUsed] remove rageUsed
+
 # Byleth
 clear @s[tag=byleth] minecraft:shield
 loot replace entity @s[tag=blackEagles] weapon.offhand loot ssbrc:characters/fire_emblem/byleth/shield
