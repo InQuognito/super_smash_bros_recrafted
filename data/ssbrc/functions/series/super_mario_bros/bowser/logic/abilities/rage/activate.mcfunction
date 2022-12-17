@@ -1,4 +1,4 @@
-scoreboard players set @s duration.1 600
+scoreboard players set @s duration.1 300
 
 effect give @s minecraft:resistance 3 2 true
 
