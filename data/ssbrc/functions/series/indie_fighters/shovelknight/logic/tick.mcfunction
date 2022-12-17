@@ -17,12 +17,13 @@ tag @s remove self
 function ssbrc:series/indie_fighters/shovelknight/logic/mana/update
 
 # Shovel Drop
-execute if entity @s[tag=!armorOfChaos,predicate=ssbrc:flag/sneaking,nbt={SelectedItem:{tag:{shovelDrop:0}}}] at @s if block ~ ~-0.1 ~ minecraft:air run loot replace entity @s weapon.mainhand loot ssbrc:characters/indie_fighters/shovelknight/shovel_blade/default/shovel_drop
-execute if entity @s[tag=!armorOfChaos,nbt={SelectedItem:{tag:{shovelDrop:1}}}] at @s unless block ~ ~-0.1 ~ minecraft:air run loot replace entity @s weapon.mainhand loot ssbrc:characters/indie_fighters/shovelknight/shovel_blade/default/default
-execute at @s if entity @s[tag=!armorOfChaos,predicate=!ssbrc:flag/sneaking,nbt={SelectedItem:{tag:{shovelDrop:1}}}] run loot replace entity @s weapon.mainhand loot ssbrc:characters/indie_fighters/shovelknight/shovel_blade/default/default
-execute if entity @s[tag=armorOfChaos,predicate=ssbrc:flag/sneaking,nbt={SelectedItem:{tag:{shovelDrop:0}}}] at @s if block ~ ~-0.1 ~ minecraft:air run loot replace entity @s weapon.mainhand loot ssbrc:characters/indie_fighters/shovelknight/shovel_blade/shovel_of_chaos/shovel_drop
-execute if entity @s[tag=armorOfChaos,nbt={SelectedItem:{tag:{shovelDrop:1}}}] at @s unless block ~ ~-0.1 ~ minecraft:air run loot replace entity @s weapon.mainhand loot ssbrc:characters/indie_fighters/shovelknight/shovel_blade/shovel_of_chaos/default
-execute at @s if entity @s[tag=armorOfChaos,predicate=!ssbrc:flag/sneaking,nbt={SelectedItem:{tag:{shovelDrop:1}}}] run loot replace entity @s weapon.mainhand loot ssbrc:characters/indie_fighters/shovelknight/shovel_blade/shovel_of_chaos/default
+execute if entity @s[tag=!armorOfChaos,predicate=ssbrc:flag/sneaking,nbt={SelectedItem:{tag:{shovelDrop:0}}}] at @s if block ~ ~-0.1 ~ #ssbrc:passthrough_charge run loot replace entity @s weapon.mainhand loot ssbrc:characters/indie_fighters/shovelknight/shovel_blade/default/shovel_drop
+execute if entity @s[tag=!armorOfChaos,nbt={SelectedItem:{tag:{shovelDrop:1}}}] at @s unless block ~ ~-0.1 ~ #ssbrc:passthrough_charge run loot replace entity @s weapon.mainhand loot ssbrc:characters/indie_fighters/shovelknight/shovel_blade/default/default
+execute if entity @s[tag=!armorOfChaos,predicate=!ssbrc:flag/sneaking,nbt={SelectedItem:{tag:{shovelDrop:1}}}] run loot replace entity @s weapon.mainhand loot ssbrc:characters/indie_fighters/shovelknight/shovel_blade/default/default
+execute if entity @s[tag=armorOfChaos,predicate=ssbrc:flag/sneaking,nbt={SelectedItem:{tag:{shovelDrop:0}}}] at @s if block ~ ~-0.1 ~ #ssbrc:passthrough_charge run loot replace entity @s weapon.mainhand loot ssbrc:characters/indie_fighters/shovelknight/shovel_blade/shovel_of_chaos/shovel_drop
+execute if entity @s[tag=armorOfChaos,nbt={SelectedItem:{tag:{shovelDrop:1}}}] at @s unless block ~ ~-0.1 ~ #ssbrc:passthrough_charge run loot replace entity @s weapon.mainhand loot ssbrc:characters/indie_fighters/shovelknight/shovel_blade/shovel_of_chaos/default
+execute if entity @s[tag=armorOfChaos,predicate=!ssbrc:flag/sneaking,nbt={SelectedItem:{tag:{shovelDrop:1}}}] run loot replace entity @s weapon.mainhand loot ssbrc:characters/indie_fighters/shovelknight/shovel_blade/shovel_of_chaos/default
+execute if entity @s[tag=armorOfChaos,predicate=ssbrc:flag/sneaking,nbt={SelectedItem:{tag:{shovelDrop:1}}}] at @s run particle minecraft:small_flame ^-0.25 ^-0.75 ^ 0.1 0.1 0.1 0.01 5 normal @a
 
 execute if entity @s[predicate=!ssbrc:flag/sneaking,scores={charge.3=1..}] run function ssbrc:series/indie_fighters/shovelknight/logic/abilities/shovel_drop/reset
 scoreboard players add @s[scores={charge.3=1..}] charge.3 1
@@ -34,7 +35,7 @@ execute if score @s[tag=shovelknight.phaseLocket] duration.2 matches 1.. run fun
 
 # Propeller Dagger
 execute if score @s[tag=shovelknight.propellerDagger] duration.2 matches 1 run function ssbrc:series/indie_fighters/shovelknight/logic/abilities/propeller_dagger/deactivate
-execute if entity @s[tag=shovelknight.propellerDagger,nbt={SelectedItem:{tag:{propellerDagger:1}}}] if score @s charge.input matches 1.. if score @s mana >= #shovelknight.propellerDaggerManaCost vars at @s anchored eyes run particle minecraft:end_rod ^ ^ ^15.0 0.0 0.0 0.0 0.0 1 normal @a
+execute if entity @s[tag=shovelknight.propellerDagger,nbt={SelectedItem:{tag:{propellerDagger:1}}}] if score @s charge.input matches 1.. if score @s mana >= #shovelknight.propellerDaggerManaCost vars at @s anchored eyes run particle minecraft:end_rod ^ ^ ^15.0 0.0 0.0 0.0 0.0 1 normal @s
 
 # War Horn
 execute if score @s[tag=shovelknight.warHorn] cooldown.2 matches 260 run function ssbrc:logic/characters/effects/mobility/mobilize
