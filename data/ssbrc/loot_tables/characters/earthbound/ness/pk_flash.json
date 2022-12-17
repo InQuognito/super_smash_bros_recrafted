@@ -19,6 +19,46 @@
 							}
 						},
 						{
+							"function": "minecraft:set_lore",
+							"entity": "this",
+							"lore": [
+								{
+									"text": "---------",
+									"color": "gray",
+									"bold": false,
+									"italic": false
+								},
+								{
+									"text": "Ranged Weapon",
+									"color": "white",
+									"bold": false,
+									"italic": false,
+									"underlined": true
+								},
+								{
+									"text": "- [",
+									"color": "gray",
+									"bold": false,
+									"italic": false,
+									"extra": [
+										{
+											"keybind": "key.use",
+											"color": "gray",
+											"bold": false,
+											"italic": false
+										},
+										{
+											"text": "] to throw a bomb that damages and stuns opponents in a small radius",
+											"color": "gray",
+											"bold": false,
+											"italic": false
+										}
+									]
+								}
+							],
+							"replace": true
+						},
+						{
 							"function": "minecraft:set_attributes",
 							"modifiers": [
 								{
@@ -39,7 +79,7 @@
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{pkFlash:1,CustomPotionColor:552489,CustomPotionEffects:[{Id:15,Duration:160,Amplifier:0b},{Id:7,Duration:1,Amplifier:0b},{Id:2,Duration:160,Amplifier:1b},{Id:18,Duration:160,Amplifier:1b}],HideFlags:127}"
+							"tag": "{pkFlash:1,CustomPotionColor:552489,CustomPotionEffects:[{Id:7,Duration:1,Amplifier:0b},{Id:15,Duration:160,Amplifier:0b},{Id:2,Duration:160,Amplifier:1b},{Id:18,Duration:160,Amplifier:1b}],HideFlags:127}"
 						}
 					]
 				}
