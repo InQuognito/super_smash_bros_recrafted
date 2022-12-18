@@ -52,21 +52,7 @@
 							"function": "minecraft:copy_nbt",
 							"source": {
 								"type": "minecraft:storage",
-								"source": "ssbrc:statistics/general"
-							},
-							"ops": [
-								{
-									"source": "Value",
-									"target": "pages[]",
-									"op": "append"
-								}
-							]
-						},
-						{
-							"function": "minecraft:copy_nbt",
-							"source": {
-								"type": "minecraft:storage",
-								"source": "ssbrc:statistics/fighters"
+								"source": "ssbrc:shop/fighters"
 							},
 							"ops": [
 								{
@@ -78,7 +64,7 @@
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{CustomModelData:2,title:\"\",author:\"\"}"
+							"tag": "{CustomModelData:2,title:\"\",author:\"\",HideFlags:127}"
 						}
 					]
 				}
