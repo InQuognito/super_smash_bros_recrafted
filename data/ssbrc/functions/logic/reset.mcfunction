@@ -39,5 +39,5 @@ schedule function ssbrc:logic/resets/lobby 1s replace
 #######################
 # REMOVE - DEBUG ONLY #
 #######################
-advancement grant @a through ssbrc:skins
+execute if score $debug options matches 1 run advancement grant @a through ssbrc:skins
 #######################
