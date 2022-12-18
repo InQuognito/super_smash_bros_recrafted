@@ -339,19 +339,19 @@
 		"lore": [
 			{
 				"text": "- [",
-				"color": "light_purple",
+				"color": "gray",
 				"bold": false,
 				"italic": false,
 				"extra": [
 					{
 						"keybind": "key.use",
-						"color": "light_purple",
+						"color": "gray",
 						"bold": false,
 						"italic": false
 					},
 					{
 						"text": "] to view your full profile!",
-						"color": "light_purple",
+						"color": "gray",
 						"bold": false,
 						"italic": false
 					}
