@@ -24,7 +24,7 @@ execute if score $gameMode options matches 1 run scoreboard objectives setdispla
 
 execute if score $gameMode options matches 2 run scoreboard players set @a[predicate=ssbrc:flag/player] stocks 1
 execute if score $gameMode options matches 2 store result bossbar minecraft:timer max run scoreboard players get $timeLimit options
-execute if score $gameMode options matches 2 run bossbar set minecraft:timer players @a
+execute if score $gameMode options matches 2 run bossbar set minecraft:timer players @a[predicate=ssbrc:ingame]
 execute if score $gameMode options matches 2 run bossbar set minecraft:timer visible true
 execute if score $gameMode options matches 2 run scoreboard objectives setdisplay sidebar kills
 
@@ -53,9 +53,6 @@ execute if score $gameMode options matches 2 store result bossbar minecraft:time
 
 execute if score $gameMode options matches 1 run scoreboard players operation $speedDemon temp = $totalStocks temp
 execute if score $gameMode options matches 1 run scoreboard players operation $speedDemon temp *= 8 integers
-
-execute if score $gameMode options matches 2 run scoreboard players operation $speedDemon temp = $timeLimit options
-execute if score $gameMode options matches 2 run scoreboard players operation $speedDemon temp /= 5 integers
 
 scoreboard players set $gameStage temp 4
 scoreboard players reset $countdown timer
