@@ -149,6 +149,7 @@ scoreboard objectives remove shinyEncounter
 scoreboard objectives remove sniper
 scoreboard objectives remove speedDemon
 scoreboard objectives remove stiffKnees
+scoreboard objectives remove suddenDeath
 scoreboard objectives remove switzerland
 scoreboard objectives remove tortoise
 scoreboard objectives remove trulyHeroic

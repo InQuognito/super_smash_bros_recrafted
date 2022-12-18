@@ -199,6 +199,9 @@ scoreboard players operation value.bonus.speedDemon vars *= 1 integers
 scoreboard players operation value.bonus.stiffKnees vars = value.participation vars
 scoreboard players operation value.bonus.stiffKnees vars *= 1 integers
 
+scoreboard players operation value.bonus.suddenDeath vars = value.participation vars
+scoreboard players operation value.bonus.suddenDeath vars *= 1 integers
+
 scoreboard players operation value.bonus.switzerland vars = value.participation vars
 scoreboard players operation value.bonus.switzerland vars *= 1 integers
 

@@ -150,6 +150,7 @@ scoreboard objectives add shinyEncounter dummy
 scoreboard objectives add sniper dummy
 scoreboard objectives add speedDemon dummy
 scoreboard objectives add stiffKnees dummy
+scoreboard objectives add suddenDeath dummy
 scoreboard objectives add switzerland dummy
 scoreboard objectives add tortoise dummy
 scoreboard objectives add trulyHeroic dummy
