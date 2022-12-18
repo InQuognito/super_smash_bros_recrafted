@@ -241,3 +241,7 @@ scoreboard objectives remove stats.winStreak.record
 function ssbrc:logic/resets/scoreboards/create
 
 function ssbrc:logic/resets/scoreboards/stats
+
+function ssbrc:logic/load
+
+tellraw @s {"text":"All player data has been successfully reset.","color":"dark_red"}
