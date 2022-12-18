@@ -14,5 +14,7 @@ tag @a[tag=winner] add cannotHost
 
 execute as @a[predicate=ssbrc:ingame] run function ssbrc:logic/post_game/summary_check
 
+execute if score $suddenDeath temp matches 1 run scoreboard players set $gameMode options 1
+
 tag @a[predicate=ssbrc:ingame] remove loaded
 function ssbrc:logic/reset
