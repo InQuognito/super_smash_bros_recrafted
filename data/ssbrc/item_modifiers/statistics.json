@@ -29,14 +29,7 @@
 						"italic": false
 					}
 				]
-			}
-		],
-		"replace": false
-	},
-	{
-		"function": "minecraft:set_lore",
-		"entity": "this",
-		"lore": [
+			},
 			{
 				"text": "Games Played: ",
 				"color": "gold",
@@ -195,14 +188,7 @@
 						"italic": false
 					}
 				]
-			}
-		],
-		"replace": false
-	},
-	{
-		"function": "minecraft:set_lore",
-		"entity": "this",
-		"lore": [
+			},
 			{
 				"text": "Deaths: ",
 				"color": "gold",
@@ -346,10 +332,24 @@
 		"entity": "this",
 		"lore": [
 			{
-				"text": "Use this item to view all statistics!",
+				"text": "- [",
 				"color": "light_purple",
 				"bold": false,
-				"italic": false
+				"italic": false,
+				"extra": [
+					{
+						"keybind": "key.use",
+						"color": "light_purple",
+						"bold": false,
+						"italic": false
+					},
+					{
+						"text": "] to view your full profile",
+						"color": "light_purple",
+						"bold": false,
+						"italic": false
+					}
+				]
 			}
 		],
 		"replace": false
