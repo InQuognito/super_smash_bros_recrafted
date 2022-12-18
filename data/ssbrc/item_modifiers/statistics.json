@@ -346,36 +346,6 @@
 		"entity": "this",
 		"lore": [
 			{
-				"text": "Credits: ",
-				"color": "gold",
-				"bold": false,
-				"italic": false,
-				"extra": [
-					{
-						"score": {
-							"name": "@s",
-							"objective": "currency"
-						},
-						"color": "yellow",
-						"bold": false,
-						"italic": false
-					},
-					{
-						"text": "₡",
-						"color": "yellow",
-						"bold": false,
-						"italic": false
-					}
-				]
-			}
-		],
-		"replace": false
-	},
-	{
-		"function": "minecraft:set_lore",
-		"entity": "this",
-		"lore": [
-			{
 				"text": "Use this item to view all statistics!",
 				"color": "light_purple",
 				"bold": false,

@@ -19,6 +19,36 @@
 							}
 						},
 						{
+							"function": "minecraft:set_lore",
+							"entity": "this",
+							"lore": [
+								{
+									"text": "Credits: ",
+									"color": "gold",
+									"bold": false,
+									"italic": false,
+									"extra": [
+										{
+											"score": {
+												"name": "@s",
+												"objective": "currency"
+											},
+											"color": "yellow",
+											"bold": false,
+											"italic": false
+										},
+										{
+											"text": "₡",
+											"color": "yellow",
+											"bold": false,
+											"italic": false
+										}
+									]
+								}
+							],
+							"replace": true
+						},
+						{
 							"function": "minecraft:copy_nbt",
 							"source": {
 								"type": "minecraft:storage",
