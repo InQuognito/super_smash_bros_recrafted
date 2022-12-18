@@ -36,4 +36,6 @@ scoreboard players reset @s coward.tracking
 scoreboard players reset @s noJohns
 scoreboard players reset @s rapidKill.tracking
 
+function ssbrc:logic/stats/deaths
+
 tag @s add checkDeath

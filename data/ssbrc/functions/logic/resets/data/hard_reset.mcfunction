@@ -1,200 +1,242 @@
 function ssbrc:logic/resets/scoreboards/remove
 
-scoreboard objectives remove alteredbeast.deaths
-scoreboard objectives remove alteredbeast.kills
-scoreboard objectives remove alteredbeast.gamesPlayed
-scoreboard objectives remove alteredbeast.wins
-scoreboard objectives remove alteredbeast.winStreak
+scoreboard objectives remove stats.alteredbeast.deaths
+scoreboard objectives remove stats.alteredbeast.kills
+scoreboard objectives remove stats.alteredbeast.gamesPlayed
+scoreboard objectives remove stats.alteredbeast.wins
+scoreboard objectives remove stats.alteredbeast.winStreak
 
-scoreboard objectives remove alucard.deaths
-scoreboard objectives remove alucard.kills
-scoreboard objectives remove alucard.gamesPlayed
-scoreboard objectives remove alucard.wins
-scoreboard objectives remove alucard.winStreak
+scoreboard objectives remove stats.alucard.deaths
+scoreboard objectives remove stats.alucard.kills
+scoreboard objectives remove stats.alucard.gamesPlayed
+scoreboard objectives remove stats.alucard.wins
+scoreboard objectives remove stats.alucard.winStreak
 
-scoreboard objectives remove bowser.deaths
-scoreboard objectives remove bowser.kills
-scoreboard objectives remove bowser.gamesPlayed
-scoreboard objectives remove bowser.wins
-scoreboard objectives remove bowser.winStreak
+scoreboard objectives remove stats.bowser.deaths
+scoreboard objectives remove stats.bowser.kills
+scoreboard objectives remove stats.bowser.gamesPlayed
+scoreboard objectives remove stats.bowser.wins
+scoreboard objectives remove stats.bowser.winStreak
 
-scoreboard objectives remove byleth.deaths
-scoreboard objectives remove byleth.kills
-scoreboard objectives remove byleth.gamesPlayed
-scoreboard objectives remove byleth.wins
-scoreboard objectives remove byleth.winStreak
+scoreboard objectives remove stats.byleth.deaths
+scoreboard objectives remove stats.byleth.kills
+scoreboard objectives remove stats.byleth.gamesPlayed
+scoreboard objectives remove stats.byleth.wins
+scoreboard objectives remove stats.byleth.winStreak
 
-scoreboard objectives remove captainfalcon.deaths
-scoreboard objectives remove captainfalcon.kills
-scoreboard objectives remove captainfalcon.gamesPlayed
-scoreboard objectives remove captainfalcon.wins
-scoreboard objectives remove captainfalcon.winStreak
+scoreboard objectives remove stats.captainfalcon.deaths
+scoreboard objectives remove stats.captainfalcon.kills
+scoreboard objectives remove stats.captainfalcon.gamesPlayed
+scoreboard objectives remove stats.captainfalcon.wins
+scoreboard objectives remove stats.captainfalcon.winStreak
 
-scoreboard objectives remove charizard.deaths
-scoreboard objectives remove charizard.kills
-scoreboard objectives remove charizard.gamesPlayed
-scoreboard objectives remove charizard.wins
-scoreboard objectives remove charizard.winStreak
+scoreboard objectives remove stats.cloud.deaths
+scoreboard objectives remove stats.cloud.kills
+scoreboard objectives remove stats.cloud.gamesPlayed
+scoreboard objectives remove stats.cloud.wins
+scoreboard objectives remove stats.cloud.winStreak
 
-scoreboard objectives remove cloud.deaths
-scoreboard objectives remove cloud.kills
-scoreboard objectives remove cloud.gamesPlayed
-scoreboard objectives remove cloud.wins
-scoreboard objectives remove cloud.winStreak
+scoreboard objectives remove stats.darksamus.deaths
+scoreboard objectives remove stats.darksamus.kills
+scoreboard objectives remove stats.darksamus.gamesPlayed
+scoreboard objectives remove stats.darksamus.wins
+scoreboard objectives remove stats.darksamus.winStreak
 
-scoreboard objectives remove darksamus.deaths
-scoreboard objectives remove darksamus.kills
-scoreboard objectives remove darksamus.gamesPlayed
-scoreboard objectives remove darksamus.wins
-scoreboard objectives remove darksamus.winStreak
+scoreboard objectives remove stats.donkeykong.deaths
+scoreboard objectives remove stats.donkeykong.kills
+scoreboard objectives remove stats.donkeykong.gamesPlayed
+scoreboard objectives remove stats.donkeykong.wins
+scoreboard objectives remove stats.donkeykong.winStreak
 
-scoreboard objectives remove donkeykong.deaths
-scoreboard objectives remove donkeykong.kills
-scoreboard objectives remove donkeykong.gamesPlayed
-scoreboard objectives remove donkeykong.wins
-scoreboard objectives remove donkeykong.winStreak
+scoreboard objectives remove stats.fox.deaths
+scoreboard objectives remove stats.fox.kills
+scoreboard objectives remove stats.fox.gamesPlayed
+scoreboard objectives remove stats.fox.wins
+scoreboard objectives remove stats.fox.winStreak
 
-scoreboard objectives remove fox.deaths
-scoreboard objectives remove fox.kills
-scoreboard objectives remove fox.gamesPlayed
-scoreboard objectives remove fox.wins
-scoreboard objectives remove fox.winStreak
+scoreboard objectives remove stats.ganondorf.deaths
+scoreboard objectives remove stats.ganondorf.kills
+scoreboard objectives remove stats.ganondorf.gamesPlayed
+scoreboard objectives remove stats.ganondorf.wins
+scoreboard objectives remove stats.ganondorf.winStreak
 
-scoreboard objectives remove ganondorf.deaths
-scoreboard objectives remove ganondorf.kills
-scoreboard objectives remove ganondorf.gamesPlayed
-scoreboard objectives remove ganondorf.wins
-scoreboard objectives remove ganondorf.winStreak
+scoreboard objectives remove stats.giegue.deaths
+scoreboard objectives remove stats.giegue.kills
+scoreboard objectives remove stats.giegue.gamesPlayed
+scoreboard objectives remove stats.giegue.wins
+scoreboard objectives remove stats.giegue.winStreak
 
-scoreboard objectives remove giegue.deaths
-scoreboard objectives remove giegue.kills
-scoreboard objectives remove giegue.gamesPlayed
-scoreboard objectives remove giegue.wins
-scoreboard objectives remove giegue.winStreak
+scoreboard objectives remove stats.greninja.deaths
+scoreboard objectives remove stats.greninja.kills
+scoreboard objectives remove stats.greninja.gamesPlayed
+scoreboard objectives remove stats.greninja.wins
+scoreboard objectives remove stats.greninja.winStreak
 
-scoreboard objectives remove greninja.deaths
-scoreboard objectives remove greninja.kills
-scoreboard objectives remove greninja.gamesPlayed
-scoreboard objectives remove greninja.wins
-scoreboard objectives remove greninja.winStreak
+scoreboard objectives remove stats.hero.deaths
+scoreboard objectives remove stats.hero.kills
+scoreboard objectives remove stats.hero.gamesPlayed
+scoreboard objectives remove stats.hero.wins
+scoreboard objectives remove stats.hero.winStreak
 
-scoreboard objectives remove hero.deaths
-scoreboard objectives remove hero.kills
-scoreboard objectives remove hero.gamesPlayed
-scoreboard objectives remove hero.wins
-scoreboard objectives remove hero.winStreak
+scoreboard objectives remove stats.jigglypuff.deaths
+scoreboard objectives remove stats.jigglypuff.kills
+scoreboard objectives remove stats.jigglypuff.gamesPlayed
+scoreboard objectives remove stats.jigglypuff.wins
+scoreboard objectives remove stats.jigglypuff.winStreak
 
-scoreboard objectives remove joker.deaths
-scoreboard objectives remove joker.kills
-scoreboard objectives remove joker.gamesPlayed
-scoreboard objectives remove joker.wins
-scoreboard objectives remove joker.winStreak
+scoreboard objectives remove stats.joker.deaths
+scoreboard objectives remove stats.joker.kills
+scoreboard objectives remove stats.joker.gamesPlayed
+scoreboard objectives remove stats.joker.wins
+scoreboard objectives remove stats.joker.winStreak
 
-scoreboard objectives remove kirby.deaths
-scoreboard objectives remove kirby.kills
-scoreboard objectives remove kirby.gamesPlayed
-scoreboard objectives remove kirby.wins
-scoreboard objectives remove kirby.winStreak
+scoreboard objectives remove stats.kingkrool.deaths
+scoreboard objectives remove stats.kingkrool.kills
+scoreboard objectives remove stats.kingkrool.gamesPlayed
+scoreboard objectives remove stats.kingkrool.wins
+scoreboard objectives remove stats.kingkrool.winStreak
 
-scoreboard objectives remove kingkrool.deaths
-scoreboard objectives remove kingkrool.kills
-scoreboard objectives remove kingkrool.gamesPlayed
-scoreboard objectives remove kingkrool.wins
-scoreboard objectives remove kingkrool.winStreak
+scoreboard objectives remove stats.kirby.deaths
+scoreboard objectives remove stats.kirby.kills
+scoreboard objectives remove stats.kirby.gamesPlayed
+scoreboard objectives remove stats.kirby.wins
+scoreboard objectives remove stats.kirby.winStreak
 
-scoreboard objectives remove link.deaths
-scoreboard objectives remove link.kills
-scoreboard objectives remove link.gamesPlayed
-scoreboard objectives remove link.wins
-scoreboard objectives remove link.winStreak
+scoreboard objectives remove stats.link.deaths
+scoreboard objectives remove stats.link.kills
+scoreboard objectives remove stats.link.gamesPlayed
+scoreboard objectives remove stats.link.wins
+scoreboard objectives remove stats.link.winStreak
 
-scoreboard objectives remove luigi.deaths
-scoreboard objectives remove luigi.kills
-scoreboard objectives remove luigi.gamesPlayed
-scoreboard objectives remove luigi.wins
-scoreboard objectives remove luigi.winStreak
+scoreboard objectives remove stats.luigi.deaths
+scoreboard objectives remove stats.luigi.kills
+scoreboard objectives remove stats.luigi.gamesPlayed
+scoreboard objectives remove stats.luigi.wins
+scoreboard objectives remove stats.luigi.winStreak
 
-scoreboard objectives remove mario.deaths
-scoreboard objectives remove mario.kills
-scoreboard objectives remove mario.gamesPlayed
-scoreboard objectives remove mario.wins
-scoreboard objectives remove mario.winStreak
+scoreboard objectives remove stats.mario.deaths
+scoreboard objectives remove stats.mario.kills
+scoreboard objectives remove stats.mario.gamesPlayed
+scoreboard objectives remove stats.mario.wins
+scoreboard objectives remove stats.mario.winStreak
 
-scoreboard objectives remove megaman.deaths
-scoreboard objectives remove megaman.kills
-scoreboard objectives remove megaman.gamesPlayed
-scoreboard objectives remove megaman.wins
-scoreboard objectives remove megaman.winStreak
+scoreboard objectives remove stats.megaman.deaths
+scoreboard objectives remove stats.megaman.kills
+scoreboard objectives remove stats.megaman.gamesPlayed
+scoreboard objectives remove stats.megaman.wins
+scoreboard objectives remove stats.megaman.winStreak
 
-scoreboard objectives remove ness.deaths
-scoreboard objectives remove ness.kills
-scoreboard objectives remove ness.gamesPlayed
-scoreboard objectives remove ness.wins
-scoreboard objectives remove ness.winStreak
+scoreboard objectives remove stats.ness.deaths
+scoreboard objectives remove stats.ness.kills
+scoreboard objectives remove stats.ness.gamesPlayed
+scoreboard objectives remove stats.ness.wins
+scoreboard objectives remove stats.ness.winStreak
 
-scoreboard objectives remove pit.deaths
-scoreboard objectives remove pit.kills
-scoreboard objectives remove pit.gamesPlayed
-scoreboard objectives remove pit.wins
-scoreboard objectives remove pit.winStreak
+scoreboard objectives remove stats.pikachu.deaths
+scoreboard objectives remove stats.pikachu.kills
+scoreboard objectives remove stats.pikachu.gamesPlayed
+scoreboard objectives remove stats.pikachu.wins
+scoreboard objectives remove stats.pikachu.winStreak
 
-scoreboard objectives remove ryu.deaths
-scoreboard objectives remove ryu.kills
-scoreboard objectives remove ryu.gamesPlayed
-scoreboard objectives remove ryu.wins
-scoreboard objectives remove ryu.winStreak
+scoreboard objectives remove stats.pit.deaths
+scoreboard objectives remove stats.pit.kills
+scoreboard objectives remove stats.pit.gamesPlayed
+scoreboard objectives remove stats.pit.wins
+scoreboard objectives remove stats.pit.winStreak
 
-scoreboard objectives remove samus.deaths
-scoreboard objectives remove samus.kills
-scoreboard objectives remove samus.gamesPlayed
-scoreboard objectives remove samus.wins
-scoreboard objectives remove samus.winStreak
+scoreboard objectives remove stats.pokemontrainer.deaths
+scoreboard objectives remove stats.pokemontrainer.kills
+scoreboard objectives remove stats.pokemontrainer.gamesPlayed
+scoreboard objectives remove stats.pokemontrainer.wins
+scoreboard objectives remove stats.pokemontrainer.winStreak
 
-scoreboard objectives remove shadow.deaths
-scoreboard objectives remove shadow.kills
-scoreboard objectives remove shadow.gamesPlayed
-scoreboard objectives remove shadow.wins
-scoreboard objectives remove shadow.winStreak
+scoreboard objectives remove stats.rob.deaths
+scoreboard objectives remove stats.rob.kills
+scoreboard objectives remove stats.rob.gamesPlayed
+scoreboard objectives remove stats.rob.wins
+scoreboard objectives remove stats.rob.winStreak
 
-scoreboard objectives remove shovelknight.deaths
-scoreboard objectives remove shovelknight.kills
-scoreboard objectives remove shovelknight.gamesPlayed
-scoreboard objectives remove shovelknight.wins
-scoreboard objectives remove shovelknight.winStreak
+scoreboard objectives remove stats.ryu.deaths
+scoreboard objectives remove stats.ryu.kills
+scoreboard objectives remove stats.ryu.gamesPlayed
+scoreboard objectives remove stats.ryu.wins
+scoreboard objectives remove stats.ryu.winStreak
 
-scoreboard objectives remove snake.deaths
-scoreboard objectives remove snake.kills
-scoreboard objectives remove snake.gamesPlayed
-scoreboard objectives remove snake.wins
-scoreboard objectives remove snake.winStreak
+scoreboard objectives remove stats.samus.deaths
+scoreboard objectives remove stats.samus.kills
+scoreboard objectives remove stats.samus.gamesPlayed
+scoreboard objectives remove stats.samus.wins
+scoreboard objectives remove stats.samus.winStreak
 
-scoreboard objectives remove sonic.deaths
-scoreboard objectives remove sonic.kills
-scoreboard objectives remove sonic.gamesPlayed
-scoreboard objectives remove sonic.wins
-scoreboard objectives remove sonic.winStreak
+scoreboard objectives remove stats.shadow.deaths
+scoreboard objectives remove stats.shadow.kills
+scoreboard objectives remove stats.shadow.gamesPlayed
+scoreboard objectives remove stats.shadow.wins
+scoreboard objectives remove stats.shadow.winStreak
 
-scoreboard objectives remove steve.deaths
-scoreboard objectives remove steve.kills
-scoreboard objectives remove steve.gamesPlayed
-scoreboard objectives remove steve.wins
-scoreboard objectives remove steve.winStreak
+scoreboard objectives remove stats.shovelknight.deaths
+scoreboard objectives remove stats.shovelknight.kills
+scoreboard objectives remove stats.shovelknight.gamesPlayed
+scoreboard objectives remove stats.shovelknight.wins
+scoreboard objectives remove stats.shovelknight.winStreak
 
-scoreboard objectives remove teamrocket.deaths
-scoreboard objectives remove teamrocket.kills
-scoreboard objectives remove teamrocket.gamesPlayed
-scoreboard objectives remove teamrocket.wins
-scoreboard objectives remove teamrocket.winStreak
+scoreboard objectives remove stats.snake.deaths
+scoreboard objectives remove stats.snake.kills
+scoreboard objectives remove stats.snake.gamesPlayed
+scoreboard objectives remove stats.snake.wins
+scoreboard objectives remove stats.snake.winStreak
+
+scoreboard objectives remove stats.sonic.deaths
+scoreboard objectives remove stats.sonic.kills
+scoreboard objectives remove stats.sonic.gamesPlayed
+scoreboard objectives remove stats.sonic.wins
+scoreboard objectives remove stats.sonic.winStreak
+
+scoreboard objectives remove stats.sora.deaths
+scoreboard objectives remove stats.sora.kills
+scoreboard objectives remove stats.sora.gamesPlayed
+scoreboard objectives remove stats.sora.wins
+scoreboard objectives remove stats.sora.winStreak
+
+scoreboard objectives remove stats.steve.deaths
+scoreboard objectives remove stats.steve.kills
+scoreboard objectives remove stats.steve.gamesPlayed
+scoreboard objectives remove stats.steve.wins
+scoreboard objectives remove stats.steve.winStreak
+
+scoreboard objectives remove stats.teamrocket.deaths
+scoreboard objectives remove stats.teamrocket.kills
+scoreboard objectives remove stats.teamrocket.gamesPlayed
+scoreboard objectives remove stats.teamrocket.wins
+scoreboard objectives remove stats.teamrocket.winStreak
+
+scoreboard objectives remove stats.wolf.deaths
+scoreboard objectives remove stats.wolf.kills
+scoreboard objectives remove stats.wolf.gamesPlayed
+scoreboard objectives remove stats.wolf.wins
+scoreboard objectives remove stats.wolf.winStreak
+
+scoreboard objectives remove stats.yar.deaths
+scoreboard objectives remove stats.yar.kills
+scoreboard objectives remove stats.yar.gamesPlayed
+scoreboard objectives remove stats.yar.wins
+scoreboard objectives remove stats.yar.winStreak
+
+scoreboard objectives remove stats.zelda.deaths
+scoreboard objectives remove stats.zelda.kills
+scoreboard objectives remove stats.zelda.gamesPlayed
+scoreboard objectives remove stats.zelda.wins
+scoreboard objectives remove stats.zelda.winStreak
 
 # Misc
-scoreboard objectives remove currency
-scoreboard objectives remove options
-scoreboard objectives remove stats.deaths
-scoreboard objectives remove stats.gamesPlayed
-scoreboard objectives remove stats.kD
-scoreboard objectives remove stats.kills
-scoreboard objectives remove stats.wins
-scoreboard objectives remove stats.wL
+scoreboard objectives remove stats.currency
+scoreboard objectives remove stats.options
+scoreboard objectives remove stats.stats.deaths
+scoreboard objectives remove stats.stats.gamesPlayed
+scoreboard objectives remove stats.stats.kills
+scoreboard objectives remove stats.stats.kD
+scoreboard objectives remove stats.stats.wins
+scoreboard objectives remove stats.stats.wL
 
 function ssbrc:logic/resets/scoreboards/create
 
