@@ -23,6 +23,12 @@
 							"entity": "this",
 							"lore": [
 								{
+									"text": "-----",
+									"color": "gray",
+									"bold": false,
+									"italic": false
+								},
+								{
 									"text": "Credits: ",
 									"color": "gold",
 									"bold": false,
@@ -40,6 +46,26 @@
 										{
 											"text": "₡",
 											"color": "yellow",
+											"bold": false,
+											"italic": false
+										}
+									]
+								},
+								{
+									"text": "- [",
+									"color": "light_purple",
+									"bold": false,
+									"italic": false,
+									"extra": [
+										{
+											"keybind": "key.use",
+											"color": "light_purple",
+											"bold": false,
+											"italic": false
+										},
+										{
+											"text": "] to open the shop!",
+											"color": "light_purple",
 											"bold": false,
 											"italic": false
 										}

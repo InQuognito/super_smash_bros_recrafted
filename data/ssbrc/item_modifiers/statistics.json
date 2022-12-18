@@ -14,6 +14,12 @@
 		"entity": "this",
 		"lore": [
 			{
+				"text": "---------------",
+				"color": "gray",
+				"bold": false,
+				"italic": false
+			},
+			{
 				"text": "Wins: ",
 				"color": "gold",
 				"bold": false,
@@ -344,7 +350,7 @@
 						"italic": false
 					},
 					{
-						"text": "] to view your full profile",
+						"text": "] to view your full profile!",
 						"color": "light_purple",
 						"bold": false,
 						"italic": false
