@@ -88,4 +88,6 @@ execute if score @s timer.shockwave matches 7 run function ssbrc:logic/character
 
 execute if score @s timer.stat.death matches 2 run tag @s remove checkDeath
 execute if score @s timer.stat.kill matches 2 run tag @s remove checkKill
-execute if score @s timer.shockwave matches 7 run tag @s remove checkShockwave
+
+scoreboard players reset @s[scores={timer.stat.death=2}] timer.stat.death
+scoreboard players reset @s[scores={timer.stat.kill=2}] timer.stat.kill
