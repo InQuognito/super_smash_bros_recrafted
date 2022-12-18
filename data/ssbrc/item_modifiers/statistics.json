@@ -383,5 +383,9 @@
 			}
 		],
 		"replace": false
+	},
+	{
+		"function": "minecraft:set_nbt",
+		"tag": "{CustomModelData:3,title:\"\",author:\"\"}"
 	}
 ]

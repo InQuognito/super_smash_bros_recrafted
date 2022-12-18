@@ -1,5 +1,11 @@
 advancement revoke @s everything
 
+scoreboard players reset @s stats.deaths
+scoreboard players reset @s stats.kills
+scoreboard players reset @s stats.gamesPlayed
+scoreboard players reset @s stats.wins
+scoreboard players reset @s stats.winStreak
+scoreboard players reset @s stats.winStreak.record
 scoreboard players reset @s currency
 
 scoreboard players reset @s stats.alteredbeast.deaths

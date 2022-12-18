@@ -229,14 +229,14 @@ scoreboard objectives remove stats.zelda.wins
 scoreboard objectives remove stats.zelda.winStreak
 
 # Misc
-scoreboard objectives remove stats.currency
-scoreboard objectives remove stats.options
-scoreboard objectives remove stats.stats.deaths
-scoreboard objectives remove stats.stats.gamesPlayed
-scoreboard objectives remove stats.stats.kills
-scoreboard objectives remove stats.stats.kD
-scoreboard objectives remove stats.stats.wins
-scoreboard objectives remove stats.stats.wL
+scoreboard objectives remove options
+scoreboard objectives remove currency
+scoreboard objectives remove stats.deaths
+scoreboard objectives remove stats.kills
+scoreboard objectives remove stats.gamesPlayed
+scoreboard objectives remove stats.wins
+scoreboard objectives remove stats.winStreak
+scoreboard objectives remove stats.winStreak.record
 
 function ssbrc:logic/resets/scoreboards/create
 
