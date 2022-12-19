@@ -6,3 +6,5 @@ loot replace entity @s hotbar.0 loot ssbrc:characters/persona/joker/rebels_knife
 clear @s minecraft:carrot_on_a_stick{personaAwakening:1}
 
 attribute @s minecraft:generic.knockback_resistance base set 0.0
+
+function ssbrc:logic/characters/armor/update

@@ -42,10 +42,9 @@ scoreboard players operation @s[tag=hero] mana += #hero.manaGainedOnDeath vars
 execute if entity @s[tag=hero] run function ssbrc:series/dragon_quest/hero/logic/magic/restore
 
 # Joker
-scoreboard players set @s[tag=joker] charge.1 0
+execute if entity @s[tag=joker] run function ssbrc:series/persona/joker/logic/abilities/persona_awakening/deactivate
 
 clear @s minecraft:carrot_on_a_stick{mask:1}
-clear @s minecraft:carrot_on_a_stick{personaAwakening:1}
 scoreboard players set @s[tag=joker] joker.tt33A 8
 
 # Link
