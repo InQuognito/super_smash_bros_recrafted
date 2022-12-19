@@ -1,5 +1,5 @@
 clear @s minecraft:bow
-give @s minecraft:bow{Unbreakable:1,HideFlags:127} 1
+loot replace entity @s weapon.mainhand loot ssbrc:characters/fire_emblem/byleth/golden_deer/brave_bow
 
 clear @s minecraft:spectral_arrow
 item replace entity @s hotbar.8 with minecraft:spectral_arrow 16

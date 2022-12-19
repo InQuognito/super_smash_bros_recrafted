@@ -662,6 +662,10 @@
 				"predicate": {
 					"nbt": "{Tags:[\"joker\",\"default\"]}"
 				}
+			},
+			{
+				"condition": "minecraft:reference",
+				"name": "ssbrc:characters/joker/persona_awakening/off"
 			}
 		]
 	},
@@ -673,8 +677,46 @@
 				"condition": "minecraft:entity_properties",
 				"entity": "this",
 				"predicate": {
+					"nbt": "{Tags:[\"joker\",\"default\"]}"
+				}
+			},
+			{
+				"condition": "minecraft:reference",
+				"name": "ssbrc:characters/joker/persona_awakening/on"
+			}
+		]
+	},
+	{
+		"function": "minecraft:set_nbt",
+		"tag": "{CustomModelData:602}",
+		"conditions": [
+			{
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
 					"nbt": "{Tags:[\"joker\",\"gold\"]}"
 				}
+			},
+			{
+				"condition": "minecraft:reference",
+				"name": "ssbrc:characters/joker/persona_awakening/off"
+			}
+		]
+	},
+	{
+		"function": "minecraft:set_nbt",
+		"tag": "{CustomModelData:603}",
+		"conditions": [
+			{
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"nbt": "{Tags:[\"joker\",\"gold\"]}"
+				}
+			},
+			{
+				"condition": "minecraft:reference",
+				"name": "ssbrc:characters/joker/persona_awakening/on"
 			}
 		]
 	},

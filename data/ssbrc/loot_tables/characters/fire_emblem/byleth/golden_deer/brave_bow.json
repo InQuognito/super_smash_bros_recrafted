@@ -12,7 +12,7 @@
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"text": "Bow",
+								"text": "Brave Bow",
 								"color": "white",
 								"bold": true,
 								"italic": false
@@ -39,7 +39,7 @@
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{bow:1,Unbreakable:1,HideFlags:127}"
+							"tag": "{braveBow:1,CustomModelData:101,Unbreakable:1,HideFlags:127}"
 						}
 					]
 				}

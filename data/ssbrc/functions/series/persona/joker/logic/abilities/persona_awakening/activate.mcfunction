@@ -14,3 +14,5 @@ item replace entity @s[tag=arsene] hotbar.2 with minecraft:carrot_on_a_stick{per
 item replace entity @s[tag=highPixie] hotbar.2 with minecraft:carrot_on_a_stick{personaAwakening:1,amritaShower:1,CustomModelData:601,Unbreakable:1,display:{Name:'[{"text":"Amrita Shower","italic":false,"color":"yellow","bold":true}]'},HideFlags:127} 1
 item replace entity @s[tag=raoul] hotbar.2 with minecraft:carrot_on_a_stick{personaAwakening:1,phantomShow:1,CustomModelData:601,Unbreakable:1,display:{Name:'[{"text":"Phantom Show","italic":false,"color":"gray","bold":true}]'},HideFlags:127} 1
 attribute @s[tag=yatagarasu] minecraft:generic.knockback_resistance base set 0.25
+
+function ssbrc:logic/characters/armor/update
