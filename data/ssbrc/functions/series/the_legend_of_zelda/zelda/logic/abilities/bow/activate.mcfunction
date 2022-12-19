@@ -1,4 +1,4 @@
-execute positioned 0.0 0.0 0.0 run summon minecraft:marker ^ ^ ^2.5 {Tags:["direction"]}
+execute positioned 0.0 0.0 0.0 run summon minecraft:marker ^ ^ ^2.75 {Tags:["direction"]}
 
 execute if entity @s[nbt={SelectedItem:{tag:{default:1}}}] run summon minecraft:spectral_arrow ^ ^ ^1 {damage:0.3,Tags:["bow","modifyEntity"]}
 execute if entity @s[nbt={SelectedItem:{tag:{fire:1}}}] run summon minecraft:spectral_arrow ^ ^ ^1 {damage:0.3,Tags:["bow","effect.wither","modifyEntity"]}
