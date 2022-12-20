@@ -1,6 +1,5 @@
 execute if entity @s[tag=blackEagles,scores={useAbility=1..,charge.3=..0},nbt={SelectedItem:{tag:{aymr:1}}}] run function ssbrc:series/fire_emblem/byleth/logic/black_eagles/ground_pound/check
-execute if entity @s[tag=blueLions,predicate=ssbrc:flag/sneaking,scores={useAbility=1..},nbt={SelectedItem:{tag:{areadbhar:1}}}] run function ssbrc:series/fire_emblem/byleth/logic/blue_lions/spin_attack/activate
-execute if entity @s[tag=blueLions,predicate=!ssbrc:flag/sneaking,scores={charge.3=1..}] at @s run function ssbrc:series/fire_emblem/byleth/logic/blue_lions/spin_attack/deactivate
+execute if entity @s[predicate=ssbrc:flag/sneaking,scores={charge.step=5..}] at @s run function ssbrc:series/fire_emblem/byleth/logic/blue_lions/spin_attack/deactivate
 
 # Legendary Weapon Durability
 execute if score @s[tag=blackEagles] charge.1 matches 10.. run function ssbrc:series/fire_emblem/byleth/logic/black_eagles/aymr/break
@@ -19,7 +18,10 @@ scoreboard players add $spinAttack rotation 15
 execute if score $spinAttack rotation matches 360.. run scoreboard players reset $spinAttack rotation
 execute as @e[tag=byleth.spinner] store result entity @s Rotation[0] float 1.0 run scoreboard players get $spinAttack rotation
 
-execute if entity @s[tag=blueLions,scores={charge.3=1..}] at @s anchored eyes run function ssbrc:series/fire_emblem/byleth/logic/blue_lions/spin_attack/charge
+execute if entity @s[tag=blueLions,predicate=ssbrc:flag/sneaking,scores={charge.output=1..}] at @s anchored eyes run function ssbrc:series/fire_emblem/byleth/logic/blue_lions/spin_attack/charge
+execute if entity @s[tag=blueLions,predicate=!ssbrc:flag/sneaking,scores={charge.output=1..}] run function ssbrc:logic/resets/charge
+
+execute if entity @s[tag=spinning] at @s run function ssbrc:series/the_legend_of_zelda/link/logic/abilities/sword_spin/tick
 
 # Passive Abilities
 scoreboard players operation #percentage temp = @s health
