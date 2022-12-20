@@ -10,8 +10,9 @@ execute unless score $gameStage temp matches 4 as @a run function ssbrc:logic/ti
 execute unless score $gameStage temp matches 4 as @a[tag=room.characterSelect] run function ssbrc:logic/tick/triggers/lobby
 
 # Reset Players
+execute as @a unless score @s worldTime = $worldTime worldTime run function ssbrc:logic/join
+
 execute store result score $worldTime worldTime run time query gametime
 execute as @a store result score @s worldTime run time query gametime
-execute as @a unless score @s worldTime = $worldTime worldTime run function ssbrc:logic/join
 
 execute as @a[tag=!loaded] run function ssbrc:logic/resets/players
