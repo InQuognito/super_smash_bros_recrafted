@@ -21,7 +21,7 @@ execute as @e[tag=byleth.spinner] store result entity @s Rotation[0] float 1.0 r
 execute if entity @s[tag=blueLions,predicate=ssbrc:flag/sneaking,scores={charge.output=1..}] at @s anchored eyes run function ssbrc:series/fire_emblem/byleth/logic/blue_lions/spin_attack/charge
 execute if entity @s[tag=blueLions,predicate=!ssbrc:flag/sneaking,scores={charge.output=1..}] run function ssbrc:logic/resets/charge
 
-execute if entity @s[tag=spinning] at @s run function ssbrc:series/the_legend_of_zelda/link/logic/abilities/sword_spin/tick
+execute if entity @s[tag=spinning] at @s run function ssbrc:series/fire_emblem/byleth/logic/blue_lions/spin_attack/tick
 
 # Passive Abilities
 scoreboard players operation #percentage temp = @s health

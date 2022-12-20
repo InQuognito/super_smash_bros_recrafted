@@ -5,4 +5,6 @@ execute if score @s charge.output matches 61..80 as @e[predicate=ssbrc:flag/targ
 execute if score @s charge.output matches 81.. as @e[predicate=ssbrc:flag/targets,tag=!self,distance=..4.5] run tag @s add damage.spinAttack.4
 tag @s remove self
 
+execute if score @s charge.output matches 21.. run tag @s add spinning
+
 function ssbrc:logic/resets/charge
