@@ -12,6 +12,6 @@ execute unless score $gameStage temp matches 4 as @a[tag=room.characterSelect] r
 # Reset Players
 execute store result score $worldTime worldTime run time query gametime
 execute as @a store result score @s worldTime run time query gametime
-execute as @a unless score @s worldTime = $worldTime worldTime run function ssbrc:logic/resets/players
+execute as @a unless score @s worldTime = $worldTime worldTime run function ssbrc:logic/join
 
 execute as @a[tag=!loaded] run function ssbrc:logic/resets/players
