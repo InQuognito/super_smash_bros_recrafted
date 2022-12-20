@@ -3,7 +3,7 @@
 	"terms": [
 		{
 			"condition": "minecraft:reference",
-			"name": "ssbrc:characters/shovelknight/default/phase_locket/off"
+			"name": "ssbrc:characters/shovelknight/phase_locket/default/off"
 		}
 	]
 }

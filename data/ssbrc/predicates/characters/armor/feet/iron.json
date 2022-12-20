@@ -21,7 +21,7 @@
 		},
 		{
 			"condition": "minecraft:reference",
-			"name": "ssbrc:characters/shovelknight/armor_of_chaos/phase_locket/off"
+			"name": "ssbrc:characters/shovelknight/phase_locket/armor_of_chaos/off"
 		}
 	]
 }
