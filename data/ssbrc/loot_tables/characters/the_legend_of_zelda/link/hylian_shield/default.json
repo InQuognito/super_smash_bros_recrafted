@@ -88,9 +88,18 @@
 							"append": false
 						},
 						{
-							"function": "minecraft:set_damage",
-							"damage": 0.1,
-							"add": false
+							"function": "minecraft:copy_nbt",
+							"source": {
+								"type": "minecraft:storage",
+								"source": "ssbrc:hylian_shield"
+							},
+							"ops": [
+								{
+									"source": "damage",
+									"target": "Damage",
+									"op": "replace"
+								}
+							]
 						},
 						{
 							"function": "minecraft:set_nbt",
