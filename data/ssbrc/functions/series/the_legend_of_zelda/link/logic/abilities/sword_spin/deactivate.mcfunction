@@ -12,3 +12,5 @@ tag @s add spinning
 execute if block ~ ~-0.1 ~ minecraft:air if score @s charge.output matches 21.. run function ssbrc:series/the_legend_of_zelda/link/logic/abilities/sword_spin/levitate
 
 function ssbrc:logic/resets/charge
+
+function ssbrc:series/the_legend_of_zelda/link/hylian_shield

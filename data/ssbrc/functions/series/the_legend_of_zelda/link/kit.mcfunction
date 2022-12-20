@@ -5,5 +5,4 @@ loot replace entity @s hotbar.2 loot ssbrc:characters/the_legend_of_zelda/link/b
 
 item replace entity @s hotbar.8 with minecraft:spectral_arrow 10
 
-loot replace entity @s[tag=!dark] weapon.offhand loot ssbrc:characters/the_legend_of_zelda/link/hylian_shield/default
-loot replace entity @s[tag=dark] weapon.offhand loot ssbrc:characters/the_legend_of_zelda/link/hylian_shield/dark
+function ssbrc:series/the_legend_of_zelda/link/hylian_shield
