@@ -10,5 +10,7 @@ tag @e[tag=modifyEntity,limit=1] remove modifyEntity
 tag @e[tag=modifyVehicle] remove modifyVehicle
 kill @e[tag=direction]
 
+scoreboard players remove @s charge.1 1
+
 scoreboard players set @s cooldown.1 100
 execute if score @s shadow.chaosControl matches 1.. run function ssbrc:logic/characters/cooldown_modifiers/chaos_control/1
