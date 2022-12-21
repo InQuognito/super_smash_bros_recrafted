@@ -11,3 +11,5 @@ clear @s #ssbrc:equipment
 loot replace entity @s hotbar.0 loot ssbrc:characters/retro_fighters/alteredbeast/warebear/axe
 
 function ssbrc:logic/characters/armor/update
+
+effect give @s minecraft:absorption 1000000 1 true

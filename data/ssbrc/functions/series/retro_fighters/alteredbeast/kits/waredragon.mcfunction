@@ -10,3 +10,5 @@ loot replace entity @s hotbar.0 loot ssbrc:characters/retro_fighters/alteredbeas
 loot replace entity @s hotbar.1 loot ssbrc:characters/retro_fighters/alteredbeast/waredragon/electrocution
 
 function ssbrc:logic/characters/armor/update
+
+effect give @s minecraft:absorption 1000000 1 true

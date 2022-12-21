@@ -9,3 +9,5 @@ clear @s #ssbrc:equipment
 loot replace entity @s hotbar.0 loot ssbrc:characters/retro_fighters/alteredbeast/warewolf/flame_hands
 
 function ssbrc:logic/characters/armor/update
+
+effect give @s minecraft:absorption 1000000 0 true
