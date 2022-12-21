@@ -6,7 +6,7 @@ scoreboard players set max random 11
 function ssbrc:math/rng/lcg
 
 execute if score result random matches 0 run loot replace entity @s hotbar.2 loot ssbrc:characters/the_legend_of_zelda/zelda/passive_items/goron_locket
-execute if score result random matches 1 run loot replace entity @s weapon.offhand loot ssbrc:characters/the_legend_of_zelda/zelda/passive_items/mirror_shield
+execute if score result random matches 1 run function ssbrc:series/the_legend_of_zelda/zelda/kit/passive_items/mirror_shield
 execute if score result random matches 2 run loot replace entity @s hotbar.2 loot ssbrc:characters/the_legend_of_zelda/zelda/passive_items/nayrus_ring
 execute if score result random matches 3 run loot replace entity @s hotbar.2 loot ssbrc:characters/the_legend_of_zelda/zelda/passive_items/pegasus_anklet
 execute if score result random matches 4 run loot replace entity @s hotbar.2 loot ssbrc:characters/the_legend_of_zelda/zelda/passive_items/ring_of_blasting

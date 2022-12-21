@@ -19,25 +19,6 @@
 							}
 						},
 						{
-							"function": "minecraft:set_attributes",
-							"modifiers": [
-								{
-									"attribute": "minecraft:generic.attack_damage",
-									"name": "Attack Damage",
-									"amount": 0,
-									"operation": "multiply_base",
-									"slot": "mainhand"
-								},
-								{
-									"attribute": "minecraft:generic.attack_speed",
-									"name": "Attack Speed",
-									"amount": 1024,
-									"operation": "multiply_base",
-									"slot": "mainhand"
-								}
-							]
-						},
-						{
 							"function": "minecraft:set_banner_pattern",
 							"patterns": [
 								{
@@ -72,9 +53,37 @@
 							"append": false
 						},
 						{
-							"function": "minecraft:set_damage",
-							"damage": 0.02,
-							"add": false
+							"function": "minecraft:set_attributes",
+							"modifiers": [
+								{
+									"attribute": "minecraft:generic.attack_damage",
+									"name": "Attack Damage",
+									"amount": 0,
+									"operation": "multiply_base",
+									"slot": "mainhand"
+								},
+								{
+									"attribute": "minecraft:generic.attack_speed",
+									"name": "Attack Speed",
+									"amount": 1024,
+									"operation": "multiply_base",
+									"slot": "mainhand"
+								}
+							]
+						},
+						{
+							"function": "minecraft:copy_nbt",
+							"source": {
+								"type": "minecraft:storage",
+								"source": "ssbrc:mirror_shield"
+							},
+							"ops": [
+								{
+									"source": "damage",
+									"target": "Damage",
+									"op": "replace"
+								}
+							]
 						},
 						{
 							"function": "minecraft:set_nbt",

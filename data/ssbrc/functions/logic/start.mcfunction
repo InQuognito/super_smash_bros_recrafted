@@ -39,6 +39,7 @@ execute if entity @a[tag=sora] run summon minecraft:armor_stand 0.5 25.0 0.5 {Ta
 scoreboard players set $steveItemCap temp 2
 scoreboard players operation $steveItemCap temp += $playersAlive temp
 execute if entity @a[tag=steve] run function ssbrc:series/indie_fighters/steve/logic/spawn_item
+scoreboard players set @a[tag=zelda] durability 330
 
 execute as @a[predicate=ssbrc:flag/player] run function ssbrc:logic/kits
 function ssbrc:logic/music/decide

@@ -19,6 +19,26 @@
 							}
 						},
 						{
+							"function": "minecraft:set_lore",
+							"entity": "this",
+							"lore": [
+								{
+									"text": "---------------",
+									"color": "gray",
+									"bold": false,
+									"italic": false
+								},
+								{
+									"text": "Defensive Equipment",
+									"color": "white",
+									"bold": false,
+									"italic": false,
+									"underlined": true
+								}
+							],
+							"replace": true
+						},
+						{
 							"function": "minecraft:set_banner_pattern",
 							"patterns": [
 								{
@@ -47,26 +67,6 @@
 								}
 							],
 							"append": false
-						},
-						{
-							"function": "minecraft:set_lore",
-							"entity": "this",
-							"lore": [
-								{
-									"text": "---------------",
-									"color": "gray",
-									"bold": false,
-									"italic": false
-								},
-								{
-									"text": "Defensive Equipment",
-									"color": "white",
-									"bold": false,
-									"italic": false,
-									"underlined": true
-								}
-							],
-							"replace": true
 						},
 						{
 							"function": "minecraft:set_attributes",

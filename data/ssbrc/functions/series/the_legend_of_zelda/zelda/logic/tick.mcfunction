@@ -19,6 +19,7 @@ execute as @e[type=minecraft:marker,tag=iceRod] at @s if score @s id = @p[tag=se
 execute as @e[type=minecraft:armor_stand,tag=iceBlock] at @s if score @s id = @p[tag=self] id run function ssbrc:series/the_legend_of_zelda/zelda/logic/abilities/ice_rod/alternate_function/tick
 execute as @e[tag=magicBoomerang] at @s if score @s id = @p[tag=self] id run function ssbrc:series/the_legend_of_zelda/zelda/logic/abilities/magic_boomerang/tick
 execute at @s[nbt={Inventory:[{tag:{goronLocket:1}}]}] as @e[tag=effect.wither,distance=..1.6] unless score @s id = @p[tag=self] id run kill @s
+execute if entity @s[nbt={Inventory:[{tag:{mirrorShield:1},Slot:-106b}]}] at @s positioned ^ ^ ^2 as @e[type=#ssbrc:projectiles,predicate=!ssbrc:entity_kill_exceptions,tag=!reflected,distance=..2] unless score @s id = @p[tag=self] id run function ssbrc:series/the_legend_of_zelda/zelda/logic/abilities/mirror_shield/tick
 tag @s remove self
 
 # Mana
