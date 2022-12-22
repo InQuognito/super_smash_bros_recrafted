@@ -2,4 +2,3 @@ execute if score $luigisMansion map matches 1 if score $hazards options matches 
 execute if score $pacMaze map matches 1 if score $hazards options matches 1 run function ssbrc:maps/p/pac_maze/start
 execute if score $planetZebes map matches 1 if score $hazards options matches 1 run function ssbrc:maps/p/planet_zebes/start
 execute if score $saturnValley map matches 1 if score $hazards options matches 1 run function ssbrc:maps/s/saturn_valley/start
-execute if score $suzakuCastle map matches 1 if score $hazards options matches 1 run function ssbrc:maps/s/suzaku_castle/start

@@ -4,6 +4,10 @@ scoreboard players set $songCount map 2
 scoreboard players set #mapPicked mapVote 1
 forceload add 6960 2944 7055 3023
 
+summon minecraft:salmon 6995.5 8.5 3008.5 {PersistenceRequired:1b}
+summon minecraft:salmon 7018.5 8.5 2971.5 {PersistenceRequired:1b}
+summon minecraft:salmon 7018.5 8.5 2969.5 {PersistenceRequired:1b}
+
 time set day
 weather clear
 
