@@ -56,29 +56,38 @@ execute if entity @s[scores={flag.damageTaken=1..}] run function ssbrc:logic/cha
 execute at @s[scores={fallDistance=1..}] run function ssbrc:logic/characters/shockwave/check
 execute at @s[scores={jumps=1..}] run function ssbrc:logic/characters/jump
 
-execute at @s if entity @e[type=minecraft:marker,tag=electricTerrain,distance=..12] if block ~ ~ ~ minecraft:water run tag @s add damage.electrocution
-
-execute if entity @s[predicate=ssbrc:characters/enchantments/infinity] run item replace entity @s hotbar.8 with minecraft:spectral_arrow 1
-
 function ssbrc:logic/tick/assign_teams
+
+# Character Effects
+execute if entity @s[predicate=ssbrc:characters/enchantments/infinity] run item replace entity @s hotbar.8 with minecraft:spectral_arrow 1
 
 execute at @s[tag=naturalShiny] run particle minecraft:glow ~ ~0.7 ~ 0.5 0.4 0.5 0 1 normal @a
 
-execute if score $sandOcean map matches 1 if score $hazards options matches 1 unless score $sectorZ map matches 1 run function ssbrc:logic/characters/effects/defaults/jump_boost
-execute if score $sandOcean map matches 1 if score $hazards options matches 1 if score $sectorZ map matches 1 run function ssbrc:maps/s/sector_z/logic/effects
-
 scoreboard players add @s[scores={frostbite=1..}] frostbiteTimer 1
 execute if score @s frostbiteTimer >= #frostbiteTimer vars run function ssbrc:logic/characters/attributes/modifiers/frostbite/decrease
+
+execute at @s if entity @e[type=minecraft:marker,tag=electricTerrain,distance=..12] if block ~ ~ ~ minecraft:water run tag @s add damage.electrocution
 
 scoreboard players add @s[tag=armorBreak] armorBreak 1
 execute if score @s armorBreak matches 60.. run function ssbrc:series/pokemon/pokemontrainer/logic/charizard/rock_smash/deactivate
 
 execute if entity @s[tag=leechSeed] run function ssbrc:series/pokemon/pokemontrainer/logic/ivysaur/leech_seed/calculate
 
+# Map Effects
+execute at @s unless block ~ ~ ~ minecraft:lava run scoreboard players remove @s[scores={flag.inLava=1..}] flag.inLava 1
+execute at @s if block ~ ~ ~ minecraft:lava run scoreboard players add @s flag.inLava 1
+execute if score @s flag.inLava matches 60.. run kill @s
+scoreboard players reset @s[scores={flag.inLava=60..}] flag.inLava
+
+execute if score $sandOcean map matches 1 if score $hazards options matches 1 unless score $sectorZ map matches 1 run function ssbrc:logic/characters/effects/defaults/jump_boost
+execute if score $sandOcean map matches 1 if score $hazards options matches 1 if score $sectorZ map matches 1 run function ssbrc:maps/s/sector_z/logic/effects
+
+# Bonuses
 scoreboard players reset @s[scores={stiffKnees=1..},predicate=ssbrc:flag/sneaking] stiffKnees
 scoreboard players reset @s[scores={tortoise=1..},predicate=ssbrc:flag/sprinting] tortoise
 scoreboard players remove @s[scores={rapidKill.tracking=1..}] rapidKill.tracking 1
 
+# Post Checks
 scoreboard players add @s[tag=checkDeath] timer.stat.death 1
 execute if score @s timer.stat.death matches 2 run function ssbrc:logic/stocks/check_death
 scoreboard players add @s[tag=checkKill] timer.stat.kill 1

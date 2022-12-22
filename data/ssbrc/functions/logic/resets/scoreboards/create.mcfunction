@@ -38,6 +38,7 @@ scoreboard objectives add flag.damageDealt minecraft.custom:minecraft.damage_dea
 scoreboard objectives add flag.damageTaken minecraft.custom:minecraft.damage_taken
 scoreboard objectives add flag.dead deathCount
 scoreboard objectives add flag.fireBow minecraft.used:minecraft.bow
+scoreboard objectives add flag.inLava dummy
 scoreboard objectives add flag.sprinting dummy
 scoreboard objectives add frostbite dummy
 scoreboard objectives add frostbiteTimer dummy
