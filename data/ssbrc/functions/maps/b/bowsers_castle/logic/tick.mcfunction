@@ -8,6 +8,6 @@ execute if score #banzaiBill temp matches 1 as @e[type=minecraft:armor_stand,tag
 #execute as @e[tag=boo] at @s run function ssbrc:maps/b/bowsers_castle/logic/hazards/boos/tick
 execute if score #lavaPlumes.left temp matches 1 run function ssbrc:maps/b/bowsers_castle/logic/hazards/lava_plumes/left/tick
 execute if score #lavaPlumes.right temp matches 1 run function ssbrc:maps/b/bowsers_castle/logic/hazards/lava_plumes/right/tick
-execute if score #lavaPlumes.left temp matches 1 as @e[type=minecraft:marker,tag=lavaPlume,tag=left] at @s run function ssbrc:maps/b/bowsers_castle/logic/hazards/lava_plumes/left/tick_entity
-execute if score #lavaPlumes.right temp matches 1 as @e[type=minecraft:marker,tag=lavaPlume,tag=right] at @s run function ssbrc:maps/b/bowsers_castle/logic/hazards/lava_plumes/right/tick_entity
+execute as @e[type=minecraft:marker,tag=lavaPlume,tag=left] at @s run function ssbrc:maps/b/bowsers_castle/logic/hazards/lava_plumes/left/tick_entity
+execute as @e[type=minecraft:marker,tag=lavaPlume,tag=right] at @s run function ssbrc:maps/b/bowsers_castle/logic/hazards/lava_plumes/right/tick_entity
 execute as @e[type=minecraft:armor_stand,tag=thwomp] at @s run function ssbrc:maps/b/bowsers_castle/logic/hazards/thwomps/tick
