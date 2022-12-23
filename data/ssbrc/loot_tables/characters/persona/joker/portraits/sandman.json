@@ -39,7 +39,7 @@
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{persona:1,sandman:1,CustomModelData:607,Unbreakable:1,HideFlags:127}"
+							"tag": "{persona:1,sandman:1,CustomModelData:606,Unbreakable:1,HideFlags:127}"
 						}
 					]
 				}

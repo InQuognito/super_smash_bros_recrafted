@@ -39,7 +39,7 @@
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{persona:1,jackFrost:1,CustomModelData:604,Unbreakable:1,HideFlags:127}"
+							"tag": "{persona:1,jackFrost:1,CustomModelData:603,Unbreakable:1,HideFlags:127}"
 						}
 					]
 				}
