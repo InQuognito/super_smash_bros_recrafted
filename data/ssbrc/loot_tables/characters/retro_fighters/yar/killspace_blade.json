@@ -39,7 +39,7 @@
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{killspaceBlade:1,Unbreakable:1,HideFlags:127}"
+							"tag": "{killspaceBlade:1,CustomModelData:1960,Unbreakable:1,HideFlags:127}"
 						}
 					]
 				}
