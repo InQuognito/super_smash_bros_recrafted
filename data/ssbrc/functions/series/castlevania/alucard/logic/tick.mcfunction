@@ -11,8 +11,10 @@ execute as @e[type=minecraft:area_effect_cloud,tag=holyWater,tag=!active,predica
 tag @s remove self
 
 # Alucard Sword
-loot replace entity @s[tag=!bloodMetamorphosis,nbt={SelectedItem:{tag:{alucardSword:1,awakened:1}}}] weapon.mainhand loot ssbrc:characters/castlevania/alucard/alucard_sword/default
-loot replace entity @s[tag=bloodMetamorphosis,nbt={SelectedItem:{tag:{alucardSword:1,awakened:0}}}] weapon.mainhand loot ssbrc:characters/castlevania/alucard/alucard_sword/awakened
+loot replace entity @s[tag=!lordsOfShadow,tag=!bloodMetamorphosis,nbt={SelectedItem:{tag:{alucardSword:1,awakened:1}}}] weapon.mainhand loot ssbrc:characters/castlevania/alucard/alucard_sword/default
+loot replace entity @s[tag=!lordsOfShadow,tag=bloodMetamorphosis,nbt={SelectedItem:{tag:{alucardSword:1,awakened:0}}}] weapon.mainhand loot ssbrc:characters/castlevania/alucard/alucard_sword/awakened
+loot replace entity @s[tag=lordsOfShadow,tag=!bloodMetamorphosis,nbt={SelectedItem:{tag:{alucardSword:1,awakened:1}}}] weapon.mainhand loot ssbrc:characters/castlevania/alucard/crissaegrim/default
+loot replace entity @s[tag=lordsOfShadow,tag=bloodMetamorphosis,nbt={SelectedItem:{tag:{alucardSword:1,awakened:0}}}] weapon.mainhand loot ssbrc:characters/castlevania/alucard/crissaegrim/awakened
 
 # Holy Water
 execute unless score @s duration.1 matches 1.. run loot give @s[nbt=!{Inventory:[{tag:{holyWater:1}}]},scores={cooldown.2=..0}] loot ssbrc:characters/castlevania/alucard/holy_water
