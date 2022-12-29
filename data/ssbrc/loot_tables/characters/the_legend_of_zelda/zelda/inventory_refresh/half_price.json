@@ -12,8 +12,8 @@
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"text": "Great Fairy Blessing",
-								"color": "yellow",
+								"text": "Inventory Refresh",
+								"color": "red",
 								"bold": true,
 								"italic": false
 							}
@@ -39,7 +39,7 @@
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{greatFairyBlessing:1,Unbreakable:1,HideFlags:127}"
+							"tag": "{inventoryRefresh:1,CustomModelData:9051,Unbreakable:1,HideFlags:127}"
 						}
 					]
 				}
