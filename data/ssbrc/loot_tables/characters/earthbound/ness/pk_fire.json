@@ -80,7 +80,7 @@
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{pkFire:1,Unbreakable:1,HideFlags:127}"
+							"tag": "{pkFire:1,CustomModelData:1081,Unbreakable:1,HideFlags:127}"
 						}
 					]
 				}
