@@ -6,7 +6,7 @@
 			"entries": [
 				{
 					"type": "minecraft:item",
-					"name": "minecraft:blaze_powder",
+					"name": "minecraft:carrot_on_a_stick",
 					"functions": [
 						{
 							"function": "minecraft:set_name",
@@ -37,7 +37,7 @@
 									"italic": false
 								},
 								{
-									"text": "Melee Weapon",
+									"text": "Ranged Weapon",
 									"color": "white",
 									"bold": false,
 									"italic": false,
@@ -58,25 +58,18 @@
 								{
 									"attribute": "minecraft:generic.attack_damage",
 									"name": "Attack Damage",
-									"amount": 4,
+									"amount": 0,
 									"operation": "multiply_base",
 									"slot": "mainhand"
 								},
 								{
 									"attribute": "minecraft:generic.attack_speed",
 									"name": "Attack Speed",
-									"amount": 0.25,
+									"amount": 1024,
 									"operation": "multiply_base",
 									"slot": "mainhand"
 								}
 							]
-						},
-						{
-							"function": "minecraft:set_enchantments",
-							"enchantments": {
-								"minecraft:fire_aspect": 1
-							},
-							"add": false
 						},
 						{
 							"function": "minecraft:set_nbt",
