@@ -1,5 +1,3 @@
-scoreboard players reset #blessingChosen temp
-
 execute store result score #weaponEnchanted temp run clear @s minecraft:iron_sword{enchanted:1} 0
 execute store result score #hasGlassWeapon temp run clear @s minecraft:iron_sword{glass:1} 0
 execute store result score #hasNayrusRing temp run clear @s minecraft:carrot_on_a_stick{nayrusRing:1} 0

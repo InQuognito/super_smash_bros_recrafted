@@ -3,7 +3,7 @@ tag @s add nextFighterChosen
 
 tag @s add charizard
 
-tellraw @s[tag=!dawn,tag=!victor] {"text":"Charizard, I choose you!","color":"red"}
+tellraw @s[tag=default] {"text":"Charizard, I choose you!","color":"red"}
 tellraw @s[tag=dawn] {"text":"Infernape, I choose you!","color":"red"}
 tellraw @s[tag=victor] {"text":"Coalossal, I choose you!","color":"red"}
 
