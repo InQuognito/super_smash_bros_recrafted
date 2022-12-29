@@ -3,7 +3,6 @@ particle minecraft:smoke ~ ~ ~ 0.2 0.2 0.2 0.01 25 normal @a
 particle minecraft:dust_color_transition 1.0 0.5 0.0 0.75 1.0 1.0 1.0 ~ ~ ~ 0.1 0.1 0.1 0.01 25 normal @a
 
 teleport @s ^ ^ ^0.5
-execute at @s if block ~ ~-0.1 ~ #ssbrc:passthrough run teleport @s ~ ~-0.1 ~
 
 execute unless entity @s[tag=exploded] unless block ^ ^ ^0.5 #ssbrc:passthrough run function ssbrc:series/earthbound/ness/logic/abilities/pk_fire/explode
 
