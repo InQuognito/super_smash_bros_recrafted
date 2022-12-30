@@ -63,6 +63,7 @@ scoreboard objectives remove motionY
 scoreboard objectives remove motionZ
 scoreboard objectives remove moveDistance
 scoreboard objectives remove point
+scoreboard objectives remove points
 scoreboard objectives remove pos
 #scoreboard objectives remove random
 scoreboard objectives remove raycast
@@ -101,8 +102,6 @@ scoreboard objectives remove snake.antiPersonnelMineF
 scoreboard objectives remove snake.smokeGrenadeA
 scoreboard objectives remove snake.smokeGrenadeF
 scoreboard objectives remove stamina
-scoreboard objectives remove stats.deaths.temp
-scoreboard objectives remove stats.kills.temp
 scoreboard objectives remove steve.tier
 scoreboard objectives remove stocks
 scoreboard objectives remove suicides
@@ -136,6 +135,7 @@ scoreboard objectives remove fullPower
 scoreboard objectives remove goodFriend
 scoreboard objectives remove heartgold
 scoreboard objectives remove heavyDamage
+scoreboard objectives remove KO
 scoreboard objectives remove lastSecond
 scoreboard objectives remove luckyNumberSeven
 scoreboard objectives remove mercifulMaster

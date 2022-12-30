@@ -14,6 +14,7 @@ team modify team8 nametagVisibility never
 scoreboard players set @a[tag=alive] respawn 0
 
 scoreboard players set @a[predicate=ssbrc:flag/player] kills 0
+scoreboard players set @a[predicate=ssbrc:flag/player] points 0
 
 execute unless score $playersAlive temp matches 1.. run scoreboard players set $gameMode options 2
 execute unless score $playersAlive temp matches 1.. run scoreboard players set $timeLimit options 60
@@ -26,7 +27,7 @@ execute if score $gameMode options matches 2 run scoreboard players set @a[predi
 execute if score $gameMode options matches 2 store result bossbar minecraft:timer max run scoreboard players get $timeLimit options
 execute if score $gameMode options matches 2 run bossbar set minecraft:timer players @a[predicate=ssbrc:ingame]
 execute if score $gameMode options matches 2 run bossbar set minecraft:timer visible true
-execute if score $gameMode options matches 2 run scoreboard objectives setdisplay sidebar kills
+execute if score $gameMode options matches 2 run scoreboard objectives setdisplay sidebar points
 
 effect clear @a minecraft:jump_boost
 effect clear @a minecraft:slowness

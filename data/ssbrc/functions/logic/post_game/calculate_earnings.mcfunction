@@ -7,10 +7,10 @@ scoreboard players operation @s currency.temp += value.participation vars
 execute if entity @s[tag=winner] run data modify storage ssbrc:bonuses value append value '[{"text":"Victory","bold":true,"color":"gold"},{"text":" - ","bold":false,"color":"white"},{"score":{"name":"value.victory","objective":"vars"},"bold":false,"color":"yellow"},{"text":"₡","bold":false,"color":"yellow"}]}}]'
 scoreboard players operation @s[tag=winner] currency.temp += value.victory vars
 
-scoreboard players operation value kills = @s kills
-scoreboard players operation value kills *= value.kill vars
-execute if score @s kills matches 1.. run data modify storage ssbrc:bonuses value append value '[{"score":{"name":"@s","objective":"kills"},"bold":true,"color":"yellow"},{"text":"x ","bold":true,"color":"yellow"},{"text":"KOs","bold":true,"color":"gold"},{"text":" - ","bold":false,"color":"white"},{"score":{"name":"value","objective":"kills"},"bold":false,"color":"yellow"},{"text":"₡","bold":false,"color":"yellow"}]}}]'
-scoreboard players operation @s currency.temp += value kills
+scoreboard players operation value KO = @s kills
+scoreboard players operation value KO *= value.KO vars
+execute if score @s KO matches 1.. run data modify storage ssbrc:bonuses value append value '[{"score":{"name":"@s","objective":"KOs"},"bold":true,"color":"yellow"},{"text":"x ","bold":true,"color":"yellow"},{"text":"KOs","bold":true,"color":"gold"},{"text":" - ","bold":false,"color":"white"},{"score":{"name":"value","objective":"kills"},"bold":false,"color":"yellow"},{"text":"₡","bold":false,"color":"yellow"}]}}]'
+scoreboard players operation @s currency.temp += value KO
 
 data modify storage ssbrc:bonuses value append value '{"text":"===============","bold":true,"color":"light_gray"}'
 

@@ -63,6 +63,7 @@ scoreboard objectives add motionY dummy
 scoreboard objectives add motionZ dummy
 scoreboard objectives add moveDistance minecraft.custom:minecraft.walk_one_cm
 scoreboard objectives add point dummy
+scoreboard objectives add points dummy
 scoreboard objectives add pos dummy
 scoreboard objectives add random dummy
 scoreboard objectives add raycast dummy
@@ -101,8 +102,6 @@ scoreboard objectives add snake.antiPersonnelMineF dummy
 scoreboard objectives add snake.smokeGrenadeA dummy
 scoreboard objectives add snake.smokeGrenadeF dummy
 scoreboard objectives add stamina dummy
-scoreboard objectives add stats.deaths.temp minecraft.custom:minecraft.deaths
-scoreboard objectives add stats.kills.temp minecraft.custom:minecraft.player_kills
 scoreboard objectives add steve.tier dummy
 scoreboard objectives add stocks dummy
 scoreboard objectives add suicides dummy

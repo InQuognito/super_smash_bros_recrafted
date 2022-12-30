@@ -1,9 +1,9 @@
-scoreboard players reset $mostKills kills
-scoreboard players operation $mostKills kills > @a kills
-execute as @a[predicate=ssbrc:flag/player] if score @s kills = $mostKills kills run tag @s add mostKills
+scoreboard players reset $mostPoints points
+scoreboard players operation $mostPoints points > @a points
+execute as @a[predicate=ssbrc:flag/player] if score @s points = $mostPoints points run tag @s add mostPoints
 
-execute store result score $mostKills temp if entity @a[tag=mostKills]
+execute store result score $mostPoints temp if entity @a[tag=mostPoints]
 
-execute unless score $playersAlive temp matches ..1 if score $mostKills temp matches 1 as @a[tag=mostKills] run function ssbrc:logic/post_game/end
-execute unless score $playersAlive temp matches ..1 if score $mostKills temp matches 2.. run function ssbrc:logic/post_game/sudden_death/activate
+execute unless score $playersAlive temp matches ..1 if score $mostPoints temp matches 1 as @a[tag=mostPoints,limit=1] run function ssbrc:logic/post_game/end
+execute unless score $playersAlive temp matches ..1 if score $mostPoints temp matches 2.. run function ssbrc:logic/post_game/sudden_death/activate
 execute if score $playersAlive temp matches ..1 run function ssbrc:logic/post_game/end

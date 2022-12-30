@@ -15,7 +15,7 @@ scoreboard players reset @s frostbiteTimer
 execute if score $gameMode options matches 1 run scoreboard players remove @s stocks 1
 execute if score $gameMode options matches 1 if score @s stocks matches ..0 run function ssbrc:logic/stocks/no_stocks
 
-execute if score $gameMode options matches 2 run scoreboard players remove @s kills 1
+execute if score $gameMode options matches 2 run scoreboard players remove @s points 1
 execute if score $gameMode options matches 2 run scoreboard players add @s stocks 1
 
 # Kill Flying Objects Belonging to Dead Player

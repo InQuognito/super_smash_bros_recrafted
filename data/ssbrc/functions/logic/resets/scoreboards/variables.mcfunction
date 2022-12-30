@@ -111,8 +111,8 @@ scoreboard players operation #bowsersCastle.thwompSinkTime vars *= 3 integers
 # Common Currency Values
 scoreboard players set value.participation vars 50
 
-scoreboard players operation value.kill vars = value.participation vars
-scoreboard players operation value.kill vars /= 5 integers
+scoreboard players operation value.KO vars = value.participation vars
+scoreboard players operation value.KO vars /= 5 integers
 
 scoreboard players operation value.victory vars = value.participation vars
 scoreboard players operation value.victory vars *= 3 integers
@@ -138,7 +138,7 @@ scoreboard players operation value.bonus.acrobat vars *= 2 integers
 scoreboard players operation value.bonus.armistice vars = value.participation vars
 scoreboard players operation value.bonus.armistice vars *= 1 integers
 
-scoreboard players operation value.bonus.bankShot vars = value.kill vars
+scoreboard players operation value.bonus.bankShot vars = value.KO vars
 scoreboard players operation value.bonus.bankShot vars *= 1 integers
 
 scoreboard players operation value.bonus.cementShoes vars = value.participation vars
@@ -148,7 +148,7 @@ scoreboard players set value.bonus.coward vars -25
 
 scoreboard players set value.bonus.einstein vars -25
 
-scoreboard players operation value.bonus.firstStrike vars = value.kill vars
+scoreboard players operation value.bonus.firstStrike vars = value.KO vars
 scoreboard players operation value.bonus.firstStrike vars /= 2 integers
 
 scoreboard players operation value.bonus.fullPower vars = value.victory vars
@@ -163,7 +163,7 @@ scoreboard players operation value.bonus.heartgold vars *= 1 integers
 scoreboard players operation value.bonus.heavyDamage vars = value.participation vars
 scoreboard players operation value.bonus.heavyDamage vars *= 1 integers
 
-scoreboard players operation value.bonus.lastSecond vars = value.kill vars
+scoreboard players operation value.bonus.lastSecond vars = value.KO vars
 scoreboard players operation value.bonus.lastSecond vars *= 2 integers
 
 scoreboard players set value.bonus.luckyNumberSeven vars 77
@@ -174,23 +174,23 @@ scoreboard players operation value.bonus.mercifulMaster vars *= 1 integers
 scoreboard players operation value.bonus.noJohns vars = value.victory vars
 scoreboard players operation value.bonus.noJohns vars *= 1 integers
 
-scoreboard players operation value.bonus.NPCKO vars = value.kill vars
+scoreboard players operation value.bonus.NPCKO vars = value.KO vars
 scoreboard players operation value.bonus.NPCKO vars /= 3 integers
 
 scoreboard players operation value.bonus.onARoll vars = value.participation vars
 scoreboard players operation value.bonus.onARoll vars *= 1 integers
 
-scoreboard players operation value.bonus.rapidKill vars = value.kill vars
+scoreboard players operation value.bonus.rapidKill vars = value.KO vars
 scoreboard players operation value.bonus.rapidKill vars *= 1 integers
 
 scoreboard players set value.bonus.selfDestruct vars -25
 
-scoreboard players operation value.bonus.shieldBreaker vars = value.kill vars
+scoreboard players operation value.bonus.shieldBreaker vars = value.KO vars
 scoreboard players operation value.bonus.shieldBreaker vars /= 2 integers
 
 scoreboard players set value.bonus.shinyEncounter vars 2048
 
-scoreboard players operation value.bonus.sniper vars = value.kill vars
+scoreboard players operation value.bonus.sniper vars = value.KO vars
 scoreboard players operation value.bonus.sniper vars *= 1 integers
 
 scoreboard players operation value.bonus.speedDemon vars = value.victory vars
