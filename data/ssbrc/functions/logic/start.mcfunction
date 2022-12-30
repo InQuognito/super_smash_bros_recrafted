@@ -16,8 +16,7 @@ scoreboard players set @a[tag=alive] respawn 0
 scoreboard players set @a[predicate=ssbrc:flag/player] kills 0
 scoreboard players set @a[predicate=ssbrc:flag/player] points 0
 
-execute unless score $playersAlive temp matches 1.. run scoreboard players set $gameMode options 2
-execute unless score $playersAlive temp matches 1.. run scoreboard players set $timeLimit options 60
+execute unless score $playersAlive temp matches 2.. run function ssbrc:logic/resets/options/
 
 scoreboard players reset @a stocks
 execute if score $gameMode options matches 1 run scoreboard players operation @a[predicate=ssbrc:flag/player] stocks = $stockLimit options
