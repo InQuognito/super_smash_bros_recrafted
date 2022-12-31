@@ -1,3 +1,4 @@
+scoreboard players add @a[predicate=ssbrc:flag/player] points 9999
 scoreboard players reset $mostPoints points
 scoreboard players operation $mostPoints points > @a points
 execute as @a[predicate=ssbrc:flag/player] if score @s points = $mostPoints points run tag @s add mostPoints
