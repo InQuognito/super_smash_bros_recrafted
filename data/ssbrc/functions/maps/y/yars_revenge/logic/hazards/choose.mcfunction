@@ -5,3 +5,4 @@ execute if score result random matches 0 unless score #neutralZone temp matches 
 execute if score result random matches 1 unless score #qotileZone temp matches 1 run function ssbrc:maps/y/yars_revenge/logic/hazards/qotile_zone/activate
 
 execute unless score #yarsRevengeHazard temp matches 1 run function ssbrc:maps/y/yars_revenge/logic/hazards/choose
+scoreboard players reset #yarsRevengeHazard temp
