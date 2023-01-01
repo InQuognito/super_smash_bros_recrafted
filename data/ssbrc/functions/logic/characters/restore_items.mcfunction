@@ -99,7 +99,7 @@ loot replace entity @s[tag=steve,scores={steve.tier=2}] hotbar.0 loot ssbrc:char
 
 # Zelda
 tag @s[tag=zelda] remove rupeeMaster
-execute if entity @s[tag=zelda] run function ssbrc:series/the_legend_of_zelda/zelda/kit/items
+execute if entity @s[tag=zelda] run function ssbrc:series/the_legend_of_zelda/zelda/kit
 
 
 
