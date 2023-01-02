@@ -39,4 +39,3 @@ execute if score result random matches 34 unless score $mapChosen temp matches 1
 
 execute unless score $mapChosen temp matches 1 run function ssbrc:logic/pre_game/map_voting/map_choices/choose/random
 execute if score $mapChosen temp matches 1 run function ssbrc:logic/pre_game/map_voting/map_choices/success
-scoreboard players reset $mapChosen temp
