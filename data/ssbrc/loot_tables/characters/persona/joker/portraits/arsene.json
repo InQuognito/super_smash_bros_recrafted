@@ -12,7 +12,7 @@
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"text": "Arsene",
+								"text": "Arsène",
 								"color": "dark_red",
 								"bold": true,
 								"italic": false
