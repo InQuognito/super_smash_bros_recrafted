@@ -11,6 +11,7 @@ execute if score @s duration.2 matches 1.. at @s positioned ^ ^ ^2 as @e[type=#s
 tag @s remove self
 
 # Reflector
+execute if score @s duration.2 matches 1.. run teleport @s @s
 execute if score @s duration.2 matches 1 run function ssbrc:series/star_fox/fox/logic/abilities/reflector/deactivate
 
 # Fire Fox
