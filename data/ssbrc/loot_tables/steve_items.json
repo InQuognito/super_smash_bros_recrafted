@@ -18,7 +18,7 @@
 				{
 					"type": "minecraft:item",
 					"weight": 10,
-					"name": "minecraft:oak_planks",
+					"name": "minecraft:tripwire_hook",
 					"functions": [
 						{
 							"function": "minecraft:set_nbt",
@@ -29,22 +29,22 @@
 				{
 					"type": "minecraft:item",
 					"weight": 20,
-					"name": "minecraft:gold_ingot",
+					"name": "minecraft:flint",
 					"functions": [
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{Tags:[\"steve.item\",\"steve.item.normal\",\"steve.item.tier\",\"steve.item.teleport\"]}"
+							"tag": "{Tags:[\"steve.item\",\"steve.item.normal\",\"steve.item.other\",\"steve.item.teleport\"]}"
 						}
-					],
-					"conditions": [
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 10,
+					"name": "minecraft:oak_planks",
+					"functions": [
 						{
-							"condition": "minecraft:entity_scores",
-							"entity": "this",
-							"scores": {
-								"steve.tier": {
-									"min": 1
-								}
-							}
+							"function": "minecraft:set_nbt",
+							"tag": "{Tags:[\"steve.item\",\"steve.item.normal\",\"steve.item.other\",\"steve.item.teleport\"]}"
 						}
 					]
 				},
