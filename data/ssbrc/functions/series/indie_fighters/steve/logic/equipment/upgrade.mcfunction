@@ -1,8 +1,21 @@
-clear @s #ssbrc:characters/steve/items
 clear @s #ssbrc:characters/steve/equipment
 
-execute if entity @s[nbt={Inventory:[{id:"minecraft:cobblestone"}]}] run function ssbrc:series/indie_fighters/steve/logic/equipment/tiers/stone
-execute if entity @s[nbt={Inventory:[{id:"minecraft:gold_ingot"}]}] run function ssbrc:series/indie_fighters/steve/logic/equipment/tiers/gold
-execute if entity @s[nbt={Inventory:[{id:"minecraft:iron_ingot"}]}] run function ssbrc:series/indie_fighters/steve/logic/equipment/tiers/iron
-execute if entity @s[nbt={Inventory:[{id:"minecraft:diamond"}]}] run function ssbrc:series/indie_fighters/steve/logic/equipment/tiers/diamond
-execute if entity @s[nbt={Inventory:[{id:"minecraft:netherite_ingot"}]}] run function ssbrc:series/indie_fighters/steve/logic/equipment/tiers/netherite
+tag @s[nbt={Inventory:[{id:"minecraft:cobblestone"}]}] add hasCobblestone
+tag @s[nbt={Inventory:[{id:"minecraft:gold_ingot"}]}] add hasGold
+tag @s[nbt={Inventory:[{id:"minecraft:iron_ingot"}]}] add hasIron
+tag @s[nbt={Inventory:[{id:"minecraft:diamond"}]}] add hasDiamond
+tag @s[nbt={Inventory:[{id:"minecraft:netherite_ingot"}]}] add hasNetherite
+
+clear @s #ssbrc:characters/steve/items
+
+execute if entity @s[tag=hasCobblestone] run function ssbrc:series/indie_fighters/steve/logic/equipment/tiers/stone
+execute if entity @s[tag=hasGold] run function ssbrc:series/indie_fighters/steve/logic/equipment/tiers/gold
+execute if entity @s[tag=hasIron] run function ssbrc:series/indie_fighters/steve/logic/equipment/tiers/iron
+execute if entity @s[tag=hasDiamond] run function ssbrc:series/indie_fighters/steve/logic/equipment/tiers/diamond
+execute if entity @s[tag=hasNetherite] run function ssbrc:series/indie_fighters/steve/logic/equipment/tiers/netherite
+
+tag @s remove hasCobblestone
+tag @s remove hasGold
+tag @s remove hasIron
+tag @s remove hasDiamond
+tag @s remove hasNetherite
