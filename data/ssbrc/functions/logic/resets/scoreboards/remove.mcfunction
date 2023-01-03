@@ -108,6 +108,7 @@ scoreboard objectives remove suicides
 scoreboard objectives remove teamAmount
 scoreboard objectives remove timer
 scoreboard objectives remove timer.barrelCannon
+scoreboard objectives remove timer.galaxianFlagship
 scoreboard objectives remove timer.shockwave
 scoreboard objectives remove timer.stalfos
 scoreboard objectives remove timer.stat.death

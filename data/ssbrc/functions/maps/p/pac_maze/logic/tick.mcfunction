@@ -12,3 +12,7 @@ execute if score $dotGroup.total temp matches 4.. run function ssbrc:maps/p/pac_
 
 scoreboard players add $ghostSirenTimer temp 1
 execute if score $ghostSirenTimer temp matches 30.. as @e[tag=ghost,tag=active,tag=!retreating] at @s run function ssbrc:maps/p/pac_maze/logic/ghosts/siren
+
+# Galaxian Flagship
+scoreboard players add @a[tag=galaxianFlagship] timer.galaxianFlagship 1
+execute as @a[scores={timer.galaxianFlagship=1..}] at @s run function ssbrc:maps/p/pac_maze/logic/fruit/galaxian_flagship/tick

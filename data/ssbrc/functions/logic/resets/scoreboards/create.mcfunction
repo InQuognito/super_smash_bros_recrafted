@@ -109,6 +109,7 @@ scoreboard objectives add teamAmount dummy
 scoreboard objectives add timer dummy
 scoreboard objectives add timer dummy
 scoreboard objectives add timer.barrelCannon dummy
+scoreboard objectives add timer.galaxianFlagship dummy
 scoreboard objectives add timer.shockwave dummy
 scoreboard objectives add timer.stalfos dummy
 scoreboard objectives add timer.stat.death dummy
