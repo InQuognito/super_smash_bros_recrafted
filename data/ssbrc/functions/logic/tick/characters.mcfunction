@@ -64,6 +64,8 @@ execute if entity @s[predicate=ssbrc:characters/enchantments/infinity] run item 
 
 execute at @s[tag=naturalShiny] run particle minecraft:glow ~ ~0.7 ~ 0.5 0.4 0.5 0 1 normal @a
 
+execute at @s[predicate=ssbrc:characters/effects/has/wither] run particle minecraft:small_flame ~ ~0.75 ~ 0.2 0.4 0.2 0.01 1 normal @a
+
 execute if score @s frostbiteTimer matches 1.. at @s run function ssbrc:logic/characters/attributes/modifiers/frostbite/tick
 
 execute at @s if entity @e[type=minecraft:marker,tag=electricTerrain,distance=..12] if block ~ ~ ~ minecraft:water run tag @s add damage.electrocution
