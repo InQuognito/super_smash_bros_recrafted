@@ -13,6 +13,8 @@ team remove spectator
 team remove temp
 team remove waiting
 
+team remove yellow
+
 team add team1
 team add team2
 team add team3
@@ -27,6 +29,8 @@ team add ready
 team add spectator
 team add temp
 team add waiting
+
+team add yellow
 
 execute if score $teams options matches 0 run team modify team1 color green
 execute if score $teams options matches 1 run team modify team1 color red
@@ -151,7 +155,7 @@ team modify dead seeFriendlyInvisibles true
 team modify dead suffix ""
 
 team modify ready color dark_green
-team modify ready collisionRule always
+team modify ready collisionRule never
 team modify ready deathMessageVisibility never
 team modify ready displayName "Ready"
 team modify ready friendlyFire false
@@ -171,7 +175,7 @@ team modify spectator seeFriendlyInvisibles true
 team modify spectator suffix ""
 
 team modify temp color white
-team modify temp collisionRule always
+team modify temp collisionRule never
 team modify temp deathMessageVisibility never
 team modify temp displayName ""
 team modify temp friendlyFire false
@@ -181,7 +185,7 @@ team modify temp seeFriendlyInvisibles true
 team modify temp suffix ""
 
 team modify waiting color yellow
-team modify waiting collisionRule always
+team modify waiting collisionRule never
 team modify waiting deathMessageVisibility never
 team modify waiting displayName "Waiting"
 team modify waiting friendlyFire false
@@ -189,3 +193,13 @@ team modify waiting nametagVisibility never
 team modify waiting prefix ""
 team modify waiting seeFriendlyInvisibles true
 team modify waiting suffix " ⌛"
+
+team modify yellow color yellow
+team modify yellow collisionRule never
+team modify yellow deathMessageVisibility never
+team modify yellow displayName "Yellow"
+team modify yellow friendlyFire true
+team modify yellow nametagVisibility never
+team modify yellow prefix ""
+team modify yellow seeFriendlyInvisibles false
+team modify yellow suffix ""
