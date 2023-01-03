@@ -92,10 +92,11 @@ execute if entity @s[tag=sora] run function ssbrc:series/kingdom_hearts/sora/kit
 scoreboard players remove @s[tag=steve,scores={steve.tier=1..}] steve.tier 1
 
 clear @s[tag=steve] #ssbrc:swords
-clear @s[tag=steve] minecraft:netherite_axe
-loot replace entity @s[tag=steve,scores={steve.tier=0}] hotbar.0 loot ssbrc:characters/indie_fighters/steve/wooden_sword
-loot replace entity @s[tag=steve,scores={steve.tier=1}] hotbar.0 loot ssbrc:characters/indie_fighters/steve/stone_sword
-loot replace entity @s[tag=steve,scores={steve.tier=2}] hotbar.0 loot ssbrc:characters/indie_fighters/steve/iron_sword
+clear @s[tag=steve] minecraft:netherite_axe{netheriteAxe:1}
+loot replace entity @s[tag=steve,scores={steve.tier=0}] hotbar.0 loot ssbrc:characters/indie_fighters/steve/sword/wooden
+loot replace entity @s[tag=steve,scores={steve.tier=1}] hotbar.0 loot ssbrc:characters/indie_fighters/steve/sword/stone
+loot replace entity @s[tag=steve,scores={steve.tier=2}] hotbar.0 loot ssbrc:characters/indie_fighters/steve/sword/golden
+loot replace entity @s[tag=steve,scores={steve.tier=3}] hotbar.0 loot ssbrc:characters/indie_fighters/steve/sword/iron
 
 # Zelda
 tag @s[tag=zelda] remove rupeeMaster
