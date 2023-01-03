@@ -2,6 +2,10 @@ execute if entity @s[tag=blackEagles,scores={useAbility=1..,charge.3=..0},nbt={S
 execute if entity @s[predicate=ssbrc:flag/sneaking,scores={charge.step=5..}] at @s run function ssbrc:series/fire_emblem/byleth/logic/blue_lions/spin_attack/deactivate
 execute if entity @s[tag=goldenDeer,scores={charge.step=5..,cooldown.1=..0},nbt={SelectedItem:{tag:{failnaught:1}}}] at @s anchored eyes run function ssbrc:series/fire_emblem/byleth/logic/golden_deer/failnaught/activate
 
+tag @s add self
+execute as @e[type=minecraft:arrow,tag=failnaught,tag=awakened] at @s if score @s id = @p[tag=self] id run function ssbrc:series/fire_emblem/byleth/logic/golden_deer/failnaught/tick
+tag @s remove self
+
 # Legendary Weapon Durability
 execute if score @s[tag=blackEagles] charge.1 matches 10.. run function ssbrc:series/fire_emblem/byleth/logic/black_eagles/aymr/break
 execute if score @s[tag=blueLions] charge.1 matches 20.. run function ssbrc:series/fire_emblem/byleth/logic/blue_lions/areadbhar/break
