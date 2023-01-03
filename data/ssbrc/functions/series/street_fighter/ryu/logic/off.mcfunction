@@ -1,6 +1,6 @@
 effect clear @s minecraft:absorption
 effect clear @s minecraft:speed
-effect clear @s minecraft:strength
+attribute @s generic.attack_damage modifier remove 19192183-0000-0000-0001-000000000010
 
 function ssbrc:logic/characters/armor/update
 

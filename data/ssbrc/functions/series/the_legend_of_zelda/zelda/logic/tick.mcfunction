@@ -34,7 +34,8 @@ execute if entity @s[tag=shatterResist] if score @s cooldown.2 matches 1.. run e
 execute unless entity @s[tag=enchantArmor] run effect give @s[nbt={Inventory:[{tag:{nayrusRing:1}}]},scores={health=..6}] minecraft:resistance 1 255 true
 execute if entity @s[tag=enchantArmor] if score @s cooldown.2 matches ..0 run effect give @s[nbt={Inventory:[{tag:{nayrusRing:1}}]},scores={health=..6}] minecraft:resistance 1 255 true
 
-effect give @s[tag=!specialBond,nbt={Inventory:[{tag:{ringOfRisk:1}}]},scores={health=..10}] minecraft:strength 1 0 true
+attribute @s[tag=!specialBond,nbt={Inventory:[{tag:{ringOfRisk:1}}]},scores={health=11..}] generic.attack_damage modifier remove 19192183-0000-0000-0001-000000000010
+attribute @s[tag=!specialBond,nbt={Inventory:[{tag:{ringOfRisk:1}}]},scores={health=..10}] generic.attack_damage modifier add 19192183-0000-0000-0001-000000000010 "attackBuff" 1.25 multiply_base
 
 execute at @s[tag=!specialBond,nbt={Inventory:[{tag:{torchOfWisdom:1}}]}] run effect give @e[predicate=ssbrc:flag/targets,predicate=!ssbrc:characters/effects/has/glowing,distance=..10] minecraft:glowing 1 255 true
 
