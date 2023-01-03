@@ -1,7 +1,7 @@
 execute positioned 0.0 0.0 0.0 run function ssbrc:series/fire_emblem/byleth/logic/golden_deer/failnaught/set_velocity
 
 execute if score @s charge.output matches 40..79 run summon minecraft:spectral_arrow ^ ^ ^1 {damage:4.0,Tags:["failnaught","modifyEntity"],NoGravity:1b}
-execute if score @s charge.output matches 80.. run summon minecraft:spectral_arrow ^ ^ ^1 {damage:2.0,Tags:["failnaught","awakened","modifyEntity"],NoGravity:1b,Glowing:1b}
+execute if score @s charge.output matches 80.. run summon minecraft:spectral_arrow ^ ^ ^1 {damage:2.0,Tags:["failnaught","awakened","modifyEntity"],NoGravity:1b,Glowing:1b,PierceLevel:99}
 execute if score @s charge.output matches 80.. run team join yellow @e[tag=modifyEntity,limit=1]
 
 scoreboard players operation @e[tag=modifyEntity,limit=1] id = @s id
