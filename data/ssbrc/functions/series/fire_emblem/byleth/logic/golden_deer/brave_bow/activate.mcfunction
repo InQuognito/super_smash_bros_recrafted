@@ -10,3 +10,5 @@ execute as @e[tag=modifyEntity,limit=2] run data modify entity @s Motion set fro
 
 tag @e[tag=modifyEntity,limit=2] remove modifyEntity
 kill @e[tag=direction]
+
+loot replace entity @s weapon.mainhand loot ssbrc:characters/fire_emblem/byleth/golden_deer/brave_bow/idle
