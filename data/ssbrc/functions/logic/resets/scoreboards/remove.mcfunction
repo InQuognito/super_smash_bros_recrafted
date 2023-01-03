@@ -136,7 +136,6 @@ scoreboard objectives remove fullPower
 scoreboard objectives remove goodFriend
 scoreboard objectives remove heartgold
 scoreboard objectives remove heavyDamage
-scoreboard objectives remove KO
 scoreboard objectives remove lastSecond
 scoreboard objectives remove luckyNumberSeven
 scoreboard objectives remove mercifulMaster
