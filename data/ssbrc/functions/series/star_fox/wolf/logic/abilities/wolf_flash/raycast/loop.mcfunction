@@ -1,7 +1,5 @@
 execute if block ^ ^ ^0.1 #ssbrc:passthrough_charge run teleport @s ^ ^ ^0.1
 
-teleport @p[tag=wolf,scores={duration.3=1..}] ^ ^ ^ ~ ~
-
 particle minecraft:dust 0.5 0.0 1.0 0.5 ~ ~-0.4 ~ 0.0 0.0 0.0 0 0 normal @a
 particle minecraft:dust 0.5 0.0 1.0 0.5 ~ ~ ~ 0.0 0.0 0.0 0 0 normal @a
 particle minecraft:dust 0.5 0.0 1.0 0.5 ~ ~0.4 ~ 0.0 0.0 0.0 0 0 normal @a
