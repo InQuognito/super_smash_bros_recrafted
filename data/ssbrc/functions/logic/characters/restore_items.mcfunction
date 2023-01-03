@@ -91,12 +91,11 @@ execute if entity @s[tag=sora] run function ssbrc:series/kingdom_hearts/sora/kit
 # Steve
 scoreboard players remove @s[tag=steve,scores={steve.tier=1..}] steve.tier 1
 
-clear @s[tag=steve] #ssbrc:swords
-clear @s[tag=steve] minecraft:netherite_axe{netheriteAxe:1}
-loot replace entity @s[tag=steve,scores={steve.tier=0}] hotbar.0 loot ssbrc:characters/indie_fighters/steve/sword/wooden
-loot replace entity @s[tag=steve,scores={steve.tier=1}] hotbar.0 loot ssbrc:characters/indie_fighters/steve/sword/stone
-loot replace entity @s[tag=steve,scores={steve.tier=2}] hotbar.0 loot ssbrc:characters/indie_fighters/steve/sword/golden
-loot replace entity @s[tag=steve,scores={steve.tier=3}] hotbar.0 loot ssbrc:characters/indie_fighters/steve/sword/iron
+clear @s[tag=steve] #ssbrc:characters/steve/equipment
+execute if score @s steve.tier matches 0 run function ssbrc:series/indie_fighters/steve/logic/equipment/tiers/wooden
+execute if score @s steve.tier matches 0 run function ssbrc:series/indie_fighters/steve/logic/equipment/tiers/stone
+execute if score @s steve.tier matches 0 run function ssbrc:series/indie_fighters/steve/logic/equipment/tiers/golden
+execute if score @s steve.tier matches 0 run function ssbrc:series/indie_fighters/steve/logic/equipment/tiers/iron
 
 # Zelda
 tag @s[tag=zelda] remove rupeeMaster
