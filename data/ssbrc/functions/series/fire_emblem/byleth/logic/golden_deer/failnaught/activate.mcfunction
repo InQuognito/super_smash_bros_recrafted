@@ -14,3 +14,5 @@ function ssbrc:logic/resets/charge
 
 scoreboard players set @s cooldown.1 10
 execute if score @s shadow.chaosControl matches 1.. run function ssbrc:logic/characters/cooldown_modifiers/chaos_control/1
+
+scoreboard players add @s charge.1 1

@@ -10,7 +10,7 @@ tag @s remove self
 # Legendary Weapon Durability
 execute if score @s[tag=blackEagles] charge.1 matches 10.. run function ssbrc:series/fire_emblem/byleth/logic/black_eagles/aymr/break
 execute if score @s[tag=blueLions] charge.1 matches 20.. run function ssbrc:series/fire_emblem/byleth/logic/blue_lions/areadbhar/break
-execute if score @s[tag=goldenDeer] flag.fireBow matches 10.. run function ssbrc:series/fire_emblem/byleth/logic/golden_deer/failnaught/break
+execute if score @s[tag=goldenDeer] charge.1 matches 10.. run function ssbrc:series/fire_emblem/byleth/logic/golden_deer/failnaught/break
 
 execute if score @s[tag=blackEagles] charge.2 matches 6.. run function ssbrc:series/fire_emblem/byleth/logic/black_eagles/aymr/restore
 execute if score @s[tag=blueLions] charge.2 matches 4.. run function ssbrc:series/fire_emblem/byleth/logic/blue_lions/areadbhar/restore
