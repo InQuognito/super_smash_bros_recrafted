@@ -7,6 +7,10 @@ execute if score @s[predicate=ssbrc:characters/link/master_sword_awakened] charg
 execute if entity @s[predicate=ssbrc:characters/link/master_sword_awakened,scores={charge.output=81..}] at @s anchored eyes run function ssbrc:series/the_legend_of_zelda/link/logic/abilities/sword_spin/sword_beams_tier1
 execute if entity @s[predicate=ssbrc:characters/link/master_sword_awakened,scores={charge.output=121..}] at @s anchored eyes run function ssbrc:series/the_legend_of_zelda/link/logic/abilities/sword_spin/sword_beams_tier2
 
+execute if score @s charge.output matches 21.. run loot replace entity @s[tag=!dark,predicate=!ssbrc:characters/link/master_sword_awakened] weapon.mainhand loot ssbrc:characters/the_legend_of_zelda/link/master_sword/default/spinning/default
+execute if score @s charge.output matches 21.. run loot replace entity @s[tag=!dark,predicate=ssbrc:characters/link/master_sword_awakened] weapon.mainhand loot ssbrc:characters/the_legend_of_zelda/link/master_sword/default/spinning/awakened
+execute if score @s charge.output matches 21.. run loot replace entity @s[tag=dark,predicate=!ssbrc:characters/link/master_sword_awakened] weapon.mainhand loot ssbrc:characters/the_legend_of_zelda/link/master_sword/dark/spinning/default
+execute if score @s charge.output matches 21.. run loot replace entity @s[tag=dark,predicate=ssbrc:characters/link/master_sword_awakened] weapon.mainhand loot ssbrc:characters/the_legend_of_zelda/link/master_sword/dark/spinning/awakened
 execute if score @s charge.output matches 21.. run tag @s add spinning
 
 execute if block ~ ~-0.1 ~ minecraft:air if score @s charge.output matches 21.. run function ssbrc:series/the_legend_of_zelda/link/logic/abilities/sword_spin/levitate

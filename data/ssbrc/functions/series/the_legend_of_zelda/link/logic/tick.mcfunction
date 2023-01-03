@@ -8,10 +8,14 @@ execute as @e[tag=boomerang] at @s if score @s id = @p[tag=self] id run function
 tag @s remove self
 
 # Master Sword
-loot replace entity @s[tag=!dark,nbt={SelectedItem:{tag:{masterSword:1,awakened:0}}},scores={health=40..}] weapon.mainhand loot ssbrc:characters/the_legend_of_zelda/link/master_sword/default_awakened
-loot replace entity @s[tag=!dark,nbt={SelectedItem:{tag:{masterSword:1,awakened:1}}},scores={health=..39}] weapon.mainhand loot ssbrc:characters/the_legend_of_zelda/link/master_sword/default
-loot replace entity @s[tag=dark,nbt={SelectedItem:{tag:{masterSword:1,awakened:0}}},scores={health=40..}] weapon.mainhand loot ssbrc:characters/the_legend_of_zelda/link/master_sword/dark_awakened
-loot replace entity @s[tag=dark,nbt={SelectedItem:{tag:{masterSword:1,awakened:1}}},scores={health=..39}] weapon.mainhand loot ssbrc:characters/the_legend_of_zelda/link/master_sword/dark
+loot replace entity @s[tag=!dark,nbt={SelectedItem:{tag:{masterSword:1,awakened:0}}},scores={health=40..},tag=!spinning] weapon.mainhand loot ssbrc:characters/the_legend_of_zelda/link/master_sword/default/awakened
+loot replace entity @s[tag=!dark,nbt={SelectedItem:{tag:{masterSword:1,awakened:1}}},scores={health=..39},tag=!spinning] weapon.mainhand loot ssbrc:characters/the_legend_of_zelda/link/master_sword/default/default
+loot replace entity @s[tag=dark,nbt={SelectedItem:{tag:{masterSword:1,awakened:0}}},scores={health=40..},tag=!spinning] weapon.mainhand loot ssbrc:characters/the_legend_of_zelda/link/master_sword/dark/awakened
+loot replace entity @s[tag=dark,nbt={SelectedItem:{tag:{masterSword:1,awakened:1}}},scores={health=..39},tag=!spinning] weapon.mainhand loot ssbrc:characters/the_legend_of_zelda/link/master_sword/dark/default
+loot replace entity @s[tag=!dark,nbt={SelectedItem:{tag:{masterSword:1,awakened:0}}},scores={health=40..},tag=spinning] weapon.mainhand loot ssbrc:characters/the_legend_of_zelda/link/master_sword/default/spinning/awakened
+loot replace entity @s[tag=!dark,nbt={SelectedItem:{tag:{masterSword:1,awakened:1}}},scores={health=..39},tag=spinning] weapon.mainhand loot ssbrc:characters/the_legend_of_zelda/link/master_sword/default/spinning/default
+loot replace entity @s[tag=dark,nbt={SelectedItem:{tag:{masterSword:1,awakened:0}}},scores={health=40..},tag=spinning] weapon.mainhand loot ssbrc:characters/the_legend_of_zelda/link/master_sword/dark/spinning/awakened
+loot replace entity @s[tag=dark,nbt={SelectedItem:{tag:{masterSword:1,awakened:1}}},scores={health=..39},tag=spinning] weapon.mainhand loot ssbrc:characters/the_legend_of_zelda/link/master_sword/dark/spinning/default
 
 # Sword Spin
 scoreboard players add $swordSpin rotation 15

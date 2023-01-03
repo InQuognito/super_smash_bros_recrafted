@@ -1,5 +1,5 @@
-loot replace entity @s[tag=!dark] hotbar.0 loot ssbrc:characters/the_legend_of_zelda/link/master_sword/default_awakened
-loot replace entity @s[tag=dark] hotbar.0 loot ssbrc:characters/the_legend_of_zelda/link/master_sword/dark_awakened
+loot replace entity @s[tag=!dark] hotbar.0 loot ssbrc:characters/the_legend_of_zelda/link/master_sword/default/awakened
+loot replace entity @s[tag=dark] hotbar.0 loot ssbrc:characters/the_legend_of_zelda/link/master_sword/dark/awakened
 loot replace entity @s hotbar.1 loot ssbrc:characters/the_legend_of_zelda/link/fairy_bow
 loot replace entity @s hotbar.2 loot ssbrc:characters/the_legend_of_zelda/link/boomerang
 
