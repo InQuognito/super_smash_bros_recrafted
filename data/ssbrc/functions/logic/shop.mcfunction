@@ -186,3 +186,6 @@ execute if entity @s[advancements={ssbrc:series/sonic_the_hedgehog/shadow/skins/
 
 # Book
 loot replace entity @s hotbar.8 loot ssbrc:shop
+
+scoreboard players reset @s shop
+scoreboard players enable @s shop
