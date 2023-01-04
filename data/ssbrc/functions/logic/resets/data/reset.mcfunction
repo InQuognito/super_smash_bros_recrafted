@@ -203,5 +203,5 @@ scoreboard players reset @s stats.wolf.winStreak
 scoreboard players reset @s stats.yar.winStreak
 scoreboard players reset @s stats.zelda.winStreak
 
-tellraw @s {"text":"Your data has been successfully reset.","color":"green"}
+tellraw @s {"text":"Your data has been successfully reset.","color":"yellow"}
 scoreboard players reset @s reset

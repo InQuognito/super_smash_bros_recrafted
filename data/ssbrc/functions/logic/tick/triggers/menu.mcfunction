@@ -1,3 +1,7 @@
+execute if score @s menu matches -999 run function ssbrc:logic/resets/data/confirm
+execute if score @s menu matches -998 if score @s reset matches 1 run function ssbrc:logic/resets/data/cancel
+execute if score @s menu matches -997 if score @s reset matches 1 run function ssbrc:logic/resets/data/reset
+
 execute if score @s menu matches -1 run function ssbrc:logic/favorite/slot_1
 execute if score @s menu matches -2 run function ssbrc:logic/favorite/slot_2
 execute if score @s menu matches -3 run function ssbrc:logic/favorite/slot_3
