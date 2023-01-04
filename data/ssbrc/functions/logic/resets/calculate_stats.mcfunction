@@ -8,13 +8,8 @@ scoreboard players operation #kD.integer temp = @s stats.kD
 scoreboard players operation #kD.integer temp /= 100 integers
 
 scoreboard players operation @s stats.wL = @s stats.wins
-scoreboard players operation @s stats.wL *= 100 integers
 scoreboard players operation @s stats.wL /= @s stats.gamesPlayed
-
-scoreboard players operation #wL.decimal temp = @s stats.wL
-scoreboard players operation #wL.decimal temp %= 100 integers
-scoreboard players operation #wL.integer temp = @s stats.wL
-scoreboard players operation #wL.integer temp /= 100 integers
+scoreboard players operation @s stats.wL *= 100 integers
 
 # Fighters
 scoreboard players operation #stats.alteredbeast.kD temp = @s stats.alteredbeast.kills
