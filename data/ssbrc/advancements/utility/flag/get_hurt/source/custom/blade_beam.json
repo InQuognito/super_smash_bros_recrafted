@@ -16,6 +16,6 @@
 		}
 	},
 	"rewards": {
-		"function": "ssbrc:series/final_fantasy/cloud/logic/blade_beam/multi_hit"
+		"function": "ssbrc:series/final_fantasy/cloud/logic/blade_beam/multi_hit/activate"
 	}
 }
