@@ -8,7 +8,7 @@ scoreboard objectives setdisplay belowName
 scoreboard objectives setdisplay list
 scoreboard objectives setdisplay sidebar
 
-execute if score $gameMode options matches 2 if score $timeLimit options matches 60 run function ssbrc:logic/options/presets/singleplayer/off
+execute if score $gameMode options matches 2 if score $timeLimit options matches 120 run function ssbrc:logic/options/presets/singleplayer/off
 
 function ssbrc:logic/resets/options
 
