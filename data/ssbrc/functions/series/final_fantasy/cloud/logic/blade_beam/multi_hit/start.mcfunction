@@ -1,4 +1,4 @@
-summon minecraft:marker ~ ~0.75 ~ {Tags:["bladeBeam.multiHit","modifyEntity"]}
+summon minecraft:marker ~ ~0.75 ~ {Tags:["modifyEntity"]}
 
 scoreboard players set max random 360
 function ssbrc:math/rng/lcg
