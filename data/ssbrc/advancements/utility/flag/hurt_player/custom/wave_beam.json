@@ -1,0 +1,24 @@
+{
+	"parent": "ssbrc:utility/root",
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:player_hurt_entity",
+			"conditions": {
+				"damage": {
+					"blocked": false,
+					"source_entity": {
+						"nbt": "{Tags:[\"samus\"]}"
+					},
+					"type": {
+						"direct_entity": {
+							"nbt": "{Tags:[\"damage.waveBeam\"]}"
+						}
+					}
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "ssbrc:series/metroid/samus/logic/weapons/wave_beam/hit"
+	}
+}

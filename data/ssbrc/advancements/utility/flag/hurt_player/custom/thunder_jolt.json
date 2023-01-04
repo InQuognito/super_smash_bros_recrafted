@@ -1,0 +1,24 @@
+{
+	"parent": "ssbrc:utility/root",
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:player_hurt_entity",
+			"conditions": {
+				"damage": {
+					"blocked": false,
+					"source_entity": {
+						"nbt": "{Tags:[\"pikachu\"]}"
+					},
+					"type": {
+						"direct_entity": {
+							"nbt": "{Tags:[\"damage.thunderJolt\"]}"
+						}
+					}
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "ssbrc:series/pokemon/pikachu/logic/abilities/thunder_jolt/hit"
+	}
+}

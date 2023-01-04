@@ -1,0 +1,24 @@
+{
+	"parent": "ssbrc:utility/root",
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:player_hurt_entity",
+			"conditions": {
+				"damage": {
+					"blocked": false,
+					"source_entity": {
+						"nbt": "{Tags:[\"greninja\"]}"
+					},
+					"type": {
+						"direct_entity": {
+							"nbt": "{Tags:[\"damage.hyperVoice\"]}"
+						}
+					}
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "ssbrc:series/pokemon/jigglypuff/logic/abilities/hyper_voice/hit"
+	}
+}

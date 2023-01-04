@@ -1,0 +1,24 @@
+{
+	"parent": "ssbrc:utility/root",
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:player_hurt_entity",
+			"conditions": {
+				"damage": {
+					"blocked": false,
+					"source_entity": {
+						"nbt": "{Tags:[\"wobbuffet\"]}"
+					},
+					"type": {
+						"direct_entity": {
+							"nbt": "{Tags:[\"damage.destinyBond\"]}"
+						}
+					}
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "ssbrc:series/pokemon/teamrocket/logic/wobbuffet/destiny_bond/hit"
+	}
+}
