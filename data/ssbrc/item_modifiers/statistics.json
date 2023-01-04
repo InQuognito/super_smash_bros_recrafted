@@ -68,111 +68,25 @@
 				"extra": [
 					{
 						"score": {
-							"name": "#wL.integer",
-							"objective": "temp"
+							"name": "@s",
+							"objective": "stats.wL"
 						},
 						"color": "yellow",
 						"bold": false,
 						"italic": false,
 						"extra": [
 							{
-								"text": ".0",
+								"text": "%",
 								"color": "yellow",
 								"bold": false,
-								"italic": false,
-								"extra": [
-									{
-										"score": {
-											"name": "#wL.decimal",
-											"objective": "temp"
-										},
-										"color": "yellow",
-										"bold": false,
-										"italic": false
-									}
-								]
+								"italic": false
 							}
 						]
 					}
 				]
 			}
 		],
-		"replace": false,
-		"conditions": [
-			{
-				"condition": "minecraft:value_check",
-				"value": {
-					"type": "minecraft:score",
-					"target": {
-						"type": "minecraft:fixed",
-						"name": "#wL.decimal"
-					},
-					"score": "temp"
-				},
-				"range": {
-					"max": 9
-				}
-			}
-		]
-	},
-	{
-		"function": "minecraft:set_lore",
-		"entity": "this",
-		"lore": [
-			{
-				"text": "W/L Ratio: ",
-				"color": "gold",
-				"bold": false,
-				"italic": false,
-				"extra": [
-					{
-						"score": {
-							"name": "#wL.integer",
-							"objective": "temp"
-						},
-						"color": "yellow",
-						"bold": false,
-						"italic": false,
-						"extra": [
-							{
-								"text": ".",
-								"color": "yellow",
-								"bold": false,
-								"italic": false,
-								"extra": [
-									{
-										"score": {
-											"name": "#wL.decimal",
-											"objective": "temp"
-										},
-										"color": "yellow",
-										"bold": false,
-										"italic": false
-									}
-								]
-							}
-						]
-					}
-				]
-			}
-		],
-		"replace": false,
-		"conditions": [
-			{
-				"condition": "minecraft:value_check",
-				"value": {
-					"type": "minecraft:score",
-					"target": {
-						"type": "minecraft:fixed",
-						"name": "#wL.decimal"
-					},
-					"score": "temp"
-				},
-				"range": {
-					"min": 10
-				}
-			}
-		]
+		"replace": false
 	},
 	{
 		"function": "minecraft:set_lore",
