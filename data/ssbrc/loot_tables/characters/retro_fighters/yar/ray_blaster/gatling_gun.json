@@ -12,11 +12,57 @@
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"text": "Ray Blaster (Gatling Gun)",
+								"text": "Gatling Gun",
 								"color": "gold",
 								"bold": true,
 								"italic": false
 							}
+						},
+						{
+							"function": "minecraft:set_lore",
+							"entity": "this",
+							"lore": [
+								{
+									"text": "------------",
+									"color": "gray",
+									"bold": false,
+									"italic": false
+								},
+								{
+									"text": "Ranged Weapon",
+									"color": "white",
+									"bold": false,
+									"italic": false,
+									"underlined": true
+								},
+								{
+									"text": "- [",
+									"color": "gray",
+									"bold": false,
+									"italic": false,
+									"extra": [
+										{
+											"keybind": "key.use",
+											"color": "gray",
+											"bold": false,
+											"italic": false
+										},
+										{
+											"text": "] to fire",
+											"color": "gray",
+											"bold": false,
+											"italic": false
+										}
+									]
+								},
+								{
+									"text": "- Continue firing to build up speed",
+									"color": "gray",
+									"bold": false,
+									"italic": false
+								}
+							],
+							"replace": true
 						},
 						{
 							"function": "minecraft:set_attributes",

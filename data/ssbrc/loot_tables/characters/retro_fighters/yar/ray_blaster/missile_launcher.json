@@ -12,11 +12,63 @@
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"text": "Ray Blaster (Missile Launcher)",
+								"text": "Missile Launcher",
 								"color": "gold",
 								"bold": true,
 								"italic": false
 							}
+						},
+						{
+							"function": "minecraft:set_lore",
+							"entity": "this",
+							"lore": [
+								{
+									"text": "-----------------",
+									"color": "gray",
+									"bold": false,
+									"italic": false
+								},
+								{
+									"text": "Ranged Weapon",
+									"color": "white",
+									"bold": false,
+									"italic": false,
+									"underlined": true
+								},
+								{
+									"text": "- [",
+									"color": "gray",
+									"bold": false,
+									"italic": false,
+									"extra": [
+										{
+											"keybind": "key.use",
+											"color": "gray",
+											"bold": false,
+											"italic": false
+										},
+										{
+											"text": "] to fire a missile",
+											"color": "gray",
+											"bold": false,
+											"italic": false
+										}
+									]
+								},
+								{
+									"text": "- Explodes on contact",
+									"color": "gray",
+									"bold": false,
+									"italic": false
+								},
+								{
+									"text": "- Speeds up as it travels",
+									"color": "gray",
+									"bold": false,
+									"italic": false
+								}
+							],
+							"replace": true
 						},
 						{
 							"function": "minecraft:set_attributes",

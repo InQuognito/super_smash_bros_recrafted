@@ -54,7 +54,7 @@
 							"entity": "this",
 							"lore": [
 								{
-									"text": "-----------",
+									"text": "------------",
 									"color": "gray",
 									"bold": false,
 									"italic": false
