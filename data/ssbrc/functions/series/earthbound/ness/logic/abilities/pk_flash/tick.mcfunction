@@ -7,5 +7,6 @@ execute at @s run teleport @s[scores={temp=20..}] ~ ~-0.3 ~
 
 execute if score @s temp matches ..19 at @s unless block ~ ~0.2 ~ #ssbrc:passthrough run function ssbrc:series/earthbound/ness/logic/abilities/pk_flash/explode
 execute if score @s temp matches 20.. at @s unless block ~ ~-0.3 ~ #ssbrc:passthrough run function ssbrc:series/earthbound/ness/logic/abilities/pk_flash/explode
+execute if score @s temp matches 80.. as @p[tag=self] run function ssbrc:series/earthbound/ness/logic/abilities/pk_flash/cooldown
 
 scoreboard players add @s temp 1
