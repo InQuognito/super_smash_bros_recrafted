@@ -9,35 +9,6 @@
 					"name": "minecraft:carrot_on_a_stick",
 					"functions": [
 						{
-							"function": "minecraft:set_name",
-							"entity": "this",
-							"name": {
-								"text": "Anti-Personnel Mine",
-								"color": "green",
-								"bold": true,
-								"italic": false
-							}
-						},
-						{
-							"function": "minecraft:set_attributes",
-							"modifiers": [
-								{
-									"attribute": "minecraft:generic.attack_damage",
-									"name": "Attack Damage",
-									"amount": 0,
-									"operation": "multiply_base",
-									"slot": "mainhand"
-								},
-								{
-									"attribute": "minecraft:generic.attack_speed",
-									"name": "Attack Speed",
-									"amount": 1024,
-									"operation": "multiply_base",
-									"slot": "mainhand"
-								}
-							]
-						},
-						{
 							"function": "minecraft:set_nbt",
 							"tag": "{antiPersonnelMine:1,CustomModelData:1528,Unbreakable:1,HideFlags:127}"
 						}
