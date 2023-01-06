@@ -19,6 +19,64 @@
 							}
 						},
 						{
+							"function": "minecraft:set_lore",
+							"entity": "this",
+							"lore": [
+								{
+									"text": "-----------",
+									"color": "gray",
+									"bold": false,
+									"italic": false
+								},
+								{
+									"text": "Utility Ability",
+									"color": "white",
+									"bold": false,
+									"italic": false,
+									"underlined": true
+								},
+								{
+									"text": "- [",
+									"color": "gray",
+									"bold": false,
+									"italic": false,
+									"extra": [
+										{
+											"keybind": "key.use",
+											"color": "gray",
+											"bold": false,
+											"italic": false
+										},
+										{
+											"text": "] to change equipped persona",
+											"color": "gray",
+											"bold": false,
+											"italic": false
+										}
+									]
+								},
+								{
+									"text": "",
+									"color": "gray",
+									"bold": false,
+									"italic": false
+								},
+								{
+									"text": "Persona Awakening effect:",
+									"color": "gray",
+									"bold": false,
+									"italic": false
+								},
+								{
+									"text": "- Rebel's Knife has a chance to freeze opponents",
+									"color": "gray",
+									"bold": false,
+									"italic": false
+								}
+							],
+							"replace": true
+						},
+						{
 							"function": "minecraft:set_attributes",
 							"modifiers": [
 								{
