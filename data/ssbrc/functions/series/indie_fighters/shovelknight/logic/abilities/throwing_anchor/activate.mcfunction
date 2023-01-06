@@ -13,5 +13,7 @@ data modify entity @e[tag=modifyEntity,limit=1] Motion set from entity @e[tag=di
 tag @e[tag=modifyEntity,limit=1] remove modifyEntity
 kill @e[tag=direction]
 
+scoreboard players operation @s mana -= #shovelknight.throwingAnchorManaCost vars
+
 scoreboard players set @s cooldown.1 10
 execute if score @s shadow.chaosControl matches 1.. run function ssbrc:logic/characters/cooldown_modifiers/chaos_control/1
