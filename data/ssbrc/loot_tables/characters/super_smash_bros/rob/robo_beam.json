@@ -19,6 +19,38 @@
 							}
 						},
 						{
+							"function": "minecraft:set_lore",
+							"entity": "this",
+							"lore": [
+								{
+									"text": "----------",
+									"color": "gray",
+									"bold": false,
+									"italic": false
+								},
+								{
+									"text": "Ranged Weapon",
+									"color": "white",
+									"bold": false,
+									"italic": false,
+									"underlined": true
+								},
+								{
+									"text": "- Charges power over time",
+									"color": "gray",
+									"bold": false,
+									"italic": false
+								},
+								{
+									"text": "- Misfires if used too soon",
+									"color": "gray",
+									"bold": false,
+									"italic": false
+								}
+							],
+							"replace": true
+						},
+						{
 							"function": "minecraft:set_attributes",
 							"modifiers": [
 								{
