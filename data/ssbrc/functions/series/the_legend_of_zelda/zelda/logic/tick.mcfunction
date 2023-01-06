@@ -27,6 +27,9 @@ function ssbrc:series/the_legend_of_zelda/zelda/logic/mana/update
 # Bomb
 execute if entity @s[tag=activeFuse] run function ssbrc:series/the_legend_of_zelda/zelda/logic/abilities/bomb/fuse_tick
 
+# Bow
+execute if entity @s[scores={charge.output=1..},nbt={SelectedItem:{tag:{bow:1}}}] run function ssbrc:series/fire_emblem/byleth/logic/golden_deer/brave_bow/charge
+
 # Passive Items
 effect clear @s[tag=!specialBond,nbt={Inventory:[{tag:{goronLocket:1}}]}] minecraft:wither
 

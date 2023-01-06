@@ -30,7 +30,7 @@ execute if entity @s[tag=blueLions,predicate=!ssbrc:flag/sneaking,scores={charge
 execute if entity @s[tag=spinning] at @s run function ssbrc:series/fire_emblem/byleth/logic/blue_lions/spin_attack/tick
 
 # Bows
-execute if entity @s[tag=goldenDeer,scores={charge.output=1..},nbt={SelectedItem:{tag:{braveBow:1}}}] at @s anchored eyes run function ssbrc:series/fire_emblem/byleth/logic/golden_deer/brave_bow/charge
+execute if entity @s[tag=goldenDeer,scores={charge.output=1..},nbt={SelectedItem:{tag:{braveBow:1}}}] run function ssbrc:series/fire_emblem/byleth/logic/golden_deer/brave_bow/charge
 
 # Passive Abilities
 scoreboard players operation #percentage temp = @s health

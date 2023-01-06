@@ -39,7 +39,7 @@
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{rayBlaster:1,railgun:1,Unbreakable:1,HideFlags:127}"
+							"tag": "{rayBlaster:1,railgun:1,CustomModelData:1973,Unbreakable:1,HideFlags:127}"
 						}
 					]
 				}

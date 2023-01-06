@@ -1,3 +1,3 @@
-loot replace entity @s hotbar.1 loot ssbrc:characters/retro_fighters/yar/ray_blaster/railgun
+loot replace entity @s hotbar.1 loot ssbrc:characters/retro_fighters/yar/ray_blaster/railgun/default
 
 tag @s add railgun
