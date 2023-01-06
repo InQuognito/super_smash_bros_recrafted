@@ -13,7 +13,6 @@ xp set @s 0 points
 effect clear @s
 effect give @s minecraft:regeneration 1000000 255 true
 effect give @s minecraft:resistance 1000000 255 true
-effect give @s minecraft:speed 1000000 3 true
 effect give @s minecraft:water_breathing 1000000 255 true
 
 title @s clear
