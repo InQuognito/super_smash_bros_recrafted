@@ -6,3 +6,4 @@ data modify entity @e[tag=modifyEntity,limit=1] Owner set from entity @s UUID
 tag @e[tag=modifyEntity,limit=1] remove modifyEntity
 
 scoreboard players set @s cooldown.2 9999
+scoreboard players set @s cooldown.3 1
