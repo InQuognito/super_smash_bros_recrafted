@@ -59,10 +59,6 @@ give @s[tag=link] minecraft:spectral_arrow 5
 clear @s[tag=megaman] minecraft:lingering_potion{blackHoleGrenade:1} 1
 loot replace entity @s[tag=megaman] hotbar.2 loot ssbrc:characters/mega_man/megaman/black_hole_grenade
 
-# Ness
-clear @s[tag=ness] minecraft:splash_potion{pkFlash:1}
-loot replace entity @s[tag=ness] hotbar.2 loot ssbrc:characters/earthbound/ness/pk_flash
-
 # Pikachu
 scoreboard players set @s[tag=pikachu] charge.1 5
 
