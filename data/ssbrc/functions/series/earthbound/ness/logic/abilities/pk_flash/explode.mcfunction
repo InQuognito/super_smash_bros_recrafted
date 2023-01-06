@@ -1,4 +1,7 @@
-tag @s add exploded
+particle minecraft:flash ~ ~ ~ 0.0 0.0 0.0 0.0 1 normal @a
+particle minecraft:explosion ~ ~ ~ 0.0 0.0 0.0 0.0 1 normal @a
+particle minecraft:composter ~ ~ ~ 1.0 1.0 1.0 0.0 100 normal @a
 
-data modify entity @s Age set value 0
-data modify entity @s Duration set value 40
+playsound minecraft:entity.generic.explode player @a
+
+tag @e[predicate=ssbrc:flag/targets,distance=..2] add damage.pkFlash
