@@ -1,7 +1,7 @@
 execute positioned 0.0 0.0 0.0 run summon minecraft:marker ^ ^ ^ {Tags:["direction"]}
 data modify entity @e[tag=direction,limit=1] Rotation[0] set from entity @s Rotation[0]
 data modify entity @e[tag=direction,limit=1] Rotation[1] set value -45.0f
-teleport @e[tag=direction,limit=1] ^ ^ ^1.5
+execute as @e[tag=direction,limit=1] at @s run teleport @s ^ ^ ^1.5
 
 execute rotated as @s positioned ~ ~1 ~ run summon minecraft:armor_stand ^ ^ ^1 {Tags:["throwingAnchor","modifyEntity"],Small:1b}
 
