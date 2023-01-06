@@ -95,7 +95,7 @@
 								},
 								{
 									"text": "Plasma Beam",
-									"color": "red",
+									"color": "dark_red",
 									"bold": true,
 									"italic": false,
 									"extra": [

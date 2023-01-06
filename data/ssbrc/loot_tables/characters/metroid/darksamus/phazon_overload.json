@@ -23,7 +23,7 @@
 							"entity": "this",
 							"lore": [
 								{
-									"text": "-----------",
+									"text": "----------------",
 									"color": "gray",
 									"bold": false,
 									"italic": false
@@ -76,7 +76,7 @@
 									"italic": false,
 									"extra": [
 										{
-											"text": "Each shot fires poisons you",
+											"text": "Each shot fired poisons you",
 											"color": "gray",
 											"bold": false,
 											"italic": false
