@@ -48,12 +48,18 @@
 											"italic": false
 										},
 										{
-											"text": "] to cleanse yourself and teammates of all negative effects for a brief period",
+											"text": "] to cleanse and prevent negative effects for a brief period",
 											"color": "gray",
 											"bold": false,
 											"italic": false
 										}
 									]
+								},
+								{
+									"text": "- Effect works on teammates",
+									"color": "gray",
+									"bold": false,
+									"italic": false
 								}
 							],
 							"replace": true

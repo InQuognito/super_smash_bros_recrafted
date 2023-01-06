@@ -19,6 +19,58 @@
 							}
 						},
 						{
+							"function": "minecraft:set_lore",
+							"entity": "this",
+							"lore": [
+								{
+									"text": "-------------",
+									"color": "gray",
+									"bold": false,
+									"italic": false
+								},
+								{
+									"text": "Utility Ability",
+									"color": "white",
+									"bold": false,
+									"italic": false,
+									"underlined": true
+								},
+								{
+									"text": "- [",
+									"color": "gray",
+									"bold": false,
+									"italic": false,
+									"extra": [
+										{
+											"keybind": "key.use",
+											"color": "gray",
+											"bold": false,
+											"italic": false
+										},
+										{
+											"text": "] to activate Destiny Bond",
+											"color": "gray",
+											"bold": false,
+											"italic": false
+										}
+									]
+								},
+								{
+									"text": "- For a short period, dying kills your opponent",
+									"color": "gray",
+									"bold": false,
+									"italic": false
+								},
+								{
+									"text": "- Leaves you vulnerable for a few seconds",
+									"color": "gray",
+									"bold": false,
+									"italic": false
+								}
+							],
+							"replace": true
+						},
+						{
 							"function": "minecraft:set_attributes",
 							"modifiers": [
 								{

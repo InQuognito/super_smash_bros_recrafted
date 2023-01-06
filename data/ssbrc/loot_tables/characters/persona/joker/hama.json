@@ -48,12 +48,18 @@
 											"italic": false
 										},
 										{
-											"text": "] to fire a sigil of light that kills all enemies within the radius after 5 seconds",
+											"text": "] to fire a sigil of light",
 											"color": "gray",
 											"bold": false,
 											"italic": false
 										}
 									]
+								},
+								{
+									"text": "- Kills all enemies within the radius after 5 seconds",
+									"color": "gray",
+									"bold": false,
+									"italic": false
 								}
 							],
 							"replace": true

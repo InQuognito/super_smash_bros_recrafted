@@ -48,12 +48,18 @@
 											"italic": false
 										},
 										{
-											"text": "] to fire a projectile at a downward angle, lingering on surfaces and dealing damage",
+											"text": "] to fire a projectile at a downward angle",
 											"color": "gray",
 											"bold": false,
 											"italic": false
 										}
 									]
+								},
+								{
+									"text": "- Lingers on surfaces and deals damage over time",
+									"color": "gray",
+									"bold": false,
+									"italic": false
 								}
 							],
 							"replace": true

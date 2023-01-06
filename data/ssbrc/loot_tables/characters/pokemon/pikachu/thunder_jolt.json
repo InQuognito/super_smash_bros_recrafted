@@ -19,6 +19,58 @@
 							}
 						},
 						{
+							"function": "minecraft:set_lore",
+							"entity": "this",
+							"lore": [
+								{
+									"text": "-------------",
+									"color": "gray",
+									"bold": false,
+									"italic": false
+								},
+								{
+									"text": "Ranged Weapon",
+									"color": "white",
+									"bold": false,
+									"italic": false,
+									"underlined": true
+								},
+								{
+									"text": "- [",
+									"color": "gray",
+									"bold": false,
+									"italic": false,
+									"extra": [
+										{
+											"keybind": "key.use",
+											"color": "gray",
+											"bold": false,
+											"italic": false
+										},
+										{
+											"text": "] to fire a bouncing projectile",
+											"color": "gray",
+											"bold": false,
+											"italic": false
+										}
+									]
+								},
+								{
+									"text": "- Can travel up walls",
+									"color": "gray",
+									"bold": false,
+									"italic": false
+								},
+								{
+									"text": "- Only two can be active at a time",
+									"color": "gray",
+									"bold": false,
+									"italic": false
+								}
+							],
+							"replace": true
+						},
+						{
 							"function": "minecraft:set_attributes",
 							"modifiers": [
 								{
