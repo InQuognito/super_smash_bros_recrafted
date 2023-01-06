@@ -15,7 +15,15 @@
 								"text": "PK Flash",
 								"color": "green",
 								"bold": true,
-								"italic": false
+								"italic": false,
+								"extra": [
+									{
+										"text": "β",
+										"color": "green",
+										"bold": false,
+										"italic": false
+									}
+								]
 							}
 						},
 						{
@@ -62,26 +70,6 @@
 									"italic": false,
 									"extra": [
 										{
-											"keybind": "key.use",
-											"color": "gray",
-											"bold": false,
-											"italic": false
-										},
-										{
-											"text": "] while active to detonate early",
-											"color": "gray",
-											"bold": false,
-											"italic": false
-										}
-									]
-								},
-								{
-									"text": " - [",
-									"color": "gray",
-									"bold": false,
-									"italic": false,
-									"extra": [
-										{
 											"keybind": "key.sneak",
 											"color": "gray",
 											"bold": false,
@@ -100,6 +88,26 @@
 									"color": "gray",
 									"bold": false,
 									"italic": false
+								},
+								{
+									"text": "  - [",
+									"color": "gray",
+									"bold": false,
+									"italic": false,
+									"extra": [
+										{
+											"keybind": "key.use",
+											"color": "gray",
+											"bold": false,
+											"italic": false
+										},
+										{
+											"text": "] while active to detonate early",
+											"color": "gray",
+											"bold": false,
+											"italic": false
+										}
+									]
 								}
 							],
 							"replace": true
