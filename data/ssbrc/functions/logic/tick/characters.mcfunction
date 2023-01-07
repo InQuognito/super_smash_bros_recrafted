@@ -72,6 +72,9 @@ execute if score @s frostbiteTimer matches 1.. at @s run function ssbrc:logic/ch
 
 execute at @s if entity @e[type=minecraft:marker,tag=electricTerrain,distance=..12] if block ~ ~ ~ minecraft:water run tag @s add damage.electrocution
 
+scoreboard players add @s[tag=immobile.pkFlash] timer.pkFlash 1
+execute if score @s timer.pkFlash matches 40.. run function ssbrc:series/earthbound/ness/logic/abilities/pk_flash/damage/mobilize
+
 scoreboard players add @s[tag=armorBreak] armorBreak 1
 execute if score @s armorBreak matches 60.. run function ssbrc:series/pokemon/pokemontrainer/logic/charizard/rock_smash/deactivate
 
