@@ -4,7 +4,7 @@
 	"predicate": {
 		"effects": {
 			"minecraft:levitation": {
-				"amplifier": 128
+				"amplifier": 130
 			}
 		}
 	}
