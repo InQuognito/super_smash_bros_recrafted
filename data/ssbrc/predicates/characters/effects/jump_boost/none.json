@@ -8,23 +8,14 @@
 				"predicate": {
 					"nbt": "{Tags:[\"cloud\",\"punisher\"]}"
 				}
-			}
-		]
-	},
-	{
-		"condition": "minecraft:inverted",
-		"term": {
-			"condition": "minecraft:entity_properties",
-			"entity": "this",
-			"predicate": {
-				"stepping_on": {
-					"block": {
-						"blocks": [
-							"minecraft:cyan_carpet"
-						]
-					}
+			},
+			{
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"nbt": "{Tags:[\"quicksand\"]}"
 				}
 			}
-		}
+		]
 	}
 ]
