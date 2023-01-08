@@ -1,3 +1,4 @@
+execute if entity @a[tag=kingkrool] run function ssbrc:logic/tick/damage/donkey_kong/kingkrool
 execute if entity @a[tag=hero] run function ssbrc:logic/tick/damage/dragon_quest/hero
 execute if entity @a[tag=giegue] run function ssbrc:logic/tick/damage/earthbound/giegue
 execute if entity @a[tag=ness] run function ssbrc:logic/tick/damage/earthbound/ness
