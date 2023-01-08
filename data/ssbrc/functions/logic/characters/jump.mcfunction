@@ -11,8 +11,11 @@ execute if entity @s[tag=mario] if score $sectorZ map matches 1 run function ssb
 scoreboard players reset @s[tag=luigi] charge.1
 scoreboard players reset @s[tag=mario] charge.1
 
-tag @s remove angelFeather
-execute if entity @s[tag=angelFeather] run function ssbrc:logic/characters/effects/defaults/jump_boost
+execute if entity @s[tag=angelFeather] run effect give @s minecraft:slow_falling 4 255 true
+execute if entity @s[tag=angelFeather] run tag @s add angelFeather.used
+execute if entity @s[tag=angelFeather.used] run tag @s remove angelFeather
+execute if entity @s[tag=angelFeather.used] run function ssbrc:logic/characters/effects/defaults/jump_boost
+tag @s remove angelFeather.used
 
 scoreboard players reset @s cementShoes
 
