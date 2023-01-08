@@ -35,8 +35,6 @@ function ssbrc:logic/tick/maps
 
 function ssbrc:logic/tick/damage
 
-scoreboard players reset @a useAbility
-
 # Banned From Having More Than One
 execute as @a[predicate=ssbrc:characters/kits/trident] run function ssbrc:logic/characters/restore_items/trident_count
 

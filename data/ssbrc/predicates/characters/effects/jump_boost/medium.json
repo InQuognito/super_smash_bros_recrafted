@@ -21,6 +21,13 @@
 					{
 						"condition": "minecraft:reference",
 						"name": "ssbrc:characters/effects/jump_boost/super"
+					},
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"nbt": "{Tags:[\"angelFeather\"]}"
+						}
 					}
 				]
 			}

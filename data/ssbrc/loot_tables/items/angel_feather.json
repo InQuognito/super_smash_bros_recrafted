@@ -6,14 +6,14 @@
 			"entries": [
 				{
 					"type": "minecraft:item",
-					"name": "minecraft:carrot_on_a_stick",
+					"name": "minecraft:warped_fungus_on_a_stick",
 					"functions": [
 						{
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"text": "Hyper Voice",
-								"color": "light_purple",
+								"text": "Angel Feather",
+								"color": "aqua",
 								"bold": true,
 								"italic": false
 							}
@@ -23,13 +23,13 @@
 							"entity": "this",
 							"lore": [
 								{
-									"text": "------------",
+									"text": "--------------",
 									"color": "gray",
 									"bold": false,
 									"italic": false
 								},
 								{
-									"text": "Ranged Weapon",
+									"text": "Activation Item",
 									"color": "white",
 									"bold": false,
 									"italic": false,
@@ -48,7 +48,7 @@
 											"italic": false
 										},
 										{
-											"text": "] to fire a circle of notes",
+											"text": "] to activate",
 											"color": "gray",
 											"bold": false,
 											"italic": false
@@ -56,7 +56,13 @@
 									]
 								},
 								{
-									"text": "- Can only be aimed horizontally",
+									"text": "- Drastically increases jump height and grants slow falling",
+									"color": "gray",
+									"bold": false,
+									"italic": false
+								},
+								{
+									"text": "- Lasts for a single jump",
 									"color": "gray",
 									"bold": false,
 									"italic": false
@@ -85,7 +91,7 @@
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{hyperVoice:1,CustomModelData:581,Unbreakable:1,HideFlags:127}"
+							"tag": "{angelFeather:1,CustomModelData:2,Unbreakable:1,HideFlags:127}"
 						}
 					]
 				}

@@ -6,7 +6,6 @@ execute as @e[tag=ghost] run function ssbrc:maps/p/pac_maze/logic/ghosts/tick
 execute as @e[tag=pacMaze.dot] at @s if entity @p[predicate=ssbrc:flag/player,distance=..0.75] run function ssbrc:maps/p/pac_maze/logic/dots/pickup
 execute as @e[tag=pacMaze.pellet] at @s if entity @p[predicate=ssbrc:flag/player,distance=..1.0] run function ssbrc:maps/p/pac_maze/logic/pellets/pickup
 execute as @e[tag=pacMaze.fruit] at @s run function ssbrc:maps/p/pac_maze/logic/fruit/tick
-execute as @a[scores={useAbility=1..},nbt={SelectedItem:{tag:{powerPellet:1}}}] run function ssbrc:maps/p/pac_maze/logic/pellets/use
 
 execute if score $dotGroup.total temp matches 4.. run function ssbrc:maps/p/pac_maze/logic/pellets/spawn
 
