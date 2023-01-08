@@ -33,12 +33,18 @@
 			}
 		},
 		{
-			"condition": "minecraft:location_check",
-			"predicate": {
-				"block": {
-					"blocks": [
-						"minecraft:cyan_carpet"
-					]
+			"condition": "minecraft:inverted",
+			"term": {
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"stepping_on": {
+						"block": {
+							"blocks": [
+								"minecraft:cyan_carpet"
+							]
+						}
+					}
 				}
 			}
 		}
