@@ -97,8 +97,8 @@ execute at @s if block ~ ~ ~ minecraft:lava run scoreboard players add @s flag.i
 execute if score @s flag.inLava matches 60.. run kill @s
 scoreboard players reset @s[scores={flag.inLava=60..}] flag.inLava
 
-execute if score $sandOcean map matches 1 if score $hazards options matches 1 unless score $sectorZ map matches 1 run function ssbrc:logic/characters/effects/defaults/jump_boost
-execute if score $sandOcean map matches 1 if score $hazards options matches 1 if score $sectorZ map matches 1 run function ssbrc:maps/s/sector_z/logic/effects
+execute if score $sandOcean map matches 1 if score $hazards options matches 1 at @s if block ~ ~-0.1 ~ minecraft:cyan_carpet run effect give @s minecraft:levitation 1 128 true
+execute if score $sandOcean map matches 1 if score $hazards options matches 1 at @s unless block ~ ~-0.1 ~ minecraft:cyan_carpet run effect clear @s[predicate=ssbrc:characters/effects/has/levitation/128] minecraft:levitation
 
 # Bonuses
 scoreboard players reset @s[scores={stiffKnees=1..},predicate=ssbrc:flag/sneaking] stiffKnees
