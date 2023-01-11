@@ -55,6 +55,7 @@ scoreboard players remove @s[scores={snake.antiPersonnelMineF=1..}] snake.antiPe
 scoreboard players remove @s[scores={snake.smokeGrenadeF=1..}] snake.smokeGrenadeF 1
 
 # PSG-1
+execute if entity @s[nbt={SelectedItem:{tag:{psg1:1}}},predicate=!ssbrc:flag/sneaking] run effect clear @s minecraft:slowness
 execute if entity @s[nbt={SelectedItem:{tag:{psg1:1}}},predicate=ssbrc:flag/sneaking] run effect give @s minecraft:slowness 1 255 true
 
 # Smoke Grenade
