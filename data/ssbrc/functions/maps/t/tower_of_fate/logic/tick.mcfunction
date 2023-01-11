@@ -42,7 +42,7 @@ execute if score #towerOfFateDestroyedTimer temp matches 400 if score #towerOfFa
 execute if score #towerOfFateDestroyedTimer temp matches 401.. run scoreboard players reset #towerOfFateDestroyedTimer temp
 
 # Clockwork Tower
-execute if score $towerOfFateClockworkTower temp matches 1 run kill @e[predicate=ssbrc:flag/targets,x=5996.5,y=9.0,z=496.5,dx=8,dy=0,dz=8]
+execute if score $towerOfFateClockworkTower temp matches 1 run kill @e[predicate=ssbrc:flag/targets,x=5996.0,y=9.0,z=496.0,dx=8,dy=0,dz=8]
 
 # Explodatorium
 execute if score $towerOfFateExplodatorium temp matches 1 as @a[predicate=ssbrc:flag/player] at @s run function ssbrc:maps/t/tower_of_fate/logic/lower_towers/explodatorium/mark_block
