@@ -1,6 +1,6 @@
 tag @e[predicate=ssbrc:flag/targets,distance=..3] add damage.antiPersonnelMine
 
-particle minecraft:explosion ~ ~1 ~ 0.0 0.0 0.0 1 1 normal @a
+particle minecraft:explosion ~ ~1 ~ 0.0 0.0 0.0 0.0 1 normal @a
 playsound entity.generic.explode player @a ~ ~0.75 ~
 
 kill @s

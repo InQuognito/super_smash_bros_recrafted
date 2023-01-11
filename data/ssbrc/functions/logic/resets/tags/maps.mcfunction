@@ -39,3 +39,5 @@ tag @s remove random
 
 # Misc
 tag @s remove quicksand
+
+tag @s remove damage.swirl
