@@ -29,7 +29,7 @@
 									"italic": false
 								},
 								{
-									"text": "Defensive Ability",
+									"text": "Defensive Spell",
 									"color": "white",
 									"bold": false,
 									"italic": false,
@@ -48,7 +48,7 @@
 											"italic": false
 										},
 										{
-											"text": "] to temporarily turn into metal, becoming invulnerable and immobile",
+											"text": "] to become invulnerable and immobile briefly",
 											"color": "gray",
 											"bold": false,
 											"italic": false

@@ -37,7 +37,7 @@
 									"italic": false
 								},
 								{
-									"text": "Ranged Weapon",
+									"text": "Offensive Ability",
 									"color": "white",
 									"bold": false,
 									"italic": false,
@@ -56,12 +56,18 @@
 											"italic": false
 										},
 										{
-											"text": "] to shoot an ice projectile that splits into two",
+											"text": "] to shoot an ice projectile",
 											"color": "gray",
 											"bold": false,
 											"italic": false
 										}
 									]
+								},
+								{
+									"text": "- Splits in two upon hitting the opponent",
+									"color": "gray",
+									"bold": false,
+									"italic": false
 								}
 							],
 							"replace": true

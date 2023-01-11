@@ -29,7 +29,7 @@
 									"italic": false
 								},
 								{
-									"text": "Ranged Weapon",
+									"text": "Throwing Weapon",
 									"color": "white",
 									"bold": false,
 									"italic": false,
@@ -48,12 +48,18 @@
 											"italic": false
 										},
 										{
-											"text": "] to throw a vial of holy water that leaves a pool of flames on the ground",
+											"text": "] to throw a vial of holy water",
 											"color": "gray",
 											"bold": false,
 											"italic": false
 										}
 									]
+								},
+								{
+									"text": "- Bursts into a pool of flames",
+									"color": "gray",
+									"bold": false,
+									"italic": false
 								},
 								{
 									"text": " - Inflicts burning on the opponent",

@@ -37,7 +37,7 @@
 									"italic": false
 								},
 								{
-									"text": "Ranged Weapon",
+									"text": "Offensive Ability",
 									"color": "white",
 									"bold": false,
 									"italic": false,
@@ -56,7 +56,7 @@
 											"italic": false
 										},
 										{
-											"text": "] to charge up a devastating laser",
+											"text": "] to charge up a devastating beam",
 											"color": "gray",
 											"bold": false,
 											"italic": false

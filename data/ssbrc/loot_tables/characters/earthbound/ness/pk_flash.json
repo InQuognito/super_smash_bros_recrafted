@@ -31,13 +31,13 @@
 							"entity": "this",
 							"lore": [
 								{
-									"text": "---------",
+									"text": "-----------",
 									"color": "gray",
 									"bold": false,
 									"italic": false
 								},
 								{
-									"text": "Ranged Weapon",
+									"text": "Offensive Ability",
 									"color": "white",
 									"bold": false,
 									"italic": false,
@@ -90,7 +90,7 @@
 									"italic": false
 								},
 								{
-									"text": "  - [",
+									"text": " - [",
 									"color": "gray",
 									"bold": false,
 									"italic": false,

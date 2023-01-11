@@ -31,17 +31,43 @@
 							"entity": "this",
 							"lore": [
 								{
-									"text": "----------",
+									"text": "---------",
 									"color": "gray",
 									"bold": false,
 									"italic": false
 								},
 								{
-									"text": "Ranged Weapon",
+									"text": "Offensive Ability",
 									"color": "white",
 									"bold": false,
 									"italic": false,
 									"underlined": true
+								},
+								{
+									"text": "- [",
+									"color": "gray",
+									"bold": false,
+									"italic": false,
+									"extra": [
+										{
+											"keybind": "key.use",
+											"color": "gray",
+											"bold": false,
+											"italic": false
+										},
+										{
+											"text": "] to shoot a bolt of fire at a downward angle",
+											"color": "gray",
+											"bold": false,
+											"italic": false
+										}
+									]
+								},
+								{
+									"text": "- Erupts into a pillar of flame",
+									"color": "gray",
+									"bold": false,
+									"italic": false
 								},
 								{
 									"text": "- Inflicts opponents with burning",

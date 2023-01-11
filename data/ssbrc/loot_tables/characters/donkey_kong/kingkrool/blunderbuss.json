@@ -56,12 +56,6 @@
 									]
 								},
 								{
-									"text": "- Ignores gravity briefly",
-									"color": "gray",
-									"bold": false,
-									"italic": false
-								},
-								{
 									"text": "- Creates a shockwave upon hitting the ground",
 									"color": "gray",
 									"bold": false,

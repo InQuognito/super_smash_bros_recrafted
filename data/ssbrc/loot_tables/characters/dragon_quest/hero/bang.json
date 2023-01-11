@@ -29,7 +29,7 @@
 									"italic": false
 								},
 								{
-									"text": "Offensive Ability",
+									"text": "Projectile Spell",
 									"color": "white",
 									"bold": false,
 									"italic": false,
@@ -48,7 +48,7 @@
 											"italic": false
 										},
 										{
-											"text": "] to shoot a fireball that explodes on contact",
+											"text": "] to shoot an explosive charge",
 											"color": "gray",
 											"bold": false,
 											"italic": false
