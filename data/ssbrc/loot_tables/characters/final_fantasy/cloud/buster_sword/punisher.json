@@ -23,7 +23,7 @@
 							"entity": "this",
 							"lore": [
 								{
-									"text": "--------------------",
+									"text": "--------------",
 									"color": "gray",
 									"bold": false,
 									"italic": false
@@ -36,24 +36,10 @@
 									"underlined": true
 								},
 								{
-									"text": "- [",
+									"text": "- Limit Break: Cross Slash",
 									"color": "gray",
 									"bold": false,
-									"italic": false,
-									"extra": [
-										{
-											"keybind": "key.use",
-											"color": "gray",
-											"bold": false,
-											"italic": false
-										},
-										{
-											"text": "] during Limit Break to use Cross Slash",
-											"color": "gray",
-											"bold": false,
-											"italic": false
-										}
-									]
+									"italic": false
 								},
 								{
 									"text": " - Point-blank attack",

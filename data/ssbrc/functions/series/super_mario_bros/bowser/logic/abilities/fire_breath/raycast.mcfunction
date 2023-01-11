@@ -7,7 +7,8 @@ execute if score @s bowser.fireBreath matches 81..100 run particle minecraft:fla
 
 scoreboard players set @s bowser.fireBreath.target 0
 tag @s add self
-execute at @s anchored eyes as @e[predicate=ssbrc:flag/targets,distance=..15] facing entity @s eyes anchored feet positioned ^ ^ ^-1 rotated as @a[tag=self,limit=1] positioned ^ ^ ^1 if entity @a[tag=self,limit=1,distance=..0.1] facing entity @s feet run function ssbrc:series/super_mario_bros/bowser/logic/abilities/fire_breath/target/start
+#execute at @s anchored eyes as @e[predicate=ssbrc:flag/targets,distance=..15] facing entity @s eyes anchored feet positioned ^ ^ ^-1 rotated as @a[tag=self,limit=1] positioned ^ ^ ^1 if entity @a[tag=self,limit=1,distance=..0.1] facing entity @s feet run function ssbrc:series/super_mario_bros/bowser/logic/abilities/fire_breath/target/start
+tag @a[tag=!self,predicate=ssbrc:flag/targets,distance=..1] add damage.fireBreath
 tag @s remove self
 
 scoreboard players add @s bowser.fireBreath 1

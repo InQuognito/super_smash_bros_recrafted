@@ -23,7 +23,7 @@
 							"entity": "this",
 							"lore": [
 								{
-									"text": "--------------",
+									"text": "-------------",
 									"color": "gray",
 									"bold": false,
 									"italic": false
@@ -36,7 +36,7 @@
 									"underlined": true
 								},
 								{
-									"text": "- Inflicts burning on the opponent",
+									"text": "- Lights the opponent on fire",
 									"color": "gray",
 									"bold": false,
 									"italic": false

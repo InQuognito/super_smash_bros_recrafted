@@ -56,13 +56,7 @@
 									]
 								},
 								{
-									"text": "- Bounces off of walls",
-									"color": "gray",
-									"bold": false,
-									"italic": false
-								},
-								{
-									"text": " - Picks up speed upon bounce",
+									"text": "- Bounces and picks up speed upon hitting a wall",
 									"color": "gray",
 									"bold": false,
 									"italic": false
