@@ -73,6 +73,9 @@ summon minecraft:glow_item_frame -3.5 11.0 19.5 {Tags:["mapIcon"],Fixed:1b,Invis
 # Palutena's Temple
 summon minecraft:area_effect_cloud 7.5 11.0 28.5 {Age:-2147483648,Duration:-1,WaitTime:-2147483648,Tags:["voteCounter","palutenasTemple"],CustomNameVisible:1b}
 summon minecraft:glow_item_frame 7.5 11.0 28.5 {Tags:["mapIcon"],Fixed:1b,Invisible:1b,Facing:2b,Item:{id:"minecraft:sugar",tag:{CustomModelData:250},Count:1b}}
+# Planet Epp
+summon minecraft:area_effect_cloud 10.5 11.0 19.5 {Age:-2147483648,Duration:-1,WaitTime:-2147483648,Tags:["voteCounter","planetEpp"],CustomNameVisible:1b}
+summon minecraft:glow_item_frame 10.5 11.0 19.5 {Tags:["mapIcon"],Fixed:1b,Invisible:1b,Facing:4b,Item:{id:"minecraft:sugar",tag:{CustomModelData:1850},Count:1b}}
 # Planet Zebes
 summon minecraft:area_effect_cloud -0.5 11.0 28.5 {Age:-2147483648,Duration:-1,WaitTime:-2147483648,Tags:["voteCounter","planetZebes"],CustomNameVisible:1b}
 summon minecraft:glow_item_frame -0.5 11.0 28.5 {Tags:["mapIcon"],Fixed:1b,Invisible:1b,Facing:2b,Item:{id:"minecraft:sugar",tag:{CustomModelData:1400},Count:1b}}
@@ -103,9 +106,6 @@ summon minecraft:glow_item_frame 10.5 11.0 21.5 {Tags:["mapIcon"],Fixed:1b,Invis
 # Wily Castle
 summon minecraft:area_effect_cloud -3.5 5.0 21.5 {Age:-2147483648,Duration:-1,WaitTime:-2147483648,Tags:["voteCounter","wilyCastle"],CustomNameVisible:1b}
 summon minecraft:glow_item_frame -3.5 5.0 21.5 {Tags:["mapIcon"],Fixed:1b,Invisible:1b,Facing:5b,Item:{id:"minecraft:sugar",tag:{CustomModelData:1800},Count:1b}}
-# Yars' Revenge
-summon minecraft:area_effect_cloud 10.5 11.0 19.5 {Age:-2147483648,Duration:-1,WaitTime:-2147483648,Tags:["voteCounter","planetEpp"],CustomNameVisible:1b}
-summon minecraft:glow_item_frame 10.5 11.0 19.5 {Tags:["mapIcon"],Fixed:1b,Invisible:1b,Facing:4b,Item:{id:"minecraft:sugar",tag:{CustomModelData:1850},Count:1b}}
 # Random
 summon minecraft:area_effect_cloud 10.5 5.0 23.5 {Age:-2147483648,Duration:-1,WaitTime:-2147483648,Tags:["voteCounter","random"],CustomNameVisible:1b}
 summon minecraft:glow_item_frame 10.5 5.0 23.5 {Tags:["mapIcon"],Fixed:1b,Invisible:1b,Facing:4b,Item:{id:"minecraft:sugar",tag:{CustomModelData:1201},Count:1b}}
