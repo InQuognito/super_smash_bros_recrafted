@@ -13,6 +13,10 @@ team remove spectator
 team remove temp
 team remove waiting
 
+team remove aqua
+team remove darkGray
+team remove gold
+team remove gray
 team remove yellow
 
 team add team1
@@ -30,6 +34,10 @@ team add spectator
 team add temp
 team add waiting
 
+team add aqua
+team add darkGray
+team add gold
+team add gray
 team add yellow
 
 execute if score $teams options matches 0 run team modify team1 color green
@@ -193,6 +201,46 @@ team modify waiting nametagVisibility never
 team modify waiting prefix ""
 team modify waiting seeFriendlyInvisibles true
 team modify waiting suffix " ⌛"
+
+team modify aqua color aqua
+team modify aqua collisionRule never
+team modify aqua deathMessageVisibility never
+team modify aqua displayName "Yellow"
+team modify aqua friendlyFire true
+team modify aqua nametagVisibility never
+team modify aqua prefix ""
+team modify aqua seeFriendlyInvisibles false
+team modify aqua suffix ""
+
+team modify darkGray color dark_gray
+team modify darkGray collisionRule never
+team modify darkGray deathMessageVisibility never
+team modify darkGray displayName "Yellow"
+team modify darkGray friendlyFire true
+team modify darkGray nametagVisibility never
+team modify darkGray prefix ""
+team modify darkGray seeFriendlyInvisibles false
+team modify darkGray suffix ""
+
+team modify gold color gold
+team modify gold collisionRule never
+team modify gold deathMessageVisibility never
+team modify gold displayName "Yellow"
+team modify gold friendlyFire true
+team modify gold nametagVisibility never
+team modify gold prefix ""
+team modify gold seeFriendlyInvisibles false
+team modify gold suffix ""
+
+team modify gray color gray
+team modify gray collisionRule never
+team modify gray deathMessageVisibility never
+team modify gray displayName "Yellow"
+team modify gray friendlyFire true
+team modify gray nametagVisibility never
+team modify gray prefix ""
+team modify gray seeFriendlyInvisibles false
+team modify gray suffix ""
 
 team modify yellow color yellow
 team modify yellow collisionRule never
