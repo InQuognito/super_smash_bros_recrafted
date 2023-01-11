@@ -1,8 +1,7 @@
-scoreboard players set max random 3
-function ssbrc:math/rng/lcg
+summon minecraft:area_effect_cloud ^ ^ ^ {Tags:["swirl","modifyEntity"],Duration:600}
 
-execute if score result random matches 0 facing entity @r[predicate=ssbrc:flag/player] feet run summon minecraft:area_effect_cloud ^ ^ ^ {Tags:["swirl"],Duration:600}
-execute if score result random matches 1 if entity @e[type=minecraft:marker,tag=collision.left,sort=nearest,limit=1] facing entity @e[type=minecraft:marker,tag=collision.left,sort=nearest,limit=1] feet run summon minecraft:area_effect_cloud ^ ^ ^ {Tags:["swirl"],Duration:600}
-execute if score result random matches 2 if entity @e[type=minecraft:marker,tag=collision.right,sort=nearest,limit=1] facing entity @e[type=minecraft:marker,tag=collision.right,sort=nearest,limit=1] feet run summon minecraft:area_effect_cloud ^ ^ ^ {Tags:["swirl"],Duration:600}
+execute as @e[tag=modifyEntity,limit=1] at @s run function ssbrc:maps/p/planet_epp/logic/hazards/qotile_zone/swirl/orient/check
+
+tag @e[tag=modifyEntity,limit=1] remove modifyEntity
 
 execute unless entity @e[type=minecraft:area_effect_cloud,tag=swirl,sort=nearest,limit=1] run function ssbrc:maps/p/planet_epp/logic/hazards/qotile_zone/swirl/activate
