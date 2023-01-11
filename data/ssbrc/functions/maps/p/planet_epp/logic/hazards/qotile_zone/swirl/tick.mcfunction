@@ -6,5 +6,5 @@ execute unless block ^ ^ ^0.5 #ssbrc:passthrough unless block ^ ^ ^0.5 minecraft
 
 execute positioned ~-0.15 ~-0.15 ~-0.15 as @e[predicate=ssbrc:flag/targets,dx=0] positioned ~-0.7 ~-0.7 ~-0.7 if entity @s[dx=0] run function ssbrc:maps/p/planet_epp/logic/hazards/qotile_zone/swirl/explode
 
-execute if entity @e[type=minecraft:marker,tag=collision.left,distance=..1] run function ssbrc:maps/p/planet_epp/logic/hazards/qotile_zone/swirl/explode
-execute if entity @e[type=minecraft:marker,tag=collision.right,distance=..1] run function ssbrc:maps/p/planet_epp/logic/hazards/qotile_zone/swirl/explode
+execute if entity @e[type=minecraft:marker,tag=collision.left,distance=..1] run function ssbrc:maps/p/planet_epp/logic/hazards/qotile_zone/mountains/left
+execute if entity @e[type=minecraft:marker,tag=collision.right,distance=..1] run function ssbrc:maps/p/planet_epp/logic/hazards/qotile_zone/mountains/right
