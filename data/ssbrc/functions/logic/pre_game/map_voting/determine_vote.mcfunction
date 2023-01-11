@@ -14,6 +14,7 @@ execute as @e[type=minecraft:area_effect_cloud,tag=voteCounter,sort=nearest,limi
 execute as @e[type=minecraft:area_effect_cloud,tag=voteCounter,sort=nearest,limit=1] if entity @s[tag=hyruleCastle] as @p[tag=self] run function ssbrc:maps/h/hyrule_castle/vote
 execute as @e[type=minecraft:area_effect_cloud,tag=voteCounter,sort=nearest,limit=1] if entity @s[tag=icicleMountain] as @p[tag=self] run function ssbrc:maps/i/icicle_mountain/vote
 execute as @e[type=minecraft:area_effect_cloud,tag=voteCounter,sort=nearest,limit=1] if entity @s[tag=jungleJapes] as @p[tag=self] run function ssbrc:maps/j/jungle_japes/vote
+execute as @e[type=minecraft:area_effect_cloud,tag=voteCounter,sort=nearest,limit=1] if entity @s[tag=lakeOfRage] as @p[tag=self] run function ssbrc:maps/l/lake_of_rage/vote
 execute as @e[type=minecraft:area_effect_cloud,tag=voteCounter,sort=nearest,limit=1] if entity @s[tag=luigisMansion] as @p[tag=self] run function ssbrc:maps/l/luigis_mansion/vote
 execute as @e[type=minecraft:area_effect_cloud,tag=voteCounter,sort=nearest,limit=1] if entity @s[tag=magicant] as @p[tag=self] run function ssbrc:maps/m/magicant/vote
 execute as @e[type=minecraft:area_effect_cloud,tag=voteCounter,sort=nearest,limit=1] if entity @s[tag=mementos] as @p[tag=self] run function ssbrc:maps/m/mementos/vote
@@ -22,6 +23,7 @@ execute as @e[type=minecraft:area_effect_cloud,tag=voteCounter,sort=nearest,limi
 execute as @e[type=minecraft:area_effect_cloud,tag=voteCounter,sort=nearest,limit=1] if entity @s[tag=pacMaze] as @p[tag=self] run function ssbrc:maps/p/pac_maze/vote
 execute as @e[type=minecraft:area_effect_cloud,tag=voteCounter,sort=nearest,limit=1] if entity @s[tag=palletTown] as @p[tag=self] run function ssbrc:maps/p/pallet_town/vote
 execute as @e[type=minecraft:area_effect_cloud,tag=voteCounter,sort=nearest,limit=1] if entity @s[tag=palutenasTemple] as @p[tag=self] run function ssbrc:maps/p/palutenas_temple/vote
+execute as @e[type=minecraft:area_effect_cloud,tag=voteCounter,sort=nearest,limit=1] if entity @s[tag=planetEpp] as @p[tag=self] run function ssbrc:maps/p/planet_epp/vote
 execute as @e[type=minecraft:area_effect_cloud,tag=voteCounter,sort=nearest,limit=1] if entity @s[tag=planetZebes] as @p[tag=self] run function ssbrc:maps/p/planet_zebes/vote
 execute as @e[type=minecraft:area_effect_cloud,tag=voteCounter,sort=nearest,limit=1] if entity @s[tag=pyrosphere] as @p[tag=self] run function ssbrc:maps/p/pyrosphere/vote
 execute as @e[type=minecraft:area_effect_cloud,tag=voteCounter,sort=nearest,limit=1] if entity @s[tag=sandOcean] as @p[tag=self] run function ssbrc:maps/s/sand_ocean/vote
@@ -32,6 +34,6 @@ execute as @e[type=minecraft:area_effect_cloud,tag=voteCounter,sort=nearest,limi
 execute as @e[type=minecraft:area_effect_cloud,tag=voteCounter,sort=nearest,limit=1] if entity @s[tag=suzakuCastle] as @p[tag=self] run function ssbrc:maps/s/suzaku_castle/vote
 execute as @e[type=minecraft:area_effect_cloud,tag=voteCounter,sort=nearest,limit=1] if entity @s[tag=towerOfFate] as @p[tag=self] run function ssbrc:maps/t/tower_of_fate/vote
 execute as @e[type=minecraft:area_effect_cloud,tag=voteCounter,sort=nearest,limit=1] if entity @s[tag=wilyCastle] as @p[tag=self] run function ssbrc:maps/w/wily_castle/vote
-execute as @e[type=minecraft:area_effect_cloud,tag=voteCounter,sort=nearest,limit=1] if entity @s[tag=planetEpp] as @p[tag=self] run function ssbrc:maps/y/yars_revenge/vote
+execute as @e[type=minecraft:area_effect_cloud,tag=voteCounter,sort=nearest,limit=1] if entity @s[tag=yggdrasilsAltar] as @p[tag=self] run function ssbrc:maps/y/yggdrasils_altar/vote
 
 tag @s remove self

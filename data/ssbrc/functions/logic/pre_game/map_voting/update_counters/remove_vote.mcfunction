@@ -15,6 +15,7 @@ execute if entity @s[tag=greenHillZone] run scoreboard players remove @e[tag=vot
 execute if entity @s[tag=hyruleCastle] run scoreboard players remove @e[tag=voteCounter,tag=hyruleCastle] mapVote 1
 execute if entity @s[tag=icicleMountain] run scoreboard players remove @e[tag=voteCounter,tag=icicleMountain] mapVote 1
 execute if entity @s[tag=jungleJapes] run scoreboard players remove @e[tag=voteCounter,tag=jungleJapes] mapVote 1
+execute if entity @s[tag=lakeOfRage] run scoreboard players remove @e[tag=voteCounter,tag=lakeOfRage] mapVote 1
 execute if entity @s[tag=luigisMansion] run scoreboard players remove @e[tag=voteCounter,tag=luigisMansion] mapVote 1
 execute if entity @s[tag=magicant] run scoreboard players remove @e[tag=voteCounter,tag=magicant] mapVote 1
 execute if entity @s[tag=mementos] run scoreboard players remove @e[tag=voteCounter,tag=mementos] mapVote 1
@@ -32,7 +33,8 @@ execute if entity @s[tag=spearPillar] run scoreboard players remove @e[tag=voteC
 execute if entity @s[tag=suzakuCastle] run scoreboard players remove @e[tag=voteCounter,tag=suzakuCastle] mapVote 1
 execute if entity @s[tag=towerOfFate] run scoreboard players remove @e[tag=voteCounter,tag=towerOfFate] mapVote 1
 execute if entity @s[tag=wilyCastle] run scoreboard players remove @e[tag=voteCounter,tag=wilyCastle] mapVote 1
-execute if entity @s[tag=yarsRevenge] run scoreboard players remove @e[tag=voteCounter,tag=planetEpp] mapVote 1
+execute if entity @s[tag=planetEpp] run scoreboard players remove @e[tag=voteCounter,tag=planetEpp] mapVote 1
+execute if entity @s[tag=yggdrasilsAltar] run scoreboard players remove @e[tag=voteCounter,tag=yggdrasilsAltar] mapVote 1
 
 execute if entity @s[tag=random] run scoreboard players remove @e[tag=voteCounter,tag=random] mapVote 1
 

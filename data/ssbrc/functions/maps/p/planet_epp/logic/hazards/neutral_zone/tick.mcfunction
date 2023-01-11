@@ -9,7 +9,7 @@ execute if score result random matches 4 run clone 9992 13 19821 10020 13 19833 
 execute if score result random matches 5 run clone 9992 14 19821 10020 14 19833 9969 0 19888
 
 particle minecraft:glow 9969.0 1.1 19888.0 28.0 0.0 12.0 0.0 25 normal @a
-execute as @e[predicate=ssbrc:flag/targets] at @s run function ssbrc:maps/y/yars_revenge/logic/hazards/neutral_zone/effects
+execute as @e[predicate=ssbrc:flag/targets] at @s run function ssbrc:maps/p/planet_epp/logic/hazards/neutral_zone/effects
 
 scoreboard players add #neutralZone temp 1
-execute if score #neutralZone temp matches 300.. run function ssbrc:maps/y/yars_revenge/logic/hazards/neutral_zone/deactivate
+execute if score #neutralZone temp matches 300.. run function ssbrc:maps/p/planet_epp/logic/hazards/neutral_zone/deactivate

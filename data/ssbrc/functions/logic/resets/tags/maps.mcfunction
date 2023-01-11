@@ -24,6 +24,7 @@ tag @s remove pacMaze
 tag @s remove palletTown
 tag @s remove palutenasTemple
 tag @s remove planetZebes
+tag @s remove planetEpp
 tag @s remove pyrosphere
 tag @s remove saturnValley
 tag @s remove sandOcean
@@ -33,7 +34,6 @@ tag @s remove spearPillar
 tag @s remove suzakuCastle
 tag @s remove towerOfFate
 tag @s remove wilyCastle
-tag @s remove yarsRevenge
 
 tag @s remove random
 

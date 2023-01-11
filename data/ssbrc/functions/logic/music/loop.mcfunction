@@ -273,12 +273,12 @@ execute if score $wilyCastle map matches 1 if score result_music random matches 
 execute if score $wilyCastle map matches 1 if score result_music random matches 1 if score $music options matches 0 run schedule function ssbrc:logic/music/loop_schedule 2860t replace
 execute if score $wilyCastle map matches 1 if score result_music random matches 1 if score $music options matches 1 run schedule function ssbrc:logic/music/decide 2860t replace
 
-execute if score $yarsRevenge map matches 1 if score result_music random matches 0 run playsound ssbrc:draconus music @s
-execute if score $yarsRevenge map matches 1 if score result_music random matches 0 if score $music options matches 0 run schedule function ssbrc:logic/music/loop_schedule 3000t replace
-execute if score $yarsRevenge map matches 1 if score result_music random matches 0 if score $music options matches 1 run schedule function ssbrc:logic/music/decide 3000t replace
-execute if score $yarsRevenge map matches 1 if score result_music random matches 1 run playsound ssbrc:zybex music @s
-execute if score $yarsRevenge map matches 1 if score result_music random matches 1 if score $music options matches 0 run schedule function ssbrc:logic/music/loop_schedule 1700t replace
-execute if score $yarsRevenge map matches 1 if score result_music random matches 1 if score $music options matches 1 run schedule function ssbrc:logic/music/decide 1700t replace
+execute if score $planetEpp map matches 1 if score result_music random matches 0 run playsound ssbrc:draconus music @s
+execute if score $planetEpp map matches 1 if score result_music random matches 0 if score $music options matches 0 run schedule function ssbrc:logic/music/loop_schedule 3000t replace
+execute if score $planetEpp map matches 1 if score result_music random matches 0 if score $music options matches 1 run schedule function ssbrc:logic/music/decide 3000t replace
+execute if score $planetEpp map matches 1 if score result_music random matches 1 run playsound ssbrc:zybex music @s
+execute if score $planetEpp map matches 1 if score result_music random matches 1 if score $music options matches 0 run schedule function ssbrc:logic/music/loop_schedule 1700t replace
+execute if score $planetEpp map matches 1 if score result_music random matches 1 if score $music options matches 1 run schedule function ssbrc:logic/music/decide 1700t replace
 
 execute if score $yggdrasilsAltar map matches 1 if score result_music random matches 0 run playsound ssbrc:battle_for_glory music @s
 execute if score $yggdrasilsAltar map matches 1 if score result_music random matches 0 if score $music options matches 0 run schedule function ssbrc:logic/music/loop_schedule 2480t replace

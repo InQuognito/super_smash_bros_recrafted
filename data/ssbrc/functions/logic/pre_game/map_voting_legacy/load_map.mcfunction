@@ -35,6 +35,6 @@ execute unless score #mapPicked mapVote matches 1 if entity @s[tag=spearPillar] 
 execute unless score #mapPicked mapVote matches 1 if entity @s[tag=suzakuCastle] run function ssbrc:maps/s/suzaku_castle/load
 execute unless score #mapPicked mapVote matches 1 if entity @s[tag=towerOfFate] run function ssbrc:maps/t/tower_of_fate/load
 execute unless score #mapPicked mapVote matches 1 if entity @s[tag=wilyCastle] run function ssbrc:maps/w/wily_castle/load
-execute unless score #mapPicked mapVote matches 1 if entity @s[tag=yarsRevenge] run function ssbrc:maps/y/yars_revenge/load
+execute unless score #mapPicked mapVote matches 1 if entity @s[tag=planetEpp] run function ssbrc:maps/p/planet_epp/load
 
 execute unless score #mapPicked mapVote matches 1 if entity @s[tag=random] run function ssbrc:logic/pre_game/map_voting/random
