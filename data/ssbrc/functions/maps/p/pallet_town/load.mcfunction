@@ -21,6 +21,7 @@ summon minecraft:armor_stand -551.5 17.0 -161.5 {Tags:["decorObject"],Invulnerab
 # Misty
 
 # Gary Oak
+summon minecraft:armor_stand -551.5 15.0 -158.5 {Tags:["decorObject"],Invulnerable:1b,Rotation:[25f,0f],ShowArms:1b,DisabledSlots:4144959,Pose:{RightArm:[237f,17f,316f],LeftLeg:[0f,336f,0f],LeftArm:[14f,0f,343f],RightLeg:[0f,25f,0f]},ArmorItems:[{id:"minecraft:leather_boots",Count:1b,tag:{display:{color:4737097}}},{id:"minecraft:leather_leggings",Count:1b,tag:{display:{color:13212261}}},{id:"minecraft:leather_chestplate",Count:1b,tag:{display:{color:3947837}}},{id:"minecraft:player_head",Count:1b,tag:{SkullOwner:{Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjUxZjMwYWVkN2M0ODJhNDgyZTM5NGNkZmU3ZTEwYjc2NWJjYjRkZmQxNGE5NWM0ZWZhMTZjYmFiNzZkN2EwIn19fQ=="}]},Id:[I;-1360679216,-349879360,-1554682183,580770401]}}}],NoBasePlate:1b}
 
 time set noon
 weather clear
