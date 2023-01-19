@@ -31,6 +31,7 @@ execute if entity @s[tag=spinning] at @s run function ssbrc:series/fire_emblem/b
 
 # Bows
 execute if entity @s[tag=goldenDeer,scores={charge.output=1..},nbt={SelectedItem:{tag:{braveBow:1}}}] run function ssbrc:series/fire_emblem/byleth/logic/golden_deer/brave_bow/charge
+execute if entity @s[tag=goldenDeer,scores={charge.output=1..},nbt={SelectedItem:{tag:{failnaught:1}}}] run function ssbrc:series/fire_emblem/byleth/logic/golden_deer/failnaught/charge
 
 # Passive Abilities
 scoreboard players operation #percentage temp = @s health
