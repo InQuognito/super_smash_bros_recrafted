@@ -6,8 +6,9 @@ forceload add 7023 223 6944 129
 
 summon minecraft:armor_stand 6826.5 26.5 273.5 {Rotation:[-90f,0f],Invisible:1,ArmorItems:[{},{},{},{id:"minecraft:carrot_on_a_stick",Count:1b,tag:{CustomModelData:721}}]}
 
-summon minecraft:glow_item_frame 7012.5 34.0 225.5 {Fixed:1b,Invisible:1b,Facing:1b,ItemRotation:6b,Item:{id:"minecraft:sugar",tag:{CustomModelData:801},Count:1b}}
+summon minecraft:glow_item_frame 7012.5 34.0 225.5 {Fixed:1b,Invisible:1b,Facing:2b,ItemRotation:8b,Item:{id:"minecraft:sugar",tag:{CustomModelData:801},Count:1b}}
 
+summon minecraft:glow_item_frame 6968.5 34.0 225.5 {Fixed:1b,Invisible:1b,Facing:2b,ItemRotation:8b,Item:{id:"minecraft:sugar",tag:{CustomModelData:801},Count:1b}}
 
 time set day
 weather clear
