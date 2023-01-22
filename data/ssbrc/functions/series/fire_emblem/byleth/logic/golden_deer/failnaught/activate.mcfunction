@@ -11,13 +11,13 @@ data modify entity @e[tag=modifyEntity,limit=1] Motion set from entity @e[tag=di
 tag @e[tag=modifyEntity,limit=1] remove modifyEntity
 kill @e[tag=direction]
 
-function ssbrc:logic/resets/charge
-
 scoreboard players set @s cooldown.1 10
 execute if score @s shadow.chaosControl matches 1.. run function ssbrc:logic/characters/cooldown_modifiers/chaos_control/1
+
+loot replace entity @s weapon.mainhand loot ssbrc:characters/fire_emblem/byleth/golden_deer/failnaught/idle
 
 scoreboard players add @s charge.1 1
 execute if score @s charge.output matches 80.. run scoreboard players add @s charge.1 1
 execute if score @s charge.1 matches 6.. run function ssbrc:series/fire_emblem/byleth/logic/golden_deer/failnaught/break
 
-loot replace entity @s weapon.mainhand loot ssbrc:characters/fire_emblem/byleth/golden_deer/failnaught/idle
+function ssbrc:logic/resets/charge
