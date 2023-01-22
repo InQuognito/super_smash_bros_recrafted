@@ -13,7 +13,7 @@
 							"entity": "this",
 							"name": {
 								"text": "Failnaught",
-								"color": "red",
+								"color": "yellow",
 								"bold": true,
 								"italic": false
 							}
