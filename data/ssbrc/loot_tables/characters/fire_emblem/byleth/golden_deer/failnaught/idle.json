@@ -70,14 +70,6 @@
 							]
 						},
 						{
-							"function": "minecraft:set_enchantments",
-							"enchantments": {
-								"minecraft:power": 1,
-								"minecraft:punch": 1
-							},
-							"add": false
-						},
-						{
 							"function": "minecraft:set_nbt",
 							"tag": "{failnaught:1,CustomModelData:112,Unbreakable:1,HideFlags:127}"
 						}
