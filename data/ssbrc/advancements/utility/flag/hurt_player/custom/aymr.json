@@ -1,0 +1,24 @@
+{
+	"parent": "ssbrc:utility/root",
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:player_hurt_entity",
+			"conditions": {
+				"damage": {
+					"blocked": false,
+					"source_entity": {
+						"nbt": "{Tags:[\"byleth\",\"blackEagles\"]}",
+						"equipment": {
+							"mainhand": {
+								"nbt": "{aymr:1}"
+							}
+						}
+					}
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "ssbrc:series/fire_emblem/byleth/logic/black_eagles/aymr/hit"
+	}
+}

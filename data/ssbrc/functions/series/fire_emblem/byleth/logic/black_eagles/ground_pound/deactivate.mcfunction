@@ -8,4 +8,5 @@ tag @s remove self
 
 loot replace entity @s weapon.mainhand loot ssbrc:characters/fire_emblem/byleth/black_eagles/aymr/default
 
-scoreboard players add @s charge.1 3
+scoreboard players add @s charge.1 1
+function ssbrc:series/fire_emblem/byleth/logic/black_eagles/aymr/hit
