@@ -1,5 +1,5 @@
 execute if entity @s[tag=blackEagles,scores={useAbility=1..,charge.3=..0},nbt={SelectedItem:{tag:{aymr:1}}}] run function ssbrc:series/fire_emblem/byleth/logic/black_eagles/ground_pound/check
-execute if entity @s[predicate=ssbrc:flag/sneaking,scores={charge.step=5..}] at @s run function ssbrc:series/fire_emblem/byleth/logic/blue_lions/spin_attack/deactivate
+execute if entity @s[tag=blueLions,predicate=ssbrc:flag/sneaking,scores={charge.step=5..},nbt={SelectedItem:{tag:{areadbhar:1}}}] at @s run function ssbrc:series/fire_emblem/byleth/logic/blue_lions/spin_attack/deactivate
 execute if entity @s[tag=goldenDeer,scores={charge.step=5..,cooldown.1=..0},nbt={SelectedItem:{tag:{failnaught:1}}}] at @s anchored eyes run function ssbrc:series/fire_emblem/byleth/logic/golden_deer/failnaught/activate
 execute if entity @s[tag=goldenDeer,scores={charge.step=5..},nbt={SelectedItem:{tag:{braveBow:1}}}] at @s anchored eyes run function ssbrc:series/fire_emblem/byleth/logic/golden_deer/brave_bow/activate
 
@@ -15,8 +15,8 @@ scoreboard players add $spinAttack rotation 15
 execute if score $spinAttack rotation matches 360.. run scoreboard players reset $spinAttack rotation
 execute as @e[tag=byleth.spinner] store result entity @s Rotation[0] float 1.0 run scoreboard players get $spinAttack rotation
 
-execute if entity @s[tag=blueLions,predicate=ssbrc:flag/sneaking,scores={charge.output=1..}] at @s anchored eyes run function ssbrc:series/fire_emblem/byleth/logic/blue_lions/spin_attack/charge
-execute if entity @s[tag=blueLions,predicate=!ssbrc:flag/sneaking,scores={charge.output=1..}] run function ssbrc:series/fire_emblem/byleth/logic/blue_lions/spin_attack/cancel
+execute if entity @s[tag=blueLions,predicate=ssbrc:flag/sneaking,scores={charge.output=1..},nbt={SelectedItem:{tag:{areadbhar:1}}}] at @s anchored eyes run function ssbrc:series/fire_emblem/byleth/logic/blue_lions/spin_attack/charge
+execute if entity @s[tag=blueLions,predicate=!ssbrc:flag/sneaking,scores={charge.output=1..},nbt={SelectedItem:{tag:{areadbhar:1}}}] run function ssbrc:series/fire_emblem/byleth/logic/blue_lions/spin_attack/cancel
 
 execute if entity @s[tag=spinning] at @s run function ssbrc:series/fire_emblem/byleth/logic/blue_lions/spin_attack/tick
 
