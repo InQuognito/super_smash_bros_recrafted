@@ -16,7 +16,7 @@ execute if score $spinAttack rotation matches 360.. run scoreboard players reset
 execute as @e[tag=byleth.spinner] store result entity @s Rotation[0] float 1.0 run scoreboard players get $spinAttack rotation
 
 execute if entity @s[tag=blueLions,predicate=ssbrc:flag/sneaking,scores={charge.output=1..}] at @s anchored eyes run function ssbrc:series/fire_emblem/byleth/logic/blue_lions/spin_attack/charge
-execute if entity @s[tag=blueLions,predicate=!ssbrc:flag/sneaking,scores={charge.output=1..}] run function ssbrc:logic/resets/charge
+execute if entity @s[tag=blueLions,predicate=!ssbrc:flag/sneaking,scores={charge.output=1..}] run function ssbrc:series/fire_emblem/byleth/logic/blue_lions/spin_attack/cancel
 
 execute if entity @s[tag=spinning] at @s run function ssbrc:series/fire_emblem/byleth/logic/blue_lions/spin_attack/tick
 
