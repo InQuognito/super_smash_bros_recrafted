@@ -11,8 +11,8 @@ summon minecraft:glow_item_frame 7012.5 33.0 225.5 {Fixed:1b,Invisible:1b,Facing
 summon minecraft:glow_item_frame 6968.5 33.0 225.5 {Fixed:1b,Invisible:1b,Facing:2b,Item:{id:"minecraft:sugar",tag:{CustomModelData:801},Count:1b}}
 
 #Swords
-summon minecraft:glow_item_frame 6980.5 30.0 147.5 {Fixed:1b,Invisible:1b,Facing:4b,Item:{id:"minecraft:sugar",tag:{CustomModelData:802},Count:1b}}
-summon minecraft:glow_item_frame 7000.5 30.0 147.5 {Fixed:1b,Invisible:1b,Facing:4b,Item:{id:"minecraft:sugar",tag:{CustomModelData:802},Count:1b}}
+summon minecraft:glow_item_frame 6980.5 30.0 147.5 {Fixed:1b,Invisible:1b,Facing:1b,Item:{id:"minecraft:sugar",tag:{CustomModelData:802},Count:1b}}
+summon minecraft:glow_item_frame 7000.5 30.0 147.5 {Fixed:1b,Invisible:1b,Facing:1b,Item:{id:"minecraft:sugar",tag:{CustomModelData:802},Count:1b}}
 
 time set day
 weather clear
