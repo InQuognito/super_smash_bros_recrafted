@@ -20,7 +20,7 @@ execute if score @s duration.1 matches 1 run function ssbrc:series/persona/joker
 # Rebel's Guard
 execute if entity @s[tag=!rebelsGuard,predicate=ssbrc:flag/sneaking] run function ssbrc:series/persona/joker/logic/abilities/rebels_guard/activate
 execute if entity @s[tag=rebelsGuard,predicate=!ssbrc:flag/sneaking] run function ssbrc:series/persona/joker/logic/abilities/rebels_guard/deactivate
-execute at @s[tag=rebelsGuard] run particle minecraft:dust 0.0 0.0 1.0 1.0 ~ ~0.75 ~ 0.2 0.4 0.2 0.0 10 normal @a
+execute at @s[tag=rebelsGuard] run particle minecraft:dust 0.0 0.0 1.0 0.5 ~ ~0.75 ~ 0.2 0.4 0.2 0.0 5 normal @a
 
 # Final Guard
 execute if score @s[tag=!abilityUsed] health <= #joker.finalGuardThreshold vars run function ssbrc:series/persona/joker/logic/final_guard/on
