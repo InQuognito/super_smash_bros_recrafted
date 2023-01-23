@@ -19,6 +19,7 @@ execute if score @s[tag=!bowser] menu matches 61 run function ssbrc:series/super
 execute if score @s[tag=!bowser] menu matches 62 run function ssbrc:series/super_mario_bros/bowser/menu/favorite
 execute if score @s[tag=!bowser] menu matches 64 run function ssbrc:series/super_mario_bros/bowser/menu/skins/default
 execute if score @s[tag=!bowser] menu matches 65 run function ssbrc:series/super_mario_bros/bowser/menu/skins/gold
+execute if score @s[tag=!bowser] menu matches 66 run function ssbrc:series/super_mario_bros/bowser/menu/skins/bowsette
 
 execute if score @s[tag=!byleth] menu matches 100 run function ssbrc:series/fire_emblem/byleth/menu/loadout/prompt
 execute if score @s[tag=!byleth] menu matches 101 run function ssbrc:series/fire_emblem/byleth/menu/skin_options
