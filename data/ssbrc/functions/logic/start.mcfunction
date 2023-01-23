@@ -32,6 +32,7 @@ effect clear @a minecraft:jump_boost
 effect clear @a minecraft:slowness
 
 scoreboard players set @a[tag=alucard] durability 312
+scoreboard players set @a[tag=byleth] durability 318
 execute if entity @a[tag=byleth] run summon minecraft:armor_stand 0.5 25.0 0.5 {Tags:["byleth.spinner"],Invulnerable:1b,Invisible:1b,NoGravity:1b}
 scoreboard players set @a[tag=link] durability 300
 execute if entity @a[tag=link] run summon minecraft:armor_stand 0.5 25.0 0.5 {Tags:["link.spinner"],Invulnerable:1b,Invisible:1b,NoGravity:1b}

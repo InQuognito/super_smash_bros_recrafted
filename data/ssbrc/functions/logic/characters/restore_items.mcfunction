@@ -49,7 +49,7 @@ scoreboard players set @s[tag=joker] joker.tt33A 8
 
 # Link
 clear @s[tag=link] minecraft:carrot_on_a_stick{boomerang:1}
-clear @s[tag=link] minecraft:shield
+clear @s[tag=link] minecraft:shield{hylianShield:1}
 loot replace entity @s[tag=link] hotbar.2 loot ssbrc:characters/the_legend_of_zelda/link/boomerang
 loot replace entity @s[tag=link,tag=!dark] weapon.offhand loot ssbrc:characters/the_legend_of_zelda/link/hylian_shield/default
 loot replace entity @s[tag=link,tag=dark] weapon.offhand loot ssbrc:characters/the_legend_of_zelda/link/hylian_shield/dark
