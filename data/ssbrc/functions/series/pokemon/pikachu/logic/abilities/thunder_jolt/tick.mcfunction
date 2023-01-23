@@ -1,5 +1,5 @@
 particle minecraft:dust_color_transition 0.5 1.0 1.0 1.5 1.0 1.0 1.0 ~ ~ ~ 0.15 0.15 0.15 0.0 10 normal @a
-particle minecraft:electric_spark ~ ~ ~ 0.2 0.2 0.2 0.05 2 normal @a
+particle minecraft:electric_spark ~ ~ ~ 0.2 0.2 0.2 0.05 5 normal @a
 
 execute store result entity @s Rotation[1] float 0.25 run scoreboard players get @s point
 
