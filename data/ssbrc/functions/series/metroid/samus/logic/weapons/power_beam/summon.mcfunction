@@ -11,3 +11,6 @@ kill @e[tag=direction]
 
 scoreboard players set @s cooldown.1 15
 execute if score @s shadow.chaosControl matches 1.. run function ssbrc:logic/characters/cooldown_modifiers/chaos_control/1
+
+loot replace entity @s weapon.mainhand loot ssbrc:characters/metroid/samus/arm_cannon/power_beam/fire
+loot replace entity @s weapon.mainhand loot ssbrc:characters/metroid/samus/arm_cannon/power_beam/default

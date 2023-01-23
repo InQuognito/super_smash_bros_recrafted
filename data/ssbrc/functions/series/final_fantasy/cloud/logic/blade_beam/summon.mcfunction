@@ -13,3 +13,6 @@ execute if score @s shadow.chaosControl matches 1.. run function ssbrc:logic/cha
 
 execute if score @s cloud.limit >= #cloud.maxLimit vars run scoreboard players operation @s cloud.limit = 0 integers
 function ssbrc:series/final_fantasy/cloud/logic/limit/update
+
+loot replace entity @s weapon.mainhand loot ssbrc:characters/final_fantasy/cloud/buster_sword/operator/blade_beam
+loot replace entity @s weapon.mainhand loot ssbrc:characters/final_fantasy/cloud/buster_sword/operator/default
