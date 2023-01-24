@@ -3,6 +3,7 @@ scoreboard players operation @s[tag=bloodMetamorphosis] duration.1 *= 2 integers
 
 execute if entity @s[tag=bloodMetamorphosis] positioned ~ ~ ~ run function ssbrc:series/castlevania/alucard/logic/abilities/mist/summon
 
+execute if entity @s[nbt=!{Inventory:[{tag:{alucardShield:1}}]}] run tag @s add shieldBroken
 function ssbrc:series/castlevania/alucard/logic/abilities/mist/check_shield_durability
 clear @s
 
