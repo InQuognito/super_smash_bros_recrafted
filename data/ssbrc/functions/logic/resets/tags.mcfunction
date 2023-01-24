@@ -21,6 +21,7 @@ tag @s remove mostPoints
 tag @s remove room.characterSelect
 tag @s remove room.mapVoting
 tag @s remove self
+tag @s remove shieldBroken
 tag @s remove team1
 tag @s remove team2
 tag @s remove team3
