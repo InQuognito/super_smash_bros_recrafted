@@ -14,6 +14,6 @@
 		}
 	},
 	"rewards": {
-		"function": "ssbrc:series/indie_fighters/steve/logic/pickup_test"
+		"function": "ssbrc:series/indie_fighters/steve/logic/item/pickup_test"
 	}
 }

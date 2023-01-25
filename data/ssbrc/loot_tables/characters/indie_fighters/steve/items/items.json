@@ -11,7 +11,7 @@
 					"functions": [
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{Tags:[\"steve.item\",\"steve.item.normal\",\"steve.item.other\",\"steve.item.teleport\"]}"
+							"tag": "{Tags:[\"steve.item\",\"steve.item.normal\",\"steve.item.other\"]}"
 						}
 					]
 				},
@@ -22,7 +22,7 @@
 					"functions": [
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{Tags:[\"steve.item\",\"steve.item.normal\",\"steve.item.other\",\"steve.item.teleport\"]}"
+							"tag": "{Tags:[\"steve.item\",\"steve.item.normal\",\"steve.item.other\"]}"
 						}
 					]
 				},
@@ -33,7 +33,7 @@
 					"functions": [
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{Tags:[\"steve.item\",\"steve.item.normal\",\"steve.item.other\",\"steve.item.teleport\"]}"
+							"tag": "{Tags:[\"steve.item\",\"steve.item.normal\",\"steve.item.other\"]}"
 						}
 					]
 				},
@@ -44,14 +44,14 @@
 					"functions": [
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{Tags:[\"steve.item\",\"steve.item.normal\",\"steve.item.other\",\"steve.item.teleport\"]}"
+							"tag": "{Tags:[\"steve.item\",\"steve.item.normal\",\"steve.item.other\"]}"
 						}
 					]
 				},
 				{
 					"type": "minecraft:loot_table",
 					"weight": 40,
-					"name": "ssbrc:steve_items_tiers"
+					"name": "ssbrc:characters/indie_fighters/steve/items/tiers"
 				}
 			]
 		}

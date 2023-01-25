@@ -6,7 +6,7 @@
 			"entries": [
 				{
 					"type": "minecraft:item",
-					"name": "minecraft:diamond_pickaxe",
+					"name": "minecraft:carrot_on_a_stick",
 					"functions": [
 						{
 							"function": "minecraft:set_name",
@@ -79,7 +79,7 @@
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{diamondPickaxe:1,Unbreakable:1,HideFlags:127}"
+							"tag": "{diamondPickaxe:1,CustomModelData:1585,Unbreakable:1,HideFlags:127}"
 						}
 					]
 				}

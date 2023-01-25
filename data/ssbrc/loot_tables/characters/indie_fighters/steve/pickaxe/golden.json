@@ -6,7 +6,7 @@
 			"entries": [
 				{
 					"type": "minecraft:item",
-					"name": "minecraft:golden_pickaxe",
+					"name": "minecraft:carrot_on_a_stick",
 					"functions": [
 						{
 							"function": "minecraft:set_name",
@@ -79,7 +79,7 @@
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{goldenPickaxe:1,Unbreakable:1,HideFlags:127}"
+							"tag": "{goldenPickaxe:1,CustomModelData:1583,Unbreakable:1,HideFlags:127}"
 						}
 					]
 				}
