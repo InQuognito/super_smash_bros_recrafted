@@ -1,4 +1,3 @@
-schedule clear ssbrc:series/indie_fighters/steve/logic/spawn_item
 schedule clear ssbrc:logic/music/loop
 schedule clear ssbrc:logic/timer
 

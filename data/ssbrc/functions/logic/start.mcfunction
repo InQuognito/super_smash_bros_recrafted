@@ -37,10 +37,6 @@ execute if entity @a[tag=byleth] run summon minecraft:armor_stand 0.5 25.0 0.5 {
 scoreboard players set @a[tag=link] durability 300
 execute if entity @a[tag=link] run summon minecraft:armor_stand 0.5 25.0 0.5 {Tags:["link.spinner"],Invulnerable:1b,Invisible:1b,NoGravity:1b}
 execute if entity @a[tag=sora] run summon minecraft:armor_stand 0.5 25.0 0.5 {Tags:["sora.spinner"],Invulnerable:1b,Invisible:1b,NoGravity:1b}
-scoreboard players set $steveItemCap temp 2
-scoreboard players operation $steveItemCap temp += $playersAlive temp
-execute if entity @a[tag=steve] run function ssbrc:series/indie_fighters/steve/logic/spawn_item
-
 execute as @a[predicate=ssbrc:flag/player] run function ssbrc:logic/kits
 function ssbrc:logic/music/decide
 
