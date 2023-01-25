@@ -2,6 +2,8 @@ scoreboard players set @s duration.1 1
 scoreboard players set @s duration.2 1
 scoreboard players set @s duration.3 1
 
+tag @s remove shieldBroken
+
 # Bowser
 execute if entity @s[tag=bowser,tag=rageUsed] run function ssbrc:series/super_mario_bros/bowser/logic/abilities/rage/deactivate
 tag @s[tag=bowser,tag=rageUsed] remove rageUsed
