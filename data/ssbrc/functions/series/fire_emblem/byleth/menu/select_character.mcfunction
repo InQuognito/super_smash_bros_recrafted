@@ -6,6 +6,9 @@ tellraw @s [{"text":"You have selected ","color":"white"},{"text":"Byleth","colo
 tellraw @s[tag=default] [{"text":"Skin: ","color":"white"},{"text":"Default","color":"dark_aqua"}]
 tellraw @s[tag=gold] [{"text":"Skin: ","color":"white"},{"text":"Gold","color":"gold"}]
 
+tellraw @s[tag=female] [{"text":"Gender: ","color":"yellow"},{"text":"Female","color":"dark_purple"}]
+tellraw @s[tag=male] [{"text":"Gender: ","color":"yellow"},{"text":"Male","color":"dark_blue"}]
+
 tag @s add byleth
 
 tag @s remove selectingLoadout

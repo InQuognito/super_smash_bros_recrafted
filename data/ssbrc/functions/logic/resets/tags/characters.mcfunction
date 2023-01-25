@@ -48,3 +48,6 @@ tag @s remove naturalShiny
 tag @s remove nextFighterChosen
 tag @s remove pickingRandom
 tag @s remove selectingLoadout
+
+tag @s remove female
+tag @s remove male

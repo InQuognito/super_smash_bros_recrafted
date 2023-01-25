@@ -1,8 +1,5 @@
 tag @s remove byleth
 
-tag @s remove female
-tag @s remove male
-
 tag @s remove blackEagles
 tag @s remove blueLions
 tag @s remove goldenDeer
