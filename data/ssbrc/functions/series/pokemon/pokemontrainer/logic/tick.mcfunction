@@ -11,7 +11,7 @@ execute as @e[type=minecraft:marker,tag=surf] at @s if score @s id = @p[tag=self
 tag @s remove self
 
 # Flare Blitz
-execute if score @s[tag=charizard] duration.1 matches 1 run function ssbrc:series/pokemon/pokemontrainer/logic/charizard/flare_blitz/off
+execute at @s[tag=charizard,scores={duration.1=1}] run function ssbrc:series/pokemon/pokemontrainer/logic/charizard/flare_blitz/recoil
 
 # Leech Seed
 title @s[nbt=!{SelectedItem:{tag:{leechSeed:1}}}] actionbar ""

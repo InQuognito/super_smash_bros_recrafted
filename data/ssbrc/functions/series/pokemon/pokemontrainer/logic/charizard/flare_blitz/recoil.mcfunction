@@ -1,4 +1,4 @@
-tag @p[tag=self] add damage.flareBlitz.recoil
+tag @s add damage.flareBlitz.recoil
 
-scoreboard players set @p[tag=self] duration.1 1
-kill @s
+function ssbrc:series/pokemon/pokemontrainer/logic/charizard/flare_blitz/off
+kill @e[type=minecraft:marker,tag=flareBlitz,sort=nearest,limit=1]
