@@ -78,7 +78,7 @@ scoreboard players set @s[tag=rob] charge.1 0
 scoreboard players set @s[tag=rob] charge.2 0
 
 # Ryu
-execute if entity @s[tag=ryu] run function ssbrc:series/street_fighter/ryu/logic/off
+execute if entity @s[tag=ryu] run function ssbrc:series/street_fighter/ryu/logic/abilities/satsui_no_hado_rage/deactivate
 execute if score $gameMode options matches 1 if score @s[tag=ryu] stocks matches 1 run loot replace entity @s[tag=!abilityUsed] hotbar.2 loot ssbrc:characters/street_fighter/ryu/satsui_no_hado_rage
 execute if score $gameMode options matches 2 run clear @s[tag=ryu] minecraft:carrot_on_a_stick{satsuiNoHadoRage:1}
 execute if score $gameMode options matches 2 if score $gameTime timer matches ..60 run loot replace entity @s[tag=ryu,tag=!abilityUsed] hotbar.2 loot ssbrc:characters/street_fighter/ryu/satsui_no_hado_rage
@@ -90,6 +90,7 @@ execute if entity @s[tag=sora] run function ssbrc:series/kingdom_hearts/sora/kit
 scoreboard players remove @s[tag=steve,scores={steve.tier=1..}] steve.tier 1
 
 clear @s[tag=steve] #ssbrc:characters/steve/equipment
+clear @s[tag=steve] minecraft:carrot_on_a_stick{pickaxe:1}
 execute if score @s steve.tier matches 0 run function ssbrc:series/indie_fighters/steve/logic/equipment/tiers/wooden
 execute if score @s steve.tier matches 1 run function ssbrc:series/indie_fighters/steve/logic/equipment/tiers/stone
 execute if score @s steve.tier matches 2 run function ssbrc:series/indie_fighters/steve/logic/equipment/tiers/gold
