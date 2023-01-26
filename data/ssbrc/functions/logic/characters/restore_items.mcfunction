@@ -2,6 +2,7 @@ scoreboard players set @s duration.1 1
 scoreboard players set @s duration.2 1
 scoreboard players set @s duration.3 1
 
+tag @s remove hasShield
 tag @s remove shieldBroken
 
 # Bowser
