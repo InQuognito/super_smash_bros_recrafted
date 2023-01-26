@@ -34,6 +34,7 @@ tag @s remove spearPillar
 tag @s remove suzakuCastle
 tag @s remove towerOfFate
 tag @s remove wilyCastle
+tag @s remove yggdrasilsAltar
 
 tag @s remove random
 
