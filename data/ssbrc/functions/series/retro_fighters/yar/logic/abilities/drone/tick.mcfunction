@@ -1,6 +1,10 @@
 execute unless block ^ ^ ^0.3 #ssbrc:passthrough run scoreboard players set @s temp 30
 
 execute rotated as @s[scores={temp=..60},tag=!stop,tag=!recall] run function ssbrc:series/retro_fighters/yar/logic/abilities/drone/move
+
+scoreboard players remove @s[scores={cooldown.1=1..}] cooldown.1 1
+execute if entity @s[tag=stop,scores={cooldown.1=..0}] facing entity @e[predicate=ssbrc:flag/targets,sort=nearest,limit=1,distance=..3] eyes run function ssbrc:series/retro_fighters/yar/logic/abilities/drone/fire
+
 execute if entity @s[tag=recall] facing entity @p[tag=self] feet run function ssbrc:series/retro_fighters/yar/logic/abilities/drone/move
 
 execute as @e[tag=drone.display,sort=nearest,limit=1] run function ssbrc:series/retro_fighters/yar/logic/abilities/drone/display
