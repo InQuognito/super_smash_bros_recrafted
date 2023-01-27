@@ -10,7 +10,7 @@ execute at @s[nbt={SelectedItem:{tag:{shovelDrop:1}}}] positioned ~ ~-2 ~ as @e[
 execute as @e[type=minecraft:marker,tag=chaosSphere] at @s if score @s id = @p[tag=self] id run function ssbrc:series/indie_fighters/shovelknight/logic/abilities/chaos_sphere/tick
 execute as @e[type=minecraft:arrow,tag=flareWand] at @s if score @s id = @p[tag=shovelknight.flareWand,tag=self] id run function ssbrc:series/indie_fighters/shovelknight/logic/abilities/flare_wand/tick
 execute as @e[type=minecraft:marker,tag=propellerDagger] at @s if score @s id = @p[tag=shovelknight.propellerDagger,tag=self,scores={duration.2=2..}] id run function ssbrc:series/indie_fighters/shovelknight/logic/abilities/propeller_dagger/tick
-execute as @e[type=minecraft:armor_stand,tag=throwingAnchor,tag=!hitGround] at @s if score @s id = @p[tag=shovelknight.throwingAnchor,tag=self] id run function ssbrc:series/indie_fighters/shovelknight/logic/abilities/throwing_anchor/tick
+execute as @e[type=minecraft:armor_stand,tag=throwingAnchor] at @s if score @s id = @p[tag=shovelknight.throwingAnchor,tag=self] id run function ssbrc:series/indie_fighters/shovelknight/logic/abilities/throwing_anchor/tick
 tag @s remove self
 
 # Mana
