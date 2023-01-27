@@ -1,4 +1,4 @@
-execute unless block ^ ^ ^1 #ssbrc:passthrough run function ssbrc:series/retro_fighters/yar/logic/abilities/drone/commands/stop
+execute if entity @s[tag=!stop] unless block ^ ^ ^1 #ssbrc:passthrough run function ssbrc:series/retro_fighters/yar/logic/abilities/drone/commands/stop
 
 execute rotated as @s[scores={temp=..60},tag=!stop,tag=!recall] run function ssbrc:series/retro_fighters/yar/logic/abilities/drone/move
 

@@ -5,6 +5,7 @@ data modify entity @e[tag=modifyEntity,limit=1] Rotation[0] set from entity @s R
 data modify entity @e[tag=modifyEntity,limit=1] Owner set from entity @s UUID
 
 scoreboard players set @e[tag=modifyEntity,limit=1] charge.1 40
+scoreboard players set @e[tag=modifyEntity,limit=1] temp 1
 
 execute as @e[tag=modifyEntity] at @s run function ssbrc:series/retro_fighters/yar/logic/abilities/drone/summon_item
 
