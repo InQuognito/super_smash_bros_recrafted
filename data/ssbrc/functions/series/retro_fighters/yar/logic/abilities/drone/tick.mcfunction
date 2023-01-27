@@ -1,4 +1,4 @@
-execute unless block ^ ^ ^0.3 #ssbrc:passthrough run scoreboard players set @s temp 30
+execute unless block ^ ^ ^1 #ssbrc:passthrough run function ssbrc:series/retro_fighters/yar/logic/abilities/drone/commands/stop
 
 execute rotated as @s[scores={temp=..60},tag=!stop,tag=!recall] run function ssbrc:series/retro_fighters/yar/logic/abilities/drone/move
 

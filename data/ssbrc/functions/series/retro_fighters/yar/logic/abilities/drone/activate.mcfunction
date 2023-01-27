@@ -1,4 +1,4 @@
-summon minecraft:area_effect_cloud ^ ^ ^1 {Tags:["drone","moving","modifyEntity"],Duration:600}
+summon minecraft:area_effect_cloud ^ ^ ^1 {Tags:["drone","modifyEntity"],Age:-2147483648,Duration:-1,WaitTime:-2147483648}
 
 scoreboard players operation @e[tag=modifyEntity,limit=1] id = @s id
 data modify entity @e[tag=modifyEntity,limit=1] Rotation[0] set from entity @s Rotation[0]

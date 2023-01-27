@@ -5,7 +5,8 @@ execute if entity @s[scores={charge.output=1..,cooldown.1=..0},nbt={SelectedItem
 execute if entity @s[scores={charge.step=5..,charge.output=40..,cooldown.1=..0},nbt={SelectedItem:{tag:{rayBlaster:1,railgun:1}}}] at @s anchored eyes run function ssbrc:series/retro_fighters/yar/logic/abilities/ray_blaster/variants/railgun/activate
 execute if entity @s[scores={useAbility=1..},nbt={SelectedItem:{tag:{drone:1,recall:1}}}] as @e[type=minecraft:marker,tag=drone] if score @s id = @p[tag=self] id run function ssbrc:series/retro_fighters/yar/logic/abilities/drone/commands/recall
 execute if entity @s[scores={useAbility=1..},nbt={SelectedItem:{tag:{drone:1,stop:1}}}] as @e[type=minecraft:marker,tag=drone] if score @s id = @p[tag=self] id run function ssbrc:series/retro_fighters/yar/logic/abilities/drone/commands/stop
-execute if entity @s[scores={useAbility=1..},nbt={SelectedItem:{tag:{drone:1,activate:1}}}] at @s run function ssbrc:series/retro_fighters/yar/logic/abilities/drone/activate
+execute if entity @s[predicate=!ssbrc:flag/sneaking,scores={useAbility=1..},nbt={SelectedItem:{tag:{drone:1,activate:1}}}] at @s anchored eyes run function ssbrc:series/retro_fighters/yar/logic/abilities/drone/activate
+execute if entity @s[predicate=ssbrc:flag/sneaking,scores={useAbility=1..},nbt={SelectedItem:{tag:{drone:1,activate:1}}}] at @s anchored feet run function ssbrc:series/retro_fighters/yar/logic/abilities/drone/activate
 execute if entity @s[scores={useAbility=1..},nbt={SelectedItem:{tag:{powerUp:1}}}] at @s run function ssbrc:series/retro_fighters/yar/logic/abilities/power_ups/check
 
 execute as @e[type=minecraft:arrow,tag=rayBlaster] at @s if score @s id = @p[tag=self] id run function ssbrc:series/retro_fighters/yar/logic/abilities/ray_blaster/tick
