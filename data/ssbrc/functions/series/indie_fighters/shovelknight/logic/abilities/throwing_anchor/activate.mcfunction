@@ -3,7 +3,8 @@ data modify entity @e[tag=direction,limit=1] Rotation[0] set from entity @s Rota
 data modify entity @e[tag=direction,limit=1] Rotation[1] set value -45.0f
 execute as @e[tag=direction,limit=1] at @s run teleport @s ^ ^ ^1.5
 
-execute rotated as @s positioned ~ ~1 ~ run summon minecraft:armor_stand ^ ^ ^1 {Tags:["throwingAnchor","modifyEntity"],Small:1b}
+execute rotated as @s positioned ~ ~1 ~ run summon minecraft:armor_stand ^ ^ ^1 {Tags:["throwingAnchor","modifyEntity"],Invisible:1b,Small:1b}
+loot replace entity @e[tag=modifyEntity,limit=1] armor.head loot ssbrc:characters/indie_fighters/shovelknight/throwing_anchor
 
 scoreboard players operation @e[tag=modifyEntity,limit=1] id = @s id
 data modify entity @e[tag=modifyEntity,limit=1] Rotation set from entity @s Rotation
