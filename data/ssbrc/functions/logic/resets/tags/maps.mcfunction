@@ -15,6 +15,7 @@ tag @s remove greenHillZone
 tag @s remove hyruleCastle
 tag @s remove icicleMountain
 tag @s remove jungleJapes
+tag @s remove lakeOfRage
 tag @s remove luigisMansion
 tag @s remove magicant
 tag @s remove mementos
