@@ -12,3 +12,5 @@ tag @e[tag=modifyEntity,limit=2] remove modifyEntity
 kill @e[tag=direction]
 
 loot replace entity @s weapon.mainhand loot ssbrc:characters/fire_emblem/byleth/golden_deer/brave_bow/idle
+
+attribute @s minecraft:generic.movement_speed modifier remove 19192183-0000-0000-0001-000001000000

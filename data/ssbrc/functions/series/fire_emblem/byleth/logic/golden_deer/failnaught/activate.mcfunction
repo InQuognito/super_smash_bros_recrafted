@@ -21,3 +21,5 @@ execute if score @s charge.output matches 80.. run scoreboard players add @s cha
 execute if score @s charge.1 matches 6.. run function ssbrc:series/fire_emblem/byleth/logic/golden_deer/failnaught/break
 
 function ssbrc:logic/resets/charge
+
+attribute @s minecraft:generic.movement_speed modifier remove 19192183-0000-0000-0001-000001000000
