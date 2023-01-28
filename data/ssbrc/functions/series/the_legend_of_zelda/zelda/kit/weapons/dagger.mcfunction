@@ -7,3 +7,5 @@ execute if score result random matches 2 run loot replace entity @s hotbar.0 loo
 execute if score result random matches 3 run loot replace entity @s hotbar.0 loot ssbrc:characters/the_legend_of_zelda/zelda/weapons/dagger/obsidian/default
 execute if score result random matches 4 run loot replace entity @s hotbar.0 loot ssbrc:characters/the_legend_of_zelda/zelda/weapons/dagger/ruby
 execute if score result random matches 5 run loot replace entity @s hotbar.0 loot ssbrc:characters/the_legend_of_zelda/zelda/weapons/dagger/titanium
+
+scoreboard players set #weaponGiven temp 1
