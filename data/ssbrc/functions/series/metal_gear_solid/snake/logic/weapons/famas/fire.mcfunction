@@ -24,4 +24,4 @@ execute at @s run playsound ssbrc:generic_fire player @a
 scoreboard players remove @s snake.famasA 1
 scoreboard players set @s snake.famasF 4
 
-execute unless score @s snake.famasM matches ..0 if score @s snake.famasA matches 0 run scoreboard players operation @s snake.famasR = #snake.famasReload vars
+execute if entity @s[scores={snake.famasM=1..,snake.famasA=0}] run function ssbrc:series/metal_gear_solid/snake/logic/weapons/famas/reload/start

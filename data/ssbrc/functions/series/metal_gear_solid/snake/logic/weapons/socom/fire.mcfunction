@@ -24,4 +24,4 @@ execute at @s run playsound ssbrc:generic_fire player @a
 scoreboard players remove @s snake.socomA 1
 scoreboard players set @s snake.socomF 5
 
-execute unless score @s snake.socomM matches ..0 if score @s snake.socomA matches 0 run scoreboard players operation @s snake.socomR = #snake.socomReload vars
+execute if entity @s[scores={snake.socomM=1..,snake.socomA=0}] run function ssbrc:series/metal_gear_solid/snake/logic/weapons/socom/reload/start
