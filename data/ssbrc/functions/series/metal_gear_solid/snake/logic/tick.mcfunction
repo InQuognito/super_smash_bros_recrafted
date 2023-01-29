@@ -15,6 +15,7 @@ execute as @e[type=minecraft:marker,tag=smokeGrenade,tag=active] at @s if score 
 
 # Glowing
 scoreboard players add @s timer 1
+tellraw @s[scores={timer=1200..}] [{"text":"Otacon","color":"green"},{"text":": ","color":"white"},{"text":"Snake, your position has been compromised!","color":"yellow"}]
 execute if entity @s[scores={timer=1200..}] run function ssbrc:series/metal_gear_solid/snake/logic/get_hurt
 
 # Ammo HUD
