@@ -1,10 +1,10 @@
 tag @s add self
 
 # Weapons
-execute if entity @s[scores={useAbility=1..},nbt={SelectedItem:{tag:{psg1:1}}}] unless score @s snake.psg1R matches 1.. run function ssbrc:series/metal_gear_solid/snake/logic/weapons/psg1/check
-execute if entity @s[scores={useAbility=1..},nbt={SelectedItem:{tag:{famas:1}}}] unless score @s snake.famasR matches 1.. run function ssbrc:series/metal_gear_solid/snake/logic/weapons/famas/check
-execute if entity @s[scores={useAbility=1..},nbt={SelectedItem:{tag:{s1000:1}}}] unless score @s snake.s1000R matches 1.. run function ssbrc:series/metal_gear_solid/snake/logic/weapons/s1000/check
-execute if entity @s[scores={useAbility=1..},nbt={SelectedItem:{tag:{socom:1}}}] unless score @s snake.socomR matches 1.. run function ssbrc:series/metal_gear_solid/snake/logic/weapons/socom/check
+execute if entity @s[scores={useAbility=1..},nbt={SelectedItem:{tag:{psg1:1}}}] unless score @s snake.psg1R matches 1.. at @s run function ssbrc:series/metal_gear_solid/snake/logic/weapons/psg1/check
+execute if entity @s[scores={useAbility=1..},nbt={SelectedItem:{tag:{famas:1}}}] unless score @s snake.famasR matches 1.. at @s run function ssbrc:series/metal_gear_solid/snake/logic/weapons/famas/check
+execute if entity @s[scores={useAbility=1..},nbt={SelectedItem:{tag:{s1000:1}}}] unless score @s snake.s1000R matches 1.. at @s run function ssbrc:series/metal_gear_solid/snake/logic/weapons/s1000/check
+execute if entity @s[scores={useAbility=1..},nbt={SelectedItem:{tag:{socom:1}}}] unless score @s snake.socomR matches 1.. at @s run function ssbrc:series/metal_gear_solid/snake/logic/weapons/socom/check
 execute if entity @s[scores={useAbility=1..},nbt={SelectedItem:{tag:{antiPersonnelMine:1}}}] unless score @s snake.antiPersonnelMineF matches 1.. run function ssbrc:series/metal_gear_solid/snake/logic/weapons/anti_personnel_mine/check
 execute if entity @s[scores={useAbility=1..},nbt={SelectedItem:{tag:{smokeGrenade:1}}}] unless score @s snake.smokeGrenadeF matches 1.. run function ssbrc:series/metal_gear_solid/snake/logic/weapons/smoke_grenade/check
 
