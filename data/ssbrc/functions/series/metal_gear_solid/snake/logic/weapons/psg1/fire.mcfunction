@@ -13,4 +13,4 @@ execute at @s run playsound ssbrc:sniper_fire player @a
 
 scoreboard players remove @s snake.psg1A 1
 
-execute unless score @s snake.psg1M matches ..0 if score @s snake.psg1A matches 0 run scoreboard players set @s snake.psg1R 100
+execute unless score @s snake.psg1M matches ..0 if score @s snake.psg1A matches 0 run scoreboard players operation @s snake.psg1R = #snake.psg1Reload vars

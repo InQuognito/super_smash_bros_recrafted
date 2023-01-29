@@ -15,7 +15,6 @@ execute as @e[type=minecraft:marker,tag=smokeGrenade,tag=active] at @s if score 
 
 # Glowing
 scoreboard players add @s timer 1
-execute if entity @s[scores={timer=1200..}] run tellraw @s [{"text":"Otacon","color":"green"},{"text":": ","color":"white"},{"text":"Snake, your position has been compromised!","color":"yellow"}]
 execute if entity @s[scores={timer=1200..}] run function ssbrc:series/metal_gear_solid/snake/logic/get_hurt
 
 # Ammo HUD
@@ -32,19 +31,10 @@ title @s[nbt={SelectedItem:{tag:{antiPersonnelMine:1}}},scores={snake.antiPerson
 title @s[nbt={SelectedItem:{tag:{smokeGrenade:1}}},scores={snake.smokeGrenadeA=0..}] actionbar {"score":{"name":"@s","objective":"snake.smokeGrenadeA"},"color":"green"}
 
 # Reload
-scoreboard players remove @s[scores={snake.psg1R=1..}] snake.psg1R 1
-scoreboard players remove @s[scores={snake.famasR=1..}] snake.famasR 1
-execute at @s[scores={snake.famasR=45}] run playsound ssbrc:generic_reload player @a
-scoreboard players remove @s[scores={snake.s1000R=1..}] snake.s1000R 1
-execute at @s[scores={snake.s1000M=1..,snake.s1000R=35}] run playsound ssbrc:shotgun_shell player @a
-execute at @s[scores={snake.s1000M=1..,snake.s1000R=15}] run playsound ssbrc:shotgun_reload player @a
-scoreboard players remove @s[scores={snake.socomR=1..}] snake.socomR 1
-execute at @s[scores={snake.socomR=35}] run playsound ssbrc:generic_reload player @a
-
-execute if score @s snake.psg1R matches ..0 at @s run function ssbrc:series/metal_gear_solid/snake/logic/weapons/psg1/reload
-execute if score @s snake.famasR matches ..0 at @s run function ssbrc:series/metal_gear_solid/snake/logic/weapons/famas/reload
-execute if score @s snake.s1000R matches ..0 at @s run function ssbrc:series/metal_gear_solid/snake/logic/weapons/s1000/reload
-execute if score @s snake.socomR matches ..0 at @s run function ssbrc:series/metal_gear_solid/snake/logic/weapons/socom/reload
+execute at @s[nbt={SelectedItem:{tag:{psg1:1}}},scores={snake.psg1R=1..}] run function ssbrc:series/metal_gear_solid/snake/logic/weapons/psg1/reload/tick
+execute at @s[nbt={SelectedItem:{tag:{famas:1}}},scores={snake.famasR=1..}] run function ssbrc:series/metal_gear_solid/snake/logic/weapons/famas/reload/tick
+execute at @s[nbt={SelectedItem:{tag:{s1000:1}}},scores={snake.s1000R=1..}] run function ssbrc:series/metal_gear_solid/snake/logic/weapons/s1000/reload/tick
+execute at @s[nbt={SelectedItem:{tag:{socom:1}}},scores={snake.socomR=1..}] run function ssbrc:series/metal_gear_solid/snake/logic/weapons/socom/reload/tick
 
 # Rate of Fire
 scoreboard players remove @s[scores={snake.famasF=1..}] snake.famasF 1
