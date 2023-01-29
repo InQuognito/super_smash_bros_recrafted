@@ -1,5 +1,9 @@
+stopsound @a[predicate=ssbrc:ingame] music
 execute if score $gameMode options matches 1 as @a[predicate=ssbrc:ingame] at @s run playsound ssbrc:game voice @s
 execute if score $gameMode options matches 2 as @a[predicate=ssbrc:ingame] at @s run playsound ssbrc:time voice @s
+
+execute if score $gameMode options matches 1 run title @a[predicate=ssbrc:ingame] title {"text":"GAME!","color":"green"}
+execute if score $gameMode options matches 2 run title @a[predicate=ssbrc:ingame] title {"text":"TIME!","color":"green"}
 
 schedule clear ssbrc:logic/timer
 
@@ -14,8 +18,6 @@ execute if score $teams options matches 1 if entity @s[team=team6] run tag @a[te
 execute if score $teams options matches 1 if entity @s[team=team7] run tag @a[team=team7] add winner
 execute if score $teams options matches 1 if entity @s[team=team8] run tag @a[team=team8] add winner
 tag @a[tag=winner] add cannotHost
-
-execute as @a[predicate=ssbrc:ingame] run function ssbrc:logic/post_game/summary_check
 
 execute if score $suddenDeath temp matches 1 run scoreboard players set $gameMode options 2
 
