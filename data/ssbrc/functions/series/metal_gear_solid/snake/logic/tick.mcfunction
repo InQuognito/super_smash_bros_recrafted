@@ -1,6 +1,5 @@
 tag @s add self
 
-# Weapons
 execute if entity @s[tag=!reloading,scores={useAbility=1..},nbt={SelectedItem:{tag:{psg1:1}}}] at @s run function ssbrc:series/metal_gear_solid/snake/logic/weapons/psg1/check
 execute if entity @s[tag=!reloading,scores={useAbility=1..},nbt={SelectedItem:{tag:{famas:1}}}] at @s run function ssbrc:series/metal_gear_solid/snake/logic/weapons/famas/check
 execute if entity @s[tag=!reloading,scores={useAbility=1..},nbt={SelectedItem:{tag:{s1000:1}}}] at @s run function ssbrc:series/metal_gear_solid/snake/logic/weapons/s1000/check
@@ -14,9 +13,7 @@ tag @e[type=minecraft:marker,tag=smokeGrenade,tag=!active,predicate=ssbrc:flag/n
 execute as @e[type=minecraft:marker,tag=smokeGrenade,tag=active] at @s if score @s id = @p[tag=self] id run function ssbrc:series/metal_gear_solid/snake/logic/weapons/smoke_grenade/tick
 
 # Glowing
-scoreboard players add @s timer 1
-tellraw @s[scores={timer=1200..}] [{"text":"Otacon","color":"green"},{"text":": ","color":"white"},{"text":"Snake, your position has been compromised!","color":"yellow"}]
-execute if entity @s[scores={timer=1200..}] run function ssbrc:series/metal_gear_solid/snake/logic/get_hurt
+function ssbrc:series/metal_gear_solid/snake/logic/glowing
 
 # Ammo HUD
 title @s actionbar ""
