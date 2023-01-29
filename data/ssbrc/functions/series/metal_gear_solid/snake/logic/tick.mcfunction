@@ -33,10 +33,10 @@ title @s[tag=!reloading,nbt={SelectedItem:{tag:{smokeGrenade:1}}},scores={snake.
 title @s[tag=reloading] actionbar [{"text":"Reloading...","color":"red"}]
 
 # Reload
-execute at @s[nbt={SelectedItem:{tag:{psg1:1}}},scores={snake.psg1R=1..}] run function ssbrc:series/metal_gear_solid/snake/logic/weapons/psg1/reload/tick
-execute at @s[nbt={SelectedItem:{tag:{famas:1}}},scores={snake.famasR=1..}] run function ssbrc:series/metal_gear_solid/snake/logic/weapons/famas/reload/tick
-execute at @s[nbt={SelectedItem:{tag:{s1000:1}}},scores={snake.s1000R=1..}] run function ssbrc:series/metal_gear_solid/snake/logic/weapons/s1000/reload/tick
-execute at @s[nbt={SelectedItem:{tag:{socom:1}}},scores={snake.socomR=1..}] run function ssbrc:series/metal_gear_solid/snake/logic/weapons/socom/reload/tick
+execute at @s[scores={snake.psg1R=1..}] run function ssbrc:series/metal_gear_solid/snake/logic/weapons/psg1/reload/tick
+execute at @s[scores={snake.famasR=1..}] run function ssbrc:series/metal_gear_solid/snake/logic/weapons/famas/reload/tick
+execute at @s[scores={snake.s1000R=1..}] run function ssbrc:series/metal_gear_solid/snake/logic/weapons/s1000/reload/tick
+execute at @s[scores={snake.socomR=1..}] run function ssbrc:series/metal_gear_solid/snake/logic/weapons/socom/reload/tick
 
 # Rate of Fire
 scoreboard players remove @s[scores={snake.famasF=1..}] snake.famasF 1
