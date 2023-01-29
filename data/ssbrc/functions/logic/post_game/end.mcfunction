@@ -1,3 +1,6 @@
+execute if score $gameMode options matches 1 as @a[predicate=ssbrc:ingame] at @s run playsound ssbrc:game voice @s
+execute if score $gameMode options matches 2 as @a[predicate=ssbrc:ingame] at @s run playsound ssbrc:time voice @s
+
 schedule clear ssbrc:logic/timer
 
 tag @a remove cannotHost

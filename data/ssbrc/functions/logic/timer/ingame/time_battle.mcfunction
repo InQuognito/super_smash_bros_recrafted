@@ -9,6 +9,11 @@ execute if score $gameTimePercent temp matches 50 run bossbar set minecraft:time
 execute if score $gameTimePercent temp matches 25 run bossbar set minecraft:timer color yellow
 execute if score $gameTimePercent temp matches 10 run bossbar set minecraft:timer color red
 
+execute if score $countdown timer matches 5 as @a[predicate=ssbrc:ingame] at @s run playsound ssbrc:five voice @s
+execute if score $countdown timer matches 4 as @a[predicate=ssbrc:ingame] at @s run playsound ssbrc:four voice @s
+execute if score $countdown timer matches 3 as @a[predicate=ssbrc:ingame] at @s run playsound ssbrc:three voice @s
+execute if score $countdown timer matches 2 as @a[predicate=ssbrc:ingame] at @s run playsound ssbrc:two voice @s
+execute if score $countdown timer matches 1 as @a[predicate=ssbrc:ingame] at @s run playsound ssbrc:one voice @s
 execute if score $gameTime timer matches ..0 run function ssbrc:logic/post_game/calculate_winner
 
 execute if score $gameTimePercent temp matches ..33 if score $towerOfFate map matches 1 unless score #towerOfFateDestroyed temp matches 1 run function ssbrc:maps/t/tower_of_fate/logic/destroy_tower

@@ -1,5 +1,6 @@
 tag @a[predicate=!ssbrc:ingame] remove characterPicked
 
+execute as @a[predicate=ssbrc:ingame] at @s run playsound ssbrc:go voice @s
 title @a[predicate=ssbrc:ingame] title {"text":"GO!","color":"dark_green"}
 
 team modify team1 nametagVisibility never
