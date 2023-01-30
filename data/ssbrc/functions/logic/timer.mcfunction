@@ -3,5 +3,5 @@ execute if score $gameStage temp matches 2 run function ssbrc:logic/timer/map_vo
 execute if score $gameStage temp matches 3 run function ssbrc:logic/timer/start_countdown
 execute if score $gameStage temp matches 4 run function ssbrc:logic/timer/ingame/timer
 
-scoreboard players remove $countdown timer 1
+execute if score $gameStage temp matches 0..4 run scoreboard players remove $countdown timer 1
 schedule function ssbrc:logic/timer 1s replace
