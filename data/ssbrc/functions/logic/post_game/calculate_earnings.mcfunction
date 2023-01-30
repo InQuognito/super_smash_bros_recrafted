@@ -191,4 +191,39 @@ scoreboard players set @s[scores={stats.credits.temp=..-1}] stats.credits.temp 0
 tellraw @s [{"text":"Credits Earned: ","color":"gold"},{"score":{"name":"@s","objective":"stats.credits.temp"},"color":"yellow"},{"text":"₡","color":"yellow"}]
 scoreboard players operation @s stats.credits += @s stats.credits.temp
 
+scoreboard players operation @s stats.bonus.765o += @s 765o
+scoreboard players operation @s stats.bonus.8PlayerMatch += @s 8PlayerMatch
+scoreboard players operation @s stats.bonus.acrobat += @s acrobat
+scoreboard players operation @s stats.bonus.armistice += @s armistice
+scoreboard players operation @s stats.bonus.bankShot += @s bankShot
+scoreboard players operation @s stats.bonus.cementShoes += @s cementShoes
+scoreboard players operation @s stats.bonus.coward += @s coward
+scoreboard players operation @s stats.bonus.crushingWeight += @s crushingWeight
+scoreboard players operation @s stats.bonus.einstein += @s einstein
+scoreboard players operation @s stats.bonus.firstStrike += @s firstStrike
+scoreboard players operation @s stats.bonus.fullPower += @s fullPower
+scoreboard players operation @s stats.bonus.goodFriend += @s goodFriend
+scoreboard players operation @s stats.bonus.heartgold += @s heartgold
+scoreboard players operation @s stats.bonus.heavyDamage += @s heavyDamage
+scoreboard players operation @s stats.bonus.lastSecond += @s lastSecond
+scoreboard players operation @s stats.bonus.luckyNumberSeven += @s luckyNumberSeven
+scoreboard players operation @s stats.bonus.mercifulMaster += @s mercifulMaster
+scoreboard players operation @s stats.bonus.noJohns += @s noJohns
+scoreboard players operation @s stats.bonus.NPCKO += @s NPCKO
+scoreboard players operation @s stats.bonus.onARoll += @s onARoll
+scoreboard players operation @s stats.bonus.quitter += @s quitter
+scoreboard players operation @s stats.bonus.rapidKill += @s rapidKill
+scoreboard players operation @s stats.bonus.shieldBreaker += @s shieldBreaker
+scoreboard players operation @s stats.bonus.shinyEncounter += @s shinyEncounter
+scoreboard players operation @s stats.bonus.sniper += @s sniper
+scoreboard players operation @s stats.bonus.speedDemon += @s speedDemon
+scoreboard players operation @s stats.bonus.stiffKnees += @s stiffKnees
+scoreboard players operation @s stats.bonus.suddenDeath += @s suddenDeath
+scoreboard players operation @s stats.bonus.switzerland += @s switzerland
+scoreboard players operation @s stats.bonus.tortoise += @s tortoise
+scoreboard players operation @s stats.bonus.trulyHeroic += @s trulyHeroic
+scoreboard players operation @s stats.bonus.trulyVillainous += @s trulyVillainous
+scoreboard players operation @s stats.bonus.WACCoordinator += @s WACCoordinator
+scoreboard players operation @s stats.bonus.yearLongBattle += @s yearLongBattle
+
 tellraw @s [{"text":"[ ","color":"gold"},{"text":"Show Bonuses","color":"yellow","hoverEvent":{"action":"show_text","contents":[{"storage":"ssbrc:bonuses","nbt":"value[]","interpret":true,"separator":"\n"}]}},{"text":" ]","color":"gold"}]
