@@ -1,2 +1,2 @@
 scoreboard players add @s revenge.timer 1
-execute if score @s revenge.timer matches 600.. run function ssbrc:logic/tick/bonuses/revenge/clear
+execute if score @s revenge.timer matches 600.. run function ssbrc:logic/characters/bonuses/revenge/clear
