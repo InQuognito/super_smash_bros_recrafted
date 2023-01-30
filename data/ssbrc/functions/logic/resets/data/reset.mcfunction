@@ -224,6 +224,7 @@ scoreboard players reset @s stats.bonus.fullPower
 scoreboard players reset @s stats.bonus.goodFriend
 scoreboard players reset @s stats.bonus.heartgold
 scoreboard players reset @s stats.bonus.heavyDamage
+scoreboard players reset @s stats.bonus.ionZoneProtection
 scoreboard players reset @s stats.bonus.lastSecond
 scoreboard players reset @s stats.bonus.luckyNumberSeven
 scoreboard players reset @s stats.bonus.mercifulMaster

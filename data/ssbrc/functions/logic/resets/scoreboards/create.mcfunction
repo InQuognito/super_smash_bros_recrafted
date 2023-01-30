@@ -135,6 +135,7 @@ scoreboard objectives add fullPower dummy
 scoreboard objectives add goodFriend dummy
 scoreboard objectives add heartgold dummy
 scoreboard objectives add heavyDamage dummy
+scoreboard objectives add ionZoneProtection dummy
 scoreboard objectives add lastSecond dummy
 scoreboard objectives add luckyNumberSeven dummy
 scoreboard objectives add mercifulMaster dummy

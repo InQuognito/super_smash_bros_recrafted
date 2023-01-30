@@ -149,6 +149,11 @@ scoreboard players operation value crushingWeight *= value.bonus.crushingWeight 
 execute if score @s crushingWeight matches 1.. run data modify storage ssbrc:bonuses value append value '[{"score":{"name":"@s","objective":"crushingWeight"},"bold":true,"color":"yellow"},{"text":"x ","bold":true,"color":"yellow"},{"text":"Crushing Weight","bold":true,"color":"gold"},{"text":" - ","bold":false,"color":"white"},{"score":{"name":"value","objective":"crushingWeight"},"bold":false,"color":"yellow"},{"text":"₡","bold":false,"color":"yellow"}]}}]'
 scoreboard players operation @s stats.credits.temp += value crushingWeight
 
+scoreboard players operation value ionZoneProtection = @s ionZoneProtection
+scoreboard players operation value ionZoneProtection *= value.bonus.ionZoneProtection vars
+execute if score @s ionZoneProtection matches 1.. run data modify storage ssbrc:bonuses value append value '[{"score":{"name":"@s","objective":"ionZoneProtection"},"bold":true,"color":"yellow"},{"text":"x ","bold":true,"color":"yellow"},{"text":"Ion Zone Protection","bold":true,"color":"gold"},{"text":" - ","bold":false,"color":"white"},{"score":{"name":"value","objective":"ionZoneProtection"},"bold":false,"color":"yellow"},{"text":"₡","bold":false,"color":"yellow"}]}}]'
+scoreboard players operation @s stats.credits.temp += value ionZoneProtection
+
 scoreboard players operation value NPCKO = @s NPCKO
 scoreboard players operation value NPCKO *= value.bonus.NPCKO vars
 execute if score @s NPCKO matches 1.. run data modify storage ssbrc:bonuses value append value '[{"score":{"name":"@s","objective":"NPCKO"},"bold":true,"color":"yellow"},{"text":"x ","bold":true,"color":"yellow"},{"text":"NPC K.O.","bold":true,"color":"gold"},{"text":" - ","bold":false,"color":"white"},{"score":{"name":"value","objective":"NPCKO"},"bold":false,"color":"yellow"},{"text":"₡","bold":false,"color":"yellow"}]}}]'
@@ -211,6 +216,7 @@ scoreboard players operation @s stats.bonus.fullPower += @s fullPower
 scoreboard players operation @s stats.bonus.goodFriend += @s goodFriend
 scoreboard players operation @s stats.bonus.heartgold += @s heartgold
 scoreboard players operation @s stats.bonus.heavyDamage += @s heavyDamage
+scoreboard players operation @s stats.bonus.ionZoneProtection += @s ionZoneProtection
 scoreboard players operation @s stats.bonus.lastSecond += @s lastSecond
 scoreboard players operation @s stats.bonus.luckyNumberSeven += @s luckyNumberSeven
 scoreboard players operation @s stats.bonus.mercifulMaster += @s mercifulMaster

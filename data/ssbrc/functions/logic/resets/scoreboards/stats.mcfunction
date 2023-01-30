@@ -247,6 +247,7 @@ scoreboard objectives add stats.zelda.winStreak dummy
 scoreboard objectives add stats.bonus.765o dummy
 scoreboard objectives add stats.bonus.8PlayerMatch dummy
 scoreboard objectives add stats.bonus.acrobat dummy
+scoreboard objectives add stats.bonus.aerialist dummy
 scoreboard objectives add stats.bonus.armistice dummy
 scoreboard objectives add stats.bonus.bankShot dummy
 scoreboard objectives add stats.bonus.cementShoes dummy
@@ -258,6 +259,7 @@ scoreboard objectives add stats.bonus.fullPower dummy
 scoreboard objectives add stats.bonus.goodFriend dummy
 scoreboard objectives add stats.bonus.heartgold dummy
 scoreboard objectives add stats.bonus.heavyDamage dummy
+scoreboard objectives add stats.bonus.ionZoneProtection dummy
 scoreboard objectives add stats.bonus.lastSecond dummy
 scoreboard objectives add stats.bonus.luckyNumberSeven dummy
 scoreboard objectives add stats.bonus.mercifulMaster dummy

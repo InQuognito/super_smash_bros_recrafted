@@ -254,6 +254,7 @@ scoreboard objectives remove stats.bonus.fullPower
 scoreboard objectives remove stats.bonus.goodFriend
 scoreboard objectives remove stats.bonus.heartgold
 scoreboard objectives remove stats.bonus.heavyDamage
+scoreboard objectives remove stats.bonus.ionZoneProtection
 scoreboard objectives remove stats.bonus.lastSecond
 scoreboard objectives remove stats.bonus.luckyNumberSeven
 scoreboard objectives remove stats.bonus.mercifulMaster
