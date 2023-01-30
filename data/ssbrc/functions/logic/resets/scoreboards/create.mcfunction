@@ -121,6 +121,8 @@ scoreboard objectives add 765o.tracking dummy
 scoreboard objectives add 8PlayerMatch dummy
 scoreboard objectives add acrobat dummy
 scoreboard objectives add acrobat.tracking dummy
+scoreboard objectives add aerialist dummy
+scoreboard objectives add aerialist.tracking dummy
 scoreboard objectives add armistice dummy
 scoreboard objectives add bankShot dummy
 scoreboard objectives add cementShoes dummy

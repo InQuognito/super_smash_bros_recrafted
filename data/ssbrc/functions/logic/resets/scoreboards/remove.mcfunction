@@ -121,6 +121,8 @@ scoreboard objectives remove 765o.tracking
 scoreboard objectives remove 8PlayerMatch
 scoreboard objectives remove acrobat
 scoreboard objectives remove acrobat.tracking
+scoreboard objectives remove aerialist
+scoreboard objectives remove aerialist.tracking
 scoreboard objectives remove armistice
 scoreboard objectives remove bankShot
 scoreboard objectives remove cementShoes

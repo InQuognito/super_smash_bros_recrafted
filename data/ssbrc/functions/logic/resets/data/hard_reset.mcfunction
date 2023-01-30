@@ -242,6 +242,7 @@ scoreboard objectives remove stats.zelda.winStreak
 scoreboard objectives remove stats.bonus.765o
 scoreboard objectives remove stats.bonus.8PlayerMatch
 scoreboard objectives remove stats.bonus.acrobat
+scoreboard objectives remove stats.bonus.aerialist
 scoreboard objectives remove stats.bonus.armistice
 scoreboard objectives remove stats.bonus.bankShot
 scoreboard objectives remove stats.bonus.cementShoes

@@ -24,6 +24,11 @@ scoreboard players operation value acrobat *= value.bonus.acrobat vars
 execute if score @s acrobat matches 1.. run data modify storage ssbrc:bonuses value append value '[{"text":"Acrobat","bold":true,"color":"gold"},{"text":" - ","bold":false,"color":"white"},{"score":{"name":"value","objective":"acrobat"},"bold":false,"color":"yellow"},{"text":"₡","bold":false,"color":"yellow"}]}}]'
 scoreboard players operation @s stats.credits.temp += value acrobat
 
+scoreboard players operation value aerialist = @s aerialist
+scoreboard players operation value aerialist *= value.bonus.aerialist vars
+execute if score @s aerialist matches 1.. run data modify storage ssbrc:bonuses value append value '[{"text":"Aerialist","bold":true,"color":"gold"},{"text":" - ","bold":false,"color":"white"},{"score":{"name":"value","objective":"aerialist"},"bold":false,"color":"yellow"},{"text":"₡","bold":false,"color":"yellow"}]}}]'
+scoreboard players operation @s stats.credits.temp += value aerialist
+
 scoreboard players operation value armistice = @s armistice
 scoreboard players operation value armistice *= value.bonus.armistice vars
 execute if score @s armistice matches 1.. run data modify storage ssbrc:bonuses value append value '[{"text":"Armistice","bold":true,"color":"gold"},{"text":" - ","bold":false,"color":"white"},{"score":{"name":"value","objective":"armistice"},"bold":false,"color":"yellow"},{"text":"₡","bold":false,"color":"yellow"}]}}]'
@@ -194,6 +199,7 @@ scoreboard players operation @s stats.credits += @s stats.credits.temp
 scoreboard players operation @s stats.bonus.765o += @s 765o
 scoreboard players operation @s stats.bonus.8PlayerMatch += @s 8PlayerMatch
 scoreboard players operation @s stats.bonus.acrobat += @s acrobat
+scoreboard players operation @s stats.bonus.aerialist += @s aerialist
 scoreboard players operation @s stats.bonus.armistice += @s armistice
 scoreboard players operation @s stats.bonus.bankShot += @s bankShot
 scoreboard players operation @s stats.bonus.cementShoes += @s cementShoes

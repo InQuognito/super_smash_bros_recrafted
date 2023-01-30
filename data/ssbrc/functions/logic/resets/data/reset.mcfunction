@@ -8,6 +8,11 @@ scoreboard players reset @s stats.winStreak
 scoreboard players reset @s stats.winStreak.record
 scoreboard players reset @s stats.credits
 
+scoreboard players reset @s favorite.slot1
+scoreboard players reset @s favorite.slot2
+scoreboard players reset @s favorite.slot3
+
+# Characters
 scoreboard players reset @s stats.alteredbeast.deaths
 scoreboard players reset @s stats.alucard.deaths
 scoreboard players reset @s stats.bowser.deaths
@@ -202,6 +207,43 @@ scoreboard players reset @s stats.teamrocket.winStreak
 scoreboard players reset @s stats.wolf.winStreak
 scoreboard players reset @s stats.yar.winStreak
 scoreboard players reset @s stats.zelda.winStreak
+
+# Bonuses
+scoreboard players reset @s stats.bonus.765o
+scoreboard players reset @s stats.bonus.8PlayerMatch
+scoreboard players reset @s stats.bonus.acrobat
+scoreboard players reset @s stats.bonus.aerialist
+scoreboard players reset @s stats.bonus.armistice
+scoreboard players reset @s stats.bonus.bankShot
+scoreboard players reset @s stats.bonus.cementShoes
+scoreboard players reset @s stats.bonus.coward
+scoreboard players reset @s stats.bonus.crushingWeight
+scoreboard players reset @s stats.bonus.einstein
+scoreboard players reset @s stats.bonus.firstStrike
+scoreboard players reset @s stats.bonus.fullPower
+scoreboard players reset @s stats.bonus.goodFriend
+scoreboard players reset @s stats.bonus.heartgold
+scoreboard players reset @s stats.bonus.heavyDamage
+scoreboard players reset @s stats.bonus.lastSecond
+scoreboard players reset @s stats.bonus.luckyNumberSeven
+scoreboard players reset @s stats.bonus.mercifulMaster
+scoreboard players reset @s stats.bonus.noJohns
+scoreboard players reset @s stats.bonus.NPCKO
+scoreboard players reset @s stats.bonus.onARoll
+scoreboard players reset @s stats.bonus.quitter
+scoreboard players reset @s stats.bonus.rapidKill
+scoreboard players reset @s stats.bonus.shieldBreaker
+scoreboard players reset @s stats.bonus.shinyEncounter
+scoreboard players reset @s stats.bonus.sniper
+scoreboard players reset @s stats.bonus.speedDemon
+scoreboard players reset @s stats.bonus.stiffKnees
+scoreboard players reset @s stats.bonus.suddenDeath
+scoreboard players reset @s stats.bonus.switzerland
+scoreboard players reset @s stats.bonus.tortoise
+scoreboard players reset @s stats.bonus.trulyHeroic
+scoreboard players reset @s stats.bonus.trulyVillainous
+scoreboard players reset @s stats.bonus.WACCoordinator
+scoreboard players reset @s stats.bonus.yearLongBattle
 
 tellraw @s {"text":"Your data has been successfully reset.","color":"yellow"}
 scoreboard players reset @s reset
