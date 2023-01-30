@@ -7,5 +7,5 @@ execute if entity @s[tag=6] run summon minecraft:armor_stand ^ ^ ^30 {Tags:["pos
 execute if entity @s[tag=7] run summon minecraft:armor_stand ^ ^ ^30 {Tags:["post","7","modifyEntity"],Invisible:1b,NoGravity:1b}
 execute if entity @s[tag=8] run summon minecraft:armor_stand ^ ^ ^30 {Tags:["post","8","modifyEntity"],Invisible:1b,NoGravity:1b}
 
-loot replace entity @e[tag=modifyEntity,limit=1] armor.head loot ssbrc:maps/m/miiverse/posts/alteredbeast/1
+loot replace entity @e[tag=modifyEntity,limit=1] weapon.mainhand loot ssbrc:maps/m/miiverse/posts/alteredbeast/1
 tag @e[tag=modifyEntity,limit=1] remove modifyEntity
