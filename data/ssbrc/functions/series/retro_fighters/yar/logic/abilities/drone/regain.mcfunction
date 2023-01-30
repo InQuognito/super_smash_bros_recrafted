@@ -1,2 +1,2 @@
-loot replace entity @s hotbar.2 loot ssbrc:characters/retro_fighters/yar/drone/activate
-kill @e[tag=drone,sort=nearest,limit=1]
+loot replace entity @p[tag=self] hotbar.2 loot ssbrc:characters/retro_fighters/yar/drone/activate
+kill @s
