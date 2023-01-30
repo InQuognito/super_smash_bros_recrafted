@@ -8,6 +8,6 @@ execute if score $gameStage temp matches 4 if entity @s[tag=teamrocket,tag=wobbu
 execute if score $gameStage temp matches 4 if entity @s[tag=zelda,nbt={Inventory:[{tag:{nayrusRing:1}}]},scores={health=..6}] run function ssbrc:series/the_legend_of_zelda/zelda/logic/get_hurt
 execute if score $gameStage temp matches 4 if entity @s[tag=yar,nbt={SelectedItem:{tag:{gatlingGun:1}}},scores={charge.output=1..}] run scoreboard players reset @s charge.output
 
-execute if score $gameStage temp matches 4 run scoreboard players reset @s coward.tracking
+execute if score $gameStage temp matches 4 run scoreboard players reset @s coward.timer
 
 advancement revoke @s only ssbrc:utility/flag/get_hurt/source/any

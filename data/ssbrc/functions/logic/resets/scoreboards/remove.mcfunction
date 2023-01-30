@@ -122,12 +122,12 @@ scoreboard objectives remove 8PlayerMatch
 scoreboard objectives remove acrobat
 scoreboard objectives remove acrobat.tracking
 scoreboard objectives remove aerialist
-scoreboard objectives remove aerialist.tracking
+scoreboard objectives remove aerialist.timer
 scoreboard objectives remove armistice
 scoreboard objectives remove bankShot
 scoreboard objectives remove cementShoes
 scoreboard objectives remove coward
-scoreboard objectives remove coward.tracking
+scoreboard objectives remove coward.timer
 scoreboard objectives remove crushingWeight
 scoreboard objectives remove einstein
 scoreboard objectives remove firstStrike
@@ -144,7 +144,10 @@ scoreboard objectives remove NPCKO
 scoreboard objectives remove onARoll
 scoreboard objectives remove quitter
 scoreboard objectives remove rapidKill
-scoreboard objectives remove rapidKill.tracking
+scoreboard objectives remove rapidKill.timer
+scoreboard objectives remove revenge
+scoreboard objectives remove revenge.timer
+scoreboard objectives remove revenge.tracking
 scoreboard objectives remove shieldBreaker
 scoreboard objectives remove shinyEncounter
 scoreboard objectives remove sniper

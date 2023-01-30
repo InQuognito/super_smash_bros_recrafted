@@ -258,6 +258,7 @@ execute unless score @s stats.bonus.NPCKO matches 1.. run scoreboard players set
 execute unless score @s stats.bonus.onARoll matches 1.. run scoreboard players set @s stats.bonus.onARoll 0
 execute unless score @s stats.bonus.quitter matches 1.. run scoreboard players set @s stats.bonus.quitter 0
 execute unless score @s stats.bonus.rapidKill matches 1.. run scoreboard players set @s stats.bonus.rapidKill 0
+execute unless score @s stats.bonus.revenge matches 1.. run scoreboard players set @s stats.bonus.revenge 0
 execute unless score @s stats.bonus.shieldBreaker matches 1.. run scoreboard players set @s stats.bonus.shieldBreaker 0
 execute unless score @s stats.bonus.shinyEncounter matches 1.. run scoreboard players set @s stats.bonus.shinyEncounter 0
 execute unless score @s stats.bonus.sniper matches 1.. run scoreboard players set @s stats.bonus.sniper 0

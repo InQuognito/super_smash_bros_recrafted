@@ -268,6 +268,7 @@ scoreboard objectives add stats.bonus.NPCKO dummy
 scoreboard objectives add stats.bonus.onARoll dummy
 scoreboard objectives add stats.bonus.quitter dummy
 scoreboard objectives add stats.bonus.rapidKill dummy
+scoreboard objectives add stats.bonus.revenge dummy
 scoreboard objectives add stats.bonus.shieldBreaker dummy
 scoreboard objectives add stats.bonus.shinyEncounter dummy
 scoreboard objectives add stats.bonus.sniper dummy

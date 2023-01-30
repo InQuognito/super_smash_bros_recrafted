@@ -263,6 +263,7 @@ scoreboard objectives remove stats.bonus.NPCKO
 scoreboard objectives remove stats.bonus.onARoll
 scoreboard objectives remove stats.bonus.quitter
 scoreboard objectives remove stats.bonus.rapidKill
+scoreboard objectives remove stats.bonus.revenge
 scoreboard objectives remove stats.bonus.shieldBreaker
 scoreboard objectives remove stats.bonus.shinyEncounter
 scoreboard objectives remove stats.bonus.sniper

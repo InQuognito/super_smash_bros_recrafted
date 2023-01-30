@@ -122,12 +122,12 @@ scoreboard objectives add 8PlayerMatch dummy
 scoreboard objectives add acrobat dummy
 scoreboard objectives add acrobat.tracking dummy
 scoreboard objectives add aerialist dummy
-scoreboard objectives add aerialist.tracking dummy
+scoreboard objectives add aerialist.timer dummy
 scoreboard objectives add armistice dummy
 scoreboard objectives add bankShot dummy
 scoreboard objectives add cementShoes dummy
 scoreboard objectives add coward dummy
-scoreboard objectives add coward.tracking dummy
+scoreboard objectives add coward.timer dummy
 scoreboard objectives add crushingWeight dummy
 scoreboard objectives add einstein dummy
 scoreboard objectives add firstStrike dummy
@@ -144,7 +144,10 @@ scoreboard objectives add NPCKO dummy
 scoreboard objectives add onARoll dummy
 scoreboard objectives add quitter dummy
 scoreboard objectives add rapidKill dummy
-scoreboard objectives add rapidKill.tracking dummy
+scoreboard objectives add rapidKill.timer dummy
+scoreboard objectives add revenge dummy
+scoreboard objectives add revenge.timer dummy
+scoreboard objectives add revenge.tracking dummy
 scoreboard objectives add shieldBreaker dummy
 scoreboard objectives add shinyEncounter dummy
 scoreboard objectives add sniper dummy

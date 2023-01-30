@@ -164,6 +164,11 @@ scoreboard players operation value rapidKill *= value.bonus.rapidKill vars
 execute if score @s rapidKill matches 1.. run data modify storage ssbrc:bonuses value append value '[{"score":{"name":"@s","objective":"rapidKill"},"bold":true,"color":"yellow"},{"text":"x ","bold":true,"color":"yellow"},{"text":"Rapid Kill","bold":true,"color":"gold"},{"text":" - ","bold":false,"color":"white"},{"score":{"name":"value","objective":"rapidKill"},"bold":false,"color":"yellow"},{"text":"₡","bold":false,"color":"yellow"}]}}]'
 scoreboard players operation @s stats.credits.temp += value rapidKill
 
+scoreboard players operation value revenge = @s revenge
+scoreboard players operation value revenge *= value.bonus.revenge vars
+execute if score @s revenge matches 1.. run data modify storage ssbrc:bonuses value append value '[{"score":{"name":"@s","objective":"revenge"},"bold":true,"color":"yellow"},{"text":"x ","bold":true,"color":"yellow"},{"text":"Revenge","bold":true,"color":"gold"},{"text":" - ","bold":false,"color":"white"},{"score":{"name":"value","objective":"revenge"},"bold":false,"color":"yellow"},{"text":"₡","bold":false,"color":"yellow"}]}}]'
+scoreboard players operation @s stats.credits.temp += value revenge
+
 scoreboard players operation value shieldBreaker = @s shieldBreaker
 scoreboard players operation value shieldBreaker *= value.bonus.shieldBreaker vars
 execute if score @s shieldBreaker matches 1.. run data modify storage ssbrc:bonuses value append value '[{"score":{"name":"@s","objective":"shieldBreaker"},"bold":true,"color":"yellow"},{"text":"x ","bold":true,"color":"yellow"},{"text":"Shield Breaker","bold":true,"color":"gold"},{"text":" - ","bold":false,"color":"white"},{"score":{"name":"value","objective":"shieldBreaker"},"bold":false,"color":"yellow"},{"text":"₡","bold":false,"color":"yellow"}]}}]'
@@ -225,6 +230,7 @@ scoreboard players operation @s stats.bonus.NPCKO += @s NPCKO
 scoreboard players operation @s stats.bonus.onARoll += @s onARoll
 scoreboard players operation @s stats.bonus.quitter += @s quitter
 scoreboard players operation @s stats.bonus.rapidKill += @s rapidKill
+scoreboard players operation @s stats.bonus.revenge += @s revenge
 scoreboard players operation @s stats.bonus.shieldBreaker += @s shieldBreaker
 scoreboard players operation @s stats.bonus.shinyEncounter += @s shinyEncounter
 scoreboard players operation @s stats.bonus.sniper += @s sniper

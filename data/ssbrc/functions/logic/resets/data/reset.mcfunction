@@ -233,6 +233,7 @@ scoreboard players reset @s stats.bonus.NPCKO
 scoreboard players reset @s stats.bonus.onARoll
 scoreboard players reset @s stats.bonus.quitter
 scoreboard players reset @s stats.bonus.rapidKill
+scoreboard players reset @s stats.bonus.revenge
 scoreboard players reset @s stats.bonus.shieldBreaker
 scoreboard players reset @s stats.bonus.shinyEncounter
 scoreboard players reset @s stats.bonus.sniper

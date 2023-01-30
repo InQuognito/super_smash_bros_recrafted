@@ -32,9 +32,9 @@ execute unless score #towerOfFateDestroyed temp matches 1 if score $towerOfFate 
 
 scoreboard players set @s flag.dead 0
 
-scoreboard players reset @s coward.tracking
+scoreboard players reset @s coward.timer
 scoreboard players reset @s noJohns
-scoreboard players reset @s rapidKill.tracking
+scoreboard players reset @s rapidKill.timer
 
 function ssbrc:logic/stats/deaths
 

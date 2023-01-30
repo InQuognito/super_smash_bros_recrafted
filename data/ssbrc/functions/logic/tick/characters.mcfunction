@@ -104,4 +104,4 @@ execute if score $sandOcean map matches 1 if score $hazards options matches 1 at
 execute unless score @s aerialist matches 1.. at @s run function ssbrc:logic/tick/bonuses/aerialist/tick
 scoreboard players reset @s[scores={stiffKnees=1..},predicate=ssbrc:flag/sneaking] stiffKnees
 scoreboard players reset @s[scores={tortoise=1..},predicate=ssbrc:flag/sprinting] tortoise
-scoreboard players remove @s[scores={rapidKill.tracking=1..}] rapidKill.tracking 1
+scoreboard players remove @s[scores={rapidKill.timer=1..}] rapidKill.timer 1
