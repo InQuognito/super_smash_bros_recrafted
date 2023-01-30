@@ -17,7 +17,3 @@ tag @s add room.mapVoting
 
 title @s clear
 title @s reset
-
-scoreboard players set $global id 0
-#execute as @r[tag=alive,tag=!idSet] run function ssbrc:logic/id/set
-function ssbrc:logic/id/set
