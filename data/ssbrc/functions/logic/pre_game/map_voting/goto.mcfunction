@@ -3,9 +3,6 @@ clear @s
 scoreboard players reset @s useAbility
 function ssbrc:logic/resets/triggers
 
-execute if entity @s[tag=byleth,tag=selectingLoadout] run function ssbrc:series/fire_emblem/byleth/menu/select_character
-execute if entity @s[tag=snake,tag=selectingLoadout] run function ssbrc:series/metal_gear_solid/snake/menu/select_character
-
 gamemode spectator @s[team=spectator]
 
 tag @s[team=!spectator] add alive

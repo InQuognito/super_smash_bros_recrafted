@@ -11,7 +11,7 @@ tellraw @s[tag=male] [{"text":"Gender: ","color":"yellow"},{"text":"Male","color
 
 tag @s add byleth
 
-tag @s remove selectingLoadout
+tag @s remove selectingLoadout.byleth
 tag @s add characterPicked
 
 execute if score $teams options matches 0 run team join ready @s

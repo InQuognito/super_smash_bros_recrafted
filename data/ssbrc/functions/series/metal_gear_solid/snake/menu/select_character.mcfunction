@@ -9,7 +9,7 @@ tellraw @s[tag=iroquoisPliskin] [{"text":"Skin: ","color":"white"},{"text":"Iroq
 tag @s add snake
 
 tag @s remove ignoreFeedback
-tag @s remove selectingLoadout
+tag @s remove selectingLoadout.snake
 tag @s add characterPicked
 
 execute if score $teams options matches 0 run team join ready @s

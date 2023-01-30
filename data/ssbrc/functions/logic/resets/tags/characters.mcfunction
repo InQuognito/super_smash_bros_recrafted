@@ -48,7 +48,8 @@ tag @s remove immobile
 tag @s remove naturalShiny
 tag @s remove nextFighterChosen
 tag @s remove pickingRandom
-tag @s remove selectingLoadout
+tag @s remove selectingLoadout.byleth
+tag @s remove selectingLoadout.snake
 tag @s remove shieldBroken
 
 tag @s remove female

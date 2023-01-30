@@ -1,7 +1,7 @@
 scoreboard players set @s characterPicked 1
 tag @s add ignoreFeedback
 
-tag @s add selectingLoadout
+tag @s add selectingLoadout.snake
 
 execute unless score @s characterPicked matches 2 if predicate ssbrc:random_chance/15 run function ssbrc:series/metal_gear_solid/snake/menu/skins/random
 
