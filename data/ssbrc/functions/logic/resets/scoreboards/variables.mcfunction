@@ -141,11 +141,16 @@ scoreboard players operation value.bonus.8PlayerMatch vars *= 2 integers
 scoreboard players operation value.bonus.acrobat vars = value.participation vars
 scoreboard players operation value.bonus.acrobat vars *= 2 integers
 
+scoreboard players operation value.bonus.aerialist vars = value.participation vars
+scoreboard players operation value.bonus.aerialist vars *= 1 integers
+
 scoreboard players operation value.bonus.armistice vars = value.participation vars
 scoreboard players operation value.bonus.armistice vars *= 1 integers
 
 scoreboard players operation value.bonus.bankShot vars = value.KO vars
 scoreboard players operation value.bonus.bankShot vars *= 1 integers
+
+scoreboard players set value.bonus.bully vars -100
 
 scoreboard players operation value.bonus.cementShoes vars = value.participation vars
 scoreboard players operation value.bonus.cementShoes vars *= 2 integers
@@ -169,6 +174,9 @@ scoreboard players operation value.bonus.heartgold vars *= 1 integers
 scoreboard players operation value.bonus.heavyDamage vars = value.participation vars
 scoreboard players operation value.bonus.heavyDamage vars *= 1 integers
 
+scoreboard players operation value.bonus.ionZoneProtection vars = value.participation vars
+scoreboard players operation value.bonus.ionZoneProtection vars *= 1 integers
+
 scoreboard players operation value.bonus.lastSecond vars = value.KO vars
 scoreboard players operation value.bonus.lastSecond vars *= 2 integers
 
@@ -188,6 +196,9 @@ scoreboard players operation value.bonus.onARoll vars *= 1 integers
 
 scoreboard players operation value.bonus.rapidKill vars = value.KO vars
 scoreboard players operation value.bonus.rapidKill vars *= 1 integers
+
+scoreboard players operation value.bonus.revenge vars = value.KO vars
+scoreboard players operation value.bonus.revenge vars *= 1 integers
 
 scoreboard players set value.bonus.selfDestruct vars -25
 

@@ -125,6 +125,8 @@ scoreboard objectives remove aerialist
 scoreboard objectives remove aerialist.timer
 scoreboard objectives remove armistice
 scoreboard objectives remove bankShot
+scoreboard objectives remove bully
+scoreboard objectives remove bully.tracking
 scoreboard objectives remove cementShoes
 scoreboard objectives remove coward
 scoreboard objectives remove coward.timer

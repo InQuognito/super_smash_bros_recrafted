@@ -1,6 +1,6 @@
 execute if entity @s[tag=winner,scores={health=40..}] run scoreboard players set @s fullPower 1
 
-execute if score $gameMode options matches 1 if score $teams options matches 1 if entity @s[tag=winner] run function ssbrc:logic/post_game/bonuses/good_friend
+execute if score $gameMode options matches 1 if score $teams options matches 1 if entity @s[tag=winner] run function ssbrc:logic/characters/bonuses/good_friend
 
 execute if entity @s[tag=winner,scores={health=..4}] run scoreboard players set @s heavyDamage 1
 

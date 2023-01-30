@@ -184,6 +184,11 @@ scoreboard players operation value sniper *= value.bonus.sniper vars
 execute if score @s sniper matches 1.. run data modify storage ssbrc:bonuses value append value '[{"score":{"name":"@s","objective":"sniper"},"bold":true,"color":"yellow"},{"text":"x ","bold":true,"color":"yellow"},{"text":"Sniper","bold":true,"color":"gold"},{"text":" - ","bold":false,"color":"white"},{"score":{"name":"value","objective":"sniper"},"bold":false,"color":"yellow"},{"text":"₡","bold":false,"color":"yellow"}]}}]'
 scoreboard players operation @s stats.credits.temp += value sniper
 
+scoreboard players operation value bully = @s bully
+scoreboard players operation value bully *= value.bonus.bully vars
+execute if score @s bully matches 1.. run data modify storage ssbrc:bonuses value append value '[{"text":"Bully","bold":true,"color":"gold"},{"text":" - ","bold":false,"color":"white"},{"score":{"name":"value","objective":"bully"},"bold":false,"color":"yellow"},{"text":"₡","bold":false,"color":"yellow"}]}}]'
+scoreboard players operation @s stats.credits.temp += value bully
+
 scoreboard players operation value coward = @s coward
 scoreboard players operation value coward *= value.bonus.coward vars
 execute if score @s coward matches 1.. run data modify storage ssbrc:bonuses value append value '[{"score":{"name":"@s","objective":"coward"},"bold":true,"color":"yellow"},{"text":"x ","bold":true,"color":"yellow"},{"text":"Coward","bold":true,"color":"gold"},{"text":" - ","bold":false,"color":"white"},{"score":{"name":"value","objective":"coward"},"bold":false,"color":"yellow"},{"text":"₡","bold":false,"color":"yellow"}]}}]'
@@ -212,6 +217,7 @@ scoreboard players operation @s stats.bonus.acrobat += @s acrobat
 scoreboard players operation @s stats.bonus.aerialist += @s aerialist
 scoreboard players operation @s stats.bonus.armistice += @s armistice
 scoreboard players operation @s stats.bonus.bankShot += @s bankShot
+scoreboard players operation @s stats.bonus.bully += @s bully
 scoreboard players operation @s stats.bonus.cementShoes += @s cementShoes
 scoreboard players operation @s stats.bonus.coward += @s coward
 scoreboard players operation @s stats.bonus.crushingWeight += @s crushingWeight

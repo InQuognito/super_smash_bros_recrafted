@@ -240,6 +240,7 @@ execute unless score @s stats.bonus.acrobat matches 1.. run scoreboard players s
 execute unless score @s stats.bonus.aerialist matches 1.. run scoreboard players set @s stats.bonus.aerialist 0
 execute unless score @s stats.bonus.armistice matches 1.. run scoreboard players set @s stats.bonus.armistice 0
 execute unless score @s stats.bonus.bankShot matches 1.. run scoreboard players set @s stats.bonus.bankShot 0
+execute unless score @s stats.bonus.bully matches 1.. run scoreboard players set @s stats.bonus.bully 0
 execute unless score @s stats.bonus.cementShoes matches 1.. run scoreboard players set @s stats.bonus.cementShoes 0
 execute unless score @s stats.bonus.coward matches 1.. run scoreboard players set @s stats.bonus.coward 0
 execute unless score @s stats.bonus.crushingWeight matches 1.. run scoreboard players set @s stats.bonus.crushingWeight 0

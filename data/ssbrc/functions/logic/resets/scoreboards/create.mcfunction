@@ -125,6 +125,8 @@ scoreboard objectives add aerialist dummy
 scoreboard objectives add aerialist.timer dummy
 scoreboard objectives add armistice dummy
 scoreboard objectives add bankShot dummy
+scoreboard objectives add bully dummy
+scoreboard objectives add bully.tracking dummy
 scoreboard objectives add cementShoes dummy
 scoreboard objectives add coward dummy
 scoreboard objectives add coward.timer dummy

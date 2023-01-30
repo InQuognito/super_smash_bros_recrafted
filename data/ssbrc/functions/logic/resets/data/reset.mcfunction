@@ -215,6 +215,7 @@ scoreboard players reset @s stats.bonus.acrobat
 scoreboard players reset @s stats.bonus.aerialist
 scoreboard players reset @s stats.bonus.armistice
 scoreboard players reset @s stats.bonus.bankShot
+scoreboard players reset @s stats.bonus.bully
 scoreboard players reset @s stats.bonus.cementShoes
 scoreboard players reset @s stats.bonus.coward
 scoreboard players reset @s stats.bonus.crushingWeight

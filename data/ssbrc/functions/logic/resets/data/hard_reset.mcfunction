@@ -245,6 +245,7 @@ scoreboard objectives remove stats.bonus.acrobat
 scoreboard objectives remove stats.bonus.aerialist
 scoreboard objectives remove stats.bonus.armistice
 scoreboard objectives remove stats.bonus.bankShot
+scoreboard objectives remove stats.bonus.bully
 scoreboard objectives remove stats.bonus.cementShoes
 scoreboard objectives remove stats.bonus.coward
 scoreboard objectives remove stats.bonus.crushingWeight
