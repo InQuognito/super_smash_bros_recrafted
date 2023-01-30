@@ -6,7 +6,7 @@ scoreboard players reset @s stats.gamesPlayed
 scoreboard players reset @s stats.wins
 scoreboard players reset @s stats.winStreak
 scoreboard players reset @s stats.winStreak.record
-scoreboard players reset @s currency
+scoreboard players reset @s stats.credits
 
 scoreboard players reset @s stats.alteredbeast.deaths
 scoreboard players reset @s stats.alucard.deaths

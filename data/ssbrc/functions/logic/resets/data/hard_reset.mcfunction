@@ -1,5 +1,15 @@
 function ssbrc:logic/resets/scoreboards/remove
 
+scoreboard objectives remove stats.credits
+scoreboard objectives remove stats.deaths
+scoreboard objectives remove stats.kills
+scoreboard objectives remove stats.gamesPlayed
+scoreboard objectives remove stats.wins
+scoreboard objectives remove stats.winStreak
+scoreboard objectives remove stats.winStreak.record
+scoreboard objectives remove options
+
+# Characters
 scoreboard objectives remove stats.alteredbeast.deaths
 scoreboard objectives remove stats.alteredbeast.kills
 scoreboard objectives remove stats.alteredbeast.gamesPlayed
@@ -228,15 +238,41 @@ scoreboard objectives remove stats.zelda.gamesPlayed
 scoreboard objectives remove stats.zelda.wins
 scoreboard objectives remove stats.zelda.winStreak
 
-# Misc
-scoreboard objectives remove options
-scoreboard objectives remove currency
-scoreboard objectives remove stats.deaths
-scoreboard objectives remove stats.kills
-scoreboard objectives remove stats.gamesPlayed
-scoreboard objectives remove stats.wins
-scoreboard objectives remove stats.winStreak
-scoreboard objectives remove stats.winStreak.record
+# Bonuses
+scoreboard objectives remove stats.bonus.765o
+scoreboard objectives remove stats.bonus.8PlayerMatch
+scoreboard objectives remove stats.bonus.acrobat
+scoreboard objectives remove stats.bonus.armistice
+scoreboard objectives remove stats.bonus.bankShot
+scoreboard objectives remove stats.bonus.cementShoes
+scoreboard objectives remove stats.bonus.coward
+scoreboard objectives remove stats.bonus.crushingWeight
+scoreboard objectives remove stats.bonus.einstein
+scoreboard objectives remove stats.bonus.firstStrike
+scoreboard objectives remove stats.bonus.fullPower
+scoreboard objectives remove stats.bonus.goodFriend
+scoreboard objectives remove stats.bonus.heartgold
+scoreboard objectives remove stats.bonus.heavyDamage
+scoreboard objectives remove stats.bonus.lastSecond
+scoreboard objectives remove stats.bonus.luckyNumberSeven
+scoreboard objectives remove stats.bonus.mercifulMaster
+scoreboard objectives remove stats.bonus.noJohns
+scoreboard objectives remove stats.bonus.NPCKO
+scoreboard objectives remove stats.bonus.onARoll
+scoreboard objectives remove stats.bonus.quitter
+scoreboard objectives remove stats.bonus.rapidKill
+scoreboard objectives remove stats.bonus.shieldBreaker
+scoreboard objectives remove stats.bonus.shinyEncounter
+scoreboard objectives remove stats.bonus.sniper
+scoreboard objectives remove stats.bonus.speedDemon
+scoreboard objectives remove stats.bonus.stiffKnees
+scoreboard objectives remove stats.bonus.suddenDeath
+scoreboard objectives remove stats.bonus.switzerland
+scoreboard objectives remove stats.bonus.tortoise
+scoreboard objectives remove stats.bonus.trulyHeroic
+scoreboard objectives remove stats.bonus.trulyVillainous
+scoreboard objectives remove stats.bonus.WACCoordinator
+scoreboard objectives remove stats.bonus.yearLongBattle
 
 function ssbrc:logic/load
 

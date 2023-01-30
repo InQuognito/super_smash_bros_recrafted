@@ -15,8 +15,7 @@ scoreboard objectives remove cloud.limit
 scoreboard objectives remove cooldown.1
 scoreboard objectives remove cooldown.2
 scoreboard objectives remove cooldown.3
-#scoreboard objectives remove currency
-scoreboard objectives remove currency.temp
+scoreboard objectives remove stats.credits.temp
 scoreboard objectives remove damage
 scoreboard objectives remove damage.fireball
 scoreboard objectives remove damage.fireBreath
@@ -29,9 +28,6 @@ scoreboard objectives remove duration.2
 scoreboard objectives remove duration.3
 scoreboard objectives remove duration.4
 scoreboard objectives remove fallDistance
-#scoreboard objectives remove favorite.slot1
-#scoreboard objectives remove favorite.slot2
-#scoreboard objectives remove favorite.slot3
 scoreboard objectives remove favorite.temp
 scoreboard objectives remove flag.breakShield
 scoreboard objectives remove flag.damageDealt
@@ -65,7 +61,6 @@ scoreboard objectives remove moveDistance
 scoreboard objectives remove point
 scoreboard objectives remove points
 scoreboard objectives remove pos
-#scoreboard objectives remove random
 scoreboard objectives remove raycast
 scoreboard objectives remove raycastSuccess
 scoreboard objectives remove reset

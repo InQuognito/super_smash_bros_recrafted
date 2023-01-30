@@ -363,7 +363,7 @@
 										{
 											"score": {
 												"name": "@s",
-												"objective": "currency"
+												"objective": "stats.credits"
 											},
 											"color": "yellow",
 											"bold": false,

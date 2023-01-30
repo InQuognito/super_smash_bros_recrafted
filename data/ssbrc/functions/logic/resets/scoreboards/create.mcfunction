@@ -15,8 +15,7 @@ scoreboard objectives add cloud.limit dummy
 scoreboard objectives add cooldown.1 dummy
 scoreboard objectives add cooldown.2 dummy
 scoreboard objectives add cooldown.3 dummy
-scoreboard objectives add currency dummy
-scoreboard objectives add currency.temp dummy
+scoreboard objectives add stats.credits.temp dummy
 scoreboard objectives add damage dummy
 scoreboard objectives add damage.fireball dummy
 scoreboard objectives add damage.fireBreath dummy
@@ -29,9 +28,6 @@ scoreboard objectives add duration.2 dummy
 scoreboard objectives add duration.3 dummy
 scoreboard objectives add duration.4 dummy
 scoreboard objectives add fallDistance minecraft.custom:minecraft.fall_one_cm
-scoreboard objectives add favorite.slot1 dummy
-scoreboard objectives add favorite.slot2 dummy
-scoreboard objectives add favorite.slot3 dummy
 scoreboard objectives add favorite.temp dummy
 scoreboard objectives add flag.breakShield minecraft.broken:minecraft.shield
 scoreboard objectives add flag.damageDealt minecraft.custom:minecraft.damage_dealt
@@ -65,7 +61,6 @@ scoreboard objectives add moveDistance minecraft.custom:minecraft.walk_one_cm
 scoreboard objectives add point dummy
 scoreboard objectives add points dummy
 scoreboard objectives add pos dummy
-scoreboard objectives add random dummy
 scoreboard objectives add raycast dummy
 scoreboard objectives add raycastSuccess dummy
 scoreboard objectives add reset dummy
@@ -106,7 +101,6 @@ scoreboard objectives add steve.tier dummy
 scoreboard objectives add stocks dummy
 scoreboard objectives add suicides dummy
 scoreboard objectives add teamAmount dummy
-scoreboard objectives add timer dummy
 scoreboard objectives add timer dummy
 scoreboard objectives add timer.barrelCannon dummy
 scoreboard objectives add timer.galaxianFlagship dummy

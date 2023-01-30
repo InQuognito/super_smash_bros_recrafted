@@ -1,3 +1,20 @@
+scoreboard objectives add stats.credits dummy
+scoreboard objectives add stats.deaths minecraft.custom:minecraft.deaths
+scoreboard objectives add stats.gamesPlayed dummy
+scoreboard objectives add stats.kD dummy
+scoreboard objectives add stats.kills minecraft.custom:minecraft.player_kills
+scoreboard objectives add stats.wins dummy
+scoreboard objectives add stats.winStreak dummy
+scoreboard objectives add stats.winStreak.record dummy
+scoreboard objectives add stats.wL dummy
+
+scoreboard objectives add favorite.slot1 dummy
+scoreboard objectives add favorite.slot2 dummy
+scoreboard objectives add favorite.slot3 dummy
+scoreboard objectives add options trigger
+scoreboard objectives add random dummy
+
+# Characters
 scoreboard objectives add stats.alteredbeast.deaths dummy
 scoreboard objectives add stats.alteredbeast.kills dummy
 scoreboard objectives add stats.alteredbeast.gamesPlayed dummy
@@ -226,17 +243,40 @@ scoreboard objectives add stats.zelda.gamesPlayed dummy
 scoreboard objectives add stats.zelda.wins dummy
 scoreboard objectives add stats.zelda.winStreak dummy
 
-# Misc
-scoreboard objectives add options trigger
-scoreboard objectives add stats.deaths minecraft.custom:minecraft.deaths
-scoreboard objectives add stats.gamesPlayed dummy
-scoreboard objectives add stats.kD dummy
-scoreboard objectives add stats.kills minecraft.custom:minecraft.player_kills
-scoreboard objectives add stats.wins dummy
-scoreboard objectives add stats.winStreak dummy
-scoreboard objectives add stats.winStreak.record dummy
-scoreboard objectives add stats.wL dummy
-
 # Bonuses
+scoreboard objectives add stats.bonus.765o dummy
+scoreboard objectives add stats.bonus.8PlayerMatch dummy
+scoreboard objectives add stats.bonus.acrobat dummy
+scoreboard objectives add stats.bonus.armistice dummy
+scoreboard objectives add stats.bonus.bankShot dummy
+scoreboard objectives add stats.bonus.cementShoes dummy
+scoreboard objectives add stats.bonus.coward dummy
+scoreboard objectives add stats.bonus.crushingWeight dummy
+scoreboard objectives add stats.bonus.einstein dummy
+scoreboard objectives add stats.bonus.firstStrike dummy
+scoreboard objectives add stats.bonus.fullPower dummy
+scoreboard objectives add stats.bonus.goodFriend dummy
+scoreboard objectives add stats.bonus.heartgold dummy
+scoreboard objectives add stats.bonus.heavyDamage dummy
+scoreboard objectives add stats.bonus.lastSecond dummy
+scoreboard objectives add stats.bonus.luckyNumberSeven dummy
+scoreboard objectives add stats.bonus.mercifulMaster dummy
+scoreboard objectives add stats.bonus.noJohns dummy
+scoreboard objectives add stats.bonus.NPCKO dummy
+scoreboard objectives add stats.bonus.onARoll dummy
+scoreboard objectives add stats.bonus.quitter dummy
+scoreboard objectives add stats.bonus.rapidKill dummy
+scoreboard objectives add stats.bonus.shieldBreaker dummy
+scoreboard objectives add stats.bonus.shinyEncounter dummy
+scoreboard objectives add stats.bonus.sniper dummy
+scoreboard objectives add stats.bonus.speedDemon dummy
+scoreboard objectives add stats.bonus.stiffKnees dummy
+scoreboard objectives add stats.bonus.suddenDeath dummy
+scoreboard objectives add stats.bonus.switzerland dummy
+scoreboard objectives add stats.bonus.tortoise dummy
+scoreboard objectives add stats.bonus.trulyHeroic dummy
+scoreboard objectives add stats.bonus.trulyVillainous dummy
+scoreboard objectives add stats.bonus.WACCoordinator dummy
+scoreboard objectives add stats.bonus.yearLongBattle dummy
 
 execute as @a run function ssbrc:logic/resets/scoreboards/set_empty_stats

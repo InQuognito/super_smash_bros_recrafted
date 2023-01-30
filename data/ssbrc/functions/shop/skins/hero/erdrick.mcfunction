@@ -1,6 +1,6 @@
 advancement grant @s only ssbrc:series/dragon_quest/hero/skins/erdrick
 
-scoreboard players operation @s currency -= #price.skin.common vars
+scoreboard players operation @s stats.credits -= #price.skin.common vars
 
 tellraw @s [{"text":"You have purchased the ","color":"white"},{"text":"Erdrick","color":"gray"},{"text":" skin!","color":"white"}]
 

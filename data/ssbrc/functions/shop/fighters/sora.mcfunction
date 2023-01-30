@@ -1,6 +1,6 @@
 advancement grant @s only ssbrc:series/kingdom_hearts/sora/skins/default
 
-scoreboard players operation @s currency -= #price.fighter.common vars
+scoreboard players operation @s stats.credits -= #price.fighter.common vars
 
 tellraw @s [{"text":"You have purchased ","color":"white"},{"text":"Sora","color":"white"},{"text":"!","color":"white"}]
 

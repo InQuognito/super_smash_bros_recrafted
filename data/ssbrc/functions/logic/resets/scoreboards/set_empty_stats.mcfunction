@@ -4,7 +4,7 @@ execute unless score @s stats.gamesPlayed matches 1.. run scoreboard players set
 execute unless score @s stats.wins matches 1.. run scoreboard players set @s stats.wins 0
 execute unless score @s stats.winStreak matches 1.. run scoreboard players set @s stats.winStreak 0
 execute unless score @s stats.winStreak.record matches 1.. run scoreboard players set @s stats.winStreak.record 0
-execute unless score @s currency matches 1.. run scoreboard players set @s currency 0
+execute unless score @s stats.credits matches 1.. run scoreboard players set @s stats.credits 0
 
 execute unless score @s stats.alteredbeast.deaths matches 1.. run scoreboard players set @s stats.alteredbeast.deaths 0
 execute unless score @s stats.alteredbeast.kills matches 1.. run scoreboard players set @s stats.alteredbeast.kills 0
@@ -233,3 +233,38 @@ execute unless score @s stats.zelda.kills matches 1.. run scoreboard players set
 execute unless score @s stats.zelda.gamesPlayed matches 1.. run scoreboard players set @s stats.zelda.gamesPlayed 0
 execute unless score @s stats.zelda.wins matches 1.. run scoreboard players set @s stats.zelda.wins 0
 execute unless score @s stats.zelda.winStreak matches 1.. run scoreboard players set @s stats.zelda.winStreak 0
+
+execute unless score @s stats.bonus.765o matches 1.. run scoreboard players set @s stats.bonus.765o 0
+execute unless score @s stats.bonus.8PlayerMatch matches 1.. run scoreboard players set @s stats.bonus.8PlayerMatch 0
+execute unless score @s stats.bonus.acrobat matches 1.. run scoreboard players set @s stats.bonus.acrobat 0
+execute unless score @s stats.bonus.armistice matches 1.. run scoreboard players set @s stats.bonus.armistice 0
+execute unless score @s stats.bonus.bankShot matches 1.. run scoreboard players set @s stats.bonus.bankShot 0
+execute unless score @s stats.bonus.cementShoes matches 1.. run scoreboard players set @s stats.bonus.cementShoes 0
+execute unless score @s stats.bonus.coward matches 1.. run scoreboard players set @s stats.bonus.coward 0
+execute unless score @s stats.bonus.crushingWeight matches 1.. run scoreboard players set @s stats.bonus.crushingWeight 0
+execute unless score @s stats.bonus.einstein matches 1.. run scoreboard players set @s stats.bonus.einstein 0
+execute unless score @s stats.bonus.firstStrike matches 1.. run scoreboard players set @s stats.bonus.firstStrike 0
+execute unless score @s stats.bonus.fullPower matches 1.. run scoreboard players set @s stats.bonus.fullPower 0
+execute unless score @s stats.bonus.goodFriend matches 1.. run scoreboard players set @s stats.bonus.goodFriend 0
+execute unless score @s stats.bonus.heartgold matches 1.. run scoreboard players set @s stats.bonus.heartgold 0
+execute unless score @s stats.bonus.heavyDamage matches 1.. run scoreboard players set @s stats.bonus.heavyDamage 0
+execute unless score @s stats.bonus.lastSecond matches 1.. run scoreboard players set @s stats.bonus.lastSecond 0
+execute unless score @s stats.bonus.luckyNumberSeven matches 1.. run scoreboard players set @s stats.bonus.luckyNumberSeven 0
+execute unless score @s stats.bonus.mercifulMaster matches 1.. run scoreboard players set @s stats.bonus.mercifulMaster 0
+execute unless score @s stats.bonus.noJohns matches 1.. run scoreboard players set @s stats.bonus.noJohns 0
+execute unless score @s stats.bonus.NPCKO matches 1.. run scoreboard players set @s stats.bonus.NPCKO 0
+execute unless score @s stats.bonus.onARoll matches 1.. run scoreboard players set @s stats.bonus.onARoll 0
+execute unless score @s stats.bonus.quitter matches 1.. run scoreboard players set @s stats.bonus.quitter 0
+execute unless score @s stats.bonus.rapidKill matches 1.. run scoreboard players set @s stats.bonus.rapidKill 0
+execute unless score @s stats.bonus.shieldBreaker matches 1.. run scoreboard players set @s stats.bonus.shieldBreaker 0
+execute unless score @s stats.bonus.shinyEncounter matches 1.. run scoreboard players set @s stats.bonus.shinyEncounter 0
+execute unless score @s stats.bonus.sniper matches 1.. run scoreboard players set @s stats.bonus.sniper 0
+execute unless score @s stats.bonus.speedDemon matches 1.. run scoreboard players set @s stats.bonus.speedDemon 0
+execute unless score @s stats.bonus.stiffKnees matches 1.. run scoreboard players set @s stats.bonus.stiffKnees 0
+execute unless score @s stats.bonus.suddenDeath matches 1.. run scoreboard players set @s stats.bonus.suddenDeath 0
+execute unless score @s stats.bonus.switzerland matches 1.. run scoreboard players set @s stats.bonus.switzerland 0
+execute unless score @s stats.bonus.tortoise matches 1.. run scoreboard players set @s stats.bonus.tortoise 0
+execute unless score @s stats.bonus.trulyHeroic matches 1.. run scoreboard players set @s stats.bonus.trulyHeroic 0
+execute unless score @s stats.bonus.trulyVillainous matches 1.. run scoreboard players set @s stats.bonus.trulyVillainous 0
+execute unless score @s stats.bonus.WACCoordinator matches 1.. run scoreboard players set @s stats.bonus.WACCoordinator 0
+execute unless score @s stats.bonus.yearLongBattle matches 1.. run scoreboard players set @s stats.bonus.yearLongBattle 0

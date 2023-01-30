@@ -1,5 +1,46 @@
+# Wins
 scoreboard players add @s[tag=winner] stats.wins 1
 
+scoreboard players add @s[tag=winner,tag=alteredbeast] stats.alteredbeast.wins 1
+scoreboard players add @s[tag=winner,tag=alucard] stats.alucard.wins 1
+scoreboard players add @s[tag=winner,tag=bowser] stats.bowser.wins 1
+scoreboard players add @s[tag=winner,tag=byleth] stats.byleth.wins 1
+scoreboard players add @s[tag=winner,tag=captainfalcon] stats.captainfalcon.wins 1
+scoreboard players add @s[tag=winner,tag=cloud] stats.cloud.wins 1
+scoreboard players add @s[tag=winner,tag=darksamus] stats.darksamus.wins 1
+scoreboard players add @s[tag=winner,tag=donkeykong] stats.donkeykong.wins 1
+scoreboard players add @s[tag=winner,tag=fox] stats.fox.wins 1
+scoreboard players add @s[tag=winner,tag=ganondorf] stats.ganondorf.wins 1
+scoreboard players add @s[tag=winner,tag=giegue] stats.giegue.wins 1
+scoreboard players add @s[tag=winner,tag=greninja] stats.greninja.wins 1
+scoreboard players add @s[tag=winner,tag=hero] stats.hero.wins 1
+scoreboard players add @s[tag=winner,tag=jigglypuff] stats.jigglypuff.wins 1
+scoreboard players add @s[tag=winner,tag=joker] stats.joker.wins 1
+scoreboard players add @s[tag=winner,tag=kingkrool] stats.kingkrool.wins 1
+scoreboard players add @s[tag=winner,tag=kirby] stats.kirby.wins 1
+scoreboard players add @s[tag=winner,tag=link] stats.link.wins 1
+scoreboard players add @s[tag=winner,tag=luigi] stats.luigi.wins 1
+scoreboard players add @s[tag=winner,tag=mario] stats.mario.wins 1
+scoreboard players add @s[tag=winner,tag=megaman] stats.megaman.wins 1
+scoreboard players add @s[tag=winner,tag=ness] stats.ness.wins 1
+scoreboard players add @s[tag=winner,tag=pikachu] stats.pikachu.wins 1
+scoreboard players add @s[tag=winner,tag=pit] stats.pit.wins 1
+scoreboard players add @s[tag=winner,tag=pokemontrainer] stats.pokemontrainer.wins 1
+scoreboard players add @s[tag=winner,tag=rob] stats.rob.wins 1
+scoreboard players add @s[tag=winner,tag=ryu] stats.ryu.wins 1
+scoreboard players add @s[tag=winner,tag=samus] stats.samus.wins 1
+scoreboard players add @s[tag=winner,tag=shadow] stats.shadow.wins 1
+scoreboard players add @s[tag=winner,tag=shovelknight] stats.shovelknight.wins 1
+scoreboard players add @s[tag=winner,tag=snake] stats.snake.wins 1
+scoreboard players add @s[tag=winner,tag=sonic] stats.sonic.wins 1
+scoreboard players add @s[tag=winner,tag=sora] stats.sora.wins 1
+scoreboard players add @s[tag=winner,tag=steve] stats.steve.wins 1
+scoreboard players add @s[tag=winner,tag=teamrocket] stats.teamrocket.wins 1
+scoreboard players add @s[tag=winner,tag=wolf] stats.wolf.wins 1
+scoreboard players add @s[tag=winner,tag=yar] stats.yar.wins 1
+scoreboard players add @s[tag=winner,tag=zelda] stats.zelda.wins 1
+
+# Win Streak
 scoreboard players reset @s[tag=!winner] stats.winStreak
 scoreboard players add @s[tag=winner] stats.winStreak 1
 
