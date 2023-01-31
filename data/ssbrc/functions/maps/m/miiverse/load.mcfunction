@@ -2,7 +2,7 @@ scoreboard players reset * map
 scoreboard players set $miiverse map 1
 scoreboard players set $songCount map 2
 scoreboard players set #mapPicked mapVote 1
-forceload add -720 576 -657 639
+forceload add -736 544 -625 655
 
 execute if entity @a[scores={id=1}] run summon minecraft:armor_stand -682.5 18.0 601.5 {Tags:["post.origin","1"],Rotation:[0f,-15f],Invisible:1b,NoGravity:1b}
 execute if entity @a[scores={id=2}] run summon minecraft:armor_stand -682.5 18.0 601.5 {Tags:["post.origin","2"],Rotation:[0f,-20f],Invisible:1b,NoGravity:1b}
