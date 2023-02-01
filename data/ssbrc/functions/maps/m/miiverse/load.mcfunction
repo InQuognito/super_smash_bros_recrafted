@@ -13,8 +13,6 @@ execute if entity @a[scores={id=6}] run summon minecraft:armor_stand -682.5 18.0
 execute if entity @a[scores={id=7}] run summon minecraft:armor_stand -682.5 18.0 601.5 {Tags:["post.origin","7"],Rotation:[0f,-45f],Invisible:1b,NoGravity:1b}
 execute if entity @a[scores={id=8}] run summon minecraft:armor_stand -682.5 18.0 601.5 {Tags:["post.origin","8"],Rotation:[0f,-50f],Invisible:1b,NoGravity:1b}
 
-execute as @e[type=minecraft:armor_stand,tag=post.origin] at @s anchored eyes run function ssbrc:maps/m/miiverse/logic/posts/summon
-
 time set noon
 weather clear
 
