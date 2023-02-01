@@ -1,4 +1,5 @@
-function ssbrc:logic/resets/tags/favorite_try
-tag @s add favoritetry.teamrocket
+tag @s[tag=!viewingFavorites] add favorite.teamrocket
+tag @s[tag=viewingFavorites] remove favorite.teamrocket
 
-tellraw @s [{"text":"Which slot do you want to favorite in?","bold":true,"color":"light_purple"},{"text":"\n"},{"text":"[","color":"dark_purple"},{"text":"Slot 1","color":"light_purple","clickEvent":{"action":"run_command","value":"/trigger menu set -1"}},{"text":"]\n[","color":"dark_purple"},{"text":"Slot 2","color":"light_purple","clickEvent":{"action":"run_command","value":"/trigger menu set -2"}},{"text":"]\n[","color":"dark_purple"},{"text":"Slot 3","color":"light_purple","clickEvent":{"action":"run_command","value":"/trigger menu set -3"}},{"text":"]","color":"dark_purple"}]
+tellraw @s[tag=viewingFavorites] [{"text":"Successfully removed fighter from favorites.","color":"yellow"}]
+execute if entity @s[tag=viewingFavorites] run function ssbrc:logic/favorites

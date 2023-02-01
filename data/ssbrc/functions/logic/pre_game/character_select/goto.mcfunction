@@ -1,6 +1,6 @@
 teleport @s 35.5 7.0 116.0 0.0 0.0
 
-function ssbrc:logic/favorite/update
+loot replace entity @s hotbar.4 loot ssbrc:favorites
 
 execute if score $teams options matches 0 run team join waiting @s
 execute if score $teams options matches 1 run function ssbrc:logic/teams/red

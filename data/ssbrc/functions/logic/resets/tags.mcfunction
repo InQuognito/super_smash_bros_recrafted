@@ -8,7 +8,6 @@ function ssbrc:logic/resets/tags/skins
 function ssbrc:logic/resets/tags/maps
 
 # Favorites
-function ssbrc:logic/resets/tags/favorite_try
 
 function ssbrc:series/indie_fighters/shovelknight/kits/offense/reset
 function ssbrc:series/indie_fighters/shovelknight/kits/utility/reset

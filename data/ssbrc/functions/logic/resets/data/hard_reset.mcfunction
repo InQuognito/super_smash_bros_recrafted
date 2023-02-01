@@ -280,4 +280,4 @@ scoreboard objectives remove stats.bonus.yearLongBattle
 
 function ssbrc:logic/load
 
-tellraw @s {"text":"All player data has been successfully reset.","color":"dark_red"}
+tellraw @a {"text":"All player data has been successfully reset.","color":"dark_red"}
