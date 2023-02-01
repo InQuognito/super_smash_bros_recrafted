@@ -14,4 +14,4 @@ execute if entity @s[scores={charge.output=1..,cooldown.1=..0,duration.1=..0},pr
 # Phazon Overload
 execute if score @s[nbt=!{Inventory:[{tag:{phazonOverload:1}}]}] charge.1 matches 400.. run loot replace entity @s hotbar.4 loot ssbrc:characters/metroid/darksamus/phazon_overload
 
-execute if score @s duration.1 matches 1.. at @s run particle minecraft:dust 0.0 0.8 1.0 1.0 ~ ~0.75 ~ 0.25 0.5 0.25 0.0 5 normal @a
+execute if score @s duration.1 matches 1.. at @s run function ssbrc:series/metroid/darksamus/logic/abilities/phazon_overload/tick
