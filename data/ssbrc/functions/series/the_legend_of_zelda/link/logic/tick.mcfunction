@@ -4,7 +4,7 @@ execute if entity @s[scores={useAbility=1..},nbt={SelectedItem:{tag:{boomerang:1
 
 tag @s add self
 execute as @e[type=minecraft:arrow,tag=swordBeam] at @s if score @s id = @p[tag=self] id run function ssbrc:series/the_legend_of_zelda/link/logic/abilities/sword_beam/tick
-execute as @e[type=minecraft:marker,tag=boomerang] at @s if score @s id = @p[tag=self] id run function ssbrc:series/the_legend_of_zelda/link/logic/abilities/boomerang/tick
+execute as @e[type=minecraft:area_effect_cloud,tag=boomerang] at @s if score @s id = @p[tag=self] id run function ssbrc:series/the_legend_of_zelda/link/logic/abilities/boomerang/tick
 tag @s remove self
 
 # Master Sword
