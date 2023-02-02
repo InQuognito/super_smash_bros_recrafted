@@ -9,5 +9,7 @@ execute if score @s[tag=middle] rotation matches ..-360 run scoreboard players s
 
 execute store result entity @s Pose.Head[1] float 1.0 run scoreboard players get @s rotation
 
+execute as @e[predicate=ssbrc:flag/targets,distance=..2] run function ssbrc:maps/h/hyrule_castle/logic/hazards/tornadoes/spin/catch
+
 scoreboard players add @s[tag=base] temp 1
 execute if score @s[tag=base] temp matches 100.. run function ssbrc:maps/h/hyrule_castle/logic/hazards/tornadoes/kill
