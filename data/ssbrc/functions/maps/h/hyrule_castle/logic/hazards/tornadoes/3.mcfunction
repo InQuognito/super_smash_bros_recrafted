@@ -1,6 +1,6 @@
-summon minecraft:armor_stand ~ ~ ~ {Tags:["tornado","3","base","modifyEntity"],ArmorItems:[{},{},{},{id:"minecraft:sugar",Count:1b,tag:{CustomModelData:803}}],Invisible:1b}
-summon minecraft:armor_stand ~ ~ ~ {Tags:["tornado","3","middle","modifyEntity"],ArmorItems:[{},{},{},{id:"minecraft:sugar",Count:1b,tag:{CustomModelData:804}}],Invisible:1b}
-summon minecraft:armor_stand ~ ~ ~ {Tags:["tornado","3","top","modifyEntity"],ArmorItems:[{},{},{},{id:"minecraft:sugar",Count:1b,tag:{CustomModelData:805}}],Invisible:1b}
+summon minecraft:armor_stand ~ ~ ~ {Tags:["tornado","3","base","modifyEntity"],Pose:{Head:[0.1f,0.1f,0.1f]},ArmorItems:[{},{},{},{id:"minecraft:sugar",Count:1b,tag:{CustomModelData:803}}],Invisible:1b}
+summon minecraft:armor_stand ~ ~ ~ {Tags:["tornado","3","middle","modifyEntity"],Pose:{Head:[0.1f,0.1f,0.1f]},ArmorItems:[{},{},{},{id:"minecraft:sugar",Count:1b,tag:{CustomModelData:804}}],Invisible:1b}
+summon minecraft:armor_stand ~ ~ ~ {Tags:["tornado","3","top","modifyEntity"],Pose:{Head:[0.1f,0.1f,0.1f]},ArmorItems:[{},{},{},{id:"minecraft:sugar",Count:1b,tag:{CustomModelData:805}}],Invisible:1b}
 
 scoreboard players set max random 2
 function ssbrc:math/rng/lcg
