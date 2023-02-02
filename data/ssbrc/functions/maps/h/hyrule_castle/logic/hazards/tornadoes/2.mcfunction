@@ -10,5 +10,4 @@ execute as @e[tag=modifyEntity] store result entity @s Rotation[0] float 1.0 run
 tag @e[tag=modifyEntity,limit=3] remove modifyEntity
 
 scoreboard players set #hyruleCastleHazard temp 1
-scoreboard players set #tornado.2 temp 1
 scoreboard players add #tornadoes temp 1
