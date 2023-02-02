@@ -26,3 +26,4 @@ scoreboard players reset #blessingChosen temp
 scoreboard players reset #weaponEnchanted temp
 scoreboard players reset #hasGlassWeapon temp
 scoreboard players reset #hasNayrusRing temp
+scoreboard players reset #hasRedPotion temp
