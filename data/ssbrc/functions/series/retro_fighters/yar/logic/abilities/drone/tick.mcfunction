@@ -5,7 +5,7 @@ execute rotated as @s[scores={temp=..60},tag=!stop,tag=!recall] run function ssb
 scoreboard players remove @s[scores={cooldown.1=1..}] cooldown.1 1
 execute if entity @s[tag=stop,scores={cooldown.1=..0}] facing entity @e[tag=!self,predicate=ssbrc:flag/targets,sort=nearest,limit=1,distance=..3] eyes run function ssbrc:series/retro_fighters/yar/logic/abilities/drone/fire
 
-execute if entity @s[tag=recall] facing entity @p[tag=self] feet run function ssbrc:series/retro_fighters/yar/logic/abilities/drone/move
+execute if entity @s[tag=recall] facing entity @p[tag=self] eyes run function ssbrc:series/retro_fighters/yar/logic/abilities/drone/move
 
 teleport @e[type=minecraft:item,distance=..1] @s
 
