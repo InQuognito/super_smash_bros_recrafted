@@ -9,4 +9,7 @@ scoreboard players set @e[tag=modifyEntity,limit=1] charge.1 40
 scoreboard players set @e[tag=modifyEntity,limit=1] cooldown.1 0
 scoreboard players set @e[tag=modifyEntity,limit=1] temp 1
 
+tag @e[tag=modifyEntity,limit=1] remove modifyEntity
+tag @e[tag=modifyPassenger,limit=1] remove modifyPassenger
+
 loot replace entity @s weapon.mainhand loot ssbrc:characters/retro_fighters/yar/drone/stop
