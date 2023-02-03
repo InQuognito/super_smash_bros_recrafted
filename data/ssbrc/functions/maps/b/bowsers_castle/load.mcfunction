@@ -27,19 +27,8 @@ fill -703 30 820 -702 31 820 minecraft:ladder[facing=north] replace
 fill -703 30 824 -702 31 824 minecraft:ladder[facing=south] replace
 
 # Lava Plumes
-function ssbrc:maps/b/bowsers_castle/logic/hazards/lava_plumes/left/1/down/activate
-function ssbrc:maps/b/bowsers_castle/logic/hazards/lava_plumes/left/2/down/activate
-function ssbrc:maps/b/bowsers_castle/logic/hazards/lava_plumes/left/3/down/activate
-function ssbrc:maps/b/bowsers_castle/logic/hazards/lava_plumes/left/4/down/activate
-function ssbrc:maps/b/bowsers_castle/logic/hazards/lava_plumes/left/5/down/activate
-function ssbrc:maps/b/bowsers_castle/logic/hazards/lava_plumes/left/6/down/activate
-
-function ssbrc:maps/b/bowsers_castle/logic/hazards/lava_plumes/right/1/down/activate
-function ssbrc:maps/b/bowsers_castle/logic/hazards/lava_plumes/right/2/down/activate
-function ssbrc:maps/b/bowsers_castle/logic/hazards/lava_plumes/right/3/down/activate
-function ssbrc:maps/b/bowsers_castle/logic/hazards/lava_plumes/right/4/down/activate
-function ssbrc:maps/b/bowsers_castle/logic/hazards/lava_plumes/right/5/down/activate
-function ssbrc:maps/b/bowsers_castle/logic/hazards/lava_plumes/right/6/down/activate
+fill -715 15 829 -693 29 859 minecraft:air replace minecraft:lava
+fill -715 15 829 -693 29 859 minecraft:air replace minecraft:obsidian
 
 # Thwomp Platform - Top
 fill -726 43 842 -724 43 846 minecraft:waxed_copper_block replace
