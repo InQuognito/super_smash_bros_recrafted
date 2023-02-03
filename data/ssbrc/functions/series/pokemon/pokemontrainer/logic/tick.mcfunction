@@ -1,6 +1,6 @@
-execute if entity @s[scores={useAbility=1..,cooldown.1=..0,duration.1=..0},nbt={SelectedItem:{tag:{flareBlitz:1}}}] at @s run function ssbrc:series/pokemon/pokemontrainer/logic/charizard/flare_blitz/on
+execute if entity @s[scores={useAbility=1..,cooldown.1=..0,duration.1=..0},nbt={SelectedItem:{tag:{flareBlitz:1}}}] at @s run function ssbrc:series/pokemon/pokemontrainer/logic/charizard/flare_blitz/activate
 execute if entity @s[scores={useAbility=1..,cooldown.1=..0,charge.1=1..},nbt={SelectedItem:{tag:{leechSeed:1}}}] at @s anchored eyes run function ssbrc:series/pokemon/pokemontrainer/logic/ivysaur/leech_seed/activate
-execute if entity @s[scores={useAbility=1..,cooldown.1=..0,duration.1=..0},nbt={SelectedItem:{tag:{surf:1}}}] at @s run function ssbrc:series/pokemon/pokemontrainer/logic/squirtle/surf/on
+execute if entity @s[scores={useAbility=1..,cooldown.1=..0,duration.1=..0},nbt={SelectedItem:{tag:{surf:1}}}] at @s run function ssbrc:series/pokemon/pokemontrainer/logic/squirtle/surf/activate
 execute if entity @s[scores={useAbility=1..,duration.1=1..},nbt={SelectedItem:{tag:{surf:1}}}] at @s run function ssbrc:series/pokemon/pokemontrainer/logic/squirtle/surf/cancel
 
 tag @s add self
