@@ -7,3 +7,7 @@ loot replace entity @s enderchest.18 loot ssbrc:ui/null/red
 execute if score @s[advancements={ssbrc:series/retro_fighters/alteredbeast/skins/default=false}] stats.credits < #price.fighter.common vars run loot replace entity @s enderchest.2 loot ssbrc:ui/shop/fighters/alteredbeast/cannot_afford
 execute if score @s[advancements={ssbrc:series/retro_fighters/alteredbeast/skins/default=false}] stats.credits >= #price.fighter.common vars run loot replace entity @s enderchest.2 loot ssbrc:ui/shop/fighters/alteredbeast/unowned
 loot replace entity @s[advancements={ssbrc:series/retro_fighters/alteredbeast/skins/default=true}] enderchest.2 loot ssbrc:ui/shop/fighters/alteredbeast/owned
+
+loot replace entity @s enderchest.8 loot ssbrc:ui/null/red
+loot replace entity @s enderchest.17 loot ssbrc:ui/null/red
+loot replace entity @s enderchest.24 loot ssbrc:ui/null/red
