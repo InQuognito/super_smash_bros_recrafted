@@ -13,20 +13,20 @@ summon minecraft:armor_stand 155.5 5.0 160.5 {Tags:["lobbyStand","donkeykong","d
 summon minecraft:area_effect_cloud 157.5 6.75 164.5 {Tags:["lobbyStand.label"],CustomName:'{"text":"King K. Rool","color":"dark_green"}',CustomNameVisible:1b,Age:-2147483648,Duration:-1,WaitTime:-2147483648}
 summon minecraft:armor_stand 157.5 5.0 164.5 {Tags:["lobbyStand","kingkrool","default"],Rotation:[-90f,0f]}
 
-summon minecraft:area_effect_cloud 33.5 6.75 133.5 {Tags:["lobbyStand.label"],CustomName:'{"text":"Link","color":"dark_green"}',CustomNameVisible:1b,Age:-2147483648,Duration:-1,WaitTime:-2147483648}
-summon minecraft:armor_stand 31.5 5.0 133.5 {Tags:["lobbyStand","link","default"],Rotation:[-90f,0f]}
+summon minecraft:area_effect_cloud 158.5 6.75 167.5 {Tags:["lobbyStand.label"],CustomName:'{"text":"Link","color":"dark_green"}',CustomNameVisible:1b,Age:-2147483648,Duration:-1,WaitTime:-2147483648}
+summon minecraft:armor_stand 158.5 5.0 167.5 {Tags:["lobbyStand","link","default"],Rotation:[-90f,0f]}
 
-summon minecraft:area_effect_cloud 53.5 6.75 117.5 {Tags:["lobbyStand.label"],CustomName:'{"text":"Zelda","color":"blue"}',CustomNameVisible:1b,Age:-2147483648,Duration:-1,WaitTime:-2147483648}
-summon minecraft:armor_stand 53.5 5.0 119.5 {Tags:["lobbyStand","zelda","default"],Rotation:[180f,0f]}
+summon minecraft:area_effect_cloud 159.5 6.75 170.5 {Tags:["lobbyStand.label"],CustomName:'{"text":"Zelda","color":"blue"}',CustomNameVisible:1b,Age:-2147483648,Duration:-1,WaitTime:-2147483648}
+summon minecraft:armor_stand 159.5 5.0 170.5 {Tags:["lobbyStand","zelda","default"],Rotation:[180f,0f]}
 
-summon minecraft:area_effect_cloud 51.5 6.75 156.5 {Tags:["lobbyStand.label"],CustomName:'{"text":"Ganondorf","color":"red"}',CustomNameVisible:1b,Age:-2147483648,Duration:-1,WaitTime:-2147483648}
-summon minecraft:armor_stand 51.5 5.0 158.5 {Tags:["lobbyStand","ganondorf","default"],Rotation:[-180f,0f]}
+summon minecraft:area_effect_cloud 159.5 6.75 172.5 {Tags:["lobbyStand.label"],CustomName:'{"text":"Ganondorf","color":"red"}',CustomNameVisible:1b,Age:-2147483648,Duration:-1,WaitTime:-2147483648}
+summon minecraft:armor_stand 159.5 5.0 172.5 {Tags:["lobbyStand","ganondorf","default"],Rotation:[-180f,0f]}
 
-summon minecraft:area_effect_cloud 38.5 6.75 159.5 {Tags:["lobbyStand.label"],CustomName:'{"text":"Samus","color":"gold"}',CustomNameVisible:1b,Age:-2147483648,Duration:-1,WaitTime:-2147483648}
-summon minecraft:armor_stand 38.5 5.0 161.5 {Tags:["lobbyStand","samus","default"],Rotation:[-180f,0f],HandItems:[{id:"minecraft:carrot_on_a_stick",Count:1b,tag:{CustomModelData:1421}},{}]}
+summon minecraft:area_effect_cloud 159.5 6.75 174.5 {Tags:["lobbyStand.label"],CustomName:'{"text":"Samus","color":"gold"}',CustomNameVisible:1b,Age:-2147483648,Duration:-1,WaitTime:-2147483648}
+summon minecraft:armor_stand 159.5 5.0 174.5 {Tags:["lobbyStand","samus","default"],Rotation:[-180f,0f],HandItems:[{id:"minecraft:carrot_on_a_stick",Count:1b,tag:{CustomModelData:1421}},{}]}
 
-summon minecraft:area_effect_cloud 79.5 6.75 112.5 {Tags:["lobbyStand.label"],CustomName:'{"text":"Dark Samus","color":"aqua"}',CustomNameVisible:1b,Age:-2147483648,Duration:-1,WaitTime:-2147483648}
-summon minecraft:armor_stand 81.5 5.0 112.5 {Tags:["lobbyStand","darksamus","default"],Rotation:[90f,0f],HandItems:[{id:"minecraft:carrot_on_a_stick",Count:1b,tag:{CustomModelData:261}},{}]}
+summon minecraft:area_effect_cloud 159.5 6.75 176.5 {Tags:["lobbyStand.label"],CustomName:'{"text":"Dark Samus","color":"aqua"}',CustomNameVisible:1b,Age:-2147483648,Duration:-1,WaitTime:-2147483648}
+summon minecraft:armor_stand 159.5 5.0 176.5 {Tags:["lobbyStand","darksamus","default"],Rotation:[90f,0f],HandItems:[{id:"minecraft:carrot_on_a_stick",Count:1b,tag:{CustomModelData:261}},{}]}
 
 summon minecraft:area_effect_cloud 44.5 6.75 142.5 {Tags:["lobbyStand.label"],CustomName:'{"text":"Kirby","color":"light_purple"}',CustomNameVisible:1b,Age:-2147483648,Duration:-1,WaitTime:-2147483648}
 summon minecraft:armor_stand 44.5 5.0 140.5 {Tags:["lobbyStand","kirby","default"],Rotation:[0f,0f]}
