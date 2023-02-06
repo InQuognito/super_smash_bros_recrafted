@@ -4,4 +4,4 @@ scoreboard players operation @s stats.credits -= #price.fighter.common vars
 
 tellraw @s [{"text":"You have purchased ","color":"white"},{"text":"Alucard","color":"white"},{"text":"!","color":"white"}]
 
-function ssbrc:logic/shop
+playsound minecraft:entity.experience_orb.pickup master @s ~ ~0 ~ 1.0 0.0

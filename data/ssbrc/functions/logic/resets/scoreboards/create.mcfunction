@@ -74,6 +74,8 @@ scoreboard objectives add selectItem minecraft.used:minecraft.carrot_on_a_stick
 scoreboard objectives add shadow.chaosControl dummy
 scoreboard objectives add shadow.meter.hero dummy
 scoreboard objectives add shadow.meter.villain dummy
+scoreboard objectives add shop dummy
+scoreboard objectives add shopCalculator dummy
 scoreboard objectives add skinPicked dummy
 scoreboard objectives add slope dummy
 scoreboard objectives add snake.capacity dummy

@@ -1,5 +1,7 @@
 execute as @a[tag=!characterPicked] run function ssbrc:logic/tick/lobby
 
+function ssbrc:shop/tick
+
 execute as @a run function ssbrc:logic/tick/stamina/check
 
 execute unless score $gameStage temp matches 2.. as @a run function ssbrc:logic/tick/triggers/lobby

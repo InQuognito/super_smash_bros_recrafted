@@ -26,6 +26,7 @@ stopsound @s
 
 function ssbrc:logic/statistics
 
-function ssbrc:logic/shop
+scoreboard players set @s shopCalculator 0
+function ssbrc:shop/pages/main/load
 
 tag @s add loaded
