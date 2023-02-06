@@ -10,4 +10,4 @@ loot replace entity @s[advancements={ssbrc:series/retro_fighters/alteredbeast/sk
 
 loot replace entity @s enderchest.8 loot ssbrc:ui/null/red
 loot replace entity @s enderchest.17 loot ssbrc:ui/null/red
-loot replace entity @s enderchest.24 loot ssbrc:ui/null/red
+loot replace entity @s enderchest.26 loot ssbrc:ui/null/red
