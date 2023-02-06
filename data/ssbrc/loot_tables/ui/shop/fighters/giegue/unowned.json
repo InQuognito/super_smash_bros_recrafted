@@ -12,8 +12,8 @@
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"text": "Altered Beast",
-								"color": "gold",
+								"text": "Giegue",
+								"color": "light_purple",
 								"bold": true,
 								"italic": false
 							}
@@ -43,8 +43,14 @@
 									]
 								},
 								{
-									"text": "Insufficient credits",
-									"color": "red",
+									"text": "",
+									"color": "white",
+									"bold": false,
+									"italic": false
+								},
+								{
+									"text": "Click to purchase!",
+									"color": "green",
 									"bold": false,
 									"italic": false
 								}
@@ -53,7 +59,7 @@
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{UIPlaceHolder:1b,CustomModelData:1820}"
+							"tag": "{ui:{id:\"giegue\",sound:\"click\"},CustomModelData:1860}"
 						}
 					]
 				}

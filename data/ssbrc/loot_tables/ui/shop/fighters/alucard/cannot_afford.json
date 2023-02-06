@@ -53,7 +53,7 @@
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{ui:{id:\"alucard\",sound:\"click\"},CustomModelData:1840}"
+							"tag": "{UIPlaceHolder:1b,CustomModelData:1840}"
 						}
 					]
 				}

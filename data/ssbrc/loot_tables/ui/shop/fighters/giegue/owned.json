@@ -12,8 +12,8 @@
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"text": "Altered Beast",
-								"color": "gold",
+								"text": "Giegue",
+								"color": "light_purple",
 								"bold": true,
 								"italic": false
 							}
@@ -23,28 +23,8 @@
 							"entity": "this",
 							"lore": [
 								{
-									"text": "Price: ",
-									"color": "yellow",
-									"bold": false,
-									"italic": false,
-									"extra": [
-										{
-											"score": {
-												"name": "#price.fighter.common",
-												"objective": "vars"
-											},
-											"bold": false,
-											"italic": false
-										},
-										{
-											"text": "₡",
-											"color": "yellow"
-										}
-									]
-								},
-								{
-									"text": "Insufficient credits",
-									"color": "red",
+									"text": "Owned",
+									"color": "green",
 									"bold": false,
 									"italic": false
 								}
@@ -53,7 +33,7 @@
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{UIPlaceHolder:1b,CustomModelData:1820}"
+							"tag": "{UIPlaceHolder:1b,CustomModelData:1860}"
 						}
 					]
 				}

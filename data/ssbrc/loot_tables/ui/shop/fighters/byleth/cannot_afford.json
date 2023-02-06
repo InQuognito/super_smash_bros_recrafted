@@ -53,7 +53,7 @@
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{ui:{id:\"byleth\",sound:\"click\"},CustomModelData:100}"
+							"tag": "{UIPlaceHolder:1b,CustomModelData:100}"
 						}
 					]
 				}
