@@ -282,5 +282,3 @@ scoreboard objectives add stats.bonus.trulyHeroic dummy
 scoreboard objectives add stats.bonus.trulyVillainous dummy
 scoreboard objectives add stats.bonus.WACCoordinator dummy
 scoreboard objectives add stats.bonus.yearLongBattle dummy
-
-execute as @a run function ssbrc:logic/resets/scoreboards/set_empty_stats

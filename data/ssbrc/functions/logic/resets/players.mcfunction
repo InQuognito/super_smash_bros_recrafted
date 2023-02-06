@@ -24,6 +24,7 @@ teleport @s -520.5 5.0 55.5 90.0 0.0
 
 stopsound @s
 
+function ssbrc:logic/resets/scoreboards/set_empty_stats
 function ssbrc:logic/statistics
 
 scoreboard players set @s shopCalculator 0
