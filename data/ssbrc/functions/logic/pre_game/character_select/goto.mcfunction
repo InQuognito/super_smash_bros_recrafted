@@ -1,4 +1,4 @@
-teleport @s 35.5 7.0 116.0 0.0 0.0
+teleport @s 138.5 6.0 173.0 0.0 0.0
 
 loot replace entity @s hotbar.4 loot ssbrc:favorites
 
