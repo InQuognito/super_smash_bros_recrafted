@@ -4,4 +4,4 @@ scoreboard players operation @s stats.credits -= #price.fighter.common vars
 
 tellraw @s [{"text":"You have purchased ","color":"white"},{"text":"Giegue","color":"light_purple"},{"text":"!","color":"white"}]
 
-function ssbrc:logic/shop
+playsound minecraft:entity.player.levelup master @s ~ ~ ~ 1.0 1.0
