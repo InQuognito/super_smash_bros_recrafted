@@ -1,4 +1,4 @@
-execute at @s anchored eyes positioned ^ ^ ^ run function ssbrc:logic/selector/raycast/start
+execute at @s[nbt={SelectedItem:{tag:{selector:1}}}] anchored eyes positioned ^ ^ ^ run function ssbrc:logic/selector/raycast/start
 
 function ssbrc:logic/tick/triggers/menu
 function ssbrc:logic/tick/triggers/options
