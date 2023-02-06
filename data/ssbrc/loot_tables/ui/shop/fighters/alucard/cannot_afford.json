@@ -43,6 +43,12 @@
 									]
 								},
 								{
+									"text": "",
+									"color": "white",
+									"bold": false,
+									"italic": false
+								},
+								{
 									"text": "Insufficient credits",
 									"color": "red",
 									"bold": false,

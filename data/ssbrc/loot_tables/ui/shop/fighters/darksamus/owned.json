@@ -23,6 +23,12 @@
 							"entity": "this",
 							"lore": [
 								{
+									"text": "",
+									"color": "white",
+									"bold": false,
+									"italic": false
+								},
+								{
 									"text": "Owned",
 									"color": "green",
 									"bold": false,
