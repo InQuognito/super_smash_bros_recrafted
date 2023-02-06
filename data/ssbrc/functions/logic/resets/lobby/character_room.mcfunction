@@ -62,51 +62,51 @@ summon minecraft:armor_stand 78.5 5.0 132.5 {Tags:["lobbyStand","wobbuffet","def
 summon minecraft:area_effect_cloud 139.5 6.75 194.5 {Tags:["lobbyStand.label"],CustomName:'{"text":"Ness","color":"dark_purple"}',CustomNameVisible:1b,Age:-2147483648,Duration:-1,WaitTime:-2147483648}
 summon minecraft:armor_stand 139.5 5.0 194.5 {Tags:["lobbyStand","ness","default"],Rotation:[-180f,0f]}
 
-summon minecraft:area_effect_cloud 79.5 6.75 118.5 {Tags:["lobbyStand.label"],CustomName:'{"text":"Giegue","color":"light_purple"}',CustomNameVisible:1b,Age:-2147483648,Duration:-1,WaitTime:-2147483648}
-summon minecraft:armor_stand 81.5 5.0 118.5 {Tags:["lobbyStand","giegue","default"],Rotation:[90f,0f]}
+summon minecraft:area_effect_cloud 137.5 6.75 194.5 {Tags:["lobbyStand.label"],CustomName:'{"text":"Giegue","color":"light_purple"}',CustomNameVisible:1b,Age:-2147483648,Duration:-1,WaitTime:-2147483648}
+summon minecraft:armor_stand 137.5 5.0 194.5 {Tags:["lobbyStand","giegue","default"],Rotation:[90f,0f]}
 
-summon minecraft:area_effect_cloud 44.5 6.75 158.5 {Tags:["lobbyStand.label"],CustomName:'{"text":"Captain Falcon","color":"red"}',CustomNameVisible:1b,Age:-2147483648,Duration:-1,WaitTime:-2147483648}
-summon minecraft:armor_stand 44.5 5.0 160.5 {Tags:["lobbyStand","captainfalcon","default"],Rotation:[180f,0f]}
+summon minecraft:area_effect_cloud 135.5 6.75 194.5 {Tags:["lobbyStand.label"],CustomName:'{"text":"Captain Falcon","color":"red"}',CustomNameVisible:1b,Age:-2147483648,Duration:-1,WaitTime:-2147483648}
+summon minecraft:armor_stand 135.5 5.0 194.5 {Tags:["lobbyStand","captainfalcon","default"],Rotation:[180f,0f]}
 
-summon minecraft:area_effect_cloud 62.5 6.75 124.5 {Tags:["lobbyStand.label"],CustomName:'{"text":"Byleth","color":"dark_aqua"}',CustomNameVisible:1b,Age:-2147483648,Duration:-1,WaitTime:-2147483648}
-summon minecraft:armor_stand 60.5 5.0 124.5 {Tags:["lobbyStand","byleth","default","female"],Rotation:[-90f,0f]}
+summon minecraft:area_effect_cloud 132.5 6.75 193.5 {Tags:["lobbyStand.label"],CustomName:'{"text":"Byleth","color":"dark_aqua"}',CustomNameVisible:1b,Age:-2147483648,Duration:-1,WaitTime:-2147483648}
+summon minecraft:armor_stand 132.5 5.0 193.5 {Tags:["lobbyStand","byleth","default","female"],Rotation:[-90f,0f]}
 
-summon minecraft:area_effect_cloud 51.5 6.75 148.5 {Tags:["lobbyStand.label"],CustomName:'{"text":"Pit","color":"white"}',CustomNameVisible:1b,Age:-2147483648,Duration:-1,WaitTime:-2147483648}
-summon minecraft:armor_stand 51.5 5.0 146.5 {Tags:["lobbyStand","pit","default"],Rotation:[0f,0f]}
-summon minecraft:armor_stand 51.5 5.0 146.5 {Tags:["lobbyStand","pit","default","wingsBurned"],Rotation:[0f,0f]}
+summon minecraft:area_effect_cloud 129.5 6.75 192.5 {Tags:["lobbyStand.label"],CustomName:'{"text":"Pit","color":"white"}',CustomNameVisible:1b,Age:-2147483648,Duration:-1,WaitTime:-2147483648}
+summon minecraft:armor_stand 129.5 5.0 192.5 {Tags:["lobbyStand","pit","default"],Rotation:[0f,0f]}
+summon minecraft:armor_stand 129.5 5.0 192.5 {Tags:["lobbyStand","pit","default","wingsBurned"],Rotation:[0f,0f]}
 
-summon minecraft:area_effect_cloud 11.5 6.75 150.5 {Tags:["lobbyStand.label"],CustomName:'{"text":"Snake","color":"gray"}',CustomNameVisible:1b,Age:-2147483648,Duration:-1,WaitTime:-2147483648}
-summon minecraft:armor_stand 9.5 5.0 150.5 {Tags:["lobbyStand","snake","default"],Rotation:[-90f,0f]}
+summon minecraft:area_effect_cloud 125.5 6.75 190.5 {Tags:["lobbyStand.label"],CustomName:'{"text":"Snake","color":"gray"}',CustomNameVisible:1b,Age:-2147483648,Duration:-1,WaitTime:-2147483648}
+summon minecraft:armor_stand 125.5 5.0 190.5 {Tags:["lobbyStand","snake","default"],Rotation:[-90f,0f]}
 
-summon minecraft:area_effect_cloud 61.5 6.75 148.5 {Tags:["lobbyStand.label"],CustomName:'{"text":"Sonic","color":"blue"}',CustomNameVisible:1b,Age:-2147483648,Duration:-1,WaitTime:-2147483648}
-summon minecraft:armor_stand 61.5 5.0 146.5 {Tags:["lobbyStand","sonic","default"],Rotation:[0f,0f]}
+summon minecraft:area_effect_cloud 123.5 6.75 188.5 {Tags:["lobbyStand.label"],CustomName:'{"text":"Sonic","color":"blue"}',CustomNameVisible:1b,Age:-2147483648,Duration:-1,WaitTime:-2147483648}
+summon minecraft:armor_stand 123.5 5.0 188.5 {Tags:["lobbyStand","sonic","default"],Rotation:[0f,0f]}
 
-summon minecraft:area_effect_cloud 61.5 6.75 156.5 {Tags:["lobbyStand.label"],CustomName:'{"text":"Shadow","color":"dark_red"}',CustomNameVisible:1b,Age:-2147483648,Duration:-1,WaitTime:-2147483648}
-summon minecraft:armor_stand 61.5 5.0 158.5 {Tags:["lobbyStand","shadow","default"],Rotation:[-180f,0f]}
+summon minecraft:area_effect_cloud 121.5 6.75 186.5 {Tags:["lobbyStand.label"],CustomName:'{"text":"Shadow","color":"dark_red"}',CustomNameVisible:1b,Age:-2147483648,Duration:-1,WaitTime:-2147483648}
+summon minecraft:armor_stand 121.5 5.0 186.5 {Tags:["lobbyStand","shadow","default"],Rotation:[-180f,0f]}
 
-summon minecraft:area_effect_cloud 68.5 6.75 136.5 {Tags:["lobbyStand.label"],CustomName:'{"text":"R.O.B.","color":"white"}',CustomNameVisible:1b,Age:-2147483648,Duration:-1,WaitTime:-2147483648}
-summon minecraft:armor_stand 66.5 5.0 136.5 {Tags:["lobbyStand","rob","default"],Rotation:[-90f,0f]}
+summon minecraft:area_effect_cloud 119.5 6.75 182.5 {Tags:["lobbyStand.label"],CustomName:'{"text":"R.O.B.","color":"white"}',CustomNameVisible:1b,Age:-2147483648,Duration:-1,WaitTime:-2147483648}
+summon minecraft:armor_stand 119.5 5.0 182.5 {Tags:["lobbyStand","rob","default"],Rotation:[-90f,0f]}
 
-summon minecraft:area_effect_cloud 56.5 6.75 148.5 {Tags:["lobbyStand.label"],CustomName:'{"text":"Mega Man","color":"dark_aqua"}',CustomNameVisible:1b,Age:-2147483648,Duration:-1,WaitTime:-2147483648}
-summon minecraft:armor_stand 56.5 5.0 146.5 {Tags:["lobbyStand","megaman","default"],Rotation:[0f,0f]}
+summon minecraft:area_effect_cloud 118.5 6.75 179.5 {Tags:["lobbyStand.label"],CustomName:'{"text":"Mega Man","color":"dark_aqua"}',CustomNameVisible:1b,Age:-2147483648,Duration:-1,WaitTime:-2147483648}
+summon minecraft:armor_stand 118.5 5.0 179.5 {Tags:["lobbyStand","megaman","default"],Rotation:[0f,0f]}
 
-summon minecraft:area_effect_cloud 19.5 6.75 148.5 {Tags:["lobbyStand.label"],CustomName:'{"text":"Ryu","color":"white"}',CustomNameVisible:1b,Age:-2147483648,Duration:-1,WaitTime:-2147483648}
-summon minecraft:armor_stand 19.5 5.0 146.5 {Tags:["lobbyStand","ryu","default"],Rotation:[0f,0f]}
+summon minecraft:area_effect_cloud 117.5 6.75 176.5 {Tags:["lobbyStand.label"],CustomName:'{"text":"Ryu","color":"white"}',CustomNameVisible:1b,Age:-2147483648,Duration:-1,WaitTime:-2147483648}
+summon minecraft:armor_stand 117.5 5.0 176.5 {Tags:["lobbyStand","ryu","default"],Rotation:[0f,0f]}
 
-summon minecraft:area_effect_cloud 66.5 6.75 156.5 {Tags:["lobbyStand.label"],CustomName:'{"text":"Cloud","color":"white"}',CustomNameVisible:1b,Age:-2147483648,Duration:-1,WaitTime:-2147483648}
-summon minecraft:armor_stand 66.5 5.0 158.5 {Tags:["lobbyStand","cloud","default"],Rotation:[180f,0f]}
+summon minecraft:area_effect_cloud 117.5 6.75 174.5 {Tags:["lobbyStand.label"],CustomName:'{"text":"Cloud","color":"white"}',CustomNameVisible:1b,Age:-2147483648,Duration:-1,WaitTime:-2147483648}
+summon minecraft:armor_stand 117.5 5.0 174.5 {Tags:["lobbyStand","cloud","default"],Rotation:[180f,0f]}
 
-summon minecraft:area_effect_cloud 75.5 6.75 151.5 {Tags:["lobbyStand.label"],CustomName:'{"text":"Alucard","color":"gray"}',CustomNameVisible:1b,Age:-2147483648,Duration:-1,WaitTime:-2147483648}
-summon minecraft:armor_stand 77.5 5.0 151.5 {Tags:["lobbyStand","alucard","default"],Rotation:[90f,0f]}
+summon minecraft:area_effect_cloud 117.5 6.75 172.5 {Tags:["lobbyStand.label"],CustomName:'{"text":"Alucard","color":"gray"}',CustomNameVisible:1b,Age:-2147483648,Duration:-1,WaitTime:-2147483648}
+summon minecraft:armor_stand 117.5 5.0 172.5 {Tags:["lobbyStand","alucard","default"],Rotation:[90f,0f]}
 
-summon minecraft:area_effect_cloud 11.5 6.75 154.5 {Tags:["lobbyStand.label"],CustomName:'{"text":"Joker","color":"dark_red"}',CustomNameVisible:1b,Age:-2147483648,Duration:-1,WaitTime:-2147483648}
-summon minecraft:armor_stand 9.5 5.0 154.5 {Tags:["lobbyStand","joker","default"],Rotation:[-90f,0f]}
+summon minecraft:area_effect_cloud 117.5 6.75 170.5 {Tags:["lobbyStand.label"],CustomName:'{"text":"Joker","color":"dark_red"}',CustomNameVisible:1b,Age:-2147483648,Duration:-1,WaitTime:-2147483648}
+summon minecraft:armor_stand 117.5 5.0 170.5 {Tags:["lobbyStand","joker","default"],Rotation:[-90f,0f]}
 
-summon minecraft:area_effect_cloud 14.5 6.75 148.5 {Tags:["lobbyStand.label"],CustomName:'{"text":"Hero","color":"yellow"}',CustomNameVisible:1b,Age:-2147483648,Duration:-1,WaitTime:-2147483648}
-summon minecraft:armor_stand 14.5 5.0 146.5 {Tags:["lobbyStand","hero","default"],Rotation:[0f,0f]}
+summon minecraft:area_effect_cloud 118.5 6.75 167.5 {Tags:["lobbyStand.label"],CustomName:'{"text":"Hero","color":"yellow"}',CustomNameVisible:1b,Age:-2147483648,Duration:-1,WaitTime:-2147483648}
+summon minecraft:armor_stand 118.5 5.0 167.5 {Tags:["lobbyStand","hero","default"],Rotation:[0f,0f]}
 
-summon minecraft:area_effect_cloud 76.5 6.75 141.5 {Tags:["lobbyStand.label"],CustomName:'{"text":"Steve","color":"dark_aqua"}',CustomNameVisible:1b,Age:-2147483648,Duration:-1,WaitTime:-2147483648}
-summon minecraft:armor_stand 78.5 5.0 141.5 {Tags:["lobbyStand","steve","default"],Rotation:[90f,0f]}
+summon minecraft:area_effect_cloud 119.5 6.75 164.5 {Tags:["lobbyStand.label"],CustomName:'{"text":"Steve","color":"dark_aqua"}',CustomNameVisible:1b,Age:-2147483648,Duration:-1,WaitTime:-2147483648}
+summon minecraft:armor_stand 119.5 5.0 164.5 {Tags:["lobbyStand","steve","default"],Rotation:[90f,0f]}
 
 summon minecraft:area_effect_cloud 71.5 6.75 155.5 {Tags:["lobbyStand.label"],CustomName:'{"text":"Sora","color":"white"}',CustomNameVisible:1b,Age:-2147483648,Duration:-1,WaitTime:-2147483648}
 summon minecraft:armor_stand 71.5 5.0 157.5 {Tags:["lobbyStand","sora","default"],Rotation:[180f,0f]}
