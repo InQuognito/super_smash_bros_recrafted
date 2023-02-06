@@ -1,3 +1,5 @@
+function ssbrc:logic/selector/raycast/start
+
 function ssbrc:logic/tick/triggers/menu
 function ssbrc:logic/tick/triggers/options
 

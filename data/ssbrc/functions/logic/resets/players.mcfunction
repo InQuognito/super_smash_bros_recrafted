@@ -30,4 +30,6 @@ function ssbrc:logic/statistics
 scoreboard players set @s shopCalculator 0
 function ssbrc:shop/pages/main/load
 
+loot replace entity @s hotbar.0 loot ssbrc:selector
+
 tag @s add loaded

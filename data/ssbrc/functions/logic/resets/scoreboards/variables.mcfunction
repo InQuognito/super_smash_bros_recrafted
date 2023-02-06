@@ -1,5 +1,6 @@
 # Lobby
 scoreboard players set #quickStart vars 10
+scoreboard players set selectorRange vars 10
 
 # Misc
 scoreboard players set #frostbiteTimer vars 100
