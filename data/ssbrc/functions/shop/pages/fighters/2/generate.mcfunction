@@ -13,8 +13,8 @@ execute if score @s[advancements={ssbrc:series/retro_fighters/yar/skins/default=
 loot replace entity @s[advancements={ssbrc:series/retro_fighters/yar/skins/default=true}] enderchest.3 loot ssbrc:ui/shop/fighters/yar/owned
 
 execute if score @s[advancements={ssbrc:series/the_legend_of_zelda/zelda/skins/default=false}] stats.credits < #price.fighter.common vars run loot replace entity @s enderchest.4 loot ssbrc:ui/shop/fighters/zelda/cannot_afford
-execute if score @s[advancements={ssbrc:series/fire_emblem/zelda/skins/default=false}] stats.credits >= #price.fighter.common vars run loot replace entity @s enderchest.4 loot ssbrc:ui/shop/fighters/zelda/unowned
-loot replace entity @s[advancements={ssbrc:series/fire_emblem/zelda/skins/default=true}] enderchest.4 loot ssbrc:ui/shop/fighters/zelda/owned
+execute if score @s[advancements={ssbrc:series/the_legend_of_zelda/zelda/skins/default=false}] stats.credits >= #price.fighter.common vars run loot replace entity @s enderchest.4 loot ssbrc:ui/shop/fighters/zelda/unowned
+loot replace entity @s[advancements={ssbrc:series/the_legend_of_zelda/zelda/skins/default=true}] enderchest.4 loot ssbrc:ui/shop/fighters/zelda/owned
 
 loot replace entity @s enderchest.8 loot ssbrc:ui/null/orange
 loot replace entity @s enderchest.17 loot ssbrc:ui/null/orange
