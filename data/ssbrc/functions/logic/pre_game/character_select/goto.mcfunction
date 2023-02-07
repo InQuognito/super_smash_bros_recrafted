@@ -1,5 +1,6 @@
 teleport @s 138.5 6.0 173.0 0.0 0.0
 
+loot replace entity @s hotbar.0 loot ssbrc:selector
 loot replace entity @s hotbar.4 loot ssbrc:favorites
 
 execute if score $teams options matches 0 run team join waiting @s
