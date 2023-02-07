@@ -39,6 +39,6 @@ execute if entity @e[type=minecraft:armor_stand,tag=wolf,dx=0,sort=nearest,limit
 execute if entity @e[type=minecraft:armor_stand,tag=yar,dx=0,sort=nearest,limit=1] run function ssbrc:series/retro_fighters/yar/menu/prompt
 execute if entity @e[type=minecraft:armor_stand,tag=zelda,dx=0,sort=nearest,limit=1] run function ssbrc:series/the_legend_of_zelda/zelda/menu/prompt
 
-execute if entity @e[type=minecraft:armor_stand,tag=spectator,dx=0,sort=nearest,limit=1] run function ssbrc:logic/spectate
+execute if entity @e[type=minecraft:armor_stand,tag=spectate,dx=0,sort=nearest,limit=1] run function ssbrc:logic/spectate
 
 scoreboard players reset @s useAbility
