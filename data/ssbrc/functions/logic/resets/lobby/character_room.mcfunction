@@ -115,7 +115,7 @@ summon minecraft:area_effect_cloud 123.5 6.75 158.5 {Tags:["lobbyStand.label"],C
 summon minecraft:armor_stand 123.5 5.0 158.5 {Tags:["selectable","lobbyStand","shovelknight","default"]}
 
 summon minecraft:area_effect_cloud 125.5 6.75 156.5 {Tags:["lobbyStand.label"],CustomName:'{"text":"Altered Beast","color":"gold"}',CustomNameVisible:1b,Age:-2147483648,Duration:-1,WaitTime:-2147483648}
-summon minecraft:armor_stand 125.5 5.0 156.5 {Tags:["selectable",","lobbyStand","alteredbeast","default","human"]}
+summon minecraft:armor_stand 125.5 5.0 156.5 {Tags:["selectable","lobbyStand","alteredbeast","default","human"]}
 
 summon minecraft:area_effect_cloud 129.5 6.75 154.5 {Tags:["lobbyStand.label"],CustomName:'{"text":"Yar","color":"red"}',CustomNameVisible:1b,Age:-2147483648,Duration:-1,WaitTime:-2147483648}
 summon minecraft:armor_stand 129.5 5.0 154.5 {Tags:["selectable","lobbyStand","yar","default"]}
