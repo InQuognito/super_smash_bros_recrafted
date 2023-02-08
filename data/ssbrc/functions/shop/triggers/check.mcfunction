@@ -5,4 +5,7 @@ execute if score @s shop matches 1 run function ssbrc:shop/triggers/triggers/mai
 execute if score @s shop matches 2 run function ssbrc:shop/triggers/triggers/fighters/1
 execute if score @s shop matches 3 run function ssbrc:shop/triggers/triggers/fighters/2
 
-execute if score @s shop matches 100 run function ssbrc:shop/triggers/triggers/skins/alteredbeast
+execute if score @s shop matches 100 run function ssbrc:shop/triggers/triggers/skins/1
+execute if score @s shop matches 101 run function ssbrc:shop/triggers/triggers/skins/2
+
+execute if score @s shop matches 200 run function ssbrc:shop/triggers/triggers/skins/alucard
