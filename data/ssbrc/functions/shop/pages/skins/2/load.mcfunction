@@ -1,2 +1,2 @@
-scoreboard players set @s shop 100
-function ssbrc:shop/pages/skins/1/generate
+scoreboard players set @s shop 101
+function ssbrc:shop/pages/skins/2/generate
