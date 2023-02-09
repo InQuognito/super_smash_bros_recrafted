@@ -59,7 +59,7 @@
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{ui:{id:\"skins.ganondorf.ocarinaOfTime\",sound:\"click\"},CustomModelData:1844}"
+							"tag": "{ui:{id:\"skins.ganondorf.ocarinaOfTime\",sound:\"click\"},CustomModelData:402}"
 						}
 					]
 				}

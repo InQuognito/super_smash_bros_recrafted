@@ -59,7 +59,7 @@
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{ui:{id:\"skins.sora.timelessRiver\",sound:\"click\"},CustomModelData:1844}"
+							"tag": "{ui:{id:\"skins.sora.timelessRiver\",sound:\"click\"},CustomModelData:1564}"
 						}
 					]
 				}
