@@ -12,8 +12,8 @@
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"text": "Captain Falcon",
-								"color": "red",
+								"text": "Rick Wheeler",
+								"color": "dark_blue",
 								"bold": true,
 								"italic": false
 							}

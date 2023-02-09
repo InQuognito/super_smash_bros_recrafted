@@ -12,8 +12,8 @@
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"text": "Rick Wheeler",
-								"color": "dark_blue",
+								"text": "Hot Ryu",
+								"color": "white",
 								"bold": true,
 								"italic": false
 							}
@@ -23,33 +23,13 @@
 							"entity": "this",
 							"lore": [
 								{
-									"text": "Price: ",
-									"color": "yellow",
-									"bold": false,
-									"italic": false,
-									"extra": [
-										{
-											"score": {
-												"name": "#price.skin.common",
-												"objective": "vars"
-											},
-											"bold": false,
-											"italic": false
-										},
-										{
-											"text": "₡",
-											"color": "yellow"
-										}
-									]
-								},
-								{
 									"text": "",
 									"color": "white",
 									"bold": false,
 									"italic": false
 								},
 								{
-									"text": "Click to purchase!",
+									"text": "Owned",
 									"color": "green",
 									"bold": false,
 									"italic": false
@@ -59,7 +39,7 @@
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{ui:{id:\"skins.captainfalcon.rickWheeler\",sound:\"click\"},CustomModelData:1844}"
+							"tag": "{UIPlaceHolder:1b,CustomModelData:1844}"
 						}
 					]
 				}

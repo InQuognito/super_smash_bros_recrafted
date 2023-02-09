@@ -12,8 +12,8 @@
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"text": "Rick Wheeler",
-								"color": "dark_blue",
+								"text": "Famicom",
+								"color": "red",
 								"bold": true,
 								"italic": false
 							}
@@ -59,7 +59,7 @@
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{ui:{id:\"skins.captainfalcon.rickWheeler\",sound:\"click\"},CustomModelData:1844}"
+							"tag": "{ui:{id:\"skins.rob.famicom\",sound:\"click\"},CustomModelData:1844}"
 						}
 					]
 				}
