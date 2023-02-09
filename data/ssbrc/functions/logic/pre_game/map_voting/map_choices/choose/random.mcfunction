@@ -21,6 +21,7 @@ execute if entity @s[tag=mushroomKingdom] run function ssbrc:logic/pre_game/map_
 execute if entity @s[tag=pacMaze] run function ssbrc:logic/pre_game/map_voting/map_choices/stages/pac_maze
 execute if entity @s[tag=palletTown] run function ssbrc:logic/pre_game/map_voting/map_choices/stages/pallet_town
 execute if entity @s[tag=palutenasTemple] run function ssbrc:logic/pre_game/map_voting/map_choices/stages/palutenas_temple
+execute if entity @s[tag=planetEpp] run function ssbrc:logic/pre_game/map_voting/map_choices/stages/planet_epp
 execute if entity @s[tag=planetZebes] run function ssbrc:logic/pre_game/map_voting/map_choices/stages/planet_zebes
 execute if entity @s[tag=pyrosphere] run function ssbrc:logic/pre_game/map_voting/map_choices/stages/pyrosphere
 execute if entity @s[tag=sandOcean] run function ssbrc:logic/pre_game/map_voting/map_choices/stages/sand_ocean
@@ -31,7 +32,6 @@ execute if entity @s[tag=spearPillar] run function ssbrc:logic/pre_game/map_voti
 execute if entity @s[tag=suzakuCastle] run function ssbrc:logic/pre_game/map_voting/map_choices/stages/suzaku_castle
 execute if entity @s[tag=towerOfFate] run function ssbrc:logic/pre_game/map_voting/map_choices/stages/tower_of_fate
 execute if entity @s[tag=wilyCastle] run function ssbrc:logic/pre_game/map_voting/map_choices/stages/wily_castle
-execute if entity @s[tag=planetEpp] run function ssbrc:logic/pre_game/map_voting/map_choices/stages/planet_epp
 execute if entity @s[tag=yggdrasilsAltar] run function ssbrc:logic/pre_game/map_voting/map_choices/stages/yggdrasils_altar
 
 teleport @s ~ ~ ~
