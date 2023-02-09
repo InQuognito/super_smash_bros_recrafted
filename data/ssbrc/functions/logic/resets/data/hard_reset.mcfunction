@@ -1,3 +1,5 @@
+advancement revoke @a everything
+
 function ssbrc:logic/resets/scoreboards/remove
 
 scoreboard objectives remove stats.credits
