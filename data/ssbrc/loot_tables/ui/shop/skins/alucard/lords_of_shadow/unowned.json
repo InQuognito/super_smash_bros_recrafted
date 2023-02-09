@@ -59,7 +59,7 @@
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{ui:{id:\"alucard.lordsOfShadow\",sound:\"click\"},CustomModelData:1844}"
+							"tag": "{ui:{id:\"skins.alucard.lordsOfShadow\",sound:\"click\"},CustomModelData:1844}"
 						}
 					]
 				}
