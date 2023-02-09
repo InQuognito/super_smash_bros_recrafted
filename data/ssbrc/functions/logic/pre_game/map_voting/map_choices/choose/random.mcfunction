@@ -37,4 +37,4 @@ execute if entity @s[tag=yggdrasilsAltar] run function ssbrc:logic/pre_game/map_
 teleport @s ~ ~ ~
 tag @s add selected
 
-execute as @e[type=minecraft:marker,tag=mapChooser] at @s run function ssbrc:logic/pre_game/map_voting/map_choices/success
+execute as @e[type=minecraft:marker,tag=mapChooser,limit=1] at @s run function ssbrc:logic/pre_game/map_voting/map_choices/success
