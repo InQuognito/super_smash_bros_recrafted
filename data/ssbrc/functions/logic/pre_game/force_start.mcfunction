@@ -5,4 +5,4 @@ execute as @a[predicate=ssbrc:ingame] run function ssbrc:logic/pre_game/map_voti
 scoreboard players set $global id 0
 execute as @r[tag=alive,tag=!idSet] run function ssbrc:logic/id/set
 
-function ssbrc:logic/pre_game/map_voting/load
+execute positioned 0.0 0.0 0.0 run function ssbrc:logic/pre_game/map_voting/load
