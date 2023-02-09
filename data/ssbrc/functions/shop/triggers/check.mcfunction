@@ -26,3 +26,4 @@ execute if score @s shop matches 214 run function ssbrc:shop/triggers/triggers/s
 execute if score @s shop matches 215 run function ssbrc:shop/triggers/triggers/skins/snake
 execute if score @s shop matches 216 run function ssbrc:shop/triggers/triggers/skins/sora
 execute if score @s shop matches 217 run function ssbrc:shop/triggers/triggers/skins/steve
+execute if score @s shop matches 218 run function ssbrc:shop/triggers/triggers/skins/pokemontrainer
