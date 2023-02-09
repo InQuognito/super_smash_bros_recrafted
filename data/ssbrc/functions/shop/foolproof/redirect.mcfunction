@@ -23,3 +23,4 @@ execute if score @s shop matches 214 run function ssbrc:shop/pages/skins/shovelk
 execute if score @s shop matches 215 run function ssbrc:shop/pages/skins/snake/load
 execute if score @s shop matches 216 run function ssbrc:shop/pages/skins/sora/load
 execute if score @s shop matches 217 run function ssbrc:shop/pages/skins/steve/load
+execute if score @s shop matches 218 run function ssbrc:shop/pages/skins/pokemontrainer/load

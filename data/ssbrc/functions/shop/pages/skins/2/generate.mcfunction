@@ -4,6 +4,9 @@ loot replace entity @s enderchest.0 loot ssbrc:ui/null/orange
 item replace entity @s enderchest.9 with minecraft:barrier{ui:{id:"navigation.skins.1",sound:"click"},CustomModelData:9999991,display:{Name:'{"translate":"Go Back","color":"red","italic":false}'}}
 loot replace entity @s enderchest.18 loot ssbrc:ui/null/orange
 
+item replace entity @s[advancements={ssbrc:series/indie_fighters/shovelknight/skins/default=false}] enderchest.24 with minecraft:barrier{UIPlaceHolder:1b,CustomModelData:1920,display:{Name:'{"translate":"Shovel Knight","color":"dark_aqua","italic":false}',Lore:['""','{"translate":"You do not own this fighter","color":"red","italic":false}']}}
+item replace entity @s[advancements={ssbrc:series/indie_fighters/shovelknight/skins/default=true}] enderchest.24 with minecraft:barrier{ui:{id:"navigation.skins.shovelknight",sound:"click"},CustomModelData:1920,display:{Name:'{"translate":"Shovel Knight","color":"dark_aqua","italic":false}',Lore:['""','{"translate":"Click to open","color":"yellow","italic":false}']}}
+
 item replace entity @s[advancements={ssbrc:series/metal_gear_solid/snake/skins/default=false}] enderchest.2 with minecraft:barrier{UIPlaceHolder:1b,CustomModelData:1520,display:{Name:'{"translate":"Snake","color":"gray","italic":false}',Lore:['""','{"translate":"You do not own this fighter","color":"red","italic":false}']}}
 item replace entity @s[advancements={ssbrc:series/metal_gear_solid/snake/skins/default=true}] enderchest.2 with minecraft:barrier{ui:{id:"navigation.skins.snake",sound:"click"},CustomModelData:1520,display:{Name:'{"translate":"Snake","color":"gray","italic":false}',Lore:['""','{"translate":"Click to open","color":"yellow","italic":false}']}}
 

@@ -31,6 +31,9 @@ execute if score @s shopCalculator matches 1.. run function ssbrc:shop/pages/ski
 execute store result score @s shopCalculator run clear @s #ssbrc:ui/buttons{ui:{id:"navigation.skins.ness"}}
 execute if score @s shopCalculator matches 1.. run function ssbrc:shop/pages/skins/ness/load
 
+execute store result score @s shopCalculator run clear @s #ssbrc:ui/buttons{ui:{id:"navigation.skins.pokemontrainer"}}
+execute if score @s shopCalculator matches 1.. run function ssbrc:shop/pages/skins/pokemontrainer/load
+
 execute store result score @s shopCalculator run clear @s #ssbrc:ui/buttons{ui:{id:"navigation.skins.rob"}}
 execute if score @s shopCalculator matches 1.. run function ssbrc:shop/pages/skins/rob/load
 
