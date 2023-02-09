@@ -4,6 +4,9 @@ execute if score @s shopCalculator matches 1.. run function ssbrc:shop/pages/mai
 execute store result score @s shopCalculator run clear @s #ssbrc:ui/buttons{ui:{id:"navigation.skins.alucard"}}
 execute if score @s shopCalculator matches 1.. run function ssbrc:shop/pages/skins/alucard/load
 
+execute store result score @s shopCalculator run clear @s #ssbrc:ui/buttons{ui:{id:"navigation.skins.bowser"}}
+execute if score @s shopCalculator matches 1.. run function ssbrc:shop/pages/skins/bowser/load
+
 execute store result score @s shopCalculator run clear @s #ssbrc:ui/buttons{ui:{id:"navigation.skins.captainfalcon"}}
 execute if score @s shopCalculator matches 1.. run function ssbrc:shop/pages/skins/captainfalcon/load
 
@@ -30,12 +33,6 @@ execute if score @s shopCalculator matches 1.. run function ssbrc:shop/pages/ski
 
 execute store result score @s shopCalculator run clear @s #ssbrc:ui/buttons{ui:{id:"navigation.skins.shovelknight"}}
 execute if score @s shopCalculator matches 1.. run function ssbrc:shop/pages/skins/shovelknight/load
-
-execute store result score @s shopCalculator run clear @s #ssbrc:ui/buttons{ui:{id:"navigation.skins.sora"}}
-execute if score @s shopCalculator matches 1.. run function ssbrc:shop/pages/skins/sora/load
-
-execute store result score @s shopCalculator run clear @s #ssbrc:ui/buttons{ui:{id:"navigation.skins.steve"}}
-execute if score @s shopCalculator matches 1.. run function ssbrc:shop/pages/skins/steve/load
 
 execute store result score @s shopCalculator run clear @s #ssbrc:ui/buttons{ui:{id:"navigation.skins.2"}}
 execute if score @s shopCalculator matches 1.. run function ssbrc:shop/pages/skins/2/load
