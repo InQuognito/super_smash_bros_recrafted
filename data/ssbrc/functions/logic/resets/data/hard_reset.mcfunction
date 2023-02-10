@@ -10,7 +10,6 @@ scoreboard objectives remove stats.wins
 scoreboard objectives remove stats.winStreak
 scoreboard objectives remove stats.winStreak.record
 scoreboard objectives remove options
-scoreboard objectives remove hardReset
 
 # Characters
 scoreboard objectives remove stats.alteredbeast.deaths
