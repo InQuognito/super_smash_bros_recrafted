@@ -16,7 +16,7 @@ execute if score $gameTime timer matches 2 as @a[predicate=ssbrc:ingame] at @s r
 execute if score $gameTime timer matches 1 as @a[predicate=ssbrc:ingame] at @s run playsound ssbrc:one voice @s
 execute if score $gameTime timer matches ..0 run function ssbrc:logic/post_game/calculate_winner
 
-execute if score $gameTimePercent temp matches ..33 if score $towerOfFate map matches 1 unless score #towerOfFateDestroyed temp matches 1.. run function ssbrc:maps/t/tower_of_fate/logic/destroy_tower/start
+execute if score $gameTimePercent temp matches ..33 if score $towerOfFate map matches 1 unless score towerOfFateDestroyed temp matches 1.. run function ssbrc:maps/t/tower_of_fate/logic/destroy_tower/start
 
 setblock -482 4 55 minecraft:oak_sign{Text1:'[{"text":"Time Remaining: ","color":"gold"},{"score":{"name":"$gameTime","objective":"timer"},"color":"yellow"},{"text":"s","color":"gold"}]'} destroy
 data modify entity @e[tag=lobby.timer,limit=1] CustomName set from block -482 4 55 Text1
