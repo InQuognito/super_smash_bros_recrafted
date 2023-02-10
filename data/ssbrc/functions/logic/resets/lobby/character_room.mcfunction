@@ -128,7 +128,7 @@ summon minecraft:area_effect_cloud 138.5 5.5 150.5 {Tags:["lobbyStand.label"],Cu
 summon minecraft:area_effect_cloud 132.5 6.75 153.5 {Tags:["lobbyStand.label"],CustomName:'{"text":"Spectate","color":"white"}',CustomNameVisible:1b,Age:-2147483648,Duration:-1,WaitTime:-2147483648}
 summon minecraft:armor_stand 132.5 5.0 153.5 {Tags:["selectable","lobbyStand","spectate"]}
 
-execute as @e[predicate=ssbrc:lobby_stands] at @s facing 138.5 6.0 173.0 run teleport @s ~ ~ ~ ~ ~
+execute as @e[tag=lobbyStand] at @s facing 138.5 6.0 173.0 run teleport @s ~ ~ ~ ~ ~
 execute as @e[predicate=ssbrc:lobby_stands] run data merge entity @s {Invisible:1b,Invulnerable:1b,NoBasePlate:1b,NoGravity:1b,DisabledSlots:4144959}
 
 scoreboard players set @e[predicate=ssbrc:lobby_stands] duration.1 1
