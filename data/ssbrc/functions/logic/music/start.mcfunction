@@ -116,6 +116,13 @@ execute if score $jungleJapes map matches 1 if score result_music random matches
 execute if score $jungleJapes map matches 1 if score result_music random matches 1 run tellraw @s [{"text":"Now Playing: ","bold":true,"color":"gold"},{"text":"Jungle Swing","color":"yellow"}]
 execute if score $jungleJapes map matches 1 if score result_music random matches 1 run function ssbrc:logic/music/loop_schedule
 
+execute if score $lakeOfRage map matches 1 if score result_music random matches 0 run playsound ssbrc:pokemon_gold_pokemon_silver_medley_intro music @s
+execute if score $lakeOfRage map matches 1 if score result_music random matches 0 run tellraw @s [{"text":"Now Playing: ","bold":true,"color":"gold"},{"text":"Pokémon Gold & Silver Medley","color":"yellow"}]
+execute if score $lakeOfRage map matches 1 if score result_music random matches 0 run schedule function ssbrc:logic/music/loop_schedule 740t replace
+execute if score $lakeOfRage map matches 1 if score result_music random matches 1 run playsound ssbrc:trainer_battle_pokemon_gold_silver_intro music @s
+execute if score $lakeOfRage map matches 1 if score result_music random matches 1 run tellraw @s [{"text":"Now Playing: ","bold":true,"color":"gold"},{"text":"Trainer Battle! (Pokémon Gold/Pokémon Silver)","color":"yellow"}]
+execute if score $lakeOfRage map matches 1 if score result_music random matches 1 run schedule function ssbrc:logic/music/loop_schedule 560t replace
+
 execute if score $luigisMansion map matches 1 if score result_music random matches 0 run playsound ssbrc:dark_hallways_intro music @s
 execute if score $luigisMansion map matches 1 if score result_music random matches 0 run tellraw @s [{"text":"Now Playing: ","bold":true,"color":"gold"},{"text":"Dark Hallways","color":"yellow"}]
 execute if score $luigisMansion map matches 1 if score result_music random matches 0 run schedule function ssbrc:logic/music/loop_schedule 160t replace
@@ -184,6 +191,13 @@ execute if score $palutenasTemple map matches 1 if score result_music random mat
 execute if score $palutenasTemple map matches 1 if score result_music random matches 1 run playsound ssbrc:destroyed_skyworld_intro music @s
 execute if score $palutenasTemple map matches 1 if score result_music random matches 1 run tellraw @s [{"text":"Now Playing: ","bold":true,"color":"gold"},{"text":"Destroyed Skyworld","color":"yellow"}]
 execute if score $palutenasTemple map matches 1 if score result_music random matches 1 run schedule function ssbrc:logic/music/loop_schedule 180t replace
+
+execute if score $planetEpp map matches 1 if score result_music random matches 0 run playsound ssbrc:draconus_intro music @s
+execute if score $planetEpp map matches 1 if score result_music random matches 0 run tellraw @s [{"text":"Now Playing: ","bold":true,"color":"gold"},{"text":"Draconus","color":"yellow"}]
+execute if score $planetEpp map matches 1 if score result_music random matches 0 run schedule function ssbrc:logic/music/loop_schedule 500t replace
+execute if score $planetEpp map matches 1 if score result_music random matches 1 run playsound ssbrc:zybex_intro music @s
+execute if score $planetEpp map matches 1 if score result_music random matches 1 run tellraw @s [{"text":"Now Playing: ","bold":true,"color":"gold"},{"text":"Zybex","color":"yellow"}]
+execute if score $planetEpp map matches 1 if score result_music random matches 1 run schedule function ssbrc:logic/music/loop_schedule 920t replace
 
 execute if score $planetZebes map matches 1 if score result_music random matches 0 run playsound ssbrc:brinstar_intro music @s
 execute if score $planetZebes map matches 1 if score result_music random matches 0 run tellraw @s [{"text":"Now Playing: ","bold":true,"color":"gold"},{"text":"Brinstar","color":"yellow"}]
@@ -261,13 +275,6 @@ execute if score $wilyCastle map matches 1 if score result_music random matches 
 execute if score $wilyCastle map matches 1 if score result_music random matches 1 run playsound ssbrc:mega_man_4_medley_intro music @s
 execute if score $wilyCastle map matches 1 if score result_music random matches 1 run tellraw @s [{"text":"Now Playing: ","bold":true,"color":"gold"},{"text":"Mega Man 4 Medley","color":"yellow"}]
 execute if score $wilyCastle map matches 1 if score result_music random matches 1 run schedule function ssbrc:logic/music/loop_schedule 142t replace
-
-execute if score $planetEpp map matches 1 if score result_music random matches 0 run playsound ssbrc:draconus_intro music @s
-execute if score $planetEpp map matches 1 if score result_music random matches 0 run tellraw @s [{"text":"Now Playing: ","bold":true,"color":"gold"},{"text":"Draconus","color":"yellow"}]
-execute if score $planetEpp map matches 1 if score result_music random matches 0 run schedule function ssbrc:logic/music/loop_schedule 500t replace
-execute if score $planetEpp map matches 1 if score result_music random matches 1 run playsound ssbrc:zybex_intro music @s
-execute if score $planetEpp map matches 1 if score result_music random matches 1 run tellraw @s [{"text":"Now Playing: ","bold":true,"color":"gold"},{"text":"Zybex","color":"yellow"}]
-execute if score $planetEpp map matches 1 if score result_music random matches 1 run schedule function ssbrc:logic/music/loop_schedule 920t replace
 
 execute if score $yggdrasilsAltar map matches 1 if score result_music random matches 0 run playsound ssbrc:battle_for_glory_intro music @s
 execute if score $yggdrasilsAltar map matches 1 if score result_music random matches 0 run tellraw @s [{"text":"Now Playing: ","bold":true,"color":"gold"},{"text":"Battle for Glory","color":"yellow"}]
