@@ -20,4 +20,4 @@ setblock 6011 23 500 minecraft:air
 setblock 6000 23 511 minecraft:air
 setblock 5989 23 500 minecraft:air
 
-execute positioned 6000.5 22.5 500.5 run function ssbrc:maps/t/tower_of_fate/logic/explosion
+execute positioned 6000.5 22.5 500.5 run function ssbrc:maps/t/tower_of_fate/logic/destroy_tower/explosion

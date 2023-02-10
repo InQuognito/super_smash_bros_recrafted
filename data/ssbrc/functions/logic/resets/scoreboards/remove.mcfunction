@@ -113,6 +113,7 @@ scoreboard objectives remove timer.stat.death
 scoreboard objectives remove timer.stat.kill
 scoreboard objectives remove timer.trident
 scoreboard objectives remove temp
+scoreboard objectives remove towerOfFateBarrier
 scoreboard objectives remove useAbility
 scoreboard objectives remove useItem
 scoreboard objectives remove vars
