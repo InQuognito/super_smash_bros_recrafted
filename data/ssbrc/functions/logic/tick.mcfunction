@@ -18,6 +18,8 @@ execute as @a unless score @s worldTime = $worldTime worldTime run function ssbr
 execute store result score $worldTime worldTime run time query gametime
 execute as @a store result score @s worldTime run time query gametime
 
+execute as @a unless score @s hardReset = numberOfResets hardReset run function ssbrc:logic/resets/data/reset
+
 execute as @a[tag=!loaded] run function ssbrc:logic/resets/players
 
-execute if score $gameMode options matches 0 run say Game Mode is set to 0!!!
+execute if score $gameMode options matches ..0 run scoreboard players set $gameMode options 1

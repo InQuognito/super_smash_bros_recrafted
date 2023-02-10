@@ -1,6 +1,6 @@
-execute if score @s menu matches -999 run function ssbrc:logic/resets/data/confirm
+execute if score @s menu matches -999 run function ssbrc:logic/resets/data/ask
 execute if score @s menu matches -998 if score @s reset matches 1 run function ssbrc:logic/resets/data/cancel
-execute if score @s menu matches -997 if score @s reset matches 1 run function ssbrc:logic/resets/data/reset
+execute if score @s menu matches -997 if score @s reset matches 1 run function ssbrc:logic/resets/data/confirm
 
 execute if score @s[tag=!rob] menu matches 1 run function ssbrc:series/super_smash_bros/rob/menu/select_character
 execute if score @s[tag=!rob] menu matches 2 run function ssbrc:series/super_smash_bros/rob/menu/skin_options

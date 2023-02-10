@@ -244,7 +244,6 @@ scoreboard players reset @s stats.bonus.trulyVillainous
 scoreboard players reset @s stats.bonus.WACCoordinator
 scoreboard players reset @s stats.bonus.yearLongBattle
 
-tellraw @s {"text":"Your data has been successfully reset.","color":"yellow"}
 scoreboard players reset @s reset
 
 function ssbrc:logic/join

@@ -10,6 +10,7 @@ scoreboard objectives remove stats.wins
 scoreboard objectives remove stats.winStreak
 scoreboard objectives remove stats.winStreak.record
 scoreboard objectives remove options
+scoreboard objectives remove hardReset
 
 # Characters
 scoreboard objectives remove stats.alteredbeast.deaths
@@ -283,3 +284,6 @@ scoreboard objectives remove stats.bonus.yearLongBattle
 function ssbrc:logic/load
 
 tellraw @a {"text":"All player data has been successfully reset.","color":"dark_red"}
+
+scoreboard players add numberOfResets hardReset 1
+scoreboard players add @a hardReset 1

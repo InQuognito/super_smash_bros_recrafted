@@ -11,8 +11,10 @@ scoreboard objectives add stats.wL dummy
 scoreboard objectives add favorite.slot1 dummy
 scoreboard objectives add favorite.slot2 dummy
 scoreboard objectives add favorite.slot3 dummy
+scoreboard objectives add hardReset dummy
 scoreboard objectives add options trigger
 scoreboard objectives add random dummy
+scoreboard objectives add worldTime dummy
 
 # Characters
 scoreboard objectives add stats.alteredbeast.deaths dummy
