@@ -25,6 +25,12 @@
 										"color": "yellow",
 										"bold": false,
 										"italic": false
+									},
+									{
+										"text": "₡",
+										"color": "yellow",
+										"bold": false,
+										"italic": false
 									}
 								]
 							}
