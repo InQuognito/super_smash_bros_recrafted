@@ -10,3 +10,5 @@ tag @e[tag=modifyEntity,limit=1] remove modifyEntity
 scoreboard players set @s charge.1 0
 execute if score @s shadow.chaosControl matches 1.. run scoreboard players remove @s charge.1 40
 function ssbrc:logic/characters/armor/update
+
+loot replace entity @s weapon.mainhand loot ssbrc:characters/super_smash_bros/rob/robo_beam/depleted
