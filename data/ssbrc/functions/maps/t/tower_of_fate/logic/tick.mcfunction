@@ -1,7 +1,7 @@
 kill @a[predicate=ssbrc:flag/targets,predicate=ssbrc:below_y/-50]
 
 # Destroy Tower
-execute if score towerOfFateDestroyed temp matches 1 if score towerOfFateDestroyedTimer temp matches 1.. run function ssbrc:maps/t/tower_of_fate/logic/destroy_tower/tick
+execute if score towerOfFateDestroyed temp matches 1.. if score towerOfFateDestroyedTimer temp matches 1.. run function ssbrc:maps/t/tower_of_fate/logic/destroy_tower/tick
 
 # Prevent Upper Level Camping
 execute if score towerOfFateDestroyed temp matches 2 run particle minecraft:portal 6000.5 21.5 500.5 5.0 0.0 5.0 0.0 100 normal @a
