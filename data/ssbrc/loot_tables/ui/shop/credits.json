@@ -1,0 +1,41 @@
+{
+	"type": "minecraft:command",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:gold_nugget",
+					"functions": [
+						{
+							"function": "minecraft:set_name",
+							"entity": "this",
+							"name": {
+								"text": "Credits: ",
+								"color": "gold",
+								"bold": true,
+								"italic": false,
+								"extra": [
+									{
+										"score": {
+											"name": "@s",
+											"objective": "stats.credits"
+										},
+										"color": "yellow",
+										"bold": false,
+										"italic": false
+									}
+								]
+							}
+						},
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{CustomModelData:1,HideFlags:127}"
+						}
+					]
+				}
+			]
+		}
+	]
+}
