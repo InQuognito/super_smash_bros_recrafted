@@ -1,7 +1,10 @@
 function ssbrc:logic/pre_game/character_select/count_players
 
-execute if score #characterPicked temp = #players temp run scoreboard players set $gameStage temp 1
-execute if score #characterPicked temp = #players temp run scoreboard players operation $countdown timer = #quickStart vars
+execute if score #players temp matches ..0 run scoreboard players reset $gameStage temp
+execute if score #players temp matches ..0 run scoreboard players reset $countdown timer
+
+execute if score #players temp matches 1.. if score #characterPicked temp = #players temp run scoreboard players set $gameStage temp 1
+execute if score #players temp matches 1.. if score #characterPicked temp = #players temp run scoreboard players operation $countdown timer = #quickStart vars
 
 execute unless score $gameStage temp matches 0 if score #players temp matches 2.. if score #characterPicked temp < #players temp run scoreboard players set $countdown timer 90
 execute unless score $gameStage temp matches 0 if score #players temp matches 2.. if score #characterPicked temp < #players temp run scoreboard players set $gameStage temp 0
