@@ -59,7 +59,7 @@ summon minecraft:area_effect_cloud 141.5 6.75 194.5 {Tags:["lobbyStand.label"],C
 #summon minecraft:armor_stand 77.5 5.0 129.5 {Tags:["lobbyStand","james","default"]}
 #summon minecraft:armor_stand 77.5 5.0 133.5 {Tags:["lobbyStand","jesse","default"]}
 #summon minecraft:armor_stand 78.5 5.0 130.5 {Tags:["lobbyStand","arbok","default"]}
-summon minecraft:armor_stand 141.5 5.0 194.5 {Tags:["selectable","lobbyStand","meowth","default"],Small:1b}
+summon minecraft:armor_stand 141.5 5.0 194.5 {Tags:["selectable","lobbyStand","teamrocket","meowth","default"],Small:1b}
 #summon minecraft:armor_stand 78.5 5.0 132.5 {Tags:["lobbyStand","wobbuffet","default"]}
 
 summon minecraft:area_effect_cloud 139.5 6.75 194.5 {Tags:["lobbyStand.label"],CustomName:'{"text":"Ness","color":"dark_purple"}',CustomNameVisible:1b,Age:-2147483648,Duration:-1,WaitTime:-2147483648}
