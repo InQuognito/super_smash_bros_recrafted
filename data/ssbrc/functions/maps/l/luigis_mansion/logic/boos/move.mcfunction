@@ -8,4 +8,4 @@ execute store result entity @s Pose.Head[1] float 0.25 run scoreboard players ge
 teleport @s ^ ^ ^0.1
 
 scoreboard players add @s temp 5
-kill @s[scores={temp=3000..}]
+kill @s[scores={temp=3100..}]
