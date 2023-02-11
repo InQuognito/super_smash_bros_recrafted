@@ -12,6 +12,7 @@ execute if score $greatPlateau map matches 1 run function ssbrc:maps/g/great_pla
 execute if score $greenHillZone map matches 1 run function ssbrc:maps/g/green_hill_zone/logic/tick
 execute if score $hyruleCastle map matches 1 run function ssbrc:maps/h/hyrule_castle/logic/tick
 execute if score $icicleMountain map matches 1 run function ssbrc:maps/i/icicle_mountain/logic/tick
+execute if score $luigisMansion map matches 1 run function ssbrc:maps/l/luigis_mansion/logic/tick
 execute if score $mementos map matches 1 run function ssbrc:maps/m/mementos/logic/tick
 execute if score $miiverse map matches 1 run function ssbrc:maps/m/miiverse/logic/tick
 execute if score $mushroomKingdom map matches 1 run function ssbrc:maps/m/mushroom_kingdom/logic/tick

@@ -39,3 +39,6 @@ kill @e[type=minecraft:item_frame,tag=lanternOff]
 
 execute at @e[type=minecraft:marker,tag=lanternOff.floor] run setblock ~ ~ ~ minecraft:lantern[hanging=false] replace
 execute at @e[type=minecraft:marker,tag=lanternOff.hanging] run setblock ~ ~ ~ minecraft:lantern[hanging=true] replace
+
+execute at @e[type=minecraft:armor_stand,tag=boo] anchored eyes run particle minecraft:poof ^ ^ ^5 0.1 0.1 0.1 0.05 5 normal @a
+kill @e[type=minecraft:armor_stand,tag=boo]
