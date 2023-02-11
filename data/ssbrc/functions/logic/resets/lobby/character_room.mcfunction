@@ -46,21 +46,21 @@ summon minecraft:armor_stand 153.5 5.0 188.5 {Tags:["selectable","lobbyStand","p
 summon minecraft:area_effect_cloud 151.5 6.75 190.5 {Tags:["lobbyStand.label"],CustomName:'{"text":"Jigglypuff","color":"light_purple"}',CustomNameVisible:1b,Age:-2147483648,Duration:-1,WaitTime:-2147483648}
 summon minecraft:armor_stand 151.5 5.0 190.5 {Tags:["selectable","lobbyStand","jigglypuff","default"],Small:1b}
 
-summon minecraft:area_effect_cloud 19.5 6.75 156.5 {Tags:["lobbyStand.label"],CustomName:'{"text":"Pokémon Trainer","color":"red"}',CustomNameVisible:1b,Age:-2147483648,Duration:-1,WaitTime:-2147483648}
-summon minecraft:armor_stand 19.5 5.0 159.5 {Tags:["selectable","lobbyStand","pokemontrainer","default"]}
-summon minecraft:armor_stand 20.5 5.0 158.5 {Tags:["lobbyStand","charizard","default"]}
-summon minecraft:armor_stand 18.5 5.0 158.5 {Tags:["lobbyStand","ivysaur","default"]}
-summon minecraft:armor_stand 19.5 5.0 158.5 {Tags:["lobbyStand","squirtle","default"],Small:1b}
+summon minecraft:area_effect_cloud 147.5 6.75 192.5 {Tags:["lobbyStand.label"],CustomName:'{"text":"Pokémon Trainer","color":"red"}',CustomNameVisible:1b,Age:-2147483648,Duration:-1,WaitTime:-2147483648}
+summon minecraft:armor_stand 147.5 5.0 192.5 {Tags:["selectable","lobbyStand","pokemontrainer","default"]}
+#summon minecraft:armor_stand 20.5 5.0 158.5 {Tags:["lobbyStand","charizard","default"]}
+#summon minecraft:armor_stand 18.5 5.0 158.5 {Tags:["lobbyStand","ivysaur","default"]}
+#summon minecraft:armor_stand 19.5 5.0 158.5 {Tags:["lobbyStand","squirtle","default"],Small:1b}
 
 summon minecraft:area_effect_cloud 144.5 6.75 193.5 {Tags:["lobbyStand.label"],CustomName:'{"text":"Greninja","color":"blue"}',CustomNameVisible:1b,Age:-2147483648,Duration:-1,WaitTime:-2147483648}
 summon minecraft:armor_stand 144.5 5.0 193.5 {Tags:["selectable","lobbyStand","greninja","default"]}
 
-summon minecraft:area_effect_cloud 76.5 6.75 131.5 {Tags:["lobbyStand.label"],CustomName:'{"text":"Team Rocket","color":"dark_purple"}',CustomNameVisible:1b,Age:-2147483648,Duration:-1,WaitTime:-2147483648}
-summon minecraft:armor_stand 77.5 5.0 129.5 {Tags:["lobbyStand","james","default"]}
-summon minecraft:armor_stand 77.5 5.0 133.5 {Tags:["lobbyStand","jesse","default"]}
-summon minecraft:armor_stand 78.5 5.0 130.5 {Tags:["lobbyStand","arbok","default"]}
-summon minecraft:armor_stand 78.5 5.0 131.5 {Tags:["selectable","lobbyStand","meowth","default"],Small:1b}
-summon minecraft:armor_stand 78.5 5.0 132.5 {Tags:["lobbyStand","wobbuffet","default"]}
+summon minecraft:area_effect_cloud 141.5 6.75 194.5 {Tags:["lobbyStand.label"],CustomName:'{"text":"Team Rocket","color":"dark_purple"}',CustomNameVisible:1b,Age:-2147483648,Duration:-1,WaitTime:-2147483648}
+#summon minecraft:armor_stand 77.5 5.0 129.5 {Tags:["lobbyStand","james","default"]}
+#summon minecraft:armor_stand 77.5 5.0 133.5 {Tags:["lobbyStand","jesse","default"]}
+#summon minecraft:armor_stand 78.5 5.0 130.5 {Tags:["lobbyStand","arbok","default"]}
+summon minecraft:armor_stand 141.5 5.0 194.5 {Tags:["selectable","lobbyStand","meowth","default"],Small:1b}
+#summon minecraft:armor_stand 78.5 5.0 132.5 {Tags:["lobbyStand","wobbuffet","default"]}
 
 summon minecraft:area_effect_cloud 139.5 6.75 194.5 {Tags:["lobbyStand.label"],CustomName:'{"text":"Ness","color":"dark_purple"}',CustomNameVisible:1b,Age:-2147483648,Duration:-1,WaitTime:-2147483648}
 summon minecraft:armor_stand 139.5 5.0 194.5 {Tags:["selectable","lobbyStand","ness","default"]}
