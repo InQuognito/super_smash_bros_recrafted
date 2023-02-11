@@ -81,8 +81,8 @@ execute if entity @e[type=minecraft:armor_stand,tag=spectate,dx=0,sort=nearest,l
 
 execute if entity @s[tag=owned.normal] run particle minecraft:dust 0.0 1.0 0.0 1.0 ~ ~0.75 ~ 0.2 0.4 0.2 0.0 5 normal @s
 execute if entity @s[tag=notOwned.normal] run particle minecraft:dust 1.0 0.0 0.0 1.0 ~ ~0.75 ~ 0.2 0.4 0.2 0.0 5 normal @s
-execute if entity @s[tag=owned.small] run particle minecraft:dust 0.0 1.0 0.0 1.0 ~ ~0.75 ~ 0.1 0.2 0.1 0.0 5 normal @s
-execute if entity @s[tag=notOwned.small] run particle minecraft:dust 1.0 0.0 0.0 1.0 ~ ~0.75 ~ 0.1 0.2 0.1 0.0 5 normal @s
+execute if entity @s[tag=owned.small] run particle minecraft:dust 0.0 1.0 0.0 1.0 ~ ~0.75 ~ 0.1 0.2 0.1 0.0 3 normal @s
+execute if entity @s[tag=notOwned.small] run particle minecraft:dust 1.0 0.0 0.0 1.0 ~ ~0.75 ~ 0.1 0.2 0.1 0.0 3 normal @s
 
 tag @s remove owned.normal
 tag @s remove notOwned.normal

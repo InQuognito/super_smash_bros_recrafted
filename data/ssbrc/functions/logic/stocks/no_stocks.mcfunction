@@ -12,7 +12,7 @@ data modify entity @e[tag=lobby.timer,limit=1] CustomName set from block -482 4 
 
 execute if score $teams options matches 0 if score $playersLeft temp matches 1 unless entity @s[tag=wobbuffet,scores={duration.3=40..}] as @a[tag=alive,limit=1] run function ssbrc:logic/post_game/end
 execute if score $teams options matches 0 if score $playersLeft temp matches 1 if entity @s[tag=wobbuffet,scores={duration.3=40..}] run function ssbrc:logic/post_game/end
-execute if score $teams options matches 1 run function ssbrc:logic/teams/count_teams
+execute if score $teams options matches 1 run function ssbrc:logic/teams/count
 execute if score $teams options matches 1 if score $playersLeft temp = $highestTeam teamAmount unless entity @s[tag=wobbuffet,scores={duration.3=40..}] as @r[tag=alive] run function ssbrc:logic/post_game/end
 execute if score $teams options matches 1 if score $playersLeft temp = $highestTeam teamAmount if entity @s[tag=wobbuffet,scores={duration.3=40..}] run function ssbrc:logic/post_game/end
 

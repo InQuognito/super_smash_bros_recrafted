@@ -1,5 +1,5 @@
 function ssbrc:logic/pre_game/character_select/count_players
-function ssbrc:logic/teams/count_teams
+function ssbrc:logic/teams/count
 
 execute if score $teams options matches 0 run function ssbrc:logic/pre_game/force_start
 
