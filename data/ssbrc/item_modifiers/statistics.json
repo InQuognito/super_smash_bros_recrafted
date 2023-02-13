@@ -276,6 +276,6 @@
 	},
 	{
 		"function": "minecraft:set_nbt",
-		"tag": "{CustomModelData:3,title:\"\",author:\"\"}"
+		"tag": "{CustomModelData:3}"
 	}
 ]

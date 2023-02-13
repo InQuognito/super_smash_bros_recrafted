@@ -98,6 +98,8 @@ scoreboard objectives remove snake.antiPersonnelMineA
 scoreboard objectives remove snake.antiPersonnelMineF
 scoreboard objectives remove snake.smokeGrenadeA
 scoreboard objectives remove snake.smokeGrenadeF
+scoreboard objectives remove stageIndex
+scoreboard objectives remove stageIndexCalculator
 scoreboard objectives remove stamina
 scoreboard objectives remove steve.tier
 scoreboard objectives remove stocks

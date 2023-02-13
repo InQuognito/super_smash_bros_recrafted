@@ -98,6 +98,8 @@ scoreboard objectives add snake.antiPersonnelMineA dummy
 scoreboard objectives add snake.antiPersonnelMineF dummy
 scoreboard objectives add snake.smokeGrenadeA dummy
 scoreboard objectives add snake.smokeGrenadeF dummy
+scoreboard objectives add stageIndex dummy
+scoreboard objectives add stageIndexCalculator dummy
 scoreboard objectives add stamina dummy
 scoreboard objectives add steve.tier dummy
 scoreboard objectives add stocks dummy

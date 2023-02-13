@@ -1,6 +1,8 @@
 execute as @a run function ssbrc:logic/tick/players
 
+# Chest UIs
 function ssbrc:shop/tick
+function ssbrc:logic/pre_game/map_voting/stage_index/tick
 
 execute unless score $gameStage temp matches 2.. as @a run function ssbrc:logic/tick/triggers/lobby
 execute if score $gameStage temp matches 3 as @a[predicate=ssbrc:ingame] at @s at @e[type=minecraft:marker,tag=spawnpoint,sort=nearest,limit=1] run function ssbrc:logic/tick/lobby/teleport_to_spawnpoints
