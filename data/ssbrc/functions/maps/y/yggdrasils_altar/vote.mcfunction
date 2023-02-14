@@ -9,3 +9,5 @@ effect clear @s minecraft:glowing
 function ssbrc:logic/inputs/reset
 
 tellraw @a[tag=room.mapVoting] [{"selector":"@s","bold":false},{"text":" has voted for Yggdrasil's Altar! Votes: ","color":"gold"},{"score":{"name":"@e[tag=voteCounter,tag=yggdrasilsAltar,limit=1]","objective":"mapVote"},"bold":false,"color":"yellow"}]
+
+function ssbrc:logic/pre_game/map_voting/stage_index/pages/stages/3/load
