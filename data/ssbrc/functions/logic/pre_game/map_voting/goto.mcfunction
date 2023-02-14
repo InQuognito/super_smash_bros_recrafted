@@ -17,3 +17,6 @@ tag @s add room.mapVoting
 
 title @s clear
 title @s reset
+
+scoreboard players set @s stageIndexCalculator 0
+function ssbrc:logic/pre_game/map_voting/stage_index/pages/stages/1/load
