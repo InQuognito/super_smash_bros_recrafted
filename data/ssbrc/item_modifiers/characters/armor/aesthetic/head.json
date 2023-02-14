@@ -2390,5 +2390,18 @@
 				}
 			}
 		]
+	},
+	{
+		"function": "minecraft:set_nbt",
+		"tag": "{CustomModelData:9999}",
+		"conditions": [
+			{
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"nbt": "{Tags:[\"random\"]}"
+				}
+			}
+		]
 	}
 ]
