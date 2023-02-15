@@ -44,6 +44,8 @@ function ssbrc:logic/pre_game/map_voting/map_choices/stages/big_battlefield
 function ssbrc:logic/pre_game/map_voting/map_choices/stages/final_destination
 function ssbrc:logic/pre_game/map_voting/map_choices/stages/random
 
+summon minecraft:area_effect_cloud -37.5 7.5 7.5 {CustomName:'{"text":"✪ Stage Index ✪","bold":false,"color":"gold"}',CustomNameVisible:1b,Age:-2147483648,Duration:-1,WaitTime:-2147483648}
+
 scoreboard players set @e[tag=voteCounter] mapVote 0
 
 execute as @e[tag=voteCounter] unless score @s mapVote = @s temp run tag @s add voteCounter.update
