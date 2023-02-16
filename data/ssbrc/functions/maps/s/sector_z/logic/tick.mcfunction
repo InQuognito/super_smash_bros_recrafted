@@ -1,1 +1,1 @@
-kill @a[predicate=ssbrc:flag/player,predicate=ssbrc:below_y/-50]
+kill @a[predicate=ssbrc:flag/player,predicate=ssbrc:below_y/-10]
