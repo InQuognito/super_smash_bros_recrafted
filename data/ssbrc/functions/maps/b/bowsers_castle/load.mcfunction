@@ -4,11 +4,27 @@ scoreboard players set $songCount map 2
 scoreboard players set #mapPicked mapVote 1
 forceload add -768 800 -641 895
 
+# Rear Wall
+clone -640 19 835 -639 31 850 -659 19 836
+
 # Bridge
 clone -712 19 897 -700 22 903 -710 22 841
 
-# Rear Wall
-clone -640 19 835 -639 31 850 -659 19 836
+# Northeast Staircase
+clone -650 28 784 -644 33 791 -685 24 827
+scoreboard players set stairs.ne temp 0
+
+# Southeast Staircase
+clone -659 30 899 -653 35 906 -685 24 854
+scoreboard players set stairs.se temp 0
+
+# Southwest Staircase
+clone -739 21 908 -733 26 915 -726 24 854
+scoreboard players set stairs.sw temp 0
+
+# Northwest Staircase
+clone -743 24 783 -737 29 790 -726 24 827
+scoreboard players set stairs.nw temp 0
 
 # Top Platform
 clone -707 42 899 -705 42 901 -726 26 843
