@@ -29,4 +29,5 @@ execute as @e[predicate=ssbrc:flag/targets,predicate=ssbrc:characters/damage.sho
 execute as @e[predicate=ssbrc:flag/targets,tag=damage.electrocution] at @s run function ssbrc:logic/characters/electrocution/damage
 
 # Maps
+execute as @e[predicate=ssbrc:flag/targets,tag=damage.bobOmb] at @s run function ssbrc:maps/b/bowsers_castle/logic/hazards/bob_ombs/damage
 execute as @e[predicate=ssbrc:flag/targets,tag=damage.swirl] at @s run function ssbrc:maps/p/planet_epp/logic/hazards/qotile_zone/swirl/damage
