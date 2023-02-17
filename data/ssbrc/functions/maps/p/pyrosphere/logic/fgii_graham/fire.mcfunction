@@ -1,4 +1,4 @@
-teleport @s ~ ~ ~ ~ ~
+teleport @s ~ ~2.5 ~ ~ ~
 
 execute positioned 0.0 0.0 0.0 run summon minecraft:marker ^ ^ ^4 {Tags:["direction"]}
 
