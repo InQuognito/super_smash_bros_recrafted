@@ -2,7 +2,7 @@ teleport @s ~ ~ ~ ~ ~
 
 execute positioned 0.0 0.0 0.0 run summon minecraft:marker ^ ^ ^4 {Tags:["direction"]}
 
-summon minecraft:arrow ^ ^ ^1 {damage:0.4,Tags:["bullet","modifyEntity"],NoGravity:1b}
+summon minecraft:arrow ~ ~-0.5 ~ {damage:0.4,Tags:["bullet","modifyEntity"],NoGravity:1b}
 
 data modify entity @e[tag=modifyEntity,limit=1] Motion set from entity @e[tag=direction,limit=1] Pos
 
