@@ -13,4 +13,4 @@ execute if entity @s[tag=recall] positioned ~-0.5 ~-0.5 ~-0.5 as @e[predicate=ss
 
 effect give @e[predicate=ssbrc:flag/targets,predicate=!ssbrc:characters/effects/has/glowing,distance=..10] minecraft:glowing 1 255 true
 
-execute if entity @e[type=minecraft:marker,tag=electricTerrain,distance=..12] run function ssbrc:series/retro_fighters/yar/logic/abilities/drone/regain
+#execute if entity @e[type=minecraft:marker,tag=electricTerrain,distance=..12] run function ssbrc:series/retro_fighters/yar/logic/abilities/drone/kill
