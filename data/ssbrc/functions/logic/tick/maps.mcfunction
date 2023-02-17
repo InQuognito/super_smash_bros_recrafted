@@ -21,6 +21,7 @@ execute if score $pacMaze map matches 1 run function ssbrc:maps/p/pac_maze/logic
 execute if score $palletTown map matches 1 run function ssbrc:maps/p/pallet_town/logic/tick
 execute if score $palutenasTemple map matches 1 run function ssbrc:maps/p/palutenas_temple/logic/tick
 execute if score $planetEpp map matches 1 run function ssbrc:maps/p/planet_epp/logic/tick
+execute if score $pyrosphere map matches 1 run function ssbrc:maps/p/pyrosphere/logic/tick
 execute if score $saturnValley map matches 1 run function ssbrc:maps/s/saturn_valley/logic/tick
 execute if score $sectorZ map matches 1 run function ssbrc:maps/s/sector_z/logic/tick
 execute if score $shadowMosesIsland map matches 1 run function ssbrc:maps/s/shadow_moses_island/logic/tick
