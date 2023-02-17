@@ -1,4 +1,4 @@
-scoreboard players operation #percentage temp = @s charge.1
+execute store result score #percentage temp run data get entity @s Health 1.0
 scoreboard players operation #percentage temp *= 100 integers
 execute store result score #fgiiGraham.maxHealth vars run attribute @s minecraft:generic.max_health get
 scoreboard players operation #percentage temp /= #fgiiGraham.maxHealth vars
