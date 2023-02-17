@@ -5,6 +5,6 @@ summon minecraft:armor_stand ^ ^ ^ {Tags:["barrelCannon.path","modifyEntity"],In
 data modify entity @e[tag=modifyEntity,limit=1] Motion set from entity @e[tag=direction,limit=1] Pos
 
 tag @e[tag=modifyEntity,limit=1] remove modifyEntity
-kill @e[tag=direction]
+kill @e[tag=direction,limit=1]
 
 tag @s remove playerInCannon

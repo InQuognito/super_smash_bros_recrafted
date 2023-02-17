@@ -12,7 +12,7 @@ data modify entity @e[tag=modifyVehicle,limit=1] Motion set from entity @e[tag=d
 tag @e[tag=modifyEntity,limit=1] remove modifyEntity
 tag @e[tag=modifyVehicle,limit=1] remove modifyVehicle
 tag @e[tag=modifyDisplay,limit=1] remove modifyDisplay
-kill @e[tag=direction]
+kill @e[tag=direction,limit=1]
 
 tag @s remove bloodMetamorphosis
 function ssbrc:logic/characters/armor/update

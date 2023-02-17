@@ -13,7 +13,7 @@ data modify entity @e[tag=modifyEntity,limit=1] Owner set from entity @p[predica
 data modify entity @e[tag=modifyEntity,limit=1] Motion set from entity @e[tag=direction,limit=1] Pos
 
 tag @e[tag=modifyEntity,limit=1] remove modifyEntity
-kill @e[tag=direction]
+kill @e[tag=direction,limit=1]
 
 scoreboard players add @s temp 2
 execute store result entity @s Rotation[0] float 1.0 run scoreboard players get @s temp

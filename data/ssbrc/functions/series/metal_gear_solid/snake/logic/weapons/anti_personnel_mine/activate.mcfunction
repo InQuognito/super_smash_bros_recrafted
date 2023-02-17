@@ -8,7 +8,7 @@ data modify entity @e[tag=modifyEntity,limit=1] Owner set from entity @s UUID
 data modify entity @e[tag=modifyEntity,limit=1] Motion set from entity @e[tag=direction,limit=1] Pos
 
 tag @e[tag=modifyEntity,limit=1] remove modifyEntity
-kill @e[tag=direction]
+kill @e[tag=direction,limit=1]
 
 scoreboard players remove @s snake.antiPersonnelMineA 1
 

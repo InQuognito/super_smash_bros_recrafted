@@ -8,7 +8,7 @@ data modify entity @e[tag=modifyVehicle,limit=1] Motion set from entity @e[tag=d
 
 tag @e[tag=modifyEntity,limit=1] remove modifyEntity
 tag @e[tag=modifyVehicle] remove modifyVehicle
-kill @e[tag=direction]
+kill @e[tag=direction,limit=1]
 
 scoreboard players set @s cooldown.1 300
 execute if score @s shadow.chaosControl matches 1.. run function ssbrc:logic/characters/cooldown_modifiers/chaos_control/1

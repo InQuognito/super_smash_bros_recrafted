@@ -10,7 +10,7 @@ data modify entity @e[tag=modifyEntity,limit=1] Motion set from entity @e[tag=di
 scoreboard players operation @e[tag=modifyEntity,limit=1] temp = @s charge.output
 
 tag @e[tag=modifyEntity,limit=1] remove modifyEntity
-kill @e[tag=direction]
+kill @e[tag=direction,limit=1]
 
 function ssbrc:series/star_fox/wolf/logic/abilities/grenade/reset
 
