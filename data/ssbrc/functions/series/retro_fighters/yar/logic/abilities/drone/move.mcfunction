@@ -16,3 +16,5 @@ teleport @s[scores={charge.1=30..}] ^ ^ ^0.3 ~ ~
 
 scoreboard players add @s[tag=!recall] temp 1
 scoreboard players remove @s[tag=recall,scores={temp=1..}] temp 1
+
+execute if score @s temp matches 0 run function ssbrc:series/retro_fighters/yar/logic/abilities/drone/commands/stop
