@@ -17,16 +17,17 @@ execute as @e[type=minecraft:arrow,tag=bullet] at @s if score @s id = @p[tag=sel
 execute if score @s duration.1 matches 1 run function ssbrc:series/retro_fighters/yar/logic/abilities/power_ups/reset
 
 # Drone
-execute if score @s[nbt=!{Inventory:[{tag:{drone:1,activate:1}}]}] id matches 1 unless entity @e[type=minecraft:bee,tag=drone,scores={id=1}] run function ssbrc:series/retro_fighters/yar/logic/abilities/drone/kill
-execute if score @s[nbt=!{Inventory:[{tag:{drone:1,activate:1}}]}] id matches 2 unless entity @e[type=minecraft:bee,tag=drone,scores={id=2}] run function ssbrc:series/retro_fighters/yar/logic/abilities/drone/kill
-execute if score @s[nbt=!{Inventory:[{tag:{drone:1,activate:1}}]}] id matches 3 unless entity @e[type=minecraft:bee,tag=drone,scores={id=3}] run function ssbrc:series/retro_fighters/yar/logic/abilities/drone/kill
-execute if score @s[nbt=!{Inventory:[{tag:{drone:1,activate:1}}]}] id matches 4 unless entity @e[type=minecraft:bee,tag=drone,scores={id=4}] run function ssbrc:series/retro_fighters/yar/logic/abilities/drone/kill
-execute if score @s[nbt=!{Inventory:[{tag:{drone:1,activate:1}}]}] id matches 5 unless entity @e[type=minecraft:bee,tag=drone,scores={id=5}] run function ssbrc:series/retro_fighters/yar/logic/abilities/drone/kill
-execute if score @s[nbt=!{Inventory:[{tag:{drone:1,activate:1}}]}] id matches 6 unless entity @e[type=minecraft:bee,tag=drone,scores={id=6}] run function ssbrc:series/retro_fighters/yar/logic/abilities/drone/kill
-execute if score @s[nbt=!{Inventory:[{tag:{drone:1,activate:1}}]}] id matches 7 unless entity @e[type=minecraft:bee,tag=drone,scores={id=7}] run function ssbrc:series/retro_fighters/yar/logic/abilities/drone/kill
-execute if score @s[nbt=!{Inventory:[{tag:{drone:1,activate:1}}]}] id matches 8 unless entity @e[type=minecraft:bee,tag=drone,scores={id=8}] run function ssbrc:series/retro_fighters/yar/logic/abilities/drone/kill
+#execute if score @s[nbt=!{Inventory:[{tag:{drone:1,activate:1}}]}] id matches 1 unless entity @e[type=minecraft:bee,tag=drone,scores={id=1}] run function ssbrc:series/retro_fighters/yar/logic/abilities/drone/kill
+#execute if score @s[nbt=!{Inventory:[{tag:{drone:1,activate:1}}]}] id matches 2 unless entity @e[type=minecraft:bee,tag=drone,scores={id=2}] run function ssbrc:series/retro_fighters/yar/logic/abilities/drone/kill
+#execute if score @s[nbt=!{Inventory:[{tag:{drone:1,activate:1}}]}] id matches 3 unless entity @e[type=minecraft:bee,tag=drone,scores={id=3}] run function ssbrc:series/retro_fighters/yar/logic/abilities/drone/kill
+#execute if score @s[nbt=!{Inventory:[{tag:{drone:1,activate:1}}]}] id matches 4 unless entity @e[type=minecraft:bee,tag=drone,scores={id=4}] run function ssbrc:series/retro_fighters/yar/logic/abilities/drone/kill
+#execute if score @s[nbt=!{Inventory:[{tag:{drone:1,activate:1}}]}] id matches 5 unless entity @e[type=minecraft:bee,tag=drone,scores={id=5}] run function ssbrc:series/retro_fighters/yar/logic/abilities/drone/kill
+#execute if score @s[nbt=!{Inventory:[{tag:{drone:1,activate:1}}]}] id matches 6 unless entity @e[type=minecraft:bee,tag=drone,scores={id=6}] run function ssbrc:series/retro_fighters/yar/logic/abilities/drone/kill
+#execute if score @s[nbt=!{Inventory:[{tag:{drone:1,activate:1}}]}] id matches 7 unless entity @e[type=minecraft:bee,tag=drone,scores={id=7}] run function ssbrc:series/retro_fighters/yar/logic/abilities/drone/kill
+#execute if score @s[nbt=!{Inventory:[{tag:{drone:1,activate:1}}]}] id matches 8 unless entity @e[type=minecraft:bee,tag=drone,scores={id=8}] run function ssbrc:series/retro_fighters/yar/logic/abilities/drone/kill
 
 loot replace entity @s[scores={cooldown.2=1}] hotbar.2 loot ssbrc:characters/retro_fighters/yar/drone/activate
+execute if entity @e[type=minecraft:marker,tag=electricTerrain,distance=..12] run function ssbrc:series/retro_fighters/yar/logic/abilities/drone/kill
 
 # Railgun
 execute if entity @s[scores={charge.output=1..},nbt={SelectedItem:{tag:{railgun:1}}}] run function ssbrc:series/retro_fighters/yar/logic/abilities/ray_blaster/variants/railgun/charge

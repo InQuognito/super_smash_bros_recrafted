@@ -15,4 +15,4 @@ teleport @s[scores={charge.1=28..29}] ^ ^ ^0.28 ~ ~
 teleport @s[scores={charge.1=30..}] ^ ^ ^0.3 ~ ~
 
 scoreboard players add @s[tag=!recall] temp 1
-scoreboard players remove @s[tag=recall] temp 1
+scoreboard players remove @s[tag=recall,scores={temp=1..}] temp 1
