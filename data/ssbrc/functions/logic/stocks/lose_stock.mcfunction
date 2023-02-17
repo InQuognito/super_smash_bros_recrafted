@@ -39,3 +39,5 @@ scoreboard players reset @s rapidKill.timer
 function ssbrc:logic/stats/deaths
 
 tag @s add checkDeath
+
+say died

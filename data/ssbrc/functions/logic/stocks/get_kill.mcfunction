@@ -10,3 +10,5 @@ function ssbrc:logic/characters/bonuses/rapid_kill
 function ssbrc:logic/stats/kills
 
 tag @s add checkKill
+
+say get kill
