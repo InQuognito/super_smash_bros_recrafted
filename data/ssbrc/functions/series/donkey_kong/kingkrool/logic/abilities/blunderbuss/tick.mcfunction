@@ -4,7 +4,7 @@ execute if entity @s[tag=fall] as @e[tag=blunderbuss.display,sort=nearest,limit=
 
 execute unless block ~ ~-0.1 ~ #ssbrc:passthrough run tag @s add hitGround
 
-execute if entity @s[tag=!hitGround] run tag @e[predicate=ssbrc:flag/targets,distance=..1] add damage.blunderbuss
+execute if entity @s[tag=!hitGround] positioned ~-0.5 ~-0.5 ~-0.5 run tag @e[predicate=ssbrc:flag/targets,dx=0] add damage.blunderbuss
 
 execute if entity @s[tag=!hitGround,scores={temp=41}] as @e[tag=blunderbuss.display,sort=nearest,limit=1] run function ssbrc:series/donkey_kong/kingkrool/logic/abilities/blunderbuss/drop
 
