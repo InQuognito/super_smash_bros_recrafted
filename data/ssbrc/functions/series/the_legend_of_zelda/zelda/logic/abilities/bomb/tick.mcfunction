@@ -12,3 +12,6 @@ execute if score #percentage temp matches 100.. run function ssbrc:series/the_le
 execute if entity @s[tag=blasting] unless block ~ ~-0.1 ~ #ssbrc:passthrough run function ssbrc:series/the_legend_of_zelda/zelda/logic/abilities/bomb/explode
 
 scoreboard players add @s temp 1
+
+scoreboard players add @s[tag=exploded] timer 1
+kill @s[scores={timer=7..}]
