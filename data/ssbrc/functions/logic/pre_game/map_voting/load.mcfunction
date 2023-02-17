@@ -35,7 +35,7 @@ summon minecraft:area_effect_cloud ~ ~ ~ {Age:-2147483648,Duration:-1,WaitTime:-
 summon minecraft:area_effect_cloud ~ ~ ~ {Age:-2147483648,Duration:-1,WaitTime:-2147483648,Tags:["voteCounter","suzakuCastle"],CustomNameVisible:1b}
 summon minecraft:area_effect_cloud ~ ~ ~ {Age:-2147483648,Duration:-1,WaitTime:-2147483648,Tags:["voteCounter","towerOfFate"],CustomNameVisible:1b}
 summon minecraft:area_effect_cloud ~ ~ ~ {Age:-2147483648,Duration:-1,WaitTime:-2147483648,Tags:["voteCounter","wilyCastle"],CustomNameVisible:1b}
-summon minecraft:area_effect_cloud ~ ~ ~ {Age:-2147483648,Duration:-1,WaitTime:-2147483648,Tags:["voteCounter","yggdrasilsAltar"],CustomNameVisible:1b}
+#summon minecraft:area_effect_cloud ~ ~ ~ {Age:-2147483648,Duration:-1,WaitTime:-2147483648,Tags:["voteCounter","yggdrasilsAltar"],CustomNameVisible:1b}
 
 execute as @e[type=minecraft:area_effect_cloud,tag=voteCounter,tag=!selected,sort=random,limit=1] run function ssbrc:logic/pre_game/map_voting/map_choices/start
 
