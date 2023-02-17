@@ -3,6 +3,7 @@ execute if entity @s[nbt={Inventory:[{tag:{ringOfBlasting:1}}]}] run tag @e[tag=
 
 scoreboard players operation @e[tag=modifyEntity,limit=1] id = @s id
 data modify entity @e[tag=modifyEntity,limit=1] Owner set from entity @s UUID
+data modify entity @e[tag=modifyEntity,limit=1] Rotation set from entity @s Rotation
 
 scoreboard players operation @e[tag=modifyEntity,limit=1] temp = @s fuse
 
