@@ -1,4 +1,5 @@
-tp @s[tag=!hitGround,scores={temp=..40}] ^ ^ ^0.2
+teleport @s[tag=!hitGround,scores={temp=..40}] ^ ^ ^0.2
+execute at @s run teleport @e[tag=blunderbuss.display,sort=nearest,limit=1] ~ ~ ~ ~ ~
 
 execute unless block ~ ~-0.1 ~ #ssbrc:passthrough run tag @s add hitGround
 
