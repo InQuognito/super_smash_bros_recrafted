@@ -2,7 +2,6 @@ summon minecraft:bee 673.5 36.5 8007.5 {Tags:["fgiiGraham","modifyEntity"],Passe
 loot replace entity @e[tag=modifyPassenger,limit=1] armor.head loot ssbrc:maps/p/pyrosphere/fgii_graham
 
 scoreboard players set @e[tag=modifyEntity,limit=1] charge.1 40
-scoreboard players set @e[tag=modifyEntity,limit=1] cooldown.1 0
 scoreboard players set @e[tag=modifyEntity,limit=1] temp 1
 
 tag @e[tag=modifyEntity,limit=1] remove modifyEntity
