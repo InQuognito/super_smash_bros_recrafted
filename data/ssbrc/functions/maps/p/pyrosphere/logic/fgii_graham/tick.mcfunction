@@ -1,4 +1,4 @@
-execute at @s rotated as @s positioned ^ ^ ^1 if block ~ ~-5 ~ #ssbrc:passthrough run function ssbrc:maps/p/pyrosphere/logic/fgii_graham/turn
+execute at @s rotated as @s positioned ^ ^ ^1 if block ~ ~-5.5 ~ #ssbrc:passthrough run function ssbrc:maps/p/pyrosphere/logic/fgii_graham/turn
 execute at @s rotated as @s unless block ^ ^ ^1 #ssbrc:passthrough run function ssbrc:maps/p/pyrosphere/logic/fgii_graham/turn
 
 execute at @s rotated as @s run function ssbrc:maps/p/pyrosphere/logic/fgii_graham/move
