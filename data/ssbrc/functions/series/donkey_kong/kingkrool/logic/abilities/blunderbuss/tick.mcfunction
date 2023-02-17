@@ -1,5 +1,6 @@
 teleport @s[tag=!hitGround,scores={temp=..40}] ^ ^ ^0.2
-execute at @s run teleport @e[tag=blunderbuss.display,sort=nearest,limit=1] ~ ~ ~ ~ ~
+execute unless entity @s[tag=fall] at @s run teleport @e[tag=blunderbuss.display,sort=nearest,limit=1] ~ ~ ~ ~ ~
+execute if entity @s[tag=fall] as @e[tag=blunderbuss.display,sort=nearest,limit=1] at @s run teleport @e[tag=blunderbuss,sort=nearest,limit=1] ~ ~ ~ ~ ~
 
 execute unless block ~ ~-0.1 ~ #ssbrc:passthrough run tag @s add hitGround
 
