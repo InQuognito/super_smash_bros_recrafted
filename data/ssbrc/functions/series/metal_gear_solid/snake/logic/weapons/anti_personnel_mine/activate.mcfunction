@@ -1,17 +1,15 @@
-execute positioned 0.0 0.0 0.0 run summon minecraft:marker ^ ^ ^0.4 {Tags:["direction"]}
-
-summon minecraft:armor_stand ^ ^ ^0.3 {Tags:["antiPersonnelMine","modifyEntity"],Invisible:1b,Small:1b}
-loot replace entity @e[tag=modifyEntity,limit=1] armor.head loot ssbrc:characters/metal_gear_solid/snake/anti_personnel_mine/inactive
+summon minecraft:area_effect_cloud ^ ^ ^0.3 {Tags:["antiPersonnelMine","modifyEntity"],Age:-2147483648,Duration:-1,WaitTime:-2147483648}
 
 scoreboard players operation @e[tag=modifyEntity,limit=1] id = @s id
 data modify entity @e[tag=modifyEntity,limit=1] Owner set from entity @s UUID
-data modify entity @e[tag=modifyEntity,limit=1] Motion set from entity @e[tag=direction,limit=1] Pos
 
-tag @e[tag=modifyEntity,limit=1] remove modifyEntity
-kill @e[tag=direction,limit=1]
+execute as @e[tag=modifyEntity] at @s run function ssbrc:series/metal_gear_solid/snake/logic/weapons/anti_personnel_mine/summon_display
 
 scoreboard players remove @s snake.antiPersonnelMineA 1
 
 scoreboard players set @s snake.antiPersonnelMineF 20
+execute if score @s shadow.chaosControl matches 1.. run scoreboard players operation #tempCooldown temp = @s snake.antiPersonnelMineF
+execute if score @s shadow.chaosControl matches 1.. run scoreboard players operation #tempCooldown temp /= 4 integers
+execute if score @s shadow.chaosControl matches 1.. run scoreboard players operation @s snake.antiPersonnelMineF += #tempCooldown temp
 
 clear @s[scores={snake.antiPersonnelMineA=..0}] minecraft:carrot_on_a_stick{antiPersonnelMine:1}

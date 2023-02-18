@@ -14,5 +14,8 @@ kill @e[tag=direction,limit=1]
 scoreboard players remove @s snake.smokeGrenadeA 1
 
 scoreboard players set @s snake.smokeGrenadeF 300
+execute if score @s shadow.chaosControl matches 1.. run scoreboard players operation #tempCooldown temp = @s snake.smokeGrenadeF
+execute if score @s shadow.chaosControl matches 1.. run scoreboard players operation #tempCooldown temp /= 4 integers
+execute if score @s shadow.chaosControl matches 1.. run scoreboard players operation @s snake.smokeGrenadeF += #tempCooldown temp
 
 clear @s[scores={snake.smokeGrenadeA=..0}] minecraft:carrot_on_a_stick{smokeGrenade:1}
