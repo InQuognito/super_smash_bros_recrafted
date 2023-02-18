@@ -12,6 +12,6 @@ kill @e[tag=direction,limit=1]
 
 scoreboard players remove @s snake.antiPersonnelMineA 1
 
-scoreboard players set @s snake.antiPersonnelMineF 100
+scoreboard players set @s snake.antiPersonnelMineF 20
 
 clear @s[scores={snake.antiPersonnelMineA=..0}] minecraft:carrot_on_a_stick{antiPersonnelMine:1}
