@@ -4,6 +4,6 @@ execute if entity @s[type=#ssbrc:undead] run summon minecraft:area_effect_cloud 
 data modify entity @e[tag=modifyEntity,limit=1] Owner set from entity @e[type=minecraft:area_effect_cloud,tag=iceBall,sort=nearest,limit=1] Owner
 tag @e[tag=modifyEntity,limit=1] remove modifyEntity
 
-kill @e[type=minecraft:marker,tag=iceBall,sort=nearest,limit=1]
+kill @e[type=minecraft:area_effect_cloud,tag=iceBall,sort=nearest,limit=1]
 
 function ssbrc:logic/characters/attributes/modifiers/frostbite/increase

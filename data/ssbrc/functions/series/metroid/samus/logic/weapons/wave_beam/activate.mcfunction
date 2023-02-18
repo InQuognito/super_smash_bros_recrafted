@@ -1,6 +1,7 @@
-summon minecraft:marker ^ ^ ^1 {Tags:["waveBeam","modifyEntity"]}
+summon minecraft:area_effect_cloud ^ ^ ^1 {Tags:["waveBeam","modifyEntity"],Duration:50}
 
 scoreboard players operation @e[tag=modifyEntity,limit=1] id = @s id
+scoreboard players operation @e[tag=modifyEntity,limit=1] Owner = @s UUID
 data modify entity @e[tag=modifyEntity,limit=1] Rotation set from entity @s Rotation
 
 tag @e[tag=modifyEntity,limit=1] remove modifyEntity
