@@ -6,9 +6,6 @@ data modify entity @e[tag=modifyEntity,limit=1] Owner set from entity @s UUID
 
 tag @e[tag=modifyEntity,limit=1] remove modifyEntity
 
-execute if score @s charge.output matches ..10 run scoreboard players set #wolf.wolfFlash vars 4
-execute if score @s charge.output matches 11.. run scoreboard players set #wolf.wolfFlash vars 10
-
 function ssbrc:logic/resets/charge
 
 scoreboard players operation @s duration.3 = #wolf.wolfFlash vars
