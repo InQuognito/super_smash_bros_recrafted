@@ -21,4 +21,5 @@ tag @a[tag=winner] add cannotHost
 
 execute if score $suddenDeath temp matches 1 run scoreboard players set $gameMode options 2
 
+weather clear
 scoreboard players set $gameStage temp 5
