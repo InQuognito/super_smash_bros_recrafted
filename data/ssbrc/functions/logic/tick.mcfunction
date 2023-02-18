@@ -1,4 +1,4 @@
-execute as @a run function ssbrc:logic/tick/players
+execute as @a[gamemode=adventure] run function ssbrc:logic/tick/players
 
 # Chest UIs
 function ssbrc:shop/tick
