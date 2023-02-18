@@ -7,7 +7,7 @@ data modify entity @e[tag=modifyEntity,limit=1] Owner set from entity @s UUID
 
 scoreboard players set @e[tag=modifyEntity,limit=1] charge.1 40
 scoreboard players set @e[tag=modifyEntity,limit=1] cooldown.1 0
-scoreboard players set @e[tag=modifyEntity,limit=1] temp 1
+scoreboard players set @e[tag=modifyEntity,limit=1] temp 60
 
 tag @e[tag=modifyEntity,limit=1] remove modifyEntity
 tag @e[tag=modifyPassenger,limit=1] remove modifyPassenger
