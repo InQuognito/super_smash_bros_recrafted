@@ -1,5 +1,3 @@
-execute at @e[type=minecraft:armor_stand,tag=antiPersonnelMine.display,sort=nearest,limit=1] run teleport @s ~ ~ ~ ~ ~
-
 scoreboard players add @s timer 1
 
 execute if score @s timer matches 40 run loot replace entity @e[type=minecraft:armor_stand,tag=antiPersonnelMine.display,sort=nearest,limit=1] armor.head loot ssbrc:characters/metal_gear_solid/snake/anti_personnel_mine/priming_1

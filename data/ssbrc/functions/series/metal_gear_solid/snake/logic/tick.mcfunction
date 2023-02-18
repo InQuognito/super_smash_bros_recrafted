@@ -8,6 +8,7 @@ execute if entity @s[tag=!reloading,scores={useAbility=1..},nbt={SelectedItem:{t
 execute if entity @s[tag=!reloading,scores={useAbility=1..},nbt={SelectedItem:{tag:{smokeGrenade:1}}}] unless score @s snake.smokeGrenadeF matches 1.. run function ssbrc:series/metal_gear_solid/snake/logic/weapons/smoke_grenade/check
 
 execute as @e[type=minecraft:arrow,tag=bullet] at @s if score @s id = @p[tag=self] id run function ssbrc:series/metal_gear_solid/snake/logic/bullets
+execute as @e[type=minecraft:area_effect_cloud,tag=antiPersonnelMine] at @s if score @s id = @p[tag=self] id at @e[type=minecraft:armor_stand,tag=antiPersonnelMine.display,sort=nearest,limit=1] run teleport @s ~ ~ ~ ~ ~
 execute as @e[type=minecraft:area_effect_cloud,tag=antiPersonnelMine] at @s if score @s id = @p[tag=self] id unless block ~ ~-0.1 ~ #ssbrc:passthrough run function ssbrc:series/metal_gear_solid/snake/logic/weapons/anti_personnel_mine/tick
 tag @e[type=minecraft:marker,tag=smokeGrenade,tag=!active,predicate=ssbrc:flag/no_vehicle] add active
 execute as @e[type=minecraft:marker,tag=smokeGrenade,tag=active] at @s if score @s id = @p[tag=self] id run function ssbrc:series/metal_gear_solid/snake/logic/weapons/smoke_grenade/tick
