@@ -9,8 +9,11 @@
 		"minecraft:air",
 		"minecraft:grass",
 		"minecraft:light",
+		"minecraft:redstone_torch",
 		"minecraft:sea_pickle",
 		"minecraft:structure_void",
-		"minecraft:snow"
+		"minecraft:snow",
+		"minecraft:soul_torch",
+		"minecraft:torch"
 	]
 }

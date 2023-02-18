@@ -17,9 +17,12 @@
 		"minecraft:light",
 		"minecraft:player_head",
 		"minecraft:player_wall_head",
+		"minecraft:redstone_torch",
 		"minecraft:sea_pickle",
 		"minecraft:snow",
+		"minecraft:soul_torch",
 		"minecraft:structure_void",
+		"minecraft:torch",
 		"minecraft:water"
 	]
 }
