@@ -11,6 +11,10 @@ scoreboard objectives remove stats.winStreak
 scoreboard objectives remove stats.winStreak.record
 scoreboard objectives remove options
 
+scoreboard objectives remove log.gamesPlayed
+scoreboard objectives remove log.wins
+scoreboard objectives remove log.wL
+
 # Characters
 scoreboard objectives remove stats.alteredbeast.deaths
 scoreboard objectives remove stats.alteredbeast.kills

@@ -8,9 +8,10 @@ scoreboard objectives add stats.winStreak dummy
 scoreboard objectives add stats.winStreak.record dummy
 scoreboard objectives add stats.wL dummy
 
-scoreboard objectives add favorite.slot1 dummy
-scoreboard objectives add favorite.slot2 dummy
-scoreboard objectives add favorite.slot3 dummy
+scoreboard objectives add log.gamesPlayed dummy
+scoreboard objectives add log.wins dummy
+scoreboard objectives add log.wL dummy
+
 scoreboard objectives add hardReset dummy
 scoreboard objectives add options trigger
 scoreboard objectives add random dummy

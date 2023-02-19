@@ -40,6 +40,45 @@ scoreboard players add @s[tag=winner,tag=wolf] stats.wolf.wins 1
 scoreboard players add @s[tag=winner,tag=yar] stats.yar.wins 1
 scoreboard players add @s[tag=winner,tag=zelda] stats.zelda.wins 1
 
+execute if entity @s[tag=winner,tag=alteredbeast] run scoreboard players add alteredbeast log.wins 1
+execute if entity @s[tag=winner,tag=alucard] run scoreboard players add alucard log.wins 1
+execute if entity @s[tag=winner,tag=bowser] run scoreboard players add bowser log.wins 1
+execute if entity @s[tag=winner,tag=byleth] run scoreboard players add byleth log.wins 1
+execute if entity @s[tag=winner,tag=captainfalcon] run scoreboard players add captainfalcon log.wins 1
+execute if entity @s[tag=winner,tag=cloud] run scoreboard players add cloud log.wins 1
+execute if entity @s[tag=winner,tag=darksamus] run scoreboard players add darksamus log.wins 1
+execute if entity @s[tag=winner,tag=donkeykong] run scoreboard players add donkeykong log.wins 1
+execute if entity @s[tag=winner,tag=fox] run scoreboard players add fox log.wins 1
+execute if entity @s[tag=winner,tag=ganondorf] run scoreboard players add ganondorf log.wins 1
+execute if entity @s[tag=winner,tag=giegue] run scoreboard players add giegue log.wins 1
+execute if entity @s[tag=winner,tag=greninja] run scoreboard players add greninja log.wins 1
+execute if entity @s[tag=winner,tag=hero] run scoreboard players add hero log.wins 1
+execute if entity @s[tag=winner,tag=jigglypuff] run scoreboard players add jigglypuff log.wins 1
+execute if entity @s[tag=winner,tag=joker] run scoreboard players add joker log.wins 1
+execute if entity @s[tag=winner,tag=kingkrool] run scoreboard players add kingkrool log.wins 1
+execute if entity @s[tag=winner,tag=kirby] run scoreboard players add kirby log.wins 1
+execute if entity @s[tag=winner,tag=link] run scoreboard players add link log.wins 1
+execute if entity @s[tag=winner,tag=luigi] run scoreboard players add luigi log.wins 1
+execute if entity @s[tag=winner,tag=mario] run scoreboard players add mario log.wins 1
+execute if entity @s[tag=winner,tag=megaman] run scoreboard players add megaman log.wins 1
+execute if entity @s[tag=winner,tag=ness] run scoreboard players add ness log.wins 1
+execute if entity @s[tag=winner,tag=pikachu] run scoreboard players add pikachu log.wins 1
+execute if entity @s[tag=winner,tag=pit] run scoreboard players add pit log.wins 1
+execute if entity @s[tag=winner,tag=pokemontrainer] run scoreboard players add pokemontrainer log.wins 1
+execute if entity @s[tag=winner,tag=rob] run scoreboard players add rob log.wins 1
+execute if entity @s[tag=winner,tag=ryu] run scoreboard players add ryu log.wins 1
+execute if entity @s[tag=winner,tag=samus] run scoreboard players add samus log.wins 1
+execute if entity @s[tag=winner,tag=shadow] run scoreboard players add shadow log.wins 1
+execute if entity @s[tag=winner,tag=shovelknight] run scoreboard players add shovelknight log.wins 1
+execute if entity @s[tag=winner,tag=snake] run scoreboard players add snake log.wins 1
+execute if entity @s[tag=winner,tag=sonic] run scoreboard players add sonic log.wins 1
+execute if entity @s[tag=winner,tag=sora] run scoreboard players add sora log.wins 1
+execute if entity @s[tag=winner,tag=steve] run scoreboard players add steve log.wins 1
+execute if entity @s[tag=winner,tag=teamrocket] run scoreboard players add teamrocket log.wins 1
+execute if entity @s[tag=winner,tag=wolf] run scoreboard players add wolf log.wins 1
+execute if entity @s[tag=winner,tag=yar] run scoreboard players add yar log.wins 1
+execute if entity @s[tag=winner,tag=zelda] run scoreboard players add zelda log.wins 1
+
 # Win Streak
 scoreboard players reset @s[tag=!winner] stats.winStreak
 scoreboard players add @s[tag=winner] stats.winStreak 1
