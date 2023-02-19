@@ -1,11 +1,4 @@
-execute if entity @s[team=team1] run summon minecraft:skeleton ~ ~ ~ {Tags:["modifyEntity"]}
-execute if entity @s[team=team2] run summon minecraft:skeleton ~ ~ ~ {Tags:["modifyEntity"]}
-execute if entity @s[team=team3] run summon minecraft:skeleton ~ ~ ~ {Tags:["modifyEntity"]}
-execute if entity @s[team=team4] run summon minecraft:skeleton ~ ~ ~ {Tags:["modifyEntity"]}
-execute if entity @s[team=team5] run summon minecraft:skeleton ~ ~ ~ {Tags:["modifyEntity"]}
-execute if entity @s[team=team6] run summon minecraft:skeleton ~ ~ ~ {Tags:["modifyEntity"]}
-execute if entity @s[team=team7] run summon minecraft:skeleton ~ ~ ~ {Tags:["modifyEntity"]}
-execute if entity @s[team=team8] run summon minecraft:skeleton ~ ~ ~ {Tags:["modifyEntity"]}
+summon minecraft:skeleton ~ ~ ~ {Tags:["stalfos","modifyEntity"],Health:12,PersistenceRequired:1b,HandItems:[{id:"minecraft:stone_sword",tag:{Unbreakable:1},Count:1},{id:"minecraft:shield",tag:{Unbreakable:1},Count:1}],ArmorItems:[{},{},{},{id:"minecraft:leather_helmet",tag:{Unbreakable:1},Count:1}],Attributes:[{Name:"generic.follow_range",Base:2048d},{Name:"generic.movement_speed",Base:0.3d},{Name:"generic.max_health",Base:12d}],HandDropChances:[0f,0f],ArmorDropChances:[0f,0f,0f,0f]}
 
 execute as @e[tag=modifyEntity,limit=1] run function ssbrc:series/the_legend_of_zelda/ganondorf/logic/stalfos/modify
 

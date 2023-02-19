@@ -1,0 +1,1 @@
+execute as @e[type=minecraft:skeleton,tag=stalfos,sort=nearest,limit=1] if entity @s[team=team1] as @r[tag=ganondorf,team=team1] run function ssbrc:series/the_legend_of_zelda/ganondorf/logic/stalfos/got_kill
