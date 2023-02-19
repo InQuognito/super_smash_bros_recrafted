@@ -1,1 +1,8 @@
 execute as @e[type=minecraft:skeleton,tag=stalfos,sort=nearest,limit=1] if entity @s[team=team1] as @r[tag=ganondorf,team=team1] run function ssbrc:series/the_legend_of_zelda/ganondorf/logic/stalfos/got_kill
+execute as @e[type=minecraft:skeleton,tag=stalfos,sort=nearest,limit=1] if entity @s[team=team2] as @r[tag=ganondorf,team=team2] run function ssbrc:series/the_legend_of_zelda/ganondorf/logic/stalfos/got_kill
+execute as @e[type=minecraft:skeleton,tag=stalfos,sort=nearest,limit=1] if entity @s[team=team3] as @r[tag=ganondorf,team=team3] run function ssbrc:series/the_legend_of_zelda/ganondorf/logic/stalfos/got_kill
+execute as @e[type=minecraft:skeleton,tag=stalfos,sort=nearest,limit=1] if entity @s[team=team4] as @r[tag=ganondorf,team=team4] run function ssbrc:series/the_legend_of_zelda/ganondorf/logic/stalfos/got_kill
+execute as @e[type=minecraft:skeleton,tag=stalfos,sort=nearest,limit=1] if entity @s[team=team5] as @r[tag=ganondorf,team=team5] run function ssbrc:series/the_legend_of_zelda/ganondorf/logic/stalfos/got_kill
+execute as @e[type=minecraft:skeleton,tag=stalfos,sort=nearest,limit=1] if entity @s[team=team6] as @r[tag=ganondorf,team=team6] run function ssbrc:series/the_legend_of_zelda/ganondorf/logic/stalfos/got_kill
+execute as @e[type=minecraft:skeleton,tag=stalfos,sort=nearest,limit=1] if entity @s[team=team7] as @r[tag=ganondorf,team=team7] run function ssbrc:series/the_legend_of_zelda/ganondorf/logic/stalfos/got_kill
+execute as @e[type=minecraft:skeleton,tag=stalfos,sort=nearest,limit=1] if entity @s[team=team8] as @r[tag=ganondorf,team=team8] run function ssbrc:series/the_legend_of_zelda/ganondorf/logic/stalfos/got_kill
