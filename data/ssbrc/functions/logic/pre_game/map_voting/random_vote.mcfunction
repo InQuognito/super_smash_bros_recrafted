@@ -5,5 +5,3 @@ tag @s add random
 
 execute if score $teams options matches 0 run team join ready @s
 effect clear @s minecraft:glowing
-
-function ssbrc:logic/inputs/reset

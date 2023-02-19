@@ -6,5 +6,3 @@ tag @s add characterPicked
 effect clear @s minecraft:glowing
 
 function ssbrc:logic/pre_game/character_select/check_participation
-
-function ssbrc:logic/inputs/reset

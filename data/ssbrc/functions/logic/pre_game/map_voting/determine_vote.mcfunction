@@ -37,3 +37,5 @@ execute as @e[type=minecraft:area_effect_cloud,tag=voteCounter,sort=nearest,limi
 execute as @e[type=minecraft:area_effect_cloud,tag=voteCounter,sort=nearest,limit=1] if entity @s[tag=yggdrasilsAltar] as @p[tag=self] run function ssbrc:maps/y/yggdrasils_altar/vote
 
 tag @s remove self
+
+function ssbrc:logic/inputs/reset

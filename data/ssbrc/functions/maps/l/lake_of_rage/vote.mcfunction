@@ -6,8 +6,6 @@ tag @s add lakeOfRage
 execute if score $teams options matches 0 run team join ready @s
 effect clear @s minecraft:glowing
 
-function ssbrc:logic/inputs/reset
-
 tellraw @a[tag=room.mapVoting] [{"selector":"@s","bold":false},{"text":" has voted for Lake of Rage! Votes: ","color":"gold"},{"score":{"name":"@e[tag=voteCounter,tag=lakeOfRage,limit=1]","objective":"mapVote"},"bold":false,"color":"yellow"}]
 
 function ssbrc:logic/pre_game/map_voting/stage_index/pages/stages/2/load
