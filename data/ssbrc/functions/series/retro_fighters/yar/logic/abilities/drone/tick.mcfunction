@@ -13,6 +13,6 @@ teleport @e[type=minecraft:item,distance=..1] @s
 
 execute if entity @s[tag=recall] at @s positioned ~-0.5 ~-0.5 ~-0.5 as @e[predicate=ssbrc:flag/player,dx=0] if score @s id = @e[type=minecraft:bee,tag=drone,sort=nearest,limit=1] id run function ssbrc:series/retro_fighters/yar/logic/abilities/drone/regain
 
-effect give @e[predicate=ssbrc:flag/targets,predicate=!ssbrc:characters/effects/has/glowing,distance=..10] minecraft:glowing 1 255 true
+effect give @e[tag=!self,predicate=ssbrc:flag/targets,predicate=!ssbrc:characters/effects/has/glowing,distance=..10] minecraft:glowing 1 255 true
 
 tag @s remove self
