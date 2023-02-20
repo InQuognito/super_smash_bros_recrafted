@@ -8,4 +8,5 @@ execute if score @s temp matches 41..60 run tag @e[tag=!self,predicate=ssbrc:fla
 execute if score @s temp matches 61..80 run tag @e[tag=!self,predicate=ssbrc:flag/targets,distance=0.1..8] add damage.warHorn
 execute if score @s temp matches 81.. run tag @e[tag=!self,predicate=ssbrc:flag/targets,distance=0.1..10] add damage.warHorn
 
+execute if score @s temp matches 100 as @p[tag=self] run function ssbrc:logic/characters/effects/mobility/mobilize
 kill @s[scores={temp=100..}]
