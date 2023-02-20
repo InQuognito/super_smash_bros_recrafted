@@ -1,2 +1,2 @@
-kill @e[type=minecraft:armor_stand,tag=throwingAnchor.display,sort=nearest,limit=1]
+kill @e[type=minecraft:area_effect_cloud,tag=throwingAnchor.aec,sort=nearest,limit=1]
 kill @s

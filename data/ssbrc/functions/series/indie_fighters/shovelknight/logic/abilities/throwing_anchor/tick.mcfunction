@@ -1,5 +1,3 @@
-execute at @e[type=minecraft:armor_stand,tag=throwingAnchor.display,sort=nearest,limit=1] run teleport @s ~ ~ ~ ~ ~
-
 execute unless block ~ ~-0.1 ~ #ssbrc:passthrough run tag @s add hitGround
 
 tag @a[tag=!self,tag=!hitGround,predicate=ssbrc:flag/targets,distance=..1] add damage.throwingAnchor
