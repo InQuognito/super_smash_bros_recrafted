@@ -116,7 +116,7 @@ scoreboard players operation #bowsersCastle.thwompSinkTime vars = #bowsersCastle
 scoreboard players operation #bowsersCastle.thwompSinkTime vars *= 3 integers
 
 # Common Currency Values
-scoreboard players set value.participation vars 50
+scoreboard players set value.participation vars 100
 
 scoreboard players operation value.KO vars = value.participation vars
 scoreboard players operation value.KO vars /= 5 integers
