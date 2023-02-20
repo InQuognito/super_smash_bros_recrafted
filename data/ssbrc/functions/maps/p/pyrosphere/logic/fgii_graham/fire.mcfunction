@@ -1,5 +1,3 @@
-teleport @s ~ ~ ~ ~ ~
-
 execute positioned 0.0 0.0 0.0 run summon minecraft:marker ^ ^ ^4 {Tags:["direction"]}
 
 summon minecraft:arrow ~ ~ ~ {damage:0.4,Tags:["bullet","modifyEntity"],NoGravity:1b}
