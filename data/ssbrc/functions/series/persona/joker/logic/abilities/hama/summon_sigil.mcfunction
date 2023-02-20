@@ -1,4 +1,4 @@
-summon minecraft:armor_stand ~ ~ ~ {Tags:["hama.display","modifyEntity"],HandItems:[{id:"minecraft:glowstone_dust",Count:1b,tag:{CustomModelData:600}},{}],Pose:{RightArm:[180f,0f,0f]},Invisible:1b,ShowArms:1b}
+summon minecraft:armor_stand ~ ~ ~ {Tags:["hama.display","modifyEntity"],HandItems:[{id:"minecraft:glowstone_dust",Count:1b,tag:{CustomModelData:600}},{}],Pose:{RightArm:[180f,0f,0f]},Invisible:1b,ShowArms:1b,DisabledSlots:4144959}
 
 scoreboard players operation @e[tag=modifyEntity,limit=1] id = @s id
 

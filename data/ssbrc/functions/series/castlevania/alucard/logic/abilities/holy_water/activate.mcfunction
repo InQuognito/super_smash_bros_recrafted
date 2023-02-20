@@ -1,7 +1,7 @@
 execute positioned 0.0 0.0 0.0 run summon minecraft:marker ^ ^ ^1 {Tags:["direction"]}
 
-execute if entity @s[tag=!bloodMetamorphosis] run summon minecraft:snowball ^ ^ ^0.3 {Tags:["modifyVehicle"],Item:{id:"minecraft:air"},Passengers:[{id:"minecraft:armor_stand",Tags:["holyWater.display","modifyDisplay"],Invisible:1b,Small:1b,Passengers:[{id:"minecraft:area_effect_cloud",Tags:["holyWater","modifyEntity"],Age:-2147483648,Duration:-1,WaitTime:-2147483648}]}]}
-execute if entity @s[tag=bloodMetamorphosis] run summon minecraft:snowball ^ ^ ^0.3 {Tags:["modifyVehicle"],Item:{id:"minecraft:air"},Passengers:[{id:"minecraft:armor_stand",Tags:["holyWater.display","modifyDisplay"],Invisible:1b,Small:1b,Passengers:[{id:"minecraft:area_effect_cloud",Tags:["holyWater","large","modifyEntity"],Age:-2147483648,Duration:-1,WaitTime:-2147483648}]}]}
+execute if entity @s[tag=!bloodMetamorphosis] run summon minecraft:snowball ^ ^ ^0.3 {Tags:["modifyVehicle"],Item:{id:"minecraft:air"},Passengers:[{id:"minecraft:armor_stand",Tags:["holyWater.display","modifyDisplay"],Invisible:1b,Small:1b,DisabledSlots:4144959,Passengers:[{id:"minecraft:area_effect_cloud",Tags:["holyWater","modifyEntity"],Age:-2147483648,Duration:-1,WaitTime:-2147483648}]}]}
+execute if entity @s[tag=bloodMetamorphosis] run summon minecraft:snowball ^ ^ ^0.3 {Tags:["modifyVehicle"],Item:{id:"minecraft:air"},Passengers:[{id:"minecraft:armor_stand",Tags:["holyWater.display","modifyDisplay"],Invisible:1b,Small:1b,DisabledSlots:4144959,Passengers:[{id:"minecraft:area_effect_cloud",Tags:["holyWater","large","modifyEntity"],Age:-2147483648,Duration:-1,WaitTime:-2147483648}]}]}
 loot replace entity @e[tag=modifyDisplay,limit=1] armor.head loot ssbrc:characters/castlevania/alucard/holy_water
 
 scoreboard players operation @e[tag=modifyEntity,limit=1] id = @s id

@@ -1,6 +1,6 @@
 execute positioned 0.0 0.0 0.0 run summon minecraft:marker ^ ^ ^1 {Tags:["direction"]}
 
-summon minecraft:armor_stand ^ ^ ^0.3 {Tags:["smokeGrenade.display","modifyVehicle"],Invisible:1b,Small:1b,Passengers:[{id:"minecraft:marker",Tags:["smokeGrenade","modifyEntity"]}]}
+summon minecraft:armor_stand ^ ^ ^0.3 {Tags:["smokeGrenade.display","modifyVehicle"],Invisible:1b,Small:1b,Passengers:[{id:"minecraft:marker",Tags:["smokeGrenade","modifyEntity"]}],DisabledSlots:4144959}
 loot replace entity @e[tag=modifyVehicle,limit=1] armor.head loot ssbrc:characters/metal_gear_solid/snake/smoke_grenade
 
 scoreboard players operation @e[tag=modifyEntity,limit=1] id = @s id

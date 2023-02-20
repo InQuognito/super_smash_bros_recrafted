@@ -1,4 +1,4 @@
-summon minecraft:armor_stand ~ ~ ~ {Tags:["boo","modifyEntity"],Pose:{Head:[0.1f,0.1f,0.1f]},ArmorItems:[{},{},{},{id:"minecraft:sugar",Count:1b,tag:{CustomModelData:1022}}],Invisible:1b,NoGravity:1b}
+summon minecraft:armor_stand ~ ~ ~ {Tags:["boo","modifyEntity"],Pose:{Head:[0.1f,0.1f,0.1f]},ArmorItems:[{},{},{},{id:"minecraft:sugar",Count:1b,tag:{CustomModelData:1022}}],Invisible:1b,NoGravity:1b,DisabledSlots:4144959}
 
 scoreboard players set max random 10
 function ssbrc:math/rng/lcg

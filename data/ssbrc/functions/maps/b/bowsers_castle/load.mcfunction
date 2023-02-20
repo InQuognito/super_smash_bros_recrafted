@@ -98,9 +98,9 @@ summon minecraft:glow_item_frame -736.5 33.0 822.5 {Fixed:1b,Invisible:1b,Facing
 
 summon minecraft:armor_stand -734.959 27.0 854.474 {Tags:["propStand","peach","default"],NoBasePlate:1b,ShowArms:1b,Rotation:[265f],Pose:{LeftArm:[219f,340f,22f],RightArm:[213f,34f,348f]}}
 
-summon minecraft:armor_stand -734.897 27.0 834.552 {Tags:["propStand","toad","default"],NoBasePlate:1b,NoGravity:1b,ShowArms:1b,Small:1b,Rotation:[270f],Pose:{LeftArm:[332f,30f,328f],RightArm:[338f,18f,12f]}}
-summon minecraft:armor_stand -737.7 26.6 833.175 {Tags:["propStand","toad","blue"],NoBasePlate:1b,NoGravity:1b,ShowArms:1b,Small:1b,Rotation:[320f],Pose:{LeftLeg:[267f,0f,0f],RightLeg:[267f,0f,0f],LeftArm:[332f,30f,328f],RightArm:[330f,18f,12f]}}
-summon minecraft:armor_stand -736.46 27.0 835.889 {Tags:["propStand","toad","yellow"],NoBasePlate:1b,ShowArms:1b,Small:1b,Pose:{LeftArm:[221f,342f,46f],RightArm:[245f,40f,12f]}}
+summon minecraft:armor_stand -734.897 27.0 834.552 {Tags:["propStand","toad","default"],DisabledSlots:4144959,NoBasePlate:1b,NoGravity:1b,ShowArms:1b,Small:1b,Rotation:[270f],Pose:{LeftArm:[332f,30f,328f],RightArm:[338f,18f,12f]}}
+summon minecraft:armor_stand -737.7 26.6 833.175 {Tags:["propStand","toad","blue"],DisabledSlots:4144959,NoBasePlate:1b,NoGravity:1b,ShowArms:1b,Small:1b,Rotation:[320f],Pose:{LeftLeg:[267f,0f,0f],RightLeg:[267f,0f,0f],LeftArm:[332f,30f,328f],RightArm:[330f,18f,12f]}}
+summon minecraft:armor_stand -736.46 27.0 835.889 {Tags:["propStand","toad","yellow"],DisabledSlots:4144959,NoBasePlate:1b,ShowArms:1b,Small:1b,Pose:{LeftArm:[221f,342f,46f],RightArm:[245f,40f,12f]}}
 
 scoreboard players set @e[tag=propStand] duration.1 1
 scoreboard players set @e[tag=propStand] duration.2 1

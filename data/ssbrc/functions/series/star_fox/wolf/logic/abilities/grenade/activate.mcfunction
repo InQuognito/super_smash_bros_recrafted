@@ -1,6 +1,6 @@
 execute positioned 0.0 0.0 0.0 run summon minecraft:marker ^ ^ ^1 {Tags:["direction"]}
 
-summon minecraft:armor_stand ^ ^ ^1 {Tags:["grenade","modifyEntity"],Invisible:1b}
+summon minecraft:armor_stand ^ ^ ^1 {Tags:["grenade","modifyEntity"],Invisible:1b,DisabledSlots:4144959}
 loot replace entity @e[tag=modifyEntity,limit=1] armor.head loot ssbrc:characters/star_fox/wolf/grenade/default
 
 scoreboard players operation @e[tag=modifyEntity,limit=1] id = @s id
