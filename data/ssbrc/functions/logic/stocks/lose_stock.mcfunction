@@ -28,7 +28,7 @@ scoreboard players reset $stockPercentage temp
 scoreboard players operation $stockPercentage temp += @a[tag=alive] stocks
 scoreboard players operation $stockPercentage temp *= 100 integers
 scoreboard players operation $stockPercentage temp /= $totalStocks temp
-execute if score $towerOfFate map matches 1 unless score towerOfFateDestroyed temp matches 1.. if score $gameMode options matches 1 if score $stockPercentage temp matches ..33 run function ssbrc:maps/t/tower_of_fate/logic/destroy_tower/start
+execute if score $hazards options matches 1 if score $towerOfFate map matches 1 unless score towerOfFateDestroyed temp matches 1.. if score $gameMode options matches 1 if score $stockPercentage temp matches ..33 run function ssbrc:maps/t/tower_of_fate/logic/destroy_tower/start
 
 scoreboard players set @s flag.dead 0
 
