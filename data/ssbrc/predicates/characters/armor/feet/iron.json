@@ -22,6 +22,13 @@
 		{
 			"condition": "minecraft:reference",
 			"name": "ssbrc:characters/shovelknight/phase_locket/armor_of_chaos/off"
+		},
+		{
+			"condition": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
+				"nbt": "{Tags:[\"spectator\"]}"
+			}
 		}
 	]
 }
