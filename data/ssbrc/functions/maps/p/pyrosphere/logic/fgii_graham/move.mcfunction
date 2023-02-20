@@ -23,3 +23,7 @@ execute if score #percentage temp matches 81..85 positioned ~ 39.5 ~ run telepor
 execute if score #percentage temp matches 86..90 positioned ~ 39.5 ~ run teleport @s ^ ^ ^0.18 ~ ~
 execute if score #percentage temp matches 91..95 positioned ~ 39.5 ~ run teleport @s ^ ^ ^0.19 ~ ~
 execute if score #percentage temp matches 96.. positioned ~ 39.5 ~ run teleport @s ^ ^ ^0.2 ~ ~
+
+execute if score #percentage temp matches ..50 positioned ~ 39.5 ~ run particle minecraft:electric_spark ~ ~0.5 ~ 0.2 0.2 0.2 0.5 1 normal @a
+execute if score #percentage temp matches ..25 positioned ~ 39.5 ~ run particle minecraft:smoke ~ ~0.5 ~ 0.2 0.2 0.2 0.01 1 normal @a
+execute if score #percentage temp matches ..10 positioned ~ 39.5 ~ run particle minecraft:small_flame ~ ~0.5 ~ 0.2 0.2 0.2 0.025 1 normal @a
