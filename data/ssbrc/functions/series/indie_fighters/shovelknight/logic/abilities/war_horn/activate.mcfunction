@@ -1,4 +1,9 @@
-tag @a[distance=0.1..10] add damage.warHorn
+summon minecraft:marker ~ ~0.75 ~ {Tags:["warHorn","modifyEntity"]}
+
+scoreboard players operation @e[tag=modifyEntity,limit=1] id = @s id
+data modify entity @e[tag=modifyEntity,limit=1] Owner set from entity @s UUID
+
+tag @e[tag=modifyEntity,limit=1] remove modifyEntity
 
 function ssbrc:logic/characters/effects/mobility/immobilize
 
