@@ -1,6 +1,6 @@
 execute positioned 0.0 0.0 0.0 run summon minecraft:marker ^ ^ ^4 {Tags:["direction"]}
 
-summon minecraft:arrow ~ ~ ~ {damage:0.4,Tags:["bullet","modifyEntity"],NoGravity:1b}
+summon minecraft:arrow ~ ~ ~ {damage:0.25,Tags:["bullet","modifyEntity"],NoGravity:1b}
 
 data modify entity @e[tag=modifyEntity,limit=1] Motion set from entity @e[tag=direction,limit=1] Pos
 
