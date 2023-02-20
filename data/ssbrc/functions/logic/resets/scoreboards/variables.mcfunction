@@ -238,8 +238,7 @@ scoreboard players operation value.bonus.WACCoordinator vars *= 1 integers
 scoreboard players set value.bonus.yearLongBattle vars 365
 
 # Prices
-scoreboard players operation #price.skin.common vars = value.victory vars
-scoreboard players operation #price.skin.common vars *= 5 integers
+scoreboard players set #price.skin.common vars 750
 
 scoreboard players operation #price.skin.uncommon vars = value.skin.common vars
 scoreboard players operation #price.skin.uncommon vars *= 2 integers
