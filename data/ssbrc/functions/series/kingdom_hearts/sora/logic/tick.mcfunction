@@ -11,7 +11,7 @@ execute if entity @s[predicate=!ssbrc:characters/sora/no_spells,predicate=ssbrc:
 execute if entity @s[tag=valor,predicate=!ssbrc:flag/sneaking,scores={useAbility=1..},nbt={SelectedItem:{tag:{strikeRaid:1}},Inventory:[{tag:{strikeRaid:1},Slot:-106b}]}] at @s anchored eyes run function ssbrc:series/kingdom_hearts/sora/logic/abilities/strike_raid/activate
 
 execute as @e[type=minecraft:arrow,tag=firaga] at @s if score @s id = @p[tag=self] id run function ssbrc:series/kingdom_hearts/sora/logic/abilities/firaga/tick
-execute if entity @s[scores={charge.3=1..}] at @s rotated as @e[tag=sora.spinner] positioned ^ ^1 ^1.5 run function ssbrc:series/kingdom_hearts/sora/logic/abilities/firaga/firaza/tick
+execute if entity @s[scores={charge.3=1..}] at @s rotated as @e[type=minecraft:marker,tag=sora.spinner,limit=1] positioned ^ ^1 ^1.5 run function ssbrc:series/kingdom_hearts/sora/logic/abilities/firaga/firaza/tick
 execute as @e[type=minecraft:arrow,tag=blizzaga] at @s if score @s id = @p[tag=self] id run function ssbrc:series/kingdom_hearts/sora/logic/abilities/blizzaga/tick
 execute as @e[type=minecraft:arrow,tag=blizzaza] at @s if score @s id = @p[tag=self] id run function ssbrc:series/kingdom_hearts/sora/logic/abilities/blizzaga/blizzaza/tick
 execute as @e[type=minecraft:marker,tag=thundaga] at @s if score @s id = @p[tag=self] id run function ssbrc:series/kingdom_hearts/sora/logic/abilities/thundaga/tick
