@@ -6,6 +6,8 @@ loot give @s loot ssbrc:characters/metal_gear_solid/snake/cqc_knife
 loot give @s[tag=antiPersonnelMine] loot ssbrc:characters/metal_gear_solid/snake/anti_personnel_mine/inactive
 loot give @s[tag=smokeGrenade] loot ssbrc:characters/metal_gear_solid/snake/smoke_grenade
 
+loot replace entity @s hotbar.8 loot ssbrc:characters/metal_gear_solid/snake/status/undetected
+
 scoreboard players set @s[tag=psg1] snake.psg1M 7
 scoreboard players set @s[tag=psg1] snake.psg1A 1
 scoreboard players set @s[tag=famas] snake.famasM 1
