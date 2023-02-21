@@ -40,44 +40,44 @@ scoreboard players add @s[tag=winner,tag=wolf] stats.wolf.wins 1
 scoreboard players add @s[tag=winner,tag=yar] stats.yar.wins 1
 scoreboard players add @s[tag=winner,tag=zelda] stats.zelda.wins 1
 
-execute if score @s[tag=winner,tag=alteredbeast] stats.alteredbeast.wins matches 10 run advancement grant @s only ssbrc:series/retro_fighters/alteredbeast/skins/gold
-execute if score @s[tag=winner,tag=alucard] stats.alucard.wins matches 10 run advancement grant @s only ssbrc:series/castlevania/alucard/skins/gold
-execute if score @s[tag=winner,tag=bowser] stats.bowser.wins matches 10 run advancement grant @s only ssbrc:series/super_mario_bros/bowser/skins/gold
-execute if score @s[tag=winner,tag=byleth] stats.byleth.wins matches 10 run advancement grant @s only ssbrc:series/fire_emblem/byleth/skins/gold
-execute if score @s[tag=winner,tag=captainfalcon] stats.captainfalcon.wins matches 10 run advancement grant @s only ssbrc:series/f_zero/captainfalcon/skins/gold
-execute if score @s[tag=winner,tag=cloud] stats.cloud.wins matches 10 run advancement grant @s only ssbrc:series/final_fantasy/cloud/skins/gold
-execute if score @s[tag=winner,tag=darksamus] stats.darksamus.wins matches 10 run advancement grant @s only ssbrc:series/metroid/darksamus/skins/gold
-execute if score @s[tag=winner,tag=donkeykong] stats.donkeykong.wins matches 10 run advancement grant @s only ssbrc:series/donkey_kong/donkeykong/skins/gold
-execute if score @s[tag=winner,tag=fox] stats.fox.wins matches 10 run advancement grant @s only ssbrc:series/star_fox/fox/skins/gold
-execute if score @s[tag=winner,tag=ganondorf] stats.ganondorf.wins matches 10 run advancement grant @s only ssbrc:series/the_legend_of_zelda/ganondorf/skins/gold
-execute if score @s[tag=winner,tag=giegue] stats.giegue.wins matches 10 run advancement grant @s only ssbrc:series/earthbound/giegue/skins/gold
-execute if score @s[tag=winner,tag=greninja] stats.greninja.wins matches 10 run advancement grant @s only ssbrc:series/pokemon/greninja/skins/gold
-execute if score @s[tag=winner,tag=hero] stats.hero.wins matches 10 run advancement grant @s only ssbrc:series/dragon_quest/hero/skins/gold
-execute if score @s[tag=winner,tag=jigglypuff] stats.jigglypuff.wins matches 10 run advancement grant @s only ssbrc:series/pokemon/jigglypuff/skins/gold
-execute if score @s[tag=winner,tag=joker] stats.joker.wins matches 10 run advancement grant @s only ssbrc:series/persona/joker/skins/gold
-execute if score @s[tag=winner,tag=kingkrool] stats.kingkrool.wins matches 10 run advancement grant @s only ssbrc:series/donkey_kong/kingkrool/skins/gold
-execute if score @s[tag=winner,tag=kirby] stats.kirby.wins matches 10 run advancement grant @s only ssbrc:series/kirby/kirby/skins/gold
-execute if score @s[tag=winner,tag=link] stats.link.wins matches 10 run advancement grant @s only ssbrc:series/the_legend_of_zelda/link/skins/gold
-execute if score @s[tag=winner,tag=luigi] stats.luigi.wins matches 10 run advancement grant @s only ssbrc:series/super_mario_bros/luigi/skins/gold
-execute if score @s[tag=winner,tag=mario] stats.mario.wins matches 10 run advancement grant @s only ssbrc:series/super_mario_bros/mario/skins/gold
-execute if score @s[tag=winner,tag=megaman] stats.megaman.wins matches 10 run advancement grant @s only ssbrc:series/mega_man/megaman/skins/gold
-execute if score @s[tag=winner,tag=ness] stats.ness.wins matches 10 run advancement grant @s only ssbrc:series/earthbound/ness/skins/gold
-execute if score @s[tag=winner,tag=pikachu] stats.pikachu.wins matches 10 run advancement grant @s only ssbrc:series/pokemon/pikachu/skins/gold
-execute if score @s[tag=winner,tag=pit] stats.pit.wins matches 10 run advancement grant @s only ssbrc:series/kid_icarus/pit/skins/gold
-execute if score @s[tag=winner,tag=pokemontrainer] stats.pokemontrainer.wins matches 10 run advancement grant @s only ssbrc:series/pokemon/pokemontrainer/skins/gold
-execute if score @s[tag=winner,tag=rob] stats.rob.wins matches 10 run advancement grant @s only ssbrc:series/super_smash_bros/rob/skins/gold
-execute if score @s[tag=winner,tag=ryu] stats.ryu.wins matches 10 run advancement grant @s only ssbrc:series/street_fighter/ryu/skins/gold
-execute if score @s[tag=winner,tag=samus] stats.samus.wins matches 10 run advancement grant @s only ssbrc:series/metroid/samus/skins/gold
-execute if score @s[tag=winner,tag=shadow] stats.shadow.wins matches 10 run advancement grant @s only ssbrc:series/sonic_the_hedgehog/shadow/skins/gold
-execute if score @s[tag=winner,tag=shovelknight] stats.shovelknight.wins matches 10 run advancement grant @s only ssbrc:series/indie_fighters/shovelknight/skins/gold
-execute if score @s[tag=winner,tag=snake] stats.snake.wins matches 10 run advancement grant @s only ssbrc:series/metal_gear_solid/snake/skins/gold
-execute if score @s[tag=winner,tag=sonic] stats.sonic.wins matches 10 run advancement grant @s only ssbrc:series/sonic_the_hedgehog/sonic/skins/gold
-execute if score @s[tag=winner,tag=sora] stats.sora.wins matches 10 run advancement grant @s only ssbrc:series/kingdom_hearts/sora/skins/gold
-execute if score @s[tag=winner,tag=steve] stats.steve.wins matches 10 run advancement grant @s only ssbrc:series/indie_fighters/steve/skins/gold
-execute if score @s[tag=winner,tag=teamrocket] stats.teamrocket.wins matches 10 run advancement grant @s only ssbrc:series/pokemon/teamrocket/skins/gold
-execute if score @s[tag=winner,tag=wolf] stats.wolf.wins matches 10 run advancement grant @s only ssbrc:series/star_fox/wolf/skins/gold
-execute if score @s[tag=winner,tag=yar] stats.yar.wins matches 10 run advancement grant @s only ssbrc:series/retro_fighters/yar/skins/gold
-execute if score @s[tag=winner,tag=zelda] stats.zelda.wins matches 10 run advancement grant @s only ssbrc:series/the_legend_of_zelda/zelda/skins/gold
+execute if score @s[tag=winner,tag=alteredbeast] stats.alteredbeast.wins matches 10 run function ssbrc:shop/contents/skins/alteredbeast/gold
+execute if score @s[tag=winner,tag=alucard] stats.alucard.wins matches 10 run function ssbrc:shop/contents/skins/alucard/gold
+execute if score @s[tag=winner,tag=bowser] stats.bowser.wins matches 10 run function ssbrc:shop/contents/skins/bowser/gold
+execute if score @s[tag=winner,tag=byleth] stats.byleth.wins matches 10 run function ssbrc:shop/contents/skins/byleth/gold
+execute if score @s[tag=winner,tag=captainfalcon] stats.captainfalcon.wins matches 10 run function ssbrc:shop/contents/skins/captainfalcon/gold
+execute if score @s[tag=winner,tag=cloud] stats.cloud.wins matches 10 run function ssbrc:shop/contents/skins/cloud/gold
+execute if score @s[tag=winner,tag=darksamus] stats.darksamus.wins matches 10 run function ssbrc:shop/contents/skins/darksamus/gold
+execute if score @s[tag=winner,tag=donkeykong] stats.donkeykong.wins matches 10 run function ssbrc:shop/contents/skins/donkeykong/gold
+execute if score @s[tag=winner,tag=fox] stats.fox.wins matches 10 run function ssbrc:shop/contents/skins/fox/gold
+execute if score @s[tag=winner,tag=ganondorf] stats.ganondorf.wins matches 10 run function ssbrc:shop/contents/skins/ganondorf/gold
+execute if score @s[tag=winner,tag=giegue] stats.giegue.wins matches 10 run function ssbrc:shop/contents/skins/giegue/gold
+execute if score @s[tag=winner,tag=greninja] stats.greninja.wins matches 10 run function ssbrc:shop/contents/skins/greninja/gold
+execute if score @s[tag=winner,tag=hero] stats.hero.wins matches 10 run function ssbrc:shop/contents/skins/hero/gold
+execute if score @s[tag=winner,tag=jigglypuff] stats.jigglypuff.wins matches 10 run function ssbrc:shop/contents/skins/jigglypuff/gold
+execute if score @s[tag=winner,tag=joker] stats.joker.wins matches 10 run function ssbrc:shop/contents/skins/joker/gold
+execute if score @s[tag=winner,tag=kingkrool] stats.kingkrool.wins matches 10 run function ssbrc:shop/contents/skins/kingkrool/gold
+execute if score @s[tag=winner,tag=kirby] stats.kirby.wins matches 10 run function ssbrc:shop/contents/skins/kirby/gold
+execute if score @s[tag=winner,tag=link] stats.link.wins matches 10 run function ssbrc:shop/contents/skins/link/gold
+execute if score @s[tag=winner,tag=luigi] stats.luigi.wins matches 10 run function ssbrc:shop/contents/skins/luigi/gold
+execute if score @s[tag=winner,tag=mario] stats.mario.wins matches 10 run function ssbrc:shop/contents/skins/mario/gold
+execute if score @s[tag=winner,tag=megaman] stats.megaman.wins matches 10 run function ssbrc:shop/contents/skins/megaman/gold
+execute if score @s[tag=winner,tag=ness] stats.ness.wins matches 10 run function ssbrc:shop/contents/skins/ness/gold
+execute if score @s[tag=winner,tag=pikachu] stats.pikachu.wins matches 10 run function ssbrc:shop/contents/skins/pikachu/gold
+execute if score @s[tag=winner,tag=pit] stats.pit.wins matches 10 run function ssbrc:shop/contents/skins/pit/gold
+execute if score @s[tag=winner,tag=pokemontrainer] stats.pokemontrainer.wins matches 10 run function ssbrc:shop/contents/skins/pokemontrainer/gold
+execute if score @s[tag=winner,tag=rob] stats.rob.wins matches 10 run function ssbrc:shop/contents/skins/rob/gold
+execute if score @s[tag=winner,tag=ryu] stats.ryu.wins matches 10 run function ssbrc:shop/contents/skins/ryu/gold
+execute if score @s[tag=winner,tag=samus] stats.samus.wins matches 10 run function ssbrc:shop/contents/skins/samus/gold
+execute if score @s[tag=winner,tag=shadow] stats.shadow.wins matches 10 run function ssbrc:shop/contents/skins/shadow/gold
+execute if score @s[tag=winner,tag=shovelknight] stats.shovelknight.wins matches 10 run function ssbrc:shop/contents/skins/shovelknight/gold
+execute if score @s[tag=winner,tag=snake] stats.snake.wins matches 10 run function ssbrc:shop/contents/skins/snake/gold
+execute if score @s[tag=winner,tag=sonic] stats.sonic.wins matches 10 run function ssbrc:shop/contents/skins/sonic/gold
+execute if score @s[tag=winner,tag=sora] stats.sora.wins matches 10 run function ssbrc:shop/contents/skins/sora/gold
+execute if score @s[tag=winner,tag=steve] stats.steve.wins matches 10 run function ssbrc:shop/contents/skins/steve/gold
+execute if score @s[tag=winner,tag=teamrocket] stats.teamrocket.wins matches 10 run function ssbrc:shop/contents/skins/teamrocket/gold
+execute if score @s[tag=winner,tag=wolf] stats.wolf.wins matches 10 run function ssbrc:shop/contents/skins/wolf/gold
+execute if score @s[tag=winner,tag=yar] stats.yar.wins matches 10 run function ssbrc:shop/contents/skins/yar/gold
+execute if score @s[tag=winner,tag=zelda] stats.zelda.wins matches 10 run function ssbrc:shop/contents/skins/zelda/gold
 
 execute if entity @s[tag=winner,tag=alteredbeast] run scoreboard players add alteredbeast log.wins 1
 execute if entity @s[tag=winner,tag=alucard] run scoreboard players add alucard log.wins 1
