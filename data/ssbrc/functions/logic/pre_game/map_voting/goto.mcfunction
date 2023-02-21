@@ -13,7 +13,7 @@ execute if score $teams options matches 0 run team join waiting @s[team=!spectat
 effect give @s[team=!spectator] minecraft:glowing 1000000 255 true
 
 tag @s remove room.characterSelect
-tag @s add room.mapVoting
+#tag @s add room.mapVoting
 
 title @s clear
 title @s reset
