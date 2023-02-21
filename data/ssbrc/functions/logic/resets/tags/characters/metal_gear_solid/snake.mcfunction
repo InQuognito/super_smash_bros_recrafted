@@ -8,3 +8,4 @@ tag @s remove smokeGrenade
 tag @s remove socom
 
 tag @s remove nightVisionGoggles
+tag @s remove reloading
