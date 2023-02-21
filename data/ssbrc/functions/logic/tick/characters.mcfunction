@@ -73,6 +73,10 @@ scoreboard players reset @s useItem
 # Character Effects
 execute if entity @s[predicate=ssbrc:characters/enchantments/infinity] run item replace entity @s hotbar.8 with minecraft:spectral_arrow 1
 
+execute at @s[tag=gold,scores={flag.walking=1..}] run particle minecraft:dust_color_transition 0.5 0.5 0.0 0.5 1.0 1.0 0.0 ~ ~0.75 ~ 0.2 0.3 0.2 0.0 3 normal @a
+execute at @s[tag=gold,predicate=ssbrc:flag/sprinting] run particle minecraft:dust_color_transition 0.5 0.5 0.0 0.5 1.0 1.0 0.0 ~ ~0.75 ~ 0.2 0.3 0.2 0.0 6 normal @a
+scoreboard players reset @s flag.walking
+
 execute at @s[tag=naturalShiny] run particle minecraft:glow ~ ~0.7 ~ 0.5 0.4 0.5 0.0 1 normal @a
 
 execute at @s[predicate=ssbrc:characters/effects/has/wither] run particle minecraft:small_flame ~ ~0.75 ~ 0.2 0.4 0.2 0.01 1 normal @a

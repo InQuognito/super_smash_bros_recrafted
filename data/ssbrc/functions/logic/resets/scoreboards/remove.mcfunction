@@ -36,6 +36,7 @@ scoreboard objectives remove flag.dead
 scoreboard objectives remove flag.fireBow
 scoreboard objectives remove flag.inLava
 scoreboard objectives remove flag.sprinting
+scoreboard objectives remove flag.walking
 scoreboard objectives remove frostbite
 scoreboard objectives remove frostbiteTimer
 scoreboard objectives remove fuse
