@@ -1,0 +1,19 @@
+[
+	{
+		"condition": "minecraft:alternative",
+		"terms": [
+			{
+				"condition": "minecraft:reference",
+				"name": "ssbrc:flag/targets"
+			},
+			{
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"type": "minecraft:armor_stand",
+					"nbt": "{Tags:[\"ghost\"]}"
+				}
+			}
+		]
+	}
+]
