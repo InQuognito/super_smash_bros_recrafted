@@ -115,6 +115,8 @@ scoreboard players set #bowsersCastle.thwompTime vars 100
 scoreboard players operation #bowsersCastle.thwompSinkTime vars = #bowsersCastle.thwompTime vars
 scoreboard players operation #bowsersCastle.thwompSinkTime vars *= 3 integers
 
+scoreboard players set cameraRange vars 5
+
 # Common Currency Values
 scoreboard players set value.participation vars 100
 
