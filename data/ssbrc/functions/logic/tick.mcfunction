@@ -11,8 +11,8 @@ execute if score $gameStage temp matches 4 run function ssbrc:logic/tick/ingame
 execute if score $gameStage temp matches 5 run function ssbrc:logic/tick/post_game
 
 execute if score $mapRoom timer matches 1.. run scoreboard players add $mapRoom timer 1
-execute if score $mapRoom timer matches 2 as @e[type=minecraft:glow_item_frame,tag=mapIcon] run function ssbrc:logic/pre_game/map_voting/map_choices/choose/modify_post
-execute if score $mapRoom timer matches 2.. run scoreboard players reset $mapRoom timer
+execute if score $mapRoom timer matches 10 as @e[type=minecraft:glow_item_frame,tag=mapIcon] run function ssbrc:logic/pre_game/map_voting/map_choices/choose/modify_post
+execute if score $mapRoom timer matches 10.. run scoreboard players reset $mapRoom timer
 
 # Reset Players
 execute as @a unless score @s worldTime = $worldTime worldTime run function ssbrc:logic/join
