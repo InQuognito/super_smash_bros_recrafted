@@ -1,4 +1,4 @@
-teleport @s ~ ~ ~ ~ ~
+execute at @e[type=minecraft:armor_stand,tag=camera,sort=nearest,limit=1] facing entity @p[predicate=ssbrc:flag/player,dx=0] eyes run teleport @s ~ ~ ~ ~ ~
 execute as @p[predicate=ssbrc:flag/player,tag=snake,dx=0] run function ssbrc:series/metal_gear_solid/snake/logic/get_hurt
 
 data modify storage ssbrc:facing Head set value [0f,0f,0f]
