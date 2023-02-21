@@ -1,4 +1,4 @@
-execute at @s facing entity @p[predicate=ssbrc:flag/player,dx=0] eyes run teleport @s ~ ~ ~ ~ ~
+execute facing entity @p[predicate=ssbrc:flag/player,dx=0] eyes at @s run teleport @s ~ ~ ~ ~ ~
 execute as @p[predicate=ssbrc:flag/player,tag=snake,dx=0] run function ssbrc:series/metal_gear_solid/snake/logic/get_hurt
 
 data modify storage ssbrc:facing Head set value [0f,0f,0f]
