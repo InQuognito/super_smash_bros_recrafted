@@ -5,6 +5,9 @@ scoreboard players set @s duration.3 1
 tag @s remove hasShield
 tag @s remove shieldBroken
 
+# Alucard
+tag @s[tag=alucard,tag=bloodMetamorphosis] remove bloodMetamorphosis
+
 # Bowser
 execute if entity @s[tag=bowser,tag=rageUsed] run function ssbrc:series/super_mario_bros/bowser/logic/abilities/rage/deactivate
 tag @s[tag=bowser,tag=rageUsed] remove rageUsed
@@ -141,6 +144,7 @@ scoreboard players set @s cooldown.3 0
 
 # Misc
 tag @s remove leechSeed
+scoreboard players reset @s leechSeed
 scoreboard players reset @s leechSeedTimer
 
 tag @s remove immobile

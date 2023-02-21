@@ -48,6 +48,8 @@ scoreboard objectives remove joker.tt33F
 scoreboard objectives remove jumps
 scoreboard objectives remove kills
 scoreboard objectives remove leechSeed
+scoreboard objectives remove leechSeedStacks
+scoreboard objectives remove leechSeedStacksTimer
 scoreboard objectives remove leechSeedTimer
 scoreboard objectives remove mana
 scoreboard objectives remove map

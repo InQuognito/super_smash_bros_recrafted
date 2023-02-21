@@ -1,6 +1,6 @@
 scoreboard players operation #leechSeed temp = @s leechSeedTimer
 scoreboard players operation #leechSeed temp %= 20 integers
-execute if score #leechSeed temp matches 0 at @s run function ssbrc:series/pokemon/pokemontrainer/logic/ivysaur/leech_seed/summon_healing_orb
+execute if score @s health matches 2.. if score #leechSeed temp matches 0 at @s run function ssbrc:series/pokemon/pokemontrainer/logic/ivysaur/leech_seed/summon_healing_orb
 scoreboard players reset #leechSeed temp
 
 scoreboard players remove @s leechSeedTimer 1
