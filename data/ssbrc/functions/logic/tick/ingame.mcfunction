@@ -30,9 +30,6 @@ execute as @a[predicate=ssbrc:flag/player] if entity @s[advancements={ssbrc:util
 advancement revoke @a only ssbrc:utility/flag/hurt_player/condition/blocked
 scoreboard players reset @a flag.breakShield
 
-# Maps
-function ssbrc:logic/tick/maps
-
 function ssbrc:logic/tick/damage
 
 # Banned From Having More Than One
