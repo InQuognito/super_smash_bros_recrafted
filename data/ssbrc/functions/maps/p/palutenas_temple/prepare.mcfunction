@@ -5,7 +5,7 @@ summon minecraft:marker 49973.5 212.0 24950.5 {Tags:["spawnpoint"]}
 summon minecraft:marker 49965.5 212.0 24967.5 {Tags:["spawnpoint"]}
 summon minecraft:marker 50010.5 212.0 24975.5 {Tags:["spawnpoint"]}
 summon minecraft:marker 50000.5 204.0 24966.5 {Tags:["spawnpoint"]}
-summon minecraft:marker 50009.5 204.0 24969.5 {Tags:["spawnpoint"]}
+summon minecraft:marker 49992.5 204.0 24956.5 {Tags:["spawnpoint"]}
 summon minecraft:marker 49988.5 204.0 24970.5 {Tags:["spawnpoint"]}
 summon minecraft:marker 49979.5 204.0 24963.5 {Tags:["spawnpoint"]}
 
