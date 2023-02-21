@@ -1,3 +1,5 @@
+tag @r[predicate=ssbrc:ingame] add notPosted
+
 execute if entity @p[tag=notPosted,tag=alteredbeast] run function ssbrc:maps/m/miiverse/logic/posts/posts/alteredbeast
 execute if entity @p[tag=notPosted,tag=alucard] run function ssbrc:maps/m/miiverse/logic/posts/posts/alucard
 execute if entity @p[tag=notPosted,tag=bowser] run function ssbrc:maps/m/miiverse/logic/posts/posts/bowser
@@ -36,4 +38,7 @@ execute if entity @p[tag=notPosted,tag=teamrocket] run function ssbrc:maps/m/mii
 execute if entity @p[tag=notPosted,tag=wolf] run function ssbrc:maps/m/miiverse/logic/posts/posts/wolf
 execute if entity @p[tag=notPosted,tag=yar] run function ssbrc:maps/m/miiverse/logic/posts/posts/yar
 execute if entity @p[tag=notPosted,tag=zelda] run function ssbrc:maps/m/miiverse/logic/posts/posts/zelda
+tag @s add posted
+
 tag @p[tag=notPosted] remove notPosted
+execute if entity @a[tag=notPosted] as @e[type=minecraft:armor_stand,tag=post,tag=!posted,sort=random,limit=1] at @s run function ssbrc:maps/m/miiverse/logic/posts/apply
