@@ -9,7 +9,7 @@ data modify entity @e[tag=modifyEntity,limit=1] Motion set from entity @e[tag=di
 tag @e[tag=modifyEntity,limit=1] remove modifyEntity
 kill @e[tag=direction,limit=1]
 
-scoreboard players set @s cooldown.1 4
+scoreboard players set @s cooldown.1 5
 execute if score @s shadow.chaosControl matches 1.. run function ssbrc:logic/characters/cooldown_modifiers/chaos_control/1
 
 loot replace entity @s weapon.mainhand loot ssbrc:characters/metroid/samus/arm_cannon/power_beam/fire
