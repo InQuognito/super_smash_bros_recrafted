@@ -1,5 +1,6 @@
 kill @e[type=minecraft:armor_stand,tag=lobbyStand]
 kill @e[type=minecraft:area_effect_cloud,tag=lobbyStand.label]
+kill @e[type=minecraft:area_effect_cloud,tag=lobby.action]
 
 summon minecraft:area_effect_cloud ~ ~ ~ {Age:-2147483648,Duration:-1,WaitTime:-2147483648,Tags:["voteCounter","acropolisGraveyard"],CustomNameVisible:1b}
 summon minecraft:area_effect_cloud ~ ~ ~ {Age:-2147483648,Duration:-1,WaitTime:-2147483648,Tags:["voteCounter","bowsersCastle"],CustomNameVisible:1b}
