@@ -14,6 +14,7 @@ execute if entity @a[tag=greninja] run function ssbrc:logic/tick/damage/pokemon/
 execute if entity @a[tag=jigglypuff] run function ssbrc:logic/tick/damage/pokemon/jigglypuff
 execute if entity @a[tag=pikachu] run function ssbrc:logic/tick/damage/pokemon/pikachu
 execute if entity @a[tag=pokemontrainer] run function ssbrc:logic/tick/damage/pokemon/pokemontrainer
+execute if entity @a[tag=teamrocket] run function ssbrc:logic/tick/damage/pokemon/teamrocket
 execute if entity @a[tag=shadow] run function ssbrc:logic/tick/damage/sonic_the_hedgehog/shadow
 execute if entity @a[tag=wolf] run function ssbrc:logic/tick/damage/star_fox/wolf
 execute if entity @a[tag=bowser] run function ssbrc:logic/tick/damage/super_mario_bros/bowser
