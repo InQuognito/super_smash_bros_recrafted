@@ -1,4 +1,4 @@
-teleport @s ^ ^ ^0.3
+teleport @s ^ ^ ^0.6
 scoreboard players add @s temp 1
 
 scoreboard players set $steps temp 0
