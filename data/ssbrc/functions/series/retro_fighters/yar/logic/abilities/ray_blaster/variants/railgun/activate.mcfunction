@@ -1,4 +1,4 @@
-execute rotated as @s run summon minecraft:area_effect_cloud ^ ^ ^1 {Tags:["rayBlaster","railgun","modifyEntity"],Age:-2147483648,Duration:-1,WaitTime:-2147483648}
+execute rotated as @s run summon minecraft:area_effect_cloud ^ ^ ^1 {Tags:["railgun","modifyEntity"],Age:-2147483648,Duration:-1,WaitTime:-2147483648}
 
 scoreboard players operation @e[tag=modifyEntity,limit=1] id = @s id
 data modify entity @e[tag=modifyEntity,limit=1] Rotation set from entity @s Rotation
