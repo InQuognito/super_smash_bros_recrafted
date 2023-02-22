@@ -1,6 +1,7 @@
 kill @e[type=minecraft:glow_item_frame,tag=mapIcon]
 kill @e[type=minecraft:area_effect_cloud,tag=voteCounter]
 kill @e[type=minecraft:area_effect_cloud,tag=infoDisplay]
+kill @e[type=minecraft:area_effect_cloud,tag=lobby.action]
 
 scoreboard players operation $totalStocks temp = $playersAlive temp
 scoreboard players operation $totalStocks temp *= $stockLimit options
