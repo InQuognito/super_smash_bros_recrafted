@@ -20,6 +20,8 @@ summon minecraft:marker -544.5 18.0 -140.5 {Tags:["spawnpoint.item"]}
 summon minecraft:marker -549.5 19.0 -125.5 {Tags:["spawnpoint.item"]}
 summon minecraft:marker -543.5 20.0 -150.5 {Tags:["spawnpoint.item"]}
 
+kill @e[type=minecraft:item,nbt={Item:{id:"minecraft:lead"}}]
+
 execute as @a[predicate=ssbrc:ingame] run function ssbrc:logic/pre_game/prepare_players
 function ssbrc:logic/pre_game/prepare_match
 
