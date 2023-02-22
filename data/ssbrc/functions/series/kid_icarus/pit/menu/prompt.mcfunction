@@ -9,4 +9,4 @@ effect give @s minecraft:glowing 1000000 255 true
 
 execute if score $gameStage temp matches 1 run scoreboard players operation $countdown timer = #quickStart vars
 
-playsound minecraft:ui.button.click master @s ~ ~ ~ 1.0 1.0
+execute at @s run playsound minecraft:ui.button.click master @s ~ ~ ~ 1.0 1.0
