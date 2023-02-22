@@ -5,4 +5,4 @@ tellraw @s[advancements={ssbrc:series/final_fantasy/cloud/skins/gold=true}] [{"t
 
 tellraw @s [{"text":"==========","bold":true,"color":"yellow"}]
 
-playsound minecraft:ui.button.click master @s ~ ~ ~ 1.0 1.0
+execute at @s run playsound minecraft:ui.button.click master @s ~ ~ ~ 1.0 1.0

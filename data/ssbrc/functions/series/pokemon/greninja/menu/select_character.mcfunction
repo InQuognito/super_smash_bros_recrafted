@@ -14,6 +14,6 @@ tag @s add characterPicked
 execute if score $teams options matches 0 run team join ready @s
 effect clear @s minecraft:glowing
 
-playsound minecraft:entity.experience_orb.pickup master @s ~ ~ ~ 1.0 0.5
+execute at @s run playsound minecraft:entity.experience_orb.pickup master @s ~ ~ ~ 1.0 0.5
 
 function ssbrc:logic/pre_game/character_select/check_participation
