@@ -5,3 +5,5 @@ tellraw @s[advancements={ssbrc:series/sonic_the_hedgehog/shadow/skins/gold=true}
 tellraw @s[advancements={ssbrc:series/sonic_the_hedgehog/shadow/skins/yellow_android=true}] [{"text":"[ ","color":"dark_green"},{"text":"Yellow Android","color":"yellow","clickEvent":{"action":"run_command","value":"/trigger menu set 1906"}},{"text":" ]","color":"dark_green"}]
 
 tellraw @s [{"text":"==========","bold":true,"color":"yellow"}]
+
+playsound minecraft:ui.button.click master @s ~ ~ ~ 1.0 1.0

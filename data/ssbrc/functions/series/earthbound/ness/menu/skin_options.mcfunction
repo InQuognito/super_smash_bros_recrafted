@@ -6,3 +6,5 @@ tellraw @s[advancements={ssbrc:series/earthbound/ness/skins/moonside=true}] [{"t
 tellraw @s[advancements={ssbrc:series/earthbound/ness/skins/pajamas=true}] [{"text":"[ ","color":"dark_green"},{"text":"Pajamas","color":"dark_aqua","clickEvent":{"action":"run_command","value":"/trigger menu set 1087"}},{"text":" ]","color":"dark_green"}]
 
 tellraw @s [{"text":"==========","bold":true,"color":"yellow"}]
+
+playsound minecraft:ui.button.click master @s ~ ~ ~ 1.0 1.0

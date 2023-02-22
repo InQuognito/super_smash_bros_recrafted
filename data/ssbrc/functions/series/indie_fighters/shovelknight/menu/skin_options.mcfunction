@@ -6,3 +6,5 @@ tellraw @s[advancements={ssbrc:series/indie_fighters/shovelknight/skins/armor_of
 tellraw @s[advancements={ssbrc:series/indie_fighters/shovelknight/skins/toad_gear=true}] [{"text":"[ ","color":"dark_green"},{"text":"Toad Gear","color":"green","clickEvent":{"action":"run_command","value":"/trigger menu set 1927"}},{"text":" ]","color":"dark_green"}]
 
 tellraw @s [{"text":"==========","bold":true,"color":"yellow"}]
+
+playsound minecraft:ui.button.click master @s ~ ~ ~ 1.0 1.0

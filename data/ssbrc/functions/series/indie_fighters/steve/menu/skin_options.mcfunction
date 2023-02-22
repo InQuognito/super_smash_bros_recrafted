@@ -6,3 +6,5 @@ tellraw @s[advancements={ssbrc:series/indie_fighters/steve/skins/alex=true}] [{"
 tellraw @s[advancements={ssbrc:series/indie_fighters/steve/skins/herobrine=true}] [{"text":"[ ","color":"dark_green"},{"text":"Herobrine","color":"white","clickEvent":{"action":"run_command","value":"/trigger menu set 1587"}},{"text":" ]","color":"dark_green"}]
 
 tellraw @s [{"text":"==========","bold":true,"color":"yellow"}]
+
+playsound minecraft:ui.button.click master @s ~ ~ ~ 1.0 1.0

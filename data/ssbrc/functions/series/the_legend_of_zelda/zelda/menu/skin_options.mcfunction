@@ -4,3 +4,5 @@ tellraw @s [{"text":"[ ","color":"blue","bold":false},{"text":"Default","color":
 tellraw @s[advancements={ssbrc:series/the_legend_of_zelda/zelda/skins/gold=true}] [{"text":"[ ","color":"blue"},{"text":"Gold","color":"gold","clickEvent":{"action":"run_command","value":"/trigger menu set 1785"}},{"text":" ]","color":"blue"}]
 
 tellraw @s [{"text":"==========","bold":true,"color":"yellow"}]
+
+playsound minecraft:ui.button.click master @s ~ ~ ~ 1.0 1.0

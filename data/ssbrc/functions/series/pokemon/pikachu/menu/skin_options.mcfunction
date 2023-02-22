@@ -5,3 +5,5 @@ tellraw @s[advancements={ssbrc:series/pokemon/pikachu/skins/gold=true}] [{"text"
 tellraw @s[advancements={ssbrc:series/pokemon/pikachu/shiny=true}] [{"text":"[ ","color":"dark_green"},{"text":"Shiny","color":"gold","clickEvent":{"action":"run_command","value":"/trigger menu set 1206"}},{"text":" ]","color":"dark_green"}]
 
 tellraw @s [{"text":"==========","bold":true,"color":"yellow"}]
+
+playsound minecraft:ui.button.click master @s ~ ~ ~ 1.0 1.0

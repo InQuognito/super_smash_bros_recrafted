@@ -5,3 +5,5 @@ tellraw @s[advancements={ssbrc:series/metal_gear_solid/snake/skins/gold=true}] [
 tellraw @s[advancements={ssbrc:series/metal_gear_solid/snake/skins/iroquois_pliskin=true}] [{"text":"[ ","color":"dark_green"},{"text":"Iroquois Pliskin","color":"dark_green","clickEvent":{"action":"run_command","value":"/trigger menu set 1526"}},{"text":" ]","color":"dark_green"}]
 
 tellraw @s [{"text":"==========","bold":true,"color":"yellow"}]
+
+playsound minecraft:ui.button.click master @s ~ ~ ~ 1.0 1.0

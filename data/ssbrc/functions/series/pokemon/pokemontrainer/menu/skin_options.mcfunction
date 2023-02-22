@@ -7,3 +7,5 @@ tellraw @s[advancements={ssbrc:series/pokemon/pokemontrainer/skins/dawn=true}] [
 tellraw @s[advancements={ssbrc:series/pokemon/pokemontrainer/skins/victor=true}] [{"text":"[ ","color":"dark_green"},{"text":"Victor","color":"dark_blue","clickEvent":{"action":"run_command","value":"/trigger menu set 1268"}},{"text":" ]","color":"dark_green"}]
 
 tellraw @s [{"text":"==========","bold":true,"color":"yellow"}]
+
+playsound minecraft:ui.button.click master @s ~ ~ ~ 1.0 1.0

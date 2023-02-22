@@ -5,3 +5,5 @@ tellraw @s[advancements={ssbrc:series/pokemon/greninja/skins/gold=true}] [{"text
 tellraw @s[advancements={ssbrc:series/pokemon/greninja/shiny=true}] [{"text":"[ ","color":"dark_green"},{"text":"Shiny","color":"black","clickEvent":{"action":"run_command","value":"/trigger menu set 426"}},{"text":" ]","color":"dark_green"}]
 
 tellraw @s [{"text":"==========","bold":true,"color":"yellow"}]
+
+playsound minecraft:ui.button.click master @s ~ ~ ~ 1.0 1.0

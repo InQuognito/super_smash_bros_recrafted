@@ -7,3 +7,5 @@ tellraw @s[advancements={ssbrc:series/the_legend_of_zelda/link/skins/goron_tunic
 tellraw @s[advancements={ssbrc:series/the_legend_of_zelda/link/skins/zora_tunic=true}] [{"text":"[ ","color":"dark_green"},{"text":"Zora Tunic","color":"blue","clickEvent":{"action":"run_command","value":"/trigger menu set 728"}},{"text":" ]","color":"dark_green"}]
 
 tellraw @s [{"text":"==========","bold":true,"color":"yellow"}]
+
+playsound minecraft:ui.button.click master @s ~ ~ ~ 1.0 1.0
