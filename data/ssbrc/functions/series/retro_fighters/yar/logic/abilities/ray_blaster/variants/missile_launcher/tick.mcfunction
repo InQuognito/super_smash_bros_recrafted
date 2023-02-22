@@ -1,5 +1,5 @@
-particle minecraft:small_flame ^ ^ ^0.25 0.025 0.025 0.025 0.0 5 normal @a
-particle minecraft:smoke ^ ^ ^0.3 0.0 0.0 0.0 0.0 1 normal @a
+particle minecraft:small_flame ^ ^ ^-0.25 0.025 0.025 0.025 0.0 5 normal @a
+particle minecraft:smoke ^ ^ ^-0.3 0.0 0.0 0.0 0.0 1 normal @a
 
 execute at @s run teleport @s[scores={temp=0..}] ^ ^ ^0.50
 execute at @s run teleport @s[scores={temp=5..}] ^ ^ ^0.05
