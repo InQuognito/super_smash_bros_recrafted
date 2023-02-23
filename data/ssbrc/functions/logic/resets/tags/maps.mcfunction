@@ -9,8 +9,8 @@ tag @s remove finalDestination
 tag @s remove flatZone
 tag @s remove frozenHijinx
 
-tag @s add followCannonPath
-tag @s add inCannon
+tag @s remove followCannonPath
+tag @s remove inCannon
 
 tag @s remove gardenOfHope
 tag @s remove greatBay
