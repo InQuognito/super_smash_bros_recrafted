@@ -3,8 +3,8 @@ summon minecraft:bee ^ ^ ^1 {Tags:["drone","modifyEntity"],Passengers:[{id:"mine
 scoreboard players operation @e[tag=modifyEntity,limit=1] id = @s id
 data modify entity @e[tag=modifyEntity,limit=1] Rotation[0] set from entity @s Rotation[0]
 
-execute store result entity @s Attributes[{Name:"minecraft:generic.max_health"}].Base double 1.0 run scoreboard players get yar.droneHealth vars
-execute store result entity @s Health float 1.0 run scoreboard players get @s yar.droneHealth
+execute store result entity @e[tag=modifyEntity,limit=1] Attributes[{Name:"minecraft:generic.max_health"}].Base double 1.0 run scoreboard players get yar.droneHealth vars
+execute store result entity @e[tag=modifyEntity,limit=1] Health float 1.0 run scoreboard players get @s yar.droneHealth
 
 scoreboard players set @e[tag=modifyEntity,limit=1] charge.1 40
 scoreboard players set @e[tag=modifyEntity,limit=1] cooldown.1 0
