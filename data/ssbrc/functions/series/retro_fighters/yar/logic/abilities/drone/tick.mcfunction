@@ -15,4 +15,6 @@ execute if entity @s[tag=recall] at @s positioned ~-0.5 ~-0.5 ~-0.5 as @e[predic
 
 effect give @e[tag=!self,predicate=ssbrc:flag/targets,predicate=!ssbrc:characters/effects/has/glowing,distance=..10] minecraft:glowing 1 255 true
 
+execute store result score @s yar.droneHealth run data get entity @s Health 1.0
+
 tag @s remove self
