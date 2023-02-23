@@ -1,7 +1,7 @@
 summon minecraft:marker -221.5 0.0 598.5 {Tags:["centerPoint"]}
 
 summon minecraft:marker -207.5 14.0 576.5 {Tags:["spawnpoint"]}
-summon minecraft:marker -190.5 12.0 599.5 {Tags:["spawnpoint"]}
+summon minecraft:marker -186.5 12.0 599.5 {Tags:["spawnpoint"]}
 summon minecraft:marker -220.5 4.0 639.5 {Tags:["spawnpoint"]}
 summon minecraft:marker -232.5 14.0 576.5 {Tags:["spawnpoint"]}
 summon minecraft:marker -230.5 4.0 591.5 {Tags:["spawnpoint"]}
