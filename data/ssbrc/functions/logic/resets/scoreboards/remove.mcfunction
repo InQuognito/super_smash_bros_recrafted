@@ -122,6 +122,7 @@ scoreboard objectives remove towerOfFateBarrier
 scoreboard objectives remove useAbility
 scoreboard objectives remove useItem
 scoreboard objectives remove vars
+scoreboard objectives remove yar.droneHealth
 
 # Bonuses
 scoreboard objectives remove 765o

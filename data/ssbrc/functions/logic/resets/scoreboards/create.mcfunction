@@ -122,6 +122,7 @@ scoreboard objectives add towerOfFateBarrier dummy
 scoreboard objectives add useAbility minecraft.used:minecraft.carrot_on_a_stick
 scoreboard objectives add useItem minecraft.used:minecraft.warped_fungus_on_a_stick
 scoreboard objectives add vars dummy
+scoreboard objectives add yar.droneHealth dummy
 
 # Bonuses
 scoreboard objectives add 765o dummy
