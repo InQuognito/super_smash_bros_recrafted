@@ -1,4 +1,4 @@
-execute positioned 0.0 0.0 0.0 run summon minecraft:marker ^ ^ ^2 {Tags:["direction"]}
+execute positioned 0.0 0.0 0.0 run summon minecraft:marker ^ ^ ^1.5 {Tags:["direction"]}
 
 summon minecraft:arrow ^ ^ ^1 {damage:0.6,Tags:["waterGun","modifyEntity"]}
 
