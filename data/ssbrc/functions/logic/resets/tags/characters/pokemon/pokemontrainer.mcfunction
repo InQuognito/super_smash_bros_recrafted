@@ -8,4 +8,3 @@ tag @s remove armorBreak
 
 function ssbrc:series/pokemon/pokemontrainer/logic/charizard/flare_blitz/damage/reset
 function ssbrc:series/pokemon/pokemontrainer/logic/ivysaur/leech_seed/reset
-function ssbrc:series/pokemon/pokemontrainer/logic/squirtle/surf/damage/reset
