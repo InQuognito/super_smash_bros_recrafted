@@ -17,6 +17,6 @@ title @s[tag=ivysaur,nbt=!{SelectedItem:{tag:{leechSeed:1}}}] actionbar ""
 title @s[tag=ivysaur,nbt={SelectedItem:{tag:{leechSeed:1}}}] actionbar {"score":{"name":"@s","objective":"charge.1"},"color":"red"}
 
 # Water Gun
-execute if score @s[tag=squirtle] charge.1 matches 1.. at @s anchored eyes run function ssbrc:series/pokemon/pokemontrainer/logic/squirtle/water_gun/charge
+execute if score @s[tag=squirtle] charge.1 matches 1.. at @s anchored eyes positioned ^ ^ ^ run function ssbrc:series/pokemon/pokemontrainer/logic/squirtle/water_gun/charge
 
 tag @s remove self
