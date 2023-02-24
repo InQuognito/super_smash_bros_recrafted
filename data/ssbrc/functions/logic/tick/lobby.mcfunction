@@ -1,5 +1,5 @@
 # Teleport - Character Select
-execute if entity @s[x=-530.0,y=5.0,z=61.0,dy=1] unless score $gameStage temp matches 2.. unless score #players.playing temp matches 8.. run function ssbrc:logic/pre_game/character_select/goto
+execute if entity @s[x=-530.0,y=5.0,z=61.0,dy=1] unless score gameStage temp matches 2.. unless score players.playing temp matches 8.. run function ssbrc:logic/pre_game/character_select/goto
 
 # Leave Game
 execute if entity @s[x=135.0,y=4.0,z=144.0,dx=5,dy=4,dz=4] run function ssbrc:logic/pre_game/leave

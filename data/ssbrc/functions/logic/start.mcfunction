@@ -56,5 +56,5 @@ execute if score $gameMode options matches 2 store result bossbar minecraft:time
 execute if score $gameMode options matches 1 run scoreboard players operation $speedDemon temp = $totalStocks temp
 execute if score $gameMode options matches 1 run scoreboard players operation $speedDemon temp *= 8 integers
 
-scoreboard players set $gameStage temp 4
-scoreboard players reset $countdown timer
+scoreboard players set gameStage temp 4
+scoreboard players reset countdown timer

@@ -54,8 +54,8 @@ execute as @e[tag=voteCounter.update,sort=random,limit=1] run function ssbrc:log
 
 execute store result score $playersAlive temp if entity @a[predicate=ssbrc:ingame,team=!spectator]
 
-scoreboard players set $gameStage temp 2
-scoreboard players set $countdown timer 30
+scoreboard players set gameStage temp 2
+scoreboard players set countdown timer 30
 
 setblock -481 4 55 minecraft:oak_sign{Text1:'[{"text":"Status: ","color":"gold"},{"text":"Stage Select","color":"yellow"}]'} destroy
 data modify entity @e[tag=lobby.status,limit=1] CustomName set from block -481 4 55 Text1
