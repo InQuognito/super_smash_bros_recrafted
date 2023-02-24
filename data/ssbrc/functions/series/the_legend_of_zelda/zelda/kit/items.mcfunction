@@ -1,3 +1,6 @@
+scoreboard players reset @s flag.damageTaken
+scoreboard players reset @s charge.3
+
 clear @s #ssbrc:equipment
 
 function ssbrc:series/the_legend_of_zelda/zelda/kit/items/weapon

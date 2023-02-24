@@ -4,4 +4,4 @@ playsound minecraft:block.glass.break player @a
 
 clear @s minecraft:iron_sword{glass:1}
 
-say shatter
+scoreboard players reset @s charge.3
