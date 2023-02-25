@@ -1,5 +1,7 @@
 scoreboard players add @e[tag=voteCounter,tag=random] mapVote 1
 
+execute unless entity @s[tag=random] run tellraw @a[tag=room.mapVoting] [{"selector":"@s","bold":false},{"text":" has voted for a random map! Votes: ","color":"gold"},{"score":{"name":"@e[tag=voteCounter,tag=random,limit=1]","objective":"mapVote"},"bold":false,"color":"yellow"}]
+
 function ssbrc:logic/pre_game/map_voting/update_counters/remove_vote
 tag @s add random
 
