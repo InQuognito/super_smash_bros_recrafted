@@ -57,6 +57,16 @@
 				"predicate": {
 					"nbt": "{Tags:[\"wobbuffet\"]}"
 				}
+			},
+			{
+				"condition": "minecraft:inverted",
+				"term": {
+					"condition": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"nbt": "{Tags:[\"quicksand\"]}"
+					}
+				}
 			}
 		]
 	}

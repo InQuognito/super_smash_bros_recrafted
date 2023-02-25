@@ -7,5 +7,15 @@
 				"name": "ssbrc:characters/mario/super_jump"
 			}
 		]
+	},
+	{
+		"condition": "minecraft:inverted",
+		"term": {
+			"condition": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
+				"nbt": "{Tags:[\"quicksand\"]}"
+			}
+		}
 	}
 ]
