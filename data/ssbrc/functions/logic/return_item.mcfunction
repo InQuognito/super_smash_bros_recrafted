@@ -1,4 +1,4 @@
-execute if entity @s[tag=snake,tag=!reloading] run function ssbrc:series/metal_gear_solid/snake/logic/manual_reload
+execute if entity @s[tag=snake,scores={dropItem=1..},tag=!reloading] run function ssbrc:series/metal_gear_solid/snake/logic/manual_reload
 
 execute if score @s dropItem matches 1.. run data modify entity @e[type=minecraft:item,sort=nearest,limit=1] Owner set from entity @e[type=minecraft:item,sort=nearest,limit=1] Thrower
 execute if score @s dropItem matches 1.. run data modify entity @e[type=minecraft:item,sort=nearest,limit=1] PickupDelay set value 0
