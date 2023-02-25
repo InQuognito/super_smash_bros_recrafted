@@ -1,4 +1,4 @@
-execute positioned 0.0 0.0 0.0 run function ssbrc:series/the_legend_of_zelda/zelda/logic/abilities/bow/set_velocity
+execute positioned 0.0 0.0 0.0 run function ssbrc:series/fire_emblem/byleth/logic/golden_deer/brave_bow/set_velocity
 
 execute unless score @s charge.output matches 19.. run summon minecraft:spectral_arrow ^ ^ ^1 {damage:1.0,Tags:["braveBow","modifyEntity"]}
 execute if score @s charge.output matches 19.. run summon minecraft:spectral_arrow ^ ^-0.3 ^1 {damage:1.0,Tags:["braveBow","modifyEntity"]}
@@ -13,4 +13,4 @@ kill @e[tag=direction,limit=1]
 
 loot replace entity @s weapon.mainhand loot ssbrc:characters/fire_emblem/byleth/golden_deer/brave_bow/idle
 
-attribute @s minecraft:generic.movement_speed modifier remove 19192183-0000-0000-0001-000001000000
+function ssbrc:series/fire_emblem/byleth/logic/golden_deer/brave_bow/reset

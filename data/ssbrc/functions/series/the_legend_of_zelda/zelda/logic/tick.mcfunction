@@ -30,6 +30,8 @@ execute if entity @s[tag=activeFuse] run function ssbrc:series/the_legend_of_zel
 # Bow
 execute if entity @s[scores={charge.output=1..},nbt={SelectedItem:{tag:{bow:1}}}] run function ssbrc:series/the_legend_of_zelda/zelda/logic/abilities/bow/charge
 
+execute if entity @s[nbt=!{SelectedItem:{tag:{bow:1}}},nbt={Inventory:[{tag:{bow:1,pulling:1}}]}] run function ssbrc:series/the_legend_of_zelda/zelda/logic/abilities/bow/reset
+
 # Passive Items
 effect clear @s[tag=!specialBond,nbt={Inventory:[{tag:{goronLocket:1}}]}] minecraft:wither
 

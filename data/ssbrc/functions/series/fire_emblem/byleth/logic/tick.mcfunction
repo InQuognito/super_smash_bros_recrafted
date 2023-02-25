@@ -27,6 +27,9 @@ execute if entity @s[tag=spinning] at @s run function ssbrc:series/fire_emblem/b
 execute if entity @s[tag=goldenDeer,scores={charge.output=1..},nbt={SelectedItem:{tag:{braveBow:1}}}] run function ssbrc:series/fire_emblem/byleth/logic/golden_deer/brave_bow/charge
 execute if entity @s[tag=goldenDeer,scores={charge.output=1..},nbt={SelectedItem:{tag:{failnaught:1}}}] run function ssbrc:series/fire_emblem/byleth/logic/golden_deer/failnaught/charge
 
+execute if entity @s[tag=goldenDeer,nbt=!{SelectedItem:{tag:{braveBow:1}}},nbt={Inventory:[{tag:{braveBow:1,pulling:1}}]}] run function ssbrc:series/fire_emblem/byleth/logic/golden_deer/brave_bow/reset
+execute if entity @s[tag=goldenDeer,nbt=!{SelectedItem:{tag:{failnaught:1}}},nbt={Inventory:[{tag:{failnaught:1,pulling:1}}]}] run function ssbrc:series/fire_emblem/byleth/logic/golden_deer/failnaught/reset
+
 # Passive Abilities
 scoreboard players operation #percentage temp = @s health
 scoreboard players operation #percentage temp *= 100 integers

@@ -11,4 +11,4 @@ loot replace entity @s[nbt={SelectedItem:{tag:{default:1}}}] weapon.mainhand loo
 loot replace entity @s[nbt={SelectedItem:{tag:{fire:1}}}] weapon.mainhand loot ssbrc:characters/the_legend_of_zelda/zelda/dungeon_items/bow/fire/idle
 loot replace entity @s[nbt={SelectedItem:{tag:{poison:1}}}] weapon.mainhand loot ssbrc:characters/the_legend_of_zelda/zelda/dungeon_items/bow/poison/idle
 
-attribute @s minecraft:generic.movement_speed modifier remove 19192183-0000-0000-0001-000001000000
+function ssbrc:series/the_legend_of_zelda/zelda/logic/abilities/bow/reset

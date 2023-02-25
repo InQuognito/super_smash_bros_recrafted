@@ -40,4 +40,4 @@ execute if entity @s[nbt={Inventory:[{tag:{alucardShield:1},Slot:81b}]}] store r
 execute if entity @s[nbt={Inventory:[{tag:{alucardShield:1},Slot:82b}]}] store result score @s durability run data get entity @s Inventory[{Slot:82b}].tag.Damage
 execute if entity @s[nbt={Inventory:[{tag:{alucardShield:1},Slot:83b}]}] store result score @s durability run data get entity @s Inventory[{Slot:83b}].tag.Damage
 
-execute if entity @s[nbt={Inventory:[{tag:{alucardShield:1},Slot:-106b}]}] store result score @s durability run data get entity @s[nbt={Inventory:[{tag:{alucardShield:1},Slot:-106b}]}] Inventory[{Slot:-106b}].tag.Damage
+execute if entity @s[nbt={Inventory:[{tag:{alucardShield:1},Slot:-106b}]}] store result score @s durability run data get entity @s Inventory[{Slot:-106b}].tag.Damage
