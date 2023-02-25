@@ -1,6 +1,4 @@
-execute if score $gameMode options matches 2 unless score $timeLimit options matches 480 run tellraw @a [{"text":"Time Limit","color":"yellow"},{"text":" set to "},{"text":"8 Minutes","color":"blue"}]
-execute if score $gameMode options matches 2 if score $timeLimit options matches 480 run tellraw @s [{"text":"Time Limit","color":"yellow"},{"text":" is already set to this!","color":"red"}]
-execute unless score $gameMode options matches 2 run tellraw @s [{"text":"Time Battle","color":"yellow"},{"text":" is not enabled!","color":"red"}]
+tellraw @a[tag=room.characterSelect] [{"text":"Time Limit","color":"yellow"},{"text":" set to "},{"text":"8 Minutes","color":"blue"}]
 
 scoreboard players set $timeLimit options 480
 

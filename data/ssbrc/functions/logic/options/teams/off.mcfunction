@@ -1,4 +1,4 @@
-execute unless score $teams options matches 0 run tellraw @a [{"text":"Teams: ","color":"yellow"},{"text":"OFF","color":"blue"}]
+execute unless score $teams options matches 0 run tellraw @a[tag=room.characterSelect] [{"text":"Teams: ","color":"yellow"},{"text":"OFF","color":"blue"}]
 execute if score $teams options matches 0 run tellraw @s [{"text":"Teams","color":"yellow"},{"text":" are already set to this!","color":"red"}]
 
 scoreboard players set $teams options 0
