@@ -6,6 +6,8 @@ scoreboard players set selectorRange vars 20
 scoreboard players set #frostbiteTimer vars 100
 
 # Fighters
+scoreboard players set #bowser.maxFireBreath vars 100
+
 scoreboard players set #cloud.maxLimit vars 70
 
 scoreboard players set #darksamus.chargeBeamThreshold vars 100
