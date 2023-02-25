@@ -30,7 +30,5 @@ execute if score @s[nbt={SelectedItem:{tag:{options:1}}}] options matches 15 run
 execute if score @s[nbt={SelectedItem:{tag:{options:1}}}] options matches 16 run function ssbrc:logic/options/music/loop
 execute if score @s[nbt={SelectedItem:{tag:{options:1}}}] options matches 17 run function ssbrc:logic/options/music/shuffle
 
-execute if score @s[nbt=!{SelectedItem:{tag:{options:1}}}] options matches 1.. run tellraw @s {"text":"You are not the lobby host!","color":"red"}
-
 scoreboard players reset @s options
 scoreboard players enable @s options
