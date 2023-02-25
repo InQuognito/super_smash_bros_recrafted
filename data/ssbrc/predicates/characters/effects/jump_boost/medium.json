@@ -26,17 +26,17 @@
 						"condition": "minecraft:entity_properties",
 						"entity": "this",
 						"predicate": {
-							"nbt": "{Tags:[\"quicksand\"]}"
-						}
-					},
-					{
-						"condition": "minecraft:entity_properties",
-						"entity": "this",
-						"predicate": {
 							"nbt": "{Tags:[\"angelFeather\"]}"
 						}
 					}
 				]
+			}
+		},
+		{
+			"condition": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
+				"nbt": "{Tags:[\"quicksand\"]}"
 			}
 		}
 	]
