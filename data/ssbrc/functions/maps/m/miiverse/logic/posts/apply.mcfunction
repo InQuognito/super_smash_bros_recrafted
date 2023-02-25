@@ -1,5 +1,3 @@
-tag @r[predicate=ssbrc:ingame] add notPosted
-
 execute if entity @p[tag=notPosted,tag=alteredbeast] run function ssbrc:maps/m/miiverse/logic/posts/posts/alteredbeast
 execute if entity @p[tag=notPosted,tag=alucard] run function ssbrc:maps/m/miiverse/logic/posts/posts/alucard
 execute if entity @p[tag=notPosted,tag=bowser] run function ssbrc:maps/m/miiverse/logic/posts/posts/bowser
