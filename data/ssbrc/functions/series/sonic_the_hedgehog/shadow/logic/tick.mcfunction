@@ -18,7 +18,7 @@ scoreboard players remove @a[scores={shadow.chaosControl=1..}] shadow.chaosContr
 execute as @a[scores={shadow.chaosControl=..0}] run function ssbrc:series/sonic_the_hedgehog/shadow/logic/chaos_control/off
 
 # Chaos Blast
-execute if entity @s[scores={charge.2=1..}] at @s run function ssbrc:series/sonic_the_hedgehog/shadow/logic/chaos_blast/charge
+execute if entity @s[scores={charge.2=1..}] at @s positioned ~ ~0.75 ~ run function ssbrc:series/sonic_the_hedgehog/shadow/logic/chaos_blast/charge
 execute if entity @s[scores={charge.2=70}] at @s run function ssbrc:series/sonic_the_hedgehog/shadow/logic/chaos_blast/unleash
 scoreboard players reset @s[scores={charge.2=101..}] charge.2
 
