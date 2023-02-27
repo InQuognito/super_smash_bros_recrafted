@@ -254,7 +254,7 @@ scoreboard objectives add stats.bonus.aerialist dummy
 scoreboard objectives add stats.bonus.armistice dummy
 scoreboard objectives add stats.bonus.bankShot dummy
 scoreboard objectives add stats.bonus.bully dummy
-scoreboard objectives add stats.bonus.cementShoes dummy
+#scoreboard objectives add stats.bonus.cementShoes dummy
 scoreboard objectives add stats.bonus.coward dummy
 scoreboard objectives add stats.bonus.crushingWeight dummy
 scoreboard objectives add stats.bonus.einstein dummy

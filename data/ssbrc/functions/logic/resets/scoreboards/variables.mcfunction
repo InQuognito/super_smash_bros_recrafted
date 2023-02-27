@@ -129,14 +129,14 @@ scoreboard players operation value.KO vars /= 5 integers
 scoreboard players operation value.victory vars = value.participation vars
 scoreboard players operation value.victory vars *= 3 integers
 
-scoreboard players operation value.achievement.common vars = value.victory vars
-scoreboard players operation value.achievement.common vars *= 2 integers
+#scoreboard players operation value.achievement.common vars = value.victory vars
+#scoreboard players operation value.achievement.common vars *= 2 integers
 
-scoreboard players operation value.achievement.uncommon vars = value.achievement.common vars
-scoreboard players operation value.achievement.uncommon vars *= 2 integers
+#scoreboard players operation value.achievement.uncommon vars = value.achievement.common vars
+#scoreboard players operation value.achievement.uncommon vars *= 2 integers
 
-scoreboard players operation value.achievement.rare vars = value.achievement.uncommon vars
-scoreboard players operation value.achievement.rare vars *= 2 integers
+#scoreboard players operation value.achievement.rare vars = value.achievement.uncommon vars
+#scoreboard players operation value.achievement.rare vars *= 2 integers
 
 # Bonus Currency Values
 scoreboard players set value.bonus.765o vars 1600
@@ -145,31 +145,29 @@ scoreboard players operation value.bonus.8PlayerMatch vars = value.participation
 scoreboard players operation value.bonus.8PlayerMatch vars *= 2 integers
 
 scoreboard players operation value.bonus.acrobat vars = value.participation vars
-scoreboard players operation value.bonus.acrobat vars *= 2 integers
 
 scoreboard players operation value.bonus.aerialist vars = value.participation vars
-scoreboard players operation value.bonus.aerialist vars *= 1 integers
 
 scoreboard players operation value.bonus.armistice vars = value.participation vars
-scoreboard players operation value.bonus.armistice vars *= 1 integers
+scoreboard players operation value.bonus.armistice vars *= 3 integers
 
 scoreboard players operation value.bonus.bankShot vars = value.KO vars
-scoreboard players operation value.bonus.bankShot vars *= 1 integers
+scoreboard players operation value.bonus.bankShot vars *= 3 integers
 
-scoreboard players set value.bonus.bully vars -100
+scoreboard players set value.bonus.bully vars -200
 
-scoreboard players operation value.bonus.cementShoes vars = value.participation vars
-scoreboard players operation value.bonus.cementShoes vars *= 2 integers
+#scoreboard players operation value.bonus.cementShoes vars = value.participation vars
+#scoreboard players operation value.bonus.cementShoes vars *= 2 integers
 
-scoreboard players set value.bonus.coward vars -25
+scoreboard players set value.bonus.coward vars -20
 
-scoreboard players set value.bonus.einstein vars -25
+scoreboard players set value.bonus.einstein vars -20
 
 scoreboard players operation value.bonus.firstStrike vars = value.KO vars
-scoreboard players operation value.bonus.firstStrike vars /= 2 integers
+scoreboard players operation value.bonus.firstStrike vars *= 1 integers
 
-scoreboard players operation value.bonus.fullPower vars = value.victory vars
-scoreboard players operation value.bonus.fullPower vars *= 2 integers
+scoreboard players operation value.bonus.fullPower vars = value.participation vars
+scoreboard players operation value.bonus.fullPower vars *= 1 integers
 
 scoreboard players operation value.bonus.goodFriend vars = value.participation vars
 scoreboard players operation value.bonus.goodFriend vars *= 2 integers
@@ -178,13 +176,13 @@ scoreboard players operation value.bonus.heartgold vars = value.participation va
 scoreboard players operation value.bonus.heartgold vars *= 1 integers
 
 scoreboard players operation value.bonus.heavyDamage vars = value.participation vars
-scoreboard players operation value.bonus.heavyDamage vars *= 1 integers
+scoreboard players operation value.bonus.heavyDamage vars *= 2 integers
 
 scoreboard players operation value.bonus.ionZoneProtection vars = value.participation vars
-scoreboard players operation value.bonus.ionZoneProtection vars *= 1 integers
+scoreboard players operation value.bonus.ionZoneProtection vars *= 2 integers
 
-scoreboard players operation value.bonus.lastSecond vars = value.KO vars
-scoreboard players operation value.bonus.lastSecond vars *= 2 integers
+scoreboard players operation value.bonus.lastSecond vars = value.participation vars
+scoreboard players operation value.bonus.lastSecond vars *= 1 integers
 
 scoreboard players set value.bonus.luckyNumberSeven vars 77
 
@@ -195,26 +193,26 @@ scoreboard players operation value.bonus.noJohns vars = value.victory vars
 scoreboard players operation value.bonus.noJohns vars *= 1 integers
 
 scoreboard players operation value.bonus.NPCKO vars = value.KO vars
-scoreboard players operation value.bonus.NPCKO vars /= 3 integers
+scoreboard players operation value.bonus.NPCKO vars /= 2 integers
 
 scoreboard players operation value.bonus.onARoll vars = value.participation vars
 scoreboard players operation value.bonus.onARoll vars *= 1 integers
 
 scoreboard players operation value.bonus.rapidKill vars = value.KO vars
-scoreboard players operation value.bonus.rapidKill vars *= 1 integers
+scoreboard players operation value.bonus.rapidKill vars *= 2 integers
 
 scoreboard players operation value.bonus.revenge vars = value.KO vars
-scoreboard players operation value.bonus.revenge vars *= 1 integers
+scoreboard players operation value.bonus.revenge vars *= 2 integers
 
-scoreboard players set value.bonus.selfDestruct vars -25
+scoreboard players set value.bonus.selfDestruct vars -20
 
 scoreboard players operation value.bonus.shieldBreaker vars = value.KO vars
 scoreboard players operation value.bonus.shieldBreaker vars /= 2 integers
 
-scoreboard players set value.bonus.shinyEncounter vars 2048
+scoreboard players set value.bonus.shinyEncounter vars 1024
 
 scoreboard players operation value.bonus.sniper vars = value.KO vars
-scoreboard players operation value.bonus.sniper vars *= 1 integers
+scoreboard players operation value.bonus.sniper vars *= 2 integers
 
 scoreboard players operation value.bonus.speedDemon vars = value.victory vars
 scoreboard players operation value.bonus.speedDemon vars *= 1 integers
@@ -243,7 +241,7 @@ scoreboard players operation value.bonus.WACCoordinator vars *= 1 integers
 scoreboard players set value.bonus.yearLongBattle vars 365
 
 # Prices
-scoreboard players set #price.skin.common vars 750
+scoreboard players set #price.skin.common vars 500
 
 scoreboard players operation #price.skin.uncommon vars = value.skin.common vars
 scoreboard players operation #price.skin.uncommon vars *= 2 integers

@@ -241,7 +241,7 @@ execute unless score @s stats.bonus.aerialist matches -2147483648..2147483647 ru
 execute unless score @s stats.bonus.armistice matches -2147483648..2147483647 run scoreboard players set @s stats.bonus.armistice 0
 execute unless score @s stats.bonus.bankShot matches -2147483648..2147483647 run scoreboard players set @s stats.bonus.bankShot 0
 execute unless score @s stats.bonus.bully matches -2147483648..2147483647 run scoreboard players set @s stats.bonus.bully 0
-execute unless score @s stats.bonus.cementShoes matches -2147483648..2147483647 run scoreboard players set @s stats.bonus.cementShoes 0
+#execute unless score @s stats.bonus.cementShoes matches -2147483648..2147483647 run scoreboard players set @s stats.bonus.cementShoes 0
 execute unless score @s stats.bonus.coward matches -2147483648..2147483647 run scoreboard players set @s stats.bonus.coward 0
 execute unless score @s stats.bonus.crushingWeight matches -2147483648..2147483647 run scoreboard players set @s stats.bonus.crushingWeight 0
 execute unless score @s stats.bonus.einstein matches -2147483648..2147483647 run scoreboard players set @s stats.bonus.einstein 0

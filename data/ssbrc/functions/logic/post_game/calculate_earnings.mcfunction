@@ -34,10 +34,10 @@ scoreboard players operation value armistice *= value.bonus.armistice vars
 execute if score @s armistice matches 1.. run data modify storage ssbrc:bonuses value append value '[{"text":"Armistice","bold":true,"color":"gold"},{"text":" - ","bold":false,"color":"white"},{"score":{"name":"value","objective":"armistice"},"bold":false,"color":"yellow"},{"text":"₡","bold":false,"color":"yellow"}]}}]'
 scoreboard players operation @s stats.credits.temp += value armistice
 
-scoreboard players operation value cementShoes = @s cementShoes
-scoreboard players operation value cementShoes *= value.bonus.cementShoes vars
-execute if score @s cementShoes matches 1.. run data modify storage ssbrc:bonuses value append value '[{"text":"Cement Shoes","bold":true,"color":"gold"},{"text":" - ","bold":false,"color":"white"},{"score":{"name":"value","objective":"cementShoes"},"bold":false,"color":"yellow"},{"text":"₡","bold":false,"color":"yellow"}]}}]'
-scoreboard players operation @s stats.credits.temp += value cementShoes
+#scoreboard players operation value cementShoes = @s cementShoes
+#scoreboard players operation value cementShoes *= value.bonus.cementShoes vars
+#execute if score @s cementShoes matches 1.. run data modify storage ssbrc:bonuses value append value '[{"text":"Cement Shoes","bold":true,"color":"gold"},{"text":" - ","bold":false,"color":"white"},{"score":{"name":"value","objective":"cementShoes"},"bold":false,"color":"yellow"},{"text":"₡","bold":false,"color":"yellow"}]}}]'
+#scoreboard players operation @s stats.credits.temp += value cementShoes
 
 scoreboard players operation value firstStrike = @s firstStrike
 scoreboard players operation value firstStrike *= value.bonus.firstStrike vars
