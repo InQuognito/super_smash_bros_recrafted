@@ -10,7 +10,7 @@ execute as @e[tag=paydayProjectile] at @s if score @s id = @p[tag=self] id run f
 tag @s remove self
 
 # Payday
-#execute as @e[type=minecraft:armor_stand,tag=payday.display] at @s run function ssbrc:series/pokemon/teamrocket/logic/meowth/payday/kill_item
+execute as @e[type=minecraft:armor_stand,tag=payday.display] at @s unless block ~ ~-0.1 ~ #ssbrc:passthrough run kill @s
 
 # Destiny Bond
 execute at @s[scores={duration.3=40..}] run particle minecraft:dust 0.0 0.0 0.0 0.5 ~ ~0.75 ~ 0.5 1.0 0.5 0.0 5 normal @a
