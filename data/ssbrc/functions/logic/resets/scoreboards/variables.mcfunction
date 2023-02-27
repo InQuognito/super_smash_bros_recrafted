@@ -11,6 +11,7 @@ scoreboard players set #bowser.maxFireBreath vars 100
 scoreboard players set #cloud.maxLimit vars 70
 
 scoreboard players set #darksamus.chargeBeamThreshold vars 100
+scoreboard players set #darksamus.phazonOverloadRange vars 5
 
 scoreboard players set #fox.fireFoxThreshold vars 30
 

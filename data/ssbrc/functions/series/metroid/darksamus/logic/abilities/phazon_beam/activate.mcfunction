@@ -2,14 +2,12 @@ scoreboard players operation $darksamus.chargeBeamPercent temp = @s charge.outpu
 scoreboard players operation $darksamus.chargeBeamPercent temp *= 100 integers
 scoreboard players operation $darksamus.chargeBeamPercent temp /= #darksamus.chargeBeamThreshold vars
 
-execute if score $darksamus.chargeBeamPercent temp matches ..20 if score @s duration.1 matches 0 positioned 0.0 0.0 0.0 run summon minecraft:marker ^ ^ ^1.0 {Tags:["direction"]}
-execute if score $darksamus.chargeBeamPercent temp matches 21..40 if score @s duration.1 matches 0 positioned 0.0 0.0 0.0 run summon minecraft:marker ^ ^ ^1.25 {Tags:["direction"]}
-execute if score $darksamus.chargeBeamPercent temp matches 41..60 if score @s duration.1 matches 0 positioned 0.0 0.0 0.0 run summon minecraft:marker ^ ^ ^1.5 {Tags:["direction"]}
-execute if score $darksamus.chargeBeamPercent temp matches 61..80 if score @s duration.1 matches 0 positioned 0.0 0.0 0.0 run summon minecraft:marker ^ ^ ^1.75 {Tags:["direction"]}
-execute if score $darksamus.chargeBeamPercent temp matches 81..99 if score @s duration.1 matches 0 positioned 0.0 0.0 0.0 run summon minecraft:marker ^ ^ ^2.0 {Tags:["direction"]}
-execute if score $darksamus.chargeBeamPercent temp matches 100.. if score @s duration.1 matches 0 positioned 0.0 0.0 0.0 run summon minecraft:marker ^ ^ ^2.25 {Tags:["direction"]}
-
-execute if score @s duration.1 matches 1.. positioned 0.0 0.0 0.0 run summon minecraft:marker ^ ^ ^1.25 {Tags:["direction"]}
+execute if score $darksamus.chargeBeamPercent temp matches ..20 positioned 0.0 0.0 0.0 run summon minecraft:marker ^ ^ ^1.25 {Tags:["direction"]}
+execute if score $darksamus.chargeBeamPercent temp matches 21..40 positioned 0.0 0.0 0.0 run summon minecraft:marker ^ ^ ^1.5 {Tags:["direction"]}
+execute if score $darksamus.chargeBeamPercent temp matches 41..60 positioned 0.0 0.0 0.0 run summon minecraft:marker ^ ^ ^1.75 {Tags:["direction"]}
+execute if score $darksamus.chargeBeamPercent temp matches 61..80 positioned 0.0 0.0 0.0 run summon minecraft:marker ^ ^ ^2.0 {Tags:["direction"]}
+execute if score $darksamus.chargeBeamPercent temp matches 81..99 positioned 0.0 0.0 0.0 run summon minecraft:marker ^ ^ ^2.25 {Tags:["direction"]}
+execute if score $darksamus.chargeBeamPercent temp matches 100.. positioned 0.0 0.0 0.0 run summon minecraft:marker ^ ^ ^2.5 {Tags:["direction"]}
 
 execute if score $darksamus.chargeBeamPercent temp matches ..20 run summon minecraft:arrow ^ ^ ^1 {damage:2.0,Tags:["darksamus.phazonBeam","effect.poison","modifyEntity"],NoGravity:1b}
 execute if score $darksamus.chargeBeamPercent temp matches 21..40 run summon minecraft:arrow ^ ^ ^1 {damage:3.0,Tags:["darksamus.phazonBeam","effect.poison","modifyEntity"],NoGravity:1b}
@@ -31,6 +29,5 @@ function ssbrc:logic/resets/charge
 
 item modify entity @s weapon.mainhand ssbrc:characters/darksamus/phazon_beam
 
-execute if score @s duration.1 matches 0 run scoreboard players set @s cooldown.1 20
-execute if score @s duration.1 matches 1.. run function ssbrc:series/metroid/darksamus/logic/abilities/phazon_beam/overload
+scoreboard players set @s cooldown.1 15
 execute if score @s shadow.chaosControl matches 1.. run function ssbrc:logic/characters/cooldown_modifiers/chaos_control/1
