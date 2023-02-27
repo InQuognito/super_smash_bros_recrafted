@@ -1,1 +1,1 @@
-kill @a[predicate=ssbrc:flag/player,predicate=ssbrc:below_y/0]
+kill @e[predicate=ssbrc:killbox_vulnerable,predicate=ssbrc:below_y/0]

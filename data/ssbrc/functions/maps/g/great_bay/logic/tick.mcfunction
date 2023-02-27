@@ -1,1 +1,1 @@
-kill @a[predicate=ssbrc:flag/player,predicate=ssbrc:stage/great_bay]
+kill @e[predicate=ssbrc:killbox_vulnerable,predicate=ssbrc:stage/great_bay]

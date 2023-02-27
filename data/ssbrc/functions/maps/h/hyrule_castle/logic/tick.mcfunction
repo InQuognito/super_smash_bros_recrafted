@@ -3,4 +3,4 @@ execute as @e[tag=tornado] at @s run function ssbrc:maps/h/hyrule_castle/logic/h
 
 execute as @e[predicate=ssbrc:flag/targets,tag=tornado.spin] at @s run function ssbrc:maps/h/hyrule_castle/logic/hazards/tornadoes/spin/tick
 
-execute as @e[predicate=ssbrc:flag/targets] at @s unless entity @s[x=6964.0,y=20.0,z=219.0,dx=2,dy=3,dz=2] if block ~ ~ ~ #ssbrc:hyrule_castle run kill @s
+execute as @e[predicate=ssbrc:killbox_vulnerable] at @s unless entity @s[x=6964.0,y=20.0,z=219.0,dx=2,dy=3,dz=2] if block ~ ~ ~ #ssbrc:hyrule_castle run kill @s

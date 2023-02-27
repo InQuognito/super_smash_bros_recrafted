@@ -6,7 +6,7 @@ execute if score @s[scores={useAbility=1..,cooldown.1=..0},nbt={SelectedItem:{ta
 execute if score @s[scores={useAbility=1..,cooldown.2=..0},nbt={SelectedItem:{tag:{phaseLocket:1}}}] mana >= #shovelknight.phaseLocketManaCost vars run function ssbrc:series/indie_fighters/shovelknight/logic/abilities/phase_locket/on
 execute if score @s[scores={charge.step=5..,cooldown.2=..0},nbt={SelectedItem:{tag:{propellerDagger:1}}}] mana >= #shovelknight.propellerDaggerManaCost vars at @s run function ssbrc:series/indie_fighters/shovelknight/logic/abilities/propeller_dagger/activate
 
-execute at @s[nbt={SelectedItem:{tag:{shovelDrop:1}}}] positioned ~ ~-2 ~ as @e[predicate=ssbrc:flag/targets,distance=..0.5] run function ssbrc:series/indie_fighters/shovelknight/logic/abilities/shovel_drop/hit
+execute at @s[nbt={SelectedItem:{tag:{shovelDrop:1}}}] positioned ~ ~-2 ~ as @e[predicate=ssbrc:flag/targets,distance=..0.75] run function ssbrc:series/indie_fighters/shovelknight/logic/abilities/shovel_drop/hit
 execute as @e[type=minecraft:marker,tag=chaosSphere] at @s if score @s id = @p[tag=self] id run function ssbrc:series/indie_fighters/shovelknight/logic/abilities/chaos_sphere/tick
 execute as @e[type=minecraft:arrow,tag=flareWand] at @s if score @s id = @p[tag=self] id run function ssbrc:series/indie_fighters/shovelknight/logic/abilities/flare_wand/tick
 execute as @e[type=minecraft:marker,tag=propellerDagger] at @s if score @s id = @p[tag=self,scores={duration.2=2..}] id run function ssbrc:series/indie_fighters/shovelknight/logic/abilities/propeller_dagger/tick

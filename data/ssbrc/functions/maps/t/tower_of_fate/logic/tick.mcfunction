@@ -1,4 +1,4 @@
-kill @a[predicate=ssbrc:flag/targets,predicate=ssbrc:below_y/-50]
+kill @e[predicate=ssbrc:killbox_vulnerable,predicate=ssbrc:below_y/-50]
 
 # Destroy Tower
 execute if score towerOfFateDestroyed temp matches 1.. if score towerOfFateDestroyedTimer temp matches 1.. run function ssbrc:maps/t/tower_of_fate/logic/destroy_tower/tick
