@@ -18,5 +18,5 @@ function ssbrc:logic/characters/armor/get
 function ssbrc:logic/characters/attributes/defaults
 function ssbrc:logic/characters/effects/default
 
-execute unless entity @s[tag=!ivysaur.natureSet] run function ssbrc:series/pokemon/pokemontrainer/natures/ivysaur/set
+execute unless entity @s[tag=ivysaur.natureSet] run function ssbrc:series/pokemon/pokemontrainer/natures/ivysaur/set
 function ssbrc:series/pokemon/pokemontrainer/natures/ivysaur/apply
