@@ -1,5 +1,6 @@
-function ssbrc:series/pokemon/pokemontrainer/kits/reset
 tag @s add nextFighterChosen
+
+function ssbrc:series/pokemon/pokemontrainer/kits/reset
 
 tag @s add charizard
 
