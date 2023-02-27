@@ -16,4 +16,5 @@ function ssbrc:logic/characters/armor/get
 function ssbrc:logic/characters/attributes/defaults
 function ssbrc:logic/characters/effects/default
 
-function ssbrc:logic/characters/natures/select
+execute unless entity @s[tag=!charizard.natureSet] run function ssbrc:series/pokemon/pokemontrainer/natures/charizard/set
+function ssbrc:series/pokemon/pokemontrainer/natures/charizard/apply
