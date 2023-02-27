@@ -8,7 +8,7 @@ data modify entity @e[tag=modifyEntity,limit=1] Owner set from entity @s UUID
 tag @e[tag=modifyEntity,limit=1] remove modifyEntity
 
 scoreboard players set @s duration.3 15
-effect give @p minecraft:levitation 1000000 255 true
+effect give @p minecraft:levitation 1000000 0 true
 
 scoreboard players set @s charge.3 0
 
