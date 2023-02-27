@@ -20,12 +20,12 @@ scoreboard players operation #hero.halfMana vars /= 2 integers
 scoreboard players operation #hero.initialMana vars = #hero.maxMana vars
 scoreboard players operation #hero.initialMana vars *= 3 integers
 scoreboard players operation #hero.initialMana vars /= 4 integers
-scoreboard players set #hero.manaGainedOnPlayerKill vars 6
+scoreboard players set #hero.manaGainedOnPlayerKill vars 8
 scoreboard players operation #hero.manaGainedOnNonPlayerKill vars = #hero.manaGainedOnPlayerKill vars
 scoreboard players operation #hero.manaGainedOnNonPlayerKill vars /= 2 integers
 scoreboard players operation #hero.manaGainedOnMiscKill vars = #hero.manaGainedOnNonPlayerKill vars
 scoreboard players operation #hero.manaGainedOnMiscKill vars /= 2 integers
-scoreboard players set #hero.manaGainedOnDeath vars 7
+scoreboard players set #hero.manaGainedOnDeath vars 6
 scoreboard players set #hero.flameSlashManaCost vars 1
 scoreboard players set #hero.bangManaCost vars 2
 scoreboard players set #hero.kaclangManaCost vars 3
