@@ -28,6 +28,7 @@ execute if entity @s[tag=kirby] run function ssbrc:series/kirby/kirby/logic/tick
 execute if entity @s[tag=link] run function ssbrc:series/the_legend_of_zelda/link/logic/tick
 execute if entity @s[tag=luigi] run function ssbrc:series/super_mario_bros/luigi/logic/tick
 execute if entity @s[tag=mario] run function ssbrc:series/super_mario_bros/mario/logic/tick
+execute if entity @s[tag=megaman] run function ssbrc:series/mega_man/megaman/logic/tick
 execute if entity @s[tag=ness] run function ssbrc:series/earthbound/ness/logic/tick
 execute if entity @s[tag=pikachu] run function ssbrc:series/pokemon/pikachu/logic/tick
 execute if entity @s[tag=pit] run function ssbrc:series/kid_icarus/pit/logic/tick

@@ -6,7 +6,7 @@
 			"entries": [
 				{
 					"type": "minecraft:item",
-					"name": "minecraft:splash_potion",
+					"name": "minecraft:carrot_on_a_stick",
 					"functions": [
 						{
 							"function": "minecraft:set_name",
@@ -36,7 +36,7 @@
 									"underlined": true
 								},
 								{
-									"text": "- Locks the opponent in place and deals damage over time",
+									"text": "- Sucks the opponent into the center and deals damage over time",
 									"color": "gray",
 									"bold": false,
 									"italic": false
@@ -65,7 +65,7 @@
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{blackHoleGrenade:1,CustomPotionColor:5974645,CustomPotionEffects:[{Id:7,Duration:1,Amplifier:1},{Id:2,Duration:100,Amplifier:6},{Id:20,Duration:160,Amplifier:2}],HideFlags:127}"
+							"tag": "{blackHoleGrenade:1,HideFlags:127}"
 						}
 					]
 				}
