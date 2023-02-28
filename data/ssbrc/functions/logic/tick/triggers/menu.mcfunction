@@ -23,10 +23,12 @@ execute if score @s[tag=!byleth] menu matches 100 run function ssbrc:series/fire
 execute if score @s[tag=!byleth] menu matches 101 run function ssbrc:series/fire_emblem/byleth/menu/skin_options
 execute if score @s[tag=!byleth] menu matches 102 run function ssbrc:series/fire_emblem/byleth/menu/favorite/add
 execute if score @s[tag=!byleth] menu matches 103 run function ssbrc:series/fire_emblem/byleth/menu/favorite/remove
-execute if score @s[tag=!byleth,tag=!female] menu matches 104 run function ssbrc:series/fire_emblem/byleth/menu/gender/female
-execute if score @s[tag=!byleth,tag=!male] menu matches 105 run function ssbrc:series/fire_emblem/byleth/menu/gender/male
-execute if score @s[tag=!byleth] menu matches 106 run function ssbrc:series/fire_emblem/byleth/menu/skins/default
-execute if score @s[tag=!byleth] menu matches 107 run function ssbrc:series/fire_emblem/byleth/menu/skins/gold
+execute if score @s[tag=!byleth] menu matches 104 run function ssbrc:series/fire_emblem/byleth/menu/skins/default/female
+execute if score @s[tag=!byleth] menu matches 105 run function ssbrc:series/fire_emblem/byleth/menu/skins/default/male
+execute if score @s[tag=!byleth] menu matches 106 run function ssbrc:series/fire_emblem/byleth/menu/skins/gold/female
+execute if score @s[tag=!byleth] menu matches 107 run function ssbrc:series/fire_emblem/byleth/menu/skins/gold/male
+execute if score @s[tag=!byleth] menu matches 108 run function ssbrc:series/fire_emblem/byleth/menu/skins/awakened/female
+execute if score @s[tag=!byleth] menu matches 109 run function ssbrc:series/fire_emblem/byleth/menu/skins/awakened/male
 
 execute if score @s[tag=!byleth] characterTrigger matches 100 run function ssbrc:series/fire_emblem/byleth/menu/loadout/houses/black_eagles
 execute if score @s[tag=!byleth] characterTrigger matches 101 run function ssbrc:series/fire_emblem/byleth/menu/loadout/houses/blue_lions

@@ -1,13 +1,18 @@
-execute if entity @s[tag=!female,tag=!male] run function ssbrc:series/fire_emblem/byleth/menu/gender/random
-tag @s[tag=!gold] add default
+execute if entity @s[tag=!female,tag=!male] run function ssbrc:series/fire_emblem/byleth/menu/gender_random
+tag @s[tag=!gold,tag=!awakened] add default
 
 tellraw @s [{"text":"You have selected ","color":"white"},{"text":"Byleth","color":"dark_aqua"},{"text":"!","color":"white"}]
 
+tellraw @s[tag=blackEagles] [{"text":"House: ","color":"white"},{"text":"Black Eagles","color":"dark_gray"}]
+tellraw @s[tag=blueLions] [{"text":"House: ","color":"white"},{"text":"Blue Lions","color":"blue"}]
+tellraw @s[tag=goldenDeer] [{"text":"House: ","color":"white"},{"text":"Golden Deer","color":"yellow"}]
+
 tellraw @s[tag=default] [{"text":"Skin: ","color":"white"},{"text":"Default","color":"dark_aqua"}]
 tellraw @s[tag=gold] [{"text":"Skin: ","color":"white"},{"text":"Gold","color":"gold"}]
+tellraw @s[tag=awakened] [{"text":"Skin: ","color":"white"},{"text":"Awakened","color":"aqua"}]
 
-tellraw @s[tag=female] [{"text":"Gender: ","color":"yellow"},{"text":"Female","color":"dark_purple"}]
-tellraw @s[tag=male] [{"text":"Gender: ","color":"yellow"},{"text":"Male","color":"dark_blue"}]
+tellraw @s[tag=female] [{"text":"Gender: ","color":"white"},{"text":"Female","color":"dark_purple"}]
+tellraw @s[tag=male] [{"text":"Gender: ","color":"white"},{"text":"Male","color":"dark_blue"}]
 
 tag @s add byleth
 
