@@ -54,12 +54,6 @@
 											"italic": false
 										}
 									]
-								},
-								{
-									"text": "- Inflicts burning on the opponent",
-									"color": "gray",
-									"bold": false,
-									"italic": false
 								}
 							],
 							"replace": true
