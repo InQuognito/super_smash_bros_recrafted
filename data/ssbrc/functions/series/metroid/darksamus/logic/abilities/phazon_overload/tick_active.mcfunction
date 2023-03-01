@@ -4,4 +4,4 @@ execute at @s anchored eyes positioned ^ ^-0.75 ^1 run function ssbrc:series/met
 
 scoreboard players add @s timer 1
 effect give @s[scores={timer=10}] minecraft:poison 1 2 true
-scoreboard players reset @s[scores={timer=10..}]
+scoreboard players reset @s[scores={timer=10..}] timer
