@@ -281,8 +281,8 @@ execute if score $towerOfFate map matches 1 if score result_music random matches
 execute if score $towerOfFate map matches 1 if score result_music random matches 1 if score $music options matches 1 run schedule function ssbrc:logic/music/decide 4380t replace
 
 execute if score $wilyCastle map matches 1 if score result_music random matches 0 run playsound ssbrc:mega_man_2_medley music @s
-execute if score $wilyCastle map matches 1 if score result_music random matches 0 if score $music options matches 0 run schedule function ssbrc:logic/music/loop_schedule 2200t replace
-execute if score $wilyCastle map matches 1 if score result_music random matches 0 if score $music options matches 1 run schedule function ssbrc:logic/music/decide 2200t replace
+execute if score $wilyCastle map matches 1 if score result_music random matches 0 if score $music options matches 0 run schedule function ssbrc:logic/music/loop_schedule 2205t replace
+execute if score $wilyCastle map matches 1 if score result_music random matches 0 if score $music options matches 1 run schedule function ssbrc:logic/music/decide 2205t replace
 execute if score $wilyCastle map matches 1 if score result_music random matches 1 run playsound ssbrc:mega_man_4_medley music @s
 execute if score $wilyCastle map matches 1 if score result_music random matches 1 if score $music options matches 0 run schedule function ssbrc:logic/music/loop_schedule 2860t replace
 execute if score $wilyCastle map matches 1 if score result_music random matches 1 if score $music options matches 1 run schedule function ssbrc:logic/music/decide 2860t replace
