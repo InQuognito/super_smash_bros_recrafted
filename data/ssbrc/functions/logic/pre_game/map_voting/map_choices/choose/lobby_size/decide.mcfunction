@@ -1,3 +1,3 @@
-execute if score players.playing temp matches ..2 run function ssbrc:logic/pre_game/map_voting/map_choices/choose/lobby_size/small
-execute if score players.playing temp matches 3..5 run function ssbrc:logic/pre_game/map_voting/map_choices/choose/lobby_size/medium
-execute if score players.playing temp matches 6.. run function ssbrc:logic/pre_game/map_voting/map_choices/choose/lobby_size/large
+execute if score players.playing temp matches ..2 as @e[type=minecraft:area_effect_cloud,tag=voteCounter,predicate=ssbrc:stage/size/small,tag=!selected,sort=random,limit=1] if entity @s[predicate=ssbrc:stage/size/small] run function ssbrc:logic/pre_game/map_voting/map_choices/choose/lobby_size/small
+execute if score players.playing temp matches 3..5 as @e[type=minecraft:area_effect_cloud,tag=voteCounter,predicate=ssbrc:stage/size/small,tag=!selected,sort=random,limit=1] if entity @s[predicate=ssbrc:stage/size/medium] run function ssbrc:logic/pre_game/map_voting/map_choices/choose/lobby_size/medium
+execute if score players.playing temp matches 6.. as @e[type=minecraft:area_effect_cloud,tag=voteCounter,predicate=ssbrc:stage/size/small,tag=!selected,sort=random,limit=1] if entity @s[predicate=ssbrc:stage/size/large] run function ssbrc:logic/pre_game/map_voting/map_choices/choose/lobby_size/large
