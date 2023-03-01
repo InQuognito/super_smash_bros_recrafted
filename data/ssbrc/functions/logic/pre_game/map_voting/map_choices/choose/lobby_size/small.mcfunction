@@ -10,4 +10,7 @@ execute if entity @s[tag=pyrosphere] run function ssbrc:logic/pre_game/map_votin
 execute if entity @s[tag=spearPillar] run function ssbrc:logic/pre_game/map_voting/map_choices/stages/spear_pillar
 execute if entity @s[tag=towerOfFate] run function ssbrc:logic/pre_game/map_voting/map_choices/stages/tower_of_fate
 
+teleport @s ~ ~ ~
+tag @s add selected
+
 execute as @e[type=minecraft:marker,tag=mapChooser,limit=1] at @s run function ssbrc:logic/pre_game/map_voting/map_choices/success

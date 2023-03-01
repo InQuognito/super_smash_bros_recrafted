@@ -20,4 +20,7 @@ execute if entity @s[tag=suzakuCastle] run function ssbrc:logic/pre_game/map_vot
 execute if entity @s[tag=planetEpp] run function ssbrc:logic/pre_game/map_voting/map_choices/stages/planet_epp
 execute if entity @s[tag=yggdrasilsAltar] run function ssbrc:logic/pre_game/map_voting/map_choices/stages/yggdrasils_altar
 
+teleport @s ~ ~ ~
+tag @s add selected
+
 execute as @e[type=minecraft:marker,tag=mapChooser,limit=1] at @s run function ssbrc:logic/pre_game/map_voting/map_choices/success

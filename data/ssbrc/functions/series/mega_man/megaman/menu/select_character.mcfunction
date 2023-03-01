@@ -1,6 +1,6 @@
 tag @s[tag=!gold] add default
 
-tellraw @s [{"text":"You have selected ","color":"white"},{"text":"Megaman","color":"dark_aqua"},{"text":"!","color":"white"}]
+tellraw @s [{"text":"You have selected ","color":"white"},{"text":"Mega Man","color":"dark_aqua"},{"text":"!","color":"white"}]
 
 tellraw @s[tag=default] [{"text":"Skin: ","color":"white"},{"text":"Default","color":"dark_aqua"}]
 tellraw @s[tag=gold] [{"text":"Skin: ","color":"white"},{"text":"Gold","color":"gold"}]

@@ -14,4 +14,7 @@ execute if entity @s[tag=sectorZ] run function ssbrc:logic/pre_game/map_voting/m
 execute if entity @s[tag=shadowMosesIsland] run function ssbrc:logic/pre_game/map_voting/map_choices/stages/shadow_moses_island
 execute if entity @s[tag=wilyCastle] run function ssbrc:logic/pre_game/map_voting/map_choices/stages/wily_castle
 
+teleport @s ~ ~ ~
+tag @s add selected
+
 execute as @e[type=minecraft:marker,tag=mapChooser,limit=1] at @s run function ssbrc:logic/pre_game/map_voting/map_choices/success
