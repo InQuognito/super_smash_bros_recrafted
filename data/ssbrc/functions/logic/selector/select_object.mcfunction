@@ -79,4 +79,6 @@ execute if entity @s[advancements={ssbrc:series/the_legend_of_zelda/zelda/skins/
 
 execute if entity @e[type=minecraft:armor_stand,tag=spectator,dx=0,sort=nearest,limit=1] run function ssbrc:logic/spectate
 
+execute if entity @e[type=minecraft:armor_stand,tag=sandbag,dx=0,sort=nearest,limit=1] run function ssbrc:logic/tips
+
 scoreboard players reset @s useAbility
