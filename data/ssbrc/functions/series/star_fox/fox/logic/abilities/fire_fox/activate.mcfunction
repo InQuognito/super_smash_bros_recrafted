@@ -13,3 +13,5 @@ effect give @p minecraft:levitation 1000000 0 true
 scoreboard players set @s charge.3 0
 
 function ssbrc:logic/characters/flags/use_recovery
+
+playsound ssbrc:fighters.fox.fire_fox.activate player @a

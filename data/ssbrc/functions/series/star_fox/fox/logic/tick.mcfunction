@@ -15,10 +15,7 @@ execute if score @s duration.2 matches 1.. run teleport @s @s
 execute if score @s duration.2 matches 1 run function ssbrc:series/star_fox/fox/logic/abilities/reflector/deactivate
 
 # Fire Fox
-execute unless score @s duration.3 matches 1.. if entity @s[predicate=ssbrc:flag/sneaking,scores={cooldown.3=..0,duration.3=..0}] run function ssbrc:series/star_fox/fox/logic/abilities/fire_fox/charge
-
-execute unless score @s duration.3 matches 1.. if score @s[scores={cooldown.3=..0,duration.3=..0}] charge.3 matches 1.. at @s run particle minecraft:flame ~ ~0.01 ~ 0.4 0.2 0.4 0.0 5 normal @a
-execute unless score @s duration.3 matches 1.. if score @s[scores={cooldown.3=..0,duration.3=..0}] charge.3 >= #fox.fireFoxThreshold vars at @s run function ssbrc:series/star_fox/fox/logic/abilities/fire_fox/activate
+execute unless score @s duration.3 matches 1.. if entity @s[predicate=ssbrc:flag/sneaking,scores={cooldown.3=..0,duration.3=..0}] at @s run function ssbrc:series/star_fox/fox/logic/abilities/fire_fox/charge
 
 execute if score @s duration.3 matches 1 run function ssbrc:series/star_fox/fox/logic/abilities/fire_fox/deactivate
 execute unless score @s duration.2 matches 1.. unless score @s duration.3 matches 1.. if score @s charge.3 matches 1.. if entity @s[predicate=!ssbrc:flag/sneaking] run function ssbrc:series/star_fox/fox/logic/abilities/fire_fox/clear
