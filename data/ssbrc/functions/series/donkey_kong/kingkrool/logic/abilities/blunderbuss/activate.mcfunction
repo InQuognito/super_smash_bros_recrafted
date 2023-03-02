@@ -11,3 +11,5 @@ tag @e[tag=modifyPassenger,limit=1] remove modifyPassenger
 
 scoreboard players set @s cooldown.1 60
 execute if score @s shadow.chaosControl matches 1.. run function ssbrc:logic/characters/cooldown_modifiers/chaos_control/1
+
+playsound ssbrc:fighters.kingkrool.blunderbuss.activate player @a
