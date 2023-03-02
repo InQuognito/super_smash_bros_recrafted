@@ -13,4 +13,4 @@ effect clear @s minecraft:invisibility
 effect clear @s minecraft:levitation
 effect clear @s minecraft:resistance
 
-playsound ssbrc:fighters.alucard.mist.deactivate player @a
+execute at @s run playsound ssbrc:fighters.alucard.mist.deactivate player @a
