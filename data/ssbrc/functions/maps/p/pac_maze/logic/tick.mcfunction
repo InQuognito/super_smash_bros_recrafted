@@ -7,8 +7,6 @@ execute as @e[tag=pacMaze.dot] at @s if entity @p[predicate=ssbrc:flag/player,di
 execute as @e[tag=pacMaze.pellet] at @s if entity @p[predicate=ssbrc:flag/player,distance=..1.0] run function ssbrc:maps/p/pac_maze/logic/pellets/pickup
 execute as @e[tag=pacMaze.fruit] at @s run function ssbrc:maps/p/pac_maze/logic/fruit/tick
 
-execute if score $dotGroup.total temp matches 4.. run function ssbrc:maps/p/pac_maze/logic/pellets/spawn
-
 scoreboard players add $ghostSirenTimer temp 1
 execute if score $ghostSirenTimer temp matches 30.. as @e[tag=ghost,tag=active,tag=!retreating] at @s run function ssbrc:maps/p/pac_maze/logic/ghosts/siren
 
