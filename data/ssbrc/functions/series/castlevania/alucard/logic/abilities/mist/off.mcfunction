@@ -12,3 +12,5 @@ effect give @s minecraft:glowing 1000000 255 true
 effect clear @s minecraft:invisibility
 effect clear @s minecraft:levitation
 effect clear @s minecraft:resistance
+
+playsound ssbrc:fighters.alucard.mist.deactivate player @a

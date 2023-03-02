@@ -10,3 +10,5 @@ scoreboard players set @e[tag=modifyEntity] slope 0
 tag @e[tag=modifyEntity,limit=1] remove modifyEntity
 
 scoreboard players set @s cooldown.1 20
+
+playsound ssbrc:fighters.luigi.ice_ball.activate player @a
