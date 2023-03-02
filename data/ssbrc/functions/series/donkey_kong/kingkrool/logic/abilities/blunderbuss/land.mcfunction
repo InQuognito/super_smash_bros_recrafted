@@ -1,3 +1,3 @@
 tag @s add hitGround
 
-playsound ssbrc:fighters.kingkrool.blunderbuss.activate player @a
+playsound ssbrc:fighters.kingkrool.blunderbuss.land player @a
