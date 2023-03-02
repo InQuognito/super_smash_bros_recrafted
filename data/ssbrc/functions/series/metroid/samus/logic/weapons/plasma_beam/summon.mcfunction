@@ -14,3 +14,5 @@ execute if score @s shadow.chaosControl matches 1.. run function ssbrc:logic/cha
 
 loot replace entity @s weapon.mainhand loot ssbrc:characters/metroid/samus/arm_cannon/plasma_beam/fire
 loot replace entity @s weapon.mainhand loot ssbrc:characters/metroid/samus/arm_cannon/plasma_beam/default
+
+playsound ssbrc:fighters.samus.plasma_beam.activate player @a
