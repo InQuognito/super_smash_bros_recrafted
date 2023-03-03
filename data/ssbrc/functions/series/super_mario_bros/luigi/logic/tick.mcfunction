@@ -6,8 +6,8 @@ tag @s remove self
 
 # Super Jump
 execute if entity @s[predicate=ssbrc:flag/sneaking] run scoreboard players add @s charge.1 1
-
 execute if score @s charge.1 >= #luigi.superJumpThreshold vars at @s run particle minecraft:glow ~ ~0.01 ~ 0.2 0.2 0.2 0.0 2 normal @a
 
-execute if score @s moveDistance >= #luigi.superJumpMovementFalloff vars run scoreboard players reset @s charge.1
-execute if score @s moveDistance >= #luigi.superJumpMovementFalloff vars run scoreboard players reset @s moveDistance
+execute if score @s charge.1 = #luigi.superJumpThreshold vars at @s run playsound ssbrc:fighters.mario.super_jump.charge player @a
+
+execute if score @s charge.1 >= #luigi.superJumpThreshold vars if score @s moveDistance >= #luigi.superJumpMovementFalloff vars run function ssbrc:series/super_mario_bros/luigi/logic/abilities/super_jump/reset

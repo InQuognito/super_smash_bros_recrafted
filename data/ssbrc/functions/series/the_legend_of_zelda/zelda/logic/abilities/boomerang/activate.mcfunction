@@ -9,3 +9,5 @@ execute as @e[tag=modifyEntity] at @s run function ssbrc:series/the_legend_of_ze
 scoreboard players operation @s mana -= #boomerangMagicCost temp
 
 clear @s minecraft:carrot_on_a_stick{boomerang:1}
+
+playsound ssbrc:fighters.link.boomerang.activate player @a

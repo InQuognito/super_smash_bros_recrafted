@@ -9,3 +9,5 @@ tag @e[predicate=ssbrc:flag/targets,distance=..2.5] add damage.pkFlash
 kill @s
 
 execute as @p[tag=self] run function ssbrc:series/earthbound/ness/logic/abilities/pk_flash/cooldown
+
+playsound ssbrc:fighters.ness.pk_flash.explode player @a

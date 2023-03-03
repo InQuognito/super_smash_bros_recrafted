@@ -7,3 +7,5 @@ data modify entity @e[tag=modifyEntity,limit=1] Owner set from entity @s UUID
 execute as @e[tag=modifyEntity] at @s run function ssbrc:series/the_legend_of_zelda/link/logic/abilities/boomerang/summon_item
 
 clear @s minecraft:carrot_on_a_stick{boomerang:1}
+
+playsound ssbrc:fighters.link.boomerang.activate player @a
