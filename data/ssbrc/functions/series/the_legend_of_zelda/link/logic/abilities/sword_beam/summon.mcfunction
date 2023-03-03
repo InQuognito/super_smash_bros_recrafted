@@ -11,3 +11,5 @@ loot replace entity @s[tag=!dark] weapon.mainhand loot ssbrc:characters/the_lege
 loot replace entity @s[tag=dark] weapon.mainhand loot ssbrc:characters/the_legend_of_zelda/link/master_sword/dark/sword_beam
 loot replace entity @s[tag=!dark] weapon.mainhand loot ssbrc:characters/the_legend_of_zelda/link/master_sword/default/awakened
 loot replace entity @s[tag=dark] weapon.mainhand loot ssbrc:characters/the_legend_of_zelda/link/master_sword/dark/awakened
+
+playsound ssbrc:fighters.link.sword_beam.activate player @a
