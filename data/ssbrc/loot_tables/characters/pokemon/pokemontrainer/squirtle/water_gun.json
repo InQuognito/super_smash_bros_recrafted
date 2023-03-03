@@ -48,18 +48,12 @@
 											"italic": false
 										},
 										{
-											"text": "] to charge forward on a wave",
+											"text": "] to release a burst of water beams",
 											"color": "gray",
 											"bold": false,
 											"italic": false
 										}
 									]
-								},
-								{
-									"text": "- Can be cancelled early",
-									"color": "gray",
-									"bold": false,
-									"italic": false
 								}
 							],
 							"replace": true
