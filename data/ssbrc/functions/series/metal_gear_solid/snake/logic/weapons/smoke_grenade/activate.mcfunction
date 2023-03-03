@@ -19,3 +19,5 @@ execute if score @s shadow.chaosControl matches 1.. run scoreboard players opera
 execute if score @s shadow.chaosControl matches 1.. run scoreboard players operation @s snake.smokeGrenadeF += #tempCooldown temp
 
 clear @s[scores={snake.smokeGrenadeA=..0}] minecraft:carrot_on_a_stick{smokeGrenade:1}
+
+playsound ssbrc:fighters.snake.smoke_grenade.activate player @a
