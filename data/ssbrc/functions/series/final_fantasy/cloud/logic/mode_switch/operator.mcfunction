@@ -10,3 +10,5 @@ execute if score $sectorZ map matches 1 run function ssbrc:maps/s/sector_z/logic
 tellraw @s [{"text":"Mode Switch: ","bold":true,"color":"yellow"},{"text":"Operator","bold":false,"color":"green"}]
 
 scoreboard players set @s cooldown.1 100
+
+execute at @s run playsound ssbrc:fighters.cloud.mode_switch.operator player @a

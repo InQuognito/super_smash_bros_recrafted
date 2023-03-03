@@ -14,3 +14,5 @@ function ssbrc:logic/characters/effects/mobility/immobilize
 tag @s add self
 execute at @e[type=minecraft:marker,tag=crossSlash,sort=nearest,limit=1] as @e[predicate=ssbrc:flag/targets,tag=!self,distance=..2.5] run function ssbrc:series/final_fantasy/cloud/logic/cross_slash/target
 tag @s remove self
+
+playsound ssbrc:fighters.cloud.cross_slash.activate player @a
