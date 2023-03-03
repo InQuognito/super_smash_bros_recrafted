@@ -6,3 +6,5 @@ effect clear @s minecraft:blindness
 effect clear @s minecraft:regeneration
 
 tag @s remove rest
+
+function ssbrc:logic/characters/armor/update

@@ -65,7 +65,7 @@
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{blackHoleGrenade:1,HideFlags:127}"
+							"tag": "{blackHoleGrenade:1,CustomModelData:881,HideFlags:127}"
 						}
 					]
 				}

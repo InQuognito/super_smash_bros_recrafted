@@ -6,3 +6,5 @@ effect give @s minecraft:blindness 1000000 255 true
 effect give @s minecraft:regeneration 1000000 1 true
 
 tag @s add rest
+
+function ssbrc:logic/characters/armor/update
