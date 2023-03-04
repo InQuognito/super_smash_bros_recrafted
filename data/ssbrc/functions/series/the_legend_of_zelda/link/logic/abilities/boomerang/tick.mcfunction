@@ -13,7 +13,7 @@ execute positioned ~-0.15 ~-0.15 ~-0.15 as @e[predicate=ssbrc:flag/player,dx=0] 
 
 scoreboard players add @s temp 1
 
-scoreboard players operation #loop temp = @s charge.1
+scoreboard players operation #loop temp = @s temp
 scoreboard players operation #loop temp %= 5 integers
 execute if score #loop temp matches 0 at @s run playsound ssbrc:fighters.link.boomerang.loop player @a
 scoreboard players reset #loop temp
