@@ -1,4 +1,4 @@
-execute at @s[nbt={SelectedItem:{tag:{selector:1}}}] anchored eyes positioned ^ ^ ^ run function ssbrc:logic/selector/raycast/start
+execute at @s[gamemode=adventure,nbt={SelectedItem:{tag:{selector:1}}}] anchored eyes positioned ^ ^ ^ run function ssbrc:logic/selector/raycast/start
 scoreboard players reset @s useAbility
 
 function ssbrc:logic/tick/triggers/menu
