@@ -2,7 +2,7 @@ scoreboard players reset * map
 scoreboard players set $planetEpp map 1
 scoreboard players set $songCount map 2
 scoreboard players set #mapPicked mapVote 1
-forceload add 9952 19856 10015 20015
+forceload add 9856 19808 10031 20031
 
 # Neutral Zone
 function ssbrc:maps/p/planet_epp/logic/hazards/neutral_zone/deactivate
