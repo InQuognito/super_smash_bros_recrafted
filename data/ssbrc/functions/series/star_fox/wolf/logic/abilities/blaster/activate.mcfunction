@@ -14,3 +14,5 @@ execute if score @s shadow.chaosControl matches 1.. run function ssbrc:logic/cha
 
 loot replace entity @s weapon.mainhand loot ssbrc:characters/star_fox/wolf/blaster/fire
 loot replace entity @s weapon.mainhand loot ssbrc:characters/star_fox/wolf/blaster/default
+
+playsound ssbrc:fighters.wolf.blaster.activate player @a
