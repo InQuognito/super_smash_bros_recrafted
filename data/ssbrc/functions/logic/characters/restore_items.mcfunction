@@ -87,6 +87,10 @@ execute if score $gameMode options matches 1 if score @s[tag=ryu] stocks matches
 execute if score $gameMode options matches 2 run clear @s[tag=ryu] minecraft:carrot_on_a_stick{satsuiNoHadoRage:1}
 execute if score $gameMode options matches 2 if score $gameTime timer matches ..60 run loot replace entity @s[tag=ryu,tag=!abilityUsed] hotbar.2 loot ssbrc:characters/street_fighter/ryu/satsui_no_hado_rage
 
+# Snake
+clear @s[tag=snake] minecraft:paper{status:1}
+loot replace entity @s[tag=snake] hotbar.8 loot ssbrc:characters/metal_gear_solid/snake/status/undetected
+
 # Sora
 execute if entity @s[tag=sora] run function ssbrc:series/kingdom_hearts/sora/kit
 
