@@ -13,6 +13,6 @@ kill @e[tag=direction,limit=1]
 scoreboard players remove @s charge.1 1
 
 scoreboard players set @s cooldown.1 300
-function ssbrc:logic/characters/cooldown_modifiers/chaos_control/1
+execute if score @s shadow.chaosControl matches 1.. run function ssbrc:logic/characters/cooldown_modifiers/chaos_control/1
 
 clear @s[scores={charge.1=..0}] minecraft:carrot_on_a_stick{blackHoleGrenade:1}
