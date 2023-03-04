@@ -6,7 +6,7 @@
 			"entries": [
 				{
 					"type": "minecraft:item",
-					"name": "minecraft:splash_potion",
+					"name": "minecraft:carrot_on_a_stick",
 					"functions": [
 						{
 							"function": "minecraft:set_name",
@@ -56,6 +56,12 @@
 									]
 								},
 								{
+									"text": "- Bounces along the ground",
+									"color": "gray",
+									"bold": false,
+									"italic": false
+								},
+								{
 									"text": "- Deals damage in a small radius upon contact",
 									"color": "gray",
 									"bold": false,
@@ -85,7 +91,7 @@
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{orangeGrenade:1,CustomPotionColor:16744448,CustomPotionEffects:[{Id:7,Duration:0,Amplifier:0b,ShowParticles:0b,ShowIcon:0b}],HideFlags:127}"
+							"tag": "{orangeGrenade:1,CustomModelData:301,HideFlags:127}"
 						}
 					]
 				}
