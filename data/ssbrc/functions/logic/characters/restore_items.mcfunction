@@ -61,6 +61,8 @@ loot replace entity @s[tag=link,tag=!dark] weapon.offhand loot ssbrc:characters/
 loot replace entity @s[tag=link,tag=dark] weapon.offhand loot ssbrc:characters/the_legend_of_zelda/link/hylian_shield/dark
 give @s[tag=link] minecraft:spectral_arrow 5
 
+scoreboard players reset @s[tag=link] charge.3
+
 # Megaman
 clear @s[tag=megaman] minecraft:lingering_potion{blackHoleGrenade:1} 1
 loot replace entity @s[tag=megaman] hotbar.2 loot ssbrc:characters/mega_man/megaman/black_hole_grenade
