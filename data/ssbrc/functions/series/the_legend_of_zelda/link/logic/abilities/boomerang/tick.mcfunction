@@ -12,3 +12,8 @@ execute positioned ~-0.15 ~-0.15 ~-0.15 as @e[predicate=ssbrc:flag/targets,dx=0]
 execute positioned ~-0.15 ~-0.15 ~-0.15 as @e[predicate=ssbrc:flag/player,dx=0] positioned ~-0.7 ~-0.7 ~-0.7 if entity @s[dx=0] if score @s id = @e[type=minecraft:area_effect_cloud,tag=boomerang,sort=nearest,limit=1] id run function ssbrc:series/the_legend_of_zelda/link/logic/abilities/boomerang/regain
 
 scoreboard players add @s temp 1
+
+scoreboard players operation #loop temp = @s charge.1
+scoreboard players operation #loop temp %= 5 integers
+execute if score #loop temp matches 0 at @s run playsound ssbrc:fighters.link.boomerang.loop player @a
+scoreboard players reset #loop temp
