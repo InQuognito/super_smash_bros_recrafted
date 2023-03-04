@@ -17,6 +17,7 @@ execute if entity @s[tag=bowser] run function ssbrc:series/super_mario_bros/bows
 execute if entity @s[tag=byleth] run function ssbrc:series/fire_emblem/byleth/logic/tick
 execute if entity @s[tag=cloud] run function ssbrc:series/final_fantasy/cloud/logic/tick
 execute if entity @s[tag=darksamus] run function ssbrc:series/metroid/darksamus/logic/tick
+execute if entity @s[tag=donkeykong] run function ssbrc:series/donkey_kong/donkeykong/logic/tick
 execute if entity @s[tag=fox] run function ssbrc:series/star_fox/fox/logic/tick
 execute if entity @s[tag=ganondorf] run function ssbrc:series/the_legend_of_zelda/ganondorf/logic/tick
 execute if entity @s[tag=greninja] run function ssbrc:series/pokemon/greninja/logic/tick
