@@ -15,3 +15,5 @@ data modify entity @e[tag=modifyEntity,limit=1] Owner set from entity @s Owner
 tag @e[tag=modifyEntity,limit=1] remove modifyEntity
 
 kill @s
+
+playsound ssbrc:fighters.giegue.pk_freeze.split player @a

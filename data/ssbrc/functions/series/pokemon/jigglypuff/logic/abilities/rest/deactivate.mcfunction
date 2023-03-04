@@ -8,3 +8,5 @@ effect clear @s minecraft:regeneration
 tag @s remove rest
 
 function ssbrc:logic/characters/armor/update
+
+playsound ssbrc:fighters.jigglypuff.rest.deactivate player @a
