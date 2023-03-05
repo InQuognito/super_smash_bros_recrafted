@@ -1,5 +1,3 @@
-fill -1204 15 920 -1170 45 921 minecraft:air replace minecraft:magenta_concrete
-
 summon minecraft:marker -1187.5 0.0 878.5 {Tags:["centerPoint"]}
 
 summon minecraft:marker -1184.5 23.0 865.5 {Tags:["spawnpoint"]}
