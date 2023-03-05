@@ -7,3 +7,6 @@ function ssbrc:logic/characters/effects/mobility/immobilize
 function ssbrc:logic/characters/armor/get
 
 scoreboard players operation @s mana -= #hero.kaclangManaCost vars
+
+playsound ssbrc:fighters.hero.kaclang.activate player @a
+playsound ssbrc:items.metal_box.activate player @a
