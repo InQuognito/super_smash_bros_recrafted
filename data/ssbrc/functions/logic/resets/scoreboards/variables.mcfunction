@@ -38,11 +38,11 @@ scoreboard players set #joker.personaBreak vars 300
 scoreboard players set #joker.finalGuardThreshold vars 4
 
 scoreboard players set #luigi.iceBallMaxRotation vars 160
-scoreboard players set #luigi.superJumpThreshold vars 30
+scoreboard players set #luigi.superJumpThreshold vars 10
 scoreboard players set #luigi.superJumpMovementFalloff vars 200
 
 scoreboard players set #mario.fireballMaxRotation vars 160
-scoreboard players set #mario.superJumpThreshold vars 40
+scoreboard players set #mario.superJumpThreshold vars 10
 scoreboard players set #mario.superJumpMovementFalloff vars 200
 
 scoreboard players set #pikachu.thunderJoltMaxRotation vars 160
