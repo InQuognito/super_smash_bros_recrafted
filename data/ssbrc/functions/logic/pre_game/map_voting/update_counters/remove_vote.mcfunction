@@ -27,6 +27,7 @@ execute if entity @s[tag=palutenasTemple] run scoreboard players remove @e[type=
 execute if entity @s[tag=planetEpp] run scoreboard players remove @e[type=minecraft:area_effect_cloud,tag=voteCounter,tag=planetEpp,limit=1] mapVote 1
 execute if entity @s[tag=planetZebes] run scoreboard players remove @e[type=minecraft:area_effect_cloud,tag=voteCounter,tag=planetZebes,limit=1] mapVote 1
 execute if entity @s[tag=pyrosphere] run scoreboard players remove @e[type=minecraft:area_effect_cloud,tag=voteCounter,tag=pyrosphere,limit=1] mapVote 1
+execute if entity @s[tag=sandOcean] run scoreboard players remove @e[type=minecraft:area_effect_cloud,tag=voteCounter,tag=sandOcean,limit=1] mapVote 1
 execute if entity @s[tag=saturnValley] run scoreboard players remove @e[type=minecraft:area_effect_cloud,tag=voteCounter,tag=saturnValley,limit=1] mapVote 1
 execute if entity @s[tag=sectorZ] run scoreboard players remove @e[type=minecraft:area_effect_cloud,tag=voteCounter,tag=sectorZ,limit=1] mapVote 1
 execute if entity @s[tag=shadowMosesIsland] run scoreboard players remove @e[type=minecraft:area_effect_cloud,tag=voteCounter,tag=shadowMosesIsland,limit=1] mapVote 1
