@@ -1,8 +1,4 @@
-tag @e remove top
+tag @e[type=minecraft:area_effect_cloud,tag=voteCounter,tag=top] remove top
 
-scoreboard players operation $max mapVote > @e[tag=voteCounter] mapVote
-execute as @e[tag=voteCounter] if score $max mapVote = @s mapVote run tag @s add top
-
-execute as @e[tag=top,sort=random,limit=1] run function ssbrc:logic/pre_game/map_voting/pick_map/load_map
-
-tag @e remove top
+scoreboard players operation $max mapVote > @e[type=minecraft:area_effect_cloud,tag=voteCounter] mapVote
+execute as @e[type=minecraft:area_effect_cloud,tag=voteCounter] if score $max mapVote = @s mapVote run tag @s add top

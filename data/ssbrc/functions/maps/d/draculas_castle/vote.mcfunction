@@ -7,5 +7,4 @@ tag @s add draculasCastle
 
 execute if score $teams options matches 0 run team join ready @s
 effect clear @s minecraft:glowing
-
 function ssbrc:logic/pre_game/map_voting/stage_index/pages/stages/1/load

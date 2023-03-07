@@ -42,3 +42,5 @@ function ssbrc:logic/resets/tags/maps
 
 tag @e[type=minecraft:area_effect_cloud,tag=voteCounter,tag=selected] add voteCounter.update
 execute as @e[type=minecraft:area_effect_cloud,tag=voteCounter.update,sort=random,limit=1] run function ssbrc:logic/pre_game/map_voting/update_counters/votes
+
+function ssbrc:logic/pre_game/map_voting/dioramas/calculate

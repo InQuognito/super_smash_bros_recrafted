@@ -1,3 +1,6 @@
+# Blank Diorama
+clone -131 15 -9 -111 24 2 -48 8 35
+
 kill @e[type=minecraft:armor_stand,tag=lobbyStand]
 kill @e[type=minecraft:area_effect_cloud,tag=lobbyStand.label]
 kill @e[type=minecraft:area_effect_cloud,tag=lobby.action]
