@@ -1,2 +1,3 @@
-effect give @s minecraft:hunger 3 1 true
-effect give @s minecraft:slowness 3 1 true
+function ssbrc:logic/characters/attributes/modifiers/frostbite/increase
+
+playsound ssbrc:fighters.joker.freeze_boost.hit player @a

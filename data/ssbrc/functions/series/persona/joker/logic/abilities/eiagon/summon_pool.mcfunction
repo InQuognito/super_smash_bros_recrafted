@@ -2,3 +2,5 @@ summon minecraft:area_effect_cloud ~ ~0.1 ~ {Tags:["eiagon.pool","modifyEntity"]
 data modify entity @e[tag=modifyEntity,limit=1] Owner set from entity @e[type=minecraft:area_effect_cloud,tag=eiagon,sort=nearest,limit=1] Owner
 tag @e[tag=modifyEntity,limit=1] remove modifyEntity
 kill @s
+
+playsound ssbrc:fighters.joker.eiagon.pool player @a

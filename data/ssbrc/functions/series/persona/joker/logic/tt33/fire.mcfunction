@@ -21,7 +21,9 @@ data modify entity @e[tag=modifyEntity,limit=1] Motion set from entity @e[tag=di
 tag @e[tag=modifyEntity,limit=1] remove modifyEntity
 kill @e[tag=direction,limit=1]
 
-execute at @s run playsound ssbrc:generic_fire player @a
-
 scoreboard players remove @s joker.tt33A 1
 scoreboard players set @s joker.tt33F 5
+
+execute if entity @s[tag=!sandman] run playsound ssbrc:fighters.joker.tt33.activate player @a
+execute if entity @s[tag=sandman,scores={duration.1=0}] run playsound ssbrc:fighters.joker.tt33.activate player @a
+execute if entity @s[tag=sandman,scores={duration.1=1..}] run playsound ssbrc:fighters.joker.dream_needle.activate player @a
