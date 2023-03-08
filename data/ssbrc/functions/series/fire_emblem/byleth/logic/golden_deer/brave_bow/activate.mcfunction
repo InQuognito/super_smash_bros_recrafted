@@ -14,3 +14,6 @@ kill @e[tag=direction,limit=1]
 loot replace entity @s weapon.mainhand loot ssbrc:characters/fire_emblem/byleth/golden_deer/brave_bow/idle
 
 function ssbrc:series/fire_emblem/byleth/logic/golden_deer/brave_bow/reset
+
+playsound minecraft:entity.arrow.shoot player @a
+execute if score @s charge.output matches 19.. run playsound minecraft:entity.arrow.shoot player @a

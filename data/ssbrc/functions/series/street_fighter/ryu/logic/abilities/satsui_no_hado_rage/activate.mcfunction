@@ -11,3 +11,5 @@ scoreboard players set @s duration.1 400
 function ssbrc:logic/characters/armor/update
 
 tag @s add abilityUsed
+
+execute at @s run playsound minecraft:entity.ender_dragon.growl player @a
