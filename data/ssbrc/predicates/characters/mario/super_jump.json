@@ -11,7 +11,14 @@
 		"entity": "this",
 		"scores": {
 			"charge.1": {
-				"min": 40
+				"min": {
+					"type": "minecraft:score",
+					"target": {
+						"type": "minecraft:fixed",
+						"name": "#mario.superJumpThreshold"
+					},
+					"score": "vars"
+				}
 			}
 		}
 	}

@@ -5,7 +5,7 @@ execute as @e[type=minecraft:area_effect_cloud,tag=fireball] at @s if score @s i
 tag @s remove self
 
 # Super Jump
-execute if entity @s[predicate=ssbrc:flag/sneaking] run scoreboard players add @s charge.1 1
+execute if entity @s[predicate=ssbrc:flag/sneaking] at @s unless block ~ ~-0.1 ~ #ssbrc:passthrough run scoreboard players add @s charge.1 1
 execute if score @s charge.1 >= #mario.superJumpThreshold vars at @s run particle minecraft:glow ~ ~0.01 ~ 0.2 0.2 0.2 0.0 2 normal @a
 
 execute if score @s charge.1 = #mario.superJumpThreshold vars run function ssbrc:series/super_mario_bros/mario/logic/abilities/super_jump/charge

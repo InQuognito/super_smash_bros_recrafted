@@ -11,8 +11,6 @@ execute as @e[tag=modifyEntity,limit=2] run data modify entity @s Motion set fro
 tag @e[tag=modifyEntity,limit=2] remove modifyEntity
 kill @e[tag=direction,limit=1]
 
-loot replace entity @s weapon.mainhand loot ssbrc:characters/fire_emblem/byleth/golden_deer/brave_bow/idle
-
 function ssbrc:series/fire_emblem/byleth/logic/golden_deer/brave_bow/reset
 
 playsound minecraft:entity.arrow.shoot player @a
