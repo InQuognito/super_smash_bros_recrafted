@@ -18,11 +18,12 @@ function ssbrc:logic/resets/gamerules
 function ssbrc:logic/resets/schedule
 function ssbrc:logic/resets/teams
 
+# Lobby
 forceload add -544 32 -497 79
+# Fighter Select
 forceload add 112 144 175 207
-forceload add -64 -208 -1 -145
-
-forceload add -64 0 -17 47
+# Stage Select
+forceload add -160 -16 -17 159
 
 worldborder set 9999999
 worldborder center -520.5 55.5
