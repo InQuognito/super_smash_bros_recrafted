@@ -927,6 +927,19 @@
 	},
 	{
 		"function": "minecraft:set_nbt",
+		"tag": "{display:{color:131586}}",
+		"conditions": [
+			{
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"nbt": "{Tags:[\"sora\",\"default\",\"anti\"]}"
+				}
+			}
+		]
+	},
+	{
+		"function": "minecraft:set_nbt",
 		"tag": "{display:{color:3421497}}",
 		"conditions": [
 			{
@@ -953,19 +966,6 @@
 	},
 	{
 		"function": "minecraft:set_nbt",
-		"tag": "{display:{color:131586}}",
-		"conditions": [
-			{
-				"condition": "minecraft:entity_properties",
-				"entity": "this",
-				"predicate": {
-					"nbt": "{Tags:[\"sora\",\"default\",\"anti\"]}"
-				}
-			}
-		]
-	},
-	{
-		"function": "minecraft:set_nbt",
 		"tag": "{display:{color:7566195}}",
 		"conditions": [
 			{
@@ -973,6 +973,19 @@
 				"entity": "this",
 				"predicate": {
 					"nbt": "{Tags:[\"sora\",\"timelessRiver\"]}"
+				}
+			}
+		]
+	},
+	{
+		"function": "minecraft:set_nbt",
+		"tag": "{display:{color:131586}}",
+		"conditions": [
+			{
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"nbt": "{Tags:[\"sora\",\"timelessRiver\",\"anti\"]}"
 				}
 			}
 		]
@@ -999,19 +1012,6 @@
 				"entity": "this",
 				"predicate": {
 					"nbt": "{Tags:[\"sora\",\"timelessRiver\",\"wisdom\"]}"
-				}
-			}
-		]
-	},
-	{
-		"function": "minecraft:set_nbt",
-		"tag": "{display:{color:131586}}",
-		"conditions": [
-			{
-				"condition": "minecraft:entity_properties",
-				"entity": "this",
-				"predicate": {
-					"nbt": "{Tags:[\"sora\",\"timelessRiver\",\"anti\"]}"
 				}
 			}
 		]
