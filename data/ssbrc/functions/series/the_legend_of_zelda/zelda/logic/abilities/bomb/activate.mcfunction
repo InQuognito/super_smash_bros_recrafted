@@ -4,3 +4,5 @@ scoreboard players set @s cooldown.1 2
 
 tag @s add activeFuse
 scoreboard players reset @s fuse
+
+execute at @s run playsound ssbrc:fighters.zelda.bomb.activate player @a

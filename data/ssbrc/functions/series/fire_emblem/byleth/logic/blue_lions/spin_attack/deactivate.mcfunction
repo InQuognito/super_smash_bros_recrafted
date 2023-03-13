@@ -10,3 +10,6 @@ execute if score @s charge.output matches 81.. run loot replace entity @s weapon
 execute if score @s charge.output matches 21.. run tag @s add spinning
 
 function ssbrc:logic/resets/charge
+
+execute if score @s charge.output matches 21..80 run playsound ssbrc:fighters.byleth.blue_lions.spin_attack.default player @a
+execute if score @s charge.output matches 81.. run playsound ssbrc:fighters.byleth.blue_lions.spin_attack.awakened player @a
