@@ -39,4 +39,4 @@ execute if entity @p[tag=notPosted,tag=zelda] run function ssbrc:maps/m/miiverse
 tag @s add posted
 
 tag @p[tag=notPosted] remove notPosted
-execute if entity @a[tag=notPosted] as @e[type=minecraft:armor_stand,tag=post,tag=!posted,sort=random,limit=1] at @s run function ssbrc:maps/m/miiverse/logic/posts/apply
+execute if entity @a[tag=notPosted] as @e[type=minecraft:item_display,tag=post,tag=!posted,sort=random,limit=1] at @s run function ssbrc:maps/m/miiverse/logic/posts/apply
