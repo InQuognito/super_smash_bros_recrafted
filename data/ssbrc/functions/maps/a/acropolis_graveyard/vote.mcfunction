@@ -1,6 +1,6 @@
-scoreboard players add @e[tag=voteCounter,tag=acropolisGraveyard,limit=1] mapVote 1
+scoreboard players add @e[type=minecraft:text_display,tag=voteCounter,tag=acropolisGraveyard,limit=1] mapVote 1
 
-execute unless entity @s[tag=acropolisGraveyard] run tellraw @a[tag=room.mapVoting] [{"selector":"@s","bold":false},{"text":" has voted for Acropolis Graveyard! Votes: ","color":"gold"},{"score":{"name":"@e[tag=voteCounter,tag=acropolisGraveyard,limit=1]","objective":"mapVote"},"bold":false,"color":"yellow"}]
+execute unless entity @s[tag=acropolisGraveyard] run tellraw @a[tag=room.mapVoting] [{"selector":"@s","bold":false},{"text":" has voted for Acropolis Graveyard! Votes: ","color":"gold"},{"score":{"name":"@e[type=minecraft:text_display,tag=voteCounter,tag=acropolisGraveyard,limit=1]","objective":"mapVote"},"bold":false,"color":"yellow"}]
 
 function ssbrc:logic/pre_game/map_voting/update_counters/remove_vote
 tag @s add acropolisGraveyard

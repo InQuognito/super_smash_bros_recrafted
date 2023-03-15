@@ -3,4 +3,4 @@ data modify entity @s text set value '[{"text":"Votes: ","color":"gold"},{"score
 tag @s remove voteCounter.self
 
 tag @s remove voteCounter.update
-execute as @e[tag=voteCounter.update,sort=random,limit=1] run function ssbrc:logic/pre_game/map_voting/update_counters/votes
+execute as @e[type=minecraft:text_display,tag=voteCounter.update,sort=random,limit=1] run function ssbrc:logic/pre_game/map_voting/update_counters/votes
