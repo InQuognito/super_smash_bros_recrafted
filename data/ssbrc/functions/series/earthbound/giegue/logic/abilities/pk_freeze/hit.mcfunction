@@ -1,3 +1,6 @@
-playsound minecraft:entity.arrow.hit_player player @s
+damage @s 6.0 ssbrc:projectile by @p[tag=self]
+function ssbrc:logic/characters/attributes/modifiers/frostbite/increase
 
-advancement revoke @s only ssbrc:utility/flag/hurt_player/custom/pk_freeze
+kill @e[type=minecraft:area_effect_cloud,tag=pkFreeze,sort=nearest,limit=1]
+
+execute as @p[tag=self] at @s run playsound minecraft:entity.arrow.hit_player player @s
