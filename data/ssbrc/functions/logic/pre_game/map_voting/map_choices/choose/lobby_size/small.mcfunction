@@ -1,3 +1,5 @@
+say placed small map
+
 execute if entity @s[tag=flatZone] run function ssbrc:logic/pre_game/map_voting/map_choices/stages/flat_zone
 execute if entity @s[tag=icicleMountain] run function ssbrc:logic/pre_game/map_voting/map_choices/stages/icicle_mountain
 execute if entity @s[tag=magicant] run function ssbrc:logic/pre_game/map_voting/map_choices/stages/magicant
