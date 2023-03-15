@@ -4,14 +4,14 @@ scoreboard players set $songCount map 3
 scoreboard players set #mapPicked mapVote 1
 forceload add -288 -192 -177 -81
 
+# Yoshi Egg
 summon minecraft:armor_stand -218.5 26.5 -144.5 {Rotation:[15f,0f],Invisible:1b,Invulnerable:1b,NoBasePlate:1b,NoGravity:1b,DisabledSlots:4144959,ArmorItems:[{},{},{},{id:"minecraft:carrot_on_a_stick",Count:1b,tag:{CustomModelData:1741}}]}
 
-summon minecraft:area_effect_cloud -249.5 26.5 -148.5 {CustomName:'{"text":"W E L C O M E","color":"white","font":"ssbrc:mario"}',CustomNameVisible:1b,Age:-2147483648,Duration:-1,WaitTime:-2147483648}
-summon minecraft:area_effect_cloud -249.5 26.5 -154.5 {CustomName:'{"text":"T O","color":"white","font":"ssbrc:mario"}',CustomNameVisible:1b,Age:-2147483648,Duration:-1,WaitTime:-2147483648}
-summon minecraft:area_effect_cloud -249.5 26.5 -160.5 {CustomName:'{"text":"T H E","color":"white","font":"ssbrc:mario"}',CustomNameVisible:1b,Age:-2147483648,Duration:-1,WaitTime:-2147483648}
-summon minecraft:area_effect_cloud -249.5 25.5 -151.5 {CustomName:'{"text":"W A R P","color":"white","font":"ssbrc:mario"}',CustomNameVisible:1b,Age:-2147483648,Duration:-1,WaitTime:-2147483648}
-summon minecraft:area_effect_cloud -249.5 25.5 -157.5 {CustomName:'{"text":"Z O N E !","color":"white","font":"ssbrc:mario"}',CustomNameVisible:1b,Age:-2147483648,Duration:-1,WaitTime:-2147483648}
+# Warp Zone
+summon minecraft:text_display -249.5 27.25 -154.5 {text:'[{"text":"WELCOME TO THE","font":"ssbrc:mario"}]',line_width:500,background:0,billboard:center}
+summon minecraft:text_display -249.5 26.25 -154.5 {text:'[{"text":"WARP ZONE!","font":"ssbrc:mario"}]',line_width:500,background:0,billboard:center}
 
+# ? Blocks
 summon minecraft:item_frame -218.5 35.5 -137.5 {Facing:2b,Fixed:1b,Invisible:1b,Item:{id:"minecraft:sugar",Count:1b,tag:{CustomModelData:1201}}}
 summon minecraft:item_frame -218.5 35.5 -135.5 {Facing:3b,Fixed:1b,Invisible:1b,Item:{id:"minecraft:sugar",Count:1b,tag:{CustomModelData:1201}}}
 
