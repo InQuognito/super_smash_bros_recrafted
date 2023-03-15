@@ -3,7 +3,7 @@ clone -131 15 -9 -111 24 2 -48 8 35
 
 kill @e[type=minecraft:armor_stand,tag=lobbyStand]
 kill @e[type=minecraft:area_effect_cloud,tag=lobbyStand.label]
-kill @e[type=minecraft:area_effect_cloud,tag=lobby.action]
+kill @e[type=minecraft:text_display,tag=lobby.action]
 
 summon minecraft:area_effect_cloud ~ ~ ~ {Age:-2147483648,Duration:-1,WaitTime:-2147483648,Tags:["voteCounter","acropolisGraveyard"],CustomNameVisible:1b}
 summon minecraft:area_effect_cloud ~ ~ ~ {Age:-2147483648,Duration:-1,WaitTime:-2147483648,Tags:["voteCounter","bowsersCastle"],CustomNameVisible:1b}
@@ -60,5 +60,4 @@ execute store result score $playersAlive temp if entity @a[predicate=ssbrc:ingam
 scoreboard players set gameStage temp 2
 scoreboard players set countdown timer 30
 
-setblock -481 4 55 minecraft:oak_sign{Text1:'[{"text":"Status: ","color":"gold"},{"text":"Stage Select","color":"yellow"}]'} destroy
-data modify entity @e[tag=lobby.status,limit=1] CustomName set from block -481 4 55 Text1
+data modify entity @e[tag=lobby.status,limit=1] text set value '[{"text":"Status: ","color":"gold"},{"text":"Stage Select","color":"yellow"}]'

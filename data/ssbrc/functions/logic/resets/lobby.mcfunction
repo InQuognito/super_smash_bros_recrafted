@@ -6,10 +6,10 @@ summon minecraft:text_display -524.5 6.5 55.5 {text:'{"text":"Super Smash Bros. 
 summon minecraft:text_display -520.5 5.25 62.5 {text:'{"text":"✪ Shop ✪","color":"gold"}',billboard:center}
 summon minecraft:text_display -520.5 5.25 48.5 {text:'{"text":"✪ Shop ✪","color":"gold"}',billboard:center}
 
-summon minecraft:area_effect_cloud -528.5 6.0 60.5 {Tags:["lobby.action"],CustomName:'{"text":"Join Game","color":"gold"}',CustomNameVisible:1b,Age:-2147483648,Duration:-1,WaitTime:-2147483648}
-summon minecraft:area_effect_cloud -528.5 5.75 60.5 {Tags:["lobby.status"],CustomName:'[{"text":"Status: ","color":"gold"},{"text":"Fighter Select","color":"yellow"}]',CustomNameVisible:1b,Age:-2147483648,Duration:-1,WaitTime:-2147483648}
-summon minecraft:area_effect_cloud -528.5 5.5 60.5 {Tags:["lobby.players"],CustomName:'[{"text":"Players: ","color":"gold"},{"text":"0/8","color":"yellow"}]',CustomNameVisible:1b,Age:-2147483648,Duration:-1,WaitTime:-2147483648}
-summon minecraft:area_effect_cloud -528.5 5.25 60.5 {Tags:["lobby.timer"],CustomName:'',CustomNameVisible:1b,Age:-2147483648,Duration:-1,WaitTime:-2147483648}
+summon minecraft:text_display -528.5 6.75 60.5 {Tags:["lobby.action"],text:'{"text":"Join Game","color":"gold"}',billboard:center}
+summon minecraft:text_display -528.5 6.5 60.5 {Tags:["lobby.status"],text:'[{"text":"Status: ","color":"gold"},{"text":"Fighter Select","color":"yellow"}]',billboard:center}
+summon minecraft:text_display -528.5 6.25 60.5 {Tags:["lobby.players"],text:'[{"text":"Players: ","color":"gold"},{"text":"0/8","color":"yellow"}]',billboard:center}
+summon minecraft:text_display -528.5 6.0 60.5 {Tags:["lobby.timer"],billboard:center}
 
 summon minecraft:text_display -528.5 6.75 50.5 {text:'{"text":"Credits","color":"gold"}',billboard:center}
 summon minecraft:text_display -521.5 1.75 55.5 {text:'{"text":"Return to Lobby","color":"gold"}',billboard:center}

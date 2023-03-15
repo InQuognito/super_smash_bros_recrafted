@@ -11,4 +11,4 @@ execute store result score characterPicked temp if entity @a[tag=characterPicked
 execute unless score players.playing temp matches 8.. run setblock -483 4 55 minecraft:oak_sign{Text1:'[{"text":"Players: ","color":"gold"},{"score":{"name":"players.playing","objective":"temp"},"color":"yellow"},{"text":"/8","bold":false,"color":"yellow"}]'} destroy
 execute if score players.playing temp matches 8.. run setblock -483 4 55 minecraft:oak_sign{Text1:'[{"text":"Lobby Full","color":"red"}]'} destroy
 
-data modify entity @e[tag=lobby.players,limit=1] CustomName set from block -483 4 55 Text1
+data modify entity @e[tag=lobby.players,limit=1] text set from block -483 4 55 Text1
