@@ -1,5 +1,3 @@
-say placed medium map
-
 execute if entity @s[tag=acropolisGraveyard] run function ssbrc:logic/pre_game/map_voting/map_choices/stages/acropolis_graveyard
 execute if entity @s[tag=bowsersCastle] run function ssbrc:logic/pre_game/map_voting/map_choices/stages/bowsers_castle
 execute if entity @s[tag=castleSiege] run function ssbrc:logic/pre_game/map_voting/map_choices/stages/castle_siege

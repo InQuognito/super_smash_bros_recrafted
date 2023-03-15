@@ -18,6 +18,10 @@ function ssbrc:logic/resets/gamerules
 function ssbrc:logic/resets/schedule
 function ssbrc:logic/resets/teams
 
+forceload remove all
+
+# Memory Chunk
+forceload add 0 0 0 0
 # Lobby
 forceload add -544 32 -497 79
 # Fighter Select

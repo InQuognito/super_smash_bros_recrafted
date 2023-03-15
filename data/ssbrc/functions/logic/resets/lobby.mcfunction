@@ -19,9 +19,6 @@ summon minecraft:armor_stand -535.502 7.0 55.472 {Tags:["lobbyStatue","mario","g
 function ssbrc:logic/resets/lobby/character_room
 function ssbrc:logic/resets/lobby/credits
 
-forceload remove all
-forceload add 0 0 0 0
-
 tag @a remove winner
 
 function ssbrc:logic/leaderboard/wins/load
