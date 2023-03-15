@@ -1,4 +1,4 @@
-say post-placement
+tellraw @a [{"text":"post-placement, temp value "},{"score":{"name":"@s","objective":"temp"}}]
 
 execute unless score @s temp matches 5 at @s run teleport @s ^ ^ ^3.0
 execute if score @s temp matches 5 run teleport @s -47.5 8.5 11.5 0.0 0.0
