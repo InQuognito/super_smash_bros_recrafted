@@ -5,6 +5,6 @@ execute if score #kD.decimal temp matches ..9 run setblock -484 4 55 minecraft:o
 execute if score #kD.decimal temp matches 10.. run setblock -484 4 55 minecraft:oak_sign{Text1:'[{"text":"5. ","bold":true,"color":"gold"},{"selector":"@e[tag=leaderboard.self,limit=1]","bold":false,"color":"yellow"},{"text":" - ","bold":false,"color":"white"},{"score":{"name":"@e[tag=leaderboard.self,limit=1]","objective":"stats.kills"},"bold":false,"color":"aqua"},{"text":" | ","bold":false,"color":"white"},{"score":{"name":"#kD.integer","objective":"temp"},"bold":false,"color":"light_purple"},{"text":".","bold":false,"color":"light_purple"},{"score":{"name":"#kD.decimal","objective":"temp"},"bold":false,"color":"light_purple"}]'} destroy
 tag @s remove leaderboard.self
 
-data modify entity @e[tag=leaderboard.5,limit=1] CustomName set from block -484 4 55 Text1
+data modify entity @e[type=minecraft:text_display,tag=leaderboard.5,limit=1] text set from block -484 4 55 Text1
 
 tag @a remove leaderboard.next
