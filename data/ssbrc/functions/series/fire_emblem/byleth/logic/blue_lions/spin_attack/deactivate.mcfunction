@@ -1,8 +1,8 @@
 tag @s add self
-execute if score @s charge.output matches 21..40 as @e[tag=!self,predicate=ssbrc:flag/targets,distance=..3] run tag @s add damage.spinAttack.1
-execute if score @s charge.output matches 41..60 as @e[tag=!self,predicate=ssbrc:flag/targets,distance=..3.5] run tag @s add damage.spinAttack.2
-execute if score @s charge.output matches 61..80 as @e[tag=!self,predicate=ssbrc:flag/targets,distance=..4.0] run tag @s add damage.spinAttack.3
-execute if score @s charge.output matches 81.. as @e[tag=!self,predicate=ssbrc:flag/targets,distance=..5.0] run tag @s add damage.spinAttack.4
+execute if score @s charge.output matches 21..40 as @e[tag=!self,predicate=ssbrc:flag/targets,distance=..3] run damage @s 6.0 ssbrc:projectile by @p[tag=self]
+execute if score @s charge.output matches 41..60 as @e[tag=!self,predicate=ssbrc:flag/targets,distance=..3.5] run damage @s 6.0 ssbrc:projectile by @p[tag=self]
+execute if score @s charge.output matches 61..80 as @e[tag=!self,predicate=ssbrc:flag/targets,distance=..4.0] run damage @s 12.0 ssbrc:projectile by @p[tag=self]
+execute if score @s charge.output matches 81.. as @e[tag=!self,predicate=ssbrc:flag/targets,distance=..5.0] run damage @s 12.0 ssbrc:projectile by @p[tag=self]
 
 scoreboard players add @s charge.1 1
 execute if score @s charge.output matches 21..40 if entity @e[tag=!self,predicate=ssbrc:flag/targets,distance=..3] run function ssbrc:series/fire_emblem/byleth/logic/blue_lions/areadbhar/hit

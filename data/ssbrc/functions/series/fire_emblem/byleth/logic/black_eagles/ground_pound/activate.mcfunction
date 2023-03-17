@@ -3,7 +3,7 @@ particle minecraft:dust_color_transition 1.0 0.0 0.0 1.5 0.8 0.8 0.8 ~ ~ ~ 1.0 0
 particle minecraft:crimson_spore ~ ~ ~ 0.05 0.0 0.05 0.0 100 normal @a
 
 tag @s add self
-execute as @e[predicate=ssbrc:flag/targets,tag=!self,distance=..6] unless block ~ ~-0.5 ~ minecraft:air run tag @s add damage.groundPound
+execute as @e[predicate=ssbrc:flag/targets,tag=!self,distance=..6] unless block ~ ~-0.5 ~ minecraft:air run damage @s 24.0 ssbrc:projectile by @p[tag=self]
 tag @s remove self
 
 loot replace entity @s weapon.mainhand loot ssbrc:characters/fire_emblem/byleth/black_eagles/aymr/default
