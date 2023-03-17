@@ -1,3 +1,5 @@
+particle minecraft:smoke ~ ~ ~ 0.05 0.05 0.05 0.05 1 normal @a
+
 teleport @s[tag=!hitGround,scores={temp=..40}] ^ ^ ^0.2
 
 execute unless block ~ ~-0.1 ~ #ssbrc:passthrough unless entity @s[tag=hitGround] run function ssbrc:series/donkey_kong/kingkrool/logic/abilities/blunderbuss/land
