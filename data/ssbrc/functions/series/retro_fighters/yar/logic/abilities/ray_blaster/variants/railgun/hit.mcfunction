@@ -1,3 +1,3 @@
-playsound minecraft:entity.arrow.hit_player player @s
+damage @s 24.0 ssbrc:beam by @p[tag=self]
 
-advancement revoke @s only ssbrc:utility/flag/hurt_player/custom/railgun
+execute as @p[tag=self] at @s run playsound minecraft:entity.arrow.hit_player player @s

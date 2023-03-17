@@ -1,3 +1,3 @@
-playsound minecraft:entity.arrow.hit_player player @s
+damage @s 12.0 ssbrc:sonic by @p[tag=self]
 
-advancement revoke @s only ssbrc:utility/flag/hurt_player/custom/war_horn
+execute as @p[tag=self] at @s run playsound minecraft:entity.arrow.hit_player player @s
