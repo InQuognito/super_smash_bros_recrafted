@@ -1,6 +1,6 @@
 execute unless block ~ ~-0.1 ~ #ssbrc:passthrough run tag @s add hitGround
 
-tag @a[tag=!self,tag=!hitGround,predicate=ssbrc:flag/targets,distance=..1] add damage.throwingAnchor
+execute as @e[tag=!self,tag=!hitGround,predicate=ssbrc:flag/targets,distance=..1] run function ssbrc:series/indie_fighters/shovelknight/logic/abilities/throwing_anchor/hit
 
 scoreboard players add @s[tag=hitGround] timer 1
 execute if entity @s[tag=hitGround,scores={timer=1}] run function ssbrc:logic/characters/shockwave/low

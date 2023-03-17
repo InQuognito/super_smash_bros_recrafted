@@ -1,3 +1,7 @@
-playsound ssbrc:fighters.luigi.ice_ball.hit player @a
+damage @s 6.0 ssbrc:projectile by @p[tag=self]
 
-advancement revoke @s only ssbrc:utility/flag/hurt_player/custom/ice_ball
+function ssbrc:logic/characters/attributes/modifiers/frostbite/increase
+
+function ssbrc:series/super_mario_bros/luigi/logic/abilities/ice_ball/kill
+
+execute as @p[tag=self] at @s run playsound ssbrc:fighters.luigi.ice_ball.hit player @s

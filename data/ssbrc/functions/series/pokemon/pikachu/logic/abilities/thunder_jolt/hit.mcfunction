@@ -1,3 +1,3 @@
-playsound minecraft:entity.arrow.hit_player player @s
+damage @s 6.0 ssbrc:projectile by @p[tag=self]
 
-advancement revoke @s only ssbrc:utility/flag/hurt_player/custom/thunder_jolt
+execute as @p[tag=self] at @s run playsound minecraft:entity.arrow.hit_player player @s

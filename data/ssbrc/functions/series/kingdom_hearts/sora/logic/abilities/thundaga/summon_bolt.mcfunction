@@ -1,1 +1,1 @@
-execute as @e[predicate=ssbrc:flag/targets,distance=..1] run tag @s add damage.thundaga
+damage @e[predicate=ssbrc:flag/targets,distance=..1] 6.0 minecraft:lightning_bolt by @p[tag=self]

@@ -1,4 +1,4 @@
-tag @e[predicate=ssbrc:flag/targets,distance=..6] add damage.bomb
+damage @e[predicate=ssbrc:flag/targets,distance=..6] 12.0 ssbec:projectile by @s
 
 particle minecraft:explosion_emitter ~ ~ ~ 0.0 0.0 0.0 0.0 1 normal @a
 playsound minecraft:entity.generic.explode hostile @a

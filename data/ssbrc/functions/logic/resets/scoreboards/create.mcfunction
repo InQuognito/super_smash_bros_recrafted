@@ -17,9 +17,7 @@ scoreboard objectives add cooldown.2 dummy
 scoreboard objectives add cooldown.3 dummy
 scoreboard objectives add stats.credits.temp dummy
 scoreboard objectives add damage dummy
-scoreboard objectives add damage.fireball dummy
 scoreboard objectives add damage.fireBreath dummy
-scoreboard objectives add damage.iceBall dummy
 scoreboard objectives add debug dummy
 scoreboard objectives add dropItem minecraft.custom:minecraft.drop
 scoreboard objectives add durability dummy

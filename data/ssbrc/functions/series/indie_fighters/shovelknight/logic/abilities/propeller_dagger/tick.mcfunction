@@ -5,7 +5,7 @@ teleport @s ^ ^ ^1.5
 
 teleport @p[tag=shovelknight.propellerDagger,tag=self,scores={duration.2=1..}] ^ ^ ^ ~ ~
 
-execute positioned ~-0.5 ~-0.5 ~-0.5 as @e[tag=!self,predicate=ssbrc:flag/targets,dx=0,limit=1] run tag @s add damage.propellerDagger
+execute positioned ~-0.5 ~-0.5 ~-0.5 as @e[tag=!self,predicate=ssbrc:flag/targets,dx=0,limit=1] run damage @s 6.0 ssbrc:projectile by @p[tag=self]
 
 scoreboard players add @s temp 1
 kill @s[scores={temp=10..}]

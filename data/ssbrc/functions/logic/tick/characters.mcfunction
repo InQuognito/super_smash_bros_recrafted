@@ -87,7 +87,7 @@ execute at @s[predicate=ssbrc:characters/effects/has/poison] run particle minecr
 
 execute if score @s frostbiteTimer matches 1.. at @s run function ssbrc:logic/characters/attributes/modifiers/frostbite/tick
 
-execute at @s if entity @e[type=minecraft:marker,tag=electricTerrain,distance=..12] if block ~ ~ ~ minecraft:water run tag @s add damage.electrocution
+execute at @s if entity @e[type=minecraft:marker,tag=electricTerrain,distance=..12] if block ~ ~ ~ minecraft:water run damage @s 6.0 ssbrc:projectile
 
 scoreboard players add @s[tag=immobile.pkFlash] timer.pkFlash 1
 execute if score @s timer.pkFlash matches 40.. run function ssbrc:series/earthbound/ness/logic/abilities/pk_flash/damage/mobilize

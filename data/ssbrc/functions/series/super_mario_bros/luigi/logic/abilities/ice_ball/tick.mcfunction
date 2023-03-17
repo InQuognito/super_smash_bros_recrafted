@@ -10,6 +10,6 @@ execute if score @s point > 0 integers unless block ~ ~-0.3 ~ #ssbrc:passthrough
 
 execute rotated as @s run teleport @s ^ ^ ^0.3
 
-execute positioned ~-0.375 ~-0.375 ~-0.375 as @e[predicate=ssbrc:flag/targets,dx=0] positioned ~-0.25 ~-0.25 ~-0.25 if entity @s[dx=0] unless score @s id = @e[type=minecraft:area_effect_cloud,tag=iceBall,sort=nearest,limit=1] id run tag @s add damage.iceBall
+execute positioned ~-0.375 ~-0.375 ~-0.375 as @e[predicate=ssbrc:flag/targets,dx=0] positioned ~-0.25 ~-0.25 ~-0.25 if entity @s[dx=0] unless score @s id = @e[type=minecraft:area_effect_cloud,tag=iceBall,sort=nearest,limit=1] id run function ssbrc:series/super_mario_bros/luigi/logic/abilities/ice_ball/hit
 
 execute if entity @s[nbt={Duration:1}] run function ssbrc:series/super_mario_bros/luigi/logic/abilities/ice_ball/kill

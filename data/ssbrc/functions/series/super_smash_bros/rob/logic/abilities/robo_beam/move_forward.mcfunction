@@ -6,5 +6,5 @@ teleport @s ^ ^ ^0.5
 
 execute unless block ^ ^ ^0.5 #ssbrc:passthrough run kill @s
 
-execute positioned ~-0.25 ~-0.25 ~-0.25 as @e[predicate=ssbrc:flag/targets,dx=0] positioned ~-0.5 ~-0.5 ~-0.5 if entity @s[dx=0] unless score @s id = @e[type=minecraft:area_effect_cloud,tag=roboBeam,tag=small,sort=nearest,limit=1] id run tag @s add damage.roboBeam.small
-execute positioned ~-0.5 ~-0.5 ~-0.5 as @e[predicate=ssbrc:flag/targets,dx=0] unless score @s id = @e[type=minecraft:area_effect_cloud,tag=roboBeam,tag=large,sort=nearest,limit=1] id run tag @s add damage.roboBeam.large
+execute positioned ~-0.25 ~-0.25 ~-0.25 as @e[predicate=ssbrc:flag/targets,dx=0] positioned ~-0.5 ~-0.5 ~-0.5 if entity @s[dx=0] unless score @s id = @e[type=minecraft:area_effect_cloud,tag=roboBeam,tag=small,sort=nearest,limit=1] id run function ssbrc:series/super_smash_bros/rob/logic/abilities/robo_beam/hit
+execute positioned ~-0.5 ~-0.5 ~-0.5 as @e[predicate=ssbrc:flag/targets,dx=0] unless score @s id = @e[type=minecraft:area_effect_cloud,tag=roboBeam,tag=large,sort=nearest,limit=1] id run function ssbrc:series/super_smash_bros/rob/logic/abilities/robo_beam/hit

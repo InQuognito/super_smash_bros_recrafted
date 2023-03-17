@@ -1,4 +1,4 @@
-tag @e[predicate=ssbrc:flag/targets,distance=..5] add damage.missileLauncher
+damage @e[predicate=ssbrc:flag/targets,distance=..5] 12.0 ssbrc:projectile by @p[tag=self]
 
 particle minecraft:explosion_emitter ~ ~ ~ 0.0 0.0 0.0 0.0 1 normal @a
 playsound entity.generic.explode player @a
