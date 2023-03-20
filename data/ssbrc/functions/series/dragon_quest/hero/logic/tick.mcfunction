@@ -14,4 +14,4 @@ execute if score @s duration.2 matches 1.. at @s run function ssbrc:series/drago
 execute if entity @s[predicate=ssbrc:characters/hero/kaclang/off] run function ssbrc:series/dragon_quest/hero/logic/magic/kaclang/deactivate
 
 # Magic Burst
-execute if score @s charge.1 matches 1.. run function ssbrc:series/dragon_quest/hero/logic/magic/magic_burst/tick
+execute if score @s charge.1 matches 1.. at @s run function ssbrc:series/dragon_quest/hero/logic/magic/magic_burst/tick
