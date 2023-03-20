@@ -27,6 +27,8 @@ scoreboard objectives add duration.3 dummy
 scoreboard objectives add duration.4 dummy
 scoreboard objectives add fallDistance minecraft.custom:minecraft.fall_one_cm
 scoreboard objectives add favorite.temp dummy
+scoreboard objectives add fiendsCauldron dummy
+scoreboard objectives add fiendsCauldron.timer dummy
 scoreboard objectives add flag.breakShield minecraft.broken:minecraft.shield
 scoreboard objectives add flag.damageDealt minecraft.custom:minecraft.damage_dealt
 scoreboard objectives add flag.damageTaken minecraft.custom:minecraft.damage_taken
