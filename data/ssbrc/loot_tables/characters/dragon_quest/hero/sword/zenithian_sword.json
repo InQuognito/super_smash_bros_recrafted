@@ -12,8 +12,8 @@
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"text": "Ninja Kirby",
-								"color": "light_purple",
+								"text": "Zenithian Sword",
+								"color": "yellow",
 								"bold": true,
 								"italic": false
 							}
@@ -23,7 +23,7 @@
 							"entity": "this",
 							"lore": [
 								{
-									"text": "------------",
+									"text": "----------------",
 									"color": "gray",
 									"bold": false,
 									"italic": false
@@ -34,12 +34,6 @@
 									"bold": false,
 									"italic": false,
 									"underlined": true
-								},
-								{
-									"text": "- Grants increased movement speed while held",
-									"color": "gray",
-									"bold": false,
-									"italic": false
 								}
 							],
 							"replace": true
@@ -50,21 +44,14 @@
 								{
 									"attribute": "minecraft:generic.attack_damage",
 									"name": "Attack Damage",
-									"amount": 5,
+									"amount": 4,
 									"operation": "multiply_base",
 									"slot": "mainhand"
 								},
 								{
 									"attribute": "minecraft:generic.attack_speed",
 									"name": "Attack Speed",
-									"amount": 2,
-									"operation": "multiply_base",
-									"slot": "mainhand"
-								},
-								{
-									"attribute": "minecraft:generic.movement_speed",
-									"name": "Movement Speed",
-									"amount": 0.3,
+									"amount": 1.5,
 									"operation": "multiply_base",
 									"slot": "mainhand"
 								}
@@ -72,7 +59,7 @@
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{ninjaKirby:1,CustomModelData:700,Unbreakable:1b,HideFlags:127}"
+							"tag": "{zenithianSword:1,CustomModelData:442,Unbreakable:1b,HideFlags:127}"
 						}
 					]
 				}

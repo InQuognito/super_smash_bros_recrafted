@@ -6,14 +6,14 @@
 			"entries": [
 				{
 					"type": "minecraft:item",
-					"name": "minecraft:iron_sword",
+					"name": "minecraft:carrot_on_a_stick",
 					"functions": [
 						{
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"text": "Ninja Kirby",
-								"color": "light_purple",
+								"text": "Blaster",
+								"color": "dark_purple",
 								"bold": true,
 								"italic": false
 							}
@@ -23,23 +23,37 @@
 							"entity": "this",
 							"lore": [
 								{
-									"text": "------------",
+									"text": "--------",
 									"color": "gray",
 									"bold": false,
 									"italic": false
 								},
 								{
-									"text": "Melee Weapon",
+									"text": "Ranged Weapon",
 									"color": "white",
 									"bold": false,
 									"italic": false,
 									"underlined": true
 								},
 								{
-									"text": "- Grants increased movement speed while held",
+									"text": "- [",
 									"color": "gray",
 									"bold": false,
-									"italic": false
+									"italic": false,
+									"extra": [
+										{
+											"keybind": "key.use",
+											"color": "gray",
+											"bold": false,
+											"italic": false
+										},
+										{
+											"text": "] to fire",
+											"color": "gray",
+											"bold": false,
+											"italic": false
+										}
+									]
 								}
 							],
 							"replace": true
@@ -50,21 +64,14 @@
 								{
 									"attribute": "minecraft:generic.attack_damage",
 									"name": "Attack Damage",
-									"amount": 5,
+									"amount": 0,
 									"operation": "multiply_base",
 									"slot": "mainhand"
 								},
 								{
 									"attribute": "minecraft:generic.attack_speed",
 									"name": "Attack Speed",
-									"amount": 2,
-									"operation": "multiply_base",
-									"slot": "mainhand"
-								},
-								{
-									"attribute": "minecraft:generic.movement_speed",
-									"name": "Movement Speed",
-									"amount": 0.3,
+									"amount": 1024,
 									"operation": "multiply_base",
 									"slot": "mainhand"
 								}
@@ -72,7 +79,7 @@
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{ninjaKirby:1,CustomModelData:700,Unbreakable:1b,HideFlags:127}"
+							"tag": "{blaster:1,CustomModelData:1725,Unbreakable:1b,HideFlags:127}"
 						}
 					]
 				}

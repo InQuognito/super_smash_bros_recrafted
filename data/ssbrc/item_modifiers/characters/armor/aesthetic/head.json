@@ -654,6 +654,40 @@
 	},
 	{
 		"function": "minecraft:set_nbt",
+		"tag": "{CustomModelData:448}",
+		"conditions": [
+			{
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"nbt": "{Tags:[\"hero\",\"sofia\"]}"
+				}
+			},
+			{
+				"condition": "minecraft:reference",
+				"name": "ssbrc:characters/hero/kaclang/off"
+			}
+		]
+	},
+	{
+		"function": "minecraft:set_nbt",
+		"tag": "{CustomModelData:449}",
+		"conditions": [
+			{
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"nbt": "{Tags:[\"hero\",\"sofia\"]}"
+				}
+			},
+			{
+				"condition": "minecraft:reference",
+				"name": "ssbrc:characters/hero/kaclang/on"
+			}
+		]
+	},
+	{
+		"function": "minecraft:set_nbt",
 		"tag": "{CustomModelData:580}",
 		"conditions": [
 			{
@@ -1067,6 +1101,19 @@
 				"entity": "this",
 				"predicate": {
 					"nbt": "{Tags:[\"ness\",\"pajamas\"]}"
+				}
+			}
+		]
+	},
+	{
+		"function": "minecraft:set_nbt",
+		"tag": "{CustomModelData:1084}",
+		"conditions": [
+			{
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"nbt": "{Tags:[\"ness\",\"phaseDistortion\"]}"
 				}
 			}
 		]
@@ -1975,6 +2022,19 @@
 				"entity": "this",
 				"predicate": {
 					"nbt": "{Tags:[\"wolf\",\"gold\"]}"
+				}
+			}
+		]
+	},
+	{
+		"function": "minecraft:set_nbt",
+		"tag": "{CustomModelData:1722}",
+		"conditions": [
+			{
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"nbt": "{Tags:[\"wolf\",\"assault\"]}"
 				}
 			}
 		]

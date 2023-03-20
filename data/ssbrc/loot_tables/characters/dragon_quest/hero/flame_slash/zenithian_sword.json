@@ -6,14 +6,14 @@
 			"entries": [
 				{
 					"type": "minecraft:item",
-					"name": "minecraft:iron_sword",
+					"name": "minecraft:golden_sword",
 					"functions": [
 						{
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"text": "Ninja Kirby",
-								"color": "light_purple",
+								"text": "Flame Slash",
+								"color": "gold",
 								"bold": true,
 								"italic": false
 							}
@@ -29,14 +29,14 @@
 									"italic": false
 								},
 								{
-									"text": "Melee Weapon",
+									"text": "Magic Weapon",
 									"color": "white",
 									"bold": false,
 									"italic": false,
 									"underlined": true
 								},
 								{
-									"text": "- Grants increased movement speed while held",
+									"text": " - Inflicts burning on the opponent",
 									"color": "gray",
 									"bold": false,
 									"italic": false
@@ -57,14 +57,7 @@
 								{
 									"attribute": "minecraft:generic.attack_speed",
 									"name": "Attack Speed",
-									"amount": 2,
-									"operation": "multiply_base",
-									"slot": "mainhand"
-								},
-								{
-									"attribute": "minecraft:generic.movement_speed",
-									"name": "Movement Speed",
-									"amount": 0.3,
+									"amount": 1.5,
 									"operation": "multiply_base",
 									"slot": "mainhand"
 								}
@@ -72,7 +65,7 @@
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{ninjaKirby:1,CustomModelData:700,Unbreakable:1b,HideFlags:127}"
+							"tag": "{flameSlash:1,CustomModelData:442,Unbreakable:1b,HideFlags:127}"
 						}
 					]
 				}
