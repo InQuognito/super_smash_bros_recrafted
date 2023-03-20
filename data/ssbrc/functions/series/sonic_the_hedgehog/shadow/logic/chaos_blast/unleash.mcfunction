@@ -1,4 +1,4 @@
-damage @e[tag=!self,predicate=ssbrc:flag/targets,distance=0.1..2.0] 24.0 ssbrc:projectile by @s
+execute as @e[tag=!self,predicate=ssbrc:flag/targets,distance=0.1..2.0] run damage @s 24.0 ssbrc:projectile by @s
 
 attribute @s generic.knockback_resistance base set 0.0
 

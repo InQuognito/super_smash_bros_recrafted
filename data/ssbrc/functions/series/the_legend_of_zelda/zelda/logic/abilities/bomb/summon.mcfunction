@@ -15,4 +15,4 @@ execute if score @s shadow.chaosControl matches 1.. run function ssbrc:logic/cha
 tag @s remove activeFuse
 scoreboard players reset @s fuse
 
-loot replace entity @s weapon.mainhand loot ssbrc:characters/the_legend_of_zelda/zelda/dungeon_items/bomb/default
+loot replace entity @s weapon.mainhand loot ssbrc:characters/the_legend_of_zelda/zelda/dungeon_items/bomb/stowed

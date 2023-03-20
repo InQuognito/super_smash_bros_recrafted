@@ -5,4 +5,6 @@ scoreboard players set @s cooldown.1 2
 tag @s add activeFuse
 scoreboard players reset @s fuse
 
+loot replace entity @s weapon.mainhand loot ssbrc:characters/the_legend_of_zelda/zelda/dungeon_items/bomb/default
+
 execute at @s run playsound ssbrc:fighters.zelda.bomb.activate player @a
