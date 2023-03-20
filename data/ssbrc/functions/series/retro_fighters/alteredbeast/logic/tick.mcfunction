@@ -8,4 +8,4 @@ tag @s remove self
 # Waredragon
 execute at @s[tag=waredragon,predicate=ssbrc:flag/sneaking] run function ssbrc:logic/characters/slow_falling
 
-execute at @s[scores={duration.1=1..}] run function ssbrc:series/retro_fighters/alteredbeast/logic/abilities/electrocution/tick
+execute at @s[tag=waredragon,scores={duration.1=1..}] run function ssbrc:series/retro_fighters/alteredbeast/logic/abilities/electrocution/tick
