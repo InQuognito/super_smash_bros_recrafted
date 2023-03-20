@@ -1,3 +1,3 @@
-damage @s 24.0 ssbrc:beam by @p[tag=self]
+damage @s 20.0 ssbrc:beam by @p[tag=self]
 
 execute as @p[tag=self] at @s run playsound minecraft:entity.arrow.hit_player player @s
