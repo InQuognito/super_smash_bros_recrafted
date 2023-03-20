@@ -2,5 +2,5 @@ summon minecraft:glow_item_frame ~ ~ ~ {Tags:["mapIcon","modifyEntity"],Fixed:1b
 
 function ssbrc:logic/pre_game/map_voting/map_choices/choose/modify
 
-summon minecraft:area_effect_cloud ~ ~0.5 ~ {CustomName:'{"text":"Flat Zone","bold":false,"color":"white"}',Age:-2147483648,Duration:-1,WaitTime:-2147483648,Tags:["infoDisplay"],CustomNameVisible:1b}
-summon minecraft:area_effect_cloud ~ ~0.25 ~ {CustomName:'{"text":"Game & Watch","bold":false,"color":"black"}',Age:-2147483648,Duration:-1,WaitTime:-2147483648,Tags:["infoDisplay"],CustomNameVisible:1b}
+summon minecraft:text_display ~ ~0.5 ~ {Tags:["infoDisplay"],text:'{"text":"Flat Zone","bold":false,"color":"white"}',billboard:center}
+summon minecraft:text_display ~ ~0.25 ~ {Tags:["infoDisplay"],text:'{"text":"Game & Watch","bold":false,"color":"black"}',billboard:center}

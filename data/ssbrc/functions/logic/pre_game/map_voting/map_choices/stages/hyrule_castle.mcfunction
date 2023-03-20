@@ -2,5 +2,5 @@ summon minecraft:glow_item_frame ~ ~ ~ {Tags:["mapIcon","modifyEntity"],Fixed:1b
 
 function ssbrc:logic/pre_game/map_voting/map_choices/choose/modify
 
-summon minecraft:area_effect_cloud ~ ~0.5 ~ {CustomName:'{"text":"Hyrule Castle","bold":false,"color":"blue"}',Age:-2147483648,Duration:-1,WaitTime:-2147483648,Tags:["infoDisplay"],CustomNameVisible:1b}
-summon minecraft:area_effect_cloud ~ ~0.25 ~ {CustomName:'{"text":"The Legend of Zelda","bold":false,"color":"yellow"}',Age:-2147483648,Duration:-1,WaitTime:-2147483648,Tags:["infoDisplay"],CustomNameVisible:1b}
+summon minecraft:text_display ~ ~0.5 ~ {Tags:["infoDisplay"],text:'{"text":"Hyrule Castle","bold":false,"color":"blue"}',billboard:center}
+summon minecraft:text_display ~ ~0.25 ~ {Tags:["infoDisplay"],text:'{"text":"The Legend of Zelda","bold":false,"color":"yellow"}',billboard:center}
