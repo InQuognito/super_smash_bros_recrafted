@@ -1,3 +1,3 @@
-playsound minecraft:entity.arrow.hit_player player @s
+damage @s 6.0 ssbrc:pierce by @p[tag=self]
 
-advancement revoke @s only ssbrc:utility/flag/hurt_player/custom/strike_raid
+execute as @p[tag=self] at @s run playsound minecraft:entity.arrow.hit_player player @s
