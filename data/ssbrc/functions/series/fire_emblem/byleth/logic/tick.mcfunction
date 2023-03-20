@@ -37,10 +37,10 @@ scoreboard players operation #percentage temp /= 40 integers
 
 execute if score #percentage temp matches ..50 if entity @s[tag=blackEagles] at @s run function ssbrc:series/fire_emblem/byleth/logic/black_eagles/heavy_armor
 
-execute if score #percentage temp matches ..40 run effect give @s[tag=blueLions] minecraft:resistance 1000000 0 true
-execute if score #percentage temp matches 41.. run effect clear @s[tag=blueLions] minecraft:resistance
+execute if score #percentage temp matches ..40 run effect give @s[tag=blueLions] minecraft:speed infinite 0 true
+execute if score #percentage temp matches 41.. run effect clear @s[tag=blueLions] minecraft:speed
 
-execute if score #percentage temp matches ..25 run effect give @s[tag=goldenDeer] minecraft:speed 1000000 0 true
-execute if score #percentage temp matches 26.. run effect clear @s[tag=goldenDeer] minecraft:speed
+execute if score #percentage temp matches ..25 run effect give @s[tag=goldenDeer] minecraft:resistance infinite 0 true
+execute if score #percentage temp matches 26.. run effect clear @s[tag=goldenDeer] minecraft:resistance
 
 tag @s remove self

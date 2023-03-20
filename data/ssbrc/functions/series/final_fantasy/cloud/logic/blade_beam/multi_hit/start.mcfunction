@@ -1,3 +1,5 @@
+damage @s 1.0 ssbrc:projectile by @p[tag=self]
+
 summon minecraft:marker ~ ~0.75 ~ {Tags:["modifyEntity"]}
 
 scoreboard players set max random 360
@@ -12,3 +14,5 @@ scoreboard players set $rayLength temp 30
 execute as @e[tag=modifyEntity,limit=1] at @s run teleport ^ ^ ^-1.5
 execute as @e[tag=modifyEntity,limit=1] at @s positioned ^ ^ ^ run function ssbrc:series/final_fantasy/cloud/logic/blade_beam/multi_hit/loop
 kill @e[tag=modifyEntity,limit=1]
+
+execute as @p[tag=self] at @s run playsound minecraft:entity.arrow.hit_player player @s

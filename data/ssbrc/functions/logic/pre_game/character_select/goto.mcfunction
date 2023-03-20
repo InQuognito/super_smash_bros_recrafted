@@ -6,7 +6,7 @@ loot replace entity @s hotbar.0 loot ssbrc:selector
 execute if score $teams options matches 0 run team join waiting @s
 execute if score $teams options matches 1 run function ssbrc:logic/teams/red
 
-effect give @s minecraft:glowing 1000000 255 true
+effect give @s minecraft:glowing infinite 255 true
 
 tag @s add room.characterSelect
 

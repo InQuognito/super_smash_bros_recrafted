@@ -12,4 +12,4 @@ loot replace entity @s hotbar.0 loot ssbrc:characters/retro_fighters/alteredbeas
 
 function ssbrc:logic/characters/armor/update
 
-effect give @s minecraft:absorption 1000000 1 true
+effect give @s minecraft:absorption infinite 1 true

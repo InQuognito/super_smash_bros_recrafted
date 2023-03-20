@@ -5,7 +5,7 @@ tellraw @s [{"text":"=== ","color":"white"},{"text":"Shadow","color":"dark_red"}
 function ssbrc:logic/resets/tags/characters
 
 execute if score $teams options matches 0 run team join waiting @s
-effect give @s minecraft:glowing 1000000 255 true
+effect give @s minecraft:glowing infinite 255 true
 
 execute if score gameStage temp matches 1 run scoreboard players operation countdown timer = #quickStart vars
 

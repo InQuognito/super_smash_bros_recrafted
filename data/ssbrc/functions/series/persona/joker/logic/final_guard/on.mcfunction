@@ -2,9 +2,9 @@ scoreboard players set @s duration.2 40
 
 function ssbrc:logic/characters/effects/mobility/immobilize
 
-effect give @s minecraft:fire_resistance 1000000 255 true
-effect give @s minecraft:regeneration 1000000 4 true
-effect give @s minecraft:resistance 1000000 255 true
+effect give @s minecraft:fire_resistance infinite 255 true
+effect give @s minecraft:regeneration infinite 4 true
+effect give @s minecraft:resistance infinite 255 true
 
 scoreboard players set max random 3
 function ssbrc:math/rng/lcg

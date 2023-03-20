@@ -12,7 +12,7 @@ scoreboard players operation @s mana -= #shovelknight.propellerDaggerManaCost va
 
 scoreboard players set @s duration.2 10
 
-effect give @s minecraft:levitation 1000000 0 true
+effect give @s minecraft:levitation infinite 0 true
 
 particle minecraft:cloud ~ ~0.75 ~ 0.3 0.3 0.3 0.0 15 normal @a
 

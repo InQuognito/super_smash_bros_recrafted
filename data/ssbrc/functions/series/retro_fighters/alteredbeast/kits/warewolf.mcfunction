@@ -11,4 +11,4 @@ loot replace entity @s weapon.offhand loot ssbrc:characters/retro_fighters/alter
 
 function ssbrc:logic/characters/armor/update
 
-effect give @s minecraft:absorption 1000000 0 true
+effect give @s minecraft:absorption infinite 0 true
