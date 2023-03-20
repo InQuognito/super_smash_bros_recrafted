@@ -1,11 +1,11 @@
+tag @s add self
+
 execute if entity @s[predicate=ssbrc:characters/link/master_sword_awakened,predicate=!ssbrc:flag/sneaking,scores={useAbility=1..,cooldown.1=..0},nbt={SelectedItem:{tag:{masterSword:1}}}] at @s anchored eyes run function ssbrc:series/the_legend_of_zelda/link/logic/abilities/sword_beam/summon
 execute if entity @s[predicate=ssbrc:flag/sneaking,scores={charge.step=5..}] at @s run function ssbrc:series/the_legend_of_zelda/link/logic/abilities/sword_spin/deactivate
 execute if entity @s[scores={useAbility=1..},nbt={SelectedItem:{tag:{boomerang:1}}}] at @s anchored eyes run function ssbrc:series/the_legend_of_zelda/link/logic/abilities/boomerang/summon
 
-tag @s add self
 execute as @e[type=minecraft:arrow,tag=swordBeam] at @s if score @s id = @p[tag=self] id run function ssbrc:series/the_legend_of_zelda/link/logic/abilities/sword_beam/tick
 execute as @e[type=minecraft:area_effect_cloud,tag=boomerang] at @s if score @s id = @p[tag=self] id run function ssbrc:series/the_legend_of_zelda/link/logic/abilities/boomerang/tick
-tag @s remove self
 
 # Health
 execute if score @s health matches ..6 run function ssbrc:series/the_legend_of_zelda/link/logic/low_health_alert/check
@@ -29,3 +29,5 @@ execute if entity @s[predicate=ssbrc:flag/sneaking,scores={charge.output=1..},nb
 execute if entity @s[predicate=!ssbrc:flag/sneaking,scores={charge.output=1..}] run function ssbrc:series/the_legend_of_zelda/link/logic/abilities/sword_spin/cancel
 
 execute if entity @s[tag=spinning] at @s run function ssbrc:series/the_legend_of_zelda/link/logic/abilities/sword_spin/tick
+
+tag @s remove self
