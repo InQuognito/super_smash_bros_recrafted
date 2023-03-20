@@ -1,4 +1,4 @@
-tag @s[tag=!gold,tag=!moonside,tag=!pajamas] add default
+tag @s[tag=!gold,tag=!moonside,tag=!pajamas,tag=!phaseDistortion] add default
 
 tellraw @s [{"text":"You have selected ","color":"white"},{"text":"Ness","color":"dark_purple"},{"text":"!","color":"white"}]
 
@@ -6,6 +6,7 @@ tellraw @s[tag=default] [{"text":"Skin: ","color":"white"},{"text":"Default","co
 tellraw @s[tag=gold] [{"text":"Skin: ","color":"white"},{"text":"Gold","color":"gold"}]
 tellraw @s[tag=moonside] [{"text":"Skin: ","color":"white"},{"text":"Moonside","color":"aqua"}]
 tellraw @s[tag=pajamas] [{"text":"Skin: ","color":"white"},{"text":"Pajamas","color":"dark_aqua"}]
+tellraw @s[tag=phaseDistortion] [{"text":"Skin: ","color":"white"},{"text":"Phase Distortion","color":"gray"}]
 
 function ssbrc:logic/resets/tags/characters
 tag @s add ness

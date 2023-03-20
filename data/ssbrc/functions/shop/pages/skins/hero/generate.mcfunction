@@ -12,6 +12,10 @@ execute if score @s[advancements={ssbrc:series/dragon_quest/hero/skins/rek=false
 execute if score @s[advancements={ssbrc:series/dragon_quest/hero/skins/rek=false}] stats.credits >= #price.skin.common vars run loot replace entity @s enderchest.3 loot ssbrc:ui/shop/skins/hero/rek/unowned
 loot replace entity @s[advancements={ssbrc:series/dragon_quest/hero/skins/rek=true}] enderchest.3 loot ssbrc:ui/shop/skins/hero/rek/owned
 
+execute if score @s[advancements={ssbrc:series/dragon_quest/hero/skins/sofia=false}] stats.credits < #price.skin.common vars run loot replace entity @s enderchest.4 loot ssbrc:ui/shop/skins/hero/sofia/cannot_afford
+execute if score @s[advancements={ssbrc:series/dragon_quest/hero/skins/sofia=false}] stats.credits >= #price.skin.common vars run loot replace entity @s enderchest.4 loot ssbrc:ui/shop/skins/hero/sofia/unowned
+loot replace entity @s[advancements={ssbrc:series/dragon_quest/hero/skins/sofia=true}] enderchest.4 loot ssbrc:ui/shop/skins/hero/sofia/owned
+
 loot replace entity @s enderchest.8 loot ssbrc:ui/null/red
 loot replace entity @s enderchest.17 loot ssbrc:ui/null/red
 loot replace entity @s enderchest.26 loot ssbrc:ui/null/red

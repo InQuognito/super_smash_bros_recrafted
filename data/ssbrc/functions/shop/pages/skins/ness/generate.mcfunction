@@ -12,6 +12,10 @@ execute if score @s[advancements={ssbrc:series/earthbound/ness/skins/pajamas=fal
 execute if score @s[advancements={ssbrc:series/earthbound/ness/skins/pajamas=false}] stats.credits >= #price.skin.common vars run loot replace entity @s enderchest.3 loot ssbrc:ui/shop/skins/ness/pajamas/unowned
 loot replace entity @s[advancements={ssbrc:series/earthbound/ness/skins/pajamas=true}] enderchest.3 loot ssbrc:ui/shop/skins/ness/pajamas/owned
 
+execute if score @s[advancements={ssbrc:series/earthbound/ness/skins/phase_distortion=false}] stats.credits < #price.skin.common vars run loot replace entity @s enderchest.4 loot ssbrc:ui/shop/skins/ness/phase_distortion/cannot_afford
+execute if score @s[advancements={ssbrc:series/earthbound/ness/skins/phase_distortion=false}] stats.credits >= #price.skin.common vars run loot replace entity @s enderchest.4 loot ssbrc:ui/shop/skins/ness/phase_distortion/unowned
+loot replace entity @s[advancements={ssbrc:series/earthbound/ness/skins/phase_distortion=true}] enderchest.4 loot ssbrc:ui/shop/skins/ness/phase_distortion/owned
+
 loot replace entity @s enderchest.8 loot ssbrc:ui/null/red
 loot replace entity @s enderchest.17 loot ssbrc:ui/null/red
 loot replace entity @s enderchest.26 loot ssbrc:ui/null/red
