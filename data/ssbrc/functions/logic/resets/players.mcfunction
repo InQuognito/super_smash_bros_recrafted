@@ -35,3 +35,5 @@ function ssbrc:shop/pages/main/load
 execute unless score @s hardReset matches -2147483648..2147483647 run scoreboard players set @s hardReset 0
 
 tag @s add loaded
+
+advancement grant @s[advancements={ssbrc:tutorial/intro/1=false}] only ssbrc:tutorial/intro/1
