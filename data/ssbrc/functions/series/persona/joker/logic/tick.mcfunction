@@ -1,3 +1,5 @@
+tag @s add self
+
 execute if entity @s[scores={useAbility=1..},nbt={SelectedItem:{tag:{tt33:1}}}] at @s anchored eyes run function ssbrc:series/persona/joker/logic/tt33/check
 
 execute if entity @s[scores={useAbility=1..},nbt={SelectedItem:{tag:{mask:1}}}] run function ssbrc:series/persona/joker/logic/masks/activate
@@ -7,13 +9,12 @@ execute if entity @s[scores={useAbility=1..,cooldown.1=..0},nbt={SelectedItem:{t
 execute if entity @s[scores={useAbility=1..,cooldown.1=..0},nbt={SelectedItem:{tag:{amritaShower:1}}}] run function ssbrc:series/persona/joker/logic/abilities/amrita_shower/on
 execute if entity @s[scores={useAbility=1..,cooldown.1=..0},nbt={SelectedItem:{tag:{phantomShow:1}}}] at @s anchored eyes run function ssbrc:series/persona/joker/logic/abilities/phantom_show/summon
 
-tag @s add self
 execute as @e[tag=tt33Bullet] at @s if score @s id = @p[tag=self] id run function ssbrc:series/persona/joker/logic/tt33/tick
 execute as @e[type=minecraft:area_effect_cloud,tag=eiagon] at @s if score @s id = @p[tag=self] id run function ssbrc:series/persona/joker/logic/abilities/eiagon/tick
+execute as @e[type=minecraft:area_effect_cloud,tag=eiagon.pool] at @s if score @s id = @p[tag=self] id run particle minecraft:dust_color_transition 0.4 0.0 0.0 1.0 0.2 0.0 0.0 ~ ~1 ~ 0.05 0.5 0.05 0.0 3 normal @a
 execute as @e[type=minecraft:area_effect_cloud,tag=hama] at @s if score @s id = @p[tag=self] id run function ssbrc:series/persona/joker/logic/abilities/hama/tick
 execute as @e[type=minecraft:item_display,tag=hama.display] at @s if score @s id = @p[tag=self] id run function ssbrc:series/persona/joker/logic/abilities/hama/tick_sigil
 execute as @e[type=minecraft:arrow,tag=phantomShow] at @s if score @s id = @p[tag=self] id run function ssbrc:series/persona/joker/logic/abilities/phantom_show/tick
-tag @s remove self
 
 # Persona Awakening
 execute if score @s duration.1 matches 1 run function ssbrc:series/persona/joker/logic/abilities/persona_awakening/deactivate
@@ -48,3 +49,5 @@ execute if score @s[tag=highPixie,team=team5] duration.3 matches 1.. as @a[team=
 execute if score @s[tag=highPixie,team=team6] duration.3 matches 1.. as @a[team=team6] run function ssbrc:logic/characters/effects/cleanse
 execute if score @s[tag=highPixie,team=team7] duration.3 matches 1.. as @a[team=team7] run function ssbrc:logic/characters/effects/cleanse
 execute if score @s[tag=highPixie,team=team8] duration.3 matches 1.. as @a[team=team8] run function ssbrc:logic/characters/effects/cleanse
+
+tag @s remove self
