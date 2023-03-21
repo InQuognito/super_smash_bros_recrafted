@@ -12,7 +12,7 @@
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"text": "Jack o' Lantern",
+								"text": "Jack O' Lantern",
 								"color": "red",
 								"bold": true,
 								"italic": false
