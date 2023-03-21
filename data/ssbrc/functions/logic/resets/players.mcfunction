@@ -3,7 +3,9 @@ function ssbrc:logic/resets/tags
 function ssbrc:logic/resets/triggers
 
 gamemode adventure @s
+
 clear @s
+loot replace entity @s[advancements={ssbrc:tutorial/intro/3=true}] hotbar.0 loot ssbrc:selector
 
 team leave @s
 

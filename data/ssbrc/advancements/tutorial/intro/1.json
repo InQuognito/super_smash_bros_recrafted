@@ -1,0 +1,11 @@
+{
+	"parent": "ssbrc:tutorial/root",
+	"criteria": {
+		"tick": {
+			"trigger": "minecraft:tick"
+		}
+	},
+	"rewards": {
+		"function": "ssbrc:tutorial/intro/1"
+	}
+}

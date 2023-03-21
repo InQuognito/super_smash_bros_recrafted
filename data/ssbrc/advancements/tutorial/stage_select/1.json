@@ -1,0 +1,11 @@
+{
+	"parent": "ssbrc:tutorial/fighter_select/2",
+	"criteria": {
+		"tick": {
+			"trigger": "minecraft:impossible"
+		}
+	},
+	"rewards": {
+		"function": "ssbrc:tutorial/stage_select/1"
+	}
+}
