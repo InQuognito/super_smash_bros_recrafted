@@ -18,6 +18,8 @@ function ssbrc:logic/resets/gamerules
 function ssbrc:logic/resets/schedule
 function ssbrc:logic/resets/teams
 
+kill @e[type=!minecraft:player]
+
 forceload remove all
 
 # Memory Chunk

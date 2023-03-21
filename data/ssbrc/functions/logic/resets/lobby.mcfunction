@@ -1,5 +1,3 @@
-kill @e[type=!minecraft:player]
-
 summon minecraft:text_display -524.5 6.75 55.5 {text:'{"text":"Welcome to","color":"yellow"}',billboard:center}
 summon minecraft:text_display -524.5 6.5 55.5 {text:'{"text":"Super Smash Bros. Re:Crafted!","bold":true,"color":"gold"}',billboard:center}
 
