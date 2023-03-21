@@ -39,7 +39,7 @@ summon minecraft:text_display ~ ~ ~ {Tags:["voteCounter","spearPillar"],billboar
 summon minecraft:text_display ~ ~ ~ {Tags:["voteCounter","suzakuCastle"],billboard:center}
 summon minecraft:text_display ~ ~ ~ {Tags:["voteCounter","towerOfFate"],billboard:center}
 summon minecraft:text_display ~ ~ ~ {Tags:["voteCounter","wilyCastle"],billboard:center}
-#summon minecraft:text_display ~ ~ ~ {Tags:["voteCounter","yggdrasilsAltar"],billboard:center}
+summon minecraft:text_display ~ ~ ~ {Tags:["voteCounter","yggdrasilsAltar"],billboard:center}
 
 function ssbrc:logic/pre_game/map_voting/map_choices/start
 

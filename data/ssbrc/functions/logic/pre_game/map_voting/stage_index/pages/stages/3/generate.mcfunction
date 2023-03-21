@@ -12,7 +12,7 @@ item replace entity @s enderchest.6 with minecraft:sugar{ui:{id:"stages.suzakuCa
 
 item replace entity @s enderchest.11 with minecraft:sugar{ui:{id:"stages.towerOfFate",sound:"click"},CustomModelData:1750,HideFlags:127,display:{Name:'{"translate":"Tower of Fate","color":"dark_purple","italic":false}',Lore:['{"translate":"Shovel Knight","color":"yellow","italic":false}','""','{"translate":"Click to vote","color":"yellow","italic":false}']}}
 item replace entity @s enderchest.12 with minecraft:sugar{ui:{id:"stages.wilyCastle",sound:"click"},CustomModelData:1800,HideFlags:127,display:{Name:'{"translate":"Wily Castle","color":"blue","italic":false}',Lore:['{"translate":"Mega Man","color":"blue","italic":false}','""','{"translate":"Click to vote","color":"yellow","italic":false}']}}
-#item replace entity @s enderchest.13 with minecraft:sugar{ui:{id:"stages.yggdrasilsAltar",sound:"click"},CustomModelData:1950,HideFlags:127,display:{Name:'{"translate":"Yggdrasil\'s Altar","color":"yellow","italic":false}',Lore:['{"translate":"Dragon Quest","color":"red","italic":false}','""','{"translate":"Click to vote","color":"yellow","italic":false}']}}
+item replace entity @s enderchest.13 with minecraft:sugar{ui:{id:"stages.yggdrasilsAltar",sound:"click"},CustomModelData:1950,HideFlags:127,display:{Name:'{"translate":"Yggdrasil\'s Altar","color":"yellow","italic":false}',Lore:['{"translate":"Dragon Quest","color":"red","italic":false}','""','{"translate":"Click to vote","color":"yellow","italic":false}']}}
 
 loot replace entity @s enderchest.8 loot ssbrc:ui/null/yellow
 loot replace entity @s enderchest.17 loot ssbrc:ui/null/yellow
