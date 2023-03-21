@@ -50,9 +50,9 @@ summon minecraft:text_display -543.5 -1.75 47.5 {text:'{"text":"PastaPower2K64",
 # Testers
 summon minecraft:text_display -534.5 -1.75 60.5 {text:'{"text":"Testers","bold":true,"color":"gold"}',billboard:center}
 
-summon minecraft:text_display -534.5 -3.0 60.9 {text:'{"text":"3DSCarnaje | AndrewAwesome87 | JediMasterHomer | MysticGamer123 | NintenDOPE1985 | P5eudonym","color":"white"}',background:0,Rotation:[180f,0f]}
+summon minecraft:text_display -534.5 -3.0 60.9 {text:'[{"text":"3DSCarnaje","color":"white"},{"text":" | ","color":"yellow"},{"text":"AndrewAwesome87","color":"white"},{"text":" | ","color":"yellow"},{"text":"JediMasterHomer","color":"white"},{"text":" | ","color":"yellow"},{"text":"MysticGamer123","color":"white"},{"text":" | ","color":"yellow"},{"text":"NintenDOPE1985","color":"white"},{"text":" | ","color":"yellow"},{"text":"P5eudonym","color":"white"}]',background:0,Rotation:[180f,0f]}
 
 # Special Thanks
 summon minecraft:text_display -534.5 -1.75 50.5 {text:'{"text":"Special Thanks","bold":true,"color":"gold"}',billboard:center}
 
-summon minecraft:text_display -534.5 -3.0 50.1 {text:'{"text":"ComicalFont | K_A_N_K | LIL_BOI_BLU | Minecraft Commands Discord | Mongoose1716 | Siestadev | Simplly | Sushironi | YaBoiDenver","color":"white"}',background:0}
+summon minecraft:text_display -534.5 -3.0 50.1 {text:'[{"text":"ComicalFont","color":"white"},{"text":" | ","color":"yellow"},{"text":"K_A_N_K","color":"white"},{"text":" | ","color":"yellow"},{"text":"LIL_BOI_BLU","color":"white"},{"text":" | ","color":"yellow"},{"text":"Minecraft Commands Discord","color":"white"},{"text":" | ","color":"yellow"},{"text":"Mongoose1716","color":"white"},{"text":" | ","color":"yellow"},{"text":"Siestadev","color":"white"},{"text":" | ","color":"yellow"},{"text":"Simplly","color":"white"},{"text":" | ","color":"yellow"},{"text":"Sushironi","color":"white"},{"text":" | ","color":"yellow"},{"text":"YaBoiDenver","color":"white"}]',background:0}
