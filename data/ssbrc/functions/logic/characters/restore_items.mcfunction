@@ -9,8 +9,8 @@ tag @s remove shieldBroken
 tag @s[tag=alucard,tag=bloodMetamorphosis] remove bloodMetamorphosis
 
 # Bowser
-execute if entity @s[tag=bowser,tag=rageUsed] run function ssbrc:series/super_mario_bros/bowser/logic/abilities/rage/deactivate
-tag @s[tag=bowser,tag=rageUsed] remove rageUsed
+tag @s[tag=bowser] remove rageUsed
+execute if entity @s[tag=bowser] run function ssbrc:series/super_mario_bros/bowser/logic/abilities/rage/deactivate
 
 # Byleth
 clear @s[tag=byleth] minecraft:shield
