@@ -35,8 +35,8 @@ scoreboard players set @s[tag=cloud] cloud.limit 0
 scoreboard players set @s[tag=darksamus] charge.1 0
 
 # Donkey Kong
-clear @s[tag=donkeykong] minecraft:splash_potion{orangeBomb:1}
-loot replace entity @s[tag=donkeykong] hotbar.2 loot ssbrc:characters/donkey_kong/donkeykong/orange_grenade
+scoreboard players set @s[tag=donkeykong] charge.1 2
+loot replace entity @s[tag=donkeykong] hotbar.2 loot ssbrc:characters/donkey_kong/donkeykong/orange_grenade/default
 
 # Ganondorf
 clear @s[tag=ganondorf] minecraft:trident
