@@ -9,4 +9,4 @@ teleport @s[x=-530.0,y=4.0,z=49.0,dy=1] -523.5 -1.0 55.5 90.0 0.0
 teleport @s[x=-521.0,y=-1.0,z=55.0,dy=1] -520.5 5.0 55.5 90.0 0.0
 
 # Mr. Sandbag
-advancement grant @s[advancements={ssbrc:tutorial/intro/2=false},x=-529.5,y=5.0,z=55.5,distance=..1.5] only ssbrc:tutorial/intro/2
+advancement grant @s[advancements={ssbrc:tutorial/intro/2=false},x=-529.5,y=5.0,z=55.5,distance=..2] only ssbrc:tutorial/intro/2
