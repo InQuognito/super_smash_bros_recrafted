@@ -7,4 +7,4 @@ execute if score result random matches 0 run fill 785 6 188 785 7 188 minecraft:
 execute if score result random matches 1 run fill 785 9 188 785 10 188 minecraft:black_concrete replace
 execute if score result random matches 2 run fill 785 12 188 785 13 188 minecraft:black_concrete replace
 
-schedule function ssbrc:maps/f/flat_zone/logic/zookeeper_2 15t replace
+schedule function ssbrc:maps/f/flat_zone/logic/zookeeper/2 15t replace

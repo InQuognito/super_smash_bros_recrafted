@@ -10,4 +10,4 @@ execute if score result random matches 1 run setblock 782 12 188 minecraft:black
 execute if score result random matches 2 run setblock 778 9 188 minecraft:black_concrete replace
 execute if score result random matches 3 run setblock 782 6 188 minecraft:black_concrete replace
 
-schedule function ssbrc:maps/f/flat_zone/logic/lion_2 12t replace
+schedule function ssbrc:maps/f/flat_zone/logic/lion/2 12t replace
