@@ -50,7 +50,7 @@ summon minecraft:text_display -543.5 -1.75 47.5 {text:'{"text":"PastaPower2K64",
 # Testers
 summon minecraft:text_display -534.5 -1.75 60.5 {text:'{"text":"Testers","bold":true,"color":"gold"}',billboard:center}
 
-summon minecraft:text_display -534.5 -3.0 60.5 {text:'{"text":"3DSCarnaje | AndrewAwesome87 | JediMasterHomer | MysticGamer123 | P5eudonym","color":"white"}',Rotation:[180f,0f]}
+summon minecraft:text_display -534.5 -3.0 60.5 {text:'{"text":"3DSCarnaje | AndrewAwesome87 | JediMasterHomer | MysticGamer123 | NintenDOPE1985 | P5eudonym","color":"white"}',Rotation:[180f,0f]}
 
 # Special Thanks
 summon minecraft:text_display -534.5 -1.75 50.5 {text:'{"text":"Special Thanks","bold":true,"color":"gold"}',billboard:center}
