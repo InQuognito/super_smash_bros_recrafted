@@ -64,8 +64,8 @@ give @s[tag=link] minecraft:spectral_arrow 5
 scoreboard players reset @s[tag=link] charge.1
 
 # Megaman
-clear @s[tag=megaman] minecraft:lingering_potion{blackHoleGrenade:1} 1
-loot replace entity @s[tag=megaman] hotbar.2 loot ssbrc:characters/mega_man/megaman/black_hole_grenade
+scoreboard players set @s[tag=megaman] charge.1 2
+loot replace entity @s[tag=megaman] hotbar.2 loot ssbrc:characters/mega_man/megaman/black_hole_bomb
 
 # Pikachu
 scoreboard players set @s[tag=pikachu] charge.1 5
