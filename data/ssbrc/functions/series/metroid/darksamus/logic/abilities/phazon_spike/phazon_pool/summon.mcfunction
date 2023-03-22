@@ -6,7 +6,7 @@ data modify entity @e[tag=phazonPool,tag=edit,limit=1] Owner set from entity @s 
 execute store result score #phazonPoolPosX temp run data get entity @e[type=minecraft:area_effect_cloud,tag=phazonPool,tag=edit,limit=1] Pos[0]
 execute store result score #phazonPoolPosZ temp run data get entity @e[type=minecraft:area_effect_cloud,tag=phazonPool,tag=edit,limit=1] Pos[2]
 
-scoreboard players set max random 4
+scoreboard players set max random 2
 function ssbrc:series/metroid/darksamus/logic/abilities/phazon_spike/phazon_pool/offset_x
 function ssbrc:series/metroid/darksamus/logic/abilities/phazon_spike/phazon_pool/offset_z
 
