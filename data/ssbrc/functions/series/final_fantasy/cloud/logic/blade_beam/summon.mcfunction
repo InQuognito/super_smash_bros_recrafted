@@ -5,7 +5,7 @@ execute if score @s cloud.limit < #cloud.maxLimit vars run summon minecraft:mark
 execute if score @s cloud.limit >= #cloud.maxLimit vars run summon minecraft:marker ^ ^ ^1 {Tags:["bladeBeam","limitBreak","modifyEntity"],NoGravity:1b}
 
 scoreboard players operation @e[tag=modifyEntity,limit=1] id = @s id
-data modify entity @e[tag=modifyEntity,limit=1] Motion set from entity @e[tag=direction,limit=1] Pos
+data modify entity @e[tag=modifyEntity,limit=1] Rotation[0] set from entity @s Rotation[0]
 
 tag @e[tag=modifyEntity,limit=1] remove modifyEntity
 kill @e[tag=direction,limit=1]
