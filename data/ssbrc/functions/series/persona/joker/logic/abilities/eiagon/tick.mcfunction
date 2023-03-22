@@ -1,4 +1,4 @@
-particle minecraft:dust_color_transition 0.4 0.0 0.0 1.0 0.2 0.0 0.0 ~ ~ ~ 0.05 0.05 0.05 0.0 3 normal @a
+particle minecraft:dust_color_transition 0.4 0.0 0.0 1.0 0.2 0.0 0.0 ~ ~ ~ 0.15 0.15 0.15 0.0 5 normal @a
 
 teleport @s ^ ^ ^0.5
 
