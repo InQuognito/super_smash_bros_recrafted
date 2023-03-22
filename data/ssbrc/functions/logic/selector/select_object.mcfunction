@@ -82,3 +82,5 @@ execute if entity @e[type=#ssbrc:selectable,tag=spectator,dx=0,sort=nearest,limi
 execute if entity @e[type=#ssbrc:selectable,tag=sandbag,dx=0,sort=nearest,limit=1] run function ssbrc:logic/sandbag/interact
 
 scoreboard players reset @s useAbility
+
+execute if entity @e[type=minecraft:armor_stand,dx=0,sort=nearest,limit=1] run advancement grant @s[advancements={ssbrc:tutorial/intro/3=true,ssbrc:tutorial/fighter_select/2=false}] only ssbrc:tutorial/fighter_select/2
