@@ -1,4 +1,4 @@
-execute as @e[predicate=ssbrc:flag/targets,distance=..6] run damage @s 12.0 ssbec:projectile by @s
+execute as @e[predicate=ssbrc:flag/targets,distance=..6] run damage @s 12.0 ssbrc:projectile by @s
 
 particle minecraft:explosion_emitter ~ ~ ~ 0.0 0.0 0.0 0.0 1 normal @a
 playsound minecraft:entity.generic.explode hostile @a
