@@ -16,7 +16,8 @@ execute if score result random matches 2 unless score #weaponEnchanted temp matc
 execute if score result random matches 3 if score #percentage temp matches ..40 run function ssbrc:series/the_legend_of_zelda/zelda/logic/abilities/great_fairy_blessing/blessings/fill_magic
 execute if score result random matches 4 unless score #hasRedPotion temp matches 1.. run function ssbrc:series/the_legend_of_zelda/zelda/logic/abilities/great_fairy_blessing/blessings/half_magic
 execute if score result random matches 5 unless entity @s[tag=rupeeMaster] run function ssbrc:series/the_legend_of_zelda/zelda/logic/abilities/great_fairy_blessing/blessings/rupee_master
-execute if score result random matches 6 unless score #hasGlassWeapon temp matches 0 unless score #hasNayrusRing temp matches 0 run function ssbrc:series/the_legend_of_zelda/zelda/logic/abilities/great_fairy_blessing/blessings/shatter_resist
+execute if score result random matches 6 if score #hasGlassWeapon temp matches 1 run function ssbrc:series/the_legend_of_zelda/zelda/logic/abilities/great_fairy_blessing/blessings/shatter_resist
+execute if score result random matches 6 if score #hasNayrusRing temp matches 1 run function ssbrc:series/the_legend_of_zelda/zelda/logic/abilities/great_fairy_blessing/blessings/shatter_resist
 execute if score result random matches 7 if score $teams options matches 1 run function ssbrc:series/the_legend_of_zelda/zelda/logic/abilities/great_fairy_blessing/blessings/special_bond
 
 execute if score #blessingChosen temp matches 1 run function ssbrc:series/the_legend_of_zelda/zelda/logic/abilities/great_fairy_blessing/activate
