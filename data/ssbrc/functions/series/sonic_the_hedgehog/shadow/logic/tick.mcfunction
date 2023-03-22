@@ -11,7 +11,7 @@ tag @s remove self
 # Chaos Spear
 scoreboard players add @s[scores={charge.1=1..}] charge.1 1
 execute at @s[scores={charge.1=1..}] anchored eyes run function ssbrc:series/sonic_the_hedgehog/shadow/logic/chaos_spear/initiate
-execute if score @s charge.1 matches 30.. at @s anchored eyes run function ssbrc:series/sonic_the_hedgehog/shadow/logic/chaos_spear/summon
+execute if score @s charge.1 matches 20.. at @s anchored eyes run function ssbrc:series/sonic_the_hedgehog/shadow/logic/chaos_spear/summon
 
 # Chaos Control
 scoreboard players remove @a[scores={shadow.chaosControl=1..}] shadow.chaosControl 1

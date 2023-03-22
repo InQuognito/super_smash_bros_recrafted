@@ -2,7 +2,7 @@ tag @s remove chaosBlast
 
 execute positioned 0.0 0.0 0.0 run summon minecraft:marker ^ ^ ^1 {Tags:["direction"]}
 
-summon minecraft:arrow ^ ^ ^1 {damage:20.0,Tags:["chaosBlastShockwave","modifyEntity"],NoGravity:1b}
+summon minecraft:arrow ^ ^ ^1 {damage:10.0,Tags:["chaosBlastShockwave","modifyEntity"],NoGravity:1b}
 
 execute if entity @s[tag=red] run tag @e[tag=modifyEntity,limit=1] add red
 execute if entity @s[tag=gold] run tag @e[tag=modifyEntity,limit=1] add gold
