@@ -95,6 +95,7 @@ execute if score @s[tag=!hero] menu matches 444 run function ssbrc:series/dragon
 execute if score @s[tag=!hero] menu matches 445 run function ssbrc:series/dragon_quest/hero/menu/skins/gold
 execute if score @s[tag=!hero] menu matches 446 run function ssbrc:series/dragon_quest/hero/menu/skins/erdrick
 execute if score @s[tag=!hero] menu matches 447 run function ssbrc:series/dragon_quest/hero/menu/skins/rek
+execute if score @s[tag=!hero] menu matches 448 run function ssbrc:series/dragon_quest/hero/menu/skins/sofia
 
 execute if score @s[tag=!jigglypuff] menu matches 580 run function ssbrc:series/pokemon/jigglypuff/menu/select_character
 execute if score @s[tag=!jigglypuff] menu matches 581 run function ssbrc:series/pokemon/jigglypuff/menu/skin_options
@@ -166,6 +167,7 @@ execute if score @s[tag=!ness] menu matches 1084 run function ssbrc:series/earth
 execute if score @s[tag=!ness] menu matches 1085 run function ssbrc:series/earthbound/ness/menu/skins/gold
 execute if score @s[tag=!ness] menu matches 1086 run function ssbrc:series/earthbound/ness/menu/skins/moonside
 execute if score @s[tag=!ness] menu matches 1087 run function ssbrc:series/earthbound/ness/menu/skins/pajamas
+execute if score @s[tag=!ness] menu matches 1088 run function ssbrc:series/earthbound/ness/menu/skins/phase_distortion
 
 execute if score @s[tag=!pikachu] menu matches 1200 run function ssbrc:series/pokemon/pikachu/menu/select_character
 execute if score @s[tag=!pikachu] menu matches 1201 run function ssbrc:series/pokemon/pikachu/menu/skin_options
@@ -261,6 +263,7 @@ execute if score @s[tag=!wolf] menu matches 1722 run function ssbrc:series/star_
 execute if score @s[tag=!wolf] menu matches 1723 run function ssbrc:series/star_fox/wolf/menu/favorite/remove
 execute if score @s[tag=!wolf] menu matches 1724 run function ssbrc:series/star_fox/wolf/menu/skins/default
 execute if score @s[tag=!wolf] menu matches 1725 run function ssbrc:series/star_fox/wolf/menu/skins/gold
+execute if score @s[tag=!wolf] menu matches 1726 run function ssbrc:series/star_fox/wolf/menu/skins/assault
 
 execute if score @s[tag=!zelda] menu matches 1780 run function ssbrc:series/the_legend_of_zelda/zelda/menu/select_character
 execute if score @s[tag=!zelda] menu matches 1781 run function ssbrc:series/the_legend_of_zelda/zelda/menu/skin_options
