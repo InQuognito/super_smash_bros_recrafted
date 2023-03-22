@@ -24,13 +24,13 @@ fill 775 6 188 785 13 188 minecraft:white_concrete replace
 execute if score $hazards options matches 0 run function ssbrc:maps/f/flat_zone/load/hazards_off
 execute if score $hazards options matches 1 run function ssbrc:maps/f/flat_zone/load/hazards_on
 
-function ssbrc:maps/f/flat_zone/logic/gas_station_guy_1_left
-function ssbrc:maps/f/flat_zone/logic/gas_station_guy_2_left
+function ssbrc:maps/f/flat_zone/logic/gas_station_guy/1/left
+function ssbrc:maps/f/flat_zone/logic/gas_station_guy/2/left
 function ssbrc:maps/f/flat_zone/logic/house_light_random
-function ssbrc:maps/f/flat_zone/logic/lion_1
-function ssbrc:maps/f/flat_zone/logic/lion_2
-function ssbrc:maps/f/flat_zone/logic/zookeeper_1
-function ssbrc:maps/f/flat_zone/logic/zookeeper_2
+function ssbrc:maps/f/flat_zone/logic/lion/1
+function ssbrc:maps/f/flat_zone/logic/lion/2
+function ssbrc:maps/f/flat_zone/logic/zookeeper/1
+function ssbrc:maps/f/flat_zone/logic/zookeeper/2
 
 time set noon
 weather clear
