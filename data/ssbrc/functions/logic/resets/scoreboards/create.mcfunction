@@ -38,6 +38,7 @@ scoreboard objectives add flag.inLava dummy
 scoreboard objectives add flag.sprinting dummy
 scoreboard objectives add flag.walking minecraft.custom:minecraft.walk_one_cm
 scoreboard objectives add frostbite dummy
+scoreboard objectives add frostbiteCooldown dummy
 scoreboard objectives add frostbiteTimer dummy
 scoreboard objectives add fuse dummy
 scoreboard objectives add health health

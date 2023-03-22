@@ -58,5 +58,6 @@ function ssbrc:logic/characters/attributes/defaults
 function ssbrc:logic/characters/effects/default
 
 scoreboard players set @s flag.sprinting 0
+scoreboard players set @s frostbiteCooldown 0
 
 function ssbrc:logic/pre_game/bonuses

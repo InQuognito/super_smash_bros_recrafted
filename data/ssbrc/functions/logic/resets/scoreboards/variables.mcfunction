@@ -110,7 +110,7 @@ scoreboard players set #zelda.greatFairyBlessing vars 10
 scoreboard players set #zelda.inventoryRefresh vars 20
 
 scoreboard players set #damage.bladeBeam vars 53
-scoreboard players set #damage.blizzaga vars 40
+scoreboard players set #damage.blizzaga vars 5
 scoreboard players set #damage.chaosSpear vars 95
 scoreboard players set #damage.firaga vars 40
 scoreboard players set #damage.thundaga vars 40

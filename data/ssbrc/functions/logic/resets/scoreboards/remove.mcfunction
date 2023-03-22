@@ -38,6 +38,7 @@ scoreboard objectives remove flag.inLava
 scoreboard objectives remove flag.sprinting
 scoreboard objectives remove flag.walking
 scoreboard objectives remove frostbite
+scoreboard objectives remove frostbiteCooldown
 scoreboard objectives remove frostbiteTimer
 scoreboard objectives remove fuse
 scoreboard objectives remove health
