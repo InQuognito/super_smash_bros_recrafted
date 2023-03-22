@@ -12,7 +12,9 @@ kill @e[tag=direction,limit=1]
 scoreboard players set @s cooldown.1 40
 execute if score @s shadow.chaosControl matches 1.. run function ssbrc:logic/characters/cooldown_modifiers/chaos_control/1
 
-loot replace entity @s weapon.mainhand loot ssbrc:characters/star_fox/wolf/blaster/fire
-loot replace entity @s weapon.mainhand loot ssbrc:characters/star_fox/wolf/blaster/default
+loot replace entity @s[tag=!assault] weapon.mainhand loot ssbrc:characters/star_fox/wolf/blaster/default/fire
+loot replace entity @s[tag=!assault] weapon.mainhand loot ssbrc:characters/star_fox/wolf/blaster/default/default
+loot replace entity @s[tag=assault] weapon.mainhand loot ssbrc:characters/star_fox/wolf/blaster/assault/fire
+loot replace entity @s[tag=assault] weapon.mainhand loot ssbrc:characters/star_fox/wolf/blaster/assault/default
 
 playsound ssbrc:fighters.wolf.blaster.activate player @a

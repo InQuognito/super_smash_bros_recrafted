@@ -9,6 +9,13 @@
 			"condition": "minecraft:entity_properties",
 			"entity": "this",
 			"predicate": {
+				"nbt": "{Tags:[\"ness\",\"phaseDistortion\"]}"
+			}
+		},
+		{
+			"condition": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
 				"nbt": "{Tags:[\"spectator\"]}"
 			}
 		}

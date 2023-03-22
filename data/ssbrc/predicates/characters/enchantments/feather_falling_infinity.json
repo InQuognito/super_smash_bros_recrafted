@@ -5,7 +5,14 @@
 			"condition": "minecraft:entity_properties",
 			"entity": "this",
 			"predicate": {
-				"nbt": "{Tags:[\"waredragon\"]}"
+				"nbt": "{Tags:[\"alteredbeast\",\"waredragon\"]}"
+			}
+		},
+		{
+			"condition": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
+				"nbt": "{Tags:[\"kirby\"]}"
 			}
 		},
 		{
