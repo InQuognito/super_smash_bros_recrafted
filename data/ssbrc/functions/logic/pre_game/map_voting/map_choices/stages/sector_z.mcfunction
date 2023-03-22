@@ -2,5 +2,5 @@ summon minecraft:glow_item_frame ~ ~ ~ {Tags:["mapIcon","modifyEntity"],Fixed:1b
 
 function ssbrc:logic/pre_game/map_voting/map_choices/choose/modify
 
-summon minecraft:text_display ~ ~0.5 ~ {Tags:["infoDisplay"],text:'{"text":"Sector Z","bold":false,"color":"gold"}',billboard:center}
-summon minecraft:text_display ~ ~0.25 ~ {Tags:["infoDisplay"],text:'{"text":"Star Fox","bold":false,"color":"green"}',billboard:center}
+summon minecraft:text_display ~ ~1 ~ {Tags:["infoDisplay"],text:'{"text":"Sector Z","bold":false,"color":"gold"}',billboard:center}
+summon minecraft:text_display ~ ~0.75 ~ {Tags:["infoDisplay"],text:'{"text":"Star Fox","bold":false,"color":"green"}',billboard:center}
