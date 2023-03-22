@@ -28,7 +28,7 @@ function ssbrc:series/the_legend_of_zelda/zelda/logic/mana/update
 execute if entity @s[tag=activeFuse] run function ssbrc:series/the_legend_of_zelda/zelda/logic/abilities/bomb/fuse_tick
 
 # Bow
-execute if entity @s[scores={charge.output=1..},nbt={SelectedItem:{tag:{bow:1}}}] run function ssbrc:series/the_legend_of_zelda/zelda/logic/abilities/bow/charge
+execute if entity @s[scores={charge.output=1..},nbt={SelectedItem:{tag:{bow:1}}}] run function ssbrc:series/the_legend_of_zelda/zelda/logic/abilities/bow/charge_check
 
 execute if entity @s[nbt=!{SelectedItem:{tag:{bow:1}}},nbt={Inventory:[{tag:{bow:1,pulling:1}}]}] run function ssbrc:series/the_legend_of_zelda/zelda/logic/abilities/bow/reset
 
