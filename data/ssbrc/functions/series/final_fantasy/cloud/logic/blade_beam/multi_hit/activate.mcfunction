@@ -1,3 +1,3 @@
-tag @s add damage.bladeBeam
+damage @s 4.0 ssbrc:projectile by @p[tag=self]
 
-advancement revoke @s only ssbrc:utility/flag/get_hurt/source/custom/blade_beam
+tag @s add damage.bladeBeam
