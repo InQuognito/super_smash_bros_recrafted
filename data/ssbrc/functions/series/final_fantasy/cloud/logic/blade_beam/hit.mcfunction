@@ -3,4 +3,5 @@ execute if entity @e[type=minecraft:marker,tag=bladeBeam,tag=limitBreak,sort=nea
 
 kill @e[type=minecraft:marker,tag=bladeBeam,sort=nearest,limit=1]
 
+scoreboard players operation @p[tag=self] cloud.limit += #damage.bladeBeam vars
 execute as @p[tag=self] at @s run playsound minecraft:entity.arrow.hit_player player @s

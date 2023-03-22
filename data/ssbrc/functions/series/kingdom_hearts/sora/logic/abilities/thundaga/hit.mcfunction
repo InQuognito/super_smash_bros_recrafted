@@ -1,3 +1,5 @@
-playsound minecraft:entity.arrow.hit_player player @s
+damage @s 6.0 minecraft:lightning_bolt by @p[tag=self]
 
-advancement revoke @s only ssbrc:utility/flag/hurt_player/custom/thundaga
+scoreboard players operation @s charge.1 += #damage.thundaga vars
+function ssbrc:series/kingdom_hearts/sora/logic/drive_forms/check
+execute as @p[tag=self] at @s run playsound minecraft:entity.arrow.hit_player player @s
