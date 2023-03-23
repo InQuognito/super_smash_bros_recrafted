@@ -1,4 +1,4 @@
-execute positioned ~ ~-0.5 ~ run summon minecraft:armor_stand ^ ^ ^1 {Tags:["strikeRaid","modifyEntity"],Pose:{Head:[90f,0f,0f]},Invisible:1b,Small:1b,NoGravity:1b}
+summon minecraft:armor_stand ^ ^ ^1 {Tags:["strikeRaid","modifyEntity"],Pose:{Head:[90f,0f,0f]},Invisible:1b,Small:1b,NoGravity:1b}
 execute if entity @p[tag=self,tag=!timelessRiver,nbt={SelectedItem:{tag:{kingdomKey:1}}}] run loot replace entity @e[tag=modifyEntity,limit=1] armor.head loot ssbrc:characters/kingdom_hearts/sora/keyblades/default/star_seeker
 execute if entity @p[tag=self,tag=!timelessRiver,nbt={SelectedItem:{tag:{starSeeker:1}}}] run loot replace entity @e[tag=modifyEntity,limit=1] armor.head loot ssbrc:characters/kingdom_hearts/sora/keyblades/default/kingdom_key
 execute if entity @p[tag=self,tag=timelessRiver,nbt={SelectedItem:{tag:{monochrome:1}}}] run loot replace entity @e[tag=modifyEntity,limit=1] armor.head loot ssbrc:characters/kingdom_hearts/sora/keyblades/timeless_river/classic_tone
