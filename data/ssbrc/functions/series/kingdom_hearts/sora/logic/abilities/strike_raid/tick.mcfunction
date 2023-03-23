@@ -4,7 +4,7 @@ execute unless score @s temp matches 31.. rotated as @s run function ssbrc:serie
 
 function ssbrc:series/kingdom_hearts/sora/logic/abilities/strike_raid/display
 
-execute positioned ~-0.15 ~-0.15 ~-0.15 as @e[predicate=ssbrc:flag/targets,dx=0] positioned ~-0.7 ~-0.7 ~-0.7 if entity @s[dx=0] unless score @s id = @e[type=minecraft:marker,tag=strikeRaid,sort=nearest,limit=1] id run function ssbrc:series/kingdom_hearts/sora/logic/abilities/strike_raid/hit
+execute positioned ~-0.15 ~-0.15 ~-0.15 as @e[predicate=ssbrc:flag/targets,dx=0] positioned ~-0.7 ~-0.7 ~-0.7 if entity @s[dx=0] unless score @s id = @e[type=minecraft:armor_stand,tag=strikeRaid,sort=nearest,limit=1] id run function ssbrc:series/kingdom_hearts/sora/logic/abilities/strike_raid/hit
 
 scoreboard players add @s temp 1
 execute if score @s temp matches 50.. run function ssbrc:series/kingdom_hearts/sora/logic/abilities/strike_raid/regain
