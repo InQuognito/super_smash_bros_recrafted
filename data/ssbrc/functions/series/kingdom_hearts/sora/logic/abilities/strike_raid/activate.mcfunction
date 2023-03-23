@@ -1,12 +1,15 @@
-summon minecraft:marker ^ ^ ^1 {Tags:["strikeRaid","modifyEntity"]}
+summon minecraft:armor_stand ^ ^ ^1 {Tags:["strikeRaid","modifyEntity"],Pose:{Head:[90f,0f,0f]},Invisible:1b,Small:1b,NoGravity:1b}
+execute if entity @p[tag=self,tag=!timelessRiver,nbt={SelectedItem:{tag:{kingdomKey:1}}}] run loot replace entity @e[tag=modifyEntity,limit=1] armor.head loot ssbrc:characters/kingdom_hearts/sora/keyblades/default/star_seeker
+execute if entity @p[tag=self,tag=!timelessRiver,nbt={SelectedItem:{tag:{starSeeker:1}}}] run loot replace entity @e[tag=modifyEntity,limit=1] armor.head loot ssbrc:characters/kingdom_hearts/sora/keyblades/default/kingdom_key
+execute if entity @p[tag=self,tag=timelessRiver,nbt={SelectedItem:{tag:{monochrome:1}}}] run loot replace entity @e[tag=modifyEntity,limit=1] armor.head loot ssbrc:characters/kingdom_hearts/sora/keyblades/timeless_river/classic_tone
+execute if entity @p[tag=self,tag=timelessRiver,nbt={SelectedItem:{tag:{classicTone:1}}}] run loot replace entity @e[tag=modifyEntity,limit=1] armor.head loot ssbrc:characters/kingdom_hearts/sora/keyblades/timeless_river/monochrome
 
 scoreboard players operation @e[tag=modifyEntity,limit=1] id = @s id
 data modify entity @e[tag=modifyEntity,limit=1] Rotation[0] set from entity @s Rotation[0]
-data modify entity @e[tag=modifyEntity,limit=1] Owner set from entity @s UUID
+data modify entity @e[tag=modifyEntity,limit=1] Pose.Head[1] set from entity @s Pose.Head[1]
+execute store result score @e[tag=modifyEntity,limit=1] point run data get entity @s Pose.Head[1]
+scoreboard players add @e[tag=modifyEntity,limit=1] point 90
 
-execute as @e[tag=modifyEntity,limit=1] at @s run function ssbrc:series/kingdom_hearts/sora/logic/abilities/strike_raid/summon_item
+tag @e[tag=modifyEntity,limit=1] remove modifyEntity
 
-clear @s[tag=!timelessRiver,nbt={SelectedItem:{tag:{kingdomKey:1}}}] minecraft:carrot_on_a_stick{starSeeker:1}
-clear @s[tag=!timelessRiver,nbt={SelectedItem:{tag:{starSeeker:1}}}] minecraft:carrot_on_a_stick{kingdomKey:1}
-clear @s[tag=timelessRiver,nbt={SelectedItem:{tag:{monochrome:1}}}] minecraft:carrot_on_a_stick{classicTone:1}
-clear @s[tag=timelessRiver,nbt={SelectedItem:{tag:{classicTone:1}}}] minecraft:carrot_on_a_stick{monochrome:1}
+item replace entity @s weapon.offhand with minecraft:air
