@@ -47,7 +47,7 @@ schedule clear ssbrc:maps/f/flat_zone/logic/middle_platform/sw/warn
 schedule clear ssbrc:maps/f/flat_zone/logic/south_parkour_platform/off
 schedule clear ssbrc:maps/f/flat_zone/logic/south_parkour_platform/on
 schedule clear ssbrc:maps/f/flat_zone/logic/south_parkour_platform/warn
-schedule clear ssbrc:maps/f/flat_zone/logic/turtle
+schedule clear ssbrc:maps/f/flat_zone/logic/turtle/schedule
 schedule clear ssbrc:maps/f/flat_zone/logic/zookeeper/1
 schedule clear ssbrc:maps/f/flat_zone/logic/zookeeper/2
 
