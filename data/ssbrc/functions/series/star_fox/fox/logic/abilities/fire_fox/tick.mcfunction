@@ -5,7 +5,7 @@ execute positioned ~ ~0.75 ~ if block ^ ^ ^0.75 #ssbrc:passthrough_charge at @s 
 
 execute at @s run teleport @p[tag=self,scores={duration.3=1..}] ^ ^ ^ ~ ~
 
-execute if entity @e[predicate=ssbrc:flag/targets,distance=0.1..1.5] run function ssbrc:series/star_fox/fox/logic/abilities/fire_fox/hit
+execute if entity @e[tag=!self,predicate=ssbrc:flag/targets,distance=0.1..1.5] run function ssbrc:series/star_fox/fox/logic/abilities/fire_fox/hit
 
 scoreboard players add @s temp 1
 kill @s[scores={temp=30..}]
