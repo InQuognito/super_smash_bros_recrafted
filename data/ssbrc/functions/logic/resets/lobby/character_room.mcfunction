@@ -1,5 +1,5 @@
 summon minecraft:text_display 144.5 7.25 153.5 {Tags:["lobbyStand.label"],text:'{"text":"Random","color":"white"}',billboard:center}
-summon minecraft:armor_stand 144.5 5.0 153.5 {Tags:["selectable","lobbyStand","random"]}
+summon minecraft:armor_stand 144.5 5.0 153.5 {Tags:["selectable","lobbyStand","randomFighter"]}
 
 summon minecraft:text_display 147.5 7.25 154.5 {Tags:["lobbyStand.label"],text:'{"text":"Mario","color":"red"}',billboard:center}
 summon minecraft:armor_stand 147.5 5.0 154.5 {Tags:["selectable","lobbyStand","mario","default"]}
