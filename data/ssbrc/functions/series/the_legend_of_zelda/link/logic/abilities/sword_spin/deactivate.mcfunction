@@ -18,6 +18,8 @@ execute if block ~ ~-0.1 ~ minecraft:air if score @s charge.output matches 21.. 
 playsound ssbrc:fighters.link.sword_spin.unleash player @a
 execute if entity @s[predicate=ssbrc:characters/link/master_sword_awakened,scores={charge.output=81..}] run playsound ssbrc:fighters.link.sword_beam.activate player @a
 
+tag @s remove swordSpin
+
 function ssbrc:logic/resets/charge
 
 execute unless entity @s[nbt={Inventory:[{tag:{hylianShield:1}}]}] run function ssbrc:series/the_legend_of_zelda/link/hylian_shield
