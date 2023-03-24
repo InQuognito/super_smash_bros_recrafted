@@ -52,6 +52,9 @@ execute if entity @s[tag=!reloading,nbt={SelectedItem:{tag:{psg1:1}}},predicate=
 # Smoke Grenade
 execute as @e[type=minecraft:armor_stand,tag=smokeGrenade.display] at @s unless block ~ ~-0.1 ~ #ssbrc:passthrough run function ssbrc:series/metal_gear_solid/snake/logic/weapons/smoke_grenade/kill_item
 
-execute at @e[type=minecraft:marker,tag=smokeGrenade,tag=active,sort=nearest,limit=1] if entity @s[tag=nightVisionGoggles,distance=4..] run function ssbrc:series/metal_gear_solid/snake/logic/night_vision_goggles/deactivate
+execute at @e[type=minecraft:marker,tag=smokeGrenade,tag=active,sort=nearest,limit=1] if entity @s[tag=nightVisionGoggles,distance=4.1..] run function ssbrc:series/metal_gear_solid/snake/logic/night_vision_goggles/deactivate
+
+# Night Vision Goggles
+execute if entity @s[tag=nightVisionGoggles] run function ssbrc:series/metal_gear_solid/snake/logic/night_vision_goggles/clear_smoke_effects
 
 tag @s remove self

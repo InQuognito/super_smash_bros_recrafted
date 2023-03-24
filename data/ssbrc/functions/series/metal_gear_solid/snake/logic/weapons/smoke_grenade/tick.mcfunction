@@ -1,8 +1,5 @@
-execute unless entity @e[type=minecraft:marker,tag=electricTerrain,distance=..12] run particle minecraft:smoke ~ ~ ~ 1.5 1.5 1.5 0.05 300 force @a
+execute unless entity @e[type=minecraft:marker,tag=electricTerrain,distance=..12] run function ssbrc:series/metal_gear_solid/snake/logic/weapons/smoke_grenade/tick_active
 execute if entity @e[type=minecraft:marker,tag=electricTerrain,distance=..12] run particle minecraft:smoke ~ ~ ~ 1.5 1.5 1.5 0.25 75 normal @a
-execute unless entity @e[type=minecraft:marker,tag=electricTerrain,distance=..12] as @a[tag=snake,tag=!nightVisionGoggles,distance=..3] if score @s id = @e[type=minecraft:marker,tag=smokeGrenade,tag=active,sort=nearest,limit=1] id run function ssbrc:series/metal_gear_solid/snake/logic/night_vision_goggles/activate
-execute unless entity @e[type=minecraft:marker,tag=electricTerrain,distance=..12] as @a[tag=snake,tag=nightVisionGoggles,distance=..3] run function ssbrc:series/metal_gear_solid/snake/logic/night_vision_goggles/clear_smoke_effects
-execute unless entity @e[type=minecraft:marker,tag=electricTerrain,distance=..12] as @a[predicate=ssbrc:flag/player,tag=!self,distance=..4] run effect give @s minecraft:darkness 3 255 true
 
 scoreboard players add @s timer 1
-kill @s[scores={timer=300..}]
+execute if score @s timer matches 300.. run function ssbrc:series/metal_gear_solid/snake/logic/weapons/smoke_grenade/kill
