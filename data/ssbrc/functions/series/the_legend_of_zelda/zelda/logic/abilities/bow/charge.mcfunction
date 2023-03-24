@@ -11,3 +11,6 @@ execute if score @s[nbt={SelectedItem:{tag:{poison:1}}}] charge.output matches 1
 execute if score @s[nbt={SelectedItem:{tag:{poison:1}}}] charge.output matches 19 run loot replace entity @s weapon.mainhand loot ssbrc:characters/the_legend_of_zelda/zelda/dungeon_items/bow/poison/pulling_2
 
 execute if score @s charge.output matches 1 run attribute @s minecraft:generic.movement_speed modifier add 19192183-0000-0000-0001-000001000000 "bowCharge" -0.6 multiply_base
+
+execute if score @s charge.output matches 1 unless entity @s[nbt=!{Inventory:[{tag:{smallShield:1}}]}] run tag @s add shieldBroken
+execute if score @s charge.output matches 1 if entity @s[nbt={Inventory:[{tag:{smallShield:1},Slot:-106b}]}] run function ssbrc:series/the_legend_of_zelda/zelda/logic/abilities/bow/check_shield_durability

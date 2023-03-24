@@ -37,6 +37,7 @@ scoreboard players set @a[tag=link] durability 300
 execute if entity @a[tag=link] run summon minecraft:marker 0.5 25.0 0.5 {Tags:["link.spinner"]}
 execute if entity @a[tag=sora] run summon minecraft:marker 0.5 25.0 0.5 {Tags:["sora.spinner"]}
 scoreboard players set @a[tag=steve] durability 326
+scoreboard players set @a[tag=zelda] durability 322
 
 execute as @a[predicate=ssbrc:flag/player] run function ssbrc:logic/kits
 
