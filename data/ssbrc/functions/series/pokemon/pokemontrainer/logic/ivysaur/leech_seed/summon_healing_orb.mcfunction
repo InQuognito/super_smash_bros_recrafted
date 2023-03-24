@@ -1,4 +1,5 @@
-effect give @s minecraft:poison 1 1 true
+damage @s 1.0 minecraft:magic
+effect give @s minecraft:poison 1 0 true
 
 summon minecraft:marker ~ ~0.75 ~ {Tags:["leechSeed.healingOrb","modifyEntity"]}
 

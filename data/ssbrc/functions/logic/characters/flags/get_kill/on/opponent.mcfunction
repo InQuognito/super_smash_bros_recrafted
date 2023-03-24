@@ -11,4 +11,6 @@ execute if entity @s[tag=sora] run function ssbrc:series/kingdom_hearts/sora/log
 execute if entity @s[tag=yar] run function ssbrc:series/retro_fighters/yar/logic/get_kill
 execute if entity @s[tag=zelda] run function ssbrc:series/the_legend_of_zelda/zelda/logic/get_kill/player
 
+execute if score @p[tag=ivysaur,scores={flag.dead=1..}] id = @s leechSeed
+
 function ssbrc:logic/stocks/get_kill

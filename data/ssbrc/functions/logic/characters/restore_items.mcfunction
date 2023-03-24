@@ -149,8 +149,6 @@ scoreboard players set @s cooldown.2 0
 scoreboard players set @s cooldown.3 0
 
 # Misc
-tag @s remove leechSeed
-scoreboard players reset @s leechSeed
-scoreboard players reset @s leechSeedTimer
+function ssbrc:series/pokemon/pokemontrainer/logic/ivysaur/leech_seed/reset
 
 tag @s remove immobile
