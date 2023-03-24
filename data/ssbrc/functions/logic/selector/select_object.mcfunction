@@ -1,4 +1,4 @@
-execute if entity @e[type=#ssbrc:selectable,tag=random,dx=0,sort=nearest,limit=1] run function ssbrc:series/random
+execute if entity @e[type=#ssbrc:selectable,tag=randomFighter,dx=0,sort=nearest,limit=1] run function ssbrc:series/random
 
 execute if entity @s[advancements={ssbrc:series/retro_fighters/alteredbeast/skins/default=true}] if entity @e[type=#ssbrc:selectable,tag=alteredbeast,dx=0,sort=nearest,limit=1] run function ssbrc:series/retro_fighters/alteredbeast/menu/prompt
 execute if entity @s[advancements={ssbrc:series/retro_fighters/alteredbeast/skins/default=false}] if entity @e[type=#ssbrc:selectable,tag=alteredbeast,dx=0,sort=nearest,limit=1] run function ssbrc:logic/selector/unowned
