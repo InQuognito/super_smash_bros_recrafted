@@ -17,7 +17,7 @@ execute if score @s duration.2 matches 1 run function ssbrc:series/star_fox/fox/
 # Fire Fox
 execute unless score @s duration.3 matches 1.. if entity @s[predicate=ssbrc:flag/sneaking,scores={cooldown.3=..0,duration.3=..0}] at @s run function ssbrc:series/star_fox/fox/logic/abilities/fire_fox/charge
 
-execute if score @s duration.3 matches 1 run function ssbrc:series/star_fox/fox/logic/abilities/fire_fox/deactivate
+execute at @s[scores={duration.3=1}] run function ssbrc:series/star_fox/fox/logic/abilities/fire_fox/deactivate
 execute unless score @s duration.2 matches 1.. unless score @s duration.3 matches 1.. if score @s charge.3 matches 1.. if entity @s[predicate=!ssbrc:flag/sneaking] run function ssbrc:series/star_fox/fox/logic/abilities/fire_fox/clear
 
 tag @s remove self
