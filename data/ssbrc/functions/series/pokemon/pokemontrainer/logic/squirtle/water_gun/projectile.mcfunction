@@ -1,6 +1,6 @@
 execute positioned 0.0 0.0 0.0 run summon minecraft:marker ^ ^ ^1.5 {Tags:["direction"]}
 
-summon minecraft:arrow ~ ~ ~ {damage:0.6,Tags:["waterGun","modifyEntity"]}
+summon minecraft:arrow ~ ~ ~ {damage:0.45,Tags:["waterGun","modifyEntity"]}
 
 scoreboard players operation @e[tag=modifyEntity,limit=1] id = @p[tag=self] id
 data modify entity @e[tag=modifyEntity,limit=1] Owner set from entity @p[tag=self] UUID
