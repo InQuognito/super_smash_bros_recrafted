@@ -36,3 +36,5 @@ execute if entity @s[tag=suzakuCastle] run clone -131 15 135 -111 24 146 -48 8 3
 execute if entity @s[tag=towerOfFate] run clone -153 15 135 -133 24 146 -48 8 35
 execute if entity @s[tag=wilyCastle] run clone -131 15 7 -111 24 18 -48 8 35
 execute if entity @s[tag=yggdrasilsAltar] run clone -153 15 7 -133 24 18 -48 8 35
+
+execute if entity @s[tag=random] run clone -153 15 -9 -133 24 2 -48 8 35
