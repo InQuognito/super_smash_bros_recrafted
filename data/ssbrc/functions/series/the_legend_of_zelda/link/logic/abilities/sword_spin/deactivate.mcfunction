@@ -20,4 +20,4 @@ execute if entity @s[predicate=ssbrc:characters/link/master_sword_awakened,score
 
 function ssbrc:logic/resets/charge
 
-function ssbrc:series/the_legend_of_zelda/link/hylian_shield
+execute unless entity @s[nbt={Inventory:[{tag:{hylianShield:1}}]}] run function ssbrc:series/the_legend_of_zelda/link/hylian_shield
