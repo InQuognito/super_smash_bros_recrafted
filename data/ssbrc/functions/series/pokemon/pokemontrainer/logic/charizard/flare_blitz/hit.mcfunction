@@ -1,3 +1,3 @@
-tag @a[predicate=ssbrc:flag/targets,distance=0.1..1.5] add damage.flareBlitz
+tag @e[predicate=ssbrc:flag/targets,distance=0.1..1.5] add damage.flareBlitz
 
 function ssbrc:series/pokemon/pokemontrainer/logic/charizard/flare_blitz/recoil
