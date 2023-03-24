@@ -132,6 +132,8 @@ scoreboard players operation value.KO vars /= 5 integers
 scoreboard players operation value.victory vars = value.participation vars
 scoreboard players operation value.victory vars *= 3 integers
 
+scoreboard players set value.tutorial vars 2000
+
 #scoreboard players operation value.achievement.common vars = value.victory vars
 #scoreboard players operation value.achievement.common vars *= 2 integers
 

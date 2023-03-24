@@ -4,6 +4,6 @@ scoreboard players operation @s stats.credits -= #price.skin.common vars
 
 tellraw @s [{"text":"You have purchased the ","color":"white"},{"text":"Moonside","color":"aqua"},{"text":" skin!","color":"white"}]
 
-playsound minecraft:entity.player.levelup master @s ~ ~ ~ 1.0 1.0
+playsound minecraft:entity.player.levelup master @s ~ ~ ~
 
 function ssbrc:shop/pages/skins/ness/load
