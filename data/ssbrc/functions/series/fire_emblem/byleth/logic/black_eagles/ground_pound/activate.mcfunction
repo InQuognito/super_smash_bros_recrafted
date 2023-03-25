@@ -8,3 +8,5 @@ loot replace entity @s weapon.mainhand loot ssbrc:characters/fire_emblem/byleth/
 
 scoreboard players add @s charge.1 1
 function ssbrc:series/fire_emblem/byleth/logic/black_eagles/aymr/hit
+
+playsound ssbrc:fighters.byleth.black_eagles.aymr.activate player @a

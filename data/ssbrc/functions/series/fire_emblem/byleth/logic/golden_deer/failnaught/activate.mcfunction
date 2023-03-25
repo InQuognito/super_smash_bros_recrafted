@@ -21,3 +21,5 @@ execute if score @s charge.output matches 80.. run scoreboard players add @s cha
 execute if score @s charge.1 matches 6.. run function ssbrc:series/fire_emblem/byleth/logic/golden_deer/failnaught/break
 
 function ssbrc:series/fire_emblem/byleth/logic/golden_deer/failnaught/reset
+
+execute if score @s charge.output matches 80.. run playsound ssbrc:fighters.byleth.golden_deer.failnaught.awakened player @a
