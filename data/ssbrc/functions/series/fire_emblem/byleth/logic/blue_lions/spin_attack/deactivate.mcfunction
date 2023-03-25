@@ -17,5 +17,3 @@ execute if score @s charge.output matches 21.. run tag @s add spinning
 
 execute if score @s charge.output matches 21..80 run playsound ssbrc:fighters.byleth.blue_lions.spin_attack.default player @a
 execute if score @s charge.output matches 81.. run playsound ssbrc:fighters.byleth.blue_lions.spin_attack.awakened player @a
-
-function ssbrc:logic/resets/charge

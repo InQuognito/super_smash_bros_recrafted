@@ -1,10 +1,6 @@
 execute if entity @s[tag=!rest,scores={useAbility=1..,cooldown.1=..0},nbt={SelectedItem:{tag:{hyperVoice:1}}}] at @s anchored eyes run function ssbrc:series/pokemon/jigglypuff/logic/abilities/hyper_voice/activate
 execute if entity @s[tag=!rest,scores={useAbility=1..,charge.1=..0},nbt={SelectedItem:{tag:{rest:1}}}] at @s run function ssbrc:series/pokemon/jigglypuff/logic/abilities/rest/activate
 
-tag @s add self
-execute as @e[type=minecraft:area_effect_cloud,tag=hyperVoice] at @s if score @s id = @p[tag=self] id run function ssbrc:series/pokemon/jigglypuff/logic/abilities/hyper_voice/tick
-tag @s remove self
-
 # Rest
 execute if entity @s[tag=rest] run function ssbrc:series/pokemon/jigglypuff/logic/abilities/rest/tick
 

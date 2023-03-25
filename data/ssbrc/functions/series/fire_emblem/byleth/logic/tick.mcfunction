@@ -1,12 +1,8 @@
-tag @s add self
-
 execute if entity @s[tag=blackEagles,predicate=ssbrc:flag/sneaking,scores={useAbility=1..,cooldown.1=..0,charge.output=100..},nbt={SelectedItem:{tag:{aymr:1,awakened:0}}}] run function ssbrc:series/fire_emblem/byleth/logic/black_eagles/aymr/awaken
 execute if entity @s[tag=blackEagles,predicate=ssbrc:flag/sneaking,scores={useAbility=1..,cooldown.1=..0},nbt={SelectedItem:{tag:{aymr:1,awakened:1}}}] at @s unless block ~ ~-0.1 ~ minecraft:air rotated ~ 0.0 positioned ^ ^ ^1 unless block ~ ~-0.1 ~ #ssbrc:passthrough run function ssbrc:series/fire_emblem/byleth/logic/black_eagles/ground_pound/activate
 execute if entity @s[tag=blueLions,predicate=ssbrc:flag/sneaking,scores={charge.step=5..},nbt={SelectedItem:{tag:{areadbhar:1}}}] at @s run function ssbrc:series/fire_emblem/byleth/logic/blue_lions/spin_attack/deactivate
 execute if entity @s[tag=goldenDeer,scores={charge.step=5..,cooldown.1=..0},nbt={SelectedItem:{tag:{failnaught:1}}}] at @s anchored eyes run function ssbrc:series/fire_emblem/byleth/logic/golden_deer/failnaught/activate
 execute if entity @s[tag=goldenDeer,scores={charge.step=5..},nbt={SelectedItem:{tag:{braveBow:1}}}] at @s anchored eyes run function ssbrc:series/fire_emblem/byleth/logic/golden_deer/brave_bow/activate
-
-execute as @e[type=minecraft:spectral_arrow,tag=failnaught,tag=awakened] at @s if score @s id = @p[tag=self] id run function ssbrc:series/fire_emblem/byleth/logic/golden_deer/failnaught/tick
 
 # Ground Pound
 execute unless score @s[nbt=!{Inventory:[{tag:{shield:1}}]}] charge.output matches 1.. run tag @s add shieldBroken
@@ -42,5 +38,3 @@ execute if score #percentage temp matches 41.. run effect clear @s[tag=blueLions
 
 execute if score #percentage temp matches ..25 run effect give @s[tag=goldenDeer] minecraft:resistance infinite 0 true
 execute if score #percentage temp matches 26.. run effect clear @s[tag=goldenDeer] minecraft:resistance
-
-tag @s remove self

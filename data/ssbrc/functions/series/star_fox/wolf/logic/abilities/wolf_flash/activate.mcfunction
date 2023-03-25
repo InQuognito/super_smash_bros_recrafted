@@ -5,8 +5,6 @@ data modify entity @e[tag=modifyEntity,limit=1] Rotation[0] set from entity @s R
 
 tag @e[tag=modifyEntity,limit=1] remove modifyEntity
 
-function ssbrc:logic/resets/charge
-
 scoreboard players operation @s duration.3 = #wolf.wolfFlash vars
 
 execute as @e[type=minecraft:marker,tag=wolfFlash,sort=nearest,limit=1] at @s run function ssbrc:series/star_fox/wolf/logic/abilities/wolf_flash/raycast/start

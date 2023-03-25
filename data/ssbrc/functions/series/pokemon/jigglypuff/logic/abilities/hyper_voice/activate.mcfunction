@@ -9,7 +9,6 @@ data modify entity @e[tag=modifyEntity,limit=1] Rotation[0] set from entity @s R
 execute store result score @e[tag=modifyEntity,limit=1] rotation run data get entity @e[tag=modifyEntity,limit=1] Rotation[0]
 scoreboard players add @e[tag=modifyEntity,limit=1] rotation 90
 execute store result entity @e[tag=modifyEntity,limit=1] Rotation[0] float 1.0 run scoreboard players get @e[tag=modifyEntity,limit=1] rotation
-data modify entity @e[tag=modifyEntity,limit=1] Owner set from entity @s UUID
 
 tag @e[tag=modifyEntity,limit=1] remove modifyEntity
 

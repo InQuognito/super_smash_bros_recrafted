@@ -1,22 +1,15 @@
-tag @s add self
-
 execute if score @s[scores={useAbility=1..,cooldown.1=..0},nbt={SelectedItem:{tag:{chaosSphere:1}}}] mana >= #shovelknight.chaosSphereManaCost vars at @s anchored eyes run function ssbrc:series/indie_fighters/shovelknight/logic/abilities/chaos_sphere/activate
 execute if score @s[scores={useAbility=1..,cooldown.1=..0},nbt={SelectedItem:{tag:{flareWand:1}}}] mana >= #shovelknight.flareWandManaCost vars at @s anchored eyes run function ssbrc:series/indie_fighters/shovelknight/logic/abilities/flare_wand/activate
 execute if score @s[scores={useAbility=1..,cooldown.1=..0},nbt={SelectedItem:{tag:{throwingAnchor:1}}}] mana >= #shovelknight.throwingAnchorManaCost vars at @s anchored eyes run function ssbrc:series/indie_fighters/shovelknight/logic/abilities/throwing_anchor/activate
 execute if score @s[scores={useAbility=1..,cooldown.2=..0},nbt={SelectedItem:{tag:{phaseLocket:1}}}] mana >= #shovelknight.phaseLocketManaCost vars run function ssbrc:series/indie_fighters/shovelknight/logic/abilities/phase_locket/on
 execute if score @s[scores={charge.step=5..,cooldown.2=..0},nbt={SelectedItem:{tag:{propellerDagger:1}}}] mana >= #shovelknight.propellerDaggerManaCost vars at @s run function ssbrc:series/indie_fighters/shovelknight/logic/abilities/propeller_dagger/activate
 
-execute at @s[nbt={SelectedItem:{tag:{shovelDrop:1}}}] positioned ~ ~-2 ~ as @e[predicate=ssbrc:flag/targets,distance=..0.75] run function ssbrc:series/indie_fighters/shovelknight/logic/abilities/shovel_drop/hit
-execute as @e[type=minecraft:marker,tag=chaosSphere] at @s if score @s id = @p[tag=self] id run function ssbrc:series/indie_fighters/shovelknight/logic/abilities/chaos_sphere/tick
-execute as @e[type=minecraft:arrow,tag=flareWand] at @s if score @s id = @p[tag=self] id run function ssbrc:series/indie_fighters/shovelknight/logic/abilities/flare_wand/tick
-execute as @e[type=minecraft:marker,tag=propellerDagger] at @s if score @s id = @p[tag=self,scores={duration.2=2..}] id run function ssbrc:series/indie_fighters/shovelknight/logic/abilities/propeller_dagger/tick
-execute as @e[type=minecraft:armor_stand,tag=throwingAnchor] at @s if score @s id = @p[tag=self] id run function ssbrc:series/indie_fighters/shovelknight/logic/abilities/throwing_anchor/tick
-execute as @e[type=minecraft:marker,tag=warHorn] at @s if score @s id = @p[tag=self] id run function ssbrc:series/indie_fighters/shovelknight/logic/abilities/war_horn/tick
-
 # Mana
 function ssbrc:series/indie_fighters/shovelknight/logic/mana/update
 
 # Shovel Drop
+execute at @s[nbt={SelectedItem:{tag:{shovelDrop:1}}}] positioned ~ ~-2 ~ as @e[predicate=ssbrc:flag/targets,distance=..0.75] run function ssbrc:series/indie_fighters/shovelknight/logic/abilities/shovel_drop/hit
+
 execute if entity @s[tag=!armorOfChaos,tag=!toadGear,predicate=ssbrc:flag/sneaking,nbt={SelectedItem:{tag:{shovelDrop:0}}}] at @s if block ~ ~-0.1 ~ #ssbrc:passthrough_charge run loot replace entity @s weapon.mainhand loot ssbrc:characters/indie_fighters/shovelknight/shovel_blade/default/shovel_drop
 execute if entity @s[tag=!armorOfChaos,tag=!toadGear,nbt={SelectedItem:{tag:{shovelDrop:1}}}] at @s unless block ~ ~-0.1 ~ #ssbrc:passthrough_charge run loot replace entity @s weapon.mainhand loot ssbrc:characters/indie_fighters/shovelknight/shovel_blade/default/default
 execute if entity @s[tag=!armorOfChaos,tag=!toadGear,predicate=!ssbrc:flag/sneaking,nbt={SelectedItem:{tag:{shovelDrop:1}}}] run loot replace entity @s weapon.mainhand loot ssbrc:characters/indie_fighters/shovelknight/shovel_blade/default/default
@@ -42,5 +35,3 @@ execute if entity @s[tag=shovelknight.propellerDagger,nbt={SelectedItem:{tag:{pr
 
 # War Horn
 execute if score @s[tag=shovelknight.warHorn] cooldown.2 matches 260 run function ssbrc:logic/characters/effects/mobility/mobilize
-
-tag @s remove self

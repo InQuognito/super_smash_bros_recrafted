@@ -4,8 +4,6 @@ execute as @a[scores={respawn=2..}] run function ssbrc:logic/tick/respawn
 gamemode spectator @a[team=dead]
 gamemode spectator @a[team=spectator]
 
-#execute as @e[nbt={Invulnerable:1b}] at @s run function ssbrc:logic/tick/projectiles/kill
-
 kill @e[type=#minecraft:arrows,nbt={inGround:1b}]
 
 clear @a minecraft:glass_bottle
@@ -20,8 +18,8 @@ scoreboard players remove @e[type=!minecraft:player,scores={duration.4=1..}] dur
 
 execute unless score $sectorZ map matches 1 run effect give @a[predicate=ssbrc:flag/targets,predicate=ssbrc:below_y/0] minecraft:blindness 2 0 true
 
-# Characters
-execute as @a[predicate=ssbrc:flag/player] run function ssbrc:logic/tick/characters
+# Fighters
+execute as @a[predicate=ssbrc:ingame] run function ssbrc:logic/tick/characters
 function ssbrc:logic/tick/post_checks
 
 execute as @a[team=!admin,tag=alive,scores={respawn=..0},gamemode=!adventure] run function ssbrc:logic/teams/admin
