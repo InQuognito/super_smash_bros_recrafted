@@ -7,6 +7,8 @@ scoreboard players operation @e[tag=modifyEntity,limit=1] id = @s id
 data modify entity @e[tag=modifyEntity,limit=1] Owner set from entity @s UUID
 data modify entity @e[tag=modifyVehicle,limit=1] Motion set from entity @e[tag=direction,limit=1] Pos
 
+scoreboard players operation @e[tag=modifyVehicle,limit=1] id = @s id
+
 tag @e[tag=modifyEntity,limit=1] remove modifyEntity
 tag @e[tag=modifyVehicle] remove modifyVehicle
 kill @e[tag=direction,limit=1]
