@@ -151,4 +151,5 @@ scoreboard players set @s cooldown.3 0
 # Misc
 function ssbrc:series/pokemon/pokemontrainer/logic/ivysaur/leech_seed/reset
 
+tag @s remove angelFeather
 tag @s remove immobile
