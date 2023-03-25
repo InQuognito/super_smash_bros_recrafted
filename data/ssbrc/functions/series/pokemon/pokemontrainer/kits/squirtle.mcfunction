@@ -18,3 +18,5 @@ function ssbrc:logic/characters/effects/default
 
 execute unless entity @s[tag=squirtle.natureSet] run function ssbrc:series/pokemon/pokemontrainer/natures/squirtle/set
 function ssbrc:series/pokemon/pokemontrainer/natures/squirtle/apply
+
+execute at @s run playsound ssbrc:items.poke_ball.open player @a

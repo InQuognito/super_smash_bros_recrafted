@@ -12,3 +12,5 @@ loot replace entity @s hotbar.1 loot ssbrc:characters/pokemon/teamrocket/wobbuff
 function ssbrc:logic/characters/armor/get
 function ssbrc:logic/characters/attributes/defaults
 function ssbrc:logic/characters/effects/default
+
+execute at @s run playsound ssbrc:items.poke_ball.open player @a

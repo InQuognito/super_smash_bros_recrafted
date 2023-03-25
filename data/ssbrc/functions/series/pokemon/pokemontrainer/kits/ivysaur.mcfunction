@@ -20,3 +20,5 @@ function ssbrc:logic/characters/effects/default
 
 execute unless entity @s[tag=ivysaur.natureSet] run function ssbrc:series/pokemon/pokemontrainer/natures/ivysaur/set
 function ssbrc:series/pokemon/pokemontrainer/natures/ivysaur/apply
+
+execute at @s run playsound ssbrc:items.poke_ball.open player @a

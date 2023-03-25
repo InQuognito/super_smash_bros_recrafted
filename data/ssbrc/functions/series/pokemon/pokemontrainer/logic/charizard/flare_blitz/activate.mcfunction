@@ -10,3 +10,5 @@ scoreboard players set @s duration.1 30
 effect give @p minecraft:levitation infinite 0 true
 
 function ssbrc:logic/characters/flags/use_recovery
+
+playsound ssbrc:fighters.pokemontrainer.charizard.flare_blitz.activate player @a
