@@ -1,4 +1,4 @@
-summon minecraft:area_effect_cloud ^ ^ ^1 {Tags:["boomerang","modifyEntity"],Duration:600}
+summon minecraft:area_effect_cloud ^ ^ ^1 {Tags:["zelda.boomerang","modifyEntity"],Duration:600}
 
 scoreboard players operation @e[tag=modifyEntity,limit=1] id = @s id
 data modify entity @e[tag=modifyEntity,limit=1] Rotation[0] set from entity @s Rotation[0]
