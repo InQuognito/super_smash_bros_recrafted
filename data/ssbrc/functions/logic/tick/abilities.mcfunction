@@ -140,7 +140,7 @@ execute as @e[type=minecraft:area_effect_cloud,tag=acid] at @s if score @s id = 
 execute as @e[type=minecraft:area_effect_cloud,tag=payday,tag=!active,predicate=ssbrc:flag/no_vehicle] at @s if score @s id = @p[tag=self] id run function ssbrc:series/pokemon/teamrocket/logic/meowth/payday/enable
 execute as @e[type=minecraft:area_effect_cloud,tag=payday,tag=active] at @s if score @s id = @p[tag=self] id run function ssbrc:series/pokemon/teamrocket/logic/meowth/payday/tick_active
 execute as @e[type=minecraft:arrow,tag=paydayProjectile] at @s if score @s id = @p[tag=self] id run function ssbrc:series/pokemon/teamrocket/logic/meowth/payday/projectiles/tick
-execute as @e[type=minecraft:armor_stand,tag=payday.display] at @s if score @s id = @p[tag=self] id unless block ~ ~-0.1 ~ #ssbrc:passthrough run kill @s
+execute as @e[type=minecraft:armor_stand,tag=payday.display] at @s if score @s id = @p[tag=self] id run function ssbrc:series/pokemon/teamrocket/logic/meowth/payday/tick_display
 
 # Yar
 execute as @e[type=minecraft:arrow,tag=rayBlaster] at @s if score @s id = @p[tag=self] id run function ssbrc:series/retro_fighters/yar/logic/abilities/ray_blaster/tick
