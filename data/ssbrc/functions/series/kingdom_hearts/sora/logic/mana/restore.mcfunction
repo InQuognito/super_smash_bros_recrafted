@@ -1,3 +1,3 @@
-scoreboard players operation @s mana += 1 integers
+scoreboard players add @s mana 1
 
 scoreboard players reset @s timer

@@ -13,7 +13,7 @@ tag @e[tag=modifyEntity,limit=1] remove modifyEntity
 tag @e[tag=modifyVehicle] remove modifyVehicle
 kill @e[tag=direction,limit=1]
 
-scoreboard players set @s cooldown.2 400
+scoreboard players set @s cooldown.2 200
 execute if score @s shadow.chaosControl matches 1.. run function ssbrc:logic/characters/cooldown_modifiers/chaos_control/2
 
 playsound ssbrc:fighters.teamrocket.meowth.payday.activate player @a
