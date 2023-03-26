@@ -1,8 +1,8 @@
-execute if score @s[scores={useAbility=1..,cooldown.1=..0},nbt={SelectedItem:{tag:{chaosSphere:1}}}] mana >= #shovelknight.chaosSphereManaCost vars at @s anchored eyes run function ssbrc:series/indie_fighters/shovelknight/logic/abilities/chaos_sphere/activate
-execute if score @s[scores={useAbility=1..,cooldown.1=..0},nbt={SelectedItem:{tag:{flareWand:1}}}] mana >= #shovelknight.flareWandManaCost vars at @s anchored eyes run function ssbrc:series/indie_fighters/shovelknight/logic/abilities/flare_wand/activate
-execute if score @s[scores={useAbility=1..,cooldown.1=..0},nbt={SelectedItem:{tag:{throwingAnchor:1}}}] mana >= #shovelknight.throwingAnchorManaCost vars at @s anchored eyes run function ssbrc:series/indie_fighters/shovelknight/logic/abilities/throwing_anchor/activate
-execute if score @s[scores={useAbility=1..,cooldown.2=..0},nbt={SelectedItem:{tag:{phaseLocket:1}}}] mana >= #shovelknight.phaseLocketManaCost vars run function ssbrc:series/indie_fighters/shovelknight/logic/abilities/phase_locket/on
-execute if score @s[scores={charge.step=5..,cooldown.2=..0},nbt={SelectedItem:{tag:{propellerDagger:1}}}] mana >= #shovelknight.propellerDaggerManaCost vars at @s run function ssbrc:series/indie_fighters/shovelknight/logic/abilities/propeller_dagger/activate
+execute if entity @s[scores={useAbility=1..,cooldown.1=..0},nbt={SelectedItem:{tag:{chaosSphere:1}}}] run function ssbrc:series/indie_fighters/shovelknight/logic/abilities/chaos_sphere/check
+execute if entity @s[scores={useAbility=1..,cooldown.1=..0},nbt={SelectedItem:{tag:{flareWand:1}}}] run function ssbrc:series/indie_fighters/shovelknight/logic/abilities/flare_wand/check
+execute if entity @s[scores={useAbility=1..,cooldown.1=..0},nbt={SelectedItem:{tag:{throwingAnchor:1}}}] run function ssbrc:series/indie_fighters/shovelknight/logic/abilities/throwing_anchor/check
+execute if entity @s[scores={useAbility=1..,cooldown.2=..0},nbt={SelectedItem:{tag:{phaseLocket:1}}}] run function ssbrc:series/indie_fighters/shovelknight/logic/abilities/phase_locket/check
+execute if entity @s[scores={charge.step=5..,cooldown.2=..0},nbt={SelectedItem:{tag:{propellerDagger:1}}}] run function ssbrc:series/indie_fighters/shovelknight/logic/abilities/propeller_dagger/check
 
 # Mana
 function ssbrc:series/indie_fighters/shovelknight/logic/mana/update
@@ -26,6 +26,7 @@ scoreboard players add @s[scores={charge.3=1..}] charge.3 1
 execute if score @s charge.3 matches 5.. run function ssbrc:series/indie_fighters/shovelknight/logic/abilities/shovel_drop/reset
 
 # Phase Locket
+execute if score @s[tag=shovelknight.phaseLocket] duration.2 matches 20 at @s run playsound ssbrc:fighters.shovelknight.phase_locket.warn player @s
 execute if score @s[tag=shovelknight.phaseLocket] duration.2 matches 1 run function ssbrc:series/indie_fighters/shovelknight/logic/abilities/phase_locket/off
 execute if score @s[tag=shovelknight.phaseLocket] duration.2 matches 1.. run function ssbrc:logic/characters/effects/cleanse_harmful
 
