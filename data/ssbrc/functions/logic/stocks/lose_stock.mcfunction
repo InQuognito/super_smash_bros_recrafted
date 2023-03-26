@@ -6,6 +6,7 @@ scoreboard players set @s duration.3 0
 
 scoreboard players set @s flag.sprinting 0
 
+scoreboard players reset @s fiendsCauldron
 scoreboard players reset @s frostbite
 scoreboard players reset @s frostbiteTimer
 
