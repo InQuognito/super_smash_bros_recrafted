@@ -17,4 +17,4 @@ tag @s remove driveForm.valor
 tag @s remove driveForm.wisdom
 tag @s remove driveForm.anti
 
-playsound ssbrc:fighters.sora.drive_forms.activate player @a
+execute at @s run playsound ssbrc:fighters.sora.drive_forms.activate player @a
