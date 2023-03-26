@@ -10,6 +10,7 @@ execute if score @s point > 0 integers unless block ~ ~-0.6 ~ #ssbrc:passthrough
 
 execute rotated as @s run teleport @s ^ ^ ^0.5
 
-execute at @s positioned ~-0.375 ~-0.375 ~-0.375 as @e[predicate=ssbrc:flag/targets,dx=0] positioned ~-0.25 ~-0.25 ~-0.25 if entity @s[dx=0] as @e[type=minecraft:area_effect_cloud,tag=orangeGrenade,sort=nearest,limit=1] at @s run function ssbrc:series/donkey_kong/donkeykong/logic/abilities/orange_grenade/explode
+execute at @s positioned ~-0.375 ~-0.375 ~-0.375 as @e[predicate=ssbrc:flag/targets,dx=0] positioned ~-0.25 ~-0.25 ~-0.25 if entity @s[dx=0] as @e[type=minecraft:marker,tag=orangeGrenade,sort=nearest,limit=1] at @s run function ssbrc:series/donkey_kong/donkeykong/logic/abilities/orange_grenade/explode
 
-execute if entity @s[nbt={Duration:1}] at @s run function ssbrc:series/donkey_kong/donkeykong/logic/abilities/orange_grenade/explode
+scoreboard players add @s temp 1
+execute at @s[scores={temp=40..}] run function ssbrc:series/donkey_kong/donkeykong/logic/abilities/orange_grenade/explode

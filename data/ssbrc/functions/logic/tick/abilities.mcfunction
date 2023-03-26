@@ -11,7 +11,7 @@ execute as @e[type=minecraft:area_effect_cloud,tag=phazonPool] at @s if score @s
 execute as @e[type=minecraft:item_frame,tag=phazonSpike] at @s if score @s id = @p[tag=self] id run function ssbrc:series/metroid/darksamus/logic/abilities/phazon_spike/tick_spike
 
 # Donkey Kong
-execute as @e[type=minecraft:area_effect_cloud,tag=orangeGrenade] at @s if score @s id = @p[tag=self] id run function ssbrc:series/donkey_kong/donkeykong/logic/abilities/orange_grenade/tick
+execute as @e[type=minecraft:marker,tag=orangeGrenade] at @s if score @s id = @p[tag=self] id run function ssbrc:series/donkey_kong/donkeykong/logic/abilities/orange_grenade/tick
 
 # Fox
 execute as @e[type=minecraft:arrow,tag=krazoanFireball] at @s if score @s id = @p[tag=self] id run function ssbrc:series/star_fox/fox/logic/abilities/krazoan_fireball/tick
