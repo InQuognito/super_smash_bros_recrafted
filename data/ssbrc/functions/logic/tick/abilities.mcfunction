@@ -137,8 +137,8 @@ execute as @e[type=minecraft:marker,tag=warHorn] at @s if score @s id = @p[tag=s
 
 # Team Rocket
 execute as @e[type=minecraft:area_effect_cloud,tag=acid] at @s if score @s id = @p[tag=self] id run function ssbrc:series/pokemon/teamrocket/logic/arbok/acid/tick
-execute as @e[type=minecraft:area_effect_cloud,tag=payday,tag=!active,predicate=ssbrc:flag/no_vehicle] at @s if score @s id = @p[tag=self] id run function ssbrc:series/pokemon/teamrocket/logic/meowth/payday/enable
-execute as @e[type=minecraft:area_effect_cloud,tag=payday,tag=active] at @s if score @s id = @p[tag=self] id run function ssbrc:series/pokemon/teamrocket/logic/meowth/payday/tick_active
+execute as @e[type=minecraft:marker,tag=payday,tag=!active,predicate=ssbrc:flag/no_vehicle] at @s if score @s id = @p[tag=self] id run function ssbrc:series/pokemon/teamrocket/logic/meowth/payday/enable
+execute as @e[type=minecraft:marker,tag=payday,tag=active] at @s if score @s id = @p[tag=self] id run function ssbrc:series/pokemon/teamrocket/logic/meowth/payday/tick_active
 execute as @e[type=minecraft:arrow,tag=paydayProjectile] at @s if score @s id = @p[tag=self] id run function ssbrc:series/pokemon/teamrocket/logic/meowth/payday/projectiles/tick
 execute as @e[type=minecraft:armor_stand,tag=payday.display] at @s if score @s id = @p[tag=self] id run function ssbrc:series/pokemon/teamrocket/logic/meowth/payday/tick_display
 
