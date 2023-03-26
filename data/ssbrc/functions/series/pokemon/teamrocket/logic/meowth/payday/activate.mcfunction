@@ -4,6 +4,8 @@ summon minecraft:armor_stand ^ ^ ^1 {Tags:["payday.display","modifyVehicle"],Arm
 
 scoreboard players operation @e[tag=modifyEntity,limit=1] id = @s id
 data modify entity @e[tag=modifyEntity,limit=1] Owner set from entity @s UUID
+
+scoreboard players operation @e[tag=modifyVehicle,limit=1] id = @s id
 data modify entity @e[tag=modifyVehicle,limit=1] Rotation[0] set from entity @s Rotation[0]
 data modify entity @e[tag=modifyVehicle,limit=1] Motion set from entity @e[tag=direction,limit=1] Pos
 
