@@ -2,7 +2,7 @@ execute if entity @s[tag=!rest,scores={useAbility=1..,cooldown.1=..0},nbt={Selec
 execute if entity @s[tag=!rest,scores={useAbility=1..,charge.1=..0},nbt={SelectedItem:{tag:{rest:1}}}] at @s run function ssbrc:series/pokemon/jigglypuff/logic/abilities/rest/activate
 
 # Rest
-execute if entity @s[tag=rest] run function ssbrc:series/pokemon/jigglypuff/logic/abilities/rest/tick
+execute at @s[tag=rest] run function ssbrc:series/pokemon/jigglypuff/logic/abilities/rest/tick
 
 # Hot Air
 execute if entity @s[predicate=ssbrc:flag/sneaking,predicate=ssbrc:flag/effects/slow_falling,scores={cooldown.1=..0}] unless score $sectorZ map matches 1 run function ssbrc:series/pokemon/jigglypuff/logic/abilities/hot_air/off

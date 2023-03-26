@@ -6,11 +6,6 @@ effect give @s minecraft:fire_resistance infinite 255 true
 effect give @s minecraft:regeneration infinite 4 true
 effect give @s minecraft:resistance infinite 255 true
 
-scoreboard players set max random 3
-function ssbrc:math/rng/lcg
-
-execute if score result random matches 0 run tellraw @s [{"text":"Oracle","color":"green"},{"text":": ","color":"white"},{"text":"Be careful out there!","color":"yellow"}]
-execute if score result random matches 1 run tellraw @s [{"text":"Oracle","color":"green"},{"text":": ","color":"white"},{"text":"Woah! Take it easy, okay?","color":"yellow"}]
-execute if score result random matches 2 run tellraw @s [{"text":"Oracle","color":"green"},{"text":": ","color":"white"},{"text":"Don't be so reckless!","color":"yellow"}]
-
 tag @s add abilityUsed
+
+execute at @s run playsound ssbrc:fighters.joker.final_guard.activate player @s

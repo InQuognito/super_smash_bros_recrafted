@@ -16,3 +16,5 @@ execute as @e[tag=chaosBlast] at @s anchored eyes run function ssbrc:series/soni
 function ssbrc:logic/characters/effects/mobility/mobilize
 loot replace entity @s hotbar.0 loot ssbrc:characters/sonic_the_hedgehog/shadow/black_sword
 loot replace entity @s hotbar.1 loot ssbrc:characters/sonic_the_hedgehog/shadow/chaos_spear
+
+playsound ssbrc:fighters.shadow.chaos_blast.activate player @a

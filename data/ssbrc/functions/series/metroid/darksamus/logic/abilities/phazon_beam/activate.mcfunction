@@ -2,19 +2,10 @@ scoreboard players operation $darksamus.chargeBeamPercent temp = @s charge.outpu
 scoreboard players operation $darksamus.chargeBeamPercent temp *= 100 integers
 scoreboard players operation $darksamus.chargeBeamPercent temp /= #darksamus.chargeBeamThreshold vars
 
-execute if score $darksamus.chargeBeamPercent temp matches ..20 positioned 0.0 0.0 0.0 run summon minecraft:marker ^ ^ ^1.25 {Tags:["direction"]}
-execute if score $darksamus.chargeBeamPercent temp matches 21..40 positioned 0.0 0.0 0.0 run summon minecraft:marker ^ ^ ^1.5 {Tags:["direction"]}
-execute if score $darksamus.chargeBeamPercent temp matches 41..60 positioned 0.0 0.0 0.0 run summon minecraft:marker ^ ^ ^1.75 {Tags:["direction"]}
-execute if score $darksamus.chargeBeamPercent temp matches 61..80 positioned 0.0 0.0 0.0 run summon minecraft:marker ^ ^ ^2.0 {Tags:["direction"]}
-execute if score $darksamus.chargeBeamPercent temp matches 81..99 positioned 0.0 0.0 0.0 run summon minecraft:marker ^ ^ ^2.25 {Tags:["direction"]}
-execute if score $darksamus.chargeBeamPercent temp matches 100.. positioned 0.0 0.0 0.0 run summon minecraft:marker ^ ^ ^2.75 {Tags:["direction"]}
-
-execute if score $darksamus.chargeBeamPercent temp matches ..20 run summon minecraft:arrow ^ ^ ^1 {damage:1.0,Tags:["phazonBeam","effect.poison","modifyEntity"],NoGravity:1b}
-execute if score $darksamus.chargeBeamPercent temp matches 21..40 run summon minecraft:arrow ^ ^ ^1 {damage:1.25,Tags:["phazonBeam","effect.poison","modifyEntity"],NoGravity:1b}
-execute if score $darksamus.chargeBeamPercent temp matches 41..60 run summon minecraft:arrow ^ ^ ^1 {damage:1.5,Tags:["phazonBeam","effect.poison","modifyEntity"],NoGravity:1b}
-execute if score $darksamus.chargeBeamPercent temp matches 61..80 run summon minecraft:arrow ^ ^ ^1 {damage:1.75,Tags:["phazonBeam","effect.poison","modifyEntity"],NoGravity:1b}
-execute if score $darksamus.chargeBeamPercent temp matches 81..99 run summon minecraft:arrow ^ ^ ^1 {damage:2.0,Tags:["phazonBeam","effect.poison","modifyEntity"],NoGravity:1b}
-execute if score $darksamus.chargeBeamPercent temp matches 100.. run summon minecraft:arrow ^ ^ ^1 {damage:2.5,Tags:["phazonBeam","effect.poison","modifyEntity"],NoGravity:1b}
+execute if score $darksamus.chargeBeamPercent temp matches ..33 run function ssbrc:series/metroid/darksamus/logic/abilities/phazon_beam/charge/1
+execute if score $darksamus.chargeBeamPercent temp matches 34..66 run function ssbrc:series/metroid/darksamus/logic/abilities/phazon_beam/charge/2
+execute if score $darksamus.chargeBeamPercent temp matches 67..99 run function ssbrc:series/metroid/darksamus/logic/abilities/phazon_beam/charge/3
+execute if score $darksamus.chargeBeamPercent temp matches 100.. run function ssbrc:series/metroid/darksamus/logic/abilities/phazon_beam/charge/4
 
 scoreboard players operation @e[tag=modifyEntity,limit=1] charge.1 = $darksamus.chargeBeamPercent temp
 

@@ -4,3 +4,5 @@ particle minecraft:explosion_emitter ~ ~ ~ 0.0 0.0 0.0 0.0 1 normal @a
 playsound entity.generic.explode player @a
 
 function ssbrc:series/retro_fighters/yar/logic/abilities/ray_blaster/variants/missile_launcher/kill
+
+playsound ssbrc:fighters.yar.missile_launcher.explode player @a

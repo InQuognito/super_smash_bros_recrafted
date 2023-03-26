@@ -2,3 +2,5 @@ summon minecraft:item_frame ~ ~ ~ {Tags:["phazonSpike","edit"],ItemRotation:0,Fi
 execute as @e[type=minecraft:item_frame,tag=phazonSpike,tag=edit,sort=nearest,limit=1] run function ssbrc:series/metroid/darksamus/logic/abilities/phazon_spike/rotate_spike
 
 data merge entity @s {Radius:0.5f,Duration:30,ReapplicationDelay:30,Effects:[{Id:7,Amplifier:1b,Duration:1,ShowParticles:0b},{Id:19,Amplifier:1b,Duration:60,ShowParticles:0b}]}
+
+playsound ssbrc:fighters.darksamus.phazon_spike.activate player @a

@@ -13,3 +13,5 @@ loot replace entity @s hotbar.0 loot ssbrc:characters/retro_fighters/alteredbeas
 function ssbrc:logic/characters/armor/update
 
 effect give @s minecraft:absorption infinite 1 true
+
+execute at @s run playsound ssbrc:fighters.alteredbeast.transform.warebear player @a

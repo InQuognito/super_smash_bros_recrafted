@@ -7,3 +7,5 @@ execute if score @s shadow.chaosControl matches 1.. run function ssbrc:logic/cha
 
 scoreboard players add @s charge.1 1
 execute if score @s charge.1 matches 15.. run function ssbrc:series/retro_fighters/yar/logic/abilities/power_ups/reset
+
+playsound ssbrc:fighters.yar.triple_shot.activate player @a

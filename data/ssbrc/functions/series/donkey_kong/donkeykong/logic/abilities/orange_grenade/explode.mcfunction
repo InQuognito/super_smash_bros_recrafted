@@ -5,4 +5,4 @@ playsound minecraft:entity.generic.explode hostile @a
 
 kill @s
 
-execute as @p[tag=self] at @s run playsound minecraft:entity.arrow.hit_player player @s
+execute if entity @e[predicate=ssbrc:flag/targets,distance=..3] as @p[tag=self] at @s run playsound minecraft:entity.arrow.hit_player player @s

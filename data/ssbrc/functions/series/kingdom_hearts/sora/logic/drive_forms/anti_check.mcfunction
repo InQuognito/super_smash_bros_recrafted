@@ -16,3 +16,5 @@ execute if entity @s[tag=driveForm.anti] run function ssbrc:series/kingdom_heart
 tag @s remove driveForm.valor
 tag @s remove driveForm.wisdom
 tag @s remove driveForm.anti
+
+playsound ssbrc:fighters.sora.drive_forms.activate player @a
