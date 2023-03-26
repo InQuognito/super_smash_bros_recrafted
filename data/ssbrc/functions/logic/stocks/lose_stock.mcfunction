@@ -25,6 +25,7 @@ execute if entity @s[tag=yar] as @e[type=minecraft:area_effect_cloud,tag=drone.a
 execute if entity @s[tag=ganondorf] run kill @e[type=minecraft:item,nbt={Item:{id:"minecraft:trident"}},sort=nearest,limit=1]
 execute if entity @s[tag=link] as @e[type=minecraft:area_effect_cloud,tag=boomerang] if score @s id = @p[tag=self] id run function ssbrc:series/the_legend_of_zelda/link/logic/abilities/boomerang/kill
 execute if entity @s[tag=ivysaur] as @e[type=minecraft:marker,tag=leechSeed] if score @s id = @p[tag=self] id run kill @s
+execute if entity @s[tag=shovelknight] as @e[type=minecraft:marker,tag=warHorn] if score @s id = @p[tag=self] id run kill @s
 execute if entity @s[tag=zelda] as @e[type=minecraft:area_effect_cloud,tag=boomerang] if score @s id = @p[tag=self] id run function ssbrc:series/the_legend_of_zelda/zelda/logic/abilities/boomerang/kill
 execute if entity @s[tag=zelda] as @e[type=minecraft:area_effect_cloud,tag=magicBoomerang] if score @s id = @p[tag=self] id run function ssbrc:series/the_legend_of_zelda/zelda/logic/abilities/magic_boomerang/kill
 tag @s remove self

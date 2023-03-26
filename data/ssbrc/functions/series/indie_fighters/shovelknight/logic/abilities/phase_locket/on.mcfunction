@@ -9,4 +9,4 @@ scoreboard players operation @s mana -= #shovelknight.phaseLocketManaCost vars
 scoreboard players set @s cooldown.2 300
 execute if score @s shadow.chaosControl matches 1.. run function ssbrc:logic/characters/cooldown_modifiers/chaos_control/2
 
-playsound ssbrc:fighters.shovelknight.phase_locket.activate player @a
+execute at @s run playsound ssbrc:fighters.shovelknight.phase_locket.activate player @a
