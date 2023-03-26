@@ -1,8 +1,8 @@
-execute if entity @s[scores={useAbility=1..,cooldown.1=..0},nbt={SelectedItem:{tag:{chaosSphere:1}}}] run function ssbrc:series/indie_fighters/shovelknight/logic/abilities/chaos_sphere/check
-execute if entity @s[scores={useAbility=1..,cooldown.1=..0},nbt={SelectedItem:{tag:{flareWand:1}}}] run function ssbrc:series/indie_fighters/shovelknight/logic/abilities/flare_wand/check
-execute if entity @s[scores={useAbility=1..,cooldown.1=..0},nbt={SelectedItem:{tag:{throwingAnchor:1}}}] run function ssbrc:series/indie_fighters/shovelknight/logic/abilities/throwing_anchor/check
-execute if entity @s[scores={useAbility=1..,cooldown.2=..0},nbt={SelectedItem:{tag:{phaseLocket:1}}}] run function ssbrc:series/indie_fighters/shovelknight/logic/abilities/phase_locket/check
-execute if entity @s[scores={charge.step=5..,cooldown.2=..0},nbt={SelectedItem:{tag:{propellerDagger:1}}}] run function ssbrc:series/indie_fighters/shovelknight/logic/abilities/propeller_dagger/check
+execute if entity @s[scores={useAbility=1..,cooldown.1=..0},nbt={SelectedItem:{tag:{chaosSphere:1}}}] at @s run function ssbrc:series/indie_fighters/shovelknight/logic/abilities/chaos_sphere/check
+execute if entity @s[scores={useAbility=1..,cooldown.1=..0},nbt={SelectedItem:{tag:{flareWand:1}}}] at @s run function ssbrc:series/indie_fighters/shovelknight/logic/abilities/flare_wand/check
+execute if entity @s[scores={useAbility=1..,cooldown.1=..0},nbt={SelectedItem:{tag:{throwingAnchor:1}}}] at @s run function ssbrc:series/indie_fighters/shovelknight/logic/abilities/throwing_anchor/check
+execute if entity @s[scores={useAbility=1..,cooldown.2=..0},nbt={SelectedItem:{tag:{phaseLocket:1}}}] at @s run function ssbrc:series/indie_fighters/shovelknight/logic/abilities/phase_locket/check
+execute if entity @s[scores={charge.step=5..,cooldown.2=..0},nbt={SelectedItem:{tag:{propellerDagger:1}}}] at @s run function ssbrc:series/indie_fighters/shovelknight/logic/abilities/propeller_dagger/check
 
 # Mana
 function ssbrc:series/indie_fighters/shovelknight/logic/mana/update
