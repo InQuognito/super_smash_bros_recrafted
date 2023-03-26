@@ -8,3 +8,5 @@ clear @s minecraft:carrot_on_a_stick{personaAwakening:1}
 attribute @s minecraft:generic.knockback_resistance base set 0.0
 
 function ssbrc:logic/characters/armor/update
+
+playsound ssbrc:fighters.joker.persona_awakening.deactivate player @a

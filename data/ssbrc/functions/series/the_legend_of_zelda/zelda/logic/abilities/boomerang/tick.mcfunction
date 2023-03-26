@@ -15,5 +15,5 @@ scoreboard players add @s temp 1
 
 scoreboard players operation #loop temp = @s temp
 scoreboard players operation #loop temp %= 3 integers
-execute if score #loop temp matches 0 at @s run playsound ssbrc:fighters.link.boomerang.loop player @a
+execute if score #loop temp matches 0 run playsound ssbrc:fighters.link.boomerang.loop player @a
 scoreboard players reset #loop temp

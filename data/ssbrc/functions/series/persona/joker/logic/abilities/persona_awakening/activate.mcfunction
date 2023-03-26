@@ -16,3 +16,5 @@ loot replace entity @s[tag=raoul] hotbar.2 loot ssbrc:characters/persona/joker/p
 attribute @s[tag=yatagarasu] minecraft:generic.knockback_resistance base set 0.25
 
 function ssbrc:logic/characters/armor/update
+
+playsound ssbrc:fighters.joker.persona_awakening.activate player @a

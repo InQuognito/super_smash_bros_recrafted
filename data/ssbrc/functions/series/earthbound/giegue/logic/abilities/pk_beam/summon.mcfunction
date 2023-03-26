@@ -17,3 +17,5 @@ execute if score @s shadow.chaosControl matches 1.. run function ssbrc:logic/cha
 
 function ssbrc:logic/characters/effects/mobility/mobilize
 function ssbrc:series/earthbound/giegue/kit
+
+playsound ssbrc:fighters.giegue.pk_beam.activate player @a
