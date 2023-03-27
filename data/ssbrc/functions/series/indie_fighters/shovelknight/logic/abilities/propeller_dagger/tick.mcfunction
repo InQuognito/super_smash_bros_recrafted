@@ -1,4 +1,4 @@
-execute positioned ~ ~0.5 ~ unless block ^ ^ ^1.5 #ssbrc:passthrough_charge run scoreboard players set @p[tag=self] duration.2 1
+execute positioned ~ ~0.5 ~ unless block ^ ^ ^1.5 #ssbrc:passthrough_charge run scoreboard players set @p[tag=self] duration.2 2
 execute positioned ~ ~0.5 ~ unless block ^ ^ ^1.5 #ssbrc:passthrough_charge run kill @s
 
 teleport @s ^ ^ ^1.5
