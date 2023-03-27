@@ -26,6 +26,8 @@ summon minecraft:text_display -550.5 -1.75 63.5 {text:'{"text":"SugarShrimp","bo
 # Art Team
 summon minecraft:text_display -546.5 -1.75 50.5 {text:'{"text":"Art Team","bold":true,"color":"gold"}',billboard:center}
 
+summon minecraft:item_display -550.5 -3.5 45.5 {Rotation:[-45f,0f],item:{id:"minecraft:sugar",tag:{CustomModelData:1019},Count:1b}}
+
 summon minecraft:item_display -549.5 -3.0 47.5 {item:{id:"minecraft:player_head",tag:{CustomModelData:6},Count:1b},Rotation:[180f,0f]}
 summon minecraft:text_display -549.5 -1.75 47.5 {text:'{"text":"HomegaddielMC","bold":true,"color":"white"}',billboard:center}
 
@@ -46,6 +48,8 @@ summon minecraft:text_display -544.5 -1.75 45.5 {text:'{"text":"Ricardo64","bold
 
 summon minecraft:item_display -543.5 -3.0 47.5 {item:{id:"minecraft:player_head",tag:{CustomModelData:12},Count:1b},Rotation:[180f,0f]}
 summon minecraft:text_display -543.5 -1.75 47.5 {text:'{"text":"PastaPower2K64","bold":true,"color":"white"}',billboard:center}
+
+summon minecraft:item_display -542.5 -3.5 45.5 {Rotation:[45f,0f],item:{id:"minecraft:sugar",tag:{CustomModelData:1019},Count:1b}}
 
 # Testers
 summon minecraft:text_display -534.5 -1.75 60.5 {text:'{"text":"Testers","bold":true,"color":"gold"}',billboard:center}
