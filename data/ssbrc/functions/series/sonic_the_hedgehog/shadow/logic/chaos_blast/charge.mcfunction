@@ -14,3 +14,5 @@ execute if score @s[tag=yellowAndroid] charge.2 matches 70..80 run particle mine
 execute if score @s[tag=yellowAndroid] charge.2 matches 70..80 run particle minecraft:dust_color_transition 1.0 1.0 0.0 1.0 1.0 1.0 1.0 ~ ~ ~ 2.0 2.0 2.0 1.5 75 normal @a
 
 execute if score @s charge.2 matches 70 positioned ~ ~-0.75 ~ run function ssbrc:series/sonic_the_hedgehog/shadow/logic/chaos_blast/unleash
+
+execute if score @s charge.2 matches 1 run playsound ssbrc:fighters.shadow.chaos_blast.charge player @a
