@@ -2,7 +2,7 @@ particle minecraft:flame ~ ~0.75 ~ 0.5 0.5 0.5 0.05 50 normal @a
 particle minecraft:smoke ~ ~0.75 ~ 0.6 0.6 0.6 0.01 100 normal @a
 
 execute positioned ~ ~0.75 ~ unless block ^ ^ ^0.75 #ssbrc:passthrough_charge run scoreboard players set @p[tag=self] duration.1 2
-execute positioned ~ ~0.75 ~ if block ^ ^ ^0.75 #ssbrc:passthrough_charge at @s run teleport @s ^ ^ ^0.6
+execute positioned ~ ~0.75 ~ at @s if block ^ ^ ^0.75 #ssbrc:passthrough_charge run teleport @s ^ ^ ^0.6
 
 execute at @s run teleport @p[tag=self,scores={duration.1=1..}] ^ ^ ^ ~ ~
 
