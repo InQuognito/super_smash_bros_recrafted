@@ -1,16 +1,16 @@
 scoreboard players set max random 50
 function ssbrc:math/rng/lcg
 
-execute if score result random matches 0 run tellraw @s {"text":"Placeholder Tip 1","color":"white"}
-execute if score result random matches 1 run tellraw @s {"text":"Placeholder Tip 2","color":"white"}
-execute if score result random matches 2 run tellraw @s {"text":"Placeholder Tip 3","color":"white"}
-execute if score result random matches 3 run tellraw @s {"text":"Placeholder Tip 4","color":"white"}
-execute if score result random matches 4 run tellraw @s {"text":"Placeholder Tip 5","color":"white"}
-execute if score result random matches 5 run tellraw @s {"text":"Placeholder Tip 6","color":"white"}
-execute if score result random matches 6 run tellraw @s {"text":"Placeholder Tip 7","color":"white"}
-execute if score result random matches 7 run tellraw @s {"text":"Placeholder Tip 8","color":"white"}
-execute if score result random matches 8 run tellraw @s {"text":"Placeholder Tip 9","color":"white"}
-execute if score result random matches 9 run tellraw @s {"text":"Placeholder Tip 10","color":"white"}
+execute if score result random matches 0 run tellraw @s {"text":"As the Mario Bros., you can hold down your sneak key a special super jump!","color":"white"}
+execute if score result random matches 1 run tellraw @s {"text":"Harness the power of Link's great courage! Hold down Your sneak key and Master Sword to charge up a spin attack!","color":"white"}
+execute if score result random matches 2 run tellraw @s {"text":"Rack up K.O.s with Zelda's obsidian based weapons in order to increase their power!","color":"white"}
+execute if score result random matches 3 run tellraw @s {"text":"Munching the Pac-Dots on Pac-Maze can make special bonus fruits and Pac-Pellets appear!","color":"white"}
+execute if score result random matches 4 run tellraw @s {"text":"Have you heard the rumors? Some have seen a special colored Pokemon out there!","color":"white"}
+execute if score result random matches 5 run tellraw @s {"text":"Zelda's glass weapons are brittle, make sure you have enough rupees in reserve to refresh your inventory.","color":"white"}
+execute if score result random matches 6 run tellraw @s {"text":"You can control the direction of Ness's PK Flash with your mouse cursor.","color":"white"}
+execute if score result random matches 7 run tellraw @s {"text":"Accumulating K.O.s with Snake's CQC Knife can yield ammo drops.","color":"white"}
+execute if score result random matches 8 run tellraw @s {"text":"You can accumulate more credits with a win-streak.","color":"white"}
+execute if score result random matches 9 run tellraw @s {"text":"Try to accumulate 10 wins with each character. You just might get a special bonus if you do!","color":"white"}
 execute if score result random matches 10 run tellraw @s {"text":"Placeholder Tip 11","color":"white"}
 execute if score result random matches 11 run tellraw @s {"text":"Placeholder Tip 12","color":"white"}
 execute if score result random matches 12 run tellraw @s {"text":"Placeholder Tip 13","color":"white"}
