@@ -12,6 +12,5 @@ summon minecraft:glow_item_frame 23379.5 5.0 8619.5 {Tags:["pacMaze.dot","pacMaz
 summon minecraft:glow_item_frame 23379.5 5.0 8621.5 {Tags:["pacMaze.dot","pacMaze.dot.e"],Facing:1b,Fixed:1b,Invisible:1b,Item:{id:"minecraft:sugar",Count:1b,tag:{CustomModelData:1343}}}
 
 execute store result score $dotGroup.e temp if entity @e[tag=pacMaze.dot.e]
-scoreboard players set #dotGroup.e temp 1
 
 scoreboard players set #spawnedDotGroup temp 1
