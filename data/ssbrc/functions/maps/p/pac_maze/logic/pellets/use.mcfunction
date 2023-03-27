@@ -3,4 +3,4 @@ scoreboard players set @e[tag=ghost,tag=retreating] duration.1 140
 
 clear @s minecraft:warped_fungus_on_a_stick{powerPellet:1} 1
 
-execute as @a at @s run playsound ssbrc:power_pellet player @s
+execute as @a[predicate=ssbrc:ingame] at @s run playsound ssbrc:power_pellet player @s

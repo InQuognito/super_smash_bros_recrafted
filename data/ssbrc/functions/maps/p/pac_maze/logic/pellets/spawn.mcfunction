@@ -8,4 +8,4 @@ execute if score result random matches 3 run summon minecraft:glow_item_frame 23
 
 scoreboard players reset $dotGroup.total temp
 
-execute as @a at @s run playsound ssbrc:extend player @s
+execute as @a[predicate=ssbrc:ingame] at @s run playsound ssbrc:extend player @s

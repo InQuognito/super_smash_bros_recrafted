@@ -1,4 +1,4 @@
-tellraw @a [{"text":"Inky","color":"aqua"},{"text":" has been released!","color":"white"}]
+tellraw @a[predicate=ssbrc:ingame] [{"text":"Inky","color":"aqua"},{"text":" has been released!","color":"white"}]
 
 teleport @s 23360.5 5.0 8633.5
 

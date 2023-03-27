@@ -14,4 +14,4 @@ execute if score $fruit temp matches 8 run summon minecraft:glow_item_frame ~ ~ 
 
 execute if score $fruit temp matches 8.. run scoreboard players set $fruit temp 0
 
-execute as @a at @s run playsound ssbrc:extend player @s
+execute as @a[predicate=ssbrc:ingame] at @s run playsound ssbrc:extend player @s
