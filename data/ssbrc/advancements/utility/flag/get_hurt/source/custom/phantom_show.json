@@ -1,0 +1,20 @@
+{
+	"parent": "ssbrc:utility/root",
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:entity_hurt_player",
+			"conditions": {
+				"damage": {
+					"type": {
+						"direct_entity": {
+							"nbt": "{Tags:[\"dreamNeedle\"]}"
+						}
+					}
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "ssbrc:series/persona/joker/logic/abilities/phantom_show/check"
+	}
+}
