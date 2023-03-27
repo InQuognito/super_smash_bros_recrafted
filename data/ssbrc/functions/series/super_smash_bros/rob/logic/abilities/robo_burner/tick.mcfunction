@@ -17,6 +17,8 @@ execute if score #percentage temp matches 41..50 run effect give @s minecraft:le
 execute if score #percentage temp matches 51..60 run effect give @s minecraft:levitation infinite 4 true
 execute if score #percentage temp matches 61.. run effect give @s minecraft:levitation infinite 5 true
 
+tellraw @s [{"score":{"name":"#percentage","objective":"temp"}}]
+
 scoreboard players set @s cooldown.2 100
 
 function ssbrc:series/super_smash_bros/rob/logic/abilities/robo_burner/update
