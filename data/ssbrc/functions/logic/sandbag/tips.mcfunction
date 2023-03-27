@@ -11,31 +11,31 @@ execute if score result random matches 6 run tellraw @s {"text":"You can control
 execute if score result random matches 7 run tellraw @s {"text":"Accumulating K.O.s with Snake's CQC Knife can yield ammo drops.","color":"white"}
 execute if score result random matches 8 run tellraw @s {"text":"You can accumulate more credits with a win-streak.","color":"white"}
 execute if score result random matches 9 run tellraw @s {"text":"Try to accumulate 10 wins with each character. You just might get a special bonus if you do!","color":"white"}
-execute if score result random matches 10 run tellraw @s {"text":"Placeholder Tip 11","color":"white"}
-execute if score result random matches 11 run tellraw @s {"text":"Placeholder Tip 12","color":"white"}
-execute if score result random matches 12 run tellraw @s {"text":"Placeholder Tip 13","color":"white"}
-execute if score result random matches 13 run tellraw @s {"text":"Placeholder Tip 14","color":"white"}
-execute if score result random matches 14 run tellraw @s {"text":"Placeholder Tip 15","color":"white"}
-execute if score result random matches 15 run tellraw @s {"text":"Placeholder Tip 16","color":"white"}
-execute if score result random matches 16 run tellraw @s {"text":"Placeholder Tip 17","color":"white"}
-execute if score result random matches 17 run tellraw @s {"text":"Placeholder Tip 18","color":"white"}
-execute if score result random matches 18 run tellraw @s {"text":"Placeholder Tip 19","color":"white"}
-execute if score result random matches 19 run tellraw @s {"text":"Placeholder Tip 20","color":"white"}
-execute if score result random matches 20 run tellraw @s {"text":"Placeholder Tip 21","color":"white"}
-execute if score result random matches 21 run tellraw @s {"text":"Placeholder Tip 22","color":"white"}
-execute if score result random matches 22 run tellraw @s {"text":"Placeholder Tip 23","color":"white"}
-execute if score result random matches 23 run tellraw @s {"text":"Placeholder Tip 24","color":"white"}
-execute if score result random matches 24 run tellraw @s {"text":"Placeholder Tip 25","color":"white"}
-execute if score result random matches 25 run tellraw @s {"text":"Placeholder Tip 26","color":"white"}
-execute if score result random matches 26 run tellraw @s {"text":"Placeholder Tip 27","color":"white"}
-execute if score result random matches 27 run tellraw @s {"text":"Placeholder Tip 28","color":"white"}
-execute if score result random matches 28 run tellraw @s {"text":"Placeholder Tip 29","color":"white"}
-execute if score result random matches 29 run tellraw @s {"text":"Placeholder Tip 30","color":"white"}
-execute if score result random matches 30 run tellraw @s {"text":"Placeholder Tip 31","color":"white"}
-execute if score result random matches 31 run tellraw @s {"text":"Placeholder Tip 32","color":"white"}
-execute if score result random matches 32 run tellraw @s {"text":"Placeholder Tip 33","color":"white"}
-execute if score result random matches 33 run tellraw @s {"text":"Placeholder Tip 34","color":"white"}
-execute if score result random matches 34 run tellraw @s {"text":"Placeholder Tip 35","color":"white"}
+execute if score result random matches 10 run tellraw @s {"text":"Sonic & Shadow both can build up acceleration by running around without taking damage.","color":"white"}
+execute if score result random matches 11 run tellraw @s {"text":"Accumulating 20 Mana with Hero will grant you the ultimate spell - Magic Burst!","color":"white"}
+execute if score result random matches 12 run tellraw @s {"text":"The transformation of Altered Beast depends on the terrain of the stage.","color":"white"}
+execute if score result random matches 13 run tellraw @s {"text":"Trying out a new character? Remember to check the tool tips on each of your items!","color":"white"}
+execute if score result random matches 14 run tellraw @s {"text":"You can predict the order in which Pokemon Trainer swaps out their Pokemon - it goes in Pokedex order!","color":"white"}
+execute if score result random matches 15 run tellraw @s {"text":"You can predict the order in which Team Rocket swaps out their Pokemon - it goes in reverse Poedex order!","color":"white"}
+execute if score result random matches 16 run tellraw @s {"text":"The options menu for the current game can be awarded to any player besides one who won the previous game.","color":"white"}
+execute if score result random matches 17 run tellraw @s {"text":"Using an Angel's Feather on Palutena's Temple will give you a super jump.","color":"white"}
+execute if score result random matches 18 run tellraw @s {"text":"The FG II-Graham on Pyrosphere can be destroyed if they sustain enough damage.","color":"white"}
+execute if score result random matches 19 run tellraw @s {"text":"Zelda can obtain rupees from NPC characters as well, such as Stalfos or FG II-Grahams.","color":"white"}
+execute if score result random matches 20 run tellraw @s {"text":"Yar gains a special power up with every K.O.","color":"white"}
+execute if score result random matches 21 run tellraw @s {"text":"Pikachu's electric terrain produces an electronic field capable of many effects. It short-circuits drones, increases his electric capacity, and more.","color":"white"}
+execute if score result random matches 22 run tellraw @s {"text":"Wave Beam has the ability to pierce walls.","color":"white"}
+execute if score result random matches 23 run tellraw @s {"text":"Be careful about usage of Sora's drive forms! Get too greedy, and you may find yourself corroded by darkness.","color":"white"}
+execute if score result random matches 24 run tellraw @s {"text":"Snake's vision won't be obscured by his own smoke grenade.","color":"white"}
+execute if score result random matches 25 run tellraw @s {"text":"Use Pit's wings too much within a stock, and they will burn!","color":"white"}
+execute if score result random matches 26 run tellraw @s {"text":"Byleth gain regain their legendary relics by accumulating K.O.s","color":"white"}
+execute if score result random matches 27 run tellraw @s {"text":"When on his last legs, Ryu can give in to the power of the Satsui no Hado. Be careful, such power comes with a great price...","color":"white"}
+execute if score result random matches 28 run tellraw @s {"text":"Want to stay up to date on news, updates, and community events? Join our Discord and follow us on Twitter!","color":"white"}
+execute if score result random matches 29 run tellraw @s {"text":"Sora's Wisdom Form provides faster MP recovery and new tiers of spells.","color":"white"}
+execute if score result random matches 30 run tellraw @s {"text":"Sora's Valor Form provides higher attack damage and jump height, as well as a secondary keyblade to perform a special Strike Raid ability.","color":"white"}
+execute if score result random matches 31 run tellraw @s {"text":"Greninja can swim faster underwater and has permanent water breathing.","color":"white"}
+execute if score result random matches 32 run tellraw @s {"text":"Snake has benefits to bringing fewer items into battle. Stealth time, run speed, and swift sneak level increases the less he carries into battle.","color":"white"}
+execute if score result random matches 33 run tellraw @s {"text":"Alucard's Blood Metamorphosis will power up your next ability, at the cost of a few hearts.","color":"white"}
+execute if score result random matches 34 run tellraw @s {"text":"Shadow's alignment changes depending on who he faces in battle. A Hero or Dark alignment can affect his ultimate ability.","color":"white"}
 execute if score result random matches 35 run tellraw @s {"text":"Placeholder Tip 36","color":"white"}
 execute if score result random matches 36 run tellraw @s {"text":"Placeholder Tip 37","color":"white"}
 execute if score result random matches 37 run tellraw @s {"text":"Placeholder Tip 38","color":"white"}
