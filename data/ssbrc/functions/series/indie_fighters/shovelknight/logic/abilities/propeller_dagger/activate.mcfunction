@@ -22,3 +22,5 @@ execute if score @s shadow.chaosControl matches 1.. run function ssbrc:logic/cha
 function ssbrc:logic/characters/flags/use_recovery
 
 playsound ssbrc:fighters.shovelknight.propeller_dagger.activate player @a
+
+say activate prop dagger
