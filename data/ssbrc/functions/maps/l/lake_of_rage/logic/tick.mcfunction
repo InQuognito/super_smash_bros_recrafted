@@ -1,3 +1,5 @@
+execute as @e[type=minecraft:item_display,tag=gastly] at @s run function ssbrc:maps/l/lake_of_rage/logic/pokemon/gastly/move
+
 kill @e[predicate=ssbrc:killbox_vulnerable,x=2533.0,y=6.0,z=3999.0,dx=0,dy=21,dz=8]
 kill @e[predicate=ssbrc:killbox_vulnerable,x=2532.0,y=6.0,z=4008.0,dx=0,dy=21,dz=4]
 kill @e[predicate=ssbrc:killbox_vulnerable,x=2531.0,y=6.0,z=4013.0,dx=0,dy=21,dz=1]
