@@ -20,9 +20,7 @@ summon minecraft:marker -692.5 22.0 591.5 {Tags:["spawnpoint.item"]}
 summon minecraft:marker -681.5 20.0 602.5 {Tags:["spawnpoint.item"]}
 summon minecraft:marker -683.5 20.0 600.5 {Tags:["spawnpoint.item"]}
 
-execute as @e[type=minecraft:marker,tag=post.origin] at @s anchored eyes run function ssbrc:maps/m/miiverse/logic/posts/summon
-
-tag @a[predicate=ssbrc:ingame] add notPosted
+tag @a[predicate=ssbrc:flag/player] add notPosted
 execute as @e[type=minecraft:item_display,tag=post,tag=!posted,sort=random,limit=1] at @s run function ssbrc:maps/m/miiverse/logic/posts/apply
 tag @a remove notPosted
 
