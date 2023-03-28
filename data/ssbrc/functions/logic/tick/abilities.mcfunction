@@ -93,7 +93,7 @@ execute as @e[type=minecraft:marker,tag=thundaza] at @s if score @s id = @p[tag=
 execute as @e[type=minecraft:armor_stand,tag=strikeRaid] at @s if score @s id = @p[tag=self] id run function ssbrc:series/kingdom_hearts/sora/logic/abilities/strike_raid/tick
 
 # Steve
-execute as @e[type=minecraft:item,nbt={Item:{tag:{Tags:[steve.item]}}}] run function ssbrc:series/indie_fighters/steve/logic/item/tick
+execute as @e[type=minecraft:item,nbt={Item:{tag:{Tags:[steve.item]}}}] at @s if score @s id = @p[tag=self] id run function ssbrc:series/indie_fighters/steve/logic/item/tick
 
 # Wolf
 execute as @e[type=minecraft:arrow,tag=wolf.blaster] at @s if score @s id = @p[tag=self] id run function ssbrc:series/star_fox/wolf/logic/abilities/blaster/tick
