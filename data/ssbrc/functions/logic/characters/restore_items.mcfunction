@@ -75,6 +75,7 @@ scoreboard players set @s[tag=pikachu] charge.1 5
 
 # Pit
 item replace entity @s[tag=pit] armor.chest with minecraft:elytra{Damage:417,HideFlags:127} 1
+give @s[tag=pit] minecraft:arrow 16
 
 # Pokémon Trainer
 tag @s[tag=pokemontrainer] remove nextFighterChosen

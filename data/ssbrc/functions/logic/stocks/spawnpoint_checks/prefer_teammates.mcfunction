@@ -8,5 +8,5 @@ execute if entity @a[tag=respawnMe,team=team7,limit=1] if entity @a[predicate=ss
 execute if entity @a[tag=respawnMe,team=team8,limit=1] if entity @a[predicate=ssbrc:flag/player,team=team8,distance=..10] run function ssbrc:logic/stocks/spawnpoint_checks/teleport
 
 tag @s remove checkSpawnpoint
-execute if entity @e[type=minecraft:marker,tag=checkSpawnpoint,sort=random,limit=1] if entity @a[tag=respawnMe,limit=1] as @e[type=minecraft:marker,tag=checkSpawnpoint,sort=random,limit=1] at @s run function ssbrc:logic/stocks/spawnpoint_checks/prefer_teammates
-execute unless entity @e[type=minecraft:marker,tag=checkSpawnpoint,sort=random,limit=1] if entity @a[tag=respawnMe,limit=1] run function ssbrc:logic/stocks/spawnpoint_checks/random
+execute if entity @e[type=minecraft:marker,tag=checkSpawnpoint] if entity @a[tag=respawnMe,limit=1] as @e[type=minecraft:marker,tag=checkSpawnpoint,sort=random,limit=1] at @s run function ssbrc:logic/stocks/spawnpoint_checks/prefer_teammates
+execute unless entity @e[type=minecraft:marker,tag=checkSpawnpoint] if entity @a[tag=respawnMe,limit=1] run function ssbrc:logic/stocks/spawnpoint_checks/random

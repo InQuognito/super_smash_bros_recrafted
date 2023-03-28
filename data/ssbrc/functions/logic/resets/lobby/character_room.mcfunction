@@ -123,7 +123,7 @@ summon minecraft:armor_stand 125.5 5.0 156.5 {Tags:["selectable","lobbyStand","a
 summon minecraft:text_display 129.5 7.25 154.5 {Tags:["lobbyStand.label"],text:'{"text":"Yar","color":"red"}',billboard:center}
 summon minecraft:armor_stand 129.5 5.0 154.5 {Tags:["selectable","lobbyStand","yar","default"]}
 
-summon minecraft:text_display 138.5 5.5 150.5 {Tags:["lobbyStand.label"],text:'{"text":"Return to Lobby","color":"yellow"}',billboard:center}
+summon minecraft:text_display 138.5 5.5 150.5 {Tags:["lobbyStand.label"],text:'{"text":"Leave Game","color":"yellow"}',billboard:center}
 
 summon minecraft:text_display 132.5 7.25 153.5 {Tags:["lobbyStand.label"],text:'{"text":"Spectate","color":"white"}',billboard:center}
 summon minecraft:armor_stand 132.5 5.0 153.5 {Tags:["selectable","lobbyStand","spectator"]}
