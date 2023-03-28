@@ -1,7 +1,7 @@
 time set night
 
 # Gastly
-summon minecraft:item_display 2513.5 28.5 4005.5 {Tags:["decorObject","gastly","default"],item:{id:"minecraft:diamond",Count:1b,tag:{CustomModelData:920}},Rotation:[-90f,0f]}
+summon minecraft:armor_stand 2513.5 28.5 4005.5 {Tags:["decorObject","gastly","default"],ArmorItems:[{},{},{},{id:"minecraft:diamond",Count:1b,tag:{CustomModelData:920}}],Rotation:[-90f,0f],NoGravity:1b,Invisible:1b,Invulnerable:1b,NoBasePlate:1b,DisabledSlots:4144959}
 
 # Lapras
 summon minecraft:item_display 2553.5 14.4 4045.5 {Tags:["decorObject","lapras"],item:{id:"minecraft:diamond",Count:1b,tag:{CustomModelData:1310}},Rotation:[-45f,0f],transformation:[2.0f,0.0f,0.0f,-1.0f,0.0f,2.0f,0.0f,-1.0f,0.0f,0.0f,2.0f,-1.0f,0.0f,0.0f,0.0f,1.0f]}
