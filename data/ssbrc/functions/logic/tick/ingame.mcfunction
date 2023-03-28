@@ -31,7 +31,7 @@ scoreboard players reset @a flag.breakShield
 function ssbrc:logic/tick/damage
 
 # Maps
-function ssbrc:logic/tick/maps
+function ssbrc:logic/tick/maps/after_start
 
 # Banned From Having More Than One
 execute as @a[predicate=ssbrc:characters/kits/trident] run function ssbrc:logic/characters/restore_items/trident_count
