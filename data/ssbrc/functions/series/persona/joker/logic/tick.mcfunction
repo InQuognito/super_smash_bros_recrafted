@@ -11,7 +11,7 @@ execute if entity @s[scores={useAbility=1..,cooldown.1=..0},nbt={SelectedItem:{t
 execute if score @s duration.1 matches 1 run function ssbrc:series/persona/joker/logic/abilities/persona_awakening/deactivate
 
 # Rebel's Guard
-execute if entity @s[tag=!rebelsGuard,predicate=ssbrc:flag/sneaking] run function ssbrc:series/persona/joker/logic/abilities/rebels_guard/activate
+execute at @s[tag=!rebelsGuard,predicate=ssbrc:flag/sneaking] if block ~ ~1.5 ~ #ssbrc:passthrough_charge run function ssbrc:series/persona/joker/logic/abilities/rebels_guard/activate
 execute if entity @s[tag=rebelsGuard,predicate=!ssbrc:flag/sneaking] run function ssbrc:series/persona/joker/logic/abilities/rebels_guard/deactivate
 execute at @s[tag=rebelsGuard] run particle minecraft:dust 0.0 0.0 1.0 0.5 ~ ~0.75 ~ 0.2 0.4 0.2 0.0 5 normal @a
 
