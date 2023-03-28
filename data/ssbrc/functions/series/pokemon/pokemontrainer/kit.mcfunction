@@ -1,5 +1,5 @@
 tag @s[predicate=ssbrc:shiny_chance] add naturalShiny
-execute if entity @s[tag=naturalShiny] run function ssbrc:shop/contents/skins/pokemontrainer/shiny
+execute if entity @s[tag=naturalShiny,advancements={ssbrc:series/pokemon/pokemontrainer/skins/shiny=false}] run function ssbrc:shop/contents/skins/pokemontrainer/shiny
 execute if entity @s[tag=naturalShiny] run function ssbrc:series/pokemon/natural_shiny
 
 tag @s remove nextFighterChosen
