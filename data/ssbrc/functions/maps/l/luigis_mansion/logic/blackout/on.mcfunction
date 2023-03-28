@@ -41,6 +41,6 @@ execute at @e[type=minecraft:marker,tag=lanternOff.hanging] run setblock ~ ~ ~ m
 execute at @e[type=minecraft:marker,tag=lanternOff.floor] run summon minecraft:item_frame ~ ~ ~ {Tags:["lanternOff"],Facing:1b,Invisible:1b,Fixed:1b,Item:{id:"minecraft:sugar",Count:1b,tag:{CustomModelData:1020}}}
 execute at @e[type=minecraft:marker,tag=lanternOff.hanging] run summon minecraft:item_frame ~ ~ ~ {Tags:["lanternOff"],Facing:0b,Invisible:1b,Fixed:1b,Item:{id:"minecraft:sugar",Count:1b,tag:{CustomModelData:1021}}}
 
-execute as @a at @s run playsound ssbrc:blackout ambient @s
+execute as @a[predicate=ssbrc:ingame] at @s run playsound ssbrc:blackout ambient @s
 
 schedule function ssbrc:maps/l/luigis_mansion/logic/blackout/off 40s replace
