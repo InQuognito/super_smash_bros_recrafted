@@ -21,7 +21,6 @@ function ssbrc:math/rng/lcg
 
 execute if score result random matches 0 run summon minecraft:armor_stand -568.5 18.0 -123.5 {Tags:["decorObject","metapod"],Rotation:[-135f,0f],ArmorItems:[{},{},{},{id:"minecraft:diamond",Count:1b,tag:{CustomModelData:110}}],Invisible:1b,NoGravity:1b,DisabledSlots:4144959}
 execute if score result random matches 1 run summon minecraft:armor_stand -578.5 18.0 -128.5 {Tags:["decorObject","metapod"],Rotation:[-105f,0f],ArmorItems:[{},{},{},{id:"minecraft:diamond",Count:1b,tag:{CustomModelData:110}}],Invisible:1b,NoGravity:1b,DisabledSlots:4144959}
-execute as @e[type=minecraft:armor_stand,tag=metapod] if predicate ssbrc:shiny_chance run item replace entity @s armor.head with minecraft:diamond{CustomModelData:111}
 
 # Diglett / Dugtrio
 execute positioned -594.5 21.0 -135.5 run function ssbrc:maps/p/pallet_town/logic/pokemon/diglett/decide
@@ -30,8 +29,6 @@ execute positioned -593.5 21.0 -140.5 run function ssbrc:maps/p/pallet_town/logi
 
 # Abra
 summon minecraft:armor_stand -545.5 23.0 -156.5 {Tags:["decorObject","abra"],Rotation:[45f,0f],ArmorItems:[{},{},{},{id:"minecraft:diamond",Count:1b,tag:{CustomModelData:630}}],Invisible:1b,NoGravity:1b,DisabledSlots:4144959}
-execute as @e[type=minecraft:armor_stand,tag=abra] if predicate ssbrc:shiny_chance run item replace entity @s armor.head with minecraft:diamond{CustomModelData:631}
-execute as @e[type=minecraft:armor_stand,tag=abra] at @s run function ssbrc:maps/p/pallet_town/logic/pokemon/abra/teleport/decide
 
 # Magnemite
 scoreboard players set max random 2
@@ -39,11 +36,9 @@ function ssbrc:math/rng/lcg
 
 execute if score result random matches 0 run summon minecraft:armor_stand -530.5 23.5 -153.5 {Tags:["decorObject","magnemite"],Rotation:[75f,0f],Pose:{LeftArm:[0f,0f,270f],RightArm:[0f,0f,90f]},HandItems:[{id:"minecraft:diamond",Count:1b,tag:{CustomModelData:811}},{id:"minecraft:diamond",Count:1b,tag:{CustomModelData:811}}],ArmorItems:[{},{},{},{id:"minecraft:diamond",Count:1b,tag:{CustomModelData:810}}],Invisible:1b,NoGravity:1b,DisabledSlots:4144959}
 execute if score result random matches 1 run summon minecraft:armor_stand -549.5 25.5 -121.5 {Tags:["decorObject","magnemite"],Rotation:[180f,0f],Pose:{LeftArm:[0f,0f,270f],RightArm:[0f,0f,90f]},HandItems:[{id:"minecraft:diamond",Count:1b,tag:{CustomModelData:811}},{id:"minecraft:diamond",Count:1b,tag:{CustomModelData:811}}],ArmorItems:[{},{},{},{id:"minecraft:diamond",Count:1b,tag:{CustomModelData:810}}],Invisible:1b,NoGravity:1b,DisabledSlots:4144959}
-execute as @e[type=minecraft:armor_stand,tag=magnemite] if predicate ssbrc:shiny_chance run function ssbrc:maps/p/pallet_town/logic/pokemon/magnemite/shiny
 
 # Snorlax
 summon minecraft:armor_stand -560.5 12.0 -123.5 {Tags:["decorObject","snorlax"],Rotation:[90f,0f],ArmorItems:[{},{},{},{id:"minecraft:diamond",Count:1b,tag:{CustomModelData:1430}}],Invisible:1b,NoGravity:1b,DisabledSlots:4144959}
-execute as @e[type=minecraft:armor_stand,tag=snorlax] if predicate ssbrc:shiny_chance run item replace entity @s armor.head with minecraft:diamond{CustomModelData:1431}
 
 time set noon
 weather clear
