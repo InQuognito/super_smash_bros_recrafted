@@ -1,8 +1,8 @@
-execute if entity @a[scores={id=1}] run summon minecraft:item_display ~ ~ ~ {Tags:["post"],Rotation:[0f,15f],transformation:[2.5f,0f,0f,0f,0f,2.5f,0f,0.0f,0f,0f,1f,-30f,0f,0f,0f,1f],brightness:{block:15,sky:15}}
-execute if entity @a[scores={id=2}] run summon minecraft:item_display ~ ~ ~ {Tags:["post"],Rotation:[0f,20f],transformation:[2.5f,0f,0f,0f,0f,2.5f,0f,0.0f,0f,0f,1f,-30f,0f,0f,0f,1f],brightness:{block:15,sky:15}}
-execute if entity @a[scores={id=3}] run summon minecraft:item_display ~ ~ ~ {Tags:["post"],Rotation:[0f,25f],transformation:[2.5f,0f,0f,0f,0f,2.5f,0f,0.0f,0f,0f,1f,-30f,0f,0f,0f,1f],brightness:{block:15,sky:15}}
-execute if entity @a[scores={id=4}] run summon minecraft:item_display ~ ~ ~ {Tags:["post"],Rotation:[0f,30f],transformation:[2.5f,0f,0f,0f,0f,2.5f,0f,0.0f,0f,0f,1f,-30f,0f,0f,0f,1f],brightness:{block:15,sky:15}}
-execute if entity @a[scores={id=5}] run summon minecraft:item_display ~ ~ ~ {Tags:["post"],Rotation:[0f,35f],transformation:[2.5f,0f,0f,0f,0f,2.5f,0f,0.0f,0f,0f,1f,-30f,0f,0f,0f,1f],brightness:{block:15,sky:15}}
-execute if entity @a[scores={id=6}] run summon minecraft:item_display ~ ~ ~ {Tags:["post"],Rotation:[0f,40f],transformation:[2.5f,0f,0f,0f,0f,2.5f,0f,0.0f,0f,0f,1f,-30f,0f,0f,0f,1f],brightness:{block:15,sky:15}}
-execute if entity @a[scores={id=7}] run summon minecraft:item_display ~ ~ ~ {Tags:["post"],Rotation:[0f,45f],transformation:[2.5f,0f,0f,0f,0f,2.5f,0f,0.0f,0f,0f,1f,-30f,0f,0f,0f,1f],brightness:{block:15,sky:15}}
-execute if entity @a[scores={id=8}] run summon minecraft:item_display ~ ~ ~ {Tags:["post"],Rotation:[0f,50f],transformation:[2.5f,0f,0f,0f,0f,2.5f,0f,0.0f,0f,0f,1f,-30f,0f,0f,0f,1f],brightness:{block:15,sky:15}}
+execute if entity @a[scores={id=1}] run summon minecraft:marker ~ ~ ~ {Tags:["post.origin","1"],Rotation:[0f,-15f]}
+execute if entity @a[scores={id=2}] run summon minecraft:marker ~ ~ ~ {Tags:["post.origin","2"],Rotation:[0f,-20f]}
+execute if entity @a[scores={id=3}] run summon minecraft:marker ~ ~ ~ {Tags:["post.origin","3"],Rotation:[0f,-25f]}
+execute if entity @a[scores={id=4}] run summon minecraft:marker ~ ~ ~ {Tags:["post.origin","4"],Rotation:[0f,-30f]}
+execute if entity @a[scores={id=5}] run summon minecraft:marker ~ ~ ~ {Tags:["post.origin","5"],Rotation:[0f,-35f]}
+execute if entity @a[scores={id=6}] run summon minecraft:marker ~ ~ ~ {Tags:["post.origin","6"],Rotation:[0f,-40f]}
+execute if entity @a[scores={id=7}] run summon minecraft:marker ~ ~ ~ {Tags:["post.origin","7"],Rotation:[0f,-45f]}
+execute if entity @a[scores={id=8}] run summon minecraft:marker ~ ~ ~ {Tags:["post.origin","8"],Rotation:[0f,-50f]}
