@@ -62,6 +62,7 @@ scoreboard objectives remove motionX
 scoreboard objectives remove motionY
 scoreboard objectives remove motionZ
 scoreboard objectives remove moveDistance
+scoreboard objectives remove piercing
 scoreboard objectives remove point
 scoreboard objectives remove points
 scoreboard objectives remove pos
