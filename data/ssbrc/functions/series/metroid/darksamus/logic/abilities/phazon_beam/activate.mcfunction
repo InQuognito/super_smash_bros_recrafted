@@ -1,13 +1,6 @@
-scoreboard players operation $darksamus.chargeBeamPercent temp = @s charge.output
-scoreboard players operation $darksamus.chargeBeamPercent temp *= 100 integers
-scoreboard players operation $darksamus.chargeBeamPercent temp /= #darksamus.chargeBeamThreshold vars
+function ssbrc:series/metroid/darksamus/logic/abilities/phazon_beam/charge/1
 
-execute if score $darksamus.chargeBeamPercent temp matches ..33 run function ssbrc:series/metroid/darksamus/logic/abilities/phazon_beam/charge/1
-execute if score $darksamus.chargeBeamPercent temp matches 34..66 run function ssbrc:series/metroid/darksamus/logic/abilities/phazon_beam/charge/2
-execute if score $darksamus.chargeBeamPercent temp matches 67..99 run function ssbrc:series/metroid/darksamus/logic/abilities/phazon_beam/charge/3
-execute if score $darksamus.chargeBeamPercent temp matches 100.. run function ssbrc:series/metroid/darksamus/logic/abilities/phazon_beam/charge/4
-
-scoreboard players operation @e[tag=modifyEntity,limit=1] charge.1 = $darksamus.chargeBeamPercent temp
+scoreboard players set @e[tag=modifyEntity,limit=1] charge.1 0
 
 scoreboard players operation @e[tag=modifyEntity,limit=1] id = @s id
 data modify entity @e[tag=modifyEntity,limit=1] Owner set from entity @s UUID
