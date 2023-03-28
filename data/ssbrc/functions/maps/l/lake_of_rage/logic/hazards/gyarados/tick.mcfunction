@@ -1,3 +1,8 @@
+particle minecraft:cloud ^ ^-1.5 ^-3.5 0.5 0.25 0.5 0.025 100 normal @a
+particle minecraft:cloud ^ ^-1.5 ^-2.0 0.5 0.25 0.5 0.025 100 normal @a
+particle minecraft:cloud ^ ^-1.5 ^-0.5 0.5 0.25 0.5 0.025 100 normal @a
+particle minecraft:cloud ^ ^-1.5 ^1.0 0.5 0.25 0.5 0.025 100 normal @a
+
 scoreboard players add @s temp 1
 
 execute if score @s temp matches 1..100 run teleport @s ^ ^ ^0.25
