@@ -11,5 +11,5 @@ execute as @a[tag=alive] if score @s timer.shockwave matches 7 run function ssbr
 execute as @a[tag=alive] if score @s timer.stat.death matches 3 run tag @s remove checkDeath
 execute as @a[tag=alive] if score @s timer.stat.kill matches 3 run tag @s remove checkKill
 
-scoreboard players reset @a[scores={timer.stat.death=2}] timer.stat.death
-scoreboard players reset @a[scores={timer.stat.kill=2}] timer.stat.kill
+scoreboard players reset @a[scores={timer.stat.death=3}] timer.stat.death
+scoreboard players reset @a[scores={timer.stat.kill=3}] timer.stat.kill
