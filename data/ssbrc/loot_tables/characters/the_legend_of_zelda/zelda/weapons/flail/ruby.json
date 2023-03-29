@@ -44,7 +44,7 @@
 									"underlined": true
 								},
 								{
-									"text": "- Has a chance to inflict burning on the opponent",
+									"text": "- Restores life on hit",
 									"color": "gray",
 									"bold": false,
 									"italic": false
