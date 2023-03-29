@@ -5,8 +5,9 @@ function ssbrc:series/pokemon/pokemontrainer/kits/reset
 tag @s add squirtle
 
 tellraw @s[tag=default] {"text":"Squirtle, I choose you!","color":"aqua"}
-tellraw @s[tag=dawn] {"text":"Piplup, I choose you!","color":"aqua"}
-tellraw @s[tag=victor] {"text":"Drizzile, I choose you!","color":"aqua"}
+tellraw @s[tag=shiny] {"text":"Squirtle, I choose you!","color":"aqua"}
+tellraw @s[tag=dawn,tag=!shiny] {"text":"Piplup, I choose you!","color":"aqua"}
+tellraw @s[tag=victor,tag=!shiny] {"text":"Drizzile, I choose you!","color":"aqua"}
 
 clear @s
 loot replace entity @s hotbar.0 loot ssbrc:characters/pokemon/pokemontrainer/squirtle/bite

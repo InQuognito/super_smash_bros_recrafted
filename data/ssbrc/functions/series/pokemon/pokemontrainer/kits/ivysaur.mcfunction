@@ -5,8 +5,9 @@ function ssbrc:series/pokemon/pokemontrainer/kits/reset
 tag @s add ivysaur
 
 tellraw @s[tag=default] {"text":"Ivysaur, I choose you!","color":"green"}
-tellraw @s[tag=dawn] {"text":"Roselia, I choose you!","color":"green"}
-tellraw @s[tag=victor] {"text":"Rillaboom, I choose you!","color":"green"}
+tellraw @s[tag=shiny] {"text":"Ivysaur, I choose you!","color":"green"}
+tellraw @s[tag=dawn,tag=!shiny] {"text":"Roselia, I choose you!","color":"green"}
+tellraw @s[tag=victor,tag=!shiny] {"text":"Rillaboom, I choose you!","color":"green"}
 
 clear @s
 loot replace entity @s hotbar.0 loot ssbrc:characters/pokemon/pokemontrainer/ivysaur/knock_off
