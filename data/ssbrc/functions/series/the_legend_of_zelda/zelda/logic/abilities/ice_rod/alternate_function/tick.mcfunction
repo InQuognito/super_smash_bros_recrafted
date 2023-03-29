@@ -4,4 +4,4 @@ execute unless block ~ ~-0.1 ~ #ssbrc:passthrough run scoreboard players add @s 
 execute if score @s temp matches 4.. run function ssbrc:series/the_legend_of_zelda/zelda/logic/abilities/ice_rod/alternate_function/break
 
 scoreboard players add @s timer 1
-kill @s[scores={timer=60..}]
+execute if score @s timer matches 60.. run function ssbrc:series/the_legend_of_zelda/zelda/logic/abilities/ice_rod/alternate_function/break
