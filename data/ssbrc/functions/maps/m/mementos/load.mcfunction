@@ -4,8 +4,7 @@ scoreboard players set $songCount map 2
 scoreboard players set #mapPicked mapVote 1
 forceload add -1248 800 -1105 1023
 
-fill -1204 15 920 -1170 45 921 minecraft:air
-fill -1204 15 920 -1170 45 920 minecraft:barrier
+fill -1220 0 921 -1156 48 923 minecraft:air
 
 scoreboard players set max random 3
 function ssbrc:math/rng/lcg
