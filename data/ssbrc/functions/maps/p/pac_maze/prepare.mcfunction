@@ -27,6 +27,8 @@ summon minecraft:marker 23354.5 6.0 8633.5 {Tags:["spawnpoint.item"]}
 summon minecraft:marker 23348.5 6.0 8622.5 {Tags:["spawnpoint.item"]}
 summon minecraft:marker 23372.5 6.0 8622.5 {Tags:["spawnpoint.item"]}
 
+function ssbrc:maps/p/pac_maze/logic/ghosts/animation
+
 execute as @a[predicate=ssbrc:ingame] run function ssbrc:logic/pre_game/prepare_players
 function ssbrc:logic/pre_game/prepare_match
 
