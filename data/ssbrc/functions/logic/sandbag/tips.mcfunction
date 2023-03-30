@@ -1,7 +1,7 @@
 scoreboard players set max random 39
 function ssbrc:math/rng/lcg
 
-execute if score result random matches 0 run tellraw @s [{"text":"Mr. Sandbag | ","bold":true,"color":"yellow"},{"text":"As the Mario Bros., you can hold down your sneak key a special super jump!","color":"white","bold":false}]
+execute if score result random matches 0 run tellraw @s [{"text":"Mr. Sandbag | ","bold":true,"color":"yellow"},{"text":"As the Mario Bros., you can hold down your sneak key for a special super jump!","color":"white","bold":false}]
 execute if score result random matches 1 run tellraw @s [{"text":"Mr. Sandbag | ","bold":true,"color":"yellow"},{"text":"Harness the power of Link's great courage! Hold down Your sneak key and Master Sword to charge up a spin attack!","color":"white","bold":false}]
 execute if score result random matches 2 run tellraw @s [{"text":"Mr. Sandbag | ","bold":true,"color":"yellow"},{"text":"Rack up K.O.s with Zelda's obsidian based weapons in order to increase their power!","color":"white","bold":false}]
 execute if score result random matches 3 run tellraw @s [{"text":"Mr. Sandbag | ","bold":true,"color":"yellow"},{"text":"Munching the Pac-Dots on Pac-Maze can make special bonus fruits and Pac-Pellets appear!","color":"white","bold":false}]
