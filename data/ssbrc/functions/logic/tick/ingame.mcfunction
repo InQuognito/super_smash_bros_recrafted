@@ -33,5 +33,8 @@ function ssbrc:logic/tick/damage
 # Maps
 function ssbrc:logic/tick/maps/after_start
 
+# Kill Tridents On Ground
+execute as @e[type=minecraft:item,nbt={Item:{id:"minecraft:trident"}}] run function ssbrc:logic/tick/projectiles/tridents
+
 # Banned From Having More Than One
 execute as @a[predicate=ssbrc:characters/kits/trident] run function ssbrc:logic/characters/restore_items/trident_count
