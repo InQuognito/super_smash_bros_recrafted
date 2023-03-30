@@ -1,4 +1,4 @@
-summon minecraft:item_display ~ ~ ~ {Tags:["mapIcon","modifyEntity"],item:{id:"minecraft:sugar",tag:{CustomModelData:1},Count:1b},Rotation:[0.1f,0f]}
+summon minecraft:item_display ~ ~ ~ {Tags:["mapIcon","modifyEntity"],item:{id:"minecraft:sugar",tag:{CustomModelData:1},Count:1b}}
 
 function ssbrc:logic/pre_game/map_voting/map_choices/choose/modify
 
