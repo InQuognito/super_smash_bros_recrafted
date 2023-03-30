@@ -124,8 +124,8 @@ execute if score $lakeOfRage map matches 1 if score result_music random matches 
 execute if score $lakeOfRage map matches 1 if score result_music random matches 0 if score $music options matches 0 run schedule function ssbrc:logic/music/loop_schedule 2200t replace
 execute if score $lakeOfRage map matches 1 if score result_music random matches 0 if score $music options matches 1 run schedule function ssbrc:logic/music/decide 2200t replace
 execute if score $lakeOfRage map matches 1 if score result_music random matches 1 run playsound ssbrc:trainer_battle_pokemon_gold_silver music @s
-execute if score $lakeOfRage map matches 1 if score result_music random matches 1 if score $music options matches 0 run schedule function ssbrc:logic/music/loop_schedule 2720t replace
-execute if score $lakeOfRage map matches 1 if score result_music random matches 1 if score $music options matches 1 run schedule function ssbrc:logic/music/decide 2720t replace
+execute if score $lakeOfRage map matches 1 if score result_music random matches 1 if score $music options matches 0 run schedule function ssbrc:logic/music/loop_schedule 3340t replace
+execute if score $lakeOfRage map matches 1 if score result_music random matches 1 if score $music options matches 1 run schedule function ssbrc:logic/music/decide 3340t replace
 
 execute if score $luigisMansion map matches 1 if score result_music random matches 0 run playsound ssbrc:dark_hallways music @s
 execute if score $luigisMansion map matches 1 if score result_music random matches 0 if score $music options matches 0 run schedule function ssbrc:logic/music/loop_schedule 940t replace
