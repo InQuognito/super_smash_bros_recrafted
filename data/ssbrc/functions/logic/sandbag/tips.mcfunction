@@ -1,4 +1,4 @@
-scoreboard players set max random 50
+scoreboard players set max random 39
 function ssbrc:math/rng/lcg
 
 execute if score result random matches 0 run tellraw @s [{"text":"Mr. Sandbag | ","bold":true,"color":"yellow"},{"text":"As the Mario Bros., you can hold down your sneak key a special super jump!","color":"white","bold":false}]
@@ -39,5 +39,5 @@ execute if score result random matches 34 run tellraw @s [{"text":"Mr. Sandbag |
 execute if score result random matches 35 run tellraw @s [{"text":"Mr. Sandbag | ","bold":true,"color":"yellow"},{"text":"Yar can summon a drone with his remote, the drone will lock on and shoot at nearby enemies. Enemies can still destroy it so try to recall it often.","color":"white","bold":false}]
 execute if score result random matches 36 run tellraw @s [{"text":"Mr. Sandbag | ","bold":true,"color":"yellow"},{"text":"Watch out for tornadoes on the upper castle walls of Hyrule Castle! They pack quite a punch!","color":"white","bold":false}]
 execute if score result random matches 37 run tellraw @s [{"text":"Mr. Sandbag | ","bold":true,"color":"yellow"},{"text":"Lake of Rage can be played on during one of three parts of day - morning, day, or night. You may see different Pokèmon depending on the time of day.","color":"white","bold":false}]
-execute if score result random matches 37 run tellraw @s [{"text":"Mr. Sandbag | ","bold":true,"color":"yellow"},{"text":"Enjoying the game? Remember to give us a follow on Twitter to stay up to date on news and releases!","color":"white","bold":false}]
-execute if score result random matches 37 run tellraw @s [{"text":"Mr. Sandbag | ","bold":true,"color":"yellow"},{"text":"To preserve your speed with Sonic or Shadow, be sure to tap the sprint key after dealing damage.","color":"white","bold":false}]
+execute if score result random matches 38 run tellraw @s [{"text":"Mr. Sandbag | ","bold":true,"color":"yellow"},{"text":"Enjoying the game? Remember to give us a follow on Twitter to stay up to date on news and releases!","color":"white","bold":false}]
+execute if score result random matches 39 run tellraw @s [{"text":"Mr. Sandbag | ","bold":true,"color":"yellow"},{"text":"To preserve your speed with Sonic or Shadow, be sure to tap the sprint key after dealing damage.","color":"white","bold":false}]
