@@ -1,4 +1,4 @@
-kill @e[type=minecraft:glow_item_frame,tag=mapIcon]
+kill @e[type=minecraft:item_display,tag=mapIcon]
 kill @e[type=minecraft:area_effect_cloud,tag=voteCounter]
 kill @e[type=minecraft:area_effect_cloud,tag=infoDisplay]
 
