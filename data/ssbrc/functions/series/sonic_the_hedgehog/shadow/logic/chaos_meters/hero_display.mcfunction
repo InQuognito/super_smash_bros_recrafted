@@ -2,8 +2,7 @@ scoreboard players operation $shadow.heroPercent temp = @s shadow.meter.hero
 scoreboard players operation $shadow.heroPercent temp *= 100 integers
 scoreboard players operation $shadow.heroPercent temp /= #shadow.maxMeter vars
 
-execute store result score #speed temp run attribute @s minecraft:generic.movement_speed get
-scoreboard players operation #speed temp *= 1000 integers
+execute store result score #speed temp run attribute @s minecraft:generic.movement_speed get 1000.0
 
 execute if score $shadow.heroPercent temp matches 1..10 run title @s actionbar [{"text":"\u25ae","color":"blue"},{"text":"\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae","color":"dark_gray"},{"text":" | Speed: ","bold":true,"color":"white"},{"score":{"name":"#speed","objective":"temp"},"color":"gray"},{"text":"MPH","bold":true,"color":"gray"}]
 execute if score $shadow.heroPercent temp matches 11..20 run title @s actionbar [{"text":"\u25ae\u25ae","color":"blue"},{"text":"\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae","color":"dark_gray"},{"text":" | Speed: ","bold":true,"color":"white"},{"score":{"name":"#speed","objective":"temp"},"color":"gray"},{"text":"MPH","bold":true,"color":"gray"}]

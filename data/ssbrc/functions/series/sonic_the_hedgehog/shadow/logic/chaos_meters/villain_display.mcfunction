@@ -2,21 +2,18 @@ scoreboard players operation $shadow.villainPercent temp = @s shadow.meter.villa
 scoreboard players operation $shadow.villainPercent temp *= 100 integers
 scoreboard players operation $shadow.villainPercent temp /= #shadow.maxMeter vars
 
-execute store result score #speed temp run attribute @s minecraft:generic.movement_speed get
-scoreboard players operation #speed temp *= 1000 integers
+execute store result score #speed temp run attribute @s minecraft:generic.movement_speed get 1000.0
 
-title @s actionbar [{"text":"Speed: ","bold":true,"color":"white"},{"score":{"name":"#speed","objective":"temp"},"color":"gray"},{"text":"MPH","bold":true,"color":"gray"}]
-
-execute if score $shadow.villainPercent temp matches 1..10 run title @s actionbar [{"text":"\u25ae","color":"red"},{"text":"\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae","color":"dark_gray"}]
-execute if score $shadow.villainPercent temp matches 11..20 run title @s actionbar [{"text":"\u25ae\u25ae","color":"red"},{"text":"\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae","color":"dark_gray"}]
-execute if score $shadow.villainPercent temp matches 21..30 run title @s actionbar [{"text":"\u25ae\u25ae\u25ae","color":"red"},{"text":"\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae","color":"dark_gray"}]
-execute if score $shadow.villainPercent temp matches 31..40 run title @s actionbar [{"text":"\u25ae\u25ae\u25ae\u25ae","color":"red"},{"text":"\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae","color":"dark_gray"}]
-execute if score $shadow.villainPercent temp matches 41..50 run title @s actionbar [{"text":"\u25ae\u25ae\u25ae\u25ae\u25ae","color":"red"},{"text":"\u25ae\u25ae\u25ae\u25ae\u25ae","color":"dark_gray"}]
-execute if score $shadow.villainPercent temp matches 51..60 run title @s actionbar [{"text":"\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae","color":"red"},{"text":"\u25ae\u25ae\u25ae\u25ae","color":"dark_gray"}]
-execute if score $shadow.villainPercent temp matches 61..70 run title @s actionbar [{"text":"\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae","color":"red"},{"text":"\u25ae\u25ae\u25ae","color":"dark_gray"}]
-execute if score $shadow.villainPercent temp matches 71..80 run title @s actionbar [{"text":"\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae","color":"red"},{"text":"\u25ae\u25ae","color":"dark_gray"}]
-execute if score $shadow.villainPercent temp matches 81..90 run title @s actionbar [{"text":"\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae","color":"red"},{"text":"\u25ae","color":"dark_gray"}]
-execute if score $shadow.villainPercent temp matches 91.. run title @s actionbar [{"text":"\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae","color":"red"}]
+execute if score $shadow.villainPercent temp matches 1..10 run title @s actionbar [{"text":"\u25ae","color":"red"},{"text":"\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae","color":"dark_gray"},{"text":"Speed: ","bold":true,"color":"white"},{"score":{"name":"#speed","objective":"temp"},"color":"gray"},{"text":"MPH","bold":true,"color":"gray"}]
+execute if score $shadow.villainPercent temp matches 11..20 run title @s actionbar [{"text":"\u25ae\u25ae","color":"red"},{"text":"\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae","color":"dark_gray"},{"text":"Speed: ","bold":true,"color":"white"},{"score":{"name":"#speed","objective":"temp"},"color":"gray"},{"text":"MPH","bold":true,"color":"gray"}]
+execute if score $shadow.villainPercent temp matches 21..30 run title @s actionbar [{"text":"\u25ae\u25ae\u25ae","color":"red"},{"text":"\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae","color":"dark_gray"},{"text":"Speed: ","bold":true,"color":"white"},{"score":{"name":"#speed","objective":"temp"},"color":"gray"},{"text":"MPH","bold":true,"color":"gray"}]
+execute if score $shadow.villainPercent temp matches 31..40 run title @s actionbar [{"text":"\u25ae\u25ae\u25ae\u25ae","color":"red"},{"text":"\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae","color":"dark_gray"},{"text":"Speed: ","bold":true,"color":"white"},{"score":{"name":"#speed","objective":"temp"},"color":"gray"},{"text":"MPH","bold":true,"color":"gray"}]
+execute if score $shadow.villainPercent temp matches 41..50 run title @s actionbar [{"text":"\u25ae\u25ae\u25ae\u25ae\u25ae","color":"red"},{"text":"\u25ae\u25ae\u25ae\u25ae\u25ae","color":"dark_gray"},{"text":"Speed: ","bold":true,"color":"white"},{"score":{"name":"#speed","objective":"temp"},"color":"gray"},{"text":"MPH","bold":true,"color":"gray"}]
+execute if score $shadow.villainPercent temp matches 51..60 run title @s actionbar [{"text":"\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae","color":"red"},{"text":"\u25ae\u25ae\u25ae\u25ae","color":"dark_gray"},{"text":"Speed: ","bold":true,"color":"white"},{"score":{"name":"#speed","objective":"temp"},"color":"gray"},{"text":"MPH","bold":true,"color":"gray"}]
+execute if score $shadow.villainPercent temp matches 61..70 run title @s actionbar [{"text":"\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae","color":"red"},{"text":"\u25ae\u25ae\u25ae","color":"dark_gray"},{"text":"Speed: ","bold":true,"color":"white"},{"score":{"name":"#speed","objective":"temp"},"color":"gray"},{"text":"MPH","bold":true,"color":"gray"}]
+execute if score $shadow.villainPercent temp matches 71..80 run title @s actionbar [{"text":"\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae","color":"red"},{"text":"\u25ae\u25ae","color":"dark_gray"},{"text":"Speed: ","bold":true,"color":"white"},{"score":{"name":"#speed","objective":"temp"},"color":"gray"},{"text":"MPH","bold":true,"color":"gray"}]
+execute if score $shadow.villainPercent temp matches 81..90 run title @s actionbar [{"text":"\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae","color":"red"},{"text":"\u25ae","color":"dark_gray"},{"text":"Speed: ","bold":true,"color":"white"},{"score":{"name":"#speed","objective":"temp"},"color":"gray"},{"text":"MPH","bold":true,"color":"gray"}]
+execute if score $shadow.villainPercent temp matches 91.. run title @s actionbar [{"text":"\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae","color":"red"},{"text":"Speed: ","bold":true,"color":"white"},{"score":{"name":"#speed","objective":"temp"},"color":"gray"},{"text":"MPH","bold":true,"color":"gray"}]
 
 execute if score @s[nbt=!{Inventory:[{id:"minecraft:carrot_on_a_stick",Count:1b,tag:{chaosBlast:1}}]}] shadow.meter.villain >= #shadow.maxMeter vars run loot replace entity @s hotbar.4 loot ssbrc:characters/sonic_the_hedgehog/shadow/chaos_blast
 
