@@ -40,3 +40,8 @@ attribute @s[scores={flag.sprinting=76..77}] minecraft:generic.movement_speed ba
 attribute @s[scores={flag.sprinting=78..79}] minecraft:generic.movement_speed base set 0.1500
 attribute @s[scores={flag.sprinting=80..}] minecraft:generic.movement_speed base set 0.1550
 execute at @s[scores={flag.sprinting=80..}] unless block ~ ~-0.1 ~ minecraft:air positioned ~ ~0.1 ~ run function ssbrc:series/sonic_the_hedgehog/sonic/logic/speed/full
+
+execute store result score #speed temp run attribute @s minecraft:generic.movement_speed get
+scoreboard players operation #speed temp *= 1000 integers
+
+title @s actionbar [{"text":"Speed: ","bold":true,"color":"white"},{"score":{"name":"#speed","objective":"temp"},"color":"gray"},{"text":"MPH","bold":true,"color":"gray"}]
