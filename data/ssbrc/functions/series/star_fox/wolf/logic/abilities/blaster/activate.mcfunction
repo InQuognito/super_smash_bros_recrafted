@@ -2,6 +2,10 @@ execute positioned 0.0 0.0 0.0 run summon minecraft:marker ^ ^ ^0.5 {Tags:["dire
 
 summon minecraft:arrow ^ ^ ^1 {damage:10.0,Tags:["wolf.blaster","modifyEntity"],NoGravity:1b}
 
+execute if entity @s[tag=default] run tag @e[tag=modifyEntity,limit=1] add purple
+execute if entity @s[tag=gold] run tag @e[tag=modifyEntity,limit=1] add gold
+execute if entity @s[tag=assault] run tag @e[tag=modifyEntity,limit=1] add green
+
 scoreboard players operation @e[tag=modifyEntity,limit=1] id = @s id
 data modify entity @e[tag=modifyEntity,limit=1] Owner set from entity @s UUID
 data modify entity @e[tag=modifyEntity,limit=1] Motion set from entity @e[tag=direction,limit=1] Pos
