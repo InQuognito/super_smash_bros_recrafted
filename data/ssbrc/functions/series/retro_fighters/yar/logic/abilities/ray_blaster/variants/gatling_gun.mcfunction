@@ -17,3 +17,5 @@ execute if score @s cooldown.1 matches ..0 run scoreboard players set @s cooldow
 execute if score @s shadow.chaosControl matches 1.. run function ssbrc:logic/characters/cooldown_modifiers/chaos_control/1
 
 execute if score @s charge.output matches 1 run loot replace entity @s weapon.mainhand loot ssbrc:characters/retro_fighters/yar/ray_blaster/gatling_gun/charging
+
+playsound ssbrc:fighters.yar.gatling_gun.activate player @a

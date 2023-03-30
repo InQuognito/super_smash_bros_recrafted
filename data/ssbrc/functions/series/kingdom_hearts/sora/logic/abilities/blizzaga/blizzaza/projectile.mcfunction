@@ -8,3 +8,6 @@ data modify entity @e[tag=modifyEntity,limit=1] Motion set from entity @e[tag=di
 
 tag @e[tag=modifyEntity,limit=1] remove modifyEntity
 kill @e[tag=direction,limit=1]
+
+execute unless score @s charge.4 matches 3.. run playsound ssbrc:fighters.sora.blizzaza.activate player @a
+execute if score @s charge.4 matches 3.. run playsound ssbrc:fighters.sora.blizzaga.activate player @a
