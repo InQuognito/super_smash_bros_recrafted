@@ -53,9 +53,9 @@ summon minecraft:text_display 144.5 7.25 193.5 {Tags:["lobbyStand.label"],text:'
 summon minecraft:armor_stand 144.5 5.0 193.5 {Tags:["selectable","lobbyStand","greninja","default"]}
 
 summon minecraft:text_display 141.5 7.25 194.5 {Tags:["lobbyStand.label"],text:'{"text":"Team Rocket","color":"dark_purple"}',billboard:center}
+summon minecraft:armor_stand 141.5 5.0 194.5 {Tags:["selectable","lobbyStand","teamrocket","meowth","default"],Small:1b}
 summon minecraft:armor_stand 142.0 5.0 195.0 {Tags:["lobbyStand","jesse","default"]}
 summon minecraft:armor_stand 141.0 5.0 195.0 {Tags:["lobbyStand","james","default"]}
-summon minecraft:armor_stand 141.5 5.0 194.5 {Tags:["selectable","lobbyStand","teamrocket","meowth","default"],Small:1b}
 
 summon minecraft:text_display 139.5 7.25 194.5 {Tags:["lobbyStand.label"],text:'{"text":"Ness","color":"dark_purple"}',billboard:center}
 summon minecraft:armor_stand 139.5 5.0 194.5 {Tags:["selectable","lobbyStand","ness","default"]}
