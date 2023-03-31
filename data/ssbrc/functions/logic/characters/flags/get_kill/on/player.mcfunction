@@ -11,5 +11,3 @@ execute if score gameStage temp matches 4 if score $teams options matches 1 if e
 
 advancement revoke @s only ssbrc:utility/flag/get_kill/distance/30
 advancement revoke @s only ssbrc:utility/flag/get_kill/on/player
-
-say got a kill
