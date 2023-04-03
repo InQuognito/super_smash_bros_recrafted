@@ -3,7 +3,6 @@ execute positioned 0.0 0.0 0.0 run summon minecraft:marker ^ ^ ^1 {Tags:["direct
 summon minecraft:armor_stand ^ ^ ^1 {Tags:["payday.display","modifyVehicle"],ArmorItems:[{},{},{},{id:"minecraft:carrot_on_a_stick",Count:1b,tag:{CustomModelData:1944}}],Passengers:[{id:"minecraft:marker",Tags:["payday","modifyEntity"]}],Invisible:1b,Small:1b,DisabledSlots:4144959}
 
 scoreboard players operation @e[tag=modifyEntity,limit=1] id = @s id
-data modify entity @e[tag=modifyEntity,limit=1] Owner set from entity @s UUID
 
 scoreboard players operation @e[tag=modifyVehicle,limit=1] id = @s id
 data modify entity @e[tag=modifyVehicle,limit=1] Rotation[0] set from entity @s Rotation[0]

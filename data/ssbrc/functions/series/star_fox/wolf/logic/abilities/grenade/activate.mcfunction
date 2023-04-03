@@ -4,7 +4,6 @@ summon minecraft:armor_stand ^ ^ ^1 {Tags:["grenade","modifyEntity"],Invisible:1
 loot replace entity @e[tag=modifyEntity,limit=1] armor.head loot ssbrc:characters/star_fox/wolf/grenade/default
 
 scoreboard players operation @e[tag=modifyEntity,limit=1] id = @s id
-data modify entity @e[tag=modifyEntity,limit=1] Owner set from entity @s UUID
 data modify entity @e[tag=modifyEntity,limit=1] Motion set from entity @e[tag=direction,limit=1] Pos
 
 scoreboard players operation @e[tag=modifyEntity,limit=1] temp = @s charge.output

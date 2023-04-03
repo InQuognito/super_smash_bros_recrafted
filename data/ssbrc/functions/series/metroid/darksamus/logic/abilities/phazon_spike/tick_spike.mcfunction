@@ -1,4 +1,4 @@
-execute as @e[predicate=ssbrc:flag/targets,tag=!self,dx=0] run damage @s 6.0 ssbrc:projectile by @p[tag=self]
+execute as @e[predicate=ssbrc:flag/targets,tag=!self,dx=0] run function ssbrc:series/metroid/darksamus/logic/abilities/phazon_spike/hit
 
 scoreboard players add @s temp 1
 kill @s[scores={temp=30..}]

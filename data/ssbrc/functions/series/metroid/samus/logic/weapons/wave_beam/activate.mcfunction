@@ -1,7 +1,6 @@
 summon minecraft:marker ^ ^ ^1 {Tags:["waveBeam","modifyEntity"]}
 
 scoreboard players operation @e[tag=modifyEntity,limit=1] id = @s id
-data modify entity @e[tag=modifyEntity,limit=1] Owner set from entity @s UUID
 data modify entity @e[tag=modifyEntity,limit=1] Rotation set from entity @s Rotation
 
 scoreboard players set @e[tag=modifyEntity,limit=1] piercing 0
