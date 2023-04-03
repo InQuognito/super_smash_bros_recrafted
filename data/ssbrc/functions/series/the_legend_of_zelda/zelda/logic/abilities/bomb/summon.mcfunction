@@ -1,13 +1,16 @@
-summon minecraft:area_effect_cloud ^ ^ ^1 {Tags:["bomb","modifyEntity"],Duration:600}
-execute if entity @s[nbt={Inventory:[{tag:{ringOfBlasting:1}}]}] run tag @e[tag=modifyEntity,limit=1] add blasting
+execute positioned 0.0 0.0 0.0 run summon minecraft:marker ^ ^ ^1 {Tags:["direction"]}
 
-scoreboard players operation @e[tag=modifyEntity,limit=1] id = @s id
-data modify entity @e[tag=modifyEntity,limit=1] Owner set from entity @s UUID
-data modify entity @e[tag=modifyEntity,limit=1] Rotation set from entity @s Rotation
+summon minecraft:armor_stand ^ ^ ^1 {Tags:["bomb","modifyEntity"]}
+loot replace entity @e[tag=modifyEntity,limit=1] armor.head loot ssbrc:characters/the_legend_of_zelda/zelda/dungeon_items/bomb/default
+execute if entity @s[nbt={Inventory:[{tag:{ringOfBlasting:1}}]}] run tag @e[tag=modifyEntity,limit=1] add blasting
 
 scoreboard players operation @e[tag=modifyEntity,limit=1] temp = @s fuse
 
-execute as @e[tag=modifyEntity] at @s run function ssbrc:series/the_legend_of_zelda/zelda/logic/abilities/bomb/summon_item
+scoreboard players operation @e[tag=modifyEntity,limit=1] id = @s id
+data modify entity @e[tag=modifyEntity,limit=1] Motion set from entity @e[tag=direction,limit=1] Pos
+
+tag @e[tag=modifyEntity,limit=1] remove modifyEntity
+kill @e[tag=direction,limit=1]
 
 scoreboard players set @s cooldown.1 20
 execute if score @s shadow.chaosControl matches 1.. run function ssbrc:logic/characters/cooldown_modifiers/chaos_control/1

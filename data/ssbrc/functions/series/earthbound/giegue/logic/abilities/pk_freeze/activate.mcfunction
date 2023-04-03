@@ -1,8 +1,7 @@
-execute rotated as @s run summon minecraft:area_effect_cloud ^ ^ ^1 {Tags:["pkFreeze","modifyEntity"],Duration:31}
+execute rotated as @s run summon minecraft:marker ^ ^ ^1 {Tags:["pkFreeze","modifyEntity"]}
 
 scoreboard players operation @e[tag=modifyEntity,limit=1] id = @s id
 data modify entity @e[tag=modifyEntity,limit=1] Rotation set from entity @s Rotation
-data modify entity @e[tag=modifyEntity,limit=1] Owner set from entity @s UUID
 
 tag @e[tag=modifyEntity,limit=1] remove modifyEntity
 

@@ -1,8 +1,7 @@
-execute rotated as @s run summon minecraft:area_effect_cloud ^ ^-0.75 ^0.5 {Tags:["pkBeam","modifyEntity"],Age:-2147483648,Duration:-1,WaitTime:-2147483648}
+execute rotated as @s run summon minecraft:marker ^ ^-0.75 ^0.5 {Tags:["pkBeam","modifyEntity"]}
 
 scoreboard players operation @e[tag=modifyEntity,limit=1] id = @s id
 data modify entity @e[tag=modifyEntity,limit=1] Rotation set from entity @s Rotation
-data modify entity @e[tag=modifyEntity,limit=1] Owner set from entity @s UUID
 
 tag @e[tag=modifyEntity,limit=1] remove modifyEntity
 
