@@ -72,13 +72,12 @@ execute as @e[type=minecraft:marker,tag=roboBeam] at @s if score @s id = @p[tag=
 
 # Samus
 execute as @e[type=minecraft:arrow,tag=powerBeam] at @s if score @s id = @p[tag=self] id run function ssbrc:series/metroid/samus/logic/weapons/power_beam/tick
-execute as @e[type=minecraft:area_effect_cloud,tag=waveBeam] at @s if score @s id = @p[tag=self] id run function ssbrc:series/metroid/samus/logic/weapons/wave_beam/raycast/start
+execute as @e[type=minecraft:marker,tag=waveBeam] at @s if score @s id = @p[tag=self] id run function ssbrc:series/metroid/samus/logic/weapons/wave_beam/raycast/start
 execute as @e[type=minecraft:arrow,tag=plasmaBeam] at @s if score @s id = @p[tag=self] id run function ssbrc:series/metroid/samus/logic/weapons/plasma_beam/tick
 
 # Snake
 execute as @e[type=minecraft:arrow,tag=bullet] at @s if score @s id = @p[tag=self] id run function ssbrc:series/metal_gear_solid/snake/logic/bullets
-execute as @e[type=minecraft:area_effect_cloud,tag=antiPersonnelMine] at @s if score @s id = @p[tag=self] id at @e[type=minecraft:armor_stand,tag=antiPersonnelMine.display,sort=nearest,limit=1] run teleport @s ~ ~ ~ ~ ~
-execute as @e[type=minecraft:area_effect_cloud,tag=antiPersonnelMine] at @s if score @s id = @p[tag=self] id unless block ~ ~-0.1 ~ #ssbrc:passthrough run function ssbrc:series/metal_gear_solid/snake/logic/weapons/anti_personnel_mine/tick
+execute as @e[type=minecraft:armor_stand,tag=antiPersonnelMine] at @s if score @s id = @p[tag=self] id unless block ~ ~-0.1 ~ #ssbrc:passthrough run function ssbrc:series/metal_gear_solid/snake/logic/weapons/anti_personnel_mine/tick
 tag @e[type=minecraft:marker,tag=smokeGrenade,tag=!active,predicate=ssbrc:flag/no_vehicle] add active
 execute as @e[type=minecraft:marker,tag=smokeGrenade,tag=active] at @s if score @s id = @p[tag=self] id run function ssbrc:series/metal_gear_solid/snake/logic/weapons/smoke_grenade/tick
 execute as @e[type=minecraft:armor_stand,tag=smokeGrenade.display] at @s if score @s id = @p[tag=self] id unless block ~ ~-0.1 ~ #ssbrc:passthrough run kill @s

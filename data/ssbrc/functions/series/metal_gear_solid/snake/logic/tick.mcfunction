@@ -2,7 +2,7 @@ execute if entity @s[tag=!reloading,scores={useAbility=1..},nbt={SelectedItem:{t
 execute if entity @s[tag=!reloading,scores={useAbility=1..},nbt={SelectedItem:{tag:{famas:1}}}] at @s run function ssbrc:series/metal_gear_solid/snake/logic/weapons/famas/check
 execute if entity @s[tag=!reloading,scores={useAbility=1..},nbt={SelectedItem:{tag:{s1000:1}}}] at @s run function ssbrc:series/metal_gear_solid/snake/logic/weapons/s1000/check
 execute if entity @s[tag=!reloading,scores={useAbility=1..},nbt={SelectedItem:{tag:{socom:1}}}] at @s run function ssbrc:series/metal_gear_solid/snake/logic/weapons/socom/check
-execute if entity @s[tag=!reloading,scores={useAbility=1..},nbt={SelectedItem:{tag:{antiPersonnelMine:1}}}] unless score @s snake.antiPersonnelMineF matches 1.. run function ssbrc:series/metal_gear_solid/snake/logic/weapons/anti_personnel_mine/check
+execute if entity @s[tag=!reloading,scores={useAbility=1..,snake.antiPersonnelMineA=1..},nbt={SelectedItem:{tag:{antiPersonnelMine:1}}}] unless score @s snake.antiPersonnelMineF matches 1.. at @s anchored eyes run function ssbrc:series/metal_gear_solid/snake/logic/weapons/anti_personnel_mine/activate
 execute if entity @s[tag=!reloading,scores={useAbility=1..},nbt={SelectedItem:{tag:{smokeGrenade:1}}}] unless score @s snake.smokeGrenadeF matches 1.. run function ssbrc:series/metal_gear_solid/snake/logic/weapons/smoke_grenade/check
 
 # Glowing
