@@ -1,9 +1,10 @@
-summon minecraft:area_effect_cloud ^ ^ ^1 {Tags:["waterShuriken","modifyEntity"],Duration:30}
+summon minecraft:armor_stand ^ ^ ^1 {Tags:["waterShuriken","modifyEntity"],Pose:{Head:[0f,0.1f,0f]},Invisible:1b,Small:1b,NoGravity:1b,DisabledSlots:4144959}
+loot replace entity @e[tag=modifyEntity,limit=1] armor.head loot ssbrc:characters/pokemon/greninja/water_shuriken
 
 scoreboard players operation @e[tag=modifyEntity,limit=1] id = @s id
 data modify entity @e[tag=modifyEntity,limit=1] Rotation set from entity @s Rotation
 
-execute as @e[tag=modifyEntity] at @s run function ssbrc:series/pokemon/greninja/logic/abilities/water_shuriken/summon_item
+tag @e[tag=modifyEntity,limit=1] remove modifyEntity
 
 scoreboard players remove @s charge.2 1
 clear @s[scores={charge.2=..0}] minecraft:carrot_on_a_stick{waterShuriken:1}

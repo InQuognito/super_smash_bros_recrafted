@@ -1,10 +1,10 @@
-summon minecraft:area_effect_cloud ^ ^ ^1 {Tags:["zelda.boomerang","modifyEntity"],Duration:600}
+summon minecraft:armor_stand ^ ^ ^1 {Tags:["zelda.boomerang","modifyEntity"],Pose:{Head:[0f,0.1f,0f]},Invisible:1b,Small:1b,NoGravity:1b,DisabledSlots:4144959}
+loot replace entity @e[tag=modifyEntity,limit=1] armor.head loot ssbrc:characters/the_legend_of_zelda/zelda/dungeon_items/boomerang
 
 scoreboard players operation @e[tag=modifyEntity,limit=1] id = @s id
 data modify entity @e[tag=modifyEntity,limit=1] Rotation[0] set from entity @s Rotation[0]
-data modify entity @e[tag=modifyEntity,limit=1] Owner set from entity @s UUID
 
-execute as @e[tag=modifyEntity] at @s run function ssbrc:series/the_legend_of_zelda/zelda/logic/abilities/boomerang/summon_item
+tag @e[tag=modifyEntity,limit=1] remove modifyEntity
 
 scoreboard players operation @s mana -= #boomerangMagicCost temp
 

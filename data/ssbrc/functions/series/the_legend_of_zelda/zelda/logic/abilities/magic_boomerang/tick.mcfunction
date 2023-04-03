@@ -1,15 +1,15 @@
 execute unless block ^ ^ ^0.3 #ssbrc:passthrough run scoreboard players set @s temp 50
 
-execute unless score @s temp matches 40.. rotated as @s run teleport @s ^ ^ ^1
-execute if score @s temp matches 40.. facing entity @p[tag=self] eyes run function ssbrc:series/the_legend_of_zelda/zelda/logic/abilities/magic_boomerang/return
+execute positioned ~-0.15 ~-0.15 ~-0.15 as @e[predicate=ssbrc:flag/targets,dx=0] positioned ~-0.7 ~-0.7 ~-0.7 if entity @s[dx=0] unless score @s id = @e[type=minecraft:armor_stand,tag=magicBoomerang,sort=nearest,limit=1] id run function ssbrc:series/the_legend_of_zelda/zelda/logic/abilities/magic_boomerang/hit
 
-execute as @e[tag=magicBoomerang.display,sort=nearest,limit=1] run function ssbrc:series/the_legend_of_zelda/zelda/logic/abilities/magic_boomerang/display
+execute positioned ~-0.15 ~-0.15 ~-0.15 as @e[predicate=ssbrc:flag/player,dx=0] positioned ~-0.7 ~-0.7 ~-0.7 if entity @s[dx=0] if score @s id = @e[type=minecraft:armor_stand,tag=magicBoomerang,sort=nearest,limit=1] id run function ssbrc:series/the_legend_of_zelda/zelda/logic/abilities/magic_boomerang/regain
 
 teleport @e[type=minecraft:item,distance=..1] @s
 
-execute positioned ~-0.15 ~-0.15 ~-0.15 as @e[predicate=ssbrc:flag/targets,dx=0] positioned ~-0.7 ~-0.7 ~-0.7 if entity @s[dx=0] unless score @s id = @e[type=minecraft:area_effect_cloud,tag=magicBoomerang,sort=nearest,limit=1] id run function ssbrc:series/the_legend_of_zelda/zelda/logic/abilities/magic_boomerang/hit
+function ssbrc:series/the_legend_of_zelda/zelda/logic/abilities/magic_boomerang/rotate
 
-execute positioned ~-0.15 ~-0.15 ~-0.15 as @e[predicate=ssbrc:flag/player,dx=0] positioned ~-0.7 ~-0.7 ~-0.7 if entity @s[dx=0] if score @s id = @e[type=minecraft:area_effect_cloud,tag=magicBoomerang,sort=nearest,limit=1] id run function ssbrc:series/the_legend_of_zelda/zelda/logic/abilities/magic_boomerang/regain
+execute unless score @s temp matches 40.. rotated as @s run teleport @s ^ ^ ^1
+execute if score @s temp matches 40.. facing entity @p[tag=self] eyes run function ssbrc:series/the_legend_of_zelda/zelda/logic/abilities/magic_boomerang/return
 
 scoreboard players add @s temp 1
 

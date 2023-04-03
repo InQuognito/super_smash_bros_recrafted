@@ -7,7 +7,7 @@ function ssbrc:logic/characters/attributes/defaults
 
 clear @s #ssbrc:equipment
 loot replace entity @s hotbar.0 loot ssbrc:characters/retro_fighters/alteredbeast/waretiger/feral_claw
-loot replace entity @s hotbar.1 loot ssbrc:characters/retro_fighters/alteredbeast/waretiger/thundrous_roar
+loot replace entity @s hotbar.1 loot ssbrc:characters/retro_fighters/alteredbeast/waretiger/thunderous_roar
 loot replace entity @s weapon.offhand loot ssbrc:characters/retro_fighters/alteredbeast/waretiger/sabretooth
 
 function ssbrc:logic/characters/armor/update

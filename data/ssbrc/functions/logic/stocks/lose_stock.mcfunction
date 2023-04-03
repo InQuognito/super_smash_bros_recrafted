@@ -21,13 +21,13 @@ spectate @r[predicate=ssbrc:flag/player] @s
 
 # Kill Objects Belonging to Dead Player
 tag @s add self
-execute if entity @s[tag=link] as @e[type=minecraft:area_effect_cloud,tag=link.boomerang] if score @s id = @p[tag=self] id run function ssbrc:series/the_legend_of_zelda/link/logic/abilities/boomerang/kill
+execute if entity @s[tag=link] as @e[type=minecraft:armor_stand,tag=link.boomerang] if score @s id = @p[tag=self] id run kill @s
 execute if entity @s[tag=pokemontrainer,tag=ivysaur] as @e[type=minecraft:marker,tag=leechSeed] if score @s id = @p[tag=self] id run kill @s
 execute if entity @s[tag=shovelknight] as @e[type=minecraft:marker,tag=warHorn] if score @s id = @p[tag=self] id run kill @s
 execute if entity @s[tag=yar] as @e[type=minecraft:bee,tag=drone] if score @s id = @p[tag=self] id run kill @s
 execute if entity @s[tag=yar] as @e[type=minecraft:area_effect_cloud,tag=drone.aec] if score @s id = @p[tag=self] id run kill @s
-execute if entity @s[tag=zelda] as @e[type=minecraft:area_effect_cloud,tag=zelda.boomerang] if score @s id = @p[tag=self] id run function ssbrc:series/the_legend_of_zelda/zelda/logic/abilities/boomerang/kill
-execute if entity @s[tag=zelda] as @e[type=minecraft:area_effect_cloud,tag=magicBoomerang] if score @s id = @p[tag=self] id run function ssbrc:series/the_legend_of_zelda/zelda/logic/abilities/magic_boomerang/kill
+execute if entity @s[tag=zelda] as @e[type=minecraft:armor_stand,tag=zelda.boomerang] if score @s id = @p[tag=self] id run kill @s
+execute if entity @s[tag=zelda] as @e[type=minecraft:armor_stand,tag=magicBoomerang] if score @s id = @p[tag=self] id run kill @s
 tag @s remove self
 
 # Tower of Fate

@@ -12,14 +12,28 @@
 			"condition": "minecraft:entity_properties",
 			"entity": "this",
 			"predicate": {
-				"nbt": "{Tags:[\"castleSiege\"]}"
+				"nbt": "{Tags:[\"greatPlateau\"]}"
 			}
 		},
 		{
 			"condition": "minecraft:entity_properties",
 			"entity": "this",
 			"predicate": {
-				"nbt": "{Tags:[\"dreamLand\"]}"
+				"nbt": "{Tags:[\"planetZebes\"]}"
+			}
+		},
+		{
+			"condition": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
+				"nbt": "{Tags:[\"lakeOfRage\"]}"
+			}
+		},
+		{
+			"condition": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
+				"nbt": "{Tags:[\"castleSiege\"]}"
 			}
 		},
 		{
@@ -40,28 +54,14 @@
 			"condition": "minecraft:entity_properties",
 			"entity": "this",
 			"predicate": {
-				"nbt": "{Tags:[\"greatPlateau\"]}"
-			}
-		},
-		{
-			"condition": "minecraft:entity_properties",
-			"entity": "this",
-			"predicate": {
-				"nbt": "{Tags:[\"lakeOfRage\"]}"
-			}
-		},
-		{
-			"condition": "minecraft:entity_properties",
-			"entity": "this",
-			"predicate": {
-				"nbt": "{Tags:[\"planetZebes\"]}"
-			}
-		},
-		{
-			"condition": "minecraft:entity_properties",
-			"entity": "this",
-			"predicate": {
 				"nbt": "{Tags:[\"suzakuCastle\"]}"
+			}
+		},
+		{
+			"condition": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
+				"nbt": "{Tags:[\"yggdrasilsAltar\"]}"
 			}
 		}
 	]

@@ -19,7 +19,7 @@ execute as @e[type=minecraft:arrow,tag=fox.blaster] at @s if score @s id = @p[ta
 execute as @e[type=minecraft:marker,tag=fireFox] at @s if score @s id = @p[tag=self,scores={duration.3=2..}] id run function ssbrc:series/star_fox/fox/logic/abilities/fire_fox/tick
 
 # Greninja
-execute as @e[type=minecraft:area_effect_cloud,tag=waterShuriken] at @s if score @s id = @p[tag=self] id run function ssbrc:series/pokemon/greninja/logic/abilities/water_shuriken/tick
+execute as @e[type=minecraft:armor_stand,tag=waterShuriken] at @s if score @s id = @p[tag=self] id run function ssbrc:series/pokemon/greninja/logic/abilities/water_shuriken/tick
 
 # Hero
 execute as @e[type=minecraft:fireball,tag=bang] at @s if score @s id = @p[tag=self] id run function ssbrc:series/dragon_quest/hero/logic/magic/bang/tick
@@ -40,7 +40,7 @@ execute as @e[type=minecraft:armor_stand,tag=blunderbuss] at @s if score @s id =
 
 # Link
 execute as @e[type=minecraft:arrow,tag=swordBeam] at @s if score @s id = @p[tag=self] id run function ssbrc:series/the_legend_of_zelda/link/logic/abilities/sword_beam/tick
-execute as @e[type=minecraft:area_effect_cloud,tag=link.boomerang] at @s if score @s id = @p[tag=self] id run function ssbrc:series/the_legend_of_zelda/link/logic/abilities/boomerang/tick
+execute as @e[type=minecraft:armor_stand,tag=link.boomerang] at @s if score @s id = @p[tag=self] id run function ssbrc:series/the_legend_of_zelda/link/logic/abilities/boomerang/tick
 
 # Luigi
 execute as @e[type=minecraft:area_effect_cloud,tag=iceBall] at @s if score @s id = @p[tag=self] id run function ssbrc:series/super_mario_bros/luigi/logic/abilities/ice_ball/tick
@@ -101,14 +101,14 @@ execute as @e[type=minecraft:armor_stand,tag=grenade] at @s if score @s id = @p[
 
 # Zelda
 execute as @e[type=minecraft:area_effect_cloud,tag=bomb] at @s if score @s id = @p[tag=self] id run function ssbrc:series/the_legend_of_zelda/zelda/logic/abilities/bomb/tick
-execute as @e[type=minecraft:area_effect_cloud,tag=zelda.boomerang] at @s if score @s id = @p[tag=self] id run function ssbrc:series/the_legend_of_zelda/zelda/logic/abilities/boomerang/tick
+execute as @e[type=minecraft:armor_stand,tag=zelda.boomerang] at @s if score @s id = @p[tag=self] id run function ssbrc:series/the_legend_of_zelda/zelda/logic/abilities/boomerang/tick
 execute as @e[type=minecraft:spectral_arrow,tag=bow] at @s if score @s id = @p[tag=self] id run function ssbrc:series/the_legend_of_zelda/zelda/logic/abilities/bow/tick
 execute as @e[type=minecraft:arrow,tag=fireRod] at @s if score @s id = @p[tag=self] id run function ssbrc:series/the_legend_of_zelda/zelda/logic/abilities/fire_rod/tick
 execute as @e[type=minecraft:area_effect_cloud,tag=fireRod,tag=!pillar] at @s if score @s id = @p[tag=self] id run function ssbrc:series/the_legend_of_zelda/zelda/logic/abilities/fire_rod/alternate_function/tick
 execute as @e[type=minecraft:area_effect_cloud,tag=fireRod,tag=pillar] at @s if score @s id = @p[tag=self] id run function ssbrc:series/the_legend_of_zelda/zelda/logic/abilities/fire_rod/alternate_function/tick_pillar
 execute as @e[type=minecraft:marker,tag=iceRod] at @s if score @s id = @p[tag=self] id run function ssbrc:series/the_legend_of_zelda/zelda/logic/abilities/ice_rod/tick
 execute as @e[type=minecraft:armor_stand,tag=iceBlock] at @s if score @s id = @p[tag=self] id run function ssbrc:series/the_legend_of_zelda/zelda/logic/abilities/ice_rod/alternate_function/tick
-execute as @e[type=minecraft:area_effect_cloud,tag=magicBoomerang] at @s if score @s id = @p[tag=self] id run function ssbrc:series/the_legend_of_zelda/zelda/logic/abilities/magic_boomerang/tick
+execute as @e[type=minecraft:armor_stand,tag=magicBoomerang] at @s if score @s id = @p[tag=self] id run function ssbrc:series/the_legend_of_zelda/zelda/logic/abilities/magic_boomerang/tick
 execute at @s[nbt={Inventory:[{tag:{goronLocket:1}}]}] as @e[tag=effect.wither,distance=..1.6] unless score @s id = @p[tag=self] id run kill @s
 
 # Altered Beast

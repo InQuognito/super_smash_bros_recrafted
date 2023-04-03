@@ -6,6 +6,10 @@
 			{
 				"condition": "minecraft:reference",
 				"name": "ssbrc:characters/attack_damage/medium"
+			},
+			{
+				"condition": "minecraft:reference",
+				"name": "ssbrc:characters/attack_damage/high"
 			}
 		]
 	}

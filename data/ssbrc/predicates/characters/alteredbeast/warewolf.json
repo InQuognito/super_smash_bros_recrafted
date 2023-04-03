@@ -5,7 +5,35 @@
 			"condition": "minecraft:entity_properties",
 			"entity": "this",
 			"predicate": {
-				"nbt": "{Tags:[\"acropolisGraveyard\"]}"
+				"nbt": "{Tags:[\"sectorZ\"]}"
+			}
+		},
+		{
+			"condition": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
+				"nbt": "{Tags:[\"palletTown\"]}"
+			}
+		},
+		{
+			"condition": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
+				"nbt": "{Tags:[\"spearPillar\"]}"
+			}
+		},
+		{
+			"condition": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
+				"nbt": "{Tags:[\"palutenasTemple\"]}"
+			}
+		},
+		{
+			"condition": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
+				"nbt": "{Tags:[\"wilyCastle\"]}"
 			}
 		},
 		{
@@ -26,28 +54,7 @@
 			"condition": "minecraft:entity_properties",
 			"entity": "this",
 			"predicate": {
-				"nbt": "{Tags:[\"palletTown\"]}"
-			}
-		},
-		{
-			"condition": "minecraft:entity_properties",
-			"entity": "this",
-			"predicate": {
-				"nbt": "{Tags:[\"sectorZ\"]}"
-			}
-		},
-		{
-			"condition": "minecraft:entity_properties",
-			"entity": "this",
-			"predicate": {
-				"nbt": "{Tags:[\"spearPillar\"]}"
-			}
-		},
-		{
-			"condition": "minecraft:entity_properties",
-			"entity": "this",
-			"predicate": {
-				"nbt": "{Tags:[\"wilyCastle\"]}"
+				"nbt": "{Tags:[\"acropolisGraveyard\"]}"
 			}
 		}
 	]
