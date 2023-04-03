@@ -25,7 +25,7 @@ execute as @e[type=minecraft:armor_stand,tag=waterShuriken] at @s if score @s id
 execute as @e[type=minecraft:fireball,tag=bang] at @s if score @s id = @p[tag=self] id run function ssbrc:series/dragon_quest/hero/logic/magic/bang/tick
 
 # Jigglypuff
-execute as @e[type=minecraft:area_effect_cloud,tag=hyperVoice] at @s if score @s id = @p[tag=self] id run function ssbrc:series/pokemon/jigglypuff/logic/abilities/hyper_voice/tick
+execute as @e[type=minecraft:marker,tag=hyperVoice] at @s if score @s id = @p[tag=self] id run function ssbrc:series/pokemon/jigglypuff/logic/abilities/hyper_voice/tick
 
 # Joker
 execute as @e[type=minecraft:arrow,tag=tt33Bullet] at @s if score @s id = @p[tag=self] id run function ssbrc:series/persona/joker/logic/tt33/tick
@@ -43,20 +43,19 @@ execute as @e[type=minecraft:arrow,tag=swordBeam] at @s if score @s id = @p[tag=
 execute as @e[type=minecraft:armor_stand,tag=link.boomerang] at @s if score @s id = @p[tag=self] id run function ssbrc:series/the_legend_of_zelda/link/logic/abilities/boomerang/tick
 
 # Luigi
-execute as @e[type=minecraft:area_effect_cloud,tag=iceBall] at @s if score @s id = @p[tag=self] id run function ssbrc:series/super_mario_bros/luigi/logic/abilities/ice_ball/tick
+execute as @e[type=minecraft:marker,tag=iceBall] at @s if score @s id = @p[tag=self] id run function ssbrc:series/super_mario_bros/luigi/logic/abilities/ice_ball/tick
 
 # Mario
 execute as @e[type=minecraft:area_effect_cloud,tag=fireball] at @s if score @s id = @p[tag=self] id run function ssbrc:series/super_mario_bros/mario/logic/abilities/fireball/tick
 
 # Mega Man
-tag @e[type=minecraft:area_effect_cloud,tag=blackHoleGrenade,tag=!active,predicate=ssbrc:flag/no_vehicle] add active
-execute as @e[type=minecraft:area_effect_cloud,tag=blackHoleGrenade,tag=active] at @s if score @s id = @p[tag=self] id run function ssbrc:series/mega_man/megaman/logic/abilities/black_hole_grenade/tick
+execute as @e[type=minecraft:armor_stand,tag=blackHoleGrenade] at @s if score @s id = @p[tag=self] id unless block ~ ~-0.1 ~ #ssbrc:passthrough run function ssbrc:series/mega_man/megaman/logic/abilities/black_hole_grenade/tick
 
 # Ness
 execute as @e[type=minecraft:area_effect_cloud,tag=pkFire,tag=!exploded] if score @s id = @p[tag=self] id at @s run function ssbrc:series/earthbound/ness/logic/abilities/pk_fire/tick
 execute as @e[type=minecraft:area_effect_cloud,tag=pkFire,tag=exploded] if score @s id = @p[tag=self] id at @s run function ssbrc:series/earthbound/ness/logic/abilities/pk_fire/tick_explosion
-execute if entity @s[tag=ness,predicate=ssbrc:flag/player,predicate=!ssbrc:flag/sneaking] as @e[type=minecraft:area_effect_cloud,tag=pkFlash,scores={temp=20..}] if score @s id = @p[tag=self] id at @s run function ssbrc:series/earthbound/ness/logic/abilities/pk_flash/adjust
-execute as @e[type=minecraft:area_effect_cloud,tag=pkFlash] if score @s id = @p[tag=self] id at @s run function ssbrc:series/earthbound/ness/logic/abilities/pk_flash/tick
+execute if entity @s[tag=ness,predicate=ssbrc:flag/player,predicate=!ssbrc:flag/sneaking] as @e[type=minecraft:marker,tag=pkFlash,scores={temp=20..}] at @s if score @s id = @p[tag=self] id run function ssbrc:series/earthbound/ness/logic/abilities/pk_flash/adjust
+execute as @e[type=minecraft:marker,tag=pkFlash] if score @s id = @p[tag=self] id at @s run function ssbrc:series/earthbound/ness/logic/abilities/pk_flash/tick
 
 # Pikachu
 execute as @e[type=minecraft:marker,tag=thunderJolt] at @s if score @s id = @p[tag=self] id run function ssbrc:series/pokemon/pikachu/logic/abilities/thunder_jolt/tick
@@ -69,7 +68,7 @@ execute as @e[type=minecraft:marker,tag=leechSeed.healingOrb] at @s if score @s 
 execute as @e[type=minecraft:arrow,tag=waterGun] at @s if score @s id = @p[tag=self] id run function ssbrc:series/pokemon/pokemontrainer/logic/squirtle/water_gun/tick
 
 # R.O.B.
-execute as @e[type=minecraft:area_effect_cloud,tag=roboBeam] at @s if score @s id = @p[tag=self] id run function ssbrc:series/super_smash_bros/rob/logic/abilities/robo_beam/tick
+execute as @e[type=minecraft:marker,tag=roboBeam] at @s if score @s id = @p[tag=self] id run function ssbrc:series/super_smash_bros/rob/logic/abilities/robo_beam/tick
 
 # Samus
 execute as @e[type=minecraft:arrow,tag=powerBeam] at @s if score @s id = @p[tag=self] id run function ssbrc:series/metroid/samus/logic/weapons/power_beam/tick
