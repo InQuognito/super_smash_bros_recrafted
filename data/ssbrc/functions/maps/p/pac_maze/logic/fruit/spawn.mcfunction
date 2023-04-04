@@ -3,14 +3,14 @@ scoreboard players add $fruit temp 1
 
 kill @e[tag=pacMaze.fruit]
 
-execute if score $fruit temp matches 1 run summon minecraft:glow_item_frame ~ ~ ~ {Tags:["pacMaze.fruit","pacMaze.fruit.cherry"],Facing:1b,Fixed:1b,Invisible:1b,Item:{id:"minecraft:apple",Count:1b,tag:{CustomModelData:1}}}
-execute if score $fruit temp matches 2 run summon minecraft:glow_item_frame ~ ~ ~ {Tags:["pacMaze.fruit","pacMaze.fruit.strawberry"],Facing:1b,Fixed:1b,Invisible:1b,Item:{id:"minecraft:apple",Count:1b,tag:{CustomModelData:2}}}
-execute if score $fruit temp matches 3 run summon minecraft:glow_item_frame ~ ~ ~ {Tags:["pacMaze.fruit","pacMaze.fruit.orange"],Facing:1b,Fixed:1b,Invisible:1b,Item:{id:"minecraft:apple",Count:1b,tag:{CustomModelData:3}}}
-execute if score $fruit temp matches 4 run summon minecraft:glow_item_frame ~ ~ ~ {Tags:["pacMaze.fruit","pacMaze.fruit.apple"],Facing:1b,Fixed:1b,Invisible:1b,Item:{id:"minecraft:apple",Count:1b,tag:{CustomModelData:4}}}
-execute if score $fruit temp matches 5 run summon minecraft:glow_item_frame ~ ~ ~ {Tags:["pacMaze.fruit","pacMaze.fruit.melon"],Facing:1b,Fixed:1b,Invisible:1b,Item:{id:"minecraft:apple",Count:1b,tag:{CustomModelData:5}}}
-execute if score $fruit temp matches 6 run summon minecraft:glow_item_frame ~ ~ ~ {Tags:["pacMaze.fruit","pacMaze.fruit.galaxianFlagship"],Facing:1b,Fixed:1b,Invisible:1b,Item:{id:"minecraft:apple",Count:1b,tag:{CustomModelData:6}}}
-execute if score $fruit temp matches 7 run summon minecraft:glow_item_frame ~ ~ ~ {Tags:["pacMaze.fruit","pacMaze.fruit.bell"],Facing:1b,Fixed:1b,Invisible:1b,Item:{id:"minecraft:apple",Count:1b,tag:{CustomModelData:7}}}
-execute if score $fruit temp matches 8 run summon minecraft:glow_item_frame ~ ~ ~ {Tags:["pacMaze.fruit","pacMaze.fruit.key"],Facing:1b,Fixed:1b,Invisible:1b,Item:{id:"minecraft:apple",Count:1b,tag:{CustomModelData:8}}}
+execute if score $fruit temp matches 1 run summon minecraft:item_display ~ ~ ~ {Tags:["pacMaze.fruit","pacMaze.fruit.cherry"],item:{id:"minecraft:apple",Count:1b,tag:{CustomModelData:1}},brightness:{sky:14,block:14},transformation:[1.5f,0.0f,0.0f,0.0f,0.0f,1.5f,0.0f,0.0f,0.0f,0.0f,1.5f,0.0f,0.0f,0.0f,0.0f,1.0f]}
+execute if score $fruit temp matches 2 run summon minecraft:item_display ~ ~ ~ {Tags:["pacMaze.fruit","pacMaze.fruit.strawberry"],item:{id:"minecraft:apple",Count:1b,tag:{CustomModelData:2}},brightness:{sky:14,block:14},transformation:[1.5f,0.0f,0.0f,0.0f,0.0f,1.5f,0.0f,0.0f,0.0f,0.0f,1.5f,0.0f,0.0f,0.0f,0.0f,1.0f]}
+execute if score $fruit temp matches 3 run summon minecraft:item_display ~ ~ ~ {Tags:["pacMaze.fruit","pacMaze.fruit.orange"],item:{id:"minecraft:apple",Count:1b,tag:{CustomModelData:3}},brightness:{sky:14,block:14},transformation:[1.5f,0.0f,0.0f,0.0f,0.0f,1.5f,0.0f,0.0f,0.0f,0.0f,1.5f,0.0f,0.0f,0.0f,0.0f,1.0f]}
+execute if score $fruit temp matches 4 run summon minecraft:item_display ~ ~ ~ {Tags:["pacMaze.fruit","pacMaze.fruit.apple"],item:{id:"minecraft:apple",Count:1b,tag:{CustomModelData:4}},brightness:{sky:14,block:14},transformation:[1.5f,0.0f,0.0f,0.0f,0.0f,1.5f,0.0f,0.0f,0.0f,0.0f,1.5f,0.0f,0.0f,0.0f,0.0f,1.0f]}
+execute if score $fruit temp matches 5 run summon minecraft:item_display ~ ~ ~ {Tags:["pacMaze.fruit","pacMaze.fruit.melon"],item:{id:"minecraft:apple",Count:1b,tag:{CustomModelData:5}},brightness:{sky:14,block:14},transformation:[1.5f,0.0f,0.0f,0.0f,0.0f,1.5f,0.0f,0.0f,0.0f,0.0f,1.5f,0.0f,0.0f,0.0f,0.0f,1.0f]}
+execute if score $fruit temp matches 6 run summon minecraft:item_display ~ ~ ~ {Tags:["pacMaze.fruit","pacMaze.fruit.galaxianFlagship"],item:{id:"minecraft:apple",Count:1b,tag:{CustomModelData:6}},brightness:{sky:14,block:14},transformation:[1.5f,0.0f,0.0f,0.0f,0.0f,1.5f,0.0f,0.0f,0.0f,0.0f,1.5f,0.0f,0.0f,0.0f,0.0f,1.0f]}
+execute if score $fruit temp matches 7 run summon minecraft:item_display ~ ~ ~ {Tags:["pacMaze.fruit","pacMaze.fruit.bell"],item:{id:"minecraft:apple",Count:1b,tag:{CustomModelData:7}},brightness:{sky:14,block:14},transformation:[1.5f,0.0f,0.0f,0.0f,0.0f,1.5f,0.0f,0.0f,0.0f,0.0f,1.5f,0.0f,0.0f,0.0f,0.0f,1.0f]}
+execute if score $fruit temp matches 8 run summon minecraft:item_display ~ ~ ~ {Tags:["pacMaze.fruit","pacMaze.fruit.key"],item:{id:"minecraft:apple",Count:1b,tag:{CustomModelData:8}},brightness:{sky:14,block:14},transformation:[1.5f,0.0f,0.0f,0.0f,0.0f,1.5f,0.0f,0.0f,0.0f,0.0f,1.5f,0.0f,0.0f,0.0f,0.0f,1.0f]}
 
 execute if score $fruit temp matches 8.. run scoreboard players set $fruit temp 0
 
