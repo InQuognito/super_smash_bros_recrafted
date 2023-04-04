@@ -1,10 +1,10 @@
 tag @s[tag=!gold,tag=!timelessRiver] add default
 
-tellraw @s [{"text":"You have selected ","color":"white"},{"text":"Sora","color":"white"},{"text":"!","color":"white"}]
+tellraw @s [{"translate":"ssbrc.fighters.menu.selected","color":"white"},{"text":"Sora","color":"white"},{"text":"!","color":"white"}]
 
-tellraw @s[tag=default] [{"text":"Skin: ","color":"white"},{"text":"Default","color":"white"}]
-tellraw @s[tag=gold] [{"text":"Skin: ","color":"white"},{"text":"Gold","color":"gold"}]
-tellraw @s[tag=timelessRiver] [{"text":"Skin: ","color":"white"},{"text":"Timeless River","color":"gray"}]
+tellraw @s[tag=default] [{"translate":"ssbrc.fighters.menu.skin","color":"white"},{"text":"Default","color":"white"}]
+tellraw @s[tag=gold] [{"translate":"ssbrc.fighters.menu.skin","color":"white"},{"text":"Gold","color":"gold"}]
+tellraw @s[tag=timelessRiver] [{"translate":"ssbrc.fighters.menu.skin","color":"white"},{"text":"Timeless River","color":"gray"}]
 
 function ssbrc:logic/resets/tags/characters
 tag @s add sora

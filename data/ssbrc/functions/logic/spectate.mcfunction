@@ -1,4 +1,4 @@
-tellraw @s[team=!spectator] [{"text":"You have joined the ","color":"white"},{"text":"Spectators","color":"gray"},{"text":"!","color":"white"}]
+tellraw @s[team=!spectator] {"translate":"ssbrc.fighterSelect.spectateGame","color":"gray"}
 
 function ssbrc:logic/resets/tags/characters
 

@@ -1,12 +1,12 @@
 tag @s[tag=!gold,tag=!moonside,tag=!pajamas,tag=!phaseDistortion] add default
 
-tellraw @s [{"text":"You have selected ","color":"white"},{"text":"Ness","color":"dark_purple"},{"text":"!","color":"white"}]
+tellraw @s [{"translate":"ssbrc.fighters.menu.selected","color":"white"},{"text":"Ness","color":"dark_purple"},{"text":"!","color":"white"}]
 
-tellraw @s[tag=default] [{"text":"Skin: ","color":"white"},{"text":"Default","color":"dark_purple"}]
-tellraw @s[tag=gold] [{"text":"Skin: ","color":"white"},{"text":"Gold","color":"gold"}]
-tellraw @s[tag=moonside] [{"text":"Skin: ","color":"white"},{"text":"Moonside","color":"aqua"}]
-tellraw @s[tag=pajamas] [{"text":"Skin: ","color":"white"},{"text":"Pajamas","color":"dark_aqua"}]
-tellraw @s[tag=phaseDistortion] [{"text":"Skin: ","color":"white"},{"text":"Phase Distortion","color":"gray"}]
+tellraw @s[tag=default] [{"translate":"ssbrc.fighters.menu.skin","color":"white"},{"text":"Default","color":"dark_purple"}]
+tellraw @s[tag=gold] [{"translate":"ssbrc.fighters.menu.skin","color":"white"},{"text":"Gold","color":"gold"}]
+tellraw @s[tag=moonside] [{"translate":"ssbrc.fighters.menu.skin","color":"white"},{"text":"Moonside","color":"aqua"}]
+tellraw @s[tag=pajamas] [{"translate":"ssbrc.fighters.menu.skin","color":"white"},{"text":"Pajamas","color":"dark_aqua"}]
+tellraw @s[tag=phaseDistortion] [{"translate":"ssbrc.fighters.menu.skin","color":"white"},{"text":"Phase Distortion","color":"gray"}]
 
 function ssbrc:logic/resets/tags/characters
 tag @s add ness

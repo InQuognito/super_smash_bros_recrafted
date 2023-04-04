@@ -8,8 +8,8 @@ forceload add -288 -192 -177 -81
 summon minecraft:armor_stand -218.5 26.5 -144.5 {Rotation:[15f,0f],Invisible:1b,Invulnerable:1b,NoBasePlate:1b,NoGravity:1b,DisabledSlots:4144959,ArmorItems:[{},{},{},{id:"minecraft:carrot_on_a_stick",Count:1b,tag:{CustomModelData:1741}}]}
 
 # Warp Zone
-summon minecraft:text_display -249.5 27.25 -154.5 {text:'[{"text":"WELCOME TO THE","font":"ssbrc:mario"}]',line_width:500,background:0,billboard:center}
-summon minecraft:text_display -249.5 26.25 -154.5 {text:'[{"text":"WARP ZONE!","font":"ssbrc:mario"}]',line_width:500,background:0,billboard:center}
+summon minecraft:text_display -249.5 27.25 -154.5 {text:'[{"translate":"ssbrc.maps.mushroomKingdom.warpZone1","font":"ssbrc:mario"}]',line_width:500,background:0,billboard:center}
+summon minecraft:text_display -249.5 26.25 -154.5 {text:'[{"translate":"ssbrc.maps.mushroomKingdom.warpZone2","font":"ssbrc:mario"}]',line_width:500,background:0,billboard:center}
 
 # ? Blocks
 summon minecraft:item_frame -218.5 35.5 -137.5 {Facing:2b,Fixed:1b,Invisible:1b,Item:{id:"minecraft:sugar",Count:1b,tag:{CustomModelData:1201}}}

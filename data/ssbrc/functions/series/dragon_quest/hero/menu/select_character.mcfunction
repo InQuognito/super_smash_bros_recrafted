@@ -1,12 +1,12 @@
 tag @s[tag=!gold,tag=!erdrick,tag=!rek,tag=!sofia] add default
 
-tellraw @s [{"text":"You have selected ","color":"white"},{"text":"Hero","color":"yellow"},{"text":"!","color":"white"}]
+tellraw @s [{"translate":"ssbrc.fighters.menu.selected","color":"white"},{"text":"Hero","color":"yellow"},{"text":"!","color":"white"}]
 
-tellraw @s[tag=default] [{"text":"Skin: ","color":"white"},{"text":"Default","color":"yellow"}]
-tellraw @s[tag=gold] [{"text":"Skin: ","color":"white"},{"text":"Gold","color":"gold"}]
-tellraw @s[tag=erdrick] [{"text":"Skin: ","color":"white"},{"text":"Erdrick","color":"gray"}]
-tellraw @s[tag=rek] [{"text":"Skin: ","color":"white"},{"text":"Rek","color":"blue"}]
-tellraw @s[tag=sofia] [{"text":"Skin: ","color":"white"},{"text":"Sofia","color":"green"}]
+tellraw @s[tag=default] [{"translate":"ssbrc.fighters.menu.skin","color":"white"},{"text":"Default","color":"yellow"}]
+tellraw @s[tag=gold] [{"translate":"ssbrc.fighters.menu.skin","color":"white"},{"text":"Gold","color":"gold"}]
+tellraw @s[tag=erdrick] [{"translate":"ssbrc.fighters.menu.skin","color":"white"},{"text":"Erdrick","color":"gray"}]
+tellraw @s[tag=rek] [{"translate":"ssbrc.fighters.menu.skin","color":"white"},{"text":"Rek","color":"blue"}]
+tellraw @s[tag=sofia] [{"translate":"ssbrc.fighters.menu.skin","color":"white"},{"text":"Sofia","color":"green"}]
 
 function ssbrc:logic/resets/tags/characters
 tag @s add hero

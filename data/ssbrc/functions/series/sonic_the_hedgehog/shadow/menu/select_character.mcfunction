@@ -1,10 +1,10 @@
 tag @s[tag=!gold,tag=!yellowAndroid] add default
 
-tellraw @s [{"text":"You have selected ","color":"white"},{"text":"Shadow","color":"dark_red"},{"text":"!","color":"white"}]
+tellraw @s [{"translate":"ssbrc.fighters.menu.selected","color":"white"},{"text":"Shadow","color":"dark_red"},{"text":"!","color":"white"}]
 
-tellraw @s[tag=default] [{"text":"Skin: ","color":"white"},{"text":"Default","color":"dark_red"}]
-tellraw @s[tag=gold] [{"text":"Skin: ","color":"white"},{"text":"Gold","color":"gold"}]
-tellraw @s[tag=yellowAndroid] [{"text":"Skin: ","color":"white"},{"text":"Yellow Android","color":"yellow"}]
+tellraw @s[tag=default] [{"translate":"ssbrc.fighters.menu.skin","color":"white"},{"text":"Default","color":"dark_red"}]
+tellraw @s[tag=gold] [{"translate":"ssbrc.fighters.menu.skin","color":"white"},{"text":"Gold","color":"gold"}]
+tellraw @s[tag=yellowAndroid] [{"translate":"ssbrc.fighters.menu.skin","color":"white"},{"text":"Yellow Android","color":"yellow"}]
 
 function ssbrc:logic/resets/tags/characters
 tag @s add shadow

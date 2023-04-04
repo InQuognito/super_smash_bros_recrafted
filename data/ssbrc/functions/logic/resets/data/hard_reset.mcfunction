@@ -286,7 +286,7 @@ scoreboard objectives remove stats.bonus.yearLongBattle
 
 function ssbrc:logic/load
 
-tellraw @a {"text":"All player data has been successfully reset.","color":"dark_red"}
+tellraw @a {"translate":"ssbrc.admin.forceReset","color":"dark_red"}
 
 scoreboard players add numberOfResets hardReset 1
 scoreboard players operation @a hardReset = numberOfResets hardReset

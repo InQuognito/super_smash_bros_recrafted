@@ -5,6 +5,6 @@ scoreboard players set $teams options 0
 scoreboard players set $hazards options 1
 scoreboard players set $music options 0
 
-tellraw @s [{"text":"Options reset to default!","color":"red"}]
+tellraw @s [{"translate":"ssbrc.options.reset.confirm","color":"red"}]
 
 function ssbrc:logic/options

@@ -1,3 +1,3 @@
 function ssbrc:logic/resets/data/reset
 
-tellraw @s {"text":"Your data has been successfully reset.","color":"yellow"}
+tellraw @s {"translate":"ssbrc.profile.reset.confirm","color":"yellow"}

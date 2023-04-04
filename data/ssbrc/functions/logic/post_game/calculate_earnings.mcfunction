@@ -1,15 +1,15 @@
 # Bonuses
 data modify storage ssbrc:bonuses value set value []
 
-data modify storage ssbrc:bonuses value append value '[{"text":"Participation","bold":true,"color":"gold"},{"text":" - ","bold":false,"color":"white"},{"score":{"name":"value.participation","objective":"vars"},"bold":false,"color":"yellow"},{"text":"₡","bold":false,"color":"yellow"}]}}]'
+data modify storage ssbrc:bonuses value append value '[{"translate":"ssbrc.bonuses.participation","bold":true,"color":"gold"},{"text":" - ","bold":false,"color":"white"},{"score":{"name":"value.participation","objective":"vars"},"bold":false,"color":"yellow"},{"text":"₡","bold":false,"color":"yellow"}]}}]'
 scoreboard players operation @s stats.credits.temp += value.participation vars
 
-execute if entity @s[tag=winner] run data modify storage ssbrc:bonuses value append value '[{"text":"Victory","bold":true,"color":"gold"},{"text":" - ","bold":false,"color":"white"},{"score":{"name":"value.victory","objective":"vars"},"bold":false,"color":"yellow"},{"text":"₡","bold":false,"color":"yellow"}]}}]'
+execute if entity @s[tag=winner] run data modify storage ssbrc:bonuses value append value '[{"translate":"ssbrc.bonuses.win","bold":true,"color":"gold"},{"text":" - ","bold":false,"color":"white"},{"score":{"name":"value.victory","objective":"vars"},"bold":false,"color":"yellow"},{"text":"₡","bold":false,"color":"yellow"}]}}]'
 scoreboard players operation @s[tag=winner] stats.credits.temp += value.victory vars
 
 scoreboard players operation value kills = @s kills
 scoreboard players operation value kills *= value.KO vars
-execute if score @s kills matches 1.. run data modify storage ssbrc:bonuses value append value '[{"score":{"name":"@s","objective":"kills"},"bold":true,"color":"yellow"},{"text":"x ","bold":true,"color":"yellow"},{"text":"KOs","bold":true,"color":"gold"},{"text":" - ","bold":false,"color":"white"},{"score":{"name":"value","objective":"kills"},"bold":false,"color":"yellow"},{"text":"₡","bold":false,"color":"yellow"}]}}]'
+execute if score @s kills matches 1.. run data modify storage ssbrc:bonuses value append value '[{"score":{"name":"@s","objective":"kills"},"bold":true,"color":"yellow"},{"text":"x ","bold":true,"color":"yellow"},{"translate":"ssbrc.bonuses.kills","bold":true,"color":"gold"},{"text":" - ","bold":false,"color":"white"},{"score":{"name":"value","objective":"kills"},"bold":false,"color":"yellow"},{"text":"₡","bold":false,"color":"yellow"}]}}]'
 scoreboard players operation @s stats.credits.temp += value kills
 
 data modify storage ssbrc:bonuses value append value '{"text":"===============","bold":true,"color":"light_gray"}'
@@ -250,4 +250,4 @@ scoreboard players operation @s stats.bonus.trulyVillainous += @s trulyVillainou
 scoreboard players operation @s stats.bonus.WACCoordinator += @s WACCoordinator
 scoreboard players operation @s stats.bonus.yearLongBattle += @s yearLongBattle
 
-tellraw @s [{"text":"[ ","color":"gold"},{"text":"Show Bonuses","color":"yellow","hoverEvent":{"action":"show_text","contents":[{"storage":"ssbrc:bonuses","nbt":"value[]","interpret":true,"separator":"\n"}]}},{"text":" ]","color":"gold"}]
+tellraw @s [{"text":"[ ","color":"gold"},{"translate":"ssbrc.game.end.summary.showBonuses","color":"yellow","hoverEvent":{"action":"show_text","contents":[{"storage":"ssbrc:bonuses","nbt":"value[]","interpret":true,"separator":"\n"}]}},{"text":" ]","color":"gold"}]

@@ -1,5 +1,4 @@
-execute unless score $gameMode options matches 1 run tellraw @a[tag=room.characterSelect] [{"text":"Game Mode","color":"yellow"},{"text":" set to "},{"text":"Stock","color":"blue"}]
-execute if score $gameMode options matches 1 run tellraw @s [{"text":"Game Mode","color":"yellow"},{"text":" is already set to this!","color":"red"}]
+tellraw @a[tag=room.characterSelect] [{"translate":"ssbrc.gameModeTitle","color":"yellow"},{"translate":"ssbrc.gameMode.stock","color":"blue"}]
 
 scoreboard players set $gameMode options 1
 

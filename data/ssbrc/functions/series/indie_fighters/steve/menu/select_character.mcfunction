@@ -1,11 +1,11 @@
 tag @s[tag=!gold,tag=!alex,tag=!herobrine] add default
 
-tellraw @s [{"text":"You have selected ","color":"white"},{"text":"Steve","color":"dark_aqua"},{"text":"!","color":"white"}]
+tellraw @s [{"translate":"ssbrc.fighters.menu.selected","color":"white"},{"text":"Steve","color":"dark_aqua"},{"text":"!","color":"white"}]
 
-tellraw @s[tag=default] [{"text":"Skin: ","color":"white"},{"text":"Default","color":"dark_aqua"}]
-tellraw @s[tag=gold] [{"text":"Skin: ","color":"white"},{"text":"Gold","color":"gold"}]
-tellraw @s[tag=alex] [{"text":"Skin: ","color":"white"},{"text":"Alex","color":"yellow"}]
-tellraw @s[tag=herobrine] [{"text":"Skin: ","color":"white"},{"text":"Herobrine","color":"white"}]
+tellraw @s[tag=default] [{"translate":"ssbrc.fighters.menu.skin","color":"white"},{"text":"Default","color":"dark_aqua"}]
+tellraw @s[tag=gold] [{"translate":"ssbrc.fighters.menu.skin","color":"white"},{"text":"Gold","color":"gold"}]
+tellraw @s[tag=alex] [{"translate":"ssbrc.fighters.menu.skin","color":"white"},{"text":"Alex","color":"yellow"}]
+tellraw @s[tag=herobrine] [{"translate":"ssbrc.fighters.menu.skin","color":"white"},{"text":"Herobrine","color":"white"}]
 
 function ssbrc:logic/resets/tags/characters
 tag @s add steve

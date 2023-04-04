@@ -48,7 +48,7 @@ function ssbrc:logic/pre_game/map_voting/map_choices/stages/big_battlefield
 function ssbrc:logic/pre_game/map_voting/map_choices/stages/final_destination
 function ssbrc:logic/pre_game/map_voting/map_choices/stages/random
 
-summon minecraft:text_display -37.5 8.25 7.5 {text:'{"text":"✪ Stage Index ✪","bold":false,"color":"gold"}',billboard:center}
+summon minecraft:text_display -37.5 8.25 7.5 {text:'[{"text":"✪ ","color":"gold"},{"translate":"ssbrc.stageSelect.stageIndex","color":"gold"},{"text":" ✪","color":"gold"}]',billboard:center}
 
 scoreboard players set @e[type=minecraft:text_display,tag=voteCounter] mapVote 0
 
@@ -60,4 +60,4 @@ execute store result score $playersAlive temp if entity @a[predicate=ssbrc:ingam
 scoreboard players set gameStage temp 2
 scoreboard players set countdown timer 30
 
-data modify entity @e[tag=lobby.status,limit=1] text set value '[{"text":"Status: ","color":"gold"},{"text":"Stage Select","color":"yellow"}]'
+data modify entity @e[tag=lobby.status,limit=1] text set value '[{"translate":"ssbrc.lobby.status","color":"gold"},{"translate":"ssbrc.lobby.status.stageSelect","color":"yellow"}]'

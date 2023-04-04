@@ -1,4 +1,4 @@
-tellraw @a[predicate=ssbrc:ingame] [{"selector":"@s","bold":true,"color":"red"},{"text":" has run out of stocks!","bold":false,"color":"red"}]
+tellraw @a[predicate=ssbrc:ingame] {"translate":"ssbrc.game.out","bold":false,"color":"red"}
 tag @s remove alive
 team join dead
 scoreboard players reset @s stocks
@@ -7,7 +7,7 @@ title @s actionbar ""
 
 function ssbrc:logic/pre_game/character_select/count_players
 
-data modify entity @e[tag=lobby.timer,limit=1] text set value '[{"text":"Players Remaining: ","color":"gold"},{"score":{"name":"players.playing","objective":"temp"},"color":"yellow"}]'
+data modify entity @e[tag=lobby.timer,limit=1] text set value '[{"translate":"ssbrc.lobby.playersLeft","color":"gold"},{"score":{"name":"players.playing","objective":"temp"},"color":"yellow"}]'
 
 execute if score $teams options matches 0 if score players.playing temp matches 1 unless entity @s[tag=wobbuffet,scores={duration.3=40..}] as @a[tag=alive,limit=1] run function ssbrc:logic/post_game/end
 execute if score $teams options matches 0 if score players.playing temp matches 1 if entity @s[tag=wobbuffet,scores={duration.3=40..}] run function ssbrc:logic/post_game/end

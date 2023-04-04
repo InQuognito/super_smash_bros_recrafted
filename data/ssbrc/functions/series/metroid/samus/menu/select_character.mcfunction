@@ -1,11 +1,11 @@
 tag @s[tag=!gold,tag=!gravitySuit,tag=!phazonSuit] add default
 
-tellraw @s [{"text":"You have selected ","color":"white"},{"text":"Samus","color":"gold"},{"text":"!","color":"white"}]
+tellraw @s [{"translate":"ssbrc.fighters.menu.selected","color":"white"},{"text":"Samus","color":"gold"},{"text":"!","color":"white"}]
 
-tellraw @s[tag=default] [{"text":"Skin: ","color":"white"},{"text":"Default","color":"gold"}]
-tellraw @s[tag=gold] [{"text":"Skin: ","color":"white"},{"text":"Gold","color":"gold"}]
-tellraw @s[tag=gravitySuit] [{"text":"Skin: ","color":"white"},{"text":"Gravity Suit","color":"aqua"}]
-tellraw @s[tag=phazonSuit] [{"text":"Skin: ","color":"white"},{"text":"Phazon Suit","color":"red"}]
+tellraw @s[tag=default] [{"translate":"ssbrc.fighters.menu.skin","color":"white"},{"text":"Default","color":"gold"}]
+tellraw @s[tag=gold] [{"translate":"ssbrc.fighters.menu.skin","color":"white"},{"text":"Gold","color":"gold"}]
+tellraw @s[tag=gravitySuit] [{"translate":"ssbrc.fighters.menu.skin","color":"white"},{"text":"Gravity Suit","color":"aqua"}]
+tellraw @s[tag=phazonSuit] [{"translate":"ssbrc.fighters.menu.skin","color":"white"},{"text":"Phazon Suit","color":"red"}]
 
 function ssbrc:logic/resets/tags/characters
 tag @s add samus

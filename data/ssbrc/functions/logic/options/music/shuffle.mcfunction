@@ -1,5 +1,4 @@
-execute unless score $music options matches 1 run tellraw @a[tag=room.characterSelect] [{"text":"Music: ","color":"yellow"},{"text":"Shuffle","color":"blue"}]
-execute if score $music options matches 1 run tellraw @s [{"text":"Music","color":"yellow"},{"text":" is already set to this!","color":"red"}]
+tellraw @a[tag=room.characterSelect] [{"translate":"ssbrc.options.musicTitle","color":"yellow"},{"translate":"ssbrc.options.music.shuffle","color":"blue"}]
 
 scoreboard players set $music options 1
 

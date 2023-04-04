@@ -1,4 +1,4 @@
-summon minecraft:text_display 144.5 7.25 153.5 {Tags:["lobbyStand.label"],text:'{"text":"Random","color":"white"}',billboard:center}
+summon minecraft:text_display 144.5 7.25 153.5 {Tags:["lobbyStand.label"],text:'{"translate":"ssbrc.fighterSelect.random","color":"white"}',billboard:center}
 summon minecraft:item_display 144.5 6.0 153.5 {Tags:["selectable","lobbyStand"],item:{id:"minecraft:stick",tag:{CustomModelData:9998},Count:1b}}
 
 summon minecraft:text_display 147.5 7.25 154.5 {Tags:["lobbyStand.label"],text:'{"text":"Mario","color":"red"}',billboard:center}
@@ -117,10 +117,10 @@ summon minecraft:item_display 125.5 6.0 156.5 {Tags:["selectable","lobbyStand"],
 summon minecraft:text_display 129.5 7.25 154.5 {Tags:["lobbyStand.label"],text:'{"text":"Yar","color":"red"}',billboard:center}
 summon minecraft:item_display 129.5 6.0 154.5 {Tags:["selectable","lobbyStand"],item:{id:"minecraft:stick",tag:{CustomModelData:1960},Count:1b}}
 
-summon minecraft:text_display 132.5 7.25 153.5 {Tags:["lobbyStand.label"],text:'{"text":"Spectate","color":"white"}',billboard:center}
+summon minecraft:text_display 132.5 7.25 153.5 {Tags:["lobbyStand.label"],text:'{"translate":"ssbrc.fighterSelect.spectate","color":"white"}',billboard:center}
 summon minecraft:item_display 132.5 6.0 153.5 {Tags:["selectable","lobbyStand"],item:{id:"minecraft:stick",tag:{CustomModelData:9999},Count:1b}}
 
-summon minecraft:text_display 138.5 6.0 150.5 {Tags:["lobbyStand.label"],text:'{"text":"Leave Game","color":"yellow"}',billboard:center}
+summon minecraft:text_display 138.5 6.0 150.5 {Tags:["lobbyStand.label"],text:'{"translate":"ssbrc.fighterSelect.leave","color":"yellow"}',billboard:center}
 
 execute as @e[tag=lobbyStand] at @s facing 138.5 6.0 173.0 run teleport @s ~ ~ ~ ~ ~
 execute as @e[tag=lobbyStand] at @s facing ^ ^ ^-1 run teleport @s ~ ~ ~ ~ ~

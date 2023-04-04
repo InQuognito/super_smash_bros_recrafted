@@ -1,11 +1,11 @@
 tag @s[tag=!gold,tag=!famicom,tag=!ancientMinister] add default
 
-tellraw @s [{"text":"You have selected ","color":"white"},{"text":"R.O.B.","color":"white"},{"text":"!","color":"white"}]
+tellraw @s [{"translate":"ssbrc.fighters.menu.selected","color":"white"},{"text":"R.O.B.","color":"white"},{"text":"!","color":"white"}]
 
-tellraw @s[tag=default] [{"text":"Skin: ","color":"white"},{"text":"Default","color":"white"}]
-tellraw @s[tag=gold] [{"text":"Skin: ","color":"white"},{"text":"Gold","color":"gold"}]
-tellraw @s[tag=famicom] [{"text":"Skin: ","color":"white"},{"text":"Famicom","color":"red"}]
-tellraw @s[tag=ancientMinister] [{"text":"Skin: ","color":"white"},{"text":"Ancient Minister","color":"dark_green"}]
+tellraw @s[tag=default] [{"translate":"ssbrc.fighters.menu.skin","color":"white"},{"text":"Default","color":"white"}]
+tellraw @s[tag=gold] [{"translate":"ssbrc.fighters.menu.skin","color":"white"},{"text":"Gold","color":"gold"}]
+tellraw @s[tag=famicom] [{"translate":"ssbrc.fighters.menu.skin","color":"white"},{"text":"Famicom","color":"red"}]
+tellraw @s[tag=ancientMinister] [{"translate":"ssbrc.fighters.menu.skin","color":"white"},{"text":"Ancient Minister","color":"dark_green"}]
 
 function ssbrc:logic/resets/tags/characters
 tag @s add rob

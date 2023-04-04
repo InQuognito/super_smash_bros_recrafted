@@ -1,4 +1,4 @@
-tellraw @a[tag=room.characterSelect] [{"text":"Stock Limit","color":"yellow"},{"text":" set to "},{"text":"9","color":"blue"}]
+tellraw @a[tag=room.characterSelect] [{"translate":"ssbrc.options.gameMode.stockLimitTitle","color":"yellow"},{"text":"9","color":"blue"}]
 
 scoreboard players set $stockLimit options 9
 

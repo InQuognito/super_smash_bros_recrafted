@@ -1,10 +1,10 @@
 tag @s[tag=!gold,tag=!flowerPower] add default
 
-tellraw @s [{"text":"You have selected ","color":"white"},{"text":"Luigi","color":"dark_green"},{"text":"!","color":"white"}]
+tellraw @s [{"translate":"ssbrc.fighters.menu.selected","color":"white"},{"text":"Luigi","color":"dark_green"},{"text":"!","color":"white"}]
 
-tellraw @s[tag=default] [{"text":"Skin: ","color":"white"},{"text":"Default","color":"dark_green"}]
-tellraw @s[tag=gold] [{"text":"Skin: ","color":"white"},{"text":"Gold","color":"gold"}]
-tellraw @s[tag=flowerPower] [{"text":"Skin: ","color":"white"},{"text":"Flower Power","color":"aqua"}]
+tellraw @s[tag=default] [{"translate":"ssbrc.fighters.menu.skin","color":"white"},{"text":"Default","color":"dark_green"}]
+tellraw @s[tag=gold] [{"translate":"ssbrc.fighters.menu.skin","color":"white"},{"text":"Gold","color":"gold"}]
+tellraw @s[tag=flowerPower] [{"translate":"ssbrc.fighters.menu.skin","color":"white"},{"text":"Flower Power","color":"aqua"}]
 
 function ssbrc:logic/resets/tags/characters
 tag @s add luigi

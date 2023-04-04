@@ -1,4 +1,4 @@
-tellraw @a[tag=room.characterSelect] [{"text":"Time Limit","color":"yellow"},{"text":" set to "},{"text":"5 Minutes","color":"blue"}]
+tellraw @a[tag=room.characterSelect] [{"translate":"ssbrc.options.gameMode.timeLimitTitle","color":"yellow"},{"translate":"ssbrc.options.gameMode.timeLimit.5","color":"blue"}]
 
 scoreboard players set $timeLimit options 300
 
