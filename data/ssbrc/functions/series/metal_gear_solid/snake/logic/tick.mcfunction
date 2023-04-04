@@ -3,7 +3,7 @@ execute if entity @s[tag=!reloading,scores={useAbility=1..},nbt={SelectedItem:{t
 execute if entity @s[tag=!reloading,scores={useAbility=1..},nbt={SelectedItem:{tag:{s1000:1}}}] at @s run function ssbrc:series/metal_gear_solid/snake/logic/weapons/s1000/check
 execute if entity @s[tag=!reloading,scores={useAbility=1..},nbt={SelectedItem:{tag:{socom:1}}}] at @s run function ssbrc:series/metal_gear_solid/snake/logic/weapons/socom/check
 execute if entity @s[tag=!reloading,scores={useAbility=1..,snake.antiPersonnelMineA=1..},nbt={SelectedItem:{tag:{antiPersonnelMine:1}}}] unless score @s snake.antiPersonnelMineF matches 1.. at @s anchored eyes run function ssbrc:series/metal_gear_solid/snake/logic/weapons/anti_personnel_mine/activate
-execute if entity @s[tag=!reloading,scores={useAbility=1..},nbt={SelectedItem:{tag:{smokeGrenade:1}}}] unless score @s snake.smokeGrenadeF matches 1.. run function ssbrc:series/metal_gear_solid/snake/logic/weapons/smoke_grenade/check
+execute if entity @s[tag=!reloading,scores={useAbility=1..,snake.smokeGrenadeA=1..},nbt={SelectedItem:{tag:{smokeGrenade:1}}}] unless score @s snake.smokeGrenadeF matches 1.. at @s anchored eyes run function ssbrc:series/metal_gear_solid/snake/logic/weapons/smoke_grenade/activate
 
 # Glowing
 function ssbrc:series/metal_gear_solid/snake/logic/glowing
@@ -42,7 +42,7 @@ execute if entity @s[tag=reloading] run attribute @s minecraft:generic.movement_
 execute if entity @s[tag=!reloading,nbt={SelectedItem:{tag:{psg1:1}}},predicate=ssbrc:flag/sneaking] run attribute @s minecraft:generic.movement_speed modifier add 19192183-0000-0000-0001-000001000000 "zoom" -1.0 multiply_base
 
 # Smoke Grenade
-execute at @e[type=minecraft:marker,tag=smokeGrenade,tag=active,sort=nearest,limit=1] if entity @s[tag=nightVisionGoggles,distance=4.1..] run function ssbrc:series/metal_gear_solid/snake/logic/night_vision_goggles/deactivate
+execute at @e[type=minecraft:armor_stand,tag=smokeGrenade,sort=nearest,limit=1] if entity @s[tag=nightVisionGoggles,distance=4.1..] run function ssbrc:series/metal_gear_solid/snake/logic/night_vision_goggles/deactivate
 
 # Night Vision Goggles
 execute if entity @s[tag=nightVisionGoggles] run function ssbrc:series/metal_gear_solid/snake/logic/night_vision_goggles/clear_smoke_effects
