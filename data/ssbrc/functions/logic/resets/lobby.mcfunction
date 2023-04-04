@@ -1,4 +1,4 @@
-summon minecraft:text_display -524.5 6.75 55.5 {text:'{"text":"Welcome to","color":"yellow"}',billboard:center}
+summon minecraft:text_display -524.5 6.75 55.5 {text:'{"translate":"ssbrc.lobby.welcome","color":"yellow"}',billboard:center}
 summon minecraft:text_display -524.5 6.5 55.5 {text:'{"text":"Super Smash Bros. Re:Crafted!","bold":true,"color":"gold"}',billboard:center}
 
 summon minecraft:text_display -520.5 5.25 62.5 {text:'{"text":"✪ Shop ✪","color":"gold"}',billboard:center}
