@@ -81,10 +81,10 @@ execute if entity @e[type=#ssbrc:selectable,tag=spectator,dx=0,sort=nearest,limi
 
 execute if entity @e[type=#ssbrc:selectable,tag=sandbag,dx=0,sort=nearest,limit=1] positioned ~0.5 ~0.5 ~0.5 run particle minecraft:dust 0.0 1.0 0.0 1.0 ~ ~ ~ 0.2 0.2 0.2 0.0 3 normal @s
 
-execute if entity @s[tag=owned.normal] positioned ~0.5 ~0.5 ~0.5 run particle minecraft:dust 0.0 1.0 0.0 1.0 ~ ~0.75 ~ 0.2 0.4 0.2 0.0 5 normal @s
-execute if entity @s[tag=notOwned.normal] positioned ~0.5 ~0.5 ~0.5 run particle minecraft:dust 1.0 0.0 0.0 1.0 ~ ~0.75 ~ 0.2 0.4 0.2 0.0 5 normal @s
-execute if entity @s[tag=owned.small] positioned ~0.5 ~0.5 ~0.5 run particle minecraft:dust 0.0 1.0 0.0 1.0 ~ ~0.75 ~ 0.1 0.2 0.1 0.0 3 normal @s
-execute if entity @s[tag=notOwned.small] positioned ~0.5 ~0.5 ~0.5 run particle minecraft:dust 1.0 0.0 0.0 1.0 ~ ~0.75 ~ 0.1 0.2 0.1 0.0 3 normal @s
+execute if entity @s[tag=owned.normal] positioned ~0.5 ~0.5 ~0.5 run particle minecraft:dust 0.0 1.0 0.0 1.0 ~ ~ ~ 0.2 0.4 0.2 0.0 5 normal @s
+execute if entity @s[tag=notOwned.normal] positioned ~0.5 ~0.5 ~0.5 run particle minecraft:dust 1.0 0.0 0.0 1.0 ~ ~ ~ 0.2 0.4 0.2 0.0 5 normal @s
+execute if entity @s[tag=owned.small] positioned ~0.5 ~0.5 ~0.5 run particle minecraft:dust 0.0 1.0 0.0 1.0 ~ ~ ~ 0.1 0.2 0.1 0.0 3 normal @s
+execute if entity @s[tag=notOwned.small] positioned ~0.5 ~0.5 ~0.5 run particle minecraft:dust 1.0 0.0 0.0 1.0 ~ ~ ~ 0.1 0.2 0.1 0.0 3 normal @s
 
 tag @s remove owned.normal
 tag @s remove notOwned.normal
