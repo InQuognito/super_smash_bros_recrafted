@@ -123,14 +123,3 @@ summon minecraft:text_display 132.5 7.25 153.5 {Tags:["lobbyStand.label"],text:'
 summon minecraft:item_display 132.5 5.5 153.5 {Tags:["selectable","lobbyStand","spectator"]}
 
 execute as @e[tag=lobbyStand] at @s facing 138.5 6.0 173.0 run teleport @s ~ ~ ~ ~ ~
-execute as @e[predicate=ssbrc:lobby_stands] run data merge entity @s {Invisible:1b,Invulnerable:1b,NoBasePlate:1b,NoGravity:1b,DisabledSlots:4144959}
-
-scoreboard players set @e[predicate=ssbrc:lobby_stands] duration.1 1
-scoreboard players set @e[predicate=ssbrc:lobby_stands] duration.2 1
-scoreboard players set @e[predicate=ssbrc:lobby_stands] duration.3 1
-scoreboard players set @e[predicate=ssbrc:lobby_stands,tag=rob] charge.1 200
-execute as @e[predicate=ssbrc:lobby_stands] run function ssbrc:logic/characters/armor/get
-scoreboard players reset @e[predicate=ssbrc:lobby_stands,tag=rob] charge.1
-scoreboard players reset @e[predicate=ssbrc:lobby_stands] duration.1
-scoreboard players reset @e[predicate=ssbrc:lobby_stands] duration.2
-scoreboard players reset @e[predicate=ssbrc:lobby_stands] duration.3
