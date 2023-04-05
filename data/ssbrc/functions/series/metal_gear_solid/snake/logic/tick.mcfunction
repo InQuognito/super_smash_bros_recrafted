@@ -20,7 +20,7 @@ title @s[tag=!reloading,nbt={SelectedItem:{tag:{socom:1}}},scores={snake.socomM=
 title @s[tag=!reloading,nbt={SelectedItem:{tag:{socom:1}}},scores={snake.socomM=..0,snake.socomA=..0}] actionbar [{"text":"-","color":"red"},{"text":" | ","color":"white"},{"text":"-","color":"red"}]
 title @s[tag=!reloading,nbt={SelectedItem:{tag:{antiPersonnelMine:1}}},scores={snake.antiPersonnelMineA=0..}] actionbar {"score":{"name":"@s","objective":"snake.antiPersonnelMineA"},"color":"green"}
 title @s[tag=!reloading,nbt={SelectedItem:{tag:{smokeGrenade:1}}},scores={snake.smokeGrenadeA=0..}] actionbar {"score":{"name":"@s","objective":"snake.smokeGrenadeA"},"color":"green"}
-title @s[tag=reloading] actionbar [{"text":"Reloading...","color":"red"}]
+title @s[tag=reloading] actionbar [{"translate":"ssbrc.fighters.snake.reloading","color":"red"}]
 
 # Reload
 execute at @s[scores={snake.psg1R=1..}] run function ssbrc:series/metal_gear_solid/snake/logic/weapons/psg1/reload/tick
