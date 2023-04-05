@@ -79,7 +79,9 @@ execute if entity @s[advancements={ssbrc:series/the_legend_of_zelda/zelda/skins/
 
 execute if entity @e[type=minecraft:item_display,tag=spectate,dx=0,sort=nearest,limit=1] run tag @s add highlight.normal
 
-execute if entity @e[type=minecraft:item_display,tag=sandbag,dx=0,sort=nearest,limit=1] positioned ~0.5 ~0.5 ~0.5 run particle minecraft:dust 0.0 1.0 0.0 1.0 ~ ~ ~ 0.2 0.2 0.2 0.0 3 normal @s
+execute if entity @e[type=minecraft:item_display,tag=sandbag,dx=0,sort=nearest,limit=1] run tag @s add highlight.normal
+
+execute if entity @e[type=minecraft:item_display,tag=developer,dx=0,sort=nearest,limit=1] run tag @s add highlight.normal
 
 execute if entity @s[tag=highlight.normal] positioned ~0.5 ~0.5 ~0.5 run particle minecraft:dust 0.0 1.0 0.0 1.0 ~ ~ ~ 0.2 0.4 0.2 0.0 5 normal @s
 execute if entity @s[tag=highlight.unowned.normal] positioned ~0.5 ~0.5 ~0.5 run particle minecraft:dust 1.0 0.0 0.0 1.0 ~ ~ ~ 0.2 0.4 0.2 0.0 5 normal @s
