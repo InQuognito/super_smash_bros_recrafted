@@ -48,11 +48,11 @@ summon minecraft:item_display -543.5 -2.925 47.5 {Tags:["selectable","developer"
 summon minecraft:item_display -542.5 -3.5 45.5 {Rotation:[45f,0f],item:{id:"minecraft:sugar",tag:{CustomModelData:1019},Count:1b}}
 
 # Testers
-summon minecraft:text_display -534.5 -1.75 60.9 {text:'{"translate":"ssbrc.credits.testers","bold":true,"color":"gold"}',Rotation:[180f,0f]}
+summon minecraft:text_display -534.5 -1.75 60.9 {text:'{"translate":"ssbrc.credits.testers","bold":true,"color":"yellow"}',background:0,Rotation:[180f,0f],brightness:{sky:15,block:15}}
 
 summon minecraft:text_display -534.5 -3.75 60.9 {text:'[{"text":"3DSCarnaje","color":"white"},{"text":"\\n"},{"text":"AndrewAwesome87","color":"white"},{"text":"\\n"},{"text":"JediMasterHomer","color":"white"},{"text":"\\n"},{"text":"MysticGamer123","color":"white"},{"text":"\\n"},{"text":"NintenDOPE1985","color":"white"},{"text":"\\n"},{"text":"P5eudonym","color":"white"}]',background:0,Rotation:[180f,0f],brightness:{sky:15,block:15}}
 
 # Special Thanks
-summon minecraft:text_display -534.5 -1.75 50.1 {text:'{"translate":"ssbrc.credits.specialThanks","bold":true,"color":"gold"}'}
+summon minecraft:text_display -534.5 -1.75 50.1 {text:'{"translate":"ssbrc.credits.specialThanks","bold":true,"color":"yellow"}',background:0,brightness:{sky:15,block:15}}
 
 summon minecraft:text_display -534.5 -4.5 50.1 {text:'[{"text":"Minecraft Commands Discord","color":"white"},{"text":"\\n"},{"text":"ComicalFont","color":"white"},{"text":"\\n"},{"text":"K_A_N_K","color":"white"},{"text":"\\n"},{"text":"LIL_BOI_BLU","color":"white"},{"text":"\\n"},{"text":"Mongoose1716","color":"white"},{"text":"\\n"},{"text":"Siestadev","color":"white"},{"text":"\\n"},{"text":"Simplly","color":"white"},{"text":"\\n"},{"text":"Sushironi","color":"white"},{"text":"\\n"},{"text":"YaBoiDenver","color":"white"}]',background:0,brightness:{sky:15,block:15}}
