@@ -50,7 +50,7 @@ summon minecraft:item_display -542.5 -3.5 45.5 {Rotation:[45f,0f],item:{id:"mine
 # Testers
 summon minecraft:text_display -534.5 -1.75 60.5 {text:'{"translate":"ssbrc.credits.testers","bold":true,"color":"gold"}',billboard:center}
 
-summon minecraft:text_display -534.5 -3.0 60.9 {text:'[{"text":"3DSCarnaje","color":"white"},{"text":" | ","color":"yellow"},{"text":"AndrewAwesome87","color":"white"},{"text":" | ","color":"yellow"},{"text":"JediMasterHomer","color":"white"},{"text":" | ","color":"yellow"},{"text":"MysticGamer123","color":"white"},{"text":" | ","color":"yellow"},{"text":"NintenDOPE1985","color":"white"},{"text":" | ","color":"yellow"},{"text":"P5eudonym","color":"white"}]',background:0,Rotation:[180f,0f]}
+summon minecraft:text_display -534.5 -3.0 60.9 {text:'[{"text":"3DSCarnaje","color":"white"},{"text":"\\n"},{"text":" | ","color":"yellow"},{"text":"AndrewAwesome87","color":"white"},{"text":" | ","color":"yellow"},{"text":"JediMasterHomer","color":"white"},{"text":" | ","color":"yellow"},{"text":"MysticGamer123","color":"white"},{"text":" | ","color":"yellow"},{"text":"NintenDOPE1985","color":"white"},{"text":" | ","color":"yellow"},{"text":"P5eudonym","color":"white"}]',background:0,Rotation:[180f,0f]}
 
 # Special Thanks
 summon minecraft:text_display -534.5 -1.75 50.5 {text:'{"translate":"ssbrc.credits.specialThanks","bold":true,"color":"gold"}',billboard:center}
