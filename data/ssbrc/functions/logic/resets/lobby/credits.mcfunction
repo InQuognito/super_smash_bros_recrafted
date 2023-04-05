@@ -1,10 +1,10 @@
 # Project Leads
 summon minecraft:text_display -556.5 -1.75 57.5 {Tags:["creditsText"],text:'{"text":"NessisPSIRockin","bold":true,"color":"white"}',billboard:center}
-summon minecraft:text_display -556.5 -1.5 57.5 {text:'{"translate":"ssbrc.credits.nessispsirockinRole","bold":true,"color":"dark_purple"}',billboard:center}
+summon minecraft:text_display -556.5 -1.5 57.5 {Tags:["creditsText"],text:'{"translate":"ssbrc.credits.nessispsirockinRole","bold":true,"color":"dark_purple"}',billboard:center}
 summon minecraft:item_display -556.5 -2.925 57.5 {Tags:["selectable","developer","nessispsirockin"],item:{id:"minecraft:stick",tag:{CustomModelData:1000000},Count:1b},Rotation:[90f,0f]}
 
 summon minecraft:text_display -556.5 -1.75 53.5 {Tags:["creditsText"],text:'{"text":"InQuognito","bold":true,"color":"white"}',billboard:center}
-summon minecraft:text_display -556.5 -1.5 53.5 {text:'{"translate":"ssbrc.credits.inquognitoRole","bold":true,"color":"green"}',billboard:center}
+summon minecraft:text_display -556.5 -1.5 53.5 {Tags:["creditsText"],text:'{"translate":"ssbrc.credits.inquognitoRole","bold":true,"color":"green"}',billboard:center}
 summon minecraft:item_display -556.5 -2.925 53.5 {Tags:["selectable","developer","inquognito"],item:{id:"minecraft:stick",tag:{CustomModelData:1000001},Count:1b},Rotation:[90f,0f]}
 
 # Building Team
