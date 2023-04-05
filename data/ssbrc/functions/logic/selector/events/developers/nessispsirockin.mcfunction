@@ -1,1 +1,1 @@
-tellraw @s {"translate":"ssbrc.lobby.credits.developerBio.nessispsirockin"}
+tellraw @s {"translate":"ssbrc.lobby.credits.developerBio.nessispsirockin","color":"white"}
