@@ -31,6 +31,9 @@ execute if entity @a[gamemode=!spectator,x=-555.0,y=-5.0,z=50.0,dx=17,dy=4,dz=10
 execute unless entity @a[gamemode=!spectator,x=-555.0,y=-5.0,z=50.0,dx=20,dy=4,dz=10] positioned -549.5 -3.5 46.5 if block ~ ~ ~ minecraft:light[level=15] run fill ~ ~ ~ ~ ~ ~6 minecraft:light[level=0]
 execute if entity @a[gamemode=!spectator,x=-555.0,y=-5.0,z=50.0,dx=20,dy=4,dz=10] positioned -549.5 -3.5 46.5 if block ~ ~ ~ minecraft:light[level=0] run fill ~ ~ ~ ~ ~ ~6 minecraft:light[level=15]
 
+execute unless entity @a[gamemode=!spectator,x=-555.0,y=-5.0,z=50.0,dx=20,dy=4,dz=10] positioned -550.5 -3.5 63.5 if block ~ ~ ~ minecraft:light[level=15] run fill ~ ~ ~ ~ ~ ~8 minecraft:light[level=0]
+execute if entity @a[gamemode=!spectator,x=-555.0,y=-5.0,z=50.0,dx=20,dy=4,dz=10] positioned -550.5 -3.5 63.5 if block ~ ~ ~ minecraft:light[level=0] run fill ~ ~ ~ ~ ~ ~8 minecraft:light[level=15]
+
 execute unless entity @a[gamemode=!spectator,x=-555.0,y=-5.0,z=50.0,dx=17,dy=4,dz=10] positioned -557.5 -3.5 53.5 if block ~ ~ ~ minecraft:light[level=15] run fill ~ ~ ~ ~ ~ ~4 minecraft:light[level=0]
 execute if entity @a[gamemode=!spectator,x=-555.0,y=-5.0,z=50.0,dx=17,dy=4,dz=10] positioned -557.5 -3.5 53.5 if block ~ ~ ~ minecraft:light[level=0] run fill ~ ~ ~ ~ ~ ~4 minecraft:light[level=15]
 
