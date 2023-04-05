@@ -1,15 +1,17 @@
-execute if entity @p[gamemode=!spectator,distance=..3] run data merge entity @s {brightness:{sky:15,block:15}}
-execute if entity @p[gamemode=!spectator,distance=3.1..3.5] run data merge entity @s {brightness:{sky:14,block:14}}
-execute if entity @p[gamemode=!spectator,distance=3.6..4] run data merge entity @s {brightness:{sky:13,block:13}}
-execute if entity @p[gamemode=!spectator,distance=4.1..4.5] run data merge entity @s {brightness:{sky:12,block:12}}
-execute if entity @p[gamemode=!spectator,distance=4.6..5] run data merge entity @s {brightness:{sky:11,block:11}}
-execute if entity @p[gamemode=!spectator,distance=5.1..5.5] run data merge entity @s {brightness:{sky:10,block:10}}
-execute if entity @p[gamemode=!spectator,distance=5.6..6] run data merge entity @s {brightness:{sky:9,block:9}}
-execute if entity @p[gamemode=!spectator,distance=6.1..6.5] run data merge entity @s {brightness:{sky:8,block:8}}
-execute if entity @p[gamemode=!spectator,distance=6.6..7] run data merge entity @s {brightness:{sky:7,block:7}}
-execute if entity @p[gamemode=!spectator,distance=7.1..7.5] run data merge entity @s {brightness:{sky:6,block:6}}
-execute if entity @p[gamemode=!spectator,distance=7.6..8] run data merge entity @s {brightness:{sky:5,block:5}}
-execute if entity @p[gamemode=!spectator,distance=8.1..8.5] run data merge entity @s {brightness:{sky:4,block:4}}
-execute if entity @p[gamemode=!spectator,distance=8.6..9] run data merge entity @s {brightness:{sky:3,block:3}}
-execute if entity @p[gamemode=!spectator,distance=9.1..9.5] run data merge entity @s {brightness:{sky:2,block:2}}
-execute if entity @p[gamemode=!spectator,distance=9.6..] run data merge entity @s {brightness:{sky:1,block:1}}
+tag @p add brightnessCheck
+execute if entity @p[tag=brightnessCheck,distance=9.51..] run data merge entity @s {brightness:{sky:1,block:1}}
+execute if entity @p[tag=brightnessCheck,distance=..9.5] run data merge entity @s {brightness:{sky:2,block:2}}
+execute if entity @p[tag=brightnessCheck,distance=..9] run data merge entity @s {brightness:{sky:3,block:3}}
+execute if entity @p[tag=brightnessCheck,distance=..8.5] run data merge entity @s {brightness:{sky:4,block:4}}
+execute if entity @p[tag=brightnessCheck,distance=..8] run data merge entity @s {brightness:{sky:5,block:5}}
+execute if entity @p[tag=brightnessCheck,distance=..7.5] run data merge entity @s {brightness:{sky:6,block:6}}
+execute if entity @p[tag=brightnessCheck,distance=..7] run data merge entity @s {brightness:{sky:7,block:7}}
+execute if entity @p[tag=brightnessCheck,distance=..6.5] run data merge entity @s {brightness:{sky:8,block:8}}
+execute if entity @p[tag=brightnessCheck,distance=..6] run data merge entity @s {brightness:{sky:9,block:9}}
+execute if entity @p[tag=brightnessCheck,distance=..5.5] run data merge entity @s {brightness:{sky:10,block:10}}
+execute if entity @p[tag=brightnessCheck,distance=..5] run data merge entity @s {brightness:{sky:11,block:11}}
+execute if entity @p[tag=brightnessCheck,distance=..4.5] run data merge entity @s {brightness:{sky:12,block:12}}
+execute if entity @p[tag=brightnessCheck,distance=..4] run data merge entity @s {brightness:{sky:13,block:13}}
+execute if entity @p[tag=brightnessCheck,distance=..3.5] run data merge entity @s {brightness:{sky:14,block:14}}
+execute if entity @p[tag=brightnessCheck,distance=..3] run data merge entity @s {brightness:{sky:15,block:15}}
+tag @a remove brightnessCheck
