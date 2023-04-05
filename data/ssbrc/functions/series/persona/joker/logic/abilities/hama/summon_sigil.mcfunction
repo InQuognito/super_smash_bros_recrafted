@@ -1,4 +1,4 @@
-summon minecraft:item_display ~ ~0.5 ~ {Tags:["hama.display","modifyEntity"],item:{id:"minecraft:glowstone_dust",tag:{CustomModelData:600},Count:1b},transformation:[2.0f,0.0f,0.0f,0.0f,0.0f,0.0f,-1.0f,-0.5f,0.0f,2.0f,0.0f,0.0f,0.0f,0.0f,0.0f,1.0f]}
+summon minecraft:item_display ~ ~ ~ {Tags:["hama.display","modifyEntity"],item:{id:"minecraft:glowstone_dust",tag:{CustomModelData:600},Count:1b},transformation:[2.0f,0.0f,0.0f,0.0f,0.0f,0.0f,-1.0f,-0.5f,0.0f,2.0f,0.0f,0.0f,0.0f,0.0f,0.0f,1.0f]}
 
 scoreboard players operation @e[tag=modifyEntity,limit=1] id = @s id
 
