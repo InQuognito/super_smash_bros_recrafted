@@ -77,10 +77,10 @@ execute if entity @s[advancements={ssbrc:series/retro_fighters/yar/skins/default
 execute if entity @s[advancements={ssbrc:series/the_legend_of_zelda/zelda/skins/default=true}] if entity @e[type=minecraft:item_display,tag=zelda,dx=0,sort=nearest,limit=1] run function ssbrc:series/the_legend_of_zelda/zelda/menu/prompt
 execute if entity @s[advancements={ssbrc:series/the_legend_of_zelda/zelda/skins/default=false}] if entity @e[type=minecraft:item_display,tag=zelda,dx=0,sort=nearest,limit=1] run function ssbrc:logic/selector/unowned
 
-execute if entity @e[type=minecraft:item_display,tag=spectator,dx=0,sort=nearest,limit=1] run function ssbrc:logic/spectate
+execute if entity @e[type=minecraft:item_display,tag=spectate,dx=0,sort=nearest,limit=1] run function ssbrc:logic/spectate
 
 execute if entity @e[type=minecraft:item_display,tag=sandbag,dx=0,sort=nearest,limit=1] run function ssbrc:logic/sandbag/interact
 
 scoreboard players reset @s useAbility
 
-execute if entity @e[type=minecraft:armor_stand,dx=0,sort=nearest,limit=1] run advancement grant @s[advancements={ssbrc:tutorial/intro/3=true,ssbrc:tutorial/fighter_select/2=false}] only ssbrc:tutorial/fighter_select/2
+execute if entity @e[type=minecraft:item_display,dx=0,sort=nearest,limit=1] run advancement grant @s[advancements={ssbrc:tutorial/intro/3=true,ssbrc:tutorial/fighter_select/2=false}] only ssbrc:tutorial/fighter_select/2
