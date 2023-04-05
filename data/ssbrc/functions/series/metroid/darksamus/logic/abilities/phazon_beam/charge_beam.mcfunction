@@ -10,11 +10,9 @@ execute if score $darksamus.chargeBeamPercent temp matches 100.. run function ss
 scoreboard players operation @e[tag=modifyEntity,limit=1] charge.1 = $darksamus.chargeBeamPercent temp
 
 scoreboard players operation @e[tag=modifyEntity,limit=1] id = @s id
-data modify entity @e[tag=modifyEntity,limit=1] Owner set from entity @s UUID
-data modify entity @e[tag=modifyEntity,limit=1] Motion set from entity @e[tag=direction,limit=1] Pos
+data modify entity @e[tag=modifyEntity,limit=1] Rotation set from entity @s Rotation
 
 tag @e[tag=modifyEntity,limit=1] remove modifyEntity
-kill @e[tag=direction,limit=1]
 
 item modify entity @s weapon.mainhand ssbrc:characters/darksamus/phazon_beam
 

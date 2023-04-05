@@ -6,7 +6,7 @@ execute as @e[type=minecraft:marker,tag=bladeBeam] at @s if score @s id = @p[tag
 execute as @e[type=minecraft:marker,tag=crossSlash] at @s if score @s id = @p[tag=self] id run function ssbrc:series/final_fantasy/cloud/logic/cross_slash/tick
 
 # Dark Samus
-execute as @e[type=minecraft:arrow,tag=phazonBeam] at @s if score @s id = @p[tag=self] id run function ssbrc:series/metroid/darksamus/logic/abilities/phazon_beam/tick
+execute as @e[type=minecraft:marker,tag=phazonBeam] at @s if score @s id = @p[tag=self] id run function ssbrc:series/metroid/darksamus/logic/abilities/phazon_beam/tick
 execute as @e[type=minecraft:area_effect_cloud,tag=phazonPool] at @s if score @s id = @p[tag=self] id run function ssbrc:series/metroid/darksamus/logic/abilities/phazon_spike/tick_pool
 execute as @e[type=minecraft:item_frame,tag=phazonSpike] at @s if score @s id = @p[tag=self] id run function ssbrc:series/metroid/darksamus/logic/abilities/phazon_spike/tick_spike
 

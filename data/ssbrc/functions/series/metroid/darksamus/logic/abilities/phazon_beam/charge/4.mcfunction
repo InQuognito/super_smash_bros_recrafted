@@ -1,5 +1,3 @@
-execute positioned 0.0 0.0 0.0 run summon minecraft:marker ^ ^ ^2.75 {Tags:["direction"]}
-
-summon minecraft:arrow ^ ^ ^1 {damage:2.5,Tags:["phazonBeam","effect.poison","modifyEntity"],NoGravity:1b}
+summon minecraft:marker ^ ^ ^1 {Tags:["phazonBeam","4","modifyEntity"]}
 
 playsound ssbrc:fighters.darksamus.phazon_beam.activate.4 player @a

@@ -3,11 +3,9 @@ function ssbrc:series/metroid/darksamus/logic/abilities/phazon_beam/charge/1
 scoreboard players set @e[tag=modifyEntity,limit=1] charge.1 0
 
 scoreboard players operation @e[tag=modifyEntity,limit=1] id = @s id
-data modify entity @e[tag=modifyEntity,limit=1] Owner set from entity @s UUID
-data modify entity @e[tag=modifyEntity,limit=1] Motion set from entity @e[tag=direction,limit=1] Pos
+data modify entity @e[tag=modifyEntity,limit=1] Rotation set from entity @s Rotation
 
 tag @e[tag=modifyEntity,limit=1] remove modifyEntity
-kill @e[tag=direction,limit=1]
 
 item modify entity @s weapon.mainhand ssbrc:characters/darksamus/phazon_beam
 
