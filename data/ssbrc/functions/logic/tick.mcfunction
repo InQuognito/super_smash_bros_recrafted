@@ -1,9 +1,12 @@
 execute as @a[gamemode=adventure] run function ssbrc:logic/tick/players
 
+function ssbrc:logic/tick/lobby/credits
+
 # Chest UIs
 function ssbrc:shop/tick
 function ssbrc:logic/pre_game/map_voting/stage_index/tick
 
+# Tick During Certain Game Stages
 execute unless score gameStage temp matches 2.. as @a run function ssbrc:logic/tick/triggers/lobby
 execute if score gameStage temp matches 3 run function ssbrc:logic/tick/countdown
 execute if score gameStage temp matches 4 run function ssbrc:logic/tick/ingame
