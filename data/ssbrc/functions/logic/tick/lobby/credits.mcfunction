@@ -24,8 +24,8 @@ execute unless entity @a[gamemode=!spectator,x=-555.0,y=-5.0,z=50.0,dx=19,dy=4,d
 execute if entity @a[gamemode=!spectator,x=-555.0,y=-5.0,z=50.0,dx=19,dy=4,dz=10] positioned -548.5 0.5 53.5 if block ~ ~ ~ minecraft:redstone_lamp[lit=false] run setblock ~ ~ ~ minecraft:redstone_lamp[lit=true]
 execute if entity @a[gamemode=!spectator,x=-555.0,y=-5.0,z=50.0,dx=19,dy=4,dz=10] positioned -548.5 0.5 57.5 if block ~ ~ ~ minecraft:redstone_lamp[lit=false] run setblock ~ ~ ~ minecraft:redstone_lamp[lit=true]
 
-execute unless entity @a[gamemode=!spectator,x=-555.0,y=-5.0,z=50.0,dx=17,dy=4,dz=10] positioned -557.5 1 55 if block ~ ~ ~ minecraft:redstone_lamp[lit=true] run setblock ~ ~ ~ minecraft:redstone_lamp[lit=false]
-execute if entity @a[gamemode=!spectator,x=-555.0,y=-5.0,z=50.0,dx=17,dy=4,dz=10] positioned -557.5 1 55 if block ~ ~ ~ minecraft:redstone_lamp[lit=false] run setblock ~ ~ ~ minecraft:redstone_lamp[lit=true]
+execute unless entity @a[gamemode=!spectator,x=-555.0,y=-5.0,z=50.0,dx=17,dy=4,dz=10] positioned -556.5 1.5 55 if block ~ ~ ~ minecraft:redstone_lamp[lit=true] run setblock ~ ~ ~ minecraft:redstone_lamp[lit=false]
+execute if entity @a[gamemode=!spectator,x=-555.0,y=-5.0,z=50.0,dx=17,dy=4,dz=10] positioned -556.5 1.5 55 if block ~ ~ ~ minecraft:redstone_lamp[lit=false] run setblock ~ ~ ~ minecraft:redstone_lamp[lit=true]
 
 # Other Lights
 execute unless entity @a[gamemode=!spectator,x=-555.0,y=-5.0,z=50.0,dx=20,dy=4,dz=10] positioned -549.5 -3.5 46.5 if block ~ ~ ~ minecraft:light[level=15] run fill ~ ~ ~ ~6 ~ ~ minecraft:light[level=0]
