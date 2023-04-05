@@ -13,7 +13,7 @@ loot replace entity @s[tag=lordsOfShadow,tag=bloodMetamorphosis,nbt={SelectedIte
 execute unless score @s duration.1 matches 1.. run loot give @s[nbt=!{Inventory:[{tag:{holyWater:1}}]},scores={cooldown.2=..0}] loot ssbrc:characters/castlevania/alucard/holy_water
 
 # Mist
-execute if score @s duration.1 matches 1.. run function ssbrc:series/castlevania/alucard/logic/abilities/mist/tick
+execute if score @s duration.1 matches 2.. run function ssbrc:series/castlevania/alucard/logic/abilities/mist/tick
 execute if score @s duration.1 matches 1 run function ssbrc:series/castlevania/alucard/logic/abilities/mist/off
 
 # Particles

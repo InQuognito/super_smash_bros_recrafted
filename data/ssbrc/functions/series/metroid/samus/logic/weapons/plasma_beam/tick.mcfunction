@@ -1,5 +1,6 @@
-particle minecraft:dust 0.58 0.09 0.04 3.0 ^ ^ ^ 0.0 0.0 0.0 0.5 5 normal @a
+particle minecraft:dust_color_transition 0.75 0.0 0.0 3.0 1.0 0.9 0.9 ~ ~ ~ 0.0 0.0 0.0 0.0 5 normal @a
+
+execute unless block ~ ~ ~ #ssbrc:passthrough run kill @s
 
 scoreboard players add @s temp 1
 kill @s[scores={temp=50..}]
-execute unless block ^ ^ ^0.1 #ssbrc:passthrough run kill @s

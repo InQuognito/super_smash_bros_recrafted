@@ -1,6 +1,6 @@
 execute as @e[tag=!self,predicate=ssbrc:flag/targets,distance=0.1..2.0] run damage @s 24.0 ssbrc:projectile by @p[tag=self]
 
-attribute @s generic.knockback_resistance base set 0.0
+function ssbrc:logic/characters/attributes/defaults/knockback_resistance
 
 summon minecraft:armor_stand ~ ~ ~ {Tags:["chaosBlast","modifyEntity"],Invisible:1b,Invulnerable:1b,Rotation:[0f,0f]}
 

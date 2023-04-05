@@ -13,7 +13,7 @@ loot replace entity @s[tag=archangel] hotbar.2 loot ssbrc:characters/persona/jok
 loot replace entity @s[tag=arsene] hotbar.2 loot ssbrc:characters/persona/joker/eiagon
 loot replace entity @s[tag=highPixie] hotbar.2 loot ssbrc:characters/persona/joker/amrita_shower
 loot replace entity @s[tag=raoul] hotbar.2 loot ssbrc:characters/persona/joker/phantom_show
-attribute @s[tag=yatagarasu] minecraft:generic.knockback_resistance base set 0.25
+execute if entity @s[tag=yatagarasu] run function ssbrc:logic/characters/attributes/defaults/knockback_resistance
 
 function ssbrc:logic/characters/armor/update
 

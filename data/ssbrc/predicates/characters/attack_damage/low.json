@@ -5,6 +5,10 @@
 		"terms": [
 			{
 				"condition": "minecraft:reference",
+				"name": "ssbrc:characters/attack_damage/none"
+			},
+			{
+				"condition": "minecraft:reference",
 				"name": "ssbrc:characters/attack_damage/medium"
 			},
 			{

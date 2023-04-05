@@ -6,17 +6,18 @@ attribute @s[predicate=ssbrc:characters/armor_values/moderate] minecraft:generic
 attribute @s[predicate=ssbrc:characters/armor_values/medium] minecraft:generic.armor base set 14.0
 
 # Attack Damage
+attribute @s[predicate=ssbrc:characters/attack_damage/none] minecraft:generic.attack_damage base set 0.0
 attribute @s[predicate=ssbrc:characters/attack_damage/low] minecraft:generic.attack_damage base set 1.0
 attribute @s[predicate=ssbrc:characters/attack_damage/medium] minecraft:generic.attack_damage base set 1.5
 attribute @s[predicate=ssbrc:characters/attack_damage/high] minecraft:generic.attack_damage base set 2.0
 
 # Attack Speed
+attribute @s[predicate=ssbrc:characters/attack_speed/none] minecraft:generic.attack_speed base set 0.0
 attribute @s[predicate=ssbrc:characters/attack_speed/low] minecraft:generic.attack_speed base set 1.0
 attribute @s[predicate=ssbrc:characters/attack_speed/medium] minecraft:generic.attack_speed base set 2.0
 
 # Knockback Resistance
-attribute @s[predicate=ssbrc:characters/knockback_resistance/none] minecraft:generic.knockback_resistance base set 0.0
-attribute @s[predicate=ssbrc:characters/knockback_resistance/medium] minecraft:generic.knockback_resistance base set 0.4
+function ssbrc:logic/characters/attributes/defaults/knockback_resistance
 
 # Max Health
 attribute @s[predicate=ssbrc:characters/max_health/low] minecraft:generic.max_health base set 32.0

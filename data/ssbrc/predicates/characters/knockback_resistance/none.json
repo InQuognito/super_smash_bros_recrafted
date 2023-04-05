@@ -5,7 +5,15 @@
 		"terms": [
 			{
 				"condition": "minecraft:reference",
+				"name": "ssbrc:characters/knockback_resistance/low"
+			},
+			{
+				"condition": "minecraft:reference",
 				"name": "ssbrc:characters/knockback_resistance/medium"
+			},
+			{
+				"condition": "minecraft:reference",
+				"name": "ssbrc:characters/knockback_resistance/full"
 			}
 		]
 	}

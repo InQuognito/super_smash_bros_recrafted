@@ -7,15 +7,12 @@ execute if entity @s[nbt=!{Inventory:[{tag:{alucardShield:1}}]}] run tag @s add 
 function ssbrc:series/castlevania/alucard/logic/abilities/mist/check_shield_durability
 clear @s
 
-attribute @s minecraft:generic.attack_damage base set 0.0
-attribute @s minecraft:generic.attack_speed base set 0.0
-
 effect clear @s minecraft:glowing
 effect give @s minecraft:invisibility infinite 0 true
 effect give @s minecraft:levitation infinite 0 true
 effect give @s minecraft:resistance infinite 255 true
 
-attribute @s minecraft:generic.knockback_resistance base set 1.0
+function ssbrc:logic/characters/attributes/defaults
 
 scoreboard players set @s cooldown.1 300
 execute if score @s shadow.chaosControl matches 1.. run function ssbrc:logic/characters/cooldown_modifiers/chaos_control/1
