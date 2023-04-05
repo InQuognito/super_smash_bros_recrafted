@@ -1,6 +1,7 @@
 summon minecraft:marker ^ ^ ^1 {Tags:["powerBeam","modifyEntity"]}
 
 scoreboard players operation @e[tag=modifyEntity,limit=1] id = @s id
+data modify entity @e[tag=modifyEntity,limit=1] Rotation set from entity @s Rotation
 
 tag @e[tag=modifyEntity,limit=1] remove modifyEntity
 
