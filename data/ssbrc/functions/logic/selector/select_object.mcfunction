@@ -89,7 +89,7 @@ execute if entity @e[type=minecraft:item_display,tag=sugarshrimp,dx=0,sort=neare
 execute if entity @e[type=minecraft:item_display,tag=homegaddielmc,dx=0,sort=nearest,limit=1] run function ssbrc:logic/selector/events/developers/homegaddielmc
 execute if entity @e[type=minecraft:item_display,tag=pxlsamosa,dx=0,sort=nearest,limit=1] run function ssbrc:logic/selector/events/developers/pxlsamosa
 execute if entity @e[type=minecraft:item_display,tag=thxlotl,dx=0,sort=nearest,limit=1] run function ssbrc:logic/selector/events/developers/thxlotl
-execute if entity @e[type=minecraft:item_display,tag=peteerrosh,dx=0,sort=nearest,limit=1] run function ssbrc:logic/selector/events/developers/petterrosh
+execute if entity @e[type=minecraft:item_display,tag=peteerrosh,dx=0,sort=nearest,limit=1] run function ssbrc:logic/selector/events/developers/peteerrosh
 execute if entity @e[type=minecraft:item_display,tag=davidtippy,dx=0,sort=nearest,limit=1] run function ssbrc:logic/selector/events/developers/davidtippy
 execute if entity @e[type=minecraft:item_display,tag=ricardo64,dx=0,sort=nearest,limit=1] run function ssbrc:logic/selector/events/developers/ricardo64
 execute if entity @e[type=minecraft:item_display,tag=pastapower2k64,dx=0,sort=nearest,limit=1] run function ssbrc:logic/selector/events/developers/pastapower2k64
