@@ -79,8 +79,11 @@ execute if entity @s[advancements={ssbrc:series/the_legend_of_zelda/zelda/skins/
 
 execute if entity @e[type=minecraft:item_display,tag=spectate,dx=0,sort=nearest,limit=1] run function ssbrc:logic/spectate
 
-execute if entity @e[type=minecraft:item_display,tag=sandbag,dx=0,sort=nearest,limit=1] run function ssbrc:logic/sandbag/interact
+execute if entity @e[type=minecraft:item_display,tag=sandbag,dx=0,sort=nearest,limit=1] run function ssbrc:logic/selector/events/sandbag/interact
+
+execute if entity @e[type=minecraft:item_display,tag=nessispsirockin,dx=0,sort=nearest,limit=1] run function ssbrc:logic/selector/events/developers/nessispsirockin
+execute if entity @e[type=minecraft:item_display,tag=inquognito,dx=0,sort=nearest,limit=1] run function ssbrc:logic/selector/events/developers/inquognito
 
 scoreboard players reset @s useAbility
 
-execute if entity @e[type=minecraft:item_display,dx=0,sort=nearest,limit=1] run advancement grant @s[advancements={ssbrc:tutorial/intro/3=true,ssbrc:tutorial/fighter_select/2=false}] only ssbrc:tutorial/fighter_select/2
+execute if entity @e[type=minecraft:item_display,tag=lobbyStand,dx=0,sort=nearest,limit=1] run advancement grant @s[advancements={ssbrc:tutorial/intro/3=true,ssbrc:tutorial/fighter_select/2=false}] only ssbrc:tutorial/fighter_select/2
