@@ -75,6 +75,7 @@ scoreboard objectives remove rotationX
 scoreboard objectives remove rotationX.prev
 scoreboard objectives remove rotationY
 scoreboard objectives remove rotationY.prev
+scoreboard objectives remove sandbag.standOn
 scoreboard objectives remove selectItem
 scoreboard objectives remove shadow.chaosControl
 scoreboard objectives remove shadow.meter.hero
