@@ -1,2 +1,2 @@
 scoreboard players set $rayLength temp 360
-function ssbrc:series/pokemon/pikachu/logic/abilities/electric_terrain/raycast/loop
+function ssbrc:series/the_legend_of_zelda/link/logic/abilities/sword_spin/raycast/loop
