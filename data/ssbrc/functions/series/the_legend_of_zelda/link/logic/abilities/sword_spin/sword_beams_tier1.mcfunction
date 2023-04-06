@@ -2,4 +2,4 @@ execute rotated -90.0 0.0 run function ssbrc:series/the_legend_of_zelda/link/log
 execute rotated 0.0 0.0 run function ssbrc:series/the_legend_of_zelda/link/logic/abilities/sword_beam/summon
 execute rotated 90.0 0.0 run function ssbrc:series/the_legend_of_zelda/link/logic/abilities/sword_beam/summon
 execute rotated 180.0 0.0 run function ssbrc:series/the_legend_of_zelda/link/logic/abilities/sword_beam/summon
-tag @e[tag=swordBeam] add link.miniBeam
+tag @e[tag=swordBeam,tag=!link.miniBeam,sort=nearest,limit=4] add link.miniBeam
