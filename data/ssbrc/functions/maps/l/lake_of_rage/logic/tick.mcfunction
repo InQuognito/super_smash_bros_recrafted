@@ -2,6 +2,7 @@ execute if score $hazards options matches 1 unless score #gyarados temp matches 
 
 execute if score #gyarados temp matches 1 as @e[type=minecraft:armor_stand,tag=gyarados] at @s run function ssbrc:maps/l/lake_of_rage/logic/hazards/gyarados/tick
 
+execute as @e[type=minecraft:armor_stand,tag=lapras] at @s run function ssbrc:maps/l/lake_of_rage/logic/pokemon/lapras/tick
 execute as @e[type=minecraft:armor_stand,tag=gastly] at @s run function ssbrc:maps/l/lake_of_rage/logic/pokemon/gastly/move
 
 kill @e[predicate=ssbrc:killbox_vulnerable,x=2533.0,y=6.0,z=3999.0,dx=0,dy=21,dz=8]

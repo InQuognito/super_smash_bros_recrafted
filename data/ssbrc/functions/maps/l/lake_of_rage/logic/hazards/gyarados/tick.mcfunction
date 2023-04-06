@@ -13,8 +13,8 @@ execute if score @s temp matches 251 facing entity @r[predicate=ssbrc:flag/playe
 execute if score @s temp matches 252..280 positioned ^ ^3 ^6 run particle minecraft:dust_color_transition 1.0 0.75 0.0 5.0 1.0 1.0 1.0 ~ ~ ~ 0.0 0.0 0.0 0.5 1 normal @a
 execute if score @s temp matches 281..330 positioned ^ ^3 ^6 run function ssbrc:maps/l/lake_of_rage/logic/hazards/gyarados/hyper_beam/raycast/start
 
-execute if score @s temp matches 331 run teleport @s ~ ~ ~ 30.0 0.0
-execute if score @s temp matches 332..430 run teleport @s ^ ^ ^0.25
-execute if score @s temp matches 431..480 run teleport @s ^ ^ ^0.25 ~3 ~
-execute if score @s temp matches 481..580 run teleport @s ^ ^ ^0.25 ~ ~
-execute if score @s temp matches 581 run function ssbrc:maps/l/lake_of_rage/logic/hazards/gyarados/deactivate
+execute if score @s temp matches 371 run teleport @s ~ ~ ~ 30.0 0.0
+execute if score @s temp matches 372..470 run teleport @s ^ ^ ^0.25
+execute if score @s temp matches 471..520 run teleport @s ^ ^ ^0.25 ~3 ~
+execute if score @s temp matches 521..620 run teleport @s ^ ^ ^0.25 ~ ~
+execute if score @s temp matches 621 run function ssbrc:maps/l/lake_of_rage/logic/hazards/gyarados/deactivate
