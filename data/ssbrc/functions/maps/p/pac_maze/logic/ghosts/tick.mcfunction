@@ -5,7 +5,7 @@ execute if entity @s[tag=dead] run function ssbrc:maps/p/pac_maze/logic/ghosts/s
 
 execute if entity @s[scores={duration.1=1}] run function ssbrc:maps/p/pac_maze/logic/ghosts/states/retreating/deactivate
 
-execute if entity @s[tag=blinky,scores={cooldown.1=1}] run function ssbrc:maps/p/pac_maze/logic/ghosts/blinky/release
-execute if entity @s[tag=clyde,scores={cooldown.1=1}] run function ssbrc:maps/p/pac_maze/logic/ghosts/clyde/release
-execute if entity @s[tag=inky,scores={cooldown.1=1}] run function ssbrc:maps/p/pac_maze/logic/ghosts/inky/release
-execute if entity @s[tag=pinky,scores={cooldown.1=1}] run function ssbrc:maps/p/pac_maze/logic/ghosts/pinky/release
+execute if entity @s[tag=blinky,scores={cooldown.1=1}] run function ssbrc:maps/p/pac_maze/logic/ghosts/states/active/blinky/release
+execute if entity @s[tag=clyde,scores={cooldown.1=1}] run function ssbrc:maps/p/pac_maze/logic/ghosts/states/active/clyde/release
+execute if entity @s[tag=inky,scores={cooldown.1=1}] run function ssbrc:maps/p/pac_maze/logic/ghosts/states/active/inky/release
+execute if entity @s[tag=pinky,scores={cooldown.1=1}] run function ssbrc:maps/p/pac_maze/logic/ghosts/states/active/pinky/release
