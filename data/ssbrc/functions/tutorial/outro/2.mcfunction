@@ -4,4 +4,7 @@ tellraw @s [{"text":"Mr. Sandbag | ","bold":true,"color":"yellow"},{"text":"I ju
 scoreboard players operation @s stats.credits += value.tutorial vars
 tellraw @s [{"text":"+","bold":true,"color":"gold"},{"score":{"name":"value.tutorial","objective":"vars"},"color":"yellow"},{"text":"₡","color":"yellow"}]
 
+scoreboard players set @s shopCalculator 0
+function ssbrc:shop/pages/main/load
+
 playsound minecraft:entity.player.levelup master @s ~ ~ ~
