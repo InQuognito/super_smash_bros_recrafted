@@ -57,7 +57,7 @@ schedule clear ssbrc:maps/l/luigis_mansion/logic/blackout/off
 
 # Pac-Maze
 schedule clear ssbrc:maps/p/pac_maze/logic/ghosts/release
-schedule clear ssbrc:maps/p/pac_maze/logic/ghosts/animation
+schedule clear ssbrc:maps/p/pac_maze/logic/ghosts/states/animation_schedule
 
 # Planet Zebes
 schedule clear ssbrc:maps/p/planet_zebes/logic/rain/check
