@@ -1,5 +1,5 @@
-loot give @p loot ssbrc:items/power_pellet
+loot give @p[predicate=ssbrc:flag/player] loot ssbrc:items/power_pellet
 
 kill @s
 
-execute at @p run playsound ssbrc:eat_fruit player @a
+playsound ssbrc:eat_fruit player @a[predicate=ssbrc:ingame]
