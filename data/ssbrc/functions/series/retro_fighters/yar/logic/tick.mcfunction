@@ -21,6 +21,9 @@ execute if entity @s[nbt={SelectedItem:{tag:{gatlingGun:1}}}] unless score @s ch
 # Railgun
 execute if entity @s[scores={charge.output=1..},nbt={SelectedItem:{tag:{railgun:1}}}] run function ssbrc:series/retro_fighters/yar/logic/abilities/ray_blaster/variants/railgun/charge
 
+execute if entity @s[nbt={Inventory:[{tag:{railgun:1,charge:1}}]}] unless score @s charge.output matches 1.. run function ssbrc:series/retro_fighters/yar/logic/abilities/ray_blaster/variants/railgun/reset
+execute if entity @s[nbt=!{SelectedItem:{tag:{railgun:1}}},nbt={Inventory:[{tag:{railgun:1,charge:1}}]}] run function ssbrc:series/retro_fighters/yar/logic/abilities/ray_blaster/variants/railgun/reset
+
 # Omnishot
 execute if score @s[tag=omnishot] duration.1 matches 1.. run scoreboard players add @s charge.2 1
 execute if score @s charge.2 matches 40.. at @s positioned ~ ~0.75 ~ run function ssbrc:series/retro_fighters/yar/logic/abilities/ray_blaster/variants/omnishot

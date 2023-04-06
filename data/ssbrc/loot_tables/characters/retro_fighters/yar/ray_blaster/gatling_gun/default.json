@@ -85,7 +85,7 @@
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{rayBlaster:1,gatlingGun:1,CustomModelData:1963,Unbreakable:1b,HideFlags:127}"
+							"tag": "{gatlingGun:1,CustomModelData:1963,Unbreakable:1b,HideFlags:127}"
 						}
 					]
 				}
