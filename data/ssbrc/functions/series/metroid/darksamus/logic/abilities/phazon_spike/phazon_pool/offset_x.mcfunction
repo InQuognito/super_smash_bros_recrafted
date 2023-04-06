@@ -7,4 +7,4 @@ execute if predicate ssbrc:random_chance/50 run scoreboard players operation #ph
 
 scoreboard players operation #phazonPoolPosX temp += #phazonPoolOffsetX temp
 
-execute store result entity @e[tag=modifyEntity,limit=1] Pos[0] double 1.0 run scoreboard players get #phazonPoolPosX temp
+execute store result entity @e[tag=modifyEntity,limit=1] Pos[0] double 0.1 run scoreboard players get #phazonPoolPosX temp
