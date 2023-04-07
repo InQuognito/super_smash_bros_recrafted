@@ -1,4 +1,4 @@
-execute rotated as @s run summon minecraft:area_effect_cloud ^ ^ ^1 {Tags:["fireball","modifyEntity"],Duration:70}
+summon minecraft:area_effect_cloud ^ ^ ^1 {Tags:["fireball","modifyEntity"],Duration:70}
 
 scoreboard players operation @e[tag=modifyEntity,limit=1] id = @s id
 data modify entity @e[tag=modifyEntity,limit=1] Rotation[0] set from entity @s Rotation[0]

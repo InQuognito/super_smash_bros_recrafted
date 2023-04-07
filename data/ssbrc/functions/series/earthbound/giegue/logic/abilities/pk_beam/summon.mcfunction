@@ -1,4 +1,4 @@
-execute rotated as @s run summon minecraft:marker ^ ^-0.75 ^0.5 {Tags:["pkBeam","modifyEntity"]}
+summon minecraft:marker ^ ^-0.75 ^0.5 {Tags:["pkBeam","modifyEntity"]}
 
 scoreboard players operation @e[tag=modifyEntity,limit=1] id = @s id
 data modify entity @e[tag=modifyEntity,limit=1] Rotation set from entity @s Rotation

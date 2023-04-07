@@ -1,4 +1,4 @@
-execute rotated as @s run summon minecraft:marker ^ ^ ^1 {Tags:["hyperVoice","modifyEntity"]}
+summon minecraft:marker ^ ^ ^1 {Tags:["hyperVoice","modifyEntity"]}
 
 execute if entity @s[tag=default] run tag @e[tag=modifyEntity,limit=1] add pink
 execute if entity @s[tag=gold] run tag @e[tag=modifyEntity,limit=1] add gold

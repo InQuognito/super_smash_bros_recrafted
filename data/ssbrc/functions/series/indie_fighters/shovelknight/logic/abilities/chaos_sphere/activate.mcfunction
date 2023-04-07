@@ -1,4 +1,4 @@
-execute rotated as @s run summon minecraft:marker ^ ^ ^1 {Tags:["chaosSphere","modifyEntity"]}
+summon minecraft:marker ^ ^ ^1 {Tags:["chaosSphere","modifyEntity"]}
 
 scoreboard players operation @e[tag=modifyEntity,limit=1] id = @s id
 data modify entity @e[tag=modifyEntity,limit=1] Rotation[0] set from entity @s Rotation[0]
