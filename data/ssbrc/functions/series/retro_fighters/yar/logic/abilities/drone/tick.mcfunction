@@ -7,9 +7,9 @@ teleport @e[type=minecraft:item,distance=..1] @s
 effect give @e[predicate=ssbrc:flag/targets,predicate=!ssbrc:characters/effects/has/glowing,distance=0.1..10] minecraft:glowing 1 255 true
 
 scoreboard players remove @s[scores={cooldown.1=1..}] cooldown.1 1
-execute if entity @s[tag=stop,scores={cooldown.1=..0}] facing entity @e[predicate=ssbrc:flag/targets,sort=nearest,limit=1,distance=0.1..3] eyes run function ssbrc:series/retro_fighters/yar/logic/abilities/drone/fire
+execute if entity @s[tag=stop,scores={cooldown.1=..0}] facing entity @e[tag=!self,predicate=ssbrc:flag/targets,sort=nearest,limit=1,distance=0.1..3] eyes run function ssbrc:series/retro_fighters/yar/logic/abilities/drone/fire
 
-execute if entity @s[tag=recall] at @s positioned ~-0.5 ~-0.5 ~-0.5 as @e[predicate=ssbrc:flag/player,dx=0] if score @s id = @e[type=minecraft:bee,tag=drone,sort=nearest,limit=1] id run function ssbrc:series/retro_fighters/yar/logic/abilities/drone/regain
+execute if entity @s[tag=recall] positioned ~-0.5 ~-0.5 ~-0.5 as @a[predicate=ssbrc:flag/player,dx=0] if score @s id = @e[type=minecraft:bee,tag=drone,sort=nearest,limit=1] id run function ssbrc:series/retro_fighters/yar/logic/abilities/drone/regain
 
 execute rotated as @s[scores={temp=1..},tag=!stop,tag=!recall] run function ssbrc:series/retro_fighters/yar/logic/abilities/drone/move
 execute if entity @s[tag=recall] facing entity @p[tag=self] eyes run function ssbrc:series/retro_fighters/yar/logic/abilities/drone/move

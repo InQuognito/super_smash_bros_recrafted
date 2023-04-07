@@ -9,7 +9,7 @@ scoreboard players add $ghostSirenTimer temp 1
 execute if score $ghostSirenTimer temp matches 30.. run function ssbrc:maps/p/pac_maze/logic/ghosts/states/active/siren
 
 # Pickups
-execute as @a[predicate=ssbrc:flag/player] at @s if entity @e[type=minecraft:item_display,tag=dot,distance=..0.75] run function ssbrc:maps/p/pac_maze/logic/dots/pickup
+execute as @a[predicate=ssbrc:flag/player] at @s positioned ~ ~0.5 ~ if entity @e[type=minecraft:item_display,tag=dot,distance=..0.75] run function ssbrc:maps/p/pac_maze/logic/dots/pickup
 execute as @e[type=minecraft:item_display,tag=powerPellet] at @s if entity @p[predicate=ssbrc:flag/player,distance=..1.0] run function ssbrc:maps/p/pac_maze/logic/pellets/pickup
 execute as @e[type=minecraft:item_display,tag=fruit] at @s run function ssbrc:maps/p/pac_maze/logic/fruit/tick
 
