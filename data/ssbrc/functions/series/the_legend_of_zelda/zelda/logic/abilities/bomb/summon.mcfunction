@@ -15,7 +15,4 @@ kill @e[tag=direction,limit=1]
 scoreboard players set @s cooldown.1 20
 execute if score @s shadow.chaosControl matches 1.. run function ssbrc:logic/characters/cooldown_modifiers/chaos_control/1
 
-tag @s remove activeFuse
-scoreboard players reset @s fuse
-
-loot replace entity @s weapon.mainhand loot ssbrc:characters/the_legend_of_zelda/zelda/dungeon_items/bomb/stowed
+function ssbrc:series/the_legend_of_zelda/zelda/logic/abilities/bomb/reset
