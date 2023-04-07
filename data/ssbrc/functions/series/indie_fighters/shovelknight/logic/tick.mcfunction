@@ -8,7 +8,7 @@ execute if entity @s[scores={charge.step=5..,cooldown.2=..0},nbt={SelectedItem:{
 function ssbrc:series/indie_fighters/shovelknight/logic/mana/update
 
 # Shovel Drop
-execute at @s[nbt={SelectedItem:{tag:{shovelDrop:1}}}] positioned ~ ~-2 ~ as @e[predicate=ssbrc:flag/targets,distance=..0.75] run function ssbrc:series/indie_fighters/shovelknight/logic/abilities/shovel_drop/hit
+execute at @s[nbt={SelectedItem:{tag:{shovelDrop:1}}}] positioned ~0.5 ~-2 ~0.5 as @e[predicate=ssbrc:flag/targets,dy=1] run function ssbrc:series/indie_fighters/shovelknight/logic/abilities/shovel_drop/hit
 
 execute if entity @s[tag=!armorOfChaos,tag=!toadGear,predicate=ssbrc:flag/sneaking,nbt={SelectedItem:{tag:{shovelDrop:0}}}] at @s if block ~ ~-0.1 ~ #ssbrc:passthrough_charge run loot replace entity @s weapon.mainhand loot ssbrc:characters/indie_fighters/shovelknight/shovel_blade/default/shovel_drop
 execute if entity @s[tag=!armorOfChaos,tag=!toadGear,nbt={SelectedItem:{tag:{shovelDrop:1}}}] at @s unless block ~ ~-0.1 ~ #ssbrc:passthrough_charge run loot replace entity @s weapon.mainhand loot ssbrc:characters/indie_fighters/shovelknight/shovel_blade/default/default
