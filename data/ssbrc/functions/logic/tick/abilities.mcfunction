@@ -1,4 +1,5 @@
 # Byleth
+execute as @e[type=minecraft:horse,tag=steedCharge] at @s if score @s id = @p[tag=self] id run function ssbrc:series/fire_emblem/byleth/logic/blue_lions/steed_charge/tick
 execute as @e[type=minecraft:spectral_arrow,tag=failnaught,tag=awakened] at @s if score @s id = @p[tag=self] id run function ssbrc:series/fire_emblem/byleth/logic/golden_deer/failnaught/tick
 
 # Cloud
