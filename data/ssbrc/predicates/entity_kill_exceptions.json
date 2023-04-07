@@ -8,6 +8,13 @@
 		{
 			"condition": "minecraft:reference",
 			"name": "ssbrc:location_markers"
+		},
+		{
+			"condition": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
+				"nbt": "{Tags:[\"mist\"]}"
+			}
 		}
 	]
 }
