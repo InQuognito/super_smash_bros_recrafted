@@ -6,14 +6,14 @@
 			"entries": [
 				{
 					"type": "minecraft:item",
-					"name": "minecraft:golden_sword",
+					"name": "minecraft:carrot_on_a_stick",
 					"functions": [
 						{
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"text": "Raptor Boost",
-								"color": "gold",
+								"text": "Fists of Fury",
+								"color": "white",
 								"bold": true,
 								"italic": false
 							}
@@ -23,7 +23,7 @@
 							"entity": "this",
 							"lore": [
 								{
-									"text": "-------------",
+									"text": "--------------",
 									"color": "gray",
 									"bold": false,
 									"italic": false
@@ -34,12 +34,6 @@
 									"bold": false,
 									"italic": false,
 									"underlined": true
-								},
-								{
-									"text": "- Lights the opponent on fire",
-									"color": "gray",
-									"bold": false,
-									"italic": false
 								}
 							],
 							"replace": true
@@ -64,15 +58,8 @@
 							]
 						},
 						{
-							"function": "minecraft:set_enchantments",
-							"enchantments": {
-								"minecraft:fire_aspect": 1
-							},
-							"add": false
-						},
-						{
 							"function": "minecraft:set_nbt",
-							"tag": "{raptorBoost:1,Unbreakable:1b,HideFlags:127}"
+							"tag": "{fistsOfFury:1,Unbreakable:1b,HideFlags:127}"
 						}
 					]
 				}

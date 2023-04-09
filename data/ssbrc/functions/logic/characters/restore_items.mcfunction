@@ -19,13 +19,6 @@ loot replace entity @s[tag=blackEagles] weapon.offhand loot ssbrc:characters/fir
 give @s[tag=blackEagles,tag=weaponBroken] minecraft:spectral_arrow 4
 give @s[tag=blueLions] minecraft:spectral_arrow 8
 
-# Captain Falcon
-clear @s[tag=captainfalcon] minecraft:golden_sword{falconPunch:1}
-loot replace entity @s[tag=captainfalcon] hotbar.2 loot ssbrc:characters/f_zero/captainfalcon/falcon_punch
-
-clear @s[tag=captainfalcon] minecraft:spectral_arrow
-give @s[tag=captainfalcon] minecraft:spectral_arrow 5
-
 # Cloud
 tag @s[tag=cloud] remove punisher
 tag @s[tag=cloud] add operator

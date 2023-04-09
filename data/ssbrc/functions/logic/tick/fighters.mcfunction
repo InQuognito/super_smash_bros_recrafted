@@ -11,6 +11,7 @@ scoreboard players remove @s[scores={charge.input=2..}] charge.input 1
 
 execute if entity @s[tag=bowser] run function ssbrc:series/super_mario_bros/bowser/logic/tick
 execute if entity @s[tag=byleth] run function ssbrc:series/fire_emblem/byleth/logic/tick
+execute if entity @s[tag=captainfalcon] run function ssbrc:series/f_zero/captainfalcon/logic/tick
 execute if entity @s[tag=cloud] run function ssbrc:series/final_fantasy/cloud/logic/tick
 execute if entity @s[tag=darksamus] run function ssbrc:series/metroid/darksamus/logic/tick
 execute if entity @s[tag=donkeykong] run function ssbrc:series/donkey_kong/donkeykong/logic/tick
