@@ -1,3 +1,3 @@
 tag @s remove captainfalcon
 
-tag @s remove missedFalconPunch
+tag @s remove falconPunchMissed
