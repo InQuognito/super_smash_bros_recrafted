@@ -2,6 +2,9 @@
 execute as @e[type=minecraft:horse,tag=steedCharge] at @s if score @s id = @p[tag=self] id run function ssbrc:series/fire_emblem/byleth/logic/blue_lions/steed_charge/tick
 execute as @e[type=minecraft:spectral_arrow,tag=failnaught,tag=awakened] at @s if score @s id = @p[tag=self] id run function ssbrc:series/fire_emblem/byleth/logic/golden_deer/failnaught/tick
 
+# Captain Falcon
+execute as @e[type=minecraft:marker,tag=raptorBoost] at @s if score @s id = @p[tag=self,scores={duration.1=2..}] id run function ssbrc:series/f_zero/captainfalcon/logic/abilities/raptor_boost/tick
+
 # Cloud
 execute as @e[type=minecraft:marker,tag=bladeBeam] at @s if score @s id = @p[tag=self] id run function ssbrc:series/final_fantasy/cloud/logic/blade_beam/tick
 execute as @e[type=minecraft:marker,tag=crossSlash] at @s if score @s id = @p[tag=self] id run function ssbrc:series/final_fantasy/cloud/logic/cross_slash/tick
