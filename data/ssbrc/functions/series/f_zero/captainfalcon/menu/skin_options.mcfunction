@@ -6,4 +6,4 @@ tellraw @s[advancements={ssbrc:series/f_zero/captainfalcon/skins/rick_wheeler=tr
 
 tellraw @s [{"text":"==========","bold":true,"color":"yellow"}]
 
-execute at @s run playsound minecraft:ui.button.click master @s ~ ~ ~ 1.0 1.0
+execute at @s run playsound minecraft:ui.button.click master @s

@@ -5,4 +5,4 @@ tellraw @s[advancements={ssbrc:series/sonic_the_hedgehog/sonic/skins/gold=true}]
 
 tellraw @s [{"text":"==========","bold":true,"color":"yellow"}]
 
-execute at @s run playsound minecraft:ui.button.click master @s ~ ~ ~ 1.0 1.0
+execute at @s run playsound minecraft:ui.button.click master @s

@@ -4,4 +4,4 @@ tellraw @s[tag=!selectingLoadout.byleth] [{"text":"=== "},{"text":"Select House"
 
 tag @s add selectingLoadout.byleth
 
-execute at @s run playsound minecraft:ui.button.click master @s ~ ~ ~ 1.0 1.0
+execute at @s run playsound minecraft:ui.button.click master @s

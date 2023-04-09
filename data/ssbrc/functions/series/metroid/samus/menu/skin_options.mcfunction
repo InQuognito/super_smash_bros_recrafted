@@ -7,4 +7,4 @@ tellraw @s[advancements={ssbrc:series/metroid/samus/skins/phazon_suit=true}] [{"
 
 tellraw @s [{"text":"==========","bold":true,"color":"yellow"}]
 
-execute at @s run playsound minecraft:ui.button.click master @s ~ ~ ~ 1.0 1.0
+execute at @s run playsound minecraft:ui.button.click master @s

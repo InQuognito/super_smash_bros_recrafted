@@ -6,4 +6,4 @@ tellraw @s[tag=!selectingLoadout.snake] [{"text":"=== "},{"translate":"ssbrc.fig
 
 tag @s add selectingLoadout.snake
 
-execute at @s run playsound minecraft:ui.button.click master @s ~ ~ ~ 1.0 1.0
+execute at @s run playsound minecraft:ui.button.click master @s

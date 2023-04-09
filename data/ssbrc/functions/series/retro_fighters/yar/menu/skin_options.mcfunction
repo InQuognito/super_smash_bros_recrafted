@@ -5,4 +5,4 @@ tellraw @s[advancements={ssbrc:series/retro_fighters/yar/skins/gold=true}] [{"te
 
 tellraw @s [{"text":"==========","bold":true,"color":"yellow"}]
 
-execute at @s run playsound minecraft:ui.button.click master @s ~ ~ ~ 1.0 1.0
+execute at @s run playsound minecraft:ui.button.click master @s

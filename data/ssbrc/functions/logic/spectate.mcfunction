@@ -7,6 +7,6 @@ tag @s add characterPicked
 team join spectator @s
 effect clear @s minecraft:glowing
 
-execute at @s run playsound minecraft:ui.button.click master @s ~ ~ ~ 1.0 1.0
+execute at @s run playsound minecraft:ui.button.click master @s
 
 function ssbrc:logic/pre_game/character_select/check_participation
