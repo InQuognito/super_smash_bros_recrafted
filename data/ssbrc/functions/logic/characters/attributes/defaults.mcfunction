@@ -26,6 +26,7 @@ attribute @s[predicate=ssbrc:characters/max_health/default] minecraft:generic.ma
 # Movement Speed
 attribute @s[predicate=ssbrc:characters/speed/default] minecraft:generic.movement_speed base set 0.1
 
+attribute @s[tag=captainfalcon] minecraft:generic.movement_speed base set 0.105
 attribute @s[tag=cloud,tag=punisher] minecraft:generic.movement_speed base set 0.03
 attribute @s[tag=darksamus] minecraft:generic.movement_speed base set 0.095
 attribute @s[tag=ganondorf] minecraft:generic.movement_speed base set 0.085
