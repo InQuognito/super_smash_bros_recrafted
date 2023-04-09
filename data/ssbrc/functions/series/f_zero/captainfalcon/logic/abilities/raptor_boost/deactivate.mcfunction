@@ -1,5 +1,3 @@
-effect clear @s minecraft:levitation
-
 kill @e[type=minecraft:marker,tag=raptorBoost,sort=nearest,limit=1]
 
 scoreboard players set @s cooldown.1 60
