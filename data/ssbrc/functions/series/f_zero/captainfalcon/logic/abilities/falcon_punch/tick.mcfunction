@@ -1,3 +1,5 @@
+scoreboard players add @s charge.1 1
+
 execute if score @s charge.1 matches 1..2 run title @s actionbar [{"text":"\u25ae","color":"black"},{"text":"\u25ae\u25ae\u25ae\u25ae","color":"red"},{"text":"\u25ae\u25ae\u25ae\u25ae","color":"yellow"},{"text":"\u25ae\u25ae\u25ae","color":"green"},{"text":"\u25ae\u25ae\u25ae\u25ae","color":"yellow"},{"text":"\u25ae\u25ae\u25ae\u25ae\u25ae","color":"red"}]
 execute if score @s charge.1 matches 3..4 run title @s actionbar [{"text":"\u25ae","color":"red"},{"text":"\u25ae","color":"black"},{"text":"\u25ae\u25ae\u25ae","color":"red"},{"text":"\u25ae\u25ae\u25ae\u25ae","color":"yellow"},{"text":"\u25ae\u25ae\u25ae","color":"green"},{"text":"\u25ae\u25ae\u25ae\u25ae","color":"yellow"},{"text":"\u25ae\u25ae\u25ae\u25ae\u25ae","color":"red"}]
 execute if score @s charge.1 matches 5..6 run title @s actionbar [{"text":"\u25ae\u25ae","color":"red"},{"text":"\u25ae","color":"black"},{"text":"\u25ae\u25ae","color":"red"},{"text":"\u25ae\u25ae\u25ae\u25ae","color":"yellow"},{"text":"\u25ae\u25ae\u25ae","color":"green"},{"text":"\u25ae\u25ae\u25ae\u25ae","color":"yellow"},{"text":"\u25ae\u25ae\u25ae\u25ae\u25ae","color":"red"}]
