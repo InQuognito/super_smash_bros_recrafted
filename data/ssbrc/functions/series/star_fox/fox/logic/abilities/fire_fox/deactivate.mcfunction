@@ -1,4 +1,4 @@
-function ssbrc:series/star_fox/fox/logic/abilities/fire_fox/clear
+scoreboard players set @s charge.3 0
 
 kill @e[type=minecraft:marker,tag=fireFox,sort=nearest,limit=1]
 

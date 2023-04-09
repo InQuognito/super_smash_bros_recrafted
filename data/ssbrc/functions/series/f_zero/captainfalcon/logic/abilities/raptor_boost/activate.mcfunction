@@ -8,4 +8,4 @@ ride @s mount @e[tag=modifyEntity,limit=1]
 
 tag @e[tag=modifyEntity,limit=1] remove modifyEntity
 
-scoreboard players set @s duration.1 5
+scoreboard players set @s duration.1 4
