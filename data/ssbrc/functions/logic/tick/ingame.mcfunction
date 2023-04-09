@@ -33,6 +33,9 @@ function ssbrc:logic/tick/damage
 # Maps
 function ssbrc:logic/tick/maps/after_start
 
+# Movement Entities
+execute as @e[tag=movementEntity] run function ssbrc:logic/tick/movement_entities
+
 # Kill Tridents On Ground
 execute as @e[type=minecraft:item,nbt={Item:{id:"minecraft:trident"}}] run function ssbrc:logic/tick/projectiles/tridents
 
