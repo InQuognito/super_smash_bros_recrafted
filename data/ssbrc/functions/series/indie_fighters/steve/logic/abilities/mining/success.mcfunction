@@ -5,4 +5,9 @@ execute if score @s charge.1 matches 80.. positioned ^ ^ ^-1 run function ssbrc:
 
 particle minecraft:item minecraft:stone ~ ~ ~ 0.1 0.1 0.1 0.05 3 normal @a
 
+scoreboard players operation #loop temp = @s charge.1
+scoreboard players operation #loop temp %= 5 integers
+execute if score #loop temp matches 0 run playsound minecraft:block.stone.hit player @a ~ ~ ~ 0.25
+scoreboard players reset #loop temp
+
 scoreboard players set @s raycastSuccess 1
