@@ -1,6 +1,4 @@
-particle minecraft:dust_color_transition 1.0 0.5 0.0 0.5 1.0 0.75 0.0 ~ ~ ~ 0.075 0.075 0.075 0.01 25 normal @a
-
-execute positioned ~-0.375 ~-0.375 ~-0.375 as @e[predicate=ssbrc:flag/targets,dx=0] positioned ~-0.25 ~-0.25 ~-0.25 if entity @s[dx=0] as @e[type=minecraft:marker,tag=orangeGrenade,sort=nearest,limit=1] at @s run function ssbrc:series/donkey_kong/donkeykong/logic/abilities/orange_grenade/explode
+execute positioned ~-0.375 ~-0.375 ~-0.375 as @e[predicate=ssbrc:flag/targets,dx=0] positioned ~-0.25 ~-0.25 ~-0.25 if entity @s[dx=0] as @e[type=minecraft:armor_stand,tag=barrel,sort=nearest,limit=1] at @s run function ssbrc:series/donkey_kong/donkeykong/logic/abilities/barrel/explode
 
 execute store result entity @s Rotation[1] float 0.25 run scoreboard players get @s point
 
@@ -13,4 +11,4 @@ execute if score @s point > 0 integers unless block ~ ~-0.6 ~ #ssbrc:passthrough
 execute rotated as @s run teleport @s ^ ^ ^0.5
 
 scoreboard players add @s temp 1
-execute at @s[scores={temp=40..}] run function ssbrc:series/donkey_kong/donkeykong/logic/abilities/orange_grenade/explode
+execute at @s[scores={temp=100..}] run function ssbrc:series/donkey_kong/donkeykong/logic/abilities/orange_grenade/explode
