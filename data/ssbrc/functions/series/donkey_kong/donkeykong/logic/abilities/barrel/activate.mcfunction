@@ -1,4 +1,5 @@
 summon minecraft:armor_stand ^ ^ ^1 {Tags:["barrel","modifyEntity"]}
+loot replace entity @e[tag=modifyEntity,limit=1] armor.head loot ssbrc:characters/donkey_kong/donkeykong/barrel
 
 scoreboard players operation @e[tag=modifyEntity,limit=1] id = @s id
 data modify entity @e[tag=modifyEntity,limit=1] Rotation[0] set from entity @s Rotation[0]
