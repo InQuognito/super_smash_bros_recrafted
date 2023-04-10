@@ -20,7 +20,7 @@ execute as @e[type=minecraft:marker,tag=orangeGrenade] at @s if score @s id = @p
 # Fox
 execute as @e[type=minecraft:arrow,tag=krazoanFireball] at @s if score @s id = @p[tag=self] id run function ssbrc:series/star_fox/fox/logic/abilities/krazoan_fireball/tick
 execute as @e[type=minecraft:arrow,tag=fox.blaster] at @s if score @s id = @p[tag=self] id run function ssbrc:series/star_fox/fox/logic/abilities/blaster/tick
-execute as @e[type=minecraft:marker,tag=fireFox] at @s if score @s id = @p[tag=self] id run function ssbrc:series/star_fox/fox/logic/abilities/fire_fox/tick
+execute as @e[type=minecraft:area_effect_cloud,tag=fireFox] at @s if score @s id = @p[tag=self] id run function ssbrc:series/star_fox/fox/logic/abilities/fire_fox/tick
 
 # Greninja
 execute as @e[type=minecraft:armor_stand,tag=waterShuriken] at @s if score @s id = @p[tag=self] id run function ssbrc:series/pokemon/greninja/logic/abilities/water_shuriken/tick
@@ -66,7 +66,7 @@ execute as @e[type=minecraft:marker,tag=thunderJolt] at @s if score @s id = @p[t
 execute as @e[type=minecraft:marker,tag=electricTerrain] at @s if score @s id = @p[tag=self] id run function ssbrc:series/pokemon/pikachu/logic/abilities/electric_terrain/tick
 
 # Pokémon Trainer
-execute as @e[type=minecraft:marker,tag=flareBlitz] at @s if score @s id = @p[tag=self] id run function ssbrc:series/pokemon/pokemontrainer/logic/charizard/flare_blitz/tick
+execute as @e[type=minecraft:area_effect_cloud,tag=flareBlitz] at @s if score @s id = @p[tag=self] id run function ssbrc:series/pokemon/pokemontrainer/logic/charizard/flare_blitz/tick
 execute as @e[type=minecraft:marker,tag=leechSeed] at @s if score @s id = @p[tag=self] id run function ssbrc:series/pokemon/pokemontrainer/logic/ivysaur/leech_seed/tick/projectile
 execute as @e[type=minecraft:marker,tag=leechSeed.healingOrb] at @s if score @s id = @p[tag=self] id run function ssbrc:series/pokemon/pokemontrainer/logic/ivysaur/leech_seed/tick/healing_orb
 execute as @e[type=minecraft:arrow,tag=waterGun] at @s if score @s id = @p[tag=self] id run function ssbrc:series/pokemon/pokemontrainer/logic/squirtle/water_gun/tick
