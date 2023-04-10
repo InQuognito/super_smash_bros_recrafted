@@ -4,7 +4,7 @@ execute unless block ^ ^ ^0.75 #ssbrc:passthrough_charge run scoreboard players 
 
 execute positioned ~-0.5 ~ ~-0.5 as @e[tag=!self,predicate=ssbrc:flag/targets,dy=1] run function ssbrc:series/f_zero/captainfalcon/logic/abilities/raptor_boost/hit
 
-ride @p[tag=self] mount @s
+teleport @p[tag=self] @s
 
 execute if block ^ ^ ^0.75 #ssbrc:passthrough_charge run teleport @s ^ ^ ^1.0
 
