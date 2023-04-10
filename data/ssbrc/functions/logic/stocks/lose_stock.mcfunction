@@ -21,6 +21,7 @@ spectate @r[predicate=ssbrc:flag/player] @s
 
 # Kill Objects Belonging to Dead Player
 tag @s add self
+execute if entity @s[tag=greninja] as @e[type=minecraft:marker,tag=shadowSneak] if score @s id = @p[tag=self] id run kill @s
 execute if entity @s[tag=link] as @e[type=minecraft:armor_stand,tag=link.boomerang] if score @s id = @p[tag=self] id run kill @s
 execute if entity @s[tag=pokemontrainer,tag=ivysaur] as @e[type=minecraft:marker,tag=leechSeed] if score @s id = @p[tag=self] id run kill @s
 execute if entity @s[tag=shovelknight] as @e[type=minecraft:marker,tag=warHorn] if score @s id = @p[tag=self] id run kill @s
