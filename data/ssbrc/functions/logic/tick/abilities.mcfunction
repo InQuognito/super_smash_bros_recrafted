@@ -25,6 +25,7 @@ execute as @e[type=minecraft:marker,tag=fireFox] at @s if score @s id = @p[tag=s
 
 # Greninja
 execute as @e[type=minecraft:armor_stand,tag=waterShuriken] at @s if score @s id = @p[tag=self] id run function ssbrc:series/pokemon/greninja/logic/abilities/water_shuriken/tick
+execute as @e[type=minecraft:marker,tag=shadowSneak] at @s if score @s id = @p[tag=self] id run function ssbrc:series/pokemon/greninja/logic/abilities/shadow_sneak/tick
 
 # Hero
 execute as @e[type=minecraft:fireball,tag=bang] at @s if score @s id = @p[tag=self] id run function ssbrc:series/dragon_quest/hero/logic/magic/bang/tick
