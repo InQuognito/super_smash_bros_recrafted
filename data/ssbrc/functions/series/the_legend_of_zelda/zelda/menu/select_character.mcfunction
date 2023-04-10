@@ -1,9 +1,9 @@
 tag @s[tag=!gold] add default
 
-tellraw @s [{"translate":"ssbrc.fighters.menu.selected","color":"white"},{"text":"Zelda","color":"blue"},{"text":"!","color":"white"}]
+tellraw @s [{"translate":"ssbrc.fighters.menu.selected","color":"white"},{"translate":"ssbrc.fighters.zelda","color":"blue"},{"translate":"!","color":"white"}]
 
-tellraw @s[tag=default] [{"translate":"ssbrc.fighters.menu.skin","color":"white"},{"text":"Default","color":"blue"}]
-tellraw @s[tag=gold] [{"translate":"ssbrc.fighters.menu.skin","color":"white"},{"text":"Gold","color":"gold"}]
+tellraw @s[tag=default] [{"translate":"ssbrc.fighters.menu.skin","color":"white"},{"translate":"ssbrc.fighters.skin.default","color":"blue"}]
+tellraw @s[tag=gold] [{"translate":"ssbrc.fighters.menu.skin","color":"white"},{"translate":"ssbrc.fighters.skin.gold","color":"gold"}]
 
 function ssbrc:logic/resets/tags/characters
 tag @s add zelda

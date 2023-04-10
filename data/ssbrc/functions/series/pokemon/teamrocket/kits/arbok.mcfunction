@@ -3,7 +3,7 @@ tag @s add nextFighterChosen
 
 tag @s add arbok
 
-tellraw @s {"text":"Hissssss!","color":"light_purple"}
+tellraw @s {"translate":"ssbrc.fighters.teamrocket.arbok.switch","color":"light_purple"}
 
 clear @s
 loot replace entity @s hotbar.0 loot ssbrc:characters/pokemon/teamrocket/arbok/poison_jab

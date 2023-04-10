@@ -1,9 +1,9 @@
 tag @s[tag=!gold,tag=!armorOfChaos,tag=!toadGear] add default
 
-tellraw @s [{"translate":"ssbrc.fighters.menu.selected","color":"white"},{"text":"Shovel Knight","color":"dark_aqua"},{"text":"!","color":"white"}]
+tellraw @s [{"translate":"ssbrc.fighters.menu.selected","color":"white"},{"translate":"ssbrc.fighters.shovelknight","color":"dark_aqua"},{"translate":"!","color":"white"}]
 
-tellraw @s[tag=default] [{"translate":"ssbrc.fighters.menu.skin","color":"white"},{"text":"Default","color":"dark_aqua"}]
-tellraw @s[tag=gold] [{"translate":"ssbrc.fighters.menu.skin","color":"white"},{"text":"Gold","color":"gold"}]
+tellraw @s[tag=default] [{"translate":"ssbrc.fighters.menu.skin","color":"white"},{"translate":"ssbrc.fighters.skin.default","color":"dark_aqua"}]
+tellraw @s[tag=gold] [{"translate":"ssbrc.fighters.menu.skin","color":"white"},{"translate":"ssbrc.fighters.skin.gold","color":"gold"}]
 tellraw @s[tag=armorOfChaos] [{"translate":"ssbrc.fighters.menu.skin","color":"white"},{"text":"Armor of Chaos","color":"red"}]
 tellraw @s[tag=toadGear] [{"translate":"ssbrc.fighters.menu.skin","color":"white"},{"text":"Toad Gear","color":"green"}]
 

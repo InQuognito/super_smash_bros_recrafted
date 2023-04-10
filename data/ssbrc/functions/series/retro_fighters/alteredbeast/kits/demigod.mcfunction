@@ -1,7 +1,7 @@
 function ssbrc:series/retro_fighters/alteredbeast/kits/reset
 tag @s add demigod
 
-tellraw @s [{"text":"Altered Beast Form: ","bold":true,"color":"gold"},{"text":"Demigod","bold":false,"color":"yellow"}]
+tellraw @s [{"translate":"ssbrc.fighters.alteredbeast.form","bold":true,"color":"gold"},{"translate":"ssbrc.fighters.alteredbeast.form.demigod","bold":false,"color":"yellow"}]
 
 clear @s #ssbrc:equipment
 loot replace entity @s hotbar.0 loot ssbrc:characters/retro_fighters/alteredbeast/demigod/axe

@@ -23,20 +23,20 @@
 							"entity": "this",
 							"lore": [
 								{
-									"text": "---------------------",
+									"translate": "---------------------",
 									"color": "gray",
 									"bold": false,
 									"italic": false
 								},
 								{
-									"text": "Infusion Ability",
+									"translate": "ssbrc.tooltips.ability.infusion",
 									"color": "white",
 									"bold": false,
 									"italic": false,
 									"underlined": true
 								},
 								{
-									"text": "- [",
+									"translate": "- [",
 									"color": "gray",
 									"bold": false,
 									"italic": false,

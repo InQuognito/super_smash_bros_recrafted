@@ -1,8 +1,8 @@
 tellraw @s [{"translate":"ssbrc.fighters.menu.ulockedSkins","bold":true,"color":"yellow"}]
 
-tellraw @s [{"text":"[ ","color":"dark_green","bold":false},{"text":"Default","color":"green","clickEvent":{"action":"run_command","value":"/trigger menu set 684"}},{"text":" ]","color":"dark_green"}]
-tellraw @s[advancements={ssbrc:series/donkey_kong/kingkrool/skins/gold=true}] [{"text":"[ ","color":"dark_green"},{"text":"Gold","color":"gold","clickEvent":{"action":"run_command","value":"/trigger menu set 685"}},{"text":" ]","color":"dark_green"}]
+tellraw @s [{"translate":"[ ","color":"dark_green","bold":false},{"translate":"ssbrc.fighters.skin.default","color":"green","clickEvent":{"action":"run_command","value":"/trigger menu set 684"}},{"translate":" ]","color":"dark_green"}]
+tellraw @s[advancements={ssbrc:series/donkey_kong/kingkrool/skins/gold=true}] [{"translate":"[ ","color":"dark_green"},{"translate":"ssbrc.fighters.skin.gold","color":"gold","clickEvent":{"action":"run_command","value":"/trigger menu set 685"}},{"translate":" ]","color":"dark_green"}]
 
-tellraw @s [{"text":"==========","bold":true,"color":"yellow"}]
+tellraw @s [{"translate":"==========","bold":true,"color":"yellow"}]
 
 execute at @s run playsound minecraft:ui.button.click master @s

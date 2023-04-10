@@ -1,9 +1,9 @@
 tag @s[tag=!gold,tag=!bowsette] add default
 
-tellraw @s [{"translate":"ssbrc.fighters.menu.selected","color":"white"},{"text":"Bowser","color":"green"},{"text":"!","color":"white"}]
+tellraw @s [{"translate":"ssbrc.fighters.menu.selected","color":"white"},{"translate":"ssbrc.fighters.bowser","color":"green"},{"translate":"!","color":"white"}]
 
-tellraw @s[tag=default] [{"translate":"ssbrc.fighters.menu.skin","color":"white"},{"text":"Default","color":"green"}]
-tellraw @s[tag=gold] [{"translate":"ssbrc.fighters.menu.skin","color":"white"},{"text":"Gold","color":"gold"}]
+tellraw @s[tag=default] [{"translate":"ssbrc.fighters.menu.skin","color":"white"},{"translate":"ssbrc.fighters.skin.default","color":"green"}]
+tellraw @s[tag=gold] [{"translate":"ssbrc.fighters.menu.skin","color":"white"},{"translate":"ssbrc.fighters.skin.gold","color":"gold"}]
 tellraw @s[tag=bowsette] [{"translate":"ssbrc.fighters.menu.skin","color":"white"},{"text":"Bowsette","color":"yellow"}]
 
 function ssbrc:logic/resets/tags/characters

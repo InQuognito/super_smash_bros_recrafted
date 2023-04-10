@@ -2,7 +2,7 @@ advancement grant @s only ssbrc:series/the_legend_of_zelda/link/skins/goron_tuni
 
 scoreboard players operation @s stats.credits -= #price.skin.common vars
 
-tellraw @s [{"text":"You have purchased the ","color":"white"},{"text":"Goron Tunic","color":"red"},{"text":" skin!","color":"white"}]
+tellraw @s [{"translate":"ssbrc.shop.purchase.skin","color":"white"},{"text":"Goron Tunic","color":"red"},{"translate":"ssbrc.fighters.skinSuffix","color":"white"}]
 
 playsound minecraft:entity.player.levelup master @s ~ ~ ~
 

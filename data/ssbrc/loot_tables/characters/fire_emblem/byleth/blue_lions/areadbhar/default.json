@@ -23,20 +23,20 @@
 							"entity": "this",
 							"lore": [
 								{
-									"text": "-----------",
+									"translate": "-----------",
 									"color": "gray",
 									"bold": false,
 									"italic": false
 								},
 								{
-									"text": "Melee Weapon",
+									"translate": "ssbrc.tooltips.weapon.melee",
 									"color": "white",
 									"bold": false,
 									"italic": false,
 									"underlined": true
 								},
 								{
-									"text": "- [",
+									"translate": "- [",
 									"color": "gray",
 									"bold": false,
 									"italic": false,
@@ -48,7 +48,7 @@
 											"italic": false
 										},
 										{
-											"text": "] + [",
+											"translate": "] + [",
 											"color": "gray",
 											"bold": false,
 											"italic": false

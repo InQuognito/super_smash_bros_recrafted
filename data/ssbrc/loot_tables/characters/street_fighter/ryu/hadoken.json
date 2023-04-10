@@ -23,20 +23,20 @@
 							"entity": "this",
 							"lore": [
 								{
-									"text": "--------",
+									"translate": "--------",
 									"color": "gray",
 									"bold": false,
 									"italic": false
 								},
 								{
-									"text": "Ranged Weapon",
+									"translate": "ssbrc.tooltips.weapon.ranged",
 									"color": "white",
 									"bold": false,
 									"italic": false,
 									"underlined": true
 								},
 								{
-									"text": "- Inflicts burning on the opponent",
+									"translate": "ssbrc.tooltips.effects.burning",
 									"color": "gray",
 									"bold": false,
 									"italic": false

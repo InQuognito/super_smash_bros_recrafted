@@ -23,7 +23,7 @@
 							"entity": "this",
 							"lore": [
 								{
-									"text": "---------",
+									"translate": "---------",
 									"color": "gray",
 									"bold": false,
 									"italic": false
@@ -36,7 +36,7 @@
 									"underlined": true
 								},
 								{
-									"text": "- [",
+									"translate": "- [",
 									"color": "gray",
 									"bold": false,
 									"italic": false,

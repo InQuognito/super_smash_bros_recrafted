@@ -1,6 +1,6 @@
 scoreboard players add @e[type=minecraft:text_display,tag=voteCounter,tag=icicleMountain,limit=1] mapVote 1
 
-execute unless entity @s[tag=icicleMountain] run tellraw @a[tag=room.mapVoting] [{"selector":"@s","bold":false},{"text":" has voted for Icicle Mountain! Votes: ","color":"gold"},{"score":{"name":"@e[type=minecraft:text_display,tag=voteCounter,tag=icicleMountain,limit=1]","objective":"mapVote"},"bold":false,"color":"yellow"}]
+execute unless entity @s[tag=icicleMountain] run tellraw @a[tag=room.mapVoting] [{"selector":"@s","color":"yellow"},{"translate":"ssbrc.stageSelect.voteMap","color":"gold"},{"text":"Icicle Mountain","color":"gold"},{"translate":"ssbrc.stageSelect.voteMap.display","color":"gold"},{"score":{"name":"@e[type=minecraft:text_display,tag=voteCounter,tag=icicleMountain,limit=1]","objective":"mapVote"},"color":"yellow"}]
 
 function ssbrc:logic/pre_game/map_voting/update_counters/remove_vote
 tag @s add icicleMountain

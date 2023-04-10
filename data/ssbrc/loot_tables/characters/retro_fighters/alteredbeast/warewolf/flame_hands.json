@@ -23,20 +23,20 @@
 							"entity": "this",
 							"lore": [
 								{
-									"text": "------------",
+									"translate": "------------",
 									"color": "gray",
 									"bold": false,
 									"italic": false
 								},
 								{
-									"text": "Hybrid Weapon",
+									"translate": "ssbrc.tooltips.weapon.hybrid",
 									"color": "white",
 									"bold": false,
 									"italic": false,
 									"underlined": true
 								},
 								{
-									"text": "- [",
+									"translate": "- [",
 									"color": "gray",
 									"bold": false,
 									"italic": false,
@@ -56,7 +56,7 @@
 									]
 								},
 								{
-									"text": "- Inflicts burning on the opponent",
+									"translate": "ssbrc.tooltips.effects.burning",
 									"color": "gray",
 									"bold": false,
 									"italic": false

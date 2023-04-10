@@ -86,7 +86,7 @@
 											"italic": false,
 											"extra": [
 												{
-													"text": ".0",
+													"translate": ".0",
 													"color": "yellow",
 													"bold": false,
 													"italic": false,
@@ -145,7 +145,7 @@
 											"italic": false,
 											"extra": [
 												{
-													"text": ".",
+													"translate": ".",
 													"color": "yellow",
 													"bold": false,
 													"italic": false,
@@ -252,7 +252,7 @@
 											"italic": false,
 											"extra": [
 												{
-													"text": ".0",
+													"translate": ".0",
 													"color": "yellow",
 													"bold": false,
 													"italic": false,
@@ -311,7 +311,7 @@
 											"italic": false,
 											"extra": [
 												{
-													"text": ".",
+													"translate": ".",
 													"color": "yellow",
 													"bold": false,
 													"italic": false,
@@ -355,7 +355,7 @@
 							"entity": "this",
 							"lore": [
 								{
-									"text": "Credits: ",
+									"translate": "ssbrc.shop.credits",
 									"color": "gold",
 									"bold": false,
 									"italic": false,

@@ -1,9 +1,9 @@
 tag @s[tag=!gold,tag=!famicom,tag=!ancientMinister] add default
 
-tellraw @s [{"translate":"ssbrc.fighters.menu.selected","color":"white"},{"text":"R.O.B.","color":"white"},{"text":"!","color":"white"}]
+tellraw @s [{"translate":"ssbrc.fighters.menu.selected","color":"white"},{"translate":"ssbrc.fighters.rob","color":"white"},{"translate":"!","color":"white"}]
 
-tellraw @s[tag=default] [{"translate":"ssbrc.fighters.menu.skin","color":"white"},{"text":"Default","color":"white"}]
-tellraw @s[tag=gold] [{"translate":"ssbrc.fighters.menu.skin","color":"white"},{"text":"Gold","color":"gold"}]
+tellraw @s[tag=default] [{"translate":"ssbrc.fighters.menu.skin","color":"white"},{"translate":"ssbrc.fighters.skin.default","color":"white"}]
+tellraw @s[tag=gold] [{"translate":"ssbrc.fighters.menu.skin","color":"white"},{"translate":"ssbrc.fighters.skin.gold","color":"gold"}]
 tellraw @s[tag=famicom] [{"translate":"ssbrc.fighters.menu.skin","color":"white"},{"text":"Famicom","color":"red"}]
 tellraw @s[tag=ancientMinister] [{"translate":"ssbrc.fighters.menu.skin","color":"white"},{"text":"Ancient Minister","color":"dark_green"}]
 

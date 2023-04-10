@@ -2,7 +2,7 @@ advancement grant @s only ssbrc:series/donkey_kong/donkeykong/skins/super_kong
 
 scoreboard players operation @s stats.credits -= #price.skin.common vars
 
-tellraw @s [{"text":"You have purchased the ","color":"white"},{"text":"Super Kong","color":"white"},{"text":" skin!","color":"white"}]
+tellraw @s [{"translate":"ssbrc.shop.purchase.skin","color":"white"},{"text":"Super Kong","color":"white"},{"translate":"ssbrc.fighters.skinSuffix","color":"white"}]
 
 playsound minecraft:entity.player.levelup master @s ~ ~ ~
 

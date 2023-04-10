@@ -1,2 +1,2 @@
 # Joining for the first time
-tellraw @s [{"text":"??? | ","bold":true,"color":"yellow"},{"text":"Hey you! Come over here for a second, will you?","bold":false,"color":"white"}]
+tellraw @s [{"translate":"??? | ","bold":true,"color":"yellow"},{"translate":"ssbrc.sandbag.intro.1","bold":false,"color":"white"}]

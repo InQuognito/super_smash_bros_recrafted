@@ -1,7 +1,7 @@
 function ssbrc:series/retro_fighters/alteredbeast/kits/reset
 tag @s add waretiger
 
-tellraw @s [{"text":"Altered Beast Form: ","bold":true,"color":"gold"},{"text":"Waretiger","bold":false,"color":"yellow"}]
+tellraw @s [{"translate":"ssbrc.fighters.alteredbeast.form","bold":true,"color":"gold"},{"translate":"ssbrc.fighters.alteredbeast.form.waretiger","bold":false,"color":"yellow"}]
 
 function ssbrc:logic/characters/attributes/defaults
 

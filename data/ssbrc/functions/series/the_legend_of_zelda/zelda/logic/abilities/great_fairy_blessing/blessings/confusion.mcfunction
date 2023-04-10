@@ -9,4 +9,4 @@ execute if entity @s[team=team6] run effect give @a[predicate=ssbrc:flag/player,
 execute if entity @s[team=team7] run effect give @a[predicate=ssbrc:flag/player,team=!team7] minecraft:nausea 15 255 true
 execute if entity @s[team=team8] run effect give @a[predicate=ssbrc:flag/player,team=!team8] minecraft:nausea 15 255 true
 
-tellraw @s [{"text":"Blessing: ","color":"yellow"},{"text":"Confusion","color":"light_purple"}]
+tellraw @s [{"translate":"ssbrc.fighters.zelda.blessing","color":"yellow"},{"translate":"ssbrc.fighters.zelda.blessing.confusion","color":"light_purple"}]

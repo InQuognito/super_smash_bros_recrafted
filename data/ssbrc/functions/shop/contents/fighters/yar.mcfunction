@@ -2,7 +2,7 @@ advancement grant @s only ssbrc:series/retro_fighters/yar/skins/default
 
 scoreboard players operation @s stats.credits -= #price.fighter.common vars
 
-tellraw @s [{"text":"You have purchased ","color":"white"},{"text":"Yar","color":"white"},{"text":"!","color":"white"}]
+tellraw @s [{"translate":"ssbrc.shop.purchase.fighter","color":"white"},{"translate":"ssbrc.fighters.yar","color":"white"},{"translate":"!","color":"white"}]
 
 playsound minecraft:entity.player.levelup master @s ~ ~ ~
 

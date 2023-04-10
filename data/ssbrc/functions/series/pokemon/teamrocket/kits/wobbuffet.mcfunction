@@ -3,7 +3,7 @@ tag @s add nextFighterChosen
 
 tag @s add wobbuffet
 
-tellraw @s {"text":"Wobbu-Wobb!","color":"aqua"}
+tellraw @s {"translate":"ssbrc.fighters.teamrocket.wobbuffet.switch","color":"aqua"}
 
 clear @s
 loot replace entity @s hotbar.0 loot ssbrc:characters/pokemon/teamrocket/wobbuffet/counter

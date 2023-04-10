@@ -1,7 +1,7 @@
 function ssbrc:series/retro_fighters/alteredbeast/kits/reset
 tag @s add warebear
 
-tellraw @s [{"text":"Altered Beast Form: ","bold":true,"color":"gold"},{"text":"Warebear","bold":false,"color":"yellow"}]
+tellraw @s [{"translate":"ssbrc.fighters.alteredbeast.form","bold":true,"color":"gold"},{"translate":"ssbrc.fighters.alteredbeast.form.warebear","bold":false,"color":"yellow"}]
 
 function ssbrc:logic/characters/attributes/defaults
 execute unless score $sectorZ map matches 1 run function ssbrc:logic/characters/effects/defaults/jump_boost

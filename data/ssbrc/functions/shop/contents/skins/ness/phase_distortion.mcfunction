@@ -2,7 +2,7 @@ advancement grant @s only ssbrc:series/earthbound/ness/skins/phase_distortion
 
 scoreboard players operation @s stats.credits -= #price.skin.common vars
 
-tellraw @s [{"text":"You have purchased the ","color":"white"},{"text":"Phase Distortion","color":"gray"},{"text":" skin!","color":"white"}]
+tellraw @s [{"translate":"ssbrc.shop.purchase.skin","color":"white"},{"text":"Phase Distortion","color":"gray"},{"translate":"ssbrc.fighters.skinSuffix","color":"white"}]
 
 playsound minecraft:entity.player.levelup master @s ~ ~ ~
 

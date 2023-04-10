@@ -23,7 +23,7 @@
 							"entity": "this",
 							"lore": [
 								{
-									"text": "Price: ",
+									"translate": "ssbrc.shop.price",
 									"color": "yellow",
 									"bold": false,
 									"italic": false,
@@ -37,19 +37,19 @@
 											"italic": false
 										},
 										{
-											"text": "₡",
+											"translate": "₡",
 											"color": "yellow"
 										}
 									]
 								},
 								{
-									"text": "",
+									"translate": "",
 									"color": "white",
 									"bold": false,
 									"italic": false
 								},
 								{
-									"text": "Insufficient credits",
+									"translate": "ssbrc.shop.cannotAfford",
 									"color": "red",
 									"bold": false,
 									"italic": false

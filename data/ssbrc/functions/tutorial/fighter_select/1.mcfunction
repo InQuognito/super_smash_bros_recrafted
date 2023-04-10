@@ -1,2 +1,2 @@
 # Talking to Mr. Sandbag in the Fighter Select room for the first time
-tellraw @s [{"text":"Mr. Sandbag | ","bold":true,"color":"yellow"},{"text":"You made it, good! In this room, you can select a fighter to enter the battle with. Each fighter has a different set of attributes and abilities. To select a fighter, aim your Selector at them and use the item! This will bring up a menu with three buttons that you can click. Go try it now!","bold":false,"color":"white"}]
+tellraw @s [{"translate":"Mr. Sandbag | ","bold":true,"color":"yellow"},{"translate":"ssbrc.sandbag.fighterSelect.1","bold":false,"color":"white"}]

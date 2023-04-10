@@ -2,7 +2,7 @@ advancement grant @s only ssbrc:series/sonic_the_hedgehog/shadow/skins/default
 
 scoreboard players operation @s stats.credits -= #price.fighter.common vars
 
-tellraw @s [{"text":"You have purchased ","color":"white"},{"text":"Shadow","color":"dark_red"},{"text":"!","color":"white"}]
+tellraw @s [{"translate":"ssbrc.shop.purchase.fighter","color":"white"},{"translate":"ssbrc.fighters.shadow","color":"dark_red"},{"translate":"!","color":"white"}]
 
 playsound minecraft:entity.player.levelup master @s ~ ~ ~
 

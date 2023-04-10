@@ -2,7 +2,7 @@ advancement grant @s only ssbrc:series/super_smash_bros/rob/skins/ancient_minist
 
 scoreboard players operation @s stats.credits -= #price.skin.common vars
 
-tellraw @s [{"text":"You have purchased the ","color":"white"},{"text":"Ancient Minister","color":"dark_green"},{"text":" skin!","color":"white"}]
+tellraw @s [{"translate":"ssbrc.shop.purchase.skin","color":"white"},{"text":"Ancient Minister","color":"dark_green"},{"translate":"ssbrc.fighters.skinSuffix","color":"white"}]
 
 playsound minecraft:entity.player.levelup master @s ~ ~ ~
 

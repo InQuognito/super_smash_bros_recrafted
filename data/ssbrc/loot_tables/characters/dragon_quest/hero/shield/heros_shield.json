@@ -23,13 +23,13 @@
 							"entity": "this",
 							"lore": [
 								{
-									"text": "-------------",
+									"translate": "-------------",
 									"color": "gray",
 									"bold": false,
 									"italic": false
 								},
 								{
-									"text": "Defensive Equipment",
+									"translate": "ssbrc.tooltips.equipment.defensive",
 									"color": "white",
 									"bold": false,
 									"italic": false,

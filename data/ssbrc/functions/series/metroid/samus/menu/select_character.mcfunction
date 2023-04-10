@@ -1,9 +1,9 @@
 tag @s[tag=!gold,tag=!gravitySuit,tag=!phazonSuit] add default
 
-tellraw @s [{"translate":"ssbrc.fighters.menu.selected","color":"white"},{"text":"Samus","color":"gold"},{"text":"!","color":"white"}]
+tellraw @s [{"translate":"ssbrc.fighters.menu.selected","color":"white"},{"translate":"ssbrc.fighters.samus","color":"gold"},{"translate":"!","color":"white"}]
 
-tellraw @s[tag=default] [{"translate":"ssbrc.fighters.menu.skin","color":"white"},{"text":"Default","color":"gold"}]
-tellraw @s[tag=gold] [{"translate":"ssbrc.fighters.menu.skin","color":"white"},{"text":"Gold","color":"gold"}]
+tellraw @s[tag=default] [{"translate":"ssbrc.fighters.menu.skin","color":"white"},{"translate":"ssbrc.fighters.skin.default","color":"gold"}]
+tellraw @s[tag=gold] [{"translate":"ssbrc.fighters.menu.skin","color":"white"},{"translate":"ssbrc.fighters.skin.gold","color":"gold"}]
 tellraw @s[tag=gravitySuit] [{"translate":"ssbrc.fighters.menu.skin","color":"white"},{"text":"Gravity Suit","color":"aqua"}]
 tellraw @s[tag=phazonSuit] [{"translate":"ssbrc.fighters.menu.skin","color":"white"},{"text":"Phazon Suit","color":"red"}]
 

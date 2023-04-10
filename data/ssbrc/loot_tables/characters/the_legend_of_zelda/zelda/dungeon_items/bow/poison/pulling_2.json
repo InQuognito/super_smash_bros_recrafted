@@ -31,20 +31,20 @@
 							"entity": "this",
 							"lore": [
 								{
-									"text": "-----------------",
+									"translate": "-----------------",
 									"color": "gray",
 									"bold": false,
 									"italic": false
 								},
 								{
-									"text": "Magic Weapon",
+									"translate": "ssbrc.tooltips.weapon.magic",
 									"color": "white",
 									"bold": false,
 									"italic": false,
 									"underlined": true
 								},
 								{
-									"text": "- Inflicts poison on the opponent",
+									"translate": "ssbrc.tooltips.effects.poison",
 									"color": "gray",
 									"bold": false,
 									"italic": false

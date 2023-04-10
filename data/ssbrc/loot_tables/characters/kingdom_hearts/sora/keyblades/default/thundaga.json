@@ -70,20 +70,20 @@
 							"entity": "this",
 							"lore": [
 								{
-									"text": "----------------------",
+									"translate": "----------------------",
 									"color": "gray",
 									"bold": false,
 									"italic": false
 								},
 								{
-									"text": "Hybrid Weapon",
+									"translate": "ssbrc.tooltips.weapon.hybrid",
 									"color": "white",
 									"bold": false,
 									"italic": false,
 									"underlined": true
 								},
 								{
-									"text": "- [",
+									"translate": "- [",
 									"color": "gray",
 									"bold": false,
 									"italic": false,
@@ -103,7 +103,7 @@
 									]
 								},
 								{
-									"text": "- [",
+									"translate": "- [",
 									"color": "gray",
 									"bold": false,
 									"italic": false,
@@ -115,7 +115,7 @@
 											"italic": false
 										},
 										{
-											"text": "] + [",
+											"translate": "] + [",
 											"color": "gray",
 											"bold": false,
 											"italic": false
@@ -141,7 +141,7 @@
 									"italic": false,
 									"extra": [
 										{
-											"text": " -> ",
+											"translate": " -> ",
 											"color": "white",
 											"bold": false,
 											"italic": false
@@ -153,7 +153,7 @@
 											"italic": false
 										},
 										{
-											"text": " -> ",
+											"translate": " -> ",
 											"color": "white",
 											"bold": false,
 											"italic": false
@@ -186,20 +186,20 @@
 							"entity": "this",
 							"lore": [
 								{
-									"text": "----------------------",
+									"translate": "----------------------",
 									"color": "gray",
 									"bold": false,
 									"italic": false
 								},
 								{
-									"text": "Hybrid Weapon",
+									"translate": "ssbrc.tooltips.weapon.hybrid",
 									"color": "white",
 									"bold": false,
 									"italic": false,
 									"underlined": true
 								},
 								{
-									"text": "- [",
+									"translate": "- [",
 									"color": "gray",
 									"bold": false,
 									"italic": false,
@@ -219,7 +219,7 @@
 									]
 								},
 								{
-									"text": "- [",
+									"translate": "- [",
 									"color": "gray",
 									"bold": false,
 									"italic": false,
@@ -231,7 +231,7 @@
 											"italic": false
 										},
 										{
-											"text": "] + [",
+											"translate": "] + [",
 											"color": "gray",
 											"bold": false,
 											"italic": false
@@ -257,7 +257,7 @@
 									"italic": false,
 									"extra": [
 										{
-											"text": " -> ",
+											"translate": " -> ",
 											"color": "white",
 											"bold": false,
 											"italic": false
@@ -269,7 +269,7 @@
 											"italic": false
 										},
 										{
-											"text": " -> ",
+											"translate": " -> ",
 											"color": "white",
 											"bold": false,
 											"italic": false

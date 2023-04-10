@@ -12,7 +12,7 @@
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"text": "Credits: ",
+								"translate": "ssbrc.shop.credits",
 								"color": "gold",
 								"bold": true,
 								"italic": false,
@@ -27,7 +27,7 @@
 										"italic": false
 									},
 									{
-										"text": "₡",
+										"translate": "₡",
 										"color": "yellow",
 										"bold": false,
 										"italic": false

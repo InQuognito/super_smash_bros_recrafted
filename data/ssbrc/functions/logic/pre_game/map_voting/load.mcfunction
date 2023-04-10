@@ -48,7 +48,7 @@ function ssbrc:logic/pre_game/map_voting/map_choices/stages/big_battlefield
 function ssbrc:logic/pre_game/map_voting/map_choices/stages/final_destination
 function ssbrc:logic/pre_game/map_voting/map_choices/stages/random
 
-summon minecraft:text_display -37.5 8.25 7.5 {text:'[{"text":"✪ ","color":"gold"},{"translate":"ssbrc.stageSelect.stageIndex","color":"gold"},{"text":" ✪","color":"gold"}]',billboard:center}
+summon minecraft:text_display -37.5 8.25 7.5 {text:'[{"translate":"✪ ","color":"gold"},{"translate":"ssbrc.stageSelect.stageIndex","color":"gold"},{"translate":" ✪","color":"gold"}]',billboard:center}
 
 scoreboard players set @e[type=minecraft:text_display,tag=voteCounter] mapVote 0
 

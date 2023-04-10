@@ -23,13 +23,13 @@
 							"entity": "this",
 							"lore": [
 								{
-									"text": "",
+									"translate": "",
 									"color": "white",
 									"bold": false,
 									"italic": false
 								},
 								{
-									"text": "Owned",
+									"translate": "ssbrc.shop.owned",
 									"color": "green",
 									"bold": false,
 									"italic": false

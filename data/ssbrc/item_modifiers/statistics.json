@@ -14,7 +14,7 @@
 		"entity": "this",
 		"lore": [
 			{
-				"text": "---------------",
+				"translate": "---------------",
 				"color": "gray",
 				"bold": false,
 				"italic": false
@@ -76,7 +76,7 @@
 						"italic": false,
 						"extra": [
 							{
-								"text": "%",
+								"translate": "%",
 								"color": "yellow",
 								"bold": false,
 								"italic": false
@@ -149,7 +149,7 @@
 						"italic": false,
 						"extra": [
 							{
-								"text": ".0",
+								"translate": ".0",
 								"color": "yellow",
 								"bold": false,
 								"italic": false,
@@ -208,7 +208,7 @@
 						"italic": false,
 						"extra": [
 							{
-								"text": ".",
+								"translate": ".",
 								"color": "yellow",
 								"bold": false,
 								"italic": false,
@@ -252,7 +252,7 @@
 		"entity": "this",
 		"lore": [
 			{
-				"text": "- [",
+				"translate": "- [",
 				"color": "gray",
 				"bold": false,
 				"italic": false,

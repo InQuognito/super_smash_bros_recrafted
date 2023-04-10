@@ -23,7 +23,7 @@
 							"entity": "this",
 							"lore": [
 								{
-									"text": "Price: ",
+									"translate": "ssbrc.shop.price",
 									"color": "yellow",
 									"bold": false,
 									"italic": false,
@@ -37,19 +37,19 @@
 											"italic": false
 										},
 										{
-											"text": "₡",
+											"translate": "₡",
 											"color": "yellow"
 										}
 									]
 								},
 								{
-									"text": "",
+									"translate": "",
 									"color": "white",
 									"bold": false,
 									"italic": false
 								},
 								{
-									"text": "Click to purchase!",
+									"translate": "ssbrc.shop.purchase",
 									"color": "green",
 									"bold": false,
 									"italic": false

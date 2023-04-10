@@ -1,9 +1,9 @@
 tag @s[tag=!gold,tag=!erdrick,tag=!rek,tag=!sofia] add default
 
-tellraw @s [{"translate":"ssbrc.fighters.menu.selected","color":"white"},{"text":"Hero","color":"yellow"},{"text":"!","color":"white"}]
+tellraw @s [{"translate":"ssbrc.fighters.menu.selected","color":"white"},{"translate":"ssbrc.fighters.hero","color":"yellow"},{"translate":"!","color":"white"}]
 
-tellraw @s[tag=default] [{"translate":"ssbrc.fighters.menu.skin","color":"white"},{"text":"Default","color":"yellow"}]
-tellraw @s[tag=gold] [{"translate":"ssbrc.fighters.menu.skin","color":"white"},{"text":"Gold","color":"gold"}]
+tellraw @s[tag=default] [{"translate":"ssbrc.fighters.menu.skin","color":"white"},{"translate":"ssbrc.fighters.skin.default","color":"yellow"}]
+tellraw @s[tag=gold] [{"translate":"ssbrc.fighters.menu.skin","color":"white"},{"translate":"ssbrc.fighters.skin.gold","color":"gold"}]
 tellraw @s[tag=erdrick] [{"translate":"ssbrc.fighters.menu.skin","color":"white"},{"text":"Erdrick","color":"gray"}]
 tellraw @s[tag=rek] [{"translate":"ssbrc.fighters.menu.skin","color":"white"},{"text":"Rek","color":"blue"}]
 tellraw @s[tag=sofia] [{"translate":"ssbrc.fighters.menu.skin","color":"white"},{"text":"Sofia","color":"green"}]

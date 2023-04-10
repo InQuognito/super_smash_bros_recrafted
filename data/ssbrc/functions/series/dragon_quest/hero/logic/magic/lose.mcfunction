@@ -1,4 +1,4 @@
-title @s actionbar [{"text":"Out of Mana: Warrior Switch","bold":true,"color":"red"}]
+title @s actionbar [{"translate":"ssbrc.fighters.hero.warriorSwitch","bold":true,"color":"red"}]
 
 clear @s #ssbrc:equipment
 loot replace entity @s[tag=!erdrick,tag=!rek,tag=!sofia] hotbar.0 loot ssbrc:characters/dragon_quest/hero/sword/sword_of_light
