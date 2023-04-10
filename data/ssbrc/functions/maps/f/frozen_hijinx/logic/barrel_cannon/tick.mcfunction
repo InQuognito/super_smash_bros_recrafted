@@ -6,4 +6,4 @@ execute if score @s timer.barrelCannon matches 40.. run function ssbrc:maps/f/fr
 teleport @s[tag=inCannon] @e[type=minecraft:item_display,tag=barrelCannon,sort=nearest,limit=1]
 teleport @s[tag=followCannonPath] @e[type=minecraft:armor_stand,tag=barrelCannon.path,sort=nearest,limit=1]
 
-execute if entity @s[tag=followCannonPath] run particle minecraft:smoke ~ ~0.75 ~ 0.05 0.05 0.05 0.0 1 normal @a
+execute if entity @s[tag=followCannonPath] run particle minecraft:smoke ~ ~0.75 ~ 0.1 0.1 0.1 0.05 5 normal @a
