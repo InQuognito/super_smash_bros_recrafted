@@ -13,6 +13,7 @@ scoreboard players set #cloud.maxLimit vars 70
 scoreboard players set #darksamus.chargeBeamThreshold vars 40
 scoreboard players set #darksamus.phazonOverloadRange vars 8
 
+scoreboard players set #donkeykong.barrelMaxRotation vars 160
 scoreboard players set #donkeykong.orangeGrenadeMaxRotation vars 160
 
 scoreboard players set #fox.fireFoxThreshold vars 30
