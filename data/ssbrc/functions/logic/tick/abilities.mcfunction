@@ -15,6 +15,7 @@ execute as @e[type=minecraft:marker,tag=phazonPool] at @s if score @s id = @p[ta
 execute as @e[type=minecraft:item_display,tag=phazonSpike] at @s if score @s id = @p[tag=self] id run function ssbrc:series/metroid/darksamus/logic/abilities/phazon_spike/tick_spike
 
 # Donkey Kong
+execute as @e[type=minecraft:armor_stand,tag=barrel] at @s if score @s id = @p[tag=self] id run function ssbrc:series/donkey_kong/donkeykong/logic/abilities/barrel/tick
 execute as @e[type=minecraft:marker,tag=orangeGrenade] at @s if score @s id = @p[tag=self] id run function ssbrc:series/donkey_kong/donkeykong/logic/abilities/orange_grenade/tick
 
 # Fox
