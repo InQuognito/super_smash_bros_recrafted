@@ -5,4 +5,6 @@ playsound minecraft:block.wood.break player @a
 
 kill @s
 
+loot give @p[tag=self] loot ssbrc:characters/donkey_kong/donkeykong/barrel
+
 execute if entity @e[predicate=ssbrc:flag/targets,distance=..3] as @p[tag=self] at @s run playsound minecraft:entity.arrow.hit_player player @s
