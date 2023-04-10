@@ -1,6 +1,6 @@
 scoreboard players set @s charge.3 0
 
-kill @e[type=minecraft:armor_stand,tag=fireFox,sort=nearest,limit=1]
+kill @e[type=minecraft:marker,tag=fireFox,sort=nearest,limit=1]
 
 effect clear @s minecraft:levitation
 

@@ -1,4 +1,4 @@
-kill @e[type=minecraft:armor_stand,tag=raptorBoost,sort=nearest,limit=1]
+kill @e[type=minecraft:marker,tag=raptorBoost,sort=nearest,limit=1]
 
 effect clear @s minecraft:levitation
 
