@@ -1,4 +1,4 @@
-summon minecraft:armor_stand ^ ^ ^1 {Tags:["barrel","modifyEntity"]}
+summon minecraft:armor_stand ^ ^ ^1 {Tags:["barrel","modifyEntity"],Invisible:1b,Invulnerable:1b,Small:1b,DisabledSlots:4144959}
 loot replace entity @e[tag=modifyEntity,limit=1] armor.head loot ssbrc:characters/donkey_kong/donkeykong/barrel
 
 scoreboard players operation @e[tag=modifyEntity,limit=1] id = @s id
