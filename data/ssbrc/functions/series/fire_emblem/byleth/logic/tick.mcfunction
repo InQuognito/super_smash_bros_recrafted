@@ -12,6 +12,10 @@ execute if entity @s[tag=blackEagles,predicate=ssbrc:flag/sneaking,scores={charg
 execute if entity @s[tag=blackEagles,predicate=!ssbrc:flag/sneaking,nbt=!{Inventory:[{tag:{shield:1}}]}] unless score @s charge.output matches 1.. run function ssbrc:series/fire_emblem/byleth/logic/black_eagles/ground_pound/shield
 
 # Spin Attack
+scoreboard players add $spinAttack rotation 15
+execute if score $spinAttack rotation matches 360.. run scoreboard players reset $spinAttack rotation
+execute as @e[type=minecraft:marker,tag=byleth.spinner,limit=1] store result entity @s Rotation[0] float 1.0 run scoreboard players get $spinAttack rotation
+
 execute if entity @s[tag=blueLions,predicate=ssbrc:flag/sneaking,scores={charge.output=1..},nbt={SelectedItem:{tag:{areadbhar:1}}}] at @s positioned ~ ~0.75 ~ run function ssbrc:series/fire_emblem/byleth/logic/blue_lions/spin_attack/charge
 execute if entity @s[tag=blueLions,predicate=!ssbrc:flag/sneaking,scores={charge.output=1..},nbt={SelectedItem:{tag:{areadbhar:1}}}] run function ssbrc:series/fire_emblem/byleth/logic/blue_lions/spin_attack/cancel
 
