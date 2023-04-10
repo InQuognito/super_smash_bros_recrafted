@@ -26,6 +26,6 @@ summon minecraft:item_display 23345.5 5.75 8628.5 {Tags:["dot","b"],item:{id:"mi
 summon minecraft:item_display 23346.5 5.75 8628.5 {Tags:["dot","b"],item:{id:"minecraft:sugar",Count:1b,tag:{CustomModelData:1343}},brightness:{sky:14,block:14},transformation:[0.5f,0.0f,0.0f,0.0f,0.0f,0.5f,0.0f,0.0f,0.0f,0.0f,0.5f,0.0f,0.0f,0.0f,0.0f,1.0f]}
 summon minecraft:item_display 23347.5 5.75 8628.5 {Tags:["dot","b"],item:{id:"minecraft:sugar",Count:1b,tag:{CustomModelData:1343}},brightness:{sky:14,block:14},transformation:[0.5f,0.0f,0.0f,0.0f,0.0f,0.5f,0.0f,0.0f,0.0f,0.0f,0.5f,0.0f,0.0f,0.0f,0.0f,1.0f]}
 
-execute store result score $dotGroup.b temp if entity @e[tag=b]
+execute store result score $dotGroup.b temp if entity @e[type=minecraft:item_display,tag=b]
 
 scoreboard players set #spawnedDotGroup temp 1
