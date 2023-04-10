@@ -7,4 +7,4 @@ execute positioned ~-0.5 ~ ~-0.5 as @e[tag=!self,predicate=ssbrc:flag/targets,dy
 execute if block ^ ^ ^0.75 #ssbrc:passthrough_charge run teleport @s ^ ^ ^0.6
 
 scoreboard players add @s temp 1
-kill @s[scores={temp=30..}]
+kill @s[scores={temp=15..}]
