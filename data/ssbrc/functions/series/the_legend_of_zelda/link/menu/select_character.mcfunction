@@ -4,9 +4,9 @@ execute if score $blindPick options matches 0 run tellraw @s [{"translate":"ssbr
 
 execute if score $blindPick options matches 0 run tellraw @s[tag=default] [{"translate":"ssbrc.fighters.menu.skin","color":"white"},{"translate":"ssbrc.fighters.skin.default","color":"dark_green"}]
 execute if score $blindPick options matches 0 run tellraw @s[tag=gold] [{"translate":"ssbrc.fighters.menu.skin","color":"white"},{"translate":"ssbrc.fighters.skin.gold","color":"gold"}]
-execute if score $blindPick options matches 0 run tellraw @s[tag=dark] [{"translate":"ssbrc.fighters.menu.skin","color":"white"},{"text":"Dark Link","color":"dark_gray"}]
-execute if score $blindPick options matches 0 run tellraw @s[tag=goron] [{"translate":"ssbrc.fighters.menu.skin","color":"white"},{"text":"Goron Tunic","color":"red"}]
-execute if score $blindPick options matches 0 run tellraw @s[tag=zora] [{"translate":"ssbrc.fighters.menu.skin","color":"white"},{"text":"Zora Tunic","color":"blue"}]
+execute if score $blindPick options matches 0 run tellraw @s[tag=dark] [{"translate":"ssbrc.fighters.menu.skin","color":"white"},{"translate":"ssbrc.fighters.link.skin.darkLink","color":"dark_gray"}]
+execute if score $blindPick options matches 0 run tellraw @s[tag=goron] [{"translate":"ssbrc.fighters.menu.skin","color":"white"},{"translate":"ssbrc.fighters.link.skin.goronTunic","color":"red"}]
+execute if score $blindPick options matches 0 run tellraw @s[tag=zora] [{"translate":"ssbrc.fighters.menu.skin","color":"white"},{"translate":"ssbrc.fighters.link.skin.zoraTunic","color":"blue"}]
 
 function ssbrc:logic/resets/tags/characters
 tag @s add link

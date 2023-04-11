@@ -4,7 +4,7 @@ execute if score $blindPick options matches 0 run tellraw @s [{"translate":"ssbr
 
 execute if score $blindPick options matches 0 run tellraw @s[tag=default] [{"translate":"ssbrc.fighters.menu.skin","color":"white"},{"translate":"ssbrc.fighters.skin.default","color":"white"}]
 execute if score $blindPick options matches 0 run tellraw @s[tag=gold] [{"translate":"ssbrc.fighters.menu.skin","color":"white"},{"translate":"ssbrc.fighters.skin.gold","color":"gold"}]
-execute if score $blindPick options matches 0 run tellraw @s[tag=timelessRiver] [{"translate":"ssbrc.fighters.menu.skin","color":"white"},{"text":"Timeless River","color":"gray"}]
+execute if score $blindPick options matches 0 run tellraw @s[tag=timelessRiver] [{"translate":"ssbrc.fighters.menu.skin","color":"white"},{"translate":"ssbrc.fighters.sora.skin.timelessRiver","color":"gray"}]
 
 function ssbrc:logic/resets/tags/characters
 tag @s add sora

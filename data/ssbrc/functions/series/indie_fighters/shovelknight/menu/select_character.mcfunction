@@ -4,8 +4,8 @@ execute if score $blindPick options matches 0 run tellraw @s [{"translate":"ssbr
 
 execute if score $blindPick options matches 0 run tellraw @s[tag=default] [{"translate":"ssbrc.fighters.menu.skin","color":"white"},{"translate":"ssbrc.fighters.skin.default","color":"dark_aqua"}]
 execute if score $blindPick options matches 0 run tellraw @s[tag=gold] [{"translate":"ssbrc.fighters.menu.skin","color":"white"},{"translate":"ssbrc.fighters.skin.gold","color":"gold"}]
-execute if score $blindPick options matches 0 run tellraw @s[tag=armorOfChaos] [{"translate":"ssbrc.fighters.menu.skin","color":"white"},{"text":"Armor of Chaos","color":"red"}]
-execute if score $blindPick options matches 0 run tellraw @s[tag=toadGear] [{"translate":"ssbrc.fighters.menu.skin","color":"white"},{"text":"Toad Gear","color":"green"}]
+execute if score $blindPick options matches 0 run tellraw @s[tag=armorOfChaos] [{"translate":"ssbrc.fighters.menu.skin","color":"white"},{"translate":"ssbrc.fighters.shovelknight.skin.armorOfChaos","color":"red"}]
+execute if score $blindPick options matches 0 run tellraw @s[tag=toadGear] [{"translate":"ssbrc.fighters.menu.skin","color":"white"},{"translate":"ssbrc.fighters.shovelknight.skin.toadGear","color":"green"}]
 
 function ssbrc:logic/resets/tags/characters
 tag @s add shovelknight

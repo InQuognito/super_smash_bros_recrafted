@@ -4,9 +4,9 @@ execute if score $blindPick options matches 0 run tellraw @s [{"translate":"ssbr
 
 execute if score $blindPick options matches 0 run tellraw @s[tag=default] [{"translate":"ssbrc.fighters.menu.skin","color":"white"},{"translate":"ssbrc.fighters.skin.default","color":"red"}]
 execute if score $blindPick options matches 0 run tellraw @s[tag=gold] [{"translate":"ssbrc.fighters.menu.skin","color":"white"},{"translate":"ssbrc.fighters.skin.gold","color":"gold"}]
-execute if score $blindPick options matches 0 run tellraw @s[tag=shiny] [{"translate":"ssbrc.fighters.menu.skin","color":"white"},{"text":"Shiny","color":"dark_gray"}]
-execute if score $blindPick options matches 0 run tellraw @s[tag=dawn] [{"translate":"ssbrc.fighters.menu.skin","color":"white"},{"text":"Dawn","color":"light_purple"}]
-execute if score $blindPick options matches 0 run tellraw @s[tag=victor] [{"translate":"ssbrc.fighters.menu.skin","color":"white"},{"text":"Victor","color":"dark_blue"}]
+execute if score $blindPick options matches 0 run tellraw @s[tag=shiny] [{"translate":"ssbrc.fighters.menu.skin","color":"white"},{"translate":"ssbrc.series.pokemon.skins.shiny","color":"dark_gray"}]
+execute if score $blindPick options matches 0 run tellraw @s[tag=dawn] [{"translate":"ssbrc.fighters.menu.skin","color":"white"},{"translate":"ssbrc.fighters.pokemontrainer.skin.dawn","color":"light_purple"}]
+execute if score $blindPick options matches 0 run tellraw @s[tag=victor] [{"translate":"ssbrc.fighters.menu.skin","color":"white"},{"translate":"ssbrc.fighters.pokemontrainer.skin.victor","color":"dark_blue"}]
 
 function ssbrc:logic/resets/tags/characters
 tag @s add pokemontrainer

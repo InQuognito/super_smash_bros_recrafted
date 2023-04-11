@@ -4,7 +4,7 @@ execute if score $blindPick options matches 0 run tellraw @s [{"translate":"ssbr
 
 execute if score $blindPick options matches 0 run tellraw @s[tag=default] [{"translate":"ssbrc.fighters.menu.skin","color":"white"},{"translate":"ssbrc.fighters.skin.default","color":"red"}]
 execute if score $blindPick options matches 0 run tellraw @s[tag=gold] [{"translate":"ssbrc.fighters.menu.skin","color":"white"},{"translate":"ssbrc.fighters.skin.gold","color":"gold"}]
-execute if score $blindPick options matches 0 run tellraw @s[tag=ocarinaOfTime] [{"translate":"ssbrc.fighters.menu.skin","color":"white"},{"text":"Ocarina of Time","color":"red"}]
+execute if score $blindPick options matches 0 run tellraw @s[tag=ocarinaOfTime] [{"translate":"ssbrc.fighters.menu.skin","color":"white"},{"translate":"ssbrc.fighters.ganondorf.skin.ocarinaOfTime","color":"red"}]
 
 function ssbrc:logic/resets/tags/characters
 tag @s add ganondorf

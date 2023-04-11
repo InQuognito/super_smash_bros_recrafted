@@ -1,5 +1,5 @@
 advancement grant @s only ssbrc:series/pokemon/pikachu/skins/shiny
 
-tellraw @s [{"text":"You have caught a shiny Pikachu and unlocked their ","color":"white"},{"text":"Shiny","color":"gold"},{"translate":"ssbrc.fighters.skinSuffix","color":"white"}]
+tellraw @s [{"translate":"ssbrc.series.pokemon.catchShiny","color":"white"},{"translate":"ssbrc.fighters.pikachu","color":"white"},{"translate":"ssbrc.fighters.unlockResult","color":"white"},{"translate":"ssbrc.series.pokemon.skins.shiny","color":"yellow"},{"translate":"ssbrc.fighters.skinSuffix","color":"white"}]
 
 playsound minecraft:entity.player.levelup master @s ~ ~ ~

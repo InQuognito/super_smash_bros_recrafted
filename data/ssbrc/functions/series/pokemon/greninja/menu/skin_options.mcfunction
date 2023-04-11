@@ -2,7 +2,7 @@ tellraw @s [{"translate":"ssbrc.fighters.menu.ulockedSkins","bold":true,"color":
 
 tellraw @s [{"translate":"[ ","color":"dark_green","bold":false},{"translate":"ssbrc.fighters.skin.default","color":"green","clickEvent":{"action":"run_command","value":"/trigger menu set 424"}},{"translate":" ]","color":"dark_green"}]
 tellraw @s[advancements={ssbrc:series/pokemon/greninja/skins/gold=true}] [{"translate":"[ ","color":"dark_green"},{"translate":"ssbrc.fighters.skin.gold","color":"gold","clickEvent":{"action":"run_command","value":"/trigger menu set 425"}},{"translate":" ]","color":"dark_green"}]
-tellraw @s[advancements={ssbrc:series/pokemon/greninja/skins/shiny=true}] [{"translate":"[ ","color":"dark_green"},{"text":"Shiny","color":"black","clickEvent":{"action":"run_command","value":"/trigger menu set 426"}},{"translate":" ]","color":"dark_green"}]
+tellraw @s[advancements={ssbrc:series/pokemon/greninja/skins/shiny=true}] [{"translate":"[ ","color":"dark_green"},{"translate":"ssbrc.series.pokemon.skins.shiny","color":"black","clickEvent":{"action":"run_command","value":"/trigger menu set 426"}},{"translate":" ]","color":"dark_green"}]
 
 tellraw @s [{"translate":"==========","bold":true,"color":"yellow"}]
 

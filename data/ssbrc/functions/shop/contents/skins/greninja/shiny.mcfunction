@@ -1,5 +1,5 @@
 advancement grant @s only ssbrc:series/pokemon/greninja/skins/shiny
 
-tellraw @s [{"text":"You have caught a shiny Greninja and unlocked their ","color":"white"},{"text":"Shiny","color":"dark_gray"},{"translate":"ssbrc.fighters.skinSuffix","color":"white"}]
+tellraw @s [{"translate":"ssbrc.series.pokemon.catchShiny","color":"white"},{"translate":"ssbrc.fighters.greninja","color":"white"},{"translate":"ssbrc.fighters.unlockResult","color":"white"},{"translate":"ssbrc.series.pokemon.skins.shiny","color":"yellow"},{"translate":"ssbrc.fighters.skinSuffix","color":"white"}]
 
 playsound minecraft:entity.player.levelup master @s ~ ~ ~

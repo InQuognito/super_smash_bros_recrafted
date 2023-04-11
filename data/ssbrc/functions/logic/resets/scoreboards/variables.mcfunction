@@ -74,17 +74,23 @@ scoreboard players set #sora.thundagaMPCost vars 5
 scoreboard players set #sora.thundazaMPCost vars 5
 scoreboard players set #sora.thundazaRange vars 30
 
+scoreboard players set #snake.totalWeight vars 10
 scoreboard players set #snake.psg1Weight vars 5
 scoreboard players set #snake.psg1Reload vars 100
+scoreboard players set #snake.psg1Scavenger vars 3
 scoreboard players set #snake.famasWeight vars 5
 scoreboard players set #snake.famasReload vars 50
+scoreboard players set #snake.famasScavenger vars 1
 scoreboard players set #snake.s1000Weight vars 4
 scoreboard players set #snake.s1000Reload vars 50
+scoreboard players set #snake.s1000Scavenger vars 4
 scoreboard players set #snake.socomWeight vars 3
 scoreboard players set #snake.socomReload vars 40
+scoreboard players set #snake.socomScavenger vars 2
 scoreboard players set #snake.antiPersonnelMineWeight vars 2
+scoreboard players set #snake.antiPersonnelMineScavenger vars 2
 scoreboard players set #snake.smokeGrenadeWeight vars 2
-scoreboard players set #snake.totalWeight vars 10
+scoreboard players set #snake.smokeGrenadeScavenger vars 1
 
 scoreboard players set #steve.blockRange vars 3
 

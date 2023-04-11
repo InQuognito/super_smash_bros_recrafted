@@ -4,7 +4,7 @@ execute if score $blindPick options matches 0 run tellraw @s [{"translate":"ssbr
 
 execute if score $blindPick options matches 0 run tellraw @s[tag=default] [{"translate":"ssbrc.fighters.menu.skin","color":"white"},{"translate":"ssbrc.fighters.skin.default","color":"white"}]
 execute if score $blindPick options matches 0 run tellraw @s[tag=gold] [{"translate":"ssbrc.fighters.menu.skin","color":"white"},{"translate":"ssbrc.fighters.skin.gold","color":"gold"}]
-execute if score $blindPick options matches 0 run tellraw @s[tag=hotRyu] [{"translate":"ssbrc.fighters.menu.skin","color":"white"},{"text":"Hot Ryu","color":"white"}]
+execute if score $blindPick options matches 0 run tellraw @s[tag=hotRyu] [{"translate":"ssbrc.fighters.menu.skin","color":"white"},{"translate":"ssbrc.fighters.ryu.skin.hotRyu","color":"white"}]
 
 function ssbrc:logic/resets/tags/characters
 tag @s add ryu

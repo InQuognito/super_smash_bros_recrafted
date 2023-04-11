@@ -4,8 +4,8 @@ execute if score $blindPick options matches 0 run tellraw @s [{"translate":"ssbr
 
 execute if score $blindPick options matches 0 run tellraw @s[tag=default] [{"translate":"ssbrc.fighters.menu.skin","color":"white"},{"translate":"ssbrc.fighters.skin.default","color":"dark_aqua"}]
 execute if score $blindPick options matches 0 run tellraw @s[tag=gold] [{"translate":"ssbrc.fighters.menu.skin","color":"white"},{"translate":"ssbrc.fighters.skin.gold","color":"gold"}]
-execute if score $blindPick options matches 0 run tellraw @s[tag=alex] [{"translate":"ssbrc.fighters.menu.skin","color":"white"},{"text":"Alex","color":"yellow"}]
-execute if score $blindPick options matches 0 run tellraw @s[tag=herobrine] [{"translate":"ssbrc.fighters.menu.skin","color":"white"},{"text":"Herobrine","color":"white"}]
+execute if score $blindPick options matches 0 run tellraw @s[tag=alex] [{"translate":"ssbrc.fighters.menu.skin","color":"white"},{"translate":"ssbrc.fighters.steve.skin.alex","color":"yellow"}]
+execute if score $blindPick options matches 0 run tellraw @s[tag=herobrine] [{"translate":"ssbrc.fighters.menu.skin","color":"white"},{"translate":"ssbrc.fighters.steve.skin.herobrine","color":"white"}]
 
 function ssbrc:logic/resets/tags/characters
 tag @s add steve

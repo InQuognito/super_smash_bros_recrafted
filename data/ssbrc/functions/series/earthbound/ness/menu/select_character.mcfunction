@@ -4,9 +4,9 @@ execute if score $blindPick options matches 0 run tellraw @s [{"translate":"ssbr
 
 execute if score $blindPick options matches 0 run tellraw @s[tag=default] [{"translate":"ssbrc.fighters.menu.skin","color":"white"},{"translate":"ssbrc.fighters.skin.default","color":"dark_purple"}]
 execute if score $blindPick options matches 0 run tellraw @s[tag=gold] [{"translate":"ssbrc.fighters.menu.skin","color":"white"},{"translate":"ssbrc.fighters.skin.gold","color":"gold"}]
-execute if score $blindPick options matches 0 run tellraw @s[tag=moonside] [{"translate":"ssbrc.fighters.menu.skin","color":"white"},{"text":"Moonside","color":"aqua"}]
-execute if score $blindPick options matches 0 run tellraw @s[tag=pajamas] [{"translate":"ssbrc.fighters.menu.skin","color":"white"},{"text":"Pajamas","color":"dark_aqua"}]
-execute if score $blindPick options matches 0 run tellraw @s[tag=phaseDistortion] [{"translate":"ssbrc.fighters.menu.skin","color":"white"},{"text":"Phase Distortion","color":"gray"}]
+execute if score $blindPick options matches 0 run tellraw @s[tag=moonside] [{"translate":"ssbrc.fighters.menu.skin","color":"white"},{"translate":"ssbrc.fighters.ness.skin.moonside","color":"aqua"}]
+execute if score $blindPick options matches 0 run tellraw @s[tag=pajamas] [{"translate":"ssbrc.fighters.menu.skin","color":"white"},{"translate":"ssbrc.fighters.ness.skin.pajamas","color":"dark_aqua"}]
+execute if score $blindPick options matches 0 run tellraw @s[tag=phaseDistortion] [{"translate":"ssbrc.fighters.menu.skin","color":"white"},{"translate":"ssbrc.fighters.ness.skin.phaseDistortion","color":"gray"}]
 
 function ssbrc:logic/resets/tags/characters
 tag @s add ness

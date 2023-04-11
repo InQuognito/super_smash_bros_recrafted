@@ -4,7 +4,7 @@ execute if score $blindPick options matches 0 run tellraw @s [{"translate":"ssbr
 
 execute if score $blindPick options matches 0 run tellraw @s[tag=default] [{"translate":"ssbrc.fighters.menu.skin","color":"white"},{"translate":"ssbrc.fighters.skin.default","color":"gray"}]
 execute if score $blindPick options matches 0 run tellraw @s[tag=gold] [{"translate":"ssbrc.fighters.menu.skin","color":"white"},{"translate":"ssbrc.fighters.skin.gold","color":"gold"}]
-execute if score $blindPick options matches 0 run tellraw @s[tag=lordsOfShadow] [{"translate":"ssbrc.fighters.menu.skin","color":"white"},{"text":"Lords of Shadow","color":"dark_gray"}]
+execute if score $blindPick options matches 0 run tellraw @s[tag=lordsOfShadow] [{"translate":"ssbrc.fighters.menu.skin","color":"white"},{"translate":"ssbrc.fighters.alucard.skin.lordsOfShadow","color":"dark_gray"}]
 
 function ssbrc:logic/resets/tags/characters
 tag @s add alucard

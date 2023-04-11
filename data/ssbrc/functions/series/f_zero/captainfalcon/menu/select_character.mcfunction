@@ -4,7 +4,7 @@ execute if score $blindPick options matches 0 run tellraw @s [{"translate":"ssbr
 
 execute if score $blindPick options matches 0 run tellraw @s[tag=default] [{"translate":"ssbrc.fighters.menu.skin","color":"white"},{"translate":"ssbrc.fighters.skin.default","color":"red"}]
 execute if score $blindPick options matches 0 run tellraw @s[tag=gold] [{"translate":"ssbrc.fighters.menu.skin","color":"white"},{"translate":"ssbrc.fighters.skin.gold","color":"gold"}]
-execute if score $blindPick options matches 0 run tellraw @s[tag=rickWheeler] [{"translate":"ssbrc.fighters.menu.skin","color":"white"},{"text":"Rick Wheeler","color":"dark_blue"}]
+execute if score $blindPick options matches 0 run tellraw @s[tag=rickWheeler] [{"translate":"ssbrc.fighters.menu.skin","color":"white"},{"translate":"ssbrc.fighters.captainfalcon.skin.rickWheeler","color":"dark_blue"}]
 
 function ssbrc:logic/resets/tags/characters
 tag @s add captainfalcon
