@@ -1,10 +1,10 @@
 tag @s[tag=!gold,tag=!iroquoisPliskin] add default
 
-tellraw @s [{"translate":"ssbrc.fighters.menu.selected","color":"white"},{"translate":"ssbrc.fighters.snake","color":"gray"},{"translate":"!","color":"white"}]
+execute if score $blindPick options matches 0 run tellraw @s [{"translate":"ssbrc.fighters.menu.selected","color":"white"},{"translate":"ssbrc.fighters.snake","color":"gray"},{"translate":"!","color":"white"}]
 
-tellraw @s[tag=default] [{"translate":"ssbrc.fighters.menu.skin","color":"white"},{"translate":"ssbrc.fighters.skin.default","color":"gray"}]
-tellraw @s[tag=gold] [{"translate":"ssbrc.fighters.menu.skin","color":"white"},{"translate":"ssbrc.fighters.skin.gold","color":"gold"}]
-tellraw @s[tag=iroquoisPliskin] [{"translate":"ssbrc.fighters.menu.skin","color":"white"},{"text":"Iroquois Pliskin","color":"dark_green"}]
+execute if score $blindPick options matches 0 run tellraw @s[tag=default] [{"translate":"ssbrc.fighters.menu.skin","color":"white"},{"translate":"ssbrc.fighters.skin.default","color":"gray"}]
+execute if score $blindPick options matches 0 run tellraw @s[tag=gold] [{"translate":"ssbrc.fighters.menu.skin","color":"white"},{"translate":"ssbrc.fighters.skin.gold","color":"gold"}]
+execute if score $blindPick options matches 0 run tellraw @s[tag=iroquoisPliskin] [{"translate":"ssbrc.fighters.menu.skin","color":"white"},{"text":"Iroquois Pliskin","color":"dark_green"}]
 
 tag @s add snake
 

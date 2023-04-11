@@ -1,11 +1,11 @@
 tag @s[tag=!gold,tag=!gravitySuit,tag=!phazonSuit] add default
 
-tellraw @s [{"translate":"ssbrc.fighters.menu.selected","color":"white"},{"translate":"ssbrc.fighters.samus","color":"gold"},{"translate":"!","color":"white"}]
+execute if score $blindPick options matches 0 run tellraw @s [{"translate":"ssbrc.fighters.menu.selected","color":"white"},{"translate":"ssbrc.fighters.samus","color":"gold"},{"translate":"!","color":"white"}]
 
-tellraw @s[tag=default] [{"translate":"ssbrc.fighters.menu.skin","color":"white"},{"translate":"ssbrc.fighters.skin.default","color":"gold"}]
-tellraw @s[tag=gold] [{"translate":"ssbrc.fighters.menu.skin","color":"white"},{"translate":"ssbrc.fighters.skin.gold","color":"gold"}]
-tellraw @s[tag=gravitySuit] [{"translate":"ssbrc.fighters.menu.skin","color":"white"},{"text":"Gravity Suit","color":"aqua"}]
-tellraw @s[tag=phazonSuit] [{"translate":"ssbrc.fighters.menu.skin","color":"white"},{"text":"Phazon Suit","color":"red"}]
+execute if score $blindPick options matches 0 run tellraw @s[tag=default] [{"translate":"ssbrc.fighters.menu.skin","color":"white"},{"translate":"ssbrc.fighters.skin.default","color":"gold"}]
+execute if score $blindPick options matches 0 run tellraw @s[tag=gold] [{"translate":"ssbrc.fighters.menu.skin","color":"white"},{"translate":"ssbrc.fighters.skin.gold","color":"gold"}]
+execute if score $blindPick options matches 0 run tellraw @s[tag=gravitySuit] [{"translate":"ssbrc.fighters.menu.skin","color":"white"},{"text":"Gravity Suit","color":"aqua"}]
+execute if score $blindPick options matches 0 run tellraw @s[tag=phazonSuit] [{"translate":"ssbrc.fighters.menu.skin","color":"white"},{"text":"Phazon Suit","color":"red"}]
 
 function ssbrc:logic/resets/tags/characters
 tag @s add samus
