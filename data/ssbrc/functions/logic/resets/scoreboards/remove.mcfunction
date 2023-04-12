@@ -65,7 +65,12 @@ scoreboard objectives remove moveDistance
 scoreboard objectives remove piercing
 scoreboard objectives remove point
 scoreboard objectives remove points
-scoreboard objectives remove pos
+scoreboard objectives remove posX
+scoreboard objectives remove posY
+scoreboard objectives remove posZ
+scoreboard objectives remove prevPosX
+scoreboard objectives remove prevPosY
+scoreboard objectives remove prevPosZ
 scoreboard objectives remove raycast
 scoreboard objectives remove raycastSuccess
 scoreboard objectives remove reset

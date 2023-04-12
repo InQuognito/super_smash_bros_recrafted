@@ -65,7 +65,12 @@ scoreboard objectives add moveDistance minecraft.custom:minecraft.walk_one_cm
 scoreboard objectives add piercing dummy
 scoreboard objectives add point dummy
 scoreboard objectives add points dummy
-scoreboard objectives add pos dummy
+scoreboard objectives add posX dummy
+scoreboard objectives add posY dummy
+scoreboard objectives add posZ dummy
+scoreboard objectives add prevPosX dummy
+scoreboard objectives add prevPosY dummy
+scoreboard objectives add prevPosZ dummy
 scoreboard objectives add raycast dummy
 scoreboard objectives add raycastSuccess dummy
 scoreboard objectives add reset dummy
