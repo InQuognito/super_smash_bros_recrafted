@@ -42,5 +42,5 @@ attribute @s[scores={flag.sprinting=80..}] minecraft:generic.movement_speed base
 execute at @s[scores={flag.sprinting=80..}] unless block ~ ~-0.1 ~ minecraft:air positioned ~ ~0.1 ~ run function ssbrc:series/sonic_the_hedgehog/sonic/logic/speed/full
 
 function ssbrc:math/speed/calculate
-scoreboard players operation sqrt.output math /= 10 integers
+scoreboard players operation sqrt.output math /= 5 integers
 title @s actionbar [{"score":{"name":"sqrt.output","objective":"math"},"color":"white"},{"translate":" MPH","color":"white"}]
