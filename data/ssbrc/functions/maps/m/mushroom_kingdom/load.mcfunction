@@ -5,97 +5,48 @@ scoreboard players set #mapPicked mapVote 1
 forceload add -288 -192 -177 -81
 
 # Yoshi Egg
-summon minecraft:armor_stand -218.5 26.5 -144.5 {Rotation:[15f,0f],Invisible:1b,Invulnerable:1b,NoBasePlate:1b,NoGravity:1b,DisabledSlots:4144959,ArmorItems:[{},{},{},{id:"minecraft:carrot_on_a_stick",Count:1b,tag:{CustomModelData:1741}}]}
+summon minecraft:item_display -218.5 28.25 -144.5 {Rotation:[15f,0f],item:{id:"minecraft:carrot_on_a_stick",Count:1b,tag:{CustomModelData:1741}}}
 
 # Warp Zone
 summon minecraft:text_display -249.5 27.25 -154.5 {text:'[{"translate":"ssbrc.stages.mushroomKingdom.warpZone1","font":"ssbrc:mario"}]',line_width:500,background:0,billboard:center}
 summon minecraft:text_display -249.5 26.25 -154.5 {text:'[{"translate":"ssbrc.stages.mushroomKingdom.warpZone2","font":"ssbrc:mario"}]',line_width:500,background:0,billboard:center}
 
 # ? Blocks
-summon minecraft:item_frame -218.5 35.5 -137.5 {Facing:2b,Fixed:1b,Invisible:1b,Item:{id:"minecraft:sugar",Count:1b,tag:{CustomModelData:1201}}}
-summon minecraft:item_frame -218.5 35.5 -135.5 {Facing:3b,Fixed:1b,Invisible:1b,Item:{id:"minecraft:sugar",Count:1b,tag:{CustomModelData:1201}}}
-
-summon minecraft:item_frame -235.5 35.5 -135.5 {Facing:2b,Fixed:1b,Invisible:1b,Item:{id:"minecraft:sugar",Count:1b,tag:{CustomModelData:1201}}}
-summon minecraft:item_frame -235.5 35.5 -133.5 {Facing:3b,Fixed:1b,Invisible:1b,Item:{id:"minecraft:sugar",Count:1b,tag:{CustomModelData:1201}}}
-
-summon minecraft:item_frame -247.5 35.5 -150.5 {Facing:5b,Fixed:1b,Invisible:1b,Item:{id:"minecraft:sugar",Count:1b,tag:{CustomModelData:1201}}}
-summon minecraft:item_frame -249.5 35.5 -150.5 {Facing:4b,Fixed:1b,Invisible:1b,Item:{id:"minecraft:sugar",Count:1b,tag:{CustomModelData:1201}}}
-
-summon minecraft:item_frame -238.5 35.5 -170.5 {Facing:3b,Fixed:1b,Invisible:1b,Item:{id:"minecraft:sugar",Count:1b,tag:{CustomModelData:1201}}}
-summon minecraft:item_frame -239.5 35.5 -171.5 {Facing:4b,Fixed:1b,Invisible:1b,Item:{id:"minecraft:sugar",Count:1b,tag:{CustomModelData:1201}}}
-summon minecraft:item_frame -238.5 35.5 -172.5 {Facing:2b,Fixed:1b,Invisible:1b,Item:{id:"minecraft:sugar",Count:1b,tag:{CustomModelData:1201}}}
-summon minecraft:item_frame -235.5 35.5 -170.5 {Facing:3b,Fixed:1b,Invisible:1b,Item:{id:"minecraft:sugar",Count:1b,tag:{CustomModelData:1201}}}
-summon minecraft:item_frame -234.5 35.5 -171.5 {Facing:5b,Fixed:1b,Invisible:1b,Item:{id:"minecraft:sugar",Count:1b,tag:{CustomModelData:1201}}}
-summon minecraft:item_frame -235.5 35.5 -172.5 {Facing:2b,Fixed:1b,Invisible:1b,Item:{id:"minecraft:sugar",Count:1b,tag:{CustomModelData:1201}}}
-
-summon minecraft:item_frame -165.5 61.5 -115.5 {Facing:2b,Fixed:1b,Invisible:1b,Item:{id:"minecraft:sugar",Count:1b,tag:{CustomModelData:1201}}}
-summon minecraft:item_frame -166.5 61.5 -114.5 {Facing:4b,Fixed:1b,Invisible:1b,Item:{id:"minecraft:sugar",Count:1b,tag:{CustomModelData:1201}}}
-summon minecraft:item_frame -166.5 61.5 -114.5 {Facing:2b,Fixed:1b,Invisible:1b,Item:{id:"minecraft:sugar",Count:1b,tag:{CustomModelData:1201}}}
-summon minecraft:item_frame -167.5 61.5 -113.5 {Facing:4b,Fixed:1b,Invisible:1b,Item:{id:"minecraft:sugar",Count:1b,tag:{CustomModelData:1201}}}
-summon minecraft:item_frame -170.5 61.5 -110.5 {Facing:2b,Fixed:1b,Invisible:1b,Item:{id:"minecraft:sugar",Count:1b,tag:{CustomModelData:1201}}}
-summon minecraft:item_frame -171.5 61.5 -109.5 {Facing:4b,Fixed:1b,Invisible:1b,Item:{id:"minecraft:sugar",Count:1b,tag:{CustomModelData:1201}}}
-
-summon minecraft:item_frame -183.5 56.5 -101.5 {Facing:2b,Fixed:1b,Invisible:1b,Item:{id:"minecraft:sugar",Count:1b,tag:{CustomModelData:1201}}}
-summon minecraft:item_frame -184.5 56.5 -100.5 {Facing:4b,Fixed:1b,Invisible:1b,Item:{id:"minecraft:sugar",Count:1b,tag:{CustomModelData:1201}}}
-
-summon minecraft:item_frame -217.5 57.5 -95.5 {Facing:2b,Fixed:1b,Invisible:1b,Item:{id:"minecraft:sugar",Count:1b,tag:{CustomModelData:1201}}}
-
-summon minecraft:item_frame -217.5 54.5 -95.5 {Facing:2b,Fixed:1b,Invisible:1b,Item:{id:"minecraft:sugar",Count:1b,tag:{CustomModelData:1201}}}
-
-summon minecraft:item_frame -222.5 45.5 -110.5 {Facing:2b,Fixed:1b,Invisible:1b,Item:{id:"minecraft:sugar",Count:1b,tag:{CustomModelData:1201}}}
-summon minecraft:item_frame -223.5 45.5 -110.5 {Facing:2b,Fixed:1b,Invisible:1b,Item:{id:"minecraft:sugar",Count:1b,tag:{CustomModelData:1201}}}
-
-summon minecraft:item_frame -243.5 44.5 -112.5 {Facing:5b,Fixed:1b,Invisible:1b,Item:{id:"minecraft:sugar",Count:1b,tag:{CustomModelData:1201}}}
-summon minecraft:item_frame -244.5 44.5 -113.5 {Facing:2b,Fixed:1b,Invisible:1b,Item:{id:"minecraft:sugar",Count:1b,tag:{CustomModelData:1201}}}
-summon minecraft:item_frame -245.5 44.5 -113.5 {Facing:2b,Fixed:1b,Invisible:1b,Item:{id:"minecraft:sugar",Count:1b,tag:{CustomModelData:1201}}}
-
-summon minecraft:item_frame -262.5 69.5 -75.5 {Facing:5b,Fixed:1b,Invisible:1b,Item:{id:"minecraft:sugar",Count:1b,tag:{CustomModelData:1201}}}
-summon minecraft:item_frame -263.5 69.5 -76.5 {Facing:2b,Fixed:1b,Invisible:1b,Item:{id:"minecraft:sugar",Count:1b,tag:{CustomModelData:1201}}}
-
-summon minecraft:item_frame -273.5 54.5 -85.5 {Facing:5b,Fixed:1b,Invisible:1b,Item:{id:"minecraft:sugar",Count:1b,tag:{CustomModelData:1201}}}
-summon minecraft:item_frame -274.5 54.5 -86.5 {Facing:2b,Fixed:1b,Invisible:1b,Item:{id:"minecraft:sugar",Count:1b,tag:{CustomModelData:1201}}}
-
-summon minecraft:item_frame -274.5 58.5 -86.5 {Facing:5b,Fixed:1b,Invisible:1b,Item:{id:"minecraft:sugar",Count:1b,tag:{CustomModelData:1201}}}
-summon minecraft:item_frame -275.5 58.5 -87.5 {Facing:2b,Fixed:1b,Invisible:1b,Item:{id:"minecraft:sugar",Count:1b,tag:{CustomModelData:1201}}}
-
-summon minecraft:item_frame -275.5 54.5 -87.5 {Facing:5b,Fixed:1b,Invisible:1b,Item:{id:"minecraft:sugar",Count:1b,tag:{CustomModelData:1201}}}
-summon minecraft:item_frame -276.5 54.5 -88.5 {Facing:2b,Fixed:1b,Invisible:1b,Item:{id:"minecraft:sugar",Count:1b,tag:{CustomModelData:1201}}}
-
-summon minecraft:item_frame -283.5 51.5 -132.5 {Facing:3b,Fixed:1b,Invisible:1b,Item:{id:"minecraft:sugar",Count:1b,tag:{CustomModelData:1201}}}
-summon minecraft:item_frame -282.5 51.5 -133.5 {Facing:5b,Fixed:1b,Invisible:1b,Item:{id:"minecraft:sugar",Count:1b,tag:{CustomModelData:1201}}}
-summon minecraft:item_frame -282.5 51.5 -135.5 {Facing:5b,Fixed:1b,Invisible:1b,Item:{id:"minecraft:sugar",Count:1b,tag:{CustomModelData:1201}}}
-summon minecraft:item_frame -283.5 51.5 -136.5 {Facing:2b,Fixed:1b,Invisible:1b,Item:{id:"minecraft:sugar",Count:1b,tag:{CustomModelData:1201}}}
-
-summon minecraft:item_frame -257.5 44.5 -154.5 {Facing:3b,Fixed:1b,Invisible:1b,Item:{id:"minecraft:sugar",Count:1b,tag:{CustomModelData:1201}}}
-summon minecraft:item_frame -256.5 44.5 -155.5 {Facing:5b,Fixed:1b,Invisible:1b,Item:{id:"minecraft:sugar",Count:1b,tag:{CustomModelData:1201}}}
-summon minecraft:item_frame -257.5 44.5 -156.5 {Facing:2b,Fixed:1b,Invisible:1b,Item:{id:"minecraft:sugar",Count:1b,tag:{CustomModelData:1201}}}
-
-summon minecraft:item_frame -256.5 44.5 -158.5 {Facing:5b,Fixed:1b,Invisible:1b,Item:{id:"minecraft:sugar",Count:1b,tag:{CustomModelData:1201}}}
-summon minecraft:item_frame -256.5 44.5 -160.5 {Facing:5b,Fixed:1b,Invisible:1b,Item:{id:"minecraft:sugar",Count:1b,tag:{CustomModelData:1201}}}
-summon minecraft:item_frame -257.5 44.5 -161.5 {Facing:2b,Fixed:1b,Invisible:1b,Item:{id:"minecraft:sugar",Count:1b,tag:{CustomModelData:1201}}}
-
-summon minecraft:item_frame -276.5 48.5 -179.5 {Facing:5b,Fixed:1b,Invisible:1b,Item:{id:"minecraft:sugar",Count:1b,tag:{CustomModelData:1201}}}
-summon minecraft:item_frame -276.5 48.5 -180.5 {Facing:5b,Fixed:1b,Invisible:1b,Item:{id:"minecraft:sugar",Count:1b,tag:{CustomModelData:1201}}}
-summon minecraft:item_frame -275.5 48.5 -181.5 {Facing:3b,Fixed:1b,Invisible:1b,Item:{id:"minecraft:sugar",Count:1b,tag:{CustomModelData:1201}}}
-summon minecraft:item_frame -274.5 48.5 -182.5 {Facing:5b,Fixed:1b,Invisible:1b,Item:{id:"minecraft:sugar",Count:1b,tag:{CustomModelData:1201}}}
-
-summon minecraft:item_frame -226.5 45.5 -187.5 {Facing:3b,Fixed:1b,Invisible:1b,Item:{id:"minecraft:sugar",Count:1b,tag:{CustomModelData:1201}}}
-summon minecraft:item_frame -225.5 45.5 -187.5 {Facing:3b,Fixed:1b,Invisible:1b,Item:{id:"minecraft:sugar",Count:1b,tag:{CustomModelData:1201}}}
-summon minecraft:item_frame -224.5 45.5 -187.5 {Facing:3b,Fixed:1b,Invisible:1b,Item:{id:"minecraft:sugar",Count:1b,tag:{CustomModelData:1201}}}
-
-summon minecraft:item_frame -210.5 40.5 -168.5 {Facing:2b,Fixed:1b,Invisible:1b,Item:{id:"minecraft:sugar",Count:1b,tag:{CustomModelData:1201}}}
-summon minecraft:item_frame -211.5 40.5 -167.5 {Facing:4b,Fixed:1b,Invisible:1b,Item:{id:"minecraft:sugar",Count:1b,tag:{CustomModelData:1201}}}
-
-summon minecraft:item_frame -211.5 37.5 -166.5 {Facing:2b,Fixed:1b,Invisible:1b,Item:{id:"minecraft:sugar",Count:1b,tag:{CustomModelData:1201}}}
-summon minecraft:item_frame -212.5 37.5 -165.5 {Facing:4b,Fixed:1b,Invisible:1b,Item:{id:"minecraft:sugar",Count:1b,tag:{CustomModelData:1201}}}
-
-summon minecraft:item_frame -229.5 27.5 -148.5 {Facing:5b,Fixed:1b,Invisible:1b,Item:{id:"minecraft:sugar",Count:1b,tag:{CustomModelData:1201}}}
-summon minecraft:item_frame -231.5 27.5 -148.5 {Facing:4b,Fixed:1b,Invisible:1b,Item:{id:"minecraft:sugar",Count:1b,tag:{CustomModelData:1201}}}
-
-summon minecraft:item_frame -209.5 27.5 -158.5 {Facing:4b,Fixed:1b,Invisible:1b,Item:{id:"minecraft:sugar",Count:1b,tag:{CustomModelData:1201}}}
-summon minecraft:item_frame -207.5 27.5 -158.5 {Facing:5b,Fixed:1b,Invisible:1b,Item:{id:"minecraft:sugar",Count:1b,tag:{CustomModelData:1201}}}
-summon minecraft:item_frame -209.5 27.5 -156.5 {Facing:4b,Fixed:1b,Invisible:1b,Item:{id:"minecraft:sugar",Count:1b,tag:{CustomModelData:1201}}}
-summon minecraft:item_frame -207.5 27.5 -156.5 {Facing:5b,Fixed:1b,Invisible:1b,Item:{id:"minecraft:sugar",Count:1b,tag:{CustomModelData:1201}}}
+summon minecraft:item_display -218.5 35.5 -136.5 {item:{id:"minecraft:sugar",Count:1b,tag:{CustomModelData:1201}},brightness:{sky:13,block:13}}
+summon minecraft:item_display -235.5 35.5 -134.5 {item:{id:"minecraft:sugar",Count:1b,tag:{CustomModelData:1201}},brightness:{sky:13,block:13}}
+summon minecraft:item_display -248.5 35.5 -150.5 {item:{id:"minecraft:sugar",Count:1b,tag:{CustomModelData:1201}},brightness:{sky:13,block:13}}
+summon minecraft:item_display -238.5 35.5 -171.5 {item:{id:"minecraft:sugar",Count:1b,tag:{CustomModelData:1201}},brightness:{sky:13,block:13}}
+summon minecraft:item_display -235.5 35.5 -171.5 {item:{id:"minecraft:sugar",Count:1b,tag:{CustomModelData:1201}},brightness:{sky:13,block:13}}
+summon minecraft:item_display -165.5 61.5 -114.5 {item:{id:"minecraft:sugar",Count:1b,tag:{CustomModelData:1201}},brightness:{sky:13,block:13}}
+summon minecraft:item_display -166.5 61.5 -113.5 {item:{id:"minecraft:sugar",Count:1b,tag:{CustomModelData:1201}},brightness:{sky:13,block:13}}
+summon minecraft:item_display -170.5 61.5 -109.5 {item:{id:"minecraft:sugar",Count:1b,tag:{CustomModelData:1201}},brightness:{sky:13,block:13}}
+summon minecraft:item_display -183.5 56.5 -100.5 {item:{id:"minecraft:sugar",Count:1b,tag:{CustomModelData:1201}},brightness:{sky:13,block:13}}
+summon minecraft:item_display -217.5 57.5 -94.5 {item:{id:"minecraft:sugar",Count:1b,tag:{CustomModelData:1201}},brightness:{sky:13,block:13}}
+summon minecraft:item_display -217.5 54.5 -94.5 {item:{id:"minecraft:sugar",Count:1b,tag:{CustomModelData:1201}},brightness:{sky:13,block:13}}
+summon minecraft:item_display -222.5 45.5 -109.5 {item:{id:"minecraft:sugar",Count:1b,tag:{CustomModelData:1201}},brightness:{sky:13,block:13}}
+summon minecraft:item_display -223.5 45.5 -109.5 {item:{id:"minecraft:sugar",Count:1b,tag:{CustomModelData:1201}},brightness:{sky:13,block:13}}
+summon minecraft:item_display -244.5 44.5 -112.5 {item:{id:"minecraft:sugar",Count:1b,tag:{CustomModelData:1201}},brightness:{sky:13,block:13}}
+summon minecraft:item_display -245.5 44.5 -112.5 {item:{id:"minecraft:sugar",Count:1b,tag:{CustomModelData:1201}},brightness:{sky:13,block:13}}
+summon minecraft:item_display -263.5 69.5 -75.5 {item:{id:"minecraft:sugar",Count:1b,tag:{CustomModelData:1201}},brightness:{sky:13,block:13}}
+summon minecraft:item_display -274.5 54.5 -85.5 {item:{id:"minecraft:sugar",Count:1b,tag:{CustomModelData:1201}},brightness:{sky:13,block:13}}
+summon minecraft:item_display -275.5 58.5 -86.5 {item:{id:"minecraft:sugar",Count:1b,tag:{CustomModelData:1201}},brightness:{sky:13,block:13}}
+summon minecraft:item_display -276.5 54.5 -87.5 {item:{id:"minecraft:sugar",Count:1b,tag:{CustomModelData:1201}},brightness:{sky:13,block:13}}
+summon minecraft:item_display -283.5 51.5 -133.5 {item:{id:"minecraft:sugar",Count:1b,tag:{CustomModelData:1201}},brightness:{sky:13,block:13}}
+summon minecraft:item_display -283.5 51.5 -135.5 {item:{id:"minecraft:sugar",Count:1b,tag:{CustomModelData:1201}},brightness:{sky:13,block:13}}
+summon minecraft:item_display -257.5 44.5 -155.5 {item:{id:"minecraft:sugar",Count:1b,tag:{CustomModelData:1201}},brightness:{sky:13,block:13}}
+summon minecraft:item_display -257.5 44.5 -158.5 {item:{id:"minecraft:sugar",Count:1b,tag:{CustomModelData:1201}},brightness:{sky:13,block:13}}
+summon minecraft:item_display -257.5 44.5 -160.5 {item:{id:"minecraft:sugar",Count:1b,tag:{CustomModelData:1201}},brightness:{sky:13,block:13}}
+summon minecraft:item_display -277.5 48.5 -179.5 {item:{id:"minecraft:sugar",Count:1b,tag:{CustomModelData:1201}},brightness:{sky:13,block:13}}
+summon minecraft:item_display -277.5 48.5 -180.5 {item:{id:"minecraft:sugar",Count:1b,tag:{CustomModelData:1201}},brightness:{sky:13,block:13}}
+summon minecraft:item_display -275.5 48.5 -182.5 {item:{id:"minecraft:sugar",Count:1b,tag:{CustomModelData:1201}},brightness:{sky:13,block:13}}
+summon minecraft:item_display -226.5 45.5 -188.5 {item:{id:"minecraft:sugar",Count:1b,tag:{CustomModelData:1201}},brightness:{sky:13,block:13}}
+summon minecraft:item_display -225.5 45.5 -188.5 {item:{id:"minecraft:sugar",Count:1b,tag:{CustomModelData:1201}},brightness:{sky:13,block:13}}
+summon minecraft:item_display -224.5 45.5 -188.5 {item:{id:"minecraft:sugar",Count:1b,tag:{CustomModelData:1201}},brightness:{sky:13,block:13}}
+summon minecraft:item_display -210.5 40.5 -167.5 {item:{id:"minecraft:sugar",Count:1b,tag:{CustomModelData:1201}},brightness:{sky:13,block:13}}
+summon minecraft:item_display -211.5 37.5 -165.5 {item:{id:"minecraft:sugar",Count:1b,tag:{CustomModelData:1201}},brightness:{sky:13,block:13}}
+summon minecraft:item_display -230.5 27.5 -148.5 {item:{id:"minecraft:sugar",Count:1b,tag:{CustomModelData:1201}},brightness:{sky:13,block:13}}
+summon minecraft:item_display -208.5 27.5 -158.5 {item:{id:"minecraft:sugar",Count:1b,tag:{CustomModelData:1201}},brightness:{sky:13,block:13}}
+summon minecraft:item_display -208.5 27.5 -156.5 {item:{id:"minecraft:sugar",Count:1b,tag:{CustomModelData:1201}},brightness:{sky:13,block:13}}
 
 time set noon
 weather clear
