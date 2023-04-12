@@ -1,2 +1,2 @@
-summon minecraft:armor_stand ~ ~ ~ {Tags:["decorObject","dugtrioBase"],Rotation:[-90f,0f],ArmorItems:[{},{},{},{id:"minecraft:diamond",Count:1b,tag:{CustomModelData:510}}],Invisible:1b,NoGravity:1b,DisabledSlots:4144959}
-summon minecraft:armor_stand ~ ~ ~ {Tags:["decorObject","dugtrio"],Rotation:[-90f,0f],ArmorItems:[{},{},{},{id:"minecraft:diamond",Count:1b,tag:{CustomModelData:511}}],Invisible:1b,NoGravity:1b,DisabledSlots:4144959}
+summon minecraft:item_display ~ ~ ~ {Tags:["decorObject","dugtrioBase"],Rotation:[90f,0f],item:{id:"minecraft:diamond",Count:1b,tag:{CustomModelData:510}}}
+summon minecraft:item_display ~ ~ ~ {Tags:["decorObject","dugtrio"],Rotation:[90f,0f],item:{id:"minecraft:diamond",Count:1b,tag:{CustomModelData:511}}}

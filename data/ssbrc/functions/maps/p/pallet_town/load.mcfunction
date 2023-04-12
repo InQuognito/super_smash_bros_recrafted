@@ -19,16 +19,16 @@ summon minecraft:armor_stand -552.5 18.0 -163.5 {Tags:["decorObject"],Invulnerab
 scoreboard players set max random 2
 function ssbrc:math/rng/lcg
 
-execute if score result random matches 0 run summon minecraft:armor_stand -568.5 18.0 -123.5 {Tags:["decorObject","metapod"],Rotation:[-135f,0f],ArmorItems:[{},{},{},{id:"minecraft:diamond",Count:1b,tag:{CustomModelData:110}}],Invisible:1b,NoGravity:1b,DisabledSlots:4144959}
-execute if score result random matches 1 run summon minecraft:armor_stand -578.5 18.0 -128.5 {Tags:["decorObject","metapod"],Rotation:[-105f,0f],ArmorItems:[{},{},{},{id:"minecraft:diamond",Count:1b,tag:{CustomModelData:110}}],Invisible:1b,NoGravity:1b,DisabledSlots:4144959}
+execute if score result random matches 0 run summon minecraft:item_display -568.5 19.6 -123.5 {Tags:["decorObject","metapod"],Rotation:[45f,0f],item:{id:"minecraft:diamond",Count:1b,tag:{CustomModelData:110}}}
+execute if score result random matches 1 run summon minecraft:item_display -578.5 19.6 -128.5 {Tags:["decorObject","metapod"],Rotation:[70f,0f],item:{id:"minecraft:diamond",Count:1b,tag:{CustomModelData:110}}}
 
 # Diglett / Dugtrio
-execute positioned -594.5 21.0 -135.5 run function ssbrc:maps/p/pallet_town/logic/pokemon/diglett/decide
-execute positioned -591.5 21.0 -137.5 run function ssbrc:maps/p/pallet_town/logic/pokemon/diglett/decide
-execute positioned -593.5 21.0 -140.5 run function ssbrc:maps/p/pallet_town/logic/pokemon/diglett/decide
+execute positioned -594.5 21.5 -135.5 run function ssbrc:maps/p/pallet_town/logic/pokemon/diglett/decide
+execute positioned -591.5 21.5 -137.5 run function ssbrc:maps/p/pallet_town/logic/pokemon/diglett/decide
+execute positioned -593.5 21.5 -140.5 run function ssbrc:maps/p/pallet_town/logic/pokemon/diglett/decide
 
 # Abra
-summon minecraft:armor_stand -545.5 23.0 -156.5 {Tags:["decorObject","abra"],Rotation:[45f,0f],ArmorItems:[{},{},{},{id:"minecraft:diamond",Count:1b,tag:{CustomModelData:630}}],Invisible:1b,NoGravity:1b,DisabledSlots:4144959}
+summon minecraft:item_display -545.5 24.0 -156.5 {Tags:["decorObject","abra"],Rotation:[-135f,0f],item:{id:"minecraft:diamond",Count:1b,tag:{CustomModelData:630}}}
 
 # Magnemite
 scoreboard players set max random 2
@@ -38,7 +38,7 @@ execute if score result random matches 0 run summon minecraft:armor_stand -530.5
 execute if score result random matches 1 run summon minecraft:armor_stand -549.5 25.5 -121.5 {Tags:["decorObject","magnemite"],Rotation:[180f,0f],Pose:{LeftArm:[0f,0f,270f],RightArm:[0f,0f,90f]},HandItems:[{id:"minecraft:diamond",Count:1b,tag:{CustomModelData:811}},{id:"minecraft:diamond",Count:1b,tag:{CustomModelData:811}}],ArmorItems:[{},{},{},{id:"minecraft:diamond",Count:1b,tag:{CustomModelData:810}}],Invisible:1b,NoGravity:1b,DisabledSlots:4144959}
 
 # Snorlax
-summon minecraft:armor_stand -560.5 12.0 -123.5 {Tags:["decorObject","snorlax"],Rotation:[90f,0f],ArmorItems:[{},{},{},{id:"minecraft:diamond",Count:1b,tag:{CustomModelData:1430}}],Invisible:1b,NoGravity:1b,DisabledSlots:4144959}
+summon minecraft:item_display -560.5 13.0 -123.5 {Tags:["decorObject","snorlax"],Rotation:[-90f,0f],item:{id:"minecraft:diamond",Count:1b,tag:{CustomModelData:1430}},transformation:[2.0f,0.0f,0.0f,0.0f,0.0f,2.0f,0.0f,0.0f,0.0f,0.0f,2.0f,0.0f,0.0f,0.0f,0.0f,1.0f]}
 
 time set noon
 weather clear
