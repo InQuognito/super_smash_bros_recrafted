@@ -8,5 +8,4 @@ execute at @s if entity @e[type=minecraft:marker,tag=electricTerrain,distance=..
 function ssbrc:series/sonic_the_hedgehog/sonic/logic/speed/tick
 
 # Display
-execute if score @s shadow.meter.hero > @s shadow.meter.villain run function ssbrc:series/sonic_the_hedgehog/shadow/logic/chaos_meters/hero_display
-execute if score @s shadow.meter.villain > @s shadow.meter.hero run function ssbrc:series/sonic_the_hedgehog/shadow/logic/chaos_meters/villain_display
+title @s actionbar [{"score":{"name":"sqrt.output","objective":"math"},"color":"white"},{"translate":" KPH","color":"white"}]

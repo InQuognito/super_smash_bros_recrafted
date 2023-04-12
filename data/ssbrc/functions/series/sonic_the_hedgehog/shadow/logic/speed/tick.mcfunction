@@ -50,3 +50,6 @@ attribute @s[scores={flag.sprinting=96..97}] minecraft:generic.movement_speed ba
 attribute @s[scores={flag.sprinting=98..99}] minecraft:generic.movement_speed base set 0.1380
 attribute @s[scores={flag.sprinting=100..}] minecraft:generic.movement_speed base set 0.1400
 execute at @s[scores={flag.sprinting=100..}] positioned ~ ~0.1 ~ run function ssbrc:series/sonic_the_hedgehog/shadow/logic/speed/full
+
+function ssbrc:math/speed/calculate
+scoreboard players operation sqrt.output math /= 8 integers
