@@ -13,7 +13,7 @@ scoreboard players operation posZ temp *= posZ temp
 
 # Sums values
 scoreboard players operation speed temp = posX temp
-scoreboard players operation speed temp += posY temp
+#scoreboard players operation speed temp += posY temp
 scoreboard players operation speed temp += posZ temp
 
 # Square root to find final speed value
