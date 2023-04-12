@@ -18,6 +18,8 @@ scoreboard players set #donkeykong.orangeGrenadeMaxRotation vars 160
 
 scoreboard players set #fox.fireFoxThreshold vars 30
 
+scoreboard players set #giegue.4thDimensionalSlipRange vars 4
+
 scoreboard players set #hero.maxMana vars 20
 scoreboard players operation #hero.halfMana vars = #hero.maxMana vars
 scoreboard players operation #hero.halfMana vars /= 2 integers
