@@ -22,6 +22,9 @@ summon minecraft:marker -543.5 20.0 -150.5 {Tags:["spawnpoint.item"]}
 
 kill @e[type=minecraft:item,nbt={Item:{id:"minecraft:lead"}}]
 
+summon minecraft:leash_knot -555.5 15.5 -159.5
+summon minecraft:bat -555.5 15.0 -159.5 {NoAI:1b,Silent:1b,Invulnerable:1b,ActiveEffects:[{Id:14,Duration:1000000,Amplifier:0,ShowParticles:0b}],Leash:{X:-551,Y:15,Z:-156}}
+
 # Shiny Modifiers
 execute as @e[type=minecraft:item_display,tag=abra] if predicate ssbrc:shiny_chance run item replace entity @s armor.head with minecraft:diamond{CustomModelData:631}
 execute as @e[type=minecraft:item_display,tag=diglett] if predicate ssbrc:shiny_chance run item replace entity @s armor.head with minecraft:diamond{CustomModelData:502}
