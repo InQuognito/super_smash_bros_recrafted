@@ -25,3 +25,8 @@ execute unless score @s[scores={flag.sprinting=..99},predicate=ssbrc:flag/sprint
 execute at @s if entity @e[type=minecraft:marker,tag=electricTerrain,distance=..12] run scoreboard players set @s flag.sprinting 100
 
 function ssbrc:series/sonic_the_hedgehog/shadow/logic/speed/tick
+
+# Display
+function ssbrc:math/speed/calculate
+scoreboard players operation sqrt.output math /= 8 integers
+title @s actionbar [{"score":{"name":"sqrt.output","objective":"math"},"color":"white"},{"translate":" KPH | ","color":"white"}]

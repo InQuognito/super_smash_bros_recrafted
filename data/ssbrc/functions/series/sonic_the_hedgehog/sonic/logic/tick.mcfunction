@@ -6,3 +6,7 @@ execute unless score @s[scores={flag.sprinting=..79},predicate=ssbrc:flag/sprint
 execute at @s if entity @e[type=minecraft:marker,tag=electricTerrain,distance=..12] run scoreboard players set @s flag.sprinting 80
 
 function ssbrc:series/sonic_the_hedgehog/sonic/logic/speed/tick
+
+# Display
+execute if score @s shadow.meter.hero > @s shadow.meter.villain run function ssbrc:series/sonic_the_hedgehog/shadow/logic/chaos_meters/hero_display
+execute if score @s shadow.meter.villain > @s shadow.meter.hero run function ssbrc:series/sonic_the_hedgehog/shadow/logic/chaos_meters/villain_display

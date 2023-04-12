@@ -43,4 +43,3 @@ execute at @s[scores={flag.sprinting=80..}] unless block ~ ~-0.1 ~ minecraft:air
 
 function ssbrc:math/speed/calculate
 scoreboard players operation sqrt.output math /= 8 integers
-title @s actionbar [{"score":{"name":"sqrt.output","objective":"math"},"color":"white"},{"translate":" MPH","color":"white"}]
