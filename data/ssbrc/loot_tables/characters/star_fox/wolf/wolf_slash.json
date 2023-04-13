@@ -12,7 +12,7 @@
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"text": "Wolf Slash",
+								"translate": "ssbrc.tooltips.wolf.wolfSlash",
 								"color": "dark_purple",
 								"bold": true,
 								"italic": false
@@ -60,7 +60,7 @@
 											"italic": false
 										},
 										{
-											"text": "] to dash forward and up",
+											"translate": "ssbrc.tooltips.wolf.wolfSlash.description.1",
 											"color": "gray",
 											"bold": false,
 											"italic": false
@@ -68,13 +68,7 @@
 									]
 								},
 								{
-									"text": "- Hold to charge a longer dash",
-									"color": "gray",
-									"bold": false,
-									"italic": false
-								},
-								{
-									"text": "- Deals damage to opponents when exiting the dash",
+									"translate": "ssbrc.tooltips.wolf.wolfSlash.description.2",
 									"color": "gray",
 									"bold": false,
 									"italic": false

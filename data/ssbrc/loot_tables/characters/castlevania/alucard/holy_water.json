@@ -12,7 +12,7 @@
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"text": "Holy Water",
+								"translate": "ssbrc.tooltips.alucard.holyWater",
 								"color": "blue",
 								"bold": true,
 								"italic": false
@@ -48,7 +48,7 @@
 											"italic": false
 										},
 										{
-											"text": "] to throw a vial of holy water",
+											"translate": "ssbrc.tooltips.alucard.holyWater.description.1",
 											"color": "gray",
 											"bold": false,
 											"italic": false
@@ -56,13 +56,13 @@
 									]
 								},
 								{
-									"text": "- Bursts into a pool of flames",
+									"translate": "ssbrc.tooltips.alucard.holyWater.description.2",
 									"color": "gray",
 									"bold": false,
 									"italic": false
 								},
 								{
-									"text": " - Inflicts burning on the opponent",
+									"translate": "ssbrc.tooltips.effects.burning",
 									"color": "gray",
 									"bold": false,
 									"italic": false

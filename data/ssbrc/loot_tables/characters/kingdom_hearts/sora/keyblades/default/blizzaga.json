@@ -12,14 +12,26 @@
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"text": "Kingdom Key ",
+								"translate": "ssbrc.tooltips.sora.kingdomKey",
 								"color": "white",
 								"bold": true,
 								"italic": false,
 								"extra": [
 									{
-										"text": "(Blizzaga)",
+										"translate": " (",
+										"color": "white",
+										"bold": false,
+										"italic": false
+									},
+									{
+										"translate": "ssbrc.tooltips.sora.keyblade.blizzaga",
 										"color": "aqua",
+										"bold": false,
+										"italic": false
+									},
+									{
+										"translate": ")",
+										"color": "white",
 										"bold": false,
 										"italic": false
 									}
@@ -42,14 +54,26 @@
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"text": "Kingdom Key ",
+								"translate": "ssbrc.tooltips.sora.kingdomKey",
 								"color": "white",
 								"bold": true,
 								"italic": false,
 								"extra": [
 									{
-										"text": "(Blizzaza)",
+										"translate": " (",
+										"color": "white",
+										"bold": false,
+										"italic": false
+									},
+									{
+										"translate": "ssbrc.tooltips.sora.keyblade.blizzaza",
 										"color": "aqua",
+										"bold": false,
+										"italic": false
+									},
+									{
+										"translate": ")",
+										"color": "white",
 										"bold": false,
 										"italic": false
 									}
@@ -95,7 +119,7 @@
 											"italic": false
 										},
 										{
-											"text": "] to shoot a burst of ice",
+											"translate": "ssbrc.tooltips.sora.keyblade.blizzaga.description.1",
 											"color": "gray",
 											"bold": false,
 											"italic": false
@@ -103,74 +127,10 @@
 									]
 								},
 								{
-									"text": " - Inflicts frostbite on the opponent",
+									"translate": "ssbrc.tooltips.effects.frostbite",
 									"color": "gray",
 									"bold": false,
 									"italic": false
-								},
-								{
-									"translate": "- [",
-									"color": "gray",
-									"bold": false,
-									"italic": false,
-									"extra": [
-										{
-											"keybind": "key.sneak",
-											"color": "gray",
-											"bold": false,
-											"italic": false
-										},
-										{
-											"translate": "] + [",
-											"color": "gray",
-											"bold": false,
-											"italic": false
-										},
-										{
-											"keybind": "key.use",
-											"color": "gray",
-											"bold": false,
-											"italic": false
-										},
-										{
-											"text": "] to cycle selected spell",
-											"color": "gray",
-											"bold": false,
-											"italic": false
-										}
-									]
-								},
-								{
-									"text": "Blizzard",
-									"color": "aqua",
-									"bold": true,
-									"italic": false,
-									"extra": [
-										{
-											"translate": " -> ",
-											"color": "white",
-											"bold": false,
-											"italic": false
-										},
-										{
-											"text": "Thunder",
-											"color": "yellow",
-											"bold": false,
-											"italic": false
-										},
-										{
-											"translate": " -> ",
-											"color": "white",
-											"bold": false,
-											"italic": false
-										},
-										{
-											"text": "Fire",
-											"color": "red",
-											"bold": false,
-											"italic": false
-										}
-									]
 								}
 							],
 							"replace": true,
@@ -217,7 +177,7 @@
 											"italic": false
 										},
 										{
-											"text": "] to shoot a ball of ice",
+											"translate": "ssbrc.tooltips.sora.keyblade.blizzaza.description.1",
 											"color": "gray",
 											"bold": false,
 											"italic": false
@@ -225,17 +185,33 @@
 									]
 								},
 								{
-									"text": " - Inflicts frostbite on the opponent",
+									"translate": "ssbrc.tooltips.sora.keyblade.blizzaza.description.2",
 									"color": "gray",
 									"bold": false,
 									"italic": false
 								},
 								{
-									"text": " - On the third consecutive shot, releases 5 projectiles in a fan",
+									"translate": "ssbrc.tooltips.effects.frostbite",
 									"color": "gray",
 									"bold": false,
 									"italic": false
-								},
+								}
+							],
+							"replace": true,
+							"conditions": [
+								{
+									"condition": "minecraft:entity_properties",
+										"entity": "this",
+										"predicate": {
+											"nbt": "{Tags:[\"wisdom\"]}"
+										}
+								}
+							]
+						},
+						{
+							"function": "minecraft:set_lore",
+							"entity": "this",
+							"lore": [
 								{
 									"translate": "- [",
 									"color": "gray",
@@ -261,7 +237,7 @@
 											"italic": false
 										},
 										{
-											"text": "] to cycle selected spell",
+											"translate": "ssbrc.tooltips.sora.keyblade.cycleSpell",
 											"color": "gray",
 											"bold": false,
 											"italic": false
@@ -269,7 +245,7 @@
 									]
 								},
 								{
-									"text": "Blizzard",
+									"translate": "ssbrc.tooltips.sora.blizzard",
 									"color": "aqua",
 									"bold": true,
 									"italic": false,
@@ -281,7 +257,7 @@
 											"italic": false
 										},
 										{
-											"text": "Thunder",
+											"translate": "ssbrc.tooltips.sora.thunder",
 											"color": "yellow",
 											"bold": false,
 											"italic": false
@@ -293,7 +269,7 @@
 											"italic": false
 										},
 										{
-											"text": "Fire",
+											"translate": "ssbrc.tooltips.sora.fire",
 											"color": "red",
 											"bold": false,
 											"italic": false
@@ -301,16 +277,7 @@
 									]
 								}
 							],
-							"replace": true,
-							"conditions": [
-								{
-									"condition": "minecraft:entity_properties",
-										"entity": "this",
-										"predicate": {
-											"nbt": "{Tags:[\"wisdom\"]}"
-										}
-								}
-							]
+							"replace": false
 						},
 						{
 							"function": "minecraft:set_attributes",

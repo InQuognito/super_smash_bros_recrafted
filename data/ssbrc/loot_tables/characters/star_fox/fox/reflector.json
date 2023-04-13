@@ -12,7 +12,7 @@
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"text": "Reflector",
+								"translate": "ssbrc.tooltips.fox.reflector",
 								"color": "white",
 								"bold": true,
 								"italic": false
@@ -48,7 +48,7 @@
 											"italic": false
 										},
 										{
-											"text": "] to activate",
+											"translate": "ssbrc.tooltips.item.activation.activate",
 											"color": "gray",
 											"bold": false,
 											"italic": false
@@ -56,13 +56,13 @@
 									]
 								},
 								{
-									"text": "- Reflects projectiles back towards the opponent",
+									"translate": "ssbrc.tooltips.fox.reflector.description.1",
 									"color": "gray",
 									"bold": false,
 									"italic": false
 								},
 								{
-									"text": "- Cannot move while active",
+									"translate": "ssbrc.tooltips.fox.reflector.description.2",
 									"color": "gray",
 									"bold": false,
 									"italic": false

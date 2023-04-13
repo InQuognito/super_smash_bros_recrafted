@@ -12,7 +12,7 @@
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"text": "High Pixie",
+								"translate": "ssbrc.fighters.joker.persona.highPixie",
 								"color": "yellow",
 								"bold": true,
 								"italic": false
@@ -29,23 +29,25 @@
 									"italic": false
 								},
 								{
-									"text": "Persona",
+									"translate": "ssbrc.series.persona",
 									"color": "white",
 									"bold": false,
 									"italic": false,
 									"underlined": true
 								},
 								{
-									"text": "Persona Awakening effect:",
+									"translate": "- ",
 									"color": "gray",
 									"bold": false,
-									"italic": false
-								},
-								{
-									"text": "- Gain Amrita Shower",
-									"color": "gray",
-									"bold": false,
-									"italic": false
+									"italic": false,
+									"extra": [
+										{
+											"translate": "ssbrc.tooltips.joker.amritaShower",
+											"color": "gray",
+											"bold": false,
+											"italic": false
+										}
+									]
 								}
 							],
 							"replace": true

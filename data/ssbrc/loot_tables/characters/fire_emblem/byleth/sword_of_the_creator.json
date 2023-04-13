@@ -12,7 +12,7 @@
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"text": "Sword of the Creator",
+								"translate": "ssbrc.tooltips.byleth.swordOfTheCreator",
 								"color": "yellow",
 								"bold": true,
 								"italic": false

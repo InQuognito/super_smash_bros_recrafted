@@ -12,7 +12,7 @@
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"text": "Herobrine",
+								"translate": "ssbrc.fighters.steve.skin.herobrine",
 								"color": "white",
 								"bold": true,
 								"italic": false

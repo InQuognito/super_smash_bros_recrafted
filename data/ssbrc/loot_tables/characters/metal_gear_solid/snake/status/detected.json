@@ -12,7 +12,7 @@
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"text": "Detected",
+								"translate": "ssbrc.tooltips.snake.status.detected",
 								"color": "red",
 								"bold": true,
 								"italic": false
@@ -29,14 +29,14 @@
 									"italic": false
 								},
 								{
-									"text": "You are currently detected!",
+									"translate": "ssbrc.tooltips.snake.status.detected.description.1",
 									"color": "white",
 									"bold": false,
 									"italic": false,
 									"underlined": true
 								},
 								{
-									"text": "Other players can see you!",
+									"translate": "ssbrc.tooltips.snake.status.detected.description.2",
 									"color": "white",
 									"bold": false,
 									"italic": false

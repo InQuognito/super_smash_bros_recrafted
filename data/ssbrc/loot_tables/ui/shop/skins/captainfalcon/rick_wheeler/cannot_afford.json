@@ -12,7 +12,7 @@
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"text": "Rick Wheeler",
+								"translate": "ssbrc.fighters.captainfalcon.skin.rickWheeler",
 								"color": "dark_blue",
 								"bold": true,
 								"italic": false

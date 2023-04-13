@@ -12,7 +12,7 @@
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"text": "Master Sword",
+								"translate": "ssbrc.tooltips.link.masterSword",
 								"color": "white",
 								"bold": true,
 								"italic": false
@@ -48,7 +48,7 @@
 											"italic": false
 										},
 										{
-											"text": "] at full health to fire a sword beam",
+											"translate":"ssbrc.tooltips.link.masterSword.description.1",
 											"color": "gray",
 											"bold": false,
 											"italic": false
@@ -80,7 +80,7 @@
 											"italic": false
 										},
 										{
-											"text": "] to charge a spin attack",
+											"translate":"ssbrc.tooltips.link.masterSword.description.2",
 											"color": "gray",
 											"bold": false,
 											"italic": false

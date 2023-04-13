@@ -12,7 +12,7 @@
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"text": "Ice Rod",
+								"translate": "ssbrc.tooltips.zelda.dungeonItem.iceRod",
 								"color": "aqua",
 								"bold": true,
 								"italic": false
@@ -48,7 +48,7 @@
 											"italic": false
 										},
 										{
-											"text": "] to shoot a ball of ice",
+											"translate": "ssbrc.tooltips.zelda.dungeonItem.iceRod.description.1",
 											"color": "gray",
 											"bold": false,
 											"italic": false
@@ -80,7 +80,7 @@
 											"italic": false
 										},
 										{
-											"text": "] to summon an ice block at the cursor",
+											"translate": "ssbrc.tooltips.zelda.dungeonItem.iceRod.description.2",
 											"color": "gray",
 											"bold": false,
 											"italic": false

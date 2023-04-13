@@ -12,7 +12,7 @@
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"text": "Ocarina of Time",
+								"translate": "ssbrc.fighters.ganondorf.skin.ocarinaOfTime",
 								"color": "gold",
 								"bold": true,
 								"italic": false

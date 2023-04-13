@@ -12,7 +12,7 @@
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"text": "War Horn",
+								"translate": "ssbrc.tooltips.shovelknight.warHorn",
 								"color": "dark_gray",
 								"bold": true,
 								"italic": false
@@ -29,7 +29,7 @@
 									"italic": false
 								},
 								{
-									"text": "Offensive Weapon",
+									"translate": "ssbrc.tooltips.weapon.offensive",
 									"color": "white",
 									"bold": false,
 									"italic": false,
@@ -48,7 +48,7 @@
 											"italic": false
 										},
 										{
-											"text": "] to deal heavy damage to all opponents around you",
+											"translate": "ssbrc.tooltips.shovelknight.warHorn.description.1",
 											"color": "gray",
 											"bold": false,
 											"italic": false
@@ -56,7 +56,7 @@
 									]
 								},
 								{
-									"text": "- This item's energy has been used up",
+									"translate": "ssbrc.tooltips.shovelknight.warHorn.description.2",
 									"color": "red",
 									"bold": false,
 									"italic": false

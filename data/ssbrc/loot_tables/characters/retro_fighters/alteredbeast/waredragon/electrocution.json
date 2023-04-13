@@ -12,7 +12,7 @@
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"text": "Electrocution",
+								"translate": "ssbrc.tooltips.alteredbeast.waredragon.electrocution",
 								"color": "yellow",
 								"bold": true,
 								"italic": false
@@ -48,7 +48,7 @@
 											"italic": false
 										},
 										{
-											"text": "] to activate",
+											"translate": "ssbrc.tooltips.alteredbeast.waredragon.electrocution.description.1",
 											"color": "gray",
 											"bold": false,
 											"italic": false
@@ -56,13 +56,13 @@
 									]
 								},
 								{
-									"text": "- Deals high sustained damage in a small radius",
+									"translate": "ssbrc.tooltips.alteredbeast.waredragon.electrocution.description.2",
 									"color": "gray",
 									"bold": false,
 									"italic": false
 								},
 								{
-									"text": "- Cannot move during the attack",
+									"translate": "ssbrc.tooltips.alteredbeast.waredragon.electrocution.description.3",
 									"color": "gray",
 									"bold": false,
 									"italic": false

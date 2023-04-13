@@ -12,7 +12,7 @@
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"text": "CQC Knife",
+								"translate": "ssbrc.fighters.snake.cqcKnife",
 								"color": "green",
 								"bold": true,
 								"italic": false
@@ -36,7 +36,7 @@
 									"underlined": true
 								},
 								{
-									"text": "- Scavenges ammo upon getting a kill",
+									"translate": "ssbrc.tooltips.snake.cqcKnife.description.1",
 									"color": "gray",
 									"bold": false,
 									"italic": false

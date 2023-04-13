@@ -12,7 +12,7 @@
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"text": "Awakened",
+								"translate": "ssbrc.fighters.byleth.skin.awakened",
 								"color": "aqua",
 								"bold": true,
 								"italic": false

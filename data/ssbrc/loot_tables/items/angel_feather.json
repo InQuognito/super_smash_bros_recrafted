@@ -12,7 +12,7 @@
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"text": "Angel Feather",
+								"translate": "ssbrc.tooltips.item.angelFeather",
 								"color": "aqua",
 								"bold": true,
 								"italic": false
@@ -29,7 +29,7 @@
 									"italic": false
 								},
 								{
-									"text": "Activation Item",
+									"translate": "ssbrc.tooltips.item.activation",
 									"color": "white",
 									"bold": false,
 									"italic": false,
@@ -48,7 +48,7 @@
 											"italic": false
 										},
 										{
-											"text": "] to activate",
+											"translate": "ssbrc.tooltips.item.activation.activate",
 											"color": "gray",
 											"bold": false,
 											"italic": false
@@ -56,13 +56,13 @@
 									]
 								},
 								{
-									"text": "- Drastically increases jump height and grants slow falling",
+									"translate": "ssbrc.tooltips.item.angelFeather.description.1",
 									"color": "gray",
 									"bold": false,
 									"italic": false
 								},
 								{
-									"text": "- Lasts for a single jump",
+									"translate": "ssbrc.tooltips.item.angelFeather.description.2",
 									"color": "gray",
 									"bold": false,
 									"italic": false

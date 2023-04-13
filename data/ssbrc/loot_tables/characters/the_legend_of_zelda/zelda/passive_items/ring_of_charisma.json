@@ -12,7 +12,7 @@
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"text": "Ring of Charisma",
+								"translate": "ssbrc.tooltips.zelda.passiveItem.ringOfCharisma",
 								"color": "dark_green",
 								"bold": true,
 								"italic": false
@@ -29,14 +29,14 @@
 									"italic": false
 								},
 								{
-									"text": "Passive Equipment",
+									"translate": "ssbrc.tooltips.equipment.passive",
 									"color": "white",
 									"bold": false,
 									"italic": false,
 									"underlined": true
 								},
 								{
-									"text": "- Halves all rupee costs",
+									"translate": "ssbrc.tooltips.zelda.passiveItem.ringOfCharisma.description.1",
 									"color": "gray",
 									"bold": false,
 									"italic": false

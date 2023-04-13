@@ -3,7 +3,7 @@
 		"function": "minecraft:set_name",
 		"entity": "this",
 		"name": {
-			"text": "Rebel's Knife",
+			"translate": "ssbrc.tooltips.joker.rebelsKnife",
 			"color": "gray",
 			"bold": true,
 			"italic": false
@@ -13,7 +13,7 @@
 				"condition": "minecraft:entity_scores",
 				"entity": "this",
 				"scores": {
-					"duration.1": 0
+					"duration.1": 1
 				}
 			}
 		]
@@ -26,7 +26,7 @@
 				"condition": "minecraft:entity_scores",
 				"entity": "this",
 				"scores": {
-					"duration.1": 0
+					"duration.1": 1
 				}
 			}
 		]
@@ -35,13 +35,13 @@
 		"function": "minecraft:set_name",
 		"entity": "this",
 		"name": {
-			"text": "Rebel's Knife ",
+			"translate": "ssbrc.tooltips.joker.rebelsKnife",
 			"color": "gray",
 			"bold": true,
 			"italic": false,
 			"extra": [
 				{
-					"text": "[ Freeze Boost ]",
+					"translate": "ssbrc.tooltips.joker.freezeBoost",
 					"color": "aqua",
 					"bold": true,
 					"italic": false
@@ -61,7 +61,7 @@
 				"entity": "this",
 				"scores": {
 					"duration.1": {
-						"min": 1
+						"min": 2
 					}
 				}
 			}
@@ -83,7 +83,7 @@
 				"entity": "this",
 				"scores": {
 					"duration.1": {
-						"min": 1
+						"min": 2
 					}
 				}
 			}
@@ -93,13 +93,13 @@
 		"function": "minecraft:set_name",
 		"entity": "this",
 		"name": {
-			"text": "Rebel's Knife ",
+			"translate": "ssbrc.tooltips.joker.rebelsKnife",
 			"color": "gray",
 			"bold": true,
 			"italic": false,
 			"extra": [
 				{
-					"text": "[ Fire Boost ]",
+					"translate": "ssbrc.tooltips.joker.fireBoost",
 					"color": "red",
 					"bold": true,
 					"italic": false
@@ -119,7 +119,7 @@
 				"entity": "this",
 				"scores": {
 					"duration.1": {
-						"min": 1
+						"min": 2
 					}
 				}
 			}
@@ -141,7 +141,7 @@
 				"entity": "this",
 				"scores": {
 					"duration.1": {
-						"min": 1
+						"min": 2
 					}
 				}
 			}

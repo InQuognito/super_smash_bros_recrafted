@@ -12,7 +12,7 @@
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"text": "Fireball",
+								"translate": "ssbrc.tooltips.mario.fireball",
 								"color": "red",
 								"bold": true,
 								"italic": false
@@ -48,7 +48,7 @@
 											"italic": false
 										},
 										{
-											"text": "] to throw",
+											"translate": "ssbrc.tooltips.mario.fireball.description.1",
 											"color": "gray",
 											"bold": false,
 											"italic": false
@@ -56,7 +56,7 @@
 									]
 								},
 								{
-									"text": "- Bounces along the ground",
+									"translate": "ssbrc.tooltips.ability.description.bounce",
 									"color": "gray",
 									"bold": false,
 									"italic": false

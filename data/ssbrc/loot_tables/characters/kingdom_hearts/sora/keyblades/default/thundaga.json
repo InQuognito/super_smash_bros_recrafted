@@ -12,14 +12,26 @@
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"text": "Kingdom Key ",
+								"translate": "ssbrc.tooltips.sora.kingdomKey",
 								"color": "white",
 								"bold": true,
 								"italic": false,
 								"extra": [
 									{
-										"text": "(Thundaga)",
+										"translate": " (",
+										"color": "white",
+										"bold": false,
+										"italic": false
+									},
+									{
+										"translate": "ssbrc.tooltips.sora.keyblade.thundaga",
 										"color": "yellow",
+										"bold": false,
+										"italic": false
+									},
+									{
+										"translate": ")",
+										"color": "white",
 										"bold": false,
 										"italic": false
 									}
@@ -42,14 +54,26 @@
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"text": "Kingdom Key ",
+								"translate": "ssbrc.tooltips.sora.kingdomKey",
 								"color": "white",
 								"bold": true,
 								"italic": false,
 								"extra": [
 									{
-										"text": "(Thundaza)",
+										"translate": " (",
+										"color": "white",
+										"bold": false,
+										"italic": false
+									},
+									{
+										"translate": "ssbrc.tooltips.sora.keyblade.thundaza",
 										"color": "yellow",
+										"bold": false,
+										"italic": false
+									},
+									{
+										"translate": ")",
+										"color": "white",
 										"bold": false,
 										"italic": false
 									}
@@ -95,72 +119,8 @@
 											"italic": false
 										},
 										{
-											"text": "] to summon a row of three lightning bolts",
+											"translate": "ssbrc.tooltips.sora.keyblade.thundaga.description.1",
 											"color": "gray",
-											"bold": false,
-											"italic": false
-										}
-									]
-								},
-								{
-									"translate": "- [",
-									"color": "gray",
-									"bold": false,
-									"italic": false,
-									"extra": [
-										{
-											"keybind": "key.sneak",
-											"color": "gray",
-											"bold": false,
-											"italic": false
-										},
-										{
-											"translate": "] + [",
-											"color": "gray",
-											"bold": false,
-											"italic": false
-										},
-										{
-											"keybind": "key.use",
-											"color": "gray",
-											"bold": false,
-											"italic": false
-										},
-										{
-											"text": "] to cycle selected spell",
-											"color": "gray",
-											"bold": false,
-											"italic": false
-										}
-									]
-								},
-								{
-									"text": "Thunder",
-									"color": "yellow",
-									"bold": true,
-									"italic": false,
-									"extra": [
-										{
-											"translate": " -> ",
-											"color": "white",
-											"bold": false,
-											"italic": false
-										},
-										{
-											"text": "Fire",
-											"color": "red",
-											"bold": false,
-											"italic": false
-										},
-										{
-											"translate": " -> ",
-											"color": "white",
-											"bold": false,
-											"italic": false
-										},
-										{
-											"text": "Blizzard",
-											"color": "aqua",
 											"bold": false,
 											"italic": false
 										}
@@ -211,13 +171,29 @@
 											"italic": false
 										},
 										{
-											"text": "] to summon three lightning bolts concentrated around your cursor",
+											"translate": "ssbrc.tooltips.sora.keyblade.thundaza.description.1",
 											"color": "gray",
 											"bold": false,
 											"italic": false
 										}
 									]
-								},
+								}
+							],
+							"replace": true,
+							"conditions": [
+								{
+									"condition": "minecraft:entity_properties",
+										"entity": "this",
+										"predicate": {
+											"nbt": "{Tags:[\"wisdom\"]}"
+										}
+								}
+							]
+						},
+						{
+							"function": "minecraft:set_lore",
+							"entity": "this",
+							"lore": [
 								{
 									"translate": "- [",
 									"color": "gray",
@@ -243,7 +219,7 @@
 											"italic": false
 										},
 										{
-											"text": "] to cycle selected spell",
+											"translate": "ssbrc.tooltips.sora.keyblade.cycleSpell",
 											"color": "gray",
 											"bold": false,
 											"italic": false
@@ -251,7 +227,7 @@
 									]
 								},
 								{
-									"text": "Thunder",
+									"translate": "ssbrc.tooltips.sora.thunder",
 									"color": "yellow",
 									"bold": true,
 									"italic": false,
@@ -263,7 +239,7 @@
 											"italic": false
 										},
 										{
-											"text": "Fire",
+											"translate": "ssbrc.tooltips.sora.fire",
 											"color": "red",
 											"bold": false,
 											"italic": false
@@ -275,7 +251,7 @@
 											"italic": false
 										},
 										{
-											"text": "Blizzard",
+											"translate": "ssbrc.tooltips.sora.blizzard",
 											"color": "aqua",
 											"bold": false,
 											"italic": false
@@ -283,16 +259,7 @@
 									]
 								}
 							],
-							"replace": true,
-							"conditions": [
-								{
-									"condition": "minecraft:entity_properties",
-										"entity": "this",
-										"predicate": {
-											"nbt": "{Tags:[\"wisdom\"]}"
-										}
-								}
-							]
+							"replace": false
 						},
 						{
 							"function": "minecraft:set_attributes",

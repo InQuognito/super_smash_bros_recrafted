@@ -12,7 +12,7 @@
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"text": "Buster Sword",
+								"translate": "ssbrc.tooltips.cloud.busterSword",
 								"color": "gray",
 								"bold": true,
 								"italic": false
@@ -48,7 +48,7 @@
 											"italic": false
 										},
 										{
-											"text": "] to fire a blade beam",
+											"translate": "ssbrc.tooltips.cloud.bladeBeam.description.1",
 											"color": "gray",
 											"bold": false,
 											"italic": false
@@ -56,10 +56,18 @@
 									]
 								},
 								{
-									"text": " - Limit Break: More powerful blade beam",
+									"translate": "ssbrc.tooltips.cloud.limitBreak",
 									"color": "gray",
 									"bold": false,
-									"italic": false
+									"italic": false,
+									"extra": [
+										{
+											"translate": "ssbrc.tooltips.cloud.bladeBeam.description.2",
+											"color": "gray",
+											"bold": false,
+											"italic": false
+										}
+									]
 								},
 								{
 									"translate": "- [",
@@ -86,7 +94,7 @@
 											"italic": false
 										},
 										{
-											"text": "] to change modes",
+											"translate": "ssbrc.tooltips.cloud.changeModes",
 											"color": "gray",
 											"bold": false,
 											"italic": false
@@ -94,7 +102,7 @@
 									]
 								},
 								{
-									"text": "Operator",
+									"translate": "ssbrc.fighters.cloud.operator",
 									"color": "green",
 									"bold": true,
 									"italic": false,
@@ -106,7 +114,7 @@
 											"italic": false
 										},
 										{
-											"text": "Punisher",
+											"translate": "ssbrc.fighters.cloud.punisher",
 											"color": "blue",
 											"bold": false,
 											"italic": false

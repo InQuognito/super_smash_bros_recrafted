@@ -12,7 +12,7 @@
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"text": "Sofia",
+								"translate": "ssbrc.fighters.hero.skin.sofia",
 								"color": "green",
 								"bold": true,
 								"italic": false

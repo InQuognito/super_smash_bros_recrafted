@@ -12,7 +12,7 @@
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"text": "Barrel",
+								"translate": "ssbrc.tooltips.donkeykong.barrel",
 								"color": "gold",
 								"bold": true,
 								"italic": false
@@ -48,7 +48,7 @@
 											"italic": false
 										},
 										{
-											"text": "] to throw",
+											"translate": "ssbrc.tooltips.donkeykong.barrel.description.1",
 											"color": "gray",
 											"bold": false,
 											"italic": false
@@ -56,13 +56,13 @@
 									]
 								},
 								{
-									"text": "- Bounces along the ground",
+									"translate": "ssbrc.tooltips.ability.description.bounce",
 									"color": "gray",
 									"bold": false,
 									"italic": false
 								},
 								{
-									"text": "- Explodes into shrapnel on collision",
+									"translate": "ssbrc.tooltips.donkeykong.barrel.description.2",
 									"color": "gray",
 									"bold": false,
 									"italic": false

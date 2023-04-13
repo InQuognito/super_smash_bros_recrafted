@@ -12,13 +12,13 @@
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"text": "PK Freeze ",
+								"translate": "ssbrc.tooltips.giegue.pkFreeze",
 								"color": "aqua",
 								"bold": true,
 								"italic": false,
 								"extra": [
 									{
-										"text": "γ",
+										"translate": "ssbrc.tooltips.earthbound.gamma",
 										"color": "aqua",
 										"bold": false,
 										"italic": false
@@ -37,7 +37,7 @@
 									"italic": false
 								},
 								{
-									"text": "Offensive Ability",
+									"translate": "ssbrc.tooltips.ability.offensive",
 									"color": "white",
 									"bold": false,
 									"italic": false,
@@ -56,7 +56,7 @@
 											"italic": false
 										},
 										{
-											"text": "] to shoot an ice projectile",
+											"translate": "ssbrc.tooltips.giegue.pkFreeze.description.1",
 											"color": "gray",
 											"bold": false,
 											"italic": false
@@ -64,7 +64,7 @@
 									]
 								},
 								{
-									"text": "- Splits in two upon hitting the opponent",
+									"translate": "ssbrc.tooltips.giegue.pkFreeze.description.2",
 									"color": "gray",
 									"bold": false,
 									"italic": false

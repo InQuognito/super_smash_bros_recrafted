@@ -12,7 +12,7 @@
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"text": "Phazon Overload",
+								"translate": "ssbrc.tooltips.darksamus.phazonOverload",
 								"color": "aqua",
 								"bold": true,
 								"italic": false
@@ -29,7 +29,7 @@
 									"italic": false
 								},
 								{
-									"text": "Transformation Ability",
+									"translate": "ssbrc.tooltips.ability.transformation",
 									"color": "white",
 									"bold": false,
 									"italic": false,
@@ -48,7 +48,7 @@
 											"italic": false
 										},
 										{
-											"text": "] to activate",
+											"translate": "ssbrc.tooltips.darksamus.phazonOverload.description.1",
 											"color": "gray",
 											"bold": false,
 											"italic": false
@@ -62,7 +62,7 @@
 									"italic": false,
 									"extra": [
 										{
-											"text": "Increases attack speed drastically",
+											"translate": "ssbrc.tooltips.darksamus.phazonOverload.description.2",
 											"color": "gray",
 											"bold": false,
 											"italic": false
@@ -70,27 +70,13 @@
 									]
 								},
 								{
-									"text": " - ",
+									"translate": " - ",
 									"color": "red",
 									"bold": true,
 									"italic": false,
 									"extra": [
 										{
-											"text": "Each shot fired poisons you",
-											"color": "gray",
-											"bold": false,
-											"italic": false
-										}
-									]
-								},
-								{
-									"text": " - ",
-									"color": "red",
-									"bold": true,
-									"italic": false,
-									"extra": [
-										{
-											"text": "Disables charge attacks",
+											"translate": "ssbrc.tooltips.darksamus.phazonOverload.description.3",
 											"color": "gray",
 											"bold": false,
 											"italic": false

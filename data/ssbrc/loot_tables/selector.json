@@ -12,7 +12,7 @@
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"text": "Selector",
+								"translate": "ssbrc.lobby.selector",
 								"color": "yellow",
 								"bold": true,
 								"italic": false
@@ -41,7 +41,7 @@
 											"italic": false
 										},
 										{
-											"text": "] to interact with objects",
+											"translate": "ssbrc.lobby.selector.suffix",
 											"color": "gray",
 											"bold": false,
 											"italic": false

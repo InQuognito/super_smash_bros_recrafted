@@ -12,7 +12,7 @@
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"text": "Kaclang",
+								"translate": "ssbrc.tooltips.hero.kaclang",
 								"color": "dark_aqua",
 								"bold": true,
 								"italic": false
@@ -29,7 +29,7 @@
 									"italic": false
 								},
 								{
-									"text": "Defensive Spell",
+									"translate": "ssbrc.tooltips.spell.defensive",
 									"color": "white",
 									"bold": false,
 									"italic": false,
@@ -48,7 +48,7 @@
 											"italic": false
 										},
 										{
-											"text": "] to become invulnerable and immobile briefly",
+											"translate": "ssbrc.tooltips.hero.kaclang.description.1",
 											"color": "gray",
 											"bold": false,
 											"italic": false

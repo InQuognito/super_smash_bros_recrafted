@@ -12,18 +12,10 @@
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"text": "Rapier",
+								"translate": "ssbrc.tooltips.zelda.weapon.rapier",
 								"color": "white",
 								"bold": true,
-								"italic": false,
-								"extra": [
-									{
-										"translate": "",
-										"color": "white",
-										"bold": false,
-										"italic": false
-									}
-								]
+								"italic": false
 							}
 						},
 						{

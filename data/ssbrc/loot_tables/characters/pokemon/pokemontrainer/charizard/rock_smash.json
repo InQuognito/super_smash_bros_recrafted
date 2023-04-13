@@ -12,7 +12,7 @@
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"text": "Rock Smash",
+								"translate": "ssbrc.tooltips.pokemontrainer.charizard.rockSmash",
 								"color": "gray",
 								"bold": true,
 								"italic": false
@@ -34,7 +34,7 @@
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"text": "Mega Punch",
+								"translate": "ssbrc.tooltips.pikachu.megaPunch",
 								"color": "white",
 								"bold": true,
 								"italic": false
@@ -67,7 +67,7 @@
 									"underlined": true
 								},
 								{
-									"text": "- Has a chance to break opponents' armor briefly",
+									"translate": "ssbrc.tooltips.pokemontrainer.charizard.rockSmash.description.1",
 									"color": "gray",
 									"bold": false,
 									"italic": false

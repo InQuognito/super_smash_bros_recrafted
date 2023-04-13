@@ -12,7 +12,7 @@
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"text": "Brave Bow",
+								"translate": "ssbrc.tooltips.byleth.goldenDeer.braveBow",
 								"color": "white",
 								"bold": true,
 								"italic": false
@@ -36,7 +36,7 @@
 									"underlined": true
 								},
 								{
-									"text": "- Fires two arrows at full charge",
+									"translate": "ssbrc.tooltips.byleth.goldenDeer.braveBow.description.1",
 									"color": "gray",
 									"bold": false,
 									"italic": false

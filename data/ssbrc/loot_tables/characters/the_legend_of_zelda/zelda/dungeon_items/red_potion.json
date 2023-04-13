@@ -12,7 +12,7 @@
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"text": "Red Potion",
+								"translate": "ssbrc.tooltips.zelda.dungeonItem.redPotion",
 								"color": "red",
 								"bold": true,
 								"italic": false
@@ -29,14 +29,14 @@
 									"italic": false
 								},
 								{
-									"text": "Passive Equipment",
+									"translate": "ssbrc.tooltips.equipment.passive",
 									"color": "white",
 									"bold": false,
 									"italic": false,
 									"underlined": true
 								},
 								{
-									"text": "- Restores health",
+									"translate": "ssbrc.tooltips.zelda.dungeonItem.redPotion.description.1",
 									"color": "gray",
 									"bold": false,
 									"italic": false

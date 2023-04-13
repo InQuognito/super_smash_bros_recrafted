@@ -12,7 +12,7 @@
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"text": "Scratch",
+								"translate": "ssbrc.tooltips.teamrocket.meowth.scratch",
 								"color": "white",
 								"bold": true,
 								"italic": false

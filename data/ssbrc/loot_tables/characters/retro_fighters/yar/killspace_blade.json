@@ -12,7 +12,7 @@
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"text": "Killspace Blade",
+								"translate": "ssbrc.tooltips.yar.killspaceBlade",
 								"color": "white",
 								"bold": true,
 								"italic": false

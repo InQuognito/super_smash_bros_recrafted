@@ -12,7 +12,7 @@
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"text": "Aymr",
+								"translate": "ssbrc.tooltips.byleth.blackEagles.aymr",
 								"color": "red",
 								"bold": true,
 								"italic": false
@@ -42,45 +42,13 @@
 									"italic": false,
 									"extra": [
 										{
-											"keybind": "key.sneak",
-											"color": "gray",
-											"bold": false,
-											"italic": false
-										},
-										{
-											"translate": "] + [",
-											"color": "gray",
-											"bold": false,
-											"italic": false
-										},
-										{
 											"keybind": "key.use",
 											"color": "gray",
 											"bold": false,
 											"italic": false
 										},
 										{
-											"text": "] to build power",
-											"color": "gray",
-											"bold": false,
-											"italic": false
-										}
-									]
-								},
-								{
-									"translate": "- [",
-									"color": "gray",
-									"bold": false,
-									"italic": false,
-									"extra": [
-										{
-											"keybind": "key.use",
-											"color": "gray",
-											"bold": false,
-											"italic": false
-										},
-										{
-											"text": "] while powered up to unleash a shockwave",
+											"translate": "ssbrc.tooltips.byleth.blackEagles.aymr.description.3",
 											"color": "gray",
 											"bold": false,
 											"italic": false

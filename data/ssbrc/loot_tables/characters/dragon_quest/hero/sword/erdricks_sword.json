@@ -12,7 +12,7 @@
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"text": "Erdrick's Sword",
+								"translate": "ssbrc.tooltips.hero.erdricksSword",
 								"color": "yellow",
 								"bold": true,
 								"italic": false

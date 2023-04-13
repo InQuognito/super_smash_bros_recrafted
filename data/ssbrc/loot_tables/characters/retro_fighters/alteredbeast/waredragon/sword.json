@@ -12,7 +12,7 @@
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"text": "Sword",
+								"translate": "ssbrc.tooltips.alteredbeast.waredragon.dragonClaw",
 								"color": "white",
 								"bold": true,
 								"italic": false

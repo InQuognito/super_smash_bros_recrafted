@@ -12,7 +12,7 @@
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"text": "Bang",
+								"translate": "ssbrc.tooltips.hero.bang",
 								"color": "red",
 								"bold": true,
 								"italic": false
@@ -29,7 +29,7 @@
 									"italic": false
 								},
 								{
-									"text": "Projectile Spell",
+									"translate": "ssbrc.tooltips.spell.projectile",
 									"color": "white",
 									"bold": false,
 									"italic": false,
@@ -48,7 +48,7 @@
 											"italic": false
 										},
 										{
-											"text": "] to shoot an explosive charge",
+											"translate": "ssbrc.tooltips.hero.bang.description.1",
 											"color": "gray",
 											"bold": false,
 											"italic": false

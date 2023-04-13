@@ -12,7 +12,7 @@
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"text": "Bow",
+								"translate": "item.minecraft.bow",
 								"color": "white",
 								"bold": true,
 								"italic": false

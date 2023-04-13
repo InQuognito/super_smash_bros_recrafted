@@ -12,7 +12,7 @@
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"text": "Blood Metamorphosis",
+								"translate": "ssbrc.tooltips.alucard.bloodMetamorphosis",
 								"color": "dark_red",
 								"bold": true,
 								"italic": false
@@ -48,7 +48,7 @@
 											"italic": false
 										},
 										{
-											"text": "] to power up your next ability at the cost of health",
+											"translate": "ssbrc.tooltips.alucard.bloodMetamorphosis.description.1",
 											"color": "gray",
 											"bold": false,
 											"italic": false
@@ -56,19 +56,19 @@
 									]
 								},
 								{
-									"text": " - Alucard Sword gains increased damage",
+									"translate": "ssbrc.tooltips.alucard.bloodMetamorphosis.description.2",
 									"color": "gray",
 									"bold": false,
 									"italic": false
 								},
 								{
-									"text": " - Holy Water gains a larger radius",
+									"translate": "ssbrc.tooltips.alucard.bloodMetamorphosis.description.3",
 									"color": "gray",
 									"bold": false,
 									"italic": false
 								},
 								{
-									"text": " - Mist lasts twice as long and leaves a poison cloud",
+									"translate": "ssbrc.tooltips.alucard.bloodMetamorphosis.description.4",
 									"color": "gray",
 									"bold": false,
 									"italic": false

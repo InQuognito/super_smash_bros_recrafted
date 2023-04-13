@@ -12,7 +12,7 @@
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"text": "Erdrick",
+								"translate": "ssbrc.fighters.hero.skin.erdrick",
 								"color": "yellow",
 								"bold": true,
 								"italic": false

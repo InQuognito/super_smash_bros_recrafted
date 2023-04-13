@@ -12,7 +12,7 @@
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"text": "Power Pellet",
+								"translate": "ssbrc.tooltips.item.powerPellet",
 								"color": "white",
 								"bold": true,
 								"italic": false
@@ -29,7 +29,7 @@
 									"italic": false
 								},
 								{
-									"text": "Activation Item",
+									"translate": "ssbrc.tooltips.item.activation",
 									"color": "white",
 									"bold": false,
 									"italic": false,
@@ -48,7 +48,7 @@
 											"italic": false
 										},
 										{
-											"text": "] to activate",
+											"translate": "ssbrc.tooltips.item.activation.activate",
 											"color": "gray",
 											"bold": false,
 											"italic": false
@@ -56,7 +56,7 @@
 									]
 								},
 								{
-									"text": "- Allows ghosts to be eaten by players temporarily",
+									"translate": "ssbrc.tooltips.item.powerPellet.description.1",
 									"color": "gray",
 									"bold": false,
 									"italic": false

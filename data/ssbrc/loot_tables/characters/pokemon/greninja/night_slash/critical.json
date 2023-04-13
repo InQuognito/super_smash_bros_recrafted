@@ -12,7 +12,7 @@
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"text": "Night Slash",
+								"translate": "ssbrc.tooltips.greninja.nightSlash",
 								"color": "dark_gray",
 								"bold": true,
 								"italic": false
@@ -36,7 +36,7 @@
 									"underlined": true
 								},
 								{
-									"text": "- Can occasionally land a critical hit",
+									"translate": "ssbrc.tooltips.greninja.nightSlash.description.1",
 									"color": "gray",
 									"bold": false,
 									"italic": false

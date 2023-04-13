@@ -12,7 +12,7 @@
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"text": "Bite",
+								"translate": "ssbrc.tooltips.pokemontrainer.squirtle.bite",
 								"color": "dark_gray",
 								"bold": true,
 								"italic": false
@@ -34,7 +34,7 @@
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"text": "Pound",
+								"translate": "ssbrc.tooltips.jigglypuff.pound",
 								"color": "white",
 								"bold": true,
 								"italic": false
@@ -79,7 +79,7 @@
 									"underlined": true
 								},
 								{
-									"text": "- Has a chance to flinch the opponent",
+									"translate": "ssbrc.tooltips.pokemontrainer.squirtle.bite.description.1",
 									"color": "gray",
 									"bold": false,
 									"italic": false

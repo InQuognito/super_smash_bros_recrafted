@@ -12,7 +12,7 @@
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"text": "Zelda",
+								"translate": "ssbrc.fighters.zelda",
 								"color": "blue",
 								"bold": true,
 								"italic": false

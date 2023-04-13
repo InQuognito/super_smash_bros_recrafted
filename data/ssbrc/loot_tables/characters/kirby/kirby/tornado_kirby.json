@@ -12,7 +12,7 @@
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"text": "Tornado Kirby",
+								"translate": "ssbrc.tooltips.kirby.tornadoKirby",
 								"color": "light_purple",
 								"bold": true,
 								"italic": false
@@ -36,7 +36,7 @@
 									"underlined": true
 								},
 								{
-									"text": "- Deals increased knockback",
+									"translate": "ssbrc.tooltips.kirby.tornadoKirby.description.1",
 									"color": "gray",
 									"bold": false,
 									"italic": false

@@ -12,7 +12,7 @@
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"text": "Knock Off",
+								"translate": "ssbrc.tooltips.pokemontrainer.ivysaur.leechSeed",
 								"color": "dark_gray",
 								"bold": true,
 								"italic": false
@@ -36,7 +36,7 @@
 									"underlined": true
 								},
 								{
-									"text": "- Has a chance to knock items away",
+									"translate": "ssbrc.tooltips.pokemontrainer.ivysaur.knockOff.description.1",
 									"color": "gray",
 									"bold": false,
 									"italic": false

@@ -12,7 +12,7 @@
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"text": "Erdwin's Shield",
+								"translate": "ssbrc.tooltips.hero.erdwinsShield",
 								"color": "yellow",
 								"bold": true,
 								"italic": false

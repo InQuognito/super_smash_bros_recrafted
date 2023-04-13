@@ -12,7 +12,7 @@
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"text": "Crossbow",
+								"translate": "item.minecraft.crossbow",
 								"color": "white",
 								"bold": true,
 								"italic": false

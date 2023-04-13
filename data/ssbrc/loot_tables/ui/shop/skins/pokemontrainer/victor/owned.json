@@ -12,7 +12,7 @@
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"text": "Victor",
+								"translate": "ssbrc.fighters.pokemontrainer.skin.victor",
 								"color": "dark_blue",
 								"bold": true,
 								"italic": false

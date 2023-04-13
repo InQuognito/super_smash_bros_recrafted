@@ -12,7 +12,7 @@
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"text": "Netherite Pickaxe",
+								"translate": "item.minecraft.netherite_pickaxe",
 								"color": "dark_gray",
 								"bold": true,
 								"italic": false
@@ -48,12 +48,18 @@
 											"italic": false
 										},
 										{
-											"text": "] to mine for items",
+											"translate": "ssbrc.tooltips.steve.pickaxe.description.1",
 											"color": "gray",
 											"bold": false,
 											"italic": false
 										}
 									]
+								},
+								{
+									"translate": "ssbrc.tooltips.steve.pickaxe.description.2",
+									"color": "gray",
+									"bold": false,
+									"italic": false
 								}
 							],
 							"replace": true

@@ -3,7 +3,7 @@
 		"function": "minecraft:set_name",
 		"entity": "this",
 		"name": {
-			"text": "Player Profile",
+			"translate": "ssbrc.statistics.playerProfile",
 			"color": "gold",
 			"bold": true,
 			"italic": false
@@ -20,7 +20,7 @@
 				"italic": false
 			},
 			{
-				"text": "Wins: ",
+				"translate": "ssbrc.statistics.wins",
 				"color": "gold",
 				"bold": false,
 				"italic": false,
@@ -37,7 +37,7 @@
 				]
 			},
 			{
-				"text": "Games Played: ",
+				"translate": "ssbrc.statistics.gamesPlayed",
 				"color": "gold",
 				"bold": false,
 				"italic": false,
@@ -61,7 +61,7 @@
 		"entity": "this",
 		"lore": [
 			{
-				"text": "W/L Ratio: ",
+				"translate": "ssbrc.statistics.winLossRatio",
 				"color": "gold",
 				"bold": false,
 				"italic": false,
@@ -93,7 +93,7 @@
 		"entity": "this",
 		"lore": [
 			{
-				"text": "Kills: ",
+				"translate": "ssbrc.statistics.kills",
 				"color": "gold",
 				"bold": false,
 				"italic": false,
@@ -110,7 +110,7 @@
 				]
 			},
 			{
-				"text": "Deaths: ",
+				"translate": "ssbrc.statistics.deaths",
 				"color": "gold",
 				"bold": false,
 				"italic": false,
@@ -134,7 +134,7 @@
 		"entity": "this",
 		"lore": [
 			{
-				"text": "K/D Ratio: ",
+				"translate": "ssbrc.statistics.killDeathRatio",
 				"color": "gold",
 				"bold": false,
 				"italic": false,
@@ -193,7 +193,7 @@
 		"entity": "this",
 		"lore": [
 			{
-				"text": "K/D Ratio: ",
+				"translate": "ssbrc.statistics.killDeathRatio",
 				"color": "gold",
 				"bold": false,
 				"italic": false,
@@ -264,7 +264,7 @@
 						"italic": false
 					},
 					{
-						"text": "] to view your full profile!",
+						"translate": "ssbrc.statistics.playerProfile.suffix",
 						"color": "gray",
 						"bold": false,
 						"italic": false

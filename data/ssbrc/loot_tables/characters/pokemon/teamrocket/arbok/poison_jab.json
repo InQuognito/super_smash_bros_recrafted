@@ -12,7 +12,7 @@
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"text": "Poison Jab",
+								"translate": "ssbrc.tooltips.teamrocket.arbok.poisonJab",
 								"color": "light_purple",
 								"bold": true,
 								"italic": false
@@ -36,7 +36,7 @@
 									"underlined": true
 								},
 								{
-									"text": "- Has a chance to poison the opponent",
+									"translate": "ssbrc.tooltips.effects.poison",
 									"color": "gray",
 									"bold": false,
 									"italic": false

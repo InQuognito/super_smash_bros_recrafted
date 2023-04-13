@@ -12,115 +12,11 @@
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"text": "Power Beam",
+								"translate": "ssbrc.tooltips.samus.powerBeam",
 								"color": "gold",
 								"bold": true,
 								"italic": false
 							}
-						},
-						{
-							"function": "minecraft:set_lore",
-							"entity": "this",
-							"lore": [
-								{
-									"translate": "------------",
-									"color": "gray",
-									"bold": false,
-									"italic": false
-								},
-								{
-									"translate": "ssbrc.tooltips.weapon.ranged",
-									"color": "white",
-									"bold": false,
-									"italic": false,
-									"underlined": true
-								},
-								{
-									"translate": "- [",
-									"color": "gray",
-									"bold": false,
-									"italic": false,
-									"extra": [
-										{
-											"keybind": "key.use",
-											"color": "gray",
-											"bold": false,
-											"italic": false
-										},
-										{
-											"text": "] to fire",
-											"color": "gray",
-											"bold": false,
-											"italic": false
-										}
-									]
-								},
-								{
-									"translate": "- [",
-									"color": "gray",
-									"bold": false,
-									"italic": false,
-									"extra": [
-										{
-											"keybind": "key.use",
-											"color": "gray",
-											"bold": false,
-											"italic": false
-										},
-										{
-											"translate": "] + [",
-											"color": "gray",
-											"bold": false,
-											"italic": false
-										},
-										{
-											"keybind": "key.use",
-											"color": "gray",
-											"bold": false,
-											"italic": false
-										},
-										{
-											"text": "] to cycle Arm Cannon weapons",
-											"color": "gray",
-											"bold": false,
-											"italic": false
-										}
-									]
-								},
-								{
-									"text": "Power Beam",
-									"color": "gold",
-									"bold": true,
-									"italic": false,
-									"extra": [
-										{
-											"translate": " -> ",
-											"color": "white",
-											"bold": false,
-											"italic": false
-										},
-										{
-											"text": "Wave Beam",
-											"color": "dark_purple",
-											"bold": false,
-											"italic": false
-										},
-										{
-											"translate": " -> ",
-											"color": "white",
-											"bold": false,
-											"italic": false
-										},
-										{
-											"text": "Plasma Beam",
-											"color": "dark_red",
-											"bold": false,
-											"italic": false
-										}
-									]
-								}
-							],
-							"replace": true
 						},
 						{
 							"function": "minecraft:set_attributes",

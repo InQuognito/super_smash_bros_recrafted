@@ -12,7 +12,7 @@
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"text": "Omnishot",
+								"translate": "ssbrc.tooltips.yar.omnishot",
 								"color": "gold",
 								"bold": true,
 								"italic": false
@@ -29,7 +29,7 @@
 									"italic": false
 								},
 								{
-									"text": "Passive Ability",
+									"translate": "ssbrc.tooltips.ability.passive",
 									"color": "white",
 									"bold": false,
 									"italic": false,
@@ -48,7 +48,7 @@
 											"italic": false
 										},
 										{
-											"text": "] to activate Omnishot",
+											"translate": "ssbrc.tooltips.item.activation.activate",
 											"color": "gray",
 											"bold": false,
 											"italic": false
@@ -56,7 +56,7 @@
 									]
 								},
 								{
-									"text": "- Periodically fires bullets from the player",
+									"translate": "ssbrc.tooltips.yar.omnishot.description.1",
 									"color": "gray",
 									"bold": false,
 									"italic": false

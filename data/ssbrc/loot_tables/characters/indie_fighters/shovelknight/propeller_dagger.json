@@ -12,7 +12,7 @@
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"text": "Propeller Dagger",
+								"translate": "ssbrc.tooltips.shovelknight.propellerDagger",
 								"color": "dark_aqua",
 								"bold": true,
 								"italic": false
@@ -29,7 +29,7 @@
 									"italic": false
 								},
 								{
-									"text": "Utility Weapon",
+									"translate": "ssbrc.tooltips.weapon.utility",
 									"color": "white",
 									"bold": false,
 									"italic": false,
@@ -48,7 +48,7 @@
 											"italic": false
 										},
 										{
-											"text": "] to dash forward, dealing damage to opponents",
+											"translate": "ssbrc.tooltips.shovelknight.propellerDagger.description.1",
 											"color": "gray",
 											"bold": false,
 											"italic": false

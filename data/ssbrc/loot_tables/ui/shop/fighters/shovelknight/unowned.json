@@ -12,7 +12,7 @@
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"text": "Shovel Knight",
+								"translate": "ssbrc.fighters.shovelknight",
 								"color": "dark_aqua",
 								"bold": true,
 								"italic": false

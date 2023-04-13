@@ -12,7 +12,7 @@
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"text": "Chaos Sphere",
+								"translate": "ssbrc.tooltips.shovelknight.chaosSphere",
 								"color": "dark_green",
 								"bold": true,
 								"italic": false
@@ -48,7 +48,7 @@
 											"italic": false
 										},
 										{
-											"text": "] to throw a chaos sphere",
+											"translate": "ssbrc.tooltips.shovelknight.chaosSphere.description.1",
 											"color": "gray",
 											"bold": false,
 											"italic": false
@@ -56,7 +56,7 @@
 									]
 								},
 								{
-									"text": "- Bounces and picks up speed upon hitting a wall",
+									"translate": "ssbrc.tooltips.shovelknight.chaosSphere.description.2",
 									"color": "gray",
 									"bold": false,
 									"italic": false

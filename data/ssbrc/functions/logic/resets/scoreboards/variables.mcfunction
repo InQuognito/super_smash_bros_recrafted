@@ -97,6 +97,7 @@ scoreboard players set #snake.smokeGrenadeScavenger vars 1
 scoreboard players set #steve.blockRange vars 3
 
 scoreboard players set #wolf.grenadeTimer vars 80
+scoreboard players set #wolf.wolfFlash vars 6
 
 scoreboard players set yar.droneHealth vars 20
 scoreboard players set #yar.railgunRange vars 600

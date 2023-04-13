@@ -12,7 +12,7 @@
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"text": "Alucard",
+								"translate": "ssbrc.fighters.alucard",
 								"color": "white",
 								"bold": true,
 								"italic": false

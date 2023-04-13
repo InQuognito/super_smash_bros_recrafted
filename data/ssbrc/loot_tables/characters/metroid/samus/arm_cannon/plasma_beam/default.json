@@ -12,7 +12,7 @@
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"text": "Plasma Beam",
+								"translate": "ssbrc.tooltips.samus.plasmaBeam",
 								"color": "dark_red",
 								"bold": true,
 								"italic": false
@@ -48,7 +48,7 @@
 											"italic": false
 										},
 										{
-											"text": "] to fire",
+											"translate": "ssbrc.tooltips.samus.plasmaBeam.description.1",
 											"color": "gray",
 											"bold": false,
 											"italic": false
@@ -86,7 +86,7 @@
 											"italic": false
 										},
 										{
-											"text": "] to cycle Arm Cannon weapons",
+											"translate": "ssbrc.tooltips.samus.armCannon",
 											"color": "gray",
 											"bold": false,
 											"italic": false
@@ -94,7 +94,7 @@
 									]
 								},
 								{
-									"text": "Plasma Beam",
+									"translate": "ssbrc.tooltips.samus.plasmaBeam",
 									"color": "dark_red",
 									"bold": true,
 									"italic": false,
@@ -106,7 +106,7 @@
 											"italic": false
 										},
 										{
-											"text": "Power Beam",
+											"translate": "ssbrc.tooltips.samus.powerBeam",
 											"color": "gold",
 											"bold": false,
 											"italic": false
@@ -118,7 +118,7 @@
 											"italic": false
 										},
 										{
-											"text": "Wave Beam",
+											"translate": "ssbrc.tooltips.samus.waveBeam",
 											"color": "dark_purple",
 											"bold": false,
 											"italic": false

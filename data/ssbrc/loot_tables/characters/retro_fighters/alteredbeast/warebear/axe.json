@@ -12,7 +12,7 @@
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"text": "Axe",
+								"translate": "ssbrc.tooltips.alteredbeast.warebear.bearClaw",
 								"color": "gold",
 								"bold": true,
 								"italic": false

@@ -12,7 +12,7 @@
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"text": "Ninja Kirby",
+								"translate": "ssbrc.tooltips.kirby.ninjaKirby",
 								"color": "light_purple",
 								"bold": true,
 								"italic": false
@@ -36,7 +36,7 @@
 									"underlined": true
 								},
 								{
-									"text": "- Grants increased movement speed while held",
+									"translate": "ssbrc.tooltips.kirby.ninjaKirby.description.1",
 									"color": "gray",
 									"bold": false,
 									"italic": false

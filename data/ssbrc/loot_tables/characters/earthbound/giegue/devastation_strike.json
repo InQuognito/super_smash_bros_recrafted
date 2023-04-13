@@ -12,7 +12,7 @@
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"text": "Devastation Strike",
+								"translate": "ssbrc.tooltips.giegue.devastationStrike",
 								"color": "dark_gray",
 								"bold": true,
 								"italic": false

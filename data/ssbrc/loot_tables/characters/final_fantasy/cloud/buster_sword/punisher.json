@@ -12,7 +12,7 @@
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"text": "Buster Sword",
+								"translate": "ssbrc.tooltips.cloud.busterSword",
 								"color": "gray",
 								"bold": true,
 								"italic": false
@@ -36,13 +36,21 @@
 									"underlined": true
 								},
 								{
-									"text": "- Limit Break: Cross Slash",
+									"translate": "ssbrc.tooltips.cloud.limitBreak",
 									"color": "gray",
 									"bold": false,
-									"italic": false
+									"italic": false,
+									"extra": [
+										{
+											"translate": "ssbrc.tooltips.cloud.crossSlash",
+											"color": "gray",
+											"bold": false,
+											"italic": false
+										}
+									]
 								},
 								{
-									"text": " - Point-blank attack",
+									"translate": "ssbrc.tooltips.cloud.crossSlash.description.1",
 									"color": "gray",
 									"bold": false,
 									"italic": false
@@ -72,7 +80,7 @@
 											"italic": false
 										},
 										{
-											"text": "] to change modes",
+											"translate": "ssbrc.tooltips.cloud.changeModes",
 											"color": "gray",
 											"bold": false,
 											"italic": false
@@ -80,7 +88,7 @@
 									]
 								},
 								{
-									"text": "Punisher",
+									"translate": "ssbrc.fighters.cloud.punisher",
 									"color": "blue",
 									"bold": true,
 									"italic": false,
@@ -92,7 +100,7 @@
 											"italic": false
 										},
 										{
-											"text": "Operator",
+											"translate": "ssbrc.fighters.cloud.operator",
 											"color": "green",
 											"bold": false,
 											"italic": false

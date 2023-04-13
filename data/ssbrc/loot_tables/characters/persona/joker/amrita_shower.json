@@ -12,7 +12,7 @@
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"text": "Amrita Shower",
+								"translate": "ssbrc.tooltips.joker.amritaShower",
 								"color": "green",
 								"bold": true,
 								"italic": false
@@ -29,7 +29,7 @@
 									"italic": false
 								},
 								{
-									"text": "Support Ability",
+									"translate": "ssbrc.tooltips.ability.support",
 									"color": "white",
 									"bold": false,
 									"italic": false,
@@ -48,7 +48,7 @@
 											"italic": false
 										},
 										{
-											"text": "] to cleanse and prevent negative effects for a brief period",
+											"translate": "ssbrc.tooltips.joker.amritaShower.description.1",
 											"color": "gray",
 											"bold": false,
 											"italic": false
@@ -56,7 +56,7 @@
 									]
 								},
 								{
-									"text": "- Effect works on teammates",
+									"translate": "ssbrc.tooltips.joker.amritaShower.description.2",
 									"color": "gray",
 									"bold": false,
 									"italic": false

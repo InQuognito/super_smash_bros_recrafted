@@ -12,7 +12,7 @@
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"text": "Flame Slash",
+								"translate": "ssbrc.tooltips.hero.flameSlash",
 								"color": "gold",
 								"bold": true,
 								"italic": false
@@ -36,7 +36,7 @@
 									"underlined": true
 								},
 								{
-									"text": " - Inflicts burning on the opponent",
+									"translate": "ssbrc.tooltips.effects.burning",
 									"color": "gray",
 									"bold": false,
 									"italic": false

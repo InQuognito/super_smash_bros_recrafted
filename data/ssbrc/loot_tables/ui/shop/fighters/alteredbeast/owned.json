@@ -12,7 +12,7 @@
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"text": "Altered Beast",
+								"translate": "ssbrc.fighters.alteredbeast",
 								"color": "gold",
 								"bold": true,
 								"italic": false

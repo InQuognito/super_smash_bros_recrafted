@@ -12,7 +12,7 @@
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"text": "Zora Tunic",
+								"translate": "ssbrc.fighters.link.skin.zoraTunic",
 								"color": "blue",
 								"bold": true,
 								"italic": false

@@ -12,7 +12,7 @@
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"text": "Shield",
+								"translate": "ssbrc.tooltips.equipment.shield",
 								"color": "white",
 								"bold": true,
 								"italic": false

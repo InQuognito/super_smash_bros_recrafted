@@ -12,7 +12,7 @@
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"text": "Jigglypuff",
+								"translate": "ssbrc.fighters.jigglypuff",
 								"color": "light_purple",
 								"bold": true,
 								"italic": false

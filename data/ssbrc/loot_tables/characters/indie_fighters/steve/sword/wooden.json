@@ -12,7 +12,7 @@
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"text": "Wooden Sword",
+								"translate": "item.minecraft.wooden_sword",
 								"color": "dark_gray",
 								"bold": true,
 								"italic": false

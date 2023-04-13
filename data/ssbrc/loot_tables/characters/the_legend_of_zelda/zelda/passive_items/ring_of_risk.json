@@ -12,7 +12,7 @@
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"text": "Ring of Risk",
+								"translate": "ssbrc.tooltips.zelda.passiveItem.ringOfRisk",
 								"color": "gray",
 								"bold": true,
 								"italic": false
@@ -29,14 +29,14 @@
 									"italic": false
 								},
 								{
-									"text": "Passive Equipment",
+									"translate": "ssbrc.tooltips.equipment.passive",
 									"color": "white",
 									"bold": false,
 									"italic": false,
 									"underlined": true
 								},
 								{
-									"text": "- Increases damage at low health",
+									"translate": "ssbrc.tooltips.zelda.passiveItem.ringOfRisk.description.1",
 									"color": "gray",
 									"bold": false,
 									"italic": false

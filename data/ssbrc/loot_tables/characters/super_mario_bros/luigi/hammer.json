@@ -12,7 +12,7 @@
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"text": "Hammer",
+								"translate": "ssbrc.tooltips.superMarioBros.hammer",
 								"color": "white",
 								"bold": true,
 								"italic": false

@@ -12,7 +12,7 @@
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"text": "Goron Locket",
+								"translate": "ssbrc.tooltips.zelda.passiveItem.goronLocket",
 								"color": "red",
 								"bold": true,
 								"italic": false
@@ -29,14 +29,14 @@
 									"italic": false
 								},
 								{
-									"text": "Passive Equipment",
+									"translate": "ssbrc.tooltips.equipment.passive",
 									"color": "white",
 									"bold": false,
 									"italic": false,
 									"underlined": true
 								},
 								{
-									"text": "- Grants immunity to burning",
+									"translate": "ssbrc.tooltips.zelda.passiveItem.goronLocket.description.1",
 									"color": "gray",
 									"bold": false,
 									"italic": false

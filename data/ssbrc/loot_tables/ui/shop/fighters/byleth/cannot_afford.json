@@ -12,7 +12,7 @@
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"text": "Byleth",
+								"translate": "ssbrc.fighters.byleth",
 								"color": "dark_aqua",
 								"bold": true,
 								"italic": false

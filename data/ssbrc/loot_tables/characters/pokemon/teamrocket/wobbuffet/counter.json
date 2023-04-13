@@ -12,7 +12,7 @@
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"text": "Counter",
+								"translate": "ssbrc.tooltips.teamrocket.wobbuffet",
 								"color": "dark_gray",
 								"bold": true,
 								"italic": false
@@ -36,7 +36,7 @@
 									"underlined": true
 								},
 								{
-									"text": "- Damage increases as health lowers",
+									"translate": "ssbrc.tooltips.teamrocket.wobbuffet.counter.description.1",
 									"color": "gray",
 									"bold": false,
 									"italic": false

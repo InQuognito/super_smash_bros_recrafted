@@ -12,7 +12,7 @@
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"text": "Diamond Sword",
+								"translate": "item.minecraft.diamond_sword",
 								"color": "aqua",
 								"bold": true,
 								"italic": false

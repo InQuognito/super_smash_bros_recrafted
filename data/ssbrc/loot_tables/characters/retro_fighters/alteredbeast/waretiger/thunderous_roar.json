@@ -12,7 +12,7 @@
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"text": "Thunderous Roar",
+								"translate": "ssbrc.tooltips.alteredbeast.waretiger.explosiveRoar",
 								"color": "gold",
 								"bold": true,
 								"italic": false

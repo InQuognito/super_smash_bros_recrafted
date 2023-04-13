@@ -12,7 +12,7 @@
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"text": "Mania Punch",
+								"translate": "ssbrc.tooltips.sonic.maniaPunch",
 								"color": "blue",
 								"bold": true,
 								"italic": false

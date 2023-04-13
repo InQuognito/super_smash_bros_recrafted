@@ -12,7 +12,7 @@
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"text": "Smoke Grenade",
+								"translate": "ssbrc.fighters.snake.smokeGrenade",
 								"color": "green",
 								"bold": true,
 								"italic": false
@@ -48,7 +48,7 @@
 											"italic": false
 										},
 										{
-											"text": "] to throw a smoke grenade",
+											"translate": "ssbrc.tooltips.snake.smokeGrenade.description.1",
 											"color": "gray",
 											"bold": false,
 											"italic": false
@@ -56,13 +56,13 @@
 									]
 								},
 								{
-									"text": "- Blinds and disorients opponents",
+									"translate": "ssbrc.tooltips.snake.smokeGrenade.description.2",
 									"color": "gray",
 									"bold": false,
 									"italic": false
 								},
 								{
-									"text": "- Conceals you when walked through",
+									"translate": "ssbrc.tooltips.snake.smokeGrenade.description.3",
 									"color": "gray",
 									"bold": false,
 									"italic": false

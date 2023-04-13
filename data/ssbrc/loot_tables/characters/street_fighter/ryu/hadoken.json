@@ -12,7 +12,7 @@
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"text": "Hadoken",
+								"translate": "ssbrc.tooltips.ryu.hadoken",
 								"color": "aqua",
 								"bold": true,
 								"italic": false

@@ -12,7 +12,7 @@
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"text": "Sabretooth",
+								"translate": "ssbrc.tooltips.alteredbeast.waretiger.sabretooth",
 								"color": "gold",
 								"bold": true,
 								"italic": false
@@ -29,7 +29,7 @@
 									"italic": false
 								},
 								{
-									"text": "Ammo",
+									"translate": "ssbrc.tooltips.ammo",
 									"color": "white",
 									"bold": false,
 									"italic": false,

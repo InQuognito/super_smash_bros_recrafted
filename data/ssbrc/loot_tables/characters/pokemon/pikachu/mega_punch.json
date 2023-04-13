@@ -12,7 +12,7 @@
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"text": "Mega Punch",
+								"translate": "ssbrc.tooltips.pikachu.megaPunch",
 								"color": "white",
 								"bold": true,
 								"italic": false

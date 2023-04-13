@@ -12,7 +12,7 @@
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"text": "Sora",
+								"translate": "ssbrc.fighters.sora",
 								"color": "white",
 								"bold": true,
 								"italic": false

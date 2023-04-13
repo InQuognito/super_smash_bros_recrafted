@@ -12,7 +12,7 @@
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"text": "Zenithian Sword",
+								"translate": "ssbrc.tooltips.hero.zenithianSword",
 								"color": "yellow",
 								"bold": true,
 								"italic": false

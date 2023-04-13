@@ -12,7 +12,7 @@
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"text": "Valor Form",
+								"translate": "ssbrc.tooltips.sora.valorForm",
 								"color": "red",
 								"bold": true,
 								"italic": false
@@ -29,7 +29,7 @@
 									"italic": false
 								},
 								{
-									"text": "Transformation Ability",
+									"translate": "ssbrc.tooltips.ability.transformation",
 									"color": "white",
 									"bold": false,
 									"italic": false,
@@ -48,7 +48,7 @@
 											"italic": false
 										},
 										{
-											"text": "] to change into Valor Form",
+											"translate": "ssbrc.tooltips.sora.valorForm.description.1",
 											"color": "gray",
 											"bold": false,
 											"italic": false
@@ -62,7 +62,7 @@
 									"italic": false,
 									"extra": [
 										{
-											"text": "Increases attack damage",
+											"translate": "ssbrc.tooltips.sora.valorForm.description.2",
 											"color": "gray",
 											"bold": false,
 											"italic": false
@@ -76,7 +76,7 @@
 									"italic": false,
 									"extra": [
 										{
-											"text": "Gains Strike Raid to attack from a distance",
+											"translate": "ssbrc.tooltips.sora.valorForm.description.3",
 											"color": "gray",
 											"bold": false,
 											"italic": false
@@ -90,7 +90,7 @@
 									"italic": false,
 									"extra": [
 										{
-											"text": "Increases jump height",
+											"translate": "ssbrc.tooltips.sora.valorForm.description.4",
 											"color": "gray",
 											"bold": false,
 											"italic": false
@@ -98,13 +98,13 @@
 									]
 								},
 								{
-									"text": " - ",
+									"translate": " - ",
 									"color": "red",
 									"bold": true,
 									"italic": false,
 									"extra": [
 										{
-											"text": "Loses spellcasting ability",
+											"translate": "ssbrc.tooltips.sora.valorForm.description.5",
 											"color": "gray",
 											"bold": false,
 											"italic": false

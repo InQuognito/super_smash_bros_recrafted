@@ -12,7 +12,7 @@
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"text": "Phazon Beam",
+								"translate": "ssbrc.tooltips.darksamus.phazonBeam",
 								"color": "aqua",
 								"bold": true,
 								"italic": false
@@ -48,7 +48,7 @@
 											"italic": false
 										},
 										{
-											"text": "] to fire",
+											"translate": "ssbrc.tooltips.darksamus.phazonBeam.description.1",
 											"color": "gray",
 											"bold": false,
 											"italic": false
@@ -80,7 +80,7 @@
 											"italic": false
 										},
 										{
-											"text": "] to charge power",
+											"translate": "ssbrc.tooltips.darksamus.phazonBeam.description.2",
 											"color": "gray",
 											"bold": false,
 											"italic": false

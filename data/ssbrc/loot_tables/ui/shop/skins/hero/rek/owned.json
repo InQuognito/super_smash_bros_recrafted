@@ -12,7 +12,7 @@
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"text": "Rek",
+								"translate": "ssbrc.fighters.hero.skin.rek",
 								"color": "blue",
 								"bold": true,
 								"italic": false

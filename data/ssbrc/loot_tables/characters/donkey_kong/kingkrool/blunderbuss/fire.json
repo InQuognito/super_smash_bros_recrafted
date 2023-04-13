@@ -12,7 +12,7 @@
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"text": "Blunderbuss",
+								"translate": "ssbrc.tooltips.kingkrool.blunderbuss",
 								"color": "dark_gray",
 								"bold": true,
 								"italic": false
@@ -48,7 +48,7 @@
 											"italic": false
 										},
 										{
-											"text": "] to fire a heavy cannonball",
+											"translate": "ssbrc.tooltips.kingkrool.blunderbuss.description.1",
 											"color": "gray",
 											"bold": false,
 											"italic": false
@@ -56,7 +56,7 @@
 									]
 								},
 								{
-									"text": "- Creates a shockwave upon hitting the ground",
+									"translate": "ssbrc.tooltips.kingkrool.blunderbuss.description.2",
 									"color": "gray",
 									"bold": false,
 									"italic": false

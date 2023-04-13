@@ -12,7 +12,7 @@
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"text": "Sword of Ramias",
+								"translate": "ssbrc.tooltips.hero.swordOfRamias",
 								"color": "yellow",
 								"bold": true,
 								"italic": false

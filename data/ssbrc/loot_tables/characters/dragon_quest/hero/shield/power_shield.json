@@ -12,7 +12,7 @@
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"text": "Power Shield",
+								"translate": "ssbrc.tooltips.hero.powerShield",
 								"color": "yellow",
 								"bold": true,
 								"italic": false

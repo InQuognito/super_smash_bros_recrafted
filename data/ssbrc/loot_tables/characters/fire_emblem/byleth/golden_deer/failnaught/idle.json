@@ -12,7 +12,7 @@
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"text": "Failnaught",
+								"translate": "ssbrc.tooltips.byleth.goldenDeer.failnaught",
 								"color": "white",
 								"bold": true,
 								"italic": false
@@ -36,13 +36,13 @@
 									"underlined": true
 								},
 								{
-									"text": "- Takes much longer to charge than a standard bow",
+									"translate": "ssbrc.tooltips.byleth.goldenDeer.failnaught.description.1",
 									"color": "gray",
 									"bold": false,
 									"italic": false
 								},
 								{
-									"text": "- Gains higher damage, piercing and velocity at full charge",
+									"translate": "ssbrc.tooltips.byleth.goldenDeer.failnaught.description.2",
 									"color": "gray",
 									"bold": false,
 									"italic": false

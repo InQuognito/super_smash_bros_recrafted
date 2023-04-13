@@ -12,7 +12,7 @@
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"text": "Alucard Sword",
+								"translate": "ssbrc.tooltips.alucard.alucardSword",
 								"color": "white",
 								"bold": true,
 								"italic": false

@@ -12,13 +12,19 @@
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"text": "Dagger",
+								"translate": "ssbrc.tooltips.zelda.weapon.dagger",
 								"color": "white",
 								"bold": true,
 								"italic": false,
 								"extra": [
 									{
-										"text": " - Obsidian",
+										"translate": " - ",
+										"color": "white",
+										"bold": false,
+										"italic": false
+									},
+									{
+										"translate": "ssbrc.tooltips.zelda.weapon.enchant.obsidian",
 										"color": "dark_purple",
 										"bold": false,
 										"italic": false
@@ -44,7 +50,7 @@
 									"underlined": true
 								},
 								{
-									"text": "- Weak, but gets stronger with kills",
+									"translate": "ssbrc.tooltips.zelda.weapon.enchant.obsidian.description.1",
 									"color": "gray",
 									"bold": false,
 									"italic": false

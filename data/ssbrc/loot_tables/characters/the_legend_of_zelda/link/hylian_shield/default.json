@@ -12,7 +12,7 @@
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"text": "Hylian Shield",
+								"translate": "ssbrc.tooltips.link.hylianShield",
 								"color": "blue",
 								"bold": true,
 								"italic": false

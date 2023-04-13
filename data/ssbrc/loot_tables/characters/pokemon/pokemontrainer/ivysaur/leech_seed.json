@@ -12,7 +12,7 @@
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"text": "Leech Seed",
+								"translate": "ssbrc.tooltips.pokemontrainer.ivysaur.leechSeed",
 								"color": "green",
 								"bold": true,
 								"italic": false
@@ -48,7 +48,7 @@
 											"italic": false
 										},
 										{
-											"text": "] to throw a Leech Seed",
+											"translate": "ssbrc.tooltips.pokemontrainer.ivysaur.leechSeed.description.1",
 											"color": "gray",
 											"bold": false,
 											"italic": false
@@ -56,13 +56,13 @@
 									]
 								},
 								{
-									"text": "- Roots into the ground",
+									"translate": "ssbrc.tooltips.pokemontrainer.ivysaur.leechSeed.description.2",
 									"color": "gray",
 									"bold": false,
 									"italic": false
 								},
 								{
-									"text": "- Saps health from the opponent",
+									"translate": "ssbrc.tooltips.pokemontrainer.ivysaur.leechSeed.description.3",
 									"color": "gray",
 									"bold": false,
 									"italic": false

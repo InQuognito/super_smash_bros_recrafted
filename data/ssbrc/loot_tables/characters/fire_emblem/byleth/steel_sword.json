@@ -12,7 +12,7 @@
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"text": "Steel Sword",
+								"translate": "ssbrc.tooltips.byleth.steelSword",
 								"color": "white",
 								"bold": true,
 								"italic": false

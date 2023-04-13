@@ -12,7 +12,7 @@
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"text": "R.O.B.",
+								"translate": "ssbrc.fighters.rob",
 								"color": "white",
 								"bold": true,
 								"italic": false

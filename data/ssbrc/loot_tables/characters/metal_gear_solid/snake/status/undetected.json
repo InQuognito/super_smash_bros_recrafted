@@ -12,7 +12,7 @@
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"text": "Undetected",
+								"translate": "ssbrc.tooltips.snake.status.undetected",
 								"color": "aqua",
 								"bold": true,
 								"italic": false
@@ -29,14 +29,14 @@
 									"italic": false
 								},
 								{
-									"text": "You are currently undetected.",
+									"translate": "ssbrc.tooltips.snake.status.undetected.description.1",
 									"color": "white",
 									"bold": false,
 									"italic": false,
 									"underlined": true
 								},
 								{
-									"text": "You may become detected after staying idle too long...",
+									"translate": "ssbrc.tooltips.snake.status.undetected.description.2",
 									"color": "white",
 									"bold": false,
 									"italic": false

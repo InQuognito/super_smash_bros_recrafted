@@ -12,7 +12,7 @@
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"text": "Bomb",
+								"translate": "ssbrc.tooltips.zelda.dungeonItem.bomb",
 								"color": "blue",
 								"bold": true,
 								"italic": false
@@ -48,7 +48,7 @@
 											"italic": false
 										},
 										{
-											"text": "] to prime a bomb",
+											"translate": "ssbrc.tooltips.zelda.dungeonItem.bomb.description.1",
 											"color": "gray",
 											"bold": false,
 											"italic": false
@@ -68,7 +68,7 @@
 											"italic": false
 										},
 										{
-											"text": "] while primed to throw",
+											"translate": "ssbrc.tooltips.zelda.dungeonItem.bomb.description.2",
 											"color": "gray",
 											"bold": false,
 											"italic": false
@@ -76,7 +76,7 @@
 									]
 								},
 								{
-									"text": "- Damages all opponents in a radius",
+									"translate": "ssbrc.tooltips.zelda.dungeonItem.bomb.description.3",
 									"color": "gray",
 									"bold": false,
 									"italic": false

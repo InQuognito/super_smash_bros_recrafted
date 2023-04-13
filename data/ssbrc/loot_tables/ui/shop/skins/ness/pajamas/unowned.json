@@ -12,7 +12,7 @@
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"text": "Pajamas",
+								"translate": "ssbrc.fighters.ness.skin.pajamas",
 								"color": "dark_aqua",
 								"bold": true,
 								"italic": false

@@ -12,7 +12,7 @@
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"text": "Assault",
+								"translate": "ssbrc.fighters.wolf.skin.assault",
 								"color": "green",
 								"bold": true,
 								"italic": false

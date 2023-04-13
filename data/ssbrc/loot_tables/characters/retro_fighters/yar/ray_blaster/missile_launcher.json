@@ -12,7 +12,7 @@
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"text": "Missile Launcher",
+								"translate": "ssbrc.tooltips.yar.missileLauncher",
 								"color": "gold",
 								"bold": true,
 								"italic": false
@@ -48,7 +48,7 @@
 											"italic": false
 										},
 										{
-											"text": "] to fire a missile",
+											"translate": "ssbrc.tooltips.yar.missileLauncher.description.1",
 											"color": "gray",
 											"bold": false,
 											"italic": false
@@ -56,13 +56,13 @@
 									]
 								},
 								{
-									"text": "- Explodes on contact",
+									"translate": "ssbrc.tooltips.yar.missileLauncher.description.2",
 									"color": "gray",
 									"bold": false,
 									"italic": false
 								},
 								{
-									"text": "- Speeds up as it travels",
+									"translate": "ssbrc.tooltips.yar.missileLauncher.description.3",
 									"color": "gray",
 									"bold": false,
 									"italic": false

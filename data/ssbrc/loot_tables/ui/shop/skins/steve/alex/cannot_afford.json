@@ -12,7 +12,7 @@
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"text": "Alex",
+								"translate": "ssbrc.fighters.steve.skin.alex",
 								"color": "yellow",
 								"bold": true,
 								"italic": false

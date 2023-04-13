@@ -12,7 +12,7 @@
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"text": "Chaos Blast",
+								"translate": "ssbrc.tooltips.shadow.chaosBlast",
 								"color": "red",
 								"bold": true,
 								"italic": false
@@ -29,7 +29,7 @@
 									"italic": false
 								},
 								{
-									"text": "AoE Ability",
+									"translate": "ssbrc.tooltips.ability.offensive",
 									"color": "white",
 									"bold": false,
 									"italic": false,
@@ -48,7 +48,7 @@
 											"italic": false
 										},
 										{
-											"text": "] to begin charging up a massive shockwave",
+											"translate": "ssbrc.tooltips.shadow.chaosBlast.description.1",
 											"color": "gray",
 											"bold": false,
 											"italic": false
@@ -56,13 +56,13 @@
 									]
 								},
 								{
-									"text": " - ",
+									"translate": " - ",
 									"color": "red",
 									"bold": true,
 									"italic": false,
 									"extra": [
 										{
-											"text": "During the charge up, you cannot move or attack",
+											"translate": "ssbrc.tooltips.shadow.chaosBlast.description.2",
 											"color": "gray",
 											"bold": false,
 											"italic": false

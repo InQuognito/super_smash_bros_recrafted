@@ -12,7 +12,7 @@
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"text": "Iron Sword",
+								"translate": "item.minecraft.iron_sword",
 								"color": "white",
 								"bold": true,
 								"italic": false
