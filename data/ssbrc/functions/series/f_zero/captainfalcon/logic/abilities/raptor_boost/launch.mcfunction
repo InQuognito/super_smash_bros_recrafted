@@ -1,4 +1,4 @@
-summon minecraft:armor_stand ~ ~ ~ {Tags:["movementEntity","modifyEntity"],Motion:[0.0d,1.0d,0.0d],Invisible:1b,Invulnerable:1b,Small:1b,DisabledSlots:4144959}
+summon minecraft:armor_stand ~ ~0.5 ~ {Tags:["movementEntity","modifyEntity"],Motion:[0.0d,1.0d,0.0d],Invisible:1b,Invulnerable:1b,Small:1b,DisabledSlots:4144959}
 
 ride @s mount @e[tag=modifyEntity,limit=1]
 
