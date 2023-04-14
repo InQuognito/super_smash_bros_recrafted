@@ -40,7 +40,8 @@ execute if score @s[tag=!captainfalcon] menu matches 122 run function ssbrc:seri
 execute if score @s[tag=!captainfalcon] menu matches 123 run function ssbrc:series/f_zero/captainfalcon/menu/favorite/remove
 execute if score @s[tag=!captainfalcon] menu matches 124 run function ssbrc:series/f_zero/captainfalcon/menu/skins/default
 execute if score @s[tag=!captainfalcon] menu matches 125 run function ssbrc:series/f_zero/captainfalcon/menu/skins/gold
-execute if score @s[tag=!captainfalcon] menu matches 126 run function ssbrc:series/f_zero/captainfalcon/menu/skins/rick_wheeler
+execute if score @s[tag=!captainfalcon] menu matches 126 run function ssbrc:series/f_zero/captainfalcon/menu/skins/blood_falcon
+execute if score @s[tag=!captainfalcon] menu matches 127 run function ssbrc:series/f_zero/captainfalcon/menu/skins/rick_wheeler
 
 execute if score @s[tag=!cloud] menu matches 180 run function ssbrc:series/final_fantasy/cloud/menu/select_character
 execute if score @s[tag=!cloud] menu matches 181 run function ssbrc:series/final_fantasy/cloud/menu/skin_options
@@ -62,7 +63,8 @@ execute if score @s[tag=!donkeykong] menu matches 302 run function ssbrc:series/
 execute if score @s[tag=!donkeykong] menu matches 303 run function ssbrc:series/donkey_kong/donkeykong/menu/favorite/remove
 execute if score @s[tag=!donkeykong] menu matches 304 run function ssbrc:series/donkey_kong/donkeykong/menu/skins/default
 execute if score @s[tag=!donkeykong] menu matches 305 run function ssbrc:series/donkey_kong/donkeykong/menu/skins/gold
-execute if score @s[tag=!donkeykong] menu matches 306 run function ssbrc:series/donkey_kong/donkeykong/menu/skins/super_kong
+execute if score @s[tag=!donkeykong] menu matches 306 run function ssbrc:series/donkey_kong/donkeykong/menu/skins/flower_power
+execute if score @s[tag=!donkeykong] menu matches 307 run function ssbrc:series/donkey_kong/donkeykong/menu/skins/super_kong
 
 execute if score @s[tag=!fox] menu matches 380 run function ssbrc:series/star_fox/fox/menu/select_character
 execute if score @s[tag=!fox] menu matches 381 run function ssbrc:series/star_fox/fox/menu/skin_options
