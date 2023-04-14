@@ -39,3 +39,5 @@ execute as @e[type=minecraft:text_display,tag=voteCounter,sort=nearest,limit=1] 
 tag @s remove self
 
 function ssbrc:logic/inputs/reset
+
+function ssbrc:logic/pre_game/map_voting/check_participation
