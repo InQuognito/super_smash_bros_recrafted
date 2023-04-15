@@ -98,7 +98,7 @@ execute as @e[type=minecraft:armor_stand,tag=strikeRaid] at @s if score @s id = 
 execute as @e[type=minecraft:item,nbt={Item:{tag:{Tags:[steve.item]}}}] at @s if score @s id = @p[tag=self] id run function ssbrc:series/indie_fighters/steve/logic/item/tick
 
 # Wolf
-execute as @e[type=minecraft:arrow,tag=wolf.blaster] at @s if score @s id = @p[tag=self] id run function ssbrc:series/star_fox/wolf/logic/abilities/blaster/tick
+execute as @e[type=minecraft:marker,tag=wolf.blaster] at @s if score @s id = @p[tag=self] id run function ssbrc:series/star_fox/wolf/logic/abilities/blaster/tick
 execute as @e[type=minecraft:armor_stand,tag=grenade] at @s if score @s id = @p[tag=self] id run function ssbrc:series/star_fox/wolf/logic/abilities/grenade/tick
 
 # Zelda
