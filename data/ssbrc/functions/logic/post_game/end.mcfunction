@@ -5,6 +5,8 @@ execute if score $gameMode options matches 2 as @a[predicate=ssbrc:ingame] at @s
 execute if score $gameMode options matches 1 run title @a[predicate=ssbrc:ingame] title {"translate":"ssbrc.game.end","color":"green"}
 execute if score $gameMode options matches 2 run title @a[predicate=ssbrc:ingame] title {"translate":"ssbrc.game.timeout","color":"green"}
 
+scoreboard objectives setdisplay sidebar
+
 schedule clear ssbrc:logic/timer
 
 tag @a remove cannotHost
