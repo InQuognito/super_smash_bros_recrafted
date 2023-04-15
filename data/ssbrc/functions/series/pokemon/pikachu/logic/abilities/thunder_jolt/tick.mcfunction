@@ -14,4 +14,4 @@ execute if score @s point > 0 integers unless block ~ ~-0.15 ~ #ssbrc:passthroug
 execute rotated as @s run teleport @s ^ ^ ^1
 
 scoreboard players add @s temp 1
-kill @s[scores={temp=80..}]
+kill @s[scores={temp=40..}]
