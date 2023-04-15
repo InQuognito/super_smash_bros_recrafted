@@ -1,4 +1,4 @@
-execute at @s run function ssbrc:series/earthbound/giegue/logic/abilities/pk_beam/move_forward
+function ssbrc:series/earthbound/giegue/logic/abilities/pk_beam/move_forward
 execute at @s run function ssbrc:series/earthbound/giegue/logic/abilities/pk_beam/move_forward
 execute at @s run function ssbrc:series/earthbound/giegue/logic/abilities/pk_beam/move_forward
 execute at @s run function ssbrc:series/earthbound/giegue/logic/abilities/pk_beam/move_forward
