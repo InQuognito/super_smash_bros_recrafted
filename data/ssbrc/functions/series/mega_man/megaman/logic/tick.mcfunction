@@ -1,4 +1,5 @@
-execute if entity @s[scores={useAbility=1..,charge.1=1..,cooldown.1=..0},nbt={SelectedItem:{tag:{blackHoleGrenade:1}}}] at @s anchored eyes run function ssbrc:series/mega_man/megaman/logic/abilities/black_hole_grenade/activate
+execute if entity @s[scores={useAbility=1..,cooldown.1=..0},nbt={SelectedItem:{tag:{megaBuster:1}}}] at @s anchored eyes run function ssbrc:series/mega_man/megaman/logic/abilities/mega_buster/check
+execute if entity @s[scores={useAbility=1..,charge.1=1..,cooldown.2=..0},nbt={SelectedItem:{tag:{blackHoleGrenade:1}}}] at @s anchored eyes run function ssbrc:series/mega_man/megaman/logic/abilities/black_hole_grenade/activate
 
 # Ammo HUD
 title @s[nbt=!{SelectedItem:{tag:{blackHoleGrenade:1}}}] actionbar ""

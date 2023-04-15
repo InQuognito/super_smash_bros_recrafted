@@ -55,6 +55,7 @@ execute as @e[type=minecraft:marker,tag=iceBall] at @s if score @s id = @p[tag=s
 execute as @e[type=minecraft:area_effect_cloud,tag=fireball] at @s if score @s id = @p[tag=self] id run function ssbrc:series/super_mario_bros/mario/logic/abilities/fireball/tick
 
 # Mega Man
+execute as @e[type=minecraft:marker,tag=megaBuster] at @s if score @s id = @p[tag=self] id unless block ~ ~-0.1 ~ #ssbrc:passthrough run function ssbrc:series/mega_man/megaman/logic/abilities/mega_buster/tick
 execute as @e[type=minecraft:armor_stand,tag=blackHoleGrenade] at @s if score @s id = @p[tag=self] id unless block ~ ~-0.1 ~ #ssbrc:passthrough run function ssbrc:series/mega_man/megaman/logic/abilities/black_hole_grenade/tick
 
 # Ness
