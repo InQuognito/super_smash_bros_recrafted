@@ -7,7 +7,6 @@ execute as @e[type=minecraft:marker,tag=raptorBoost] at @s if score @s id = @p[t
 
 # Cloud
 execute as @e[type=minecraft:marker,tag=bladeBeam] at @s if score @s id = @p[tag=self] id run function ssbrc:series/final_fantasy/cloud/logic/blade_beam/tick
-execute as @e[type=minecraft:marker,tag=crossSlash] at @s if score @s id = @p[tag=self] id run function ssbrc:series/final_fantasy/cloud/logic/cross_slash/tick
 
 # Dark Samus
 execute as @e[type=minecraft:marker,tag=phazonBeam] at @s if score @s id = @p[tag=self] id run function ssbrc:series/metroid/darksamus/logic/abilities/phazon_beam/tick
