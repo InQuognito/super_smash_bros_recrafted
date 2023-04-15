@@ -63,38 +63,12 @@ fill -706 40 842 -706 42 846 minecraft:air replace
 fill -705 43 821 -700 43 823 minecraft:waxed_copper_block replace
 fill -705 40 820 -700 42 820 minecraft:air replace
 
-summon minecraft:glow_item_frame -687.5 24.0 850.5 {Fixed:1b,Invisible:1b,Facing:1b,ItemRotation:6b,Item:{id:"minecraft:sugar",tag:{CustomModelData:159},Count:1b}}
-summon minecraft:glow_item_frame -687.5 24.0 847.5 {Fixed:1b,Invisible:1b,Facing:1b,ItemRotation:6b,Item:{id:"minecraft:sugar",tag:{CustomModelData:160},Count:1b}}
-summon minecraft:glow_item_frame -687.5 24.0 844.5 {Fixed:1b,Invisible:1b,Facing:1b,ItemRotation:6b,Item:{id:"minecraft:sugar",tag:{CustomModelData:161},Count:1b}}
-summon minecraft:glow_item_frame -687.5 24.0 841.5 {Fixed:1b,Invisible:1b,Facing:1b,ItemRotation:6b,Item:{id:"minecraft:sugar",tag:{CustomModelData:162},Count:1b}}
-summon minecraft:glow_item_frame -687.5 24.0 838.5 {Fixed:1b,Invisible:1b,Facing:1b,ItemRotation:6b,Item:{id:"minecraft:sugar",tag:{CustomModelData:163},Count:1b}}
+# Bowser Face - Red
+summon minecraft:item_display -681.5 24.01 844.5 {Rotation:[90f,0f],item:{id:"minecraft:sugar",tag:{CustomModelData:159},Count:1b},transformation:[5.0f,0.0f,0.0f,0.0f,0.0f,5.0f,0.0f,0.0f,0.0f,0.0f,5.0f,0.0f,0.0f,0.0f,0.0f,1.0f],brightness:{sky:6,block:6}}
 
-summon minecraft:glow_item_frame -684.5 24.0 850.5 {Fixed:1b,Invisible:1b,Facing:1b,ItemRotation:6b,Item:{id:"minecraft:sugar",tag:{CustomModelData:164},Count:1b}}
-summon minecraft:glow_item_frame -684.5 24.0 847.5 {Fixed:1b,Invisible:1b,Facing:1b,ItemRotation:6b,Item:{id:"minecraft:sugar",tag:{CustomModelData:165},Count:1b}}
-summon minecraft:glow_item_frame -684.5 24.0 844.5 {Fixed:1b,Invisible:1b,Facing:1b,ItemRotation:6b,Item:{id:"minecraft:sugar",tag:{CustomModelData:166},Count:1b}}
-summon minecraft:glow_item_frame -684.5 24.0 841.5 {Fixed:1b,Invisible:1b,Facing:1b,ItemRotation:6b,Item:{id:"minecraft:sugar",tag:{CustomModelData:167},Count:1b}}
-summon minecraft:glow_item_frame -684.5 24.0 838.5 {Fixed:1b,Invisible:1b,Facing:1b,ItemRotation:6b,Item:{id:"minecraft:sugar",tag:{CustomModelData:168},Count:1b}}
-
-summon minecraft:glow_item_frame -681.5 24.0 850.5 {Fixed:1b,Invisible:1b,Facing:1b,ItemRotation:6b,Item:{id:"minecraft:sugar",tag:{CustomModelData:169},Count:1b}}
-summon minecraft:glow_item_frame -681.5 24.0 847.5 {Fixed:1b,Invisible:1b,Facing:1b,ItemRotation:6b,Item:{id:"minecraft:sugar",tag:{CustomModelData:170},Count:1b}}
-summon minecraft:glow_item_frame -681.5 24.0 844.5 {Fixed:1b,Invisible:1b,Facing:1b,ItemRotation:6b,Item:{id:"minecraft:sugar",tag:{CustomModelData:171},Count:1b}}
-summon minecraft:glow_item_frame -681.5 24.0 841.5 {Fixed:1b,Invisible:1b,Facing:1b,ItemRotation:6b,Item:{id:"minecraft:sugar",tag:{CustomModelData:172},Count:1b}}
-summon minecraft:glow_item_frame -681.5 24.0 838.5 {Fixed:1b,Invisible:1b,Facing:1b,ItemRotation:6b,Item:{id:"minecraft:sugar",tag:{CustomModelData:173},Count:1b}}
-
-summon minecraft:glow_item_frame -678.5 24.0 850.5 {Fixed:1b,Invisible:1b,Facing:1b,ItemRotation:6b,Item:{id:"minecraft:sugar",tag:{CustomModelData:174},Count:1b}}
-summon minecraft:glow_item_frame -678.5 24.0 847.5 {Fixed:1b,Invisible:1b,Facing:1b,ItemRotation:6b,Item:{id:"minecraft:sugar",tag:{CustomModelData:175},Count:1b}}
-summon minecraft:glow_item_frame -678.5 24.0 844.5 {Fixed:1b,Invisible:1b,Facing:1b,ItemRotation:6b,Item:{id:"minecraft:sugar",tag:{CustomModelData:176},Count:1b}}
-summon minecraft:glow_item_frame -678.5 24.0 841.5 {Fixed:1b,Invisible:1b,Facing:1b,ItemRotation:6b,Item:{id:"minecraft:sugar",tag:{CustomModelData:177},Count:1b}}
-summon minecraft:glow_item_frame -678.5 24.0 838.5 {Fixed:1b,Invisible:1b,Facing:1b,ItemRotation:6b,Item:{id:"minecraft:sugar",tag:{CustomModelData:178},Count:1b}}
-
-summon minecraft:glow_item_frame -675.5 24.0 850.5 {Fixed:1b,Invisible:1b,Facing:1b,ItemRotation:6b,Item:{id:"minecraft:sugar",tag:{CustomModelData:179},Count:1b}}
-summon minecraft:glow_item_frame -675.5 24.0 847.5 {Fixed:1b,Invisible:1b,Facing:1b,ItemRotation:6b,Item:{id:"minecraft:sugar",tag:{CustomModelData:180},Count:1b}}
-summon minecraft:glow_item_frame -675.5 24.0 844.5 {Fixed:1b,Invisible:1b,Facing:1b,ItemRotation:6b,Item:{id:"minecraft:sugar",tag:{CustomModelData:181},Count:1b}}
-summon minecraft:glow_item_frame -675.5 24.0 841.5 {Fixed:1b,Invisible:1b,Facing:1b,ItemRotation:6b,Item:{id:"minecraft:sugar",tag:{CustomModelData:182},Count:1b}}
-summon minecraft:glow_item_frame -675.5 24.0 838.5 {Fixed:1b,Invisible:1b,Facing:1b,ItemRotation:6b,Item:{id:"minecraft:sugar",tag:{CustomModelData:183},Count:1b}}
-
-summon minecraft:glow_item_frame -736.5 33.0 867.5 {Fixed:1b,Invisible:1b,Facing:5b,Item:{id:"minecraft:sugar",tag:{CustomModelData:151},Count:1b}}
-summon minecraft:glow_item_frame -736.5 33.0 822.5 {Fixed:1b,Invisible:1b,Facing:5b,Item:{id:"minecraft:sugar",tag:{CustomModelData:151},Count:1b}}
+# Bowser Face - Black
+summon minecraft:item_display -736.99 33.5 867.0 {Rotation:[90f,0f],item:{id:"minecraft:sugar",tag:{CustomModelData:151},Count:1b},transformation:[2.0f,0.0f,0.0f,0.0f,0.0f,2.0f,0.0f,0.0f,0.0f,0.0f,2.0f,0.0f,0.0f,0.0f,0.0f,1.0f],brightness:{sky:6,block:6}}
+summon minecraft:item_display -736.99 33.5 822.0 {Rotation:[90f,0f],item:{id:"minecraft:sugar",tag:{CustomModelData:151},Count:1b},transformation:[2.0f,0.0f,0.0f,0.0f,0.0f,2.0f,0.0f,0.0f,0.0f,0.0f,2.0f,0.0f,0.0f,0.0f,0.0f,1.0f],brightness:{sky:6,block:6}}
 
 summon minecraft:armor_stand -734.959 27.0 854.474 {Tags:["propStand","peach","default"],NoBasePlate:1b,ShowArms:1b,Rotation:[265f],Pose:{LeftArm:[219f,340f,22f],RightArm:[213f,34f,348f]}}
 
