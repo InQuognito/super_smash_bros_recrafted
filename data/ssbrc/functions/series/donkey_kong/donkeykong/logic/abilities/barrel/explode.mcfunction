@@ -9,6 +9,7 @@ execute if entity @s[tag=oil] run playsound minecraft:block.netherite_block.brea
 
 kill @s
 
-loot give @p[tag=self] loot ssbrc:characters/donkey_kong/donkeykong/barrel
+execute as @p[tag=self] run loot give @s[tag=!flowerPower] loot ssbrc:characters/donkey_kong/donkeykong/barrel/default
+execute as @p[tag=self] run loot give @s[tag=flowerPower] loot ssbrc:characters/donkey_kong/donkeykong/barrel/oil
 
 execute if entity @e[predicate=ssbrc:flag/targets,distance=..3] as @p[tag=self] at @s run playsound minecraft:entity.arrow.hit_player player @s
