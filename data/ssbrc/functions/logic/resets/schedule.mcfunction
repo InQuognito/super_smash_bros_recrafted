@@ -62,6 +62,9 @@ schedule clear ssbrc:maps/p/pac_maze/logic/ghosts/states/animation_schedule
 # Planet Zebes
 schedule clear ssbrc:maps/p/planet_zebes/logic/rain/check
 
+# Pyrosphere
+schedule clear ssbrc:maps/p/pyrosphere/logic/fgii_graham/activate
+
 # Saturn Valley
 schedule clear ssbrc:maps/s/saturn_valley/logic/well/off
 schedule clear ssbrc:maps/s/saturn_valley/logic/well/on
