@@ -68,7 +68,7 @@ scoreboard players set @s[tag=pikachu] charge.1 5
 
 # Pit
 item replace entity @s[tag=pit] armor.chest with minecraft:elytra{Damage:417,HideFlags:127} 1
-give @s[tag=pit] minecraft:arrow 16
+give @s[tag=pit] minecraft:spectral_arrow 16
 
 # Pokémon Trainer
 tag @s[tag=pokemontrainer] remove nextFighterChosen
@@ -79,6 +79,8 @@ execute if entity @s[tag=pokemontrainer,tag=ivysaur,tag=!nextFighterChosen] run 
 # Rob
 scoreboard players set @s[tag=rob] charge.1 0
 scoreboard players set @s[tag=rob] charge.2 0
+loot replace entity @s[tag=rob] hotbar.1 loot ssbrc:characters/super_smash_bros/rob/robo_beam/depleted
+
 
 # Ryu
 execute if entity @s[tag=ryu] run function ssbrc:series/street_fighter/ryu/logic/abilities/satsui_no_hado_rage/deactivate
