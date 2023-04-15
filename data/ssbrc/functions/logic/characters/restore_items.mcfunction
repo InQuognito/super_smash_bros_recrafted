@@ -22,7 +22,7 @@ give @s[tag=blueLions] minecraft:spectral_arrow 8
 # Cloud
 tag @s[tag=cloud] remove punisher
 tag @s[tag=cloud] add operator
-loot replace entity @s hotbar.0 loot ssbrc:characters/final_fantasy/cloud/buster_sword/operator/default
+loot replace entity @s[tag=cloud] hotbar.0 loot ssbrc:characters/final_fantasy/cloud/buster_sword/operator/default
 scoreboard players set @s[tag=cloud] cloud.limit 0
 
 # Dark Samus
