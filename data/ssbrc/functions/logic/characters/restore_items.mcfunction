@@ -22,6 +22,7 @@ give @s[tag=blueLions] minecraft:spectral_arrow 8
 # Cloud
 tag @s[tag=cloud] remove punisher
 tag @s[tag=cloud] add operator
+loot replace entity @s hotbar.0 loot ssbrc:characters/final_fantasy/cloud/buster_sword/operator/default
 scoreboard players set @s[tag=cloud] cloud.limit 0
 
 # Dark Samus
@@ -80,7 +81,6 @@ execute if entity @s[tag=pokemontrainer,tag=ivysaur,tag=!nextFighterChosen] run 
 scoreboard players set @s[tag=rob] charge.1 0
 scoreboard players set @s[tag=rob] charge.2 0
 loot replace entity @s[tag=rob] hotbar.1 loot ssbrc:characters/super_smash_bros/rob/robo_beam/depleted
-
 
 # Ryu
 execute if entity @s[tag=ryu] run function ssbrc:series/street_fighter/ryu/logic/abilities/satsui_no_hado_rage/deactivate
