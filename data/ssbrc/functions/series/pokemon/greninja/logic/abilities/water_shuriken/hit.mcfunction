@@ -1,4 +1,4 @@
-damage @s 4.0 ssbrc:projectile by @p[tag=self]
+damage @s 3.0 ssbrc:projectile by @p[tag=self]
 
 kill @e[type=minecraft:armor_stand,tag=waterShuriken,sort=nearest,limit=1]
 
