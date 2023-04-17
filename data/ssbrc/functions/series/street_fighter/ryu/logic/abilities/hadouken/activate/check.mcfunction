@@ -4,5 +4,5 @@ tag @e remove checkAgainst
 
 execute unless score #hadouken temp matches 1.. unless score @s duration.1 matches 2.. if score @s charge.output matches ..5 run function ssbrc:series/street_fighter/ryu/logic/abilities/hadouken/activate/default/default
 execute unless score #hadouken temp matches 1.. unless score @s duration.1 matches 2.. if score @s charge.output matches 6.. run function ssbrc:series/street_fighter/ryu/logic/abilities/hadouken/activate/default/heavy
-execute unless score #hadouken temp matches 1.. if score @s duration.1 matches 2.. if score @s charge.output matches ..5 run function ssbrc:series/street_fighter/ryu/logic/abilities/hadouken/activate/evil/default
-execute unless score #hadouken temp matches 1.. if score @s duration.1 matches 2.. if score @s charge.output matches 6.. run function ssbrc:series/street_fighter/ryu/logic/abilities/hadouken/activate/evil/heavy
+execute unless score #hadouken temp matches 2.. if score @s duration.1 matches 2.. if score @s charge.output matches ..5 run function ssbrc:series/street_fighter/ryu/logic/abilities/hadouken/activate/evil/default
+execute unless score #hadouken temp matches 2.. if score @s duration.1 matches 2.. if score @s charge.output matches 6.. run function ssbrc:series/street_fighter/ryu/logic/abilities/hadouken/activate/evil/heavy
