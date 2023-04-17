@@ -1,0 +1,268 @@
+{
+	"type": "minecraft:command",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:copper_ingot",
+					"functions": [
+						{
+							"function": "minecraft:set_name",
+							"entity": "this",
+							"name": {
+								"translate": "ssbrc.statistics.playerProfile",
+								"color": "gold",
+								"bold": true,
+								"italic": false
+							}
+						},
+						{
+							"function": "minecraft:set_lore",
+							"entity": "this",
+							"lore": [
+								{
+									"translate": "---------------",
+									"color": "gray",
+									"bold": false,
+									"italic": false
+								},
+								{
+									"translate": "ssbrc.statistics.wins",
+									"color": "gold",
+									"bold": false,
+									"italic": false,
+									"extra": [
+										{
+											"score": {
+												"name": "@s",
+												"objective": "stats.wins"
+											},
+											"color": "yellow",
+											"bold": false,
+											"italic": false
+										}
+									]
+								},
+								{
+									"translate": "ssbrc.statistics.gamesPlayed",
+									"color": "gold",
+									"bold": false,
+									"italic": false,
+									"extra": [
+										{
+											"score": {
+												"name": "@s",
+												"objective": "stats.gamesPlayed"
+											},
+											"color": "yellow",
+											"bold": false,
+											"italic": false
+										}
+									]
+								}
+							],
+							"replace": false
+						},
+						{
+							"function": "minecraft:set_lore",
+							"entity": "this",
+							"lore": [
+								{
+									"translate": "ssbrc.statistics.winLossRatio",
+									"color": "gold",
+									"bold": false,
+									"italic": false,
+									"extra": [
+										{
+											"score": {
+												"name": "@s",
+												"objective": "stats.wL"
+											},
+											"color": "yellow",
+											"bold": false,
+											"italic": false,
+											"extra": [
+												{
+													"translate": "%",
+													"color": "yellow",
+													"bold": false,
+													"italic": false
+												}
+											]
+										}
+									]
+								}
+							],
+							"replace": false
+						},
+						{
+							"function": "minecraft:set_lore",
+							"entity": "this",
+							"lore": [
+								{
+									"translate": "ssbrc.statistics.kills",
+									"color": "gold",
+									"bold": false,
+									"italic": false,
+									"extra": [
+										{
+											"score": {
+												"name": "@s",
+												"objective": "stats.kills"
+											},
+											"color": "yellow",
+											"bold": false,
+											"italic": false
+										}
+									]
+								},
+								{
+									"translate": "ssbrc.statistics.deaths",
+									"color": "gold",
+									"bold": false,
+									"italic": false,
+									"extra": [
+										{
+											"score": {
+												"name": "@s",
+												"objective": "stats.deaths"
+											},
+											"color": "yellow",
+											"bold": false,
+											"italic": false
+										}
+									]
+								}
+							],
+							"replace": false
+						},
+						{
+							"function": "minecraft:set_lore",
+							"entity": "this",
+							"lore": [
+								{
+									"translate": "ssbrc.statistics.killDeathRatio",
+									"color": "gold",
+									"bold": false,
+									"italic": false,
+									"extra": [
+										{
+											"score": {
+												"name": "#kD.integer",
+												"objective": "temp"
+											},
+											"color": "yellow",
+											"bold": false,
+											"italic": false,
+											"extra": [
+												{
+													"translate": ".0",
+													"color": "yellow",
+													"bold": false,
+													"italic": false,
+													"extra": [
+														{
+															"score": {
+																"name": "#kD.decimal",
+																"objective": "temp"
+															},
+															"color": "yellow",
+															"bold": false,
+															"italic": false
+														}
+													]
+												}
+											]
+										}
+									]
+								}
+							],
+							"replace": false,
+							"conditions": [
+								{
+									"condition": "minecraft:value_check",
+									"value": {
+										"type": "minecraft:score",
+										"target": {
+											"type": "minecraft:fixed",
+											"name": "#kD.decimal"
+										},
+										"score": "temp"
+									},
+									"range": {
+										"max": 9
+									}
+								}
+							]
+						},
+						{
+							"function": "minecraft:set_lore",
+							"entity": "this",
+							"lore": [
+								{
+									"translate": "ssbrc.statistics.killDeathRatio",
+									"color": "gold",
+									"bold": false,
+									"italic": false,
+									"extra": [
+										{
+											"score": {
+												"name": "#kD.integer",
+												"objective": "temp"
+											},
+											"color": "yellow",
+											"bold": false,
+											"italic": false,
+											"extra": [
+												{
+													"translate": ".",
+													"color": "yellow",
+													"bold": false,
+													"italic": false,
+													"extra": [
+														{
+															"score": {
+																"name": "#kD.decimal",
+																"objective": "temp"
+															},
+															"color": "yellow",
+															"bold": false,
+															"italic": false
+														}
+													]
+												}
+											]
+										}
+									]
+								}
+							],
+							"replace": false,
+							"conditions": [
+								{
+									"condition": "minecraft:value_check",
+									"value": {
+										"type": "minecraft:score",
+										"target": {
+											"type": "minecraft:fixed",
+											"name": "#kD.decimal"
+										},
+										"score": "temp"
+									},
+									"range": {
+										"min": 10
+									}
+								}
+							]
+						},
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{CustomModelData:1}"
+						}
+					]
+				}
+			]
+		}
+	]
+}
