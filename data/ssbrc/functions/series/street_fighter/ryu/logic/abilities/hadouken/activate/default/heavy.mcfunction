@@ -1,6 +1,6 @@
-execute positioned 0.0 0.0 0.0 run summon minecraft:marker ^ ^ ^0.4 {Tags:["direction"]}
+execute positioned 0.0 0.0 0.0 run summon minecraft:marker ^ ^ ^0.3 {Tags:["direction"]}
 
-summon minecraft:arrow ^ ^ ^0.5 {damage:3.0,Tags:["hadouken","default","heavy","effect.wither","modifyEntity"],NoGravity:1b}
+summon minecraft:arrow ^ ^ ^1 {damage:3.0,Tags:["hadouken","default","heavy","effect.wither","modifyEntity"],NoGravity:1b}
 
 scoreboard players operation @e[tag=modifyEntity,limit=1] id = @s id
 data modify entity @e[tag=modifyEntity,limit=1] Owner set from entity @s UUID

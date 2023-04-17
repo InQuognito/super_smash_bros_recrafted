@@ -9,8 +9,8 @@ execute if entity @s[tag=default,tag=!heavy] positioned ~-0.25 ~-0.25 ~-0.25 as 
 execute if entity @s[tag=evil,tag=!heavy] positioned ~-0.25 ~-0.25 ~-0.25 as @e[tag=!self,predicate=ssbrc:flag/targets,dx=0] positioned ~-0.5 ~-0.5 ~-0.5 if entity @s[dx=0] run function ssbrc:series/street_fighter/ryu/logic/abilities/hadouken/hit/evil/default
 execute if entity @s[tag=evil,tag=heavy] positioned ~-0.5 ~-0.5 ~-0.5 as @e[tag=!self,predicate=ssbrc:flag/targets,dx=0] run function ssbrc:series/street_fighter/ryu/logic/abilities/hadouken/hit/evil/heavy
 
-teleport @s[tag=!heavy] ^ ^ ^1
-teleport @s[tag=heavy] ^ ^ ^0.75
+teleport @s[tag=!heavy] ^ ^ ^0.6
+teleport @s[tag=heavy] ^ ^ ^0.4
 
 scoreboard players add @s temp 1
-kill @s[scores={temp=40..}]
+kill @s[scores={temp=20..}]
