@@ -1,5 +1,5 @@
 execute at @e[type=minecraft:marker,tag=shadowSneak,sort=nearest,limit=1] run teleport @s ~ ~-0.5 ~
-execute at @s facing entity @e[tag=!self,predicate=ssbrc:flag/targets,sort=nearest,limit=1,distance=..1.5] eyes run teleport @s ~ ~ ~ ~ ~
+execute at @s run tp @s ~ ~ ~ facing entity @e[tag=!self,predicate=ssbrc:flag/targets,sort=nearest,limit=1,distance=..2]
 
 kill @e[type=minecraft:marker,tag=shadowSneak,sort=nearest,limit=1]
 
