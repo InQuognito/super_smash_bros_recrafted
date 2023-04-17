@@ -12,7 +12,7 @@
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"translate": "ssbrc.tooltips.ryu.hadoken",
+								"translate": "ssbrc.tooltips.ryu.hadouken",
 								"color": "aqua",
 								"bold": true,
 								"italic": false
@@ -72,7 +72,7 @@
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{hadoken:1,Unbreakable:1b,HideFlags:127}"
+							"tag": "{hadouken:1,Unbreakable:1b,HideFlags:127}"
 						}
 					]
 				}
