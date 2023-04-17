@@ -9,3 +9,5 @@ tag @e[tag=modifyEntity,limit=1] remove modifyEntity
 effect give @s minecraft:levitation infinite 0 true
 
 scoreboard players set @s duration.1 4
+
+playsound ssbrc:fighters.captainfalcon.raptor_boost.activate player @a

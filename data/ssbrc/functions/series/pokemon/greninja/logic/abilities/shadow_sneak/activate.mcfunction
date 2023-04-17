@@ -6,3 +6,5 @@ data modify entity @e[tag=modifyEntity,limit=1] Rotation[0] set from entity @s R
 tag @e[tag=modifyEntity,limit=1] remove modifyEntity
 
 tag @s add shadowSneak
+
+playsound ssbrc:fighters.greninja.shadow_sneak.activate player @a

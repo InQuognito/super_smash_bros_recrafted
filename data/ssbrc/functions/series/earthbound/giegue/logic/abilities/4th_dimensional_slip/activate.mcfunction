@@ -7,3 +7,5 @@ execute unless block ~ ~-0.1 ~ #ssbrc:passthrough run function ssbrc:logic/chara
 tag @e[tag=modifyEntity,limit=1] remove modifyEntity
 
 execute as @e[type=minecraft:marker,tag=4thDimensionalSlip,sort=nearest,limit=1] at @s run function ssbrc:series/earthbound/giegue/logic/abilities/4th_dimensional_slip/raycast/start
+
+playsound ssbrc:fighters.giegue.4th_dimensional_slip.activate player @a

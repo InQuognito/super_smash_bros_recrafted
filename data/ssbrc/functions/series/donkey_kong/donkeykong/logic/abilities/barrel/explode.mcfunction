@@ -12,4 +12,6 @@ kill @s
 execute as @p[tag=self] run loot give @s[tag=!flowerPower] loot ssbrc:characters/donkey_kong/donkeykong/barrel/default
 execute as @p[tag=self] run loot give @s[tag=flowerPower] loot ssbrc:characters/donkey_kong/donkeykong/barrel/oil
 
+playsound ssbrc:fighters.donkeykong.barrel.explode player @a
+
 execute if entity @e[predicate=ssbrc:flag/targets,distance=..3] as @p[tag=self] at @s run playsound minecraft:entity.arrow.hit_player player @s
