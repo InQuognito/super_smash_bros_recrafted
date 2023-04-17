@@ -77,7 +77,7 @@ execute as @e[type=minecraft:arrow,tag=waterGun] at @s if score @s id = @p[tag=s
 execute as @e[type=minecraft:marker,tag=roboBeam] at @s if score @s id = @p[tag=self] id run function ssbrc:series/super_smash_bros/rob/logic/abilities/robo_beam/tick
 
 # Ryu
-execute as @e[type=minecraft:marker,tag=hadouken] at @s if score @s id = @p[tag=self] id run function ssbrc:series/street_fighter/ryu/logic/abilities/hadouken/tick
+execute as @e[type=#ssbrc:projectiles,tag=hadouken] at @s if score @s id = @p[tag=self] id run function ssbrc:series/street_fighter/ryu/logic/abilities/hadouken/tick
 
 # Samus
 execute as @e[type=minecraft:marker,tag=powerBeam] at @s if score @s id = @p[tag=self] id run function ssbrc:series/metroid/samus/logic/weapons/power_beam/tick
