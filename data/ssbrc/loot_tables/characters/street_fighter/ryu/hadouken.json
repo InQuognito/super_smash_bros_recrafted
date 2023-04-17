@@ -6,7 +6,7 @@
 			"entries": [
 				{
 					"type": "minecraft:item",
-					"name": "minecraft:bow",
+					"name": "minecraft:carrot_on_a_stick",
 					"functions": [
 						{
 							"function": "minecraft:set_name",
@@ -62,13 +62,6 @@
 									"slot": "mainhand"
 								}
 							]
-						},
-						{
-							"function": "minecraft:set_enchantments",
-							"enchantments": {
-								"minecraft:flame": 1
-							},
-							"add": false
 						},
 						{
 							"function": "minecraft:set_nbt",
