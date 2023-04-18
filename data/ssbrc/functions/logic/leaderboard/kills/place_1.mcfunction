@@ -5,4 +5,5 @@ execute if score #kD.decimal temp matches ..9 run data modify entity @e[type=min
 execute if score #kD.decimal temp matches 10.. run data modify entity @e[type=minecraft:text_display,tag=leaderboard.1,limit=1] text set value '[{"translate":"1. ","bold":true,"color":"gold"},{"selector":"@p[tag=leaderboard.self]","bold":false,"color":"yellow"},{"translate":" - ","bold":false,"color":"white"},{"score":{"name":"@p[tag=leaderboard.self]","objective":"stats.kills"},"bold":false,"color":"aqua"},{"translate":" | ","bold":false,"color":"white"},{"score":{"name":"#kD.integer","objective":"temp"},"bold":false,"color":"light_purple"},{"translate":".","bold":false,"color":"light_purple"},{"score":{"name":"#kD.decimal","objective":"temp"},"bold":false,"color":"light_purple"}]'
 tag @s remove leaderboard.self
 
-execute as @a[tag=!leaderboard.loaded,scores={stats.kills=1..}] run function ssbrc:logic/leaderboard/kills/calculate_2
+tag @a remove leaderboard.next
+function ssbrc:logic/leaderboard/kills/calculate_2

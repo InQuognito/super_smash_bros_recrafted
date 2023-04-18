@@ -7,15 +7,15 @@ summon minecraft:text_display -507.5 6.0 55.5 {Tags:["leaderboard.label","leader
 summon minecraft:text_display -507.5 5.5 55.5 {Tags:["leaderboard.label","leaderboard.4"],billboard:center}
 summon minecraft:text_display -507.5 5.0 55.5 {Tags:["leaderboard.label","leaderboard.5"],billboard:center}
 
-summon minecraft:text_display -507.5 6.75 51.5 {Tags:["leaderboard.label"],text:'{"translate":"ssbrc.stats.wins","bold":false,"color":"yellow"}',billboard:center}
-summon minecraft:text_display -507.5 6.5 51.5 {Tags:["leaderboard.label"],text:'{"translate":"ssbrc.stats.kills","bold":true,"color":"gold"}',billboard:center}
+summon minecraft:text_display -507.5 6.5 51.5 {Tags:["leaderboard.label"],text:'[{"translate":"ssbrc.stats.wins","bold":false,"color":"yellow"},{"translate":"\\n"},{"translate":"ssbrc.stats.kills","bold":true,"color":"gold"}]',billboard:center}
 
 summon minecraft:text_display -507.5 6.0 51.5 {Tags:["leaderboard.label"],text:'{"translate":"ssbrc.lobby.leaderboard.toggle","color":"gold"}',billboard:center}
 
 setblock -484 4 55 minecraft:air replace
 
 tag @a remove leaderboard.loaded
-execute as @a[tag=!leaderboard.loaded,scores={stats.kills=1..}] run function ssbrc:logic/leaderboard/kills/calculate_1
+tag @a remove leaderboard.next
+function ssbrc:logic/leaderboard/kills/calculate_1
 
 function ssbrc:logic/inputs/reset
 scoreboard players set leaderboard temp 1

@@ -49,6 +49,8 @@ scoreboard objectives add joker.tt33A dummy
 scoreboard objectives add joker.tt33F dummy
 scoreboard objectives add jumps minecraft.custom:minecraft.jump
 scoreboard objectives add kills dummy
+scoreboard objectives add leaderboard.kills dummy
+scoreboard objectives add leaderboard.wins dummy
 scoreboard objectives add leechSeed dummy
 scoreboard objectives add leechSeedStacks dummy
 scoreboard objectives add leechSeedStacksTimer dummy
