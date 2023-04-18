@@ -37,7 +37,3 @@ execute as @e[type=minecraft:text_display,tag=voteCounter,sort=nearest,limit=1] 
 execute as @e[type=minecraft:text_display,tag=voteCounter,sort=nearest,limit=1] if entity @s[tag=yggdrasilsAltar] as @p[tag=self] run function ssbrc:maps/y/yggdrasils_altar/vote
 
 tag @s remove self
-
-function ssbrc:logic/inputs/reset
-
-function ssbrc:logic/pre_game/map_voting/check_participation
