@@ -61,7 +61,7 @@ give @s[tag=link] minecraft:spectral_arrow 5
 scoreboard players reset @s[tag=link] charge.1
 
 # Megaman
-scoreboard players set @s[tag=megaman] charge.1 2
+scoreboard players set @s[tag=megaman] charge.1 1
 loot replace entity @s[tag=megaman] hotbar.2 loot ssbrc:characters/mega_man/megaman/black_hole_bomb
 
 # Pikachu
