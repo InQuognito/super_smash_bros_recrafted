@@ -1,6 +1,5 @@
 kill @e[type=minecraft:text_display,tag=leaderboard.label]
 
-summon minecraft:text_display -507.5 8.0 55.5 {Tags:["leaderboard.label"],text:'[{"translate":"ssbrc.stats.wins","bold":true,"underlined":true,"color":"aqua"},{"translate":" | ","bold":true,"underlined":false,"color":"white"},{"translate":"ssbrc.stats.winLossRatio","bold":true,"underlined":true,"color":"light_purple"}]',billboard:center}
 summon minecraft:text_display -507.5 5.0 55.5 {Tags:["leaderboard.label","leaderboard"],billboard:center}
 
 summon minecraft:text_display -507.5 6.5 51.5 {Tags:["leaderboard.label"],text:'[{"translate":"ssbrc.stats.wins","bold":true,"color":"gold"},{"translate":"\\n"},{"translate":"ssbrc.stats.kills","bold":false,"color":"yellow"}]',billboard:center}
