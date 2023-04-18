@@ -23,7 +23,7 @@ data modify storage ssbrc:leaderboard_wins value append value '{"translate":"\\n
 data modify storage ssbrc:leaderboard_wins value append value '{"translate":"\\n"},{"translate":"4. ","bold":true,"color":"gold"},{"selector":"@p[scores={leaderboard.wins=4}]","bold":false,"color":"yellow"},{"translate":" - ","bold":false,"color":"white"},{"score":{"name":"@p[scores={leaderboard.wins=4}]","objective":"stats.wins"},"bold":false,"color":"aqua"},{"translate":" | ","bold":false,"color":"white"},{"score":{"name":"@p[scores={leaderboard.wins=4}]","objective":"stats.wL"},"bold":false,"color":"light_purple"},{"translate":"%","bold":false,"color":"light_purple"}'
 data modify storage ssbrc:leaderboard_wins value append value '{"translate":"\\n"},{"translate":"5. ","bold":true,"color":"gold"},{"selector":"@p[scores={leaderboard.wins=5}]","bold":false,"color":"yellow"},{"translate":" - ","bold":false,"color":"white"},{"score":{"name":"@p[scores={leaderboard.wins=5}]","objective":"stats.wins"},"bold":false,"color":"aqua"},{"translate":" | ","bold":false,"color":"white"},{"score":{"name":"@p[scores={leaderboard.wins=5}]","objective":"stats.wL"},"bold":false,"color":"light_purple"},{"translate":"%","bold":false,"color":"light_purple"}'
 
-data modify entity @e[type=minecraft:text_display,tag=leaderboard,limit=1] text set from storage ssbrc:leaderboard_wins
+data modify entity @e[type=minecraft:text_display,tag=leaderboard,limit=1] text set from storage ssbrc:leaderboard_wins value
 
 function ssbrc:logic/inputs/reset
 scoreboard players set leaderboard temp 0
