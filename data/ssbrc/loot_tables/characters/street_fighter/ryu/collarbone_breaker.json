@@ -6,7 +6,7 @@
 			"entries": [
 				{
 					"type": "minecraft:item",
-					"name": "minecraft:iron_sword",
+					"name": "minecraft:carrot_on_a_stick",
 					"functions": [
 						{
 							"function": "minecraft:set_name",
@@ -29,7 +29,7 @@
 									"italic": false
 								},
 								{
-									"translate": "ssbrc.tooltips.weapon.melee",
+									"translate": "ssbrc.tooltips.weapon.hybrid",
 									"color": "white",
 									"bold": false,
 									"italic": false,
