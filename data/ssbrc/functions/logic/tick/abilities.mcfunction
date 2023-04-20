@@ -80,6 +80,7 @@ execute as @e[type=minecraft:marker,tag=roboBeam] at @s if score @s id = @p[tag=
 execute as @e[type=#ssbrc:projectiles,tag=hadouken] at @s if score @s id = @p[tag=self] id run function ssbrc:series/street_fighter/ryu/logic/abilities/hadouken/tick
 execute as @e[type=minecraft:marker,tag=tatsumakiSenpukyaku] at @s if score @s id = @p[tag=self] id run function ssbrc:series/street_fighter/ryu/logic/abilities/tatsumaki_senpukyaku/tick
 execute as @e[type=minecraft:marker,tag=ashuraSenku] at @s if score @s id = @p[tag=self] id run function ssbrc:series/street_fighter/ryu/logic/abilities/ashura_senku/tick
+execute as @e[type=minecraft:item_display,tag=ashuraSenku.trail] at @s if score @s id = @p[tag=self] id run function ssbrc:series/street_fighter/ryu/logic/abilities/ashura_senku/trail/tick
 
 # Samus
 execute as @e[type=minecraft:marker,tag=powerBeam] at @s if score @s id = @p[tag=self] id run function ssbrc:series/metroid/samus/logic/weapons/power_beam/tick
