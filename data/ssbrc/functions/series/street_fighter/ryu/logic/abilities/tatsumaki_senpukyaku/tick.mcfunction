@@ -8,7 +8,8 @@ execute as @e[predicate=ssbrc:flag/targets,tag=!self,distance=..2] run damage @s
 
 execute rotated as @e[type=minecraft:marker,tag=ryu.spinner] run teleport @p[tag=self] ~ ~ ~ ~ ~
 
-execute if block ^ ^ ^0.5 #ssbrc:passthrough_charge run teleport @s ^ ^ ^0.25
+execute if block ~ ~-0.2 ~ #ssbrc:passthrough_charge run teleport @s ~ ~-0.1 ~
+execute at @s if block ^ ^ ^0.5 #ssbrc:passthrough_charge run teleport @s ^ ^ ^0.25
 
 scoreboard players add @s temp 1
 kill @s[scores={temp=20..}]
