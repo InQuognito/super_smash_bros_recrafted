@@ -93,6 +93,9 @@ execute if score @s armorBreak matches 60.. run function ssbrc:series/pokemon/po
 execute if entity @s[tag=leechSeed] run function ssbrc:series/pokemon/pokemontrainer/logic/ivysaur/leech_seed/calculate
 execute if score @s leechSeedStacks matches 1.. run function ssbrc:series/pokemon/pokemontrainer/logic/ivysaur/leech_seed/calculate_healing
 
+scoreboard players remove @s[scores={flinch=1..}] flinch 1
+execute if score @s flinch matches 1 run function ssbrc:logic/characters/effects/mobility/mobilize
+
 # Map Effects
 execute at @s unless block ~ ~ ~ minecraft:lava run scoreboard players remove @s[scores={flag.inLava=1..}] flag.inLava 1
 execute at @s if block ~ ~ ~ minecraft:lava run scoreboard players add @s flag.inLava 1
