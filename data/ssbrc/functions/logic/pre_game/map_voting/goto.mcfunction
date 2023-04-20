@@ -1,6 +1,7 @@
 clear @s
 
 scoreboard players reset @s useAbility
+function ssbrc:logic/resets/charge
 function ssbrc:logic/resets/triggers
 
 gamemode spectator @s[team=spectator]
