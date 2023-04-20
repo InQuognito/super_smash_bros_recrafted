@@ -7,4 +7,4 @@ execute if block ^ ^ ^0.75 #ssbrc:passthrough_charge run teleport @s ^ ^ ^0.5
 function ssbrc:series/street_fighter/ryu/logic/abilities/ashura_senku/trail/summon
 
 scoreboard players add @s temp 1
-kill @s[scores={temp=30..}]
+execute if score @s temp matches 30.. run scoreboard players set @p[tag=self] duration.1 2
