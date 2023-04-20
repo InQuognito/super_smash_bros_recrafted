@@ -61,7 +61,7 @@ execute as @e[type=minecraft:armor_stand,tag=blackHoleGrenade] at @s if score @s
 execute as @e[type=minecraft:area_effect_cloud,tag=pkFire,tag=!exploded] if score @s id = @p[tag=self] id at @s run function ssbrc:series/earthbound/ness/logic/abilities/pk_fire/tick
 execute as @e[type=minecraft:area_effect_cloud,tag=pkFire,tag=exploded] if score @s id = @p[tag=self] id at @s run function ssbrc:series/earthbound/ness/logic/abilities/pk_fire/tick_explosion
 execute if entity @s[tag=ness,predicate=ssbrc:flag/player,predicate=!ssbrc:flag/sneaking] as @e[type=minecraft:marker,tag=pkFlash,scores={temp=20..}] at @s if score @s id = @p[tag=self] id run function ssbrc:series/earthbound/ness/logic/abilities/pk_flash/adjust
-execute as @e[type=minecraft:marker,tag=pkFlash] if score @s id = @p[tag=self] id at @s run function ssbrc:series/earthbound/ness/logic/abilities/pk_flash/tick
+execute as @e[type=minecraft:marker,tag=pkFlash] at @s if score @s id = @p[tag=self] id run function ssbrc:series/earthbound/ness/logic/abilities/pk_flash/tick
 
 # Pikachu
 execute as @e[type=minecraft:marker,tag=thunderJolt] at @s if score @s id = @p[tag=self] id run function ssbrc:series/pokemon/pikachu/logic/abilities/thunder_jolt/tick
