@@ -53,6 +53,8 @@ scoreboard players set #pikachu.thunderJoltMaxRotation vars 160
 scoreboard players set #rob.maxCharge vars 200
 scoreboard players set #rob.maxFuel vars 200
 
+scoreboard players set #ryu.tatsumakiSenpukyaku vars 10
+
 scoreboard players set #samus.waveBeamPiercing vars 3
 
 scoreboard players set #shadow.maxMeter vars 600
