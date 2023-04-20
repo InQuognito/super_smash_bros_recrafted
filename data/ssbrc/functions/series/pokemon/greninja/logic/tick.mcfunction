@@ -6,7 +6,7 @@ execute if entity @s[predicate=ssbrc:flag/sneaking,scores={cooldown.3=..0}] at @
 title @s[nbt=!{SelectedItem:{tag:{waterShuriken:1}}}] actionbar ""
 title @s[nbt={SelectedItem:{tag:{waterShuriken:1}}},scores={charge.2=0..}] actionbar {"score":{"name":"@s","objective":"charge.2"},"color":"blue"}
 
-execute if entity @s[scores={charge.2=..4}] run function ssbrc:series/pokemon/greninja/logic/abilities/water_shuriken/charge
+execute if entity @s[scores={charge.2=..3}] run function ssbrc:series/pokemon/greninja/logic/abilities/water_shuriken/charge
 
 # Shadow Sneak
 execute if entity @s[predicate=!ssbrc:flag/sneaking,tag=shadowSneak] run function ssbrc:series/pokemon/greninja/logic/abilities/shadow_sneak/deactivate
