@@ -6,7 +6,7 @@ execute unless block ^ ^ ^0.5 #ssbrc:passthrough_charge run scoreboard players s
 
 execute as @e[predicate=ssbrc:flag/targets,tag=!self,distance=..2] run damage @s 4.0 ssbrc:pierce by @p[tag=self]
 
-teleport @p[tag=self] @s
+execute rotated as @e[type=minecraft:marker,tag=ryu.spinner] run teleport @p[tag=self] ~ ~ ~ ~ ~
 
 execute if block ^ ^ ^0.5 #ssbrc:passthrough_charge run teleport @s ^ ^ ^0.25
 
