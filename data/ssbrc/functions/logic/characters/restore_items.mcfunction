@@ -84,9 +84,9 @@ loot replace entity @s[tag=rob] hotbar.1 loot ssbrc:characters/super_smash_bros/
 
 # Ryu
 execute if entity @s[tag=ryu] run function ssbrc:series/street_fighter/ryu/logic/abilities/satsui_no_hado_rage/deactivate
-execute if score $gameMode options matches 1 if score @s[tag=ryu] stocks matches 1 run loot replace entity @s[tag=!abilityUsed] hotbar.2 loot ssbrc:characters/street_fighter/ryu/satsui_no_hado_rage
+execute if score $gameMode options matches 1 if score @s[tag=ryu] stocks matches 1 run loot replace entity @s[tag=!abilityUsed] hotbar.1 loot ssbrc:characters/street_fighter/ryu/satsui_no_hado_rage
 execute if score $gameMode options matches 2 run clear @s[tag=ryu] minecraft:carrot_on_a_stick{satsuiNoHadoRage:1}
-execute if score $gameMode options matches 2 if score $gameTime timer matches ..60 run loot replace entity @s[tag=ryu,tag=!abilityUsed] hotbar.2 loot ssbrc:characters/street_fighter/ryu/satsui_no_hado_rage
+execute if score $gameMode options matches 2 if score $gameTime timer matches ..60 run loot replace entity @s[tag=ryu,tag=!abilityUsed] hotbar.1 loot ssbrc:characters/street_fighter/ryu/satsui_no_hado_rage
 
 # Snake
 clear @s[tag=snake] minecraft:paper{status:1}
