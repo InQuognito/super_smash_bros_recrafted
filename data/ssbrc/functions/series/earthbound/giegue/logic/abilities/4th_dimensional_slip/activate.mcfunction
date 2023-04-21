@@ -8,4 +8,7 @@ tag @e[tag=modifyEntity,limit=1] remove modifyEntity
 
 execute as @e[type=minecraft:marker,tag=4thDimensionalSlip,sort=nearest,limit=1] at @s run function ssbrc:series/earthbound/giegue/logic/abilities/4th_dimensional_slip/raycast/start
 
+scoreboard players set @s cooldown.3 80
+execute if score @s shadow.chaosControl matches 1.. run function ssbrc:logic/characters/cooldown_modifiers/chaos_control/3
+
 playsound ssbrc:fighters.giegue.4th_dimensional_slip.activate player @a
