@@ -56,7 +56,7 @@ execute if score $flatZone map matches 1 if score result_music random matches 0 
 execute if score $flatZone map matches 1 if score result_music random matches 0 run tellraw @s [{"translate":"ssbrc.game.music.nowPlaying","bold":true,"color":"gold"},{"translate":"ssbrc.stages.flatZone","color":"yellow"}]
 execute if score $flatZone map matches 1 if score result_music random matches 0 run schedule function ssbrc:logic/music/loop_schedule 165t replace
 execute if score $flatZone map matches 1 if score result_music random matches 1 run playsound ssbrc:flat_zone_2_intro music @s
-execute if score $flatZone map matches 1 if score result_music random matches 1 run tellraw @s [{"translate":"ssbrc.game.music.nowPlaying","bold":true,"color":"gold"},{"translate":"ssbrc.music.flatZone2 2","color":"yellow"}]
+execute if score $flatZone map matches 1 if score result_music random matches 1 run tellraw @s [{"translate":"ssbrc.game.music.nowPlaying","bold":true,"color":"gold"},{"translate":"ssbrc.music.flatZone2","color":"yellow"}]
 execute if score $flatZone map matches 1 if score result_music random matches 1 run schedule function ssbrc:logic/music/loop_schedule 540t replace
 
 execute if score $frozenHijinx map matches 1 if score result_music random matches 0 run playsound ssbrc:homecoming_hijinx_intro music @s
