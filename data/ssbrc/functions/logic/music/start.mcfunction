@@ -179,7 +179,7 @@ execute if score $pacMaze map matches 1 if score result_music random matches 1 r
 execute if score $pacMaze map matches 1 if score result_music random matches 1 run function ssbrc:logic/music/loop_schedule
 
 execute if score $palletTown map matches 1 if score result_music random matches 0 run playsound ssbrc:battle_lets_go_pikachu_eevee_intro music @s
-execute if score $palletTown map matches 1 if score result_music random matches 0 run tellraw @s [{"translate":"ssbrc.game.music.nowPlaying","bold":true,"color":"gold"},{"translate":"ssbrc.music.battleLetsGoPikachuEevee)","color":"yellow"}]
+execute if score $palletTown map matches 1 if score result_music random matches 0 run tellraw @s [{"translate":"ssbrc.game.music.nowPlaying","bold":true,"color":"gold"},{"translate":"ssbrc.music.battleLetsGoPikachuEevee","color":"yellow"}]
 execute if score $palletTown map matches 1 if score result_music random matches 0 run schedule function ssbrc:logic/music/loop_schedule 1160t replace
 execute if score $palletTown map matches 1 if score result_music random matches 1 run playsound ssbrc:road_to_viridian_city_intro music @s
 execute if score $palletTown map matches 1 if score result_music random matches 1 run tellraw @s [{"translate":"ssbrc.game.music.nowPlaying","bold":true,"color":"gold"},{"translate":"ssbrc.music.roadToViridianCity","color":"yellow"}]
