@@ -7,4 +7,4 @@ execute if score @s piercing <= #samus.waveBeamPiercing vars anchored eyes posit
 teleport @s ^ ^ ^0.6
 
 scoreboard players add @s temp 2
-kill @s[scores={temp=120..}]
+kill @s[scores={temp=60..}]
