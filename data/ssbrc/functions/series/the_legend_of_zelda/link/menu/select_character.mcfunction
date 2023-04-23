@@ -1,12 +1,12 @@
 tag @s[tag=!gold,tag=!dark,tag=!goron,tag=!zora] add default
 
-execute if score $blindPick options matches 0 run tellraw @s [{"translate":"ssbrc.fighters.menu.selected","color":"white"},{"translate":"ssbrc.fighters.link","color":"dark_green"},{"translate":"!","color":"white"}]
+tellraw @s [{"translate":"ssbrc.fighters.menu.selected","color":"white"},{"translate":"ssbrc.fighters.link","color":"dark_green"},{"translate":"!","color":"white"}]
 
-execute if score $blindPick options matches 0 run tellraw @s[tag=default] [{"translate":"ssbrc.fighters.menu.skin","color":"white"},{"translate":"ssbrc.fighters.skin.default","color":"dark_green"}]
-execute if score $blindPick options matches 0 run tellraw @s[tag=gold] [{"translate":"ssbrc.fighters.menu.skin","color":"white"},{"translate":"ssbrc.fighters.skin.gold","color":"gold"}]
-execute if score $blindPick options matches 0 run tellraw @s[tag=dark] [{"translate":"ssbrc.fighters.menu.skin","color":"white"},{"translate":"ssbrc.fighters.link.skin.darkLink","color":"dark_gray"}]
-execute if score $blindPick options matches 0 run tellraw @s[tag=goron] [{"translate":"ssbrc.fighters.menu.skin","color":"white"},{"translate":"ssbrc.fighters.link.skin.goronTunic","color":"red"}]
-execute if score $blindPick options matches 0 run tellraw @s[tag=zora] [{"translate":"ssbrc.fighters.menu.skin","color":"white"},{"translate":"ssbrc.fighters.link.skin.zoraTunic","color":"blue"}]
+tellraw @s[tag=!blindPick,tag=default] [{"translate":"ssbrc.fighters.menu.skin","color":"white"},{"translate":"ssbrc.fighters.skin.default","color":"dark_green"}]
+tellraw @s[tag=!blindPick,tag=gold] [{"translate":"ssbrc.fighters.menu.skin","color":"white"},{"translate":"ssbrc.fighters.skin.gold","color":"gold"}]
+tellraw @s[tag=!blindPick,tag=dark] [{"translate":"ssbrc.fighters.menu.skin","color":"white"},{"translate":"ssbrc.fighters.link.skin.darkLink","color":"dark_gray"}]
+tellraw @s[tag=!blindPick,tag=goron] [{"translate":"ssbrc.fighters.menu.skin","color":"white"},{"translate":"ssbrc.fighters.link.skin.goronTunic","color":"red"}]
+tellraw @s[tag=!blindPick,tag=zora] [{"translate":"ssbrc.fighters.menu.skin","color":"white"},{"translate":"ssbrc.fighters.link.skin.zoraTunic","color":"blue"}]
 
 function ssbrc:logic/resets/tags/characters
 tag @s add link

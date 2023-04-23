@@ -1,12 +1,12 @@
 tag @s[tag=!gold,tag=!erdrick,tag=!rek,tag=!sofia] add default
 
-execute if score $blindPick options matches 0 run tellraw @s [{"translate":"ssbrc.fighters.menu.selected","color":"white"},{"translate":"ssbrc.fighters.hero","color":"yellow"},{"translate":"!","color":"white"}]
+tellraw @s [{"translate":"ssbrc.fighters.menu.selected","color":"white"},{"translate":"ssbrc.fighters.hero","color":"yellow"},{"translate":"!","color":"white"}]
 
-execute if score $blindPick options matches 0 run tellraw @s[tag=default] [{"translate":"ssbrc.fighters.menu.skin","color":"white"},{"translate":"ssbrc.fighters.skin.default","color":"yellow"}]
-execute if score $blindPick options matches 0 run tellraw @s[tag=gold] [{"translate":"ssbrc.fighters.menu.skin","color":"white"},{"translate":"ssbrc.fighters.skin.gold","color":"gold"}]
-execute if score $blindPick options matches 0 run tellraw @s[tag=erdrick] [{"translate":"ssbrc.fighters.menu.skin","color":"white"},{"translate":"ssbrc.fighters.hero.skin.erdrick","color":"gray"}]
-execute if score $blindPick options matches 0 run tellraw @s[tag=rek] [{"translate":"ssbrc.fighters.menu.skin","color":"white"},{"translate":"ssbrc.fighters.hero.skin.rek","color":"blue"}]
-execute if score $blindPick options matches 0 run tellraw @s[tag=sofia] [{"translate":"ssbrc.fighters.menu.skin","color":"white"},{"translate":"ssbrc.fighters.hero.skin.sofia","color":"green"}]
+tellraw @s[tag=!blindPick,tag=default] [{"translate":"ssbrc.fighters.menu.skin","color":"white"},{"translate":"ssbrc.fighters.skin.default","color":"yellow"}]
+tellraw @s[tag=!blindPick,tag=gold] [{"translate":"ssbrc.fighters.menu.skin","color":"white"},{"translate":"ssbrc.fighters.skin.gold","color":"gold"}]
+tellraw @s[tag=!blindPick,tag=erdrick] [{"translate":"ssbrc.fighters.menu.skin","color":"white"},{"translate":"ssbrc.fighters.hero.skin.erdrick","color":"gray"}]
+tellraw @s[tag=!blindPick,tag=rek] [{"translate":"ssbrc.fighters.menu.skin","color":"white"},{"translate":"ssbrc.fighters.hero.skin.rek","color":"blue"}]
+tellraw @s[tag=!blindPick,tag=sofia] [{"translate":"ssbrc.fighters.menu.skin","color":"white"},{"translate":"ssbrc.fighters.hero.skin.sofia","color":"green"}]
 
 function ssbrc:logic/resets/tags/characters
 tag @s add hero

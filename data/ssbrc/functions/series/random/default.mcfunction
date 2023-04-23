@@ -1,3 +1,5 @@
+execute if score $blindPick options matches 1 run function ssbrc:series/random/blind
+
 function ssbrc:logic/resets/tags/characters
 function ssbrc:logic/resets/tags/skins
 
@@ -50,3 +52,5 @@ scoreboard players reset @s characterPicked
 scoreboard players reset @s skinPicked
 
 function ssbrc:logic/inputs/reset
+
+tag @s remove blindPick
