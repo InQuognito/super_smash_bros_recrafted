@@ -19,4 +19,6 @@ execute if score @s shadow.chaosControl matches 1.. run function ssbrc:logic/cha
 
 function ssbrc:logic/characters/flags/use_recovery
 
+execute if score @s[nbt={Inventory:[{id:"minecraft:goat_horn",tag:{warHorn:1}}]}] mana < #shovelknight.warHornManaCost vars run function ssbrc:series/indie_fighters/shovelknight/logic/abilities/war_horn/used
+
 playsound ssbrc:fighters.shovelknight.propeller_dagger.activate player @a
