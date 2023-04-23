@@ -27,8 +27,7 @@ execute if entity @s[tag=pokemontrainer,tag=ivysaur] as @e[type=minecraft:marker
 execute if entity @s[tag=shovelknight] as @e[type=minecraft:marker,tag=warHorn] if score @s id = @p[tag=self] id run kill @s
 execute if entity @s[tag=yar] as @e[type=minecraft:bee,tag=drone] if score @s id = @p[tag=self] id run kill @s
 execute if entity @s[tag=yar] as @e[type=minecraft:area_effect_cloud,tag=drone.aec] if score @s id = @p[tag=self] id run kill @s
-execute if entity @s[tag=zelda] as @e[type=minecraft:armor_stand,tag=zelda.boomerang] if score @s id = @p[tag=self] id run kill @s
-execute if entity @s[tag=zelda] as @e[type=minecraft:armor_stand,tag=magicBoomerang] if score @s id = @p[tag=self] id run kill @s
+execute if entity @s[tag=zelda] run function ssbrc:series/the_legend_of_zelda/zelda/logic/kill_throwables
 tag @s remove self
 
 # Tower of Fate
