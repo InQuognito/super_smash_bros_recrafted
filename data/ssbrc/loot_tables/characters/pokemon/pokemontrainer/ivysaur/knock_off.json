@@ -12,7 +12,7 @@
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"translate": "ssbrc.tooltips.pokemontrainer.ivysaur.leechSeed",
+								"translate": "ssbrc.tooltips.pokemontrainer.ivysaur.knockOff",
 								"color": "dark_gray",
 								"bold": true,
 								"italic": false
