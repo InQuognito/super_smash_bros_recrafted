@@ -1,4 +1,4 @@
-data merge entity @s {Tags:["phazonPool"]}
+tag @s add phazonPool
 
 scoreboard players operation @s id = @p[tag=self] id
 

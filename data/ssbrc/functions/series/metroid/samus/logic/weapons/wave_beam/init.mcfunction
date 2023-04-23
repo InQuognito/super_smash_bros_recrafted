@@ -1,4 +1,4 @@
-data merge entity @s {Tags:["waveBeam"]}
+tag @s add waveBeam
 
 function ssbrc:logic/init/projectile
 

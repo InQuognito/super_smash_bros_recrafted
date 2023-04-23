@@ -1,3 +1,3 @@
-data merge entity @s {Tags:["powerBeam"]}
+tag @s add powerBeam
 
 function ssbrc:logic/init/projectile
