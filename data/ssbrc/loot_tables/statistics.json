@@ -29,6 +29,40 @@
 									"italic": false
 								},
 								{
+									"translate": "ssbrc.statistics.highestWinStreak",
+									"color": "gold",
+									"bold": false,
+									"italic": false,
+									"extra": [
+										{
+											"score": {
+												"name": "@s",
+												"objective": "stats.winStreak.record"
+											},
+											"color": "yellow",
+											"bold": false,
+											"italic": false
+										}
+									]
+								},
+								{
+									"translate": "ssbrc.statistics.currentWinStreak",
+									"color": "gold",
+									"bold": false,
+									"italic": false,
+									"extra": [
+										{
+											"score": {
+												"name": "@s",
+												"objective": "stats.winStreak"
+											},
+											"color": "yellow",
+											"bold": false,
+											"italic": false
+										}
+									]
+								},
+								{
 									"translate": "ssbrc.statistics.wins",
 									"color": "gold",
 									"bold": false,
