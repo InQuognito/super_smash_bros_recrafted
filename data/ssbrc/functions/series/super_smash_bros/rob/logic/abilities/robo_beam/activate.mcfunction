@@ -1,16 +1,5 @@
-execute rotated as @s if score @s charge.1 matches ..199 run summon minecraft:marker ^ ^ ^1 {Tags:["roboBeam","small","modifyEntity"]}
-execute rotated as @s if score @s charge.1 matches 200.. run summon minecraft:marker ^ ^ ^1 {Tags:["roboBeam","large","modifyEntity"]}
-
-scoreboard players operation @e[tag=modifyEntity,limit=1] id = @s id
-data modify entity @e[tag=modifyEntity,limit=1] Rotation set from entity @s Rotation
-
-tag @e[tag=modifyEntity,limit=1] remove modifyEntity
+execute positioned ^ ^ ^1 summon minecraft:marker run function ssbrc:series/super_smash_bros/rob/logic/abilities/robo_beam/init
 
 loot replace entity @s weapon.mainhand loot ssbrc:characters/super_smash_bros/rob/robo_beam/depleted
 
-execute if score @s charge.1 matches ..199 run playsound ssbrc:fighters.rob.robo_beam.activate.small player @a
-execute if score @s charge.1 matches 200.. run playsound ssbrc:fighters.rob.robo_beam.large player @a
-
-scoreboard players set @s charge.1 0
-execute if score @s shadow.chaosControl matches 1.. run scoreboard players remove @s charge.1 40
 function ssbrc:logic/characters/armor/update
