@@ -184,111 +184,25 @@
 									"extra": [
 										{
 											"score": {
-												"name": "#kD.integer",
-												"objective": "temp"
+												"name": "@s",
+												"objective": "stats.kD"
 											},
 											"color": "yellow",
 											"bold": false,
 											"italic": false,
 											"extra": [
 												{
-													"translate": ".0",
+													"translate": "%",
 													"color": "yellow",
 													"bold": false,
-													"italic": false,
-													"extra": [
-														{
-															"score": {
-																"name": "#kD.decimal",
-																"objective": "temp"
-															},
-															"color": "yellow",
-															"bold": false,
-															"italic": false
-														}
-													]
+													"italic": false
 												}
 											]
 										}
 									]
 								}
 							],
-							"replace": false,
-							"conditions": [
-								{
-									"condition": "minecraft:value_check",
-									"value": {
-										"type": "minecraft:score",
-										"target": {
-											"type": "minecraft:fixed",
-											"name": "#kD.decimal"
-										},
-										"score": "temp"
-									},
-									"range": {
-										"max": 9
-									}
-								}
-							]
-						},
-						{
-							"function": "minecraft:set_lore",
-							"entity": "this",
-							"lore": [
-								{
-									"translate": "ssbrc.statistics.killDeathRatio",
-									"color": "gold",
-									"bold": false,
-									"italic": false,
-									"extra": [
-										{
-											"score": {
-												"name": "#kD.integer",
-												"objective": "temp"
-											},
-											"color": "yellow",
-											"bold": false,
-											"italic": false,
-											"extra": [
-												{
-													"translate": ".",
-													"color": "yellow",
-													"bold": false,
-													"italic": false,
-													"extra": [
-														{
-															"score": {
-																"name": "#kD.decimal",
-																"objective": "temp"
-															},
-															"color": "yellow",
-															"bold": false,
-															"italic": false
-														}
-													]
-												}
-											]
-										}
-									]
-								}
-							],
-							"replace": false,
-							"conditions": [
-								{
-									"condition": "minecraft:value_check",
-									"value": {
-										"type": "minecraft:score",
-										"target": {
-											"type": "minecraft:fixed",
-											"name": "#kD.decimal"
-										},
-										"score": "temp"
-									},
-									"range": {
-										"min": 10
-									}
-								}
-							]
+							"replace": false
 						},
 						{
 							"function": "minecraft:set_nbt",
