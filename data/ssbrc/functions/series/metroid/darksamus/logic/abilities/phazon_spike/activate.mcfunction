@@ -1,12 +1,12 @@
-function ssbrc:series/metroid/darksamus/logic/abilities/phazon_spike/phazon_pool/summon
-function ssbrc:series/metroid/darksamus/logic/abilities/phazon_spike/phazon_pool/summon
-function ssbrc:series/metroid/darksamus/logic/abilities/phazon_spike/phazon_pool/summon
-function ssbrc:series/metroid/darksamus/logic/abilities/phazon_spike/phazon_pool/summon
-function ssbrc:series/metroid/darksamus/logic/abilities/phazon_spike/phazon_pool/summon
-function ssbrc:series/metroid/darksamus/logic/abilities/phazon_spike/phazon_pool/summon
-function ssbrc:series/metroid/darksamus/logic/abilities/phazon_spike/phazon_pool/summon
-function ssbrc:series/metroid/darksamus/logic/abilities/phazon_spike/phazon_pool/summon
-function ssbrc:series/metroid/darksamus/logic/abilities/phazon_spike/phazon_pool/summon
-function ssbrc:series/metroid/darksamus/logic/abilities/phazon_spike/phazon_pool/summon
-function ssbrc:series/metroid/darksamus/logic/abilities/phazon_spike/phazon_pool/summon
-function ssbrc:series/metroid/darksamus/logic/abilities/phazon_spike/phazon_pool/summon
+execute summon minecraft:marker run function ssbrc:series/metroid/darksamus/logic/abilities/phazon_spike/phazon_pool/init
+execute summon minecraft:marker run function ssbrc:series/metroid/darksamus/logic/abilities/phazon_spike/phazon_pool/init
+execute summon minecraft:marker run function ssbrc:series/metroid/darksamus/logic/abilities/phazon_spike/phazon_pool/init
+execute summon minecraft:marker run function ssbrc:series/metroid/darksamus/logic/abilities/phazon_spike/phazon_pool/init
+execute summon minecraft:marker run function ssbrc:series/metroid/darksamus/logic/abilities/phazon_spike/phazon_pool/init
+execute summon minecraft:marker run function ssbrc:series/metroid/darksamus/logic/abilities/phazon_spike/phazon_pool/init
+execute summon minecraft:marker run function ssbrc:series/metroid/darksamus/logic/abilities/phazon_spike/phazon_pool/init
+execute summon minecraft:marker run function ssbrc:series/metroid/darksamus/logic/abilities/phazon_spike/phazon_pool/init
+execute summon minecraft:marker run function ssbrc:series/metroid/darksamus/logic/abilities/phazon_spike/phazon_pool/init
+execute summon minecraft:marker run function ssbrc:series/metroid/darksamus/logic/abilities/phazon_spike/phazon_pool/init
+execute summon minecraft:marker run function ssbrc:series/metroid/darksamus/logic/abilities/phazon_spike/phazon_pool/init
+execute summon minecraft:marker run function ssbrc:series/metroid/darksamus/logic/abilities/phazon_spike/phazon_pool/init

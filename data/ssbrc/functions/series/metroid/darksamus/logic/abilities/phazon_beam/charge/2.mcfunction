@@ -1,3 +1,3 @@
-summon minecraft:marker ^ ^ ^1 {Tags:["phazonBeam","2","modifyEntity"]}
+data merge entity @s {Tags:["2"]}
 
 playsound ssbrc:fighters.darksamus.phazon_beam.activate.2 player @a

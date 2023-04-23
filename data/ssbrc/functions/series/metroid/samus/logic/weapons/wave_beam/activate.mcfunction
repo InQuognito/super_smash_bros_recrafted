@@ -1,11 +1,4 @@
-summon minecraft:marker ^ ^ ^1 {Tags:["waveBeam","modifyEntity"]}
-
-scoreboard players operation @e[tag=modifyEntity,limit=1] id = @s id
-data modify entity @e[tag=modifyEntity,limit=1] Rotation set from entity @s Rotation
-
-scoreboard players set @e[tag=modifyEntity,limit=1] piercing 0
-
-tag @e[tag=modifyEntity,limit=1] remove modifyEntity
+execute positioned ^ ^ ^1 summon minecraft:marker run function ssbrc:series/metroid/samus/logic/weapons/wave_beam/init
 
 scoreboard players set @s cooldown.1 15
 execute if score @s shadow.chaosControl matches 1.. run function ssbrc:logic/characters/cooldown_modifiers/chaos_control/1

@@ -1,11 +1,13 @@
-function ssbrc:series/metroid/darksamus/logic/abilities/phazon_beam/charge/1
+scoreboard players operation $darksamus.chargeBeamPercent temp = @s charge.output
+scoreboard players operation $darksamus.chargeBeamPercent temp *= 100 integers
+scoreboard players operation $darksamus.chargeBeamPercent temp /= #darksamus.chargeBeamThreshold vars
 
-scoreboard players set @e[tag=modifyEntity,limit=1] charge.1 0
+execute positioned ^ ^ ^1 summon minecraft:marker run function ssbrc:series/metroid/darksamus/logic/abilities/phazon_beam/init
 
-scoreboard players operation @e[tag=modifyEntity,limit=1] id = @s id
-data modify entity @e[tag=modifyEntity,limit=1] Rotation set from entity @s Rotation
-
-tag @e[tag=modifyEntity,limit=1] remove modifyEntity
+execute if score $darksamus.chargeBeamPercent temp matches ..33 run function ssbrc:series/metroid/darksamus/logic/abilities/phazon_beam/charge/1
+execute if score $darksamus.chargeBeamPercent temp matches 34..66 run function ssbrc:series/metroid/darksamus/logic/abilities/phazon_beam/charge/2
+execute if score $darksamus.chargeBeamPercent temp matches 67..99 run function ssbrc:series/metroid/darksamus/logic/abilities/phazon_beam/charge/3
+execute if score $darksamus.chargeBeamPercent temp matches 100.. run function ssbrc:series/metroid/darksamus/logic/abilities/phazon_beam/charge/4
 
 item modify entity @s weapon.mainhand ssbrc:characters/darksamus/phazon_beam
 
