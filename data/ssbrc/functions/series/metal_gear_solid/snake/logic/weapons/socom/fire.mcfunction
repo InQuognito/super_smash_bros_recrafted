@@ -1,4 +1,4 @@
-function ssbrc:series/metal_gear_solid/snake/logic/weapons/socom/projectile_rotation
+function ssbrc:series/metal_gear_solid/snake/logic/weapons/socom/init/offset
 
 execute at @s run playsound ssbrc:generic_fire player @a
 

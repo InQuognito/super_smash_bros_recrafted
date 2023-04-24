@@ -1,16 +1,9 @@
 execute positioned 0.0 0.0 0.0 run summon minecraft:marker ^ ^ ^0.5 {Tags:["direction"]}
 
-execute if entity @s[tag=!bloodMetamorphosis] run summon minecraft:snowball ^ ^ ^0.5 {Tags:["modifyVehicle"],Item:{id:"minecraft:air"},Passengers:[{id:"minecraft:armor_stand",Tags:["holyWater.display","modifyDisplay"],Invisible:1b,Small:1b,DisabledSlots:4144959,Passengers:[{id:"minecraft:area_effect_cloud",Tags:["holyWater","modifyEntity"],Age:-2147483648,Duration:-1,WaitTime:-2147483648}]}]}
-execute if entity @s[tag=bloodMetamorphosis] run summon minecraft:snowball ^ ^ ^0.5 {Tags:["modifyVehicle"],Item:{id:"minecraft:air"},Passengers:[{id:"minecraft:armor_stand",Tags:["holyWater.display","modifyDisplay"],Invisible:1b,Small:1b,DisabledSlots:4144959,Passengers:[{id:"minecraft:area_effect_cloud",Tags:["holyWater","large","modifyEntity"],Age:-2147483648,Duration:-1,WaitTime:-2147483648}]}]}
-loot replace entity @e[tag=modifyDisplay,limit=1] armor.head loot ssbrc:characters/castlevania/alucard/holy_water
+execute positioned ^ ^ ^1 summon minecraft:snowball run function ssbrc:series/castlevania/alucard/logic/abilities/holy_water/init/vehicle
+execute positioned ^ ^ ^1 summon minecraft:armor_stand run function ssbrc:series/castlevania/alucard/logic/abilities/holy_water/init/display
+execute positioned ^ ^ ^1 summon minecraft:area_effect_cloud run function ssbrc:series/castlevania/alucard/logic/abilities/holy_water/init/projectile
 
-scoreboard players operation @e[tag=modifyEntity,limit=1] id = @s id
-scoreboard players operation @e[tag=modifyDisplay,limit=1] id = @s id
-data modify entity @e[tag=modifyVehicle,limit=1] Motion set from entity @e[type=minecraft:marker,tag=direction,sort=nearest,limit=1] Pos
-
-tag @e[tag=modifyEntity,limit=1] remove modifyEntity
-tag @e[tag=modifyDisplay,limit=1] remove modifyDisplay
-tag @e[tag=modifyVehicle,limit=1] remove modifyVehicle
 kill @e[type=minecraft:marker,tag=direction,sort=nearest,limit=1]
 
 tag @s remove bloodMetamorphosis

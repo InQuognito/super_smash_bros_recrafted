@@ -1,11 +1,11 @@
-function ssbrc:series/kingdom_hearts/sora/logic/abilities/blizzaga/projectile_rotation
-function ssbrc:series/kingdom_hearts/sora/logic/abilities/blizzaga/projectile_rotation
-function ssbrc:series/kingdom_hearts/sora/logic/abilities/blizzaga/projectile_rotation
-function ssbrc:series/kingdom_hearts/sora/logic/abilities/blizzaga/projectile_rotation
-function ssbrc:series/kingdom_hearts/sora/logic/abilities/blizzaga/projectile_rotation
-function ssbrc:series/kingdom_hearts/sora/logic/abilities/blizzaga/projectile_rotation
-function ssbrc:series/kingdom_hearts/sora/logic/abilities/blizzaga/projectile_rotation
-function ssbrc:series/kingdom_hearts/sora/logic/abilities/blizzaga/projectile_rotation
+execute summon minecraft:marker run function ssbrc:series/kingdom_hearts/sora/logic/abilities/blizzaga/init/offset
+execute summon minecraft:marker run function ssbrc:series/kingdom_hearts/sora/logic/abilities/blizzaga/init/offset
+execute summon minecraft:marker run function ssbrc:series/kingdom_hearts/sora/logic/abilities/blizzaga/init/offset
+execute summon minecraft:marker run function ssbrc:series/kingdom_hearts/sora/logic/abilities/blizzaga/init/offset
+execute summon minecraft:marker run function ssbrc:series/kingdom_hearts/sora/logic/abilities/blizzaga/init/offset
+execute summon minecraft:marker run function ssbrc:series/kingdom_hearts/sora/logic/abilities/blizzaga/init/offset
+execute summon minecraft:marker run function ssbrc:series/kingdom_hearts/sora/logic/abilities/blizzaga/init/offset
+execute summon minecraft:marker run function ssbrc:series/kingdom_hearts/sora/logic/abilities/blizzaga/init/offset
 
 scoreboard players operation @s mana -= #sora.blizzagaMPCost vars
 
