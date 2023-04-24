@@ -1,13 +1,8 @@
 execute positioned 0.0 0.0 0.0 run summon minecraft:marker ^ ^ ^0.4 {Tags:["direction"]}
 
-summon minecraft:armor_stand ^ ^ ^1 {Tags:["antiPersonnelMine","modifyEntity"],Invisible:1b,Small:1b,DisabledSlots:4144959}
-loot replace entity @e[tag=modifyEntity,limit=1] armor.head loot ssbrc:characters/metal_gear_solid/snake/anti_personnel_mine/inactive
+execute positioned ^ ^ ^1 summon minecraft:armor_stand run function ssbrc:series/metal_gear_solid/snake/logic/weapons/anti_personnel_mine/init
 
-scoreboard players operation @e[tag=modifyEntity,limit=1] id = @s id
-data modify entity @e[tag=modifyEntity,limit=1] Motion set from entity @e[tag=direction,limit=1] Pos
-
-tag @e[tag=modifyEntity,limit=1] remove modifyEntity
-kill @e[tag=direction,limit=1]
+kill @e[type=minecraft:marker,tag=direction,sort=nearest,limit=1]
 
 scoreboard players remove @s snake.antiPersonnelMineA 1
 

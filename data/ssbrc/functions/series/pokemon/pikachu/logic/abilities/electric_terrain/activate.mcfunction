@@ -1,8 +1,4 @@
-summon minecraft:marker ~ ~ ~ {Tags:["electricTerrain","modifyEntity"]}
-
-scoreboard players operation @e[tag=modifyEntity,limit=1] id = @s id
-
-tag @e[tag=modifyEntity,limit=1] remove modifyEntity
+execute summon minecraft:marker run function ssbrc:series/pokemon/pikachu/logic/abilities/electric_terrain/init
 
 clear @s minecraft:carrot_on_a_stick{electricTerrain:1} 1
 

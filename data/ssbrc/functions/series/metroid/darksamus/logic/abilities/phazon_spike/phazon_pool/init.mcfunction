@@ -1,6 +1,6 @@
 tag @s add phazonPool
 
-scoreboard players operation @s id = @p[tag=self] id
+function ssbrc:logic/init/id
 
 execute store result score #phazonPoolPosX temp run data get entity @s Pos[0]
 execute store result score #phazonPoolPosZ temp run data get entity @s Pos[2]

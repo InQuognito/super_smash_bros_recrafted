@@ -1,6 +1,7 @@
 execute as @e[type=minecraft:marker,tag=thunderJolt] if score @s id = @p[tag=self] id run tag @s add checkAgainst
-execute store result score #thunderJolt temp if entity @e[type=minecraft:marker,tag=checkAgainst]
-tag @e remove checkAgainst
+execute store result score thunderJolt temp if entity @e[type=minecraft:marker,tag=checkAgainst]
+tag @e[type=minecraft:marker,tag=thunderJolt,tag=checkAgainst] remove checkAgainst
 
-execute unless entity @e[type=minecraft:marker,tag=electricTerrain,distance=..12] unless score #thunderJolt temp matches 2.. run function ssbrc:series/pokemon/pikachu/logic/abilities/thunder_jolt/activate
-execute if entity @e[type=minecraft:marker,tag=electricTerrain,distance=..12] unless score #thunderJolt temp matches 3.. run function ssbrc:series/pokemon/pikachu/logic/abilities/thunder_jolt/activate
+scoreboard players set pikachu.thunderJoltLimit vars 2
+execute if entity @e[type=minecraft:marker,tag=electricTerrain,distance=..12] run scoreboard players add pikachu.thunderJoltLimit vars 1
+execute if score thunderJolt temp < pikachu.thunderJoltLimit vars run function ssbrc:series/pokemon/pikachu/logic/abilities/thunder_jolt/activate

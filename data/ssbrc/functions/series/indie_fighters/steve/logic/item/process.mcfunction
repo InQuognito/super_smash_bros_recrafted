@@ -5,6 +5,6 @@ team join darkGray @s[nbt={Item:{id:"minecraft:netherite_ingot"}}]
 
 data merge entity @s {Glowing:1b}
 
-scoreboard players operation @s id = @p[tag=self] id
+function ssbrc:logic/init/id
 
 tag @s add processed

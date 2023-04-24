@@ -1,7 +1,4 @@
-summon minecraft:armor_stand ~ ~5 ~ {Tags:["iceBlock","modifyEntity"],ArmorItems:[{},{},{},{id:"minecraft:blue_ice",Count:1b,tag:{CustomModelData:1}}],Invisible:1b,DisabledSlots:4144959}
-
-scoreboard players operation @e[tag=modifyEntity,limit=1] id = @s id
-tag @e[tag=modifyEntity,limit=1] remove modifyEntity
+execute positioned ~ ~5 ~ summon minecraft:armor_stand run function ssbrc:series/the_legend_of_zelda/zelda/logic/abilities/ice_rod/alternate_function/init
 
 scoreboard players operation @s mana -= #iceRodMagicCost temp
 

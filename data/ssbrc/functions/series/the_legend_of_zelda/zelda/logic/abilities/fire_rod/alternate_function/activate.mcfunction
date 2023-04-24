@@ -1,11 +1,4 @@
-summon minecraft:area_effect_cloud ^ ^ ^1 {Tags:["fireRod","modifyEntity"],Duration:80}
-
-scoreboard players operation @e[tag=modifyEntity,limit=1] id = @s id
-data modify entity @e[tag=modifyEntity,limit=1] Rotation set from entity @s Rotation
-data modify entity @e[tag=modifyEntity,limit=1] Rotation[1] set value 15.0f
-data modify entity @e[tag=modifyEntity,limit=1] Owner set from entity @s UUID
-
-tag @e[tag=modifyEntity,limit=1] remove modifyEntity
+execute positioned ^ ^ ^1 summon minecraft:area_effect_cloud run function ssbrc:series/the_legend_of_zelda/zelda/logic/abilities/fire_rod/alternate_function/init
 
 scoreboard players operation @s mana -= #fireRodMagicCost temp
 

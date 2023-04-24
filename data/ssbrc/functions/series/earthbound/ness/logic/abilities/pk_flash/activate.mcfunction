@@ -1,8 +1,4 @@
-summon minecraft:marker ~ ~2.5 ~ {Tags:["pkFlash","modifyEntity"]}
-
-scoreboard players operation @e[tag=modifyEntity,limit=1] id = @s id
-
-tag @e[tag=modifyEntity,limit=1] remove modifyEntity
+execute positioned ~ ~2.5 ~ summon minecraft:marker run function ssbrc:series/earthbound/ness/logic/abilities/pk_flash/init
 
 scoreboard players set @s cooldown.2 9999
 scoreboard players set @s cooldown.3 1

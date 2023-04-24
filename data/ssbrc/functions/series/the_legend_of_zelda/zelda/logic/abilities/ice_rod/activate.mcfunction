@@ -1,9 +1,4 @@
-summon minecraft:marker ^ ^ ^1 {Tags:["iceRod","modifyEntity"]}
-
-scoreboard players operation @e[tag=modifyEntity,limit=1] id = @s id
-data modify entity @e[tag=modifyEntity,limit=1] Rotation set from entity @s Rotation
-
-tag @e[tag=modifyEntity,limit=1] remove modifyEntity
+execute positioned ^ ^ ^1 summon minecraft:marker run function ssbrc:series/the_legend_of_zelda/zelda/logic/abilities/ice_rod/init
 
 scoreboard players operation @s mana -= #iceRodMagicCost temp
 

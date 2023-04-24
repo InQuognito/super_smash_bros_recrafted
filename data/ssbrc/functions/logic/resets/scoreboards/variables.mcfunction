@@ -48,6 +48,8 @@ scoreboard players set #mario.fireballMaxRotation vars 160
 scoreboard players set #mario.superJumpThreshold vars 10
 scoreboard players set #mario.superJumpMovementFalloff vars 200
 
+scoreboard players set #megaman.megaBusterLimit vars 3
+
 scoreboard players set #pikachu.thunderJoltMaxRotation vars 160
 
 scoreboard players set #rob.maxCharge vars 200

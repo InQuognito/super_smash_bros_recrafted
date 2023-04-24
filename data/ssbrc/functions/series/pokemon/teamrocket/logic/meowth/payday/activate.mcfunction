@@ -6,11 +6,11 @@ scoreboard players operation @e[tag=modifyEntity,limit=1] id = @s id
 
 scoreboard players operation @e[tag=modifyVehicle,limit=1] id = @s id
 data modify entity @e[tag=modifyVehicle,limit=1] Rotation[0] set from entity @s Rotation[0]
-data modify entity @e[tag=modifyVehicle,limit=1] Motion set from entity @e[tag=direction,limit=1] Pos
+data modify entity @e[tag=modifyVehicle,limit=1] Motion set from entity @e[type=minecraft:marker,tag=direction,sort=nearest,limit=1] Pos
 
 tag @e[tag=modifyEntity,limit=1] remove modifyEntity
-tag @e[tag=modifyVehicle] remove modifyVehicle
-kill @e[tag=direction,limit=1]
+tag @e[type=minecraft:snowball,tag=modifyVehicle,sort=nearest,limit=1] remove modifyVehicle
+kill @e[type=minecraft:marker,tag=direction,sort=nearest,limit=1]
 
 scoreboard players set @s cooldown.2 200
 execute if score @s shadow.chaosControl matches 1.. run function ssbrc:logic/characters/cooldown_modifiers/chaos_control/2

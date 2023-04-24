@@ -16,10 +16,10 @@ execute store result entity @e[tag=modifyEntity,limit=1] Rotation[1] float 1.0 r
 
 scoreboard players operation @e[tag=modifyEntity,limit=1] id = @s id
 data modify entity @e[tag=modifyEntity,limit=1] Owner set from entity @s UUID
-data modify entity @e[tag=modifyEntity,limit=1] Motion set from entity @e[tag=direction,limit=1] Pos
+data modify entity @e[tag=modifyEntity,limit=1] Motion set from entity @e[type=minecraft:marker,tag=direction,sort=nearest,limit=1] Pos
 
 tag @e[tag=modifyEntity,limit=1] remove modifyEntity
-kill @e[tag=direction,limit=1]
+kill @e[type=minecraft:marker,tag=direction,sort=nearest,limit=1]
 
 scoreboard players remove @s joker.tt33A 1
 scoreboard players set @s joker.tt33F 5

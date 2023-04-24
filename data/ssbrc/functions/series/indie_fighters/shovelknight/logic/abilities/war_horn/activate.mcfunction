@@ -1,8 +1,4 @@
-summon minecraft:marker ~ ~0.75 ~ {Tags:["warHorn","modifyEntity"]}
-
-scoreboard players operation @e[tag=modifyEntity,limit=1] id = @s id
-
-tag @e[tag=modifyEntity,limit=1] remove modifyEntity
+execute positioned ~ ~0.75 ~ summon minecraft:marker run function ssbrc:series/indie_fighters/shovelknight/logic/abilities/war_horn/init
 
 function ssbrc:logic/characters/effects/mobility/immobilize
 

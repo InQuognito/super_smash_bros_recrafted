@@ -1,9 +1,4 @@
-summon minecraft:marker ~ ~0.5 ~ {Tags:["shadowSneak","modifyEntity"]}
-
-scoreboard players operation @e[tag=modifyEntity,limit=1] id = @s id
-data modify entity @e[tag=modifyEntity,limit=1] Rotation[0] set from entity @s Rotation[0]
-
-tag @e[tag=modifyEntity,limit=1] remove modifyEntity
+execute positioned ~ ~0.5 ~ summon minecraft:marker run function ssbrc:series/pokemon/greninja/logic/abilities/shadow_sneak/init
 
 tag @s add shadowSneak
 

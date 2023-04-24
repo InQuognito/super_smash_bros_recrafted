@@ -1,9 +1,4 @@
-summon minecraft:marker ~ ~ ~ {Tags:["thundaga","marker","modifyEntity"]}
-
-scoreboard players operation @e[tag=modifyEntity,limit=1] id = @s id
-data modify entity @e[tag=modifyEntity,limit=1] Rotation[0] set from entity @s Rotation[0]
-
-tag @e[tag=modifyEntity,limit=1] remove modifyEntity
+execute summon minecraft:marker run function ssbrc:series/kingdom_hearts/sora/logic/abilities/thundaga/init
 
 scoreboard players operation @s mana -= #sora.thundagaMPCost vars
 

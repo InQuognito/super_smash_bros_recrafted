@@ -1,12 +1,4 @@
-summon minecraft:marker ^ ^ ^1 {Tags:["chaosSphere","modifyEntity"]}
-
-scoreboard players operation @e[tag=modifyEntity,limit=1] id = @s id
-data modify entity @e[tag=modifyEntity,limit=1] Rotation[0] set from entity @s Rotation[0]
-
-scoreboard players set @e[tag=modifyEntity] point 60
-scoreboard players set @e[tag=modifyEntity] slope 0
-
-tag @e[tag=modifyEntity,limit=1] remove modifyEntity
+execute positioned ^ ^ ^1 summon minecraft:marker run function ssbrc:series/indie_fighters/shovelknight/logic/abilities/chaos_sphere/init
 
 scoreboard players operation @s mana -= #shovelknight.chaosSphereManaCost vars
 

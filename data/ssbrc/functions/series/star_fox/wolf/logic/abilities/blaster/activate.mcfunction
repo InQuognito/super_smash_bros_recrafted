@@ -1,13 +1,4 @@
-summon minecraft:marker ^ ^ ^0.5 {Tags:["wolf.blaster","modifyEntity"]}
-
-execute if entity @s[tag=default] run tag @e[tag=modifyEntity,limit=1] add purple
-execute if entity @s[tag=gold] run tag @e[tag=modifyEntity,limit=1] add gold
-execute if entity @s[tag=assault] run tag @e[tag=modifyEntity,limit=1] add green
-
-scoreboard players operation @e[tag=modifyEntity,limit=1] id = @s id
-data modify entity @e[tag=modifyEntity,limit=1] Rotation set from entity @s Rotation
-
-tag @e[tag=modifyEntity,limit=1] remove modifyEntity
+execute positioned ^ ^ ^1 summon minecraft:marker run function ssbrc:series/star_fox/wolf/logic/abilities/blaster/init
 
 scoreboard players set @s cooldown.1 40
 execute if score @s shadow.chaosControl matches 1.. run function ssbrc:logic/characters/cooldown_modifiers/chaos_control/1

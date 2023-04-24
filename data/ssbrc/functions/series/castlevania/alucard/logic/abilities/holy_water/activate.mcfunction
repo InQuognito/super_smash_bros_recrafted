@@ -6,12 +6,12 @@ loot replace entity @e[tag=modifyDisplay,limit=1] armor.head loot ssbrc:characte
 
 scoreboard players operation @e[tag=modifyEntity,limit=1] id = @s id
 scoreboard players operation @e[tag=modifyDisplay,limit=1] id = @s id
-data modify entity @e[tag=modifyVehicle,limit=1] Motion set from entity @e[tag=direction,limit=1] Pos
+data modify entity @e[tag=modifyVehicle,limit=1] Motion set from entity @e[type=minecraft:marker,tag=direction,sort=nearest,limit=1] Pos
 
 tag @e[tag=modifyEntity,limit=1] remove modifyEntity
 tag @e[tag=modifyDisplay,limit=1] remove modifyDisplay
 tag @e[tag=modifyVehicle,limit=1] remove modifyVehicle
-kill @e[tag=direction,limit=1]
+kill @e[type=minecraft:marker,tag=direction,sort=nearest,limit=1]
 
 tag @s remove bloodMetamorphosis
 function ssbrc:logic/characters/armor/update

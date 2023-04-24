@@ -1,8 +1,4 @@
-summon minecraft:item_display ~ ~-0.4 ~ {Tags:["hama.display","modifyEntity"],item:{id:"minecraft:glowstone_dust",tag:{CustomModelData:600},Count:1b},transformation:[3.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,3.0f,0.0f,0.0f,0.0f,0.0f,0.0f,1.0f]}
-
-scoreboard players operation @e[tag=modifyEntity,limit=1] id = @s id
-
-tag @e[tag=modifyEntity,limit=1] remove modifyEntity
+execute positioned ~ ~-0.4 ~ summon minecraft:item_display run function ssbrc:series/persona/joker/logic/abilities/hama/init/sigil
 
 tag @s add active
 

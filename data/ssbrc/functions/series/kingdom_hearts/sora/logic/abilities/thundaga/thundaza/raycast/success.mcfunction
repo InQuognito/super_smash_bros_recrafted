@@ -1,8 +1,4 @@
-summon minecraft:marker ~ ~ ~ {Tags:["thundaza","marker","modifyEntity"]}
-
-scoreboard players operation @e[tag=modifyEntity,limit=1] id = @s id
-
-tag @e[tag=modifyEntity,limit=1] remove modifyEntity
+execute summon minecraft:marker run function ssbrc:series/kingdom_hearts/sora/logic/abilities/thundaga/thundaza/init
 
 scoreboard players operation @s mana -= #sora.thundazaMPCost vars
 
