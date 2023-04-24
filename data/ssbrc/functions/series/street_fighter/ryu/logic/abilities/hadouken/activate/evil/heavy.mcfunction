@@ -7,3 +7,5 @@ tag @e[tag=modifyEntity,limit=1] remove modifyEntity
 
 scoreboard players set @s cooldown.1 20
 execute if score @s shadow.chaosControl matches 1.. run function ssbrc:logic/characters/cooldown_modifiers/chaos_control/1
+
+playsound ssbrc:fighters.ryu.hadouken.activate.strong player @a

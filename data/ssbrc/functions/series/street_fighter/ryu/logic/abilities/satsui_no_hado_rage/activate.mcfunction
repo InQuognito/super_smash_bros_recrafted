@@ -12,4 +12,4 @@ function ssbrc:logic/characters/armor/update
 
 tag @s add abilityUsed
 
-execute at @s run playsound minecraft:entity.ender_dragon.growl player @a
+execute at @s run playsound ssbrc:fighters.ryu.satsui_no_hado_rage.activate player @a

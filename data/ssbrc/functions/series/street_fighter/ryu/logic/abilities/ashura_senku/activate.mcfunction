@@ -12,3 +12,5 @@ tag @e[tag=modifyEntity,limit=1] remove modifyEntity
 effect give @s minecraft:levitation infinite 0 true
 
 scoreboard players set @s duration.2 15
+
+playsound ssbrc:fighters.ryu.ashura_senku.activate player @a
