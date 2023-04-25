@@ -1,11 +1,11 @@
-function ssbrc:series/metal_gear_solid/snake/logic/weapons/s1000/init/offset
-function ssbrc:series/metal_gear_solid/snake/logic/weapons/s1000/init/offset
-function ssbrc:series/metal_gear_solid/snake/logic/weapons/s1000/init/offset
-function ssbrc:series/metal_gear_solid/snake/logic/weapons/s1000/init/offset
-function ssbrc:series/metal_gear_solid/snake/logic/weapons/s1000/init/offset
-function ssbrc:series/metal_gear_solid/snake/logic/weapons/s1000/init/offset
-function ssbrc:series/metal_gear_solid/snake/logic/weapons/s1000/init/offset
-function ssbrc:series/metal_gear_solid/snake/logic/weapons/s1000/init/offset
+execute summon minecraft:marker run function ssbrc:series/metal_gear_solid/snake/logic/weapons/s1000/init/offset
+execute summon minecraft:marker run function ssbrc:series/metal_gear_solid/snake/logic/weapons/s1000/init/offset
+execute summon minecraft:marker run function ssbrc:series/metal_gear_solid/snake/logic/weapons/s1000/init/offset
+execute summon minecraft:marker run function ssbrc:series/metal_gear_solid/snake/logic/weapons/s1000/init/offset
+execute summon minecraft:marker run function ssbrc:series/metal_gear_solid/snake/logic/weapons/s1000/init/offset
+execute summon minecraft:marker run function ssbrc:series/metal_gear_solid/snake/logic/weapons/s1000/init/offset
+execute summon minecraft:marker run function ssbrc:series/metal_gear_solid/snake/logic/weapons/s1000/init/offset
+execute summon minecraft:marker run function ssbrc:series/metal_gear_solid/snake/logic/weapons/s1000/init/offset
 
 execute at @s run playsound ssbrc:shotgun_fire player @a
 

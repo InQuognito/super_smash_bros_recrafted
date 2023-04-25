@@ -1,9 +1,4 @@
-summon minecraft:marker ^ ^-0.75 ^0.5 {Tags:["pkBeam","modifyEntity"]}
-
-scoreboard players operation @e[tag=modifyEntity,limit=1] id = @s id
-data modify entity @e[tag=modifyEntity,limit=1] Rotation set from entity @s Rotation
-
-tag @e[tag=modifyEntity,limit=1] remove modifyEntity
+execute positioned ^ ^-0.75 ^0.5 summon minecraft:marker run function ssbrc:series/earthbound/giegue/logic/abilities/pk_beam/init
 
 scoreboard players set @s charge.1 0
 

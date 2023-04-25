@@ -1,4 +1,4 @@
-function ssbrc:series/metal_gear_solid/snake/logic/weapons/famas/init/offset
+execute summon minecraft:marker run function ssbrc:series/metal_gear_solid/snake/logic/weapons/famas/init/offset
 
 execute at @s run playsound ssbrc:generic_fire player @a
 
