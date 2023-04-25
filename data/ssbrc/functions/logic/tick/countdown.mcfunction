@@ -1,3 +1,3 @@
 function ssbrc:logic/tick/maps/before_start
 
-execute as @a[predicate=ssbrc:ingame] at @s at @e[type=minecraft:marker,tag=spawnpoint,sort=nearest,limit=1] run function ssbrc:logic/tick/lobby/teleport_to_spawnpoints
+execute as @a[predicate=ssbrc:flag/targets] at @s at @e[type=minecraft:marker,tag=spawnpoint,sort=nearest,limit=1] run function ssbrc:logic/tick/lobby/teleport_to_spawnpoints
