@@ -18,6 +18,7 @@ scoreboard players reset @s frostbiteTimer
 
 tag @s remove angelFeather
 tag @s remove immobile
+tag @s remove tornado.spin
 
 # Kill objects belonging to dead player
 tag @s add self
