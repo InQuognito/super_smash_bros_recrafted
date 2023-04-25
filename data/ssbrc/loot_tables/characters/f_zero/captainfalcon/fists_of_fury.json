@@ -54,6 +54,12 @@
 											"italic": false
 										}
 									]
+								},
+								{
+									"translate": "ssbrc.tooltips.captainfalcon.fistsOfFury.description.2",
+									"color": "gray",
+									"bold": false,
+									"italic": false
 								}
 							],
 							"replace": true
