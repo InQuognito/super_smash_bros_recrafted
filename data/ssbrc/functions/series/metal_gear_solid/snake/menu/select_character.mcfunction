@@ -6,10 +6,13 @@ tellraw @s[tag=!blindPick,tag=default] [{"translate":"ssbrc.fighters.menu.skin",
 tellraw @s[tag=!blindPick,tag=gold] [{"translate":"ssbrc.fighters.menu.skin","color":"white"},{"translate":"ssbrc.fighters.skin.gold","color":"gold"}]
 tellraw @s[tag=!blindPick,tag=iroquoisPliskin] [{"translate":"ssbrc.fighters.menu.skin","color":"white"},{"translate":"ssbrc.fighters.snake.skin.iroquoisPliskin","color":"dark_green"}]
 
+tag @s remove blindPick
+tag @s remove ignoreFeedback
+
+tag @s remove selectingLoadout.snake
+
 tag @s add snake
 
-tag @s remove blindPick
-tag @s remove selectingLoadout.snake
 tag @s add characterPicked
 
 execute if score $teams options matches 0 run team join ready @s

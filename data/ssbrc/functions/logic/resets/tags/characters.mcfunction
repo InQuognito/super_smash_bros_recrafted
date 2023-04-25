@@ -44,6 +44,7 @@ tag @s remove checkDeath
 tag @s remove checkKill
 tag @s remove checkShockwave
 tag @s remove hasShield
+tag @s remove ignoreFeedback
 tag @s remove immobile
 tag @s remove naturalShiny
 tag @s remove nextFighterChosen
