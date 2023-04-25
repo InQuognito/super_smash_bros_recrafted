@@ -1,3 +1,5 @@
+gamemode spectator @a[team=spectator]
+
 summon minecraft:text_display ~ ~ ~ {Tags:["voteCounter","acropolisGraveyard"],billboard:center}
 summon minecraft:text_display ~ ~ ~ {Tags:["voteCounter","battlefield"],billboard:center}
 summon minecraft:text_display ~ ~ ~ {Tags:["voteCounter","bigBattlefield"],billboard:center}
