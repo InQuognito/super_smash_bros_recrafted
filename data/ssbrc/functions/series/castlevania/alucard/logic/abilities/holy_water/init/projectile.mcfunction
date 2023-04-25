@@ -6,4 +6,4 @@ data merge entity @s {Duration:200}
 
 function ssbrc:logic/init/id
 
-ride @e[type=minecraft:armor_stand,tag=holyWater.display,sort=nearest,limit=1] mount @s
+ride @s mount @e[type=minecraft:armor_stand,tag=holyWater.display,sort=nearest,limit=1]
