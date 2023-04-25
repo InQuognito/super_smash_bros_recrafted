@@ -1,4 +1,4 @@
-gamemode spectator @a[team=spectator]
+execute as @a[predicate=ssbrc:ingame] run function ssbrc:logic/pre_game/character_select/leave
 
 summon minecraft:text_display ~ ~ ~ {Tags:["voteCounter","acropolisGraveyard"],billboard:center}
 summon minecraft:text_display ~ ~ ~ {Tags:["voteCounter","battlefield"],billboard:center}
