@@ -1,7 +1,5 @@
 tag @s add eiagon
 
-data merge entity @s {Duration:80}
-
 data modify entity @s Rotation[1] set value 15.0f
 
-function ssbrc:logic/init/entity/projectile_horizontal
+function ssbrc:logic/init/projectile_horizontal
