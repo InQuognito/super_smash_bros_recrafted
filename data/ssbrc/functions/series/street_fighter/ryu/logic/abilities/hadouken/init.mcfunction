@@ -1,7 +1,7 @@
 tag @s add hadouken
 
 execute if score @p[tag=self] duration.1 matches 2.. run tag @s add evil
-execute if score @p[tag=self] charge.output matches 6.. run tag @s add heavy
+execute if score @p[tag=self] charge.output matches 12.. run tag @s add heavy
 
 tag @s[tag=!evil,tag=heavy] add effect.wither
 
