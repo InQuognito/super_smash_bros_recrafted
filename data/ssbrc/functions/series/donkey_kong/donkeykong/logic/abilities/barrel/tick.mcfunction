@@ -6,7 +6,7 @@ execute if score @s point < #donkeykong.barrelMaxRotation vars run scoreboard pl
 execute if score @s point > #donkeykong.barrelMaxRotation vars run scoreboard players operation @s point = #donkeykong.barrelMaxRotation vars
 execute if score @s point < #donkeykong.barrelMaxRotation vars run scoreboard players remove @s slope 20
 
-execute if score @s point > 0 integers unless block ~ ~-0.6 ~ #ssbrc:passthrough run function ssbrc:series/donkey_kong/donkeykong/logic/abilities/barrel/bounce
+execute if score @s point > 0 integers unless block ~ ~-0.1 ~ #ssbrc:passthrough run function ssbrc:series/donkey_kong/donkeykong/logic/abilities/barrel/bounce
 
 execute rotated as @s run teleport @s ^ ^ ^0.25
 

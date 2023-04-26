@@ -1,5 +1,7 @@
-summon minecraft:armor_stand ~ ~0.5 ~ {Tags:["movementEntity","modifyEntity"],Motion:[0.0d,1.0d,0.0d],Invisible:1b,Invulnerable:1b,Small:1b,DisabledSlots:4144959}
+tag @s add movementEntity
 
-ride @s mount @e[tag=modifyEntity,limit=1]
+data merge entity @s {Motion:[0.0d,1.0d,0.0d],Small:1b}
 
-tag @e[tag=modifyEntity,limit=1] remove modifyEntity
+function ssbrc:logic/init/armor_stand/data
+
+ride @p[tag=self] mount @s

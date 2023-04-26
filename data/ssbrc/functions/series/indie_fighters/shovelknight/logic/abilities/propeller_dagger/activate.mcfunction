@@ -6,7 +6,7 @@ scoreboard players set @s duration.2 10
 
 effect give @s minecraft:levitation infinite 0 true
 
-particle minecraft:cloud ~ ~0.75 ~ 0.3 0.3 0.3 0.0 15 normal @a
+particle minecraft:poof ~ ~0.75 ~ 0.2 0.4 0.2 0.01 25 normal @a
 
 scoreboard players set @s cooldown.2 60
 execute if score @s shadow.chaosControl matches 1.. run function ssbrc:logic/characters/cooldown_modifiers/chaos_control/2
