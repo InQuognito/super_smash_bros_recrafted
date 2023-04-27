@@ -48,7 +48,7 @@ function ssbrc:logic/start_hazards
 
 scoreboard players reset @a fallDistance
 
-tag @e[tag=tpDest] remove tpDest
+tag @e[type=minecraft:marker,tag=tpDest] remove tpDest
 
 execute if score $gameMode options matches 2 run scoreboard players operation $gameTime timer = $timeLimit options
 execute if score $gameMode options matches 2 store result bossbar minecraft:timer value run scoreboard players get $gameTime timer
