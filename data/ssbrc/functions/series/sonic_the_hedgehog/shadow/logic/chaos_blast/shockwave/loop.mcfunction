@@ -1,5 +1,3 @@
-tag @s remove chaosBlast
-
 execute positioned 0.0 0.0 0.0 run summon minecraft:marker ^ ^ ^1 {Tags:["direction"]}
 
 execute positioned ^ ^ ^1 summon minecraft:arrow run function ssbrc:series/sonic_the_hedgehog/shadow/logic/chaos_blast/shockwave/init
