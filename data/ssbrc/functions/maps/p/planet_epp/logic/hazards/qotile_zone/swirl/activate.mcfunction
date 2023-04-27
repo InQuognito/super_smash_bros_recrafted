@@ -1,5 +1,5 @@
-summon minecraft:area_effect_cloud ^ ^ ^ {Tags:["swirl","modifyEntity"],Duration:600}
+tag @s add swirl
 
-execute as @e[tag=modifyEntity,limit=1] at @s run function ssbrc:maps/p/planet_epp/logic/hazards/qotile_zone/swirl/orient/check
+data merge entity @s {Duration:600}
 
-tag @e[tag=modifyEntity,limit=1] remove modifyEntity
+function ssbrc:maps/p/planet_epp/logic/hazards/qotile_zone/swirl/orient/check

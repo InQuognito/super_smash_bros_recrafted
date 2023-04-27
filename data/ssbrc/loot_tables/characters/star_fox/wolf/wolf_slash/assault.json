@@ -12,8 +12,8 @@
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"translate": "ssbrc.tooltips.captainfalcon.fistsOfFury",
-								"color": "white",
+								"translate": "ssbrc.tooltips.wolf.wolfSlash",
+								"color": "light_purple",
 								"bold": true,
 								"italic": false
 							}
@@ -23,13 +23,13 @@
 							"entity": "this",
 							"lore": [
 								{
-									"translate": "--------------",
+									"translate": "-----------",
 									"color": "gray",
 									"bold": false,
 									"italic": false
 								},
 								{
-									"translate": "ssbrc.tooltips.weapon.melee",
+									"translate": "ssbrc.tooltips.weapon.hybrid",
 									"color": "white",
 									"bold": false,
 									"italic": false,
@@ -42,13 +42,25 @@
 									"italic": false,
 									"extra": [
 										{
+											"keybind": "key.sneak",
+											"color": "gray",
+											"bold": false,
+											"italic": false
+										},
+										{
+											"translate": "] + [",
+											"color": "gray",
+											"bold": false,
+											"italic": false
+										},
+										{
 											"keybind": "key.use",
 											"color": "gray",
 											"bold": false,
 											"italic": false
 										},
 										{
-											"translate": "ssbrc.tooltips.captainfalcon.fistsOfFury.description.1",
+											"translate": "ssbrc.tooltips.wolf.wolfSlash.description.1",
 											"color": "gray",
 											"bold": false,
 											"italic": false
@@ -56,7 +68,7 @@
 									]
 								},
 								{
-									"translate": "ssbrc.tooltips.captainfalcon.fistsOfFury.description.2",
+									"translate": "ssbrc.tooltips.wolf.wolfSlash.description.2",
 									"color": "gray",
 									"bold": false,
 									"italic": false
@@ -77,7 +89,7 @@
 								{
 									"attribute": "minecraft:generic.attack_speed",
 									"name": "Attack Speed",
-									"amount": 2.5,
+									"amount": 1.5,
 									"operation": "multiply_base",
 									"slot": "mainhand"
 								}
@@ -85,7 +97,7 @@
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{fistsOfFury:1,CustomModelData:121,Unbreakable:1b,HideFlags:127}"
+							"tag": "{wolfSlash:1,CustomModelData:1726,Unbreakable:1b,HideFlags:127}"
 						}
 					]
 				}

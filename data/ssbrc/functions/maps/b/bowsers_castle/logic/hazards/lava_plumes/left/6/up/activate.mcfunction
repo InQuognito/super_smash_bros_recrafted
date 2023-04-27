@@ -1,3 +1,6 @@
-summon minecraft:marker -704.0 15.5 858.0 {Tags:["lavaPlume","left","6","up","modifyEntity"]}
-scoreboard players set @e[tag=modifyEntity,limit=1] animation 14
-tag @e[tag=modifyEntity,limit=1] remove modifyEntity
+function ssbrc:maps/b/bowsers_castle/logic/hazards/lava_plumes/left/init
+
+tag @s add 6
+tag @s add up
+
+scoreboard players set @s animation 14

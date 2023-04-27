@@ -1,5 +1,3 @@
-summon minecraft:marker ~ ~ ~ {Tags:["mist","modifyEntity"]}
+tag @s add mist
 
-scoreboard players operation @e[tag=modifyEntity,limit=1] id = @s id
-
-tag @e[tag=modifyEntity,limit=1] remove modifyEntity
+function ssbrc:logic/init/id
