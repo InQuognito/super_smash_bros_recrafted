@@ -4,5 +4,3 @@ execute if entity @s[type=#ssbrc:projectiles,type=!#ssbrc:arrows] run function s
 data modify entity @s Owner set from entity @p[tag=self] UUID
 
 tag @s add reflected
-
-playsound ssbrc:fighters.fox.reflector.reflect player @a

@@ -67,6 +67,10 @@ execute as @e[type=minecraft:marker,tag=pkFlash] at @s if score @s id = @p[tag=s
 execute as @e[type=minecraft:marker,tag=thunderJolt] at @s if score @s id = @p[tag=self] id run function ssbrc:series/pokemon/pikachu/logic/abilities/thunder_jolt/tick
 execute as @e[type=minecraft:marker,tag=electricTerrain] at @s if score @s id = @p[tag=self] id run function ssbrc:series/pokemon/pikachu/logic/abilities/electric_terrain/tick
 
+# Pit
+execute as @e[type=minecraft:spectral_arrow,tag=palutenaBow] at @s if score @s id = @p[tag=self] id run function ssbrc:series/kid_icarus/pit/logic/abilities/palutena_bow/tick
+execute as @e[type=minecraft:armor_stand,tag=guardianOrbitar] at @s if score @s id = @p[tag=self] id positioned ~ ~0.75 ~ run function ssbrc:series/kid_icarus/pit/logic/abilities/guardian_orbitars/tick
+
 # Pokémon Trainer
 execute as @e[type=minecraft:marker,tag=flareBlitz] at @s if score @s id = @p[tag=self] id run function ssbrc:series/pokemon/pokemontrainer/logic/charizard/flare_blitz/tick
 execute as @e[type=minecraft:marker,tag=leechSeed] at @s if score @s id = @p[tag=self] id run function ssbrc:series/pokemon/pokemontrainer/logic/ivysaur/leech_seed/tick/projectile
