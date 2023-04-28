@@ -1,0 +1,24 @@
+{
+	"parent": "ssbrc:utility/root",
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:player_hurt_entity",
+			"conditions": {
+				"damage": {
+					"blocked": false,
+					"source_entity": {
+						"nbt": "{Tags:[\"pit\"]}",
+						"equipment": {
+							"mainhand": {
+								"nbt": "{palutenaBow:1,split:0}"
+							}
+						}
+					}
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "ssbrc:series/kid_icarus/pit/logic/abilities/palutena_bow/split"
+	}
+}
