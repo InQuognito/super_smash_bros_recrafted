@@ -62,7 +62,7 @@
 									"italic": false,
 									"extra": [
 										{
-											"keybind": "key.use",
+											"keybind": "key.sneak",
 											"color": "gray",
 											"bold": false,
 											"italic": false
