@@ -29,6 +29,7 @@ execute if entity @s[tag=greninja] as @e[type=minecraft:marker,tag=shadowSneak] 
 execute if entity @s[tag=link] as @e[type=minecraft:armor_stand,tag=link.boomerang] if score @s id = @p[tag=self] id run kill @s
 execute if entity @s[tag=pokemontrainer,tag=charizard] as @e[type=minecraft:marker,tag=flareBlitz] if score @s id = @p[tag=self] id run kill @s
 execute if entity @s[tag=pokemontrainer,tag=ivysaur] run function ssbrc:series/pokemon/pokemontrainer/logic/ivysaur/leech_seed/kill
+execute if entity @s[tag=ryu] as @e[type=minecraft:marker,tag=tatsumakiSenpukyaku] if score @s id = @p[tag=self] id run kill @s
 execute if entity @s[tag=shovelknight] run function ssbrc:series/indie_fighters/shovelknight/logic/kill_entities
 execute if entity @s[tag=yar] as @e[type=minecraft:bee,tag=drone] if score @s id = @p[tag=self] id run kill @s
 execute if entity @s[tag=zelda] run function ssbrc:series/the_legend_of_zelda/zelda/logic/kill_entities
