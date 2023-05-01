@@ -98,9 +98,6 @@ clear @s minecraft:shield{alucardShield:1}
 # Joker
 clear @s minecraft:carrot_on_a_stick{mask:1}
 
-# Hero
-execute if entity @s[tag=hero] run function ssbrc:series/dragon_quest/hero/logic/magic/kaclang/deactivate
-
 # Steve
 scoreboard players remove @s[tag=steve,scores={steve.tier=1..}] steve.tier 1
 
