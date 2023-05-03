@@ -17,3 +17,5 @@ effect clear @s minecraft:glowing
 execute at @s run playsound minecraft:entity.experience_orb.pickup master @s ~ ~ ~ 1.0 0.5
 
 function ssbrc:logic/pre_game/character_select/check_participation
+
+function ssbrc:logic/selector/select_fighter

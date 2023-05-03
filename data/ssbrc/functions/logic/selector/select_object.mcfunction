@@ -94,6 +94,6 @@ execute if entity @e[type=minecraft:item_display,tag=davidtippy,dx=0,sort=neares
 execute if entity @e[type=minecraft:item_display,tag=ricardo64,dx=0,sort=nearest,limit=1] run function ssbrc:logic/selector/events/developers/ricardo64
 execute if entity @e[type=minecraft:item_display,tag=pastapower2k64,dx=0,sort=nearest,limit=1] run function ssbrc:logic/selector/events/developers/pastapower2k64
 
-scoreboard players reset @s useAbility
-
 execute if entity @e[type=minecraft:item_display,tag=lobbyStand,dx=0,sort=nearest,limit=1] run advancement grant @s[advancements={ssbrc:tutorial/intro/3=true,ssbrc:tutorial/fighter_select/2=false}] only ssbrc:tutorial/fighter_select/2
+
+scoreboard players reset @s useAbility
