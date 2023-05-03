@@ -1,4 +1,4 @@
-tellraw @s [{"translate":"ssbrc.fighters.menu.ulockedSkins","bold":true,"color":"yellow"}]
+tellraw @s [{"translate":"ssbrc.fighters.menu.unlockedSkins","bold":true,"color":"yellow"}]
 
 tellraw @s [{"translate":"ssbrc.fighters.skin.default","color":"dark_aqua"},{"translate":" - ","color":"white"},{"translate":"ssbrc.fighters.menu.gender.female.abbreviation","color":"dark_purple","clickEvent":{"action":"run_command","value":"/trigger menu set 104"}},{"translate":" "},{"translate":"ssbrc.fighters.menu.gender.male.abbreviation","color":"dark_blue","clickEvent":{"action":"run_command","value":"/trigger menu set 105"}}]
 tellraw @s[advancements={ssbrc:series/fire_emblem/byleth/skins/gold=true}] [{"translate":"ssbrc.fighters.skin.gold","color":"gold"},{"translate":" - ","color":"white"},{"translate":"ssbrc.fighters.menu.gender.female.abbreviation","color":"dark_purple","clickEvent":{"action":"run_command","value":"/trigger menu set 106"}},{"translate":" "},{"translate":"ssbrc.fighters.menu.gender.male.abbreviation","color":"dark_blue","clickEvent":{"action":"run_command","value":"/trigger menu set 107"}}]
