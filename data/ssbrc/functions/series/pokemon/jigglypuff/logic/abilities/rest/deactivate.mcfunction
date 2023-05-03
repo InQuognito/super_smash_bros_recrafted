@@ -9,4 +9,4 @@ tag @s remove rest
 
 function ssbrc:logic/characters/armor/update
 
-playsound ssbrc:fighters.jigglypuff.rest.deactivate player @a
+execute if entity @s[tag=rest] run playsound ssbrc:fighters.jigglypuff.rest.deactivate player @a

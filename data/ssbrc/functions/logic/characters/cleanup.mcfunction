@@ -60,6 +60,7 @@ scoreboard players set @s[tag=darksamus] charge.1 0
 
 # Jigglypuff
 tag @s remove rest
+execute if entity @s[tag=jigglypuff] run function ssbrc:series/pokemon/jigglypuff/logic/abilities/rest/deactivate
 
 # Pokémon Trainer / Team Rocket
 tag @s remove nextFighterChosen
