@@ -1,4 +1,4 @@
-particle minecraft:dust 1.0 1.0 0.0 5.0 ~ ~ ~ 0.0 0.0 0.0 0.0 5 normal @a
+particle minecraft:dust 1.0 1.0 0.0 5.0 ~ ~ ~ 0.0 0.0 0.0 0.0 5 force @a
 
 execute unless block ~ ~ ~ #ssbrc:passthrough run kill @s
 

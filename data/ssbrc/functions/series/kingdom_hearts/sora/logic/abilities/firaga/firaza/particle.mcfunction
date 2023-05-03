@@ -1,4 +1,4 @@
-particle minecraft:flame ~ ~ ~ 0.3 0.3 0.3 0.01 10 normal @a
+particle minecraft:flame ~ ~ ~ 0.3 0.3 0.3 0.01 10 force @a
 
 scoreboard players add $firaza rotation 15
 execute if score $firaza rotation matches 360.. run scoreboard players reset $firaza rotation

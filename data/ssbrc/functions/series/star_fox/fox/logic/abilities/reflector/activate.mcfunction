@@ -1,4 +1,4 @@
-particle minecraft:sonic_boom ^ ^ ^2 0.0 0.0 0.0 0.0 1 normal @a
+particle minecraft:sonic_boom ^ ^ ^2 0.0 0.0 0.0 0.0 1 force @a
 
 scoreboard players set @s duration.2 20
 

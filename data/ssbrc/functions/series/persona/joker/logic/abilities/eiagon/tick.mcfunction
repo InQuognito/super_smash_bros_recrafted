@@ -1,4 +1,4 @@
-particle minecraft:dust_color_transition 0.4 0.0 0.0 1.0 0.2 0.0 0.0 ~ ~ ~ 0.1 0.1 0.1 0.0 10 normal @a
+particle minecraft:dust_color_transition 0.4 0.0 0.0 1.0 0.2 0.0 0.0 ~ ~ ~ 0.1 0.1 0.1 0.0 10 force @a
 
 execute unless block ~ ~ ~ #ssbrc:passthrough run function ssbrc:series/persona/joker/logic/abilities/eiagon/summon_pool
 

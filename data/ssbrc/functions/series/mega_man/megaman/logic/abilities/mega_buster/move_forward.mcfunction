@@ -1,4 +1,4 @@
-particle minecraft:dust_color_transition 1.0 1.0 0.5 0.1 1.0 1.0 1.0 ~ ~ ~ 0.05 0.05 0.05 0.0 200 normal @a
+particle minecraft:dust_color_transition 1.0 1.0 0.5 0.1 1.0 1.0 1.0 ~ ~ ~ 0.05 0.05 0.05 0.0 200 force @a
 
 execute unless block ~ ~ ~ #ssbrc:passthrough run kill @s
 

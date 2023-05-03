@@ -1,4 +1,4 @@
-execute at @s run particle minecraft:flame ~ ~0.75 ~ 0.2 0.4 0.2 0.01 5 normal @a
+execute at @s run particle minecraft:flame ~ ~0.75 ~ 0.2 0.4 0.2 0.01 5 force @a
 
 scoreboard players add @s[tag=falconPunchMissed] charge.1 1
 scoreboard players add @s[tag=!falconPunchMissed] charge.1 2

@@ -1,4 +1,4 @@
-particle minecraft:dust_color_transition 1.0 0.5 0.0 0.5 1.0 0.75 0.0 ~ ~ ~ 0.075 0.075 0.075 0.01 25 normal @a
+particle minecraft:dust_color_transition 1.0 0.5 0.0 0.5 1.0 0.75 0.0 ~ ~ ~ 0.075 0.075 0.075 0.01 25 force @a
 
 execute positioned ~-0.375 ~-0.375 ~-0.375 as @e[predicate=ssbrc:flag/targets,dx=0] positioned ~-0.25 ~-0.25 ~-0.25 if entity @s[dx=0] as @e[type=minecraft:marker,tag=orangeGrenade,sort=nearest,limit=1] at @s run function ssbrc:series/donkey_kong/donkeykong/logic/abilities/orange_grenade/explode
 

@@ -1,4 +1,4 @@
-particle minecraft:flame ~ ~0.75 ~ 0.2 0.4 0.2 0.05 25 normal @a
+particle minecraft:flame ~ ~0.75 ~ 0.2 0.4 0.2 0.05 25 force @a
 
 execute unless block ^ ^ ^0.75 #ssbrc:passthrough_charge run scoreboard players set @p[tag=self] duration.1 2
 

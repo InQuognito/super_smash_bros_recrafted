@@ -1,6 +1,6 @@
-execute unless block ~ ~ ~ #ssbrc:passthrough run scoreboard players add $rayPiercing temp 1
+particle minecraft:dust 1.0 0.75 0.0 5.0 ~ ~ ~ 0.0 0.0 0.0 0.0 5 force @a
 
-particle minecraft:dust 1.0 0.75 0.0 5.0 ~ ~ ~ 0.0 0.0 0.0 0.5 5 normal @a
+execute unless block ~ ~ ~ #ssbrc:passthrough run scoreboard players add $rayPiercing temp 1
 
 execute positioned ~-0.5 ~-0.5 ~-0.5 as @e[tag=!self,predicate=ssbrc:flag/targets,dx=0] run function ssbrc:series/retro_fighters/yar/logic/abilities/ray_blaster/variants/railgun/hit
 
