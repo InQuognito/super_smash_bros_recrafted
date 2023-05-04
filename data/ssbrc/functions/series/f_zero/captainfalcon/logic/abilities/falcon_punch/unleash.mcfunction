@@ -8,5 +8,6 @@ title @s actionbar ""
 
 function ssbrc:series/f_zero/captainfalcon/logic/abilities/falcon_punch/deactivate
 
-playsound ssbrc:fighters.captainfalcon.falcon_punch.unleash player @a
-playsound ssbrc:fighters.captainfalcon.falcon_punch.unleash_voice player @a
+playsound ssbrc:fighters.captainfalcon.falcon_punch.default.unleash player @a
+execute if entity @s[tag=!bloodFalcon] run playsound ssbrc:fighters.captainfalcon.falcon_punch.default.unleash_voice player @a
+execute if entity @s[tag=bloodFalcon] run playsound ssbrc:fighters.captainfalcon.falcon_punch.blood_falcon.unleash player @a
