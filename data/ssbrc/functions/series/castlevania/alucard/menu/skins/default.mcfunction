@@ -5,4 +5,4 @@ tellraw @s[tag=!blindPick] [{"translate":"ssbrc.fighters.menu.skin","color":"whi
 
 scoreboard players set @s skinPicked 1
 
-playsound ssbrc:skin_equip master @s
+execute at @s run playsound ssbrc:skin_equip master @s
