@@ -2,9 +2,9 @@ execute unless block ^ ^ ^0.3 #ssbrc:passthrough run scoreboard players set @s t
 
 teleport @e[type=minecraft:item,distance=..1] @s
 
-execute positioned ~-0.15 ~-0.15 ~-0.15 as @e[predicate=ssbrc:flag/targets,dx=0] positioned ~-0.7 ~-0.7 ~-0.7 if entity @s[dx=0] unless score @s id = @e[type=minecraft:armor_stand,tag=link.boomerang,sort=nearest,limit=1] id run function ssbrc:series/the_legend_of_zelda/link/logic/abilities/boomerang/hit
+execute positioned ~-0.2 ~-0.2 ~-0.2 as @e[predicate=ssbrc:flag/targets,dx=0] positioned ~-0.6 ~-0.7 ~-0.6 if entity @s[dx=0] unless score @s id = @e[type=minecraft:armor_stand,tag=link.boomerang,sort=nearest,limit=1] id run function ssbrc:series/the_legend_of_zelda/link/logic/abilities/boomerang/hit
 
-execute positioned ~-0.15 ~-0.15 ~-0.15 as @e[predicate=ssbrc:flag/player,dx=0] positioned ~-0.7 ~-0.7 ~-0.7 if entity @s[dx=0] if score @s id = @e[type=minecraft:armor_stand,tag=link.boomerang,sort=nearest,limit=1] id run function ssbrc:series/the_legend_of_zelda/link/logic/abilities/boomerang/regain
+execute positioned ~-0.2 ~-0.2 ~-0.2 as @e[predicate=ssbrc:flag/player,dx=0] positioned ~-0.6 ~-0.6 ~-0.6 if entity @s[dx=0] if score @s id = @e[type=minecraft:armor_stand,tag=link.boomerang,sort=nearest,limit=1] id run function ssbrc:series/the_legend_of_zelda/link/logic/abilities/boomerang/regain
 
 function ssbrc:series/the_legend_of_zelda/link/logic/abilities/boomerang/rotate
 
