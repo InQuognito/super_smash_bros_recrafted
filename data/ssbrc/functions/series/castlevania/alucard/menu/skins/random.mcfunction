@@ -6,4 +6,5 @@ execute unless score @s[advancements={ssbrc:series/castlevania/alucard/skins/def
 execute unless score @s[advancements={ssbrc:series/castlevania/alucard/skins/gold=true}] skinPicked matches 1 if score result random matches 1 run function ssbrc:series/castlevania/alucard/menu/skins/gold
 execute unless score @s[advancements={ssbrc:series/castlevania/alucard/skins/lords_of_shadow=true}] skinPicked matches 1 if score result random matches 2 run function ssbrc:series/castlevania/alucard/menu/skins/lords_of_shadow
 
+execute if score @s skinPicked matches 1 run function ssbrc:series/castlevania/alucard/menu/select_character
 execute unless score @s skinPicked matches 1 run function ssbrc:series/castlevania/alucard/menu/skins/random

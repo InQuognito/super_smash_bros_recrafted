@@ -9,6 +9,6 @@ tellraw @s[tag=gold,advancements={ssbrc:series/castlevania/alucard/skins/gold=tr
 tellraw @s[tag=!lordsOfShadow,advancements={ssbrc:series/castlevania/alucard/skins/lords_of_shadow=true}] [{"translate":"ssbrc.fighters.alucard.skin.lordsOfShadow","color":"dark_gray","clickEvent":{"action":"run_command","value":"/trigger menu set 1846"}}]
 tellraw @s[tag=lordsOfShadow,advancements={ssbrc:series/castlevania/alucard/skins/lords_of_shadow=true}] [{"translate":"ssbrc.fighters.alucard.skin.lordsOfShadow","color":"dark_gray"},{"text":" ","color":"white"},{"text":"✔","color":"green"}]
 
-tellraw @s [{"translate":"===================","bold":true,"color":"white"}]
+tellraw @s [{"translate":"================","bold":true,"color":"white"}]
 
 execute at @s run playsound minecraft:ui.button.click master @s
