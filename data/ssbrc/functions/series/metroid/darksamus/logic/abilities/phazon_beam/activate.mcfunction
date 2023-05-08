@@ -4,7 +4,7 @@ scoreboard players operation $darksamus.chargeBeamPercent temp /= #darksamus.cha
 
 execute positioned ^ ^ ^1 summon minecraft:marker run function ssbrc:series/metroid/darksamus/logic/abilities/phazon_beam/init
 
-item modify entity @s weapon.mainhand ssbrc:characters/darksamus/phazon_beam
+item modify entity @s weapon.mainhand ssbrc:characters/darksamus/phazon_beam/idle
 
 function ssbrc:logic/resets/charge
 
