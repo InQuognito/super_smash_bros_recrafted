@@ -1,6 +1,9 @@
 function ssbrc:series/donkey_kong/kingkrool/menu/skins/reset
 tag @s add default
 
-function ssbrc:series/donkey_kong/kingkrool/menu/select_character
+tellraw @s[tag=!blindPick,tag=!pickingRandom] [{"translate":"\n"},{"translate":"ssbrc.fighters.menu.skin","color":"white"},{"translate":"ssbrc.fighters.skin.default","color":"dark_green"},{"translate":"\n"}]
+execute if entity @s[tag=!blindPick,tag=!pickingRandom] run function ssbrc:series/donkey_kong/kingkrool/menu/skin_options
 
 scoreboard players set @s skinPicked 1
+
+execute at @s run playsound ssbrc:skin_equip master @s

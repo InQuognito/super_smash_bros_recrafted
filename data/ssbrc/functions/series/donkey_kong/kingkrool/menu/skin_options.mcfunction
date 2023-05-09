@@ -1,8 +1,11 @@
-tellraw @s [{"translate":"ssbrc.fighters.menu.chooseSkin","bold":true,"color":"yellow"}]
+tellraw @s [{"translate":"=== ","color":"white"},{"translate":"ssbrc.fighters.menu.chooseSkin","bold":true,"color":"yellow"},{"translate":" ===","color":"white"}]
 
-tellraw @s [{"translate":"[ ","color":"dark_green","bold":false},{"translate":"ssbrc.fighters.skin.default","color":"green","clickEvent":{"action":"run_command","value":"/trigger menu set 684"}},{"translate":" ]","color":"dark_green"}]
-tellraw @s[advancements={ssbrc:series/donkey_kong/kingkrool/skins/gold=true}] [{"translate":"[ ","color":"dark_green"},{"translate":"ssbrc.fighters.skin.gold","color":"gold","clickEvent":{"action":"run_command","value":"/trigger menu set 685"}},{"translate":" ]","color":"dark_green"}]
+tellraw @s[tag=!default] [{"translate":"ssbrc.fighters.skin.default","color":"gold","clickEvent":{"action":"run_command","value":"/trigger menu set 684"}}]
+tellraw @s[tag=default] [{"translate":"ssbrc.fighters.skin.default","color":"gold"},{"text":" ","color":"white"},{"text":"✔","color":"green"}]
 
-tellraw @s [{"translate":"==========","bold":true,"color":"yellow"}]
+tellraw @s[tag=!gold,advancements={ssbrc:series/donkey_kong/kingkrool/skins/gold=true}] [{"translate":"ssbrc.fighters.skin.gold","color":"gold","clickEvent":{"action":"run_command","value":"/trigger menu set 685"}}]
+tellraw @s[tag=gold,advancements={ssbrc:series/donkey_kong/kingkrool/skins/gold=true}] [{"translate":"ssbrc.fighters.skin.gold","color":"gold"},{"text":" ","color":"white"},{"text":"✔","color":"green"}]
+
+tellraw @s [{"translate":"================","bold":true,"color":"white"}]
 
 execute at @s run playsound minecraft:ui.button.click master @s
