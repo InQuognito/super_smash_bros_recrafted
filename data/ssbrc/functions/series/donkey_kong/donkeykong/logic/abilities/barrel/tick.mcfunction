@@ -1,4 +1,4 @@
-execute positioned ~-0.5 ~-0.5 ~-0.5 as @e[tag=!self,predicate=ssbrc:flag/targets,dx=0] as @e[type=minecraft:armor_stand,tag=barrel,sort=nearest,limit=1] at @s run function ssbrc:series/donkey_kong/donkeykong/logic/abilities/barrel/explode
+execute positioned ~-0.5 ~-0.5 ~-0.5 if entity @e[tag=!self,predicate=ssbrc:flag/targets,dx=0] run function ssbrc:series/donkey_kong/donkeykong/logic/abilities/barrel/explode
 
 execute store result entity @s Rotation[1] float 0.25 run scoreboard players get @s point
 

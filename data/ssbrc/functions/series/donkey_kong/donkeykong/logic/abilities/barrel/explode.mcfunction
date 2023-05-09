@@ -9,7 +9,6 @@ execute if entity @s[tag=oil] run playsound minecraft:block.netherite_block.brea
 
 kill @s
 
-execute as @p[tag=self] run loot give @s[tag=!flowerPower] loot ssbrc:characters/donkey_kong/donkeykong/barrel/default
-execute as @p[tag=self] run loot give @s[tag=flowerPower] loot ssbrc:characters/donkey_kong/donkeykong/barrel/oil
+execute as @p[tag=self] run function ssbrc:series/donkey_kong/donkeykong/logic/abilities/barrel/regain
 
 playsound ssbrc:fighters.donkeykong.barrel.explode player @a
