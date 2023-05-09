@@ -1,4 +1,3 @@
-tag @s add self
 execute if score @s charge.output matches 21..40 as @e[tag=!self,predicate=ssbrc:flag/targets,distance=..2.25] run damage @s 8.0 ssbrc:projectile by @p[tag=self]
 execute if score @s charge.output matches 41..60 as @e[tag=!self,predicate=ssbrc:flag/targets,distance=..2.5] run damage @s 10.0 ssbrc:projectile by @p[tag=self]
 execute if score @s charge.output matches 61..80 as @e[tag=!self,predicate=ssbrc:flag/targets,distance=..2.75] run damage @s 12.0 ssbrc:projectile by @p[tag=self]
@@ -9,7 +8,6 @@ execute if score @s charge.output matches 21..40 if entity @e[tag=!self,predicat
 execute if score @s charge.output matches 41..60 if entity @e[tag=!self,predicate=ssbrc:flag/targets,distance=..3.5] run function ssbrc:series/fire_emblem/byleth/logic/blue_lions/areadbhar/hit
 execute if score @s charge.output matches 61..80 if entity @e[tag=!self,predicate=ssbrc:flag/targets,distance=..4.0] run function ssbrc:series/fire_emblem/byleth/logic/blue_lions/areadbhar/hit
 execute if score @s charge.output matches 81.. if entity @e[tag=!self,predicate=ssbrc:flag/targets,distance=..5.0] run function ssbrc:series/fire_emblem/byleth/logic/blue_lions/areadbhar/hit
-tag @s remove self
 
 execute if score @s charge.output matches 21..80 run loot replace entity @s weapon.mainhand loot ssbrc:characters/fire_emblem/byleth/blue_lions/areadbhar/spinning/default
 execute if score @s charge.output matches 81.. run loot replace entity @s weapon.mainhand loot ssbrc:characters/fire_emblem/byleth/blue_lions/areadbhar/spinning/awakened
