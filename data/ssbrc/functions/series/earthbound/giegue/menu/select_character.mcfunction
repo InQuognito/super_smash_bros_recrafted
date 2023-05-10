@@ -1,12 +1,9 @@
-tag @s[tag=!gold] add default
-
-tellraw @s[tag=!blindPick] [{"translate":"ssbrc.fighters.menu.selected","color":"white"},{"translate":"ssbrc.fighters.giegue","color":"light_purple"},{"translate":"!","color":"white"}]
-
-tellraw @s[tag=!blindPick,tag=default] [{"translate":"ssbrc.fighters.menu.skin","color":"white"},{"translate":"ssbrc.fighters.skin.default","color":"light_purple"}]
-tellraw @s[tag=!blindPick,tag=gold] [{"translate":"ssbrc.fighters.menu.skin","color":"white"},{"translate":"ssbrc.fighters.skin.gold","color":"gold"}]
+tellraw @s[tag=!blindPick] [{"translate":"ssbrc.fighters.menu.selected","color":"white"},{"translate":"ssbrc.fighters.giegue","color":"yellow"},{"translate":"!","color":"white"}]
 
 function ssbrc:logic/resets/tags/characters
+function ssbrc:logic/resets/tags/skins
 tag @s add giegue
+tag @s add default
 
 tag @s add characterPicked
 

@@ -1,14 +1,9 @@
-tag @s[tag=!gold,tag=!bloodFalcon,tag=!rickWheeler] add default
-
 tellraw @s[tag=!blindPick] [{"translate":"ssbrc.fighters.menu.selected","color":"white"},{"translate":"ssbrc.fighters.captainfalcon","color":"red"},{"translate":"!","color":"white"}]
 
-tellraw @s[tag=!blindPick,tag=default] [{"translate":"ssbrc.fighters.menu.skin","color":"white"},{"translate":"ssbrc.fighters.skin.default","color":"red"}]
-tellraw @s[tag=!blindPick,tag=gold] [{"translate":"ssbrc.fighters.menu.skin","color":"white"},{"translate":"ssbrc.fighters.skin.gold","color":"gold"}]
-tellraw @s[tag=!blindPick,tag=bloodFalcon] [{"translate":"ssbrc.fighters.menu.skin","color":"white"},{"translate":"ssbrc.fighters.captainfalcon.skin.bloodFalcon","color":"dark_red"}]
-tellraw @s[tag=!blindPick,tag=rickWheeler] [{"translate":"ssbrc.fighters.menu.skin","color":"white"},{"translate":"ssbrc.fighters.captainfalcon.skin.rickWheeler","color":"dark_blue"}]
-
 function ssbrc:logic/resets/tags/characters
+function ssbrc:logic/resets/tags/skins
 tag @s add captainfalcon
+tag @s add default
 
 tag @s add characterPicked
 
