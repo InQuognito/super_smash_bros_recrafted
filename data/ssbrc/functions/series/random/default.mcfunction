@@ -1,7 +1,7 @@
 execute if score $blindPick options matches 1 run function ssbrc:series/random/blind
 
-function ssbrc:logic/resets/tags/characters
-function ssbrc:logic/resets/tags/skins
+function ssbrc:logic/selector/select_fighter
+
 
 tag @s add pickingRandom
 
