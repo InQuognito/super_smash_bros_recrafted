@@ -6,9 +6,6 @@ tag @s add byleth
 tag @s add default
 function ssbrc:series/fire_emblem/byleth/menu/gender_random
 
-function ssbrc:series/fire_emblem/byleth/menu/loadout/houses/random
-tellraw @s[tag=!blindPick,tag=blackEagles] [{"translate":"ssbrc.fighters.byleth.house","color":"white"},{"translate":"ssbrc.fighters.byleth.house.blackEagles","color":"dark_gray"}]
-tellraw @s[tag=!blindPick,tag=blueLions] [{"translate":"ssbrc.fighters.byleth.house","color":"white"},{"translate":"ssbrc.fighters.byleth.house.blueLions","color":"blue"}]
-tellraw @s[tag=!blindPick,tag=goldenDeer] [{"translate":"ssbrc.fighters.byleth.house","color":"white"},{"translate":"ssbrc.fighters.byleth.house.goldenDeer","color":"yellow"}]
+function ssbrc:series/fire_emblem/byleth/menu/loadout/prompt
 
 tag @s remove selectingLoadout.byleth
