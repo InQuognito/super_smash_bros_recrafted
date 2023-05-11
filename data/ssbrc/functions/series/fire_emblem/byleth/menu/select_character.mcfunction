@@ -1,20 +1,14 @@
-execute if entity @s[tag=!female,tag=!male] run function ssbrc:series/fire_emblem/byleth/menu/gender_random
-tag @s[tag=!gold,tag=!awakened] add default
-
 tellraw @s[tag=!blindPick] [{"translate":"ssbrc.fighters.menu.selected","color":"white"},{"translate":"ssbrc.fighters.byleth","color":"dark_aqua"},{"translate":"!","color":"white"}]
 
+function ssbrc:logic/selector/select_fighter
+
+tag @s add byleth
+tag @s add default
+function ssbrc:series/fire_emblem/byleth/menu/gender_random
+
+function ssbrc:series/fire_emblem/byleth/menu/loadout/houses/random
 tellraw @s[tag=!blindPick,tag=blackEagles] [{"translate":"ssbrc.fighters.byleth.house","color":"white"},{"translate":"ssbrc.fighters.byleth.house.blackEagles","color":"dark_gray"}]
 tellraw @s[tag=!blindPick,tag=blueLions] [{"translate":"ssbrc.fighters.byleth.house","color":"white"},{"translate":"ssbrc.fighters.byleth.house.blueLions","color":"blue"}]
 tellraw @s[tag=!blindPick,tag=goldenDeer] [{"translate":"ssbrc.fighters.byleth.house","color":"white"},{"translate":"ssbrc.fighters.byleth.house.goldenDeer","color":"yellow"}]
 
-tellraw @s[tag=!blindPick,tag=default] [{"translate":"ssbrc.fighters.menu.skin","color":"white"},{"translate":"ssbrc.fighters.skin.default","color":"dark_aqua"}]
-tellraw @s[tag=!blindPick,tag=gold] [{"translate":"ssbrc.fighters.menu.skin","color":"white"},{"translate":"ssbrc.fighters.skin.gold","color":"gold"}]
-tellraw @s[tag=!blindPick,tag=awakened] [{"translate":"ssbrc.fighters.menu.skin","color":"white"},{"translate":"ssbrc.fighters.byleth.skin.awakened","color":"aqua"}]
-
-tellraw @s[tag=!blindPick,tag=female] [{"translate":"ssbrc.fighters.menu.gender","color":"white"},{"translate":"ssbrc.fighters.menu.gender.female","color":"dark_purple"}]
-tellraw @s[tag=!blindPick,tag=male] [{"translate":"ssbrc.fighters.menu.gender","color":"white"},{"translate":"ssbrc.fighters.menu.gender.male","color":"dark_blue"}]
-
-tag @s add byleth
-
 tag @s remove selectingLoadout.byleth
-function ssbrc:logic/selector/select_fighter

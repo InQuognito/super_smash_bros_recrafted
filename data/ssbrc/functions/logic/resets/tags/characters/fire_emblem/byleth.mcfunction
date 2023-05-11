@@ -1,6 +1,5 @@
 tag @s remove byleth
 
-tag @s remove blackEagles
-tag @s remove blueLions
-tag @s remove goldenDeer
+function ssbrc:series/fire_emblem/byleth/menu/loadout/houses/reset
+
 tag @s remove weaponBroken

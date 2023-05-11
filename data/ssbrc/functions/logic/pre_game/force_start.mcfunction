@@ -1,5 +1,3 @@
-execute as @a[tag=room.characterSelect,tag=!characterPicked] run function ssbrc:logic/pre_game/character_select/decide_character
-
 scoreboard players set $global id 0
 execute as @r[predicate=ssbrc:ingame,team=!spectator,tag=!idSet] run function ssbrc:logic/id/set
 

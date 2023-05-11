@@ -1,5 +1,3 @@
-function ssbrc:series/fire_emblem/byleth/menu/loadout/reset_house
+function ssbrc:series/fire_emblem/byleth/menu/loadout/houses/reset
 
 tag @s add blackEagles
-
-function ssbrc:series/fire_emblem/byleth/menu/select_character

@@ -1,8 +1,8 @@
-scoreboard players set @s skinPicked 1
-
 function ssbrc:series/fire_emblem/byleth/menu/skins/reset
 tag @s add default
 tag @s add male
 
-execute if entity @s[tag=!pickingRandom] run function ssbrc:series/fire_emblem/byleth/menu/loadout/prompt
-execute if entity @s[tag=pickingRandom] run function ssbrc:series/fire_emblem/byleth/menu/loadout/houses/random
+tellraw @s[tag=!blindPick,tag=!pickingRandom] [{"translate":"\n"},{"translate":"ssbrc.fighters.menu.skin","color":"white"},{"translate":"ssbrc.fighters.skin.default","color":"dark_aqua"},{"translate":"\n"},{"translate":"ssbrc.fighters.menu.gender","color":"white"},{"translate":"ssbrc.fighters.menu.gender.male","color":"blue"},{"translate":"\n"}]
+execute if entity @s[tag=!blindPick,tag=!pickingRandom] run function ssbrc:series/fire_emblem/byleth/menu/skin_options
+
+function ssbrc:logic/selector/select_skin
