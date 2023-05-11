@@ -2,7 +2,6 @@ execute if score $blindPick options matches 1 run function ssbrc:series/random/b
 
 function ssbrc:logic/selector/select_fighter
 
-
 tag @s add pickingRandom
 
 scoreboard players set max random 38
