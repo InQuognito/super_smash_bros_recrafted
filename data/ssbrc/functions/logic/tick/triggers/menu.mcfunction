@@ -129,7 +129,6 @@ execute if score @s[tag=snake] characterTrigger matches 1528 run function ssbrc:
 execute if score @s[tag=snake] characterTrigger matches 1529 run function ssbrc:series/metal_gear_solid/snake/menu/loadout/anti_personnel_mine/deselect
 execute if score @s[tag=snake] characterTrigger matches 1530 run function ssbrc:series/metal_gear_solid/snake/menu/loadout/smoke_grenade/check
 execute if score @s[tag=snake] characterTrigger matches 1531 run function ssbrc:series/metal_gear_solid/snake/menu/loadout/smoke_grenade/deselect
-execute if score @s[tag=snake] characterTrigger matches 1532 run function ssbrc:series/metal_gear_solid/snake/menu/select_character
 
 execute if score @s[tag=sonic] menu matches 1544 run function ssbrc:series/sonic_the_hedgehog/sonic/menu/skins/default
 execute if score @s[tag=sonic] menu matches 1545 run function ssbrc:series/sonic_the_hedgehog/sonic/menu/skins/gold
