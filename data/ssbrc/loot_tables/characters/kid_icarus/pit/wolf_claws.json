@@ -50,7 +50,7 @@
 								{
 									"attribute": "minecraft:generic.attack_damage",
 									"name": "Attack Damage",
-									"amount": 6,
+									"amount": 4,
 									"operation": "multiply_base",
 									"slot": "mainhand"
 								},
@@ -62,13 +62,6 @@
 									"slot": "mainhand"
 								}
 							]
-						},
-						{
-							"function": "minecraft:set_enchantments",
-							"enchantments": {
-								"minecraft:fire_aspect": 1
-							},
-							"add": false
 						},
 						{
 							"function": "minecraft:set_nbt",
