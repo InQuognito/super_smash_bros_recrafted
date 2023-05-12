@@ -1,6 +1,7 @@
 function ssbrc:series/pokemon/greninja/menu/skins/reset
 tag @s add shiny
 
-function ssbrc:series/pokemon/greninja/menu/select_character
+tellraw @s[tag=!blindPick,tag=!pickingRandom] [{"translate":"\n"},{"translate":"ssbrc.fighters.menu.skin","color":"white"},{"translate":"ssbrc.series.pokemon.skins.shiny","color":"dark_gray"},{"translate":"\n"}]
+execute if entity @s[tag=!blindPick,tag=!pickingRandom] run function ssbrc:series/pokemon/greninja/menu/skin_options
 
-scoreboard players set @s skinPicked 1
+function ssbrc:logic/selector/select_skin
