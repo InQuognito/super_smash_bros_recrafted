@@ -1,6 +1,7 @@
 function ssbrc:series/kingdom_hearts/sora/menu/skins/reset
 tag @s add timelessRiver
 
-function ssbrc:series/kingdom_hearts/sora/menu/select_character
+tellraw @s[tag=!blindPick,tag=!pickingRandom] [{"translate":"\n"},{"translate":"ssbrc.fighters.menu.skin","color":"white"},{"translate":"ssbrc.fighters.sora.skin.timelessRiver","color":"gray"},{"translate":"\n"}]
+execute if entity @s[tag=!blindPick,tag=!pickingRandom] run function ssbrc:series/kingdom_hearts/sora/menu/skin_options
 
-scoreboard players set @s skinPicked 1
+function ssbrc:logic/selector/select_skin
