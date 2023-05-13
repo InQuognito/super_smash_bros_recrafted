@@ -1,8 +1,11 @@
-tellraw @s [{"translate":"ssbrc.fighters.menu.chooseSkin","bold":true,"color":"yellow"}]
+tellraw @s [{"translate":"=== ","color":"white"},{"translate":"ssbrc.fighters.menu.chooseSkin","bold":true,"color":"yellow"},{"translate":" ===","color":"white"}]
 
-tellraw @s [{"translate":"[ ","color":"blue","bold":false},{"translate":"ssbrc.fighters.skin.default","color":"green","clickEvent":{"action":"run_command","value":"/trigger menu set 1784"}},{"translate":" ]","color":"blue"}]
-tellraw @s[advancements={ssbrc:series/the_legend_of_zelda/zelda/skins/gold=true}] [{"translate":"[ ","color":"blue"},{"translate":"ssbrc.fighters.skin.gold","color":"gold","clickEvent":{"action":"run_command","value":"/trigger menu set 1785"}},{"translate":" ]","color":"blue"}]
+tellraw @s[tag=!default] [{"translate":"ssbrc.fighters.skin.default","color":"blue","clickEvent":{"action":"run_command","value":"/trigger menu set 1784"}}]
+tellraw @s[tag=default] [{"translate":"ssbrc.fighters.skin.default","color":"blue"},{"text":" ","color":"white"},{"text":"✔","color":"green"}]
 
-tellraw @s [{"translate":"==========","bold":true,"color":"yellow"}]
+tellraw @s[tag=!gold,advancements={ssbrc:series/the_legend_of_zelda/zelda/skins/gold=true}] [{"translate":"ssbrc.fighters.skin.gold","color":"gold","clickEvent":{"action":"run_command","value":"/trigger menu set 1785"}}]
+tellraw @s[tag=gold] [{"translate":"ssbrc.fighters.skin.gold","color":"gold"},{"text":" ","color":"white"},{"text":"✔","color":"green"}]
+
+tellraw @s [{"translate":"================","bold":true,"color":"white"}]
 
 execute at @s run playsound minecraft:ui.button.click master @s

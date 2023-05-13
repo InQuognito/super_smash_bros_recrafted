@@ -1,6 +1,7 @@
 function ssbrc:series/sonic_the_hedgehog/shadow/menu/skins/reset
 tag @s add yellowAndroid
 
-function ssbrc:series/sonic_the_hedgehog/shadow/menu/select_character
+tellraw @s[tag=!blindPick,tag=!pickingRandom] [{"translate":"\n"},{"translate":"ssbrc.fighters.menu.skin","color":"white"},{"translate":"ssbrc.fighters.shadow.skin.yellowAndroid","color":"yellow"},{"translate":"\n"}]
+execute if entity @s[tag=!blindPick,tag=!pickingRandom] run function ssbrc:series/sonic_the_hedgehog/shadow/menu/skin_options
 
-scoreboard players set @s skinPicked 1
+function ssbrc:logic/selector/select_skin

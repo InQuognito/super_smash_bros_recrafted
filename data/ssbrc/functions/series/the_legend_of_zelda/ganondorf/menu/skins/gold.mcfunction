@@ -1,6 +1,7 @@
 function ssbrc:series/the_legend_of_zelda/ganondorf/menu/skins/reset
 tag @s add gold
 
-function ssbrc:series/the_legend_of_zelda/ganondorf/menu/select_character
+tellraw @s[tag=!blindPick,tag=!pickingRandom] [{"translate":"\n"},{"translate":"ssbrc.fighters.menu.skin","color":"white"},{"translate":"ssbrc.fighters.skin.gold","color":"gold"},{"translate":"\n"}]
+execute if entity @s[tag=!blindPick,tag=!pickingRandom] run function ssbrc:series/the_legend_of_zelda/ganondorf/menu/skin_options
 
-scoreboard players set @s skinPicked 1
+function ssbrc:logic/selector/select_skin

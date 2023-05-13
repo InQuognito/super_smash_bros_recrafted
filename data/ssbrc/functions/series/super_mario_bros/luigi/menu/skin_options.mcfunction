@@ -1,9 +1,14 @@
-tellraw @s [{"translate":"ssbrc.fighters.menu.chooseSkin","bold":true,"color":"yellow"}]
+tellraw @s [{"translate":"=== ","color":"white"},{"translate":"ssbrc.fighters.menu.chooseSkin","bold":true,"color":"yellow"},{"translate":" ===","color":"white"}]
 
-tellraw @s [{"translate":"[ ","color":"dark_green","bold":false},{"translate":"ssbrc.fighters.skin.default","color":"green","clickEvent":{"action":"run_command","value":"/trigger menu set 824"}},{"translate":" ]","color":"dark_green"}]
-tellraw @s[advancements={ssbrc:series/super_mario_bros/luigi/skins/gold=true}] [{"translate":"[ ","color":"dark_green"},{"translate":"ssbrc.fighters.skin.gold","color":"gold","clickEvent":{"action":"run_command","value":"/trigger menu set 825"}},{"translate":" ]","color":"dark_green"}]
-tellraw @s[advancements={ssbrc:series/super_mario_bros/luigi/skins/flower_power=true}] [{"translate":"[ ","color":"dark_green"},{"translate":"ssbrc.series.superMarioBros.skin.flowerPower","color":"green","clickEvent":{"action":"run_command","value":"/trigger menu set 826"}},{"translate":" ]","color":"dark_green"}]
+tellraw @s[tag=!default] [{"translate":"ssbrc.fighters.skin.default","color":"dark_green","clickEvent":{"action":"run_command","value":"/trigger menu set 824"}}]
+tellraw @s[tag=default] [{"translate":"ssbrc.fighters.skin.default","color":"dark_green"},{"text":" ","color":"white"},{"text":"✔","color":"green"}]
 
-tellraw @s [{"translate":"==========","bold":true,"color":"yellow"}]
+tellraw @s[tag=!gold,advancements={ssbrc:series/super_mario_bros/luigi/skins/gold=true}] [{"translate":"ssbrc.fighters.skin.gold","color":"gold","clickEvent":{"action":"run_command","value":"/trigger menu set 825"}}]
+tellraw @s[tag=gold] [{"translate":"ssbrc.fighters.skin.gold","color":"gold"},{"text":" ","color":"white"},{"text":"✔","color":"green"}]
+
+tellraw @s[tag=!flowerPower,advancements={ssbrc:series/super_mario_bros/luigi/skins/flower_power=true}] [{"translate":"ssbrc.series.superMarioBros.skin.flowerPower","color":"aqua","clickEvent":{"action":"run_command","value":"/trigger menu set 826"}}]
+tellraw @s[tag=flowerPower] [{"translate":"ssbrc.series.superMarioBros.skin.flowerPower","color":"aqua"},{"text":" ","color":"white"},{"text":"✔","color":"green"}]
+
+tellraw @s [{"translate":"================","bold":true,"color":"white"}]
 
 execute at @s run playsound minecraft:ui.button.click master @s

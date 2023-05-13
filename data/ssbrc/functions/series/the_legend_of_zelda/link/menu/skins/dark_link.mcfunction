@@ -1,6 +1,7 @@
 function ssbrc:series/the_legend_of_zelda/link/menu/skins/reset
 tag @s add dark
 
-function ssbrc:series/the_legend_of_zelda/link/menu/select_character
+tellraw @s[tag=!blindPick,tag=!pickingRandom] [{"translate":"\n"},{"translate":"ssbrc.fighters.menu.skin","color":"white"},{"translate":"ssbrc.fighters.link.skin.darkLink","color":"dark_gray"},{"translate":"\n"}]
+execute if entity @s[tag=!blindPick,tag=!pickingRandom] run function ssbrc:series/the_legend_of_zelda/link/menu/skin_options
 
-scoreboard players set @s skinPicked 1
+function ssbrc:logic/selector/select_skin
