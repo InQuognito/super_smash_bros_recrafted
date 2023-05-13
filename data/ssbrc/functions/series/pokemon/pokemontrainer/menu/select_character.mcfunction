@@ -1,13 +1,6 @@
-tag @s[tag=!gold,tag=!shiny,tag=!dawn,tag=!victor] add default
+tellraw @s[tag=!blindPick] [{"translate":"ssbrc.fighters.menu.selected","color":"white"},{"translate":"ssbrc.fighters.pokemontrainer","color":"red"},{"translate":"!","color":"white"}]
 
-tellraw @s[tag=!blindPick] [{"translate":"ssbrc.fighters.menu.selected","color":"white"},{"translate":"ssbrc.fighters.pokemontrainer","color":"red"}]
-
-tellraw @s[tag=!blindPick,tag=default] [{"translate":"ssbrc.fighters.menu.skin","color":"white"},{"translate":"ssbrc.fighters.skin.default","color":"red"}]
-tellraw @s[tag=!blindPick,tag=gold] [{"translate":"ssbrc.fighters.menu.skin","color":"white"},{"translate":"ssbrc.fighters.skin.gold","color":"gold"}]
-tellraw @s[tag=!blindPick,tag=shiny] [{"translate":"ssbrc.fighters.menu.skin","color":"white"},{"translate":"ssbrc.series.pokemon.skins.shiny","color":"dark_gray"}]
-tellraw @s[tag=!blindPick,tag=dawn] [{"translate":"ssbrc.fighters.menu.skin","color":"white"},{"translate":"ssbrc.fighters.pokemontrainer.skin.dawn","color":"light_purple"}]
-tellraw @s[tag=!blindPick,tag=victor] [{"translate":"ssbrc.fighters.menu.skin","color":"white"},{"translate":"ssbrc.fighters.pokemontrainer.skin.victor","color":"dark_blue"}]
-
-function ssbrc:logic/resets/tags/characters
-tag @s add pokemontrainer
 function ssbrc:logic/selector/select_fighter
+
+tag @s add pokemontrainer
+tag @s add default
