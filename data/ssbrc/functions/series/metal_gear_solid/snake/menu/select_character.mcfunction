@@ -3,7 +3,6 @@ tellraw @s[tag=!blindPick] [{"translate":"ssbrc.fighters.menu.selected","color":
 function ssbrc:logic/selector/select_fighter
 
 tag @s add snake
-tag @s add default
 
 tag @s remove blindPick
 tag @s remove ignoreFeedback

@@ -1,6 +1,8 @@
 function ssbrc:logic/resets/tags/characters
 function ssbrc:logic/resets/tags/skins
 
+tag @s add default
+
 tag @s add characterPicked
 
 execute if score $teams options matches 0 run team join ready @s
