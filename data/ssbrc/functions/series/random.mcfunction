@@ -1,7 +1,5 @@
 execute if score $blindPick options matches 1 run tag @s add blindPick
 
-function ssbrc:logic/selector/select_fighter
-
 tag @s add pickingRandom
 
 scoreboard players set max random 38
@@ -52,5 +50,3 @@ scoreboard players reset @s characterPicked
 scoreboard players reset @s skinPicked
 
 tag @s remove blindPick
-
-say random
