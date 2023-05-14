@@ -1,4 +1,4 @@
-execute if entity @e[type=minecraft:item_display,tag=randomFighter,dx=0,sort=nearest,limit=1] run function ssbrc:series/random/default
+execute if entity @e[type=minecraft:item_display,tag=randomFighter,dx=0,sort=nearest,limit=1] run function ssbrc:series/random
 
 execute if entity @s[tag=!alteredbeast,advancements={ssbrc:series/retro_fighters/alteredbeast/skins/default=true}] if entity @e[type=minecraft:item_display,tag=alteredbeast,dx=0,sort=nearest,limit=1] run function ssbrc:series/retro_fighters/alteredbeast/menu/select_character
 execute if entity @s[advancements={ssbrc:series/retro_fighters/alteredbeast/skins/default=false}] if entity @e[type=minecraft:item_display,tag=alteredbeast,dx=0,sort=nearest,limit=1] run function ssbrc:logic/selector/unowned
