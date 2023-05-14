@@ -39,7 +39,6 @@ function ssbrc:logic/resets/tags/characters/the_legend_of_zelda/zelda
 
 # Misc
 tag @s remove abilityUsed
-tag @s remove blindPick
 tag @s remove characterPicked
 tag @s remove checkDeath
 tag @s remove checkKill
