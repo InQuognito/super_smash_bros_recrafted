@@ -50,6 +50,4 @@ execute unless score @s characterPicked matches 1.. run function ssbrc:series/ra
 scoreboard players reset @s characterPicked
 scoreboard players reset @s skinPicked
 
-function ssbrc:logic/inputs/reset
-
 tag @s remove blindPick

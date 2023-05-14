@@ -6,4 +6,5 @@ execute unless score @s[advancements={ssbrc:series/the_legend_of_zelda/ganondorf
 execute unless score @s[advancements={ssbrc:series/the_legend_of_zelda/ganondorf/skins/gold=true}] skinPicked matches 1 if score result random matches 1 run function ssbrc:series/the_legend_of_zelda/ganondorf/menu/skins/gold
 execute unless score @s[advancements={ssbrc:series/the_legend_of_zelda/ganondorf/skins/ocarina_of_time=true}] skinPicked matches 1 if score result random matches 2 run function ssbrc:series/the_legend_of_zelda/ganondorf/menu/skins/ocarina_of_time
 
+execute if score @s skinPicked matches 1 run function ssbrc:series/the_legend_of_zelda/ganondorf/menu/select_character
 execute unless score @s skinPicked matches 1 run function ssbrc:series/the_legend_of_zelda/ganondorf/menu/skins/random

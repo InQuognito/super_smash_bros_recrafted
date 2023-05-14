@@ -7,4 +7,5 @@ execute unless score @s[advancements={ssbrc:series/metroid/samus/skins/gold=true
 execute unless score @s[advancements={ssbrc:series/metroid/samus/skins/gravity_suit=true}] skinPicked matches 1 if score result random matches 2 run function ssbrc:series/metroid/samus/menu/skins/gravity_suit
 execute unless score @s[advancements={ssbrc:series/metroid/samus/skins/phazon_suit=true}] skinPicked matches 1 if score result random matches 3 run function ssbrc:series/metroid/samus/menu/skins/phazon_suit
 
+execute if score @s skinPicked matches 1 run function ssbrc:series/metroid/samus/menu/select_character
 execute unless score @s skinPicked matches 1 run function ssbrc:series/metroid/samus/menu/skins/random

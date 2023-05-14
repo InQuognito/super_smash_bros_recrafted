@@ -6,4 +6,5 @@ execute unless score @s[advancements={ssbrc:series/super_mario_bros/luigi/skins/
 execute unless score @s[advancements={ssbrc:series/super_mario_bros/luigi/skins/gold=true}] skinPicked matches 1 if score result random matches 1 run function ssbrc:series/super_mario_bros/luigi/menu/skins/gold
 execute unless score @s[advancements={ssbrc:series/super_mario_bros/luigi/skins/flower_power=true}] skinPicked matches 1 if score result random matches 2 run function ssbrc:series/super_mario_bros/luigi/menu/skins/flower_power
 
+execute if score @s skinPicked matches 1 run function ssbrc:series/super_mario_bros/luigi/menu/select_character
 execute unless score @s skinPicked matches 1 run function ssbrc:series/super_mario_bros/luigi/menu/skins/random

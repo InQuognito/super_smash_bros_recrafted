@@ -8,4 +8,5 @@ execute unless score @s[advancements={ssbrc:series/dragon_quest/hero/skins/erdri
 execute unless score @s[advancements={ssbrc:series/dragon_quest/hero/skins/rek=true}] skinPicked matches 1 if score result random matches 3 run function ssbrc:series/dragon_quest/hero/menu/skins/rek
 execute unless score @s[advancements={ssbrc:series/dragon_quest/hero/skins/sofia=true}] skinPicked matches 1 if score result random matches 4 run function ssbrc:series/dragon_quest/hero/menu/skins/sofia
 
+execute if score @s skinPicked matches 1 run function ssbrc:series/dragon_quest/hero/menu/select_character
 execute unless score @s skinPicked matches 1 run function ssbrc:series/dragon_quest/hero/menu/skins/random

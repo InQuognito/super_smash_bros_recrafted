@@ -6,4 +6,5 @@ execute unless score @s[advancements={ssbrc:series/donkey_kong/donkeykong/skins/
 execute unless score @s[advancements={ssbrc:series/donkey_kong/donkeykong/skins/gold=true}] skinPicked matches 1 if score result random matches 1 run function ssbrc:series/donkey_kong/donkeykong/menu/skins/gold
 execute unless score @s[advancements={ssbrc:series/donkey_kong/donkeykong/skins/super_kong=true}] skinPicked matches 1 if score result random matches 2 run function ssbrc:series/donkey_kong/donkeykong/menu/skins/super_kong
 
+execute if score @s skinPicked matches 1 run function ssbrc:series/donkey_kong/donkeykong/menu/select_character
 execute unless score @s skinPicked matches 1 run function ssbrc:series/donkey_kong/donkeykong/menu/skins/random

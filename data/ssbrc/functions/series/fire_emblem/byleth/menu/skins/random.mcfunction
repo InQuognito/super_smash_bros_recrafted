@@ -9,4 +9,5 @@ execute unless score @s[advancements={ssbrc:series/fire_emblem/byleth/skins/gold
 execute unless score @s[advancements={ssbrc:series/fire_emblem/byleth/skins/awakened=true}] skinPicked matches 1 if score result random matches 4 run function ssbrc:series/fire_emblem/byleth/menu/skins/awakened/female
 execute unless score @s[advancements={ssbrc:series/fire_emblem/byleth/skins/awakened=true}] skinPicked matches 1 if score result random matches 5 run function ssbrc:series/fire_emblem/byleth/menu/skins/awakened/male
 
+execute if score @s skinPicked matches 1 run function ssbrc:series/fire_emblem/byleth/menu/select_character
 execute unless score @s skinPicked matches 1 run function ssbrc:series/fire_emblem/byleth/menu/skins/random

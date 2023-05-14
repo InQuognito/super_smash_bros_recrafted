@@ -6,4 +6,5 @@ execute unless score @s[advancements={ssbrc:series/super_mario_bros/bowser/skins
 execute unless score @s[advancements={ssbrc:series/super_mario_bros/bowser/skins/gold=true}] skinPicked matches 1 if score result random matches 1 run function ssbrc:series/super_mario_bros/bowser/menu/skins/gold
 execute unless score @s[advancements={ssbrc:series/super_mario_bros/bowser/skins/bowsette=true}] skinPicked matches 1 if score result random matches 1 run function ssbrc:series/super_mario_bros/bowser/menu/skins/bowsette
 
+execute if score @s skinPicked matches 1 run function ssbrc:series/super_mario_bros/bowser/menu/select_character
 execute unless score @s skinPicked matches 1 run function ssbrc:series/super_mario_bros/bowser/menu/skins/random

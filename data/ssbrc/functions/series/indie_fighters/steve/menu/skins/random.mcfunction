@@ -7,4 +7,5 @@ execute unless score @s[advancements={ssbrc:series/indie_fighters/steve/skins/go
 execute unless score @s[advancements={ssbrc:series/indie_fighters/steve/skins/alex=true}] skinPicked matches 1 if score result random matches 2 run function ssbrc:series/indie_fighters/steve/menu/skins/alex
 execute unless score @s[advancements={ssbrc:series/indie_fighters/steve/skins/herobrine=true}] skinPicked matches 1 if score result random matches 3 run function ssbrc:series/indie_fighters/steve/menu/skins/herobrine
 
+execute if score @s skinPicked matches 1 run function ssbrc:series/indie_fighters/steve/menu/select_character
 execute unless score @s skinPicked matches 1 run function ssbrc:series/indie_fighters/steve/menu/skins/random

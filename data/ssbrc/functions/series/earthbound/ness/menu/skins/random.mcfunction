@@ -8,4 +8,5 @@ execute unless score @s[advancements={ssbrc:series/earthbound/ness/skins/moonsid
 execute unless score @s[advancements={ssbrc:series/earthbound/ness/skins/pajamas=true}] skinPicked matches 1 if score result random matches 3 run function ssbrc:series/earthbound/ness/menu/skins/pajamas
 execute unless score @s[advancements={ssbrc:series/earthbound/ness/skins/phase_distortion=true}] skinPicked matches 1 if score result random matches 4 run function ssbrc:series/earthbound/ness/menu/skins/phase_distortion
 
+execute if score @s skinPicked matches 1 run function ssbrc:series/earthbound/ness/menu/select_character
 execute unless score @s skinPicked matches 1 run function ssbrc:series/earthbound/ness/menu/skins/random
