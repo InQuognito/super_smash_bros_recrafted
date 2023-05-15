@@ -34,7 +34,7 @@ execute as @e[type=minecraft:marker,tag=hyperVoice] at @s if score @s id = @p[ta
 
 # Joker
 execute as @e[type=minecraft:arrow,tag=tt33Bullet] at @s if score @s id = @p[tag=self] id run function ssbrc:series/persona/joker/logic/tt33/tick
-execute as @e[type=minecraft:area_effect_cloud,tag=eiagon] at @s if score @s id = @p[tag=self] id run function ssbrc:series/persona/joker/logic/abilities/eiagon/tick
+execute as @e[type=minecraft:marker,tag=eiagon] at @s if score @s id = @p[tag=self] id run function ssbrc:series/persona/joker/logic/abilities/eiagon/tick
 execute as @e[type=minecraft:area_effect_cloud,tag=eiagon.pool] at @s if score @s id = @p[tag=self] id run particle minecraft:dust_color_transition 0.4 0.0 0.0 1.0 0.2 0.0 0.0 ~ ~1 ~ 0.2 0.5 0.2 0.0 25 normal @a
 execute as @e[type=minecraft:marker,tag=hama] at @s if score @s id = @p[tag=self] id run function ssbrc:series/persona/joker/logic/abilities/hama/tick
 execute as @e[type=minecraft:item_display,tag=hama.display] at @s if score @s id = @p[tag=self] id run function ssbrc:series/persona/joker/logic/abilities/hama/tick_sigil
