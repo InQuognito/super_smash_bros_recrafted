@@ -107,3 +107,6 @@ clear @s minecraft:carrot_on_a_stick{pickaxe:1}
 # Altered Beast
 clear @s minecraft:trident{feralClaw:1}
 clear @s minecraft:firework_rocket{sabretooth:1}
+
+# Yar
+clear @s minecraft:carrot_on_a_stick{drone:1}
