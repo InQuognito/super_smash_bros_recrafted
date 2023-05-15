@@ -12,4 +12,4 @@ execute store result storage ssbrc:data Temp.Rotation[1] float 1.0 run scoreboar
 
 data modify entity @s Rotation set from storage ssbrc:data Temp.Rotation
 
-execute at @s run function ssbrc:series/kingdom_hearts/sora/logic/abilities/blizzaga/projectile
+function ssbrc:series/kingdom_hearts/sora/logic/abilities/blizzaga/projectile
