@@ -5,4 +5,4 @@ function ssbrc:series/final_fantasy/cloud/logic/limit/update
 
 function ssbrc:logic/characters/effects/mobility/immobilize
 
-playsound ssbrc:fighters.cloud.cross_slash.activate player @a
+execute at @s run playsound ssbrc:fighters.cloud.cross_slash.activate player @a
