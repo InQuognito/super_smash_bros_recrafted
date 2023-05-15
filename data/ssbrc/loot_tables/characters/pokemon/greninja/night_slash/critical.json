@@ -50,7 +50,7 @@
 								{
 									"attribute": "minecraft:generic.attack_damage",
 									"name": "Attack Damage",
-									"amount": 8,
+									"amount": 7,
 									"operation": "multiply_base",
 									"slot": "mainhand"
 								},
