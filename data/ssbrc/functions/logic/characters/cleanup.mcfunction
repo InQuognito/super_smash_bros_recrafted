@@ -41,7 +41,6 @@ tag @s remove shieldBroken
 
 # Bowser
 tag @s remove rageUsed
-execute if entity @s[tag=bowser] run function ssbrc:series/super_mario_bros/bowser/logic/abilities/rage/deactivate
 
 # Link
 clear @s[tag=link] minecraft:carrot_on_a_stick{boomerang:1}

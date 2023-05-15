@@ -2,6 +2,9 @@ scoreboard players set @s duration.1 1
 scoreboard players set @s duration.2 1
 scoreboard players set @s duration.3 1
 
+# Bowser
+execute if entity @s[tag=bowser] run function ssbrc:series/super_mario_bros/bowser/logic/abilities/rage/deactivate
+
 # Byleth
 loot replace entity @s[tag=blackEagles] weapon.offhand loot ssbrc:characters/fire_emblem/byleth/shield
 
