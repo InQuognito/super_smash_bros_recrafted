@@ -12,4 +12,4 @@ execute store result storage ssbrc:data Temp.Rotation[1] float 1.0 run scoreboar
 
 data modify entity @s Rotation set from storage ssbrc:data Temp.Rotation
 
-function ssbrc:series/persona/joker/logic/tt33/projectile
+execute at @s anchored eyes run function ssbrc:series/persona/joker/logic/tt33/projectile
