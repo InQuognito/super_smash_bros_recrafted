@@ -1,6 +1,8 @@
 scoreboard players reset @s useAbility
 function ssbrc:logic/resets/charge
 
+scoreboard players reset @s fallDistance
+
 scoreboard players set @s duration.1 1
 scoreboard players set @s duration.2 1
 scoreboard players set @s duration.3 1
