@@ -6,4 +6,6 @@ execute if score @s charge.1 >= #luigi.superJumpThreshold vars at @s run particl
 
 execute if score @s charge.1 = #luigi.superJumpThreshold vars run function ssbrc:series/super_mario_bros/luigi/logic/abilities/super_jump/charge
 
-execute if score @s charge.1 >= #luigi.superJumpThreshold vars if score @s moveDistance >= #luigi.superJumpMovementFalloff vars run function ssbrc:series/super_mario_bros/luigi/logic/abilities/super_jump/reset
+scoreboard players operation superJumpFalloff temp = @s walkDistance
+scoreboard players operation superJumpFalloff temp += @s sprintDistance
+execute if score @s charge.1 >= #luigi.superJumpThreshold vars if score superJumpFalloff temp >= #luigi.superJumpMovementFalloff vars run function ssbrc:series/super_mario_bros/luigi/logic/abilities/super_jump/reset

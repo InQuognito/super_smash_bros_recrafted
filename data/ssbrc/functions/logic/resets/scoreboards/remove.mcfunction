@@ -64,7 +64,6 @@ scoreboard objectives remove menu
 scoreboard objectives remove motionX
 scoreboard objectives remove motionY
 scoreboard objectives remove motionZ
-scoreboard objectives remove moveDistance
 scoreboard objectives remove piercing
 scoreboard objectives remove point
 scoreboard objectives remove points
@@ -112,6 +111,7 @@ scoreboard objectives remove snake.antiPersonnelMineA
 scoreboard objectives remove snake.antiPersonnelMineF
 scoreboard objectives remove snake.smokeGrenadeA
 scoreboard objectives remove snake.smokeGrenadeF
+scoreboard objectives remove sprintDistance
 scoreboard objectives remove stageIndex
 scoreboard objectives remove stageIndexCalculator
 scoreboard objectives remove stamina
@@ -133,6 +133,7 @@ scoreboard objectives remove towerOfFateBarrier
 scoreboard objectives remove useAbility
 scoreboard objectives remove useItem
 scoreboard objectives remove vars
+scoreboard objectives remove walkDistance
 scoreboard objectives remove yar.droneHealth
 
 # Bonuses

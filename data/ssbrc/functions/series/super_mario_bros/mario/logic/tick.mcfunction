@@ -6,4 +6,6 @@ execute if score @s charge.1 >= #mario.superJumpThreshold vars at @s run particl
 
 execute if score @s charge.1 = #mario.superJumpThreshold vars run function ssbrc:series/super_mario_bros/mario/logic/abilities/super_jump/charge
 
-execute if score @s charge.1 >= #mario.superJumpThreshold vars if score @s moveDistance >= #mario.superJumpMovementFalloff vars run function ssbrc:series/super_mario_bros/mario/logic/abilities/super_jump/reset
+scoreboard players operation superJumpFalloff temp = @s walkDistance
+scoreboard players operation superJumpFalloff temp += @s sprintDistance
+execute if score @s charge.1 >= #mario.superJumpThreshold vars if score superJumpFalloff temp >= #mario.superJumpMovementFalloff vars run function ssbrc:series/super_mario_bros/mario/logic/abilities/super_jump/reset

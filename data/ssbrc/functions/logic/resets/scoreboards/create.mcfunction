@@ -64,7 +64,6 @@ scoreboard objectives add menu trigger
 scoreboard objectives add motionX dummy
 scoreboard objectives add motionY dummy
 scoreboard objectives add motionZ dummy
-scoreboard objectives add moveDistance minecraft.custom:minecraft.walk_one_cm
 scoreboard objectives add piercing dummy
 scoreboard objectives add point dummy
 scoreboard objectives add points dummy
@@ -112,6 +111,7 @@ scoreboard objectives add snake.antiPersonnelMineA dummy
 scoreboard objectives add snake.antiPersonnelMineF dummy
 scoreboard objectives add snake.smokeGrenadeA dummy
 scoreboard objectives add snake.smokeGrenadeF dummy
+scoreboard objectives add sprintDistance minecraft.custom:minecraft.sprint_one_cm
 scoreboard objectives add stageIndex dummy
 scoreboard objectives add stageIndexCalculator dummy
 scoreboard objectives add stamina dummy
@@ -133,6 +133,7 @@ scoreboard objectives add towerOfFateBarrier dummy
 scoreboard objectives add useAbility minecraft.used:minecraft.carrot_on_a_stick
 scoreboard objectives add useItem minecraft.used:minecraft.warped_fungus_on_a_stick
 scoreboard objectives add vars dummy
+scoreboard objectives add walkDistance minecraft.custom:minecraft.walk_one_cm
 scoreboard objectives add yar.droneHealth dummy
 
 # Bonuses
