@@ -3,9 +3,9 @@ execute if entity @s[scores={useAbility=1..},nbt={SelectedItem:{tag:{tt33:1}}}] 
 execute if entity @s[scores={useAbility=1..},nbt={SelectedItem:{tag:{mask:1}}}] run function ssbrc:series/persona/joker/logic/masks/activate
 
 execute if entity @s[scores={useAbility=1..,cooldown.1=..0},nbt={SelectedItem:{tag:{eiagon:1}}}] at @s anchored eyes run function ssbrc:series/persona/joker/logic/abilities/eiagon/activate
-execute if entity @s[scores={useAbility=1..,cooldown.1=..0},nbt={SelectedItem:{tag:{hama:1}}}] at @s anchored eyes run function ssbrc:series/persona/joker/logic/abilities/hama/summon
+execute if entity @s[scores={useAbility=1..,cooldown.1=..0},nbt={SelectedItem:{tag:{hama:1}}}] at @s anchored eyes positioned ^ ^ ^ run function ssbrc:series/persona/joker/logic/abilities/hama/summon
 execute if entity @s[scores={useAbility=1..,cooldown.1=..0},nbt={SelectedItem:{tag:{amritaShower:1}}}] run function ssbrc:series/persona/joker/logic/abilities/amrita_shower/on
-execute if entity @s[scores={useAbility=1..,cooldown.1=..0},nbt={SelectedItem:{tag:{phantomShow:1}}}] at @s anchored eyes run function ssbrc:series/persona/joker/logic/abilities/phantom_show/summon
+execute if entity @s[scores={useAbility=1..,cooldown.1=..0},nbt={SelectedItem:{tag:{phantomShow:1}}}] at @s anchored eyes positioned ^ ^ ^ run function ssbrc:series/persona/joker/logic/abilities/phantom_show/summon
 
 # Persona Awakening
 execute if score @s duration.1 matches 1 run function ssbrc:series/persona/joker/logic/abilities/persona_awakening/deactivate

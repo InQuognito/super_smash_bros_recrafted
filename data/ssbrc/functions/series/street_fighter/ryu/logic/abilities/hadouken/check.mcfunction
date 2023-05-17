@@ -4,4 +4,4 @@ tag @e[type=#ssbrc:projectiles,tag=hadouken,tag=checkAgainst] remove checkAgains
 
 scoreboard players set ryu.hadoukenLimit vars 1
 execute if score @s duration.1 matches 2.. run scoreboard players add ryu.hadoukenLimit vars 1
-execute if score hadouken temp < ryu.hadoukenLimit vars run function ssbrc:series/street_fighter/ryu/logic/abilities/hadouken/activate
+execute if score hadouken temp < ryu.hadoukenLimit vars anchored eyes positioned ^ ^ ^ run function ssbrc:series/street_fighter/ryu/logic/abilities/hadouken/activate

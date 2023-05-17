@@ -3,8 +3,8 @@ execute if entity @s[tag=blackEagles,predicate=ssbrc:flag/sneaking,scores={useAb
 execute if entity @s[tag=blackEagles,predicate=ssbrc:flag/sneaking,scores={useAbility=1..,cooldown.1=..0},nbt={SelectedItem:{tag:{aymr:1,awakened:1}}}] at @s rotated ~ 0.0 positioned ^ ^ ^1 unless block ~ ~-0.1 ~ #ssbrc:passthrough run function ssbrc:series/fire_emblem/byleth/logic/black_eagles/ground_pound/activate
 execute if entity @s[tag=blueLions,predicate=ssbrc:flag/sneaking,scores={charge.step=5..},nbt={SelectedItem:{tag:{areadbhar:1}}}] at @s run function ssbrc:series/fire_emblem/byleth/logic/blue_lions/spin_attack/deactivate
 execute if entity @s[tag=blueLions,scores={useAbility=1..,cooldown.2=..0},nbt={SelectedItem:{tag:{steedCharge:1}}}] at @s rotated ~ 0.0 run function ssbrc:series/fire_emblem/byleth/logic/blue_lions/steed_charge/activate
-execute if entity @s[tag=goldenDeer,scores={charge.step=5..,cooldown.1=..0},nbt={SelectedItem:{tag:{failnaught:1}}}] at @s anchored eyes run function ssbrc:series/fire_emblem/byleth/logic/golden_deer/failnaught/check
-execute if entity @s[tag=goldenDeer,scores={charge.step=5..},nbt={SelectedItem:{tag:{braveBow:1}}}] at @s anchored eyes run function ssbrc:series/fire_emblem/byleth/logic/golden_deer/brave_bow/activate
+execute if entity @s[tag=goldenDeer,scores={charge.step=5..,cooldown.1=..0},nbt={SelectedItem:{tag:{failnaught:1}}}] run function ssbrc:series/fire_emblem/byleth/logic/golden_deer/failnaught/check
+execute if entity @s[tag=goldenDeer,scores={charge.step=5..},nbt={SelectedItem:{tag:{braveBow:1}}}] at @s anchored eyes positioned ^ ^ ^ run function ssbrc:series/fire_emblem/byleth/logic/golden_deer/brave_bow/activate
 
 # Ground Pound
 execute unless score @s[nbt=!{Inventory:[{tag:{shield:1}}]}] charge.output matches 1.. run tag @s add shieldBroken
