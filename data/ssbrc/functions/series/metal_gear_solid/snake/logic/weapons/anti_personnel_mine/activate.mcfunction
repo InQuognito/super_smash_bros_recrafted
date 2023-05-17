@@ -6,9 +6,7 @@ kill @e[type=minecraft:marker,tag=direction,sort=nearest,limit=1]
 
 scoreboard players remove @s snake.antiPersonnelMineA 1
 
-scoreboard players set @s snake.antiPersonnelMineF 20
-execute if score @s shadow.chaosControl matches 1.. run scoreboard players operation #tempCooldown temp = @s snake.antiPersonnelMineF
-execute if score @s shadow.chaosControl matches 1.. run scoreboard players operation #tempCooldown temp /= 4 integers
-execute if score @s shadow.chaosControl matches 1.. run scoreboard players operation @s snake.antiPersonnelMineF += #tempCooldown temp
+scoreboard players set @s cooldown.2 20
+execute if score @s shadow.chaosControl matches 1.. run function ssbrc:logic/characters/cooldown_modifiers/chaos_control/2
 
 clear @s[scores={snake.antiPersonnelMineA=..0}] minecraft:carrot_on_a_stick{antiPersonnelMine:1}

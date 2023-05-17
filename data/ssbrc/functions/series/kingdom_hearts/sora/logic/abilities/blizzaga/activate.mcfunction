@@ -1,11 +1,4 @@
-execute summon minecraft:marker run function ssbrc:series/kingdom_hearts/sora/logic/abilities/blizzaga/init/offset
-execute summon minecraft:marker run function ssbrc:series/kingdom_hearts/sora/logic/abilities/blizzaga/init/offset
-execute summon minecraft:marker run function ssbrc:series/kingdom_hearts/sora/logic/abilities/blizzaga/init/offset
-execute summon minecraft:marker run function ssbrc:series/kingdom_hearts/sora/logic/abilities/blizzaga/init/offset
-execute summon minecraft:marker run function ssbrc:series/kingdom_hearts/sora/logic/abilities/blizzaga/init/offset
-execute summon minecraft:marker run function ssbrc:series/kingdom_hearts/sora/logic/abilities/blizzaga/init/offset
-execute summon minecraft:marker run function ssbrc:series/kingdom_hearts/sora/logic/abilities/blizzaga/init/offset
-execute summon minecraft:marker run function ssbrc:series/kingdom_hearts/sora/logic/abilities/blizzaga/init/offset
+execute summon minecraft:marker run function ssbrc:series/kingdom_hearts/sora/logic/abilities/blizzaga/projectile
 
 scoreboard players operation @s mana -= #sora.blizzagaMPCost vars
 

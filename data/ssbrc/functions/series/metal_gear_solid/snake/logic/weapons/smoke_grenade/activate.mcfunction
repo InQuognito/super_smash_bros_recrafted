@@ -6,10 +6,8 @@ kill @e[type=minecraft:marker,tag=direction,sort=nearest,limit=1]
 
 scoreboard players remove @s snake.smokeGrenadeA 1
 
-scoreboard players set @s snake.smokeGrenadeF 300
-execute if score @s shadow.chaosControl matches 1.. run scoreboard players operation #tempCooldown temp = @s snake.smokeGrenadeF
-execute if score @s shadow.chaosControl matches 1.. run scoreboard players operation #tempCooldown temp /= 4 integers
-execute if score @s shadow.chaosControl matches 1.. run scoreboard players operation @s snake.smokeGrenadeF += #tempCooldown temp
+scoreboard players set @s cooldown.2 300
+execute if score @s shadow.chaosControl matches 1.. run function ssbrc:logic/characters/cooldown_modifiers/chaos_control/2
 
 clear @s[scores={snake.smokeGrenadeA=..0}] minecraft:carrot_on_a_stick{smokeGrenade:1}
 
