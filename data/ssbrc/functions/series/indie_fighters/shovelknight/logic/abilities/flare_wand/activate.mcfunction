@@ -1,8 +1,4 @@
-execute positioned 0.0 0.0 0.0 run summon minecraft:marker ^ ^ ^1 {Tags:["direction"]}
-
-execute positioned ^ ^ ^1 summon minecraft:arrow run function ssbrc:series/indie_fighters/shovelknight/logic/abilities/flare_wand/init
-
-kill @e[type=minecraft:marker,tag=direction,sort=nearest,limit=1]
+execute summon minecraft:marker run function ssbrc:series/indie_fighters/shovelknight/logic/abilities/flare_wand/init/marker
 
 scoreboard players operation @s mana -= #shovelknight.flareWandManaCost vars
 

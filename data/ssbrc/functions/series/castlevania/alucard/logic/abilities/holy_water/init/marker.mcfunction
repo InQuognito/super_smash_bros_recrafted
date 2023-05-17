@@ -1,6 +1,6 @@
 teleport @s ~ ~ ~ ~ ~
 
-execute rotated as @s positioned 0.0 0.0 0.0 run teleport @s ^ ^ ^0.5
+execute rotated as @s positioned 0.0 0.0 0.0 run teleport @s ^ ^ ^1
 
 data modify storage ssbrc:data Motion set from entity @s Pos
 

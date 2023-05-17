@@ -1,8 +1,4 @@
-execute positioned 0.0 0.0 0.0 run summon minecraft:marker ^ ^ ^1 {Tags:["direction"]}
-
-execute positioned ^ ^ ^1 summon minecraft:armor_stand run function ssbrc:series/mega_man/megaman/logic/abilities/black_hole_bomb/init
-
-kill @e[type=minecraft:marker,tag=direction,sort=nearest,limit=1]
+execute summon minecraft:marker run function ssbrc:series/mega_man/megaman/logic/abilities/black_hole_bomb/init/marker
 
 scoreboard players remove @s charge.1 1
 

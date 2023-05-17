@@ -1,10 +1,4 @@
-execute positioned 0.0 0.0 0.0 run summon minecraft:marker ^ ^ ^0.3 {Tags:["direction"]}
-
-execute unless score @s duration.1 matches 2.. unless score @s charge.output matches 12.. positioned ^ ^ ^1 summon minecraft:marker run function ssbrc:series/street_fighter/ryu/logic/abilities/hadouken/init
-execute unless score @s duration.1 matches 2.. if score @s charge.output matches 12.. positioned ^ ^ ^1 summon minecraft:arrow run function ssbrc:series/street_fighter/ryu/logic/abilities/hadouken/init
-execute if score @s duration.1 matches 2.. positioned ^ ^ ^1 summon minecraft:marker run function ssbrc:series/street_fighter/ryu/logic/abilities/hadouken/init
-
-kill @e[type=minecraft:marker,tag=direction,sort=nearest,limit=1]
+execute summon minecraft:marker run function ssbrc:series/street_fighter/ryu/logic/abilities/hadouken/init/marker
 
 execute unless score @s charge.output matches 12.. run scoreboard players set @s cooldown.1 5
 execute if score @s charge.output matches 12.. run scoreboard players set @s cooldown.1 10

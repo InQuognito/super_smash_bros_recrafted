@@ -1,10 +1,10 @@
-execute if score @s charge.output matches 1..2 run summon minecraft:marker ^ ^ ^0.075 {Tags:["direction"]}
-execute if score @s charge.output matches 3..4 run summon minecraft:marker ^ ^ ^0.1 {Tags:["direction"]}
-execute if score @s charge.output matches 5..6 run summon minecraft:marker ^ ^ ^0.4 {Tags:["direction"]}
-execute if score @s charge.output matches 7..8 run summon minecraft:marker ^ ^ ^0.7 {Tags:["direction"]}
-execute if score @s charge.output matches 9..10 run summon minecraft:marker ^ ^ ^1.0 {Tags:["direction"]}
-execute if score @s charge.output matches 11..12 run summon minecraft:marker ^ ^ ^1.25 {Tags:["direction"]}
-execute if score @s charge.output matches 13..14 run summon minecraft:marker ^ ^ ^1.5 {Tags:["direction"]}
-execute if score @s charge.output matches 15..16 run summon minecraft:marker ^ ^ ^1.75 {Tags:["direction"]}
-execute if score @s charge.output matches 17..18 run summon minecraft:marker ^ ^ ^2.25 {Tags:["direction"]}
-execute if score @s charge.output matches 19.. run summon minecraft:marker ^ ^ ^2.75 {Tags:["direction"]}
+execute if score @s charge.output matches 1..2 run teleport @s ^ ^ ^0.075
+execute if score @s charge.output matches 3..4 run teleport @s ^ ^ ^0.1
+execute if score @s charge.output matches 5..6 run teleport @s ^ ^ ^0.4
+execute if score @s charge.output matches 7..8 run teleport @s ^ ^ ^0.7
+execute if score @s charge.output matches 9..10 run teleport @s ^ ^ ^1.0
+execute if score @s charge.output matches 11..12 run teleport @s ^ ^ ^1.25
+execute if score @s charge.output matches 13..14 run teleport @s ^ ^ ^1.5
+execute if score @s charge.output matches 15..16 run teleport @s ^ ^ ^1.75
+execute if score @s charge.output matches 17..18 run teleport @s ^ ^ ^2.25
+execute if score @s charge.output matches 19.. run teleport @s ^ ^ ^2.75

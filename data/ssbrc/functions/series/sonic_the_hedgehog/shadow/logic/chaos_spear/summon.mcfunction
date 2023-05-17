@@ -1,8 +1,4 @@
-execute positioned 0.0 0.0 0.0 run summon minecraft:marker ^ ^ ^1.75 {Tags:["direction"]}
-
-execute positioned ^ ^ ^1 summon minecraft:arrow run function ssbrc:series/sonic_the_hedgehog/shadow/logic/chaos_spear/init
-
-kill @e[type=minecraft:marker,tag=direction,sort=nearest,limit=1]
+execute summon minecraft:marker run function ssbrc:series/sonic_the_hedgehog/shadow/logic/chaos_spear/init/marker
 
 scoreboard players set @s cooldown.1 15
 scoreboard players operation @s cooldown.1 += @s charge.1

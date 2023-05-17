@@ -6,13 +6,13 @@ execute store result score $yrot temp run data get storage ssbrc:data OriginalRo
 
 data modify storage ssbrc:data Rotation set value [0f,0f]
 
-function ssbrc:series/kingdom_hearts/sora/logic/abilities/blizzaga/init/offset
-function ssbrc:series/kingdom_hearts/sora/logic/abilities/blizzaga/init/offset
-function ssbrc:series/kingdom_hearts/sora/logic/abilities/blizzaga/init/offset
-function ssbrc:series/kingdom_hearts/sora/logic/abilities/blizzaga/init/offset
-function ssbrc:series/kingdom_hearts/sora/logic/abilities/blizzaga/init/offset
-function ssbrc:series/kingdom_hearts/sora/logic/abilities/blizzaga/init/offset
-function ssbrc:series/kingdom_hearts/sora/logic/abilities/blizzaga/init/offset
-function ssbrc:series/kingdom_hearts/sora/logic/abilities/blizzaga/init/offset
+function ssbrc:series/kingdom_hearts/sora/logic/abilities/blizzaga/init/marker
+function ssbrc:series/kingdom_hearts/sora/logic/abilities/blizzaga/init/marker
+function ssbrc:series/kingdom_hearts/sora/logic/abilities/blizzaga/init/marker
+function ssbrc:series/kingdom_hearts/sora/logic/abilities/blizzaga/init/marker
+function ssbrc:series/kingdom_hearts/sora/logic/abilities/blizzaga/init/marker
+function ssbrc:series/kingdom_hearts/sora/logic/abilities/blizzaga/init/marker
+function ssbrc:series/kingdom_hearts/sora/logic/abilities/blizzaga/init/marker
+function ssbrc:series/kingdom_hearts/sora/logic/abilities/blizzaga/init/marker
 
 kill @s

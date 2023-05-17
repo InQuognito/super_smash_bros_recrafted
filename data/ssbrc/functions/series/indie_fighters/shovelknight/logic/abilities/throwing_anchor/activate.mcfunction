@@ -1,9 +1,5 @@
 execute positioned 0.0 0.0 0.0 summon minecraft:marker run function ssbrc:series/indie_fighters/shovelknight/logic/abilities/throwing_anchor/init/marker
 
-execute positioned ^ ^ ^1 positioned ~ ~1 ~ summon minecraft:armor_stand run function ssbrc:series/indie_fighters/shovelknight/logic/abilities/throwing_anchor/init/projectile
-
-kill @e[type=minecraft:marker,tag=direction,sort=nearest,limit=1]
-
 scoreboard players operation @s mana -= #shovelknight.throwingAnchorManaCost vars
 
 scoreboard players set @s cooldown.1 10

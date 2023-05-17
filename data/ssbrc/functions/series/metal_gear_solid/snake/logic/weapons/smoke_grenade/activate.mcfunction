@@ -1,8 +1,4 @@
-execute positioned 0.0 0.0 0.0 run summon minecraft:marker ^ ^ ^1 {Tags:["direction"]}
-
-execute positioned ^ ^ ^1 summon minecraft:armor_stand run function ssbrc:series/metal_gear_solid/snake/logic/weapons/smoke_grenade/init
-
-kill @e[type=minecraft:marker,tag=direction,sort=nearest,limit=1]
+execute summon minecraft:marker run function ssbrc:series/metal_gear_solid/snake/logic/weapons/smoke_grenade/init/marker
 
 scoreboard players remove @s snake.smokeGrenadeA 1
 

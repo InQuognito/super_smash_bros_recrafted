@@ -6,13 +6,13 @@ execute store result score $yrot temp run data get storage ssbrc:data OriginalRo
 
 data modify storage ssbrc:data Rotation set value [0f,0f]
 
-function ssbrc:series/metal_gear_solid/snake/logic/weapons/s1000/init/offset
-function ssbrc:series/metal_gear_solid/snake/logic/weapons/s1000/init/offset
-function ssbrc:series/metal_gear_solid/snake/logic/weapons/s1000/init/offset
-function ssbrc:series/metal_gear_solid/snake/logic/weapons/s1000/init/offset
-function ssbrc:series/metal_gear_solid/snake/logic/weapons/s1000/init/offset
-function ssbrc:series/metal_gear_solid/snake/logic/weapons/s1000/init/offset
-function ssbrc:series/metal_gear_solid/snake/logic/weapons/s1000/init/offset
-function ssbrc:series/metal_gear_solid/snake/logic/weapons/s1000/init/offset
+function ssbrc:series/metal_gear_solid/snake/logic/weapons/s1000/init/marker
+function ssbrc:series/metal_gear_solid/snake/logic/weapons/s1000/init/marker
+function ssbrc:series/metal_gear_solid/snake/logic/weapons/s1000/init/marker
+function ssbrc:series/metal_gear_solid/snake/logic/weapons/s1000/init/marker
+function ssbrc:series/metal_gear_solid/snake/logic/weapons/s1000/init/marker
+function ssbrc:series/metal_gear_solid/snake/logic/weapons/s1000/init/marker
+function ssbrc:series/metal_gear_solid/snake/logic/weapons/s1000/init/marker
+function ssbrc:series/metal_gear_solid/snake/logic/weapons/s1000/init/marker
 
 kill @s

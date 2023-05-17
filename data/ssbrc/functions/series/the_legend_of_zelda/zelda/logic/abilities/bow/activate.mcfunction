@@ -1,8 +1,4 @@
-execute positioned 0.0 0.0 0.0 run function ssbrc:series/the_legend_of_zelda/zelda/logic/abilities/bow/set_velocity
-
-execute positioned ^ ^ ^1 summon minecraft:spectral_arrow run function ssbrc:series/the_legend_of_zelda/zelda/logic/abilities/bow/init
-
-kill @e[type=minecraft:marker,tag=direction,sort=nearest,limit=1]
+execute summon minecraft:marker run function ssbrc:series/the_legend_of_zelda/zelda/logic/abilities/bow/init/marker
 
 scoreboard players operation @s mana -= #bowMagicCost temp
 

@@ -1,5 +1,9 @@
-tag @s add direction
+teleport @s ~ ~ ~ ~ -45.0
 
-data modify entity @s Rotation[0] set from entity @p[tag=self] Rotation[0]
-data modify entity @s Rotation[1] set value -45.0f
-execute at @s run teleport @s ^ ^ ^1.5
+execute rotated as @s positioned 0.0 0.0 0.0 run teleport @s ^ ^ ^1.5
+
+data modify storage ssbrc:data Motion set from entity @s Pos
+
+execute positioned ^ ^ ^1 positioned ~ ~1 ~ summon minecraft:armor_stand run function ssbrc:series/indie_fighters/shovelknight/logic/abilities/throwing_anchor/init/projectile
+
+kill @s
