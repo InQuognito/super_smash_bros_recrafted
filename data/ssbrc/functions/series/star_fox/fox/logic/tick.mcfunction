@@ -4,9 +4,9 @@ execute if entity @s[scores={useAbility=1..,cooldown.2=..0},nbt={SelectedItem:{t
 execute if entity @s[scores={useAbility=1..,cooldown.3=..0,duration.3=..0},nbt={SelectedItem:{tag:{fireFox:1}}}] at @s run function ssbrc:series/star_fox/fox/logic/abilities/fire_fox/activate
 
 # Reflector
-execute if score @s duration.2 matches 1.. at @s anchored eyes positioned ^ ^ ^2 as @e[type=#ssbrc:projectiles,predicate=!ssbrc:entity_kill_exceptions,tag=!reflected,distance=..2] run function ssbrc:series/star_fox/fox/logic/abilities/reflector/tick
+execute if score @s duration.2 matches 2.. at @s anchored eyes positioned ^ ^ ^2 as @e[type=#ssbrc:projectiles,predicate=!ssbrc:entity_kill_exceptions,tag=!reflected,distance=..2] run function ssbrc:series/star_fox/fox/logic/abilities/reflector/tick
 
-execute if score @s duration.2 matches 1.. run teleport @s @s
+execute if score @s duration.2 matches 2.. run teleport @s @s
 execute if score @s duration.2 matches 1 run function ssbrc:series/star_fox/fox/logic/abilities/reflector/deactivate
 
 # Fire Fox
