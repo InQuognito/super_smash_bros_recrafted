@@ -1,10 +1,4 @@
-execute positioned 0.0 0.0 0.0 run summon minecraft:marker ^ ^ ^0.5 {Tags:["direction"]}
-
-execute positioned ^ ^ ^1 summon minecraft:snowball run function ssbrc:series/castlevania/alucard/logic/abilities/holy_water/init/vehicle
-execute positioned ^ ^ ^1 summon minecraft:armor_stand run function ssbrc:series/castlevania/alucard/logic/abilities/holy_water/init/display
-execute positioned ^ ^ ^1 summon minecraft:area_effect_cloud run function ssbrc:series/castlevania/alucard/logic/abilities/holy_water/init/projectile
-
-kill @e[type=minecraft:marker,tag=direction,sort=nearest,limit=1]
+execute summon minecraft:marker run function ssbrc:series/castlevania/alucard/logic/abilities/holy_water/init/marker
 
 tag @s remove bloodMetamorphosis
 function ssbrc:logic/characters/armor/update
