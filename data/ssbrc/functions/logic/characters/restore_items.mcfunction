@@ -23,10 +23,10 @@ scoreboard players set @s[tag=donkeykong] charge.1 2
 loot replace entity @s[tag=ganondorf] hotbar.1 loot ssbrc:characters/the_legend_of_zelda/ganondorf/trident_of_power
 
 # Hero
-execute if entity @s[tag=hero] run function ssbrc:series/dragon_quest/hero/logic/magic/kaclang/deactivate
+execute if entity @s[tag=hero] run function ssbrc:series/dragon_quest/hero/logic/abilities/kaclang/deactivate
 
 scoreboard players operation @s[tag=hero] mana += #hero.manaGainedOnDeath vars
-execute if entity @s[tag=hero] run function ssbrc:series/dragon_quest/hero/logic/magic/restore
+execute if entity @s[tag=hero] run function ssbrc:series/dragon_quest/hero/logic/mana/restore
 
 # Joker
 execute if entity @s[tag=joker] run function ssbrc:series/persona/joker/logic/abilities/persona_awakening/deactivate

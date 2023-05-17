@@ -1,6 +1,6 @@
 execute positioned 0.0 0.0 0.0 run summon minecraft:marker ^ ^ ^1 {Tags:["direction"]}
 
-execute positioned ^ ^ ^1 summon minecraft:fireball run function ssbrc:series/dragon_quest/hero/logic/magic/bang/init
+execute positioned ^ ^ ^1 summon minecraft:fireball run function ssbrc:series/dragon_quest/hero/logic/abilities/bang/init
 
 kill @e[type=minecraft:marker,tag=direction,sort=nearest,limit=1]
 

@@ -27,7 +27,7 @@ execute as @e[type=minecraft:armor_stand,tag=waterShuriken] at @s if score @s id
 execute as @e[type=minecraft:marker,tag=shadowSneak] at @s if score @s id = @p[tag=self] id run function ssbrc:series/pokemon/greninja/logic/abilities/shadow_sneak/tick
 
 # Hero
-execute as @e[type=minecraft:fireball,tag=bang] at @s if score @s id = @p[tag=self] id run function ssbrc:series/dragon_quest/hero/logic/magic/bang/tick
+execute as @e[type=minecraft:fireball,tag=bang] at @s if score @s id = @p[tag=self] id run function ssbrc:series/dragon_quest/hero/logic/abilities/bang/tick
 
 # Jigglypuff
 execute as @e[type=minecraft:marker,tag=hyperVoice] at @s if score @s id = @p[tag=self] id run function ssbrc:series/pokemon/jigglypuff/logic/abilities/hyper_voice/tick
