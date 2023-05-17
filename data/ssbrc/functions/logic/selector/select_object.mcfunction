@@ -77,7 +77,7 @@ execute if entity @s[advancements={ssbrc:series/retro_fighters/yar/skins/default
 execute if entity @s[tag=!zelda,advancements={ssbrc:series/the_legend_of_zelda/zelda/skins/default=true}] if entity @e[type=minecraft:item_display,tag=zelda,dx=0,sort=nearest,limit=1] run function ssbrc:series/the_legend_of_zelda/zelda/menu/select_character
 execute if entity @s[advancements={ssbrc:series/the_legend_of_zelda/zelda/skins/default=false}] if entity @e[type=minecraft:item_display,tag=zelda,dx=0,sort=nearest,limit=1] run function ssbrc:logic/selector/unowned
 
-execute if entity @e[type=minecraft:item_display,tag=spectate,dx=0,sort=nearest,limit=1] run function ssbrc:logic/spectate
+execute if entity @e[type=minecraft:item_display,tag=spectate,dx=0,sort=nearest,limit=1] run function ssbrc:logic/spectate/join
 
 execute if entity @e[type=minecraft:item_display,tag=sandbag,dx=0,sort=nearest,limit=1] run function ssbrc:logic/selector/events/sandbag/interact
 
