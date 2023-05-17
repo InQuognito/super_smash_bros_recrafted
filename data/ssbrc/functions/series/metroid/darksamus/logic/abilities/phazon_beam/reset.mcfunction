@@ -42,3 +42,5 @@ execute if entity @s[nbt={Inventory:[{tag:{phazonBeam:1,charging:1},Slot:82b}]}]
 execute if entity @s[nbt={Inventory:[{tag:{phazonBeam:1,charging:1},Slot:83b}]}] run loot give @s loot ssbrc:characters/metroid/darksamus/phazon_beam/idle
 
 execute if entity @s[nbt={Inventory:[{tag:{phazonBeam:1,charging:1},Slot:-106b}]}] run loot replace entity @s weapon.offhand loot ssbrc:characters/metroid/darksamus/phazon_beam/idle
+
+say reset
