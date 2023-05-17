@@ -1,4 +1,4 @@
-function ssbrc:logic/spectate/join_late
+function ssbrc:logic/spectate/common
 
 effect clear @s minecraft:glowing
 
