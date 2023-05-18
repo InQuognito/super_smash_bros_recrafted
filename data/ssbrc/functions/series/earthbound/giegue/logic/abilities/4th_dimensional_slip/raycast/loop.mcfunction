@@ -2,8 +2,6 @@ particle minecraft:dust_color_transition 1.0 0.75 1.0 0.5 1.0 1.0 1.0 ~ ~0.75 ~ 
 
 execute unless block ^ ^ ^1 #ssbrc:passthrough_charge run function ssbrc:series/earthbound/giegue/logic/abilities/4th_dimensional_slip/end
 
-execute if block ^ ^ ^0.1 #ssbrc:passthrough_charge run teleport @s ^ ^ ^0.1
-
 scoreboard players remove $rayLength temp 1
 execute if score $rayLength temp matches 1 run function ssbrc:series/earthbound/giegue/logic/abilities/4th_dimensional_slip/end
-execute if score $rayLength temp matches 2.. positioned ^ ^ ^0.1 if block ~ ~ ~ #ssbrc:passthrough_charge run function ssbrc:series/earthbound/giegue/logic/abilities/4th_dimensional_slip/raycast/loop
+execute if score $rayLength temp matches 2.. if block ^ ^ ^1 #ssbrc:passthrough_charge positioned ^ ^ ^0.1 run function ssbrc:series/earthbound/giegue/logic/abilities/4th_dimensional_slip/raycast/loop
