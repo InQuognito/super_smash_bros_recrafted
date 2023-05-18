@@ -11,4 +11,4 @@ execute if score @s point > 0 integers unless block ~ ~-0.1 ~ #ssbrc:passthrough
 execute rotated as @s run teleport @s ^ ^ ^0.25
 
 scoreboard players add @s temp 1
-execute at @s[scores={temp=100..}] run function ssbrc:series/donkey_kong/donkeykong/logic/abilities/barrel/explode
+execute if score @s temp matches 100.. run function ssbrc:series/donkey_kong/donkeykong/logic/abilities/barrel/explode
