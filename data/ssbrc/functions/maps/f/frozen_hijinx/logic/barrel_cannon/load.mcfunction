@@ -1,5 +1,7 @@
 tag @s add inCannon
 
+scoreboard players operation @e[type=minecraft:item_display,tag=barrelCannon,sort=nearest,limit=1] id = @s id
+
 ride @s mount @e[type=minecraft:item_display,tag=barrelCannon,sort=nearest,limit=1]
 
 tag @e[type=minecraft:item_display,tag=barrelCannon,sort=nearest,limit=1] add playerInCannon
