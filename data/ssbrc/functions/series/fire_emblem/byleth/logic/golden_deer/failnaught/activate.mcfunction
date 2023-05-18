@@ -1,3 +1,4 @@
+execute store result score charge.output temp run scoreboard players get @s charge.output
 execute summon minecraft:marker run function ssbrc:series/fire_emblem/byleth/logic/golden_deer/failnaught/init/marker
 
 scoreboard players add @s charge.1 1
