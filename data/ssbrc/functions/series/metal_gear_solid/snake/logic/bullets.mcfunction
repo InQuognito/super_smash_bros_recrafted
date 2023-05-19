@@ -5,4 +5,4 @@ execute at @s[tag=psg1Bullet] run particle minecraft:end_rod ~ ~ ~ 0.0 0.0 0.0 0
 kill @s[tag=psg1Bullet,scores={temp=30..}]
 kill @s[tag=famasBullet,scores={temp=5..}]
 kill @s[tag=s1000Bullet,scores={temp=3..}]
-kill @s[tag=socomBullet,scores={temp=5..}]
+kill @s[tag=socomBullet,scores={temp=4..}]
