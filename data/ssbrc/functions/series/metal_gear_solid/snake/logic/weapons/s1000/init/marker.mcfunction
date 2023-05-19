@@ -12,6 +12,6 @@ execute rotated as @s positioned 0.0 0.0 0.0 run tp @s ^ ^ ^6
 
 data modify storage ssbrc:data Motion set from entity @s Pos
 
-execute summon minecraft:spectral_arrow run function ssbrc:series/metal_gear_solid/snake/logic/weapons/s1000/init/projectile
+execute summon minecraft:arrow run function ssbrc:series/metal_gear_solid/snake/logic/weapons/s1000/init/projectile
 
 kill @s
