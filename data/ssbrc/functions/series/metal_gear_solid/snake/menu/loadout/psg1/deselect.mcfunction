@@ -1,6 +1,6 @@
 tag @s remove psg1
 
-title @s actionbar [{"translate":"ssbrc.fighters.snake.loadout.unequip","color":"red"},{"translate":"ssbrc.fighters.snake.psg1","color":"red"}]
+tellraw @s [{"translate":"ssbrc.fighters.snake.loadout.unequip","color":"red"},{"translate":"ssbrc.fighters.snake.psg1","color":"red"}]
 
 scoreboard players operation @s snake.capacity -= #snake.psg1Weight vars
 

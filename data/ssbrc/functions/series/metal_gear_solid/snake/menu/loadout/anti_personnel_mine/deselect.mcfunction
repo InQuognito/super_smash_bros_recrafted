@@ -1,6 +1,6 @@
 tag @s remove antiPersonnelMine
 
-title @s actionbar [{"translate":"ssbrc.fighters.snake.loadout.unequip","color":"red"},{"translate":"ssbrc.fighters.snake.antiPersonnelMine","color":"red"}]
+tellraw @s [{"translate":"ssbrc.fighters.snake.loadout.unequip","color":"red"},{"translate":"ssbrc.fighters.snake.antiPersonnelMine","color":"red"}]
 
 scoreboard players operation @s snake.capacity -= #snake.antiPersonnelMineWeight vars
 

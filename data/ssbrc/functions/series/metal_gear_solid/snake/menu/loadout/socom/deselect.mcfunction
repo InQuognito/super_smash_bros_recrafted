@@ -1,6 +1,6 @@
 tag @s remove socom
 
-title @s actionbar [{"translate":"ssbrc.fighters.snake.loadout.unequip","color":"red"},{"translate":"ssbrc.fighters.snake.socom","color":"red"}]
+tellraw @s [{"translate":"ssbrc.fighters.snake.loadout.unequip","color":"red"},{"translate":"ssbrc.fighters.snake.socom","color":"red"}]
 
 scoreboard players operation @s snake.capacity -= #snake.socomWeight vars
 
