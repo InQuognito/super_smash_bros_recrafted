@@ -15,6 +15,6 @@ execute rotated as @s positioned 0.0 0.0 0.0 run teleport @s ^ ^ ^6
 
 data modify storage ssbrc:data Motion set from entity @s Pos
 
-execute summon minecraft:arrow run function ssbrc:series/metal_gear_solid/snake/logic/weapons/psg1/init/projectile
+execute summon minecraft:spectral_arrow run function ssbrc:series/metal_gear_solid/snake/logic/weapons/psg1/init/projectile
 
 kill @s
