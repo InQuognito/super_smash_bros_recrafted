@@ -5,3 +5,5 @@ execute store result storage ssbrc:data Rotation[0] float 0.1 run scoreboard pla
 function ssbrc:series/kingdom_hearts/sora/logic/abilities/blizzaga/offset
 scoreboard players operation offset temp = $yrot temp
 execute store result storage ssbrc:data Rotation[1] float 0.1 run scoreboard players operation offset temp += result random
+
+execute positioned ^ ^ ^1 summon minecraft:arrow run function ssbrc:series/kingdom_hearts/sora/logic/abilities/blizzaga/init/projectile
