@@ -118,17 +118,17 @@ execute if score @s[tag=snake] menu matches 1525 run function ssbrc:series/metal
 execute if score @s[tag=snake] menu matches 1526 run function ssbrc:series/metal_gear_solid/snake/menu/skins/iroquois_pliskin
 
 execute if score @s[tag=snake] characterTrigger matches 1520 run function ssbrc:series/metal_gear_solid/snake/menu/loadout/psg1/check
-execute if score @s[tag=snake] characterTrigger matches 1521 run function ssbrc:series/metal_gear_solid/snake/menu/loadout/psg1/deselect
+execute if score @s[tag=snake,tag=psg1] characterTrigger matches 1521 run function ssbrc:series/metal_gear_solid/snake/menu/loadout/psg1/deselect
 execute if score @s[tag=snake] characterTrigger matches 1522 run function ssbrc:series/metal_gear_solid/snake/menu/loadout/famas/check
-execute if score @s[tag=snake] characterTrigger matches 1523 run function ssbrc:series/metal_gear_solid/snake/menu/loadout/famas/deselect
+execute if score @s[tag=snake,tag=famas] characterTrigger matches 1523 run function ssbrc:series/metal_gear_solid/snake/menu/loadout/famas/deselect
 execute if score @s[tag=snake] characterTrigger matches 1524 run function ssbrc:series/metal_gear_solid/snake/menu/loadout/s1000/check
-execute if score @s[tag=snake] characterTrigger matches 1525 run function ssbrc:series/metal_gear_solid/snake/menu/loadout/s1000/deselect
+execute if score @s[tag=snake,tag=s1000] characterTrigger matches 1525 run function ssbrc:series/metal_gear_solid/snake/menu/loadout/s1000/deselect
 execute if score @s[tag=snake] characterTrigger matches 1526 run function ssbrc:series/metal_gear_solid/snake/menu/loadout/socom/check
-execute if score @s[tag=snake] characterTrigger matches 1527 run function ssbrc:series/metal_gear_solid/snake/menu/loadout/socom/deselect
+execute if score @s[tag=snake,tag=socom] characterTrigger matches 1527 run function ssbrc:series/metal_gear_solid/snake/menu/loadout/socom/deselect
 execute if score @s[tag=snake] characterTrigger matches 1528 run function ssbrc:series/metal_gear_solid/snake/menu/loadout/anti_personnel_mine/check
-execute if score @s[tag=snake] characterTrigger matches 1529 run function ssbrc:series/metal_gear_solid/snake/menu/loadout/anti_personnel_mine/deselect
+execute if score @s[tag=snake,tag=antiPersonnelMine] characterTrigger matches 1529 run function ssbrc:series/metal_gear_solid/snake/menu/loadout/anti_personnel_mine/deselect
 execute if score @s[tag=snake] characterTrigger matches 1530 run function ssbrc:series/metal_gear_solid/snake/menu/loadout/smoke_grenade/check
-execute if score @s[tag=snake] characterTrigger matches 1531 run function ssbrc:series/metal_gear_solid/snake/menu/loadout/smoke_grenade/deselect
+execute if score @s[tag=snake,tag=smokeGrenade] characterTrigger matches 1531 run function ssbrc:series/metal_gear_solid/snake/menu/loadout/smoke_grenade/deselect
 
 execute if score @s[tag=sonic] menu matches 1544 run function ssbrc:series/sonic_the_hedgehog/sonic/menu/skins/default
 execute if score @s[tag=sonic] menu matches 1545 run function ssbrc:series/sonic_the_hedgehog/sonic/menu/skins/gold
