@@ -4,7 +4,6 @@ function ssbrc:logic/selector/select_fighter
 
 tag @s add snake
 
-tag @s remove blindPick
 tag @s remove ignoreFeedback
 
 execute if entity @s[tag=!pickingRandom] run function ssbrc:series/metal_gear_solid/snake/menu/loadout/prompt
