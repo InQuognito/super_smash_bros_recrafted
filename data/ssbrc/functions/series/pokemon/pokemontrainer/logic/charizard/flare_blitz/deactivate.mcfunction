@@ -1,5 +1,3 @@
-damage @s 6.0 ssbrc:projectile
-
 kill @e[type=minecraft:marker,tag=flareBlitz,sort=nearest,limit=1]
 
 effect clear @s minecraft:levitation

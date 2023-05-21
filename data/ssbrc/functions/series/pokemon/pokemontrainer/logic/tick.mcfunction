@@ -3,7 +3,7 @@ execute if entity @s[scores={useAbility=1..,cooldown.1=..0,charge.1=1..},nbt={Se
 execute if entity @s[scores={useAbility=1..,cooldown.1=..0,duration.1=..0},nbt={SelectedItem:{tag:{waterGun:1}}}] run function ssbrc:series/pokemon/pokemontrainer/logic/squirtle/water_gun/activate
 
 # Flare Blitz
-execute at @s[tag=charizard,scores={duration.1=1}] run function ssbrc:series/pokemon/pokemontrainer/logic/charizard/flare_blitz/recoil
+execute at @s[tag=charizard,scores={duration.1=1}] run function ssbrc:series/pokemon/pokemontrainer/logic/charizard/flare_blitz/deactivate
 
 # Leech Seed
 title @s[tag=ivysaur,nbt=!{SelectedItem:{tag:{leechSeed:1}}}] actionbar ""
