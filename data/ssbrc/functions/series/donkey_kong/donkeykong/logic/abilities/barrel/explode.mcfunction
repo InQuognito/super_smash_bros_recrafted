@@ -12,3 +12,5 @@ execute as @p[tag=self] run function ssbrc:series/donkey_kong/donkeykong/logic/a
 kill @s
 
 playsound ssbrc:fighters.donkeykong.barrel.explode player @a
+
+say explode
