@@ -1,4 +1,6 @@
 say random snake skin
+tellraw @a [{"text":"characterPicked: "},{"score":{"name":"@s","objective":"characterPicked"}}]
+tellraw @a [{"text":"skinPicked: "},{"score":{"name":"@s","objective":"skinPicked"}}]
 
 scoreboard players set @s characterPicked 1
 scoreboard players set max random 3

@@ -1,4 +1,6 @@
 say gold skin
+tellraw @a [{"text":"characterPicked: "},{"score":{"name":"@s","objective":"characterPicked"}}]
+tellraw @a [{"text":"skinPicked: "},{"score":{"name":"@s","objective":"skinPicked"}}]
 
 function ssbrc:series/metal_gear_solid/snake/menu/skins/reset
 tag @s add gold
