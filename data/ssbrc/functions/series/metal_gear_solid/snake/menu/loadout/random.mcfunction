@@ -1,7 +1,3 @@
-say random loadout
-tellraw @a [{"text":"characterPicked: "},{"score":{"name":"@s","objective":"characterPicked"}}]
-tellraw @a [{"text":"skinPicked: "},{"score":{"name":"@s","objective":"skinPicked"}}]
-
 scoreboard players set @s skinPicked 2
 tag @s add ignoreFeedback
 

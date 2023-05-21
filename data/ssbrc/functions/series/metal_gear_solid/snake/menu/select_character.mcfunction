@@ -1,7 +1,3 @@
-say select snake
-tellraw @a [{"text":"characterPicked: "},{"score":{"name":"@s","objective":"characterPicked"}}]
-tellraw @a [{"text":"skinPicked: "},{"score":{"name":"@s","objective":"skinPicked"}}]
-
 tellraw @s[tag=!blindPick] [{"translate":"ssbrc.fighters.menu.selected","color":"white"},{"translate":"ssbrc.fighters.snake","color":"gray"},{"translate":"!","color":"white"}]
 
 function ssbrc:logic/selector/select_fighter

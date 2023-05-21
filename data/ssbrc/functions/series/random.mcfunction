@@ -1,7 +1,3 @@
-say pick random
-tellraw @a [{"text":"characterPicked: "},{"score":{"name":"@s","objective":"characterPicked"}}]
-tellraw @a [{"text":"skinPicked: "},{"score":{"name":"@s","objective":"skinPicked"}}]
-
 execute if score $blindPick options matches 1 run tag @s add blindPick
 
 tag @s add pickingRandom
