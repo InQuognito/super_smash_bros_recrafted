@@ -1,6 +1,7 @@
 execute if entity @s[type=#ssbrc:movement/motion] run function ssbrc:series/star_fox/fox/logic/abilities/reflector/reflect/arrows
 execute if entity @s[type=!#ssbrc:movement/motion] at @s run teleport @s ~ ~ ~ facing ^ ^ ^-1
 
+scoreboard players operation @s id = @p[tag=self] id
 data modify entity @s Owner set from entity @p[tag=self] UUID
 
 tag @s add reflected
