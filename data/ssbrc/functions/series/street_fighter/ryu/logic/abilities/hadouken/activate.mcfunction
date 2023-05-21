@@ -1,3 +1,4 @@
+execute store result score charge.output temp run scoreboard players get @s charge.output
 execute summon minecraft:marker run function ssbrc:series/street_fighter/ryu/logic/abilities/hadouken/init/marker
 
 execute unless score @s charge.output matches 12.. run scoreboard players set @s cooldown.1 5
