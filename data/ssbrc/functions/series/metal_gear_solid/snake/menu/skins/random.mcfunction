@@ -1,3 +1,4 @@
+scoreboard players set @s characterPicked 1
 scoreboard players set max random 3
 function ssbrc:math/rng/lcg
 
