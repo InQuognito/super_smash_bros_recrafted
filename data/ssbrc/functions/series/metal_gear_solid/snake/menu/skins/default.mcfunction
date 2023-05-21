@@ -1,3 +1,5 @@
+say default skin
+
 function ssbrc:series/metal_gear_solid/snake/menu/skins/reset
 tag @s add default
 

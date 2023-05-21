@@ -1,3 +1,5 @@
+say random loadout
+
 scoreboard players set @s skinPicked 2
 tag @s add ignoreFeedback
 

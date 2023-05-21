@@ -1,3 +1,5 @@
+say pick random
+
 execute if score $blindPick options matches 1 run tag @s add blindPick
 
 tag @s add pickingRandom
