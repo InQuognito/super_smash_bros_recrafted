@@ -1,8 +1,8 @@
 scoreboard players set @s characterPicked 1
 tag @s add ignoreFeedback
 
-execute unless score @s characterPicked matches 2 if score @s snake.capacity matches ..0 if predicate ssbrc:random_chance/10 run function ssbrc:series/metal_gear_solid/snake/menu/skins/random
-execute unless score @s characterPicked matches 2 if score @s snake.capacity matches 1.. if predicate ssbrc:random_chance/20 run function ssbrc:series/metal_gear_solid/snake/menu/skins/random
+execute unless score @s characterPicked matches 2 if score @s snake.capacity matches ..0 if predicate ssbrc:random_chance/10 run scoreboard players set @s characterPicked 2
+execute unless score @s characterPicked matches 2 if score @s snake.capacity matches 1.. if predicate ssbrc:random_chance/20 run scoreboard players set @s characterPicked 2
 
 scoreboard players set max random 6
 function ssbrc:math/rng/lcg
@@ -14,5 +14,5 @@ execute unless score @s characterPicked matches 2 if score result random matches
 execute unless score @s characterPicked matches 2 if score result random matches 4 run function ssbrc:series/metal_gear_solid/snake/menu/loadout/anti_personnel_mine/check
 execute unless score @s characterPicked matches 2 if score result random matches 5 run function ssbrc:series/metal_gear_solid/snake/menu/loadout/smoke_grenade/check
 
-execute unless score @s characterPicked matches 2 if score $item temp > #snake.totalWeight vars run function ssbrc:series/metal_gear_solid/snake/menu/skins/random
+execute unless score @s characterPicked matches 2 if score $item temp > #snake.totalWeight vars run scoreboard players set @s characterPicked 2
 execute unless score @s characterPicked matches 2 run function ssbrc:series/metal_gear_solid/snake/menu/loadout/random
