@@ -47,3 +47,5 @@ execute if score result random matches 3 run particle minecraft:dust 0.7 0.3 0.3
 
 tag @s remove bloodMetamorphosis
 function ssbrc:logic/characters/armor/update
+
+advancement revoke @s only ssbrc:utility/flag/hurt_player/custom/alucard_sword
