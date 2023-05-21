@@ -8,3 +8,4 @@ tag @s remove blindPick
 tag @s remove ignoreFeedback
 
 execute if entity @s[tag=!pickingRandom] run function ssbrc:series/metal_gear_solid/snake/menu/loadout/prompt
+execute if entity @s[tag=pickingRandom] run function ssbrc:series/metal_gear_solid/snake/menu/loadout/random
