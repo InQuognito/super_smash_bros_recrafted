@@ -1,8 +1,8 @@
 scoreboard players set @s skinPicked 2
 tag @s add ignoreFeedback
 
-execute unless score @s skinPicked matches 3 if score @s snake.capacity matches ..0 if predicate ssbrc:random_chance/10 run scoreboard players set @s skinPicked 2
-execute unless score @s skinPicked matches 3 if score @s snake.capacity matches 1.. if predicate ssbrc:random_chance/20 run scoreboard players set @s skinPicked 2
+execute unless score @s skinPicked matches 3 if score @s snake.capacity matches ..0 if predicate ssbrc:random_chance/10 run scoreboard players set @s skinPicked 3
+execute unless score @s skinPicked matches 3 if score @s snake.capacity matches 1.. if predicate ssbrc:random_chance/20 run scoreboard players set @s skinPicked 3
 
 scoreboard players set max random 6
 function ssbrc:math/rng/lcg
