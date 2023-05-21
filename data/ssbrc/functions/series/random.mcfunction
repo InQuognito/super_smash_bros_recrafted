@@ -50,3 +50,4 @@ scoreboard players reset @s characterPicked
 scoreboard players reset @s skinPicked
 
 tag @s remove blindPick
+tag @s remove pickingRandom
