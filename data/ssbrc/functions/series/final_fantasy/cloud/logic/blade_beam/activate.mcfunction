@@ -1,3 +1,4 @@
+scoreboard players operation limit temp = @s cloud.limit
 execute positioned ^ ^ ^1 summon minecraft:marker run function ssbrc:series/final_fantasy/cloud/logic/blade_beam/init
 
 scoreboard players set @s cooldown.2 20

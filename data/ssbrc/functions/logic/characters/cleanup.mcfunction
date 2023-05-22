@@ -64,6 +64,10 @@ execute if entity @s[tag=jigglypuff] run function ssbrc:series/pokemon/jigglypuf
 # Pokémon Trainer / Team Rocket
 tag @s remove nextFighterChosen
 
+# Giegue
+scoreboard players set @s[tag=giegue] charge.1 0
+scoreboard players set @s[tag=giegue] charge.2 0
+
 # Byleth
 clear @s[tag=byleth] minecraft:shield{shield:1}
 

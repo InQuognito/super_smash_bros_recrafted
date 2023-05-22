@@ -1,4 +1,4 @@
-effect give @s minecraft:glowing 10 255 true
+execute unless score $blackout temp matches 1 run effect give @s minecraft:glowing 10 255 true
 scoreboard players set @s timer -180
 
 clear @s minecraft:paper{status:1}
