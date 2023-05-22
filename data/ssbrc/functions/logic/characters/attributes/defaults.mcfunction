@@ -29,7 +29,7 @@ attribute @s[predicate=ssbrc:characters/speed/default] minecraft:generic.movemen
 attribute @s[tag=captainfalcon] minecraft:generic.movement_speed base set 0.105
 attribute @s[tag=cloud,tag=punisher] minecraft:generic.movement_speed base set 0.03
 attribute @s[tag=darksamus] minecraft:generic.movement_speed base set 0.095
-attribute @s[tag=ganondorf] minecraft:generic.movement_speed base set 0.085
+attribute @s[tag=ganondorf] minecraft:generic.movement_speed base set 0.075
 attribute @s[tag=jigglypuff] minecraft:generic.movement_speed base set 0.085
 attribute @s[tag=kingkrool] minecraft:generic.movement_speed base set 0.085
 attribute @s[tag=meowth] minecraft:generic.movement_speed base set 0.125
