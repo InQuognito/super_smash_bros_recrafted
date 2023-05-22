@@ -1,3 +1,3 @@
 damage @s 6.0 ssbrc:pierce by @p[tag=self]
 
-playsound minecraft:entity.arrow.hit_player player @s
+execute as @p[tag=self] at @s run playsound minecraft:entity.arrow.hit_player player @s
