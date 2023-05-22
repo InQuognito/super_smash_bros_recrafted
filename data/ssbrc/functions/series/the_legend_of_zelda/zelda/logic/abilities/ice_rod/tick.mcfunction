@@ -4,7 +4,7 @@ teleport @s ^ ^ ^0.2
 
 execute unless block ^ ^ ^0.2 #ssbrc:passthrough run kill @s
 
-execute positioned ~-0.15 ~-0.15 ~-0.15 as @e[predicate=ssbrc:flag/targets,dx=0] positioned ~-0.7 ~-0.7 ~-0.7 if entity @s[dx=0] unless score @s id = @e[type=minecraft:marker,tag=iceRod,sort=nearest,limit=1] id run function ssbrc:series/the_legend_of_zelda/zelda/logic/abilities/ice_rod/hit
+execute positioned ~-0.15 ~-0.15 ~-0.15 as @e[tag=!self,predicate=ssbrc:flag/targets,dx=0] positioned ~-0.7 ~-0.7 ~-0.7 if entity @s[dx=0] run function ssbrc:series/the_legend_of_zelda/zelda/logic/abilities/ice_rod/hit
 
 scoreboard players add @s temp 1
 kill @s[scores={temp=45..}]

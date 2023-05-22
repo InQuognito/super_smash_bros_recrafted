@@ -4,7 +4,7 @@ execute if entity @s[tag=rainbow] run function ssbrc:series/pokemon/jigglypuff/l
 
 execute unless block ^ ^ ^0.1 #ssbrc:passthrough run kill @s
 
-execute positioned ~-0.5 ~-0.5 ~-0.5 as @e[predicate=ssbrc:flag/targets,dx=0] positioned ~0.0 ~0.0 ~0.0 if entity @s[dx=0] unless score @s id = @e[type=minecraft:marker,tag=hyperVoice,sort=nearest,limit=1] id run function ssbrc:series/pokemon/jigglypuff/logic/abilities/hyper_voice/hit
+execute positioned ~-0.5 ~-0.5 ~-0.5 as @e[tag=!self,predicate=ssbrc:flag/targets,dx=0] positioned ~0.0 ~0.0 ~0.0 if entity @s[dx=0] run function ssbrc:series/pokemon/jigglypuff/logic/abilities/hyper_voice/hit
 
 teleport @s ^0.5 ^ ^ ~ ~1
 

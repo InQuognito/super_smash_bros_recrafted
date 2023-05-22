@@ -1,7 +1,7 @@
 particle minecraft:dust_color_transition 0.5 1.0 1.0 1.5 1.0 1.0 1.0 ~ ~ ~ 0.15 0.15 0.15 0.0 10 force @a
 particle minecraft:electric_spark ~ ~ ~ 0.2 0.2 0.2 0.05 5 normal @a
 
-execute positioned ~-0.3 ~-0.3 ~-0.3 as @e[predicate=ssbrc:flag/targets,dx=0] positioned ~-0.4 ~ ~-0.4 if entity @s[dx=0] unless score @s id = @e[type=minecraft:marker,tag=thunderJolt,sort=nearest,limit=1] id run function ssbrc:series/pokemon/pikachu/logic/abilities/thunder_jolt/hit
+execute positioned ~-0.3 ~-0.3 ~-0.3 as @e[tag=!self,predicate=ssbrc:flag/targets,dx=0] positioned ~-0.4 ~ ~-0.4 if entity @s[dx=0] run function ssbrc:series/pokemon/pikachu/logic/abilities/thunder_jolt/hit
 
 execute store result entity @s Rotation[1] float 0.25 run scoreboard players get @s point
 

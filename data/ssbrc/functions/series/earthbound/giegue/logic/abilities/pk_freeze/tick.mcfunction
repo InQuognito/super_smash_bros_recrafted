@@ -3,7 +3,7 @@ execute if entity @s[tag=pkFreeze.split] run particle minecraft:dust_color_trans
 
 execute unless block ~ ~ ~ #ssbrc:passthrough run kill @s
 
-execute positioned ~-0.15 ~-0.15 ~-0.15 as @e[predicate=ssbrc:flag/targets,dx=0] positioned ~-0.7 ~-0.7 ~-0.7 if entity @s[dx=0] unless score @s id = @e[type=minecraft:marker,tag=pkFreeze,sort=nearest,limit=1] id run function ssbrc:series/earthbound/giegue/logic/abilities/pk_freeze/hit
+execute positioned ~-0.15 ~-0.15 ~-0.15 as @e[tag=!self,predicate=ssbrc:flag/targets,dx=0] positioned ~-0.7 ~-0.7 ~-0.7 if entity @s[dx=0] run function ssbrc:series/earthbound/giegue/logic/abilities/pk_freeze/hit
 
 execute if entity @s[tag=!pkFreeze.split,scores={temp=30..}] run function ssbrc:series/earthbound/giegue/logic/abilities/pk_freeze/split
 

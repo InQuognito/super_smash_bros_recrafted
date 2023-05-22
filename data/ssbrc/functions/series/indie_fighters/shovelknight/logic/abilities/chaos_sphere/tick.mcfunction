@@ -15,7 +15,7 @@ execute at @s rotated ~ 0.0 unless block ~ ~ ~0.3 #ssbrc:passthrough run execute
 
 execute at @s rotated as @s run teleport @s ^ ^ ^0.3
 
-execute positioned ~-0.375 ~-0.375 ~-0.375 as @e[predicate=ssbrc:flag/targets,dx=0] positioned ~-0.25 ~-0.25 ~-0.25 if entity @s[dx=0] unless score @s id = @e[type=minecraft:marker,tag=chaosSphere,sort=nearest,limit=1] id run function ssbrc:series/indie_fighters/shovelknight/logic/abilities/chaos_sphere/hit
+execute positioned ~-0.375 ~-0.375 ~-0.375 as @e[tag=!self,predicate=ssbrc:flag/targets,dx=0] positioned ~-0.25 ~-0.25 ~-0.25 if entity @s[dx=0] run function ssbrc:series/indie_fighters/shovelknight/logic/abilities/chaos_sphere/hit
 
 scoreboard players add @s temp 1
 kill @s[scores={temp=200..}]

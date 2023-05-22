@@ -114,6 +114,7 @@ scoreboard objectives remove steve.tier
 scoreboard objectives remove stocks
 scoreboard objectives remove suicides
 scoreboard objectives remove teamAmount
+scoreboard objectives remove thrower
 scoreboard objectives remove timer
 scoreboard objectives remove timer.barrelCannon
 scoreboard objectives remove timer.galaxianFlagship
