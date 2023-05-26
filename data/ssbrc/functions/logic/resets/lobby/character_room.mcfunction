@@ -122,5 +122,4 @@ summon minecraft:item_display 132.5 6.0 153.5 {Tags:["selectable","lobbyStand","
 
 summon minecraft:text_display 138.5 6.0 150.5 {Tags:["lobbyStand.label"],text:'{"translate":"ssbrc.fighterSelect.leave","color":"yellow"}',billboard:center}
 
-execute as @e[tag=lobbyStand] at @s facing 138.5 6.0 173.0 run teleport @s ~ ~ ~ ~ ~
-execute as @e[tag=lobbyStand] at @s facing ^ ^ ^-1 run teleport @s ~ ~ ~ ~ ~
+execute as @e[type=minecraft:item_display,tag=lobbyStand] at @s facing 138.5 6.0 173.0 run teleport @s ~ ~ ~ ~ ~

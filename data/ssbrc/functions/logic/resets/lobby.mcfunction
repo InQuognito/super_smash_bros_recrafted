@@ -11,9 +11,9 @@ summon minecraft:text_display -528.5 6.0 60.5 {Tags:["lobby.timer"],billboard:ce
 summon minecraft:text_display -528.5 6.75 50.5 {text:'{"translate":"ssbrc.lobby.credits","color":"gold"}',billboard:center}
 summon minecraft:text_display -521.5 1.75 55.5 {text:'{"translate":"ssbrc.lobby.return","color":"gold"}',billboard:center}
 
-summon minecraft:item_display -535.502 8.0 55.472 {Tags:["lobbyStatue"],item:{id:"minecraft:stick",tag:{CustomModelData:841},Count:1b},Rotation:[90f,0f]}
+summon minecraft:item_display -535.502 8.0 55.472 {Tags:["lobbyStatue"],item:{id:"minecraft:stick",tag:{CustomModelData:841},Count:1b},Rotation:[-90f,0f]}
 
-summon minecraft:item_display -525.5 4.75 63.5 {Tags:["sandbag","selectable"],item:{id:"minecraft:warped_fungus_on_a_stick",tag:{CustomModelData:10000},Count:1b},Rotation:[35f,0f]}
+summon minecraft:item_display -525.5 4.75 63.5 {Tags:["sandbag","selectable"],item:{id:"minecraft:warped_fungus_on_a_stick",tag:{CustomModelData:10000},Count:1b},Rotation:[-145f,0f]}
 
 function ssbrc:logic/resets/lobby/character_room
 function ssbrc:logic/resets/lobby/credits
