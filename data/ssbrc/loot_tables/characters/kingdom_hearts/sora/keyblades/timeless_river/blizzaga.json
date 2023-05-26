@@ -300,7 +300,7 @@
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{keyblade:1,blizzaga:1,Unbreakable:1b,HideFlags:127}"
+							"tag": "{keyblade:1,blizzaga:1,Unbreakable:1b,HideFlags:128}"
 						},
 						{
 							"function": "minecraft:set_nbt",

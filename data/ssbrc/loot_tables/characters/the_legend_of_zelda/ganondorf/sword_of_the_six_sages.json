@@ -59,7 +59,7 @@
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{swordOfTheSixSages:1,CustomModelData:400,Unbreakable:1b,HideFlags:127}"
+							"tag": "{swordOfTheSixSages:1,CustomModelData:400,Unbreakable:1b,HideFlags:128}"
 						}
 					]
 				}

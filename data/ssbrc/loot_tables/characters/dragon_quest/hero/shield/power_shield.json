@@ -102,7 +102,7 @@
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{powerShield:1,HideFlags:127}"
+							"tag": "{powerShield:1,HideFlags:128}"
 						}
 					]
 				}

@@ -63,7 +63,7 @@
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{sabretooth:1,Fireworks:{Flight:3,Explosions:[{Type:1,Flicker:1b,Trail:1b,Colors:[I;14602026,14597930,14593834],FadeColors:[I;17233746]}]},HideFlags:127}"
+							"tag": "{sabretooth:1,Fireworks:{Flight:3,Explosions:[{Type:1,Flicker:1b,Trail:1b,Colors:[I;14602026,14597930,14593834],FadeColors:[I;17233746]}]},HideFlags:128}"
 						}
 					]
 				}

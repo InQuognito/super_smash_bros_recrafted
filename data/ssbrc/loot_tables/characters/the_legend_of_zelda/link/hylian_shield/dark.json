@@ -103,7 +103,7 @@
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{hylianShield:1,HideFlags:127}"
+							"tag": "{hylianShield:1,HideFlags:128}"
 						}
 					]
 				}

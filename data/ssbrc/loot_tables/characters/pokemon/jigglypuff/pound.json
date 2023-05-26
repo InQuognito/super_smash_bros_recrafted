@@ -59,7 +59,7 @@
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{pound:1,Unbreakable:1b,HideFlags:127}"
+							"tag": "{pound:1,Unbreakable:1b,HideFlags:128}"
 						}
 					]
 				}

@@ -59,7 +59,7 @@
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{powerBand:1,CustomModelData:60,Unbreakable:1b,HideFlags:127}"
+							"tag": "{powerBand:1,CustomModelData:60,Unbreakable:1b,HideFlags:128}"
 						}
 					]
 				}

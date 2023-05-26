@@ -59,7 +59,7 @@
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{megaPunch:1,Unbreakable:1b,HideFlags:127}"
+							"tag": "{megaPunch:1,Unbreakable:1b,HideFlags:128}"
 						}
 					]
 				}

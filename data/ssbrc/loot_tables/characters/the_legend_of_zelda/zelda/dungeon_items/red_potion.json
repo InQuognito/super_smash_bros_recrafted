@@ -69,7 +69,7 @@
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{redPotion:1,CustomModelData:1780,HideFlags:127}"
+							"tag": "{redPotion:1,CustomModelData:1780,HideFlags:128}"
 						}
 					]
 				}

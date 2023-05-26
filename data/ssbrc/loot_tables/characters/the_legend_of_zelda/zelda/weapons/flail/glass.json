@@ -86,7 +86,7 @@
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{flail:1,enchanted:1,glass:1,CustomModelData:9008,Unbreakable:1b,HideFlags:127}"
+							"tag": "{flail:1,enchanted:1,glass:1,CustomModelData:9008,Unbreakable:1b,HideFlags:128}"
 						}
 					]
 				}

@@ -37,7 +37,7 @@
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{UIPlaceHolder:1b,CustomModelData:1,HideFlags:127}"
+							"tag": "{UIPlaceHolder:1b,CustomModelData:1,HideFlags:128}"
 						}
 					]
 				}

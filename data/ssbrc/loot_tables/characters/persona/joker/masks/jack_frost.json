@@ -105,7 +105,7 @@
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{mask:1,jackFrost:1,CustomModelData:602,Unbreakable:1b,HideFlags:127}"
+							"tag": "{mask:1,jackFrost:1,CustomModelData:602,Unbreakable:1b,HideFlags:128}"
 						}
 					]
 				}

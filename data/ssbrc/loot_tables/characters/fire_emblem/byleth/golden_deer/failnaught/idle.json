@@ -71,7 +71,7 @@
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{failnaught:1,CustomModelData:112,Unbreakable:1b,HideFlags:127}"
+							"tag": "{failnaught:1,CustomModelData:112,Unbreakable:1b,HideFlags:128}"
 						}
 					]
 				}

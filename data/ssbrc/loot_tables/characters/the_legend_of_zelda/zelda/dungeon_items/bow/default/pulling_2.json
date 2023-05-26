@@ -39,7 +39,7 @@
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{bow:1,default:1,pulling:1,CustomModelData:9055,Unbreakable:1b,HideFlags:127}"
+							"tag": "{bow:1,default:1,pulling:1,CustomModelData:9055,Unbreakable:1b,HideFlags:128}"
 						}
 					]
 				}

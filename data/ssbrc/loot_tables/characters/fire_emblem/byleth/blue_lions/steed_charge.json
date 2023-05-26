@@ -79,7 +79,7 @@
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{steedCharge:1,CustomModelData:118,Unbreakable:1b,HideFlags:127}"
+							"tag": "{steedCharge:1,CustomModelData:118,Unbreakable:1b,HideFlags:128}"
 						}
 					]
 				}

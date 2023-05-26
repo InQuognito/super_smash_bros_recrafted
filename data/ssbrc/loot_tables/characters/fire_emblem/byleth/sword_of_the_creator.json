@@ -66,7 +66,7 @@
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{swordOfTheCreator:1,CustomModelData:100,Unbreakable:1b,HideFlags:127}"
+							"tag": "{swordOfTheCreator:1,CustomModelData:100,Unbreakable:1b,HideFlags:128}"
 						}
 					]
 				}

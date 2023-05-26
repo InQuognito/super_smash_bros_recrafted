@@ -99,7 +99,7 @@
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{drone:1,stop:1,CustomModelData:1975,Unbreakable:1b,HideFlags:127}"
+							"tag": "{drone:1,stop:1,CustomModelData:1975,Unbreakable:1b,HideFlags:128}"
 						}
 					]
 				}

@@ -93,7 +93,7 @@
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{pkFreeze:1,CustomModelData:1861,Unbreakable:1b,HideFlags:127}"
+							"tag": "{pkFreeze:1,CustomModelData:1861,Unbreakable:1b,HideFlags:128}"
 						}
 					]
 				}

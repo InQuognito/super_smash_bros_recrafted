@@ -59,7 +59,7 @@
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{boxingGlove:1,HideFlags:127}"
+							"tag": "{boxingGlove:1,HideFlags:128}"
 						}
 					]
 				}

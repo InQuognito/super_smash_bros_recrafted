@@ -85,7 +85,7 @@
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{flareWand:1,CustomModelData:1922,Unbreakable:1b,HideFlags:127}"
+							"tag": "{flareWand:1,CustomModelData:1922,Unbreakable:1b,HideFlags:128}"
 						}
 					]
 				}

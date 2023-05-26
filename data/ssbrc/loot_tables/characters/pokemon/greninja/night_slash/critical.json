@@ -65,7 +65,7 @@
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{nightSlash:1,critical:1,Unbreakable:1b,HideFlags:127}"
+							"tag": "{nightSlash:1,critical:1,Unbreakable:1b,HideFlags:128}"
 						}
 					]
 				}

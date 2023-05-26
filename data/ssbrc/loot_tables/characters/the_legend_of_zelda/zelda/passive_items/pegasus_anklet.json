@@ -65,7 +65,7 @@
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{passiveItem:1,pegasusAnklet:1,CustomModelData:9035,Unbreakable:1b,HideFlags:127}"
+							"tag": "{passiveItem:1,pegasusAnklet:1,CustomModelData:9035,Unbreakable:1b,HideFlags:128}"
 						}
 					]
 				}

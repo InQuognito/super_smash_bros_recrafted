@@ -79,7 +79,7 @@
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{dagger:1,enchanted:1,ruby:1,CustomModelData:9004,Unbreakable:1b,HideFlags:127}"
+							"tag": "{dagger:1,enchanted:1,ruby:1,CustomModelData:9004,Unbreakable:1b,HideFlags:128}"
 						}
 					]
 				}
