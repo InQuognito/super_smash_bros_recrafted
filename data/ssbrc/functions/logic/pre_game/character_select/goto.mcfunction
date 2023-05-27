@@ -2,8 +2,8 @@ teleport @s 138.5 6.0 173.0 0.0 0.0
 
 #loot replace entity @s hotbar.4 loot ssbrc:favorites
 
-execute if score $teams options matches 0 run team join waiting @s
-execute if score $teams options matches 1 run function ssbrc:logic/teams/red
+execute if score teams options matches 0 run team join waiting @s
+execute if score teams options matches 1 run function ssbrc:logic/teams/red
 
 effect give @s minecraft:glowing infinite 255 true
 

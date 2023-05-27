@@ -1,6 +1,6 @@
 tellraw @a[tag=room.characterSelect] [{"translate":"ssbrc.options.gameMode.timeLimitTitle","color":"yellow"},{"translate":"ssbrc.options.gameMode.timeLimit.4","color":"blue"}]
 
-scoreboard players set $timeLimit options 240
+scoreboard players set timeLimit options 240
 
 function ssbrc:logic/options
 

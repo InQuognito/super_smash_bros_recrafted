@@ -26,4 +26,4 @@ execute as @a unless score @s hardReset = numberOfResets hardReset run function 
 
 execute as @a[tag=!loaded] run function ssbrc:logic/resets/players
 
-execute if score $gameMode options matches ..0 run scoreboard players set $gameMode options 1
+execute if score gameMode options matches ..0 run scoreboard players set gameMode options 1

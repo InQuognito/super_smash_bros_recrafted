@@ -84,7 +84,7 @@ scoreboard players set @s[tag=rob] charge.2 0
 scoreboard players set @s[tag=rob] charge.3 0
 
 # Ryu
-execute if score $gameMode options matches 2 run clear @s minecraft:carrot_on_a_stick{satsuiNoHadoRage:1}
+execute if score gameMode options matches 2 run clear @s minecraft:carrot_on_a_stick{satsuiNoHadoRage:1}
 
 tag @s remove abilityUsed
 execute if entity @s[tag=ryu] run function ssbrc:series/street_fighter/ryu/logic/abilities/satsui_no_hado_rage/deactivate

@@ -3,7 +3,7 @@ execute store result bossbar minecraft:timer value run scoreboard players get $g
 
 execute run scoreboard players operation $gameTimePercent temp = $gameTime timer
 execute run scoreboard players operation $gameTimePercent temp *= 100 integers
-execute run scoreboard players operation $gameTimePercent temp /= $timeLimit options
+execute run scoreboard players operation $gameTimePercent temp /= timeLimit options
 
 execute if score $gameTimePercent temp matches 50 run bossbar set minecraft:timer color green
 execute if score $gameTimePercent temp matches 25 run bossbar set minecraft:timer color yellow
@@ -16,7 +16,7 @@ execute if score $gameTime timer matches 2 as @a[predicate=ssbrc:ingame] at @s r
 execute if score $gameTime timer matches 1 as @a[predicate=ssbrc:ingame] at @s run playsound ssbrc:one voice @s
 execute if score $gameTime timer matches ..0 run function ssbrc:logic/post_game/calculate_winner
 
-execute if score $hazards options matches 1 if score $towerOfFate map matches 1 unless score towerOfFateDestroyed temp matches 1.. if score $gameTimePercent temp matches ..50 run function ssbrc:maps/t/tower_of_fate/logic/destroy_tower/start
+execute if score hazards options matches 1 if score $towerOfFate map matches 1 unless score towerOfFateDestroyed temp matches 1.. if score $gameTimePercent temp matches ..50 run function ssbrc:maps/t/tower_of_fate/logic/destroy_tower/start
 
 data modify entity @e[tag=lobby.timer,limit=1] text set value '[{"translate":"ssbrc.lobby.timeLeft","color":"gold"},{"score":{"name":"$gameTime","objective":"timer"},"color":"yellow"},{"translate":"s","color":"gold"}]'
 

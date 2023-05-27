@@ -1,7 +1,7 @@
 scoreboard players reset * map
 scoreboard players set $wilyCastle map 1
-scoreboard players set $songCount map 2
-scoreboard players set #mapPicked mapVote 1
+scoreboard players set songCount map 2
+scoreboard players set mapPicked mapVote 1
 forceload add 4912 5008 5055 5119
 
 summon minecraft:armor_stand 4913.5 11.0 5089.5 {Invulnerable:1b,ShowArms:1b,DisabledSlots:4144959,Pose:{RightArm:[0.0f,0.0f,0.0f],Head:[8.0f,0.0f,0.0f],LeftArm:[0.0f,0.0f,0.0f]},Rotation:[269.0f,0.0f],ArmorItems:[{id:"minecraft:leather_boots",Count:1b,tag:{display:{color:13406041}}},{id:"minecraft:leather_leggings",Count:1b,tag:{display:{color:7884843}}},{id:"minecraft:leather_chestplate",Count:1b,tag:{display:{color:13406041}}},{id:"minecraft:player_head",Count:1b,tag:{SkullOwner:{Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDMzYjdiMWE5NGM1MGY3ZmU1MGQ4OTIxN2NhZGUxZjM2NzNmOGU0NDI0N2UxMzI0M2QyNDI4ZTUwZmRhZjRiNCJ9fX0="}]},Id:[I; 1611700470,-1174191753,-1603070628,-2052920545]}}}],NoBasePlate:1b}

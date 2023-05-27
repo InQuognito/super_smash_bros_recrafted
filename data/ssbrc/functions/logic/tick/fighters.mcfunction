@@ -63,7 +63,7 @@ function ssbrc:logic/tick/assign_teams
 
 # Items
 execute if entity @s[scores={useItem=1..},nbt={SelectedItem:{tag:{angelFeather:1}}}] run function ssbrc:maps/p/palutenas_temple/logic/angel_feather/activate
-execute if entity @s[scores={useItem=1..},nbt={SelectedItem:{tag:{powerPellet:1}}}] run function ssbrc:maps/p/pac_maze/logic/pellets/use
+execute if entity @s[scores={useItem=1..},nbt={SelectedItem:{tag:{powerPellet:1}}}] run function ssbrc:maps/p/pac_maze/logic/power_pellet/use
 
 execute at @s[tag=angelFeather] run particle minecraft:dust_color_transition 1.0 1.0 0.0 0.5 1.0 1.0 1.0 ~ ~0.75 ~ 0.2 0.3 0.2 0.0 3 normal @a
 
@@ -102,8 +102,8 @@ execute at @s if block ~ ~ ~ minecraft:lava run scoreboard players add @s flag.i
 execute if score @s flag.inLava matches 60.. run kill @s
 scoreboard players reset @s[scores={flag.inLava=60..}] flag.inLava
 
-execute if score $sandOcean map matches 1 if score $hazards options matches 1 at @s[tag=!quicksand] if block ~ ~ ~ minecraft:cyan_carpet run function ssbrc:logic/characters/quicksand/activate
-execute if score $sandOcean map matches 1 if score $hazards options matches 1 at @s[tag=quicksand] unless block ~ ~ ~ minecraft:cyan_carpet run function ssbrc:logic/characters/quicksand/deactivate
+execute if score $sandOcean map matches 1 if score hazards options matches 1 at @s[tag=!quicksand] if block ~ ~ ~ minecraft:cyan_carpet run function ssbrc:logic/characters/quicksand/activate
+execute if score $sandOcean map matches 1 if score hazards options matches 1 at @s[tag=quicksand] unless block ~ ~ ~ minecraft:cyan_carpet run function ssbrc:logic/characters/quicksand/deactivate
 
 # Bonuses
 execute unless score @s aerialist matches 1.. at @s run function ssbrc:logic/characters/bonuses/aerialist/tick

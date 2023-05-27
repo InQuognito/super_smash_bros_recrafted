@@ -18,14 +18,14 @@ scoreboard players set @a[predicate=ssbrc:flag/player] points 0
 execute unless score $playersAlive temp matches 2.. run function ssbrc:logic/options/presets/singleplayer/on
 
 scoreboard players reset @a stocks
-execute if score $gameMode options matches 1 run scoreboard players operation @a[predicate=ssbrc:flag/player] stocks = $stockLimit options
-execute if score $gameMode options matches 1 run scoreboard objectives setdisplay sidebar stocks
+execute if score gameMode options matches 1 run scoreboard players operation @a[predicate=ssbrc:flag/player] stocks = stockLimit options
+execute if score gameMode options matches 1 run scoreboard objectives setdisplay sidebar stocks
 
-execute if score $gameMode options matches 2 run scoreboard players set @a[predicate=ssbrc:flag/player] stocks 1
-execute if score $gameMode options matches 2 store result bossbar minecraft:timer max run scoreboard players get $timeLimit options
-execute if score $gameMode options matches 2 run bossbar set minecraft:timer players @a[predicate=ssbrc:ingame]
-execute if score $gameMode options matches 2 run bossbar set minecraft:timer visible true
-execute if score $gameMode options matches 2 run scoreboard objectives setdisplay sidebar points
+execute if score gameMode options matches 2 run scoreboard players set @a[predicate=ssbrc:flag/player] stocks 1
+execute if score gameMode options matches 2 store result bossbar minecraft:timer max run scoreboard players get timeLimit options
+execute if score gameMode options matches 2 run bossbar set minecraft:timer players @a[predicate=ssbrc:ingame]
+execute if score gameMode options matches 2 run bossbar set minecraft:timer visible true
+execute if score gameMode options matches 2 run scoreboard objectives setdisplay sidebar points
 
 effect clear @a minecraft:jump_boost
 effect clear @a minecraft:slowness
@@ -50,11 +50,11 @@ scoreboard players reset @a fallDistance
 
 tag @e[type=minecraft:marker,tag=tpDest] remove tpDest
 
-execute if score $gameMode options matches 2 run scoreboard players operation $gameTime timer = $timeLimit options
-execute if score $gameMode options matches 2 store result bossbar minecraft:timer value run scoreboard players get $gameTime timer
+execute if score gameMode options matches 2 run scoreboard players operation $gameTime timer = timeLimit options
+execute if score gameMode options matches 2 store result bossbar minecraft:timer value run scoreboard players get $gameTime timer
 
-execute if score $gameMode options matches 1 run scoreboard players operation $speedDemon temp = $totalStocks temp
-execute if score $gameMode options matches 1 run scoreboard players operation $speedDemon temp *= 8 integers
+execute if score gameMode options matches 1 run scoreboard players operation $speedDemon temp = $totalStocks temp
+execute if score gameMode options matches 1 run scoreboard players operation $speedDemon temp *= 8 integers
 
 scoreboard players set gameStage temp 4
 scoreboard players reset countdown timer

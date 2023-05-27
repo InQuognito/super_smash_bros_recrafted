@@ -1,14 +1,16 @@
 scoreboard players reset * map
-scoreboard players set $pacMaze map 1
-scoreboard players set $songCount map 2
-scoreboard players set #mapPicked mapVote 1
+scoreboard players set pacMaze map 1
+scoreboard players set songCount map 2
+scoreboard players set mapPicked mapVote 1
 forceload add 23328 8608 23391 8671
 
-execute if score $hazards options matches 0 run summon minecraft:armor_stand 23360.5 5.0 8636.5 {Tags:["ghost","blinky"],ArmorItems:[{},{},{},{id:"minecraft:sugar",Count:1b,tag:{CustomModelData:1301}}],DisabledSlots:4144959}
-execute if score $hazards options matches 1 run summon minecraft:armor_stand 23360.5 5.0 8633.5 {Tags:["ghost","blinky"],ArmorItems:[{},{},{},{id:"minecraft:sugar",Count:1b,tag:{CustomModelData:1301}}],DisabledSlots:4144959}
-summon minecraft:armor_stand 23360.5 5.0 8638.0 {Tags:["ghost","pinky"],ArmorItems:[{},{},{},{id:"minecraft:sugar",Count:1b,tag:{CustomModelData:1327}}],DisabledSlots:4144959}
-summon minecraft:armor_stand 23358.5 5.0 8638.0 {Tags:["ghost","inky"],ArmorItems:[{},{},{},{id:"minecraft:sugar",Count:1b,tag:{CustomModelData:1318}}],DisabledSlots:4144959}
-summon minecraft:armor_stand 23362.5 5.0 8638.0 {Tags:["ghost","clyde"],ArmorItems:[{},{},{},{id:"minecraft:sugar",Count:1b,tag:{CustomModelData:1309}}],DisabledSlots:4144959}
+#scoreboard players set max random 2
+#function ssbrc:math/rng/lcg
+
+#execute if score result random matches 0 run function ssbrc:maps/p/pac_maze/load/pac_maze
+#execute if score result random matches 1 run function ssbrc:maps/p/pac_maze/load/mrs_pac_maze
+
+function ssbrc:maps/p/pac_maze/load/pac_maze
 
 time set noon
 weather clear

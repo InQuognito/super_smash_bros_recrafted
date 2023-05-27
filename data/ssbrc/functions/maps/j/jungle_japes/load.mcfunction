@@ -1,7 +1,7 @@
 scoreboard players reset * map
 scoreboard players set $jungleJapes map 1
-scoreboard players set $songCount map 2
-scoreboard players set #mapPicked mapVote 1
+scoreboard players set songCount map 2
+scoreboard players set mapPicked mapVote 1
 forceload add 2208 1552 2319 1631
 
 summon minecraft:item_display 2252.5 34.5 1633.99 {Rotation:[180f,0f],item:{id:"minecraft:sugar",tag:{CustomModelData:901},Count:1b}}

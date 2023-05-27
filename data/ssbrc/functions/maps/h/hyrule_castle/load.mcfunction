@@ -1,7 +1,7 @@
 scoreboard players reset * map
 scoreboard players set $hyruleCastle map 1
-scoreboard players set $songCount map 2
-scoreboard players set #mapPicked mapVote 1
+scoreboard players set songCount map 2
+scoreboard players set mapPicked mapVote 1
 forceload add 7023 223 6944 129
 
 summon minecraft:armor_stand 6826.5 26.5 273.5 {Rotation:[-90f,0f],Invisible:1b,ArmorItems:[{},{},{},{id:"minecraft:carrot_on_a_stick",Count:1b,tag:{CustomModelData:721}}],DisabledSlots:4144959}

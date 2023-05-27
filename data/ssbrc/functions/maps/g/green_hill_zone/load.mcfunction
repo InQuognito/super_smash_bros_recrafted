@@ -1,7 +1,7 @@
 scoreboard players reset * map
 scoreboard players set $greenHillZone map 1
-scoreboard players set $songCount map 2
-scoreboard players set #mapPicked mapVote 1
+scoreboard players set songCount map 2
+scoreboard players set mapPicked mapVote 1
 forceload add -64 208 31 255
 
 summon minecraft:armor_stand 32.5 25 236.5 {Tags:["decorObject"],Invulnerable:1b,ShowArms:1b,DisabledSlots:4144959,Pose:{RightArm:[351.0f,20.0f,0.0f],LeftLeg:[3.0f,0.0f,0.0f],LeftArm:[339.0f,348.0f,0.0f],RightLeg:[0.0f,0.0f,0.0f]},Rotation:[89.0f,0.0f],ArmorItems:[{id:"minecraft:leather_boots",Count:1b,tag:{display:{color:15662848}}},{id:"minecraft:leather_leggings",Count:1b,tag:{display:{color:16734720}}},{id:"minecraft:leather_chestplate",Count:1b,tag:{display:{color:16734720}}},{id:"minecraft:player_head",Count:1b,tag:{SkullOwner:{Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2JmMDUzNzIwZjcyOTg4OTUwZjc3MzkzY2YzNWIzZTlmYmQyNGI5NThhYjI0YjdhNjUzZWY3YTc5YjNiYjQ3ZCJ9fX0="}]},Id:[I; -913621834,-1540535493,-1807402684,236647926]}}}],NoBasePlate:1b}

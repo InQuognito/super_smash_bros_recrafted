@@ -1,6 +1,6 @@
 tellraw @a[tag=room.characterSelect] [{"translate":"ssbrc.options.musicTitle","color":"yellow"},{"translate":"ssbrc.options.music.loop","color":"blue"}]
 
-scoreboard players set $music options 0
+scoreboard players set music options 0
 
 function ssbrc:logic/options
 

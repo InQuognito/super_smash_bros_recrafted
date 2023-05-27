@@ -1,8 +1,8 @@
-scoreboard players set $gameMode options 1
+scoreboard players set gameMode options 1
 scoreboard players set $suddenDeath temp 1
 scoreboard objectives setdisplay sidebar stocks
 
-scoreboard players operation $gameTime timer += $timeLimit options
+scoreboard players operation $gameTime timer += timeLimit options
 
 bossbar set minecraft:timer visible false
 

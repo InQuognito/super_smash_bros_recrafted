@@ -1,6 +1,6 @@
 tellraw @a[tag=room.characterSelect] [{"translate":"ssbrc.options.teamsTitle","color":"yellow"},{"translate":"ssbrc.options.on","color":"blue"}]
 
-scoreboard players set $teams options 1
+scoreboard players set teams options 1
 
 function ssbrc:logic/options
 

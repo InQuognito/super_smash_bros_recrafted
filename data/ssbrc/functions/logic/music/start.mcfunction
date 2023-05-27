@@ -172,11 +172,11 @@ execute if score $mushroomKingdom map matches 1 if score result_music random mat
 execute if score $mushroomKingdom map matches 1 if score result_music random matches 2 run tellraw @s [{"translate":"ssbrc.game.music.nowPlaying","bold":true,"color":"gold"},{"translate":"ssbrc.music.superMarioBrosMainTheme","color":"yellow"}]
 execute if score $mushroomKingdom map matches 1 if score result_music random matches 2 run schedule function ssbrc:logic/music/loop_schedule 68t replace
 
-execute if score $pacMaze map matches 1 if score result_music random matches 0 run playsound ssbrc:pac_man_club_mix_intro music @s
-execute if score $pacMaze map matches 1 if score result_music random matches 0 run tellraw @s [{"translate":"ssbrc.game.music.nowPlaying","bold":true,"color":"gold"},{"translate":"ssbrc.music.pacManClubMix","color":"yellow"}]
-execute if score $pacMaze map matches 1 if score result_music random matches 0 run schedule function ssbrc:logic/music/loop_schedule 180t replace
-execute if score $pacMaze map matches 1 if score result_music random matches 1 run tellraw @s [{"translate":"ssbrc.game.music.nowPlaying","bold":true,"color":"gold"},{"translate":"ssbrc.music.pacRainbow","color":"yellow"}]
-execute if score $pacMaze map matches 1 if score result_music random matches 1 run function ssbrc:logic/music/loop_schedule
+execute if score pacMaze map matches 1 if score result_music random matches 0 run playsound ssbrc:pac_man_club_mix_intro music @s
+execute if score pacMaze map matches 1 if score result_music random matches 0 run tellraw @s [{"translate":"ssbrc.game.music.nowPlaying","bold":true,"color":"gold"},{"translate":"ssbrc.music.pacManClubMix","color":"yellow"}]
+execute if score pacMaze map matches 1 if score result_music random matches 0 run schedule function ssbrc:logic/music/loop_schedule 180t replace
+execute if score pacMaze map matches 1 if score result_music random matches 1 run tellraw @s [{"translate":"ssbrc.game.music.nowPlaying","bold":true,"color":"gold"},{"translate":"ssbrc.music.pacRainbow","color":"yellow"}]
+execute if score pacMaze map matches 1 if score result_music random matches 1 run function ssbrc:logic/music/loop_schedule
 
 execute if score $palletTown map matches 1 if score result_music random matches 0 run playsound ssbrc:battle_lets_go_pikachu_eevee_intro music @s
 execute if score $palletTown map matches 1 if score result_music random matches 0 run tellraw @s [{"translate":"ssbrc.game.music.nowPlaying","bold":true,"color":"gold"},{"translate":"ssbrc.music.battleLetsGoPikachuEevee","color":"yellow"}]

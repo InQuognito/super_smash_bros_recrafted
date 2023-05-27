@@ -8,7 +8,7 @@ scoreboard objectives setdisplay belowName
 scoreboard objectives setdisplay list
 scoreboard objectives setdisplay sidebar
 
-execute if score $singleplayer options matches 1 run function ssbrc:logic/options/presets/singleplayer/off
+execute if score singleplayer options matches 1 run function ssbrc:logic/options/presets/singleplayer/off
 
 function ssbrc:logic/resets/options
 
@@ -47,5 +47,5 @@ schedule function ssbrc:logic/resets/lobby 1s replace
 #######################
 # REMOVE - DEBUG ONLY #
 #######################
-execute if score $debug options matches 1 run advancement grant @a through ssbrc:skins
+execute if score debug options matches 1 run advancement grant @a through ssbrc:skins
 #######################

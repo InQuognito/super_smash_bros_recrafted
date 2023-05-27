@@ -5,7 +5,7 @@ execute unless entity @s[tag=pacMaze] run tellraw @a[tag=room.mapVoting] [{"sele
 function ssbrc:logic/pre_game/map_voting/update_counters/remove_vote
 tag @s add pacMaze
 
-execute if score $teams options matches 0 run team join ready @s
+execute if score teams options matches 0 run team join ready @s
 effect clear @s minecraft:glowing
 
 function ssbrc:logic/pre_game/map_voting/stage_index/pages/stages/2/load

@@ -1,7 +1,7 @@
 scoreboard players reset * map
 scoreboard players set $lakeOfRage map 1
-scoreboard players set $songCount map 2
-scoreboard players set #mapPicked mapVote 1
+scoreboard players set songCount map 2
+scoreboard players set mapPicked mapVote 1
 forceload add 2464 3968 2591 4095
 
 scoreboard players set max random 3

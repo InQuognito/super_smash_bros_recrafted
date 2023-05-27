@@ -1,6 +1,6 @@
 tellraw @a[tag=room.characterSelect] [{"translate":"ssbrc.options.blindPickTitle","color":"yellow"},{"translate":"ssbrc.options.off","color":"blue"}]
 
-scoreboard players set $blindPick options 0
+scoreboard players set blindPick options 0
 
 function ssbrc:logic/options
 

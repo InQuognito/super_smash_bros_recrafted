@@ -1,6 +1,6 @@
 tellraw @a[tag=room.characterSelect] [{"translate":"ssbrc.options.gameMode.stockLimitTitle","color":"yellow"},{"translate":"9","color":"blue"}]
 
-scoreboard players set $stockLimit options 9
+scoreboard players set stockLimit options 9
 
 function ssbrc:logic/options
 

@@ -1,7 +1,7 @@
 scoreboard players reset * map
 scoreboard players set $flatZone map 1
-scoreboard players set $songCount map 2
-scoreboard players set #mapPicked mapVote 1
+scoreboard players set songCount map 2
+scoreboard players set mapPicked mapVote 1
 forceload add 752 176 799 223
 
 fill 791 5 201 791 6 202 minecraft:white_concrete replace
@@ -21,8 +21,8 @@ fill 767 4 189 767 4 215 minecraft:water replace
 
 fill 775 6 188 785 13 188 minecraft:white_concrete replace
 
-execute if score $hazards options matches 0 run function ssbrc:maps/f/flat_zone/load/hazards_off
-execute if score $hazards options matches 1 run function ssbrc:maps/f/flat_zone/load/hazards_on
+execute if score hazards options matches 0 run function ssbrc:maps/f/flat_zone/load/hazards_off
+execute if score hazards options matches 1 run function ssbrc:maps/f/flat_zone/load/hazards_on
 
 function ssbrc:maps/f/flat_zone/logic/gas_station_guy/1/left
 function ssbrc:maps/f/flat_zone/logic/gas_station_guy/2/left

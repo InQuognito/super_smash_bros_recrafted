@@ -1,7 +1,7 @@
 scoreboard players reset * map
 scoreboard players set $greatPlateau map 1
-scoreboard players set $songCount map 3
-scoreboard players set #mapPicked mapVote 1
+scoreboard players set songCount map 3
+scoreboard players set mapPicked mapVote 1
 forceload add 1536 1328 1631 1407
 
 summon minecraft:armor_stand 1599.565 66.0 1322.597 {NoGravity:1b,Invulnerable:1b,ShowArms:1b,DisabledSlots:4144959,Pose:{RightArm:[327.0f,101.0f,270.0f]},Invisible:1b,HandItems:[{id:"minecraft:wooden_sword",Count:1b},{}]}

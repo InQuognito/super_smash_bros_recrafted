@@ -1,6 +1,6 @@
 tellraw @a[tag=room.characterSelect] [{"translate":"ssbrc.gameModeTitle","color":"yellow"},{"translate":"ssbrc.gameMode.time","color":"blue"}]
 
-scoreboard players set $gameMode options 2
+scoreboard players set gameMode options 2
 
 function ssbrc:logic/options
 

@@ -1,4 +1,4 @@
-execute if score $blindPick options matches 1 run tag @s add blindPick
+execute if score blindPick options matches 1 run tag @s add blindPick
 
 tag @s add pickingRandom
 
@@ -44,7 +44,7 @@ execute unless score @s[advancements={ssbrc:series/the_legend_of_zelda/ganondorf
 execute unless score @s[advancements={ssbrc:series/the_legend_of_zelda/link/skins/default=true}] characterPicked matches 1.. if score result random matches 36 run function ssbrc:series/the_legend_of_zelda/link/menu/skins/random
 execute unless score @s[advancements={ssbrc:series/the_legend_of_zelda/zelda/skins/default=true}] characterPicked matches 1.. if score result random matches 37 run function ssbrc:series/the_legend_of_zelda/zelda/menu/skins/random
 
-execute if score @s characterPicked matches 1.. if score $blindPick options matches 1 run tellraw @s {"translate":"ssbrc.fighters.menu.selectRandom","color":"white"}
+execute if score @s characterPicked matches 1.. if score blindPick options matches 1 run tellraw @s {"translate":"ssbrc.fighters.menu.selectRandom","color":"white"}
 execute unless score @s characterPicked matches 1.. run function ssbrc:series/random
 scoreboard players reset @s characterPicked
 scoreboard players reset @s skinPicked
