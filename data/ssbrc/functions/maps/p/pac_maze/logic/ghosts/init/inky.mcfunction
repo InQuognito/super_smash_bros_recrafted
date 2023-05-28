@@ -1,7 +1,7 @@
 tag @s add ghost
 tag @s add inky
 
-item replace entity @s armor.head with minecraft:sugar{tag:{CustomModelData:1318}}
+item replace entity @s armor.head with minecraft:sugar{CustomModelData:1318}
 
 function ssbrc:maps/p/pac_maze/logic/ghosts/init/ghost
 
