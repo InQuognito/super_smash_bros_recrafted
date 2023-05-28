@@ -12,6 +12,11 @@ scoreboard players operation fruitDisplay temp = fruit temp
 scoreboard players add fruitDisplay temp 8
 execute store result entity @s item.tag.CustomModelData int 1.0 run scoreboard players get fruitDisplay temp
 
+execute if score result random matches 0 run teleport @s ~ ~ ~ -90.0 0.0
+execute if score result random matches 1 run teleport @s ~ ~ ~ 90.0 0.0
+execute if score result random matches 2 run teleport @s ~ ~ ~ -90.0 0.0
+execute if score result random matches 3 run teleport @s ~ ~ ~ 90.0 0.0
+
 execute if score fruit temp matches 7.. run scoreboard players set fruit temp 0
 
 function ssbrc:maps/p/pac_maze/logic/fruit/init
