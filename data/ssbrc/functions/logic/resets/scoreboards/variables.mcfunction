@@ -3,6 +3,7 @@ scoreboard players set #quickStart vars 10
 scoreboard players set selectorRange vars 20
 
 # Misc
+scoreboard players set durability.carrotOnAStick vars 25
 scoreboard players set #frostbiteTimer vars 100
 
 # Fighters
