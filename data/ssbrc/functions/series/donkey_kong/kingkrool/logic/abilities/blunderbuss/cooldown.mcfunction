@@ -12,6 +12,8 @@ scoreboard players operation indicator.damage temp -= indicator.cooldown temp
 scoreboard players operation indicator.damage temp /= indicator.totalCooldown temp
 scoreboard players operation indicator.damage temp *= indicator.durability temp
 
+scoreboard players operation indicator.damage temp /= 100 integers
+
 execute if entity @s[nbt={Inventory:[{tag:{blunderbuss:1},Slot:0b}]}] run item modify entity @s hotbar.0 ssbrc:characters/cooldown
 execute if entity @s[nbt={Inventory:[{tag:{blunderbuss:1},Slot:1b}]}] run item modify entity @s hotbar.1 ssbrc:characters/cooldown
 execute if entity @s[nbt={Inventory:[{tag:{blunderbuss:1},Slot:2b}]}] run item modify entity @s hotbar.2 ssbrc:characters/cooldown
