@@ -6,8 +6,7 @@
 			"type": "minecraft:fixed",
 			"name": "indicator.damage"
 		},
-		"score": "temp",
-		"scale": 0.1
+		"score": "temp"
 	},
 	"add": false
 }
