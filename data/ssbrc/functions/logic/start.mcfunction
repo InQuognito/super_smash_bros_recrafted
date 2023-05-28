@@ -58,5 +58,3 @@ execute if score gameMode options matches 1 run scoreboard players operation spe
 
 scoreboard players set gameStage temp 4
 scoreboard players reset countdown timer
-
-say start
