@@ -10,6 +10,6 @@ execute if score @s[tag=winner] kills matches 0 run scoreboard players set @s me
 
 scoreboard players set @s[scores={stats.winStreak=2..}] onARoll 1
 
-execute if score gameMode options matches 1 if score $gameTime timer <= $speedDemon temp run scoreboard players set @s[tag=winner] speedDemon 1
+execute if score gameMode options matches 1 if score gameTime timer <= speedDemon temp run scoreboard players set @s[tag=winner] speedDemon 1
 
 execute if score @s deaths = @s suicides run scoreboard players set @s quitter 1

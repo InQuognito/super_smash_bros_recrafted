@@ -55,7 +55,7 @@ scoreboard players set @e[type=minecraft:text_display,tag=voteCounter] mapVote 0
 execute as @e[type=minecraft:text_display,tag=voteCounter,tag=selected] unless score @s mapVote = @s temp run tag @s add voteCounter.update
 execute as @e[type=minecraft:text_display,tag=voteCounter.update,sort=random,limit=1] run function ssbrc:logic/pre_game/map_voting/update_counters/votes
 
-execute store result score $playersAlive temp if entity @a[predicate=ssbrc:ingame,team=!spectator]
+execute store result score playersAlive temp if entity @a[predicate=ssbrc:ingame,team=!spectator]
 
 scoreboard players set gameStage temp 2
 scoreboard players set countdown timer 30

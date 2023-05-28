@@ -62,7 +62,7 @@ loot replace entity @s[tag=rob] hotbar.1 loot ssbrc:characters/super_smash_bros/
 
 # Ryu
 execute if score gameMode options matches 1 if score @s[tag=ryu] stocks matches 1 run loot replace entity @s[tag=!abilityUsed] hotbar.1 loot ssbrc:characters/street_fighter/ryu/satsui_no_hado_rage
-execute if score gameMode options matches 2 if score $gameTime timer matches ..60 run loot replace entity @s[tag=ryu,tag=!abilityUsed] hotbar.1 loot ssbrc:characters/street_fighter/ryu/satsui_no_hado_rage
+execute if score gameMode options matches 2 if score gameTime timer matches ..60 run loot replace entity @s[tag=ryu,tag=!abilityUsed] hotbar.1 loot ssbrc:characters/street_fighter/ryu/satsui_no_hado_rage
 
 # Snake
 loot replace entity @s[tag=snake] hotbar.8 loot ssbrc:characters/metal_gear_solid/snake/status/undetected

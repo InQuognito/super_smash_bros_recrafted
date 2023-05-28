@@ -7,7 +7,7 @@ execute if score teams options matches 1 if entity @a[tag=winner,limit=1,team=te
 execute if score teams options matches 1 if entity @a[tag=winner,limit=1,team=team6] run tellraw @s [{"translate":"ssbrc.game.end.summary.winner","color":"gold"},{"translate":"ssbrc.team.orange","color":"gold"}]
 execute if score teams options matches 1 if entity @a[tag=winner,limit=1,team=team7] run tellraw @s [{"translate":"ssbrc.game.end.summary.winner","color":"gold"},{"translate":"ssbrc.team.pink","color":"light_purple"}]
 execute if score teams options matches 1 if entity @a[tag=winner,limit=1,team=team8] run tellraw @s [{"translate":"ssbrc.game.end.summary.winner","color":"gold"},{"translate":"ssbrc.team.aqua","color":"aqua"}]
-execute if score gameMode options matches 1 run tellraw @s [{"translate":"ssbrc.game.end.summary.duration","color":"gold"},{"score":{"name":"$gameTime","objective":"timer"},"color":"yellow"},{"translate":"s","color":"gold"}]
+execute if score gameMode options matches 1 run tellraw @s [{"translate":"ssbrc.game.end.summary.duration","color":"gold"},{"score":{"name":"gameTime","objective":"timer"},"color":"yellow"},{"translate":"s","color":"gold"}]
 
 tellraw @s[tag=admin] {"translate":"ssbrc.game.end.warn.cheater","color":"red"}
 tellraw @s[tag=spectator] {"translate":"ssbrc.game.end.warn.spectator","color":"gray"}

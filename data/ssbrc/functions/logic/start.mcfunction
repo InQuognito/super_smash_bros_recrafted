@@ -15,7 +15,7 @@ team modify team8 nametagVisibility never
 scoreboard players set @a[predicate=ssbrc:flag/player] kills 0
 scoreboard players set @a[predicate=ssbrc:flag/player] points 0
 
-execute unless score $playersAlive temp matches 2.. run function ssbrc:logic/options/presets/singleplayer/on
+execute unless score playersAlive temp matches 2.. run function ssbrc:logic/options/presets/singleplayer/on
 
 scoreboard players reset @a stocks
 execute if score gameMode options matches 1 run scoreboard players operation @a[predicate=ssbrc:flag/player] stocks = stockLimit options
@@ -50,11 +50,11 @@ scoreboard players reset @a fallDistance
 
 tag @e[type=minecraft:marker,tag=tpDest] remove tpDest
 
-execute if score gameMode options matches 2 run scoreboard players operation $gameTime timer = timeLimit options
-execute if score gameMode options matches 2 store result bossbar minecraft:timer value run scoreboard players get $gameTime timer
+execute if score gameMode options matches 2 run scoreboard players operation gameTime timer = timeLimit options
+execute if score gameMode options matches 2 store result bossbar minecraft:timer value run scoreboard players get gameTime timer
 
-execute if score gameMode options matches 1 run scoreboard players operation $speedDemon temp = $totalStocks temp
-execute if score gameMode options matches 1 run scoreboard players operation $speedDemon temp *= 8 integers
+execute if score gameMode options matches 1 run scoreboard players operation speedDemon temp = totalStocks temp
+execute if score gameMode options matches 1 run scoreboard players operation speedDemon temp *= 8 integers
 
 scoreboard players set gameStage temp 4
 scoreboard players reset countdown timer

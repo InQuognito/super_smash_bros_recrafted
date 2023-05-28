@@ -1,5 +1,5 @@
 # Game Time
-execute if score gameMode options matches 1 run scoreboard players add $gameTime timer 1
+execute if score gameMode options matches 1 run scoreboard players add gameTime timer 1
 
 # Time Battle
 execute if score gameMode options matches 2 run function ssbrc:logic/timer/ingame/time_battle
