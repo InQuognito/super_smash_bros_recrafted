@@ -1,0 +1,11 @@
+{
+	"function": "minecraft:set_damage",
+	"damage": {
+		"type": "minecraft:score",
+		"target": {
+			"type": "minecraft:fixed",
+			"name": "indicator.durability"
+		},
+		"score": "temp"
+	}
+}
