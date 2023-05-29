@@ -4,9 +4,9 @@
 		"type": "minecraft:score",
 		"target": {
 			"type": "minecraft:fixed",
-			"name": "indicator.damage"
+			"name": "temp"
 		},
-		"score": "temp"
+		"score": "indicator.damage"
 	},
 	"add": false
 }
