@@ -1,4 +1,4 @@
-execute positioned 0.0 0.0 0.0 summon minecraft:marker run function ssbrc:series/indie_fighters/shovelknight/logic/abilities/throwing_anchor/init/marker
+execute summon minecraft:marker run function ssbrc:series/indie_fighters/shovelknight/logic/abilities/throwing_anchor/init/marker
 
 scoreboard players operation @s mana -= #shovelknight.throwingAnchorManaCost vars
 
