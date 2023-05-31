@@ -1,23 +1,23 @@
 loot give @s[tag=!gold,tag=psg1] loot ssbrc:characters/metal_gear_solid/snake/psg1/default
-loot give @s[tag=!gold,tag=psg1] loot ssbrc:characters/metal_gear_solid/snake/psg1/gold
+loot give @s[tag=gold,tag=psg1] loot ssbrc:characters/metal_gear_solid/snake/psg1/gold
 
 loot give @s[tag=!gold,tag=famas] loot ssbrc:characters/metal_gear_solid/snake/famas/default
-loot give @s[tag=!gold,tag=famas] loot ssbrc:characters/metal_gear_solid/snake/famas/gold
+loot give @s[tag=gold,tag=famas] loot ssbrc:characters/metal_gear_solid/snake/famas/gold
 
 loot give @s[tag=!gold,tag=s1000] loot ssbrc:characters/metal_gear_solid/snake/s1000/default
-loot give @s[tag=!gold,tag=s1000] loot ssbrc:characters/metal_gear_solid/snake/s1000/gold
+loot give @s[tag=gold,tag=s1000] loot ssbrc:characters/metal_gear_solid/snake/s1000/gold
 
 loot give @s[tag=!gold,tag=socom] loot ssbrc:characters/metal_gear_solid/snake/socom/default
-loot give @s[tag=!gold,tag=socom] loot ssbrc:characters/metal_gear_solid/snake/socom/gold
+loot give @s[tag=gold,tag=socom] loot ssbrc:characters/metal_gear_solid/snake/socom/gold
 
 loot give @s[tag=!gold] loot ssbrc:characters/metal_gear_solid/snake/cqc_knife/default
-loot give @s[tag=!gold] loot ssbrc:characters/metal_gear_solid/snake/cqc_knife/gold
+loot give @s[tag=gold] loot ssbrc:characters/metal_gear_solid/snake/cqc_knife/gold
 
 loot give @s[tag=!gold,tag=antiPersonnelMine] loot ssbrc:characters/metal_gear_solid/snake/anti_personnel_mine/default/inactive
-loot give @s[tag=!gold,tag=antiPersonnelMine] loot ssbrc:characters/metal_gear_solid/snake/anti_personnel_mine/gold/inactive
+loot give @s[tag=gold,tag=antiPersonnelMine] loot ssbrc:characters/metal_gear_solid/snake/anti_personnel_mine/gold/inactive
 
 loot give @s[tag=!gold,tag=smokeGrenade] loot ssbrc:characters/metal_gear_solid/snake/smoke_grenade/default
-loot give @s[tag=!gold,tag=smokeGrenade] loot ssbrc:characters/metal_gear_solid/snake/smoke_grenade/gold
+loot give @s[tag=gold,tag=smokeGrenade] loot ssbrc:characters/metal_gear_solid/snake/smoke_grenade/gold
 
 loot replace entity @s hotbar.8 loot ssbrc:characters/metal_gear_solid/snake/status/undetected
 
