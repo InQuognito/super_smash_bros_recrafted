@@ -67,6 +67,7 @@ scoreboard objectives add motionZ dummy
 scoreboard objectives add piercing dummy
 scoreboard objectives add point dummy
 scoreboard objectives add points dummy
+scoreboard objectives modify points displayname {"translate":"ssbrc.game.points","bold":true,"color":"yellow"}
 scoreboard objectives add posX dummy
 scoreboard objectives add posY dummy
 scoreboard objectives add posZ dummy
