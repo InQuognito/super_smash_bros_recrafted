@@ -4,8 +4,8 @@ execute if score @s menu matches -997 if score @s reset matches 1 run function s
 
 execute if score @s[tag=rob] menu matches 5 run function ssbrc:series/super_smash_bros/rob/menu/skins/default
 execute if score @s[tag=rob] menu matches 6 run function ssbrc:series/super_smash_bros/rob/menu/skins/gold
-execute if score @s[tag=rob] menu matches 7 run function ssbrc:series/super_smash_bros/rob/menu/skins/famicom
-execute if score @s[tag=rob] menu matches 8 run function ssbrc:series/super_smash_bros/rob/menu/skins/ancient_minister
+execute if score @s[tag=rob] menu matches 7 run function ssbrc:series/super_smash_bros/rob/menu/skins/ancient_minister
+execute if score @s[tag=rob] menu matches 8 run function ssbrc:series/super_smash_bros/rob/menu/skins/famicom
 
 execute if score @s[tag=bowser] menu matches 64 run function ssbrc:series/super_mario_bros/bowser/menu/skins/default
 execute if score @s[tag=bowser] menu matches 65 run function ssbrc:series/super_mario_bros/bowser/menu/skins/gold
