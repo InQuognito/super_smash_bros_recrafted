@@ -59,7 +59,7 @@
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{mrBaseballBat:1,CustomModelData:1081,Unbreakable:1b,HideFlags:128}"
+							"tag": "{mrBaseballBat:1,CustomModelData:1081,Unbreakable:1b,HideFlags:127}"
 						}
 					]
 				}

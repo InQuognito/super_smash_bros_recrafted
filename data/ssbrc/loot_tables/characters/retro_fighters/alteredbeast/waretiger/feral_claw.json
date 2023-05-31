@@ -66,7 +66,7 @@
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{feralClaw:1,Unbreakable:1b,HideFlags:128}"
+							"tag": "{feralClaw:1,Unbreakable:1b,HideFlags:127}"
 						}
 					]
 				}

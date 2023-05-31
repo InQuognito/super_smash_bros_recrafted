@@ -90,7 +90,7 @@
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{erdwinsShield:1,HideFlags:128}"
+							"tag": "{erdwinsShield:1,HideFlags:127}"
 						}
 					]
 				}

@@ -131,7 +131,7 @@
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{busterSword:1,CustomModelData:184,Unbreakable:1b,HideFlags:128}"
+							"tag": "{busterSword:1,CustomModelData:184,Unbreakable:1b,HideFlags:127}"
 						}
 					]
 				}

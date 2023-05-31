@@ -49,7 +49,7 @@ loot replace entity @s[tag=megaman,scores={charge.1=..0}] hotbar.2 loot ssbrc:ch
 scoreboard players set @s[tag=megaman] charge.1 1
 
 # Pit
-item replace entity @s[tag=pit] armor.chest with minecraft:elytra{Damage:417,HideFlags:128} 1
+item replace entity @s[tag=pit] armor.chest with minecraft:elytra{Damage:417,HideFlags:127} 1
 give @s[tag=pit] minecraft:spectral_arrow 16
 
 # Pokémon Trainer

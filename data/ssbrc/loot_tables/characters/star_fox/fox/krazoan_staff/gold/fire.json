@@ -39,7 +39,7 @@
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{krazoanStaff:1,CustomModelData:384,Unbreakable:1b,HideFlags:128}"
+							"tag": "{krazoanStaff:1,CustomModelData:384,Unbreakable:1b,HideFlags:127}"
 						}
 					]
 				}

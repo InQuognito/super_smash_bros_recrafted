@@ -91,7 +91,7 @@
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{blunderbuss:1,CustomModelData:681,HideFlags:128}"
+							"tag": "{blunderbuss:1,CustomModelData:681,HideFlags:127}"
 						}
 					]
 				}

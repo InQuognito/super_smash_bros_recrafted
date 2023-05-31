@@ -79,7 +79,7 @@
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{waterShuriken:1,CustomModelData:421,Unbreakable:1b,HideFlags:128}"
+							"tag": "{waterShuriken:1,CustomModelData:421,Unbreakable:1b,HideFlags:127}"
 						}
 					]
 				}

@@ -92,7 +92,7 @@
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{flail:1,enchanted:1,obsidian:3,CustomModelData:9009,Unbreakable:1b,HideFlags:128}"
+							"tag": "{flail:1,enchanted:1,obsidian:3,CustomModelData:9009,Unbreakable:1b,HideFlags:127}"
 						}
 					]
 				}

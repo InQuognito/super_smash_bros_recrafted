@@ -85,7 +85,7 @@
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{electricTerrain:1,CustomModelData:1201,Unbreakable:1b,HideFlags:128}"
+							"tag": "{electricTerrain:1,CustomModelData:1201,Unbreakable:1b,HideFlags:127}"
 						}
 					]
 				}

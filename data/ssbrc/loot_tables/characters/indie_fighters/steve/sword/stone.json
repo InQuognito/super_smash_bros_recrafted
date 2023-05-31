@@ -59,7 +59,7 @@
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{stoneSword:1,Unbreakable:1b,HideFlags:128}"
+							"tag": "{stoneSword:1,Unbreakable:1b,HideFlags:127}"
 						}
 					]
 				}

@@ -66,7 +66,7 @@
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{crossbow:1,Unbreakable:1b,HideFlags:128}"
+							"tag": "{crossbow:1,Unbreakable:1b,HideFlags:127}"
 						}
 					]
 				}

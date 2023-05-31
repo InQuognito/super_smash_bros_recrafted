@@ -59,7 +59,7 @@
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{alucardSword:1,awakened:0,CustomModelData:1840,Unbreakable:1b,HideFlags:128}"
+							"tag": "{alucardSword:1,awakened:0,CustomModelData:1840,Unbreakable:1b,HideFlags:127}"
 						}
 					]
 				}

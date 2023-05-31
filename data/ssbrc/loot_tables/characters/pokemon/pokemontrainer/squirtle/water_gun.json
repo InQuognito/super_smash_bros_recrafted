@@ -79,7 +79,7 @@
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{waterGun:1,CustomModelData:50018,Unbreakable:1b,HideFlags:128}"
+							"tag": "{waterGun:1,CustomModelData:50018,Unbreakable:1b,HideFlags:127}"
 						}
 					]
 				}

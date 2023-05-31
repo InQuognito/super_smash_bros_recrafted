@@ -85,7 +85,7 @@
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{fistsOfFury:1,CustomModelData:125,Unbreakable:1b,HideFlags:128}"
+							"tag": "{fistsOfFury:1,CustomModelData:125,Unbreakable:1b,HideFlags:127}"
 						}
 					]
 				}

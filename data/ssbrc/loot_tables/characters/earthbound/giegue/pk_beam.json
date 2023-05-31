@@ -87,7 +87,7 @@
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{pkBeam:1,CustomModelData:1862,Unbreakable:1b,HideFlags:128}"
+							"tag": "{pkBeam:1,CustomModelData:1862,Unbreakable:1b,HideFlags:127}"
 						}
 					]
 				}

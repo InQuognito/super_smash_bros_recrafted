@@ -59,7 +59,7 @@
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{blackSword:1,CustomModelData:1900,Unbreakable:1b,HideFlags:128}"
+							"tag": "{blackSword:1,CustomModelData:1900,Unbreakable:1b,HideFlags:127}"
 						}
 					]
 				}

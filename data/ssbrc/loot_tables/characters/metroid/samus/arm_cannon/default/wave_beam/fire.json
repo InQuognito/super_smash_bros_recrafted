@@ -39,7 +39,7 @@
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{waveBeam:1,CustomModelData:1422,Unbreakable:1b,HideFlags:128}"
+							"tag": "{waveBeam:1,CustomModelData:1422,Unbreakable:1b,HideFlags:127}"
 						}
 					]
 				}

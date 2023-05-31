@@ -103,7 +103,7 @@
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{alucardShield:1,HideFlags:128}"
+							"tag": "{alucardShield:1,HideFlags:127}"
 						}
 					]
 				}

@@ -65,7 +65,7 @@
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{braveBow:1,CustomModelData:105,Unbreakable:1b,HideFlags:128}"
+							"tag": "{braveBow:1,CustomModelData:105,Unbreakable:1b,HideFlags:127}"
 						}
 					]
 				}

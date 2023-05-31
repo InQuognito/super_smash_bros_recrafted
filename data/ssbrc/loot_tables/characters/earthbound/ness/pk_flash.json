@@ -133,7 +133,7 @@
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{pkFlash:1,CustomModelData:1082,Unbreakable:1b,HideFlags:128}"
+							"tag": "{pkFlash:1,CustomModelData:1082,Unbreakable:1b,HideFlags:127}"
 						}
 					]
 				}

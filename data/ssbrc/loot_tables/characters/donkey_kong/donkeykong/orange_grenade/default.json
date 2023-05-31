@@ -91,7 +91,7 @@
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{orangeGrenade:1,CustomModelData:302,HideFlags:128}"
+							"tag": "{orangeGrenade:1,CustomModelData:302,HideFlags:127}"
 						}
 					]
 				}

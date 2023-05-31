@@ -91,7 +91,7 @@
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{roboBeam:1,CustomModelData:4,Unbreakable:1b,HideFlags:128}"
+							"tag": "{roboBeam:1,CustomModelData:4,Unbreakable:1b,HideFlags:127}"
 						}
 					]
 				}

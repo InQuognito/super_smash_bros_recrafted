@@ -95,7 +95,7 @@
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{passiveItem:1,smallShield:1,HideFlags:128}"
+							"tag": "{passiveItem:1,smallShield:1,HideFlags:127}"
 						}
 					]
 				}

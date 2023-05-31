@@ -85,7 +85,7 @@
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{keyblade:1,kingdomKey:1,strikeRaid:1,CustomModelData:1561,Unbreakable:1b,HideFlags:128}"
+							"tag": "{keyblade:1,kingdomKey:1,strikeRaid:1,CustomModelData:1561,Unbreakable:1b,HideFlags:127}"
 						}
 					]
 				}

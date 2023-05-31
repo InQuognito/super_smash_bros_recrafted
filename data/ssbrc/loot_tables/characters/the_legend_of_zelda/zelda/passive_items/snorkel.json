@@ -65,7 +65,7 @@
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{passiveItem:1,snorkel:1,CustomModelData:9039,Unbreakable:1b,HideFlags:128}"
+							"tag": "{passiveItem:1,snorkel:1,CustomModelData:9039,Unbreakable:1b,HideFlags:127}"
 						}
 					]
 				}

@@ -59,7 +59,7 @@
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{fairyBow:1,CustomModelData:721,Unbreakable:1b,HideFlags:128}"
+							"tag": "{fairyBow:1,CustomModelData:721,Unbreakable:1b,HideFlags:127}"
 						}
 					]
 				}

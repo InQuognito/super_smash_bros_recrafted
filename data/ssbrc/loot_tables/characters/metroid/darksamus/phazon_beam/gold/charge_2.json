@@ -117,7 +117,7 @@
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{phazonBeam:1,charge:2,charging:1,CustomModelData:270,Unbreakable:1b,HideFlags:128}"
+							"tag": "{phazonBeam:1,charge:2,charging:1,CustomModelData:270,Unbreakable:1b,HideFlags:127}"
 						}
 					]
 				}

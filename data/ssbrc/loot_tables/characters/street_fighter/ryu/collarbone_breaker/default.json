@@ -59,7 +59,7 @@
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{collarboneBreaker:1,CustomModelData:1401,Unbreakable:1b,HideFlags:128}"
+							"tag": "{collarboneBreaker:1,CustomModelData:1401,Unbreakable:1b,HideFlags:127}"
 						}
 					]
 				}

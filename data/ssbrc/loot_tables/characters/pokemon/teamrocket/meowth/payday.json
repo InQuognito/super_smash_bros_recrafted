@@ -79,7 +79,7 @@
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{payday:1,CustomModelData:50012,Unbreakable:1b,HideFlags:128}"
+							"tag": "{payday:1,CustomModelData:50012,Unbreakable:1b,HideFlags:127}"
 						}
 					]
 				}

@@ -107,7 +107,7 @@
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{satsuiNoHadoRage:1,CustomModelData:1402,Unbreakable:1b,HideFlags:128}"
+							"tag": "{satsuiNoHadoRage:1,CustomModelData:1402,Unbreakable:1b,HideFlags:127}"
 						}
 					]
 				}
