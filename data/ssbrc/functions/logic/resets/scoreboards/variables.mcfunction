@@ -46,6 +46,7 @@ scoreboard players set #luigi.iceBallMaxRotation vars 160
 scoreboard players set #luigi.superJumpThreshold vars 10
 scoreboard players set #luigi.superJumpMovementFalloff vars 200
 
+scoreboard players set mario.fireballCooldown vars 20
 scoreboard players set #mario.fireballMaxRotation vars 160
 scoreboard players set #mario.superJumpThreshold vars 10
 scoreboard players set #mario.superJumpMovementFalloff vars 200

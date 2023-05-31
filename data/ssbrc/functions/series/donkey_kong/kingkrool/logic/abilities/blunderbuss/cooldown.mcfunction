@@ -1,8 +1,7 @@
-scoreboard players set indicator.damage temp 100
-scoreboard players operation indicator.cooldown temp = @s cooldown.1
-scoreboard players operation indicator.cooldown temp *= 100 integers
-scoreboard players operation indicator.cooldown temp /= kingkrool.blunderbussCooldown vars
-scoreboard players operation indicator.damage temp -= indicator.cooldown temp
+scoreboard players operation indicator.cooldownType temp = @s cooldown.1
+scoreboard players operation indicator.cooldownAmount temp = kingkrool.blunderbussCooldown vars
+
+function ssbrc:logic/characters/calculate_cooldown
 
 execute if entity @s[nbt={Inventory:[{tag:{blunderbuss:1},Slot:0b}]}] run item modify entity @s hotbar.0 ssbrc:characters/cooldown
 execute if entity @s[nbt={Inventory:[{tag:{blunderbuss:1},Slot:1b}]}] run item modify entity @s hotbar.1 ssbrc:characters/cooldown
