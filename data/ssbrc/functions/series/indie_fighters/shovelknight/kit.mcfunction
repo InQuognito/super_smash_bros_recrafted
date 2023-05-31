@@ -1,7 +1,8 @@
 function ssbrc:series/indie_fighters/shovelknight/logic/abilities/phase_locket/off
 
 clear @s #ssbrc:equipment
-loot replace entity @s[tag=!armorOfChaos,tag=!toadGear] hotbar.0 loot ssbrc:characters/indie_fighters/shovelknight/shovel_blade/default/default
+loot replace entity @s[tag=!gold,tag=!armorOfChaos,tag=!toadGear] hotbar.0 loot ssbrc:characters/indie_fighters/shovelknight/shovel_blade/default/default
+loot replace entity @s[tag=gold] hotbar.0 loot ssbrc:characters/indie_fighters/shovelknight/shovel_blade/gold/default
 loot replace entity @s[tag=armorOfChaos] hotbar.0 loot ssbrc:characters/indie_fighters/shovelknight/shovel_blade/shovel_of_chaos/default
 loot replace entity @s[tag=toadGear] hotbar.0 loot ssbrc:characters/indie_fighters/shovelknight/shovel_blade/toad_shovel/default
 
