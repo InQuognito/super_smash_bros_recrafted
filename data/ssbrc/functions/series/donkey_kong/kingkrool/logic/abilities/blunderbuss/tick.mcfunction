@@ -1,4 +1,5 @@
-particle minecraft:smoke ~ ~ ~ 0.05 0.05 0.05 0.05 1 normal @a
+execute if entity @s[tag=!gold] run particle minecraft:smoke ~ ~ ~ 0.05 0.05 0.05 0.05 1 normal @a
+execute if entity @s[tag=gold] run particle minecraft:dust_color_transition 0.5 0.5 0.0 0.5 1.0 1.0 0.0 ~ ~ ~ 0.05 0.05 0.05 0.0 1 normal @a
 
 execute unless block ~ ~-0.1 ~ #ssbrc:passthrough unless entity @s[tag=hitGround] run function ssbrc:series/donkey_kong/kingkrool/logic/abilities/blunderbuss/land
 
