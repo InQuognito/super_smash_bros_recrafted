@@ -112,6 +112,7 @@ scoreboard objectives add stageIndexCalculator dummy
 scoreboard objectives add stamina dummy
 scoreboard objectives add steve.tier dummy
 scoreboard objectives add stocks dummy
+scoreboard objectives modify stocks displayname {"translate":"ssbrc.game.stocks","bold":true,"color":"yellow"}
 scoreboard objectives add suicides dummy
 scoreboard objectives add teamAmount dummy
 scoreboard objectives add timer dummy
