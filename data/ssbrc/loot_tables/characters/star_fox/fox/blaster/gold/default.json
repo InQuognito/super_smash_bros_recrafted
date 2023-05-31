@@ -6,14 +6,14 @@
 			"entries": [
 				{
 					"type": "minecraft:item",
-					"name": "minecraft:wooden_axe",
+					"name": "minecraft:carrot_on_a_stick",
 					"functions": [
 						{
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"translate": "ssbrc.tooltips.kirby.hammerKirby",
-								"color": "light_purple",
+								"translate": "ssbrc.tooltips.starFox.blaster",
+								"color": "white",
 								"bold": true,
 								"italic": false
 							}
@@ -23,23 +23,37 @@
 							"entity": "this",
 							"lore": [
 								{
-									"translate": "-------------",
+									"translate": "--------",
 									"color": "gray",
 									"bold": false,
 									"italic": false
 								},
 								{
-									"translate": "ssbrc.tooltips.weapon.melee",
+									"translate": "ssbrc.tooltips.weapon.ranged",
 									"color": "white",
 									"bold": false,
 									"italic": false,
 									"underlined": true
 								},
 								{
-									"translate": "ssbrc.tooltips.kirby.hammerKirby.description.1",
+									"translate": "- [",
 									"color": "gray",
 									"bold": false,
-									"italic": false
+									"italic": false,
+									"extra": [
+										{
+											"keybind": "key.use",
+											"color": "gray",
+											"bold": false,
+											"italic": false
+										},
+										{
+											"translate": "ssbrc.tooltips.ability.activate",
+											"color": "gray",
+											"bold": false,
+											"italic": false
+										}
+									]
 								}
 							],
 							"replace": true
@@ -50,14 +64,14 @@
 								{
 									"attribute": "minecraft:generic.attack_damage",
 									"name": "Attack Damage",
-									"amount": 6,
+									"amount": 0,
 									"operation": "multiply_base",
 									"slot": "mainhand"
 								},
 								{
 									"attribute": "minecraft:generic.attack_speed",
 									"name": "Attack Speed",
-									"amount": 1,
+									"amount": 1024,
 									"operation": "multiply_base",
 									"slot": "mainhand"
 								}
@@ -65,7 +79,7 @@
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{hammerKirby:1,CustomModelData:700,Unbreakable:1b,HideFlags:128}"
+							"tag": "{blaster:1,CustomModelData:385,Unbreakable:1b,HideFlags:128}"
 						}
 					]
 				}

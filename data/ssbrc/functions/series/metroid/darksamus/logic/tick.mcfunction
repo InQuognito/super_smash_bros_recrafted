@@ -9,6 +9,7 @@ execute if entity @s[nbt={Inventory:[{tag:{phazonBeam:1,charging:1}}]}] unless s
 execute if entity @s[nbt=!{SelectedItem:{tag:{phazonBeam:1}}},nbt={Inventory:[{tag:{phazonBeam:1,charging:1}}]}] run function ssbrc:series/metroid/darksamus/logic/abilities/phazon_beam/reset
 
 # Phazon Overload
-execute if score @s[nbt=!{Inventory:[{tag:{phazonOverload:1}}]}] charge.1 matches 400.. run loot replace entity @s hotbar.4 loot ssbrc:characters/metroid/darksamus/phazon_overload
+execute if score @s[tag=!gold,nbt=!{Inventory:[{tag:{phazonOverload:1}}]}] charge.1 matches 400.. run loot replace entity @s hotbar.4 loot ssbrc:characters/metroid/darksamus/phazon_overload/default
+execute if score @s[tag=gold,nbt=!{Inventory:[{tag:{phazonOverload:1}}]}] charge.1 matches 400.. run loot replace entity @s hotbar.4 loot ssbrc:characters/metroid/darksamus/phazon_overload/gold
 
 execute if score @s duration.1 matches 1.. at @s run function ssbrc:series/metroid/darksamus/logic/abilities/phazon_overload/tick

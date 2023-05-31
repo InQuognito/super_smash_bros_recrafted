@@ -8,7 +8,9 @@ execute if score @s shadow.chaosControl matches 1.. run function ssbrc:logic/cha
 scoreboard players add @s charge.1 1
 execute if score @s charge.1 matches 15.. run function ssbrc:series/retro_fighters/yar/logic/abilities/power_ups/reset
 
-loot replace entity @s weapon.mainhand loot ssbrc:characters/retro_fighters/yar/ray_blaster/triple_shot/fire
-loot replace entity @s weapon.mainhand loot ssbrc:characters/retro_fighters/yar/ray_blaster/triple_shot/default
+loot replace entity @s[tag=!gold] weapon.mainhand loot ssbrc:characters/retro_fighters/yar/ray_blaster/triple_shot/default/fire
+loot replace entity @s[tag=!gold] weapon.mainhand loot ssbrc:characters/retro_fighters/yar/ray_blaster/triple_shot/default/default
+loot replace entity @s[tag=gold] weapon.mainhand loot ssbrc:characters/retro_fighters/yar/ray_blaster/triple_shot/gold/fire
+loot replace entity @s[tag=gold] weapon.mainhand loot ssbrc:characters/retro_fighters/yar/ray_blaster/triple_shot/gold/default
 
 playsound ssbrc:fighters.yar.triple_shot.activate player @a

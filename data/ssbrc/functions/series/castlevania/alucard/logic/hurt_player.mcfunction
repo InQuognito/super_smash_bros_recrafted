@@ -45,7 +45,6 @@ execute if score result random matches 3 run particle minecraft:dust 0.7 0.3 0.3
 execute if score result random matches 3 run particle minecraft:dust 0.7 0.3 0.3 1.5 ^0.75 ^1.2 ^1.2 0.0 0.0 0.0 0.005 1 normal @a
 execute if score result random matches 3 run particle minecraft:dust 0.7 0.3 0.3 1.5 ^1.00 ^1.1 ^1.1 0.0 0.0 0.0 0.005 1 normal @a
 
-tag @s remove bloodMetamorphosis
-function ssbrc:logic/characters/armor/update
+function ssbrc:series/castlevania/alucard/logic/abilities/blood_metamorphosis/deactivate
 
 advancement revoke @s only ssbrc:utility/flag/hurt_player/custom/alucard_sword

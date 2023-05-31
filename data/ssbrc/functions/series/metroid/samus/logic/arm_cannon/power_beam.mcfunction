@@ -1,3 +1,4 @@
-loot replace entity @s weapon.mainhand loot ssbrc:characters/metroid/samus/arm_cannon/power_beam/default
+loot replace entity @s[tag=!gold] weapon.mainhand loot ssbrc:characters/metroid/samus/arm_cannon/default/power_beam/default
+loot replace entity @s[tag=gold] weapon.mainhand loot ssbrc:characters/metroid/samus/arm_cannon/gold/power_beam/default
 
 scoreboard players set @s cooldown.2 1

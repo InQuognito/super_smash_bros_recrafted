@@ -5,5 +5,6 @@ execute if entity @s[tag=naturalShiny] run function ssbrc:series/pokemon/natural
 function ssbrc:logic/characters/natures/select
 
 loot replace entity @s hotbar.0 loot ssbrc:characters/pokemon/jigglypuff/pound
-loot replace entity @s hotbar.1 loot ssbrc:characters/pokemon/jigglypuff/hyper_voice
+loot replace entity @s[tag=!gold] hotbar.1 loot ssbrc:characters/pokemon/jigglypuff/hyper_voice/default
+loot replace entity @s[tag=gold] hotbar.1 loot ssbrc:characters/pokemon/jigglypuff/hyper_voice/gold
 loot replace entity @s hotbar.2 loot ssbrc:characters/pokemon/jigglypuff/rest

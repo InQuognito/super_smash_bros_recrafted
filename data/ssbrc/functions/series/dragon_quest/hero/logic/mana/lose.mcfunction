@@ -1,7 +1,8 @@
 title @s actionbar [{"translate":"ssbrc.fighters.hero.warriorSwitch","bold":true,"color":"red"}]
 
 clear @s #ssbrc:equipment
-loot replace entity @s[tag=!erdrick,tag=!rek,tag=!sofia] hotbar.0 loot ssbrc:characters/dragon_quest/hero/sword/sword_of_light
+loot replace entity @s[tag=!gold,tag=!erdrick,tag=!rek,tag=!sofia] hotbar.0 loot ssbrc:characters/dragon_quest/hero/sword/sword_of_light/default
+loot replace entity @s[tag=gold] hotbar.0 loot ssbrc:characters/dragon_quest/hero/sword/sword_of_light/gold
 loot replace entity @s[tag=erdrick] hotbar.0 loot ssbrc:characters/dragon_quest/hero/sword/erdricks_sword
 loot replace entity @s[tag=rek] hotbar.0 loot ssbrc:characters/dragon_quest/hero/sword/sword_of_ramias
 loot replace entity @s[tag=sofia] hotbar.0 loot ssbrc:characters/dragon_quest/hero/sword/zenithian_sword

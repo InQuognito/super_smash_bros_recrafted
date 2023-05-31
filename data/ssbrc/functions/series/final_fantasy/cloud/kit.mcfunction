@@ -1,4 +1,5 @@
-loot replace entity @s hotbar.0 loot ssbrc:characters/final_fantasy/cloud/buster_sword/operator/default
+loot replace entity @s[tag=!gold] hotbar.0 loot ssbrc:characters/final_fantasy/cloud/buster_sword/default/operator/default
+loot replace entity @s[tag=gold] hotbar.0 loot ssbrc:characters/final_fantasy/cloud/buster_sword/gold/operator/default
 
 tag @s remove punisher
 tag @s add operator

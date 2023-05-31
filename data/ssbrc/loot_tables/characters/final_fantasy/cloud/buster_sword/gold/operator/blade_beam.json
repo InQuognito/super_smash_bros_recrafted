@@ -1,0 +1,155 @@
+{
+	"type": "minecraft:command",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:carrot_on_a_stick",
+					"functions": [
+						{
+							"function": "minecraft:set_name",
+							"entity": "this",
+							"name": {
+								"translate": "ssbrc.tooltips.cloud.busterSword",
+								"color": "gray",
+								"bold": true,
+								"italic": false
+							}
+						},
+						{
+							"function": "minecraft:set_lore",
+							"entity": "this",
+							"lore": [
+								{
+									"translate": "--------------",
+									"color": "gray",
+									"bold": false,
+									"italic": false
+								},
+								{
+									"translate": "ssbrc.tooltips.weapon.hybrid",
+									"color": "white",
+									"bold": false,
+									"italic": false,
+									"underlined": true
+								},
+								{
+									"translate": "- [",
+									"color": "gray",
+									"bold": false,
+									"italic": false,
+									"extra": [
+										{
+											"keybind": "key.use",
+											"color": "gray",
+											"bold": false,
+											"italic": false
+										},
+										{
+											"translate": "ssbrc.tooltips.cloud.bladeBeam.description.1",
+											"color": "gray",
+											"bold": false,
+											"italic": false
+										}
+									]
+								},
+								{
+									"translate": "ssbrc.tooltips.cloud.limitBreak",
+									"color": "gray",
+									"bold": false,
+									"italic": false,
+									"extra": [
+										{
+											"translate": "ssbrc.tooltips.cloud.bladeBeam.description.2",
+											"color": "gray",
+											"bold": false,
+											"italic": false
+										}
+									]
+								},
+								{
+									"translate": "- [",
+									"color": "gray",
+									"bold": false,
+									"italic": false,
+									"extra": [
+										{
+											"keybind": "key.sneak",
+											"color": "gray",
+											"bold": false,
+											"italic": false
+										},
+										{
+											"translate": "] + [",
+											"color": "gray",
+											"bold": false,
+											"italic": false
+										},
+										{
+											"keybind": "key.use",
+											"color": "gray",
+											"bold": false,
+											"italic": false
+										},
+										{
+											"translate": "ssbrc.tooltips.cloud.changeModes",
+											"color": "gray",
+											"bold": false,
+											"italic": false
+										}
+									]
+								},
+								{
+									"translate": "ssbrc.fighters.cloud.operator",
+									"color": "green",
+									"bold": true,
+									"italic": false,
+									"extra": [
+										{
+											"translate": " -> ",
+											"color": "white",
+											"bold": false,
+											"italic": false
+										},
+										{
+											"translate": "ssbrc.fighters.cloud.punisher",
+											"color": "blue",
+											"bold": false,
+											"italic": false
+										}
+									]
+								}
+							],
+							"replace": true
+						},
+						{
+							"function": "minecraft:set_attributes",
+							"modifiers": [
+								{
+									"attribute": "minecraft:generic.attack_damage",
+									"name": "Attack Damage",
+									"amount": 7,
+									"operation": "multiply_base",
+									"slot": "mainhand"
+								},
+								{
+									"attribute": "minecraft:generic.attack_speed",
+									"name": "Attack Speed",
+									"amount": 1,
+									"operation": "multiply_base",
+									"slot": "mainhand"
+								}
+							]
+						},
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{busterSword:1,CustomModelData:183,Unbreakable:1b,HideFlags:128}"
+						}
+					]
+				}
+			]
+		}
+	]
+}

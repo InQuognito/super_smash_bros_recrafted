@@ -7,6 +7,6 @@ execute if score @s temp matches 20 as @e[tag=!self,predicate=ssbrc:flag/targets
 execute if score @s temp matches 40 as @e[tag=!self,predicate=ssbrc:flag/targets,distance=..6] run function ssbrc:series/indie_fighters/shovelknight/logic/abilities/war_horn/hit
 execute if score @s temp matches 60 as @e[tag=!self,predicate=ssbrc:flag/targets,distance=..8] run function ssbrc:series/indie_fighters/shovelknight/logic/abilities/war_horn/hit
 
-execute if score @s temp matches 100 as @p[tag=self] run function ssbrc:series/indie_fighters/shovelknight/logic/abilities/war_horn/used
+execute if score @s temp matches 100 as @p[tag=self] run function ssbrc:series/indie_fighters/shovelknight/logic/abilities/war_horn/disabled
 
 kill @s[scores={temp=100..}]

@@ -1,4 +1,5 @@
-loot replace entity @s hotbar.1 loot ssbrc:characters/super_smash_bros/rob/robo_beam/ready
+loot replace entity @s[tag=!gold] hotbar.1 loot ssbrc:characters/super_smash_bros/rob/robo_beam/default/ready
+loot replace entity @s[tag=gold] hotbar.1 loot ssbrc:characters/super_smash_bros/rob/robo_beam/gold/ready
 
 function ssbrc:logic/characters/armor/update
 

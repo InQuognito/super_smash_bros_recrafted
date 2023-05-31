@@ -1,7 +1,6 @@
 execute summon minecraft:marker run function ssbrc:series/castlevania/alucard/logic/abilities/holy_water/init/marker
 
-tag @s remove bloodMetamorphosis
-function ssbrc:logic/characters/armor/update
+function ssbrc:series/castlevania/alucard/logic/abilities/blood_metamorphosis/deactivate
 
 scoreboard players set @s cooldown.2 300
 execute if score @s shadow.chaosControl matches 1.. run function ssbrc:logic/characters/cooldown_modifiers/chaos_control/2
