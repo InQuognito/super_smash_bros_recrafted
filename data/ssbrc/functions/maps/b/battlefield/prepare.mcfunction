@@ -6,8 +6,8 @@ summon minecraft:marker 296.5 19.0 -561.5 {Tags:["spawnpoint"]}
 summon minecraft:marker 308.5 19.0 -561.5 {Tags:["spawnpoint"]}
 summon minecraft:marker 302.5 16.0 -556.5 {Tags:["spawnpoint"]}
 summon minecraft:marker 302.5 16.0 -566.5 {Tags:["spawnpoint"]}
-summon minecraft:marker 308.5 16.0 -561.5 {Tags:["spawnpoint"]}
-summon minecraft:marker 296.5 16.0 -561.5 {Tags:["spawnpoint"]}
+summon minecraft:marker 305.5 16.0 -561.5 {Tags:["spawnpoint"]}
+summon minecraft:marker 299.5 16.0 -561.5 {Tags:["spawnpoint"]}
 
 summon minecraft:marker 302.5 24.0 -566.5 {Tags:["spawnpoint.item"]}
 summon minecraft:marker 302.5 24.0 -556.5 {Tags:["spawnpoint.item"]}
