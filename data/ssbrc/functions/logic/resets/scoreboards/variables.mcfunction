@@ -37,6 +37,8 @@ scoreboard players set #hero.flameSlashManaCost vars 1
 scoreboard players set #hero.bangManaCost vars 2
 scoreboard players set #hero.kaclangManaCost vars 3
 
+scoreboard players set jigglypuff.hyperVoiceCooldown vars 40
+
 scoreboard players set #joker.maxAwakening vars 600
 scoreboard players set #joker.personaBreak vars 300
 scoreboard players set #joker.finalGuardThreshold vars 4
