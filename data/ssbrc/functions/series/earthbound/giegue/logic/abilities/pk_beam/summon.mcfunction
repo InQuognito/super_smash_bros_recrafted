@@ -2,7 +2,7 @@ execute positioned ^ ^-0.75 ^0.5 summon minecraft:marker run function ssbrc:seri
 
 scoreboard players set @s charge.1 0
 
-scoreboard players set @s cooldown.2 60
+scoreboard players operation @s cooldown.2 = giegue.pkBeamCooldown vars
 scoreboard players add @s charge.2 1
 scoreboard players operation #extraCooldown temp = @s charge.2
 scoreboard players operation #extraCooldown temp *= 100 integers

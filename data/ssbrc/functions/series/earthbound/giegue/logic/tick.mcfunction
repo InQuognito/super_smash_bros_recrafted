@@ -3,6 +3,11 @@ execute if entity @s[scores={useAbility=1..,cooldown.2=..0,charge.1=..0},nbt={Se
 
 execute if entity @s[predicate=ssbrc:flag/sneaking,scores={cooldown.3=..0}] at @s positioned ~ ~0.1 ~ run function ssbrc:series/earthbound/giegue/logic/abilities/4th_dimensional_slip/activate
 
+# PK Freeze
+function ssbrc:series/earthbound/giegue/logic/abilities/pk_freeze/cooldown
+
 # PK Beam
 scoreboard players add @s[scores={charge.1=1..}] charge.1 1
 execute at @s[scores={charge.1=1..}] anchored eyes run function ssbrc:series/earthbound/giegue/logic/abilities/pk_beam/charge
+
+function ssbrc:series/earthbound/giegue/logic/abilities/pk_beam/cooldown

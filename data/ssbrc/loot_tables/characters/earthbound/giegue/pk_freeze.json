@@ -85,7 +85,7 @@
 								{
 									"attribute": "minecraft:generic.attack_speed",
 									"name": "Attack Speed",
-									"amount": 1024,
+									"amount": -1024,
 									"operation": "multiply_base",
 									"slot": "mainhand"
 								}
@@ -93,7 +93,7 @@
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{pkFreeze:1,CustomModelData:1861,Unbreakable:1b,HideFlags:127}"
+							"tag": "{pkFreeze:1,CustomModelData:1861,HideFlags:127}"
 						}
 					]
 				}

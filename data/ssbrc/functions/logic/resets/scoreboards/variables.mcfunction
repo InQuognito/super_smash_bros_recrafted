@@ -19,6 +19,8 @@ scoreboard players set #donkeykong.orangeGrenadeMaxRotation vars 160
 scoreboard players set fox.reflectorCooldown vars 60
 scoreboard players set #fox.fireFoxThreshold vars 30
 
+scoreboard players set giegue.pkFreezeCooldown vars 25
+scoreboard players set giegue.pkBeamCooldown vars 60
 scoreboard players set #giegue.4thDimensionalSlipRange vars 6
 
 scoreboard players set #hero.maxMana vars 20
