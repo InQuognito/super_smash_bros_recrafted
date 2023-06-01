@@ -60,6 +60,10 @@ scoreboard players set megaman.megaBusterLimit vars 3
 scoreboard players set pikachu.thunderJoltCooldown vars 20
 scoreboard players set #pikachu.thunderJoltMaxRotation vars 160
 
+scoreboard players set pokemontrainer.flareBlitzCooldown vars 60
+scoreboard players set pokemontrainer.leechSeedCooldown vars 100
+scoreboard players set pokemontrainer.waterGunCooldown vars 40
+
 scoreboard players set #rob.maxCharge vars 200
 scoreboard players set #rob.maxFuel vars 200
 

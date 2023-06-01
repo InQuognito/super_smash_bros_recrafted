@@ -5,9 +5,15 @@ execute if entity @s[scores={useAbility=1..,cooldown.1=..0,duration.1=..0},nbt={
 # Flare Blitz
 execute at @s[tag=charizard,scores={duration.1=1}] run function ssbrc:series/pokemon/pokemontrainer/logic/charizard/flare_blitz/deactivate
 
+execute if entity @s[tag=charizard] run function ssbrc:series/pokemon/pokemontrainer/logic/charizard/flare_blitz/cooldown
+
 # Leech Seed
 title @s[tag=ivysaur,nbt=!{SelectedItem:{tag:{leechSeed:1}}}] actionbar ""
 title @s[tag=ivysaur,nbt={SelectedItem:{tag:{leechSeed:1}}}] actionbar {"score":{"name":"@s","objective":"charge.1"},"color":"red"}
 
+execute if entity @s[tag=ivysaur] run function ssbrc:series/pokemon/pokemontrainer/logic/ivysaur/leech_seed/cooldown
+
 # Water Gun
 execute if score @s[tag=squirtle] charge.1 matches 1.. at @s anchored eyes positioned ^ ^ ^ run function ssbrc:series/pokemon/pokemontrainer/logic/squirtle/water_gun/charge
+
+execute if entity @s[tag=squirtle] run function ssbrc:series/pokemon/pokemontrainer/logic/squirtle/water_gun/cooldown
