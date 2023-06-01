@@ -64,11 +64,11 @@ fill -705 43 821 -700 43 823 minecraft:waxed_copper_block replace
 fill -705 40 820 -700 42 820 minecraft:air replace
 
 # Bowser Face - Red
-summon minecraft:item_display -681.5 24.01 844.5 {Rotation:[90f,0f],item:{id:"minecraft:sugar",tag:{CustomModelData:159},Count:1b},transformation:[5.0f,0.0f,0.0f,0.0f,0.0f,5.0f,0.0f,0.0f,0.0f,0.0f,5.0f,0.0f,0.0f,0.0f,0.0f,1.0f],brightness:{sky:6,block:6}}
+summon minecraft:item_display -681.5 24.01 844.5 {Rotation:[-90f,0f],item:{id:"minecraft:sugar",tag:{CustomModelData:159},Count:1b},transformation:[5.0f,0.0f,0.0f,0.0f,0.0f,5.0f,0.0f,0.0f,0.0f,0.0f,5.0f,0.0f,0.0f,0.0f,0.0f,1.0f],brightness:{sky:6,block:6}}
 
 # Bowser Face - Black
-summon minecraft:item_display -736.99 33.5 867.0 {Rotation:[90f,0f],item:{id:"minecraft:sugar",tag:{CustomModelData:151},Count:1b},transformation:[2.0f,0.0f,0.0f,0.0f,0.0f,2.0f,0.0f,0.0f,0.0f,0.0f,2.0f,0.0f,0.0f,0.0f,0.0f,1.0f],brightness:{sky:6,block:6}}
-summon minecraft:item_display -736.99 33.5 822.0 {Rotation:[90f,0f],item:{id:"minecraft:sugar",tag:{CustomModelData:151},Count:1b},transformation:[2.0f,0.0f,0.0f,0.0f,0.0f,2.0f,0.0f,0.0f,0.0f,0.0f,2.0f,0.0f,0.0f,0.0f,0.0f,1.0f],brightness:{sky:6,block:6}}
+summon minecraft:item_display -736.99 33.5 867.0 {Rotation:[-90f,0f],item:{id:"minecraft:sugar",tag:{CustomModelData:151},Count:1b},transformation:[2.0f,0.0f,0.0f,0.0f,0.0f,2.0f,0.0f,0.0f,0.0f,0.0f,2.0f,0.0f,0.0f,0.0f,0.0f,1.0f],brightness:{sky:6,block:6}}
+summon minecraft:item_display -736.99 33.5 822.0 {Rotation:[-90f,0f],item:{id:"minecraft:sugar",tag:{CustomModelData:151},Count:1b},transformation:[2.0f,0.0f,0.0f,0.0f,0.0f,2.0f,0.0f,0.0f,0.0f,0.0f,2.0f,0.0f,0.0f,0.0f,0.0f,1.0f],brightness:{sky:6,block:6}}
 
 summon minecraft:armor_stand -734.959 27.0 854.474 {Tags:["propStand","peach","default"],NoBasePlate:1b,ShowArms:1b,Rotation:[265f],Pose:{LeftArm:[219f,340f,22f],RightArm:[213f,34f,348f]}}
 

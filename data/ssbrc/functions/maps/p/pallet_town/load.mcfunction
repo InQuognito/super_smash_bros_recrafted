@@ -12,14 +12,14 @@ summon minecraft:armor_stand -603.0 13.0 -196.2 {Tags:["decorObject"],Rotation:[
 summon minecraft:armor_stand -550.5 17.0 -159.5 {Tags:["decorObject"],Invulnerable:1b,Rotation:[25f,0f],ShowArms:1b,DisabledSlots:4144959,Pose:{RightArm:[237f,17f,316f],LeftLeg:[0f,336f,0f],LeftArm:[14f,0f,343f],RightLeg:[0f,25f,0f]},ArmorItems:[{id:"minecraft:leather_boots",Count:1b,tag:{display:{color:4737097}}},{id:"minecraft:leather_leggings",Count:1b,tag:{display:{color:13212261}}},{id:"minecraft:leather_chestplate",Count:1b,tag:{display:{color:3947837}}},{id:"minecraft:player_head",Count:1b,tag:{SkullOwner:{Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjUxZjMwYWVkN2M0ODJhNDgyZTM5NGNkZmU3ZTEwYjc2NWJjYjRkZmQxNGE5NWM0ZWZhMTZjYmFiNzZkN2EwIn19fQ=="}]},Id:[I;-1360679216,-349879360,-1554682183,580770401]}}}],NoBasePlate:1b}
 summon minecraft:armor_stand -552.5 18.0 -163.5 {Tags:["decorObject"],Invulnerable:1b,Rotation:[30f,0f],DisabledSlots:4144959,Pose:{LeftLeg:[0f,0f,358f],LeftArm:[28f,340f,0f],RightLeg:[0f,0f,4f],RightArm:[28f,12f,0f]},ArmorItems:[{id:"minecraft:leather_boots",tag:{display:{color:7293756}},Count:1b},{id:"minecraft:leather_leggings",tag:{display:{color:14527845}},Count:1b},{id:"minecraft:leather_chestplate",tag:{display:{color:11946575}},Count:1b},{id:"minecraft:player_head",Count:1b,tag:{SkullOwner:{Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2U5NDRmMTRlNGY3NWU3ZWExOTAxM2FlNjNlMjlkMWNjNmVhNTkyNTkyOTA0OWQ4NzkyOWVkYTRlM2ZkYzdiOCJ9fX0="}]},Id:[I;736689370,-1871426504,-1747073693,-517479867]}}}],NoBasePlate:1b,ShowArms:1b}
 
-summon minecraft:item_display -553.0 16.25 -157.0 {Rotation:[-90f,0f],item:{id:"minecraft:sugar",Count:1b,tag:{CustomModelData:1351}},transformation:[2.5f,0.0f,0.0f,0.0f,0.0f,2.5f,0.0f,0.0f,0.0f,0.0f,2.5f,0.0f,0.0f,0.0f,0.0f,1.0f]}
+summon minecraft:item_display -553.0 16.25 -157.0 {Rotation:[90f,0f],item:{id:"minecraft:sugar",Count:1b,tag:{CustomModelData:1351}},transformation:[2.5f,0.0f,0.0f,0.0f,0.0f,2.5f,0.0f,0.0f,0.0f,0.0f,2.5f,0.0f,0.0f,0.0f,0.0f,1.0f]}
 
 # Metapod
 scoreboard players set max random 2
 function ssbrc:math/rng/lcg
 
-execute if score result random matches 0 run summon minecraft:item_display -568.5 19.6 -123.5 {Tags:["decorObject","metapod"],Rotation:[45f,0f],item:{id:"minecraft:diamond",Count:1b,tag:{CustomModelData:110}}}
-execute if score result random matches 1 run summon minecraft:item_display -578.5 19.6 -128.5 {Tags:["decorObject","metapod"],Rotation:[70f,0f],item:{id:"minecraft:diamond",Count:1b,tag:{CustomModelData:110}}}
+execute if score result random matches 0 run summon minecraft:item_display -568.5 19.6 -123.5 {Tags:["decorObject","metapod"],Rotation:[-135f,0f],item:{id:"minecraft:diamond",Count:1b,tag:{CustomModelData:110}}}
+execute if score result random matches 1 run summon minecraft:item_display -578.5 19.6 -128.5 {Tags:["decorObject","metapod"],Rotation:[-110f,0f],item:{id:"minecraft:diamond",Count:1b,tag:{CustomModelData:110}}}
 
 # Diglett / Dugtrio
 execute positioned -594.5 21.5 -135.5 run function ssbrc:maps/p/pallet_town/logic/pokemon/diglett/decide
@@ -27,7 +27,7 @@ execute positioned -591.5 21.5 -137.5 run function ssbrc:maps/p/pallet_town/logi
 execute positioned -593.5 21.5 -140.5 run function ssbrc:maps/p/pallet_town/logic/pokemon/diglett/decide
 
 # Abra
-summon minecraft:item_display -545.5 24.0 -156.5 {Tags:["decorObject","abra"],Rotation:[-135f,0f],item:{id:"minecraft:diamond",Count:1b,tag:{CustomModelData:630}}}
+summon minecraft:item_display -545.5 24.0 -156.5 {Tags:["decorObject","abra"],Rotation:[45f,0f],item:{id:"minecraft:diamond",Count:1b,tag:{CustomModelData:630}}}
 
 # Magnemite
 scoreboard players set max random 2
@@ -37,7 +37,7 @@ execute if score result random matches 0 run summon minecraft:armor_stand -530.5
 execute if score result random matches 1 run summon minecraft:armor_stand -549.5 25.5 -121.5 {Tags:["decorObject","magnemite"],Rotation:[180f,0f],Pose:{LeftArm:[0f,0f,270f],RightArm:[0f,0f,90f]},HandItems:[{id:"minecraft:diamond",Count:1b,tag:{CustomModelData:811}},{id:"minecraft:diamond",Count:1b,tag:{CustomModelData:811}}],ArmorItems:[{},{},{},{id:"minecraft:diamond",Count:1b,tag:{CustomModelData:810}}],Invisible:1b,NoGravity:1b,DisabledSlots:4144959}
 
 # Snorlax
-summon minecraft:item_display -560.5 13.0 -123.5 {Tags:["decorObject","snorlax"],Rotation:[-90f,0f],item:{id:"minecraft:diamond",Count:1b,tag:{CustomModelData:1430}},transformation:[2.0f,0.0f,0.0f,0.0f,0.0f,2.0f,0.0f,0.0f,0.0f,0.0f,2.0f,0.0f,0.0f,0.0f,0.0f,1.0f]}
+summon minecraft:item_display -560.5 13.0 -123.5 {Tags:["decorObject","snorlax"],Rotation:[90f,0f],item:{id:"minecraft:diamond",Count:1b,tag:{CustomModelData:1430}},transformation:[2.0f,0.0f,0.0f,0.0f,0.0f,2.0f,0.0f,0.0f,0.0f,0.0f,2.0f,0.0f,0.0f,0.0f,0.0f,1.0f]}
 
 time set noon
 weather clear
