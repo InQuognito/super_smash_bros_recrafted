@@ -1,7 +1,6 @@
 execute if entity @s[scores={useAbility=1..,cooldown.1=..0},nbt={SelectedItem:{tag:{fireball:1}}}] at @s anchored eyes run function ssbrc:series/super_mario_bros/mario/logic/abilities/fireball/activate
 
 # Fireball
-#execute if score @s cooldown.1 matches 1.. run function ssbrc:series/super_mario_bros/mario/logic/abilities/fireball/cooldown
 function ssbrc:series/super_mario_bros/mario/logic/abilities/fireball/cooldown
 
 # Super Jump

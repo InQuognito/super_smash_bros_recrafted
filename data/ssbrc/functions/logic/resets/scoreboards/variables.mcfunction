@@ -42,6 +42,7 @@ scoreboard players set #joker.finalGuardThreshold vars 4
 
 scoreboard players set kingkrool.blunderbussCooldown vars 60
 
+scoreboard players set luigi.iceBallCooldown vars 20
 scoreboard players set #luigi.iceBallMaxRotation vars 160
 scoreboard players set #luigi.superJumpThreshold vars 10
 scoreboard players set #luigi.superJumpMovementFalloff vars 200

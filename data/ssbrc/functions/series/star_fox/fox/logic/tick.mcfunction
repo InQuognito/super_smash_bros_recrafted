@@ -9,6 +9,8 @@ execute if score @s duration.2 matches 2.. at @s anchored eyes positioned ^ ^ ^2
 execute if score @s duration.2 matches 2.. run teleport @s @s
 execute if score @s duration.2 matches 1 run function ssbrc:series/star_fox/fox/logic/abilities/reflector/deactivate
 
+function ssbrc:series/star_fox/fox/logic/abilities/reflector/cooldown
+
 # Fire Fox
 execute unless score @s duration.3 matches 1.. if entity @s[predicate=ssbrc:flag/sneaking,scores={cooldown.3=..0,duration.3=..0}] at @s run function ssbrc:series/star_fox/fox/logic/abilities/fire_fox/charge
 
