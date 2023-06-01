@@ -8,6 +8,8 @@ scoreboard players set #frostbiteTimer vars 100
 # Fighters
 scoreboard players set #bowser.maxFireBreath vars 100
 
+scoreboard players set byleth.steedChargeCooldown vars 300
+
 scoreboard players set #cloud.maxLimit vars 70
 
 scoreboard players set #darksamus.chargeBeamThreshold vars 40
