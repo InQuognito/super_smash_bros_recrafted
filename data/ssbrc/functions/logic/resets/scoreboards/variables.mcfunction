@@ -16,6 +16,7 @@ scoreboard players set #darksamus.phazonOverloadRange vars 8
 scoreboard players set #donkeykong.barrelMaxRotation vars 160
 scoreboard players set #donkeykong.orangeGrenadeMaxRotation vars 160
 
+scoreboard players set fox.reflectorCooldown vars 60
 scoreboard players set #fox.fireFoxThreshold vars 30
 
 scoreboard players set #giegue.4thDimensionalSlipRange vars 6
