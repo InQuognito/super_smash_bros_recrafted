@@ -8,6 +8,6 @@ execute as @e[tag=!self,predicate=ssbrc:flag/targets,distance=..2.5] at @s run f
 
 kill @s
 
-execute as @p[tag=self] run function ssbrc:series/earthbound/ness/logic/abilities/pk_flash/cooldown
+execute as @p[tag=self] run function ssbrc:series/earthbound/ness/logic/abilities/pk_flash/deactivate
 
 playsound ssbrc:fighters.ness.pk_flash.explode player @a
