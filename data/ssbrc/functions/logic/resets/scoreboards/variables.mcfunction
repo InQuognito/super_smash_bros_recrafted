@@ -79,6 +79,7 @@ scoreboard players set #ryu.tatsumakiSenpukyaku vars 10
 scoreboard players set #samus.waveBeamPiercing vars 3
 
 scoreboard players set #shadow.maxMeter vars 600
+scoreboard players set snake.chaosSpearCooldown vars 15
 scoreboard players set shadow.chaosSpearCost vars 50
 
 scoreboard players set #shovelknight.maxMana vars 10

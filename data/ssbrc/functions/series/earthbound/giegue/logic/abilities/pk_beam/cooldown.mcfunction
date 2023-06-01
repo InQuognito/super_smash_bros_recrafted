@@ -1,10 +1,6 @@
 scoreboard players operation indicator.cooldownType temp = @s cooldown.2
 scoreboard players operation indicator.cooldownAmount temp = giegue.pkBeamCooldown vars
 
-scoreboard players operation #extraCooldown temp = @s charge.2
-scoreboard players operation #extraCooldown temp *= 100 integers
-scoreboard players operation indicator.cooldownAmount temp += #extraCooldown temp
-
 function ssbrc:logic/characters/calculate_cooldown
 
 execute if entity @s[nbt={Inventory:[{tag:{pkBeam:1},Slot:0b}]}] run item modify entity @s hotbar.0 ssbrc:characters/cooldown

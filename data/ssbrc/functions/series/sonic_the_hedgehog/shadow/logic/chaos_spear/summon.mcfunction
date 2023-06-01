@@ -1,6 +1,6 @@
 execute summon minecraft:marker run function ssbrc:series/sonic_the_hedgehog/shadow/logic/chaos_spear/init/marker
 
-scoreboard players set @s cooldown.1 15
+scoreboard players operation @s cooldown.1 = shadow.chaosSpearCooldown vars
 scoreboard players operation @s cooldown.1 += @s charge.1
 
 scoreboard players set @s charge.1 0

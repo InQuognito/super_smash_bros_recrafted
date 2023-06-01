@@ -8,6 +8,8 @@ scoreboard players add @s[scores={charge.1=1..}] charge.1 1
 execute at @s[scores={charge.1=1..}] anchored eyes run function ssbrc:series/sonic_the_hedgehog/shadow/logic/chaos_spear/charge
 execute if score @s charge.1 matches 15.. at @s anchored eyes positioned ^ ^ ^ run function ssbrc:series/sonic_the_hedgehog/shadow/logic/chaos_spear/summon
 
+function ssbrc:series/sonic_the_hedgehog/shadow/logic/chaos_spear/cooldown
+
 # Chaos Control
 scoreboard players remove @a[scores={shadow.chaosControl=1..}] shadow.chaosControl 1
 execute as @a[scores={shadow.chaosControl=..0}] run function ssbrc:series/sonic_the_hedgehog/shadow/logic/chaos_control/off
