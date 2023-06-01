@@ -1,5 +1,8 @@
 tag @s add missileLauncher
 
+execute if entity @p[tag=self,tag=!gold] run tag @s add default
+execute if entity @p[tag=self,tag=gold] run tag @s add gold
+
 item replace entity @s[tag=!gold] armor.head with minecraft:carrot_on_a_stick{CustomModelData:1976}
 item replace entity @s[tag=gold] armor.head with minecraft:carrot_on_a_stick{CustomModelData:1986}
 
