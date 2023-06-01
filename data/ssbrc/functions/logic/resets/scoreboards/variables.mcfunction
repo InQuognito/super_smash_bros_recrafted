@@ -59,6 +59,9 @@ scoreboard players set #mario.superJumpMovementFalloff vars 200
 
 scoreboard players set megaman.megaBusterLimit vars 3
 
+scoreboard players set ness.pkFireCooldown vars 40
+scoreboard players set ness.pkFlashCooldown vars 40
+
 scoreboard players set pikachu.thunderJoltCooldown vars 20
 scoreboard players set #pikachu.thunderJoltMaxRotation vars 160
 
