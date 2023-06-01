@@ -113,6 +113,10 @@ scoreboard players set #snake.smokeGrenadeScavenger vars 1
 
 scoreboard players set #steve.blockRange vars 3
 
+scoreboard players set teamrocket.acidCooldown vars 300
+scoreboard players set teamrocket.paydayCooldown vars 200
+scoreboard players set teamrocket.destinyBondCooldown vars 600
+
 scoreboard players set #wolf.grenadeTimer vars 80
 scoreboard players set #wolf.wolfFlash vars 6
 
