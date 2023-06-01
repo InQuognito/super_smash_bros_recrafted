@@ -113,8 +113,10 @@ scoreboard players set #snake.s1000Scavenger vars 4
 scoreboard players set #snake.socomWeight vars 3
 scoreboard players set #snake.socomReload vars 40
 scoreboard players set #snake.socomScavenger vars 2
+scoreboard players set snake.antiPersonnelMineCooldown vars 20
 scoreboard players set #snake.antiPersonnelMineWeight vars 2
 scoreboard players set #snake.antiPersonnelMineScavenger vars 2
+scoreboard players set snake.smokeGrenadeCooldown vars 300
 scoreboard players set #snake.smokeGrenadeWeight vars 2
 scoreboard players set #snake.smokeGrenadeScavenger vars 1
 
