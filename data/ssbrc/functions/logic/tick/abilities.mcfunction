@@ -144,7 +144,7 @@ execute as @e[type=minecraft:armor_stand,tag=throwingAnchor] at @s if score @s i
 execute as @e[type=minecraft:marker,tag=warHorn] at @s if score @s id = @p[tag=self] id run function ssbrc:series/indie_fighters/shovelknight/logic/abilities/war_horn/tick
 
 # Team Rocket
-execute as @e[type=minecraft:area_effect_cloud,tag=acid,predicate=ssbrc:flag/no_vehicle,tag=!active] at @s if score @s id = @p[tag=self] id run function ssbrc:series/pokemon/teamrocket/logic/arbok/acid/enable
+execute as @e[type=minecraft:area_effect_cloud,tag=acid,tag=!active] at @s if score @s id = @p[tag=self] id run function ssbrc:series/pokemon/teamrocket/logic/arbok/acid/tick
 execute as @e[type=minecraft:armor_stand,tag=payday] at @s if score @s id = @p[tag=self] id run function ssbrc:series/pokemon/teamrocket/logic/meowth/payday/tick
 execute as @e[type=minecraft:arrow,tag=paydayProjectile] at @s if score @s id = @p[tag=self] id run function ssbrc:series/pokemon/teamrocket/logic/meowth/payday/projectiles/tick
 
