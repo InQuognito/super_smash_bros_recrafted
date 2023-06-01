@@ -1,6 +1,10 @@
 tag @s add antiPersonnelMine
 
-loot replace entity @s armor.head loot ssbrc:characters/metal_gear_solid/snake/anti_personnel_mine/inactive
+execute if entity @p[tag=self,tag=!gold] run tag @s add default
+execute if entity @p[tag=self,tag=gold] run tag @s add gold
+
+loot replace entity @s[tag=!gold] armor.head loot ssbrc:characters/metal_gear_solid/snake/anti_personnel_mine/default/inactive
+loot replace entity @s[tag=gold] armor.head loot ssbrc:characters/metal_gear_solid/snake/anti_personnel_mine/gold/inactive
 
 data merge entity @s {Small:1b}
 
