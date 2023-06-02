@@ -5,9 +5,14 @@ execute if score @s[scores={useAbility=1..,duration.2=..0},nbt={SelectedItem:{ta
 # Mana
 function ssbrc:series/dragon_quest/hero/logic/mana/update
 
+# Bang
+function ssbrc:series/dragon_quest/hero/logic/abilities/bang/cooldown
+
 # Kaclang
 execute if score @s duration.2 matches 1.. at @s run function ssbrc:series/dragon_quest/hero/logic/abilities/kaclang/tick
 execute if entity @s[predicate=ssbrc:characters/hero/kaclang/off] run function ssbrc:series/dragon_quest/hero/logic/abilities/kaclang/deactivate
+
+function ssbrc:series/dragon_quest/hero/logic/abilities/kaclang/cooldown
 
 # Magic Burst
 execute if score @s charge.1 matches 1.. at @s run function ssbrc:series/dragon_quest/hero/logic/abilities/magic_burst/tick
