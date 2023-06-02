@@ -1,7 +1,7 @@
 function ssbrc:logic/pre_game/map_voting/stage_index/pages/reset
 
 loot replace entity @s enderchest.0 loot ssbrc:ui/null/orange
-item replace entity @s enderchest.9 with minecraft:barrier{ui:{id:"navigation.stages.1",sound:"click"},CustomModelData:9999991,display:{Name:'{"translate":"Go Back","color":"red","italic":false}'}}
+item replace entity @s enderchest.9 with minecraft:barrier{ui:{id:"navigation.stages.1",sound:"click"},CustomModelData:9999991,display:{Name:'{"translate":"ssbrc.ui.goBack","color":"red","italic":false}'}}
 loot replace entity @s enderchest.18 loot ssbrc:ui/null/orange
 
 item replace entity @s enderchest.2 with minecraft:sugar{ui:{id:"stages.icicleMountain",sound:"click"},CustomModelData:850,HideFlags:127,display:{Name:'{"translate":"Icicle Mountain","color":"aqua","italic":false}',Lore:['{"translate":"Ice Climbers","color":"aqua","italic":false}','""','{"translate":"Click to vote","color":"yellow","italic":false}']}}
@@ -23,5 +23,5 @@ item replace entity @s enderchest.23 with minecraft:sugar{ui:{id:"stages.pyrosph
 item replace entity @s enderchest.24 with minecraft:sugar{ui:{id:"stages.sandOcean",sound:"click"},CustomModelData:1450,HideFlags:127,display:{Name:'{"translate":"Sand Ocean","color":"gold","italic":false}',Lore:['{"translate":"F-Zero","color":"gray","italic":false}','""','{"translate":"Click to vote","color":"yellow","italic":false}']}}
 
 loot replace entity @s enderchest.8 loot ssbrc:ui/null/orange
-item replace entity @s enderchest.17 with minecraft:barrier{ui:{id:"navigation.stages.3",sound:"click"},CustomModelData:9999992,display:{Name:'{"translate":"Next Page","color":"red","italic":false}'}}
+item replace entity @s enderchest.17 with minecraft:barrier{ui:{id:"navigation.stages.3",sound:"click"},CustomModelData:9999992,display:{Name:'{"translate":"ssbrc.ui.nextPage","color":"red","italic":false}'}}
 loot replace entity @s enderchest.26 loot ssbrc:ui/null/orange

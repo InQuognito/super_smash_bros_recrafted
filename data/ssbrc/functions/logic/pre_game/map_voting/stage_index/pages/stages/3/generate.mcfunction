@@ -1,7 +1,7 @@
 function ssbrc:logic/pre_game/map_voting/stage_index/pages/reset
 
 loot replace entity @s enderchest.0 loot ssbrc:ui/null/yellow
-item replace entity @s enderchest.9 with minecraft:barrier{ui:{id:"navigation.stages.2",sound:"click"},CustomModelData:9999991,display:{Name:'{"translate":"Go Back","color":"red","italic":false}'}}
+item replace entity @s enderchest.9 with minecraft:barrier{ui:{id:"navigation.stages.2",sound:"click"},CustomModelData:9999991,display:{Name:'{"translate":"ssbrc.ui.goBack","color":"red","italic":false}'}}
 loot replace entity @s enderchest.18 loot ssbrc:ui/null/yellow
 
 item replace entity @s enderchest.2 with minecraft:sugar{ui:{id:"stages.saturnValley",sound:"click"},CustomModelData:1500,HideFlags:127,display:{Name:'{"translate":"Saturn Valley","color":"green","italic":false}',Lore:['{"translate":"Earthbound","color":"gold","italic":false}','""','{"translate":"Click to vote","color":"yellow","italic":false}']}}

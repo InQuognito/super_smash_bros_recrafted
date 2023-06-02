@@ -23,5 +23,5 @@ item replace entity @s enderchest.23 with minecraft:sugar{ui:{id:"stages.greenHi
 item replace entity @s enderchest.24 with minecraft:sugar{ui:{id:"stages.hyruleCastle",sound:"click"},CustomModelData:800,HideFlags:127,display:{Name:'{"translate":"Hyrule Castle","color":"blue","italic":false}',Lore:['{"translate":"The Legend of Zelda","color":"yellow","italic":false}','""','{"translate":"Click to vote","color":"yellow","italic":false}']}}
 
 loot replace entity @s enderchest.8 loot ssbrc:ui/null/red
-item replace entity @s enderchest.17 with minecraft:barrier{ui:{id:"navigation.stages.2",sound:"click"},CustomModelData:9999992,display:{Name:'{"translate":"Next Page","color":"red","italic":false}'}}
+item replace entity @s enderchest.17 with minecraft:barrier{ui:{id:"navigation.stages.2",sound:"click"},CustomModelData:9999992,display:{Name:'{"translate":"ssbrc.ui.nextPage","color":"red","italic":false}'}}
 loot replace entity @s enderchest.26 loot ssbrc:ui/null/red
