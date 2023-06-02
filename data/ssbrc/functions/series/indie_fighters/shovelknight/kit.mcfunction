@@ -1,4 +1,5 @@
 function ssbrc:series/indie_fighters/shovelknight/logic/abilities/phase_locket/off
+execute if entity @s[tag=warHornActive] run function ssbrc:series/indie_fighters/shovelknight/logic/abilities/war_horn/deactivate
 
 clear @s #ssbrc:equipment
 loot replace entity @s[tag=!gold,tag=!armorOfChaos,tag=!toadGear] hotbar.0 loot ssbrc:characters/indie_fighters/shovelknight/shovel_blade/default/default

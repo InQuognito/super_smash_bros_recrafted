@@ -1,5 +1,7 @@
 execute positioned ~ ~0.75 ~ summon minecraft:marker run function ssbrc:series/indie_fighters/shovelknight/logic/abilities/war_horn/init
 
+tag @s add warHornActive
+
 function ssbrc:logic/characters/effects/mobility/immobilize
 
 scoreboard players operation @s mana -= #shovelknight.warHornManaCost vars

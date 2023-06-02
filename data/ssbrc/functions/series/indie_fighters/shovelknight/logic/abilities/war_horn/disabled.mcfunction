@@ -1,9 +1,3 @@
-function ssbrc:logic/characters/effects/mobility/mobilize
-
-clear @s minecraft:goat_horn{warHorn:1}
-
-loot give @s loot ssbrc:characters/indie_fighters/shovelknight/war_horn/disabled
-
 execute if entity @s[nbt={Inventory:[{tag:{warHorn:1},Slot:0b}]}] run loot replace entity @s hotbar.0 loot ssbrc:characters/indie_fighters/shovelknight/war_horn/disabled
 execute if entity @s[nbt={Inventory:[{tag:{warHorn:1},Slot:1b}]}] run loot replace entity @s hotbar.1 loot ssbrc:characters/indie_fighters/shovelknight/war_horn/disabled
 execute if entity @s[nbt={Inventory:[{tag:{warHorn:1},Slot:2b}]}] run loot replace entity @s hotbar.2 loot ssbrc:characters/indie_fighters/shovelknight/war_horn/disabled

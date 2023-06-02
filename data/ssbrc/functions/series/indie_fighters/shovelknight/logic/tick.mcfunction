@@ -37,7 +37,7 @@ execute if entity @s[tag=shovelknight.flareWand] run function ssbrc:series/indie
 
 # Phase Locket
 execute if score @s[tag=shovelknight.phaseLocket] duration.2 matches 20 at @s run playsound ssbrc:fighters.shovelknight.phase_locket.warn player @s
-execute if score @s[tag=shovelknight.phaseLocket] duration.2 matches 1 run function ssbrc:series/indie_fighters/shovelknight/logic/abilities/phase_locket/off
+execute if score @s[tag=shovelknight.phaseLocket] duration.2 matches 1 run function ssbrc:series/indie_fighters/shovelknight/logic/abilities/phase_locket/deactivate
 execute if score @s[tag=shovelknight.phaseLocket] duration.2 matches 1.. run function ssbrc:logic/characters/effects/cleanse_harmful
 
 execute if entity @s[tag=shovelknight.phaseLocket] run function ssbrc:series/indie_fighters/shovelknight/logic/abilities/phase_locket/cooldown
