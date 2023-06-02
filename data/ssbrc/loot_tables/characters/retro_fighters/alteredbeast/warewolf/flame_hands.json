@@ -92,7 +92,7 @@
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{flameHands:1,CustomModelData:1822,Unbreakable:1b,HideFlags:127}"
+							"tag": "{flameHands:1,CustomModelData:1822,HideFlags:127}"
 						}
 					]
 				}

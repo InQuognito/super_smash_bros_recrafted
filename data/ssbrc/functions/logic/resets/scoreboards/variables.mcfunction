@@ -6,6 +6,9 @@ scoreboard players set selectorRange vars 20
 scoreboard players set #frostbiteTimer vars 100
 
 # Fighters
+scoreboard players set alteredbeast.electrocutionCooldown vars 600
+scoreboard players set alteredbeast.flameHandsCooldown vars 20
+
 scoreboard players set #bowser.maxFireBreath vars 100
 
 scoreboard players set byleth.steedChargeCooldown vars 300
