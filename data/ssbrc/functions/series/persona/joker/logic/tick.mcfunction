@@ -41,3 +41,14 @@ execute if score @s[tag=highPixie,team=team5] duration.3 matches 1.. as @a[team=
 execute if score @s[tag=highPixie,team=team6] duration.3 matches 1.. as @a[team=team6] run function ssbrc:logic/characters/effects/cleanse
 execute if score @s[tag=highPixie,team=team7] duration.3 matches 1.. as @a[team=team7] run function ssbrc:logic/characters/effects/cleanse
 execute if score @s[tag=highPixie,team=team8] duration.3 matches 1.. as @a[team=team8] run function ssbrc:logic/characters/effects/cleanse
+
+execute if entity @s[scores={duration.1=1..},tag=highPixie] run function ssbrc:series/persona/joker/logic/abilities/amrita_shower/cooldown
+
+# Eiagon
+execute if entity @s[scores={duration.1=1..},tag=arsene] run function ssbrc:series/persona/joker/logic/abilities/eiagon/cooldown
+
+# Hama
+execute if entity @s[scores={duration.1=1..},tag=archangel] run function ssbrc:series/persona/joker/logic/abilities/hama/cooldown
+
+# Phantom Show
+execute if entity @s[scores={duration.1=1..},tag=raoul] run function ssbrc:series/persona/joker/logic/abilities/phantom_show/cooldown

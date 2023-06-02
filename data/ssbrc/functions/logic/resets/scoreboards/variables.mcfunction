@@ -46,6 +46,10 @@ scoreboard players set jigglypuff.hyperVoiceCooldown vars 40
 scoreboard players set #joker.maxAwakening vars 600
 scoreboard players set #joker.personaBreak vars 300
 scoreboard players set #joker.finalGuardThreshold vars 4
+scoreboard players set joker.amritaShowerCooldown vars 100
+scoreboard players set joker.eiagonCooldown vars 40
+scoreboard players set joker.hamaCooldown vars 300
+scoreboard players set joker.phantomShowCooldown vars 15
 
 scoreboard players set kingkrool.blunderbussCooldown vars 60
 
