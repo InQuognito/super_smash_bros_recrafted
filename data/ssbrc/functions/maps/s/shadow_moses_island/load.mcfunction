@@ -10,6 +10,8 @@ summon minecraft:armor_stand 100.8 11.5 -1431.8 {Tags:["camera"],Rotation:[45f,0
 execute if score hazards options matches 0 as @e[tag=camera] run data merge entity @s {Pose:{Head:[80f,0f,0f]},ArmorItems:[{},{},{},{id:"minecraft:sugar",Count:1b,tag:{CustomModelData:1602}}]}
 execute if score hazards options matches 1 as @e[tag=camera] run data merge entity @s {ArmorItems:[{},{},{},{id:"minecraft:sugar",Count:1b,tag:{CustomModelData:1601}}]}
 
+function ssbrc:maps/s/shadow_moses_island/logic/helicopter/propeller/1
+
 time set noon
 weather clear
 

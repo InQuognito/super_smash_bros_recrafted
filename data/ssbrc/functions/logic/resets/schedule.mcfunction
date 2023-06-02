@@ -68,3 +68,9 @@ schedule clear ssbrc:maps/p/pyrosphere/logic/fgii_graham/activate
 # Saturn Valley
 schedule clear ssbrc:maps/s/saturn_valley/logic/well/off
 schedule clear ssbrc:maps/s/saturn_valley/logic/well/on
+
+# Shadow Moses Island
+schedule clear ssbrc:maps/s/shadow_moses_island/logic/helicopter/propeller/1
+schedule clear ssbrc:maps/s/shadow_moses_island/logic/helicopter/propeller/2
+schedule clear ssbrc:maps/s/shadow_moses_island/logic/helicopter/propeller/3
+schedule clear ssbrc:maps/s/shadow_moses_island/logic/helicopter/propeller/4
