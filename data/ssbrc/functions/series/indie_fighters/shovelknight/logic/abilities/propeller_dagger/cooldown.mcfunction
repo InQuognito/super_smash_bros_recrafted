@@ -1,5 +1,5 @@
 scoreboard players operation indicator.cooldownType temp = @s cooldown.2
-scoreboard players operation indicator.cooldownAmount temp = shovelknight.flareWandCooldown vars
+scoreboard players operation indicator.cooldownAmount temp = shovelknight.propellerDaggerCooldown vars
 
 function ssbrc:logic/characters/calculate_cooldown
 
