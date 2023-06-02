@@ -89,13 +89,18 @@ scoreboard players set shadow.chaosSpearCooldown vars 15
 scoreboard players set shadow.chaosSpearCost vars 50
 
 scoreboard players set #shovelknight.maxMana vars 10
+scoreboard players set shovelknight.chaosSphereCooldown vars 20
 scoreboard players set #shovelknight.chaosSphereManaCost vars 1
+scoreboard players set #shovelknight.chaosSphereMaxRotation vars 160
+scoreboard players set shovelknight.flareWandCooldown vars 15
 scoreboard players set #shovelknight.flareWandManaCost vars 1
+scoreboard players set shovelknight.throwingAnchorCooldown vars 10
 scoreboard players set #shovelknight.throwingAnchorManaCost vars 1
+scoreboard players set shovelknight.phaseLocketCooldown vars 200
 scoreboard players set #shovelknight.phaseLocketManaCost vars 3
+scoreboard players set shovelknight.propellerDaggerCooldown vars 60
 scoreboard players set #shovelknight.propellerDaggerManaCost vars 2
 scoreboard players set #shovelknight.warHornManaCost vars 7
-scoreboard players set #shovelknight.chaosSphereMaxRotation vars 160
 
 scoreboard players set #sora.driveForm vars 400
 scoreboard players set #sora.maxMP vars 10

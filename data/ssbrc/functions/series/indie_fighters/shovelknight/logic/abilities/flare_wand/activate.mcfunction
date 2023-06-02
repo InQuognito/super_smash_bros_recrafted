@@ -6,7 +6,7 @@ loot replace entity @s weapon.mainhand loot ssbrc:characters/indie_fighters/shov
 scoreboard players operation @s mana -= #shovelknight.flareWandManaCost vars
 function ssbrc:series/indie_fighters/shovelknight/logic/check_relics
 
-scoreboard players set @s cooldown.1 15
+scoreboard players operation @s cooldown.1 = shovelknight.flareWandCooldown vars
 execute if score @s shadow.chaosControl matches 1.. run function ssbrc:logic/characters/cooldown_modifiers/chaos_control/1
 
 playsound ssbrc:fighters.shovelknight.flare_wand.activate player @a
