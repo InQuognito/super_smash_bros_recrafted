@@ -1,6 +1,4 @@
-teleport @s[tag=blinky] 23360.5 5.0 8633.5 180.0 0.0
-teleport @s[tag=clyde] 23362.5 5.0 8638.0 180.0 0.0
-teleport @s[tag=inky] 23358.5 5.0 8638.0 180.0 0.0
-teleport @s[tag=pinky] 23360.5 5.0 8638.0 180.0 0.0
+execute if score pacMazeType map matches 1 run function ssbrc:maps/p/pac_maze/logic/pac_maze/ghosts/place_in_start
+execute if score pacMazeType map matches 2 run function ssbrc:maps/p/pac_maze/logic/mrs_pac_maze/ghosts/place_in_start
 
 tag @s remove dead
