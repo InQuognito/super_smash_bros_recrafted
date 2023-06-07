@@ -6,4 +6,6 @@ function ssbrc:logic/characters/armor/update
 
 attribute @s minecraft:generic.attack_speed base set 0.75
 
+function ssbrc:series/street_fighter/ryu/logic/abilities/ashura_senku/deactivate
+
 execute at @s[tag=abilityUsed] run playsound ssbrc:fighters.ryu.satsui_no_hado_rage.deactivate player @a
