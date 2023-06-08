@@ -6,7 +6,7 @@
 			"entries": [
 				{
 					"type": "minecraft:item",
-					"name": "minecraft:bow",
+					"name": "minecraft:carrot_on_a_stick",
 					"functions": [
 						{
 							"function": "minecraft:set_name",
@@ -29,7 +29,7 @@
 									"italic": false
 								},
 								{
-									"translate": "ssbrc.tooltips.weapon.ranged",
+									"translate": "ssbrc.tooltips.weapon.hybrid",
 									"color": "white",
 									"bold": false,
 									"italic": false,
@@ -44,14 +44,14 @@
 								{
 									"attribute": "minecraft:generic.attack_damage",
 									"name": "Attack Damage",
-									"amount": 0,
+									"amount": 6,
 									"operation": "multiply_base",
 									"slot": "mainhand"
 								},
 								{
 									"attribute": "minecraft:generic.attack_speed",
 									"name": "Attack Speed",
-									"amount": 1024,
+									"amount": 1.5,
 									"operation": "multiply_base",
 									"slot": "mainhand"
 								}
@@ -59,7 +59,7 @@
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{palutenaBow:1,Unbreakable:1b,HideFlags:127}"
+							"tag": "{palutenaBow:1,split:0,Unbreakable:1b,HideFlags:127}"
 						}
 					]
 				}
