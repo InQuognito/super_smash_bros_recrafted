@@ -50,7 +50,6 @@ scoreboard players set @s[tag=megaman] charge.1 1
 
 # Pit
 item replace entity @s[tag=pit] armor.chest with minecraft:elytra{Damage:417,HideFlags:127} 1
-give @s[tag=pit] minecraft:spectral_arrow 16
 
 # Pokémon Trainer
 execute if entity @s[tag=pokemontrainer,tag=squirtle,tag=!nextFighterChosen] run function ssbrc:series/pokemon/pokemontrainer/kits/charizard
