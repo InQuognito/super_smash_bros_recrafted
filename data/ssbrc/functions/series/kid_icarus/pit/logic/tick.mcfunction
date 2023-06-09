@@ -1,4 +1,4 @@
-execute if entity @s[scores={charge.step=5..,cooldown.1=..0},nbt={SelectedItem:{tag:{palutenaBow:1}}}] at @s anchored eyes run function ssbrc:series/kid_icarus/pit/logic/abilities/palutena_bow/check
+execute if entity @s[scores={charge.step=5..,cooldown.1=..0},nbt={SelectedItem:{tag:{palutenaBow:1}}}] run function ssbrc:series/kid_icarus/pit/logic/abilities/palutena_bow/check
 
 # Palutena Bow
 execute if entity @s[scores={charge.output=1..},nbt={SelectedItem:{tag:{palutenaBow:1}}}] run function ssbrc:series/kid_icarus/pit/logic/abilities/palutena_bow/charge

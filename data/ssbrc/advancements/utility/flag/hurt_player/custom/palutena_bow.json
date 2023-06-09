@@ -5,7 +5,6 @@
 			"trigger": "minecraft:player_hurt_entity",
 			"conditions": {
 				"damage": {
-					"blocked": false,
 					"source_entity": {
 						"nbt": "{Tags:[\"pit\"]}",
 						"equipment": {
@@ -13,6 +12,14 @@
 								"nbt": "{palutenaBow:1,split:0}"
 							}
 						}
+					},
+					"type": {
+						"tags": [
+							{
+								"id": "minecraft:is_projectile",
+								"expected": false
+							}
+						]
 					}
 				}
 			}
