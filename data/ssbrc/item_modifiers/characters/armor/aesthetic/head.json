@@ -1742,6 +1742,19 @@
 	},
 	{
 		"function": "minecraft:set_nbt",
+		"tag": "{CustomModelData:1542}",
+		"conditions": [
+			{
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"nbt": "{Tags:[\"sonic\",\"classic\"]}"
+				}
+			}
+		]
+	},
+	{
+		"function": "minecraft:set_nbt",
 		"tag": "{CustomModelData:1560}",
 		"conditions": [
 			{

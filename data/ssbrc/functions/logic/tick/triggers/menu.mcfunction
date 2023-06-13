@@ -132,6 +132,7 @@ execute if score @s[tag=snake,tag=smokeGrenade] characterTrigger matches 1531 ru
 
 execute if score @s[tag=sonic] menu matches 1544 run function ssbrc:series/sonic_the_hedgehog/sonic/menu/skins/default
 execute if score @s[tag=sonic] menu matches 1545 run function ssbrc:series/sonic_the_hedgehog/sonic/menu/skins/gold
+execute if score @s[tag=sonic] menu matches 1546 run function ssbrc:series/sonic_the_hedgehog/sonic/menu/skins/classic
 
 execute if score @s[tag=sora] menu matches 1564 run function ssbrc:series/kingdom_hearts/sora/menu/skins/default
 execute if score @s[tag=sora] menu matches 1565 run function ssbrc:series/kingdom_hearts/sora/menu/skins/gold
