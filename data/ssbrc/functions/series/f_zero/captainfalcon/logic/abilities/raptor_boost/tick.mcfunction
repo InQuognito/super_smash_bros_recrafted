@@ -9,4 +9,4 @@ teleport @p[tag=self] @s
 execute if block ^ ^ ^0.75 #ssbrc:passthrough_charge run teleport @s ^ ^ ^1.0
 
 scoreboard players add @s temp 1
-kill @s[scores={temp=5..}]
+kill @s[scores={temp=6..}]
