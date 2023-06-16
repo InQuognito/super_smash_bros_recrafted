@@ -14,7 +14,7 @@ scoreboard players operation superJumpFalloff temp += @s sprintDistance
 execute if score @s charge.1 >= #mario.superJumpThreshold vars if score superJumpFalloff temp >= #mario.superJumpMovementFalloff vars run function ssbrc:series/super_mario_bros/mario/logic/abilities/super_jump/reset
 
 # Stomp
-execute unless score @s charge.2 matches 1.. positioned ~-0.5 ~-2 ~-0.5 as @e[predicate=ssbrc:flag/targets,dy=1] run function ssbrc:series/super_mario_bros/mario/logic/abilities/stomp/hit
+execute unless score @s charge.2 matches 1.. at @s positioned ~-0.5 ~-2 ~-0.5 as @e[predicate=ssbrc:flag/targets,dy=1] run function ssbrc:series/super_mario_bros/mario/logic/abilities/stomp/hit
 
 execute if entity @s[predicate=!ssbrc:flag/sneaking,scores={charge.2=1..}] run function ssbrc:series/super_mario_bros/mario/logic/abilities/stomp/reset
 scoreboard players add @s[scores={charge.2=1..}] charge.2 1
