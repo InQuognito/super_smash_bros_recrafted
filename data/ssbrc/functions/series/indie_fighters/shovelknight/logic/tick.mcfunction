@@ -8,22 +8,10 @@ execute if entity @s[scores={charge.step=5..,cooldown.2=..0},nbt={SelectedItem:{
 function ssbrc:series/indie_fighters/shovelknight/logic/mana/update
 
 # Shovel Drop
-execute unless score @s charge.3 matches 1.. at @s[nbt={SelectedItem:{tag:{shovelDrop:1}}}] positioned ~-0.5 ~-2 ~-0.5 as @e[predicate=ssbrc:flag/targets,dy=1] run function ssbrc:series/indie_fighters/shovelknight/logic/abilities/shovel_drop/hit
+execute if entity @s[nbt={SelectedItem:{tag:{shovelDrop:1}}}] run function ssbrc:series/indie_fighters/shovelknight/logic/abilities/shovel_drop/tick
 
-execute if entity @s[tag=!gold,tag=!armorOfChaos,tag=!toadGear,predicate=ssbrc:flag/sneaking,nbt={SelectedItem:{tag:{shovelDrop:0}}}] at @s if block ~ ~-0.1 ~ #ssbrc:passthrough_charge run loot replace entity @s weapon.mainhand loot ssbrc:characters/indie_fighters/shovelknight/shovel_blade/default/shovel_drop
-execute if entity @s[tag=!gold,tag=!armorOfChaos,tag=!toadGear,nbt={SelectedItem:{tag:{shovelDrop:1}}}] at @s unless block ~ ~-0.1 ~ #ssbrc:passthrough_charge run loot replace entity @s weapon.mainhand loot ssbrc:characters/indie_fighters/shovelknight/shovel_blade/default/default
-execute if entity @s[tag=!gold,tag=!armorOfChaos,tag=!toadGear,predicate=!ssbrc:flag/sneaking,nbt={SelectedItem:{tag:{shovelDrop:1}}}] run loot replace entity @s weapon.mainhand loot ssbrc:characters/indie_fighters/shovelknight/shovel_blade/default/default
-execute if entity @s[tag=gold,predicate=ssbrc:flag/sneaking,nbt={SelectedItem:{tag:{shovelDrop:0}}}] at @s if block ~ ~-0.1 ~ #ssbrc:passthrough_charge run loot replace entity @s weapon.mainhand loot ssbrc:characters/indie_fighters/shovelknight/shovel_blade/gold/shovel_drop
-execute if entity @s[tag=gold,nbt={SelectedItem:{tag:{shovelDrop:1}}}] at @s unless block ~ ~-0.1 ~ #ssbrc:passthrough_charge run loot replace entity @s weapon.mainhand loot ssbrc:characters/indie_fighters/shovelknight/shovel_blade/gold/default
-execute if entity @s[tag=gold,predicate=!ssbrc:flag/sneaking,nbt={SelectedItem:{tag:{shovelDrop:1}}}] run loot replace entity @s weapon.mainhand loot ssbrc:characters/indie_fighters/shovelknight/shovel_blade/gold/default
-execute if entity @s[tag=gold,predicate=ssbrc:flag/sneaking,nbt={SelectedItem:{tag:{shovelDrop:1}}}] at @s run particle minecraft:dust_color_transition 0.5 0.5 0.0 0.5 1.0 1.0 0.0 ^-0.25 ^-0.75 ^ 0.1 0.1 0.1 0.0 5 normal @a
-execute if entity @s[tag=armorOfChaos,predicate=ssbrc:flag/sneaking,nbt={SelectedItem:{tag:{shovelDrop:0}}}] at @s if block ~ ~-0.1 ~ #ssbrc:passthrough_charge run loot replace entity @s weapon.mainhand loot ssbrc:characters/indie_fighters/shovelknight/shovel_blade/shovel_of_chaos/shovel_drop
-execute if entity @s[tag=armorOfChaos,nbt={SelectedItem:{tag:{shovelDrop:1}}}] at @s unless block ~ ~-0.1 ~ #ssbrc:passthrough_charge run loot replace entity @s weapon.mainhand loot ssbrc:characters/indie_fighters/shovelknight/shovel_blade/shovel_of_chaos/default
-execute if entity @s[tag=armorOfChaos,predicate=!ssbrc:flag/sneaking,nbt={SelectedItem:{tag:{shovelDrop:1}}}] run loot replace entity @s weapon.mainhand loot ssbrc:characters/indie_fighters/shovelknight/shovel_blade/shovel_of_chaos/default
-execute if entity @s[tag=armorOfChaos,predicate=ssbrc:flag/sneaking,nbt={SelectedItem:{tag:{shovelDrop:1}}}] at @s run particle minecraft:small_flame ^-0.25 ^-0.75 ^ 0.1 0.1 0.1 0.01 5 normal @a
-execute if entity @s[tag=toadGear,predicate=ssbrc:flag/sneaking,nbt={SelectedItem:{tag:{shovelDrop:0}}}] at @s if block ~ ~-0.1 ~ #ssbrc:passthrough_charge run loot replace entity @s weapon.mainhand loot ssbrc:characters/indie_fighters/shovelknight/shovel_blade/toad_shovel/shovel_drop
-execute if entity @s[tag=toadGear,nbt={SelectedItem:{tag:{shovelDrop:1}}}] at @s unless block ~ ~-0.1 ~ #ssbrc:passthrough_charge run loot replace entity @s weapon.mainhand loot ssbrc:characters/indie_fighters/shovelknight/shovel_blade/toad_shovel/default
-execute if entity @s[tag=toadGear,predicate=!ssbrc:flag/sneaking,nbt={SelectedItem:{tag:{shovelDrop:1}}}] run loot replace entity @s weapon.mainhand loot ssbrc:characters/indie_fighters/shovelknight/shovel_blade/toad_shovel/default
+execute if entity @s[predicate=ssbrc:flag/sneaking,nbt={SelectedItem:{tag:{shovelDrop:0}}}] at @s if block ~ ~-0.1 ~ #ssbrc:passthrough_charge run function ssbrc:series/indie_fighters/shovelknight/logic/abilities/shovel_drop/display/activate
+execute if entity @s[nbt={SelectedItem:{tag:{shovelDrop:1}}}] at @s unless block ~ ~-0.1 ~ #ssbrc:passthrough_charge run function ssbrc:series/indie_fighters/shovelknight/logic/abilities/shovel_drop/display/reset
 
 execute if entity @s[predicate=!ssbrc:flag/sneaking,scores={charge.3=1..}] run function ssbrc:series/indie_fighters/shovelknight/logic/abilities/shovel_drop/reset
 scoreboard players add @s[scores={charge.3=1..}] charge.3 1
