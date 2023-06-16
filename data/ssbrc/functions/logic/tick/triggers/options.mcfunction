@@ -24,14 +24,17 @@ execute if score @s[nbt={SelectedItem:{tag:{options:1}}}] options matches 11 if 
 execute if score @s[nbt={SelectedItem:{tag:{options:1}}}] options matches 12 run function ssbrc:logic/options/teams/on
 execute if score @s[nbt={SelectedItem:{tag:{options:1}}}] options matches 13 run function ssbrc:logic/options/teams/off
 
-execute if score @s[nbt={SelectedItem:{tag:{options:1}}}] options matches 14 run function ssbrc:logic/options/hazards/on
-execute if score @s[nbt={SelectedItem:{tag:{options:1}}}] options matches 15 run function ssbrc:logic/options/hazards/off
+execute if score @s[nbt={SelectedItem:{tag:{options:1}}}] options matches 14 run function ssbrc:logic/options/friendly_fire/on
+execute if score @s[nbt={SelectedItem:{tag:{options:1}}}] options matches 15 run function ssbrc:logic/options/friendly_fire/off
 
-execute if score @s[nbt={SelectedItem:{tag:{options:1}}}] options matches 16 run function ssbrc:logic/options/blind_pick/on
-execute if score @s[nbt={SelectedItem:{tag:{options:1}}}] options matches 17 run function ssbrc:logic/options/blind_pick/off
+execute if score @s[nbt={SelectedItem:{tag:{options:1}}}] options matches 16 run function ssbrc:logic/options/hazards/on
+execute if score @s[nbt={SelectedItem:{tag:{options:1}}}] options matches 17 run function ssbrc:logic/options/hazards/off
 
-execute if score @s[nbt={SelectedItem:{tag:{options:1}}}] options matches 18 run function ssbrc:logic/options/music/loop
-execute if score @s[nbt={SelectedItem:{tag:{options:1}}}] options matches 19 run function ssbrc:logic/options/music/shuffle
+execute if score @s[nbt={SelectedItem:{tag:{options:1}}}] options matches 18 run function ssbrc:logic/options/blind_pick/on
+execute if score @s[nbt={SelectedItem:{tag:{options:1}}}] options matches 19 run function ssbrc:logic/options/blind_pick/off
+
+execute if score @s[nbt={SelectedItem:{tag:{options:1}}}] options matches 20 run function ssbrc:logic/options/music/loop
+execute if score @s[nbt={SelectedItem:{tag:{options:1}}}] options matches 21 run function ssbrc:logic/options/music/shuffle
 
 execute if score @s[nbt={SelectedItem:{tag:{options:1}}}] options matches 9999 run function ssbrc:logic/options/default
 
