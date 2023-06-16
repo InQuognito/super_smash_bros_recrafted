@@ -6,3 +6,5 @@ execute at @s[scores={duration.1=1}] run function ssbrc:series/f_zero/captainfal
 
 # Falcon Punch
 execute if score @s charge.1 matches 1.. run function ssbrc:series/f_zero/captainfalcon/logic/abilities/falcon_punch/tick
+
+function ssbrc:series/f_zero/captainfalcon/logic/abilities/falcon_punch/cooldown
