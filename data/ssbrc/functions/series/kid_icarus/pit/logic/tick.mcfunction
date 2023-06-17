@@ -11,5 +11,5 @@ execute at @s[tag=guardianOrbitars,nbt=!{SelectedItem:{tag:{palutenaBow:1}}}] ru
 execute if entity @s[tag=guardianOrbitars,predicate=!ssbrc:flag/sneaking] run function ssbrc:series/kid_icarus/pit/logic/abilities/guardian_orbitars/deactivate
 
 # Wings
-execute if entity @s[nbt={Inventory:[{id:"minecraft:elytra",Slot:102b,tag:{Damage:430}}]}] at @s run function ssbrc:series/kid_icarus/pit/logic/abilities/wings/timer
 execute if entity @s[nbt={Inventory:[{id:"minecraft:elytra",Slot:102b,tag:{Damage:431}}]}] run function ssbrc:series/kid_icarus/pit/logic/abilities/wings/burn
+execute if entity @s[nbt=!{Inventory:[{id:"minecraft:elytra",Slot:102b}]}] run function ssbrc:series/kid_icarus/pit/logic/abilities/wings/regain/timer

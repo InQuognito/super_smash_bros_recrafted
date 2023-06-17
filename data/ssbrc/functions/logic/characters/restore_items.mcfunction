@@ -49,7 +49,7 @@ loot replace entity @s[tag=megaman,scores={charge.1=..0}] hotbar.2 loot ssbrc:ch
 scoreboard players set @s[tag=megaman] charge.1 1
 
 # Pit
-item replace entity @s[tag=pit] armor.chest with minecraft:elytra{Damage:417,HideFlags:127} 1
+function ssbrc:series/kid_icarus/pit/logic/abilities/wings/regain/activate
 
 # Pokémon Trainer
 execute if entity @s[tag=pokemontrainer,tag=squirtle,tag=!nextFighterChosen] run function ssbrc:series/pokemon/pokemontrainer/kits/charizard
