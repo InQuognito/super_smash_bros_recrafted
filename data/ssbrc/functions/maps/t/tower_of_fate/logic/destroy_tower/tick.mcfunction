@@ -34,6 +34,6 @@ execute if score towerOfFateDestroyedTimer temp matches 260 positioned 6002.5 22
 
 execute if score towerOfFateDestroyedTimer temp matches 300 run function ssbrc:maps/t/tower_of_fate/logic/destroy_tower/lower_tower
 
-execute if score towerOfFateDestroyedTimer temp matches 400 if score #towerOfFateClockworkTower temp matches 1 run function ssbrc:maps/t/tower_of_fate/logic/lower_towers/clockwork_tower/remove_scaffolding
+execute if score towerOfFateDestroyedTimer temp matches 400 if score $towerOfFateClockworkTower temp matches 1 run function ssbrc:maps/t/tower_of_fate/logic/lower_towers/clockwork_tower/remove_scaffolding
 
 execute if score towerOfFateDestroyedTimer temp matches 401.. run scoreboard players reset towerOfFateDestroyedTimer temp
