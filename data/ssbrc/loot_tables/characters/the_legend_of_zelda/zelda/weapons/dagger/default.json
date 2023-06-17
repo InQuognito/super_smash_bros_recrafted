@@ -12,7 +12,7 @@
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"translate": "ssbrc.tooltips.zelda.weapon.dagger",
+								"translate": "ssbrc.tooltips.zelda.weapon.dagger.default",
 								"color": "white",
 								"bold": true,
 								"italic": false

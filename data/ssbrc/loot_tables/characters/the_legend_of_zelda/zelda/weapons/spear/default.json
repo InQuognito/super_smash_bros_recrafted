@@ -12,7 +12,7 @@
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"translate": "ssbrc.tooltips.zelda.weapon.spear",
+								"translate": "ssbrc.tooltips.zelda.weapon.spear.default",
 								"color": "white",
 								"bold": true,
 								"italic": false
