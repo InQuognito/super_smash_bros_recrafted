@@ -57,7 +57,8 @@ execute if entity @s[tag=pokemontrainer,tag=charizard,tag=!nextFighterChosen] ru
 execute if entity @s[tag=pokemontrainer,tag=ivysaur,tag=!nextFighterChosen] run function ssbrc:series/pokemon/pokemontrainer/kits/squirtle
 
 # Rob
-loot replace entity @s[tag=rob] hotbar.1 loot ssbrc:characters/super_smash_bros/rob/robo_beam/depleted
+loot replace entity @s[tag=rob,tag=!gold] hotbar.1 loot ssbrc:characters/super_smash_bros/rob/robo_beam/default/depleted
+loot replace entity @s[tag=rob,tag=gold] hotbar.1 loot ssbrc:characters/super_smash_bros/rob/robo_beam/gold/depleted
 
 # Ryu
 execute if score gameMode options matches 1 if score @s[tag=ryu] stocks matches 1 run loot replace entity @s[tag=!abilityUsed] hotbar.1 loot ssbrc:characters/street_fighter/ryu/satsui_no_hado_rage
