@@ -5,7 +5,7 @@ item replace entity @s[predicate=ssbrc:characters/armor/chest/iron] armor.chest 
 item replace entity @s[predicate=ssbrc:characters/armor/chest/diamond] armor.chest with minecraft:diamond_chestplate{Unbreakable:1b,HideFlags:127} 1
 item replace entity @s[predicate=ssbrc:characters/armor/chest/netherite] armor.chest with minecraft:netherite_chestplate{Unbreakable:1b,HideFlags:127} 1
 item replace entity @s[predicate=ssbrc:characters/armor/chest/golden] armor.chest with minecraft:golden_chestplate{Unbreakable:1b,HideFlags:127} 1
-item replace entity @s[predicate=ssbrc:characters/armor/chest/elytra] armor.chest with minecraft:elytra{Damage:430,HideFlags:127} 1
+item replace entity @s[predicate=ssbrc:characters/armor/chest/elytra] armor.chest with minecraft:elytra{Damage:429,HideFlags:127} 1
 
 item replace entity @s[predicate=ssbrc:characters/armor/legs/leather] armor.legs with minecraft:leather_leggings{Unbreakable:1b,HideFlags:127}
 item replace entity @s[predicate=ssbrc:characters/armor/legs/iron] armor.legs with minecraft:iron_leggings{Unbreakable:1b,HideFlags:127} 1
