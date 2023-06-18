@@ -5,4 +5,4 @@ execute positioned -24.5 17.5 252.5 as @p[predicate=ssbrc:flag/player] if entity
 
 fill -4 14 229 0 14 233 minecraft:campfire[facing=east,lit=false] replace
 
-kill @e[predicate=ssbrc:killbox_vulnerable,predicate=ssbrc:below_y/0]
+kill @e[predicate=ssbrc:killbox_vulnerable,predicate=ssbrc:below_y/1]
