@@ -1,5 +1,5 @@
 # Lobby
-scoreboard players set #quickStart vars 10
+scoreboard players set quickStart vars 10
 scoreboard players set selectorRange vars 20
 
 # Misc
