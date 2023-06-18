@@ -2,3 +2,5 @@ loot replace entity @s weapon.mainhand loot ssbrc:characters/kid_icarus/pit/palu
 loot replace entity @s weapon.offhand loot ssbrc:characters/kid_icarus/pit/palutena_bow/split
 
 advancement revoke @s only ssbrc:utility/flag/hurt_player/custom/palutena_bow
+
+execute at @s run playsound ssbrc:fighters.pit.palutena_bow.split player @a

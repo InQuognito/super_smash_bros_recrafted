@@ -4,3 +4,5 @@ execute positioned ^ ^ ^1.5 summon minecraft:armor_stand run function ssbrc:seri
 execute positioned ^ ^ ^-1.5 summon minecraft:armor_stand run function ssbrc:series/kid_icarus/pit/logic/abilities/guardian_orbitars/init
 
 function ssbrc:logic/characters/effects/mobility/immobilize
+
+playsound ssbrc:fighters.pit.guardian_orbitars.activate player @a

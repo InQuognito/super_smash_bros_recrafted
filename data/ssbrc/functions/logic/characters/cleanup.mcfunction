@@ -102,6 +102,12 @@ clear @s minecraft:shield{alucardShield:1}
 # Joker
 clear @s minecraft:carrot_on_a_stick{mask:1}
 
+# Shadow
+execute if entity @s[tag=shadow] run playsound ssbrc:fighters.sonic_the_hedgehog.lose_stock player @a
+
+# Sonic
+execute if entity @s[tag=sonic] run playsound ssbrc:fighters.sonic_the_hedgehog.lose_stock player @a
+
 # Steve
 scoreboard players remove @s[tag=steve,scores={steve.tier=1..}] steve.tier 1
 

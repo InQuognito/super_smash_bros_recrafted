@@ -8,6 +8,9 @@ execute if entity @s[predicate=!ssbrc:characters/sora/no_spells,predicate=ssbrc:
 
 execute if entity @s[tag=valor,predicate=!ssbrc:flag/sneaking,scores={useAbility=1..},nbt={SelectedItem:{tag:{strikeRaid:1}},Inventory:[{tag:{strikeRaid:1},Slot:-106b}]}] at @s anchored eyes run function ssbrc:series/kingdom_hearts/sora/logic/abilities/strike_raid/activate
 
+# Health
+execute if score @s health matches ..10 run function ssbrc:series/kingdom_hearts/sora/logic/low_health_alert/check
+
 # MP
 function ssbrc:series/kingdom_hearts/sora/logic/mana/update
 

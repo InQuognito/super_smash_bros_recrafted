@@ -19,4 +19,5 @@ execute if score dotGroup.o temp matches 0 run function ssbrc:maps/p/pac_maze/lo
 scoreboard players add dots temp 1
 execute if score dots temp matches 120.. run function ssbrc:maps/p/pac_maze/logic/fruit/spawn
 
-playsound ssbrc:munch player @a[predicate=ssbrc:ingame]
+execute if score pacMazeType map matches 1 run playsound ssbrc:stages.pac_maze.pac_maze.munch player @a[predicate=ssbrc:ingame]
+execute if score pacMazeType map matches 2 run playsound ssbrc:stages.pac_maze.mrs_pac_maze.munch player @a[predicate=ssbrc:ingame]

@@ -43,6 +43,7 @@ scoreboard objectives add frostbiteCooldown dummy
 scoreboard objectives add frostbiteTimer dummy
 scoreboard objectives add fuse dummy
 scoreboard objectives add health health
+scoreboard objectives add healthTimer dummy
 scoreboard objectives add id dummy
 scoreboard objectives add integers dummy
 scoreboard objectives add itemCount dummy

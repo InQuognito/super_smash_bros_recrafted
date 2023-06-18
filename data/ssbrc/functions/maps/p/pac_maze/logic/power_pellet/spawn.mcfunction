@@ -8,4 +8,4 @@ execute if score pacMazeType map matches 2 run function ssbrc:maps/p/pac_maze/lo
 
 scoreboard players reset dotGroup.total temp
 
-execute as @a[predicate=ssbrc:ingame] at @s run playsound ssbrc:extend player @s
+execute as @a[predicate=ssbrc:ingame] at @s run playsound ssbrc:stages.pac_maze.extend player @s
