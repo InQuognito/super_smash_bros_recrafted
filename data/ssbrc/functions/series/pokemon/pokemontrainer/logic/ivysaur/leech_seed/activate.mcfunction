@@ -1,6 +1,7 @@
 execute summon minecraft:marker run function ssbrc:series/pokemon/pokemontrainer/logic/ivysaur/leech_seed/init/marker
 
 scoreboard players remove @s charge.1 1
+execute if score @s charge.1 matches 0 run loot replace entity @s weapon.mainhand loot ssbrc:characters/pokemon/pokemontrainer/ivysaur/leech_seed/disabled
 
 scoreboard players operation @s cooldown.1 = pokemontrainer.leechSeedCooldown vars
 execute if score @s shadow.chaosControl matches 1.. run function ssbrc:logic/characters/cooldown_modifiers/chaos_control/1

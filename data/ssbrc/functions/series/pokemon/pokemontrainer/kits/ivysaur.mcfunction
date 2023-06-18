@@ -10,7 +10,7 @@ tellraw @s[tag=victor] [{"translate":"ssbrc.fighters.pokemontrainer.ivysaur.defa
 
 clear @s
 loot replace entity @s hotbar.0 loot ssbrc:characters/pokemon/pokemontrainer/ivysaur/knock_off
-loot replace entity @s hotbar.1 loot ssbrc:characters/pokemon/pokemontrainer/ivysaur/leech_seed
+loot replace entity @s hotbar.1 loot ssbrc:characters/pokemon/pokemontrainer/ivysaur/leech_seed/default
 
 scoreboard players set @s charge.1 6
 
