@@ -4,7 +4,7 @@ scoreboard players set teams options 1
 
 function ssbrc:logic/options
 
-function ssbrc:logic/resets/teams
+function ssbrc:logic/resets/teams/modify
 
 execute as @a[tag=room.characterSelect] run function ssbrc:logic/teams/red
 

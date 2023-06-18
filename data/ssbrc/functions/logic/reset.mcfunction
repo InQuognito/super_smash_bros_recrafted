@@ -16,7 +16,7 @@ function ssbrc:logic/resets/advancements
 function ssbrc:logic/resets/bossbars
 function ssbrc:logic/resets/gamerules
 function ssbrc:logic/resets/schedule
-function ssbrc:logic/resets/teams
+function ssbrc:logic/resets/teams/reset
 
 kill @e[type=!minecraft:player]
 
