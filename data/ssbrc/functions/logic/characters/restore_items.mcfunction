@@ -49,7 +49,7 @@ loot replace entity @s[tag=megaman,scores={charge.1=..0}] hotbar.2 loot ssbrc:ch
 scoreboard players set @s[tag=megaman] charge.1 1
 
 # Pit
-function ssbrc:series/kid_icarus/pit/logic/abilities/wings/regain/activate
+execute if entity @s[tag=pit] run function ssbrc:series/kid_icarus/pit/logic/abilities/wings/regain/activate
 
 # Pokémon Trainer
 execute if entity @s[tag=pokemontrainer,tag=squirtle,tag=!nextFighterChosen] run function ssbrc:series/pokemon/pokemontrainer/kits/charizard
