@@ -1,5 +1,5 @@
 execute as @e[type=minecraft:item_display,tag=fgiiGraham.propeller,sort=nearest,limit=1] at @s run function ssbrc:maps/p/pyrosphere/logic/fgii_graham/tick_propeller
-execute store result entity @e[type=minecraft:item_display,tag=fgiiGraham.display,sort=nearest,limit=1] Rotation[0] float -1.0 run data get entity @s Rotation[0]
+execute store result entity @e[type=minecraft:item_display,tag=fgiiGraham.display,sort=nearest,limit=1] Rotation[0] float 1.0 run data get entity @s Rotation[0]
 
 execute unless score @s temp matches 200.. run scoreboard players add @s temp 1
 
