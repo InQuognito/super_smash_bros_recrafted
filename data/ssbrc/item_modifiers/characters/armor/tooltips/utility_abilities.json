@@ -14,13 +14,41 @@
 		"entity": "this",
 		"lore": [
 			{
-				"translate": "==================",
+				"translate": "===============",
 				"color": "white",
 				"bold": false,
 				"italic": false
 			}
 		],
 		"replace": true
+	},
+	{
+		"function": "minecraft:set_lore",
+		"entity": "this",
+		"lore": [
+			{
+				"text": "This fighter does not possess",
+				"color": "gray",
+				"bold": false,
+				"italic": false
+			},
+			{
+				"text": "any utility abilities.",
+				"color": "gray",
+				"bold": false,
+				"italic": false
+			}
+		],
+		"replace": false,
+		"conditions": [
+			{
+				"condition": "minecraft:inverted",
+				"term": {
+					"condition": "minecraft:reference",
+					"name": "ssbrc:characters/armor/tooltips/utility_abilities"
+				}
+			}
+		]
 	},
 	{
 		"function": "minecraft:set_lore",
