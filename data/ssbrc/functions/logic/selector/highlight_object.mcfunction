@@ -122,7 +122,7 @@ execute if entity @e[type=minecraft:item_display,tag=sandbag,dx=0,sort=nearest,l
 execute if entity @e[type=minecraft:item_display,tag=developer,dx=0,sort=nearest,limit=1] run tag @s add highlight.normal
 
 execute if entity @s[tag=highlight.normal] positioned ~0.5 ~0.5 ~0.5 run particle minecraft:dust 0.0 1.0 0.0 1.0 ~ ~ ~ 0.2 0.4 0.2 0.0 5 normal @s
-execute if entity @s[tag=highlight.normal] positioned ~0.5 ~0.5 ~0.5 run particle minecraft:dust 1.0 1.0 0.0 1.0 ~ ~ ~ 0.2 0.4 0.2 0.0 5 normal @s
+execute if entity @s[tag=highlight.selected] positioned ~0.5 ~0.5 ~0.5 run particle minecraft:dust 1.0 1.0 0.0 1.0 ~ ~ ~ 0.2 0.4 0.2 0.0 5 normal @s
 execute if entity @s[tag=highlight.unowned] positioned ~0.5 ~0.5 ~0.5 run particle minecraft:dust 1.0 0.0 0.0 1.0 ~ ~ ~ 0.2 0.4 0.2 0.0 5 normal @s
 
 tag @s remove highlight.normal
