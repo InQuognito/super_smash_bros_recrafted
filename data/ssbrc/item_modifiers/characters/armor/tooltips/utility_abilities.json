@@ -55,6 +55,116 @@
 		"entity": "this",
 		"lore": [
 			{
+				"translate": "ssbrc.tooltips.superMarioBros.superJump",
+				"color": "yellow",
+				"bold": false,
+				"italic": false,
+				"underlined": true
+			},
+			{
+				"translate": "ssbrc.tooltips.holdKey",
+				"color": "gray",
+				"bold": false,
+				"italic": false,
+				"extra": [
+					{
+						"keybind": "key.sneak",
+						"color": "gray",
+						"bold": false,
+						"italic": false
+					},
+					{
+						"translate": "ssbrc.tooltips.superMarioBros.superJump.description.1",
+						"color": "gray",
+						"bold": false,
+						"italic": false
+					}
+				]
+			},
+			{
+				"translate": "ssbrc.tooltips.superMarioBros.superJump.description.2",
+				"color": "gray",
+				"bold": false,
+				"italic": false
+			},
+			{
+				"translate": "ssbrc.tooltips.mario.superJump.description.1",
+				"color": "gray",
+				"bold": false,
+				"italic": false
+			}
+		],
+		"replace": false,
+		"conditions": [
+			{
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"nbt": "{Tags:[\"mario\"]}"
+				}
+			}
+		]
+	},
+	{
+		"function": "minecraft:set_lore",
+		"entity": "this",
+		"lore": [
+			{
+				"translate": "ssbrc.tooltips.superMarioBros.superJump",
+				"color": "yellow",
+				"bold": false,
+				"italic": false,
+				"underlined": true
+			},
+			{
+				"translate": "ssbrc.tooltips.holdKey",
+				"color": "gray",
+				"bold": false,
+				"italic": false,
+				"extra": [
+					{
+						"keybind": "key.sneak",
+						"color": "gray",
+						"bold": false,
+						"italic": false
+					},
+					{
+						"translate": "ssbrc.tooltips.superMarioBros.superJump.description.1",
+						"color": "gray",
+						"bold": false,
+						"italic": false
+					}
+				]
+			},
+			{
+				"translate": "ssbrc.tooltips.superMarioBros.superJump.description.2",
+				"color": "gray",
+				"bold": false,
+				"italic": false
+			},
+			{
+				"translate": "ssbrc.tooltips.luigi.superJump.description.1",
+				"color": "gray",
+				"bold": false,
+				"italic": false
+			}
+		],
+		"replace": false,
+		"conditions": [
+			{
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"nbt": "{Tags:[\"mario\"]}"
+				}
+			}
+		]
+	},
+	{
+		"function": "minecraft:set_lore",
+		"entity": "this",
+		"lore": [
+			{
 				"translate": "ssbrc.tooltips.alucard.mist",
 				"color": "yellow",
 				"bold": false,
