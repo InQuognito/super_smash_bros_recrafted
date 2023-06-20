@@ -155,7 +155,7 @@
 				"condition": "minecraft:entity_properties",
 				"entity": "this",
 				"predicate": {
-					"nbt": "{Tags:[\"mario\"]}"
+					"nbt": "{Tags:[\"luigi\"]}"
 				}
 			}
 		]
