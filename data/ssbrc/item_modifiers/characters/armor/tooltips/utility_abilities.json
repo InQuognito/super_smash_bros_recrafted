@@ -27,13 +27,13 @@
 		"entity": "this",
 		"lore": [
 			{
-				"text": "This fighter does not possess",
+				"translate": "ssbrc.tooltips.noAbilities",
 				"color": "gray",
 				"bold": false,
 				"italic": false
 			},
 			{
-				"text": "any utility abilities.",
+				"translate": "ssbrc.tooltips.noUtilities",
 				"color": "gray",
 				"bold": false,
 				"italic": false
