@@ -12,3 +12,5 @@ effect give @s minecraft:poison 2 2 true
 kill @e[type=minecraft:marker,tag=phazonBeam,sort=nearest,limit=1]
 
 execute as @p[tag=self] at @s run playsound minecraft:entity.arrow.hit_player player @s
+
+say hit
