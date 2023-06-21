@@ -8,6 +8,7 @@ item modify entity @s armor.chest ssbrc:characters/armor/aesthetic/chest
 item modify entity @s armor.legs ssbrc:characters/armor/aesthetic/legs
 item modify entity @s armor.feet ssbrc:characters/armor/aesthetic/feet
 
+item modify entity @s armor.chest ssbrc:characters/armor/tooltips/passive_abilities
 item modify entity @s armor.legs ssbrc:characters/armor/tooltips/utility_abilities
 
 function ssbrc:logic/characters/armor/enchant

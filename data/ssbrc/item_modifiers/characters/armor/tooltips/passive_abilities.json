@@ -4,7 +4,7 @@
 		"entity": "this",
 		"name": {
 			"translate": "ssbrc.tooltips.ability.passives",
-			"color": "green",
+			"color": "blue",
 			"bold": true,
 			"italic": false
 		}
@@ -55,40 +55,14 @@
 		"entity": "this",
 		"lore": [
 			{
-				"translate": "ssbrc.tooltips.superMarioBros.superJump",
+				"translate": "ssbrc.tooltips.superMarioBros.stomp",
 				"color": "yellow",
 				"bold": false,
 				"italic": false,
 				"underlined": true
 			},
 			{
-				"translate": "ssbrc.tooltips.holdKey",
-				"color": "gray",
-				"bold": false,
-				"italic": false,
-				"extra": [
-					{
-						"keybind": "key.sneak",
-						"color": "gray",
-						"bold": false,
-						"italic": false
-					},
-					{
-						"translate": "ssbrc.tooltips.superMarioBros.superJump.description.1",
-						"color": "gray",
-						"bold": false,
-						"italic": false
-					}
-				]
-			},
-			{
-				"translate": "ssbrc.tooltips.superMarioBros.superJump.description.2",
-				"color": "gray",
-				"bold": false,
-				"italic": false
-			},
-			{
-				"translate": "ssbrc.tooltips.mario.superJump.description.1",
+				"translate": "ssbrc.tooltips.superMarioBros.stomp.description.1",
 				"color": "gray",
 				"bold": false,
 				"italic": false
@@ -110,40 +84,14 @@
 		"entity": "this",
 		"lore": [
 			{
-				"translate": "ssbrc.tooltips.superMarioBros.superJump",
+				"translate": "ssbrc.tooltips.superMarioBros.stomp",
 				"color": "yellow",
 				"bold": false,
 				"italic": false,
 				"underlined": true
 			},
 			{
-				"translate": "ssbrc.tooltips.holdKey",
-				"color": "gray",
-				"bold": false,
-				"italic": false,
-				"extra": [
-					{
-						"keybind": "key.sneak",
-						"color": "gray",
-						"bold": false,
-						"italic": false
-					},
-					{
-						"translate": "ssbrc.tooltips.superMarioBros.superJump.description.1",
-						"color": "gray",
-						"bold": false,
-						"italic": false
-					}
-				]
-			},
-			{
-				"translate": "ssbrc.tooltips.superMarioBros.superJump.description.2",
-				"color": "gray",
-				"bold": false,
-				"italic": false
-			},
-			{
-				"translate": "ssbrc.tooltips.luigi.superJump.description.1",
+				"translate": "ssbrc.tooltips.superMarioBros.stomp.description.1",
 				"color": "gray",
 				"bold": false,
 				"italic": false
@@ -165,26 +113,26 @@
 		"entity": "this",
 		"lore": [
 			{
-				"translate": "ssbrc.tooltips.bowser.fireBreath",
+				"translate": "ssbrc.tooltips.bowser.rage",
 				"color": "yellow",
 				"bold": false,
 				"italic": false,
 				"underlined": true
 			},
 			{
-				"translate": "ssbrc.tooltips.holdKey",
+				"translate": "ssbrc.tooltips.bowser.rage.description.1",
 				"color": "gray",
 				"bold": false,
+				"italic": false
+			},
+			{
+				"translate": "+ ",
+				"color": "green",
+				"bold": true,
 				"italic": false,
 				"extra": [
 					{
-						"keybind": "key.sneak",
-						"color": "gray",
-						"bold": false,
-						"italic": false
-					},
-					{
-						"translate": "ssbrc.tooltips.bowser.fireBreath.description.1",
+						"translate": "ssbrc.tooltips.bowser.rage.description.2",
 						"color": "gray",
 						"bold": false,
 						"italic": false
@@ -192,16 +140,32 @@
 				]
 			},
 			{
-				"translate": "ssbrc.tooltips.bowser.fireBreath.description.2",
-				"color": "gray",
-				"bold": false,
-				"italic": false
+				"translate": "+ ",
+				"color": "green",
+				"bold": true,
+				"italic": false,
+				"extra": [
+					{
+						"translate": "ssbrc.tooltips.bowser.rage.description.3",
+						"color": "gray",
+						"bold": false,
+						"italic": false
+					}
+				]
 			},
 			{
-				"translate": "ssbrc.tooltips.effects.burning",
-				"color": "gray",
-				"bold": false,
-				"italic": false
+				"translate": "- ",
+				"color": "red",
+				"bold": true,
+				"italic": false,
+				"extra": [
+					{
+						"translate": "ssbrc.tooltips.bowser.rage.description.4",
+						"color": "gray",
+						"bold": false,
+						"italic": false
+					}
+				]
 			}
 		],
 		"replace": false,
@@ -220,34 +184,14 @@
 		"entity": "this",
 		"lore": [
 			{
-				"translate": "ssbrc.tooltips.donkeykong.handSlap",
+				"translate": "ssbrc.tooltips.ganondorf.summonStalfos",
 				"color": "yellow",
 				"bold": false,
 				"italic": false,
 				"underlined": true
 			},
 			{
-				"translate": "- [",
-				"color": "gray",
-				"bold": false,
-				"italic": false,
-				"extra": [
-					{
-						"keybind": "key.sneak",
-						"color": "gray",
-						"bold": false,
-						"italic": false
-					},
-					{
-						"translate": "ssbrc.tooltips.donkeykong.handSlap.description.1",
-						"color": "gray",
-						"bold": false,
-						"italic": false
-					}
-				]
-			},
-			{
-				"translate": "ssbrc.tooltips.donkeykong.handSlap.description.2",
+				"translate": "ssbrc.tooltips.ganondorf.summonStalfos.description.1",
 				"color": "gray",
 				"bold": false,
 				"italic": false
@@ -259,7 +203,7 @@
 				"condition": "minecraft:entity_properties",
 				"entity": "this",
 				"predicate": {
-					"nbt": "{Tags:[\"donkeykong\"]}"
+					"nbt": "{Tags:[\"ganondorf\"]}"
 				}
 			}
 		]
@@ -269,40 +213,14 @@
 		"entity": "this",
 		"lore": [
 			{
-				"translate": "ssbrc.tooltips.kirby.puffUp",
+				"translate": "ssbrc.tooltips.darksamus.phazonSpikes",
 				"color": "yellow",
 				"bold": false,
 				"italic": false,
 				"underlined": true
 			},
 			{
-				"translate": "- [",
-				"color": "gray",
-				"bold": false,
-				"italic": false,
-				"extra": [
-					{
-						"keybind": "key.sneak",
-						"color": "gray",
-						"bold": false,
-						"italic": false
-					},
-					{
-						"translate": "ssbrc.tooltips.kirby.puffUp.description.1",
-						"color": "gray",
-						"bold": false,
-						"italic": false
-					}
-				]
-			},
-			{
-				"translate": "ssbrc.tooltips.kirby.puffUp.description.2",
-				"color": "gray",
-				"bold": false,
-				"italic": false
-			},
-			{
-				"translate": "ssbrc.tooltips.kirby.puffUp.description.3",
+				"translate": "ssbrc.tooltips.darksamus.phazonSpikes.description.1",
 				"color": "gray",
 				"bold": false,
 				"italic": false
@@ -314,7 +232,7 @@
 				"condition": "minecraft:entity_properties",
 				"entity": "this",
 				"predicate": {
-					"nbt": "{Tags:[\"kirby\"]}"
+					"nbt": "{Tags:[\"darksamus\"]}"
 				}
 			}
 		]
@@ -324,34 +242,14 @@
 		"entity": "this",
 		"lore": [
 			{
-				"translate": "ssbrc.tooltips.fox.fireFox",
+				"translate": "ssbrc.tooltips.byleth.blueLions.swiftness",
 				"color": "yellow",
 				"bold": false,
 				"italic": false,
 				"underlined": true
 			},
 			{
-				"translate": "ssbrc.tooltips.holdKey",
-				"color": "gray",
-				"bold": false,
-				"italic": false,
-				"extra": [
-					{
-						"keybind": "key.sneak",
-						"color": "gray",
-						"bold": false,
-						"italic": false
-					},
-					{
-						"translate": "ssbrc.tooltips.fox.fireFox.description.1",
-						"color": "gray",
-						"bold": false,
-						"italic": false
-					}
-				]
-			},
-			{
-				"translate": "ssbrc.tooltips.effects.burning",
+				"translate": "ssbrc.tooltips.byleth.blueLions.swiftness.description.1",
 				"color": "gray",
 				"bold": false,
 				"italic": false
@@ -363,7 +261,7 @@
 				"condition": "minecraft:entity_properties",
 				"entity": "this",
 				"predicate": {
-					"nbt": "{Tags:[\"fox\"]}"
+					"nbt": "{Tags:[\"byleth\",\"blueLions\"]}"
 				}
 			}
 		]
@@ -373,83 +271,14 @@
 		"entity": "this",
 		"lore": [
 			{
-				"translate": "ssbrc.tooltips.jigglypuff.hotAir",
+				"translate": "ssbrc.tooltips.byleth.goldenDeer.resistance",
 				"color": "yellow",
 				"bold": false,
 				"italic": false,
 				"underlined": true
 			},
 			{
-				"translate": "- [",
-				"color": "gray",
-				"bold": false,
-				"italic": false,
-				"extra": [
-					{
-						"keybind": "key.sneak",
-						"color": "gray",
-						"bold": false,
-						"italic": false
-					},
-					{
-						"translate": "ssbrc.tooltips.jigglypuff.hotAir.description.1",
-						"color": "gray",
-						"bold": false,
-						"italic": false
-					}
-				]
-			}
-		],
-		"replace": false,
-		"conditions": [
-			{
-				"condition": "minecraft:entity_properties",
-				"entity": "this",
-				"predicate": {
-					"nbt": "{Tags:[\"jigglypuff\"]}"
-				}
-			}
-		]
-	},
-	{
-		"function": "minecraft:set_lore",
-		"entity": "this",
-		"lore": [
-			{
-				"translate": "ssbrc.tooltips.greninja.shadowSneak",
-				"color": "yellow",
-				"bold": false,
-				"italic": false,
-				"underlined": true
-			},
-			{
-				"translate": "ssbrc.tooltips.holdKey",
-				"color": "gray",
-				"bold": false,
-				"italic": false,
-				"extra": [
-					{
-						"keybind": "key.sneak",
-						"color": "gray",
-						"bold": false,
-						"italic": false
-					},
-					{
-						"translate": "ssbrc.tooltips.greninja.shadowSneak.description.1",
-						"color": "gray",
-						"bold": false,
-						"italic": false
-					}
-				]
-			},
-			{
-				"translate": "ssbrc.tooltips.greninja.shadowSneak.description.2",
-				"color": "gray",
-				"bold": false,
-				"italic": false
-			},
-			{
-				"translate": "ssbrc.tooltips.greninja.shadowSneak.description.3",
+				"translate": "ssbrc.tooltips.byleth.goldenDeer.resistance.description.1",
 				"color": "gray",
 				"bold": false,
 				"italic": false
@@ -461,7 +290,7 @@
 				"condition": "minecraft:entity_properties",
 				"entity": "this",
 				"predicate": {
-					"nbt": "{Tags:[\"greninja\"]}"
+					"nbt": "{Tags:[\"byleth\",\"goldenDeer\"]}"
 				}
 			}
 		]
@@ -471,34 +300,14 @@
 		"entity": "this",
 		"lore": [
 			{
-				"translate": "ssbrc.tooltips.giegue.4thDimensionalSlip",
+				"translate": "ssbrc.tooltips.byleth.blackEagles.heavyArmor",
 				"color": "yellow",
 				"bold": false,
 				"italic": false,
 				"underlined": true
 			},
 			{
-				"translate": "- [",
-				"color": "gray",
-				"bold": false,
-				"italic": false,
-				"extra": [
-					{
-						"keybind": "key.sneak",
-						"color": "gray",
-						"bold": false,
-						"italic": false
-					},
-					{
-						"translate": "ssbrc.tooltips.giegue.4thDimensionalSlip.description.1",
-						"color": "gray",
-						"bold": false,
-						"italic": false
-					}
-				]
-			},
-			{
-				"translate": "ssbrc.tooltips.giegue.4thDimensionalSlip.description.2",
+				"translate": "ssbrc.tooltips.byleth.blackEagles.heavyArmor.description.1",
 				"color": "gray",
 				"bold": false,
 				"italic": false
@@ -510,7 +319,7 @@
 				"condition": "minecraft:entity_properties",
 				"entity": "this",
 				"predicate": {
-					"nbt": "{Tags:[\"giegue\"]}"
+					"nbt": "{Tags:[\"byleth\",\"blackEagles\"]}"
 				}
 			}
 		]
@@ -520,40 +329,20 @@
 		"entity": "this",
 		"lore": [
 			{
-				"translate": "ssbrc.tooltips.pit.guardianOrbitars",
+				"translate": "ssbrc.tooltips.pit.wings",
 				"color": "yellow",
 				"bold": false,
 				"italic": false,
 				"underlined": true
 			},
 			{
-				"translate": "ssbrc.tooltips.holdKey",
-				"color": "gray",
-				"bold": false,
-				"italic": false,
-				"extra": [
-					{
-						"keybind": "key.sneak",
-						"color": "gray",
-						"bold": false,
-						"italic": false
-					},
-					{
-						"translate": "ssbrc.tooltips.pit.guardianOrbitars.description.1",
-						"color": "gray",
-						"bold": false,
-						"italic": false
-					}
-				]
-			},
-			{
-				"translate": "ssbrc.tooltips.pit.guardianOrbitars.description.2",
+				"translate": "ssbrc.tooltips.pit.wings.description.1",
 				"color": "gray",
 				"bold": false,
 				"italic": false
 			},
 			{
-				"translate": "ssbrc.tooltips.pit.guardianOrbitars.description.3",
+				"translate": "ssbrc.tooltips.pit.wings.description.2",
 				"color": "gray",
 				"bold": false,
 				"italic": false
@@ -575,34 +364,20 @@
 		"entity": "this",
 		"lore": [
 			{
-				"translate": "ssbrc.tooltips.rob.roboBurner",
+				"translate": "ssbrc.tooltips.snake.stealth",
 				"color": "yellow",
 				"bold": false,
 				"italic": false,
 				"underlined": true
 			},
 			{
-				"translate": "ssbrc.tooltips.holdKey",
+				"translate": "ssbrc.tooltips.snake.stealth.description.1",
 				"color": "gray",
 				"bold": false,
-				"italic": false,
-				"extra": [
-					{
-						"keybind": "key.sneak",
-						"color": "gray",
-						"bold": false,
-						"italic": false
-					},
-					{
-						"translate": "ssbrc.tooltips.rob.roboBurner.description.1",
-						"color": "gray",
-						"bold": false,
-						"italic": false
-					}
-				]
+				"italic": false
 			},
 			{
-				"translate": "ssbrc.tooltips.rob.roboBurner.description.2",
+				"translate": "ssbrc.tooltips.snake.stealth.description.2",
 				"color": "gray",
 				"bold": false,
 				"italic": false
@@ -614,7 +389,7 @@
 				"condition": "minecraft:entity_properties",
 				"entity": "this",
 				"predicate": {
-					"nbt": "{Tags:[\"rob\"]}"
+					"nbt": "{Tags:[\"snake\"]}"
 				}
 			}
 		]
@@ -624,34 +399,14 @@
 		"entity": "this",
 		"lore": [
 			{
-				"translate": "ssbrc.tooltips.ryu.tatsumakiSenpukyaku",
+				"translate": "ssbrc.tooltips.sonicTheHedgehog.acceleration",
 				"color": "yellow",
 				"bold": false,
 				"italic": false,
 				"underlined": true
 			},
 			{
-				"translate": "ssbrc.tooltips.holdKey",
-				"color": "gray",
-				"bold": false,
-				"italic": false,
-				"extra": [
-					{
-						"keybind": "key.sneak",
-						"color": "gray",
-						"bold": false,
-						"italic": false
-					},
-					{
-						"translate": "ssbrc.tooltips.ryu.tatsumakiSenpukyaku.description.1",
-						"color": "gray",
-						"bold": false,
-						"italic": false
-					}
-				]
-			},
-			{
-				"translate": "ssbrc.tooltips.ryu.tatsumakiSenpukyaku.description.2",
+				"translate": "ssbrc.tooltips.sonicTheHedgehog.acceleration.description.1",
 				"color": "gray",
 				"bold": false,
 				"italic": false
@@ -663,7 +418,7 @@
 				"condition": "minecraft:entity_properties",
 				"entity": "this",
 				"predicate": {
-					"nbt": "{Tags:[\"ryu\"]}"
+					"nbt": "{Tags:[\"sonic\"]}"
 				}
 			}
 		]
@@ -673,40 +428,14 @@
 		"entity": "this",
 		"lore": [
 			{
-				"translate": "ssbrc.tooltips.alucard.mist",
+				"translate": "ssbrc.tooltips.sonicTheHedgehog.acceleration",
 				"color": "yellow",
 				"bold": false,
 				"italic": false,
 				"underlined": true
 			},
 			{
-				"translate": "- [",
-				"color": "gray",
-				"bold": false,
-				"italic": false,
-				"extra": [
-					{
-						"keybind": "key.sneak",
-						"color": "gray",
-						"bold": false,
-						"italic": false
-					},
-					{
-						"translate": "ssbrc.tooltips.alucard.mist.description.1",
-						"color": "gray",
-						"bold": false,
-						"italic": false
-					}
-				]
-			},
-			{
-				"translate": "ssbrc.tooltips.alucard.mist.description.2",
-				"color": "gray",
-				"bold": false,
-				"italic": false
-			},
-			{
-				"translate": "ssbrc.tooltips.alucard.mist.description.3",
+				"translate": "ssbrc.tooltips.sonicTheHedgehog.acceleration.description.1",
 				"color": "gray",
 				"bold": false,
 				"italic": false
@@ -718,7 +447,7 @@
 				"condition": "minecraft:entity_properties",
 				"entity": "this",
 				"predicate": {
-					"nbt": "{Tags:[\"alucard\"]}"
+					"nbt": "{Tags:[\"shadow\"]}"
 				}
 			}
 		]
@@ -728,40 +457,14 @@
 		"entity": "this",
 		"lore": [
 			{
-				"translate": "ssbrc.tooltips.joker.rebelsGuard",
+				"translate": "ssbrc.tooltips.joker.finalGuard",
 				"color": "yellow",
 				"bold": false,
 				"italic": false,
 				"underlined": true
 			},
 			{
-				"translate": "ssbrc.tooltips.holdKey",
-				"color": "gray",
-				"bold": false,
-				"italic": false,
-				"extra": [
-					{
-						"keybind": "key.sneak",
-						"color": "gray",
-						"bold": false,
-						"italic": false
-					},
-					{
-						"translate": "ssbrc.tooltips.joker.rebelsGuard.description.1",
-						"color": "gray",
-						"bold": false,
-						"italic": false
-					}
-				]
-			},
-			{
-				"translate": "ssbrc.tooltips.joker.rebelsGuard.description.2",
-				"color": "gray",
-				"bold": false,
-				"italic": false
-			},
-			{
-				"translate": "ssbrc.tooltips.joker.rebelsGuard.description.3",
+				"translate": "ssbrc.tooltips.joker.finalGuard.description.1",
 				"color": "gray",
 				"bold": false,
 				"italic": false
