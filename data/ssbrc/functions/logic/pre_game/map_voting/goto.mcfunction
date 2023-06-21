@@ -1,5 +1,13 @@
 function ssbrc:logic/pre_game/character_select/leave
 
+scoreboard players set @s duration.1 1
+scoreboard players set @s duration.2 1
+scoreboard players set @s duration.3 1
+function ssbrc:logic/characters/armor/get
+scoreboard players set @s duration.1 0
+scoreboard players set @s duration.2 0
+scoreboard players set @s duration.3 0
+
 teleport @s -37.5 6.0 13.5 0.0 0.0
 
 execute if score teams options matches 0 run team join waiting @s[team=!spectator]
