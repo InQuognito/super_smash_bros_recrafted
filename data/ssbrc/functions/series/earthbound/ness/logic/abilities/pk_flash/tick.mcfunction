@@ -4,7 +4,7 @@ particle minecraft:composter ~ ~ ~ 0.25 0.25 0.25 0.0 25 normal @a
 
 execute if score @s temp matches ..19 unless block ~ ~0.2 ~ #ssbrc:passthrough run function ssbrc:series/earthbound/ness/logic/abilities/pk_flash/explode
 execute if score @s temp matches 20.. unless block ~ ~-0.3 ~ #ssbrc:passthrough run function ssbrc:series/earthbound/ness/logic/abilities/pk_flash/explode
-execute if score @s temp matches 80.. as @p[tag=self] run function ssbrc:series/earthbound/ness/logic/abilities/pk_flash/deactivate
+execute if score @s temp matches 80.. as @a[tag=self,limit=1] run function ssbrc:series/earthbound/ness/logic/abilities/pk_flash/deactivate
 
 teleport @s[scores={temp=..19}] ~ ~0.2 ~
 teleport @s[scores={temp=20..}] ~ ~-0.3 ~

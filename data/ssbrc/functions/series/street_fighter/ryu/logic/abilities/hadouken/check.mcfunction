@@ -1,4 +1,4 @@
-execute as @e[type=#ssbrc:projectiles,tag=hadouken] if score @s id = @p[tag=self] id run tag @s add checkAgainst
+execute as @e[type=#ssbrc:projectiles,tag=hadouken] if score @s id = @a[tag=self,limit=1] id run tag @s add checkAgainst
 execute store result score hadouken temp if entity @e[type=#ssbrc:projectiles,tag=checkAgainst]
 tag @e[type=#ssbrc:projectiles,tag=hadouken,tag=checkAgainst] remove checkAgainst
 

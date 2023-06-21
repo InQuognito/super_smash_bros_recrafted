@@ -6,4 +6,4 @@ loot replace entity @s armor.head loot ssbrc:characters/the_legend_of_zelda/zeld
 
 function ssbrc:logic/init/armor_stand/normal
 
-scoreboard players operation @s temp = @p[tag=self] fuse
+scoreboard players operation @s temp = @a[tag=self,limit=1] fuse

@@ -1,3 +1,3 @@
-damage @s 10.0 ssbrc:projectile by @p[tag=self]
+damage @s 10.0 ssbrc:projectile by @a[tag=self,limit=1]
 
 function ssbrc:series/street_fighter/ryu/logic/abilities/hadouken/hit/reset

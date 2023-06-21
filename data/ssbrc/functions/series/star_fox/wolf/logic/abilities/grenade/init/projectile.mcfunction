@@ -6,4 +6,4 @@ data merge entity @s {Small:1b}
 
 function ssbrc:logic/init/armor_stand/normal
 
-scoreboard players operation @s temp = @p[tag=self] charge.output
+scoreboard players operation @s temp = @a[tag=self,limit=1] charge.output

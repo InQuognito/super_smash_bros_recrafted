@@ -1,3 +1,3 @@
 function ssbrc:logic/init/id
 
-data modify entity @s Rotation set from entity @p[tag=self] Rotation
+data modify entity @s Rotation set from entity @a[tag=self,limit=1] Rotation

@@ -1,5 +1,5 @@
 tag @s add damage.flareBlitz
 
-damage @p[tag=self] 6.0 ssbrc:projectile by @p[tag=self]
+damage @a[tag=self,limit=1] 6.0 ssbrc:projectile by @a[tag=self,limit=1]
 
-scoreboard players set @p[tag=self] duration.1 2
+scoreboard players set @a[tag=self,limit=1] duration.1 2

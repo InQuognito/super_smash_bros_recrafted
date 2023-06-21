@@ -1,2 +1,2 @@
-scoreboard players set @p[tag=self] duration.2 2
+scoreboard players set @a[tag=self,limit=1] duration.2 2
 kill @s

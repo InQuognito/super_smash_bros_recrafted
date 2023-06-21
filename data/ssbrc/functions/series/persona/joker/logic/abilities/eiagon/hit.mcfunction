@@ -1,7 +1,7 @@
-damage @s 6.0 ssbrc:projectile by @p[tag=self]
+damage @s 6.0 ssbrc:projectile by @a[tag=self,limit=1]
 
 effect give @s minecraft:poison 3 1 true
 
-kill @e[type=minecraft:marker,tag=eiagon,sort=nearest,limit=1]
+scoreboard players set entityHit temp 1
 
-execute as @p[tag=self] at @s run playsound minecraft:entity.arrow.hit_player player @s
+execute as @a[tag=self,limit=1] at @s run playsound minecraft:entity.arrow.hit_player player @s

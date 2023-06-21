@@ -1,1 +1,1 @@
-scoreboard players operation @s id = @p[tag=self] id
+scoreboard players operation @s id = @a[tag=self,limit=1] id

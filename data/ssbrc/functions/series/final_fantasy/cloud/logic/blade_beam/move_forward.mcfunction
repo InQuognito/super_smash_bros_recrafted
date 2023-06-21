@@ -13,5 +13,6 @@ execute if entity @s[tag=limitBreak] run particle minecraft:dust_color_transitio
 execute unless block ~ ~ ~ #ssbrc:passthrough run kill @s
 
 execute positioned ~-0.2 ~ ~-0.2 as @e[tag=!self,predicate=ssbrc:flag/targets,dy=1] positioned ~-0.6 ~ ~-0.6 if entity @s[dy=1] run function ssbrc:series/final_fantasy/cloud/logic/blade_beam/hit
+execute if score entityHit temp matches 1 run kill @s
 
 teleport @s ^ ^ ^0.5

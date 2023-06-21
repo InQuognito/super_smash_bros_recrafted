@@ -1,5 +1,5 @@
 tag @s add failnaught
-execute if score @p[tag=self] charge.output matches 80.. run tag @s add awakened
+execute if score @a[tag=self,limit=1] charge.output matches 80.. run tag @s add awakened
 
 data merge entity @s[tag=!awakened] {damage:4.0}
 data merge entity @s[tag=awakened] {damage:2.0,PierceLevel:99,Glowing:1b}

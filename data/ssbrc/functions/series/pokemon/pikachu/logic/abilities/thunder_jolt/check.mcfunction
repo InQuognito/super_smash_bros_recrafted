@@ -1,4 +1,4 @@
-execute as @e[type=minecraft:marker,tag=thunderJolt] if score @s id = @p[tag=self] id run tag @s add checkAgainst
+execute as @e[type=minecraft:marker,tag=thunderJolt] if score @s id = @a[tag=self,limit=1] id run tag @s add checkAgainst
 execute store result score thunderJolt temp if entity @e[type=minecraft:marker,tag=checkAgainst]
 tag @e[type=minecraft:marker,tag=thunderJolt,tag=checkAgainst] remove checkAgainst
 

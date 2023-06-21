@@ -9,6 +9,7 @@ particle minecraft:dust 1.0 1.0 0.0 1.0 ^-0.15 ^ ^-0.25 0.03 0.03 0.03 0.0 1 for
 particle minecraft:dust 1.0 1.0 0.0 1.0 ^0.30 ^ ^-0.50 0.03 0.03 0.03 0.0 1 force @a
 particle minecraft:dust 1.0 1.0 0.0 1.0 ^-0.30 ^ ^-0.50 0.03 0.03 0.03 0.0 1 force @a
 
+execute unless block ~ ~ ~ #ssbrc:passthrough run kill @s
+
 scoreboard players add @s temp 1
 kill @s[scores={temp=40..}]
-execute unless block ^ ^ ^0.1 #ssbrc:passthrough run kill @s

@@ -9,7 +9,7 @@ execute positioned ~-0.2 ~-0.2 ~-0.2 as @p[tag=self,dx=0] positioned ~-0.6 ~-0.6
 function ssbrc:series/the_legend_of_zelda/link/logic/abilities/boomerang/rotate
 
 execute unless score @s temp matches 20.. rotated as @s run teleport @s ^ ^ ^0.6
-execute if score @s temp matches 20.. facing entity @p[tag=self] eyes run function ssbrc:series/the_legend_of_zelda/link/logic/abilities/boomerang/return
+execute if score @s temp matches 20.. facing entity @a[tag=self,limit=1] eyes run function ssbrc:series/the_legend_of_zelda/link/logic/abilities/boomerang/return
 
 scoreboard players add @s temp 1
 

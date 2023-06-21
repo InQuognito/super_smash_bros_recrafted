@@ -9,7 +9,7 @@ teleport @e[type=minecraft:item,distance=..1] @s
 function ssbrc:series/the_legend_of_zelda/zelda/logic/abilities/magic_boomerang/rotate
 
 execute unless score @s temp matches 40.. rotated as @s run teleport @s ^ ^ ^1
-execute if score @s temp matches 40.. facing entity @p[tag=self] eyes run function ssbrc:series/the_legend_of_zelda/zelda/logic/abilities/magic_boomerang/return
+execute if score @s temp matches 40.. facing entity @a[tag=self,limit=1] eyes run function ssbrc:series/the_legend_of_zelda/zelda/logic/abilities/magic_boomerang/return
 
 scoreboard players add @s temp 1
 

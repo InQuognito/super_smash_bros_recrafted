@@ -1,7 +1,9 @@
-damage @s 6.0 ssbrc:projectile by @p[tag=self]
+damage @s 6.0 ssbrc:projectile by @a[tag=self,limit=1]
 
 function ssbrc:logic/characters/attributes/modifiers/frostbite/increase
 
-execute as @e[type=minecraft:marker,tag=iceBall,sort=nearest,limit=1] at @s run function ssbrc:series/super_mario_bros/luigi/logic/abilities/ice_ball/kill
+scoreboard players set entityHit temp 1
 
-execute as @p[tag=self] at @s run playsound ssbrc:fighters.luigi.ice_ball.hit player @s
+playsound ssbrc:fighters.luigi.ice_ball.expire player @a
+
+execute as @a[tag=self,limit=1] at @s run playsound ssbrc:fighters.luigi.ice_ball.hit player @s

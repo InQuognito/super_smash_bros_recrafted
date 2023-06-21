@@ -1,5 +1,5 @@
 tag @s add swordBeam
-execute if score @p[tag=self] charge.output matches 81.. run tag @s add mini
+execute if score @a[tag=self,limit=1] charge.output matches 81.. run tag @s add mini
 
 execute if entity @p[tag=self,tag=!gold,tag=!dark] run tag @s add blue
 execute if entity @p[tag=self,tag=gold] run tag @s add gold

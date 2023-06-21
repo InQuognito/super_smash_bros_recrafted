@@ -1,4 +1,4 @@
-data modify entity @s Rotation[0] set from entity @p[tag=self] Rotation[0]
+data modify entity @s Rotation[0] set from entity @a[tag=self,limit=1] Rotation[0]
 execute store result score @s rotation run data get entity @s Rotation[0]
 scoreboard players set max random 2
 function ssbrc:math/rng/lcg
@@ -11,6 +11,6 @@ function ssbrc:math/rng/lcg
 execute store result entity @s Rotation[1] float 1.0 run scoreboard players get result random
 
 scoreboard players set $rayLength temp 15
-execute at @p[tag=self] run teleport ^ ^ ^-.75
-execute at @p[tag=self] run function ssbrc:series/kingdom_hearts/sora/logic/drive_forms/anti/slash/loop
+execute at @a[tag=self,limit=1] run teleport ^ ^ ^-.75
+execute at @a[tag=self,limit=1] run function ssbrc:series/kingdom_hearts/sora/logic/drive_forms/anti/slash/loop
 kill @s

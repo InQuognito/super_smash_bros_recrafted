@@ -1,8 +1,6 @@
-execute as @e[predicate=ssbrc:flag/targets,distance=..3] run damage @s 6.0 ssbrc:projectile by @p[tag=self]
+execute as @e[predicate=ssbrc:flag/targets,distance=..3] run function ssbrc:series/donkey_kong/donkeykong/logic/abilities/orange_grenade/hit
 
 particle minecraft:explosion ~ ~ ~ 0.0 0.0 0.0 0.0 1 normal @a
 playsound minecraft:entity.generic.explode player @a
 
 kill @s
-
-execute if entity @e[predicate=ssbrc:flag/targets,distance=..3] as @p[tag=self] at @s run playsound minecraft:entity.arrow.hit_player player @s
