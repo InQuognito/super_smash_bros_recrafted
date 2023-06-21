@@ -3,7 +3,7 @@
 		"function": "minecraft:set_name",
 		"entity": "this",
 		"name": {
-			"translate": "ssbrc.tooltips.ability.utilities",
+			"translate": "ssbrc.tooltips.ability.passives",
 			"color": "green",
 			"bold": true,
 			"italic": false
@@ -33,7 +33,7 @@
 				"italic": false
 			},
 			{
-				"translate": "ssbrc.tooltips.noUtilities",
+				"translate": "ssbrc.tooltips.noPassives",
 				"color": "gray",
 				"bold": false,
 				"italic": false
@@ -45,7 +45,7 @@
 				"condition": "minecraft:inverted",
 				"term": {
 					"condition": "minecraft:reference",
-					"name": "ssbrc:characters/armor/tooltips/utility_abilities"
+					"name": "ssbrc:characters/armor/tooltips/passive_abilities"
 				}
 			}
 		]
