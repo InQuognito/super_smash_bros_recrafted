@@ -1,11 +1,3 @@
-scoreboard players set @s cooldown.1 0
-scoreboard players set @s cooldown.2 0
-scoreboard players set @s cooldown.3 0
-
-scoreboard players set @s charge.1 0
-scoreboard players set @s charge.2 0
-scoreboard players set @s charge.3 0
-
 execute if entity @s[tag=bowser] run function ssbrc:series/super_mario_bros/bowser/kit
 execute if entity @s[tag=byleth] run function ssbrc:series/fire_emblem/byleth/kit
 execute if entity @s[tag=captainfalcon] run function ssbrc:series/f_zero/captainfalcon/kit
@@ -45,14 +37,6 @@ execute if entity @s[tag=shadow] run function ssbrc:series/sonic_the_hedgehog/sh
 execute if entity @s[tag=shovelknight] run function ssbrc:series/indie_fighters/shovelknight/kit
 execute if entity @s[tag=teamrocket] run function ssbrc:series/pokemon/teamrocket/kit
 execute if entity @s[tag=yar] run function ssbrc:series/retro_fighters/yar/kit
-
-scoreboard players set @s duration.1 1
-scoreboard players set @s duration.2 1
-scoreboard players set @s duration.3 1
-function ssbrc:logic/characters/armor/get
-scoreboard players set @s duration.1 0
-scoreboard players set @s duration.2 0
-scoreboard players set @s duration.3 0
 
 function ssbrc:logic/characters/attributes/defaults
 function ssbrc:logic/characters/effects/default
