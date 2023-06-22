@@ -14,7 +14,7 @@
 		"entity": "this",
 		"lore": [
 			{
-				"translate": "===============",
+				"translate": "================",
 				"color": "white",
 				"bold": false,
 				"italic": false
