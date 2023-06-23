@@ -37,6 +37,8 @@ function ssbrc:logic/resets/tags/characters/the_legend_of_zelda/ganondorf
 function ssbrc:logic/resets/tags/characters/the_legend_of_zelda/link
 function ssbrc:logic/resets/tags/characters/the_legend_of_zelda/zelda
 
+function ssbrc:logic/characters/natures/reset
+
 # Misc
 tag @s remove abilityUsed
 tag @s remove characterPicked
