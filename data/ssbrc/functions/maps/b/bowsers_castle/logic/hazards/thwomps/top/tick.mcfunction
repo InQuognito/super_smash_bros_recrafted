@@ -4,4 +4,4 @@ execute positioned ~ ~ ~-1.5 run fill ~ ~ ~ ~ ~3 ~2 minecraft:barrier replace mi
 
 execute if block ~ ~-0.1 ~ minecraft:waxed_cut_copper run function ssbrc:maps/b/bowsers_castle/logic/hazards/destruction/top_platform
 
-execute if score @s[y=45.5,dy=0] temp >= #bowsersCastle.thwompTime vars run function ssbrc:maps/b/bowsers_castle/logic/hazards/thwomps/top/deactivate
+execute if score @s[y=45.5,dy=0] temp >= thwompTime vars run function ssbrc:maps/b/bowsers_castle/logic/hazards/thwomps/top/deactivate

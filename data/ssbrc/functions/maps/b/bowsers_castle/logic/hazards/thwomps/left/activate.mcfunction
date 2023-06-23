@@ -4,4 +4,4 @@ fill -705 43 865 -700 43 867 minecraft:air replace
 fill -705 40 868 -700 42 868 minecraft:waxed_copper_block replace
 
 scoreboard players set #bowsersCastleHazard temp 1
-scoreboard players set #thwompLeft temp 1
+scoreboard players set thwompLeft temp 1

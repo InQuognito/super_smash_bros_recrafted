@@ -176,9 +176,9 @@ scoreboard players set #damage.thundaga vars 40
 scoreboard players set #damage.tt33 vars 40
 
 # Maps
-scoreboard players set #bowsersCastle.thwompTime vars 100
-scoreboard players operation #bowsersCastle.thwompSinkTime vars = #bowsersCastle.thwompTime vars
-scoreboard players operation #bowsersCastle.thwompSinkTime vars *= 3 integers
+scoreboard players set thwompTime vars 100
+scoreboard players operation thwompSinkTime vars = thwompTime vars
+scoreboard players operation thwompSinkTime vars *= 3 integers
 
 scoreboard players set cameraRange vars 5
 
