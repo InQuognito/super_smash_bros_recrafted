@@ -20,6 +20,9 @@ give @s[tag=byleth,tag=blueLions] minecraft:spectral_arrow 8
 tag @s[tag=cloud] add operator
 loot replace entity @s[tag=cloud] hotbar.0 loot ssbrc:characters/final_fantasy/cloud/buster_sword/operator/default
 
+# Dark Samus
+execute if entity @s[tag=darksamus] run function ssbrc:series/metroid/darksamus/logic/abilities/phazon_beam/reset
+
 # Donkey Kong
 loot replace entity @s[tag=donkeykong,scores={charge.1=..0}] hotbar.1 loot ssbrc:characters/donkey_kong/donkeykong/orange_grenade/default
 scoreboard players set @s[tag=donkeykong] charge.1 2
