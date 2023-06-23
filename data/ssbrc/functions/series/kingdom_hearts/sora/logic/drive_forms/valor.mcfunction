@@ -14,5 +14,4 @@ loot replace entity @s[tag=timelessRiver] hotbar.0 loot ssbrc:characters/kingdom
 loot replace entity @s[tag=timelessRiver] weapon.offhand loot ssbrc:characters/kingdom_hearts/sora/keyblades/timeless_river/classic_tone
 
 function ssbrc:logic/characters/armor/update
-execute unless score $sectorZ map matches 1 run function ssbrc:logic/characters/effects/defaults/jump_boost
-execute if score $sectorZ map matches 1 run function ssbrc:maps/s/sector_z/logic/effects
+function ssbrc:logic/characters/effects/jump_boost

@@ -1,4 +1,3 @@
 scoreboard players reset @s charge.1
 
-scoreboard players reset @s walkDistance
-scoreboard players reset @s sprintDistance
+function ssbrc:logic/characters/jump/super_jump/reset

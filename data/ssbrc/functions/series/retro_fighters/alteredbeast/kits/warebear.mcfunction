@@ -4,8 +4,7 @@ tag @s add warebear
 tellraw @s [{"translate":"ssbrc.fighters.alteredbeast.form","bold":true,"color":"gold"},{"translate":"ssbrc.fighters.alteredbeast.form.warebear","bold":false,"color":"yellow"}]
 
 function ssbrc:logic/characters/attributes/defaults
-execute unless score $sectorZ map matches 1 run function ssbrc:logic/characters/effects/defaults/jump_boost
-execute if score $sectorZ map matches 1 run function ssbrc:maps/s/sector_z/logic/effects
+function ssbrc:logic/characters/effects/jump_boost
 
 clear @s #ssbrc:equipment
 loot replace entity @s hotbar.0 loot ssbrc:characters/retro_fighters/alteredbeast/warebear/axe
