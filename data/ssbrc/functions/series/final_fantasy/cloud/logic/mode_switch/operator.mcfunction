@@ -1,8 +1,7 @@
 tag @s remove punisher
 tag @s add operator
 
-loot replace entity @s[tag=!gold] weapon.mainhand loot ssbrc:characters/final_fantasy/cloud/buster_sword/default/operator/default
-loot replace entity @s[tag=gold] weapon.mainhand loot ssbrc:characters/final_fantasy/cloud/buster_sword/gold/operator/default
+function ssbrc:series/final_fantasy/cloud/logic/mode_switch/reset
 
 function ssbrc:logic/characters/attributes/defaults
 execute unless score $sectorZ map matches 1 run function ssbrc:logic/characters/effects/defaults/jump_boost

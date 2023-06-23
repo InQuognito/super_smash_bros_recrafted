@@ -11,14 +11,17 @@ scoreboard players set @s duration.3 1
 execute if entity @s[tag=bowser] run function ssbrc:series/super_mario_bros/bowser/logic/abilities/rage/deactivate
 
 # Byleth
-loot replace entity @s[tag=blackEagles] weapon.offhand loot ssbrc:characters/fire_emblem/byleth/shield
+execute if entity @s[tag=byleth,tag=goldenDeer] run function ssbrc:series/fire_emblem/byleth/logic/golden_deer/failnaught/reset
+execute if entity @s[tag=byleth,tag=goldenDeer] run function ssbrc:series/fire_emblem/byleth/logic/golden_deer/brave_bow/reset
 
-give @s[tag=byleth,tag=blackEagles,tag=weaponBroken] minecraft:spectral_arrow 4
+loot replace entity @s[tag=byleth,tag=blackEagles] weapon.offhand loot ssbrc:characters/fire_emblem/byleth/shield
+
 give @s[tag=byleth,tag=blueLions] minecraft:spectral_arrow 8
+give @s[tag=byleth,tag=blackEagles,tag=weaponBroken] minecraft:spectral_arrow 4
 
 # Cloud
 tag @s[tag=cloud] add operator
-loot replace entity @s[tag=cloud] hotbar.0 loot ssbrc:characters/final_fantasy/cloud/buster_sword/operator/default
+function ssbrc:series/final_fantasy/cloud/logic/mode_switch/reset
 
 # Dark Samus
 execute if entity @s[tag=darksamus] run function ssbrc:series/metroid/darksamus/logic/abilities/phazon_beam/reset
@@ -53,6 +56,7 @@ scoreboard players set @s[tag=megaman] charge.1 1
 
 # Pit
 execute if entity @s[tag=pit] run function ssbrc:series/kid_icarus/pit/logic/abilities/wings/regain/activate
+execute if entity @s[tag=pit] run function ssbrc:series/kid_icarus/pit/logic/abilities/palutena_bow/reset
 
 # Pokémon Trainer
 execute if entity @s[tag=pokemontrainer,tag=squirtle,tag=!nextFighterChosen] run function ssbrc:series/pokemon/pokemontrainer/kits/charizard
@@ -60,8 +64,7 @@ execute if entity @s[tag=pokemontrainer,tag=charizard,tag=!nextFighterChosen] ru
 execute if entity @s[tag=pokemontrainer,tag=ivysaur,tag=!nextFighterChosen] run function ssbrc:series/pokemon/pokemontrainer/kits/squirtle
 
 # Rob
-loot replace entity @s[tag=rob,tag=!gold] hotbar.1 loot ssbrc:characters/super_smash_bros/rob/robo_beam/default/depleted
-loot replace entity @s[tag=rob,tag=gold] hotbar.1 loot ssbrc:characters/super_smash_bros/rob/robo_beam/gold/depleted
+function ssbrc:series/super_smash_bros/rob/logic/abilities/robo_beam/reset
 
 # Ryu
 execute if score gameMode options matches 1 if score @s[tag=ryu] stocks matches 1 run loot replace entity @s[tag=!abilityUsed] hotbar.1 loot ssbrc:characters/street_fighter/ryu/satsui_no_hado_rage
