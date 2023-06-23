@@ -21,7 +21,7 @@ give @s[tag=byleth,tag=blackEagles,tag=weaponBroken] minecraft:spectral_arrow 4
 
 # Cloud
 tag @s[tag=cloud] add operator
-function ssbrc:series/final_fantasy/cloud/logic/mode_switch/reset
+execute if entity @s[tag=cloud] run function ssbrc:series/final_fantasy/cloud/logic/mode_switch/reset
 
 # Dark Samus
 execute if entity @s[tag=darksamus] run function ssbrc:series/metroid/darksamus/logic/abilities/phazon_beam/reset
@@ -64,7 +64,7 @@ execute if entity @s[tag=pokemontrainer,tag=charizard,tag=!nextFighterChosen] ru
 execute if entity @s[tag=pokemontrainer,tag=ivysaur,tag=!nextFighterChosen] run function ssbrc:series/pokemon/pokemontrainer/kits/squirtle
 
 # Rob
-function ssbrc:series/super_smash_bros/rob/logic/abilities/robo_beam/reset
+execute if entity @s[tag=rob] run function ssbrc:series/super_smash_bros/rob/logic/abilities/robo_beam/reset
 
 # Ryu
 execute if score gameMode options matches 1 if score @s[tag=ryu] stocks matches 1 run loot replace entity @s[tag=!abilityUsed] hotbar.1 loot ssbrc:characters/street_fighter/ryu/satsui_no_hado_rage
