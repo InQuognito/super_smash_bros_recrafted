@@ -2,7 +2,7 @@ advancement grant @s only ssbrc:series/the_legend_of_zelda/ganondorf/skins/ocari
 
 scoreboard players operation @s stats.credits -= #price.skin.common vars
 
-tellraw @s [{"translate":"ssbrc.shop.purchase.skin","color":"white"},{"translate":"ssbrc.fighters.ganondorf.skin.ocarinaOfTime","color":"red"},{"translate":"ssbrc.fighters.skinSuffix","color":"white"}]
+tellraw @s [{"translate":"ssbrc.shop.purchase.skin","color":"white"},{"translate":"ssbrc.fighters.ganondorf.skin.ocarinaOfTime","color":"red"}]
 
 playsound minecraft:entity.player.levelup master @s ~ ~ ~
 
