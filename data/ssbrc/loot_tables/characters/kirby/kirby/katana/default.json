@@ -72,7 +72,7 @@
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{ninjaKirby:1,CustomModelData:700,Unbreakable:1b,HideFlags:127}"
+							"tag": "{ninjaKirby:1,CustomModelData:700,Unbreakable:1b,HideFlags:255}"
 						}
 					]
 				}

@@ -91,7 +91,7 @@
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{falconPunch:1,CustomModelData:122,HideFlags:127}"
+							"tag": "{falconPunch:1,CustomModelData:122,HideFlags:255}"
 						}
 					]
 				}

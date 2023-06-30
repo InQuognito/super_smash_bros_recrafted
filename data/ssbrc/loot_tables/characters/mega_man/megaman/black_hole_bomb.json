@@ -91,7 +91,7 @@
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{blackHoleBomb:1,CustomModelData:882,HideFlags:127}"
+							"tag": "{blackHoleBomb:1,CustomModelData:882,HideFlags:255}"
 						}
 					]
 				}

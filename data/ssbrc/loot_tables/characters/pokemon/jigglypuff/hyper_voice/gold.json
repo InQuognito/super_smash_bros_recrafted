@@ -85,7 +85,7 @@
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{hyperVoice:1,CustomModelData:582,HideFlags:127}"
+							"tag": "{hyperVoice:1,CustomModelData:582,HideFlags:255}"
 						}
 					]
 				}

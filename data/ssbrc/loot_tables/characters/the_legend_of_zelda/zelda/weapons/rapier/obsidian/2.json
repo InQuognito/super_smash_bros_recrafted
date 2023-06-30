@@ -73,7 +73,7 @@
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{rapier:1,enchanted:1,obsidian:2,CustomModelData:9015,Unbreakable:1b,HideFlags:127}"
+							"tag": "{rapier:1,enchanted:1,obsidian:2,CustomModelData:9015,Unbreakable:1b,HideFlags:255}"
 						}
 					]
 				}

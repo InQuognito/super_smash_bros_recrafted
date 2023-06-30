@@ -59,7 +59,7 @@
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{rebelsKnife:1,awakened:0,CustomModelData:601,Unbreakable:1b,HideFlags:127}"
+							"tag": "{rebelsKnife:1,awakened:0,CustomModelData:601,Unbreakable:1b,HideFlags:255}"
 						}
 					]
 				}

@@ -65,7 +65,7 @@
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{spear:1,enchanted:1,glass:1,CustomModelData:9020,Unbreakable:1b,HideFlags:127}"
+							"tag": "{spear:1,enchanted:1,glass:1,CustomModelData:9020,Unbreakable:1b,HideFlags:255}"
 						}
 					]
 				}

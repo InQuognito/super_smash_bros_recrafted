@@ -85,7 +85,7 @@
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{chaosSphere:1,CustomModelData:1921,HideFlags:127}"
+							"tag": "{chaosSphere:1,CustomModelData:1921,HideFlags:255}"
 						}
 					]
 				}

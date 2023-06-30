@@ -73,7 +73,7 @@
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{persona:1,yatagarasu:1,CustomModelData:607,Unbreakable:1b,HideFlags:127}"
+							"tag": "{persona:1,yatagarasu:1,CustomModelData:607,Unbreakable:1b,HideFlags:255}"
 						}
 					]
 				}

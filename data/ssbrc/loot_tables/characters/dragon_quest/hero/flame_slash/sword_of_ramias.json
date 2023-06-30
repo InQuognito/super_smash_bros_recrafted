@@ -65,7 +65,7 @@
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{flameSlash:1,CustomModelData:441,Unbreakable:1b,HideFlags:127}"
+							"tag": "{flameSlash:1,CustomModelData:441,Unbreakable:1b,HideFlags:255}"
 						}
 					]
 				}

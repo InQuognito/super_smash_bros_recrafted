@@ -73,7 +73,7 @@
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{shield:1,HideFlags:127}"
+							"tag": "{shield:1,HideFlags:255}"
 						}
 					]
 				}

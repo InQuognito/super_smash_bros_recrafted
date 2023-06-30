@@ -282,7 +282,7 @@
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{keyblade:1,thundaga:1,Unbreakable:1b,HideFlags:127}"
+							"tag": "{keyblade:1,thundaga:1,Unbreakable:1b,HideFlags:255}"
 						},
 						{
 							"function": "minecraft:set_nbt",

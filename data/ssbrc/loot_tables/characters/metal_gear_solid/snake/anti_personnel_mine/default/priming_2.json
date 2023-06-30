@@ -10,7 +10,7 @@
 					"functions": [
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{antiPersonnelMine:1,CustomModelData:1528,Unbreakable:1b,HideFlags:127}"
+							"tag": "{antiPersonnelMine:1,CustomModelData:1528,Unbreakable:1b,HideFlags:255}"
 						}
 					]
 				}

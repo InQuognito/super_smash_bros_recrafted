@@ -85,7 +85,7 @@
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{personaAwakening:1,amritaShower:1,CustomModelData:603,HideFlags:127}"
+							"tag": "{personaAwakening:1,amritaShower:1,CustomModelData:603,HideFlags:255}"
 						}
 					]
 				}

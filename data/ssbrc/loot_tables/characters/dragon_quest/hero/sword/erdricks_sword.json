@@ -59,7 +59,7 @@
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{erdricksSword:1,CustomModelData:440,Unbreakable:1b,HideFlags:127}"
+							"tag": "{erdricksSword:1,CustomModelData:440,Unbreakable:1b,HideFlags:255}"
 						}
 					]
 				}

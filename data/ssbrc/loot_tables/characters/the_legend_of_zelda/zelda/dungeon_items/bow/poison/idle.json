@@ -79,7 +79,7 @@
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{bow:1,poison:1,CustomModelData:9060,Unbreakable:1b,HideFlags:127}"
+							"tag": "{bow:1,poison:1,CustomModelData:9060,Unbreakable:1b,HideFlags:255}"
 						}
 					]
 				}

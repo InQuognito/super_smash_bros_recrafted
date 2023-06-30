@@ -79,7 +79,7 @@
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{personaAwakening:1,phantomShow:1,CustomModelData:606,HideFlags:127}"
+							"tag": "{personaAwakening:1,phantomShow:1,CustomModelData:606,HideFlags:255}"
 						}
 					]
 				}

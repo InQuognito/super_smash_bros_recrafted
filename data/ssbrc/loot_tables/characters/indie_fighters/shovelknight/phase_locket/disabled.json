@@ -79,7 +79,7 @@
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{phaseLocket:1,CustomModelData:1928,Unbreakable:1b,HideFlags:127}"
+							"tag": "{phaseLocket:1,CustomModelData:1928,Unbreakable:1b,HideFlags:255}"
 						}
 					]
 				}

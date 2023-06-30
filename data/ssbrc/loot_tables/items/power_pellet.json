@@ -85,7 +85,7 @@
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{powerPellet:1,CustomModelData:1,Unbreakable:1b,HideFlags:127}"
+							"tag": "{powerPellet:1,CustomModelData:1,Unbreakable:1b,HideFlags:255}"
 						}
 					]
 				}

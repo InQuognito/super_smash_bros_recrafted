@@ -39,7 +39,7 @@
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{masterSword:1,awakened:0,CustomModelData:732,Unbreakable:1b,HideFlags:127}"
+							"tag": "{masterSword:1,awakened:0,CustomModelData:732,Unbreakable:1b,HideFlags:255}"
 						}
 					]
 				}

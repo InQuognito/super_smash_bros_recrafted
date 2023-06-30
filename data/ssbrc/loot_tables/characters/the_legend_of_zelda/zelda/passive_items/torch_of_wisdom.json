@@ -71,7 +71,7 @@
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{passiveItem:1,torchOfWisdom:1,CustomModelData:9040,Unbreakable:1b,HideFlags:127}"
+							"tag": "{passiveItem:1,torchOfWisdom:1,CustomModelData:9040,Unbreakable:1b,HideFlags:255}"
 						}
 					]
 				}

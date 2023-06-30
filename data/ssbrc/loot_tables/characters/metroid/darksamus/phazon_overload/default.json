@@ -107,7 +107,7 @@
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{phazonOverload:1,CustomModelData:266,Unbreakable:1b,HideFlags:127}"
+							"tag": "{phazonOverload:1,CustomModelData:266,Unbreakable:1b,HideFlags:255}"
 						}
 					]
 				}

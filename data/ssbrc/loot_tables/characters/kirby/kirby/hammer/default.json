@@ -65,7 +65,7 @@
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{hammerKirby:1,CustomModelData:700,Unbreakable:1b,HideFlags:127}"
+							"tag": "{hammerKirby:1,CustomModelData:700,Unbreakable:1b,HideFlags:255}"
 						}
 					]
 				}

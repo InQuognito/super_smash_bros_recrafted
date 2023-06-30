@@ -59,7 +59,7 @@
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{swordOfRamias:1,CustomModelData:441,Unbreakable:1b,HideFlags:127}"
+							"tag": "{swordOfRamias:1,CustomModelData:441,Unbreakable:1b,HideFlags:255}"
 						}
 					]
 				}

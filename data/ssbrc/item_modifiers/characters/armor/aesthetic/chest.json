@@ -391,7 +391,7 @@
 	},
 	{
 		"function": "minecraft:set_nbt",
-		"tag": "{display:{color:10536038}}",
+		"tag": "{Trim:{pattern:\"ssbrc:link\",material:\"minecraft:quartz\"}}",
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",

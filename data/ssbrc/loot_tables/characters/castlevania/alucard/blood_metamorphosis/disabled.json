@@ -97,7 +97,7 @@
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{bloodMetamorphosis:1,CustomModelData:1840,Unbreakable:1b,HideFlags:127}"
+							"tag": "{bloodMetamorphosis:1,CustomModelData:1840,Unbreakable:1b,HideFlags:255}"
 						}
 					]
 				}

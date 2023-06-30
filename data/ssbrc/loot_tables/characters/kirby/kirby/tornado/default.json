@@ -72,7 +72,7 @@
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{tornadoKirby:1,Unbreakable:1b,HideFlags:127}"
+							"tag": "{tornadoKirby:1,Unbreakable:1b,HideFlags:255}"
 						}
 					]
 				}

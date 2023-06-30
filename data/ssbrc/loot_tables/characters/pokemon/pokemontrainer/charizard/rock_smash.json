@@ -96,7 +96,7 @@
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{rockSmash:1,Unbreakable:1b,HideFlags:127}"
+							"tag": "{rockSmash:1,Unbreakable:1b,HideFlags:255}"
 						}
 					]
 				}

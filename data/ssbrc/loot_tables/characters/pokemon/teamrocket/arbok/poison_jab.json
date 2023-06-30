@@ -65,7 +65,7 @@
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{poisonJab:1,Unbreakable:1b,HideFlags:127}"
+							"tag": "{poisonJab:1,Unbreakable:1b,HideFlags:255}"
 						}
 					]
 				}

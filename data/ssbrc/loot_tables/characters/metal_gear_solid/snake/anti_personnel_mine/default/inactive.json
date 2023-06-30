@@ -85,7 +85,7 @@
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{antiPersonnelMine:1,CustomModelData:1526,HideFlags:127}"
+							"tag": "{antiPersonnelMine:1,CustomModelData:1526,HideFlags:255}"
 						}
 					]
 				}

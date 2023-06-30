@@ -79,7 +79,7 @@
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{kaclang:1,CustomModelData:442,HideFlags:127}"
+							"tag": "{kaclang:1,CustomModelData:442,HideFlags:255}"
 						}
 					]
 				}

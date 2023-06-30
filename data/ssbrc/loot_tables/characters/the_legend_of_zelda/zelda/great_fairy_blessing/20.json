@@ -65,7 +65,7 @@
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{greatFairyBlessing:1,CustomModelData:9048,Unbreakable:1b,HideFlags:127}"
+							"tag": "{greatFairyBlessing:1,CustomModelData:9048,Unbreakable:1b,HideFlags:255}"
 						}
 					]
 				}
