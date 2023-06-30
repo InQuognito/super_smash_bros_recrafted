@@ -2,7 +2,7 @@ advancement grant @s only ssbrc:series/super_smash_bros/rob/skins/default
 
 scoreboard players operation @s stats.credits -= #price.fighter.common vars
 
-tellraw @s [{"translate":"ssbrc.shop.purchase.fighter","color":"white"},{"translate":"ssbrc.fighters.rob","color":"white"},{"translate":"!","color":"white"}]
+tellraw @s [{"translate":"ssbrc.shop.purchase.fighter","color":"white"},{"translate":"ssbrc.fighters.rob","color":"white"}]
 
 playsound minecraft:entity.player.levelup master @s ~ ~ ~
 
