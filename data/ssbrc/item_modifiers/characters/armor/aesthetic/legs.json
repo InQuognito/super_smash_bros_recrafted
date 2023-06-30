@@ -254,7 +254,20 @@
 				"condition": "minecraft:entity_properties",
 				"entity": "this",
 				"predicate": {
-					"nbt": "{Tags:[\"ganondorf\",\"oot\"]}"
+					"nbt": "{Tags:[\"ganondorf\",\"ocarinaOfTime\"]}"
+				}
+			}
+		]
+	},
+	{
+		"function": "minecraft:set_nbt",
+		"tag": "{display:{color:4207402}}",
+		"conditions": [
+			{
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"nbt": "{Tags:[\"ganondorf\",\"tearsOfTheKingdom\"]}"
 				}
 			}
 		]
@@ -762,6 +775,19 @@
 				"entity": "this",
 				"predicate": {
 					"nbt": "{Tags:[\"squirtle\",\"victor\"]}"
+				}
+			}
+		]
+	},
+	{
+		"function": "minecraft:set_nbt",
+		"tag": "{display:{color:5739447}}",
+		"conditions": [
+			{
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"nbt": "{Tags:[\"pokemontrainer\",\"shiny\"]}"
 				}
 			}
 		]

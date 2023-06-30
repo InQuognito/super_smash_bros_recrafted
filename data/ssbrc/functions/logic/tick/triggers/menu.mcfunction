@@ -44,6 +44,7 @@ execute if score @s[tag=fox] menu matches 385 run function ssbrc:series/star_fox
 execute if score @s[tag=ganondorf] menu matches 404 run function ssbrc:series/the_legend_of_zelda/ganondorf/menu/skins/default
 execute if score @s[tag=ganondorf] menu matches 405 run function ssbrc:series/the_legend_of_zelda/ganondorf/menu/skins/gold
 execute if score @s[tag=ganondorf] menu matches 406 run function ssbrc:series/the_legend_of_zelda/ganondorf/menu/skins/ocarina_of_time
+execute if score @s[tag=ganondorf] menu matches 407 run function ssbrc:series/the_legend_of_zelda/ganondorf/menu/skins/tears_of_the_kingdom
 
 execute if score @s[tag=greninja] menu matches 424 run function ssbrc:series/pokemon/greninja/menu/skins/default
 execute if score @s[tag=greninja] menu matches 425 run function ssbrc:series/pokemon/greninja/menu/skins/gold

@@ -8,6 +8,10 @@ execute if score @s[advancements={ssbrc:series/the_legend_of_zelda/ganondorf/ski
 execute if score @s[advancements={ssbrc:series/the_legend_of_zelda/ganondorf/skins/ocarina_of_time=false}] stats.credits >= #price.skin.common vars run loot replace entity @s enderchest.2 loot ssbrc:ui/shop/skins/ganondorf/ocarina_of_time/unowned
 loot replace entity @s[advancements={ssbrc:series/the_legend_of_zelda/ganondorf/skins/ocarina_of_time=true}] enderchest.2 loot ssbrc:ui/shop/skins/ganondorf/ocarina_of_time/owned
 
+execute if score @s[advancements={ssbrc:series/the_legend_of_zelda/ganondorf/skins/tears_of_the_kingdom=false}] stats.credits < #price.skin.common vars run loot replace entity @s enderchest.3 loot ssbrc:ui/shop/skins/ganondorf/tears_of_the_kingdom/cannot_afford
+execute if score @s[advancements={ssbrc:series/the_legend_of_zelda/ganondorf/skins/tears_of_the_kingdom=false}] stats.credits >= #price.skin.common vars run loot replace entity @s enderchest.3 loot ssbrc:ui/shop/skins/ganondorf/tears_of_the_kingdom/unowned
+loot replace entity @s[advancements={ssbrc:series/the_legend_of_zelda/ganondorf/skins/tears_of_the_kingdom=true}] enderchest.3 loot ssbrc:ui/shop/skins/ganondorf/tears_of_the_kingdom/owned
+
 loot replace entity @s enderchest.8 loot ssbrc:ui/null/red
 loot replace entity @s enderchest.17 loot ssbrc:ui/null/red
 loot replace entity @s enderchest.26 loot ssbrc:ui/null/red
