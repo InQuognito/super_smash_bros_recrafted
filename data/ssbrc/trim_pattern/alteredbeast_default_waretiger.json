@@ -1,0 +1,7 @@
+{
+	"asset_id": "ssbrc:alteredbeast_default_waretiger",
+	"description": {
+	"translate": "trim_pattern.example.stripes"
+	},
+	"template_item": "minecraft:stick"
+}
