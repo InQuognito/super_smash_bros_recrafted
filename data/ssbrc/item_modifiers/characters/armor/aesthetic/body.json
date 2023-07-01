@@ -40,7 +40,7 @@
 	},
 	{
 		"function": "minecraft:set_nbt",
-		"tag": "{display:{color:16761109}}",
+		"tag": "{Trim:{pattern:\"ssbrc:bowser_default\",material:\"minecraft:quartz\"}}",
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -53,7 +53,20 @@
 	},
 	{
 		"function": "minecraft:set_nbt",
-		"tag": "{display:{color:6709342}}",
+		"tag": "{Trim:{pattern:\"ssbrc:bowser_gold\",material:\"minecraft:quartz\"}}",
+		"conditions": [
+			{
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"nbt": "{Tags:[\"bowser\",\"gold\"]}"
+				}
+			}
+		]
+	},
+	{
+		"function": "minecraft:set_nbt",
+		"tag": "{Trim:{pattern:\"ssbrc:bowser_bowsette\",material:\"minecraft:quartz\"}}",
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -66,7 +79,7 @@
 	},
 	{
 		"function": "minecraft:set_nbt",
-		"tag": "{display:{color:11172715}}",
+		"tag": "{Trim:{pattern:\"ssbrc:byleth_default_female\",material:\"minecraft:quartz\"}}",
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -79,7 +92,7 @@
 	},
 	{
 		"function": "minecraft:set_nbt",
-		"tag": "{display:{color:8025482}}",
+		"tag": "{Trim:{pattern:\"ssbrc:byleth_default_male\",material:\"minecraft:quartz\"}}",
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -92,7 +105,33 @@
 	},
 	{
 		"function": "minecraft:set_nbt",
-		"tag": "{display:{color:11172715}}",
+		"tag": "{Trim:{pattern:\"ssbrc:byleth_gold_female\",material:\"minecraft:quartz\"}}",
+		"conditions": [
+			{
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"nbt": "{Tags:[\"byleth\",\"gold\",\"female\"]}"
+				}
+			}
+		]
+	},
+	{
+		"function": "minecraft:set_nbt",
+		"tag": "{Trim:{pattern:\"ssbrc:byleth_gold_male\",material:\"minecraft:quartz\"}}",
+		"conditions": [
+			{
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"nbt": "{Tags:[\"byleth\",\"gold\",\"male\"]}"
+				}
+			}
+		]
+	},
+	{
+		"function": "minecraft:set_nbt",
+		"tag": "{Trim:{pattern:\"ssbrc:byleth_awakened_female\",material:\"minecraft:quartz\"}}",
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -105,7 +144,7 @@
 	},
 	{
 		"function": "minecraft:set_nbt",
-		"tag": "{display:{color:8025482}}",
+		"tag": "{Trim:{pattern:\"ssbrc:byleth_awakened_male\",material:\"minecraft:quartz\"}}",
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -118,7 +157,7 @@
 	},
 	{
 		"function": "minecraft:set_nbt",
-		"tag": "{display:{color:3164387}}",
+		"tag": "{Trim:{pattern:\"ssbrc:captainfalcon_default\",material:\"minecraft:quartz\"}}",
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -131,20 +170,20 @@
 	},
 	{
 		"function": "minecraft:set_nbt",
-		"tag": "{display:{color:12467005}}",
+		"tag": "{Trim:{pattern:\"ssbrc:captainfalcon_gold\",material:\"minecraft:quartz\"}}",
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
 				"entity": "this",
 				"predicate": {
-					"nbt": "{Tags:[\"captainfalcon\",\"bloodFalcon\"]}"
+					"nbt": "{Tags:[\"captainfalcon\",\"gold\"]}"
 				}
 			}
 		]
 	},
 	{
 		"function": "minecraft:set_nbt",
-		"tag": "{display:{color:10826598}}",
+		"tag": "{Trim:{pattern:\"ssbrc:captainfalcon_rickWheeler\",material:\"minecraft:quartz\"}}",
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -157,13 +196,26 @@
 	},
 	{
 		"function": "minecraft:set_nbt",
-		"tag": "{display:{color:2246498}}",
+		"tag": "{Trim:{pattern:\"ssbrc:cloud_default\",material:\"minecraft:quartz\"}}",
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
 				"entity": "this",
 				"predicate": {
 					"nbt": "{Tags:[\"cloud\",\"default\"]}"
+				}
+			}
+		]
+	},
+	{
+		"function": "minecraft:set_nbt",
+		"tag": "{Trim:{pattern:\"ssbrc:cloud_gold\",material:\"minecraft:quartz\"}}",
+		"conditions": [
+			{
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"nbt": "{Tags:[\"cloud\",\"gold\"]}"
 				}
 			}
 		]
