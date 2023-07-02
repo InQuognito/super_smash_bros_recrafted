@@ -1,2 +1,2 @@
-loot replace entity @s[tag=!gold] weapon.mainhand loot ssbrc:characters/super_smash_bros/rob/robo_beam/default/depleted
-loot replace entity @s[tag=gold] weapon.mainhand loot ssbrc:characters/super_smash_bros/rob/robo_beam/gold/depleted
+execute if entity @s[tag=!gold] run function ssbrc:series/super_smash_bros/rob/logic/abilities/robo_beam/reset/default
+execute if entity @s[tag=gold] run function ssbrc:series/super_smash_bros/rob/logic/abilities/robo_beam/reset/gold
