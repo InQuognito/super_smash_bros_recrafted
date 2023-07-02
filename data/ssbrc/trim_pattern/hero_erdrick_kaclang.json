@@ -1,0 +1,7 @@
+{
+	"asset_id": "ssbrc:hero_erdrick_kaclang",
+	"description": {
+		"translate": "trim_pattern.example.stripes"
+	},
+	"template_item": "minecraft:stick"
+}

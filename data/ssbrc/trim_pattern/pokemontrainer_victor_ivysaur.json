@@ -1,0 +1,7 @@
+{
+	"asset_id": "ssbrc:pokemontrainer_victor_ivysaur",
+	"description": {
+		"translate": "trim_pattern.example.stripes"
+	},
+	"template_item": "minecraft:stick"
+}

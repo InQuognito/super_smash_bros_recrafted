@@ -1,0 +1,7 @@
+{
+	"asset_id": "ssbrc:sora_default_default",
+	"description": {
+		"translate": "trim_pattern.example.stripes"
+	},
+	"template_item": "minecraft:stick"
+}

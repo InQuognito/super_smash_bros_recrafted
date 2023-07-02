@@ -1,0 +1,7 @@
+{
+	"asset_id": "ssbrc:fox_gold",
+	"description": {
+		"translate": "trim_pattern.example.stripes"
+	},
+	"template_item": "minecraft:stick"
+}

@@ -1,0 +1,7 @@
+{
+	"asset_id": "ssbrc:teamrocket_gold_meowth",
+	"description": {
+		"translate": "trim_pattern.example.stripes"
+	},
+	"template_item": "minecraft:stick"
+}

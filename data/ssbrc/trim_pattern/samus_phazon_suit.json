@@ -1,0 +1,7 @@
+{
+	"asset_id": "ssbrc:samus_phazon_suit",
+	"description": {
+		"translate": "trim_pattern.example.stripes"
+	},
+	"template_item": "minecraft:stick"
+}

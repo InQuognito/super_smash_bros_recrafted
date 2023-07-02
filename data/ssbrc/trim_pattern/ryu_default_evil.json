@@ -1,0 +1,7 @@
+{
+	"asset_id": "ssbrc:ryu_default_evil",
+	"description": {
+		"translate": "trim_pattern.example.stripes"
+	},
+	"template_item": "minecraft:stick"
+}

@@ -1,0 +1,7 @@
+{
+	"asset_id": "ssbrc:shovelknight_phase_locket",
+	"description": {
+		"translate": "trim_pattern.example.stripes"
+	},
+	"template_item": "minecraft:stick"
+}
