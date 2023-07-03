@@ -1,0 +1,20 @@
+{
+	"type": "minecraft:command",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:carrot_on_a_stick",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{guardianOrbitar:1,CustomModelData:1227,Unbreakable:1b,HideFlags:255}"
+						}
+					]
+				}
+			]
+		}
+	]
+}
