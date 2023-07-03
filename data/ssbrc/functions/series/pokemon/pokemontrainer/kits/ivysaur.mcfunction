@@ -14,7 +14,7 @@ loot replace entity @s hotbar.1 loot ssbrc:characters/pokemon/pokemontrainer/ivy
 
 scoreboard players set @s charge.1 6
 
-function ssbrc:logic/characters/armor/get
+function ssbrc:logic/characters/armor/update
 function ssbrc:logic/characters/attributes/defaults
 function ssbrc:logic/characters/effects/default
 

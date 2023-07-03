@@ -6,7 +6,7 @@ effect give @s minecraft:resistance infinite 255 true
 
 function ssbrc:logic/characters/effects/mobility/immobilize
 
-function ssbrc:logic/characters/armor/get
+function ssbrc:logic/characters/armor/update
 
 scoreboard players operation @s mana -= #hero.kaclangManaCost vars
 
