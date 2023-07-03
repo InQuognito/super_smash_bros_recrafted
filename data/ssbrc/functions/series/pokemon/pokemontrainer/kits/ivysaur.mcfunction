@@ -8,7 +8,7 @@ tellraw @s[tag=!dawn,tag=!victor] [{"translate":"ssbrc.fighters.pokemontrainer.i
 tellraw @s[tag=dawn] [{"translate":"ssbrc.fighters.pokemontrainer.ivysaur.dawn","color":"green"},{"translate":"ssbrc.fighters.pokemontrainer.iChooseYou","color":"green"}]
 tellraw @s[tag=victor] [{"translate":"ssbrc.fighters.pokemontrainer.ivysaur.default","color":"green"},{"translate":"ssbrc.fighters.pokemontrainer.iChooseYou","color":"green"}]
 
-clear @s
+clear @s #ssbrc:equipment
 loot replace entity @s hotbar.0 loot ssbrc:characters/pokemon/pokemontrainer/ivysaur/knock_off
 loot replace entity @s hotbar.1 loot ssbrc:characters/pokemon/pokemontrainer/ivysaur/leech_seed/default
 
