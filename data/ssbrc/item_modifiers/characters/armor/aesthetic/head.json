@@ -2387,10 +2387,6 @@
 				"predicate": {
 					"nbt": "{Tags:[\"shovelknight\",\"default\"]}"
 				}
-			},
-			{
-				"condition": "minecraft:reference",
-				"name": "ssbrc:characters/shovelknight/phase_locket/default/off"
 			}
 		]
 	},
@@ -2405,10 +2401,6 @@
 				"predicate": {
 					"nbt": "{Tags:[\"shovelknight\",\"gold\"]}"
 				}
-			},
-			{
-				"condition": "minecraft:reference",
-				"name": "ssbrc:characters/shovelknight/phase_locket/gold/off"
 			}
 		]
 	},
@@ -2422,10 +2414,6 @@
 				"predicate": {
 					"nbt": "{Tags:[\"shovelknight\",\"armorOfChaos\"]}"
 				}
-			},
-			{
-				"condition": "minecraft:reference",
-				"name": "ssbrc:characters/shovelknight/phase_locket/armor_of_chaos/off"
 			}
 		]
 	},
@@ -2439,10 +2427,6 @@
 				"predicate": {
 					"nbt": "{Tags:[\"shovelknight\",\"toadGear\"]}"
 				}
-			},
-			{
-				"condition": "minecraft:reference",
-				"name": "ssbrc:characters/shovelknight/phase_locket/toad_gear/off"
 			}
 		]
 	},
@@ -2454,12 +2438,8 @@
 				"condition": "minecraft:entity_properties",
 				"entity": "this",
 				"predicate": {
-					"nbt": "{Tags:[\"shovelknight\"]}"
+					"nbt": "{Tags:[\"shovelknight\",\"phaseLocket\"]}"
 				}
-			},
-			{
-				"condition": "minecraft:reference",
-				"name": "ssbrc:characters/shovelknight/phase_locket/on"
 			}
 		]
 	},

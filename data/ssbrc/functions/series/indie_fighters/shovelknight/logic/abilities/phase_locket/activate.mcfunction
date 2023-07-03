@@ -1,3 +1,5 @@
+tag @s add phaseLocket
+
 scoreboard players set @s duration.2 100
 
 effect give @s minecraft:resistance infinite 255 true
