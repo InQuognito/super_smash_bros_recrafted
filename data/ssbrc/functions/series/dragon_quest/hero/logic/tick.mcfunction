@@ -9,8 +9,8 @@ function ssbrc:series/dragon_quest/hero/logic/mana/update
 function ssbrc:series/dragon_quest/hero/logic/abilities/bang/cooldown
 
 # Kaclang
-execute if score @s duration.2 matches 1.. at @s run function ssbrc:series/dragon_quest/hero/logic/abilities/kaclang/tick
-execute if entity @s[predicate=ssbrc:characters/hero/kaclang/off] run function ssbrc:series/dragon_quest/hero/logic/abilities/kaclang/deactivate
+execute if score @s duration.2 matches 2.. at @s run function ssbrc:series/dragon_quest/hero/logic/abilities/kaclang/tick
+execute if score @s duration.2 matches 1 run function ssbrc:series/dragon_quest/hero/logic/abilities/kaclang/deactivate
 
 function ssbrc:series/dragon_quest/hero/logic/abilities/kaclang/cooldown
 

@@ -1,3 +1,5 @@
+tag @s remove kaclang
+
 effect clear @s minecraft:resistance
 
 function ssbrc:logic/characters/effects/mobility/mobilize

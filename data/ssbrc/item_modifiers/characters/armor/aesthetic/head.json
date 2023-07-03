@@ -565,10 +565,6 @@
 				"predicate": {
 					"nbt": "{Tags:[\"hero\",\"default\"]}"
 				}
-			},
-			{
-				"condition": "minecraft:reference",
-				"name": "ssbrc:characters/hero/kaclang/off"
 			}
 		]
 	},
@@ -580,12 +576,8 @@
 				"condition": "minecraft:entity_properties",
 				"entity": "this",
 				"predicate": {
-					"nbt": "{Tags:[\"hero\",\"default\"]}"
+					"nbt": "{Tags:[\"hero\",\"default\",\"kaclang\"]}"
 				}
-			},
-			{
-				"condition": "minecraft:reference",
-				"name": "ssbrc:characters/hero/kaclang/on"
 			}
 		]
 	},
@@ -599,27 +591,19 @@
 				"predicate": {
 					"nbt": "{Tags:[\"hero\",\"gold\"]}"
 				}
-			},
-			{
-				"condition": "minecraft:reference",
-				"name": "ssbrc:characters/hero/kaclang/off"
 			}
 		]
 	},
 	{
 		"function": "minecraft:set_nbt",
-		"tag": "{CustomModelData:443}",
+		"tag": "{CustomModelData:441}",
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
 				"entity": "this",
 				"predicate": {
-					"nbt": "{Tags:[\"hero\",\"gold\"]}"
+					"nbt": "{Tags:[\"hero\",\"gold\",\"kaclang\"]}"
 				}
-			},
-			{
-				"condition": "minecraft:reference",
-				"name": "ssbrc:characters/hero/kaclang/on"
 			}
 		]
 	},
@@ -633,10 +617,6 @@
 				"predicate": {
 					"nbt": "{Tags:[\"hero\",\"erdrick\"]}"
 				}
-			},
-			{
-				"condition": "minecraft:reference",
-				"name": "ssbrc:characters/hero/kaclang/off"
 			}
 		]
 	},
@@ -648,12 +628,8 @@
 				"condition": "minecraft:entity_properties",
 				"entity": "this",
 				"predicate": {
-					"nbt": "{Tags:[\"hero\",\"erdrick\"]}"
+					"nbt": "{Tags:[\"hero\",\"erdrick\",\"kaclang\"]}"
 				}
-			},
-			{
-				"condition": "minecraft:reference",
-				"name": "ssbrc:characters/hero/kaclang/on"
 			}
 		]
 	},
@@ -667,10 +643,6 @@
 				"predicate": {
 					"nbt": "{Tags:[\"hero\",\"rek\"]}"
 				}
-			},
-			{
-				"condition": "minecraft:reference",
-				"name": "ssbrc:characters/hero/kaclang/off"
 			}
 		]
 	},
@@ -682,12 +654,8 @@
 				"condition": "minecraft:entity_properties",
 				"entity": "this",
 				"predicate": {
-					"nbt": "{Tags:[\"hero\",\"rek\"]}"
+					"nbt": "{Tags:[\"hero\",\"rek\",\"kaclang\"]}"
 				}
-			},
-			{
-				"condition": "minecraft:reference",
-				"name": "ssbrc:characters/hero/kaclang/on"
 			}
 		]
 	},
@@ -701,10 +669,6 @@
 				"predicate": {
 					"nbt": "{Tags:[\"hero\",\"sofia\"]}"
 				}
-			},
-			{
-				"condition": "minecraft:reference",
-				"name": "ssbrc:characters/hero/kaclang/off"
 			}
 		]
 	},
@@ -716,12 +680,8 @@
 				"condition": "minecraft:entity_properties",
 				"entity": "this",
 				"predicate": {
-					"nbt": "{Tags:[\"hero\",\"sofia\"]}"
+					"nbt": "{Tags:[\"hero\",\"sofia\",\"kaclang\"]}"
 				}
-			},
-			{
-				"condition": "minecraft:reference",
-				"name": "ssbrc:characters/hero/kaclang/on"
 			}
 		]
 	},
