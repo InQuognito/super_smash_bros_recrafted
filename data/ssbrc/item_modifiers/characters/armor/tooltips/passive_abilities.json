@@ -480,5 +480,41 @@
 				}
 			}
 		]
+	},
+	{
+		"function": "minecraft:set_lore",
+		"entity": "this",
+		"lore": [
+			{
+				"translate": "ssbrc.tooltips.alteredbeast.markOfTheBeast",
+				"color": "yellow",
+				"bold": false,
+				"italic": false,
+				"underlined": true
+			},
+			{
+				"translate": "ssbrc.tooltips.alteredbeast.markOfTheBeast.description.1",
+				"color": "gray",
+				"bold": false,
+				"italic": false
+			}
+		],
+		"replace": false,
+		"conditions": [
+			{
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"nbt": "{Tags:[\"alteredbeast\"]}"
+				}
+			},
+			{
+				"condition": "minecraft:inverted",
+				"term": {
+					"condition": "minecraft:reference",
+					"name": "ssbrc:characters/alteredbeast/is_beast"
+				}
+			}
+		]
 	}
 ]
