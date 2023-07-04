@@ -16,8 +16,11 @@
 			}
 		},
 		{
-			"condition": "minecraft:reference",
-			"name": "ssbrc:characters/hero/kaclang/on"
+			"condition": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
+				"nbt": "{Tags:[\"hero\",\"kaclang\"]}"
+			}
 		}
 	]
 }
