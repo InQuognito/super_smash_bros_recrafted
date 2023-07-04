@@ -10,7 +10,7 @@ tellraw @s[tag=!armorOfChaos,advancements={ssbrc:series/indie_fighters/shovelkni
 tellraw @s[tag=armorOfChaos] [{"translate":"ssbrc.fighters.shovelknight.skin.armorOfChaos","color":"red"},{"text":" ","color":"white"},{"text":"✔","color":"green"}]
 
 tellraw @s[tag=!toadGear,advancements={ssbrc:series/indie_fighters/shovelknight/skins/toad_gear=true}] [{"translate":"ssbrc.fighters.shovelknight.skin.toadGear","color":"green","clickEvent":{"action":"run_command","value":"/trigger menu set 1927"}}]
-tellraw @s[tag=toadGear] [{"translate":"ssbrc.fighters.shovelknight.skin.toadGear","color":"red"},{"text":" ","color":"white"},{"text":"✔","color":"green"}]
+tellraw @s[tag=toadGear] [{"translate":"ssbrc.fighters.shovelknight.skin.toadGear","color":"green"},{"text":" ","color":"white"},{"text":"✔","color":"green"}]
 
 tellraw @s [{"translate":"================","bold":true,"color":"white"}]
 
