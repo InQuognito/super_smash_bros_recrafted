@@ -1,6 +1,6 @@
 function ssbrc:series/castlevania/alucard/logic/abilities/blood_metamorphosis/deactivate
 
-function ssbrc:logic/characters/armor/update
+function ssbrc:logic/characters/armor/get
 function ssbrc:series/castlevania/alucard/kit
 
 effect give @s minecraft:glowing infinite 255 true

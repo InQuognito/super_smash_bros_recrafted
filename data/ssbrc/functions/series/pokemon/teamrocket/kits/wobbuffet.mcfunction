@@ -5,7 +5,7 @@ tag @s add wobbuffet
 
 tellraw @s {"translate":"ssbrc.fighters.teamrocket.wobbuffet.switch","color":"aqua"}
 
-clear @s
+clear @s #ssbrc:equipment
 loot replace entity @s hotbar.0 loot ssbrc:characters/pokemon/teamrocket/wobbuffet/counter
 loot replace entity @s hotbar.1 loot ssbrc:characters/pokemon/teamrocket/wobbuffet/destiny_bond
 

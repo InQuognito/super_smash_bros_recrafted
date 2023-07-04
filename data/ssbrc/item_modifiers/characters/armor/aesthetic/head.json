@@ -2516,7 +2516,7 @@
 				"condition": "minecraft:entity_properties",
 				"entity": "this",
 				"predicate": {
-					"nbt": "{Tags:[\"arbok\",\"gold\"]}"
+					"nbt": "{Tags:[\"james\",\"gold\"]}"
 				}
 			}
 		]
@@ -2529,7 +2529,7 @@
 				"condition": "minecraft:entity_properties",
 				"entity": "this",
 				"predicate": {
-					"nbt": "{Tags:[\"meowth\",\"gold\"]}"
+					"nbt": "{Tags:[\"jesse\",\"gold\"]}"
 				}
 			}
 		]
@@ -2537,6 +2537,32 @@
 	{
 		"function": "minecraft:set_nbt",
 		"tag": "{CustomModelData:1948}",
+		"conditions": [
+			{
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"nbt": "{Tags:[\"arbok\",\"gold\"]}"
+				}
+			}
+		]
+	},
+	{
+		"function": "minecraft:set_nbt",
+		"tag": "{CustomModelData:1949}",
+		"conditions": [
+			{
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"nbt": "{Tags:[\"meowth\",\"gold\"]}"
+				}
+			}
+		]
+	},
+	{
+		"function": "minecraft:set_nbt",
+		"tag": "{CustomModelData:1950}",
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",

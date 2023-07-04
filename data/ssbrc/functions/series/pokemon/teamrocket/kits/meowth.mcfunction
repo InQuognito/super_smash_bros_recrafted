@@ -5,7 +5,7 @@ tag @s add meowth
 
 tellraw @s {"translate":"ssbrc.fighters.teamrocket.meowth.switch","color":"yellow"}
 
-clear @s
+clear @s #ssbrc:equipment
 loot replace entity @s hotbar.0 loot ssbrc:characters/pokemon/teamrocket/meowth/scratch
 loot replace entity @s hotbar.1 loot ssbrc:characters/pokemon/teamrocket/meowth/payday
 
