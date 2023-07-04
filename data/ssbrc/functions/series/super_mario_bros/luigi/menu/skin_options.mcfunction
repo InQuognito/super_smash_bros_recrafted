@@ -9,6 +9,9 @@ tellraw @s[tag=gold] [{"translate":"ssbrc.fighters.skin.gold","color":"gold"},{"
 tellraw @s[tag=!flowerPower,advancements={ssbrc:series/super_mario_bros/luigi/skins/flower_power=true}] [{"translate":"ssbrc.series.superMarioBros.skin.flowerPower","color":"aqua","clickEvent":{"action":"run_command","value":"/trigger menu set 826"}}]
 tellraw @s[tag=flowerPower] [{"translate":"ssbrc.series.superMarioBros.skin.flowerPower","color":"aqua"},{"text":" ","color":"white"},{"text":"✔","color":"green"}]
 
+tellraw @s[tag=!gooigi,advancements={ssbrc:series/super_mario_bros/luigi/skins/gooigi=true}] [{"translate":"ssbrc.fighters.luigi.skin.gooigi","color":"green","clickEvent":{"action":"run_command","value":"/trigger menu set 827"}}]
+tellraw @s[tag=gooigi] [{"translate":"ssbrc.fighters.luigi.skin.gooigi","color":"green"},{"text":" ","color":"white"},{"text":"✔","color":"green"}]
+
 tellraw @s [{"translate":"================","bold":true,"color":"white"}]
 
 execute at @s run playsound minecraft:ui.button.click master @s

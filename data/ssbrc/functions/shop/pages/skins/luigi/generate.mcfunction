@@ -8,6 +8,10 @@ execute if score @s[advancements={ssbrc:series/super_mario_bros/luigi/skins/flow
 execute if score @s[advancements={ssbrc:series/super_mario_bros/luigi/skins/flower_power=false}] stats.credits >= #price.skin.common vars run loot replace entity @s enderchest.2 loot ssbrc:ui/shop/skins/luigi/flower_power/unowned
 loot replace entity @s[advancements={ssbrc:series/super_mario_bros/luigi/skins/flower_power=true}] enderchest.2 loot ssbrc:ui/shop/skins/luigi/flower_power/owned
 
+execute if score @s[advancements={ssbrc:series/super_mario_bros/luigi/skins/gooigi=false}] stats.credits < #price.skin.common vars run loot replace entity @s enderchest.3 loot ssbrc:ui/shop/skins/luigi/gooigi/cannot_afford
+execute if score @s[advancements={ssbrc:series/super_mario_bros/luigi/skins/gooigi=false}] stats.credits >= #price.skin.common vars run loot replace entity @s enderchest.3 loot ssbrc:ui/shop/skins/luigi/gooigi/unowned
+loot replace entity @s[advancements={ssbrc:series/super_mario_bros/luigi/skins/gooigi=true}] enderchest.3 loot ssbrc:ui/shop/skins/luigi/gooigi/owned
+
 loot replace entity @s enderchest.8 loot ssbrc:ui/null/red
 loot replace entity @s enderchest.17 loot ssbrc:ui/null/red
 loot replace entity @s enderchest.26 loot ssbrc:ui/null/red

@@ -78,6 +78,7 @@ execute if score @s[tag=link] menu matches 728 run function ssbrc:series/the_leg
 execute if score @s[tag=luigi] menu matches 824 run function ssbrc:series/super_mario_bros/luigi/menu/skins/default
 execute if score @s[tag=luigi] menu matches 825 run function ssbrc:series/super_mario_bros/luigi/menu/skins/gold
 execute if score @s[tag=luigi] menu matches 826 run function ssbrc:series/super_mario_bros/luigi/menu/skins/flower_power
+execute if score @s[tag=luigi] menu matches 827 run function ssbrc:series/super_mario_bros/luigi/menu/skins/gooigi
 
 execute if score @s[tag=mario] menu matches 844 run function ssbrc:series/super_mario_bros/mario/menu/skins/default
 execute if score @s[tag=mario] menu matches 845 run function ssbrc:series/super_mario_bros/mario/menu/skins/gold
