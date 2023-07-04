@@ -1478,10 +1478,6 @@
 				"predicate": {
 					"nbt": "{Tags:[\"ryu\",\"default\"]}"
 				}
-			},
-			{
-				"condition": "minecraft:reference",
-				"name": "ssbrc:characters/ryu/satsui_no_hado/off"
 			}
 		]
 	},
@@ -1493,12 +1489,8 @@
 				"condition": "minecraft:entity_properties",
 				"entity": "this",
 				"predicate": {
-					"nbt": "{Tags:[\"ryu\",\"default\"]}"
+					"nbt": "{Tags:[\"ryu\",\"default\",\"satsuiNoHadoRage\"]}"
 				}
-			},
-			{
-				"condition": "minecraft:reference",
-				"name": "ssbrc:characters/ryu/satsui_no_hado/on"
 			}
 		]
 	},
@@ -1512,10 +1504,6 @@
 				"predicate": {
 					"nbt": "{Tags:[\"ryu\",\"gold\"]}"
 				}
-			},
-			{
-				"condition": "minecraft:reference",
-				"name": "ssbrc:characters/ryu/satsui_no_hado/off"
 			}
 		]
 	},
@@ -1527,12 +1515,8 @@
 				"condition": "minecraft:entity_properties",
 				"entity": "this",
 				"predicate": {
-					"nbt": "{Tags:[\"ryu\",\"gold\"]}"
+					"nbt": "{Tags:[\"ryu\",\"gold\",\"satsuiNoHadoRage\"]}"
 				}
-			},
-			{
-				"condition": "minecraft:reference",
-				"name": "ssbrc:characters/ryu/satsui_no_hado/on"
 			}
 		]
 	},
@@ -1546,10 +1530,6 @@
 				"predicate": {
 					"nbt": "{Tags:[\"ryu\",\"hotRyu\"]}"
 				}
-			},
-			{
-				"condition": "minecraft:reference",
-				"name": "ssbrc:characters/ryu/satsui_no_hado/off"
 			}
 		]
 	},
@@ -1561,12 +1541,8 @@
 				"condition": "minecraft:entity_properties",
 				"entity": "this",
 				"predicate": {
-					"nbt": "{Tags:[\"ryu\",\"hotRyu\"]}"
+					"nbt": "{Tags:[\"ryu\",\"hotRyu\",\"satsuiNoHadoRage\"]}"
 				}
-			},
-			{
-				"condition": "minecraft:reference",
-				"name": "ssbrc:characters/ryu/satsui_no_hado/on"
 			}
 		]
 	},
