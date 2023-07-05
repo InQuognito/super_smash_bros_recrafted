@@ -9,6 +9,7 @@ item modify entity @s[predicate=ssbrc:characters/enchantments/swift_sneak] armor
 
 item modify entity @s[predicate=!ssbrc:characters/enchantments/feather_falling_infinity] armor.feet ssbrc:characters/enchantments/feather_falling
 item modify entity @s[predicate=ssbrc:characters/enchantments/feather_falling_infinity] armor.feet ssbrc:characters/enchantments/feather_falling_infinity
+item modify entity @s[predicate=ssbrc:characters/enchantments/depth_strider] armor.feet ssbrc:characters/enchantments/depth_strider
 
 item modify entity @s armor.head ssbrc:characters/enchantments/binding_curse
 item modify entity @s armor.chest ssbrc:characters/enchantments/binding_curse
