@@ -12,7 +12,7 @@
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"translate": "ssbrc.tooltips.ganondorf.swordOfTheSixSages",
+								"translate": "ssbrc.tooltips.ganondorf.sword.default",
 								"color": "yellow",
 								"bold": true,
 								"italic": false
@@ -59,7 +59,7 @@
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{swordOfTheSixSages:1,CustomModelData:401,Unbreakable:1b,HideFlags:255}"
+							"tag": "{ganondorfSword:1,CustomModelData:401,Unbreakable:1b,HideFlags:255}"
 						}
 					]
 				}

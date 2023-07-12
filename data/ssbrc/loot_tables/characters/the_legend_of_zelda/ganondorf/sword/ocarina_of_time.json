@@ -12,7 +12,7 @@
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"translate": "ssbrc.tooltips.ganondorf.gloomSword",
+								"translate": "ssbrc.tooltips.ganondorf.sword.ocarinaOfTime",
 								"color": "dark_gray",
 								"bold": true,
 								"italic": false
@@ -23,7 +23,7 @@
 							"entity": "this",
 							"lore": [
 								{
-									"translate": "------------",
+									"translate": "--------------",
 									"color": "gray",
 									"bold": false,
 									"italic": false
@@ -59,7 +59,7 @@
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{gloomSword:1,CustomModelData:401,Unbreakable:1b,HideFlags:255}"
+							"tag": "{ganondorfSword:1,CustomModelData:400,Unbreakable:1b,HideFlags:255}"
 						}
 					]
 				}
