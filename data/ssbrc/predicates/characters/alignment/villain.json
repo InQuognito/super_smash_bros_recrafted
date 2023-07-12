@@ -48,8 +48,11 @@
 			"name": "ssbrc:characters/alignment/link_villain"
 		},
 		{
-			"condition": "minecraft:reference",
-			"name": "ssbrc:characters/ryu/satsui_no_hado/on"
+			"condition": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
+				"nbt": "{Tags:[\"ryu\",\"satsuiNoHadoRage\"]}"
+			}
 		},
 		{
 			"condition": "minecraft:reference",

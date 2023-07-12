@@ -660,8 +660,11 @@
 		"replace": false,
 		"conditions": [
 			{
-				"condition": "minecraft:reference",
-				"name": "ssbrc:characters/ryu/satsui_no_hado/off"
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"nbt": "{Tags:[\"ryu\"]}"
+				}
 			}
 		]
 	},
@@ -700,8 +703,11 @@
 		"replace": false,
 		"conditions": [
 			{
-				"condition": "minecraft:reference",
-				"name": "ssbrc:characters/ryu/satsui_no_hado/on"
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"nbt": "{Tags:[\"ryu\",\"satsuiNoHadoRage\"]}"
+				}
 			}
 		]
 	},
