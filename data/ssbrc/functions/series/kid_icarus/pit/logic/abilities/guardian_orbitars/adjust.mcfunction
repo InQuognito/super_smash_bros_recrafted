@@ -1,2 +1,2 @@
-teleport @s[tag=back] ^ ^ ^-1.5 facing ^ ^ ^1
-teleport @s[tag=front] ^ ^ ^1.5 facing ^ ^ ^-1
+execute positioned ^ ^ ^-1.5 run teleport @s[tag=back] ~ ~ ~ facing ~ ~ ~
+execute positioned ^ ^ ^1.5 run teleport @s[tag=front] ~ ~ ~ facing ~ ~ ~
