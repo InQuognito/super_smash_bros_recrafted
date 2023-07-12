@@ -1,3 +1,3 @@
-function ssbrc:series/kid_icarus/pit/logic/abilities/guardian_orbitars/init
+tag @s add back
 
-teleport @s ^ ^ ^ facing ^ ^ ^-1
+function ssbrc:series/kid_icarus/pit/logic/abilities/guardian_orbitars/init
