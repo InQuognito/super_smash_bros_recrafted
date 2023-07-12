@@ -39,5 +39,4 @@ execute unless score @s hardReset matches -2147483648..2147483647 run scoreboard
 
 tag @s add loaded
 
-advancement grant @s[advancements={ssbrc:tutorial/intro/1=false}] only ssbrc:tutorial/intro/1
 advancement grant @s[scores={stats.gamesPlayed=1..},advancements={ssbrc:tutorial/stage_select/1=true}] only ssbrc:tutorial/outro/1

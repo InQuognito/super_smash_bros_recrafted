@@ -1,5 +1,4 @@
 {
-	"parent": "ssbrc:tutorial/intro/1",
 	"criteria": {
 		"tick": {
 			"trigger": "minecraft:impossible"
