@@ -25,6 +25,9 @@ item replace entity @s[advancements={ssbrc:series/indie_fighters/steve/skins/def
 item replace entity @s[advancements={ssbrc:series/star_fox/wolf/skins/default=false}] enderchest.12 with minecraft:barrier{UIPlaceHolder:1b,CustomModelData:1720,display:{Name:'{"translate":"ssbrc.fighters.wolf","color":"dark_purple","italic":false}',Lore:['""','{"translate":"ssbrc.fighterSelect.unowned","color":"red","italic":false}']}}
 item replace entity @s[advancements={ssbrc:series/star_fox/wolf/skins/default=true}] enderchest.12 with minecraft:barrier{ui:{id:"navigation.skins.wolf",sound:"click"},CustomModelData:1720,display:{Name:'{"translate":"ssbrc.fighters.wolf","color":"dark_purple","italic":false}',Lore:['""','{"translate":"ssbrc.ui.clickToOpen","color":"yellow","italic":false}']}}
 
+item replace entity @s[advancements={ssbrc:series/retro_fighters/yar/skins/default=false}] enderchest.13 with minecraft:barrier{UIPlaceHolder:1b,CustomModelData:1960,display:{Name:'{"translate":"ssbrc.fighters.yar","color":"red","italic":false}',Lore:['""','{"translate":"ssbrc.fighterSelect.unowned","color":"red","italic":false}']}}
+item replace entity @s[advancements={ssbrc:series/retro_fighters/yar/skins/default=true}] enderchest.13 with minecraft:barrier{ui:{id:"navigation.skins.yar",sound:"click"},CustomModelData:1960,display:{Name:'{"translate":"ssbrc.fighters.yar","color":"red","italic":false}',Lore:['""','{"translate":"ssbrc.ui.clickToOpen","color":"yellow","italic":false}']}}
+
 loot replace entity @s enderchest.8 loot ssbrc:ui/null/orange
 loot replace entity @s enderchest.17 loot ssbrc:ui/null/orange
 loot replace entity @s enderchest.26 loot ssbrc:ui/null/orange

@@ -352,6 +352,19 @@
 	},
 	{
 		"function": "minecraft:set_nbt",
+		"tag": "{Trim:{pattern:\"ssbrc:ganondorf_wind_waker\",material:\"minecraft:quartz\"}}",
+		"conditions": [
+			{
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"nbt": "{Tags:[\"ganondorf\",\"windWaker\"]}"
+				}
+			}
+		]
+	},
+	{
+		"function": "minecraft:set_nbt",
 		"tag": "{Trim:{pattern:\"ssbrc:greninja_default\",material:\"minecraft:quartz\"}}",
 		"conditions": [
 			{
@@ -2297,6 +2310,19 @@
 				"entity": "this",
 				"predicate": {
 					"nbt": "{Tags:[\"yar\",\"gold\"]}"
+				}
+			}
+		]
+	},
+	{
+		"function": "minecraft:set_nbt",
+		"tag": "{Trim:{pattern:\"ssbrc:yar_recruit\",material:\"minecraft:quartz\"}}",
+		"conditions": [
+			{
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"nbt": "{Tags:[\"yar\",\"recruit\"]}"
 				}
 			}
 		]

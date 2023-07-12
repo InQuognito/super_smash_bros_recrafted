@@ -12,6 +12,9 @@ tellraw @s[tag=ocarinaOfTime] [{"translate":"ssbrc.fighters.ganondorf.skin.ocari
 tellraw @s[tag=!tearsOfTheKingdom,advancements={ssbrc:series/the_legend_of_zelda/ganondorf/skins/tears_of_the_kingdom=true}] [{"translate":"ssbrc.fighters.ganondorf.skin.tearsOfTheKingdom","color":"dark_red","clickEvent":{"action":"run_command","value":"/trigger menu set 407"}}]
 tellraw @s[tag=tearsOfTheKingdom] [{"translate":"ssbrc.fighters.ganondorf.skin.tearsOfTheKingdom","color":"dark_red"},{"text":" ","color":"white"},{"text":"✔","color":"green"}]
 
+tellraw @s[tag=!windWaker,advancements={ssbrc:series/the_legend_of_zelda/ganondorf/skins/wind_waker=true}] [{"translate":"ssbrc.fighters.ganondorf.skin.windWaker","color":"aqua","clickEvent":{"action":"run_command","value":"/trigger menu set 408"}}]
+tellraw @s[tag=windWaker] [{"translate":"ssbrc.fighters.ganondorf.skin.windWaker","color":"aqua"},{"text":" ","color":"white"},{"text":"✔","color":"green"}]
+
 tellraw @s [{"translate":"================","bold":true,"color":"white"}]
 
 execute at @s run playsound minecraft:ui.button.click master @s

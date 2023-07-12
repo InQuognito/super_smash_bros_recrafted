@@ -6,3 +6,6 @@ execute if score @s shopCalculator matches 1.. run function ssbrc:shop/contents/
 
 execute store result score @s shopCalculator run clear @s #ssbrc:ui/buttons{ui:{id:"skins.ganondorf.tearsOfTheKingdom"}}
 execute if score @s shopCalculator matches 1.. run function ssbrc:shop/contents/skins/ganondorf/tears_of_the_kingdom
+
+execute store result score @s shopCalculator run clear @s #ssbrc:ui/buttons{ui:{id:"skins.ganondorf.windWaker"}}
+execute if score @s shopCalculator matches 1.. run function ssbrc:shop/contents/skins/ganondorf/wind_waker

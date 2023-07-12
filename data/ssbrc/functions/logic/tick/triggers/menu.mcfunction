@@ -45,6 +45,7 @@ execute if score @s[tag=ganondorf] menu matches 404 run function ssbrc:series/th
 execute if score @s[tag=ganondorf] menu matches 405 run function ssbrc:series/the_legend_of_zelda/ganondorf/menu/skins/gold
 execute if score @s[tag=ganondorf] menu matches 406 run function ssbrc:series/the_legend_of_zelda/ganondorf/menu/skins/ocarina_of_time
 execute if score @s[tag=ganondorf] menu matches 407 run function ssbrc:series/the_legend_of_zelda/ganondorf/menu/skins/tears_of_the_kingdom
+execute if score @s[tag=ganondorf] menu matches 408 run function ssbrc:series/the_legend_of_zelda/ganondorf/menu/skins/wind_waker
 
 execute if score @s[tag=greninja] menu matches 424 run function ssbrc:series/pokemon/greninja/menu/skins/default
 execute if score @s[tag=greninja] menu matches 425 run function ssbrc:series/pokemon/greninja/menu/skins/gold
@@ -176,6 +177,7 @@ execute if score @s[tag=teamrocket] menu matches 1945 run function ssbrc:series/
 
 execute if score @s[tag=yar] menu matches 1964 run function ssbrc:series/retro_fighters/yar/menu/skins/default
 execute if score @s[tag=yar] menu matches 1965 run function ssbrc:series/retro_fighters/yar/menu/skins/gold
+execute if score @s[tag=yar] menu matches 1966 run function ssbrc:series/retro_fighters/yar/menu/skins/recruit
 
 scoreboard players reset @s menu
 scoreboard players enable @s menu
