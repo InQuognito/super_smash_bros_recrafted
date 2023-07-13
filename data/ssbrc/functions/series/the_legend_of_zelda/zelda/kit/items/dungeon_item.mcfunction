@@ -1,3 +1,5 @@
+execute if score debug options matches 1 run say dungeon_item.mcfunction
+
 scoreboard players set max random 7
 function ssbrc:math/rng/lcg
 

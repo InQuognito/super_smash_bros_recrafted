@@ -1,3 +1,5 @@
+execute if score debug options matches 1 run say items.mcfunction
+
 scoreboard players reset @s flag.damageTaken
 scoreboard players reset @s charge.3
 

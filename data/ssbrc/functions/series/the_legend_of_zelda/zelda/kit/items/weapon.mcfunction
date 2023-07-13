@@ -1,3 +1,5 @@
+execute if score debug options matches 1 run say weapon.mcfunction
+
 scoreboard players set max random 24
 function ssbrc:math/rng/lcg
 

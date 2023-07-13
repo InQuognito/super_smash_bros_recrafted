@@ -1,3 +1,5 @@
+execute if score debug options matches 1 run say passive_item.mcfunction
+
 clear @s #ssbrc:characters/zelda/passive_items{passiveItem:1}
 
 scoreboard players reset #passiveChosen temp
