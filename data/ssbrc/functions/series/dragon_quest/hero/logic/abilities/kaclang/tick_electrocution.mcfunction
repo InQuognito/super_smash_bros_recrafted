@@ -1,3 +1,3 @@
-scoreboard players operation #loop temp = @s duration.1
+scoreboard players operation #loop temp = @s duration.2
 
 function ssbrc:logic/characters/electrocution/tick
