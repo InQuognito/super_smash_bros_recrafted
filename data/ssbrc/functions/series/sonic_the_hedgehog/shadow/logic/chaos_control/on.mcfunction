@@ -11,6 +11,8 @@ scoreboard players set @a[predicate=ssbrc:flag/player,tag=!self] shadow.chaosCon
 scoreboard players set @s shadow.meter.hero 0
 scoreboard players set @s shadow.meter.villain 0
 
+function ssbrc:series/sonic_the_hedgehog/shadow/logic/chaos_spear/disable
+
 clear @s minecraft:carrot_on_a_stick{chaosControl:1}
 
 playsound ssbrc:fighters.shadow.chaos_control.activate player @s
