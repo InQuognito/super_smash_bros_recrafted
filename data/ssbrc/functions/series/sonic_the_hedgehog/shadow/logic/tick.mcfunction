@@ -9,7 +9,7 @@ execute at @s[scores={charge.1=1..}] anchored eyes run function ssbrc:series/son
 execute if score @s charge.1 matches 15.. at @s anchored eyes positioned ^ ^ ^ run function ssbrc:series/sonic_the_hedgehog/shadow/logic/chaos_spear/summon
 
 function ssbrc:series/sonic_the_hedgehog/shadow/logic/chaos_spear/chaos_energy/calculate
-execute if score chaosEnergy temp < shadow.chaosSpearCost vars run function ssbrc:series/sonic_the_hedgehog/shadow/logic/chaos_spear/cooldown
+execute if score chaosEnergy temp >= shadow.chaosSpearCost vars run function ssbrc:series/sonic_the_hedgehog/shadow/logic/chaos_spear/cooldown
 
 # Chaos Control
 scoreboard players remove @a[scores={shadow.chaosControl=1..}] shadow.chaosControl 1
