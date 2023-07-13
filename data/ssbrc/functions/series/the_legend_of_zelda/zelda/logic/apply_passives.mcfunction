@@ -13,8 +13,6 @@ effect give @s[nbt={Inventory:[{tag:{snorkel:1}}]}] minecraft:water_breathing in
 effect clear @s[nbt=!{Inventory:[{tag:{torchOfWisdom:1}}]}] minecraft:night_vision
 effect give @s[nbt={Inventory:[{tag:{torchOfWisdom:1}}]}] minecraft:night_vision infinite 255 true
 
-execute if entity @s[nbt=!{Inventory:[{tag:{zorasFlippers:1}}]},predicate=ssbrc:characters/zelda/has_zoras_flippers] run function ssbrc:logic/characters/armor/update
-execute if entity @s[nbt={Inventory:[{tag:{zorasFlippers:1}}]},predicate=!ssbrc:characters/zelda/has_zoras_flippers] run function ssbrc:logic/characters/armor/update
 effect clear @s[nbt=!{Inventory:[{tag:{zorasFlippers:1}}]}] minecraft:dolphins_grace
 effect give @s[nbt={Inventory:[{tag:{zorasFlippers:1}}]}] minecraft:dolphins_grace infinite 255 true
 
