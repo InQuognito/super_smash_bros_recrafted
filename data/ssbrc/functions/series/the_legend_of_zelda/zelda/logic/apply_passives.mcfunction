@@ -17,5 +17,3 @@ effect give @s[nbt={Inventory:[{tag:{torchOfWisdom:1}}]}] minecraft:night_vision
 
 effect clear @s[nbt=!{Inventory:[{tag:{zorasFlippers:1}}]}] minecraft:dolphins_grace
 effect give @s[nbt={Inventory:[{tag:{zorasFlippers:1}}]}] minecraft:dolphins_grace infinite 255 true
-
-advancement revoke @s only ssbrc:utility/flag/inventory_changed/zelda
