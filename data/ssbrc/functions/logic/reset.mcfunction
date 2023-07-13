@@ -43,9 +43,3 @@ execute unless score numberOfResets hardReset matches -2147483648..2147483647 ru
 
 function ssbrc:logic/timer
 schedule function ssbrc:logic/resets/lobby 1s replace
-
-#######################
-# REMOVE - DEBUG ONLY #
-#######################
-execute if score debug options matches 1 run advancement grant @a through ssbrc:skins
-#######################
