@@ -13,7 +13,6 @@ execute if score @s duration.1 matches 1 run function ssbrc:series/retro_fighter
 execute if score @s[nbt={Inventory:[{tag:{drone:1,activate:1}}]}] yar.droneHealth < yar.droneHealth vars run function ssbrc:series/retro_fighters/yar/logic/abilities/drone/repair
 
 execute if score @s cooldown.2 matches 1 run function ssbrc:series/retro_fighters/yar/logic/abilities/drone/regain
-execute if entity @e[type=minecraft:marker,tag=electricTerrain,distance=..12] run function ssbrc:series/retro_fighters/yar/logic/abilities/drone/kill
 
 # Gatling Gun
 execute if entity @s[tag=!gold,nbt={SelectedItem:{tag:{gatlingGun:1,charging:1,powerUp:0}}}] unless score @s charge.output matches 1.. run loot replace entity @s weapon.mainhand loot ssbrc:characters/retro_fighters/yar/ray_blaster/gatling_gun/default/default

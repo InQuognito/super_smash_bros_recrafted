@@ -13,3 +13,5 @@ execute if entity @s[tag=recall] positioned ~-0.5 ~-0.5 ~-0.5 as @p[tag=self,dx=
 
 execute rotated as @s[scores={temp=1..},tag=!stop,tag=!recall] run function ssbrc:series/retro_fighters/yar/logic/abilities/drone/move
 execute if entity @s[tag=recall] facing entity @a[tag=self,limit=1] eyes run function ssbrc:series/retro_fighters/yar/logic/abilities/drone/move
+
+execute if entity @e[type=minecraft:marker,tag=electricTerrain,distance=..12] run function ssbrc:series/retro_fighters/yar/logic/abilities/drone/kill
