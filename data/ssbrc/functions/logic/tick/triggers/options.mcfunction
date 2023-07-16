@@ -33,8 +33,8 @@ execute if score @s[nbt={SelectedItem:{tag:{options:1}}}] options matches 17 run
 execute if score @s[nbt={SelectedItem:{tag:{options:1}}}] options matches 18 run function ssbrc:logic/options/blind_pick/on
 execute if score @s[nbt={SelectedItem:{tag:{options:1}}}] options matches 19 run function ssbrc:logic/options/blind_pick/off
 
-execute if score @s[nbt={SelectedItem:{tag:{options:1}}}] options matches 20 run function ssbrc:logic/options/music/loop
-execute if score @s[nbt={SelectedItem:{tag:{options:1}}}] options matches 21 run function ssbrc:logic/options/music/shuffle
+execute if score @s[nbt={SelectedItem:{tag:{options:1}}}] options matches 20 run function ssbrc:logic/options/music/shuffle
+execute if score @s[nbt={SelectedItem:{tag:{options:1}}}] options matches 21 run function ssbrc:logic/options/music/loop
 
 execute if score @s[nbt={SelectedItem:{tag:{options:1}}}] options matches 9999 run function ssbrc:logic/options/default
 
