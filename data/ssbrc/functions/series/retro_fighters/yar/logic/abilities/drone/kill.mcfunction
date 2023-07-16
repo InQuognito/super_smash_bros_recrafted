@@ -1,3 +1,3 @@
 kill @s
 
-function ssbrc:series/retro_fighters/yar/logic/abilities/drone/reset
+function ssbrc:series/retro_fighters/yar/logic/abilities/drone/lose
