@@ -10,6 +10,7 @@ attribute @s[predicate=ssbrc:characters/attack_damage/none] minecraft:generic.at
 attribute @s[predicate=ssbrc:characters/attack_damage/low] minecraft:generic.attack_damage base set 1.0
 attribute @s[predicate=ssbrc:characters/attack_damage/medium] minecraft:generic.attack_damage base set 1.2
 attribute @s[predicate=ssbrc:characters/attack_damage/high] minecraft:generic.attack_damage base set 2.0
+attribute @s[predicate=ssbrc:characters/attack_damage/insane] minecraft:generic.attack_damage base set 4.0
 
 # Attack Speed
 attribute @s[predicate=ssbrc:characters/attack_speed/none] minecraft:generic.attack_speed base set 0.0
