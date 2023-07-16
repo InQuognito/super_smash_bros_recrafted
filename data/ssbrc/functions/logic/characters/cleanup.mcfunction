@@ -111,6 +111,9 @@ scoreboard players remove @s[tag=steve,scores={steve.tier=1..}] steve.tier 1
 clear @s[tag=steve] #ssbrc:characters/steve/equipment
 clear @s minecraft:carrot_on_a_stick{pickaxe:1}
 
+# Sora
+scoreboard players set @s[tag=sora] charge.3 0
+
 # Altered Beast
 clear @s minecraft:trident{feralClaw:1}
 clear @s minecraft:firework_rocket{sabretooth:1}
