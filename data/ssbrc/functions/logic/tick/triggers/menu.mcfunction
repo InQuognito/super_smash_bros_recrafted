@@ -40,6 +40,7 @@ execute if score @s[tag=donkeykong] menu matches 307 run function ssbrc:series/d
 
 execute if score @s[tag=fox] menu matches 384 run function ssbrc:series/star_fox/fox/menu/skins/default
 execute if score @s[tag=fox] menu matches 385 run function ssbrc:series/star_fox/fox/menu/skins/gold
+execute if score @s[tag=fox] menu matches 386 run function ssbrc:series/star_fox/fox/menu/skins/adventures
 
 execute if score @s[tag=ganondorf] menu matches 404 run function ssbrc:series/the_legend_of_zelda/ganondorf/menu/skins/default
 execute if score @s[tag=ganondorf] menu matches 405 run function ssbrc:series/the_legend_of_zelda/ganondorf/menu/skins/gold

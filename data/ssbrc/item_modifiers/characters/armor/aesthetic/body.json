@@ -300,6 +300,19 @@
 	},
 	{
 		"function": "minecraft:set_nbt",
+		"tag": "{Trim:{pattern:\"ssbrc:fox_adventures\",material:\"minecraft:quartz\"}}",
+		"conditions": [
+			{
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"nbt": "{Tags:[\"fox\",\"adventures\"]}"
+				}
+			}
+		]
+	},
+	{
+		"function": "minecraft:set_nbt",
 		"tag": "{Trim:{pattern:\"ssbrc:ganondorf_default\",material:\"minecraft:quartz\"}}",
 		"conditions": [
 			{
