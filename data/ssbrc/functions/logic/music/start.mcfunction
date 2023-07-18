@@ -255,7 +255,7 @@ execute if score $spearPillar map matches 1 if score result_music random matches
 execute if score $spearPillar map matches 1 if score result_music random matches 0 run schedule function ssbrc:logic/music/loop_schedule 370t replace
 execute if score $spearPillar map matches 1 if score result_music random matches 1 run playsound ssbrc:team_galactic_battle_intro music @s
 execute if score $spearPillar map matches 1 if score result_music random matches 1 run tellraw @s [{"translate":"ssbrc.game.music.nowPlaying","bold":true,"color":"gold"},{"translate":"ssbrc.music.teamGalacticBattle","color":"yellow"}]
-execute if score $spearPillar map matches 1 if score result_music random matches 1 run schedule function ssbrc:logic/music/loop_schedule 309t replace
+execute if score $spearPillar map matches 1 if score result_music random matches 1 run schedule function ssbrc:logic/music/loop_schedule 311t replace
 
 execute if score $suzakuCastle map matches 1 if score result_music random matches 0 run playsound ssbrc:ryu_stage_intro music @s
 execute if score $suzakuCastle map matches 1 if score result_music random matches 0 run tellraw @s [{"translate":"ssbrc.game.music.nowPlaying","bold":true,"color":"gold"},{"translate":"ssbrc.music.ryuStage","color":"yellow"}]
