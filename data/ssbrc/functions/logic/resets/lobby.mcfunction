@@ -1,3 +1,5 @@
+kill @e[type=!minecraft:player]
+
 summon minecraft:text_display -524.5 6.5 55.5 {text:'[{"translate":"ssbrc.lobby.welcome","color":"yellow"},{"translate":"\\n"},{"translate":"ssbrc.name","bold":true,"color":"gold"}]',billboard:center}
 
 summon minecraft:text_display -520.5 5.25 62.5 {text:'[{"translate":"✪ ","color":"gold"},{"translate":"ssbrc.shop","color":"gold"},{"translate":" ✪","color":"gold"}]',billboard:center}
