@@ -263,8 +263,8 @@ execute if score $spearPillar map matches 1 if score result_music random matches
 execute if score $spearPillar map matches 1 if score result_music random matches 0 if score music options matches 0 run schedule function ssbrc:logic/music/loop_schedule 3320t replace
 execute if score $spearPillar map matches 1 if score result_music random matches 0 if score music options matches 1 run schedule function ssbrc:logic/music/decide 3320t replace
 execute if score $spearPillar map matches 1 if score result_music random matches 1 run playsound ssbrc:team_galactic_battle music @s
-execute if score $spearPillar map matches 1 if score result_music random matches 1 if score music options matches 0 run schedule function ssbrc:logic/music/loop_schedule 1250t replace
-execute if score $spearPillar map matches 1 if score result_music random matches 1 if score music options matches 1 run schedule function ssbrc:logic/music/decide 1250t replace
+execute if score $spearPillar map matches 1 if score result_music random matches 1 if score music options matches 0 run schedule function ssbrc:logic/music/loop_schedule 1245t replace
+execute if score $spearPillar map matches 1 if score result_music random matches 1 if score music options matches 1 run schedule function ssbrc:logic/music/decide 1245t replace
 
 execute if score $suzakuCastle map matches 1 if score result_music random matches 0 run playsound ssbrc:ryu_stage music @s
 execute if score $suzakuCastle map matches 1 if score result_music random matches 0 if score music options matches 0 run schedule function ssbrc:logic/music/loop_schedule 2900t replace
