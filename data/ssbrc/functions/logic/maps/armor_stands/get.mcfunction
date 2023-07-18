@@ -1,4 +1,4 @@
-item replace entity @s armor.head with minecraft:skeleton_skull{display:{Name:'""'},HideFlags:255}
+item replace entity @s armor.head with minecraft:white_dye{display:{Name:'""'},HideFlags:255}
 item replace entity @s armor.legs with minecraft:iron_leggings{display:{Name:'""'},Unbreakable:1b,HideFlags:255} 1
 
 item replace entity @s weapon.mainhand with minecraft:redstone{display:{Name:'""'},Unbreakable:1b,HideFlags:255} 1
