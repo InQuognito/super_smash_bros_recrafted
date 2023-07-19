@@ -2,7 +2,6 @@ scoreboard players reset * map
 scoreboard players set pacMaze map 1
 scoreboard players set songCount map 2
 scoreboard players set mapPicked mapVote 1
-forceload add 23328 8608 23391 8671
 
 scoreboard players set max random 2
 function ssbrc:math/rng/lcg
