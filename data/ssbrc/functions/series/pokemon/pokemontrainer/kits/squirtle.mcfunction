@@ -4,9 +4,9 @@ function ssbrc:series/pokemon/pokemontrainer/kits/reset
 
 tag @s add squirtle
 
-tellraw @s[tag=!dawn,tag=!victor] [{"translate":"ssbrc.fighters.pokemontrainer.squirtle.default","color":"blue"},{"translate":"ssbrc.fighters.pokemontrainer.iChooseYou","color":"blue"}]
-tellraw @s[tag=dawn] [{"translate":"ssbrc.fighters.pokemontrainer.squirtle.dawn","color":"blue"},{"translate":"ssbrc.fighters.pokemontrainer.iChooseYou","color":"blue"}]
-tellraw @s[tag=victor] [{"translate":"ssbrc.fighters.pokemontrainer.squirtle.default","color":"blue"},{"translate":"ssbrc.fighters.pokemontrainer.iChooseYou","color":"blue"}]
+tellraw @s[tag=!dawn,tag=!victor] [{"translate":"ssbrc.fighters.pokemontrainer.iChooseYou.prefix","color":"blue"},{"translate":"ssbrc.fighters.pokemontrainer.squirtle.default","color":"blue"},{"translate":"ssbrc.fighters.pokemontrainer.iChooseYou","color":"blue"}]
+tellraw @s[tag=dawn] [{"translate":"ssbrc.fighters.pokemontrainer.iChooseYou.prefix","color":"blue"},{"translate":"ssbrc.fighters.pokemontrainer.squirtle.dawn","color":"blue"},{"translate":"ssbrc.fighters.pokemontrainer.iChooseYou","color":"blue"}]
+tellraw @s[tag=victor] [{"translate":"ssbrc.fighters.pokemontrainer.iChooseYou.prefix","color":"blue"},{"translate":"ssbrc.fighters.pokemontrainer.squirtle.default","color":"blue"},{"translate":"ssbrc.fighters.pokemontrainer.iChooseYou","color":"blue"}]
 
 clear @s #ssbrc:equipment
 loot replace entity @s hotbar.0 loot ssbrc:characters/pokemon/pokemontrainer/squirtle/bite
