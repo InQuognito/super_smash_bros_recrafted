@@ -1,0 +1,7 @@
+{
+	"asset_id": "ssbrc:fighters/samus/gravity_suit",
+	"description": {
+		"translate": "trim_pattern.example.stripes"
+	},
+	"template_item": "minecraft:stick"
+}

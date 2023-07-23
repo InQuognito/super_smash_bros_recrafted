@@ -1,0 +1,7 @@
+{
+	"asset_id": "ssbrc:fighters/donkeykong/super_kong",
+	"description": {
+		"translate": "trim_pattern.example.stripes"
+	},
+	"template_item": "minecraft:stick"
+}

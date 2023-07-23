@@ -1,0 +1,7 @@
+{
+	"asset_id": "ssbrc:fighters/ganondorf/ocarina_of_time",
+	"description": {
+		"translate": "trim_pattern.example.stripes"
+	},
+	"template_item": "minecraft:stick"
+}

@@ -64,25 +64,19 @@ fill -705 43 821 -700 43 823 minecraft:waxed_copper_block replace
 fill -705 40 820 -700 42 820 minecraft:air replace
 
 # Bowser Face - Red
-summon minecraft:item_display -681.5 24.01 844.5 {Rotation:[-90f,0f],item:{id:"minecraft:sugar",tag:{CustomModelData:159},Count:1b},transformation:[5.0f,0.0f,0.0f,0.0f,0.0f,5.0f,0.0f,0.0f,0.0f,0.0f,5.0f,0.0f,0.0f,0.0f,0.0f,1.0f],brightness:{sky:6,block:6}}
+summon minecraft:item_display -681.5 24.01 844.5 {Rotation:[-90f,0f],item:{id:"minecraft:sugar",tag:{CustomModelData:159},Count:1b},transformation:[5f,0f,0f,0f,0f,5f,0f,0f,0f,0f,5f,0f,0f,0f,0f,1f],brightness:{sky:6,block:6}}
 
 # Bowser Face - Black
-summon minecraft:item_display -736.99 33.5 867.0 {Rotation:[-90f,0f],item:{id:"minecraft:sugar",tag:{CustomModelData:151},Count:1b},transformation:[2.0f,0.0f,0.0f,0.0f,0.0f,2.0f,0.0f,0.0f,0.0f,0.0f,2.0f,0.0f,0.0f,0.0f,0.0f,1.0f],brightness:{sky:6,block:6}}
-summon minecraft:item_display -736.99 33.5 822.0 {Rotation:[-90f,0f],item:{id:"minecraft:sugar",tag:{CustomModelData:151},Count:1b},transformation:[2.0f,0.0f,0.0f,0.0f,0.0f,2.0f,0.0f,0.0f,0.0f,0.0f,2.0f,0.0f,0.0f,0.0f,0.0f,1.0f],brightness:{sky:6,block:6}}
+summon minecraft:item_display -736.99 33.5 867.0 {Rotation:[-90f,0f],item:{id:"minecraft:sugar",tag:{CustomModelData:151},Count:1b},transformation:[2f,0f,0f,0f,0f,2f,0f,0f,0f,0f,2f,0f,0f,0f,0f,1f],brightness:{sky:6,block:6}}
+summon minecraft:item_display -736.99 33.5 822.0 {Rotation:[-90f,0f],item:{id:"minecraft:sugar",tag:{CustomModelData:151},Count:1b},transformation:[2f,0f,0f,0f,0f,2f,0f,0f,0f,0f,2f,0f,0f,0f,0f,1f],brightness:{sky:6,block:6}}
 
-summon minecraft:armor_stand -734.959 27.0 854.474 {Tags:["propStand","peach","default"],NoBasePlate:1b,ShowArms:1b,Rotation:[265f],Pose:{LeftArm:[219f,340f,22f],RightArm:[213f,34f,348f]}}
+# Armor Stands
+summon minecraft:armor_stand -734.959 27.0 854.474 {Tags:["propStand","peach","default"],Rotation:[265f,0f],Pose:{LeftArm:[219f,340f,22f],RightArm:[213f,34f,348f]}}
+summon minecraft:armor_stand -734.897 27.0 834.552 {Tags:["propStand","toad","default"],Small:1b,Rotation:[270f,0f],Pose:{LeftArm:[332f,30f,328f],RightArm:[338f,18f,12f]}}
+summon minecraft:armor_stand -737.7 26.6 833.175 {Tags:["propStand","toad","blue"],Small:1b,Rotation:[320f,0f],Pose:{LeftLeg:[267f,0f,0f],RightLeg:[267f,0f,0f],LeftArm:[332f,30f,328f],RightArm:[330f,18f,12f]}}
+summon minecraft:armor_stand -736.46 27.0 835.889 {Tags:["propStand","toad","yellow"],Small:1b,Pose:{LeftArm:[221f,342f,46f],RightArm:[245f,40f,12f]}}
 
-summon minecraft:armor_stand -734.897 27.0 834.552 {Tags:["propStand","toad","default"],DisabledSlots:4144959,NoBasePlate:1b,NoGravity:1b,ShowArms:1b,Small:1b,Rotation:[270f],Pose:{LeftArm:[332f,30f,328f],RightArm:[338f,18f,12f]}}
-summon minecraft:armor_stand -737.7 26.6 833.175 {Tags:["propStand","toad","blue"],DisabledSlots:4144959,NoBasePlate:1b,NoGravity:1b,ShowArms:1b,Small:1b,Rotation:[320f],Pose:{LeftLeg:[267f,0f,0f],RightLeg:[267f,0f,0f],LeftArm:[332f,30f,328f],RightArm:[330f,18f,12f]}}
-summon minecraft:armor_stand -736.46 27.0 835.889 {Tags:["propStand","toad","yellow"],DisabledSlots:4144959,NoBasePlate:1b,ShowArms:1b,Small:1b,Pose:{LeftArm:[221f,342f,46f],RightArm:[245f,40f,12f]}}
-
-scoreboard players set @e[tag=propStand] duration.1 1
-scoreboard players set @e[tag=propStand] duration.2 1
-scoreboard players set @e[tag=propStand] duration.3 1
-execute as @e[tag=propStand] run function ssbrc:logic/characters/armor/get
-scoreboard players reset @e[tag=propStand] duration.1
-scoreboard players reset @e[tag=propStand] duration.2
-scoreboard players reset @e[tag=propStand] duration.3
+execute as @e[type=minecraft:armor_stand,tag=propStand] run function ssbrc:logic/maps/armor_stands/get
 
 time set noon
 weather clear

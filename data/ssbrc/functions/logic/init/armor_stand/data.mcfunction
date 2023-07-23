@@ -1,1 +1,1 @@
-data merge entity @s {Invulnerable:1b,Invisible:1b,DisabledSlots:4144959}
+data merge entity @s {Invisible:1b,Invulnerable:1b,DisabledSlots:4144959}

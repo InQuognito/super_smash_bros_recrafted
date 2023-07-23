@@ -1,7 +1,0 @@
-{
-	"asset_id": "ssbrc:rob_famicom",
-	"description": {
-		"translate": "trim_pattern.example.stripes"
-	},
-	"template_item": "minecraft:stick"
-}

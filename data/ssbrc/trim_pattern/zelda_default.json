@@ -1,7 +1,0 @@
-{
-	"asset_id": "ssbrc:zelda_default",
-	"description": {
-		"translate": "trim_pattern.example.stripes"
-	},
-	"template_item": "minecraft:stick"
-}

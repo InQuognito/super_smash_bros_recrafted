@@ -1,0 +1,3 @@
+function ssbrc:logic/init/armor_stand/data
+
+data merge entity @s {NoGravity:1b,ShowArms:1b}

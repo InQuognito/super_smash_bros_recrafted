@@ -53,7 +53,7 @@ summon minecraft:text_display 144.5 7.25 193.5 {Tags:["lobbyStand.label"],text:'
 summon minecraft:item_display 144.5 6.0 193.5 {Tags:["selectable","lobbyStand","greninja"],item:{id:"minecraft:stick",tag:{CustomModelData:420},Count:1b}}
 
 summon minecraft:text_display 141.5 7.25 194.5 {Tags:["lobbyStand.label"],text:'{"translate":"ssbrc.fighters.teamrocket","color":"dark_purple"}',billboard:center}
-summon minecraft:item_display 141.5 5.75 194.5 {Tags:["selectable","lobbyStand","teamrocket"],item:{id:"minecraft:stick",tag:{CustomModelData:1940},Count:1b},transformation:[0.75f,0.0f,0.0f,0.0f,0.0f,0.75f,0.0f,0.0f,0.0f,0.0f,0.75f,0.0f,0.0f,0.0f,0.0f,1.0f]}
+summon minecraft:item_display 141.5 5.75 194.5 {Tags:["selectable","lobbyStand","teamrocket"],item:{id:"minecraft:stick",tag:{CustomModelData:1940},Count:1b},transformation:[0.75f,0f,0f,0f,0f,0.75f,0f,0f,0f,0f,0.75f,0f,0f,0f,0f,1f]}
 summon minecraft:item_display 142.0 6.0 195.0 {Tags:["lobbyStand"],item:{id:"minecraft:stick",tag:{CustomModelData:1941},Count:1b}}
 summon minecraft:item_display 141.0 6.0 195.0 {Tags:["lobbyStand"],item:{id:"minecraft:stick",tag:{CustomModelData:1942},Count:1b}}
 

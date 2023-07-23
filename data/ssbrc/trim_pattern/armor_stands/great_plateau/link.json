@@ -1,0 +1,7 @@
+{
+	"asset_id": "ssbrc:armor_stands/great_plateau/link",
+	"description": {
+		"translate": "trim_pattern.example.stripes"
+	},
+	"template_item": "minecraft:stick"
+}

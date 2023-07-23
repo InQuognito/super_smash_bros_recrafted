@@ -1,7 +1,0 @@
-{
-	"asset_id": "ssbrc:mario_gold",
-	"description": {
-		"translate": "trim_pattern.example.stripes"
-	},
-	"template_item": "minecraft:stick"
-}
