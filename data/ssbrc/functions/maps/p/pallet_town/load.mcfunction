@@ -41,8 +41,6 @@ summon minecraft:armor_stand -553.5 15.0 -159.5 {Tags:["propStand","nurseJoy"],R
 summon minecraft:armor_stand -551.5 15.0 -158.5 {Tags:["propStand","officerJenny"],Rotation:[35f,0f],Pose:{RightArm:[330f,13f,0f],LeftLeg:[348f,0f,0f],LeftArm:[215f,352f,0f],RightLeg:[13f,0f,0f]}}
 summon minecraft:armor_stand -552.5 18.0 -163.5 {Tags:["propStand","professorOak"],Rotation:[30f,0f],Pose:{LeftLeg:[0f,0f,358f],LeftArm:[28f,340f,0f],RightLeg:[0f,0f,4f],RightArm:[28f,12f,0f]}}
 
-execute as @e[type=minecraft:armor_stand,tag=propStand] run function ssbrc:logic/maps/armor_stands/get
-
 time set noon
 weather clear
 
