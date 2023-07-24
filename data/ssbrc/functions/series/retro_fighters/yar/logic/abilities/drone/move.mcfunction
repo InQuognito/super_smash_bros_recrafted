@@ -1,18 +1,21 @@
-teleport @s[scores={charge.1=..3}] ^ ^ ^0.1 ~ ~
-teleport @s[scores={charge.1=4..5}] ^ ^ ^0.2 ~ ~
-teleport @s[scores={charge.1=6..7}] ^ ^ ^0.6 ~ ~
-teleport @s[scores={charge.1=8..9}] ^ ^ ^0.8 ~ ~
-teleport @s[scores={charge.1=10..11}] ^ ^ ^0.1 ~ ~
-teleport @s[scores={charge.1=12..13}] ^ ^ ^0.12 ~ ~
-teleport @s[scores={charge.1=14..15}] ^ ^ ^0.14 ~ ~
-teleport @s[scores={charge.1=16..17}] ^ ^ ^0.16 ~ ~
-teleport @s[scores={charge.1=18..19}] ^ ^ ^0.18 ~ ~
-teleport @s[scores={charge.1=20..21}] ^ ^ ^0.2 ~ ~
-teleport @s[scores={charge.1=22..23}] ^ ^ ^0.22 ~ ~
-teleport @s[scores={charge.1=24..25}] ^ ^ ^0.24 ~ ~
-teleport @s[scores={charge.1=26..27}] ^ ^ ^0.26 ~ ~
-teleport @s[scores={charge.1=28..29}] ^ ^ ^0.28 ~ ~
-teleport @s[scores={charge.1=30..}] ^ ^ ^0.3 ~ ~
+execute store result score #percentage temp run data get entity @s Health 1.0
+scoreboard players operation #percentage temp *= 100 integers
+scoreboard players operation #percentage temp /= yar.droneHealth vars
+
+execute if score #percentage temp matches 0..10 run teleport @s ^ ^ ^0.03
+execute if score #percentage temp matches 11..20 run teleport @s ^ ^ ^0.06
+execute if score #percentage temp matches 21..30 run teleport @s ^ ^ ^0.09
+execute if score #percentage temp matches 31..40 run teleport @s ^ ^ ^0.12
+execute if score #percentage temp matches 41..50 run teleport @s ^ ^ ^0.15
+execute if score #percentage temp matches 51..60 run teleport @s ^ ^ ^0.18
+execute if score #percentage temp matches 61..70 run teleport @s ^ ^ ^0.21
+execute if score #percentage temp matches 71..80 run teleport @s ^ ^ ^0.24
+execute if score #percentage temp matches 81..90 run teleport @s ^ ^ ^0.27
+execute if score #percentage temp matches 91..100 run teleport @s ^ ^ ^0.30
+
+execute if score #percentage temp matches ..50 run particle minecraft:electric_spark ~ ~0.5 ~ 0.2 0.2 0.2 0.5 1 normal @a
+execute if score #percentage temp matches ..25 run particle minecraft:smoke ~ ~0.5 ~ 0.2 0.2 0.2 0.01 1 normal @a
+execute if score #percentage temp matches ..10 run particle minecraft:small_flame ~ ~0.5 ~ 0.2 0.2 0.2 0.025 1 normal @a
 
 scoreboard players remove @s[tag=!recall] temp 1
 scoreboard players add @s[tag=recall,scores={temp=..60}] temp 1
