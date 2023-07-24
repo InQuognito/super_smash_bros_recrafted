@@ -8,6 +8,8 @@ function ssbrc:logic/characters/effects/mobility/immobilize
 
 function ssbrc:logic/characters/armor/update
 
+function ssbrc:series/dragon_quest/hero/logic/mana/disable
+
 scoreboard players operation @s mana -= #hero.kaclangManaCost vars
 
 playsound ssbrc:fighters.hero.kaclang.activate player @a
