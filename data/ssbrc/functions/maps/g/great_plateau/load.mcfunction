@@ -12,8 +12,6 @@ summon minecraft:armor_stand 1618.463 50.0 1409.461 {Tags:["propStand","link","u
 summon minecraft:armor_stand 1618.466 50.5 1408.705 {Tags:["propStand","link","lower"],Rotation:[180f,0f],Pose:{LeftLeg:[266f,0f,0f],RightLeg:[266f,0f,0f]}}
 summon minecraft:armor_stand 1599.565 66.0 1322.597 {Tags:["propStand","noReplace"],Pose:{RightArm:[327f,101f,270f]},HandItems:[{id:"minecraft:wooden_sword",Count:1b},{}]}
 
-execute as @e[type=minecraft:armor_stand,tag=propStand] run function ssbrc:logic/maps/armor_stands/get
-
 time set noon
 weather clear
 

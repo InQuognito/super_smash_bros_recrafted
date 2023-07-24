@@ -13,8 +13,6 @@ summon minecraft:armor_stand 4913.5 11.0 5089.5 {Tags:["propStand","gutsMan"],Ro
 summon minecraft:armor_stand 4913.5 11.0 5080.5 {Tags:["propStand","nitroMan"],Rotation:[269f,0f],Pose:{RightArm:[0f,0f,0f],Head:[8f,0f,0f],LeftArm:[0f,0f,0f]}}
 summon minecraft:armor_stand 4913.5 11.0 5085.5 {Tags:["propStand","quickMan"],Rotation:[269f,0f],Pose:{RightArm:[0f,0f,0f],Head:[8f,0f,0f],LeftArm:[0f,0f,0f]}}
 
-execute as @e[type=minecraft:armor_stand,tag=propStand] run function ssbrc:logic/maps/armor_stands/get
-
 time set noon
 weather clear
 

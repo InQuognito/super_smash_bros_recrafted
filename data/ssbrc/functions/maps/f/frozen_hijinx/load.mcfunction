@@ -10,8 +10,6 @@ execute if score hazards options matches 1 run function ssbrc:maps/f/frozen_hiji
 # Armor Stands
 summon minecraft:armor_stand 2060.5 36.0 1380.5 {Tags:["propStand","funkyKong"],Rotation:[310f,0f],Pose:{LeftArm:[297f,0f,0f]}}
 
-execute as @e[type=minecraft:armor_stand,tag=propStand] run function ssbrc:logic/maps/armor_stands/get
-
 time set day
 weather clear
 

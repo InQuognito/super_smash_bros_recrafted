@@ -76,8 +76,6 @@ summon minecraft:armor_stand -734.897 27.0 834.552 {Tags:["propStand","toad","de
 summon minecraft:armor_stand -737.7 26.6 833.175 {Tags:["propStand","toad","blue"],Small:1b,Rotation:[320f,0f],Pose:{LeftLeg:[267f,0f,0f],RightLeg:[267f,0f,0f],LeftArm:[332f,30f,328f],RightArm:[330f,18f,12f]}}
 summon minecraft:armor_stand -736.46 27.0 835.889 {Tags:["propStand","toad","yellow"],Small:1b,Pose:{LeftArm:[221f,342f,46f],RightArm:[245f,40f,12f]}}
 
-execute as @e[type=minecraft:armor_stand,tag=propStand] run function ssbrc:logic/maps/armor_stands/get
-
 time set noon
 weather clear
 

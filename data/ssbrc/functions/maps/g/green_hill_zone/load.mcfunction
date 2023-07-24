@@ -15,8 +15,6 @@ summon minecraft:armor_stand -15.38 31.69933 274.29 {Tags:["propStand","silver"]
 summon minecraft:armor_stand 31.274 25.47642 238.665 {Tags:["propStand","tails"],Rotation:[91f,0f],Pose:{RightArm:[31f,334f,0f],LeftLeg:[301f,0f,0f],LeftArm:[222f,341f,0f],RightLeg:[298f,0f,0f]}}
 summon minecraft:armor_stand -6.465 25.0 275.656 {Tags:["propStand","vector"],Rotation:[182f,0f],Pose:{RightArm:[179f,0f,311f],LeftArm:[181f,0f,42f]}}
 
-execute as @e[type=minecraft:armor_stand,tag=propStand] run function ssbrc:logic/maps/armor_stands/get
-
 time set noon
 weather clear
 

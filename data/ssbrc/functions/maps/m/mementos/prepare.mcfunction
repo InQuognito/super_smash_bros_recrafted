@@ -20,6 +20,9 @@ summon minecraft:marker -1194.5 23.0 885.5 {Tags:["spawnpoint.item"]}
 summon minecraft:marker -1184.5 14.0 884.5 {Tags:["spawnpoint.item"]}
 summon minecraft:marker -1190.5 13.0 867.5 {Tags:["spawnpoint.item"]}
 
+# Armor Stands
+execute as @e[type=minecraft:armor_stand,tag=propStand] run function ssbrc:logic/maps/armor_stands/get
+
 execute as @a[predicate=ssbrc:ingame] run function ssbrc:logic/pre_game/prepare_players
 function ssbrc:logic/pre_game/prepare_match
 

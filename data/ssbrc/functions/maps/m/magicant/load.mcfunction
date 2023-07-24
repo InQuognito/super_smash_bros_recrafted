@@ -10,8 +10,6 @@ summon minecraft:armor_stand 659.585 23.0 -866.7 {Tags:["propStand","paula"],Rot
 summon minecraft:armor_stand 653.5 23.0 -865.5 {Tags:["propStand","poo"],Rotation:[184f,0f],Pose:{RightArm:[211f,21f,0f],LeftLeg:[4f,19f,356f],Head:[0f,13f,0f],LeftArm:[17f,21f,0f],RightLeg:[346f,13f,0f],Body:[0f,15f,0f]}}
 summon minecraft:armor_stand 674.5 22.0 -905.5 {Tags:["propStand","noReplace"],Rotation:[38f,0f],Pose:{RightArm:[316f,6f,284f],LeftArm:[301f,35f,24f]},HandItems:[{},{id:"minecraft:blaze_rod",Count:1b}],ArmorItems:[{id:"minecraft:golden_boots",Count:1b},{id:"minecraft:golden_leggings",Count:1b},{id:"minecraft:golden_chestplate",Count:1b},{id:"minecraft:player_head",Count:1b,tag:{SkullOwner:{Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZWFjZjI2NmE0MjM4MjhhZTdiZjllMzFmZjQ3NGRlMWYwOTc3OTJmZTFlMjhlZGI2M2Q1MzM2ODcxYmY0NCJ9fX0="}]},Id:[I; 190001877,669927405,-1433455236,-1979318832]}}}]}
 
-execute as @e[type=minecraft:armor_stand,tag=propStand] run function ssbrc:logic/maps/armor_stands/get
-
 time set noon
 weather clear
 
