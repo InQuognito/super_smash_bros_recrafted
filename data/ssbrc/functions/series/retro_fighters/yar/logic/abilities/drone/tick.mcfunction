@@ -1,6 +1,14 @@
-execute unless entity @s[tag=stop] unless block ^ ^ ^1 #ssbrc:passthrough run function ssbrc:series/retro_fighters/yar/logic/abilities/drone/commands/stop
-
 execute store result score @s yar.droneHealth run data get entity @s Health 1.0
+
+execute store result score #percentage temp run data get entity @s Health 1.0
+scoreboard players operation #percentage temp *= 100 integers
+scoreboard players operation #percentage temp /= yar.droneHealth vars
+
+execute if score #percentage temp matches ..50 run particle minecraft:electric_spark ~ ~0.5 ~ 0.2 0.2 0.2 0.5 1 normal @a
+execute if score #percentage temp matches ..25 run particle minecraft:smoke ~ ~0.5 ~ 0.2 0.2 0.2 0.01 1 normal @a
+execute if score #percentage temp matches ..10 run particle minecraft:small_flame ~ ~0.5 ~ 0.2 0.2 0.2 0.025 1 normal @a
+
+execute unless entity @s[tag=stop] unless block ^ ^ ^1 #ssbrc:passthrough run function ssbrc:series/retro_fighters/yar/logic/abilities/drone/commands/stop
 
 teleport @e[type=minecraft:item,distance=..1] @s
 
