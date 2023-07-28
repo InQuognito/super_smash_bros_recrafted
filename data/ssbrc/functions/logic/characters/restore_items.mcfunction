@@ -104,7 +104,7 @@ execute if entity @s[tag=teamrocket,tag=arbok,tag=!nextFighterChosen] run functi
 
 # Yar
 execute if entity @s[tag=yar] run function ssbrc:series/retro_fighters/yar/logic/abilities/power_ups/reset
-execute if entity @s[tag=yar] run function ssbrc:series/retro_fighters/yar/logic/abilities/drone/regain
+execute if entity @s[tag=yar] unless score @s cooldown.2 matches 1.. run function ssbrc:series/retro_fighters/yar/logic/abilities/drone/regain
 
 scoreboard players set @s duration.1 0
 scoreboard players set @s duration.2 0
