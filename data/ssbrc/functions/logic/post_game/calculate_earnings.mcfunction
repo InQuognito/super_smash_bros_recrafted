@@ -4,8 +4,9 @@ data modify storage ssbrc:bonuses value set value []
 data modify storage ssbrc:bonuses value append value '[{"translate":"ssbrc.bonuses.participation","bold":true,"color":"gold"},{"translate":" - ","bold":false,"color":"white"},{"score":{"name":"value.participation","objective":"vars"},"bold":false,"color":"yellow"},{"translate":"₡","bold":false,"color":"yellow"}]}}]'
 scoreboard players operation @s stats.credits.temp += value.participation vars
 
-execute if entity @s[tag=winner] run data modify storage ssbrc:bonuses value append value '[{"translate":"ssbrc.bonuses.win","bold":true,"color":"gold"},{"translate":" - ","bold":false,"color":"white"},{"score":{"name":"value.victory","objective":"vars"},"bold":false,"color":"yellow"},{"translate":"₡","bold":false,"color":"yellow"}]}}]'
-scoreboard players operation @s[tag=winner] stats.credits.temp += value.victory vars
+execute if entity @s[tag=winner,tag=!noVictory] run data modify storage ssbrc:bonuses value append value '[{"translate":"ssbrc.bonuses.win","bold":true,"color":"gold"},{"translate":" - ","bold":false,"color":"white"},{"score":{"name":"value.victory","objective":"vars"},"bold":false,"color":"yellow"},{"translate":"₡","bold":false,"color":"yellow"}]}}]'
+scoreboard players operation @s[tag=winner,tag=!noVictory] stats.credits.temp += value.victory vars
+tag @s remove noVictory
 
 scoreboard players operation value kills = @s kills
 scoreboard players operation value kills *= value.KO vars

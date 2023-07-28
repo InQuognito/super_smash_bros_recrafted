@@ -1,4 +1,4 @@
-scoreboard players operation @s stats.credits.temp += value.victory vars
+tag @s add noVictory
 
 scoreboard players set @s 8PlayerMatch 0
 
