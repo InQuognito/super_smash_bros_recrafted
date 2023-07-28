@@ -1,5 +1,6 @@
 function ssbrc:logic/pre_game/character_select/count_players
-execute if score gameStage temp matches 2.. if score players temp matches 0 run function ssbrc:logic/post_game/reset
+execute if score gameStage temp matches 2.. if score players temp matches 0 run function ssbrc:logic/reset
+execute if score gameStage temp matches 2.. if score players temp matches 1 unless score singleplayer options matches 1 run function ssbrc:logic/reset
 
 execute if score gameStage temp matches 0..1 run function ssbrc:logic/timer/character_select
 execute if score gameStage temp matches 2 run function ssbrc:logic/timer/map_voting/timer
