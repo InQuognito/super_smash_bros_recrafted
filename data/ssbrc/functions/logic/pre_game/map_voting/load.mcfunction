@@ -57,6 +57,8 @@ execute as @e[type=minecraft:text_display,tag=voteCounter.update,sort=random,lim
 
 execute store result score playersAlive temp if entity @a[predicate=ssbrc:ingame,team=!spectator]
 
+execute if score players.playing temp matches 1 run function ssbrc:logic/options/presets/singleplayer/on
+
 scoreboard players set gameStage temp 2
 scoreboard players set countdown timer 30
 
