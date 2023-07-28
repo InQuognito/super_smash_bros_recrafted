@@ -12,7 +12,7 @@ summon minecraft:armor_stand 32.5 25.0 236.5 {Tags:["propStand","cream"],Rotatio
 summon minecraft:armor_stand -5.0 25.0 274.0 {Tags:["propStand","espio"],Rotation:[180f,0f],Pose:{RightArm:[19f,352f,0f],LeftLeg:[342f,0f,0f],Head:[0f,0f,0f],LeftArm:[337f,359f,0f],RightLeg:[12f,0f,0f],Body:[0f,0f,0f]}}
 summon minecraft:armor_stand -76.5 25.0 233.5 {Tags:["propStand","knuckles"],Rotation:[270f,0f],Pose:{RightArm:[330f,13f,0f],LeftLeg:[348f,0f,0f],LeftArm:[215f,352f,0f],RightLeg:[13f,0f,0f]}}
 summon minecraft:armor_stand -15.5 31.0 274.5 {Tags:["propStand","silver"],Rotation:[180f,0f],Pose:{RightArm:[330f,35f,0f],LeftLeg:[31f,0f,0f],LeftArm:[312f,338f,0f],RightLeg:[13f,0f,0f]}}
-summon minecraft:armor_stand 31.25 26.0 238.5 {Tags:["propStand","tails"],Rotation:[91f,0f],Pose:{RightArm:[31f,334f,0f],LeftLeg:[301f,0f,0f],LeftArm:[222f,341f,0f],RightLeg:[298f,0f,0f]}}
+summon minecraft:armor_stand 31.25 25.5 238.5 {Tags:["propStand","tails"],Rotation:[91f,0f],Pose:{RightArm:[31f,334f,0f],LeftLeg:[301f,0f,0f],LeftArm:[222f,341f,0f],RightLeg:[298f,0f,0f]}}
 summon minecraft:armor_stand -6.5 25.0 275.5 {Tags:["propStand","vector"],Rotation:[182f,0f],Pose:{RightArm:[179f,0f,311f],LeftArm:[181f,0f,42f]}}
 
 time set noon
