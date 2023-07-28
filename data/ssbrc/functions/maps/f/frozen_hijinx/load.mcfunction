@@ -8,7 +8,7 @@ execute if score hazards options matches 0 run function ssbrc:maps/f/frozen_hiji
 execute if score hazards options matches 1 run function ssbrc:maps/f/frozen_hijinx/load/hazards_on
 
 # Armor Stands
-summon minecraft:armor_stand 2060.5 36.0 1380.5 {Tags:["propStand","funkyKong"],Rotation:[310f,0f],Pose:{LeftArm:[297f,0f,0f]}}
+execute positioned 2060.5 36.0 1380.5 summon minecraft:armor_stand run function ssbrc:maps/f/frozen_hijinx/logic/armor_stands/funky_kong
 
 time set day
 weather clear

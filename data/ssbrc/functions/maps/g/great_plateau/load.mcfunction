@@ -7,10 +7,12 @@ forceload add 1536 1328 1631 1407
 # Great Pleateau Tower
 summon minecraft:item_display 1587.0 68.5 1391.0 {item:{id:"minecraft:vine",tag:{CustomModelData:1},Count:1b},transformation:[16f,0f,0f,0f,0f,16f,0f,0f,0f,0f,16f,0f,0f,0f,0f,1f]}
 
+# Rusty Broadsword
+summon minecraft:item_display 1599.5 66.75 1322.5 {Tags:["rustyBroadsword"],NoGravity:1b,item:{id:"minecraft:netherite_sword",Count:1b},transformation:[-0.5f,-0.5f,0f,0f,0.5f,-0.5f,0f,0f,0f,0f,1f,0f,0f,0f,0f,1f]}
+
 # Armor Stands
-summon minecraft:armor_stand 1618.463 50.0 1409.461 {Tags:["propStand","link","upper"],Rotation:[180f,0f],Pose:{RightArm:[270f,0f,0f],Head:[317f,0f,0f],LeftArm:[270f,0f,0f],Body:[278f,0f,0f]}}
-summon minecraft:armor_stand 1618.466 50.5 1408.705 {Tags:["propStand","link","lower"],Rotation:[180f,0f],Pose:{LeftLeg:[266f,0f,0f],RightLeg:[266f,0f,0f]}}
-summon minecraft:armor_stand 1599.565 66.0 1322.597 {Tags:["propStand","noReplace"],Pose:{RightArm:[327f,101f,270f]},HandItems:[{id:"minecraft:wooden_sword",Count:1b},{}]}
+execute positioned 1618.463 50.0 1409.461 summon minecraft:armor_stand run function ssbrc:maps/g/great_plateau/logic/armor_stands/link/upper
+execute positioned 1618.466 50.5 1408.705 summon minecraft:armor_stand run function ssbrc:maps/g/great_plateau/logic/armor_stands/link/lower
 
 time set noon
 weather clear

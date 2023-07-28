@@ -7,7 +7,7 @@
 				"condition": "minecraft:entity_properties",
 				"entity": "this",
 				"predicate": {
-					"nbt": "{Tags:[\"toad\",\"default\"]}"
+					"nbt": "{Tags:[\"peach\"]}"
 				}
 			}
 		]
@@ -20,7 +20,7 @@
 				"condition": "minecraft:entity_properties",
 				"entity": "this",
 				"predicate": {
-					"nbt": "{Tags:[\"toad\",\"blue\"]}"
+					"nbt": "{Tags:[\"toad\",\"default\"]}"
 				}
 			}
 		]
@@ -28,6 +28,19 @@
 	{
 		"function": "minecraft:set_nbt",
 		"tag": "{CustomModelData:155}",
+		"conditions": [
+			{
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"nbt": "{Tags:[\"toad\",\"blue\"]}"
+				}
+			}
+		]
+	},
+	{
+		"function": "minecraft:set_nbt",
+		"tag": "{CustomModelData:157}",
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",

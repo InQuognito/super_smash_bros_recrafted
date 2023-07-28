@@ -71,10 +71,10 @@ summon minecraft:item_display -736.99 33.5 867.0 {Rotation:[-90f,0f],item:{id:"m
 summon minecraft:item_display -736.99 33.5 822.0 {Rotation:[-90f,0f],item:{id:"minecraft:sugar",tag:{CustomModelData:151},Count:1b},transformation:[2f,0f,0f,0f,0f,2f,0f,0f,0f,0f,2f,0f,0f,0f,0f,1f],brightness:{sky:6,block:6}}
 
 # Armor Stands
-summon minecraft:armor_stand -734.959 27.0 854.474 {Tags:["propStand","peach","default"],Rotation:[265f,0f],Pose:{LeftArm:[219f,340f,22f],RightArm:[213f,34f,348f]}}
-summon minecraft:armor_stand -734.897 27.0 834.552 {Tags:["propStand","toad","default"],Small:1b,Rotation:[270f,0f],Pose:{LeftArm:[332f,30f,328f],RightArm:[338f,18f,12f]}}
-summon minecraft:armor_stand -737.7 26.6 833.175 {Tags:["propStand","toad","blue"],Small:1b,Rotation:[320f,0f],Pose:{LeftLeg:[267f,0f,0f],RightLeg:[267f,0f,0f],LeftArm:[332f,30f,328f],RightArm:[330f,18f,12f]}}
-summon minecraft:armor_stand -736.46 27.0 835.889 {Tags:["propStand","toad","yellow"],Small:1b,Pose:{LeftArm:[221f,342f,46f],RightArm:[245f,40f,12f]}}
+execute positioned -734.959 27.0 854.474 summon minecraft:armor_stand run function ssbrc:maps/b/bowsers_castle/logic/armor_stands/peach
+execute positioned -734.897 27.0 834.552 summon minecraft:armor_stand run function ssbrc:maps/b/bowsers_castle/logic/armor_stands/toad/default
+execute positioned -737.7 26.6 833.175 summon minecraft:armor_stand run function ssbrc:maps/b/bowsers_castle/logic/armor_stands/toad/blue
+execute positioned -736.46 27.0 835.889 summon minecraft:armor_stand run function ssbrc:maps/b/bowsers_castle/logic/armor_stands/toad/yellow
 
 time set noon
 weather clear
