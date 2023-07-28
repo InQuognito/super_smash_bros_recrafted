@@ -73,7 +73,7 @@ summon minecraft:item_display -736.99 33.5 822.0 {Rotation:[-90f,0f],item:{id:"m
 # Armor Stands
 execute positioned -734.959 27.0 854.474 summon minecraft:armor_stand run function ssbrc:maps/b/bowsers_castle/logic/armor_stands/peach
 execute positioned -734.897 27.0 834.552 summon minecraft:armor_stand run function ssbrc:maps/b/bowsers_castle/logic/armor_stands/toad/default
-execute positioned -737.7 26.6 833.175 summon minecraft:armor_stand run function ssbrc:maps/b/bowsers_castle/logic/armor_stands/toad/blue
+execute positioned -737.7 26.7 833.175 summon minecraft:armor_stand run function ssbrc:maps/b/bowsers_castle/logic/armor_stands/toad/blue
 execute positioned -736.46 27.0 835.889 summon minecraft:armor_stand run function ssbrc:maps/b/bowsers_castle/logic/armor_stands/toad/yellow
 
 time set noon
