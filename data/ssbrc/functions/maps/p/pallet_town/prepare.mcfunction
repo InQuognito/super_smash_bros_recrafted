@@ -20,9 +20,6 @@ summon minecraft:marker -544.5 18.0 -140.5 {Tags:["spawnpoint.item"]}
 summon minecraft:marker -549.5 19.0 -125.5 {Tags:["spawnpoint.item"]}
 summon minecraft:marker -543.5 20.0 -150.5 {Tags:["spawnpoint.item"]}
 
-# Armor Stands
-execute as @e[type=minecraft:armor_stand,tag=propStand] run function ssbrc:logic/maps/armor_stands/get
-
 # Shiny Modifiers
 execute as @e[type=minecraft:item_display,tag=abra] if predicate ssbrc:shiny_chance run item replace entity @s armor.head with minecraft:diamond{CustomModelData:631}
 execute as @e[type=minecraft:item_display,tag=diglett] if predicate ssbrc:shiny_chance run item replace entity @s armor.head with minecraft:diamond{CustomModelData:502}

@@ -32,14 +32,16 @@ summon minecraft:item_display -560.5 13.0 -123.5 {Tags:["decorObject","snorlax"]
 # Rope
 summon minecraft:item_display -553.0 16.25 -157.0 {Rotation:[90f,0f],item:{id:"minecraft:sugar",Count:1b,tag:{CustomModelData:1351}},transformation:[2.5f,0f,0f,0f,0f,2.5f,0f,0f,0f,0f,2.5f,0f,0f,0f,0f,1f]}
 
+# Misty's Bike
+summon minecraft:item_display -603.0 13.45 -196.2 {Tags:["mistysBike"],Rotation:[-90f,0f],item:{id:"minecraft:sugar",Count:1b,tag:{CustomModelData:1352}},transformation:[1f,0.2f,0f,0f,-0.2f,1f,0f,0f,0f,0f,1f,0f,0f,0f,0f,1f]}
+
 # Armor Stands
-summon minecraft:armor_stand -551.5 17.0 -161.5 {Tags:["propStand","brock"],Rotation:[29f,0f],Pose:{LeftLeg:[0f,5f,0f],LeftArm:[311f,43f,19f],RightLeg:[0f,5f,0f],RightArm:[294f,301f,0f]}}
-summon minecraft:armor_stand -550.5 17.0 -159.5 {Tags:["propStand","gary"],Rotation:[25f,0f],Pose:{RightArm:[237f,17f,316f],LeftLeg:[0f,336f,0f],LeftArm:[14f,0f,343f],RightLeg:[0f,25f,0f]}}
-summon minecraft:armor_stand -600.5 12.4 -193.5 {Tags:["propStand","misty"],Rotation:[270f,0f],Pose:{RightArm:[289f,336f,0f],LeftLeg:[272f,350f,0f],LeftArm:[289f,30f,0f],RightLeg:[272f,10f,0f]}}
-summon minecraft:armor_stand -603.0 13.0 -196.2 {Tags:["propStand","mistysBike","noReplace"],Rotation:[90f,0f],Pose:{LeftArm:[0f,0f,0f]},HandItems:[{},{id:"minecraft:sugar",Count:1b,tag:{CustomModelData:1352}}]}
-summon minecraft:armor_stand -553.5 15.0 -159.5 {Tags:["propStand","nurseJoy"],Rotation:[29f,0f],Pose:{LeftLeg:[357f,0f,0f],LeftArm:[312f,22f,0f],RightLeg:[5f,0f,0f],RightArm:[312f,339f,0f]}}
-summon minecraft:armor_stand -551.5 15.0 -158.5 {Tags:["propStand","officerJenny"],Rotation:[35f,0f],Pose:{RightArm:[330f,13f,0f],LeftLeg:[348f,0f,0f],LeftArm:[215f,352f,0f],RightLeg:[13f,0f,0f]}}
-summon minecraft:armor_stand -552.5 18.0 -163.5 {Tags:["propStand","professorOak"],Rotation:[30f,0f],Pose:{LeftLeg:[0f,0f,358f],LeftArm:[28f,340f,0f],RightLeg:[0f,0f,4f],RightArm:[28f,12f,0f]}}
+execute positioned -551.5 17.0 -161.5 summon minecraft:armor_stand run function ssbrc:maps/p/pallet_town/logic/armor_stands/brock
+execute positioned -550.5 17.0 -159.5 summon minecraft:armor_stand run function ssbrc:maps/p/pallet_town/logic/armor_stands/gary
+execute positioned -600.5 12.4 -193.5 summon minecraft:armor_stand run function ssbrc:maps/p/pallet_town/logic/armor_stands/misty
+execute positioned -553.5 15.0 -159.5 summon minecraft:armor_stand run function ssbrc:maps/p/pallet_town/logic/armor_stands/nurse_joy
+execute positioned -551.5 15.0 -158.5 summon minecraft:armor_stand run function ssbrc:maps/p/pallet_town/logic/armor_stands/officer_jenny
+execute positioned -552.5 18.0 -163.5 summon minecraft:armor_stand run function ssbrc:maps/p/pallet_town/logic/armor_stands/professor_oak
 
 time set noon
 weather clear

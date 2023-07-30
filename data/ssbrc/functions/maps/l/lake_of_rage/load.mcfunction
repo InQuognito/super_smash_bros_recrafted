@@ -28,7 +28,7 @@ summon minecraft:item_display 2536.5 21.4 3989.5 {Tags:["decorObject","geodude"]
 summon minecraft:item_display 2539.5 21.4 3997.5 {Tags:["decorObject","geodude"],item:{id:"minecraft:diamond",Count:1b,tag:{CustomModelData:740}},Rotation:[45f,0f]}
 
 # Gyarados
-summon minecraft:armor_stand 2487.0 14.0 4032.5 {Tags:["decorObject","gyarados"],Pose:{RightArm:[0f,0f,0f]},HandItems:[{id:"minecraft:diamond",Count:1b,tag:{CustomModelData:1301}}],Invisible:1b,NoGravity:1b,DisabledSlots:4144959}
+summon minecraft:armor_stand 2487.0 14.0 4032.5 {Tags:["decorObject","gyarados"],HandItems:[{id:"minecraft:diamond",Count:1b,tag:{CustomModelData:1301}}],Invisible:1b,NoGravity:1b,DisabledSlots:4144959}
 
 # Sudowoodo
 summon minecraft:item_display 2513.5 17.3 3983.5 {Tags:["decorObject","sudowoodo"],item:{id:"minecraft:diamond",Count:1b,tag:{CustomModelData:1850}}}
