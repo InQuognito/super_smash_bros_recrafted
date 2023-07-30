@@ -41,7 +41,7 @@
 			"italic": false,
 			"extra": [
 				{
-					"translate": "ssbrc.tooltips.joker.freezeBoost",
+					"translate": "ssbrc.tooltips.joker.rebelsKnife.freezeBoost",
 					"color": "aqua",
 					"bold": true,
 					"italic": false
@@ -99,7 +99,7 @@
 			"italic": false,
 			"extra": [
 				{
-					"translate": "ssbrc.tooltips.joker.fireBoost",
+					"translate": "ssbrc.tooltips.joker.rebelsKnife.fireBoost",
 					"color": "red",
 					"bold": true,
 					"italic": false
