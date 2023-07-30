@@ -2,7 +2,7 @@ scoreboard players set $towerOfFateStrandedShip temp 1
 
 clone 6072 8 478 6096 20 502 5988 8 488
 
-kill @e[tag=spawnpoint]
+kill @e[type=minecraft:marker,tag=spawnpoint]
 
 summon minecraft:marker 6005.5 10.0 493.5 {Tags:["spawnpoint"]}
 summon minecraft:marker 6006.5 13.0 496.5 {Tags:["spawnpoint"]}

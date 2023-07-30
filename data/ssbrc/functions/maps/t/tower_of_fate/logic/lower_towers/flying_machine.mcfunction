@@ -2,7 +2,7 @@ scoreboard players set $towerOfFateFlyingMachine temp 1
 
 clone 6073 8 447 6097 20 471 5988 8 488
 
-kill @e[tag=spawnpoint]
+kill @e[type=minecraft:marker,tag=spawnpoint]
 
 summon minecraft:marker 6000.5 13.0 509.5 {Tags:["spawnpoint"]}
 summon minecraft:marker 5991.5 13.0 500.5 {Tags:["spawnpoint"]}

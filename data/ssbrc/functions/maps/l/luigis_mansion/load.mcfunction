@@ -17,8 +17,8 @@ summon minecraft:armor_stand -312.5 18.5 -1102.5 {Tags:["luigisMansion.paintingS
 summon minecraft:armor_stand -314.5 17.5 -1102.5 {Tags:["luigisMansion.paintingSmall"],ArmorItems:[{},{},{},{id:"minecraft:sugar",Count:1b}],NoGravity:1b,Invisible:1b,DisabledSlots:4144959}
 
 # Chairs
-summon minecraft:item_display -323.5 16.75 -1145.5 {Rotation:[0f,0f],item:{id:"minecraft:sugar",tag:{CustomModelData:1018},Count:1b}}
-summon minecraft:item_display -320.5 16.75 -1145.5 {Rotation:[0f,0f],item:{id:"minecraft:sugar",tag:{CustomModelData:1018},Count:1b}}
+summon minecraft:item_display -323.5 16.75 -1145.5 {item:{id:"minecraft:sugar",tag:{CustomModelData:1018},Count:1b}}
+summon minecraft:item_display -320.5 16.75 -1145.5 {item:{id:"minecraft:sugar",tag:{CustomModelData:1018},Count:1b}}
 
 summon minecraft:item_display -317.5 16.75 -1142.5 {Rotation:[90f,0f],item:{id:"minecraft:sugar",tag:{CustomModelData:1018},Count:1b}}
 summon minecraft:item_display -317.5 16.75 -1139.5 {Rotation:[90f,0f],item:{id:"minecraft:sugar",tag:{CustomModelData:1018},Count:1b}}

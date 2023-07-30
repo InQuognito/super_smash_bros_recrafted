@@ -23,8 +23,8 @@ summon minecraft:item_display -545.5 24.0 -156.5 {Tags:["decorObject","abra"],Ro
 scoreboard players set max random 2
 function ssbrc:math/rng/lcg
 
-execute if score result random matches 0 run summon minecraft:armor_stand -530.5 23.5 -153.5 {Tags:["decorObject","magnemite"],Rotation:[75f,0f],Pose:{LeftArm:[0f,0f,270f],RightArm:[0f,0f,90f]},HandItems:[{id:"minecraft:diamond",Count:1b,tag:{CustomModelData:811}},{id:"minecraft:diamond",Count:1b,tag:{CustomModelData:811}}],ArmorItems:[{},{},{},{id:"minecraft:diamond",Count:1b,tag:{CustomModelData:810}}],Invisible:1b,NoGravity:1b,DisabledSlots:4144959}
-execute if score result random matches 1 run summon minecraft:armor_stand -549.5 25.5 -121.5 {Tags:["decorObject","magnemite"],Rotation:[180f,0f],Pose:{LeftArm:[0f,0f,270f],RightArm:[0f,0f,90f]},HandItems:[{id:"minecraft:diamond",Count:1b,tag:{CustomModelData:811}},{id:"minecraft:diamond",Count:1b,tag:{CustomModelData:811}}],ArmorItems:[{},{},{},{id:"minecraft:diamond",Count:1b,tag:{CustomModelData:810}}],Invisible:1b,NoGravity:1b,DisabledSlots:4144959}
+execute if score result random matches 0 positioned -530.5 23.5 -153.5 summon minecraft:armor_stand run function ssbrc:maps/p/pallet_town/logic/pokemon/magnemite/init
+execute if score result random matches 1 positioned -549.5 25.5 -121.5 summon minecraft:armor_stand run function ssbrc:maps/p/pallet_town/logic/pokemon/magnemite/init
 
 # Snorlax
 summon minecraft:item_display -560.5 13.0 -123.5 {Tags:["decorObject","snorlax"],Rotation:[90f,0f],item:{id:"minecraft:diamond",Count:1b,tag:{CustomModelData:1430}},transformation:[2f,0f,0f,0f,0f,2f,0f,0f,0f,0f,2f,0f,0f,0f,0f,1f]}

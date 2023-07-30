@@ -2,7 +2,7 @@ scoreboard players set $towerOfFateLichYard temp 1
 
 clone 6044 8 455 6068 20 479 5988 8 488
 
-kill @e[tag=spawnpoint]
+kill @e[type=minecraft:marker,tag=spawnpoint]
 
 summon minecraft:marker 5993.5 11.0 500.5 {Tags:["spawnpoint"]}
 summon minecraft:marker 5997.5 11.0 493.5 {Tags:["spawnpoint"]}

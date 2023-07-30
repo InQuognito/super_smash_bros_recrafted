@@ -1,1 +1,5 @@
-data merge entity @s {Rotation:[-180f,0f],Invulnerable:1b,Invisible:1b,NoBasePlate:1b,NoGravity:1b,DisabledSlots:4144959}
+teleport @s ~ ~ ~ -180.0 0.0
+
+data merge entity @s {NoGravity:1b}
+
+function ssbrc:logic/init/armor_stand/data

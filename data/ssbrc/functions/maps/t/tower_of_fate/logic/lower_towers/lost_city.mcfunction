@@ -2,7 +2,7 @@ scoreboard players set $towerOfFateLostCity temp 1
 
 clone 6043 8 508 6067 20 532 5988 8 488
 
-kill @e[tag=spawnpoint]
+kill @e[type=minecraft:marker,tag=spawnpoint]
 
 summon minecraft:marker 5995.5 16.0 495.5 {Tags:["spawnpoint"]}
 summon minecraft:marker 6000.5 16.0 494.5 {Tags:["spawnpoint"]}

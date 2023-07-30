@@ -1,5 +1,5 @@
 function ssbrc:maps/m/miiverse/logic/posts/origin/init
 
-scoreboard players set @s id 6
+teleport @s ~ ~ ~ 0.0 -40.0
 
-data merge entity @s {Rotation:[0f,-40f]}
+scoreboard players set @s id 6

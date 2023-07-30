@@ -2,7 +2,7 @@ scoreboard players set $towerOfFateIronWhale temp 1
 
 clone 6074 8 419 6098 20 443 5988 8 488
 
-kill @e[tag=spawnpoint]
+kill @e[type=minecraft:marker,tag=spawnpoint]
 
 summon minecraft:marker 5993.5 16.0 500.5 {Tags:["spawnpoint"]}
 summon minecraft:marker 5996.5 17.0 495.5 {Tags:["spawnpoint"]}

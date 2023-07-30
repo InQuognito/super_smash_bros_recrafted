@@ -1,4 +1,4 @@
-summon minecraft:armor_stand -702.0 44.0 866.5 {Tags:["thwomp","left"],Rotation:[180f,0f],ArmorItems:[{},{},{},{id:"minecraft:sugar",Count:1b,tag:{CustomModelData:156}}],Invisible:1b,DisabledSlots:4144959}
+execute positioned -702.0 44.0 866.5 summon minecraft:armor_stand run function ssbrc:maps/b/bowsers_castle/logic/hazards/thwomps/left/init
 
 fill -705 43 865 -700 43 867 minecraft:air replace
 fill -705 40 868 -700 42 868 minecraft:waxed_copper_block replace

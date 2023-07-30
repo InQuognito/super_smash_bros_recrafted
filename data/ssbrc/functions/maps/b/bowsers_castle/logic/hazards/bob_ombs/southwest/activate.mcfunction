@@ -1,4 +1,11 @@
-summon minecraft:armor_stand ~ ~ ~ {Tags:["bobOmb","sw"],Rotation:[180f,0f],Motion:[0d,0d,-5.25d],ArmorItems:[{},{},{},{id:"minecraft:sugar",Count:1b,tag:{CustomModelData:184}}],Invisible:1b,Small:1b,DisabledSlots:4144959}
+tag @s add bobOmb
+tag @s add sw
+
+item replace entity @s armor.head with minecraft:sugar{CustomModelData:184}
+
+data merge entity @s {Small:1b,Motion:[0d,0d,-5.25d]}
+
+function ssbrc:logic/init/armor_stand/data
 
 particle minecraft:explosion ~ ~ ~ 0.0 0.0 0.0 0.0 1 normal @a
 playsound entity.generic.explode ambient @a

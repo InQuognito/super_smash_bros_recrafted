@@ -27,25 +27,25 @@ summon minecraft:text_display -546.5 -1.75 50.5 {Tags:["creditsText"],text:'{"tr
 summon minecraft:item_display -550.5 -3.5 45.5 {Rotation:[-45f,0f],item:{id:"minecraft:sugar",tag:{CustomModelData:1019},Count:1b}}
 
 summon minecraft:text_display -549.5 -1.75 47.5 {Tags:["creditsText"],text:'{"translate":"HomegaddielMC","bold":true,"color":"white"}',billboard:center}
-summon minecraft:item_display -549.5 -2.925 47.5 {Tags:["selectable","developer","homegaddielmc"],item:{id:"minecraft:stick",tag:{CustomModelData:1000005},Count:1b},Rotation:[0f,0f]}
+summon minecraft:item_display -549.5 -2.925 47.5 {Tags:["selectable","developer","homegaddielmc"],item:{id:"minecraft:stick",tag:{CustomModelData:1000005},Count:1b}}
 
 summon minecraft:text_display -548.5 -1.75 45.5 {Tags:["creditsText"],text:'{"translate":"Pxlsamosa","bold":true,"color":"white"}',billboard:center}
-summon minecraft:item_display -548.5 -2.925 45.5 {Tags:["selectable","developer","pxlsamosa"],item:{id:"minecraft:stick",tag:{CustomModelData:1000006},Count:1b},Rotation:[0f,0f]}
+summon minecraft:item_display -548.5 -2.925 45.5 {Tags:["selectable","developer","pxlsamosa"],item:{id:"minecraft:stick",tag:{CustomModelData:1000006},Count:1b}}
 
 summon minecraft:text_display -547.5 -1.75 47.5 {Tags:["creditsText"],text:'{"translate":"Thxlotl","bold":true,"color":"white"}',billboard:center}
-summon minecraft:item_display -547.5 -2.925 47.5 {Tags:["selectable","developer","thxlotl"],item:{id:"minecraft:stick",tag:{CustomModelData:1000007},Count:1b},Rotation:[0f,0f]}
+summon minecraft:item_display -547.5 -2.925 47.5 {Tags:["selectable","developer","thxlotl"],item:{id:"minecraft:stick",tag:{CustomModelData:1000007},Count:1b}}
 
 summon minecraft:text_display -546.5 -1.75 45.5 {Tags:["creditsText"],text:'{"translate":"Peteerrosh","bold":true,"color":"white"}',billboard:center}
-summon minecraft:item_display -546.5 -2.925 45.5 {Tags:["selectable","developer","peteerrosh"],item:{id:"minecraft:stick",tag:{CustomModelData:1000008},Count:1b},Rotation:[0f,0f]}
+summon minecraft:item_display -546.5 -2.925 45.5 {Tags:["selectable","developer","peteerrosh"],item:{id:"minecraft:stick",tag:{CustomModelData:1000008},Count:1b}}
 
 summon minecraft:text_display -545.5 -1.75 47.5 {Tags:["creditsText"],text:'{"translate":"DavidTippy","bold":true,"color":"white"}',billboard:center}
-summon minecraft:item_display -545.5 -2.925 47.5 {Tags:["selectable","developer","davidtippy"],item:{id:"minecraft:stick",tag:{CustomModelData:1000009},Count:1b},Rotation:[0f,0f]}
+summon minecraft:item_display -545.5 -2.925 47.5 {Tags:["selectable","developer","davidtippy"],item:{id:"minecraft:stick",tag:{CustomModelData:1000009},Count:1b}}
 
 summon minecraft:text_display -544.5 -1.75 45.5 {Tags:["creditsText"],text:'{"translate":"Ricardo64","bold":true,"color":"white"}',billboard:center}
-summon minecraft:item_display -544.5 -2.925 45.5 {Tags:["selectable","developer","ricardo64"],item:{id:"minecraft:stick",tag:{CustomModelData:1000010},Count:1b},Rotation:[0f,0f]}
+summon minecraft:item_display -544.5 -2.925 45.5 {Tags:["selectable","developer","ricardo64"],item:{id:"minecraft:stick",tag:{CustomModelData:1000010},Count:1b}}
 
 summon minecraft:text_display -543.5 -1.75 47.5 {Tags:["creditsText"],text:'{"translate":"PastaPower2K64","bold":true,"color":"white"}',billboard:center}
-summon minecraft:item_display -543.5 -2.925 47.5 {Tags:["selectable","developer","pastapower2k64"],item:{id:"minecraft:stick",tag:{CustomModelData:1000011},Count:1b},Rotation:[0f,0f]}
+summon minecraft:item_display -543.5 -2.925 47.5 {Tags:["selectable","developer","pastapower2k64"],item:{id:"minecraft:stick",tag:{CustomModelData:1000011},Count:1b}}
 
 summon minecraft:item_display -542.5 -3.5 45.5 {Rotation:[45f,0f],item:{id:"minecraft:sugar",tag:{CustomModelData:1019},Count:1b}}
 
