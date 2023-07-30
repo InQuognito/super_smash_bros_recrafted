@@ -1,4 +1,6 @@
-particle minecraft:dust 0.8 0.8 0.0 1.0 ^ ^ ^12 0.0 0.0 0.0 0.0 1 force @a
+scoreboard players operation electricTerrain temp = @s temp
+scoreboard players operation electricTerrain temp %= 10 integers
+execute if score electricTerrain temp matches 0 run particle minecraft:dust 0.8 0.8 0.0 1.0 ^ ^ ^12 0.0 0.0 0.0 0.0 1 force @a
 
 execute store result entity @s Rotation[0] float 1.0 run scoreboard players get $rayLength temp
 
