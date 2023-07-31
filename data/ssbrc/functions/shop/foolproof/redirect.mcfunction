@@ -29,3 +29,4 @@ execute if score @s shop matches 220 run function ssbrc:shop/pages/skins/wolf/lo
 execute if score @s shop matches 221 run function ssbrc:shop/pages/skins/sonic/load
 execute if score @s shop matches 222 run function ssbrc:shop/pages/skins/yar/load
 execute if score @s shop matches 223 run function ssbrc:shop/pages/skins/fox/load
+execute if score @s shop matches 224 run function ssbrc:shop/pages/skins/joker/load

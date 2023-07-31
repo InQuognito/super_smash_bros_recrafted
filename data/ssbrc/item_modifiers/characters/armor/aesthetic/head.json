@@ -859,6 +859,40 @@
 	},
 	{
 		"function": "minecraft:set_nbt",
+		"tag": "{CustomModelData:604}",
+		"conditions": [
+			{
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"nbt": "{Tags:[\"joker\",\"shujinAcademy\"]}"
+				}
+			},
+			{
+				"condition": "minecraft:reference",
+				"name": "ssbrc:characters/joker/persona_awakening/off"
+			}
+		]
+	},
+	{
+		"function": "minecraft:set_nbt",
+		"tag": "{CustomModelData:605}",
+		"conditions": [
+			{
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"nbt": "{Tags:[\"joker\",\"shujinAcademy\"]}"
+				}
+			},
+			{
+				"condition": "minecraft:reference",
+				"name": "ssbrc:characters/joker/persona_awakening/on"
+			}
+		]
+	},
+	{
+		"function": "minecraft:set_nbt",
 		"tag": "{CustomModelData:680}",
 		"conditions": [
 			{

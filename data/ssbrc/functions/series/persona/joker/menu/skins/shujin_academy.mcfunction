@@ -1,0 +1,7 @@
+function ssbrc:series/persona/joker/menu/skins/reset
+tag @s add shujinAcademy
+
+tellraw @s[tag=!blindPick,tag=!pickingRandom] [{"translate":"\n"},{"translate":"ssbrc.fighters.menu.skin","color":"white"},{"translate":"ssbrc.fighters.joker.skin.shujinAcademy","color":"dark_red"},{"translate":"\n"}]
+execute if entity @s[tag=!blindPick,tag=!pickingRandom] run function ssbrc:series/persona/joker/menu/skin_options
+
+function ssbrc:logic/selector/select_skin

@@ -64,6 +64,7 @@ execute if score @s[tag=jigglypuff] menu matches 586 run function ssbrc:series/p
 
 execute if score @s[tag=joker] menu matches 604 run function ssbrc:series/persona/joker/menu/skins/default
 execute if score @s[tag=joker] menu matches 605 run function ssbrc:series/persona/joker/menu/skins/gold
+execute if score @s[tag=joker] menu matches 606 run function ssbrc:series/persona/joker/menu/skins/shujin_academy
 
 execute if score @s[tag=kingkrool] menu matches 684 run function ssbrc:series/donkey_kong/kingkrool/menu/skins/default
 execute if score @s[tag=kingkrool] menu matches 685 run function ssbrc:series/donkey_kong/kingkrool/menu/skins/gold
