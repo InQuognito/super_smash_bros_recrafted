@@ -13,6 +13,9 @@ execute if score @s shopCalculator matches 1.. run function ssbrc:shop/pages/ski
 execute store result score @s shopCalculator run clear @s #ssbrc:ui/buttons{ui:{id:"navigation.skins.alucard"}}
 execute if score @s shopCalculator matches 1.. run function ssbrc:shop/pages/skins/alucard/load
 
+execute store result score @s shopCalculator run clear @s #ssbrc:ui/buttons{ui:{id:"navigation.skins.joker"}}
+execute if score @s shopCalculator matches 1.. run function ssbrc:shop/pages/skins/joker/load
+
 execute store result score @s shopCalculator run clear @s #ssbrc:ui/buttons{ui:{id:"navigation.skins.hero"}}
 execute if score @s shopCalculator matches 1.. run function ssbrc:shop/pages/skins/hero/load
 
