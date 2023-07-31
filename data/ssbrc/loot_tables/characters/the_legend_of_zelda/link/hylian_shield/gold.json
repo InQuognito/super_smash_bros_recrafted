@@ -62,7 +62,7 @@
 							"patterns": [
 								{
 									"pattern": "minecraft:base",
-									"color": "yellow"
+									"color": "white"
 								},
 								{
 									"pattern": "minecraft:flower",
@@ -70,19 +70,19 @@
 								},
 								{
 									"pattern": "minecraft:half_horizontal",
-									"color": "yellow"
+									"color": "white"
 								},
 								{
 									"pattern": "minecraft:triangle_top",
-									"color": "white"
-								},
-								{
-									"pattern": "minecraft:stripe_top",
 									"color": "yellow"
 								},
 								{
-									"pattern": "minecraft:curly_border",
+									"pattern": "minecraft:stripe_top",
 									"color": "white"
+								},
+								{
+									"pattern": "minecraft:curly_border",
+									"color": "yellow"
 								}
 							],
 							"append": false
