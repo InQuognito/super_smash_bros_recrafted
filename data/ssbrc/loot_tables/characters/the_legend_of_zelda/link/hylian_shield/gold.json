@@ -82,7 +82,7 @@
 								},
 								{
 									"pattern": "minecraft:curly_border",
-									"color": "gray"
+									"color": "white"
 								}
 							],
 							"append": false
