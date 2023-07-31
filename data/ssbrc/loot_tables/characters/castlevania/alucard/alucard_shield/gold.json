@@ -63,7 +63,7 @@
 								},
 								{
 									"pattern": "minecraft:piglin",
-									"color": "light_gray"
+									"color": "white"
 								}
 							],
 							"append": false
