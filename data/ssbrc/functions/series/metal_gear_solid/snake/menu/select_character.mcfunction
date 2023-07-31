@@ -6,5 +6,6 @@ tag @s add snake
 
 tag @s remove ignoreFeedback
 
+scoreboard players set @s snake.capacity 0
 execute if entity @s[tag=!pickingRandom] run function ssbrc:series/metal_gear_solid/snake/menu/loadout/prompt
 execute if entity @s[tag=pickingRandom] run function ssbrc:series/metal_gear_solid/snake/menu/loadout/random
