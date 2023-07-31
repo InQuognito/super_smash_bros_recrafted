@@ -43,7 +43,7 @@
 							"patterns": [
 								{
 									"pattern": "minecraft:base",
-									"color": "yellow"
+									"color": "white"
 								},
 								{
 									"pattern": "minecraft:triangle_top",
@@ -59,7 +59,7 @@
 								},
 								{
 									"pattern": "minecraft:flower",
-									"color": "white"
+									"color": "yellow"
 								},
 								{
 									"pattern": "minecraft:piglin",
