@@ -12,5 +12,5 @@ execute if score @s temp matches 25 at @e[tag=thundazaBolt,sort=nearest,limit=1]
 execute if score @s temp matches 28 run summon minecraft:lightning_bolt ~ ~ ~
 
 scoreboard players add @s temp 1
-execute if score @s temp matches 29.. run kill @e[tag=thundazaBolt,sort=nearest,limit=3]
+execute if score @s temp matches 29.. run kill @e[tag=thundazaBolt,sort=nearest,limit=3,predicate=ssbrc:id_match]
 kill @s[scores={temp=29..}]

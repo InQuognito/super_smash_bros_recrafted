@@ -1,4 +1,4 @@
-kill @e[type=minecraft:marker,tag=flareBlitz,sort=nearest,limit=1]
+kill @e[type=minecraft:marker,tag=flareBlitz,sort=nearest,limit=1,predicate=ssbrc:id_match]
 
 effect clear @s minecraft:levitation
 
