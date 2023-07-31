@@ -9,4 +9,4 @@ loot replace entity @s[tag=!gold] hotbar.2 loot ssbrc:characters/castlevania/alu
 loot replace entity @s[tag=gold] hotbar.2 loot ssbrc:characters/castlevania/alucard/blood_metamorphosis/gold
 
 execute store result storage ssbrc:alucard_shield damage int 1.0 run scoreboard players get @s durability
-loot replace entity @s[tag=!shieldBroken,nbt=!{Inventory:[{tag:{alucardShield:1}}]}] weapon.offhand loot ssbrc:characters/castlevania/alucard/alucard_shield
+execute if entity @s[tag=!shieldBroken,nbt=!{Inventory:[{tag:{alucardShield:1}}]}] run function ssbrc:series/castlevania/alucard/logic/alucard_shield
