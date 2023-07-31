@@ -1,0 +1,113 @@
+{
+	"type": "minecraft:command",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:shield",
+					"functions": [
+						{
+							"function": "minecraft:set_name",
+							"entity": "this",
+							"name": {
+								"translate": "ssbrc.tooltips.link.hylianShield",
+								"color": "yellow",
+								"bold": true,
+								"italic": false
+							}
+						},
+						{
+							"function": "minecraft:set_lore",
+							"entity": "this",
+							"lore": [
+								{
+									"translate": "-------------",
+									"color": "gray",
+									"bold": false,
+									"italic": false
+								},
+								{
+									"translate": "ssbrc.tooltips.equipment.defensive",
+									"color": "white",
+									"bold": false,
+									"italic": false,
+									"underlined": true
+								}
+							],
+							"replace": true
+						},
+						{
+							"function": "minecraft:set_attributes",
+							"modifiers": [
+								{
+									"attribute": "minecraft:generic.attack_damage",
+									"name": "Attack Damage",
+									"amount": 0,
+									"operation": "multiply_base",
+									"slot": "mainhand"
+								},
+								{
+									"attribute": "minecraft:generic.attack_speed",
+									"name": "Attack Speed",
+									"amount": 1024,
+									"operation": "multiply_base",
+									"slot": "mainhand"
+								}
+							]
+						},
+						{
+							"function": "minecraft:set_banner_pattern",
+							"patterns": [
+								{
+									"pattern": "minecraft:base",
+									"color": "yellow"
+								},
+								{
+									"pattern": "minecraft:flower",
+									"color": "light_gray"
+								},
+								{
+									"pattern": "minecraft:half_horizontal",
+									"color": "yellow"
+								},
+								{
+									"pattern": "minecraft:triangle_top",
+									"color": "white"
+								},
+								{
+									"pattern": "minecraft:stripe_top",
+									"color": "yellow"
+								},
+								{
+									"pattern": "minecraft:curly_border",
+									"color": "white"
+								}
+							],
+							"append": false
+						},
+						{
+							"function": "minecraft:copy_nbt",
+							"source": {
+								"type": "minecraft:storage",
+								"source": "ssbrc:hylian_shield"
+							},
+							"ops": [
+								{
+									"source": "damage",
+									"target": "Damage",
+									"op": "replace"
+								}
+							]
+						},
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{hylianShield:1,HideFlags:255}"
+						}
+					]
+				}
+			]
+		}
+	]
+}
