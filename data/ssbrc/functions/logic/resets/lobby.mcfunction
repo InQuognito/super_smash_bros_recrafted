@@ -15,7 +15,7 @@ summon minecraft:text_display -521.5 1.75 55.5 {text:'{"translate":"ssbrc.lobby.
 
 # YouTube
 setblock -532 5 56 minecraft:player_head[rotation=4]{SkullOwner:{Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjQzNTNmZDBmODYzMTQzNTM4NzY1ODYwNzViOWJkZjBjNDg0YWFiMDMzMWI4NzJkZjExYmQ1NjRmY2IwMjllZCJ9fX0="}]}}} replace
-setblock -531 4 56 minecraft:dark_oak_wall_sign[facing=east]{front_text:{messages:['','{"text":"YouTube","clickEvent":{"action":"run_command","value":"tellraw @s {\\"text\\":\\"[Youtube]\\",\\"color\\":\\"red\\",\\"clickEvent\\":{\\"action\\":\\"open_url\\",\\"value\\":\\"https://www.youtube.com/channel/UCCqXNuFgGs53GgP7oSQGtOA\\"}}","bold":true,"color":"red"}','',''],has_glowing_text:1b},is_waxed:1b} replace
+setblock -531 4 56 minecraft:dark_oak_wall_sign[facing=east]{front_text:{color:"red",messages:['','{"text":"YouTube","clickEvent":{"action":"run_command","value":"tellraw @s {\\"text\\":\\"[Youtube]\\",\\"color\\":\\"red\\",\\"clickEvent\\":{\\"action\\":\\"open_url\\",\\"value\\":\\"https://www.youtube.com/channel/UCCqXNuFgGs53GgP7oSQGtOA\\"}}","bold":true,"color":"red"}','',''],has_glowing_text:1b},is_waxed:1b} replace
 
 # Discord
 setblock -532 5 55 minecraft:player_head[rotation=4]{SkullOwner:{Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTNiMTgzYjE0OGI5YjRlMmIxNTgzMzRhZmYzYjViYjZjMmMyZGJiYzRkNjdmNzZhN2JlODU2Njg3YTJiNjIzIn19fQ=="}]}}} replace
