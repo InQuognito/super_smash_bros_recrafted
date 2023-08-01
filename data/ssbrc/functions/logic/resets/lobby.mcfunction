@@ -15,15 +15,15 @@ summon minecraft:text_display -521.5 1.75 55.5 {text:'{"translate":"ssbrc.lobby.
 
 # YouTube
 setblock -532 5 56 minecraft:player_head[rotation=4]{SkullOwner:{Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjQzNTNmZDBmODYzMTQzNTM4NzY1ODYwNzViOWJkZjBjNDg0YWFiMDMzMWI4NzJkZjExYmQ1NjRmY2IwMjllZCJ9fX0="}]}}} replace
-setblock -531 4 56 minecraft:dark_oak_wall_sign[facing=east]{front_text:{messages:['{"text":""}','{"text":"YouTube","clickEvent":{"action":"run_command","value":"tellraw @s {\\"text\\":\\"[Youtube]\\",\\"color\\":\\"red\\",\\"clickEvent\\":{\\"action\\":\\"open_url\\",\\"value\\":\\"https://www.youtube.com/channel/UCCqXNuFgGs53GgP7oSQGtOA\\"}}","bold":true,"color":"red"}','{"text":""}','{"text":""}'],has_glowing_text:1b},is_waxed:1b} replace
+setblock -531 4 56 minecraft:dark_oak_wall_sign[facing=east]{front_text:{messages:['[""]','[{"text":"YouTube","clickEvent":{"action":"run_command","value":"tellraw @s {"text":"[YouTube]","color":"red","clickEvent":{"action":"open_url","value":"https://www.youtube.com/channel/UCCqXNuFgGs53GgP7oSQGtOA"}}","bold":true,"color":"blue"}]','[""]','[""]'],has_glowing_text:1b}} replace
 
 # Discord
 setblock -532 5 55 minecraft:player_head[rotation=4]{SkullOwner:{Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTNiMTgzYjE0OGI5YjRlMmIxNTgzMzRhZmYzYjViYjZjMmMyZGJiYzRkNjdmNzZhN2JlODU2Njg3YTJiNjIzIn19fQ=="}]}}} replace
-setblock -531 4 55 minecraft:dark_oak_wall_sign[facing=east]{front_text:{messages:['{"text":""}','{"text":"Discord","clickEvent":{"action":"run_command","value":"tellraw @s {\\"text\\":\\"[Discord]\\",\\"color\\":\\"blue\\",\\"clickEvent\\":{\\"action\\":\\"open_url\\",\\"value\\":\\"https://discord.gg/yAzw55N5Ax\\"}}","bold":true,"color":"blue"}','{"text":""}','{"text":""}'],has_glowing_text:1b},is_waxed:1b} replace
+setblock -531 4 55 minecraft:dark_oak_wall_sign[facing=east]{front_text:{messages:['{"text":""}','{"text":"Discord","clickEvent":{"action":"run_command","value":"tellraw @s {"text":"[Discord]","color":"blue","clickEvent":{"action":"open_url","value":"https://discord.gg/yAzw55N5Ax"}}","bold":true,"color":"blue"}','{"text":""}','{"text":""}'],has_glowing_text:1b},is_waxed:1b} replace
 
 # Planet Minecraft
 setblock -532 5 54 minecraft:player_head[rotation=4]{SkullOwner:{Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODc5ZTU0Y2JlODc4NjdkMTRiMmZiZGYzZjE4NzA4OTQzNTIwNDhkZmVjZDk2Mjg0NmRlYTg5M2IyMTU0Yzg1In19fQ=="}]}}} replace
-setblock -531 4 54 minecraft:dark_oak_wall_sign[facing=east]{front_text:{messages:['{"text":""}','{"text":"Planet Minecraft","clickEvent":{"action":"run_command","value":"tellraw @s {\\"text\\":\\"[Planet Minecraft]\\",\\"color\\":\\"green\\",\\"clickEvent\\":{\\"action\\":\\"open_url\\",\\"value\\":\\"https://www.planetminecraft.com/member/team_recrafted/\\"}}","bold":true,"color":"green"}','{"text":""}','{"text":""}'],has_glowing_text:1b},is_waxed:1b} replace
+setblock -531 4 54 minecraft:dark_oak_wall_sign[facing=east]{front_text:{messages:['{"text":""}','{"text":"Planet Minecraft","clickEvent":{"action":"run_command","value":"tellraw @s {"text":"[Planet Minecraft]","color":"green","clickEvent":{"action":"open_url","value":"https://www.planetminecraft.com/member/team_recrafted/"}}","bold":true,"color":"green"}','{"text":""}','{"text":""}'],has_glowing_text:1b},is_waxed:1b} replace
 
 summon minecraft:item_display -535.502 8.0 55.472 {Tags:["lobbyStatue"],item:{id:"minecraft:stick",tag:{CustomModelData:841},Count:1b},Rotation:[-90f,0f]}
 
