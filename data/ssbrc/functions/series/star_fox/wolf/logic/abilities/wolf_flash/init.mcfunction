@@ -1,6 +1,6 @@
 tag @s add wolfFlash
 
-data modify entity @s Rotation[1] set value -15f
+teleport @s ~ ~ ~ 0.0 -15.0
 
 function ssbrc:logic/init/projectile_horizontal
 
