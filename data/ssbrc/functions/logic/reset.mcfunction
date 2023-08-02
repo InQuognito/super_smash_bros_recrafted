@@ -25,19 +25,19 @@ forceload remove all
 # Memory Chunk
 forceload add 0 0 0 0
 # Lobby
-forceload add -544 32 -497 79
+forceload add -544 -1968 -497 -1921
 # Fighter Select
 forceload add 112 144 175 207
 # Stage Select
 forceload add -160 -16 -17 159
 
 worldborder set 9999999
-worldborder center -520.5 55.5
+worldborder center -520.5 -1944.5
 
 time set noon
 weather clear
 
-setworldspawn -521 5 55
+setworldspawn -521 5 -1945
 
 execute unless score numberOfResets hardReset matches -2147483648..2147483647 run scoreboard players set numberOfResets hardReset 0
 
