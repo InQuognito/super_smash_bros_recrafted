@@ -1,3 +1,3 @@
 tag @s add damage.fireFox
 
-scoreboard players set @a[tag=self,limit=1] duration.3 2
+execute as @a[tag=self,limit=1] run function ssbrc:series/star_fox/fox/logic/abilities/fire_fox/raycast/abort
