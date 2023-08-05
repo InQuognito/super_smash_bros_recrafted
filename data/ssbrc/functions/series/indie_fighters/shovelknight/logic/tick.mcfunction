@@ -2,7 +2,7 @@ execute if entity @s[scores={useAbility=1..,cooldown.1=..0},nbt={SelectedItem:{t
 execute if entity @s[scores={useAbility=1..,cooldown.1=..0},nbt={SelectedItem:{tag:{flareWand:1}}}] at @s run function ssbrc:series/indie_fighters/shovelknight/logic/abilities/flare_wand/check
 execute if entity @s[scores={useAbility=1..,cooldown.1=..0},nbt={SelectedItem:{tag:{throwingAnchor:1}}}] at @s run function ssbrc:series/indie_fighters/shovelknight/logic/abilities/throwing_anchor/check
 execute if entity @s[scores={useAbility=1..,cooldown.2=..0,duration.2=..0},nbt={SelectedItem:{tag:{phaseLocket:1}}}] at @s run function ssbrc:series/indie_fighters/shovelknight/logic/abilities/phase_locket/check
-execute if entity @s[scores={charge.step=5..,cooldown.2=..0},nbt={SelectedItem:{tag:{propellerDagger:1}}}] at @s run function ssbrc:series/indie_fighters/shovelknight/logic/abilities/propeller_dagger/check
+execute if entity @s[scores={charge.step=5..,cooldown.2=..0,duration.2=..0},nbt={SelectedItem:{tag:{propellerDagger:1}}}] at @s run function ssbrc:series/indie_fighters/shovelknight/logic/abilities/propeller_dagger/check
 
 # Mana
 function ssbrc:series/indie_fighters/shovelknight/logic/mana/update
@@ -32,7 +32,7 @@ execute if entity @s[tag=shovelknight.phaseLocket] run function ssbrc:series/ind
 
 # Propeller Dagger
 execute if score @s[tag=shovelknight.propellerDagger] duration.2 matches 1 run function ssbrc:series/indie_fighters/shovelknight/logic/abilities/propeller_dagger/deactivate
-execute if entity @s[tag=shovelknight.propellerDagger,nbt={SelectedItem:{tag:{propellerDagger:1}}}] if score @s charge.input matches 1.. if score @s mana >= #shovelknight.propellerDaggerManaCost vars at @s anchored eyes run particle minecraft:end_rod ^ ^ ^15.0 0.0 0.0 0.0 0.0 1 normal @s
+execute if entity @s[tag=shovelknight.propellerDagger,nbt={SelectedItem:{tag:{propellerDagger:1}}},scores={charge.input=1..,cooldown.2=..0,duration.2=..0}] if score @s mana >= #shovelknight.propellerDaggerManaCost vars at @s anchored eyes run particle minecraft:end_rod ^ ^ ^15.0 0.0 0.0 0.0 0.0 1 normal @s
 
 execute if entity @s[tag=shovelknight.propellerDagger] run function ssbrc:series/indie_fighters/shovelknight/logic/abilities/propeller_dagger/cooldown
 
