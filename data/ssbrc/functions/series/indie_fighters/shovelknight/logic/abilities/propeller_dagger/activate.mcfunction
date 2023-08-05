@@ -9,8 +9,7 @@ scoreboard players set @s duration.2 10
 
 effect give @s minecraft:levitation infinite 0 true
 
-scoreboard players operation @s cooldown.2 = shovelknight.propellerDaggerCooldown vars
-execute if score @s shadow.chaosControl matches 1.. run function ssbrc:logic/characters/cooldown_modifiers/chaos_control/2
+function ssbrc:series/indie_fighters/shovelknight/logic/abilities/propeller_dagger/disable
 
 function ssbrc:logic/characters/flags/use_recovery
 

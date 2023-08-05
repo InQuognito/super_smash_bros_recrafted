@@ -123,7 +123,7 @@ execute as @e[type=minecraft:area_effect_cloud,tag=fireRod,tag=pillar,predicate=
 execute as @e[type=minecraft:marker,tag=iceRod,predicate=ssbrc:id_match] at @s run function ssbrc:series/the_legend_of_zelda/zelda/logic/abilities/ice_rod/tick
 execute as @e[type=minecraft:armor_stand,tag=iceBlock,predicate=ssbrc:id_match] at @s run function ssbrc:series/the_legend_of_zelda/zelda/logic/abilities/ice_rod/alternate_function/tick
 execute as @e[type=minecraft:armor_stand,tag=magicBoomerang,predicate=ssbrc:id_match] at @s run function ssbrc:series/the_legend_of_zelda/zelda/logic/abilities/magic_boomerang/tick
-execute at @s[nbt={Inventory:[{tag:{goronLocket:1}}]}] as @e[type=#ssbrc:arrows,tag=effect.wither,distance=..1.6,predicate=!ssbrc:id_match] unless score @s id = @a[tag=self,limit=1] id run kill @s
+execute at @s[nbt={Inventory:[{tag:{goronLocket:1}}]}] as @e[type=#ssbrc:arrows,tag=effect.wither,distance=..1.6,predicate=!ssbrc:id_match] run kill @s
 
 # Altered Beast
 execute as @e[type=minecraft:arrow,tag=flameHands,predicate=ssbrc:id_match] at @s run function ssbrc:series/retro_fighters/alteredbeast/logic/abilities/flame_hands/tick
