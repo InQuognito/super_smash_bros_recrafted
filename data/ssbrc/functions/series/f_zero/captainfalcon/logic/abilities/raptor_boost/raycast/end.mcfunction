@@ -1,5 +1,5 @@
 teleport @a[tag=self,limit=1] @s
 
-teleport @s ^ ^ ^1.0
+teleport @s ^ ^ ^
 
 scoreboard players reset rayLength temp
