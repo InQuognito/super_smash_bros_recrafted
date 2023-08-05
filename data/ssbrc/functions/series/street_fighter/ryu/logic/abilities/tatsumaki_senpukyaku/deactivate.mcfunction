@@ -1,4 +1,4 @@
-execute at @e[type=minecraft:marker,tag=tatsumakiSenpukyaku,sort=nearest,limit=1,predicate=ssbrc:id_match] run teleport @s ~ ~ ~ ~ ~
+execute rotated as @e[type=minecraft:marker,tag=tatsumakiSenpukyaku,sort=nearest,limit=1,predicate=ssbrc:id_match] run teleport @s ~ ~ ~ ~ ~
 
 kill @e[type=minecraft:marker,tag=tatsumakiSenpukyaku,sort=nearest,limit=1,predicate=ssbrc:id_match]
 
