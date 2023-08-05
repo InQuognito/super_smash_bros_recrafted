@@ -716,7 +716,7 @@
 	},
 	{
 		"function": "minecraft:set_nbt",
-		"tag": "{Trim:{pattern:\"ssbrc:fighters/link/goron\",material:\"minecraft:quartz\"}}",
+		"tag": "{Trim:{pattern:\"ssbrc:fighters/link/goron_tunic\",material:\"minecraft:quartz\"}}",
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -729,7 +729,7 @@
 	},
 	{
 		"function": "minecraft:set_nbt",
-		"tag": "{Trim:{pattern:\"ssbrc:fighters/link/zora\",material:\"minecraft:quartz\"}}",
+		"tag": "{Trim:{pattern:\"ssbrc:fighters/link/zora_tunic\",material:\"minecraft:quartz\"}}",
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
