@@ -32,7 +32,7 @@ execute if entity @s[tag=shovelknight.phaseLocket] run function ssbrc:series/ind
 
 # Propeller Dagger
 execute if score @s[tag=shovelknight.propellerDagger] duration.2 matches 1 run function ssbrc:series/indie_fighters/shovelknight/logic/abilities/propeller_dagger/deactivate
-execute if entity @s[tag=shovelknight.propellerDagger,nbt={SelectedItem:{tag:{propellerDagger:1}}},scores={charge.input=1..,cooldown.2=..0,duration.2=..0}] if score @s mana >= #shovelknight.propellerDaggerManaCost vars at @s anchored eyes run particle minecraft:end_rod ^ ^ ^15.0 0.0 0.0 0.0 0.0 1 normal @s
+execute if entity @s[tag=shovelknight.propellerDagger,nbt={SelectedItem:{tag:{propellerDagger:1}}},scores={charge.input=1..,cooldown.2=..0,duration.2=..0}] if score @s mana >= #shovelknight.propellerDaggerManaCost vars at @s anchored eyes run function ssbrc:series/indie_fighters/shovelknight/logic/abilities/propeller_dagger/particle/raycast/start
 
 execute if entity @s[tag=shovelknight.propellerDagger] run function ssbrc:series/indie_fighters/shovelknight/logic/abilities/propeller_dagger/cooldown
 
