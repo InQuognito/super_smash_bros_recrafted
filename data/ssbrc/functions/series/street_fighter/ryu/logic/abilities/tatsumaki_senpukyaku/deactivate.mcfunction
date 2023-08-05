@@ -1,3 +1,5 @@
+execute at @e[type=minecraft:marker,tag=tatsumakiSenpukyaku,sort=nearest,limit=1,predicate=ssbrc:id_match] run teleport @s ~ ~ ~ ~ ~
+
 kill @e[type=minecraft:marker,tag=tatsumakiSenpukyaku,sort=nearest,limit=1,predicate=ssbrc:id_match]
 
 execute if score $sectorZ map matches 1 run function ssbrc:maps/s/sector_z/logic/effects

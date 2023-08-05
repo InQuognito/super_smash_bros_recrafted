@@ -4,7 +4,7 @@ execute rotated as @e[type=minecraft:marker,tag=ryu.spinner,limit=1] run functio
 
 execute rotated as @e[type=minecraft:marker,tag=ryu.spinner,limit=1] run teleport @a[tag=self,limit=1] ~ ~ ~ ~ ~
 
-function ssbrc:series/street_fighter/ryu/logic/abilities/tatsumaki_senpukyaku/raycast/start
+execute rotated as @s run function ssbrc:series/street_fighter/ryu/logic/abilities/tatsumaki_senpukyaku/raycast/start
 
 scoreboard players add @s temp 1
 kill @s[scores={temp=20..}]
