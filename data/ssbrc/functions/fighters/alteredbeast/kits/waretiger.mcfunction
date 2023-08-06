@@ -10,6 +10,8 @@ loot replace entity @s hotbar.0 loot ssbrc:fighters/alteredbeast/waretiger/feral
 loot replace entity @s hotbar.1 loot ssbrc:fighters/alteredbeast/waretiger/thunderous_roar
 loot replace entity @s weapon.offhand loot ssbrc:fighters/alteredbeast/waretiger/sabretooth
 
+loot replace entity @s hotbar.8 loot ssbrc:fighters/alteredbeast/mark_of_the_beast
+
 function ssbrc:logic/fighters/armor/update
 
 effect give @s minecraft:absorption infinite 0 true

@@ -1,5 +1,4 @@
-tag @s remove human
-tag @s remove demigod
+tag @s remove centurion
 tag @s remove warebear
 tag @s remove waredragon
 tag @s remove waretiger

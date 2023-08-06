@@ -30,7 +30,7 @@ execute if entity @s[tag=steve] run function ssbrc:fighters/steve/kit
 execute if entity @s[tag=wolf] run function ssbrc:fighters/wolf/kit
 execute if entity @s[tag=zelda] run function ssbrc:fighters/zelda/kit
 
-execute if entity @s[tag=alteredbeast] run function ssbrc:fighters/alteredbeast/kits/human
+execute if entity @s[tag=alteredbeast] run function ssbrc:fighters/alteredbeast/kit
 execute if entity @s[tag=alucard] run function ssbrc:fighters/alucard/kit
 execute if entity @s[tag=giegue] run function ssbrc:fighters/giegue/kit
 execute if entity @s[tag=shadow] run function ssbrc:fighters/shadow/kit

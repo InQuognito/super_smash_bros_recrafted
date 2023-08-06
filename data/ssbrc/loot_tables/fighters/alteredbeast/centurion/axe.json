@@ -44,14 +44,14 @@
 								{
 									"attribute": "minecraft:generic.attack_damage",
 									"name": "Attack Damage",
-									"amount": 4,
+									"amount": 5,
 									"operation": "multiply_base",
 									"slot": "mainhand"
 								},
 								{
 									"attribute": "minecraft:generic.attack_speed",
 									"name": "Attack Speed",
-									"amount": 0.5,
+									"amount": 0.75,
 									"operation": "multiply_base",
 									"slot": "mainhand"
 								}

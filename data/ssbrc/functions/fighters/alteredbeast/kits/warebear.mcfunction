@@ -9,6 +9,8 @@ function ssbrc:logic/fighters/effects/jump_boost
 clear @s #ssbrc:equipment
 loot replace entity @s hotbar.0 loot ssbrc:fighters/alteredbeast/warebear/axe
 
+loot replace entity @s hotbar.8 loot ssbrc:fighters/alteredbeast/mark_of_the_beast
+
 function ssbrc:logic/fighters/armor/update
 
 effect give @s minecraft:absorption infinite 1 true
