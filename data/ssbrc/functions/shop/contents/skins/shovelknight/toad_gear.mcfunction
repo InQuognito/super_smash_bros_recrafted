@@ -1,4 +1,4 @@
-advancement grant @s only ssbrc:series/indie_fighters/shovelknight/skins/toad_gear
+advancement grant @s only ssbrc:fighters/shovelknight/skins/toad_gear
 
 scoreboard players operation @s stats.credits -= #price.skin.common vars
 

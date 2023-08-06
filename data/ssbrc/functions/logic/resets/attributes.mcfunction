@@ -1,5 +1,5 @@
-function ssbrc:logic/characters/attributes/modifiers/frostbite/remove
-function ssbrc:logic/characters/natures/reset
+function ssbrc:logic/fighters/attributes/modifiers/frostbite/remove
+function ssbrc:logic/fighters/natures/reset
 function ssbrc:maps/p/pac_maze/logic/fruit/galaxian_flagship/reset
 function ssbrc:maps/p/palutenas_temple/logic/fiends_cauldron/reset
 

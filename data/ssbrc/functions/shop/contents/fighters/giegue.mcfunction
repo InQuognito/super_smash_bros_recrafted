@@ -1,4 +1,4 @@
-advancement grant @s only ssbrc:series/earthbound/giegue/skins/default
+advancement grant @s only ssbrc:fighters/giegue/skins/default
 
 scoreboard players operation @s stats.credits -= #price.fighter.common vars
 

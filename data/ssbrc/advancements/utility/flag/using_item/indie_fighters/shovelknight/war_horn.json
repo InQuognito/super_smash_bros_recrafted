@@ -13,6 +13,6 @@
 		}
 	},
 	"rewards": {
-		"function": "ssbrc:series/indie_fighters/shovelknight/logic/abilities/war_horn/check"
+		"function": "ssbrc:fighters/shovelknight/logic/abilities/war_horn/check"
 	}
 }

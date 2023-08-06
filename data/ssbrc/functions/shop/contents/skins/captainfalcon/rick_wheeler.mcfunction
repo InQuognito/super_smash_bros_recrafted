@@ -1,4 +1,4 @@
-advancement grant @s only ssbrc:series/f_zero/captainfalcon/skins/rick_wheeler
+advancement grant @s only ssbrc:fighters/captainfalcon/skins/rick_wheeler
 
 scoreboard players operation @s stats.credits -= #price.skin.common vars
 

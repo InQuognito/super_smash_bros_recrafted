@@ -7,13 +7,13 @@
 				"player": [],
 				"items": [
 					{
-						"tag": "ssbrc:characters/steve/items"
+						"tag": "ssbrc:fighters/steve/items"
 					}
 				]
 			}
 		}
 	},
 	"rewards": {
-		"function": "ssbrc:series/indie_fighters/steve/logic/item/pickup_test"
+		"function": "ssbrc:fighters/steve/logic/item/pickup_test"
 	}
 }

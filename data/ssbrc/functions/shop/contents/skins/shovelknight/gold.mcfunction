@@ -1,4 +1,4 @@
-advancement grant @s only ssbrc:series/indie_fighters/shovelknight/skins/gold
+advancement grant @s only ssbrc:fighters/shovelknight/skins/gold
 
 tellraw @s [{"translate":"ssbrc.fighters.mastery","color":"white"},{"translate":"ssbrc.fighters.shovelknight","color":"white"},{"translate":"ssbrc.fighters.unlockResult","color":"white"}]
 

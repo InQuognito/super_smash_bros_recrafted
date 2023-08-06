@@ -19,6 +19,6 @@
 		}
 	},
 	"rewards": {
-		"function": "ssbrc:series/fire_emblem/byleth/logic/sword_of_the_creator/hit"
+		"function": "ssbrc:fighters/byleth/logic/sword_of_the_creator/hit"
 	}
 }

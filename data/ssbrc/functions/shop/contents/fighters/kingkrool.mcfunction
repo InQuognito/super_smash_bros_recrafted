@@ -1,4 +1,4 @@
-advancement grant @s only ssbrc:series/donkey_kong/kingkrool/skins/default
+advancement grant @s only ssbrc:fighters/kingkrool/skins/default
 
 scoreboard players operation @s stats.credits -= #price.fighter.common vars
 

@@ -19,6 +19,6 @@
 		}
 	},
 	"rewards": {
-		"function": "ssbrc:logic/characters/effects/wither"
+		"function": "ssbrc:logic/fighters/effects/wither"
 	}
 }

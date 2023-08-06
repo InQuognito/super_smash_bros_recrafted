@@ -17,6 +17,6 @@
 		}
 	},
 	"rewards": {
-		"function": "ssbrc:series/pokemon/pokemontrainer/logic/ivysaur/knock_off/check"
+		"function": "ssbrc:fighters/pokemontrainer/logic/ivysaur/knock_off/check"
 	}
 }

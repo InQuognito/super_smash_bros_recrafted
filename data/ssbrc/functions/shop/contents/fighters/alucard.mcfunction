@@ -1,4 +1,4 @@
-advancement grant @s only ssbrc:series/castlevania/alucard/skins/default
+advancement grant @s only ssbrc:fighters/alucard/skins/default
 
 scoreboard players operation @s stats.credits -= #price.fighter.common vars
 

@@ -1,4 +1,4 @@
-advancement grant @s only ssbrc:series/super_mario_bros/bowser/skins/bowsette
+advancement grant @s only ssbrc:fighters/bowser/skins/bowsette
 
 scoreboard players operation @s stats.credits -= #price.skin.common vars
 

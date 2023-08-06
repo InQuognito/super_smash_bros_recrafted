@@ -1,4 +1,4 @@
-advancement grant @s only ssbrc:series/donkey_kong/donkeykong/skins/super_kong
+advancement grant @s only ssbrc:fighters/donkeykong/skins/super_kong
 
 scoreboard players operation @s stats.credits -= #price.skin.common vars
 

@@ -1,4 +1,4 @@
-advancement grant @s only ssbrc:series/pokemon/greninja/skins/default
+advancement grant @s only ssbrc:fighters/greninja/skins/default
 
 scoreboard players operation @s stats.credits -= #price.fighter.common vars
 

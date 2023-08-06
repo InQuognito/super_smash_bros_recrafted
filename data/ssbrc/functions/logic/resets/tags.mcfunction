@@ -9,8 +9,8 @@ function ssbrc:logic/resets/tags/maps
 
 # Favorites
 
-function ssbrc:series/indie_fighters/shovelknight/kits/offense/reset
-function ssbrc:series/indie_fighters/shovelknight/kits/utility/reset
+function ssbrc:fighters/shovelknight/kits/offense/reset
+function ssbrc:fighters/shovelknight/kits/utility/reset
 
 # Misc
 tag @s remove admin

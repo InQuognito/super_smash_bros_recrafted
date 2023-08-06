@@ -19,6 +19,6 @@
 		}
 	},
 	"rewards": {
-		"function": "ssbrc:series/super_mario_bros/mario/logic/abilities/fireball/hit"
+		"function": "ssbrc:fighters/mario/logic/abilities/fireball/hit"
 	}
 }

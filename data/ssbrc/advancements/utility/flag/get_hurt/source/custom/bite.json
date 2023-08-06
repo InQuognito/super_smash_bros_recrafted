@@ -17,6 +17,6 @@
 		}
 	},
 	"rewards": {
-		"function": "ssbrc:series/pokemon/pokemontrainer/logic/squirtle/bite/check"
+		"function": "ssbrc:fighters/pokemontrainer/logic/squirtle/bite/check"
 	}
 }

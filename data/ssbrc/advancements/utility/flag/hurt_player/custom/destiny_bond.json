@@ -19,6 +19,6 @@
 		}
 	},
 	"rewards": {
-		"function": "ssbrc:series/pokemon/teamrocket/logic/wobbuffet/destiny_bond/hit"
+		"function": "ssbrc:fighters/teamrocket/logic/wobbuffet/destiny_bond/hit"
 	}
 }

@@ -40,4 +40,4 @@ execute as @e[tag=movementEntity] at @s run function ssbrc:logic/tick/movement_e
 execute as @e[type=minecraft:item,nbt={Item:{id:"minecraft:trident"}}] run function ssbrc:logic/tick/projectiles/tridents
 
 # Banned From Having More Than One
-execute as @a[predicate=ssbrc:characters/kits/trident] run function ssbrc:logic/characters/restore_items/trident_count
+execute as @a[predicate=ssbrc:fighters/kits/trident] run function ssbrc:logic/fighters/restore_items/trident_count

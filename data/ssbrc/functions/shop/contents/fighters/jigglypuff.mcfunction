@@ -1,4 +1,4 @@
-advancement grant @s only ssbrc:series/pokemon/jigglypuff/skins/default
+advancement grant @s only ssbrc:fighters/jigglypuff/skins/default
 
 scoreboard players operation @s stats.credits -= #price.fighter.common vars
 

@@ -1,4 +1,4 @@
-advancement grant @s only ssbrc:series/donkey_kong/donkeykong/skins/gold
+advancement grant @s only ssbrc:fighters/donkeykong/skins/gold
 
 tellraw @s [{"translate":"ssbrc.fighters.mastery","color":"white"},{"translate":"ssbrc.fighters.donkeykong","color":"white"},{"translate":"ssbrc.fighters.unlockResult","color":"white"}]
 

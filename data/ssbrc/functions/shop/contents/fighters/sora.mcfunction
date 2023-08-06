@@ -1,4 +1,4 @@
-advancement grant @s only ssbrc:series/kingdom_hearts/sora/skins/default
+advancement grant @s only ssbrc:fighters/sora/skins/default
 
 scoreboard players operation @s stats.credits -= #price.fighter.common vars
 

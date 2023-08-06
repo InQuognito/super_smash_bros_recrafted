@@ -1,4 +1,4 @@
-advancement grant @s only ssbrc:series/metal_gear_solid/snake/skins/iroquois_pliskin
+advancement grant @s only ssbrc:fighters/snake/skins/iroquois_pliskin
 
 scoreboard players operation @s stats.credits -= #price.skin.common vars
 

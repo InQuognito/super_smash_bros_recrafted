@@ -1,4 +1,4 @@
-advancement grant @s only ssbrc:series/metal_gear_solid/snake/skins/gold
+advancement grant @s only ssbrc:fighters/snake/skins/gold
 
 tellraw @s [{"translate":"ssbrc.fighters.mastery","color":"white"},{"translate":"ssbrc.fighters.snake","color":"white"},{"translate":"ssbrc.fighters.unlockResult","color":"white"}]
 

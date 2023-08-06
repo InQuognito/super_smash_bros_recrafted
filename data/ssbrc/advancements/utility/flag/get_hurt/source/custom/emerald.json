@@ -17,6 +17,6 @@
 		}
 	},
 	"rewards": {
-		"function": "ssbrc:series/the_legend_of_zelda/zelda/logic/emerald_check"
+		"function": "ssbrc:fighters/zelda/logic/emerald_check"
 	}
 }

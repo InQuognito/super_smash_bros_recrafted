@@ -1,4 +1,4 @@
-advancement grant @s only ssbrc:series/kingdom_hearts/sora/skins/timeless_river
+advancement grant @s only ssbrc:fighters/sora/skins/timeless_river
 
 scoreboard players operation @s stats.credits -= #price.skin.common vars
 

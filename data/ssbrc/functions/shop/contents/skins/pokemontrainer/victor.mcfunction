@@ -1,4 +1,4 @@
-advancement grant @s only ssbrc:series/pokemon/pokemontrainer/skins/victor
+advancement grant @s only ssbrc:fighters/pokemontrainer/skins/victor
 
 scoreboard players operation @s stats.credits -= #price.skin.common vars
 

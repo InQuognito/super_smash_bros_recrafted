@@ -1,4 +1,4 @@
-advancement grant @s only ssbrc:series/indie_fighters/shovelknight/skins/armor_of_chaos
+advancement grant @s only ssbrc:fighters/shovelknight/skins/armor_of_chaos
 
 scoreboard players operation @s stats.credits -= #price.skin.common vars
 

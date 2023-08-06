@@ -1,4 +1,4 @@
-advancement grant @s only ssbrc:series/f_zero/captainfalcon/skins/blood_falcon
+advancement grant @s only ssbrc:fighters/captainfalcon/skins/blood_falcon
 
 scoreboard players operation @s stats.credits -= #price.skin.common vars
 

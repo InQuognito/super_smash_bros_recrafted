@@ -15,6 +15,6 @@
 		}
 	},
 	"rewards": {
-		"function": "ssbrc:series/persona/joker/logic/abilities/phantom_show/check"
+		"function": "ssbrc:fighters/joker/logic/abilities/phantom_show/check"
 	}
 }

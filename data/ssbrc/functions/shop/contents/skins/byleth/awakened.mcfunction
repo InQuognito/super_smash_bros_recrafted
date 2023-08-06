@@ -1,4 +1,4 @@
-advancement grant @s only ssbrc:series/fire_emblem/byleth/skins/awakened
+advancement grant @s only ssbrc:fighters/byleth/skins/awakened
 
 scoreboard players operation @s stats.credits -= #price.skin.common vars
 

@@ -1,5 +1,5 @@
 tag @s add angelFeather
-function ssbrc:logic/characters/effects/defaults/jump_boost
+function ssbrc:logic/fighters/effects/defaults/jump_boost
 
 item replace entity @s weapon.mainhand with minecraft:air
 

@@ -21,7 +21,7 @@ execute if score hazards options matches 1 if score $towerOfFate map matches 1 u
 data modify entity @e[tag=lobby.timer,limit=1] text set value '[{"translate":"ssbrc.lobby.timeLeft","color":"gold"},{"score":{"name":"gameTime","objective":"timer"},"color":"yellow"},{"translate":"s","color":"gold"}]'
 
 # Ryu
-execute if score gameTime timer matches 60 as @a[tag=ryu,tag=!abilityUsed,nbt=!{Inventory:[{tag:{satsuiNoHadoRage:1}}]}] run loot replace entity @s hotbar.1 loot ssbrc:characters/street_fighter/ryu/satsui_no_hado_rage
+execute if score gameTime timer matches 60 as @a[tag=ryu,tag=!abilityUsed,nbt=!{Inventory:[{tag:{satsuiNoHadoRage:1}}]}] run loot replace entity @s hotbar.1 loot ssbrc:fighters/ryu/satsui_no_hado_rage
 
 # Countdown
 scoreboard players remove gameTime timer 1

@@ -19,6 +19,6 @@
 		}
 	},
 	"rewards": {
-		"function": "ssbrc:series/fire_emblem/byleth/logic/black_eagles/aymr/hit"
+		"function": "ssbrc:fighters/byleth/logic/black_eagles/aymr/hit"
 	}
 }

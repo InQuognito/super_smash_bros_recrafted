@@ -1,4 +1,4 @@
-advancement grant @s only ssbrc:series/earthbound/ness/skins/pajamas
+advancement grant @s only ssbrc:fighters/ness/skins/pajamas
 
 scoreboard players operation @s stats.credits -= #price.skin.common vars
 

@@ -11,7 +11,7 @@ gamemode spectator @s
 spectate @r[predicate=ssbrc:flag/player] @s
 
 # Cleanup fighter remnants
-function ssbrc:logic/characters/cleanup
+function ssbrc:logic/fighters/cleanup
 
 # Tower of Fate
 scoreboard players reset $stockPercentage temp

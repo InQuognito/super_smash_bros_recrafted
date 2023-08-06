@@ -1,4 +1,4 @@
-advancement grant @s only ssbrc:series/sonic_the_hedgehog/shadow/skins/default
+advancement grant @s only ssbrc:fighters/shadow/skins/default
 
 scoreboard players operation @s stats.credits -= #price.fighter.common vars
 

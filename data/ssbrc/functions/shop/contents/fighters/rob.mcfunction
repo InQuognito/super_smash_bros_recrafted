@@ -1,4 +1,4 @@
-advancement grant @s only ssbrc:series/super_smash_bros/rob/skins/default
+advancement grant @s only ssbrc:fighters/rob/skins/default
 
 scoreboard players operation @s stats.credits -= #price.fighter.common vars
 

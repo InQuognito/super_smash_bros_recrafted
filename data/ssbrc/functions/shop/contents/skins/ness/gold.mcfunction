@@ -1,4 +1,4 @@
-advancement grant @s only ssbrc:series/earthbound/ness/skins/gold
+advancement grant @s only ssbrc:fighters/ness/skins/gold
 
 tellraw @s [{"translate":"ssbrc.fighters.mastery","color":"white"},{"translate":"ssbrc.fighters.ness","color":"white"},{"translate":"ssbrc.fighters.unlockResult","color":"white"}]
 

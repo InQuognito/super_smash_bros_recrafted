@@ -1,4 +1,4 @@
-advancement grant @s only ssbrc:series/the_legend_of_zelda/ganondorf/skins/wind_waker
+advancement grant @s only ssbrc:fighters/ganondorf/skins/wind_waker
 
 scoreboard players operation @s stats.credits -= #price.skin.common vars
 

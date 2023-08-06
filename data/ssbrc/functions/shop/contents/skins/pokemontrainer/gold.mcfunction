@@ -1,4 +1,4 @@
-advancement grant @s only ssbrc:series/pokemon/pokemontrainer/skins/gold
+advancement grant @s only ssbrc:fighters/pokemontrainer/skins/gold
 
 tellraw @s [{"translate":"ssbrc.fighters.mastery","color":"white"},{"translate":"ssbrc.fighters.pokemontrainer","color":"white"},{"translate":"ssbrc.fighters.unlockResult","color":"white"}]
 

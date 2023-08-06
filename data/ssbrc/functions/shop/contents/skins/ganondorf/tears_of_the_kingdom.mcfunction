@@ -1,4 +1,4 @@
-advancement grant @s only ssbrc:series/the_legend_of_zelda/ganondorf/skins/tears_of_the_kingdom
+advancement grant @s only ssbrc:fighters/ganondorf/skins/tears_of_the_kingdom
 
 scoreboard players operation @s stats.credits -= #price.skin.common vars
 

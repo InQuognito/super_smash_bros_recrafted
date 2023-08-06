@@ -26,6 +26,6 @@
 		}
 	},
 	"rewards": {
-		"function": "ssbrc:series/kid_icarus/pit/logic/abilities/palutena_bow/split"
+		"function": "ssbrc:fighters/pit/logic/abilities/palutena_bow/split"
 	}
 }

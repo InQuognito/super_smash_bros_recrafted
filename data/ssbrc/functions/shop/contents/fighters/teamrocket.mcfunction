@@ -1,4 +1,4 @@
-advancement grant @s only ssbrc:series/pokemon/teamrocket/skins/default
+advancement grant @s only ssbrc:fighters/teamrocket/skins/default
 
 scoreboard players operation @s stats.credits -= #price.fighter.common vars
 

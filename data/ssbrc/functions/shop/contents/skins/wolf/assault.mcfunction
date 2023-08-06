@@ -1,4 +1,4 @@
-advancement grant @s only ssbrc:series/star_fox/wolf/skins/assault
+advancement grant @s only ssbrc:fighters/wolf/skins/assault
 
 scoreboard players operation @s stats.credits -= #price.skin.common vars
 

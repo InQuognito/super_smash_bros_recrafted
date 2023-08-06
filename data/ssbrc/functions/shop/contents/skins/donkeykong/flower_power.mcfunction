@@ -1,4 +1,4 @@
-advancement grant @s only ssbrc:series/donkey_kong/donkeykong/skins/flower_power
+advancement grant @s only ssbrc:fighters/donkeykong/skins/flower_power
 
 scoreboard players operation @s stats.credits -= #price.skin.common vars
 

@@ -1,4 +1,4 @@
-advancement grant @s only ssbrc:series/indie_fighters/shovelknight/skins/default
+advancement grant @s only ssbrc:fighters/shovelknight/skins/default
 
 scoreboard players operation @s stats.credits -= #price.fighter.common vars
 

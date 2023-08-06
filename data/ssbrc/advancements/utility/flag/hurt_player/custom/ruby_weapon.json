@@ -28,6 +28,6 @@
 		}
 	},
 	"rewards": {
-		"function": "ssbrc:series/the_legend_of_zelda/zelda/logic/ruby_weapon"
+		"function": "ssbrc:fighters/zelda/logic/ruby_weapon"
 	}
 }

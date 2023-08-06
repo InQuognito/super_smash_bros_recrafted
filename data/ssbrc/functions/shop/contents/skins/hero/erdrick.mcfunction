@@ -1,4 +1,4 @@
-advancement grant @s only ssbrc:series/dragon_quest/hero/skins/erdrick
+advancement grant @s only ssbrc:fighters/hero/skins/erdrick
 
 scoreboard players operation @s stats.credits -= #price.skin.common vars
 
