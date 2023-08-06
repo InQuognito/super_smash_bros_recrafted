@@ -8,6 +8,11 @@
 					"type": "minecraft:loot_table",
 					"weight": 1,
 					"name": "ssbrc:fishing/fish/cod"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"weight": 1,
+					"name": "ssbrc:fishing/fish/magikarp"
 				}
 			]
 		}
