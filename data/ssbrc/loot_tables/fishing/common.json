@@ -6,13 +6,33 @@
 			"entries": [
 				{
 					"type": "minecraft:loot_table",
-					"weight": 1,
+					"weight": 4,
 					"name": "ssbrc:fishing/fish/cod"
 				},
 				{
 					"type": "minecraft:loot_table",
-					"weight": 1,
+					"weight": 3,
+					"name": "ssbrc:fishing/fish/cheep_cheep"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"weight": 3,
 					"name": "ssbrc:fishing/fish/magikarp"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"weight": 2,
+					"name": "ssbrc:fishing/fish/blipper"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"weight": 2,
+					"name": "ssbrc:fishing/fish/wogpole"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"weight": 1,
+					"name": "ssbrc:fishing/fish/troupple"
 				}
 			]
 		}

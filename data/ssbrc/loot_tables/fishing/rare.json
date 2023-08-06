@@ -6,13 +6,23 @@
 			"entries": [
 				{
 					"type": "minecraft:loot_table",
-					"weight": 9,
+					"weight": 4,
 					"name": "ssbrc:fishing/fish/tropical_fish"
 				},
 				{
 					"type": "minecraft:loot_table",
-					"weight": 1,
+					"weight": 3,
 					"name": "ssbrc:fishing/fish/pufferfish"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"weight": 2,
+					"name": "ssbrc:fishing/fish/sea_neon"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"weight": 1,
+					"name": "ssbrc:fishing/fish/treasurefish"
 				}
 			]
 		}

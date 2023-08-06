@@ -6,15 +6,14 @@
 			"entries": [
 				{
 					"type": "minecraft:item",
-					"weight": 2,
-					"name": "minecraft:tropical_fish",
+					"name": "minecraft:cod",
 					"functions": [
 						{
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"text": "Tropical Fish",
-								"color": "blue",
+								"text": "Puftup",
+								"color": "green",
 								"bold": true,
 								"italic": false
 							}
@@ -24,7 +23,7 @@
 							"entity": "this",
 							"lore": [
 								{
-									"text": "Minecraft",
+									"text": "Donkey Kong",
 									"color": "gray",
 									"bold": false,
 									"italic": false
@@ -36,15 +35,14 @@
 				},
 				{
 					"type": "minecraft:item",
-					"weight": 1,
-					"name": "minecraft:tropical_fish",
+					"name": "minecraft:cod",
 					"functions": [
 						{
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"text": "Tropical Fish",
-								"color": "blue",
+								"text": "Puftup",
+								"color": "green",
 								"bold": true,
 								"italic": false
 							}
@@ -54,7 +52,36 @@
 							"entity": "this",
 							"lore": [
 								{
-									"text": "Game & Watch",
+									"text": "Donkey Kong",
+									"color": "gray",
+									"bold": false,
+									"italic": false
+								}
+							],
+							"replace": true
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:cod",
+					"functions": [
+						{
+							"function": "minecraft:set_name",
+							"entity": "this",
+							"name": {
+								"text": "Puftup",
+								"color": "green",
+								"bold": true,
+								"italic": false
+							}
+						},
+						{
+							"function": "minecraft:set_lore",
+							"entity": "this",
+							"lore": [
+								{
+									"text": "Donkey Kong",
 									"color": "gray",
 									"bold": false,
 									"italic": false

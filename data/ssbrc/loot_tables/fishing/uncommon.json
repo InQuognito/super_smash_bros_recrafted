@@ -6,8 +6,28 @@
 			"entries": [
 				{
 					"type": "minecraft:loot_table",
-					"weight": 1,
+					"weight": 5,
 					"name": "ssbrc:fishing/fish/salmon"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"weight": 4,
+					"name": "ssbrc:fishing/fish/blooper"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"weight": 3,
+					"name": "ssbrc:fishing/fish/puftup"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"weight": 2,
+					"name": "ssbrc:fishing/fish/chopper"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"weight": 1,
+					"name": "ssbrc:fishing/fish/aqua_slime"
 				}
 			]
 		}

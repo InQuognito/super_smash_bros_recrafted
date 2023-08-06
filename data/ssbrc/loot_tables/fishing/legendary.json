@@ -5,8 +5,8 @@
 			"rolls": 1,
 			"entries": [
 				{
-					"type": "minecraft:item",
-					"name": "minecraft:air"
+					"type": "minecraft:loot_table",
+					"name": "ssbrc:fishing/fish/hylian_loach"
 				}
 			]
 		}
