@@ -9,6 +9,8 @@ execute if entity @s[predicate=ssbrc:fighters/alteredbeast/is_beast] run functio
 
 function ssbrc:fighters/alteredbeast/logic/spirit_gauge/update
 
+function ssbrc:fighters/alteredbeast/logic/spirit_gauge/cooldown
+
 # Waredragon
 execute at @s[tag=waredragon,predicate=ssbrc:flag/sneaking] run function ssbrc:logic/fighters/slow_falling
 
