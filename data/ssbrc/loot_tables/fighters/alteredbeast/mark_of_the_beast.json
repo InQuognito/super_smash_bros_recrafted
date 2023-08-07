@@ -39,7 +39,7 @@
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{markOfTheBeast:1,Unbreakable:1b,HideFlags:255}"
+							"tag": "{markOfTheBeast:1,HideFlags:255}"
 						}
 					]
 				}

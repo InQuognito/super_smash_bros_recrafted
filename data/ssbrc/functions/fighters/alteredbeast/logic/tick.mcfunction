@@ -1,7 +1,7 @@
 execute if entity @s[scores={useAbility=1..,cooldown.1=..0,duration.1=..0},nbt={SelectedItem:{tag:{electrocution:1}}}] at @s run function ssbrc:fighters/alteredbeast/logic/waredragon/electrocution/activate
 execute if entity @s[scores={useAbility=1..,cooldown.1=..0},nbt={SelectedItem:{tag:{flameHands:1}}}] at @s anchored eyes positioned ^ ^ ^ run function ssbrc:fighters/alteredbeast/logic/warewolf/flame_hands/activate
 
-execute if entity @s[scores={useAbility=1..},nbt={SelectedItem:{tag:{markOfTheBeast:1}}}] run function ssbrc:fighters/alteredbeast/logic/spirit_gauge/check
+execute if entity @s[scores={useAbility=1..,cooldown.3=..0},nbt={SelectedItem:{tag:{markOfTheBeast:1}}}] run function ssbrc:fighters/alteredbeast/logic/spirit_gauge/check
 
 # Spirit Gauge
 execute if score @s[predicate=!ssbrc:fighters/alteredbeast/is_beast] charge.1 < alteredbeast.maxGauge vars run scoreboard players add @s charge.1 1
