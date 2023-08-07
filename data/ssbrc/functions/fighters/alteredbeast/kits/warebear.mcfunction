@@ -1,7 +1,7 @@
 function ssbrc:fighters/alteredbeast/kits/reset
 tag @s add warebear
 
-tellraw @s [{"translate":"ssbrc.fighters.alteredbeast.form","bold":true,"color":"gold"},{"translate":"ssbrc.fighters.alteredbeast.form.warebear","bold":false,"color":"yellow"}]
+tellraw @s [{"translate":"ssbrc.fighters.alteredbeast.form","bold":true,"color":"gold"},{"translate":"ssbrc.fighters.alteredbeast.warebear","bold":false,"color":"yellow"}]
 
 function ssbrc:logic/fighters/attributes/defaults
 function ssbrc:logic/fighters/effects/jump_boost

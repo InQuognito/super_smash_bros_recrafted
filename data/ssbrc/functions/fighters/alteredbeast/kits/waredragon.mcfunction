@@ -1,7 +1,7 @@
 function ssbrc:fighters/alteredbeast/kits/reset
 tag @s add waredragon
 
-tellraw @s [{"translate":"ssbrc.fighters.alteredbeast.form","bold":true,"color":"gold"},{"translate":"ssbrc.fighters.alteredbeast.form.waredragon","bold":false,"color":"yellow"}]
+tellraw @s [{"translate":"ssbrc.fighters.alteredbeast.form","bold":true,"color":"gold"},{"translate":"ssbrc.fighters.alteredbeast.waredragon","bold":false,"color":"yellow"}]
 
 function ssbrc:logic/fighters/attributes/defaults
 

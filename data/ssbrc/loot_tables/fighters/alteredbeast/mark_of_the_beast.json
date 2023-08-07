@@ -13,7 +13,7 @@
 							"entity": "this",
 							"name": {
 								"translate": "ssbrc.tooltips.alteredbeast.markOfTheBeast",
-								"color": "gray",
+								"color": "dark_red",
 								"bold": true,
 								"italic": false
 							}
@@ -30,10 +30,9 @@
 								},
 								{
 									"translate": "ssbrc.tooltips.alteredbeast.markOfTheBeast.description.1",
-									"color": "white",
+									"color": "gray",
 									"bold": false,
-									"italic": false,
-									"underlined": true
+									"italic": false
 								}
 							],
 							"replace": true

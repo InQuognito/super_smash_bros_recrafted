@@ -12,8 +12,8 @@
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"translate": "ssbrc.tooltips.alteredbeast.plainAxe",
-								"color": "gray",
+								"translate": "ssbrc.tooltips.alteredbeast.centurion.sharpAxe",
+								"color": "white",
 								"bold": true,
 								"italic": false
 							}
