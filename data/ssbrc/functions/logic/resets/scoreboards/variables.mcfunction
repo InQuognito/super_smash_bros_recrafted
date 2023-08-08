@@ -8,6 +8,7 @@ scoreboard players set #frostbiteTimer vars 100
 # Fighters
 scoreboard players set alteredbeast.maxGauge vars 1000
 scoreboard players set alteredbeast.markOfTheBeastCooldown vars 200
+scoreboard players set alteredbeast.petrifyingBreathCooldown vars 100
 scoreboard players set alteredbeast.electrocutionCooldown vars 300
 scoreboard players set alteredbeast.flameHandsCooldown vars 20
 

@@ -13,6 +13,4 @@ loot replace entity @s hotbar.8 loot ssbrc:fighters/alteredbeast/mark_of_the_bea
 
 function ssbrc:logic/fighters/armor/update
 
-effect give @s minecraft:absorption infinite 0 true
-
 execute at @s run playsound ssbrc:fighters.alteredbeast.transform.warewolf player @a

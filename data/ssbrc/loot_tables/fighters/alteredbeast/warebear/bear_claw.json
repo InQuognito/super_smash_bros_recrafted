@@ -6,14 +6,14 @@
 			"entries": [
 				{
 					"type": "minecraft:item",
-					"name": "minecraft:iron_axe",
+					"name": "minecraft:golden_axe",
 					"functions": [
 						{
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"translate": "ssbrc.tooltips.alteredbeast.centurion.sharpAxe",
-								"color": "white",
+								"translate": "ssbrc.tooltips.alteredbeast.warebear.bearClaw",
+								"color": "gold",
 								"bold": true,
 								"italic": false
 							}
@@ -44,14 +44,14 @@
 								{
 									"attribute": "minecraft:generic.attack_damage",
 									"name": "Attack Damage",
-									"amount": 6,
+									"amount": 8,
 									"operation": "multiply_base",
 									"slot": "mainhand"
 								},
 								{
 									"attribute": "minecraft:generic.attack_speed",
 									"name": "Attack Speed",
-									"amount": 1,
+									"amount": 0.5,
 									"operation": "multiply_base",
 									"slot": "mainhand"
 								}
@@ -59,7 +59,7 @@
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{axe:1,Unbreakable:1b,HideFlags:255}"
+							"tag": "{bearclaw:1,Unbreakable:1b,HideFlags:255}"
 						}
 					]
 				}
