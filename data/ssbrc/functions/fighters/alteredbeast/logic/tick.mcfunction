@@ -1,4 +1,4 @@
-execute if entity @s[scores={useAbility=1..,cooldown.1=..0,duration.1=..0},nbt={SelectedItem:{tag:{petrifyingBreath:1}}}] at @s anchored eyes positioned ^ ^ ^1 run function ssbrc:fighters/alteredbeast/logic/warebear/petrifying_breath/activate
+execute if entity @s[scores={useAbility=1..,cooldown.1=..0,duration.1=..0},nbt={SelectedItem:{tag:{petrifyingBreath:1}}}] run function ssbrc:fighters/alteredbeast/logic/warebear/petrifying_breath/activate
 
 execute if entity @s[scores={useAbility=1..,cooldown.1=..0,duration.1=..0},nbt={SelectedItem:{tag:{electrocution:1}}}] at @s run function ssbrc:fighters/alteredbeast/logic/waredragon/electrocution/activate
 
@@ -16,8 +16,10 @@ function ssbrc:fighters/alteredbeast/logic/spirit_gauge/cooldown
 
 # Warebear
 # Petrifying Breath
-execute at @s[tag=warebear,scores={duration.1=2..}] run function ssbrc:fighters/alteredbeast/logic/warebear/petrifying_breath/tick
+execute at @s[tag=warebear,scores={duration.1=2..}] anchored eyes positioned ^ ^ ^1 run function ssbrc:fighters/alteredbeast/logic/warebear/petrifying_breath/tick
 execute at @s[tag=warebear,scores={duration.1=1}] run function ssbrc:fighters/alteredbeast/logic/warebear/petrifying_breath/deactivate
+
+execute if entity @s[tag=warebear] run function ssbrc:fighters/alteredbeast/logic/warebear/petrifying_breath/cooldown
 
 # Waredragon
 execute at @s[tag=waredragon,predicate=ssbrc:flag/sneaking] run function ssbrc:logic/fighters/slow_falling

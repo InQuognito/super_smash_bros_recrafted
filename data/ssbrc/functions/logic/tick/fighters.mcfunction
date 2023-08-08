@@ -84,7 +84,7 @@ execute if score @s frostbiteTimer matches 1.. at @s run function ssbrc:logic/fi
 
 execute at @s if entity @e[type=minecraft:marker,tag=electricTerrain,distance=..12] if block ~ ~ ~ minecraft:water run damage @s 6.0 ssbrc:projectile
 
-execute if entity @s[tag=status.petrified] run function ssbrc:fighters/alteredbeast/logic/warebear/petrifying_breath/petrified/tick
+execute if entity @s[scores={status.petrified=1..}] run function ssbrc:fighters/alteredbeast/logic/warebear/petrifying_breath/petrified/tick
 
 scoreboard players add @s[tag=immobile.pkFlash] timer.pkFlash 1
 execute if score @s timer.pkFlash matches 40.. run function ssbrc:fighters/ness/logic/abilities/pk_flash/damage/mobilize

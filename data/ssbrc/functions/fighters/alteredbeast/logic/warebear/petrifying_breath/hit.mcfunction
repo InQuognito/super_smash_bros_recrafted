@@ -1,4 +1,4 @@
-tag @s add petrified
+scoreboard players set @s status.petrified 1
 
 effect give @s minecraft:blindness 2 0 true
 
