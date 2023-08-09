@@ -4,6 +4,8 @@ execute unless score timeLimit options matches 0.. run scoreboard players set ti
 execute unless score teams options matches 0.. run scoreboard players set teams options 0
 execute unless score friendlyFire options matches 0.. run scoreboard players set friendlyFire options 0
 execute unless score hazards options matches 0.. run scoreboard players set hazards options 1
+execute unless score items options matches 0.. run scoreboard players set items options 1
+execute unless score itemRate options matches 0.. run scoreboard players set itemRate options 2
 execute unless score blindPick options matches 0.. run scoreboard players set blindPick options 0
 execute unless score music options matches 0.. run scoreboard players set music options 0
 
