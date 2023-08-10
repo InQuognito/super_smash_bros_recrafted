@@ -185,6 +185,9 @@ scoreboard players operation thwompSinkTime vars *= 3 integers
 
 scoreboard players set cameraRange vars 5
 
+# Items
+scoreboard players set maxItemCount vars 4
+
 # Common Currency Values
 scoreboard players set value.participation vars 100
 

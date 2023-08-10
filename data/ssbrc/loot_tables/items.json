@@ -17,7 +17,7 @@
 			"functions": [
 				{
 					"function": "minecraft:set_nbt",
-					"tag": "{item:1,Glowing:1b}"
+					"tag": "{item:1,temp:1}"
 				}
 			]
 		}
