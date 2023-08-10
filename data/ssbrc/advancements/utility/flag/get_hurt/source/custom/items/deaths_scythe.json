@@ -1,0 +1,22 @@
+{
+	"parent": "ssbrc:utility/root",
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:entity_hurt_player",
+			"conditions": {
+				"damage": {
+					"source_entity": {
+						"equipment": {
+							"mainhand": {
+								"nbt": "{deathsScythe:1}"
+							}
+						}
+					}
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "ssbrc:items/deaths_scythe/check"
+	}
+}

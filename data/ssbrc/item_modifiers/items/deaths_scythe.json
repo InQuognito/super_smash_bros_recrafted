@@ -42,7 +42,26 @@
 		"replace": true
 	},
 	{
+		"function": "minecraft:set_attributes",
+		"modifiers": [
+			{
+				"attribute": "minecraft:generic.attack_damage",
+				"name": "Attack Damage",
+				"amount": 2,
+				"operation": "multiply_base",
+				"slot": "mainhand"
+			},
+			{
+				"attribute": "minecraft:generic.attack_speed",
+				"name": "Attack Speed",
+				"amount": 1,
+				"operation": "multiply_base",
+				"slot": "mainhand"
+			}
+		]
+	},
+	{
 		"function": "minecraft:set_nbt",
-		"tag": "{deathsScythe:1,CustomModelData:100000}"
+		"tag": "{deathsScythe:1,Damage:2028,CustomModelData:100000}"
 	}
 ]
