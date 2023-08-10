@@ -5,7 +5,7 @@
 		"name": {
 			"translate": "ssbrc.tooltips.item.maximTomato",
 			"color": "red",
-			"bold": false,
+			"bold": true,
 			"italic": false
 		}
 	},
