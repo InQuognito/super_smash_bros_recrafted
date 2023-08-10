@@ -6,6 +6,17 @@
 				{
 					"type": "minecraft:item",
 					"weight": 1,
+					"name": "minecraft:netherite_hoe",
+					"functions": [
+						{
+							"function": "minecraft:reference",
+							"name": "ssbrc:items/deaths_scythe"
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 1,
 					"name": "minecraft:warped_fungus_on_a_stick",
 					"functions": [
 						{
