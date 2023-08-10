@@ -9,16 +9,7 @@ summon minecraft:marker 2509.5 14.0 4000.5 {Tags:["spawnpoint"]}
 summon minecraft:marker 2509.5 15.0 4016.5 {Tags:["spawnpoint"]}
 summon minecraft:marker 2527.5 16.0 3990.5 {Tags:["spawnpoint"]}
 
-summon minecraft:marker 23458.5 27.0 8650.5 {Tags:["spawnpoint.item"]}
-summon minecraft:marker 23445.5 27.0 8646.5 {Tags:["spawnpoint.item"]}
-summon minecraft:marker 23449.5 27.0 8626.5 {Tags:["spawnpoint.item"]}
-summon minecraft:marker 23463.5 27.0 8628.5 {Tags:["spawnpoint.item"]}
-summon minecraft:marker 23452.5 27.0 8639.5 {Tags:["spawnpoint.item"]}
-summon minecraft:marker 23446.5 27.0 8649.5 {Tags:["spawnpoint.item"]}
-summon minecraft:marker 23468.5 27.0 8651.5 {Tags:["spawnpoint.item"]}
-summon minecraft:marker 23472.5 27.0 8632.5 {Tags:["spawnpoint.item"]}
-summon minecraft:marker 23450.5 26.0 8641.5 {Tags:["spawnpoint.item"]}
-summon minecraft:marker 23455.5 26.0 8632.5 {Tags:["spawnpoint.item"]}
+execute if predicate ssbrc:item_spawnpoints run function ssbrc:maps/l/lake_of_rage/item_spawnpoints
 
 execute as @e[type=minecraft:armor_stand,tag=gastly] if predicate ssbrc:shiny_chance run function ssbrc:maps/l/lake_of_rage/logic/pokemon/gastly/shiny
 execute as @e[type=minecraft:item_display,tag=geodude] if predicate ssbrc:shiny_chance run item replace entity @s hotbar.0 with minecraft:diamond{CustomModelData:741}

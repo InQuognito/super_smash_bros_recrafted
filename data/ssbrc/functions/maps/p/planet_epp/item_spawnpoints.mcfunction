@@ -1,0 +1,10 @@
+summon minecraft:marker 9995.5 4.0 19911.5 {Tags:["spawnpoint.item"]}
+summon minecraft:marker 9994.5 4.0 19939.5 {Tags:["spawnpoint.item"]}
+summon minecraft:marker 9973.5 5.0 19939.5 {Tags:["spawnpoint.item"]}
+summon minecraft:marker 9984.5 4.0 19923.5 {Tags:["spawnpoint.item"]}
+summon minecraft:marker 9976.5 4.0 19907.5 {Tags:["spawnpoint.item"]}
+summon minecraft:marker 9973.5 4.0 19879.5 {Tags:["spawnpoint.item"]}
+summon minecraft:marker 9980.5 6.0 19866.5 {Tags:["spawnpoint.item"]}
+summon minecraft:marker 9992.5 4.0 19878.5 {Tags:["spawnpoint.item"]}
+summon minecraft:marker 9999.5 10.0 19867.5 {Tags:["spawnpoint.item"]}
+summon minecraft:marker 9968.5 10.0 19927.5 {Tags:["spawnpoint.item"]}
