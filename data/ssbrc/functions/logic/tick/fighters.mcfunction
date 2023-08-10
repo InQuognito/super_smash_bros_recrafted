@@ -62,14 +62,11 @@ execute at @s[scores={jumps=1..}] run function ssbrc:logic/fighters/jump
 function ssbrc:logic/tick/assign_teams
 
 # Items
-execute if entity @s[scores={useItem=1..},nbt={SelectedItem:{tag:{angelFeather:1}}}] run function ssbrc:maps/p/palutenas_temple/logic/angel_feather/activate
-execute if entity @s[scores={useItem=1..},nbt={SelectedItem:{tag:{powerPellet:1}}}] run function ssbrc:maps/p/pac_maze/logic/power_pellet/use
+execute if entity @s[scores={useItem=1..}] run function ssbrc:logic/tick/items
 
 execute at @s[tag=angelFeather] run particle minecraft:dust_color_transition 1.0 1.0 0.0 0.5 1.0 1.0 1.0 ~ ~0.75 ~ 0.2 0.3 0.2 0.0 3 normal @a
 
-scoreboard players reset @s useItem
-
-# Character Effects
+# Fighter Effects
 execute at @s[tag=gold,predicate=!ssbrc:flag/sprinting] run particle minecraft:dust_color_transition 0.5 0.5 0.0 0.5 1.0 1.0 0.0 ~ ~0.75 ~ 0.2 0.3 0.2 0.0 3 normal @a
 execute at @s[tag=gold,predicate=ssbrc:flag/sprinting] run particle minecraft:dust_color_transition 0.5 0.5 0.0 0.5 1.0 1.0 0.0 ~ ~0.75 ~ 0.2 0.3 0.2 0.0 6 normal @a
 scoreboard players reset @s flag.walking
@@ -98,7 +95,7 @@ execute if score @s leechSeedStacks matches 1.. run function ssbrc:fighters/poke
 scoreboard players remove @s[scores={flinch=1..}] flinch 1
 execute if score @s flinch matches 1 run function ssbrc:logic/fighters/effects/mobility/mobilize
 
-# Map Effects
+# Stage Effects
 execute at @s unless block ~ ~ ~ minecraft:lava run scoreboard players remove @s[scores={flag.inLava=1..}] flag.inLava 1
 execute at @s if block ~ ~ ~ minecraft:lava run scoreboard players add @s flag.inLava 1
 execute if score @s flag.inLava matches 60.. run kill @s

@@ -1,0 +1,25 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:warped_fungus_on_a_stick",
+					"functions": [
+						{
+							"function": "minecraft:reference",
+							"name": "ssbrc:items/maxim_tomato"
+						}
+					]
+				}
+			],
+			"functions": [
+				{
+					"function": "minecraft:set_nbt",
+					"tag": "{item:1,Glowing:1b}"
+				}
+			]
+		}
+	]
+}

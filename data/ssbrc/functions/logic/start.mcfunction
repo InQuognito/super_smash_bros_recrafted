@@ -44,6 +44,8 @@ function ssbrc:logic/music/decide
 
 function ssbrc:logic/start_hazards
 
+execute if score items options matches 1 if score itemRate options matches 1.. run function ssbrc:items/spawn
+
 scoreboard players reset @a fallDistance
 
 tag @e[type=minecraft:marker,tag=tpDest] remove tpDest

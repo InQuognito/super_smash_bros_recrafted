@@ -1,3 +1,4 @@
+schedule clear ssbrc:items/spawn
 schedule clear ssbrc:logic/music/decide
 schedule clear ssbrc:logic/music/loop_schedule
 schedule clear ssbrc:logic/music/mass_destruction_dual_mix
