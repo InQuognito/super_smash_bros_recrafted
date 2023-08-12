@@ -62,6 +62,6 @@
 	},
 	{
 		"function": "minecraft:set_nbt",
-		"tag": "{deathsScythe:1,Damage:2028,CustomModelData:100000}"
+		"tag": "{deathsScythe:1,Damage:2028,CustomModelData:100000,HideFlags:255}"
 	}
 ]

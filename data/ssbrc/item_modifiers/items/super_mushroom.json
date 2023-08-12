@@ -56,6 +56,6 @@
 	},
 	{
 		"function": "minecraft:set_nbt",
-		"tag": "{superMushroom:1}"
+		"tag": "{superMushroom:1,HideFlags:255}"
 	}
 ]

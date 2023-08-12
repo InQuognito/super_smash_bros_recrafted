@@ -56,6 +56,6 @@
 	},
 	{
 		"function": "minecraft:set_nbt",
-		"tag": "{poisonMushroom:1}"
+		"tag": "{poisonMushroom:1,HideFlags:255}"
 	}
 ]

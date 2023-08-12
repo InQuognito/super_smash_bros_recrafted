@@ -76,6 +76,6 @@
 	},
 	{
 		"function": "minecraft:set_nbt",
-		"tag": "{rayGun:1}"
+		"tag": "{rayGun:1,HideFlags:255}"
 	}
 ]
