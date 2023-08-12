@@ -2,4 +2,4 @@
 
 scoreboard players set @s item.superMushroom 200
 
-clear @s minecraft:warped_fungus_on_a_stick{poisonMushroom:1} 1
+clear @s minecraft:red_mushroom{poisonMushroom:1} 1
