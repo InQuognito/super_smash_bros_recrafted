@@ -24,6 +24,39 @@
 							"name": "ssbrc:items/maxim_tomato"
 						}
 					]
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 1,
+					"name": "minecraft:red_mushroom",
+					"functions": [
+						{
+							"function": "minecraft:reference",
+							"name": "ssbrc:items/poison_mushroom"
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 1,
+					"name": "minecraft:warped_fungus_on_a_stick",
+					"functions": [
+						{
+							"function": "minecraft:reference",
+							"name": "ssbrc:items/ray_gun"
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 1,
+					"name": "minecraft:red_mushroom",
+					"functions": [
+						{
+							"function": "minecraft:reference",
+							"name": "ssbrc:items/super_mushroom"
+						}
+					]
 				}
 			],
 			"functions": [
