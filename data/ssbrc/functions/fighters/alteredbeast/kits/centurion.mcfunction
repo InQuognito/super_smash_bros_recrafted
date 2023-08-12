@@ -8,5 +8,7 @@ loot replace entity @s hotbar.8 loot ssbrc:fighters/alteredbeast/mark_of_the_bea
 
 function ssbrc:logic/fighters/armor/update
 
+scoreboard players set cooldownModifierType temp 3
 scoreboard players operation @s cooldown.3 = alteredbeast.markOfTheBeastCooldown vars
-execute if score @s shadow.chaosControl matches 1.. run function ssbrc:logic/fighters/cooldown_modifiers/chaos_control/3
+scoreboard players operation cooldownModifier temp = @s cooldown.3
+execute if score @s shadow.chaosControl matches 1.. run function ssbrc:logic/fighters/cooldown_modifiers/chaos_control

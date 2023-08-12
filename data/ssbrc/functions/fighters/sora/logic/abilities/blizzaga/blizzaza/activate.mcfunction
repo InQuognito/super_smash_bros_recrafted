@@ -10,8 +10,10 @@ scoreboard players operation #blizzazaCost temp = #sora.blizzazaMPCost vars
 execute if score @s charge.4 matches 3.. run scoreboard players operation #blizzazaCost temp *= 4 integers
 scoreboard players operation @s mana -= #blizzazaCost temp
 
+scoreboard players set cooldownModifierType temp 1
 scoreboard players set @s cooldown.1 10
-execute if score @s shadow.chaosControl matches 1.. run function ssbrc:logic/fighters/cooldown_modifiers/chaos_control/1
+scoreboard players operation cooldownModifier temp = @s cooldown.1
+execute if score @s shadow.chaosControl matches 1.. run function ssbrc:logic/fighters/cooldown_modifiers/chaos_control
 
 execute if score @s charge.4 matches 3.. run scoreboard players reset @s charge.4
 execute if score @s charge.4 matches 3.. run scoreboard players set @s duration.2 0

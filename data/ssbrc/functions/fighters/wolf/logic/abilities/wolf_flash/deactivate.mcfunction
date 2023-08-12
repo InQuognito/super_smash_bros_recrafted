@@ -1,5 +1,4 @@
-scoreboard players set @a[tag=self,limit=1] cooldown.3 80
-execute if score @a[tag=self,limit=1] shadow.chaosControl matches 1.. run function ssbrc:logic/fighters/cooldown_modifiers/chaos_control/3
+execute as @a[tag=self,limit=1] run function ssbrc:fighters/wolf/logic/abilities/wolf_flash/cooldown
 
 kill @s
 

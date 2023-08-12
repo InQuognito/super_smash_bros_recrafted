@@ -12,8 +12,7 @@ function ssbrc:fighters/shadow/logic/chaos_spear/chaos_energy/calculate
 execute if score chaosEnergy temp >= shadow.chaosSpearCost vars run function ssbrc:fighters/shadow/logic/chaos_spear/cooldown
 
 # Chaos Control
-scoreboard players remove @a[scores={shadow.chaosControl=1..}] shadow.chaosControl 1
-execute as @a[scores={shadow.chaosControl=..0}] run function ssbrc:fighters/shadow/logic/chaos_control/off
+execute as @a[scores={shadow.chaosControl=1..}] run function ssbrc:fighters/shadow/logic/chaos_control/tick
 
 # Chaos Blast
 execute if entity @s[scores={charge.2=1..}] at @s positioned ~ ~0.75 ~ run function ssbrc:fighters/shadow/logic/chaos_blast/charge

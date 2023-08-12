@@ -3,11 +3,14 @@ execute store result score @s health run data get entity @s Health
 scoreboard players remove @s[scores={cooldown.1=1..}] cooldown.1 1
 scoreboard players remove @s[scores={cooldown.2=1..}] cooldown.2 1
 scoreboard players remove @s[scores={cooldown.3=1..}] cooldown.3 1
+scoreboard players remove @s[scores={item.rayGunCooldown=1..}] item.rayGunCooldown 1
 
 scoreboard players add @s[scores={charge.input=1..}] charge.step 1
 scoreboard players add @s[scores={charge.input=1..}] charge.output 1
 scoreboard players reset @s[scores={charge.input=2..}] charge.step
 scoreboard players remove @s[scores={charge.input=2..}] charge.input 1
+
+execute if score @s shadow.chaosControl matches 1.. run scoreboard players set chaosControlled temp 1
 
 execute if entity @s[tag=bowser] run function ssbrc:fighters/bowser/logic/tick
 execute if entity @s[tag=byleth] run function ssbrc:fighters/byleth/logic/tick
@@ -48,6 +51,8 @@ execute if entity @s[tag=shadow] run function ssbrc:fighters/shadow/logic/tick
 execute if entity @s[tag=shovelknight] run function ssbrc:fighters/shovelknight/logic/tick
 execute if entity @s[tag=teamrocket] run function ssbrc:fighters/teamrocket/logic/tick
 execute if entity @s[tag=yar] run function ssbrc:fighters/yar/logic/tick
+
+scoreboard players reset chaosControlled temp
 
 scoreboard players reset @s useAbility
 

@@ -2,8 +2,10 @@ execute summon minecraft:marker run function ssbrc:fighters/megaman/logic/abilit
 
 scoreboard players remove @s charge.1 1
 
+scoreboard players set cooldownModifierType temp 2
 scoreboard players set @s cooldown.2 300
-execute if score @s shadow.chaosControl matches 1.. run function ssbrc:logic/fighters/cooldown_modifiers/chaos_control/2
+scoreboard players operation cooldownModifier temp = @s cooldown.2
+execute if score @s shadow.chaosControl matches 1.. run function ssbrc:logic/fighters/cooldown_modifiers/chaos_control
 
 clear @s[scores={charge.1=..0}] minecraft:carrot_on_a_stick{blackHoleBomb:1}
 

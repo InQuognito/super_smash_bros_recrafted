@@ -1,8 +1,10 @@
 scoreboard players operation limit temp = @s cloud.limit
 execute positioned ^ ^ ^1 summon minecraft:marker run function ssbrc:fighters/cloud/logic/blade_beam/init
 
+scoreboard players set cooldownModifierType temp 2
 scoreboard players set @s cooldown.2 20
-execute if score @s shadow.chaosControl matches 1.. run function ssbrc:logic/fighters/cooldown_modifiers/chaos_control/2
+scoreboard players operation cooldownModifier temp = @s cooldown.2
+execute if score @s shadow.chaosControl matches 1.. run function ssbrc:logic/fighters/cooldown_modifiers/chaos_control
 
 loot replace entity @s[tag=!gold] weapon.mainhand loot ssbrc:fighters/cloud/buster_sword/default/operator/blade_beam
 loot replace entity @s[tag=!gold] weapon.mainhand loot ssbrc:fighters/cloud/buster_sword/default/operator/default

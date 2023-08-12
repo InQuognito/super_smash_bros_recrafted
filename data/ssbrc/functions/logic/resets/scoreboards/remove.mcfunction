@@ -47,6 +47,7 @@ scoreboard objectives remove healthTimer
 scoreboard objectives remove id
 scoreboard objectives remove integers
 scoreboard objectives remove itemCount
+scoreboard objectives remove item.rayGunCooldown
 scoreboard objectives remove joker.tt33A
 scoreboard objectives remove joker.tt33F
 scoreboard objectives remove jumps

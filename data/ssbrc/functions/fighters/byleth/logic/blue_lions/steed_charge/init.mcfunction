@@ -1,6 +1,14 @@
 tag @s add steedCharge
 
-data merge entity @s {Variant:3,SaddleItem:{id:"minecraft:saddle",Count:1},ArmorItem:{id:"minecraft:iron_horse_armor",Count:1},Tame:1,Glowing:1b,PersistenceRequired:1b,Attributes:[{Name:"minecraft:horse.jump_strength",Base:0.7d}]}
+item replace entity @s horse.saddle with minecraft:saddle
+item replace entity @s horse.armor with minecraft:iron_horse_armor
+
+execute unless score chaosControlled temp matches 1 run attribute @s minecraft:generic.movement_speed base set 0.25
+execute if score chaosControlled temp matches 1 run attribute @s minecraft:generic.movement_speed base set 0.1875
+execute unless score chaosControlled temp matches 1 run attribute @s minecraft:horse.jump_strength base set 0.7
+execute if score chaosControlled temp matches 1 run attribute @s minecraft:horse.jump_strength base set 0.525
+
+data merge entity @s {Variant:3,Tame:1,Glowing:1b}
 
 ride @a[tag=self,limit=1] mount @s
 

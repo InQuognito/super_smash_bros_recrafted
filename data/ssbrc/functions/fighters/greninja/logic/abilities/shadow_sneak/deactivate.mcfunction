@@ -7,5 +7,7 @@ kill @e[type=minecraft:marker,tag=shadowSneak,sort=nearest,limit=1,predicate=ssb
 
 tag @s remove shadowSneak
 
+scoreboard players set cooldownModifierType temp 3
 scoreboard players set @s cooldown.3 40
-execute if score @s shadow.chaosControl matches 1.. run function ssbrc:logic/fighters/cooldown_modifiers/chaos_control/3
+scoreboard players operation cooldownModifier temp = @s cooldown.3
+execute if score @s shadow.chaosControl matches 1.. run function ssbrc:logic/fighters/cooldown_modifiers/chaos_control

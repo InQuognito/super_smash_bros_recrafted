@@ -15,4 +15,5 @@ execute unless block ~ ~ ~ #ssbrc:passthrough run kill @s
 execute positioned ~-0.2 ~ ~-0.2 as @e[tag=!self,predicate=ssbrc:flag/targets,dy=1] positioned ~-0.6 ~ ~-0.6 if entity @s[dy=1] run function ssbrc:fighters/cloud/logic/blade_beam/hit
 execute if score entityHit temp matches 1 run kill @s
 
-teleport @s ^ ^ ^0.5
+execute unless score chaosControlled temp matches 1 run teleport @s ^ ^ ^0.5
+execute if score chaosControlled temp matches 1 run teleport @s ^ ^ ^0.375

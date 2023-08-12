@@ -1,0 +1,21 @@
+{
+	"parent": "ssbrc:utility/root",
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"player": [],
+				"items": [
+					{
+						"items": [
+							"minecraft:warped_fungus_on_a_stick"
+						]
+					}
+				]
+			}
+		}
+	},
+	"rewards": {
+		"function": "ssbrc:items/pickup_test"
+	}
+}
