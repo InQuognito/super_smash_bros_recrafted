@@ -13,7 +13,7 @@
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"text": "Magikarp",
+								"text": "Magikarp ♂",
 								"color": "white",
 								"bold": true,
 								"italic": false
@@ -43,7 +43,7 @@
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"text": "Magikarp",
+								"text": "Magikarp ♀",
 								"color": "white",
 								"bold": true,
 								"italic": false
@@ -73,7 +73,7 @@
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"text": "Magikarp",
+								"text": "Magikarp ♂",
 								"color": "gold",
 								"bold": true,
 								"italic": false
@@ -103,7 +103,7 @@
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"text": "Magikarp",
+								"text": "Magikarp ♀",
 								"color": "gold",
 								"bold": true,
 								"italic": false
