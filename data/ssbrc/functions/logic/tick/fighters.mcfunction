@@ -10,8 +10,6 @@ scoreboard players add @s[scores={charge.input=1..}] charge.output 1
 scoreboard players reset @s[scores={charge.input=2..}] charge.step
 scoreboard players remove @s[scores={charge.input=2..}] charge.input 1
 
-execute if score @s shadow.chaosControl matches 1.. run scoreboard players set chaosControlled temp 1
-
 execute if entity @s[tag=bowser] run function ssbrc:fighters/bowser/logic/tick
 execute if entity @s[tag=byleth] run function ssbrc:fighters/byleth/logic/tick
 execute if entity @s[tag=captainfalcon] run function ssbrc:fighters/captainfalcon/logic/tick
@@ -51,8 +49,6 @@ execute if entity @s[tag=shadow] run function ssbrc:fighters/shadow/logic/tick
 execute if entity @s[tag=shovelknight] run function ssbrc:fighters/shovelknight/logic/tick
 execute if entity @s[tag=teamrocket] run function ssbrc:fighters/teamrocket/logic/tick
 execute if entity @s[tag=yar] run function ssbrc:fighters/yar/logic/tick
-
-scoreboard players reset chaosControlled temp
 
 scoreboard players reset @s useAbility
 
