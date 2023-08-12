@@ -65,6 +65,9 @@ function ssbrc:logic/tick/assign_teams
 # Items
 execute if entity @s[scores={useItem=1..}] run function ssbrc:logic/tick/items
 
+execute if score @s item.poisonMushroom matches 1.. at @s run function ssbrc:items/poison_mushroom/tick
+execute if score @s item.superMushroom matches 1.. at @s run function ssbrc:items/super_mushroom/tick
+
 execute at @s[tag=angelFeather] run particle minecraft:dust_color_transition 1.0 1.0 0.0 0.5 1.0 1.0 1.0 ~ ~0.75 ~ 0.2 0.3 0.2 0.0 3 normal @a
 
 # Fighter Effects
