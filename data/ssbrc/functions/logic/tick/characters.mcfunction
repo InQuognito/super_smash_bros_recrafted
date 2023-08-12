@@ -6,6 +6,9 @@ execute if entity @s[predicate=ssbrc:flag/player] run function ssbrc:logic/tick/
 
 function ssbrc:logic/tick/abilities
 
+# Items
+execute as @e[type=minecraft:arrow,tag=rayGun,predicate=ssbrc:id_match] at @s run function ssbrc:items/ray_gun/tick
+
 scoreboard players reset chaosControlled temp
 
 scoreboard players remove @s[scores={duration.1=1..}] duration.1 1
