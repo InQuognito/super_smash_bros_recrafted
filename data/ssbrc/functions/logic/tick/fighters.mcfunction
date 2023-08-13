@@ -63,7 +63,7 @@ execute at @s[scores={jumps=1..}] run function ssbrc:logic/fighters/jump
 function ssbrc:logic/tick/assign_teams
 
 # Items
-execute if entity @s[scores={useItem=1..}] run function ssbrc:logic/tick/items
+execute if entity @s[scores={useItem=1..}] run function ssbrc:logic/inputs/items
 
 execute if score @s item.poisonMushroom matches 1.. at @s run function ssbrc:items/poison_mushroom/tick
 execute if score @s item.superMushroom matches 1.. at @s run function ssbrc:items/super_mushroom/tick

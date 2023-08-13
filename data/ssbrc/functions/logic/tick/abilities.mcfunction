@@ -1,5 +1,3 @@
-scoreboard players operation idToMatch temp = @s id
-
 # Byleth
 execute as @e[type=minecraft:horse,tag=steedCharge,predicate=ssbrc:id_match] at @s run function ssbrc:fighters/byleth/logic/blue_lions/steed_charge/tick
 execute as @e[type=minecraft:spectral_arrow,tag=failnaught,tag=awakened,predicate=ssbrc:id_match] at @s run function ssbrc:fighters/byleth/logic/golden_deer/failnaught/tick

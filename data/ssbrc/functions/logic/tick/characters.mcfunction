@@ -4,10 +4,9 @@ execute if score @s shadow.chaosControl matches 1.. run scoreboard players set c
 
 execute if entity @s[predicate=ssbrc:flag/player] run function ssbrc:logic/tick/fighters
 
+scoreboard players operation idToMatch temp = @s id
 function ssbrc:logic/tick/abilities
-
-# Items
-execute as @e[type=minecraft:arrow,tag=rayGun,predicate=ssbrc:id_match] at @s run function ssbrc:items/ray_gun/tick
+function ssbrc:logic/tick/items
 
 scoreboard players reset chaosControlled temp
 
