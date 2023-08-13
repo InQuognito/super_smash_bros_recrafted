@@ -1,5 +1,5 @@
 # Characters
-function ssbrc:logic/resets/tags/characters
+function ssbrc:logic/resets/tags/fighters
 
 # Skins
 function ssbrc:logic/resets/tags/skins
