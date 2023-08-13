@@ -14,4 +14,4 @@ execute if score @s duration.1 matches ..10 run function ssbrc:fighters/cloud/lo
 
 execute if score @s duration.1 matches 1 run damage @e[predicate=ssbrc:flag/targets,tag=crossSlashTarget,sort=nearest,limit=1] 24.0 ssbrc:projectile by @a[tag=self,limit=1]
 execute if score @s duration.1 matches 1 run playsound ssbrc:fighters.cloud.cross_slash.hit4 player @a
-execute if score @s duration.1 matches ..1 run function ssbrc:fighters/cloud/logic/cross_slash/end
+execute if score @s duration.1 matches ..1 as @e[predicate=ssbrc:flag/targets,distance=..2.5] run function ssbrc:fighters/cloud/logic/cross_slash/end
