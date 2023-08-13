@@ -1,3 +1,4 @@
+execute if entity @s[nbt={SelectedItem:{tag:{crackerLauncher:1}}}] unless score @s item.crackerLauncherCooldown matches 1.. at @s anchored eyes positioned ^ ^ ^ run function ssbrc:items/cracker_launcher/activate
 execute if entity @s[nbt={SelectedItem:{tag:{rayGun:1}}}] unless score @s item.rayGunCooldown matches 1.. at @s anchored eyes positioned ^ ^ ^ run function ssbrc:items/ray_gun/activate
 
 # Fixed
