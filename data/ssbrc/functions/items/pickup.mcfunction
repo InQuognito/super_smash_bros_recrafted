@@ -1,6 +1,6 @@
 execute store result score itemCount temp if entity @e[type=minecraft:item,nbt={Item:{tag:{item:1}}}]
-execute store result score crackerLauncherCount temp if entity @s[nbt={Inventory:[{tag:{crackerLauncher:1}}]}]
-execute store result score rayGunCount temp if entity @s[nbt={Inventory:[{tag:{rayGun:1}}]}]
+execute store result score crackerLauncherCount temp run clear @s minecraft:warped_fungus_on_a_stick{crackerLauncher:1} 0
+execute store result score rayGunCount temp run clear @s minecraft:warped_fungus_on_a_stick{rayGun:1} 0
 
 execute if score crackerLauncherCount temp matches 2.. run function ssbrc:items/cracker_launcher/refill
 execute if entity @s[nbt={Inventory:[{tag:{food:1}}]}] run function ssbrc:items/food/activate
