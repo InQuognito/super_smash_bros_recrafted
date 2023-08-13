@@ -11,6 +11,11 @@ scoreboard players add @s[scores={charge.input=1..}] charge.output 1
 scoreboard players reset @s[scores={charge.input=2..}] charge.step
 scoreboard players remove @s[scores={charge.input=2..}] charge.input 1
 
+scoreboard players add @s[scores={item.charge.input=1..}] charge.step 1
+scoreboard players add @s[scores={item.charge.input=1..}] charge.output 1
+scoreboard players reset @s[scores={item.charge.input=2..}] charge.step
+scoreboard players remove @s[scores={item.charge.input=2..}] item.charge.input 1
+
 execute if entity @s[tag=bowser] run function ssbrc:fighters/bowser/logic/tick
 execute if entity @s[tag=byleth] run function ssbrc:fighters/byleth/logic/tick
 execute if entity @s[tag=captainfalcon] run function ssbrc:fighters/captainfalcon/logic/tick
@@ -65,6 +70,7 @@ function ssbrc:logic/tick/assign_teams
 
 # Items
 execute if entity @s[scores={useItem=1..}] run function ssbrc:logic/inputs/items
+function ssbrc:logic/inputs/items_charge
 
 execute if score @s item.poisonMushroom matches 1.. at @s run function ssbrc:items/poison_mushroom/tick
 execute if score @s item.superMushroom matches 1.. at @s run function ssbrc:items/super_mushroom/tick

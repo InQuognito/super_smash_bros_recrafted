@@ -4,81 +4,39 @@
 			"rolls": 1,
 			"entries": [
 				{
-					"type": "minecraft:item",
-					"weight": 1,
-					"name": "minecraft:warped_fungus_on_a_stick",
-					"functions": [
-						{
-							"function": "minecraft:reference",
-							"name": "ssbrc:items/cracker_launcher"
-						}
-					]
+					"type": "minecraft:loot_table",
+					"name": "ssbrc:items/cracker_launcher",
+					"weight": 1
 				},
 				{
-					"type": "minecraft:item",
-					"weight": 1,
-					"name": "minecraft:netherite_hoe",
-					"functions": [
-						{
-							"function": "minecraft:reference",
-							"name": "ssbrc:items/deaths_scythe"
-						}
-					]
+					"type": "minecraft:loot_table",
+					"name": "ssbrc:items/deaths_scythe",
+					"weight": 1
 				},
 				{
-					"type": "minecraft:item",
-					"weight": 1,
-					"name": "minecraft:warped_fungus_on_a_stick",
-					"functions": [
-						{
-							"function": "minecraft:reference",
-							"name": "ssbrc:items/food"
-						}
-					]
+					"type": "minecraft:loot_table",
+					"name": "ssbrc:items/food",
+					"weight": 1
 				},
 				{
-					"type": "minecraft:item",
-					"weight": 1,
-					"name": "minecraft:warped_fungus_on_a_stick",
-					"functions": [
-						{
-							"function": "minecraft:reference",
-							"name": "ssbrc:items/maxim_tomato"
-						}
-					]
+					"type": "minecraft:loot_table",
+					"name": "ssbrc:items/maxim_tomato",
+					"weight": 1
 				},
 				{
-					"type": "minecraft:item",
-					"weight": 1,
-					"name": "minecraft:warped_fungus_on_a_stick",
-					"functions": [
-						{
-							"function": "minecraft:reference",
-							"name": "ssbrc:items/poison_mushroom"
-						}
-					]
+					"type": "minecraft:loot_table",
+					"name": "ssbrc:items/poison_mushroom",
+					"weight": 1
 				},
 				{
-					"type": "minecraft:item",
-					"weight": 1,
-					"name": "minecraft:warped_fungus_on_a_stick",
-					"functions": [
-						{
-							"function": "minecraft:reference",
-							"name": "ssbrc:items/ray_gun"
-						}
-					]
+					"type": "minecraft:loot_table",
+					"name": "ssbrc:items/ray_gun",
+					"weight": 1
 				},
 				{
-					"type": "minecraft:item",
-					"weight": 1,
-					"name": "minecraft:warped_fungus_on_a_stick",
-					"functions": [
-						{
-							"function": "minecraft:reference",
-							"name": "ssbrc:items/super_mushroom"
-						}
-					]
+					"type": "minecraft:loot_table",
+					"name": "ssbrc:items/super_mushroom",
+					"weight": 1
 				}
 			],
 			"functions": [
