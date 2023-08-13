@@ -47,6 +47,8 @@ scoreboard objectives add healthTimer dummy
 scoreboard objectives add id dummy
 scoreboard objectives add integers dummy
 scoreboard objectives add itemCount dummy
+scoreboard objectives add item.crackerLauncherCooldown dummy
+scoreboard objectives add item.crackerLauncherUses dummy
 scoreboard objectives add item.poisonMushroom dummy
 scoreboard objectives add item.rayGunCooldown dummy
 scoreboard objectives add item.rayGunUses dummy

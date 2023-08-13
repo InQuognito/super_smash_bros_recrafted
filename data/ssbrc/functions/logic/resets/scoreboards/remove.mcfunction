@@ -47,6 +47,8 @@ scoreboard objectives remove healthTimer
 scoreboard objectives remove id
 scoreboard objectives remove integers
 scoreboard objectives remove itemCount
+scoreboard objectives remove item.crackerLauncherCooldown
+scoreboard objectives remove item.crackerLauncherUses
 scoreboard objectives remove item.poisonMushroom
 scoreboard objectives remove item.rayGunCooldown
 scoreboard objectives remove item.rayGunUses
