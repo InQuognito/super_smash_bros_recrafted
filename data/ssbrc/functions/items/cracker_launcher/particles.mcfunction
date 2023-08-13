@@ -1,0 +1,15 @@
+scoreboard players set max random 12
+function ssbrc:math/rng/lcg
+
+execute if score result random matches 0 run summon minecraft:firework_rocket ~ ~ ~ {LifeTime:0,FireworksItem:{id:"minecraft:firework_rocket",Count:1,tag:{Fireworks:{Flight:0,Explosions:[{Type:0,Colors:[I;15435844,14602026]}]}}}}
+execute if score result random matches 1 run summon minecraft:firework_rocket ~ ~ ~ {LifeTime:0,FireworksItem:{id:"minecraft:firework_rocket",Count:1,tag:{Fireworks:{Flight:0,Explosions:[{Type:2,Colors:[I;15435844,14602026]}]}}}}
+execute if score result random matches 2 run summon minecraft:firework_rocket ~ ~ ~ {LifeTime:0,FireworksItem:{id:"minecraft:firework_rocket",Count:1,tag:{Fireworks:{Flight:0,Explosions:[{Type:4,Colors:[I;15435844,14602026]}]}}}}
+execute if score result random matches 3 run summon minecraft:firework_rocket ~ ~ ~ {LifeTime:0,FireworksItem:{id:"minecraft:firework_rocket",Count:1,tag:{Fireworks:{Flight:0,Explosions:[{Type:0,Colors:[I;15435844,14602026],FadeColors:[I;15790320]}]}}}}
+execute if score result random matches 4 run summon minecraft:firework_rocket ~ ~ ~ {LifeTime:0,FireworksItem:{id:"minecraft:firework_rocket",Count:1,tag:{Fireworks:{Flight:0,Explosions:[{Type:2,Colors:[I;15435844,14602026],FadeColors:[I;15790320]}]}}}}
+execute if score result random matches 5 run summon minecraft:firework_rocket ~ ~ ~ {LifeTime:0,FireworksItem:{id:"minecraft:firework_rocket",Count:1,tag:{Fireworks:{Flight:0,Explosions:[{Type:4,Colors:[I;15435844,14602026],FadeColors:[I;15790320]}]}}}}
+execute if score result random matches 6 run summon minecraft:firework_rocket ~ ~ ~ {LifeTime:0,FireworksItem:{id:"minecraft:firework_rocket",Count:1,tag:{Fireworks:{Flight:0,Explosions:[{Type:0,Colors:[I;15435844,14602026],Trail:1b}]}}}}
+execute if score result random matches 7 run summon minecraft:firework_rocket ~ ~ ~ {LifeTime:0,FireworksItem:{id:"minecraft:firework_rocket",Count:1,tag:{Fireworks:{Flight:0,Explosions:[{Type:2,Colors:[I;15435844,14602026],Trail:1b}]}}}}
+execute if score result random matches 8 run summon minecraft:firework_rocket ~ ~ ~ {LifeTime:0,FireworksItem:{id:"minecraft:firework_rocket",Count:1,tag:{Fireworks:{Flight:0,Explosions:[{Type:4,Colors:[I;15435844,14602026],Trail:1b}]}}}}
+execute if score result random matches 9 run summon minecraft:firework_rocket ~ ~ ~ {LifeTime:0,FireworksItem:{id:"minecraft:firework_rocket",Count:1,tag:{Fireworks:{Flight:0,Explosions:[{Type:0,Colors:[I;15435844,14602026],FadeColors:[I;15790320],Trail:1b}]}}}}
+execute if score result random matches 10 run summon minecraft:firework_rocket ~ ~ ~ {LifeTime:0,FireworksItem:{id:"minecraft:firework_rocket",Count:1,tag:{Fireworks:{Flight:0,Explosions:[{Type:2,Colors:[I;15435844,14602026],FadeColors:[I;15790320],Trail:1b}]}}}}
+execute if score result random matches 11 run summon minecraft:firework_rocket ~ ~ ~ {LifeTime:0,FireworksItem:{id:"minecraft:firework_rocket",Count:1,tag:{Fireworks:{Flight:0,Explosions:[{Type:4,Colors:[I;15435844,14602026],FadeColors:[I;15790320],Trail:1b}]}}}}

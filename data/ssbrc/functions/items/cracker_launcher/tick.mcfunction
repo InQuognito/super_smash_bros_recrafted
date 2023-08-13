@@ -1,4 +1,4 @@
-particle minecraft:dust_color_transition 0.0 1.0 0.0 1.0 1.0 1.0 1.0 ~ ~ ~ 0.0 0.0 0.0 0.0 1 force @a
+particle minecraft:dust_color_transition 1.0 1.0 0.0 1.0 1.0 1.0 1.0 ~ ~ ~ 0.0 0.0 0.0 0.0 1 force @a
 
 execute unless block ~ ~-0.1 ~ #ssbrc:passthrough run function ssbrc:items/cracker_launcher/explode
 
