@@ -6,7 +6,7 @@
 				{
 					"type": "minecraft:item",
 					"weight": 1,
-					"name": "minecraft:netherite_hoe",
+					"name": "minecraft:warped_fungus_on_a_stick",
 					"functions": [
 						{
 							"function": "minecraft:reference",

@@ -3,4 +3,4 @@ attribute @s minecraft:generic.knockback_resistance modifier add 19192183-9999-0
 
 scoreboard players set @s item.superMushroom 200
 
-clear @s minecraft:red_mushroom{superMushroom:1} 1
+clear @s minecraft:warped_fungus_on_a_stick{superMushroom:1} 1
