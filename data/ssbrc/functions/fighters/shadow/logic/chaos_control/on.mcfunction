@@ -6,7 +6,6 @@ scoreboard players operation idToMatch temp = @s id
 scoreboard players set @e[type=#ssbrc:projectiles,predicate=!ssbrc:entity_kill_exceptions,predicate=!ssbrc:id_match] shadow.chaosControl 400
 
 scoreboard players set @s shadow.meter.hero 0
-scoreboard players set @s shadow.meter.villain 0
 
 function ssbrc:fighters/shadow/logic/chaos_spear/disable
 
