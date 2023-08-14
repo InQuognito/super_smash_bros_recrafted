@@ -13,7 +13,7 @@
 							"entity": "this",
 							"name": {
 								"translate": "ssbrc.tooltips.item.deathsScythe",
-								"color": "aqua",
+								"color": "dark_gray",
 								"bold": true,
 								"italic": false
 							}

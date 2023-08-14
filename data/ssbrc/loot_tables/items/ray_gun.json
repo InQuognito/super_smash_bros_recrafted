@@ -12,8 +12,8 @@
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"translate": "ssbrc.tooltips.item.crackerLauncher",
-								"color": "aqua",
+								"translate": "ssbrc.tooltips.item.rayGun",
+								"color": "green",
 								"bold": true,
 								"italic": false
 							}
@@ -56,7 +56,7 @@
 									]
 								},
 								{
-									"translate": "ssbrc.tooltips.item.crackerLauncher.description.1",
+									"translate": "ssbrc.tooltips.item.rayGun.description.1",
 									"color": "gray",
 									"bold": false,
 									"italic": false
@@ -85,7 +85,7 @@
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{crackerLauncher:1,Unbreakable:1b,HideFlags:255}"
+							"tag": "{rayGun:1,Unbreakable:1b,HideFlags:255}"
 						}
 					]
 				}

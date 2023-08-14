@@ -13,7 +13,7 @@
 							"entity": "this",
 							"name": {
 								"translate": "ssbrc.tooltips.item.superMushroom",
-								"color": "aqua",
+								"color": "red",
 								"bold": true,
 								"italic": false
 							}
