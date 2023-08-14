@@ -34,7 +34,6 @@ function ssbrc:logic/tick/damage
 function ssbrc:logic/tick/maps/after_start
 
 # Items
-execute if predicate ssbrc:random_chance/item_spawn run function ssbrc:items/spawn
 execute as @e[type=minecraft:item,nbt={Item:{tag:{item:1}}}] run function ssbrc:items/tick
 
 # Movement Entities
