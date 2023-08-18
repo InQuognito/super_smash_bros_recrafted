@@ -1,4 +1,4 @@
-execute if score debug options matches 1 run say cross_slash | activate
+execute if score debug options matches 1.. run say cross_slash | activate
 
 scoreboard players set @s duration.1 30
 
