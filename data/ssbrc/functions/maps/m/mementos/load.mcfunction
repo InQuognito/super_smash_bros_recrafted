@@ -14,7 +14,7 @@ execute if score result random matches 1 run function ssbrc:maps/m/mementos/load
 execute if score result random matches 2 run function ssbrc:maps/m/mementos/load/red
 
 # Armor Stands
-#summon minecraft:armor_stand -1185.5 18.0 819.5 {Tags:["propStand","jose"],Small:1b,Pose:{RightArm:[0f,0f,113f],LeftLeg:[8f,0f,0f],LeftArm:[0f,0f,346f],RightLeg:[350f,0f,0f]}}
+execute positioned -1185.5 18.0 819.5 summon minecraft:armor_stand run function ssbrc:maps/m/mementos/logic/armor_stands/jose
 execute positioned -1180.5 12.0 881.5 summon minecraft:armor_stand run function ssbrc:maps/m/mementos/logic/armor_stands/queen
 
 weather clear

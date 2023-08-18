@@ -9,7 +9,6 @@ scoreboard players set @a[tag=sonic] flag.sprinting 0
 scoreboard players set @a[predicate=ssbrc:flag/player,tag=!self] shadow.chaosControl 400
 
 scoreboard players set @s shadow.meter.hero 0
-scoreboard players set @s shadow.meter.villain 0
 
 function ssbrc:series/sonic_the_hedgehog/shadow/logic/chaos_spear/disable
 

@@ -15,7 +15,7 @@ scoreboard players set byleth.steedChargeCooldown vars 300
 
 scoreboard players set captainfalcon.falconPunchCooldown vars 200
 
-scoreboard players set #cloud.maxLimit vars 70
+scoreboard players set #cloud.maxLimit vars 60
 
 scoreboard players set #darksamus.chargeBeamThreshold vars 40
 scoreboard players set #darksamus.phazonOverloadRange vars 8
