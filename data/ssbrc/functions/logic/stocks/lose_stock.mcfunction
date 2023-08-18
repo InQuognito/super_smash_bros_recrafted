@@ -1,7 +1,5 @@
 # Deduct stocks/points
-execute if score gameMode options matches 1 run scoreboard players remove @s stocks 1
-execute if score gameMode options matches 1 if score @s stocks matches ..0 run function ssbrc:logic/stocks/no_stocks
-execute if score gameMode options matches 1 run scoreboard players set @s[scores={stocks=1..}] respawn 60
+execute if score gameMode options matches 1 run function ssbrc:logic/stocks/stock_checks
 
 execute if score gameMode options matches 2 run scoreboard players remove @s points 1
 execute if score gameMode options matches 2 unless score gameTime timer matches ..3 run scoreboard players set @s respawn 60

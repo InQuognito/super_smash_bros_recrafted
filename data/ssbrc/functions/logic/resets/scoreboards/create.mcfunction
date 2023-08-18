@@ -50,6 +50,8 @@ scoreboard objectives add itemCount dummy
 scoreboard objectives add item.charge.input minecraft.used:minecraft.warped_fungus_on_a_stick
 scoreboard objectives add item.crackerLauncherCooldown dummy
 scoreboard objectives add item.crackerLauncherUses dummy
+scoreboard objectives add item.killingEdge dummy
+scoreboard objectives add item.lipsStick dummy
 scoreboard objectives add item.poisonMushroom dummy
 scoreboard objectives add item.rayGunCooldown dummy
 scoreboard objectives add item.rayGunUses dummy

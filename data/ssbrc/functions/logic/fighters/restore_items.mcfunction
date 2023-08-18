@@ -56,7 +56,6 @@ scoreboard players set @s[tag=megaman] charge.1 1
 
 # Pit
 execute if entity @s[tag=pit] run function ssbrc:fighters/pit/logic/abilities/wings/regain/activate
-execute if entity @s[tag=pit] run function ssbrc:fighters/pit/logic/abilities/palutena_bow/reset
 
 # Pokémon Trainer
 execute if entity @s[tag=pokemontrainer,tag=squirtle,tag=!nextFighterChosen] run function ssbrc:fighters/pokemontrainer/kits/charizard

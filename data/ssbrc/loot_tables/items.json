@@ -5,6 +5,11 @@
 			"entries": [
 				{
 					"type": "minecraft:loot_table",
+					"name": "ssbrc:items/cloaking_device",
+					"weight": 1
+				},
+				{
+					"type": "minecraft:loot_table",
 					"name": "ssbrc:items/cracker_launcher",
 					"weight": 1
 				},
@@ -20,7 +25,32 @@
 				},
 				{
 					"type": "minecraft:loot_table",
+					"name": "ssbrc:items/franklin_badge",
+					"weight": 1
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "ssbrc:items/freezie",
+					"weight": 1
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "ssbrc:items/killing_edge",
+					"weight": 1
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "ssbrc:items/lips_stick",
+					"weight": 1
+				},
+				{
+					"type": "minecraft:loot_table",
 					"name": "ssbrc:items/maxim_tomato",
+					"weight": 1
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "ssbrc:items/motion_sensor_bomb",
 					"weight": 1
 				},
 				{

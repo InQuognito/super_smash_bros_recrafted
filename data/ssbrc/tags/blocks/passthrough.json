@@ -20,9 +20,12 @@
 		"minecraft:player_wall_head",
 		"minecraft:redstone_torch",
 		"minecraft:sea_pickle",
-		"minecraft:snow",
+		"minecraft:seagrass",
 		"minecraft:soul_torch",
+		"minecraft:snow",
 		"minecraft:structure_void",
+		"minecraft:tall_grass",
+		"minecraft:tall_seagrass",
 		"minecraft:torch",
 		"minecraft:water"
 	]

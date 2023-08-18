@@ -12,7 +12,7 @@ execute if score @s duration.2 matches 1 run function ssbrc:fighters/fox/logic/a
 function ssbrc:fighters/fox/logic/abilities/reflector/cooldown
 
 # Fire Fox
-execute unless score @s duration.3 matches 1.. if entity @s[predicate=ssbrc:flag/sneaking,scores={cooldown.3=..0,duration.3=..0}] at @s run function ssbrc:fighters/fox/logic/abilities/fire_fox/charge
+execute unless score @s duration.3 matches 1.. if entity @s[predicate=ssbrc:flag/sneaking,scores={cooldown.3=..0,duration.3=..0}] at @s run function ssbrc:fighters/fox/logic/abilities/fire_fox/charge/tick
 
 execute at @s[scores={duration.3=1}] run function ssbrc:fighters/fox/logic/abilities/fire_fox/deactivate
-execute unless score @s duration.2 matches 1.. unless score @s duration.3 matches 1.. run scoreboard players set @s[scores={charge.3=1..},predicate=!ssbrc:flag/sneaking] charge.3 0
+execute unless score @s duration.2 matches 1.. unless score @s duration.3 matches 1.. if entity @s[scores={charge.3=1..},predicate=!ssbrc:flag/sneaking] run scoreboard players set @s[scores={charge.3=1..},predicate=!ssbrc:flag/sneaking] charge.3 0
