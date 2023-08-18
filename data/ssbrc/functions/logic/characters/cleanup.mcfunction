@@ -10,6 +10,7 @@ scoreboard players set @s duration.3 0
 scoreboard players set @s flag.sprinting 0
 
 # Clear effects
+tag @s remove crossSlashTarget
 function ssbrc:series/pokemon/pokemontrainer/logic/ivysaur/leech_seed/reset
 
 scoreboard players reset @s fiendsCauldron
