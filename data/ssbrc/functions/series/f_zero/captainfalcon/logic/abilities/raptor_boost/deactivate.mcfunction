@@ -1,7 +1,5 @@
 execute if score debug options matches 1.. run say raptor_boost | deactivate
 
-kill @e[type=minecraft:marker,tag=raptorBoost,sort=nearest,limit=1,predicate=ssbrc:id_match]
-
 effect clear @s minecraft:levitation
 
 scoreboard players set @s cooldown.1 60
