@@ -1,5 +1,4 @@
-tag @s add damage.flareBlitz
+damage @s 4.0 ssbrc:generic by @a[tag=self,limit=1]
+scoreboard players set @s flareBlitz 40
 
-damage @a[tag=self,limit=1] 6.0 ssbrc:projectile by @a[tag=self,limit=1]
-
-scoreboard players set @a[tag=self,limit=1] duration.1 2
+execute as @a[tag=self,limit=1] run function ssbrc:fighters/pokemontrainer/logic/charizard/flare_blitz/recoil

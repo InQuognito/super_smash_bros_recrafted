@@ -81,7 +81,7 @@ execute as @e[type=minecraft:arrow,tag=waterGun,predicate=ssbrc:id_match] at @s 
 execute as @e[type=minecraft:marker,tag=roboBeam,predicate=ssbrc:id_match] at @s run function ssbrc:fighters/rob/logic/abilities/robo_beam/tick
 
 # Ryu
-execute as @e[type=#ssbrc:projectiles,tag=hadouken,predicate=ssbrc:id_match] at @s run function ssbrc:fighters/ryu/logic/abilities/hadouken/tick
+execute as @e[type=#ssbrc:generics,tag=hadouken,predicate=ssbrc:id_match] at @s run function ssbrc:fighters/ryu/logic/abilities/hadouken/tick
 execute as @e[type=minecraft:marker,tag=tatsumakiSenpukyaku,predicate=ssbrc:id_match] at @s run function ssbrc:fighters/ryu/logic/abilities/tatsumaki_senpukyaku/tick
 execute as @e[type=minecraft:marker,tag=ashuraSenku,predicate=ssbrc:id_match] at @s run function ssbrc:fighters/ryu/logic/abilities/ashura_senku/tick
 execute as @e[type=minecraft:item_display,tag=ashuraSenku.trail,predicate=ssbrc:id_match] at @s run function ssbrc:fighters/ryu/logic/abilities/ashura_senku/trail/tick

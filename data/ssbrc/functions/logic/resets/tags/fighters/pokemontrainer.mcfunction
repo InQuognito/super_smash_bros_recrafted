@@ -34,5 +34,4 @@ tag @s remove squirtle.natureSet
 
 tag @s remove armorBreak
 
-function ssbrc:fighters/pokemontrainer/logic/charizard/flare_blitz/damage/reset
 function ssbrc:fighters/pokemontrainer/logic/ivysaur/leech_seed/reset

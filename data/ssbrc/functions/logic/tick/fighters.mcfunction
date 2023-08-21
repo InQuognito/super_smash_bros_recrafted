@@ -91,7 +91,7 @@ execute at @s[predicate=ssbrc:fighters/effects/has/poison] run particle minecraf
 
 execute if score @s frostbiteTimer matches 1.. at @s run function ssbrc:logic/fighters/attributes/modifiers/frostbite/tick
 
-execute at @s if entity @e[type=minecraft:marker,tag=electricTerrain,distance=..12] if block ~ ~ ~ minecraft:water run damage @s 6.0 ssbrc:projectile
+execute at @s if entity @e[type=minecraft:marker,tag=electricTerrain,distance=..12] if block ~ ~ ~ minecraft:water run damage @s 6.0 ssbrc:generic
 
 execute if entity @s[scores={status.petrified=1..}] run function ssbrc:fighters/alteredbeast/logic/warebear/petrifying_breath/petrified/tick
 
@@ -100,6 +100,8 @@ execute if score @s timer.pkFlash matches 40.. run function ssbrc:fighters/ness/
 
 scoreboard players add @s[tag=armorBreak] armorBreak 1
 execute if score @s armorBreak matches 60.. run function ssbrc:fighters/pokemontrainer/logic/charizard/rock_smash/deactivate
+
+execute if score @s flareBlitz matches 1.. run function ssbrc:fighters/pokemontrainer/logic/charizard/flare_blitz/damage/tick
 
 execute if entity @s[tag=leechSeed] run function ssbrc:fighters/pokemontrainer/logic/ivysaur/leech_seed/calculate
 execute if score @s leechSeedStacks matches 1.. run function ssbrc:fighters/pokemontrainer/logic/ivysaur/leech_seed/calculate_healing
