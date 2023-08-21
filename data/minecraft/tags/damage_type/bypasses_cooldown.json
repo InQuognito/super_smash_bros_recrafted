@@ -1,6 +1,7 @@
 {
 	"values": [
 		"minecraft:arrow",
-		"ssbrc:generic"
+		"ssbrc:generic",
+		"ssbrc:status"
 	]
 }
