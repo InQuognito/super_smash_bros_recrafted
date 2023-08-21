@@ -1,3 +1,5 @@
+execute if score debug options matches 1.. run say flare_blitz | activate
+
 execute summon minecraft:marker run function ssbrc:fighters/pokemontrainer/logic/charizard/flare_blitz/init
 
 effect give @s minecraft:levitation infinite 0 true

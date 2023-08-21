@@ -1,3 +1,5 @@
+execute if score debug options matches 1.. run say flare_blitz | deactivate
+
 effect clear @s minecraft:levitation
 
 scoreboard players set cooldownModifierType temp 1

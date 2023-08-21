@@ -2,7 +2,6 @@ execute if entity @a[tag=ness] run function ssbrc:logic/tick/damage/ness
 execute if entity @a[tag=cloud] run function ssbrc:logic/tick/damage/cloud
 execute if entity @a[tag=shovelknight] run function ssbrc:logic/tick/damage/shovelknight
 execute if entity @a[tag=sora] run function ssbrc:logic/tick/damage/sora
-execute if entity @a[tag=pokemontrainer] run function ssbrc:logic/tick/damage/pokemontrainer
 execute if entity @a[tag=teamrocket] run function ssbrc:logic/tick/damage/teamrocket
 execute if entity @a[tag=fox] run function ssbrc:logic/tick/damage/fox
 execute if entity @a[tag=bowser] run function ssbrc:logic/tick/damage/bowser

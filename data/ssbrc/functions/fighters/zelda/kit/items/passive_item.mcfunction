@@ -1,4 +1,4 @@
-execute if score debug options matches 1 run say passive_item.mcfunction
+execute if score debug options matches 1.. run say passive_item.mcfunction
 
 clear @s #ssbrc:fighters/zelda/passive_items{passiveItem:1}
 

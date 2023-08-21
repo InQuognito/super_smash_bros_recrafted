@@ -1,4 +1,4 @@
-execute if score debug options matches 1 run say raptor_boost | hit
+execute if score debug options matches 1.. run say raptor_boost | hit
 
 damage @s 5.0 ssbrc:generic by @a[tag=self,limit=1]
 
