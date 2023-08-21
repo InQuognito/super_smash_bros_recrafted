@@ -1,5 +1,3 @@
-kill @e[type=minecraft:marker,tag=ashuraSenku,sort=nearest,limit=1,predicate=ssbrc:id_match]
-
 effect clear @s minecraft:levitation
 
 scoreboard players set cooldownModifierType temp 2
