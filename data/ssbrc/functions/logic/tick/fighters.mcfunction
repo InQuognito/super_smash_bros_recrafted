@@ -38,6 +38,7 @@ execute if entity @s[tag=ness] run function ssbrc:fighters/ness/logic/tick
 execute if entity @s[tag=pikachu] run function ssbrc:fighters/pikachu/logic/tick
 execute if entity @s[tag=pit] run function ssbrc:fighters/pit/logic/tick
 execute if entity @s[tag=pokemontrainer] run function ssbrc:fighters/pokemontrainer/logic/tick
+execute if entity @s[tag=princessPeach] run function ssbrc:fighters/princess_peach/logic/tick
 execute if entity @s[tag=rob] run function ssbrc:fighters/rob/logic/tick
 execute if entity @s[tag=ryu] run function ssbrc:fighters/ryu/logic/tick
 execute if entity @s[tag=samus] run function ssbrc:fighters/samus/logic/tick

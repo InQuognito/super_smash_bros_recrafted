@@ -205,6 +205,36 @@
 							"replace": false
 						},
 						{
+							"function": "minecraft:set_lore",
+							"entity": "this",
+							"lore": [
+								{
+									"translate": "ssbrc.shop.credits",
+									"color": "gold",
+									"bold": false,
+									"italic": false,
+									"extra": [
+										{
+											"score": {
+												"name": "@s",
+												"objective": "stats.credits"
+											},
+											"color": "yellow",
+											"bold": false,
+											"italic": false
+										},
+										{
+											"translate": "₡",
+											"color": "yellow",
+											"bold": false,
+											"italic": false
+										}
+									]
+								}
+							],
+							"replace": false
+						},
+						{
 							"function": "minecraft:set_nbt",
 							"tag": "{CustomModelData:1}"
 						}

@@ -21,6 +21,7 @@ function ssbrc:fighters/greninja/menu/skins/reset
 function ssbrc:fighters/jigglypuff/menu/skins/reset
 function ssbrc:fighters/pikachu/menu/skins/reset
 function ssbrc:fighters/pokemontrainer/menu/skins/reset
+function ssbrc:fighters/princess_peach/menu/skins/reset
 function ssbrc:fighters/teamrocket/menu/skins/reset
 function ssbrc:fighters/alteredbeast/menu/skins/reset
 function ssbrc:fighters/yar/menu/skins/reset

@@ -4,6 +4,9 @@ execute if score @s shopCalculator matches 1.. run function ssbrc:shop/pages/mai
 execute store result score @s shopCalculator run clear @s #ssbrc:ui/buttons{ui:{id:"luigi"}}
 execute if score @s shopCalculator matches 1.. run function ssbrc:shop/contents/fighters/luigi
 
+execute store result score @s shopCalculator run clear @s #ssbrc:ui/buttons{ui:{id:"princessPeach"}}
+execute if score @s shopCalculator matches 1.. run function ssbrc:shop/contents/fighters/princess_peach
+
 execute store result score @s shopCalculator run clear @s #ssbrc:ui/buttons{ui:{id:"kingkrool"}}
 execute if score @s shopCalculator matches 1.. run function ssbrc:shop/contents/fighters/kingkrool
 
@@ -42,9 +45,6 @@ execute if score @s shopCalculator matches 1.. run function ssbrc:shop/contents/
 
 execute store result score @s shopCalculator run clear @s #ssbrc:ui/buttons{ui:{id:"steve"}}
 execute if score @s shopCalculator matches 1.. run function ssbrc:shop/contents/fighters/steve
-
-execute store result score @s shopCalculator run clear @s #ssbrc:ui/buttons{ui:{id:"sora"}}
-execute if score @s shopCalculator matches 1.. run function ssbrc:shop/contents/fighters/sora
 
 execute store result score @s shopCalculator run clear @s #ssbrc:ui/buttons{ui:{id:"navigation.fighters.2"}}
 execute if score @s shopCalculator matches 1.. run function ssbrc:shop/pages/fighters/2/load

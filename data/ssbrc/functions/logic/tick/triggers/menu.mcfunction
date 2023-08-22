@@ -109,6 +109,11 @@ execute if score @s[tag=pokemontrainer] menu matches 1266 run function ssbrc:fig
 execute if score @s[tag=pokemontrainer] menu matches 1267 run function ssbrc:fighters/pokemontrainer/menu/skins/dawn
 execute if score @s[tag=pokemontrainer] menu matches 1268 run function ssbrc:fighters/pokemontrainer/menu/skins/victor
 
+execute if score @s[tag=princessPeach] menu matches 1164 run function ssbrc:fighters/princess_peach/menu/skins/default
+execute if score @s[tag=princessPeach] menu matches 1165 run function ssbrc:fighters/princess_peach/menu/skins/gold
+execute if score @s[tag=princessPeach] menu matches 1166 run function ssbrc:fighters/princess_peach/menu/skins/flower_power
+execute if score @s[tag=princessPeach] menu matches 1167 run function ssbrc:fighters/princess_peach/menu/skins/shadow_queen
+
 execute if score @s[tag=ryu] menu matches 1404 run function ssbrc:fighters/ryu/menu/skins/default
 execute if score @s[tag=ryu] menu matches 1405 run function ssbrc:fighters/ryu/menu/skins/gold
 execute if score @s[tag=ryu] menu matches 1406 run function ssbrc:fighters/ryu/menu/skins/hot_ryu

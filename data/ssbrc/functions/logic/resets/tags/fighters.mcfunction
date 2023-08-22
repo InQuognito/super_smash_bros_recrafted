@@ -23,6 +23,7 @@ function ssbrc:logic/resets/tags/fighters/ness
 function ssbrc:logic/resets/tags/fighters/pikachu
 function ssbrc:logic/resets/tags/fighters/pit
 function ssbrc:logic/resets/tags/fighters/pokemontrainer
+function ssbrc:logic/resets/tags/fighters/princess_peach
 function ssbrc:logic/resets/tags/fighters/rob
 function ssbrc:logic/resets/tags/fighters/ryu
 function ssbrc:logic/resets/tags/fighters/samus
