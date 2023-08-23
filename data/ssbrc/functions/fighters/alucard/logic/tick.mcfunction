@@ -1,7 +1,7 @@
 execute if entity @s[scores={useAbility=1..,cooldown.2=..0},nbt={SelectedItem:{tag:{holyWater:1}}}] at @s anchored eyes positioned ^ ^ ^ run function ssbrc:fighters/alucard/logic/abilities/holy_water/activate
 execute if entity @s[tag=!bloodMetamorphosis,scores={useAbility=1..},nbt={SelectedItem:{tag:{bloodMetamorphosis:1}}}] run function ssbrc:fighters/alucard/logic/abilities/blood_metamorphosis/activate
 
-execute if entity @s[predicate=ssbrc:flag/sneaking,scores={cooldown.1=..0}] at @s if block ~ ~-0.1 ~ minecraft:air run function ssbrc:fighters/alucard/logic/abilities/mist/on
+execute if entity @s[predicate=ssbrc:flag/sneaking,scores={cooldown.1=..0}] at @s if block ~ ~-0.1 ~ #ssbrc:passthrough_charge run function ssbrc:fighters/alucard/logic/abilities/mist/on
 
 # Alucard Sword
 loot replace entity @s[tag=!gold,tag=!lordsOfShadow,tag=!bloodMetamorphosis,nbt={SelectedItem:{tag:{alucardSword:1,awakened:1}}}] weapon.mainhand loot ssbrc:fighters/alucard/alucard_sword/default/default

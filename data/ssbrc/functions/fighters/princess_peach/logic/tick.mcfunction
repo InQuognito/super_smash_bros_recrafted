@@ -2,7 +2,7 @@ function ssbrc:math/speed/calculate
 scoreboard players operation sqrt.output math /= 8 integers
 scoreboard players operation speed temp = sqrt.output math
 
-execute if entity @s[scores={useAbility=1..,cooldown.1=..0,speed=..0},nbt={SelectedItem:{tag:{vegetable:1}}}] at @s anchored eyes positioned ^ ^ ^ run function ssbrc:fighters/princess_peach/logic/abilities/vegetable/activate
+execute if entity @s[scores={useAbility=1..,cooldown.1=..0},nbt={SelectedItem:{tag:{vegetable:1}}}] if score speed temp matches ..0 at @s unless block ~ ~-0.1 ~ #ssbrc:passthrough_charge anchored eyes positioned ^ ^ ^ run function ssbrc:fighters/princess_peach/logic/abilities/vegetable/activate
 
 # Float
 scoreboard players set @s[scores={cooldown.3=1}] charge.2 40
