@@ -74,6 +74,7 @@ execute if entity @s[scores={useItem=1..}] run function ssbrc:logic/inputs/items
 function ssbrc:logic/inputs/items_charge
 
 execute if score @s item.cloakingDevice matches 1.. at @s run function ssbrc:items/cloaking_device/tick
+execute if score @s item.franklinBadge matches 1.. at @s positioned ~ ~0.75 ~ run function ssbrc:items/franklin_badge/tick
 execute if score @s item.poisonMushroom matches 1.. at @s run function ssbrc:items/poison_mushroom/tick
 execute if score @s item.superMushroom matches 1.. at @s run function ssbrc:items/super_mushroom/tick
 

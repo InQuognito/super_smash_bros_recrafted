@@ -51,6 +51,7 @@ scoreboard objectives remove itemCount
 scoreboard objectives remove item.charge.input
 scoreboard objectives remove item.crackerLauncherCooldown
 scoreboard objectives remove item.crackerLauncherUses
+scoreboard objectives remove item.franklinBadge
 scoreboard objectives remove item.killingEdge
 scoreboard objectives remove item.lipsStick
 scoreboard objectives remove item.poisonMushroom
