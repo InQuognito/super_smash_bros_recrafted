@@ -42,3 +42,4 @@ execute at @s[scores={flag.sprinting=40..}] unless block ~ ~-0.1 ~ minecraft:air
 
 function ssbrc:math/speed/calculate
 scoreboard players operation sqrt.output math /= 8 integers
+scoreboard players operation speed temp = sqrt.output math

@@ -77,6 +77,9 @@ execute as @e[type=minecraft:marker,tag=leechSeed,predicate=ssbrc:id_match] at @
 execute as @e[type=minecraft:marker,tag=leechSeed.healingOrb,predicate=ssbrc:id_match] at @s run function ssbrc:fighters/pokemontrainer/logic/ivysaur/leech_seed/tick/healing_orb
 execute as @e[type=minecraft:arrow,tag=waterGun,predicate=ssbrc:id_match] at @s run function ssbrc:fighters/pokemontrainer/logic/squirtle/water_gun/tick
 
+# Princess Peach
+execute as @e[type=minecraft:armor_stand,tag=vegetable,predicate=ssbrc:id_match] at @s run function ssbrc:fighters/princess_peach/logic/abilities/vegetable/tick
+
 # R.O.B.
 execute as @e[type=minecraft:marker,tag=roboBeam,predicate=ssbrc:id_match] at @s run function ssbrc:fighters/rob/logic/abilities/robo_beam/tick
 

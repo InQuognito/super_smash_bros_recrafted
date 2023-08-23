@@ -33,3 +33,4 @@ execute at @s[scores={flag.sprinting=60..}] positioned ~ ~0.1 ~ run function ssb
 
 function ssbrc:math/speed/calculate
 scoreboard players operation sqrt.output math /= 8 integers
+scoreboard players operation speed temp = sqrt.output math
