@@ -3,4 +3,4 @@ summon minecraft:item_display ~ ~ ~ {Tags:["mapIcon","modifyEntity"],item:{id:"m
 function ssbrc:logic/pre_game/map_voting/map_choices/choose/modify
 
 summon minecraft:text_display ~ ~1.25 ~ {Tags:["infoDisplay"],text:'{"translate":"ssbrc.stages.towerOfFate","bold":false,"color":"dark_purple"}',billboard:center}
-summon minecraft:text_display ~ ~1 ~ {Tags:["infoDisplay"],text:'{"translate":"ssbrc.fighters.shovelknight","bold":false,"color":"yellow"}',billboard:center}
+summon minecraft:text_display ~ ~1 ~ {Tags:["infoDisplay"],text:'{"translate":"ssbrc.fighters.shovel_knight","bold":false,"color":"yellow"}',billboard:center}

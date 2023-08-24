@@ -12,7 +12,7 @@
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"translate": "ssbrc.fighters.captainfalcon.skin.bloodFalcon",
+								"translate": "ssbrc.fighters.captain_falcon.skin.bloodFalcon",
 								"color": "dark_red",
 								"bold": true,
 								"italic": false
@@ -59,7 +59,7 @@
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{ui:{id:\"skins.captainfalcon.bloodFalcon\",sound:\"click\"},CustomModelData:123}"
+							"tag": "{ui:{id:\"skins.captain_falcon.bloodFalcon\",sound:\"click\"},CustomModelData:123}"
 						}
 					]
 				}

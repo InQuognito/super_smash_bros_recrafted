@@ -1,6 +1,6 @@
 function ssbrc:logic/pre_game/character_select/count_players
 
-execute if entity @s[tag=alteredbeast] run function ssbrc:fighters/alteredbeast/logic/get_kill
+execute if entity @s[tag=altered_beast] run function ssbrc:fighters/altered_beast/logic/get_kill
 execute if entity @s[tag=byleth,tag=weaponBroken] run function ssbrc:fighters/byleth/logic/get_kill/player
 execute if entity @s[tag=ganondorf] run tag @s add stalfosGet
 execute if entity @s[tag=hero] run function ssbrc:fighters/hero/logic/get_kill
@@ -11,6 +11,6 @@ execute if entity @s[tag=sora] run function ssbrc:fighters/sora/logic/get_kill
 execute if entity @s[tag=yar] run function ssbrc:fighters/yar/logic/get_kill
 execute if entity @s[tag=zelda] run function ssbrc:fighters/zelda/logic/get_kill/player
 
-execute if score @p[tag=ivysaur,scores={flag.dead=1..}] id = @s leechSeed run function ssbrc:fighters/pokemontrainer/logic/ivysaur/leech_seed/reset
+execute if score @p[tag=ivysaur,scores={flag.dead=1..}] id = @s leechSeed run function ssbrc:fighters/pokemon_trainer/logic/ivysaur/leech_seed/reset
 
 function ssbrc:logic/stocks/get_kill

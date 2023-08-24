@@ -12,7 +12,7 @@
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"translate": "ssbrc.fighters.teamrocket",
+								"translate": "ssbrc.fighters.team_rocket",
 								"color": "dark_purple",
 								"bold": true,
 								"italic": false

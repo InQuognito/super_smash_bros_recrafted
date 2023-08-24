@@ -12,8 +12,8 @@ execute if score @s shop matches 101 run function ssbrc:shop/triggers/triggers/s
 
 execute if score @s shop matches 200 run function ssbrc:shop/triggers/triggers/skins/alucard
 execute if score @s shop matches 201 run function ssbrc:shop/triggers/triggers/skins/bowser
-execute if score @s shop matches 202 run function ssbrc:shop/triggers/triggers/skins/captainfalcon
-execute if score @s shop matches 203 run function ssbrc:shop/triggers/triggers/skins/donkeykong
+execute if score @s shop matches 202 run function ssbrc:shop/triggers/triggers/skins/captain_falcon
+execute if score @s shop matches 203 run function ssbrc:shop/triggers/triggers/skins/donkey_kong
 execute if score @s shop matches 204 run function ssbrc:shop/triggers/triggers/skins/ganondorf
 execute if score @s shop matches 205 run function ssbrc:shop/triggers/triggers/skins/hero
 execute if score @s shop matches 206 run function ssbrc:shop/triggers/triggers/skins/link
@@ -24,11 +24,11 @@ execute if score @s shop matches 210 run function ssbrc:shop/triggers/triggers/s
 execute if score @s shop matches 211 run function ssbrc:shop/triggers/triggers/skins/ryu
 execute if score @s shop matches 212 run function ssbrc:shop/triggers/triggers/skins/samus
 execute if score @s shop matches 213 run function ssbrc:shop/triggers/triggers/skins/shadow
-execute if score @s shop matches 214 run function ssbrc:shop/triggers/triggers/skins/shovelknight
+execute if score @s shop matches 214 run function ssbrc:shop/triggers/triggers/skins/shovel_knight
 execute if score @s shop matches 215 run function ssbrc:shop/triggers/triggers/skins/snake
 execute if score @s shop matches 216 run function ssbrc:shop/triggers/triggers/skins/sora
 execute if score @s shop matches 217 run function ssbrc:shop/triggers/triggers/skins/steve
-execute if score @s shop matches 218 run function ssbrc:shop/triggers/triggers/skins/pokemontrainer
+execute if score @s shop matches 218 run function ssbrc:shop/triggers/triggers/skins/pokemon_trainer
 execute if score @s shop matches 219 run function ssbrc:shop/triggers/triggers/skins/byleth
 execute if score @s shop matches 220 run function ssbrc:shop/triggers/triggers/skins/wolf
 execute if score @s shop matches 221 run function ssbrc:shop/triggers/triggers/skins/sonic

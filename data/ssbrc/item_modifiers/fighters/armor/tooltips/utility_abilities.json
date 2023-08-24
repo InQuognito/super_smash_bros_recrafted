@@ -220,7 +220,7 @@
 		"entity": "this",
 		"lore": [
 			{
-				"translate": "ssbrc.tooltips.donkeykong.handSlap",
+				"translate": "ssbrc.tooltips.donkey_kong.handSlap",
 				"color": "yellow",
 				"bold": false,
 				"italic": false,
@@ -239,7 +239,7 @@
 						"italic": false
 					},
 					{
-						"translate": "ssbrc.tooltips.donkeykong.handSlap.description.1",
+						"translate": "ssbrc.tooltips.donkey_kong.handSlap.description.1",
 						"color": "gray",
 						"bold": false,
 						"italic": false
@@ -247,7 +247,7 @@
 				]
 			},
 			{
-				"translate": "ssbrc.tooltips.donkeykong.handSlap.description.2",
+				"translate": "ssbrc.tooltips.donkey_kong.handSlap.description.2",
 				"color": "gray",
 				"bold": false,
 				"italic": false
@@ -259,7 +259,7 @@
 				"condition": "minecraft:entity_properties",
 				"entity": "this",
 				"predicate": {
-					"nbt": "{Tags:[\"donkeykong\"]}"
+					"nbt": "{Tags:[\"donkey_kong\"]}"
 				}
 			}
 		]
@@ -826,7 +826,7 @@
 		"entity": "this",
 		"lore": [
 			{
-				"translate": "ssbrc.tooltips.alteredbeast.waredragon.wings",
+				"translate": "ssbrc.tooltips.altered_beast.waredragon.wings",
 				"color": "yellow",
 				"bold": false,
 				"italic": false,
@@ -845,7 +845,7 @@
 						"italic": false
 					},
 					{
-						"translate": "ssbrc.tooltips.alteredbeast.waredragon.wings.description.1",
+						"translate": "ssbrc.tooltips.altered_beast.waredragon.wings.description.1",
 						"color": "gray",
 						"bold": false,
 						"italic": false
@@ -859,7 +859,7 @@
 				"condition": "minecraft:entity_properties",
 				"entity": "this",
 				"predicate": {
-					"nbt": "{Tags:[\"alteredbeast\",\"waredragon\"]}"
+					"nbt": "{Tags:[\"altered_beast\",\"waredragon\"]}"
 				}
 			}
 		]

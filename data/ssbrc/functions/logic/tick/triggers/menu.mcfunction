@@ -22,21 +22,21 @@ execute if score @s[tag=byleth,tag=!blackEagles] characterTrigger matches 100 ru
 execute if score @s[tag=byleth,tag=!blueLions] characterTrigger matches 101 run function ssbrc:fighters/byleth/menu/loadout/houses/blue_lions
 execute if score @s[tag=byleth,tag=!goldenDeer] characterTrigger matches 102 run function ssbrc:fighters/byleth/menu/loadout/houses/golden_deer
 
-execute if score @s[tag=captainfalcon] menu matches 124 run function ssbrc:fighters/captainfalcon/menu/skins/default
-execute if score @s[tag=captainfalcon] menu matches 125 run function ssbrc:fighters/captainfalcon/menu/skins/gold
-execute if score @s[tag=captainfalcon] menu matches 126 run function ssbrc:fighters/captainfalcon/menu/skins/blood_falcon
-execute if score @s[tag=captainfalcon] menu matches 127 run function ssbrc:fighters/captainfalcon/menu/skins/rick_wheeler
+execute if score @s[tag=captain_falcon] menu matches 124 run function ssbrc:fighters/captain_falcon/menu/skins/default
+execute if score @s[tag=captain_falcon] menu matches 125 run function ssbrc:fighters/captain_falcon/menu/skins/gold
+execute if score @s[tag=captain_falcon] menu matches 126 run function ssbrc:fighters/captain_falcon/menu/skins/blood_falcon
+execute if score @s[tag=captain_falcon] menu matches 127 run function ssbrc:fighters/captain_falcon/menu/skins/rick_wheeler
 
 execute if score @s[tag=cloud] menu matches 184 run function ssbrc:fighters/cloud/menu/skins/default
 execute if score @s[tag=cloud] menu matches 185 run function ssbrc:fighters/cloud/menu/skins/gold
 
-execute if score @s[tag=darksamus] menu matches 264 run function ssbrc:fighters/darksamus/menu/skins/default
-execute if score @s[tag=darksamus] menu matches 265 run function ssbrc:fighters/darksamus/menu/skins/gold
+execute if score @s[tag=dark_samus] menu matches 264 run function ssbrc:fighters/dark_samus/menu/skins/default
+execute if score @s[tag=dark_samus] menu matches 265 run function ssbrc:fighters/dark_samus/menu/skins/gold
 
-execute if score @s[tag=donkeykong] menu matches 304 run function ssbrc:fighters/donkeykong/menu/skins/default
-execute if score @s[tag=donkeykong] menu matches 305 run function ssbrc:fighters/donkeykong/menu/skins/gold
-execute if score @s[tag=donkeykong] menu matches 306 run function ssbrc:fighters/donkeykong/menu/skins/flower_power
-execute if score @s[tag=donkeykong] menu matches 307 run function ssbrc:fighters/donkeykong/menu/skins/super_kong
+execute if score @s[tag=donkey_kong] menu matches 304 run function ssbrc:fighters/donkey_kong/menu/skins/default
+execute if score @s[tag=donkey_kong] menu matches 305 run function ssbrc:fighters/donkey_kong/menu/skins/gold
+execute if score @s[tag=donkey_kong] menu matches 306 run function ssbrc:fighters/donkey_kong/menu/skins/flower_power
+execute if score @s[tag=donkey_kong] menu matches 307 run function ssbrc:fighters/donkey_kong/menu/skins/super_kong
 
 execute if score @s[tag=fox] menu matches 384 run function ssbrc:fighters/fox/menu/skins/default
 execute if score @s[tag=fox] menu matches 385 run function ssbrc:fighters/fox/menu/skins/gold
@@ -66,8 +66,8 @@ execute if score @s[tag=joker] menu matches 604 run function ssbrc:fighters/joke
 execute if score @s[tag=joker] menu matches 605 run function ssbrc:fighters/joker/menu/skins/gold
 execute if score @s[tag=joker] menu matches 606 run function ssbrc:fighters/joker/menu/skins/shujin_academy
 
-execute if score @s[tag=kingkrool] menu matches 684 run function ssbrc:fighters/kingkrool/menu/skins/default
-execute if score @s[tag=kingkrool] menu matches 685 run function ssbrc:fighters/kingkrool/menu/skins/gold
+execute if score @s[tag=king_k_rool] menu matches 684 run function ssbrc:fighters/king_k_rool/menu/skins/default
+execute if score @s[tag=king_k_rool] menu matches 685 run function ssbrc:fighters/king_k_rool/menu/skins/gold
 
 execute if score @s[tag=kirby] menu matches 704 run function ssbrc:fighters/kirby/menu/skins/default
 execute if score @s[tag=kirby] menu matches 705 run function ssbrc:fighters/kirby/menu/skins/gold
@@ -103,11 +103,11 @@ execute if score @s[tag=pikachu] menu matches 1206 run function ssbrc:fighters/p
 execute if score @s[tag=pit] menu matches 1224 run function ssbrc:fighters/pit/menu/skins/default
 execute if score @s[tag=pit] menu matches 1225 run function ssbrc:fighters/pit/menu/skins/gold
 
-execute if score @s[tag=pokemontrainer] menu matches 1264 run function ssbrc:fighters/pokemontrainer/menu/skins/default
-execute if score @s[tag=pokemontrainer] menu matches 1265 run function ssbrc:fighters/pokemontrainer/menu/skins/gold
-execute if score @s[tag=pokemontrainer] menu matches 1266 run function ssbrc:fighters/pokemontrainer/menu/skins/shiny
-execute if score @s[tag=pokemontrainer] menu matches 1267 run function ssbrc:fighters/pokemontrainer/menu/skins/dawn
-execute if score @s[tag=pokemontrainer] menu matches 1268 run function ssbrc:fighters/pokemontrainer/menu/skins/victor
+execute if score @s[tag=pokemon_trainer] menu matches 1264 run function ssbrc:fighters/pokemon_trainer/menu/skins/default
+execute if score @s[tag=pokemon_trainer] menu matches 1265 run function ssbrc:fighters/pokemon_trainer/menu/skins/gold
+execute if score @s[tag=pokemon_trainer] menu matches 1266 run function ssbrc:fighters/pokemon_trainer/menu/skins/shiny
+execute if score @s[tag=pokemon_trainer] menu matches 1267 run function ssbrc:fighters/pokemon_trainer/menu/skins/dawn
+execute if score @s[tag=pokemon_trainer] menu matches 1268 run function ssbrc:fighters/pokemon_trainer/menu/skins/victor
 
 execute if score @s[tag=princessPeach] menu matches 1164 run function ssbrc:fighters/princess_peach/menu/skins/default
 execute if score @s[tag=princessPeach] menu matches 1165 run function ssbrc:fighters/princess_peach/menu/skins/gold
@@ -160,8 +160,8 @@ execute if score @s[tag=wolf] menu matches 1726 run function ssbrc:fighters/wolf
 execute if score @s[tag=zelda] menu matches 1784 run function ssbrc:fighters/zelda/menu/skins/default
 execute if score @s[tag=zelda] menu matches 1785 run function ssbrc:fighters/zelda/menu/skins/gold
 
-execute if score @s[tag=alteredbeast] menu matches 1824 run function ssbrc:fighters/alteredbeast/menu/skins/default
-execute if score @s[tag=alteredbeast] menu matches 1825 run function ssbrc:fighters/alteredbeast/menu/skins/gold
+execute if score @s[tag=altered_beast] menu matches 1824 run function ssbrc:fighters/altered_beast/menu/skins/default
+execute if score @s[tag=altered_beast] menu matches 1825 run function ssbrc:fighters/altered_beast/menu/skins/gold
 
 execute if score @s[tag=alucard,tag=!default] menu matches 1844 run function ssbrc:fighters/alucard/menu/skins/default
 execute if score @s[tag=alucard,tag=!gold] menu matches 1845 run function ssbrc:fighters/alucard/menu/skins/gold
@@ -174,13 +174,13 @@ execute if score @s[tag=shadow] menu matches 1904 run function ssbrc:fighters/sh
 execute if score @s[tag=shadow] menu matches 1905 run function ssbrc:fighters/shadow/menu/skins/gold
 execute if score @s[tag=shadow] menu matches 1906 run function ssbrc:fighters/shadow/menu/skins/yellow_android
 
-execute if score @s[tag=shovelknight] menu matches 1924 run function ssbrc:fighters/shovelknight/menu/skins/default
-execute if score @s[tag=shovelknight] menu matches 1925 run function ssbrc:fighters/shovelknight/menu/skins/gold
-execute if score @s[tag=shovelknight] menu matches 1926 run function ssbrc:fighters/shovelknight/menu/skins/armor_of_chaos
-execute if score @s[tag=shovelknight] menu matches 1927 run function ssbrc:fighters/shovelknight/menu/skins/toad_gear
+execute if score @s[tag=shovel_knight] menu matches 1924 run function ssbrc:fighters/shovel_knight/menu/skins/default
+execute if score @s[tag=shovel_knight] menu matches 1925 run function ssbrc:fighters/shovel_knight/menu/skins/gold
+execute if score @s[tag=shovel_knight] menu matches 1926 run function ssbrc:fighters/shovel_knight/menu/skins/armor_of_chaos
+execute if score @s[tag=shovel_knight] menu matches 1927 run function ssbrc:fighters/shovel_knight/menu/skins/toad_gear
 
-execute if score @s[tag=teamrocket] menu matches 1944 run function ssbrc:fighters/teamrocket/menu/skins/default
-execute if score @s[tag=teamrocket] menu matches 1945 run function ssbrc:fighters/teamrocket/menu/skins/gold
+execute if score @s[tag=team_rocket] menu matches 1944 run function ssbrc:fighters/team_rocket/menu/skins/default
+execute if score @s[tag=team_rocket] menu matches 1945 run function ssbrc:fighters/team_rocket/menu/skins/gold
 
 execute if score @s[tag=yar] menu matches 1964 run function ssbrc:fighters/yar/menu/skins/default
 execute if score @s[tag=yar] menu matches 1965 run function ssbrc:fighters/yar/menu/skins/gold

@@ -3,7 +3,7 @@ execute if score @s[predicate=ssbrc:fighters/weight/heavy,predicate=!ssbrc:fight
 execute if score @s[predicate=ssbrc:fighters/weight/very_heavy] fallDistance matches 801..1100 anchored feet run function ssbrc:logic/fighters/shockwave/medium
 execute if score @s[predicate=ssbrc:fighters/weight/very_heavy] fallDistance matches 1101.. anchored feet run function ssbrc:logic/fighters/shockwave/high
 
-execute if score @s[tag=darksamus] fallDistance matches 500.. anchored feet run function ssbrc:fighters/darksamus/logic/abilities/phazon_spike/activate
+execute if score @s[tag=dark_samus] fallDistance matches 500.. anchored feet run function ssbrc:fighters/dark_samus/logic/abilities/phazon_spike/activate
 
 execute if score @s[predicate=ssbrc:fighters/weight/heavy] fallDistance matches 500.. run tag @s add checkShockwave
 

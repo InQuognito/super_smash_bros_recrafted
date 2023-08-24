@@ -9,7 +9,7 @@
 			"condition": "minecraft:entity_properties",
 			"entity": "this",
 			"predicate": {
-				"nbt": "{Tags:[\"kingkrool\"]}"
+				"nbt": "{Tags:[\"king_k_rool\"]}"
 			}
 		},
 		{

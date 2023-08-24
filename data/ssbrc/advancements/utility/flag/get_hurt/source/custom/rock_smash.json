@@ -17,6 +17,6 @@
 		}
 	},
 	"rewards": {
-		"function": "ssbrc:fighters/pokemontrainer/logic/charizard/rock_smash/check"
+		"function": "ssbrc:fighters/pokemon_trainer/logic/charizard/rock_smash/check"
 	}
 }

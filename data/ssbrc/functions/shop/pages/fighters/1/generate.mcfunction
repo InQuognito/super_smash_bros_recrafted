@@ -12,17 +12,17 @@ execute if score @s[advancements={ssbrc:fighters/princess_peach/skins/default=fa
 execute if score @s[advancements={ssbrc:fighters/princess_peach/skins/default=false}] stats.credits >= #price.fighter.common vars run loot replace entity @s enderchest.3 loot ssbrc:ui/shop/fighters/princess_peach/unowned
 loot replace entity @s[advancements={ssbrc:fighters/princess_peach/skins/default=true}] enderchest.3 loot ssbrc:ui/shop/fighters/princess_peach/owned
 
-execute if score @s[advancements={ssbrc:fighters/kingkrool/skins/default=false}] stats.credits < #price.fighter.common vars run loot replace entity @s enderchest.4 loot ssbrc:ui/shop/fighters/kingkrool/cannot_afford
-execute if score @s[advancements={ssbrc:fighters/kingkrool/skins/default=false}] stats.credits >= #price.fighter.common vars run loot replace entity @s enderchest.4 loot ssbrc:ui/shop/fighters/kingkrool/unowned
-loot replace entity @s[advancements={ssbrc:fighters/kingkrool/skins/default=true}] enderchest.4 loot ssbrc:ui/shop/fighters/kingkrool/owned
+execute if score @s[advancements={ssbrc:fighters/king_k_rool/skins/default=false}] stats.credits < #price.fighter.common vars run loot replace entity @s enderchest.4 loot ssbrc:ui/shop/fighters/king_k_rool/cannot_afford
+execute if score @s[advancements={ssbrc:fighters/king_k_rool/skins/default=false}] stats.credits >= #price.fighter.common vars run loot replace entity @s enderchest.4 loot ssbrc:ui/shop/fighters/king_k_rool/unowned
+loot replace entity @s[advancements={ssbrc:fighters/king_k_rool/skins/default=true}] enderchest.4 loot ssbrc:ui/shop/fighters/king_k_rool/owned
 
 execute if score @s[advancements={ssbrc:fighters/zelda/skins/default=false}] stats.credits < #price.fighter.common vars run loot replace entity @s enderchest.5 loot ssbrc:ui/shop/fighters/zelda/cannot_afford
 execute if score @s[advancements={ssbrc:fighters/zelda/skins/default=false}] stats.credits >= #price.fighter.common vars run loot replace entity @s enderchest.5 loot ssbrc:ui/shop/fighters/zelda/unowned
 loot replace entity @s[advancements={ssbrc:fighters/zelda/skins/default=true}] enderchest.5 loot ssbrc:ui/shop/fighters/zelda/owned
 
-execute if score @s[advancements={ssbrc:fighters/darksamus/skins/default=false}] stats.credits < #price.fighter.common vars run loot replace entity @s enderchest.6 loot ssbrc:ui/shop/fighters/darksamus/cannot_afford
-execute if score @s[advancements={ssbrc:fighters/darksamus/skins/default=false}] stats.credits >= #price.fighter.common vars run loot replace entity @s enderchest.6 loot ssbrc:ui/shop/fighters/darksamus/unowned
-loot replace entity @s[advancements={ssbrc:fighters/darksamus/skins/default=true}] enderchest.6 loot ssbrc:ui/shop/fighters/darksamus/owned
+execute if score @s[advancements={ssbrc:fighters/dark_samus/skins/default=false}] stats.credits < #price.fighter.common vars run loot replace entity @s enderchest.6 loot ssbrc:ui/shop/fighters/dark_samus/cannot_afford
+execute if score @s[advancements={ssbrc:fighters/dark_samus/skins/default=false}] stats.credits >= #price.fighter.common vars run loot replace entity @s enderchest.6 loot ssbrc:ui/shop/fighters/dark_samus/unowned
+loot replace entity @s[advancements={ssbrc:fighters/dark_samus/skins/default=true}] enderchest.6 loot ssbrc:ui/shop/fighters/dark_samus/owned
 
 execute if score @s[advancements={ssbrc:fighters/wolf/skins/default=false}] stats.credits < #price.fighter.common vars run loot replace entity @s enderchest.11 loot ssbrc:ui/shop/fighters/wolf/cannot_afford
 execute if score @s[advancements={ssbrc:fighters/wolf/skins/default=false}] stats.credits >= #price.fighter.common vars run loot replace entity @s enderchest.11 loot ssbrc:ui/shop/fighters/wolf/unowned
@@ -36,9 +36,9 @@ execute if score @s[advancements={ssbrc:fighters/greninja/skins/default=false}] 
 execute if score @s[advancements={ssbrc:fighters/greninja/skins/default=false}] stats.credits >= #price.fighter.common vars run loot replace entity @s enderchest.13 loot ssbrc:ui/shop/fighters/greninja/unowned
 loot replace entity @s[advancements={ssbrc:fighters/greninja/skins/default=true}] enderchest.13 loot ssbrc:ui/shop/fighters/greninja/owned
 
-execute if score @s[advancements={ssbrc:fighters/teamrocket/skins/default=false}] stats.credits < #price.fighter.common vars run loot replace entity @s enderchest.14 loot ssbrc:ui/shop/fighters/teamrocket/cannot_afford
-execute if score @s[advancements={ssbrc:fighters/teamrocket/skins/default=false}] stats.credits >= #price.fighter.common vars run loot replace entity @s enderchest.14 loot ssbrc:ui/shop/fighters/teamrocket/unowned
-loot replace entity @s[advancements={ssbrc:fighters/teamrocket/skins/default=true}] enderchest.14 loot ssbrc:ui/shop/fighters/teamrocket/owned
+execute if score @s[advancements={ssbrc:fighters/team_rocket/skins/default=false}] stats.credits < #price.fighter.common vars run loot replace entity @s enderchest.14 loot ssbrc:ui/shop/fighters/team_rocket/cannot_afford
+execute if score @s[advancements={ssbrc:fighters/team_rocket/skins/default=false}] stats.credits >= #price.fighter.common vars run loot replace entity @s enderchest.14 loot ssbrc:ui/shop/fighters/team_rocket/unowned
+loot replace entity @s[advancements={ssbrc:fighters/team_rocket/skins/default=true}] enderchest.14 loot ssbrc:ui/shop/fighters/team_rocket/owned
 
 execute if score @s[advancements={ssbrc:fighters/giegue/skins/default=false}] stats.credits < #price.fighter.common vars run loot replace entity @s enderchest.15 loot ssbrc:ui/shop/fighters/giegue/cannot_afford
 execute if score @s[advancements={ssbrc:fighters/giegue/skins/default=false}] stats.credits >= #price.fighter.common vars run loot replace entity @s enderchest.15 loot ssbrc:ui/shop/fighters/giegue/unowned

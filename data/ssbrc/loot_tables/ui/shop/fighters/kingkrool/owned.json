@@ -12,7 +12,7 @@
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"translate": "ssbrc.fighters.kingkrool",
+								"translate": "ssbrc.fighters.king_k_rool",
 								"color": "dark_green",
 								"bold": true,
 								"italic": false

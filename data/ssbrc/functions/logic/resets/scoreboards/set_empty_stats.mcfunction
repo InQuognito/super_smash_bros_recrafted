@@ -6,11 +6,11 @@ execute unless score @s stats.winStreak matches -2147483648..2147483647 run scor
 execute unless score @s stats.winStreak.record matches -2147483648..2147483647 run scoreboard players set @s stats.winStreak.record 0
 execute unless score @s stats.credits matches -2147483648..2147483647 run scoreboard players set @s stats.credits 0
 
-execute unless score @s stats.alteredbeast.deaths matches -2147483648..2147483647 run scoreboard players set @s stats.alteredbeast.deaths 0
-execute unless score @s stats.alteredbeast.kills matches -2147483648..2147483647 run scoreboard players set @s stats.alteredbeast.kills 0
-execute unless score @s stats.alteredbeast.gamesPlayed matches -2147483648..2147483647 run scoreboard players set @s stats.alteredbeast.gamesPlayed 0
-execute unless score @s stats.alteredbeast.wins matches -2147483648..2147483647 run scoreboard players set @s stats.alteredbeast.wins 0
-execute unless score @s stats.alteredbeast.winStreak matches -2147483648..2147483647 run scoreboard players set @s stats.alteredbeast.winStreak 0
+execute unless score @s stats.altered_beast.deaths matches -2147483648..2147483647 run scoreboard players set @s stats.altered_beast.deaths 0
+execute unless score @s stats.altered_beast.kills matches -2147483648..2147483647 run scoreboard players set @s stats.altered_beast.kills 0
+execute unless score @s stats.altered_beast.gamesPlayed matches -2147483648..2147483647 run scoreboard players set @s stats.altered_beast.gamesPlayed 0
+execute unless score @s stats.altered_beast.wins matches -2147483648..2147483647 run scoreboard players set @s stats.altered_beast.wins 0
+execute unless score @s stats.altered_beast.winStreak matches -2147483648..2147483647 run scoreboard players set @s stats.altered_beast.winStreak 0
 
 execute unless score @s stats.alucard.deaths matches -2147483648..2147483647 run scoreboard players set @s stats.alucard.deaths 0
 execute unless score @s stats.alucard.kills matches -2147483648..2147483647 run scoreboard players set @s stats.alucard.kills 0
@@ -30,11 +30,11 @@ execute unless score @s stats.byleth.gamesPlayed matches -2147483648..2147483647
 execute unless score @s stats.byleth.wins matches -2147483648..2147483647 run scoreboard players set @s stats.byleth.wins 0
 execute unless score @s stats.byleth.winStreak matches -2147483648..2147483647 run scoreboard players set @s stats.byleth.winStreak 0
 
-execute unless score @s stats.captainfalcon.deaths matches -2147483648..2147483647 run scoreboard players set @s stats.captainfalcon.deaths 0
-execute unless score @s stats.captainfalcon.kills matches -2147483648..2147483647 run scoreboard players set @s stats.captainfalcon.kills 0
-execute unless score @s stats.captainfalcon.gamesPlayed matches -2147483648..2147483647 run scoreboard players set @s stats.captainfalcon.gamesPlayed 0
-execute unless score @s stats.captainfalcon.wins matches -2147483648..2147483647 run scoreboard players set @s stats.captainfalcon.wins 0
-execute unless score @s stats.captainfalcon.winStreak matches -2147483648..2147483647 run scoreboard players set @s stats.captainfalcon.winStreak 0
+execute unless score @s stats.captain_falcon.deaths matches -2147483648..2147483647 run scoreboard players set @s stats.captain_falcon.deaths 0
+execute unless score @s stats.captain_falcon.kills matches -2147483648..2147483647 run scoreboard players set @s stats.captain_falcon.kills 0
+execute unless score @s stats.captain_falcon.gamesPlayed matches -2147483648..2147483647 run scoreboard players set @s stats.captain_falcon.gamesPlayed 0
+execute unless score @s stats.captain_falcon.wins matches -2147483648..2147483647 run scoreboard players set @s stats.captain_falcon.wins 0
+execute unless score @s stats.captain_falcon.winStreak matches -2147483648..2147483647 run scoreboard players set @s stats.captain_falcon.winStreak 0
 
 execute unless score @s stats.cloud.deaths matches -2147483648..2147483647 run scoreboard players set @s stats.cloud.deaths 0
 execute unless score @s stats.cloud.kills matches -2147483648..2147483647 run scoreboard players set @s stats.cloud.kills 0
@@ -42,17 +42,17 @@ execute unless score @s stats.cloud.gamesPlayed matches -2147483648..2147483647 
 execute unless score @s stats.cloud.wins matches -2147483648..2147483647 run scoreboard players set @s stats.cloud.wins 0
 execute unless score @s stats.cloud.winStreak matches -2147483648..2147483647 run scoreboard players set @s stats.cloud.winStreak 0
 
-execute unless score @s stats.darksamus.deaths matches -2147483648..2147483647 run scoreboard players set @s stats.darksamus.deaths 0
-execute unless score @s stats.darksamus.kills matches -2147483648..2147483647 run scoreboard players set @s stats.darksamus.kills 0
-execute unless score @s stats.darksamus.gamesPlayed matches -2147483648..2147483647 run scoreboard players set @s stats.darksamus.gamesPlayed 0
-execute unless score @s stats.darksamus.wins matches -2147483648..2147483647 run scoreboard players set @s stats.darksamus.wins 0
-execute unless score @s stats.darksamus.winStreak matches -2147483648..2147483647 run scoreboard players set @s stats.darksamus.winStreak 0
+execute unless score @s stats.dark_samus.deaths matches -2147483648..2147483647 run scoreboard players set @s stats.dark_samus.deaths 0
+execute unless score @s stats.dark_samus.kills matches -2147483648..2147483647 run scoreboard players set @s stats.dark_samus.kills 0
+execute unless score @s stats.dark_samus.gamesPlayed matches -2147483648..2147483647 run scoreboard players set @s stats.dark_samus.gamesPlayed 0
+execute unless score @s stats.dark_samus.wins matches -2147483648..2147483647 run scoreboard players set @s stats.dark_samus.wins 0
+execute unless score @s stats.dark_samus.winStreak matches -2147483648..2147483647 run scoreboard players set @s stats.dark_samus.winStreak 0
 
-execute unless score @s stats.donkeykong.deaths matches -2147483648..2147483647 run scoreboard players set @s stats.donkeykong.deaths 0
-execute unless score @s stats.donkeykong.kills matches -2147483648..2147483647 run scoreboard players set @s stats.donkeykong.kills 0
-execute unless score @s stats.donkeykong.gamesPlayed matches -2147483648..2147483647 run scoreboard players set @s stats.donkeykong.gamesPlayed 0
-execute unless score @s stats.donkeykong.wins matches -2147483648..2147483647 run scoreboard players set @s stats.donkeykong.wins 0
-execute unless score @s stats.donkeykong.winStreak matches -2147483648..2147483647 run scoreboard players set @s stats.donkeykong.winStreak 0
+execute unless score @s stats.donkey_kong.deaths matches -2147483648..2147483647 run scoreboard players set @s stats.donkey_kong.deaths 0
+execute unless score @s stats.donkey_kong.kills matches -2147483648..2147483647 run scoreboard players set @s stats.donkey_kong.kills 0
+execute unless score @s stats.donkey_kong.gamesPlayed matches -2147483648..2147483647 run scoreboard players set @s stats.donkey_kong.gamesPlayed 0
+execute unless score @s stats.donkey_kong.wins matches -2147483648..2147483647 run scoreboard players set @s stats.donkey_kong.wins 0
+execute unless score @s stats.donkey_kong.winStreak matches -2147483648..2147483647 run scoreboard players set @s stats.donkey_kong.winStreak 0
 
 execute unless score @s stats.fox.deaths matches -2147483648..2147483647 run scoreboard players set @s stats.fox.deaths 0
 execute unless score @s stats.fox.kills matches -2147483648..2147483647 run scoreboard players set @s stats.fox.kills 0
@@ -96,11 +96,11 @@ execute unless score @s stats.joker.gamesPlayed matches -2147483648..2147483647 
 execute unless score @s stats.joker.wins matches -2147483648..2147483647 run scoreboard players set @s stats.joker.wins 0
 execute unless score @s stats.joker.winStreak matches -2147483648..2147483647 run scoreboard players set @s stats.joker.winStreak 0
 
-execute unless score @s stats.kingkrool.deaths matches -2147483648..2147483647 run scoreboard players set @s stats.kingkrool.deaths 0
-execute unless score @s stats.kingkrool.kills matches -2147483648..2147483647 run scoreboard players set @s stats.kingkrool.kills 0
-execute unless score @s stats.kingkrool.gamesPlayed matches -2147483648..2147483647 run scoreboard players set @s stats.kingkrool.gamesPlayed 0
-execute unless score @s stats.kingkrool.wins matches -2147483648..2147483647 run scoreboard players set @s stats.kingkrool.wins 0
-execute unless score @s stats.kingkrool.winStreak matches -2147483648..2147483647 run scoreboard players set @s stats.kingkrool.winStreak 0
+execute unless score @s stats.king_k_rool.deaths matches -2147483648..2147483647 run scoreboard players set @s stats.king_k_rool.deaths 0
+execute unless score @s stats.king_k_rool.kills matches -2147483648..2147483647 run scoreboard players set @s stats.king_k_rool.kills 0
+execute unless score @s stats.king_k_rool.gamesPlayed matches -2147483648..2147483647 run scoreboard players set @s stats.king_k_rool.gamesPlayed 0
+execute unless score @s stats.king_k_rool.wins matches -2147483648..2147483647 run scoreboard players set @s stats.king_k_rool.wins 0
+execute unless score @s stats.king_k_rool.winStreak matches -2147483648..2147483647 run scoreboard players set @s stats.king_k_rool.winStreak 0
 
 execute unless score @s stats.kirby.deaths matches -2147483648..2147483647 run scoreboard players set @s stats.kirby.deaths 0
 execute unless score @s stats.kirby.kills matches -2147483648..2147483647 run scoreboard players set @s stats.kirby.kills 0
@@ -150,11 +150,11 @@ execute unless score @s stats.pit.gamesPlayed matches -2147483648..2147483647 ru
 execute unless score @s stats.pit.wins matches -2147483648..2147483647 run scoreboard players set @s stats.pit.wins 0
 execute unless score @s stats.pit.winStreak matches -2147483648..2147483647 run scoreboard players set @s stats.pit.winStreak 0
 
-execute unless score @s stats.pokemontrainer.deaths matches -2147483648..2147483647 run scoreboard players set @s stats.pokemontrainer.deaths 0
-execute unless score @s stats.pokemontrainer.kills matches -2147483648..2147483647 run scoreboard players set @s stats.pokemontrainer.kills 0
-execute unless score @s stats.pokemontrainer.gamesPlayed matches -2147483648..2147483647 run scoreboard players set @s stats.pokemontrainer.gamesPlayed 0
-execute unless score @s stats.pokemontrainer.wins matches -2147483648..2147483647 run scoreboard players set @s stats.pokemontrainer.wins 0
-execute unless score @s stats.pokemontrainer.winStreak matches -2147483648..2147483647 run scoreboard players set @s stats.pokemontrainer.winStreak 0
+execute unless score @s stats.pokemon_trainer.deaths matches -2147483648..2147483647 run scoreboard players set @s stats.pokemon_trainer.deaths 0
+execute unless score @s stats.pokemon_trainer.kills matches -2147483648..2147483647 run scoreboard players set @s stats.pokemon_trainer.kills 0
+execute unless score @s stats.pokemon_trainer.gamesPlayed matches -2147483648..2147483647 run scoreboard players set @s stats.pokemon_trainer.gamesPlayed 0
+execute unless score @s stats.pokemon_trainer.wins matches -2147483648..2147483647 run scoreboard players set @s stats.pokemon_trainer.wins 0
+execute unless score @s stats.pokemon_trainer.winStreak matches -2147483648..2147483647 run scoreboard players set @s stats.pokemon_trainer.winStreak 0
 
 execute unless score @s stats.rob.deaths matches -2147483648..2147483647 run scoreboard players set @s stats.rob.deaths 0
 execute unless score @s stats.rob.kills matches -2147483648..2147483647 run scoreboard players set @s stats.rob.kills 0
@@ -180,11 +180,11 @@ execute unless score @s stats.shadow.gamesPlayed matches -2147483648..2147483647
 execute unless score @s stats.shadow.wins matches -2147483648..2147483647 run scoreboard players set @s stats.shadow.wins 0
 execute unless score @s stats.shadow.winStreak matches -2147483648..2147483647 run scoreboard players set @s stats.shadow.winStreak 0
 
-execute unless score @s stats.shovelknight.deaths matches -2147483648..2147483647 run scoreboard players set @s stats.shovelknight.deaths 0
-execute unless score @s stats.shovelknight.kills matches -2147483648..2147483647 run scoreboard players set @s stats.shovelknight.kills 0
-execute unless score @s stats.shovelknight.gamesPlayed matches -2147483648..2147483647 run scoreboard players set @s stats.shovelknight.gamesPlayed 0
-execute unless score @s stats.shovelknight.wins matches -2147483648..2147483647 run scoreboard players set @s stats.shovelknight.wins 0
-execute unless score @s stats.shovelknight.winStreak matches -2147483648..2147483647 run scoreboard players set @s stats.shovelknight.winStreak 0
+execute unless score @s stats.shovel_knight.deaths matches -2147483648..2147483647 run scoreboard players set @s stats.shovel_knight.deaths 0
+execute unless score @s stats.shovel_knight.kills matches -2147483648..2147483647 run scoreboard players set @s stats.shovel_knight.kills 0
+execute unless score @s stats.shovel_knight.gamesPlayed matches -2147483648..2147483647 run scoreboard players set @s stats.shovel_knight.gamesPlayed 0
+execute unless score @s stats.shovel_knight.wins matches -2147483648..2147483647 run scoreboard players set @s stats.shovel_knight.wins 0
+execute unless score @s stats.shovel_knight.winStreak matches -2147483648..2147483647 run scoreboard players set @s stats.shovel_knight.winStreak 0
 
 execute unless score @s stats.snake.deaths matches -2147483648..2147483647 run scoreboard players set @s stats.snake.deaths 0
 execute unless score @s stats.snake.kills matches -2147483648..2147483647 run scoreboard players set @s stats.snake.kills 0
@@ -210,11 +210,11 @@ execute unless score @s stats.steve.gamesPlayed matches -2147483648..2147483647 
 execute unless score @s stats.steve.wins matches -2147483648..2147483647 run scoreboard players set @s stats.steve.wins 0
 execute unless score @s stats.steve.winStreak matches -2147483648..2147483647 run scoreboard players set @s stats.steve.winStreak 0
 
-execute unless score @s stats.teamrocket.deaths matches -2147483648..2147483647 run scoreboard players set @s stats.teamrocket.deaths 0
-execute unless score @s stats.teamrocket.kills matches -2147483648..2147483647 run scoreboard players set @s stats.teamrocket.kills 0
-execute unless score @s stats.teamrocket.gamesPlayed matches -2147483648..2147483647 run scoreboard players set @s stats.teamrocket.gamesPlayed 0
-execute unless score @s stats.teamrocket.wins matches -2147483648..2147483647 run scoreboard players set @s stats.teamrocket.wins 0
-execute unless score @s stats.teamrocket.winStreak matches -2147483648..2147483647 run scoreboard players set @s stats.teamrocket.winStreak 0
+execute unless score @s stats.team_rocket.deaths matches -2147483648..2147483647 run scoreboard players set @s stats.team_rocket.deaths 0
+execute unless score @s stats.team_rocket.kills matches -2147483648..2147483647 run scoreboard players set @s stats.team_rocket.kills 0
+execute unless score @s stats.team_rocket.gamesPlayed matches -2147483648..2147483647 run scoreboard players set @s stats.team_rocket.gamesPlayed 0
+execute unless score @s stats.team_rocket.wins matches -2147483648..2147483647 run scoreboard players set @s stats.team_rocket.wins 0
+execute unless score @s stats.team_rocket.winStreak matches -2147483648..2147483647 run scoreboard players set @s stats.team_rocket.winStreak 0
 
 execute unless score @s stats.wolf.deaths matches -2147483648..2147483647 run scoreboard players set @s stats.wolf.deaths 0
 execute unless score @s stats.wolf.kills matches -2147483648..2147483647 run scoreboard players set @s stats.wolf.kills 0

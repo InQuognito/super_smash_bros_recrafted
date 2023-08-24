@@ -12,7 +12,7 @@
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"translate": "ssbrc.fighters.shovelknight.skin.toadGear",
+								"translate": "ssbrc.fighters.shovel_knight.skin.toadGear",
 								"color": "dark_green",
 								"bold": true,
 								"italic": false

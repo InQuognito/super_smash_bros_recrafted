@@ -12,7 +12,7 @@
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"translate": "ssbrc.fighters.darksamus",
+								"translate": "ssbrc.fighters.dark_samus",
 								"color": "aqua",
 								"bold": true,
 								"italic": false

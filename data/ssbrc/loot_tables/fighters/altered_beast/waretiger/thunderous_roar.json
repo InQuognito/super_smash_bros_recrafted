@@ -1,0 +1,76 @@
+{
+	"type": "minecraft:command",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:crossbow",
+					"functions": [
+						{
+							"function": "minecraft:set_name",
+							"entity": "this",
+							"name": {
+								"translate": "ssbrc.tooltips.altered_beast.waretiger.explosiveRoar",
+								"color": "gold",
+								"bold": true,
+								"italic": false
+							}
+						},
+						{
+							"function": "minecraft:set_lore",
+							"entity": "this",
+							"lore": [
+								{
+									"translate": "-----------------",
+									"color": "gray",
+									"bold": false,
+									"italic": false
+								},
+								{
+									"translate": "ssbrc.tooltips.weapon.ranged",
+									"color": "white",
+									"bold": false,
+									"italic": false,
+									"underlined": true
+								}
+							],
+							"replace": true
+						},
+						{
+							"function": "minecraft:set_attributes",
+							"modifiers": [
+								{
+									"attribute": "minecraft:generic.attack_damage",
+									"name": "Attack Damage",
+									"amount": 0,
+									"operation": "multiply_base",
+									"slot": "mainhand"
+								},
+								{
+									"attribute": "minecraft:generic.attack_speed",
+									"name": "Attack Speed",
+									"amount": 1024,
+									"operation": "multiply_base",
+									"slot": "mainhand"
+								}
+							]
+						},
+						{
+							"function": "minecraft:set_enchantments",
+							"enchantments": {
+								"minecraft:quick_charge": 3
+							},
+							"add": false
+						},
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{thunderousRoar:1,Unbreakable:1b,HideFlags:255}"
+						}
+					]
+				}
+			]
+		}
+	]
+}

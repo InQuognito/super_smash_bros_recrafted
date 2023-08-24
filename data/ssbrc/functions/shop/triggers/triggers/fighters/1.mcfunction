@@ -7,14 +7,14 @@ execute if score @s shopCalculator matches 1.. run function ssbrc:shop/contents/
 execute store result score @s shopCalculator run clear @s #ssbrc:ui/buttons{ui:{id:"princessPeach"}}
 execute if score @s shopCalculator matches 1.. run function ssbrc:shop/contents/fighters/princess_peach
 
-execute store result score @s shopCalculator run clear @s #ssbrc:ui/buttons{ui:{id:"kingkrool"}}
-execute if score @s shopCalculator matches 1.. run function ssbrc:shop/contents/fighters/kingkrool
+execute store result score @s shopCalculator run clear @s #ssbrc:ui/buttons{ui:{id:"king_k_rool"}}
+execute if score @s shopCalculator matches 1.. run function ssbrc:shop/contents/fighters/king_k_rool
 
 execute store result score @s shopCalculator run clear @s #ssbrc:ui/buttons{ui:{id:"zelda"}}
 execute if score @s shopCalculator matches 1.. run function ssbrc:shop/contents/fighters/zelda
 
-execute store result score @s shopCalculator run clear @s #ssbrc:ui/buttons{ui:{id:"darksamus"}}
-execute if score @s shopCalculator matches 1.. run function ssbrc:shop/contents/fighters/darksamus
+execute store result score @s shopCalculator run clear @s #ssbrc:ui/buttons{ui:{id:"dark_samus"}}
+execute if score @s shopCalculator matches 1.. run function ssbrc:shop/contents/fighters/dark_samus
 
 execute store result score @s shopCalculator run clear @s #ssbrc:ui/buttons{ui:{id:"wolf"}}
 execute if score @s shopCalculator matches 1.. run function ssbrc:shop/contents/fighters/wolf
@@ -25,8 +25,8 @@ execute if score @s shopCalculator matches 1.. run function ssbrc:shop/contents/
 execute store result score @s shopCalculator run clear @s #ssbrc:ui/buttons{ui:{id:"greninja"}}
 execute if score @s shopCalculator matches 1.. run function ssbrc:shop/contents/fighters/greninja
 
-execute store result score @s shopCalculator run clear @s #ssbrc:ui/buttons{ui:{id:"teamrocket"}}
-execute if score @s shopCalculator matches 1.. run function ssbrc:shop/contents/fighters/teamrocket
+execute store result score @s shopCalculator run clear @s #ssbrc:ui/buttons{ui:{id:"team_rocket"}}
+execute if score @s shopCalculator matches 1.. run function ssbrc:shop/contents/fighters/team_rocket
 
 execute store result score @s shopCalculator run clear @s #ssbrc:ui/buttons{ui:{id:"giegue"}}
 execute if score @s shopCalculator matches 1.. run function ssbrc:shop/contents/fighters/giegue

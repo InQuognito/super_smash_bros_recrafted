@@ -7,8 +7,8 @@ execute if score @s shop matches 101 run function ssbrc:shop/pages/skins/2/load
 
 execute if score @s shop matches 200 run function ssbrc:shop/pages/skins/alucard/load
 execute if score @s shop matches 201 run function ssbrc:shop/pages/skins/bowser/load
-execute if score @s shop matches 202 run function ssbrc:shop/pages/skins/captainfalcon/load
-execute if score @s shop matches 203 run function ssbrc:shop/pages/skins/donkeykong/load
+execute if score @s shop matches 202 run function ssbrc:shop/pages/skins/captain_falcon/load
+execute if score @s shop matches 203 run function ssbrc:shop/pages/skins/donkey_kong/load
 execute if score @s shop matches 204 run function ssbrc:shop/pages/skins/ganondorf/load
 execute if score @s shop matches 205 run function ssbrc:shop/pages/skins/hero/load
 execute if score @s shop matches 206 run function ssbrc:shop/pages/skins/link/load
@@ -19,11 +19,11 @@ execute if score @s shop matches 210 run function ssbrc:shop/pages/skins/rob/loa
 execute if score @s shop matches 211 run function ssbrc:shop/pages/skins/ryu/load
 execute if score @s shop matches 212 run function ssbrc:shop/pages/skins/samus/load
 execute if score @s shop matches 213 run function ssbrc:shop/pages/skins/shadow/load
-execute if score @s shop matches 214 run function ssbrc:shop/pages/skins/shovelknight/load
+execute if score @s shop matches 214 run function ssbrc:shop/pages/skins/shovel_knight/load
 execute if score @s shop matches 215 run function ssbrc:shop/pages/skins/snake/load
 execute if score @s shop matches 216 run function ssbrc:shop/pages/skins/sora/load
 execute if score @s shop matches 217 run function ssbrc:shop/pages/skins/steve/load
-execute if score @s shop matches 218 run function ssbrc:shop/pages/skins/pokemontrainer/load
+execute if score @s shop matches 218 run function ssbrc:shop/pages/skins/pokemon_trainer/load
 execute if score @s shop matches 219 run function ssbrc:shop/pages/skins/byleth/load
 execute if score @s shop matches 220 run function ssbrc:shop/pages/skins/wolf/load
 execute if score @s shop matches 221 run function ssbrc:shop/pages/skins/sonic/load

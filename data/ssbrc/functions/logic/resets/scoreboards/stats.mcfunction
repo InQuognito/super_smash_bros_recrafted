@@ -18,11 +18,11 @@ scoreboard objectives add random dummy
 scoreboard objectives add worldTime dummy
 
 # Characters
-scoreboard objectives add stats.alteredbeast.deaths dummy
-scoreboard objectives add stats.alteredbeast.kills dummy
-scoreboard objectives add stats.alteredbeast.gamesPlayed dummy
-scoreboard objectives add stats.alteredbeast.wins dummy
-scoreboard objectives add stats.alteredbeast.winStreak dummy
+scoreboard objectives add stats.altered_beast.deaths dummy
+scoreboard objectives add stats.altered_beast.kills dummy
+scoreboard objectives add stats.altered_beast.gamesPlayed dummy
+scoreboard objectives add stats.altered_beast.wins dummy
+scoreboard objectives add stats.altered_beast.winStreak dummy
 
 scoreboard objectives add stats.alucard.deaths dummy
 scoreboard objectives add stats.alucard.kills dummy
@@ -42,11 +42,11 @@ scoreboard objectives add stats.byleth.gamesPlayed dummy
 scoreboard objectives add stats.byleth.wins dummy
 scoreboard objectives add stats.byleth.winStreak dummy
 
-scoreboard objectives add stats.captainfalcon.deaths dummy
-scoreboard objectives add stats.captainfalcon.kills dummy
-scoreboard objectives add stats.captainfalcon.gamesPlayed dummy
-scoreboard objectives add stats.captainfalcon.wins dummy
-scoreboard objectives add stats.captainfalcon.winStreak dummy
+scoreboard objectives add stats.captain_falcon.deaths dummy
+scoreboard objectives add stats.captain_falcon.kills dummy
+scoreboard objectives add stats.captain_falcon.gamesPlayed dummy
+scoreboard objectives add stats.captain_falcon.wins dummy
+scoreboard objectives add stats.captain_falcon.winStreak dummy
 
 scoreboard objectives add stats.cloud.deaths dummy
 scoreboard objectives add stats.cloud.kills dummy
@@ -54,17 +54,17 @@ scoreboard objectives add stats.cloud.gamesPlayed dummy
 scoreboard objectives add stats.cloud.wins dummy
 scoreboard objectives add stats.cloud.winStreak dummy
 
-scoreboard objectives add stats.darksamus.deaths dummy
-scoreboard objectives add stats.darksamus.kills dummy
-scoreboard objectives add stats.darksamus.gamesPlayed dummy
-scoreboard objectives add stats.darksamus.wins dummy
-scoreboard objectives add stats.darksamus.winStreak dummy
+scoreboard objectives add stats.dark_samus.deaths dummy
+scoreboard objectives add stats.dark_samus.kills dummy
+scoreboard objectives add stats.dark_samus.gamesPlayed dummy
+scoreboard objectives add stats.dark_samus.wins dummy
+scoreboard objectives add stats.dark_samus.winStreak dummy
 
-scoreboard objectives add stats.donkeykong.deaths dummy
-scoreboard objectives add stats.donkeykong.kills dummy
-scoreboard objectives add stats.donkeykong.gamesPlayed dummy
-scoreboard objectives add stats.donkeykong.wins dummy
-scoreboard objectives add stats.donkeykong.winStreak dummy
+scoreboard objectives add stats.donkey_kong.deaths dummy
+scoreboard objectives add stats.donkey_kong.kills dummy
+scoreboard objectives add stats.donkey_kong.gamesPlayed dummy
+scoreboard objectives add stats.donkey_kong.wins dummy
+scoreboard objectives add stats.donkey_kong.winStreak dummy
 
 scoreboard objectives add stats.fox.deaths dummy
 scoreboard objectives add stats.fox.kills dummy
@@ -108,11 +108,11 @@ scoreboard objectives add stats.joker.gamesPlayed dummy
 scoreboard objectives add stats.joker.wins dummy
 scoreboard objectives add stats.joker.winStreak dummy
 
-scoreboard objectives add stats.kingkrool.deaths dummy
-scoreboard objectives add stats.kingkrool.kills dummy
-scoreboard objectives add stats.kingkrool.gamesPlayed dummy
-scoreboard objectives add stats.kingkrool.wins dummy
-scoreboard objectives add stats.kingkrool.winStreak dummy
+scoreboard objectives add stats.king_k_rool.deaths dummy
+scoreboard objectives add stats.king_k_rool.kills dummy
+scoreboard objectives add stats.king_k_rool.gamesPlayed dummy
+scoreboard objectives add stats.king_k_rool.wins dummy
+scoreboard objectives add stats.king_k_rool.winStreak dummy
 
 scoreboard objectives add stats.kirby.deaths dummy
 scoreboard objectives add stats.kirby.kills dummy
@@ -162,11 +162,11 @@ scoreboard objectives add stats.pit.gamesPlayed dummy
 scoreboard objectives add stats.pit.wins dummy
 scoreboard objectives add stats.pit.winStreak dummy
 
-scoreboard objectives add stats.pokemontrainer.deaths dummy
-scoreboard objectives add stats.pokemontrainer.kills dummy
-scoreboard objectives add stats.pokemontrainer.gamesPlayed dummy
-scoreboard objectives add stats.pokemontrainer.wins dummy
-scoreboard objectives add stats.pokemontrainer.winStreak dummy
+scoreboard objectives add stats.pokemon_trainer.deaths dummy
+scoreboard objectives add stats.pokemon_trainer.kills dummy
+scoreboard objectives add stats.pokemon_trainer.gamesPlayed dummy
+scoreboard objectives add stats.pokemon_trainer.wins dummy
+scoreboard objectives add stats.pokemon_trainer.winStreak dummy
 
 scoreboard objectives add stats.rob.deaths dummy
 scoreboard objectives add stats.rob.kills dummy
@@ -192,11 +192,11 @@ scoreboard objectives add stats.shadow.gamesPlayed dummy
 scoreboard objectives add stats.shadow.wins dummy
 scoreboard objectives add stats.shadow.winStreak dummy
 
-scoreboard objectives add stats.shovelknight.deaths dummy
-scoreboard objectives add stats.shovelknight.kills dummy
-scoreboard objectives add stats.shovelknight.gamesPlayed dummy
-scoreboard objectives add stats.shovelknight.wins dummy
-scoreboard objectives add stats.shovelknight.winStreak dummy
+scoreboard objectives add stats.shovel_knight.deaths dummy
+scoreboard objectives add stats.shovel_knight.kills dummy
+scoreboard objectives add stats.shovel_knight.gamesPlayed dummy
+scoreboard objectives add stats.shovel_knight.wins dummy
+scoreboard objectives add stats.shovel_knight.winStreak dummy
 
 scoreboard objectives add stats.snake.deaths dummy
 scoreboard objectives add stats.snake.kills dummy
@@ -222,11 +222,11 @@ scoreboard objectives add stats.steve.gamesPlayed dummy
 scoreboard objectives add stats.steve.wins dummy
 scoreboard objectives add stats.steve.winStreak dummy
 
-scoreboard objectives add stats.teamrocket.deaths dummy
-scoreboard objectives add stats.teamrocket.kills dummy
-scoreboard objectives add stats.teamrocket.gamesPlayed dummy
-scoreboard objectives add stats.teamrocket.wins dummy
-scoreboard objectives add stats.teamrocket.winStreak dummy
+scoreboard objectives add stats.team_rocket.deaths dummy
+scoreboard objectives add stats.team_rocket.kills dummy
+scoreboard objectives add stats.team_rocket.gamesPlayed dummy
+scoreboard objectives add stats.team_rocket.wins dummy
+scoreboard objectives add stats.team_rocket.winStreak dummy
 
 scoreboard objectives add stats.wolf.deaths dummy
 scoreboard objectives add stats.wolf.kills dummy

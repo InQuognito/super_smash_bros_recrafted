@@ -12,7 +12,7 @@
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"translate": "ssbrc.fighters.shovelknight",
+								"translate": "ssbrc.fighters.shovel_knight",
 								"color": "dark_aqua",
 								"bold": true,
 								"italic": false
@@ -59,7 +59,7 @@
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{ui:{id:\"shovelknight\",sound:\"click\"},CustomModelData:1920}"
+							"tag": "{ui:{id:\"shovel_knight\",sound:\"click\"},CustomModelData:1920}"
 						}
 					]
 				}

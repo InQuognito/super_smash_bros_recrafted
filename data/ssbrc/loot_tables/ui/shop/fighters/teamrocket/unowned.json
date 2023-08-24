@@ -12,7 +12,7 @@
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"translate": "ssbrc.fighters.teamrocket",
+								"translate": "ssbrc.fighters.team_rocket",
 								"color": "dark_purple",
 								"bold": true,
 								"italic": false
@@ -59,7 +59,7 @@
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{ui:{id:\"teamrocket\",sound:\"click\"},CustomModelData:1940}"
+							"tag": "{ui:{id:\"team_rocket\",sound:\"click\"},CustomModelData:1940}"
 						}
 					]
 				}

@@ -19,7 +19,7 @@
 			"condition": "minecraft:entity_properties",
 			"entity": "this",
 			"predicate": {
-				"nbt": "{Tags:[\"darksamus\"]}"
+				"nbt": "{Tags:[\"dark_samus\"]}"
 			}
 		},
 		{
@@ -40,7 +40,7 @@
 			"condition": "minecraft:entity_properties",
 			"entity": "this",
 			"predicate": {
-				"nbt": "{Tags:[\"kingkrool\"]}"
+				"nbt": "{Tags:[\"king_k_rool\"]}"
 			}
 		},
 		{
@@ -62,7 +62,7 @@
 			"condition": "minecraft:entity_properties",
 			"entity": "this",
 			"predicate": {
-				"nbt": "{Tags:[\"teamrocket\"]}"
+				"nbt": "{Tags:[\"team_rocket\"]}"
 			}
 		},
 		{

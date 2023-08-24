@@ -25,8 +25,8 @@ execute if score @s shopCalculator matches 1.. run function ssbrc:shop/pages/ski
 execute store result score @s shopCalculator run clear @s #ssbrc:ui/buttons{ui:{id:"navigation.skins.sora"}}
 execute if score @s shopCalculator matches 1.. run function ssbrc:shop/pages/skins/sora/load
 
-execute store result score @s shopCalculator run clear @s #ssbrc:ui/buttons{ui:{id:"navigation.skins.shovelknight"}}
-execute if score @s shopCalculator matches 1.. run function ssbrc:shop/pages/skins/shovelknight/load
+execute store result score @s shopCalculator run clear @s #ssbrc:ui/buttons{ui:{id:"navigation.skins.shovel_knight"}}
+execute if score @s shopCalculator matches 1.. run function ssbrc:shop/pages/skins/shovel_knight/load
 
 execute store result score @s shopCalculator run clear @s #ssbrc:ui/buttons{ui:{id:"navigation.skins.yar"}}
 execute if score @s shopCalculator matches 1.. run function ssbrc:shop/pages/skins/yar/load

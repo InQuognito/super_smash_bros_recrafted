@@ -24,11 +24,11 @@ tag @s[tag=cloud] add operator
 execute if entity @s[tag=cloud] run function ssbrc:fighters/cloud/logic/mode_switch/reset
 
 # Dark Samus
-execute if entity @s[tag=darksamus] run function ssbrc:fighters/darksamus/logic/abilities/phazon_beam/reset
+execute if entity @s[tag=dark_samus] run function ssbrc:fighters/dark_samus/logic/abilities/phazon_beam/reset
 
 # Donkey Kong
-loot replace entity @s[tag=donkeykong,scores={charge.1=..0}] hotbar.1 loot ssbrc:fighters/donkeykong/orange_grenade/default
-scoreboard players set @s[tag=donkeykong] charge.1 2
+loot replace entity @s[tag=donkey_kong,scores={charge.1=..0}] hotbar.1 loot ssbrc:fighters/donkey_kong/orange_grenade/default
+scoreboard players set @s[tag=donkey_kong] charge.1 2
 
 # Ganondorf
 loot replace entity @s[tag=ganondorf] hotbar.1 loot ssbrc:fighters/ganondorf/trident_of_power
@@ -58,9 +58,9 @@ scoreboard players set @s[tag=megaman] charge.1 1
 execute if entity @s[tag=pit] run function ssbrc:fighters/pit/logic/abilities/wings/regain/activate
 
 # Pokémon Trainer
-execute if entity @s[tag=pokemontrainer,tag=squirtle,tag=!nextFighterChosen] run function ssbrc:fighters/pokemontrainer/kits/charizard
-execute if entity @s[tag=pokemontrainer,tag=charizard,tag=!nextFighterChosen] run function ssbrc:fighters/pokemontrainer/kits/ivysaur
-execute if entity @s[tag=pokemontrainer,tag=ivysaur,tag=!nextFighterChosen] run function ssbrc:fighters/pokemontrainer/kits/squirtle
+execute if entity @s[tag=pokemon_trainer,tag=squirtle,tag=!nextFighterChosen] run function ssbrc:fighters/pokemon_trainer/kits/charizard
+execute if entity @s[tag=pokemon_trainer,tag=charizard,tag=!nextFighterChosen] run function ssbrc:fighters/pokemon_trainer/kits/ivysaur
+execute if entity @s[tag=pokemon_trainer,tag=ivysaur,tag=!nextFighterChosen] run function ssbrc:fighters/pokemon_trainer/kits/squirtle
 
 # Rob
 execute if entity @s[tag=rob] run function ssbrc:fighters/rob/logic/abilities/robo_beam/reset
@@ -85,7 +85,7 @@ execute if score @s[tag=steve] steve.tier matches 3 run function ssbrc:fighters/
 execute if entity @s[tag=zelda] run function ssbrc:fighters/zelda/kit
 
 # Altered Beast
-execute if entity @s[tag=alteredbeast] run function ssbrc:fighters/alteredbeast/kits/centurion
+execute if entity @s[tag=altered_beast] run function ssbrc:fighters/altered_beast/kits/centurion
 
 # Alucard
 scoreboard players set @s[tag=alucard] durability 300
@@ -93,12 +93,12 @@ execute store result storage ssbrc:alucard_shield damage int 1.0 run scoreboard 
 loot replace entity @s[tag=alucard] weapon.offhand loot ssbrc:fighters/alucard/alucard_shield
 
 # Shovelknight
-execute if entity @s[tag=shovelknight] run function ssbrc:fighters/shovelknight/kit
+execute if entity @s[tag=shovel_knight] run function ssbrc:fighters/shovel_knight/kit
 
 # Team Rocket
-execute if entity @s[tag=teamrocket,tag=wobbuffet,tag=!nextFighterChosen] run function ssbrc:fighters/teamrocket/kits/arbok
-execute if entity @s[tag=teamrocket,tag=meowth,tag=!nextFighterChosen] run function ssbrc:fighters/teamrocket/kits/wobbuffet
-execute if entity @s[tag=teamrocket,tag=arbok,tag=!nextFighterChosen] run function ssbrc:fighters/teamrocket/kits/meowth
+execute if entity @s[tag=team_rocket,tag=wobbuffet,tag=!nextFighterChosen] run function ssbrc:fighters/team_rocket/kits/arbok
+execute if entity @s[tag=team_rocket,tag=meowth,tag=!nextFighterChosen] run function ssbrc:fighters/team_rocket/kits/wobbuffet
+execute if entity @s[tag=team_rocket,tag=arbok,tag=!nextFighterChosen] run function ssbrc:fighters/team_rocket/kits/meowth
 
 # Yar
 execute if entity @s[tag=yar] run function ssbrc:fighters/yar/logic/abilities/power_ups/reset

@@ -59,7 +59,7 @@
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{ui:{id:\"skins.donkeykong.flowerPower\",sound:\"click\"},CustomModelData:303}"
+							"tag": "{ui:{id:\"skins.donkey_kong.flowerPower\",sound:\"click\"},CustomModelData:303}"
 						}
 					]
 				}

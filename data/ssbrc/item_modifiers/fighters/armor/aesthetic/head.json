@@ -290,7 +290,7 @@
 				"condition": "minecraft:entity_properties",
 				"entity": "this",
 				"predicate": {
-					"nbt": "{Tags:[\"captainfalcon\",\"default\"]}"
+					"nbt": "{Tags:[\"captain_falcon\",\"default\"]}"
 				}
 			}
 		]
@@ -303,7 +303,7 @@
 				"condition": "minecraft:entity_properties",
 				"entity": "this",
 				"predicate": {
-					"nbt": "{Tags:[\"captainfalcon\",\"gold\"]}"
+					"nbt": "{Tags:[\"captain_falcon\",\"gold\"]}"
 				}
 			}
 		]
@@ -316,7 +316,7 @@
 				"condition": "minecraft:entity_properties",
 				"entity": "this",
 				"predicate": {
-					"nbt": "{Tags:[\"captainfalcon\",\"bloodFalcon\"]}"
+					"nbt": "{Tags:[\"captain_falcon\",\"bloodFalcon\"]}"
 				}
 			}
 		]
@@ -329,7 +329,7 @@
 				"condition": "minecraft:entity_properties",
 				"entity": "this",
 				"predicate": {
-					"nbt": "{Tags:[\"captainfalcon\",\"rickWheeler\"]}"
+					"nbt": "{Tags:[\"captain_falcon\",\"rickWheeler\"]}"
 				}
 			}
 		]
@@ -368,7 +368,7 @@
 				"condition": "minecraft:entity_properties",
 				"entity": "this",
 				"predicate": {
-					"nbt": "{Tags:[\"darksamus\",\"default\"]}"
+					"nbt": "{Tags:[\"dark_samus\",\"default\"]}"
 				}
 			}
 		]
@@ -381,7 +381,7 @@
 				"condition": "minecraft:entity_properties",
 				"entity": "this",
 				"predicate": {
-					"nbt": "{Tags:[\"darksamus\",\"gold\"]}"
+					"nbt": "{Tags:[\"dark_samus\",\"gold\"]}"
 				}
 			}
 		]
@@ -394,7 +394,7 @@
 				"condition": "minecraft:entity_properties",
 				"entity": "this",
 				"predicate": {
-					"nbt": "{Tags:[\"donkeykong\",\"default\"]}"
+					"nbt": "{Tags:[\"donkey_kong\",\"default\"]}"
 				}
 			}
 		]
@@ -407,7 +407,7 @@
 				"condition": "minecraft:entity_properties",
 				"entity": "this",
 				"predicate": {
-					"nbt": "{Tags:[\"donkeykong\",\"gold\"]}"
+					"nbt": "{Tags:[\"donkey_kong\",\"gold\"]}"
 				}
 			}
 		]
@@ -420,7 +420,7 @@
 				"condition": "minecraft:entity_properties",
 				"entity": "this",
 				"predicate": {
-					"nbt": "{Tags:[\"donkeykong\",\"flowerPower\"]}"
+					"nbt": "{Tags:[\"donkey_kong\",\"flowerPower\"]}"
 				}
 			}
 		]
@@ -433,7 +433,7 @@
 				"condition": "minecraft:entity_properties",
 				"entity": "this",
 				"predicate": {
-					"nbt": "{Tags:[\"donkeykong\",\"superKong\"]}"
+					"nbt": "{Tags:[\"donkey_kong\",\"superKong\"]}"
 				}
 			}
 		]
@@ -899,7 +899,7 @@
 				"condition": "minecraft:entity_properties",
 				"entity": "this",
 				"predicate": {
-					"nbt": "{Tags:[\"kingkrool\",\"default\"]}"
+					"nbt": "{Tags:[\"king_k_rool\",\"default\"]}"
 				}
 			}
 		]
@@ -912,7 +912,7 @@
 				"condition": "minecraft:entity_properties",
 				"entity": "this",
 				"predicate": {
-					"nbt": "{Tags:[\"kingkrool\",\"gold\"]}"
+					"nbt": "{Tags:[\"king_k_rool\",\"gold\"]}"
 				}
 			}
 		]
@@ -1315,7 +1315,7 @@
 				"condition": "minecraft:entity_properties",
 				"entity": "this",
 				"predicate": {
-					"nbt": "{Tags:[\"pokemontrainer\",\"default\"]}"
+					"nbt": "{Tags:[\"pokemon_trainer\",\"default\"]}"
 				}
 			}
 		]
@@ -1367,7 +1367,7 @@
 				"condition": "minecraft:entity_properties",
 				"entity": "this",
 				"predicate": {
-					"nbt": "{Tags:[\"pokemontrainer\",\"gold\"]}"
+					"nbt": "{Tags:[\"pokemon_trainer\",\"gold\"]}"
 				}
 			}
 		]
@@ -1419,7 +1419,7 @@
 				"condition": "minecraft:entity_properties",
 				"entity": "this",
 				"predicate": {
-					"nbt": "{Tags:[\"pokemontrainer\",\"dawn\"]}"
+					"nbt": "{Tags:[\"pokemon_trainer\",\"dawn\"]}"
 				}
 			}
 		]
@@ -1471,7 +1471,7 @@
 				"condition": "minecraft:entity_properties",
 				"entity": "this",
 				"predicate": {
-					"nbt": "{Tags:[\"pokemontrainer\",\"victor\"]}"
+					"nbt": "{Tags:[\"pokemon_trainer\",\"victor\"]}"
 				}
 			}
 		]
@@ -1523,7 +1523,7 @@
 				"condition": "minecraft:entity_properties",
 				"entity": "this",
 				"predicate": {
-					"nbt": "{Tags:[\"pokemontrainer\",\"shiny\"]}"
+					"nbt": "{Tags:[\"pokemon_trainer\",\"shiny\"]}"
 				}
 			}
 		]
@@ -2161,7 +2161,7 @@
 				"condition": "minecraft:entity_properties",
 				"entity": "this",
 				"predicate": {
-					"nbt": "{Tags:[\"alteredbeast\",\"default\",\"human\"]}"
+					"nbt": "{Tags:[\"altered_beast\",\"default\",\"human\"]}"
 				}
 			}
 		]
@@ -2174,7 +2174,7 @@
 				"condition": "minecraft:entity_properties",
 				"entity": "this",
 				"predicate": {
-					"nbt": "{Tags:[\"alteredbeast\",\"default\",\"demigod\"]}"
+					"nbt": "{Tags:[\"altered_beast\",\"default\",\"demigod\"]}"
 				}
 			}
 		]
@@ -2187,7 +2187,7 @@
 				"condition": "minecraft:entity_properties",
 				"entity": "this",
 				"predicate": {
-					"nbt": "{Tags:[\"alteredbeast\",\"default\",\"warebear\"]}"
+					"nbt": "{Tags:[\"altered_beast\",\"default\",\"warebear\"]}"
 				}
 			}
 		]
@@ -2200,7 +2200,7 @@
 				"condition": "minecraft:entity_properties",
 				"entity": "this",
 				"predicate": {
-					"nbt": "{Tags:[\"alteredbeast\",\"default\",\"waredragon\"]}"
+					"nbt": "{Tags:[\"altered_beast\",\"default\",\"waredragon\"]}"
 				}
 			}
 		]
@@ -2213,7 +2213,7 @@
 				"condition": "minecraft:entity_properties",
 				"entity": "this",
 				"predicate": {
-					"nbt": "{Tags:[\"alteredbeast\",\"default\",\"waretiger\"]}"
+					"nbt": "{Tags:[\"altered_beast\",\"default\",\"waretiger\"]}"
 				}
 			}
 		]
@@ -2226,7 +2226,7 @@
 				"condition": "minecraft:entity_properties",
 				"entity": "this",
 				"predicate": {
-					"nbt": "{Tags:[\"alteredbeast\",\"default\",\"warewolf\"]}"
+					"nbt": "{Tags:[\"altered_beast\",\"default\",\"warewolf\"]}"
 				}
 			}
 		]
@@ -2239,7 +2239,7 @@
 				"condition": "minecraft:entity_properties",
 				"entity": "this",
 				"predicate": {
-					"nbt": "{Tags:[\"alteredbeast\",\"gold\",\"human\"]}"
+					"nbt": "{Tags:[\"altered_beast\",\"gold\",\"human\"]}"
 				}
 			}
 		]
@@ -2252,7 +2252,7 @@
 				"condition": "minecraft:entity_properties",
 				"entity": "this",
 				"predicate": {
-					"nbt": "{Tags:[\"alteredbeast\",\"gold\",\"demigod\"]}"
+					"nbt": "{Tags:[\"altered_beast\",\"gold\",\"demigod\"]}"
 				}
 			}
 		]
@@ -2265,7 +2265,7 @@
 				"condition": "minecraft:entity_properties",
 				"entity": "this",
 				"predicate": {
-					"nbt": "{Tags:[\"alteredbeast\",\"gold\",\"warebear\"]}"
+					"nbt": "{Tags:[\"altered_beast\",\"gold\",\"warebear\"]}"
 				}
 			}
 		]
@@ -2278,7 +2278,7 @@
 				"condition": "minecraft:entity_properties",
 				"entity": "this",
 				"predicate": {
-					"nbt": "{Tags:[\"alteredbeast\",\"gold\",\"waredragon\"]}"
+					"nbt": "{Tags:[\"altered_beast\",\"gold\",\"waredragon\"]}"
 				}
 			}
 		]
@@ -2291,7 +2291,7 @@
 				"condition": "minecraft:entity_properties",
 				"entity": "this",
 				"predicate": {
-					"nbt": "{Tags:[\"alteredbeast\",\"gold\",\"waretiger\"]}"
+					"nbt": "{Tags:[\"altered_beast\",\"gold\",\"waretiger\"]}"
 				}
 			}
 		]
@@ -2304,7 +2304,7 @@
 				"condition": "minecraft:entity_properties",
 				"entity": "this",
 				"predicate": {
-					"nbt": "{Tags:[\"alteredbeast\",\"gold\",\"warewolf\"]}"
+					"nbt": "{Tags:[\"altered_beast\",\"gold\",\"warewolf\"]}"
 				}
 			}
 		]
@@ -2460,7 +2460,7 @@
 				"condition": "minecraft:entity_properties",
 				"entity": "this",
 				"predicate": {
-					"nbt": "{Tags:[\"shovelknight\",\"default\"]}"
+					"nbt": "{Tags:[\"shovel_knight\",\"default\"]}"
 				}
 			}
 		]
@@ -2474,7 +2474,7 @@
 				"condition": "minecraft:entity_properties",
 				"entity": "this",
 				"predicate": {
-					"nbt": "{Tags:[\"shovelknight\",\"gold\"]}"
+					"nbt": "{Tags:[\"shovel_knight\",\"gold\"]}"
 				}
 			}
 		]
@@ -2487,7 +2487,7 @@
 				"condition": "minecraft:entity_properties",
 				"entity": "this",
 				"predicate": {
-					"nbt": "{Tags:[\"shovelknight\",\"armorOfChaos\"]}"
+					"nbt": "{Tags:[\"shovel_knight\",\"armorOfChaos\"]}"
 				}
 			}
 		]
@@ -2500,7 +2500,7 @@
 				"condition": "minecraft:entity_properties",
 				"entity": "this",
 				"predicate": {
-					"nbt": "{Tags:[\"shovelknight\",\"toadGear\"]}"
+					"nbt": "{Tags:[\"shovel_knight\",\"toadGear\"]}"
 				}
 			}
 		]
@@ -2513,7 +2513,7 @@
 				"condition": "minecraft:entity_properties",
 				"entity": "this",
 				"predicate": {
-					"nbt": "{Tags:[\"shovelknight\",\"phaseLocket\"]}"
+					"nbt": "{Tags:[\"shovel_knight\",\"phaseLocket\"]}"
 				}
 			}
 		]

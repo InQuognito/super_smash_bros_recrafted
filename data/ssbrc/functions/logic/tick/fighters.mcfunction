@@ -18,17 +18,17 @@ scoreboard players remove @s[scores={item.charge.input=2..}] item.charge.input 1
 
 execute if entity @s[tag=bowser] run function ssbrc:fighters/bowser/logic/tick
 execute if entity @s[tag=byleth] run function ssbrc:fighters/byleth/logic/tick
-execute if entity @s[tag=captainfalcon] run function ssbrc:fighters/captainfalcon/logic/tick
+execute if entity @s[tag=captain_falcon] run function ssbrc:fighters/captain_falcon/logic/tick
 execute if entity @s[tag=cloud] run function ssbrc:fighters/cloud/logic/tick
-execute if entity @s[tag=darksamus] run function ssbrc:fighters/darksamus/logic/tick
-execute if entity @s[tag=donkeykong] run function ssbrc:fighters/donkeykong/logic/tick
+execute if entity @s[tag=dark_samus] run function ssbrc:fighters/dark_samus/logic/tick
+execute if entity @s[tag=donkey_kong] run function ssbrc:fighters/donkey_kong/logic/tick
 execute if entity @s[tag=fox] run function ssbrc:fighters/fox/logic/tick
 execute if entity @s[tag=ganondorf] run function ssbrc:fighters/ganondorf/logic/tick
 execute if entity @s[tag=greninja] run function ssbrc:fighters/greninja/logic/tick
 execute if entity @s[tag=hero] run function ssbrc:fighters/hero/logic/tick
 execute if entity @s[tag=jigglypuff] run function ssbrc:fighters/jigglypuff/logic/tick
 execute if entity @s[tag=joker] run function ssbrc:fighters/joker/logic/tick
-execute if entity @s[tag=kingkrool] run function ssbrc:fighters/kingkrool/logic/tick
+execute if entity @s[tag=king_k_rool] run function ssbrc:fighters/king_k_rool/logic/tick
 execute if entity @s[tag=kirby] run function ssbrc:fighters/kirby/logic/tick
 execute if entity @s[tag=link] run function ssbrc:fighters/link/logic/tick
 execute if entity @s[tag=luigi] run function ssbrc:fighters/luigi/logic/tick
@@ -37,7 +37,7 @@ execute if entity @s[tag=megaman] run function ssbrc:fighters/megaman/logic/tick
 execute if entity @s[tag=ness] run function ssbrc:fighters/ness/logic/tick
 execute if entity @s[tag=pikachu] run function ssbrc:fighters/pikachu/logic/tick
 execute if entity @s[tag=pit] run function ssbrc:fighters/pit/logic/tick
-execute if entity @s[tag=pokemontrainer] run function ssbrc:fighters/pokemontrainer/logic/tick
+execute if entity @s[tag=pokemon_trainer] run function ssbrc:fighters/pokemon_trainer/logic/tick
 execute if entity @s[tag=princessPeach] run function ssbrc:fighters/princess_peach/logic/tick
 execute if entity @s[tag=rob] run function ssbrc:fighters/rob/logic/tick
 execute if entity @s[tag=ryu] run function ssbrc:fighters/ryu/logic/tick
@@ -49,12 +49,12 @@ execute if entity @s[tag=steve] run function ssbrc:fighters/steve/logic/tick
 execute if entity @s[tag=wolf] run function ssbrc:fighters/wolf/logic/tick
 execute if entity @s[tag=zelda] run function ssbrc:fighters/zelda/logic/tick
 
-execute if entity @s[tag=alteredbeast] run function ssbrc:fighters/alteredbeast/logic/tick
+execute if entity @s[tag=altered_beast] run function ssbrc:fighters/altered_beast/logic/tick
 execute if entity @s[tag=alucard] run function ssbrc:fighters/alucard/logic/tick
 execute if entity @s[tag=giegue] run function ssbrc:fighters/giegue/logic/tick
 execute if entity @s[tag=shadow] run function ssbrc:fighters/shadow/logic/tick
-execute if entity @s[tag=shovelknight] run function ssbrc:fighters/shovelknight/logic/tick
-execute if entity @s[tag=teamrocket] run function ssbrc:fighters/teamrocket/logic/tick
+execute if entity @s[tag=shovel_knight] run function ssbrc:fighters/shovel_knight/logic/tick
+execute if entity @s[tag=team_rocket] run function ssbrc:fighters/team_rocket/logic/tick
 execute if entity @s[tag=yar] run function ssbrc:fighters/yar/logic/tick
 
 scoreboard players reset @s useAbility
@@ -95,18 +95,18 @@ execute if score @s frostbiteTimer matches 1.. at @s run function ssbrc:logic/fi
 
 execute at @s if entity @e[type=minecraft:marker,tag=electricTerrain,distance=..12] if block ~ ~ ~ minecraft:water run damage @s 6.0 ssbrc:generic
 
-execute if entity @s[scores={status.petrified=1..}] run function ssbrc:fighters/alteredbeast/logic/warebear/petrifying_breath/petrified/tick
+execute if entity @s[scores={status.petrified=1..}] run function ssbrc:fighters/altered_beast/logic/warebear/petrifying_breath/petrified/tick
 
 scoreboard players add @s[tag=immobile.pkFlash] timer.pkFlash 1
 execute if score @s timer.pkFlash matches 40.. run function ssbrc:fighters/ness/logic/abilities/pk_flash/damage/mobilize
 
 scoreboard players add @s[tag=armorBreak] armorBreak 1
-execute if score @s armorBreak matches 60.. run function ssbrc:fighters/pokemontrainer/logic/charizard/rock_smash/deactivate
+execute if score @s armorBreak matches 60.. run function ssbrc:fighters/pokemon_trainer/logic/charizard/rock_smash/deactivate
 
-execute if score @s flareBlitz matches 1.. run function ssbrc:fighters/pokemontrainer/logic/charizard/flare_blitz/damage/tick
+execute if score @s flareBlitz matches 1.. run function ssbrc:fighters/pokemon_trainer/logic/charizard/flare_blitz/damage/tick
 
-execute if entity @s[tag=leechSeed] run function ssbrc:fighters/pokemontrainer/logic/ivysaur/leech_seed/calculate
-execute if score @s leechSeedStacks matches 1.. run function ssbrc:fighters/pokemontrainer/logic/ivysaur/leech_seed/calculate_healing
+execute if entity @s[tag=leechSeed] run function ssbrc:fighters/pokemon_trainer/logic/ivysaur/leech_seed/calculate
+execute if score @s leechSeedStacks matches 1.. run function ssbrc:fighters/pokemon_trainer/logic/ivysaur/leech_seed/calculate_healing
 
 scoreboard players remove @s[scores={flinch=1..}] flinch 1
 execute if score @s flinch matches 1 run function ssbrc:logic/fighters/effects/mobility/mobilize

@@ -5,7 +5,7 @@
 			"condition": "minecraft:entity_properties",
 			"entity": "this",
 			"predicate": {
-				"nbt": "{Tags:[\"alteredbeast\"]}"
+				"nbt": "{Tags:[\"altered_beast\"]}"
 			}
 		},
 		{
@@ -26,7 +26,7 @@
 			"condition": "minecraft:entity_properties",
 			"entity": "this",
 			"predicate": {
-				"nbt": "{Tags:[\"captainfalcon\"]}"
+				"nbt": "{Tags:[\"captain_falcon\"]}"
 			}
 		},
 		{
@@ -40,7 +40,7 @@
 			"condition": "minecraft:entity_properties",
 			"entity": "this",
 			"predicate": {
-				"nbt": "{Tags:[\"donkeykong\"]}"
+				"nbt": "{Tags:[\"donkey_kong\"]}"
 			}
 		},
 		{
@@ -149,7 +149,7 @@
 			"condition": "minecraft:entity_properties",
 			"entity": "this",
 			"predicate": {
-				"nbt": "{Tags:[\"pokemontrainer\"]}"
+				"nbt": "{Tags:[\"pokemon_trainer\"]}"
 			}
 		},
 		{
@@ -185,7 +185,7 @@
 			"condition": "minecraft:entity_properties",
 			"entity": "this",
 			"predicate": {
-				"nbt": "{Tags:[\"shovelknight\"]}"
+				"nbt": "{Tags:[\"shovel_knight\"]}"
 			}
 		},
 		{

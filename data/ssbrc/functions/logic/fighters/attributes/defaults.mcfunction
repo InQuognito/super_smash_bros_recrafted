@@ -27,12 +27,12 @@ attribute @s[predicate=ssbrc:fighters/max_health/default] minecraft:generic.max_
 # Movement Speed
 attribute @s[predicate=ssbrc:fighters/speed/default] minecraft:generic.movement_speed base set 0.1
 
-attribute @s[tag=captainfalcon] minecraft:generic.movement_speed base set 0.105
+attribute @s[tag=captain_falcon] minecraft:generic.movement_speed base set 0.105
 attribute @s[tag=cloud,tag=punisher] minecraft:generic.movement_speed base set 0.03
-attribute @s[tag=darksamus] minecraft:generic.movement_speed base set 0.095
+attribute @s[tag=dark_samus] minecraft:generic.movement_speed base set 0.095
 attribute @s[tag=ganondorf] minecraft:generic.movement_speed base set 0.075
 attribute @s[tag=jigglypuff] minecraft:generic.movement_speed base set 0.085
-attribute @s[tag=kingkrool] minecraft:generic.movement_speed base set 0.085
+attribute @s[tag=king_k_rool] minecraft:generic.movement_speed base set 0.085
 attribute @s[tag=meowth] minecraft:generic.movement_speed base set 0.125
 attribute @s[tag=samus] minecraft:generic.movement_speed base set 0.09
 attribute @s[tag=shadow] minecraft:generic.movement_speed base set 0.105

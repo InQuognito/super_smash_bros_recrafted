@@ -3,19 +3,19 @@ execute as @e[type=minecraft:horse,tag=steedCharge,predicate=ssbrc:id_match] at 
 execute as @e[type=minecraft:spectral_arrow,tag=failnaught,tag=awakened,predicate=ssbrc:id_match] at @s run function ssbrc:fighters/byleth/logic/golden_deer/failnaught/tick
 
 # Captain Falcon
-execute as @e[type=minecraft:marker,tag=raptorBoost,predicate=ssbrc:id_match] at @s run function ssbrc:fighters/captainfalcon/logic/abilities/raptor_boost/tick
+execute as @e[type=minecraft:marker,tag=raptorBoost,predicate=ssbrc:id_match] at @s run function ssbrc:fighters/captain_falcon/logic/abilities/raptor_boost/tick
 
 # Cloud
 execute as @e[type=minecraft:marker,tag=bladeBeam,predicate=ssbrc:id_match] at @s run function ssbrc:fighters/cloud/logic/blade_beam/tick
 
 # Dark Samus
-execute as @e[type=minecraft:marker,tag=phazonBeam,predicate=ssbrc:id_match] at @s run function ssbrc:fighters/darksamus/logic/abilities/phazon_beam/tick
-execute as @e[type=minecraft:marker,tag=phazonPool,predicate=ssbrc:id_match] at @s run function ssbrc:fighters/darksamus/logic/abilities/phazon_spike/tick_pool
-execute as @e[type=minecraft:item_display,tag=phazonSpike,predicate=ssbrc:id_match] at @s run function ssbrc:fighters/darksamus/logic/abilities/phazon_spike/tick_spike
+execute as @e[type=minecraft:marker,tag=phazonBeam,predicate=ssbrc:id_match] at @s run function ssbrc:fighters/dark_samus/logic/abilities/phazon_beam/tick
+execute as @e[type=minecraft:marker,tag=phazonPool,predicate=ssbrc:id_match] at @s run function ssbrc:fighters/dark_samus/logic/abilities/phazon_spike/tick_pool
+execute as @e[type=minecraft:item_display,tag=phazonSpike,predicate=ssbrc:id_match] at @s run function ssbrc:fighters/dark_samus/logic/abilities/phazon_spike/tick_spike
 
 # Donkey Kong
-execute as @e[type=minecraft:armor_stand,tag=barrel,predicate=ssbrc:id_match] at @s run function ssbrc:fighters/donkeykong/logic/abilities/barrel/tick
-execute as @e[type=minecraft:marker,tag=orangeGrenade,predicate=ssbrc:id_match] at @s run function ssbrc:fighters/donkeykong/logic/abilities/orange_grenade/tick
+execute as @e[type=minecraft:armor_stand,tag=barrel,predicate=ssbrc:id_match] at @s run function ssbrc:fighters/donkey_kong/logic/abilities/barrel/tick
+execute as @e[type=minecraft:marker,tag=orangeGrenade,predicate=ssbrc:id_match] at @s run function ssbrc:fighters/donkey_kong/logic/abilities/orange_grenade/tick
 
 # Fox
 execute as @e[type=minecraft:arrow,tag=krazoanFireball,predicate=ssbrc:id_match] at @s run function ssbrc:fighters/fox/logic/abilities/krazoan_fireball/tick
@@ -41,7 +41,7 @@ execute as @e[type=minecraft:item_display,tag=hama.display,predicate=ssbrc:id_ma
 execute as @e[type=minecraft:arrow,tag=phantomShow,predicate=ssbrc:id_match] at @s run function ssbrc:fighters/joker/logic/abilities/phantom_show/tick
 
 # King K. Rool
-execute as @e[type=minecraft:armor_stand,tag=blunderbuss,predicate=ssbrc:id_match] at @s run function ssbrc:fighters/kingkrool/logic/abilities/blunderbuss/tick
+execute as @e[type=minecraft:armor_stand,tag=blunderbuss,predicate=ssbrc:id_match] at @s run function ssbrc:fighters/king_k_rool/logic/abilities/blunderbuss/tick
 
 # Link
 execute as @e[type=minecraft:arrow,tag=swordBeam,predicate=ssbrc:id_match] at @s run function ssbrc:fighters/link/logic/abilities/sword_beam/tick
@@ -72,10 +72,10 @@ execute as @e[type=minecraft:spectral_arrow,tag=palutenaBow,predicate=ssbrc:id_m
 execute as @e[type=minecraft:armor_stand,tag=guardianOrbitar,predicate=ssbrc:id_match] at @s positioned ~ ~0.75 ~ run function ssbrc:fighters/pit/logic/abilities/guardian_orbitars/tick
 
 # Pokémon Trainer
-execute as @e[type=minecraft:marker,tag=flareBlitz,predicate=ssbrc:id_match] at @s run function ssbrc:fighters/pokemontrainer/logic/charizard/flare_blitz/tick
-execute as @e[type=minecraft:marker,tag=leechSeed,predicate=ssbrc:id_match] at @s run function ssbrc:fighters/pokemontrainer/logic/ivysaur/leech_seed/tick/projectile
-execute as @e[type=minecraft:marker,tag=leechSeed.healingOrb,predicate=ssbrc:id_match] at @s run function ssbrc:fighters/pokemontrainer/logic/ivysaur/leech_seed/tick/healing_orb
-execute as @e[type=minecraft:arrow,tag=waterGun,predicate=ssbrc:id_match] at @s run function ssbrc:fighters/pokemontrainer/logic/squirtle/water_gun/tick
+execute as @e[type=minecraft:marker,tag=flareBlitz,predicate=ssbrc:id_match] at @s run function ssbrc:fighters/pokemon_trainer/logic/charizard/flare_blitz/tick
+execute as @e[type=minecraft:marker,tag=leechSeed,predicate=ssbrc:id_match] at @s run function ssbrc:fighters/pokemon_trainer/logic/ivysaur/leech_seed/tick/projectile
+execute as @e[type=minecraft:marker,tag=leechSeed.healingOrb,predicate=ssbrc:id_match] at @s run function ssbrc:fighters/pokemon_trainer/logic/ivysaur/leech_seed/tick/healing_orb
+execute as @e[type=minecraft:arrow,tag=waterGun,predicate=ssbrc:id_match] at @s run function ssbrc:fighters/pokemon_trainer/logic/squirtle/water_gun/tick
 
 # Princess Peach
 execute as @e[type=minecraft:armor_stand,tag=vegetable,predicate=ssbrc:id_match] at @s run function ssbrc:fighters/princess_peach/logic/abilities/vegetable/tick
@@ -127,7 +127,7 @@ execute as @e[type=minecraft:armor_stand,tag=magicBoomerang,predicate=ssbrc:id_m
 execute at @s[nbt={Inventory:[{tag:{goronLocket:1}}]}] as @e[type=#ssbrc:arrows,tag=effect.wither,distance=..1.6,predicate=!ssbrc:id_match] run kill @s
 
 # Altered Beast
-execute as @e[type=minecraft:arrow,tag=flameHands,predicate=ssbrc:id_match] at @s run function ssbrc:fighters/alteredbeast/logic/abilities/flame_hands/tick
+execute as @e[type=minecraft:arrow,tag=flameHands,predicate=ssbrc:id_match] at @s run function ssbrc:fighters/altered_beast/logic/abilities/flame_hands/tick
 
 # Alucard
 execute as @e[type=minecraft:marker,tag=mist,predicate=ssbrc:id_match] at @s run function ssbrc:fighters/alucard/logic/abilities/mist/tick_entity
@@ -144,16 +144,16 @@ execute as @e[type=minecraft:arrow,tag=chaosSpear,predicate=ssbrc:id_match] at @
 execute as @e[type=minecraft:arrow,tag=chaosBlastShockwave,predicate=ssbrc:id_match] at @s run function ssbrc:fighters/shadow/logic/chaos_blast/tick
 
 # Shovel Knight
-execute as @e[type=minecraft:marker,tag=chaosSphere,predicate=ssbrc:id_match] at @s run function ssbrc:fighters/shovelknight/logic/abilities/chaos_sphere/tick
-execute as @e[type=minecraft:arrow,tag=flareWand,predicate=ssbrc:id_match] at @s run function ssbrc:fighters/shovelknight/logic/abilities/flare_wand/tick
-execute as @e[type=minecraft:marker,tag=propellerDagger,predicate=ssbrc:id_match] at @s run function ssbrc:fighters/shovelknight/logic/abilities/propeller_dagger/tick
-execute as @e[type=minecraft:armor_stand,tag=throwingAnchor,predicate=ssbrc:id_match] at @s run function ssbrc:fighters/shovelknight/logic/abilities/throwing_anchor/tick
-execute as @e[type=minecraft:marker,tag=warHorn,predicate=ssbrc:id_match] at @s run function ssbrc:fighters/shovelknight/logic/abilities/war_horn/tick
+execute as @e[type=minecraft:marker,tag=chaosSphere,predicate=ssbrc:id_match] at @s run function ssbrc:fighters/shovel_knight/logic/abilities/chaos_sphere/tick
+execute as @e[type=minecraft:arrow,tag=flareWand,predicate=ssbrc:id_match] at @s run function ssbrc:fighters/shovel_knight/logic/abilities/flare_wand/tick
+execute as @e[type=minecraft:marker,tag=propellerDagger,predicate=ssbrc:id_match] at @s run function ssbrc:fighters/shovel_knight/logic/abilities/propeller_dagger/tick
+execute as @e[type=minecraft:armor_stand,tag=throwingAnchor,predicate=ssbrc:id_match] at @s run function ssbrc:fighters/shovel_knight/logic/abilities/throwing_anchor/tick
+execute as @e[type=minecraft:marker,tag=warHorn,predicate=ssbrc:id_match] at @s run function ssbrc:fighters/shovel_knight/logic/abilities/war_horn/tick
 
 # Team Rocket
-execute as @e[type=minecraft:area_effect_cloud,tag=acid,tag=!active,predicate=ssbrc:id_match] at @s run function ssbrc:fighters/teamrocket/logic/arbok/acid/tick
-execute as @e[type=minecraft:armor_stand,tag=payday,predicate=ssbrc:id_match] at @s run function ssbrc:fighters/teamrocket/logic/meowth/payday/tick
-execute as @e[type=minecraft:arrow,tag=paydayProjectile,predicate=ssbrc:id_match] at @s run function ssbrc:fighters/teamrocket/logic/meowth/payday/projectiles/tick
+execute as @e[type=minecraft:area_effect_cloud,tag=acid,tag=!active,predicate=ssbrc:id_match] at @s run function ssbrc:fighters/team_rocket/logic/arbok/acid/tick
+execute as @e[type=minecraft:armor_stand,tag=payday,predicate=ssbrc:id_match] at @s run function ssbrc:fighters/team_rocket/logic/meowth/payday/tick
+execute as @e[type=minecraft:arrow,tag=paydayProjectile,predicate=ssbrc:id_match] at @s run function ssbrc:fighters/team_rocket/logic/meowth/payday/projectiles/tick
 
 # Yar
 execute as @e[type=minecraft:arrow,tag=rayBlaster,predicate=ssbrc:id_match] at @s run function ssbrc:fighters/yar/logic/abilities/ray_blaster/tick

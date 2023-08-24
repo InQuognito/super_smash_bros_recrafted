@@ -12,7 +12,7 @@
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"translate": "ssbrc.fighters.pokemontrainer.skin.victor",
+								"translate": "ssbrc.fighters.pokemon_trainer.skin.victor",
 								"color": "dark_blue",
 								"bold": true,
 								"italic": false
@@ -59,7 +59,7 @@
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{ui:{id:\"skins.pokemontrainer.victor\",sound:\"click\"},CustomModelData:1275}"
+							"tag": "{ui:{id:\"skins.pokemon_trainer.victor\",sound:\"click\"},CustomModelData:1275}"
 						}
 					]
 				}
