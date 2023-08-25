@@ -6,6 +6,10 @@
 			{
 				"condition": "minecraft:reference",
 				"name": "ssbrc:fighters/max_health/low"
+			},
+			{
+				"condition": "minecraft:reference",
+				"name": "ssbrc:fighters/max_health/high"
 			}
 		]
 	}

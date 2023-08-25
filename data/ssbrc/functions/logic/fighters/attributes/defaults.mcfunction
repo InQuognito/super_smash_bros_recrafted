@@ -23,6 +23,7 @@ function ssbrc:logic/fighters/attributes/defaults/knockback_resistance
 # Max Health
 attribute @s[predicate=ssbrc:fighters/max_health/low] minecraft:generic.max_health base set 32.0
 attribute @s[predicate=ssbrc:fighters/max_health/default] minecraft:generic.max_health base set 40.0
+attribute @s[predicate=ssbrc:fighters/max_health/high] minecraft:generic.max_health base set 48.0
 
 # Movement Speed
 attribute @s[predicate=ssbrc:fighters/speed/default] minecraft:generic.movement_speed base set 0.1

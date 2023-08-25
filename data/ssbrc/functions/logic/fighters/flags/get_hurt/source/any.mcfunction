@@ -1,5 +1,6 @@
 execute if score gameStage temp matches 4 if entity @s[tag=jigglypuff,tag=rest] if predicate ssbrc:random_chance/15 run function ssbrc:fighters/jigglypuff/logic/abilities/rest/deactivate
-execute if score gameStage temp matches 4 if entity @s[tag=pikachu,tag=balloonRing,tag=!balloonRingCooldown,scores={charge.1=1..}] run function ssbrc:fighters/pikachu/get_hurt
+#execute if score gameStage temp matches 4 if entity @s[tag=pikachu,tag=balloonRing,tag=!balloonRingCooldown,scores={charge.1=1..}] run function ssbrc:fighters/pikachu/get_hurt
+execute if score gameStage temp matches 4 if entity @s[tag=roy] run function ssbrc:fighters/roy/logic/get_hurt
 execute if score gameStage temp matches 4 if entity @s[tag=shadow] run scoreboard players set @s flag.sprinting 0
 execute if score gameStage temp matches 4 if entity @s[tag=snake] unless score $blackout temp matches 1 run function ssbrc:fighters/snake/logic/get_hurt
 execute if score gameStage temp matches 4 if entity @s[tag=sonic] run scoreboard players set @s flag.sprinting 0
