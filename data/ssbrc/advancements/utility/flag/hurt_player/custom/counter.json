@@ -1,0 +1,34 @@
+{
+	"parent": "ssbrc:utility/root",
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:player_hurt_entity",
+			"conditions": {
+				"damage": {
+					"blocked": false
+				},
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"nbt": "{Tags:[\"roy\"]}"
+						}
+					},
+					{
+						"condition": "minecraft:entity_scores",
+						"entity": "this",
+						"scores": {
+							"duration.1": {
+								"min": 1
+							}
+						}
+					}
+				]
+			}
+		}
+	},
+	"rewards": {
+		"function": "ssbrc:fighters/roy/logic/ablities/counter/hit"
+	}
+}

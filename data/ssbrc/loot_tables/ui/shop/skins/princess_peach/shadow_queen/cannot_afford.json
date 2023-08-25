@@ -12,7 +12,7 @@
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"translate": "ssbrc.fighters.princessPeach.skin.shadowQueen",
+								"translate": "ssbrc.fighters.princess_peach.skin.shadowQueen",
 								"color": "dark_purple",
 								"bold": true,
 								"italic": false

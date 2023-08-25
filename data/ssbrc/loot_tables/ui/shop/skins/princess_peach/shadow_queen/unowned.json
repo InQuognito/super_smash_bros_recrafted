@@ -12,7 +12,7 @@
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"translate": "ssbrc.fighters.princessPeach.skin.shadowQueen",
+								"translate": "ssbrc.fighters.princess_peach.skin.shadowQueen",
 								"color": "dark_purple",
 								"bold": true,
 								"italic": false
@@ -59,7 +59,7 @@
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{ui:{id:\"skins.princessPeach.shadowQueen\",sound:\"click\"},CustomModelData:1163}"
+							"tag": "{ui:{id:\"skins.princess_peach.shadowQueen\",sound:\"click\"},CustomModelData:1163}"
 						}
 					]
 				}

@@ -12,7 +12,7 @@
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"translate": "ssbrc.tooltips.princessPeach.fryingPan",
+								"translate": "ssbrc.tooltips.princess_peach.fryingPan",
 								"color": "white",
 								"bold": true,
 								"italic": false

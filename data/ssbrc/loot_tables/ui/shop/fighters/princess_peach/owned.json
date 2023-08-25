@@ -12,7 +12,7 @@
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"translate": "ssbrc.fighters.princessPeach",
+								"translate": "ssbrc.fighters.princess_peach",
 								"color": "light_purple",
 								"bold": true,
 								"italic": false

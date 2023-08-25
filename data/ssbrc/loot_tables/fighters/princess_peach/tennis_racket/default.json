@@ -12,7 +12,7 @@
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"translate": "ssbrc.tooltips.princessPeach.tennisRacket",
+								"translate": "ssbrc.tooltips.princess_peach.tennisRacket",
 								"color": "white",
 								"bold": true,
 								"italic": false

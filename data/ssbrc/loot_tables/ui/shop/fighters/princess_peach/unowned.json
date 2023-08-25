@@ -12,7 +12,7 @@
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"translate": "ssbrc.fighters.princessPeach",
+								"translate": "ssbrc.fighters.princess_peach",
 								"color": "light_purple",
 								"bold": true,
 								"italic": false
@@ -59,7 +59,7 @@
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{ui:{id:\"princessPeach\",sound:\"click\"},CustomModelData:1160}"
+							"tag": "{ui:{id:\"princess_peach\",sound:\"click\"},CustomModelData:1160}"
 						}
 					]
 				}

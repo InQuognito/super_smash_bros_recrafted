@@ -9,8 +9,8 @@ tellraw @s[tag=gold] [{"translate":"ssbrc.fighters.skin.gold","color":"gold"},{"
 tellraw @s[tag=!flowerPower,advancements={ssbrc:fighters/princess_peach/skins/flower_power=true}] [{"translate":"ssbrc.series.superMarioBros.skin.flowerPower","color":"white","clickEvent":{"action":"run_command","value":"/trigger menu set 1166"}}]
 tellraw @s[tag=flowerPower] [{"translate":"ssbrc.series.superMarioBros.skin.flowerPower","color":"white"},{"text":" ","color":"white"},{"text":"✔","color":"green"}]
 
-tellraw @s[tag=!shadowQueen,advancements={ssbrc:fighters/princess_peach/skins/shadow_queen=true}] [{"translate":"ssbrc.fighters.princessPeach.skin.shadowQueen","color":"dark_purple","clickEvent":{"action":"run_command","value":"/trigger menu set 1167"}}]
-tellraw @s[tag=shadowQueen] [{"translate":"ssbrc.fighters.princessPeach.skin.shadowQueen","color":"dark_purple"},{"text":" ","color":"white"},{"text":"✔","color":"green"}]
+tellraw @s[tag=!shadowQueen,advancements={ssbrc:fighters/princess_peach/skins/shadow_queen=true}] [{"translate":"ssbrc.fighters.princess_peach.skin.shadowQueen","color":"dark_purple","clickEvent":{"action":"run_command","value":"/trigger menu set 1167"}}]
+tellraw @s[tag=shadowQueen] [{"translate":"ssbrc.fighters.princess_peach.skin.shadowQueen","color":"dark_purple"},{"text":" ","color":"white"},{"text":"✔","color":"green"}]
 
 tellraw @s [{"translate":"================","bold":true,"color":"white"}]
 

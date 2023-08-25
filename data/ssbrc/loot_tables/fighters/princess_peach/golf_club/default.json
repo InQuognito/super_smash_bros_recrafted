@@ -12,7 +12,7 @@
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"translate": "ssbrc.tooltips.princessPeach.golfClub",
+								"translate": "ssbrc.tooltips.princess_peach.golfClub",
 								"color": "white",
 								"bold": true,
 								"italic": false

@@ -1198,7 +1198,7 @@
 				"condition": "minecraft:entity_properties",
 				"entity": "this",
 				"predicate": {
-					"nbt": "{Tags:[\"princessPeach\",\"default\"]}"
+					"nbt": "{Tags:[\"princess_peach\",\"default\"]}"
 				}
 			}
 		]
@@ -1211,7 +1211,7 @@
 				"condition": "minecraft:entity_properties",
 				"entity": "this",
 				"predicate": {
-					"nbt": "{Tags:[\"princessPeach\",\"gold\"]}"
+					"nbt": "{Tags:[\"princess_peach\",\"gold\"]}"
 				}
 			}
 		]
@@ -1224,7 +1224,7 @@
 				"condition": "minecraft:entity_properties",
 				"entity": "this",
 				"predicate": {
-					"nbt": "{Tags:[\"princessPeach\",\"flowerPower\"]}"
+					"nbt": "{Tags:[\"princess_peach\",\"flowerPower\"]}"
 				}
 			}
 		]
@@ -1237,7 +1237,7 @@
 				"condition": "minecraft:entity_properties",
 				"entity": "this",
 				"predicate": {
-					"nbt": "{Tags:[\"princessPeach\",\"shadowQueen\"]}"
+					"nbt": "{Tags:[\"princess_peach\",\"shadowQueen\"]}"
 				}
 			}
 		]

@@ -930,7 +930,7 @@
 				"condition": "minecraft:entity_properties",
 				"entity": "this",
 				"predicate": {
-					"nbt": "{Tags:[\"princessPeach\",\"default\"]}"
+					"nbt": "{Tags:[\"princess_peach\",\"default\"]}"
 				}
 			}
 		]
@@ -943,7 +943,7 @@
 				"condition": "minecraft:entity_properties",
 				"entity": "this",
 				"predicate": {
-					"nbt": "{Tags:[\"princessPeach\",\"gold\"]}"
+					"nbt": "{Tags:[\"princess_peach\",\"gold\"]}"
 				}
 			}
 		]
@@ -956,7 +956,7 @@
 				"condition": "minecraft:entity_properties",
 				"entity": "this",
 				"predicate": {
-					"nbt": "{Tags:[\"princessPeach\",\"flowerPower\"]}"
+					"nbt": "{Tags:[\"princess_peach\",\"flowerPower\"]}"
 				}
 			}
 		]
@@ -969,7 +969,7 @@
 				"condition": "minecraft:entity_properties",
 				"entity": "this",
 				"predicate": {
-					"nbt": "{Tags:[\"princessPeach\",\"shadowQueen\"]}"
+					"nbt": "{Tags:[\"princess_peach\",\"shadowQueen\"]}"
 				}
 			}
 		]
@@ -1347,6 +1347,45 @@
 				"entity": "this",
 				"predicate": {
 					"nbt": "{Tags:[\"rob\",\"famicom\"]}"
+				}
+			}
+		]
+	},
+	{
+		"function": "minecraft:set_nbt",
+		"tag": "{Trim:{pattern:\"ssbrc:fighters/roy/default\",material:\"minecraft:quartz\"}}",
+		"conditions": [
+			{
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"nbt": "{Tags:[\"roy\",\"default\"]}"
+				}
+			}
+		]
+	},
+	{
+		"function": "minecraft:set_nbt",
+		"tag": "{Trim:{pattern:\"ssbrc:fighters/roy/gold\",material:\"minecraft:quartz\"}}",
+		"conditions": [
+			{
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"nbt": "{Tags:[\"roy\",\"gold\"]}"
+				}
+			}
+		]
+	},
+	{
+		"function": "minecraft:set_nbt",
+		"tag": "{Trim:{pattern:\"ssbrc:fighters/roy/young_lion\",material:\"minecraft:quartz\"}}",
+		"conditions": [
+			{
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"nbt": "{Tags:[\"roy\",\"youngLion\"]}"
 				}
 			}
 		]

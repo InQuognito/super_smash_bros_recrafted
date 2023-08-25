@@ -4,7 +4,7 @@ execute if score @s shopCalculator matches 1.. run function ssbrc:shop/pages/mai
 execute store result score @s shopCalculator run clear @s #ssbrc:ui/buttons{ui:{id:"luigi"}}
 execute if score @s shopCalculator matches 1.. run function ssbrc:shop/contents/fighters/luigi
 
-execute store result score @s shopCalculator run clear @s #ssbrc:ui/buttons{ui:{id:"princessPeach"}}
+execute store result score @s shopCalculator run clear @s #ssbrc:ui/buttons{ui:{id:"princess_peach"}}
 execute if score @s shopCalculator matches 1.. run function ssbrc:shop/contents/fighters/princess_peach
 
 execute store result score @s shopCalculator run clear @s #ssbrc:ui/buttons{ui:{id:"king_k_rool"}}

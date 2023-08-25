@@ -1,1 +1,1 @@
-tag @s remove princessPeach
+tag @s remove princess_peach

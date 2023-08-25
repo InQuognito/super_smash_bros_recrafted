@@ -25,6 +25,7 @@ function ssbrc:logic/resets/tags/fighters/pit
 function ssbrc:logic/resets/tags/fighters/pokemon_trainer
 function ssbrc:logic/resets/tags/fighters/princess_peach
 function ssbrc:logic/resets/tags/fighters/rob
+function ssbrc:logic/resets/tags/fighters/roy
 function ssbrc:logic/resets/tags/fighters/ryu
 function ssbrc:logic/resets/tags/fighters/samus
 function ssbrc:logic/resets/tags/fighters/shadow
