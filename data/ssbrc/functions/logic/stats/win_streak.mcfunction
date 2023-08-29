@@ -60,7 +60,7 @@ execute if score @s[tag=winner,tag=kirby] stats.kirby.wins matches 10 run functi
 execute if score @s[tag=winner,tag=link] stats.link.wins matches 10 run function ssbrc:shop/contents/skins/link/gold
 execute if score @s[tag=winner,tag=luigi] stats.luigi.wins matches 10 run function ssbrc:shop/contents/skins/luigi/gold
 execute if score @s[tag=winner,tag=mario] stats.mario.wins matches 10 run function ssbrc:shop/contents/skins/mario/gold
-execute if score @s[tag=winner,tag=megaman] stats.megaman.wins matches 10 run function ssbrc:shop/contents/skins/megaman/gold
+execute if score @s[tag=winner,tag=megaman] stats.megaman.wins matches 10 run function ssbrc:shop/contents/skins/mega_man/gold
 execute if score @s[tag=winner,tag=ness] stats.ness.wins matches 10 run function ssbrc:shop/contents/skins/ness/gold
 execute if score @s[tag=winner,tag=pikachu] stats.pikachu.wins matches 10 run function ssbrc:shop/contents/skins/pikachu/gold
 execute if score @s[tag=winner,tag=pit] stats.pit.wins matches 10 run function ssbrc:shop/contents/skins/pit/gold

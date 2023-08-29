@@ -87,8 +87,8 @@ execute if score @s[tag=mario] menu matches 844 run function ssbrc:fighters/mari
 execute if score @s[tag=mario] menu matches 845 run function ssbrc:fighters/mario/menu/skins/gold
 execute if score @s[tag=mario] menu matches 846 run function ssbrc:fighters/mario/menu/skins/flower_power
 
-execute if score @s[tag=megaman] menu matches 884 run function ssbrc:fighters/megaman/menu/skins/default
-execute if score @s[tag=megaman] menu matches 885 run function ssbrc:fighters/megaman/menu/skins/gold
+execute if score @s[tag=megaman] menu matches 884 run function ssbrc:fighters/mega_man/menu/skins/default
+execute if score @s[tag=megaman] menu matches 885 run function ssbrc:fighters/mega_man/menu/skins/gold
 
 execute if score @s[tag=ness] menu matches 1084 run function ssbrc:fighters/ness/menu/skins/default
 execute if score @s[tag=ness] menu matches 1085 run function ssbrc:fighters/ness/menu/skins/gold

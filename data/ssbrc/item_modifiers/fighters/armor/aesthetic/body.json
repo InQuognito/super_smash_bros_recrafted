@@ -833,7 +833,7 @@
 	},
 	{
 		"function": "minecraft:set_nbt",
-		"tag": "{Trim:{pattern:\"ssbrc:fighters/megaman/default\",material:\"minecraft:quartz\"}}",
+		"tag": "{Trim:{pattern:\"ssbrc:fighters/mega_man/default\",material:\"minecraft:quartz\"}}",
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -846,7 +846,7 @@
 	},
 	{
 		"function": "minecraft:set_nbt",
-		"tag": "{Trim:{pattern:\"ssbrc:fighters/megaman/gold\",material:\"minecraft:quartz\"}}",
+		"tag": "{Trim:{pattern:\"ssbrc:fighters/mega_man/gold\",material:\"minecraft:quartz\"}}",
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",

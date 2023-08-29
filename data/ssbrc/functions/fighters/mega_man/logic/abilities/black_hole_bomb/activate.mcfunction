@@ -1,4 +1,4 @@
-execute summon minecraft:marker run function ssbrc:fighters/megaman/logic/abilities/black_hole_bomb/init/marker
+execute summon minecraft:marker run function ssbrc:fighters/mega_man/logic/abilities/black_hole_bomb/init/marker
 
 scoreboard players remove @s charge.1 1
 

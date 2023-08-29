@@ -1,4 +1,4 @@
-execute positioned ^ ^ ^1 summon minecraft:marker run function ssbrc:fighters/megaman/logic/abilities/mega_buster/init
+execute positioned ^ ^ ^1 summon minecraft:marker run function ssbrc:fighters/mega_man/logic/abilities/mega_buster/init
 
 scoreboard players set cooldownModifierType temp 1
 scoreboard players set @s cooldown.1 8

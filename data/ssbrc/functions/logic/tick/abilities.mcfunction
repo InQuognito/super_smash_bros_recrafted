@@ -54,8 +54,8 @@ execute as @e[type=minecraft:marker,tag=iceBall,predicate=ssbrc:id_match] at @s 
 execute as @e[type=minecraft:area_effect_cloud,tag=fireball,predicate=ssbrc:id_match] at @s run function ssbrc:fighters/mario/logic/abilities/fireball/tick
 
 # Mega Man
-execute as @e[type=minecraft:marker,tag=megaBuster,predicate=ssbrc:id_match] at @s run function ssbrc:fighters/megaman/logic/abilities/mega_buster/tick
-execute as @e[type=minecraft:armor_stand,tag=blackHoleBomb,predicate=ssbrc:id_match] at @s unless block ~ ~-0.1 ~ #ssbrc:passthrough run function ssbrc:fighters/megaman/logic/abilities/black_hole_bomb/tick
+execute as @e[type=minecraft:marker,tag=megaBuster,predicate=ssbrc:id_match] at @s run function ssbrc:fighters/mega_man/logic/abilities/mega_buster/tick
+execute as @e[type=minecraft:armor_stand,tag=blackHoleBomb,predicate=ssbrc:id_match] at @s unless block ~ ~-0.1 ~ #ssbrc:passthrough run function ssbrc:fighters/mega_man/logic/abilities/black_hole_bomb/tick
 
 # Ness
 execute as @e[type=minecraft:area_effect_cloud,tag=pkFire,tag=!exploded,predicate=ssbrc:id_match] at @s run function ssbrc:fighters/ness/logic/abilities/pk_fire/tick

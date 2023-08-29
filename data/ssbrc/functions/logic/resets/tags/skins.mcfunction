@@ -18,7 +18,7 @@ function ssbrc:fighters/kirby/menu/skins/reset
 function ssbrc:fighters/link/menu/skins/reset
 function ssbrc:fighters/luigi/menu/skins/reset
 function ssbrc:fighters/mario/menu/skins/reset
-function ssbrc:fighters/megaman/menu/skins/reset
+function ssbrc:fighters/mega_man/menu/skins/reset
 function ssbrc:fighters/ness/menu/skins/reset
 function ssbrc:fighters/pikachu/menu/skins/reset
 function ssbrc:fighters/pit/menu/skins/reset

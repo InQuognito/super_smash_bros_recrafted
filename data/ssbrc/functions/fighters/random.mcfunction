@@ -19,7 +19,7 @@ execute unless score @s[advancements={ssbrc:fighters/steve/skins/default=true}] 
 execute unless score @s[advancements={ssbrc:fighters/pit/skins/default=true}] characterPicked matches 1.. if score result random matches 11 run function ssbrc:fighters/pit/menu/skins/random
 execute unless score @s[advancements={ssbrc:fighters/sora/skins/default=true}] characterPicked matches 1.. if score result random matches 12 run function ssbrc:fighters/sora/menu/skins/random
 execute unless score @s[advancements={ssbrc:fighters/kirby/skins/default=true}] characterPicked matches 1.. if score result random matches 13 run function ssbrc:fighters/kirby/menu/skins/random
-execute unless score @s[advancements={ssbrc:fighters/megaman/skins/default=true}] characterPicked matches 1.. if score result random matches 14 run function ssbrc:fighters/megaman/menu/skins/random
+execute unless score @s[advancements={ssbrc:fighters/mega_man/skins/default=true}] characterPicked matches 1.. if score result random matches 14 run function ssbrc:fighters/mega_man/menu/skins/random
 execute unless score @s[advancements={ssbrc:fighters/snake/skins/default=true}] characterPicked matches 1.. if score result random matches 15 run function ssbrc:fighters/snake/menu/skins/random
 execute unless score @s[advancements={ssbrc:fighters/dark_samus/skins/default=true}] characterPicked matches 1.. if score result random matches 16 run function ssbrc:fighters/dark_samus/menu/skins/random
 execute unless score @s[advancements={ssbrc:fighters/samus/skins/default=true}] characterPicked matches 1.. if score result random matches 17 run function ssbrc:fighters/samus/menu/skins/random
