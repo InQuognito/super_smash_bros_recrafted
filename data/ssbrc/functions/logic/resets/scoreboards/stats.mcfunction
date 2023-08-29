@@ -138,11 +138,11 @@ scoreboard objectives add stats.mario.gamesPlayed dummy
 scoreboard objectives add stats.mario.wins dummy
 scoreboard objectives add stats.mario.winStreak dummy
 
-scoreboard objectives add stats.megaman.deaths dummy
-scoreboard objectives add stats.megaman.kills dummy
-scoreboard objectives add stats.megaman.gamesPlayed dummy
-scoreboard objectives add stats.megaman.wins dummy
-scoreboard objectives add stats.megaman.winStreak dummy
+scoreboard objectives add stats.mega_man.deaths dummy
+scoreboard objectives add stats.mega_man.kills dummy
+scoreboard objectives add stats.mega_man.gamesPlayed dummy
+scoreboard objectives add stats.mega_man.wins dummy
+scoreboard objectives add stats.mega_man.winStreak dummy
 
 scoreboard objectives add stats.ness.deaths dummy
 scoreboard objectives add stats.ness.kills dummy

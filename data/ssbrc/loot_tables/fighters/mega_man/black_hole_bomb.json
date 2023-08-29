@@ -12,7 +12,7 @@
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"translate": "ssbrc.tooltips.megaman.blackHoleBomb",
+								"translate": "ssbrc.tooltips.mega_man.blackHoleBomb",
 								"color": "dark_purple",
 								"bold": true,
 								"italic": false
@@ -48,7 +48,7 @@
 											"italic": false
 										},
 										{
-											"translate": "ssbrc.tooltips.megaman.blackHoleBomb.description.1",
+											"translate": "ssbrc.tooltips.mega_man.blackHoleBomb.description.1",
 											"color": "gray",
 											"bold": false,
 											"italic": false
@@ -56,13 +56,13 @@
 									]
 								},
 								{
-									"translate": "ssbrc.tooltips.megaman.blackHoleBomb.description.2",
+									"translate": "ssbrc.tooltips.mega_man.blackHoleBomb.description.2",
 									"color": "gray",
 									"bold": false,
 									"italic": false
 								},
 								{
-									"translate": "ssbrc.tooltips.megaman.blackHoleBomb.description.3",
+									"translate": "ssbrc.tooltips.mega_man.blackHoleBomb.description.3",
 									"color": "gray",
 									"bold": false,
 									"italic": false

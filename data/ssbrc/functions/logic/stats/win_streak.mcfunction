@@ -21,7 +21,7 @@ scoreboard players add @s[tag=winner,tag=kirby] stats.kirby.wins 1
 scoreboard players add @s[tag=winner,tag=link] stats.link.wins 1
 scoreboard players add @s[tag=winner,tag=luigi] stats.luigi.wins 1
 scoreboard players add @s[tag=winner,tag=mario] stats.mario.wins 1
-scoreboard players add @s[tag=winner,tag=megaman] stats.megaman.wins 1
+scoreboard players add @s[tag=winner,tag=mega_man] stats.mega_man.wins 1
 scoreboard players add @s[tag=winner,tag=ness] stats.ness.wins 1
 scoreboard players add @s[tag=winner,tag=pikachu] stats.pikachu.wins 1
 scoreboard players add @s[tag=winner,tag=pit] stats.pit.wins 1
@@ -60,7 +60,7 @@ execute if score @s[tag=winner,tag=kirby] stats.kirby.wins matches 10 run functi
 execute if score @s[tag=winner,tag=link] stats.link.wins matches 10 run function ssbrc:shop/contents/skins/link/gold
 execute if score @s[tag=winner,tag=luigi] stats.luigi.wins matches 10 run function ssbrc:shop/contents/skins/luigi/gold
 execute if score @s[tag=winner,tag=mario] stats.mario.wins matches 10 run function ssbrc:shop/contents/skins/mario/gold
-execute if score @s[tag=winner,tag=megaman] stats.megaman.wins matches 10 run function ssbrc:shop/contents/skins/mega_man/gold
+execute if score @s[tag=winner,tag=mega_man] stats.mega_man.wins matches 10 run function ssbrc:shop/contents/skins/mega_man/gold
 execute if score @s[tag=winner,tag=ness] stats.ness.wins matches 10 run function ssbrc:shop/contents/skins/ness/gold
 execute if score @s[tag=winner,tag=pikachu] stats.pikachu.wins matches 10 run function ssbrc:shop/contents/skins/pikachu/gold
 execute if score @s[tag=winner,tag=pit] stats.pit.wins matches 10 run function ssbrc:shop/contents/skins/pit/gold
@@ -99,7 +99,7 @@ execute if entity @s[tag=winner,tag=kirby] run scoreboard players add kirby log.
 execute if entity @s[tag=winner,tag=link] run scoreboard players add link log.wins 1
 execute if entity @s[tag=winner,tag=luigi] run scoreboard players add luigi log.wins 1
 execute if entity @s[tag=winner,tag=mario] run scoreboard players add mario log.wins 1
-execute if entity @s[tag=winner,tag=megaman] run scoreboard players add megaman log.wins 1
+execute if entity @s[tag=winner,tag=mega_man] run scoreboard players add mega_man log.wins 1
 execute if entity @s[tag=winner,tag=ness] run scoreboard players add ness log.wins 1
 execute if entity @s[tag=winner,tag=pikachu] run scoreboard players add pikachu log.wins 1
 execute if entity @s[tag=winner,tag=pit] run scoreboard players add pit log.wins 1
@@ -144,7 +144,7 @@ scoreboard players reset @s[tag=!winner,tag=kirby] stats.kirby.winStreak
 scoreboard players reset @s[tag=!winner,tag=link] stats.link.winStreak
 scoreboard players reset @s[tag=!winner,tag=luigi] stats.luigi.winStreak
 scoreboard players reset @s[tag=!winner,tag=mario] stats.mario.winStreak
-scoreboard players reset @s[tag=!winner,tag=megaman] stats.megaman.winStreak
+scoreboard players reset @s[tag=!winner,tag=mega_man] stats.mega_man.winStreak
 scoreboard players reset @s[tag=!winner,tag=ness] stats.ness.winStreak
 scoreboard players reset @s[tag=!winner,tag=pikachu] stats.pikachu.winStreak
 scoreboard players reset @s[tag=!winner,tag=pit] stats.pit.winStreak
@@ -152,7 +152,7 @@ scoreboard players reset @s[tag=!winner,tag=pokemon_trainer] stats.pokemon_train
 scoreboard players reset @s[tag=!winner,tag=rob] stats.rob.winStreak
 scoreboard players reset @s[tag=!winner,tag=ryu] stats.ryu.winStreak
 scoreboard players reset @s[tag=!winner,tag=samus] stats.samus.winStreak
-scoreboard players reset @s[tag=!winner] stats.shadow.winStreak
+scoreboard players reset @s[tag=!winner,tag=shadow] stats.shadow.winStreak
 scoreboard players reset @s[tag=!winner,tag=shovel_knight] stats.shovel_knight.winStreak
 scoreboard players reset @s[tag=!winner,tag=snake] stats.snake.winStreak
 scoreboard players reset @s[tag=!winner,tag=sonic] stats.sonic.winStreak
@@ -183,7 +183,7 @@ scoreboard players add @s[tag=winner,tag=kirby] stats.kirby.winStreak 1
 scoreboard players add @s[tag=winner,tag=link] stats.link.winStreak 1
 scoreboard players add @s[tag=winner,tag=luigi] stats.luigi.winStreak 1
 scoreboard players add @s[tag=winner,tag=mario] stats.mario.winStreak 1
-scoreboard players add @s[tag=winner,tag=megaman] stats.megaman.winStreak 1
+scoreboard players add @s[tag=winner,tag=mega_man] stats.mega_man.winStreak 1
 scoreboard players add @s[tag=winner,tag=ness] stats.ness.winStreak 1
 scoreboard players add @s[tag=winner,tag=pikachu] stats.pikachu.winStreak 1
 scoreboard players add @s[tag=winner,tag=pit] stats.pit.winStreak 1

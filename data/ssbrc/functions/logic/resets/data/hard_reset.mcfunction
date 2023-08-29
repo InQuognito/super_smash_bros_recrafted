@@ -136,11 +136,11 @@ scoreboard objectives remove stats.mario.gamesPlayed
 scoreboard objectives remove stats.mario.wins
 scoreboard objectives remove stats.mario.winStreak
 
-scoreboard objectives remove stats.megaman.deaths
-scoreboard objectives remove stats.megaman.kills
-scoreboard objectives remove stats.megaman.gamesPlayed
-scoreboard objectives remove stats.megaman.wins
-scoreboard objectives remove stats.megaman.winStreak
+scoreboard objectives remove stats.mega_man.deaths
+scoreboard objectives remove stats.mega_man.kills
+scoreboard objectives remove stats.mega_man.gamesPlayed
+scoreboard objectives remove stats.mega_man.wins
+scoreboard objectives remove stats.mega_man.winStreak
 
 scoreboard objectives remove stats.ness.deaths
 scoreboard objectives remove stats.ness.kills

@@ -84,8 +84,8 @@ summon minecraft:item_display 121.5 6.0 186.5 {Tags:["selectable","lobbyStand","
 summon minecraft:text_display 119.5 7.25 182.5 {Tags:["lobbyStand.label"],text:'{"translate":"ssbrc.fighters.rob","color":"white"}',billboard:center}
 summon minecraft:item_display 119.5 6.0 182.5 {Tags:["selectable","lobbyStand","rob"],item:{id:"minecraft:stick",tag:{CustomModelData:3},Count:1b}}
 
-summon minecraft:text_display 118.5 7.25 179.5 {Tags:["lobbyStand.label"],text:'{"translate":"ssbrc.fighters.megaman","color":"dark_aqua"}',billboard:center}
-summon minecraft:item_display 118.5 6.0 179.5 {Tags:["selectable","lobbyStand","megaman"],item:{id:"minecraft:stick",tag:{CustomModelData:880},Count:1b}}
+summon minecraft:text_display 118.5 7.25 179.5 {Tags:["lobbyStand.label"],text:'{"translate":"ssbrc.fighters.mega_man","color":"dark_aqua"}',billboard:center}
+summon minecraft:item_display 118.5 6.0 179.5 {Tags:["selectable","lobbyStand","mega_man"],item:{id:"minecraft:stick",tag:{CustomModelData:880},Count:1b}}
 
 summon minecraft:text_display 117.5 7.25 176.5 {Tags:["lobbyStand.label"],text:'{"translate":"ssbrc.fighters.ryu","color":"white"}',billboard:center}
 summon minecraft:item_display 117.5 6.0 176.5 {Tags:["selectable","lobbyStand","ryu"],item:{id:"minecraft:stick",tag:{CustomModelData:1400},Count:1b}}

@@ -12,7 +12,7 @@
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"translate": "ssbrc.tooltips.megaman.megaBuster",
+								"translate": "ssbrc.tooltips.mega_man.megaBuster",
 								"color": "dark_blue",
 								"bold": true,
 								"italic": false

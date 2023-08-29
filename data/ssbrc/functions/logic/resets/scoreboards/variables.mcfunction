@@ -73,7 +73,7 @@ scoreboard players set #mario.fireballMaxRotation vars 160
 scoreboard players set #mario.superJumpThreshold vars 10
 scoreboard players set #mario.superJumpMovementFalloff vars 200
 
-scoreboard players set megaman.megaBusterLimit vars 3
+scoreboard players set mega_man.megaBusterLimit vars 3
 
 scoreboard players set ness.pkFireCooldown vars 40
 scoreboard players set ness.pkFlashCooldown vars 40

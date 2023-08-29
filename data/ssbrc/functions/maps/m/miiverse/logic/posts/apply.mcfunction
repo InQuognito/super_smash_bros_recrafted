@@ -25,7 +25,7 @@ execute as @p[tag=notPosted] if entity @s[tag=kirby] as @e[type=minecraft:armor_
 execute as @p[tag=notPosted] if entity @s[tag=link] as @e[type=minecraft:armor_stand,tag=post,tag=toPost,sort=nearest,limit=1] run function ssbrc:maps/m/miiverse/logic/posts/fighters/link
 execute as @p[tag=notPosted] if entity @s[tag=luigi] as @e[type=minecraft:armor_stand,tag=post,tag=toPost,sort=nearest,limit=1] run function ssbrc:maps/m/miiverse/logic/posts/fighters/luigi
 execute as @p[tag=notPosted] if entity @s[tag=mario] as @e[type=minecraft:armor_stand,tag=post,tag=toPost,sort=nearest,limit=1] run function ssbrc:maps/m/miiverse/logic/posts/fighters/mario
-execute as @p[tag=notPosted] if entity @s[tag=megaman] as @e[type=minecraft:armor_stand,tag=post,tag=toPost,sort=nearest,limit=1] run function ssbrc:maps/m/miiverse/logic/posts/fighters/megaman
+execute as @p[tag=notPosted] if entity @s[tag=mega_man] as @e[type=minecraft:armor_stand,tag=post,tag=toPost,sort=nearest,limit=1] run function ssbrc:maps/m/miiverse/logic/posts/fighters/mega_man
 execute as @p[tag=notPosted] if entity @s[tag=ness] as @e[type=minecraft:armor_stand,tag=post,tag=toPost,sort=nearest,limit=1] run function ssbrc:maps/m/miiverse/logic/posts/fighters/ness
 execute as @p[tag=notPosted] if entity @s[tag=pikachu] as @e[type=minecraft:armor_stand,tag=post,tag=toPost,sort=nearest,limit=1] run function ssbrc:maps/m/miiverse/logic/posts/fighters/pikachu
 execute as @p[tag=notPosted] if entity @s[tag=pit] as @e[type=minecraft:armor_stand,tag=post,tag=toPost,sort=nearest,limit=1] run function ssbrc:maps/m/miiverse/logic/posts/fighters/pit

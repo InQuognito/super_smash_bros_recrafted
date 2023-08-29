@@ -839,7 +839,7 @@
 				"condition": "minecraft:entity_properties",
 				"entity": "this",
 				"predicate": {
-					"nbt": "{Tags:[\"megaman\",\"default\"]}"
+					"nbt": "{Tags:[\"mega_man\",\"default\"]}"
 				}
 			}
 		]
@@ -852,7 +852,7 @@
 				"condition": "minecraft:entity_properties",
 				"entity": "this",
 				"predicate": {
-					"nbt": "{Tags:[\"megaman\",\"gold\"]}"
+					"nbt": "{Tags:[\"mega_man\",\"gold\"]}"
 				}
 			}
 		]

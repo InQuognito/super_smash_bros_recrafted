@@ -1,1 +1,1 @@
-tag @s remove megaman
+tag @s remove mega_man

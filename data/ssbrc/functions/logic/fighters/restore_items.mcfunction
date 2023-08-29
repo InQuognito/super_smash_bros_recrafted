@@ -51,8 +51,8 @@ loot replace entity @s[tag=link,tag=dark] weapon.offhand loot ssbrc:fighters/lin
 give @s[tag=link] minecraft:spectral_arrow 5
 
 # Megaman
-loot replace entity @s[tag=megaman,scores={charge.1=..0}] hotbar.2 loot ssbrc:fighters/mega_man/black_hole_bomb
-scoreboard players set @s[tag=megaman] charge.1 1
+loot replace entity @s[tag=mega_man,scores={charge.1=..0}] hotbar.2 loot ssbrc:fighters/mega_man/black_hole_bomb
+scoreboard players set @s[tag=mega_man] charge.1 1
 
 # Pit
 execute if entity @s[tag=pit] run function ssbrc:fighters/pit/logic/abilities/wings/regain/activate

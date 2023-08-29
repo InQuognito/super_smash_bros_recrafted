@@ -78,9 +78,9 @@ scoreboard players operation mario log.wL = mario log.wins
 scoreboard players operation mario log.wL *= 100 integers
 scoreboard players operation mario log.wL /= mario log.gamesPlayed
 
-scoreboard players operation megaman log.wL = megaman log.wins
-scoreboard players operation megaman log.wL *= 100 integers
-scoreboard players operation megaman log.wL /= megaman log.gamesPlayed
+scoreboard players operation mega_man log.wL = mega_man log.wins
+scoreboard players operation mega_man log.wL *= 100 integers
+scoreboard players operation mega_man log.wL /= mega_man log.gamesPlayed
 
 scoreboard players operation ness log.wL = ness log.wins
 scoreboard players operation ness log.wL *= 100 integers
@@ -171,7 +171,7 @@ tellraw @s [{"text":"Kirby - ","color":"white"},{"score":{"name":"kirby","object
 tellraw @s [{"text":"Link - ","color":"white"},{"score":{"name":"link","objective":"log.gamesPlayed"},"bold":false,"color":"yellow"},{"translate":" | ","color":"white"},{"score":{"name":"link","objective":"log.wins"},"bold":false,"color":"aqua"},{"translate":" | ","color":"white"},{"score":{"name":"link","objective":"log.wL"},"bold":false,"color":"light_purple"},{"translate":"%","bold":false,"color":"light_purple"}]
 tellraw @s [{"text":"Luigi - ","color":"white"},{"score":{"name":"luigi","objective":"log.gamesPlayed"},"bold":false,"color":"yellow"},{"translate":" | ","color":"white"},{"score":{"name":"luigi","objective":"log.wins"},"bold":false,"color":"aqua"},{"translate":" | ","color":"white"},{"score":{"name":"luigi","objective":"log.wL"},"bold":false,"color":"light_purple"},{"translate":"%","bold":false,"color":"light_purple"}]
 tellraw @s [{"text":"Mario - ","color":"white"},{"score":{"name":"mario","objective":"log.gamesPlayed"},"bold":false,"color":"yellow"},{"translate":" | ","color":"white"},{"score":{"name":"mario","objective":"log.wins"},"bold":false,"color":"aqua"},{"translate":" | ","color":"white"},{"score":{"name":"mario","objective":"log.wL"},"bold":false,"color":"light_purple"},{"translate":"%","bold":false,"color":"light_purple"}]
-tellraw @s [{"text":"Mega Man - ","color":"white"},{"score":{"name":"megaman","objective":"log.gamesPlayed"},"bold":false,"color":"yellow"},{"translate":" | ","color":"white"},{"score":{"name":"megaman","objective":"log.wins"},"bold":false,"color":"aqua"},{"translate":" | ","color":"white"},{"score":{"name":"megaman","objective":"log.wL"},"bold":false,"color":"light_purple"},{"translate":"%","bold":false,"color":"light_purple"}]
+tellraw @s [{"text":"Mega Man - ","color":"white"},{"score":{"name":"mega_man","objective":"log.gamesPlayed"},"bold":false,"color":"yellow"},{"translate":" | ","color":"white"},{"score":{"name":"mega_man","objective":"log.wins"},"bold":false,"color":"aqua"},{"translate":" | ","color":"white"},{"score":{"name":"mega_man","objective":"log.wL"},"bold":false,"color":"light_purple"},{"translate":"%","bold":false,"color":"light_purple"}]
 tellraw @s [{"text":"Ness - ","color":"white"},{"score":{"name":"ness","objective":"log.gamesPlayed"},"bold":false,"color":"yellow"},{"translate":" | ","color":"white"},{"score":{"name":"ness","objective":"log.wins"},"bold":false,"color":"aqua"},{"translate":" | ","color":"white"},{"score":{"name":"ness","objective":"log.wL"},"bold":false,"color":"light_purple"},{"translate":"%","bold":false,"color":"light_purple"}]
 tellraw @s [{"text":"Pikachu - ","color":"white"},{"score":{"name":"pikachu","objective":"log.gamesPlayed"},"bold":false,"color":"yellow"},{"translate":" | ","color":"white"},{"score":{"name":"pikachu","objective":"log.wins"},"bold":false,"color":"aqua"},{"translate":" | ","color":"white"},{"score":{"name":"pikachu","objective":"log.wL"},"bold":false,"color":"light_purple"},{"translate":"%","bold":false,"color":"light_purple"}]
 tellraw @s [{"text":"Pit - ","color":"white"},{"score":{"name":"pit","objective":"log.gamesPlayed"},"bold":false,"color":"yellow"},{"translate":" | ","color":"white"},{"score":{"name":"pit","objective":"log.wins"},"bold":false,"color":"aqua"},{"translate":" | ","color":"white"},{"score":{"name":"pit","objective":"log.wL"},"bold":false,"color":"light_purple"},{"translate":"%","bold":false,"color":"light_purple"}]

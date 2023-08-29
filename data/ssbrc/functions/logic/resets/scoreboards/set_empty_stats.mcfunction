@@ -126,11 +126,11 @@ execute unless score @s stats.mario.gamesPlayed matches -2147483648..2147483647 
 execute unless score @s stats.mario.wins matches -2147483648..2147483647 run scoreboard players set @s stats.mario.wins 0
 execute unless score @s stats.mario.winStreak matches -2147483648..2147483647 run scoreboard players set @s stats.mario.winStreak 0
 
-execute unless score @s stats.megaman.deaths matches -2147483648..2147483647 run scoreboard players set @s stats.megaman.deaths 0
-execute unless score @s stats.megaman.kills matches -2147483648..2147483647 run scoreboard players set @s stats.megaman.kills 0
-execute unless score @s stats.megaman.gamesPlayed matches -2147483648..2147483647 run scoreboard players set @s stats.megaman.gamesPlayed 0
-execute unless score @s stats.megaman.wins matches -2147483648..2147483647 run scoreboard players set @s stats.megaman.wins 0
-execute unless score @s stats.megaman.winStreak matches -2147483648..2147483647 run scoreboard players set @s stats.megaman.winStreak 0
+execute unless score @s stats.mega_man.deaths matches -2147483648..2147483647 run scoreboard players set @s stats.mega_man.deaths 0
+execute unless score @s stats.mega_man.kills matches -2147483648..2147483647 run scoreboard players set @s stats.mega_man.kills 0
+execute unless score @s stats.mega_man.gamesPlayed matches -2147483648..2147483647 run scoreboard players set @s stats.mega_man.gamesPlayed 0
+execute unless score @s stats.mega_man.wins matches -2147483648..2147483647 run scoreboard players set @s stats.mega_man.wins 0
+execute unless score @s stats.mega_man.winStreak matches -2147483648..2147483647 run scoreboard players set @s stats.mega_man.winStreak 0
 
 execute unless score @s stats.ness.deaths matches -2147483648..2147483647 run scoreboard players set @s stats.ness.deaths 0
 execute unless score @s stats.ness.kills matches -2147483648..2147483647 run scoreboard players set @s stats.ness.kills 0

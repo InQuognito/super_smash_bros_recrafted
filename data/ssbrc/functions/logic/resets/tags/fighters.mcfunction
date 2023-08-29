@@ -18,7 +18,7 @@ function ssbrc:logic/resets/tags/fighters/kirby
 function ssbrc:logic/resets/tags/fighters/link
 function ssbrc:logic/resets/tags/fighters/luigi
 function ssbrc:logic/resets/tags/fighters/mario
-function ssbrc:logic/resets/tags/fighters/megaman
+function ssbrc:logic/resets/tags/fighters/mega_man
 function ssbrc:logic/resets/tags/fighters/ness
 function ssbrc:logic/resets/tags/fighters/pikachu
 function ssbrc:logic/resets/tags/fighters/pit

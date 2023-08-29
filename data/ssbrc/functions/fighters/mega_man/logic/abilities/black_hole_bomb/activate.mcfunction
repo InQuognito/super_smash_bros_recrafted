@@ -9,4 +9,4 @@ execute if score @s shadow.chaosControl matches 1.. run function ssbrc:logic/fig
 
 clear @s[scores={charge.1=..0}] minecraft:carrot_on_a_stick{blackHoleBomb:1}
 
-playsound ssbrc:fighters.megaman.black_hole_bomb.activate player @a
+playsound ssbrc:fighters.mega_man.black_hole_bomb.activate player @a

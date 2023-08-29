@@ -272,18 +272,18 @@ scoreboard players operation #stats.mario.wL temp = @s stats.mario.wins
 scoreboard players operation #stats.mario.wL temp *= 100 integers
 scoreboard players operation #stats.mario.wL temp /= @s stats.mario.gamesPlayed
 
-scoreboard players operation #stats.megaman.kD temp = @s stats.megaman.kills
-scoreboard players operation #stats.megaman.kD temp *= 100 integers
-scoreboard players operation #stats.megaman.kD temp /= @s stats.megaman.deaths
+scoreboard players operation #stats.mega_man.kD temp = @s stats.mega_man.kills
+scoreboard players operation #stats.mega_man.kD temp *= 100 integers
+scoreboard players operation #stats.mega_man.kD temp /= @s stats.mega_man.deaths
 
-scoreboard players operation #stats.megaman.kD.decimal temp = #stats.megaman.kD temp
-scoreboard players operation #stats.megaman.kD.decimal temp %= 100 integers
-scoreboard players operation #stats.megaman.kD.integer temp = #stats.megaman.kD temp
-scoreboard players operation #stats.megaman.kD.integer temp /= 100 integers
+scoreboard players operation #stats.mega_man.kD.decimal temp = #stats.mega_man.kD temp
+scoreboard players operation #stats.mega_man.kD.decimal temp %= 100 integers
+scoreboard players operation #stats.mega_man.kD.integer temp = #stats.mega_man.kD temp
+scoreboard players operation #stats.mega_man.kD.integer temp /= 100 integers
 
-scoreboard players operation #stats.megaman.wL temp = @s stats.megaman.wins
-scoreboard players operation #stats.megaman.wL temp *= 100 integers
-scoreboard players operation #stats.megaman.wL temp /= @s stats.megaman.gamesPlayed
+scoreboard players operation #stats.mega_man.wL temp = @s stats.mega_man.wins
+scoreboard players operation #stats.mega_man.wL temp *= 100 integers
+scoreboard players operation #stats.mega_man.wL temp /= @s stats.mega_man.gamesPlayed
 
 scoreboard players operation #stats.ness.kD temp = @s stats.ness.kills
 scoreboard players operation #stats.ness.kD temp *= 100 integers

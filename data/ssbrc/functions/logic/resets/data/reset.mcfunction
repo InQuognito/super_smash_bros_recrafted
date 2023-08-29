@@ -29,7 +29,7 @@ scoreboard players reset @s stats.kirby.deaths
 scoreboard players reset @s stats.link.deaths
 scoreboard players reset @s stats.luigi.deaths
 scoreboard players reset @s stats.mario.deaths
-scoreboard players reset @s stats.megaman.deaths
+scoreboard players reset @s stats.mega_man.deaths
 scoreboard players reset @s stats.ness.deaths
 scoreboard players reset @s stats.pikachu.deaths
 scoreboard players reset @s stats.pit.deaths
@@ -68,7 +68,7 @@ scoreboard players reset @s stats.kirby.kills
 scoreboard players reset @s stats.link.kills
 scoreboard players reset @s stats.luigi.kills
 scoreboard players reset @s stats.mario.kills
-scoreboard players reset @s stats.megaman.kills
+scoreboard players reset @s stats.mega_man.kills
 scoreboard players reset @s stats.ness.kills
 scoreboard players reset @s stats.pikachu.kills
 scoreboard players reset @s stats.pit.kills
@@ -107,7 +107,7 @@ scoreboard players reset @s stats.kirby.gamesPlayed
 scoreboard players reset @s stats.link.gamesPlayed
 scoreboard players reset @s stats.luigi.gamesPlayed
 scoreboard players reset @s stats.mario.gamesPlayed
-scoreboard players reset @s stats.megaman.gamesPlayed
+scoreboard players reset @s stats.mega_man.gamesPlayed
 scoreboard players reset @s stats.ness.gamesPlayed
 scoreboard players reset @s stats.pikachu.gamesPlayed
 scoreboard players reset @s stats.pit.gamesPlayed
@@ -146,7 +146,7 @@ scoreboard players reset @s stats.kirby.wins
 scoreboard players reset @s stats.link.wins
 scoreboard players reset @s stats.luigi.wins
 scoreboard players reset @s stats.mario.wins
-scoreboard players reset @s stats.megaman.wins
+scoreboard players reset @s stats.mega_man.wins
 scoreboard players reset @s stats.ness.wins
 scoreboard players reset @s stats.pikachu.wins
 scoreboard players reset @s stats.pit.wins
@@ -185,7 +185,7 @@ scoreboard players reset @s stats.kirby.winStreak
 scoreboard players reset @s stats.link.winStreak
 scoreboard players reset @s stats.luigi.winStreak
 scoreboard players reset @s stats.mario.winStreak
-scoreboard players reset @s stats.megaman.winStreak
+scoreboard players reset @s stats.mega_man.winStreak
 scoreboard players reset @s stats.ness.winStreak
 scoreboard players reset @s stats.pikachu.winStreak
 scoreboard players reset @s stats.pit.winStreak
