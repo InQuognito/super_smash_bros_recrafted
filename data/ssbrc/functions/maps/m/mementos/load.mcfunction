@@ -6,12 +6,14 @@ forceload add -1248 800 -1105 1023
 
 fill -1220 0 921 -1156 48 923 minecraft:air
 
-scoreboard players set max random 3
+scoreboard players set max random 5
 function ssbrc:math/rng/lcg
 
-execute if score result random matches 0 run function ssbrc:maps/m/mementos/load/blue
-execute if score result random matches 1 run function ssbrc:maps/m/mementos/load/yellow
-execute if score result random matches 2 run function ssbrc:maps/m/mementos/load/red
+execute if score result random matches 0 run function ssbrc:maps/m/mementos/load/purple
+execute if score result random matches 1 run function ssbrc:maps/m/mementos/load/orange
+execute if score result random matches 2 run function ssbrc:maps/m/mementos/load/blue
+execute if score result random matches 3 run function ssbrc:maps/m/mementos/load/yellow
+execute if score result random matches 4 run function ssbrc:maps/m/mementos/load/red
 
 # Armor Stands
 execute positioned -1185.5 18.0 819.5 summon minecraft:armor_stand run function ssbrc:maps/m/mementos/logic/armor_stands/jose
