@@ -1,6 +1,4 @@
-execute if entity @s[predicate=ssbrc:fighters/link/master_sword_awakened,predicate=!ssbrc:flag/sneaking,scores={useAbility=1..,cooldown.1=..0},nbt={SelectedItem:{tag:{masterSword:1}}}] at @s anchored eyes positioned ^ ^ ^ run function ssbrc:fighters/link/logic/abilities/sword_beam/activate
 execute if entity @s[predicate=ssbrc:flag/sneaking,scores={charge.step=5..}] at @s run function ssbrc:fighters/link/logic/abilities/sword_spin/deactivate
-execute if entity @s[scores={useAbility=1..},nbt={SelectedItem:{tag:{boomerang:1}}}] at @s anchored eyes run function ssbrc:fighters/link/logic/abilities/boomerang/activate
 
 # Health
 execute if score @s health matches ..6 run function ssbrc:fighters/link/logic/low_health_alert/check

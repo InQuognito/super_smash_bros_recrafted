@@ -1,5 +1,9 @@
 execute store result score @s health run data get entity @s Health
 
+function ssbrc:math/speed/calculate
+scoreboard players operation sqrt.output math /= 8 integers
+scoreboard players operation speed temp = sqrt.output math
+
 scoreboard players remove @s[scores={cooldown.1=1..}] cooldown.1 1
 scoreboard players remove @s[scores={cooldown.2=1..}] cooldown.2 1
 scoreboard players remove @s[scores={cooldown.3=1..}] cooldown.3 1
@@ -15,6 +19,8 @@ scoreboard players add @s[scores={item.charge.input=1..}] charge.step 1
 scoreboard players add @s[scores={item.charge.input=1..}] charge.output 1
 scoreboard players reset @s[scores={item.charge.input=2..}] charge.step
 scoreboard players remove @s[scores={item.charge.input=2..}] item.charge.input 1
+
+execute if score @s useAbility matches 1.. run function ssbrc:logic/fighters/use_ability
 
 execute if entity @s[tag=bowser] run function ssbrc:fighters/bowser/logic/tick
 execute if entity @s[tag=byleth] run function ssbrc:fighters/byleth/logic/tick

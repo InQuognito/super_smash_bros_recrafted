@@ -1,8 +1,3 @@
-execute if entity @s[scores={useAbility=1..,cooldown.1=..0},nbt={SelectedItem:{tag:{krazoanStaff:1}}}] at @s anchored eyes positioned ^ ^ ^ run function ssbrc:fighters/fox/logic/abilities/krazoan_fireball/activate
-execute if entity @s[scores={useAbility=1..,cooldown.1=..0},nbt={SelectedItem:{tag:{blaster:1}}}] at @s anchored eyes positioned ^ ^ ^ run function ssbrc:fighters/fox/logic/abilities/blaster/activate
-execute if entity @s[scores={useAbility=1..,cooldown.2=..0},nbt={SelectedItem:{tag:{reflector:1}}}] at @s anchored eyes run function ssbrc:fighters/fox/logic/abilities/reflector/activate
-execute if entity @s[scores={useAbility=1..,cooldown.3=..0,duration.3=..0},nbt={SelectedItem:{tag:{fireFox:1}}}] at @s run function ssbrc:fighters/fox/logic/abilities/fire_fox/activate
-
 # Reflector
 execute if score @s duration.2 matches 2.. at @s anchored eyes positioned ^ ^ ^2 as @e[type=#ssbrc:projectiles,predicate=!ssbrc:reflect_exceptions,tag=!reflected,distance=..2] run function ssbrc:fighters/fox/logic/abilities/reflector/tick
 

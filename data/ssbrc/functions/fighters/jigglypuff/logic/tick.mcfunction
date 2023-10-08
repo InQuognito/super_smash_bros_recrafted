@@ -1,6 +1,3 @@
-execute if entity @s[tag=!rest,scores={useAbility=1..,cooldown.1=..0},nbt={SelectedItem:{tag:{hyperVoice:1}}}] at @s anchored eyes run function ssbrc:fighters/jigglypuff/logic/abilities/hyper_voice/activate
-execute if entity @s[tag=!rest,scores={useAbility=1..,charge.1=..0},nbt={SelectedItem:{tag:{rest:1}}}] at @s run function ssbrc:fighters/jigglypuff/logic/abilities/rest/activate
-
 # Hyper Voice
 function ssbrc:fighters/jigglypuff/logic/abilities/hyper_voice/cooldown
 

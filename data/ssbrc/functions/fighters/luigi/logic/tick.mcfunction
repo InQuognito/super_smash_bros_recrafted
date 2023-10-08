@@ -1,5 +1,3 @@
-execute if entity @s[scores={useAbility=1..,cooldown.1=..0},nbt={SelectedItem:{tag:{iceBall:1}}}] at @s anchored eyes run function ssbrc:fighters/luigi/logic/abilities/ice_ball/activate
-
 # Ice Ball
 function ssbrc:fighters/luigi/logic/abilities/ice_ball/cooldown
 

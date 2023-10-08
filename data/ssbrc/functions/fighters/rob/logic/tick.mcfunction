@@ -1,5 +1,3 @@
-execute if entity @s[scores={useAbility=1..,cooldown.1=..0,charge.1=1..},nbt={SelectedItem:{tag:{roboBeam:1}}}] at @s run function ssbrc:fighters/rob/logic/abilities/robo_beam/check
-
 # Robo Beam
 execute if score @s charge.1 < #rob.maxCharge vars run function ssbrc:fighters/rob/logic/abilities/robo_beam/charge
 
