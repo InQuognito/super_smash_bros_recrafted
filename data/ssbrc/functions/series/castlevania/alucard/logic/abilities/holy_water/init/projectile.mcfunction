@@ -2,7 +2,7 @@ tag @s add holyWater
 
 execute if entity @p[tag=self,tag=bloodMetamorphosis] run tag @s add large
 
-data merge entity @s {Duration:200}
+data merge entity @s {duration:200}
 
 function ssbrc:logic/init/id
 

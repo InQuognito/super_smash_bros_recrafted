@@ -1,6 +1,6 @@
 tag @s add acid
 
-data merge entity @s {Duration:100}
+data merge entity @s {duration:100}
 
 function ssbrc:logic/init/entity/static
 
