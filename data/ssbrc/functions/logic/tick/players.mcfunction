@@ -1,7 +1,5 @@
 function ssbrc:logic/tick/lobby
 
-function ssbrc:logic/tick/stamina/check
-
 execute if score @s dropItem matches 1.. run function ssbrc:logic/tick/drop_item
 
 execute if entity @s[nbt={SelectedItem:{tag:{selector:1}}}] at @s anchored eyes positioned ^ ^ ^ run function ssbrc:logic/selector/raycast/start

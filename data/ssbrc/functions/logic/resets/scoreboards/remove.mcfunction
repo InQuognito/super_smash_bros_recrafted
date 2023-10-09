@@ -110,7 +110,6 @@ scoreboard objectives remove snake.smokeGrenadeA
 scoreboard objectives remove sprintDistance
 scoreboard objectives remove stageIndex
 scoreboard objectives remove stageIndexCalculator
-scoreboard objectives remove stamina
 scoreboard objectives remove steve.tier
 scoreboard objectives remove stocks
 scoreboard objectives remove suicides
