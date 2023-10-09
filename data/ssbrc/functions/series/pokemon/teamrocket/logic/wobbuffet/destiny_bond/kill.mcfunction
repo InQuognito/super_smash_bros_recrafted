@@ -1,4 +1,4 @@
-execute if score gameStage temp matches 4 run tag @s add damage.destinyBond
+execute if score gameStage temp matches 4 run damage @s 999.9 minecraft:generic_kill by @p[tag=wobbuffet,scores={duration.3=1..}]
 
 playsound ssbrc:fighters.teamrocket.wobbuffet.destiny_bond.kill player @a
 

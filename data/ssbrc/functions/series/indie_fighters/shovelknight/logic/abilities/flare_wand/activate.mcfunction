@@ -1,4 +1,4 @@
-execute summon minecraft:marker run function ssbrc:series/indie_fighters/shovelknight/logic/abilities/flare_wand/init/marker
+execute summon minecraft:marker run function ssbrc:series/indie_fighters/shovelknight/logic/abilities/flare_wand/init
 
 loot replace entity @s weapon.mainhand loot ssbrc:characters/indie_fighters/shovelknight/flare_wand/fire
 loot replace entity @s weapon.mainhand loot ssbrc:characters/indie_fighters/shovelknight/flare_wand/default

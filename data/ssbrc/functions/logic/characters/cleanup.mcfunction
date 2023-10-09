@@ -13,6 +13,7 @@ scoreboard players set @s flag.sprinting 0
 tag @s remove crossSlashTarget
 function ssbrc:series/pokemon/pokemontrainer/logic/ivysaur/leech_seed/reset
 
+scoreboard players reset @s burning
 scoreboard players reset @s fiendsCauldron
 scoreboard players reset @s frostbite
 scoreboard players reset @s frostbiteTimer

@@ -60,8 +60,8 @@ execute as @e[type=minecraft:marker,tag=megaBuster,predicate=ssbrc:id_match] at 
 execute as @e[type=minecraft:armor_stand,tag=blackHoleBomb,predicate=ssbrc:id_match] at @s unless block ~ ~-0.1 ~ #ssbrc:passthrough run function ssbrc:series/mega_man/megaman/logic/abilities/black_hole_bomb/tick
 
 # Ness
-execute as @e[type=minecraft:area_effect_cloud,tag=pkFire,tag=!exploded,predicate=ssbrc:id_match] at @s run function ssbrc:series/earthbound/ness/logic/abilities/pk_fire/tick
-execute as @e[type=minecraft:area_effect_cloud,tag=pkFire,tag=exploded,predicate=ssbrc:id_match] at @s run function ssbrc:series/earthbound/ness/logic/abilities/pk_fire/tick_explosion
+execute as @e[type=minecraft:marker,tag=pkFire,tag=!exploded,predicate=ssbrc:id_match] at @s run function ssbrc:series/earthbound/ness/logic/abilities/pk_fire/tick
+execute as @e[type=minecraft:marker,tag=pkFire,tag=exploded,predicate=ssbrc:id_match] at @s run function ssbrc:series/earthbound/ness/logic/abilities/pk_fire/tick_explosion
 execute if entity @s[tag=ness,predicate=ssbrc:flag/player,predicate=!ssbrc:flag/sneaking] as @e[type=minecraft:marker,tag=pkFlash,scores={temp=20..},predicate=ssbrc:id_match] at @s run function ssbrc:series/earthbound/ness/logic/abilities/pk_flash/adjust
 execute as @e[type=minecraft:marker,tag=pkFlash,predicate=ssbrc:id_match] at @s run function ssbrc:series/earthbound/ness/logic/abilities/pk_flash/tick
 
@@ -117,9 +117,9 @@ execute as @e[type=minecraft:armor_stand,tag=grenade,predicate=ssbrc:id_match] a
 execute as @e[type=minecraft:armor_stand,tag=bomb,predicate=ssbrc:id_match] at @s run function ssbrc:series/the_legend_of_zelda/zelda/logic/abilities/bomb/tick
 execute as @e[type=minecraft:armor_stand,tag=zelda.boomerang,predicate=ssbrc:id_match] at @s run function ssbrc:series/the_legend_of_zelda/zelda/logic/abilities/boomerang/tick
 execute as @e[type=minecraft:spectral_arrow,tag=bow,predicate=ssbrc:id_match] at @s run function ssbrc:series/the_legend_of_zelda/zelda/logic/abilities/bow/tick
-execute as @e[type=minecraft:arrow,tag=fireRod,predicate=ssbrc:id_match] at @s run function ssbrc:series/the_legend_of_zelda/zelda/logic/abilities/fire_rod/tick
-execute as @e[type=minecraft:area_effect_cloud,tag=fireRod,tag=!pillar,predicate=ssbrc:id_match] at @s run function ssbrc:series/the_legend_of_zelda/zelda/logic/abilities/fire_rod/alternate_function/tick
-execute as @e[type=minecraft:area_effect_cloud,tag=fireRod,tag=pillar,predicate=ssbrc:id_match] at @s run function ssbrc:series/the_legend_of_zelda/zelda/logic/abilities/fire_rod/alternate_function/tick_pillar
+execute as @e[type=minecraft:marker,tag=fireRod,predicate=ssbrc:id_match] at @s run function ssbrc:series/the_legend_of_zelda/zelda/logic/abilities/fire_rod/tick
+execute as @e[type=minecraft:marker,tag=fireRod,tag=!pillar,predicate=ssbrc:id_match] at @s run function ssbrc:series/the_legend_of_zelda/zelda/logic/abilities/fire_rod/alternate_function/tick
+execute as @e[type=minecraft:marker,tag=fireRod,tag=pillar,predicate=ssbrc:id_match] at @s run function ssbrc:series/the_legend_of_zelda/zelda/logic/abilities/fire_rod/alternate_function/tick_pillar
 execute as @e[type=minecraft:marker,tag=iceRod,predicate=ssbrc:id_match] at @s run function ssbrc:series/the_legend_of_zelda/zelda/logic/abilities/ice_rod/tick
 execute as @e[type=minecraft:armor_stand,tag=iceBlock,predicate=ssbrc:id_match] at @s run function ssbrc:series/the_legend_of_zelda/zelda/logic/abilities/ice_rod/alternate_function/tick
 execute as @e[type=minecraft:armor_stand,tag=magicBoomerang,predicate=ssbrc:id_match] at @s run function ssbrc:series/the_legend_of_zelda/zelda/logic/abilities/magic_boomerang/tick

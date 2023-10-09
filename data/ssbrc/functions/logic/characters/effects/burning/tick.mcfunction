@@ -7,4 +7,4 @@ scoreboard players operation #burning temp %= 10 integers
 execute if score #burning temp matches 0 at @s run function ssbrc:logic/characters/effects/burning/damage
 scoreboard players reset #burning temp
 
-execute if score @s burning matches 1 run function ssbrc:logic/characters/effects/burning/reset
+execute if score @s burning matches 0 run function ssbrc:logic/characters/effects/burning/reset

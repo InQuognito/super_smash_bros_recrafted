@@ -1,4 +1,5 @@
 tag @s add pillar
 
+scoreboard players set @s temp 0
+
 data modify entity @s Rotation[1] set value 0f
-data modify entity @s Age set value 0
