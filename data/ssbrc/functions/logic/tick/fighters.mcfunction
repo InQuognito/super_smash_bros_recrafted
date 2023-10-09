@@ -76,7 +76,7 @@ scoreboard players reset @s flag.walking
 
 execute at @s[tag=naturalShiny] run particle minecraft:glow ~ ~0.7 ~ 0.5 0.4 0.5 0.0 1 normal @a
 
-execute at @s[predicate=ssbrc:characters/effects/has/wither] run particle minecraft:small_flame ~ ~0.75 ~ 0.2 0.4 0.2 0.01 1 normal @a
+execute if score @s burning matches 1.. run function ssbrc:logic/characters/effects/burning/tick
 
 execute at @s[predicate=ssbrc:characters/effects/has/poison] run particle minecraft:dust 0.0 1.0 0.0 0.5 ~ ~0.75 ~ 0.2 0.4 0.2 0.0 1 normal @a
 

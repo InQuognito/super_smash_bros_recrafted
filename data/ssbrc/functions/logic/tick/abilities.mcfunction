@@ -53,7 +53,7 @@ execute as @e[type=minecraft:armor_stand,tag=link.boomerang,predicate=ssbrc:id_m
 execute as @e[type=minecraft:marker,tag=iceBall,predicate=ssbrc:id_match] at @s run function ssbrc:series/super_mario_bros/luigi/logic/abilities/ice_ball/tick
 
 # Mario
-execute as @e[type=minecraft:area_effect_cloud,tag=fireball,predicate=ssbrc:id_match] at @s run function ssbrc:series/super_mario_bros/mario/logic/abilities/fireball/tick
+execute as @e[type=minecraft:marker,tag=fireball,predicate=ssbrc:id_match] at @s run function ssbrc:series/super_mario_bros/mario/logic/abilities/fireball/tick
 
 # Mega Man
 execute as @e[type=minecraft:marker,tag=megaBuster,predicate=ssbrc:id_match] at @s run function ssbrc:series/mega_man/megaman/logic/abilities/mega_buster/tick

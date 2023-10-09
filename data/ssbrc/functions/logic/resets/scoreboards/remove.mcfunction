@@ -2,6 +2,7 @@ scoreboard objectives remove animation
 scoreboard objectives remove armorBreak
 scoreboard objectives remove bowser.fireBreath
 scoreboard objectives remove bowser.fireBreath.target
+scoreboard objectives remove burning
 scoreboard objectives remove characterTrigger
 scoreboard objectives remove characterPicked
 scoreboard objectives remove charge.1
@@ -16,7 +17,6 @@ scoreboard objectives remove cooldown.1
 scoreboard objectives remove cooldown.2
 scoreboard objectives remove cooldown.3
 scoreboard objectives remove stats.credits.temp
-scoreboard objectives remove damage
 scoreboard objectives remove damage.fireBreath
 scoreboard objectives remove debug
 scoreboard objectives remove dropItem

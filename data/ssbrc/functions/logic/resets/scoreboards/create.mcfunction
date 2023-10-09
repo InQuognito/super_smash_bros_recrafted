@@ -2,6 +2,7 @@ scoreboard objectives add animation dummy
 scoreboard objectives add armorBreak dummy
 scoreboard objectives add bowser.fireBreath dummy
 scoreboard objectives add bowser.fireBreath.target dummy
+scoreboard objectives add burning dummy
 scoreboard objectives add characterTrigger trigger
 scoreboard objectives add characterPicked dummy
 scoreboard objectives add charge.1 dummy
@@ -16,7 +17,6 @@ scoreboard objectives add cooldown.1 dummy
 scoreboard objectives add cooldown.2 dummy
 scoreboard objectives add cooldown.3 dummy
 scoreboard objectives add stats.credits.temp dummy
-scoreboard objectives add damage dummy
 scoreboard objectives add damage.fireBreath dummy
 scoreboard objectives add debug trigger
 scoreboard objectives add dropItem minecraft.custom:minecraft.drop
