@@ -12,16 +12,16 @@ execute if score result random matches 1 run function ssbrc:maps/l/lake_of_rage/
 execute if score result random matches 2 run function ssbrc:maps/l/lake_of_rage/load/night
 
 # Buoys
-execute positioned 2532.5 12.75 4002.5 summon minecraft:item_display run function ssbrc:maps/l/lake_of_rage/logic/buoy/init
-execute positioned 2532.5 12.75 4007.5 summon minecraft:item_display run function ssbrc:maps/l/lake_of_rage/logic/buoy/init
-execute positioned 2531.5 12.75 4012.5 summon minecraft:item_display run function ssbrc:maps/l/lake_of_rage/logic/buoy/init
-execute positioned 2529.5 12.75 4017.5 summon minecraft:item_display run function ssbrc:maps/l/lake_of_rage/logic/buoy/init
-execute positioned 2525.5 12.75 4021.5 summon minecraft:item_display run function ssbrc:maps/l/lake_of_rage/logic/buoy/init
-execute positioned 2521.5 12.75 4024.5 summon minecraft:item_display run function ssbrc:maps/l/lake_of_rage/logic/buoy/init
-execute positioned 2516.5 12.75 4026.5 summon minecraft:item_display run function ssbrc:maps/l/lake_of_rage/logic/buoy/init
-execute positioned 2511.5 12.75 4027.5 summon minecraft:item_display run function ssbrc:maps/l/lake_of_rage/logic/buoy/init
-execute positioned 2506.5 12.75 4027.5 summon minecraft:item_display run function ssbrc:maps/l/lake_of_rage/logic/buoy/init
-execute positioned 2501.5 12.75 4027.5 summon minecraft:item_display run function ssbrc:maps/l/lake_of_rage/logic/buoy/init
+execute positioned 2532.5 13.75 4002.5 summon minecraft:item_display run function ssbrc:maps/l/lake_of_rage/logic/buoy/init
+execute positioned 2532.5 13.75 4007.5 summon minecraft:item_display run function ssbrc:maps/l/lake_of_rage/logic/buoy/init
+execute positioned 2531.5 13.75 4012.5 summon minecraft:item_display run function ssbrc:maps/l/lake_of_rage/logic/buoy/init
+execute positioned 2529.5 13.75 4017.5 summon minecraft:item_display run function ssbrc:maps/l/lake_of_rage/logic/buoy/init
+execute positioned 2525.5 13.75 4021.5 summon minecraft:item_display run function ssbrc:maps/l/lake_of_rage/logic/buoy/init
+execute positioned 2521.5 13.75 4024.5 summon minecraft:item_display run function ssbrc:maps/l/lake_of_rage/logic/buoy/init
+execute positioned 2516.5 13.75 4026.5 summon minecraft:item_display run function ssbrc:maps/l/lake_of_rage/logic/buoy/init
+execute positioned 2511.5 13.75 4027.5 summon minecraft:item_display run function ssbrc:maps/l/lake_of_rage/logic/buoy/init
+execute positioned 2506.5 13.75 4027.5 summon minecraft:item_display run function ssbrc:maps/l/lake_of_rage/logic/buoy/init
+execute positioned 2501.5 13.75 4027.5 summon minecraft:item_display run function ssbrc:maps/l/lake_of_rage/logic/buoy/init
 
 # Geodude
 execute positioned 2536.5 21.4 3989.5 summon minecraft:item_display run function ssbrc:maps/l/lake_of_rage/logic/pokemon/geodude/init
