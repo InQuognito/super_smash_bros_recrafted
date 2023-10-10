@@ -1,4 +1,4 @@
-kill @e[type=minecraft:marker,tag=propellerDagger,sort=nearest,limit=1,predicate=ssbrc:id_match]
+scoreboard players set entityHit temp 1
 
 scoreboard players set @a[tag=self,limit=1] duration.2 2
 

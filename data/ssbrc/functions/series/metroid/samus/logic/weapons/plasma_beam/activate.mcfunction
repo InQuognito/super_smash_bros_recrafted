@@ -1,4 +1,4 @@
-execute summon minecraft:marker run function ssbrc:series/metroid/samus/logic/weapons/plasma_beam/init/marker
+execute positioned ^ ^ ^1 summon minecraft:marker run function ssbrc:series/metroid/samus/logic/weapons/plasma_beam/init
 
 scoreboard players set @s cooldown.1 60
 execute if score @s shadow.chaosControl matches 1.. run function ssbrc:logic/characters/cooldown_modifiers/chaos_control/1

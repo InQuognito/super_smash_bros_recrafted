@@ -1,6 +1,10 @@
-particle minecraft:dust_color_transition 0.75 0.0 0.0 3.0 1.0 0.9 0.9 ~ ~ ~ 0.0 0.0 0.0 0.0 5 force @a
-
-execute unless block ~ ~ ~ #ssbrc:passthrough run kill @s
+function ssbrc:series/metroid/samus/logic/weapons/plasma_beam/move_forward
+execute at @s if entity @e[type=minecraft:marker,tag=plasmaBeam,distance=..0.1] run function ssbrc:series/metroid/samus/logic/weapons/plasma_beam/move_forward
+execute at @s if entity @e[type=minecraft:marker,tag=plasmaBeam,distance=..0.1] run function ssbrc:series/metroid/samus/logic/weapons/plasma_beam/move_forward
+execute at @s if entity @e[type=minecraft:marker,tag=plasmaBeam,distance=..0.1] run function ssbrc:series/metroid/samus/logic/weapons/plasma_beam/move_forward
+execute at @s if entity @e[type=minecraft:marker,tag=plasmaBeam,distance=..0.1] run function ssbrc:series/metroid/samus/logic/weapons/plasma_beam/move_forward
+execute at @s if entity @e[type=minecraft:marker,tag=plasmaBeam,distance=..0.1] run function ssbrc:series/metroid/samus/logic/weapons/plasma_beam/move_forward
+execute at @s if entity @e[type=minecraft:marker,tag=plasmaBeam,distance=..0.1] run function ssbrc:series/metroid/samus/logic/weapons/plasma_beam/move_forward
 
 scoreboard players add @s temp 1
 kill @s[scores={temp=50..}]

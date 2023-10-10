@@ -156,6 +156,6 @@ execute as @e[type=minecraft:arrow,tag=paydayProjectile,predicate=ssbrc:id_match
 
 # Yar
 execute as @e[type=minecraft:arrow,tag=rayBlaster,predicate=ssbrc:id_match] at @s run function ssbrc:series/retro_fighters/yar/logic/abilities/ray_blaster/tick
-execute as @e[type=minecraft:armor_stand,tag=missileLauncher,predicate=ssbrc:id_match] at @s run function ssbrc:series/retro_fighters/yar/logic/abilities/ray_blaster/variants/missile_launcher/tick
+execute as @e[type=minecraft:item_display,tag=missileLauncher,predicate=ssbrc:id_match] at @s run function ssbrc:series/retro_fighters/yar/logic/abilities/ray_blaster/variants/missile_launcher/tick
 execute as @e[type=minecraft:bee,tag=drone,predicate=ssbrc:id_match] at @s run function ssbrc:series/retro_fighters/yar/logic/abilities/drone/tick
 execute as @e[type=minecraft:arrow,tag=bullet,predicate=ssbrc:id_match] at @s run function ssbrc:series/retro_fighters/yar/logic/abilities/drone/projectiles

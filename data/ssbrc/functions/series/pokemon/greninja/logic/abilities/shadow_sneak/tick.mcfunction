@@ -7,4 +7,6 @@ execute unless block ^-0.1 ^ ^ #ssbrc:passthrough_charge unless block ^0.1 ^ ^ #
 teleport @s[scores={temp=..40}] ^ ^ ^0.25
 
 scoreboard players add @s temp 1
-execute if score @s temp matches 41.. as @a[tag=self,limit=1] run function ssbrc:series/pokemon/greninja/logic/abilities/shadow_sneak/deactivate
+execute if score @s temp matches 41.. as @a[tag=self,limit=1] at @s run function ssbrc:series/pokemon/greninja/logic/abilities/shadow_sneak/deactivate
+execute if score entityHit temp matches 1 run kill @s
+scoreboard players reset entityHit temp
