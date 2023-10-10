@@ -4,4 +4,4 @@ scoreboard players reset rayLength temp
 
 scoreboard players set rayAbort temp 1
 
-function ssbrc:series/pokemon/pokemontrainer/logic/charizard/flare_blitz/recoil
+execute as @a[tag=self,limit=1] run function ssbrc:series/pokemon/pokemontrainer/logic/charizard/flare_blitz/recoil
