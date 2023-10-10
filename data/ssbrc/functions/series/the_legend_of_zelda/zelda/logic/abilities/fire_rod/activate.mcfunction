@@ -1,4 +1,4 @@
-execute summon minecraft:marker run function ssbrc:series/the_legend_of_zelda/zelda/logic/abilities/fire_rod/init
+execute positioned ^ ^ ^1 summon minecraft:marker run function ssbrc:series/the_legend_of_zelda/zelda/logic/abilities/fire_rod/init
 
 scoreboard players operation @s mana -= #fireRodMagicCost temp
 
