@@ -1,6 +1,4 @@
-kill @e[type=minecraft:marker,tag=flareBlitz,sort=nearest,limit=1,predicate=ssbrc:id_match]
-
-scoreboard players set @s duration.1 2
+scoreboard players set entityHit temp 1
 
 scoreboard players reset rayLength temp
 
