@@ -20,8 +20,8 @@ execute as @e[type=minecraft:armor_stand,tag=barrel,predicate=ssbrc:id_match] at
 execute as @e[type=minecraft:marker,tag=orangeGrenade,predicate=ssbrc:id_match] at @s run function ssbrc:series/donkey_kong/donkeykong/logic/abilities/orange_grenade/tick
 
 # Fox
-execute as @e[type=minecraft:arrow,tag=krazoanFireball,predicate=ssbrc:id_match] at @s run function ssbrc:series/star_fox/fox/logic/abilities/krazoan_fireball/tick
-execute as @e[type=minecraft:arrow,tag=fox.blaster,predicate=ssbrc:id_match] at @s run function ssbrc:series/star_fox/fox/logic/abilities/blaster/tick
+execute as @e[type=minecraft:marker,tag=krazoanFireball,predicate=ssbrc:id_match] at @s run function ssbrc:series/star_fox/fox/logic/abilities/krazoan_fireball/tick
+execute as @e[type=minecraft:marker,tag=fox.blaster,predicate=ssbrc:id_match] at @s run function ssbrc:series/star_fox/fox/logic/abilities/blaster/tick
 execute as @e[type=minecraft:marker,tag=fireFox,predicate=ssbrc:id_match] at @s run function ssbrc:series/star_fox/fox/logic/abilities/fire_fox/tick
 
 # Greninja
