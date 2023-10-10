@@ -14,8 +14,8 @@ advancement grant @s[advancements={ssbrc:tutorial/intro/2=false},x=-525.5,y=5.0,
 particle minecraft:block_marker minecraft:petrified_oak_slab -525.5 6.5 -1936.5 0.0 0.0 0.0 0.0 1 normal @s[advancements={ssbrc:tutorial/intro/3=false}]
 particle minecraft:block_marker minecraft:petrified_oak_slab -525.5 6.5 -1936.5 0.0 0.0 0.0 0.0 1 normal @s[advancements={ssbrc:tutorial/outro/1=true,ssbrc:tutorial/outro/2=false}]
 
-execute unless entity @s[x=-526.0,y=6.0,z=-1936.0,dy=0] run scoreboard players reset @s sandbag.standOn
-scoreboard players add @s[x=-526.0,y=6.0,z=-1936.0,dy=0] sandbag.standOn 1
+execute unless entity @s[x=-526.0,y=6.0,z=-1937.0,dy=0] run scoreboard players reset @s sandbag.standOn
+scoreboard players add @s[x=-526.0,y=6.0,z=-1937.0,dy=0] sandbag.standOn 1
 
 execute if score @s sandbag.standOn matches 100 run function ssbrc:logic/selector/events/sandbag/stand_on/1
 execute if score @s sandbag.standOn matches 200 run function ssbrc:logic/selector/events/sandbag/stand_on/2
