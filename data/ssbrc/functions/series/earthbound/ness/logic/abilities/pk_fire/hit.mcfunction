@@ -1,5 +1,5 @@
 attribute @s minecraft:generic.knockback_resistance base set 0.9
-execute store success score damageSuccess temp run damage @s 2.0 ssbrc:pierce by @a[tag=self,limit=1]
+execute store success score damageSuccess temp run damage @s 4.0 ssbrc:pierce by @a[tag=self,limit=1]
 scoreboard players set @s burning 10
 function ssbrc:logic/characters/attributes/defaults/knockback_resistance
 
