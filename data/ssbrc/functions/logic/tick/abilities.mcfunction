@@ -94,7 +94,7 @@ execute as @e[type=minecraft:marker,tag=waveBeam,predicate=ssbrc:id_match] at @s
 execute as @e[type=minecraft:marker,tag=plasmaBeam,predicate=ssbrc:id_match] at @s run function ssbrc:series/metroid/samus/logic/weapons/plasma_beam/tick
 
 # Snake
-execute as @e[type=minecraft:arrow,tag=bullet,predicate=ssbrc:id_match] at @s run function ssbrc:series/metal_gear_solid/snake/logic/bullets
+execute as @e[type=minecraft:arrow,tag=snake.bullet,predicate=ssbrc:id_match] at @s run function ssbrc:series/metal_gear_solid/snake/logic/bullets
 execute as @e[type=minecraft:armor_stand,tag=antiPersonnelMine,predicate=ssbrc:id_match] at @s unless block ~ ~-0.1 ~ #ssbrc:passthrough run function ssbrc:series/metal_gear_solid/snake/logic/weapons/anti_personnel_mine/tick
 execute as @e[type=minecraft:armor_stand,tag=smokeGrenade,predicate=ssbrc:id_match] at @s unless block ~ ~-0.1 ~ #ssbrc:passthrough run function ssbrc:series/metal_gear_solid/snake/logic/weapons/smoke_grenade/tick
 
@@ -159,4 +159,4 @@ execute as @e[type=minecraft:marker,tag=rayBlaster,predicate=ssbrc:id_match] at 
 execute as @e[type=minecraft:arrow,tag=gatlingGun,predicate=ssbrc:id_match] at @s run function ssbrc:series/retro_fighters/yar/logic/abilities/ray_blaster/variants/gatling_gun/tick
 execute as @e[type=minecraft:item_display,tag=missileLauncher,predicate=ssbrc:id_match] at @s run function ssbrc:series/retro_fighters/yar/logic/abilities/ray_blaster/variants/missile_launcher/tick
 execute as @e[type=minecraft:bee,tag=drone,predicate=ssbrc:id_match] at @s run function ssbrc:series/retro_fighters/yar/logic/abilities/drone/tick
-execute as @e[type=minecraft:arrow,tag=bullet,predicate=ssbrc:id_match] at @s run function ssbrc:series/retro_fighters/yar/logic/abilities/drone/projectiles
+execute as @e[type=minecraft:arrow,tag=drone.bullet,predicate=ssbrc:id_match] at @s run function ssbrc:series/retro_fighters/yar/logic/abilities/drone/projectiles

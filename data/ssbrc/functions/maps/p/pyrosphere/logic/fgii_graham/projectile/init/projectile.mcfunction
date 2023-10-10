@@ -1,4 +1,4 @@
-tag @s add bullet
+tag @s add fgiiGraham.bullet
 
 data merge entity @s {damage:0.25}
 
