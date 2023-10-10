@@ -1,4 +1,4 @@
-execute positioned ^ ^ ^1 summon minecraft:area_effect_cloud run function ssbrc:series/the_legend_of_zelda/zelda/logic/abilities/fire_rod/alternate_function/init
+execute positioned ^ ^ ^1 summon minecraft:marker run function ssbrc:series/the_legend_of_zelda/zelda/logic/abilities/fire_rod/alternate_function/init
 
 scoreboard players operation @s mana -= #fireRodMagicCost temp
 
