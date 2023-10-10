@@ -1,7 +1,7 @@
 particle minecraft:flame ~ ~ ~ 0.05 0.05 0.05 0.0 25 force @a
 particle minecraft:dust_color_transition 1.0 0.5 0.0 0.5 1.0 1.0 1.0 ~ ~ ~ 0.075 0.075 0.075 0.0 100 normal @a
 
-execute positioned ~-0.375 ~-0.375 ~-0.375 as @e[tag=!self,predicate=ssbrc:flag/targets,dx=0] positioned ~-0.25 ~-0.25 ~-0.25 if entity @s[dx=0] run function ssbrc:series/super_mario_bros/mario/logic/abilities/fireball/hit
+execute positioned ~-0.375 ~-0.375 ~-0.375 as @e[tag=!self,nbt=!{Inventory:[{tag:{goronLocket:1}}]},predicate=ssbrc:flag/targets,dx=0] positioned ~-0.25 ~-0.25 ~-0.25 if entity @s[dx=0] run function ssbrc:series/super_mario_bros/mario/logic/abilities/fireball/hit
 execute if score entityHit temp matches 1 run kill @s
 scoreboard players reset entityHit temp
 

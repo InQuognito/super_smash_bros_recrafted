@@ -5,6 +5,4 @@ execute if entity @p[tag=self,tag=!gold,tag=!dark] run tag @s add blue
 execute if entity @p[tag=self,tag=gold] run tag @s add gold
 execute if entity @p[tag=self,tag=dark] run tag @s add red
 
-data merge entity @s {damage:0.75}
-
-function ssbrc:logic/init/arrow/straight
+function ssbrc:logic/init/projectile

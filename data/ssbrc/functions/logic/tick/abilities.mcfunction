@@ -46,7 +46,7 @@ execute as @e[type=minecraft:arrow,tag=phantomShow,predicate=ssbrc:id_match] at 
 execute as @e[type=minecraft:armor_stand,tag=blunderbuss,predicate=ssbrc:id_match] at @s run function ssbrc:series/donkey_kong/kingkrool/logic/abilities/blunderbuss/tick
 
 # Link
-execute as @e[type=minecraft:arrow,tag=swordBeam,predicate=ssbrc:id_match] at @s run function ssbrc:series/the_legend_of_zelda/link/logic/abilities/sword_beam/tick
+execute as @e[type=minecraft:marker,tag=swordBeam,predicate=ssbrc:id_match] at @s run function ssbrc:series/the_legend_of_zelda/link/logic/abilities/sword_beam/tick
 execute as @e[type=minecraft:armor_stand,tag=link.boomerang,predicate=ssbrc:id_match] at @s run function ssbrc:series/the_legend_of_zelda/link/logic/abilities/boomerang/tick
 
 # Luigi
@@ -91,7 +91,7 @@ execute as @e[type=minecraft:item_display,tag=ashuraSenku.trail,predicate=ssbrc:
 # Samus
 execute as @e[type=minecraft:marker,tag=powerBeam,predicate=ssbrc:id_match] at @s run function ssbrc:series/metroid/samus/logic/weapons/power_beam/tick
 execute as @e[type=minecraft:marker,tag=waveBeam,predicate=ssbrc:id_match] at @s run function ssbrc:series/metroid/samus/logic/weapons/wave_beam/raycast/start
-execute as @e[type=minecraft:arrow,tag=plasmaBeam,predicate=ssbrc:id_match] at @s run function ssbrc:series/metroid/samus/logic/weapons/plasma_beam/tick
+execute as @e[type=minecraft:marker,tag=plasmaBeam,predicate=ssbrc:id_match] at @s run function ssbrc:series/metroid/samus/logic/weapons/plasma_beam/tick
 
 # Snake
 execute as @e[type=minecraft:arrow,tag=bullet,predicate=ssbrc:id_match] at @s run function ssbrc:series/metal_gear_solid/snake/logic/bullets
@@ -126,7 +126,7 @@ execute as @e[type=minecraft:armor_stand,tag=magicBoomerang,predicate=ssbrc:id_m
 execute at @s[nbt={Inventory:[{tag:{goronLocket:1}}]}] as @e[type=#ssbrc:arrows,tag=effect.wither,distance=..1.6,predicate=!ssbrc:id_match] run kill @s
 
 # Altered Beast
-execute as @e[type=minecraft:arrow,tag=flameHands,predicate=ssbrc:id_match] at @s run function ssbrc:series/retro_fighters/alteredbeast/logic/abilities/flame_hands/tick
+execute as @e[type=minecraft:marker,tag=flameHands,predicate=ssbrc:id_match] at @s run function ssbrc:series/retro_fighters/alteredbeast/logic/abilities/flame_hands/tick
 
 # Alucard
 execute as @e[type=minecraft:marker,tag=mist,predicate=ssbrc:id_match] at @s run function ssbrc:series/castlevania/alucard/logic/abilities/mist/tick_entity
@@ -144,7 +144,7 @@ execute as @e[type=minecraft:arrow,tag=chaosBlastShockwave,predicate=ssbrc:id_ma
 
 # Shovel Knight
 execute as @e[type=minecraft:marker,tag=chaosSphere,predicate=ssbrc:id_match] at @s run function ssbrc:series/indie_fighters/shovelknight/logic/abilities/chaos_sphere/tick
-execute as @e[type=minecraft:arrow,tag=flareWand,predicate=ssbrc:id_match] at @s run function ssbrc:series/indie_fighters/shovelknight/logic/abilities/flare_wand/tick
+execute as @e[type=minecraft:marker,tag=flareWand,predicate=ssbrc:id_match] at @s run function ssbrc:series/indie_fighters/shovelknight/logic/abilities/flare_wand/tick
 execute as @e[type=minecraft:marker,tag=propellerDagger,predicate=ssbrc:id_match] at @s run function ssbrc:series/indie_fighters/shovelknight/logic/abilities/propeller_dagger/tick
 execute as @e[type=minecraft:armor_stand,tag=throwingAnchor,predicate=ssbrc:id_match] at @s run function ssbrc:series/indie_fighters/shovelknight/logic/abilities/throwing_anchor/tick
 execute as @e[type=minecraft:marker,tag=warHorn,predicate=ssbrc:id_match] at @s run function ssbrc:series/indie_fighters/shovelknight/logic/abilities/war_horn/tick
@@ -155,7 +155,8 @@ execute as @e[type=minecraft:armor_stand,tag=payday,predicate=ssbrc:id_match] at
 execute as @e[type=minecraft:arrow,tag=paydayProjectile,predicate=ssbrc:id_match] at @s run function ssbrc:series/pokemon/teamrocket/logic/meowth/payday/projectiles/tick
 
 # Yar
-execute as @e[type=minecraft:arrow,tag=rayBlaster,predicate=ssbrc:id_match] at @s run function ssbrc:series/retro_fighters/yar/logic/abilities/ray_blaster/tick
+execute as @e[type=minecraft:marker,tag=rayBlaster,predicate=ssbrc:id_match] at @s run function ssbrc:series/retro_fighters/yar/logic/abilities/ray_blaster/tick
+execute as @e[type=minecraft:arrow,tag=gatlingGun,predicate=ssbrc:id_match] at @s run function ssbrc:series/retro_fighters/yar/logic/abilities/ray_blaster/variants/gatling_gun/tick
 execute as @e[type=minecraft:item_display,tag=missileLauncher,predicate=ssbrc:id_match] at @s run function ssbrc:series/retro_fighters/yar/logic/abilities/ray_blaster/variants/missile_launcher/tick
 execute as @e[type=minecraft:bee,tag=drone,predicate=ssbrc:id_match] at @s run function ssbrc:series/retro_fighters/yar/logic/abilities/drone/tick
 execute as @e[type=minecraft:arrow,tag=bullet,predicate=ssbrc:id_match] at @s run function ssbrc:series/retro_fighters/yar/logic/abilities/drone/projectiles
