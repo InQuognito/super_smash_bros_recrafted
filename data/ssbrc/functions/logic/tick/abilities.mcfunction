@@ -94,7 +94,10 @@ execute as @e[type=minecraft:marker,tag=waveBeam,predicate=ssbrc:id_match] at @s
 execute as @e[type=minecraft:marker,tag=plasmaBeam,predicate=ssbrc:id_match] at @s run function ssbrc:series/metroid/samus/logic/weapons/plasma_beam/tick
 
 # Snake
-execute as @e[type=minecraft:arrow,tag=snake.bullet,predicate=ssbrc:id_match] at @s run function ssbrc:series/metal_gear_solid/snake/logic/bullets
+execute as @e[type=minecraft:marker,tag=psg1Bullet,predicate=ssbrc:id_match] at @s run function ssbrc:series/metal_gear_solid/snake/logic/weapons/psg1/tick
+execute as @e[type=minecraft:marker,tag=famasBullet,predicate=ssbrc:id_match] at @s run function ssbrc:series/metal_gear_solid/snake/logic/weapons/famas/tick
+execute as @e[type=minecraft:marker,tag=s1000Bullet,predicate=ssbrc:id_match] at @s run function ssbrc:series/metal_gear_solid/snake/logic/weapons/s1000/tick
+execute as @e[type=minecraft:marker,tag=socomBullet,predicate=ssbrc:id_match] at @s run function ssbrc:series/metal_gear_solid/snake/logic/weapons/socom/tick
 execute as @e[type=minecraft:armor_stand,tag=antiPersonnelMine,predicate=ssbrc:id_match] at @s unless block ~ ~-0.1 ~ #ssbrc:passthrough run function ssbrc:series/metal_gear_solid/snake/logic/weapons/anti_personnel_mine/tick
 execute as @e[type=minecraft:armor_stand,tag=smokeGrenade,predicate=ssbrc:id_match] at @s unless block ~ ~-0.1 ~ #ssbrc:passthrough run function ssbrc:series/metal_gear_solid/snake/logic/weapons/smoke_grenade/tick
 
