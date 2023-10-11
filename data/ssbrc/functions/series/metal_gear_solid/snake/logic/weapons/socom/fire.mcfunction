@@ -1,5 +1,5 @@
 scoreboard players operation temp health = @s health
-execute summon minecraft:marker run function ssbrc:series/metal_gear_solid/snake/logic/weapons/socom/init
+execute positioned ^ ^ ^1 summon minecraft:marker run function ssbrc:series/metal_gear_solid/snake/logic/weapons/socom/init
 
 scoreboard players remove @s snake.socomA 1
 

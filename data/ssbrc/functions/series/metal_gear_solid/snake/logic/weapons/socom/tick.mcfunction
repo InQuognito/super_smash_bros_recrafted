@@ -1,31 +1,32 @@
 function ssbrc:series/metal_gear_solid/snake/logic/weapons/socom/move_forward
-execute at @s if entity @e[type=minecraft:marker,tag=socomBullet,distance=..0.1] run function ssbrc:series/metal_gear_solid/snake/logic/weapons/socom/move_forward
-execute at @s if entity @e[type=minecraft:marker,tag=socomBullet,distance=..0.1] run function ssbrc:series/metal_gear_solid/snake/logic/weapons/socom/move_forward
-execute at @s if entity @e[type=minecraft:marker,tag=socomBullet,distance=..0.1] run function ssbrc:series/metal_gear_solid/snake/logic/weapons/socom/move_forward
-execute at @s if entity @e[type=minecraft:marker,tag=socomBullet,distance=..0.1] run function ssbrc:series/metal_gear_solid/snake/logic/weapons/socom/move_forward
-execute at @s if entity @e[type=minecraft:marker,tag=socomBullet,distance=..0.1] run function ssbrc:series/metal_gear_solid/snake/logic/weapons/socom/move_forward
-execute at @s if entity @e[type=minecraft:marker,tag=socomBullet,distance=..0.1] run function ssbrc:series/metal_gear_solid/snake/logic/weapons/socom/move_forward
-execute at @s if entity @e[type=minecraft:marker,tag=socomBullet,distance=..0.1] run function ssbrc:series/metal_gear_solid/snake/logic/weapons/socom/move_forward
-execute at @s if entity @e[type=minecraft:marker,tag=socomBullet,distance=..0.1] run function ssbrc:series/metal_gear_solid/snake/logic/weapons/socom/move_forward
-execute at @s if entity @e[type=minecraft:marker,tag=socomBullet,distance=..0.1] run function ssbrc:series/metal_gear_solid/snake/logic/weapons/socom/move_forward
-execute at @s if entity @e[type=minecraft:marker,tag=socomBullet,distance=..0.1] run function ssbrc:series/metal_gear_solid/snake/logic/weapons/socom/move_forward
-execute at @s if entity @e[type=minecraft:marker,tag=socomBullet,distance=..0.1] run function ssbrc:series/metal_gear_solid/snake/logic/weapons/socom/move_forward
-execute at @s if entity @e[type=minecraft:marker,tag=socomBullet,distance=..0.1] run function ssbrc:series/metal_gear_solid/snake/logic/weapons/socom/move_forward
-execute at @s if entity @e[type=minecraft:marker,tag=socomBullet,distance=..0.1] run function ssbrc:series/metal_gear_solid/snake/logic/weapons/socom/move_forward
-execute at @s if entity @e[type=minecraft:marker,tag=socomBullet,distance=..0.1] run function ssbrc:series/metal_gear_solid/snake/logic/weapons/socom/move_forward
-execute at @s if entity @e[type=minecraft:marker,tag=socomBullet,distance=..0.1] run function ssbrc:series/metal_gear_solid/snake/logic/weapons/socom/move_forward
-execute at @s if entity @e[type=minecraft:marker,tag=socomBullet,distance=..0.1] run function ssbrc:series/metal_gear_solid/snake/logic/weapons/socom/move_forward
-execute at @s if entity @e[type=minecraft:marker,tag=socomBullet,distance=..0.1] run function ssbrc:series/metal_gear_solid/snake/logic/weapons/socom/move_forward
-execute at @s if entity @e[type=minecraft:marker,tag=socomBullet,distance=..0.1] run function ssbrc:series/metal_gear_solid/snake/logic/weapons/socom/move_forward
-execute at @s if entity @e[type=minecraft:marker,tag=socomBullet,distance=..0.1] run function ssbrc:series/metal_gear_solid/snake/logic/weapons/socom/move_forward
-execute at @s if entity @e[type=minecraft:marker,tag=socomBullet,distance=..0.1] run function ssbrc:series/metal_gear_solid/snake/logic/weapons/socom/move_forward
-execute at @s if entity @e[type=minecraft:marker,tag=socomBullet,distance=..0.1] run function ssbrc:series/metal_gear_solid/snake/logic/weapons/socom/move_forward
-execute at @s if entity @e[type=minecraft:marker,tag=socomBullet,distance=..0.1] run function ssbrc:series/metal_gear_solid/snake/logic/weapons/socom/move_forward
-execute at @s if entity @e[type=minecraft:marker,tag=socomBullet,distance=..0.1] run function ssbrc:series/metal_gear_solid/snake/logic/weapons/socom/move_forward
-execute at @s if entity @e[type=minecraft:marker,tag=socomBullet,distance=..0.1] run function ssbrc:series/metal_gear_solid/snake/logic/weapons/socom/move_forward
-execute at @s if entity @e[type=minecraft:marker,tag=socomBullet,distance=..0.1] run function ssbrc:series/metal_gear_solid/snake/logic/weapons/socom/move_forward
-execute at @s if entity @e[type=minecraft:marker,tag=socomBullet,distance=..0.1] run function ssbrc:series/metal_gear_solid/snake/logic/weapons/socom/move_forward
-execute at @s if entity @e[type=minecraft:marker,tag=socomBullet,distance=..0.1] run function ssbrc:series/metal_gear_solid/snake/logic/weapons/socom/move_forward
+execute unless score entityHit temp matches 1 at @s run function ssbrc:series/metal_gear_solid/snake/logic/weapons/socom/move_forward
+execute unless score entityHit temp matches 1 at @s run function ssbrc:series/metal_gear_solid/snake/logic/weapons/socom/move_forward
+execute unless score entityHit temp matches 1 at @s run function ssbrc:series/metal_gear_solid/snake/logic/weapons/socom/move_forward
+execute unless score entityHit temp matches 1 at @s run function ssbrc:series/metal_gear_solid/snake/logic/weapons/socom/move_forward
+execute unless score entityHit temp matches 1 at @s run function ssbrc:series/metal_gear_solid/snake/logic/weapons/socom/move_forward
+execute unless score entityHit temp matches 1 at @s run function ssbrc:series/metal_gear_solid/snake/logic/weapons/socom/move_forward
+execute unless score entityHit temp matches 1 at @s run function ssbrc:series/metal_gear_solid/snake/logic/weapons/socom/move_forward
+execute unless score entityHit temp matches 1 at @s run function ssbrc:series/metal_gear_solid/snake/logic/weapons/socom/move_forward
+execute unless score entityHit temp matches 1 at @s run function ssbrc:series/metal_gear_solid/snake/logic/weapons/socom/move_forward
+execute unless score entityHit temp matches 1 at @s run function ssbrc:series/metal_gear_solid/snake/logic/weapons/socom/move_forward
+execute unless score entityHit temp matches 1 at @s run function ssbrc:series/metal_gear_solid/snake/logic/weapons/socom/move_forward
+execute unless score entityHit temp matches 1 at @s run function ssbrc:series/metal_gear_solid/snake/logic/weapons/socom/move_forward
+execute unless score entityHit temp matches 1 at @s run function ssbrc:series/metal_gear_solid/snake/logic/weapons/socom/move_forward
+execute unless score entityHit temp matches 1 at @s run function ssbrc:series/metal_gear_solid/snake/logic/weapons/socom/move_forward
+execute unless score entityHit temp matches 1 at @s run function ssbrc:series/metal_gear_solid/snake/logic/weapons/socom/move_forward
+execute unless score entityHit temp matches 1 at @s run function ssbrc:series/metal_gear_solid/snake/logic/weapons/socom/move_forward
+execute unless score entityHit temp matches 1 at @s run function ssbrc:series/metal_gear_solid/snake/logic/weapons/socom/move_forward
+execute unless score entityHit temp matches 1 at @s run function ssbrc:series/metal_gear_solid/snake/logic/weapons/socom/move_forward
+execute unless score entityHit temp matches 1 at @s run function ssbrc:series/metal_gear_solid/snake/logic/weapons/socom/move_forward
+execute unless score entityHit temp matches 1 at @s run function ssbrc:series/metal_gear_solid/snake/logic/weapons/socom/move_forward
+execute unless score entityHit temp matches 1 at @s run function ssbrc:series/metal_gear_solid/snake/logic/weapons/socom/move_forward
+execute unless score entityHit temp matches 1 at @s run function ssbrc:series/metal_gear_solid/snake/logic/weapons/socom/move_forward
+execute unless score entityHit temp matches 1 at @s run function ssbrc:series/metal_gear_solid/snake/logic/weapons/socom/move_forward
+execute unless score entityHit temp matches 1 at @s run function ssbrc:series/metal_gear_solid/snake/logic/weapons/socom/move_forward
+execute unless score entityHit temp matches 1 at @s run function ssbrc:series/metal_gear_solid/snake/logic/weapons/socom/move_forward
+execute unless score entityHit temp matches 1 at @s run function ssbrc:series/metal_gear_solid/snake/logic/weapons/socom/move_forward
+execute unless score entityHit temp matches 1 at @s run function ssbrc:series/metal_gear_solid/snake/logic/weapons/socom/move_forward
+scoreboard players reset entityHit temp
 
 execute at @s run particle minecraft:end_rod ~ ~ ~ 0.0 0.0 0.0 0.0 1 force @a
 

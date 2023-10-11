@@ -4,4 +4,4 @@ function ssbrc:math/rng/lcg
 
 execute if predicate ssbrc:random_chance/50 run scoreboard players operation result random *= -1 integers
 
-execute if entity @s[predicate=ssbrc:flag/sneaking] run scoreboard players set result random 0
+execute if entity @a[tag=self,limit=1,predicate=ssbrc:flag/sneaking] run scoreboard players set result random 0

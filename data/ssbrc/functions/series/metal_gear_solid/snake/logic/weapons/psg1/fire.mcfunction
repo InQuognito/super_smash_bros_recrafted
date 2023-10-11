@@ -1,5 +1,5 @@
 scoreboard players operation temp health = @s health
-execute summon minecraft:marker run function ssbrc:series/metal_gear_solid/snake/logic/weapons/psg1/init/marker
+execute positioned ^ ^ ^1 summon minecraft:marker run function ssbrc:series/metal_gear_solid/snake/logic/weapons/psg1/init
 
 scoreboard players remove @s snake.psg1A 1
 

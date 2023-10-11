@@ -1,5 +1,4 @@
-tag @s add snake.bullet
-tag @s add socomBullet
+tag @s add socom
 
 teleport @s ~ ~ ~ ~ ~
 data modify storage ssbrc:data Rotation set from entity @s Rotation
