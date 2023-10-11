@@ -35,4 +35,4 @@ scoreboard players reset entityHit temp
 execute at @s[scores={temp=1}] run particle minecraft:end_rod ~ ~ ~ 0.0 0.0 0.0 0.0 1 force @a
 
 scoreboard players add @s temp 1
-kill @s[scores={temp=2..}]
+kill @s[scores={temp=10..}]
