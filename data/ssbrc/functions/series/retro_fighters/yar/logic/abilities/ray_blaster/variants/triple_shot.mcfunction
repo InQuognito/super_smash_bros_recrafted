@@ -1,6 +1,6 @@
-execute facing ^-1 ^ ^3 summon minecraft:marker run function ssbrc:series/retro_fighters/yar/logic/abilities/ray_blaster/init/marker
-execute facing ^ ^ ^1 summon minecraft:marker run function ssbrc:series/retro_fighters/yar/logic/abilities/ray_blaster/init/marker
-execute facing ^1 ^ ^3 summon minecraft:marker run function ssbrc:series/retro_fighters/yar/logic/abilities/ray_blaster/init/marker
+execute facing ^-1 ^ ^3 summon minecraft:marker run function ssbrc:series/retro_fighters/yar/logic/abilities/ray_blaster/init
+execute facing ^ ^ ^1 summon minecraft:marker run function ssbrc:series/retro_fighters/yar/logic/abilities/ray_blaster/init
+execute facing ^1 ^ ^3 summon minecraft:marker run function ssbrc:series/retro_fighters/yar/logic/abilities/ray_blaster/init
 
 scoreboard players set @s cooldown.1 20
 execute if score @s shadow.chaosControl matches 1.. run function ssbrc:logic/characters/cooldown_modifiers/chaos_control/1
