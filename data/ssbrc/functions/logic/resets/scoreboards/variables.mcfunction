@@ -125,7 +125,7 @@ scoreboard players set #snake.famasWeight vars 5
 scoreboard players set #snake.famasReload vars 50
 scoreboard players set #snake.famasScavenger vars 1
 scoreboard players set #snake.s1000Weight vars 4
-scoreboard players set #snake.s1000Reload vars 50
+scoreboard players set #snake.s1000Reload vars 60
 scoreboard players set #snake.s1000Scavenger vars 2
 scoreboard players set #snake.socomWeight vars 3
 scoreboard players set #snake.socomReload vars 40
