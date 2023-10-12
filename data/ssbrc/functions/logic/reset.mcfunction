@@ -18,8 +18,9 @@ function ssbrc:logic/resets/gamerules
 function ssbrc:logic/resets/schedule
 function ssbrc:logic/resets/teams/reset
 
+data modify storage ssbrc:data snake_ammo_psg1 set value '[{"score":{"name":"@s","objective":"snake.psg1A"},"color":"green"},{"text":" | ","color":"white"},{"score":{"name":"@s","objective":"snake.psg1M"},"color":"dark_green"}]'
 data modify storage ssbrc:data snake_out_of_ammo set value '[{"text":"-","color":"red"},{"text":" | ","color":"white"},{"text":"-","color":"red"}]'
-data modify storage ssbrc:data snake_prompt_reload set value '[{"nbt":"snake_out_of_ammo","storage":"ssbrc:data","interpret":true},{"translate":"ssbrc.fighters.snake.reload.prefix","color":"gray"},{"keybind":"key.drop","color":"white"},{"translate":"ssbrc.fighters.snake.reload.suffix","color":"gray"}]'
+data modify storage ssbrc:data snake_prompt_reload set value '[{"translate":"ssbrc.fighters.snake.reload.prefix","color":"gray"},{"keybind":"key.drop","color":"white"},{"translate":"ssbrc.fighters.snake.reload.suffix","color":"gray"}]'
 
 kill @e[type=!minecraft:player]
 
