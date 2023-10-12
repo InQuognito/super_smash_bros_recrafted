@@ -1,3 +1,5 @@
+execute if entity @s[predicate=ssbrc:characters/snake/not_holding_weapon] run title @s actionbar ""
+
 execute if entity @s[nbt={SelectedItem:{tag:{psg1:1}}}] run function ssbrc:series/metal_gear_solid/snake/logic/hud/psg1
 execute if entity @s[nbt={SelectedItem:{tag:{famas:1}}}] run function ssbrc:series/metal_gear_solid/snake/logic/hud/famas
 execute if entity @s[nbt={SelectedItem:{tag:{s1000:1}}}] run function ssbrc:series/metal_gear_solid/snake/logic/hud/s1000
