@@ -1,5 +1,5 @@
 scoreboard players operation temp health = @s health
-execute positioned ^ ^ ^1 summon minecraft:marker run function ssbrc:series/metal_gear_solid/snake/logic/weapons/s1000/projectile
+execute positioned ^ ^ ^1 run function ssbrc:series/metal_gear_solid/snake/logic/weapons/s1000/projectile
 
 scoreboard players remove @s snake.s1000A 1
 
