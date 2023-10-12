@@ -1,4 +1,5 @@
 effect clear @s
+effect give @s minecraft:saturation infinite 255 true
 
 function ssbrc:logic/characters/effects/jump_boost
 
