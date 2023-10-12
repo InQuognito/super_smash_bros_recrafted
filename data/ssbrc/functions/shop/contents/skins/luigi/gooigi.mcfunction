@@ -1,4 +1,4 @@
-advancement grant @s only ssbrc:series/super_mario_bros/luigi/skins/gooigi
+advancement grant @s only ssbrc:fighters/luigi/skins/gooigi
 
 scoreboard players operation @s stats.credits -= #price.skin.common vars
 

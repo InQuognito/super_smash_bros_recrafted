@@ -1,0 +1,7 @@
+{
+	"asset_id": "ssbrc:fighters/shovel_knight/toad_gear",
+	"description": {
+		"translate": "trim_pattern.example.stripes"
+	},
+	"template_item": "minecraft:stick"
+}

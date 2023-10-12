@@ -17,6 +17,6 @@
 		}
 	},
 	"rewards": {
-		"function": "ssbrc:logic/characters/flags/get_kill/on/non_player"
+		"function": "ssbrc:logic/fighters/flags/get_kill/on/non_player"
 	}
 }

@@ -1,4 +1,4 @@
-advancement grant @s only ssbrc:series/persona/joker/skins/shujin_academy
+advancement grant @s only ssbrc:fighters/joker/skins/shujin_academy
 
 scoreboard players operation @s stats.credits -= #price.skin.common vars
 

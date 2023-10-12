@@ -1,4 +1,4 @@
-advancement grant @s only ssbrc:series/star_fox/fox/skins/adventures
+advancement grant @s only ssbrc:fighters/fox/skins/adventures
 
 scoreboard players operation @s stats.credits -= #price.skin.common vars
 

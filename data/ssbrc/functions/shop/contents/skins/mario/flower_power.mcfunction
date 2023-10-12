@@ -1,4 +1,4 @@
-advancement grant @s only ssbrc:series/super_mario_bros/mario/skins/flower_power
+advancement grant @s only ssbrc:fighters/mario/skins/flower_power
 
 scoreboard players operation @s stats.credits -= #price.skin.common vars
 

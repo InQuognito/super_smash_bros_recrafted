@@ -1,4 +1,4 @@
-advancement grant @s only ssbrc:series/earthbound/ness/skins/moonside
+advancement grant @s only ssbrc:fighters/ness/skins/moonside
 
 scoreboard players operation @s stats.credits -= #price.skin.common vars
 

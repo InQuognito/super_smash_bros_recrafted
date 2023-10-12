@@ -11,7 +11,7 @@ scoreboard players set @s charge.3 0
 scoreboard players set @s duration.1 1
 scoreboard players set @s duration.2 1
 scoreboard players set @s duration.3 1
-function ssbrc:logic/characters/armor/get
+function ssbrc:logic/fighters/armor/get
 scoreboard players set @s duration.1 0
 scoreboard players set @s duration.2 0
 scoreboard players set @s duration.3 0

@@ -26,6 +26,6 @@
 		}
 	},
 	"rewards": {
-		"function": "ssbrc:logic/characters/flags/get_kill/with/reflect"
+		"function": "ssbrc:logic/fighters/flags/get_kill/with/reflect"
 	}
 }

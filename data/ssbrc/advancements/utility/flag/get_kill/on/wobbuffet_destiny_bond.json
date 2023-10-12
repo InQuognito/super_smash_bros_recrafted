@@ -26,6 +26,6 @@
 		}
 	},
 	"rewards": {
-		"function": "ssbrc:series/pokemon/teamrocket/logic/wobbuffet/destiny_bond/kill"
+		"function": "ssbrc:fighters/team_rocket/logic/wobbuffet/destiny_bond/kill"
 	}
 }

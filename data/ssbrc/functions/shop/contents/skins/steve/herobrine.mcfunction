@@ -1,4 +1,4 @@
-advancement grant @s only ssbrc:series/indie_fighters/steve/skins/herobrine
+advancement grant @s only ssbrc:fighters/steve/skins/herobrine
 
 scoreboard players operation @s stats.credits -= #price.skin.common vars
 

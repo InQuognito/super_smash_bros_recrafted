@@ -19,6 +19,6 @@
 		}
 	},
 	"rewards": {
-		"function": "ssbrc:logic/characters/projectiles/damage_dealt/firaga"
+		"function": "ssbrc:logic/fighters/projectiles/damage_dealt/firaga"
 	}
 }

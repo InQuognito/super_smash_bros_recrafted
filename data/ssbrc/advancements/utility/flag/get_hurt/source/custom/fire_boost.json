@@ -17,6 +17,6 @@
 		}
 	},
 	"rewards": {
-		"function": "ssbrc:series/persona/joker/logic/abilities/fire_boost/chance"
+		"function": "ssbrc:fighters/joker/logic/abilities/fire_boost/chance"
 	}
 }

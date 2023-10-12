@@ -1,4 +1,4 @@
-advancement grant @s only ssbrc:series/pokemon/jigglypuff/skins/gold
+advancement grant @s only ssbrc:fighters/jigglypuff/skins/gold
 
 tellraw @s [{"translate":"ssbrc.fighters.mastery","color":"white"},{"translate":"ssbrc.fighters.jigglypuff","color":"white"},{"translate":"ssbrc.fighters.unlockResult","color":"white"}]
 

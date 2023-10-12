@@ -1,4 +1,4 @@
-advancement grant @s only ssbrc:series/earthbound/giegue/skins/gold
+advancement grant @s only ssbrc:fighters/giegue/skins/gold
 
 tellraw @s [{"translate":"ssbrc.fighters.mastery","color":"white"},{"translate":"ssbrc.fighters.giegue","color":"white"},{"translate":"ssbrc.fighters.unlockResult","color":"white"}]
 

@@ -29,7 +29,7 @@ advancement revoke @a only ssbrc:utility/flag/hurt_player/condition/blocked
 scoreboard players reset @a flag.breakShield
 
 # Maps
-function ssbrc:logic/tick/maps/after_start
+function ssbrc:logic/tick/stages/after_start
 
 # Movement Entities
 execute as @e[tag=movementEntity] at @s run function ssbrc:logic/tick/movement_entities
@@ -38,4 +38,4 @@ execute as @e[tag=movementEntity] at @s run function ssbrc:logic/tick/movement_e
 execute as @e[type=minecraft:item,nbt={Item:{id:"minecraft:trident"}}] run function ssbrc:logic/tick/projectiles/tridents
 
 # Banned From Having More Than One
-execute as @a[predicate=ssbrc:characters/kits/trident] run function ssbrc:logic/characters/restore_items/trident_count
+execute as @a[predicate=ssbrc:fighters/kits/trident] run function ssbrc:logic/fighters/restore_items/trident_count

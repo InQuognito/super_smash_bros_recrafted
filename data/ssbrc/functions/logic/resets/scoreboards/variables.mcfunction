@@ -6,22 +6,22 @@ scoreboard players set selectorRange vars 20
 scoreboard players set #frostbiteTimer vars 100
 
 # Fighters
-scoreboard players set alteredbeast.electrocutionCooldown vars 300
-scoreboard players set alteredbeast.flameHandsCooldown vars 20
+scoreboard players set altered_beast.electrocutionCooldown vars 300
+scoreboard players set altered_beast.flameHandsCooldown vars 20
 
 scoreboard players set #bowser.maxFireBreath vars 100
 
 scoreboard players set byleth.steedChargeCooldown vars 300
 
-scoreboard players set captainfalcon.falconPunchCooldown vars 200
+scoreboard players set captain_falcon.falconPunchCooldown vars 200
 
 scoreboard players set #cloud.maxLimit vars 60
 
-scoreboard players set #darksamus.chargeBeamThreshold vars 40
-scoreboard players set #darksamus.phazonOverloadRange vars 8
+scoreboard players set #dark_samus.chargeBeamThreshold vars 40
+scoreboard players set #dark_samus.phazonOverloadRange vars 8
 
-scoreboard players set #donkeykong.barrelMaxRotation vars 160
-scoreboard players set #donkeykong.orangeGrenadeMaxRotation vars 160
+scoreboard players set #donkey_kong.barrelMaxRotation vars 160
+scoreboard players set #donkey_kong.orangeGrenadeMaxRotation vars 160
 
 scoreboard players set fox.reflectorCooldown vars 60
 scoreboard players set #fox.fireFoxThreshold vars 30
@@ -58,7 +58,7 @@ scoreboard players set joker.eiagonCooldown vars 40
 scoreboard players set joker.hamaCooldown vars 300
 scoreboard players set joker.phantomShowCooldown vars 15
 
-scoreboard players set kingkrool.blunderbussCooldown vars 60
+scoreboard players set king_k_rool.blunderbussCooldown vars 60
 
 scoreboard players set luigi.iceBallCooldown vars 20
 scoreboard players set #luigi.iceBallMaxRotation vars 160
@@ -70,7 +70,7 @@ scoreboard players set #mario.fireballMaxRotation vars 160
 scoreboard players set #mario.superJumpThreshold vars 10
 scoreboard players set #mario.superJumpMovementFalloff vars 200
 
-scoreboard players set megaman.megaBusterLimit vars 3
+scoreboard players set mega_man.megaBusterLimit vars 3
 
 scoreboard players set ness.pkFireCooldown vars 40
 scoreboard players set ness.pkFlashCooldown vars 40
@@ -78,9 +78,9 @@ scoreboard players set ness.pkFlashCooldown vars 40
 scoreboard players set pikachu.thunderJoltCooldown vars 20
 scoreboard players set #pikachu.thunderJoltMaxRotation vars 160
 
-scoreboard players set pokemontrainer.flareBlitzCooldown vars 60
-scoreboard players set pokemontrainer.leechSeedCooldown vars 100
-scoreboard players set pokemontrainer.waterGunCooldown vars 40
+scoreboard players set pokemon_trainer.flareBlitzCooldown vars 60
+scoreboard players set pokemon_trainer.leechSeedCooldown vars 100
+scoreboard players set pokemon_trainer.waterGunCooldown vars 40
 
 scoreboard players set #rob.maxCharge vars 200
 scoreboard players set #rob.maxFuel vars 200
@@ -93,19 +93,19 @@ scoreboard players set #shadow.maxMeter vars 600
 scoreboard players set shadow.chaosSpearCooldown vars 15
 scoreboard players set shadow.chaosSpearCost vars 50
 
-scoreboard players set #shovelknight.maxMana vars 10
-scoreboard players set shovelknight.chaosSphereCooldown vars 20
-scoreboard players set #shovelknight.chaosSphereManaCost vars 1
-scoreboard players set #shovelknight.chaosSphereMaxRotation vars 160
-scoreboard players set shovelknight.flareWandCooldown vars 15
-scoreboard players set #shovelknight.flareWandManaCost vars 1
-scoreboard players set shovelknight.throwingAnchorCooldown vars 10
-scoreboard players set #shovelknight.throwingAnchorManaCost vars 1
-scoreboard players set shovelknight.phaseLocketCooldown vars 200
-scoreboard players set #shovelknight.phaseLocketManaCost vars 3
-scoreboard players set shovelknight.propellerDaggerCooldown vars 60
-scoreboard players set #shovelknight.propellerDaggerManaCost vars 2
-scoreboard players set #shovelknight.warHornManaCost vars 7
+scoreboard players set #shovel_knight.maxMana vars 10
+scoreboard players set shovel_knight.chaosSphereCooldown vars 20
+scoreboard players set #shovel_knight.chaosSphereManaCost vars 1
+scoreboard players set #shovel_knight.chaosSphereMaxRotation vars 160
+scoreboard players set shovel_knight.flareWandCooldown vars 15
+scoreboard players set #shovel_knight.flareWandManaCost vars 1
+scoreboard players set shovel_knight.throwingAnchorCooldown vars 10
+scoreboard players set #shovel_knight.throwingAnchorManaCost vars 1
+scoreboard players set shovel_knight.phaseLocketCooldown vars 200
+scoreboard players set #shovel_knight.phaseLocketManaCost vars 3
+scoreboard players set shovel_knight.propellerDaggerCooldown vars 60
+scoreboard players set #shovel_knight.propellerDaggerManaCost vars 2
+scoreboard players set #shovel_knight.warHornManaCost vars 7
 
 scoreboard players set #sora.driveForm vars 400
 scoreboard players set #sora.maxMP vars 10
@@ -139,9 +139,9 @@ scoreboard players set #snake.smokeGrenadeScavenger vars 1
 
 scoreboard players set #steve.blockRange vars 3
 
-scoreboard players set teamrocket.acidCooldown vars 300
-scoreboard players set teamrocket.paydayCooldown vars 200
-scoreboard players set teamrocket.destinyBondCooldown vars 600
+scoreboard players set team_rocket.acidCooldown vars 300
+scoreboard players set team_rocket.paydayCooldown vars 200
+scoreboard players set team_rocket.destinyBondCooldown vars 600
 
 scoreboard players set #wolf.grenadeTimer vars 80
 scoreboard players set #wolf.wolfFlash vars 6

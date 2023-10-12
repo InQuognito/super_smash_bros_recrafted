@@ -15,6 +15,6 @@
 		}
 	},
 	"rewards": {
-		"function": "ssbrc:series/persona/joker/logic/abilities/dream_needle/chance"
+		"function": "ssbrc:fighters/joker/logic/abilities/dream_needle/chance"
 	}
 }

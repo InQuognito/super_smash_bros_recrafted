@@ -17,6 +17,6 @@
 		}
 	},
 	"rewards": {
-		"function": "ssbrc:series/the_legend_of_zelda/ganondorf/logic/stalfos/mark"
+		"function": "ssbrc:fighters/ganondorf/logic/stalfos/mark"
 	}
 }

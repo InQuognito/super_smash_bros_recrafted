@@ -1,4 +1,4 @@
-advancement grant @s only ssbrc:series/the_legend_of_zelda/zelda/skins/default
+advancement grant @s only ssbrc:fighters/zelda/skins/default
 
 scoreboard players operation @s stats.credits -= #price.fighter.common vars
 

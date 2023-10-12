@@ -1,4 +1,4 @@
-advancement grant @s only ssbrc:series/the_legend_of_zelda/link/skins/zora_tunic
+advancement grant @s only ssbrc:fighters/link/skins/zora_tunic
 
 scoreboard players operation @s stats.credits -= #price.skin.common vars
 

@@ -5,7 +5,7 @@ execute if score gameMode options matches 2 if score gameTime timer matches 1 ru
 
 scoreboard players add @s[advancements={ssbrc:utility/flag/get_kill/distance/30=true}] sniper 1
 
-function ssbrc:logic/characters/bonuses/rapid_kill
+function ssbrc:logic/fighters/bonuses/rapid_kill
 
 function ssbrc:logic/stats/kills
 

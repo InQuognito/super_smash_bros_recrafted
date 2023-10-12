@@ -1,0 +1,7 @@
+{
+	"asset_id": "ssbrc:fighters/pokemon_trainer/dawn/trainer",
+	"description": {
+		"translate": "trim_pattern.example.stripes"
+	},
+	"template_item": "minecraft:stick"
+}

@@ -11,6 +11,6 @@
 		}
 	},
 	"rewards": {
-		"function": "ssbrc:logic/characters/flags/hurt_player/source/any"
+		"function": "ssbrc:logic/fighters/flags/hurt_player/source/any"
 	}
 }

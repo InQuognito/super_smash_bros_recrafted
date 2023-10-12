@@ -1,0 +1,49 @@
+{
+	"type": "minecraft:command",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:barrier",
+					"functions": [
+						{
+							"function": "minecraft:set_name",
+							"entity": "this",
+							"name": {
+								"translate": "ssbrc.fighters.pokemon_trainer.skin.victor",
+								"color": "dark_blue",
+								"bold": true,
+								"italic": false
+							}
+						},
+						{
+							"function": "minecraft:set_lore",
+							"entity": "this",
+							"lore": [
+								{
+									"translate": "",
+									"color": "white",
+									"bold": false,
+									"italic": false
+								},
+								{
+									"translate": "ssbrc.shop.owned",
+									"color": "green",
+									"bold": false,
+									"italic": false
+								}
+							],
+							"replace": true
+						},
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{UIPlaceHolder:1b,CustomModelData:1275}"
+						}
+					]
+				}
+			]
+		}
+	]
+}

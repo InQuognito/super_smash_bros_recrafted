@@ -1,4 +1,4 @@
-advancement grant @s only ssbrc:series/super_mario_bros/luigi/skins/default
+advancement grant @s only ssbrc:fighters/luigi/skins/default
 
 scoreboard players operation @s stats.credits -= #price.fighter.common vars
 

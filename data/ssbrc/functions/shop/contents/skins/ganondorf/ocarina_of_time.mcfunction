@@ -1,4 +1,4 @@
-advancement grant @s only ssbrc:series/the_legend_of_zelda/ganondorf/skins/ocarina_of_time
+advancement grant @s only ssbrc:fighters/ganondorf/skins/ocarina_of_time
 
 scoreboard players operation @s stats.credits -= #price.skin.common vars
 

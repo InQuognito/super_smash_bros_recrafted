@@ -1,4 +1,4 @@
-advancement grant @s only ssbrc:series/street_fighter/ryu/skins/hot_ryu
+advancement grant @s only ssbrc:fighters/ryu/skins/hot_ryu
 
 scoreboard players operation @s stats.credits -= #price.skin.common vars
 

@@ -1,5 +1,5 @@
 # Characters
-function ssbrc:logic/resets/tags/characters
+function ssbrc:logic/resets/tags/fighters
 
 # Skins
 function ssbrc:logic/resets/tags/skins
@@ -9,8 +9,8 @@ function ssbrc:logic/resets/tags/maps
 
 # Favorites
 
-function ssbrc:series/indie_fighters/shovelknight/kits/offense/reset
-function ssbrc:series/indie_fighters/shovelknight/kits/utility/reset
+function ssbrc:fighters/shovel_knight/kits/offense/reset
+function ssbrc:fighters/shovel_knight/kits/utility/reset
 
 # Misc
 tag @s remove admin

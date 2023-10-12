@@ -1,4 +1,4 @@
-advancement grant @s only ssbrc:series/earthbound/ness/skins/phase_distortion
+advancement grant @s only ssbrc:fighters/ness/skins/phase_distortion
 
 scoreboard players operation @s stats.credits -= #price.skin.common vars
 

@@ -15,6 +15,6 @@
 		}
 	},
 	"rewards": {
-		"function": "ssbrc:logic/characters/effects/poison"
+		"function": "ssbrc:logic/fighters/effects/poison"
 	}
 }

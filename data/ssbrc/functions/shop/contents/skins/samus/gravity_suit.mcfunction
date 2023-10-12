@@ -1,4 +1,4 @@
-advancement grant @s only ssbrc:series/metroid/samus/skins/gravity_suit
+advancement grant @s only ssbrc:fighters/samus/skins/gravity_suit
 
 scoreboard players operation @s stats.credits -= #price.skin.common vars
 

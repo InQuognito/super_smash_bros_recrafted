@@ -16,11 +16,11 @@ scoreboard objectives remove log.wins
 scoreboard objectives remove log.wL
 
 # Characters
-scoreboard objectives remove stats.alteredbeast.deaths
-scoreboard objectives remove stats.alteredbeast.kills
-scoreboard objectives remove stats.alteredbeast.gamesPlayed
-scoreboard objectives remove stats.alteredbeast.wins
-scoreboard objectives remove stats.alteredbeast.winStreak
+scoreboard objectives remove stats.altered_beast.deaths
+scoreboard objectives remove stats.altered_beast.kills
+scoreboard objectives remove stats.altered_beast.gamesPlayed
+scoreboard objectives remove stats.altered_beast.wins
+scoreboard objectives remove stats.altered_beast.winStreak
 
 scoreboard objectives remove stats.alucard.deaths
 scoreboard objectives remove stats.alucard.kills
@@ -40,11 +40,11 @@ scoreboard objectives remove stats.byleth.gamesPlayed
 scoreboard objectives remove stats.byleth.wins
 scoreboard objectives remove stats.byleth.winStreak
 
-scoreboard objectives remove stats.captainfalcon.deaths
-scoreboard objectives remove stats.captainfalcon.kills
-scoreboard objectives remove stats.captainfalcon.gamesPlayed
-scoreboard objectives remove stats.captainfalcon.wins
-scoreboard objectives remove stats.captainfalcon.winStreak
+scoreboard objectives remove stats.captain_falcon.deaths
+scoreboard objectives remove stats.captain_falcon.kills
+scoreboard objectives remove stats.captain_falcon.gamesPlayed
+scoreboard objectives remove stats.captain_falcon.wins
+scoreboard objectives remove stats.captain_falcon.winStreak
 
 scoreboard objectives remove stats.cloud.deaths
 scoreboard objectives remove stats.cloud.kills
@@ -52,17 +52,17 @@ scoreboard objectives remove stats.cloud.gamesPlayed
 scoreboard objectives remove stats.cloud.wins
 scoreboard objectives remove stats.cloud.winStreak
 
-scoreboard objectives remove stats.darksamus.deaths
-scoreboard objectives remove stats.darksamus.kills
-scoreboard objectives remove stats.darksamus.gamesPlayed
-scoreboard objectives remove stats.darksamus.wins
-scoreboard objectives remove stats.darksamus.winStreak
+scoreboard objectives remove stats.dark_samus.deaths
+scoreboard objectives remove stats.dark_samus.kills
+scoreboard objectives remove stats.dark_samus.gamesPlayed
+scoreboard objectives remove stats.dark_samus.wins
+scoreboard objectives remove stats.dark_samus.winStreak
 
-scoreboard objectives remove stats.donkeykong.deaths
-scoreboard objectives remove stats.donkeykong.kills
-scoreboard objectives remove stats.donkeykong.gamesPlayed
-scoreboard objectives remove stats.donkeykong.wins
-scoreboard objectives remove stats.donkeykong.winStreak
+scoreboard objectives remove stats.donkey_kong.deaths
+scoreboard objectives remove stats.donkey_kong.kills
+scoreboard objectives remove stats.donkey_kong.gamesPlayed
+scoreboard objectives remove stats.donkey_kong.wins
+scoreboard objectives remove stats.donkey_kong.winStreak
 
 scoreboard objectives remove stats.fox.deaths
 scoreboard objectives remove stats.fox.kills
@@ -106,11 +106,11 @@ scoreboard objectives remove stats.joker.gamesPlayed
 scoreboard objectives remove stats.joker.wins
 scoreboard objectives remove stats.joker.winStreak
 
-scoreboard objectives remove stats.kingkrool.deaths
-scoreboard objectives remove stats.kingkrool.kills
-scoreboard objectives remove stats.kingkrool.gamesPlayed
-scoreboard objectives remove stats.kingkrool.wins
-scoreboard objectives remove stats.kingkrool.winStreak
+scoreboard objectives remove stats.king_k_rool.deaths
+scoreboard objectives remove stats.king_k_rool.kills
+scoreboard objectives remove stats.king_k_rool.gamesPlayed
+scoreboard objectives remove stats.king_k_rool.wins
+scoreboard objectives remove stats.king_k_rool.winStreak
 
 scoreboard objectives remove stats.kirby.deaths
 scoreboard objectives remove stats.kirby.kills
@@ -136,11 +136,11 @@ scoreboard objectives remove stats.mario.gamesPlayed
 scoreboard objectives remove stats.mario.wins
 scoreboard objectives remove stats.mario.winStreak
 
-scoreboard objectives remove stats.megaman.deaths
-scoreboard objectives remove stats.megaman.kills
-scoreboard objectives remove stats.megaman.gamesPlayed
-scoreboard objectives remove stats.megaman.wins
-scoreboard objectives remove stats.megaman.winStreak
+scoreboard objectives remove stats.mega_man.deaths
+scoreboard objectives remove stats.mega_man.kills
+scoreboard objectives remove stats.mega_man.gamesPlayed
+scoreboard objectives remove stats.mega_man.wins
+scoreboard objectives remove stats.mega_man.winStreak
 
 scoreboard objectives remove stats.ness.deaths
 scoreboard objectives remove stats.ness.kills
@@ -160,11 +160,11 @@ scoreboard objectives remove stats.pit.gamesPlayed
 scoreboard objectives remove stats.pit.wins
 scoreboard objectives remove stats.pit.winStreak
 
-scoreboard objectives remove stats.pokemontrainer.deaths
-scoreboard objectives remove stats.pokemontrainer.kills
-scoreboard objectives remove stats.pokemontrainer.gamesPlayed
-scoreboard objectives remove stats.pokemontrainer.wins
-scoreboard objectives remove stats.pokemontrainer.winStreak
+scoreboard objectives remove stats.pokemon_trainer.deaths
+scoreboard objectives remove stats.pokemon_trainer.kills
+scoreboard objectives remove stats.pokemon_trainer.gamesPlayed
+scoreboard objectives remove stats.pokemon_trainer.wins
+scoreboard objectives remove stats.pokemon_trainer.winStreak
 
 scoreboard objectives remove stats.rob.deaths
 scoreboard objectives remove stats.rob.kills
@@ -190,11 +190,11 @@ scoreboard objectives remove stats.shadow.gamesPlayed
 scoreboard objectives remove stats.shadow.wins
 scoreboard objectives remove stats.shadow.winStreak
 
-scoreboard objectives remove stats.shovelknight.deaths
-scoreboard objectives remove stats.shovelknight.kills
-scoreboard objectives remove stats.shovelknight.gamesPlayed
-scoreboard objectives remove stats.shovelknight.wins
-scoreboard objectives remove stats.shovelknight.winStreak
+scoreboard objectives remove stats.shovel_knight.deaths
+scoreboard objectives remove stats.shovel_knight.kills
+scoreboard objectives remove stats.shovel_knight.gamesPlayed
+scoreboard objectives remove stats.shovel_knight.wins
+scoreboard objectives remove stats.shovel_knight.winStreak
 
 scoreboard objectives remove stats.snake.deaths
 scoreboard objectives remove stats.snake.kills
@@ -220,11 +220,11 @@ scoreboard objectives remove stats.steve.gamesPlayed
 scoreboard objectives remove stats.steve.wins
 scoreboard objectives remove stats.steve.winStreak
 
-scoreboard objectives remove stats.teamrocket.deaths
-scoreboard objectives remove stats.teamrocket.kills
-scoreboard objectives remove stats.teamrocket.gamesPlayed
-scoreboard objectives remove stats.teamrocket.wins
-scoreboard objectives remove stats.teamrocket.winStreak
+scoreboard objectives remove stats.team_rocket.deaths
+scoreboard objectives remove stats.team_rocket.kills
+scoreboard objectives remove stats.team_rocket.gamesPlayed
+scoreboard objectives remove stats.team_rocket.wins
+scoreboard objectives remove stats.team_rocket.winStreak
 
 scoreboard objectives remove stats.wolf.deaths
 scoreboard objectives remove stats.wolf.kills

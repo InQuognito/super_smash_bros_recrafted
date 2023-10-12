@@ -1,4 +1,4 @@
-advancement grant @s only ssbrc:series/dragon_quest/hero/skins/rek
+advancement grant @s only ssbrc:fighters/hero/skins/rek
 
 scoreboard players operation @s stats.credits -= #price.skin.common vars
 

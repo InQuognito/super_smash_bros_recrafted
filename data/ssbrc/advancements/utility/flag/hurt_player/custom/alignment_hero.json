@@ -19,7 +19,7 @@
 				"entity": [
 					{
 						"condition": "minecraft:reference",
-						"name": "ssbrc:characters/alignment/hero"
+						"name": "ssbrc:fighters/alignment/hero"
 					}
 				]
 			}

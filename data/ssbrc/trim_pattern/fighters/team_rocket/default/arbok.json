@@ -1,0 +1,7 @@
+{
+	"asset_id": "ssbrc:fighters/team_rocket/default/arbok",
+	"description": {
+		"translate": "trim_pattern.example.stripes"
+	},
+	"template_item": "minecraft:stick"
+}

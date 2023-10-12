@@ -17,6 +17,6 @@
 		}
 	},
 	"rewards": {
-		"function": "ssbrc:series/persona/joker/logic/abilities/freeze_boost/chance"
+		"function": "ssbrc:fighters/joker/logic/abilities/freeze_boost/chance"
 	}
 }

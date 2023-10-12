@@ -29,6 +29,6 @@
 		}
 	},
 	"rewards": {
-		"function": "ssbrc:series/kingdom_hearts/sora/logic/drive_forms/anti/slash/activate"
+		"function": "ssbrc:fighters/sora/logic/drive_forms/anti/slash/activate"
 	}
 }

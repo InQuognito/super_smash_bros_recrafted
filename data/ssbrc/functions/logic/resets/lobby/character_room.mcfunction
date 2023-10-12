@@ -10,11 +10,11 @@ summon minecraft:item_display 151.5 6.0 156.5 {Tags:["selectable","lobbyStand","
 summon minecraft:text_display 153.5 7.25 158.5 {Tags:["lobbyStand.label"],text:'{"translate":"ssbrc.fighters.bowser","color":"green"}',billboard:center}
 summon minecraft:item_display 153.5 6.0 158.5 {Tags:["selectable","lobbyStand","bowser"],item:{id:"minecraft:stick",tag:{CustomModelData:60},Count:1b}}
 
-summon minecraft:text_display 155.5 7.25 160.5 {Tags:["lobbyStand.label"],text:'{"translate":"ssbrc.fighters.donkeykong","color":"gold"}',billboard:center}
-summon minecraft:item_display 155.5 6.0 160.5 {Tags:["selectable","lobbyStand","donkeykong"],item:{id:"minecraft:stick",tag:{CustomModelData:300},Count:1b}}
+summon minecraft:text_display 155.5 7.25 160.5 {Tags:["lobbyStand.label"],text:'{"translate":"ssbrc.fighters.donkey_kong","color":"gold"}',billboard:center}
+summon minecraft:item_display 155.5 6.0 160.5 {Tags:["selectable","lobbyStand","donkey_kong"],item:{id:"minecraft:stick",tag:{CustomModelData:300},Count:1b}}
 
-summon minecraft:text_display 157.5 7.25 164.5 {Tags:["lobbyStand.label"],text:'{"translate":"ssbrc.fighters.kingkrool","color":"dark_green"}',billboard:center}
-summon minecraft:item_display 157.5 6.0 164.5 {Tags:["selectable","lobbyStand","kingkrool"],item:{id:"minecraft:stick",tag:{CustomModelData:680},Count:1b}}
+summon minecraft:text_display 157.5 7.25 164.5 {Tags:["lobbyStand.label"],text:'{"translate":"ssbrc.fighters.king_k_rool","color":"dark_green"}',billboard:center}
+summon minecraft:item_display 157.5 6.0 164.5 {Tags:["selectable","lobbyStand","king_k_rool"],item:{id:"minecraft:stick",tag:{CustomModelData:680},Count:1b}}
 
 summon minecraft:text_display 158.5 7.25 167.5 {Tags:["lobbyStand.label"],text:'{"translate":"ssbrc.fighters.link","color":"dark_green"}',billboard:center}
 summon minecraft:item_display 158.5 6.0 167.5 {Tags:["selectable","lobbyStand","link"],item:{id:"minecraft:stick",tag:{CustomModelData:720},Count:1b}}
@@ -28,8 +28,8 @@ summon minecraft:item_display 159.5 6.0 172.5 {Tags:["selectable","lobbyStand","
 summon minecraft:text_display 159.5 7.25 174.5 {Tags:["lobbyStand.label"],text:'{"translate":"ssbrc.fighters.samus","color":"gold"}',billboard:center}
 summon minecraft:item_display 159.5 6.0 174.5 {Tags:["selectable","lobbyStand","samus"],item:{id:"minecraft:stick",tag:{CustomModelData:1420},Count:1b}}
 
-summon minecraft:text_display 159.5 7.25 176.5 {Tags:["lobbyStand.label"],text:'{"translate":"ssbrc.fighters.darksamus","color":"aqua"}',billboard:center}
-summon minecraft:item_display 159.5 6.0 176.5 {Tags:["selectable","lobbyStand","darksamus"],item:{id:"minecraft:stick",tag:{CustomModelData:260},Count:1b}}
+summon minecraft:text_display 159.5 7.25 176.5 {Tags:["lobbyStand.label"],text:'{"translate":"ssbrc.fighters.dark_samus","color":"aqua"}',billboard:center}
+summon minecraft:item_display 159.5 6.0 176.5 {Tags:["selectable","lobbyStand","dark_samus"],item:{id:"minecraft:stick",tag:{CustomModelData:260},Count:1b}}
 
 summon minecraft:text_display 158.5 7.25 179.5 {Tags:["lobbyStand.label"],text:'{"translate":"ssbrc.fighters.kirby","color":"light_purple"}',billboard:center}
 summon minecraft:item_display 158.5 6.0 179.5 {Tags:["selectable","lobbyStand","kirby"],item:{id:"minecraft:stick",tag:{CustomModelData:700},Count:1b}}
@@ -46,14 +46,14 @@ summon minecraft:item_display 153.5 6.0 188.5 {Tags:["selectable","lobbyStand","
 summon minecraft:text_display 151.5 7.25 190.5 {Tags:["lobbyStand.label"],text:'{"translate":"ssbrc.fighters.jigglypuff","color":"light_purple"}',billboard:center}
 summon minecraft:item_display 151.5 6.0 190.5 {Tags:["selectable","lobbyStand","jigglypuff"],item:{id:"minecraft:stick",tag:{CustomModelData:580},Count:1b}}
 
-summon minecraft:text_display 147.5 7.25 192.5 {Tags:["lobbyStand.label"],text:'{"translate":"ssbrc.fighters.pokemontrainer","color":"red"}',billboard:center}
-summon minecraft:item_display 147.5 6.0 192.5 {Tags:["selectable","lobbyStand","pokemontrainer"],item:{id:"minecraft:stick",tag:{CustomModelData:1260},Count:1b}}
+summon minecraft:text_display 147.5 7.25 192.5 {Tags:["lobbyStand.label"],text:'{"translate":"ssbrc.fighters.pokemon_trainer","color":"red"}',billboard:center}
+summon minecraft:item_display 147.5 6.0 192.5 {Tags:["selectable","lobbyStand","pokemon_trainer"],item:{id:"minecraft:stick",tag:{CustomModelData:1260},Count:1b}}
 
 summon minecraft:text_display 144.5 7.25 193.5 {Tags:["lobbyStand.label"],text:'{"translate":"ssbrc.fighters.greninja","color":"blue"}',billboard:center}
 summon minecraft:item_display 144.5 6.0 193.5 {Tags:["selectable","lobbyStand","greninja"],item:{id:"minecraft:stick",tag:{CustomModelData:420},Count:1b}}
 
-summon minecraft:text_display 141.5 7.25 194.5 {Tags:["lobbyStand.label"],text:'{"translate":"ssbrc.fighters.teamrocket","color":"dark_purple"}',billboard:center}
-summon minecraft:item_display 141.5 5.75 194.5 {Tags:["selectable","lobbyStand","teamrocket"],item:{id:"minecraft:stick",tag:{CustomModelData:1940},Count:1b},transformation:[0.75f,0f,0f,0f,0f,0.75f,0f,0f,0f,0f,0.75f,0f,0f,0f,0f,1f]}
+summon minecraft:text_display 141.5 7.25 194.5 {Tags:["lobbyStand.label"],text:'{"translate":"ssbrc.fighters.team_rocket","color":"dark_purple"}',billboard:center}
+summon minecraft:item_display 141.5 5.75 194.5 {Tags:["selectable","lobbyStand","team_rocket"],item:{id:"minecraft:stick",tag:{CustomModelData:1940},Count:1b},transformation:[0.75f,0f,0f,0f,0f,0.75f,0f,0f,0f,0f,0.75f,0f,0f,0f,0f,1f]}
 summon minecraft:item_display 142.0 6.0 195.0 {Tags:["lobbyStand"],item:{id:"minecraft:stick",tag:{CustomModelData:1941},Count:1b}}
 summon minecraft:item_display 141.0 6.0 195.0 {Tags:["lobbyStand"],item:{id:"minecraft:stick",tag:{CustomModelData:1942},Count:1b}}
 
@@ -63,8 +63,8 @@ summon minecraft:item_display 139.5 6.0 194.5 {Tags:["selectable","lobbyStand","
 summon minecraft:text_display 137.5 7.25 194.5 {Tags:["lobbyStand.label"],text:'{"translate":"ssbrc.fighters.giegue","color":"light_purple"}',billboard:center}
 summon minecraft:item_display 137.5 6.0 194.5 {Tags:["selectable","lobbyStand","giegue"],item:{id:"minecraft:stick",tag:{CustomModelData:1860},Count:1b}}
 
-summon minecraft:text_display 135.5 7.25 194.5 {Tags:["lobbyStand.label"],text:'{"translate":"ssbrc.fighters.captainfalcon","color":"red"}',billboard:center}
-summon minecraft:item_display 135.5 6.0 194.5 {Tags:["selectable","lobbyStand","captainfalcon"],item:{id:"minecraft:stick",tag:{CustomModelData:120},Count:1b}}
+summon minecraft:text_display 135.5 7.25 194.5 {Tags:["lobbyStand.label"],text:'{"translate":"ssbrc.fighters.captain_falcon","color":"red"}',billboard:center}
+summon minecraft:item_display 135.5 6.0 194.5 {Tags:["selectable","lobbyStand","captain_falcon"],item:{id:"minecraft:stick",tag:{CustomModelData:120},Count:1b}}
 
 summon minecraft:text_display 132.5 7.25 193.5 {Tags:["lobbyStand.label"],text:'{"translate":"ssbrc.fighters.byleth","color":"dark_aqua"}',billboard:center}
 summon minecraft:item_display 132.5 6.0 193.5 {Tags:["selectable","lobbyStand","byleth"],item:{id:"minecraft:stick",tag:{CustomModelData:100},Count:1b}}
@@ -84,8 +84,8 @@ summon minecraft:item_display 121.5 6.0 186.5 {Tags:["selectable","lobbyStand","
 summon minecraft:text_display 119.5 7.25 182.5 {Tags:["lobbyStand.label"],text:'{"translate":"ssbrc.fighters.rob","color":"white"}',billboard:center}
 summon minecraft:item_display 119.5 6.0 182.5 {Tags:["selectable","lobbyStand","rob"],item:{id:"minecraft:stick",tag:{CustomModelData:3},Count:1b}}
 
-summon minecraft:text_display 118.5 7.25 179.5 {Tags:["lobbyStand.label"],text:'{"translate":"ssbrc.fighters.megaman","color":"dark_aqua"}',billboard:center}
-summon minecraft:item_display 118.5 6.0 179.5 {Tags:["selectable","lobbyStand","megaman"],item:{id:"minecraft:stick",tag:{CustomModelData:880},Count:1b}}
+summon minecraft:text_display 118.5 7.25 179.5 {Tags:["lobbyStand.label"],text:'{"translate":"ssbrc.fighters.mega_man","color":"dark_aqua"}',billboard:center}
+summon minecraft:item_display 118.5 6.0 179.5 {Tags:["selectable","lobbyStand","mega_man"],item:{id:"minecraft:stick",tag:{CustomModelData:880},Count:1b}}
 
 summon minecraft:text_display 117.5 7.25 176.5 {Tags:["lobbyStand.label"],text:'{"translate":"ssbrc.fighters.ryu","color":"white"}',billboard:center}
 summon minecraft:item_display 117.5 6.0 176.5 {Tags:["selectable","lobbyStand","ryu"],item:{id:"minecraft:stick",tag:{CustomModelData:1400},Count:1b}}
@@ -108,11 +108,11 @@ summon minecraft:item_display 119.5 6.0 164.5 {Tags:["selectable","lobbyStand","
 summon minecraft:text_display 121.5 7.25 160.5 {Tags:["lobbyStand.label"],text:'{"translate":"ssbrc.fighters.sora","color":"white"}',billboard:center}
 summon minecraft:item_display 121.5 6.0 160.5 {Tags:["selectable","lobbyStand","sora"],item:{id:"minecraft:stick",tag:{CustomModelData:1560},Count:1b}}
 
-summon minecraft:text_display 123.5 7.25 158.5 {Tags:["lobbyStand.label"],text:'{"translate":"ssbrc.fighters.shovelknight","color":"dark_aqua"}',billboard:center}
-summon minecraft:item_display 123.5 6.0 158.5 {Tags:["selectable","lobbyStand","shovelknight"],item:{id:"minecraft:stick",tag:{CustomModelData:1920},Count:1b}}
+summon minecraft:text_display 123.5 7.25 158.5 {Tags:["lobbyStand.label"],text:'{"translate":"ssbrc.fighters.shovel_knight","color":"dark_aqua"}',billboard:center}
+summon minecraft:item_display 123.5 6.0 158.5 {Tags:["selectable","lobbyStand","shovel_knight"],item:{id:"minecraft:stick",tag:{CustomModelData:1920},Count:1b}}
 
-summon minecraft:text_display 125.5 7.25 156.5 {Tags:["lobbyStand.label"],text:'{"translate":"ssbrc.fighters.alteredbeast","color":"gold"}',billboard:center}
-summon minecraft:item_display 125.5 6.0 156.5 {Tags:["selectable","lobbyStand","alteredbeast"],item:{id:"minecraft:stick",tag:{CustomModelData:1820},Count:1b}}
+summon minecraft:text_display 125.5 7.25 156.5 {Tags:["lobbyStand.label"],text:'{"translate":"ssbrc.fighters.altered_beast","color":"gold"}',billboard:center}
+summon minecraft:item_display 125.5 6.0 156.5 {Tags:["selectable","lobbyStand","altered_beast"],item:{id:"minecraft:stick",tag:{CustomModelData:1820},Count:1b}}
 
 summon minecraft:text_display 129.5 7.25 154.5 {Tags:["lobbyStand.label"],text:'{"translate":"ssbrc.fighters.yar","color":"red"}',billboard:center}
 summon minecraft:item_display 129.5 6.0 154.5 {Tags:["selectable","lobbyStand","yar"],item:{id:"minecraft:stick",tag:{CustomModelData:1960},Count:1b}}

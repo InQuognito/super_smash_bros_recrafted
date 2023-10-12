@@ -1,4 +1,4 @@
-advancement grant @s only ssbrc:series/retro_fighters/yar/skins/recruit
+advancement grant @s only ssbrc:fighters/yar/skins/recruit
 
 scoreboard players operation @s stats.credits -= #price.skin.common vars
 

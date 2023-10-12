@@ -1,4 +1,4 @@
-advancement grant @s only ssbrc:series/super_smash_bros/rob/skins/ancient_minister
+advancement grant @s only ssbrc:fighters/rob/skins/ancient_minister
 
 scoreboard players operation @s stats.credits -= #price.skin.common vars
 

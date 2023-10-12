@@ -18,6 +18,6 @@
 		}
 	},
 	"rewards": {
-		"function": "ssbrc:maps/p/pyrosphere/logic/fgii_graham/kill"
+		"function": "ssbrc:stages/pyrosphere/logic/fgii_graham/kill"
 	}
 }

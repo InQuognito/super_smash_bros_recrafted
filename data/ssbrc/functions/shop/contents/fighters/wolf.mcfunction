@@ -1,4 +1,4 @@
-advancement grant @s only ssbrc:series/star_fox/wolf/skins/default
+advancement grant @s only ssbrc:fighters/wolf/skins/default
 
 scoreboard players operation @s stats.credits -= #price.fighter.common vars
 

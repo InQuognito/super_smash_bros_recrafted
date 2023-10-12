@@ -15,6 +15,6 @@
 		}
 	},
 	"rewards": {
-		"function": "ssbrc:logic/characters/attributes/modifiers/frostbite/increase"
+		"function": "ssbrc:logic/fighters/attributes/modifiers/frostbite/increase"
 	}
 }

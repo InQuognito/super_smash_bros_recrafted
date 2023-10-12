@@ -1,0 +1,69 @@
+{
+	"type": "minecraft:command",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:barrier",
+					"functions": [
+						{
+							"function": "minecraft:set_name",
+							"entity": "this",
+							"name": {
+								"translate": "ssbrc.fighters.pokemon_trainer.skin.dawn",
+								"color": "light_purple",
+								"bold": true,
+								"italic": false
+							}
+						},
+						{
+							"function": "minecraft:set_lore",
+							"entity": "this",
+							"lore": [
+								{
+									"translate": "ssbrc.shop.price",
+									"color": "yellow",
+									"bold": false,
+									"italic": false,
+									"extra": [
+										{
+											"score": {
+												"name": "#price.skin.common",
+												"objective": "vars"
+											},
+											"bold": false,
+											"italic": false
+										},
+										{
+											"translate": "₡",
+											"color": "yellow"
+										}
+									]
+								},
+								{
+									"translate": "",
+									"color": "white",
+									"bold": false,
+									"italic": false
+								},
+								{
+									"translate": "ssbrc.shop.purchase",
+									"color": "green",
+									"bold": false,
+									"italic": false
+								}
+							],
+							"replace": true
+						},
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{ui:{id:\"skins.pokemon_trainer.dawn\",sound:\"click\"},CustomModelData:1271}"
+						}
+					]
+				}
+			]
+		}
+	]
+}

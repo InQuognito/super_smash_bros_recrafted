@@ -6,6 +6,6 @@
 		}
 	},
 	"rewards": {
-		"function": "ssbrc:logic/characters/flags/get_hurt/source/any"
+		"function": "ssbrc:logic/fighters/flags/get_hurt/source/any"
 	}
 }

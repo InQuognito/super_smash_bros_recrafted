@@ -1,4 +1,4 @@
-advancement grant @s only ssbrc:series/castlevania/alucard/skins/lords_of_shadow
+advancement grant @s only ssbrc:fighters/alucard/skins/lords_of_shadow
 
 scoreboard players operation @s stats.credits -= #price.skin.common vars
 

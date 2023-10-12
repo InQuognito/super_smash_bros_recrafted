@@ -19,6 +19,6 @@
 		}
 	},
 	"rewards": {
-		"function": "ssbrc:series/fire_emblem/byleth/logic/blue_lions/areadbhar/hit"
+		"function": "ssbrc:fighters/byleth/logic/blue_lions/areadbhar/hit"
 	}
 }

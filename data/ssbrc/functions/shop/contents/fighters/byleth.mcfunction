@@ -1,4 +1,4 @@
-advancement grant @s only ssbrc:series/fire_emblem/byleth/skins/default
+advancement grant @s only ssbrc:fighters/byleth/skins/default
 
 scoreboard players operation @s stats.credits -= #price.fighter.common vars
 
