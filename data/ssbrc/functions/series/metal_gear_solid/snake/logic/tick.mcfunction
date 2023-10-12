@@ -9,18 +9,8 @@ execute if entity @s[tag=!reloading,scores={useAbility=1..,snake.smokeGrenadeA=1
 function ssbrc:series/metal_gear_solid/snake/logic/glowing
 
 # Ammo HUD
-title @s actionbar ""
-title @s[tag=!reloading,nbt={SelectedItem:{tag:{psg1:1}}},scores={snake.psg1M=-1..}] actionbar [{"score":{"name":"@s","objective":"snake.psg1A"},"color":"green"},{"translate":" | ","color":"white"},{"score":{"name":"@s","objective":"snake.psg1M"},"color":"dark_green"}]
-title @s[tag=!reloading,nbt={SelectedItem:{tag:{psg1:1}}},scores={snake.psg1M=..0,snake.psg1A=..0}] actionbar [{"nbt":"snake_out_of_ammo","storage":"ssbrc:data","interpret":true}]
-title @s[tag=!reloading,nbt={SelectedItem:{tag:{famas:1}}},scores={snake.famasM=-1..}] actionbar [{"score":{"name":"@s","objective":"snake.famasA"},"color":"green"},{"translate":" | ","color":"white"},{"score":{"name":"@s","objective":"snake.famasM"},"color":"dark_green"}]
-title @s[tag=!reloading,nbt={SelectedItem:{tag:{famas:1}}},scores={snake.famasM=..0,snake.famasA=..0}] actionbar [{"nbt":"snake_out_of_ammo","storage":"ssbrc:data","interpret":true}]
-title @s[tag=!reloading,nbt={SelectedItem:{tag:{s1000:1}}},scores={snake.s1000M=-1..}] actionbar [{"score":{"name":"@s","objective":"snake.s1000A"},"color":"green"},{"translate":" | ","color":"white"},{"score":{"name":"@s","objective":"snake.s1000M"},"color":"dark_green"}]
-title @s[tag=!reloading,nbt={SelectedItem:{tag:{s1000:1}}},scores={snake.s1000M=..0,snake.s1000A=..0}] actionbar [{"nbt":"snake_out_of_ammo","storage":"ssbrc:data","interpret":true}]
-title @s[tag=!reloading,nbt={SelectedItem:{tag:{socom:1}}},scores={snake.socomM=-1..}] actionbar [{"score":{"name":"@s","objective":"snake.socomA"},"color":"green"},{"translate":" | ","color":"white"},{"score":{"name":"@s","objective":"snake.socomM"},"color":"dark_green"}]
-title @s[tag=!reloading,nbt={SelectedItem:{tag:{socom:1}}},scores={snake.socomM=..0,snake.socomA=..0}] actionbar [{"nbt":"snake_out_of_ammo","storage":"ssbrc:data","interpret":true}]
-title @s[tag=!reloading,nbt={SelectedItem:{tag:{antiPersonnelMine:1}}},scores={snake.antiPersonnelMineA=0..}] actionbar {"score":{"name":"@s","objective":"snake.antiPersonnelMineA"},"color":"green"}
-title @s[tag=!reloading,nbt={SelectedItem:{tag:{smokeGrenade:1}}},scores={snake.smokeGrenadeA=0..}] actionbar {"score":{"name":"@s","objective":"snake.smokeGrenadeA"},"color":"green"}
-title @s[tag=reloading] actionbar [{"translate":"ssbrc.fighters.snake.reloading","color":"red"}]
+execute if entity @s[tag=!reloading] run function ssbrc:series/metal_gear_solid/snake/logic/hud/check
+title @s[tag=reloading] actionbar [{"translate":"ssbrc.fighters.snake.reloading","color":"gray"}]
 
 # Reload
 execute at @s[scores={snake.psg1R=1..}] run function ssbrc:series/metal_gear_solid/snake/logic/weapons/psg1/reload/tick
