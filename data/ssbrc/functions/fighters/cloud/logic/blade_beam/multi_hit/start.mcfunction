@@ -2,12 +2,10 @@ damage @s 1.0 ssbrc:projectile by @a[tag=self,limit=1]
 
 summon minecraft:marker ~ ~0.75 ~ {Tags:["modifyEntity"]}
 
-scoreboard players set max random 360
-function ssbrc:math/rng/lcg
+execute store result score result random run random roll 1..360
 execute store result entity @e[tag=modifyEntity,limit=1] Rotation[0] float 1.0 run scoreboard players get result random
 
-scoreboard players set max random 360
-function ssbrc:math/rng/lcg
+execute store result score result random run random roll 1..360
 execute store result entity @e[tag=modifyEntity,limit=1] Rotation[1] float 1.0 run scoreboard players get result random
 
 scoreboard players set rayLength temp 30

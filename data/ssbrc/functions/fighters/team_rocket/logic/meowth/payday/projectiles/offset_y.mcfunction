@@ -1,2 +1,1 @@
-scoreboard players set max random 460
-function ssbrc:math/rng/lcg
+execute store result score result random run random roll 0..460

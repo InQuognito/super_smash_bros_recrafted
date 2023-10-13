@@ -1,5 +1,4 @@
-scoreboard players set max random 4
-function ssbrc:math/rng/lcg
+execute store result score result random run random roll 0..3
 
 execute if score result random matches 0 run function ssbrc:fighters/hero/logic/abilities/flame_slash/particles/0_degrees
 execute if score result random matches 1 run function ssbrc:fighters/hero/logic/abilities/flame_slash/particles/45_degrees

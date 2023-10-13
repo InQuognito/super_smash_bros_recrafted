@@ -1,5 +1,4 @@
-scoreboard players set max random 8
-function ssbrc:math/rng/lcg
+execute store result score result random run random roll 0..7
 
 execute if score result random matches 0 run tag @s add charizard.bold
 execute if score result random matches 1 run tag @s add charizard.brave

@@ -1,7 +1,6 @@
 clear @s minecraft:carrot_on_a_stick{powerUp:1}
 
-scoreboard players set max random 5
-function ssbrc:math/rng/lcg
+execute store result score result random run random roll 0..4
 
 execute if score result random matches 0 run loot replace entity @s hotbar.4 loot ssbrc:fighters/yar/power_ups/gatling_gun
 execute if score result random matches 1 run loot replace entity @s hotbar.4 loot ssbrc:fighters/yar/power_ups/missile_launcher

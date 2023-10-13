@@ -1,6 +1,6 @@
 scoreboard players set @s characterPicked 1
-scoreboard players set max random 2
-function ssbrc:math/rng/lcg
+
+execute store result score result random run random roll 0..1
 
 execute unless score @s[advancements={ssbrc:fighters/giegue/skins/default=true}] skinPicked matches 1 if score result random matches 0 run function ssbrc:fighters/giegue/menu/skins/default
 execute unless score @s[advancements={ssbrc:fighters/giegue/skins/gold=true}] skinPicked matches 1 if score result random matches 1 run function ssbrc:fighters/giegue/menu/skins/gold

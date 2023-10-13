@@ -1,7 +1,8 @@
 function ssbrc:logic/resets/tags/fighters
-function ssbrc:logic/resets/tags/skins
 
-tag @s add default
+execute unless entity @s[tag=pickingRandom] run function ssbrc:logic/resets/tags/skins
+execute unless entity @s[tag=pickingRandom] run tag @s add default
+
 tag @s add characterPicked
 
 execute if score teams options matches 0 run team join ready @s

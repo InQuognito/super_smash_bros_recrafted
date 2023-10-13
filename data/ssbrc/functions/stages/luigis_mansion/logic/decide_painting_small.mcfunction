@@ -1,5 +1,4 @@
-scoreboard players set max random 8
-function ssbrc:math/rng/lcg
+execute store result score result random run random roll 0..7
 
 execute if score result random matches 0 run data modify entity @s ArmorItems[3].tag.CustomModelData set value 1010
 execute if score result random matches 1 run data modify entity @s ArmorItems[3].tag.CustomModelData set value 1011

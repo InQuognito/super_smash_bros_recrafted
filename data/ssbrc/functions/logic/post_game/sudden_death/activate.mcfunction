@@ -6,6 +6,6 @@ scoreboard players operation gameTime timer += timeLimit options
 
 bossbar set minecraft:timer visible false
 
-execute as @a[predicate=ssbrc:ingame] at @s run function ssbrc:logic/post_game/sudden_death/set_players_all
+execute as @a[predicate=ssbrc:ingame] run function ssbrc:logic/post_game/sudden_death/set_players_all
 
 tag @a remove mostPoints

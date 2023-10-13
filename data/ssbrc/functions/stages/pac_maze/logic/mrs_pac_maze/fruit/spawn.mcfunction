@@ -1,5 +1,4 @@
-scoreboard players set max random 4
-function ssbrc:math/rng/lcg
+execute store result score result random run random roll 0..3
 
 execute if score result random matches 0 positioned 23287.5 5.0 8629.5 summon minecraft:armor_stand run function ssbrc:stages/pac_maze/logic/mrs_pac_maze/fruit/init
 execute if score result random matches 1 positioned 23331.5 5.0 8629.5 summon minecraft:armor_stand run function ssbrc:stages/pac_maze/logic/mrs_pac_maze/fruit/init

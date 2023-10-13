@@ -1,5 +1,4 @@
-scoreboard players set max random 4
-function ssbrc:math/rng/lcg
+execute store result score result random run random roll 0..3
 
 # 0 Degrees
 execute if score result random matches 0 run particle minecraft:dust 0.7 0.3 0.3 1.5 ^-1.00 ^1.1 ^1.1 0.0 0.0 0.0 0.005 1 normal @a

@@ -1,5 +1,4 @@
-scoreboard players set max random 3
-function ssbrc:math/rng/lcg
+execute store result score result random run random roll 0..2
 
 scoreboard players reset abra temp
 

@@ -1,5 +1,4 @@
-scoreboard players set max random 7
-function ssbrc:math/rng/lcg
+execute store result score result random run random roll 0..6
 
 scoreboard players operation tornado temp = result random
 scoreboard players operation tornado temp += 1 integers

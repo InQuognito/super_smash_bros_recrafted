@@ -1,4 +1,4 @@
-tag @s add pillar
+tag @s add active
 
 scoreboard players set @s temp 0
 

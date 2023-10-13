@@ -7,8 +7,7 @@ scoreboard players operation #percentage temp = @s mana
 scoreboard players operation #percentage temp *= 100 integers
 scoreboard players operation #percentage temp /= #zelda.maxMagic vars
 
-scoreboard players set max random 8
-function ssbrc:math/rng/lcg
+execute store result score result random run random roll 0..7
 
 execute if score result random matches 0 run function ssbrc:fighters/zelda/logic/abilities/great_fairy_blessing/blessings/confusion
 execute if score result random matches 1 run function ssbrc:fighters/zelda/logic/abilities/great_fairy_blessing/blessings/enchant_armor

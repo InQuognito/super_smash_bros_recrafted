@@ -1,5 +1,4 @@
-scoreboard players set max random 8
-function ssbrc:math/rng/lcg
+execute store result score result random run random roll 0..7
 
 execute if score result random matches 0 run function ssbrc:stages/tower_of_fate/logic/lower_towers/clockwork_tower
 execute if score result random matches 1 run function ssbrc:stages/tower_of_fate/logic/lower_towers/explodatorium

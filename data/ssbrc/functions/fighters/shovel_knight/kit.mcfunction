@@ -7,14 +7,14 @@ loot replace entity @s[tag=gold] hotbar.0 loot ssbrc:fighters/shovel_knight/shov
 loot replace entity @s[tag=armorOfChaos] hotbar.0 loot ssbrc:fighters/shovel_knight/shovel_blade/shovel_of_chaos/default
 loot replace entity @s[tag=toadGear] hotbar.0 loot ssbrc:fighters/shovel_knight/shovel_blade/toad_shovel/default
 
-scoreboard players set max random 3
-function ssbrc:math/rng/lcg
+execute store result score result random run random roll 0..2
+
 execute if score result random matches 0 run function ssbrc:fighters/shovel_knight/kits/offense/chaos_sphere
 execute if score result random matches 1 run function ssbrc:fighters/shovel_knight/kits/offense/flare_wand
 execute if score result random matches 2 run function ssbrc:fighters/shovel_knight/kits/offense/throwing_anchor
 
-scoreboard players set max random 3
-function ssbrc:math/rng/lcg
+execute store result score result random run random roll 0..2
+
 execute if score result random matches 0 run function ssbrc:fighters/shovel_knight/kits/utility/phase_locket
 execute if score result random matches 1 run function ssbrc:fighters/shovel_knight/kits/utility/propeller_dagger
 execute if score result random matches 2 run function ssbrc:fighters/shovel_knight/kits/utility/war_horn

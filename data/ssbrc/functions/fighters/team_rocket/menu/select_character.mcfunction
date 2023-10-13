@@ -4,8 +4,7 @@ function ssbrc:logic/selector/select_fighter
 
 tag @s add team_rocket
 
-scoreboard players set max random 2
-function ssbrc:math/rng/lcg
+execute store result score result random run random roll 0..1
 
 execute if score result random matches 0 run tag @s add jesse
 execute if score result random matches 1 run tag @s add james

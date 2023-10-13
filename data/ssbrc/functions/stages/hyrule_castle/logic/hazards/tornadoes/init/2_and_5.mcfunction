@@ -1,4 +1,3 @@
-scoreboard players set max random 2
-function ssbrc:math/rng/lcg
+execute store result score result random run random roll 0..1
 
 execute if score result random matches 0 run teleport @s ~ ~ ~ -90.0 0.0

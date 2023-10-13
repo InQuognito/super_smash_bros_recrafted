@@ -3,8 +3,7 @@ scoreboard players set pacMaze map 1
 scoreboard players set songCount map 2
 scoreboard players set mapPicked mapVote 1
 
-scoreboard players set max random 2
-function ssbrc:math/rng/lcg
+execute store result score result random run random roll 0..1
 
 execute if score result random matches 0 run function ssbrc:stages/pac_maze/load/pac_maze
 execute if score result random matches 1 run function ssbrc:stages/pac_maze/load/mrs_pac_maze

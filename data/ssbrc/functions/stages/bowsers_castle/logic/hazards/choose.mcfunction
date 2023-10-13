@@ -1,5 +1,4 @@
-scoreboard players set max random 11
-function ssbrc:math/rng/lcg
+execute store result score result random run random roll 0..10
 
 execute if score result random matches 0 unless score #banzaiBill temp matches 1 positioned -753.5 25.0 844.5 run function ssbrc:stages/bowsers_castle/logic/hazards/banzai_bill/on
 execute if score result random matches 1 unless score #lavaPlumes.left temp matches 1 run function ssbrc:stages/bowsers_castle/logic/hazards/lava_plumes/left/activate

@@ -1,7 +1,6 @@
-scoreboard players set max random 3
-function ssbrc:math/rng/lcg
-
 fill 775 6 188 775 13 188 minecraft:white_concrete replace
+
+execute store result score result random run random roll 0..2
 
 execute if score result random matches 0 run fill 775 6 188 775 7 188 minecraft:black_concrete replace
 execute if score result random matches 1 run fill 775 9 188 775 10 188 minecraft:black_concrete replace

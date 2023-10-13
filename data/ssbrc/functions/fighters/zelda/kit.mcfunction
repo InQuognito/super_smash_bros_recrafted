@@ -1,3 +1,4 @@
 function ssbrc:fighters/zelda/kit/items
 
-scoreboard players add @s charge.1 10
+scoreboard players set #rupeeGain temp 10
+function ssbrc:fighters/zelda/logic/add_rupees

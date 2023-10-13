@@ -1,5 +1,4 @@
-scoreboard players set max random 3
-function ssbrc:math/rng/lcg
+execute store result score result random run random roll 0..2
 
 execute if score result random matches 0 unless block ^1.0 ^ ^ minecraft:red_concrete at @s align xyz positioned ~.5 ~ ~.5 run function ssbrc:stages/pac_maze/logic/ghosts/navigation/left
 execute if score result random matches 1 unless block ^-1.0 ^ ^ minecraft:red_concrete at @s align xyz positioned ~.5 ~ ~.5 run function ssbrc:stages/pac_maze/logic/ghosts/navigation/right

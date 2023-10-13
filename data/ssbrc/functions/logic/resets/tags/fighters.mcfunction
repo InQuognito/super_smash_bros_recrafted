@@ -1,6 +1,6 @@
 function ssbrc:logic/resets/tags/fighters/alucard
 function ssbrc:logic/resets/tags/fighters/donkey_kong
-function ssbrc:logic/resets/tags/fighters/donkey_kong/king_k_rool
+function ssbrc:logic/resets/tags/fighters/king_k_rool
 function ssbrc:logic/resets/tags/fighters/hero
 function ssbrc:logic/resets/tags/fighters/giegue
 function ssbrc:logic/resets/tags/fighters/ness

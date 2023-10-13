@@ -1,5 +1,5 @@
-scoreboard players set max random 720
-function ssbrc:math/rng/lcg
+execute store result score result random run random roll 1..720
+
 scoreboard players operation result random *= 10 integers
 scoreboard players operation @s rotation = result random
 execute store result entity @s Rotation[0] float 0.05 run scoreboard players get @s rotation
