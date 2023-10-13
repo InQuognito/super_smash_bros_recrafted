@@ -1,4 +1,34 @@
-scoreboard players add @s temp 1
+function ssbrc:fighters/joker/logic/tt33/move_forward
+execute unless score entityHit temp matches 1 at @s run function ssbrc:fighters/joker/logic/tt33/move_forward
+execute unless score entityHit temp matches 1 at @s run function ssbrc:fighters/joker/logic/tt33/move_forward
+execute unless score entityHit temp matches 1 at @s run function ssbrc:fighters/joker/logic/tt33/move_forward
+execute unless score entityHit temp matches 1 at @s run function ssbrc:fighters/joker/logic/tt33/move_forward
+execute unless score entityHit temp matches 1 at @s run function ssbrc:fighters/joker/logic/tt33/move_forward
+execute unless score entityHit temp matches 1 at @s run function ssbrc:fighters/joker/logic/tt33/move_forward
+execute unless score entityHit temp matches 1 at @s run function ssbrc:fighters/joker/logic/tt33/move_forward
+execute unless score entityHit temp matches 1 at @s run function ssbrc:fighters/joker/logic/tt33/move_forward
+execute unless score entityHit temp matches 1 at @s run function ssbrc:fighters/joker/logic/tt33/move_forward
+execute unless score entityHit temp matches 1 at @s run function ssbrc:fighters/joker/logic/tt33/move_forward
+execute unless score entityHit temp matches 1 at @s run function ssbrc:fighters/joker/logic/tt33/move_forward
+execute unless score entityHit temp matches 1 at @s run function ssbrc:fighters/joker/logic/tt33/move_forward
+execute unless score entityHit temp matches 1 at @s run function ssbrc:fighters/joker/logic/tt33/move_forward
+execute unless score entityHit temp matches 1 at @s run function ssbrc:fighters/joker/logic/tt33/move_forward
+execute unless score entityHit temp matches 1 at @s run function ssbrc:fighters/joker/logic/tt33/move_forward
+execute unless score entityHit temp matches 1 at @s run function ssbrc:fighters/joker/logic/tt33/move_forward
+execute unless score entityHit temp matches 1 at @s run function ssbrc:fighters/joker/logic/tt33/move_forward
+execute unless score entityHit temp matches 1 at @s run function ssbrc:fighters/joker/logic/tt33/move_forward
+execute unless score entityHit temp matches 1 at @s run function ssbrc:fighters/joker/logic/tt33/move_forward
+execute unless score entityHit temp matches 1 at @s run function ssbrc:fighters/joker/logic/tt33/move_forward
+execute unless score entityHit temp matches 1 at @s run function ssbrc:fighters/joker/logic/tt33/move_forward
+execute unless score entityHit temp matches 1 at @s run function ssbrc:fighters/joker/logic/tt33/move_forward
+execute unless score entityHit temp matches 1 at @s run function ssbrc:fighters/joker/logic/tt33/move_forward
+execute unless score entityHit temp matches 1 at @s run function ssbrc:fighters/joker/logic/tt33/move_forward
+execute unless score entityHit temp matches 1 at @s run function ssbrc:fighters/joker/logic/tt33/move_forward
+execute unless score entityHit temp matches 1 at @s run function ssbrc:fighters/joker/logic/tt33/move_forward
+execute unless score entityHit temp matches 1 at @s run function ssbrc:fighters/joker/logic/tt33/move_forward
+scoreboard players reset entityHit temp
 
-execute if entity @s[tag=dreamNeedle] run particle minecraft:dust 1.0 0.5 1.0 0.5 ~ ~ ~ 0.0 0.0 0.0 0.0 10 normal @a
-kill @s[scores={temp=6..}]
+execute at @s[tag=!dreamNeedle] run particle minecraft:end_rod ~ ~ ~ 0.0 0.0 0.0 0.0 1 force @a
+
+scoreboard players add @s temp 1
+kill @s[scores={temp=2..}]

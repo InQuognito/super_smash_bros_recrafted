@@ -35,12 +35,12 @@ execute as @e[type=minecraft:fireball,tag=bang,predicate=ssbrc:id_match] at @s r
 execute as @e[type=minecraft:marker,tag=hyperVoice,predicate=ssbrc:id_match] at @s run function ssbrc:fighters/jigglypuff/logic/abilities/hyper_voice/tick
 
 # Joker
-execute as @e[type=minecraft:arrow,tag=tt33Bullet,predicate=ssbrc:id_match] at @s run function ssbrc:fighters/joker/logic/tt33/tick
+execute as @e[type=minecraft:marker,tag=tt33Bullet,predicate=ssbrc:id_match] at @s run function ssbrc:fighters/joker/logic/tt33/tick
 execute as @e[type=minecraft:marker,tag=eiagon,predicate=ssbrc:id_match] at @s run function ssbrc:fighters/joker/logic/abilities/eiagon/tick
 execute as @e[type=minecraft:area_effect_cloud,tag=eiagon.pool,predicate=ssbrc:id_match] at @s run particle minecraft:dust_color_transition 0.4 0.0 0.0 1.0 0.2 0.0 0.0 ~ ~1 ~ 0.2 0.5 0.2 0.0 25 normal @a
 execute as @e[type=minecraft:marker,tag=hama,predicate=ssbrc:id_match] at @s run function ssbrc:fighters/joker/logic/abilities/hama/tick
 execute as @e[type=minecraft:item_display,tag=hama.display,predicate=ssbrc:id_match] at @s run function ssbrc:fighters/joker/logic/abilities/hama/tick/sigil
-execute as @e[type=minecraft:arrow,tag=phantomShow,predicate=ssbrc:id_match] at @s run function ssbrc:fighters/joker/logic/abilities/phantom_show/tick
+execute as @e[type=minecraft:marker,tag=phantomShow,predicate=ssbrc:id_match] at @s run function ssbrc:fighters/joker/logic/abilities/phantom_show/tick
 
 # King K. Rool
 execute as @e[type=minecraft:armor_stand,tag=blunderbuss,predicate=ssbrc:id_match] at @s run function ssbrc:fighters/king_k_rool/logic/abilities/blunderbuss/tick
