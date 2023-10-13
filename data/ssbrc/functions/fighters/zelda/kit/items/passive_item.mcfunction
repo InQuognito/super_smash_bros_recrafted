@@ -4,7 +4,7 @@ clear @s #ssbrc:fighters/zelda/passive_items{passiveItem:1}
 
 scoreboard players reset #passiveChosen temp
 
-execute store result score result random run random roll 0..9
+execute store result score result random run random value 0..9
 
 execute if score result random matches 0 run loot replace entity @s hotbar.2 loot ssbrc:fighters/zelda/passive_items/goron_locket
 execute if score result random matches 1 run loot replace entity @s hotbar.2 loot ssbrc:fighters/zelda/passive_items/nayrus_ring

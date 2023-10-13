@@ -6,7 +6,7 @@ forceload add -1248 800 -1105 1023
 
 fill -1220 0 921 -1156 48 923 minecraft:air
 
-execute store result score result random run random roll 0..2
+execute store result score result random run random value 0..2
 
 execute if score result random matches 0 run function ssbrc:stages/mementos/load/blue
 execute if score result random matches 1 run function ssbrc:stages/mementos/load/yellow

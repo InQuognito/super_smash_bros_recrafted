@@ -1,4 +1,4 @@
-execute store result score result random run random roll 1..720
+execute store result score result random run random value 1..720
 
 scoreboard players operation result random *= 10 integers
 scoreboard players operation @s rotation = result random

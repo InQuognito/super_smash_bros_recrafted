@@ -1,4 +1,4 @@
-execute store result score result random run random roll 0..7
+execute store result score result random run random value 0..7
 
 execute if score result random matches 0 run data modify entity @s ArmorItems[3].tag.CustomModelData set value 1001
 execute if score result random matches 1 run data modify entity @s ArmorItems[3].tag.CustomModelData set value 1003

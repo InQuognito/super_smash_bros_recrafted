@@ -1,4 +1,4 @@
-execute store result score result random run random roll 0..5
+execute store result score result random run random value 0..5
 
 execute if score result random matches 0 run clone 9992 9 19821 10020 9 19833 9969 0 19888
 execute if score result random matches 1 run clone 9992 10 19821 10020 10 19833 9969 0 19888

@@ -1,6 +1,6 @@
 scoreboard players set @s characterPicked 1
 
-execute store result score result random run random roll 0..3
+execute store result score result random run random value 0..3
 
 execute unless score @s[advancements={ssbrc:fighters/rob/skins/default=true}] skinPicked matches 1 if score result random matches 0 run function ssbrc:fighters/rob/menu/skins/default
 execute unless score @s[advancements={ssbrc:fighters/rob/skins/gold=true}] skinPicked matches 1 if score result random matches 1 run function ssbrc:fighters/rob/menu/skins/gold

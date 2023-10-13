@@ -1,1 +1,1 @@
-execute store result score result random run random roll 0..460
+execute store result score result random run random value 0..460

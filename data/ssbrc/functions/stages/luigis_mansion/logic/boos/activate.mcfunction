@@ -6,7 +6,7 @@ data merge entity @s {Pose:{Head:[0.1f,0.1f,0.1f]},NoGravity:1b}
 
 function ssbrc:logic/init/armor_stand/data
 
-execute store result score result random run random roll 0..9
+execute store result score result random run random value 0..9
 
 execute if score result random matches 0 run teleport @s -339.5 19.5 -1131.5 -90.0 0.0
 execute if score result random matches 1 run teleport @s -283.5 19.5 -1131.5 90.0 0.0

@@ -1,6 +1,6 @@
 clear @s minecraft:carrot_on_a_stick{mask:1}
 
-execute store result score result random run random roll 0..7
+execute store result score result random run random value 0..7
 
 execute unless entity @s[nbt={Inventory:[{tag:{archangel:1}}]}] if score result random matches 0 run loot replace entity @s[tag=!gold] hotbar.7 loot ssbrc:fighters/joker/masks/default/archangel
 execute unless entity @s[nbt={Inventory:[{tag:{arsene:1}}]}] if score result random matches 1 run loot replace entity @s[tag=!gold] hotbar.7 loot ssbrc:fighters/joker/masks/default/arsene

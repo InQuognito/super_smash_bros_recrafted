@@ -1,4 +1,4 @@
-execute store result score result random run random roll 0..39
+execute store result score result random run random value 0..39
 
 execute if score result random matches 0 run tellraw @s [{"translate":"Mr. Sandbag | ","bold":true,"color":"yellow"},{"translate":"ssbrc.lobby.tips.1","bold":false,"color":"white"}]
 execute if score result random matches 1 run tellraw @s [{"translate":"Mr. Sandbag | ","bold":true,"color":"yellow"},{"translate":"ssbrc.lobby.tips.2","bold":false,"color":"white"}]

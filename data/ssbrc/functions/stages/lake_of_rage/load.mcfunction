@@ -4,7 +4,7 @@ scoreboard players set songCount map 2
 scoreboard players set mapPicked mapVote 1
 forceload add 2464 3968 2591 4095
 
-execute store result score result random run random roll 0..2
+execute store result score result random run random value 0..2
 
 execute if score result random matches 0 run function ssbrc:stages/lake_of_rage/load/morning
 execute if score result random matches 1 run function ssbrc:stages/lake_of_rage/load/day

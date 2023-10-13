@@ -1,4 +1,4 @@
-execute store result score result random run random roll 0..7
+execute store result score result random run random value 0..7
 
 execute if score result random matches 0 run tag @s add squirtle.bold
 execute if score result random matches 1 run tag @s add squirtle.brave

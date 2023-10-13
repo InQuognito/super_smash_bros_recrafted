@@ -2,7 +2,7 @@ execute if score blindPick options matches 1 run tag @s add blindPick
 
 tag @s add pickingRandom
 
-execute store result score result random run random roll 0..37
+execute store result score result random run random value 0..37
 
 execute unless score @s[advancements={ssbrc:fighters/alucard/skins/default=true}] characterPicked matches 1.. if score result random matches 0 run function ssbrc:fighters/alucard/menu/skins/random
 execute unless score @s[advancements={ssbrc:fighters/donkey_kong/skins/default=true}] characterPicked matches 1.. if score result random matches 1 run function ssbrc:fighters/donkey_kong/menu/skins/random

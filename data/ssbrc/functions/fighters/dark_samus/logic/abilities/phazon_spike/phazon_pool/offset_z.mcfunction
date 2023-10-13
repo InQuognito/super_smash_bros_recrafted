@@ -1,4 +1,4 @@
-execute store result score #phazonPoolOffsetZ temp run random roll 1..2
+execute store result score #phazonPoolOffsetZ temp run random value 1..2
 
 execute if predicate ssbrc:random_chance/50 run scoreboard players operation #phazonPoolOffsetZ temp *= -1 integers
 

@@ -1,6 +1,6 @@
 scoreboard players set @s characterPicked 1
 
-execute store result score result random run random roll 0..4
+execute store result score result random run random value 0..4
 
 execute unless score @s[advancements={ssbrc:fighters/pokemon_trainer/skins/default=true}] skinPicked matches 1 if score result random matches 0 run function ssbrc:fighters/pokemon_trainer/menu/skins/default
 execute unless score @s[advancements={ssbrc:fighters/pokemon_trainer/skins/gold=true}] skinPicked matches 1 if score result random matches 1 run function ssbrc:fighters/pokemon_trainer/menu/skins/gold

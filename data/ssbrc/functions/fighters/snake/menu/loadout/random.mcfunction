@@ -4,7 +4,7 @@ tag @s add ignoreFeedback
 execute unless score @s skinPicked matches 3 if score @s snake.capacity matches ..0 if predicate ssbrc:random_chance/10 run scoreboard players set @s skinPicked 3
 execute unless score @s skinPicked matches 3 if score @s snake.capacity matches 1.. if predicate ssbrc:random_chance/20 run scoreboard players set @s skinPicked 3
 
-execute store result score result random run random roll 0..5
+execute store result score result random run random value 0..5
 
 execute unless score @s skinPicked matches 3 if score result random matches 0 run function ssbrc:fighters/snake/menu/loadout/psg1/check
 execute unless score @s skinPicked matches 3 if score result random matches 1 run function ssbrc:fighters/snake/menu/loadout/famas/check

@@ -1,4 +1,4 @@
-execute store result score result random run random roll 0..14
+execute store result score result random run random value 0..14
 
 execute unless score spawnedDotGroup temp matches 1 if score result random matches 0 unless score dotGroup.a temp matches 1.. run function ssbrc:stages/pac_maze/logic/mrs_pac_maze/dots/groups/a/summon
 execute unless score spawnedDotGroup temp matches 1 if score result random matches 1 unless score dotGroup.b temp matches 1.. run function ssbrc:stages/pac_maze/logic/mrs_pac_maze/dots/groups/b/summon

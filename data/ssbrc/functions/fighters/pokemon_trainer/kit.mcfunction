@@ -4,7 +4,7 @@ execute if entity @s[tag=naturalShiny] run function ssbrc:fighters/natural_shiny
 
 tag @s remove nextFighterChosen
 
-execute store result score result random run random roll 0..2
+execute store result score result random run random value 0..2
 
 execute unless entity @s[tag=nextFighterChosen] if score result random matches 0 run function ssbrc:fighters/pokemon_trainer/kits/charizard
 execute unless entity @s[tag=nextFighterChosen] if score result random matches 1 run function ssbrc:fighters/pokemon_trainer/kits/ivysaur

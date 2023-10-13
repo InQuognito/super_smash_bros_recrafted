@@ -1,4 +1,4 @@
-execute store result score #rupeeGain temp run random roll 8..12
+execute store result score #rupeeGain temp run random value 8..12
 
 function ssbrc:fighters/zelda/logic/add_rupees
 

@@ -1,4 +1,4 @@
-execute store result score result random run random roll 1..360
+execute store result score result random run random value 1..360
 
 execute store result entity @s Rotation[0] float 1.0 run scoreboard players get result random
 

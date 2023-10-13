@@ -1,4 +1,4 @@
-execute store result score result random run random roll 0..5
+execute store result score result random run random value 0..5
 
 execute if score result random matches 0 if entity @s[tag=psg1] run function ssbrc:fighters/snake/logic/scavenger/psg1
 execute if score result random matches 1 if entity @s[tag=famas] run function ssbrc:fighters/snake/logic/scavenger/famas

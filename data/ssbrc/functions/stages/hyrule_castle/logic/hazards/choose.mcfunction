@@ -1,4 +1,4 @@
-execute store result score result random run random roll 0..6
+execute store result score result random run random value 0..6
 
 scoreboard players operation tornado temp = result random
 scoreboard players operation tornado temp += 1 integers
