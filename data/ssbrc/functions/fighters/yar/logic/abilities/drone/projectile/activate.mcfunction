@@ -1,6 +1,6 @@
 teleport @s ~ ~ ~ ~ ~
 
-execute summon minecraft:marker run function ssbrc:fighters/yar/logic/abilities/drone/projectile/init/marker
+execute positioned ^ ^ ^1 summon minecraft:marker run function ssbrc:fighters/yar/logic/abilities/drone/projectile/init
 
 scoreboard players set @s cooldown.1 10
 execute if score @s shadow.chaosControl matches 1.. run function ssbrc:logic/fighters/cooldown_modifiers/chaos_control/1

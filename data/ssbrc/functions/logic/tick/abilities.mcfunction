@@ -102,9 +102,9 @@ execute as @e[type=minecraft:armor_stand,tag=antiPersonnelMine,predicate=ssbrc:i
 execute as @e[type=minecraft:armor_stand,tag=smokeGrenade,predicate=ssbrc:id_match] at @s unless block ~ ~-0.1 ~ #ssbrc:passthrough run function ssbrc:fighters/snake/logic/weapons/smoke_grenade/tick
 
 # Sora
-execute as @e[type=minecraft:arrow,tag=firaga,predicate=ssbrc:id_match] at @s run function ssbrc:fighters/sora/logic/abilities/firaga/tick
-execute as @e[type=minecraft:arrow,tag=blizzaga,predicate=ssbrc:id_match] at @s run function ssbrc:fighters/sora/logic/abilities/blizzaga/tick
-execute as @e[type=minecraft:arrow,tag=blizzaza,predicate=ssbrc:id_match] at @s run function ssbrc:fighters/sora/logic/abilities/blizzaga/blizzaza/tick
+execute as @e[type=minecraft:marker,tag=firaga,predicate=ssbrc:id_match] at @s run function ssbrc:fighters/sora/logic/abilities/firaga/tick
+execute as @e[type=minecraft:marker,tag=blizzaga,predicate=ssbrc:id_match] at @s run function ssbrc:fighters/sora/logic/abilities/blizzaga/tick
+execute as @e[type=minecraft:marker,tag=blizzaza,predicate=ssbrc:id_match] at @s run function ssbrc:fighters/sora/logic/abilities/blizzaga/blizzaza/tick
 execute as @e[type=minecraft:marker,tag=thundaga,predicate=ssbrc:id_match] at @s run function ssbrc:fighters/sora/logic/abilities/thundaga/tick
 execute as @e[type=minecraft:marker,tag=thundaza,predicate=ssbrc:id_match] at @s run function ssbrc:fighters/sora/logic/abilities/thundaga/thundaza/tick
 execute as @e[type=minecraft:armor_stand,tag=strikeRaid,predicate=ssbrc:id_match] at @s run function ssbrc:fighters/sora/logic/abilities/strike_raid/tick
@@ -142,8 +142,8 @@ execute as @e[type=minecraft:marker,tag=pkFreeze,predicate=ssbrc:id_match] at @s
 execute as @e[type=minecraft:marker,tag=pkBeam,predicate=ssbrc:id_match] at @s run function ssbrc:fighters/giegue/logic/abilities/pk_beam/tick
 
 # Shadow
-execute as @e[type=minecraft:arrow,tag=chaosSpear,predicate=ssbrc:id_match] at @s run function ssbrc:fighters/shadow/logic/chaos_spear/tick
-execute as @e[type=minecraft:arrow,tag=chaosBlastShockwave,predicate=ssbrc:id_match] at @s run function ssbrc:fighters/shadow/logic/chaos_blast/tick
+execute as @e[type=minecraft:marker,tag=chaosSpear,predicate=ssbrc:id_match] at @s run function ssbrc:fighters/shadow/logic/chaos_spear/tick
+execute as @e[type=minecraft:marker,tag=chaosBlast,predicate=ssbrc:id_match] at @s run function ssbrc:fighters/shadow/logic/chaos_blast/shockwave/tick
 
 # Shovel Knight
 execute as @e[type=minecraft:marker,tag=chaosSphere,predicate=ssbrc:id_match] at @s run function ssbrc:fighters/shovel_knight/logic/abilities/chaos_sphere/tick
@@ -162,4 +162,4 @@ execute as @e[type=minecraft:marker,tag=rayBlaster,predicate=ssbrc:id_match] at 
 execute as @e[type=minecraft:arrow,tag=gatlingGun,predicate=ssbrc:id_match] at @s run function ssbrc:fighters/yar/logic/abilities/ray_blaster/variants/gatling_gun/tick
 execute as @e[type=minecraft:item_display,tag=missileLauncher,predicate=ssbrc:id_match] at @s run function ssbrc:fighters/yar/logic/abilities/ray_blaster/variants/missile_launcher/tick
 execute as @e[type=minecraft:bee,tag=drone,predicate=ssbrc:id_match] at @s run function ssbrc:fighters/yar/logic/abilities/drone/tick
-execute as @e[type=minecraft:arrow,tag=drone.bullet,predicate=ssbrc:id_match] at @s run function ssbrc:fighters/yar/logic/abilities/drone/projectiles
+execute as @e[type=minecraft:marker,tag=drone.bullet,predicate=ssbrc:id_match] at @s run function ssbrc:fighters/yar/logic/abilities/drone/projectile/tick

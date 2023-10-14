@@ -1,4 +1,4 @@
-execute summon minecraft:marker run function ssbrc:fighters/sora/logic/abilities/blizzaga/projectile
+execute positioned ^ ^ ^1 summon minecraft:marker run function ssbrc:fighters/sora/logic/abilities/blizzaga/projectile
 
 scoreboard players operation @s mana -= #sora.blizzagaMPCost vars
 
