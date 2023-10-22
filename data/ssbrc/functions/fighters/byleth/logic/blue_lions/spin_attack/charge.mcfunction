@@ -1,4 +1,6 @@
-execute if score @s charge.output matches 21.. run function ssbrc:fighters/byleth/logic/blue_lions/spin_attack/raycast/start
+scoreboard players operation spinAttack temp = @s charge.output
+scoreboard players operation spinAttack temp %= 5 integers
+execute if score spinAttack temp matches 0 if score @s charge.output matches 21.. run function ssbrc:fighters/byleth/logic/blue_lions/spin_attack/raycast/start
 
 execute if score @s charge.output matches 21..40 rotated as @e[type=minecraft:marker,tag=byleth.spinner,limit=1] run particle minecraft:dust 1.0 1.0 0.0 1.0 ^ ^ ^2.25 0.0 0.0 0.0 0.0 1 force @a[tag=!self]
 execute if score @s charge.output matches 41..60 rotated as @e[type=minecraft:marker,tag=byleth.spinner,limit=1] run particle minecraft:dust 1.0 0.5 0.0 1.0 ^ ^ ^2.5 0.0 0.0 0.0 0.0 1 force @a[tag=!self]
