@@ -54,6 +54,12 @@
 											"italic": false
 										}
 									]
+								},
+								{
+									"translate": "ssbrc.tooltips.shovel_knight.relic_disabled",
+									"color": "red",
+									"bold": false,
+									"italic": false
 								}
 							],
 							"replace": true

@@ -56,7 +56,7 @@
 									]
 								},
 								{
-									"translate": "ssbrc.tooltips.shovel_knight.warHorn.description.2",
+									"translate": "ssbrc.tooltips.shovel_knight.relic_disabled",
 									"color": "red",
 									"bold": false,
 									"italic": false

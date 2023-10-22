@@ -11,8 +11,8 @@ teleport @s[x=-521.0,y=-1.0,z=-1945.0,dy=1] -520.5 5.0 -1944.5 90.0 0.0
 # Mr. Sandbag
 advancement grant @s[advancements={ssbrc:tutorial/intro/2=false},x=-525.5,y=5.0,z=-1936.5,distance=..2] only ssbrc:tutorial/intro/2
 
-particle minecraft:block_marker minecraft:petrified_oak_slab -525.5 6.5 -1936.5 0.0 0.0 0.0 0.0 1 normal @s[advancements={ssbrc:tutorial/intro/3=false}]
-particle minecraft:block_marker minecraft:petrified_oak_slab -525.5 6.5 -1936.5 0.0 0.0 0.0 0.0 1 normal @s[advancements={ssbrc:tutorial/outro/1=true,ssbrc:tutorial/outro/2=false}]
+particle minecraft:block_marker minecraft:petrified_oak_slab -525.5 6.5 -1936.5 0.0 0.0 0.0 0.0 1 force @s[advancements={ssbrc:tutorial/intro/3=false}]
+particle minecraft:block_marker minecraft:petrified_oak_slab -525.5 6.5 -1936.5 0.0 0.0 0.0 0.0 1 force @s[advancements={ssbrc:tutorial/outro/1=true,ssbrc:tutorial/outro/2=false}]
 
 execute unless entity @s[x=-526.0,y=6.0,z=-1937.0,dy=0] run scoreboard players reset @s sandbag.standOn
 scoreboard players add @s[x=-526.0,y=6.0,z=-1937.0,dy=0] sandbag.standOn 1
