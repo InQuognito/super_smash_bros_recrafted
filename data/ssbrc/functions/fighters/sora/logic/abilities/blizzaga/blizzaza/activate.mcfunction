@@ -1,10 +1,10 @@
 scoreboard players add @s charge.4 1
 
-execute facing ^-1 ^ ^2 if score @s charge.4 matches 3.. run function ssbrc:fighters/sora/logic/abilities/blizzaga/blizzaza/projectile
-execute facing ^-1 ^ ^1 if score @s charge.4 matches 3.. run function ssbrc:fighters/sora/logic/abilities/blizzaga/blizzaza/projectile
-execute facing ^ ^ ^1 run function ssbrc:fighters/sora/logic/abilities/blizzaga/blizzaza/projectile
-execute facing ^1 ^ ^1 if score @s charge.4 matches 3.. run function ssbrc:fighters/sora/logic/abilities/blizzaga/blizzaza/projectile
-execute facing ^1 ^ ^2 if score @s charge.4 matches 3.. run function ssbrc:fighters/sora/logic/abilities/blizzaga/blizzaza/projectile
+execute rotated ~-30.0 ~ if score @s charge.4 matches 3.. run function ssbrc:fighters/sora/logic/abilities/blizzaga/blizzaza/projectile
+execute rotated ~-15.0 ~ if score @s charge.4 matches 3.. run function ssbrc:fighters/sora/logic/abilities/blizzaga/blizzaza/projectile
+execute rotated ~ ~ run function ssbrc:fighters/sora/logic/abilities/blizzaga/blizzaza/projectile
+execute rotated ~15.0 ~ if score @s charge.4 matches 3.. run function ssbrc:fighters/sora/logic/abilities/blizzaga/blizzaza/projectile
+execute rotated ~30.0 ~ if score @s charge.4 matches 3.. run function ssbrc:fighters/sora/logic/abilities/blizzaga/blizzaza/projectile
 
 scoreboard players operation #blizzazaCost temp = #sora.blizzazaMPCost vars
 execute if score @s charge.4 matches 3.. run scoreboard players operation #blizzazaCost temp *= 4 integers
