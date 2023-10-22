@@ -7,4 +7,6 @@ effect give @s[tag=greninja] minecraft:conduit_power infinite 255 true
 
 execute unless score $blackout temp matches 1 run effect give @s[tag=!snake] minecraft:glowing infinite 255 true
 
+execute if entity @s[tag=zelda] run function ssbrc:fighters/zelda/logic/apply_passives
+
 effect give @s minecraft:instant_health 1 50 true
