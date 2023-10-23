@@ -2,12 +2,12 @@ clear @s minecraft:written_book{options:1}
 
 # Game Mode
 data modify storage ssbrc:options/game_mode/header value set value '[{"translate":"ssbrc.options.game_mode","bold":true,"underlined":true,"color":"black"},{"text":" 🛈","color":"gray","underlined":false,"hoverEvent":{"action":"show_text","contents":[{"translate":"ssbrc.options.game_mode.description","color":"blue"},{"text":"\\n\\n"},{"translate":"ssbrc.options.game_mode.stock","color":"gold"},{"text":" - "},{"translate":"ssbrc.options.game_mode.stock.description","color":"gray"},{"text":"\\n\\n"},{"translate":"ssbrc.options.game_mode.time","color":"gold"},{"text":" - "},{"translate":"ssbrc.options.game_mode.time.description","color":"gray"}]}}]'
-execute unless score gameMode options matches 1 run data modify storage ssbrc:options/game_mode/stock value set value '{"translate":"ssbrc.game_mode.stock","bold":true,"underlined":false,"color":"gray","clickEvent":{"action":"run_command","value":"/trigger options set 1"}}'
-execute if score gameMode options matches 1 run data modify storage ssbrc:options/game_mode/stock value set value '{"translate":"ssbrc.game_mode.stock","bold":true,"underlined":false,"color":"blue"}'
+execute unless score gameMode options matches 1 run data modify storage ssbrc:options/game_mode/stock value set value '{"translate":"ssbrc.options.game_mode.stock","bold":true,"underlined":false,"color":"gray","clickEvent":{"action":"run_command","value":"/trigger options set 1"}}'
+execute if score gameMode options matches 1 run data modify storage ssbrc:options/game_mode/stock value set value '{"translate":"ssbrc.options.game_mode.stock","bold":true,"underlined":false,"color":"blue"}'
 execute if score gameMode options matches 1 run data modify storage ssbrc:options/game_mode_options value set value '{"translate":"ssbrc.options.game_mode.stock_limit","bold":true,"underlined":true,"color":"black"}'
 
-execute unless score gameMode options matches 2 run data modify storage ssbrc:options/game_mode/time value set value '{"translate":"ssbrc.game_mode.time","bold":true,"underlined":false,"color":"gray","clickEvent":{"action":"run_command","value":"/trigger options set 2"}}'
-execute if score gameMode options matches 2 run data modify storage ssbrc:options/game_mode/time value set value '{"translate":"ssbrc.game_mode.time","bold":true,"underlined":false,"color":"blue"}'
+execute unless score gameMode options matches 2 run data modify storage ssbrc:options/game_mode/time value set value '{"translate":"ssbrc.options.game_mode.time","bold":true,"underlined":false,"color":"gray","clickEvent":{"action":"run_command","value":"/trigger options set 2"}}'
+execute if score gameMode options matches 2 run data modify storage ssbrc:options/game_mode/time value set value '{"translate":"ssbrc.options.game_mode.time","bold":true,"underlined":false,"color":"blue"}'
 execute if score gameMode options matches 2 run data modify storage ssbrc:options/game_mode_options value set value '{"translate":"ssbrc.options.game_mode.time_limit","bold":true,"underlined":true,"color":"black"}'
 
 # Stock Limit
