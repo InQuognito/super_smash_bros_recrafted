@@ -2,7 +2,7 @@ function ssbrc:fighters/sora/logic/drive_forms/reset
 
 scoreboard players operation @s mana = #sora.maxMP vars
 
-function ssbrc:fighters/sora/logic/spell_switch/fire
+loot replace entity @s hotbar.0 loot ssbrc:fighters/sora/keyblades/primary/fire
 
 scoreboard players set @s cooldown.2 1
 
