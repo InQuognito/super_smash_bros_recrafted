@@ -1,8 +1,8 @@
 tag @s add decorObject
 tag @s add magnemite
 
-execute if score result random matches 0 run teleport @s ~ ~ ~ 75.0 0.0
-execute if score result random matches 1 run teleport @s ~ ~ ~ 180.0 0.0
+execute if score random.output temp matches 0 run teleport @s ~ ~ ~ 75.0 0.0
+execute if score random.output temp matches 1 run teleport @s ~ ~ ~ 180.0 0.0
 
 item replace entity @s armor.head with minecraft:diamond{CustomModelData:810}
 item replace entity @s weapon.mainhand with minecraft:diamond{CustomModelData:811}

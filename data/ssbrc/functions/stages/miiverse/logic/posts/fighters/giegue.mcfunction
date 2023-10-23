@@ -1,3 +1,3 @@
-scoreboard players set result random 0
+scoreboard players set random.output temp 0
 
-execute if score result random matches 0 run loot replace entity @s weapon.mainhand loot ssbrc:stages/miiverse/posts/giegue/0
+execute if score random.output temp matches 0 run loot replace entity @s weapon.mainhand loot ssbrc:stages/miiverse/posts/giegue/0

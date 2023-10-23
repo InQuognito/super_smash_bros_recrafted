@@ -14,10 +14,10 @@ scoreboard players operation fruitDisplay temp = fruit temp
 scoreboard players add fruitDisplay temp 8
 execute store result entity @s ArmorItems[3].tag.CustomModelData int 1.0 run scoreboard players get fruitDisplay temp
 
-execute if score result random matches 0 run teleport @s ~ ~ ~ -90.0 0.0
-execute if score result random matches 1 run teleport @s ~ ~ ~ 90.0 0.0
-execute if score result random matches 2 run teleport @s ~ ~ ~ -90.0 0.0
-execute if score result random matches 3 run teleport @s ~ ~ ~ 90.0 0.0
+execute if score random.output temp matches 0 run teleport @s ~ ~ ~ -90.0 0.0
+execute if score random.output temp matches 1 run teleport @s ~ ~ ~ 90.0 0.0
+execute if score random.output temp matches 2 run teleport @s ~ ~ ~ -90.0 0.0
+execute if score random.output temp matches 3 run teleport @s ~ ~ ~ 90.0 0.0
 
 execute if score fruit temp matches 7.. run scoreboard players set fruit temp 0
 

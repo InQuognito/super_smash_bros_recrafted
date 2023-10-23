@@ -4,11 +4,11 @@ scoreboard players set songCount map 2
 scoreboard players set mapPicked mapVote 1
 forceload add 2464 3968 2591 4095
 
-execute store result score result random run random value 0..2
+execute store result score random.output temp run random value 0..2
 
-execute if score result random matches 0 run function ssbrc:stages/lake_of_rage/load/morning
-execute if score result random matches 1 run function ssbrc:stages/lake_of_rage/load/day
-execute if score result random matches 2 run function ssbrc:stages/lake_of_rage/load/night
+execute if score random.output temp matches 0 run function ssbrc:stages/lake_of_rage/load/morning
+execute if score random.output temp matches 1 run function ssbrc:stages/lake_of_rage/load/day
+execute if score random.output temp matches 2 run function ssbrc:stages/lake_of_rage/load/night
 
 # Buoys
 execute positioned 2532.5 13.75 4002.5 summon minecraft:item_display run function ssbrc:stages/lake_of_rage/logic/buoy/init

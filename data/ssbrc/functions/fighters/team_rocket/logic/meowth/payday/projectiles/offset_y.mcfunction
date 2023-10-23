@@ -1,1 +1,1 @@
-execute store result score result random run random value 0..460
+execute store result score random.output temp run random value 0..460
