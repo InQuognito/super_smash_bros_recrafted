@@ -1,5 +1,3 @@
 tag @s add blizzaza
 
-teleport @s ~ ~ ~ ~ ~
-
-function ssbrc:logic/init/id
+function ssbrc:logic/init/projectile
