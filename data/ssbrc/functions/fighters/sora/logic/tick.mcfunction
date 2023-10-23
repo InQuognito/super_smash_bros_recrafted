@@ -1,12 +1,12 @@
-execute if entity @s[predicate=!ssbrc:fighters/sora/no_spells,predicate=!ssbrc:flag/sneaking,scores={useAbility=1..,cooldown.1=..0},nbt={SelectedItem:{tag:{firaga:1}}}] at @s run function ssbrc:fighters/sora/logic/abilities/firaga/check
-execute if entity @s[predicate=!ssbrc:fighters/sora/no_spells,predicate=!ssbrc:flag/sneaking,scores={useAbility=1..,cooldown.1=..0},nbt={SelectedItem:{tag:{blizzaga:1}}}] at @s anchored eyes positioned ^ ^ ^ run function ssbrc:fighters/sora/logic/abilities/blizzaga/check
-execute if entity @s[predicate=!ssbrc:fighters/sora/no_spells,predicate=!ssbrc:flag/sneaking,scores={useAbility=1..,cooldown.1=..0},nbt={SelectedItem:{tag:{thundaga:1}}}] at @s run function ssbrc:fighters/sora/logic/abilities/thundaga/check
+execute if entity @s[predicate=!ssbrc:fighters/sora/no_spells,predicate=!ssbrc:flag/sneaking,scores={useAbility=1..,cooldown.1=..0},nbt={SelectedItem:{tag:{fire:1}}}] at @s run function ssbrc:fighters/sora/logic/abilities/firaga/check
+execute if entity @s[predicate=!ssbrc:fighters/sora/no_spells,predicate=!ssbrc:flag/sneaking,scores={useAbility=1..,cooldown.1=..0},nbt={SelectedItem:{tag:{blizzard:1}}}] at @s anchored eyes positioned ^ ^ ^ run function ssbrc:fighters/sora/logic/abilities/blizzaga/check
+execute if entity @s[predicate=!ssbrc:fighters/sora/no_spells,predicate=!ssbrc:flag/sneaking,scores={useAbility=1..,cooldown.1=..0},nbt={SelectedItem:{tag:{thunder:1}}}] at @s run function ssbrc:fighters/sora/logic/abilities/thundaga/check
 
-execute if entity @s[predicate=!ssbrc:fighters/sora/no_spells,predicate=ssbrc:flag/sneaking,scores={useAbility=1..,cooldown.2=..0},nbt={SelectedItem:{tag:{firaga:1}}}] run function ssbrc:fighters/sora/logic/spell_switch/blizzaga
-execute if entity @s[predicate=!ssbrc:fighters/sora/no_spells,predicate=ssbrc:flag/sneaking,scores={useAbility=1..,cooldown.2=..0},nbt={SelectedItem:{tag:{blizzaga:1}}}] run function ssbrc:fighters/sora/logic/spell_switch/thundaga
-execute if entity @s[predicate=!ssbrc:fighters/sora/no_spells,predicate=ssbrc:flag/sneaking,scores={useAbility=1..,cooldown.2=..0},nbt={SelectedItem:{tag:{thundaga:1}}}] run function ssbrc:fighters/sora/logic/spell_switch/firaga
+execute if entity @s[predicate=!ssbrc:fighters/sora/no_spells,predicate=ssbrc:flag/sneaking,scores={useAbility=1..,cooldown.2=..0},nbt={SelectedItem:{tag:{fire:1}}}] run function ssbrc:fighters/sora/logic/spell_switch/blizzard
+execute if entity @s[predicate=!ssbrc:fighters/sora/no_spells,predicate=ssbrc:flag/sneaking,scores={useAbility=1..,cooldown.2=..0},nbt={SelectedItem:{tag:{blizzard:1}}}] run function ssbrc:fighters/sora/logic/spell_switch/thunder
+execute if entity @s[predicate=!ssbrc:fighters/sora/no_spells,predicate=ssbrc:flag/sneaking,scores={useAbility=1..,cooldown.2=..0},nbt={SelectedItem:{tag:{thunder:1}}}] run function ssbrc:fighters/sora/logic/spell_switch/fire
 
-execute if entity @s[tag=valor,predicate=!ssbrc:flag/sneaking,scores={useAbility=1..},nbt={SelectedItem:{tag:{strikeRaid:1}},Inventory:[{tag:{strikeRaid:1},Slot:-106b}]}] at @s anchored eyes run function ssbrc:fighters/sora/logic/abilities/strike_raid/activate
+execute if entity @s[tag=valor,predicate=!ssbrc:flag/sneaking,scores={useAbility=1..},nbt={SelectedItem:{tag:{keyblade:1}},Inventory:[{tag:{keyblade:1},Slot:-106b}]}] at @s anchored eyes run function ssbrc:fighters/sora/logic/abilities/strike_raid/activate
 
 # Health
 execute if score @s health matches ..10 run function ssbrc:fighters/sora/logic/low_health_alert/check

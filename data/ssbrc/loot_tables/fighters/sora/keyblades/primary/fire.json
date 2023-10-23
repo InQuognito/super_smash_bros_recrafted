@@ -1,0 +1,292 @@
+{
+	"type": "minecraft:command",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:carrot_on_a_stick",
+					"functions": [
+						{
+							"function": "minecraft:set_name",
+							"entity": "this",
+							"name": {
+								"translate": "ssbrc.tooltips.sora.kingdomKey",
+								"color": "white",
+								"bold": true,
+								"italic": false,
+								"extra": [
+									{
+										"text": " (",
+										"color": "white",
+										"bold": false,
+										"italic": false
+									},
+									{
+										"translate": "ssbrc.tooltips.sora.keyblade.firaga",
+										"color": "red",
+										"bold": false,
+										"italic": false
+									},
+									{
+										"text": ")",
+										"color": "white",
+										"bold": false,
+										"italic": false
+									}
+								]
+							},
+							"conditions": [
+								{
+									"condition": "minecraft:entity_properties",
+									"entity": "this",
+									"predicate": {
+										"nbt": "{Tags:[\"default\"]}"
+									}
+								},
+								{
+									"condition": "minecraft:inverted",
+									"term": {
+										"condition": "minecraft:entity_properties",
+										"entity": "this",
+										"predicate": {
+											"nbt": "{Tags:[\"wisdom\"]}"
+										}
+									}
+								}
+							]
+						},
+						{
+							"function": "minecraft:set_name",
+							"entity": "this",
+							"name": {
+								"translate": "ssbrc.tooltips.sora.kingdomKey",
+								"color": "white",
+								"bold": true,
+								"italic": false,
+								"extra": [
+									{
+										"text": " (",
+										"color": "white",
+										"bold": false,
+										"italic": false
+									},
+									{
+										"translate": "ssbrc.tooltips.sora.keyblade.firaza",
+										"color": "red",
+										"bold": false,
+										"italic": false
+									},
+									{
+										"text": ")",
+										"color": "white",
+										"bold": false,
+										"italic": false
+									}
+								]
+							},
+							"conditions": [
+								{
+									"condition": "minecraft:entity_properties",
+									"entity": "this",
+									"predicate": {
+										"nbt": "{Tags:[\"default\",\"wisdom\"]}"
+									}
+								}
+							]
+						},
+						{
+							"function": "minecraft:set_name",
+							"entity": "this",
+							"name": {
+								"translate": "ssbrc.tooltips.sora.kingdomKey",
+								"color": "gold",
+								"bold": true,
+								"italic": false,
+								"extra": [
+									{
+										"text": " (",
+										"color": "white",
+										"bold": false,
+										"italic": false
+									},
+									{
+										"translate": "ssbrc.tooltips.sora.keyblade.firaga",
+										"color": "red",
+										"bold": false,
+										"italic": false
+									},
+									{
+										"text": ")",
+										"color": "white",
+										"bold": false,
+										"italic": false
+									}
+								]
+							},
+							"conditions": [
+								{
+									"condition": "minecraft:entity_properties",
+									"entity": "this",
+									"predicate": {
+										"nbt": "{Tags:[\"gold\"]}"
+									}
+								},
+								{
+									"condition": "minecraft:inverted",
+									"term": {
+										"condition": "minecraft:entity_properties",
+										"entity": "this",
+										"predicate": {
+											"nbt": "{Tags:[\"wisdom\"]}"
+										}
+									}
+								}
+							]
+						},
+						{
+							"function": "minecraft:set_name",
+							"entity": "this",
+							"name": {
+								"translate": "ssbrc.tooltips.sora.kingdomKey",
+								"color": "gold",
+								"bold": true,
+								"italic": false,
+								"extra": [
+									{
+										"text": " (",
+										"color": "white",
+										"bold": false,
+										"italic": false
+									},
+									{
+										"translate": "ssbrc.tooltips.sora.keyblade.firaza",
+										"color": "red",
+										"bold": false,
+										"italic": false
+									},
+									{
+										"text": ")",
+										"color": "white",
+										"bold": false,
+										"italic": false
+									}
+								]
+							},
+							"conditions": [
+								{
+									"condition": "minecraft:entity_properties",
+									"entity": "this",
+									"predicate": {
+										"nbt": "{Tags:[\"gold\",\"wisdom\"]}"
+									}
+								}
+							]
+						},
+						{
+							"function": "minecraft:set_name",
+							"entity": "this",
+							"name": {
+								"translate": "ssbrc.tooltips.sora.monochrome",
+								"color": "light_gray",
+								"bold": true,
+								"italic": false,
+								"extra": [
+									{
+										"text": " (",
+										"color": "white",
+										"bold": false,
+										"italic": false
+									},
+									{
+										"translate": "ssbrc.tooltips.sora.keyblade.firaga",
+										"color": "red",
+										"bold": false,
+										"italic": false
+									},
+									{
+										"text": ")",
+										"color": "white",
+										"bold": false,
+										"italic": false
+									}
+								]
+							},
+							"conditions": [
+								{
+									"condition": "minecraft:entity_properties",
+									"entity": "this",
+									"predicate": {
+										"nbt": "{Tags:[\"timelessRiver\"]}"
+									}
+								},
+								{
+									"condition": "minecraft:inverted",
+									"term": {
+										"condition": "minecraft:entity_properties",
+										"entity": "this",
+										"predicate": {
+											"nbt": "{Tags:[\"wisdom\"]}"
+										}
+									}
+								}
+							]
+						},
+						{
+							"function": "minecraft:set_name",
+							"entity": "this",
+							"name": {
+								"translate": "ssbrc.tooltips.sora.monochrome",
+								"color": "light_gray",
+								"bold": true,
+								"italic": false,
+								"extra": [
+									{
+										"text": " (",
+										"color": "white",
+										"bold": false,
+										"italic": false
+									},
+									{
+										"translate": "ssbrc.tooltips.sora.keyblade.firaza",
+										"color": "red",
+										"bold": false,
+										"italic": false
+									},
+									{
+										"text": ")",
+										"color": "white",
+										"bold": false,
+										"italic": false
+									}
+								]
+							},
+							"conditions": [
+								{
+									"condition": "minecraft:entity_properties",
+									"entity": "this",
+									"predicate": {
+										"nbt": "{Tags:[\"timelessRiver\",\"wisdom\"]}"
+									}
+								}
+							]
+						},
+						{
+							"function": "minecraft:reference",
+							"name": "ssbrc:fighters/sora/keyblades/init"
+						},
+						{
+							"function": "minecraft:reference",
+							"name": "ssbrc:fighters/sora/keyblades/fire"
+						},
+						{
+							"function": "minecraft:reference",
+							"name": "ssbrc:fighters/sora/keyblades/primary/model"
+						}
+					]
+				}
+			]
+		}
+	]
+}
