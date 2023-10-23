@@ -10,4 +10,4 @@ execute if entity @s[nbt={Inventory:[{tag:{keyblade:1},Slot:8b}]}] run loot repl
 
 execute if entity @s[nbt={Inventory:[{tag:{keyblade:1},Slot:-106b}]}] run loot replace entity @s weapon.offhand loot ssbrc:fighters/sora/keyblades/primary/fire
 
-scoreboard players set @s cooldown.2 1
+scoreboard players set spell_switched temp 1
