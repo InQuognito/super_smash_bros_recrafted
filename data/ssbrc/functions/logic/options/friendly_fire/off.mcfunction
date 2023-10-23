@@ -1,4 +1,4 @@
-tellraw @a[tag=room.characterSelect] [{"translate":"ssbrc.options.friendlyFireTitle","color":"yellow"},{"translate":"ssbrc.options.off","color":"blue"}]
+tellraw @a[tag=room.characterSelect] [{"translate":"ssbrc.options.friendly_fire.title","color":"yellow"},{"translate":"ssbrc.options.off","color":"blue"}]
 
 scoreboard players set friendlyFire options 0
 

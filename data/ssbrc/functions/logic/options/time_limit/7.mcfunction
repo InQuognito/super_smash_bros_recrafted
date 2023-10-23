@@ -1,4 +1,4 @@
-tellraw @a[tag=room.characterSelect] [{"translate":"ssbrc.options.gameMode.timeLimitTitle","color":"yellow"},{"translate":"ssbrc.options.gameMode.timeLimit.7","color":"blue"}]
+tellraw @a[tag=room.characterSelect] [{"translate":"ssbrc.options.game_mode.time_limit.title","color":"yellow"},{"translate":"ssbrc.options.game_mode.time_limit.7","color":"blue"}]
 
 scoreboard players set timeLimit options 420
 

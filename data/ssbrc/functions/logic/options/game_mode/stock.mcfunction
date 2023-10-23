@@ -1,4 +1,4 @@
-tellraw @a[tag=room.characterSelect] [{"translate":"ssbrc.gameModeTitle","color":"yellow"},{"translate":"ssbrc.gameMode.stock","color":"blue"}]
+tellraw @a[tag=room.characterSelect] [{"translate":"ssbrc.game_mode.title","color":"yellow"},{"translate":"ssbrc.game_mode.stock","color":"blue"}]
 
 scoreboard players set gameMode options 1
 
