@@ -1,4 +1,4 @@
-scoreboard players operation temp health = @s health
+execute store result score temp health run scoreboard players get @s health
 execute positioned ^ ^ ^1 run function ssbrc:fighters/snake/logic/weapons/s1000/projectile
 
 scoreboard players remove @s snake.s1000A 1
