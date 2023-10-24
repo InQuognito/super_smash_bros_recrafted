@@ -3,8 +3,7 @@ tag @s add holyWater.display
 execute if entity @p[tag=self,tag=!gold] run tag @s add default
 execute if entity @p[tag=self,tag=gold] run tag @s add gold
 
-loot replace entity @s[tag=!gold] armor.head loot ssbrc:fighters/alucard/holy_water/default
-loot replace entity @s[tag=gold] armor.head loot ssbrc:fighters/alucard/holy_water/gold
+loot replace entity @s armor.head loot ssbrc:fighters/alucard/holy_water
 
 data merge entity @s {Small:1b}
 

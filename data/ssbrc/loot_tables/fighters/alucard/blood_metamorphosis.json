@@ -9,16 +9,6 @@
 					"name": "minecraft:carrot_on_a_stick",
 					"functions": [
 						{
-							"function": "minecraft:set_name",
-							"entity": "this",
-							"name": {
-								"translate": "ssbrc.tooltips.alucard.bloodMetamorphosis",
-								"color": "dark_red",
-								"bold": true,
-								"italic": false
-							}
-						},
-						{
 							"function": "minecraft:set_lore",
 							"entity": "this",
 							"lore": [
@@ -77,27 +67,54 @@
 							"replace": true
 						},
 						{
-							"function": "minecraft:set_attributes",
-							"modifiers": [
+							"function": "minecraft:reference",
+							"name": "ssbrc:fighters/alucard/blood_metamorphosis/default",
+							"conditions": [
 								{
-									"attribute": "minecraft:generic.attack_damage",
-									"name": "Attack Damage",
-									"amount": 0,
-									"operation": "multiply_base",
-									"slot": "mainhand"
-								},
-								{
-									"attribute": "minecraft:generic.attack_speed",
-									"name": "Attack Speed",
-									"amount": 1024,
-									"operation": "multiply_base",
-									"slot": "mainhand"
+									"condition": "minecraft:inverted",
+									"term": {
+										"condition": "minecraft:entity_properties",
+										"entity": "this",
+										"predicate": {
+											"nbt": "{Tags:[\"gold\"]}"
+										}
+									}
 								}
 							]
 						},
 						{
+							"function": "minecraft:reference",
+							"name": "ssbrc:fighters/alucard/blood_metamorphosis/gold",
+							"conditions": [
+								{
+									"condition": "minecraft:entity_properties",
+									"entity": "this",
+									"predicate": {
+										"nbt": "{Tags:[\"gold\"]}"
+									}
+								}
+							]
+						},
+						{
+							"function": "minecraft:reference",
+							"name": "ssbrc:fighters/alucard/blood_metamorphosis/disabled",
+							"conditions": [
+								{
+									"condition": "minecraft:entity_properties",
+									"entity": "this",
+									"predicate": {
+										"nbt": "{Tags:[\"bloodMetamorphosis\"]}"
+									}
+								}
+							]
+						},
+						{
+							"function": "minecraft:reference",
+							"name": "ssbrc:fighters/ability"
+						},
+						{
 							"function": "minecraft:set_nbt",
-							"tag": "{bloodMetamorphosis:1,CustomModelData:1844,Unbreakable:1b,HideFlags:255}"
+							"tag": "{bloodMetamorphosis:1,Unbreakable:1b,HideFlags:255}"
 						}
 					]
 				}

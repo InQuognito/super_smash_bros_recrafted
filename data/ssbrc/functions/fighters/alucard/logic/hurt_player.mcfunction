@@ -45,5 +45,6 @@ execute if score random.output temp matches 3 run particle minecraft:dust 0.7 0.
 execute if score random.output temp matches 3 run particle minecraft:dust 0.7 0.3 0.3 1.5 ^1.00 ^1.1 ^1.1 0.0 0.0 0.0 0.005 1 normal @a
 
 function ssbrc:fighters/alucard/logic/abilities/blood_metamorphosis/deactivate
+loot replace entity @s weapon.mainhand loot ssbrc:fighters/alucard/alucard_sword
 
 advancement revoke @s only ssbrc:utility/flag/hurt_player/custom/alucard_sword

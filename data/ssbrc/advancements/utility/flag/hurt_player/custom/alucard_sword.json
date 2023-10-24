@@ -17,11 +17,10 @@
 					"source_entity": {
 						"equipment": {
 							"mainhand": {
-								"nbt": "{alucardSword:1}"
+								"nbt": "{alucardSword:1,awakened:1}"
 							}
 						}
 					},
-					"blocked": false,
 					"type": {
 						"is_explosion": false,
 						"is_fire": false,
