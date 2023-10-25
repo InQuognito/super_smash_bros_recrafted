@@ -1,8 +1,9 @@
-execute if entity @s[scores={useAbility=1..,cooldown.1=..0},nbt={SelectedItem:{tag:{chaosSphere:1}}}] at @s run function ssbrc:fighters/shovel_knight/logic/abilities/chaos_sphere/check
-execute if entity @s[scores={useAbility=1..,cooldown.1=..0},nbt={SelectedItem:{tag:{flareWand:1}}}] at @s run function ssbrc:fighters/shovel_knight/logic/abilities/flare_wand/check
-execute if entity @s[scores={useAbility=1..,cooldown.1=..0},nbt={SelectedItem:{tag:{throwingAnchor:1}}}] at @s run function ssbrc:fighters/shovel_knight/logic/abilities/throwing_anchor/check
-execute if entity @s[scores={useAbility=1..,cooldown.2=..0,duration.2=..0},nbt={SelectedItem:{tag:{phaseLocket:1}}}] at @s run function ssbrc:fighters/shovel_knight/logic/abilities/phase_locket/check
-execute if entity @s[scores={charge.step=5..,cooldown.2=..0,duration.2=..0},nbt={SelectedItem:{tag:{propellerDagger:1}}}] at @s run function ssbrc:fighters/shovel_knight/logic/abilities/propeller_dagger/check
+execute if entity @s[scores={useAbility=1..,cooldown.1=..0,cooldown.3=..0},nbt={SelectedItem:{tag:{chaosSphere:1}}}] at @s run function ssbrc:fighters/shovel_knight/logic/abilities/chaos_sphere/check
+execute if entity @s[scores={useAbility=1..,cooldown.1=..0,cooldown.3=..0},nbt={SelectedItem:{tag:{flareWand:1}}}] at @s run function ssbrc:fighters/shovel_knight/logic/abilities/flare_wand/check
+execute if entity @s[scores={useAbility=1..,cooldown.1=..0,cooldown.3=..0},nbt={SelectedItem:{tag:{throwingAnchor:1}}}] at @s run function ssbrc:fighters/shovel_knight/logic/abilities/throwing_anchor/check
+execute if entity @s[scores={useAbility=1..,cooldown.2=..0,cooldown.3=..0,duration.2=..0},nbt={SelectedItem:{tag:{phaseLocket:1}}}] at @s run function ssbrc:fighters/shovel_knight/logic/abilities/phase_locket/check
+execute if entity @s[scores={charge.step=5..,cooldown.2=..0,cooldown.3=..0,duration.2=..0},nbt={SelectedItem:{tag:{propellerDagger:1}}}] at @s run function ssbrc:fighters/shovel_knight/logic/abilities/propeller_dagger/check
+execute if entity @s[scores={useAbility=1..,cooldown.3=..0},nbt={SelectedItem:{tag:{warHorn:1}}}] unless score @s mana >= #shovel_knight.warHornManaCost vars at @s run function ssbrc:fighters/shovel_knight/logic/mana/insufficient
 
 # Mana
 function ssbrc:fighters/shovel_knight/logic/mana/update

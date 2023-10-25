@@ -6,7 +6,7 @@
 			"entries": [
 				{
 					"type": "minecraft:item",
-					"name": "minecraft:gunpowder",
+					"name": "minecraft:carrot_on_a_stick",
 					"functions": [
 						{
 							"function": "minecraft:set_name",
@@ -85,7 +85,7 @@
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{warHorn:1,CustomModelData:1920,HideFlags:255}"
+							"tag": "{warHorn:1,CustomModelData:1931,HideFlags:255}"
 						}
 					]
 				}

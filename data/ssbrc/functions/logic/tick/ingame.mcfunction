@@ -20,6 +20,7 @@ execute unless score $sectorZ map matches 1 run effect give @a[predicate=ssbrc:f
 
 # Fighters
 execute as @a[predicate=ssbrc:ingame] run function ssbrc:logic/tick/characters
+execute as @e[predicate=ssbrc:flag/targets] run function ssbrc:logic/tick/targets
 function ssbrc:logic/tick/post_checks
 
 execute as @a[team=!admin,tag=alive,scores={respawn=..0},gamemode=!adventure,gamemode=!spectator] run function ssbrc:logic/teams/admin
