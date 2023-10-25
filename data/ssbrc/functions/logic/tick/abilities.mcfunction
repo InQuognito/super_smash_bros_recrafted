@@ -133,8 +133,8 @@ execute as @e[type=minecraft:marker,tag=flameHands,predicate=ssbrc:id_match] at 
 
 # Alucard
 execute as @e[type=minecraft:marker,tag=mist,predicate=ssbrc:id_match] at @s run function ssbrc:fighters/alucard/logic/abilities/mist/tick_entity
-execute as @e[type=minecraft:armor_stand,tag=holyWater.display,tag=!falling,predicate=ssbrc:flag/no_vehicle,predicate=ssbrc:id_match] at @s run function ssbrc:fighters/alucard/logic/abilities/holy_water/drip_below
-execute as @e[type=minecraft:armor_stand,tag=holyWater.display,predicate=ssbrc:id_match] at @s unless block ~ ~-0.1 ~ #ssbrc:passthrough run function ssbrc:fighters/alucard/logic/abilities/holy_water/kill_item
+#execute as @e[type=minecraft:armor_stand,tag=holyWater.display,tag=!falling,predicate=ssbrc:flag/no_vehicle,predicate=ssbrc:id_match] at @s run function ssbrc:fighters/alucard/logic/abilities/holy_water/drip_below
+#execute as @e[type=minecraft:armor_stand,tag=holyWater.display,predicate=ssbrc:id_match] at @s unless block ~ ~-0.1 ~ #ssbrc:passthrough run function ssbrc:fighters/alucard/logic/abilities/holy_water/kill_item
 execute as @e[type=minecraft:area_effect_cloud,tag=holyWater,tag=!active,predicate=ssbrc:flag/no_vehicle,predicate=ssbrc:id_match] at @s run function ssbrc:fighters/alucard/logic/abilities/holy_water/enable
 
 # Giegue
