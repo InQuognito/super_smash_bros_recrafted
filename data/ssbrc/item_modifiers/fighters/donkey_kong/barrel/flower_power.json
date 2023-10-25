@@ -3,7 +3,7 @@
 		"function": "minecraft:set_name",
 		"entity": "this",
 		"name": {
-			"translate": "ssbrc.tooltips.donkey_kong.barrel",
+			"translate": "ssbrc.tooltips.donkey_kong.barrel.flowerPower",
 			"color": "aqua",
 			"bold": true,
 			"italic": false

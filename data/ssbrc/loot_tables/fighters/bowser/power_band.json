@@ -92,7 +92,7 @@
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{powerBand:1,CustomModelData:60}"
+							"tag": "{powerBand:1}"
 						}
 					]
 				}
