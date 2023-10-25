@@ -10,7 +10,7 @@ scoreboard players add @s temp 1
 execute if score @s temp matches 50.. run function ssbrc:fighters/sora/logic/abilities/strike_raid/regain
 
 scoreboard players operation #display temp = @s temp
-scoreboard players operation #display temp %= 20 integers
+scoreboard players operation #display temp %= 10 integers
 execute if score #display temp matches 0 run function ssbrc:fighters/sora/logic/abilities/strike_raid/display
 scoreboard players reset #display temp
 
