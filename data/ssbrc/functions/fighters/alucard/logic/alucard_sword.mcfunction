@@ -7,6 +7,7 @@ execute if entity @s[nbt={Inventory:[{tag:{alucardSword:1},Slot:5b}]}] run loot 
 execute if entity @s[nbt={Inventory:[{tag:{alucardSword:1},Slot:6b}]}] run loot replace entity @s hotbar.6 loot ssbrc:fighters/alucard/alucard_sword
 execute if entity @s[nbt={Inventory:[{tag:{alucardSword:1},Slot:7b}]}] run loot replace entity @s hotbar.7 loot ssbrc:fighters/alucard/alucard_sword
 execute if entity @s[nbt={Inventory:[{tag:{alucardSword:1},Slot:8b}]}] run loot replace entity @s hotbar.8 loot ssbrc:fighters/alucard/alucard_sword
+
 execute if entity @s[nbt={Inventory:[{tag:{alucardSword:1},Slot:9b}]}] run loot replace entity @s inventory.0 loot ssbrc:fighters/alucard/alucard_sword
 execute if entity @s[nbt={Inventory:[{tag:{alucardSword:1},Slot:10b}]}] run loot replace entity @s inventory.1 loot ssbrc:fighters/alucard/alucard_sword
 execute if entity @s[nbt={Inventory:[{tag:{alucardSword:1},Slot:11b}]}] run loot replace entity @s inventory.2 loot ssbrc:fighters/alucard/alucard_sword

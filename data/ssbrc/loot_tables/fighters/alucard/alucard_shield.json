@@ -73,11 +73,11 @@
 						},
 						{
 							"function": "minecraft:reference",
-							"name": "ssbrc:fighters/ability"
+							"name": "ssbrc:fighters/init/animation/smooth"
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{alucardShield:1,HideFlags:255}"
+							"tag": "{alucardShield:1}"
 						}
 					]
 				}

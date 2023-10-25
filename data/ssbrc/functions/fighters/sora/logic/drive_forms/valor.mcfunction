@@ -15,6 +15,7 @@ execute if entity @s[nbt={Inventory:[{tag:{keyblade:1},Slot:5b}]}] run loot repl
 execute if entity @s[nbt={Inventory:[{tag:{keyblade:1},Slot:6b}]}] run loot replace entity @s hotbar.6 loot ssbrc:fighters/sora/keyblades/primary/strike_raid
 execute if entity @s[nbt={Inventory:[{tag:{keyblade:1},Slot:7b}]}] run loot replace entity @s hotbar.7 loot ssbrc:fighters/sora/keyblades/primary/strike_raid
 execute if entity @s[nbt={Inventory:[{tag:{keyblade:1},Slot:8b}]}] run loot replace entity @s hotbar.8 loot ssbrc:fighters/sora/keyblades/primary/strike_raid
+
 execute if entity @s[nbt={Inventory:[{tag:{keyblade:1},Slot:9b}]}] run loot replace entity @s inventory.0 loot ssbrc:fighters/sora/keyblades/primary/strike_raid
 execute if entity @s[nbt={Inventory:[{tag:{keyblade:1},Slot:10b}]}] run loot replace entity @s inventory.1 loot ssbrc:fighters/sora/keyblades/primary/strike_raid
 execute if entity @s[nbt={Inventory:[{tag:{keyblade:1},Slot:11b}]}] run loot replace entity @s inventory.2 loot ssbrc:fighters/sora/keyblades/primary/strike_raid
@@ -45,8 +46,8 @@ execute if entity @s[nbt={Inventory:[{tag:{keyblade:1},Slot:35b}]}] run loot rep
 
 execute if entity @s[nbt={Inventory:[{tag:{keyblade:1},Slot:-106b}]}] run loot replace entity @s weapon.offhand loot ssbrc:fighters/sora/keyblades/primary/strike_raid
 
-loot replace entity @s[nbt=!{Inventory:[{Slot:-106b}]}] weapon.offhand loot ssbrc:fighters/sora/keyblades/secondary/strike_raid
-loot give @s[nbt={Inventory:[{Slot:-106b}]}] loot ssbrc:fighters/sora/keyblades/secondary/strike_raid
+loot replace entity @s[nbt=!{Inventory:[{tag:{keyblade:1,secondary:1}}]},nbt=!{Inventory:[{Slot:-106b}]}] weapon.offhand loot ssbrc:fighters/sora/keyblades/secondary/strike_raid
+loot give @s[nbt=!{Inventory:[{tag:{keyblade:1,secondary:1}}]},nbt={Inventory:[{Slot:-106b}]}] loot ssbrc:fighters/sora/keyblades/secondary/strike_raid
 
 function ssbrc:logic/fighters/armor/update
 function ssbrc:logic/fighters/effects/jump_boost

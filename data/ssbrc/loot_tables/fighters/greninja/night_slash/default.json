@@ -64,8 +64,12 @@
 							]
 						},
 						{
+							"function": "minecraft:reference",
+							"name": "ssbrc:fighters/init/unbreakable"
+						},
+						{
 							"function": "minecraft:set_nbt",
-							"tag": "{nightSlash:1,critical:0,Unbreakable:1b,HideFlags:255}"
+							"tag": "{nightSlash:1,critical:0}"
 						}
 					]
 				}

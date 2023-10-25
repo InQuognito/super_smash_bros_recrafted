@@ -1,0 +1,94 @@
+[
+	{
+		"function": "minecraft:set_lore",
+		"entity": "this",
+		"lore": [
+			{
+				"translate": "--------------",
+				"color": "gray",
+				"bold": false,
+				"italic": false
+			},
+			{
+				"translate": "ssbrc.tooltips.weapon.hybrid",
+				"color": "white",
+				"bold": false,
+				"italic": false,
+				"underlined": true
+			},
+			{
+				"translate": "ssbrc.tooltips.cloud.limitBreak",
+				"color": "gray",
+				"bold": false,
+				"italic": false,
+				"extra": [
+					{
+						"translate": "ssbrc.tooltips.cloud.crossSlash",
+						"color": "gray",
+						"bold": false,
+						"italic": false
+					}
+				]
+			},
+			{
+				"translate": "ssbrc.tooltips.cloud.crossSlash.description.1",
+				"color": "gray",
+				"bold": false,
+				"italic": false
+			},
+			{
+				"translate": "- [",
+				"color": "gray",
+				"bold": false,
+				"italic": false,
+				"extra": [
+					{
+						"keybind": "key.sneak",
+						"color": "gray",
+						"bold": false,
+						"italic": false
+					},
+					{
+						"translate": "] + [",
+						"color": "gray",
+						"bold": false,
+						"italic": false
+					},
+					{
+						"keybind": "key.use",
+						"color": "gray",
+						"bold": false,
+						"italic": false
+					},
+					{
+						"translate": "ssbrc.tooltips.cloud.changeModes",
+						"color": "gray",
+						"bold": false,
+						"italic": false
+					}
+				]
+			},
+			{
+				"translate": "ssbrc.fighters.cloud.punisher",
+				"color": "blue",
+				"bold": true,
+				"italic": false,
+				"extra": [
+					{
+						"translate": " -> ",
+						"color": "white",
+						"bold": false,
+						"italic": false
+					},
+					{
+						"translate": "ssbrc.fighters.cloud.operator",
+						"color": "green",
+						"bold": false,
+						"italic": false
+					}
+				]
+			}
+		],
+		"replace": true
+	}
+]

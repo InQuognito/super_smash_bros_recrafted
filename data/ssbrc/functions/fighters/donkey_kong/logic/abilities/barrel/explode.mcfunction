@@ -10,7 +10,7 @@ execute if entity @s[tag=oil] run particle minecraft:item minecraft:carrot_on_a_
 execute if entity @s[tag=oil] run particle minecraft:flame ~ ~ ~ 0.0 0.0 0.0 0.1 25 normal @a
 execute if entity @s[tag=oil] run playsound minecraft:block.netherite_block.break player @a
 
-execute as @a[tag=self,limit=1] run function ssbrc:fighters/donkey_kong/logic/abilities/barrel/regain
+loot give @a[tag=self,limit=1] loot ssbrc:fighters/donkey_kong/barrel
 
 kill @s
 

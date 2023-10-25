@@ -1,0 +1,10 @@
+[
+	{
+		"function": "minecraft:set_nbt",
+		"tag": "{Unbreakable:1b}"
+	},
+	{
+		"function": "minecraft:reference",
+		"name": "ssbrc:fighters/init/animation/instant"
+	}
+]

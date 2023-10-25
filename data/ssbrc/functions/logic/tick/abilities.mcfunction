@@ -8,7 +8,7 @@ execute as @e[type=minecraft:spectral_arrow,tag=failnaught,tag=awakened,predicat
 execute as @e[type=minecraft:marker,tag=raptorBoost,predicate=ssbrc:id_match] at @s run function ssbrc:fighters/captain_falcon/logic/abilities/raptor_boost/tick
 
 # Cloud
-execute as @e[type=minecraft:marker,tag=bladeBeam,predicate=ssbrc:id_match] at @s run function ssbrc:fighters/cloud/logic/blade_beam/tick
+execute as @e[type=minecraft:marker,tag=bladeBeam,predicate=ssbrc:id_match] at @s run function ssbrc:fighters/cloud/logic/abilities/buster_sword/blade_beam/tick
 
 # Dark Samus
 execute as @e[type=minecraft:marker,tag=phazonBeam,predicate=ssbrc:id_match] at @s run function ssbrc:fighters/dark_samus/logic/abilities/phazon_beam/tick

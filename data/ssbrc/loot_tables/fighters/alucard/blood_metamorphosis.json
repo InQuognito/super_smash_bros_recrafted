@@ -110,11 +110,11 @@
 						},
 						{
 							"function": "minecraft:reference",
-							"name": "ssbrc:fighters/ability"
+							"name": "ssbrc:fighters/init/unbreakable/instant"
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{bloodMetamorphosis:1,Unbreakable:1b,HideFlags:255}"
+							"tag": "{bloodMetamorphosis:1}"
 						}
 					]
 				}

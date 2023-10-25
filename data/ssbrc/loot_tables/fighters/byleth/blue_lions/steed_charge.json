@@ -59,27 +59,12 @@
 							"replace": true
 						},
 						{
-							"function": "minecraft:set_attributes",
-							"modifiers": [
-								{
-									"attribute": "minecraft:generic.attack_damage",
-									"name": "Attack Damage",
-									"amount": 0,
-									"operation": "multiply_base",
-									"slot": "mainhand"
-								},
-								{
-									"attribute": "minecraft:generic.attack_speed",
-									"name": "Attack Speed",
-									"amount": -1024,
-									"operation": "multiply_base",
-									"slot": "mainhand"
-								}
-							]
+							"function": "minecraft:reference",
+							"name": "ssbrc:fighters/init/animation/instant"
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{steedCharge:1,CustomModelData:118,HideFlags:255}"
+							"tag": "{steedCharge:1,CustomModelData:118}"
 						}
 					]
 				}

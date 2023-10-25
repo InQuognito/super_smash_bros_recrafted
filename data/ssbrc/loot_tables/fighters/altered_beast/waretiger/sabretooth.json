@@ -39,31 +39,16 @@
 							"replace": true
 						},
 						{
-							"function": "minecraft:set_attributes",
-							"modifiers": [
-								{
-									"attribute": "minecraft:generic.attack_damage",
-									"name": "Attack Damage",
-									"amount": 0,
-									"operation": "multiply_base",
-									"slot": "mainhand"
-								},
-								{
-									"attribute": "minecraft:generic.attack_speed",
-									"name": "Attack Speed",
-									"amount": 1024,
-									"operation": "multiply_base",
-									"slot": "mainhand"
-								}
-							]
-						},
-						{
 							"function": "minecraft:set_count",
 							"count": 6
 						},
 						{
+							"function": "minecraft:reference",
+							"name": "ssbrc:fighters/init/animation/smooth"
+						},
+						{
 							"function": "minecraft:set_nbt",
-							"tag": "{sabretooth:1,Fireworks:{Flight:3,Explosions:[{Type:1,Flicker:1b,Trail:1b,Colors:[I;14602026,14597930,14593834],FadeColors:[I;17233746]}]},HideFlags:255}"
+							"tag": "{sabretooth:1,Fireworks:{Flight:3,Explosions:[{Type:1,Flicker:1b,Trail:1b,Colors:[I;14602026,14597930,14593834],FadeColors:[I;17233746]}]}}"
 						}
 					]
 				}

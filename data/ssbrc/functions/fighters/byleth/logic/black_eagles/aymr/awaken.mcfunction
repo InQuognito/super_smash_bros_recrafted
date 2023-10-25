@@ -1,4 +1,4 @@
-loot replace entity @s weapon.mainhand loot ssbrc:fighters/byleth/black_eagles/aymr/awakened
+loot replace entity @s weapon.mainhand loot ssbrc:fighters/byleth/black_eagles/aymr
 
 scoreboard players set @s cooldown.1 10
 

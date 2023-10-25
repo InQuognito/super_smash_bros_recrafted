@@ -21,7 +21,7 @@ give @s[tag=byleth,tag=blackEagles,tag=weaponBroken] minecraft:spectral_arrow 4
 
 # Cloud
 tag @s[tag=cloud] add operator
-execute if entity @s[tag=cloud] run function ssbrc:fighters/cloud/logic/mode_switch/reset
+execute if entity @s[tag=cloud] run function ssbrc:fighters/cloud/logic/abilities/buster_sword/mode_switch/reset
 
 # Dark Samus
 execute if entity @s[tag=dark_samus] run function ssbrc:fighters/dark_samus/logic/abilities/phazon_beam/reset

@@ -65,8 +65,12 @@
 							"add": false
 						},
 						{
+							"function": "minecraft:reference",
+							"name": "ssbrc:fighters/init/unbreakable"
+						},
+						{
 							"function": "minecraft:set_nbt",
-							"tag": "{feralClaw:1,Unbreakable:1b,HideFlags:255}"
+							"tag": "{feralClaw:1}"
 						}
 					]
 				}

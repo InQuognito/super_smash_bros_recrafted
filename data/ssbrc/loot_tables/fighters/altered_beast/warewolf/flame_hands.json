@@ -91,8 +91,12 @@
 							"add": false
 						},
 						{
+							"function": "minecraft:reference",
+							"name": "ssbrc:fighters/init/common"
+						},
+						{
 							"function": "minecraft:set_nbt",
-							"tag": "{flameHands:1,CustomModelData:1822,HideFlags:255}"
+							"tag": "{flameHands:1,CustomModelData:1822}"
 						}
 					]
 				}

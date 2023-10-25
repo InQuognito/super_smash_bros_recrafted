@@ -1,0 +1,20 @@
+[
+	{
+		"function": "minecraft:set_name",
+		"entity": "this",
+		"name": {
+			"translate": "ssbrc.tooltips.hero.zenithianSword",
+			"color": "light_gray",
+			"bold": true,
+			"italic": false
+		}
+	},
+	{
+		"function": "minecraft:set_nbt",
+		"tag": "{CustomModelData:446}"
+	},
+	{
+		"function": "minecraft:reference",
+		"name": "ssbrc:fighters/init/ability"
+	}
+]

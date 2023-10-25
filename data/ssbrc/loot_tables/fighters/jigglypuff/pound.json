@@ -58,8 +58,12 @@
 							]
 						},
 						{
+							"function": "minecraft:reference",
+							"name": "ssbrc:fighters/init/unbreakable"
+						},
+						{
 							"function": "minecraft:set_nbt",
-							"tag": "{pound:1,Unbreakable:1b,HideFlags:255}"
+							"tag": "{pound:1}"
 						}
 					]
 				}

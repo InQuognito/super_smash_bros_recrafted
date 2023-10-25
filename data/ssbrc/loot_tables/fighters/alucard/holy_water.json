@@ -91,11 +91,11 @@
 						},
 						{
 							"function": "minecraft:reference",
-							"name": "ssbrc:fighters/ability"
+							"name": "ssbrc:fighters/init/unbreakable/smooth"
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{holyWater:1,CustomModelData:1841,Unbreakable:1b,HideFlags:255}"
+							"tag": "{holyWater:1}"
 						}
 					]
 				}

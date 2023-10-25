@@ -87,8 +87,12 @@
 							]
 						},
 						{
+							"function": "minecraft:reference",
+							"name": "ssbrc:fighters/init/unbreakable"
+						},
+						{
 							"function": "minecraft:set_nbt",
-							"tag": "{alucardSword:1,awakened:0,Unbreakable:1b,HideFlags:255}"
+							"tag": "{alucardSword:1}"
 						},
 						{
 							"function": "minecraft:reference",

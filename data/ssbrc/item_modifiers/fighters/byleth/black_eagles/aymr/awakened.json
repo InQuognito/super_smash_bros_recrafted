@@ -1,0 +1,56 @@
+[
+	{
+		"function": "minecraft:set_name",
+		"entity": "this",
+		"name": {
+			"translate": "ssbrc.tooltips.byleth.blackEagles.aymr",
+			"color": "red",
+			"bold": true,
+			"italic": false
+		}
+	},
+	{
+		"function": "minecraft:set_lore",
+		"entity": "this",
+		"lore": [
+			{
+				"translate": "-----",
+				"color": "gray",
+				"bold": false,
+				"italic": false
+			},
+			{
+				"translate": "ssbrc.tooltips.weapon.melee",
+				"color": "white",
+				"bold": false,
+				"italic": false,
+				"underlined": true
+			},
+			{
+				"translate": "- [",
+				"color": "gray",
+				"bold": false,
+				"italic": false,
+				"extra": [
+					{
+						"keybind": "key.use",
+						"color": "gray",
+						"bold": false,
+						"italic": false
+					},
+					{
+						"translate": "ssbrc.tooltips.byleth.blackEagles.aymr.description.3",
+						"color": "gray",
+						"bold": false,
+						"italic": false
+					}
+				]
+			}
+		],
+		"replace": true
+	},
+	{
+		"function": "minecraft:set_nbt",
+		"tag": "{awakened:1,CustomModelData:102}"
+	}
+]
