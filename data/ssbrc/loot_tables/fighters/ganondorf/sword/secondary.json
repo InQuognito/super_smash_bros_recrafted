@@ -9,21 +9,11 @@
 					"name": "minecraft:iron_sword",
 					"functions": [
 						{
-							"function": "minecraft:set_name",
-							"entity": "this",
-							"name": {
-								"translate": "ssbrc.tooltips.ganondorf.sword.windWaker.mainhand",
-								"color": "white",
-								"bold": true,
-								"italic": false
-							}
-						},
-						{
 							"function": "minecraft:set_lore",
 							"entity": "this",
 							"lore": [
 								{
-									"translate": "------------",
+									"translate": "------------------------",
 									"color": "gray",
 									"bold": false,
 									"italic": false
@@ -58,8 +48,25 @@
 							]
 						},
 						{
+							"function": "minecraft:reference",
+							"name": "ssbrc:fighters/ganondorf/sword/secondary/wind_waker",
+							"conditions": [
+								{
+									"condition": "minecraft:entity_properties",
+									"entity": "this",
+									"predicate": {
+										"nbt": "{Tags:[\"windWaker\"]}"
+									}
+								}
+							]
+						},
+						{
+							"function": "minecraft:reference",
+							"name": "ssbrc:fighters/init/unbreakable"
+						},
+						{
 							"function": "minecraft:set_nbt",
-							"tag": "{ganondorfSword:1,CustomModelData:400,Unbreakable:1b,HideFlags:255}"
+							"tag": "{ganondorf.sword:1}"
 						}
 					]
 				}

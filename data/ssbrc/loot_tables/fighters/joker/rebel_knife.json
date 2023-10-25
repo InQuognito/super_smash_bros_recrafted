@@ -9,16 +9,6 @@
 					"name": "minecraft:stone_sword",
 					"functions": [
 						{
-							"function": "minecraft:set_name",
-							"entity": "this",
-							"name": {
-								"translate": "ssbrc.tooltips.joker.rebelsKnife",
-								"color": "gray",
-								"bold": true,
-								"italic": false
-							}
-						},
-						{
 							"function": "minecraft:set_lore",
 							"entity": "this",
 							"lore": [
@@ -58,8 +48,16 @@
 							]
 						},
 						{
+							"function": "minecraft:reference",
+							"name": "ssbrc:fighters/joker/rebel_knife"
+						},
+						{
+							"function": "minecraft:reference",
+							"name": "ssbrc:fighters/init/unbreakable"
+						},
+						{
 							"function": "minecraft:set_nbt",
-							"tag": "{rebelsKnife:1,awakened:0,CustomModelData:601,Unbreakable:1b,HideFlags:255}"
+							"tag": "{rebelKnife:1}"
 						}
 					]
 				}

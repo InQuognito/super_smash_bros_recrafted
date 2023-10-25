@@ -8,7 +8,7 @@
 					"source_entity": {
 						"equipment": {
 							"mainhand": {
-								"nbt": "{rebelsKnife:1,fireBoost:1}"
+								"nbt": "{rebelKnife:1,fireBoost:1}"
 							}
 						}
 					}

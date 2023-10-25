@@ -1,5 +1,5 @@
 tag @s add rest
-loot replace entity @s weapon.mainhand loot ssbrc:fighters/jigglypuff/rest/disabled
+item modify entity @s weapon.mainhand ssbrc:fighters/jigglypuff/rest/disabled
 
 scoreboard players set @s charge.1 1
 

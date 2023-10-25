@@ -6,14 +6,14 @@
 			"entries": [
 				{
 					"type": "minecraft:item",
-					"name": "minecraft:stone_sword",
+					"name": "minecraft:netherite_sword",
 					"functions": [
 						{
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"translate": "ssbrc.tooltips.joker.rebelsKnife",
-								"color": "gray",
+								"translate": "ssbrc.tooltips.greninja.nightSlash",
+								"color": "dark_gray",
 								"bold": true,
 								"italic": false
 							}
@@ -23,7 +23,7 @@
 							"entity": "this",
 							"lore": [
 								{
-									"translate": "-------------",
+									"translate": "------------",
 									"color": "gray",
 									"bold": false,
 									"italic": false
@@ -34,32 +34,27 @@
 									"bold": false,
 									"italic": false,
 									"underlined": true
+								},
+								{
+									"translate": "ssbrc.tooltips.greninja.nightSlash.description.1",
+									"color": "gray",
+									"bold": false,
+									"italic": false
 								}
 							],
 							"replace": true
 						},
 						{
-							"function": "minecraft:set_attributes",
-							"modifiers": [
-								{
-									"attribute": "minecraft:generic.attack_damage",
-									"name": "Attack Damage",
-									"amount": 5,
-									"operation": "multiply_base",
-									"slot": "mainhand"
-								},
-								{
-									"attribute": "minecraft:generic.attack_speed",
-									"name": "Attack Speed",
-									"amount": 3,
-									"operation": "multiply_base",
-									"slot": "mainhand"
-								}
-							]
+							"function": "minecraft:reference",
+							"name": "ssbrc:fighters/greninja/night_slash/default"
+						},
+						{
+							"function": "minecraft:reference",
+							"name": "ssbrc:fighters/init/unbreakable"
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{rebelsKnife:1,awakened:0,CustomModelData:600,Unbreakable:1b,HideFlags:255}"
+							"tag": "{nightSlash:1}"
 						}
 					]
 				}

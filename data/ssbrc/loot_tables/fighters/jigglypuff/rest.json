@@ -9,16 +9,6 @@
 					"name": "minecraft:carrot_on_a_stick",
 					"functions": [
 						{
-							"function": "minecraft:set_name",
-							"entity": "this",
-							"name": {
-								"translate": "ssbrc.tooltips.jigglypuff.rest",
-								"color": "light_purple",
-								"bold": true,
-								"italic": false
-							}
-						},
-						{
 							"function": "minecraft:set_lore",
 							"entity": "this",
 							"lore": [
@@ -92,11 +82,40 @@
 						},
 						{
 							"function": "minecraft:reference",
+							"name": "ssbrc:fighters/jigglypuff/rest/default",
+							"conditions": [
+								{
+									"condition": "minecraft:inverted",
+									"term": {
+										"condition": "minecraft:entity_properties",
+										"entity": "this",
+										"predicate": {
+											"nbt": "{Tags:[\"rest\"]}"
+										}
+									}
+								}
+							]
+						},
+						{
+							"function": "minecraft:reference",
+							"name": "ssbrc:fighters/jigglypuff/rest/disabled",
+							"conditions": [
+								{
+									"condition": "minecraft:entity_properties",
+									"entity": "this",
+									"predicate": {
+										"nbt": "{Tags:[\"rest\"]}"
+									}
+								}
+							]
+						},
+						{
+							"function": "minecraft:reference",
 							"name": "ssbrc:fighters/init/unbreakable/instant"
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{rest:1,CustomModelData:50012}"
+							"tag": "{rest:1}"
 						}
 					]
 				}
