@@ -1,5 +1,4 @@
-loot replace entity @s[tag=!gold] hotbar.0 loot ssbrc:fighters/joker/rebels_knife/default/default
-loot replace entity @s[tag=gold] hotbar.0 loot ssbrc:fighters/joker/rebels_knife/gold/default
+loot replace entity @s hotbar.0 loot ssbrc:fighters/joker/rebel_knife
 
 loot replace entity @s[tag=!gold] hotbar.1 loot ssbrc:fighters/joker/tt33/default
 loot replace entity @s[tag=gold] hotbar.1 loot ssbrc:fighters/joker/tt33/gold
