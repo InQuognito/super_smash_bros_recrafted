@@ -107,7 +107,7 @@ execute as @e[type=minecraft:marker,tag=blizzaga,predicate=ssbrc:id_match] at @s
 execute as @e[type=minecraft:marker,tag=blizzaza,predicate=ssbrc:id_match] at @s run function ssbrc:fighters/sora/logic/abilities/blizzaga/blizzaza/tick
 execute as @e[type=minecraft:marker,tag=thundaga,predicate=ssbrc:id_match] at @s run function ssbrc:fighters/sora/logic/abilities/thundaga/tick
 execute as @e[type=minecraft:marker,tag=thundaza,predicate=ssbrc:id_match] at @s run function ssbrc:fighters/sora/logic/abilities/thundaga/thundaza/tick
-execute as @e[type=minecraft:armor_stand,tag=strikeRaid,predicate=ssbrc:id_match] at @s run function ssbrc:fighters/sora/logic/abilities/strike_raid/tick
+execute as @e[type=minecraft:item_display,tag=strikeRaid,predicate=ssbrc:id_match] at @s run function ssbrc:fighters/sora/logic/abilities/strike_raid/tick
 
 # Steve
 execute as @e[type=minecraft:item,nbt={Item:{tag:{Tags:[steve.item]}}},predicate=ssbrc:id_match] at @s run function ssbrc:fighters/steve/logic/item/tick

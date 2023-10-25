@@ -15,8 +15,7 @@
 								"translate": "ssbrc.statistics.playerProfile",
 								"color": "gold",
 								"bold": true,
-								"italic": false,
-								"font": "ssbrc:consola"
+								"italic": false
 							}
 						},
 						{
@@ -27,15 +26,13 @@
 									"translate": "---------------",
 									"color": "gray",
 									"bold": false,
-									"italic": false,
-									"font": "ssbrc:consola"
+									"italic": false
 								},
 								{
 									"translate": "ssbrc.statistics.highestWinStreak",
 									"color": "gold",
 									"bold": false,
 									"italic": false,
-									"font": "ssbrc:consola",
 									"extra": [
 										{
 											"score": {
@@ -44,8 +41,7 @@
 											},
 											"color": "yellow",
 											"bold": false,
-											"italic": false,
-											"font": "ssbrc:consola"
+											"italic": false
 										}
 									]
 								},
@@ -54,7 +50,6 @@
 									"color": "gold",
 									"bold": false,
 									"italic": false,
-									"font": "ssbrc:consola",
 									"extra": [
 										{
 											"score": {
@@ -63,8 +58,7 @@
 											},
 											"color": "yellow",
 											"bold": false,
-											"italic": false,
-											"font": "ssbrc:consola"
+											"italic": false
 										}
 									]
 								},
@@ -73,7 +67,6 @@
 									"color": "gold",
 									"bold": false,
 									"italic": false,
-									"font": "ssbrc:consola",
 									"extra": [
 										{
 											"score": {
@@ -82,8 +75,7 @@
 											},
 											"color": "yellow",
 											"bold": false,
-											"italic": false,
-											"font": "ssbrc:consola"
+											"italic": false
 										}
 									]
 								},
@@ -92,7 +84,6 @@
 									"color": "gold",
 									"bold": false,
 									"italic": false,
-									"font": "ssbrc:consola",
 									"extra": [
 										{
 											"score": {
@@ -101,8 +92,7 @@
 											},
 											"color": "yellow",
 											"bold": false,
-											"italic": false,
-											"font": "ssbrc:consola"
+											"italic": false
 										}
 									]
 								}
@@ -118,7 +108,6 @@
 									"color": "gold",
 									"bold": false,
 									"italic": false,
-									"font": "ssbrc:consola",
 									"extra": [
 										{
 											"score": {
@@ -128,14 +117,12 @@
 											"color": "yellow",
 											"bold": false,
 											"italic": false,
-											"font": "ssbrc:consola",
 											"extra": [
 												{
 													"translate": "%",
 													"color": "yellow",
 													"bold": false,
-													"italic": false,
-													"font": "ssbrc:consola"
+													"italic": false
 												}
 											]
 										}
@@ -153,7 +140,6 @@
 									"color": "gold",
 									"bold": false,
 									"italic": false,
-									"font": "ssbrc:consola",
 									"extra": [
 										{
 											"score": {
@@ -162,8 +148,7 @@
 											},
 											"color": "yellow",
 											"bold": false,
-											"italic": false,
-											"font": "ssbrc:consola"
+											"italic": false
 										}
 									]
 								},
@@ -172,7 +157,6 @@
 									"color": "gold",
 									"bold": false,
 									"italic": false,
-									"font": "ssbrc:consola",
 									"extra": [
 										{
 											"score": {
@@ -181,8 +165,7 @@
 											},
 											"color": "yellow",
 											"bold": false,
-											"italic": false,
-											"font": "ssbrc:consola"
+											"italic": false
 										}
 									]
 								}
@@ -198,7 +181,6 @@
 									"color": "gold",
 									"bold": false,
 									"italic": false,
-									"font": "ssbrc:consola",
 									"extra": [
 										{
 											"score": {
@@ -208,14 +190,12 @@
 											"color": "yellow",
 											"bold": false,
 											"italic": false,
-											"font": "ssbrc:consola",
 											"extra": [
 												{
 													"translate": "%",
 													"color": "yellow",
 													"bold": false,
-													"italic": false,
-													"font": "ssbrc:consola"
+													"italic": false
 												}
 											]
 										}
