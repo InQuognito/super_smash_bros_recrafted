@@ -12,7 +12,7 @@ execute if score @s temp matches 50.. run function ssbrc:fighters/sora/logic/abi
 scoreboard players operation #display temp = @s temp
 scoreboard players operation #display temp %= 10 integers
 execute if score #display temp matches 0 run function ssbrc:fighters/sora/logic/abilities/strike_raid/animation/1
-execute if score #display temp matches 5 run function ssbrc:fighters/sora/logic/abilities/strike_raid/animation/1
+execute if score #display temp matches 5 run function ssbrc:fighters/sora/logic/abilities/strike_raid/animation/2
 scoreboard players reset #display temp
 
 scoreboard players operation #loop temp = @s temp
