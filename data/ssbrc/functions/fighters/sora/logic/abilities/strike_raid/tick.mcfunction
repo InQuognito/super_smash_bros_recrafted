@@ -1,4 +1,4 @@
-particle minecraft:wax_off ~ ~0.75 ~ 0.3 0.3 0.3 1.0 1 normal @a
+particle minecraft:wax_off ~ ~ ~ 0.3 0.3 0.3 1.0 1 normal @a
 
 execute unless block ~ ~ ~ #ssbrc:passthrough run function ssbrc:fighters/sora/logic/abilities/strike_raid/regain
 
