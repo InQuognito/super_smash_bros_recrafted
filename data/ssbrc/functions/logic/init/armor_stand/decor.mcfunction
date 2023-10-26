@@ -1,4 +1,4 @@
-tag @s add propStand
+tag @s add staticObject
 
 data merge entity @s {NoGravity:1b,ShowArms:1b}
 

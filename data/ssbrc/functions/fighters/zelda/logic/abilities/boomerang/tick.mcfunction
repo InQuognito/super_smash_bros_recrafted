@@ -6,12 +6,16 @@ execute positioned ~-0.2 ~-0.2 ~-0.2 as @e[tag=!self,predicate=ssbrc:flag/target
 
 execute positioned ~-0.2 ~-0.2 ~-0.2 as @p[tag=self,dx=0] positioned ~-0.6 ~-0.6 ~-0.6 if entity @s[dx=0] run function ssbrc:fighters/zelda/logic/abilities/boomerang/regain
 
-function ssbrc:fighters/zelda/logic/abilities/boomerang/rotate
-
+scoreboard players add @s temp 1
 execute unless score @s temp matches 20.. rotated as @s run teleport @s ^ ^ ^0.6
 execute if score @s temp matches 20.. facing entity @a[tag=self,limit=1] eyes run function ssbrc:fighters/zelda/logic/abilities/boomerang/return
 
-scoreboard players add @s temp 1
+scoreboard players operation #display temp = @s temp
+scoreboard players operation #display temp %= 6 integers
+execute if score #display temp matches 0 run function ssbrc:fighters/link/logic/abilities/boomerang/animation/1
+execute if score #display temp matches 2 run function ssbrc:fighters/link/logic/abilities/boomerang/animation/2
+execute if score #display temp matches 4 run function ssbrc:fighters/link/logic/abilities/boomerang/animation/3
+scoreboard players reset #display temp
 
 scoreboard players operation #loop temp = @s temp
 scoreboard players operation #loop temp %= 3 integers

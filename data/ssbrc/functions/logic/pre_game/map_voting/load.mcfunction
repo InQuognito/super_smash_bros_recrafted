@@ -1,5 +1,4 @@
-kill @e[type=minecraft:armor_stand,tag=lobbyStand]
-kill @e[type=minecraft:text_display,tag=lobbyStand.label]
+kill @e[tag=staticObject,tag=!noKill]
 kill @e[type=minecraft:text_display,tag=lobby.action]
 
 # Blank Diorama

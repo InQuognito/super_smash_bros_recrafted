@@ -1,3 +1,5 @@
+tag @s remove intangible
+
 function ssbrc:fighters/alucard/logic/abilities/blood_metamorphosis/deactivate
 
 function ssbrc:logic/fighters/armor/get

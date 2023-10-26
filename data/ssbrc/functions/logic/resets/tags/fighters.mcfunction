@@ -37,7 +37,7 @@ function ssbrc:logic/resets/tags/fighters/ganondorf
 function ssbrc:logic/resets/tags/fighters/link
 function ssbrc:logic/resets/tags/fighters/zelda
 
-function ssbrc:logic/fighters/natures/reset
+function ssbrc:logic/fighters/pokemon/natures/reset
 
 # Misc
 tag @s remove abilityUsed

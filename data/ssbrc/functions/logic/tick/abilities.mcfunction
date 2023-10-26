@@ -25,7 +25,7 @@ execute as @e[type=minecraft:marker,tag=fox.blaster,predicate=ssbrc:id_match] at
 execute as @e[type=minecraft:marker,tag=fireFox,predicate=ssbrc:id_match] at @s run function ssbrc:fighters/fox/logic/abilities/fire_fox/tick
 
 # Greninja
-execute as @e[type=minecraft:armor_stand,tag=waterShuriken,predicate=ssbrc:id_match] at @s run function ssbrc:fighters/greninja/logic/abilities/water_shuriken/tick
+execute as @e[type=minecraft:item_display,tag=waterShuriken,predicate=ssbrc:id_match] at @s run function ssbrc:fighters/greninja/logic/abilities/water_shuriken/tick
 execute as @e[type=minecraft:marker,tag=shadowSneak,predicate=ssbrc:id_match] at @s run function ssbrc:fighters/greninja/logic/abilities/shadow_sneak/tick
 
 # Hero
@@ -47,7 +47,7 @@ execute as @e[type=minecraft:armor_stand,tag=blunderbuss,predicate=ssbrc:id_matc
 
 # Link
 execute as @e[type=minecraft:marker,tag=swordBeam,predicate=ssbrc:id_match] at @s run function ssbrc:fighters/link/logic/abilities/sword_beam/tick
-execute as @e[type=minecraft:armor_stand,tag=link.boomerang,predicate=ssbrc:id_match] at @s run function ssbrc:fighters/link/logic/abilities/boomerang/tick
+execute as @e[type=minecraft:item_display,tag=link.boomerang,predicate=ssbrc:id_match] at @s run function ssbrc:fighters/link/logic/abilities/boomerang/tick
 
 # Luigi
 execute as @e[type=minecraft:marker,tag=iceBall,predicate=ssbrc:id_match] at @s run function ssbrc:fighters/luigi/logic/abilities/ice_ball/tick
@@ -118,14 +118,14 @@ execute as @e[type=minecraft:armor_stand,tag=grenade,predicate=ssbrc:id_match] a
 
 # Zelda
 execute as @e[type=minecraft:armor_stand,tag=bomb,predicate=ssbrc:id_match] at @s run function ssbrc:fighters/zelda/logic/abilities/bomb/tick
-execute as @e[type=minecraft:armor_stand,tag=zelda.boomerang,predicate=ssbrc:id_match] at @s run function ssbrc:fighters/zelda/logic/abilities/boomerang/tick
+execute as @e[type=minecraft:item_display,tag=zelda.boomerang,predicate=ssbrc:id_match] at @s run function ssbrc:fighters/zelda/logic/abilities/boomerang/tick
 execute as @e[type=minecraft:spectral_arrow,tag=bow,predicate=ssbrc:id_match] at @s run function ssbrc:fighters/zelda/logic/abilities/bow/tick
 execute as @e[type=minecraft:marker,tag=fireRod,tag=!pillar,predicate=ssbrc:id_match] at @s run function ssbrc:fighters/zelda/logic/abilities/fire_rod/tick
 execute as @e[type=minecraft:marker,tag=fireRod,tag=pillar,tag=!active,predicate=ssbrc:id_match] at @s run function ssbrc:fighters/zelda/logic/abilities/fire_rod/alternate_function/tick
 execute as @e[type=minecraft:marker,tag=fireRod,tag=pillar,tag=active,predicate=ssbrc:id_match] at @s run function ssbrc:fighters/zelda/logic/abilities/fire_rod/alternate_function/tick_pillar
 execute as @e[type=minecraft:marker,tag=iceRod,predicate=ssbrc:id_match] at @s run function ssbrc:fighters/zelda/logic/abilities/ice_rod/tick
 execute as @e[type=minecraft:armor_stand,tag=iceBlock,predicate=ssbrc:id_match] at @s run function ssbrc:fighters/zelda/logic/abilities/ice_rod/alternate_function/tick
-execute as @e[type=minecraft:armor_stand,tag=magicBoomerang,predicate=ssbrc:id_match] at @s run function ssbrc:fighters/zelda/logic/abilities/magic_boomerang/tick
+execute as @e[type=minecraft:item_display,tag=magicBoomerang,predicate=ssbrc:id_match] at @s run function ssbrc:fighters/zelda/logic/abilities/magic_boomerang/tick
 execute at @s[nbt={Inventory:[{tag:{goronLocket:1}}]}] as @e[type=#ssbrc:arrows,tag=effect.wither,distance=..1.6,predicate=!ssbrc:id_match] run kill @s
 
 # Altered Beast
@@ -134,7 +134,7 @@ execute as @e[type=minecraft:marker,tag=flameHands,predicate=ssbrc:id_match] at 
 # Alucard
 execute as @e[type=minecraft:marker,tag=mist,predicate=ssbrc:id_match] at @s run function ssbrc:fighters/alucard/logic/abilities/mist/tick_entity
 execute as @e[type=minecraft:armor_stand,tag=holyWater.display,tag=!falling,predicate=ssbrc:flag/no_vehicle,predicate=ssbrc:id_match] at @s run function ssbrc:fighters/alucard/logic/abilities/holy_water/drip_below
-#execute as @e[type=minecraft:armor_stand,tag=holyWater.display,predicate=ssbrc:id_match] at @s unless block ~ ~-0.1 ~ #ssbrc:passthrough run function ssbrc:fighters/alucard/logic/abilities/holy_water/kill_item
+execute as @e[type=minecraft:armor_stand,tag=holyWater.display,predicate=ssbrc:id_match] at @s unless block ~ ~-0.1 ~ #ssbrc:passthrough run function ssbrc:fighters/alucard/logic/abilities/holy_water/kill_item
 execute as @e[type=minecraft:area_effect_cloud,tag=holyWater,tag=!active,predicate=ssbrc:flag/no_vehicle,predicate=ssbrc:id_match] at @s run function ssbrc:fighters/alucard/logic/abilities/holy_water/enable
 
 # Giegue

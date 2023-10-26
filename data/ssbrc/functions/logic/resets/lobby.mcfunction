@@ -23,7 +23,7 @@ summon minecraft:text_display -521.5 1.75 -1944.5 {text:'{"translate":"ssbrc.lob
 #setblock -531 4 -1946 minecraft:dark_oak_wall_sign[facing=east]{front_text:{messages:['[""]','[{"text":"Planet","clickEvent":{"action":"run_command","value":"/tellraw @s [\\"\\",{\\"text\\":\\"[\\",\\"bold\\":true,\\"color\\":\\"dark_green\\"},{\\"text\\":\\"Planet Minecraft\\",\\"bold\\":true,\\"color\\":\\"green\\",\\"clickEvent\\":{\\"action\\":\\"open_url\\",\\"value\\":\\"https://www.planetminecraft.com/member/team_recrafted/\\"}},{\\"text\\":\\"]\\",\\"bold\\":true,\\"color\\":\\"dark_green\\"}]"},"bold":true,"color":"green"}]','[{"text":"Minecraft","bold":true,"color":"green"}]','[""]'],has_glowing_text:1b},is_waxed:1b} destroy
 
 # Gold Mario
-summon minecraft:item_display -535.5 8.0 -1944.5 {Tags:["lobbyStatue"],item:{id:"minecraft:stick",tag:{CustomModelData:841},Count:1b},Rotation:[-90f,0f]}
+summon minecraft:item_display -535.5 8.0 -1944.5 {Tags:["staticObject","noKill"],item:{id:"minecraft:stick",tag:{CustomModelData:841},Count:1b},Rotation:[-90f,0f]}
 
 # Sandbag
 summon minecraft:item_display -525.5 5.25 -1936.5 {Tags:["sandbag","selectable"],item:{id:"minecraft:warped_fungus_on_a_stick",tag:{CustomModelData:10000},Count:1b},Rotation:[-145f,0f]}

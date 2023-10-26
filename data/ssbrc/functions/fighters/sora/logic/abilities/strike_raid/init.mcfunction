@@ -10,3 +10,4 @@ execute if entity @p[tag=self,nbt={SelectedItem:{tag:{secondary:1}}}] run loot r
 function ssbrc:logic/init/projectile_horizontal
 
 data merge entity @s {item_display:head,teleport_duration:1}
+function ssbrc:fighters/sora/logic/abilities/strike_raid/animation/1

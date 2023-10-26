@@ -1,4 +1,4 @@
-function ssbrc:logic/fighters/natures/reset
+function ssbrc:logic/fighters/pokemon/natures/reset
 
 tag @s add hardy
 
