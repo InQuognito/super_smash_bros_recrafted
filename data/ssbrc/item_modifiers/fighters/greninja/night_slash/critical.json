@@ -7,7 +7,7 @@
 				"name": "Attack Damage",
 				"amount": 7,
 				"operation": "multiply_base",
-				"id": "a07d0735-2ec6-4c3e-95d7-d4461a5189fe",
+				"id": "a07d0735-2ec6-4c3e-95d7-d4461a5189fd",
 				"slot": "mainhand"
 			},
 			{
