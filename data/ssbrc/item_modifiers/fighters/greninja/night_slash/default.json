@@ -7,6 +7,7 @@
 				"name": "Attack Damage",
 				"amount": 5,
 				"operation": "multiply_base",
+				"id": "a07d0735-2ec6-4c3e-95d7-d4461a5189fd",
 				"slot": "mainhand"
 			},
 			{
@@ -14,6 +15,7 @@
 				"name": "Attack Speed",
 				"amount": 2,
 				"operation": "multiply_base",
+				"id": "b56f75cb-78c4-4669-8eea-68669a393a06",
 				"slot": "mainhand"
 			}
 		]
