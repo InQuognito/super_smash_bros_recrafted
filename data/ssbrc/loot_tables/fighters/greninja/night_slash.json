@@ -45,6 +45,18 @@
 							"replace": true
 						},
 						{
+							"function": "minecraft:set_attributes",
+							"modifiers": [
+								{
+									"attribute": "minecraft:generic.attack_speed",
+									"name": "Attack Speed",
+									"amount": 2,
+									"operation": "multiply_base",
+									"slot": "mainhand"
+								}
+							]
+						},
+						{
 							"function": "minecraft:reference",
 							"name": "ssbrc:fighters/greninja/night_slash/default"
 						},

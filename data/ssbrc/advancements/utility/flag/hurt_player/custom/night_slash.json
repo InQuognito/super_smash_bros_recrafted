@@ -17,6 +17,6 @@
 		}
 	},
 	"rewards": {
-		"function": "ssbrc:fighters/greninja/logic/abilities/night_slash/check"
+		"function": "ssbrc:fighters/greninja/logic/abilities/night_slash/hit"
 	}
 }
