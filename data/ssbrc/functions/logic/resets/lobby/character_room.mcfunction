@@ -54,8 +54,8 @@ summon minecraft:item_display 144.5 6.0 193.5 {Tags:["selectable","staticObject"
 
 summon minecraft:text_display 141.5 7.25 194.5 {Tags:["staticObject"],text:'{"translate":"ssbrc.fighters.team_rocket","color":"dark_purple"}',billboard:center}
 summon minecraft:item_display 141.5 5.75 194.5 {Tags:["selectable","staticObject","fighterDisplay","team_rocket"],item:{id:"minecraft:stick",tag:{CustomModelData:1940},Count:1b},transformation:[0.75f,0f,0f,0f,0f,0.75f,0f,0f,0f,0f,0.75f,0f,0f,0f,0f,1f]}
-summon minecraft:item_display 142.0 6.0 195.0 {Tags:["staticObject"],item:{id:"minecraft:stick",tag:{CustomModelData:1941},Count:1b}}
-summon minecraft:item_display 141.0 6.0 195.0 {Tags:["staticObject"],item:{id:"minecraft:stick",tag:{CustomModelData:1942},Count:1b}}
+summon minecraft:item_display 142.0 6.0 195.0 {Tags:["staticObject","fighterDisplay"],item:{id:"minecraft:stick",tag:{CustomModelData:1941},Count:1b}}
+summon minecraft:item_display 141.0 6.0 195.0 {Tags:["staticObject","fighterDisplay"],item:{id:"minecraft:stick",tag:{CustomModelData:1942},Count:1b}}
 
 summon minecraft:text_display 139.5 7.25 194.5 {Tags:["staticObject"],text:'{"translate":"ssbrc.fighters.ness","color":"dark_purple"}',billboard:center}
 summon minecraft:item_display 139.5 6.0 194.5 {Tags:["selectable","staticObject","fighterDisplay","ness"],item:{id:"minecraft:stick",tag:{CustomModelData:1080},Count:1b}}
