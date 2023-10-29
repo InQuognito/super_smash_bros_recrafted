@@ -1,6 +1,6 @@
 [
 	{
 		"function": "minecraft:set_nbt",
-		"tag": "{id:\"minecraft:gunpowder\",CustomModelData:1840}"
+		"tag": "{CustomModelData:1845}"
 	}
 ]
