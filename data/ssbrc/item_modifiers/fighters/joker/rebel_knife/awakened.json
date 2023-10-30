@@ -46,6 +46,6 @@
 	},
 	{
 		"function": "minecraft:set_nbt",
-		"tag": "{awakened:1,CustomModelData:601}"
+		"tag": "{awakened:1}"
 	}
 ]
