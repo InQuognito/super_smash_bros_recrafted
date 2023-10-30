@@ -58,8 +58,12 @@
 							]
 						},
 						{
+							"function": "minecraft:reference",
+							"name": "ssbrc:fighters/init/common"
+						},
+						{
 							"function": "minecraft:set_nbt",
-							"tag": "{boxingGlove:1,HideFlags:255}"
+							"tag": "{boxingGlove:1}"
 						}
 					]
 				}

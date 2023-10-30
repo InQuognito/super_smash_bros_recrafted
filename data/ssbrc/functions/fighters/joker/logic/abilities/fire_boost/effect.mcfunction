@@ -1,3 +1,3 @@
-effect give @s minecraft:wither 3 1 true
+scoreboard players set @s burning 60
 
 playsound ssbrc:fighters.joker.fire_boost.hit player @a

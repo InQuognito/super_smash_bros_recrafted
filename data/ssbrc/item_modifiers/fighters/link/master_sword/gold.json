@@ -1,0 +1,31 @@
+[
+	{
+		"function": "minecraft:reference",
+		"name": "ssbrc:fighters/link/master_sword/gold/default",
+		"conditions": [
+			{
+				"condition": "minecraft:inverted",
+				"term": {
+					"condition": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"nbt": "{Tags:[\"fullHealth\"]}"
+					}
+				}
+			}
+		]
+	},
+	{
+		"function": "minecraft:reference",
+		"name": "ssbrc:fighters/link/master_sword/gold/awakened",
+		"conditions": [
+			{
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"nbt": "{Tags:[\"fullHealth\"]}"
+				}
+			}
+		]
+	}
+]

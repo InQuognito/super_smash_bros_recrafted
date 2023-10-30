@@ -1,0 +1,39 @@
+[
+	{
+		"function": "minecraft:reference",
+		"name": "ssbrc:fighters/init/unbreakable/instant"
+	},
+	{
+		"function": "minecraft:set_nbt",
+		"tag": "{CustomModelData:602}",
+		"conditions": [
+			{
+				"condition": "minecraft:inverted",
+				"term": {
+					"condition": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"nbt": "{Tags:[\"gold\"]}"
+					}
+				}
+			}
+		]
+	},
+	{
+		"function": "minecraft:set_nbt",
+		"tag": "{CustomModelData:608}",
+		"conditions": [
+			{
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"nbt": "{Tags:[\"gold\"]}"
+				}
+			}
+		]
+	},
+	{
+		"function": "minecraft:set_nbt",
+		"tag": "{mask:1}"
+	}
+]

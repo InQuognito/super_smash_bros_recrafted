@@ -8,7 +8,7 @@
 		"ops": [
 			{
 				"source": "damage",
-				"target": "AttributeModifiers[{Name:\"Damage\"}].Amount",
+				"target": "AttributeModifiers[{AttributeName:\"minecraft:generic.attack_damage\"}].Amount",
 				"op": "replace"
 			}
 		]

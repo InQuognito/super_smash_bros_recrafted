@@ -3,9 +3,7 @@ execute positioned ^ ^ ^1 summon minecraft:armor_stand run function ssbrc:fighte
 scoreboard players set @s cooldown.1 60
 execute if score @s shadow.chaosControl matches 1.. run function ssbrc:logic/fighters/cooldown_modifiers/chaos_control/1
 
-loot replace entity @s[tag=!gold] weapon.mainhand loot ssbrc:fighters/king_k_rool/blunderbuss/default/fire
-loot replace entity @s[tag=!gold] weapon.mainhand loot ssbrc:fighters/king_k_rool/blunderbuss/default/default
-loot replace entity @s[tag=gold] weapon.mainhand loot ssbrc:fighters/king_k_rool/blunderbuss/gold/fire
-loot replace entity @s[tag=gold] weapon.mainhand loot ssbrc:fighters/king_k_rool/blunderbuss/gold/default
+item replace entity @s weapon.mainhand with minecraft:air
+loot replace entity @s weapon.mainhand loot ssbrc:fighters/king_k_rool/blunderbuss
 
 playsound ssbrc:fighters.king_k_rool.blunderbuss.activate player @a
