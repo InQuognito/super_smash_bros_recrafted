@@ -71,7 +71,7 @@ execute as @e[type=minecraft:marker,tag=electricTerrain,predicate=ssbrc:id_match
 
 # Pit
 execute as @e[type=minecraft:spectral_arrow,tag=palutenaBow,predicate=ssbrc:id_match] at @s run function ssbrc:fighters/pit/logic/abilities/palutena_bow/tick
-execute as @e[type=minecraft:armor_stand,tag=guardianOrbitar,predicate=ssbrc:id_match] at @s run function ssbrc:fighters/pit/logic/abilities/guardian_orbitars/tick
+execute as @e[type=minecraft:item_display,tag=guardianOrbitar,predicate=ssbrc:id_match] at @s run function ssbrc:fighters/pit/logic/abilities/guardian_orbitars/tick
 
 # Pokémon Trainer
 execute as @e[type=minecraft:marker,tag=flareBlitz,predicate=ssbrc:id_match] at @s run function ssbrc:fighters/pokemon_trainer/logic/charizard/flare_blitz/tick
