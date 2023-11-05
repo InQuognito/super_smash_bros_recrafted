@@ -5,8 +5,7 @@ execute unless block ~ ~ ~ #ssbrc:passthrough run kill @s
 function ssbrc:logic/fighters/pokemon/natures/apply
 execute positioned ~-0.5 ~-0.5 ~-0.5 as @e[tag=!self,predicate=ssbrc:flag/targets,dx=0] run function ssbrc:fighters/greninja/logic/abilities/water_shuriken/hit
 scoreboard players reset specialAttack temp
-execute if score entityHit temp matches 1 run kill @s
-scoreboard players reset entityHit temp
+function ssbrc:logic/fighters/checks/hit
 
 teleport @s ^ ^ ^1.5
 
