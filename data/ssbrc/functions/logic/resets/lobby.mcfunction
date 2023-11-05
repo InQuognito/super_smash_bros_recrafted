@@ -13,6 +13,9 @@ summon minecraft:text_display -528.5 6.0 -1939.5 {Tags:["lobby.timer"],billboard
 summon minecraft:text_display -528.5 6.75 -1949.5 {text:'{"translate":"ssbrc.lobby.credits","color":"gold"}',billboard:center}
 summon minecraft:text_display -521.5 1.75 -1944.5 {text:'{"translate":"ssbrc.lobby.return","color":"gold"}',billboard:center}
 
+# Logo
+summon minecraft:item_display -542.5 20.5 -1944.5 {Tags:["lobby.logo"],Rotation:[-90f,30f],item:{id:"minecraft:barrier",tag:{CustomModelData:9999990},Count:1b},transformation:[5f,0f,0f,0f,0f,5f,0f,0.5f,0f,0f,5f,0f,0f,0f,0f,1f],brightness:{sky:15,block:15}}
+
 # YouTube
 #setblock -531 4 -1944 minecraft:dark_oak_wall_sign[facing=east]{front_text:{messages:['[""]','[{"text":"YouTube","clickEvent":{"action":"run_command","value":"/tellraw @s [\\"\\",{\\"text\\":\\"[\\",\\"bold\\":true,\\"color\\":\\"dark_red\\"},{\\"text\\":\\"YouTube\\",\\"bold\\":true,\\"color\\":\\"red\\",\\"clickEvent\\":{\\"action\\":\\"open_url\\",\\"value\\":\\"https://www.youtube.com/channel/UCCqXNuFgGs53GgP7oSQGtOA\\"}},{\\"text\\":\\"]\\",\\"bold\\":true,\\"color\\":\\"dark_red\\"}]"},"bold":true,"color":"red"}]','[""]','[""]'],has_glowing_text:1b},is_waxed:1b} destroy
 
