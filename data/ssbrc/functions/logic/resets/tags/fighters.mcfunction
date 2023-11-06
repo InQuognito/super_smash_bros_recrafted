@@ -49,6 +49,7 @@ tag @s remove critical
 tag @s remove hasShield
 tag @s remove ignoreFeedback
 tag @s remove immobile
+tag @s remove intangible
 tag @s remove naturalShiny
 tag @s remove nextFighterChosen
 tag @s remove shieldBroken
