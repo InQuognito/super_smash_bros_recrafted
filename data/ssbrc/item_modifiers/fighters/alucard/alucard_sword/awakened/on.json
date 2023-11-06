@@ -8,13 +8,6 @@
 				"amount": 12,
 				"operation": "multiply_base",
 				"slot": "mainhand"
-			},
-			{
-				"attribute": "minecraft:generic.attack_speed",
-				"name": "Attack Speed",
-				"amount": 2.5,
-				"operation": "multiply_base",
-				"slot": "mainhand"
 			}
 		]
 	},

@@ -32,13 +32,6 @@
 							"function": "minecraft:set_attributes",
 							"modifiers": [
 								{
-									"attribute": "minecraft:generic.attack_damage",
-									"name": "Attack Damage",
-									"amount": 4,
-									"operation": "multiply_base",
-									"slot": "mainhand"
-								},
-								{
 									"attribute": "minecraft:generic.attack_speed",
 									"name": "Attack Speed",
 									"amount": 2.5,
@@ -88,15 +81,23 @@
 						},
 						{
 							"function": "minecraft:reference",
-							"name": "ssbrc:fighters/init/unbreakable"
-						},
-						{
-							"function": "minecraft:set_nbt",
-							"tag": "{alucardSword:1}"
+							"name": "ssbrc:fighters/alucard/alucard_sword/awakened/off",
+							"conditions": [
+								{
+									"condition": "minecraft:inverted",
+									"term": {
+										"condition": "minecraft:entity_properties",
+										"entity": "this",
+										"predicate": {
+											"nbt": "{Tags:[\"bloodMetamorphosis\"]}"
+										}
+									}
+								}
+							]
 						},
 						{
 							"function": "minecraft:reference",
-							"name": "ssbrc:fighters/alucard/alucard_sword/awakened",
+							"name": "ssbrc:fighters/alucard/alucard_sword/awakened/on",
 							"conditions": [
 								{
 									"condition": "minecraft:entity_properties",
@@ -106,6 +107,14 @@
 									}
 								}
 							]
+						},
+						{
+							"function": "minecraft:reference",
+							"name": "ssbrc:fighters/init/unbreakable"
+						},
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{alucardSword:1}"
 						}
 					]
 				}

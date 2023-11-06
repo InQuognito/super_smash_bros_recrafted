@@ -32,13 +32,6 @@
 							"function": "minecraft:set_attributes",
 							"modifiers": [
 								{
-									"attribute": "minecraft:generic.attack_damage",
-									"name": "Attack Damage",
-									"amount": 5,
-									"operation": "multiply_base",
-									"slot": "mainhand"
-								},
-								{
 									"attribute": "minecraft:generic.attack_speed",
 									"name": "Attack Speed",
 									"amount": 3,
