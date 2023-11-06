@@ -58,7 +58,32 @@
 						},
 						{
 							"function": "minecraft:reference",
-							"name": "ssbrc:fighters/greninja/night_slash/default"
+							"name": "ssbrc:fighters/greninja/night_slash/default",
+							"conditions": [
+								{
+									"condition": "minecraft:inverted",
+									"term": {
+										"condition": "minecraft:entity_properties",
+										"entity": "this",
+										"predicate": {
+											"nbt": "{Tags:[\"critical\"]}"
+										}
+									}
+								}
+							]
+						},
+						{
+							"function": "minecraft:reference",
+							"name": "ssbrc:fighters/greninja/night_slash/critical",
+							"conditions": [
+								{
+									"condition": "minecraft:entity_properties",
+									"entity": "this",
+									"predicate": {
+										"nbt": "{Tags:[\"critical\"]}"
+									}
+								}
+							]
 						},
 						{
 							"function": "minecraft:reference",

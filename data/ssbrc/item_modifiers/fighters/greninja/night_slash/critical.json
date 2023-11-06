@@ -1,15 +1,13 @@
 [
 	{
-		"function": "minecraft:copy_nbt",
-		"source": {
-			"type": "minecraft:storage",
-			"source": "ssbrc:greninja/night_slash"
-		},
-		"ops": [
+		"function": "minecraft:set_attributes",
+		"modifiers": [
 			{
-				"source": "damage",
-				"target": "AttributeModifiers[{AttributeName:\"minecraft:generic.attack_damage\"}].Amount",
-				"op": "replace"
+				"attribute": "minecraft:generic.attack_damage",
+				"name": "Attack Damage",
+				"amount": 7,
+				"operation": "multiply_base",
+				"slot": "mainhand"
 			}
 		]
 	},

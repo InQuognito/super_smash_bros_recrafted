@@ -45,6 +45,7 @@ tag @s remove characterPicked
 tag @s remove checkDeath
 tag @s remove checkKill
 tag @s remove checkShockwave
+tag @s remove critical
 tag @s remove fullHealth
 tag @s remove hasShield
 tag @s remove ignoreFeedback
