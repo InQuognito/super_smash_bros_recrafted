@@ -1,3 +1,5 @@
+function ssbrc:fighters/joker/logic/abilities/rebels_guard/deactivate
+
 scoreboard players set @s duration.1 600
 scoreboard players set @s charge.1 0
 

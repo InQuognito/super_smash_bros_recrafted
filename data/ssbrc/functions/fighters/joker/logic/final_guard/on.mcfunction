@@ -1,3 +1,5 @@
+function ssbrc:fighters/joker/logic/abilities/rebels_guard/deactivate
+
 scoreboard players set @s duration.2 40
 
 function ssbrc:logic/fighters/effects/mobility/immobilize
