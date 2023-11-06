@@ -1,5 +1,3 @@
-tag @s add fullHealth
-
 loot replace entity @s hotbar.0 loot ssbrc:fighters/link/master_sword
 
 loot replace entity @s hotbar.1 loot ssbrc:fighters/link/fairy_bow

@@ -4,12 +4,11 @@
 		"name": "ssbrc:fighters/link/master_sword/dark_link/default",
 		"conditions": [
 			{
-				"condition": "minecraft:inverted",
-				"term": {
-					"condition": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"nbt": "{Tags:[\"fullHealth\"]}"
+				"condition": "minecraft:entity_scores",
+				"entity": "this",
+				"scores": {
+					"health": {
+						"max": 39
 					}
 				}
 			}
@@ -20,10 +19,12 @@
 		"name": "ssbrc:fighters/link/master_sword/dark_link/awakened",
 		"conditions": [
 			{
-				"condition": "minecraft:entity_properties",
+				"condition": "minecraft:entity_scores",
 				"entity": "this",
-				"predicate": {
-					"nbt": "{Tags:[\"fullHealth\"]}"
+				"scores": {
+					"health": {
+						"min": 40
+					}
 				}
 			}
 		]
