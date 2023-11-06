@@ -1,4 +1,4 @@
 tag @s remove spinning
 scoreboard players reset @s rotation
 
-item modify entity @s weapon.mainhand ssbrc:fighters/link/master_sword
+loot replace entity @s weapon.mainhand loot ssbrc:fighters/link/master_sword

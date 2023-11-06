@@ -8,7 +8,7 @@ execute if entity @s[predicate=ssbrc:fighters/link/master_sword_awakened,scores=
 execute if entity @s[predicate=ssbrc:fighters/link/master_sword_awakened,scores={charge.output=121..}] positioned ~ ~0.75 ~ run function ssbrc:fighters/link/logic/abilities/sword_spin/sword_beams_tier2
 
 tag @s add spinning
-item modify entity @s weapon.mainhand ssbrc:fighters/link/master_sword
+loot replace entity @s weapon.mainhand loot ssbrc:fighters/link/master_sword
 
 execute if block ~ ~-0.1 ~ #ssbrc:passthrough_charge run function ssbrc:fighters/link/logic/abilities/sword_spin/levitate
 
