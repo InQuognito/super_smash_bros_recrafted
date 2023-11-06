@@ -1,3 +1,5 @@
+execute store result score @s health run data get entity @s Health
+
 execute if entity @s[tag=bowser] run function ssbrc:fighters/bowser/kit
 execute if entity @s[tag=byleth] run function ssbrc:fighters/byleth/kit
 execute if entity @s[tag=captain_falcon] run function ssbrc:fighters/captain_falcon/kit
