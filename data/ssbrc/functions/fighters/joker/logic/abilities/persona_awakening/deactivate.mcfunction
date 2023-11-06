@@ -1,4 +1,3 @@
-scoreboard players set @s duration.1 0
 scoreboard players set @s charge.1 0
 
 function ssbrc:fighters/joker/logic/abilities/persona_awakening/rebel_knife
