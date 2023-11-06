@@ -703,7 +703,7 @@
 	},
 	{
 		"function": "minecraft:set_nbt",
-		"tag": "{Trim:{pattern:\"ssbrc:fighters/link/dark\",material:\"minecraft:quartz\"}}",
+		"tag": "{Trim:{pattern:\"ssbrc:fighters/link/dark_link\",material:\"minecraft:quartz\"}}",
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",

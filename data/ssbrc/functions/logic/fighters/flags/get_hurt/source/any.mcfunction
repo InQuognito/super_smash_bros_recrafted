@@ -1,3 +1,5 @@
+execute store result score @s health run data get entity @s Health
+
 execute if entity @s[tag=jigglypuff,tag=rest] if predicate ssbrc:random_chance/15 run function ssbrc:fighters/jigglypuff/logic/abilities/rest/deactivate
 execute if entity @s[tag=jigglypuff,tag=rest] if predicate ssbrc:random_chance/15 run function ssbrc:fighters/jigglypuff/logic/abilities/rest/deactivate
 execute if entity @s[tag=link,nbt={Inventory:[{tag:{masterSword:1,awakened:1}}]},scores={health=40..}] run function ssbrc:fighters/link/logic/master_sword
