@@ -6,4 +6,4 @@ execute if entity @s[predicate=ssbrc:stage/miiverse/rotate_counter_clockwise] ru
 execute store result entity @s Rotation[0] float 0.05 run scoreboard players get @s rotation
 
 scoreboard players operation idToMatch temp = @s id
-teleport @e[type=minecraft:armor_stand,tag=post,predicate=ssbrc:id_match] ^ ^ ^30 facing ~ ~ ~
+teleport @e[type=minecraft:item_display,tag=post,predicate=ssbrc:id_match] ^ ^ ^30 facing ~ ~ ~
