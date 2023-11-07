@@ -3,11 +3,9 @@ execute if entity @s[nbt={Inventory:[{tag:{shield:1},Slot:-106b}]}] run function
 scoreboard players add @s charge.1 1
 execute if score @s charge.1 matches 40.. positioned ^ ^ ^-1 run function ssbrc:fighters/steve/logic/item/spawn
 
-function ssbrc:fighters/steve/logic/abilities/mining/particle
-
 scoreboard players operation #loop temp = @s charge.1
 scoreboard players operation #loop temp %= 5 integers
-execute if score #loop temp matches 0 run playsound minecraft:block.stone.hit player @a ~ ~ ~ 0.25
+function ssbrc:fighters/steve/logic/abilities/mining/particle
 scoreboard players reset #loop temp
 
 scoreboard players set @s raycastSuccess 1
