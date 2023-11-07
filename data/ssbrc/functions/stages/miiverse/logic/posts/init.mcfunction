@@ -11,4 +11,4 @@ data merge entity @s[scores={id=6}] {Rotation:[0f,310f]}
 data merge entity @s[scores={id=7}] {Rotation:[0f,315f]}
 data merge entity @s[scores={id=8}] {Rotation:[0f,320f]}
 
-data merge entity @s {transformation:[3f,0f,0f,0f,0f,3f,0f,0f,0f,0f,3f,0f,0f,0f,0f,1f],brightness:{sky:13,block:13},teleport_duration:1}
+data merge entity @s {transformation:[4f,0f,0f,0f,0f,4f,0f,0f,0f,0f,4f,0f,0f,0f,0f,1f],brightness:{sky:15,block:15},teleport_duration:1}
