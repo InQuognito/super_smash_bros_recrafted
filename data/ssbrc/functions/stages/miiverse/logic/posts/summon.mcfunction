@@ -5,5 +5,5 @@ scoreboard players operation @s rotation = random.output temp
 execute store result entity @s Rotation[0] float 0.05 run scoreboard players get @s rotation
 
 scoreboard players operation idToPost temp = @s id
-execute positioned ^ ^ ^30 summon minecraft:armor_stand run function ssbrc:stages/miiverse/logic/posts/init
+execute positioned ^ ^ ^30 summon minecraft:item_display run function ssbrc:stages/miiverse/logic/posts/init
 scoreboard players reset idToPost temp
