@@ -17,6 +17,8 @@ execute if score $mapRoom timer matches 7 run function ssbrc:logic/pre_game/map_
 execute if score $mapRoom timer matches 7.. run scoreboard players reset $mapRoom timer
 
 # Reset Players
+execute if score gameStage temp matches 2.. if score players temp matches 0 run function ssbrc:logic/reset
+
 execute as @a unless score @s worldTime = $worldTime worldTime run function ssbrc:logic/join
 
 execute store result score $worldTime worldTime run time query gametime

@@ -1,23 +1,17 @@
 {
 	"values": [
+		"#ssbrc:foliage",
+		"#ssbrc:heads",
+		"#ssbrc:torches",
+		"#minecraft:all_signs",
 		"#minecraft:banners",
 		"#minecraft:buttons",
-		"#minecraft:crops",
-		"#minecraft:flowers",
-		"#minecraft:signs",
-		"#minecraft:wall_signs",
+		"#minecraft:pressure_plates",
 		"#minecraft:wool_carpets",
 		"minecraft:air",
-		"minecraft:grass",
 		"minecraft:light",
-		"minecraft:redstone_torch",
 		"minecraft:sea_pickle",
-		"minecraft:seagrass",
 		"minecraft:snow",
-		"minecraft:soul_torch",
-		"minecraft:structure_void",
-		"minecraft:tall_grass",
-		"minecraft:tall_seagrass",
-		"minecraft:torch"
+		"minecraft:structure_void"
 	]
 }
