@@ -6,24 +6,14 @@
 			"entries": [
 				{
 					"type": "minecraft:item",
-					"name": "minecraft:iron_axe",
+					"name": "minecraft:wooden_shovel",
 					"functions": [
-						{
-							"function": "minecraft:set_name",
-							"entity": "this",
-							"name": {
-								"translate": "ssbrc.tooltips.superMarioBros.hammer",
-								"color": "white",
-								"bold": true,
-								"italic": false
-							}
-						},
 						{
 							"function": "minecraft:set_lore",
 							"entity": "this",
 							"lore": [
 								{
-									"translate": "---------",
+									"translate": "----------------",
 									"color": "gray",
 									"bold": false,
 									"italic": false
@@ -44,22 +34,55 @@
 								{
 									"attribute": "minecraft:generic.attack_damage",
 									"name": "Attack Damage",
-									"amount": 5,
+									"amount": 7,
 									"operation": "multiply_base",
 									"slot": "mainhand"
 								},
 								{
 									"attribute": "minecraft:generic.attack_speed",
 									"name": "Attack Speed",
-									"amount": 1,
+									"amount": 2,
 									"operation": "multiply_base",
 									"slot": "mainhand"
 								}
 							]
 						},
 						{
+							"function": "minecraft:reference",
+							"name": "ssbrc:fighters/ness/mr_baseball_bat/default",
+							"conditions": [
+								{
+									"condition": "minecraft:inverted",
+									"term": {
+										"condition": "minecraft:entity_properties",
+										"entity": "this",
+										"predicate": {
+											"nbt": "{Tags:[\"gold\"]}"
+										}
+									}
+								}
+							]
+						},
+						{
+							"function": "minecraft:reference",
+							"name": "ssbrc:fighters/ness/mr_baseball_bat/gold",
+							"conditions": [
+								{
+									"condition": "minecraft:entity_properties",
+									"entity": "this",
+									"predicate": {
+										"nbt": "{Tags:[\"gold\"]}"
+									}
+								}
+							]
+						},
+						{
+							"function": "minecraft:reference",
+							"name": "ssbrc:fighters/init/unbreakable"
+						},
+						{
 							"function": "minecraft:set_nbt",
-							"tag": "{hammer:1,CustomModelData:821,Unbreakable:1b,HideFlags:255}"
+							"tag": "{mrBaseballBat:1}"
 						}
 					]
 				}

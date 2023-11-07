@@ -14,11 +14,15 @@
 						},
 						{
 							"function": "minecraft:reference",
+							"name": "ssbrc:fighters/pit/palutena_bow/joined"
+						},
+						{
+							"function": "minecraft:reference",
 							"name": "ssbrc:fighters/init/unbreakable"
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{palutenaBow:1,split:1,CustomModelData:1225}"
+							"tag": "{palutenaBow:1,split:0}"
 						}
 					]
 				}
