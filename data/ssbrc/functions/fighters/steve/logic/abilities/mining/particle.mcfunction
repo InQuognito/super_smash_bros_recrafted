@@ -1,4 +1,7 @@
+execute unless score particlePlaced temp matches 1 if block ^ ^ ^0.1 #ssbrc:material/andesite run function ssbrc:fighters/steve/logic/abilities/mining/particle/andesite
 execute unless score particlePlaced temp matches 1 if block ^ ^ ^0.1 #ssbrc:material/cobblestone run function ssbrc:fighters/steve/logic/abilities/mining/particle/cobblestone
+execute unless score particlePlaced temp matches 1 if block ^ ^ ^0.1 #ssbrc:material/diorite run function ssbrc:fighters/steve/logic/abilities/mining/particle/diorite
+execute unless score particlePlaced temp matches 1 if block ^ ^ ^0.1 #ssbrc:material/granite run function ssbrc:fighters/steve/logic/abilities/mining/particle/granite
 execute unless score particlePlaced temp matches 1 if block ^ ^ ^0.1 #ssbrc:material/stone run function ssbrc:fighters/steve/logic/abilities/mining/particle/stone
 execute unless score particlePlaced temp matches 1 if block ^ ^ ^0.1 #ssbrc:material/stone_brick run function ssbrc:fighters/steve/logic/abilities/mining/particle/stone_brick
 
