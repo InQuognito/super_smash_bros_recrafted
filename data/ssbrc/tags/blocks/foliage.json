@@ -2,8 +2,12 @@
 	"values": [
 		"#minecraft:crops",
 		"#minecraft:flowers",
+		"#minecraft:saplings",
+		"minecraft:large_fern",
+		"minecraft:fern",
 		"minecraft:grass",
 		"minecraft:seagrass",
+		"minecraft:sugar_cane",
 		"minecraft:tall_grass",
 		"minecraft:tall_seagrass"
 	]
