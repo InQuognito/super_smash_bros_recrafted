@@ -14,6 +14,6 @@ execute if block ~ ~ ~ minecraft:mycelium run particle minecraft:item minecraft:
 execute if block ~ ~ ~ minecraft:target run particle minecraft:item minecraft:target ~ ~ ~ 0.1 0.1 0.1 0.05 3 force @a
 execute if block ~ ~ ~ minecraft:tnt run particle minecraft:item minecraft:tnt ~ ~ ~ 0.1 0.1 0.1 0.05 3 force @a
 
-execute if score #loop temp matches 0 run playsound minecraft:block.grass.hit player @a ~ ~ ~ 0.25
+execute if score #loop temp matches 0 run playsound minecraft:block.grass.hit player @a ~ ~ ~ 1.0
 
 scoreboard players set particlePlaced temp 1
