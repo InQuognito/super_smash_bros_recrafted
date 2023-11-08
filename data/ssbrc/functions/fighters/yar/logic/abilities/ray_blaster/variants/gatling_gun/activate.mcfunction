@@ -7,7 +7,6 @@ scoreboard players operation @s cooldown.1 -= #gatlingGunCharge temp
 execute if score @s cooldown.1 matches ..0 run scoreboard players set @s cooldown.1 1
 execute if score @s shadow.chaosControl matches 1.. run function ssbrc:logic/fighters/cooldown_modifiers/chaos_control/1
 
-execute if score @s charge.output matches 1 run loot replace entity @s[tag=!gold] weapon.mainhand loot ssbrc:fighters/yar/ray_blaster/gatling_gun/default/charging
-execute if score @s charge.output matches 1 run loot replace entity @s[tag=gold] weapon.mainhand loot ssbrc:fighters/yar/ray_blaster/gatling_gun/gold/charging
+execute if score @s charge.output matches 1 run item modify entity @s weapon.mainhand ssbrc:fighters/yar/ray_blaster/gatling_gun
 
 playsound ssbrc:fighters.yar.gatling_gun.activate player @a

@@ -9,16 +9,6 @@
 					"name": "minecraft:carrot_on_a_stick",
 					"functions": [
 						{
-							"function": "minecraft:set_name",
-							"entity": "this",
-							"name": {
-								"translate": "ssbrc.tooltips.yar.gatlingGun",
-								"color": "gold",
-								"bold": true,
-								"italic": false
-							}
-						},
-						{
 							"function": "minecraft:set_lore",
 							"entity": "this",
 							"lore": [
@@ -29,7 +19,7 @@
 									"italic": false
 								},
 								{
-									"translate": "ssbrc.tooltips.ability.augment",
+									"translate": "ssbrc.tooltips.weapon.ranged",
 									"color": "white",
 									"bold": false,
 									"italic": false,
@@ -48,30 +38,10 @@
 											"italic": false
 										},
 										{
-											"translate": "ssbrc.tooltips.yar.powerUp.description.1",
+											"translate": "ssbrc.tooltips.ability.activate",
 											"color": "gray",
 											"bold": false,
-											"italic": false,
-											"extra": [
-												{
-													"translate": "ssbrc.tooltips.yar.rayBlaster",
-													"color": "gray",
-													"bold": false,
-													"italic": false
-												},
-												{
-													"translate": "ssbrc.tooltips.yar.powerUp.description.2",
-													"color": "gray",
-													"bold": false,
-													"italic": false
-												},
-												{
-													"translate": "ssbrc.tooltips.yar.gatlingGun",
-													"color": "gray",
-													"bold": false,
-													"italic": false
-												}
-											]
+											"italic": false
 										}
 									]
 								}
@@ -80,11 +50,40 @@
 						},
 						{
 							"function": "minecraft:reference",
-							"name": "ssbrc:fighters/init/unbreakable/instant"
+							"name": "ssbrc:fighters/yar/ray_blaster/default/default",
+							"conditions": [
+								{
+									"condition": "minecraft:inverted",
+									"term": {
+										"condition": "minecraft:entity_properties",
+										"entity": "this",
+										"predicate": {
+											"nbt": "{Tags:[\"gold\"]}"
+										}
+									}
+								}
+							]
+						},
+						{
+							"function": "minecraft:reference",
+							"name": "ssbrc:fighters/yar/ray_blaster/default/gold",
+							"conditions": [
+								{
+									"condition": "minecraft:entity_properties",
+									"entity": "this",
+									"predicate": {
+										"nbt": "{Tags:[\"gold\"]}"
+									}
+								}
+							]
+						},
+						{
+							"function": "minecraft:reference",
+							"name": "ssbrc:fighters/init/unbreakable/smooth"
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{powerUp:1,gatlingGun:1,CustomModelData:1967}"
+							"tag": "{rayBlaster:1,default:1,powerUp:0}"
 						}
 					]
 				}

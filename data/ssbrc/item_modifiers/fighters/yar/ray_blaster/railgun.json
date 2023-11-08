@@ -1,0 +1,31 @@
+[
+	{
+		"function": "minecraft:reference",
+		"name": "ssbrc:fighters/yar/ray_blaster/railgun/default",
+		"conditions": [
+			{
+				"condition": "minecraft:inverted",
+				"term": {
+					"condition": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"nbt": "{Tags:[\"gold\"]}"
+					}
+				}
+			}
+		]
+	},
+	{
+		"function": "minecraft:reference",
+		"name": "ssbrc:fighters/yar/ray_blaster/railgun/gold",
+		"conditions": [
+			{
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"nbt": "{Tags:[\"gold\"]}"
+				}
+			}
+		]
+	}
+]

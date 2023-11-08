@@ -15,10 +15,8 @@ execute if score @s[nbt={Inventory:[{tag:{drone:1,activate:1}}]}] yar.droneHealt
 execute if score @s cooldown.2 matches 1 run function ssbrc:fighters/yar/logic/abilities/drone/regain
 
 # Gatling Gun
-execute if entity @s[tag=!gold,nbt={SelectedItem:{tag:{gatlingGun:1,charging:1,powerUp:0}}}] unless score @s charge.output matches 1.. run loot replace entity @s weapon.mainhand loot ssbrc:fighters/yar/ray_blaster/gatling_gun/default/default
-execute if entity @s[tag=gold,nbt={SelectedItem:{tag:{gatlingGun:1,charging:1,powerUp:0}}}] unless score @s charge.output matches 1.. run loot replace entity @s weapon.mainhand loot ssbrc:fighters/yar/ray_blaster/gatling_gun/gold/default
-execute if entity @s[tag=!gold,nbt={Inventory:[{tag:{gatlingGun:1,charging:1,powerUp:0}}]},nbt=!{SelectedItem:{tag:{gatlingGun:1,powerUp:0}}}] run loot replace entity @s weapon.mainhand loot ssbrc:fighters/yar/ray_blaster/gatling_gun/default/default
-execute if entity @s[tag=gold,nbt={Inventory:[{tag:{gatlingGun:1,charging:1,powerUp:0}}]},nbt=!{SelectedItem:{tag:{gatlingGun:1,charging:1,powerUp:0}}}] run loot replace entity @s weapon.mainhand loot ssbrc:fighters/yar/ray_blaster/gatling_gun/gold/default
+execute if entity @s[nbt={SelectedItem:{tag:{gatlingGun:1,charging:1,powerUp:0}}}] unless score @s charge.output matches 1.. run item modify entity @s weapon.mainhand ssbrc:fighters/yar/ray_blaster/gatling_gun
+execute if entity @s[nbt={Inventory:[{tag:{gatlingGun:1,charging:1,powerUp:0}}]},nbt=!{SelectedItem:{tag:{gatlingGun:1,powerUp:0}}}] run item modify entity @s weapon.mainhand ssbrc:fighters/yar/ray_blaster/gatling_gun
 
 # Railgun
 execute if entity @s[scores={charge.output=1..},nbt={SelectedItem:{tag:{railgun:1}}}] run function ssbrc:fighters/yar/logic/abilities/ray_blaster/variants/railgun/charge

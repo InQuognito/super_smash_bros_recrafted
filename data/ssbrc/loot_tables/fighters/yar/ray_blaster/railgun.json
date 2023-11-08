@@ -9,16 +9,6 @@
 					"name": "minecraft:carrot_on_a_stick",
 					"functions": [
 						{
-							"function": "minecraft:set_name",
-							"entity": "this",
-							"name": {
-								"translate": "ssbrc.tooltips.yar.railgun",
-								"color": "gold",
-								"bold": true,
-								"italic": false
-							}
-						},
-						{
 							"function": "minecraft:set_lore",
 							"entity": "this",
 							"lore": [
@@ -29,7 +19,7 @@
 									"italic": false
 								},
 								{
-									"translate": "ssbrc.tooltips.ability.augment",
+									"translate": "ssbrc.tooltips.weapon.ranged",
 									"color": "white",
 									"bold": false,
 									"italic": false,
@@ -48,30 +38,16 @@
 											"italic": false
 										},
 										{
-											"translate": "ssbrc.tooltips.yar.powerUp.description.1",
+											"translate": "ssbrc.tooltips.yar.railgun.description.1",
 											"color": "gray",
 											"bold": false,
-											"italic": false,
-											"extra": [
-												{
-													"translate": "ssbrc.tooltips.yar.rayBlaster",
-													"color": "gray",
-													"bold": false,
-													"italic": false
-												},
-												{
-													"translate": "ssbrc.tooltips.yar.powerUp.description.2",
-													"color": "gray",
-													"bold": false,
-													"italic": false
-												},
-												{
-													"translate": "ssbrc.tooltips.yar.railgun",
-													"color": "gray",
-													"bold": false,
-													"italic": false
-												}
-											]
+											"italic": false
+										},
+										{
+											"translate": "ssbrc.tooltips.yar.railgun.description.2",
+											"color": "gray",
+											"bold": false,
+											"italic": false
 										}
 									]
 								}
@@ -80,11 +56,15 @@
 						},
 						{
 							"function": "minecraft:reference",
-							"name": "ssbrc:fighters/init/unbreakable/instant"
+							"name": "ssbrc:fighters/yar/ray_blaster/railgun"
+						},
+						{
+							"function": "minecraft:reference",
+							"name": "ssbrc:fighters/init/unbreakable/smooth"
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{powerUp:1,railgun:1,CustomModelData:1970}"
+							"tag": "{rayBlaster:1,railgun:1,powerUp:0}"
 						}
 					]
 				}

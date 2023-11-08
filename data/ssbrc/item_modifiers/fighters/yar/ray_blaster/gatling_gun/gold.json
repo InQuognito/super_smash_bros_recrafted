@@ -1,0 +1,45 @@
+[
+	{
+		"function": "minecraft:set_name",
+		"entity": "this",
+		"name": {
+			"translate": "ssbrc.tooltips.yar.gatlingGun",
+			"color": "gold",
+			"bold": true,
+			"italic": false
+		}
+	},
+	{
+		"function": "set_nbt",
+		"tag": "{charging:0,CustomModelData:1978}",
+		"conditions": [
+			{
+				"condition": "minecraft:inverted",
+				"term": {
+					"condition": "minecraft:entity_scores",
+					"entity": "this",
+					"scores": {
+						"charge.output": {
+							"min": 1
+						}
+					}
+				}
+			}
+		]
+	},
+	{
+		"function": "set_nbt",
+		"tag": "{charging:1,CustomModelData:1979}",
+		"conditions": [
+			{
+				"condition": "minecraft:entity_scores",
+				"entity": "this",
+				"scores": {
+					"charge.output": {
+						"min": 1
+					}
+				}
+			}
+		]
+	}
+]
