@@ -45,31 +45,16 @@
 							"replace": true
 						},
 						{
-							"function": "minecraft:set_attributes",
-							"modifiers": [
-								{
-									"attribute": "minecraft:generic.attack_damage",
-									"name": "Attack Damage",
-									"amount": 0,
-									"operation": "multiply_base",
-									"slot": "mainhand"
-								},
-								{
-									"attribute": "minecraft:generic.attack_speed",
-									"name": "Attack Speed",
-									"amount": 1024,
-									"operation": "multiply_base",
-									"slot": "mainhand"
-								}
-							]
-						},
-						{
 							"function": "minecraft:set_potion",
 							"id": "minecraft:strong_healing"
 						},
 						{
+							"function": "minecraft:reference",
+							"name": "ssbrc:fighters/init/animation/smooth"
+						},
+						{
 							"function": "minecraft:set_nbt",
-							"tag": "{redPotion:1,CustomModelData:1780,HideFlags:255}"
+							"tag": "{redPotion:1,CustomModelData:1780}"
 						}
 					]
 				}

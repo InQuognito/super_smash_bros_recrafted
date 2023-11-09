@@ -1,0 +1,93 @@
+{
+	"type": "minecraft:command",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:carrot_on_a_stick",
+					"functions": [
+						{
+							"function": "minecraft:set_lore",
+							"entity": "this",
+							"lore": [
+								{
+									"translate": "--------------------",
+									"color": "gray",
+									"bold": false,
+									"italic": false
+								},
+								{
+									"translate": "ssbrc.tooltips.weapon.hybrid",
+									"color": "white",
+									"bold": false,
+									"italic": false,
+									"underlined": true
+								},
+								{
+									"text": "- [",
+									"color": "gray",
+									"bold": false,
+									"italic": false,
+									"extra": [
+										{
+											"keybind": "key.use",
+											"color": "gray",
+											"bold": false,
+											"italic": false
+										},
+										{
+											"translate": "ssbrc.tooltips.ryu.collarboneBreaker.description.1",
+											"color": "gray",
+											"bold": false,
+											"italic": false
+										}
+									]
+								},
+								{
+									"translate": "ssbrc.tooltips.ryu.collarboneBreaker.description.2",
+									"color": "gray",
+									"bold": false,
+									"italic": false
+								}
+							],
+							"replace": true
+						},
+						{
+							"function": "minecraft:set_attributes",
+							"modifiers": [
+								{
+									"attribute": "minecraft:generic.attack_damage",
+									"name": "Attack Damage",
+									"amount": 6,
+									"operation": "multiply_base",
+									"slot": "mainhand"
+								},
+								{
+									"attribute": "minecraft:generic.attack_speed",
+									"name": "Attack Speed",
+									"amount": 2,
+									"operation": "multiply_base",
+									"slot": "mainhand"
+								}
+							]
+						},
+						{
+							"function": "minecraft:reference",
+							"name": "ssbrc:fighters/ryu/collarbone_breaker"
+						},
+						{
+							"function": "minecraft:reference",
+							"name": "ssbrc:fighters/init/unbreakable"
+						},
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{collarboneBreaker:1}"
+						}
+					]
+				}
+			]
+		}
+	]
+}

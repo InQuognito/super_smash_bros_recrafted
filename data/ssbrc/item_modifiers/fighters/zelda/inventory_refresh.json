@@ -1,0 +1,31 @@
+[
+	{
+		"function": "minecraft:set_nbt",
+		"tag": "{CustomModelData:9050}",
+		"conditions": [
+			{
+				"condition": "minecraft:inverted",
+				"term": {
+					"condition": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"nbt": "{Inventory:[{tag:{ringOfCharisma:1}}]}"
+					}
+				}
+			}
+		]
+	},
+	{
+		"function": "minecraft:set_nbt",
+		"tag": "{CustomModelData:9051}",
+		"conditions": [
+			{
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"nbt": "{Inventory:[{tag:{ringOfCharisma:1}}]}"
+				}
+			}
+		]
+	}
+]

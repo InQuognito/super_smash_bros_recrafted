@@ -1,0 +1,38 @@
+{
+	"type": "minecraft:command",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:carrot_on_a_stick",
+					"functions": [
+						{
+							"function": "minecraft:set_name",
+							"entity": "this",
+							"name": {
+								"translate": "item.minecraft.bow",
+								"color": "white",
+								"bold": true,
+								"italic": false
+							}
+						},
+						{
+							"function": "minecraft:reference",
+							"name": "ssbrc:fighters/init/preset/magic"
+						},
+						{
+							"function": "minecraft:reference",
+							"name": "ssbrc:fighters/zelda/bow/default"
+						},
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{bow:1,default:1}"
+						}
+					]
+				}
+			]
+		}
+	]
+}

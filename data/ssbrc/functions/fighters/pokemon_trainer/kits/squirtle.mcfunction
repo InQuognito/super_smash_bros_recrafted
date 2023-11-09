@@ -9,7 +9,9 @@ tellraw @s[tag=dawn] [{"translate":"ssbrc.fighters.pokemon_trainer.iChooseYou.pr
 tellraw @s[tag=victor] [{"translate":"ssbrc.fighters.pokemon_trainer.iChooseYou.prefix","color":"blue"},{"translate":"ssbrc.fighters.pokemon_trainer.squirtle.victor","color":"blue"},{"translate":"ssbrc.fighters.pokemon_trainer.iChooseYou","color":"blue"}]
 
 clear @s #ssbrc:equipment
+
 loot replace entity @s hotbar.0 loot ssbrc:fighters/pokemon_trainer/squirtle/bite
+
 loot replace entity @s hotbar.1 loot ssbrc:fighters/pokemon_trainer/squirtle/water_gun
 
 function ssbrc:logic/fighters/armor/update

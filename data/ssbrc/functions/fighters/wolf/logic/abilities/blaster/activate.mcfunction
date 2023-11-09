@@ -3,11 +3,7 @@ execute positioned ^ ^ ^1 summon minecraft:marker run function ssbrc:fighters/wo
 scoreboard players set @s cooldown.1 40
 execute if score @s shadow.chaosControl matches 1.. run function ssbrc:logic/fighters/cooldown_modifiers/chaos_control/1
 
-loot replace entity @s[tag=!gold,tag=!assault] weapon.mainhand loot ssbrc:fighters/wolf/blaster/default/fire
-loot replace entity @s[tag=!gold,tag=!assault] weapon.mainhand loot ssbrc:fighters/wolf/blaster/default/default
-loot replace entity @s[tag=gold] weapon.mainhand loot ssbrc:fighters/wolf/blaster/gold/fire
-loot replace entity @s[tag=gold] weapon.mainhand loot ssbrc:fighters/wolf/blaster/gold/default
-loot replace entity @s[tag=assault] weapon.mainhand loot ssbrc:fighters/wolf/blaster/assault/fire
-loot replace entity @s[tag=assault] weapon.mainhand loot ssbrc:fighters/wolf/blaster/assault/default
+item replace entity @s weapon.mainhand with minecraft:air
+loot replace entity @s weapon.mainhand loot ssbrc:fighters/wolf/blaster
 
 playsound ssbrc:fighters.wolf.blaster.activate player @a

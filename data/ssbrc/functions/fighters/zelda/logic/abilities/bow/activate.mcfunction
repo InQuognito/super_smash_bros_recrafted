@@ -1,4 +1,5 @@
-execute store result score charge.output temp run scoreboard players get @s charge.output
+scoreboard players operation charge.output temp = @s charge.output
+
 execute summon minecraft:marker run function ssbrc:fighters/zelda/logic/abilities/bow/init/marker
 
 scoreboard players operation @s mana -= #bowMagicCost temp

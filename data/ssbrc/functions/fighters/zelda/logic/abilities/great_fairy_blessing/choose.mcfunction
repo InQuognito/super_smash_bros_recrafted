@@ -7,17 +7,16 @@ scoreboard players operation #percentage temp = @s mana
 scoreboard players operation #percentage temp *= 100 integers
 scoreboard players operation #percentage temp /= #zelda.maxMagic vars
 
-execute store result score random.output temp run random value 0..7
+execute store result score random.output temp run random value 1..8
 
-execute if score random.output temp matches 0 run function ssbrc:fighters/zelda/logic/abilities/great_fairy_blessing/blessings/confusion
-execute if score random.output temp matches 1 run function ssbrc:fighters/zelda/logic/abilities/great_fairy_blessing/blessings/enchant_armor
-execute if score random.output temp matches 2 unless score #weaponEnchanted temp matches 1.. run function ssbrc:fighters/zelda/logic/abilities/great_fairy_blessing/blessings/enchant_weapon
-execute if score random.output temp matches 3 if score #percentage temp matches ..40 run function ssbrc:fighters/zelda/logic/abilities/great_fairy_blessing/blessings/fill_magic
-execute if score random.output temp matches 4 unless score #hasRedPotion temp matches 1.. run function ssbrc:fighters/zelda/logic/abilities/great_fairy_blessing/blessings/half_magic
-execute if score random.output temp matches 5 unless entity @s[tag=rupeeMaster] run function ssbrc:fighters/zelda/logic/abilities/great_fairy_blessing/blessings/rupee_master
-execute if score random.output temp matches 6 if score #hasGlassWeapon temp matches 1 run function ssbrc:fighters/zelda/logic/abilities/great_fairy_blessing/blessings/shatter_resist
-execute if score random.output temp matches 6 if score #hasNayrusRing temp matches 1 run function ssbrc:fighters/zelda/logic/abilities/great_fairy_blessing/blessings/shatter_resist
-execute if score random.output temp matches 7 if score teams options matches 1 run function ssbrc:fighters/zelda/logic/abilities/great_fairy_blessing/blessings/special_bond
+execute if score random.output temp matches 1 run function ssbrc:fighters/zelda/logic/abilities/great_fairy_blessing/blessings/confusion
+execute if score random.output temp matches 2 run function ssbrc:fighters/zelda/logic/abilities/great_fairy_blessing/blessings/enchant_armor
+execute if score random.output temp matches 3 unless score #weaponEnchanted temp matches 1.. run function ssbrc:fighters/zelda/logic/abilities/great_fairy_blessing/blessings/enchant_weapon
+execute if score random.output temp matches 4 if score #percentage temp matches ..40 run function ssbrc:fighters/zelda/logic/abilities/great_fairy_blessing/blessings/fill_magic
+execute if score random.output temp matches 5 unless score #hasRedPotion temp matches 1.. run function ssbrc:fighters/zelda/logic/abilities/great_fairy_blessing/blessings/half_magic
+execute if score random.output temp matches 6 unless entity @s[tag=rupeeMaster] run function ssbrc:fighters/zelda/logic/abilities/great_fairy_blessing/blessings/rupee_master
+execute if score random.output temp matches 7 run function ssbrc:fighters/zelda/logic/abilities/great_fairy_blessing/blessings/shatter_resist/check
+execute if score random.output temp matches 8 if score teams options matches 1 run function ssbrc:fighters/zelda/logic/abilities/great_fairy_blessing/blessings/special_bond/check
 
 execute if score #blessingChosen temp matches 1 run function ssbrc:fighters/zelda/logic/abilities/great_fairy_blessing/activate
 execute unless score #blessingChosen temp matches 1 run function ssbrc:fighters/zelda/logic/abilities/great_fairy_blessing/choose

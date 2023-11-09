@@ -34,7 +34,7 @@
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"translate": "ssbrc.tooltips.pikachu.megaPunch",
+								"translate": "ssbrc.tooltips.pokemon.megaPunch",
 								"color": "white",
 								"bold": true,
 								"italic": false
@@ -48,32 +48,6 @@
 									}
 								}
 							]
-						},
-						{
-							"function": "minecraft:set_lore",
-							"entity": "this",
-							"lore": [
-								{
-									"translate": "------------",
-									"color": "gray",
-									"bold": false,
-									"italic": false
-								},
-								{
-									"translate": "ssbrc.tooltips.weapon.melee",
-									"color": "white",
-									"bold": false,
-									"italic": false,
-									"underlined": true
-								},
-								{
-									"translate": "ssbrc.tooltips.pokemon_trainer.charizard.rockSmash.description.1",
-									"color": "gray",
-									"bold": false,
-									"italic": false
-								}
-							],
-							"replace": true
 						},
 						{
 							"function": "minecraft:set_attributes",
@@ -95,8 +69,25 @@
 							]
 						},
 						{
+							"function": "minecraft:reference",
+							"name": "ssbrc:fighters/init/preset/melee"
+						},
+						{
+							"function": "minecraft:set_lore",
+							"entity": "this",
+							"lore": [
+								{
+									"translate": "ssbrc.tooltips.pokemon_trainer.charizard.rockSmash.description.1",
+									"color": "gray",
+									"bold": false,
+									"italic": false
+								}
+							],
+							"replace": false
+						},
+						{
 							"function": "minecraft:set_nbt",
-							"tag": "{rockSmash:1,Unbreakable:1b,HideFlags:255}"
+							"tag": "{rockSmash:1}"
 						}
 					]
 				}

@@ -27,32 +27,6 @@
 							}
 						},
 						{
-							"function": "minecraft:set_lore",
-							"entity": "this",
-							"lore": [
-								{
-									"translate": "------------------",
-									"color": "gray",
-									"bold": false,
-									"italic": false
-								},
-								{
-									"translate": "ssbrc.tooltips.weapon.melee",
-									"color": "white",
-									"bold": false,
-									"italic": false,
-									"underlined": true
-								},
-								{
-									"translate": "ssbrc.tooltips.zelda.weapon.enchant.obsidian.description.1",
-									"color": "gray",
-									"bold": false,
-									"italic": false
-								}
-							],
-							"replace": true
-						},
-						{
 							"function": "minecraft:set_attributes",
 							"modifiers": [
 								{
@@ -72,8 +46,12 @@
 							]
 						},
 						{
+							"function": "minecraft:reference",
+							"name": "ssbrc:fighters/zelda/weapons/obsidian/spear"
+						},
+						{
 							"function": "minecraft:set_nbt",
-							"tag": "{spear:1,enchanted:1,obsidian:3,CustomModelData:9021,Unbreakable:1b,HideFlags:255}"
+							"tag": "{obsidian:3}"
 						}
 					]
 				}

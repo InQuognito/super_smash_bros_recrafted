@@ -9,24 +9,38 @@
 					"name": "minecraft:carrot_on_a_stick",
 					"functions": [
 						{
+							"function": "minecraft:set_attributes",
+							"modifiers": [
+								{
+									"attribute": "minecraft:generic.attack_damage",
+									"name": "Attack Damage",
+									"amount": 3,
+									"operation": "multiply_base",
+									"slot": "mainhand"
+								},
+								{
+									"attribute": "minecraft:generic.attack_speed",
+									"name": "Attack Speed",
+									"amount": 4,
+									"operation": "multiply_base",
+									"slot": "mainhand"
+								}
+							]
+						},
+						{
+							"function": "minecraft:reference",
+							"name": "ssbrc:fighters/byleth/blue_lions/areadbhar"
+						},
+						{
+							"function": "minecraft:reference",
+							"name": "ssbrc:fighters/init/preset/melee"
+						},
+						{
 							"function": "minecraft:set_lore",
 							"entity": "this",
 							"lore": [
 								{
-									"translate": "-----------",
-									"color": "gray",
-									"bold": false,
-									"italic": false
-								},
-								{
-									"translate": "ssbrc.tooltips.weapon.melee",
-									"color": "white",
-									"bold": false,
-									"italic": false,
-									"underlined": true
-								},
-								{
-									"translate": "- [",
+									"text": "- [",
 									"color": "gray",
 									"bold": false,
 									"italic": false,
@@ -58,34 +72,7 @@
 									]
 								}
 							],
-							"replace": true
-						},
-						{
-							"function": "minecraft:set_attributes",
-							"modifiers": [
-								{
-									"attribute": "minecraft:generic.attack_damage",
-									"name": "Attack Damage",
-									"amount": 3,
-									"operation": "multiply_base",
-									"slot": "mainhand"
-								},
-								{
-									"attribute": "minecraft:generic.attack_speed",
-									"name": "Attack Speed",
-									"amount": 4,
-									"operation": "multiply_base",
-									"slot": "mainhand"
-								}
-							]
-						},
-						{
-							"function": "minecraft:reference",
-							"name": "ssbrc:fighters/byleth/blue_lions/areadbhar"
-						},
-						{
-							"function": "minecraft:reference",
-							"name": "ssbrc:fighters/init/unbreakable"
+							"replace": false
 						},
 						{
 							"function": "minecraft:set_nbt",

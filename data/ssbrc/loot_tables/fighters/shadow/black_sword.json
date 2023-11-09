@@ -1,0 +1,43 @@
+{
+	"type": "minecraft:command",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:netherite_sword",
+					"functions": [
+						{
+							"function": "minecraft:set_attributes",
+							"modifiers": [
+								{
+									"attribute": "minecraft:generic.attack_damage",
+									"name": "Attack Damage",
+									"amount": 3,
+									"operation": "multiply_base",
+									"slot": "mainhand"
+								},
+								{
+									"attribute": "minecraft:generic.attack_speed",
+									"name": "Attack Speed",
+									"amount": 5,
+									"operation": "multiply_base",
+									"slot": "mainhand"
+								}
+							]
+						},
+						{
+							"function": "minecraft:reference",
+							"name": "ssbrc:fighters/init/preset/melee"
+						},
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{blackSword:1}"
+						}
+					]
+				}
+			]
+		}
+	]
+}

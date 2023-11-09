@@ -1,0 +1,59 @@
+[
+	{
+		"function": "minecraft:set_nbt",
+		"tag": "{CustomModelData:9052}",
+		"conditions": [
+			{
+				"condition": "minecraft:inverted",
+				"term": {
+					"condition": "minecraft:entity_scores",
+					"entity": "this",
+					"scores": {
+						"charge.output": {
+							"min": 1
+						}
+					}
+				}
+			}
+		]
+	},
+	{
+		"function": "minecraft:set_nbt",
+		"tag": "{pulling:1,CustomModelData:9053}",
+		"conditions": [
+			{
+				"condition": "minecraft:entity_scores",
+				"entity": "this",
+				"scores": {
+					"charge.output": 1
+				}
+			}
+		]
+	},
+	{
+		"function": "minecraft:set_nbt",
+		"tag": "{CustomModelData:9054}",
+		"conditions": [
+			{
+				"condition": "minecraft:entity_scores",
+				"entity": "this",
+				"scores": {
+					"charge.output": 11
+				}
+			}
+		]
+	},
+	{
+		"function": "minecraft:set_nbt",
+		"tag": "{CustomModelData:9055}",
+		"conditions": [
+			{
+				"condition": "minecraft:entity_scores",
+				"entity": "this",
+				"scores": {
+					"charge.output": 19
+				}
+			}
+		]
+	}
+]

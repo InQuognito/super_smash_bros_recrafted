@@ -17,7 +17,7 @@
 				"underlined": true
 			},
 			{
-				"translate": "- [",
+				"text": "- [",
 				"color": "gray",
 				"bold": false,
 				"italic": false,
@@ -75,7 +75,7 @@
 				"underlined": true
 			},
 			{
-				"translate": "- [",
+				"text": "- [",
 				"color": "gray",
 				"bold": false,
 				"italic": false,
@@ -123,7 +123,7 @@
 		"entity": "this",
 		"lore": [
 			{
-				"translate": "- [",
+				"text": "- [",
 				"color": "gray",
 				"bold": false,
 				"italic": false,

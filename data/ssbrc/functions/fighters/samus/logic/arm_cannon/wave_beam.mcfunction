@@ -1,5 +1,4 @@
-loot replace entity @s[tag=!gold] weapon.mainhand loot ssbrc:fighters/samus/arm_cannon/default/wave_beam/default
-loot replace entity @s[tag=gold] weapon.mainhand loot ssbrc:fighters/samus/arm_cannon/gold/wave_beam/default
+loot replace entity @s weapon.mainhand loot ssbrc:fighters/samus/arm_cannon/wave_beam
 
 scoreboard players set @s cooldown.2 20
 

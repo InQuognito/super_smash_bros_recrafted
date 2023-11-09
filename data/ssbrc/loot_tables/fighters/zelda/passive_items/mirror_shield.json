@@ -53,25 +53,6 @@
 							"append": false
 						},
 						{
-							"function": "minecraft:set_attributes",
-							"modifiers": [
-								{
-									"attribute": "minecraft:generic.attack_damage",
-									"name": "Attack Damage",
-									"amount": 0,
-									"operation": "multiply_base",
-									"slot": "mainhand"
-								},
-								{
-									"attribute": "minecraft:generic.attack_speed",
-									"name": "Attack Speed",
-									"amount": 1024,
-									"operation": "multiply_base",
-									"slot": "mainhand"
-								}
-							]
-						},
-						{
 							"function": "minecraft:copy_nbt",
 							"source": {
 								"type": "minecraft:storage",
@@ -86,8 +67,12 @@
 							]
 						},
 						{
+							"function": "minecraft:reference",
+							"name": "ssbrc:fighters/init/animation/smooth"
+						},
+						{
 							"function": "minecraft:set_nbt",
-							"tag": "{passiveItem:1,mirrorShield:1,HideFlags:255}"
+							"tag": "{passiveItem:1,mirrorShield:1}"
 						}
 					]
 				}
