@@ -25,6 +25,10 @@
 						},
 						{
 							"function": "minecraft:reference",
+							"name": "ssbrc:ui/separator"
+						},
+						{
+							"function": "minecraft:reference",
 							"name": "ssbrc:ui/shop/price/skin"
 						},
 						{
