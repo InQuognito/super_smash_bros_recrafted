@@ -14,6 +14,7 @@ function ssbrc:logic/resets/options
 
 function ssbrc:logic/resets/advancements
 function ssbrc:logic/resets/bossbars
+function ssbrc:logic/resets/data
 function ssbrc:logic/resets/gamerules
 function ssbrc:logic/resets/schedule
 function ssbrc:logic/resets/teams/reset
