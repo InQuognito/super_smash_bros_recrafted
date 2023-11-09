@@ -20,6 +20,10 @@
 	},
 	{
 		"function": "minecraft:reference",
+		"name": "ssbrc:fighters/init/tooltip/ability/ranged"
+	},
+	{
+		"function": "minecraft:reference",
 		"name": "ssbrc:fighters/init/unbreakable"
 	}
 ]

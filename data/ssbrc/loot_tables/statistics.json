@@ -19,15 +19,13 @@
 							}
 						},
 						{
+							"function": "minecraft:reference",
+							"name": "ssbrc:fighters/init/preset/ui"
+						},
+						{
 							"function": "minecraft:set_lore",
 							"entity": "this",
 							"lore": [
-								{
-									"translate": "---------------",
-									"color": "gray",
-									"bold": false,
-									"italic": false
-								},
 								{
 									"translate": "ssbrc.statistics.highestWinStreak",
 									"color": "gold",
@@ -203,10 +201,6 @@
 								}
 							],
 							"replace": false
-						},
-						{
-							"function": "minecraft:reference",
-							"name": "ssbrc:fighters/init/animation/instant"
 						},
 						{
 							"function": "minecraft:set_nbt",

@@ -9,16 +9,6 @@
 					"name": "minecraft:carrot_on_a_stick",
 					"functions": [
 						{
-							"function": "minecraft:set_name",
-							"entity": "this",
-							"name": {
-								"translate": "ssbrc.tooltips.theLegendOfZelda.boomerang",
-								"color": "gold",
-								"bold": true,
-								"italic": false
-							}
-						},
-						{
 							"function": "minecraft:reference",
 							"name": "ssbrc:fighters/init/preset/magic"
 						},
@@ -28,7 +18,7 @@
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{boomerang:1,CustomModelData:9028}"
+							"tag": "{CustomModelData:9028}"
 						}
 					]
 				}

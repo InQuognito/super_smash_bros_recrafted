@@ -41,21 +41,13 @@
 											"color": "yellow"
 										}
 									]
-								},
-								{
-									"translate": "",
-									"color": "white",
-									"bold": false,
-									"italic": false
-								},
-								{
-									"translate": "ssbrc.shop.purchase",
-									"color": "green",
-									"bold": false,
-									"italic": false
 								}
 							],
 							"replace": true
+						},
+						{
+							"function": "minecraft:reference",
+							"name": "ssbrc:ui/shop/unowned"
 						},
 						{
 							"function": "minecraft:set_nbt",

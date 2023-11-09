@@ -23,6 +23,10 @@
 							"name": "ssbrc:fighters/init/tooltip/separator"
 						},
 						{
+							"function": "minecraft:reference",
+							"name": "ssbrc:fighters/init/unbreakable/instant"
+						},
+						{
 							"function": "minecraft:set_lore",
 							"entity": "this",
 							"lore": [
@@ -41,10 +45,6 @@
 								}
 							],
 							"replace": false
-						},
-						{
-							"function": "minecraft:reference",
-							"name": "ssbrc:fighters/init/unbreakable/instant"
 						},
 						{
 							"function": "minecraft:set_nbt",

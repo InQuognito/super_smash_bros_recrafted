@@ -20,7 +20,11 @@
 						},
 						{
 							"function": "minecraft:reference",
-							"name": "ssbrc:fighters/init/tooltip/weapon/magic"
+							"name": "ssbrc:fighters/init/tooltip/ability/magic"
+						},
+						{
+							"function": "minecraft:reference",
+							"name": "ssbrc:fighters/init/animation/smooth"
 						},
 						{
 							"function": "minecraft:set_lore",
@@ -54,10 +58,6 @@
 								}
 							],
 							"replace": false
-						},
-						{
-							"function": "minecraft:reference",
-							"name": "ssbrc:fighters/init/animation/smooth"
 						},
 						{
 							"function": "minecraft:set_nbt",

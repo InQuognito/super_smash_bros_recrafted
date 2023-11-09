@@ -9,68 +9,16 @@
 					"name": "minecraft:carrot_on_a_stick",
 					"functions": [
 						{
-							"function": "minecraft:set_name",
-							"entity": "this",
-							"name": {
-								"translate": "ssbrc.tooltips.theLegendOfZelda.boomerang",
-								"color": "gold",
-								"bold": true,
-								"italic": false
-							}
-						},
-						{
-							"function": "minecraft:set_lore",
-							"entity": "this",
-							"lore": [
-								{
-									"translate": "-----------",
-									"color": "gray",
-									"bold": false,
-									"italic": false
-								},
-								{
-									"translate": "ssbrc.tooltips.weapon.ranged",
-									"color": "white",
-									"bold": false,
-									"italic": false,
-									"underlined": true
-								},
-								{
-									"text": "- [",
-									"color": "gray",
-									"bold": false,
-									"italic": false,
-									"extra": [
-										{
-											"keybind": "key.use",
-											"color": "gray",
-											"bold": false,
-											"italic": false
-										},
-										{
-											"translate": "ssbrc.tooltips.theLegendOfZelda.boomerang.description.1",
-											"color": "gray",
-											"bold": false,
-											"italic": false
-										}
-									]
-								},
-								{
-									"translate": "ssbrc.tooltips.theLegendOfZelda.boomerang.description.2",
-									"color": "gray",
-									"bold": false,
-									"italic": false
-								}
-							],
-							"replace": true
+							"function": "minecraft:reference",
+							"name": "ssbrc:fighters/init/preset/ranged"
 						},
 						{
 							"function": "minecraft:reference",
-							"name": "ssbrc:fighters/init/unbreakable/smooth"
+							"name": "ssbrc:fighters/link/boomerang"
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{boomerang:1,CustomModelData:723}"
+							"tag": "{CustomModelData:723}"
 						}
 					]
 				}

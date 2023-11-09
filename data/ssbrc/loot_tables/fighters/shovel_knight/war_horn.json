@@ -24,7 +24,11 @@
 						},
 						{
 							"function": "minecraft:reference",
-							"name": "ssbrc:fighters/init/tooltip/weapon/offensive"
+							"name": "ssbrc:fighters/init/tooltip/ability/offensive"
+						},
+						{
+							"function": "minecraft:reference",
+							"name": "ssbrc:fighters/init/unbreakable/smooth"
 						},
 						{
 							"function": "minecraft:set_lore",
@@ -52,10 +56,6 @@
 								}
 							],
 							"replace": false
-						},
-						{
-							"function": "minecraft:reference",
-							"name": "ssbrc:fighters/init/unbreakable/smooth"
 						},
 						{
 							"function": "minecraft:set_nbt",

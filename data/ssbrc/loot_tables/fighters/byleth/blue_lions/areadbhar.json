@@ -29,10 +29,6 @@
 						},
 						{
 							"function": "minecraft:reference",
-							"name": "ssbrc:fighters/byleth/blue_lions/areadbhar"
-						},
-						{
-							"function": "minecraft:reference",
 							"name": "ssbrc:fighters/init/preset/melee"
 						},
 						{
@@ -73,6 +69,39 @@
 								}
 							],
 							"replace": false
+						},
+						{
+							"function": "minecraft:reference",
+							"name": "ssbrc:fighters/byleth/blue_lions/areadbhar/default",
+							"conditions": [
+								{
+									"condition": "minecraft:inverted",
+									"term": {
+										"condition": "minecraft:entity_scores",
+										"entity": "this",
+										"scores": {
+											"charge.output": {
+												"min": 81
+											}
+										}
+									}
+								}
+							]
+						},
+						{
+							"function": "minecraft:reference",
+							"name": "ssbrc:fighters/byleth/blue_lions/areadbhar/awakened",
+							"conditions": [
+								{
+									"condition": "minecraft:entity_scores",
+									"entity": "this",
+									"scores": {
+										"charge.output": {
+											"min": 81
+										}
+									}
+								}
+							]
 						},
 						{
 							"function": "minecraft:set_nbt",

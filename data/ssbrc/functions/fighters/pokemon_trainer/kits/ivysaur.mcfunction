@@ -12,7 +12,7 @@ clear @s #ssbrc:equipment
 
 loot replace entity @s hotbar.0 loot ssbrc:fighters/pokemon_trainer/ivysaur/knock_off
 
-loot replace entity @s hotbar.1 loot ssbrc:fighters/pokemon_trainer/ivysaur/leech_seed/default
+loot replace entity @s hotbar.1 loot ssbrc:fighters/pokemon_trainer/ivysaur/leech_seed
 
 scoreboard players set @s charge.1 6
 

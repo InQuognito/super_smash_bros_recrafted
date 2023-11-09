@@ -20,11 +20,11 @@
 						},
 						{
 							"function": "minecraft:reference",
-							"name": "ssbrc:fighters/zelda/bomb/stowed"
+							"name": "ssbrc:fighters/init/tooltip/ability/magic"
 						},
 						{
 							"function": "minecraft:reference",
-							"name": "ssbrc:fighters/init/tooltip/weapon/magic"
+							"name": "ssbrc:fighters/init/unbreakable/smooth"
 						},
 						{
 							"function": "minecraft:set_lore",
@@ -81,7 +81,7 @@
 						},
 						{
 							"function": "minecraft:reference",
-							"name": "ssbrc:fighters/init/unbreakable/smooth"
+							"name": "ssbrc:fighters/zelda/bomb/stowed"
 						},
 						{
 							"function": "minecraft:set_nbt",

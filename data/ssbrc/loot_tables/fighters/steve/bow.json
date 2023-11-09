@@ -9,22 +9,12 @@
 					"name": "minecraft:bow",
 					"functions": [
 						{
-							"function": "minecraft:set_name",
-							"entity": "this",
-							"name": {
-								"translate": "item.minecraft.bow",
-								"color": "white",
-								"bold": true,
-								"italic": false
-							}
+							"function": "minecraft:reference",
+							"name": "ssbrc:fighters/init/preset/bow"
 						},
 						{
 							"function": "minecraft:reference",
 							"name": "ssbrc:fighters/init/preset/ranged"
-						},
-						{
-							"function": "minecraft:set_nbt",
-							"tag": "{bow:1}"
 						}
 					]
 				}

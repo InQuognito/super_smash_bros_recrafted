@@ -1,0 +1,21 @@
+[
+	{
+		"function": "minecraft:set_lore",
+		"entity": "this",
+		"lore": [
+			{
+				"translate": "",
+				"color": "white",
+				"bold": false,
+				"italic": false
+			},
+			{
+				"translate": "ssbrc.shop.purchase",
+				"color": "yellow",
+				"bold": false,
+				"italic": false
+			}
+		],
+		"replace": false
+	}
+]

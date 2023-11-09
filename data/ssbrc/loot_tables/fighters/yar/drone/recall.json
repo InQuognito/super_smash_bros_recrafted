@@ -39,22 +39,17 @@
 							}
 						},
 						{
+							"function": "minecraft:reference",
+							"name": "ssbrc:fighters/init/tooltip/ability/utility"
+						},
+						{
+							"function": "minecraft:reference",
+							"name": "ssbrc:fighters/init/unbreakable/smooth"
+						},
+						{
 							"function": "minecraft:set_lore",
 							"entity": "this",
 							"lore": [
-								{
-									"translate": "------------",
-									"color": "gray",
-									"bold": false,
-									"italic": false
-								},
-								{
-									"translate": "ssbrc.tooltips.ability.utility",
-									"color": "white",
-									"bold": false,
-									"italic": false,
-									"underlined": true
-								},
 								{
 									"text": "- [",
 									"color": "gray",
@@ -76,15 +71,11 @@
 									]
 								}
 							],
-							"replace": true
+							"replace": false
 						},
 						{
 							"function": "minecraft:reference",
 							"name": "ssbrc:fighters/yar/drone"
-						},
-						{
-							"function": "minecraft:reference",
-							"name": "ssbrc:fighters/init/unbreakable/smooth"
 						},
 						{
 							"function": "minecraft:set_nbt",

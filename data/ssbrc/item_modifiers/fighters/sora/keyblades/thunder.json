@@ -4,19 +4,6 @@
 		"entity": "this",
 		"lore": [
 			{
-				"translate": "----------------------",
-				"color": "gray",
-				"bold": false,
-				"italic": false
-			},
-			{
-				"translate": "ssbrc.tooltips.weapon.hybrid",
-				"color": "white",
-				"bold": false,
-				"italic": false,
-				"underlined": true
-			},
-			{
 				"text": "- [",
 				"color": "gray",
 				"bold": false,
@@ -37,7 +24,7 @@
 				]
 			}
 		],
-		"replace": true,
+		"replace": false,
 		"conditions": [
 			{
 				"condition": "minecraft:inverted",
@@ -55,19 +42,6 @@
 		"function": "minecraft:set_lore",
 		"entity": "this",
 		"lore": [
-			{
-				"translate": "----------------------",
-				"color": "gray",
-				"bold": false,
-				"italic": false
-			},
-			{
-				"translate": "ssbrc.tooltips.weapon.hybrid",
-				"color": "white",
-				"bold": false,
-				"italic": false,
-				"underlined": true
-			},
 			{
 				"text": "- [",
 				"color": "gray",
@@ -89,7 +63,7 @@
 				]
 			}
 		],
-		"replace": true,
+		"replace": false,
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -101,41 +75,13 @@
 		]
 	},
 	{
+		"function": "minecraft:reference",
+		"name": "ssbrc:fighters/sora/keyblades/tooltip/cycle_spell"
+	},
+	{
 		"function": "minecraft:set_lore",
 		"entity": "this",
 		"lore": [
-			{
-				"text": "- [",
-				"color": "gray",
-				"bold": false,
-				"italic": false,
-				"extra": [
-					{
-						"keybind": "key.sneak",
-						"color": "gray",
-						"bold": false,
-						"italic": false
-					},
-					{
-						"translate": "] + [",
-						"color": "gray",
-						"bold": false,
-						"italic": false
-					},
-					{
-						"keybind": "key.use",
-						"color": "gray",
-						"bold": false,
-						"italic": false
-					},
-					{
-						"translate": "ssbrc.tooltips.sora.keyblade.cycleSpell",
-						"color": "gray",
-						"bold": false,
-						"italic": false
-					}
-				]
-			},
 			{
 				"translate": "ssbrc.tooltips.sora.thunder",
 				"color": "yellow",

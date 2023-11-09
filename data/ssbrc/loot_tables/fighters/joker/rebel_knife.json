@@ -22,11 +22,11 @@
 						},
 						{
 							"function": "minecraft:reference",
-							"name": "ssbrc:fighters/joker/rebel_knife"
+							"name": "ssbrc:fighters/init/preset/melee"
 						},
 						{
 							"function": "minecraft:reference",
-							"name": "ssbrc:fighters/init/preset/melee"
+							"name": "ssbrc:fighters/joker/rebel_knife"
 						},
 						{
 							"function": "minecraft:set_nbt",

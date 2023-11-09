@@ -19,6 +19,20 @@
 							}
 						},
 						{
+							"function": "minecraft:copy_nbt",
+							"source": {
+								"type": "minecraft:storage",
+								"source": "ssbrc:mirror_shield"
+							},
+							"ops": [
+								{
+									"source": "damage",
+									"target": "Damage",
+									"op": "replace"
+								}
+							]
+						},
+						{
 							"function": "minecraft:set_banner_pattern",
 							"patterns": [
 								{
@@ -51,20 +65,6 @@
 								}
 							],
 							"append": false
-						},
-						{
-							"function": "minecraft:copy_nbt",
-							"source": {
-								"type": "minecraft:storage",
-								"source": "ssbrc:mirror_shield"
-							},
-							"ops": [
-								{
-									"source": "damage",
-									"target": "Damage",
-									"op": "replace"
-								}
-							]
 						},
 						{
 							"function": "minecraft:reference",

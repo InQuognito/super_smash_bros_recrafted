@@ -1,7 +1,7 @@
 [
 	{
 		"function": "minecraft:reference",
-		"name": "ssbrc:fighters/init/tooltip/weapon/melee"
+		"name": "ssbrc:fighters/init/tooltip/ability/hybrid"
 	},
 	{
 		"function": "minecraft:reference",

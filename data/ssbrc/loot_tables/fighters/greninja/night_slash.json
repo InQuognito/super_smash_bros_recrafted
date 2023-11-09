@@ -32,6 +32,23 @@
 						},
 						{
 							"function": "minecraft:reference",
+							"name": "ssbrc:fighters/init/preset/melee"
+						},
+						{
+							"function": "minecraft:set_lore",
+							"entity": "this",
+							"lore": [
+								{
+									"translate": "ssbrc.tooltips.greninja.nightSlash.description.1",
+									"color": "gray",
+									"bold": false,
+									"italic": false
+								}
+							],
+							"replace": false
+						},
+						{
+							"function": "minecraft:reference",
 							"name": "ssbrc:fighters/greninja/night_slash/default",
 							"conditions": [
 								{
@@ -58,23 +75,6 @@
 									}
 								}
 							]
-						},
-						{
-							"function": "minecraft:reference",
-							"name": "ssbrc:fighters/init/preset/melee"
-						},
-						{
-							"function": "minecraft:set_lore",
-							"entity": "this",
-							"lore": [
-								{
-									"translate": "ssbrc.tooltips.greninja.nightSlash.description.1",
-									"color": "gray",
-									"bold": false,
-									"italic": false
-								}
-							],
-							"replace": false
 						},
 						{
 							"function": "minecraft:set_nbt",

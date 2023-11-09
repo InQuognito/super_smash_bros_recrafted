@@ -4,19 +4,6 @@
 		"entity": "this",
 		"lore": [
 			{
-				"translate": "--------------------",
-				"color": "gray",
-				"bold": false,
-				"italic": false
-			},
-			{
-				"translate": "ssbrc.tooltips.weapon.hybrid",
-				"color": "white",
-				"bold": false,
-				"italic": false,
-				"underlined": true
-			},
-			{
 				"text": "- [",
 				"color": "gray",
 				"bold": false,
@@ -35,15 +22,9 @@
 						"italic": false
 					}
 				]
-			},
-			{
-				"translate": "ssbrc.tooltips.effects.burning",
-				"color": "gray",
-				"bold": false,
-				"italic": false
 			}
 		],
-		"replace": true,
+		"replace": false,
 		"conditions": [
 			{
 				"condition": "minecraft:inverted",
@@ -61,19 +42,6 @@
 		"function": "minecraft:set_lore",
 		"entity": "this",
 		"lore": [
-			{
-				"translate": "--------------------",
-				"color": "gray",
-				"bold": false,
-				"italic": false
-			},
-			{
-				"translate": "ssbrc.tooltips.weapon.hybrid",
-				"color": "white",
-				"bold": false,
-				"italic": false,
-				"underlined": true
-			},
 			{
 				"text": "- [",
 				"color": "gray",
@@ -93,15 +61,9 @@
 						"italic": false
 					}
 				]
-			},
-			{
-				"translate": "ssbrc.tooltips.effects.burning",
-				"color": "gray",
-				"bold": false,
-				"italic": false
 			}
 		],
-		"replace": true,
+		"replace": false,
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -117,37 +79,22 @@
 		"entity": "this",
 		"lore": [
 			{
-				"text": "- [",
+				"translate": "ssbrc.tooltips.effects.burning",
 				"color": "gray",
 				"bold": false,
-				"italic": false,
-				"extra": [
-					{
-						"keybind": "key.sneak",
-						"color": "gray",
-						"bold": false,
-						"italic": false
-					},
-					{
-						"translate": "] + [",
-						"color": "gray",
-						"bold": false,
-						"italic": false
-					},
-					{
-						"keybind": "key.use",
-						"color": "gray",
-						"bold": false,
-						"italic": false
-					},
-					{
-						"translate": "ssbrc.tooltips.sora.keyblade.cycleSpell",
-						"color": "gray",
-						"bold": false,
-						"italic": false
-					}
-				]
-			},
+				"italic": false
+			}
+		],
+		"replace": false
+	},
+	{
+		"function": "minecraft:reference",
+		"name": "ssbrc:fighters/sora/keyblades/tooltip/cycle_spell"
+	},
+	{
+		"function": "minecraft:set_lore",
+		"entity": "this",
+		"lore": [
 			{
 				"translate": "ssbrc.tooltips.sora.fire",
 				"color": "red",

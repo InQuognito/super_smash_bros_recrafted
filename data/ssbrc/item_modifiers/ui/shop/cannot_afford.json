@@ -1,0 +1,25 @@
+[
+	{
+		"function": "minecraft:set_lore",
+		"entity": "this",
+		"lore": [
+			{
+				"translate": "",
+				"color": "white",
+				"bold": false,
+				"italic": false
+			},
+			{
+				"translate": "ssbrc.shop.cannotAfford",
+				"color": "red",
+				"bold": false,
+				"italic": false
+			}
+		],
+		"replace": false
+	},
+	{
+		"function": "minecraft:reference",
+		"name": "ssbrc:ui/placeholder"
+	}
+]

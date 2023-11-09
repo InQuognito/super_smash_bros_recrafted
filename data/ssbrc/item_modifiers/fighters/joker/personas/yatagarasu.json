@@ -1,0 +1,37 @@
+[
+	{
+		"function": "minecraft:set_name",
+		"entity": "this",
+		"name": {
+			"translate": "ssbrc.fighters.joker.persona.yatagarasu",
+			"color": "dark_gray",
+			"bold": true,
+			"italic": false
+		}
+	},
+	{
+		"function": "minecraft:set_lore",
+		"entity": "this",
+		"lore": [
+			{
+				"translate": "- ",
+				"color": "gray",
+				"bold": false,
+				"italic": false,
+				"extra": [
+					{
+						"translate": "ssbrc.tooltips.joker.nullWind.description.1",
+						"color": "gray",
+						"bold": false,
+						"italic": false
+					}
+				]
+			}
+		],
+		"replace": false
+	},
+	{
+		"function": "minecraft:set_nbt",
+		"tag": "{yatagarasu:1}"
+	}
+]

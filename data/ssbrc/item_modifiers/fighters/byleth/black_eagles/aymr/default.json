@@ -14,19 +14,6 @@
 		"entity": "this",
 		"lore": [
 			{
-				"translate": "-----",
-				"color": "gray",
-				"bold": false,
-				"italic": false
-			},
-			{
-				"translate": "ssbrc.tooltips.weapon.melee",
-				"color": "white",
-				"bold": false,
-				"italic": false,
-				"underlined": true
-			},
-			{
 				"text": "- [",
 				"color": "gray",
 				"bold": false,
@@ -79,7 +66,7 @@
 				]
 			}
 		],
-		"replace": true
+		"replace": false
 	},
 	{
 		"function": "minecraft:set_nbt",

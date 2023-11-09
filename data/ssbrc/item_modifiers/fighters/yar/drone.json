@@ -1,9 +1,5 @@
 [
 	{
-		"function": "minecraft:set_nbt",
-		"tag": "{drone:1}"
-	},
-	{
 		"function": "minecraft:reference",
 		"name": "ssbrc:fighters/yar/drone/default",
 		"conditions": [
@@ -31,5 +27,9 @@
 				}
 			}
 		]
+	},
+	{
+		"function": "minecraft:set_nbt",
+		"tag": "{drone:1}"
 	}
 ]

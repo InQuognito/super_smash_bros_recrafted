@@ -9,56 +9,16 @@
 					"name": "minecraft:paper",
 					"functions": [
 						{
-							"function": "minecraft:set_name",
-							"entity": "this",
-							"name": {
-								"translate": "ssbrc.fighters.joker.persona.highPixie",
-								"color": "yellow",
-								"bold": true,
-								"italic": false
-							}
-						},
-						{
-							"function": "minecraft:set_lore",
-							"entity": "this",
-							"lore": [
-								{
-									"translate": "----------",
-									"color": "gray",
-									"bold": false,
-									"italic": false
-								},
-								{
-									"translate": "ssbrc.series.persona",
-									"color": "white",
-									"bold": false,
-									"italic": false,
-									"underlined": true
-								},
-								{
-									"translate": "- ",
-									"color": "gray",
-									"bold": false,
-									"italic": false,
-									"extra": [
-										{
-											"translate": "ssbrc.tooltips.joker.amritaShower",
-											"color": "gray",
-											"bold": false,
-											"italic": false
-										}
-									]
-								}
-							],
-							"replace": true
-						},
-						{
 							"function": "minecraft:reference",
 							"name": "ssbrc:fighters/joker/portrait"
 						},
 						{
+							"function": "minecraft:reference",
+							"name": "ssbrc:fighters/joker/personas/high_pixie"
+						},
+						{
 							"function": "minecraft:set_nbt",
-							"tag": "{highPixie:1,CustomModelData:602}"
+							"tag": "{CustomModelData:602}"
 						}
 					]
 				}

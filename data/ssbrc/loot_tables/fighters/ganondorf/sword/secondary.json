@@ -9,23 +9,8 @@
 					"name": "minecraft:iron_sword",
 					"functions": [
 						{
-							"function": "minecraft:set_attributes",
-							"modifiers": [
-								{
-									"attribute": "minecraft:generic.attack_damage",
-									"name": "Attack Damage",
-									"amount": 8,
-									"operation": "multiply_base",
-									"slot": "mainhand"
-								},
-								{
-									"attribute": "minecraft:generic.attack_speed",
-									"name": "Attack Speed",
-									"amount": 1,
-									"operation": "multiply_base",
-									"slot": "mainhand"
-								}
-							]
+							"function": "minecraft:reference",
+							"name": "ssbrc:fighters/ganondorf/sword"
 						},
 						{
 							"function": "minecraft:reference",
@@ -39,14 +24,6 @@
 									}
 								}
 							]
-						},
-						{
-							"function": "minecraft:reference",
-							"name": "ssbrc:fighters/init/preset/melee"
-						},
-						{
-							"function": "minecraft:set_nbt",
-							"tag": "{ganondorf.sword:1}"
 						}
 					]
 				}

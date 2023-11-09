@@ -23,7 +23,7 @@
 	},
 	{
 		"function": "minecraft:reference",
-		"name": "ssbrc:fighters/init/tooltip/weapon/magic"
+		"name": "ssbrc:fighters/init/tooltip/ability/magic"
 	},
 	{
 		"function": "minecraft:set_lore",

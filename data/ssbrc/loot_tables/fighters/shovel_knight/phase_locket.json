@@ -20,7 +20,7 @@
 						},
 						{
 							"function": "minecraft:reference",
-							"name": "ssbrc:fighters/init/tooltip/equipment/defensive"
+							"name": "ssbrc:fighters/init/preset/defensive"
 						},
 						{
 							"function": "minecraft:set_lore",
@@ -48,10 +48,6 @@
 								}
 							],
 							"replace": false
-						},
-						{
-							"function": "minecraft:reference",
-							"name": "ssbrc:fighters/init/animation/smooth"
 						},
 						{
 							"function": "minecraft:set_nbt",

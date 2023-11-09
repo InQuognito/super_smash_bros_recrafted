@@ -8,7 +8,7 @@
 		"entity": "this",
 		"lore": [
 			{
-				"translate": "ssbrc.tooltips.weapon.magic",
+				"translate": "ssbrc.tooltips.ability.ranged",
 				"color": "white",
 				"bold": false,
 				"italic": false,

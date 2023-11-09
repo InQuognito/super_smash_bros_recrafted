@@ -29,6 +29,10 @@
 						},
 						{
 							"function": "minecraft:reference",
+							"name": "ssbrc:fighters/init/preset/melee"
+						},
+						{
+							"function": "minecraft:reference",
 							"name": "ssbrc:fighters/yar/killspace_blade/default",
 							"conditions": [
 								{
@@ -55,10 +59,6 @@
 									}
 								}
 							]
-						},
-						{
-							"function": "minecraft:reference",
-							"name": "ssbrc:fighters/init/preset/melee"
 						},
 						{
 							"function": "minecraft:set_nbt",

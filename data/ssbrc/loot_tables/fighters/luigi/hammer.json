@@ -29,6 +29,10 @@
 						},
 						{
 							"function": "minecraft:reference",
+							"name": "ssbrc:fighters/init/preset/melee"
+						},
+						{
+							"function": "minecraft:reference",
 							"name": "ssbrc:fighters/luigi/hammer/default",
 							"conditions": [
 								{
@@ -55,10 +59,6 @@
 									}
 								}
 							]
-						},
-						{
-							"function": "minecraft:reference",
-							"name": "ssbrc:fighters/init/preset/melee"
 						},
 						{
 							"function": "minecraft:set_nbt",

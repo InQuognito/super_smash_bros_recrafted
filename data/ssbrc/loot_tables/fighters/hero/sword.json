@@ -22,6 +22,10 @@
 						},
 						{
 							"function": "minecraft:reference",
+							"name": "ssbrc:fighters/init/preset/melee"
+						},
+						{
+							"function": "minecraft:reference",
 							"name": "ssbrc:fighters/hero/sword/default/default",
 							"conditions": [
 								{
@@ -113,10 +117,6 @@
 									}
 								}
 							]
-						},
-						{
-							"function": "minecraft:reference",
-							"name": "ssbrc:fighters/init/preset/melee"
 						},
 						{
 							"function": "minecraft:set_nbt",

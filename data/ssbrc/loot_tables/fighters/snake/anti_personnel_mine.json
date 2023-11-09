@@ -10,7 +10,11 @@
 					"functions": [
 						{
 							"function": "minecraft:reference",
-							"name": "ssbrc:fighters/init/tooltip/weapon/ranged"
+							"name": "ssbrc:fighters/init/tooltip/ability/ranged"
+						},
+						{
+							"function": "minecraft:reference",
+							"name": "ssbrc:fighters/init/animation/smooth"
 						},
 						{
 							"function": "minecraft:set_lore",
@@ -73,10 +77,6 @@
 									}
 								}
 							]
-						},
-						{
-							"function": "minecraft:reference",
-							"name": "ssbrc:fighters/init/animation/smooth"
 						},
 						{
 							"function": "minecraft:set_nbt",

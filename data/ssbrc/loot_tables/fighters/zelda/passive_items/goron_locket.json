@@ -19,22 +19,13 @@
 							}
 						},
 						{
+							"function": "minecraft:reference",
+							"name": "ssbrc:fighters/zelda/passive_item"
+						},
+						{
 							"function": "minecraft:set_lore",
 							"entity": "this",
 							"lore": [
-								{
-									"translate": "--------------",
-									"color": "gray",
-									"bold": false,
-									"italic": false
-								},
-								{
-									"translate": "ssbrc.tooltips.equipment.passive",
-									"color": "white",
-									"bold": false,
-									"italic": false,
-									"underlined": true
-								},
 								{
 									"translate": "ssbrc.tooltips.zelda.passiveItem.goronLocket.description.1",
 									"color": "gray",
@@ -42,15 +33,11 @@
 									"italic": false
 								}
 							],
-							"replace": true
-						},
-						{
-							"function": "minecraft:reference",
-							"name": "ssbrc:fighters/init/unbreakable/smooth"
+							"replace": false
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{passiveItem:1,goronLocket:1,CustomModelData:9032}"
+							"tag": "{goronLocket:1,CustomModelData:9032}"
 						}
 					]
 				}

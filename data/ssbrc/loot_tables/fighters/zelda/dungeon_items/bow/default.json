@@ -9,14 +9,8 @@
 					"name": "minecraft:carrot_on_a_stick",
 					"functions": [
 						{
-							"function": "minecraft:set_name",
-							"entity": "this",
-							"name": {
-								"translate": "item.minecraft.bow",
-								"color": "white",
-								"bold": true,
-								"italic": false
-							}
+							"function": "minecraft:reference",
+							"name": "ssbrc:fighters/init/preset/bow"
 						},
 						{
 							"function": "minecraft:reference",
@@ -28,7 +22,7 @@
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{bow:1,default:1}"
+							"tag": "{default:1}"
 						}
 					]
 				}

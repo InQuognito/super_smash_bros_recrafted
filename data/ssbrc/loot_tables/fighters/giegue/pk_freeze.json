@@ -27,22 +27,17 @@
 							}
 						},
 						{
+							"function": "minecraft:reference",
+							"name": "ssbrc:fighters/init/tooltip/ability/offensive"
+						},
+						{
+							"function": "minecraft:reference",
+							"name": "ssbrc:fighters/init/animation/instant"
+						},
+						{
 							"function": "minecraft:set_lore",
 							"entity": "this",
 							"lore": [
-								{
-									"translate": "------------",
-									"color": "gray",
-									"bold": false,
-									"italic": false
-								},
-								{
-									"translate": "ssbrc.tooltips.ability.offensive",
-									"color": "white",
-									"bold": false,
-									"italic": false,
-									"underlined": true
-								},
 								{
 									"text": "- [",
 									"color": "gray",
@@ -70,11 +65,7 @@
 									"italic": false
 								}
 							],
-							"replace": true
-						},
-						{
-							"function": "minecraft:reference",
-							"name": "ssbrc:fighters/init/animation/instant"
+							"replace": false
 						},
 						{
 							"function": "minecraft:set_nbt",

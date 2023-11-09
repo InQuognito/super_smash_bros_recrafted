@@ -19,15 +19,13 @@
 							}
 						},
 						{
+							"function": "minecraft:reference",
+							"name": "ssbrc:fighters/init/preset/ui"
+						},
+						{
 							"function": "minecraft:set_lore",
 							"entity": "this",
 							"lore": [
-								{
-									"translate": "----------",
-									"color": "gray",
-									"bold": false,
-									"italic": false
-								},
 								{
 									"text": "- [",
 									"color": "gray",
@@ -49,11 +47,7 @@
 									]
 								}
 							],
-							"replace": true
-						},
-						{
-							"function": "minecraft:reference",
-							"name": "ssbrc:fighters/init/unbreakable/instant"
+							"replace": false
 						},
 						{
 							"function": "minecraft:set_nbt",

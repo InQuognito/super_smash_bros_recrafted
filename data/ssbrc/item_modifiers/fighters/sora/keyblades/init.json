@@ -20,7 +20,7 @@
 	},
 	{
 		"function": "minecraft:reference",
-		"name": "ssbrc:fighters/init/unbreakable"
+		"name": "ssbrc:fighters/init/preset/hybrid"
 	},
 	{
 		"function": "minecraft:set_nbt",

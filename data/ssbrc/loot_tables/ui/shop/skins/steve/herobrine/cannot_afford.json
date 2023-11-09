@@ -41,25 +41,17 @@
 											"color": "yellow"
 										}
 									]
-								},
-								{
-									"translate": "",
-									"color": "white",
-									"bold": false,
-									"italic": false
-								},
-								{
-									"translate": "ssbrc.shop.cannotAfford",
-									"color": "red",
-									"bold": false,
-									"italic": false
 								}
 							],
 							"replace": true
 						},
 						{
+							"function": "minecraft:reference",
+							"name": "ssbrc:ui/shop/cannot_afford"
+						},
+						{
 							"function": "minecraft:set_nbt",
-							"tag": "{UIPlaceHolder:1b,CustomModelData:1583}"
+							"tag": "{CustomModelData:1583}"
 						}
 					]
 				}

@@ -69,23 +69,26 @@
 							"name": "ssbrc:fighters/captain_falcon/fists_of_fury/default",
 							"conditions": [
 								{
-									"condition": "minecraft:any_of",
-									"terms": [
-										{
-											"condition": "minecraft:entity_properties",
-											"entity": "this",
-											"predicate": {
-												"nbt": "{Tags:[\"default\"]}"
+									"condition": "minecraft:inverted",
+									"term": {
+										"condition": "minecraft:any_of",
+										"terms": [
+											{
+												"condition": "minecraft:entity_properties",
+												"entity": "this",
+												"predicate": {
+													"nbt": "{Tags:[\"gold\"]}"
+												}
+											},
+											{
+												"condition": "minecraft:entity_properties",
+												"entity": "this",
+												"predicate": {
+													"nbt": "{Tags:[\"bloodFalcon\"]}"
+												}
 											}
-										},
-										{
-											"condition": "minecraft:entity_properties",
-											"entity": "this",
-											"predicate": {
-												"nbt": "{Tags:[\"rickWheeler\"]}"
-											}
-										}
-									]
+										]
+									}
 								}
 							]
 						},

@@ -19,27 +19,12 @@
 							}
 						},
 						{
-							"function": "minecraft:set_lore",
-							"entity": "this",
-							"lore": [
-								{
-									"translate": "",
-									"color": "white",
-									"bold": false,
-									"italic": false
-								},
-								{
-									"translate": "ssbrc.shop.owned",
-									"color": "green",
-									"bold": false,
-									"italic": false
-								}
-							],
-							"replace": true
+							"function": "minecraft:reference",
+							"name": "ssbrc:ui/shop/owned"
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{UIPlaceHolder:1b,CustomModelData:123}"
+							"tag": "{CustomModelData:123}"
 						}
 					]
 				}

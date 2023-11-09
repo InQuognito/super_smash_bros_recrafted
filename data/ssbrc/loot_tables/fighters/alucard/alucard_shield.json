@@ -9,26 +9,6 @@
 					"name": "minecraft:shield",
 					"functions": [
 						{
-							"function": "minecraft:set_lore",
-							"entity": "this",
-							"lore": [
-								{
-									"translate": "---------------",
-									"color": "gray",
-									"bold": false,
-									"italic": false
-								},
-								{
-									"translate": "ssbrc.tooltips.equipment.defensive",
-									"color": "white",
-									"bold": false,
-									"italic": false,
-									"underlined": true
-								}
-							],
-							"replace": true
-						},
-						{
 							"function": "minecraft:copy_nbt",
 							"source": {
 								"type": "minecraft:storage",
@@ -41,6 +21,10 @@
 									"op": "replace"
 								}
 							]
+						},
+						{
+							"function": "minecraft:reference",
+							"name": "ssbrc:fighters/init/preset/defensive"
 						},
 						{
 							"function": "minecraft:reference",
@@ -70,10 +54,6 @@
 									}
 								}
 							]
-						},
-						{
-							"function": "minecraft:reference",
-							"name": "ssbrc:fighters/init/animation/smooth"
 						},
 						{
 							"function": "minecraft:set_nbt",

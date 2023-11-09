@@ -29,11 +29,11 @@
 						},
 						{
 							"function": "minecraft:reference",
-							"name": "ssbrc:fighters/cloud/buster_sword"
+							"name": "ssbrc:fighters/init/preset/hybrid"
 						},
 						{
 							"function": "minecraft:reference",
-							"name": "ssbrc:fighters/init/unbreakable"
+							"name": "ssbrc:fighters/cloud/buster_sword"
 						},
 						{
 							"function": "minecraft:set_nbt",

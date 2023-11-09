@@ -10,6 +10,10 @@
 					"functions": [
 						{
 							"function": "minecraft:reference",
+							"name": "ssbrc:fighters/init/preset/ranged"
+						},
+						{
+							"function": "minecraft:reference",
 							"name": "ssbrc:fighters/byleth/steel_bow/default",
 							"conditions": [
 								{
@@ -36,10 +40,6 @@
 									}
 								}
 							]
-						},
-						{
-							"function": "minecraft:reference",
-							"name": "ssbrc:fighters/init/preset/ranged"
 						},
 						{
 							"function": "minecraft:set_nbt",
