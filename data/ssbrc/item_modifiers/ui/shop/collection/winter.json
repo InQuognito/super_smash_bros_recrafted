@@ -13,7 +13,9 @@
 				"extra": [
 					{
 						"translate": "ssbrc.shop.collection.winter",
-						"color": "white"
+						"color": "white",
+						"bold": false,
+						"italic": false
 					}
 				]
 			}

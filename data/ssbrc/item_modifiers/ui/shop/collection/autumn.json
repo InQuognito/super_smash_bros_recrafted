@@ -13,7 +13,9 @@
 				"extra": [
 					{
 						"translate": "ssbrc.shop.collection.autumn",
-						"color": "white"
+						"color": "white",
+						"bold": false,
+						"italic": false
 					}
 				]
 			}
