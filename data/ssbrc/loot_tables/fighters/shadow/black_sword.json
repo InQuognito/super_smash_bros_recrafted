@@ -32,6 +32,35 @@
 							"name": "ssbrc:fighters/init/preset/melee"
 						},
 						{
+							"function": "minecraft:reference",
+							"name": "ssbrc:fighters/shadow/black_sword/default",
+							"conditions": [
+								{
+									"condition": "minecraft:inverted",
+									"term": {
+										"condition": "minecraft:entity_properties",
+										"entity": "this",
+										"predicate": {
+											"nbt": "{Tags:[\"gold\"]}"
+										}
+									}
+								}
+							]
+						},
+						{
+							"function": "minecraft:reference",
+							"name": "ssbrc:fighters/shadow/black_sword/gold",
+							"conditions": [
+								{
+									"condition": "minecraft:entity_properties",
+									"entity": "this",
+									"predicate": {
+										"nbt": "{Tags:[\"gold\"]}"
+									}
+								}
+							]
+						},
+						{
 							"function": "minecraft:set_nbt",
 							"tag": "{blackSword:1}"
 						}

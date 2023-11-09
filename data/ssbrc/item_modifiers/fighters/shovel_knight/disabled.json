@@ -1,0 +1,15 @@
+[
+	{
+		"function": "minecraft:set_lore",
+		"entity": "this",
+		"lore": [
+			{
+				"translate": "ssbrc.tooltips.shovel_knight.relic_disabled",
+				"color": "red",
+				"bold": false,
+				"italic": false
+			}
+		],
+		"replace": false
+	}
+]

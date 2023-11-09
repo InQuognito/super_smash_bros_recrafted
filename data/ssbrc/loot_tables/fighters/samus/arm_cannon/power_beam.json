@@ -19,22 +19,13 @@
 							}
 						},
 						{
+							"function": "minecraft:reference",
+							"name": "ssbrc:fighters/init/tooltip/weapon/ranged"
+						},
+						{
 							"function": "minecraft:set_lore",
 							"entity": "this",
 							"lore": [
-								{
-									"translate": "------------",
-									"color": "gray",
-									"bold": false,
-									"italic": false
-								},
-								{
-									"translate": "ssbrc.tooltips.weapon.ranged",
-									"color": "white",
-									"bold": false,
-									"italic": false,
-									"underlined": true
-								},
 								{
 									"text": "- [",
 									"color": "gray",
@@ -120,11 +111,11 @@
 									]
 								}
 							],
-							"replace": true
+							"replace": false
 						},
 						{
 							"function": "minecraft:reference",
-							"name": "ssbrc:fighters/samus/arm_cannon"
+							"name": "ssbrc:fighters/samus/arm_cannon/power_beam"
 						},
 						{
 							"function": "minecraft:set_nbt",

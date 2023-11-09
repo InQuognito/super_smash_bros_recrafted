@@ -19,15 +19,13 @@
 							}
 						},
 						{
+							"function": "minecraft:reference",
+							"name": "ssbrc:fighters/init/tooltip/separator"
+						},
+						{
 							"function": "minecraft:set_lore",
 							"entity": "this",
 							"lore": [
-								{
-									"translate": "-----------",
-									"color": "gray",
-									"bold": false,
-									"italic": false
-								},
 								{
 									"translate": "ssbrc.tooltips.snake.status.undetected.description.1",
 									"color": "white",
@@ -42,30 +40,15 @@
 									"italic": false
 								}
 							],
-							"replace": true
+							"replace": false
 						},
 						{
-							"function": "minecraft:set_attributes",
-							"modifiers": [
-								{
-									"attribute": "minecraft:generic.attack_damage",
-									"name": "Attack Damage",
-									"amount": 0,
-									"operation": "multiply_base",
-									"slot": "mainhand"
-								},
-								{
-									"attribute": "minecraft:generic.attack_speed",
-									"name": "Attack Speed",
-									"amount": 1024,
-									"operation": "multiply_base",
-									"slot": "mainhand"
-								}
-							]
+							"function": "minecraft:reference",
+							"name": "ssbrc:fighters/init/unbreakable/instant"
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{status:1,undetected:1,CustomModelData:1520,Unbreakable:1b,HideFlags:255}"
+							"tag": "{status:1,undetected:1,CustomModelData:1520}"
 						}
 					]
 				}

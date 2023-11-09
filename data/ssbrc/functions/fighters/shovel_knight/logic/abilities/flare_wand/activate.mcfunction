@@ -1,7 +1,7 @@
 execute summon minecraft:marker run function ssbrc:fighters/shovel_knight/logic/abilities/flare_wand/init
 
-loot replace entity @s weapon.mainhand loot ssbrc:fighters/shovel_knight/flare_wand/fire
-loot replace entity @s weapon.mainhand loot ssbrc:fighters/shovel_knight/flare_wand/default
+item replace entity @s weapon.mainhand with minecraft:air
+loot replace entity @s weapon.mainhand loot ssbrc:fighters/shovel_knight/flare_wand
 
 scoreboard players operation @s mana -= #shovel_knight.flareWandManaCost vars
 function ssbrc:fighters/shovel_knight/logic/check_relics
