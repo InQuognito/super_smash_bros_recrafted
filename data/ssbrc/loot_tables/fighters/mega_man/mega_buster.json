@@ -10,7 +10,7 @@
 					"functions": [
 						{
 							"function": "minecraft:reference",
-							"name": "ssbrc:fighters/init/preset/ranged"
+							"name": "ssbrc:fighters/init/preset/gun"
 						},
 						{
 							"function": "minecraft:reference",

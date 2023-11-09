@@ -1,6 +1,6 @@
-execute if score @s menu matches -999 run function ssbrc:logic/resets/data/ask
-execute if score @s menu matches -998 if score @s reset matches 1 run function ssbrc:logic/resets/data/cancel
-execute if score @s menu matches -997 if score @s reset matches 1 run function ssbrc:logic/resets/data/confirm
+execute if score @s menu matches -999 run function ssbrc:logic/resets/player_data/ask
+execute if score @s menu matches -998 if score @s reset matches 1 run function ssbrc:logic/resets/player_data/cancel
+execute if score @s menu matches -997 if score @s reset matches 1 run function ssbrc:logic/resets/player_data/confirm
 
 execute if score @s[tag=rob] menu matches 5 run function ssbrc:fighters/rob/menu/skins/default
 execute if score @s[tag=rob] menu matches 6 run function ssbrc:fighters/rob/menu/skins/gold

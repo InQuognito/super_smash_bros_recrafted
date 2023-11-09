@@ -12,6 +12,10 @@ execute if score @s[advancements={ssbrc:fighters/luigi/skins/gooigi=false}] stat
 execute if score @s[advancements={ssbrc:fighters/luigi/skins/gooigi=false}] stats.credits >= #price.skin.common vars run loot replace entity @s enderchest.3 loot ssbrc:ui/shop/skins/luigi/gooigi/unowned
 loot replace entity @s[advancements={ssbrc:fighters/luigi/skins/gooigi=true}] enderchest.3 loot ssbrc:ui/shop/skins/luigi/gooigi/owned
 
+execute if score @s[advancements={ssbrc:fighters/luigi/skins/penguin=false}] stats.credits < #price.skin.common vars run loot replace entity @s enderchest.4 loot ssbrc:ui/shop/skins/luigi/penguin/cannot_afford
+execute if score @s[advancements={ssbrc:fighters/luigi/skins/penguin=false}] stats.credits >= #price.skin.common vars run loot replace entity @s enderchest.4 loot ssbrc:ui/shop/skins/luigi/penguin/unowned
+loot replace entity @s[advancements={ssbrc:fighters/luigi/skins/penguin=true}] enderchest.4 loot ssbrc:ui/shop/skins/luigi/penguin/owned
+
 loot replace entity @s enderchest.8 loot ssbrc:ui/null/red
 loot replace entity @s enderchest.17 loot ssbrc:ui/null/red
 loot replace entity @s enderchest.26 loot ssbrc:ui/null/red

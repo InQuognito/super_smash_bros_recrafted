@@ -1,13 +1,13 @@
 particle minecraft:wax_off ~ ~ ~ 0.3 0.3 0.3 1.0 1 normal @a
 
-execute unless block ~ ~ ~ #ssbrc:passthrough run function ssbrc:fighters/sora/logic/abilities/strike_raid/regain
+execute unless block ~ ~ ~ #ssbrc:passthrough run function ssbrc:fighters/sora/logic/abilities/strike_raid/deactivate
 
 execute positioned ~-0.5 ~-0.5 ~-0.5 as @e[tag=!self,predicate=ssbrc:flag/targets,dx=0] run function ssbrc:fighters/sora/logic/abilities/strike_raid/hit
 
 execute unless score @s temp matches 31.. rotated as @s run function ssbrc:fighters/sora/logic/abilities/strike_raid/movement
 
 scoreboard players add @s temp 1
-execute if score @s temp matches 50.. run function ssbrc:fighters/sora/logic/abilities/strike_raid/regain
+execute if score @s temp matches 50.. run function ssbrc:fighters/sora/logic/abilities/strike_raid/deactivate
 
 scoreboard players operation #display temp = @s temp
 scoreboard players operation #display temp %= 6 integers

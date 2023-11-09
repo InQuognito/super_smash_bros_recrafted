@@ -1,0 +1,23 @@
+[
+	{
+		"function": "minecraft:set_lore",
+		"entity": "this",
+		"lore": [
+			{
+				"nbt": "autumn",
+				"storage": "ssbrc:data/skins",
+				"interpret": true,
+				"color": "gold",
+				"bold": true,
+				"italic": false,
+				"extra": [
+					{
+						"translate": "ssbrc.shop.collection.autumn",
+						"color": "white"
+					}
+				]
+			}
+		],
+		"replace": false
+	}
+]

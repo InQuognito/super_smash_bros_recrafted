@@ -8,6 +8,10 @@ execute if score @s[advancements={ssbrc:fighters/mario/skins/flower_power=false}
 execute if score @s[advancements={ssbrc:fighters/mario/skins/flower_power=false}] stats.credits >= #price.skin.common vars run loot replace entity @s enderchest.2 loot ssbrc:ui/shop/skins/mario/flower_power/unowned
 loot replace entity @s[advancements={ssbrc:fighters/mario/skins/flower_power=true}] enderchest.2 loot ssbrc:ui/shop/skins/mario/flower_power/owned
 
+execute if score @s[advancements={ssbrc:fighters/mario/skins/penguin=false}] stats.credits < #price.skin.common vars run loot replace entity @s enderchest.3 loot ssbrc:ui/shop/skins/mario/penguin/cannot_afford
+execute if score @s[advancements={ssbrc:fighters/mario/skins/penguin=false}] stats.credits >= #price.skin.common vars run loot replace entity @s enderchest.3 loot ssbrc:ui/shop/skins/mario/penguin/unowned
+loot replace entity @s[advancements={ssbrc:fighters/mario/skins/penguin=true}] enderchest.3 loot ssbrc:ui/shop/skins/mario/penguin/owned
+
 loot replace entity @s enderchest.8 loot ssbrc:ui/null/red
 loot replace entity @s enderchest.17 loot ssbrc:ui/null/red
 loot replace entity @s enderchest.26 loot ssbrc:ui/null/red

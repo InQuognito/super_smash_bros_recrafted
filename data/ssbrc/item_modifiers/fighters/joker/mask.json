@@ -30,13 +30,18 @@
 						"italic": false
 					}
 				]
-			},
-			{
-				"translate": "",
-				"color": "gray",
-				"bold": false,
-				"italic": false
-			},
+			}
+		],
+		"replace": false
+	},
+	{
+		"function": "minecraft:reference",
+		"name": "ssbrc:ui/separator"
+	},
+	{
+		"function": "minecraft:set_lore",
+		"entity": "this",
+		"lore": [
 			{
 				"translate": "ssbrc.series.persona",
 				"color": "white",

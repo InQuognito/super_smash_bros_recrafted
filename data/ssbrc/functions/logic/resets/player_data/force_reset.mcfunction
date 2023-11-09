@@ -1,4 +1,4 @@
-function ssbrc:logic/resets/data/reset
+function ssbrc:logic/resets/player_data/reset
 
 tellraw @s {"translate":"ssbrc.profile.warn.forceReset","color":"red"}
 

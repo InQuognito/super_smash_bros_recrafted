@@ -1,0 +1,37 @@
+{
+	"type": "minecraft:command",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:barrier",
+					"functions": [
+						{
+							"function": "minecraft:set_name",
+							"entity": "this",
+							"name": {
+								"nbt": "penguin",
+								"storage": "ssbrc:data/skins/super_mario_bros",
+								"interpret": true
+							}
+						},
+						{
+							"function": "minecraft:reference",
+							"name": "ssbrc:ui/shop/collection/winter"
+						},
+						{
+							"function": "minecraft:reference",
+							"name": "ssbrc:ui/shop/owned"
+						},
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{CustomModelData:843}"
+						}
+					]
+				}
+			]
+		}
+	]
+}

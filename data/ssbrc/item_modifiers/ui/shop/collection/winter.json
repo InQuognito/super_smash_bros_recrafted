@@ -1,0 +1,23 @@
+[
+	{
+		"function": "minecraft:set_lore",
+		"entity": "this",
+		"lore": [
+			{
+				"nbt": "winter",
+				"storage": "ssbrc:data/skins",
+				"interpret": true,
+				"color": "aqua",
+				"bold": true,
+				"italic": false,
+				"extra": [
+					{
+						"translate": "ssbrc.shop.collection.winter",
+						"color": "white"
+					}
+				]
+			}
+		],
+		"replace": false
+	}
+]

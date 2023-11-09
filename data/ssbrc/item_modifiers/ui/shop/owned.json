@@ -1,14 +1,12 @@
 [
 	{
+		"function": "minecraft:reference",
+		"name": "ssbrc:ui/separator"
+	},
+	{
 		"function": "minecraft:set_lore",
 		"entity": "this",
 		"lore": [
-			{
-				"translate": "",
-				"color": "white",
-				"bold": false,
-				"italic": false
-			},
 			{
 				"translate": "ssbrc.shop.owned",
 				"color": "green",

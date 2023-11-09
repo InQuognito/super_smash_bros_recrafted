@@ -19,31 +19,12 @@
 							}
 						},
 						{
-							"function": "minecraft:set_lore",
-							"entity": "this",
-							"lore": [
-								{
-									"translate": "ssbrc.shop.price",
-									"color": "yellow",
-									"bold": false,
-									"italic": false,
-									"extra": [
-										{
-											"score": {
-												"name": "#price.skin.common",
-												"objective": "vars"
-											},
-											"bold": false,
-											"italic": false
-										},
-										{
-											"translate": "₡",
-											"color": "yellow"
-										}
-									]
-								}
-							],
-							"replace": true
+							"function": "minecraft:reference",
+							"name": "ssbrc:ui/shop/collection/autumn"
+						},
+						{
+							"function": "minecraft:reference",
+							"name": "ssbrc:ui/shop/price/skin"
 						},
 						{
 							"function": "minecraft:reference",

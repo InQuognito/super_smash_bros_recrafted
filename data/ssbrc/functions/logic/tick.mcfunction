@@ -22,7 +22,7 @@ execute as @a unless score @s worldTime = $worldTime worldTime run function ssbr
 execute store result score $worldTime worldTime run time query gametime
 execute as @a store result score @s worldTime run time query gametime
 
-execute as @a unless score @s hardReset = numberOfResets hardReset run function ssbrc:logic/resets/data/force_reset
+execute as @a unless score @s hardReset = numberOfResets hardReset run function ssbrc:logic/resets/player_data/force_reset
 
 execute as @a[tag=!loaded] run function ssbrc:logic/resets/players
 
