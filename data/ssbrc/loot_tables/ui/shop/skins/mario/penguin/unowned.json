@@ -24,31 +24,8 @@
 							"name": "ssbrc:ui/shop/collection/winter"
 						},
 						{
-							"function": "minecraft:set_lore",
-							"entity": "this",
-							"lore": [
-								{
-									"translate": "ssbrc.shop.price",
-									"color": "yellow",
-									"bold": false,
-									"italic": false,
-									"extra": [
-										{
-											"score": {
-												"name": "#price.skin.common",
-												"objective": "vars"
-											},
-											"bold": false,
-											"italic": false
-										},
-										{
-											"text": "₡",
-											"color": "yellow"
-										}
-									]
-								}
-							],
-							"replace": false
+							"function": "minecraft:reference",
+							"name": "ssbrc:ui/shop/price/skin"
 						},
 						{
 							"function": "minecraft:reference",
