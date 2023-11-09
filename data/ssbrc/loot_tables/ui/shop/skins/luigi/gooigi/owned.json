@@ -20,10 +20,6 @@
 						},
 						{
 							"function": "minecraft:reference",
-							"name": "ssbrc:ui/shop/collection/autumn"
-						},
-						{
-							"function": "minecraft:reference",
 							"name": "ssbrc:ui/shop/owned"
 						},
 						{

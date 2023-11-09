@@ -82,10 +82,12 @@ execute if score @s[tag=luigi] menu matches 824 run function ssbrc:fighters/luig
 execute if score @s[tag=luigi] menu matches 825 run function ssbrc:fighters/luigi/menu/skins/gold
 execute if score @s[tag=luigi] menu matches 826 run function ssbrc:fighters/luigi/menu/skins/flower_power
 execute if score @s[tag=luigi] menu matches 827 run function ssbrc:fighters/luigi/menu/skins/gooigi
+execute if score @s[tag=luigi] menu matches 828 run function ssbrc:fighters/luigi/menu/skins/penguin
 
 execute if score @s[tag=mario] menu matches 844 run function ssbrc:fighters/mario/menu/skins/default
 execute if score @s[tag=mario] menu matches 845 run function ssbrc:fighters/mario/menu/skins/gold
 execute if score @s[tag=mario] menu matches 846 run function ssbrc:fighters/mario/menu/skins/flower_power
+execute if score @s[tag=mario] menu matches 847 run function ssbrc:fighters/mario/menu/skins/penguin
 
 execute if score @s[tag=mega_man] menu matches 884 run function ssbrc:fighters/mega_man/menu/skins/default
 execute if score @s[tag=mega_man] menu matches 885 run function ssbrc:fighters/mega_man/menu/skins/gold

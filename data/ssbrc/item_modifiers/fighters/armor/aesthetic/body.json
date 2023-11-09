@@ -794,6 +794,19 @@
 	},
 	{
 		"function": "minecraft:set_nbt",
+		"tag": "{Trim:{pattern:\"ssbrc:fighters/luigi/penguin\",material:\"minecraft:quartz\"}}",
+		"conditions": [
+			{
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"nbt": "{Tags:[\"luigi\",\"penguin\"]}"
+				}
+			}
+		]
+	},
+	{
+		"function": "minecraft:set_nbt",
 		"tag": "{Trim:{pattern:\"ssbrc:fighters/mario/default\",material:\"minecraft:quartz\"}}",
 		"conditions": [
 			{
@@ -827,6 +840,19 @@
 				"entity": "this",
 				"predicate": {
 					"nbt": "{Tags:[\"mario\",\"flowerPower\"]}"
+				}
+			}
+		]
+	},
+	{
+		"function": "minecraft:set_nbt",
+		"tag": "{Trim:{pattern:\"ssbrc:fighters/mario/penguin\",material:\"minecraft:quartz\"}}",
+		"conditions": [
+			{
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"nbt": "{Tags:[\"mario\",\"penguin\"]}"
 				}
 			}
 		]
