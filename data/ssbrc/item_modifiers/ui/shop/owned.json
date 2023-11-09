@@ -14,7 +14,7 @@
 				"italic": false
 			}
 		],
-		"replace": true
+		"replace": false
 	},
 	{
 		"function": "minecraft:reference",

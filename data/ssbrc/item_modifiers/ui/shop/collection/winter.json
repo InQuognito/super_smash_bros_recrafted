@@ -21,5 +21,9 @@
 			}
 		],
 		"replace": false
+	},
+	{
+		"function": "minecraft:reference",
+		"name": "ssbrc:ui/separator"
 	}
 ]

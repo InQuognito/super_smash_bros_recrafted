@@ -15,7 +15,7 @@
 								"nbt": "penguin",
 								"storage": "ssbrc:data/skins/super_mario_bros",
 								"interpret": true,
-								"bold": false,
+								"bold": true,
 								"italic": false
 							}
 						},
