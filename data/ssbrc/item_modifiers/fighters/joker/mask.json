@@ -39,18 +39,8 @@
 		"name": "ssbrc:ui/separator"
 	},
 	{
-		"function": "minecraft:set_lore",
-		"entity": "this",
-		"lore": [
-			{
-				"translate": "ssbrc.series.persona",
-				"color": "white",
-				"bold": false,
-				"italic": false,
-				"underlined": true
-			}
-		],
-		"replace": false
+		"function": "minecraft:reference",
+		"name": "ssbrc:fighters/joker/persona_ability"
 	},
 	{
 		"function": "minecraft:set_nbt",

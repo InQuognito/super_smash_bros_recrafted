@@ -14,6 +14,19 @@
 		"entity": "this",
 		"lore": [
 			{
+				"translate": "ssbrc.tooltips.joker.freezeBoost",
+				"color": "gray",
+				"bold": false,
+				"italic": false
+			}
+		],
+		"replace": false
+	},
+	{
+		"function": "minecraft:set_lore",
+		"entity": "this",
+		"lore": [
+			{
 				"translate": "- ",
 				"color": "gray",
 				"bold": false,

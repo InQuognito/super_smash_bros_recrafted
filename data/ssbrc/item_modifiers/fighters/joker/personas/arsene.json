@@ -14,21 +14,17 @@
 		"entity": "this",
 		"lore": [
 			{
-				"translate": "- ",
+				"translate": "ssbrc.tooltips.joker.eiagon",
 				"color": "gray",
 				"bold": false,
-				"italic": false,
-				"extra": [
-					{
-						"translate": "ssbrc.tooltips.joker.eiagon",
-						"color": "gray",
-						"bold": false,
-						"italic": false
-					}
-				]
+				"italic": false
 			}
 		],
 		"replace": false
+	},
+	{
+		"function": "minecraft:reference",
+		"name": "ssbrc:fighters/joker/persona_ability/eiagon"
 	},
 	{
 		"function": "minecraft:set_nbt",
