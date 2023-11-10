@@ -11,7 +11,7 @@
 				"extra": [
 					{
 						"score": {
-							"name": "#price.skin.common",
+							"name": "#price.fighter.common",
 							"objective": "vars"
 						},
 						"bold": false,
