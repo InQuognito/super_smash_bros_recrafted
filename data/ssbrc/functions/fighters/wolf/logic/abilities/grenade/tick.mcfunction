@@ -14,6 +14,4 @@ execute if score #percentage temp matches 100 run item modify entity @s armor.he
 
 execute if score #percentage temp matches 100.. at @s run function ssbrc:fighters/wolf/logic/abilities/grenade/explode
 
-execute if score @s temp >= #wolf.grenadeTimer vars run function ssbrc:fighters/wolf/logic/abilities/grenade/explode
-
 scoreboard players add @s temp 1

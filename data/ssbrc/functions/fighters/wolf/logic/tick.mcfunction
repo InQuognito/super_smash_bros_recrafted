@@ -3,4 +3,4 @@ execute if entity @s[scores={charge.step=5..,cooldown.2=..0},nbt={SelectedItem:{
 execute if entity @s[scores={useAbility=1..,cooldown.3=..0},nbt={SelectedItem:{tag:{wolfSlash:1}}}] at @s positioned ~ ~0.1 ~ summon minecraft:marker run function ssbrc:fighters/wolf/logic/abilities/wolf_flash/init
 
 # Grenade
-execute if score @s[nbt={SelectedItem:{tag:{grenade:1}}}] charge.output matches 1.. run function ssbrc:fighters/wolf/logic/abilities/grenade/fuse_tick
+execute if score @s[scores={cooldown.2=..0},nbt={SelectedItem:{tag:{grenade:1}}}] charge.output matches 1.. run function ssbrc:fighters/wolf/logic/abilities/grenade/fuse_tick
