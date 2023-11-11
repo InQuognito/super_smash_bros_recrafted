@@ -76,7 +76,7 @@ scoreboard players reset @s flag.walking
 
 execute at @s[tag=naturalShiny] run particle minecraft:glow ~ ~0.7 ~ 0.5 0.4 0.5 0.0 1 normal @a
 
-execute if entity @s[tag=immobile] run function ssbrc:logic/fighters/effects/mobility/tick
+execute at @s[tag=immobile] run function ssbrc:logic/fighters/effects/mobility/tick
 
 execute at @s if entity @e[type=minecraft:marker,tag=electricTerrain,distance=..12] if block ~ ~ ~ minecraft:water run damage @s 6.0 ssbrc:projectile
 
