@@ -12,6 +12,10 @@ item replace entity @s armor.chest with minecraft:air
 item replace entity @s armor.legs with minecraft:air
 item replace entity @s armor.feet with minecraft:air
 
+execute if score $sectorZ map matches 1 run effect give @s minecraft:slow_falling infinite 255 true
+
+execute unless score $blackout temp matches 1 run data merge entity @s {Glowing:1b}
+
 data merge entity @s {Health:12,PersistenceRequired:1b,HandDropChances:[0f,0f],ArmorDropChances:[0f,0f,0f,0f]}
 
 execute if entity @a[tag=stalfosGet,team=team1,sort=nearest,limit=1] run team join team1 @s
@@ -22,7 +26,5 @@ execute if entity @a[tag=stalfosGet,team=team5,sort=nearest,limit=1] run team jo
 execute if entity @a[tag=stalfosGet,team=team6,sort=nearest,limit=1] run team join team6 @s
 execute if entity @a[tag=stalfosGet,team=team7,sort=nearest,limit=1] run team join team7 @s
 execute if entity @a[tag=stalfosGet,team=team8,sort=nearest,limit=1] run team join team8 @s
-
-execute unless score $blackout temp matches 1 run data merge entity @s {Glowing:1b}
 
 function ssbrc:logic/init/entity/static
