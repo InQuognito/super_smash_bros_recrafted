@@ -32,14 +32,13 @@
 							"lore": [
 								{
 									"translate": "ssbrc.tooltips.snake.status.undetected.description.1",
-									"color": "white",
+									"color": "green",
 									"bold": false,
-									"italic": false,
-									"underlined": true
+									"italic": false
 								},
 								{
 									"translate": "ssbrc.tooltips.snake.status.undetected.description.2",
-									"color": "white",
+									"color": "gray",
 									"bold": false,
 									"italic": false
 								}
