@@ -70,6 +70,6 @@
 	},
 	{
 		"function": "minecraft:set_nbt",
-		"tag": "{CustomModelData:101}"
+		"tag": "{awakened:0,CustomModelData:101}"
 	}
 ]
