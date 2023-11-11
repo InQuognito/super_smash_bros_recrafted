@@ -100,6 +100,7 @@ scoreboard objectives add snake.psg1A dummy
 scoreboard objectives add snake.psg1M dummy
 scoreboard objectives add snake.psg1R dummy
 scoreboard objectives add snake.s1000A dummy
+scoreboard objectives add snake.s1000F dummy
 scoreboard objectives add snake.s1000M dummy
 scoreboard objectives add snake.s1000R dummy
 scoreboard objectives add snake.socomA dummy

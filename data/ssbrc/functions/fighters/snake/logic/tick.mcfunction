@@ -25,7 +25,8 @@ execute if entity @s[tag=reloading] run attribute @s minecraft:generic.movement_
 execute if entity @s[tag=!reloading,nbt={SelectedItem:{tag:{psg1:1}}},predicate=ssbrc:flag/sneaking] run attribute @s minecraft:generic.movement_speed modifier add 19192183-0000-0000-0001-000001000000 "zoom" -1.0 multiply_base
 
 # S1000
-execute at @s[scores={snake.s1000A=1..,cooldown.1=15}] run playsound ssbrc:shotgun_reload player @a
+execute if score @s snake.s1000F matches 1.. run scoreboard players remove @s snake.s1000F 1
+execute at @s[scores={snake.s1000A=1..,snake.s1000F=15}] run playsound ssbrc:shotgun_reload player @a
 
 # Anti-Personnel Mine
 execute if entity @s[tag=antiPersonnelMine] run function ssbrc:fighters/snake/logic/weapons/anti_personnel_mine/cooldown

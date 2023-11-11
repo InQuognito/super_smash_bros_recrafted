@@ -99,6 +99,7 @@ scoreboard objectives remove snake.psg1A
 scoreboard objectives remove snake.psg1M
 scoreboard objectives remove snake.psg1R
 scoreboard objectives remove snake.s1000A
+scoreboard objectives remove snake.s1000F
 scoreboard objectives remove snake.s1000M
 scoreboard objectives remove snake.s1000R
 scoreboard objectives remove snake.socomA
