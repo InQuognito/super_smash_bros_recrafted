@@ -9,6 +9,7 @@ scoreboard objectives setdisplay list
 scoreboard objectives setdisplay sidebar
 
 execute if score singleplayer options matches 1 run function ssbrc:logic/options/presets/singleplayer/off
+execute if score suddenDeath options matches 1 run scoreboard players set gameMode options 2
 
 function ssbrc:logic/resets/options
 

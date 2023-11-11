@@ -1,6 +1,6 @@
 scoreboard players set gameMode options 1
-scoreboard players set $suddenDeath temp 1
-scoreboard objectives setdisplay sidebar stocks
+scoreboard players set suddenDeath options 1
+scoreboard objectives setdisplay sidebar
 
 scoreboard players operation gameTime timer += timeLimit options
 

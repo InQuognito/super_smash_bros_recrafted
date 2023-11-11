@@ -21,7 +21,5 @@ execute if score teams options matches 1 if entity @s[team=team7] run tag @a[tea
 execute if score teams options matches 1 if entity @s[team=team8] run tag @a[team=team8] add winner
 tag @a[tag=winner] add cannotHost
 
-execute if score $suddenDeath temp matches 1 run scoreboard players set gameMode options 2
-
 weather clear
 scoreboard players set gameStage temp 5
