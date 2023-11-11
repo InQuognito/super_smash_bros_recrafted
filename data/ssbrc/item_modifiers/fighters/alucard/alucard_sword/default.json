@@ -3,7 +3,7 @@
 		"function": "minecraft:set_name",
 		"entity": "this",
 		"name": {
-			"translate": "ssbrc.tooltips.alucard.alucardSword",
+			"translate": "ssbrc.tooltips.alucard.sword.default",
 			"color": "white",
 			"bold": true,
 			"italic": false
