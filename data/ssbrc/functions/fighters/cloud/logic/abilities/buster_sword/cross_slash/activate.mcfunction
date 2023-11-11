@@ -5,6 +5,6 @@ scoreboard players set @s duration.1 30
 scoreboard players operation @s cloud.limit = 0 integers
 function ssbrc:fighters/cloud/logic/limit/update
 
-function ssbrc:logic/fighters/effects/mobility/immobilize
+function ssbrc:logic/fighters/effects/mobility/immobilize/default
 
 execute at @s run playsound ssbrc:fighters.cloud.cross_slash.activate player @a

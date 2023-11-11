@@ -6,13 +6,12 @@ execute if entity @s[scores={useAbility=1..,cooldown.3=..0,duration.3=..0},nbt={
 # Reflector
 execute if score @s duration.2 matches 2.. at @s anchored eyes positioned ^ ^ ^2 as @e[type=#ssbrc:projectiles,predicate=!ssbrc:reflect_exceptions,tag=!reflected,distance=..2] run function ssbrc:fighters/fox/logic/abilities/reflector/tick
 
-execute if score @s duration.2 matches 2.. run teleport @s @s
-execute if score @s duration.2 matches 1 run function ssbrc:fighters/fox/logic/abilities/reflector/deactivate
+execute if score @s duration.2 matches 1 run function ssbrc:logic/fighters/effects/mobility/mobilize
 
 function ssbrc:fighters/fox/logic/abilities/reflector/cooldown
 
 # Fire Fox
-execute unless score @s duration.3 matches 1.. if entity @s[predicate=ssbrc:flag/sneaking,scores={cooldown.3=..0,duration.3=..0}] at @s run function ssbrc:fighters/fox/logic/abilities/fire_fox/charge
+execute unless score @s duration.3 matches 1.. if entity @s[scores={cooldown.3=..0,duration.3=..0},predicate=ssbrc:flag/sneaking] at @s run function ssbrc:fighters/fox/logic/abilities/fire_fox/charge
 
 execute at @s[scores={duration.3=1}] run function ssbrc:fighters/fox/logic/abilities/fire_fox/deactivate
 execute unless score @s duration.2 matches 1.. unless score @s duration.3 matches 1.. run scoreboard players set @s[scores={charge.3=1..},predicate=!ssbrc:flag/sneaking] charge.3 0

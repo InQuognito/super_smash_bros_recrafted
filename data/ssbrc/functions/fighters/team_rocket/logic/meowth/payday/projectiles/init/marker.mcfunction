@@ -8,7 +8,7 @@ execute store result storage ssbrc:data Rotation[1] float 0.1 run scoreboard pla
 
 data modify entity @s Rotation set from storage ssbrc:data Rotation
 
-execute rotated as @s positioned 0.0 0.0 0.0 run tp @s ^ ^ ^0.7
+execute rotated as @s positioned 0.0 0.0 0.0 run teleport @s ^ ^ ^0.7
 
 data modify storage ssbrc:data Motion set from entity @s Pos
 

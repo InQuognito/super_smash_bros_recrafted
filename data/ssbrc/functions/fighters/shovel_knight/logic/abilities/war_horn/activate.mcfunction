@@ -2,7 +2,7 @@ execute positioned ~ ~0.75 ~ summon minecraft:marker run function ssbrc:fighters
 
 tag @s add warHornActive
 
-function ssbrc:logic/fighters/effects/mobility/immobilize
+function ssbrc:logic/fighters/effects/mobility/immobilize/default
 
 scoreboard players operation @s mana -= #shovel_knight.warHornManaCost vars
 function ssbrc:fighters/shovel_knight/logic/check_relics

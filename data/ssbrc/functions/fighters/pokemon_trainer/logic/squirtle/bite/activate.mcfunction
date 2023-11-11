@@ -1,4 +1,4 @@
-function ssbrc:logic/fighters/effects/mobility/immobilize
+function ssbrc:logic/fighters/effects/mobility/immobilize/default
 
 effect give @s minecraft:blindness 2 0 true
 

@@ -2,7 +2,7 @@ function ssbrc:fighters/joker/logic/abilities/rebels_guard/deactivate
 
 scoreboard players set @s duration.2 40
 
-function ssbrc:logic/fighters/effects/mobility/immobilize
+function ssbrc:logic/fighters/effects/mobility/immobilize/default
 
 effect give @s minecraft:fire_resistance infinite 255 true
 effect give @s minecraft:regeneration infinite 4 true

@@ -1,6 +1,6 @@
 scoreboard players set @s charge.2 1
 
-function ssbrc:logic/fighters/effects/mobility/immobilize
+function ssbrc:logic/fighters/effects/mobility/immobilize/default
 effect give @s minecraft:resistance 3 0 true
 
 scoreboard players set @s shadow.meter.villain 0
