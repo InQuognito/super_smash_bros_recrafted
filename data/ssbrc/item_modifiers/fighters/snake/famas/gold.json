@@ -3,7 +3,7 @@
 		"function": "minecraft:set_name",
 		"entity": "this",
 		"name": {
-			"translate": "ssbrc.tooltips.snake.famas",
+			"translate": "ssbrc.fighters.snake.famas",
 			"color": "gold",
 			"bold": true,
 			"italic": false

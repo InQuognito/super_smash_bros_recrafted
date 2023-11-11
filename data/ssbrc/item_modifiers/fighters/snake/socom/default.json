@@ -3,7 +3,7 @@
 		"function": "minecraft:set_name",
 		"entity": "this",
 		"name": {
-			"translate": "ssbrc.tooltips.snake.socom",
+			"translate": "ssbrc.fighters.snake.socom",
 			"color": "green",
 			"bold": true,
 			"italic": false

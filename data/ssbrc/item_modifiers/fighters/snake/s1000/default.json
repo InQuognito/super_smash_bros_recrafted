@@ -3,7 +3,7 @@
 		"function": "minecraft:set_name",
 		"entity": "this",
 		"name": {
-			"translate": "ssbrc.tooltips.snake.s1000",
+			"translate": "ssbrc.fighters.snake.s1000",
 			"color": "green",
 			"bold": true,
 			"italic": false
