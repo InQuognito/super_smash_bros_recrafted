@@ -45,7 +45,7 @@
 						},
 						{
 							"function": "minecraft:reference",
-							"name": "ssbrc:fighters/shadow/chaos_spear/default"
+							"name": "ssbrc:fighters/shadow/chaos_spear/disabled"
 						},
 						{
 							"function": "minecraft:set_nbt",
