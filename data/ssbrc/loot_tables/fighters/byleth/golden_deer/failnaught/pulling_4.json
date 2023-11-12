@@ -14,11 +14,21 @@
 						},
 						{
 							"function": "minecraft:reference",
-							"name": "ssbrc:fighters/byleth/golden_deer/brave_bow"
+							"name": "ssbrc:fighters/byleth/golden_deer/failnaught"
+						},
+						{
+							"function": "minecraft:set_name",
+							"entity": "this",
+							"name": {
+								"translate": "ssbrc.tooltips.byleth.goldenDeer.failnaught",
+								"color": "yellow",
+								"bold": true,
+								"italic": false
+							}
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{CustomModelData:109}"
+							"tag": "{pulling:1,CustomModelData:117}"
 						}
 					]
 				}

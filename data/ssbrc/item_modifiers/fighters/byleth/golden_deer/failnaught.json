@@ -1,85 +1,39 @@
 [
 	{
-		"function": "minecraft:set_nbt",
-		"tag": "{CustomModelData:112}",
-		"conditions": [
-			{
-				"condition": "minecraft:inverted",
-				"term": {
-					"condition": "minecraft:entity_scores",
-					"entity": "this",
-					"scores": {
-						"charge.output": {
-							"min": 1
-						}
-					}
-				}
-			}
-		]
-	},
-	{
-		"function": "minecraft:set_nbt",
-		"tag": "{pulling:1,CustomModelData:113}",
-		"conditions": [
-			{
-				"condition": "minecraft:entity_scores",
-				"entity": "this",
-				"scores": {
-					"charge.output": 1
-				}
-			}
-		]
-	},
-	{
-		"function": "minecraft:set_nbt",
-		"tag": "{CustomModelData:114}",
-		"conditions": [
-			{
-				"condition": "minecraft:entity_scores",
-				"entity": "this",
-				"scores": {
-					"charge.output": 40
-				}
-			}
-		]
-	},
-	{
-		"function": "minecraft:set_nbt",
-		"tag": "{CustomModelData:115}",
-		"conditions": [
-			{
-				"condition": "minecraft:entity_scores",
-				"entity": "this",
-				"scores": {
-					"charge.output": 53
-				}
-			}
-		]
-	},
-	{
-		"function": "minecraft:set_nbt",
-		"tag": "{CustomModelData:116}",
-		"conditions": [
-			{
-				"condition": "minecraft:entity_scores",
-				"entity": "this",
-				"scores": {
-					"charge.output": 67
-				}
-			}
-		]
+		"function": "minecraft:set_name",
+		"entity": "this",
+		"name": {
+			"translate": "ssbrc.tooltips.byleth.goldenDeer.failnaught",
+			"color": "white",
+			"bold": true,
+			"italic": false
+		}
 	},
 	{
 		"function": "minecraft:reference",
-		"name": "ssbrc:fighters/byleth/golden_deer/failnaught/charged",
-		"conditions": [
+		"name": "ssbrc:fighters/init/tooltip/ability/ranged"
+	},
+	{
+		"function": "minecraft:set_lore",
+		"entity": "this",
+		"lore": [
 			{
-				"condition": "minecraft:entity_scores",
-				"entity": "this",
-				"scores": {
-					"charge.output": 80
-				}
+				"translate": "ssbrc.tooltips.byleth.goldenDeer.failnaught.description.1",
+				"color": "gray",
+				"bold": false,
+				"italic": false
+			},
+			{
+				"translate": "ssbrc.tooltips.byleth.goldenDeer.failnaught.description.2",
+				"color": "gray",
+				"bold": false,
+				"italic": false
 			}
-		]
+		],
+		"replace": false
+	},
+	{
+		"function": "minecraft:set_nbt",
+		"tag": "{failnaught:1}"
 	}
 ]
