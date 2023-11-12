@@ -1,4 +1,2 @@
-loot replace entity @s[nbt=!{Inventory:[{Slot:-106b}]}] weapon.offhand loot ssbrc:fighters/sora/keyblades/secondary/strike_raid
-loot give @s[nbt={Inventory:[{Slot:-106b}]}] loot ssbrc:fighters/sora/keyblades/secondary/strike_raid
-
-scoreboard players set strikeRaidRegained temp 1
+execute unless score strikeRaidRegained temp matches 1 store success score strikeRaidGained temp run loot replace entity @s[nbt=!{Inventory:[{Slot:-106b}]}] weapon.offhand loot ssbrc:fighters/sora/keyblades/secondary/strike_raid
+execute unless score strikeRaidRegained temp matches 1 store success score strikeRaidGained temp run loot give @s[nbt={Inventory:[{Slot:-106b}]}] loot ssbrc:fighters/sora/keyblades/secondary/strike_raid
