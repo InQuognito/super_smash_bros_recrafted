@@ -13,16 +13,6 @@
 							"name": "ssbrc:fighters/byleth/golden_deer/failnaught/pulling"
 						},
 						{
-							"function": "minecraft:set_name",
-							"entity": "this",
-							"name": {
-								"translate": "ssbrc.tooltips.byleth.goldenDeer.failnaught",
-								"color": "yellow",
-								"bold": true,
-								"italic": false
-							}
-						},
-						{
 							"function": "minecraft:set_nbt",
 							"tag": "{CustomModelData:117}"
 						}
