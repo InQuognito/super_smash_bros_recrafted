@@ -10,19 +10,11 @@
 					"functions": [
 						{
 							"function": "minecraft:reference",
-							"name": "ssbrc:fighters/init/preset/bow"
-						},
-						{
-							"function": "minecraft:reference",
-							"name": "ssbrc:fighters/init/preset/magic"
-						},
-						{
-							"function": "minecraft:reference",
-							"name": "ssbrc:fighters/zelda/bow/default"
+							"name": "ssbrc:fighters/zelda/bow/fire/idle"
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{default:1}"
+							"tag": "{CustomModelData:9056}"
 						}
 					]
 				}

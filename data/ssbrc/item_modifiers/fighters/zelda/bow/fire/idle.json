@@ -1,0 +1,10 @@
+[
+	{
+		"function": "minecraft:reference",
+		"name": "ssbrc:fighters/init/preset/magic"
+	},
+	{
+		"function": "minecraft:reference",
+		"name": "ssbrc:fighters/zelda/bow/fire/init"
+	}
+]

@@ -10,11 +10,11 @@
 					"functions": [
 						{
 							"function": "minecraft:reference",
-							"name": "ssbrc:fighters/byleth/golden_deer/brave_bow/pulling"
+							"name": "ssbrc:fighters/zelda/bow/fire/idle"
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{CustomModelData:106}"
+							"tag": "{CustomModelData:9059}"
 						}
 					]
 				}

@@ -1,0 +1,10 @@
+[
+	{
+		"function": "minecraft:reference",
+		"name": "ssbrc:fighters/init/preset/bow"
+	},
+	{
+		"function": "minecraft:set_nbt",
+		"tag": "{default:1}"
+	}
+]

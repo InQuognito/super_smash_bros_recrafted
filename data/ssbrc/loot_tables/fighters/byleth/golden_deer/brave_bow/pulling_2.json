@@ -10,11 +10,7 @@
 					"functions": [
 						{
 							"function": "minecraft:reference",
-							"name": "ssbrc:fighters/init/unbreakable/instant"
-						},
-						{
-							"function": "minecraft:reference",
-							"name": "ssbrc:fighters/byleth/golden_deer/brave_bow"
+							"name": "ssbrc:fighters/byleth/golden_deer/brave_bow/pulling"
 						},
 						{
 							"function": "minecraft:set_nbt",
