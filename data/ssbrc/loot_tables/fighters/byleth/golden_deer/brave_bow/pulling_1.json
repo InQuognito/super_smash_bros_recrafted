@@ -1,0 +1,28 @@
+{
+	"type": "minecraft:command",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:carrot_on_a_stick",
+					"functions": [
+						{
+							"function": "minecraft:reference",
+							"name": "ssbrc:fighters/init/unbreakable/instant"
+						},
+						{
+							"function": "minecraft:reference",
+							"name": "ssbrc:fighters/byleth/golden_deer/brave_bow"
+						},
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{CustomModelData:107}"
+						}
+					]
+				}
+			]
+		}
+	]
+}
