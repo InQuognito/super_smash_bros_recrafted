@@ -10,7 +10,11 @@
 					"functions": [
 						{
 							"function": "minecraft:reference",
-							"name": "ssbrc:fighters/zelda/bow/default/idle"
+							"name": "ssbrc:fighters/init/preset/magic"
+						},
+						{
+							"function": "minecraft:reference",
+							"name": "ssbrc:fighters/zelda/bow/default/init"
 						},
 						{
 							"function": "minecraft:set_nbt",

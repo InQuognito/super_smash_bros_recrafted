@@ -10,11 +10,7 @@
 					"functions": [
 						{
 							"function": "minecraft:reference",
-							"name": "ssbrc:fighters/init/unbreakable/smooth"
-						},
-						{
-							"function": "minecraft:reference",
-							"name": "ssbrc:fighters/byleth/golden_deer/failnaught"
+							"name": "ssbrc:fighters/byleth/golden_deer/failnaught/pulling"
 						},
 						{
 							"function": "minecraft:set_name",
@@ -28,7 +24,7 @@
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{pulling:1,CustomModelData:117}"
+							"tag": "{CustomModelData:117}"
 						}
 					]
 				}

@@ -10,11 +10,11 @@
 					"functions": [
 						{
 							"function": "minecraft:reference",
-							"name": "ssbrc:fighters/zelda/bow/default/idle"
+							"name": "ssbrc:fighters/zelda/bow/default/pulling"
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{pulling:1,CustomModelData:9055}"
+							"tag": "{CustomModelData:9055}"
 						}
 					]
 				}

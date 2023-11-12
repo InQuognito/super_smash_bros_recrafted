@@ -10,7 +10,7 @@
 					"functions": [
 						{
 							"function": "minecraft:reference",
-							"name": "ssbrc:fighters/zelda/bow/poison/idle"
+							"name": "ssbrc:fighters/zelda/bow/poison/pulling"
 						},
 						{
 							"function": "minecraft:set_nbt",

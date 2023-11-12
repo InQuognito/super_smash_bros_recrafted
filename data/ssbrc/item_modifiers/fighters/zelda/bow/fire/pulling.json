@@ -1,11 +1,7 @@
 [
 	{
 		"function": "minecraft:reference",
-		"name": "ssbrc:fighters/init/tooltip/ability/magic"
-	},
-	{
-		"function": "minecraft:reference",
-		"name": "ssbrc:fighters/init/pulling"
+		"name": "ssbrc:fighters/zelda/bow/pulling"
 	},
 	{
 		"function": "minecraft:reference",
