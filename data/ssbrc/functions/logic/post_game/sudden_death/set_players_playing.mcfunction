@@ -15,6 +15,6 @@ execute if entity @s[tag=shovel_knight] run function ssbrc:fighters/shovel_knigh
 execute if entity @s[tag=snake] run function ssbrc:fighters/snake/logic/scavenger/all
 execute if entity @s[tag=sora] run function ssbrc:fighters/sora/logic/drive_forms/enable
 
-teleport @s @e[tag=spawnpoint,sort=random,limit=1]
+tag @s add teleportMe
 
 scoreboard players set @s suddenDeath 1
