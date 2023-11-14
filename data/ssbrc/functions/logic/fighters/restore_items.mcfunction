@@ -27,7 +27,7 @@ execute if entity @s[tag=cloud] run function ssbrc:fighters/cloud/logic/abilitie
 execute if entity @s[tag=dark_samus] run function ssbrc:fighters/dark_samus/logic/abilities/phazon_beam/reset
 
 # Donkey Kong
-loot replace entity @s[tag=donkey_kong,scores={charge.1=..0}] hotbar.1 loot ssbrc:fighters/donkey_kong/orange_grenade/default
+loot replace entity @s[tag=donkey_kong,scores={charge.1=..0}] hotbar.1 loot ssbrc:fighters/donkey_kong/orange_grenade
 scoreboard players set @s[tag=donkey_kong] charge.1 2
 
 # Ganondorf
@@ -46,8 +46,7 @@ scoreboard players set @s[tag=joker] joker.tt33A 8
 
 # Link
 loot replace entity @s[tag=link] hotbar.2 loot ssbrc:fighters/link/boomerang
-loot replace entity @s[tag=link,tag=!dark] weapon.offhand loot ssbrc:fighters/link/hylian_shield/default
-loot replace entity @s[tag=link,tag=dark] weapon.offhand loot ssbrc:fighters/link/hylian_shield/dark
+loot replace entity @s[tag=link] weapon.offhand loot ssbrc:fighters/link/hylian_shield
 give @s[tag=link] minecraft:spectral_arrow 5
 
 # Megaman
@@ -63,7 +62,7 @@ execute if entity @s[tag=pokemon_trainer,tag=charizard,tag=!nextFighterChosen] r
 execute if entity @s[tag=pokemon_trainer,tag=ivysaur,tag=!nextFighterChosen] run function ssbrc:fighters/pokemon_trainer/kits/squirtle
 
 # Rob
-execute if entity @s[tag=rob] run function ssbrc:fighters/rob/logic/abilities/robo_beam/reset
+execute if entity @s[tag=rob] run function ssbrc:fighters/rob/logic/abilities/robo_beam/update
 
 # Ryu
 execute if score gameMode options matches 1 if score @s[tag=ryu] stocks matches 1 run loot replace entity @s[tag=!abilityUsed] hotbar.1 loot ssbrc:fighters/ryu/satsui_no_hado_rage
