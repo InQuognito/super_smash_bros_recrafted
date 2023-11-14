@@ -7,6 +7,7 @@ execute unless score particlePlaced temp matches 1 if block ~ ~ ~ #ssbrc:materia
 execute unless score particlePlaced temp matches 1 if block ~ ~ ~ #ssbrc:material/grass run function ssbrc:fighters/steve/logic/abilities/mining/material/grass
 execute unless score particlePlaced temp matches 1 if block ~ ~ ~ #ssbrc:material/gravel run function ssbrc:fighters/steve/logic/abilities/mining/material/gravel
 execute unless score particlePlaced temp matches 1 if block ~ ~ ~ #ssbrc:material/metal run function ssbrc:fighters/steve/logic/abilities/mining/material/metal
+execute unless score particlePlaced temp matches 1 if block ~ ~ ~ #ssbrc:material/sand run function ssbrc:fighters/steve/logic/abilities/mining/material/stone
 execute unless score particlePlaced temp matches 1 if block ~ ~ ~ #ssbrc:material/stone run function ssbrc:fighters/steve/logic/abilities/mining/material/stone
 execute unless score particlePlaced temp matches 1 if block ~ ~ ~ #ssbrc:material/wood run function ssbrc:fighters/steve/logic/abilities/mining/material/wood
 
@@ -14,6 +15,7 @@ execute unless score particlePlaced temp matches 1 if block ~ ~ ~ #ssbrc:materia
 execute unless score particlePlaced temp matches 1 if block ~ ~ ~ #ssbrc:material/azalea_leaves run function ssbrc:fighters/steve/logic/abilities/mining/material/azalea_leaves
 
 execute unless score particlePlaced temp matches 1 if block ~ ~ ~ #minecraft:snow run function ssbrc:fighters/steve/logic/abilities/mining/material/snow
+execute unless score particlePlaced temp matches 1 if block ~ ~ ~ #minecraft:wool run function ssbrc:fighters/steve/logic/abilities/mining/material/wool
 
 execute unless score particlePlaced temp matches 1 if block ~ ~ ~ minecraft:cherry_leaves run function ssbrc:fighters/steve/logic/abilities/mining/material/cherry_leaves
 execute unless score particlePlaced temp matches 1 if block ~ ~ ~ minecraft:dripstone_block run function ssbrc:fighters/steve/logic/abilities/mining/material/dripstone_block
