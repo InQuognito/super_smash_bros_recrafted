@@ -71,5 +71,3 @@ scoreboard players set @s bully 0
 scoreboard players set @s coward 0
 
 scoreboard players set @s einstein 0
-
-scoreboard players set @s selfDestruct 0
