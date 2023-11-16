@@ -225,6 +225,9 @@ scoreboard players set value.bonus.bully vars -200
 
 scoreboard players set value.bonus.coward vars -20
 
+scoreboard players operation value.bonus.crushingWeight vars = value.KO vars
+scoreboard players operation value.bonus.crushingWeight vars *= 2 integers
+
 scoreboard players set value.bonus.einstein vars -20
 
 scoreboard players operation value.bonus.firstStrike vars = value.KO vars
