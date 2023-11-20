@@ -26,4 +26,4 @@ execute if entity @s[nbt=!{SelectedItem:{tag:{railgun:1}}},nbt={Inventory:[{tag:
 
 # Omnishot
 execute if score @s[tag=omnishot] duration.1 matches 1.. run scoreboard players add @s charge.2 1
-execute if score @s charge.2 matches 40.. at @s positioned ~ ~0.75 ~ run function ssbrc:fighters/yar/logic/abilities/ray_blaster/variants/omnishot
+execute if score @s charge.2 matches 40.. at @s positioned ~ ~0.75 ~ rotated ~ 0.0 run function ssbrc:fighters/yar/logic/abilities/ray_blaster/variants/omnishot
