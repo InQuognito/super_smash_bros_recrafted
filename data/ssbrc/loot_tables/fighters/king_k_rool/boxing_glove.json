@@ -9,16 +9,6 @@
 					"name": "minecraft:red_dye",
 					"functions": [
 						{
-							"function": "minecraft:set_name",
-							"entity": "this",
-							"name": {
-								"translate": "ssbrc.tooltips.king_k_rool.boxingGlove",
-								"color": "red",
-								"bold": true,
-								"italic": false
-							}
-						},
-						{
 							"function": "minecraft:set_attributes",
 							"modifiers": [
 								{
@@ -40,6 +30,35 @@
 						{
 							"function": "minecraft:reference",
 							"name": "ssbrc:fighters/init/preset/melee"
+						},
+						{
+							"function": "minecraft:reference",
+							"name": "ssbrc:fighters/king_k_rool/boxing_glove/default",
+							"conditions": [
+								{
+									"condition": "minecraft:inverted",
+									"term": {
+										"condition": "minecraft:entity_properties",
+										"entity": "this",
+										"predicate": {
+											"nbt": "{Tags:[\"gold\"]}"
+										}
+									}
+								}
+							]
+						},
+						{
+							"function": "minecraft:reference",
+							"name": "ssbrc:fighters/king_k_rool/boxing_glove/gold",
+							"conditions": [
+								{
+									"condition": "minecraft:entity_properties",
+									"entity": "this",
+									"predicate": {
+										"nbt": "{Tags:[\"gold\"]}"
+									}
+								}
+							]
 						},
 						{
 							"function": "minecraft:set_nbt",
