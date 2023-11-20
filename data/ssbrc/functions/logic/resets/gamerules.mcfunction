@@ -25,13 +25,13 @@ gamerule keepInventory true
 gamerule lavaSourceConversion false
 execute unless score debug options matches 1 run gamerule logAdminCommands false
 execute if score debug options matches 1 run gamerule logAdminCommands true
-gamerule maxCommandChainLength 65536
+gamerule maxCommandChainLength 100000
 gamerule maxEntityCramming 24
 gamerule mobExplosionDropDecay false
 gamerule mobGriefing false
 gamerule naturalRegeneration false
 gamerule playersSleepingPercentage 100
-gamerule randomTickSpeed 3
+gamerule randomTickSpeed 0
 execute unless score debug options matches 1 run gamerule reducedDebugInfo true
 execute if score debug options matches 1 run gamerule reducedDebugInfo false
 execute unless score debug options matches 1 run gamerule sendCommandFeedback false
