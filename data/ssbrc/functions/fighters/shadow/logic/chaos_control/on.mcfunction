@@ -6,7 +6,7 @@ execute as @a[predicate=ssbrc:flag/targets,tag=ryu] if score @s duration.1 match
 
 scoreboard players set @a[tag=shadow,tag=!self] flag.sprinting 0
 scoreboard players set @a[tag=sonic] flag.sprinting 0
-scoreboard players set @a[predicate=ssbrc:flag/player,tag=!self] shadow.chaosControl 400
+scoreboard players set @e[predicate=ssbrc:flag/targets,tag=!self] shadow.chaosControl 400
 
 scoreboard players set @s shadow.meter.hero 0
 
