@@ -12,9 +12,5 @@
 	{
 		"function": "minecraft:set_nbt",
 		"tag": "{CustomModelData:445}"
-	},
-	{
-		"function": "minecraft:reference",
-		"name": "ssbrc:fighters/init/ability"
 	}
 ]
