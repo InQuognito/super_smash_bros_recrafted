@@ -10,6 +10,6 @@ execute if entity @s[predicate=ssbrc:fighters/link/master_sword_awakened,scores=
 tag @s add spinning
 loot replace entity @s weapon.mainhand loot ssbrc:fighters/link/master_sword
 
-execute if block ~ ~-0.1 ~ #ssbrc:passthrough_charge run function ssbrc:fighters/link/logic/abilities/sword_spin/levitate
+execute if predicate ssbrc:flag/in_air run function ssbrc:fighters/link/logic/abilities/sword_spin/levitate
 
 playsound ssbrc:fighters.link.sword_spin.unleash player @a

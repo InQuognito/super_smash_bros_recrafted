@@ -11,8 +11,8 @@ function ssbrc:fighters/shovel_knight/logic/mana/update
 # Shovel Drop
 execute if entity @s[nbt={SelectedItem:{tag:{shovelDrop:1}}}] run function ssbrc:fighters/shovel_knight/logic/abilities/shovel_drop/tick
 
-execute if entity @s[predicate=ssbrc:flag/sneaking,nbt={SelectedItem:{tag:{shovelDrop:0}}}] at @s if block ~ ~-0.1 ~ #ssbrc:passthrough_charge run function ssbrc:fighters/shovel_knight/logic/abilities/shovel_drop/display/activate
-execute if entity @s[nbt={SelectedItem:{tag:{shovelDrop:1}}}] at @s unless block ~ ~-0.1 ~ #ssbrc:passthrough_charge run function ssbrc:fighters/shovel_knight/logic/abilities/shovel_drop/display/reset
+execute if entity @s[predicate=ssbrc:flag/sneaking,nbt={SelectedItem:{tag:{shovelDrop:0}}}] at @s if predicate ssbrc:flag/in_air run function ssbrc:fighters/shovel_knight/logic/abilities/shovel_drop/display/activate
+execute if entity @s[nbt={SelectedItem:{tag:{shovelDrop:1}}}] at @s unless predicate ssbrc:flag/in_air run function ssbrc:fighters/shovel_knight/logic/abilities/shovel_drop/display/reset
 
 execute if entity @s[predicate=!ssbrc:flag/sneaking,scores={charge.3=1..}] run function ssbrc:fighters/shovel_knight/logic/abilities/shovel_drop/reset
 scoreboard players add @s[scores={charge.3=1..}] charge.3 1
