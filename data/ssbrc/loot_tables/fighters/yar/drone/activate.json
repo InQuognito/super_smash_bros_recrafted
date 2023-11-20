@@ -111,7 +111,7 @@
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{activate:1,CustomModelData:1975}"
+							"tag": "{activate:1}"
 						}
 					]
 				}
