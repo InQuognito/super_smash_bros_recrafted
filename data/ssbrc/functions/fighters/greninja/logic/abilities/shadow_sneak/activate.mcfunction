@@ -2,4 +2,4 @@ execute positioned ~ ~0.5 ~ summon minecraft:marker run function ssbrc:fighters/
 
 tag @s add shadowSneak
 
-playsound ssbrc:fighters.greninja.shadow_sneak.activate player @a
+playsound ssbrc:fighters.greninja.shadow_sneak.charge player @a
