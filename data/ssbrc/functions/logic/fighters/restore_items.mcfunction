@@ -88,11 +88,7 @@ loot replace entity @s[tag=waretiger] hotbar.0 loot ssbrc:fighters/altered_beast
 loot replace entity @s[tag=waretiger] weapon.offhand loot ssbrc:fighters/altered_beast/waretiger/sabretooth
 
 # Alucard
-execute if entity @s[tag=alucard] run function ssbrc:fighters/alucard/logic/abilities/blood_metamorphosis/regain
-
-scoreboard players set @s[tag=alucard] durability 300
-execute store result storage ssbrc:alucard_shield damage int 1.0 run scoreboard players get @s durability
-loot replace entity @s[tag=alucard] weapon.offhand loot ssbrc:fighters/alucard/alucard_shield
+execute if entity @s[tag=alucard] run function ssbrc:fighters/alucard/restore_items
 
 # Shovelknight
 execute if entity @s[tag=shovel_knight] run function ssbrc:fighters/shovel_knight/kit
