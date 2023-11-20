@@ -13,7 +13,7 @@ execute if score @s charge.3 matches 21..25 run effect give @s minecraft:levitat
 execute if score @s charge.3 matches 26..30 run effect give @s minecraft:levitation infinite 4 true
 execute if score @s charge.3 matches 31.. run effect give @s minecraft:levitation infinite 5 true
 
-scoreboard players set @s cooldown.2 100
+scoreboard players set @s cooldown.2 60
 
 function ssbrc:fighters/rob/logic/abilities/robo_burner/update
 
