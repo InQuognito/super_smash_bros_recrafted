@@ -13,7 +13,7 @@ function ssbrc:logic/pre_game/character_select/check_participation
 clear @s minecraft:carrot_on_a_stick{skinOptions:1}
 clear @s minecraft:carrot_on_a_stick{wiki:1}
 
-loot replace entity @s hotbar.3 loot ssbrc:skin_options
+loot replace entity @s[tag=!blindPick] hotbar.3 loot ssbrc:skin_options
 loot replace entity @s hotbar.5 loot ssbrc:wiki
 
 advancement grant @s[advancements={ssbrc:tutorial/intro/3=true,ssbrc:tutorial/fighter_select/2=false}] only ssbrc:tutorial/fighter_select/2
