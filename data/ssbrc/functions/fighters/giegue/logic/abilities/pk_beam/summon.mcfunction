@@ -5,7 +5,4 @@ scoreboard players set @s charge.1 0
 scoreboard players operation @s cooldown.2 = giegue.pkBeamCooldown vars
 execute if score @s shadow.chaosControl matches 1.. run function ssbrc:logic/fighters/cooldown_modifiers/chaos_control/2
 
-function ssbrc:logic/fighters/effects/mobility/mobilize
-function ssbrc:fighters/giegue/kit
-
 playsound ssbrc:fighters.giegue.pk_beam.activate player @a
