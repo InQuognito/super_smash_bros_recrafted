@@ -9,4 +9,4 @@ title @s[nbt={SelectedItem:{tag:{waterShuriken:1}}},scores={charge.2=0..}] actio
 execute if entity @s[scores={charge.2=..3}] run function ssbrc:fighters/greninja/logic/abilities/water_shuriken/charge
 
 # Shadow Sneak
-execute if entity @s[predicate=!ssbrc:flag/sneaking,tag=shadowSneak] run function ssbrc:fighters/greninja/logic/abilities/shadow_sneak/deactivate
+execute if entity @s[predicate=!ssbrc:flag/sneaking,tag=shadowSneak] at @s run function ssbrc:fighters/greninja/logic/abilities/shadow_sneak/deactivate
