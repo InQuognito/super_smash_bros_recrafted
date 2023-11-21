@@ -1,8 +1,7 @@
-particle minecraft:smoke ~ ~-0.5 ~ 0.25 0.1 0.25 0.0 25 normal @a[tag=self,limit=1]
-particle minecraft:smoke ~ ~-0.6 ~ 0.25 0.1 0.25 0.0 1 force @a[tag=!self]
+particle minecraft:smoke ~ ~ ~ 0.25 0.1 0.25 0.0 25 normal @a[tag=self,limit=1]
+particle minecraft:smoke ~ ~-0.1 ~ 0.25 0.1 0.25 0.0 1 force @a[tag=!self]
 
 execute positioned ~ ~0.5 ~ run function ssbrc:logic/fighters/checks/raycast/block
-tellraw @a {"score":{"name":"rayAbort","objective":"temp"},"color":"green"}
 execute if score rayAbort temp matches 1 run scoreboard players set @s temp 41
 scoreboard players reset rayAbort temp
 
