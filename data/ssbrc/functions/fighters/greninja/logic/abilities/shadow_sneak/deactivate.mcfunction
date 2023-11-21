@@ -1,4 +1,4 @@
-execute if score debug options matches 1 run title @s actionbar {"score":{"name":"idToMatch","objective":"temp"},"color":"white"}
+execute if score debug options matches 1 run tellraw @s {"score":{"name":"idToMatch","objective":"temp"},"color":"white"}
 
 particle minecraft:poof ~ ~0.75 ~ 0.2 0.4 0.2 0.01 25 normal @a
 
