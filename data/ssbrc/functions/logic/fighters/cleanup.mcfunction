@@ -28,7 +28,7 @@ execute if entity @s[tag=byleth] as @e[type=minecraft:horse,tag=steedCharge] if 
 execute if entity @s[tag=captain_falcon] as @e[type=minecraft:marker,tag=raptorBoost] if score @s id = @a[tag=self,limit=1] id run kill @s
 execute if entity @s[tag=fox] as @e[type=minecraft:marker,tag=fireFox] if score @s id = @a[tag=self,limit=1] id run kill @s
 execute if entity @s[tag=greninja] as @e[type=minecraft:marker,tag=shadowSneak] if score @s id = @a[tag=self,limit=1] id run kill @s
-execute if entity @s[tag=link] as @e[type=minecraft:armor_stand,tag=link.boomerang] if score @s id = @a[tag=self,limit=1] id run kill @s
+execute if entity @s[tag=link] as @e[type=minecraft:item_display,tag=link.boomerang] if score @s id = @a[tag=self,limit=1] id run kill @s
 execute if entity @s[tag=pokemon_trainer,tag=charizard] as @e[type=minecraft:marker,tag=flareBlitz] if score @s id = @a[tag=self,limit=1] id run kill @s
 execute if entity @s[tag=pokemon_trainer,tag=ivysaur] run function ssbrc:fighters/pokemon_trainer/logic/ivysaur/leech_seed/kill
 execute if entity @s[tag=ryu] as @e[type=minecraft:marker,tag=tatsumakiSenpukyaku] if score @s id = @a[tag=self,limit=1] id run kill @s
