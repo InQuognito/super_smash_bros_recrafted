@@ -1,8 +1,9 @@
 tag @s add self
 
+scoreboard players operation idToMatch temp = @s id
+
 execute if entity @s[predicate=ssbrc:flag/player] run function ssbrc:logic/tick/fighters
 
-scoreboard players operation idToMatch temp = @s id
 execute as @e[type=!minecraft:player,predicate=ssbrc:id_match] run function ssbrc:logic/tick/abilities
 
 scoreboard players remove @s[scores={duration.1=1..}] duration.1 1
