@@ -3,6 +3,7 @@ particle minecraft:smoke ~ ~-0.6 ~ 0.25 0.1 0.25 0.0 1 force @a[tag=!self]
 
 execute positioned ~ ~0.5 ~ run function ssbrc:logic/fighters/checks/raycast/block
 execute if score rayAbort temp matches 1 run scoreboard players set @s temp 41
+scoreboard players reset rayAbort temp
 
 teleport @s[scores={temp=..40}] ^ ^ ^0.25
 
