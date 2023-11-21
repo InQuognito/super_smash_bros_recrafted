@@ -39,6 +39,3 @@ execute if entity @s[tag=shovel_knight.propellerDagger] run function ssbrc:fight
 
 # Throwing Anchor
 execute if entity @s[tag=shovel_knight.throwingAnchor] run function ssbrc:fighters/shovel_knight/logic/abilities/throwing_anchor/cooldown
-
-# War Horn
-execute if score @s[tag=shovel_knight.warHorn] cooldown.2 matches 260 run function ssbrc:logic/fighters/effects/mobility/mobilize
