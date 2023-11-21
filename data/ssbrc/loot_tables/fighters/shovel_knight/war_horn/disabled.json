@@ -6,21 +6,17 @@
 			"entries": [
 				{
 					"type": "minecraft:item",
-					"name": "minecraft:goat_horn",
+					"name": "minecraft:carrot_on_a_stick",
 					"functions": [
 						{
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
 								"translate": "ssbrc.tooltips.shovel_knight.warHorn",
-								"color": "dark_gray",
+								"color": "gray",
 								"bold": true,
 								"italic": false
 							}
-						},
-						{
-							"function": "minecraft:set_instrument",
-							"options": "#minecraft:goat_horns"
 						},
 						{
 							"function": "minecraft:reference",
@@ -58,8 +54,12 @@
 							"replace": false
 						},
 						{
+							"function": "minecraft:reference",
+							"name": "ssbrc:fighters/shovel_knight/disabled"
+						},
+						{
 							"function": "minecraft:set_nbt",
-							"tag": "{warHorn:1,CustomModelData:1920}"
+							"tag": "{warHorn:1,CustomModelData:1931}"
 						}
 					]
 				}
