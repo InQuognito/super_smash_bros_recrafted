@@ -1,3 +1,5 @@
+execute if score debug options matches 1 run title @s actionbar {"score":{"name":"idToMatch","objective":"temp"},"color":"white"}
+
 particle minecraft:poof ~ ~0.75 ~ 0.2 0.4 0.2 0.01 25 normal @a
 
 execute at @e[type=minecraft:marker,tag=shadowSneak,predicate=ssbrc:id_match,sort=nearest,limit=1] positioned ~ ~-0.5 ~ run function ssbrc:fighters/greninja/logic/abilities/shadow_sneak/teleport
