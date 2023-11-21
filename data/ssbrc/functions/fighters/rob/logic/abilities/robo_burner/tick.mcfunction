@@ -15,6 +15,4 @@ execute if score @s charge.3 matches 31.. run effect give @s minecraft:levitatio
 
 scoreboard players set @s cooldown.2 60
 
-function ssbrc:fighters/rob/logic/abilities/robo_burner/update
-
 execute if score @s charge.2 matches ..0 run function ssbrc:fighters/rob/logic/abilities/robo_burner/deactivate

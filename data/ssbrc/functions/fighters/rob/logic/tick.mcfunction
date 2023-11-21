@@ -8,3 +8,5 @@ execute if score @s charge.2 < #rob.maxFuel vars run scoreboard players add @s[s
 
 execute if entity @s[predicate=ssbrc:flag/sneaking,scores={charge.2=1..}] at @s run function ssbrc:fighters/rob/logic/abilities/robo_burner/tick
 execute if entity @s[predicate=!ssbrc:flag/sneaking,scores={charge.3=1..}] run function ssbrc:fighters/rob/logic/abilities/robo_burner/deactivate
+
+function ssbrc:fighters/rob/logic/abilities/robo_burner/update
