@@ -56,9 +56,6 @@ tag @s remove rupeeMaster
 # Ganondorf
 clear @s minecraft:trident{tridentOfPower:1}
 
-# Dark Samus
-scoreboard players set @s[tag=dark_samus] charge.1 0
-
 # Jigglypuff
 tag @s remove rest
 execute if entity @s[tag=jigglypuff] run function ssbrc:fighters/jigglypuff/logic/abilities/rest/deactivate
