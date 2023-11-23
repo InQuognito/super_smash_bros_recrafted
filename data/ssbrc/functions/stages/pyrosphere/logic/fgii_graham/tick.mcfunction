@@ -8,3 +8,5 @@ teleport @s[scores={temp=81..116}] ^ ^-0.25 ^0.25
 teleport @s[scores={temp=117..192}] ^ ^ ^0.25
 
 execute if score @s temp matches 193.. run function ssbrc:stages/pyrosphere/logic/fgii_graham/tick_active
+
+effect clear @s minecraft:glowing
