@@ -10,7 +10,7 @@ execute if entity @s[scores={useAbility=1..},nbt={SelectedItem:{tag:{powerUp:1}}
 execute if score @s duration.1 matches 1 run function ssbrc:fighters/yar/logic/abilities/power_ups/reset
 
 # Drone
-execute if score @s[nbt={Inventory:[{tag:{drone:1,activate:1}}]}] yar.droneHealth < yar.droneHealth vars run function ssbrc:fighters/yar/logic/abilities/drone/repair
+execute if score @s[nbt={Inventory:[{tag:{drone:1,activate:1}}]}] yar.droneHealth < yar.droneHealthCushion vars run function ssbrc:fighters/yar/logic/abilities/drone/repair
 
 execute if score @s cooldown.2 matches 1 run function ssbrc:fighters/yar/logic/abilities/drone/regain
 
