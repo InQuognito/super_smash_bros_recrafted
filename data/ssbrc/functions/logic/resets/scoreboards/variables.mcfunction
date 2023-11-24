@@ -147,6 +147,9 @@ scoreboard players set #wolf.grenadeTimer vars 80
 scoreboard players set #wolf.wolfFlash vars 6
 
 scoreboard players set yar.droneHealth vars 20
+scoreboard players set yar.droneHealthCushion vars 5000
+scoreboard players operation yar.droneHealthThreshold vars = yar.droneHealthCushion vars
+scoreboard players operation yar.droneHealthThreshold vars -= yar.droneHealth vars
 scoreboard players set #yar.railgunRange vars 600
 scoreboard players set #yar.railgunPiercing vars 30
 

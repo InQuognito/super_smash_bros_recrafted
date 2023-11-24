@@ -1,6 +1,7 @@
 execute store result score @s yar.droneHealth run data get entity @s Health 1.0
+scoreboard players operation @s yar.droneHealth -= yar.droneHealthThreshold vars
 
-execute store result score #percentage temp run data get entity @s Health 1.0
+scoreboard players operation #percentage temp = @s yar.droneHealth
 scoreboard players operation #percentage temp *= 100 integers
 scoreboard players operation #percentage temp /= yar.droneHealth vars
 
@@ -22,4 +23,5 @@ execute if entity @s[tag=recall] positioned ~-0.5 ~-0.5 ~-0.5 as @p[tag=self,dx=
 execute rotated as @s[scores={temp=1..},tag=!stop,tag=!recall] run function ssbrc:fighters/yar/logic/abilities/drone/move
 execute if entity @s[tag=recall] facing entity @a[tag=self,limit=1] eyes run function ssbrc:fighters/yar/logic/abilities/drone/move
 
-execute if entity @e[type=minecraft:marker,tag=electricTerrain,distance=..12] run function ssbrc:fighters/yar/logic/abilities/drone/force_kill
+execute if score #percentage temp matches ..0 run function ssbrc:fighters/yar/logic/abilities/drone/kill
+execute if entity @e[type=minecraft:marker,tag=electricTerrain,distance=..12] run function ssbrc:fighters/yar/logic/abilities/drone/kill
