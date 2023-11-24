@@ -1,3 +1,4 @@
+scoreboard players operation idToMatch temp = @s id
 execute summon minecraft:marker run function ssbrc:fighters/pokemon_trainer/logic/charizard/flare_blitz/init
 
 effect give @s minecraft:levitation infinite 0 true

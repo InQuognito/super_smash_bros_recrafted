@@ -1,3 +1,4 @@
+scoreboard players operation idToMatch temp = @s id
 execute summon minecraft:marker run function ssbrc:fighters/hero/logic/abilities/bang/init/marker
 
 scoreboard players operation @s cooldown.1 = hero.bangCooldown vars

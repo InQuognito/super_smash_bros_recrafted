@@ -1,3 +1,4 @@
+scoreboard players operation idToMatch temp = @s id
 execute positioned ^ ^ ^1 summon minecraft:armor_stand run function ssbrc:fighters/donkey_kong/logic/abilities/barrel/init
 
 scoreboard players set @s cooldown.1 10

@@ -1,3 +1,4 @@
+scoreboard players operation idToMatch temp = @s id
 execute positioned ^ ^ ^1 summon minecraft:marker run function ssbrc:fighters/shovel_knight/logic/abilities/chaos_sphere/init
 
 scoreboard players operation @s mana -= #shovel_knight.chaosSphereManaCost vars

@@ -1,3 +1,4 @@
+scoreboard players operation idToMatch temp = @s id
 scoreboard players operation limit temp = @s cloud.limit
 execute positioned ^ ^ ^1 summon minecraft:marker run function ssbrc:fighters/cloud/logic/abilities/buster_sword/blade_beam/init
 

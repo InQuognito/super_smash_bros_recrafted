@@ -10,8 +10,8 @@ execute if entity @s[tag=bladeBeam] at @s run function ssbrc:fighters/cloud/logi
 
 # Dark Samus
 execute if entity @s[tag=phazonBeam] at @s run function ssbrc:fighters/dark_samus/logic/abilities/phazon_beam/tick
-execute if entity @s[tag=phazonPool] at @s run function ssbrc:fighters/dark_samus/logic/abilities/phazon_spike/tick_pool
-execute if entity @s[tag=phazonSpike] at @s run function ssbrc:fighters/dark_samus/logic/abilities/phazon_spike/tick_spike
+execute if entity @s[tag=phazonPool] at @s run function ssbrc:fighters/dark_samus/logic/abilities/phazon_spike/phazon_pool/tick
+execute if entity @s[tag=phazonSpike] at @s run function ssbrc:fighters/dark_samus/logic/abilities/phazon_spike/tick
 
 # Donkey Kong
 execute if entity @s[tag=barrel] at @s run function ssbrc:fighters/donkey_kong/logic/abilities/barrel/tick

@@ -1,3 +1,4 @@
+scoreboard players operation idToMatch temp = @s id
 execute if score @s charge.output matches 10.. at @s anchored eyes positioned ^ ^ ^ summon minecraft:marker run function ssbrc:fighters/pit/logic/abilities/palutena_bow/init/marker
 
 scoreboard players set @s cooldown.1 10

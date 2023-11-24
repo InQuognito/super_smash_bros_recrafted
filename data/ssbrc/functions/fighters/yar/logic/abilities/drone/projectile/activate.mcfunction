@@ -1,5 +1,6 @@
 teleport @s ~ ~ ~ ~ ~
 
+scoreboard players operation idToMatch temp = @s id
 execute positioned ^ ^ ^1 summon minecraft:marker run function ssbrc:fighters/yar/logic/abilities/drone/projectile/init
 
 scoreboard players set @s cooldown.1 12

@@ -1,3 +1,4 @@
+scoreboard players operation idToMatch temp = @s id
 execute positioned ^ ^ ^1 summon minecraft:marker run function ssbrc:fighters/giegue/logic/abilities/pk_freeze/init
 
 scoreboard players operation @s cooldown.1 = giegue.pkFreezeCooldown vars

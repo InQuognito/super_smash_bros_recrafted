@@ -1,3 +1,4 @@
+scoreboard players operation idToMatch temp = @s id
 execute summon minecraft:marker run function ssbrc:fighters/fox/logic/abilities/fire_fox/init
 
 effect give @s minecraft:levitation infinite 0 true

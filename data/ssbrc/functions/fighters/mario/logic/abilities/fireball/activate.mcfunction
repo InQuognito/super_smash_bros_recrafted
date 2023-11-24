@@ -1,3 +1,4 @@
+scoreboard players operation idToMatch temp = @s id
 execute positioned ^ ^ ^1 summon minecraft:marker run function ssbrc:fighters/mario/logic/abilities/fireball/init
 
 scoreboard players operation @s cooldown.1 = mario.fireballCooldown vars

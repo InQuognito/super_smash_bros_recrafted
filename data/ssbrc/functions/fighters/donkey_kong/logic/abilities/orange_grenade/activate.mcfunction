@@ -1,3 +1,4 @@
+scoreboard players operation idToMatch temp = @s id
 execute positioned ^ ^ ^1 summon minecraft:marker run function ssbrc:fighters/donkey_kong/logic/abilities/orange_grenade/init
 
 scoreboard players remove @s charge.1 1

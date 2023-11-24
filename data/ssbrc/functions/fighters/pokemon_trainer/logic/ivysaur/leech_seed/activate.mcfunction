@@ -1,3 +1,4 @@
+scoreboard players operation idToMatch temp = @s id
 execute summon minecraft:marker run function ssbrc:fighters/pokemon_trainer/logic/ivysaur/leech_seed/init/marker
 
 scoreboard players remove @s charge.1 1

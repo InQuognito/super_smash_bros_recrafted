@@ -4,6 +4,27 @@
 		"requirement": {
 			"trigger": "minecraft:entity_hurt_player",
 			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:value_check",
+						"value": {
+							"type": "minecraft:score",
+							"target": {
+								"type": "minecraft:fixed",
+								"name": "gameStage"
+							},
+							"score": "temp"
+						},
+						"range": 4
+					},
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"nbt": "{Inventory:[{id:\"minecraft:warped_fungus_on_a_stick\"}]}"
+						}
+					}
+				],
 				"damage": {
 					"source_entity": {
 						"equipment": {

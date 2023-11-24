@@ -3,6 +3,7 @@ tag @s add intangible
 scoreboard players set @s duration.1 40
 scoreboard players operation @s[tag=bloodMetamorphosis] duration.1 *= 2 integers
 
+scoreboard players operation idToMatch temp = @s id
 execute if entity @s[tag=bloodMetamorphosis] summon minecraft:marker run function ssbrc:fighters/alucard/logic/abilities/mist/summon
 
 execute if entity @s[nbt=!{Inventory:[{tag:{alucardShield:1}}]}] run tag @s add shieldBroken

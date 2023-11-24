@@ -10,6 +10,7 @@ scoreboard players operation $yrot temp += random.output temp
 
 data modify storage ssbrc:data Rotation set value [0f,0f]
 
+scoreboard players operation idToMatch temp = @s id
 execute summon minecraft:marker run function ssbrc:fighters/snake/logic/weapons/s1000/init
 execute summon minecraft:marker run function ssbrc:fighters/snake/logic/weapons/s1000/init
 execute summon minecraft:marker run function ssbrc:fighters/snake/logic/weapons/s1000/init

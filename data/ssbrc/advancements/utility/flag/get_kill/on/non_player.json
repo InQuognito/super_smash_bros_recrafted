@@ -6,6 +6,18 @@
 			"conditions": {
 				"entity": [
 					{
+						"condition": "minecraft:value_check",
+						"value": {
+							"type": "minecraft:score",
+							"target": {
+								"type": "minecraft:fixed",
+								"name": "gameStage"
+							},
+							"score": "temp"
+						},
+						"range": 4
+					},
+					{
 						"condition": "minecraft:entity_properties",
 						"entity": "this",
 						"predicate": {

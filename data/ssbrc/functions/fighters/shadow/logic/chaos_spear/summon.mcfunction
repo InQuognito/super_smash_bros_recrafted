@@ -1,3 +1,4 @@
+scoreboard players operation idToMatch temp = @s id
 execute positioned ^ ^ ^1 summon minecraft:marker run function ssbrc:fighters/shadow/logic/chaos_spear/init
 
 scoreboard players set @s charge.1 0

@@ -1,3 +1,4 @@
+scoreboard players operation idToMatch temp = @s id
 execute positioned ^ ^ ^1 summon minecraft:item_display run function ssbrc:fighters/yar/logic/abilities/ray_blaster/variants/missile_launcher/init
 
 scoreboard players set @s cooldown.1 100

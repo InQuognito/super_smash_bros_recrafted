@@ -1,3 +1,4 @@
+scoreboard players operation idToMatch temp = @s id
 execute summon minecraft:marker run function ssbrc:fighters/zelda/logic/abilities/bomb/init/marker
 
 scoreboard players set @s cooldown.1 20

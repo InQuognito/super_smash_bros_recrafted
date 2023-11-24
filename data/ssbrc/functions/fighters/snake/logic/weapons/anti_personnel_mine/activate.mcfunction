@@ -1,3 +1,4 @@
+scoreboard players operation idToMatch temp = @s id
 execute summon minecraft:marker run function ssbrc:fighters/snake/logic/weapons/anti_personnel_mine/init/marker
 
 scoreboard players remove @s snake.antiPersonnelMineA 1
