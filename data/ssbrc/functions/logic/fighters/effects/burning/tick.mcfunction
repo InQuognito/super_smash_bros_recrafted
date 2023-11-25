@@ -1,4 +1,4 @@
-execute at @s run particle minecraft:small_flame ~ ~0.75 ~ 0.2 0.4 0.2 0.01 1 normal @a
+particle minecraft:small_flame ~ ~0.75 ~ 0.2 0.4 0.2 0.01 1 normal @a
 
 scoreboard players remove @s burning 1
 

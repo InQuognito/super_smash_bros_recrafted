@@ -78,8 +78,6 @@ execute at @s[tag=naturalShiny] run particle minecraft:glow ~ ~0.7 ~ 0.5 0.4 0.5
 
 execute at @s[tag=immobile] run function ssbrc:logic/fighters/effects/mobility/tick
 
-execute at @s if entity @e[type=minecraft:marker,tag=electricTerrain,distance=..12] if block ~ ~ ~ minecraft:water run damage @s 6.0 ssbrc:projectile
-
 scoreboard players add @s[tag=immobile.pkFlash] timer.pkFlash 1
 execute if score @s timer.pkFlash matches 40.. run function ssbrc:fighters/ness/logic/abilities/pk_flash/damage/mobilize
 
