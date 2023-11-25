@@ -1,3 +1,4 @@
+scoreboard players operation idToMatch temp = @s id
 execute positioned ^ ^ ^1 run function ssbrc:fighters/sora/logic/abilities/blizzaga/projectile
 
 scoreboard players operation @s mana -= #sora.blizzagaMPCost vars

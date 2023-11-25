@@ -1,6 +1,6 @@
 tag @s add throwingAnchor
 
-loot replace entity @s armor.head loot ssbrc:fighters/shovel_knight/throwing_anchor/default
+loot replace entity @s armor.head loot ssbrc:fighters/shovel_knight/throwing_anchor
 
 data merge entity @s {Small:1b}
 

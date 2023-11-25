@@ -1,5 +1,6 @@
 scoreboard players add @s charge.4 1
 
+scoreboard players operation idToMatch temp = @s id
 execute positioned ^ ^ ^1 run function ssbrc:fighters/sora/logic/abilities/blizzaga/blizzaza/projectile
 
 scoreboard players operation #blizzazaCost temp = #sora.blizzazaMPCost vars
