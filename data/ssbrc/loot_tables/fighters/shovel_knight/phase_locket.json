@@ -20,7 +20,11 @@
 						},
 						{
 							"function": "minecraft:reference",
-							"name": "ssbrc:fighters/init/preset/defensive"
+							"name": "ssbrc:fighters/init/tooltip/ability/defensive"
+						},
+						{
+							"function": "minecraft:reference",
+							"name": "ssbrc:fighters/init/animation/instant"
 						},
 						{
 							"function": "minecraft:set_lore",

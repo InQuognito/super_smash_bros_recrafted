@@ -24,7 +24,7 @@
 						},
 						{
 							"function": "minecraft:reference",
-							"name": "ssbrc:fighters/init/animation/smooth"
+							"name": "ssbrc:fighters/init/animation/instant"
 						},
 						{
 							"function": "minecraft:set_lore",
