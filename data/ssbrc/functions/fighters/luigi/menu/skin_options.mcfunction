@@ -1,4 +1,4 @@
-tellraw @s [{"translate":"=== ","color":"white"},{"translate":"ssbrc.fighters.menu.chooseSkin","bold":true,"color":"yellow"},{"translate":" ===","color":"white"}]
+tellraw @s [{"text":"=== ","color":"white"},{"translate":"ssbrc.fighters.menu.chooseSkin","bold":true,"color":"yellow"},{"text":" ===","color":"white"}]
 
 tellraw @s[tag=!default] [{"translate":"ssbrc.fighters.skin.default","color":"dark_green","clickEvent":{"action":"run_command","value":"/trigger menu set 824"}}]
 tellraw @s[tag=default] [{"translate":"ssbrc.fighters.skin.default","color":"dark_green"},{"nbt":"selected","storage":"ssbrc:data/skins","interpret":true}]
@@ -15,6 +15,6 @@ tellraw @s[tag=gooigi] [{"translate":"ssbrc.fighters.luigi.skin.gooigi","color":
 tellraw @s[tag=!penguin,advancements={ssbrc:fighters/luigi/skins/penguin=true}] [{"nbt":"winter","storage":"ssbrc:data/skins","interpret":true},{"nbt":"penguin","storage":"ssbrc:data/skins/super_mario_bros","interpret":true,"clickEvent":{"action":"run_command","value":"/trigger menu set 828"}}]
 tellraw @s[tag=penguin] [{"nbt":"winter","storage":"ssbrc:data/skins","interpret":true},{"nbt":"penguin","storage":"ssbrc:data/skins/super_mario_bros","interpret":true},{"nbt":"selected","storage":"ssbrc:data/skins","interpret":true}]
 
-tellraw @s [{"translate":"================","bold":true,"color":"white"}]
+tellraw @s [{"text":"================","bold":true,"color":"white"}]
 
 execute at @s run playsound minecraft:ui.button.click master @s

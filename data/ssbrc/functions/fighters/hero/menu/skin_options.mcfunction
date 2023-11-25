@@ -1,4 +1,4 @@
-tellraw @s [{"translate":"=== ","color":"white"},{"translate":"ssbrc.fighters.menu.chooseSkin","bold":true,"color":"yellow"},{"translate":" ===","color":"white"}]
+tellraw @s [{"text":"=== ","color":"white"},{"translate":"ssbrc.fighters.menu.chooseSkin","bold":true,"color":"yellow"},{"text":" ===","color":"white"}]
 
 tellraw @s[tag=!default] [{"translate":"ssbrc.fighters.skin.default","color":"yellow","clickEvent":{"action":"run_command","value":"/trigger menu set 444"}}]
 tellraw @s[tag=default] [{"translate":"ssbrc.fighters.skin.default","color":"yellow"},{"text":" ✔","color":"green"}]
@@ -15,6 +15,6 @@ tellraw @s[tag=rek] [{"translate":"ssbrc.fighters.hero.skin.rek","color":"blue"}
 tellraw @s[tag=!sofia,advancements={ssbrc:fighters/hero/skins/sofia=true}] [{"translate":"ssbrc.fighters.hero.skin.sofia","color":"green","clickEvent":{"action":"run_command","value":"/trigger menu set 448"}}]
 tellraw @s[tag=sofia] [{"translate":"ssbrc.fighters.hero.skin.sofia","color":"green"},{"text":" ✔","color":"green"}]
 
-tellraw @s [{"translate":"================","bold":true,"color":"white"}]
+tellraw @s [{"text":"================","bold":true,"color":"white"}]
 
 execute at @s run playsound minecraft:ui.button.click master @s

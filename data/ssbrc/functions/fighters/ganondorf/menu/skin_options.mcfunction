@@ -1,4 +1,4 @@
-tellraw @s [{"translate":"=== ","color":"white"},{"translate":"ssbrc.fighters.menu.chooseSkin","bold":true,"color":"yellow"},{"translate":" ===","color":"white"}]
+tellraw @s [{"text":"=== ","color":"white"},{"translate":"ssbrc.fighters.menu.chooseSkin","bold":true,"color":"yellow"},{"text":" ===","color":"white"}]
 
 tellraw @s[tag=!default] [{"translate":"ssbrc.fighters.skin.default","color":"red","clickEvent":{"action":"run_command","value":"/trigger menu set 404"}}]
 tellraw @s[tag=default] [{"translate":"ssbrc.fighters.skin.default","color":"red"},{"text":" ✔","color":"green"}]
@@ -15,6 +15,6 @@ tellraw @s[tag=tearsOfTheKingdom] [{"translate":"ssbrc.fighters.ganondorf.skin.t
 tellraw @s[tag=!windWaker,advancements={ssbrc:fighters/ganondorf/skins/wind_waker=true}] [{"translate":"ssbrc.fighters.ganondorf.skin.windWaker","color":"aqua","clickEvent":{"action":"run_command","value":"/trigger menu set 408"}}]
 tellraw @s[tag=windWaker] [{"translate":"ssbrc.fighters.ganondorf.skin.windWaker","color":"aqua"},{"text":" ✔","color":"green"}]
 
-tellraw @s [{"translate":"================","bold":true,"color":"white"}]
+tellraw @s [{"text":"================","bold":true,"color":"white"}]
 
 execute at @s run playsound minecraft:ui.button.click master @s

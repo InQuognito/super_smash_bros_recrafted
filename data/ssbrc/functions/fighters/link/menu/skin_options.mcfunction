@@ -1,4 +1,4 @@
-tellraw @s [{"translate":"=== ","color":"white"},{"translate":"ssbrc.fighters.menu.chooseSkin","bold":true,"color":"yellow"},{"translate":" ===","color":"white"}]
+tellraw @s [{"text":"=== ","color":"white"},{"translate":"ssbrc.fighters.menu.chooseSkin","bold":true,"color":"yellow"},{"text":" ===","color":"white"}]
 
 tellraw @s[tag=!default] [{"translate":"ssbrc.fighters.skin.default","color":"dark_green","clickEvent":{"action":"run_command","value":"/trigger menu set 724"}}]
 tellraw @s[tag=default] [{"translate":"ssbrc.fighters.skin.default","color":"dark_green"},{"text":" ✔","color":"green"}]
@@ -15,6 +15,6 @@ tellraw @s[tag=goron] [{"translate":"ssbrc.fighters.link.skin.goronTunic","color
 tellraw @s[tag=!zora,advancements={ssbrc:fighters/link/skins/zora_tunic=true}] [{"translate":"ssbrc.fighters.link.skin.zoraTunic","color":"blue","clickEvent":{"action":"run_command","value":"/trigger menu set 728"}}]
 tellraw @s[tag=zora] [{"translate":"ssbrc.fighters.link.skin.zoraTunic","color":"blue"},{"text":" ✔","color":"green"}]
 
-tellraw @s [{"translate":"================","bold":true,"color":"white"}]
+tellraw @s [{"text":"================","bold":true,"color":"white"}]
 
 execute at @s run playsound minecraft:ui.button.click master @s

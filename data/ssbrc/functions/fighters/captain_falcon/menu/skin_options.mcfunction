@@ -1,4 +1,4 @@
-tellraw @s [{"translate":"=== ","color":"white"},{"translate":"ssbrc.fighters.menu.chooseSkin","bold":true,"color":"yellow"},{"translate":" ===","color":"white"}]
+tellraw @s [{"text":"=== ","color":"white"},{"translate":"ssbrc.fighters.menu.chooseSkin","bold":true,"color":"yellow"},{"text":" ===","color":"white"}]
 
 tellraw @s[tag=!default] [{"translate":"ssbrc.fighters.skin.default","color":"red","clickEvent":{"action":"run_command","value":"/trigger menu set 124"}}]
 tellraw @s[tag=default] [{"translate":"ssbrc.fighters.skin.default","color":"red"},{"text":" ✔","color":"green"}]
@@ -12,6 +12,6 @@ tellraw @s[tag=bloodFalcon] [{"translate":"ssbrc.fighters.captain_falcon.skin.bl
 tellraw @s[tag=!rickWheeler,advancements={ssbrc:fighters/captain_falcon/skins/rick_wheeler=true}] [{"translate":"ssbrc.fighters.captain_falcon.skin.rickWheeler","color":"dark_blue","clickEvent":{"action":"run_command","value":"/trigger menu set 127"}}]
 tellraw @s[tag=rickWheeler] [{"translate":"ssbrc.fighters.captain_falcon.skin.rickWheeler","color":"dark_blue"},{"text":" ✔","color":"green"}]
 
-tellraw @s [{"translate":"================","bold":true,"color":"white"}]
+tellraw @s [{"text":"================","bold":true,"color":"white"}]
 
 execute at @s run playsound minecraft:ui.button.click master @s

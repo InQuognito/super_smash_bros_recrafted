@@ -1,4 +1,4 @@
-tellraw @s [{"translate":"=== ","color":"white"},{"translate":"ssbrc.fighters.menu.chooseSkin","bold":true,"color":"yellow"},{"translate":" ===","color":"white"}]
+tellraw @s [{"text":"=== ","color":"white"},{"translate":"ssbrc.fighters.menu.chooseSkin","bold":true,"color":"yellow"},{"text":" ===","color":"white"}]
 
 tellraw @s[tag=!default] [{"translate":"ssbrc.fighters.skin.default","color":"gold","clickEvent":{"action":"run_command","value":"/trigger menu set 1424"}}]
 tellraw @s[tag=default] [{"translate":"ssbrc.fighters.skin.default","color":"gold"},{"text":" ✔","color":"green"}]
@@ -12,6 +12,6 @@ tellraw @s[tag=gravitySuit] [{"translate":"ssbrc.fighters.samus.skin.gravitySuit
 tellraw @s[tag=!phazonSuit,advancements={ssbrc:fighters/samus/skins/phazon_suit=true}] [{"translate":"ssbrc.fighters.samus.skin.phazonSuit","color":"red","clickEvent":{"action":"run_command","value":"/trigger menu set 1427"}}]
 tellraw @s[tag=phazonSuit] [{"translate":"ssbrc.fighters.samus.skin.phazonSuit","color":"red"},{"text":" ✔","color":"green"}]
 
-tellraw @s [{"translate":"================","bold":true,"color":"white"}]
+tellraw @s [{"text":"================","bold":true,"color":"white"}]
 
 execute at @s run playsound minecraft:ui.button.click master @s

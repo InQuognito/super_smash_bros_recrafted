@@ -101,6 +101,7 @@ execute if score @s[tag=ness] menu matches 1088 run function ssbrc:fighters/ness
 execute if score @s[tag=pikachu] menu matches 1204 run function ssbrc:fighters/pikachu/menu/skins/default
 execute if score @s[tag=pikachu] menu matches 1205 run function ssbrc:fighters/pikachu/menu/skins/gold
 execute if score @s[tag=pikachu] menu matches 1206 run function ssbrc:fighters/pikachu/menu/skins/shiny
+execute if score @s[tag=pikachu] menu matches 1207 run function ssbrc:fighters/pikachu/menu/skins/santa_hat
 
 execute if score @s[tag=pit] menu matches 1224 run function ssbrc:fighters/pit/menu/skins/default
 execute if score @s[tag=pit] menu matches 1225 run function ssbrc:fighters/pit/menu/skins/gold
