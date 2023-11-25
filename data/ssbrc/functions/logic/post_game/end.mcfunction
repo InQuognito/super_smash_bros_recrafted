@@ -1,3 +1,5 @@
+execute if score debug options matches 1 run say end game
+
 stopsound @a[predicate=ssbrc:ingame] music
 execute if score gameMode options matches 1 as @a[predicate=ssbrc:ingame] at @s run playsound ssbrc:game voice @s
 execute if score gameMode options matches 2 as @a[predicate=ssbrc:ingame] at @s run playsound ssbrc:time voice @s
