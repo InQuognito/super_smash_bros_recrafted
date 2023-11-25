@@ -30,7 +30,7 @@
 	},
 	{
 		"function": "minecraft:reference",
-		"name": "ssbrc:fighters/init/preset/hybrid"
+		"name": "ssbrc:fighters/init/tooltip/ability/hybrid"
 	},
 	{
 		"function": "minecraft:set_nbt",
