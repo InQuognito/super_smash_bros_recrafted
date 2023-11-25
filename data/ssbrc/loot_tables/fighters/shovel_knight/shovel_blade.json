@@ -118,7 +118,7 @@
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{shovelBlade:1}"
+							"tag": "{shovelBlade:1,disabled:0}"
 						}
 					]
 				}

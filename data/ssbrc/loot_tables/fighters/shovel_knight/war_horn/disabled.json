@@ -59,7 +59,7 @@
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{warHorn:1,CustomModelData:1931}"
+							"tag": "{warHorn:1,disabled:1,CustomModelData:1931}"
 						}
 					]
 				}

@@ -51,7 +51,7 @@
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{phaseLocket:1,CustomModelData:1923}"
+							"tag": "{phaseLocket:1,disabled:0,CustomModelData:1923}"
 						}
 					]
 				}

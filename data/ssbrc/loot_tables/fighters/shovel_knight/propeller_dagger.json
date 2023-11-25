@@ -55,7 +55,7 @@
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{propellerDagger:1,CustomModelData:1924}"
+							"tag": "{propellerDagger:1,disabled:0,CustomModelData:1924}"
 						}
 					]
 				}

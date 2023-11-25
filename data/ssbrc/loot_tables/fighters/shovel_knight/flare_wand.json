@@ -61,7 +61,7 @@
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{flareWand:1,CustomModelData:1922}"
+							"tag": "{flareWand:1,disabled:0,CustomModelData:1922}"
 						}
 					]
 				}

@@ -11,7 +11,7 @@
 	},
 	{
 		"function": "minecraft:set_nbt",
-		"tag": "{CustomModelData:1929}"
+		"tag": "{disabled:1,CustomModelData:1929}"
 	},
 	{
 		"function": "minecraft:reference",
