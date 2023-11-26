@@ -64,7 +64,8 @@ execute if score @s[tag=jigglypuff] menu matches 586 run function ssbrc:fighters
 
 execute if score @s[tag=joker] menu matches 604 run function ssbrc:fighters/joker/menu/skins/default
 execute if score @s[tag=joker] menu matches 605 run function ssbrc:fighters/joker/menu/skins/gold
-execute if score @s[tag=joker] menu matches 606 run function ssbrc:fighters/joker/menu/skins/shujin_academy
+execute if score @s[tag=joker] menu matches 606 run function ssbrc:fighters/joker/menu/skins/christmas_outfit
+execute if score @s[tag=joker] menu matches 607 run function ssbrc:fighters/joker/menu/skins/shujin_academy
 
 execute if score @s[tag=king_k_rool] menu matches 684 run function ssbrc:fighters/king_k_rool/menu/skins/default
 execute if score @s[tag=king_k_rool] menu matches 685 run function ssbrc:fighters/king_k_rool/menu/skins/gold
