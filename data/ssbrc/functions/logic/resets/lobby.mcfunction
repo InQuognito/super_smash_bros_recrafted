@@ -14,7 +14,7 @@ summon minecraft:text_display -528.5 6.75 -1949.5 {text:'{"translate":"ssbrc.lob
 summon minecraft:text_display -521.5 1.75 -1944.5 {text:'{"translate":"ssbrc.lobby.return","color":"gold"}',billboard:center}
 
 # Skybox
-summon minecraft:block_display -520.5 5.5 -1944.5 {block_state:{Name:"minecraft:weathered_copper"},brightness:{sky:15,block:15},transformation:[70f,0f,0f,-35f,0f,70f,0f,-35f,0f,0f,70f,-35f,0f,0f,0f,1f]}
+summon minecraft:block_display -520.5 5.5 -1944.5 {block_state:{Name:"minecraft:weathered_copper"},brightness:{sky:15,block:15},transformation:[80f,0f,0f,-40f,0f,80f,0f,-40f,0f,0f,80f,-40f,0f,0f,0f,1f]}
 
 # YouTube
 #setblock -531 4 -1944 minecraft:dark_oak_wall_sign[facing=east]{front_text:{messages:['[""]','[{"text":"YouTube","clickEvent":{"action":"run_command","value":"/tellraw @s [\\"\\",{\\"text\\":\\"[\\",\\"bold\\":true,\\"color\\":\\"dark_red\\"},{\\"text\\":\\"YouTube\\",\\"bold\\":true,\\"color\\":\\"red\\",\\"clickEvent\\":{\\"action\\":\\"open_url\\",\\"value\\":\\"https://www.youtube.com/channel/UCCqXNuFgGs53GgP7oSQGtOA\\"}},{\\"text\\":\\"]\\",\\"bold\\":true,\\"color\\":\\"dark_red\\"}]"},"bold":true,"color":"red"}]','[""]','[""]'],has_glowing_text:1b},is_waxed:1b} destroy
