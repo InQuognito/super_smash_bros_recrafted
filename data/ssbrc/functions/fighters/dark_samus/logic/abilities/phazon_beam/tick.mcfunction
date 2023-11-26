@@ -8,4 +8,4 @@ execute unless score entityHit temp matches 1 at @s[scores={charge.1=4..}] run f
 scoreboard players reset entityHit temp
 
 scoreboard players add @s temp 1
-kill @s[scores={temp=30..}]
+kill @s[scores={temp=15..}]
