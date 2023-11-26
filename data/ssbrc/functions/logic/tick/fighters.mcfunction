@@ -78,7 +78,7 @@ execute at @s[tag=naturalShiny] run particle minecraft:glow ~ ~0.7 ~ 0.5 0.4 0.5
 
 execute at @s[tag=immobile] run function ssbrc:logic/fighters/effects/mobility/tick
 
-execute if entity @s[tag=pivot,tag=!immobile] unless predicate ssbrc:flag/in_air run function ssbrc:logic/fighters/effects/mobility/immobilize/pivot/activate
+execute at @s[tag=pivot,tag=!immobile] unless predicate ssbrc:flag/in_air run function ssbrc:logic/fighters/effects/mobility/immobilize/pivot/activate
 
 scoreboard players add @s[tag=immobile.pkFlash] timer.pkFlash 1
 execute if score @s timer.pkFlash matches 40.. run function ssbrc:fighters/ness/logic/abilities/pk_flash/damage/mobilize

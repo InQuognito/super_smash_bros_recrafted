@@ -2,4 +2,4 @@ execute if entity @s[tag=!air_stall,tag=!pivot] unless predicate ssbrc:flag/in_a
 
 execute if entity @s[tag=air_stall] run teleport @s @s
 
-execute if entity @s[tag=pivot] run teleport @s @e[type=minecraft:marker,tag=pivot,predicate=ssbrc:id_match,limit=1]
+execute if entity @s[tag=pivot] at @e[type=minecraft:marker,tag=pivot,predicate=ssbrc:id_match,limit=1] run teleport @s ~ ~ ~
