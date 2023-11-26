@@ -1,3 +1,5 @@
+execute if score debug options matches 1 run tellraw @s {"score":{"name":"random.output","objective":"temp"},"color":"yellow"}
+
 execute if score $acropolisGraveyard map matches 1 if score result_music random matches 0 run playsound ssbrc:anatasia_battle music @s
 execute if score $acropolisGraveyard map matches 1 if score result_music random matches 0 if score music options matches 0 run schedule function ssbrc:logic/music/loop_schedule 2730t replace
 execute if score $acropolisGraveyard map matches 1 if score result_music random matches 1 if score music options matches 1 run schedule function ssbrc:logic/music/decide 2730t replace
