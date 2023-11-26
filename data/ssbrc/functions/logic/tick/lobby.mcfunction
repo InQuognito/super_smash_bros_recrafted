@@ -24,3 +24,6 @@ execute if score @s sandbag.standOn matches 400 run function ssbrc:logic/selecto
 execute if score @s sandbag.standOn matches 500 positioned -525.5 6.0 -1936.5 run function ssbrc:logic/selector/events/sandbag/stand_on/5
 
 execute as @e[type=minecraft:armor_stand,tag=sandbagThrow] at @s unless block ~ ~-0.1 ~ #ssbrc:passthrough run kill @s
+
+# Seasonal
+execute if score event.winter temp matches 1 run particle minecraft:snowflake -520.5 10.5 -1944.5 10.0 3.0 10.0 0.0 15 normal @a
