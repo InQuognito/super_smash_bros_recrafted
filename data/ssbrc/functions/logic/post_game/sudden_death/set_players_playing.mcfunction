@@ -1,3 +1,5 @@
+scoreboard players set @s suddenDeath 1
+
 scoreboard players set @s stocks 1
 
 attribute @s generic.max_health base set 20.0
@@ -16,5 +18,3 @@ execute if entity @s[tag=snake] run function ssbrc:fighters/snake/logic/scavenge
 execute if entity @s[tag=sora] run function ssbrc:fighters/sora/logic/drive_forms/enable
 
 tag @s add teleportMe
-
-scoreboard players set @s suddenDeath 1

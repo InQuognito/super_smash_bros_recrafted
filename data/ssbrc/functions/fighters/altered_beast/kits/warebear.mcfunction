@@ -3,7 +3,7 @@ tag @s add warebear
 
 tellraw @s [{"translate":"ssbrc.fighters.altered_beast.form","bold":true,"color":"gold"},{"translate":"ssbrc.fighters.altered_beast.warebear","bold":false,"color":"yellow"}]
 
-function ssbrc:logic/fighters/attributes/defaults
+execute unless score suddenDeath temp matches 1 run function ssbrc:logic/fighters/attributes/defaults
 function ssbrc:logic/fighters/effects/jump_boost
 
 clear @s #ssbrc:equipment
