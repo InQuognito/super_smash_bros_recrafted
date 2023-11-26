@@ -24,6 +24,7 @@ scoreboard objectives remove duration.1
 scoreboard objectives remove duration.2
 scoreboard objectives remove duration.3
 scoreboard objectives remove duration.4
+#scoreboard objectives remove event
 scoreboard objectives remove fallDistance
 scoreboard objectives remove favorite.temp
 scoreboard objectives remove fiendsCauldron

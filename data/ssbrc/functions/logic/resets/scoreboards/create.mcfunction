@@ -24,6 +24,7 @@ scoreboard objectives add duration.1 dummy
 scoreboard objectives add duration.2 dummy
 scoreboard objectives add duration.3 dummy
 scoreboard objectives add duration.4 dummy
+scoreboard objectives add event dummy
 scoreboard objectives add fallDistance minecraft.custom:minecraft.fall_one_cm
 scoreboard objectives add favorite.temp dummy
 scoreboard objectives add fiendsCauldron dummy
@@ -67,7 +68,6 @@ scoreboard objectives add motionZ dummy
 scoreboard objectives add piercing dummy
 scoreboard objectives add point dummy
 scoreboard objectives add points dummy
-scoreboard objectives modify points displayname {"translate":"ssbrc.game.points","bold":true,"color":"yellow"}
 scoreboard objectives add posX dummy
 scoreboard objectives add posY dummy
 scoreboard objectives add posZ dummy
@@ -113,7 +113,6 @@ scoreboard objectives add stageIndex dummy
 scoreboard objectives add stageIndexCalculator dummy
 scoreboard objectives add steve.tier dummy
 scoreboard objectives add stocks dummy
-scoreboard objectives modify stocks displayname {"translate":"ssbrc.game.stocks","bold":true,"color":"yellow"}
 scoreboard objectives add suicides dummy
 scoreboard objectives add teamAmount dummy
 scoreboard objectives add timer dummy
@@ -132,6 +131,9 @@ scoreboard objectives add useItem minecraft.used:minecraft.warped_fungus_on_a_st
 scoreboard objectives add vars dummy
 scoreboard objectives add walkDistance minecraft.custom:minecraft.walk_one_cm
 scoreboard objectives add yar.droneHealth dummy
+
+scoreboard objectives modify points displayname {"translate":"ssbrc.game.points","bold":true,"color":"yellow"}
+scoreboard objectives modify stocks displayname {"translate":"ssbrc.game.stocks","bold":true,"color":"yellow"}
 
 # Bonuses
 scoreboard objectives add 765o dummy
