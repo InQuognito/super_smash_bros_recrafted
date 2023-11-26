@@ -20,6 +20,10 @@
 						},
 						{
 							"function": "minecraft:reference",
+							"name": "ssbrc:ui/shop/collection/winter"
+						},
+						{
+							"function": "minecraft:reference",
 							"name": "ssbrc:ui/shop/owned"
 						},
 						{
