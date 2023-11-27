@@ -16,8 +16,6 @@ execute if score $sectorZ map matches 1 run effect give @s minecraft:slow_fallin
 
 execute unless score $blackout temp matches 1 run data merge entity @s {Glowing:1b}
 
-data merge entity @s {Health:12,PersistenceRequired:1b,HandDropChances:[0f,0f],ArmorDropChances:[0f,0f,0f,0f]}
+data merge entity @s {Health:12,HandDropChances:[0f,0f],ArmorDropChances:[0f,0f,0f,0f]}
 
-function ssbrc:logic/teams/set
-
-function ssbrc:logic/init/entity/static
+function ssbrc:logic/init/entity/living

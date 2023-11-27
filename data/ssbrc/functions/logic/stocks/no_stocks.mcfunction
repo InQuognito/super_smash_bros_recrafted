@@ -9,4 +9,4 @@ function ssbrc:logic/pre_game/character_select/count_players
 
 data modify entity @e[tag=lobby.timer,limit=1] text set value '[{"translate":"ssbrc.lobby.playersLeft","color":"gold"},{"score":{"name":"players.playing","objective":"temp"},"color":"yellow"}]'
 
-execute if score gameStage temp matches 4 run function ssbrc:logic/post_game/calculate_winner
+execute if score gameStage temp matches 4 run function ssbrc:logic/post_game/winner/calculate

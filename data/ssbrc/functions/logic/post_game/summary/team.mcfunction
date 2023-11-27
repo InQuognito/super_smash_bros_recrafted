@@ -1,0 +1,8 @@
+execute if score team temp matches 1 run tellraw @s [{"translate":"ssbrc.game.end.summary.winner","color":"gold"},{"translate":"ssbrc.team.red","color":"red"}]
+execute if score team temp matches 2 run tellraw @s [{"translate":"ssbrc.game.end.summary.winner","color":"gold"},{"translate":"ssbrc.team.blue","color":"blue"}]
+execute if score team temp matches 3 run tellraw @s [{"translate":"ssbrc.game.end.summary.winner","color":"gold"},{"translate":"ssbrc.team.green","color":"green"}]
+execute if score team temp matches 4 run tellraw @s [{"translate":"ssbrc.game.end.summary.winner","color":"gold"},{"translate":"ssbrc.team.yellow","color":"yellow"}]
+execute if score team temp matches 5 run tellraw @s [{"translate":"ssbrc.game.end.summary.winner","color":"gold"},{"translate":"ssbrc.team.purple","color":"dark_purple"}]
+execute if score team temp matches 6 run tellraw @s [{"translate":"ssbrc.game.end.summary.winner","color":"gold"},{"translate":"ssbrc.team.orange","color":"gold"}]
+execute if score team temp matches 7 run tellraw @s [{"translate":"ssbrc.game.end.summary.winner","color":"gold"},{"translate":"ssbrc.team.pink","color":"light_purple"}]
+execute if score team temp matches 8 run tellraw @s [{"translate":"ssbrc.game.end.summary.winner","color":"gold"},{"translate":"ssbrc.team.aqua","color":"aqua"}]

@@ -22,7 +22,7 @@ execute if entity @s[nbt=!{SelectedItem:{tag:{bow:1}}},nbt={Inventory:[{tag:{bow
 # Passive Items
 effect clear @s[nbt={Inventory:[{tag:{goronLocket:1}}]}] minecraft:wither
 
-execute at @s[nbt={Inventory:[{tag:{torchOfWisdom:1}}]}] as @e[predicate=ssbrc:flag/targets,predicate=!ssbrc:fighters/effects/has/glowing,distance=..10] unless score @s team = team temp run effect give @s minecraft:glowing 1 255 true
+execute at @s[nbt={Inventory:[{tag:{torchOfWisdom:1}}]}] as @e[predicate=ssbrc:flag/targets,predicate=!ssbrc:team_match,predicate=!ssbrc:fighters/effects/has/glowing,distance=..10] run effect give @s minecraft:glowing 1 255 true
 
 effect clear @s[nbt=!{Inventory:[{tag:{nayrusRing:1}}]}] minecraft:resistance
 execute if entity @s[nbt={Inventory:[{tag:{nayrusRing:1}}]}] run function ssbrc:fighters/zelda/logic/passive_items/nayrus_ring/tick
