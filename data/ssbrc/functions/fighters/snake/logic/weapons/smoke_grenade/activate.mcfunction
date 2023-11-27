@@ -1,4 +1,3 @@
-scoreboard players operation idToMatch temp = @s id
 execute summon minecraft:marker run function ssbrc:fighters/snake/logic/weapons/smoke_grenade/init/marker
 
 scoreboard players remove @s snake.smokeGrenadeA 1

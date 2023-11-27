@@ -1,4 +1,3 @@
-scoreboard players operation idToMatch temp = @s id
 scoreboard players operation charge.output temp = @s charge.output
 execute summon minecraft:marker run function ssbrc:fighters/zelda/logic/abilities/bow/init/marker
 

@@ -1,4 +1,3 @@
-scoreboard players operation idToMatch temp = @s id
 execute positioned ^ ^ ^1 summon minecraft:marker run function ssbrc:fighters/samus/logic/weapons/power_beam/init
 
 scoreboard players set @s cooldown.1 8

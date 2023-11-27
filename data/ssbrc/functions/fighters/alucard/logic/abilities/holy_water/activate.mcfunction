@@ -1,4 +1,3 @@
-scoreboard players operation idToMatch temp = @s id
 execute summon minecraft:marker run function ssbrc:fighters/alucard/logic/abilities/holy_water/init/marker
 
 function ssbrc:fighters/alucard/logic/abilities/blood_metamorphosis/deactivate

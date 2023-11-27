@@ -1,4 +1,3 @@
-scoreboard players operation idToMatch temp = @s id
 execute positioned ^ ^-0.75 ^0.5 summon minecraft:marker run function ssbrc:fighters/giegue/logic/abilities/pk_beam/init
 
 scoreboard players set @s charge.1 0

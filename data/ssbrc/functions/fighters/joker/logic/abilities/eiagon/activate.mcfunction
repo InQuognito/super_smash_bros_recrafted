@@ -1,4 +1,3 @@
-scoreboard players operation idToMatch temp = @s id
 execute positioned ^ ^ ^1 summon minecraft:marker run function ssbrc:fighters/joker/logic/abilities/eiagon/init/projectile
 
 scoreboard players operation @s cooldown.1 = joker.eiagonCooldown vars

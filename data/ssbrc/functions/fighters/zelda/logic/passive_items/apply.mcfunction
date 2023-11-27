@@ -1,4 +1,4 @@
-execute if score debug options matches 1.. run say apply_passives.mcfunction
+execute if score debug options matches 1.. run say passive items | apply
 
 effect clear @s[nbt=!{Inventory:[{tag:{goronLocket:1}}]}] minecraft:fire_resistance
 effect give @s[nbt={Inventory:[{tag:{goronLocket:1}}]}] minecraft:fire_resistance infinite 255 true

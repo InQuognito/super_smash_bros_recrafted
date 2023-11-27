@@ -1,4 +1,3 @@
-scoreboard players operation idToMatch temp = @s id
 execute positioned ^ ^ ^1 summon minecraft:marker run function ssbrc:fighters/link/logic/abilities/sword_beam/init
 
 item replace entity @s weapon.mainhand with minecraft:air

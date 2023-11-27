@@ -1,4 +1,3 @@
-scoreboard players operation idToMatch temp = @s id
 execute summon minecraft:marker run function ssbrc:fighters/yar/logic/abilities/ray_blaster/variants/gatling_gun/init/marker
 
 scoreboard players set @s cooldown.1 15

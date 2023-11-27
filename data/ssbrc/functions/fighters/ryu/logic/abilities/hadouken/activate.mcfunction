@@ -1,4 +1,3 @@
-scoreboard players operation idToMatch temp = @s id
 execute store result score charge.output temp run scoreboard players get @s charge.output
 execute positioned ^ ^ ^1 summon minecraft:marker run function ssbrc:fighters/ryu/logic/abilities/hadouken/init
 

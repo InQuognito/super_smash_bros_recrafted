@@ -1,6 +1,7 @@
 tag @s add self
 
 scoreboard players operation idToMatch temp = @s id
+scoreboard players operation team temp = @s team
 
 execute if entity @s[predicate=ssbrc:flag/player] run function ssbrc:logic/tick/fighters
 

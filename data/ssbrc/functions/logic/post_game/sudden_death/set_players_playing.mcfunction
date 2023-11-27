@@ -2,7 +2,7 @@ scoreboard players set @s suddenDeath 1
 
 scoreboard players set @s stocks 1
 
-attribute @s generic.max_health base set 20.0
+attribute @s minecraft:generic.max_health base set 20.0
 
 damage @s 0.1
 effect give @s minecraft:instant_health 1 50 true

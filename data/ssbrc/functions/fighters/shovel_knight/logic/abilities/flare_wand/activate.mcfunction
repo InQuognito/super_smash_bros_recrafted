@@ -1,4 +1,3 @@
-scoreboard players operation idToMatch temp = @s id
 execute summon minecraft:marker run function ssbrc:fighters/shovel_knight/logic/abilities/flare_wand/init
 
 item replace entity @s weapon.mainhand with minecraft:air

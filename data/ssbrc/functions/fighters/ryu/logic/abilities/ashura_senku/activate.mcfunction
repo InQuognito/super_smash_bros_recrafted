@@ -1,4 +1,3 @@
-scoreboard players operation idToMatch temp = @s id
 execute summon minecraft:marker run function ssbrc:fighters/ryu/logic/abilities/ashura_senku/init
 
 effect give @s minecraft:levitation infinite 0 true

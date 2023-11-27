@@ -1,4 +1,3 @@
-scoreboard players operation idToMatch temp = @s id
 execute summon minecraft:marker run function ssbrc:fighters/sora/logic/abilities/thundaga/thundaza/init
 
 scoreboard players operation #thunderSpellMPCost temp = #sora.thundazaMPCost vars

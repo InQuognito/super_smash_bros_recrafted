@@ -15,7 +15,7 @@ loot replace entity @s hotbar.4 loot ssbrc:fighters/zelda/great_fairy_blessing
 
 loot replace entity @s hotbar.5 loot ssbrc:fighters/zelda/inventory_refresh
 
-function ssbrc:fighters/zelda/logic/apply_passives
+function ssbrc:fighters/zelda/logic/passive_items/apply
 
 scoreboard players operation @s mana = #zelda.maxMagic vars
 

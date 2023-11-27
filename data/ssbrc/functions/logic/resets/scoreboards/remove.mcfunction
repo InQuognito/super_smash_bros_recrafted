@@ -114,6 +114,7 @@ scoreboard objectives remove stageIndexCalculator
 scoreboard objectives remove steve.tier
 scoreboard objectives remove stocks
 scoreboard objectives remove suicides
+scoreboard objectives remove team
 scoreboard objectives remove teamAmount
 scoreboard objectives remove timer
 scoreboard objectives remove timer.barrelCannon
@@ -131,6 +132,10 @@ scoreboard objectives remove useItem
 scoreboard objectives remove vars
 scoreboard objectives remove walkDistance
 scoreboard objectives remove yar.droneHealth
+scoreboard objectives remove zelda.enchantArmor
+scoreboard objectives remove zelda.halfMagic
+scoreboard objectives remove zelda.shatterResist
+scoreboard objectives remove zelda.specialBond
 
 # Bonuses
 scoreboard objectives remove 765o

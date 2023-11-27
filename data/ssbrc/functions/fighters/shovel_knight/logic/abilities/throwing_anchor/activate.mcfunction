@@ -1,4 +1,3 @@
-scoreboard players operation idToMatch temp = @s id
 execute summon minecraft:marker run function ssbrc:fighters/shovel_knight/logic/abilities/throwing_anchor/init/marker
 
 scoreboard players operation @s mana -= #shovel_knight.throwingAnchorManaCost vars

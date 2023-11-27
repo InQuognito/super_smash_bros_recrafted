@@ -1,4 +1,3 @@
-scoreboard players operation idToMatch temp = @s id
 execute summon minecraft:marker run function ssbrc:fighters/wolf/logic/abilities/grenade/init/marker
 
 scoreboard players set @s cooldown.2 20

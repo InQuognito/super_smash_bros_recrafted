@@ -59,8 +59,6 @@ execute if entity @s[scores={flag.damageTaken=1..}] run function ssbrc:logic/fig
 execute at @s[scores={fallDistance=1..}] run function ssbrc:logic/fighters/shockwave/check
 execute at @s[scores={jumps=1..}] run function ssbrc:logic/fighters/jump
 
-function ssbrc:logic/tick/assign_teams
-
 # Items
 execute if entity @s[scores={useItem=1..},nbt={SelectedItem:{tag:{angelFeather:1}}}] run function ssbrc:stages/palutenas_temple/logic/angel_feather/activate
 execute if entity @s[scores={useItem=1..},nbt={SelectedItem:{tag:{powerPellet:1}}}] run function ssbrc:stages/pac_maze/logic/power_pellet/use

@@ -1,4 +1,3 @@
-scoreboard players operation idToMatch temp = @s id
 scoreboard players operation charge temp = @s charge.output
 execute positioned ^ ^ ^1 summon minecraft:marker run function ssbrc:fighters/dark_samus/logic/abilities/phazon_beam/init
 

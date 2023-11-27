@@ -7,5 +7,4 @@ execute store result score team6 teamAmount if entity @a[team=team6]
 execute store result score team7 teamAmount if entity @a[team=team7]
 execute store result score team8 teamAmount if entity @a[team=team8]
 
-scoreboard players reset highestTeam teamAmount
-scoreboard players operation highestTeam teamAmount > * teamAmount
+scoreboard players operation highestTeam temp > * teamAmount

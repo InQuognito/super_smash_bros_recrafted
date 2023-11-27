@@ -1,8 +1,6 @@
 tag @s remove pokemon_trainer
 
-tag @s remove charizard
-tag @s remove ivysaur
-tag @s remove squirtle
+function ssbrc:fighters/pokemon_trainer/kits/reset
 
 tag @s remove charizard.bold
 tag @s remove charizard.brave
@@ -34,5 +32,4 @@ tag @s remove squirtle.natureSet
 
 tag @s remove armorBreak
 
-function ssbrc:fighters/pokemon_trainer/logic/charizard/flare_blitz/damage/reset
 function ssbrc:fighters/pokemon_trainer/logic/ivysaur/leech_seed/reset

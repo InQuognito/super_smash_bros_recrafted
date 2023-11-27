@@ -114,6 +114,7 @@ scoreboard objectives add stageIndexCalculator dummy
 scoreboard objectives add steve.tier dummy
 scoreboard objectives add stocks dummy
 scoreboard objectives add suicides dummy
+scoreboard objectives add team dummy
 scoreboard objectives add teamAmount dummy
 scoreboard objectives add timer dummy
 scoreboard objectives add timer.barrelCannon dummy
@@ -131,6 +132,10 @@ scoreboard objectives add useItem minecraft.used:minecraft.warped_fungus_on_a_st
 scoreboard objectives add vars dummy
 scoreboard objectives add walkDistance minecraft.custom:minecraft.walk_one_cm
 scoreboard objectives add yar.droneHealth dummy
+scoreboard objectives add zelda.enchantArmor dummy
+scoreboard objectives add zelda.halfMagic dummy
+scoreboard objectives add zelda.shatterResist dummy
+scoreboard objectives add zelda.specialBond dummy
 
 scoreboard objectives modify points displayname {"translate":"ssbrc.game.points","bold":true,"color":"yellow"}
 scoreboard objectives modify stocks displayname {"translate":"ssbrc.game.stocks","bold":true,"color":"yellow"}
