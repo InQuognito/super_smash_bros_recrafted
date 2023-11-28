@@ -32,4 +32,8 @@ execute if entity @s[nbt={Inventory:[{tag:{ringOfRisk:1}}]}] run function ssbrc:
 # Great Fairy Blessings
 execute if score @s zelda.enchantArmor matches 1.. run function ssbrc:fighters/zelda/logic/blessings/enchant_armor/tick
 
+scoreboard players remove @s[scores={zelda.halfMagic=1..}] zelda.halfMagic 1
+
+scoreboard players remove @s[scores={zelda.shatterResist=1..}] zelda.shatterResist 1
+
 execute if score @s zelda.specialBond matches 1.. run function ssbrc:fighters/zelda/logic/blessings/special_bond/tick
