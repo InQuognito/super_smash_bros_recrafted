@@ -1,4 +1,4 @@
-execute as @a[predicate=!ssbrc:ingame] run function ssbrc:logic/start/init
+execute as @a[predicate=ssbrc:ingame] run function ssbrc:logic/start/init
 
 team modify team1 nametagVisibility never
 team modify team2 nametagVisibility never
