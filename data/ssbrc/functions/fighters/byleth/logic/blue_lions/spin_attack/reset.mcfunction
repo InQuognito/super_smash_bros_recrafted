@@ -1,5 +1,5 @@
 tag @s remove spinning
-item modify entity @s weapon.mainhand ssbrc:fighters/byleth/blue_lions/areadbhar
+loot replace entity @s weapon.mainhand loot ssbrc:fighters/byleth/blue_lions/areadbhar
 
 scoreboard players reset @s rotation
 
