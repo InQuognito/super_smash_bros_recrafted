@@ -5,7 +5,7 @@ execute if score checkDamage temp matches 3 run damage @s 8.0 ssbrc:projectile b
 execute if score checkDamage temp matches 4 run damage @s 10.0 ssbrc:projectile by @a[tag=self,limit=1]
 function ssbrc:logic/fighters/attributes/defaults/knockback_resistance
 
-#effect give @s minecraft:poison 2 1 true
+effect give @s minecraft:poison 2 1 true
 
 scoreboard players set entityHit temp 1
 
