@@ -72,8 +72,6 @@ execute at @s[tag=gold,predicate=!ssbrc:flag/sprinting] run particle minecraft:d
 execute at @s[tag=gold,predicate=ssbrc:flag/sprinting] run particle minecraft:dust_color_transition 0.5 0.5 0.0 0.5 1.0 1.0 0.0 ~ ~0.75 ~ 0.2 0.3 0.2 0.0 6 normal @a
 scoreboard players reset @s flag.walking
 
-execute at @s[tag=naturalShiny] run particle minecraft:glow ~ ~0.7 ~ 0.5 0.4 0.5 0.0 1 normal @a
-
 execute at @s[tag=immobile] run function ssbrc:logic/fighters/effects/mobility/tick
 
 execute at @s[tag=pivot,tag=!immobile] unless predicate ssbrc:flag/in_air run function ssbrc:logic/fighters/effects/mobility/immobilize/pivot/activate

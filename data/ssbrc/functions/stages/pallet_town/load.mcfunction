@@ -16,7 +16,7 @@ execute positioned -591.5 21.5 -137.5 run function ssbrc:stages/pallet_town/logi
 execute positioned -593.5 21.5 -140.5 run function ssbrc:stages/pallet_town/logic/pokemon/diglett/decide
 
 # Abra
-summon minecraft:item_display -545.5 24.0 -156.5 {Tags:["staticObject","abra"],Rotation:[45f,0f],item:{id:"minecraft:diamond",Count:1b,tag:{CustomModelData:630}}}
+summon minecraft:item_display -545.5 24.0 -156.5 {Tags:["staticObject","abra"],Rotation:[45f,0f],item:{id:"minecraft:diamond",Count:1b,tag:{CustomModelData:630}},teleport_duration:1}
 
 # Magnemite
 execute store result score random.output temp run random value 0..1
