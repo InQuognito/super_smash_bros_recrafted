@@ -1,6 +1,3 @@
-execute if entity @s[predicate=ssbrc:shiny_chance] run function ssbrc:logic/fighters/pokemon/shiny
-execute if entity @s[tag=naturalShiny,advancements={ssbrc:fighters/pokemon_trainer/skins/shiny=false}] run function ssbrc:shop/contents/skins/pokemon_trainer/shiny
-
 tag @s remove nextFighterChosen
 
 execute store result score random.output temp run random value 0..2

@@ -1,6 +1,3 @@
-execute if entity @s[predicate=ssbrc:shiny_chance] run function ssbrc:logic/fighters/pokemon/shiny
-execute if entity @s[tag=naturalShiny,advancements={ssbrc:fighters/pikachu/skins/shiny=false}] run function ssbrc:shop/contents/skins/pikachu/shiny
-
 function ssbrc:logic/fighters/pokemon/natures/select
 
 loot replace entity @s hotbar.0 loot ssbrc:fighters/pikachu/mega_punch

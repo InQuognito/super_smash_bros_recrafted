@@ -11,7 +11,13 @@ scoreboard players set @s charge.3 0
 scoreboard players set @s duration.1 1
 scoreboard players set @s duration.2 1
 scoreboard players set @s duration.3 1
+
+execute if entity @s[predicate=ssbrc:shiny_chance] run function ssbrc:logic/fighters/pokemon/shiny/activate
+
+execute if entity @s[tag=naturalShiny] run function ssbrc:logic/fighters/pokemon/shiny/unlock_skin
+
 function ssbrc:logic/fighters/armor/get
+
 scoreboard players set @s duration.1 0
 scoreboard players set @s duration.2 0
 scoreboard players set @s duration.3 0
