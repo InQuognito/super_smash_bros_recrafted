@@ -3,7 +3,7 @@ tag @s add waredragon
 
 tellraw @s [{"translate":"ssbrc.fighters.altered_beast.form","bold":true,"color":"gold"},{"translate":"ssbrc.fighters.altered_beast.waredragon","bold":false,"color":"yellow"}]
 
-execute unless score suddenDeath options matches 1 run function ssbrc:logic/fighters/attributes/defaults
+function ssbrc:logic/fighters/attributes/defaults
 
 clear @s #ssbrc:equipment
 loot replace entity @s hotbar.0 loot ssbrc:fighters/altered_beast/waredragon/sword
