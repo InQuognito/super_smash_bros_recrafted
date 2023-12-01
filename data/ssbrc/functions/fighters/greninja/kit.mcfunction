@@ -1,6 +1,5 @@
-tag @s[predicate=ssbrc:shiny_chance] add naturalShiny
+execute if entity @s[predicate=ssbrc:shiny_chance] run function ssbrc:logic/fighters/pokemon/shiny
 execute if entity @s[tag=naturalShiny,advancements={ssbrc:fighters/greninja/skins/shiny=false}] run function ssbrc:shop/contents/skins/greninja/shiny
-execute if entity @s[tag=naturalShiny] run function ssbrc:logic/fighters/natural_shiny
 
 function ssbrc:logic/fighters/pokemon/natures/select
 
