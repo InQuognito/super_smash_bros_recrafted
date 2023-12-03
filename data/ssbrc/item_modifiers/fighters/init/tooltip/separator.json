@@ -1,0 +1,15 @@
+[
+	{
+		"function": "minecraft:set_lore",
+		"entity": "this",
+		"lore": [
+			{
+				"text": "----------",
+				"color": "gray",
+				"bold": false,
+				"italic": false
+			}
+		],
+		"replace": true
+	}
+]

@@ -9,71 +9,8 @@
 					"name": "minecraft:shield",
 					"functions": [
 						{
-							"function": "minecraft:set_name",
-							"entity": "this",
-							"name": {
-								"translate": "ssbrc.tooltips.equipment.shield",
-								"color": "white",
-								"bold": true,
-								"italic": false
-							}
-						},
-						{
-							"function": "minecraft:set_lore",
-							"entity": "this",
-							"lore": [
-								{
-									"translate": "------",
-									"color": "gray",
-									"bold": false,
-									"italic": false
-								},
-								{
-									"translate": "ssbrc.tooltips.equipment.defensive",
-									"color": "white",
-									"bold": false,
-									"italic": false,
-									"underlined": true
-								}
-							],
-							"replace": true
-						},
-						{
-							"function": "minecraft:set_attributes",
-							"modifiers": [
-								{
-									"attribute": "minecraft:generic.attack_damage",
-									"name": "Attack Damage",
-									"amount": 0,
-									"operation": "multiply_base",
-									"slot": "mainhand"
-								},
-								{
-									"attribute": "minecraft:generic.attack_speed",
-									"name": "Attack Speed",
-									"amount": 1024,
-									"operation": "multiply_base",
-									"slot": "mainhand"
-								}
-							]
-						},
-						{
-							"function": "minecraft:copy_nbt",
-							"source": {
-								"type": "minecraft:storage",
-								"source": "ssbrc:shield"
-							},
-							"ops": [
-								{
-									"source": "damage",
-									"target": "Damage",
-									"op": "replace"
-								}
-							]
-						},
-						{
-							"function": "minecraft:set_nbt",
-							"tag": "{shield:1,HideFlags:255}"
+							"function": "minecraft:reference",
+							"name": "ssbrc:fighters/init/preset/shield"
 						}
 					]
 				}

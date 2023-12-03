@@ -1,0 +1,44 @@
+[
+	{
+		"function": "minecraft:set_attributes",
+		"modifiers": [
+			{
+				"attribute": "minecraft:generic.attack_damage",
+				"name": "Attack Damage",
+				"amount": 7,
+				"operation": "multiply_base",
+				"slot": "mainhand"
+			}
+		]
+	},
+	{
+		"function": "minecraft:reference",
+		"name": "ssbrc:fighters/joker/rebel_knife/fire_boost",
+		"conditions": [
+			{
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"nbt": "{Tags:[\"jackOLantern\"]}"
+				}
+			}
+		]
+	},
+	{
+		"function": "minecraft:reference",
+		"name": "ssbrc:fighters/joker/rebel_knife/freeze_boost",
+		"conditions": [
+			{
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"nbt": "{Tags:[\"jackFrost\"]}"
+				}
+			}
+		]
+	},
+	{
+		"function": "minecraft:set_nbt",
+		"tag": "{awakened:1}"
+	}
+]

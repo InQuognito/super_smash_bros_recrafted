@@ -1,0 +1,55 @@
+{
+	"type": "minecraft:command",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:carrot_on_a_stick",
+					"functions": [
+						{
+							"function": "minecraft:set_name",
+							"entity": "this",
+							"name": {
+								"translate":"ssbrc.tooltips.zelda.greatFairyBlessing",
+								"color": "yellow",
+								"bold": true,
+								"italic": false
+							}
+						},
+						{
+							"function": "minecraft:reference",
+							"name": "ssbrc:fighters/init/tooltip/ability/utility"
+						},
+						{
+							"function": "minecraft:reference",
+							"name": "ssbrc:fighters/init/unbreakable/instant"
+						},
+						{
+							"function": "minecraft:set_lore",
+							"entity": "this",
+							"lore": [
+								{
+									"translate":"ssbrc.tooltips.zelda.greatFairyBlessing.description.1",
+									"color": "gray",
+									"bold": false,
+									"italic": false
+								}
+							],
+							"replace": false
+						},
+						{
+							"function": "minecraft:reference",
+							"name": "ssbrc:fighters/zelda/great_fairy_blessing"
+						},
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{greatFairyBlessing:1}"
+						}
+					]
+				}
+			]
+		}
+	]
+}

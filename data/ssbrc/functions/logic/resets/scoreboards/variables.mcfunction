@@ -128,8 +128,8 @@ scoreboard players set #snake.famasWeight vars 5
 scoreboard players set #snake.famasReload vars 50
 scoreboard players set #snake.famasScavenger vars 1
 scoreboard players set #snake.s1000Weight vars 4
-scoreboard players set #snake.s1000Reload vars 50
-scoreboard players set #snake.s1000Scavenger vars 4
+scoreboard players set #snake.s1000Reload vars 60
+scoreboard players set #snake.s1000Scavenger vars 2
 scoreboard players set #snake.socomWeight vars 3
 scoreboard players set #snake.socomReload vars 40
 scoreboard players set #snake.socomScavenger vars 2
@@ -150,6 +150,9 @@ scoreboard players set #wolf.grenadeTimer vars 80
 scoreboard players set #wolf.wolfFlash vars 6
 
 scoreboard players set yar.droneHealth vars 20
+scoreboard players set yar.droneHealthCushion vars 1024
+scoreboard players operation yar.droneHealthThreshold vars = yar.droneHealthCushion vars
+scoreboard players operation yar.droneHealthThreshold vars -= yar.droneHealth vars
 scoreboard players set #yar.railgunRange vars 600
 scoreboard players set #yar.railgunPiercing vars 30
 
@@ -230,6 +233,9 @@ scoreboard players set value.bonus.bully vars -200
 #scoreboard players operation value.bonus.cementShoes vars *= 2 integers
 
 scoreboard players set value.bonus.coward vars -20
+
+scoreboard players operation value.bonus.crushingWeight vars = value.KO vars
+scoreboard players operation value.bonus.crushingWeight vars *= 2 integers
 
 scoreboard players set value.bonus.einstein vars -20
 

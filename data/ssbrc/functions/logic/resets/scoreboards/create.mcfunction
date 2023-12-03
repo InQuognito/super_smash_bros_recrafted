@@ -2,6 +2,7 @@ scoreboard objectives add animation dummy
 scoreboard objectives add armorBreak dummy
 scoreboard objectives add bowser.fireBreath dummy
 scoreboard objectives add bowser.fireBreath.target dummy
+scoreboard objectives add burning dummy
 scoreboard objectives add characterTrigger trigger
 scoreboard objectives add characterPicked dummy
 scoreboard objectives add charge.1 dummy
@@ -16,8 +17,6 @@ scoreboard objectives add cooldown.1 dummy
 scoreboard objectives add cooldown.2 dummy
 scoreboard objectives add cooldown.3 dummy
 scoreboard objectives add stats.credits.temp dummy
-scoreboard objectives add damage dummy
-scoreboard objectives add damage.fireBreath dummy
 scoreboard objectives add debug trigger
 scoreboard objectives add dropItem minecraft.custom:minecraft.drop
 scoreboard objectives add durability dummy
@@ -25,6 +24,7 @@ scoreboard objectives add duration.1 dummy
 scoreboard objectives add duration.2 dummy
 scoreboard objectives add duration.3 dummy
 scoreboard objectives add duration.4 dummy
+scoreboard objectives add event dummy
 scoreboard objectives add fallDistance minecraft.custom:minecraft.fall_one_cm
 scoreboard objectives add favorite.temp dummy
 scoreboard objectives add fiendsCauldron dummy
@@ -43,7 +43,7 @@ scoreboard objectives add frostbite dummy
 scoreboard objectives add frostbiteCooldown dummy
 scoreboard objectives add frostbiteTimer dummy
 scoreboard objectives add fuse dummy
-scoreboard objectives add health health
+scoreboard objectives add health dummy
 scoreboard objectives add healthTimer dummy
 scoreboard objectives add id dummy
 scoreboard objectives add integers dummy
@@ -79,7 +79,6 @@ scoreboard objectives add motionZ dummy
 scoreboard objectives add piercing dummy
 scoreboard objectives add point dummy
 scoreboard objectives add points dummy
-scoreboard objectives modify points displayname {"translate":"ssbrc.game.points","bold":true,"color":"yellow"}
 scoreboard objectives add posX dummy
 scoreboard objectives add posY dummy
 scoreboard objectives add posZ dummy
@@ -112,6 +111,7 @@ scoreboard objectives add snake.psg1A dummy
 scoreboard objectives add snake.psg1M dummy
 scoreboard objectives add snake.psg1R dummy
 scoreboard objectives add snake.s1000A dummy
+scoreboard objectives add snake.s1000F dummy
 scoreboard objectives add snake.s1000M dummy
 scoreboard objectives add snake.s1000R dummy
 scoreboard objectives add snake.socomA dummy
@@ -122,12 +122,10 @@ scoreboard objectives add snake.smokeGrenadeA dummy
 scoreboard objectives add sprintDistance minecraft.custom:minecraft.sprint_one_cm
 scoreboard objectives add stageIndex dummy
 scoreboard objectives add stageIndexCalculator dummy
-scoreboard objectives add stamina dummy
-scoreboard objectives add status.petrified dummy
 scoreboard objectives add steve.tier dummy
 scoreboard objectives add stocks dummy
-scoreboard objectives modify stocks displayname {"translate":"ssbrc.game.stocks","bold":true,"color":"yellow"}
 scoreboard objectives add suicides dummy
+scoreboard objectives add team dummy
 scoreboard objectives add teamAmount dummy
 scoreboard objectives add timer dummy
 scoreboard objectives add timer.barrelCannon dummy
@@ -145,6 +143,13 @@ scoreboard objectives add useItem minecraft.used:minecraft.warped_fungus_on_a_st
 scoreboard objectives add vars dummy
 scoreboard objectives add walkDistance minecraft.custom:minecraft.walk_one_cm
 scoreboard objectives add yar.droneHealth dummy
+scoreboard objectives add zelda.enchantArmor dummy
+scoreboard objectives add zelda.halfMagic dummy
+scoreboard objectives add zelda.shatterResist dummy
+scoreboard objectives add zelda.specialBond dummy
+
+scoreboard objectives modify points displayname {"translate":"ssbrc.game.points","bold":true,"color":"yellow"}
+scoreboard objectives modify stocks displayname {"translate":"ssbrc.game.stocks","bold":true,"color":"yellow"}
 
 # Bonuses
 scoreboard objectives add 765o dummy

@@ -1,6 +1,6 @@
 tag @s add grenade
 
-loot replace entity @s armor.head loot ssbrc:fighters/wolf/grenade/default
+loot replace entity @s armor.head loot ssbrc:fighters/wolf/grenade
 
 data merge entity @s {Small:1b}
 

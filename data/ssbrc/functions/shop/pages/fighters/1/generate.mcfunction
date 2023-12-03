@@ -8,9 +8,9 @@ execute if score @s[advancements={ssbrc:fighters/luigi/skins/default=false}] sta
 execute if score @s[advancements={ssbrc:fighters/luigi/skins/default=false}] stats.credits >= #price.fighter.common vars run loot replace entity @s enderchest.2 loot ssbrc:ui/shop/fighters/luigi/unowned
 loot replace entity @s[advancements={ssbrc:fighters/luigi/skins/default=true}] enderchest.2 loot ssbrc:ui/shop/fighters/luigi/owned
 
-execute if score @s[advancements={ssbrc:fighters/princess_peach/skins/default=false}] stats.credits < #price.fighter.common vars run loot replace entity @s enderchest.3 loot ssbrc:ui/shop/fighters/princess_peach/cannot_afford
-execute if score @s[advancements={ssbrc:fighters/princess_peach/skins/default=false}] stats.credits >= #price.fighter.common vars run loot replace entity @s enderchest.3 loot ssbrc:ui/shop/fighters/princess_peach/unowned
-loot replace entity @s[advancements={ssbrc:fighters/princess_peach/skins/default=true}] enderchest.3 loot ssbrc:ui/shop/fighters/princess_peach/owned
+execute if score @s[advancements={ssbrc:fighters/peach/skins/default=false}] stats.credits < #price.fighter.common vars run loot replace entity @s enderchest.3 loot ssbrc:ui/shop/fighters/peach/cannot_afford
+execute if score @s[advancements={ssbrc:fighters/peach/skins/default=false}] stats.credits >= #price.fighter.common vars run loot replace entity @s enderchest.3 loot ssbrc:ui/shop/fighters/peach/unowned
+loot replace entity @s[advancements={ssbrc:fighters/peach/skins/default=true}] enderchest.3 loot ssbrc:ui/shop/fighters/peach/owned
 
 execute if score @s[advancements={ssbrc:fighters/king_k_rool/skins/default=false}] stats.credits < #price.fighter.common vars run loot replace entity @s enderchest.4 loot ssbrc:ui/shop/fighters/king_k_rool/cannot_afford
 execute if score @s[advancements={ssbrc:fighters/king_k_rool/skins/default=false}] stats.credits >= #price.fighter.common vars run loot replace entity @s enderchest.4 loot ssbrc:ui/shop/fighters/king_k_rool/unowned

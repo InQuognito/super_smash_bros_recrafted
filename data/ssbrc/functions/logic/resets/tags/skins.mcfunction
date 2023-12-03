@@ -20,10 +20,10 @@ function ssbrc:fighters/luigi/menu/skins/reset
 function ssbrc:fighters/mario/menu/skins/reset
 function ssbrc:fighters/mega_man/menu/skins/reset
 function ssbrc:fighters/ness/menu/skins/reset
+function ssbrc:fighters/peach/menu/skins/reset
 function ssbrc:fighters/pikachu/menu/skins/reset
 function ssbrc:fighters/pit/menu/skins/reset
 function ssbrc:fighters/pokemon_trainer/menu/skins/reset
-function ssbrc:fighters/princess_peach/menu/skins/reset
 function ssbrc:fighters/rob/menu/skins/reset
 function ssbrc:fighters/roy/menu/skins/reset
 function ssbrc:fighters/ryu/menu/skins/reset

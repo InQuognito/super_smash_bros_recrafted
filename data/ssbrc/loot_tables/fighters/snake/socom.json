@@ -1,0 +1,53 @@
+{
+	"type": "minecraft:command",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:carrot_on_a_stick",
+					"functions": [
+						{
+							"function": "minecraft:reference",
+							"name": "ssbrc:fighters/init/preset/gun"
+						},
+						{
+							"function": "minecraft:reference",
+							"name": "ssbrc:fighters/snake/socom/default",
+							"conditions": [
+								{
+									"condition": "minecraft:inverted",
+									"term": {
+										"condition": "minecraft:entity_properties",
+										"entity": "this",
+										"predicate": {
+											"nbt": "{Tags:[\"gold\"]}"
+										}
+									}
+								}
+							]
+						},
+						{
+							"function": "minecraft:reference",
+							"name": "ssbrc:fighters/snake/socom/gold",
+							"conditions": [
+								{
+									"condition": "minecraft:entity_properties",
+									"entity": "this",
+									"predicate": {
+										"nbt": "{Tags:[\"gold\"]}"
+									}
+								}
+							]
+						},
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{socom:1}"
+						}
+					]
+				}
+			]
+		}
+	]
+}

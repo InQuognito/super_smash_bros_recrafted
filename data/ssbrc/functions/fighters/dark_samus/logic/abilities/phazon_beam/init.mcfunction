@@ -1,10 +1,8 @@
 tag @s add phazonBeam
 
+execute unless score charge temp matches 10.. run function ssbrc:fighters/dark_samus/logic/abilities/phazon_beam/charge/1
+execute if score charge temp matches 10..19 run function ssbrc:fighters/dark_samus/logic/abilities/phazon_beam/charge/2
+execute if score charge temp matches 20..39 run function ssbrc:fighters/dark_samus/logic/abilities/phazon_beam/charge/3
+execute if score charge temp matches 40.. run function ssbrc:fighters/dark_samus/logic/abilities/phazon_beam/charge/4
+
 function ssbrc:logic/init/projectile
-
-execute if score $dark_samus.chargeBeamPercent temp matches ..33 run function ssbrc:fighters/dark_samus/logic/abilities/phazon_beam/charge/1
-execute if score $dark_samus.chargeBeamPercent temp matches 34..66 run function ssbrc:fighters/dark_samus/logic/abilities/phazon_beam/charge/2
-execute if score $dark_samus.chargeBeamPercent temp matches 67..99 run function ssbrc:fighters/dark_samus/logic/abilities/phazon_beam/charge/3
-execute if score $dark_samus.chargeBeamPercent temp matches 100.. run function ssbrc:fighters/dark_samus/logic/abilities/phazon_beam/charge/4
-
-scoreboard players operation @s charge.1 = $dark_samus.chargeBeamPercent temp

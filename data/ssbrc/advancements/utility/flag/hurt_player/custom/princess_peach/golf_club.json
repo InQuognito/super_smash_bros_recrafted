@@ -28,6 +28,6 @@
 		}
 	},
 	"rewards": {
-		"function": "ssbrc:fighters/princess_peach/logic/hit_opponent/golf_club"
+		"function": "ssbrc:fighters/peach/logic/hit_opponent/golf_club"
 	}
 }

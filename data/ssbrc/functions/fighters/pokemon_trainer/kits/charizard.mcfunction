@@ -9,7 +9,9 @@ tellraw @s[tag=dawn] [{"translate":"ssbrc.fighters.pokemon_trainer.iChooseYou.pr
 tellraw @s[tag=victor] [{"translate":"ssbrc.fighters.pokemon_trainer.iChooseYou.prefix","color":"red"},{"translate":"ssbrc.fighters.pokemon_trainer.charizard.victor","color":"red"},{"translate":"ssbrc.fighters.pokemon_trainer.iChooseYou","color":"red"}]
 
 clear @s #ssbrc:equipment
+
 loot replace entity @s hotbar.0 loot ssbrc:fighters/pokemon_trainer/charizard/rock_smash
+
 loot replace entity @s hotbar.1 loot ssbrc:fighters/pokemon_trainer/charizard/flare_blitz
 
 function ssbrc:logic/fighters/armor/update

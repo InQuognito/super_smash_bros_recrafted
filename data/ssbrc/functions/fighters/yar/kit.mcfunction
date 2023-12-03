@@ -1,10 +1,7 @@
-loot replace entity @s[tag=!gold] hotbar.0 loot ssbrc:fighters/yar/killspace_blade/default
-loot replace entity @s[tag=gold] hotbar.0 loot ssbrc:fighters/yar/killspace_blade/gold
+loot replace entity @s hotbar.0 loot ssbrc:fighters/yar/killspace_blade
 
-loot replace entity @s[tag=!gold] hotbar.1 loot ssbrc:fighters/yar/ray_blaster/default/default/default
-loot replace entity @s[tag=gold] hotbar.1 loot ssbrc:fighters/yar/ray_blaster/default/gold/default
+loot replace entity @s hotbar.1 loot ssbrc:fighters/yar/ray_blaster/default
 
-loot replace entity @s[tag=!gold] hotbar.2 loot ssbrc:fighters/yar/drone/default/activate
-loot replace entity @s[tag=gold] hotbar.2 loot ssbrc:fighters/yar/drone/gold/activate
+loot replace entity @s hotbar.2 loot ssbrc:fighters/yar/drone/activate
 
-scoreboard players operation @s yar.droneHealth = yar.droneHealth vars
+scoreboard players operation @s yar.droneHealth = yar.droneHealthCushion vars

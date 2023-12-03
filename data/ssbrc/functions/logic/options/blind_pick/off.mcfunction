@@ -1,4 +1,4 @@
-tellraw @a[tag=room.characterSelect] [{"translate":"ssbrc.options.blindPickTitle","color":"yellow"},{"translate":"ssbrc.options.off","color":"blue"}]
+tellraw @a[tag=room.characterSelect] [{"translate":"ssbrc.options.blind_pick.title","color":"yellow"},{"translate":"ssbrc.options.off","color":"blue"}]
 
 scoreboard players set blindPick options 0
 

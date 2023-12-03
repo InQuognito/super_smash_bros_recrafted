@@ -1,0 +1,35 @@
+[
+	{
+		"function": "minecraft:set_name",
+		"entity": "this",
+		"name": {
+			"translate": "ssbrc.tooltips.shovel_knight.shovelBlade",
+			"color": "gold",
+			"bold": true,
+			"italic": false
+		}
+	},
+	{
+		"function": "minecraft:set_nbt",
+		"tag": "{shovelDrop:0,CustomModelData:1922}",
+		"conditions": [
+			{
+				"condition": "minecraft:inverted",
+				"term": {
+					"condition": "minecraft:reference",
+					"name": "ssbrc:flag/sneaking"
+				}
+			}
+		]
+	},
+	{
+		"function": "minecraft:set_nbt",
+		"tag": "{shovelDrop:1,CustomModelData:1923}",
+		"conditions": [
+			{
+				"condition": "minecraft:reference",
+				"name": "ssbrc:flag/sneaking"
+			}
+		]
+	}
+]

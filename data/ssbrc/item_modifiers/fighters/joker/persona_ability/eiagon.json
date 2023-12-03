@@ -1,0 +1,35 @@
+[
+	{
+		"function": "minecraft:set_lore",
+		"entity": "this",
+		"lore": [
+			{
+				"text": "- [",
+				"color": "gray",
+				"bold": false,
+				"italic": false,
+				"extra": [
+					{
+						"keybind": "key.use",
+						"color": "gray",
+						"bold": false,
+						"italic": false
+					},
+					{
+						"translate": "ssbrc.tooltips.joker.eiagon.description.1",
+						"color": "gray",
+						"bold": false,
+						"italic": false
+					}
+				]
+			},
+			{
+				"translate": "ssbrc.tooltips.joker.eiagon.description.2",
+				"color": "gray",
+				"bold": false,
+				"italic": false
+			}
+		],
+		"replace": false
+	}
+]

@@ -1,5 +1,7 @@
 attribute @s minecraft:generic.movement_speed modifier remove 19192183-0000-0000-0001-000001000000
 
+function ssbrc:logic/resets/charge
+
 execute if entity @s[nbt={Inventory:[{tag:{palutenaBow:1},Slot:0b}]}] run loot replace entity @s hotbar.0 loot ssbrc:fighters/pit/palutena_bow/idle
 execute if entity @s[nbt={Inventory:[{tag:{palutenaBow:1},Slot:1b}]}] run loot replace entity @s hotbar.1 loot ssbrc:fighters/pit/palutena_bow/idle
 execute if entity @s[nbt={Inventory:[{tag:{palutenaBow:1},Slot:2b}]}] run loot replace entity @s hotbar.2 loot ssbrc:fighters/pit/palutena_bow/idle
@@ -37,10 +39,5 @@ execute if entity @s[nbt={Inventory:[{tag:{palutenaBow:1},Slot:32b}]}] run loot 
 execute if entity @s[nbt={Inventory:[{tag:{palutenaBow:1},Slot:33b}]}] run loot replace entity @s inventory.24 loot ssbrc:fighters/pit/palutena_bow/idle
 execute if entity @s[nbt={Inventory:[{tag:{palutenaBow:1},Slot:34b}]}] run loot replace entity @s inventory.25 loot ssbrc:fighters/pit/palutena_bow/idle
 execute if entity @s[nbt={Inventory:[{tag:{palutenaBow:1},Slot:35b}]}] run loot replace entity @s inventory.26 loot ssbrc:fighters/pit/palutena_bow/idle
-
-execute if entity @s[nbt={Inventory:[{tag:{palutenaBow:1},Slot:80b}]}] run loot give @s loot ssbrc:fighters/pit/palutena_bow/idle
-execute if entity @s[nbt={Inventory:[{tag:{palutenaBow:1},Slot:81b}]}] run loot give @s loot ssbrc:fighters/pit/palutena_bow/idle
-execute if entity @s[nbt={Inventory:[{tag:{palutenaBow:1},Slot:82b}]}] run loot give @s loot ssbrc:fighters/pit/palutena_bow/idle
-execute if entity @s[nbt={Inventory:[{tag:{palutenaBow:1},Slot:83b}]}] run loot give @s loot ssbrc:fighters/pit/palutena_bow/idle
 
 execute if entity @s[nbt={Inventory:[{tag:{palutenaBow:1},Slot:-106b}]}] run loot replace entity @s weapon.offhand loot ssbrc:fighters/pit/palutena_bow/idle

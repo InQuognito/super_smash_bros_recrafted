@@ -1,6 +1,5 @@
 tag @s add fireRod
-
-data merge entity @s {Duration:80}
+tag @s add pillar
 
 data modify entity @s Rotation[1] set value 15f
 

@@ -4,11 +4,29 @@
 		"requirement": {
 			"trigger": "minecraft:entity_hurt_player",
 			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:value_check",
+						"value": {
+							"type": "minecraft:score",
+							"target": {
+								"type": "minecraft:fixed",
+								"name": "gameStage"
+							},
+							"score": "temp"
+						},
+						"range": 4
+					},
+					{
+						"condition": "minecraft:random_chance",
+						"chance": 0.1
+					}
+				],
 				"damage": {
 					"source_entity": {
 						"equipment": {
 							"mainhand": {
-								"nbt": "{rebelsKnife:1,fireBoost:1}"
+								"nbt": "{rebelKnife:1,fireBoost:1}"
 							}
 						}
 					}
@@ -17,6 +35,6 @@
 		}
 	},
 	"rewards": {
-		"function": "ssbrc:fighters/joker/logic/abilities/fire_boost/chance"
+		"function": "ssbrc:fighters/joker/logic/abilities/fire_boost"
 	}
 }

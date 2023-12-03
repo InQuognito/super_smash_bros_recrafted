@@ -6,13 +6,11 @@ execute store result score $yrot temp run data get storage ssbrc:data OriginalRo
 
 data modify storage ssbrc:data Rotation set value [0f,0f]
 
-function ssbrc:fighters/sora/logic/abilities/blizzaga/init/marker
-function ssbrc:fighters/sora/logic/abilities/blizzaga/init/marker
-function ssbrc:fighters/sora/logic/abilities/blizzaga/init/marker
-function ssbrc:fighters/sora/logic/abilities/blizzaga/init/marker
-function ssbrc:fighters/sora/logic/abilities/blizzaga/init/marker
-function ssbrc:fighters/sora/logic/abilities/blizzaga/init/marker
-function ssbrc:fighters/sora/logic/abilities/blizzaga/init/marker
-function ssbrc:fighters/sora/logic/abilities/blizzaga/init/marker
-
-kill @s
+execute summon minecraft:marker run function ssbrc:fighters/sora/logic/abilities/blizzaga/init
+execute summon minecraft:marker run function ssbrc:fighters/sora/logic/abilities/blizzaga/init
+execute summon minecraft:marker run function ssbrc:fighters/sora/logic/abilities/blizzaga/init
+execute summon minecraft:marker run function ssbrc:fighters/sora/logic/abilities/blizzaga/init
+execute summon minecraft:marker run function ssbrc:fighters/sora/logic/abilities/blizzaga/init
+execute summon minecraft:marker run function ssbrc:fighters/sora/logic/abilities/blizzaga/init
+execute summon minecraft:marker run function ssbrc:fighters/sora/logic/abilities/blizzaga/init
+execute summon minecraft:marker run function ssbrc:fighters/sora/logic/abilities/blizzaga/init

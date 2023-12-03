@@ -1,2 +1,2 @@
-execute as @e[type=minecraft:marker,tag=propellerDagger] if score @s id = @a[tag=self,limit=1] id run kill @s
-execute as @e[type=minecraft:marker,tag=warHorn] if score @s id = @a[tag=self,limit=1] id run kill @s
+kill @e[type=minecraft:marker,tag=propellerDagger,predicate=ssbrc:id_match]
+kill @e[type=minecraft:marker,tag=warHorn,predicate=ssbrc:id_match]

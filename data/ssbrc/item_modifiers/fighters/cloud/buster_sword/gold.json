@@ -1,0 +1,38 @@
+[
+	{
+		"function": "minecraft:set_name",
+		"entity": "this",
+		"name": {
+			"translate": "ssbrc.tooltips.cloud.busterSword",
+			"color": "gold",
+			"bold": true,
+			"italic": false
+		}
+	},
+	{
+		"function": "minecraft:set_nbt",
+		"tag": "{CustomModelData:183}",
+		"conditions": [
+			{
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"nbt": "{Tags:[\"operator\"]}"
+				}
+			}
+		]
+	},
+	{
+		"function": "minecraft:set_nbt",
+		"tag": "{CustomModelData:184}",
+		"conditions": [
+			{
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"nbt": "{Tags:[\"punisher\"]}"
+				}
+			}
+		]
+	}
+]

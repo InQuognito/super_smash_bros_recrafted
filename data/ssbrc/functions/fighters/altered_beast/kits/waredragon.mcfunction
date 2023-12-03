@@ -6,6 +6,7 @@ tellraw @s [{"translate":"ssbrc.fighters.altered_beast.form","bold":true,"color"
 function ssbrc:logic/fighters/attributes/defaults
 
 clear @s #ssbrc:equipment
+
 loot replace entity @s hotbar.0 loot ssbrc:fighters/altered_beast/waredragon/dragon_claw
 loot replace entity @s hotbar.1 loot ssbrc:fighters/altered_beast/waredragon/electrocution
 

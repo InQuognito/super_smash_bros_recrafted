@@ -20,6 +20,7 @@ execute unless score $sectorZ map matches 1 run effect give @a[predicate=ssbrc:f
 
 # Fighters
 execute as @a[predicate=ssbrc:ingame] run function ssbrc:logic/tick/characters
+execute as @e[predicate=ssbrc:flag/targets] at @s run function ssbrc:logic/tick/targets
 function ssbrc:logic/tick/post_checks
 
 execute as @a[team=!admin,tag=alive,scores={respawn=..0},gamemode=!adventure,gamemode=!spectator] run function ssbrc:logic/teams/admin
@@ -28,10 +29,8 @@ execute as @a[predicate=ssbrc:flag/player] if entity @s[advancements={ssbrc:util
 advancement revoke @a only ssbrc:utility/flag/hurt_player/condition/blocked
 scoreboard players reset @a flag.breakShield
 
-function ssbrc:logic/tick/damage
-
 # Maps
-function ssbrc:logic/tick/maps/after_start
+function ssbrc:logic/tick/stages/after_start
 
 # Items
 execute as @e[type=minecraft:item,nbt={Item:{tag:{item:1}}}] run function ssbrc:items/tick

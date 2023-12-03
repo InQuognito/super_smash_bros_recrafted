@@ -1,6 +1,5 @@
 tag @s remove immobile
-
-function ssbrc:logic/fighters/effects/jump_boost
-effect clear @s minecraft:slowness
+tag @s remove air_stall
+tag @s remove pivot
 
 function ssbrc:logic/fighters/attributes/defaults

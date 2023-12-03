@@ -1,0 +1,53 @@
+{
+	"type": "minecraft:command",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:carrot_on_a_stick",
+					"functions": [
+						{
+							"function": "minecraft:reference",
+							"name": "ssbrc:fighters/init/unbreakable/smooth"
+						},
+						{
+							"function": "minecraft:reference",
+							"name": "ssbrc:fighters/yar/ray_blaster/railgun"
+						},
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{CustomModelData:1965}",
+							"conditions": [
+								{
+									"condition": "minecraft:inverted",
+									"term": {
+										"condition": "minecraft:entity_properties",
+										"entity": "this",
+										"predicate": {
+											"nbt": "{Tags:[\"gold\"]}"
+										}
+									}
+								}
+							]
+						},
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{CustomModelData:1981}",
+							"conditions": [
+								{
+									"condition": "minecraft:entity_properties",
+									"entity": "this",
+									"predicate": {
+										"nbt": "{Tags:[\"gold\"]}"
+									}
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

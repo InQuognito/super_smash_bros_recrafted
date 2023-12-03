@@ -7,7 +7,10 @@ gamemode adventure @s
 clear @s
 loot replace entity @s[advancements={ssbrc:tutorial/intro/2=true}] hotbar.0 loot ssbrc:selector
 
+scoreboard players reset @s id
+scoreboard players reset @s team
 team leave @s
+function ssbrc:logic/teams/count/all
 
 xp set @s 0 levels
 xp set @s 0 points
@@ -15,6 +18,7 @@ xp set @s 0 points
 effect clear @s
 effect give @s minecraft:regeneration infinite 255 true
 effect give @s minecraft:resistance infinite 255 true
+effect give @s minecraft:saturation infinite 255 true
 effect give @s minecraft:water_breathing infinite 255 true
 
 title @s clear
@@ -26,8 +30,8 @@ teleport @s -520.5 5.0 -1944.5 90.0 0.0
 
 stopsound @s
 
-function ssbrc:logic/resets/scoreboards/set_empty_stats
-function ssbrc:logic/resets/calculate_stats
+# function ssbrc:logic/resets/scoreboards/set_empty_stats
+# function ssbrc:logic/resets/calculate_stats
 
 item replace entity @s inventory.13 with minecraft:copper_ingot
 loot replace entity @s inventory.13 loot ssbrc:statistics

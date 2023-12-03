@@ -1,0 +1,20 @@
+[
+	{
+		"function": "minecraft:reference",
+		"name": "ssbrc:fighters/init/tooltip/separator"
+	},
+	{
+		"function": "minecraft:set_lore",
+		"entity": "this",
+		"lore": [
+			{
+				"translate": "ssbrc.tooltips.ammo",
+				"color": "white",
+				"bold": false,
+				"italic": false,
+				"underlined": true
+			}
+		],
+		"replace": false
+	}
+]

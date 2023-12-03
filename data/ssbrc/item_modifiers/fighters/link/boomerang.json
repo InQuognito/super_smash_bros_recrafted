@@ -1,0 +1,10 @@
+[
+	{
+		"function": "minecraft:reference",
+		"name": "ssbrc:fighters/link/boomerang/name"
+	},
+	{
+		"function": "minecraft:reference",
+		"name": "ssbrc:fighters/link/boomerang/tooltip"
+	}
+]

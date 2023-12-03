@@ -1,3 +1,3 @@
-scoreboard players set @s charge.1 1
+tag @s add pivot
 
-function ssbrc:logic/fighters/effects/mobility/immobilize
+scoreboard players set @s charge.1 1

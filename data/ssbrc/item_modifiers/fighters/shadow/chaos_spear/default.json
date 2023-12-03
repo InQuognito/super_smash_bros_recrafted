@@ -1,0 +1,16 @@
+[
+	{
+		"function": "minecraft:set_name",
+		"entity": "this",
+		"name": {
+			"translate": "ssbrc.tooltips.shadow.chaosSpear",
+			"color": "yellow",
+			"bold": true,
+			"italic": false
+		}
+	},
+	{
+		"function": "minecraft:set_nbt",
+		"tag": "{disabled:0,CustomModelData:1901}"
+	}
+]

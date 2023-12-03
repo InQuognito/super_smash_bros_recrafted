@@ -1,0 +1,75 @@
+{
+	"condition": "minecraft:inverted",
+	"term": {
+		"condition": "minecraft:any_of",
+		"terms": [
+			{
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"equipment": {
+						"mainhand": {
+							"nbt": "{psg1:1}"
+						}
+					}
+				}
+			},
+			{
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"equipment": {
+						"mainhand": {
+							"nbt": "{famas:1}"
+						}
+					}
+				}
+			},
+			{
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"equipment": {
+						"mainhand": {
+							"nbt": "{s1000:1}"
+						}
+					}
+				}
+			},
+			{
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"equipment": {
+						"mainhand": {
+							"nbt": "{socom:1}"
+						}
+					}
+				}
+			},
+			{
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"equipment": {
+						"mainhand": {
+							"nbt": "{antiPersonnelMine:1}"
+						}
+					}
+				}
+			},
+
+			{
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"equipment": {
+						"mainhand": {
+							"nbt": "{smokeGrenade:1}"
+						}
+					}
+				}
+			}
+		]
+	}
+}

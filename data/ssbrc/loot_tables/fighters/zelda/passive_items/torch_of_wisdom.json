@@ -19,22 +19,13 @@
 							}
 						},
 						{
+							"function": "minecraft:reference",
+							"name": "ssbrc:fighters/zelda/passive_item"
+						},
+						{
 							"function": "minecraft:set_lore",
 							"entity": "this",
 							"lore": [
-								{
-									"translate": "----------------",
-									"color": "gray",
-									"bold": false,
-									"italic": false
-								},
-								{
-									"translate": "ssbrc.tooltips.equipment.passive",
-									"color": "white",
-									"bold": false,
-									"italic": false,
-									"underlined": true
-								},
 								{
 									"translate": "ssbrc.tooltips.zelda.passiveItem.torchOfWisdom.description.1",
 									"color": "gray",
@@ -48,30 +39,11 @@
 									"italic": false
 								}
 							],
-							"replace": true
-						},
-						{
-							"function": "minecraft:set_attributes",
-							"modifiers": [
-								{
-									"attribute": "minecraft:generic.attack_damage",
-									"name": "Attack Damage",
-									"amount": 0,
-									"operation": "multiply_base",
-									"slot": "mainhand"
-								},
-								{
-									"attribute": "minecraft:generic.attack_speed",
-									"name": "Attack Speed",
-									"amount": 1024,
-									"operation": "multiply_base",
-									"slot": "mainhand"
-								}
-							]
+							"replace": false
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{passiveItem:1,torchOfWisdom:1,CustomModelData:9040,Unbreakable:1b,HideFlags:255}"
+							"tag": "{torchOfWisdom:1,CustomModelData:9040}"
 						}
 					]
 				}

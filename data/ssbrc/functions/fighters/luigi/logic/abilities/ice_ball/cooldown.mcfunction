@@ -12,6 +12,7 @@ execute if entity @s[nbt={Inventory:[{tag:{iceBall:1},Slot:5b}]}] run item modif
 execute if entity @s[nbt={Inventory:[{tag:{iceBall:1},Slot:6b}]}] run item modify entity @s hotbar.6 ssbrc:fighters/cooldown
 execute if entity @s[nbt={Inventory:[{tag:{iceBall:1},Slot:7b}]}] run item modify entity @s hotbar.7 ssbrc:fighters/cooldown
 execute if entity @s[nbt={Inventory:[{tag:{iceBall:1},Slot:8b}]}] run item modify entity @s hotbar.8 ssbrc:fighters/cooldown
+
 execute if entity @s[nbt={Inventory:[{tag:{iceBall:1},Slot:9b}]}] run item modify entity @s inventory.0 ssbrc:fighters/cooldown
 execute if entity @s[nbt={Inventory:[{tag:{iceBall:1},Slot:10b}]}] run item modify entity @s inventory.1 ssbrc:fighters/cooldown
 execute if entity @s[nbt={Inventory:[{tag:{iceBall:1},Slot:11b}]}] run item modify entity @s inventory.2 ssbrc:fighters/cooldown

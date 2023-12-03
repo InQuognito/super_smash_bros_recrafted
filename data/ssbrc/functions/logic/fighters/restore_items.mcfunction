@@ -21,13 +21,13 @@ give @s[tag=byleth,tag=blackEagles,tag=weaponBroken] minecraft:spectral_arrow 4
 
 # Cloud
 tag @s[tag=cloud] add operator
-execute if entity @s[tag=cloud] run function ssbrc:fighters/cloud/logic/mode_switch/reset
+execute if entity @s[tag=cloud] run function ssbrc:fighters/cloud/logic/abilities/buster_sword/mode_switch/reset
 
 # Dark Samus
 execute if entity @s[tag=dark_samus] run function ssbrc:fighters/dark_samus/logic/abilities/phazon_beam/reset
 
 # Donkey Kong
-loot replace entity @s[tag=donkey_kong,scores={charge.1=..0}] hotbar.1 loot ssbrc:fighters/donkey_kong/orange_grenade/default
+loot replace entity @s[tag=donkey_kong,scores={charge.1=..0}] hotbar.1 loot ssbrc:fighters/donkey_kong/orange_grenade
 scoreboard players set @s[tag=donkey_kong] charge.1 2
 
 # Ganondorf
@@ -46,13 +46,11 @@ scoreboard players set @s[tag=joker] joker.tt33A 8
 
 # Link
 loot replace entity @s[tag=link] hotbar.2 loot ssbrc:fighters/link/boomerang
-loot replace entity @s[tag=link,tag=!dark] weapon.offhand loot ssbrc:fighters/link/hylian_shield/default
-loot replace entity @s[tag=link,tag=dark] weapon.offhand loot ssbrc:fighters/link/hylian_shield/dark
+loot replace entity @s[tag=link] weapon.offhand loot ssbrc:fighters/link/hylian_shield
 give @s[tag=link] minecraft:spectral_arrow 5
 
 # Megaman
-loot replace entity @s[tag=mega_man,scores={charge.1=..0}] hotbar.2 loot ssbrc:fighters/mega_man/black_hole_bomb
-scoreboard players set @s[tag=mega_man] charge.1 1
+loot replace entity @s[tag=mega_man] hotbar.2 loot ssbrc:fighters/mega_man/black_hole_bomb
 
 # Pit
 execute if entity @s[tag=pit] run function ssbrc:fighters/pit/logic/abilities/wings/regain/activate
@@ -63,7 +61,7 @@ execute if entity @s[tag=pokemon_trainer,tag=charizard,tag=!nextFighterChosen] r
 execute if entity @s[tag=pokemon_trainer,tag=ivysaur,tag=!nextFighterChosen] run function ssbrc:fighters/pokemon_trainer/kits/squirtle
 
 # Rob
-execute if entity @s[tag=rob] run function ssbrc:fighters/rob/logic/abilities/robo_beam/reset
+execute if entity @s[tag=rob] run function ssbrc:fighters/rob/logic/abilities/robo_beam/update
 
 # Ryu
 execute if score gameMode options matches 1 if score @s[tag=ryu] stocks matches 1 run loot replace entity @s[tag=!abilityUsed] hotbar.1 loot ssbrc:fighters/ryu/satsui_no_hado_rage
@@ -88,9 +86,7 @@ execute if entity @s[tag=zelda] run function ssbrc:fighters/zelda/kit
 execute if entity @s[tag=altered_beast] run function ssbrc:fighters/altered_beast/kits/centurion
 
 # Alucard
-scoreboard players set @s[tag=alucard] durability 300
-execute store result storage ssbrc:alucard_shield damage int 1.0 run scoreboard players get @s durability
-loot replace entity @s[tag=alucard] weapon.offhand loot ssbrc:fighters/alucard/alucard_shield
+execute if entity @s[tag=alucard] run function ssbrc:fighters/alucard/restore_items
 
 # Shovelknight
 execute if entity @s[tag=shovel_knight] run function ssbrc:fighters/shovel_knight/kit

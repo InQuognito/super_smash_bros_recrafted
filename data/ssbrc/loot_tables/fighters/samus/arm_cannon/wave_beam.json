@@ -1,0 +1,110 @@
+{
+	"type": "minecraft:command",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:carrot_on_a_stick",
+					"functions": [
+						{
+							"function": "minecraft:set_name",
+							"entity": "this",
+							"name": {
+								"translate": "ssbrc.tooltips.samus.waveBeam",
+								"color": "dark_purple",
+								"bold": true,
+								"italic": false
+							}
+						},
+						{
+							"function": "minecraft:reference",
+							"name": "ssbrc:fighters/samus/arm_cannon/wave_beam"
+						},
+						{
+							"function": "minecraft:set_lore",
+							"entity": "this",
+							"lore": [
+								{
+									"text": "- [",
+									"color": "gray",
+									"bold": false,
+									"italic": false,
+									"extra": [
+										{
+											"keybind": "key.use",
+											"color": "gray",
+											"bold": false,
+											"italic": false
+										},
+										{
+											"translate": "ssbrc.tooltips.samus.waveBeam.description.1",
+											"color": "gray",
+											"bold": false,
+											"italic": false
+										}
+									]
+								},
+								{
+									"translate": "ssbrc.tooltips.samus.waveBeam.description.2",
+									"color": "gray",
+									"bold": false,
+									"italic": false
+								}
+							],
+							"replace": false
+						},
+						{
+							"function": "minecraft:reference",
+							"name": "ssbrc:fighters/samus/arm_cannon/tooltip/switch_weapons"
+						},
+						{
+							"function": "minecraft:set_lore",
+							"entity": "this",
+							"lore": [
+								{
+									"translate": "ssbrc.tooltips.samus.waveBeam",
+									"color": "dark_purple",
+									"bold": true,
+									"italic": false,
+									"extra": [
+										{
+											"translate": " -> ",
+											"color": "white",
+											"bold": false,
+											"italic": false
+										},
+										{
+											"translate": "ssbrc.tooltips.samus.plasmaBeam",
+											"color": "dark_red",
+											"bold": false,
+											"italic": false
+										},
+										{
+											"translate": " -> ",
+											"color": "white",
+											"bold": false,
+											"italic": false
+										},
+										{
+											"translate": "ssbrc.tooltips.samus.powerBeam",
+											"color": "gold",
+											"bold": false,
+											"italic": false
+										}
+									]
+								}
+							],
+							"replace": false
+						},
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{waveBeam:1}"
+						}
+					]
+				}
+			]
+		}
+	]
+}

@@ -1,5 +1,6 @@
-effect give @s minecraft:blindness 2 0 true
-effect give @s minecraft:jump_boost 1 200 true
-effect give @s minecraft:slowness 1 255 true
+damage @s 6.0 ssbrc:projectile by @a[tag=self,limit=1]
+execute if predicate ssbrc:random_chance/30 run function ssbrc:fighters/joker/logic/abilities/phantom_show/effects
 
-tellraw @s {"translate":"ssbrc.fighters.effects.stun","color":"yellow"}
+scoreboard players set entityHit temp 1
+
+execute as @a[tag=self,limit=1] at @s run playsound minecraft:entity.arrow.hit_player player @s

@@ -1,0 +1,28 @@
+{
+	"type": "minecraft:command",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:paper",
+					"functions": [
+						{
+							"function": "minecraft:reference",
+							"name": "ssbrc:fighters/joker/portrait"
+						},
+						{
+							"function": "minecraft:reference",
+							"name": "ssbrc:fighters/joker/personas/jack_o_lantern"
+						},
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{CustomModelData:604}"
+						}
+					]
+				}
+			]
+		}
+	]
+}

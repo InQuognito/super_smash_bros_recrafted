@@ -1,0 +1,42 @@
+{
+	"type": "minecraft:command",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:carrot_on_a_stick",
+					"functions": [
+						{
+							"function": "minecraft:set_name",
+							"entity": "this",
+							"name": {
+								"translate": "ssbrc.tooltips.joker.eiagon",
+								"color": "dark_red",
+								"bold": true,
+								"italic": false
+							}
+						},
+						{
+							"function": "minecraft:reference",
+							"name": "ssbrc:fighters/init/tooltip/ability/ranged"
+						},
+						{
+							"function": "minecraft:reference",
+							"name": "ssbrc:fighters/joker/ability"
+						},
+						{
+							"function": "minecraft:reference",
+							"name": "ssbrc:fighters/joker/persona_ability/eiagon"
+						},
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{eiagon:1,CustomModelData:604}"
+						}
+					]
+				}
+			]
+		}
+	]
+}

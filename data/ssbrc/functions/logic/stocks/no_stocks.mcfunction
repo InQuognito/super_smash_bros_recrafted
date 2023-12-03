@@ -1,5 +1,7 @@
-scoreboard players reset backInGame temp
-execute if score teams options matches 1 if score teamRestock options matches 1 run function ssbrc:logic/stocks/restock/calculate_highest
+title @s actionbar ""
 
-execute unless score backInGame temp matches 1 run function ssbrc:logic/stocks/out_of_game
-scoreboard players reset backInGame temp
+function ssbrc:logic/pre_game/character_select/count_players
+
+data modify entity @e[tag=lobby.timer,limit=1] text set value '[{"translate":"ssbrc.lobby.playersLeft","color":"gold"},{"score":{"name":"players.playing","objective":"temp"},"color":"yellow"}]'
+
+execute if score gameStage temp matches 4 run function ssbrc:logic/post_game/winner/calculate

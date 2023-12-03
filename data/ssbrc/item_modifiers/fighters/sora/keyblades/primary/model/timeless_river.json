@@ -1,0 +1,31 @@
+[
+	{
+		"function": "minecraft:set_nbt",
+		"tag": "{CustomModelData:1563}",
+		"conditions": [
+			{
+				"condition": "minecraft:inverted",
+				"term": {
+					"condition": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"nbt": "{Tags:[\"wisdom\"]}"
+					}
+				}
+			}
+		]
+	},
+	{
+		"function": "minecraft:set_nbt",
+		"tag": "{CustomModelData:1566}",
+		"conditions": [
+			{
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"nbt": "{Tags:[\"wisdom\"]}"
+				}
+			}
+		]
+	}
+]

@@ -1,0 +1,85 @@
+{
+	"type": "minecraft:command",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:carrot_on_a_stick",
+					"functions": [
+						{
+							"function": "minecraft:set_name",
+							"entity": "this",
+							"name": {
+								"translate": "ssbrc.tooltips.sora.starSeeker",
+								"color": "blue",
+								"bold": true,
+								"italic": false
+							},
+							"conditions": [
+								{
+									"condition": "minecraft:entity_properties",
+									"entity": "this",
+									"predicate": {
+										"nbt": "{Tags:[\"default\"]}"
+									}
+								}
+							]
+						},
+						{
+							"function": "minecraft:set_name",
+							"entity": "this",
+							"name": {
+								"translate": "ssbrc.tooltips.sora.starSeeker",
+								"color": "gold",
+								"bold": true,
+								"italic": false
+							},
+							"conditions": [
+								{
+									"condition": "minecraft:entity_properties",
+									"entity": "this",
+									"predicate": {
+										"nbt": "{Tags:[\"gold\"]}"
+									}
+								}
+							]
+						},
+						{
+							"function": "minecraft:set_name",
+							"entity": "this",
+							"name": {
+								"translate": "ssbrc.tooltips.sora.classicTone",
+								"color": "yellow",
+								"bold": true,
+								"italic": false
+							},
+							"conditions": [
+								{
+									"condition": "minecraft:entity_properties",
+									"entity": "this",
+									"predicate": {
+										"nbt": "{Tags:[\"timelessRiver\"]}"
+									}
+								}
+							]
+						},
+						{
+							"function": "minecraft:reference",
+							"name": "ssbrc:fighters/sora/keyblades/init"
+						},
+						{
+							"function": "minecraft:reference",
+							"name": "ssbrc:fighters/sora/keyblades/strike_raid"
+						},
+						{
+							"function": "minecraft:reference",
+							"name": "ssbrc:fighters/sora/keyblades/secondary"
+						}
+					]
+				}
+			]
+		}
+	]
+}

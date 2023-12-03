@@ -1,0 +1,57 @@
+[
+	{
+		"function": "minecraft:reference",
+		"name": "ssbrc:fighters/cloud/buster_sword/default",
+		"conditions": [
+			{
+				"condition": "minecraft:inverted",
+				"term": {
+					"condition": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"nbt": "{Tags:[\"gold\"]}"
+					}
+				}
+			}
+		]
+	},
+	{
+		"function": "minecraft:reference",
+		"name": "ssbrc:fighters/cloud/buster_sword/gold",
+		"conditions": [
+			{
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"nbt": "{Tags:[\"gold\"]}"
+				}
+			}
+		]
+	},
+	{
+		"function": "minecraft:reference",
+		"name": "ssbrc:fighters/cloud/buster_sword/operator",
+		"conditions": [
+			{
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"nbt": "{Tags:[\"operator\"]}"
+				}
+			}
+		]
+	},
+	{
+		"function": "minecraft:reference",
+		"name": "ssbrc:fighters/cloud/buster_sword/punisher",
+		"conditions": [
+			{
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"nbt": "{Tags:[\"punisher\"]}"
+				}
+			}
+		]
+	}
+]

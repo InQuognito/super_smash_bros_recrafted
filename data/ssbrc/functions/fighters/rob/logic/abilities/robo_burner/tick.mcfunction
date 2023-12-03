@@ -13,11 +13,6 @@ execute if score @s charge.3 matches 21..25 run effect give @s minecraft:levitat
 execute if score @s charge.3 matches 26..30 run effect give @s minecraft:levitation infinite 4 true
 execute if score @s charge.3 matches 31.. run effect give @s minecraft:levitation infinite 5 true
 
-scoreboard players set cooldownModifierType temp 2
-scoreboard players set @s cooldown.2 100
-scoreboard players operation cooldownModifier temp = @s cooldown.2
-execute if score @s shadow.chaosControl matches 1.. run function ssbrc:logic/fighters/cooldown_modifiers/chaos_control
-
-function ssbrc:fighters/rob/logic/abilities/robo_burner/update
+scoreboard players set @s cooldown.2 60
 
 execute if score @s charge.2 matches ..0 run function ssbrc:fighters/rob/logic/abilities/robo_burner/deactivate

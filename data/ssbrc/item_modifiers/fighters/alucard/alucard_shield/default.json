@@ -1,0 +1,42 @@
+[
+	{
+		"function": "minecraft:set_name",
+		"entity": "this",
+		"name": {
+			"translate": "ssbrc.tooltips.alucard.alucardShield",
+			"color": "white",
+			"bold": true,
+			"italic": false
+		}
+	},
+	{
+		"function": "minecraft:set_banner_pattern",
+		"patterns": [
+			{
+				"pattern": "minecraft:base",
+				"color": "red"
+			},
+			{
+				"pattern": "minecraft:triangle_top",
+				"color": "gray"
+			},
+			{
+				"pattern": "minecraft:cross",
+				"color": "black"
+			},
+			{
+				"pattern": "minecraft:rhombus",
+				"color": "gray"
+			},
+			{
+				"pattern": "minecraft:flower",
+				"color": "yellow"
+			},
+			{
+				"pattern": "minecraft:piglin",
+				"color": "gray"
+			}
+		],
+		"append": false
+	}
+]

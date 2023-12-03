@@ -1,0 +1,39 @@
+[
+	{
+		"function": "minecraft:set_name",
+		"entity": "this",
+		"name": {
+			"translate": "ssbrc.tooltips.pit.palutenaBow",
+			"color": "white",
+			"bold": true,
+			"italic": false
+		}
+	},
+	{
+		"function": "minecraft:set_attributes",
+		"modifiers": [
+			{
+				"attribute": "minecraft:generic.attack_damage",
+				"name": "Attack Damage",
+				"amount": 6,
+				"operation": "multiply_base",
+				"slot": "mainhand"
+			},
+			{
+				"attribute": "minecraft:generic.attack_speed",
+				"name": "Attack Speed",
+				"amount": 1.5,
+				"operation": "multiply_base",
+				"slot": "mainhand"
+			}
+		]
+	},
+	{
+		"function": "minecraft:reference",
+		"name": "ssbrc:fighters/init/tooltip/ability/hybrid"
+	},
+	{
+		"function": "minecraft:set_nbt",
+		"tag": "{palutenaBow:1}"
+	}
+]

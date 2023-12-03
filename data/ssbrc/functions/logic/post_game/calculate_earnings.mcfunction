@@ -201,10 +201,10 @@ scoreboard players operation value einstein *= value.bonus.einstein vars
 execute if score @s einstein matches 1.. run data modify storage ssbrc:bonuses value append value '[{"score":{"name":"@s","objective":"einstein"},"bold":true,"color":"yellow"},{"translate":"x ","bold":true,"color":"yellow"},{"translate":"ssbrc.game.bonus.einstein","bold":true,"color":"gold"},{"translate":" - ","bold":false,"color":"white"},{"score":{"name":"value","objective":"einstein"},"bold":false,"color":"yellow"},{"translate":"₡","bold":false,"color":"yellow"}]}}]'
 scoreboard players operation @s stats.credits.temp += value einstein
 
-scoreboard players operation value selfDestruct = @s suicides
-scoreboard players operation value selfDestruct *= value.bonus.selfDestruct vars
-execute if score @s selfDestruct matches 1.. run data modify storage ssbrc:bonuses value append value '[{"score":{"name":"@s","objective":"selfDestruct"},"bold":true,"color":"yellow"},{"translate":"x ","bold":true,"color":"yellow"},{"translate":"ssbrc.game.bonus.selfDestruct","bold":true,"color":"gold"},{"translate":" - ","bold":false,"color":"white"},{"score":{"name":"value","objective":"selfDestruct"},"bold":false,"color":"yellow"},{"translate":"₡","bold":false,"color":"yellow"}]}}]'
-scoreboard players operation @s stats.credits.temp += value selfDestruct
+scoreboard players operation value suicides = @s suicides
+scoreboard players operation value suicides *= value.bonus.selfDestruct vars
+execute if score @s suicides matches 1.. run data modify storage ssbrc:bonuses value append value '[{"score":{"name":"@s","objective":"suicides"},"bold":true,"color":"yellow"},{"translate":"x ","bold":true,"color":"yellow"},{"translate":"ssbrc.game.bonus.selfDestruct","bold":true,"color":"gold"},{"translate":" - ","bold":false,"color":"white"},{"score":{"name":"value","objective":"suicides"},"bold":false,"color":"yellow"},{"translate":"₡","bold":false,"color":"yellow"}]}}]'
+scoreboard players operation @s stats.credits.temp += value suicides
 
 execute if score @s quitter matches 1.. run data modify storage ssbrc:bonuses value append value '[{"translate":"ssbrc.game.bonus.quitter","bold":true,"color":"gold"},{"translate":" - ","bold":false,"color":"white"},{"translate":"ssbrc.game.bonus.quitter.warn","bold":false,"color":"red"}]}}]'
 execute if score @s quitter matches 1.. run scoreboard players set @s stats.credits.temp 0

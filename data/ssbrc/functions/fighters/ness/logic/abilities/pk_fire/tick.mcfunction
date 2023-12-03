@@ -6,6 +6,7 @@ teleport @s ^ ^ ^0.5
 
 execute unless entity @s[tag=exploded] unless block ^ ^ ^0.5 #ssbrc:passthrough run function ssbrc:fighters/ness/logic/abilities/pk_fire/explode
 
-execute unless entity @s[tag=exploded] positioned ~-0.15 ~-0.15 ~-0.15 as @e[tag=!self,predicate=ssbrc:flag/targets,dx=0] positioned ~-0.7 ~-0.7 ~-0.7 if entity @s[dx=0] as @e[type=minecraft:area_effect_cloud,tag=pkFire,sort=nearest,limit=1] at @s run function ssbrc:fighters/ness/logic/abilities/pk_fire/explode
+execute unless entity @s[tag=exploded] positioned ~-0.15 ~-0.15 ~-0.15 as @e[tag=!self,predicate=ssbrc:flag/targets,dx=0] positioned ~-0.7 ~-0.7 ~-0.7 if entity @s[dx=0] as @e[type=minecraft:marker,tag=pkFire,sort=nearest,limit=1,predicate=ssbrc:id_match] at @s run function ssbrc:fighters/ness/logic/abilities/pk_fire/explode
 
 scoreboard players add @s temp 1
+kill @s[scores={temp=15..}]

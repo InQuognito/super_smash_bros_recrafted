@@ -19,17 +19,15 @@
 							}
 						},
 						{
+							"function": "minecraft:reference",
+							"name": "ssbrc:fighters/init/preset/ui"
+						},
+						{
 							"function": "minecraft:set_lore",
 							"entity": "this",
 							"lore": [
 								{
-									"translate": "---------",
-									"color": "gray",
-									"bold": false,
-									"italic": false
-								},
-								{
-									"translate": "- [",
+									"text": "- [",
 									"color": "gray",
 									"bold": false,
 									"italic": false,
@@ -49,30 +47,11 @@
 									]
 								}
 							],
-							"replace": true
-						},
-						{
-							"function": "minecraft:set_attributes",
-							"modifiers": [
-								{
-									"attribute": "minecraft:generic.attack_damage",
-									"name": "Attack Damage",
-									"amount": 0,
-									"operation": "multiply_base",
-									"slot": "mainhand"
-								},
-								{
-									"attribute": "minecraft:generic.attack_speed",
-									"name": "Attack Speed",
-									"amount": 1024,
-									"operation": "multiply_base",
-									"slot": "mainhand"
-								}
-							]
+							"replace": false
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{selector:1,CustomModelData:9999990,Unbreakable:1b,HideFlags:255}"
+							"tag": "{selector:1,CustomModelData:9999990}"
 						}
 					]
 				}

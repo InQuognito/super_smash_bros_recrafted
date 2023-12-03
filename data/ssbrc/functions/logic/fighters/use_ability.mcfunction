@@ -5,7 +5,7 @@ execute if entity @s[scores={cooldown.1=..0},nbt={SelectedItem:{tag:{fireball:1}
 execute if entity @s[scores={cooldown.1=..0},nbt={SelectedItem:{tag:{iceBall:1}}}] at @s anchored eyes run function ssbrc:fighters/luigi/logic/abilities/ice_ball/activate
 
 # Princess Peach
-execute if entity @s[scores={cooldown.1=..0},nbt={SelectedItem:{tag:{vegetable:1}}}] if score speed temp matches ..0 at @s unless block ~ ~-0.1 ~ #ssbrc:passthrough_charge anchored eyes positioned ^ ^ ^ run function ssbrc:fighters/princess_peach/logic/abilities/vegetable/activate
+execute if entity @s[scores={cooldown.1=..0},nbt={SelectedItem:{tag:{vegetable:1}}}] if score speed temp matches ..0 at @s unless block ~ ~-0.1 ~ #ssbrc:passthrough_charge anchored eyes positioned ^ ^ ^ run function ssbrc:fighters/peach/logic/abilities/vegetable/activate
 
 # Bowser
 

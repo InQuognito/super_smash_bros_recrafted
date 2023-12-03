@@ -1,0 +1,29 @@
+[
+	{
+		"function": "minecraft:set_lore",
+		"entity": "this",
+		"lore": [
+			{
+				"translate": "ssbrc.shop.price",
+				"color": "yellow",
+				"bold": false,
+				"italic": false,
+				"extra": [
+					{
+						"score": {
+							"name": "#price.fighter.common",
+							"objective": "vars"
+						},
+						"bold": false,
+						"italic": false
+					},
+					{
+						"text": "₡",
+						"color": "yellow"
+					}
+				]
+			}
+		],
+		"replace": false
+	}
+]

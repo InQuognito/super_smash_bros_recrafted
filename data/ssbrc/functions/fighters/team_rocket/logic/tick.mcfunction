@@ -1,3 +1,7 @@
+execute if entity @s[scores={useAbility=1..,cooldown.1=..0},nbt={SelectedItem:{tag:{acid:1}}}] at @s anchored eyes positioned ^ ^ ^ run function ssbrc:fighters/team_rocket/logic/arbok/acid/activate
+execute if entity @s[scores={useAbility=1..,cooldown.1=..0},nbt={SelectedItem:{tag:{payday:1}}}] at @s anchored eyes positioned ^ ^ ^ run function ssbrc:fighters/team_rocket/logic/meowth/payday/activate
+execute if entity @s[scores={useAbility=1..,cooldown.1=..0},nbt={SelectedItem:{tag:{destinyBond:1}}}] run function ssbrc:fighters/team_rocket/logic/wobbuffet/destiny_bond/activate
+
 # Acid
 execute if entity @s[tag=arbok] run function ssbrc:fighters/team_rocket/logic/arbok/acid/cooldown
 

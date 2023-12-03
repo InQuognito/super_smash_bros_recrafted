@@ -1,3 +1,6 @@
-playsound minecraft:entity.arrow.hit_player player @s
+damage @s 4.0 ssbrc:projectile by @a[tag=self,limit=1]
+scoreboard players set @s burning 30
 
-advancement revoke @s only ssbrc:utility/flag/hurt_player/custom/fireball
+scoreboard players set entityHit temp 1
+
+execute as @a[tag=self,limit=1] at @s run playsound minecraft:entity.arrow.hit_player player @s

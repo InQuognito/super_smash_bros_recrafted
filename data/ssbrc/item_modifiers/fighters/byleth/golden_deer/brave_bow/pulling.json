@@ -1,0 +1,10 @@
+[
+	{
+		"function": "minecraft:reference",
+		"name": "ssbrc:fighters/init/pulling"
+	},
+	{
+		"function": "minecraft:reference",
+		"name": "ssbrc:fighters/byleth/golden_deer/brave_bow/init"
+	}
+]

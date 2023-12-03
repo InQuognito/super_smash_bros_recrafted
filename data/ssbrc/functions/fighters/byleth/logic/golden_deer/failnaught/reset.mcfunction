@@ -38,9 +38,4 @@ execute if entity @s[nbt={Inventory:[{tag:{failnaught:1},Slot:33b}]}] run loot r
 execute if entity @s[nbt={Inventory:[{tag:{failnaught:1},Slot:34b}]}] run loot replace entity @s inventory.25 loot ssbrc:fighters/byleth/golden_deer/failnaught/idle
 execute if entity @s[nbt={Inventory:[{tag:{failnaught:1},Slot:35b}]}] run loot replace entity @s inventory.26 loot ssbrc:fighters/byleth/golden_deer/failnaught/idle
 
-execute if entity @s[nbt={Inventory:[{tag:{failnaught:1},Slot:80b}]}] run loot give @s loot ssbrc:fighters/byleth/golden_deer/failnaught/idle
-execute if entity @s[nbt={Inventory:[{tag:{failnaught:1},Slot:81b}]}] run loot give @s loot ssbrc:fighters/byleth/golden_deer/failnaught/idle
-execute if entity @s[nbt={Inventory:[{tag:{failnaught:1},Slot:82b}]}] run loot give @s loot ssbrc:fighters/byleth/golden_deer/failnaught/idle
-execute if entity @s[nbt={Inventory:[{tag:{failnaught:1},Slot:83b}]}] run loot give @s loot ssbrc:fighters/byleth/golden_deer/failnaught/idle
-
 execute if entity @s[nbt={Inventory:[{tag:{failnaught:1},Slot:-106b}]}] run loot replace entity @s weapon.offhand loot ssbrc:fighters/byleth/golden_deer/failnaught/idle

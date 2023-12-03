@@ -1,5 +1,6 @@
-loot replace entity @p[tag=self,tag=valor,tag=!timelessRiver,nbt={Inventory:[{tag:{kingdomKey:1}}]},nbt=!{Inventory:[{tag:{starSeeker:1}}]}] weapon.offhand loot ssbrc:fighters/sora/keyblades/default/star_seeker
-loot replace entity @p[tag=self,tag=valor,tag=!timelessRiver,nbt={Inventory:[{tag:{starSeeker:1}}]},nbt=!{Inventory:[{tag:{kingdomKey:1}}]}] weapon.offhand loot ssbrc:fighters/sora/keyblades/default/kingdom_key
-loot replace entity @p[tag=self,tag=valor,tag=timelessRiver,nbt={Inventory:[{tag:{monochrome:1}}]},nbt=!{Inventory:[{tag:{classicTone:1}}]}] weapon.offhand loot ssbrc:fighters/sora/keyblades/timeless_river/classic_tone
-loot replace entity @p[tag=self,tag=valor,tag=timelessRiver,nbt={Inventory:[{tag:{classicTone:1}}]},nbt=!{Inventory:[{tag:{monochrome:1}}]}] weapon.offhand loot ssbrc:fighters/sora/keyblades/timeless_river/monochrome
-kill @s
+execute if entity @s[nbt={Inventory:[{tag:{primary:1}}]}] run function ssbrc:fighters/sora/logic/abilities/strike_raid/regain/secondary
+execute unless score strikeRaidRegained temp matches 1 if entity @s[nbt={Inventory:[{tag:{secondary:1}}]}] run function ssbrc:fighters/sora/logic/abilities/strike_raid/regain/primary
+scoreboard players reset strikeRaidRegained temp
+
+scoreboard players set @s cooldown.2 10
+execute if score @s shadow.chaosControl matches 1.. run function ssbrc:logic/fighters/cooldown_modifiers/chaos_control/2

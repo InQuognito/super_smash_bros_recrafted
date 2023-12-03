@@ -9,6 +9,11 @@ execute if score @s charge.2 matches 8 if entity @s[predicate=ssbrc:random_chanc
 execute if score @s charge.2 matches 9 if entity @s[predicate=ssbrc:random_chance/90] run tag @s add driveForm.anti
 execute if score @s charge.2 matches 10 run tag @s add driveForm.anti
 
+tag @s[tag=alwaysAnti] add driveForm.anti
+tag @s[tag=neverAnti] remove driveForm.anti
+
+clear @s minecraft:carrot_on_a_stick{driveForm:1}
+
 execute if entity @s[tag=!driveForm.anti,tag=driveForm.valor] run function ssbrc:fighters/sora/logic/drive_forms/valor
 execute if entity @s[tag=!driveForm.anti,tag=driveForm.wisdom] run function ssbrc:fighters/sora/logic/drive_forms/wisdom
 execute if entity @s[tag=driveForm.anti] run function ssbrc:fighters/sora/logic/drive_forms/anti

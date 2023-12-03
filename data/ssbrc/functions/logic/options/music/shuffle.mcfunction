@@ -1,4 +1,4 @@
-tellraw @a[tag=room.characterSelect] [{"translate":"ssbrc.options.musicTitle","color":"yellow"},{"translate":"ssbrc.options.music.shuffle","color":"blue"}]
+tellraw @a[tag=room.characterSelect] [{"translate":"ssbrc.options.music.title","color":"yellow"},{"translate":"ssbrc.options.music.shuffle","color":"blue"}]
 
 scoreboard players set music options 1
 

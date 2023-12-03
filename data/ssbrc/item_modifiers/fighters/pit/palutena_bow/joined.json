@@ -1,0 +1,10 @@
+[
+	{
+		"function": "minecraft:reference",
+		"name": "ssbrc:fighters/pit/palutena_bow"
+	},
+	{
+		"function": "minecraft:set_nbt",
+		"tag": "{split:0}"
+	}
+]

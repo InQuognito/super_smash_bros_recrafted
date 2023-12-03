@@ -1,5 +1,7 @@
 tag @s add hama.display
 
-data merge entity @s {item:{id:"minecraft:glowstone_dust",tag:{CustomModelData:600},Count:1b},transformation:[3f,0f,0f,0f,0f,0f,0f,0f,0f,3f,0f,0f,0f,0f,0f,1f]}
+item replace entity @s container.0 with minecraft:glowstone_dust{CustomModelData:600}
+
+data merge entity @s {transformation:[3f,0f,0f,0f,0f,0f,0f,0f,0f,3f,0f,0f,0f,0f,0f,1f],teleport_duration:1}
 
 function ssbrc:logic/init/id

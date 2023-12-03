@@ -1,7 +1,8 @@
 tag @s add link.boomerang
 
-loot replace entity @s armor.head loot ssbrc:fighters/link/boomerang
+loot replace entity @s container.0 loot ssbrc:fighters/link/boomerang
 
-data merge entity @s {Pose:{Head:[0f,0.1f,0f]},Small:1b}
+function ssbrc:logic/init/projectile_horizontal
 
-function ssbrc:logic/init/armor_stand/projectile_horizontal
+data merge entity @s {teleport_duration:1}
+function ssbrc:fighters/link/logic/abilities/boomerang/animation/1

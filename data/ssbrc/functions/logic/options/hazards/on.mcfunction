@@ -1,4 +1,4 @@
-tellraw @a[tag=room.characterSelect] [{"translate":"ssbrc.options.hazardsTitle","color":"yellow"},{"translate":"ssbrc.options.on","color":"blue"}]
+tellraw @a[tag=room.characterSelect] [{"translate":"ssbrc.options.hazards.title","color":"yellow"},{"translate":"ssbrc.options.on","color":"blue"}]
 
 scoreboard players set hazards options 1
 

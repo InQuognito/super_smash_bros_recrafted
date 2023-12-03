@@ -1,0 +1,14 @@
+[
+	{
+		"function": "minecraft:reference",
+		"name": "ssbrc:fighters/init/unbreakable/instant"
+	},
+	{
+		"function": "minecraft:reference",
+		"name": "ssbrc:fighters/byleth/golden_deer/failnaught/init"
+	},
+	{
+		"function": "minecraft:set_nbt",
+		"tag": "{pulling:1}"
+	}
+]

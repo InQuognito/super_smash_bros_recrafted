@@ -20,10 +20,10 @@ function ssbrc:logic/resets/tags/fighters/luigi
 function ssbrc:logic/resets/tags/fighters/mario
 function ssbrc:logic/resets/tags/fighters/mega_man
 function ssbrc:logic/resets/tags/fighters/ness
+function ssbrc:logic/resets/tags/fighters/peach
 function ssbrc:logic/resets/tags/fighters/pikachu
 function ssbrc:logic/resets/tags/fighters/pit
 function ssbrc:logic/resets/tags/fighters/pokemon_trainer
-function ssbrc:logic/resets/tags/fighters/princess_peach
 function ssbrc:logic/resets/tags/fighters/rob
 function ssbrc:logic/resets/tags/fighters/roy
 function ssbrc:logic/resets/tags/fighters/ryu
@@ -39,19 +39,23 @@ function ssbrc:logic/resets/tags/fighters/wolf
 function ssbrc:logic/resets/tags/fighters/yar
 function ssbrc:logic/resets/tags/fighters/zelda
 
-function ssbrc:logic/fighters/natures/reset
+function ssbrc:logic/fighters/pokemon/natures/reset
 
 # Misc
 tag @s remove abilityUsed
+tag @s remove air_stall
 tag @s remove characterPicked
 tag @s remove checkDeath
 tag @s remove checkKill
 tag @s remove checkShockwave
+tag @s remove critical
 tag @s remove hasShield
 tag @s remove ignoreFeedback
 tag @s remove immobile
+tag @s remove intangible
 tag @s remove naturalShiny
 tag @s remove nextFighterChosen
+tag @s remove pivot
 tag @s remove shieldBroken
 
 tag @s remove female

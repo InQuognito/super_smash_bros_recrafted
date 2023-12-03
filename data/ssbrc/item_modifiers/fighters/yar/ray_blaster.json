@@ -1,0 +1,10 @@
+[
+	{
+		"function": "minecraft:reference",
+		"name": "ssbrc:fighters/init/preset/ranged"
+	},
+	{
+		"function": "minecraft:set_nbt",
+		"tag": "{rayBlaster:1,powerUp:0}"
+	}
+]

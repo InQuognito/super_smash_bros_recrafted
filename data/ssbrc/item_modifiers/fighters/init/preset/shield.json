@@ -1,0 +1,34 @@
+[
+	{
+		"function": "minecraft:set_name",
+		"entity": "this",
+		"name": {
+			"translate": "item.minecraft.shield",
+			"color": "white",
+			"bold": true,
+			"italic": false
+		}
+	},
+	{
+		"function": "minecraft:copy_nbt",
+		"source": {
+			"type": "minecraft:storage",
+			"source": "ssbrc:shield"
+		},
+		"ops": [
+			{
+				"source": "damage",
+				"target": "Damage",
+				"op": "replace"
+			}
+		]
+	},
+	{
+		"function": "minecraft:reference",
+		"name": "ssbrc:fighters/init/preset/defensive"
+	},
+	{
+		"function": "minecraft:set_nbt",
+		"tag": "{shield:1}"
+	}
+]

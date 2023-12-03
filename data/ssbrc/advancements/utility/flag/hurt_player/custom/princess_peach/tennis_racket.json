@@ -28,6 +28,6 @@
 		}
 	},
 	"rewards": {
-		"function": "ssbrc:fighters/princess_peach/logic/hit_opponent/tennis_racket"
+		"function": "ssbrc:fighters/peach/logic/hit_opponent/tennis_racket"
 	}
 }

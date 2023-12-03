@@ -77,6 +77,25 @@
 			"predicate": {
 				"nbt": "{Tags:[\"joker\"]}"
 			}
+		},
+		{
+			"condition": "minecraft:all_of",
+			"terms": [
+				{
+					"condition": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"nbt": "{Tags:[\"altered_beast\"]}"
+					}
+				},
+				{
+					"condition": "minecraft:inverted",
+					"term": {
+						"condition": "minecraft:reference",
+						"name": "ssbrc:fighters/altered_beast/is_beast"
+					}
+				}
+			]
 		}
 	]
 }

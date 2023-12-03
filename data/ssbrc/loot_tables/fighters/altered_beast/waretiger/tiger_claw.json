@@ -19,26 +19,6 @@
 							}
 						},
 						{
-							"function": "minecraft:set_lore",
-							"entity": "this",
-							"lore": [
-								{
-									"translate": "-----------",
-									"color": "gray",
-									"bold": false,
-									"italic": false
-								},
-								{
-									"translate": "ssbrc.tooltips.weapon.hybrid",
-									"color": "white",
-									"bold": false,
-									"italic": false,
-									"underlined": true
-								}
-							],
-							"replace": true
-						},
-						{
 							"function": "minecraft:set_attributes",
 							"modifiers": [
 								{
@@ -65,8 +45,12 @@
 							"add": false
 						},
 						{
+							"function": "minecraft:reference",
+							"name": "ssbrc:fighters/init/preset/hybrid"
+						},
+						{
 							"function": "minecraft:set_nbt",
-							"tag": "{feralClaw:1,Unbreakable:1b,HideFlags:255}"
+							"tag": "{feralClaw:1}"
 						}
 					]
 				}

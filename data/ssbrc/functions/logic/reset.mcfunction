@@ -4,19 +4,28 @@ function ssbrc:logic/resets/scoreboards/create
 function ssbrc:logic/resets/scoreboards/constants
 function ssbrc:logic/resets/scoreboards/variables
 
-scoreboard objectives setdisplay belowName
+scoreboard objectives setdisplay below_name
 scoreboard objectives setdisplay list
 scoreboard objectives setdisplay sidebar
 
 execute if score singleplayer options matches 1 run function ssbrc:logic/options/presets/singleplayer/off
+execute if score suddenDeath options matches 1 run function ssbrc:logic/post_game/sudden_death/reset
 
 function ssbrc:logic/resets/options
 
 function ssbrc:logic/resets/advancements
 function ssbrc:logic/resets/bossbars
+function ssbrc:logic/resets/data
 function ssbrc:logic/resets/gamerules
 function ssbrc:logic/resets/schedule
 function ssbrc:logic/resets/teams/reset
+
+data modify storage ssbrc:data snake_ammo_psg1 set value '[{"score":{"name":"@s","objective":"snake.psg1A"},"color":"green"},{"text":" | ","color":"white"},{"score":{"name":"@s","objective":"snake.psg1M"},"color":"dark_green"}]'
+data modify storage ssbrc:data snake_ammo_famas set value '[{"score":{"name":"@s","objective":"snake.famasA"},"color":"green"},{"text":" | ","color":"white"},{"score":{"name":"@s","objective":"snake.famasM"},"color":"dark_green"}]'
+data modify storage ssbrc:data snake_ammo_s1000 set value '[{"score":{"name":"@s","objective":"snake.s1000A"},"color":"green"},{"text":" | ","color":"white"},{"score":{"name":"@s","objective":"snake.s1000M"},"color":"dark_green"}]'
+data modify storage ssbrc:data snake_ammo_socom set value '[{"score":{"name":"@s","objective":"snake.socomA"},"color":"green"},{"text":" | ","color":"white"},{"score":{"name":"@s","objective":"snake.socomM"},"color":"dark_green"}]'
+data modify storage ssbrc:data snake_out_of_ammo set value '[{"text":"-","color":"red"},{"text":" | ","color":"white"},{"text":"-","color":"red"}]'
+data modify storage ssbrc:data snake_prompt_reload set value '[{"translate":"ssbrc.fighters.snake.reload.prefix","color":"gray"},{"keybind":"key.drop","color":"white"},{"translate":"ssbrc.fighters.snake.reload.suffix","color":"gray"}]'
 
 kill @e[type=!minecraft:player]
 

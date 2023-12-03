@@ -1,0 +1,14 @@
+[
+	{
+		"function": "minecraft:reference",
+		"name": "ssbrc:fighters/init/unbreakable/instant"
+	},
+	{
+		"function": "minecraft:reference",
+		"name": "ssbrc:fighters/dark_samus/phazon_beam"
+	},
+	{
+		"function": "minecraft:set_nbt",
+		"tag": "{charging:1}"
+	}
+]

@@ -1,0 +1,11 @@
+{
+	"values": [
+		"#ssbrc:material/deepslate/ore",
+		"minecraft:cobbled_deepslate",
+		"minecraft:cobbled_deepslate_slab",
+		"minecraft:cobbled_deepslate_stairs",
+		"minecraft:cobbled_deepslate_wall",
+		"minecraft:deepslate",
+		"minecraft:reinforced_deepslate"
+	]
+}

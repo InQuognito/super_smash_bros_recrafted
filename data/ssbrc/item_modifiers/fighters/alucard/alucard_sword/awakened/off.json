@@ -1,0 +1,18 @@
+[
+	{
+		"function": "minecraft:set_attributes",
+		"modifiers": [
+			{
+				"attribute": "minecraft:generic.attack_damage",
+				"name": "Attack Damage",
+				"amount": 4,
+				"operation": "multiply_base",
+				"slot": "mainhand"
+			}
+		]
+	},
+	{
+		"function": "minecraft:set_nbt",
+		"tag": "{awakened:0}"
+	}
+]

@@ -1,8 +1,6 @@
 tag @s remove pokemon_trainer
 
-tag @s remove charizard
-tag @s remove ivysaur
-tag @s remove squirtle
+function ssbrc:fighters/pokemon_trainer/kits/reset
 
 tag @s remove charizard.bold
 tag @s remove charizard.brave
@@ -13,6 +11,7 @@ tag @s remove charizard.lonely
 tag @s remove charizard.quiet
 tag @s remove charizard.timid
 tag @s remove charizard.natureSet
+
 tag @s remove ivysaur.bold
 tag @s remove ivysaur.brave
 tag @s remove ivysaur.hardy
@@ -22,6 +21,7 @@ tag @s remove ivysaur.lonely
 tag @s remove ivysaur.quiet
 tag @s remove ivysaur.timid
 tag @s remove ivysaur.natureSet
+
 tag @s remove squirtle.bold
 tag @s remove squirtle.brave
 tag @s remove squirtle.hardy

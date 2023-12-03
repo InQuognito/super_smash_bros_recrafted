@@ -19,4 +19,5 @@ team modify team6 nametagVisibility hideForOtherTeams
 team modify team7 nametagVisibility hideForOtherTeams
 team modify team8 nametagVisibility hideForOtherTeams
 
-schedule function ssbrc:logic/pre_game/teleport_begin 2t replace
+function ssbrc:logic/pre_game/teleport_begin
+function ssbrc:logic/pre_game/start_countdown

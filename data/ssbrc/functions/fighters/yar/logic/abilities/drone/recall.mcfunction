@@ -1,5 +1,5 @@
 function ssbrc:fighters/yar/logic/abilities/drone/regain
 
-scoreboard players operation @s yar.droneHealth = @e[type=minecraft:bee,tag=drone,sort=nearest,limit=1] yar.droneHealth
+execute as @e[type=minecraft:bee,tag=drone,predicate=ssbrc:id_match,sort=nearest,limit=1] run function ssbrc:fighters/yar/logic/abilities/drone/store_health
 
-kill @e[type=minecraft:bee,tag=drone,sort=nearest,limit=1,predicate=ssbrc:id_match]
+scoreboard players operation @s yar.droneHealth = droneHealth temp

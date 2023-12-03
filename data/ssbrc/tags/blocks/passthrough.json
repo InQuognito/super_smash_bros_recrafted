@@ -1,32 +1,12 @@
 {
 	"values": [
-		"#minecraft:banners",
-		"#minecraft:buttons",
-		"#minecraft:crops",
+		"#ssbrc:passthrough_charge_water",
 		"#minecraft:fence_gates",
 		"#minecraft:fences",
-		"#minecraft:flowers",
-		"#minecraft:signs",
-		"#minecraft:wall_signs",
-		"#minecraft:wool_carpets",
-		"minecraft:air",
+		"minecraft:bamboo",
 		"minecraft:barrier",
-		"minecraft:grass",
 		"minecraft:iron_bars",
 		"minecraft:ladder",
-		"minecraft:lava",
-		"minecraft:light",
-		"minecraft:player_head",
-		"minecraft:player_wall_head",
-		"minecraft:redstone_torch",
-		"minecraft:sea_pickle",
-		"minecraft:seagrass",
-		"minecraft:soul_torch",
-		"minecraft:snow",
-		"minecraft:structure_void",
-		"minecraft:tall_grass",
-		"minecraft:tall_seagrass",
-		"minecraft:torch",
-		"minecraft:water"
+		"minecraft:lava"
 	]
 }

@@ -1,6 +1,6 @@
 scoreboard players set @s characterPicked 1
-scoreboard players set max random 2
-function ssbrc:math/rng/lcg
 
-execute if score result random matches 0 run tag @s add female
-execute if score result random matches 1 run tag @s add male
+execute store result score random.output temp run random value 1..2
+
+execute if score random.output temp matches 1 run tag @s add female
+execute if score random.output temp matches 2 run tag @s add male

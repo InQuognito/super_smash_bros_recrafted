@@ -1,4 +1,4 @@
-tellraw @a[tag=room.characterSelect] [{"translate":"ssbrc.options.teamsTitle","color":"yellow"},{"translate":"ssbrc.options.off","color":"blue"}]
+tellraw @a[tag=room.characterSelect] [{"translate":"ssbrc.options.teams.title","color":"yellow"},{"translate":"ssbrc.options.off","color":"blue"}]
 
 scoreboard players set teams options 0
 

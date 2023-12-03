@@ -7,6 +7,9 @@ execute if score @s shopCalculator matches 1.. run function ssbrc:shop/pages/ski
 execute store result score @s shopCalculator run clear @s #ssbrc:ui/buttons{ui:{id:"navigation.skins.luigi"}}
 execute if score @s shopCalculator matches 1.. run function ssbrc:shop/pages/skins/luigi/load
 
+execute store result score @s shopCalculator run clear @s #ssbrc:ui/buttons{ui:{id:"navigation.skins.peach"}}
+execute if score @s shopCalculator matches 1.. run function ssbrc:shop/pages/skins/peach/load
+
 execute store result score @s shopCalculator run clear @s #ssbrc:ui/buttons{ui:{id:"navigation.skins.bowser"}}
 execute if score @s shopCalculator matches 1.. run function ssbrc:shop/pages/skins/bowser/load
 
@@ -28,6 +31,9 @@ execute if score @s shopCalculator matches 1.. run function ssbrc:shop/pages/ski
 execute store result score @s shopCalculator run clear @s #ssbrc:ui/buttons{ui:{id:"navigation.skins.wolf"}}
 execute if score @s shopCalculator matches 1.. run function ssbrc:shop/pages/skins/wolf/load
 
+execute store result score @s shopCalculator run clear @s #ssbrc:ui/buttons{ui:{id:"navigation.skins.pikachu"}}
+execute if score @s shopCalculator matches 1.. run function ssbrc:shop/pages/skins/pikachu/load
+
 execute store result score @s shopCalculator run clear @s #ssbrc:ui/buttons{ui:{id:"navigation.skins.pokemon_trainer"}}
 execute if score @s shopCalculator matches 1.. run function ssbrc:shop/pages/skins/pokemon_trainer/load
 
@@ -39,12 +45,6 @@ execute if score @s shopCalculator matches 1.. run function ssbrc:shop/pages/ski
 
 execute store result score @s shopCalculator run clear @s #ssbrc:ui/buttons{ui:{id:"navigation.skins.byleth"}}
 execute if score @s shopCalculator matches 1.. run function ssbrc:shop/pages/skins/byleth/load
-
-execute store result score @s shopCalculator run clear @s #ssbrc:ui/buttons{ui:{id:"navigation.skins.snake"}}
-execute if score @s shopCalculator matches 1.. run function ssbrc:shop/pages/skins/snake/load
-
-execute store result score @s shopCalculator run clear @s #ssbrc:ui/buttons{ui:{id:"navigation.skins.sonic"}}
-execute if score @s shopCalculator matches 1.. run function ssbrc:shop/pages/skins/sonic/load
 
 execute store result score @s shopCalculator run clear @s #ssbrc:ui/buttons{ui:{id:"navigation.skins.2"}}
 execute if score @s shopCalculator matches 1.. run function ssbrc:shop/pages/skins/2/load

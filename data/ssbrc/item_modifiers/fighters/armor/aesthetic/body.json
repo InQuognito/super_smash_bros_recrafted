@@ -612,6 +612,19 @@
 	},
 	{
 		"function": "minecraft:set_nbt",
+		"tag": "{Trim:{pattern:\"ssbrc:fighters/joker/christmas_outfit\",material:\"minecraft:quartz\"}}",
+		"conditions": [
+			{
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"nbt": "{Tags:[\"joker\",\"christmasOutfit\"]}"
+				}
+			}
+		]
+	},
+	{
+		"function": "minecraft:set_nbt",
 		"tag": "{Trim:{pattern:\"ssbrc:fighters/joker/shujin_academy\",material:\"minecraft:quartz\"}}",
 		"conditions": [
 			{
@@ -703,7 +716,7 @@
 	},
 	{
 		"function": "minecraft:set_nbt",
-		"tag": "{Trim:{pattern:\"ssbrc:fighters/link/dark\",material:\"minecraft:quartz\"}}",
+		"tag": "{Trim:{pattern:\"ssbrc:fighters/link/dark_link\",material:\"minecraft:quartz\"}}",
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -794,6 +807,19 @@
 	},
 	{
 		"function": "minecraft:set_nbt",
+		"tag": "{Trim:{pattern:\"ssbrc:fighters/luigi/penguin\",material:\"minecraft:quartz\"}}",
+		"conditions": [
+			{
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"nbt": "{Tags:[\"luigi\",\"penguin\"]}"
+				}
+			}
+		]
+	},
+	{
+		"function": "minecraft:set_nbt",
 		"tag": "{Trim:{pattern:\"ssbrc:fighters/mario/default\",material:\"minecraft:quartz\"}}",
 		"conditions": [
 			{
@@ -827,6 +853,19 @@
 				"entity": "this",
 				"predicate": {
 					"nbt": "{Tags:[\"mario\",\"flowerPower\"]}"
+				}
+			}
+		]
+	},
+	{
+		"function": "minecraft:set_nbt",
+		"tag": "{Trim:{pattern:\"ssbrc:fighters/mario/penguin\",material:\"minecraft:quartz\"}}",
+		"conditions": [
+			{
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"nbt": "{Tags:[\"mario\",\"penguin\"]}"
 				}
 			}
 		]
@@ -924,52 +963,52 @@
 	},
 	{
 		"function": "minecraft:set_nbt",
-		"tag": "{Trim:{pattern:\"ssbrc:fighters/princess_peach/default\",material:\"minecraft:quartz\"}}",
+		"tag": "{Trim:{pattern:\"ssbrc:fighters/peach/default\",material:\"minecraft:quartz\"}}",
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
 				"entity": "this",
 				"predicate": {
-					"nbt": "{Tags:[\"princess_peach\",\"default\"]}"
+					"nbt": "{Tags:[\"peach\",\"default\"]}"
 				}
 			}
 		]
 	},
 	{
 		"function": "minecraft:set_nbt",
-		"tag": "{Trim:{pattern:\"ssbrc:fighters/princess_peach/gold\",material:\"minecraft:quartz\"}}",
+		"tag": "{Trim:{pattern:\"ssbrc:fighters/peach/gold\",material:\"minecraft:quartz\"}}",
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
 				"entity": "this",
 				"predicate": {
-					"nbt": "{Tags:[\"princess_peach\",\"gold\"]}"
+					"nbt": "{Tags:[\"peach\",\"gold\"]}"
 				}
 			}
 		]
 	},
 	{
 		"function": "minecraft:set_nbt",
-		"tag": "{Trim:{pattern:\"ssbrc:fighters/princess_peach/flower_power\",material:\"minecraft:quartz\"}}",
+		"tag": "{Trim:{pattern:\"ssbrc:fighters/peach/flower_power\",material:\"minecraft:quartz\"}}",
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
 				"entity": "this",
 				"predicate": {
-					"nbt": "{Tags:[\"princess_peach\",\"flowerPower\"]}"
+					"nbt": "{Tags:[\"peach\",\"flowerPower\"]}"
 				}
 			}
 		]
 	},
 	{
 		"function": "minecraft:set_nbt",
-		"tag": "{Trim:{pattern:\"ssbrc:fighters/princess_peach/shadow_queen\",material:\"minecraft:quartz\"}}",
+		"tag": "{Trim:{pattern:\"ssbrc:fighters/peach/shadow_queen\",material:\"minecraft:quartz\"}}",
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
 				"entity": "this",
 				"predicate": {
-					"nbt": "{Tags:[\"princess_peach\",\"shadowQueen\"]}"
+					"nbt": "{Tags:[\"peach\",\"shadowQueen\"]}"
 				}
 			}
 		]
@@ -979,11 +1018,35 @@
 		"tag": "{Trim:{pattern:\"ssbrc:fighters/pikachu/default\",material:\"minecraft:quartz\"}}",
 		"conditions": [
 			{
-				"condition": "minecraft:entity_properties",
-				"entity": "this",
-				"predicate": {
-					"nbt": "{Tags:[\"pikachu\",\"default\"]}"
-				}
+				"condition": "minecraft:all_of",
+				"terms": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"nbt": "{Tags:[\"pikachu\"]}"
+						}
+					},
+					{
+						"condition": "minecraft:any_of",
+						"terms": [
+							{
+								"condition": "minecraft:entity_properties",
+								"entity": "this",
+								"predicate": {
+									"nbt": "{Tags:[\"default\"]}"
+								}
+							},
+							{
+								"condition": "minecraft:entity_properties",
+								"entity": "this",
+								"predicate": {
+									"nbt": "{Tags:[\"santaHat\"]}"
+								}
+							}
+						]
+					}
+				]
 			}
 		]
 	},
@@ -1884,7 +1947,6 @@
 			}
 		]
 	},
-
 	{
 		"function": "minecraft:set_nbt",
 		"tag": "{Trim:{pattern:\"ssbrc:fighters/altered_beast/default/human\",material:\"minecraft:quartz\"}}",

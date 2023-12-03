@@ -4,5 +4,5 @@ execute at @s anchored eyes positioned ^ ^-0.75 ^1 run function ssbrc:fighters/d
 
 attribute @s minecraft:generic.movement_speed modifier add 19192183-0000-0000-0001-000001000000 "phazonOverload" -0.6 multiply_base
 
-damage @s 1.0 minecraft:magic
+damage @s 2.0 minecraft:magic
 effect give @s minecraft:poison 1 0 true

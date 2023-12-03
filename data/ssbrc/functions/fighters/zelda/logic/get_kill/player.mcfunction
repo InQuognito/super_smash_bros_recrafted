@@ -1,12 +1,6 @@
-scoreboard players set max random 13
-function ssbrc:math/rng/lcg
+execute store result score #rupeeGain temp run random value 8..12
 
-scoreboard players operation #rupeeGain temp = result random
-execute if score result random matches ..6 run scoreboard players operation #rupeeGain temp += 8 integers
-execute if entity @s[tag=rupeeMaster] run scoreboard players operation #rupeeGain temp *= 2 integers
-
-scoreboard players operation @s charge.1 += #rupeeGain temp
-execute if score @s charge.1 > #zelda.maxRupees vars run scoreboard players operation @s charge.1 = #zelda.maxRupees vars
+function ssbrc:fighters/zelda/logic/add_rupees
 
 loot replace entity @s[nbt={Inventory:[{tag:{dagger:1,obsidian:2}}]}] hotbar.0 loot ssbrc:fighters/zelda/weapons/dagger/obsidian/3
 loot replace entity @s[nbt={Inventory:[{tag:{dagger:1,obsidian:1}}]}] hotbar.0 loot ssbrc:fighters/zelda/weapons/dagger/obsidian/2

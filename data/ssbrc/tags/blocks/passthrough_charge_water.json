@@ -1,21 +1,6 @@
 {
 	"values": [
-		"#minecraft:banners",
-		"#minecraft:buttons",
-		"#minecraft:crops",
-		"#minecraft:flowers",
-		"#minecraft:signs",
-		"#minecraft:wall_signs",
-		"#minecraft:wool_carpets",
-		"minecraft:air",
-		"minecraft:grass",
-		"minecraft:light",
-		"minecraft:sea_pickle",
-		"minecraft:seagrass",
-		"minecraft:snow",
-		"minecraft:structure_void",
-		"minecraft:tall_grass",
-		"minecraft:tall_seagrass",
+		"#ssbrc:passthrough_charge",
 		"minecraft:water"
 	]
 }

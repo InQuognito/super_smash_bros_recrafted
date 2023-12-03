@@ -1,23 +1,16 @@
-loot give @s[tag=!gold,tag=psg1] loot ssbrc:fighters/snake/psg1/default
-loot give @s[tag=gold,tag=psg1] loot ssbrc:fighters/snake/psg1/gold
+loot give @s[tag=psg1] loot ssbrc:fighters/snake/psg1
 
-loot give @s[tag=!gold,tag=famas] loot ssbrc:fighters/snake/famas/default
-loot give @s[tag=gold,tag=famas] loot ssbrc:fighters/snake/famas/gold
+loot give @s[tag=famas] loot ssbrc:fighters/snake/famas
 
-loot give @s[tag=!gold,tag=s1000] loot ssbrc:fighters/snake/s1000/default
-loot give @s[tag=gold,tag=s1000] loot ssbrc:fighters/snake/s1000/gold
+loot give @s[tag=s1000] loot ssbrc:fighters/snake/s1000
 
-loot give @s[tag=!gold,tag=socom] loot ssbrc:fighters/snake/socom/default
-loot give @s[tag=gold,tag=socom] loot ssbrc:fighters/snake/socom/gold
+loot give @s[tag=socom] loot ssbrc:fighters/snake/socom
 
-loot give @s[tag=!gold] loot ssbrc:fighters/snake/cqc_knife/default
-loot give @s[tag=gold] loot ssbrc:fighters/snake/cqc_knife/gold
+loot give @s loot ssbrc:fighters/snake/cqc_knife
 
-loot give @s[tag=!gold,tag=antiPersonnelMine] loot ssbrc:fighters/snake/anti_personnel_mine/default/inactive
-loot give @s[tag=gold,tag=antiPersonnelMine] loot ssbrc:fighters/snake/anti_personnel_mine/gold/inactive
+loot give @s[tag=antiPersonnelMine] loot ssbrc:fighters/snake/anti_personnel_mine
 
-loot give @s[tag=!gold,tag=smokeGrenade] loot ssbrc:fighters/snake/smoke_grenade/default
-loot give @s[tag=gold,tag=smokeGrenade] loot ssbrc:fighters/snake/smoke_grenade/gold
+loot give @s[tag=smokeGrenade] loot ssbrc:fighters/snake/smoke_grenade
 
 loot replace entity @s hotbar.8 loot ssbrc:fighters/snake/status/undetected
 

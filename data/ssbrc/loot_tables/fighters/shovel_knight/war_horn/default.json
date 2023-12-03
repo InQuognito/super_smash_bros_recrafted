@@ -13,30 +13,29 @@
 							"entity": "this",
 							"name": {
 								"translate": "ssbrc.tooltips.shovel_knight.warHorn",
-								"color": "dark_gray",
+								"color": "blue",
 								"bold": true,
 								"italic": false
 							}
+						},
+						{
+							"function": "minecraft:set_instrument",
+							"options": "#minecraft:goat_horns"
+						},
+						{
+							"function": "minecraft:reference",
+							"name": "ssbrc:fighters/init/tooltip/ability/offensive"
+						},
+						{
+							"function": "minecraft:reference",
+							"name": "ssbrc:fighters/init/unbreakable/smooth"
 						},
 						{
 							"function": "minecraft:set_lore",
 							"entity": "this",
 							"lore": [
 								{
-									"translate": "---------",
-									"color": "gray",
-									"bold": false,
-									"italic": false
-								},
-								{
-									"translate": "ssbrc.tooltips.weapon.offensive",
-									"color": "white",
-									"bold": false,
-									"italic": false,
-									"underlined": true
-								},
-								{
-									"translate": "- [",
+									"text": "- [",
 									"color": "gray",
 									"bold": false,
 									"italic": false,
@@ -56,34 +55,11 @@
 									]
 								}
 							],
-							"replace": true
-						},
-						{
-							"function": "minecraft:set_attributes",
-							"modifiers": [
-								{
-									"attribute": "minecraft:generic.attack_damage",
-									"name": "Attack Damage",
-									"amount": 0,
-									"operation": "multiply_base",
-									"slot": "mainhand"
-								},
-								{
-									"attribute": "minecraft:generic.attack_speed",
-									"name": "Attack Speed",
-									"amount": 1024,
-									"operation": "multiply_base",
-									"slot": "mainhand"
-								}
-							]
-						},
-						{
-							"function": "minecraft:set_instrument",
-							"options": "#minecraft:goat_horns"
+							"replace": false
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{warHorn:1,CustomModelData:1920,Unbreakable:1b,HideFlags:255}"
+							"tag": "{warHorn:1,disabled:0,CustomModelData:1920}"
 						}
 					]
 				}

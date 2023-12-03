@@ -9,8 +9,10 @@ tellraw @s[tag=dawn] [{"translate":"ssbrc.fighters.pokemon_trainer.iChooseYou.pr
 tellraw @s[tag=victor] [{"translate":"ssbrc.fighters.pokemon_trainer.iChooseYou.prefix","color":"green"},{"translate":"ssbrc.fighters.pokemon_trainer.ivysaur.victor","color":"green"},{"translate":"ssbrc.fighters.pokemon_trainer.iChooseYou","color":"green"}]
 
 clear @s #ssbrc:equipment
+
 loot replace entity @s hotbar.0 loot ssbrc:fighters/pokemon_trainer/ivysaur/knock_off
-loot replace entity @s hotbar.1 loot ssbrc:fighters/pokemon_trainer/ivysaur/leech_seed/default
+
+loot replace entity @s hotbar.1 loot ssbrc:fighters/pokemon_trainer/ivysaur/leech_seed
 
 scoreboard players set @s charge.1 6
 

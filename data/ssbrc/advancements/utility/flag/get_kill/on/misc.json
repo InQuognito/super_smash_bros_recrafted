@@ -6,6 +6,18 @@
 			"conditions": {
 				"entity": [
 					{
+						"condition": "minecraft:value_check",
+						"value": {
+							"type": "minecraft:score",
+							"target": {
+								"type": "minecraft:fixed",
+								"name": "gameStage"
+							},
+							"score": "temp"
+						},
+						"range": 4
+					},
+					{
 						"condition": "minecraft:entity_properties",
 						"entity": "this",
 						"predicate": {
@@ -17,6 +29,6 @@
 		}
 	},
 	"rewards": {
-		"function": "ssbrc:logic/fighters/flags/get_kill/on/non_player"
+		"function": "ssbrc:logic/fighters/flags/get_kill/on/misc"
 	}
 }

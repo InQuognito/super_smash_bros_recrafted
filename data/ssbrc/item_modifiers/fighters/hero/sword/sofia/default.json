@@ -1,0 +1,29 @@
+[
+	{
+		"function": "minecraft:set_name",
+		"entity": "this",
+		"name": {
+			"translate": "ssbrc.tooltips.hero.zenithianSword",
+			"color": "yellow",
+			"bold": true,
+			"italic": false
+		}
+	},
+	{
+		"function": "minecraft:set_nbt",
+		"tag": "{CustomModelData:442}"
+	},
+	{
+		"function": "minecraft:reference",
+		"name": "ssbrc:fighters/hero/sword/sofia/disabled",
+		"conditions": [
+			{
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"nbt": "{Tags:[\"kaclang\"]}"
+				}
+			}
+		]
+	}
+]

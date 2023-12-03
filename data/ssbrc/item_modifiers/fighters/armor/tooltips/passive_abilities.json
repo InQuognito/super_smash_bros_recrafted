@@ -10,17 +10,8 @@
 		}
 	},
 	{
-		"function": "minecraft:set_lore",
-		"entity": "this",
-		"lore": [
-			{
-				"translate": "================",
-				"color": "white",
-				"bold": false,
-				"italic": false
-			}
-		],
-		"replace": true
+		"function": "minecraft:reference",
+		"name": "ssbrc:fighters/init/tooltip/separator"
 	},
 	{
 		"function": "minecraft:set_lore",
@@ -126,7 +117,7 @@
 				"italic": false
 			},
 			{
-				"translate": "+ ",
+				"text": "+ ",
 				"color": "green",
 				"bold": true,
 				"italic": false,
@@ -140,7 +131,7 @@
 				]
 			},
 			{
-				"translate": "+ ",
+				"text": "+ ",
 				"color": "green",
 				"bold": true,
 				"italic": false,
@@ -154,7 +145,7 @@
 				]
 			},
 			{
-				"translate": "- ",
+				"text": "- ",
 				"color": "red",
 				"bold": true,
 				"italic": false,

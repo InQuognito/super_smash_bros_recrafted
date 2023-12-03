@@ -4,6 +4,9 @@ particle minecraft:campfire_cosy_smoke ~ ~0.25 ~ 0.1 0.1 0.1 0.0 5 normal @a
 particle minecraft:dust_color_transition 1.0 0.0 0.0 0.75 1.0 1.0 1.0 ~ ~1.5 ~ 0.1 0.4 0.1 0.01 50 normal @a
 particle minecraft:dust_color_transition 1.0 1.0 0.0 0.75 1.0 1.0 1.0 ~ ~1.5 ~ 0.05 0.3 0.05 0.01 25 normal @a
 
-execute if block ~ ~-0.1 ~ #ssbrc:passthrough run teleport @s ~ ~-0.1 ~
+execute positioned ~ ~-0.1 ~ if block ~ ~ ~ #ssbrc:passthrough run teleport @s ~ ~ ~
 
-tag @e[predicate=ssbrc:flag/targets,distance=..1.5] add damage.pkFire
+execute as @e[predicate=ssbrc:flag/targets,nbt=!{Inventory:[{tag:{goronLocket:1}}]},distance=..1.5] run function ssbrc:fighters/ness/logic/abilities/pk_fire/hit
+
+scoreboard players add @s temp 1
+kill @s[scores={temp=40..}]

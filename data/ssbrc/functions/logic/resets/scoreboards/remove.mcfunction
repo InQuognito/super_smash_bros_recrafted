@@ -2,6 +2,7 @@ scoreboard objectives remove animation
 scoreboard objectives remove armorBreak
 scoreboard objectives remove bowser.fireBreath
 scoreboard objectives remove bowser.fireBreath.target
+scoreboard objectives remove burning
 scoreboard objectives remove characterTrigger
 scoreboard objectives remove characterPicked
 scoreboard objectives remove charge.1
@@ -16,8 +17,6 @@ scoreboard objectives remove cooldown.1
 scoreboard objectives remove cooldown.2
 scoreboard objectives remove cooldown.3
 scoreboard objectives remove stats.credits.temp
-scoreboard objectives remove damage
-scoreboard objectives remove damage.fireBreath
 scoreboard objectives remove debug
 scoreboard objectives remove dropItem
 scoreboard objectives remove durability
@@ -25,6 +24,7 @@ scoreboard objectives remove duration.1
 scoreboard objectives remove duration.2
 scoreboard objectives remove duration.3
 scoreboard objectives remove duration.4
+#scoreboard objectives remove event
 scoreboard objectives remove fallDistance
 scoreboard objectives remove favorite.temp
 scoreboard objectives remove fiendsCauldron
@@ -111,6 +111,7 @@ scoreboard objectives remove snake.psg1A
 scoreboard objectives remove snake.psg1M
 scoreboard objectives remove snake.psg1R
 scoreboard objectives remove snake.s1000A
+scoreboard objectives remove snake.s1000F
 scoreboard objectives remove snake.s1000M
 scoreboard objectives remove snake.s1000R
 scoreboard objectives remove snake.socomA
@@ -121,11 +122,11 @@ scoreboard objectives remove snake.smokeGrenadeA
 scoreboard objectives remove sprintDistance
 scoreboard objectives remove stageIndex
 scoreboard objectives remove stageIndexCalculator
-scoreboard objectives remove stamina
 scoreboard objectives remove status.petrified
 scoreboard objectives remove steve.tier
 scoreboard objectives remove stocks
 scoreboard objectives remove suicides
+scoreboard objectives remove team
 scoreboard objectives remove teamAmount
 scoreboard objectives remove timer
 scoreboard objectives remove timer.barrelCannon
@@ -143,6 +144,10 @@ scoreboard objectives remove useItem
 scoreboard objectives remove vars
 scoreboard objectives remove walkDistance
 scoreboard objectives remove yar.droneHealth
+scoreboard objectives remove zelda.enchantArmor
+scoreboard objectives remove zelda.halfMagic
+scoreboard objectives remove zelda.shatterResist
+scoreboard objectives remove zelda.specialBond
 
 # Bonuses
 scoreboard objectives remove 765o

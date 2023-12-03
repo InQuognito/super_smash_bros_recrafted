@@ -10,12 +10,12 @@ function ssbrc:fighters/zelda/kit/items/dungeon_item
 function ssbrc:fighters/zelda/kit/items/passive_item
 
 scoreboard players set @s charge.2 0
-function ssbrc:fighters/zelda/logic/abilities/great_fairy_blessing/update
+function ssbrc:fighters/zelda/logic/abilities/great_fairy_blessing/calculate
+loot replace entity @s hotbar.4 loot ssbrc:fighters/zelda/great_fairy_blessing
 
-execute unless entity @s[nbt={Inventory:[{tag:{ringOfCharisma:1}}]}] run loot replace entity @s hotbar.5 loot ssbrc:fighters/zelda/inventory_refresh/full_price
-execute if entity @s[nbt={Inventory:[{tag:{ringOfCharisma:1}}]}] run loot replace entity @s hotbar.5 loot ssbrc:fighters/zelda/inventory_refresh/half_price
+loot replace entity @s hotbar.5 loot ssbrc:fighters/zelda/inventory_refresh
 
-function ssbrc:fighters/zelda/logic/apply_passives
+function ssbrc:fighters/zelda/logic/passive_items/apply
 
 scoreboard players operation @s mana = #zelda.maxMagic vars
 

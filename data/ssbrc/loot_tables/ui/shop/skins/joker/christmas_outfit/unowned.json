@@ -1,0 +1,46 @@
+{
+	"type": "minecraft:command",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:barrier",
+					"functions": [
+						{
+							"function": "minecraft:set_name",
+							"entity": "this",
+							"name": {
+								"translate": "ssbrc.fighters.joker.skin.christmasOutfit",
+								"color": "red",
+								"bold": true,
+								"italic": false
+							}
+						},
+						{
+							"function": "minecraft:reference",
+							"name": "ssbrc:ui/shop/collection/winter"
+						},
+						{
+							"function": "minecraft:reference",
+							"name": "ssbrc:ui/separator"
+						},
+						{
+							"function": "minecraft:reference",
+							"name": "ssbrc:ui/shop/price/skin"
+						},
+						{
+							"function": "minecraft:reference",
+							"name": "ssbrc:ui/shop/unowned"
+						},
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{ui:{id:\"skins.joker.christmasOutfit\",sound:\"click\"},CustomModelData:606}"
+						}
+					]
+				}
+			]
+		}
+	]
+}

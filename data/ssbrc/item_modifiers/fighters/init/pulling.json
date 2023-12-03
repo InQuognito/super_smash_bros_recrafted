@@ -1,0 +1,10 @@
+[
+	{
+		"function": "minecraft:reference",
+		"name": "ssbrc:fighters/init/unbreakable/instant"
+	},
+	{
+		"function": "minecraft:set_nbt",
+		"tag": "{pulling:1}"
+	}
+]

@@ -38,11 +38,6 @@ execute if entity @s[nbt={Inventory:[{tag:{default:1},Slot:33b}]}] run loot repl
 execute if entity @s[nbt={Inventory:[{tag:{default:1},Slot:34b}]}] run loot replace entity @s inventory.25 loot ssbrc:fighters/zelda/dungeon_items/bow/default/idle
 execute if entity @s[nbt={Inventory:[{tag:{default:1},Slot:35b}]}] run loot replace entity @s inventory.26 loot ssbrc:fighters/zelda/dungeon_items/bow/default/idle
 
-execute if entity @s[nbt={Inventory:[{tag:{default:1},Slot:80b}]}] run loot give @s loot ssbrc:fighters/zelda/dungeon_items/bow/default/idle
-execute if entity @s[nbt={Inventory:[{tag:{default:1},Slot:81b}]}] run loot give @s loot ssbrc:fighters/zelda/dungeon_items/bow/default/idle
-execute if entity @s[nbt={Inventory:[{tag:{default:1},Slot:82b}]}] run loot give @s loot ssbrc:fighters/zelda/dungeon_items/bow/default/idle
-execute if entity @s[nbt={Inventory:[{tag:{default:1},Slot:83b}]}] run loot give @s loot ssbrc:fighters/zelda/dungeon_items/bow/default/idle
-
 execute if entity @s[nbt={Inventory:[{tag:{default:1},Slot:-106b}]}] run loot replace entity @s weapon.offhand loot ssbrc:fighters/zelda/dungeon_items/bow/default/idle
 
 execute if entity @s[nbt={Inventory:[{tag:{fire:1},Slot:0b}]}] run loot replace entity @s hotbar.0 loot ssbrc:fighters/zelda/dungeon_items/bow/fire/idle
@@ -83,11 +78,6 @@ execute if entity @s[nbt={Inventory:[{tag:{fire:1},Slot:33b}]}] run loot replace
 execute if entity @s[nbt={Inventory:[{tag:{fire:1},Slot:34b}]}] run loot replace entity @s inventory.25 loot ssbrc:fighters/zelda/dungeon_items/bow/fire/idle
 execute if entity @s[nbt={Inventory:[{tag:{fire:1},Slot:35b}]}] run loot replace entity @s inventory.26 loot ssbrc:fighters/zelda/dungeon_items/bow/fire/idle
 
-execute if entity @s[nbt={Inventory:[{tag:{fire:1},Slot:80b}]}] run loot give @s loot ssbrc:fighters/zelda/dungeon_items/bow/fire/idle
-execute if entity @s[nbt={Inventory:[{tag:{fire:1},Slot:81b}]}] run loot give @s loot ssbrc:fighters/zelda/dungeon_items/bow/fire/idle
-execute if entity @s[nbt={Inventory:[{tag:{fire:1},Slot:82b}]}] run loot give @s loot ssbrc:fighters/zelda/dungeon_items/bow/fire/idle
-execute if entity @s[nbt={Inventory:[{tag:{fire:1},Slot:83b}]}] run loot give @s loot ssbrc:fighters/zelda/dungeon_items/bow/fire/idle
-
 execute if entity @s[nbt={Inventory:[{tag:{fire:1},Slot:-106b}]}] run loot replace entity @s weapon.offhand loot ssbrc:fighters/zelda/dungeon_items/bow/fire/idle
 
 execute if entity @s[nbt={Inventory:[{tag:{poison:1},Slot:0b}]}] run loot replace entity @s hotbar.0 loot ssbrc:fighters/zelda/dungeon_items/bow/poison/idle
@@ -127,10 +117,5 @@ execute if entity @s[nbt={Inventory:[{tag:{poison:1},Slot:32b}]}] run loot repla
 execute if entity @s[nbt={Inventory:[{tag:{poison:1},Slot:33b}]}] run loot replace entity @s inventory.24 loot ssbrc:fighters/zelda/dungeon_items/bow/poison/idle
 execute if entity @s[nbt={Inventory:[{tag:{poison:1},Slot:34b}]}] run loot replace entity @s inventory.25 loot ssbrc:fighters/zelda/dungeon_items/bow/poison/idle
 execute if entity @s[nbt={Inventory:[{tag:{poison:1},Slot:35b}]}] run loot replace entity @s inventory.26 loot ssbrc:fighters/zelda/dungeon_items/bow/poison/idle
-
-execute if entity @s[nbt={Inventory:[{tag:{poison:1},Slot:80b}]}] run loot give @s loot ssbrc:fighters/zelda/dungeon_items/bow/poison/idle
-execute if entity @s[nbt={Inventory:[{tag:{poison:1},Slot:81b}]}] run loot give @s loot ssbrc:fighters/zelda/dungeon_items/bow/poison/idle
-execute if entity @s[nbt={Inventory:[{tag:{poison:1},Slot:82b}]}] run loot give @s loot ssbrc:fighters/zelda/dungeon_items/bow/poison/idle
-execute if entity @s[nbt={Inventory:[{tag:{poison:1},Slot:83b}]}] run loot give @s loot ssbrc:fighters/zelda/dungeon_items/bow/poison/idle
 
 execute if entity @s[nbt={Inventory:[{tag:{poison:1},Slot:-106b}]}] run loot replace entity @s weapon.offhand loot ssbrc:fighters/zelda/dungeon_items/bow/poison/idle

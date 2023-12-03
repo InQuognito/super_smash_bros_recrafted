@@ -1,2 +1,2 @@
-loot replace entity @s[tag=!gold] weapon.offhand loot ssbrc:fighters/alucard/alucard_shield/default
-loot replace entity @s[tag=gold] weapon.offhand loot ssbrc:fighters/alucard/alucard_shield/gold
+execute store result storage ssbrc:alucard_shield damage int 1.0 run scoreboard players get @s durability
+loot replace entity @s weapon.offhand loot ssbrc:fighters/alucard/alucard_shield

@@ -1,6 +1,6 @@
-execute if score @s menu matches -999 run function ssbrc:logic/resets/data/ask
-execute if score @s menu matches -998 if score @s reset matches 1 run function ssbrc:logic/resets/data/cancel
-execute if score @s menu matches -997 if score @s reset matches 1 run function ssbrc:logic/resets/data/confirm
+execute if score @s menu matches -999 run function ssbrc:logic/resets/player_data/ask
+execute if score @s menu matches -998 if score @s reset matches 1 run function ssbrc:logic/resets/player_data/cancel
+execute if score @s menu matches -997 if score @s reset matches 1 run function ssbrc:logic/resets/player_data/confirm
 
 execute if score @s[tag=rob] menu matches 5 run function ssbrc:fighters/rob/menu/skins/default
 execute if score @s[tag=rob] menu matches 6 run function ssbrc:fighters/rob/menu/skins/gold
@@ -64,7 +64,8 @@ execute if score @s[tag=jigglypuff] menu matches 586 run function ssbrc:fighters
 
 execute if score @s[tag=joker] menu matches 604 run function ssbrc:fighters/joker/menu/skins/default
 execute if score @s[tag=joker] menu matches 605 run function ssbrc:fighters/joker/menu/skins/gold
-execute if score @s[tag=joker] menu matches 606 run function ssbrc:fighters/joker/menu/skins/shujin_academy
+execute if score @s[tag=joker] menu matches 606 run function ssbrc:fighters/joker/menu/skins/christmas_outfit
+execute if score @s[tag=joker] menu matches 607 run function ssbrc:fighters/joker/menu/skins/shujin_academy
 
 execute if score @s[tag=king_k_rool] menu matches 684 run function ssbrc:fighters/king_k_rool/menu/skins/default
 execute if score @s[tag=king_k_rool] menu matches 685 run function ssbrc:fighters/king_k_rool/menu/skins/gold
@@ -82,10 +83,12 @@ execute if score @s[tag=luigi] menu matches 824 run function ssbrc:fighters/luig
 execute if score @s[tag=luigi] menu matches 825 run function ssbrc:fighters/luigi/menu/skins/gold
 execute if score @s[tag=luigi] menu matches 826 run function ssbrc:fighters/luigi/menu/skins/flower_power
 execute if score @s[tag=luigi] menu matches 827 run function ssbrc:fighters/luigi/menu/skins/gooigi
+execute if score @s[tag=luigi] menu matches 828 run function ssbrc:fighters/luigi/menu/skins/penguin
 
 execute if score @s[tag=mario] menu matches 844 run function ssbrc:fighters/mario/menu/skins/default
 execute if score @s[tag=mario] menu matches 845 run function ssbrc:fighters/mario/menu/skins/gold
 execute if score @s[tag=mario] menu matches 846 run function ssbrc:fighters/mario/menu/skins/flower_power
+execute if score @s[tag=mario] menu matches 847 run function ssbrc:fighters/mario/menu/skins/penguin
 
 execute if score @s[tag=mega_man] menu matches 884 run function ssbrc:fighters/mega_man/menu/skins/default
 execute if score @s[tag=mega_man] menu matches 885 run function ssbrc:fighters/mega_man/menu/skins/gold
@@ -96,9 +99,15 @@ execute if score @s[tag=ness] menu matches 1086 run function ssbrc:fighters/ness
 execute if score @s[tag=ness] menu matches 1087 run function ssbrc:fighters/ness/menu/skins/pajamas
 execute if score @s[tag=ness] menu matches 1088 run function ssbrc:fighters/ness/menu/skins/phase_distortion
 
+execute if score @s[tag=peach] menu matches 1164 run function ssbrc:fighters/peach/menu/skins/default
+execute if score @s[tag=peach] menu matches 1165 run function ssbrc:fighters/peach/menu/skins/gold
+execute if score @s[tag=peach] menu matches 1166 run function ssbrc:fighters/peach/menu/skins/flower_power
+execute if score @s[tag=peach] menu matches 1167 run function ssbrc:fighters/peach/menu/skins/shadow_queen
+
 execute if score @s[tag=pikachu] menu matches 1204 run function ssbrc:fighters/pikachu/menu/skins/default
 execute if score @s[tag=pikachu] menu matches 1205 run function ssbrc:fighters/pikachu/menu/skins/gold
 execute if score @s[tag=pikachu] menu matches 1206 run function ssbrc:fighters/pikachu/menu/skins/shiny
+execute if score @s[tag=pikachu] menu matches 1207 run function ssbrc:fighters/pikachu/menu/skins/santa_hat
 
 execute if score @s[tag=pit] menu matches 1224 run function ssbrc:fighters/pit/menu/skins/default
 execute if score @s[tag=pit] menu matches 1225 run function ssbrc:fighters/pit/menu/skins/gold
@@ -108,11 +117,6 @@ execute if score @s[tag=pokemon_trainer] menu matches 1265 run function ssbrc:fi
 execute if score @s[tag=pokemon_trainer] menu matches 1266 run function ssbrc:fighters/pokemon_trainer/menu/skins/shiny
 execute if score @s[tag=pokemon_trainer] menu matches 1267 run function ssbrc:fighters/pokemon_trainer/menu/skins/dawn
 execute if score @s[tag=pokemon_trainer] menu matches 1268 run function ssbrc:fighters/pokemon_trainer/menu/skins/victor
-
-execute if score @s[tag=princess_peach] menu matches 1164 run function ssbrc:fighters/princess_peach/menu/skins/default
-execute if score @s[tag=princess_peach] menu matches 1165 run function ssbrc:fighters/princess_peach/menu/skins/gold
-execute if score @s[tag=princess_peach] menu matches 1166 run function ssbrc:fighters/princess_peach/menu/skins/flower_power
-execute if score @s[tag=princess_peach] menu matches 1167 run function ssbrc:fighters/princess_peach/menu/skins/shadow_queen
 
 execute if score @s[tag=ryu] menu matches 1404 run function ssbrc:fighters/ryu/menu/skins/default
 execute if score @s[tag=ryu] menu matches 1405 run function ssbrc:fighters/ryu/menu/skins/gold

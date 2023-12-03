@@ -4,6 +4,20 @@
 		"requirement": {
 			"trigger": "minecraft:entity_hurt_player",
 			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:value_check",
+						"value": {
+							"type": "minecraft:score",
+							"target": {
+								"type": "minecraft:fixed",
+								"name": "gameStage"
+							},
+							"score": "temp"
+						},
+						"range": 4
+					}
+				],
 				"damage": {
 					"type": {
 						"direct_entity": {

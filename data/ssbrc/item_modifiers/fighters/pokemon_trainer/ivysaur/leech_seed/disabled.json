@@ -1,0 +1,16 @@
+[
+	{
+		"function": "minecraft:set_name",
+		"entity": "this",
+		"name": {
+			"translate": "ssbrc.tooltips.pokemon_trainer.ivysaur.leechSeed",
+			"color": "gray",
+			"bold": true,
+			"italic": false
+		}
+	},
+	{
+		"function": "minecraft:set_nbt",
+		"tag": "{CustomModelData:60009}"
+	}
+]

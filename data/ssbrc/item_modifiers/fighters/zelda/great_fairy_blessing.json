@@ -1,0 +1,92 @@
+[
+	{
+		"function": "minecraft:set_nbt",
+		"tag": "{CustomModelData:9045}",
+		"conditions": [
+			{
+				"condition": "minecraft:value_check",
+				"value": {
+					"type": "minecraft:score",
+					"target": {
+						"type": "minecraft:fixed",
+						"name": "#greatFairyBlessingCost"
+					},
+					"score": "temp"
+				},
+				"range": 5
+			}
+		]
+	},
+	{
+		"function": "minecraft:set_nbt",
+		"tag": "{CustomModelData:9046}",
+		"conditions": [
+			{
+				"condition": "minecraft:value_check",
+				"value": {
+					"type": "minecraft:score",
+					"target": {
+						"type": "minecraft:fixed",
+						"name": "#greatFairyBlessingCost"
+					},
+					"score": "temp"
+				},
+				"range": 10
+			}
+		]
+	},
+	{
+		"function": "minecraft:set_nbt",
+		"tag": "{CustomModelData:9047}",
+		"conditions": [
+			{
+				"condition": "minecraft:value_check",
+				"value": {
+					"type": "minecraft:score",
+					"target": {
+						"type": "minecraft:fixed",
+						"name": "#greatFairyBlessingCost"
+					},
+					"score": "temp"
+				},
+				"range": 15
+			}
+		]
+	},
+	{
+		"function": "minecraft:set_nbt",
+		"tag": "{CustomModelData:9048}",
+		"conditions": [
+			{
+				"condition": "minecraft:value_check",
+				"value": {
+					"type": "minecraft:score",
+					"target": {
+						"type": "minecraft:fixed",
+						"name": "#greatFairyBlessingCost"
+					},
+					"score": "temp"
+				},
+				"range": 20
+			}
+		]
+	},
+	{
+		"function": "minecraft:set_nbt",
+		"tag": "{CustomModelData:9049}",
+		"conditions": [
+			{
+				"condition": "minecraft:value_check",
+				"value": {
+					"type": "minecraft:score",
+					"target": {
+						"type": "minecraft:fixed",
+						"name": "#greatFairyBlessingCost"
+					},
+					"score": "temp"
+				},
+				"range": 25
+			}
+		]
+	}
+]

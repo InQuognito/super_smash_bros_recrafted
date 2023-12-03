@@ -19,47 +19,16 @@
 							}
 						},
 						{
-							"function": "minecraft:set_lore",
-							"entity": "this",
-							"lore": [
-								{
-									"translate": "ssbrc.shop.price",
-									"color": "yellow",
-									"bold": false,
-									"italic": false,
-									"extra": [
-										{
-											"score": {
-												"name": "#price.skin.common",
-												"objective": "vars"
-											},
-											"bold": false,
-											"italic": false
-										},
-										{
-											"translate": "₡",
-											"color": "yellow"
-										}
-									]
-								},
-								{
-									"translate": "",
-									"color": "white",
-									"bold": false,
-									"italic": false
-								},
-								{
-									"translate": "ssbrc.shop.cannotAfford",
-									"color": "red",
-									"bold": false,
-									"italic": false
-								}
-							],
-							"replace": true
+							"function": "minecraft:reference",
+							"name": "ssbrc:ui/shop/price/skin"
+						},
+						{
+							"function": "minecraft:reference",
+							"name": "ssbrc:ui/shop/cannot_afford"
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{UIPlaceHolder:1b,CustomModelData:1404}"
+							"tag": "{CustomModelData:1404}"
 						}
 					]
 				}

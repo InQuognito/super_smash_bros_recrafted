@@ -1,0 +1,40 @@
+{
+	"type": "minecraft:command",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:stone_sword",
+					"functions": [
+						{
+							"function": "minecraft:set_attributes",
+							"modifiers": [
+								{
+									"attribute": "minecraft:generic.attack_speed",
+									"name": "Attack Speed",
+									"amount": 3,
+									"operation": "multiply_base",
+									"slot": "mainhand"
+								}
+							]
+						},
+						{
+							"function": "minecraft:reference",
+							"name": "ssbrc:fighters/init/preset/melee"
+						},
+						{
+							"function": "minecraft:reference",
+							"name": "ssbrc:fighters/joker/rebel_knife"
+						},
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{rebelKnife:1}"
+						}
+					]
+				}
+			]
+		}
+	]
+}

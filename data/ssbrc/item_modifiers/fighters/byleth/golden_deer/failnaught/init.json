@@ -1,0 +1,39 @@
+[
+	{
+		"function": "minecraft:set_name",
+		"entity": "this",
+		"name": {
+			"translate": "ssbrc.tooltips.byleth.goldenDeer.failnaught",
+			"color": "white",
+			"bold": true,
+			"italic": false
+		}
+	},
+	{
+		"function": "minecraft:reference",
+		"name": "ssbrc:fighters/init/tooltip/ability/ranged"
+	},
+	{
+		"function": "minecraft:set_lore",
+		"entity": "this",
+		"lore": [
+			{
+				"translate": "ssbrc.tooltips.byleth.goldenDeer.failnaught.description.1",
+				"color": "gray",
+				"bold": false,
+				"italic": false
+			},
+			{
+				"translate": "ssbrc.tooltips.byleth.goldenDeer.failnaught.description.2",
+				"color": "gray",
+				"bold": false,
+				"italic": false
+			}
+		],
+		"replace": false
+	},
+	{
+		"function": "minecraft:set_nbt",
+		"tag": "{failnaught:1}"
+	}
+]

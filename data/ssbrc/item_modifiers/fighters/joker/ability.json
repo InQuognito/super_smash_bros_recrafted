@@ -1,0 +1,10 @@
+[
+	{
+		"function": "minecraft:reference",
+		"name": "ssbrc:fighters/init/animation/instant"
+	},
+	{
+		"function": "minecraft:set_nbt",
+		"tag": "{personaAwakening:1}"
+	}
+]

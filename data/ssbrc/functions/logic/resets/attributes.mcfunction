@@ -1,7 +1,7 @@
 function ssbrc:logic/fighters/attributes/modifiers/frostbite/remove
-function ssbrc:logic/fighters/natures/reset
-function ssbrc:maps/p/pac_maze/logic/fruit/galaxian_flagship/reset
-function ssbrc:maps/p/palutenas_temple/logic/fiends_cauldron/reset
+function ssbrc:logic/fighters/pokemon/natures/reset
+function ssbrc:stages/pac_maze/logic/fruit/galaxian_flagship/reset
+function ssbrc:stages/palutenas_temple/logic/fiends_cauldron/reset
 
 attribute @s minecraft:generic.attack_damage modifier remove 19192183-0000-0000-0001-000000000010
 attribute @s minecraft:generic.armor modifier remove 19192183-0000-0000-0002-000000000001

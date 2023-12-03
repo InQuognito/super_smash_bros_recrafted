@@ -1,0 +1,23 @@
+[
+	{
+		"function": "minecraft:reference",
+		"name": "ssbrc:fighters/zelda/weapons/enchanted"
+	},
+	{
+		"function": "minecraft:set_lore",
+		"entity": "this",
+		"lore": [
+			{
+				"translate": "ssbrc.tooltips.zelda.weapon.enchant.ruby.description.1",
+				"color": "gray",
+				"bold": false,
+				"italic": false
+			}
+		],
+		"replace": false
+	},
+	{
+		"function": "minecraft:set_nbt",
+		"tag": "{ruby:1}"
+	}
+]

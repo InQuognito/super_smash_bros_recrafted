@@ -4,7 +4,7 @@ execute if entity @s[tag=rainbow] run function ssbrc:fighters/jigglypuff/logic/a
 
 execute unless block ^ ^ ^0.1 #ssbrc:passthrough run kill @s
 
-function ssbrc:logic/fighters/natures/apply
+function ssbrc:logic/fighters/pokemon/natures/apply
 execute positioned ~-0.5 ~-0.5 ~-0.5 as @e[tag=!self,predicate=ssbrc:flag/targets,dx=0] positioned ~0.0 ~0.0 ~0.0 if entity @s[dx=0] run function ssbrc:fighters/jigglypuff/logic/abilities/hyper_voice/hit
 scoreboard players reset specialAttack temp
 

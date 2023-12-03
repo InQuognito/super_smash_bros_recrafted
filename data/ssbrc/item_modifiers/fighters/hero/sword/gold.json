@@ -1,0 +1,29 @@
+[
+	{
+		"function": "minecraft:set_name",
+		"entity": "this",
+		"name": {
+			"translate": "ssbrc.tooltips.hero.swordOfLight",
+			"color": "gold",
+			"bold": true,
+			"italic": false
+		}
+	},
+	{
+		"function": "minecraft:set_nbt",
+		"tag": "{CustomModelData:443}"
+	},
+	{
+		"function": "minecraft:reference",
+		"name": "ssbrc:fighters/hero/sword/default/disabled",
+		"conditions": [
+			{
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"nbt": "{Tags:[\"kaclang\"]}"
+				}
+			}
+		]
+	}
+]
