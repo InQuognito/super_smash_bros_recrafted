@@ -12,4 +12,4 @@ execute if score @s temp matches 9 run particle minecraft:block_marker minecraft
 execute if score @s temp matches 10 run particle minecraft:block_marker minecraft:oxidized_copper ~ ~ ~ 3.0 1.0 3.0 0.0 10 normal @a
 execute if score @s temp matches 11.. run function ssbrc:stages/miiverse/logic/posts/break
 
-kill @e[type=#ssbrc:projectiles,tag=!post,sort=nearest,limit=1]
+kill @e[type=#ssbrc:generics,tag=!post,sort=nearest,limit=1]
