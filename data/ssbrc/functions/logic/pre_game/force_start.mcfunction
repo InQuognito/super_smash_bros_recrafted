@@ -1,3 +1,5 @@
+execute if score debug options matches 1 run say start game
+
 execute as @a[tag=room.characterSelect] run function ssbrc:logic/pre_game/character_select/force_selection
 
 scoreboard players set $global id 0

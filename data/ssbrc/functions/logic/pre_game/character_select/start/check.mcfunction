@@ -1,3 +1,5 @@
+execute if score debug options matches 1 run say start check
+
 function ssbrc:logic/pre_game/character_select/count_players
 
 execute if score teams options matches 0 run function ssbrc:logic/pre_game/force_start
