@@ -11,15 +11,11 @@ scoreboard players set @s charge.3 0
 scoreboard players set @s duration.1 1
 scoreboard players set @s duration.2 1
 scoreboard players set @s duration.3 1
-<<<<<<< HEAD
-function ssbrc:logic/fighters/armor/get
-=======
 
 execute if entity @s[predicate=ssbrc:shiny_chance] run function ssbrc:logic/fighters/pokemon/shiny
 
 function ssbrc:logic/fighters/armor/get
 
->>>>>>> v2.3.1
 scoreboard players set @s duration.1 0
 scoreboard players set @s duration.2 0
 scoreboard players set @s duration.3 0
