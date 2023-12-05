@@ -43,12 +43,14 @@ execute if entity @s[tag=pikachu] run function ssbrc:fighters/pikachu/logic/tick
 execute if entity @s[tag=pit] run function ssbrc:fighters/pit/logic/tick
 execute if entity @s[tag=pokemon_trainer] run function ssbrc:fighters/pokemon_trainer/logic/tick
 execute if entity @s[tag=rob] run function ssbrc:fighters/rob/logic/tick
+execute if entity @s[tag=roy] run function ssbrc:fighters/roy/logic/tick
 execute if entity @s[tag=ryu] run function ssbrc:fighters/ryu/logic/tick
 execute if entity @s[tag=samus] run function ssbrc:fighters/samus/logic/tick
 execute if entity @s[tag=snake] run function ssbrc:fighters/snake/logic/tick
 execute if entity @s[tag=sonic] run function ssbrc:fighters/sonic/logic/tick
 execute if entity @s[tag=sora] run function ssbrc:fighters/sora/logic/tick
 execute if entity @s[tag=steve] run function ssbrc:fighters/steve/logic/tick
+execute if entity @s[tag=toon_link] run function ssbrc:fighters/toon_link/logic/tick
 execute if entity @s[tag=wolf] run function ssbrc:fighters/wolf/logic/tick
 execute if entity @s[tag=zelda] run function ssbrc:fighters/zelda/logic/tick
 
