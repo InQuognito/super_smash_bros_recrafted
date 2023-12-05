@@ -35,6 +35,7 @@ function ssbrc:logic/resets/tags/fighters/sonic
 function ssbrc:logic/resets/tags/fighters/sora
 function ssbrc:logic/resets/tags/fighters/steve
 function ssbrc:logic/resets/tags/fighters/team_rocket
+function ssbrc:logic/resets/tags/fighters/toon_link
 function ssbrc:logic/resets/tags/fighters/wolf
 function ssbrc:logic/resets/tags/fighters/yar
 function ssbrc:logic/resets/tags/fighters/zelda

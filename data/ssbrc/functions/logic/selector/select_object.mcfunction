@@ -108,11 +108,11 @@ execute if entity @s[advancements={ssbrc:fighters/sora/skins/default=false}] if 
 execute if entity @s[tag=!steve,advancements={ssbrc:fighters/steve/skins/default=true}] if entity @e[type=minecraft:item_display,tag=steve,dx=0,sort=nearest,limit=1] run function ssbrc:fighters/steve/menu/select_character
 execute if entity @s[advancements={ssbrc:fighters/steve/skins/default=false}] if entity @e[type=minecraft:item_display,tag=steve,dx=0,sort=nearest,limit=1] run function ssbrc:logic/selector/unowned
 
-execute if entity @s[tag=!toon_link,advancements={ssbrc:fighters/toon_link/skins/default=true}] if entity @e[type=minecraft:item_display,tag=toon_link,dx=0,sort=nearest,limit=1] run function ssbrc:fighters/toon_link/menu/select_character
-execute if entity @s[advancements={ssbrc:fighters/toon_link/skins/default=false}] if entity @e[type=minecraft:item_display,tag=toon_link,dx=0,sort=nearest,limit=1] run function ssbrc:logic/selector/unowned
-
 execute if entity @s[tag=!team_rocket,advancements={ssbrc:fighters/team_rocket/skins/default=true}] if entity @e[type=minecraft:item_display,tag=team_rocket,dx=0,sort=nearest,limit=1] run function ssbrc:fighters/team_rocket/menu/select_character
 execute if entity @s[advancements={ssbrc:fighters/team_rocket/skins/default=false}] if entity @e[type=minecraft:item_display,tag=team_rocket,dx=0,sort=nearest,limit=1] run function ssbrc:logic/selector/unowned
+
+execute if entity @s[tag=!toon_link,advancements={ssbrc:fighters/toon_link/skins/default=true}] if entity @e[type=minecraft:item_display,tag=toon_link,dx=0,sort=nearest,limit=1] run function ssbrc:fighters/toon_link/menu/select_character
+execute if entity @s[advancements={ssbrc:fighters/toon_link/skins/default=false}] if entity @e[type=minecraft:item_display,tag=toon_link,dx=0,sort=nearest,limit=1] run function ssbrc:logic/selector/unowned
 
 execute if entity @s[tag=!wolf,advancements={ssbrc:fighters/wolf/skins/default=true}] if entity @e[type=minecraft:item_display,tag=wolf,dx=0,sort=nearest,limit=1] run function ssbrc:fighters/wolf/menu/select_character
 execute if entity @s[advancements={ssbrc:fighters/wolf/skins/default=false}] if entity @e[type=minecraft:item_display,tag=wolf,dx=0,sort=nearest,limit=1] run function ssbrc:logic/selector/unowned

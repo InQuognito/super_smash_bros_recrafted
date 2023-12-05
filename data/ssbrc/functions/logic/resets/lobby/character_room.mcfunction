@@ -19,7 +19,7 @@ summon minecraft:item_display 155.5 6.0 160.5 {Tags:["selectable","staticObject"
 summon minecraft:text_display 156.5 7.25 162.5 {Tags:["staticObject"],text:'{"translate":"ssbrc.fighters.king_k_rool","color":"dark_green"}',billboard:center}
 summon minecraft:item_display 156.5 6.0 162.5 {Tags:["selectable","staticObject","fighterDisplay","king_k_rool"],item:{id:"minecraft:stick",tag:{CustomModelData:680},Count:1b}}
 
-summon minecraft:text_display 157.5 7.25 164.5 {Tags:["staticObject"],text:'{"translate":"ssbrc.fighters.link","color":"dark_green"}',billboard:center}
+summon minecraft:text_display 157.5 7.25 164.5 {Tags:["staticObject"],text:'{"translate":"ssbrc.fighters.link","color":"blue"}',billboard:center}
 summon minecraft:item_display 157.5 6.0 164.5 {Tags:["selectable","staticObject","fighterDisplay","link"],item:{id:"minecraft:stick",tag:{CustomModelData:720},Count:1b}}
 
 summon minecraft:text_display 158.5 7.25 167.5 {Tags:["staticObject"],text:'{"translate":"ssbrc.fighters.toon_link","color":"green"}',billboard:center}

@@ -35,6 +35,7 @@ function ssbrc:fighters/sonic/menu/skins/reset
 function ssbrc:fighters/sora/menu/skins/reset
 function ssbrc:fighters/steve/menu/skins/reset
 function ssbrc:fighters/team_rocket/menu/skins/reset
+function ssbrc:fighters/toon_link/menu/skins/reset
 function ssbrc:fighters/wolf/menu/skins/reset
 function ssbrc:fighters/yar/menu/skins/reset
 function ssbrc:fighters/zelda/menu/skins/reset
