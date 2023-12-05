@@ -1,4 +1,4 @@
-execute if entity @s[scores={useAbility=1..,cooldown.2=..0},nbt={SelectedItem:{tag:{turnip:1}}}] at @s anchored eyes run function ssbrc:fighters/peach/logic/abilities/turnip/activate
+execute if entity @s[scores={useAbility=1..,cooldown.2=..0},nbt={SelectedItem:{tag:{turnip:1}}}] at @s anchored eyes positioned ^ ^ ^ run function ssbrc:fighters/peach/logic/abilities/turnip/activate
 
 # Float
 scoreboard players set @s[scores={cooldown.3=1}] charge.2 40

@@ -13,4 +13,6 @@ item replace entity @s[scores={charge.1=8}] armor.head with minecraft:carrot_on_
 
 data merge entity @s {Small:1b}
 
+data modify entity @s Rotation set from entity @a[tag=self,limit=1] Rotation
+
 function ssbrc:logic/init/armor_stand/normal
