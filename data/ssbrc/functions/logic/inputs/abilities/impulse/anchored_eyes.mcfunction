@@ -44,4 +44,6 @@ execute if entity @s[tag=snake,tag=!reloading,scores={cooldown.3=..0}] run funct
 
 execute if entity @s[tag=team_rocket,scores={cooldown.1=..0}] run function ssbrc:fighters/team_rocket/logic/abilities/impulse
 
+execute if entity @s[tag=toon_link,nbt={SelectedItem:{tag:{boomerang:1}}}] run function ssbrc:fighters/toon_link/logic/abilities/boomerang/activate
+
 execute if entity @s[tag=zelda] run function ssbrc:fighters/zelda/logic/abilities/impulse
