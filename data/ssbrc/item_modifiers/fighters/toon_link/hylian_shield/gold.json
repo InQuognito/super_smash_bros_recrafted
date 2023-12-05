@@ -1,0 +1,42 @@
+[
+	{
+		"function": "minecraft:set_name",
+		"entity": "this",
+		"name": {
+			"translate": "ssbrc.tooltips.toon_link.hylianShield",
+			"color": "gold",
+			"bold": true,
+			"italic": false
+		}
+	},
+	{
+		"function": "minecraft:set_banner_pattern",
+		"patterns": [
+			{
+				"pattern": "minecraft:base",
+				"color": "white"
+			},
+			{
+				"pattern": "minecraft:flower",
+				"color": "light_gray"
+			},
+			{
+				"pattern": "minecraft:half_horizontal",
+				"color": "white"
+			},
+			{
+				"pattern": "minecraft:triangle_top",
+				"color": "yellow"
+			},
+			{
+				"pattern": "minecraft:stripe_top",
+				"color": "white"
+			},
+			{
+				"pattern": "minecraft:curly_border",
+				"color": "yellow"
+			}
+		],
+		"append": false
+	}
+]

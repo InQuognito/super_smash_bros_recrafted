@@ -14,7 +14,7 @@
 						},
 						{
 							"function": "minecraft:reference",
-							"name": "ssbrc:fighters/link/boomerang"
+							"name": "ssbrc:fighters/toon_link/boomerang"
 						},
 						{
 							"function": "minecraft:set_nbt",
