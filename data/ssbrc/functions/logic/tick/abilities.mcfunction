@@ -64,7 +64,7 @@ execute if entity @a[tag=self,limit=1,tag=ness,predicate=ssbrc:flag/player,predi
 execute if entity @s[tag=pkFlash] at @s run function ssbrc:fighters/ness/logic/abilities/pk_flash/tick
 
 # Peach
-execute if entity @s[tag=vegetable] at @s run function ssbrc:fighters/peach/logic/abilities/vegetable/tick
+execute if entity @s[tag=vegetable] at @s run function ssbrc:fighters/peach/logic/abilities/turnip/tick
 
 # Pikachu
 execute if entity @s[tag=thunderJolt] at @s run function ssbrc:fighters/pikachu/logic/abilities/thunder_jolt/tick
