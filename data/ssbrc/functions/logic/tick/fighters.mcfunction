@@ -70,9 +70,9 @@ execute at @s[scores={jumps=1..}] run function ssbrc:logic/fighters/jump
 # Ability / Item Activation
 execute if entity @s[scores={charge.output=200..},nbt={SelectedItem:{tag:{specialFlag:1}}}] run function ssbrc:items/special_flag/activate
 
-execute at @s[scores={useAbility=1..,charge.step=5..}] run function ssbrc:logic/inputs/abilities/charge/default
+execute at @s[scores={charge.step=5..}] run function ssbrc:logic/inputs/abilities/charge/default
 execute at @s[scores={useAbility=1..}] run function ssbrc:logic/inputs/abilities/impulse/default
-execute at @s[scores={useItem=1..,charge.step=5..}] run function ssbrc:logic/inputs/items/charge
+execute at @s[scores={charge.step=5..}] run function ssbrc:logic/inputs/items/charge
 execute at @s[scores={useItem=1..}] run function ssbrc:logic/inputs/items/impulse/default
 
 # Items
