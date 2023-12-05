@@ -45,9 +45,8 @@ execute if entity @s[tag=joker] run function ssbrc:fighters/joker/logic/abilitie
 scoreboard players set @s[tag=joker] joker.tt33A 8
 
 # Link
-loot replace entity @s[tag=link] hotbar.2 loot ssbrc:fighters/link/boomerang
 loot replace entity @s[tag=link] weapon.offhand loot ssbrc:fighters/link/hylian_shield
-give @s[tag=link] minecraft:spectral_arrow 5
+give @s[tag=link] minecraft:spectral_arrow 3
 
 # Megaman
 loot replace entity @s[tag=mega_man] hotbar.2 loot ssbrc:fighters/mega_man/black_hole_bomb
@@ -78,6 +77,11 @@ execute if score @s[tag=steve] steve.tier matches 0 run function ssbrc:fighters/
 execute if score @s[tag=steve] steve.tier matches 1 run function ssbrc:fighters/steve/logic/equipment/tiers/stone
 execute if score @s[tag=steve] steve.tier matches 2 run function ssbrc:fighters/steve/logic/equipment/tiers/gold
 execute if score @s[tag=steve] steve.tier matches 3 run function ssbrc:fighters/steve/logic/equipment/tiers/iron
+
+# Toon Link
+loot replace entity @s[tag=toon_link] hotbar.2 loot ssbrc:fighters/toon_link/boomerang
+loot replace entity @s[tag=toon_link] weapon.offhand loot ssbrc:fighters/toon_link/hylian_shield
+give @s[tag=toon_link] minecraft:spectral_arrow 5
 
 # Zelda
 execute if entity @s[tag=zelda] run function ssbrc:fighters/zelda/kit

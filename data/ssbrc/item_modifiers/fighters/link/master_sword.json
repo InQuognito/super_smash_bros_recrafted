@@ -6,23 +6,11 @@
 			{
 				"condition": "minecraft:inverted",
 				"term": {
-					"condition": "minecraft:any_of",
-					"terms": [
-						{
-							"condition": "minecraft:entity_properties",
-							"entity": "this",
-							"predicate": {
-								"nbt": "{Tags:[\"gold\"]}"
-							}
-						},
-						{
-							"condition": "minecraft:entity_properties",
-							"entity": "this",
-							"predicate": {
-								"nbt": "{Tags:[\"dark\"]}"
-							}
-						}
-					]
+					"condition": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"nbt": "{Tags:[\"gold\"]}"
+					}
 				}
 			}
 		]
@@ -36,19 +24,6 @@
 				"entity": "this",
 				"predicate": {
 					"nbt": "{Tags:[\"gold\"]}"
-				}
-			}
-		]
-	},
-	{
-		"function": "minecraft:reference",
-		"name": "ssbrc:fighters/link/master_sword/dark_link",
-		"conditions": [
-			{
-				"condition": "minecraft:entity_properties",
-				"entity": "this",
-				"predicate": {
-					"nbt": "{Tags:[\"dark\"]}"
 				}
 			}
 		]

@@ -2,10 +2,7 @@ execute if score @s menu matches -999 run function ssbrc:logic/resets/player_dat
 execute if score @s menu matches -998 if score @s reset matches 1 run function ssbrc:logic/resets/player_data/cancel
 execute if score @s menu matches -997 if score @s reset matches 1 run function ssbrc:logic/resets/player_data/confirm
 
-execute if score @s[tag=rob] menu matches 5 run function ssbrc:fighters/rob/menu/skins/default
-execute if score @s[tag=rob] menu matches 6 run function ssbrc:fighters/rob/menu/skins/gold
-execute if score @s[tag=rob] menu matches 7 run function ssbrc:fighters/rob/menu/skins/ancient_minister
-execute if score @s[tag=rob] menu matches 8 run function ssbrc:fighters/rob/menu/skins/famicom
+execute if entity @s[tag=rob] run function ssbrc:fighters/rob/menu/trigger
 
 execute if score @s[tag=bowser] menu matches 64 run function ssbrc:fighters/bowser/menu/skins/default
 execute if score @s[tag=bowser] menu matches 65 run function ssbrc:fighters/bowser/menu/skins/gold
@@ -73,11 +70,7 @@ execute if score @s[tag=king_k_rool] menu matches 685 run function ssbrc:fighter
 execute if score @s[tag=kirby] menu matches 704 run function ssbrc:fighters/kirby/menu/skins/default
 execute if score @s[tag=kirby] menu matches 705 run function ssbrc:fighters/kirby/menu/skins/gold
 
-execute if score @s[tag=link] menu matches 724 run function ssbrc:fighters/link/menu/skins/default
-execute if score @s[tag=link] menu matches 725 run function ssbrc:fighters/link/menu/skins/gold
-execute if score @s[tag=link] menu matches 726 run function ssbrc:fighters/link/menu/skins/dark_link
-execute if score @s[tag=link] menu matches 727 run function ssbrc:fighters/link/menu/skins/goron_tunic
-execute if score @s[tag=link] menu matches 728 run function ssbrc:fighters/link/menu/skins/zora_tunic
+execute if entity @s[tag=link] run function ssbrc:fighters/link/menu/trigger
 
 execute if score @s[tag=luigi] menu matches 824 run function ssbrc:fighters/luigi/menu/skins/default
 execute if score @s[tag=luigi] menu matches 825 run function ssbrc:fighters/luigi/menu/skins/gold

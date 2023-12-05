@@ -24,7 +24,7 @@
 						},
 						{
 							"function": "minecraft:reference",
-							"name": "ssbrc:fighters/link/boomerang/tooltip"
+							"name": "ssbrc:fighters/toon_link/boomerang/tooltip"
 						},
 						{
 							"function": "minecraft:set_lore",
