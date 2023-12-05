@@ -1,4 +1,4 @@
-scoreboard players operation indicator.cooldownType temp = @s cooldown.2
+scoreboard players operation indicator.cooldownType temp = @s cooldown.1
 scoreboard players set indicator.cooldownAmount temp 300
 
 function ssbrc:logic/fighters/calculate_cooldown

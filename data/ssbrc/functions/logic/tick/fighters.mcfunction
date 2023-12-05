@@ -45,7 +45,6 @@ execute if entity @s[tag=pokemon_trainer] run function ssbrc:fighters/pokemon_tr
 execute if entity @s[tag=rob] run function ssbrc:fighters/rob/logic/tick
 execute if entity @s[tag=roy] run function ssbrc:fighters/roy/logic/tick
 execute if entity @s[tag=ryu] run function ssbrc:fighters/ryu/logic/tick
-execute if entity @s[tag=samus] run function ssbrc:fighters/samus/logic/tick
 execute if entity @s[tag=snake] run function ssbrc:fighters/snake/logic/tick
 execute if entity @s[tag=sonic] run function ssbrc:fighters/sonic/logic/tick
 execute if entity @s[tag=sora] run function ssbrc:fighters/sora/logic/tick
@@ -62,37 +61,37 @@ execute if entity @s[tag=shovel_knight] run function ssbrc:fighters/shovel_knigh
 execute if entity @s[tag=team_rocket] run function ssbrc:fighters/team_rocket/logic/tick
 execute if entity @s[tag=yar] run function ssbrc:fighters/yar/logic/tick
 
-scoreboard players reset @s useAbility
-
-execute if score @s charge.step matches 5.. run function ssbrc:logic/resets/charge
-
 execute if entity @s[scores={flag.damageDealt=1..}] run function ssbrc:logic/fighters/damage_dealt
 execute if entity @s[scores={flag.damageTaken=1..}] run function ssbrc:logic/fighters/damage_taken
 
 execute at @s[scores={fallDistance=1..}] run function ssbrc:logic/fighters/shockwave/check
 execute at @s[scores={jumps=1..}] run function ssbrc:logic/fighters/jump
 
-# Items
-execute if entity @s[scores={useItem=1..},nbt={SelectedItem:{tag:{angelFeather:1}}}] run function ssbrc:stages/palutenas_temple/logic/angel_feather/activate
-execute if entity @s[scores={useItem=1..},nbt={SelectedItem:{tag:{powerPellet:1}}}] run function ssbrc:stages/pac_maze/logic/power_pellet/use
+# Ability / Item Activation
+execute if entity @s[scores={charge.output=200..},nbt={SelectedItem:{tag:{specialFlag:1}}}] run function ssbrc:items/special_flag/activate
 
-execute if score @s item.cloakingDevice matches 1.. at @s run function ssbrc:items/cloaking_device/tick
-execute if score @s item.franklinBadge matches 1.. at @s positioned ~ ~0.75 ~ run function ssbrc:items/franklin_badge/tick
-execute if score @s item.poisonMushroom matches 1.. at @s run function ssbrc:items/poison_mushroom/tick
-execute if score @s item.superMushroom matches 1.. at @s run function ssbrc:items/super_mushroom/tick
+execute at @s[scores={useAbility=1..,charge.step=5..}] run function ssbrc:logic/inputs/abilities/charge/default
+execute at @s[scores={useAbility=1..}] run function ssbrc:logic/inputs/abilities/impulse/default
+execute at @s[scores={useItem=1..,charge.step=5..}] run function ssbrc:logic/inputs/items/charge
+execute at @s[scores={useItem=1..}] run function ssbrc:logic/inputs/items/impulse/default
+
+# Items
+execute at @s[scores={item.cloakingDevice=1..}] run function ssbrc:items/cloaking_device/tick
+execute at @s[scores={item.franklinBadge=1..}] positioned ~ ~0.75 ~ run function ssbrc:items/franklin_badge/tick
+execute at @s[scores={item.poisonMushroom=1..}] run function ssbrc:items/poison_mushroom/tick
+execute at @s[scores={item.superMushroom=1..}] run function ssbrc:items/super_mushroom/tick
 
 execute at @s[tag=angelFeather] run particle minecraft:dust_color_transition 1.0 1.0 0.0 0.5 1.0 1.0 1.0 ~ ~0.75 ~ 0.2 0.3 0.2 0.0 3 normal @a
 
 # Fighter Effects
-execute at @s[tag=gold,predicate=!ssbrc:flag/sprinting] run particle minecraft:dust_color_transition 0.5 0.5 0.0 0.5 1.0 1.0 0.0 ~ ~0.75 ~ 0.2 0.3 0.2 0.0 3 normal @a
-execute at @s[tag=gold,predicate=ssbrc:flag/sprinting] run particle minecraft:dust_color_transition 0.5 0.5 0.0 0.5 1.0 1.0 0.0 ~ ~0.75 ~ 0.2 0.3 0.2 0.0 6 normal @a
+execute at @s[tag=gold] positioned ~ ~0.75 ~ run function ssbrc:logic/tick/gold
 scoreboard players reset @s flag.walking
 
 execute at @s[tag=immobile] run function ssbrc:logic/fighters/effects/mobility/tick
 
 execute at @s[tag=pivot,tag=!immobile] unless predicate ssbrc:flag/in_air run function ssbrc:logic/fighters/effects/mobility/immobilize/pivot/activate
 
-execute if score @s shadow.chaosControl matches 1.. run function ssbrc:fighters/shadow/logic/chaos_control/tick
+execute if entity @s[scores={shadow.chaosControl=1..}] run function ssbrc:fighters/shadow/logic/chaos_control/tick
 
 scoreboard players add @s[tag=immobile.pkFlash] timer.pkFlash 1
 execute if score @s timer.pkFlash matches 40.. run function ssbrc:fighters/ness/logic/abilities/pk_flash/damage/mobilize
@@ -112,8 +111,7 @@ execute at @s if block ~ ~ ~ minecraft:lava run scoreboard players add @s flag.i
 execute if score @s flag.inLava matches 60.. run kill @s
 scoreboard players reset @s[scores={flag.inLava=60..}] flag.inLava
 
-execute if score $sandOcean map matches 1 if score hazards options matches 1 at @s[tag=!quicksand] if block ~ ~ ~ minecraft:cyan_carpet run function ssbrc:logic/fighters/quicksand/activate
-execute if score $sandOcean map matches 1 if score hazards options matches 1 at @s[tag=quicksand] unless block ~ ~ ~ minecraft:cyan_carpet run function ssbrc:logic/fighters/quicksand/deactivate
+execute if score $sandOcean map matches 1 if score hazards options matches 1 at @s run function ssbrc:logic/fighters/quicksand/tick
 
 # Bonuses
 execute unless score @s aerialist matches 1.. at @s run function ssbrc:logic/fighters/bonuses/aerialist/tick

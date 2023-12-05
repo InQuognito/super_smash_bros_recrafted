@@ -82,7 +82,7 @@
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{missileLauncher:1}"
+							"tag": "{missileLauncher:1,standard:1}"
 						}
 					]
 				}

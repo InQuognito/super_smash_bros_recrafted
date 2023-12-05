@@ -1,7 +1,3 @@
-execute if entity @s[scores={useAbility=1..},nbt={SelectedItem:{tag:{tt33:1}}}] at @s run function ssbrc:fighters/joker/logic/tt33/check
-
-execute if entity @s[scores={useAbility=1..},nbt={SelectedItem:{tag:{mask:1}}}] run function ssbrc:fighters/joker/logic/masks/activate
-
 # Persona Awakening
 execute if score @s duration.1 matches 1.. run function ssbrc:fighters/joker/logic/abilities/persona_awakening/tick
 
@@ -14,8 +10,8 @@ execute if score @s[tag=!abilityUsed] health <= #joker.finalGuardThreshold vars 
 
 execute if score @s duration.2 matches 1.. run function ssbrc:fighters/joker/logic/final_guard/tick
 
-# Ammo HUD
-title @s[nbt={SelectedItem:{tag:{tt33:1}}}] actionbar {"score":{"name":"@s","objective":"joker.tt33A"},"color":"red"}
-
-# Fire Rate
+# TT33
 scoreboard players remove @s[scores={joker.tt33F=1..}] joker.tt33F 1
+
+title @s[nbt=!{SelectedItem:{tag:{tt33:1}}}] actionbar ""
+title @s[nbt={SelectedItem:{tag:{tt33:1}}}] actionbar {"score":{"name":"@s","objective":"joker.tt33A"},"color":"red"}

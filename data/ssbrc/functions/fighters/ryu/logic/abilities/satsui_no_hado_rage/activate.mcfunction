@@ -14,4 +14,4 @@ function ssbrc:fighters/ryu/logic/abilities/satsui_no_hado_rage/update
 
 tag @s add abilityUsed
 
-execute at @s run playsound ssbrc:fighters.ryu.satsui_no_hado_rage.activate player @a
+playsound ssbrc:fighters.ryu.satsui_no_hado_rage.activate player @a

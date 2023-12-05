@@ -15,4 +15,4 @@ loot replace entity @s hotbar.8 loot ssbrc:fighters/altered_beast/mark_of_the_be
 
 function ssbrc:logic/fighters/armor/update
 
-execute at @s run playsound ssbrc:fighters.altered_beast.transform.warebear player @a
+playsound ssbrc:fighters.altered_beast.transform.warebear player @a

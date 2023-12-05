@@ -39,6 +39,6 @@
 		}
 	},
 	"rewards": {
-		"function": "ssbrc:fighters/roy/logic/ablities/counter/hit"
+		"function": "ssbrc:fighters/roy/logic/abilities/counter/hit"
 	}
 }

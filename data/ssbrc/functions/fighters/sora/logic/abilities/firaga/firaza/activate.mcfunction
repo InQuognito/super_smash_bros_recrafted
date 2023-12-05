@@ -8,4 +8,4 @@ execute if score @s shadow.chaosControl matches 1.. run function ssbrc:logic/fig
 item replace entity @s weapon.mainhand with minecraft:air
 loot replace entity @s weapon.mainhand loot ssbrc:fighters/sora/keyblades/primary/fire
 
-execute at @s run playsound ssbrc:fighters.sora.firaza.activate player @a
+playsound ssbrc:fighters.sora.firaza.activate player @a

@@ -17,4 +17,4 @@ function ssbrc:logic/fighters/armor/update
 
 effect give @s minecraft:resistance 2 3 true
 
-execute at @s run playsound ssbrc:fighters.altered_beast.transform.waretiger player @a
+playsound ssbrc:fighters.altered_beast.transform.waretiger player @a

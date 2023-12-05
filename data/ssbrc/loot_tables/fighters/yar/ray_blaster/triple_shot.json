@@ -70,7 +70,7 @@
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{tripleShot:1}"
+							"tag": "{tripleShot:1,standard:1}"
 						}
 					]
 				}

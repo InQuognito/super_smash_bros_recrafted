@@ -70,7 +70,7 @@
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{default:1}"
+							"tag": "{default:1,standard:1}"
 						}
 					]
 				}

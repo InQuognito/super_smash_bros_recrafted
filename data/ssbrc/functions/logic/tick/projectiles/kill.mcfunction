@@ -1,1 +1,1 @@
-kill @e[type=#ssbrc:generics,distance=0.1..2]
+kill @e[type=#ssbrc:projectiles,distance=0.1..2]
