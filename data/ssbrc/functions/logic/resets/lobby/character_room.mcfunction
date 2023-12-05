@@ -4,8 +4,11 @@ summon minecraft:item_display 144.5 6.0 153.5 {Tags:["selectable","staticObject"
 summon minecraft:text_display 147.5 7.25 154.5 {Tags:["staticObject"],text:'{"translate":"ssbrc.fighters.mario","color":"red"}',billboard:center}
 summon minecraft:item_display 147.5 6.0 154.5 {Tags:["selectable","staticObject","fighterDisplay","mario"],item:{id:"minecraft:stick",tag:{CustomModelData:840},Count:1b}}
 
-summon minecraft:text_display 151.5 7.25 156.5 {Tags:["staticObject"],text:'{"translate":"ssbrc.fighters.luigi","color":"dark_green"}',billboard:center}
-summon minecraft:item_display 151.5 6.0 156.5 {Tags:["selectable","staticObject","fighterDisplay","luigi"],item:{id:"minecraft:stick",tag:{CustomModelData:820},Count:1b}}
+summon minecraft:text_display 149.5 7.25 155.5 {Tags:["staticObject"],text:'{"translate":"ssbrc.fighters.luigi","color":"dark_green"}',billboard:center}
+summon minecraft:item_display 149.5 6.0 155.5 {Tags:["selectable","staticObject","fighterDisplay","luigi"],item:{id:"minecraft:stick",tag:{CustomModelData:820},Count:1b}}
+
+summon minecraft:text_display 151.5 7.25 156.5 {Tags:["staticObject"],text:'{"translate":"ssbrc.fighters.peach","color":"light_purple"}',billboard:center}
+summon minecraft:item_display 151.5 6.0 156.5 {Tags:["selectable","staticObject","fighterDisplay","peach"],item:{id:"minecraft:stick",tag:{CustomModelData:1160},Count:1b}}
 
 summon minecraft:text_display 153.5 7.25 158.5 {Tags:["staticObject"],text:'{"translate":"ssbrc.fighters.bowser","color":"green"}',billboard:center}
 summon minecraft:item_display 153.5 6.0 158.5 {Tags:["selectable","staticObject","fighterDisplay","bowser"],item:{id:"minecraft:stick",tag:{CustomModelData:60},Count:1b}}
@@ -13,11 +16,14 @@ summon minecraft:item_display 153.5 6.0 158.5 {Tags:["selectable","staticObject"
 summon minecraft:text_display 155.5 7.25 160.5 {Tags:["staticObject"],text:'{"translate":"ssbrc.fighters.donkey_kong","color":"gold"}',billboard:center}
 summon minecraft:item_display 155.5 6.0 160.5 {Tags:["selectable","staticObject","fighterDisplay","donkey_kong"],item:{id:"minecraft:stick",tag:{CustomModelData:300},Count:1b}}
 
-summon minecraft:text_display 157.5 7.25 164.5 {Tags:["staticObject"],text:'{"translate":"ssbrc.fighters.king_k_rool","color":"dark_green"}',billboard:center}
-summon minecraft:item_display 157.5 6.0 164.5 {Tags:["selectable","staticObject","fighterDisplay","king_k_rool"],item:{id:"minecraft:stick",tag:{CustomModelData:680},Count:1b}}
+summon minecraft:text_display 156.5 7.25 162.5 {Tags:["staticObject"],text:'{"translate":"ssbrc.fighters.king_k_rool","color":"dark_green"}',billboard:center}
+summon minecraft:item_display 156.5 6.0 162.5 {Tags:["selectable","staticObject","fighterDisplay","king_k_rool"],item:{id:"minecraft:stick",tag:{CustomModelData:680},Count:1b}}
 
-summon minecraft:text_display 158.5 7.25 167.5 {Tags:["staticObject"],text:'{"translate":"ssbrc.fighters.link","color":"dark_green"}',billboard:center}
-summon minecraft:item_display 158.5 6.0 167.5 {Tags:["selectable","staticObject","fighterDisplay","link"],item:{id:"minecraft:stick",tag:{CustomModelData:720},Count:1b}}
+summon minecraft:text_display 157.5 7.25 164.5 {Tags:["staticObject"],text:'{"translate":"ssbrc.fighters.link","color":"dark_green"}',billboard:center}
+summon minecraft:item_display 157.5 6.0 164.5 {Tags:["selectable","staticObject","fighterDisplay","link"],item:{id:"minecraft:stick",tag:{CustomModelData:720},Count:1b}}
+
+summon minecraft:text_display 158.5 7.25 167.5 {Tags:["staticObject"],text:'{"translate":"ssbrc.fighters.toon_link","color":"green"}',billboard:center}
+summon minecraft:item_display 158.5 6.0 167.5 {Tags:["selectable","staticObject","fighterDisplay","toon_link"],item:{id:"minecraft:stick",tag:{CustomModelData:1640},Count:1b}}
 
 summon minecraft:text_display 159.5 7.25 170.5 {Tags:["staticObject"],text:'{"translate":"ssbrc.fighters.zelda","color":"blue"}',billboard:center}
 summon minecraft:item_display 159.5 6.0 170.5 {Tags:["selectable","staticObject","fighterDisplay","zelda"],item:{id:"minecraft:stick",tag:{CustomModelData:1780},Count:1b}}

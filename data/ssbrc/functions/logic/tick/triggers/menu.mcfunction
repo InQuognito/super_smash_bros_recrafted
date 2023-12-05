@@ -118,6 +118,10 @@ execute if score @s[tag=pokemon_trainer] menu matches 1266 run function ssbrc:fi
 execute if score @s[tag=pokemon_trainer] menu matches 1267 run function ssbrc:fighters/pokemon_trainer/menu/skins/dawn
 execute if score @s[tag=pokemon_trainer] menu matches 1268 run function ssbrc:fighters/pokemon_trainer/menu/skins/victor
 
+execute if score @s[tag=roy] menu matches 1404 run function ssbrc:fighters/ryu/menu/skins/default
+execute if score @s[tag=roy] menu matches 1405 run function ssbrc:fighters/ryu/menu/skins/gold
+execute if score @s[tag=roy] menu matches 1406 run function ssbrc:fighters/ryu/menu/skins/hot_ryu
+
 execute if score @s[tag=ryu] menu matches 1404 run function ssbrc:fighters/ryu/menu/skins/default
 execute if score @s[tag=ryu] menu matches 1405 run function ssbrc:fighters/ryu/menu/skins/gold
 execute if score @s[tag=ryu] menu matches 1406 run function ssbrc:fighters/ryu/menu/skins/hot_ryu
@@ -156,6 +160,12 @@ execute if score @s[tag=steve] menu matches 1584 run function ssbrc:fighters/ste
 execute if score @s[tag=steve] menu matches 1585 run function ssbrc:fighters/steve/menu/skins/gold
 execute if score @s[tag=steve] menu matches 1586 run function ssbrc:fighters/steve/menu/skins/alex
 execute if score @s[tag=steve] menu matches 1587 run function ssbrc:fighters/steve/menu/skins/herobrine
+
+execute if score @s[tag=toon_link] menu matches 1644 run function ssbrc:fighters/toon_link/menu/skins/default
+execute if score @s[tag=toon_link] menu matches 1645 run function ssbrc:fighters/toon_link/menu/skins/gold
+execute if score @s[tag=toon_link] menu matches 1646 run function ssbrc:fighters/toon_link/menu/skins/second_sword
+execute if score @s[tag=toon_link] menu matches 1647 run function ssbrc:fighters/toon_link/menu/skins/third_sword
+execute if score @s[tag=toon_link] menu matches 1648 run function ssbrc:fighters/toon_link/menu/skins/fourth_sword
 
 execute if score @s[tag=wolf] menu matches 1724 run function ssbrc:fighters/wolf/menu/skins/default
 execute if score @s[tag=wolf] menu matches 1725 run function ssbrc:fighters/wolf/menu/skins/gold
