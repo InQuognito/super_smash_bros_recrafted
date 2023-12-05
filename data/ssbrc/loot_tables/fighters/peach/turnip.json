@@ -51,7 +51,27 @@
 									]
 								},
 								{
-									"translate": "ssbrc.tooltips.peach.turnip.description.2",
+									"text": "- [",
+									"color": "gray",
+									"bold": false,
+									"italic": false,
+									"extra": [
+										{
+											"keybind": "key.use",
+											"color": "gray",
+											"bold": false,
+											"italic": false
+										},
+										{
+											"translate": "ssbrc.tooltips.peach.turnip.description.2",
+											"color": "gray",
+											"bold": false,
+											"italic": false
+										}
+									]
+								},
+								{
+									"translate": "ssbrc.tooltips.peach.turnip.description.3",
 									"color": "gray",
 									"bold": false,
 									"italic": false

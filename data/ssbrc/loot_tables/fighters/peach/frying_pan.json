@@ -12,8 +12,8 @@
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"translate": "ssbrc.tooltips.peach.fryingPan",
-								"color": "white",
+								"translate": "ssbrc.tooltips.peach.frying_pan",
+								"color": "light_purple",
 								"bold": true,
 								"italic": false
 							}
@@ -43,7 +43,7 @@
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{fryingPan:1,CustomModelData:1160}"
+							"tag": "{frying_pan:1,CustomModelData:1160}"
 						}
 					]
 				}

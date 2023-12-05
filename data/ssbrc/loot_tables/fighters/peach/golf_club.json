@@ -12,8 +12,8 @@
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"translate": "ssbrc.tooltips.peach.golfClub",
-								"color": "white",
+								"translate": "ssbrc.tooltips.peach.golf_club",
+								"color": "light_purple",
 								"bold": true,
 								"italic": false
 							}
@@ -43,7 +43,7 @@
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{golfClub:1,CustomModelData:1162}"
+							"tag": "{golf_club:1,CustomModelData:1162}"
 						}
 					]
 				}

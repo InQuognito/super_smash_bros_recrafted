@@ -8,7 +8,7 @@
 					"source_entity": {
 						"equipment": {
 							"mainhand": {
-								"nbt": "{golfClub:1}"
+								"nbt": "{tennis_racket:1}"
 							}
 						}
 					},

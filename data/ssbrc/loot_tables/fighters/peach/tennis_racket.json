@@ -12,8 +12,8 @@
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"translate": "ssbrc.tooltips.peach.tennisRacket",
-								"color": "white",
+								"translate": "ssbrc.tooltips.peach.tennis_racket",
+								"color": "light_purple",
 								"bold": true,
 								"italic": false
 							}
@@ -43,7 +43,7 @@
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{tennisRacket:1,CustomModelData:1164}"
+							"tag": "{tennis_racket:1,CustomModelData:1164}"
 						}
 					]
 				}

@@ -8,7 +8,7 @@
 					"source_entity": {
 						"equipment": {
 							"mainhand": {
-								"nbt": "{fryingPan:1}"
+								"nbt": "{frying_pan:1}"
 							}
 						}
 					},
