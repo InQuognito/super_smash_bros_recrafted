@@ -12,7 +12,8 @@ scoreboard objectives add log.gamesPlayed dummy
 scoreboard objectives add log.wins dummy
 scoreboard objectives add log.wL dummy
 
-scoreboard objectives add player_options.graphics trigger
+scoreboard objectives add player_options.graphics dummy
+scoreboard objectives add player_options.graphics.trigger trigger
 
 scoreboard objectives add hardReset dummy
 scoreboard objectives add options trigger

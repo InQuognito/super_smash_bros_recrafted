@@ -5,4 +5,4 @@ execute if score @s debug matches 1.. run function ssbrc:logic/tick/triggers/deb
 
 execute if score @s selectItem matches 1.. run function ssbrc:logic/tick/lobby/character_select
 
-scoreboard players enable @s player_options.graphics
+execute if score @s player_options.graphics.trigger matches 1.. run function ssbrc:logic/tick/triggers/player_options/graphics
