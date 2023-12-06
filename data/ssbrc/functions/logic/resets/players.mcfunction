@@ -30,11 +30,11 @@ teleport @s -520.5 5.0 -1944.5 90.0 0.0
 
 stopsound @s
 
-# function ssbrc:logic/resets/scoreboards/set_empty_stats
-# function ssbrc:logic/resets/calculate_stats
+#function ssbrc:logic/resets/scoreboards/set_empty_stats
+#function ssbrc:logic/resets/calculate_stats
 
-item replace entity @s inventory.13 with minecraft:copper_ingot
-loot replace entity @s inventory.13 loot ssbrc:statistics
+function ssbrc:logic/resets/player_options
+function ssbrc:logic/player_profile
 
 scoreboard players set @s shopCalculator 0
 function ssbrc:shop/pages/main/load
