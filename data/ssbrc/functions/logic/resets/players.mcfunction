@@ -33,7 +33,6 @@ stopsound @s
 #function ssbrc:logic/resets/scoreboards/set_empty_stats
 #function ssbrc:logic/resets/calculate_stats
 
-function ssbrc:logic/resets/player_options
 function ssbrc:logic/player_profile
 
 scoreboard players set @s shopCalculator 0
