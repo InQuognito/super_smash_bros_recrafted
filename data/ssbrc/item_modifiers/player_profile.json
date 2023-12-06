@@ -225,6 +225,6 @@
 	},
 	{
 		"function": "minecraft:set_nbt",
-		"tag": "{player_profile:1,CustomModelData:2}"
+		"tag": "{CustomModelData:2}"
 	}
 ]
