@@ -16,6 +16,7 @@ execute if entity @a[tag=byleth] run summon minecraft:marker 0.5 25.0 0.5 {Tags:
 execute if entity @a[tag=link] run summon minecraft:marker 0.5 25.0 0.5 {Tags:["link.spinner"]}
 execute if entity @a[tag=ryu] run summon minecraft:marker 0.5 25.0 0.5 {Tags:["ryu.spinner"]}
 execute if entity @a[tag=sora] run summon minecraft:marker 0.5 25.0 0.5 {Tags:["sora.spinner"]}
+execute if entity @a[tag=toon_link] run summon minecraft:marker 0.5 25.0 0.5 {Tags:["toon_link.spinner"]}
 
 execute as @a[predicate=ssbrc:flag/player] run function ssbrc:logic/start/fighters
 
