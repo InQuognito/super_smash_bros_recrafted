@@ -1,4 +1,4 @@
-tellraw @s [{"translate":"ssbrc.player_profile.graphics","color":"yellow"},{"translate":"ssbrc.options.high","color":"blue"}]
+tellraw @s [{"translate":"ssbrc.player_profile.graphics","color":"yellow"},{"text":": "},{"translate":"ssbrc.options.high","color":"blue"}]
 
 scoreboard players set @s player_options.graphics 3
 
