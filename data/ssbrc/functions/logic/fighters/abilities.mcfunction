@@ -45,7 +45,6 @@ execute if entity @s[tag=blunderbuss] run function ssbrc:fighters/king_k_rool/lo
 
 # Link
 execute if entity @s[tag=swordBeam] run function ssbrc:fighters/link/logic/abilities/sword_beam/tick
-execute if entity @s[tag=link.boomerang] run function ssbrc:fighters/link/logic/abilities/boomerang/tick
 
 # Luigi
 execute if entity @s[tag=iceBall] run function ssbrc:fighters/luigi/logic/abilities/ice_ball/tick
@@ -112,6 +111,9 @@ execute if entity @s[tag=strikeRaid] run function ssbrc:fighters/sora/logic/abil
 
 # Steve
 execute if entity @s[nbt={Item:{tag:{Tags:[steve.item]}}}] run function ssbrc:fighters/steve/logic/item/tick
+
+# Toon Link
+execute if entity @s[tag=toon_link.boomerang] run function ssbrc:fighters/toon_link/logic/abilities/boomerang/tick
 
 # Wolf
 execute if entity @s[tag=wolf.blaster] run function ssbrc:fighters/wolf/logic/abilities/blaster/tick

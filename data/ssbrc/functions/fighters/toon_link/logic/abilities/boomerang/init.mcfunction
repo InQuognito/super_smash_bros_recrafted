@@ -1,4 +1,4 @@
-tag @s add link.boomerang
+tag @s add toon_link.boomerang
 
 loot replace entity @s container.0 loot ssbrc:fighters/toon_link/boomerang
 
