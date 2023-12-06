@@ -1,0 +1,7 @@
+{
+	"asset_id": "ssbrc:fighters/zelda/shadow_zelda",
+	"description": {
+		"translate": "trim_pattern.skin"
+	},
+	"template_item": "minecraft:stick"
+}

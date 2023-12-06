@@ -1,7 +1,7 @@
 {
 	"asset_id": "ssbrc:armor_stands/frozen_hijinx/funky_kong",
 	"description": {
-		"translate": "trim_pattern.example.stripes"
+		"translate": "trim_pattern.skin"
 	},
 	"template_item": "minecraft:stick"
 }
