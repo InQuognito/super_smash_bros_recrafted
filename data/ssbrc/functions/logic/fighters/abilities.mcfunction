@@ -165,3 +165,6 @@ execute if entity @s[tag=gatlingGun] run function ssbrc:fighters/yar/logic/abili
 execute if entity @s[tag=missileLauncher] run function ssbrc:fighters/yar/logic/abilities/ray_blaster/variants/missile_launcher/tick
 execute if entity @s[tag=drone] run function ssbrc:fighters/yar/logic/abilities/drone/tick
 execute if entity @s[tag=drone.bullet] run function ssbrc:fighters/yar/logic/abilities/drone/projectile/tick
+
+# Items
+function ssbrc:logic/tick/items

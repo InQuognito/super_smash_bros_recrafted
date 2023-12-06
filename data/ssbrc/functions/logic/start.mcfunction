@@ -24,7 +24,7 @@ function ssbrc:logic/music/decide
 
 function ssbrc:logic/start_hazards
 
-execute if predicate ssbrc:item_spawnpoints run function ssbrc:items/spawn
+execute if predicate ssbrc:item_spawnpoints run function ssbrc:items/spawn_check
 
 scoreboard players reset @a fallDistance
 
