@@ -28,7 +28,7 @@ execute if entity @s[tag=mega_man] run function ssbrc:fighters/mega_man/logic/ab
 
 execute if entity @s[tag=ness] run function ssbrc:fighters/ness/logic/abilities/impulse
 
-execute if entity @s[tag=peach,scores={cooldown.1=..0},nbt={SelectedItem:{tag:{turnip:1}}},predicate=!ssbrc:flag/in_air] if score speed temp matches ..0 run function ssbrc:fighters/peach/logic/abilities/turnip/activate
+execute if entity @s[tag=peach,scores={cooldown.1=..0}] run function ssbrc:fighters/peach/logic/abilities/impulse
 
 execute if entity @s[tag=rob,scores={cooldown.1=..0,charge.1=1..},nbt={SelectedItem:{tag:{roboBeam:1}}}] run function ssbrc:fighters/rob/logic/abilities/robo_beam/check
 
