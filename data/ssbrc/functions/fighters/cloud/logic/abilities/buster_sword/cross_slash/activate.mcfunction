@@ -7,4 +7,6 @@ function ssbrc:fighters/cloud/logic/limit/update
 
 function ssbrc:logic/fighters/effects/mobility/immobilize/default
 
-execute at @s run playsound ssbrc:fighters.cloud.cross_slash.activate player @a
+execute as @e[tag=!self,predicate=ssbrc:flag/targets,sort=nearest,limit=1,distance=..2.5] run function ssbrc:fighters/cloud/logic/abilities/buster_sword/cross_slash/target/activate
+
+playsound ssbrc:fighters.cloud.cross_slash.activate player @a

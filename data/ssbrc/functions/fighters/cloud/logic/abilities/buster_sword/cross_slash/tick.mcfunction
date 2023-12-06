@@ -1,4 +1,4 @@
-execute as @e[tag=!self,predicate=ssbrc:flag/targets,sort=nearest,limit=1,distance=..2.5] run function ssbrc:fighters/cloud/logic/abilities/buster_sword/cross_slash/target
+execute as @e[tag=crossSlashTarget,distance=..2.5,sort=nearest,limit=1] run teleport @s ~ ~ ~
 
 execute if score @s duration.1 matches 30 run damage @e[predicate=ssbrc:flag/targets,tag=crossSlashTarget,sort=nearest,limit=1] 6.0 ssbrc:generic by @a[tag=self,limit=1]
 execute if score @s duration.1 matches 30 run playsound ssbrc:fighters.cloud.cross_slash.hit1 player @a
@@ -14,4 +14,4 @@ execute if score @s duration.1 matches ..10 run function ssbrc:fighters/cloud/lo
 
 execute if score @s duration.1 matches 1 run damage @e[predicate=ssbrc:flag/targets,tag=crossSlashTarget,sort=nearest,limit=1] 24.0 ssbrc:generic by @a[tag=self,limit=1]
 execute if score @s duration.1 matches 1 run playsound ssbrc:fighters.cloud.cross_slash.hit4 player @a
-execute if score @s duration.1 matches ..1 run function ssbrc:fighters/cloud/logic/abilities/buster_sword/cross_slash/end
+execute if score @s duration.1 matches ..1 run function ssbrc:fighters/cloud/logic/abilities/buster_sword/cross_slash/deactivate
