@@ -1,4 +1,4 @@
-execute as @e[tag=crossSlashTarget,distance=..2.5,sort=nearest,limit=1] run teleport @s ~ ~ ~
+execute as @e[tag=!self,tag=crossSlashTarget,distance=..2.5,sort=nearest,limit=1] run teleport @s ~ ~ ~
 
 execute if score @s duration.1 matches 30 as @e[tag=!self,predicate=ssbrc:flag/targets,distance=..1] run damage @s 6.0 ssbrc:generic by @a[tag=self,limit=1]
 execute if score @s duration.1 matches 30 run playsound ssbrc:fighters.cloud.cross_slash.hit1 player @a
