@@ -1,0 +1,28 @@
+{
+	"type": "minecraft:command",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:carrot_on_a_stick",
+					"functions": [
+						{
+							"function": "minecraft:reference",
+							"name": "ssbrc:fighters/init/tooltip/ability/hybrid"
+						},
+						{
+							"function": "minecraft:reference",
+							"name": "ssbrc:fighters/init/animation/smooth"
+						},
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{sheikah_slate:1}"
+						}
+					]
+				}
+			]
+		}
+	]
+}
