@@ -9,6 +9,16 @@
 					"name": "minecraft:carrot_on_a_stick",
 					"functions": [
 						{
+							"function": "minecraft:set_name",
+							"entity": "this",
+							"name": {
+								"translate": "ssbrc.tooltips.link.sheikah_slate",
+								"color": "blue",
+								"bold": true,
+								"italic": false
+							}
+						},
+						{
 							"function": "minecraft:reference",
 							"name": "ssbrc:fighters/init/tooltip/ability/hybrid"
 						},
