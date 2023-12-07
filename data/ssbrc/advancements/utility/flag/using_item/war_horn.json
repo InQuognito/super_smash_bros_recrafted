@@ -27,7 +27,7 @@
 										"type": "minecraft:fixed",
 										"name": "#shovel_knight.warHornManaCost"
 									},
-									"score": "mana"
+									"score": "vars"
 								}
 							}
 						}
