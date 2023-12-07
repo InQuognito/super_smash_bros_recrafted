@@ -18,7 +18,7 @@
 			},
 			{
 				"pattern": "minecraft:flower",
-				"color": "light_gray"
+				"color": "gray"
 			},
 			{
 				"pattern": "minecraft:half_horizontal",

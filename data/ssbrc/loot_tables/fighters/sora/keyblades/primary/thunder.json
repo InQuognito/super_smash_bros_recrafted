@@ -189,7 +189,7 @@
 							"entity": "this",
 							"name": {
 								"translate": "ssbrc.tooltips.sora.monochrome",
-								"color": "light_gray",
+								"color": "gray",
 								"bold": true,
 								"italic": false,
 								"extra": [
@@ -238,7 +238,7 @@
 							"entity": "this",
 							"name": {
 								"translate": "ssbrc.tooltips.sora.monochrome",
-								"color": "light_gray",
+								"color": "gray",
 								"bold": true,
 								"italic": false,
 								"extra": [

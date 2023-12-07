@@ -14,7 +14,7 @@ scoreboard players operation value kills *= value.KO vars
 execute if score @s kills matches 1.. run data modify storage ssbrc:bonuses value append value '[{"score":{"name":"@s","objective":"kills"},"bold":true,"color":"yellow"},{"translate":"x ","bold":true,"color":"yellow"},{"translate":"ssbrc.bonuses.kills","bold":true,"color":"gold"},{"translate":" - ","bold":false,"color":"white"},{"score":{"name":"value","objective":"kills"},"bold":false,"color":"yellow"},{"translate":"₡","bold":false,"color":"yellow"}]}}]'
 scoreboard players operation @s stats.credits.temp += value kills
 
-data modify storage ssbrc:bonuses value append value '{"translate":"===============","bold":true,"color":"light_gray"}'
+data modify storage ssbrc:bonuses value append value '{"translate":"===============","bold":true,"color":"gray"}'
 
 scoreboard players operation value 8PlayerMatch = @s 8PlayerMatch
 scoreboard players operation value 8PlayerMatch *= value.bonus.8PlayerMatch vars

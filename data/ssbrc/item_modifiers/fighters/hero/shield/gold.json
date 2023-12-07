@@ -26,7 +26,7 @@
 			},
 			{
 				"pattern": "minecraft:circle",
-				"color": "light_gray"
+				"color": "gray"
 			},
 			{
 				"pattern": "minecraft:border",
