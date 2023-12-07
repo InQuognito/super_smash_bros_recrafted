@@ -12,6 +12,4 @@ execute if entity @s[tag=swordSpin,predicate=!ssbrc:flag/sneaking,scores={charge
 execute if entity @s[tag=spinning] at @s run function ssbrc:fighters/link/logic/abilities/sword_spin/tick
 
 # Sheikah Slate
-execute if entity @s[tag=sheikah_slate,predicate=!ssbrc:flag/sneaking] run function ssbrc:fighters/link/logic/abilities/sheikah_slate/deactivate
-
-execute at @e[type=minecraft:marker,tag=sheikah_slate,predicate=ssbrc:id_match,limit=1] run function ssbrc:fighters/link/logic/abilities/sheikah_slate/tick
+execute if entity @s[tag=sheikah_slate] run function ssbrc:fighters/link/logic/abilities/sheikah_slate/tick
