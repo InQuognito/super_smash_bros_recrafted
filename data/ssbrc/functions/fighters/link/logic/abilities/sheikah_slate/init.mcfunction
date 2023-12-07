@@ -1,3 +1,3 @@
 tag @s add sheikah_slate
 
-function ssbrc:logic/init/id
+function ssbrc:logic/init/projectile
