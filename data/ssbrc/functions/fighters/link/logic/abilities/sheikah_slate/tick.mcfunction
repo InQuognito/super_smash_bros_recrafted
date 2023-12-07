@@ -1,1 +1,1 @@
-particle minecraft:flame ~ ~ ~ 0.0 0.0 0.0 0.0 1 normal @a
+function ssbrc:fighters/link/logic/abilities/sheikah_slate/runes/magnesis/display
