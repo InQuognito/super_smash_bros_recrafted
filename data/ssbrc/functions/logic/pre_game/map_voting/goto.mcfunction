@@ -12,7 +12,7 @@ scoreboard players set @s duration.1 1
 scoreboard players set @s duration.2 1
 scoreboard players set @s duration.3 1
 
-execute if entity @s[predicate=ssbrc:shiny_chance] run function ssbrc:logic/fighters/pokemon/shiny
+execute if entity @s[predicate=ssbrc:fighters/pokemon/can_be_shiny,predicate=ssbrc:fighters/pokemon/shiny_chance] run function ssbrc:logic/fighters/pokemon/shiny
 
 function ssbrc:logic/fighters/armor/get
 
