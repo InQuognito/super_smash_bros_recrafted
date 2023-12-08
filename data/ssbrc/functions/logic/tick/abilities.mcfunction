@@ -131,7 +131,7 @@ execute if entity @s[tag=flameHands] at @s run function ssbrc:fighters/altered_b
 # Alucard
 execute if entity @s[tag=mist] at @s run function ssbrc:fighters/alucard/logic/abilities/mist/tick_entity
 execute if entity @s[tag=holyWater.display,tag=!falling,predicate=ssbrc:flag/no_vehicle] at @s run function ssbrc:fighters/alucard/logic/abilities/holy_water/drip_below
-execute if entity @s[tag=holyWater.display] at @s unless block ~ ~-0.1 ~ #ssbrc:passthrough run function ssbrc:fighters/alucard/logic/abilities/holy_water/kill_item
+execute if entity @s[tag=holyWater.display] at @s unless predicate ssbrc:flag/in_air run function ssbrc:fighters/alucard/logic/abilities/holy_water/kill_item
 execute if entity @s[tag=holyWater,tag=!active,predicate=ssbrc:flag/no_vehicle] at @s run function ssbrc:fighters/alucard/logic/abilities/holy_water/enable
 
 # Giegue
