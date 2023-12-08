@@ -8,19 +8,19 @@ forceload add 592 -64 687 31
 forceload add 528 -208 639 -81
 
 # Palkia
-execute if predicate ssbrc:shiny_chance run scoreboard players set #shinyPalkia temp 1
+execute if predicate ssbrc:fighters/pokemon/shiny_chance run scoreboard players set #shinyPalkia temp 1
 execute unless score #shinyPalkia temp matches 1 run clone 606 1 6 637 35 24 774 21 15
 execute if score #shinyPalkia temp matches 1 run clone 606 1 -59 637 35 -41 774 21 15
 execute if score #shinyPalkia temp matches 1 run scoreboard players add @a[predicate=ssbrc:flag/player] shinyEncounter 1
 
 # Dialga
-execute if predicate ssbrc:shiny_chance run scoreboard players set #shinyDialga temp 1
+execute if predicate ssbrc:fighters/pokemon/shiny_chance run scoreboard players set #shinyDialga temp 1
 execute unless score #shinyDialga temp matches 1 run clone 648 1 7 674 31 27 816 21 16
 execute if score #shinyDialga temp matches 1 run clone 648 1 -58 674 31 -38 816 21 16
 execute if score #shinyDialga temp matches 1 run scoreboard players add @a[predicate=ssbrc:flag/player] shinyEncounter 1
 
 # Giratina
-execute if predicate ssbrc:shiny_chance run scoreboard players set #shinyGiratina temp 1
+execute if predicate ssbrc:fighters/pokemon/shiny_chance run scoreboard players set #shinyGiratina temp 1
 execute unless score #shinyGiratina temp matches 1 run clone 591 2 -197 604 40 -151 787 10 -124
 execute unless score #shinyGiratina temp matches 1 run clone 605 2 -197 615 40 -151 801 10 -124
 execute unless score #shinyGiratina temp matches 1 run clone 616 2 -197 629 40 -151 812 10 -124
