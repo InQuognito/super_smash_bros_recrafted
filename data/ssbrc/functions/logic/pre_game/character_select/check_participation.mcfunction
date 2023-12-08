@@ -2,7 +2,7 @@ function ssbrc:logic/pre_game/character_select/count_players
 
 execute if score players temp matches ..0 run scoreboard players reset gameStage temp
 execute if score players temp matches ..0 run scoreboard players reset countdown timer
-execute if score players temp matches ..0 run data modify entity @e[tag=lobby.timer,limit=1] text set value ''
+execute if score players temp matches ..0 run data modify entity @e[tag=lobby.timer,limit=1] text set value '""'
 
 execute if score players temp matches 1.. if score characterPicked temp = players temp run scoreboard players set gameStage temp 1
 execute if score players temp matches 1.. if score characterPicked temp = players temp run scoreboard players operation countdown timer = quickStart vars
