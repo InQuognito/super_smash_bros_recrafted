@@ -12,8 +12,8 @@
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"translate": "ssbrc.fighters.link.skin.zoraTunic",
-								"color": "blue",
+								"translate": "ssbrc.fighters.link.skin.tunic_of_time",
+								"color": "dark_green",
 								"bold": true,
 								"italic": false
 							}
@@ -24,11 +24,11 @@
 						},
 						{
 							"function": "minecraft:reference",
-							"name": "ssbrc:ui/shop/cannot_afford"
+							"name": "ssbrc:ui/shop/unowned"
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{CustomModelData:724}"
+							"tag": "{ui:{id:\"skins.link.tunic_of_time\",sound:\"click\"},CustomModelData:724}"
 						}
 					]
 				}

@@ -12,8 +12,8 @@
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"translate": "ssbrc.fighters.link.skin.goronTunic",
-								"color": "red",
+								"translate": "ssbrc.fighters.link.skin.dark_tunic",
+								"color": "dark_gray",
 								"bold": true,
 								"italic": false
 							}

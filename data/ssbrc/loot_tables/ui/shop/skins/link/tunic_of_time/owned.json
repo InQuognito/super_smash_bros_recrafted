@@ -12,8 +12,8 @@
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"translate": "ssbrc.fighters.link.skin.zoraTunic",
-								"color": "blue",
+								"translate": "ssbrc.fighters.link.skin.tunic_of_time",
+								"color": "dark_green",
 								"bold": true,
 								"italic": false
 							}

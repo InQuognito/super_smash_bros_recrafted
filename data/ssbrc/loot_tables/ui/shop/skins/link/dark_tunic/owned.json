@@ -12,7 +12,7 @@
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"translate": "ssbrc.fighters.link.skin.darkLink",
+								"translate": "ssbrc.fighters.link.skin.dark_tunic",
 								"color": "dark_gray",
 								"bold": true,
 								"italic": false
@@ -20,15 +20,11 @@
 						},
 						{
 							"function": "minecraft:reference",
-							"name": "ssbrc:ui/shop/price/skin"
-						},
-						{
-							"function": "minecraft:reference",
-							"name": "ssbrc:ui/shop/unowned"
+							"name": "ssbrc:ui/shop/owned"
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{ui:{id:\"skins.link.darkLink\",sound:\"click\"},CustomModelData:722}"
+							"tag": "{CustomModelData:723}"
 						}
 					]
 				}

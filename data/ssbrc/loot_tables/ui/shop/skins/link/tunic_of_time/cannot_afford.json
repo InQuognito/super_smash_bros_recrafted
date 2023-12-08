@@ -12,8 +12,8 @@
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"translate": "ssbrc.fighters.link.skin.goronTunic",
-								"color": "red",
+								"translate": "ssbrc.fighters.link.skin.tunic_of_time",
+								"color": "dark_green",
 								"bold": true,
 								"italic": false
 							}
@@ -24,11 +24,11 @@
 						},
 						{
 							"function": "minecraft:reference",
-							"name": "ssbrc:ui/shop/unowned"
+							"name": "ssbrc:ui/shop/cannot_afford"
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{ui:{id:\"skins.link.goronTunic\",sound:\"click\"},CustomModelData:723}"
+							"tag": "{CustomModelData:724}"
 						}
 					]
 				}

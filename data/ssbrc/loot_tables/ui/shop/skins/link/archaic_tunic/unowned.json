@@ -12,8 +12,8 @@
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"translate": "ssbrc.fighters.link.skin.zoraTunic",
-								"color": "blue",
+								"translate": "ssbrc.fighters.link.skin.archaic_tunic",
+								"color": "green",
 								"bold": true,
 								"italic": false
 							}
@@ -28,7 +28,7 @@
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{ui:{id:\"skins.link.zoraTunic\",sound:\"click\"},CustomModelData:724}"
+							"tag": "{ui:{id:\"skins.link.archaic_tunic\",sound:\"click\"},CustomModelData:722}"
 						}
 					]
 				}

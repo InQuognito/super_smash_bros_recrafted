@@ -12,19 +12,15 @@
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"translate": "ssbrc.fighters.link.skin.darkLink",
-								"color": "dark_gray",
+								"translate": "ssbrc.fighters.link.skin.archaic_tunic",
+								"color": "green",
 								"bold": true,
 								"italic": false
 							}
 						},
 						{
 							"function": "minecraft:reference",
-							"name": "ssbrc:ui/shop/price/skin"
-						},
-						{
-							"function": "minecraft:reference",
-							"name": "ssbrc:ui/shop/cannot_afford"
+							"name": "ssbrc:ui/shop/owned"
 						},
 						{
 							"function": "minecraft:set_nbt",
