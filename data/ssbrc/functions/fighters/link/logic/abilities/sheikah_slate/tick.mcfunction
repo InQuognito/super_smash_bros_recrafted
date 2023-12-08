@@ -8,6 +8,6 @@ execute at @e[type=minecraft:marker,tag=stasis,predicate=ssbrc:id_match,limit=1]
 
 execute at @e[type=minecraft:marker,tag=cryonis,predicate=ssbrc:id_match,limit=1] facing entity @s eyes run function ssbrc:fighters/link/logic/abilities/sheikah_slate/runes/cryonis/display
 
-function ssbrc:fighters/link/logic/abilities/sheikah_slate/raycast/start
+execute at @s anchored eyes positioned ^ ^ ^ run function ssbrc:fighters/link/logic/abilities/sheikah_slate/raycast/start
 
 execute if entity @s[predicate=!ssbrc:flag/sneaking] run function ssbrc:fighters/link/logic/abilities/sheikah_slate/deactivate
