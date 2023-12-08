@@ -4,4 +4,4 @@ execute if entity @s[tag=magnesis] run scoreboard players set @a[tag=self,limit=
 execute if entity @s[tag=stasis] run scoreboard players set @a[tag=self,limit=1] charge.1 4
 execute if entity @s[tag=cryonis] run scoreboard players set @a[tag=self,limit=1] charge.1 5
 
-scoreboard players set @s raycastSuccess 1
+scoreboard players set @a[tag=self] raycastSuccess 1
