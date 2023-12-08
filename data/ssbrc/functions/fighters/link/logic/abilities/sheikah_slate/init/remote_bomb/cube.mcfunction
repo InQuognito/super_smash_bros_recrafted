@@ -1,3 +1,3 @@
-tag @s add sheikah_slate.remote_bomb.cube
+tag @s add remote_bomb.cube
 
-function ssbrc:logic/init/projectile
+function ssbrc:fighters/link/logic/abilities/sheikah_slate/init

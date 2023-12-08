@@ -1,3 +1,3 @@
-tag @s add sheikah_slate.cryonis
+tag @s add cryonis
 
-function ssbrc:logic/init/projectile
+function ssbrc:fighters/link/logic/abilities/sheikah_slate/init

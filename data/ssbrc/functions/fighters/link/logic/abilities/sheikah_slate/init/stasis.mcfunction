@@ -1,3 +1,3 @@
-tag @s add sheikah_slate.stasis
+tag @s add stasis
 
-function ssbrc:logic/init/projectile
+function ssbrc:fighters/link/logic/abilities/sheikah_slate/init

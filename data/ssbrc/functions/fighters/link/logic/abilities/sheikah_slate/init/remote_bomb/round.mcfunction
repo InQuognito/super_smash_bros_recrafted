@@ -1,3 +1,3 @@
-tag @s add sheikah_slate.remote_bomb.round
+tag @s add remote_bomb.round
 
-function ssbrc:logic/init/projectile
+function ssbrc:fighters/link/logic/abilities/sheikah_slate/init

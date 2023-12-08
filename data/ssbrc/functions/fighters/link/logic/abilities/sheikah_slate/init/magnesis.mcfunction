@@ -1,3 +1,3 @@
-tag @s add sheikah_slate.magnesis
+tag @s add magnesis
 
-function ssbrc:logic/init/projectile
+function ssbrc:fighters/link/logic/abilities/sheikah_slate/init
