@@ -7,4 +7,6 @@ execute unless score hazards options matches 0.. run scoreboard players set haza
 execute unless score blindPick options matches 0.. run scoreboard players set blindPick options 0
 execute unless score music options matches 0.. run scoreboard players set music options 0
 
+execute unless score debug options matches 0.. run scoreboard players set debug options 0
+
 execute if score debug options matches 1 run function ssbrc:logic/options/debug/off
