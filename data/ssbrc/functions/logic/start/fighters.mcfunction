@@ -10,6 +10,7 @@ scoreboard players set @s[tag=alucard] durability 312
 scoreboard players set @s[tag=byleth] durability 318
 scoreboard players set @s[tag=link] durability 300
 scoreboard players set @s[tag=steve] durability 326
+scoreboard players set @s[tag=toon_link] durability 300
 scoreboard players set @s[tag=zelda] durability 322
 
 execute if score teams options matches 0 run scoreboard players operation team temp = @s id

@@ -31,10 +31,13 @@
 							"name": "ssbrc:fighters/link/hylian_shield/default",
 							"conditions": [
 								{
-									"condition": "minecraft:entity_properties",
-									"entity": "this",
-									"predicate": {
-										"nbt": "{Tags:[\"gold\"]}"
+									"condition": "minecraft:inverted",
+									"term": {
+										"condition": "minecraft:entity_properties",
+										"entity": "this",
+										"predicate": {
+											"nbt": "{Tags:[\"gold\"]}"
+										}
 									}
 								}
 							]
