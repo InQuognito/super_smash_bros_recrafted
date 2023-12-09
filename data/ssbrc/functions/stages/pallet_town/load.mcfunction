@@ -1,7 +1,7 @@
 scoreboard players reset * map
 scoreboard players set pallet_town map 1
-scoreboard players set songCount map 2
-scoreboard players set mapPicked mapVote 1
+scoreboard players set song_count map 2
+scoreboard players set map_picked mapVote 1
 forceload add -608 -208 -529 -97
 
 # Metapod

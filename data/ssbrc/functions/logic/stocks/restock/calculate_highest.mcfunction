@@ -2,7 +2,7 @@ tag @s add self
 
 scoreboard players reset most stocks
 
-function ssbrc:logic/fighters/check_team
+scoreboard players operation team temp = @s team
 
 scoreboard players operation most stocks > @a[scores={stocks=2..},predicate=ssbrc:team_match] stocks
 

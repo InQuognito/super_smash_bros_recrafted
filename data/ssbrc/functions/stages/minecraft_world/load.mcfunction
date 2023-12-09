@@ -1,16 +1,15 @@
 scoreboard players reset * map
-scoreboard players set minecraftWorld map 1
-scoreboard players set songCount map 2
-scoreboard players set mapPicked mapVote 1
+scoreboard players set minecraft_world map 1
+scoreboard players set song_count map 2
+scoreboard players set map_picked mapVote 1
 
-scoreboard players set max random 3
-function ssbrc:math/rng/lcg
+execute store result score random.output temp run random value 1..3
 
-execute if score result random matches 0 run function ssbrc:maps/m/minecraft_world/plains
-execute if score result random matches 1 run function ssbrc:maps/m/minecraft_world/savanna
-execute if score result random matches 2 run function ssbrc:maps/m/minecraft_world/tundra
+execute if score random.output temp matches 1 run function ssbrc:stages/minecraft_world/load/plains
+execute if score random.output temp matches 2 run function ssbrc:stages/minecraft_world/load/savanna
+execute if score random.output temp matches 3 run function ssbrc:stages/minecraft_world/load/tundra
 
 time set noon
 weather clear
 
-schedule function ssbrc:maps/m/minecraft_world/prepare 1s replace
+schedule function ssbrc:stages/minecraft_world/prepare 1s replace

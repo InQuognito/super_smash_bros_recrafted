@@ -1,7 +1,7 @@
 scoreboard players reset * map
 scoreboard players set wily_castle map 1
-scoreboard players set songCount map 2
-scoreboard players set mapPicked mapVote 1
+scoreboard players set song_count map 2
+scoreboard players set map_picked mapVote 1
 forceload add 4912 5008 5055 5119
 
 # Mural

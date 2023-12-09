@@ -1,7 +1,7 @@
 scoreboard players reset * map
 scoreboard players set hyrule_castle map 1
-scoreboard players set songCount map 3
-scoreboard players set mapPicked mapVote 1
+scoreboard players set song_count map 3
+scoreboard players set map_picked mapVote 1
 forceload add 7023 223 6944 129
 
 # Banners

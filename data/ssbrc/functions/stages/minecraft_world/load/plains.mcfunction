@@ -1,4 +1,4 @@
-scoreboard players set minecraftWorldBiome map 1
+scoreboard players set minecraft_world.biome map 1
 
 forceload add -576 -2896 -497 -2817
 
