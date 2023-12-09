@@ -4,6 +4,7 @@ scoreboard players set songCount map 2
 scoreboard players set mapPicked mapVote 1
 forceload add -1248 800 -1105 1023
 
+# Clear Logo
 fill -1220 0 921 -1156 48 923 minecraft:air
 
 execute store result score random.output temp run random value 0..3

@@ -3,7 +3,7 @@ scoreboard players set $mementosType map 3
 time set night
 
 # Logo
-clone -1117 41 993 -1143 15 992 -1201 15 921
+place template ssbrc:stages/mementos/logo/red -1201 15 921
 
 # Stage
 fill -1201 8 856 -1175 22 900 minecraft:red_concrete replace minecraft:blue_terracotta
@@ -12,7 +12,7 @@ fill -1201 8 856 -1175 22 900 minecraft:red_concrete replace minecraft:purple_co
 
 fill -1201 8 856 -1175 22 900 minecraft:black_glazed_terracotta replace minecraft:gray_glazed_terracotta
 fill -1201 8 856 -1175 22 900 minecraft:black_glazed_terracotta replace minecraft:lime_glazed_terracotta
-fill -1201 8 856 -1175 22 900 minecraft:black_glazed_terracotta replace minecraft:crying_terracotta
+fill -1201 8 856 -1175 22 900 minecraft:black_glazed_terracotta replace minecraft:crying_obsidian
 
 fill -1201 8 856 -1175 22 900 minecraft:red_stained_glass replace minecraft:blue_stained_glass
 fill -1201 8 856 -1175 22 900 minecraft:red_stained_glass replace minecraft:orange_stained_glass

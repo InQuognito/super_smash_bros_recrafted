@@ -3,7 +3,7 @@ scoreboard players set $mementosType map 1
 time set 15000
 
 # Logo
-clone -1214 45 997 -1245 20 996 -1204 15 921
+place template ssbrc:stages/mementos/logo/blue -1204 15 920
 
 # Stage
 fill -1201 8 856 -1175 22 900 minecraft:blue_terracotta replace minecraft:red_concrete
