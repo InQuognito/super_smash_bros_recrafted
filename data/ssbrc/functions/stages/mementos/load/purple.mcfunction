@@ -3,7 +3,7 @@ scoreboard players set $mementosType map 4
 time set 15000
 
 # Logo
-clone -1117 41 993 -1143 15 992 -1201 15 921
+clone -1151 15 993 -1182 46 993 -1201 15 921
 
 # Stage
 fill -1201 8 856 -1175 22 900 minecraft:purple_concrete replace minecraft:blue_terracotta
