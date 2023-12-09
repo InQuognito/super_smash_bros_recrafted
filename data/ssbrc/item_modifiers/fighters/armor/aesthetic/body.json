@@ -1448,7 +1448,7 @@
 				"condition": "minecraft:entity_properties",
 				"entity": "this",
 				"predicate": {
-					"nbt": "{Tags:[\"roy\",\"youngLion\"]}"
+					"nbt": "{Tags:[\"roy\",\"young_lion\"]}"
 				}
 			}
 		]
