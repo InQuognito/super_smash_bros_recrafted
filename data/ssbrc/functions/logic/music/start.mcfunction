@@ -157,6 +157,12 @@ execute if score $mementosType map matches 3 if score song temp matches 0 run sc
 execute if score $mementosType map matches 3 if score song temp matches 1 run playsound ssbrc:music.persona.take_over_intro music @s
 execute if score $mementosType map matches 3 if score song temp matches 1 run tellraw @s [{"translate":"ssbrc.game.music.nowPlaying","bold":true,"color":"gold"},{"translate":"ssbrc.music.takeOver","color":"yellow"}]
 execute if score $mementosType map matches 3 if score song temp matches 1 run schedule function ssbrc:logic/music/loop_schedule 339t replace
+execute if score $mementosType map matches 4 if score song temp matches 0 run playsound ssbrc:music.persona.bloody_destiny_intro music @s
+execute if score $mementosType map matches 4 if score song temp matches 0 run tellraw @s [{"translate":"ssbrc.game.music.nowPlaying","bold":true,"color":"gold"},{"translate":"ssbrc.music.bloodyDestiny","color":"yellow"}]
+execute if score $mementosType map matches 4 if score song temp matches 0 run schedule function ssbrc:logic/music/loop_schedule 202t replace
+execute if score $mementosType map matches 4 if score song temp matches 1 run playsound ssbrc:music.persona.aria_of_the_soul_intro music @s
+execute if score $mementosType map matches 4 if score song temp matches 1 run tellraw @s [{"translate":"ssbrc.game.music.nowPlaying","bold":true,"color":"gold"},{"translate":"ssbrc.music.ariaOfTheSoul","color":"yellow"}]
+execute if score $mementosType map matches 4 if score song temp matches 1 run schedule function ssbrc:logic/music/loop_schedule 407t replace
 
 execute if score $miiverse map matches 1 if score song temp matches 0 run playsound ssbrc:music.super_mario_bros.mario_paint_medley_intro music @s
 execute if score $miiverse map matches 1 if score song temp matches 0 run tellraw @s [{"translate":"ssbrc.game.music.nowPlaying","bold":true,"color":"gold"},{"translate":"ssbrc.music.marioPaintMedley","color":"yellow"}]
