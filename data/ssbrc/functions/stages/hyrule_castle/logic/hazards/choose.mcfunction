@@ -11,5 +11,5 @@ execute if score random.output temp matches 4 unless score tornadoes temp matche
 execute if score random.output temp matches 5 unless score tornadoes temp matches 3.. positioned 7028.5 37.0 164.5 summon minecraft:armor_stand run function ssbrc:stages/hyrule_castle/logic/hazards/tornadoes/init/base
 execute if score random.output temp matches 6 unless score tornadoes temp matches 3.. positioned 7028.5 37.0 219.5 summon minecraft:armor_stand run function ssbrc:stages/hyrule_castle/logic/hazards/tornadoes/init/base
 
-execute unless score #hyruleCastleHazard temp matches 1 run function ssbrc:stages/hyrule_castle/logic/hazards/choose
-scoreboard players reset #hyruleCastleHazard temp
+execute unless score #hyrule_castleHazard temp matches 1 run function ssbrc:stages/hyrule_castle/logic/hazards/choose
+scoreboard players reset #hyrule_castleHazard temp

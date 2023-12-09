@@ -5,28 +5,28 @@
 			"condition": "minecraft:entity_properties",
 			"entity": "this",
 			"predicate": {
-				"nbt": "{Tags:[\"mushroomKingdom\"]}"
+				"nbt": "{Tags:[\"mushroom_kingdom\"]}"
 			}
 		},
 		{
 			"condition": "minecraft:entity_properties",
 			"entity": "this",
 			"predicate": {
-				"nbt": "{Tags:[\"jungleJapes\"]}"
+				"nbt": "{Tags:[\"jungle_japes\"]}"
 			}
 		},
 		{
 			"condition": "minecraft:entity_properties",
 			"entity": "this",
 			"predicate": {
-				"nbt": "{Tags:[\"dreamLand\"]}"
+				"nbt": "{Tags:[\"dream_land\"]}"
 			}
 		},
 		{
 			"condition": "minecraft:entity_properties",
 			"entity": "this",
 			"predicate": {
-				"nbt": "{Tags:[\"saturnValley\"]}"
+				"nbt": "{Tags:[\"saturn_valley\"]}"
 			}
 		},
 		{
@@ -40,7 +40,7 @@
 			"condition": "minecraft:entity_properties",
 			"entity": "this",
 			"predicate": {
-				"nbt": "{Tags:[\"greenHillZone\"]}"
+				"nbt": "{Tags:[\"green_hill_zone\"]}"
 			}
 		},
 		{
@@ -54,14 +54,14 @@
 			"condition": "minecraft:entity_properties",
 			"entity": "this",
 			"predicate": {
-				"nbt": "{Tags:[\"pacMaze\"]}"
+				"nbt": "{Tags:[\"pac_maze\"]}"
 			}
 		},
 		{
 			"condition": "minecraft:entity_properties",
 			"entity": "this",
 			"predicate": {
-				"nbt": "{Tags:[\"planetEpp\"]}"
+				"nbt": "{Tags:[\"planet_epp\"]}"
 			}
 		}
 	]

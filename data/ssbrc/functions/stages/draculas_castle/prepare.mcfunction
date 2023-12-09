@@ -14,4 +14,4 @@ execute if predicate ssbrc:item_spawnpoints run function ssbrc:maps/d/draculas_c
 execute as @a[predicate=ssbrc:ingame] run function ssbrc:logic/pre_game/prepare_players
 function ssbrc:logic/pre_game/prepare_match
 
-tag @a[predicate=ssbrc:flag/player] add draculasCastle
+tag @a[predicate=ssbrc:flag/player] add draculas_castle

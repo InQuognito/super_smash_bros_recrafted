@@ -5,14 +5,14 @@
 			"condition": "minecraft:entity_properties",
 			"entity": "this",
 			"predicate": {
-				"nbt": "{Tags:[\"acropolisGraveyard\"]}"
+				"nbt": "{Tags:[\"acropolis_graveyard\"]}"
 			}
 		},
 		{
 			"condition": "minecraft:entity_properties",
 			"entity": "this",
 			"predicate": {
-				"nbt": "{Tags:[\"dreamLand\"]}"
+				"nbt": "{Tags:[\"dream_land\"]}"
 			}
 		},
 		{
@@ -33,28 +33,28 @@
 			"condition": "minecraft:entity_properties",
 			"entity": "this",
 			"predicate": {
-				"nbt": "{Tags:[\"greatBay\"]}"
+				"nbt": "{Tags:[\"great_bay\"]}"
 			}
 		},
 		{
 			"condition": "minecraft:entity_properties",
 			"entity": "this",
 			"predicate": {
-				"nbt": "{Tags:[\"greenHillZone\"]}"
+				"nbt": "{Tags:[\"green_hill_zone\"]}"
 			}
 		},
 		{
 			"condition": "minecraft:entity_properties",
 			"entity": "this",
 			"predicate": {
-				"nbt": "{Tags:[\"hyruleCastle\"]}"
+				"nbt": "{Tags:[\"hyrule_castle\"]}"
 			}
 		},
 		{
 			"condition": "minecraft:entity_properties",
 			"entity": "this",
 			"predicate": {
-				"nbt": "{Tags:[\"jungleJapes\"]}"
+				"nbt": "{Tags:[\"jungle_japes\"]}"
 			}
 		},
 		{
@@ -75,42 +75,42 @@
 			"condition": "minecraft:entity_properties",
 			"entity": "this",
 			"predicate": {
-				"nbt": "{Tags:[\"saturnValley\"]}"
+				"nbt": "{Tags:[\"saturn_valley\"]}"
 			}
 		},
 		{
 			"condition": "minecraft:entity_properties",
 			"entity": "this",
 			"predicate": {
-				"nbt": "{Tags:[\"shadowMosesIsland\"]}"
+				"nbt": "{Tags:[\"shadow_moses_island\"]}"
 			}
 		},
 		{
 			"condition": "minecraft:entity_properties",
 			"entity": "this",
 			"predicate": {
-				"nbt": "{Tags:[\"suzakuCastle\"]}"
+				"nbt": "{Tags:[\"suzaku_castle\"]}"
 			}
 		},
 		{
 			"condition": "minecraft:entity_properties",
 			"entity": "this",
 			"predicate": {
-				"nbt": "{Tags:[\"towerOfFate\"]}"
+				"nbt": "{Tags:[\"tower_of_fate\"]}"
 			}
 		},
 		{
 			"condition": "minecraft:entity_properties",
 			"entity": "this",
 			"predicate": {
-				"nbt": "{Tags:[\"wilyCastle\"]}"
+				"nbt": "{Tags:[\"wily_castle\"]}"
 			}
 		},
 		{
 			"condition": "minecraft:entity_properties",
 			"entity": "this",
 			"predicate": {
-				"nbt": "{Tags:[\"yggdrasilsAltar\"]}"
+				"nbt": "{Tags:[\"yggdrasils_altar\"]}"
 			}
 		}
 	]

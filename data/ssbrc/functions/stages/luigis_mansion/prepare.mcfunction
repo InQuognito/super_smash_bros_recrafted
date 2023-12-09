@@ -1,5 +1,5 @@
-execute as @e[tag=luigisMansion.painting,sort=random,limit=1] run function ssbrc:stages/luigis_mansion/logic/decide_painting
-execute as @e[tag=luigisMansion.paintingSmall,sort=random,limit=1] run function ssbrc:stages/luigis_mansion/logic/decide_painting_small
+execute as @e[tag=luigis_mansion.painting,sort=random,limit=1] run function ssbrc:stages/luigis_mansion/logic/decide_painting
+execute as @e[tag=luigis_mansion.paintingSmall,sort=random,limit=1] run function ssbrc:stages/luigis_mansion/logic/decide_painting_small
 
 summon minecraft:marker -325.5 0.0 -1133.5 {Tags:["centerPoint"]}
 
@@ -28,4 +28,4 @@ function ssbrc:stages/luigis_mansion/logic/blackout/off
 execute as @a[predicate=ssbrc:ingame] run function ssbrc:logic/pre_game/prepare_players
 function ssbrc:logic/pre_game/prepare_match
 
-tag @a[predicate=ssbrc:flag/player] add luigisMansion
+tag @a[predicate=ssbrc:flag/player] add luigis_mansion

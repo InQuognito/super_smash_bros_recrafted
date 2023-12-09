@@ -14,4 +14,4 @@ execute if predicate ssbrc:item_spawnpoints run function ssbrc:maps/p/planet_epp
 execute as @a[predicate=ssbrc:ingame] run function ssbrc:logic/pre_game/prepare_players
 function ssbrc:logic/pre_game/prepare_match
 
-tag @a[predicate=ssbrc:flag/player] add planetEpp
+tag @a[predicate=ssbrc:flag/player] add planet_epp

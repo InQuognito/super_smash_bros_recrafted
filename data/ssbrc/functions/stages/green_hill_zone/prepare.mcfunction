@@ -14,4 +14,4 @@ execute if predicate ssbrc:item_spawnpoints run function ssbrc:maps/g/green_hill
 execute as @a[predicate=ssbrc:ingame] run function ssbrc:logic/pre_game/prepare_players
 function ssbrc:logic/pre_game/prepare_match
 
-tag @a[predicate=ssbrc:flag/player] add greenHillZone
+tag @a[predicate=ssbrc:flag/player] add green_hill_zone

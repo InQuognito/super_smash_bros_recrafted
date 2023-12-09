@@ -137,7 +137,7 @@ scoreboard objectives add timer.stat.death dummy
 scoreboard objectives add timer.stat.kill dummy
 scoreboard objectives add timer.trident dummy
 scoreboard objectives add temp dummy
-scoreboard objectives add towerOfFateBarrier dummy
+scoreboard objectives add tower_of_fateBarrier dummy
 scoreboard objectives add useAbility minecraft.used:minecraft.carrot_on_a_stick
 scoreboard objectives add useItem minecraft.used:minecraft.warped_fungus_on_a_stick
 scoreboard objectives add vars dummy

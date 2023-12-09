@@ -12,7 +12,7 @@
 			"condition": "minecraft:entity_properties",
 			"entity": "this",
 			"predicate": {
-				"nbt": "{Tags:[\"icicleMountain\"]}"
+				"nbt": "{Tags:[\"icicle_mountain\"]}"
 			}
 		},
 		{
@@ -40,21 +40,21 @@
 			"condition": "minecraft:entity_properties",
 			"entity": "this",
 			"predicate": {
-				"nbt": "{Tags:[\"palletTown\"]}"
+				"nbt": "{Tags:[\"pallet_town\"]}"
 			}
 		},
 		{
 			"condition": "minecraft:entity_properties",
 			"entity": "this",
 			"predicate": {
-				"nbt": "{Tags:[\"palutenasTemple\"]}"
+				"nbt": "{Tags:[\"palutenas_temple\"]}"
 			}
 		},
 		{
 			"condition": "minecraft:entity_properties",
 			"entity": "this",
 			"predicate": {
-				"nbt": "{Tags:[\"planetZebes\"]}"
+				"nbt": "{Tags:[\"planet_zebes\"]}"
 			}
 		},
 		{
@@ -68,14 +68,14 @@
 			"condition": "minecraft:entity_properties",
 			"entity": "this",
 			"predicate": {
-				"nbt": "{Tags:[\"spearPillar\"]}"
+				"nbt": "{Tags:[\"spear_pillar\"]}"
 			}
 		},
 		{
 			"condition": "minecraft:entity_properties",
 			"entity": "this",
 			"predicate": {
-				"nbt": "{Tags:[\"towerOfFate\"]}"
+				"nbt": "{Tags:[\"tower_of_fate\"]}"
 			}
 		}
 	]

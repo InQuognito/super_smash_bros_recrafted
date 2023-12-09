@@ -5,35 +5,35 @@
 			"condition": "minecraft:entity_properties",
 			"entity": "this",
 			"predicate": {
-				"nbt": "{Tags:[\"bowsersCastle\"]}"
+				"nbt": "{Tags:[\"bowsers_castle\"]}"
 			}
 		},
 		{
 			"condition": "minecraft:entity_properties",
 			"entity": "this",
 			"predicate": {
-				"nbt": "{Tags:[\"castleSiege\"]}"
+				"nbt": "{Tags:[\"castle_siege\"]}"
 			}
 		},
 		{
 			"condition": "minecraft:entity_properties",
 			"entity": "this",
 			"predicate": {
-				"nbt": "{Tags:[\"draculasCastle\"]}"
+				"nbt": "{Tags:[\"draculas_castle\"]}"
 			}
 		},
 		{
 			"condition": "minecraft:entity_properties",
 			"entity": "this",
 			"predicate": {
-				"nbt": "{Tags:[\"dreamLand\"]}"
+				"nbt": "{Tags:[\"dream_land\"]}"
 			}
 		},
 		{
 			"condition": "minecraft:entity_properties",
 			"entity": "this",
 			"predicate": {
-				"nbt": "{Tags:[\"frozenHijinx\"]}"
+				"nbt": "{Tags:[\"frozen_hijinx\"]}"
 			}
 		},
 		{
@@ -47,63 +47,63 @@
 			"condition": "minecraft:entity_properties",
 			"entity": "this",
 			"predicate": {
-				"nbt": "{Tags:[\"greatBay\"]}"
+				"nbt": "{Tags:[\"great_bay\"]}"
 			}
 		},
 		{
 			"condition": "minecraft:entity_properties",
 			"entity": "this",
 			"predicate": {
-				"nbt": "{Tags:[\"greenHillZone\"]}"
+				"nbt": "{Tags:[\"green_hill_zone\"]}"
 			}
 		},
 		{
 			"condition": "minecraft:entity_properties",
 			"entity": "this",
 			"predicate": {
-				"nbt": "{Tags:[\"hyruleCastle\"]}"
+				"nbt": "{Tags:[\"hyrule_castle\"]}"
 			}
 		},
 		{
 			"condition": "minecraft:entity_properties",
 			"entity": "this",
 			"predicate": {
-				"nbt": "{Tags:[\"jungleJapes\"]}"
+				"nbt": "{Tags:[\"jungle_japes\"]}"
 			}
 		},
 		{
 			"condition": "minecraft:entity_properties",
 			"entity": "this",
 			"predicate": {
-				"nbt": "{Tags:[\"pacMaze\"]}"
+				"nbt": "{Tags:[\"pac_maze\"]}"
 			}
 		},
 		{
 			"condition": "minecraft:entity_properties",
 			"entity": "this",
 			"predicate": {
-				"nbt": "{Tags:[\"saturnValley\"]}"
+				"nbt": "{Tags:[\"saturn_valley\"]}"
 			}
 		},
 		{
 			"condition": "minecraft:entity_properties",
 			"entity": "this",
 			"predicate": {
-				"nbt": "{Tags:[\"sectorZ\"]}"
+				"nbt": "{Tags:[\"sector_z\"]}"
 			}
 		},
 		{
 			"condition": "minecraft:entity_properties",
 			"entity": "this",
 			"predicate": {
-				"nbt": "{Tags:[\"shadowMosesIsland\"]}"
+				"nbt": "{Tags:[\"shadow_moses_island\"]}"
 			}
 		},
 		{
 			"condition": "minecraft:entity_properties",
 			"entity": "this",
 			"predicate": {
-				"nbt": "{Tags:[\"wilyCastle\"]}"
+				"nbt": "{Tags:[\"wily_castle\"]}"
 			}
 		}
 	]

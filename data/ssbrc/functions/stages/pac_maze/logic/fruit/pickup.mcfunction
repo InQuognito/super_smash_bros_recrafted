@@ -12,5 +12,5 @@ execute if entity @s[tag=strawberry] run effect give @p[predicate=ssbrc:flag/pla
 
 kill @s
 
-execute if score pacMazeType map matches 1 run playsound ssbrc:stages.pac_maze.pac_maze.eat_fruit player @a
-execute if score pacMazeType map matches 2 run playsound ssbrc:stages.pac_maze.mrs_pac_maze.eat_fruit player @a
+execute if score pac_mazeType map matches 1 run playsound ssbrc:stages.pac_maze.pac_maze.eat_fruit player @a
+execute if score pac_mazeType map matches 2 run playsound ssbrc:stages.pac_maze.mrs_pac_maze.eat_fruit player @a
