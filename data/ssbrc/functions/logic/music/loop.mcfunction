@@ -161,6 +161,12 @@ execute if score $mementosType map matches 3 if score song temp matches 0 if sco
 execute if score $mementosType map matches 3 if score song temp matches 1 run playsound ssbrc:music.persona.take_over music @s
 execute if score $mementosType map matches 3 if score song temp matches 1 if score music options matches 0 run schedule function ssbrc:logic/music/loop_schedule 3365t replace
 execute if score $mementosType map matches 3 if score song temp matches 1 if score music options matches 1 run schedule function ssbrc:logic/music/decide 3365t replace
+execute if score $mementosType map matches 4 if score song temp matches 0 run playsound ssbrc:music.persona.bloody_destiny music @s
+execute if score $mementosType map matches 4 if score song temp matches 0 if score music options matches 0 run schedule function ssbrc:logic/music/loop_schedule 1313t replace
+execute if score $mementosType map matches 4 if score song temp matches 0 if score music options matches 1 run schedule function ssbrc:logic/music/decide 1313t replace
+execute if score $mementosType map matches 4 if score song temp matches 1 run playsound ssbrc:music.persona.aria_of_the_soul music @s
+execute if score $mementosType map matches 4 if score song temp matches 1 if score music options matches 0 run schedule function ssbrc:logic/music/loop_schedule 3007t replace
+execute if score $mementosType map matches 4 if score song temp matches 1 if score music options matches 1 run schedule function ssbrc:logic/music/decide 3007t replace
 
 execute if score $miiverse map matches 1 if score song temp matches 0 run playsound ssbrc:music.super_mario_bros.mario_paint_medley music @s
 execute if score $miiverse map matches 1 if score song temp matches 0 if score music options matches 0 run schedule function ssbrc:logic/music/loop_schedule 2050t replace
