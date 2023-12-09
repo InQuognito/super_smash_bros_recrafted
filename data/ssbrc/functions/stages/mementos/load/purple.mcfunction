@@ -1,6 +1,6 @@
 scoreboard players set $mementosType map 4
 
-time set night
+time set 15000
 
 # Logo
 clone -1117 41 993 -1143 15 992 -1201 15 921
