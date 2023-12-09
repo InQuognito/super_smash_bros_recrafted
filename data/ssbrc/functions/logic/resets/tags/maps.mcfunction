@@ -14,13 +14,13 @@ tag @s remove dreamLand
 
 tag @s remove finalDestination
 
-tag @s remove flatZone
+tag @s remove flat_zone
 
 tag @s remove frozenHijinx
 tag @s remove followCannonPath
 tag @s remove inCannon
 
-tag @s remove gardenOfHope
+tag @s remove garden_of_hope
 
 tag @s remove greatBay
 
@@ -62,7 +62,7 @@ tag @s remove pyrosphere
 
 tag @s remove saturnValley
 
-tag @s remove sandOcean
+tag @s remove sand_ocean
 tag @s remove quicksand
 
 tag @s remove sectorZ

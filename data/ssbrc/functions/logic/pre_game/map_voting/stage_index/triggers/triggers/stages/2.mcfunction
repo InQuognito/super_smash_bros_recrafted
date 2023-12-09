@@ -16,7 +16,7 @@ execute if score @s shopCalculator matches 1.. run function ssbrc:stages/saturn_
 execute store result score @s shopCalculator run clear @s #ssbrc:ui/buttons{ui:{id:"stages.magicant"}}
 execute if score @s shopCalculator matches 1.. run function ssbrc:stages/magicant/vote
 
-execute store result score @s shopCalculator run clear @s #ssbrc:ui/buttons{ui:{id:"stages.sandOcean"}}
+execute store result score @s shopCalculator run clear @s #ssbrc:ui/buttons{ui:{id:"stages.sand_ocean"}}
 execute if score @s shopCalculator matches 1.. run function ssbrc:stages/sand_ocean/vote
 
 execute store result score @s shopCalculator run clear @s #ssbrc:ui/buttons{ui:{id:"stages.icicleMountain"}}
@@ -25,7 +25,7 @@ execute if score @s shopCalculator matches 1.. run function ssbrc:stages/icicle_
 execute store result score @s shopCalculator run clear @s #ssbrc:ui/buttons{ui:{id:"stages.castleSiege"}}
 execute if score @s shopCalculator matches 1.. run function ssbrc:stages/castle_siege/vote
 
-execute store result score @s shopCalculator run clear @s #ssbrc:ui/buttons{ui:{id:"stages.flatZone"}}
+execute store result score @s shopCalculator run clear @s #ssbrc:ui/buttons{ui:{id:"stages.flat_zone"}}
 execute if score @s shopCalculator matches 1.. run function ssbrc:stages/flat_zone/vote
 
 execute store result score @s shopCalculator run clear @s #ssbrc:ui/buttons{ui:{id:"stages.palutenasTemple"}}
@@ -37,7 +37,7 @@ execute if score @s shopCalculator matches 1.. run function ssbrc:stages/shadow_
 execute store result score @s shopCalculator run clear @s #ssbrc:ui/buttons{ui:{id:"stages.greenHillZone"}}
 execute if score @s shopCalculator matches 1.. run function ssbrc:stages/green_hill_zone/vote
 
-execute store result score @s shopCalculator run clear @s #ssbrc:ui/buttons{ui:{id:"stages.gardenOfHope"}}
+execute store result score @s shopCalculator run clear @s #ssbrc:ui/buttons{ui:{id:"stages.garden_of_hope"}}
 execute if score @s shopCalculator matches 1.. run function ssbrc:stages/garden_of_hope/vote
 
 execute store result score @s shopCalculator run clear @s #ssbrc:ui/buttons{ui:{id:"stages.wilyCastle"}}

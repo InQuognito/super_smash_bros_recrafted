@@ -14,4 +14,4 @@ execute if predicate ssbrc:item_spawnpoints run function ssbrc:maps/s/sand_ocean
 execute as @a[predicate=ssbrc:ingame] run function ssbrc:logic/pre_game/prepare_players
 function ssbrc:logic/pre_game/prepare_match
 
-tag @a[predicate=ssbrc:flag/player] add sandOcean
+tag @a[predicate=ssbrc:flag/player] add sand_ocean

@@ -1,5 +1,5 @@
 scoreboard players reset * map
-scoreboard players set $flatZone map 1
+scoreboard players set flat_zone map 1
 scoreboard players set songCount map 2
 scoreboard players set mapPicked mapVote 1
 forceload add 752 176 799 223

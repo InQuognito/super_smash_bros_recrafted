@@ -14,4 +14,4 @@ execute if predicate ssbrc:item_spawnpoints run function ssbrc:maps/f/flat_zone/
 execute as @a[predicate=ssbrc:ingame] run function ssbrc:logic/pre_game/prepare_players
 function ssbrc:logic/pre_game/prepare_match
 
-tag @a[predicate=ssbrc:flag/player] add flatZone
+tag @a[predicate=ssbrc:flag/player] add flat_zone

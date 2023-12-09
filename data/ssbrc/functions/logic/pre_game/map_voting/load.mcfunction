@@ -9,9 +9,9 @@ summon minecraft:text_display ~ ~ ~ {Tags:["voteCounter","bowsersCastle"],billbo
 summon minecraft:text_display ~ ~ ~ {Tags:["voteCounter","castleSiege"],billboard:center}
 summon minecraft:text_display ~ ~ ~ {Tags:["voteCounter","draculasCastle"],billboard:center}
 summon minecraft:text_display ~ ~ ~ {Tags:["voteCounter","dreamLand"],billboard:center}
-summon minecraft:text_display ~ ~ ~ {Tags:["voteCounter","flatZone"],billboard:center}
+summon minecraft:text_display ~ ~ ~ {Tags:["voteCounter","flat_zone"],billboard:center}
 summon minecraft:text_display ~ ~ ~ {Tags:["voteCounter","frozenHijinx"],billboard:center}
-summon minecraft:text_display ~ ~ ~ {Tags:["voteCounter","gardenOfHope"],billboard:center}
+summon minecraft:text_display ~ ~ ~ {Tags:["voteCounter","garden_of_hope"],billboard:center}
 summon minecraft:text_display ~ ~ ~ {Tags:["voteCounter","greatBay"],billboard:center}
 summon minecraft:text_display ~ ~ ~ {Tags:["voteCounter","greatPlateau"],billboard:center}
 summon minecraft:text_display ~ ~ ~ {Tags:["voteCounter","greenHillZone"],billboard:center}
@@ -30,7 +30,7 @@ summon minecraft:text_display ~ ~ ~ {Tags:["voteCounter","palutenasTemple"],bill
 summon minecraft:text_display ~ ~ ~ {Tags:["voteCounter","planetEpp"],billboard:center}
 summon minecraft:text_display ~ ~ ~ {Tags:["voteCounter","planetZebes"],billboard:center}
 summon minecraft:text_display ~ ~ ~ {Tags:["voteCounter","pyrosphere"],billboard:center}
-summon minecraft:text_display ~ ~ ~ {Tags:["voteCounter","sandOcean"],billboard:center}
+summon minecraft:text_display ~ ~ ~ {Tags:["voteCounter","sand_ocean"],billboard:center}
 summon minecraft:text_display ~ ~ ~ {Tags:["voteCounter","saturnValley"],billboard:center}
 summon minecraft:text_display ~ ~ ~ {Tags:["voteCounter","sectorZ"],billboard:center}
 summon minecraft:text_display ~ ~ ~ {Tags:["voteCounter","shadowMosesIsland"],billboard:center}

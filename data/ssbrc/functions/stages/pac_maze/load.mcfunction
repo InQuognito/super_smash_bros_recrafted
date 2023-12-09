@@ -1,5 +1,5 @@
 scoreboard players reset * map
-scoreboard players set pacMaze map 1
+scoreboard players set pac_maze map 1
 scoreboard players set songCount map 2
 scoreboard players set mapPicked mapVote 1
 

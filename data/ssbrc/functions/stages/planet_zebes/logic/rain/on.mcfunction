@@ -1,4 +1,4 @@
-scoreboard players set $planetZebesRain temp 1
+scoreboard players set planet_zebesRain temp 1
 
 weather rain
 

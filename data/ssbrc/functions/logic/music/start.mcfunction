@@ -1,292 +1,77 @@
 execute if score debug options matches 1 run tellraw @s {"score":{"name":"song","objective":"temp"},"color":"yellow"}
 
-execute if score $acropolisGraveyard map matches 1 if score song temp matches 0 run playsound ssbrc:music.altered_beast.anatasia_battle_intro music @s
-execute if score $acropolisGraveyard map matches 1 if score song temp matches 0 run tellraw @s [{"translate":"ssbrc.game.music.nowPlaying","bold":true,"color":"gold"},{"translate":"ssbrc.music.anatasiaBattle","color":"yellow"}]
-execute if score $acropolisGraveyard map matches 1 if score song temp matches 0 run schedule function ssbrc:logic/music/loop_schedule 320t replace
-execute if score $acropolisGraveyard map matches 1 if score song temp matches 1 run playsound ssbrc:music.altered_beast.rise_from_your_grave_intro music @s
-execute if score $acropolisGraveyard map matches 1 if score song temp matches 1 run tellraw @s [{"translate":"ssbrc.game.music.nowPlaying","bold":true,"color":"gold"},{"translate":"ssbrc.music.riseFromYourGrave","color":"yellow"}]
-execute if score $acropolisGraveyard map matches 1 if score song temp matches 1 run schedule function ssbrc:logic/music/loop_schedule 2400t replace
+execute if score acropolis_graveyard map matches 1 run function ssbrc:logic/music/stages/acropolis_graveyard {type:intro}
 
-execute if score $battlefield map matches 1 if score song temp matches 0 run tellraw @s [{"translate":"ssbrc.game.music.nowPlaying","bold":true,"color":"gold"},{"translate":"ssbrc.music.aquosArena","color":"yellow"}]
-execute if score $battlefield map matches 1 if score song temp matches 0 run function ssbrc:logic/music/loop_schedule
-execute if score $battlefield map matches 1 if score song temp matches 1 run playsound ssbrc:music.final_fantasy.battle_on_the_big_bridge_intro music @s
-execute if score $battlefield map matches 1 if score song temp matches 1 run tellraw @s [{"translate":"ssbrc.game.music.nowPlaying","bold":true,"color":"gold"},{"translate":"ssbrc.music.battleOnTheBigBridge","color":"yellow"}]
-execute if score $battlefield map matches 1 if score song temp matches 1 run schedule function ssbrc:logic/music/loop_schedule 660t replace
+execute if score battlefield map matches 1 run function ssbrc:logic/music/stages/battlefield {type:intro}
 
-execute if score $bigBattlefield map matches 1 if score song temp matches 0 run tellraw @s [{"translate":"ssbrc.game.music.nowPlaying","bold":true,"color":"gold"},{"translate":"ssbrc.music.rockSolid","color":"yellow"}]
-execute if score $bigBattlefield map matches 1 if score song temp matches 0 run function ssbrc:logic/music/loop_schedule
-execute if score $bigBattlefield map matches 1 if score song temp matches 1 run playsound ssbrc:music.misc.the_eel_deal_intro music @s
-execute if score $bigBattlefield map matches 1 if score song temp matches 1 run tellraw @s [{"translate":"ssbrc.game.music.nowPlaying","bold":true,"color":"gold"},{"translate":"ssbrc.music.theEelDeal","color":"yellow"}]
-execute if score $bigBattlefield map matches 1 if score song temp matches 1 run schedule function ssbrc:logic/music/loop_schedule 140t replace
+execute if score big_battlefield map matches 1 run function ssbrc:logic/music/stages/big_battlefield {type:intro}
 
-execute if score $bowsersCastle map matches 1 if score song temp matches 0 run playsound ssbrc:music.super_mario_bros.bowsers_lava_lair_intro music @s
-execute if score $bowsersCastle map matches 1 if score song temp matches 0 run tellraw @s [{"translate":"ssbrc.game.music.nowPlaying","bold":true,"color":"gold"},{"translate":"ssbrc.music.bowsersLavaLair","color":"yellow"}]
-execute if score $bowsersCastle map matches 1 if score song temp matches 0 run schedule function ssbrc:logic/music/loop_schedule 1460t replace
-execute if score $bowsersCastle map matches 1 if score song temp matches 1 run playsound ssbrc:music.super_mario_bros.chase_giga_bowser_intro music @s
-execute if score $bowsersCastle map matches 1 if score song temp matches 1 run tellraw @s [{"translate":"ssbrc.game.music.nowPlaying","bold":true,"color":"gold"},{"translate":"ssbrc.music.chaseGigaBowser","color":"yellow"}]
-execute if score $bowsersCastle map matches 1 if score song temp matches 1 run schedule function ssbrc:logic/music/loop_schedule 960t replace
+execute if score bowsers_castle map matches 1 run function ssbrc:logic/music/stages/bowsers_castle {type:intro}
 
-execute if score $castleSiege map matches 1 if score song temp matches 0 run playsound ssbrc:music.fire_emblem.story_5_meeting_intro music @s
-execute if score $castleSiege map matches 1 if score song temp matches 0 run tellraw @s [{"translate":"ssbrc.game.music.nowPlaying","bold":true,"color":"gold"},{"translate":"ssbrc.music.story5Meeting","color":"yellow"}]
-execute if score $castleSiege map matches 1 if score song temp matches 0 run schedule function ssbrc:logic/music/loop_schedule 20t replace
-execute if score $castleSiege map matches 1 if score song temp matches 1 run playsound ssbrc:music.fire_emblem.with_milas_divine_protection_intro music @s
-execute if score $castleSiege map matches 1 if score song temp matches 1 run tellraw @s [{"translate":"ssbrc.game.music.nowPlaying","bold":true,"color":"gold"},{"translate":"ssbrc.music.withMilasDivineProtection","color":"yellow"}]
-execute if score $castleSiege map matches 1 if score song temp matches 1 run schedule function ssbrc:logic/music/loop_schedule 135t replace
+execute if score castle_siege map matches 1 run function ssbrc:logic/music/stages/castle_siege {type:intro}
 
-execute if score $draculasCastle map matches 1 if score song temp matches 0 run playsound ssbrc:music.castlevania.aquarius_intro music @s
-execute if score $draculasCastle map matches 1 if score song temp matches 0 run tellraw @s [{"translate":"ssbrc.game.music.nowPlaying","bold":true,"color":"gold"},{"translate":"ssbrc.music.aquarius","color":"yellow"}]
-execute if score $draculasCastle map matches 1 if score song temp matches 0 run schedule function ssbrc:logic/music/loop_schedule 795t replace
-execute if score $draculasCastle map matches 1 if score song temp matches 1 run playsound ssbrc:music.castlevania.bloody_tears_intro music @s
-execute if score $draculasCastle map matches 1 if score song temp matches 1 run tellraw @s [{"translate":"ssbrc.game.music.nowPlaying","bold":true,"color":"gold"},{"translate":"ssbrc.music.bloodyTears","color":"yellow"}]
-execute if score $draculasCastle map matches 1 if score song temp matches 1 run schedule function ssbrc:logic/music/loop_schedule 1220t replace
+execute if score draculas_castle map matches 1 run function ssbrc:logic/music/stages/draculas_castle {type:intro}
 
-execute if score $dreamLand map matches 1 if score song temp matches 0 run playsound ssbrc:music.kirby.checker_knights_intro music @s
-execute if score $dreamLand map matches 1 if score song temp matches 0 run tellraw @s [{"translate":"ssbrc.game.music.nowPlaying","bold":true,"color":"gold"},{"translate":"ssbrc.music.checkerKnights","color":"yellow"}]
-execute if score $dreamLand map matches 1 if score song temp matches 0 run schedule function ssbrc:logic/music/loop_schedule 128t replace
-execute if score $dreamLand map matches 1 if score song temp matches 1 run playsound ssbrc:music.kirby.planet_popstar_intro music @s
-execute if score $dreamLand map matches 1 if score song temp matches 1 run tellraw @s [{"translate":"ssbrc.game.music.nowPlaying","bold":true,"color":"gold"},{"translate":"ssbrc.music.planetPopstar","color":"yellow"}]
-execute if score $dreamLand map matches 1 if score song temp matches 1 run schedule function ssbrc:logic/music/loop_schedule 45t replace
+execute if score dream_land map matches 1 run function ssbrc:logic/music/stages/dream_land {type:intro}
 
-execute if score $finalDestination map matches 1 if score song temp matches 0 run playsound ssbrc:music.super_smash_bros.final_destination_melee_intro music @s
-execute if score $finalDestination map matches 1 if score song temp matches 0 run tellraw @s [{"translate":"ssbrc.game.music.nowPlaying","bold":true,"color":"gold"},{"translate":"ssbrc.music.finalDestinationMelee","color":"yellow"}]
-execute if score $finalDestination map matches 1 if score song temp matches 0 run schedule function ssbrc:logic/music/loop_schedule 42t replace
-execute if score $finalDestination map matches 1 if score song temp matches 1 run playsound ssbrc:music.super_smash_bros.master_hand_fight_intro music @s
-execute if score $finalDestination map matches 1 if score song temp matches 1 run tellraw @s [{"translate":"ssbrc.game.music.nowPlaying","bold":true,"color":"gold"},{"translate":"ssbrc.music.masterHandFight","color":"yellow"}]
-execute if score $finalDestination map matches 1 if score song temp matches 1 run schedule function ssbrc:logic/music/loop_schedule 840t replace
+execute if score final_destination map matches 1 run function ssbrc:logic/music/stages/final_destination {type:intro}
 
-execute if score $flatZone map matches 1 if score song temp matches 0 run playsound ssbrc:music.game_and_watch.flat_zone_intro music @s
-execute if score $flatZone map matches 1 if score song temp matches 0 run tellraw @s [{"translate":"ssbrc.game.music.nowPlaying","bold":true,"color":"gold"},{"translate":"ssbrc.stages.flatZone","color":"yellow"}]
-execute if score $flatZone map matches 1 if score song temp matches 0 run schedule function ssbrc:logic/music/loop_schedule 165t replace
-execute if score $flatZone map matches 1 if score song temp matches 1 run playsound ssbrc:music.game_and_watch.flat_zone_2_intro music @s
-execute if score $flatZone map matches 1 if score song temp matches 1 run tellraw @s [{"translate":"ssbrc.game.music.nowPlaying","bold":true,"color":"gold"},{"translate":"ssbrc.music.flatZone2","color":"yellow"}]
-execute if score $flatZone map matches 1 if score song temp matches 1 run schedule function ssbrc:logic/music/loop_schedule 540t replace
+execute if score flat_zone map matches 1 run function ssbrc:logic/music/stages/flat_zone {type:intro}
 
-execute if score $frozenHijinx map matches 1 if score song temp matches 0 run playsound ssbrc:music.donkey_kong.homecoming_hijinx_intro music @s
-execute if score $frozenHijinx map matches 1 if score song temp matches 0 run tellraw @s [{"translate":"ssbrc.game.music.nowPlaying","bold":true,"color":"gold"},{"translate":"ssbrc.music.homecomingHijinx","color":"yellow"}]
-execute if score $frozenHijinx map matches 1 if score song temp matches 0 run schedule function ssbrc:logic/music/loop_schedule 620t replace
-execute if score $frozenHijinx map matches 1 if score song temp matches 1 run playsound ssbrc:music.donkey_kong.stickerbrush_symphony_intro music @s
-execute if score $frozenHijinx map matches 1 if score song temp matches 1 run tellraw @s [{"translate":"ssbrc.game.music.nowPlaying","bold":true,"color":"gold"},{"translate":"ssbrc.music.stickerbrushSymphony","color":"yellow"}]
-execute if score $frozenHijinx map matches 1 if score song temp matches 1 run schedule function ssbrc:logic/music/loop_schedule 140t replace
+execute if score frozen_hijinx map matches 1 run function ssbrc:logic/music/stages/frozen_hijinx {type:intro}
 
-execute if score $gardenOfHope map matches 1 if score song temp matches 0 run playsound ssbrc:music.pikmin.forest_of_hope_intro music @s
-execute if score $gardenOfHope map matches 1 if score song temp matches 0 run tellraw @s [{"translate":"ssbrc.game.music.nowPlaying","bold":true,"color":"gold"},{"translate":"ssbrc.music.forestOfHope","color":"yellow"}]
-execute if score $gardenOfHope map matches 1 if score song temp matches 0 run schedule function ssbrc:logic/music/loop_schedule 120t replace
-execute if score $gardenOfHope map matches 1 if score song temp matches 1 run playsound ssbrc:music.pikmin.garden_of_hope_intro music @s
-execute if score $gardenOfHope map matches 1 if score song temp matches 1 run tellraw @s [{"translate":"ssbrc.game.music.nowPlaying","bold":true,"color":"gold"},{"translate":"ssbrc.stages.gardenOfHope","color":"yellow"}]
-execute if score $gardenOfHope map matches 1 if score song temp matches 1 run schedule function ssbrc:logic/music/loop_schedule 200t replace
+execute if score garden_of_hope map matches 1 run function ssbrc:logic/music/stages/garden_of_hope {type:intro}
 
-execute if score $greatBay map matches 1 if score song temp matches 0 run playsound ssbrc:music.the_legend_of_zelda.legend_of_zelda_main_theme_intro music @s
-execute if score $greatBay map matches 1 if score song temp matches 0 run tellraw @s [{"translate":"ssbrc.game.music.nowPlaying","bold":true,"color":"gold"},{"translate":"ssbrc.music.legendOfZeldaMainTheme","color":"yellow"}]
-execute if score $greatBay map matches 1 if score song temp matches 0 run schedule function ssbrc:logic/music/loop_schedule 144t replace
-execute if score $greatBay map matches 1 if score song temp matches 1 run playsound ssbrc:music.the_legend_of_zelda.termina_field_intro music @s
-execute if score $greatBay map matches 1 if score song temp matches 1 run tellraw @s [{"translate":"ssbrc.game.music.nowPlaying","bold":true,"color":"gold"},{"translate":"ssbrc.music.terminaField","color":"yellow"}]
-execute if score $greatBay map matches 1 if score song temp matches 1 run schedule function ssbrc:logic/music/loop_schedule 360t replace
+execute if score great_bay map matches 1 run function ssbrc:logic/music/stages/great_bay {type:intro}
 
-execute if score $greatPlateau map matches 1 if score song temp matches 0 run playsound ssbrc:music.the_legend_of_zelda.kass_theme_intro music @s
-execute if score $greatPlateau map matches 1 if score song temp matches 0 run tellraw @s [{"translate":"ssbrc.game.music.nowPlaying","bold":true,"color":"gold"},{"translate":"ssbrc.music.kassTheme","color":"yellow"}]
-execute if score $greatPlateau map matches 1 if score song temp matches 0 run schedule function ssbrc:logic/music/loop_schedule 160t replace
-execute if score $greatPlateau map matches 1 if score song temp matches 1 run playsound ssbrc:music.the_legend_of_zelda.legend_of_zelda_main_theme_intro music @s
-execute if score $greatPlateau map matches 1 if score song temp matches 1 run tellraw @s [{"translate":"ssbrc.game.music.nowPlaying","bold":true,"color":"gold"},{"translate":"ssbrc.music.legendOfZeldaMainTheme","color":"yellow"}]
-execute if score $greatPlateau map matches 1 if score song temp matches 1 run schedule function ssbrc:logic/music/loop_schedule 140t replace
-execute if score $greatPlateau map matches 1 if score song temp matches 2 run playsound ssbrc:music.the_legend_of_zelda.rescue_operation_intro music @s
-execute if score $greatPlateau map matches 1 if score song temp matches 2 run tellraw @s [{"translate":"ssbrc.game.music.nowPlaying","bold":true,"color":"gold"},{"translate":"ssbrc.music.rescueOperation","color":"yellow"}]
-execute if score $greatPlateau map matches 1 if score song temp matches 2 run schedule function ssbrc:logic/music/loop_schedule 160t replace
+execute if score great_plateau map matches 1 run function ssbrc:logic/music/stages/great_plateau {type:intro}
 
-execute if score $greenHillZone map matches 1 if score song temp matches 0 run playsound ssbrc:music.sonic_the_hedgehog.sonic_adventure_2_intro music @s
-execute if score $greenHillZone map matches 1 if score song temp matches 0 run tellraw @s [{"translate":"ssbrc.game.music.nowPlaying","bold":true,"color":"gold"},{"translate":"ssbrc.music.greenHillZoneSonicAdventure2","color":"yellow"}]
-execute if score $greenHillZone map matches 1 if score song temp matches 0 run schedule function ssbrc:logic/music/loop_schedule 304t replace
-execute if score $greenHillZone map matches 1 if score song temp matches 1 run playsound ssbrc:music.sonic_the_hedgehog.sonic_mania_intro music @s
-execute if score $greenHillZone map matches 1 if score song temp matches 1 run tellraw @s [{"translate":"ssbrc.game.music.nowPlaying","bold":true,"color":"gold"},{"translate":"ssbrc.music.greenHillZoneSonicMania","color":"yellow"}]
-execute if score $greenHillZone map matches 1 if score song temp matches 1 run schedule function ssbrc:logic/music/loop_schedule 297t replace
+execute if score green_hill_zone map matches 1 run function ssbrc:logic/music/stages/green_hill_zone {type:intro}
 
-execute if score $hyruleCastle map matches 1 if score song temp matches 0 run playsound ssbrc:music.the_legend_of_zelda.ballad_of_the_goddess_intro music @s
-execute if score $hyruleCastle map matches 1 if score song temp matches 0 run tellraw @s [{"translate":"ssbrc.game.music.nowPlaying","bold":true,"color":"gold"},{"translate":"ssbrc.music.balladOfTheGoddess","color":"yellow"}]
-execute if score $hyruleCastle map matches 1 if score song temp matches 0 run schedule function ssbrc:logic/music/loop_schedule 500t replace
-execute if score $hyruleCastle map matches 1 if score song temp matches 1 run playsound ssbrc:music.the_legend_of_zelda.hyrule_castle_theme_intro music @s
-execute if score $hyruleCastle map matches 1 if score song temp matches 1 run tellraw @s [{"translate":"ssbrc.game.music.nowPlaying","bold":true,"color":"gold"},{"translate":"ssbrc.music.hyruleCastleTheme","color":"yellow"}]
-execute if score $hyruleCastle map matches 1 if score song temp matches 1 run schedule function ssbrc:logic/music/loop_schedule 1720t replace
+execute if score hyrule_castle map matches 1 run function ssbrc:logic/music/stages/hyrule_castle {type:intro}
 
-execute if score $icicleMountain map matches 1 if score song temp matches 0 run playsound ssbrc:music.ice_climber.ice_climber_melee_intro music @s
-execute if score $icicleMountain map matches 1 if score song temp matches 0 run tellraw @s [{"translate":"ssbrc.game.music.nowPlaying","bold":true,"color":"gold"},{"translate":"ssbrc.music.iceClimberMelee","color":"yellow"}]
-execute if score $icicleMountain map matches 1 if score song temp matches 0 run schedule function ssbrc:logic/music/loop_schedule 420t replace
-execute if score $icicleMountain map matches 1 if score song temp matches 1 run tellraw @s [{"translate":"ssbrc.game.music.nowPlaying","bold":true,"color":"gold"},{"translate":"ssbrc.music.iceClimberRetro","color":"yellow"}]
-execute if score $icicleMountain map matches 1 if score song temp matches 1 run function ssbrc:logic/music/loop_schedule
+execute if score icicle_mountain map matches 1 run function ssbrc:logic/music/stages/icicle_mountain {type:intro}
 
-execute if score $jungleJapes map matches 1 if score song temp matches 0 run playsound ssbrc:music.donkey_kong.jungle_japes_melee_intro music @s
-execute if score $jungleJapes map matches 1 if score song temp matches 0 run tellraw @s [{"translate":"ssbrc.game.music.nowPlaying","bold":true,"color":"gold"},{"translate":"ssbrc.music.jungleJapesMelee","color":"yellow"}]
-execute if score $jungleJapes map matches 1 if score song temp matches 0 run schedule function ssbrc:logic/music/loop_schedule 40t replace
-execute if score $jungleJapes map matches 1 if score song temp matches 1 run tellraw @s [{"translate":"ssbrc.game.music.nowPlaying","bold":true,"color":"gold"},{"translate":"ssbrc.music.jungleSwing","color":"yellow"}]
-execute if score $jungleJapes map matches 1 if score song temp matches 1 run function ssbrc:logic/music/loop_schedule
+execute if score jungle_japes map matches 1 run function ssbrc:logic/music/stages/jungle_japes {type:intro}
 
-execute if score $lakeOfRage map matches 1 if score song temp matches 0 run playsound ssbrc:music.pokemon.pokemon_gold_pokemon_silver_medley_intro music @s
-execute if score $lakeOfRage map matches 1 if score song temp matches 0 run tellraw @s [{"translate":"ssbrc.game.music.nowPlaying","bold":true,"color":"gold"},{"translate":"ssbrc.music.pokemonGoldSilverMedley","color":"yellow"}]
-execute if score $lakeOfRage map matches 1 if score song temp matches 0 run schedule function ssbrc:logic/music/loop_schedule 740t replace
-execute if score $lakeOfRage map matches 1 if score song temp matches 1 run playsound ssbrc:music.pokemon.trainer_battle_pokemon_gold_silver_intro music @s
-execute if score $lakeOfRage map matches 1 if score song temp matches 1 run tellraw @s [{"translate":"ssbrc.game.music.nowPlaying","bold":true,"color":"gold"},{"translate":"ssbrc.music.trainerBattlePokemonGoldSilver","color":"yellow"}]
-execute if score $lakeOfRage map matches 1 if score song temp matches 1 run schedule function ssbrc:logic/music/loop_schedule 560t replace
+execute if score lake_of_rage map matches 1 run function ssbrc:logic/music/stages/lake_of_rage {type:intro}
 
-execute if score $luigisMansion map matches 1 if score song temp matches 0 run playsound ssbrc:music.super_mario_bros.dark_hallways_intro music @s
-execute if score $luigisMansion map matches 1 if score song temp matches 0 run tellraw @s [{"translate":"ssbrc.game.music.nowPlaying","bold":true,"color":"gold"},{"translate":"ssbrc.music.darkHallways","color":"yellow"}]
-execute if score $luigisMansion map matches 1 if score song temp matches 0 run schedule function ssbrc:logic/music/loop_schedule 160t replace
-execute if score $luigisMansion map matches 1 if score song temp matches 1 run playsound ssbrc:music.super_mario_bros.luigis_mansion_theme_intro music @s
-execute if score $luigisMansion map matches 1 if score song temp matches 1 run tellraw @s [{"translate":"ssbrc.game.music.nowPlaying","bold":true,"color":"gold"},{"translate":"ssbrc.music.luigisMansionTheme","color":"yellow"}]
-execute if score $luigisMansion map matches 1 if score song temp matches 1 run schedule function ssbrc:logic/music/loop_schedule 120t replace
+execute if score luigis_mansion map matches 1 run function ssbrc:logic/music/stages/luigis_mansion {type:intro}
 
-execute if score $magicant map matches 1 if score song temp matches 0 run playsound ssbrc:music.earthbound.cognitive_dissonance_intro music @s
-execute if score $magicant map matches 1 if score song temp matches 0 run tellraw @s [{"translate":"ssbrc.game.music.nowPlaying","bold":true,"color":"gold"},{"translate":"ssbrc.music.magicantCognitiveDissonance","color":"yellow"}]
-execute if score $magicant map matches 1 if score song temp matches 0 run schedule function ssbrc:logic/music/loop_schedule 140t replace
-execute if score $magicant map matches 1 if score song temp matches 1 run playsound ssbrc:music.earthbound.eight_melodies_intro music @s
-execute if score $magicant map matches 1 if score song temp matches 1 run tellraw @s [{"translate":"ssbrc.game.music.nowPlaying","bold":true,"color":"gold"},{"translate":"ssbrc.music.eightMelodies","color":"yellow"}]
-execute if score $magicant map matches 1 if score song temp matches 1 run schedule function ssbrc:logic/music/loop_schedule 180t replace
+execute if score magicant map matches 1 run function ssbrc:logic/music/stages/magicant {type:intro}
 
-execute if score $mementosType map matches 1 if score song temp matches 0 run playsound ssbrc:music.persona.light_in_starless_sky_intro music @s
-execute if score $mementosType map matches 1 if score song temp matches 0 run tellraw @s [{"translate":"ssbrc.game.music.nowPlaying","bold":true,"color":"gold"},{"translate":"ssbrc.music.lightInStarlessSky","color":"yellow"}]
-execute if score $mementosType map matches 1 if score song temp matches 0 run schedule function ssbrc:logic/music/loop_schedule 440t replace
-execute if score $mementosType map matches 1 if score song temp matches 1 run playsound ssbrc:music.persona.mass_destruction_dual_mix_part_1 music @s
-execute if score $mementosType map matches 1 if score song temp matches 1 run tellraw @s [{"translate":"ssbrc.game.music.nowPlaying","bold":true,"color":"gold"},{"translate":"ssbrc.music.massDestructionDualMix","color":"yellow"}]
-execute if score $mementosType map matches 1 if score song temp matches 1 run schedule function ssbrc:logic/music/loop_schedule 1695t replace
-execute if score $mementosType map matches 2 if score song temp matches 0 run playsound ssbrc:music.persona.reach_out_to_the_truth_intro music @s
-execute if score $mementosType map matches 2 if score song temp matches 0 run tellraw @s [{"translate":"ssbrc.game.music.nowPlaying","bold":true,"color":"gold"},{"translate":"ssbrc.music.reachOutToTheTruth","color":"yellow"}]
-execute if score $mementosType map matches 2 if score song temp matches 0 run schedule function ssbrc:logic/music/loop_schedule 417t replace
-execute if score $mementosType map matches 2 if score song temp matches 1 run playsound ssbrc:music.persona.time_to_make_history_intro music @s
-execute if score $mementosType map matches 2 if score song temp matches 1 run tellraw @s [{"translate":"ssbrc.game.music.nowPlaying","bold":true,"color":"gold"},{"translate":"ssbrc.music.timeToMakeHistory","color":"yellow"}]
-execute if score $mementosType map matches 2 if score song temp matches 1 run schedule function ssbrc:logic/music/loop_schedule 115t replace
-execute if score $mementosType map matches 3 if score song temp matches 0 run playsound ssbrc:music.persona.axe_to_grind_intro music @s
-execute if score $mementosType map matches 3 if score song temp matches 0 run tellraw @s [{"translate":"ssbrc.game.music.nowPlaying","bold":true,"color":"gold"},{"translate":"ssbrc.music.axeToGrind","color":"yellow"}]
-execute if score $mementosType map matches 3 if score song temp matches 0 run schedule function ssbrc:logic/music/loop_schedule 289t replace
-execute if score $mementosType map matches 3 if score song temp matches 1 run playsound ssbrc:music.persona.take_over_intro music @s
-execute if score $mementosType map matches 3 if score song temp matches 1 run tellraw @s [{"translate":"ssbrc.game.music.nowPlaying","bold":true,"color":"gold"},{"translate":"ssbrc.music.takeOver","color":"yellow"}]
-execute if score $mementosType map matches 3 if score song temp matches 1 run schedule function ssbrc:logic/music/loop_schedule 339t replace
-execute if score $mementosType map matches 4 if score song temp matches 0 run playsound ssbrc:music.persona.bloody_destiny_intro music @s
-execute if score $mementosType map matches 4 if score song temp matches 0 run tellraw @s [{"translate":"ssbrc.game.music.nowPlaying","bold":true,"color":"gold"},{"translate":"ssbrc.music.bloodyDestiny","color":"yellow"}]
-execute if score $mementosType map matches 4 if score song temp matches 0 run schedule function ssbrc:logic/music/loop_schedule 202t replace
-execute if score $mementosType map matches 4 if score song temp matches 1 run playsound ssbrc:music.persona.aria_of_the_soul_intro music @s
-execute if score $mementosType map matches 4 if score song temp matches 1 run tellraw @s [{"translate":"ssbrc.game.music.nowPlaying","bold":true,"color":"gold"},{"translate":"ssbrc.music.ariaOfTheSoul","color":"yellow"}]
-execute if score $mementosType map matches 4 if score song temp matches 1 run schedule function ssbrc:logic/music/loop_schedule 407t replace
+execute if score mementos map matches 1 run function ssbrc:logic/music/stages/mementos
 
-execute if score $miiverse map matches 1 if score song temp matches 0 run playsound ssbrc:music.super_mario_bros.mario_paint_medley_intro music @s
-execute if score $miiverse map matches 1 if score song temp matches 0 run tellraw @s [{"translate":"ssbrc.game.music.nowPlaying","bold":true,"color":"gold"},{"translate":"ssbrc.music.marioPaintMedley","color":"yellow"}]
-execute if score $miiverse map matches 1 if score song temp matches 0 run schedule function ssbrc:logic/music/loop_schedule 100t replace
-execute if score $miiverse map matches 1 if score song temp matches 1 run tellraw @s [{"translate":"ssbrc.game.music.nowPlaying","bold":true,"color":"gold"},{"translate":"ssbrc.music.nintendoLandMedley","color":"yellow"}]
-execute if score $miiverse map matches 1 if score song temp matches 1 run function ssbrc:logic/music/loop_schedule
+execute if score miiverse map matches 1 run function ssbrc:logic/music/stages/miiverse {type:intro}
 
-execute if score $mushroomKingdom map matches 1 if score song temp matches 0 run playsound ssbrc:music.super_mario_bros.bob_omb_battlefield_intro music @s
-execute if score $mushroomKingdom map matches 1 if score song temp matches 0 run tellraw @s [{"translate":"ssbrc.game.music.nowPlaying","bold":true,"color":"gold"},{"translate":"ssbrc.music.bobOmbBattlefield","color":"yellow"}]
-execute if score $mushroomKingdom map matches 1 if score song temp matches 0 run schedule function ssbrc:logic/music/loop_schedule 125t replace
-execute if score $mushroomKingdom map matches 1 if score song temp matches 1 run playsound ssbrc:music.super_mario_bros.mario_paint_medley_intro music @s
-execute if score $mushroomKingdom map matches 1 if score song temp matches 1 run tellraw @s [{"translate":"ssbrc.game.music.nowPlaying","bold":true,"color":"gold"},{"translate":"ssbrc.music.marioPaintMedley","color":"yellow"}]
-execute if score $mushroomKingdom map matches 1 if score song temp matches 1 run schedule function ssbrc:logic/music/loop_schedule 112t replace
-execute if score $mushroomKingdom map matches 1 if score song temp matches 2 run playsound ssbrc:music.super_mario_bros.super_mario_bros_main_theme_intro music @s
-execute if score $mushroomKingdom map matches 1 if score song temp matches 2 run tellraw @s [{"translate":"ssbrc.game.music.nowPlaying","bold":true,"color":"gold"},{"translate":"ssbrc.music.superMarioBrosMainTheme","color":"yellow"}]
-execute if score $mushroomKingdom map matches 1 if score song temp matches 2 run schedule function ssbrc:logic/music/loop_schedule 68t replace
+execute if score mushroom_kingdom map matches 1 run function ssbrc:logic/music/stages/mushroom_kingdom {type:intro}
 
-execute if score pacMaze map matches 1 if score song temp matches 0 run playsound ssbrc:music.pac_man.pac_man_club_mix_intro music @s
-execute if score pacMaze map matches 1 if score song temp matches 0 run tellraw @s [{"translate":"ssbrc.game.music.nowPlaying","bold":true,"color":"gold"},{"translate":"ssbrc.music.pacManClubMix","color":"yellow"}]
-execute if score pacMaze map matches 1 if score song temp matches 0 run schedule function ssbrc:logic/music/loop_schedule 180t replace
-execute if score pacMaze map matches 1 if score song temp matches 1 run tellraw @s [{"translate":"ssbrc.game.music.nowPlaying","bold":true,"color":"gold"},{"translate":"ssbrc.music.pacRainbow","color":"yellow"}]
-execute if score pacMaze map matches 1 if score song temp matches 1 run function ssbrc:logic/music/loop_schedule
+execute if score pac_maze map matches 1 run function ssbrc:logic/music/stages/pac_maze {type:intro}
 
-execute if score $palletTown map matches 1 if score song temp matches 0 run playsound ssbrc:music.pokemon.battle_lets_go_pikachu_eevee_intro music @s
-execute if score $palletTown map matches 1 if score song temp matches 0 run tellraw @s [{"translate":"ssbrc.game.music.nowPlaying","bold":true,"color":"gold"},{"translate":"ssbrc.music.battleLetsGoPikachuEevee","color":"yellow"}]
-execute if score $palletTown map matches 1 if score song temp matches 0 run schedule function ssbrc:logic/music/loop_schedule 1160t replace
-execute if score $palletTown map matches 1 if score song temp matches 1 run playsound ssbrc:music.pokemon.road_to_viridian_city_intro music @s
-execute if score $palletTown map matches 1 if score song temp matches 1 run tellraw @s [{"translate":"ssbrc.game.music.nowPlaying","bold":true,"color":"gold"},{"translate":"ssbrc.music.roadToViridianCity","color":"yellow"}]
-execute if score $palletTown map matches 1 if score song temp matches 1 run schedule function ssbrc:logic/music/loop_schedule 120t replace
+execute if score pallet_town map matches 1 run function ssbrc:logic/music/stages/pallet_town {type:intro}
 
-execute if score $palutenasTemple map matches 1 if score song temp matches 0 run playsound ssbrc:music.kid_icarus.dark_pits_theme_intro music @s
-execute if score $palutenasTemple map matches 1 if score song temp matches 0 run tellraw @s [{"translate":"ssbrc.game.music.nowPlaying","bold":true,"color":"gold"},{"translate":"ssbrc.music.darkPitsTheme","color":"yellow"}]
-execute if score $palutenasTemple map matches 1 if score song temp matches 0 run schedule function ssbrc:logic/music/loop_schedule 100t replace
-execute if score $palutenasTemple map matches 1 if score song temp matches 1 run playsound ssbrc:music.kid_icarus.destroyed_skyworld_intro music @s
-execute if score $palutenasTemple map matches 1 if score song temp matches 1 run tellraw @s [{"translate":"ssbrc.game.music.nowPlaying","bold":true,"color":"gold"},{"translate":"ssbrc.music.destroyedSkyworld","color":"yellow"}]
-execute if score $palutenasTemple map matches 1 if score song temp matches 1 run schedule function ssbrc:logic/music/loop_schedule 180t replace
+execute if score palutenas_temple map matches 1 run function ssbrc:logic/music/stages/palutenas_temple {type:intro}
 
-execute if score $planetEpp map matches 1 if score song temp matches 0 run playsound ssbrc:music.misc.draconus_intro music @s
-execute if score $planetEpp map matches 1 if score song temp matches 0 run tellraw @s [{"translate":"ssbrc.game.music.nowPlaying","bold":true,"color":"gold"},{"translate":"ssbrc.music.draconus","color":"yellow"}]
-execute if score $planetEpp map matches 1 if score song temp matches 0 run schedule function ssbrc:logic/music/loop_schedule 500t replace
-execute if score $planetEpp map matches 1 if score song temp matches 1 run playsound ssbrc:music.misc.zybex_intro music @s
-execute if score $planetEpp map matches 1 if score song temp matches 1 run tellraw @s [{"translate":"ssbrc.game.music.nowPlaying","bold":true,"color":"gold"},{"translate":"ssbrc.music.zybex","color":"yellow"}]
-execute if score $planetEpp map matches 1 if score song temp matches 1 run schedule function ssbrc:logic/music/loop_schedule 920t replace
+execute if score planet_epp map matches 1 run function ssbrc:logic/music/stages/planet_epp {type:intro}
 
-execute if score $planetZebes map matches 1 if score song temp matches 0 run playsound ssbrc:music.metroid.brinstar_intro music @s
-execute if score $planetZebes map matches 1 if score song temp matches 0 run tellraw @s [{"translate":"ssbrc.game.music.nowPlaying","bold":true,"color":"gold"},{"translate":"ssbrc.music.brinstar","color":"yellow"}]
-execute if score $planetZebes map matches 1 if score song temp matches 0 run schedule function ssbrc:logic/music/loop_schedule 60t replace
-execute if score $planetZebes map matches 1 if score song temp matches 1 run playsound ssbrc:music.metroid.magmoor_caverns_intro music @s
-execute if score $planetZebes map matches 1 if score song temp matches 1 run tellraw @s [{"translate":"ssbrc.game.music.nowPlaying","bold":true,"color":"gold"},{"translate":"ssbrc.music.magmoorCaverns","color":"yellow"}]
-execute if score $planetZebes map matches 1 if score song temp matches 1 run schedule function ssbrc:logic/music/loop_schedule 60t replace
-execute if score $planetZebes map matches 1 if score song temp matches 2 run playsound ssbrc:music.metroid.multiplayer_metroid_prime_2_echoes_intro music @s
-execute if score $planetZebes map matches 1 if score song temp matches 2 run tellraw @s [{"translate":"ssbrc.game.music.nowPlaying","bold":true,"color":"gold"},{"translate":"ssbrc.music.multiplayerMetroidPrime2Echoes","color":"yellow"}]
-execute if score $planetZebes map matches 1 if score song temp matches 2 run schedule function ssbrc:logic/music/loop_schedule 120t replace
-execute if score $planetZebes map matches 1 if score song temp matches 3 run playsound ssbrc:music.metroid.theme_of_samus_aran_space_warrior_intro music @s
-execute if score $planetZebes map matches 1 if score song temp matches 3 run tellraw @s [{"translate":"ssbrc.game.music.nowPlaying","bold":true,"color":"gold"},{"translate":"ssbrc.music.themeOfSamusAranSpaceWarrior","color":"yellow"}]
-execute if score $planetZebes map matches 1 if score song temp matches 3 run schedule function ssbrc:logic/music/loop_schedule 60t replace
+execute if score planet_zebes map matches 1 run function ssbrc:logic/music/stages/planet_zebes {type:intro}
 
-execute if score $pyrosphere map matches 1 if score song temp matches 0 run playsound ssbrc:music.metroid.brinstar_intro music @s
-execute if score $pyrosphere map matches 1 if score song temp matches 0 run tellraw @s [{"translate":"ssbrc.game.music.nowPlaying","bold":true,"color":"gold"},{"translate":"ssbrc.music.brinstar","color":"yellow"}]
-execute if score $pyrosphere map matches 1 if score song temp matches 0 run schedule function ssbrc:logic/music/loop_schedule 60t replace
-execute if score $pyrosphere map matches 1 if score song temp matches 1 run playsound ssbrc:music.metroid.magmoor_caverns_intro music @s
-execute if score $pyrosphere map matches 1 if score song temp matches 1 run tellraw @s [{"translate":"ssbrc.game.music.nowPlaying","bold":true,"color":"gold"},{"translate":"ssbrc.music.magmoorCaverns","color":"yellow"}]
-execute if score $pyrosphere map matches 1 if score song temp matches 1 run schedule function ssbrc:logic/music/loop_schedule 60t replace
-execute if score $pyrosphere map matches 1 if score song temp matches 2 run playsound ssbrc:music.metroid.multiplayer_metroid_prime_2_echoes_intro music @s
-execute if score $pyrosphere map matches 1 if score song temp matches 2 run tellraw @s [{"translate":"ssbrc.game.music.nowPlaying","bold":true,"color":"gold"},{"translate":"ssbrc.music.multiplayerMetroidPrime2Echoes","color":"yellow"}]
-execute if score $pyrosphere map matches 1 if score song temp matches 2 run schedule function ssbrc:logic/music/loop_schedule 120t replace
-execute if score $pyrosphere map matches 1 if score song temp matches 3 run playsound ssbrc:music.metroid.theme_of_samus_aran_space_warrior_intro music @s
-execute if score $pyrosphere map matches 1 if score song temp matches 3 run tellraw @s [{"translate":"ssbrc.game.music.nowPlaying","bold":true,"color":"gold"},{"translate":"ssbrc.music.themeOfSamusAranSpaceWarrior","color":"yellow"}]
-execute if score $pyrosphere map matches 1 if score song temp matches 3 run schedule function ssbrc:logic/music/loop_schedule 60t replace
+execute if score pyrosphere map matches 1 run function ssbrc:logic/music/stages/planet_zebes {type:intro}
 
-execute if score $sandOcean map matches 1 if score song temp matches 0 run playsound ssbrc:music.f_zero.brain_cleaner_intro music @s
-execute if score $sandOcean map matches 1 if score song temp matches 0 run tellraw @s [{"translate":"ssbrc.game.music.nowPlaying","bold":true,"color":"gold"},{"translate":"ssbrc.music.brainCleaner","color":"yellow"}]
-execute if score $sandOcean map matches 1 if score song temp matches 0 run schedule function ssbrc:logic/music/loop_schedule 400t replace
-execute if score $sandOcean map matches 1 if score song temp matches 1 run tellraw @s [{"translate":"ssbrc.game.music.nowPlaying","bold":true,"color":"gold"},{"translate":"ssbrc.stages.sandOcean","color":"yellow"}]
-execute if score $sandOcean map matches 1 if score song temp matches 1 run function ssbrc:logic/music/loop_schedule
+execute if score sand_ocean map matches 1 run function ssbrc:logic/music/stages/sand_ocean {type:intro}
 
-execute if score $saturnValley map matches 1 if score song temp matches 0 run playsound ssbrc:music.earthbound.humoresque_of_a_little_dog_intro music @s
-execute if score $saturnValley map matches 1 if score song temp matches 0 run tellraw @s [{"translate":"ssbrc.game.music.nowPlaying","bold":true,"color":"gold"},{"translate":"ssbrc.music.humoresqueOfALittleDog","color":"yellow"}]
-execute if score $saturnValley map matches 1 if score song temp matches 0 run schedule function ssbrc:logic/music/loop_schedule 160t replace
-execute if score $saturnValley map matches 1 if score song temp matches 1 run tellraw @s [{"translate":"ssbrc.game.music.nowPlaying","bold":true,"color":"gold"},{"translate":"ssbrc.music.mrSaturnThemeZ","color":"yellow"}]
-execute if score $saturnValley map matches 1 if score song temp matches 1 run function ssbrc:logic/music/loop_schedule
+execute if score saturn_valley map matches 1 run function ssbrc:logic/music/stages/saturn_valley {type:intro}
 
-execute if score $sectorZ map matches 1 if score song temp matches 0 run playsound ssbrc:music.star_fox.area_6_intro music @s
-execute if score $sectorZ map matches 1 if score song temp matches 0 run tellraw @s [{"translate":"ssbrc.game.music.nowPlaying","bold":true,"color":"gold"},{"translate":"ssbrc.music.area6","color":"yellow"}]
-execute if score $sectorZ map matches 1 if score song temp matches 0 run schedule function ssbrc:logic/music/loop_schedule 900t replace
-execute if score $sectorZ map matches 1 if score song temp matches 1 run playsound ssbrc:music.star_fox.star_wolf_intro music @s
-execute if score $sectorZ map matches 1 if score song temp matches 1 run tellraw @s [{"translate":"ssbrc.game.music.nowPlaying","bold":true,"color":"gold"},{"translate":"ssbrc.music.starWolf","color":"yellow"}]
-execute if score $sectorZ map matches 1 if score song temp matches 1 run schedule function ssbrc:logic/music/loop_schedule 60t replace
+execute if score sector_z map matches 1 run function ssbrc:logic/music/stages/sector_z {type:intro}
 
-execute if score $shadowMosesIsland map matches 1 if score song temp matches 0 run playsound ssbrc:music.metal_gear_solid.encounter_intro music @s
-execute if score $shadowMosesIsland map matches 1 if score song temp matches 0 run tellraw @s [{"translate":"ssbrc.game.music.nowPlaying","bold":true,"color":"gold"},{"translate":"ssbrc.music.encounter","color":"yellow"}]
-execute if score $shadowMosesIsland map matches 1 if score song temp matches 0 run schedule function ssbrc:logic/music/loop_schedule 2720t replace
-execute if score $shadowMosesIsland map matches 1 if score song temp matches 1 run tellraw @s [{"translate":"ssbrc.game.music.nowPlaying","bold":true,"color":"gold"},{"translate":"ssbrc.music.metalGearOnline3MainTheme","color":"yellow"}]
-execute if score $shadowMosesIsland map matches 1 if score song temp matches 1 run function ssbrc:logic/music/loop_schedule
+execute if score shadow_moses_island map matches 1 run function ssbrc:logic/music/stages/shadow_moses_island {type:intro}
 
-execute if score $spearPillar map matches 1 if score song temp matches 0 run playsound ssbrc:music.pokemon.dialga_and_palkia_battle_intro music @s
-execute if score $spearPillar map matches 1 if score song temp matches 0 run tellraw @s [{"translate":"ssbrc.game.music.nowPlaying","bold":true,"color":"gold"},{"translate":"ssbrc.music.dialgaPalkiaBattle","color":"yellow"}]
-execute if score $spearPillar map matches 1 if score song temp matches 0 run schedule function ssbrc:logic/music/loop_schedule 370t replace
-execute if score $spearPillar map matches 1 if score song temp matches 1 run playsound ssbrc:music.pokemon.team_galactic_battle_intro music @s
-execute if score $spearPillar map matches 1 if score song temp matches 1 run tellraw @s [{"translate":"ssbrc.game.music.nowPlaying","bold":true,"color":"gold"},{"translate":"ssbrc.music.teamGalacticBattle","color":"yellow"}]
-execute if score $spearPillar map matches 1 if score song temp matches 1 run schedule function ssbrc:logic/music/loop_schedule 311t replace
+execute if score spear_pillar map matches 1 run function ssbrc:logic/music/stages/spear_pillar {type:intro}
 
-execute if score $suzakuCastle map matches 1 if score song temp matches 0 run playsound ssbrc:music.street_fighter.ryu_stage_intro music @s
-execute if score $suzakuCastle map matches 1 if score song temp matches 0 run tellraw @s [{"translate":"ssbrc.game.music.nowPlaying","bold":true,"color":"gold"},{"translate":"ssbrc.music.ryuStage","color":"yellow"}]
-execute if score $suzakuCastle map matches 1 if score song temp matches 0 run schedule function ssbrc:logic/music/loop_schedule 140t replace
-execute if score $suzakuCastle map matches 1 if score song temp matches 1 run playsound ssbrc:music.street_fighter.street_fighter_4_intro_intro music @s
-execute if score $suzakuCastle map matches 1 if score song temp matches 1 run tellraw @s [{"translate":"ssbrc.game.music.nowPlaying","bold":true,"color":"gold"},{"translate":"ssbrc.music.streetFighter4Intro","color":"yellow"}]
-execute if score $suzakuCastle map matches 1 if score song temp matches 1 run schedule function ssbrc:logic/music/loop_schedule 1200t replace
+execute if score suzaku_castle map matches 1 run function ssbrc:logic/music/stages/suzaku_castle {type:intro}
 
-execute if score $towerOfFate map matches 1 if score song temp matches 0 run tellraw @s [{"translate":"ssbrc.game.music.nowPlaying","bold":true,"color":"gold"},{"translate":"ssbrc.music.hittingCloseToHome","color":"yellow"}]
-execute if score $towerOfFate map matches 1 if score song temp matches 0 run function ssbrc:logic/music/loop_schedule
-execute if score $towerOfFate map matches 1 if score song temp matches 1 run tellraw @s [{"translate":"ssbrc.game.music.nowPlaying","bold":true,"color":"gold"},{"translate":"ssbrc.music.theFatefulReturn","color":"yellow"}]
-execute if score $towerOfFate map matches 1 if score song temp matches 1 run function ssbrc:logic/music/loop_schedule
+execute if score tower_of_fate map matches 1 run function ssbrc:logic/music/stages/tower_of_fate {type:intro}
 
-execute if score $wilyCastle map matches 1 if score song temp matches 0 run playsound ssbrc:music.mega_man.mega_man_2_medley_intro music @s
-execute if score $wilyCastle map matches 1 if score song temp matches 0 run tellraw @s [{"translate":"ssbrc.game.music.nowPlaying","bold":true,"color":"gold"},{"translate":"ssbrc.music.megaMan2Medley","color":"yellow"}]
-execute if score $wilyCastle map matches 1 if score song temp matches 0 run schedule function ssbrc:logic/music/loop_schedule 186t replace
-execute if score $wilyCastle map matches 1 if score song temp matches 1 run playsound ssbrc:music.mega_man.mega_man_4_medley_intro music @s
-execute if score $wilyCastle map matches 1 if score song temp matches 1 run tellraw @s [{"translate":"ssbrc.game.music.nowPlaying","bold":true,"color":"gold"},{"translate":"ssbrc.music.megaMan4Medley","color":"yellow"}]
-execute if score $wilyCastle map matches 1 if score song temp matches 1 run schedule function ssbrc:logic/music/loop_schedule 142t replace
+execute if score wily_castle map matches 1 run function ssbrc:logic/music/stages/wily_castle {type:intro}
 
-execute if score $yggdrasilsAltar map matches 1 if score song temp matches 0 run playsound ssbrc:music.dragon_quest.battle_for_glory_intro music @s
-execute if score $yggdrasilsAltar map matches 1 if score song temp matches 0 run tellraw @s [{"translate":"ssbrc.game.music.nowPlaying","bold":true,"color":"gold"},{"translate":"ssbrc.music.battleForGlory","color":"yellow"}]
-execute if score $yggdrasilsAltar map matches 1 if score song temp matches 0 run schedule function ssbrc:logic/music/loop_schedule 200t replace
-execute if score $yggdrasilsAltar map matches 1 if score song temp matches 1 run playsound ssbrc:music.dragon_quest.the_hero_goes_forth_with_a_determination_intro music @s
-execute if score $yggdrasilsAltar map matches 1 if score song temp matches 1 run tellraw @s [{"translate":"ssbrc.game.music.nowPlaying","bold":true,"color":"gold"},{"translate":"ssbrc.music.theHeroGoesForthWithADetermination","color":"yellow"}]
-execute if score $yggdrasilsAltar map matches 1 if score song temp matches 1 run schedule function ssbrc:logic/music/loop_schedule 60t replace
+execute if score yggdrasils_altar map matches 1 run function ssbrc:logic/music/stages/yggdrasils_altar {type:intro}

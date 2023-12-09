@@ -1,5 +1,5 @@
 scoreboard players reset * map
-scoreboard players set $bowsersCastle map 1
+scoreboard players set bowsers_castle map 1
 scoreboard players set songCount map 2
 scoreboard players set mapPicked mapVote 1
 forceload add -768 800 -641 895

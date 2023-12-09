@@ -1,0 +1,5 @@
+playsound ssbrc:music.altered_beast.rise_from_your_grave_intro music @s
+
+tellraw @s [{"translate":"ssbrc.game.music.nowPlaying","bold":true,"color":"gold"},{"translate":"ssbrc.music.rise_from_your_grave","color":"yellow"}]
+
+schedule function ssbrc:logic/music/loop_schedule 2400t replace

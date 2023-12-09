@@ -1,4 +1,4 @@
-scoreboard players set $towerOfFateExplodatorium temp 1
+scoreboard players set tower_of_fateExplodatorium temp 1
 
 clone 6072 8 508 6096 20 532 5988 8 488
 

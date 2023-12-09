@@ -1,4 +1,4 @@
-scoreboard players set $towerOfFateStrandedShip temp 1
+scoreboard players set tower_of_fateStrandedShip temp 1
 
 clone 6072 8 478 6096 20 502 5988 8 488
 

@@ -40,7 +40,7 @@
 			"condition": "minecraft:entity_properties",
 			"entity": "this",
 			"predicate": {
-				"nbt": "{Tags:[\"gardenOfHope\"]}"
+				"nbt": "{Tags:[\"garden_of_hope\"]}"
 			}
 		},
 		{

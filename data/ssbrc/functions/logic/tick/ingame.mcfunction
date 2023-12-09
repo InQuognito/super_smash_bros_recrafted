@@ -16,7 +16,7 @@ scoreboard players remove @e[type=!minecraft:player,scores={duration.2=1..}] dur
 scoreboard players remove @e[type=!minecraft:player,scores={duration.3=1..}] duration.3 1
 scoreboard players remove @e[type=!minecraft:player,scores={duration.4=1..}] duration.4 1
 
-execute unless score $sectorZ map matches 1 run effect give @a[predicate=ssbrc:flag/targets,predicate=ssbrc:below_y/0] minecraft:blindness 2 0 true
+execute unless score sector_z map matches 1 run effect give @a[predicate=ssbrc:flag/targets,predicate=ssbrc:below_y/0] minecraft:blindness 2 0 true
 
 # Fighters
 execute as @a[predicate=ssbrc:ingame] run function ssbrc:logic/tick/characters

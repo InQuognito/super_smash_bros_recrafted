@@ -16,7 +16,7 @@ execute if score gameTime timer matches 2 as @a[predicate=ssbrc:ingame] at @s ru
 execute if score gameTime timer matches 1 as @a[predicate=ssbrc:ingame] at @s run playsound ssbrc:one voice @s
 execute if score gameTime timer matches ..0 run function ssbrc:logic/post_game/winner/time
 
-execute if score hazards options matches 1 if score $towerOfFate map matches 1 unless score towerOfFateDestroyed temp matches 1.. if score gameTimePercent temp matches ..50 run function ssbrc:stages/tower_of_fate/logic/destroy_tower/start
+execute if score hazards options matches 1 if score tower_of_fate map matches 1 unless score towerOfFateDestroyed temp matches 1.. if score gameTimePercent temp matches ..50 run function ssbrc:stages/tower_of_fate/logic/destroy_tower/start
 
 data modify entity @e[tag=lobby.timer,limit=1] text set value '[{"translate":"ssbrc.lobby.timeLeft","color":"gold"},{"score":{"name":"gameTime","objective":"timer"},"color":"yellow"},{"translate":"s","color":"gold"}]'
 

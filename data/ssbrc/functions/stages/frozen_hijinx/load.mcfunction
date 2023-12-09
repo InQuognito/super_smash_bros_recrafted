@@ -1,5 +1,5 @@
 scoreboard players reset * map
-scoreboard players set $frozenHijinx map 1
+scoreboard players set frozen_hijinx map 1
 scoreboard players set songCount map 2
 scoreboard players set mapPicked mapVote 1
 forceload add 2016 1264 2159 1439

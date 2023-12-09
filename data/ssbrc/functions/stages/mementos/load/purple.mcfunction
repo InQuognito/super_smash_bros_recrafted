@@ -1,4 +1,4 @@
-scoreboard players set $mementosType map 4
+scoreboard players set mementos.type map 1
 
 time set 15000
 

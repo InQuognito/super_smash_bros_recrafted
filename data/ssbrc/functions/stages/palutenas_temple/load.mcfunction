@@ -1,5 +1,5 @@
 scoreboard players reset * map
-scoreboard players set $palutenasTemple map 1
+scoreboard players set palutenas_temple map 1
 scoreboard players set songCount map 2
 scoreboard players set mapPicked mapVote 1
 forceload add 50015 24944 49952 24991

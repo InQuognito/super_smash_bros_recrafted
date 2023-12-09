@@ -1,5 +1,5 @@
 scoreboard players reset * map
-scoreboard players set $shadowMosesIsland map 1
+scoreboard players set shadow_moses_island map 1
 scoreboard players set songCount map 2
 scoreboard players set mapPicked mapVote 1
 forceload add 48 -1488 207 -1361

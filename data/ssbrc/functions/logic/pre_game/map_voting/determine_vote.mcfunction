@@ -5,9 +5,9 @@ execute as @e[type=minecraft:text_display,tag=voteCounter,sort=nearest,limit=1] 
 execute as @e[type=minecraft:text_display,tag=voteCounter,sort=nearest,limit=1] if entity @s[tag=castleSiege] as @a[tag=self,limit=1] run function ssbrc:stages/castle_siege/vote
 execute as @e[type=minecraft:text_display,tag=voteCounter,sort=nearest,limit=1] if entity @s[tag=draculasCastle] as @a[tag=self,limit=1] run function ssbrc:stages/draculas_castle/vote
 execute as @e[type=minecraft:text_display,tag=voteCounter,sort=nearest,limit=1] if entity @s[tag=dreamLand] as @a[tag=self,limit=1] run function ssbrc:stages/dream_land/vote
-execute as @e[type=minecraft:text_display,tag=voteCounter,sort=nearest,limit=1] if entity @s[tag=flatZone] as @a[tag=self,limit=1] run function ssbrc:stages/flat_zone/vote
+execute as @e[type=minecraft:text_display,tag=voteCounter,sort=nearest,limit=1] if entity @s[tag=flat_zone] as @a[tag=self,limit=1] run function ssbrc:stages/flat_zone/vote
 execute as @e[type=minecraft:text_display,tag=voteCounter,sort=nearest,limit=1] if entity @s[tag=frozenHijinx] as @a[tag=self,limit=1] run function ssbrc:stages/frozen_hijinx/vote
-execute as @e[type=minecraft:text_display,tag=voteCounter,sort=nearest,limit=1] if entity @s[tag=gardenOfHope] as @a[tag=self,limit=1] run function ssbrc:stages/garden_of_hope/vote
+execute as @e[type=minecraft:text_display,tag=voteCounter,sort=nearest,limit=1] if entity @s[tag=garden_of_hope] as @a[tag=self,limit=1] run function ssbrc:stages/garden_of_hope/vote
 execute as @e[type=minecraft:text_display,tag=voteCounter,sort=nearest,limit=1] if entity @s[tag=greatBay] as @a[tag=self,limit=1] run function ssbrc:stages/great_bay/vote
 execute as @e[type=minecraft:text_display,tag=voteCounter,sort=nearest,limit=1] if entity @s[tag=greatPlateau] as @a[tag=self,limit=1] run function ssbrc:stages/great_plateau/vote
 execute as @e[type=minecraft:text_display,tag=voteCounter,sort=nearest,limit=1] if entity @s[tag=greenHillZone] as @a[tag=self,limit=1] run function ssbrc:stages/green_hill_zone/vote
@@ -26,7 +26,7 @@ execute as @e[type=minecraft:text_display,tag=voteCounter,sort=nearest,limit=1] 
 execute as @e[type=minecraft:text_display,tag=voteCounter,sort=nearest,limit=1] if entity @s[tag=planetEpp] as @a[tag=self,limit=1] run function ssbrc:stages/planet_epp/vote
 execute as @e[type=minecraft:text_display,tag=voteCounter,sort=nearest,limit=1] if entity @s[tag=planetZebes] as @a[tag=self,limit=1] run function ssbrc:stages/planet_zebes/vote
 execute as @e[type=minecraft:text_display,tag=voteCounter,sort=nearest,limit=1] if entity @s[tag=pyrosphere] as @a[tag=self,limit=1] run function ssbrc:stages/pyrosphere/vote
-execute as @e[type=minecraft:text_display,tag=voteCounter,sort=nearest,limit=1] if entity @s[tag=sandOcean] as @a[tag=self,limit=1] run function ssbrc:stages/sand_ocean/vote
+execute as @e[type=minecraft:text_display,tag=voteCounter,sort=nearest,limit=1] if entity @s[tag=sand_ocean] as @a[tag=self,limit=1] run function ssbrc:stages/sand_ocean/vote
 execute as @e[type=minecraft:text_display,tag=voteCounter,sort=nearest,limit=1] if entity @s[tag=saturnValley] as @a[tag=self,limit=1] run function ssbrc:stages/saturn_valley/vote
 execute as @e[type=minecraft:text_display,tag=voteCounter,sort=nearest,limit=1] if entity @s[tag=sectorZ] as @a[tag=self,limit=1] run function ssbrc:stages/sector_z/vote
 execute as @e[type=minecraft:text_display,tag=voteCounter,sort=nearest,limit=1] if entity @s[tag=shadowMosesIsland] as @a[tag=self,limit=1] run function ssbrc:stages/shadow_moses_island/vote
