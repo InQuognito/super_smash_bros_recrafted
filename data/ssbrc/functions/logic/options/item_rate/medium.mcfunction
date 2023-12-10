@@ -1,7 +1,6 @@
-tellraw @a[tag=room.characterSelect] [{"translate":"ssbrc.options.itemRateTitle","color":"yellow"},{"translate":"ssbrc.options.itemRate.medium","color":"blue"}]
+tellraw @a[tag=room.characterSelect] [{"translate":"ssbrc.options.item_rateTitle","color":"yellow"},{"translate":"ssbrc.options.item_rate.medium","color":"blue"}]
 
-scoreboard players set itemRate options 2
+scoreboard players set item_rate options 2
+scoreboard players display numberformat item_rate options fixed {"translate":"ssbrc.options.medium","color":"yellow"}
 
-function ssbrc:logic/options
-
-execute if score gameStage temp matches 1 run scoreboard players operation countdown timer = quickStart vars
+function ssbrc:logic/options/update

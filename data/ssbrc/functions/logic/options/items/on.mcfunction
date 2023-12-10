@@ -1,7 +1,6 @@
 tellraw @a[tag=room.characterSelect] [{"translate":"ssbrc.options.items","color":"yellow"},{"translate":"ssbrc.options.on","color":"blue"}]
 
 scoreboard players set items options 1
+scoreboard players display numberformat items options fixed {"translate":"ssbrc.options.on","color":"green"}
 
-function ssbrc:logic/options
-
-execute if score gameStage temp matches 1 run scoreboard players operation countdown timer = quickStart vars
+function ssbrc:logic/options/update

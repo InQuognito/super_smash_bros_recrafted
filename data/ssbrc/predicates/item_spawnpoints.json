@@ -19,7 +19,7 @@
 				"type": "minecraft:score",
 				"target": {
 					"type": "minecraft:fixed",
-					"name": "itemRate"
+					"name": "item_rate"
 				},
 				"score": "options"
 			},

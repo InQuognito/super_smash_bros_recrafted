@@ -1,7 +1,5 @@
 tellraw @a[tag=room.characterSelect] [{"translate":"ssbrc.options.time_limit.title","color":"yellow"},{"translate":"ssbrc.options.time_limit.6","color":"blue"}]
 
-scoreboard players set timeLimit options 360
+scoreboard players set time_limit options 360
 
-function ssbrc:logic/options
-
-execute if score gameStage temp matches 1 run scoreboard players operation countdown timer = quickStart vars
+function ssbrc:logic/options/time_limit/update

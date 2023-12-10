@@ -1,4 +1,4 @@
-tellraw @s[tag=!blindPick] [{"translate":"ssbrc.fighters.menu.selected","color":"white"},{"translate":"ssbrc.fighters.link","color":"blue"}]
+tellraw @s[tag=!blind_pick] [{"translate":"ssbrc.fighters.menu.selected","color":"white"},{"translate":"ssbrc.fighters.link","color":"blue"}]
 
 function ssbrc:logic/selector/select_fighter
 

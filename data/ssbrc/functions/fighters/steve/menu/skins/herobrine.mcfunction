@@ -1,7 +1,7 @@
 function ssbrc:fighters/steve/menu/skins/reset
 tag @s add herobrine
 
-tellraw @s[tag=!blindPick,tag=!pickingRandom] [{"translate":"\n"},{"translate":"ssbrc.fighters.menu.skin","color":"white"},{"translate":"ssbrc.fighters.steve.skin.herobrine","color":"white"},{"translate":"\n"}]
-execute if entity @s[tag=!blindPick,tag=!pickingRandom] run function ssbrc:fighters/steve/menu/skin_options
+tellraw @s[tag=!blind_pick,tag=!pickingRandom] [{"translate":"\n"},{"translate":"ssbrc.fighters.menu.skin","color":"white"},{"translate":"ssbrc.fighters.steve.skin.herobrine","color":"white"},{"translate":"\n"}]
+execute if entity @s[tag=!blind_pick,tag=!pickingRandom] run function ssbrc:fighters/steve/menu/skin_options
 
 function ssbrc:logic/selector/select_skin

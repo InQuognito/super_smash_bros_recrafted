@@ -3,7 +3,7 @@ execute store result bossbar minecraft:timer value run scoreboard players get ga
 
 execute run scoreboard players operation gameTimePercent temp = gameTime timer
 execute run scoreboard players operation gameTimePercent temp *= 100 integers
-execute run scoreboard players operation gameTimePercent temp /= timeLimit options
+execute run scoreboard players operation gameTimePercent temp /= time_limit options
 
 execute if score gameTimePercent temp matches 50 run bossbar set minecraft:timer color green
 execute if score gameTimePercent temp matches 25 run bossbar set minecraft:timer color yellow

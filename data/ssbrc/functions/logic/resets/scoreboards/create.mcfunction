@@ -199,4 +199,6 @@ scoreboard objectives add trulyVillainous dummy
 scoreboard objectives add WACCoordinator dummy
 scoreboard objectives add yearLongBattle dummy
 
+function ssbrc:logic/resets/scoreboards/modify
+
 function ssbrc:logic/resets/scoreboards/stats

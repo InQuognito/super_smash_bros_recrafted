@@ -1,4 +1,4 @@
-scoreboard players operation stocks temp = stockLimit options
+scoreboard players operation stocks temp = stock_limit options
 
 scoreboard objectives setdisplay sidebar stocks
 

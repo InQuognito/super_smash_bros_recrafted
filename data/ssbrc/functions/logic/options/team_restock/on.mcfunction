@@ -1,7 +1,6 @@
-tellraw @a[tag=room.characterSelect] [{"translate":"ssbrc.options.teamRestockTitle","color":"yellow"},{"translate":"ssbrc.options.on","color":"blue"}]
+tellraw @a[tag=room.characterSelect] [{"translate":"ssbrc.options.team_restockTitle","color":"yellow"},{"translate":"ssbrc.options.on","color":"blue"}]
 
-scoreboard players set teamRestock options 1
+scoreboard players set team_restock options 1
+scoreboard players display numberformat team_restock options fixed {"translate":"ssbrc.options.on","color":"green"}
 
-function ssbrc:logic/options
-
-execute if score gameStage temp matches 1 run scoreboard players operation countdown timer = quickStart vars
+function ssbrc:logic/options/update

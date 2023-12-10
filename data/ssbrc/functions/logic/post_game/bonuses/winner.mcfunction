@@ -1,4 +1,4 @@
-execute if score gameMode options matches 1 run function ssbrc:logic/post_game/bonuses/stock
+execute if score game_mode options matches 1 run function ssbrc:logic/post_game/bonuses/stock
 
 execute if entity @s[scores={health=40..}] run scoreboard players set @s fullPower 1
 
