@@ -2,4 +2,4 @@ tellraw @a[tag=room.characterSelect] [{"translate":"ssbrc.options.time_limit.tit
 
 scoreboard players set time_limit options 300
 
-function ssbrc:logic/options/time_limit/update
+function ssbrc:logic/options/update

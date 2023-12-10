@@ -2,4 +2,4 @@ tellraw @a[tag=room.characterSelect] [{"translate":"ssbrc.options.stock_limit.ti
 
 scoreboard players set stock_limit options 3
 
-function ssbrc:logic/options/stock_limit/update
+function ssbrc:logic/options/update
