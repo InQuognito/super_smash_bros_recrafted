@@ -6,7 +6,17 @@ scoreboard players set selectorRange vars 20
 scoreboard players set #frostbiteTimer vars 100
 
 # Fighters
-scoreboard players set altered_beast.max_gauge vars 1000
+scoreboard players set altered_beast.spirit.max vars 100000
+scoreboard players operation altered_beast.spirit.recharge_rate vars = altered_beast.spirit.max vars
+scoreboard players operation altered_beast.spirit.recharge_rate vars /= 1000 integers
+scoreboard players operation altered_beast.spirit.consumption_rate vars = altered_beast.spirit.recharge_rate vars
+scoreboard players operation altered_beast.spirit.consumption_rate vars *= 3 integers
+scoreboard players operation operation temp = altered_beast.spirit.consumption_rate vars
+scoreboard players operation altered_beast.spirit.consumption_rate.feral_instincts vars = operation temp
+scoreboard players operation operation temp *= 15 integers
+scoreboard players operation operation temp /= 100 integers
+scoreboard players operation altered_beast.spirit.consumption_rate.feral_instincts vars -= operation temp
+
 scoreboard players set altered_beast.mark_of_the_beast_cooldown vars 200
 scoreboard players set altered_beast.petrifying_breath_cooldown vars 100
 scoreboard players set altered_beast.electrocution_cooldown vars 300

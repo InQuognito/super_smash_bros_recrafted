@@ -1,5 +1,5 @@
 # Spirit Gauge
-execute if score @s[predicate=!ssbrc:fighters/altered_beast/is_beast] charge.1 < altered_beast.max_gauge vars run scoreboard players add @s charge.1 1
+execute if score @s[predicate=!ssbrc:fighters/altered_beast/is_beast] charge.1 < altered_beast.spirit.max vars run scoreboard players operation @s charge.1 += altered_beast.spirit.recharge_rate vars
 execute if entity @s[predicate=ssbrc:fighters/altered_beast/is_beast] run function ssbrc:fighters/altered_beast/logic/spirit_gauge/tick
 
 function ssbrc:fighters/altered_beast/logic/spirit_gauge/update

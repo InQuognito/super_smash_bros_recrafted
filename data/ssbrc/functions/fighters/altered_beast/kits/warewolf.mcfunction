@@ -1,6 +1,8 @@
 function ssbrc:fighters/altered_beast/kits/reset
 tag @s add warewolf
 
+execute if score @s charge.1 >= altered_beast.spirit.max vars run tag @s add feral_instincts
+
 tellraw @s [{"translate":"ssbrc.fighters.altered_beast.form","bold":true,"color":"gold"},{"translate":"ssbrc.fighters.altered_beast.warewolf","bold":false,"color":"yellow"}]
 
 function ssbrc:logic/fighters/attributes/defaults

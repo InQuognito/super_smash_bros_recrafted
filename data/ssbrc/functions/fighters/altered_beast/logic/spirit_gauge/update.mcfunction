@@ -1,6 +1,6 @@
 scoreboard players operation #percentage temp = @s charge.1
 scoreboard players operation #percentage temp *= 100 integers
-scoreboard players operation #percentage temp /= altered_beast.max_gauge vars
+scoreboard players operation #percentage temp /= altered_beast.spirit.max vars
 
 execute if score #percentage temp matches ..0 run title @s actionbar [{"translate":"ssbrc.fighters.altered_beast.spirit","bold":true,"color":"white"},{"translate":"\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae","color":"black"}]
 execute if score #percentage temp matches 1..10 run title @s actionbar [{"translate":"ssbrc.fighters.altered_beast.spirit","bold":true,"color":"white"},{"translate":"\u25ae","color":"dark_red"},{"translate":"\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae","color":"gray"}]
