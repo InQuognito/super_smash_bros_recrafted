@@ -8,8 +8,7 @@ function ssbrc:logic/fighters/attributes/defaults
 clear @s #ssbrc:equipment
 
 loot replace entity @s hotbar.0 loot ssbrc:fighters/altered_beast/waretiger/tiger_claw
-loot replace entity @s hotbar.1 loot ssbrc:fighters/altered_beast/waretiger/thunderous_roar
-loot replace entity @s weapon.offhand loot ssbrc:fighters/altered_beast/waretiger/sabretooth
+loot replace entity @s hotbar.1 loot ssbrc:fighters/altered_beast/waretiger/sabretooth
 
 loot replace entity @s hotbar.8 loot ssbrc:fighters/altered_beast/mark_of_the_beast
 

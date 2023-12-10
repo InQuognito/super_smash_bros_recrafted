@@ -131,6 +131,7 @@ execute if entity @s[tag=iceBlock] run function ssbrc:fighters/zelda/logic/abili
 execute if entity @s[tag=magicBoomerang] run function ssbrc:fighters/zelda/logic/abilities/magic_boomerang/tick
 
 # Altered Beast
+execute if entity @s[tag=sabretooth] run function ssbrc:fighters/altered_beast/logic/waretiger/sabretooth/raycast/start
 execute if entity @s[tag=flameHands] run function ssbrc:fighters/altered_beast/logic/warewolf/flame_hands/tick
 
 # Alucard

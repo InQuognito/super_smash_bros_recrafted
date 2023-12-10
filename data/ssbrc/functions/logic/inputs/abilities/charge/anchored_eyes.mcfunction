@@ -1,3 +1,5 @@
+execute if entity @s[tag=altered_beast,tag=waretiger,scores={charge.output=40..,cooldown.1=..0},nbt={SelectedItem:{tag:{sabretooth:1}}}] run function ssbrc:fighters/altered_beast/logic/waretiger/sabretooth/raycast/start
+
 execute if entity @s[tag=dark_samus,scores={duration.1=..0,cooldown.1=..0},predicate=ssbrc:flag/sneaking,nbt={SelectedItem:{tag:{phazonBeam:1}}}] run function ssbrc:fighters/dark_samus/logic/abilities/phazon_beam/activate
 
 execute if entity @s[tag=pit,scores={cooldown.1=..0},nbt={SelectedItem:{tag:{palutenaBow:1}}}] run function ssbrc:fighters/pit/logic/abilities/palutena_bow/check

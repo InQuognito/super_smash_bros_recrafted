@@ -1,0 +1,3 @@
+particle minecraft:dust_color_transition 0.75 0.75 0.0 1.75 1.0 1.0 1.0 ~ ~ ~ 0.0 0.0 0.0 0.0 1 force @a
+
+execute positioned ~-0.25 ~-0.25 ~-0.25 as @e[tag=!self,predicate=ssbrc:flag/targets,dx=0] positioned ~-0.5 ~-0.5 ~-0.5 if entity @s[dx=0] run function ssbrc:fighters/altered_beast/logic/waretiger/sabretooth/hit
