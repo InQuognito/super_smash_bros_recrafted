@@ -6,6 +6,6 @@ tag @s add raptorBoosted
 execute positioned ~ ~0.5 ~ summon minecraft:armor_stand run function ssbrc:fighters/captain_falcon/logic/abilities/raptor_boost/launch
 tag @s remove raptorBoosted
 
-function ssbrc:fighters/captain_falcon/logic/abilities/raptor_boost/raycast/abort
+function ssbrc:logic/fighters/checks/raycast/abort {type:1}
 
 playsound ssbrc:fighters.captain_falcon.raptor_boost.hit player @a
