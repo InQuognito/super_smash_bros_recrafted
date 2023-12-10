@@ -1,5 +1,8 @@
-# Puff
-execute at @s if block ~ ~-0.1 ~ minecraft:air if entity @s[predicate=ssbrc:flag/sneaking,scores={charge.1=..6,cooldown.1=..0}] run function ssbrc:fighters/kirby/logic/puff
-execute at @s unless block ~ ~-0.1 ~ minecraft:air run scoreboard players set @s charge.1 0
+# Inhale
+execute at @s[tag=!player_captured,scores={cooldown.1=..0},predicate=ssbrc:flag/sneaking,predicate=!ssbrc:flag/in_air] run function ssbrc:fighters/kirby/logic/abilities/inhale/tick
 
-effect clear @s[scores={cooldown.1=6}] minecraft:levitation
+# Puff
+execute at @s[scores={charge.1=..6,cooldown.2=..0},predicate=ssbrc:flag/sneaking,predicate=ssbrc:flag/in_air] run function ssbrc:fighters/kirby/logic/puff
+scoreboard players set @s[scores={charge.1=1..},predicate=!ssbrc:flag/in_air] charge.1 0
+
+effect clear @s[scores={cooldown.2=6}] minecraft:levitation
