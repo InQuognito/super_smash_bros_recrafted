@@ -30,6 +30,13 @@ teleport @s -520.5 5.0 -1944.5 90.0 0.0
 
 stopsound @s
 
+execute unless score @s stats.deaths matches -2147483648..2147483647 run scoreboard players set @s stats.deaths 0
+execute unless score @s stats.kills matches -2147483648..2147483647 run scoreboard players set @s stats.kills 0
+execute unless score @s stats.gamesPlayed matches -2147483648..2147483647 run scoreboard players set @s stats.gamesPlayed 0
+execute unless score @s stats.wins matches -2147483648..2147483647 run scoreboard players set @s stats.wins 0
+execute unless score @s stats.winStreak matches -2147483648..2147483647 run scoreboard players set @s stats.winStreak 0
+execute unless score @s stats.winStreak.record matches -2147483648..2147483647 run scoreboard players set @s stats.winStreak.record 0
+execute unless score @s stats.credits matches -2147483648..2147483647 run scoreboard players set @s stats.credits 0
 # function ssbrc:logic/resets/scoreboards/set_empty_stats
 # function ssbrc:logic/resets/calculate_stats
 
