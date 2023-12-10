@@ -9,14 +9,17 @@ place template ssbrc:stages/mementos/logo/red -1201 15 921
 fill -1201 8 856 -1175 22 900 minecraft:red_concrete replace minecraft:blue_terracotta
 fill -1201 8 856 -1175 22 900 minecraft:red_concrete replace minecraft:yellow_concrete
 fill -1201 8 856 -1175 22 900 minecraft:red_concrete replace minecraft:purple_concrete
+fill -1201 8 856 -1175 22 900 minecraft:red_concrete replace minecraft:red_concrete
 
 fill -1201 8 856 -1175 22 900 minecraft:black_glazed_terracotta replace minecraft:gray_glazed_terracotta
 fill -1201 8 856 -1175 22 900 minecraft:black_glazed_terracotta replace minecraft:lime_glazed_terracotta
 fill -1201 8 856 -1175 22 900 minecraft:black_glazed_terracotta replace minecraft:crying_obsidian
+fill -1201 8 856 -1175 22 900 minecraft:black_glazed_terracotta replace minecraft:shroomlight
 
 fill -1201 8 856 -1175 22 900 minecraft:red_stained_glass replace minecraft:blue_stained_glass
 fill -1201 8 856 -1175 22 900 minecraft:red_stained_glass replace minecraft:orange_stained_glass
 fill -1201 8 856 -1175 22 900 minecraft:red_stained_glass replace minecraft:white_stained_glass
+fill -1201 8 856 -1175 22 900 minecraft:red_stained_glass replace minecraft:orange_stained_glass
 
 # Wires
 fill -1205 29 852 -1168 40 899 minecraft:red_glazed_terracotta replace minecraft:lapis_block
@@ -42,6 +45,14 @@ fill -1205 61 852 -1168 70 899 minecraft:red_glazed_terracotta replace minecraft
 fill -1205 71 852 -1168 80 899 minecraft:red_glazed_terracotta replace minecraft:amethyst_block
 fill -1205 81 852 -1168 90 899 minecraft:red_glazed_terracotta replace minecraft:amethyst_block
 fill -1205 91 852 -1168 99 899 minecraft:red_glazed_terracotta replace minecraft:amethyst_block
+
+fill -1205 29 852 -1168 40 899 minecraft:red_glazed_terracotta replace minecraft:redstone_block
+fill -1205 41 852 -1168 50 899 minecraft:red_glazed_terracotta replace minecraft:redstone_block
+fill -1205 51 852 -1168 60 899 minecraft:red_glazed_terracotta replace minecraft:redstone_block
+fill -1205 61 852 -1168 70 899 minecraft:red_glazed_terracotta replace minecraft:redstone_block
+fill -1205 71 852 -1168 80 899 minecraft:red_glazed_terracotta replace minecraft:redstone_block
+fill -1205 81 852 -1168 90 899 minecraft:red_glazed_terracotta replace minecraft:redstone_block
+fill -1205 91 852 -1168 99 899 minecraft:red_glazed_terracotta replace minecraft:redstone_block
 
 # Cells
 fill -1230 0 814 -1146 15 824 minecraft:redstone_block replace minecraft:lapis_block
@@ -221,18 +232,22 @@ fill -1145 65 826 -1134 85 930 minecraft:red_stained_glass replace minecraft:tin
 fill -1249 91 808 -1127 100 808 minecraft:red_glazed_terracotta replace minecraft:lapis_block
 fill -1249 91 808 -1127 100 808 minecraft:red_glazed_terracotta replace minecraft:yellow_glazed_terracotta
 fill -1249 91 808 -1127 100 808 minecraft:red_glazed_terracotta replace minecraft:purple_glazed_terracotta
+fill -1249 91 808 -1127 100 808 minecraft:red_glazed_terracotta replace minecraft:black_glazed_terracotta
 
 fill -1249 91 808 -1249 100 948 minecraft:red_glazed_terracotta replace minecraft:lapis_block
 fill -1249 91 808 -1249 100 948 minecraft:red_glazed_terracotta replace minecraft:yellow_glazed_terracotta
 fill -1249 91 808 -1249 100 948 minecraft:red_glazed_terracotta replace minecraft:purple_glazed_terracotta
+fill -1249 91 808 -1249 100 948 minecraft:red_glazed_terracotta replace minecraft:black_glazed_terracotta
 
 fill -1249 91 948 -1127 100 948 minecraft:red_glazed_terracotta replace minecraft:lapis_block
 fill -1249 91 948 -1127 100 948 minecraft:red_glazed_terracotta replace minecraft:yellow_glazed_terracotta
 fill -1249 91 948 -1127 100 948 minecraft:red_glazed_terracotta replace minecraft:purple_glazed_terracotta
+fill -1249 91 948 -1127 100 948 minecraft:red_glazed_terracotta replace minecraft:black_glazed_terracotta
 
 fill -1127 91 808 -1127 100 948 minecraft:red_glazed_terracotta replace minecraft:lapis_block
 fill -1127 91 808 -1127 100 948 minecraft:red_glazed_terracotta replace minecraft:yellow_glazed_terracotta
 fill -1127 91 808 -1127 100 948 minecraft:red_glazed_terracotta replace minecraft:purple_glazed_terracotta
+fill -1127 91 808 -1127 100 948 minecraft:red_glazed_terracotta replace minecraft:black_glazed_terracotta
 
 fill -1248 100 809 -1128 100 947 minecraft:red_stained_glass replace minecraft:blue_stained_glass
 fill -1248 100 809 -1128 100 947 minecraft:red_stained_glass replace minecraft:orange_stained_glass
