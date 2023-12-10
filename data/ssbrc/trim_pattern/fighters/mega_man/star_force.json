@@ -1,0 +1,7 @@
+{
+	"asset_id": "ssbrc:fighters/mega_man/star_force",
+	"description": {
+		"translate": "trim_pattern.skin"
+	},
+	"template_item": "minecraft:stick"
+}

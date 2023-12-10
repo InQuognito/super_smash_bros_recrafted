@@ -1,0 +1,7 @@
+{
+	"asset_id": "ssbrc:fighters/ryu/super_turbo/default",
+	"description": {
+		"translate": "trim_pattern.skin"
+	},
+	"template_item": "minecraft:stick"
+}

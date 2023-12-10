@@ -1,0 +1,7 @@
+{
+	"asset_id": "ssbrc:fighters/wolf/star_fox_2",
+	"description": {
+		"translate": "trim_pattern.skin"
+	},
+	"template_item": "minecraft:stick"
+}

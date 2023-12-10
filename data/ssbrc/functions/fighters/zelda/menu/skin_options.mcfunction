@@ -6,6 +6,15 @@ tellraw @s[tag=default] [{"translate":"ssbrc.fighters.skin.default","color":"blu
 tellraw @s[tag=!gold,advancements={ssbrc:fighters/zelda/skins/gold=true}] [{"translate":"ssbrc.fighters.skin.gold","color":"gold","clickEvent":{"action":"run_command","value":"/trigger menu set 1785"}}]
 tellraw @s[tag=gold] [{"translate":"ssbrc.fighters.skin.gold","color":"gold"},{"text":" ✔","color":"green"}]
 
+tellraw @s[tag=!hyrule_warriors,advancements={ssbrc:fighters/zelda/skins/hyrule_warriors=true}] [{"translate":"ssbrc.fighters.zelda.skin.hyrule_warriors","color":"light_purple","clickEvent":{"action":"run_command","value":"/trigger menu set 1786"}}]
+tellraw @s[tag=hyrule_warriors] [{"translate":"ssbrc.fighters.zelda.skin.hyrule_warriors","color":"light_purple"},{"text":" ✔","color":"green"}]
+
+tellraw @s[tag=!shadow_zelda,advancements={ssbrc:fighters/zelda/skins/shadow_zelda=true}] [{"translate":"ssbrc.fighters.zelda.skin.shadow_zelda","color":"dark_gray","clickEvent":{"action":"run_command","value":"/trigger menu set 1787"}}]
+tellraw @s[tag=shadow_zelda] [{"translate":"ssbrc.fighters.zelda.skin.shadow_zelda","color":"dark_gray"},{"text":" ✔","color":"green"}]
+
+tellraw @s[tag=!twilight_princess,advancements={ssbrc:fighters/zelda/skins/twilight_princess=true}] [{"translate":"ssbrc.fighters.zelda.skin.twilight_princess","color":"dark_purple","clickEvent":{"action":"run_command","value":"/trigger menu set 1788"}}]
+tellraw @s[tag=twilight_princess] [{"translate":"ssbrc.fighters.zelda.skin.twilight_princess","color":"dark_purple"},{"text":" ✔","color":"green"}]
+
 tellraw @s [{"text":"================","bold":true,"color":"white"}]
 
 execute at @s run playsound minecraft:ui.button.click master @s
