@@ -3,4 +3,4 @@ tag @s add charge_attack
 
 function ssbrc:logic/init/projectile
 
-teleport @s[x_rotation=-90..30] ~ ~ ~ ~ 30.0
+teleport @s[x_rotation=-90..60] ~ ~ ~ ~ 60.0
