@@ -7,9 +7,9 @@ execute if score @s charge.1 >= #luigi.superJumpThreshold vars at @s run particl
 
 execute if score @s charge.1 = #luigi.superJumpThreshold vars run function ssbrc:fighters/luigi/logic/abilities/super_jump/charge
 
-scoreboard players operation superJumpFalloff temp = @s walkDistance
-scoreboard players operation superJumpFalloff temp += @s sprintDistance
-execute if score @s charge.1 >= #luigi.superJumpThreshold vars if score superJumpFalloff temp >= #luigi.superJumpMovementFalloff vars run function ssbrc:fighters/luigi/logic/abilities/super_jump/reset
+scoreboard players operation super_jump_falloff temp = @s walkDistance
+scoreboard players operation super_jump_falloff temp += @s sprintDistance
+execute if score @s charge.1 >= #luigi.superJumpThreshold vars if score super_jump_falloff temp >= #luigi.superJumpMovementFalloff vars run function ssbrc:fighters/luigi/logic/abilities/super_jump/reset
 
 # Stomp
 execute store result score @s motionY run data get entity @s Motion[1] 1000

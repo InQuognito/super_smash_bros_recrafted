@@ -23,11 +23,8 @@
 						"name": "ssbrc:fighters/effects/jump_boost/super"
 					},
 					{
-						"condition": "minecraft:entity_properties",
-						"entity": "this",
-						"predicate": {
-							"nbt": "{Tags:[\"angelFeather\"]}"
-						}
+						"condition": "minecraft:reference",
+						"name": "ssbrc:fighters/effects/jump_boost/insane"
 					}
 				]
 			}

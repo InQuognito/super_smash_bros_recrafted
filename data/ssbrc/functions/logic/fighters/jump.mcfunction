@@ -1,4 +1,5 @@
 # Fighters
+execute if entity @s[tag=altered_beast,tag=waretiger] run function ssbrc:logic/fighters/jump/altered_beast
 execute if entity @s[tag=mario] run function ssbrc:logic/fighters/jump/mario
 execute if entity @s[tag=luigi] run function ssbrc:logic/fighters/jump/luigi
 

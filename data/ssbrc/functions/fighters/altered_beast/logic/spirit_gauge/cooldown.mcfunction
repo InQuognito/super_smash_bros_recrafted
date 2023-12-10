@@ -1,5 +1,5 @@
 scoreboard players operation indicator.cooldownType temp = @s cooldown.3
-scoreboard players operation indicator.cooldownAmount temp = altered_beast.markOfTheBeastCooldown vars
+scoreboard players operation indicator.cooldownAmount temp = altered_beast.mark_of_the_beast_cooldown vars
 
 function ssbrc:logic/fighters/calculate_cooldown
 

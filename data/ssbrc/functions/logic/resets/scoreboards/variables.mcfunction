@@ -6,11 +6,13 @@ scoreboard players set selectorRange vars 20
 scoreboard players set #frostbiteTimer vars 100
 
 # Fighters
-scoreboard players set altered_beast.maxGauge vars 1000
-scoreboard players set altered_beast.markOfTheBeastCooldown vars 200
-scoreboard players set altered_beast.petrifyingBreathCooldown vars 100
-scoreboard players set altered_beast.electrocutionCooldown vars 300
-scoreboard players set altered_beast.flameHandsCooldown vars 20
+scoreboard players set altered_beast.max_gauge vars 1000
+scoreboard players set altered_beast.mark_of_the_beast_cooldown vars 200
+scoreboard players set altered_beast.petrifying_breath_cooldown vars 100
+scoreboard players set altered_beast.electrocution_cooldown vars 300
+scoreboard players set altered_beast.super_jump_threshold vars 10
+scoreboard players set altered_beast.super_jump_falloff vars 200
+scoreboard players set altered_beast.flame_hands_cooldown vars 20
 
 scoreboard players set #bowser.maxFireBreath vars 100
 

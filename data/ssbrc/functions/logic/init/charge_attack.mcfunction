@@ -1,4 +1,3 @@
-function ssbrc:logic/init/id
+function ssbrc:logic/init/projectile
 
-execute if block ~ ~-0.2 ~ #ssbrc:passthrough run data modify entity @s Rotation set from entity @a[tag=self,limit=1] Rotation
-execute unless block ~ ~-0.2 ~ #ssbrc:passthrough run function ssbrc:logic/fighters/calculate_charge_angle
+execute unless block ~ ~-0.2 ~ #ssbrc:passthrough run teleport @s[y_rotation=0..] ~ ~ ~ ~ 0.0

@@ -132,6 +132,7 @@ execute if entity @s[tag=magicBoomerang] run function ssbrc:fighters/zelda/logic
 
 # Altered Beast
 execute if entity @s[tag=sabretooth] run function ssbrc:fighters/altered_beast/logic/waretiger/sabretooth/raycast/start
+execute if entity @s[tag=super_jump] run function ssbrc:fighters/altered_beast/logic/waretiger/super_jump/raycast/start
 execute if entity @s[tag=flameHands] run function ssbrc:fighters/altered_beast/logic/warewolf/flame_hands/tick
 
 # Alucard
