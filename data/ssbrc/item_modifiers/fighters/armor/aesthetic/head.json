@@ -2234,7 +2234,7 @@
 				"condition": "minecraft:entity_properties",
 				"entity": "this",
 				"predicate": {
-					"nbt": "{Tags:[\"altered_beast\",\"default\",\"human\"]}"
+					"nbt": "{Tags:[\"altered_beast\",\"default\",\"centurion\"]}"
 				}
 			}
 		]
@@ -2312,7 +2312,7 @@
 				"condition": "minecraft:entity_properties",
 				"entity": "this",
 				"predicate": {
-					"nbt": "{Tags:[\"altered_beast\",\"gold\",\"human\"]}"
+					"nbt": "{Tags:[\"altered_beast\",\"gold\",\"centurion\"]}"
 				}
 			}
 		]

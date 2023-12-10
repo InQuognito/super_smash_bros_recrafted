@@ -3,4 +3,4 @@ tellraw @s[tag=!blindPick] [{"translate":"ssbrc.fighters.menu.selected","color":
 function ssbrc:logic/selector/select_fighter
 
 tag @s add altered_beast
-tag @s add human
+tag @s add centurion
