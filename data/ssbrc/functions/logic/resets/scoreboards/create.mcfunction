@@ -1,3 +1,4 @@
+scoreboard objectives add anchored_player dummy
 scoreboard objectives add animation dummy
 scoreboard objectives add armorBreak dummy
 scoreboard objectives add bowser.fireBreath dummy

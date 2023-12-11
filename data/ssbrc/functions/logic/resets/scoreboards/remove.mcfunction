@@ -1,3 +1,4 @@
+scoreboard objectives remove anchored_player
 scoreboard objectives remove animation
 scoreboard objectives remove armorBreak
 scoreboard objectives remove bowser.fireBreath
