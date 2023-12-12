@@ -12,7 +12,7 @@
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"translate": "ssbrc.series.superMarioBros.skin.flowerPower",
+								"translate": "ssbrc.series.super_mario_bros.skin.flower_power",
 								"color": "white",
 								"bold": true,
 								"italic": false
@@ -20,15 +20,11 @@
 						},
 						{
 							"function": "minecraft:reference",
-							"name": "ssbrc:ui/shop/price/skin"
-						},
-						{
-							"function": "minecraft:reference",
 							"name": "ssbrc:ui/shop/unowned"
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{ui:{id:\"skins.mario.flowerPower\",sound:\"click\"},CustomModelData:842}"
+							"tag": "{ui:{id:\"skins.mario.flower_power\",sound:\"click\"},CustomModelData:842}"
 						}
 					]
 				}

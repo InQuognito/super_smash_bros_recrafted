@@ -9,22 +9,12 @@
 					"name": "minecraft:barrier",
 					"functions": [
 						{
-							"function": "minecraft:set_name",
-							"entity": "this",
-							"name": {
-								"translate": "ssbrc.fighters.yar.skin.recruit",
-								"color": "dark_green",
-								"bold": true,
-								"italic": false
-							}
+							"function": "minecraft:reference",
+							"name": "ssbrc:ui/shop/fighters/yar/recruit"
 						},
 						{
 							"function": "minecraft:reference",
 							"name": "ssbrc:ui/shop/owned"
-						},
-						{
-							"function": "minecraft:set_nbt",
-							"tag": "{CustomModelData:1962}"
 						}
 					]
 				}

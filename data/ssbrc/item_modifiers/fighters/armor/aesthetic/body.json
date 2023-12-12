@@ -254,7 +254,7 @@
 				"condition": "minecraft:entity_properties",
 				"entity": "this",
 				"predicate": {
-					"nbt": "{Tags:[\"donkey_kong\",\"flowerPower\"]}"
+					"nbt": "{Tags:[\"donkey_kong\",\"flower_power\"]}"
 				}
 			}
 		]
@@ -813,7 +813,7 @@
 				"condition": "minecraft:entity_properties",
 				"entity": "this",
 				"predicate": {
-					"nbt": "{Tags:[\"luigi\",\"flowerPower\"]}"
+					"nbt": "{Tags:[\"luigi\",\"flower_power\"]}"
 				}
 			}
 		]
@@ -878,7 +878,7 @@
 				"condition": "minecraft:entity_properties",
 				"entity": "this",
 				"predicate": {
-					"nbt": "{Tags:[\"mario\",\"flowerPower\"]}"
+					"nbt": "{Tags:[\"mario\",\"flower_power\"]}"
 				}
 			}
 		]
@@ -1034,7 +1034,7 @@
 				"condition": "minecraft:entity_properties",
 				"entity": "this",
 				"predicate": {
-					"nbt": "{Tags:[\"peach\",\"flowerPower\"]}"
+					"nbt": "{Tags:[\"peach\",\"flower_power\"]}"
 				}
 			}
 		]
@@ -1047,7 +1047,7 @@
 				"condition": "minecraft:entity_properties",
 				"entity": "this",
 				"predicate": {
-					"nbt": "{Tags:[\"peach\",\"shadowQueen\"]}"
+					"nbt": "{Tags:[\"peach\",\"shadow_queen\"]}"
 				}
 			}
 		]
@@ -1578,7 +1578,7 @@
 				"condition": "minecraft:entity_properties",
 				"entity": "this",
 				"predicate": {
-					"nbt": "{Tags:[\"ryu\",\"hotRyu\"]}"
+					"nbt": "{Tags:[\"ryu\",\"hot_ryu\"]}"
 				}
 			}
 		]
@@ -1591,7 +1591,7 @@
 				"condition": "minecraft:entity_properties",
 				"entity": "this",
 				"predicate": {
-					"nbt": "{Tags:[\"ryu\",\"hotRyu\",\"satsuiNoHadoRage\"]}"
+					"nbt": "{Tags:[\"ryu\",\"hot_ryu\",\"satsuiNoHadoRage\"]}"
 				}
 			}
 		]
@@ -1708,7 +1708,7 @@
 				"condition": "minecraft:entity_properties",
 				"entity": "this",
 				"predicate": {
-					"nbt": "{Tags:[\"snake\",\"iroquoisPliskin\"]}"
+					"nbt": "{Tags:[\"snake\",\"iroquois_pliskin\"]}"
 				}
 			}
 		]

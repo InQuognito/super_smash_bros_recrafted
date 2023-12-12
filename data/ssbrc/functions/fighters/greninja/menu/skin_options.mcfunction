@@ -6,11 +6,11 @@ tellraw @s[tag=default] [{"translate":"ssbrc.fighters.skin.default","color":"blu
 tellraw @s[tag=!gold,advancements={ssbrc:fighters/greninja/skins/gold=true}] [{"translate":"ssbrc.fighters.skin.gold","color":"gold","clickEvent":{"action":"run_command","value":"/trigger menu set 425"}}]
 tellraw @s[tag=gold] [{"translate":"ssbrc.fighters.skin.gold","color":"gold"},{"text":" ✔","color":"green"}]
 
-tellraw @s[tag=!shiny,advancements={ssbrc:fighters/greninja/skins/shiny=true}] [{"translate":"ssbrc.series.pokemon.skins.shiny","color":"dark_gray","clickEvent":{"action":"run_command","value":"/trigger menu set 426"}}]
-tellraw @s[tag=shiny] [{"translate":"ssbrc.series.pokemon.skins.shiny","color":"dark_gray"},{"text":" ✔","color":"green"}]
+tellraw @s[tag=!shiny,advancements={ssbrc:fighters/greninja/skins/shiny=true}] [{"translate":"ssbrc.series.pokemon.skin.shiny","color":"dark_gray","clickEvent":{"action":"run_command","value":"/trigger menu set 426"}}]
+tellraw @s[tag=shiny] [{"translate":"ssbrc.series.pokemon.skin.shiny","color":"dark_gray"},{"text":" ✔","color":"green"}]
 
-tellraw @s[tag=!pokemon.shadow,advancements={ssbrc:fighters/greninja/skins/shadow=true}] [{"translate":"ssbrc.series.pokemon.skins.shadow","color":"dark_gray","clickEvent":{"action":"run_command","value":"/trigger menu set 427"}}]
-tellraw @s[tag=pokemon.shadow] [{"translate":"ssbrc.series.pokemon.skins.shadow","color":"dark_gray"},{"text":" ✔","color":"green"}]
+tellraw @s[tag=!pokemon.shadow,advancements={ssbrc:fighters/greninja/skins/shadow=true}] [{"translate":"ssbrc.series.pokemon.skin.shadow","color":"dark_gray","clickEvent":{"action":"run_command","value":"/trigger menu set 427"}}]
+tellraw @s[tag=pokemon.shadow] [{"translate":"ssbrc.series.pokemon.skin.shadow","color":"dark_gray"},{"text":" ✔","color":"green"}]
 
 tellraw @s[tag=!hero_style,advancements={ssbrc:fighters/greninja/skins/hero_style=true}] [{"translate":"ssbrc.fighters.greninja.skin.hero_style","color":"green","clickEvent":{"action":"run_command","value":"/trigger menu set 428"}}]
 tellraw @s[tag=hero_style] [{"translate":"ssbrc.fighters.greninja.skin.hero_style","color":"green"},{"text":" ✔","color":"green"}]

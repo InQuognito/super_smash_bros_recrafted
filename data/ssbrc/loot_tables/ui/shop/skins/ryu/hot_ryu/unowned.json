@@ -9,18 +9,8 @@
 					"name": "minecraft:barrier",
 					"functions": [
 						{
-							"function": "minecraft:set_name",
-							"entity": "this",
-							"name": {
-								"translate": "ssbrc.fighters.ryu.skin.hotRyu",
-								"color": "white",
-								"bold": true,
-								"italic": false
-							}
-						},
-						{
 							"function": "minecraft:reference",
-							"name": "ssbrc:ui/shop/price/skin"
+							"name": "ssbrc:ui/shop/fighters/ryu/hot_ryu"
 						},
 						{
 							"function": "minecraft:reference",
@@ -28,7 +18,7 @@
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{ui:{id:\"skins.ryu.hotRyu\",sound:\"click\"},CustomModelData:1404}"
+							"tag": "{ui:{id:\"skins.ryu.hot_ryu\",sound:\"click\"}}"
 						}
 					]
 				}

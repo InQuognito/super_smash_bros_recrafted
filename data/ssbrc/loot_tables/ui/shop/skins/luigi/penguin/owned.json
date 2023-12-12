@@ -9,19 +9,8 @@
 					"name": "minecraft:barrier",
 					"functions": [
 						{
-							"function": "minecraft:set_name",
-							"entity": "this",
-							"name": {
-								"nbt": "penguin",
-								"storage": "ssbrc:data/skins/super_mario_bros",
-								"interpret": true,
-								"bold": true,
-								"italic": false
-							}
-						},
-						{
 							"function": "minecraft:reference",
-							"name": "ssbrc:ui/shop/collection/winter"
+							"name": "ssbrc:ui/shop/fighters/super_mario_bros/penguin"
 						},
 						{
 							"function": "minecraft:reference",

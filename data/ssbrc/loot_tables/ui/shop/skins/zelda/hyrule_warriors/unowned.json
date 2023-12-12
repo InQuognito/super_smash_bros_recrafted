@@ -1,0 +1,28 @@
+{
+	"type": "minecraft:command",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:barrier",
+					"functions": [
+						{
+							"function": "minecraft:reference",
+							"name": "ssbrc:ui/shop/fighters/zelda/hyrule_warriors"
+						},
+						{
+							"function": "minecraft:reference",
+							"name": "ssbrc:ui/shop/unowned"
+						},
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{ui:{id:\"skins.zelda.hyrule_warriors\",sound:\"click\"}}"
+						}
+					]
+				}
+			]
+		}
+	]
+}

@@ -9,18 +9,8 @@
 					"name": "minecraft:barrier",
 					"functions": [
 						{
-							"function": "minecraft:set_name",
-							"entity": "this",
-							"name": {
-								"translate": "ssbrc.fighters.sonic.skin.classic",
-								"color": "blue",
-								"bold": true,
-								"italic": false
-							}
-						},
-						{
 							"function": "minecraft:reference",
-							"name": "ssbrc:ui/shop/price/skin"
+							"name": "ssbrc:ui/shop/fighters/sonic/classic"
 						},
 						{
 							"function": "minecraft:reference",
@@ -28,7 +18,7 @@
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{ui:{id:\"skins.sonic.classic\",sound:\"click\"},CustomModelData:1542}"
+							"tag": "{ui:{id:\"skins.sonic.classic\",sound:\"click\"}}"
 						}
 					]
 				}

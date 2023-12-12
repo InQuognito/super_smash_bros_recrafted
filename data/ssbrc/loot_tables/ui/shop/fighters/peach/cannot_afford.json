@@ -49,7 +49,7 @@
 									"italic": false
 								},
 								{
-									"translate": "ssbrc.shop.cannotAfford",
+									"translate": "ssbrc.shop.cannot_afford",
 									"color": "red",
 									"bold": false,
 									"italic": false

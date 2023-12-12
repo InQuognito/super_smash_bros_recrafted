@@ -1,0 +1,34 @@
+{
+	"type": "minecraft:command",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:barrier",
+					"functions": [
+						{
+							"function": "minecraft:set_name",
+							"entity": "this",
+							"name": {
+								"translate": "ssbrc.fighters.greninja.skin.hero_style",
+								"color": "green",
+								"bold": true,
+								"italic": false
+							}
+						},
+						{
+							"function": "minecraft:reference",
+							"name": "ssbrc:ui/shop/unowned"
+						},
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{ui:{id:\"skins.greninja.hero_style\",sound:\"click\"},CustomModelData:424}"
+						}
+					]
+				}
+			]
+		}
+	]
+}

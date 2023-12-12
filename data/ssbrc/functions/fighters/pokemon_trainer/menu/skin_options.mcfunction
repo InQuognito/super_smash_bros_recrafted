@@ -6,8 +6,8 @@ tellraw @s[tag=default] [{"translate":"ssbrc.fighters.skin.default","color":"red
 tellraw @s[tag=!gold,advancements={ssbrc:fighters/pokemon_trainer/skins/gold=true}] [{"translate":"ssbrc.fighters.skin.gold","color":"gold","clickEvent":{"action":"run_command","value":"/trigger menu set 1265"}}]
 tellraw @s[tag=gold] [{"translate":"ssbrc.fighters.skin.gold","color":"gold"},{"text":" ✔","color":"green"}]
 
-tellraw @s[tag=!shiny,advancements={ssbrc:fighters/pokemon_trainer/skins/shiny=true}] [{"translate":"ssbrc.series.pokemon.skins.shiny","color":"dark_gray","clickEvent":{"action":"run_command","value":"/trigger menu set 1266"}}]
-tellraw @s[tag=shiny] [{"translate":"ssbrc.series.pokemon.skins.shiny","color":"dark_gray"},{"text":" ✔","color":"green"}]
+tellraw @s[tag=!shiny,advancements={ssbrc:fighters/pokemon_trainer/skins/shiny=true}] [{"translate":"ssbrc.series.pokemon.skin.shiny","color":"dark_gray","clickEvent":{"action":"run_command","value":"/trigger menu set 1266"}}]
+tellraw @s[tag=shiny] [{"translate":"ssbrc.series.pokemon.skin.shiny","color":"dark_gray"},{"text":" ✔","color":"green"}]
 
 tellraw @s[tag=!dawn,advancements={ssbrc:fighters/pokemon_trainer/skins/dawn=true}] [{"translate":"ssbrc.fighters.pokemon_trainer.skin.dawn","color":"light_purple","clickEvent":{"action":"run_command","value":"/trigger menu set 1267"}}]
 tellraw @s[tag=dawn] [{"translate":"ssbrc.fighters.pokemon_trainer.skin.dawn","color":"light_purple"},{"text":" ✔","color":"green"}]

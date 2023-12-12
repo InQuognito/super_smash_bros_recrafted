@@ -1,3 +1,5 @@
+function ssbrc:fighters/alucard/logic/alucard_sword
+
 function ssbrc:fighters/alucard/logic/abilities/blood_metamorphosis/regain
 
 scoreboard players set @s durability 300

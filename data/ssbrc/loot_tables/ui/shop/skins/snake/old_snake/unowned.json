@@ -1,0 +1,28 @@
+{
+	"type": "minecraft:command",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:barrier",
+					"functions": [
+						{
+							"function": "minecraft:reference",
+							"name": "ssbrc:ui/shop/fighters/snake/old_snake"
+						},
+						{
+							"function": "minecraft:reference",
+							"name": "ssbrc:ui/shop/unowned"
+						},
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{ui:{id:\"skins.snake.old_snake\",sound:\"click\"}}"
+						}
+					]
+				}
+			]
+		}
+	]
+}

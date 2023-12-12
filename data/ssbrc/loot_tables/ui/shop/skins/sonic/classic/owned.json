@@ -9,22 +9,12 @@
 					"name": "minecraft:barrier",
 					"functions": [
 						{
-							"function": "minecraft:set_name",
-							"entity": "this",
-							"name": {
-								"translate": "ssbrc.fighters.sonic.skin.classic",
-								"color": "blue",
-								"bold": true,
-								"italic": false
-							}
+							"function": "minecraft:reference",
+							"name": "ssbrc:ui/shop/fighters/sonic/classic"
 						},
 						{
 							"function": "minecraft:reference",
 							"name": "ssbrc:ui/shop/owned"
-						},
-						{
-							"function": "minecraft:set_nbt",
-							"tag": "{CustomModelData:1542}"
 						}
 					]
 				}

@@ -1,0 +1,34 @@
+{
+	"type": "minecraft:command",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:barrier",
+					"functions": [
+						{
+							"function": "minecraft:set_name",
+							"entity": "this",
+							"name": {
+								"translate": "ssbrc.series.pokemon.skin.shadow",
+								"color": "dark_gray",
+								"bold": true,
+								"italic": false
+							}
+						},
+						{
+							"function": "minecraft:reference",
+							"name": "ssbrc:ui/shop/cannot_afford"
+						},
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{CustomModelData:423}"
+						}
+					]
+				}
+			]
+		}
+	]
+}

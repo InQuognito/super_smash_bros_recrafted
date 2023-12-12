@@ -24,10 +24,6 @@
 						},
 						{
 							"function": "minecraft:reference",
-							"name": "ssbrc:ui/shop/price/skin"
-						},
-						{
-							"function": "minecraft:reference",
 							"name": "ssbrc:ui/shop/cannot_afford"
 						},
 						{

@@ -1,0 +1,17 @@
+[
+	{
+		"function": "minecraft:set_name",
+		"entity": "this",
+		"name": {
+			"nbt": "penguin",
+			"storage": "ssbrc:data/skins/super_mario_bros",
+			"interpret": true,
+			"bold": true,
+			"italic": false
+		}
+	},
+	{
+		"function": "minecraft:reference",
+		"name": "ssbrc:ui/shop/collection/winter"
+	}
+]

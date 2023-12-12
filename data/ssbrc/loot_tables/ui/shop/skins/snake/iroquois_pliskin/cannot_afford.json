@@ -9,26 +9,12 @@
 					"name": "minecraft:barrier",
 					"functions": [
 						{
-							"function": "minecraft:set_name",
-							"entity": "this",
-							"name": {
-								"translate": "ssbrc.fighters.snake.skin.iroquoisPliskin",
-								"color": "dark_green",
-								"bold": true,
-								"italic": false
-							}
-						},
-						{
 							"function": "minecraft:reference",
-							"name": "ssbrc:ui/shop/price/skin"
+							"name": "ssbrc:ui/shop/fighters/snake/iroquois_pliskin"
 						},
 						{
 							"function": "minecraft:reference",
 							"name": "ssbrc:ui/shop/cannot_afford"
-						},
-						{
-							"function": "minecraft:set_nbt",
-							"tag": "{CustomModelData:1524}"
 						}
 					]
 				}

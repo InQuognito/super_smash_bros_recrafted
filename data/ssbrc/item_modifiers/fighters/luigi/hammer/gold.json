@@ -3,7 +3,7 @@
 		"function": "minecraft:set_name",
 		"entity": "this",
 		"name": {
-			"translate": "ssbrc.tooltips.superMarioBros.hammer",
+			"translate": "ssbrc.tooltips.super_mario_bros.hammer",
 			"color": "gold",
 			"bold": true,
 			"italic": false
