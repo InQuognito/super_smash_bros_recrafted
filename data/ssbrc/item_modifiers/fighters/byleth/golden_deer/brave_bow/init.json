@@ -3,7 +3,7 @@
 		"function": "minecraft:set_name",
 		"entity": "this",
 		"name": {
-			"translate": "ssbrc.tooltips.byleth.goldenDeer.braveBow",
+			"translate": "ssbrc.tooltips.byleth.golden_deer.braveBow",
 			"color": "white",
 			"bold": true,
 			"italic": false
@@ -18,7 +18,7 @@
 		"entity": "this",
 		"lore": [
 			{
-				"translate": "ssbrc.tooltips.byleth.goldenDeer.braveBow.description.1",
+				"translate": "ssbrc.tooltips.byleth.golden_deer.braveBow.description.1",
 				"color": "gray",
 				"bold": false,
 				"italic": false

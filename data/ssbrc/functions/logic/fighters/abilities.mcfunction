@@ -123,9 +123,9 @@ execute if entity @s[tag=grenade] run function ssbrc:fighters/wolf/logic/abiliti
 execute if entity @s[tag=bomb] run function ssbrc:fighters/zelda/logic/abilities/bomb/tick
 execute if entity @s[tag=zelda.boomerang] run function ssbrc:fighters/zelda/logic/abilities/boomerang/tick
 execute if entity @s[tag=bow] run function ssbrc:fighters/zelda/logic/abilities/bow/tick
-execute if entity @s[tag=fireRod,tag=!pillar] run function ssbrc:fighters/zelda/logic/abilities/fire_rod/tick
-execute if entity @s[tag=fireRod,tag=pillar,tag=!active] run function ssbrc:fighters/zelda/logic/abilities/fire_rod/alternate_function/tick
-execute if entity @s[tag=fireRod,tag=pillar,tag=active] run function ssbrc:fighters/zelda/logic/abilities/fire_rod/alternate_function/tick_pillar
+execute if entity @s[tag=fire_rod,tag=!pillar] run function ssbrc:fighters/zelda/logic/abilities/fire_rod/tick
+execute if entity @s[tag=fire_rod,tag=pillar,tag=!active] run function ssbrc:fighters/zelda/logic/abilities/fire_rod/alternate_function/tick
+execute if entity @s[tag=fire_rod,tag=pillar,tag=active] run function ssbrc:fighters/zelda/logic/abilities/fire_rod/alternate_function/tick_pillar
 execute if entity @s[tag=iceRod] run function ssbrc:fighters/zelda/logic/abilities/ice_rod/tick
 execute if entity @s[tag=iceBlock] run function ssbrc:fighters/zelda/logic/abilities/ice_rod/alternate_function/tick
 execute if entity @s[tag=magicBoomerang] run function ssbrc:fighters/zelda/logic/abilities/magic_boomerang/tick

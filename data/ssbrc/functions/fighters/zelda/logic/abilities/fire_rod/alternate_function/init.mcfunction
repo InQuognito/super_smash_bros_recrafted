@@ -1,4 +1,4 @@
-tag @s add fireRod
+tag @s add fire_rod
 tag @s add pillar
 
 function ssbrc:logic/init/id

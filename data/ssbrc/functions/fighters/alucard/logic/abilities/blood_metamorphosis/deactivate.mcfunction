@@ -1,4 +1,4 @@
-tag @s remove bloodMetamorphosis
+tag @s remove blood_metamorphosis
 
 function ssbrc:fighters/alucard/logic/abilities/blood_metamorphosis/regain
 

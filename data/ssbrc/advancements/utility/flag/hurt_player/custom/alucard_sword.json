@@ -21,7 +21,7 @@
 						"condition": "minecraft:entity_properties",
 						"entity": "this",
 						"predicate": {
-							"nbt": "{Tags:[\"alucard\",\"bloodMetamorphosis\"]}"
+							"nbt": "{Tags:[\"alucard\",\"blood_metamorphosis\"]}"
 						}
 					}
 				],

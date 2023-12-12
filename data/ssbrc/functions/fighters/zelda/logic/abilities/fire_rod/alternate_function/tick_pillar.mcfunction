@@ -7,4 +7,4 @@ teleport @s ^ ^ ^0.1
 
 execute positioned ~ ~0.2 ~ unless block ^ ^ ^0.1 #ssbrc:passthrough run kill @s
 
-execute positioned ~-0.15 ~ ~-0.15 as @e[tag=!self,predicate=ssbrc:flag/targets,dy=2] positioned ~-0.7 ~ ~-0.7 if entity @s[dy=2] at @s run tag @s add damage.fireRod
+execute positioned ~-0.15 ~ ~-0.15 as @e[tag=!self,predicate=ssbrc:flag/targets,dy=2] positioned ~-0.7 ~ ~-0.7 if entity @s[dy=2] at @s run tag @s add damage.fire_rod

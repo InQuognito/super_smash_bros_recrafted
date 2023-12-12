@@ -15,9 +15,9 @@ execute if score @s[tag=byleth] menu matches 107 run function ssbrc:fighters/byl
 execute if score @s[tag=byleth] menu matches 108 run function ssbrc:fighters/byleth/menu/skins/awakened/female
 execute if score @s[tag=byleth] menu matches 109 run function ssbrc:fighters/byleth/menu/skins/awakened/male
 
-execute if score @s[tag=byleth,tag=!blackEagles] characterTrigger matches 100 run function ssbrc:fighters/byleth/menu/loadout/houses/black_eagles
-execute if score @s[tag=byleth,tag=!blueLions] characterTrigger matches 101 run function ssbrc:fighters/byleth/menu/loadout/houses/blue_lions
-execute if score @s[tag=byleth,tag=!goldenDeer] characterTrigger matches 102 run function ssbrc:fighters/byleth/menu/loadout/houses/golden_deer
+execute if score @s[tag=byleth,tag=!black_eagles] characterTrigger matches 100 run function ssbrc:fighters/byleth/menu/loadout/houses/black_eagles
+execute if score @s[tag=byleth,tag=!blue_lions] characterTrigger matches 101 run function ssbrc:fighters/byleth/menu/loadout/houses/blue_lions
+execute if score @s[tag=byleth,tag=!golden_deer] characterTrigger matches 102 run function ssbrc:fighters/byleth/menu/loadout/houses/golden_deer
 
 execute if score @s[tag=captain_falcon] menu matches 124 run function ssbrc:fighters/captain_falcon/menu/skins/default
 execute if score @s[tag=captain_falcon] menu matches 125 run function ssbrc:fighters/captain_falcon/menu/skins/gold

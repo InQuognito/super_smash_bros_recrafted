@@ -91,7 +91,7 @@ scoreboard players set @s[tag=cloud] cloud.limit 0
 tag @s remove punisher
 
 # Alucard
-tag @s remove bloodMetamorphosis
+tag @s remove blood_metamorphosis
 
 clear @s minecraft:shield{alucardShield:1}
 

@@ -1,6 +1,6 @@
 effect give @s minecraft:instant_damage 1 0 true
 
-tag @s add bloodMetamorphosis
+tag @s add blood_metamorphosis
 
 function ssbrc:fighters/alucard/logic/alucard_sword
 

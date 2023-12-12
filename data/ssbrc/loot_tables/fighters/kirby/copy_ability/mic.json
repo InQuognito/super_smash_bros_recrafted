@@ -10,7 +10,11 @@
 					"functions": [
 						{
 							"function": "minecraft:reference",
-							"name": "ssbrc:fighters/init/preset/augment"
+							"name": "ssbrc:fighters/init/tooltip/ability/ranged"
+						},
+						{
+							"function": "minecraft:reference",
+							"name": "ssbrc:fighters/init/animation/instant"
 						},
 						{
 							"function": "minecraft:set_lore",
@@ -29,7 +33,7 @@
 											"italic": false
 										},
 										{
-											"translate": "ssbrc.tooltips.alucard.blood_metamorphosis.description.1",
+											"translate": "ssbrc.tooltips.jigglypuff.hyperVoice.description.1",
 											"color": "gray",
 											"bold": false,
 											"italic": false
@@ -37,19 +41,7 @@
 									]
 								},
 								{
-									"translate": "ssbrc.tooltips.alucard.blood_metamorphosis.description.2",
-									"color": "gray",
-									"bold": false,
-									"italic": false
-								},
-								{
-									"translate": "ssbrc.tooltips.alucard.blood_metamorphosis.description.3",
-									"color": "gray",
-									"bold": false,
-									"italic": false
-								},
-								{
-									"translate": "ssbrc.tooltips.alucard.blood_metamorphosis.description.4",
+									"translate": "ssbrc.tooltips.jigglypuff.hyperVoice.description.2",
 									"color": "gray",
 									"bold": false,
 									"italic": false
@@ -59,7 +51,7 @@
 						},
 						{
 							"function": "minecraft:reference",
-							"name": "ssbrc:fighters/alucard/blood_metamorphosis/default",
+							"name": "ssbrc:fighters/jigglypuff/hyper_voice/default",
 							"conditions": [
 								{
 									"condition": "minecraft:inverted",
@@ -75,7 +67,7 @@
 						},
 						{
 							"function": "minecraft:reference",
-							"name": "ssbrc:fighters/alucard/blood_metamorphosis/gold",
+							"name": "ssbrc:fighters/jigglypuff/hyper_voice/gold",
 							"conditions": [
 								{
 									"condition": "minecraft:entity_properties",
@@ -87,21 +79,8 @@
 							]
 						},
 						{
-							"function": "minecraft:reference",
-							"name": "ssbrc:fighters/alucard/blood_metamorphosis/disabled",
-							"conditions": [
-								{
-									"condition": "minecraft:entity_properties",
-									"entity": "this",
-									"predicate": {
-										"nbt": "{Tags:[\"blood_metamorphosis\"]}"
-									}
-								}
-							]
-						},
-						{
 							"function": "minecraft:set_nbt",
-							"tag": "{blood_metamorphosis:1}"
+							"tag": "{hyperVoice:1}"
 						}
 					]
 				}

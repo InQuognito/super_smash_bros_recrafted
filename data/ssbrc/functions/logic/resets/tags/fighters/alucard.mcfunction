@@ -1,3 +1,3 @@
 tag @s remove alucard
 
-tag @s remove bloodMetamorphosis
+tag @s remove blood_metamorphosis

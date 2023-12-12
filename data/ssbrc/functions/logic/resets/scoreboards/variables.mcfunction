@@ -178,8 +178,8 @@ scoreboard players set #zelda.boomerangMagicCost vars 2
 scoreboard players set #zelda.bowMagicCost vars 1
 scoreboard players set #zelda.bowFireMagicCost vars 2
 scoreboard players set #zelda.bowPoisonMagicCost vars 2
-scoreboard players set #zelda.fireRodMagicCost vars 2
-scoreboard players set #zelda.fireRodAltMagicCost vars 4
+scoreboard players set #zelda.fire_rodMagicCost vars 2
+scoreboard players set #zelda.fire_rodAltMagicCost vars 4
 scoreboard players set #zelda.iceRodMagicCost vars 2
 scoreboard players set #zelda.iceRodAltMagicCost vars 4
 scoreboard players set #zelda.magicBoomerangMagicCost vars 3

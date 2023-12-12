@@ -8,4 +8,4 @@ execute if score @s duration.1 matches 2.. at @s positioned ~ ~0.75 ~ run functi
 execute if score @s duration.1 matches 1 run function ssbrc:fighters/alucard/logic/abilities/mist/deactivate
 
 # Particles
-execute at @s[tag=bloodMetamorphosis] run particle minecraft:mycelium ~ ~0.5 ~ 0.35 0.7 0.35 1 5 normal @a
+execute at @s[tag=blood_metamorphosis] run particle minecraft:mycelium ~ ~0.5 ~ 0.35 0.7 0.35 1 5 normal @a

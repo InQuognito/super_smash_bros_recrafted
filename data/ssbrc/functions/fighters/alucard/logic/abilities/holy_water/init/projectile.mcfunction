@@ -1,6 +1,6 @@
 tag @s add holyWater
 
-execute if entity @p[tag=self,tag=bloodMetamorphosis] run tag @s add large
+execute if entity @p[tag=self,tag=blood_metamorphosis] run tag @s add large
 
 data merge entity @s {Duration:200}
 
