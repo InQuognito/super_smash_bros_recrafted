@@ -23,10 +23,6 @@
 							"name": "ssbrc:fighters/init/tooltip/ability/offensive"
 						},
 						{
-							"function": "minecraft:reference",
-							"name": "ssbrc:fighters/init/animation/instant"
-						},
-						{
 							"function": "minecraft:set_lore",
 							"entity": "this",
 							"lore": [
@@ -54,8 +50,12 @@
 							"replace": false
 						},
 						{
+							"function": "minecraft:reference",
+							"name": "ssbrc:fighters/hero/spell"
+						},
+						{
 							"function": "minecraft:set_nbt",
-							"tag": "{hero.spell:1,bang:1,CustomModelData:441}"
+							"tag": "{bang:1,CustomModelData:441}"
 						}
 					]
 				}

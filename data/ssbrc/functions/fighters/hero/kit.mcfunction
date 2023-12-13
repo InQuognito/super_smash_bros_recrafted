@@ -1,3 +1,3 @@
-function ssbrc:fighters/hero/logic/restore_items
+function ssbrc:fighters/hero/restore_items
 
-scoreboard players operation @s mana = #hero.initialMana vars
+scoreboard players operation @s mana = hero.max_mana vars

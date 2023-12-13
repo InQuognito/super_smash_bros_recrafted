@@ -45,23 +45,18 @@ scoreboard players set giegue.pkFreezeCooldown vars 25
 scoreboard players set giegue.pkBeamCooldown vars 60
 scoreboard players set #giegue.4thDimensionalSlipRange vars 6
 
-scoreboard players set #hero.maxMana vars 20
-scoreboard players operation #hero.halfMana vars = #hero.maxMana vars
-scoreboard players operation #hero.halfMana vars /= 2 integers
-scoreboard players operation #hero.initialMana vars = #hero.maxMana vars
-scoreboard players operation #hero.initialMana vars *= 3 integers
-scoreboard players operation #hero.initialMana vars /= 4 integers
-scoreboard players set #hero.manaGainedOnPlayerKill vars 8
-scoreboard players operation #hero.manaGainedOnNonPlayerKill vars = #hero.manaGainedOnPlayerKill vars
-scoreboard players operation #hero.manaGainedOnNonPlayerKill vars /= 2 integers
-scoreboard players operation #hero.manaGainedOnMiscKill vars = #hero.manaGainedOnNonPlayerKill vars
-scoreboard players operation #hero.manaGainedOnMiscKill vars /= 2 integers
-scoreboard players set #hero.manaGainedOnDeath vars 6
-scoreboard players set #hero.flameSlashManaCost vars 1
-scoreboard players set hero.bangCooldown vars 10
-scoreboard players set #hero.bangManaCost vars 2
-scoreboard players set hero.kaclangCooldown vars 20
-scoreboard players set #hero.kaclangManaCost vars 3
+scoreboard players set hero.max_mana vars 100
+scoreboard players operation hero.half_mana vars = hero.max_mana vars
+scoreboard players operation hero.half_mana vars /= 2 integers
+scoreboard players set hero.spell.cooldown vars 40
+scoreboard players set hero.spell.bang.cost vars 9
+scoreboard players set hero.spell.flame_slash.cost vars 12
+scoreboard players set hero.spell.heal.cost vars 7
+scoreboard players set hero.spell.hocus_pocus.cost vars 4
+scoreboard players set hero.spell.kaboom.cost vars 37
+scoreboard players set hero.spell.kaclang.cost vars 6
+scoreboard players set hero.spell.kacrackle_slash.cost vars 11
+scoreboard players set hero.spell.multiheal.cost vars 20
 
 scoreboard players set jigglypuff.hyperVoiceCooldown vars 40
 
@@ -108,7 +103,7 @@ scoreboard players set #shadow.maxMeter vars 600
 scoreboard players set shadow.chaosSpearCooldown vars 15
 scoreboard players set shadow.chaosSpearCost vars 50
 
-scoreboard players set #shovel_knight.maxMana vars 10
+scoreboard players set #shovel_knight.max_mana vars 10
 scoreboard players set shovel_knight.chaosSphereCooldown vars 20
 scoreboard players set #shovel_knight.chaosSphereManaCost vars 1
 scoreboard players set #shovel_knight.chaosSphereMaxRotation vars 160

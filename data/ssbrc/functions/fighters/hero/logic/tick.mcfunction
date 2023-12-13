@@ -1,14 +1,11 @@
 # Mana
 function ssbrc:fighters/hero/logic/mana/update
 
-# Bang
-function ssbrc:fighters/hero/logic/abilities/bang/cooldown
+function ssbrc:fighters/hero/logic/abilities/spells/cooldown
 
 # Kaclang
-execute if score @s duration.2 matches 2.. at @s run function ssbrc:fighters/hero/logic/abilities/kaclang/tick
-execute if score @s duration.2 matches 1 run function ssbrc:fighters/hero/logic/abilities/kaclang/deactivate
-
-function ssbrc:fighters/hero/logic/abilities/kaclang/cooldown
+execute if score @s duration.2 matches 2.. run function ssbrc:fighters/hero/logic/abilities/spells/kaclang/tick
+execute if score @s duration.2 matches 1 run function ssbrc:fighters/hero/logic/abilities/spells/kaclang/deactivate
 
 # Magic Burst
-execute if score @s charge.1 matches 1.. at @s run function ssbrc:fighters/hero/logic/abilities/magic_burst/tick
+execute if score @s charge.1 matches 1.. run function ssbrc:fighters/hero/logic/abilities/spells/magic_burst/tick

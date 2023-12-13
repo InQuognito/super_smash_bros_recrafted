@@ -12,15 +12,15 @@
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"translate": "ssbrc.tooltips.hero.magic_burst",
-								"color": "light_purple",
+								"translate": "ssbrc.tooltips.hero.heal",
+								"color": "green",
 								"bold": true,
 								"italic": false
 							}
 						},
 						{
 							"function": "minecraft:reference",
-							"name": "ssbrc:fighters/init/tooltip/ability/offensive"
+							"name": "ssbrc:fighters/init/tooltip/ability/utility"
 						},
 						{
 							"function": "minecraft:set_lore",
@@ -39,7 +39,7 @@
 											"italic": false
 										},
 										{
-											"translate": "ssbrc.tooltips.hero.magic_burst.description.1",
+											"translate": "ssbrc.tooltips.hero.heal.description.1",
 											"color": "gray",
 											"bold": false,
 											"italic": false
@@ -55,7 +55,7 @@
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{magic_burst:1,CustomModelData:448}"
+							"tag": "{heal:1,CustomModelData:443}"
 						}
 					]
 				}

@@ -19,7 +19,7 @@ execute if entity @s[tag=donkey_kong] run function ssbrc:fighters/donkey_kong/re
 
 loot replace entity @s[tag=ganondorf] hotbar.1 loot ssbrc:fighters/ganondorf/trident_of_power
 
-execute if entity @s[tag=hero] run function ssbrc:fighters/hero/restore_items
+execute if entity @s[tag=hero] run function ssbrc:fighters/hero/logic/abilities/spells/kaclang/deactivate
 
 execute if entity @s[tag=joker] run function ssbrc:fighters/joker/restore_items
 
