@@ -32,3 +32,4 @@ scoreboard players set 200 integers 200
 scoreboard players set 225 integers 225
 scoreboard players set 400 integers 400
 scoreboard players set 1000 integers 1000
+scoreboard players set 2000 integers 2000

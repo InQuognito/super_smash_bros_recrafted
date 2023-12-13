@@ -8,9 +8,9 @@ scoreboard players set #frostbiteTimer vars 100
 # Fighters
 scoreboard players set altered_beast.spirit.max vars 100000
 scoreboard players operation altered_beast.spirit.recharge_rate vars = altered_beast.spirit.max vars
-scoreboard players operation altered_beast.spirit.recharge_rate vars /= 1000 integers
+scoreboard players operation altered_beast.spirit.recharge_rate vars /= 2000 integers
 scoreboard players operation altered_beast.spirit.consumption_rate vars = altered_beast.spirit.recharge_rate vars
-scoreboard players operation altered_beast.spirit.consumption_rate vars *= 3 integers
+scoreboard players operation altered_beast.spirit.consumption_rate vars *= 6 integers
 scoreboard players operation operation temp = altered_beast.spirit.consumption_rate vars
 scoreboard players operation altered_beast.spirit.consumption_rate.feral_instincts vars = operation temp
 scoreboard players operation operation temp *= 15 integers
