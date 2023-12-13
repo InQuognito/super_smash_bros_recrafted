@@ -9,22 +9,12 @@
 					"name": "minecraft:barrier",
 					"functions": [
 						{
-							"function": "minecraft:set_name",
-							"entity": "this",
-							"name": {
-								"translate": "ssbrc.fighters.bowser.skin.bowsette",
-								"color": "yellow",
-								"bold": true,
-								"italic": false
-							}
+							"function": "minecraft:reference",
+							"name": "ssbrc:ui/shop/fighters/bowser/bowsette"
 						},
 						{
 							"function": "minecraft:reference",
-							"name": "ssbrc:ui/shop/cannot_afford"
-						},
-						{
-							"function": "minecraft:set_nbt",
-							"tag": "{CustomModelData:62}"
+							"name": "ssbrc:ui/shop/price/cannot_afford/skin"
 						}
 					]
 				}

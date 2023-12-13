@@ -1,0 +1,10 @@
+[
+	{
+		"function": "minecraft:reference",
+		"name": "ssbrc:ui/shop/price/fighter"
+	},
+	{
+		"function": "minecraft:reference",
+		"name": "ssbrc:ui/shop/price/cannot_afford/common"
+	}
+]

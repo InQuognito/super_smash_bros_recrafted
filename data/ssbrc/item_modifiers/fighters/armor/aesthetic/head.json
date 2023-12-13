@@ -2637,7 +2637,7 @@
 				"condition": "minecraft:entity_properties",
 				"entity": "this",
 				"predicate": {
-					"nbt": "{Tags:[\"alucard\",\"lordsOfShadow\"]}"
+					"nbt": "{Tags:[\"alucard\",\"lords_of_shadow\"]}"
 				}
 			}
 		]
@@ -2650,7 +2650,7 @@
 				"condition": "minecraft:entity_properties",
 				"entity": "this",
 				"predicate": {
-					"nbt": "{Tags:[\"alucard\",\"gold\",\"lordsOfShadow\"]}"
+					"nbt": "{Tags:[\"alucard\",\"gold\",\"lords_of_shadow\"]}"
 				}
 			}
 		]

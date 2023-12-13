@@ -20,7 +20,7 @@
 						},
 						{
 							"function": "minecraft:reference",
-							"name": "ssbrc:ui/shop/unowned"
+							"name": "ssbrc:ui/shop/price/unowned/skin"
 						},
 						{
 							"function": "minecraft:set_nbt",

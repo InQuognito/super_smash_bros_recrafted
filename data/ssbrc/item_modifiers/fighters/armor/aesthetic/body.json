@@ -2293,7 +2293,7 @@
 				"condition": "minecraft:entity_properties",
 				"entity": "this",
 				"predicate": {
-					"nbt": "{Tags:[\"alucard\",\"lordsOfShadow\"]}"
+					"nbt": "{Tags:[\"alucard\",\"lords_of_shadow\"]}"
 				}
 			}
 		]

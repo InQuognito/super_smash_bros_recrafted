@@ -14,7 +14,7 @@
 						},
 						{
 							"function": "minecraft:reference",
-							"name": "ssbrc:ui/shop/cannot_afford"
+							"name": "ssbrc:ui/shop/price/cannot_afford/skin"
 						}
 					]
 				}

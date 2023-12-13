@@ -9,49 +9,12 @@
 					"name": "minecraft:barrier",
 					"functions": [
 						{
-							"function": "minecraft:set_name",
-							"entity": "this",
-							"name": {
-								"translate": "ssbrc.fighters.yar",
-								"color": "gold",
-								"bold": true,
-								"italic": false
-							}
-						},
-						{
-							"function": "minecraft:set_lore",
-							"entity": "this",
-							"lore": [
-								{
-									"translate": "ssbrc.shop.price",
-									"color": "yellow",
-									"bold": false,
-									"italic": false,
-									"extra": [
-										{
-											"score": {
-												"name": "#price.fighter.common",
-												"objective": "vars"
-											},
-											"bold": false,
-											"italic": false
-										},
-										{
-											"text": "₡",
-											"color": "yellow"
-										}
-									]
-								}
-							],
-							"replace": true
+							"function": "minecraft:reference",
+							"name": "ssbrc:ui/shop/fighters/yar/default"
 						},
 						{
 							"function": "minecraft:reference",
-							"name": "ssbrc:ui/shop/cannot_afford"
-						},
-						{
-							"function": "minecraft:set_nbt",
-							"tag": "{CustomModelData:1960}"
+							"name": "ssbrc:ui/shop/price/cannot_afford/fighter"
 						}
 					]
 				}

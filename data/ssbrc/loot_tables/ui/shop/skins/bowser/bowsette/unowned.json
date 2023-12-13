@@ -9,22 +9,16 @@
 					"name": "minecraft:barrier",
 					"functions": [
 						{
-							"function": "minecraft:set_name",
-							"entity": "this",
-							"name": {
-								"translate": "ssbrc.fighters.bowser.skin.bowsette",
-								"color": "yellow",
-								"bold": true,
-								"italic": false
-							}
+							"function": "minecraft:reference",
+							"name": "ssbrc:ui/shop/fighters/bowser/bowsette"
 						},
 						{
 							"function": "minecraft:reference",
-							"name": "ssbrc:ui/shop/unowned"
+							"name": "ssbrc:ui/shop/price/unowned/skin"
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{ui:{id:\"skins.bowser.bowsette\",sound:\"click\"},CustomModelData:62}"
+							"tag": "{ui:{id:\"skins.bowser.bowsette\",sound:\"click\"}}"
 						}
 					]
 				}

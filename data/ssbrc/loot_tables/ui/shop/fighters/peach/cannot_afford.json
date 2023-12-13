@@ -9,57 +9,12 @@
 					"name": "minecraft:barrier",
 					"functions": [
 						{
-							"function": "minecraft:set_name",
-							"entity": "this",
-							"name": {
-								"translate": "ssbrc.fighters.peach",
-								"color": "light_purple",
-								"bold": true,
-								"italic": false
-							}
+							"function": "minecraft:reference",
+							"name": "ssbrc:ui/shop/fighters/peach/default"
 						},
 						{
-							"function": "minecraft:set_lore",
-							"entity": "this",
-							"lore": [
-								{
-									"translate": "ssbrc.shop.price",
-									"color": "yellow",
-									"bold": false,
-									"italic": false,
-									"extra": [
-										{
-											"score": {
-												"name": "#price.fighter.common",
-												"objective": "vars"
-											},
-											"bold": false,
-											"italic": false
-										},
-										{
-											"translate": "₡",
-											"color": "yellow"
-										}
-									]
-								},
-								{
-									"translate": "",
-									"color": "white",
-									"bold": false,
-									"italic": false
-								},
-								{
-									"translate": "ssbrc.shop.cannot_afford",
-									"color": "red",
-									"bold": false,
-									"italic": false
-								}
-							],
-							"replace": true
-						},
-						{
-							"function": "minecraft:set_nbt",
-							"tag": "{UIPlaceHolder:1b,CustomModelData:1160}"
+							"function": "minecraft:reference",
+							"name": "ssbrc:ui/shop/price/cannot_afford/fighter"
 						}
 					]
 				}
