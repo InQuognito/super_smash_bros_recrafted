@@ -1,3 +1,5 @@
+execute if score debug options matches 1 run say hero | spell_choose
+
 execute unless score teams options matches 1 store result score random.output temp run random value 1..8
 execute if score teams options matches 1 store result score random.output temp run random value 1..9
 

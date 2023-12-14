@@ -8,7 +8,7 @@ function ssbrc:logic/fighters/effects/mobility/immobilize/default
 
 function ssbrc:logic/fighters/armor/update
 
-function ssbrc:fighters/hero/logic/mana/disable
+clear @s #ssbrc:equipment
 
 scoreboard players operation @s mana -= hero.spell.kaclang.cost vars
 
