@@ -15,5 +15,5 @@ $execute if score random.output temp matches 8 store success score spellGiven te
 
 $execute if score random.output temp matches 9 store success score spellGiven temp run loot replace entity @s[nbt=!{Inventory:[{tag:{heal:1}}]},nbt=!{Inventory:[{tag:{multiheal:1}}]}] hotbar.$(slot) loot ssbrc:fighters/hero/spells/multiheal
 
-execute unless score spellGiven temp matches 1 run function ssbrc:fighters/hero/logic/abilities/spells/choose
+$execute unless score spellGiven temp matches 1 run function ssbrc:fighters/hero/logic/abilities/spells/choose {slot:$(slot)}
 scoreboard players reset spellGiven temp
