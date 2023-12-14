@@ -5,4 +5,4 @@ execute positioned ^ ^ ^1 summon minecraft:marker run function ssbrc:fighters/ga
 scoreboard players operation @s cooldown.3 = ganondorf.spell.cooldown vars
 execute if score @s shadow.chaosControl matches 1.. run function ssbrc:logic/fighters/cooldown_modifiers/chaos_control {type:3}
 
-tag @e[tag=dark_void,predicate=ssbrc:id_match] add active
+tag @e[tag=dark_void,tag=!active,predicate=ssbrc:id_match] add active
