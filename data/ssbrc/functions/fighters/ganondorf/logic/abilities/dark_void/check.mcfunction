@@ -1,4 +1,5 @@
-execute if score @s[tag=!first_void_placed] mana >= ganondorf.dark_void.cost vars store success score dark_void_placed temp run function ssbrc:fighters/ganondorf/logic/abilities/dark_void/activate
+execute store result score dark_void temp if entity @e[type=minecraft:marker,tag=dark_void,predicate=ssbrc:id_match]
 
-execute unless score dark_void_placed temp matches 1 if entity @s[tag=first_void_placed] run function ssbrc:fighters/ganondorf/logic/abilities/dark_void/link
-scoreboard players reset dark_void_placed temp
+execute if score dark_void temp matches 0 if score @s mana >= ganondorf.dark_void.cost vars run function ssbrc:fighters/ganondorf/logic/abilities/dark_void/activate
+
+execute if score dark_void temp matches 1 run function ssbrc:fighters/ganondorf/logic/abilities/dark_void/link
