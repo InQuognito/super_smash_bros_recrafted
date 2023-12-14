@@ -103,6 +103,7 @@ scoreboard objectives remove shadow.meter.villain
 scoreboard objectives remove shop
 scoreboard objectives remove shopCalculator
 scoreboard objectives remove skinPicked
+scoreboard objectives remove sleeping
 scoreboard objectives remove slope
 scoreboard objectives remove snake.capacity
 scoreboard objectives remove snake.famasA

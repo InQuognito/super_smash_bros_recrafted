@@ -103,6 +103,7 @@ scoreboard objectives add shadow.meter.villain dummy
 scoreboard objectives add shop dummy
 scoreboard objectives add shopCalculator dummy
 scoreboard objectives add skinPicked dummy
+scoreboard objectives add sleeping dummy
 scoreboard objectives add slope dummy
 scoreboard objectives add snake.capacity dummy
 scoreboard objectives add snake.famasA dummy

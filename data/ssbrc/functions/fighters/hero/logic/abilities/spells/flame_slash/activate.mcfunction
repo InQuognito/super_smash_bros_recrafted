@@ -8,5 +8,3 @@ execute if score random.output temp matches 4 run function ssbrc:fighters/hero/l
 scoreboard players operation @s mana -= hero.spell.flame_slash.cost vars
 
 playsound ssbrc:fighters.hero.flame_slash.hit player @a
-
-advancement revoke @s only ssbrc:utility/flag/hurt_player/custom/flame_slash

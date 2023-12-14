@@ -28,6 +28,7 @@ execute if entity @s[tag=shadowSneak] run function ssbrc:fighters/greninja/logic
 
 # Hero
 execute if entity @s[tag=bang] run function ssbrc:fighters/hero/logic/abilities/spells/bang/tick
+execute if entity @s[tag=kaboom] run function ssbrc:fighters/hero/logic/abilities/spells/kaboom/tick
 
 # Jigglypuff
 execute if entity @s[tag=hyperVoice] run function ssbrc:fighters/jigglypuff/logic/abilities/hyper_voice/tick
