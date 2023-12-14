@@ -29,6 +29,6 @@
 		}
 	},
 	"rewards": {
-		"function": "ssbrc:fighters/ganondorf/logic/stalfos/kill"
+		"function": "ssbrc:fighters/ganondorf/logic/abilities/summon_undead/kill_player"
 	}
 }

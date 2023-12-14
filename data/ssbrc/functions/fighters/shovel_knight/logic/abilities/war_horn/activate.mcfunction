@@ -1,4 +1,4 @@
-scoreboard players operation idToMatch temp = @s id
+scoreboard players operation id_to_match temp = @s id
 execute positioned ~ ~0.75 ~ summon minecraft:marker run function ssbrc:fighters/shovel_knight/logic/abilities/war_horn/init
 
 tag @s add warHornActive

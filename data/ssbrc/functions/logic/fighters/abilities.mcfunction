@@ -1,3 +1,15 @@
+# Altered Beast
+execute if entity @s[tag=sabretooth] run function ssbrc:fighters/altered_beast/logic/waretiger/sabretooth/raycast/start
+execute if entity @s[tag=super_jump] run function ssbrc:fighters/altered_beast/logic/waretiger/super_jump/raycast/start
+execute if entity @s[tag=flameHands] run function ssbrc:fighters/altered_beast/logic/warewolf/flame_hands/tick
+execute if entity @s[tag=flame_arrow] run function ssbrc:fighters/altered_beast/logic/warewolf/flame_arrow/tick
+
+# Alucard
+execute if entity @s[tag=mist] run function ssbrc:fighters/alucard/logic/abilities/mist/tick_entity
+execute if entity @s[tag=holyWater.display,tag=!falling,predicate=ssbrc:flag/no_vehicle] run function ssbrc:fighters/alucard/logic/abilities/holy_water/drip_below
+execute if entity @s[tag=holyWater.display] unless block ~ ~-0.1 ~ #ssbrc:passthrough run function ssbrc:fighters/alucard/logic/abilities/holy_water/kill_item
+execute if entity @s[tag=holyWater,tag=!active,predicate=ssbrc:flag/no_vehicle] run function ssbrc:fighters/alucard/logic/abilities/holy_water/enable
+
 # Byleth
 execute if entity @s[tag=steedCharge] run function ssbrc:fighters/byleth/logic/blue_lions/steed_charge/tick
 execute if entity @s[tag=failnaught,tag=awakened] run function ssbrc:fighters/byleth/logic/golden_deer/failnaught/tick
@@ -21,6 +33,15 @@ execute if entity @s[tag=orangeGrenade] run function ssbrc:fighters/donkey_kong/
 execute if entity @s[tag=krazoanFireball] run function ssbrc:fighters/fox/logic/abilities/krazoan_fireball/tick
 execute if entity @s[tag=fox.blaster] run function ssbrc:fighters/fox/logic/abilities/blaster/tick
 execute if entity @s[tag=fireFox] run function ssbrc:fighters/fox/logic/abilities/fire_fox/tick
+
+# Ganondorf
+execute if entity @s[tag=dead_mans_volley] run function ssbrc:fighters/ganondorf/logic/abilities/dead_mans_volley/tick
+execute if entity @s[tag=summon_undead] run function ssbrc:fighters/ganondorf/logic/abilities/summon_undead/tick
+execute if entity @s[tag=dark_void] run function ssbrc:fighters/ganondorf/logic/abilities/dark_void/tick
+
+# Giegue
+execute if entity @s[tag=pkFreeze] run function ssbrc:fighters/giegue/logic/abilities/pk_freeze/tick
+execute if entity @s[tag=pkBeam] run function ssbrc:fighters/giegue/logic/abilities/pk_beam/tick
 
 # Greninja
 execute if entity @s[tag=waterShuriken] run function ssbrc:fighters/greninja/logic/abilities/water_shuriken/tick
@@ -94,6 +115,17 @@ execute if entity @s[tag=powerBeam] run function ssbrc:fighters/samus/logic/abil
 execute if entity @s[tag=waveBeam] run function ssbrc:fighters/samus/logic/abilities/wave_beam/raycast/start
 execute if entity @s[tag=plasmaBeam] run function ssbrc:fighters/samus/logic/abilities/plasma_beam/tick
 
+# Shadow
+execute if entity @s[tag=chaosSpear] run function ssbrc:fighters/shadow/logic/chaos_spear/tick
+execute if entity @s[tag=chaosBlast] run function ssbrc:fighters/shadow/logic/chaos_blast/shockwave/tick
+
+# Shovel Knight
+execute if entity @s[tag=chaosSphere] run function ssbrc:fighters/shovel_knight/logic/abilities/chaos_sphere/tick
+execute if entity @s[tag=flareWand] run function ssbrc:fighters/shovel_knight/logic/abilities/flare_wand/tick
+execute if entity @s[tag=propellerDagger] run function ssbrc:fighters/shovel_knight/logic/abilities/propeller_dagger/tick
+execute if entity @s[tag=throwingAnchor] run function ssbrc:fighters/shovel_knight/logic/abilities/throwing_anchor/tick
+execute if entity @s[tag=warHorn] run function ssbrc:fighters/shovel_knight/logic/abilities/war_horn/tick
+
 # Snake
 execute if entity @s[tag=psg1] run function ssbrc:fighters/snake/logic/weapons/psg1/tick
 execute if entity @s[tag=famas] run function ssbrc:fighters/snake/logic/weapons/famas/tick
@@ -113,12 +145,24 @@ execute if entity @s[tag=strikeRaid] run function ssbrc:fighters/sora/logic/abil
 # Steve
 execute if entity @s[nbt={Item:{tag:{Tags:[steve.item]}}}] run function ssbrc:fighters/steve/logic/item/tick
 
+# Team Rocket
+execute if entity @s[tag=acid,tag=!active] run function ssbrc:fighters/team_rocket/logic/arbok/acid/tick
+execute if entity @s[tag=payday] run function ssbrc:fighters/team_rocket/logic/meowth/payday/tick
+execute if entity @s[tag=paydayProjectile] run function ssbrc:fighters/team_rocket/logic/meowth/payday/projectiles/tick
+
 # Toon Link
 execute if entity @s[tag=toon_link.boomerang] run function ssbrc:fighters/toon_link/logic/abilities/boomerang/tick
 
 # Wolf
 execute if entity @s[tag=wolf.blaster] run function ssbrc:fighters/wolf/logic/abilities/blaster/tick
 execute if entity @s[tag=grenade] run function ssbrc:fighters/wolf/logic/abilities/grenade/tick
+
+# Yar
+execute if entity @s[tag=rayBlaster] run function ssbrc:fighters/yar/logic/abilities/ray_blaster/tick
+execute if entity @s[tag=gatlingGun] run function ssbrc:fighters/yar/logic/abilities/ray_blaster/variants/gatling_gun/tick
+execute if entity @s[tag=missileLauncher] run function ssbrc:fighters/yar/logic/abilities/ray_blaster/variants/missile_launcher/tick
+execute if entity @s[tag=drone] run function ssbrc:fighters/yar/logic/abilities/drone/tick
+execute if entity @s[tag=drone.bullet] run function ssbrc:fighters/yar/logic/abilities/drone/projectile/tick
 
 # Zelda
 execute if entity @s[tag=bomb] run function ssbrc:fighters/zelda/logic/abilities/bomb/tick
@@ -130,45 +174,6 @@ execute if entity @s[tag=fire_rod,tag=pillar,tag=active] run function ssbrc:figh
 execute if entity @s[tag=iceRod] run function ssbrc:fighters/zelda/logic/abilities/ice_rod/tick
 execute if entity @s[tag=iceBlock] run function ssbrc:fighters/zelda/logic/abilities/ice_rod/alternate_function/tick
 execute if entity @s[tag=magicBoomerang] run function ssbrc:fighters/zelda/logic/abilities/magic_boomerang/tick
-
-# Altered Beast
-execute if entity @s[tag=sabretooth] run function ssbrc:fighters/altered_beast/logic/waretiger/sabretooth/raycast/start
-execute if entity @s[tag=super_jump] run function ssbrc:fighters/altered_beast/logic/waretiger/super_jump/raycast/start
-execute if entity @s[tag=flameHands] run function ssbrc:fighters/altered_beast/logic/warewolf/flame_hands/tick
-execute if entity @s[tag=flame_arrow] run function ssbrc:fighters/altered_beast/logic/warewolf/flame_arrow/tick
-
-# Alucard
-execute if entity @s[tag=mist] run function ssbrc:fighters/alucard/logic/abilities/mist/tick_entity
-execute if entity @s[tag=holyWater.display,tag=!falling,predicate=ssbrc:flag/no_vehicle] run function ssbrc:fighters/alucard/logic/abilities/holy_water/drip_below
-execute if entity @s[tag=holyWater.display] unless block ~ ~-0.1 ~ #ssbrc:passthrough run function ssbrc:fighters/alucard/logic/abilities/holy_water/kill_item
-execute if entity @s[tag=holyWater,tag=!active,predicate=ssbrc:flag/no_vehicle] run function ssbrc:fighters/alucard/logic/abilities/holy_water/enable
-
-# Giegue
-execute if entity @s[tag=pkFreeze] run function ssbrc:fighters/giegue/logic/abilities/pk_freeze/tick
-execute if entity @s[tag=pkBeam] run function ssbrc:fighters/giegue/logic/abilities/pk_beam/tick
-
-# Shadow
-execute if entity @s[tag=chaosSpear] run function ssbrc:fighters/shadow/logic/chaos_spear/tick
-execute if entity @s[tag=chaosBlast] run function ssbrc:fighters/shadow/logic/chaos_blast/shockwave/tick
-
-# Shovel Knight
-execute if entity @s[tag=chaosSphere] run function ssbrc:fighters/shovel_knight/logic/abilities/chaos_sphere/tick
-execute if entity @s[tag=flareWand] run function ssbrc:fighters/shovel_knight/logic/abilities/flare_wand/tick
-execute if entity @s[tag=propellerDagger] run function ssbrc:fighters/shovel_knight/logic/abilities/propeller_dagger/tick
-execute if entity @s[tag=throwingAnchor] run function ssbrc:fighters/shovel_knight/logic/abilities/throwing_anchor/tick
-execute if entity @s[tag=warHorn] run function ssbrc:fighters/shovel_knight/logic/abilities/war_horn/tick
-
-# Team Rocket
-execute if entity @s[tag=acid,tag=!active] run function ssbrc:fighters/team_rocket/logic/arbok/acid/tick
-execute if entity @s[tag=payday] run function ssbrc:fighters/team_rocket/logic/meowth/payday/tick
-execute if entity @s[tag=paydayProjectile] run function ssbrc:fighters/team_rocket/logic/meowth/payday/projectiles/tick
-
-# Yar
-execute if entity @s[tag=rayBlaster] run function ssbrc:fighters/yar/logic/abilities/ray_blaster/tick
-execute if entity @s[tag=gatlingGun] run function ssbrc:fighters/yar/logic/abilities/ray_blaster/variants/gatling_gun/tick
-execute if entity @s[tag=missileLauncher] run function ssbrc:fighters/yar/logic/abilities/ray_blaster/variants/missile_launcher/tick
-execute if entity @s[tag=drone] run function ssbrc:fighters/yar/logic/abilities/drone/tick
-execute if entity @s[tag=drone.bullet] run function ssbrc:fighters/yar/logic/abilities/drone/projectile/tick
 
 # Items
 function ssbrc:logic/tick/items

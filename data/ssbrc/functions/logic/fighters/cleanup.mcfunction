@@ -23,7 +23,7 @@ tag @s remove immobile
 tag @s remove tornado.spin
 
 # Kill objects belonging to dead player
-scoreboard players operation idToMatch temp = @s id
+scoreboard players operation id_to_match temp = @s id
 
 execute if entity @s[tag=byleth] run kill @e[type=minecraft:horse,tag=steedCharge,predicate=ssbrc:id_match]
 execute if entity @s[tag=captain_falcon] run kill @e[type=minecraft:marker,tag=raptorBoost,predicate=ssbrc:id_match]

@@ -41,6 +41,12 @@ scoreboard players set #donkey_kong.orangeGrenadeMaxRotation vars 160
 scoreboard players set fox.reflectorCooldown vars 60
 scoreboard players set #fox.fireFoxThreshold vars 30
 
+scoreboard players set ganondorf.max_mana vars 50
+scoreboard players set ganondorf.spell.cooldown vars 200
+scoreboard players set ganondorf.dead_mans_volley.cost vars 20
+scoreboard players set ganondorf.summon_undead.cost vars 30
+scoreboard players set ganondorf.dark_void.cost vars 40
+
 scoreboard players set giegue.pkFreezeCooldown vars 25
 scoreboard players set giegue.pkBeamCooldown vars 60
 scoreboard players set #giegue.4thDimensionalSlipRange vars 6

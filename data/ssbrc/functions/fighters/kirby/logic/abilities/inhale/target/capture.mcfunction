@@ -1,4 +1,4 @@
-scoreboard players operation @s anchored_player = idToMatch temp
+scoreboard players operation @s anchored_player = id_to_match temp
 
 item replace entity @s armor.head with minecraft:carved_pumpkin
 item modify entity @s armor.head ssbrc:fighters/enchantments/binding_curse
