@@ -9,7 +9,7 @@ $execute if score random.output temp matches 2 store success score spellGiven te
 $execute if score random.output temp matches 3 store success score spellGiven temp run loot replace entity @s[nbt=!{Inventory:[{tag:{kaclang:1}}]}] hotbar.$(slot) loot ssbrc:fighters/hero/spells/kaclang
 $execute if score random.output temp matches 4 store success score spellGiven temp run loot replace entity @s[nbt=!{Inventory:[{tag:{flame_slash:1}}]}] hotbar.$(slot) loot ssbrc:fighters/hero/spells/flame_slash
 $execute if score random.output temp matches 5 store success score spellGiven temp run loot replace entity @s[nbt=!{Inventory:[{tag:{kacrackle_slash:1}}]}] hotbar.$(slot) loot ssbrc:fighters/hero/spells/kacrackle_slash
-$execute if score random.output temp matches 6 store success score spellGiven temp run loot replace entity @s[nbt=!{Inventory:[{tag:{heal:1}}]},nbt=!{Inventory:[{tag:{multiheal:1}}]}] hotbar.$(slot) loot ssbrc:fighters/hero/spells/heal
+$execute if score random.output temp matches 6 store success score spellGiven temp run loot replace entity @s[scores={charge.3=..1},nbt=!{Inventory:[{tag:{heal:1}}]},nbt=!{Inventory:[{tag:{multiheal:1}}]}] hotbar.$(slot) loot ssbrc:fighters/hero/spells/heal
 $execute if score random.output temp matches 7 store success score spellGiven temp run loot replace entity @s[nbt=!{Inventory:[{tag:{magic_burst:1}}]}] hotbar.$(slot) loot ssbrc:fighters/hero/spells/magic_burst
 $execute if score random.output temp matches 8 store success score spellGiven temp run loot replace entity @s[nbt=!{Inventory:[{tag:{hocus_pocus:1}}]}] hotbar.$(slot) loot ssbrc:fighters/hero/spells/hocus_pocus
 
