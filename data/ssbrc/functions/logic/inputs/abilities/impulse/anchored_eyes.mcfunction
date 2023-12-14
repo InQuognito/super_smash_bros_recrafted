@@ -8,6 +8,8 @@ execute if entity @s[tag=donkey_kong] run function ssbrc:fighters/donkey_kong/lo
 
 execute if entity @s[tag=fox,scores={duration.2=..0}] run function ssbrc:fighters/fox/logic/abilities/impulse
 
+execute if entity @s[tag=ganondorf] run function ssbrc:fighters/ganondorf/logic/abilities/impulse
+
 execute if entity @s[tag=giegue,scores={charge.1=..0}] run function ssbrc:fighters/giegue/logic/abilities/check
 
 execute if entity @s[tag=greninja,scores={charge.2=1..},nbt={SelectedItem:{tag:{waterShuriken:1}}}] run function ssbrc:fighters/greninja/logic/abilities/water_shuriken/activate

@@ -1,4 +1,4 @@
-execute summon minecraft:skeleton run function ssbrc:fighters/ganondorf/logic/abilities/summon_undead/init
+execute positioned ^ ^ ^1 summon minecraft:skeleton run function ssbrc:fighters/ganondorf/logic/abilities/summon_undead/init
 
 scoreboard players operation @s mana -= ganondorf.summon_undead.cost vars
 
