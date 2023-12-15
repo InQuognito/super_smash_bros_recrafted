@@ -12,7 +12,7 @@
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"translate": "ssbrc.tooltips.yar.tripleShot",
+								"translate": "ssbrc.tooltips.yar.triple_shot",
 								"color": "gold",
 								"bold": true,
 								"italic": false
@@ -39,25 +39,25 @@
 											"italic": false
 										},
 										{
-											"translate": "ssbrc.tooltips.yar.powerUp.description.1",
+											"translate": "ssbrc.tooltips.yar.power_up.description.1",
 											"color": "gray",
 											"bold": false,
 											"italic": false,
 											"extra": [
 												{
-													"translate": "ssbrc.tooltips.yar.rayBlaster",
+													"translate": "ssbrc.tooltips.yar.ray_blaster",
 													"color": "gray",
 													"bold": false,
 													"italic": false
 												},
 												{
-													"translate": "ssbrc.tooltips.yar.powerUp.description.2",
+													"translate": "ssbrc.tooltips.yar.power_up.description.2",
 													"color": "gray",
 													"bold": false,
 													"italic": false
 												},
 												{
-													"translate": "ssbrc.tooltips.yar.tripleShot",
+													"translate": "ssbrc.tooltips.yar.triple_shot",
 													"color": "gray",
 													"bold": false,
 													"italic": false
@@ -71,7 +71,7 @@
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{powerUp:1,tripleShot:1,CustomModelData:1971}"
+							"tag": "{power_up:1,triple_shot:1,CustomModelData:1971}"
 						}
 					]
 				}

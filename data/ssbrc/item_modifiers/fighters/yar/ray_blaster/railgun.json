@@ -38,6 +38,6 @@
 	},
 	{
 		"function": "minecraft:set_nbt",
-		"tag": "{rayBlaster:1,powerUp:0,railgun:1}"
+		"tag": "{ray_blaster:1,power_up:0,railgun:1}"
 	}
 ]

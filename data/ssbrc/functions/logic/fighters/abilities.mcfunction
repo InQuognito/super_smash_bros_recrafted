@@ -158,9 +158,9 @@ execute if entity @s[tag=wolf.blaster] run function ssbrc:fighters/wolf/logic/ab
 execute if entity @s[tag=grenade] run function ssbrc:fighters/wolf/logic/abilities/grenade/tick
 
 # Yar
-execute if entity @s[tag=rayBlaster] run function ssbrc:fighters/yar/logic/abilities/ray_blaster/tick
-execute if entity @s[tag=gatlingGun] run function ssbrc:fighters/yar/logic/abilities/ray_blaster/variants/gatling_gun/tick
-execute if entity @s[tag=missileLauncher] run function ssbrc:fighters/yar/logic/abilities/ray_blaster/variants/missile_launcher/tick
+execute if entity @s[tag=ray_blaster] run function ssbrc:fighters/yar/logic/abilities/ray_blaster/tick
+execute if entity @s[tag=gatling_gun] run function ssbrc:fighters/yar/logic/abilities/ray_blaster/variants/gatling_gun/tick
+execute if entity @s[tag=missile_launcher] run function ssbrc:fighters/yar/logic/abilities/ray_blaster/variants/missile_launcher/tick
 execute if entity @s[tag=drone] run function ssbrc:fighters/yar/logic/abilities/drone/tick
 execute if entity @s[tag=drone.bullet] run function ssbrc:fighters/yar/logic/abilities/drone/projectile/tick
 

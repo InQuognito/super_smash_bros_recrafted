@@ -45,7 +45,7 @@
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{powerUp:1,omnishot:1,CustomModelData:1969}"
+							"tag": "{power_up:1,omnishot:1,CustomModelData:1969}"
 						}
 					]
 				}

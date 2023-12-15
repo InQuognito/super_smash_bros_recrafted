@@ -29,7 +29,7 @@
 											"italic": false
 										},
 										{
-											"translate": "ssbrc.tooltips.yar.tripleShot.description.1",
+											"translate": "ssbrc.tooltips.yar.triple_shot.description.1",
 											"color": "gray",
 											"bold": false,
 											"italic": false
@@ -70,7 +70,7 @@
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{tripleShot:1,standard:1}"
+							"tag": "{triple_shot:1,standard:1}"
 						}
 					]
 				}

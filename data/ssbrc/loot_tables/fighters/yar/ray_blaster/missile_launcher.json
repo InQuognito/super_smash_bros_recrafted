@@ -29,7 +29,7 @@
 											"italic": false
 										},
 										{
-											"translate": "ssbrc.tooltips.yar.missileLauncher.description.1",
+											"translate": "ssbrc.tooltips.yar.missile_launcher.description.1",
 											"color": "gray",
 											"bold": false,
 											"italic": false
@@ -37,13 +37,13 @@
 									]
 								},
 								{
-									"translate": "ssbrc.tooltips.yar.missileLauncher.description.2",
+									"translate": "ssbrc.tooltips.yar.missile_launcher.description.2",
 									"color": "gray",
 									"bold": false,
 									"italic": false
 								},
 								{
-									"translate": "ssbrc.tooltips.yar.missileLauncher.description.3",
+									"translate": "ssbrc.tooltips.yar.missile_launcher.description.3",
 									"color": "gray",
 									"bold": false,
 									"italic": false
@@ -82,7 +82,7 @@
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{missileLauncher:1,standard:1}"
+							"tag": "{missile_launcher:1,standard:1}"
 						}
 					]
 				}

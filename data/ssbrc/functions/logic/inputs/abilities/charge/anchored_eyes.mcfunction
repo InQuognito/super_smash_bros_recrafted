@@ -8,4 +8,4 @@ execute if entity @s[tag=ryu,scores={cooldown.1=..0},nbt={SelectedItem:{tag:{col
 
 execute if entity @s[tag=wolf,scores={cooldown.2=..0},nbt={SelectedItem:{tag:{grenade:1}}}] run function ssbrc:fighters/wolf/logic/abilities/grenade/activate
 
-execute if entity @s[tag=yar,scores={charge.output=40..,cooldown.1=..0},nbt={SelectedItem:{tag:{railgun:1,powerUp:0}}}] run function ssbrc:fighters/yar/logic/abilities/ray_blaster/variants/railgun/raycast/start
+execute if entity @s[tag=yar,scores={charge.output=40..,cooldown.1=..0},nbt={SelectedItem:{tag:{railgun:1,power_up:0}}}] run function ssbrc:fighters/yar/logic/abilities/ray_blaster/variants/railgun/raycast/start

@@ -1,5 +1,5 @@
-tag @s add rayBlaster
-tag @s add gatlingGun
+tag @s add ray_blaster
+tag @s add gatling_gun
 
 data merge entity @s {damage:0.15}
 

@@ -1,4 +1,4 @@
-clear @s minecraft:carrot_on_a_stick{powerUp:1}
+clear @s minecraft:carrot_on_a_stick{power_up:1}
 
 execute store result score random.output temp run random value 1..5
 
