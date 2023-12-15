@@ -39,4 +39,4 @@ execute if score random.output temp matches 35 run tellraw @s [{"translate":"Mr.
 execute if score random.output temp matches 36 run tellraw @s [{"translate":"Mr. Sandbag | ","bold":true,"color":"yellow"},{"translate":"ssbrc.lobby.tips.37","bold":false,"color":"white"}]
 execute if score random.output temp matches 37 run tellraw @s [{"translate":"Mr. Sandbag | ","bold":true,"color":"yellow"},{"translate":"ssbrc.lobby.tips.38","bold":false,"color":"white"}]
 execute if score random.output temp matches 38 run tellraw @s [{"translate":"Mr. Sandbag | ","bold":true,"color":"yellow"},{"translate":"ssbrc.lobby.tips.39","bold":false,"color":"white"}]
-execute if score random.output temp matches 39 run tellraw @s [{"translate":"Mr. Sandbag | ","bold":true,"color":"yellow"},{"translate":"ssbrc.lobby.tips.4o","bold":false,"color":"white"}]
+execute if score random.output temp matches 39 run tellraw @s [{"translate":"Mr. Sandbag | ","bold":true,"color":"yellow"},{"translate":"ssbrc.lobby.tips.40","bold":false,"color":"white"}]

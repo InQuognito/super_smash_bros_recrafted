@@ -4,7 +4,7 @@ attribute @s minecraft:generic.follow_range base set 2048.0
 attribute @s minecraft:generic.movement_speed base set 0.3
 attribute @s minecraft:generic.max_health base set 12.0
 
-item replace entity @s weapon.mainhand with minecraft:stone_sword{AttributeModifiers:[{AttributeName:"generic.attack_damage",Amount:3.0d,Slot:mainhand,Name:"generic.attack_damage",UUID:[I;-123121,15885,145116,-31770]}],Unbreakable:1b}
+loot replace entity @s weapon.mainhand loot ssbrc:fighters/ganondorf/stalfos/sword
 item replace entity @s weapon.offhand with minecraft:shield{Unbreakable:1b}
 
 item replace entity @s armor.head with minecraft:leather_helmet{Unbreakable:1b}
