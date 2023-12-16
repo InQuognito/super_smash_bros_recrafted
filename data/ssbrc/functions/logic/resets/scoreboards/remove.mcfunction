@@ -20,6 +20,9 @@ scoreboard objectives remove cooldown.3
 scoreboard objectives remove stats.credits.temp
 scoreboard objectives remove debug
 scoreboard objectives remove dropItem
+scoreboard objectives remove drowsy
+scoreboard objectives remove drowsy.cooldown
+scoreboard objectives remove drowsy.timer
 scoreboard objectives remove durability
 scoreboard objectives remove duration.1
 scoreboard objectives remove duration.2
@@ -41,8 +44,8 @@ scoreboard objectives remove flag.walking
 scoreboard objectives remove flareBlitz
 scoreboard objectives remove flinch
 scoreboard objectives remove frostbite
-scoreboard objectives remove frostbiteCooldown
-scoreboard objectives remove frostbiteTimer
+scoreboard objectives remove frostbite.cooldown
+scoreboard objectives remove frostbite.timer
 scoreboard objectives remove fuse
 scoreboard objectives remove health
 scoreboard objectives remove healthTimer

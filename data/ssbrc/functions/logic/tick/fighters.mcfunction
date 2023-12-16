@@ -102,6 +102,8 @@ execute if score @s armorBreak matches 60.. run function ssbrc:fighters/pokemon_
 execute if entity @s[tag=leechSeed] run function ssbrc:fighters/pokemon_trainer/logic/ivysaur/leech_seed/calculate
 execute if score @s leechSeedStacks matches 1.. run function ssbrc:fighters/pokemon_trainer/logic/ivysaur/leech_seed/calculate_healing
 
+execute if score @s drowsy.timer matches 1.. run function ssbrc:logic/fighters/effects/drowsy/tick
+
 scoreboard players remove @s[scores={flinch=1..}] flinch 1
 execute if score @s flinch matches 1 run function ssbrc:logic/fighters/effects/mobility/mobilize
 

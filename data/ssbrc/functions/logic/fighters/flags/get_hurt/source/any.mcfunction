@@ -1,7 +1,6 @@
 execute store result score @s health run data get entity @s Health
 
 execute if entity @s[tag=jigglypuff,tag=rest] if predicate ssbrc:random_chance/15 run function ssbrc:fighters/jigglypuff/logic/abilities/rest/deactivate
-execute if entity @s[tag=jigglypuff,tag=rest] if predicate ssbrc:random_chance/15 run function ssbrc:fighters/jigglypuff/logic/abilities/rest/deactivate
 execute if entity @s[tag=link,nbt={Inventory:[{tag:{masterSword:1,awakened:1}}]},scores={health=..39}] run function ssbrc:fighters/link/logic/master_sword
 execute if entity @s[tag=pikachu,tag=balloonRing,tag=!balloonRingCooldown,scores={charge.1=1..}] run function ssbrc:fighters/pikachu/get_hurt
 execute if entity @s[tag=shadow] run scoreboard players set @s flag.sprinting 0

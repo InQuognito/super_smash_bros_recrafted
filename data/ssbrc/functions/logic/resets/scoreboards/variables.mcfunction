@@ -2,9 +2,6 @@
 scoreboard players set quickStart vars 10
 scoreboard players set selectorRange vars 20
 
-# Misc
-scoreboard players set #frostbiteTimer vars 100
-
 # Fighters
 scoreboard players set altered_beast.spirit.max vars 100000
 scoreboard players operation altered_beast.spirit.recharge_rate vars = altered_beast.spirit.max vars
@@ -72,7 +69,7 @@ scoreboard players set #joker.finalGuardThreshold vars 4
 scoreboard players set joker.amritaShowerCooldown vars 100
 scoreboard players set joker.eiagonCooldown vars 40
 scoreboard players set joker.hamaCooldown vars 300
-scoreboard players set joker.phantomShowCooldown vars 15
+scoreboard players set joker.phantom_show_cooldown vars 15
 
 scoreboard players set king_k_rool.blunderbussCooldown vars 60
 

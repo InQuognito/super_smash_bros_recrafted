@@ -762,7 +762,7 @@
 		"entity": "this",
 		"lore": [
 			{
-				"translate": "ssbrc.tooltips.joker.rebelsGuard",
+				"translate": "ssbrc.tooltips.joker.rebels_guard",
 				"color": "yellow",
 				"bold": false,
 				"italic": false,
@@ -781,7 +781,7 @@
 						"italic": false
 					},
 					{
-						"translate": "ssbrc.tooltips.joker.rebelsGuard.description.1",
+						"translate": "ssbrc.tooltips.joker.rebels_guard.description.1",
 						"color": "gray",
 						"bold": false,
 						"italic": false
@@ -789,13 +789,13 @@
 				]
 			},
 			{
-				"translate": "ssbrc.tooltips.joker.rebelsGuard.description.2",
+				"translate": "ssbrc.tooltips.joker.rebels_guard.description.2",
 				"color": "gray",
 				"bold": false,
 				"italic": false
 			},
 			{
-				"translate": "ssbrc.tooltips.joker.rebelsGuard.description.3",
+				"translate": "ssbrc.tooltips.joker.rebels_guard.description.3",
 				"color": "gray",
 				"bold": false,
 				"italic": false

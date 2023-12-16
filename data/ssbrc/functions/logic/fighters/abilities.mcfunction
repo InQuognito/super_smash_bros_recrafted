@@ -55,12 +55,13 @@ execute if entity @s[tag=kaboom] run function ssbrc:fighters/hero/logic/abilitie
 execute if entity @s[tag=hyperVoice] run function ssbrc:fighters/jigglypuff/logic/abilities/hyper_voice/tick
 
 # Joker
-execute if entity @s[tag=tt33Bullet] run function ssbrc:fighters/joker/logic/tt33/tick
-execute if entity @s[tag=eiagon] run function ssbrc:fighters/joker/logic/abilities/eiagon/tick
+execute if entity @s[tag=tt33.bullet] run function ssbrc:fighters/joker/logic/tt33/tick
+execute if entity @s[tag=eiagon] run function ssbrc:fighters/joker/logic/abilities/arsene/eiagon/tick
 execute if entity @s[tag=eiagon.pool] run particle minecraft:dust_color_transition 0.4 0.0 0.0 1.0 0.2 0.0 0.0 ~ ~1 ~ 0.2 0.5 0.2 0.0 25 normal @a
 execute if entity @s[tag=hama] run function ssbrc:fighters/joker/logic/abilities/hama/tick
 execute if entity @s[tag=hama.display] run function ssbrc:fighters/joker/logic/abilities/hama/tick/sigil
-execute if entity @s[tag=phantomShow] run function ssbrc:fighters/joker/logic/abilities/phantom_show/tick
+execute if entity @s[tag=phantomShow] run function ssbrc:fighters/joker/logic/abilities/raoul/phantom_show/tick
+execute if entity @s[tag=maragion] run function ssbrc:fighters/joker/logic/abilities/yatagarasu/maragion/tick
 
 # King K. Rool
 execute if entity @s[tag=blunderbuss] run function ssbrc:fighters/king_k_rool/logic/abilities/blunderbuss/tick

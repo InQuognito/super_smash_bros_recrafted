@@ -3,7 +3,7 @@
 		"function": "minecraft:set_name",
 		"entity": "this",
 		"name": {
-			"translate": "ssbrc.fighters.joker.persona.jackOLantern",
+			"translate": "ssbrc.fighters.joker.persona.jack_o_lantern",
 			"color": "red",
 			"bold": true,
 			"italic": false
@@ -51,6 +51,6 @@
 	},
 	{
 		"function": "minecraft:set_nbt",
-		"tag": "{jackOLantern:1}"
+		"tag": "{jack_o_lantern:1}"
 	}
 ]

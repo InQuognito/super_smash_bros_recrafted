@@ -8,4 +8,6 @@ function ssbrc:logic/fighters/attributes/defaults/knockback_resistance
 
 function ssbrc:logic/fighters/armor/update
 
+execute if entity @s[tag=mask_pending] run function ssbrc:fighters/joker/logic/masks/get
+
 playsound ssbrc:fighters.joker.persona_awakening.deactivate player @a

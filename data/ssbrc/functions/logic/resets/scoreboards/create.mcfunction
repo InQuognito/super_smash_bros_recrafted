@@ -20,6 +20,9 @@ scoreboard objectives add cooldown.3 dummy
 scoreboard objectives add stats.credits.temp dummy
 scoreboard objectives add debug trigger
 scoreboard objectives add dropItem minecraft.custom:minecraft.drop
+scoreboard objectives add drowsy dummy
+scoreboard objectives add drowsy.cooldown dummy
+scoreboard objectives add drowsy.timer dummy
 scoreboard objectives add durability dummy
 scoreboard objectives add duration.1 dummy
 scoreboard objectives add duration.2 dummy
@@ -41,8 +44,8 @@ scoreboard objectives add flag.walking minecraft.custom:minecraft.walk_one_cm
 scoreboard objectives add flareBlitz dummy
 scoreboard objectives add flinch dummy
 scoreboard objectives add frostbite dummy
-scoreboard objectives add frostbiteCooldown dummy
-scoreboard objectives add frostbiteTimer dummy
+scoreboard objectives add frostbite.cooldown dummy
+scoreboard objectives add frostbite.timer dummy
 scoreboard objectives add fuse dummy
 scoreboard objectives add health dummy
 scoreboard objectives add healthTimer dummy

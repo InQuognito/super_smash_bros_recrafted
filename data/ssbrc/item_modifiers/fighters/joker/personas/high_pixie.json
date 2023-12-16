@@ -3,7 +3,7 @@
 		"function": "minecraft:set_name",
 		"entity": "this",
 		"name": {
-			"translate": "ssbrc.fighters.joker.persona.highPixie",
+			"translate": "ssbrc.fighters.joker.persona.high_pixie",
 			"color": "yellow",
 			"bold": true,
 			"italic": false
@@ -28,6 +28,6 @@
 	},
 	{
 		"function": "minecraft:set_nbt",
-		"tag": "{highPixie:1}"
+		"tag": "{high_pixie:1}"
 	}
 ]

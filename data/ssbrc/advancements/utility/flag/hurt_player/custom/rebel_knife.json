@@ -1,0 +1,52 @@
+{
+	"parent": "ssbrc:utility/root",
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:player_hurt_entity",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:value_check",
+						"value": {
+							"type": "minecraft:score",
+							"target": {
+								"type": "minecraft:fixed",
+								"name": "gameStage"
+							},
+							"score": "temp"
+						},
+						"range": 4
+					},
+					{
+						"condition": "minecraft:entity_scores",
+						"entity": "this",
+						"scores": {
+							"duration.1": {
+								"min": 1
+							}
+						}
+					},
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"nbt": "{Tags:[\"joker\",\"arsene\"]}"
+						}
+					}
+				],
+				"damage": {
+					"source_entity": {
+						"equipment": {
+							"mainhand": {
+								"nbt": "{rebel_knife:1}"
+							}
+						}
+					}
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "ssbrc:fighters/joker/logic/abilities/arsene/adverse_resolve/check"
+	}
+}

@@ -1,5 +1,5 @@
 tag @s add bullet
-tag @s add tt33Bullet
+tag @s add tt33.bullet
 execute if entity @p[tag=self,tag=sandman,scores={duration.1=1..}] run tag @s add dreamNeedle
 
 function ssbrc:logic/init/projectile

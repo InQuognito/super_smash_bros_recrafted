@@ -1,4 +1,4 @@
-function ssbrc:logic/fighters/attributes/modifiers/frostbite/remove
+function ssbrc:logic/fighters/effects/frostbite/remove
 function ssbrc:logic/fighters/pokemon/natures/reset
 function ssbrc:stages/pac_maze/logic/fruit/galaxian_flagship/reset
 function ssbrc:stages/palutenas_temple/logic/fiends_cauldron/reset

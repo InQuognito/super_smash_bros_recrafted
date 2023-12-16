@@ -9,6 +9,39 @@
 				"operation": "multiply_base",
 				"slot": "mainhand"
 			}
+		],
+		"conditions": [
+			{
+				"condition": "minecraft:inverted",
+				"term": {
+					"condition": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"nbt": "{Tags:[\"critical\"]}"
+					}
+				}
+			}
+		]
+	},
+	{
+		"function": "minecraft:set_attributes",
+		"modifiers": [
+			{
+				"attribute": "minecraft:generic.attack_damage",
+				"name": "Attack Damage",
+				"amount": 10,
+				"operation": "multiply_base",
+				"slot": "mainhand"
+			}
+		],
+		"conditions": [
+			{
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"nbt": "{Tags:[\"critical\"]}"
+				}
+			}
 		]
 	},
 	{
@@ -19,7 +52,7 @@
 				"condition": "minecraft:entity_properties",
 				"entity": "this",
 				"predicate": {
-					"nbt": "{Tags:[\"jackOLantern\"]}"
+					"nbt": "{Tags:[\"jack_o_lantern\"]}"
 				}
 			}
 		]
@@ -32,7 +65,7 @@
 				"condition": "minecraft:entity_properties",
 				"entity": "this",
 				"predicate": {
-					"nbt": "{Tags:[\"jackFrost\"]}"
+					"nbt": "{Tags:[\"jack_frost\"]}"
 				}
 			}
 		]

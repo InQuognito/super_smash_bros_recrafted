@@ -25,7 +25,7 @@
 					},
 					"type": {
 						"direct_entity": {
-							"nbt": "{Tags:[\"tt33Bullet\"]}"
+							"nbt": "{Tags:[\"tt33.bullet\"]}"
 						}
 					}
 				}

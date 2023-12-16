@@ -3,7 +3,7 @@
 		"function": "minecraft:set_name",
 		"entity": "this",
 		"name": {
-			"translate": "ssbrc.fighters.joker.persona.jackFrost",
+			"translate": "ssbrc.fighters.joker.persona.jack_frost",
 			"color": "aqua",
 			"bold": true,
 			"italic": false
@@ -51,6 +51,6 @@
 	},
 	{
 		"function": "minecraft:set_nbt",
-		"tag": "{jackFrost:1}"
+		"tag": "{jack_frost:1}"
 	}
 ]
