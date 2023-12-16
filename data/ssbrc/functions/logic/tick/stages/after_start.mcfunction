@@ -14,7 +14,7 @@ execute if score hyrule_castle map matches 1 run function ssbrc:stages/hyrule_ca
 execute if score icicle_mountain map matches 1 run function ssbrc:stages/icicle_mountain/logic/tick
 execute if score lake_of_rage map matches 1 run function ssbrc:stages/lake_of_rage/logic/tick
 execute if score luigis_mansion map matches 1 run function ssbrc:stages/luigis_mansion/logic/tick
-execute if score $mementos map matches 1 run function ssbrc:stages/mementos/logic/tick
+execute if score mementos map matches 1 run function ssbrc:stages/mementos/logic/tick
 execute if score miiverse map matches 1 run function ssbrc:stages/miiverse/logic/tick
 execute if score mushroom_kingdom map matches 1 run function ssbrc:stages/mushroom_kingdom/logic/tick
 execute if score pac_maze map matches 1 run function ssbrc:stages/pac_maze/logic/tick
