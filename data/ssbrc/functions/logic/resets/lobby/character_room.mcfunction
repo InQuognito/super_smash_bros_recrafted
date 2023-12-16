@@ -85,7 +85,7 @@ summon minecraft:text_display 129.5 7.25 192.5 {Tags:["staticObject"],text:'{"tr
 summon minecraft:item_display 129.5 6.0 192.5 {Tags:["selectable","staticObject","fighterDisplay","byleth"],item:{id:"minecraft:stick",tag:{CustomModelData:100},Count:1b}}
 
 summon minecraft:text_display 127.5 7.25 191.5 {Tags:["staticObject"],text:'{"translate":"ssbrc.fighters.mr_game_and_watch","color":"white"}',billboard:center}
-summon minecraft:item_display 127.5 6.0 191.5 {Tags:["selectable","staticObject","fighterDisplay","mr_game_and_watch"],item:{id:"minecraft:stick",tag:{CustomModelData:1040},Count:1b}}
+summon minecraft:item_display 127.5 6.25 191.5 {Tags:["selectable","staticObject","fighterDisplay","mr_game_and_watch"],item:{id:"minecraft:stick",tag:{CustomModelData:1040},Count:1b},transformation:[0.75f,0f,0f,0f,0f,0.75f,0f,0f,0f,0f,0.75f,0f,0f,0f,0f,1f],Glowing:1b}
 
 summon minecraft:text_display 125.5 7.25 190.5 {Tags:["staticObject"],text:'{"translate":"ssbrc.fighters.pit","color":"white"}',billboard:center}
 summon minecraft:item_display 125.5 6.0 190.5 {Tags:["selectable","staticObject","fighterDisplay","pit"],item:{id:"minecraft:stick",tag:{CustomModelData:1220},Count:1b}}
