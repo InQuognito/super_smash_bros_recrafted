@@ -7,5 +7,5 @@ function ssbrc:logic/options/teams/update
 
 clear @a minecraft:carrot_on_a_stick{teamFlag:1}
 
-team join waiting @a[tag=room.characterSelect,tag=!characterPicked]
-team join ready @a[tag=room.characterSelect,tag=characterPicked]
+team join waiting @a[tag=room.characterSelect,tag=!fighter_picked]
+team join ready @a[tag=room.characterSelect,tag=fighter_picked]

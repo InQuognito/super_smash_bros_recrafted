@@ -1,4 +1,4 @@
-scoreboard players set @s characterPicked 1
+scoreboard players set @s fighter_picked 1
 execute store result score random.output temp run random value 1..2
 
 execute unless score @s[advancements={ssbrc:fighters/altered_beast/skins/default=true}] skinPicked matches 1 if score random.output temp matches 1 run function ssbrc:fighters/altered_beast/menu/skins/default

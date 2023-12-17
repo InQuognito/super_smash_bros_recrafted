@@ -4,4 +4,4 @@ tag @s remove self
 
 function ssbrc:logic/resets/players
 
-function ssbrc:logic/pre_game/character_select/check_participation
+function ssbrc:logic/pre_game/fighter_select/check_participation

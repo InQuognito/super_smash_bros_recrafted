@@ -11,6 +11,6 @@ tag @s add room.characterSelect
 
 execute unless entity @a[nbt={Inventory:[{tag:{options:1}}]}] unless entity @e[type=minecraft:item,nbt={Item:{tag:{options:1}}}] unless entity @s[tag=cannotHost] run function ssbrc:logic/options
 
-function ssbrc:logic/pre_game/character_select/check_participation
+function ssbrc:logic/pre_game/fighter_select/check_participation
 
 advancement grant @s[advancements={ssbrc:tutorial/fighter_select/1=false}] only ssbrc:tutorial/fighter_select/1

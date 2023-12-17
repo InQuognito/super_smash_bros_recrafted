@@ -1,4 +1,4 @@
-execute as @a[predicate=ssbrc:ingame] run function ssbrc:logic/pre_game/character_select/leave
+execute as @a[predicate=ssbrc:ingame] run function ssbrc:logic/pre_game/fighter_select/leave
 
 summon minecraft:text_display ~ ~ ~ {Tags:["voteCounter","acropolis_graveyard"],billboard:center}
 summon minecraft:text_display ~ ~ ~ {Tags:["voteCounter","battlefield"],billboard:center}

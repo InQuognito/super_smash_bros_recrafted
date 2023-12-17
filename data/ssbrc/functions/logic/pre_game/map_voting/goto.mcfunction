@@ -1,4 +1,4 @@
-function ssbrc:logic/pre_game/character_select/leave
+function ssbrc:logic/pre_game/fighter_select/leave
 
 scoreboard players set @s cooldown.1 0
 scoreboard players set @s cooldown.2 0

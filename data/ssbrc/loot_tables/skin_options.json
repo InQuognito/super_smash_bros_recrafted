@@ -12,7 +12,7 @@
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"translate": "ssbrc.fighters.menu.skinOptions",
+								"translate": "ssbrc.fighters.menu.skin_options",
 								"color": "yellow",
 								"bold": true,
 								"italic": false
@@ -39,7 +39,7 @@
 											"italic": false
 										},
 										{
-											"translate": "ssbrc.fighters.menu.skinOptions.description",
+											"translate": "ssbrc.fighters.menu.skin_options.description",
 											"color": "gray",
 											"bold": false,
 											"italic": false
@@ -51,7 +51,7 @@
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{skinOptions:1,CustomModelData:9999988}"
+							"tag": "{skin_options:1,CustomModelData:9999988}"
 						}
 					]
 				}
