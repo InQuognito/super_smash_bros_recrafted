@@ -2,9 +2,9 @@ particle minecraft:dust 0.0 0.5 0.0 2.0 ~ ~ ~ 0.0 0.0 0.0 0.0 1 force @a
 
 execute store result entity @s Rotation[1] float 0.25 run scoreboard players get @s point
 
-execute if score @s point < #shovel_knight.chaosSphereMaxRotation vars run scoreboard players operation @s point -= @s slope
-execute if score @s point > #shovel_knight.chaosSphereMaxRotation vars run scoreboard players operation @s point = #shovel_knight.chaosSphereMaxRotation vars
-execute if score @s point < #shovel_knight.chaosSphereMaxRotation vars run scoreboard players remove @s slope 20
+execute if score @s point < shovel_knight.chaos_sphereMaxRotation vars run scoreboard players operation @s point -= @s slope
+execute if score @s point > shovel_knight.chaos_sphereMaxRotation vars run scoreboard players operation @s point = shovel_knight.chaos_sphereMaxRotation vars
+execute if score @s point < shovel_knight.chaos_sphereMaxRotation vars run scoreboard players remove @s slope 20
 
 execute if score @s point > 0 integers unless block ~ ~-0.15 ~ #ssbrc:passthrough run function ssbrc:fighters/shovel_knight/logic/abilities/chaos_sphere/bounce
 

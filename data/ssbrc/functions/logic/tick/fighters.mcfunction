@@ -87,10 +87,6 @@ execute at @s[tag=angelFeather] run particle minecraft:dust_color_transition 1.0
 execute at @s[tag=gold] positioned ~ ~0.75 ~ run function ssbrc:logic/tick/gold
 scoreboard players reset @s flag.walking
 
-execute at @s[tag=immobile] run function ssbrc:logic/fighters/effects/mobility/tick
-
-execute at @s[tag=pivot,tag=!immobile] unless predicate ssbrc:flag/in_air run function ssbrc:logic/fighters/effects/mobility/immobilize/pivot/activate
-
 execute if entity @s[scores={shadow.chaosControl=1..}] run function ssbrc:fighters/shadow/logic/chaos_control/tick
 
 scoreboard players add @s[tag=immobile.pkFlash] timer.pkFlash 1

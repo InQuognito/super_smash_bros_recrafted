@@ -1,4 +1,4 @@
-tag @s remove phaseLocket
+tag @s remove phase_locket
 
 effect clear @s minecraft:resistance
 

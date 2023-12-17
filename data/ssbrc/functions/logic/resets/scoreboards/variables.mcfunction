@@ -106,19 +106,19 @@ scoreboard players set #shadow.maxMeter vars 600
 scoreboard players set shadow.chaosSpearCooldown vars 15
 scoreboard players set shadow.chaosSpearCost vars 50
 
-scoreboard players set #shovel_knight.max_mana vars 10
-scoreboard players set shovel_knight.chaosSphereCooldown vars 20
-scoreboard players set #shovel_knight.chaosSphereManaCost vars 1
-scoreboard players set #shovel_knight.chaosSphereMaxRotation vars 160
-scoreboard players set shovel_knight.flareWandCooldown vars 15
-scoreboard players set #shovel_knight.flareWandManaCost vars 1
-scoreboard players set shovel_knight.throwingAnchorCooldown vars 10
-scoreboard players set #shovel_knight.throwingAnchorManaCost vars 1
-scoreboard players set shovel_knight.phaseLocketCooldown vars 200
-scoreboard players set #shovel_knight.phaseLocketManaCost vars 3
-scoreboard players set shovel_knight.propellerDaggerCooldown vars 60
-scoreboard players set #shovel_knight.propellerDaggerManaCost vars 2
-scoreboard players set #shovel_knight.warHornManaCost vars 7
+scoreboard players set shovel_knight.max_mana vars 10
+scoreboard players set shovel_knight.chaos_sphereCooldown vars 20
+scoreboard players set shovel_knight.chaos_sphereManaCost vars 1
+scoreboard players set shovel_knight.chaos_sphereMaxRotation vars 160
+scoreboard players set shovel_knight.flare_wandCooldown vars 15
+scoreboard players set shovel_knight.flare_wandManaCost vars 1
+scoreboard players set shovel_knight.throwing_anchorCooldown vars 10
+scoreboard players set shovel_knight.throwing_anchorManaCost vars 1
+scoreboard players set shovel_knight.phase_locketCooldown vars 200
+scoreboard players set shovel_knight.phase_locketManaCost vars 3
+scoreboard players set shovel_knight.propeller_daggerCooldown vars 60
+scoreboard players set shovel_knight.propeller_daggerManaCost vars 2
+scoreboard players set shovel_knight.war_horn.cost vars 7
 
 scoreboard players set #sora.driveForm vars 400
 scoreboard players set #sora.maxMP vars 10

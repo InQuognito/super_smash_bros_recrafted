@@ -28,6 +28,7 @@ scoreboard players operation id_to_match temp = @s id
 execute if entity @s[tag=byleth] run kill @e[type=minecraft:horse,tag=steedCharge,predicate=ssbrc:id_match]
 execute if entity @s[tag=captain_falcon] run kill @e[type=minecraft:marker,tag=raptorBoost,predicate=ssbrc:id_match]
 execute if entity @s[tag=fox] run kill @e[type=minecraft:marker,tag=fireFox,predicate=ssbrc:id_match]
+execute if entity @s[tag=ganondorf] run function ssbrc:fighters/ganondorf/logic/kill_entities
 execute if entity @s[tag=greninja] run kill @e[type=minecraft:marker,tag=shadowSneak,predicate=ssbrc:id_match]
 execute if entity @s[tag=pokemon_trainer,tag=charizard] run kill @e[type=minecraft:marker,tag=flareBlitz,predicate=ssbrc:id_match]
 execute if entity @s[tag=pokemon_trainer,tag=ivysaur] run function ssbrc:fighters/pokemon_trainer/logic/ivysaur/leech_seed/kill
@@ -112,10 +113,6 @@ clear @s minecraft:carrot_on_a_stick{pickaxe:1}
 
 # Sora
 scoreboard players set @s[tag=sora] charge.3 0
-
-# Altered Beast
-clear @s minecraft:trident{feralClaw:1}
-clear @s minecraft:firework_rocket{sabretooth:1}
 
 # Yar
 clear @s minecraft:carrot_on_a_stick{drone:1}

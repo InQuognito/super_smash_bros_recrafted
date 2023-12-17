@@ -3,7 +3,7 @@
 		"function": "minecraft:set_name",
 		"entity": "this",
 		"name": {
-			"translate": "ssbrc.tooltips.shovel_knight.shovelBlade",
+			"translate": "ssbrc.tooltips.shovel_knight.shovel_blade",
 			"color": "dark_aqua",
 			"bold": true,
 			"italic": false

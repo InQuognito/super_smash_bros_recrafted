@@ -1,4 +1,4 @@
-tag @s remove warHornActive
+tag @s remove war_hornActive
 
 function ssbrc:logic/fighters/effects/mobility/mobilize
 

@@ -1,3 +1,3 @@
-tag @s remove shovel_knight.phaseLocket
-tag @s remove shovel_knight.propellerDagger
-tag @s remove shovel_knight.warHorn
+tag @s remove shovel_knight.phase_locket
+tag @s remove shovel_knight.propeller_dagger
+tag @s remove shovel_knight.war_horn

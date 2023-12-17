@@ -48,7 +48,7 @@
 											"italic": false
 										},
 										{
-											"translate": "ssbrc.tooltips.shovel_knight.shovelBlade.description.1",
+											"translate": "ssbrc.tooltips.shovel_knight.shovel_blade.description.1",
 											"color": "gray",
 											"bold": false,
 											"italic": false
@@ -56,7 +56,7 @@
 									]
 								},
 								{
-									"translate": "ssbrc.tooltips.shovel_knight.shovelBlade.description.2",
+									"translate": "ssbrc.tooltips.shovel_knight.shovel_blade.description.2",
 									"color": "gray",
 									"bold": false,
 									"italic": false
@@ -118,7 +118,7 @@
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{shovelBlade:1,disabled:0}"
+							"tag": "{shovel_blade:1,disabled:0}"
 						}
 					]
 				}

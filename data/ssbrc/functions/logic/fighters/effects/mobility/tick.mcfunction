@@ -1,5 +1,4 @@
-execute if entity @s[tag=!air_stall,tag=!pivot] unless predicate ssbrc:flag/in_air run teleport @s @s
+execute if entity @s[tag=!immobile] run function ssbrc:logic/fighters/effects/mobility/immobilize/default
 
-execute if entity @s[tag=air_stall] run teleport @s @s
-
-execute if entity @s[tag=pivot] at @e[type=minecraft:marker,tag=pivot,predicate=ssbrc:id_match,limit=1] run teleport @s ~ ~ ~
+scoreboard players remove @s immobile 1
+execute if score @s immobile matches 1 run function ssbrc:logic/fighters/effects/mobility/mobilize

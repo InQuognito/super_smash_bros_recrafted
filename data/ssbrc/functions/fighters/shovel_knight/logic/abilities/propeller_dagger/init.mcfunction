@@ -1,3 +1,3 @@
-tag @s add propellerDagger
+tag @s add propeller_dagger
 
 function ssbrc:logic/init/charge_attack

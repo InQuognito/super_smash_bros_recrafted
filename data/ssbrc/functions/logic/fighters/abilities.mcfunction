@@ -18,7 +18,7 @@ execute if entity @s[tag=failnaught,tag=awakened] run function ssbrc:fighters/by
 execute if entity @s[tag=raptorBoost] run function ssbrc:fighters/captain_falcon/logic/abilities/raptor_boost/tick
 
 # Cloud
-execute if entity @s[tag=bladeBeam] run function ssbrc:fighters/cloud/logic/abilities/buster_sword/blade_beam/tick
+execute if entity @s[tag=bladeBeam] run function ssbrc:fighters/shovel_knight/logic/abilities/drop_spark/tick
 
 # Dark Samus
 execute if entity @s[tag=phazonBeam] run function ssbrc:fighters/dark_samus/logic/abilities/phazon_beam/tick
@@ -121,11 +121,12 @@ execute if entity @s[tag=chaosSpear] run function ssbrc:fighters/shadow/logic/ch
 execute if entity @s[tag=chaosBlast] run function ssbrc:fighters/shadow/logic/chaos_blast/shockwave/tick
 
 # Shovel Knight
-execute if entity @s[tag=chaosSphere] run function ssbrc:fighters/shovel_knight/logic/abilities/chaos_sphere/tick
-execute if entity @s[tag=flareWand] run function ssbrc:fighters/shovel_knight/logic/abilities/flare_wand/tick
-execute if entity @s[tag=propellerDagger] run function ssbrc:fighters/shovel_knight/logic/abilities/propeller_dagger/tick
-execute if entity @s[tag=throwingAnchor] run function ssbrc:fighters/shovel_knight/logic/abilities/throwing_anchor/tick
-execute if entity @s[tag=warHorn] run function ssbrc:fighters/shovel_knight/logic/abilities/war_horn/tick
+execute if entity @s[tag=drop_spark] run function ssbrc:fighters/shovel_knight/logic/abilities/drop_spark/tick
+execute if entity @s[tag=chaos_sphere] run function ssbrc:fighters/shovel_knight/logic/abilities/chaos_sphere/tick
+execute if entity @s[tag=flare_wand] run function ssbrc:fighters/shovel_knight/logic/abilities/flare_wand/tick
+execute if entity @s[tag=propeller_dagger] run function ssbrc:fighters/shovel_knight/logic/abilities/propeller_dagger/tick
+execute if entity @s[tag=throwing_anchor] run function ssbrc:fighters/shovel_knight/logic/abilities/throwing_anchor/tick
+execute if entity @s[tag=war_horn] run function ssbrc:fighters/shovel_knight/logic/abilities/war_horn/tick
 
 # Snake
 execute if entity @s[tag=psg1] run function ssbrc:fighters/snake/logic/weapons/psg1/tick

@@ -50,6 +50,7 @@ scoreboard objectives remove fuse
 scoreboard objectives remove health
 scoreboard objectives remove healthTimer
 scoreboard objectives remove id
+scoreboard objectives remove immobile
 scoreboard objectives remove integers
 scoreboard objectives remove itemCount
 scoreboard objectives remove item.charge.input

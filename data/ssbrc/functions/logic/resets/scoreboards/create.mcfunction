@@ -50,6 +50,7 @@ scoreboard objectives add fuse dummy
 scoreboard objectives add health dummy
 scoreboard objectives add healthTimer dummy
 scoreboard objectives add id dummy
+scoreboard objectives add immobile dummy
 scoreboard objectives add integers dummy
 scoreboard objectives add itemCount dummy
 scoreboard objectives add item.charge.input minecraft.used:minecraft.warped_fungus_on_a_stick
