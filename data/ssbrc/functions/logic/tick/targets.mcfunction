@@ -4,7 +4,7 @@ execute if entity @s[predicate=ssbrc:fighters/effects/has/poison] run particle m
 
 execute if score @s frostbite.timer matches 1.. run function ssbrc:logic/fighters/effects/frostbite/tick
 
-execute if score @s immobile matches 1.. run function ssbrc:logic/fighters/effects/mobility/tick
+execute if score @s immobile matches 2.. run function ssbrc:logic/fighters/effects/mobility/tick
 execute at @s[tag=immobile] run function ssbrc:logic/fighters/effects/mobility/active
 execute at @s[tag=pivot,tag=!immobile] unless predicate ssbrc:flag/in_air run function ssbrc:logic/fighters/effects/mobility/immobilize/pivot/activate
 
