@@ -22,6 +22,7 @@ execute if score hazards options matches 1 run data modify storage ssbrc:options
 
 # Items
 data modify storage ssbrc:options/items/header value set value '[{"translate":"ssbrc.options.items","bold":true,"underlined":true,"color":"black"},{"text":" 🛈","color":"gray","underlined":false,"hoverEvent":{"action":"show_text","contents":[{"translate":"ssbrc.options.items.description","color":"gold"}]}}]'
+data modify storage ssbrc:options/item_rate/header value set value '[{"translate":"ssbrc.options.item_rate","bold":true,"underlined":true,"color":"black"},{"text":" 🛈","color":"gray","underlined":false,"hoverEvent":{"action":"show_text","contents":[{"translate":"ssbrc.options.item_rate.description","color":"gold"},{"text":"\\n\\n"},{"translate":"ssbrc.options.fixed","color":"gold"},{"text":" - "},{"translate":"ssbrc.options.item_rate.fixed.description","color":"gray"},{"text":"\\n\\n"},{"translate":"ssbrc.options.low","color":"gold"},{"text":" - "},{"translate":"ssbrc.options.item_rate.low.description","color":"gray"},{"text":"\\n\\n"},{"translate":"ssbrc.options.medium","color":"gold"},{"text":" - "},{"translate":"ssbrc.options.item_rate.medium.description","color":"gray"},{"text":"\\n\\n"},{"translate":"ssbrc.options.high","color":"gold"},{"text":" - "},{"translate":"ssbrc.options.item_rate.high.description","color":"gray"}]}}]'
 execute if score items options matches 0 run function ssbrc:logic/options/ui/items/off
 execute if score items options matches 1 run function ssbrc:logic/options/ui/items/on
 
