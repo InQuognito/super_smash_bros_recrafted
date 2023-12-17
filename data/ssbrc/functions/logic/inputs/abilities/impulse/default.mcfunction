@@ -8,6 +8,8 @@ execute if entity @s[tag=pikachu] run function ssbrc:fighters/pikachu/logic/abil
 
 execute if entity @s[tag=pokemon_trainer,scores={cooldown.1=..0}] run function ssbrc:fighters/pokemon_trainer/logic/abilities/impulse
 
+execute if entity @s[tag=roy] run function ssbrc:fighters/roy/logic/abilities/counter/activate
+
 execute if entity @s[tag=shovel_knight,scores={cooldown.3=..0}] run function ssbrc:fighters/shovel_knight/logic/abilities/impulse
 
 execute if entity @s[tag=yar] run function ssbrc:fighters/yar/logic/abilities/impulse
