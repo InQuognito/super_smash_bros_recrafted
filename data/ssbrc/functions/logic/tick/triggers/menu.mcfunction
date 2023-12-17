@@ -115,11 +115,11 @@ execute if score @s[tag=pokemon_trainer] menu matches 1266 run function ssbrc:fi
 execute if score @s[tag=pokemon_trainer] menu matches 1267 run function ssbrc:fighters/pokemon_trainer/menu/skins/dawn
 execute if score @s[tag=pokemon_trainer] menu matches 1268 run function ssbrc:fighters/pokemon_trainer/menu/skins/victor
 
-execute if score @s[tag=roy] menu matches 1404 run function ssbrc:fighters/roy/menu/skins/default
-execute if score @s[tag=roy] menu matches 1405 run function ssbrc:fighters/roy/menu/skins/gold
-execute if score @s[tag=roy] menu matches 1406 run function ssbrc:fighters/roy/menu/skins/awakening
-execute if score @s[tag=roy] menu matches 1407 run function ssbrc:fighters/roy/menu/skins/blazing_bachelor
-execute if score @s[tag=roy] menu matches 1408 run function ssbrc:fighters/roy/menu/skins/young_lion
+execute if score @s[tag=roy] menu matches 1384 run function ssbrc:fighters/roy/menu/skins/default
+execute if score @s[tag=roy] menu matches 1385 run function ssbrc:fighters/roy/menu/skins/gold
+execute if score @s[tag=roy] menu matches 1386 run function ssbrc:fighters/roy/menu/skins/awakening
+execute if score @s[tag=roy] menu matches 1387 run function ssbrc:fighters/roy/menu/skins/blazing_bachelor
+execute if score @s[tag=roy] menu matches 1388 run function ssbrc:fighters/roy/menu/skins/young_lion
 
 execute if score @s[tag=ryu] menu matches 1404 run function ssbrc:fighters/ryu/menu/skins/default
 execute if score @s[tag=ryu] menu matches 1405 run function ssbrc:fighters/ryu/menu/skins/gold
