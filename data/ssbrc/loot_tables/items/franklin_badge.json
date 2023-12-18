@@ -37,7 +37,7 @@
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{franklin_badge:1}"
+							"tag": "{franklin_badge:1,CustomModelData:6}"
 						}
 					]
 				}
