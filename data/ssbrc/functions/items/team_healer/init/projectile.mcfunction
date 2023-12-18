@@ -1,4 +1,4 @@
-tag @s add teamHealer
+tag @s add team_healer
 
 data merge entity @s {Small:1b}
 

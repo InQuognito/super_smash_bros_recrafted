@@ -1,4 +1,4 @@
-tag @s add crackerLauncher
+tag @s add cracker_launcher
 
 data merge entity @s {Small:1b}
 

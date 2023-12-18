@@ -1,1 +1,1 @@
-scoreboard players set @s item.lipsStick 6
+scoreboard players set @s item.lips_stick 6

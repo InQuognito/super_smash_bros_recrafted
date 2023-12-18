@@ -12,7 +12,7 @@
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"translate": "ssbrc.tooltips.item.powerPellet",
+								"translate": "ssbrc.tooltips.item.power_pellet",
 								"color": "white",
 								"bold": true,
 								"italic": false
@@ -27,7 +27,7 @@
 							"entity": "this",
 							"lore": [
 								{
-									"translate": "ssbrc.tooltips.item.powerPellet.description.1",
+									"translate": "ssbrc.tooltips.item.power_pellet.description",
 									"color": "gray",
 									"bold": false,
 									"italic": false
@@ -37,7 +37,7 @@
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{powerPellet:1,CustomModelData:1}"
+							"tag": "{power_pellet:1,CustomModelData:1}"
 						}
 					]
 				}

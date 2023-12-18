@@ -18,7 +18,7 @@ scoreboard players reset @s frostbite.timer
 tag @s remove crossSlashTarget
 function ssbrc:fighters/pokemon_trainer/logic/ivysaur/leech_seed/reset
 
-tag @s remove angelFeather
+tag @s remove angel_feather
 tag @s remove immobile
 tag @s remove tornado.spin
 

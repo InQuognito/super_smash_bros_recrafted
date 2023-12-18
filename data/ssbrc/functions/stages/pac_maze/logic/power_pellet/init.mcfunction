@@ -1,4 +1,4 @@
-tag @s add powerPellet
+tag @s add power_pellet
 
 item replace entity @s hotbar.0 with minecraft:warped_fungus_on_a_stick{CustomModelData:1}
 

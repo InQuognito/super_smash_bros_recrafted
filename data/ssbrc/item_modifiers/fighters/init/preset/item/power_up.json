@@ -1,0 +1,10 @@
+[
+	{
+		"function": "minecraft:reference",
+		"name": "ssbrc:fighters/init/tooltip/item/power_up"
+	},
+	{
+		"function": "minecraft:reference",
+		"name": "ssbrc:fighters/init/unbreakable/smooth"
+	}
+]

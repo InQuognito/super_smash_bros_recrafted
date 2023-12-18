@@ -10,8 +10,8 @@ scoreboard players operation speed temp = sqrt.output math
 scoreboard players remove @s[scores={cooldown.1=1..}] cooldown.1 1
 scoreboard players remove @s[scores={cooldown.2=1..}] cooldown.2 1
 scoreboard players remove @s[scores={cooldown.3=1..}] cooldown.3 1
-scoreboard players remove @s[scores={item.crackerLauncherCooldown=1..}] item.crackerLauncherCooldown 1
-scoreboard players remove @s[scores={item.rayGunCooldown=1..}] item.rayGunCooldown 1
+scoreboard players remove @s[scores={item.cracker_launcherCooldown=1..}] item.cracker_launcherCooldown 1
+scoreboard players remove @s[scores={item.ray_gunCooldown=1..}] item.ray_gunCooldown 1
 
 scoreboard players add @s[scores={charge.input=1..}] charge.step 1
 scoreboard players add @s[scores={charge.input=1..}] charge.output 1
@@ -68,7 +68,7 @@ execute at @s[scores={fallDistance=1..}] run function ssbrc:logic/fighters/shock
 execute at @s[scores={jumps=1..}] run function ssbrc:logic/fighters/jump
 
 # Ability / Item Activation
-execute if entity @s[scores={charge.output=200..},nbt={SelectedItem:{tag:{specialFlag:1}}}] run function ssbrc:items/special_flag/activate
+execute if entity @s[scores={charge.output=200..},nbt={SelectedItem:{tag:{special_flag:1}}}] run function ssbrc:items/special_flag/activate
 
 execute at @s[scores={charge.step=5..}] run function ssbrc:logic/inputs/abilities/charge/default
 execute at @s[scores={useAbility=1..}] run function ssbrc:logic/inputs/abilities/impulse/default
@@ -76,12 +76,12 @@ execute at @s[scores={charge.step=5..}] run function ssbrc:logic/inputs/items/ch
 execute at @s[scores={useItem=1..}] run function ssbrc:logic/inputs/items/impulse/default
 
 # Items
-execute at @s[scores={item.cloakingDevice=1..}] run function ssbrc:items/cloaking_device/tick
-execute at @s[scores={item.franklinBadge=1..}] positioned ~ ~0.75 ~ run function ssbrc:items/franklin_badge/tick
-execute at @s[scores={item.poisonMushroom=1..}] run function ssbrc:items/poison_mushroom/tick
-execute at @s[scores={item.superMushroom=1..}] run function ssbrc:items/super_mushroom/tick
+execute at @s[scores={item.cloaking_device=1..}] run function ssbrc:items/cloaking_device/tick
+execute at @s[scores={item.franklin_badge=1..}] positioned ~ ~0.75 ~ run function ssbrc:items/franklin_badge/tick
+execute at @s[scores={item.poison_mushroom=1..}] run function ssbrc:items/poison_mushroom/tick
+execute at @s[scores={item.super_mushroom=1..}] run function ssbrc:items/super_mushroom/tick
 
-execute at @s[tag=angelFeather] run particle minecraft:dust_color_transition 1.0 1.0 0.0 0.5 1.0 1.0 1.0 ~ ~0.75 ~ 0.2 0.3 0.2 0.0 3 normal @a
+execute at @s[tag=angel_feather] run particle minecraft:dust_color_transition 1.0 1.0 0.0 0.5 1.0 1.0 1.0 ~ ~0.75 ~ 0.2 0.3 0.2 0.0 3 normal @a
 
 # Fighter Effects
 execute at @s[tag=gold] positioned ~ ~0.75 ~ run function ssbrc:logic/tick/gold

@@ -1,4 +1,4 @@
-scoreboard players set @s item.cloakingDevice 200
+scoreboard players set @s item.cloaking_device 200
 
 clear @s #ssbrc:armor
 

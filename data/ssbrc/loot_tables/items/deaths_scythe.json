@@ -50,7 +50,7 @@
 							"entity": "this",
 							"lore": [
 								{
-									"translate": "ssbrc.tooltips.item.deaths_scythe.description.1",
+									"translate": "ssbrc.tooltips.item.deaths_scythe.description",
 									"color": "gray",
 									"bold": false,
 									"italic": false

@@ -5,6 +5,6 @@
 	},
 	{
 		"function": "minecraft:reference",
-		"name": "ssbrc:fighters/init/common"
+		"name": "ssbrc:fighters/init/unbreakable"
 	}
 ]

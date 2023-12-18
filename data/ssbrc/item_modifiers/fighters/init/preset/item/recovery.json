@@ -1,0 +1,10 @@
+[
+	{
+		"function": "minecraft:reference",
+		"name": "ssbrc:fighters/init/tooltip/item/recovery"
+	},
+	{
+		"function": "minecraft:reference",
+		"name": "ssbrc:fighters/init/unbreakable/smooth"
+	}
+]

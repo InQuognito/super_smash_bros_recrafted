@@ -1,4 +1,4 @@
-clear @s minecraft:warped_fungus_on_a_stick{crackerLauncher:1}
+clear @s minecraft:warped_fungus_on_a_stick{cracker_launcher:1}
 
-scoreboard players reset @s item.crackerLauncherCooldown
-scoreboard players reset @s item.crackerLauncherUses
+scoreboard players reset @s item.cracker_launcherCooldown
+scoreboard players reset @s item.cracker_launcherUses

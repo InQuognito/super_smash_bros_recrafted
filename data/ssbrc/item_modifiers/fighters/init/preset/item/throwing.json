@@ -1,0 +1,14 @@
+[
+	{
+		"function": "minecraft:reference",
+		"name": "ssbrc:fighters/init/tooltip/item/throwing"
+	},
+	{
+		"function": "minecraft:reference",
+		"name": "ssbrc:fighters/init/tooltip/activate"
+	},
+	{
+		"function": "minecraft:reference",
+		"name": "ssbrc:fighters/init/unbreakable/smooth"
+	}
+]

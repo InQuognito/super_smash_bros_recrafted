@@ -12,86 +12,38 @@
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"translate": "ssbrc.tooltips.item.teamHealer",
+								"translate": "ssbrc.tooltips.item.team_healer",
 								"color": "gold",
 								"bold": true,
 								"italic": false
 							}
 						},
 						{
+							"function": "minecraft:reference",
+							"name": "ssbrc:fighters/init/preset/item/throwing"
+						},
+						{
 							"function": "minecraft:set_lore",
 							"entity": "this",
 							"lore": [
 								{
-									"translate": "--------------",
+									"translate": "ssbrc.tooltips.item.team_healer.description.1",
 									"color": "gray",
 									"bold": false,
 									"italic": false
 								},
 								{
-									"translate": "ssbrc.tooltips.item.throwing",
-									"color": "white",
-									"bold": false,
-									"italic": false,
-									"underlined": true
-								},
-								{
-									"translate": "- [",
-									"color": "gray",
-									"bold": false,
-									"italic": false,
-									"extra": [
-										{
-											"keybind": "key.use",
-											"color": "gray",
-											"bold": false,
-											"italic": false
-										},
-										{
-											"translate": "ssbrc.tooltips.item.activation.activate",
-											"color": "gray",
-											"bold": false,
-											"italic": false
-										}
-									]
-								},
-								{
-									"translate": "ssbrc.tooltips.item.teamHealer.description.1",
-									"color": "gray",
-									"bold": false,
-									"italic": false
-								},
-								{
-									"translate": "ssbrc.tooltips.item.teamHealer.description.2",
+									"translate": "ssbrc.tooltips.item.team_healer.description.2",
 									"color": "gray",
 									"bold": false,
 									"italic": false
 								}
 							],
-							"replace": true
-						},
-						{
-							"function": "minecraft:set_attributes",
-							"modifiers": [
-								{
-									"attribute": "minecraft:generic.attack_damage",
-									"name": "Attack Damage",
-									"amount": 0,
-									"operation": "multiply_base",
-									"slot": "mainhand"
-								},
-								{
-									"attribute": "minecraft:generic.attack_speed",
-									"name": "Attack Speed",
-									"amount": 1024,
-									"operation": "multiply_base",
-									"slot": "mainhand"
-								}
-							]
+							"replace": false
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{teamHealer:1,Unbreakable:1b,HideFlags:255}"
+							"tag": "{team_healer:1}"
 						}
 					]
 				}

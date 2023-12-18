@@ -12,37 +12,11 @@
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"translate": "ssbrc.tooltips.item.lipsStick",
+								"translate": "ssbrc.tooltips.item.lips_stick",
 								"color": "dark_gray",
 								"bold": true,
 								"italic": false
 							}
-						},
-						{
-							"function": "minecraft:set_lore",
-							"entity": "this",
-							"lore": [
-								{
-									"translate": "--------------",
-									"color": "gray",
-									"bold": false,
-									"italic": false
-								},
-								{
-									"translate": "ssbrc.tooltips.item.battering",
-									"color": "white",
-									"bold": false,
-									"italic": false,
-									"underlined": true
-								},
-								{
-									"translate": "ssbrc.tooltips.item.lipsStick.description.1",
-									"color": "gray",
-									"bold": false,
-									"italic": false
-								}
-							],
-							"replace": true
 						},
 						{
 							"function": "minecraft:set_attributes",
@@ -64,8 +38,25 @@
 							]
 						},
 						{
+							"function": "minecraft:reference",
+							"name": "ssbrc:fighters/init/preset/item/battering"
+						},
+						{
+							"function": "minecraft:set_lore",
+							"entity": "this",
+							"lore": [
+								{
+									"translate": "ssbrc.tooltips.item.lips_stick.description",
+									"color": "gray",
+									"bold": false,
+									"italic": false
+								}
+							],
+							"replace": false
+						},
+						{
 							"function": "minecraft:set_nbt",
-							"tag": "{lipsStick:1,Unbreakable:1b,HideFlags:255}"
+							"tag": "{lips_stick:1}"
 						}
 					]
 				}

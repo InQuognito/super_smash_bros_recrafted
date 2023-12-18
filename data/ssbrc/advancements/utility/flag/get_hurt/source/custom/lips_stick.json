@@ -8,7 +8,7 @@
 					"source_entity": {
 						"equipment": {
 							"mainhand": {
-								"nbt": "{lipsStick:1}"
+								"nbt": "{lips_stick:1}"
 							}
 						}
 					}

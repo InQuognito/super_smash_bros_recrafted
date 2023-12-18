@@ -1,4 +1,4 @@
-kill @e[type=minecraft:item_display,tag=powerPellet]
+kill @e[type=minecraft:item_display,tag=power_pellet]
 
 execute store result score random.output temp run random value 0..3
 

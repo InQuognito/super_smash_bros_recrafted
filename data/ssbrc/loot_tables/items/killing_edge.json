@@ -20,18 +20,14 @@
 						},
 						{
 							"function": "minecraft:reference",
-							"name": "ssbrc:fighters/init/tooltip/item/battering"
-						},
-						{
-							"function": "minecraft:reference",
-							"name": "ssbrc:fighters/init/unbreakable"
+							"name": "ssbrc:fighters/init/preset/item/battering"
 						},
 						{
 							"function": "minecraft:set_lore",
 							"entity": "this",
 							"lore": [
 								{
-									"translate": "ssbrc.tooltips.item.killing_edge.description.1",
+									"translate": "ssbrc.tooltips.item.killing_edge.description",
 									"color": "gray",
 									"bold": false,
 									"italic": false
@@ -60,7 +56,7 @@
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{killing_edge:1,Unbreakable:1b,CustomModelData:100000}"
+							"tag": "{killing_edge:1,CustomModelData:100000}"
 						}
 					]
 				}

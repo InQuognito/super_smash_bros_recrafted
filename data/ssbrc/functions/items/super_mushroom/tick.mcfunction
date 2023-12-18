@@ -1,2 +1,2 @@
-scoreboard players remove @s item.superMushroom 1
-execute if score @s item.superMushroom matches 1 run function ssbrc:items/super_mushroom/deactivate
+scoreboard players remove @s item.super_mushroom 1
+execute if score @s item.super_mushroom matches 1 run function ssbrc:items/super_mushroom/deactivate
