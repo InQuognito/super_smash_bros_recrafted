@@ -1,4 +1,4 @@
-tellraw @a [{"translate":"Debug Mode: ","color":"white"},{"translate":"ENABLED","color":"yellow"}]
+tellraw @a [{"text":"Debug Mode: ","color":"white"},{"text":"ENABLED","color":"yellow"}]
 
 scoreboard players set debug options 1
 scoreboard players display numberformat debug options fixed {"translate":"ssbrc.options.on","color":"green"}
