@@ -1,0 +1,35 @@
+[
+	{
+		"function": "minecraft:reference",
+		"name": "ssbrc:fighters/init/preset/item/battering"
+	},
+	{
+		"function": "minecraft:set_lore",
+		"entity": "this",
+		"lore": [
+			{
+				"translate": "ssbrc.tooltips.item.killing_edge.description",
+				"color": "gray",
+				"bold": false,
+				"italic": false
+			}
+		],
+		"replace": false
+	},
+	{
+		"function": "minecraft:set_attributes",
+		"modifiers": [
+			{
+				"attribute": "minecraft:generic.attack_speed",
+				"name": "Attack Speed",
+				"amount": 1,
+				"operation": "multiply_base",
+				"slot": "mainhand"
+			}
+		]
+	},
+	{
+		"function": "minecraft:set_nbt",
+		"tag": "{killing_edge:1}"
+	}
+]

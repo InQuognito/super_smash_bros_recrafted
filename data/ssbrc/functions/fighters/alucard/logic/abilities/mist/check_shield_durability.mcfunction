@@ -8,6 +8,7 @@ execute if entity @s[nbt={Inventory:[{tag:{alucardShield:1},Slot:6b}]}] store re
 execute if entity @s[nbt={Inventory:[{tag:{alucardShield:1},Slot:7b}]}] store result score @s durability run data get entity @s Inventory[{Slot:7b}].tag.Damage
 execute if entity @s[nbt={Inventory:[{tag:{alucardShield:1},Slot:8b}]}] store result score @s durability run data get entity @s Inventory[{Slot:8b}].tag.Damage
 execute if entity @s[nbt={Inventory:[{tag:{alucardShield:1},Slot:9b}]}] store result score @s durability run data get entity @s Inventory[{Slot:9b}].tag.Damage
+
 execute if entity @s[nbt={Inventory:[{tag:{alucardShield:1},Slot:10b}]}] store result score @s durability run data get entity @s Inventory[{Slot:10b}].tag.Damage
 execute if entity @s[nbt={Inventory:[{tag:{alucardShield:1},Slot:11b}]}] store result score @s durability run data get entity @s Inventory[{Slot:11b}].tag.Damage
 execute if entity @s[nbt={Inventory:[{tag:{alucardShield:1},Slot:12b}]}] store result score @s durability run data get entity @s Inventory[{Slot:12b}].tag.Damage
@@ -34,10 +35,5 @@ execute if entity @s[nbt={Inventory:[{tag:{alucardShield:1},Slot:32b}]}] store r
 execute if entity @s[nbt={Inventory:[{tag:{alucardShield:1},Slot:33b}]}] store result score @s durability run data get entity @s Inventory[{Slot:33b}].tag.Damage
 execute if entity @s[nbt={Inventory:[{tag:{alucardShield:1},Slot:34b}]}] store result score @s durability run data get entity @s Inventory[{Slot:34b}].tag.Damage
 execute if entity @s[nbt={Inventory:[{tag:{alucardShield:1},Slot:35b}]}] store result score @s durability run data get entity @s Inventory[{Slot:35b}].tag.Damage
-
-execute if entity @s[nbt={Inventory:[{tag:{alucardShield:1},Slot:80b}]}] store result score @s durability run data get entity @s Inventory[{Slot:80b}].tag.Damage
-execute if entity @s[nbt={Inventory:[{tag:{alucardShield:1},Slot:81b}]}] store result score @s durability run data get entity @s Inventory[{Slot:81b}].tag.Damage
-execute if entity @s[nbt={Inventory:[{tag:{alucardShield:1},Slot:82b}]}] store result score @s durability run data get entity @s Inventory[{Slot:82b}].tag.Damage
-execute if entity @s[nbt={Inventory:[{tag:{alucardShield:1},Slot:83b}]}] store result score @s durability run data get entity @s Inventory[{Slot:83b}].tag.Damage
 
 execute if entity @s[nbt={Inventory:[{tag:{alucardShield:1},Slot:-106b}]}] store result score @s durability run data get entity @s Inventory[{Slot:-106b}].tag.Damage

@@ -80,6 +80,7 @@ execute at @s[scores={item.cloaking_device=1..}] run function ssbrc:items/cloaki
 execute at @s[scores={item.franklin_badge=1..}] positioned ~ ~0.75 ~ run function ssbrc:items/franklin_badge/tick
 execute at @s[scores={item.poison_mushroom=1..}] run function ssbrc:items/poison_mushroom/tick
 execute at @s[scores={item.super_mushroom=1..}] run function ssbrc:items/super_mushroom/tick
+function ssbrc:items/killing_edge/tick
 
 execute at @s[tag=angel_feather] run particle minecraft:dust_color_transition 1.0 1.0 0.0 0.5 1.0 1.0 1.0 ~ ~0.75 ~ 0.2 0.3 0.2 0.0 3 normal @a
 
