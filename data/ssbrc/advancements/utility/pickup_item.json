@@ -30,9 +30,6 @@
 				],
 				"items": [
 					{
-						"items": [
-							"minecraft:warped_fungus_on_a_stick"
-						],
 						"nbt": "{item:1,picked_up:0}"
 					}
 				]
