@@ -7,4 +7,4 @@ forceload add -768 800 -641 895
 time set noon
 weather clear
 
-schedule function ssbrc:maps/h/hoenn_pokemon_league/prepare 1s replace
+schedule function ssbrc:stages/hoenn_pokemon_league/prepare 1s replace

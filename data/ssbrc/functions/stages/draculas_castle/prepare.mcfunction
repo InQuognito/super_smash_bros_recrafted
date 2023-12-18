@@ -9,7 +9,7 @@ summon minecraft:marker -1092.5 16.0 42.5 {Tags:["spawnpoint"]}
 summon minecraft:marker -1098.5 23.0 10.5 {Tags:["spawnpoint"]}
 summon minecraft:marker -1101.5 16.0 17.5 {Tags:["spawnpoint"]}
 
-execute if predicate ssbrc:item_spawnpoints run function ssbrc:maps/d/draculas_castle/item_spawnpoints
+execute if predicate ssbrc:item_spawnpoints run function ssbrc:stages/draculas_castle/item_spawnpoints
 
 execute as @a[predicate=ssbrc:ingame] run function ssbrc:logic/pre_game/prepare_players
 function ssbrc:logic/pre_game/prepare_match

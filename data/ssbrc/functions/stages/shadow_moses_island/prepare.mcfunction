@@ -9,7 +9,7 @@ summon minecraft:marker 166.5 18.0 -1430.5 {Tags:["spawnpoint"]}
 summon minecraft:marker 150.5 14.0 -1444.5 {Tags:["spawnpoint"]}
 summon minecraft:marker 91.5 8.0 -1420.5 {Tags:["spawnpoint"]}
 
-execute if predicate ssbrc:item_spawnpoints run function ssbrc:maps/s/shadow_moses_island/item_spawnpoints
+execute if predicate ssbrc:item_spawnpoints run function ssbrc:stages/shadow_moses_island/item_spawnpoints
 
 execute as @a[predicate=ssbrc:ingame] run function ssbrc:logic/pre_game/prepare_players
 function ssbrc:logic/pre_game/prepare_match
