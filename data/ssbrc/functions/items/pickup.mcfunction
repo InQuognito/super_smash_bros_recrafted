@@ -18,6 +18,7 @@ execute if entity @s[nbt={Inventory:[{tag:{super_mushroom:1}}]}] run function ss
 
 execute unless score instant_item_count temp matches 1.. run clear @s #ssbrc:items{item:1,picked_up:1}
 clear @s #ssbrc:items{item:1,instant:1}
+scoreboard players reset instant_item_count temp
 
 execute if entity @s[nbt={Inventory:[{tag:{item:1,picked_up:0},Slot:0b}]}] run item modify entity @s hotbar.0 ssbrc:items/init
 execute if entity @s[nbt={Inventory:[{tag:{item:1,picked_up:0},Slot:1b}]}] run item modify entity @s hotbar.1 ssbrc:items/init
