@@ -14,10 +14,15 @@ scoreboard players display name time_limit options {"text":"Time Limit"}
 
 scoreboard players display name singleplayer options {"text":"Singleplayer"}
 
+scoreboard players display name previous_game_mode options {"text":"Game Mode (Prev.)"}
+scoreboard players display name previous_time_limit options {"text":"Time Limit (Prev.)"}
+
 scoreboard players display name debug options {"text":"Debug"}
 
 scoreboard players display numberformat stock_limit options styled {"color":"blue"}
 scoreboard players display numberformat time_limit options styled {"color":"blue"}
+
+scoreboard players display numberformat previous_time_limit options styled {"color":"gray"}
 
 scoreboard objectives modify points displayname {"translate":"ssbrc.game.points","bold":true,"color":"yellow"}
 scoreboard objectives modify stocks displayname {"translate":"ssbrc.game.stocks","bold":true,"color":"yellow"}
