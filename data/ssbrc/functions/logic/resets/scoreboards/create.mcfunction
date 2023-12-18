@@ -57,7 +57,7 @@ scoreboard objectives add item.charge.input minecraft.used:minecraft.warped_fung
 scoreboard objectives add item.crackerLauncherCooldown dummy
 scoreboard objectives add item.crackerLauncherUses dummy
 scoreboard objectives add item.franklinBadge dummy
-scoreboard objectives add item.killingEdge dummy
+scoreboard objectives add item.killing_edge dummy
 scoreboard objectives add item.lipsStick dummy
 scoreboard objectives add item.poisonMushroom dummy
 scoreboard objectives add item.rayGunCooldown dummy

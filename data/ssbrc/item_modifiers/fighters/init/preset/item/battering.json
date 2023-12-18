@@ -1,0 +1,10 @@
+[
+	{
+		"function": "minecraft:reference",
+		"name": "ssbrc:fighters/init/tooltip/item/battering"
+	},
+	{
+		"function": "minecraft:reference",
+		"name": "ssbrc:fighters/init/common"
+	}
+]
