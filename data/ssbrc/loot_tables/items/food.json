@@ -37,7 +37,7 @@
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{food:1}"
+							"tag": "{food:1,instant:1}"
 						}
 					]
 				}

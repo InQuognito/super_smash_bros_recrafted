@@ -9,7 +9,7 @@ execute if entity @s[nbt={SelectedItem:{tag:{freezie:1}}}] run function ssbrc:it
 
 execute if entity @s[nbt={SelectedItem:{tag:{motion_sensor_bomb:1}}}] run function ssbrc:items/motion_sensor_bomb/activate
 
-execute if entity @s[nbt={SelectedItem:{tag:{ray_gun:1}}}] unless score @s item.ray_gunCooldown matches 1.. run function ssbrc:items/ray_gun/activate
+execute if entity @s[nbt={SelectedItem:{tag:{ray_gun:1}}}] unless score @s item.ray_gun.cooldown matches 1.. run function ssbrc:items/ray_gun/activate
 
 execute if entity @s[nbt={SelectedItem:{tag:{team_healer:1}}}] run function ssbrc:items/team_healer/activate
 

@@ -37,7 +37,7 @@
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{super_mushroom:1}"
+							"tag": "{super_mushroom:1,instant:1}"
 						}
 					]
 				}

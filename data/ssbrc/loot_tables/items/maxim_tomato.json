@@ -37,7 +37,7 @@
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{maxim_tomato:1,CustomModelData:7}"
+							"tag": "{maxim_tomato:1,instant:1,CustomModelData:7}"
 						}
 					]
 				}

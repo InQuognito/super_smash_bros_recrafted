@@ -37,7 +37,7 @@
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{power_pellet:1,CustomModelData:1}"
+							"tag": "{power_pellet:1,instant:1,CustomModelData:1}"
 						}
 					]
 				}

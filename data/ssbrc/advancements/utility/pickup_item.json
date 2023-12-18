@@ -4,18 +4,42 @@
 		"requirement": {
 			"trigger": "minecraft:inventory_changed",
 			"conditions": {
-				"player": [],
+				"player": [
+					{
+						"condition": "minecraft:value_check",
+						"value": {
+							"type": "minecraft:score",
+							"target": {
+								"type": "minecraft:fixed",
+								"name": "gameStage"
+							},
+							"score": "temp"
+						},
+						"range": 4
+					},
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"type_specific": {
+								"type": "player",
+								"gamemode": "adventure"
+							}
+						}
+					}
+				],
 				"items": [
 					{
 						"items": [
 							"minecraft:warped_fungus_on_a_stick"
-						]
+						],
+						"nbt": "{item:1,picked_up:0}"
 					}
 				]
 			}
 		}
 	},
 	"rewards": {
-		"function": "ssbrc:items/pickup_test"
+		"function": "ssbrc:items/pickup"
 	}
 }
