@@ -54,6 +54,8 @@ scoreboard objectives add immobile dummy
 scoreboard objectives add integers dummy
 scoreboard objectives add item_count dummy
 scoreboard objectives add item.charge.input minecraft.used:minecraft.warped_fungus_on_a_stick
+scoreboard objectives add item.charge.output dummy
+scoreboard objectives add item.charge.step dummy
 scoreboard objectives add item.cracker_launcherCooldown dummy
 scoreboard objectives add item.cracker_launcher.uses dummy
 scoreboard objectives add item.franklin_badge dummy

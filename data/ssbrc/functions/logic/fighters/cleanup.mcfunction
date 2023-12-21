@@ -18,9 +18,12 @@ scoreboard players reset @s frostbite.timer
 tag @s remove crossSlashTarget
 function ssbrc:fighters/pokemon_trainer/logic/ivysaur/leech_seed/reset
 
-tag @s remove angel_feather
 tag @s remove immobile
 tag @s remove tornado.spin
+
+# Items
+tag @s remove angel_feather
+scoreboard players reset @s item.franklin_badge
 
 # Kill objects belonging to dead player
 scoreboard players operation id_to_match temp = @s id

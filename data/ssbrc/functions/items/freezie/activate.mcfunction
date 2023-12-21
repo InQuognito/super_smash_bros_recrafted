@@ -1,3 +1,3 @@
 execute summon minecraft:marker run function ssbrc:items/freezie/init/marker
 
-clear @s minecraft:warped_fungus_on_a_stick{freezie:1}
+item replace entity @s weapon.mainhand with minecraft:air

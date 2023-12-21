@@ -18,6 +18,11 @@ scoreboard players add @s[scores={charge.input=1..}] charge.output 1
 scoreboard players reset @s[scores={charge.input=2..}] charge.step
 scoreboard players remove @s[scores={charge.input=2..}] charge.input 1
 
+scoreboard players add @s[scores={item.charge.input=1..}] item.charge.step 1
+scoreboard players add @s[scores={item.charge.input=1..}] item.charge.output 1
+scoreboard players reset @s[scores={item.charge.input=2..}] item.charge.step
+scoreboard players remove @s[scores={item.charge.input=2..}] item.charge.input 1
+
 # Fighters
 execute if entity @s[tag=bowser] run function ssbrc:fighters/bowser/logic/tick
 execute if entity @s[tag=byleth] run function ssbrc:fighters/byleth/logic/tick
@@ -68,7 +73,7 @@ execute at @s[scores={fallDistance=1..}] run function ssbrc:logic/fighters/shock
 execute at @s[scores={jumps=1..}] run function ssbrc:logic/fighters/jump
 
 # Ability / Item Activation
-execute if entity @s[scores={charge.output=200..},nbt={SelectedItem:{tag:{special_flag:1}}}] run function ssbrc:items/special_flag/activate
+execute if entity @s[scores={item.charge.output=200..},nbt={SelectedItem:{tag:{special_flag:1}}}] run function ssbrc:items/special_flag/activate
 
 execute at @s[scores={charge.step=5..}] run function ssbrc:logic/inputs/abilities/charge/default
 execute at @s[scores={useAbility=1..}] run function ssbrc:logic/inputs/abilities/impulse/default

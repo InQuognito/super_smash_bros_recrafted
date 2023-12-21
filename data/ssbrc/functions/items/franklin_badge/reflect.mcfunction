@@ -6,3 +6,5 @@ scoreboard players operation @s id = @a[tag=self,limit=1] id
 data modify entity @s Owner set from entity @a[tag=self,limit=1] UUID
 
 tag @s add reflected
+
+scoreboard players remove @a[tag=self,limit=1] item.franklin_badge 1
