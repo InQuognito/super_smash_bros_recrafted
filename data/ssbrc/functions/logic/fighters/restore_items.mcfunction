@@ -9,7 +9,7 @@ scoreboard players set @s duration.3 1
 
 execute if entity @s[tag=bowser] run function ssbrc:fighters/bowser/logic/abilities/rage/deactivate
 
-execute if entity @s[tag=byleth] run function ssbrc:fighters/byleth/logic/restore_items
+execute if entity @s[tag=byleth] run function ssbrc:fighters/byleth/restore_items
 
 execute if entity @s[tag=cloud] run function ssbrc:fighters/cloud/restore_items
 

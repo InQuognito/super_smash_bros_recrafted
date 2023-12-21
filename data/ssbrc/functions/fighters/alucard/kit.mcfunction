@@ -4,4 +4,4 @@ loot replace entity @s[nbt=!{Inventory:[{tag:{holyWater:1}}]},scores={cooldown.2
 
 loot replace entity @s hotbar.2 loot ssbrc:fighters/alucard/blood_metamorphosis
 
-execute if entity @s[tag=!shieldBroken,nbt=!{Inventory:[{tag:{alucardShield:1}}]}] run function ssbrc:fighters/alucard/logic/alucard_shield
+execute if entity @s[tag=!shieldBroken,nbt=!{Inventory:[{tag:{alucard_shield:1}}]}] run function ssbrc:fighters/alucard/logic/alucard_shield

@@ -3,7 +3,7 @@ scoreboard players operation @s[tag=blood_metamorphosis] duration.1 *= 2 integer
 
 execute if entity @s[tag=blood_metamorphosis] summon minecraft:marker run function ssbrc:fighters/alucard/logic/abilities/mist/summon
 
-execute if entity @s[nbt=!{Inventory:[{tag:{alucardShield:1}}]}] run tag @s add shieldBroken
+execute if entity @s[nbt=!{Inventory:[{tag:{alucard_shield:1}}]}] run tag @s add shieldBroken
 function ssbrc:fighters/alucard/logic/abilities/mist/check_shield_durability
 clear @s
 

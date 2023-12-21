@@ -98,7 +98,7 @@ scoreboard players set pokemon_trainer.waterGunCooldown vars 40
 scoreboard players set #rob.maxCharge vars 200
 scoreboard players set #rob.maxFuel vars 200
 
-scoreboard players set #ryu.tatsumakiSenpukyaku vars 10
+scoreboard players set #ryu.tatsumaki_senpukyaku vars 10
 
 scoreboard players set #samus.waveBeamPiercing vars 3
 
@@ -180,7 +180,7 @@ scoreboard players set #zelda.fire_rodMagicCost vars 2
 scoreboard players set #zelda.fire_rodAltMagicCost vars 4
 scoreboard players set #zelda.iceRodMagicCost vars 2
 scoreboard players set #zelda.iceRodAltMagicCost vars 4
-scoreboard players set #zelda.magicBoomerangMagicCost vars 3
+scoreboard players set #zelda.magic_boomerangMagicCost vars 3
 scoreboard players set #zelda.greatFairyBlessing vars 10
 scoreboard players set #zelda.inventoryRefresh vars 20
 

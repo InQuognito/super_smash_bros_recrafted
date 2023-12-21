@@ -3,7 +3,7 @@
 		"function": "minecraft:set_name",
 		"entity": "this",
 		"name": {
-			"translate": "ssbrc.tooltips.toon_link.hylianShield",
+			"translate": "ssbrc.tooltips.toon_link.hylian_shield",
 			"color": "gold",
 			"bold": true,
 			"italic": false

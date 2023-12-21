@@ -1,3 +1,15 @@
+tag @s remove rest
+
+scoreboard players set @s charge.1 0
+scoreboard players set @s charge.2 0
+
+function ssbrc:logic/fighters/effects/mobility/mobilize
+
+effect clear @s minecraft:blindness
+effect clear @s minecraft:regeneration
+
+function ssbrc:logic/fighters/armor/update
+
 execute if entity @s[nbt={Inventory:[{tag:{rest:1},Slot:0b}]}] run item modify entity @s hotbar.0 ssbrc:fighters/jigglypuff/rest/default
 execute if entity @s[nbt={Inventory:[{tag:{rest:1},Slot:1b}]}] run item modify entity @s hotbar.1 ssbrc:fighters/jigglypuff/rest/default
 execute if entity @s[nbt={Inventory:[{tag:{rest:1},Slot:2b}]}] run item modify entity @s hotbar.2 ssbrc:fighters/jigglypuff/rest/default

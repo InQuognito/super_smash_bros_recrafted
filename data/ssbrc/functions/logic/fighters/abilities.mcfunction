@@ -110,7 +110,7 @@ execute if entity @s[tag=roboBeam] run function ssbrc:fighters/rob/logic/abiliti
 
 # Ryu
 execute if entity @s[tag=hadouken] run function ssbrc:fighters/ryu/logic/abilities/hadouken/tick
-execute if entity @s[tag=tatsumakiSenpukyaku] run function ssbrc:fighters/ryu/logic/abilities/tatsumaki_senpukyaku/tick
+execute if entity @s[tag=tatsumaki_senpukyaku] run function ssbrc:fighters/ryu/logic/abilities/tatsumaki_senpukyaku/tick
 execute if entity @s[tag=ashuraSenku] run function ssbrc:fighters/ryu/logic/abilities/ashura_senku/tick
 execute if entity @s[tag=ashuraSenku.trail] run function ssbrc:fighters/ryu/logic/abilities/ashura_senku/trail/tick
 
@@ -178,7 +178,7 @@ execute if entity @s[tag=fire_rod,tag=pillar,tag=!active] run function ssbrc:fig
 execute if entity @s[tag=fire_rod,tag=pillar,tag=active] run function ssbrc:fighters/zelda/logic/abilities/fire_rod/alternate_function/tick_pillar
 execute if entity @s[tag=iceRod] run function ssbrc:fighters/zelda/logic/abilities/ice_rod/tick
 execute if entity @s[tag=iceBlock] run function ssbrc:fighters/zelda/logic/abilities/ice_rod/alternate_function/tick
-execute if entity @s[tag=magicBoomerang] run function ssbrc:fighters/zelda/logic/abilities/magic_boomerang/tick
+execute if entity @s[tag=magic_boomerang] run function ssbrc:fighters/zelda/logic/abilities/magic_boomerang/tick
 
 # Items
 function ssbrc:logic/tick/items
