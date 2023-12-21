@@ -1,4 +1,4 @@
-tellraw @s [{"text":"=== ","color":"white"},{"translate":"ssbrc.fighters.menu.chooseSkin","bold":true,"color":"yellow"},{"text":" ===","color":"white"}]
+tellraw @s {"nbt":"skin_options_header","storage":"ssbrc:data","interpret":true}
 
 tellraw @s[tag=!default] [{"translate":"ssbrc.fighters.skin.default","color":"white","clickEvent":{"action":"run_command","value":"/trigger menu set 1564"}}]
 tellraw @s[tag=default] [{"translate":"ssbrc.fighters.skin.default","color":"white"},{"text":" ✔","color":"green"}]
@@ -9,6 +9,4 @@ tellraw @s[tag=gold] [{"translate":"ssbrc.fighters.skin.gold","color":"gold"},{"
 tellraw @s[tag=!timelessRiver,advancements={ssbrc:fighters/sora/skins/timeless_river=true}] [{"translate":"ssbrc.fighters.sora.skin.timelessRiver","color":"gray","clickEvent":{"action":"run_command","value":"/trigger menu set 1566"}}]
 tellraw @s[tag=timelessRiver] [{"translate":"ssbrc.fighters.sora.skin.timelessRiver","color":"gray"},{"text":" ✔","color":"green"}]
 
-tellraw @s [{"text":"================","bold":true,"color":"white"}]
-
-execute at @s run playsound minecraft:ui.button.click master @s
+function ssbrc:logic/skin_options

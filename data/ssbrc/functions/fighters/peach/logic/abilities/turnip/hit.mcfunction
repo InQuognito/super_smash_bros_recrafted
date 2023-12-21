@@ -3,6 +3,4 @@ execute if score turnip temp matches 53..56 run function ssbrc:fighters/peach/lo
 execute if score turnip temp matches 57 run function ssbrc:fighters/peach/logic/abilities/turnip/hit/3
 execute if score turnip temp matches 58 run damage @s 12.0 ssbrc:generic by @a[tag=self,limit=1]
 
-scoreboard players set entityHit temp 1
-
-execute as @a[tag=self,limit=1] at @s run playsound minecraft:entity.arrow.hit_player player @s
+function ssbrc:logic/fighters/projectiles/hit

@@ -1,0 +1,3 @@
+particle minecraft:item minecraft:carrot_on_a_stick{CustomModelData:301} ~ ~ ~ 0.0 0.0 0.0 0.15 100 normal @a
+
+playsound minecraft:block.wood.break player @a

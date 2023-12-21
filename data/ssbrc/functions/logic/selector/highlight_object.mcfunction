@@ -60,6 +60,10 @@ execute if entity @s[tag=!joker,advancements={ssbrc:fighters/joker/skins/default
 execute if entity @s[tag=joker,advancements={ssbrc:fighters/joker/skins/default=true}] if entity @e[type=minecraft:item_display,tag=joker,dx=0,sort=nearest,limit=1] run tag @s add highlight.selected
 execute if entity @s[advancements={ssbrc:fighters/joker/skins/default=false}] if entity @e[type=minecraft:item_display,tag=joker,dx=0,sort=nearest,limit=1] run tag @s add highlight.unowned
 
+execute if entity @s[tag=!king_dedede,advancements={ssbrc:fighters/king_dedede/skins/default=true}] if entity @e[type=minecraft:item_display,tag=king_dedede,dx=0,sort=nearest,limit=1] run tag @s add highlight.normal
+execute if entity @s[tag=king_dedede,advancements={ssbrc:fighters/king_dedede/skins/default=true}] if entity @e[type=minecraft:item_display,tag=king_dedede,dx=0,sort=nearest,limit=1] run tag @s add highlight.selected
+execute if entity @s[advancements={ssbrc:fighters/king_dedede/skins/default=false}] if entity @e[type=minecraft:item_display,tag=king_dedede,dx=0,sort=nearest,limit=1] run tag @s add highlight.unowned
+
 execute if entity @s[tag=!king_k_rool,advancements={ssbrc:fighters/king_k_rool/skins/default=true}] if entity @e[type=minecraft:item_display,tag=king_k_rool,dx=0,sort=nearest,limit=1] run tag @s add highlight.normal
 execute if entity @s[tag=king_k_rool,advancements={ssbrc:fighters/king_k_rool/skins/default=true}] if entity @e[type=minecraft:item_display,tag=king_k_rool,dx=0,sort=nearest,limit=1] run tag @s add highlight.selected
 execute if entity @s[advancements={ssbrc:fighters/king_k_rool/skins/default=false}] if entity @e[type=minecraft:item_display,tag=king_k_rool,dx=0,sort=nearest,limit=1] run tag @s add highlight.unowned
@@ -71,6 +75,10 @@ execute if entity @s[advancements={ssbrc:fighters/kirby/skins/default=false}] if
 execute if entity @s[tag=!link,advancements={ssbrc:fighters/link/skins/default=true}] if entity @e[type=minecraft:item_display,tag=link,dx=0,sort=nearest,limit=1] run tag @s add highlight.normal
 execute if entity @s[tag=link,advancements={ssbrc:fighters/link/skins/default=true}] if entity @e[type=minecraft:item_display,tag=link,dx=0,sort=nearest,limit=1] run tag @s add highlight.selected
 execute if entity @s[advancements={ssbrc:fighters/link/skins/default=false}] if entity @e[type=minecraft:item_display,tag=link,dx=0,sort=nearest,limit=1] run tag @s add highlight.unowned
+
+execute if entity @s[tag=!lucario,advancements={ssbrc:fighters/lucario/skins/default=true}] if entity @e[type=minecraft:item_display,tag=lucario,dx=0,sort=nearest,limit=1] run tag @s add highlight.normal
+execute if entity @s[tag=lucario,advancements={ssbrc:fighters/lucario/skins/default=true}] if entity @e[type=minecraft:item_display,tag=lucario,dx=0,sort=nearest,limit=1] run tag @s add highlight.selected
+execute if entity @s[advancements={ssbrc:fighters/lucario/skins/default=false}] if entity @e[type=minecraft:item_display,tag=lucario,dx=0,sort=nearest,limit=1] run tag @s add highlight.unowned
 
 execute if entity @s[tag=!luigi,advancements={ssbrc:fighters/luigi/skins/default=true}] if entity @e[type=minecraft:item_display,tag=luigi,dx=0,sort=nearest,limit=1] run tag @s add highlight.normal
 execute if entity @s[tag=luigi,advancements={ssbrc:fighters/luigi/skins/default=true}] if entity @e[type=minecraft:item_display,tag=luigi,dx=0,sort=nearest,limit=1] run tag @s add highlight.selected
@@ -151,6 +159,10 @@ execute if entity @s[advancements={ssbrc:fighters/team_rocket/skins/default=fals
 execute if entity @s[tag=!toon_link,advancements={ssbrc:fighters/toon_link/skins/default=true}] if entity @e[type=minecraft:item_display,tag=toon_link,dx=0,sort=nearest,limit=1] run tag @s add highlight.normal
 execute if entity @s[tag=toon_link,advancements={ssbrc:fighters/toon_link/skins/default=true}] if entity @e[type=minecraft:item_display,tag=toon_link,dx=0,sort=nearest,limit=1] run tag @s add highlight.selected
 execute if entity @s[advancements={ssbrc:fighters/toon_link/skins/default=false}] if entity @e[type=minecraft:item_display,tag=toon_link,dx=0,sort=nearest,limit=1] run tag @s add highlight.unowned
+
+execute if entity @s[tag=!villager,advancements={ssbrc:fighters/villager/skins/default=true}] if entity @e[type=minecraft:item_display,tag=villager,dx=0,sort=nearest,limit=1] run tag @s add highlight.normal
+execute if entity @s[tag=villager,advancements={ssbrc:fighters/villager/skins/default=true}] if entity @e[type=minecraft:item_display,tag=villager,dx=0,sort=nearest,limit=1] run tag @s add highlight.selected
+execute if entity @s[advancements={ssbrc:fighters/villager/skins/default=false}] if entity @e[type=minecraft:item_display,tag=villager,dx=0,sort=nearest,limit=1] run tag @s add highlight.unowned
 
 execute if entity @s[tag=!wolf,advancements={ssbrc:fighters/wolf/skins/default=true}] if entity @e[type=minecraft:item_display,tag=wolf,dx=0,sort=nearest,limit=1] run tag @s add highlight.normal
 execute if entity @s[tag=wolf,advancements={ssbrc:fighters/wolf/skins/default=true}] if entity @e[type=minecraft:item_display,tag=wolf,dx=0,sort=nearest,limit=1] run tag @s add highlight.selected

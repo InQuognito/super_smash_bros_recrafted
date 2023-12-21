@@ -2,6 +2,8 @@ execute if entity @s[tag=altered_beast,tag=waretiger,scores={charge.output=40..,
 
 execute if entity @s[tag=dark_samus,scores={duration.1=..0,cooldown.1=..0},predicate=ssbrc:flag/sneaking,nbt={SelectedItem:{tag:{phazonBeam:1}}}] run function ssbrc:fighters/dark_samus/logic/abilities/phazon_beam/activate
 
+execute if entity @s[tag=lucario,nbt={SelectedItem:{tag:{aura_sphere:1}}}] run function ssbrc:fighters/lucario/logic/abilities/aura_sphere/activate
+
 execute if entity @s[tag=pit,scores={cooldown.1=..0},nbt={SelectedItem:{tag:{palutenaBow:1}}}] run function ssbrc:fighters/pit/logic/abilities/palutena_bow/check
 
 execute if entity @s[tag=ryu,scores={cooldown.1=..0},nbt={SelectedItem:{tag:{collarboneBreaker:1}}}] run function ssbrc:fighters/ryu/logic/abilities/hadouken/check

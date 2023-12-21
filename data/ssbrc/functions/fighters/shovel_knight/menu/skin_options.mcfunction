@@ -1,4 +1,4 @@
-tellraw @s [{"text":"=== ","color":"white"},{"translate":"ssbrc.fighters.menu.chooseSkin","bold":true,"color":"yellow"},{"text":" ===","color":"white"}]
+tellraw @s {"nbt":"skin_options_header","storage":"ssbrc:data","interpret":true}
 
 tellraw @s[tag=!default] [{"translate":"ssbrc.fighters.skin.default","color":"dark_aqua","clickEvent":{"action":"run_command","value":"/trigger menu set 1924"}}]
 tellraw @s[tag=default] [{"translate":"ssbrc.fighters.skin.default","color":"dark_aqua"},{"text":" ✔","color":"green"}]
@@ -12,6 +12,4 @@ tellraw @s[tag=armorOfChaos] [{"translate":"ssbrc.fighters.shovel_knight.skin.ar
 tellraw @s[tag=!toadGear,advancements={ssbrc:fighters/shovel_knight/skins/toad_gear=true}] [{"translate":"ssbrc.fighters.shovel_knight.skin.toadGear","color":"green","clickEvent":{"action":"run_command","value":"/trigger menu set 1927"}}]
 tellraw @s[tag=toadGear] [{"translate":"ssbrc.fighters.shovel_knight.skin.toadGear","color":"green"},{"text":" ✔","color":"green"}]
 
-tellraw @s [{"text":"================","bold":true,"color":"white"}]
-
-execute at @s run playsound minecraft:ui.button.click master @s
+function ssbrc:logic/skin_options

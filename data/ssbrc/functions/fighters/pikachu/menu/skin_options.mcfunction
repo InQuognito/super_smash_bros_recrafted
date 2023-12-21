@@ -1,4 +1,4 @@
-tellraw @s [{"text":"=== ","color":"white"},{"translate":"ssbrc.fighters.menu.chooseSkin","bold":true,"color":"yellow"},{"text":" ===","color":"white"}]
+tellraw @s {"nbt":"skin_options_header","storage":"ssbrc:data","interpret":true}
 
 tellraw @s[tag=!default] [{"translate":"ssbrc.fighters.skin.default","color":"yellow","clickEvent":{"action":"run_command","value":"/trigger menu set 1204"}}]
 tellraw @s[tag=default] [{"translate":"ssbrc.fighters.skin.default","color":"yellow"},{"text":" ✔","color":"green"}]
@@ -12,6 +12,4 @@ tellraw @s[tag=shiny] [{"translate":"ssbrc.series.pokemon.skin.shiny","color":"g
 tellraw @s[tag=!santaHat,advancements={ssbrc:fighters/pikachu/skins/santa_hat=true}] [{"nbt":"winter","storage":"ssbrc:data/skins","interpret":true},{"translate":"ssbrc.fighters.pikachu.skin.santaHat","color":"red","clickEvent":{"action":"run_command","value":"/trigger menu set 1207"}}]
 tellraw @s[tag=santaHat] [{"nbt":"winter","storage":"ssbrc:data/skins","interpret":true},{"translate":"ssbrc.fighters.pikachu.skin.santaHat","color":"red"},{"text":" ✔","color":"green"}]
 
-tellraw @s [{"text":"================","bold":true,"color":"white"}]
-
-execute at @s run playsound minecraft:ui.button.click master @s
+function ssbrc:logic/skin_options

@@ -150,7 +150,7 @@ scoreboard players operation zelda log.wL = zelda log.wins
 scoreboard players operation zelda log.wL *= 100 integers
 scoreboard players operation zelda log.wL /= zelda log.gamesPlayed
 
-tellraw @s {"translate":"=== Games Played | Wins | W/L ===","color":"white"}
+tellraw @s {"text":"=== Games Played | Wins | W/L ===","color":"white"}
 tellraw @s [{"text":"Altered Beast - ","color":"white"},{"score":{"name":"altered_beast","objective":"log.gamesPlayed"},"bold":false,"color":"yellow"},{"text":" | ","color":"white"},{"score":{"name":"altered_beast","objective":"log.wins"},"bold":false,"color":"aqua"},{"text":" | ","color":"white"},{"score":{"name":"altered_beast","objective":"log.wL"},"bold":false,"color":"light_purple"},{"translate":"%","bold":false,"color":"light_purple"}]
 tellraw @s [{"text":"Alucard - ","color":"white"},{"score":{"name":"alucard","objective":"log.gamesPlayed"},"bold":false,"color":"yellow"},{"text":" | ","color":"white"},{"score":{"name":"alucard","objective":"log.wins"},"bold":false,"color":"aqua"},{"text":" | ","color":"white"},{"score":{"name":"alucard","objective":"log.wL"},"bold":false,"color":"light_purple"},{"translate":"%","bold":false,"color":"light_purple"}]
 tellraw @s [{"text":"Bowser - ","color":"white"},{"score":{"name":"bowser","objective":"log.gamesPlayed"},"bold":false,"color":"yellow"},{"text":" | ","color":"white"},{"score":{"name":"bowser","objective":"log.wins"},"bold":false,"color":"aqua"},{"text":" | ","color":"white"},{"score":{"name":"bowser","objective":"log.wL"},"bold":false,"color":"light_purple"},{"translate":"%","bold":false,"color":"light_purple"}]

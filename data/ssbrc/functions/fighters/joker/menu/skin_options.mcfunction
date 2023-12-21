@@ -1,4 +1,4 @@
-tellraw @s [{"text":"=== ","color":"white"},{"translate":"ssbrc.fighters.menu.chooseSkin","bold":true,"color":"yellow"},{"text":" ===","color":"white"}]
+tellraw @s {"nbt":"skin_options_header","storage":"ssbrc:data","interpret":true}
 
 tellraw @s[tag=!default] [{"translate":"ssbrc.fighters.skin.default","color":"dark_red","clickEvent":{"action":"run_command","value":"/trigger menu set 604"}}]
 tellraw @s[tag=default] [{"translate":"ssbrc.fighters.skin.default","color":"dark_red"},{"text":" ✔","color":"green"}]
@@ -12,6 +12,4 @@ tellraw @s[tag=christmasOutfit] [{"nbt":"winter","storage":"ssbrc:data/skins","i
 tellraw @s[tag=!shujinAcademy,advancements={ssbrc:fighters/joker/skins/shujin_academy=true}] [{"translate":"ssbrc.fighters.joker.skin.shujinAcademy","color":"dark_red","clickEvent":{"action":"run_command","value":"/trigger menu set 607"}}]
 tellraw @s[tag=shujinAcademy] [{"translate":"ssbrc.fighters.joker.skin.shujinAcademy","color":"dark_red"},{"text":" ✔","color":"green"}]
 
-tellraw @s [{"text":"================","bold":true,"color":"white"}]
-
-execute at @s run playsound minecraft:ui.button.click master @s
+function ssbrc:logic/skin_options

@@ -6,14 +6,14 @@
 			"entries": [
 				{
 					"type": "minecraft:item",
-					"name": "minecraft:trident",
+					"name": "minecraft:iron_sword",
 					"functions": [
 						{
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"translate": "ssbrc.tooltips.altered_beast.waretiger.tigerClaw",
-								"color": "dark_aqua",
+								"translate": "ssbrc.tooltips.altered_beast.waretiger.tiger_claw",
+								"color": "white",
 								"bold": true,
 								"italic": false
 							}
@@ -38,19 +38,12 @@
 							]
 						},
 						{
-							"function": "minecraft:set_enchantments",
-							"enchantments": {
-								"minecraft:loyalty": 3
-							},
-							"add": false
-						},
-						{
 							"function": "minecraft:reference",
-							"name": "ssbrc:fighters/init/preset/hybrid"
+							"name": "ssbrc:fighters/init/preset/melee"
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{feralClaw:1}"
+							"tag": "{feral_claw:1}"
 						}
 					]
 				}

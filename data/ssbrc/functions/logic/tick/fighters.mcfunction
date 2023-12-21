@@ -105,6 +105,8 @@ scoreboard players remove @s[scores={flinch=1..}] flinch 1
 execute if score @s flinch matches 1 run function ssbrc:logic/fighters/effects/mobility/mobilize
 
 # Stage Effects
+execute unless score sector_z map matches 1 run effect give @s[predicate=ssbrc:below_y/0] minecraft:blindness 2 0 true
+
 execute at @s unless block ~ ~ ~ minecraft:lava run scoreboard players remove @s[scores={flag.inLava=1..}] flag.inLava 1
 execute at @s if block ~ ~ ~ minecraft:lava run scoreboard players add @s flag.inLava 1
 execute if score @s flag.inLava matches 60.. run kill @s

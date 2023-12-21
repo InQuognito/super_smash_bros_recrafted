@@ -1,4 +1,4 @@
-tellraw @s [{"text":"=== ","color":"white"},{"translate":"ssbrc.fighters.menu.chooseSkin","bold":true,"color":"yellow"},{"text":" ===","color":"white"}]
+tellraw @s {"nbt":"skin_options_header","storage":"ssbrc:data","interpret":true}
 
 tellraw @s[tag=!default] [{"translate":"ssbrc.fighters.skin.default","color":"white","clickEvent":{"action":"run_command","value":"/trigger menu set 1404"}}]
 tellraw @s[tag=default] [{"translate":"ssbrc.fighters.skin.default","color":"white"},{"text":" ✔","color":"green"}]
@@ -12,6 +12,4 @@ tellraw @s[tag=hot_ryu] [{"translate":"ssbrc.fighters.ryu.skin.hot_ryu","color":
 tellraw @s[tag=!super_turbo,advancements={ssbrc:fighters/ryu/skins/super_turbo=true}] [{"translate":"ssbrc.fighters.ryu.skin.super_turbo","color":"dark_gray","clickEvent":{"action":"run_command","value":"/trigger menu set 1407"}}]
 tellraw @s[tag=super_turbo] [{"translate":"ssbrc.fighters.ryu.skin.super_turbo","color":"dark_gray"},{"text":" ✔","color":"green"}]
 
-tellraw @s [{"text":"================","bold":true,"color":"white"}]
-
-execute at @s run playsound minecraft:ui.button.click master @s
+function ssbrc:logic/skin_options

@@ -142,7 +142,6 @@ scoreboard objectives remove timer.shockwave
 scoreboard objectives remove timer.stalfos
 scoreboard objectives remove timer.stat.death
 scoreboard objectives remove timer.stat.kill
-scoreboard objectives remove timer.trident
 scoreboard objectives remove temp
 scoreboard objectives remove tower_of_fateBarrier
 scoreboard objectives remove useAbility

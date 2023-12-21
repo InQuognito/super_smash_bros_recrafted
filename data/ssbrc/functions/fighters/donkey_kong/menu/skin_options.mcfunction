@@ -1,4 +1,4 @@
-tellraw @s [{"text":"=== ","color":"white"},{"translate":"ssbrc.fighters.menu.chooseSkin","bold":true,"color":"yellow"},{"text":" ===","color":"white"}]
+tellraw @s {"nbt":"skin_options_header","storage":"ssbrc:data","interpret":true}
 
 tellraw @s[tag=!default] [{"translate":"ssbrc.fighters.skin.default","color":"gold","clickEvent":{"action":"run_command","value":"/trigger menu set 304"}}]
 tellraw @s[tag=default] [{"translate":"ssbrc.fighters.skin.default","color":"gold"},{"text":" ✔","color":"green"}]
@@ -12,6 +12,4 @@ tellraw @s[tag=flower_power] [{"translate":"ssbrc.series.super_mario_bros.skin.f
 tellraw @s[tag=!superKong,advancements={ssbrc:fighters/donkey_kong/skins/super_kong=true}] [{"translate":"ssbrc.fighters.donkey_kong.skin.superKong","color":"white","clickEvent":{"action":"run_command","value":"/trigger menu set 307"}}]
 tellraw @s[tag=superKong] [{"translate":"ssbrc.fighters.donkey_kong.skin.superKong","color":"white"},{"text":" ✔","color":"green"}]
 
-tellraw @s [{"text":"================","bold":true,"color":"white"}]
-
-execute at @s run playsound minecraft:ui.button.click master @s
+function ssbrc:logic/skin_options

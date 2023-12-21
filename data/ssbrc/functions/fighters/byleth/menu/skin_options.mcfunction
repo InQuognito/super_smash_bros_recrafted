@@ -1,4 +1,4 @@
-tellraw @s [{"text":"=== ","color":"white"},{"translate":"ssbrc.fighters.menu.chooseSkin","bold":true,"color":"yellow"},{"text":" ===","color":"white"}]
+tellraw @s {"nbt":"skin_options_header","storage":"ssbrc:data","interpret":true}
 
 tellraw @s[tag=!default] [{"translate":"ssbrc.fighters.skin.default","color":"dark_aqua"},{"text":" - ","color":"white"},{"translate":"ssbrc.fighters.menu.gender.female.abbreviation","color":"light_purple","clickEvent":{"action":"run_command","value":"/trigger menu set 104"}},{"text":" "},{"translate":"ssbrc.fighters.menu.gender.male.abbreviation","color":"blue","clickEvent":{"action":"run_command","value":"/trigger menu set 105"}}]
 tellraw @s[tag=default,tag=female] [{"translate":"ssbrc.fighters.skin.default","color":"dark_aqua"},{"text":" - ","color":"white"},{"translate":"ssbrc.fighters.menu.gender.female.abbreviation","strikethrough":true,"color":"light_purple"},{"text":" "},{"translate":"ssbrc.fighters.menu.gender.male.abbreviation","color":"blue","clickEvent":{"action":"run_command","value":"/trigger menu set 105"}},{"text":" ✔","color":"green"}]
@@ -12,6 +12,4 @@ tellraw @s[tag=!awakened,advancements={ssbrc:fighters/byleth/skins/awakened=true
 tellraw @s[tag=awakened,tag=female] [{"translate":"ssbrc.fighters.byleth.skin.awakened","color":"aqua"},{"text":" - ","color":"white"},{"translate":"ssbrc.fighters.menu.gender.female.abbreviation","strikethrough":true,"color":"light_purple"},{"text":" "},{"translate":"ssbrc.fighters.menu.gender.male.abbreviation","color":"blue","clickEvent":{"action":"run_command","value":"/trigger menu set 109"}},{"text":" ✔","color":"green"}]
 tellraw @s[tag=awakened,tag=male] [{"translate":"ssbrc.fighters.byleth.skin.awakened","color":"aqua"},{"text":" - ","color":"white"},{"translate":"ssbrc.fighters.menu.gender.female.abbreviation","color":"light_purple","clickEvent":{"action":"run_command","value":"/trigger menu set 108"}},{"text":" "},{"translate":"ssbrc.fighters.menu.gender.male.abbreviation","strikethrough":true,"color":"blue"},{"text":" ✔","color":"green"}]
 
-tellraw @s [{"text":"================","bold":true,"color":"white"}]
-
-execute at @s run playsound minecraft:ui.button.click master @s
+function ssbrc:logic/skin_options

@@ -1,4 +1,4 @@
-tellraw @s [{"text":"=== ","color":"white"},{"translate":"ssbrc.fighters.menu.chooseSkin","bold":true,"color":"yellow"},{"text":" ===","color":"white"}]
+tellraw @s {"nbt":"skin_options_header","storage":"ssbrc:data","interpret":true}
 
 tellraw @s[tag=!default] [{"translate":"ssbrc.fighters.skin.default","color":"blue","clickEvent":{"action":"run_command","value":"/trigger menu set 1784"}}]
 tellraw @s[tag=default] [{"translate":"ssbrc.fighters.skin.default","color":"blue"},{"text":" ✔","color":"green"}]
@@ -15,6 +15,4 @@ tellraw @s[tag=shadow_zelda] [{"translate":"ssbrc.fighters.zelda.skin.shadow_zel
 tellraw @s[tag=!twilight_princess,advancements={ssbrc:fighters/zelda/skins/twilight_princess=true}] [{"translate":"ssbrc.fighters.zelda.skin.twilight_princess","color":"dark_purple","clickEvent":{"action":"run_command","value":"/trigger menu set 1788"}}]
 tellraw @s[tag=twilight_princess] [{"translate":"ssbrc.fighters.zelda.skin.twilight_princess","color":"dark_purple"},{"text":" ✔","color":"green"}]
 
-tellraw @s [{"text":"================","bold":true,"color":"white"}]
-
-execute at @s run playsound minecraft:ui.button.click master @s
+function ssbrc:logic/skin_options

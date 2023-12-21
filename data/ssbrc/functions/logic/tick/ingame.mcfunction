@@ -1,22 +1,10 @@
+execute as @e[type=!minecraft:player] run function ssbrc:logic/tick/non_players
+
 execute as @a[scores={flag.dead=1..}] run function ssbrc:logic/stocks/lose_stock
 execute as @a[scores={respawn=2..}] run function ssbrc:logic/tick/respawn
 
 gamemode spectator @a[team=dead]
 gamemode spectator @a[team=spectator]
-
-kill @e[type=#minecraft:arrows,nbt={inGround:1b}]
-
-clear @a minecraft:glass_bottle
-
-scoreboard players remove @e[type=!minecraft:player,scores={cooldown.1=1..}] cooldown.1 1
-scoreboard players remove @e[type=!minecraft:player,scores={cooldown.2=1..}] cooldown.2 1
-scoreboard players remove @e[type=!minecraft:player,scores={cooldown.3=1..}] cooldown.3 1
-scoreboard players remove @e[type=!minecraft:player,scores={duration.1=1..}] duration.1 1
-scoreboard players remove @e[type=!minecraft:player,scores={duration.2=1..}] duration.2 1
-scoreboard players remove @e[type=!minecraft:player,scores={duration.3=1..}] duration.3 1
-scoreboard players remove @e[type=!minecraft:player,scores={duration.4=1..}] duration.4 1
-
-execute unless score sector_z map matches 1 run effect give @a[predicate=ssbrc:flag/targets,predicate=ssbrc:below_y/0] minecraft:blindness 2 0 true
 
 # Fighters
 execute as @a[predicate=ssbrc:ingame] run function ssbrc:logic/tick/characters
@@ -31,15 +19,3 @@ scoreboard players reset @a flag.breakShield
 
 # Maps
 function ssbrc:logic/tick/stages/after_start
-
-# Items
-execute as @e[type=minecraft:item,nbt={Item:{tag:{item:1}}}] run function ssbrc:items/tick
-
-# Movement Entities
-execute as @e[tag=movementEntity] at @s run function ssbrc:logic/tick/movement_entities
-
-# Kill Tridents On Ground
-execute as @e[type=minecraft:item,nbt={Item:{id:"minecraft:trident"}}] run function ssbrc:logic/tick/projectiles/tridents
-
-# Banned From Having More Than One
-execute as @a[predicate=ssbrc:fighters/kits/trident] run function ssbrc:logic/fighters/restore_items/trident_count

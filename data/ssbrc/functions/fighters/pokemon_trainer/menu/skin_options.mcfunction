@@ -1,4 +1,4 @@
-tellraw @s [{"text":"=== ","color":"white"},{"translate":"ssbrc.fighters.menu.chooseSkin","bold":true,"color":"yellow"},{"text":" ===","color":"white"}]
+tellraw @s {"nbt":"skin_options_header","storage":"ssbrc:data","interpret":true}
 
 tellraw @s[tag=!default] [{"translate":"ssbrc.fighters.skin.default","color":"red","clickEvent":{"action":"run_command","value":"/trigger menu set 1264"}}]
 tellraw @s[tag=default] [{"translate":"ssbrc.fighters.skin.default","color":"red"},{"text":" ✔","color":"green"}]
@@ -15,6 +15,4 @@ tellraw @s[tag=dawn] [{"translate":"ssbrc.fighters.pokemon_trainer.skin.dawn","c
 tellraw @s[tag=!victor,advancements={ssbrc:fighters/pokemon_trainer/skins/victor=true}] [{"translate":"ssbrc.fighters.pokemon_trainer.skin.victor","color":"dark_blue","clickEvent":{"action":"run_command","value":"/trigger menu set 1268"}}]
 tellraw @s[tag=victor] [{"translate":"ssbrc.fighters.pokemon_trainer.skin.victor","color":"dark_blue"},{"text":" ✔","color":"green"}]
 
-tellraw @s [{"text":"================","bold":true,"color":"white"}]
-
-execute at @s run playsound minecraft:ui.button.click master @s
+function ssbrc:logic/skin_options

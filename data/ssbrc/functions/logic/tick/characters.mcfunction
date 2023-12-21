@@ -3,6 +3,8 @@ tag @s add self
 scoreboard players operation id_to_match temp = @s id
 scoreboard players operation team temp = @s team
 
+clear @s minecraft:glass_bottle
+
 execute if entity @s[predicate=ssbrc:flag/player] run function ssbrc:logic/tick/fighters
 
 execute as @e[type=!minecraft:player,predicate=ssbrc:id_match] at @s run function ssbrc:logic/fighters/abilities

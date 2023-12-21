@@ -1,4 +1,4 @@
-tellraw @s [{"text":"=== ","color":"white"},{"translate":"ssbrc.fighters.menu.chooseSkin","bold":true,"color":"yellow"},{"text":" ===","color":"white"}]
+tellraw @s {"nbt":"skin_options_header","storage":"ssbrc:data","interpret":true}
 
 tellraw @s[tag=!default] [{"translate":"ssbrc.fighters.skin.default","color":"dark_purple","clickEvent":{"action":"run_command","value":"/trigger menu set 1724"}}]
 tellraw @s[tag=default] [{"translate":"ssbrc.fighters.skin.default","color":"dark_purple"},{"text":" ✔","color":"green"}]
@@ -15,6 +15,4 @@ tellraw @s[tag=star_fox_2] [{"translate":"ssbrc.fighters.wolf.skin.star_fox_2","
 tellraw @s[tag=!starlink,advancements={ssbrc:fighters/wolf/skins/starlink=true}] [{"translate":"ssbrc.fighters.wolf.skin.starlink","color":"gold","clickEvent":{"action":"run_command","value":"/trigger menu set 1728"}}]
 tellraw @s[tag=starlink] [{"translate":"ssbrc.fighters.wolf.skin.starlink","color":"gold"},{"text":" ✔","color":"green"}]
 
-tellraw @s [{"text":"================","bold":true,"color":"white"}]
-
-execute at @s run playsound minecraft:ui.button.click master @s
+function ssbrc:logic/skin_options

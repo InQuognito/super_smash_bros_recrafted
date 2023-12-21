@@ -1,10 +1,9 @@
 damage @s 6.0 ssbrc:generic by @a[tag=self,limit=1]
 execute if entity @e[type=minecraft:marker,tag=bladeBeam,tag=limitBreak,sort=nearest,limit=1] run damage @s 6.0 ssbrc:generic by @a[tag=self,limit=1]
 
-#execute if entity @e[type=minecraft:marker,tag=bladeBeam,tag=limitBreak,sort=nearest,limit=1] run function ssbrc:fighters/shovel_knight/logic/abilities/drop_spark/multi_hit/activate
-
-scoreboard players set entityHit temp 1
+#execute if entity @e[type=minecraft:marker,tag=bladeBeam,tag=limitBreak,sort=nearest,limit=1] run function ssbrc:fighters/cloud/logic/abilities/blade_beam/multi_hit/activate
 
 scoreboard players operation @a[tag=self,limit=1] flag.damageDealt += #damage.bladeBeam vars
 function ssbrc:logic/fighters/damage_dealt
-execute as @a[tag=self,limit=1] at @s run playsound minecraft:entity.arrow.hit_player player @s
+
+function ssbrc:logic/fighters/projectiles/hit

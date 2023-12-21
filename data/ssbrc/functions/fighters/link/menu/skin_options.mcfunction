@@ -1,4 +1,4 @@
-tellraw @s [{"text":"=== ","color":"white"},{"translate":"ssbrc.fighters.menu.chooseSkin","bold":true,"color":"yellow"},{"text":" ===","color":"white"}]
+tellraw @s {"nbt":"skin_options_header","storage":"ssbrc:data","interpret":true}
 
 tellraw @s[tag=!default] [{"translate":"ssbrc.fighters.skin.default","color":"blue","clickEvent":{"action":"run_command","value":"/trigger menu set 1"}}]
 tellraw @s[tag=default] [{"translate":"ssbrc.fighters.skin.default","color":"blue"},{"text":" ✔","color":"green"}]
@@ -15,6 +15,4 @@ tellraw @s[tag=dark_tunic] [{"translate":"ssbrc.fighters.link.skin.dark_tunic","
 tellraw @s[tag=!tunic_of_time,advancements={ssbrc:fighters/link/skins/tunic_of_time=true}] [{"translate":"ssbrc.fighters.link.skin.tunic_of_time","color":"dark_green","clickEvent":{"action":"run_command","value":"/trigger menu set 5"}}]
 tellraw @s[tag=tunic_of_time] [{"translate":"ssbrc.fighters.link.skin.tunic_of_time","color":"dark_green"},{"text":" ✔","color":"green"}]
 
-tellraw @s [{"text":"================","bold":true,"color":"white"}]
-
-execute at @s run playsound minecraft:ui.button.click master @s
+function ssbrc:logic/skin_options
