@@ -5,17 +5,14 @@
 			{
 				"condition": "minecraft:reference",
 				"name": "ssbrc:fighters/altered_beast/super_jump"
+			},
+			{
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"nbt": "{Tags:[\"angel_feather\"]}"
+				}
 			}
 		]
-	},
-	{
-		"condition": "minecraft:inverted",
-		"term": {
-			"condition": "minecraft:entity_properties",
-			"entity": "this",
-			"predicate": {
-				"nbt": "{Tags:[\"angel_feather\"]}"
-			}
-		}
 	}
 ]
