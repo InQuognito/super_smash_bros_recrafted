@@ -69,6 +69,9 @@ execute if entity @s[tag=blunderbuss] run function ssbrc:fighters/king_k_rool/lo
 # Link
 execute if entity @s[tag=swordBeam] run function ssbrc:fighters/link/logic/abilities/sword_beam/tick
 
+# Lucario
+execute if entity @s[tag=aura_sphere] run function ssbrc:fighters/lucario/logic/abilities/aura_sphere/tick
+
 # Luigi
 execute if entity @s[tag=iceBall] run function ssbrc:fighters/luigi/logic/abilities/ice_ball/tick
 

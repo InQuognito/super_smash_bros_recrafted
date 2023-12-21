@@ -13,9 +13,11 @@ function ssbrc:logic/resets/tags/fighters/greninja
 function ssbrc:logic/resets/tags/fighters/hero
 function ssbrc:logic/resets/tags/fighters/jigglypuff
 function ssbrc:logic/resets/tags/fighters/joker
+function ssbrc:logic/resets/tags/fighters/king_dedede
 function ssbrc:logic/resets/tags/fighters/king_k_rool
 function ssbrc:logic/resets/tags/fighters/kirby
 function ssbrc:logic/resets/tags/fighters/link
+function ssbrc:logic/resets/tags/fighters/lucario
 function ssbrc:logic/resets/tags/fighters/luigi
 function ssbrc:logic/resets/tags/fighters/mario
 function ssbrc:logic/resets/tags/fighters/mega_man
@@ -36,6 +38,7 @@ function ssbrc:logic/resets/tags/fighters/sora
 function ssbrc:logic/resets/tags/fighters/steve
 function ssbrc:logic/resets/tags/fighters/team_rocket
 function ssbrc:logic/resets/tags/fighters/toon_link
+function ssbrc:logic/resets/tags/fighters/villager
 function ssbrc:logic/resets/tags/fighters/wolf
 function ssbrc:logic/resets/tags/fighters/yar
 function ssbrc:logic/resets/tags/fighters/zelda

@@ -13,9 +13,11 @@ function ssbrc:fighters/greninja/menu/skins/reset
 function ssbrc:fighters/hero/menu/skins/reset
 function ssbrc:fighters/jigglypuff/menu/skins/reset
 function ssbrc:fighters/joker/menu/skins/reset
+function ssbrc:fighters/king_dedede/menu/skins/reset
 function ssbrc:fighters/king_k_rool/menu/skins/reset
 function ssbrc:fighters/kirby/menu/skins/reset
 function ssbrc:fighters/link/menu/skins/reset
+function ssbrc:fighters/lucario/menu/skins/reset
 function ssbrc:fighters/luigi/menu/skins/reset
 function ssbrc:fighters/mario/menu/skins/reset
 function ssbrc:fighters/mega_man/menu/skins/reset
@@ -36,6 +38,7 @@ function ssbrc:fighters/sora/menu/skins/reset
 function ssbrc:fighters/steve/menu/skins/reset
 function ssbrc:fighters/team_rocket/menu/skins/reset
 function ssbrc:fighters/toon_link/menu/skins/reset
+function ssbrc:fighters/villager/menu/skins/reset
 function ssbrc:fighters/wolf/menu/skins/reset
 function ssbrc:fighters/yar/menu/skins/reset
 function ssbrc:fighters/zelda/menu/skins/reset
