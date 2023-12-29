@@ -1,4 +1,4 @@
-execute at @s run particle minecraft:flame ~ ~0.75 ~ 0.2 0.4 0.2 0.01 5 force @a
+particle minecraft:flame ~ ~ ~ 0.2 0.4 0.2 0.01 5 force @a
 
 scoreboard players add @s charge.1 2
 
@@ -14,4 +14,4 @@ execute if score @s charge.1 matches 25..27 run title @s actionbar [{"translate"
 execute if score @s charge.1 matches 28..30 run title @s actionbar [{"translate":"\u25ae\u25ae\u25ae\u25ae\u25ae","color":"red"},{"translate":"\u25ae\u25ae\u25ae\u25ae","color":"yellow"},{"translate":"\u25ae","color":"white"},{"translate":"\u25ae\u25ae","color":"green"},{"translate":"\u25ae\u25ae\u25ae\u25ae","color":"yellow"},{"translate":"\u25ae\u25ae\u25ae\u25ae\u25ae","color":"red"}]
 execute if score @s charge.1 matches 31..33 run title @s actionbar [{"translate":"\u25ae\u25ae\u25ae\u25ae\u25ae","color":"red"},{"translate":"\u25ae\u25ae\u25ae\u25ae","color":"yellow"},{"translate":"\u25ae","color":"green"},{"translate":"\u25ae","color":"white"},{"translate":"\u25ae","color":"green"},{"translate":"\u25ae\u25ae\u25ae\u25ae","color":"yellow"},{"translate":"\u25ae\u25ae\u25ae\u25ae\u25ae","color":"red"}]
 execute if score @s charge.1 matches 34..36 run title @s actionbar [{"translate":"\u25ae\u25ae\u25ae\u25ae\u25ae","color":"red"},{"translate":"\u25ae\u25ae\u25ae\u25ae","color":"yellow"},{"translate":"\u25ae\u25ae","color":"green"},{"translate":"\u25ae","color":"white"},{"translate":"\u25ae\u25ae\u25ae\u25ae","color":"yellow"},{"translate":"\u25ae\u25ae\u25ae\u25ae\u25ae","color":"red"}]
-execute if score @s charge.1 matches 37.. run tag @s add falconPunchMissed
+execute if score @s charge.1 matches 37.. run tag @s add falcon_punch_missed

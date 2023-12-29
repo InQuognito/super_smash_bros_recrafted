@@ -16,15 +16,30 @@
 							"score": "temp"
 						},
 						"range": 4
+					},
+					{
+						"condition": "minecraft:entity_scores",
+						"entity": "this",
+						"scores": {
+							"item.lips_stick": {
+								"min": 1
+							}
+						}
 					}
 				],
 				"damage": {
-					"blocked": false
+					"source_entity": {
+						"equipment": {
+							"mainhand": {
+								"nbt": "{lips_stick:1}"
+							}
+						}
+					}
 				}
 			}
 		}
 	},
 	"rewards": {
-		"function": "ssbrc:logic/fighters/flags/hurt_player/source/any"
+		"function": "ssbrc:items/lips_stick/hit"
 	}
 }

@@ -25,7 +25,7 @@ scoreboard players set #bowser.maxFireBreath vars 100
 
 scoreboard players set byleth.steedChargeCooldown vars 300
 
-scoreboard players set captain_falcon.falconPunchCooldown vars 200
+scoreboard players set captain_falcon.falcon_punch.cooldown vars 200
 
 scoreboard players set #cloud.maxLimit vars 60
 

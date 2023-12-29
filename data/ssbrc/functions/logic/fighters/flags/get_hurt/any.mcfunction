@@ -13,4 +13,4 @@ execute if entity @s[tag=zelda,nbt={Inventory:[{tag:{nayrusRing:1}}]},scores={he
 
 scoreboard players reset @s coward.timer
 
-advancement revoke @s only ssbrc:utility/flag/get_hurt/source/any
+advancement revoke @s only ssbrc:utility/flag/get_hurt/any
