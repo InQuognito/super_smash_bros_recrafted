@@ -13,7 +13,7 @@
 							"entity": "this",
 							"name": {
 								"translate": "ssbrc.tooltips.item.lips_stick",
-								"color": "dark_gray",
+								"color": "green",
 								"bold": true,
 								"italic": false
 							}

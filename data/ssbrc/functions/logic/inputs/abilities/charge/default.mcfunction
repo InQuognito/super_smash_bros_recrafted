@@ -11,3 +11,5 @@ execute if entity @s[tag=toon_link,predicate=ssbrc:flag/sneaking] run function s
 scoreboard players reset @s[tag=steve] charge.1
 
 execute anchored eyes positioned ^ ^ ^ run function ssbrc:logic/inputs/abilities/charge/anchored_eyes
+
+function ssbrc:logic/resets/charge/abilities

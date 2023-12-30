@@ -37,7 +37,7 @@
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{special_flag:1}"
+							"tag": "{special_flag:1,CustomModelData:8}"
 						}
 					]
 				}
