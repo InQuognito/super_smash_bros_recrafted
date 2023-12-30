@@ -20,7 +20,7 @@
 						},
 						{
 							"function": "minecraft:reference",
-							"name": "ssbrc:items/killing_edge"
+							"name": "ssbrc:items/killing_edge/init"
 						},
 						{
 							"function": "minecraft:set_attributes",
