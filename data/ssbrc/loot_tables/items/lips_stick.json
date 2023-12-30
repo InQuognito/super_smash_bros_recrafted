@@ -56,7 +56,7 @@
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{lips_stick:1}"
+							"tag": "{lips_stick:1,CustomModelData:100002}"
 						}
 					]
 				}
