@@ -77,7 +77,7 @@ execute if entity @s[scores={item.charge.output=200..},nbt={SelectedItem:{tag:{s
 
 execute at @s[scores={charge.step=5..}] run function ssbrc:logic/inputs/abilities/charge/default
 execute at @s[scores={useAbility=1..}] run function ssbrc:logic/inputs/abilities/impulse/default
-execute at @s[scores={charge.step=5..}] run function ssbrc:logic/inputs/items/charge
+execute at @s[scores={item.charge.step=5..}] run function ssbrc:logic/inputs/items/charge
 execute at @s[scores={useItem=1..}] run function ssbrc:logic/inputs/items/impulse/default
 
 # Items
