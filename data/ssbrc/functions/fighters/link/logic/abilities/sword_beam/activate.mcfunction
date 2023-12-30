@@ -6,6 +6,6 @@ execute if score @s shadow.chaosControl matches 1.. run function ssbrc:logic/fig
 item replace entity @s weapon.mainhand with minecraft:air
 loot replace entity @s weapon.mainhand loot ssbrc:fighters/link/master_sword
 
-function ssbrc:logic/resets/charge
+function ssbrc:logic/resets/charge/abilities
 
 playsound ssbrc:fighters.link.sword_beam.activate player @a

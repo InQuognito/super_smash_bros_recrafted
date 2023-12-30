@@ -1,6 +1,6 @@
 attribute @s minecraft:generic.movement_speed modifier remove 19192183-0000-0000-0001-000001000000
 
-function ssbrc:logic/resets/charge
+function ssbrc:logic/resets/charge/abilities
 
 execute if entity @s[nbt={Inventory:[{tag:{palutenaBow:1},Slot:0b}]}] run loot replace entity @s hotbar.0 loot ssbrc:fighters/pit/palutena_bow/idle
 execute if entity @s[nbt={Inventory:[{tag:{palutenaBow:1},Slot:1b}]}] run loot replace entity @s hotbar.1 loot ssbrc:fighters/pit/palutena_bow/idle

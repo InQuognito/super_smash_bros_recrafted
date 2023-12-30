@@ -2,4 +2,4 @@ execute if entity @s[tag=!shieldBroken,nbt=!{Inventory:[{tag:{hylian_shield:1}}]
 
 tag @s remove swordSpin
 
-function ssbrc:logic/resets/charge
+function ssbrc:logic/resets/charge/abilities

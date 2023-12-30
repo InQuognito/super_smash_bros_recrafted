@@ -1,1 +1,1 @@
-function ssbrc:logic/resets/charge
+function ssbrc:logic/resets/charge/items
