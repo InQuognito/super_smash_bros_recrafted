@@ -37,3 +37,5 @@ loot replace entity @s[nbt={Inventory:[{tag:{killing_edge:1},Slot:34b}]}] invent
 loot replace entity @s[nbt={Inventory:[{tag:{killing_edge:1},Slot:35b}]}] inventory.26 loot ssbrc:items/killing_edge/active
 
 loot replace entity @s[nbt={Inventory:[{tag:{killing_edge:1},Slot:-106b}]}] weapon.offhand loot ssbrc:items/killing_edge/active
+
+playsound ssbrc:items.killing_edge.awaken player @a
