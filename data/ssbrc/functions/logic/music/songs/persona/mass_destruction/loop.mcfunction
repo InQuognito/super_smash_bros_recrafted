@@ -1,3 +1,3 @@
-playsound ssbrc:music.persona.mass_destruction_dual_mix_part_2 music @s
+playsound ssbrc:music.persona.mass_destruction_dual_mix music @s
 
-function ssbrc:logic/music/songs/restart {duration:1694}
+function ssbrc:logic/music/songs/restart {duration:3475}

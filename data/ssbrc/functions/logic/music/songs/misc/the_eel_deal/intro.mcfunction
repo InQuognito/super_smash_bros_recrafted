@@ -1,4 +1,4 @@
-playsound ssbrc:music.altered_beast.the_eel_deal_intro music @s
+playsound ssbrc:music.misc.the_eel_deal_intro music @s
 
 tellraw @s [{"translate":"ssbrc.game.music.nowPlaying","bold":true,"color":"gold"},{"translate":"ssbrc.music.the_eel_deal","color":"yellow"}]
 

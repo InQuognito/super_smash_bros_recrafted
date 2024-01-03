@@ -1,6 +1,6 @@
 scoreboard players reset * map
 scoreboard players set castle_siege map 1
-scoreboard players set song_count map 2
+scoreboard players set song_count map 3
 scoreboard players set map_picked mapVote 1
 forceload add 1616 417 1663 495
 
