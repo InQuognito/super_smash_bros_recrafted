@@ -1,3 +1,5 @@
+particle minecraft:dust 0.0 1.0 0.0 10.0 ~ ~ ~ 0.0 0.0 0.0 0.0 1 normal @a
+
 execute if entity @s[tag=altered_beast,scores={duration.1=..0}] run function ssbrc:fighters/altered_beast/logic/abilities/impulse
 
 execute if entity @s[tag=alucard] run function ssbrc:fighters/alucard/logic/abilities/impulse
