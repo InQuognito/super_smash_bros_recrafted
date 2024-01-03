@@ -1,5 +1,5 @@
 scoreboard players operation indicator.cooldownType temp = @s cooldown.1
-scoreboard players operation indicator.cooldownAmount temp = team_rocket.destinyBondCooldown vars
+scoreboard players operation indicator.cooldownAmount temp = team_rocket.destiny_bond.cooldown vars
 
 function ssbrc:logic/fighters/calculate_cooldown
 

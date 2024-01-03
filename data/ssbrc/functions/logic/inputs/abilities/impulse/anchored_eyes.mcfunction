@@ -26,6 +26,8 @@ execute if entity @s[tag=link] run function ssbrc:fighters/link/logic/abilities/
 
 execute if entity @s[tag=luigi,scores={cooldown.1=..0},nbt={SelectedItem:{tag:{iceBall:1}}}] run function ssbrc:fighters/luigi/logic/abilities/ice_ball/activate
 
+execute if entity @s[tag=mario,scores={cooldown.1=..0},nbt={SelectedItem:{tag:{fireball:1}}}] run function ssbrc:fighters/mario/logic/abilities/fireball/activate
+
 execute if entity @s[tag=mega_man] run function ssbrc:fighters/mega_man/logic/abilities/impulse
 
 execute if entity @s[tag=ness] run function ssbrc:fighters/ness/logic/abilities/impulse

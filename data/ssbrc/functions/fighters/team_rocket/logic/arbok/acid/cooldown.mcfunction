@@ -1,5 +1,5 @@
 scoreboard players operation indicator.cooldownType temp = @s cooldown.1
-scoreboard players operation indicator.cooldownAmount temp = team_rocket.acidCooldown vars
+scoreboard players operation indicator.cooldownAmount temp = team_rocket.acid.cooldown vars
 
 function ssbrc:logic/fighters/calculate_cooldown
 

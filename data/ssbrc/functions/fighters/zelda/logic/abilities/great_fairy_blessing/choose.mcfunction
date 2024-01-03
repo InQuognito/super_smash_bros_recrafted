@@ -5,7 +5,7 @@ execute store result score #hasRedPotion temp run clear @s minecraft:potion{redP
 
 scoreboard players operation #percentage temp = @s mana
 scoreboard players operation #percentage temp *= 100 integers
-scoreboard players operation #percentage temp /= #zelda.maxMagic vars
+scoreboard players operation #percentage temp /= zelda.max_magic vars
 
 execute unless score teams options matches 1 store result score random.output temp run random value 1..7
 execute if score teams options matches 1 store result score random.output temp run random value 1..8

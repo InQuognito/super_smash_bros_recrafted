@@ -152,12 +152,12 @@ scoreboard players set #snake.smokeGrenadeScavenger vars 1
 
 scoreboard players set #steve.blockRange vars 3
 
-scoreboard players set team_rocket.acidCooldown vars 300
-scoreboard players set team_rocket.paydayCooldown vars 200
-scoreboard players set team_rocket.destinyBondCooldown vars 600
+scoreboard players set team_rocket.acid.cooldown vars 300
+scoreboard players set team_rocket.payday.cooldown vars 200
+scoreboard players set team_rocket.destiny_bond.cooldown vars 600
 
-scoreboard players set #wolf.grenadeTimer vars 80
-scoreboard players set #wolf.wolfFlash vars 6
+scoreboard players set wolf.grenade.timer vars 80
+scoreboard players set wolf.wolf_flash vars 6
 
 scoreboard players set yar.droneHealth vars 20
 scoreboard players set yar.droneHealthCushion vars 1024
@@ -166,23 +166,23 @@ scoreboard players operation yar.droneHealthThreshold vars -= yar.droneHealth va
 scoreboard players set #yar.railgunRange vars 600
 scoreboard players set #yar.railgunPiercing vars 30
 
-scoreboard players set #zelda.maxMagic vars 10
-scoreboard players set #zelda.maxRupees vars 30
-scoreboard players set #zelda.glassBreakThreshold vars 250
-scoreboard players set #zelda.bombTimer vars 80
-scoreboard players set #zelda.iceBlockRange vars 20
-scoreboard players set #zelda.bombMagicCost vars 4
-scoreboard players set #zelda.boomerangMagicCost vars 2
-scoreboard players set #zelda.bowMagicCost vars 1
-scoreboard players set #zelda.bowFireMagicCost vars 2
-scoreboard players set #zelda.bowPoisonMagicCost vars 2
-scoreboard players set #zelda.fire_rodMagicCost vars 2
-scoreboard players set #zelda.fire_rodAltMagicCost vars 4
-scoreboard players set #zelda.iceRodMagicCost vars 2
-scoreboard players set #zelda.iceRodAltMagicCost vars 4
-scoreboard players set #zelda.magic_boomerangMagicCost vars 3
-scoreboard players set #zelda.greatFairyBlessing vars 10
-scoreboard players set #zelda.inventoryRefresh vars 20
+scoreboard players set zelda.max_magic vars 10
+scoreboard players set zelda.max_rupees vars 30
+scoreboard players set zelda.glass_break_threshold vars 250
+scoreboard players set zelda.great_fairy_blessing vars 10
+scoreboard players set zelda.inventory_refresh vars 20
+scoreboard players set zelda.bomb.cost vars 4
+scoreboard players set zelda.bomb.timer vars 80
+scoreboard players set zelda.boomerang.cost vars 2
+scoreboard players set zelda.bow.cost vars 1
+scoreboard players set zelda.bow.cost.fire vars 2
+scoreboard players set zelda.bow.cost.poison vars 2
+scoreboard players set zelda.fire_rod.cost vars 2
+scoreboard players set zelda.fire_rod.cost.alt vars 4
+scoreboard players set zelda.ice_block.range vars 20
+scoreboard players set zelda.ice_rod.cost vars 2
+scoreboard players set zelda.ice_rod.cost.alt vars 4
+scoreboard players set zelda.magic_boomerang.cost vars 3
 
 scoreboard players set #damage.bladeBeam vars 50
 scoreboard players set #damage.blizzaga vars 5

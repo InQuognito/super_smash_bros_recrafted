@@ -1,4 +1,4 @@
-tag @s add wolfFlash
+tag @s add wolf_flash
 
 function ssbrc:logic/init/id
 

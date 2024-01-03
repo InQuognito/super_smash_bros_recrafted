@@ -12,7 +12,7 @@
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"translate":"ssbrc.tooltips.zelda.inventoryRefresh",
+								"translate":"ssbrc.tooltips.zelda.inventory_refresh",
 								"color": "red",
 								"bold": true,
 								"italic": false
@@ -31,7 +31,7 @@
 							"entity": "this",
 							"lore": [
 								{
-									"translate":"ssbrc.tooltips.zelda.inventoryRefresh.description.1",
+									"translate":"ssbrc.tooltips.zelda.inventory_refresh.description.1",
 									"color": "gray",
 									"bold": false,
 									"italic": false
@@ -45,7 +45,7 @@
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{inventoryRefresh:1}"
+							"tag": "{inventory_refresh:1}"
 						}
 					]
 				}

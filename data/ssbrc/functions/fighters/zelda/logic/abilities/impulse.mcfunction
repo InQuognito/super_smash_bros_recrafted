@@ -8,6 +8,6 @@ execute if entity @s[scores={cooldown.1=..0},nbt={SelectedItem:{tag:{iceRod:1}}}
 
 execute if entity @s[nbt={SelectedItem:{tag:{magic_boomerang:1}}}] run function ssbrc:fighters/zelda/logic/abilities/magic_boomerang/check
 
-execute if entity @s[nbt={SelectedItem:{tag:{greatFairyBlessing:1}}}] run function ssbrc:fighters/zelda/logic/abilities/great_fairy_blessing/check
+execute if entity @s[nbt={SelectedItem:{tag:{great_fairy_blessing:1}}}] run function ssbrc:fighters/zelda/logic/abilities/great_fairy_blessing/check
 
-execute if entity @s[nbt={SelectedItem:{tag:{inventoryRefresh:1}}}] run function ssbrc:fighters/zelda/logic/abilities/inventory_refresh/check
+execute if entity @s[nbt={SelectedItem:{tag:{inventory_refresh:1}}}] run function ssbrc:fighters/zelda/logic/abilities/inventory_refresh/check

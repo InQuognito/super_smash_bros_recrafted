@@ -1,4 +1,4 @@
-scoreboard players operation @s mana -= #bombMagicCost temp
+scoreboard players operation @s mana -= #bomb.cost temp
 
 scoreboard players set @s cooldown.1 2
 
