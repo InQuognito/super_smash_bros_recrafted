@@ -3,7 +3,7 @@ scoreboard players set mementos.type map 2
 time set 15000
 
 # Logo
-place template ssbrc:stages/mementos/logo/orange -1203 15 921
+place template ssbrc:stages/mementos/logo/orange -1193 15 921
 
 # Stage
 fill -1201 8 856 -1175 22 900 minecraft:red_concrete replace minecraft:blue_terracotta
