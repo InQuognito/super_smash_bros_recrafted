@@ -1,5 +1,3 @@
-particle minecraft:dust 0.0 0.0 1.0 10.0 ~ ~ ~ 0.0 0.0 0.0 0.0 1 normal @a
-
 execute if entity @s[nbt={SelectedItem:{tag:{bomb:1}}}] run function ssbrc:fighters/zelda/logic/abilities/bomb/check
 
 execute if entity @s[nbt={SelectedItem:{tag:{boomerang:1}}}] run function ssbrc:fighters/zelda/logic/abilities/boomerang/check

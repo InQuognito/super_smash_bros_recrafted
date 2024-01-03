@@ -1,5 +1,3 @@
-particle minecraft:dust 0.0 1.0 1.0 10.0 ~ ~ ~ 0.0 0.0 0.0 0.0 1 normal @a
-
 tag @s add zelda.boomerang
 
 loot replace entity @s container.0 loot ssbrc:fighters/zelda/dungeon_items/boomerang

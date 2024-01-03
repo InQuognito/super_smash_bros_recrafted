@@ -1,5 +1,3 @@
-particle minecraft:dust 1.0 0.0 0.0 10.0 ~ ~ ~ 0.0 0.0 0.0 0.0 1 normal @a
-
 execute if entity @s[tag=byleth] run function ssbrc:fighters/byleth/logic/abilities/impulse
 
 execute if entity @s[tag=captain_falcon] run function ssbrc:fighters/captain_falcon/logic/abilities/impulse
