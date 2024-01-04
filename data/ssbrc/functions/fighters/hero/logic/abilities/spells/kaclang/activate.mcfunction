@@ -1,6 +1,6 @@
 tag @s add kaclang
 
-scoreboard players set @s duration.2 200
+scoreboard players set @s duration.1 200
 
 effect give @s minecraft:resistance infinite 255 true
 

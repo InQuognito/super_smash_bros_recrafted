@@ -15,3 +15,5 @@ execute if entity @s[nbt={SelectedItem:{tag:{kacrackle_slash:1}}}] run function 
 execute if entity @s[nbt={SelectedItem:{tag:{magic_burst:1}}}] run function ssbrc:fighters/hero/logic/abilities/spells/magic_burst/activate
 
 execute if entity @s[nbt={SelectedItem:{tag:{multiheal:1}}}] run function ssbrc:fighters/hero/logic/abilities/spells/multiheal/check
+
+execute if entity @s[nbt={SelectedItem:{tag:{oomph:1}}}] run function ssbrc:fighters/hero/logic/abilities/spells/oomph/activate
