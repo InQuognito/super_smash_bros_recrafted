@@ -2,17 +2,17 @@ execute store result score item_count temp if entity @e[type=minecraft:item,nbt=
 
 execute store result score instant_item_count temp run clear @s minecraft:warped_fungus_on_a_stick{item:1,instant:1,picked_up:0} 0
 
-scoreboard players reset @s[nbt={Inventory:[{tag:{cracker_launcher:1,picked_up:1}}]}] item.cracker_launcher.uses
+scoreboard players reset @s[nbt={Inventory:[{tag:{cracker_launcher:1}}]}] item.cracker_launcher.uses
 
 effect give @s[nbt={Inventory:[{tag:{food:1}}]}] minecraft:instant_health 1 0 true
 
-scoreboard players set @s[nbt={Inventory:[{tag:{lips_stick:1,picked_up:1}}]}] item.lips_stick 6
+scoreboard players set @s[nbt={Inventory:[{tag:{lips_stick:1}}]}] item.lips_stick 6
 
 effect give @s[nbt={Inventory:[{tag:{maxim_tomato:1}}]}] minecraft:instant_health 1 2 true
 
 execute if entity @s[nbt={Inventory:[{tag:{poison_mushroom:1}}]}] run function ssbrc:items/poison_mushroom/activate
 
-scoreboard players reset @s[nbt={Inventory:[{tag:{ray_gun:1,picked_up:1}}]}] item.ray_gun.uses
+scoreboard players reset @s[nbt={Inventory:[{tag:{ray_gun:1}}]}] item.ray_gun.uses
 
 execute if entity @s[nbt={Inventory:[{tag:{super_mushroom:1}}]}] run function ssbrc:items/super_mushroom/activate
 
