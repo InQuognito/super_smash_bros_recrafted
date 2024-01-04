@@ -1,7 +1,7 @@
 # Standard
 execute if entity @s[nbt={SelectedItem:{tag:{cloaking_device:1}}}] run function ssbrc:items/cloaking_device/activate
 
-execute if entity @s[nbt={SelectedItem:{tag:{cracker_launcher:1}}}] unless score @s item.cracker_launcherCooldown matches 1.. run function ssbrc:items/cracker_launcher/activate
+execute if entity @s[nbt={SelectedItem:{tag:{cracker_launcher:1}}}] unless score @s item.cracker_launcher.cooldown matches 1.. run function ssbrc:items/cracker_launcher/activate
 
 execute if entity @s[nbt={SelectedItem:{tag:{franklin_badge:1}}}] run function ssbrc:items/franklin_badge/activate
 

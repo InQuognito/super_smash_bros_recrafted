@@ -56,7 +56,8 @@ scoreboard objectives remove item_count
 scoreboard objectives remove item.charge.input
 scoreboard objectives remove item.charge.output
 scoreboard objectives remove item.charge.step
-scoreboard objectives remove item.cracker_launcherCooldown
+scoreboard objectives remove item.cloaking_device
+scoreboard objectives remove item.cracker_launcher.cooldown
 scoreboard objectives remove item.cracker_launcher.uses
 scoreboard objectives remove item.franklin_badge
 scoreboard objectives remove item.killing_edge
