@@ -22,7 +22,7 @@
 					"source_entity": {
 						"equipment": {
 							"mainhand": {
-								"nbt": "{lips_stick:1,active:1}"
+								"nbt": "{lips_stick:1,charge:3}"
 							}
 						}
 					}
@@ -31,6 +31,6 @@
 		}
 	},
 	"rewards": {
-		"function": "ssbrc:items/lips_stick/poison"
+		"function": "ssbrc:items/lips_stick/poison/3"
 	}
 }
