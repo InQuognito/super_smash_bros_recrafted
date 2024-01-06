@@ -16,4 +16,6 @@ execute if entity @s[nbt={SelectedItem:{tag:{team_healer:1}}}] run function ssbr
 # Fixed (Stage)
 execute if entity @s[nbt={SelectedItem:{tag:{angel_feather:1}}}] run function ssbrc:stages/palutenas_temple/logic/angel_feather/activate
 
+execute if entity @s[nbt={SelectedItem:{tag:{fgii_blaster:1}}}] run function ssbrc:stages/pyrosphere/logic/fgii_graham/items/blaster/activate
+
 execute if entity @s[nbt={SelectedItem:{tag:{fgii_propeller:1}}}] run function ssbrc:stages/pyrosphere/logic/fgii_graham/items/propeller/activate
