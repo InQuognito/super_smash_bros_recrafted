@@ -1,6 +1,6 @@
 execute store result score item_count temp if entity @e[type=minecraft:item,nbt={Item:{tag:{item:1,picked_up:0}}}]
 
-execute store result score instant_item_count temp run clear @s minecraft:warped_fungus_on_a_stick{item:1,instant:1,picked_up:0} 0
+execute store result score instant_item_count temp run clear @s #ssbrc:items{item:1,instant:1,picked_up:0} 0
 
 scoreboard players reset @s[nbt={Inventory:[{tag:{cracker_launcher:1}}]}] item.cracker_launcher.uses
 

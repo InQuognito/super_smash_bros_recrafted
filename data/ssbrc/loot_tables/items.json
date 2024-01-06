@@ -5,78 +5,106 @@
 			"entries": [
 				{
 					"type": "minecraft:loot_table",
-					"name": "ssbrc:items/cloaking_device",
-					"weight": 1
+					"weight": 1,
+					"name": "ssbrc:items/cloaking_device"
 				},
 				{
 					"type": "minecraft:loot_table",
-					"name": "ssbrc:items/cracker_launcher",
-					"weight": 1
+					"weight": 1,
+					"name": "ssbrc:items/cracker_launcher"
 				},
 				{
 					"type": "minecraft:loot_table",
-					"name": "ssbrc:items/deaths_scythe",
-					"weight": 1
+					"weight": 1,
+					"name": "ssbrc:items/deaths_scythe"
 				},
 				{
 					"type": "minecraft:loot_table",
-					"name": "ssbrc:items/food",
-					"weight": 1
+					"weight": 1,
+					"name": "ssbrc:items/food"
 				},
 				{
 					"type": "minecraft:loot_table",
-					"name": "ssbrc:items/franklin_badge",
-					"weight": 1
+					"weight": 1,
+					"name": "ssbrc:items/franklin_badge"
 				},
 				{
 					"type": "minecraft:loot_table",
-					"name": "ssbrc:items/freezie",
-					"weight": 1
+					"weight": 1,
+					"name": "ssbrc:items/freezie"
 				},
 				{
 					"type": "minecraft:loot_table",
-					"name": "ssbrc:items/killing_edge/default",
-					"weight": 1
+					"weight": 1,
+					"name": "ssbrc:items/killing_edge/default"
 				},
 				{
 					"type": "minecraft:loot_table",
-					"name": "ssbrc:items/lips_stick",
-					"weight": 1
+					"weight": 1,
+					"name": "ssbrc:items/lips_stick"
 				},
 				{
 					"type": "minecraft:loot_table",
-					"name": "ssbrc:items/maxim_tomato",
-					"weight": 1
+					"weight": 1,
+					"name": "ssbrc:items/maxim_tomato"
 				},
 				{
 					"type": "minecraft:loot_table",
-					"name": "ssbrc:items/motion_sensor_bomb",
-					"weight": 1
+					"weight": 1,
+					"name": "ssbrc:items/motion_sensor_bomb"
 				},
 				{
 					"type": "minecraft:loot_table",
-					"name": "ssbrc:items/poison_mushroom",
-					"weight": 1
+					"weight": 1,
+					"name": "ssbrc:items/poison_mushroom"
 				},
 				{
 					"type": "minecraft:loot_table",
-					"name": "ssbrc:items/ray_gun",
-					"weight": 1
+					"weight": 1,
+					"name": "ssbrc:items/ray_gun"
 				},
 				{
 					"type": "minecraft:loot_table",
-					"name": "ssbrc:items/special_flag",
-					"weight": 1
+					"weight": 1,
+					"name": "ssbrc:items/special_flag"
 				},
 				{
 					"type": "minecraft:loot_table",
-					"name": "ssbrc:items/super_mushroom",
-					"weight": 1
+					"weight": 1,
+					"name": "ssbrc:items/super_mushroom"
 				},
 				{
 					"type": "minecraft:loot_table",
+					"weight": 1,
 					"name": "ssbrc:items/team_healer",
-					"weight": 1
+					"conditions": [
+						{
+							"condition": "minecraft:value_check",
+							"value": {
+								"type": "minecraft:score",
+								"target": {
+									"type": "minecraft:fixed",
+									"name": "items"
+								},
+								"score": "options"
+							},
+							"range": 1
+						},
+						{
+							"condition": "minecraft:value_check",
+							"value": {
+								"type": "minecraft:score",
+								"target": {
+									"type": "minecraft:fixed",
+									"name": "item_rate"
+								},
+								"score": "options"
+							},
+							"range": {
+								"min": 1
+							}
+						}
+					]
 				}
 			],
 			"functions": [
