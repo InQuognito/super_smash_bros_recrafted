@@ -1,4 +1,4 @@
-particle minecraft:smoke ~ ~ ~ 0.3 0.05 0.3 0.01 5 normal @a
+particle minecraft:smoke ~ ~ ~ 0.3 0.05 0.3 0.01 1 normal @a
 
 execute unless block ~ ~ ~ #ssbrc:passthrough run kill @s
 
