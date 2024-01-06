@@ -12,5 +12,5 @@ execute as @a[predicate=ssbrc:flag/player] at @s positioned ~ ~0.5 ~ if entity @
 execute as @e[type=minecraft:item_display,tag=power_pellet] at @s if entity @p[predicate=ssbrc:flag/player,distance=..1.0] run function ssbrc:stages/pac_maze/logic/power_pellet/pickup
 
 # Galaxian Flagship
-scoreboard players add @a[tag=galaxianFlagship] timer.galaxianFlagship 1
-execute as @a[scores={timer.galaxianFlagship=1..}] at @s run function ssbrc:stages/pac_maze/logic/fruit/galaxian_flagship/tick
+scoreboard players remove @a[scores={galaxian_flagship=1..}] galaxian_flagship 1
+execute as @a[scores={galaxian_flagship=1..}] at @s run function ssbrc:stages/pac_maze/logic/fruit/galaxian_flagship/tick

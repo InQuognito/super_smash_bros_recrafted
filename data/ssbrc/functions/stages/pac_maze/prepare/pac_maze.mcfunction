@@ -9,4 +9,4 @@ summon minecraft:marker 23379.5 5.0 8628.5 {Tags:["spawnpoint"]}
 summon minecraft:marker 23340.5 5.0 8648.5 {Tags:["spawnpoint"]}
 summon minecraft:marker 23380.5 5.0 8648.5 {Tags:["spawnpoint"]}
 
-execute if predicate ssbrc:item_spawnpoints run function ssbrc:stages/pac_maze/item_spawnpoints/pac_maze
+execute if predicate ssbrc:items run function ssbrc:stages/pac_maze/item_spawnpoints/pac_maze

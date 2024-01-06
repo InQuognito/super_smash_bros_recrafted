@@ -9,7 +9,7 @@ summon minecraft:marker 681.5 37.0 8007.5 {Tags:["spawnpoint"]}
 summon minecraft:marker 684.5 37.0 8018.5 {Tags:["spawnpoint"]}
 summon minecraft:marker 684.5 37.0 7996.5 {Tags:["spawnpoint"]}
 
-execute if predicate ssbrc:item_spawnpoints run function ssbrc:stages/pyrosphere/item_spawnpoints
+execute if predicate ssbrc:items run function ssbrc:stages/pyrosphere/item_spawnpoints
 
 execute as @a[predicate=ssbrc:ingame] run function ssbrc:logic/pre_game/prepare_players
 function ssbrc:logic/pre_game/prepare_match

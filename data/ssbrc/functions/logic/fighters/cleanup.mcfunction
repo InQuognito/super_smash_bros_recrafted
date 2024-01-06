@@ -11,7 +11,7 @@ scoreboard players set @s flag.sprinting 0
 
 # Effects
 scoreboard players reset @s burning
-scoreboard players reset @s fiendsCauldron
+scoreboard players reset @s fiends_cauldron
 scoreboard players reset @s frostbite
 scoreboard players reset @s frostbite.timer
 

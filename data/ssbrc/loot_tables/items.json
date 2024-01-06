@@ -109,8 +109,8 @@
 			],
 			"functions": [
 				{
-					"function": "minecraft:set_nbt",
-					"tag": "{item:1,picked_up:0,temp:1}"
+					"function": "minecraft:reference",
+					"name": "ssbrc:items/temp"
 				}
 			]
 		}

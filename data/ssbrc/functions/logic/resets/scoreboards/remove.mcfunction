@@ -31,8 +31,8 @@ scoreboard objectives remove duration.4
 #scoreboard objectives remove event
 scoreboard objectives remove fallDistance
 scoreboard objectives remove favorite.temp
-scoreboard objectives remove fiendsCauldron
-scoreboard objectives remove fiendsCauldron.timer
+scoreboard objectives remove fiends_cauldron
+scoreboard objectives remove fiends_cauldron.timer
 scoreboard objectives remove flag.breakShield
 scoreboard objectives remove flag.damageDealt
 scoreboard objectives remove flag.damageTaken
@@ -47,6 +47,7 @@ scoreboard objectives remove frostbite
 scoreboard objectives remove frostbite.cooldown
 scoreboard objectives remove frostbite.timer
 scoreboard objectives remove fuse
+scoreboard objectives remove galaxian_flagship
 scoreboard objectives remove health
 scoreboard objectives remove healthTimer
 scoreboard objectives remove id
@@ -57,14 +58,14 @@ scoreboard objectives remove item.charge.input
 scoreboard objectives remove item.charge.output
 scoreboard objectives remove item.charge.step
 scoreboard objectives remove item.cloaking_device
-scoreboard objectives remove item.cracker_launcher.cooldown
-scoreboard objectives remove item.cracker_launcher.uses
+scoreboard objectives remove item.cooldown
+scoreboard objectives remove item.uses
 scoreboard objectives remove item.franklin_badge
 scoreboard objectives remove item.killing_edge
 scoreboard objectives remove item.lips_stick
 scoreboard objectives remove item.poison_mushroom
-scoreboard objectives remove item.ray_gun.cooldown
-scoreboard objectives remove item.ray_gun.uses
+scoreboard objectives remove item.cooldown
+scoreboard objectives remove item.uses
 scoreboard objectives remove item.super_mushroom
 scoreboard objectives remove joker.tt33A
 scoreboard objectives remove joker.tt33F
@@ -139,7 +140,6 @@ scoreboard objectives remove team
 scoreboard objectives remove teamAmount
 scoreboard objectives remove timer
 scoreboard objectives remove timer.barrelCannon
-scoreboard objectives remove timer.galaxianFlagship
 scoreboard objectives remove timer.pkFlash
 scoreboard objectives remove timer.shockwave
 scoreboard objectives remove timer.stalfos

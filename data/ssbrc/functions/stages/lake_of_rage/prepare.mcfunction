@@ -9,7 +9,7 @@ summon minecraft:marker 2509.5 14.0 4000.5 {Tags:["spawnpoint"]}
 summon minecraft:marker 2509.5 15.0 4016.5 {Tags:["spawnpoint"]}
 summon minecraft:marker 2527.5 16.0 3990.5 {Tags:["spawnpoint"]}
 
-execute if predicate ssbrc:item_spawnpoints run function ssbrc:stages/lake_of_rage/item_spawnpoints
+execute if predicate ssbrc:items run function ssbrc:stages/lake_of_rage/item_spawnpoints
 
 execute as @e[type=minecraft:item_display,tag=gastly] if predicate ssbrc:fighters/pokemon/shiny_chance run function ssbrc:stages/lake_of_rage/logic/pokemon/gastly/shiny
 execute as @e[type=minecraft:item_display,tag=geodude] if predicate ssbrc:fighters/pokemon/shiny_chance run item replace entity @s container.0 with minecraft:diamond{CustomModelData:741}

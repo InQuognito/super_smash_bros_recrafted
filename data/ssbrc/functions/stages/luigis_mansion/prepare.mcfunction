@@ -12,7 +12,7 @@ summon minecraft:marker -291.5 15.0 -1126.5 {Tags:["spawnpoint"]}
 summon minecraft:marker -312.5 16.0 -1111.5 {Tags:["spawnpoint"]}
 summon minecraft:marker -326.5 16.0 -1135.5 {Tags:["spawnpoint"]}
 
-execute if predicate ssbrc:item_spawnpoints run function ssbrc:stages/luigis_mansion/item_spawnpoints
+execute if predicate ssbrc:items run function ssbrc:stages/luigis_mansion/item_spawnpoints
 
 function ssbrc:stages/luigis_mansion/logic/blackout/off
 

@@ -31,8 +31,8 @@ scoreboard objectives add duration.4 dummy
 scoreboard objectives add event dummy
 scoreboard objectives add fallDistance minecraft.custom:minecraft.fall_one_cm
 scoreboard objectives add favorite.temp dummy
-scoreboard objectives add fiendsCauldron dummy
-scoreboard objectives add fiendsCauldron.timer dummy
+scoreboard objectives add fiends_cauldron dummy
+scoreboard objectives add fiends_cauldron.timer dummy
 scoreboard objectives add flag.breakShield minecraft.broken:minecraft.shield
 scoreboard objectives add flag.damageDealt minecraft.custom:minecraft.damage_dealt
 scoreboard objectives add flag.damageTaken minecraft.custom:minecraft.damage_taken
@@ -47,6 +47,7 @@ scoreboard objectives add frostbite dummy
 scoreboard objectives add frostbite.cooldown dummy
 scoreboard objectives add frostbite.timer dummy
 scoreboard objectives add fuse dummy
+scoreboard objectives add galaxian_flagship dummy
 scoreboard objectives add health dummy
 scoreboard objectives add healthTimer dummy
 scoreboard objectives add id dummy
@@ -56,15 +57,13 @@ scoreboard objectives add item_count dummy
 scoreboard objectives add item.charge.input minecraft.used:minecraft.warped_fungus_on_a_stick
 scoreboard objectives add item.charge.output dummy
 scoreboard objectives add item.charge.step dummy
+scoreboard objectives add item.cooldown dummy
+scoreboard objectives add item.uses dummy
 scoreboard objectives add item.cloaking_device dummy
-scoreboard objectives add item.cracker_launcher.cooldown dummy
-scoreboard objectives add item.cracker_launcher.uses dummy
 scoreboard objectives add item.franklin_badge dummy
 scoreboard objectives add item.killing_edge dummy
 scoreboard objectives add item.lips_stick dummy
 scoreboard objectives add item.poison_mushroom dummy
-scoreboard objectives add item.ray_gun.cooldown dummy
-scoreboard objectives add item.ray_gun.uses dummy
 scoreboard objectives add item.super_mushroom dummy
 scoreboard objectives add joker.tt33A dummy
 scoreboard objectives add joker.tt33F dummy
@@ -138,7 +137,6 @@ scoreboard objectives add team dummy
 scoreboard objectives add teamAmount dummy
 scoreboard objectives add timer dummy
 scoreboard objectives add timer.barrelCannon dummy
-scoreboard objectives add timer.galaxianFlagship dummy
 scoreboard objectives add timer.pkFlash dummy
 scoreboard objectives add timer.shockwave dummy
 scoreboard objectives add timer.stalfos dummy

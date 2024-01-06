@@ -9,7 +9,7 @@ summon minecraft:marker -565.5 12.0 -155.5 {Tags:["spawnpoint"]}
 summon minecraft:marker -576.5 12.0 -159.5 {Tags:["spawnpoint"]}
 summon minecraft:marker -576.5 12.0 -144.5 {Tags:["spawnpoint"]}
 
-execute if predicate ssbrc:item_spawnpoints run function ssbrc:stages/pallet_town/item_spawnpoints
+execute if predicate ssbrc:items run function ssbrc:stages/pallet_town/item_spawnpoints
 
 # Shiny Modifiers
 execute as @e[type=minecraft:item_display,tag=abra] if predicate ssbrc:fighters/pokemon/shiny_chance run item replace entity @s container.0 with minecraft:diamond{CustomModelData:631}

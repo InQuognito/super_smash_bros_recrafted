@@ -9,4 +9,4 @@ summon minecraft:marker -521.5 55.0 -2870.5 {Tags:["spawnpoint"]}
 summon minecraft:marker -517.5 55.0 -2858.5 {Tags:["spawnpoint"]}
 summon minecraft:marker -529.5 55.0 -2859.5 {Tags:["spawnpoint"]}
 
-execute if predicate ssbrc:item_spawnpoints run function ssbrc:stages/minecraft_world/item_spawnpoints/plains
+execute if predicate ssbrc:items run function ssbrc:stages/minecraft_world/item_spawnpoints/plains

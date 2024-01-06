@@ -10,8 +10,8 @@ scoreboard players operation speed temp = sqrt.output math
 scoreboard players remove @s[scores={cooldown.1=1..}] cooldown.1 1
 scoreboard players remove @s[scores={cooldown.2=1..}] cooldown.2 1
 scoreboard players remove @s[scores={cooldown.3=1..}] cooldown.3 1
-scoreboard players remove @s[scores={item.cracker_launcher.cooldown=1..}] item.cracker_launcher.cooldown 1
-scoreboard players remove @s[scores={item.ray_gun.cooldown=1..}] item.ray_gun.cooldown 1
+scoreboard players remove @s[scores={item.cooldown=1..}] item.cooldown 1
+scoreboard players remove @s[scores={item.cooldown=1..}] item.cooldown 1
 
 scoreboard players add @s[scores={charge.input=1..}] charge.step 1
 scoreboard players add @s[scores={charge.input=1..}] charge.output 1

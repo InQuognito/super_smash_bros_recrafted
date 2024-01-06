@@ -9,7 +9,7 @@ summon minecraft:marker 334.5 64.0 4045.5 {Tags:["spawnpoint"]}
 summon minecraft:marker 329.5 64.0 4034.5 {Tags:["spawnpoint"]}
 summon minecraft:marker 340.5 58.0 4026.5 {Tags:["spawnpoint"]}
 
-execute if predicate ssbrc:item_spawnpoints run function ssbrc:stages/yggdrasils_altar/item_spawnpoints
+execute if predicate ssbrc:items run function ssbrc:stages/yggdrasils_altar/item_spawnpoints
 
 execute as @a[predicate=ssbrc:ingame] run function ssbrc:logic/pre_game/prepare_players
 function ssbrc:logic/pre_game/prepare_match

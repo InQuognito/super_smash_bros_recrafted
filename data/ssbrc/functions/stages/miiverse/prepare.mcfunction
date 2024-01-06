@@ -9,7 +9,7 @@ summon minecraft:marker -685.5 18.0 604.5 {Tags:["spawnpoint"]}
 summon minecraft:marker -701.5 21.0 601.5 {Tags:["spawnpoint"]}
 summon minecraft:marker -685.5 18.0 598.5 {Tags:["spawnpoint"]}
 
-execute if predicate ssbrc:item_spawnpoints run function ssbrc:stages/miiverse/item_spawnpoints
+execute if predicate ssbrc:items run function ssbrc:stages/miiverse/item_spawnpoints
 
 execute as @e[type=minecraft:marker,tag=post.origin] at @s anchored eyes run function ssbrc:stages/miiverse/logic/posts/summon
 

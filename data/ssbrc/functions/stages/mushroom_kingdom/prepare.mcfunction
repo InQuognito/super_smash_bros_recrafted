@@ -9,7 +9,7 @@ summon minecraft:marker -203.5 32.0 -136.5 {Tags:["spawnpoint"]}
 summon minecraft:marker -221.5 26.0 -161.5 {Tags:["spawnpoint"]}
 summon minecraft:marker -208.5 22.0 -154.5 {Tags:["spawnpoint"]}
 
-execute if predicate ssbrc:item_spawnpoints run function ssbrc:stages/mushroom_kingdom/item_spawnpoints
+execute if predicate ssbrc:items run function ssbrc:stages/mushroom_kingdom/item_spawnpoints
 
 execute as @a[predicate=ssbrc:ingame] run function ssbrc:logic/pre_game/prepare_players
 function ssbrc:logic/pre_game/prepare_match
