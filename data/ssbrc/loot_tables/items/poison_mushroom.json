@@ -37,7 +37,7 @@
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{poison_mushroom:1,instant:1}"
+							"tag": "{poison_mushroom:1,instant:1,CustomModelData:9}"
 						}
 					]
 				}

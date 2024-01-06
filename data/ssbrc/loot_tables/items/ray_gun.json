@@ -37,7 +37,7 @@
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{ray_gun:1}"
+							"tag": "{ray_gun:1,CustomModelData:10}"
 						}
 					]
 				}
