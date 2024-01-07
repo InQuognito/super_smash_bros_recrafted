@@ -1,6 +1,6 @@
-execute store result score #rupeeGain temp run random value 8..12
+execute store result score @s zelda.rupee.up run random value 8..12
 
-function ssbrc:fighters/zelda/logic/add_rupees
+scoreboard players operation @s[tag=rupeeMaster] zelda.rupee.up *= 2 integers
 
 loot replace entity @s[nbt={Inventory:[{tag:{dagger:1,obsidian:2}}]}] hotbar.0 loot ssbrc:fighters/zelda/weapons/dagger/obsidian/3
 loot replace entity @s[nbt={Inventory:[{tag:{dagger:1,obsidian:1}}]}] hotbar.0 loot ssbrc:fighters/zelda/weapons/dagger/obsidian/2

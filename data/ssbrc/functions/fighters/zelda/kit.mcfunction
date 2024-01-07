@@ -1,4 +1,4 @@
 function ssbrc:fighters/zelda/kit/items
 
-scoreboard players set #rupeeGain temp 10
-function ssbrc:fighters/zelda/logic/add_rupees
+scoreboard players set @s zelda.rupee.up 10
+scoreboard players operation @s[tag=rupeeMaster] zelda.rupee.up *= 2 integers

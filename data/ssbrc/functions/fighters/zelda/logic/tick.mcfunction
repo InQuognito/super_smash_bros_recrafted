@@ -21,6 +21,11 @@ execute if entity @s[nbt={Inventory:[{tag:{nayrusRing:1}}]}] run function ssbrc:
 
 execute if entity @s[nbt={Inventory:[{tag:{ringOfRisk:1}}]}] run function ssbrc:fighters/zelda/logic/passive_items/ring_of_risk
 
+# Rupees
+execute if entity @s[scores={zelda.rupee.down=1..}] run function ssbrc:fighters/zelda/logic/subtract_rupees
+
+execute if entity @s[scores={zelda.rupee.up=1..}] run function ssbrc:fighters/zelda/logic/add_rupees
+
 # Great Fairy Blessings
 execute if score @s zelda.enchantArmor matches 1.. run function ssbrc:fighters/zelda/logic/blessings/enchant_armor/tick
 

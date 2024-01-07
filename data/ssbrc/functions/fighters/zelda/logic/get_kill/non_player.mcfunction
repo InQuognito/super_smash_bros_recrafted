@@ -1,3 +1,3 @@
-execute store result score #rupeeGain temp run random value 1..3
+execute store result score @s zelda.rupee.up run random value 1..3
 
-function ssbrc:fighters/zelda/logic/add_rupees
+scoreboard players operation @s[tag=rupeeMaster] zelda.rupee.up *= 2 integers
