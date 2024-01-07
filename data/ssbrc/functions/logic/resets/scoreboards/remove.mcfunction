@@ -58,15 +58,13 @@ scoreboard objectives remove item_count
 scoreboard objectives remove item.charge.input
 scoreboard objectives remove item.charge.output
 scoreboard objectives remove item.charge.step
-scoreboard objectives remove item.cloaking_device
 scoreboard objectives remove item.cooldown
 scoreboard objectives remove item.uses
+scoreboard objectives remove item.cloaking_device
 scoreboard objectives remove item.franklin_badge
 scoreboard objectives remove item.killing_edge
 scoreboard objectives remove item.lips_stick
 scoreboard objectives remove item.poison_mushroom
-scoreboard objectives remove item.cooldown
-scoreboard objectives remove item.uses
 scoreboard objectives remove item.super_mushroom
 scoreboard objectives remove joker.tt33A
 scoreboard objectives remove joker.tt33F
@@ -133,7 +131,6 @@ scoreboard objectives remove snake.smokeGrenadeA
 scoreboard objectives remove sprintDistance
 scoreboard objectives remove stageIndex
 scoreboard objectives remove stageIndexCalculator
-scoreboard objectives remove status.petrified
 scoreboard objectives remove steve.tier
 scoreboard objectives remove stocks
 scoreboard objectives remove suicides
