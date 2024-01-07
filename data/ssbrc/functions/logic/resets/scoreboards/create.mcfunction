@@ -52,7 +52,8 @@ scoreboard objectives add health dummy
 scoreboard objectives add healthTimer dummy
 scoreboard objectives add id dummy
 scoreboard objectives add immobile dummy
-scoreboard objectives add integers dummy
+scoreboard objectives add intimidate dummy
+scoreboard objectives add burning dummy
 scoreboard objectives add item_count dummy
 scoreboard objectives add item.charge.input minecraft.used:minecraft.warped_fungus_on_a_stick
 scoreboard objectives add item.charge.output dummy
@@ -149,6 +150,8 @@ scoreboard objectives add useItem minecraft.used:minecraft.warped_fungus_on_a_st
 scoreboard objectives add vars dummy
 scoreboard objectives add walkDistance minecraft.custom:minecraft.walk_one_cm
 scoreboard objectives add yar.droneHealth dummy
+scoreboard objectives add zelda.rupee.down dummy
+scoreboard objectives add zelda.rupee.up dummy
 scoreboard objectives add zelda.enchantArmor dummy
 scoreboard objectives add zelda.halfMagic dummy
 scoreboard objectives add zelda.shatterResist dummy

@@ -53,6 +53,7 @@ scoreboard objectives remove healthTimer
 scoreboard objectives remove id
 scoreboard objectives remove immobile
 scoreboard objectives remove integers
+scoreboard objectives remove intimidate
 scoreboard objectives remove item_count
 scoreboard objectives remove item.charge.input
 scoreboard objectives remove item.charge.output
@@ -152,6 +153,8 @@ scoreboard objectives remove useItem
 scoreboard objectives remove vars
 scoreboard objectives remove walkDistance
 scoreboard objectives remove yar.droneHealth
+scoreboard objectives remove zelda.rupee.down
+scoreboard objectives remove zelda.rupee.up
 scoreboard objectives remove zelda.enchantArmor
 scoreboard objectives remove zelda.halfMagic
 scoreboard objectives remove zelda.shatterResist
