@@ -17,10 +17,7 @@
 						},
 						"range": 4
 					}
-				],
-				"damage": {
-					"blocked": false
-				}
+				]
 			}
 		}
 	},
