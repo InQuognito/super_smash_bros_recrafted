@@ -4,4 +4,4 @@ execute if entity @s[predicate=ssbrc:flag/sneaking,scores={charge.output=1..},nb
 execute if entity @s[predicate=!ssbrc:flag/sneaking,nbt=!{Inventory:[{tag:{shield:1}}]}] unless score @s charge.output matches 1.. run function ssbrc:fighters/byleth/logic/black_eagles/ground_pound/shield
 
 # Passive
-execute if score #percentage temp matches ..50 at @s run function ssbrc:fighters/byleth/logic/black_eagles/heavy_armor
+execute if score #percentage temp matches ..50 run function ssbrc:fighters/byleth/logic/black_eagles/heavy_armor

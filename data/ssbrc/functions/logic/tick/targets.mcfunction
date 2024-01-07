@@ -8,4 +8,5 @@ execute if score @s immobile matches 2.. run function ssbrc:logic/fighters/effec
 execute at @s[tag=immobile] run function ssbrc:logic/fighters/effects/mobility/active
 execute at @s[tag=pivot,tag=!immobile] unless predicate ssbrc:flag/in_air run function ssbrc:logic/fighters/effects/mobility/immobilize/pivot/activate
 
-execute if entity @e[type=minecraft:marker,tag=electricTerrain,distance=..12] if block ~ ~ ~ minecraft:water run damage @s 6.0 ssbrc:pierce
+execute if entity @e[type=minecraft:marker,tag=electric_terrain,distance=..12] run tag @s add in_electric_terrain
+execute if block ~ ~ ~ minecraft:water run damage @s[tag=in_electric_terrain] 6.0 ssbrc:pierce

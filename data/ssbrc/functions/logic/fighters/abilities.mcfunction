@@ -93,7 +93,7 @@ execute if entity @s[tag=turnip] run function ssbrc:fighters/peach/logic/abiliti
 
 # Pikachu
 execute if entity @s[tag=thunderJolt] run function ssbrc:fighters/pikachu/logic/abilities/thunder_jolt/tick
-execute if entity @s[tag=electricTerrain] run function ssbrc:fighters/pikachu/logic/abilities/electric_terrain/tick
+execute if entity @s[tag=electric_terrain] run function ssbrc:fighters/pikachu/logic/abilities/electric_terrain/tick
 
 # Pit
 execute if entity @s[tag=palutenaBow] run function ssbrc:fighters/pit/logic/abilities/palutena_bow/tick

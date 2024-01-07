@@ -1,3 +1,5 @@
+function ssbrc:logic/spinner/call
+
 function ssbrc:fighters/sora/logic/abilities/firaga/firaza/particle
 function ssbrc:fighters/sora/logic/abilities/firaga/firaza/particle
 function ssbrc:fighters/sora/logic/abilities/firaga/firaza/particle

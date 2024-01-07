@@ -5,6 +5,6 @@ title @s[nbt=!{SelectedItem:{tag:{waterShuriken:1}}}] actionbar ""
 title @s[nbt={SelectedItem:{tag:{waterShuriken:1}}},scores={charge.2=0..}] actionbar {"score":{"name":"@s","objective":"charge.2"},"color":"blue"}
 
 # Shadow Sneak
-execute if entity @s[tag=!shadowSneak,predicate=ssbrc:flag/sneaking,scores={cooldown.3=..0}] at @s rotated ~ 0.0 run function ssbrc:fighters/greninja/logic/abilities/shadow_sneak/activate
+execute if entity @s[tag=!shadowSneak,predicate=ssbrc:flag/sneaking,scores={cooldown.3=..0}] rotated ~ 0.0 run function ssbrc:fighters/greninja/logic/abilities/shadow_sneak/activate
 
-execute if entity @s[tag=shadowSneak,predicate=!ssbrc:flag/sneaking] at @s run function ssbrc:fighters/greninja/logic/abilities/shadow_sneak/deactivate
+execute if entity @s[tag=shadowSneak,predicate=!ssbrc:flag/sneaking] run function ssbrc:fighters/greninja/logic/abilities/shadow_sneak/deactivate

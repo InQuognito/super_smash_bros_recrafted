@@ -1,5 +1,5 @@
 {
-	"parent": "ssbrc:utility/root",
+	"parent": "ssbrc:utility/flag/hurt_player/custom/alignment/root",
 	"criteria": {
 		"requirement": {
 			"trigger": "minecraft:player_hurt_entity",
@@ -33,7 +33,29 @@
 						"condition": "minecraft:entity_properties",
 						"entity": "this",
 						"predicate": {
-							"nbt": "{Tags:[\"shadow\",\"alignment.villain\"]}"
+							"nbt": "{Tags:[\"shadow\"]}"
+						}
+					},
+					{
+						"condition": "minecraft:inverted",
+						"term": {
+							"condition": "minecraft:any_of",
+							"terms": [
+								{
+									"condition": "minecraft:entity_properties",
+									"entity": "this",
+									"predicate": {
+										"nbt": "{Tags:[\"alignment.hero\"]}"
+									}
+								},
+								{
+									"condition": "minecraft:entity_properties",
+									"entity": "this",
+									"predicate": {
+										"nbt": "{Tags:[\"alignment.villain\"]}"
+									}
+								}
+							]
 						}
 					}
 				]

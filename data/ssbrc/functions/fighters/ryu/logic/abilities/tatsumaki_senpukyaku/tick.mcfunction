@@ -1,6 +1,8 @@
-execute rotated as @e[type=minecraft:marker,tag=ryu.spinner,limit=1] run function ssbrc:fighters/ryu/logic/abilities/tatsumaki_senpukyaku/particle
-execute rotated as @e[type=minecraft:marker,tag=ryu.spinner,limit=1] run function ssbrc:fighters/ryu/logic/abilities/tatsumaki_senpukyaku/particle
-execute rotated as @e[type=minecraft:marker,tag=ryu.spinner,limit=1] run function ssbrc:fighters/ryu/logic/abilities/tatsumaki_senpukyaku/particle
+function ssbrc:logic/spinner/call
+
+execute rotated as @e[type=minecraft:marker,tag=spinner,limit=1] run function ssbrc:fighters/ryu/logic/abilities/tatsumaki_senpukyaku/particle
+execute rotated as @e[type=minecraft:marker,tag=spinner,limit=1] run function ssbrc:fighters/ryu/logic/abilities/tatsumaki_senpukyaku/particle
+execute rotated as @e[type=minecraft:marker,tag=spinner,limit=1] run function ssbrc:fighters/ryu/logic/abilities/tatsumaki_senpukyaku/particle
 
 function ssbrc:fighters/ryu/logic/abilities/tatsumaki_senpukyaku/raycast/start
 

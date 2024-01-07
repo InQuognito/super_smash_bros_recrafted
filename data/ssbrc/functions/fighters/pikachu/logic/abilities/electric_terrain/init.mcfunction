@@ -1,4 +1,4 @@
-tag @s add electricTerrain
+tag @s add electric_terrain
 
 execute if entity @p[tag=self,tag=santaHat] run tag @s add snowing
 

@@ -12,12 +12,16 @@ team modify team8 nametagVisibility never
 execute if score game_mode options matches 1 run function ssbrc:logic/start/setup/stock
 execute if score game_mode options matches 2 run function ssbrc:logic/start/setup/time
 
-execute if entity @a[tag=byleth] run summon minecraft:marker 0.5 25.0 0.5 {Tags:["byleth.spinner"]}
-execute if entity @a[tag=ganondorf] run summon minecraft:marker 0.5 25.0 0.5 {Tags:["ganondorf.spinner"]}
-execute if entity @a[tag=link] run summon minecraft:marker 0.5 25.0 0.5 {Tags:["link.spinner"]}
-execute if entity @a[tag=ryu] run summon minecraft:marker 0.5 25.0 0.5 {Tags:["ryu.spinner"]}
-execute if entity @a[tag=sora] run summon minecraft:marker 0.5 25.0 0.5 {Tags:["sora.spinner"]}
-execute if entity @a[tag=toon_link] run summon minecraft:marker 0.5 25.0 0.5 {Tags:["toon_link.spinner"]}
+summon minecraft:marker 0.5 25.0 0.5 {Tags:["spinner"]}
+
+data modify storage ssbrc:data spinner_1_x set value 0f
+data modify storage ssbrc:data spinner_2_x set value 0f
+data modify storage ssbrc:data spinner_3_x set value 0f
+data modify storage ssbrc:data spinner_4_x set value 0f
+data modify storage ssbrc:data spinner_5_x set value 0f
+data modify storage ssbrc:data spinner_6_x set value 0f
+data modify storage ssbrc:data spinner_7_x set value 0f
+data modify storage ssbrc:data spinner_8_x set value 0f
 
 execute as @a[predicate=ssbrc:flag/player] run function ssbrc:logic/start/fighters
 

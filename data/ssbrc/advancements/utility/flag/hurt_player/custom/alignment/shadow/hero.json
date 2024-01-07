@@ -1,0 +1,43 @@
+{
+	"parent": "ssbrc:utility/flag/hurt_player/custom/alignment/root",
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:player_hurt_entity",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:value_check",
+						"value": {
+							"type": "minecraft:score",
+							"target": {
+								"type": "minecraft:fixed",
+								"name": "gameStage"
+							},
+							"score": "temp"
+						},
+						"range": 4
+					},
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"nbt": "{Tags:[\"shadow\"]}"
+						}
+					}
+				],
+				"damage": {
+					"blocked": false
+				},
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"nbt": "{Tags:[\"shadow\",\"alignment.hero\"]}"
+						}
+					}
+				]
+			}
+		}
+	}
+}

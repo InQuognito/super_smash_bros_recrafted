@@ -1,5 +1,5 @@
 {
-	"parent": "ssbrc:utility/root",
+	"parent": "ssbrc:utility/flag/hurt_player/custom/alignment/root",
 	"criteria": {
 		"requirement": {
 			"trigger": "minecraft:player_hurt_entity",
@@ -31,7 +31,7 @@
 				"entity": [
 					{
 						"condition": "minecraft:reference",
-						"name": "ssbrc:fighters/alignment/hero"
+						"name": "ssbrc:fighters/alignment/villain"
 					}
 				]
 			}

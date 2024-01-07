@@ -16,13 +16,17 @@
 							"score": "temp"
 						},
 						"range": 4
+					},
+					{
+						"condition": "minecraft:random_chance",
+						"chance": 0.075
 					}
 				],
 				"damage": {
 					"source_entity": {
 						"equipment": {
 							"mainhand": {
-								"nbt": "{rockSmash:1}"
+								"nbt": "{bite:1}"
 							}
 						}
 					}
@@ -31,6 +35,6 @@
 		}
 	},
 	"rewards": {
-		"function": "ssbrc:fighters/pokemon_trainer/logic/charizard/rock_smash/check"
+		"function": "ssbrc:fighters/pokemon_trainer/logic/squirtle/bite/activate"
 	}
 }
