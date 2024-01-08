@@ -7,4 +7,4 @@ execute if entity @s[scores={charge.1=40..70}] run function ssbrc:fighters/hero/
 
 execute if entity @s[scores={charge.1=40}] run function ssbrc:fighters/hero/logic/abilities/spells/magic_burst/unleash
 
-scoreboard players reset @s[scores={charge.1=71..}] charge.1
+execute if entity @s[scores={charge.1=71..}] run function ssbrc:fighters/hero/logic/abilities/spells/magic_burst/reset

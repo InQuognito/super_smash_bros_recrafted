@@ -8,8 +8,8 @@ execute as @e[tag=!self,predicate=ssbrc:flag/targets,distance=2.1..4] run damage
 
 execute as @e[tag=!self,predicate=ssbrc:flag/targets,distance=..2] run damage @s 40.0 ssbrc:generic by @a[tag=self,limit=1]
 
-scoreboard players reset @s charge.1
-
 tag @s remove kamikazee
+
+scoreboard players reset @s charge.1
 
 kill @s
