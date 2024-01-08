@@ -10,6 +10,8 @@ execute if score #percentage temp matches 51..75 run function ssbrc:fighters/her
 
 execute if score #percentage temp matches 76.. run function ssbrc:fighters/hero/logic/abilities/spells/magic_burst/unleash/4
 
+tag @s remove magic_burst
+
 function ssbrc:logic/fighters/effects/mobility/mobilize
 
 function ssbrc:fighters/hero/logic/abilities/spells/activate

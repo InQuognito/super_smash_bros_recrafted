@@ -10,4 +10,6 @@ execute as @e[tag=!self,predicate=ssbrc:flag/targets,distance=..2] run damage @s
 
 scoreboard players reset @s charge.1
 
+tag @s remove kamikazee
+
 kill @s
