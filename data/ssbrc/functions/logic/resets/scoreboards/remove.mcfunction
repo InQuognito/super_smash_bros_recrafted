@@ -53,7 +53,6 @@ scoreboard objectives remove healthTimer
 scoreboard objectives remove id
 scoreboard objectives remove immobile
 scoreboard objectives remove integers
-scoreboard objectives remove intimidate
 scoreboard objectives remove item_count
 scoreboard objectives remove item.charge.input
 scoreboard objectives remove item.charge.output

@@ -53,7 +53,6 @@ scoreboard objectives add healthTimer dummy
 scoreboard objectives add id dummy
 scoreboard objectives add immobile dummy
 scoreboard objectives add integers dummy
-scoreboard objectives add intimidate dummy
 scoreboard objectives add item_count dummy
 scoreboard objectives add item.charge.input minecraft.used:minecraft.warped_fungus_on_a_stick
 scoreboard objectives add item.charge.output dummy

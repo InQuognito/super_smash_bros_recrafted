@@ -1,5 +1,5 @@
 scoreboard players operation team temp = @s team
-execute if entity @p[predicate=!ssbrc:team_match] run function ssbrc:logic/fighters/flags/get_kill/on/opponent
+execute if entity @p[tag=warebear,predicate=!ssbrc:team_match,distance=..10] run effect give @s minecraft:slowness 3 1 true
 
 #execute if score playersAlive temp matches 3.. run function ssbrc:logic/fighters/bonuses/bully
 

@@ -104,9 +104,6 @@ execute if entity @s[scores={leechSeedStacks=1..}] run function ssbrc:fighters/p
 scoreboard players remove @s[scores={flinch=1..}] flinch 1
 execute if score @s flinch matches 1 run function ssbrc:logic/fighters/effects/mobility/mobilize
 
-execute unless entity @a[tag=warebear,predicate=!ssbrc:team_match,distance=..10] run scoreboard players reset @s intimidation
-scoreboard players operation @s intimidation = @p[tag=warebear,predicate=!ssbrc:team_match,distance=..10] id
-
 # Stage Effects
 function ssbrc:logic/stages/lava/tick
 
