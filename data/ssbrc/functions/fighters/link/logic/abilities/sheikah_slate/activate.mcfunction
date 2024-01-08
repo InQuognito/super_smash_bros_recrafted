@@ -6,3 +6,5 @@ execute positioned ^-1 ^ ^-0.2 summon minecraft:marker run function ssbrc:fighte
 
 tag @s add sheikah_slate
 tag @s add pivot
+
+playsound ssbrc:fighters.link.sheikah_slate.activate player @a

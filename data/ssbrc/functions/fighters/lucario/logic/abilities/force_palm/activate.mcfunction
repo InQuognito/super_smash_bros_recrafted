@@ -3,4 +3,4 @@ execute positioned ^ ^ ^1.5 run particle minecraft:soul_fire_flame ~ ~0.75 ~ 0.2
 execute positioned ^ ^ ^1 as @e[tag=!self,predicate=ssbrc:flag/targets] run function ssbrc:fighters/lucario/logic/abilities/force_palm/target
 
 scoreboard players operation @s cooldown.2 = lucario.force_palm.cooldown vars
-execute if score @s shadow.chaosControl matches 1.. run function ssbrc:logic/fighters/cooldown_modifiers/chaos_control {type:2}
+execute if entity @s[scores={shadow.chaosControl=1..}] run function ssbrc:logic/fighters/cooldown_modifiers/chaos_control {type:2}

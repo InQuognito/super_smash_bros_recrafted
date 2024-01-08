@@ -75,6 +75,8 @@ scoreboard players set @s[tag=sora] charge.3 0
 
 execute if entity @s[tag=steve] run function ssbrc:fighters/steve/cleanup
 
+execute at @s[tag=!bowser,predicate=ssbrc:fighters/super_mario_bros] run playsound ssbrc:fighters.super_mario_bros.death player @a
+
 execute if entity @s[tag=toon_link] run kill @e[type=minecraft:item_display,tag=toon_link.boomerang,predicate=ssbrc:id_match]
 
 execute if entity @s[tag=yar] run function ssbrc:fighters/yar/cleanup

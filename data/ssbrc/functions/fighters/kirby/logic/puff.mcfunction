@@ -7,7 +7,7 @@ effect give @s[scores={charge.2=4}] minecraft:levitation 1 19 true
 effect give @s[scores={charge.2=5}] minecraft:levitation 1 17 true
 
 scoreboard players set @s cooldown.2 8
-execute if score @s shadow.chaosControl matches 1.. run function ssbrc:logic/fighters/cooldown_modifiers/chaos_control {type:2}
+execute if entity @s[scores={shadow.chaosControl=1..}] run function ssbrc:logic/fighters/cooldown_modifiers/chaos_control {type:2}
 
 execute if score @s charge.2 matches 1 run function ssbrc:logic/fighters/flags/use_recovery
 
