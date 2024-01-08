@@ -29,7 +29,7 @@ attribute @s[scores={flag.sprinting=54..55}] minecraft:generic.movement_speed ba
 attribute @s[scores={flag.sprinting=56..57}] minecraft:generic.movement_speed base set 0.1456
 attribute @s[scores={flag.sprinting=58..59}] minecraft:generic.movement_speed base set 0.1485
 attribute @s[scores={flag.sprinting=60..}] minecraft:generic.movement_speed base set 0.1515
-execute at @s[scores={flag.sprinting=60..}] positioned ~ ~0.1 ~ run function ssbrc:fighters/shadow/logic/speed/full
+execute if entity @s[scores={flag.sprinting=60..}] positioned ~ ~0.1 ~ run function ssbrc:fighters/shadow/logic/speed/full
 
 function ssbrc:math/speed/calculate
 scoreboard players operation sqrt.output math /= 8 integers

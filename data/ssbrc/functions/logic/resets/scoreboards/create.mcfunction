@@ -128,7 +128,7 @@ scoreboard objectives add snake.socomM dummy
 scoreboard objectives add snake.socomR dummy
 scoreboard objectives add snake.antiPersonnelMineA dummy
 scoreboard objectives add snake.smokeGrenadeA dummy
-scoreboard objectives add sprintDistance minecraft.custom:minecraft.sprint_one_cm
+scoreboard objectives add sprint_distance minecraft.custom:minecraft.sprint_one_cm
 scoreboard objectives add stageIndex dummy
 scoreboard objectives add stageIndexCalculator dummy
 scoreboard objectives add steve.tier dummy
@@ -148,7 +148,7 @@ scoreboard objectives add tower_of_fateBarrier dummy
 scoreboard objectives add useAbility minecraft.used:minecraft.carrot_on_a_stick
 scoreboard objectives add useItem minecraft.used:minecraft.warped_fungus_on_a_stick
 scoreboard objectives add vars dummy
-scoreboard objectives add walkDistance minecraft.custom:minecraft.walk_one_cm
+scoreboard objectives add walk_distance minecraft.custom:minecraft.walk_one_cm
 scoreboard objectives add yar.droneHealth dummy
 scoreboard objectives add zelda.rupee.down dummy
 scoreboard objectives add zelda.rupee.up dummy

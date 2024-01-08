@@ -128,7 +128,7 @@ scoreboard objectives remove snake.socomM
 scoreboard objectives remove snake.socomR
 scoreboard objectives remove snake.antiPersonnelMineA
 scoreboard objectives remove snake.smokeGrenadeA
-scoreboard objectives remove sprintDistance
+scoreboard objectives remove sprint_distance
 scoreboard objectives remove stageIndex
 scoreboard objectives remove stageIndexCalculator
 scoreboard objectives remove steve.tier
@@ -148,7 +148,7 @@ scoreboard objectives remove tower_of_fateBarrier
 scoreboard objectives remove useAbility
 scoreboard objectives remove useItem
 scoreboard objectives remove vars
-scoreboard objectives remove walkDistance
+scoreboard objectives remove walk_distance
 scoreboard objectives remove yar.droneHealth
 scoreboard objectives remove zelda.rupee.down
 scoreboard objectives remove zelda.rupee.up

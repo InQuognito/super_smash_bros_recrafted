@@ -6,10 +6,10 @@ execute if entity @s[tag=!reloading] run function ssbrc:fighters/snake/logic/hud
 title @s[tag=reloading] actionbar [{"translate":"ssbrc.fighters.snake.reloading","color":"gray"}]
 
 # Reload
-execute at @s[scores={snake.psg1R=1..}] run function ssbrc:fighters/snake/logic/weapons/psg1/reload/tick
-execute at @s[scores={snake.famasR=1..}] run function ssbrc:fighters/snake/logic/weapons/famas/reload/tick
-execute at @s[scores={snake.s1000R=1..}] run function ssbrc:fighters/snake/logic/weapons/s1000/reload/tick
-execute at @s[scores={snake.socomR=1..}] run function ssbrc:fighters/snake/logic/weapons/socom/reload/tick
+execute if entity @s[scores={snake.psg1R=1..}] run function ssbrc:fighters/snake/logic/weapons/psg1/reload/tick
+execute if entity @s[scores={snake.famasR=1..}] run function ssbrc:fighters/snake/logic/weapons/famas/reload/tick
+execute if entity @s[scores={snake.s1000R=1..}] run function ssbrc:fighters/snake/logic/weapons/s1000/reload/tick
+execute if entity @s[scores={snake.socomR=1..}] run function ssbrc:fighters/snake/logic/weapons/socom/reload/tick
 
 # Weapons
 execute if entity @s[tag=psg1] run function ssbrc:fighters/snake/logic/weapons/psg1/player

@@ -6,4 +6,4 @@ scoreboard players reset @s timer
 
 function ssbrc:logic/fighters/armor/get
 
-execute at @s run playsound ssbrc:fighters.pit.wings.regain player @s
+playsound ssbrc:fighters.pit.wings.regain player @s

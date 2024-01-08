@@ -14,7 +14,7 @@ execute if entity @s[nbt=!{SelectedItem:{tag:{bow:1}}},nbt={Inventory:[{tag:{bow
 # Passive Items
 effect clear @s[nbt={Inventory:[{tag:{goronLocket:1}}]}] minecraft:wither
 
-execute at @s[nbt={Inventory:[{tag:{torchOfWisdom:1}}]}] as @e[predicate=ssbrc:flag/targets,predicate=!ssbrc:team_match,predicate=!ssbrc:fighters/effects/has/glowing,distance=..10] run effect give @s minecraft:glowing 1 255 true
+execute at @s[nbt={Inventory:[{tag:{torchOfWisdom:1}}]}] run effect give @e[predicate=ssbrc:flag/targets,predicate=!ssbrc:team_match,predicate=!ssbrc:fighters/effects/has/glowing,distance=..10] minecraft:glowing 1 255 true
 
 effect clear @s[nbt=!{Inventory:[{tag:{nayrusRing:1}}]}] minecraft:resistance
 execute if entity @s[nbt={Inventory:[{tag:{nayrusRing:1}}]}] run function ssbrc:fighters/zelda/logic/passive_items/nayrus_ring/tick
@@ -27,10 +27,10 @@ execute if entity @s[scores={zelda.rupee.down=1..}] run function ssbrc:fighters/
 execute if entity @s[scores={zelda.rupee.up=1..}] run function ssbrc:fighters/zelda/logic/add_rupees
 
 # Great Fairy Blessings
-execute if score @s zelda.enchantArmor matches 1.. run function ssbrc:fighters/zelda/logic/blessings/enchant_armor/tick
+execute if entity @s[scores={zelda.enchantArmor=1..}] run function ssbrc:fighters/zelda/logic/blessings/enchant_armor/tick
 
 scoreboard players remove @s[scores={zelda.halfMagic=1..}] zelda.halfMagic 1
 
 scoreboard players remove @s[scores={zelda.shatterResist=1..}] zelda.shatterResist 1
 
-execute if score @s zelda.specialBond matches 1.. run function ssbrc:fighters/zelda/logic/blessings/special_bond/tick
+execute if entity @s[scores={zelda.specialBond=1..}] run function ssbrc:fighters/zelda/logic/blessings/special_bond/tick

@@ -95,8 +95,8 @@ scoreboard players set pokemon_trainer.flareBlitzCooldown vars 60
 scoreboard players set pokemon_trainer.leechSeedCooldown vars 100
 scoreboard players set pokemon_trainer.waterGunCooldown vars 40
 
-scoreboard players set #rob.maxCharge vars 200
-scoreboard players set #rob.maxFuel vars 200
+scoreboard players set rob.max_charge vars 200
+scoreboard players set rob.max_fuel vars 200
 
 scoreboard players set #ryu.tatsumaki_senpukyaku vars 10
 

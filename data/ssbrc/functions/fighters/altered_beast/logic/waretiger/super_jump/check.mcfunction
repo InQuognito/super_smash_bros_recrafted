@@ -3,9 +3,8 @@ execute if score @s charge.2 >= altered_beast.super_jump_threshold vars at @s ru
 
 execute if score @s charge.2 = altered_beast.super_jump_threshold vars run function ssbrc:fighters/altered_beast/logic/waretiger/super_jump/charge
 
-scoreboard players operation super_jump_falloff temp = @s walkDistance
-scoreboard players operation super_jump_falloff temp += @s sprintDistance
-execute if score @s charge.2 >= altered_beast.super_jump_threshold vars if score super_jump_falloff temp >= altered_beast.super_jump_falloff vars run function ssbrc:fighters/altered_beast/logic/waretiger/super_jump/reset
+function ssbrc:logic/fighters/move_distance
+execute if score @s charge.2 >= altered_beast.super_jump_threshold vars if score move_distance temp >= altered_beast.super_jump_falloff vars run function ssbrc:fighters/altered_beast/logic/waretiger/super_jump/reset
 
 scoreboard players add @s[scores={charge.3=1..}] charge.3 1
 execute if entity @s[scores={charge.3=15..}] run function ssbrc:fighters/altered_beast/logic/waretiger/super_jump/activate

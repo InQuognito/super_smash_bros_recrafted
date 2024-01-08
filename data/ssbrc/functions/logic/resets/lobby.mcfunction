@@ -7,7 +7,7 @@ summon minecraft:text_display -520.5 5.25 -1951.5 {text:'[{"translate":"✪ ","c
 
 summon minecraft:text_display -528.5 6.75 -1939.5 {Tags:["lobby.action"],text:'{"translate":"ssbrc.lobby.join","color":"gold"}',billboard:center}
 summon minecraft:text_display -528.5 6.5 -1939.5 {Tags:["lobby.status"],text:'[{"translate":"ssbrc.lobby.status","color":"gold"},{"translate":"ssbrc.lobby.status.fighterSelect","color":"yellow"}]',billboard:center}
-summon minecraft:text_display -528.5 6.25 -1939.5 {Tags:["lobby.players"],text:'[{"translate":"ssbrc.lobby.players","color":"gold"},{"translate":"0/8","color":"yellow"}]',billboard:center}
+summon minecraft:text_display -528.5 6.25 -1939.5 {Tags:["lobby.players"],text:'[{"translate":"ssbrc.lobby.players","color":"gold"},{"text":"0/8","color":"yellow"}]',billboard:center}
 summon minecraft:text_display -528.5 6.0 -1939.5 {Tags:["lobby.timer"],billboard:center}
 
 summon minecraft:text_display -528.5 6.75 -1949.5 {text:'{"translate":"ssbrc.lobby.credits","color":"gold"}',billboard:center}

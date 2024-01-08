@@ -38,7 +38,7 @@ attribute @s[scores={flag.sprinting=37}] minecraft:generic.movement_speed base s
 attribute @s[scores={flag.sprinting=38}] minecraft:generic.movement_speed base set 0.1803
 attribute @s[scores={flag.sprinting=39}] minecraft:generic.movement_speed base set 0.1841
 attribute @s[scores={flag.sprinting=40..}] minecraft:generic.movement_speed base set 0.1880
-execute at @s[scores={flag.sprinting=40..}] unless block ~ ~-0.1 ~ minecraft:air positioned ~ ~0.1 ~ run function ssbrc:fighters/sonic/logic/speed/full
+execute at @s[scores={flag.sprinting=40..},predicate=!ssbrc:flag/in_air] positioned ~ ~0.1 ~ run function ssbrc:fighters/sonic/logic/speed/full
 
 function ssbrc:math/speed/calculate
 scoreboard players operation sqrt.output math /= 8 integers

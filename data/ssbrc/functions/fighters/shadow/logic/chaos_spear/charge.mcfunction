@@ -8,3 +8,6 @@ particle minecraft:dust 1.0 1.0 0.0 1.0 ^-0.45 ^-0.6 ^0.75 0.03 0.03 0.03 0.0 1 
 particle minecraft:dust 1.0 1.0 0.0 1.0 ^-0.75 ^-0.6 ^0.75 0.03 0.03 0.03 0.0 1 normal @a
 particle minecraft:dust 1.0 1.0 0.0 1.0 ^-0.30 ^-0.6 ^0.50 0.03 0.03 0.03 0.0 1 normal @a
 particle minecraft:dust 1.0 1.0 0.0 1.0 ^-0.90 ^-0.6 ^0.50 0.03 0.03 0.03 0.0 1 normal @a
+
+scoreboard players add @s charge.1 1
+execute if entity @s[scores={charge.1=15..}] run function ssbrc:fighters/shadow/logic/chaos_spear/summon
