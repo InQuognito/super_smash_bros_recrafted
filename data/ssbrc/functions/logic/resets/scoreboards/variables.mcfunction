@@ -59,6 +59,7 @@ scoreboard players set hero.spell.hocus_pocus.cost vars 4
 scoreboard players set hero.spell.kaboom.cost vars 37
 scoreboard players set hero.spell.kaclang.cost vars 6
 scoreboard players set hero.spell.kacrackle_slash.cost vars 11
+scoreboard players set hero.spell.kamikazee.cost vars 1
 scoreboard players set hero.spell.multiheal.cost vars 20
 
 scoreboard players set jigglypuff.hyperVoiceCooldown vars 40

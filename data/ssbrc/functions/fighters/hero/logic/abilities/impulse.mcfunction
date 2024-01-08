@@ -12,6 +12,8 @@ execute unless score spell_activated temp matches 1 store success score spell_ac
 
 execute unless score spell_activated temp matches 1 store success score spell_activated temp if entity @s[nbt={SelectedItem:{tag:{kacrackle_slash:1}}}] run function ssbrc:fighters/hero/logic/abilities/spells/kacrackle_slash/check
 
+execute unless score spell_activated temp matches 1 store success score spell_activated temp if entity @s[nbt={SelectedItem:{tag:{kamikazee:1}}}] run function ssbrc:fighters/hero/logic/abilities/spells/kamikazee/check
+
 execute unless score spell_activated temp matches 1 store success score spell_activated temp if entity @s[nbt={SelectedItem:{tag:{magic_burst:1}}}] run function ssbrc:fighters/hero/logic/abilities/spells/magic_burst/activate
 
 execute unless score spell_activated temp matches 1 store success score spell_activated temp if entity @s[nbt={SelectedItem:{tag:{multiheal:1}}}] run function ssbrc:fighters/hero/logic/abilities/spells/multiheal/check
