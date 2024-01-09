@@ -4,6 +4,9 @@ execute if score game_mode options matches 1 run function ssbrc:logic/stocks/sto
 execute if score game_mode options matches 2 run scoreboard players remove @s points 1
 execute if score game_mode options matches 2 unless score gameTime timer matches ..3 run scoreboard players set @s respawn 60
 
+execute if score game_mode options matches 3 run scoreboard players set @s respawn 100
+execute if score game_mode options matches 3 run effect give @s minecraft:blindness 5 0 true
+
 # Spectate during respawn timer
 gamemode spectator @s
 spectate @r[predicate=ssbrc:flag/player] @s

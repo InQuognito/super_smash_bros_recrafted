@@ -1,8 +1,7 @@
 title @s title ""
 
-scoreboard players set @s respawn 0
-
-function ssbrc:logic/respawn/start
+execute unless score game_mode options matches 3 run function ssbrc:logic/respawn/start
+execute if score game_mode options matches 3 run function ssbrc:logic/respawn/capture_the_flag
 
 gamemode adventure @s
 
