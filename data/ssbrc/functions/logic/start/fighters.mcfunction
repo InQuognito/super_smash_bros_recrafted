@@ -14,6 +14,7 @@ scoreboard players set @s[tag=toon_link] durability 300
 scoreboard players set @s[tag=zelda] durability 322
 
 execute if score teams options matches 0 run scoreboard players operation team temp = @s id
+execute if score teams options matches 1 run scoreboard players operation team temp = @s team
 function ssbrc:logic/teams/set
 
 execute store result score @s health run data get entity @s Health
