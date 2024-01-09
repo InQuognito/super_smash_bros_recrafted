@@ -3,7 +3,7 @@ execute if entity @s[nbt={SelectedItem:{tag:{favorites:1}}}] run function ssbrc:
 execute if entity @s[nbt={SelectedItem:{tag:{random:1}}}] run function ssbrc:fighters/random
 
 # Teams
-execute store success score team_switched temp if entity @s[nbt={SelectedItem:{tag:{teamFlag:1,team.pink:1}}}] run function ssbrc:logic/teams/aqua
+execute if entity @s[nbt={SelectedItem:{tag:{teamFlag:1,team.pink:1}}}] run return run function ssbrc:logic/teams/aqua
 execute if entity @s[nbt={SelectedItem:{tag:{teamFlag:1,team.orange:1}}}] run return run function ssbrc:logic/teams/pink
 execute if entity @s[nbt={SelectedItem:{tag:{teamFlag:1,team.purple:1}}}] run return run function ssbrc:logic/teams/orange
 execute if entity @s[nbt={SelectedItem:{tag:{teamFlag:1,team.yellow:1}}}] run return run function ssbrc:logic/teams/purple
