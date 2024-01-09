@@ -12,6 +12,6 @@ scoreboard players set @s[predicate=ssbrc:flag/player] flag.dead 0
 effect give @s[predicate=ssbrc:flag/player] minecraft:levitation infinite 255 true
 effect give @s[predicate=ssbrc:flag/player] minecraft:slowness infinite 255 true
 
-tag @s[predicate=ssbrc:flag/player] add respawnMe
+tag @s[predicate=ssbrc:flag/player] add spawnMe
 
 tag @s remove room.mapVoting
