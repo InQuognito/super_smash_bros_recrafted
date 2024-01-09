@@ -13,7 +13,7 @@
 							"entity": "this",
 							"name": {
 								"translate": "ssbrc.tooltips.hero.kamikazee",
-								"color": "aqua",
+								"color": "gold",
 								"bold": true,
 								"italic": false
 							}
