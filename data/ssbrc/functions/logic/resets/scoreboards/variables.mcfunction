@@ -52,6 +52,8 @@ scoreboard players set hero.max_mana vars 100
 scoreboard players operation hero.half_mana vars = hero.max_mana vars
 scoreboard players operation hero.half_mana vars /= 2 integers
 scoreboard players set hero.spell.cooldown vars 40
+scoreboard players set hero.spell.accelerate.cost vars 13
+scoreboard players set hero.spell.acceleratle.cost vars 26
 scoreboard players set hero.spell.bang.cost vars 9
 scoreboard players set hero.spell.flame_slash.cost vars 12
 scoreboard players set hero.spell.heal.cost vars 7
