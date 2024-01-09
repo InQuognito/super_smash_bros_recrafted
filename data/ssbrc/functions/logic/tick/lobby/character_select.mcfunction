@@ -13,5 +13,4 @@ execute if score game_mode options matches 3 if entity @s[nbt={SelectedItem:{tag
 execute if entity @s[nbt={SelectedItem:{tag:{teamFlag:1,team.red:1}}}] run return run function ssbrc:logic/teams/blue
 execute if entity @s[nbt={SelectedItem:{tag:{teamFlag:1,team.aqua:1}}}] run return run function ssbrc:logic/teams/red
 
-scoreboard players reset team_switched temp
 scoreboard players reset @s selectItem
