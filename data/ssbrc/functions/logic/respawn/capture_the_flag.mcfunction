@@ -1,3 +1,3 @@
-teleport @s[team=team1] @e[type=minecraft:marker,tag=spawnpoint,tag=team1,limit=1]
+scoreboard players operation team temp = @s team
 
-teleport @s[team=team2] @e[type=minecraft:marker,tag=spawnpoint,tag=team2,limit=1]
+teleport @s @e[type=minecraft:marker,tag=spawnpoint,predicate=ssbrc:team_match,limit=1]
