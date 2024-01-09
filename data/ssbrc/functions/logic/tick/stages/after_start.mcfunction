@@ -27,3 +27,5 @@ execute if score sector_z map matches 1 run function ssbrc:stages/sector_z/logic
 execute if score shadow_moses_island map matches 1 run function ssbrc:stages/shadow_moses_island/logic/tick
 execute if score spear_pillar map matches 1 run function ssbrc:stages/spear_pillar/logic/tick
 execute if score tower_of_fate map matches 1 run function ssbrc:stages/tower_of_fate/logic/tick
+
+execute if score capture_the_flag map matches 1 run function ssbrc:stages/capture_the_flag/logic/tick
