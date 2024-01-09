@@ -6,6 +6,7 @@ execute if score game_mode options matches 2 unless score gameTime timer matches
 
 execute if score game_mode options matches 3 run scoreboard players set @s respawn 100
 execute if score game_mode options matches 3 run effect give @s minecraft:blindness 5 0 true
+execute if score game_mode options matches 3 if entity @s[tag=silenced] run function ssbrc:stages/capture_the_flag/logic/flags/drop
 
 # Spectate during respawn timer
 gamemode spectator @s

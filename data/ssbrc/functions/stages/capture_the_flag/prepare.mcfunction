@@ -1,8 +1,8 @@
 summon minecraft:marker -49950.5 19.0 50024.5 {Tags:["centerPoint"]}
 
 # Flags
-execute positioned -49907.5 19.6 50024.5 summon minecraft:item_display run function ssbrc:stages/capture_the_flag/logic/flags/init/team1
-execute positioned -49993.5 19.6 50024.5 summon minecraft:item_display run function ssbrc:stages/capture_the_flag/logic/flags/init/team2
+execute positioned -49907.5 19.6 50024.5 summon minecraft:marker run function ssbrc:stages/capture_the_flag/logic/init/team1
+execute positioned -49993.5 19.6 50024.5 summon minecraft:marker run function ssbrc:stages/capture_the_flag/logic/init/team2
 
 execute if predicate ssbrc:items run function ssbrc:stages/capture_the_flag/item_spawnpoints
 

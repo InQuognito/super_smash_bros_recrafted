@@ -5,7 +5,7 @@ function ssbrc:logic/fighters/effects/jump_boost
 
 effect give @s[tag=greninja] minecraft:conduit_power infinite 255 true
 
-execute unless score $blackout temp matches 1 run effect give @s[tag=!snake] minecraft:glowing infinite 255 true
+execute unless score game_mode options matches 3 unless score $blackout temp matches 1 run effect give @s[tag=!snake] minecraft:glowing infinite 255 true
 
 execute if entity @s[tag=zelda] run function ssbrc:fighters/zelda/logic/passive_items/apply
 
