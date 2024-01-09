@@ -2,7 +2,7 @@
 function ssbrc:fighters/luigi/logic/abilities/ice_ball/cooldown
 
 # Super Jump
-scoreboard players add @s[predicate=ssbrc:flag/sneaking,predicate=!ssbrc:flag/in_air] charge.1 1
+scoreboard players add @s[tag=!silenced,predicate=ssbrc:flag/sneaking,predicate=!ssbrc:flag/in_air] charge.1 1
 execute if score @s charge.1 >= #luigi.superJumpThreshold vars run particle minecraft:glow ~ ~0.01 ~ 0.2 0.2 0.2 0.0 2 normal @a
 
 execute if score @s charge.1 = #luigi.superJumpThreshold vars run function ssbrc:fighters/luigi/logic/abilities/super_jump/charge

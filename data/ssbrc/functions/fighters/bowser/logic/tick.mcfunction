@@ -1,5 +1,5 @@
 # Fire Breath
-execute if entity @s[predicate=ssbrc:flag/sneaking] run function ssbrc:fighters/bowser/logic/abilities/fire_breath/tick
+execute if entity @s[tag=!silenced,predicate=ssbrc:flag/sneaking] run function ssbrc:fighters/bowser/logic/abilities/fire_breath/tick
 execute if score @s[predicate=!ssbrc:flag/sneaking,scores={cooldown.1=..0}] charge.1 < #bowser.maxFireBreath vars run scoreboard players add @s charge.1 1
 
 function ssbrc:fighters/bowser/logic/abilities/fire_breath/update

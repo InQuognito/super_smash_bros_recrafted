@@ -2,7 +2,7 @@
 execute unless score @s[nbt=!{Inventory:[{tag:{holyWater:1}}]},scores={cooldown.2=..0}] duration.1 matches 1.. run loot give @s loot ssbrc:fighters/alucard/holy_water
 
 # Mist
-execute if entity @s[scores={cooldown.1=..0},predicate=ssbrc:flag/sneaking,predicate=ssbrc:flag/in_air] run function ssbrc:fighters/alucard/logic/abilities/mist/activate
+execute if entity @s[tag=!silenced,scores={cooldown.1=..0},predicate=ssbrc:flag/sneaking,predicate=ssbrc:flag/in_air] run function ssbrc:fighters/alucard/logic/abilities/mist/activate
 
 execute if entity @s[scores={duration.1=2..}] positioned ~ ~0.75 ~ run function ssbrc:fighters/alucard/logic/abilities/mist/tick
 execute if entity @s[scores={duration.1=1}] run function ssbrc:fighters/alucard/logic/abilities/mist/deactivate

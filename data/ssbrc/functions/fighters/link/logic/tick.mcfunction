@@ -4,8 +4,8 @@ execute if entity @s[scores={health=40..},nbt={Inventory:[{tag:{masterSword:1,aw
 execute if entity @s[scores={health=..6}] run function ssbrc:fighters/link/logic/low_health_alert/check
 
 # Sword Spin
-execute if entity @s[predicate=ssbrc:flag/sneaking,scores={charge.output=1..},nbt={SelectedItem:{tag:{masterSword:1}}}] positioned ~ ~0.75 ~ run function ssbrc:fighters/link/logic/abilities/sword_spin/charge/default
-execute if entity @s[tag=swordSpin,predicate=!ssbrc:flag/sneaking,scores={charge.output=1..}] run function ssbrc:fighters/link/logic/abilities/sword_spin/cancel
+execute if entity @s[tag=!silenced,scores={charge.output=1..},nbt={SelectedItem:{tag:{masterSword:1}}},predicate=ssbrc:flag/sneaking] positioned ~ ~0.75 ~ run function ssbrc:fighters/link/logic/abilities/sword_spin/charge/default
+execute if entity @s[tag=swordSpin,scores={charge.output=1..},predicate=!ssbrc:flag/sneaking] run function ssbrc:fighters/link/logic/abilities/sword_spin/cancel
 
 execute if entity @s[tag=spinning] run function ssbrc:fighters/link/logic/abilities/sword_spin/tick
 

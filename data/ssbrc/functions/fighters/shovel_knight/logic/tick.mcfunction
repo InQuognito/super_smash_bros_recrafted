@@ -4,7 +4,7 @@ function ssbrc:fighters/shovel_knight/logic/mana/update
 # Shovel Drop
 execute if entity @s[nbt={SelectedItem:{tag:{shovelDrop:1}}}] run function ssbrc:fighters/shovel_knight/logic/abilities/shovel_drop/tick
 
-loot replace entity @s[nbt={SelectedItem:{tag:{shovelDrop:0}}},predicate=ssbrc:flag/sneaking,predicate=ssbrc:flag/in_air] weapon.mainhand loot ssbrc:fighters/shovel_knight/shovel_blade
+loot replace entity @s[tag=!silenced,nbt={SelectedItem:{tag:{shovelDrop:0}}},predicate=ssbrc:flag/sneaking,predicate=ssbrc:flag/in_air] weapon.mainhand loot ssbrc:fighters/shovel_knight/shovel_blade
 
 execute if entity @s[scores={charge.3=1..}] run function ssbrc:fighters/shovel_knight/logic/abilities/shovel_drop/cooldown
 

@@ -2,7 +2,7 @@
 execute if entity @s[scores={duration.1=1..}] run function ssbrc:fighters/joker/logic/abilities/persona_awakening/tick
 
 # Rebel's Guard
-execute if entity @s[tag=!rebels_guard,predicate=ssbrc:flag/sneaking,nbt={SelectedItem:{tag:{rebelKnife:1}}}] unless score @s duration.1 matches 1.. unless score @s duration.2 matches 1.. run function ssbrc:fighters/joker/logic/abilities/rebels_guard/activate
+execute if entity @s[tag=!silenced,tag=!rebels_guard,predicate=ssbrc:flag/sneaking,nbt={SelectedItem:{tag:{rebelKnife:1}}}] unless score @s duration.1 matches 1.. unless score @s duration.2 matches 1.. run function ssbrc:fighters/joker/logic/abilities/rebels_guard/activate
 execute if entity @s[tag=rebels_guard] run function ssbrc:fighters/joker/logic/abilities/rebels_guard/tick
 
 # Final Guard
