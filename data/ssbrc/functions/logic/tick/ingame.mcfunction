@@ -1,7 +1,7 @@
 execute as @e[type=!minecraft:player] run function ssbrc:logic/tick/non_players
 
 execute as @a[scores={flag.dead=1..}] run function ssbrc:logic/stocks/lose_stock
-execute as @a[scores={respawn=2..}] run function ssbrc:logic/tick/respawn
+execute as @a[scores={respawn=1..}] run function ssbrc:logic/tick/respawn
 
 gamemode spectator @a[team=dead]
 gamemode spectator @a[team=spectator]
