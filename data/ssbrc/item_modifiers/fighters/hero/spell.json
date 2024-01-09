@@ -1,7 +1,7 @@
 [
 	{
 		"function": "minecraft:reference",
-		"name": "ssbrc:fighters/init/animation/instant"
+		"name": "ssbrc:fighters/init/unbreakable/instant"
 	},
 	{
 		"function": "minecraft:set_nbt",

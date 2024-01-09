@@ -22,6 +22,8 @@ tag @s remove immobile
 tag @s remove tornado.spin
 
 # Items
+clear @s #ssbrc:items{item:1}
+
 tag @s remove angel_feather
 scoreboard players reset @s item.franklin_badge
 

@@ -17,7 +17,7 @@ execute if entity @s[tag=dark_samus] run function ssbrc:fighters/dark_samus/logi
 
 execute if entity @s[tag=donkey_kong] run function ssbrc:fighters/donkey_kong/restore_items
 
-execute if entity @s[tag=hero] run function ssbrc:fighters/hero/logic/abilities/spells/kaclang/deactivate
+execute if entity @s[tag=hero] run function ssbrc:fighters/hero/kit
 
 execute if entity @s[tag=joker] run function ssbrc:fighters/joker/restore_items
 
