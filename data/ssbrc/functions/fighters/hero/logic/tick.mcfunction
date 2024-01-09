@@ -1,8 +1,7 @@
 # Mana
 function ssbrc:fighters/hero/logic/mana/update
 
-function ssbrc:fighters/hero/logic/abilities/spells/cooldown
-
+# Spells
 execute if entity @s[scores={charge.1=1..}] run function ssbrc:fighters/hero/logic/abilities/spells/charge
 
 execute if entity @s[scores={cooldown.1=1}] run function ssbrc:fighters/hero/logic/abilities/spells/get
