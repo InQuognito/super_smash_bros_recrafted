@@ -71,13 +71,13 @@ execute if entity @s[scores={fallDistance=1..}] run function ssbrc:logic/fighter
 execute if entity @s[scores={jumps=1..}] run function ssbrc:logic/fighters/jump
 
 # Inputs
-execute if entity @s[scores={charge.step=5..}] run function ssbrc:logic/inputs/abilities/charge/default
-execute if entity @s[scores={useAbility=1..}] run function ssbrc:logic/inputs/abilities/impulse/default
-execute if entity @s[scores={item.charge.step=5..}] run function ssbrc:logic/inputs/items/charge
-execute if entity @s[scores={useItem=1..}] run function ssbrc:logic/inputs/items/impulse/default
+execute if entity @s[tag=!silenced,scores={charge.step=5..}] run function ssbrc:logic/inputs/abilities/charge/default
+execute if entity @s[tag=!silenced,scores={useAbility=1..}] run function ssbrc:logic/inputs/abilities/impulse/default
+execute if entity @s[tag=!silenced,scores={item.charge.step=5..}] run function ssbrc:logic/inputs/items/charge
+execute if entity @s[tag=!silenced,scores={useItem=1..}] run function ssbrc:logic/inputs/items/impulse/default
 
 # Items
-execute if entity @s[scores={item.charge.output=200..},nbt={SelectedItem:{tag:{special_flag:1}}}] run function ssbrc:items/special_flag/activate
+execute if entity @s[tag=!silenced,scores={item.charge.output=200..},nbt={SelectedItem:{tag:{special_flag:1}}}] run function ssbrc:items/special_flag/activate
 
 execute if entity @s[scores={item.cloaking_device=1..}] run function ssbrc:items/cloaking_device/tick
 execute if entity @s[scores={item.franklin_badge=1..}] positioned ~ ~0.75 ~ run function ssbrc:items/franklin_badge/tick
@@ -110,6 +110,8 @@ function ssbrc:logic/stages/lava/tick
 execute if score sand_ocean map matches 1 if score hazards options matches 1 run function ssbrc:logic/fighters/quicksand/tick
 
 execute unless score sector_z map matches 1 run effect give @s[predicate=ssbrc:below_y/0] minecraft:blindness 2 0 true
+
+execute if score capture_the_flag map matches 1 run function ssbrc:stages/capture_the_flag/logic/tick_players
 
 # Bonuses
 execute unless score @s aerialist matches 1.. run function ssbrc:logic/fighters/bonuses/aerialist/tick
