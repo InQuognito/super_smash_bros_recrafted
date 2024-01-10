@@ -1,5 +1,5 @@
 scoreboard players set @s kills 0
-scoreboard players set @s points 0
+execute unless score game_mode options matches 3 run scoreboard players set @s points 0
 
 scoreboard players operation @s stocks = stocks temp
 
