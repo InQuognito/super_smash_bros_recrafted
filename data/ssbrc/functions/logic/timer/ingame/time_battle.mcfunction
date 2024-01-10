@@ -14,7 +14,8 @@ execute if score gameTime timer matches 4 as @a[predicate=ssbrc:ingame] at @s ru
 execute if score gameTime timer matches 3 as @a[predicate=ssbrc:ingame] at @s run playsound ssbrc:three voice @s
 execute if score gameTime timer matches 2 as @a[predicate=ssbrc:ingame] at @s run playsound ssbrc:two voice @s
 execute if score gameTime timer matches 1 as @a[predicate=ssbrc:ingame] at @s run playsound ssbrc:one voice @s
-execute if score gameTime timer matches ..0 run function ssbrc:logic/post_game/winner/time
+execute if score gameTime timer matches ..0 if score game_mode options matches 2 run function ssbrc:logic/post_game/winner/time
+execute if score gameTime timer matches ..0 if score game_mode options matches 3 run function ssbrc:logic/post_game/winner/capture_the_flag
 
 execute if score hazards options matches 1 if score tower_of_fate map matches 1 unless score tower_of_fateDestroyed temp matches 1.. if score gameTimePercent temp matches ..50 run function ssbrc:stages/tower_of_fate/logic/destroy_tower/start
 

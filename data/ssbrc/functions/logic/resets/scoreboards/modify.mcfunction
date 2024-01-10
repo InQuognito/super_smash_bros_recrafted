@@ -26,3 +26,6 @@ scoreboard players display numberformat previous_time_limit options styled {"col
 
 scoreboard objectives modify points displayname {"translate":"ssbrc.game.points","bold":true,"color":"yellow"}
 scoreboard objectives modify stocks displayname {"translate":"ssbrc.game.stocks","bold":true,"color":"yellow"}
+
+scoreboard players display name team1 points {"text":"Red Team","color":"red"}
+scoreboard players display name team2 points {"text":"Blue Team","color":"blue"}

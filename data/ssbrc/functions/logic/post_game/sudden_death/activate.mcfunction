@@ -8,6 +8,6 @@ bossbar set minecraft:timer visible false
 
 execute as @a[predicate=ssbrc:ingame] run function ssbrc:logic/post_game/sudden_death/set_players_all
 
-function ssbrc:logic/pre_game/teleport_begin
+function ssbrc:logic/pre_game/teleport
 
 tag @a remove mostPoints
