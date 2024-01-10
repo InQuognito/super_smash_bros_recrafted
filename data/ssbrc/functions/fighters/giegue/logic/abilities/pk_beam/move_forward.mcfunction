@@ -1,4 +1,5 @@
-particle minecraft:dust 1.0 1.0 0.0 5.0 ~ ~ ~ 0.0 0.0 0.0 0.0 5 force @a
+particle glow ~ ~ ~ 0.1 0.1 0.1 0 1 force
+particle electric_spark ~ ~ ~ 0.1 0.1 0.1 0 1 force
 
 execute unless block ~ ~ ~ #ssbrc:passthrough run kill @s
 
