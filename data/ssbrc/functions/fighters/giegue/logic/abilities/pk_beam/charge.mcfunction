@@ -1,6 +1,5 @@
 
 scoreboard players add @s charge.1 1
-execute if score @s charge.1 matches 2 run say e
 
 execute if score @s charge.1 matches 2 positioned ^0 ^0 ^1 facing ^2 ^ ^ run function ssbrc:fighters/giegue/logic/abilities/pk_beam/particles/1
 execute if score @s charge.1 matches 3 positioned ^0 ^0 ^1 facing ^1.8 ^.2 ^ run function ssbrc:fighters/giegue/logic/abilities/pk_beam/particles/1
