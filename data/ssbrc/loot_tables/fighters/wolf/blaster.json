@@ -56,6 +56,32 @@
 							]
 						},
 						{
+							"function": "minecraft:reference",
+							"name": "ssbrc:fighters/wolf/blaster/default",
+							"conditions": [
+								{
+									"condition": "minecraft:entity_properties",
+									"entity": "this",
+									"predicate": {
+										"nbt": "{Tags:[\"star_fox_2\"]}"
+									}
+								}
+							]
+						},
+						{
+							"function": "minecraft:reference",
+							"name": "ssbrc:fighters/wolf/blaster/default",
+							"conditions": [
+								{
+									"condition": "minecraft:entity_properties",
+									"entity": "this",
+									"predicate": {
+										"nbt": "{Tags:[\"starlink\"]}"
+									}
+								}
+							]
+						},
+						{
 							"function": "minecraft:set_nbt",
 							"tag": "{blaster:1}"
 						}

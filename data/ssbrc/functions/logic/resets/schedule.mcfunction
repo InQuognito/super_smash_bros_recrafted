@@ -1,4 +1,4 @@
-schedule clear ssbrc:items/spawn
+schedule clear ssbrc:items/spawn_check
 schedule clear ssbrc:logic/music/decide
 schedule clear ssbrc:logic/music/loop_schedule
 schedule clear ssbrc:logic/timer
