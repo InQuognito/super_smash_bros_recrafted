@@ -6,6 +6,7 @@ forceload add -50016 49984 -49889 50063
 
 function ssbrc:logic/options/game_mode/capture_the_flag
 function ssbrc:logic/options/teams/on
+clear @a minecraft:written_book{options:1}
 
 time set noon
 weather clear
