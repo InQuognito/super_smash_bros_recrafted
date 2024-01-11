@@ -1,5 +1,5 @@
-particle glow ~ ~ ~ 0.1 0.1 0.1 0 1 force
-particle electric_spark ~ ~ ~ 0.1 0.1 0.1 0 1 force
+particle minecraft:glow ~ ~ ~ 0.1 0.1 0.1 0.0 1 force @a
+particle minecraft:electric_spark ~ ~ ~ 0.1 0.1 0.1 0.0 1 force @a
 
 execute unless block ~ ~ ~ #ssbrc:passthrough run kill @s
 

@@ -45,7 +45,7 @@ scoreboard players set ganondorf.summon_undead.cost vars 30
 scoreboard players set ganondorf.dark_void.cost vars 40
 
 scoreboard players set giegue.pkFreezeCooldown vars 25
-scoreboard players set giegue.pkBeamCooldown vars 60
+scoreboard players set giegue.pk_beamCooldown vars 60
 scoreboard players set #giegue.4thDimensionalSlipRange vars 6
 
 scoreboard players set hero.max_mana vars 100

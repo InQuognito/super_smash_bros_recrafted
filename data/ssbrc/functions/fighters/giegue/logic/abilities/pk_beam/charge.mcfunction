@@ -19,12 +19,5 @@ execute if entity @s[scores={charge.1=16}] facing ^-.8 ^1.2 ^ run function ssbrc
 execute if entity @s[scores={charge.1=17}] facing ^-1 ^1 ^ run function ssbrc:fighters/giegue/logic/abilities/pk_beam/particles/1
 execute if entity @s[scores={charge.1=18}] facing ^-1.2 ^.8 ^ run function ssbrc:fighters/giegue/logic/abilities/pk_beam/particles/1
 execute if entity @s[scores={charge.1=19}] facing ^-1.4 ^.6 ^ run function ssbrc:fighters/giegue/logic/abilities/pk_beam/particles/1
-execute if entity @s[scores={charge.1=20}] facing ^-1.6 ^.4 ^ run function ssbrc:fighters/giegue/logic/abilities/pk_beam/particles/1
 
-execute if entity @s[scores={charge.1=20}] facing ^ ^1 ^-5 run function ssbrc:fighters/giegue/logic/abilities/pk_beam/particles/2
-execute if entity @s[scores={charge.1=20}] facing ^1 ^-0.5 ^-5 run function ssbrc:fighters/giegue/logic/abilities/pk_beam/particles/2
-execute if entity @s[scores={charge.1=20}] facing ^-1 ^-0.5 ^-5 run function ssbrc:fighters/giegue/logic/abilities/pk_beam/particles/2
-
-execute if entity @s[scores={charge.1=20}] run function ssbrc:fighters/giegue/logic/abilities/pk_beam/particles/3
-
-execute if entity @s[scores={charge.1=20..}] at @s anchored eyes run function ssbrc:fighters/giegue/logic/abilities/pk_beam/summon
+execute if entity @s[scores={charge.1=20..}] run function ssbrc:fighters/giegue/logic/abilities/pk_beam/summon

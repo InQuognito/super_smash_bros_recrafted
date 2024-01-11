@@ -41,7 +41,7 @@ execute if entity @s[tag=dark_void] run function ssbrc:fighters/ganondorf/logic/
 
 # Giegue
 execute if entity @s[tag=pkFreeze] run function ssbrc:fighters/giegue/logic/abilities/pk_freeze/tick
-execute if entity @s[tag=pkBeam] run function ssbrc:fighters/giegue/logic/abilities/pk_beam/tick
+execute if entity @s[tag=pk_beam] run function ssbrc:fighters/giegue/logic/abilities/pk_beam/tick
 
 # Greninja
 execute if entity @s[tag=waterShuriken] run function ssbrc:fighters/greninja/logic/abilities/water_shuriken/tick
