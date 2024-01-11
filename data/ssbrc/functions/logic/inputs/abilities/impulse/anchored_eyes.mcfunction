@@ -36,8 +36,6 @@ execute if entity @s[tag=peach,scores={cooldown.1=..0}] run function ssbrc:fight
 
 execute if entity @s[tag=rob,scores={cooldown.1=..0,charge.1=1..},nbt={SelectedItem:{tag:{roboBeam:1}}}] run function ssbrc:fighters/rob/logic/abilities/robo_beam/check
 
-execute if entity @s[tag=roy] run function ssbrc:fighters/roy/logic/abilities/impulse
-
 execute if entity @s[tag=ryu,nbt={SelectedItem:{tag:{satsuiNoHadoRage:1}}}] run function ssbrc:fighters/ryu/logic/abilities/satsui_no_hado_rage/activate
 
 execute if entity @s[tag=samus] run function ssbrc:fighters/samus/logic/abilities/impulse
