@@ -7,6 +7,7 @@ execute if score @s frostbite.timer matches 1.. run function ssbrc:logic/fighter
 execute if score @s immobile matches 2.. run function ssbrc:logic/fighters/effects/mobility/tick
 execute at @s[tag=immobile] run function ssbrc:logic/fighters/effects/mobility/active
 execute at @s[tag=pivot,tag=!immobile] unless predicate ssbrc:flag/in_air run function ssbrc:logic/fighters/effects/mobility/immobilize/pivot/activate
+execute if entity @s[tag=!pivot] run kill @e[type=minecraft:marker,tag=pivot,predicate=ssbrc:id_match]
 
 execute if entity @e[type=minecraft:marker,tag=electric_terrain,distance=..12] run tag @s add in_electric_terrain
 execute if block ~ ~ ~ minecraft:water run damage @s[tag=in_electric_terrain] 6.0 ssbrc:pierce
