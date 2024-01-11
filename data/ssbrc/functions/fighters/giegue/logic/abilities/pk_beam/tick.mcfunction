@@ -1,4 +1,5 @@
 function ssbrc:fighters/giegue/logic/abilities/pk_beam/move_forward
+
 execute at @s facing ^2 ^ ^ positioned ~ ~.25 ~ run function ssbrc:fighters/giegue/logic/abilities/pk_beam/particles/4
 
 execute at @s run function ssbrc:fighters/giegue/logic/abilities/pk_beam/move_forward
