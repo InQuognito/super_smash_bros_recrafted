@@ -9,16 +9,6 @@
 					"name": "minecraft:carrot_on_a_stick",
 					"functions": [
 						{
-							"function": "minecraft:set_name",
-							"entity": "this",
-							"name": {
-								"translate": "ssbrc.tooltips.roy.bindingBlade",
-								"color": "white",
-								"bold": true,
-								"italic": false
-							}
-						},
-						{
 							"function": "minecraft:set_attributes",
 							"modifiers": [
 								{
