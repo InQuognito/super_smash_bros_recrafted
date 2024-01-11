@@ -1,5 +1,5 @@
-scoreboard players add @s charge.2 10
-scoreboard players add @s[scores={charge.2=100..}] charge.2 2
+scoreboard players add @s charge.2 5
+scoreboard players add @s[scores={charge.2=100..}] charge.2 5
 scoreboard players add @s[scores={charge.2=200..}] charge.2 2
 scoreboard players add @s[scores={charge.2=300..}] charge.2 2
 scoreboard players add @s[scores={charge.2=400..}] charge.2 2
