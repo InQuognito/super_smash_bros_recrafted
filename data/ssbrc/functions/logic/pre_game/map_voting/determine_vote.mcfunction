@@ -11,6 +11,7 @@ execute as @e[type=minecraft:text_display,tag=voteCounter,sort=nearest,limit=1] 
 execute as @e[type=minecraft:text_display,tag=voteCounter,sort=nearest,limit=1] if entity @s[tag=great_bay] as @a[tag=self,limit=1] run function ssbrc:stages/great_bay/vote
 execute as @e[type=minecraft:text_display,tag=voteCounter,sort=nearest,limit=1] if entity @s[tag=great_plateau] as @a[tag=self,limit=1] run function ssbrc:stages/great_plateau/vote
 execute as @e[type=minecraft:text_display,tag=voteCounter,sort=nearest,limit=1] if entity @s[tag=green_hill_zone] as @a[tag=self,limit=1] run function ssbrc:stages/green_hill_zone/vote
+execute as @e[type=minecraft:text_display,tag=voteCounter,sort=nearest,limit=1] if entity @s[tag=hoenn_pokemon_league] as @a[tag=self,limit=1] run function ssbrc:stages/hoenn_pokemon_league/vote
 execute as @e[type=minecraft:text_display,tag=voteCounter,sort=nearest,limit=1] if entity @s[tag=hyrule_castle] as @a[tag=self,limit=1] run function ssbrc:stages/hyrule_castle/vote
 execute as @e[type=minecraft:text_display,tag=voteCounter,sort=nearest,limit=1] if entity @s[tag=icicle_mountain] as @a[tag=self,limit=1] run function ssbrc:stages/icicle_mountain/vote
 execute as @e[type=minecraft:text_display,tag=voteCounter,sort=nearest,limit=1] if entity @s[tag=jungle_japes] as @a[tag=self,limit=1] run function ssbrc:stages/jungle_japes/vote
@@ -19,6 +20,7 @@ execute as @e[type=minecraft:text_display,tag=voteCounter,sort=nearest,limit=1] 
 execute as @e[type=minecraft:text_display,tag=voteCounter,sort=nearest,limit=1] if entity @s[tag=magicant] as @a[tag=self,limit=1] run function ssbrc:stages/magicant/vote
 execute as @e[type=minecraft:text_display,tag=voteCounter,sort=nearest,limit=1] if entity @s[tag=mementos] as @a[tag=self,limit=1] run function ssbrc:stages/mementos/vote
 execute as @e[type=minecraft:text_display,tag=voteCounter,sort=nearest,limit=1] if entity @s[tag=miiverse] as @a[tag=self,limit=1] run function ssbrc:stages/miiverse/vote
+execute as @e[type=minecraft:text_display,tag=voteCounter,sort=nearest,limit=1] if entity @s[tag=minecraft_world] as @a[tag=self,limit=1] run function ssbrc:stages/minecraft_world/vote
 execute as @e[type=minecraft:text_display,tag=voteCounter,sort=nearest,limit=1] if entity @s[tag=mushroom_kingdom] as @a[tag=self,limit=1] run function ssbrc:stages/mushroom_kingdom/vote
 execute as @e[type=minecraft:text_display,tag=voteCounter,sort=nearest,limit=1] if entity @s[tag=pac_maze] as @a[tag=self,limit=1] run function ssbrc:stages/pac_maze/vote
 execute as @e[type=minecraft:text_display,tag=voteCounter,sort=nearest,limit=1] if entity @s[tag=pallet_town] as @a[tag=self,limit=1] run function ssbrc:stages/pallet_town/vote
