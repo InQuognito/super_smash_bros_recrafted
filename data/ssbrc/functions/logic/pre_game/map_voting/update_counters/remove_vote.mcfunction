@@ -41,7 +41,7 @@ execute if entity @s[tag=yggdrasils_altar] run scoreboard players remove @e[type
 
 execute if entity @s[tag=random] run scoreboard players remove @e[type=minecraft:text_display,tag=voteCounter,tag=random,limit=1] mapVote 1
 
-function ssbrc:logic/resets/tags/maps
+function ssbrc:logic/resets/tags/stages
 
 tag @e[type=minecraft:text_display,tag=voteCounter,tag=selected] add voteCounter.update
 execute as @e[type=minecraft:text_display,tag=voteCounter.update,sort=random,limit=1] run function ssbrc:logic/pre_game/map_voting/update_counters/votes

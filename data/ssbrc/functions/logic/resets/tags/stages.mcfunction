@@ -28,6 +28,8 @@ tag @s remove great_plateau
 
 tag @s remove green_hill_zone
 
+tag @s remove hoenn_pokemon_league
+
 tag @s remove hyrule_castle
 tag @s remove tornado.spin
 
@@ -44,6 +46,8 @@ tag @s remove magicant
 tag @s remove mementos
 
 tag @s remove miiverse
+
+tag @s remove minecraft_world
 
 tag @s remove mushroom_kingdom
 
