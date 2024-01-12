@@ -12,6 +12,7 @@ execute if entity @s[tag=garden_of_hope] run scoreboard players remove @e[type=m
 execute if entity @s[tag=great_bay] run scoreboard players remove @e[type=minecraft:text_display,tag=voteCounter,tag=great_bay,limit=1] mapVote 1
 execute if entity @s[tag=great_plateau] run scoreboard players remove @e[type=minecraft:text_display,tag=voteCounter,tag=great_plateau,limit=1] mapVote 1
 execute if entity @s[tag=green_hill_zone] run scoreboard players remove @e[type=minecraft:text_display,tag=voteCounter,tag=green_hill_zone,limit=1] mapVote 1
+execute if entity @s[tag=hoenn_pokemon_league] run scoreboard players remove @e[type=minecraft:text_display,tag=voteCounter,tag=hoenn_pokemon_league,limit=1] mapVote 1
 execute if entity @s[tag=hyrule_castle] run scoreboard players remove @e[type=minecraft:text_display,tag=voteCounter,tag=hyrule_castle,limit=1] mapVote 1
 execute if entity @s[tag=icicle_mountain] run scoreboard players remove @e[type=minecraft:text_display,tag=voteCounter,tag=icicle_mountain,limit=1] mapVote 1
 execute if entity @s[tag=jungle_japes] run scoreboard players remove @e[type=minecraft:text_display,tag=voteCounter,tag=jungle_japes,limit=1] mapVote 1
@@ -20,6 +21,7 @@ execute if entity @s[tag=luigis_mansion] run scoreboard players remove @e[type=m
 execute if entity @s[tag=magicant] run scoreboard players remove @e[type=minecraft:text_display,tag=voteCounter,tag=magicant,limit=1] mapVote 1
 execute if entity @s[tag=mementos] run scoreboard players remove @e[type=minecraft:text_display,tag=voteCounter,tag=mementos,limit=1] mapVote 1
 execute if entity @s[tag=miiverse] run scoreboard players remove @e[type=minecraft:text_display,tag=voteCounter,tag=miiverse,limit=1] mapVote 1
+execute if entity @s[tag=minecraft_world] run scoreboard players remove @e[type=minecraft:text_display,tag=voteCounter,tag=minecraft_world,limit=1] mapVote 1
 execute if entity @s[tag=mushroom_kingdom] run scoreboard players remove @e[type=minecraft:text_display,tag=voteCounter,tag=mushroom_kingdom,limit=1] mapVote 1
 execute if entity @s[tag=pac_maze] run scoreboard players remove @e[type=minecraft:text_display,tag=voteCounter,tag=pac_maze,limit=1] mapVote 1
 execute if entity @s[tag=pallet_town] run scoreboard players remove @e[type=minecraft:text_display,tag=voteCounter,tag=pallet_town,limit=1] mapVote 1

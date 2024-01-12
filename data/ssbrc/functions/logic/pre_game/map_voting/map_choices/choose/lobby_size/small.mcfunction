@@ -1,8 +1,10 @@
 execute if entity @s[tag=flat_zone] run function ssbrc:logic/pre_game/map_voting/map_choices/stages/flat_zone
+execute if entity @s[tag=hoenn_pokemon_league] run function ssbrc:logic/pre_game/map_voting/map_choices/stages/hoenn_pokemon_league
 execute if entity @s[tag=icicle_mountain] run function ssbrc:logic/pre_game/map_voting/map_choices/stages/icicle_mountain
 execute if entity @s[tag=magicant] run function ssbrc:logic/pre_game/map_voting/map_choices/stages/magicant
 execute if entity @s[tag=mementos] run function ssbrc:logic/pre_game/map_voting/map_choices/stages/mementos
 execute if entity @s[tag=miiverse] run function ssbrc:logic/pre_game/map_voting/map_choices/stages/miiverse
+execute if entity @s[tag=minecraft_world] run function ssbrc:logic/pre_game/map_voting/map_choices/stages/minecraft_world
 execute if entity @s[tag=pallet_town] run function ssbrc:logic/pre_game/map_voting/map_choices/stages/pallet_town
 execute if entity @s[tag=palutenas_temple] run function ssbrc:logic/pre_game/map_voting/map_choices/stages/palutenas_temple
 execute if entity @s[tag=planet_zebes] run function ssbrc:logic/pre_game/map_voting/map_choices/stages/planet_zebes

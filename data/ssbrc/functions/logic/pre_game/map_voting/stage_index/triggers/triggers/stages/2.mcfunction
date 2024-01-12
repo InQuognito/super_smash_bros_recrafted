@@ -7,6 +7,9 @@ execute if entity @s[scores={shopCalculator=1..}] run function ssbrc:stages/pall
 execute store result score @s shopCalculator run clear @s #ssbrc:ui/buttons{ui:{id:"stages.lakeOfRage"}}
 execute if entity @s[scores={shopCalculator=1..}] run function ssbrc:stages/lake_of_rage/vote
 
+execute store result score @s shopCalculator run clear @s #ssbrc:ui/buttons{ui:{id:"stages.hoenn_pokemon_league"}}
+execute if entity @s[scores={shopCalculator=1..}] run function ssbrc:stages/hoenn_pokemon_league/vote
+
 execute store result score @s shopCalculator run clear @s #ssbrc:ui/buttons{ui:{id:"stages.spear_pillar"}}
 execute if entity @s[scores={shopCalculator=1..}] run function ssbrc:stages/spear_pillar/vote
 
@@ -42,9 +45,6 @@ execute if entity @s[scores={shopCalculator=1..}] run function ssbrc:stages/gard
 
 execute store result score @s shopCalculator run clear @s #ssbrc:ui/buttons{ui:{id:"stages.wily_castle"}}
 execute if entity @s[scores={shopCalculator=1..}] run function ssbrc:stages/wily_castle/vote
-
-execute store result score @s shopCalculator run clear @s #ssbrc:ui/buttons{ui:{id:"stages.miiverse"}}
-execute if entity @s[scores={shopCalculator=1..}] run function ssbrc:stages/miiverse/vote
 
 execute store result score @s shopCalculator run clear @s #ssbrc:ui/buttons{ui:{id:"navigation.stages.3"}}
 execute if entity @s[scores={shopCalculator=1..}] run function ssbrc:logic/pre_game/map_voting/stage_index/pages/stages/3/load
