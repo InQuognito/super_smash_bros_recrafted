@@ -7,5 +7,5 @@ execute unless score @s[advancements={ssbrc:fighters/mario/skins/gold=true}] ski
 execute unless score @s[advancements={ssbrc:fighters/mario/skins/flower_power=true}] skinPicked matches 1 if score random.output temp matches 3 run function ssbrc:fighters/mario/menu/skins/flower_power
 execute unless score @s[advancements={ssbrc:fighters/mario/skins/penguin=true}] skinPicked matches 1 if score random.output temp matches 4 run function ssbrc:fighters/mario/menu/skins/penguin
 
-execute if score @s skinPicked matches 1 run function ssbrc:fighters/mario/menu/select_character
+execute if entity @s[scores={skinPicked=1}] run function ssbrc:fighters/mario/menu/select_character
 execute unless score @s skinPicked matches 1 run function ssbrc:fighters/mario/menu/skins/random

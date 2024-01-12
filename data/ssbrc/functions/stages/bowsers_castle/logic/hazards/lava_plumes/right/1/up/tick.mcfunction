@@ -7,4 +7,4 @@ fill ~-2 ~-1 ~-2 ~2 ~-1 ~2 minecraft:structure_void replace minecraft:obsidian
 teleport @s ~ ~1 ~
 
 scoreboard players remove @s animation 1
-execute if score @s animation matches 0 run kill @s
+kill @s[scores={animation=0}]

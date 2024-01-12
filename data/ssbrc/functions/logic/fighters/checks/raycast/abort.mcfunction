@@ -1,4 +1,4 @@
-scoreboard players set entityHit temp 1
+scoreboard players set entity_hit temp 1
 
 function ssbrc:logic/fighters/checks/raycast/reset
 

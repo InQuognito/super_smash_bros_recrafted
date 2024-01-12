@@ -4,7 +4,6 @@ scoreboard objectives add armorBreak dummy
 scoreboard objectives add bowser.fireBreath dummy
 scoreboard objectives add bowser.fireBreath.target dummy
 scoreboard objectives add burning dummy
-scoreboard objectives add characterTrigger trigger
 scoreboard objectives add fighter_picked dummy
 scoreboard objectives add charge.1 dummy
 scoreboard objectives add charge.2 dummy
@@ -143,7 +142,7 @@ scoreboard objectives add timer.stalfos dummy
 scoreboard objectives add timer.stat.death dummy
 scoreboard objectives add timer.stat.kill dummy
 scoreboard objectives add temp dummy
-scoreboard objectives add tower_of_fateBarrier dummy
+scoreboard objectives add tower_of_fate_barrier dummy
 scoreboard objectives add useAbility minecraft.used:minecraft.carrot_on_a_stick
 scoreboard objectives add useItem minecraft.used:minecraft.warped_fungus_on_a_stick
 scoreboard objectives add vars dummy

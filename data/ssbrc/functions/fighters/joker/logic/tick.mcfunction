@@ -8,7 +8,7 @@ execute if entity @s[tag=rebels_guard] run function ssbrc:fighters/joker/logic/a
 # Final Guard
 #execute if score @s[tag=!abilityUsed] health <= #joker.finalGuardThreshold vars run function ssbrc:fighters/joker/logic/abilities/final_guard/activate
 
-#execute if score @s duration.2 matches 1.. run function ssbrc:fighters/joker/logic/abilities/final_guard/tick
+#execute if entity @s[scores={duration.2=1..}] run function ssbrc:fighters/joker/logic/abilities/final_guard/tick
 
 # TT33
 scoreboard players remove @s[scores={joker.tt33F=1..}] joker.tt33F 1

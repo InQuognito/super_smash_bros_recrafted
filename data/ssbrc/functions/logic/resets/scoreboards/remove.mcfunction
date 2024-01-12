@@ -4,7 +4,6 @@ scoreboard objectives remove armorBreak
 scoreboard objectives remove bowser.fireBreath
 scoreboard objectives remove bowser.fireBreath.target
 scoreboard objectives remove burning
-scoreboard objectives remove characterTrigger
 scoreboard objectives remove fighter_picked
 scoreboard objectives remove charge.1
 scoreboard objectives remove charge.2
@@ -143,7 +142,7 @@ scoreboard objectives remove timer.stalfos
 scoreboard objectives remove timer.stat.death
 scoreboard objectives remove timer.stat.kill
 scoreboard objectives remove temp
-scoreboard objectives remove tower_of_fateBarrier
+scoreboard objectives remove tower_of_fate_barrier
 scoreboard objectives remove useAbility
 scoreboard objectives remove useItem
 scoreboard objectives remove vars

@@ -8,7 +8,7 @@ execute positioned ~-0.2 ~-0.2 ~-0.2 as @p[tag=self,dx=0] positioned ~-0.6 ~-0.6
 
 scoreboard players add @s temp 1
 execute unless score @s temp matches 20.. rotated as @s run teleport @s ^ ^ ^0.6
-execute if score @s temp matches 20.. facing entity @a[tag=self,limit=1] eyes run function ssbrc:fighters/zelda/logic/abilities/boomerang/return
+execute if entity @s[scores={temp=20..}] facing entity @a[tag=self,limit=1] eyes run function ssbrc:fighters/zelda/logic/abilities/boomerang/return
 
 scoreboard players operation #display temp = @s temp
 scoreboard players operation #display temp %= 6 integers

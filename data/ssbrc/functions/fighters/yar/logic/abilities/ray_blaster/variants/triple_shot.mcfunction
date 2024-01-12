@@ -9,6 +9,6 @@ item replace entity @s weapon.mainhand with minecraft:air
 loot replace entity @s weapon.mainhand loot ssbrc:fighters/yar/ray_blaster/triple_shot
 
 scoreboard players add @s charge.1 1
-execute if score @s charge.1 matches 15.. run function ssbrc:fighters/yar/logic/abilities/power_ups/reset
+execute if entity @s[scores={charge.1=15..}] run function ssbrc:fighters/yar/logic/abilities/power_ups/reset
 
 playsound ssbrc:fighters.yar.triple_shot.activate player @a

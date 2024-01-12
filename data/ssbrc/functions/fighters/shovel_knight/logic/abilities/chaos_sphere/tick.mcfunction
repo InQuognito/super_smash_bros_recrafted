@@ -6,7 +6,7 @@ execute if score @s point < shovel_knight.chaos_sphereMaxRotation vars run score
 execute if score @s point > shovel_knight.chaos_sphereMaxRotation vars run scoreboard players operation @s point = shovel_knight.chaos_sphereMaxRotation vars
 execute if score @s point < shovel_knight.chaos_sphereMaxRotation vars run scoreboard players remove @s slope 20
 
-execute if score @s point > 0 integers unless block ~ ~-0.15 ~ #ssbrc:passthrough run function ssbrc:fighters/shovel_knight/logic/abilities/chaos_sphere/bounce
+execute if entity @s[scores={point=1..}] unless block ~ ~-0.15 ~ #ssbrc:passthrough run function ssbrc:fighters/shovel_knight/logic/abilities/chaos_sphere/bounce
 
 execute at @s rotated ~ 0.0 unless block ~-0.3 ~ ~ #ssbrc:passthrough run execute store result entity @s Rotation[0] float -1.0 run data get entity @s Rotation[0]
 execute at @s rotated ~ 0.0 unless block ~0.3 ~ ~ #ssbrc:passthrough run execute store result entity @s Rotation[0] float -1.0 run data get entity @s Rotation[0]

@@ -85,10 +85,8 @@ execute if entity @s[scores={item.poison_mushroom=1..}] run function ssbrc:items
 execute if entity @s[scores={item.super_mushroom=1..}] run function ssbrc:items/super_mushroom/tick
 function ssbrc:items/killing_edge/tick
 
-execute if entity @s[tag=angel_feather] run particle minecraft:dust_color_transition 1.0 1.0 0.0 0.5 1.0 1.0 1.0 ~ ~0.75 ~ 0.2 0.3 0.2 0.0 3 normal @a
-
 # Fighter Effects
-execute unless score @s[tag=gold] item.cloaking_device matches 1.. positioned ~ ~0.75 ~ run function ssbrc:logic/tick/gold
+execute unless score @s item.cloaking_device matches 1.. positioned ~ ~0.75 ~ run function ssbrc:logic/fighters/particles/tick
 
 execute if entity @s[scores={shadow.chaosControl=1..}] run function ssbrc:fighters/shadow/logic/chaos_control/tick
 
@@ -102,7 +100,7 @@ execute if entity @s[tag=leechSeed] run function ssbrc:fighters/pokemon_trainer/
 execute if entity @s[scores={leechSeedStacks=1..}] run function ssbrc:fighters/pokemon_trainer/logic/ivysaur/leech_seed/calculate_healing
 
 scoreboard players remove @s[scores={flinch=1..}] flinch 1
-execute if score @s flinch matches 1 run function ssbrc:logic/fighters/effects/mobility/mobilize
+execute if entity @s[scores={flinch=1}] run function ssbrc:logic/fighters/effects/mobility/mobilize
 
 # Stage Effects
 function ssbrc:logic/stages/lava/tick

@@ -6,5 +6,5 @@ clone -728 70 842 -724 70 846 ~-2 ~-1 ~-2
 teleport @s ~ ~-1 ~
 
 scoreboard players remove @s animation 1
-execute if score @s animation matches 0 run fill ~-2 ~-1 ~-2 ~2 ~-1 ~2 minecraft:lava
+execute if entity @s[scores={animation=0}] run fill ~-2 ~-1 ~-2 ~2 ~-1 ~2 minecraft:lava
 kill @s[scores={animation=..0}]

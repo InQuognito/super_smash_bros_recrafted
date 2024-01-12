@@ -5,6 +5,6 @@ execute if entity @s[nbt={Inventory:[{tag:{phazonBeam:1,charging:1}}]}] unless s
 execute if entity @s[nbt=!{SelectedItem:{tag:{phazonBeam:1}}},nbt={Inventory:[{tag:{phazonBeam:1,charging:1}}]}] run function ssbrc:fighters/dark_samus/logic/abilities/phazon_beam/reset
 
 # Phazon Overload
-execute if score @s[nbt=!{Inventory:[{tag:{phazonOverload:1}}]}] charge.1 matches 800.. run function ssbrc:fighters/dark_samus/logic/abilities/phazon_overload/enable
+execute if entity @s[scores={charge.1=800..},nbt=!{Inventory:[{tag:{phazonOverload:1}}]}] run function ssbrc:fighters/dark_samus/logic/abilities/phazon_overload/enable
 
-execute if score @s duration.1 matches 1.. run function ssbrc:fighters/dark_samus/logic/abilities/phazon_overload/tick
+execute if entity @s[scores={duration.1=1..}] run function ssbrc:fighters/dark_samus/logic/abilities/phazon_overload/tick
