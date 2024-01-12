@@ -24,7 +24,7 @@
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{ui:{id:\"skins.shadow.yellowAndroid\",sound:\"click\"},CustomModelData:1902}"
+							"tag": "{ui:{id:\"skins.shadow.yellowAndroid\",sound:\"click\"},CustomModelData:1903}"
 						}
 					]
 				}
