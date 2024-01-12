@@ -14,7 +14,7 @@ execute as @e[type=minecraft:text_display,tag=voteCounter,sort=nearest,limit=1] 
 execute as @e[type=minecraft:text_display,tag=voteCounter,sort=nearest,limit=1] if entity @s[tag=hyrule_castle] as @a[tag=self,limit=1] run function ssbrc:stages/hyrule_castle/vote
 execute as @e[type=minecraft:text_display,tag=voteCounter,sort=nearest,limit=1] if entity @s[tag=icicle_mountain] as @a[tag=self,limit=1] run function ssbrc:stages/icicle_mountain/vote
 execute as @e[type=minecraft:text_display,tag=voteCounter,sort=nearest,limit=1] if entity @s[tag=jungle_japes] as @a[tag=self,limit=1] run function ssbrc:stages/jungle_japes/vote
-execute as @e[type=minecraft:text_display,tag=voteCounter,sort=nearest,limit=1] if entity @s[tag=lakeOfRage] as @a[tag=self,limit=1] run function ssbrc:stages/lake_of_rage/vote
+execute as @e[type=minecraft:text_display,tag=voteCounter,sort=nearest,limit=1] if entity @s[tag=lake_of_rage] as @a[tag=self,limit=1] run function ssbrc:stages/lake_of_rage/vote
 execute as @e[type=minecraft:text_display,tag=voteCounter,sort=nearest,limit=1] if entity @s[tag=luigis_mansion] as @a[tag=self,limit=1] run function ssbrc:stages/luigis_mansion/vote
 execute as @e[type=minecraft:text_display,tag=voteCounter,sort=nearest,limit=1] if entity @s[tag=magicant] as @a[tag=self,limit=1] run function ssbrc:stages/magicant/vote
 execute as @e[type=minecraft:text_display,tag=voteCounter,sort=nearest,limit=1] if entity @s[tag=mementos] as @a[tag=self,limit=1] run function ssbrc:stages/mementos/vote

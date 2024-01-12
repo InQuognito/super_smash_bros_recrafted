@@ -4,7 +4,7 @@ execute if entity @s[scores={shopCalculator=1..}] run function ssbrc:logic/pre_g
 execute store result score @s shopCalculator run clear @s #ssbrc:ui/buttons{ui:{id:"stages.pallet_town"}}
 execute if entity @s[scores={shopCalculator=1..}] run function ssbrc:stages/pallet_town/vote
 
-execute store result score @s shopCalculator run clear @s #ssbrc:ui/buttons{ui:{id:"stages.lakeOfRage"}}
+execute store result score @s shopCalculator run clear @s #ssbrc:ui/buttons{ui:{id:"stages.lake_of_rage"}}
 execute if entity @s[scores={shopCalculator=1..}] run function ssbrc:stages/lake_of_rage/vote
 
 execute store result score @s shopCalculator run clear @s #ssbrc:ui/buttons{ui:{id:"stages.hoenn_pokemon_league"}}

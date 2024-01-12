@@ -17,7 +17,7 @@ summon minecraft:text_display ~ ~ ~ {Tags:["voteCounter","green_hill_zone"],bill
 summon minecraft:text_display ~ ~ ~ {Tags:["voteCounter","hyrule_castle"],billboard:center}
 summon minecraft:text_display ~ ~ ~ {Tags:["voteCounter","icicle_mountain"],billboard:center}
 summon minecraft:text_display ~ ~ ~ {Tags:["voteCounter","jungle_japes"],billboard:center}
-summon minecraft:text_display ~ ~ ~ {Tags:["voteCounter","lakeOfRage"],billboard:center}
+summon minecraft:text_display ~ ~ ~ {Tags:["voteCounter","lake_of_rage"],billboard:center}
 summon minecraft:text_display ~ ~ ~ {Tags:["voteCounter","luigis_mansion"],billboard:center}
 summon minecraft:text_display ~ ~ ~ {Tags:["voteCounter","magicant"],billboard:center}
 summon minecraft:text_display ~ ~ ~ {Tags:["voteCounter","mementos"],billboard:center}

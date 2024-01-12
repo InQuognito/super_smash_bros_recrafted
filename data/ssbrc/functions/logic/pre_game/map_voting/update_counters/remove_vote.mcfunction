@@ -16,7 +16,7 @@ execute if entity @s[tag=hoenn_pokemon_league] run scoreboard players remove @e[
 execute if entity @s[tag=hyrule_castle] run scoreboard players remove @e[type=minecraft:text_display,tag=voteCounter,tag=hyrule_castle,limit=1] mapVote 1
 execute if entity @s[tag=icicle_mountain] run scoreboard players remove @e[type=minecraft:text_display,tag=voteCounter,tag=icicle_mountain,limit=1] mapVote 1
 execute if entity @s[tag=jungle_japes] run scoreboard players remove @e[type=minecraft:text_display,tag=voteCounter,tag=jungle_japes,limit=1] mapVote 1
-execute if entity @s[tag=lakeOfRage] run scoreboard players remove @e[type=minecraft:text_display,tag=voteCounter,tag=lakeOfRage,limit=1] mapVote 1
+execute if entity @s[tag=lake_of_rage] run scoreboard players remove @e[type=minecraft:text_display,tag=voteCounter,tag=lake_of_rage,limit=1] mapVote 1
 execute if entity @s[tag=luigis_mansion] run scoreboard players remove @e[type=minecraft:text_display,tag=voteCounter,tag=luigis_mansion,limit=1] mapVote 1
 execute if entity @s[tag=magicant] run scoreboard players remove @e[type=minecraft:text_display,tag=voteCounter,tag=magicant,limit=1] mapVote 1
 execute if entity @s[tag=mementos] run scoreboard players remove @e[type=minecraft:text_display,tag=voteCounter,tag=mementos,limit=1] mapVote 1

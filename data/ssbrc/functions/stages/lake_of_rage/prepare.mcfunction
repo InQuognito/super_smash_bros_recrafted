@@ -20,4 +20,4 @@ execute as @e[type=minecraft:item_display,tag=sudowoodo] if predicate ssbrc:figh
 execute as @a[predicate=ssbrc:ingame] run function ssbrc:logic/pre_game/prepare_players
 function ssbrc:logic/pre_game/prepare_match
 
-tag @a[predicate=ssbrc:flag/player] add lakeOfRage
+tag @a[predicate=ssbrc:flag/player] add lake_of_rage

@@ -35,7 +35,7 @@ tag @s remove icicle_mountain
 
 tag @s remove jungle_japes
 
-tag @s remove lakeOfRage
+tag @s remove lake_of_rage
 
 tag @s remove luigis_mansion
 

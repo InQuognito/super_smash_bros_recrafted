@@ -15,14 +15,16 @@ summon minecraft:text_display ~ ~ ~ {Tags:["voteCounter","garden_of_hope"],billb
 summon minecraft:text_display ~ ~ ~ {Tags:["voteCounter","great_bay"],billboard:center}
 summon minecraft:text_display ~ ~ ~ {Tags:["voteCounter","great_plateau"],billboard:center}
 summon minecraft:text_display ~ ~ ~ {Tags:["voteCounter","green_hill_zone"],billboard:center}
+summon minecraft:text_display ~ ~ ~ {Tags:["voteCounter","hoenn_pokemon_league"],billboard:center}
 summon minecraft:text_display ~ ~ ~ {Tags:["voteCounter","hyrule_castle"],billboard:center}
 summon minecraft:text_display ~ ~ ~ {Tags:["voteCounter","icicle_mountain"],billboard:center}
 summon minecraft:text_display ~ ~ ~ {Tags:["voteCounter","jungle_japes"],billboard:center}
-summon minecraft:text_display ~ ~ ~ {Tags:["voteCounter","lakeOfRage"],billboard:center}
+summon minecraft:text_display ~ ~ ~ {Tags:["voteCounter","lake_of_rage"],billboard:center}
 summon minecraft:text_display ~ ~ ~ {Tags:["voteCounter","luigis_mansion"],billboard:center}
 summon minecraft:text_display ~ ~ ~ {Tags:["voteCounter","magicant"],billboard:center}
 summon minecraft:text_display ~ ~ ~ {Tags:["voteCounter","mementos"],billboard:center}
 summon minecraft:text_display ~ ~ ~ {Tags:["voteCounter","miiverse"],billboard:center}
+summon minecraft:text_display ~ ~ ~ {Tags:["voteCounter","minecraft_world"],billboard:center}
 summon minecraft:text_display ~ ~ ~ {Tags:["voteCounter","mushroom_kingdom"],billboard:center}
 summon minecraft:text_display ~ ~ ~ {Tags:["voteCounter","pac_maze"],billboard:center}
 summon minecraft:text_display ~ ~ ~ {Tags:["voteCounter","pallet_town"],billboard:center}
