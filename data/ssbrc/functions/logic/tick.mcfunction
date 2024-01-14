@@ -5,6 +5,7 @@ function ssbrc:logic/tick/lobby/credits
 # Chest UIs
 function ssbrc:shop/tick
 function ssbrc:logic/pre_game/map_voting/stage_index/tick
+function ssbrc:logic/vfx/tick
 
 # Tick During Certain Game Stages
 execute unless score gameStage temp matches 2.. as @a run function ssbrc:logic/tick/triggers/lobby
