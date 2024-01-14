@@ -6,5 +6,5 @@ execute unless score @s[advancements={ssbrc:fighters/shadow/skins/default=true}]
 execute unless score @s[advancements={ssbrc:fighters/shadow/skins/gold=true}] skinPicked matches 1 if score random.output temp matches 2 run function ssbrc:fighters/shadow/menu/skins/gold
 execute unless score @s[advancements={ssbrc:fighters/shadow/skins/yellow_android=true}] skinPicked matches 1 if score random.output temp matches 3 run function ssbrc:fighters/shadow/menu/skins/yellow_android
 
-execute if score @s skinPicked matches 1 run function ssbrc:fighters/shadow/menu/select_character
+execute if entity @s[scores={skinPicked=1}] run function ssbrc:fighters/shadow/menu/select_character
 execute unless score @s skinPicked matches 1 run function ssbrc:fighters/shadow/menu/skins/random

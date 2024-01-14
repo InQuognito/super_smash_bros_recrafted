@@ -7,5 +7,5 @@ execute unless score @s[advancements={ssbrc:fighters/yar/skins/gold=true}] skinP
 execute unless score @s[advancements={ssbrc:fighters/yar/skins/player_two=true}] skinPicked matches 1 if score random.output temp matches 3 run function ssbrc:fighters/yar/menu/skins/player_two
 execute unless score @s[advancements={ssbrc:fighters/yar/skins/recruit=true}] skinPicked matches 1 if score random.output temp matches 4 run function ssbrc:fighters/yar/menu/skins/recruit
 
-execute if score @s skinPicked matches 1 run function ssbrc:fighters/yar/menu/select_character
+execute if entity @s[scores={skinPicked=1}] run function ssbrc:fighters/yar/menu/select_character
 execute unless score @s skinPicked matches 1 run function ssbrc:fighters/yar/menu/skins/random

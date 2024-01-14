@@ -4,8 +4,8 @@ function ssbrc:logic/resets/tags/fighters
 # Skins
 function ssbrc:logic/resets/tags/skins
 
-# Maps
-function ssbrc:logic/resets/tags/maps
+# Stages
+function ssbrc:logic/resets/tags/stages
 
 # Favorites
 

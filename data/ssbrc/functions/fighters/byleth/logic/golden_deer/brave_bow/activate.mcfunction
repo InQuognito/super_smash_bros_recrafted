@@ -7,4 +7,4 @@ scoreboard players set @s cooldown.1 10
 execute if entity @s[scores={shadow.chaosControl=1..}] run function ssbrc:logic/fighters/cooldown_modifiers/chaos_control {type:1}
 
 playsound minecraft:entity.arrow.shoot player @a
-execute if score @s charge.output matches 19.. run playsound minecraft:entity.arrow.shoot player @a
+execute if entity @s[scores={charge.output=19..}] run playsound minecraft:entity.arrow.shoot player @a

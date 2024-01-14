@@ -8,5 +8,5 @@ execute unless score @s[advancements={ssbrc:fighters/greninja/skins/shiny=true}]
 execute unless score @s[advancements={ssbrc:fighters/greninja/skins/shadow=true}] skinPicked matches 1 if score random.output temp matches 4 run function ssbrc:fighters/greninja/menu/skins/shadow
 execute unless score @s[advancements={ssbrc:fighters/greninja/skins/hero_style=true}] skinPicked matches 1 if score random.output temp matches 5 run function ssbrc:fighters/greninja/menu/skins/hero_style
 
-execute if score @s skinPicked matches 1 run function ssbrc:fighters/greninja/menu/select_character
+execute if entity @s[scores={skinPicked=1}] run function ssbrc:fighters/greninja/menu/select_character
 execute unless score @s skinPicked matches 1 run function ssbrc:fighters/greninja/menu/skins/random

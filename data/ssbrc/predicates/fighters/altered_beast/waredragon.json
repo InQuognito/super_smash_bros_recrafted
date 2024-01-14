@@ -26,7 +26,7 @@
 			"condition": "minecraft:entity_properties",
 			"entity": "this",
 			"predicate": {
-				"nbt": "{Tags:[\"lakeOfRage\"]}"
+				"nbt": "{Tags:[\"lake_of_rage\"]}"
 			}
 		},
 		{
@@ -55,6 +55,13 @@
 			"entity": "this",
 			"predicate": {
 				"nbt": "{Tags:[\"suzaku_castle\"]}"
+			}
+		},
+		{
+			"condition": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
+				"nbt": "{Tags:[\"midgar\"]}"
 			}
 		},
 		{

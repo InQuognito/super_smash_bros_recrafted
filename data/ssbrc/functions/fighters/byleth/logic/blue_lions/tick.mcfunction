@@ -1,5 +1,5 @@
 # Spin Attack
-execute if entity @s[tag=!silenced,scores={charge.output=1..},nbt={SelectedItem:{tag:{areadbhar:1}}},predicate=ssbrc:flag/sneaking] positioned ~ ~0.75 ~ run function ssbrc:fighters/byleth/logic/blue_lions/spin_attack/charge
+execute if entity @s[tag=!silenced,scores={charge.output=21..},nbt={SelectedItem:{tag:{areadbhar:1}}},predicate=ssbrc:flag/sneaking] positioned ~ ~0.75 ~ run function ssbrc:fighters/byleth/logic/blue_lions/spin_attack/charge
 
 execute if entity @s[tag=spinning] run function ssbrc:fighters/byleth/logic/blue_lions/spin_attack/tick
 

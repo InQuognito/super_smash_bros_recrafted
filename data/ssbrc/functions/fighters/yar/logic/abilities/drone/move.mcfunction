@@ -12,4 +12,4 @@ execute if score #percentage temp matches 91..100 run teleport @s ^ ^ ^0.30
 scoreboard players remove @s[tag=!recall] temp 1
 scoreboard players add @s[tag=recall,scores={temp=..60}] temp 1
 
-execute if score @s temp matches 0 run function ssbrc:fighters/yar/logic/abilities/drone/commands/stop
+execute if entity @s[scores={temp=0}] run function ssbrc:fighters/yar/logic/abilities/drone/commands/stop

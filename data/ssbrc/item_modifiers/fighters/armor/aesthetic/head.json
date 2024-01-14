@@ -1317,7 +1317,7 @@
 	},
 	{
 		"function": "minecraft:set_nbt",
-		"tag": "{CustomModelData:1162}",
+		"tag": "{CustomModelData:1160}",
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",

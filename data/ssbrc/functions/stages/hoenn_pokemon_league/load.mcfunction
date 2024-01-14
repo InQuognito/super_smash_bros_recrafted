@@ -2,7 +2,7 @@ scoreboard players reset * map
 scoreboard players set hoenn_pokemon_league map 1
 scoreboard players set song_count map 2
 scoreboard players set map_picked mapVote 1
-forceload add -768 800 -641 895
+forceload add -912 576 -865 623
 
 time set noon
 weather clear

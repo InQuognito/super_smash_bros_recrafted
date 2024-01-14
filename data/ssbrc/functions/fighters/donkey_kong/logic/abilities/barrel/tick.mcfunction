@@ -6,9 +6,9 @@ execute if score @s point < #donkey_kong.barrelMaxRotation vars run scoreboard p
 execute if score @s point > #donkey_kong.barrelMaxRotation vars run scoreboard players operation @s point = #donkey_kong.barrelMaxRotation vars
 execute if score @s point < #donkey_kong.barrelMaxRotation vars run scoreboard players remove @s slope 20
 
-execute if score @s point > 0 integers unless block ~ ~-0.1 ~ #ssbrc:passthrough run function ssbrc:fighters/donkey_kong/logic/abilities/barrel/bounce
+execute if entity @s[scores={point=1..}] unless block ~ ~-0.1 ~ #ssbrc:passthrough run function ssbrc:fighters/donkey_kong/logic/abilities/barrel/bounce
 
 execute rotated as @s run teleport @s ^ ^ ^0.25
 
 scoreboard players add @s temp 1
-execute if score @s temp matches 100.. run function ssbrc:fighters/donkey_kong/logic/abilities/barrel/explode
+execute at @s[scores={temp=100..}] run function ssbrc:fighters/donkey_kong/logic/abilities/barrel/explode

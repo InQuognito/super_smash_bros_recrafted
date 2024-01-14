@@ -14,15 +14,15 @@
 		"patterns": [
 			{
 				"pattern": "minecraft:base",
-				"color": "blue"
+				"color": "brown"
 			},
 			{
 				"pattern": "minecraft:flower",
-				"color": "red"
+				"color": "gray"
 			},
 			{
 				"pattern": "minecraft:half_horizontal",
-				"color": "blue"
+				"color": "brown"
 			},
 			{
 				"pattern": "minecraft:triangle_top",
@@ -30,7 +30,7 @@
 			},
 			{
 				"pattern": "minecraft:stripe_top",
-				"color": "blue"
+				"color": "brown"
 			},
 			{
 				"pattern": "minecraft:curly_border",

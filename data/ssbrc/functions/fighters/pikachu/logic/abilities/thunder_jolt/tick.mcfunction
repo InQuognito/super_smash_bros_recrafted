@@ -12,7 +12,7 @@ execute if score @s point < #pikachu.thunderJoltMaxRotation vars run scoreboard 
 execute if score @s point > #pikachu.thunderJoltMaxRotation vars run scoreboard players operation @s point = #pikachu.thunderJoltMaxRotation vars
 execute if score @s point < #pikachu.thunderJoltMaxRotation vars run scoreboard players remove @s slope 20
 
-execute if score @s point > 0 integers unless block ~ ~-0.15 ~ #ssbrc:passthrough run function ssbrc:fighters/pikachu/logic/abilities/thunder_jolt/bounce
+execute if entity @s[scores={point=1..}] unless block ~ ~-0.15 ~ #ssbrc:passthrough run function ssbrc:fighters/pikachu/logic/abilities/thunder_jolt/bounce
 
 execute rotated as @s run teleport @s ^ ^ ^1
 

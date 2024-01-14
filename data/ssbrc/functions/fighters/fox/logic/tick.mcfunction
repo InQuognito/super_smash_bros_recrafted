@@ -1,7 +1,7 @@
 # Reflector
-execute if score @s duration.2 matches 2.. anchored eyes positioned ^ ^ ^2 as @e[type=#ssbrc:projectiles,predicate=!ssbrc:reflect_exceptions,tag=!reflected,distance=..2] run function ssbrc:fighters/fox/logic/abilities/reflector/tick
+execute if entity @s[scores={duration.2=2..}] anchored eyes positioned ^ ^ ^2 as @e[type=#ssbrc:projectiles,predicate=!ssbrc:reflect_exceptions,tag=!reflected,distance=..2] run function ssbrc:fighters/fox/logic/abilities/reflector/tick
 
-execute if score @s duration.2 matches 1 run function ssbrc:logic/fighters/effects/mobility/mobilize
+execute if entity @s[scores={duration.2=1}] run function ssbrc:logic/fighters/effects/mobility/mobilize
 
 function ssbrc:fighters/fox/logic/abilities/reflector/cooldown
 

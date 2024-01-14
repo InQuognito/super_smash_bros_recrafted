@@ -12,6 +12,13 @@
 			"condition": "minecraft:entity_properties",
 			"entity": "this",
 			"predicate": {
+				"nbt": "{Tags:[\"hoenn_pokemon_league\"]}"
+			}
+		},
+		{
+			"condition": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
 				"nbt": "{Tags:[\"icicle_mountain\"]}"
 			}
 		},
@@ -34,6 +41,13 @@
 			"entity": "this",
 			"predicate": {
 				"nbt": "{Tags:[\"miiverse\"]}"
+			}
+		},
+		{
+			"condition": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
+				"nbt": "{Tags:[\"minecraft_world\"]}"
 			}
 		},
 		{

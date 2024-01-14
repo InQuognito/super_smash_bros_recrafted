@@ -1,33 +1,33 @@
-execute if score @s shop matches 1 run function ssbrc:shop/pages/main/load
-execute if score @s shop matches 2 run function ssbrc:shop/pages/fighters/1/load
-execute if score @s shop matches 3 run function ssbrc:shop/pages/fighters/2/load
+execute if entity @s[scores={shop=1}] run function ssbrc:shop/pages/main/load
+execute if entity @s[scores={shop=2}] run function ssbrc:shop/pages/fighters/1/load
+execute if entity @s[scores={shop=3}] run function ssbrc:shop/pages/fighters/2/load
 
-execute if score @s shop matches 100 run function ssbrc:shop/pages/skins/1/load
-execute if score @s shop matches 101 run function ssbrc:shop/pages/skins/2/load
+execute if entity @s[scores={shop=100}] run function ssbrc:shop/pages/skins/1/load
+execute if entity @s[scores={shop=101}] run function ssbrc:shop/pages/skins/2/load
 
-execute if score @s shop matches 200 run function ssbrc:shop/pages/skins/alucard/load
-execute if score @s shop matches 201 run function ssbrc:shop/pages/skins/bowser/load
-execute if score @s shop matches 202 run function ssbrc:shop/pages/skins/captain_falcon/load
-execute if score @s shop matches 203 run function ssbrc:shop/pages/skins/donkey_kong/load
-execute if score @s shop matches 204 run function ssbrc:shop/pages/skins/ganondorf/load
-execute if score @s shop matches 205 run function ssbrc:shop/pages/skins/hero/load
-execute if score @s shop matches 206 run function ssbrc:shop/pages/skins/link/load
-execute if score @s shop matches 207 run function ssbrc:shop/pages/skins/luigi/load
-execute if score @s shop matches 208 run function ssbrc:shop/pages/skins/mario/load
-execute if score @s shop matches 209 run function ssbrc:shop/pages/skins/ness/load
-execute if score @s shop matches 210 run function ssbrc:shop/pages/skins/rob/load
-execute if score @s shop matches 211 run function ssbrc:shop/pages/skins/ryu/load
-execute if score @s shop matches 212 run function ssbrc:shop/pages/skins/samus/load
-execute if score @s shop matches 213 run function ssbrc:shop/pages/skins/shadow/load
-execute if score @s shop matches 214 run function ssbrc:shop/pages/skins/shovel_knight/load
-execute if score @s shop matches 215 run function ssbrc:shop/pages/skins/snake/load
-execute if score @s shop matches 216 run function ssbrc:shop/pages/skins/sora/load
-execute if score @s shop matches 217 run function ssbrc:shop/pages/skins/steve/load
-execute if score @s shop matches 218 run function ssbrc:shop/pages/skins/pokemon_trainer/load
-execute if score @s shop matches 219 run function ssbrc:shop/pages/skins/byleth/load
-execute if score @s shop matches 220 run function ssbrc:shop/pages/skins/wolf/load
-execute if score @s shop matches 221 run function ssbrc:shop/pages/skins/sonic/load
-execute if score @s shop matches 222 run function ssbrc:shop/pages/skins/yar/load
-execute if score @s shop matches 223 run function ssbrc:shop/pages/skins/fox/load
-execute if score @s shop matches 224 run function ssbrc:shop/pages/skins/joker/load
-execute if score @s shop matches 225 run function ssbrc:shop/pages/skins/peach/load
+execute if entity @s[scores={shop=200}] run function ssbrc:shop/pages/skins/alucard/load
+execute if entity @s[scores={shop=201}] run function ssbrc:shop/pages/skins/bowser/load
+execute if entity @s[scores={shop=202}] run function ssbrc:shop/pages/skins/captain_falcon/load
+execute if entity @s[scores={shop=203}] run function ssbrc:shop/pages/skins/donkey_kong/load
+execute if entity @s[scores={shop=204}] run function ssbrc:shop/pages/skins/ganondorf/load
+execute if entity @s[scores={shop=205}] run function ssbrc:shop/pages/skins/hero/load
+execute if entity @s[scores={shop=206}] run function ssbrc:shop/pages/skins/link/load
+execute if entity @s[scores={shop=207}] run function ssbrc:shop/pages/skins/luigi/load
+execute if entity @s[scores={shop=208}] run function ssbrc:shop/pages/skins/mario/load
+execute if entity @s[scores={shop=209}] run function ssbrc:shop/pages/skins/ness/load
+execute if entity @s[scores={shop=210}] run function ssbrc:shop/pages/skins/rob/load
+execute if entity @s[scores={shop=211}] run function ssbrc:shop/pages/skins/ryu/load
+execute if entity @s[scores={shop=212}] run function ssbrc:shop/pages/skins/samus/load
+execute if entity @s[scores={shop=213}] run function ssbrc:shop/pages/skins/shadow/load
+execute if entity @s[scores={shop=214}] run function ssbrc:shop/pages/skins/shovel_knight/load
+execute if entity @s[scores={shop=215}] run function ssbrc:shop/pages/skins/snake/load
+execute if entity @s[scores={shop=216}] run function ssbrc:shop/pages/skins/sora/load
+execute if entity @s[scores={shop=217}] run function ssbrc:shop/pages/skins/steve/load
+execute if entity @s[scores={shop=218}] run function ssbrc:shop/pages/skins/pokemon_trainer/load
+execute if entity @s[scores={shop=219}] run function ssbrc:shop/pages/skins/byleth/load
+execute if entity @s[scores={shop=220}] run function ssbrc:shop/pages/skins/wolf/load
+execute if entity @s[scores={shop=221}] run function ssbrc:shop/pages/skins/sonic/load
+execute if entity @s[scores={shop=222}] run function ssbrc:shop/pages/skins/yar/load
+execute if entity @s[scores={shop=223}] run function ssbrc:shop/pages/skins/fox/load
+execute if entity @s[scores={shop=224}] run function ssbrc:shop/pages/skins/joker/load
+execute if entity @s[scores={shop=225}] run function ssbrc:shop/pages/skins/peach/load

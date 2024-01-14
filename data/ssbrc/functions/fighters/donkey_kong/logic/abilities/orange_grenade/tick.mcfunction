@@ -8,7 +8,7 @@ execute if score @s point < #donkey_kong.orangeGrenadeMaxRotation vars run score
 execute if score @s point > #donkey_kong.orangeGrenadeMaxRotation vars run scoreboard players operation @s point = #donkey_kong.orangeGrenadeMaxRotation vars
 execute if score @s point < #donkey_kong.orangeGrenadeMaxRotation vars run scoreboard players remove @s slope 20
 
-execute if score @s point > 0 integers unless block ~ ~-0.6 ~ #ssbrc:passthrough run function ssbrc:fighters/donkey_kong/logic/abilities/orange_grenade/bounce
+execute if entity @s[scores={point=1..}] unless block ~ ~-0.6 ~ #ssbrc:passthrough run function ssbrc:fighters/donkey_kong/logic/abilities/orange_grenade/bounce
 
 execute rotated as @s run teleport @s ^ ^ ^0.5
 

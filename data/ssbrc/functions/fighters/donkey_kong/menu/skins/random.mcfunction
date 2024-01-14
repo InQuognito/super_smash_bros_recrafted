@@ -7,5 +7,5 @@ execute unless score @s[advancements={ssbrc:fighters/donkey_kong/skins/gold=true
 execute unless score @s[advancements={ssbrc:fighters/donkey_kong/skins/flower_power=true}] skinPicked matches 1 if score random.output temp matches 3 run function ssbrc:fighters/donkey_kong/menu/skins/flower_power
 execute unless score @s[advancements={ssbrc:fighters/donkey_kong/skins/super_kong=true}] skinPicked matches 1 if score random.output temp matches 4 run function ssbrc:fighters/donkey_kong/menu/skins/super_kong
 
-execute if score @s skinPicked matches 1 run function ssbrc:fighters/donkey_kong/menu/select_character
+execute if entity @s[scores={skinPicked=1}] run function ssbrc:fighters/donkey_kong/menu/select_character
 execute unless score @s skinPicked matches 1 run function ssbrc:fighters/donkey_kong/menu/skins/random

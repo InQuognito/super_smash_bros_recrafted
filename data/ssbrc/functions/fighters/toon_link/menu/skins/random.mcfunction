@@ -8,5 +8,5 @@ execute unless score @s[advancements={ssbrc:fighters/toon_link/skins/second_swor
 execute unless score @s[advancements={ssbrc:fighters/toon_link/skins/third_sword=true}] skinPicked matches 1 if score random.output temp matches 4 run function ssbrc:fighters/toon_link/menu/skins/third_sword
 execute unless score @s[advancements={ssbrc:fighters/toon_link/skins/fourth_sword=true}] skinPicked matches 1 if score random.output temp matches 5 run function ssbrc:fighters/toon_link/menu/skins/fourth_sword
 
-execute if score @s skinPicked matches 1 run function ssbrc:fighters/toon_link/menu/select_character
+execute if entity @s[scores={skinPicked=1}] run function ssbrc:fighters/toon_link/menu/select_character
 execute unless score @s skinPicked matches 1 run function ssbrc:fighters/toon_link/menu/skins/random
