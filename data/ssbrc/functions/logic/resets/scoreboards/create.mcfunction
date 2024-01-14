@@ -206,6 +206,7 @@ scoreboard objectives add trulyHeroic dummy
 scoreboard objectives add trulyVillainous dummy
 scoreboard objectives add WACCoordinator dummy
 scoreboard objectives add yearLongBattle dummy
+scoreboard objectives add ssbrc.vfx_type dummy
 
 function ssbrc:logic/resets/scoreboards/modify
 
