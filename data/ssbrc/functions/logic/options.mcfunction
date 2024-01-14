@@ -4,6 +4,7 @@ clear @s minecraft:written_book{options:1}
 data modify storage ssbrc:options/game_mode/header value set value '[{"translate":"ssbrc.options.game_mode","bold":true,"underlined":true,"color":"black"},{"text":" 🛈","color":"gray","underlined":false,"hoverEvent":{"action":"show_text","contents":[{"translate":"ssbrc.options.game_mode.description","color":"gold"},{"text":"\\n\\n"},{"translate":"ssbrc.options.game_mode.stock","color":"gold"},{"text":" - "},{"translate":"ssbrc.options.game_mode.stock.description","color":"gray"},{"text":"\\n\\n"},{"translate":"ssbrc.options.game_mode.time","color":"gold"},{"text":" - "},{"translate":"ssbrc.options.game_mode.time.description","color":"gray"}]}}]'
 execute if score game_mode options matches 1 run function ssbrc:logic/options/ui/game_mode/stock
 execute if score game_mode options matches 2 run function ssbrc:logic/options/ui/game_mode/time
+execute if score game_mode options matches 3 run function ssbrc:logic/options/ui/game_mode/capture_the_flag
 
 # Teams
 data modify storage ssbrc:options/teams/header value set value '[{"translate":"ssbrc.options.teams","bold":true,"underlined":true,"color":"black"},{"text":" 🛈","color":"gray","underlined":false,"hoverEvent":{"action":"show_text","contents":[{"translate":"ssbrc.options.teams.description","color":"gold"}]}}]'

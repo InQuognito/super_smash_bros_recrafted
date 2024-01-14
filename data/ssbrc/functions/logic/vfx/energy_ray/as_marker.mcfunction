@@ -8,4 +8,4 @@ execute if score $ray.min temp = $ray.max temp run scoreboard players operation 
 execute store result storage particle:temp turnx double 0.0001 run random value -150000..150000
 execute store result storage particle:temp turny double 0.0001 run random value -150000..150000
 function ssbrc:logic/vfx/energy_ray/adjust_rotation with storage particle:temp
-kill
+kill @s

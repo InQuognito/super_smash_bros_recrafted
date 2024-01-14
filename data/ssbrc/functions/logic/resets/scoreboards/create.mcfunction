@@ -146,6 +146,7 @@ scoreboard objectives add tower_of_fate_barrier dummy
 scoreboard objectives add useAbility minecraft.used:minecraft.carrot_on_a_stick
 scoreboard objectives add useItem minecraft.used:minecraft.warped_fungus_on_a_stick
 scoreboard objectives add vars dummy
+scoreboard objectives add vfx_type dummy
 scoreboard objectives add walk_distance minecraft.custom:minecraft.walk_one_cm
 scoreboard objectives add yar.droneHealth dummy
 scoreboard objectives add zelda.rupee.down dummy
@@ -205,7 +206,6 @@ scoreboard objectives add trulyHeroic dummy
 scoreboard objectives add trulyVillainous dummy
 scoreboard objectives add WACCoordinator dummy
 scoreboard objectives add yearLongBattle dummy
-scoreboard objectives add ssbrc.vfx_type dummy
 
 function ssbrc:logic/resets/scoreboards/modify
 

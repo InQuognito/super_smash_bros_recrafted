@@ -1,1 +1,1 @@
-execute as @e[type=minecraft:marker,tag=ssbrc.vfx] at @s run function ssbrc:logic/vfx/markers/tick
+execute as @e[type=minecraft:marker,tag=vfx] at @s run function ssbrc:logic/vfx/markers/tick

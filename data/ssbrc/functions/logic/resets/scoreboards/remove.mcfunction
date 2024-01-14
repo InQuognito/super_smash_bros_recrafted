@@ -146,6 +146,7 @@ scoreboard objectives remove tower_of_fate_barrier
 scoreboard objectives remove useAbility
 scoreboard objectives remove useItem
 scoreboard objectives remove vars
+scoreboard objectives remove vfx_type
 scoreboard objectives remove walk_distance
 scoreboard objectives remove yar.droneHealth
 scoreboard objectives remove zelda.rupee.down
