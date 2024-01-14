@@ -14,7 +14,7 @@ teleport @s[scores={temp=151..250}] ^ ^ ^0.25 ~ ~
 
 execute facing entity @r[predicate=ssbrc:flag/player] feet run teleport @s[scores={temp=251}] ~ ~ ~ ~ 0.0
 execute if entity @s[scores={temp=252..280}] positioned ^ ^2.5 ^6 run function ssbrc:stages/lake_of_rage/logic/hazards/gyarados/energy_ball
-execute if if entity @s[scores={temp=280..330}] if score hyperBeam temp matches 0 positioned ^ ^2.5 ^6 run function ssbrc:stages/lake_of_rage/logic/hazards/gyarados/hyper_beam/raycast/start
+execute if entity @s[scores={temp=280..330}] if score hyperBeam temp matches 0 positioned ^ ^2.5 ^6 run function ssbrc:stages/lake_of_rage/logic/hazards/gyarados/hyper_beam/raycast/start
 
 teleport @s[scores={temp=371}] ~ ~ ~ 30.0 0.0
 teleport @s[scores={temp=372..470}] ^ ^ ^0.25
