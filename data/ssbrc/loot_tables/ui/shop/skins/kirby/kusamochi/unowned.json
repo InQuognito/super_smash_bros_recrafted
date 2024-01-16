@@ -1,0 +1,28 @@
+{
+	"type": "minecraft:command",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:barrier",
+					"functions": [
+						{
+							"function": "minecraft:reference",
+							"name": "ssbrc:ui/shop/fighters/kirby/kusamochi"
+						},
+						{
+							"function": "minecraft:reference",
+							"name": "ssbrc:ui/shop/price/unowned/skin"
+						},
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{ui:{id:\"skins.kirby.kusamochi\",sound:\"click\"}}"
+						}
+					]
+				}
+			]
+		}
+	]
+}

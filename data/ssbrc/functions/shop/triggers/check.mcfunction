@@ -37,3 +37,5 @@ execute if entity @s[scores={shop=223}] run function ssbrc:shop/triggers/trigger
 execute if entity @s[scores={shop=224}] run function ssbrc:shop/triggers/triggers/skins/joker
 execute if entity @s[scores={shop=225}] run function ssbrc:shop/triggers/triggers/skins/pikachu
 execute if entity @s[scores={shop=226}] run function ssbrc:shop/triggers/triggers/skins/peach
+execute if entity @s[scores={shop=227}] run function ssbrc:shop/triggers/triggers/skins/dark_samus
+execute if entity @s[scores={shop=228}] run function ssbrc:shop/triggers/triggers/skins/kirby
