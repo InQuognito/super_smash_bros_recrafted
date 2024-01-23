@@ -26,6 +26,7 @@ gamerule lavaSourceConversion false
 execute unless score debug options matches 1 run gamerule logAdminCommands false
 execute if score debug options matches 1 run gamerule logAdminCommands true
 gamerule maxCommandChainLength 100000
+gamerule maxCommandForkCount 100000
 gamerule maxEntityCramming 24
 gamerule mobExplosionDropDecay false
 gamerule mobGriefing false

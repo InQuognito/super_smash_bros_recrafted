@@ -28,7 +28,7 @@ scoreboard players reset @s noJohns
 scoreboard players reset @s rapidKill.timer
 
 # Logic
-function ssbrc:logic/stats/deaths
+function ssbrc:logic/fighters/get {function:"ssbrc:logic/stats/deaths"}
 
 tag @s add checkDeath
 
