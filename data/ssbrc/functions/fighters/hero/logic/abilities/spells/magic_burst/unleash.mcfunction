@@ -12,6 +12,7 @@ execute if score #percentage temp matches 76.. run function ssbrc:fighters/hero/
 
 function ssbrc:logic/fighters/effects/mobility/mobilize
 
+function ssbrc:fighters/hero/restore_items
 function ssbrc:fighters/hero/logic/abilities/spells/activate
 
 playsound ssbrc:fighters.hero.magic_burst.activate player @a

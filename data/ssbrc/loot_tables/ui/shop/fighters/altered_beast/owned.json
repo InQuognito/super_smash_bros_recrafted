@@ -10,11 +10,11 @@
 					"functions": [
 						{
 							"function": "minecraft:reference",
-							"name": "ssbrc:ui/shop/fighters/altered_beast/default"
+							"name": "pl:ui/menu/fighters/altered_beast/default"
 						},
 						{
 							"function": "minecraft:reference",
-							"name": "ssbrc:ui/shop/owned"
+							"name": "pl:ui/menu/owned"
 						}
 					]
 				}

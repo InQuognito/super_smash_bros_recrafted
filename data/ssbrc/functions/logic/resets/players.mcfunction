@@ -34,7 +34,7 @@ stopsound @s
 #function ssbrc:logic/resets/calculate_stats
 
 function ssbrc:logic/resets/player_options
-function ssbrc:logic/player_profile/fixed
+function ssbrc:logic/player_profile {slot:"inventory.13"}
 
 scoreboard players set @s shopCalculator 0
 function ssbrc:shop/pages/main/load
