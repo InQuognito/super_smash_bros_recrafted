@@ -1,5 +1,6 @@
 execute if entity @s[scores={options=1}] run function ssbrc:logic/options/game_mode/stock
 execute if entity @s[scores={options=2}] run function ssbrc:logic/options/game_mode/time
+execute if entity @s[scores={options=3}] run function ssbrc:logic/options/game_mode/capture_the_flag
 
 execute if entity @s[scores={options=11..19}] run function ssbrc:logic/tick/triggers/options/game_mode/check
 
