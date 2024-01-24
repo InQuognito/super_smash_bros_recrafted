@@ -12,6 +12,8 @@ execute if entity @s[tag=roy,nbt={SelectedItem:{tag:{roy.sword:1}}}] run functio
 
 execute if entity @s[tag=shovel_knight,scores={cooldown.3=..0}] run function ssbrc:fighters/shovel_knight/logic/abilities/impulse
 
+execute if entity @s[tag=sora] run function ssbrc:fighters/sora/logic/abilities/impulse
+
 execute if entity @s[tag=yar] run function ssbrc:fighters/yar/logic/abilities/impulse
 
 execute anchored eyes positioned ^ ^ ^ run function ssbrc:logic/inputs/abilities/impulse/anchored_eyes
