@@ -1,4 +1,3 @@
-teleport @s ~ ~ ~ ~ ~
 data modify storage ssbrc:data OriginalRotation set from entity @s Rotation
 
 execute store result score $xrot temp run data get storage ssbrc:data OriginalRotation[0] 10
