@@ -12,7 +12,7 @@
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"translate": "ssbrc.fighters.joker.skin.christmasOutfit",
+								"translate": "ssbrc.fighters.joker.skin.christmas_outfit",
 								"color": "red",
 								"bold": true,
 								"italic": false
@@ -32,7 +32,7 @@
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{ui:{id:\"skins.joker.christmasOutfit\",sound:\"click\"},CustomModelData:606}"
+							"tag": "{ui:{id:\"skins.joker.christmas_outfit\",sound:\"click\"},CustomModelData:606}"
 						}
 					]
 				}

@@ -1,5 +1,5 @@
 execute if entity @s[tag=gold] run particle minecraft:dust_color_transition 0.5 0.5 0.0 0.5 1.0 1.0 0.0 ^-0.25 ^-0.75 ^ 0.1 0.1 0.1 0.0 5 normal @a
-execute if entity @s[tag=armorOfChaos] run particle minecraft:small_flame ^-0.25 ^-0.75 ^ 0.1 0.1 0.1 0.01 5 normal @a
+execute if entity @s[tag=armor_of_chaos] run particle minecraft:small_flame ^-0.25 ^-0.75 ^ 0.1 0.1 0.1 0.01 5 normal @a
 
 execute store result score @s motionY run data get entity @s Motion[1] 1000
 

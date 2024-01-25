@@ -84,7 +84,7 @@
 												"condition": "minecraft:entity_properties",
 												"entity": "this",
 												"predicate": {
-													"nbt": "{Tags:[\"bloodFalcon\"]}"
+													"nbt": "{Tags:[\"blood_falcon\"]}"
 												}
 											}
 										]
@@ -113,7 +113,7 @@
 									"condition": "minecraft:entity_properties",
 									"entity": "this",
 									"predicate": {
-										"nbt": "{Tags:[\"bloodFalcon\"]}"
+										"nbt": "{Tags:[\"blood_falcon\"]}"
 									}
 								}
 							]

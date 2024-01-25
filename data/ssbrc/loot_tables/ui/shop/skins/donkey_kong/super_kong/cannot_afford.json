@@ -12,7 +12,7 @@
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"translate": "ssbrc.fighters.donkey_kong.skin.superKong",
+								"translate": "ssbrc.fighters.donkey_kong.skin.super_kong",
 								"color": "white",
 								"bold": true,
 								"italic": false

@@ -12,7 +12,7 @@
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"translate": "ssbrc.fighters.sora.skin.timelessRiver",
+								"translate": "ssbrc.fighters.sora.skin.timeless_river",
 								"color": "gray",
 								"bold": true,
 								"italic": false

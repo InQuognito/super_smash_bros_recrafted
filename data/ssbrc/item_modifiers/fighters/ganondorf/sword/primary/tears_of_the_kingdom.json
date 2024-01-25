@@ -3,7 +3,7 @@
 		"function": "minecraft:set_name",
 		"entity": "this",
 		"name": {
-			"translate": "ssbrc.tooltips.ganondorf.sword.tearsOfTheKingdom",
+			"translate": "ssbrc.tooltips.ganondorf.sword.tears_of_the_kingdom",
 			"color": "dark_gray",
 			"bold": true,
 			"italic": false

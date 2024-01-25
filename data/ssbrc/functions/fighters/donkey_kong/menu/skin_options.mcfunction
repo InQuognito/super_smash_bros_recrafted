@@ -9,7 +9,7 @@ tellraw @s[tag=gold] [{"translate":"ssbrc.fighters.skin.gold","color":"gold"},{"
 tellraw @s[tag=!flower_power,advancements={ssbrc:fighters/donkey_kong/skins/flower_power=true}] [{"translate":"ssbrc.series.super_mario_bros.skin.flower_power","color":"red","clickEvent":{"action":"run_command","value":"/trigger menu set 3"}}]
 tellraw @s[tag=flower_power] [{"translate":"ssbrc.series.super_mario_bros.skin.flower_power","color":"red"},{"text":" ✔","color":"green"}]
 
-tellraw @s[tag=!superKong,advancements={ssbrc:fighters/donkey_kong/skins/super_kong=true}] [{"translate":"ssbrc.fighters.donkey_kong.skin.superKong","color":"white","clickEvent":{"action":"run_command","value":"/trigger menu set 4"}}]
-tellraw @s[tag=superKong] [{"translate":"ssbrc.fighters.donkey_kong.skin.superKong","color":"white"},{"text":" ✔","color":"green"}]
+tellraw @s[tag=!super_kong,advancements={ssbrc:fighters/donkey_kong/skins/super_kong=true}] [{"translate":"ssbrc.fighters.donkey_kong.skin.super_kong","color":"white","clickEvent":{"action":"run_command","value":"/trigger menu set 4"}}]
+tellraw @s[tag=super_kong] [{"translate":"ssbrc.fighters.donkey_kong.skin.super_kong","color":"white"},{"text":" ✔","color":"green"}]
 
 function ssbrc:logic/skin_options

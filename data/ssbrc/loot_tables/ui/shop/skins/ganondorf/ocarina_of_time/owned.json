@@ -12,7 +12,7 @@
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"translate": "ssbrc.fighters.ganondorf.skin.ocarinaOfTime",
+								"translate": "ssbrc.fighters.ganondorf.skin.ocarina_of_time",
 								"color": "gold",
 								"bold": true,
 								"italic": false

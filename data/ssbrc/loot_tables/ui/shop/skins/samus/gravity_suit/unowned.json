@@ -12,7 +12,7 @@
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"translate": "ssbrc.fighters.samus.skin.gravitySuit",
+								"translate": "ssbrc.fighters.samus.skin.gravity_suit",
 								"color": "light_purple",
 								"bold": true,
 								"italic": false
@@ -24,7 +24,7 @@
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{ui:{id:\"skins.samus.gravitySuit\",sound:\"click\"},CustomModelData:1422}"
+							"tag": "{ui:{id:\"skins.samus.gravity_suit\",sound:\"click\"},CustomModelData:1422}"
 						}
 					]
 				}

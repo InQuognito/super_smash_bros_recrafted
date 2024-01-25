@@ -12,7 +12,7 @@
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"translate": "ssbrc.fighters.samus.skin.phazonSuit",
+								"translate": "ssbrc.fighters.samus.skin.phazon_suit",
 								"color": "aqua",
 								"bold": true,
 								"italic": false

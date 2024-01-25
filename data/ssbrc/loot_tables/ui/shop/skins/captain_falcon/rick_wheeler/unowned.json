@@ -12,7 +12,7 @@
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"translate": "ssbrc.fighters.captain_falcon.skin.rickWheeler",
+								"translate": "ssbrc.fighters.captain_falcon.skin.rick_wheeler",
 								"color": "dark_blue",
 								"bold": true,
 								"italic": false
@@ -24,7 +24,7 @@
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{ui:{id:\"skins.captain_falcon.rickWheeler\",sound:\"click\"},CustomModelData:122}"
+							"tag": "{ui:{id:\"skins.captain_falcon.rick_wheeler\",sound:\"click\"},CustomModelData:122}"
 						}
 					]
 				}

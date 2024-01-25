@@ -1,3 +1,5 @@
+$function $(function) {fighter:"altered_beast"}
+$function $(function) {fighter:"alucard"}
 $function $(function) {fighter:"bowser"}
 $function $(function) {fighter:"byleth"}
 $function $(function) {fighter:"captain_falcon"}
@@ -6,6 +8,7 @@ $function $(function) {fighter:"dark_samus"}
 $function $(function) {fighter:"donkey_kong"}
 $function $(function) {fighter:"fox"}
 $function $(function) {fighter:"ganondorf"}
+$function $(function) {fighter:"giegue"}
 $function $(function) {fighter:"greninja"}
 $function $(function) {fighter:"hero"}
 $function $(function) {fighter:"jigglypuff"}
@@ -27,19 +30,15 @@ $function $(function) {fighter:"rob"}
 $function $(function) {fighter:"roy"}
 $function $(function) {fighter:"ryu"}
 $function $(function) {fighter:"samus"}
+$function $(function) {fighter:"shadow"}
+$function $(function) {fighter:"shovel_knight"}
 $function $(function) {fighter:"snake"}
 $function $(function) {fighter:"sonic"}
 $function $(function) {fighter:"sora"}
 $function $(function) {fighter:"steve"}
+$function $(function) {fighter:"team_rocket"}
 $function $(function) {fighter:"toon_link"}
 $function $(function) {fighter:"villager"}
 $function $(function) {fighter:"wolf"}
-$function $(function) {fighter:"zelda"}
-
-$function $(function) {fighter:"altered_beast"}
-$function $(function) {fighter:"alucard"}
-$function $(function) {fighter:"giegue"}
-$function $(function) {fighter:"shadow"}
-$function $(function) {fighter:"shovel_knight"}
-$function $(function) {fighter:"team_rocket"}
 $function $(function) {fighter:"yar"}
+$function $(function) {fighter:"zelda"}

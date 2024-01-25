@@ -4,6 +4,8 @@ loot replace entity @s enderchest.0 loot ssbrc:ui/null/red
 item replace entity @s enderchest.9 with minecraft:barrier{ui:{id:"navigation.main",sound:"click"},CustomModelData:9999991,display:{Name:'{"translate":"ssbrc.ui.goBack","color":"red","italic":false}'}}
 loot replace entity @s enderchest.18 loot ssbrc:ui/null/red
 
+function ssbrc:shop/pages/fighters/place_item {fighter:"mario",model:840,slot:"2"}
+
 item replace entity @s[advancements={ssbrc:fighters/mario/skins/default=false}] enderchest.2 with minecraft:barrier{UIPlaceHolder:1b,CustomModelData:840,display:{Name:'{"translate":"ssbrc.fighters.mario","color":"red","italic":false}',Lore:['""','{"translate":"ssbrc.fighterSelect.unowned","color":"red","italic":false}']}}
 item replace entity @s[advancements={ssbrc:fighters/mario/skins/default=true}] enderchest.2 with minecraft:barrier{ui:{id:"navigation.skins.mario",sound:"click"},CustomModelData:840,display:{Name:'{"translate":"ssbrc.fighters.mario","color":"red","italic":false}',Lore:['""','{"translate":"ssbrc.ui.clickToOpen","color":"yellow","italic":false}']}}
 

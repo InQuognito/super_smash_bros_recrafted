@@ -12,7 +12,7 @@
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"translate": "ssbrc.fighters.ness.skin.phaseDistortion",
+								"translate": "ssbrc.fighters.ness.skin.phase_distortion",
 								"color": "gray",
 								"bold": true,
 								"italic": false

@@ -12,7 +12,7 @@ tellraw @s[tag=moonside] [{"translate":"ssbrc.fighters.ness.skin.moonside","colo
 tellraw @s[tag=!pajamas,advancements={ssbrc:fighters/ness/skins/pajamas=true}] [{"translate":"ssbrc.fighters.ness.skin.pajamas","color":"dark_aqua","clickEvent":{"action":"run_command","value":"/trigger menu set 4"}}]
 tellraw @s[tag=pajamas] [{"translate":"ssbrc.fighters.ness.skin.pajamas","color":"dark_aqua"},{"text":" ✔","color":"green"}]
 
-tellraw @s[tag=!phaseDistortion,advancements={ssbrc:fighters/ness/skins/phase_distortion=true}] [{"translate":"ssbrc.fighters.ness.skin.phaseDistortion","color":"gray","clickEvent":{"action":"run_command","value":"/trigger menu set 5"}}]
-tellraw @s[tag=phaseDistortion] [{"translate":"ssbrc.fighters.ness.skin.phaseDistortion","color":"gray"},{"text":" ✔","color":"green"}]
+tellraw @s[tag=!phase_distortion,advancements={ssbrc:fighters/ness/skins/phase_distortion=true}] [{"translate":"ssbrc.fighters.ness.skin.phase_distortion","color":"gray","clickEvent":{"action":"run_command","value":"/trigger menu set 5"}}]
+tellraw @s[tag=phase_distortion] [{"translate":"ssbrc.fighters.ness.skin.phase_distortion","color":"gray"},{"text":" ✔","color":"green"}]
 
 function ssbrc:logic/skin_options

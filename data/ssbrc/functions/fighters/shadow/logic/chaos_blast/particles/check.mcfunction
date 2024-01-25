@@ -2,4 +2,4 @@ execute if entity @s[tag=default] run function ssbrc:fighters/shadow/logic/chaos
 
 execute if entity @s[tag=gold] run function ssbrc:fighters/shadow/logic/chaos_blast/particles/gold
 
-execute if entity @s[tag=yellowAndroid] run function ssbrc:fighters/shadow/logic/chaos_blast/particles/yellow_android
+execute if entity @s[tag=yellow_android] run function ssbrc:fighters/shadow/logic/chaos_blast/particles/yellow_android

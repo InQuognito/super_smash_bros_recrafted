@@ -12,7 +12,7 @@
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"translate": "ssbrc.fighters.ganondorf.skin.windWaker",
+								"translate": "ssbrc.fighters.ganondorf.skin.wind_waker",
 								"color": "aqua",
 								"bold": true,
 								"italic": false
@@ -24,7 +24,7 @@
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{ui:{id:\"skins.ganondorf.windWaker\",sound:\"click\"},CustomModelData:404}"
+							"tag": "{ui:{id:\"skins.ganondorf.wind_waker\",sound:\"click\"},CustomModelData:404}"
 						}
 					]
 				}

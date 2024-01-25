@@ -12,7 +12,7 @@
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"translate": "ssbrc.fighters.shadow.skin.yellowAndroid",
+								"translate": "ssbrc.fighters.shadow.skin.yellow_android",
 								"color": "yellow",
 								"bold": true,
 								"italic": false

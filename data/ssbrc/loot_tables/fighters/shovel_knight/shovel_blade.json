@@ -98,7 +98,7 @@
 									"condition": "minecraft:entity_properties",
 									"entity": "this",
 									"predicate": {
-										"nbt": "{Tags:[\"armorOfChaos\"]}"
+										"nbt": "{Tags:[\"armor_of_chaos\"]}"
 									}
 								}
 							]
@@ -111,7 +111,7 @@
 									"condition": "minecraft:entity_properties",
 									"entity": "this",
 									"predicate": {
-										"nbt": "{Tags:[\"toadGear\"]}"
+										"nbt": "{Tags:[\"toad_gear\"]}"
 									}
 								}
 							]

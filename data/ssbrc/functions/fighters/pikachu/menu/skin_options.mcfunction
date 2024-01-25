@@ -9,7 +9,7 @@ tellraw @s[tag=gold] [{"translate":"ssbrc.fighters.skin.gold","color":"gold"},{"
 tellraw @s[tag=!shiny,advancements={ssbrc:fighters/pikachu/skins/shiny=true}] [{"translate":"ssbrc.series.pokemon.skin.shiny","color":"gold","clickEvent":{"action":"run_command","value":"/trigger menu set 3"}}]
 tellraw @s[tag=shiny] [{"translate":"ssbrc.series.pokemon.skin.shiny","color":"gold"},{"text":" ✔","color":"green"}]
 
-tellraw @s[tag=!santaHat,advancements={ssbrc:fighters/pikachu/skins/santa_hat=true}] [{"nbt":"winter","storage":"ssbrc:data/skins","interpret":true},{"translate":"ssbrc.fighters.pikachu.skin.santaHat","color":"red","clickEvent":{"action":"run_command","value":"/trigger menu set 4"}}]
-tellraw @s[tag=santaHat] [{"nbt":"winter","storage":"ssbrc:data/skins","interpret":true},{"translate":"ssbrc.fighters.pikachu.skin.santaHat","color":"red"},{"text":" ✔","color":"green"}]
+tellraw @s[tag=!santa_hat,advancements={ssbrc:fighters/pikachu/skins/santa_hat=true}] [{"nbt":"winter","storage":"ssbrc:data/skins","interpret":true},{"translate":"ssbrc.fighters.pikachu.skin.santa_hat","color":"red","clickEvent":{"action":"run_command","value":"/trigger menu set 4"}}]
+tellraw @s[tag=santa_hat] [{"nbt":"winter","storage":"ssbrc:data/skins","interpret":true},{"translate":"ssbrc.fighters.pikachu.skin.santa_hat","color":"red"},{"text":" ✔","color":"green"}]
 
 function ssbrc:logic/skin_options

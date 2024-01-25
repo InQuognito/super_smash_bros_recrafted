@@ -3,7 +3,7 @@
 		"function": "minecraft:set_name",
 		"entity": "this",
 		"name": {
-			"translate": "ssbrc.tooltips.ganondorf.sword.windWaker.mainhand",
+			"translate": "ssbrc.tooltips.ganondorf.sword.wind_waker.mainhand",
 			"color": "white",
 			"bold": true,
 			"italic": false

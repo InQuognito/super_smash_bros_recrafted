@@ -20,7 +20,7 @@
 									"condition": "minecraft:entity_properties",
 									"entity": "this",
 									"predicate": {
-										"nbt": "{Tags:[\"windWaker\"]}"
+										"nbt": "{Tags:[\"wind_waker\"]}"
 									}
 								}
 							]

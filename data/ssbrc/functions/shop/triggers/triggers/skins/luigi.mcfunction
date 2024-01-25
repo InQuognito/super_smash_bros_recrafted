@@ -2,10 +2,10 @@ execute store result score @s shopCalculator run clear @s #ssbrc:ui/buttons{ui:{
 execute if entity @s[scores={shopCalculator=1..}] run function ssbrc:shop/pages/skins/1/load
 
 execute store result score @s shopCalculator run clear @s #ssbrc:ui/buttons{ui:{id:"skins.luigi.flower_power"}}
-execute if entity @s[scores={shopCalculator=1..}] run function ssbrc:shop/contents/skins/luigi/flower_power
+execute if entity @s[scores={shopCalculator=1..}] run function ssbrc:shop/contents/skin/default {fighter:"luigi",skin:"flower_power"}
 
 execute store result score @s shopCalculator run clear @s #ssbrc:ui/buttons{ui:{id:"skins.luigi.gooigi"}}
-execute if entity @s[scores={shopCalculator=1..}] run function ssbrc:shop/contents/skins/luigi/gooigi
+execute if entity @s[scores={shopCalculator=1..}] run function ssbrc:shop/contents/skin/default {fighter:"luigi",skin:"gooigi"}
 
 execute store result score @s shopCalculator run clear @s #ssbrc:ui/buttons{ui:{id:"skins.luigi.penguin"}}
-execute if entity @s[scores={shopCalculator=1..}] run function ssbrc:shop/contents/skins/luigi/penguin
+execute if entity @s[scores={shopCalculator=1..}] run function ssbrc:shop/contents/skin/default {fighter:"luigi",skin:"penguin"}
