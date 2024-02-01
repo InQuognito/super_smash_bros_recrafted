@@ -8,5 +8,5 @@ loot replace entity @s container.0 loot ssbrc:fighters/donkey_kong/barrel
 
 function ssbrc:logic/init/projectile_bouncing
 
-data merge entity @s {transformation:[0.5f,0f,0f,0f,0f,0.5f,0f,0.5f,0f,0f,0.5f,0f,0f,0f,0f,1f],teleport_duration:1}
+data merge entity @s {transformation:[0.5f,0f,0f,0f,0f,0.5f,0f,0.5f,0f,0f,0.5f,0f,0f,0f,0f,1f],item_display:head,teleport_duration:1}
 function ssbrc:fighters/donkey_kong/logic/abilities/barrel/animation/1
