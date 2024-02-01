@@ -1,4 +1,4 @@
-execute positioned ^ ^ ^1 summon minecraft:armor_stand run function ssbrc:fighters/donkey_kong/logic/abilities/barrel/init
+execute positioned ^ ^ ^1 summon minecraft:item_display run function ssbrc:fighters/donkey_kong/logic/abilities/barrel/init
 
 scoreboard players set @s cooldown.1 10
 execute if entity @s[scores={shadow.chaosControl=1..}] run function ssbrc:logic/fighters/cooldown_modifiers/chaos_control {type:1}

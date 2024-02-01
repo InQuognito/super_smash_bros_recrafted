@@ -12,3 +12,10 @@ execute rotated as @s run teleport @s ^ ^ ^0.25
 
 scoreboard players add @s temp 1
 execute at @s[scores={temp=100..}] run function ssbrc:fighters/donkey_kong/logic/abilities/barrel/explode
+
+scoreboard players operation #display temp = @s temp
+scoreboard players operation #display temp %= 6 integers
+execute if score #display temp matches 0 run function ssbrc:fighters/donkey_kong/logic/abilities/barrel/animation/1
+execute if score #display temp matches 2 run function ssbrc:fighters/donkey_kong/logic/abilities/barrel/animation/2
+execute if score #display temp matches 4 run function ssbrc:fighters/donkey_kong/logic/abilities/barrel/animation/3
+scoreboard players reset #display temp

@@ -4,8 +4,9 @@ execute if entity @p[tag=self,tag=!gold,tag=!flower_power] run tag @s add defaul
 execute if entity @p[tag=self,tag=gold] run tag @s add gold
 execute if entity @p[tag=self,tag=flower_power] run tag @s add flower_power
 
-loot replace entity @s armor.head loot ssbrc:fighters/donkey_kong/barrel
+loot replace entity @s container.0 loot ssbrc:fighters/donkey_kong/barrel
 
-data merge entity @s {Small:1b}
+function ssbrc:logic/init/projectile_bouncing
 
-function ssbrc:logic/init/armor_stand/bouncing
+data merge entity @s {item_display:head,teleport_duration:1}
+function ssbrc:fighters/donkey_kong/logic/abilities/barrel/animation/1
