@@ -1,4 +1,6 @@
-particle minecraft:dust_color_transition 0.4 0.9 1.0 0.75 1.0 1.0 1.0 ~ ~ ~ 0.05 0.05 0.05 0.0 25 force @a
+particle minecraft:dust_color_transition 0.4 0.9 1.0 0.4 1.0 1.0 1.0 ~ ~ ~ 0.1 0.1 0.1 0.0 50 force @a
+particle minecraft:dust_color_transition 0.4 0.9 1.0 0.75 1.0 1.0 1.0 ~ ~ ~ 0.1 0.1 0.1 0.0 1 force @a
+particle minecraft:snowflake ^ ^ ^ ^ ^500000 ^-1000000 0.0000002 0 force @a
 
 execute unless block ~ ~ ~ #ssbrc:passthrough run kill @s
 
