@@ -115,7 +115,6 @@ scoreboard objectives add steve.tier dummy
 scoreboard objectives add stocks dummy
 scoreboard objectives add suicides dummy
 scoreboard objectives add team dummy
-scoreboard objectives add teamAmount dummy
 scoreboard objectives add timer dummy
 scoreboard objectives add timer.barrelCannon dummy
 scoreboard objectives add timer.galaxianFlagship dummy
