@@ -12,7 +12,8 @@ execute if entity @s[tag=hitGround,scores={timer=1}] run function ssbrc:logic/fi
 teleport @s[tag=!hitGround,scores={temp=..40}] ^ ^ ^0.2
 
 scoreboard players add @s[tag=hitGround] timer 1
-kill @s[scores={timer=20..}]
+execute if entity @s[scores={timer=60..}] run tp @s ~ ~-0.05 ~
+execute if entity @s[scores={timer=70..}] run kill @s
 
 scoreboard players add @s temp 1
 kill @s[scores={temp=120..}]
