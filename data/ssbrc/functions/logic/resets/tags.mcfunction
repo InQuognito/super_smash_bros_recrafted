@@ -17,6 +17,7 @@ tag @s remove admin
 tag @s remove alive
 tag @s remove idSet
 tag @s remove mostPoints
+tag @s remove no_spin
 tag @s remove picking_random
 tag @s remove room.characterSelect
 tag @s remove room.mapVoting
