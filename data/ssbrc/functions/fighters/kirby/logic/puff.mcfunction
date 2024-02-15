@@ -1,4 +1,5 @@
 scoreboard players add @s charge.1 1
+execute facing ~ ~-1 ~ run function ssbrc:fighters/kirby/logic/1
 
 effect give @s[scores={charge.1=1}] minecraft:levitation 1 25 true
 effect give @s[scores={charge.1=2}] minecraft:levitation 1 23 true

@@ -1,4 +1,5 @@
-particle minecraft:dust_color_transition 0.4 0.9 1.0 0.75 1.0 1.0 1.0 ~ ~ ~ 0.05 0.05 0.05 0.0 25 force @a
+particle minecraft:dust_color_transition 0.4 0.9 1.0 0.75 1.0 1.0 1.0 ~ ~ ~ 0.05 0.05 0.05 0.0 20 force @a
+particle minecraft:snowflake ~ ~ ~ 0 0 0 0 1 force @a
 
 execute positioned ~-0.375 ~-0.375 ~-0.375 as @e[tag=!self,predicate=ssbrc:flag/targets,dx=0] positioned ~-0.25 ~-0.25 ~-0.25 if entity @s[dx=0] run function ssbrc:fighters/luigi/logic/abilities/ice_ball/hit
 function ssbrc:logic/fighters/checks/hit
