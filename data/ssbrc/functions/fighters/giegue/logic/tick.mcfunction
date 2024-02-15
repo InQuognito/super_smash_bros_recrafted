@@ -1,4 +1,4 @@
-execute if entity @s[scores={useAbility=1..,cooldown.1=..0,charge.1=..0}] run function ssbrc:fighters/giegue/logic/abilities/check
+execute if entity @s[scores={useAbility=1..,charge.1=..0}] run function ssbrc:fighters/giegue/logic/abilities/check
 
 execute if entity @s[predicate=ssbrc:flag/sneaking,scores={cooldown.3=..0}] at @s positioned ~ ~0.1 ~ run function ssbrc:fighters/giegue/logic/abilities/4th_dimensional_slip/activate
 
