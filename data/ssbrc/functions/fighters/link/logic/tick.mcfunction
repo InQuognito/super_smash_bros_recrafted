@@ -34,3 +34,5 @@ execute if entity @s[predicate=ssbrc:flag/sneaking,scores={charge.output=1..},nb
 execute if entity @s[tag=swordSpin,predicate=!ssbrc:flag/sneaking,scores={charge.output=1..}] run function ssbrc:fighters/link/logic/abilities/sword_spin/cancel
 
 execute if entity @s[tag=spinning] at @s run function ssbrc:fighters/link/logic/abilities/sword_spin/tick
+
+tag @s[predicate=!ssbrc:flag/in_air] remove no_spin
