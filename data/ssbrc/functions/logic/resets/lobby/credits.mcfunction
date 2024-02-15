@@ -16,7 +16,7 @@ summon minecraft:text_display -546.5 -1.75 -1939.5 {Tags:["creditsText"],text:'{
 summon minecraft:text_display -542.5 -1.75 -1936.5 {Tags:["creditsText"],text:'{"text":"OrionBrigade","bold":true,"color":"white"}',billboard:center}
 summon minecraft:item_display -542.5 -2.925 -1936.5 {Tags:["selectable","developer","orionbrigade"],item:{id:"minecraft:stick",tag:{CustomModelData:1000002},Count:1b},Rotation:[180f,0f]}
 
-summon minecraft:text_display -546.5 -1.75 -1935.5 {Tags:["creditsText"],text:'{"text":"JediMasterHomer","bold":true,"color":"white"}',billboard:center}
+summon minecraft:text_display -546.5 -1.75 -1935.5 {Tags:["creditsText"],text:'{"text":"Homer_YT","bold":true,"color":"white"}',billboard:center}
 summon minecraft:item_display -546.5 -2.925 -1935.5 {Tags:["selectable","developer","jedimasterhomer"],item:{id:"minecraft:stick",tag:{CustomModelData:1000003},Count:1b},Rotation:[180f,0f]}
 
 summon minecraft:text_display -550.5 -1.75 -1936.5 {Tags:["creditsText"],text:'{"text":"SugarShrimp","bold":true,"color":"white"}',billboard:center}
