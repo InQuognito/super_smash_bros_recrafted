@@ -6,6 +6,6 @@ execute if entity @s[predicate=ssbrc:flag/sneaking,scores={cooldown.3=..0}] at @
 function ssbrc:fighters/giegue/logic/abilities/pk_freeze/cooldown
 
 # PK Beam
-execute at @s[scores={charge.1=1..}] anchored eyes positioned ^ ^ ^ run function ssbrc:fighters/giegue/logic/abilities/pk_beam/charge
+execute at @s[scores={charge.1=1..}] anchored eyes positioned ^ ^ ^1 run function ssbrc:fighters/giegue/logic/abilities/pk_beam/charge
 
 function ssbrc:fighters/giegue/logic/abilities/pk_beam/cooldown
