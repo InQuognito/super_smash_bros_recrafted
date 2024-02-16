@@ -51,10 +51,13 @@ summon minecraft:item_display -543.5 -2.925 -1952.5 {Tags:["selectable","develop
 summon minecraft:text_display -542.5 -1.75 -1954.5 {Tags:["creditsText"],text:'{"text":"MiffenKop","bold":true,"color":"white"}',billboard:center}
 summon minecraft:item_display -542.5 -2.925 -1954.5 {Tags:["selectable","developer","miffenkop"],item:{id:"minecraft:stick",tag:{CustomModelData:1000012},Count:1b}}
 
+summon minecraft:text_display -551.5 -1.75 -1952.5 {Tags:["creditsText"],text:'{"text":"Lostpuppet","bold":true,"color":"white"}',billboard:center}
+summon minecraft:item_display -551.5 -2.925 -1952.5 {Tags:["selectable","developer","lostpuppet"],item:{id:"minecraft:stick",tag:{CustomModelData:1000013},Count:1b}}
+
 # Testers
 summon minecraft:text_display -534.5 -1.75 -1939.1 {Tags:["creditsText"],text:'{"translate":"ssbrc.credits.testers","bold":true,"color":"yellow"}',background:0,Rotation:[180f,0f]}
 
-summon minecraft:text_display -534.5 -4.5 -1939.1 {Tags:["creditsText"],text:'[{"translate":"3DSCarnaje","color":"white"},{"text":"\\n"},{"translate":"AndrewAwesome87","color":"white"},{"text":"\\n"},{"translate":"JediMasterHomer","color":"white"},{"text":"\\n"},{"translate":"Mewion","color":"white"},{"text":"\\n"},{"translate":"MiffenKop","color":"white"},{"text":"\\n"},{"translate":"MysticGamer123","color":"white"},{"text":"\\n"},{"translate":"Nin10DOPE1985","color":"white"},{"text":"\\n"},{"translate":"P5eudonym","color":"white"},{"text":"\\n"},{"translate":"RulerOEverything","color":"white"}]',background:0,Rotation:[180f,0f]}
+summon minecraft:text_display -534.5 -4.5 -1939.1 {Tags:["creditsText"],text:'[{"translate":"3DSCarnaje","color":"white"},{"text":"\\n"},{"translate":"AndrewAwesome87","color":"white"},{"text":"\\n"},{"translate":"Homer_YT","color":"white"},{"text":"\\n"},{"translate":"Mewion","color":"white"},{"text":"\\n"},{"translate":"MiffenKop","color":"white"},{"text":"\\n"},{"translate":"MysticGamer123","color":"white"},{"text":"\\n"},{"translate":"Nin10DOPE1985","color":"white"},{"text":"\\n"},{"translate":"P5eudonym","color":"white"},{"text":"\\n"},{"translate":"RulerOEverything","color":"white"}]',background:0,Rotation:[180f,0f]}
 
 # Special Thanks
 summon minecraft:text_display -534.5 -1.75 -1949.9 {Tags:["creditsText"],text:'{"translate":"ssbrc.credits.specialThanks","bold":true,"color":"yellow"}',background:0}
