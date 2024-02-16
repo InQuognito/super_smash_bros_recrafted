@@ -96,6 +96,7 @@ execute if entity @e[type=minecraft:item_display,tag=davidtippy,dx=0,sort=neares
 execute if entity @e[type=minecraft:item_display,tag=ricardo64,dx=0,sort=nearest,limit=1] run function ssbrc:logic/selector/events/developers/ricardo64
 execute if entity @e[type=minecraft:item_display,tag=pastapower2k64,dx=0,sort=nearest,limit=1] run function ssbrc:logic/selector/events/developers/pastapower2k64
 execute if entity @e[type=minecraft:item_display,tag=miffenkop,dx=0,sort=nearest,limit=1] run function ssbrc:logic/selector/events/developers/miffenkop
+execute if entity @e[type=minecraft:item_display,tag=lostpuppet,dx=0,sort=nearest,limit=1] run function ssbrc:logic/selector/events/developers/lostpuppet
 
 execute if entity @e[type=minecraft:item_display,tag=fighterDisplay,dx=0,sort=nearest,limit=1] run advancement grant @s[advancements={ssbrc:tutorial/intro/3=true,ssbrc:tutorial/fighter_select/2=false}] only ssbrc:tutorial/fighter_select/2
 
