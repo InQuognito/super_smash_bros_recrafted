@@ -16,7 +16,7 @@ execute if predicate ssbrc:items run function ssbrc:stages/luigis_mansion/item_s
 
 function ssbrc:stages/luigis_mansion/logic/blackout/off
 
-execute as @a[predicate=ssbrc:ingame] run function ssbrc:logic/pre_game/prepare_players
-function ssbrc:logic/pre_game/prepare_match
+execute as @a[predicate=ssbrc:ingame] run function ssbrc:logic/pre_game/prepare/players
+function ssbrc:logic/pre_game/prepare/match
 
 tag @a[predicate=ssbrc:flag/player] add luigis_mansion

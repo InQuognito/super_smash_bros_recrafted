@@ -21,7 +21,7 @@ execute as @e[type=minecraft:item_display,tag=snorlax] if predicate ssbrc:fighte
 
 execute as @e[type=minecraft:item_display,tag=abra] at @s run function ssbrc:stages/pallet_town/logic/pokemon/abra/teleport/decide
 
-execute as @a[predicate=ssbrc:ingame] run function ssbrc:logic/pre_game/prepare_players
-function ssbrc:logic/pre_game/prepare_match
+execute as @a[predicate=ssbrc:ingame] run function ssbrc:logic/pre_game/prepare/players
+function ssbrc:logic/pre_game/prepare/match
 
 tag @a[predicate=ssbrc:flag/player] add pallet_town

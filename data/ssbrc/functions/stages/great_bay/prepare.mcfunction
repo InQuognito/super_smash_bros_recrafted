@@ -11,7 +11,7 @@ summon minecraft:marker 2666.5 7.0 68.5 {Tags:["spawnpoint"]}
 
 execute if predicate ssbrc:items run function ssbrc:stages/great_bay/item_spawnpoints
 
-execute as @a[predicate=ssbrc:ingame] run function ssbrc:logic/pre_game/prepare_players
-function ssbrc:logic/pre_game/prepare_match
+execute as @a[predicate=ssbrc:ingame] run function ssbrc:logic/pre_game/prepare/players
+function ssbrc:logic/pre_game/prepare/match
 
 tag @a[predicate=ssbrc:flag/player] add great_bay

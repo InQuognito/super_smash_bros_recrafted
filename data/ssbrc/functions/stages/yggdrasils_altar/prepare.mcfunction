@@ -11,7 +11,7 @@ summon minecraft:marker 340.5 58.0 4026.5 {Tags:["spawnpoint"]}
 
 execute if predicate ssbrc:items run function ssbrc:stages/yggdrasils_altar/item_spawnpoints
 
-execute as @a[predicate=ssbrc:ingame] run function ssbrc:logic/pre_game/prepare_players
-function ssbrc:logic/pre_game/prepare_match
+execute as @a[predicate=ssbrc:ingame] run function ssbrc:logic/pre_game/prepare/players
+function ssbrc:logic/pre_game/prepare/match
 
 tag @a[predicate=ssbrc:flag/player] add yggdrasils_altar

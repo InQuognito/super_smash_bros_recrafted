@@ -3,7 +3,7 @@ execute if score pac_mazeType map matches 2 run function ssbrc:stages/pac_maze/p
 
 function ssbrc:stages/pac_maze/logic/ghosts/states/animation_schedule
 
-execute as @a[predicate=ssbrc:ingame] run function ssbrc:logic/pre_game/prepare_players
-function ssbrc:logic/pre_game/prepare_match
+execute as @a[predicate=ssbrc:ingame] run function ssbrc:logic/pre_game/prepare/players
+function ssbrc:logic/pre_game/prepare/match
 
 tag @a[predicate=ssbrc:flag/player] add pac_maze

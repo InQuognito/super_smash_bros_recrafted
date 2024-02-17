@@ -11,7 +11,7 @@ summon minecraft:marker 299.5 16.0 -561.5 {Tags:["spawnpoint"]}
 
 execute if predicate ssbrc:items run function ssbrc:stages/battlefield/item_spawnpoints
 
-execute as @a[predicate=ssbrc:ingame] run function ssbrc:logic/pre_game/prepare_players
-function ssbrc:logic/pre_game/prepare_match
+execute as @a[predicate=ssbrc:ingame] run function ssbrc:logic/pre_game/prepare/players
+function ssbrc:logic/pre_game/prepare/match
 
 tag @a[predicate=ssbrc:flag/player] add battlefield
