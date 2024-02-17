@@ -19,5 +19,4 @@ team modify team6 nametagVisibility hideForOtherTeams
 team modify team7 nametagVisibility hideForOtherTeams
 team modify team8 nametagVisibility hideForOtherTeams
 
-execute as @a[predicate=ssbrc:flag/player] run function ssbrc:logic/respawn/check
 function ssbrc:logic/pre_game/start_countdown
