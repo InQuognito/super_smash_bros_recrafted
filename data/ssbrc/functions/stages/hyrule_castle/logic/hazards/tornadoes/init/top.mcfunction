@@ -1,10 +1,12 @@
 tag @s add top
 
-data merge entity @s {ArmorItems:[{},{},{},{id:"minecraft:sugar",Count:1b,tag:{CustomModelData:805}}]}
+item replace entity @s container.0 with minecraft:sugar{CustomModelData:805}
+
+data merge entity @s {start_interpolation:0,interpolation_duration:400,transformation:{left_rotation:{axis:[0f,1f,0f],angle:1000.0f}}}
 
 function ssbrc:stages/hyrule_castle/logic/hazards/tornadoes/init
 
-ride @s mount @e[type=minecraft:armor_stand,tag=middle,sort=nearest,limit=1]
+ride @s mount @e[type=minecraft:item_display,tag=middle,sort=nearest,limit=1]
 
-scoreboard players set #hyrule_castleHazard temp 1
+scoreboard players set hyrule_castle.hazard temp 1
 scoreboard players add tornadoes temp 1
