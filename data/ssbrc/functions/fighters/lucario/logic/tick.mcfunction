@@ -1,5 +1,3 @@
-execute if entity @s[scores={duration.1=1}] run function ssbrc:fighters/lucario/logic/abilities/counter/deactivate
-
 # Aura
 execute if entity @s[scores={health=33..40}] run particle minecraft:dust 0.0 1.0 0.25 0.5 ~ ~0.75 ~ 0.2 0.4 0.2 0.0 3 normal @a
 execute if entity @s[scores={health=25..32}] run particle minecraft:dust 0.0 1.0 0.25 0.6 ~ ~0.75 ~ 0.2 0.4 0.2 0.0 6 normal @a

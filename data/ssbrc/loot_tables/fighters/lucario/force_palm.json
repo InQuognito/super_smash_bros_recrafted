@@ -12,7 +12,7 @@
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"translate": "ssbrc.tooltips.lucario.temp",
+								"translate": "ssbrc.tooltips.lucario.force_palm",
 								"color": "blue",
 								"bold": true,
 								"italic": false
@@ -43,7 +43,7 @@
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{lucario.temp:1}"
+							"tag": "{lucario.force_palm:1}"
 						}
 					]
 				}
