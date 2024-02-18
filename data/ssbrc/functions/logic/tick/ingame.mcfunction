@@ -25,5 +25,5 @@ scoreboard players reset @a flag.breakShield
 function ssbrc:logic/tick/stages/after_start
 
 # Debug
-execute if score debug options matches 1 at @e[type=minecraft:marker,tag=spawnpoint] run particle minecraft:dust 1.0 0.0 0.0 1.0 ~ ~ ~ 0.0 0.0 0.0 0.0 1 normal @a
-execute if score debug options matches 1 at @e[type=minecraft:marker,tag=spawnpoint.item] run particle minecraft:sonic_boom ~ ~ ~ 0.0 0.0 0.0 0.0 1 normal @a
+execute if score debug options matches 1 at @e[type=minecraft:marker,tag=spawnpoint] run particle minecraft:dust 1.0 0.0 0.0 1.0 ~ ~ ~ 0.0 0.0 0.0 0.0 1 force @a
+execute if score debug options matches 1 at @e[type=minecraft:marker,tag=spawnpoint.item] run particle minecraft:sonic_boom ~ ~ ~ 0.0 0.0 0.0 0.0 1 force @a
