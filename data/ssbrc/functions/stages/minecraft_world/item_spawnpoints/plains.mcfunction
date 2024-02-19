@@ -1,1 +1,20 @@
-# TODO: Get item spawnpoints
+summon minecraft:marker -564.5 60.0 -2842.5 {Tags:["spawnpoint.item"]}
+summon minecraft:marker -570.5 60.0 -2851.5 {Tags:["spawnpoint.item"]}
+summon minecraft:marker -567.5 60.0 -2866.5 {Tags:["spawnpoint.item"]}
+summon minecraft:marker -554.5 60.0 -2874.5 {Tags:["spawnpoint.item"]}
+summon minecraft:marker -545.5 60.0 -2866.5 {Tags:["spawnpoint.item"]}
+summon minecraft:marker -539.5 60.0 -2875.5 {Tags:["spawnpoint.item"]}
+summon minecraft:marker -532.5 60.0 -2881.5 {Tags:["spawnpoint.item"]}
+summon minecraft:marker -528.5 60.0 -2871.5 {Tags:["spawnpoint.item"]}
+summon minecraft:marker -518.5 60.0 -2865.5 {Tags:["spawnpoint.item"]}
+summon minecraft:marker -514.5 60.0 -2858.5 {Tags:["spawnpoint.item"]}
+summon minecraft:marker -538.5 60.0 -2856.5 {Tags:["spawnpoint.item"]}
+summon minecraft:marker -544.5 60.0 -2845.5 {Tags:["spawnpoint.item"]}
+summon minecraft:marker -546.5 60.0 -2858.5 {Tags:["spawnpoint.item"]}
+summon minecraft:marker -539.5 60.0 -2870.5 {Tags:["spawnpoint.item"]}
+summon minecraft:marker -537.5 60.0 -2861.5 {Tags:["spawnpoint.item"]}
+summon minecraft:marker -535.5 60.0 -2843.5 {Tags:["spawnpoint.item"]}
+summon minecraft:marker -543.5 60.0 -2877.5 {Tags:["spawnpoint.item"]}
+summon minecraft:marker -528.5 60.0 -2861.5 {Tags:["spawnpoint.item"]}
+summon minecraft:marker -544.5 60.0 -2858.5 {Tags:["spawnpoint.item"]}
+summon minecraft:marker -562.5 60.0 -2862.5 {Tags:["spawnpoint.item"]}
