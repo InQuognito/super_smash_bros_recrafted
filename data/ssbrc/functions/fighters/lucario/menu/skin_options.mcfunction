@@ -12,7 +12,7 @@ tellraw @s[tag=shiny] [{"translate":"ssbrc.fighters.lucario.skin.shiny","color":
 tellraw @s[tag=!costume_party,advancements={ssbrc:fighters/lucario/skins/costume_party=true}] [{"translate":"ssbrc.fighters.lucario.skin.costume_party","color":"dark_gray","clickEvent":{"action":"run_command","value":"/trigger menu set 4"}}]
 tellraw @s[tag=costume_party] [{"translate":"ssbrc.fighters.lucario.skin.costume_party","color":"dark_gray"},{"text":" ✔","color":"green"}]
 
-tellraw @s[tag=!pokken_tournament,advancements={ssbrc:fighters/lucario/skins/pokken_tournament=true}] [{"translate":"ssbrc.fighters.lucario.skin.pokken_tournament","color":"red","clickEvent":{"action":"run_command","value":"/trigger menu set 5"}}]
-tellraw @s[tag=pokken_tournament] [{"translate":"ssbrc.fighters.lucario.skin.pokken_tournament","color":"red"},{"text":" ✔","color":"green"}]
+tellraw @s[tag=!pokken,advancements={ssbrc:fighters/lucario/skins/pokken=true}] [{"translate":"ssbrc.fighters.lucario.skin.pokken","color":"red","clickEvent":{"action":"run_command","value":"/trigger menu set 5"}}]
+tellraw @s[tag=pokken] [{"translate":"ssbrc.fighters.lucario.skin.pokken","color":"red"},{"text":" ✔","color":"green"}]
 
 function ssbrc:logic/skin_options
