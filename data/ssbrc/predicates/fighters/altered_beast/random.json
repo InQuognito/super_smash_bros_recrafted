@@ -12,14 +12,14 @@
 			"condition": "minecraft:entity_properties",
 			"entity": "this",
 			"predicate": {
-				"nbt": "{Tags:[\"bigBattlefield\"]}"
+				"nbt": "{Tags:[\"big_battlefield\"]}"
 			}
 		},
 		{
 			"condition": "minecraft:entity_properties",
 			"entity": "this",
 			"predicate": {
-				"nbt": "{Tags:[\"finalDestination\"]}"
+				"nbt": "{Tags:[\"final_destination\"]}"
 			}
 		}
 	]

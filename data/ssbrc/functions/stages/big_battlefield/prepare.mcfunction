@@ -14,4 +14,4 @@ execute if predicate ssbrc:items run function ssbrc:stages/big_battlefield/item_
 execute as @a[predicate=ssbrc:ingame] run function ssbrc:logic/pre_game/prepare/players
 function ssbrc:logic/pre_game/prepare/match
 
-tag @a[predicate=ssbrc:flag/player] add bigBattlefield
+tag @a[predicate=ssbrc:flag/player] add big_battlefield

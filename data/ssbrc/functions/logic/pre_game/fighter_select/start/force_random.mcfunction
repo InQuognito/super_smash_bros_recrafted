@@ -2,12 +2,12 @@ execute as @a[predicate=ssbrc:ingame] run function ssbrc:logic/pre_game/fighter_
 
 summon minecraft:text_display ~ ~ ~ {Tags:["voteCounter","acropolis_graveyard"],billboard:center}
 summon minecraft:text_display ~ ~ ~ {Tags:["voteCounter","battlefield"],billboard:center}
-summon minecraft:text_display ~ ~ ~ {Tags:["voteCounter","bigBattlefield"],billboard:center}
+summon minecraft:text_display ~ ~ ~ {Tags:["voteCounter","big_battlefield"],billboard:center}
 summon minecraft:text_display ~ ~ ~ {Tags:["voteCounter","bowsers_castle"],billboard:center}
 summon minecraft:text_display ~ ~ ~ {Tags:["voteCounter","castle_siege"],billboard:center}
 summon minecraft:text_display ~ ~ ~ {Tags:["voteCounter","draculas_castle"],billboard:center}
 summon minecraft:text_display ~ ~ ~ {Tags:["voteCounter","dream_land"],billboard:center}
-summon minecraft:text_display ~ ~ ~ {Tags:["voteCounter","finalDestination"],billboard:center}
+summon minecraft:text_display ~ ~ ~ {Tags:["voteCounter","final_destination"],billboard:center}
 summon minecraft:text_display ~ ~ ~ {Tags:["voteCounter","flat_zone"],billboard:center}
 summon minecraft:text_display ~ ~ ~ {Tags:["voteCounter","frozen_hijinx"],billboard:center}
 summon minecraft:text_display ~ ~ ~ {Tags:["voteCounter","garden_of_hope"],billboard:center}

@@ -2,7 +2,7 @@ tag @s remove acropolis_graveyard
 
 tag @s remove battlefield
 
-tag @s remove bigBattlefield
+tag @s remove big_battlefield
 
 tag @s remove bowsers_castle
 
@@ -12,7 +12,7 @@ tag @s remove draculas_castle
 
 tag @s remove dream_land
 
-tag @s remove finalDestination
+tag @s remove final_destination
 
 tag @s remove flat_zone
 

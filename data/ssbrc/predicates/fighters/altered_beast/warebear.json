@@ -5,13 +5,6 @@
 			"condition": "minecraft:entity_properties",
 			"entity": "this",
 			"predicate": {
-				"nbt": "{Tags:[\"luigis_mansion\"]}"
-			}
-		},
-		{
-			"condition": "minecraft:entity_properties",
-			"entity": "this",
-			"predicate": {
 				"nbt": "{Tags:[\"frozen_hijinx\"]}"
 			}
 		},
@@ -33,7 +26,14 @@
 			"condition": "minecraft:entity_properties",
 			"entity": "this",
 			"predicate": {
-				"nbt": "{Tags:[\"pyrosphere\"]}"
+				"nbt": "{Tags:[\"icicle_mountain\"]}"
+			}
+		},
+		{
+			"condition": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
+				"nbt": "{Tags:[\"luigis_mansion\"]}"
 			}
 		},
 		{
@@ -47,7 +47,7 @@
 			"condition": "minecraft:entity_properties",
 			"entity": "this",
 			"predicate": {
-				"nbt": "{Tags:[\"icicle_mountain\"]}"
+				"nbt": "{Tags:[\"pyrosphere\"]}"
 			}
 		},
 		{
@@ -55,6 +55,13 @@
 			"entity": "this",
 			"predicate": {
 				"nbt": "{Tags:[\"shadow_moses_island\"]}"
+			}
+		},
+		{
+			"condition": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
+				"nbt": "{Tags:[\"tortimer_island\"]}"
 			}
 		},
 		{

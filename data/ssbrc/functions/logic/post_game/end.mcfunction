@@ -13,5 +13,7 @@ execute if score teams options matches 0 run function ssbrc:logic/post_game/winn
 scoreboard players operation team temp = @s team
 execute if score teams options matches 1 as @a[predicate=ssbrc:team_match] run function ssbrc:logic/post_game/winner/set
 
+execute if score luigis_mansion map matches 1 if score $blackout temp matches 1 run function ssbrc:stages/luigis_mansion/logic/blackout/off
+
 weather clear
 scoreboard players set gameStage temp 5

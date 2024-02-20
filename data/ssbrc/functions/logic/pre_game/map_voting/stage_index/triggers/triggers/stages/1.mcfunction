@@ -1,10 +1,10 @@
 execute store result score @s shopCalculator run clear @s #ssbrc:ui/buttons{ui:{id:"stages.battlefield"}}
 execute if entity @s[scores={shopCalculator=1..}] run function ssbrc:stages/battlefield/vote
 
-execute store result score @s shopCalculator run clear @s #ssbrc:ui/buttons{ui:{id:"stages.bigBattlefield"}}
+execute store result score @s shopCalculator run clear @s #ssbrc:ui/buttons{ui:{id:"stages.big_battlefield"}}
 execute if entity @s[scores={shopCalculator=1..}] run function ssbrc:stages/big_battlefield/vote
 
-execute store result score @s shopCalculator run clear @s #ssbrc:ui/buttons{ui:{id:"stages.finalDestination"}}
+execute store result score @s shopCalculator run clear @s #ssbrc:ui/buttons{ui:{id:"stages.final_destination"}}
 execute if entity @s[scores={shopCalculator=1..}] run function ssbrc:stages/final_destination/vote
 
 execute store result score @s shopCalculator run clear @s #ssbrc:ui/buttons{ui:{id:"stages.mushroom_kingdom"}}

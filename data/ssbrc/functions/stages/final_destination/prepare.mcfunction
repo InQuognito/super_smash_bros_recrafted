@@ -14,4 +14,4 @@ execute if predicate ssbrc:items run function ssbrc:stages/final_destination/ite
 execute as @a[predicate=ssbrc:ingame] run function ssbrc:logic/pre_game/prepare/players
 function ssbrc:logic/pre_game/prepare/match
 
-tag @a[predicate=ssbrc:flag/player] add finalDestination
+tag @a[predicate=ssbrc:flag/player] add final_destination

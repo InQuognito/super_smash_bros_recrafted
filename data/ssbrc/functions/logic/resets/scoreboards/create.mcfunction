@@ -17,7 +17,6 @@ scoreboard objectives add cooldown.1 dummy
 scoreboard objectives add cooldown.2 dummy
 scoreboard objectives add cooldown.3 dummy
 scoreboard objectives add stats.credits.temp dummy
-scoreboard objectives add debug trigger
 scoreboard objectives add dropItem minecraft.custom:minecraft.drop
 scoreboard objectives add drowsy dummy
 scoreboard objectives add drowsy.cooldown dummy

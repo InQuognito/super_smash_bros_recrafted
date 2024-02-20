@@ -37,3 +37,5 @@ item modify entity @s[nbt={Inventory:[{tag:{killing_edge:1},Slot:34b}]}] invento
 item modify entity @s[nbt={Inventory:[{tag:{killing_edge:1},Slot:35b}]}] inventory.26 ssbrc:items/killing_edge/default
 
 item modify entity @s[nbt={Inventory:[{tag:{killing_edge:1},Slot:-106b}]}] weapon.offhand ssbrc:items/killing_edge/default
+
+scoreboard players reset @s item.killing_edge

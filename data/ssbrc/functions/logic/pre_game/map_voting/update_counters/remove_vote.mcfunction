@@ -1,11 +1,11 @@
 execute if entity @s[tag=acropolis_graveyard] run scoreboard players remove @e[type=minecraft:text_display,tag=voteCounter,tag=acropolis_graveyard,limit=1] mapVote 1
 execute if entity @s[tag=battlefield] run scoreboard players remove @e[type=minecraft:text_display,tag=voteCounter,tag=battlefield,limit=1] mapVote 1
-execute if entity @s[tag=bigBattlefield] run scoreboard players remove @e[type=minecraft:text_display,tag=voteCounter,tag=bigBattlefield,limit=1] mapVote 1
+execute if entity @s[tag=big_battlefield] run scoreboard players remove @e[type=minecraft:text_display,tag=voteCounter,tag=big_battlefield,limit=1] mapVote 1
 execute if entity @s[tag=bowsers_castle] run scoreboard players remove @e[type=minecraft:text_display,tag=voteCounter,tag=bowsers_castle,limit=1] mapVote 1
 execute if entity @s[tag=castle_siege] run scoreboard players remove @e[type=minecraft:text_display,tag=voteCounter,tag=castle_siege,limit=1] mapVote 1
 execute if entity @s[tag=draculas_castle] run scoreboard players remove @e[type=minecraft:text_display,tag=voteCounter,tag=draculas_castle,limit=1] mapVote 1
 execute if entity @s[tag=dream_land] run scoreboard players remove @e[type=minecraft:text_display,tag=voteCounter,tag=dream_land,limit=1] mapVote 1
-execute if entity @s[tag=finalDestination] run scoreboard players remove @e[type=minecraft:text_display,tag=voteCounter,tag=finalDestination,limit=1] mapVote 1
+execute if entity @s[tag=final_destination] run scoreboard players remove @e[type=minecraft:text_display,tag=voteCounter,tag=final_destination,limit=1] mapVote 1
 execute if entity @s[tag=flat_zone] run scoreboard players remove @e[type=minecraft:text_display,tag=voteCounter,tag=flat_zone,limit=1] mapVote 1
 execute if entity @s[tag=frozen_hijinx] run scoreboard players remove @e[type=minecraft:text_display,tag=voteCounter,tag=frozen_hijinx,limit=1] mapVote 1
 execute if entity @s[tag=garden_of_hope] run scoreboard players remove @e[type=minecraft:text_display,tag=voteCounter,tag=garden_of_hope,limit=1] mapVote 1

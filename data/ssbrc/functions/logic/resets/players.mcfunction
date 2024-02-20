@@ -46,5 +46,3 @@ tag @s add loaded
 advancement grant @s[scores={stats.gamesPlayed=1..},advancements={ssbrc:tutorial/stage_select/1=true}] only ssbrc:tutorial/outro/1
 
 scoreboard players enable @s player_options.graphics.trigger
-
-scoreboard players enable @s debug

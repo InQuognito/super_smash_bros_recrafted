@@ -1,11 +1,11 @@
 execute if entity @s[tag=acropolis_graveyard] run clone -65 15 55 -45 24 66 -48 8 35
 execute if entity @s[tag=battlefield] run clone -87 15 55 -67 24 66 -48 8 35
-execute if entity @s[tag=bigBattlefield] run clone -109 15 55 -89 24 66 -48 8 35
+execute if entity @s[tag=big_battlefield] run clone -109 15 55 -89 24 66 -48 8 35
 execute if entity @s[tag=bowsers_castle] run clone -131 15 55 -111 24 66 -48 8 35
 execute if entity @s[tag=castle_siege] run clone -153 15 55 -133 24 66 -48 8 35
 execute if entity @s[tag=draculas_castle] run clone -65 15 71 -45 24 82 -48 8 35
 execute if entity @s[tag=dream_land] run clone -87 15 71 -67 24 82 -48 8 35
-execute if entity @s[tag=finalDestination] run clone -131 15 23 -111 24 34 -48 8 35
+execute if entity @s[tag=final_destination] run clone -131 15 23 -111 24 34 -48 8 35
 execute if entity @s[tag=flat_zone] run clone -109 15 23 -89 24 34 -48 8 35
 execute if entity @s[tag=frozen_hijinx] run clone -109 15 71 -89 24 82 -48 8 35
 execute if entity @s[tag=garden_of_hope] run clone -131 15 71 -111 24 82 -48 8 35

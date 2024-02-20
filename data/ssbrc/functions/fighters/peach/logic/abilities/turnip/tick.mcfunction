@@ -5,4 +5,4 @@ execute positioned ~-0.25 ~-0.25 ~-0.25 as @e[tag=!self,predicate=ssbrc:flag/tar
 function ssbrc:logic/fighters/checks/hit
 
 scoreboard players add @s temp 1
-kill @s[scores={temp=10..}]
+kill @s[scores={temp=40..}]

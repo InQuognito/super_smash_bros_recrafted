@@ -1,11 +1,11 @@
 execute unless score map_picked mapVote matches 1 if entity @s[tag=acropolis_graveyard] run function ssbrc:stages/acropolis_graveyard/load
 execute unless score map_picked mapVote matches 1 if entity @s[tag=battlefield] run function ssbrc:stages/battlefield/load
-execute unless score map_picked mapVote matches 1 if entity @s[tag=bigBattlefield] run function ssbrc:stages/big_battlefield/load
+execute unless score map_picked mapVote matches 1 if entity @s[tag=big_battlefield] run function ssbrc:stages/big_battlefield/load
 execute unless score map_picked mapVote matches 1 if entity @s[tag=bowsers_castle] run function ssbrc:stages/bowsers_castle/load
 execute unless score map_picked mapVote matches 1 if entity @s[tag=castle_siege] run function ssbrc:stages/castle_siege/load
 execute unless score map_picked mapVote matches 1 if entity @s[tag=draculas_castle] run function ssbrc:stages/draculas_castle/load
 execute unless score map_picked mapVote matches 1 if entity @s[tag=dream_land] run function ssbrc:stages/dream_land/load
-execute unless score map_picked mapVote matches 1 if entity @s[tag=finalDestination] run function ssbrc:stages/final_destination/load
+execute unless score map_picked mapVote matches 1 if entity @s[tag=final_destination] run function ssbrc:stages/final_destination/load
 execute unless score map_picked mapVote matches 1 if entity @s[tag=flat_zone] run function ssbrc:stages/flat_zone/load
 execute unless score map_picked mapVote matches 1 if entity @s[tag=frozen_hijinx] run function ssbrc:stages/frozen_hijinx/load
 execute unless score map_picked mapVote matches 1 if entity @s[tag=garden_of_hope] run function ssbrc:stages/garden_of_hope/load
