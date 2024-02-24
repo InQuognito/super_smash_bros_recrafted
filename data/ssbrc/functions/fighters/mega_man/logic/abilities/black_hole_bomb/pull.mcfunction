@@ -9,4 +9,5 @@ execute facing entity @e[type=minecraft:armor_stand,tag=blackHoleBomb,sort=neare
 execute facing entity @e[type=minecraft:armor_stand,tag=blackHoleBomb,sort=nearest,distance=1..2,limit=1] eyes run teleport @s ^ ^ ^0.28
 execute facing entity @e[type=minecraft:armor_stand,tag=blackHoleBomb,sort=nearest,distance=..1,limit=1] eyes run teleport @s ^ ^ ^0.30
 
-execute if entity @e[type=minecraft:armor_stand,tag=blackHoleBomb,sort=nearest,distance=..2,limit=1] run damage @s 4.0 ssbrc:gravity by @a[tag=self,limit=1]
+execute if entity @e[type=minecraft:armor_stand,tag=blackHoleBomb,sort=nearest,distance=..2,limit=1] run damage @s[tag=!self] 4.0 ssbrc:gravity by @a[tag=self,limit=1]
+execute if entity @e[type=minecraft:armor_stand,tag=blackHoleBomb,sort=nearest,distance=..2,limit=1] run damage @s[tag=self] 4.0 ssbrc:gravity
