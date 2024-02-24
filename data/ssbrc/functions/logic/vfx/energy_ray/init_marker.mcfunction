@@ -1,4 +1,4 @@
-tp @s ~ ~ ~ ~ ~
+teleport @s ~ ~ ~ ~ ~
 tag @s add vfx
 scoreboard players set @s vfx_type 1
 scoreboard players operation @s ray.min = $ray.min temp
