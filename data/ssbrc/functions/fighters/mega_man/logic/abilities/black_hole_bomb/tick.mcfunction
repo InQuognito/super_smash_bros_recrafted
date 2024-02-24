@@ -5,4 +5,4 @@ execute as @e[tag=!fgiiGraham,predicate=ssbrc:flag/targets,distance=..10] at @s 
 execute as @e[type=minecraft:bee,tag=fgiiGraham,distance=..4] run function ssbrc:fighters/mega_man/logic/abilities/black_hole_bomb/kill_fgii_graham
 
 scoreboard players add @s temp 1
-kill @s[scores={temp=60..}]
+kill @s[scores={temp=100..}]
