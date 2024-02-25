@@ -1,4 +1,6 @@
 # Standard
+execute if entity @s[nbt={SelectedItem:{tag:{black_hole:1}}}] run function ssbrc:items/black_hole/activate
+
 execute if entity @s[nbt={SelectedItem:{tag:{cloaking_device:1}}}] run function ssbrc:items/cloaking_device/activate
 
 execute unless score @s[nbt={SelectedItem:{tag:{cracker_launcher:1}}}] item.cooldown matches 1.. run function ssbrc:items/cracker_launcher/activate

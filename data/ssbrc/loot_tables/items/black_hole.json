@@ -6,13 +6,13 @@
 			"entries": [
 				{
 					"type": "minecraft:item",
-					"name": "minecraft:carrot_on_a_stick",
+					"name": "minecraft:warped_fungus_on_a_stick",
 					"functions": [
 						{
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"translate": "ssbrc.tooltips.mega_man.black_hole",
+								"translate": "ssbrc.tooltips.item.black_hole",
 								"color": "dark_purple",
 								"bold": true,
 								"italic": false
@@ -20,7 +20,7 @@
 						},
 						{
 							"function": "minecraft:reference",
-							"name": "ssbrc:fighters/init/preset/ranged"
+							"name": "ssbrc:fighters/init/preset/item/throwing"
 						},
 						{
 							"function": "minecraft:set_lore",
@@ -39,7 +39,7 @@
 											"italic": false
 										},
 										{
-											"translate": "ssbrc.tooltips.mega_man.black_hole.description.1",
+											"translate": "ssbrc.tooltips.item.black_hole.description.1",
 											"color": "gray",
 											"bold": false,
 											"italic": false
@@ -47,13 +47,13 @@
 									]
 								},
 								{
-									"translate": "ssbrc.tooltips.mega_man.black_hole.description.2",
+									"translate": "ssbrc.tooltips.item.black_hole.description.2",
 									"color": "gray",
 									"bold": false,
 									"italic": false
 								},
 								{
-									"translate": "ssbrc.tooltips.mega_man.black_hole.description.3",
+									"translate": "ssbrc.tooltips.item.black_hole.description.3",
 									"color": "gray",
 									"bold": false,
 									"italic": false

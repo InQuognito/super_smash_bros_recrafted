@@ -80,7 +80,7 @@ execute if entity @s[tag=fireball] run function ssbrc:fighters/mario/logic/abili
 
 # Mega Man
 execute if entity @s[tag=megaBuster] run function ssbrc:fighters/mega_man/logic/abilities/mega_buster/tick
-execute if entity @s[tag=black_hole] unless block ~ ~-0.1 ~ #ssbrc:passthrough run function ssbrc:fighters/mega_man/logic/abilities/black_hole/tick
+execute if entity @s[tag=black_hole] unless block ~ ~-0.1 ~ #ssbrc:passthrough run function ssbrc:items/black_hole/tick
 
 # Ness
 execute if entity @s[tag=pkFire,tag=!exploded] run function ssbrc:fighters/ness/logic/abilities/pk_fire/tick

@@ -6,6 +6,11 @@
 				{
 					"type": "minecraft:loot_table",
 					"weight": 1,
+					"name": "ssbrc:items/black_hole"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"weight": 1,
 					"name": "ssbrc:items/cloaking_device"
 				},
 				{
