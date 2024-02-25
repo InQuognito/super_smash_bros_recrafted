@@ -47,7 +47,7 @@ execute if score random.output temp matches 40 if entity @s[advancements={ssbrc:
 execute if score random.output temp matches 41 if entity @s[advancements={ssbrc:fighters/yar/skins/default=true}] run function ssbrc:fighters/yar/menu/skins/random
 execute if score random.output temp matches 42 if entity @s[advancements={ssbrc:fighters/zelda/skins/default=true}] run function ssbrc:fighters/zelda/menu/skins/random
 
-execute if score blind_pick options matches 1 run tellraw @s[scores={fighter_picked=1..}] {"translate":"ssbrc.fighters.menu.selectRandom","color":"white"}
+execute if score blind_pick options matches 1 run tellraw @s[scores={fighter_picked=1..}] {"translate":"ssbrc.fighters.menu.select_random","color":"white"}
 execute unless score @s fighter_picked matches 1.. run function ssbrc:fighters/random
 scoreboard players reset @s fighter_picked
 scoreboard players reset @s skinPicked

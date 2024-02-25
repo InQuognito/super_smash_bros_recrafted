@@ -9,7 +9,7 @@ scoreboard players operation @s mana -= shovel_knight.war_horn.cost vars
 function ssbrc:fighters/shovel_knight/logic/check_relics
 
 scoreboard players set @s cooldown.2 300
-execute if entity @s[scores={shadow.chaosControl=1..}] run function ssbrc:logic/fighters/cooldown_modifiers/chaos_control {type:2}
+execute if entity @s[scores={shadow.chaos_control=1..}] run function ssbrc:logic/fighters/cooldown_modifiers/chaos_control {type:2}
 
 playsound ssbrc:fighters.shovel_knight.war_horn.activate player @a
 

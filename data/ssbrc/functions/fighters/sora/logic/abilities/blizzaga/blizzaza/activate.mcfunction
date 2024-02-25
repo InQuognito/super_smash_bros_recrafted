@@ -10,7 +10,7 @@ execute if entity @s[scores={charge.4=3..}] run function ssbrc:fighters/sora/log
 scoreboard players operation @s mana -= #blizzazaCost temp
 
 scoreboard players set @s cooldown.1 10
-execute if entity @s[scores={shadow.chaosControl=1..}] run function ssbrc:logic/fighters/cooldown_modifiers/chaos_control {type:1}
+execute if entity @s[scores={shadow.chaos_control=1..}] run function ssbrc:logic/fighters/cooldown_modifiers/chaos_control {type:1}
 
 item replace entity @s weapon.mainhand with minecraft:air
 loot replace entity @s weapon.mainhand loot ssbrc:fighters/sora/keyblades/primary/blizzard

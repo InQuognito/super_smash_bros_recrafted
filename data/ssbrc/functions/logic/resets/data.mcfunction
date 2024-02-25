@@ -1,4 +1,4 @@
-data modify storage ssbrc:data skin_options_header set value '[{"text":"=== ","color":"white"},{"translate":"ssbrc.fighters.menu.chooseSkin","bold":true,"color":"yellow"},{"text":" ===","color":"white"}]'
+data modify storage ssbrc:data skin_options_header set value '[{"text":"=== ","color":"white"},{"translate":"ssbrc.fighters.menu.choose_skin","bold":true,"color":"yellow"},{"text":" ===","color":"white"}]'
 
 data modify storage ssbrc:data/skins selected set value '{"text":" ✔","color":"green"}'
 

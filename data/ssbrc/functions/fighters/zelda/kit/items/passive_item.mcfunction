@@ -1,6 +1,6 @@
 execute if score debug options matches 1.. run say passive_item.mcfunction
 
-clear @s #ssbrc:fighters/zelda/passive_items{passiveItem:1}
+clear @s #ssbrc:fighters/zelda/passive_items{passive_item:1}
 
 scoreboard players reset #passiveChosen temp
 
@@ -17,6 +17,6 @@ execute if score random.output temp matches 8 if entity @s[predicate=ssbrc:stage
 execute if score random.output temp matches 9 run loot replace entity @s hotbar.2 loot ssbrc:fighters/zelda/passive_items/torch_of_wisdom
 execute if score random.output temp matches 10 if entity @s[predicate=ssbrc:stage/has_water] run loot replace entity @s hotbar.2 loot ssbrc:fighters/zelda/passive_items/zoras_flippers
 
-execute store result score #passiveChosen temp run clear @s #ssbrc:fighters/zelda/passive_items{passiveItem:1} 0
+execute store result score #passiveChosen temp run clear @s #ssbrc:fighters/zelda/passive_items{passive_item:1} 0
 execute unless score #passiveChosen temp matches 1.. run function ssbrc:fighters/zelda/kit/items/passive_item
 scoreboard players reset #passiveChosen temp

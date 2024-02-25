@@ -6,6 +6,6 @@ execute if entity @s[tag=joker,scores={duration.1=0}] run function ssbrc:logic/f
 execute if entity @s[tag=shadow] run function ssbrc:logic/fighters/damage_calculation/damage_dealt/shadow
 execute if entity @s[tag=sora,predicate=!ssbrc:fighters/sora/drive_form] run function ssbrc:logic/fighters/damage_calculation/damage_dealt/sora
 
-execute unless score suddenDeath options matches 1 run scoreboard players reset @s armistice
+execute unless score sudden_death options matches 1 run scoreboard players reset @s armistice
 
 scoreboard players reset @s flag.damageDealt

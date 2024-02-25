@@ -43,6 +43,6 @@ execute unless score @s hardReset matches -2147483648..2147483647 run scoreboard
 
 tag @s add loaded
 
-advancement grant @s[scores={stats.gamesPlayed=1..},advancements={ssbrc:tutorial/stage_select/1=true}] only ssbrc:tutorial/outro/1
+advancement grant @s[scores={stats.games_played=1..},advancements={ssbrc:tutorial/stage_select/1=true}] only ssbrc:tutorial/outro/1
 
 scoreboard players enable @s player_options.graphics.trigger

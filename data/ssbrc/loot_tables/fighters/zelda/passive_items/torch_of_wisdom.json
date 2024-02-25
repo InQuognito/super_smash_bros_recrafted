@@ -12,7 +12,7 @@
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"translate": "ssbrc.tooltips.zelda.passiveItem.torchOfWisdom",
+								"translate": "ssbrc.tooltips.zelda.passive_item.torch_of_wisdom",
 								"color": "red",
 								"bold": true,
 								"italic": false
@@ -27,13 +27,13 @@
 							"entity": "this",
 							"lore": [
 								{
-									"translate": "ssbrc.tooltips.zelda.passiveItem.torchOfWisdom.description.1",
+									"translate": "ssbrc.tooltips.zelda.passive_item.torch_of_wisdom.description.1",
 									"color": "gray",
 									"bold": false,
 									"italic": false
 								},
 								{
-									"translate": "ssbrc.tooltips.zelda.passiveItem.torchOfWisdom.description.2",
+									"translate": "ssbrc.tooltips.zelda.passive_item.torch_of_wisdom.description.2",
 									"color": "gray",
 									"bold": false,
 									"italic": false
@@ -43,7 +43,7 @@
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{torchOfWisdom:1,CustomModelData:9040}"
+							"tag": "{torch_of_wisdom:1,CustomModelData:9040}"
 						}
 					]
 				}

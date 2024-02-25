@@ -3,12 +3,12 @@ function ssbrc:fighters/luigi/logic/abilities/ice_ball/cooldown
 
 # Super Jump
 scoreboard players add @s[tag=!silenced,predicate=ssbrc:flag/sneaking,predicate=!ssbrc:flag/in_air] charge.1 1
-execute if score @s charge.1 >= #luigi.superJumpThreshold vars run particle minecraft:glow ~ ~0.01 ~ 0.2 0.2 0.2 0.0 2 normal @a
+execute if score @s charge.1 >= #luigi.super_jumpThreshold vars run particle minecraft:glow ~ ~0.01 ~ 0.2 0.2 0.2 0.0 2 normal @a
 
-execute if score @s charge.1 = #luigi.superJumpThreshold vars run function ssbrc:fighters/luigi/logic/abilities/super_jump/charge
+execute if score @s charge.1 = #luigi.super_jumpThreshold vars run function ssbrc:fighters/luigi/logic/abilities/super_jump/charge
 
 function ssbrc:logic/fighters/move_distance
-execute if score @s charge.1 >= #luigi.superJumpThreshold vars if score move_distance temp >= #luigi.superJumpMovementFalloff vars run function ssbrc:fighters/luigi/logic/abilities/super_jump/reset
+execute if score @s charge.1 >= #luigi.super_jumpThreshold vars if score move_distance temp >= #luigi.super_jumpMovementFalloff vars run function ssbrc:fighters/luigi/logic/abilities/super_jump/reset
 
 # Stomp
 execute store result score @s motionY run data get entity @s Motion[1] 1000

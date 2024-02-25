@@ -3,7 +3,7 @@
 		"function": "minecraft:set_name",
 		"entity": "this",
 		"name": {
-			"translate": "ssbrc.tooltips.toon_link.masterSword",
+			"translate": "ssbrc.tooltips.toon_link.master_sword",
 			"color": "white",
 			"bold": true,
 			"italic": false

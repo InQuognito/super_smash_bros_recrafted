@@ -8,9 +8,9 @@ scoreboard players reset specialAttack temp
 
 execute store result entity @s Rotation[1] float 0.25 run scoreboard players get @s point
 
-execute if score @s point < #pikachu.thunderJoltMaxRotation vars run scoreboard players operation @s point -= @s slope
-execute if score @s point > #pikachu.thunderJoltMaxRotation vars run scoreboard players operation @s point = #pikachu.thunderJoltMaxRotation vars
-execute if score @s point < #pikachu.thunderJoltMaxRotation vars run scoreboard players remove @s slope 20
+execute if score @s point < #pikachu.thunder_joltMaxRotation vars run scoreboard players operation @s point -= @s slope
+execute if score @s point > #pikachu.thunder_joltMaxRotation vars run scoreboard players operation @s point = #pikachu.thunder_joltMaxRotation vars
+execute if score @s point < #pikachu.thunder_joltMaxRotation vars run scoreboard players remove @s slope 20
 
 execute if entity @s[scores={point=1..}] unless block ~ ~-0.15 ~ #ssbrc:passthrough run function ssbrc:fighters/pikachu/logic/abilities/thunder_jolt/bounce
 

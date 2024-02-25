@@ -1,4 +1,4 @@
-tag @s remove satsuiNoHadoRage
+tag @s remove satsui_no_hado_rage
 
 effect clear @s minecraft:absorption
 effect clear @s minecraft:speed

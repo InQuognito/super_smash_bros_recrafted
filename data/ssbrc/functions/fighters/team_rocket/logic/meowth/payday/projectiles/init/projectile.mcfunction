@@ -1,4 +1,4 @@
-tag @s add paydayProjectile
+tag @s add payday.projectile
 
 data merge entity @s {damage:4.0}
 

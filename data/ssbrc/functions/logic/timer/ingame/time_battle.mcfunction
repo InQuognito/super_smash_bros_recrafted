@@ -19,10 +19,10 @@ execute if score gameTime timer matches ..0 if score game_mode options matches 3
 
 execute if score hazards options matches 1 if score tower_of_fate map matches 1 unless score tower_of_fateDestroyed temp matches 1.. if score gameTimePercent temp matches ..50 run function ssbrc:stages/tower_of_fate/logic/destroy_tower/start
 
-data modify entity @e[tag=lobby.timer,limit=1] text set value '[{"translate":"ssbrc.lobby.timeLeft","color":"gold"},{"score":{"name":"gameTime","objective":"timer"},"color":"yellow"},{"translate":"s","color":"gold"}]'
+data modify entity @e[tag=lobby.timer,limit=1] text set value '[{"translate":"ssbrc.lobby.time_remaining","color":"gold"},{"score":{"name":"gameTime","objective":"timer"},"color":"yellow"},{"translate":"s","color":"gold"}]'
 
 # Ryu
-execute if score gameTime timer matches 60 as @a[tag=ryu,tag=!abilityUsed,nbt=!{Inventory:[{tag:{satsuiNoHadoRage:1}}]}] run loot replace entity @s hotbar.1 loot ssbrc:fighters/ryu/satsui_no_hado_rage
+execute if score gameTime timer matches 60 as @a[tag=ryu,tag=!abilityUsed,nbt=!{Inventory:[{tag:{satsui_no_hado_rage:1}}]}] run loot replace entity @s hotbar.1 loot ssbrc:fighters/ryu/satsui_no_hado_rage
 
 # Countdown
 scoreboard players remove gameTime timer 1

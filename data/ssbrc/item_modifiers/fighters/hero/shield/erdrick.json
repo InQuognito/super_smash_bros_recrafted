@@ -3,7 +3,7 @@
 		"function": "minecraft:set_name",
 		"entity": "this",
 		"name": {
-			"translate": "ssbrc.tooltips.hero.herosShield",
+			"translate": "ssbrc.tooltips.hero.heros_shield",
 			"color": "yellow",
 			"bold": true,
 			"italic": false

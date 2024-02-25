@@ -4,13 +4,13 @@
 		"entity": "this",
 		"lore": [
 			{
-				"translate": "ssbrc.tooltips.cloud.limitBreak",
+				"translate": "ssbrc.tooltips.cloud.limit_break",
 				"color": "gray",
 				"bold": false,
 				"italic": false,
 				"extra": [
 					{
-						"translate": "ssbrc.tooltips.cloud.crossSlash",
+						"translate": "ssbrc.tooltips.cloud.cross_slash",
 						"color": "gray",
 						"bold": false,
 						"italic": false
@@ -18,7 +18,7 @@
 				]
 			},
 			{
-				"translate": "ssbrc.tooltips.cloud.crossSlash.description.1",
+				"translate": "ssbrc.tooltips.cloud.cross_slash.description.1",
 				"color": "gray",
 				"bold": false,
 				"italic": false

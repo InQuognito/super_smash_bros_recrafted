@@ -8,9 +8,9 @@ loot give @s[tag=socom] loot ssbrc:fighters/snake/socom
 
 loot give @s loot ssbrc:fighters/snake/cqc_knife
 
-loot give @s[tag=antiPersonnelMine] loot ssbrc:fighters/snake/anti_personnel_mine
+loot give @s[tag=anti_personnel_mine] loot ssbrc:fighters/snake/anti_personnel_mine
 
-loot give @s[tag=smokeGrenade] loot ssbrc:fighters/snake/smoke_grenade
+loot give @s[tag=smoke_grenade] loot ssbrc:fighters/snake/smoke_grenade
 
 loot replace entity @s hotbar.8 loot ssbrc:fighters/snake/status/undetected
 
@@ -22,5 +22,5 @@ scoreboard players set @s[tag=s1000] snake.s1000M 5
 scoreboard players set @s[tag=s1000] snake.s1000A 2
 scoreboard players set @s[tag=socom] snake.socomM 2
 scoreboard players set @s[tag=socom] snake.socomA 8
-scoreboard players set @s[tag=antiPersonnelMine] snake.antiPersonnelMineA 2
-scoreboard players set @s[tag=smokeGrenade] snake.smokeGrenadeA 2
+scoreboard players set @s[tag=anti_personnel_mine] snake.anti_personnel_mineA 2
+scoreboard players set @s[tag=smoke_grenade] snake.smoke_grenadeA 2

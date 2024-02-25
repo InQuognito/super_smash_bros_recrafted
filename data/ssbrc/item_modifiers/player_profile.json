@@ -3,7 +3,7 @@
 		"function": "minecraft:set_name",
 		"entity": "this",
 		"name": {
-			"translate": "ssbrc.statistics.playerProfile",
+			"translate": "ssbrc.statistics.player_profile",
 			"color": "gold",
 			"bold": true,
 			"italic": false
@@ -18,7 +18,7 @@
 		"entity": "this",
 		"lore": [
 			{
-				"translate": "ssbrc.statistics.highestWinStreak",
+				"translate": "ssbrc.statistics.highest_win_streak",
 				"color": "gold",
 				"bold": false,
 				"italic": false,
@@ -35,7 +35,7 @@
 				]
 			},
 			{
-				"translate": "ssbrc.statistics.currentWinStreak",
+				"translate": "ssbrc.statistics.current_win_streak",
 				"color": "gold",
 				"bold": false,
 				"italic": false,
@@ -69,7 +69,7 @@
 				]
 			},
 			{
-				"translate": "ssbrc.statistics.gamesPlayed",
+				"translate": "ssbrc.statistics.games_played",
 				"color": "gold",
 				"bold": false,
 				"italic": false,
@@ -77,7 +77,7 @@
 					{
 						"score": {
 							"name": "@s",
-							"objective": "stats.gamesPlayed"
+							"objective": "stats.games_played"
 						},
 						"color": "yellow",
 						"bold": false,
@@ -93,7 +93,7 @@
 		"entity": "this",
 		"lore": [
 			{
-				"translate": "ssbrc.statistics.winLossRatio",
+				"translate": "ssbrc.statistics.win_loss_ratio",
 				"color": "gold",
 				"bold": false,
 				"italic": false,
@@ -166,7 +166,7 @@
 		"entity": "this",
 		"lore": [
 			{
-				"translate": "ssbrc.statistics.killDeathRatio",
+				"translate": "ssbrc.statistics.kill_death_ratio",
 				"color": "gold",
 				"bold": false,
 				"italic": false,

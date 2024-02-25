@@ -1,4 +1,4 @@
-tag @s add braveBow
+tag @s add brave_bow
 
 data merge entity @s {damage:1.0}
 

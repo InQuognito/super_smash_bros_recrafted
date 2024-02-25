@@ -43,7 +43,7 @@
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{steelBow:1}"
+							"tag": "{steel_bow:1}"
 						}
 					]
 				}

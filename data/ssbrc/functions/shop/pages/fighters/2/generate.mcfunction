@@ -1,7 +1,7 @@
 function ssbrc:shop/pages/reset
 
 loot replace entity @s enderchest.0 loot ssbrc:ui/null/orange
-item replace entity @s enderchest.9 with minecraft:barrier{ui:{id:"navigation.fighters.1",sound:"click"},CustomModelData:9999991,display:{Name:'{"translate":"ssbrc.ui.goBack","color":"red","italic":false}'}}
+item replace entity @s enderchest.9 with minecraft:barrier{ui:{id:"navigation.fighters.1",sound:"click"},CustomModelData:9999991,display:{Name:'{"translate":"ssbrc.ui.go_back","color":"red","italic":false}'}}
 loot replace entity @s enderchest.18 loot ssbrc:ui/null/orange
 
 function ssbrc:shop/pages/fighters/place_item {fighter:"sora",slot:"2"}

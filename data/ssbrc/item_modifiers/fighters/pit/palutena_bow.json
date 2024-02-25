@@ -3,7 +3,7 @@
 		"function": "minecraft:set_name",
 		"entity": "this",
 		"name": {
-			"translate": "ssbrc.tooltips.pit.palutenaBow",
+			"translate": "ssbrc.tooltips.pit.palutena_bow",
 			"color": "white",
 			"bold": true,
 			"italic": false
@@ -34,6 +34,6 @@
 	},
 	{
 		"function": "minecraft:set_nbt",
-		"tag": "{palutenaBow:1}"
+		"tag": "{palutena_bow:1}"
 	}
 ]

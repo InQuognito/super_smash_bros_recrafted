@@ -60,7 +60,7 @@
 											"italic": false
 										},
 										{
-											"translate":"ssbrc.tooltips.toon_link.masterSword.description.1",
+											"translate":"ssbrc.tooltips.toon_link.master_sword.description.1",
 											"color": "gray",
 											"bold": false,
 											"italic": false
@@ -101,7 +101,7 @@
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{masterSword:1}"
+							"tag": "{master_sword:1}"
 						}
 					]
 				}

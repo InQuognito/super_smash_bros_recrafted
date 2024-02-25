@@ -6,6 +6,6 @@ scoreboard players operation @s[advancements={ssbrc:utility/flag/hurt_player/cus
 scoreboard players operation @s[advancements={ssbrc:utility/flag/hurt_player/custom/alignment/shadow/villain=true}] shadow.meter.villain += @s flag.damageDealt
 
 function ssbrc:fighters/shadow/logic/chaos_spear/chaos_energy/calculate
-execute if score chaosEnergy temp >= shadow.chaosSpearCost vars run function ssbrc:fighters/shadow/logic/chaos_spear/enable
+execute if score chaosEnergy temp >= shadow.chaos_spearCost vars run function ssbrc:fighters/shadow/logic/chaos_spear/enable
 
 advancement revoke @s through ssbrc:utility/flag/hurt_player/custom/alignment/root

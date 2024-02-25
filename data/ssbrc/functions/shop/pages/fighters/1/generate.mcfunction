@@ -1,7 +1,7 @@
 function ssbrc:shop/pages/reset
 
 loot replace entity @s enderchest.0 loot ssbrc:ui/null/red
-item replace entity @s enderchest.9 with minecraft:barrier{ui:{id:"navigation.main",sound:"click"},CustomModelData:9999991,display:{Name:'{"translate":"ssbrc.ui.goBack","color":"red","italic":false}'}}
+item replace entity @s enderchest.9 with minecraft:barrier{ui:{id:"navigation.main",sound:"click"},CustomModelData:9999991,display:{Name:'{"translate":"ssbrc.ui.go_back","color":"red","italic":false}'}}
 loot replace entity @s enderchest.18 loot ssbrc:ui/null/red
 
 function ssbrc:shop/pages/fighters/place_item {fighter:"luigi",slot:"2"}
@@ -23,5 +23,5 @@ function ssbrc:shop/pages/fighters/place_item {fighter:"alucard",slot:"23"}
 function ssbrc:shop/pages/fighters/place_item {fighter:"steve",slot:"24"}
 
 loot replace entity @s enderchest.8 loot ssbrc:ui/null/red
-item replace entity @s enderchest.17 with minecraft:barrier{ui:{id:"navigation.fighters.2",sound:"click"},CustomModelData:9999992,display:{Name:'{"translate":"ssbrc.ui.nextPage","color":"red","italic":false}'}}
+item replace entity @s enderchest.17 with minecraft:barrier{ui:{id:"navigation.fighters.2",sound:"click"},CustomModelData:9999992,display:{Name:'{"translate":"ssbrc.ui.next_page","color":"red","italic":false}'}}
 loot replace entity @s enderchest.26 loot ssbrc:ui/null/red

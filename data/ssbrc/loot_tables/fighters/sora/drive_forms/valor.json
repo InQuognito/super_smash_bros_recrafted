@@ -12,7 +12,7 @@
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"translate": "ssbrc.tooltips.sora.valorForm",
+								"translate": "ssbrc.tooltips.sora.valor_form",
 								"color": "red",
 								"bold": true,
 								"italic": false
@@ -39,7 +39,7 @@
 											"italic": false
 										},
 										{
-											"translate": "ssbrc.tooltips.sora.valorForm.description.1",
+											"translate": "ssbrc.tooltips.sora.valor_form.description.1",
 											"color": "gray",
 											"bold": false,
 											"italic": false
@@ -53,7 +53,7 @@
 									"italic": false,
 									"extra": [
 										{
-											"translate": "ssbrc.tooltips.sora.valorForm.description.2",
+											"translate": "ssbrc.tooltips.sora.valor_form.description.2",
 											"color": "gray",
 											"bold": false,
 											"italic": false
@@ -67,7 +67,7 @@
 									"italic": false,
 									"extra": [
 										{
-											"translate": "ssbrc.tooltips.sora.valorForm.description.3",
+											"translate": "ssbrc.tooltips.sora.valor_form.description.3",
 											"color": "gray",
 											"bold": false,
 											"italic": false
@@ -81,7 +81,7 @@
 									"italic": false,
 									"extra": [
 										{
-											"translate": "ssbrc.tooltips.sora.valorForm.description.4",
+											"translate": "ssbrc.tooltips.sora.valor_form.description.4",
 											"color": "gray",
 											"bold": false,
 											"italic": false
@@ -95,7 +95,7 @@
 									"italic": false,
 									"extra": [
 										{
-											"translate": "ssbrc.tooltips.sora.valorForm.description.5",
+											"translate": "ssbrc.tooltips.sora.valor_form.description.5",
 											"color": "gray",
 											"bold": false,
 											"italic": false

@@ -12,6 +12,6 @@ execute if entity @s[tag=s1000,scores={menu=105}] run function ssbrc:fighters/sn
 execute if entity @s[scores={menu=106}] run function ssbrc:fighters/snake/menu/loadout/socom/check
 execute if entity @s[tag=socom,scores={menu=107}] run function ssbrc:fighters/snake/menu/loadout/socom/deselect
 execute if entity @s[scores={menu=108}] run function ssbrc:fighters/snake/menu/loadout/anti_personnel_mine/check
-execute if entity @s[tag=antiPersonnelMine,scores={menu=109}] run function ssbrc:fighters/snake/menu/loadout/anti_personnel_mine/deselect
+execute if entity @s[tag=anti_personnel_mine,scores={menu=109}] run function ssbrc:fighters/snake/menu/loadout/anti_personnel_mine/deselect
 execute if entity @s[scores={menu=110}] run function ssbrc:fighters/snake/menu/loadout/smoke_grenade/check
-execute if entity @s[tag=smokeGrenade,scores={menu=111}] run function ssbrc:fighters/snake/menu/loadout/smoke_grenade/deselect
+execute if entity @s[tag=smoke_grenade,scores={menu=111}] run function ssbrc:fighters/snake/menu/loadout/smoke_grenade/deselect

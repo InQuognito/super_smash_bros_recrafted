@@ -24,7 +24,7 @@
 						"nbt": "{Tags:[\"byleth\"]}",
 						"equipment": {
 							"mainhand": {
-								"nbt": "{swordOfTheCreator:1}"
+								"nbt": "{sword_of_the_creator:1}"
 							}
 						}
 					}

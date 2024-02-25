@@ -23,7 +23,7 @@
 						"nbt": "{Tags:[\"pit\"]}",
 						"equipment": {
 							"mainhand": {
-								"nbt": "{palutenaBow:1,split:0}"
+								"nbt": "{palutena_bow:1,split:0}"
 							}
 						}
 					},

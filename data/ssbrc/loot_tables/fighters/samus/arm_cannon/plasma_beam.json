@@ -12,7 +12,7 @@
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"translate": "ssbrc.tooltips.samus.plasmaBeam",
+								"translate": "ssbrc.tooltips.samus.plasma_beam",
 								"color": "dark_red",
 								"bold": true,
 								"italic": false
@@ -39,7 +39,7 @@
 											"italic": false
 										},
 										{
-											"translate": "ssbrc.tooltips.samus.plasmaBeam.description.1",
+											"translate": "ssbrc.tooltips.samus.plasma_beam.description.1",
 											"color": "gray",
 											"bold": false,
 											"italic": false
@@ -64,7 +64,7 @@
 							"entity": "this",
 							"lore": [
 								{
-									"translate": "ssbrc.tooltips.samus.plasmaBeam",
+									"translate": "ssbrc.tooltips.samus.plasma_beam",
 									"color": "dark_red",
 									"bold": true,
 									"italic": false,
@@ -76,7 +76,7 @@
 											"italic": false
 										},
 										{
-											"translate": "ssbrc.tooltips.samus.powerBeam",
+											"translate": "ssbrc.tooltips.samus.power_beam",
 											"color": "gold",
 											"bold": false,
 											"italic": false
@@ -88,7 +88,7 @@
 											"italic": false
 										},
 										{
-											"translate": "ssbrc.tooltips.samus.waveBeam",
+											"translate": "ssbrc.tooltips.samus.wave_beam",
 											"color": "dark_purple",
 											"bold": false,
 											"italic": false
@@ -100,7 +100,7 @@
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{plasmaBeam:1}"
+							"tag": "{plasma_beam:1}"
 						}
 					]
 				}

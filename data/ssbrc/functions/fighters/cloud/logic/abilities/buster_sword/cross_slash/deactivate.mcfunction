@@ -6,4 +6,4 @@ execute as @a[predicate=ssbrc:ingame] run function ssbrc:fighters/cloud/logic/ab
 
 function ssbrc:logic/fighters/effects/mobility/mobilize
 
-execute as @e[tag=crossSlashTarget,distance=..2.5] run function ssbrc:fighters/cloud/logic/abilities/buster_sword/cross_slash/target/deactivate
+execute as @e[tag=cross_slashTarget,distance=..2.5] run function ssbrc:fighters/cloud/logic/abilities/buster_sword/cross_slash/target/deactivate

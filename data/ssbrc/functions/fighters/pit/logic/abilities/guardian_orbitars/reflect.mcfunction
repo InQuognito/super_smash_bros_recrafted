@@ -6,4 +6,4 @@ data modify entity @s Owner set from entity @a[tag=self,limit=1] UUID
 
 tag @s add reflected
 
-execute as @e[type=minecraft:armor_stand,tag=guardianOrbitar,sort=nearest,limit=1] run function ssbrc:fighters/pit/logic/abilities/guardian_orbitars/damage
+execute as @e[type=minecraft:armor_stand,tag=guardian_orbitar,sort=nearest,limit=1] run function ssbrc:fighters/pit/logic/abilities/guardian_orbitars/damage

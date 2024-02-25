@@ -12,7 +12,7 @@
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"translate": "ssbrc.tooltips.altered_beast.markOfTheBeast",
+								"translate": "ssbrc.tooltips.altered_beast.mark_of_the_beast",
 								"color": "dark_red",
 								"bold": true,
 								"italic": false
@@ -31,7 +31,7 @@
 							"entity": "this",
 							"lore": [
 								{
-									"translate": "ssbrc.tooltips.altered_beast.markOfTheBeast.description.1",
+									"translate": "ssbrc.tooltips.altered_beast.mark_of_the_beast.description.1",
 									"color": "gray",
 									"bold": false,
 									"italic": false
@@ -41,7 +41,7 @@
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{markOfTheBeast:1}"
+							"tag": "{mark_of_the_beast:1}"
 						}
 					]
 				}

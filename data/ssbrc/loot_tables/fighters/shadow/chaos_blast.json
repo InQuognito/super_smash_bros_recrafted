@@ -12,7 +12,7 @@
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"translate": "ssbrc.tooltips.shadow.chaosBlast",
+								"translate": "ssbrc.tooltips.shadow.chaos_blast",
 								"color": "red",
 								"bold": true,
 								"italic": false
@@ -43,7 +43,7 @@
 											"italic": false
 										},
 										{
-											"translate": "ssbrc.tooltips.shadow.chaosBlast.description.1",
+											"translate": "ssbrc.tooltips.shadow.chaos_blast.description.1",
 											"color": "gray",
 											"bold": false,
 											"italic": false
@@ -57,7 +57,7 @@
 									"italic": false,
 									"extra": [
 										{
-											"translate": "ssbrc.tooltips.shadow.chaosBlast.description.2",
+											"translate": "ssbrc.tooltips.shadow.chaos_blast.description.2",
 											"color": "gray",
 											"bold": false,
 											"italic": false
@@ -69,7 +69,7 @@
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{chaosBlast:1,CustomModelData:1903}"
+							"tag": "{chaos_blast:1,CustomModelData:1903}"
 						}
 					]
 				}

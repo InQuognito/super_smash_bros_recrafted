@@ -1,4 +1,4 @@
-scoreboard players set @s shadow.chaosControl 400
+scoreboard players set @s shadow.chaos_control 400
 
 effect give @s[tag=!ryu,tag=!shadow,tag=!sonic] minecraft:slowness 20 1 true
 

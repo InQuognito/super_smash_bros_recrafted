@@ -3,7 +3,7 @@
 		"function": "minecraft:set_name",
 		"entity": "this",
 		"name": {
-			"translate": "ssbrc.tooltips.luigi.iceBall",
+			"translate": "ssbrc.tooltips.luigi.ice_ball",
 			"color": "gold",
 			"bold": true,
 			"italic": false

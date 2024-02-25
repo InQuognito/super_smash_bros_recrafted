@@ -1,3 +1,3 @@
-tag @s add phantomShow
+tag @s add phantom_show
 
 function ssbrc:logic/init/projectile

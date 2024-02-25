@@ -1,3 +1,3 @@
 tag @s remove donkey_kong
 
-tag @s remove handSlap
+tag @s remove hand_slap

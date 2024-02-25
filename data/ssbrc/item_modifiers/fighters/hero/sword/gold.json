@@ -3,7 +3,7 @@
 		"function": "minecraft:set_name",
 		"entity": "this",
 		"name": {
-			"translate": "ssbrc.tooltips.hero.swordOfLight",
+			"translate": "ssbrc.tooltips.hero.sword_of_light",
 			"color": "gold",
 			"bold": true,
 			"italic": false

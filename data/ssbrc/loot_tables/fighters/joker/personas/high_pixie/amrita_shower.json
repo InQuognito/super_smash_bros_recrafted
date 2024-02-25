@@ -12,7 +12,7 @@
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"translate": "ssbrc.tooltips.joker.amritaShower",
+								"translate": "ssbrc.tooltips.joker.amrita_shower",
 								"color": "green",
 								"bold": true,
 								"italic": false
@@ -32,7 +32,7 @@
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{amritaShower:1,CustomModelData:603}"
+							"tag": "{amrita_shower:1,CustomModelData:603}"
 						}
 					]
 				}

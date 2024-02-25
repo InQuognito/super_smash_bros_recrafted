@@ -23,20 +23,20 @@ scoreboard players set altered_beast.flame_hands_cooldown vars 20
 
 scoreboard players set #bowser.maxFireBreath vars 100
 
-scoreboard players set byleth.steedChargeCooldown vars 300
+scoreboard players set byleth.steed_chargeCooldown vars 300
 
 scoreboard players set captain_falcon.falcon_punch.cooldown vars 200
 
 scoreboard players set #cloud.maxLimit vars 60
 
 scoreboard players set #dark_samus.chargeBeamThreshold vars 40
-scoreboard players set #dark_samus.phazonOverloadRange vars 8
+scoreboard players set #dark_samus.phazon_overloadRange vars 8
 
 scoreboard players set #donkey_kong.barrelMaxRotation vars 160
-scoreboard players set #donkey_kong.orangeGrenadeMaxRotation vars 160
+scoreboard players set #donkey_kong.orange_grenadeMaxRotation vars 160
 
 scoreboard players set fox.reflectorCooldown vars 60
-scoreboard players set #fox.fireFoxThreshold vars 30
+scoreboard players set #fox.fire_foxThreshold vars 30
 
 scoreboard players set ganondorf.max_mana vars 50
 scoreboard players set ganondorf.spell.cooldown vars 200
@@ -44,9 +44,9 @@ scoreboard players set ganondorf.dead_mans_volley.cost vars 20
 scoreboard players set ganondorf.summon_undead.cost vars 30
 scoreboard players set ganondorf.dark_void.cost vars 40
 
-scoreboard players set giegue.pkFreezeCooldown vars 25
+scoreboard players set giegue.pk_freezeCooldown vars 25
 scoreboard players set giegue.pk_beamCooldown vars 60
-scoreboard players set #giegue.4thDimensionalSlipRange vars 6
+scoreboard players set #giegue.4th_dimensional_slipRange vars 6
 
 scoreboard players set hero.max_mana vars 100
 scoreboard players operation hero.half_mana vars = hero.max_mana vars
@@ -69,50 +69,50 @@ scoreboard players set hero.spell.zoom.cost vars 8
 scoreboard players set hero.spell.zap.cost vars 8
 scoreboard players set hero.spell.zapple.cost vars 18
 
-scoreboard players set jigglypuff.hyperVoiceCooldown vars 40
+scoreboard players set jigglypuff.hyper_voiceCooldown vars 40
 
 scoreboard players set #joker.maxAwakening vars 600
 scoreboard players set #joker.personaBreak vars 300
-scoreboard players set #joker.finalGuardThreshold vars 4
-scoreboard players set joker.amritaShowerCooldown vars 100
+scoreboard players set #joker.final_guardThreshold vars 4
+scoreboard players set joker.amrita_showerCooldown vars 100
 scoreboard players set joker.eiagonCooldown vars 40
 scoreboard players set joker.hamaCooldown vars 300
 scoreboard players set joker.phantom_show_cooldown vars 15
 
 scoreboard players set king_k_rool.blunderbussCooldown vars 60
 
-scoreboard players set luigi.iceBallCooldown vars 20
-scoreboard players set #luigi.iceBallMaxRotation vars 160
-scoreboard players set #luigi.superJumpThreshold vars 10
-scoreboard players set #luigi.superJumpMovementFalloff vars 200
+scoreboard players set luigi.ice_ballCooldown vars 20
+scoreboard players set #luigi.ice_ballMaxRotation vars 160
+scoreboard players set #luigi.super_jumpThreshold vars 10
+scoreboard players set #luigi.super_jumpMovementFalloff vars 200
 
 scoreboard players set mario.fireballCooldown vars 20
 scoreboard players set #mario.fireballMaxRotation vars 160
-scoreboard players set #mario.superJumpThreshold vars 10
-scoreboard players set #mario.superJumpMovementFalloff vars 200
+scoreboard players set #mario.super_jumpThreshold vars 10
+scoreboard players set #mario.super_jumpMovementFalloff vars 200
 
 scoreboard players set mega_man.mega_buster.limit vars 3
 
-scoreboard players set ness.pkFireCooldown vars 40
-scoreboard players set ness.pkFlashCooldown vars 40
+scoreboard players set ness.pk_fireCooldown vars 40
+scoreboard players set ness.pk_flashCooldown vars 40
 
-scoreboard players set pikachu.thunderJoltCooldown vars 20
-scoreboard players set #pikachu.thunderJoltMaxRotation vars 160
+scoreboard players set pikachu.thunder_joltCooldown vars 20
+scoreboard players set #pikachu.thunder_joltMaxRotation vars 160
 
-scoreboard players set pokemon_trainer.flareBlitzCooldown vars 60
-scoreboard players set pokemon_trainer.leechSeedCooldown vars 100
-scoreboard players set pokemon_trainer.waterGunCooldown vars 40
+scoreboard players set pokemon_trainer.flare_blitzCooldown vars 60
+scoreboard players set pokemon_trainer.leech_seedCooldown vars 100
+scoreboard players set pokemon_trainer.water_gunCooldown vars 40
 
 scoreboard players set rob.max_charge vars 200
 scoreboard players set rob.max_fuel vars 200
 
 scoreboard players set #ryu.tatsumaki_senpukyaku vars 10
 
-scoreboard players set #samus.waveBeamPiercing vars 3
+scoreboard players set #samus.wave_beamPiercing vars 3
 
 scoreboard players set #shadow.maxMeter vars 600
-scoreboard players set shadow.chaosSpearCooldown vars 15
-scoreboard players set shadow.chaosSpearCost vars 50
+scoreboard players set shadow.chaos_spearCooldown vars 15
+scoreboard players set shadow.chaos_spearCost vars 50
 
 scoreboard players set shovel_knight.max_mana vars 10
 scoreboard players set shovel_knight.chaos_sphereCooldown vars 20
@@ -151,12 +151,12 @@ scoreboard players set #snake.s1000Scavenger vars 2
 scoreboard players set #snake.socomWeight vars 3
 scoreboard players set #snake.socomReload vars 40
 scoreboard players set #snake.socomScavenger vars 2
-scoreboard players set snake.antiPersonnelMineCooldown vars 20
-scoreboard players set #snake.antiPersonnelMineWeight vars 2
-scoreboard players set #snake.antiPersonnelMineScavenger vars 2
-scoreboard players set snake.smokeGrenadeCooldown vars 300
-scoreboard players set #snake.smokeGrenadeWeight vars 2
-scoreboard players set #snake.smokeGrenadeScavenger vars 1
+scoreboard players set snake.anti_personnel_mineCooldown vars 20
+scoreboard players set #snake.anti_personnel_mineWeight vars 2
+scoreboard players set #snake.anti_personnel_mineScavenger vars 2
+scoreboard players set snake.smoke_grenadeCooldown vars 300
+scoreboard players set #snake.smoke_grenadeWeight vars 2
+scoreboard players set #snake.smoke_grenadeScavenger vars 1
 
 scoreboard players set #steve.blockRange vars 3
 
@@ -192,9 +192,9 @@ scoreboard players set zelda.ice_rod.cost vars 2
 scoreboard players set zelda.ice_rod.cost.alt vars 4
 scoreboard players set zelda.magic_boomerang.cost vars 3
 
-scoreboard players set #damage.bladeBeam vars 50
+scoreboard players set #damage.blade_beam vars 50
 scoreboard players set #damage.blizzaga vars 5
-scoreboard players set #damage.chaosSpear vars 95
+scoreboard players set #damage.chaos_spear vars 95
 scoreboard players set #damage.firaga vars 40
 scoreboard players set #damage.thundaga vars 40
 scoreboard players set #damage.tt33 vars 40
@@ -232,8 +232,8 @@ scoreboard players set value.tutorial vars 2000
 # Bonus Currency Values
 scoreboard players set value.bonus.765o vars 1600
 
-scoreboard players operation value.bonus.8PlayerMatch vars = value.participation vars
-scoreboard players operation value.bonus.8PlayerMatch vars *= 2 integers
+scoreboard players operation value.bonus.8_player_match vars = value.participation vars
+scoreboard players operation value.bonus.8_player_match vars *= 2 integers
 
 scoreboard players operation value.bonus.acrobat vars = value.participation vars
 
@@ -242,80 +242,80 @@ scoreboard players operation value.bonus.aerialist vars = value.participation va
 scoreboard players operation value.bonus.armistice vars = value.participation vars
 scoreboard players operation value.bonus.armistice vars *= 3 integers
 
-scoreboard players operation value.bonus.bankShot vars = value.KO vars
-scoreboard players operation value.bonus.bankShot vars *= 3 integers
+scoreboard players operation value.bonus.bank_shot vars = value.KO vars
+scoreboard players operation value.bonus.bank_shot vars *= 3 integers
 
 scoreboard players set value.bonus.bully vars -200
 
-#scoreboard players operation value.bonus.cementShoes vars = value.participation vars
-#scoreboard players operation value.bonus.cementShoes vars *= 2 integers
+#scoreboard players operation value.bonus.cement_shoes vars = value.participation vars
+#scoreboard players operation value.bonus.cement_shoes vars *= 2 integers
 
 scoreboard players set value.bonus.coward vars -20
 
-scoreboard players operation value.bonus.crushingWeight vars = value.KO vars
-scoreboard players operation value.bonus.crushingWeight vars *= 2 integers
+scoreboard players operation value.bonus.crushing_weight vars = value.KO vars
+scoreboard players operation value.bonus.crushing_weight vars *= 2 integers
 
 scoreboard players set value.bonus.einstein vars -20
 
-scoreboard players operation value.bonus.firstStrike vars = value.KO vars
-scoreboard players operation value.bonus.firstStrike vars *= 1 integers
+scoreboard players operation value.bonus.first_strike vars = value.KO vars
+scoreboard players operation value.bonus.first_strike vars *= 1 integers
 
-scoreboard players operation value.bonus.fullPower vars = value.participation vars
-scoreboard players operation value.bonus.fullPower vars *= 1 integers
+scoreboard players operation value.bonus.full_power vars = value.participation vars
+scoreboard players operation value.bonus.full_power vars *= 1 integers
 
-scoreboard players operation value.bonus.goodFriend vars = value.participation vars
-scoreboard players operation value.bonus.goodFriend vars *= 2 integers
+scoreboard players operation value.bonus.good_friend vars = value.participation vars
+scoreboard players operation value.bonus.good_friend vars *= 2 integers
 
 scoreboard players operation value.bonus.heartgold vars = value.participation vars
 scoreboard players operation value.bonus.heartgold vars *= 1 integers
 
-scoreboard players operation value.bonus.heavyDamage vars = value.participation vars
-scoreboard players operation value.bonus.heavyDamage vars *= 2 integers
+scoreboard players operation value.bonus.heavy_damage vars = value.participation vars
+scoreboard players operation value.bonus.heavy_damage vars *= 2 integers
 
-scoreboard players operation value.bonus.ionZoneProtection vars = value.participation vars
-scoreboard players operation value.bonus.ionZoneProtection vars *= 2 integers
+scoreboard players operation value.bonus.ion_zone_protection vars = value.participation vars
+scoreboard players operation value.bonus.ion_zone_protection vars *= 2 integers
 
-scoreboard players operation value.bonus.lastSecond vars = value.participation vars
-scoreboard players operation value.bonus.lastSecond vars *= 1 integers
+scoreboard players operation value.bonus.last_second vars = value.participation vars
+scoreboard players operation value.bonus.last_second vars *= 1 integers
 
-scoreboard players set value.bonus.luckyNumberSeven vars 77
+scoreboard players set value.bonus.lucky_number_seven vars 77
 
-scoreboard players operation value.bonus.mercifulMaster vars = value.participation vars
-scoreboard players operation value.bonus.mercifulMaster vars *= 1 integers
+scoreboard players operation value.bonus.merciful_master vars = value.participation vars
+scoreboard players operation value.bonus.merciful_master vars *= 1 integers
 
-scoreboard players operation value.bonus.noJohns vars = value.victory vars
-scoreboard players operation value.bonus.noJohns vars *= 1 integers
+scoreboard players operation value.bonus.no_johns vars = value.victory vars
+scoreboard players operation value.bonus.no_johns vars *= 1 integers
 
-scoreboard players operation value.bonus.NPCKO vars = value.KO vars
-scoreboard players operation value.bonus.NPCKO vars /= 2 integers
+scoreboard players operation value.bonus.npc_ko vars = value.KO vars
+scoreboard players operation value.bonus.npc_ko vars /= 2 integers
 
-scoreboard players operation value.bonus.onARoll vars = value.participation vars
-scoreboard players operation value.bonus.onARoll vars *= 1 integers
+scoreboard players operation value.bonus.on_a_roll vars = value.participation vars
+scoreboard players operation value.bonus.on_a_roll vars *= 1 integers
 
-scoreboard players operation value.bonus.rapidKill vars = value.KO vars
-scoreboard players operation value.bonus.rapidKill vars *= 2 integers
+scoreboard players operation value.bonus.rapid_kill vars = value.KO vars
+scoreboard players operation value.bonus.rapid_kill vars *= 2 integers
 
 scoreboard players operation value.bonus.revenge vars = value.KO vars
 scoreboard players operation value.bonus.revenge vars *= 2 integers
 
-scoreboard players set value.bonus.selfDestruct vars -20
+scoreboard players set value.bonus.self_destruct vars -20
 
-scoreboard players operation value.bonus.shieldBreaker vars = value.KO vars
-scoreboard players operation value.bonus.shieldBreaker vars /= 2 integers
+scoreboard players operation value.bonus.shield_breaker vars = value.KO vars
+scoreboard players operation value.bonus.shield_breaker vars /= 2 integers
 
-scoreboard players set value.bonus.shinyEncounter vars 1024
+scoreboard players set value.bonus.shiny_encounter vars 1024
 
 scoreboard players operation value.bonus.sniper vars = value.KO vars
 scoreboard players operation value.bonus.sniper vars *= 2 integers
 
-scoreboard players operation value.bonus.speedDemon vars = value.victory vars
-scoreboard players operation value.bonus.speedDemon vars *= 1 integers
+scoreboard players operation value.bonus.speed_demon vars = value.victory vars
+scoreboard players operation value.bonus.speed_demon vars *= 1 integers
 
-scoreboard players operation value.bonus.stiffKnees vars = value.participation vars
-scoreboard players operation value.bonus.stiffKnees vars *= 1 integers
+scoreboard players operation value.bonus.stiff_knees vars = value.participation vars
+scoreboard players operation value.bonus.stiff_knees vars *= 1 integers
 
-scoreboard players operation value.bonus.suddenDeath vars = value.participation vars
-scoreboard players operation value.bonus.suddenDeath vars *= 1 integers
+scoreboard players operation value.bonus.sudden_death vars = value.participation vars
+scoreboard players operation value.bonus.sudden_death vars *= 1 integers
 
 scoreboard players operation value.bonus.switzerland vars = value.participation vars
 scoreboard players operation value.bonus.switzerland vars *= 1 integers
@@ -323,16 +323,16 @@ scoreboard players operation value.bonus.switzerland vars *= 1 integers
 scoreboard players operation value.bonus.tortoise vars = value.participation vars
 scoreboard players operation value.bonus.tortoise vars *= 1 integers
 
-scoreboard players operation value.bonus.trulyHeroic vars = value.participation vars
-scoreboard players operation value.bonus.trulyHeroic vars *= 1 integers
+scoreboard players operation value.bonus.truly_heroic vars = value.participation vars
+scoreboard players operation value.bonus.truly_heroic vars *= 1 integers
 
-scoreboard players operation value.bonus.trulyVillainous vars = value.participation vars
-scoreboard players operation value.bonus.trulyVillainous vars *= 1 integers
+scoreboard players operation value.bonus.truly_villainous vars = value.participation vars
+scoreboard players operation value.bonus.truly_villainous vars *= 1 integers
 
-scoreboard players operation value.bonus.WACCoordinator vars = value.participation vars
-scoreboard players operation value.bonus.WACCoordinator vars *= 1 integers
+scoreboard players operation value.bonus.wac_coordinator vars = value.participation vars
+scoreboard players operation value.bonus.wac_coordinator vars *= 1 integers
 
-scoreboard players set value.bonus.yearLongBattle vars 365
+scoreboard players set value.bonus.year_long_battle vars 365
 
 # Prices
 scoreboard players set #price.skin.common vars 500

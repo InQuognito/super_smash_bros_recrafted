@@ -1,6 +1,6 @@
-tag @s add satsuiNoHadoRage
+tag @s add satsui_no_hado_rage
 
-clear @s minecraft:carrot_on_a_stick{satsuiNoHadoRage:1}
+clear @s minecraft:carrot_on_a_stick{satsui_no_hado_rage:1}
 
 function ssbrc:logic/fighters/effects/cleanse
 

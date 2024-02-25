@@ -39,4 +39,4 @@ loot replace entity @s[nbt={Inventory:[{tag:{propeller_dagger:1},Slot:35b}]}] in
 loot replace entity @s[nbt={Inventory:[{tag:{propeller_dagger:1},Slot:-106b}]}] weapon.offhand loot ssbrc:fighters/shovel_knight/propeller_dagger
 
 scoreboard players operation @s cooldown.2 = shovel_knight.propeller_daggerCooldown vars
-execute if entity @s[scores={shadow.chaosControl=1..}] run function ssbrc:logic/fighters/cooldown_modifiers/chaos_control {type:2}
+execute if entity @s[scores={shadow.chaos_control=1..}] run function ssbrc:logic/fighters/cooldown_modifiers/chaos_control {type:2}

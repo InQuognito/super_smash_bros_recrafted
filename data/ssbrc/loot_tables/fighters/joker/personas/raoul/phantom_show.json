@@ -12,7 +12,7 @@
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"translate": "ssbrc.tooltips.joker.phantomShow",
+								"translate": "ssbrc.tooltips.joker.phantom_show",
 								"color": "dark_red",
 								"bold": true,
 								"italic": false
@@ -32,7 +32,7 @@
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{phantomShow:1,CustomModelData:606}"
+							"tag": "{phantom_show:1,CustomModelData:606}"
 						}
 					]
 				}

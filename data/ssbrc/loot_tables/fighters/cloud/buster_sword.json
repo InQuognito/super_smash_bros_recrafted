@@ -37,7 +37,7 @@
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{busterSword:1}"
+							"tag": "{buster_sword:1}"
 						}
 					]
 				}

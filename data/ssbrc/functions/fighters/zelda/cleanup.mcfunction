@@ -1,4 +1,4 @@
-tag @s remove rupeeMaster
+tag @s remove rupee_master
 
 kill @e[type=minecraft:item_display,tag=zelda.boomerang,predicate=ssbrc:id_match]
 kill @e[type=minecraft:item_display,tag=magic_boomerang,predicate=ssbrc:id_match]

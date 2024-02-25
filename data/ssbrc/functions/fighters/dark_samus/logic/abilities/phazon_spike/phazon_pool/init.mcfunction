@@ -1,9 +1,9 @@
-tag @s add phazonPool
+tag @s add phazon_pool
 
 function ssbrc:logic/init/id
 
-execute store result score #phazonPoolPosX temp run data get entity @s Pos[0]
-execute store result score #phazonPoolPosZ temp run data get entity @s Pos[2]
+execute store result score #phazon_poolPosX temp run data get entity @s Pos[0]
+execute store result score #phazon_poolPosZ temp run data get entity @s Pos[2]
 
 function ssbrc:fighters/dark_samus/logic/abilities/phazon_spike/phazon_pool/offset_x
 function ssbrc:fighters/dark_samus/logic/abilities/phazon_spike/phazon_pool/offset_z

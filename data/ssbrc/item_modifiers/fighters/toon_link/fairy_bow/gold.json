@@ -3,7 +3,7 @@
 		"function": "minecraft:set_name",
 		"entity": "this",
 		"name": {
-			"translate": "ssbrc.tooltips.toon_link.fairyBow",
+			"translate": "ssbrc.tooltips.toon_link.fairy_bow",
 			"color": "gold",
 			"bold": true,
 			"italic": false

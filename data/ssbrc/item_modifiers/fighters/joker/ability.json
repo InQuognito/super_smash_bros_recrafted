@@ -5,6 +5,6 @@
 	},
 	{
 		"function": "minecraft:set_nbt",
-		"tag": "{personaAwakening:1}"
+		"tag": "{persona_awakening:1}"
 	}
 ]

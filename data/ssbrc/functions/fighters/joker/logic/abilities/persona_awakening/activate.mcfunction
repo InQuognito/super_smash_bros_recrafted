@@ -8,7 +8,7 @@ scoreboard players set @s joker.tt33A 8
 function ssbrc:fighters/joker/logic/abilities/persona_awakening/rebel_knife
 
 clear @s minecraft:carrot_on_a_stick{mask:1}
-clear @s minecraft:carrot_on_a_stick{personaAwakening:1}
+clear @s minecraft:carrot_on_a_stick{persona_awakening:1}
 
 loot give @s[tag=archangel] loot ssbrc:fighters/joker/personas/archangel/hama
 loot give @s[tag=arsene] loot ssbrc:fighters/joker/personas/arsene/eiagon

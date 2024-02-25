@@ -6,6 +6,6 @@ scoreboard players set @s shadow.meter.hero 0
 
 function ssbrc:fighters/shadow/logic/chaos_spear/disable
 
-clear @s minecraft:carrot_on_a_stick{chaosControl:1}
+clear @s minecraft:carrot_on_a_stick{chaos_control:1}
 
 playsound ssbrc:fighters.shadow.chaos_control.activate player @s

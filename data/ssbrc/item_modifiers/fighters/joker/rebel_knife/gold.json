@@ -3,7 +3,7 @@
 		"function": "minecraft:set_name",
 		"entity": "this",
 		"name": {
-			"translate": "ssbrc.tooltips.joker.rebelKnife",
+			"translate": "ssbrc.tooltips.joker.rebel_knife",
 			"color": "gold",
 			"bold": true,
 			"italic": false

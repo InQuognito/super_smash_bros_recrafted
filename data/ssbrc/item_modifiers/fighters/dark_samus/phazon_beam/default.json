@@ -3,7 +3,7 @@
 		"function": "minecraft:set_name",
 		"entity": "this",
 		"name": {
-			"translate": "ssbrc.tooltips.dark_samus.phazonBeam",
+			"translate": "ssbrc.tooltips.dark_samus.phazon_beam",
 			"color": "aqua",
 			"bold": true,
 			"italic": false

@@ -33,7 +33,7 @@
 											"italic": false
 										},
 										{
-											"translate": "ssbrc.tooltips.shadow.chaosSpear.description.1",
+											"translate": "ssbrc.tooltips.shadow.chaos_spear.description.1",
 											"color": "gray",
 											"bold": false,
 											"italic": false
@@ -49,7 +49,7 @@
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{chaosSpear:1}"
+							"tag": "{chaos_spear:1}"
 						}
 					]
 				}

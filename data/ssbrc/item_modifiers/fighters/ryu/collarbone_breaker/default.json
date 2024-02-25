@@ -3,7 +3,7 @@
 		"function": "minecraft:set_name",
 		"entity": "this",
 		"name": {
-			"translate": "ssbrc.tooltips.ryu.collarboneBreaker",
+			"translate": "ssbrc.tooltips.ryu.collarbone_breaker",
 			"color": "white",
 			"bold": true,
 			"italic": false
@@ -19,7 +19,7 @@
 					"condition": "minecraft:entity_properties",
 					"entity": "this",
 					"predicate": {
-						"nbt": "{Tags:[\"satsuiNoHadoRage\"]}"
+						"nbt": "{Tags:[\"satsui_no_hado_rage\"]}"
 					}
 				}
 			}
@@ -33,7 +33,7 @@
 				"condition": "minecraft:entity_properties",
 				"entity": "this",
 				"predicate": {
-					"nbt": "{Tags:[\"satsuiNoHadoRage\"]}"
+					"nbt": "{Tags:[\"satsui_no_hado_rage\"]}"
 				}
 			}
 		]

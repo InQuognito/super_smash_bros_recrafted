@@ -51,7 +51,7 @@
 			"condition": "minecraft:entity_properties",
 			"entity": "this",
 			"predicate": {
-				"nbt": "{Tags:[\"ryu\",\"satsuiNoHadoRage\"]}"
+				"nbt": "{Tags:[\"ryu\",\"satsui_no_hado_rage\"]}"
 			}
 		},
 		{

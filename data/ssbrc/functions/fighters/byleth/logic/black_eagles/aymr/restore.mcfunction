@@ -1,5 +1,5 @@
-clear @s minecraft:iron_sword{steelSword:1}
-clear @s minecraft:golden_sword{swordOfTheCreator:1}
+clear @s minecraft:iron_sword{steel_sword:1}
+clear @s minecraft:golden_sword{sword_of_the_creator:1}
 
 loot give @s loot ssbrc:fighters/byleth/black_eagles/aymr
 

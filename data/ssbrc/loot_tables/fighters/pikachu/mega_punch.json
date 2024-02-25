@@ -12,7 +12,7 @@
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"translate": "ssbrc.tooltips.pokemon.megaPunch",
+								"translate": "ssbrc.tooltips.pokemon.mega_punch",
 								"color": "white",
 								"bold": true,
 								"italic": false
@@ -43,7 +43,7 @@
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{megaPunch:1}"
+							"tag": "{mega_punch:1}"
 						}
 					]
 				}

@@ -15,7 +15,7 @@
 					"type": "minecraft:score",
 					"target": {
 						"type": "minecraft:fixed",
-						"name": "#mario.superJumpThreshold"
+						"name": "#mario.super_jumpThreshold"
 					},
 					"score": "vars"
 				}

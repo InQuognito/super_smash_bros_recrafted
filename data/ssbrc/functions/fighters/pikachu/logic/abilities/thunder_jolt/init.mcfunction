@@ -1,4 +1,4 @@
-tag @s add thunderJolt
+tag @s add thunder_jolt
 
 function ssbrc:logic/fighters/pokemon/natures/tag
 

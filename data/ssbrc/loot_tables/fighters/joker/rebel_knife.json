@@ -30,7 +30,7 @@
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{rebelKnife:1}"
+							"tag": "{rebel_knife:1}"
 						}
 					]
 				}

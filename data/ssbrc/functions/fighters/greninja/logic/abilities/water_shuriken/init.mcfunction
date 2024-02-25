@@ -1,4 +1,4 @@
-tag @s add waterShuriken
+tag @s add water_shuriken
 
 function ssbrc:logic/fighters/pokemon/natures/tag
 

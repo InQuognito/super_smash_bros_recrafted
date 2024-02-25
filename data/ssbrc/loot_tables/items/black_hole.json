@@ -63,7 +63,7 @@
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{black_hole:1,CustomModelData:882}"
+							"tag": "{black_hole:1,CustomModelData:16}"
 						}
 					]
 				}

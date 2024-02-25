@@ -7,4 +7,4 @@ scoreboard players set @s shadow.meter.villain 0
 
 function ssbrc:fighters/shadow/logic/chaos_spear/disable
 
-clear @s minecraft:carrot_on_a_stick{chaosBlast:1}
+clear @s minecraft:carrot_on_a_stick{chaos_blast:1}

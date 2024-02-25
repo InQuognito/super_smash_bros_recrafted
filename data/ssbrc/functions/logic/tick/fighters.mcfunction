@@ -89,16 +89,16 @@ function ssbrc:items/killing_edge/tick
 # Fighter Effects
 execute unless score @s item.cloaking_device matches 1.. positioned ~ ~0.75 ~ run function ssbrc:logic/fighters/particles/tick
 
-execute if entity @s[scores={shadow.chaosControl=1..}] run function ssbrc:fighters/shadow/logic/chaos_control/tick
+execute if entity @s[scores={shadow.chaos_control=1..}] run function ssbrc:fighters/shadow/logic/chaos_control/tick
 
 execute if entity @s[scores={drowsy.timer=1..}] run function ssbrc:logic/fighters/effects/drowsy/tick
 
-execute if entity @s[scores={timer.pkFlash=1..}] run function ssbrc:fighters/ness/logic/abilities/pk_flash/damage/tick
+execute if entity @s[scores={timer.pk_flash=1..}] run function ssbrc:fighters/ness/logic/abilities/pk_flash/damage/tick
 
-execute if entity @s[scores={armorBreak=1..}] run function ssbrc:fighters/pokemon_trainer/logic/charizard/rock_smash/tick
+execute if entity @s[scores={armor_break=1..}] run function ssbrc:fighters/pokemon_trainer/logic/charizard/rock_smash/tick
 
-execute if entity @s[tag=leechSeed] run function ssbrc:fighters/pokemon_trainer/logic/ivysaur/leech_seed/calculate
-execute if entity @s[scores={leechSeedStacks=1..}] run function ssbrc:fighters/pokemon_trainer/logic/ivysaur/leech_seed/calculate_healing
+execute if entity @s[tag=leech_seed] run function ssbrc:fighters/pokemon_trainer/logic/ivysaur/leech_seed/calculate
+execute if entity @s[scores={leech_seedStacks=1..}] run function ssbrc:fighters/pokemon_trainer/logic/ivysaur/leech_seed/calculate_healing
 
 scoreboard players remove @s[scores={flinch=1..}] flinch 1
 execute if entity @s[scores={flinch=1}] run function ssbrc:logic/fighters/effects/mobility/mobilize
@@ -115,10 +115,10 @@ execute if score capture_the_flag map matches 1 run function ssbrc:stages/captur
 # Bonuses
 execute unless score @s aerialist matches 1.. run function ssbrc:logic/fighters/bonuses/aerialist/tick
 
-scoreboard players remove @s[scores={rapidKill.timer=1..}] rapidKill.timer 1
+scoreboard players remove @s[scores={rapid_kill.timer=1..}] rapid_kill.timer 1
 
 execute if entity @s[scores={revenge.tracking=0..}] run function ssbrc:logic/fighters/bonuses/revenge/tick
 
-scoreboard players reset @s[scores={stiffKnees=1..},predicate=ssbrc:flag/sneaking] stiffKnees
+scoreboard players reset @s[scores={stiff_knees=1..},predicate=ssbrc:flag/sneaking] stiff_knees
 
 scoreboard players reset @s[scores={tortoise=1..},predicate=ssbrc:flag/sprinting] tortoise

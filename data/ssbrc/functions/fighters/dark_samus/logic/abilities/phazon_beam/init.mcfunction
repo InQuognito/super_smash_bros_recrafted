@@ -1,4 +1,4 @@
-tag @s add phazonBeam
+tag @s add phazon_beam
 
 execute unless score charge temp matches 10.. run function ssbrc:fighters/dark_samus/logic/abilities/phazon_beam/charge/1
 execute if score charge temp matches 10..19 run function ssbrc:fighters/dark_samus/logic/abilities/phazon_beam/charge/2

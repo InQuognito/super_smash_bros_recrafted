@@ -53,7 +53,7 @@
 				"predicate": {
 					"equipment": {
 						"mainhand": {
-							"nbt": "{antiPersonnelMine:1}"
+							"nbt": "{anti_personnel_mine:1}"
 						}
 					}
 				}
@@ -65,7 +65,7 @@
 				"predicate": {
 					"equipment": {
 						"mainhand": {
-							"nbt": "{smokeGrenade:1}"
+							"nbt": "{smoke_grenade:1}"
 						}
 					}
 				}

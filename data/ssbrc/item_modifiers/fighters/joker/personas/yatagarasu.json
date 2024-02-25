@@ -14,7 +14,7 @@
 		"entity": "this",
 		"lore": [
 			{
-				"translate": "ssbrc.tooltips.joker.nullWind",
+				"translate": "ssbrc.tooltips.joker.null_wind",
 				"color": "gray",
 				"bold": false,
 				"italic": false
@@ -33,7 +33,7 @@
 				"italic": false,
 				"extra": [
 					{
-						"translate": "ssbrc.tooltips.joker.nullWind.description.1",
+						"translate": "ssbrc.tooltips.joker.null_wind.description.1",
 						"color": "gray",
 						"bold": false,
 						"italic": false

@@ -12,7 +12,7 @@
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"translate": "ssbrc.tooltips.zelda.passiveItem.goronLocket",
+								"translate": "ssbrc.tooltips.zelda.passive_item.goron_locket",
 								"color": "red",
 								"bold": true,
 								"italic": false
@@ -27,7 +27,7 @@
 							"entity": "this",
 							"lore": [
 								{
-									"translate": "ssbrc.tooltips.zelda.passiveItem.goronLocket.description.1",
+									"translate": "ssbrc.tooltips.zelda.passive_item.goron_locket.description.1",
 									"color": "gray",
 									"bold": false,
 									"italic": false
@@ -37,7 +37,7 @@
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{goronLocket:1,CustomModelData:9032}"
+							"tag": "{goron_locket:1,CustomModelData:9032}"
 						}
 					]
 				}

@@ -4,7 +4,7 @@ execute if entity @s[nbt={SelectedItem:{tag:{boomerang:1}}}] run function ssbrc:
 
 execute if entity @s[scores={cooldown.1=..0},nbt={SelectedItem:{tag:{fire_rod:1}}}] run function ssbrc:fighters/zelda/logic/abilities/fire_rod/check
 
-execute if entity @s[scores={cooldown.1=..0},nbt={SelectedItem:{tag:{iceRod:1}}}] run function ssbrc:fighters/zelda/logic/abilities/ice_rod/check
+execute if entity @s[scores={cooldown.1=..0},nbt={SelectedItem:{tag:{ice_rod:1}}}] run function ssbrc:fighters/zelda/logic/abilities/ice_rod/check
 
 execute if entity @s[nbt={SelectedItem:{tag:{magic_boomerang:1}}}] run function ssbrc:fighters/zelda/logic/abilities/magic_boomerang/check
 

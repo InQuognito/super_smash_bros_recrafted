@@ -3,7 +3,7 @@
 		"function": "minecraft:set_name",
 		"entity": "this",
 		"name": {
-			"translate": "ssbrc.tooltips.mega_man.megaBuster",
+			"translate": "ssbrc.tooltips.mega_man.mega_buster",
 			"color": "blue",
 			"bold": true,
 			"italic": false
@@ -11,6 +11,6 @@
 	},
 	{
 		"function": "minecraft:set_nbt",
-		"tag": "{CustomModelData:884}"
+		"tag": "{CustomModelData:883}"
 	}
 ]

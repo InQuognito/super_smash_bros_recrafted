@@ -3,4 +3,4 @@ execute positioned ^ ^ ^1 summon minecraft:skeleton run function ssbrc:fighters/
 scoreboard players operation @s mana -= ganondorf.summon_undead.cost vars
 
 scoreboard players operation @s cooldown.2 = ganondorf.spell.cooldown vars
-execute if entity @s[scores={shadow.chaosControl=1..}] run function ssbrc:logic/fighters/cooldown_modifiers/chaos_control {type:2}
+execute if entity @s[scores={shadow.chaos_control=1..}] run function ssbrc:logic/fighters/cooldown_modifiers/chaos_control {type:2}

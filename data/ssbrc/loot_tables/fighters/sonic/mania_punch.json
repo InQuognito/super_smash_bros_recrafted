@@ -12,7 +12,7 @@
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"translate": "ssbrc.tooltips.sonic.maniaPunch",
+								"translate": "ssbrc.tooltips.sonic.mania_punch",
 								"color": "blue",
 								"bold": true,
 								"italic": false
@@ -43,7 +43,7 @@
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{maniaPunch:1}"
+							"tag": "{mania_punch:1}"
 						}
 					]
 				}

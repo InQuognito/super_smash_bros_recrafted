@@ -12,7 +12,7 @@ execute if entity @s[tag=ganondorf] run function ssbrc:fighters/ganondorf/logic/
 
 execute if entity @s[tag=giegue,scores={charge.1=..0}] run function ssbrc:fighters/giegue/logic/abilities/check
 
-execute if entity @s[tag=greninja,scores={charge.2=1..},nbt={SelectedItem:{tag:{waterShuriken:1}}}] run function ssbrc:fighters/greninja/logic/abilities/water_shuriken/activate
+execute if entity @s[tag=greninja,scores={charge.2=1..},nbt={SelectedItem:{tag:{water_shuriken:1}}}] run function ssbrc:fighters/greninja/logic/abilities/water_shuriken/activate
 
 execute if entity @s[tag=hero,scores={cooldown.1=..0,duration.2=..0}] run function ssbrc:fighters/hero/logic/abilities/impulse
 
@@ -24,7 +24,7 @@ execute if entity @s[tag=king_k_rool,scores={cooldown.1=..0},nbt={SelectedItem:{
 
 execute if entity @s[tag=link] run function ssbrc:fighters/link/logic/abilities/impulse
 
-execute if entity @s[tag=luigi,scores={cooldown.1=..0},nbt={SelectedItem:{tag:{iceBall:1}}}] run function ssbrc:fighters/luigi/logic/abilities/ice_ball/activate
+execute if entity @s[tag=luigi,scores={cooldown.1=..0},nbt={SelectedItem:{tag:{ice_ball:1}}}] run function ssbrc:fighters/luigi/logic/abilities/ice_ball/activate
 
 execute if entity @s[tag=mario,scores={cooldown.1=..0},nbt={SelectedItem:{tag:{fireball:1}}}] run function ssbrc:fighters/mario/logic/abilities/fireball/activate
 
@@ -34,9 +34,9 @@ execute if entity @s[tag=ness] run function ssbrc:fighters/ness/logic/abilities/
 
 execute if entity @s[tag=peach,scores={cooldown.1=..0}] run function ssbrc:fighters/peach/logic/abilities/impulse
 
-execute if entity @s[tag=rob,scores={cooldown.1=..0,charge.1=1..},nbt={SelectedItem:{tag:{roboBeam:1}}}] run function ssbrc:fighters/rob/logic/abilities/robo_beam/check
+execute if entity @s[tag=rob,scores={cooldown.1=..0,charge.1=1..},nbt={SelectedItem:{tag:{robo_beam:1}}}] run function ssbrc:fighters/rob/logic/abilities/robo_beam/check
 
-execute if entity @s[tag=ryu,nbt={SelectedItem:{tag:{satsuiNoHadoRage:1}}}] run function ssbrc:fighters/ryu/logic/abilities/satsui_no_hado_rage/activate
+execute if entity @s[tag=ryu,nbt={SelectedItem:{tag:{satsui_no_hado_rage:1}}}] run function ssbrc:fighters/ryu/logic/abilities/satsui_no_hado_rage/activate
 
 execute if entity @s[tag=samus] run function ssbrc:fighters/samus/logic/abilities/impulse
 

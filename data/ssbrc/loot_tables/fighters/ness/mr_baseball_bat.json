@@ -62,7 +62,7 @@
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{mrBaseballBat:1}"
+							"tag": "{mr_baseball_bat:1}"
 						}
 					]
 				}

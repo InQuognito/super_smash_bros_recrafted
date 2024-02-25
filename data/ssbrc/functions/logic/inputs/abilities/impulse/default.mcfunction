@@ -2,7 +2,7 @@ execute if entity @s[tag=byleth] run function ssbrc:fighters/byleth/logic/abilit
 
 execute if entity @s[tag=captain_falcon] run function ssbrc:fighters/captain_falcon/logic/abilities/impulse
 
-execute if entity @s[tag=cloud,scores={cooldown.1=..0},nbt={SelectedItem:{tag:{busterSword:1}}}] run function ssbrc:fighters/cloud/logic/abilities/buster_sword/impulse
+execute if entity @s[tag=cloud,scores={cooldown.1=..0},nbt={SelectedItem:{tag:{buster_sword:1}}}] run function ssbrc:fighters/cloud/logic/abilities/buster_sword/impulse
 
 execute if entity @s[tag=pikachu] run function ssbrc:fighters/pikachu/logic/abilities/impulse
 

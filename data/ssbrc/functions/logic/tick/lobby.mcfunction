@@ -14,14 +14,14 @@ advancement grant @s[advancements={ssbrc:tutorial/intro/2=false},x=-525.5,y=5.0,
 particle minecraft:block_marker minecraft:petrified_oak_slab -525.5 6.5 -1936.5 0.0 0.0 0.0 0.0 1 force @s[advancements={ssbrc:tutorial/intro/3=false}]
 particle minecraft:block_marker minecraft:petrified_oak_slab -525.5 6.5 -1936.5 0.0 0.0 0.0 0.0 1 force @s[advancements={ssbrc:tutorial/outro/1=true,ssbrc:tutorial/outro/2=false}]
 
-execute unless entity @s[x=-526.0,y=6.0,z=-1937.0,dy=0] run scoreboard players reset @s sandbag.standOn
-scoreboard players add @s[x=-526.0,y=6.0,z=-1937.0,dy=0] sandbag.standOn 1
+execute unless entity @s[x=-526.0,y=6.0,z=-1937.0,dy=0] run scoreboard players reset @s sandbag.stand_on
+scoreboard players add @s[x=-526.0,y=6.0,z=-1937.0,dy=0] sandbag.stand_on 1
 
-execute if entity @s[scores={sandbag.standOn=100}] run function ssbrc:logic/selector/events/sandbag/stand_on/1
-execute if entity @s[scores={sandbag.standOn=200}] run function ssbrc:logic/selector/events/sandbag/stand_on/2
-execute if entity @s[scores={sandbag.standOn=300}] run function ssbrc:logic/selector/events/sandbag/stand_on/3
-execute if entity @s[scores={sandbag.standOn=400}] run function ssbrc:logic/selector/events/sandbag/stand_on/4
-execute if entity @s[scores={sandbag.standOn=500}] positioned -525.5 6.0 -1936.5 run function ssbrc:logic/selector/events/sandbag/stand_on/5
+execute if entity @s[scores={sandbag.stand_on=100}] run function ssbrc:logic/selector/events/sandbag/stand_on/1
+execute if entity @s[scores={sandbag.stand_on=200}] run function ssbrc:logic/selector/events/sandbag/stand_on/2
+execute if entity @s[scores={sandbag.stand_on=300}] run function ssbrc:logic/selector/events/sandbag/stand_on/3
+execute if entity @s[scores={sandbag.stand_on=400}] run function ssbrc:logic/selector/events/sandbag/stand_on/4
+execute if entity @s[scores={sandbag.stand_on=500}] positioned -525.5 6.0 -1936.5 run function ssbrc:logic/selector/events/sandbag/stand_on/5
 
 execute as @e[type=minecraft:armor_stand,tag=sandbagThrow] at @s unless block ~ ~-0.1 ~ #ssbrc:passthrough run kill @s
 

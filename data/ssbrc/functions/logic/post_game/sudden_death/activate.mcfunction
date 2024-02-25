@@ -1,5 +1,5 @@
 scoreboard players set game_mode options 1
-scoreboard players set suddenDeath options 1
+scoreboard players set sudden_death options 1
 scoreboard objectives setdisplay sidebar
 
 scoreboard players operation gameTime timer += time_limit options

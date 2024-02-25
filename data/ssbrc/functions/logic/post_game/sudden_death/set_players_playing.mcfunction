@@ -1,4 +1,4 @@
-scoreboard players set @s suddenDeath 1
+scoreboard players set @s sudden_death 1
 
 scoreboard players set @s stocks 1
 

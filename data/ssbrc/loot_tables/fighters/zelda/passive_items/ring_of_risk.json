@@ -12,7 +12,7 @@
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"translate": "ssbrc.tooltips.zelda.passiveItem.ringOfRisk",
+								"translate": "ssbrc.tooltips.zelda.passive_item.ring_of_risk",
 								"color": "gray",
 								"bold": true,
 								"italic": false
@@ -27,7 +27,7 @@
 							"entity": "this",
 							"lore": [
 								{
-									"translate": "ssbrc.tooltips.zelda.passiveItem.ringOfRisk.description.1",
+									"translate": "ssbrc.tooltips.zelda.passive_item.ring_of_risk.description.1",
 									"color": "gray",
 									"bold": false,
 									"italic": false
@@ -37,7 +37,7 @@
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{ringOfRisk:1,CustomModelData:9037}"
+							"tag": "{ring_of_risk:1,CustomModelData:9037}"
 						}
 					]
 				}

@@ -15,7 +15,7 @@ scoreboard players reset @s fiends_cauldron
 scoreboard players reset @s frostbite
 scoreboard players reset @s frostbite.timer
 
-tag @s remove crossSlashTarget
+tag @s remove cross_slashTarget
 function ssbrc:fighters/pokemon_trainer/logic/ivysaur/leech_seed/reset
 
 tag @s remove immobile
@@ -41,17 +41,17 @@ tag @s[tag=bowser] remove rageUsed
 
 execute if entity @s[tag=byleth] run function ssbrc:fighters/byleth/cleanup
 
-execute if entity @s[tag=captain_falcon] run kill @e[type=minecraft:marker,tag=raptorBoost,predicate=ssbrc:id_match]
+execute if entity @s[tag=captain_falcon] run kill @e[type=minecraft:marker,tag=raptor_boost,predicate=ssbrc:id_match]
 
 execute if entity @s[tag=cloud] run function ssbrc:fighters/cloud/cleanup
 
-execute if entity @s[tag=fox] run kill @e[type=minecraft:marker,tag=fireFox,predicate=ssbrc:id_match]
+execute if entity @s[tag=fox] run kill @e[type=minecraft:marker,tag=fire_fox,predicate=ssbrc:id_match]
 
 execute if entity @s[tag=ganondorf] run function ssbrc:fighters/ganondorf/logic/kill_entities
 
 execute if entity @s[tag=giegue] run function ssbrc:fighters/giegue/cleanup
 
-execute if entity @s[tag=greninja] run kill @e[type=minecraft:marker,tag=shadowSneak,predicate=ssbrc:id_match]
+execute if entity @s[tag=greninja] run kill @e[type=minecraft:marker,tag=shadow_sneak,predicate=ssbrc:id_match]
 
 execute if entity @s[tag=jigglypuff] run function ssbrc:fighters/jigglypuff/logic/abilities/rest/reset
 

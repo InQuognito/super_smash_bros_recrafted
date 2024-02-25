@@ -3,7 +3,7 @@
 		"function": "minecraft:set_name",
 		"entity": "this",
 		"name": {
-			"translate": "ssbrc.tooltips.wolf.wolfSlash",
+			"translate": "ssbrc.tooltips.wolf.wolf_slash",
 			"color": "light_purple",
 			"bold": true,
 			"italic": false

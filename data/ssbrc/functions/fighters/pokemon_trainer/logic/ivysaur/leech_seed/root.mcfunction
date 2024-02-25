@@ -1,6 +1,6 @@
-scoreboard players operation @s leechSeed = @e[type=minecraft:marker,tag=leechSeed,sort=nearest,limit=1] id
-scoreboard players set @s leechSeedTimer 200
+scoreboard players operation @s leech_seed = @e[type=minecraft:marker,tag=leech_seed,sort=nearest,limit=1] id
+scoreboard players set @s leech_seedTimer 200
 
-tag @s add leechSeed
+tag @s add leech_seed
 
 function ssbrc:logic/fighters/projectiles/hit

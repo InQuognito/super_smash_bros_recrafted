@@ -3,7 +3,7 @@
 		"function": "minecraft:set_name",
 		"entity": "this",
 		"name": {
-			"translate": "ssbrc.tooltips.alucard.holyWater",
+			"translate": "ssbrc.tooltips.alucard.holy_water",
 			"color": "gold",
 			"bold": true,
 			"italic": false

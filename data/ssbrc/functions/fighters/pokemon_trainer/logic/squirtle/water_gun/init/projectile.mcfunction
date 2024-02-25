@@ -1,4 +1,4 @@
-tag @s add waterGun
+tag @s add water_gun
 
 function ssbrc:logic/fighters/pokemon/natures/tag
 

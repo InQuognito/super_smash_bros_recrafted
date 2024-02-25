@@ -9,7 +9,7 @@
 					"condition": "minecraft:entity_properties",
 					"entity": "this",
 					"predicate": {
-						"nbt": "{Inventory:[{tag:{ringOfCharisma:1}}]}"
+						"nbt": "{Inventory:[{tag:{ring_of_charisma:1}}]}"
 					}
 				}
 			}
@@ -23,7 +23,7 @@
 				"condition": "minecraft:entity_properties",
 				"entity": "this",
 				"predicate": {
-					"nbt": "{Inventory:[{tag:{ringOfCharisma:1}}]}"
+					"nbt": "{Inventory:[{tag:{ring_of_charisma:1}}]}"
 				}
 			}
 		]
