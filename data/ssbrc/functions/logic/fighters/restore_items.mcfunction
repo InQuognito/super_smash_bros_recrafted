@@ -23,7 +23,7 @@ execute if entity @s[tag=joker] run function ssbrc:fighters/joker/restore_items
 
 execute if entity @s[tag=link] run function ssbrc:fighters/link/restore_items
 
-loot replace entity @s[tag=mega_man] hotbar.2 loot ssbrc:fighters/mega_man/black_hole_bomb
+loot replace entity @s[tag=mega_man] hotbar.2 loot ssbrc:fighters/mega_man/black_hole
 
 execute if entity @s[tag=pit] run function ssbrc:fighters/pit/logic/abilities/wings/regain/activate
 
