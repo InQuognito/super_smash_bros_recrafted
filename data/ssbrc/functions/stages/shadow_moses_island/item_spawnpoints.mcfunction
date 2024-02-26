@@ -8,3 +8,13 @@ summon minecraft:marker 137.5 15.0 -1392.5 {Tags:["spawnpoint.item"]}
 summon minecraft:marker 131.5 17.0 -1432.5 {Tags:["spawnpoint.item"]}
 summon minecraft:marker 160.5 18.0 -1425.5 {Tags:["spawnpoint.item"]}
 summon minecraft:marker 120.5 15.0 -1467.5 {Tags:["spawnpoint.item"]}
+summon minecraft:marker 160.5 16.0 -1440.5 {Tags:["spawnpoint.item"]}
+summon minecraft:marker 123.5 17.0 -1441.5 {Tags:["spawnpoint.item"]}
+summon minecraft:marker 80.5 11.0 -1426.5 {Tags:["spawnpoint.item"]}
+summon minecraft:marker 126.5 16.0 -1414.5 {Tags:["spawnpoint.item"]}
+summon minecraft:marker 125.5 17.0 -1393.5 {Tags:["spawnpoint.item"]}
+summon minecraft:marker 140.5 17.0 -1459.5 {Tags:["spawnpoint.item"]}
+summon minecraft:marker 127.5 19.0 -1423.5 {Tags:["spawnpoint.item"]}
+summon minecraft:marker 144.5 19.0 -1425.5 {Tags:["spawnpoint.item"]}
+summon minecraft:marker 113.5 19.0 -1433.5 {Tags:["spawnpoint.item"]}
+summon minecraft:marker 67.5 10.0 -1431.5 {Tags:["spawnpoint.item"]}
