@@ -65,10 +65,6 @@
 							"replace": false
 						},
 						{
-							"function": "minecraft:reference",
-							"name": "ssbrc:fighters/terry/hammer_punch"
-						},
-						{
 							"function": "minecraft:set_nbt",
 							"tag": "{hammer_punch:1}"
 						}
