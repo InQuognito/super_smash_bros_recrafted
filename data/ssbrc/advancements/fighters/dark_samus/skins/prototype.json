@@ -1,7 +1,7 @@
 {
 	"parent": "ssbrc:skins",
 	"criteria": {
-		"impossible": {
+		"default": {
 			"trigger": "minecraft:impossible"
 		}
 	}
