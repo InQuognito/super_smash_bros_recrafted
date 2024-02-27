@@ -1,8 +1,8 @@
-tag @s[scores={charge.output=1}] add swordSpin
+tag @s[scores={charge.output=1}] add sword_spin
 
-scoreboard players operation swordSpin temp = @s charge.output
-scoreboard players operation swordSpin temp %= 5 integers
-execute if score swordSpin temp matches 0 if entity @s[scores={charge.output=21..}] run function ssbrc:fighters/link/logic/abilities/sword_spin/raycast/start
+scoreboard players operation sword_spin temp = @s charge.output
+scoreboard players operation sword_spin temp %= 5 integers
+execute if score sword_spin temp matches 0 if entity @s[scores={charge.output=21..}] run function ssbrc:fighters/link/logic/abilities/sword_spin/raycast/start
 
 function ssbrc:logic/spinner/call
 

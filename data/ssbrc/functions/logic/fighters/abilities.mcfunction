@@ -155,6 +155,9 @@ execute if entity @s[tag=acid,tag=!active] run function ssbrc:fighters/team_rock
 execute if entity @s[tag=payday] run function ssbrc:fighters/team_rocket/logic/meowth/payday/tick
 execute if entity @s[tag=payday.projectile] run function ssbrc:fighters/team_rocket/logic/meowth/payday/projectiles/tick
 
+# Terry
+execute if entity @s[tag=power_wave] run function ssbrc:fighters/terry/logic/abilities/power_wave/tick
+
 # Toon Link
 execute if entity @s[tag=toon_link.boomerang] run function ssbrc:fighters/toon_link/logic/abilities/boomerang/tick
 
