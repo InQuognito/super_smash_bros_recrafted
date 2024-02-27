@@ -2064,6 +2064,32 @@
 	},
 	{
 		"function": "minecraft:set_nbt",
+		"tag": "{Trim:{pattern:\"ssbrc:fighters/terry/default\",material:\"minecraft:quartz\"}}",
+		"conditions": [
+			{
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"nbt": "{Tags:[\"terry\",\"default\"]}"
+				}
+			}
+		]
+	},
+	{
+		"function": "minecraft:set_nbt",
+		"tag": "{Trim:{pattern:\"ssbrc:fighters/terry/gold\",material:\"minecraft:quartz\"}}",
+		"conditions": [
+			{
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"nbt": "{Tags:[\"terry\",\"gold\"]}"
+				}
+			}
+		]
+	},
+	{
+		"function": "minecraft:set_nbt",
 		"tag": "{Trim:{pattern:\"ssbrc:fighters/wolf/default\",material:\"minecraft:quartz\"}}",
 		"conditions": [
 			{
