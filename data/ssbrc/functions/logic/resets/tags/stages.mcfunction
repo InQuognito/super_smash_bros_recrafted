@@ -6,6 +6,8 @@ tag @s remove big_battlefield
 
 tag @s remove bowsers_castle
 
+tag @s remove capture_the_flag
+
 tag @s remove castle_siege
 
 tag @s remove draculas_castle

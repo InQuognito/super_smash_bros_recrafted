@@ -4,7 +4,7 @@ execute unless entity @s[tag=picking_random] run function ssbrc:logic/pre_game/f
 
 tag @s add fighter_picked
 
-$tellraw @s[tag=!blind_pick] [{"translate":"ssbrc.fighters.menu.selected","color":"white"},{"translate":"ssbrc.fighters.$(name)","color":"$(color)"}]
+$tellraw @s[tag=!blind_pick] [{"translate":"ssbrc.fighters.menu.selected","color":"white"},{"translate":"ssbrc.fighters.$(fighter)","color":"$(color)"}]
 $tag @s add $(fighter)
 $function ssbrc:fighters/$(fighter)/menu/select
 
