@@ -24,4 +24,8 @@ execute if entity @e[type=minecraft:item_display,tag=miffenkop,dx=0,sort=nearest
 
 execute if entity @e[type=minecraft:item_display,tag=fighterDisplay,dx=0,sort=nearest,limit=1] run advancement grant @s[advancements={ssbrc:tutorial/intro/3=true,ssbrc:tutorial/fighter_select/2=false}] only ssbrc:tutorial/fighter_select/2
 
+execute if entity @e[type=minecraft:item_display,tag=youtube,dx=0,sort=nearest,limit=1] run tellraw @s [{"text":"[","bold":true,"color":"dark_red"},{"text":"YouTube","bold":true,"color":"red","clickEvent":{"action":"open_url","value":"https://www.youtube.com/channel/UCCqXNuFgGs53GgP7oSQGtOA"}},{"text":"]","bold":true,"color":"dark_red"}]
+execute if entity @e[type=minecraft:item_display,tag=discord,dx=0,sort=nearest,limit=1] run tellraw @s [{"text":"[","bold":true,"color":"dark_blue"},{"text":"Discord","bold":true,"color":"blue","clickEvent":{"action":"open_url","value":"https://discord.gg/yAzw55N5Ax"}},{"text":"]","bold":true,"color":"dark_blue"}]
+execute if entity @e[type=minecraft:item_display,tag=planetminecraft,dx=0,sort=nearest,limit=1] run tellraw @s [{"text":"[","bold":true,"color":"dark_green"},{"text":"PlanetMinecraft","bold":true,"color":"green","clickEvent":{"action":"open_url","value":"https://www.planetminecraft.com/member/team_recrafted/"}},{"text":"]","bold":true,"color":"dark_green"}]
+
 scoreboard players reset @s useAbility

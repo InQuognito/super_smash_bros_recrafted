@@ -13,14 +13,10 @@ summon minecraft:text_display -528.5 6.0 -1939.5 {Tags:["lobby.timer"],billboard
 summon minecraft:text_display -528.5 6.75 -1949.5 {text:'{"translate":"ssbrc.lobby.credits","color":"gold"}',billboard:center}
 summon minecraft:text_display -521.5 1.75 -1944.5 {text:'{"translate":"ssbrc.lobby.return","color":"gold"}',billboard:center}
 
-# YouTube
-#setblock -531 4 -1944 minecraft:dark_oak_wall_sign[facing=east]{front_text:{messages:['[""]','[{"text":"YouTube","clickEvent":{"action":"run_command","value":"/tellraw @s [\\"\\",{\\"text\\":\\"[\\",\\"bold\\":true,\\"color\\":\\"dark_red\\"},{\\"text\\":\\"YouTube\\",\\"bold\\":true,\\"color\\":\\"red\\",\\"clickEvent\\":{\\"action\\":\\"open_url\\",\\"value\\":\\"https://www.youtube.com/channel/UCCqXNuFgGs53GgP7oSQGtOA\\"}},{\\"text\\":\\"]\\",\\"bold\\":true,\\"color\\":\\"dark_red\\"}]"},"bold":true,"color":"red"}]','[""]','[""]'],has_glowing_text:1b},is_waxed:1b} destroy
-
-# Discord
-#setblock -531 4 -1945 minecraft:dark_oak_wall_sign[facing=east]{front_text:{messages:['[""]','[{"text":"Discord","clickEvent":{"action":"run_command","value":"/tellraw @s [\\"\\",{\\"text\\":\\"[\\",\\"bold\\":true,\\"color\\":\\"dark_blue\\"},{\\"text\\":\\"Discord\\",\\"bold\\":true,\\"color\\":\\"blue\\",\\"clickEvent\\":{\\"action\\":\\"open_url\\",\\"value\\":\\"https://discord.gg/yAzw55N5Ax\\"}},{\\"text\\":\\"]\\",\\"bold\\":true,\\"color\\":\\"dark_blue\\"}]"},"bold":true,"color":"blue"}]','[""]','[""]'],has_glowing_text:1b},is_waxed:1b} destroy
-
-# Planet Minecraft
-#setblock -531 4 -1946 minecraft:dark_oak_wall_sign[facing=east]{front_text:{messages:['[""]','[{"text":"Planet","clickEvent":{"action":"run_command","value":"/tellraw @s [\\"\\",{\\"text\\":\\"[\\",\\"bold\\":true,\\"color\\":\\"dark_green\\"},{\\"text\\":\\"Planet Minecraft\\",\\"bold\\":true,\\"color\\":\\"green\\",\\"clickEvent\\":{\\"action\\":\\"open_url\\",\\"value\\":\\"https://www.planetminecraft.com/member/team_recrafted/\\"}},{\\"text\\":\\"]\\",\\"bold\\":true,\\"color\\":\\"dark_green\\"}]"},"bold":true,"color":"green"}]','[{"text":"Minecraft","bold":true,"color":"green"}]','[""]'],has_glowing_text:1b},is_waxed:1b} destroy
+# Social Links
+summon minecraft:item_display -531.5 5.5 -1943.5 {Tags:["logo","youtube","selectable"],item:{id:"minecraft:glowstone_dust",tag:{CustomModelData:99992},Count:1b},billboard:center}
+summon minecraft:item_display -531.5 5.5 -1944.5 {Tags:["logo","discord","selectable"],item:{id:"minecraft:glowstone_dust",tag:{CustomModelData:99990},Count:1b},billboard:center}
+summon minecraft:item_display -531.5 5.5 -1945.5 {Tags:["logo","planetminecraft","selectable"],item:{id:"minecraft:glowstone_dust",tag:{CustomModelData:99991},Count:1b},billboard:center}
 
 # Sandbag
 summon minecraft:item_display -525.5 5.25 -1936.5 {Tags:["sandbag","selectable"],item:{id:"minecraft:warped_fungus_on_a_stick",tag:{CustomModelData:10000},Count:1b},Rotation:[-145f,0f]}
