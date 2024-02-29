@@ -14,10 +14,11 @@ execute if entity @s[tag=highlight.normal] positioned ~0.5 ~0.5 ~0.5 run particl
 execute if entity @s[tag=highlight.selected] positioned ~0.5 ~0.5 ~0.5 run particle minecraft:dust_color_transition 1.0 1.0 0.0 1.0 1.0 1.0 1.0 ~ ~ ~ 0.2 0.4 0.2 0.0 5 force @s
 execute if entity @s[tag=highlight.unowned] positioned ~0.5 ~0.5 ~0.5 run particle minecraft:dust_color_transition 1.0 0.0 0.0 1.0 1.0 1.0 1.0 ~ ~ ~ 0.2 0.4 0.2 0.0 5 force @s
 
-execute if entity @s[tag=highlight.logo] positioned ~0.5 ~0.5 ~0.5 run particle minecraft:dust_color_transition 0.0 1.0 0.0 1.0 1.0 1.0 1.0 ~ ~ ~ 0.2 0.2 0.2 0.0 5 force @s
+execute if entity @s[tag=highlight.square] positioned ~0.5 ~0.5 ~0.5 run particle minecraft:dust_color_transition 0.0 1.0 0.0 1.0 1.0 1.0 1.0 ~ ~ ~ 0.2 0.2 0.2 0.0 5 force @s
 
 tag @s remove highlight.normal
 tag @s remove highlight.selected
 tag @s remove highlight.unowned
+tag @s remove highlight.square
 
 scoreboard players set @s raycastSuccess 1
