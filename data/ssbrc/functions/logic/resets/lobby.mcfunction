@@ -14,9 +14,9 @@ summon minecraft:text_display -528.5 6.75 -1949.5 {text:'{"translate":"ssbrc.lob
 summon minecraft:text_display -521.5 1.75 -1944.5 {text:'{"translate":"ssbrc.lobby.return","color":"gold"}',billboard:center}
 
 # Social Links
-summon minecraft:item_display -531.5 5.5 -1943.5 {Tags:["logo","youtube","selectable"],item:{id:"minecraft:glowstone_dust",tag:{CustomModelData:99992},Count:1b},transformation:[0.75f,0f,0f,0f,0f,0.75f,0f,0f,0f,0f,0.75f,0f,0f,0f,0f,1f],billboard:center}
-summon minecraft:item_display -531.5 5.5 -1944.5 {Tags:["logo","discord","selectable"],item:{id:"minecraft:glowstone_dust",tag:{CustomModelData:99990},Count:1b},transformation:[0.75f,0f,0f,0f,0f,0.75f,0f,0f,0f,0f,0.75f,0f,0f,0f,0f,1f],billboard:center}
-summon minecraft:item_display -531.5 5.5 -1945.5 {Tags:["logo","planetminecraft","selectable"],item:{id:"minecraft:glowstone_dust",tag:{CustomModelData:99991},Count:1b},transformation:[0.75f,0f,0f,0f,0f,0.75f,0f,0f,0f,0f,0.75f,0f,0f,0f,0f,1f],billboard:center}
+summon minecraft:item_display -531.5 5.5 -1943.5 {Tags:["logo","youtube","selectable"],item:{id:"minecraft:glowstone_dust",tag:{CustomModelData:99992},Count:1b},Rotation:[180f,0f],transformation:[0.75f,0f,0f,0f,0f,0.75f,0f,0f,0f,0f,0.75f,0f,0f,0f,0f,1f],billboard:center}
+summon minecraft:item_display -531.5 5.5 -1944.5 {Tags:["logo","discord","selectable"],item:{id:"minecraft:glowstone_dust",tag:{CustomModelData:99990},Count:1b},Rotation:[180f,0f],transformation:[0.75f,0f,0f,0f,0f,0.75f,0f,0f,0f,0f,0.75f,0f,0f,0f,0f,1f],billboard:center}
+summon minecraft:item_display -531.5 5.5 -1945.5 {Tags:["logo","planetminecraft","selectable"],item:{id:"minecraft:glowstone_dust",tag:{CustomModelData:99991},Count:1b},Rotation:[180f,0f],transformation:[0.75f,0f,0f,0f,0f,0.75f,0f,0f,0f,0f,0.75f,0f,0f,0f,0f,1f],billboard:center}
 
 # Sandbag
 summon minecraft:item_display -525.5 5.25 -1936.5 {Tags:["sandbag","selectable"],item:{id:"minecraft:warped_fungus_on_a_stick",tag:{CustomModelData:10000},Count:1b},Rotation:[-145f,0f]}
