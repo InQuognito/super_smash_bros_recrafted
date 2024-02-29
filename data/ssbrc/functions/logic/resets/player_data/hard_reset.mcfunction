@@ -284,7 +284,7 @@ scoreboard objectives remove stats.bonus.truly_villainous
 scoreboard objectives remove stats.bonus.wac_coordinator
 scoreboard objectives remove stats.bonus.year_long_battle
 
-function ssbrc:logic/load
+function ssbrc:logic/reload
 
 tellraw @a {"translate":"ssbrc.admin.force_reset","color":"dark_red"}
 
