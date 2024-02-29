@@ -4,6 +4,8 @@ function ssbrc:logic/resets/scoreboards/create
 function ssbrc:logic/resets/scoreboards/constants
 function ssbrc:logic/resets/scoreboards/variables
 
+function ssbrc:logic/init/fighters
+
 scoreboard objectives setdisplay below_name
 scoreboard objectives setdisplay list
 scoreboard objectives setdisplay sidebar
