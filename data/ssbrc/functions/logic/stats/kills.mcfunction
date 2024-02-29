@@ -1,1 +1,1 @@
-$scoreboard players add @s[tag=$(fighter)] stats.$(fighter).kills 1
+$scoreboard players add @s[tag=$(name)] stats.$(name).kills 1
