@@ -1,4 +1,4 @@
-kill @e[tag=staticObject,tag=!noKill]
+kill @e[tag=static_object,tag=!noKill]
 kill @e[type=minecraft:text_display,tag=lobby.action]
 
 # Blank Diorama

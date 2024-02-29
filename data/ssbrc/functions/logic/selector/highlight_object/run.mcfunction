@@ -1,4 +1,4 @@
-execute if entity @e[type=minecraft:item_display,tag=randomFighter,dx=0,sort=nearest,limit=1] run tag @s add highlight.normal
+execute if entity @e[type=minecraft:item_display,tag=random_fighter,dx=0,sort=nearest,limit=1] run tag @s add highlight.normal
 
 function ssbrc:logic/fighters/get {function:"ssbrc:logic/selector/highlight_object/check"}
 

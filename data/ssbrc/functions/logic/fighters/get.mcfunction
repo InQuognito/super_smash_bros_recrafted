@@ -1,44 +1,44 @@
-$function $(function) {fighter:"altered_beast",color:"gold"}
-$function $(function) {fighter:"alucard",color:"gray"}
-$function $(function) {fighter:"bowser",color:"green"}
-$function $(function) {fighter:"byleth",color:"dark_aqua"}
-$function $(function) {fighter:"captain_falcon",color:"red"}
-$function $(function) {fighter:"cloud",color:"white"}
-$function $(function) {fighter:"dark_samus",color:"aqua"}
-$function $(function) {fighter:"donkey_kong",color:"gold"}
-$function $(function) {fighter:"fox",color:"white"}
-$function $(function) {fighter:"ganondorf",color:"red"}
-$function $(function) {fighter:"giegue",color:"light_purple"}
-$function $(function) {fighter:"greninja",color:"blue"}
-$function $(function) {fighter:"hero",color:"yellow"}
-$function $(function) {fighter:"jigglypuff",color:"light_purple"}
-$function $(function) {fighter:"joker",color:"red"}
-$function $(function) {fighter:"king_dedede",color:"red"}
-$function $(function) {fighter:"king_k_rool",color:"dark_green"}
-$function $(function) {fighter:"kirby",color:"light_purple"}
-$function $(function) {fighter:"link",color:"dark_green"}
-$function $(function) {fighter:"lucario",color:"blue"}
-$function $(function) {fighter:"luigi",color:"green"}
-$function $(function) {fighter:"mario",color:"red"}
-$function $(function) {fighter:"mega_man",color:"dark_aqua"}
-$function $(function) {fighter:"ness",color:"dark_purple"}
-$function $(function) {fighter:"peach",color:"light_purple"}
-$function $(function) {fighter:"pikachu",color:"yellow"}
-$function $(function) {fighter:"pit",color:"white"}
-$function $(function) {fighter:"pokemon_trainer",color:"red"}
-$function $(function) {fighter:"rob",color:"white"}
-$function $(function) {fighter:"roy",color:"red"}
-$function $(function) {fighter:"ryu",color:"white"}
-$function $(function) {fighter:"samus",color:"gold"}
-$function $(function) {fighter:"shadow",color:"dark_red"}
-$function $(function) {fighter:"shovel_knight",color:"dark_aqua"}
-$function $(function) {fighter:"snake",color:"gray"}
-$function $(function) {fighter:"sonic",color:"blue"}
-$function $(function) {fighter:"sora",color:"white"}
-$function $(function) {fighter:"steve",color:"dark_aqua"}
-$function $(function) {fighter:"team_rocket",color:"dark_purple"}
-$function $(function) {fighter:"toon_link",color:"green"}
-$function $(function) {fighter:"villager",color:"red"}
-$function $(function) {fighter:"wolf",color:"dark_purple"}
-$function $(function) {fighter:"yar",color:"red"}
-$function $(function) {fighter:"zelda",color:"blue"}
+$function $(function) with storage ssbrc:data fighters.altered_beast
+$function $(function) with storage ssbrc:data fighters.alucard
+$function $(function) with storage ssbrc:data fighters.bowser
+$function $(function) with storage ssbrc:data fighters.byleth
+$function $(function) with storage ssbrc:data fighters.captain_falcon
+$function $(function) with storage ssbrc:data fighters.cloud
+$function $(function) with storage ssbrc:data fighters.dark_samus
+$function $(function) with storage ssbrc:data fighters.donkey_kong
+$function $(function) with storage ssbrc:data fighters.fox
+$function $(function) with storage ssbrc:data fighters.ganondorf
+$function $(function) with storage ssbrc:data fighters.giegue
+$function $(function) with storage ssbrc:data fighters.greninja
+$function $(function) with storage ssbrc:data fighters.hero
+$function $(function) with storage ssbrc:data fighters.jigglypuff
+$function $(function) with storage ssbrc:data fighters.joker
+$function $(function) with storage ssbrc:data fighters.king_dedede
+$function $(function) with storage ssbrc:data fighters.king_k_rool
+$function $(function) with storage ssbrc:data fighters.kirby
+$function $(function) with storage ssbrc:data fighters.link
+$function $(function) with storage ssbrc:data fighters.lucario
+$function $(function) with storage ssbrc:data fighters.luigi
+$function $(function) with storage ssbrc:data fighters.mario
+$function $(function) with storage ssbrc:data fighters.mega_man
+$function $(function) with storage ssbrc:data fighters.ness
+$function $(function) with storage ssbrc:data fighters.peach
+$function $(function) with storage ssbrc:data fighters.pikachu
+$function $(function) with storage ssbrc:data fighters.pit
+$function $(function) with storage ssbrc:data fighters.pokemon_trainer
+$function $(function) with storage ssbrc:data fighters.rob
+$function $(function) with storage ssbrc:data fighters.roy
+$function $(function) with storage ssbrc:data fighters.ryu
+$function $(function) with storage ssbrc:data fighters.samus
+$function $(function) with storage ssbrc:data fighters.shadow
+$function $(function) with storage ssbrc:data fighters.shovel_knight
+$function $(function) with storage ssbrc:data fighters.snake
+$function $(function) with storage ssbrc:data fighters.sonic
+$function $(function) with storage ssbrc:data fighters.sora
+$function $(function) with storage ssbrc:data fighters.steve
+$function $(function) with storage ssbrc:data fighters.team_rocket
+$function $(function) with storage ssbrc:data fighters.toon_link
+$function $(function) with storage ssbrc:data fighters.villager
+$function $(function) with storage ssbrc:data fighters.wolf
+$function $(function) with storage ssbrc:data fighters.yar
+$function $(function) with storage ssbrc:data fighters.zelda

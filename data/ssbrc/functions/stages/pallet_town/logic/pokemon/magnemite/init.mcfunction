@@ -1,4 +1,4 @@
-tag @s add staticObject
+tag @s add static_object
 tag @s add magnemite
 
 execute if score random.output temp matches 0 run teleport @s ~ ~ ~ 75.0 0.0
