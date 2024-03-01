@@ -37,6 +37,7 @@ $function $(function) with storage ssbrc:data fighters.sonic
 $function $(function) with storage ssbrc:data fighters.sora
 $function $(function) with storage ssbrc:data fighters.steve
 $function $(function) with storage ssbrc:data fighters.team_rocket
+$function $(function) with storage ssbrc:data fighters.terry
 $function $(function) with storage ssbrc:data fighters.toon_link
 $function $(function) with storage ssbrc:data fighters.villager
 $function $(function) with storage ssbrc:data fighters.wolf
