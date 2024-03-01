@@ -1,4 +1,28 @@
-particle minecraft:dust_color_transition 1.0 1.0 0.0 5.0 1.0 1.0 1.0 ~ ~ ~ 0.0 0.0 0.0 0.0 1 force @a
+particle dust_color_transition 0.078 0.725 1.000 4 0.890 0.980 1.000 ~ ~ ~ 0 0 0 1 0 force
+particle crit ^ ^ ^1 ^ ^ ^-1000000 0.000001 0 force
+particle crit ^ ^ ^1 ^ ^ ^-1000000 0.0000011 0 force
+particle crit ^ ^ ^1 ^ ^ ^-1000000 0.0000012 0 force
+particle crit ^ ^ ^1 ^ ^ ^-1000000 0.0000013 0 force
+scoreboard players add @s timer 1
+execute if score @s timer matches 1 facing ^2 ^ ^ run function ssbrc:stages/planet_epp/logic/hazards/qotile_zone/swirl/particles/1
+
+execute if score @s timer matches 2 facing ^1.5 ^.5 ^ run function ssbrc:stages/planet_epp/logic/hazards/qotile_zone/swirl/particles/1
+
+execute if score @s timer matches 3 facing ^1 ^1 ^ run function ssbrc:stages/planet_epp/logic/hazards/qotile_zone/swirl/particles/1
+
+execute if score @s timer matches 4 facing ^.5 ^1.5 ^ run function ssbrc:stages/planet_epp/logic/hazards/qotile_zone/swirl/particles/1
+
+execute if score @s timer matches 5 facing ^ ^2 ^ run function ssbrc:stages/planet_epp/logic/hazards/qotile_zone/swirl/particles/1
+
+execute if score @s timer matches 6 facing ^-1.5 ^1.5 ^ run function ssbrc:stages/planet_epp/logic/hazards/qotile_zone/swirl/particles/1
+
+execute if score @s timer matches 7 facing ^-1 ^1 ^ run function ssbrc:stages/planet_epp/logic/hazards/qotile_zone/swirl/particles/1
+
+execute if score @s timer matches 8 facing ^-1.5 ^.5 ^0.5 run function ssbrc:stages/planet_epp/logic/hazards/qotile_zone/swirl/particles/1
+
+execute if score @s timer matches 9 facing ^-2 ^0 ^1 run function ssbrc:stages/planet_epp/logic/hazards/qotile_zone/swirl/particles/1
+execute if score @s timer matches 9 run scoreboard players set @s timer 0
+
 
 teleport @s ^ ^ ^0.5
 
