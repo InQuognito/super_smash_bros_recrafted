@@ -12,7 +12,7 @@
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"translate": "ssbrc.tooltips.hero.kamikazee",
+								"translate": "ssbrc.tooltips.hero.kamikaze",
 								"color": "gold",
 								"bold": true,
 								"italic": false
@@ -39,7 +39,7 @@
 											"italic": false
 										},
 										{
-											"translate": "ssbrc.tooltips.hero.kamikazee.description.1",
+											"translate": "ssbrc.tooltips.hero.kamikaze.description.1",
 											"color": "gray",
 											"bold": false,
 											"italic": false
@@ -55,7 +55,7 @@
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{kamikazee:1}"
+							"tag": "{kamikaze:1,CustomModelData:457}"
 						}
 					]
 				}

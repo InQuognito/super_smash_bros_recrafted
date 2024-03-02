@@ -1,4 +1,4 @@
-tag @s add kamikazee
+tag @s add kamikaze
 
 scoreboard players set @s charge.1 1
 
@@ -8,6 +8,6 @@ function ssbrc:logic/fighters/effects/mobility/immobilize/default
 
 clear @s #ssbrc:equipment
 
-scoreboard players operation @s mana -= hero.spell.kamikazee.cost vars
+scoreboard players operation @s mana -= hero.spell.kamikaze.cost vars
 
 function ssbrc:fighters/hero/logic/abilities/spells/activate

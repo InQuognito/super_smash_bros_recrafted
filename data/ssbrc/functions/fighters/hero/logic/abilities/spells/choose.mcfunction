@@ -12,7 +12,7 @@ $execute if score random.output temp matches 6 store success score spellGiven te
 $execute if score random.output temp matches 7 store success score spellGiven temp run loot replace entity @s[nbt=!{Inventory:[{tag:{hocus_pocus:1}}]}] hotbar.$(slot) loot ssbrc:fighters/hero/spells/hocus_pocus
 $execute if score random.output temp matches 8 store success score spellGiven temp run loot replace entity @s[nbt=!{Inventory:[{tag:{oomph:1}}]}] hotbar.$(slot) loot ssbrc:fighters/hero/spells/oomph
 $execute if entity @s[nbt=!{Inventory:[{tag:{zap:1}}]},nbt=!{Inventory:[{tag:{zapple:1}}]},nbt=!{Inventory:[{tag:{kazap:1}}]}] run function ssbrc:fighters/hero/logic/abilities/spells/zap/choose {slot:$(slot)}
-$execute if score random.output temp matches 12 store success score spellGiven temp run loot replace entity @s[nbt=!{Inventory:[{tag:{kamikazee:1}}]}] hotbar.$(slot) loot ssbrc:fighters/hero/spells/kamikazee
+$execute if score random.output temp matches 12 store success score spellGiven temp run loot replace entity @s[nbt=!{Inventory:[{tag:{kamikaze:1}}]}] hotbar.$(slot) loot ssbrc:fighters/hero/spells/kamikaze
 $execute if entity @s[nbt=!{Inventory:[{tag:{accelerate:1}}]},nbt=!{Inventory:[{tag:{acceleratle:1}}]}] run function ssbrc:fighters/hero/logic/abilities/spells/accelerate/choose {slot:$(slot)}
 $execute if score random.output temp matches 15 store success score spellGiven temp run loot replace entity @s[nbt=!{Inventory:[{tag:{zoom:1}}]}] hotbar.$(slot) loot ssbrc:fighters/hero/spells/zoom
 $execute if entity @s[nbt=!{Inventory:[{tag:{heal:1}}]},nbt=!{Inventory:[{tag:{multiheal:1}}]}] run function ssbrc:fighters/hero/logic/abilities/spells/heal/choose {slot:$(slot)}
