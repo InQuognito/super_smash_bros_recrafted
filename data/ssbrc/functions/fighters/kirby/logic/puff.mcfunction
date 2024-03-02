@@ -1,11 +1,11 @@
 scoreboard players add @s charge.2 1
 
 scoreboard players set $x delta.api.launch 0
-execute if entity @s[scores={charge.2=1}] run scoreboard players set $y delta.api.launch 50000
-execute if entity @s[scores={charge.2=2}] run scoreboard players set $y delta.api.launch 40000
-execute if entity @s[scores={charge.2=3}] run scoreboard players set $y delta.api.launch 30000
-execute if entity @s[scores={charge.2=4}] run scoreboard players set $y delta.api.launch 20000
-execute if entity @s[scores={charge.2=5}] run scoreboard players set $y delta.api.launch 10000
+execute if entity @s[scores={charge.2=1}] run scoreboard players set $y delta.api.launch 500000
+execute if entity @s[scores={charge.2=2}] run scoreboard players set $y delta.api.launch 400000
+execute if entity @s[scores={charge.2=3}] run scoreboard players set $y delta.api.launch 300000
+execute if entity @s[scores={charge.2=4}] run scoreboard players set $y delta.api.launch 200000
+execute if entity @s[scores={charge.2=5}] run scoreboard players set $y delta.api.launch 100000
 scoreboard players set $z delta.api.launch 0
 function delta:api/launch_xyz
 
