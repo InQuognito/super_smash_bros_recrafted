@@ -1,4 +1,4 @@
-kill @e[type=!minecraft:player]
+kill @e[type=!minecraft:player,tag=!global.ignore]
 
 summon minecraft:text_display -524.5 6.5 -1944.5 {text:'[{"translate":"ssbrc.lobby.welcome","color":"yellow"},{"text":"\\n"},{"translate":"ssbrc.name","bold":true,"color":"gold"}]',alignment:"center",billboard:center}
 
