@@ -1,24 +1,24 @@
 kill @e[type=!minecraft:player]
 
-summon minecraft:text_display -524.5 6.5 -1944.5 {text:'[{"translate":"ssbrc.lobby.welcome","color":"yellow"},{"text":"\\n"},{"translate":"ssbrc.name","bold":true,"color":"gold"}]',billboard:center}
+summon minecraft:text_display -524.5 6.5 -1944.5 {text:'[{"translate":"ssbrc.lobby.welcome","color":"yellow"},{"text":"\\n"},{"translate":"ssbrc.name","bold":true,"color":"gold"}]',alignment:"center",billboard:center}
 
-summon minecraft:text_display -520.5 5.25 -1937.5 {text:'[{"translate":"✪ ","color":"gold"},{"translate":"ssbrc.shop","color":"gold"},{"translate":" ✪","color":"gold"}]',billboard:center}
-summon minecraft:text_display -520.5 5.25 -1951.5 {text:'[{"translate":"✪ ","color":"gold"},{"translate":"ssbrc.shop","color":"gold"},{"translate":" ✪","color":"gold"}]',billboard:center}
+summon minecraft:text_display -520.5 5.25 -1937.5 {text:'[{"translate":"✪ ","color":"gold"},{"translate":"ssbrc.shop","color":"gold"},{"translate":" ✪","color":"gold"}]',alignment:"center",billboard:center}
+summon minecraft:text_display -520.5 5.25 -1951.5 {text:'[{"translate":"✪ ","color":"gold"},{"translate":"ssbrc.shop","color":"gold"},{"translate":" ✪","color":"gold"}]',alignment:"center",billboard:center}
 
-summon minecraft:text_display -528.5 6.75 -1939.5 {Tags:["lobby.action"],text:'{"translate":"ssbrc.lobby.join","color":"gold"}',billboard:center}
-summon minecraft:text_display -528.5 6.5 -1939.5 {Tags:["lobby.status"],text:'[{"translate":"ssbrc.lobby.status","color":"gold"},{"translate":"ssbrc.lobby.status.fighter_select","color":"yellow"}]',billboard:center}
-summon minecraft:text_display -528.5 6.25 -1939.5 {Tags:["lobby.players"],text:'[{"translate":"ssbrc.lobby.players","color":"gold"},{"text":"0/8","color":"yellow"}]',billboard:center}
-summon minecraft:text_display -528.5 6.0 -1939.5 {Tags:["lobby.timer"],billboard:center}
+summon minecraft:text_display -528.5 6.75 -1939.5 {Tags:["lobby.action"],text:'{"translate":"ssbrc.lobby.join","color":"gold"}',alignment:"center",billboard:center}
+summon minecraft:text_display -528.5 6.5 -1939.5 {Tags:["lobby.status"],text:'[{"translate":"ssbrc.lobby.status","color":"gold"},{"translate":"ssbrc.lobby.status.fighter_select","color":"yellow"}]',alignment:"center",billboard:center}
+summon minecraft:text_display -528.5 6.25 -1939.5 {Tags:["lobby.players"],text:'[{"translate":"ssbrc.lobby.players","color":"gold"},{"text":"0/8","color":"yellow"}]',alignment:"center",billboard:center}
+summon minecraft:text_display -528.5 6.0 -1939.5 {Tags:["lobby.timer"],alignment:"center",billboard:center}
 
-summon minecraft:text_display -528.5 6.75 -1949.5 {text:'{"translate":"ssbrc.lobby.credits","color":"gold"}',billboard:center}
-summon minecraft:text_display -521.5 1.75 -1944.5 {text:'{"translate":"ssbrc.lobby.return","color":"gold"}',billboard:center}
+summon minecraft:text_display -528.5 6.75 -1949.5 {text:'{"translate":"ssbrc.lobby.credits","color":"gold"}',alignment:"center",billboard:center}
+summon minecraft:text_display -521.5 1.75 -1944.5 {text:'{"translate":"ssbrc.lobby.return","color":"gold"}',alignment:"center",billboard:center}
 
 # Social Links
-summon minecraft:text_display -524.5 9.0 -1942.5 {text:'{"text":"YouTube","color":"red"}',billboard:center}
+summon minecraft:text_display -524.5 9.0 -1942.5 {text:'{"text":"YouTube","color":"red"}',alignment:"center",billboard:center}
 summon minecraft:item_display -524.5 8.5 -1942.5 {Tags:["logo","youtube","selectable"],item:{id:"minecraft:glowstone_dust",tag:{CustomModelData:99992},Count:1b},transformation:[0.75f,0f,0f,0f,0f,0.75f,0f,0f,0f,0f,0.75f,0f,0f,0f,0f,1f],billboard:center}
-summon minecraft:text_display -524.5 9.0 -1944.5 {text:'{"text":"Discord","color":"blue"}',billboard:center}
+summon minecraft:text_display -524.5 9.0 -1944.5 {text:'{"text":"Discord","color":"blue"}',alignment:"center",billboard:center}
 summon minecraft:item_display -524.5 8.5 -1944.5 {Tags:["logo","discord","selectable"],item:{id:"minecraft:glowstone_dust",tag:{CustomModelData:99990},Count:1b},transformation:[0.75f,0f,0f,0f,0f,0.75f,0f,0f,0f,0f,0.75f,0f,0f,0f,0f,1f],billboard:center}
-summon minecraft:text_display -524.5 9.0 -1946.5 {text:'{"text":"PMC","color":"green"}',billboard:center}
+summon minecraft:text_display -524.5 9.0 -1946.5 {text:'{"text":"PMC","color":"green"}',alignment:"center",billboard:center}
 summon minecraft:item_display -524.5 8.5 -1946.5 {Tags:["logo","planetminecraft","selectable"],item:{id:"minecraft:glowstone_dust",tag:{CustomModelData:99991},Count:1b},transformation:[0.75f,0f,0f,0f,0f,0.75f,0f,0f,0f,0f,0.75f,0f,0f,0f,0f,1f],billboard:center}
 
 # Sandbag

@@ -2,5 +2,5 @@ summon minecraft:item_display ~ ~ ~ {Tags:["mapIcon","modifyEntity"],item:{id:"m
 
 function ssbrc:logic/pre_game/map_voting/map_choices/choose/modify
 
-summon minecraft:text_display ~ ~1.25 ~ {Tags:["infoDisplay"],text:'{"translate":"ssbrc.stages.pac_maze","bold":false,"color":"blue"}',billboard:center}
-summon minecraft:text_display ~ ~1 ~ {Tags:["infoDisplay"],text:'{"translate":"ssbrc.series.pac_man","bold":false,"color":"yellow"}',billboard:center}
+summon minecraft:text_display ~ ~1.25 ~ {Tags:["infoDisplay"],text:'{"translate":"ssbrc.stages.pac_maze","bold":false,"color":"blue"}',alignment:"center",billboard:center}
+summon minecraft:text_display ~ ~1 ~ {Tags:["infoDisplay"],text:'{"translate":"ssbrc.series.pac_man","bold":false,"color":"yellow"}',alignment:"center",billboard:center}
