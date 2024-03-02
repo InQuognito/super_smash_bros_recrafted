@@ -17,4 +17,3 @@ tag @s add delta.launch
 scoreboard players operation @s delta.internal.x += $x delta.api.launch
 scoreboard players operation @s delta.internal.y += $y delta.api.launch
 scoreboard players operation @s delta.internal.z += $z delta.api.launch
-

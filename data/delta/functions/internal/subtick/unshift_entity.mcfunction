@@ -13,5 +13,4 @@ execute store result storage delta:storage Motion[2] double 0.0000001 run scoreb
 data modify entity @s Motion set from storage delta:storage Motion
 data remove storage delta:storage Motion
 
-
 tag @s remove delta.shifted
