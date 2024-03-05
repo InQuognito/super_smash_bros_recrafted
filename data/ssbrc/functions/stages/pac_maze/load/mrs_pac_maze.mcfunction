@@ -1,4 +1,4 @@
-scoreboard players set pac_mazeType map 2
+scoreboard players set pac_maze.type map 2
 
 forceload add 23280 8608 23343 8671
 

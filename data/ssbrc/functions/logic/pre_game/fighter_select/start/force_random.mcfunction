@@ -41,4 +41,4 @@ summon minecraft:text_display ~ ~ ~ {Tags:["voteCounter","yggdrasils_altar"],ali
 
 tag @e[type=minecraft:text_display,tag=voteCounter,tag=!random,sort=random,limit=1] add top
 
-execute as @e[type=minecraft:text_display,tag=top,sort=random,limit=1] run function ssbrc:logic/pre_game/map_voting/pick_map/load_map
+execute as @e[type=minecraft:text_display,tag=top,sort=random,limit=1] run function ssbrc:logic/stages/get {function:"ssbrc:logic/pre_game/map_voting/pick_map/load_map"}

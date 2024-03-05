@@ -1,9 +1,3 @@
-scoreboard players reset * map
-scoreboard players set mushroom_kingdom map 1
-scoreboard players set song_count map 3
-scoreboard players set map_picked mapVote 1
-forceload add -288 -192 -177 -81
-
 # Yoshi Egg
 summon minecraft:item_display -218.5 28.25 -144.5 {Rotation:[15f,0f],item:{id:"minecraft:carrot_on_a_stick",Count:1b,tag:{CustomModelData:1741}}}
 
@@ -50,8 +44,3 @@ summon minecraft:item_display -211.5 37.5 -165.5 {item:{id:"minecraft:sugar",Cou
 summon minecraft:item_display -230.5 27.5 -148.5 {item:{id:"minecraft:sugar",Count:1b,tag:{CustomModelData:1201}},brightness:{sky:13,block:13}}
 summon minecraft:item_display -208.5 27.5 -158.5 {item:{id:"minecraft:sugar",Count:1b,tag:{CustomModelData:1201}},brightness:{sky:13,block:13}}
 summon minecraft:item_display -208.5 27.5 -156.5 {item:{id:"minecraft:sugar",Count:1b,tag:{CustomModelData:1201}},brightness:{sky:13,block:13}}
-
-time set noon
-weather clear
-
-schedule function ssbrc:stages/mushroom_kingdom/prepare 1s replace

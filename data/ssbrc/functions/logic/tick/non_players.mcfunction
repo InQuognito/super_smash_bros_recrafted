@@ -11,6 +11,3 @@ kill @s[type=#minecraft:arrows,nbt={inGround:1b}]
 
 # Items
 execute if entity @s[type=minecraft:item,nbt={Item:{tag:{item:1}}}] run function ssbrc:items/tick
-
-# Movement Entities
-execute at @s[type=minecraft:armor_stand,tag=movementEntity] run function ssbrc:logic/tick/movement_entities

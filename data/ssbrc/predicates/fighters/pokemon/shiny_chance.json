@@ -12,7 +12,7 @@
 					"type": "minecraft:score",
 					"target": {
 						"type": "minecraft:fixed",
-						"name": "alwaysShiny"
+						"name": "always_shiny"
 					},
 					"score": "temp"
 				},

@@ -3,31 +3,6 @@ schedule clear ssbrc:logic/music/decide
 schedule clear ssbrc:logic/music/loop_schedule
 schedule clear ssbrc:logic/timer
 
-# Maps
-schedule clear ssbrc:stages/acropolis_graveyard/load
-schedule clear ssbrc:stages/battlefield/load
-schedule clear ssbrc:stages/bowsers_castle/load
-schedule clear ssbrc:stages/castle_siege/load
-schedule clear ssbrc:stages/draculas_castle/load
-schedule clear ssbrc:stages/dream_land/load
-schedule clear ssbrc:stages/final_destination/load
-schedule clear ssbrc:stages/flat_zone/load
-schedule clear ssbrc:stages/garden_of_hope/load
-schedule clear ssbrc:stages/great_bay/load
-schedule clear ssbrc:stages/great_plateau/load
-schedule clear ssbrc:stages/green_hill_zone/load
-schedule clear ssbrc:stages/icicle_mountain/load
-schedule clear ssbrc:stages/jungle_japes/load
-schedule clear ssbrc:stages/magicant/load
-schedule clear ssbrc:stages/mementos/load
-schedule clear ssbrc:stages/miiverse/load
-schedule clear ssbrc:stages/mushroom_kingdom/load
-schedule clear ssbrc:stages/saturn_valley/load
-schedule clear ssbrc:stages/sector_z/load
-schedule clear ssbrc:stages/shadow_moses_island/load
-schedule clear ssbrc:stages/spear_pillar/load
-schedule clear ssbrc:stages/wily_castle/load
-
 # Flat Zone
 schedule clear ssbrc:stages/flat_zone/logic/gas_station_guy/1/left
 schedule clear ssbrc:stages/flat_zone/logic/gas_station_guy/1/right

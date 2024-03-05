@@ -1,5 +1,5 @@
-execute if score pac_mazeType map matches 1 run function ssbrc:stages/pac_maze/logic/pac_maze/tick
-execute if score pac_mazeType map matches 2 run function ssbrc:stages/pac_maze/logic/mrs_pac_maze/tick
+execute if score pac_maze.type map matches 1 run function ssbrc:stages/pac_maze/logic/pac_maze/tick
+execute if score pac_maze.type map matches 2 run function ssbrc:stages/pac_maze/logic/mrs_pac_maze/tick
 
 # Ghosts
 execute as @e[type=minecraft:armor_stand,tag=ghost] at @s run function ssbrc:stages/pac_maze/logic/ghosts/tick

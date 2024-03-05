@@ -1,9 +1,3 @@
-scoreboard players reset * map
-scoreboard players set bowsers_castle map 1
-scoreboard players set song_count map 2
-scoreboard players set map_picked mapVote 1
-forceload add -768 800 -641 895
-
 # Rear Wall
 clone -640 19 835 -639 31 850 -659 19 836
 
@@ -75,8 +69,3 @@ execute positioned -734.959 27.0 854.474 summon minecraft:armor_stand run functi
 execute positioned -734.897 27.0 834.552 summon minecraft:armor_stand run function ssbrc:stages/bowsers_castle/logic/armor_stands/toad/default
 execute positioned -737.7 26.7 833.175 summon minecraft:armor_stand run function ssbrc:stages/bowsers_castle/logic/armor_stands/toad/blue
 execute positioned -736.46 27.0 835.889 summon minecraft:armor_stand run function ssbrc:stages/bowsers_castle/logic/armor_stands/toad/yellow
-
-time set noon
-weather clear
-
-schedule function ssbrc:stages/bowsers_castle/prepare 1s replace

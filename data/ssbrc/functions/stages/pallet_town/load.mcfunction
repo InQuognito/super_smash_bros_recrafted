@@ -1,9 +1,3 @@
-scoreboard players reset * map
-scoreboard players set pallet_town map 1
-scoreboard players set song_count map 2
-scoreboard players set map_picked mapVote 1
-forceload add -608 -208 -529 -97
-
 # Metapod
 execute store result score random.output temp run random value 0..1
 
@@ -40,8 +34,3 @@ execute positioned -600.5 12.4 -193.5 summon minecraft:armor_stand run function 
 execute positioned -553.5 15.0 -159.5 summon minecraft:armor_stand run function ssbrc:stages/pallet_town/logic/armor_stands/nurse_joy
 execute positioned -551.5 15.0 -158.5 summon minecraft:armor_stand run function ssbrc:stages/pallet_town/logic/armor_stands/officer_jenny
 execute positioned -552.5 18.0 -163.5 summon minecraft:armor_stand run function ssbrc:stages/pallet_town/logic/armor_stands/professor_oak
-
-time set noon
-weather clear
-
-schedule function ssbrc:stages/pallet_town/prepare 1s replace

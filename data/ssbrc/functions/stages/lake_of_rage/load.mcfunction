@@ -1,9 +1,3 @@
-scoreboard players reset * map
-scoreboard players set lake_of_rage map 1
-scoreboard players set song_count map 2
-scoreboard players set map_picked mapVote 1
-forceload add 2464 3968 2591 4095
-
 execute store result score random.output temp run random value 0..2
 
 execute if score random.output temp matches 0 run function ssbrc:stages/lake_of_rage/load/morning
@@ -31,8 +25,3 @@ execute positioned 2487.0 14.5 4032.5 summon minecraft:item_display run function
 
 # Sudowoodo
 summon minecraft:item_display 2513.5 17.3 3983.5 {Tags:["sudowoodo"],item:{id:"minecraft:diamond",Count:1b,tag:{CustomModelData:1850}}}
-
-weather clear
-execute if predicate ssbrc:random_chance/30 run weather rain
-
-schedule function ssbrc:stages/lake_of_rage/prepare 1s replace
