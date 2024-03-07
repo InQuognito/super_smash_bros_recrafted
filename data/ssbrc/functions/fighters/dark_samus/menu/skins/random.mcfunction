@@ -8,5 +8,5 @@ execute unless score @s[advancements={ssbrc:fighters/dark_samus/skins/prime_2=tr
 execute unless score @s[advancements={ssbrc:fighters/dark_samus/skins/prime_3=true}] skinPicked matches 1 if score random.output temp matches 4 run function ssbrc:fighters/dark_samus/menu/skins/prime_3
 execute unless score @s[advancements={ssbrc:fighters/dark_samus/skins/prototype=true}] skinPicked matches 1 if score random.output temp matches 5 run function ssbrc:fighters/dark_samus/menu/skins/prototype
 
-execute if entity @s[scores={skinPicked=1}] run function ssbrc:fighters/dark_samus/menu/select_character
+execute if entity @s[scores={skinPicked=1}] run function ssbrc:fighters/dark_samus/menu/select
 execute unless score @s skinPicked matches 1 run function ssbrc:fighters/dark_samus/menu/skins/random

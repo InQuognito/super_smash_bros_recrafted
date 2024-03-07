@@ -8,5 +8,5 @@ execute unless score @s[advancements={ssbrc:fighters/roy/skins/awakening=true}] 
 execute unless score @s[advancements={ssbrc:fighters/roy/skins/blazing_bachelor=true}] skinPicked matches 1 if score random.output temp matches 4 run function ssbrc:fighters/roy/menu/skins/blazing_bachelor
 execute unless score @s[advancements={ssbrc:fighters/roy/skins/young_lion=true}] skinPicked matches 1 if score random.output temp matches 5 run function ssbrc:fighters/roy/menu/skins/young_lion
 
-execute if entity @s[scores={skinPicked=1}] run function ssbrc:fighters/roy/menu/select_character
+execute if entity @s[scores={skinPicked=1}] run function ssbrc:fighters/roy/menu/select
 execute unless score @s skinPicked matches 1 run function ssbrc:fighters/roy/menu/skins/random

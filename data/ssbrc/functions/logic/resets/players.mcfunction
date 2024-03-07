@@ -39,6 +39,8 @@ function ssbrc:logic/player_profile {slot:"inventory.13"}
 scoreboard players set @s shopCalculator 0
 function ssbrc:shop/pages/main/load
 
+scoreboard players set @s influence 3
+
 execute unless score @s hardReset matches -2147483648..2147483647 run scoreboard players set @s hardReset 0
 
 tag @s add loaded

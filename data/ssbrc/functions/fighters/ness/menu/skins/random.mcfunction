@@ -8,5 +8,5 @@ execute unless score @s[advancements={ssbrc:fighters/ness/skins/moonside=true}] 
 execute unless score @s[advancements={ssbrc:fighters/ness/skins/pajamas=true}] skinPicked matches 1 if score random.output temp matches 4 run function ssbrc:fighters/ness/menu/skins/pajamas
 execute unless score @s[advancements={ssbrc:fighters/ness/skins/phase_distortion=true}] skinPicked matches 1 if score random.output temp matches 5 run function ssbrc:fighters/ness/menu/skins/phase_distortion
 
-execute if entity @s[scores={skinPicked=1}] run function ssbrc:fighters/ness/menu/select_character
+execute if entity @s[scores={skinPicked=1}] run function ssbrc:fighters/ness/menu/select
 execute unless score @s skinPicked matches 1 run function ssbrc:fighters/ness/menu/skins/random

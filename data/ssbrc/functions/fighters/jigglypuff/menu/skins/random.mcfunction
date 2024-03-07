@@ -6,5 +6,5 @@ execute unless score @s[advancements={ssbrc:fighters/jigglypuff/skins/default=tr
 execute unless score @s[advancements={ssbrc:fighters/jigglypuff/skins/gold=true}] skinPicked matches 1 if score random.output temp matches 2 run function ssbrc:fighters/jigglypuff/menu/skins/gold
 execute unless score @s[advancements={ssbrc:fighters/jigglypuff/skins/shiny=true}] skinPicked matches 1 if score random.output temp matches 3 run function ssbrc:fighters/jigglypuff/menu/skins/shiny
 
-execute if entity @s[scores={skinPicked=1}] run function ssbrc:fighters/jigglypuff/menu/select_character
+execute if entity @s[scores={skinPicked=1}] run function ssbrc:fighters/jigglypuff/menu/select
 execute unless score @s skinPicked matches 1 run function ssbrc:fighters/jigglypuff/menu/skins/random

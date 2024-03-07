@@ -8,5 +8,5 @@ execute unless score @s[advancements={ssbrc:fighters/wolf/skins/assault=true}] s
 execute unless score @s[advancements={ssbrc:fighters/wolf/skins/star_fox_2=true}] skinPicked matches 1 if score random.output temp matches 4 run function ssbrc:fighters/wolf/menu/skins/star_fox_2
 execute unless score @s[advancements={ssbrc:fighters/wolf/skins/starlink=true}] skinPicked matches 1 if score random.output temp matches 5 run function ssbrc:fighters/wolf/menu/skins/starlink
 
-execute if entity @s[scores={skinPicked=1}] run function ssbrc:fighters/wolf/menu/select_character
+execute if entity @s[scores={skinPicked=1}] run function ssbrc:fighters/wolf/menu/select
 execute unless score @s skinPicked matches 1 run function ssbrc:fighters/wolf/menu/skins/random

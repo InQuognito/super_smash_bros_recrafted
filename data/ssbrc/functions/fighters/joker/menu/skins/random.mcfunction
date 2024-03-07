@@ -7,5 +7,5 @@ execute unless score @s[advancements={ssbrc:fighters/joker/skins/gold=true}] ski
 execute unless score @s[advancements={ssbrc:fighters/joker/skins/christmas_outfit=true}] skinPicked matches 1 if score random.output temp matches 3 run function ssbrc:fighters/joker/menu/skins/christmas_outfit
 execute unless score @s[advancements={ssbrc:fighters/joker/skins/shujin_academy=true}] skinPicked matches 1 if score random.output temp matches 4 run function ssbrc:fighters/joker/menu/skins/shujin_academy
 
-execute if entity @s[scores={skinPicked=1}] run function ssbrc:fighters/joker/menu/select_character
+execute if entity @s[scores={skinPicked=1}] run function ssbrc:fighters/joker/menu/select
 execute unless score @s skinPicked matches 1 run function ssbrc:fighters/joker/menu/skins/random

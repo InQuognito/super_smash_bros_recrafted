@@ -8,5 +8,5 @@ execute unless score @s[advancements={ssbrc:fighters/pokemon_trainer/skins/shiny
 execute unless score @s[advancements={ssbrc:fighters/pokemon_trainer/skins/dawn=true}] skinPicked matches 1 if score random.output temp matches 4 run function ssbrc:fighters/pokemon_trainer/menu/skins/dawn
 execute unless score @s[advancements={ssbrc:fighters/pokemon_trainer/skins/victor=true}] skinPicked matches 1 if score random.output temp matches 5 run function ssbrc:fighters/pokemon_trainer/menu/skins/victor
 
-execute if entity @s[scores={skinPicked=1}] run function ssbrc:fighters/pokemon_trainer/menu/select_character
+execute if entity @s[scores={skinPicked=1}] run function ssbrc:fighters/pokemon_trainer/menu/select
 execute unless score @s skinPicked matches 1 run function ssbrc:fighters/pokemon_trainer/menu/skins/random

@@ -7,5 +7,5 @@ execute unless score @s[advancements={ssbrc:fighters/rob/skins/gold=true}] skinP
 execute unless score @s[advancements={ssbrc:fighters/rob/skins/ancient_minister=true}] skinPicked matches 1 if score random.output temp matches 3 run function ssbrc:fighters/rob/menu/skins/ancient_minister
 execute unless score @s[advancements={ssbrc:fighters/rob/skins/famicom=true}] skinPicked matches 1 if score random.output temp matches 4 run function ssbrc:fighters/rob/menu/skins/famicom
 
-execute if entity @s[scores={skinPicked=1}] run function ssbrc:fighters/rob/menu/select_character
+execute if entity @s[scores={skinPicked=1}] run function ssbrc:fighters/rob/menu/select
 execute unless score @s skinPicked matches 1 run function ssbrc:fighters/rob/menu/skins/random

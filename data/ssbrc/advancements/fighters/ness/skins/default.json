@@ -1,7 +1,7 @@
 {
 	"parent": "ssbrc:skins",
 	"criteria": {
-		"tick": {
+		"default": {
 			"trigger": "minecraft:tick"
 		}
 	}

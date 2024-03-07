@@ -8,5 +8,5 @@ execute unless score @s[advancements={ssbrc:fighters/lucario/skins/shiny=true}] 
 execute unless score @s[advancements={ssbrc:fighters/lucario/skins/costume_party=true}] skinPicked matches 1 if score random.output temp matches 4 run function ssbrc:fighters/lucario/menu/skins/costume_party
 execute unless score @s[advancements={ssbrc:fighters/lucario/skins/pokken=true}] skinPicked matches 1 if score random.output temp matches 5 run function ssbrc:fighters/lucario/menu/skins/pokken
 
-execute if entity @s[scores={skinPicked=1}] run function ssbrc:fighters/lucario/menu/select_character
+execute if entity @s[scores={skinPicked=1}] run function ssbrc:fighters/lucario/menu/select
 execute unless score @s skinPicked matches 1 run function ssbrc:fighters/lucario/menu/skins/random

@@ -8,5 +8,5 @@ execute unless score @s[advancements={ssbrc:fighters/kirby/skins/anti_kirby=true
 execute unless score @s[advancements={ssbrc:fighters/kirby/skins/keeby=true}] skinPicked matches 1 if score random.output temp matches 2 run function ssbrc:fighters/kirby/menu/skins/keeby
 execute unless score @s[advancements={ssbrc:fighters/kirby/skins/kusamochi=true}] skinPicked matches 1 if score random.output temp matches 2 run function ssbrc:fighters/kirby/menu/skins/kusamochi
 
-execute if entity @s[scores={skinPicked=1}] run function ssbrc:fighters/kirby/menu/select_character
+execute if entity @s[scores={skinPicked=1}] run function ssbrc:fighters/kirby/menu/select
 execute unless score @s skinPicked matches 1 run function ssbrc:fighters/kirby/menu/skins/random

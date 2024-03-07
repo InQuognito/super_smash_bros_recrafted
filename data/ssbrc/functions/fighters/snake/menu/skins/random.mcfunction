@@ -8,4 +8,4 @@ execute unless score @s[advancements={ssbrc:fighters/snake/skins/iroquois_pliski
 execute unless score @s[advancements={ssbrc:fighters/snake/skins/old_snake=true}] skinPicked matches 1 if score random.output temp matches 4 run function ssbrc:fighters/snake/menu/skins/old_snake
 
 execute unless score @s skinPicked matches 1 run function ssbrc:fighters/snake/menu/skins/random
-execute if entity @s[scores={skinPicked=1}] run function ssbrc:fighters/snake/menu/select_character
+execute if entity @s[scores={skinPicked=1}] run function ssbrc:fighters/snake/menu/select
