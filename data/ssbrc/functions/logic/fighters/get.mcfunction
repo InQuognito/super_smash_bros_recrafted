@@ -11,6 +11,7 @@ $function $(function) with storage ssbrc:data fighters.ganondorf
 $function $(function) with storage ssbrc:data fighters.giegue
 $function $(function) with storage ssbrc:data fighters.greninja
 $function $(function) with storage ssbrc:data fighters.hero
+$function $(function) with storage ssbrc:data fighters.ice_climbers
 $function $(function) with storage ssbrc:data fighters.jigglypuff
 $function $(function) with storage ssbrc:data fighters.joker
 $function $(function) with storage ssbrc:data fighters.king_dedede
