@@ -1,6 +1,6 @@
 function ssbrc:logic/pre_game/character_select/count_players
 
-scoreboard players remove @s[scores={influence=1..}] influence 1
+scoreboard players remove @s[tag=!exempt_influence,scores={influence=1..}] influence 1
 
 execute if score players temp matches ..0 run scoreboard players reset gameStage temp
 execute if score players temp matches ..0 run scoreboard players reset countdown timer

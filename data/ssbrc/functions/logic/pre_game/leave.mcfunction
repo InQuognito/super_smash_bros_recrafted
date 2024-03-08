@@ -4,4 +4,6 @@ tag @s remove self
 
 function ssbrc:logic/resets/leave
 
+tag @s add exempt_influence
 function ssbrc:logic/pre_game/character_select/check_participation
+tag @s remove exempt_influence
