@@ -1,0 +1,2 @@
+execute as @e[type=item_display,tag=ssbrc.hero.kama-temp] run function ssbrc:fighters/hero/logic/abilities/spells/kamikazee/particles/step 
+summon item_display ~ ~1.5 ~ {start_interpolation:1,interpolation_duration:20,teleport_duration:10,Tags:["ssbrc.hero.kama","ssbrc.hero.kama-temp"],brightness:{sky:15,block:15},transformation:[0.0000f,0.0000f,-0.2500f,0.1250f,0.0000f,0.2500f,0.0000f,0.0000f,0.0000f,0.0000f,0.0000f,0.0000f,0.0000f,0.0000f,0.0000f,5.0000f],item:{id:"minecraft:yellow_stained_glass",Count:1b,tag:{CustomModelData:10}}}
