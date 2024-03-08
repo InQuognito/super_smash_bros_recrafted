@@ -1,12 +1,3 @@
-scoreboard players set @s fighter_picked 1
-
-execute store result score random.output temp run random value 1..5
-
-execute unless score @s[advancements={ssbrc:fighters/pokemon_trainer/skins/default=true}] skinPicked matches 1 if score random.output temp matches 1 run function ssbrc:fighters/pokemon_trainer/menu/skins/default
-execute unless score @s[advancements={ssbrc:fighters/pokemon_trainer/skins/gold=true}] skinPicked matches 1 if score random.output temp matches 2 run function ssbrc:fighters/pokemon_trainer/menu/skins/gold
-execute unless score @s[advancements={ssbrc:fighters/pokemon_trainer/skins/shiny=true}] skinPicked matches 1 if score random.output temp matches 3 run function ssbrc:fighters/pokemon_trainer/menu/skins/shiny
-execute unless score @s[advancements={ssbrc:fighters/pokemon_trainer/skins/dawn=true}] skinPicked matches 1 if score random.output temp matches 4 run function ssbrc:fighters/pokemon_trainer/menu/skins/dawn
-execute unless score @s[advancements={ssbrc:fighters/pokemon_trainer/skins/victor=true}] skinPicked matches 1 if score random.output temp matches 5 run function ssbrc:fighters/pokemon_trainer/menu/skins/victor
-
-execute if entity @s[scores={skinPicked=1}] run function ssbrc:fighters/pokemon_trainer/menu/select
-execute unless score @s skinPicked matches 1 run function ssbrc:fighters/pokemon_trainer/menu/skins/random
+execute if score random.output temp matches 3 if entity @s[advancements={ssbrc:fighters/pokemon_trainer/skins/shiny=true}] run function ssbrc:fighters/pokemon_trainer/menu/skins/shiny
+execute if score random.output temp matches 4 if entity @s[advancements={ssbrc:fighters/pokemon_trainer/skins/dawn=true}] run function ssbrc:fighters/pokemon_trainer/menu/skins/dawn
+execute if score random.output temp matches 5 if entity @s[advancements={ssbrc:fighters/pokemon_trainer/skins/victor=true}] run function ssbrc:fighters/pokemon_trainer/menu/skins/victor
