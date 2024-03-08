@@ -45,6 +45,7 @@ scoreboard objectives remove fuse
 scoreboard objectives remove health
 scoreboard objectives remove healthTimer
 scoreboard objectives remove id
+scoreboard objectives remove influence
 scoreboard objectives remove integers
 scoreboard objectives remove itemCount
 scoreboard objectives remove joker.tt33A

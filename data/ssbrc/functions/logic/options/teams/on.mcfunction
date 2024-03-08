@@ -2,10 +2,8 @@ tellraw @a[tag=room.characterSelect] [{"translate":"ssbrc.options.teams.title","
 
 scoreboard players set teams options 1
 
-function ssbrc:logic/options
-
 function ssbrc:logic/resets/teams/modify
 
 execute as @a[tag=room.characterSelect] run function ssbrc:logic/teams/red
 
-execute if score gameStage temp matches 1 run scoreboard players operation countdown timer = quickStart vars
+function ssbrc:logic/options/update

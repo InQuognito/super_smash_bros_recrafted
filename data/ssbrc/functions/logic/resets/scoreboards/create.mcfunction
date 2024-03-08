@@ -45,6 +45,7 @@ scoreboard objectives add fuse dummy
 scoreboard objectives add health dummy
 scoreboard objectives add healthTimer dummy
 scoreboard objectives add id dummy
+scoreboard objectives add influence dummy
 scoreboard objectives add integers dummy
 scoreboard objectives add itemCount dummy
 scoreboard objectives add joker.tt33A dummy
