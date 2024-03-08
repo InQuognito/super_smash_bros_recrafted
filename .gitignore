@@ -1,0 +1,4 @@
+scripts/__pycache__/
+scripts/lib/__pycache__/
+
+data/delta/docs.md
