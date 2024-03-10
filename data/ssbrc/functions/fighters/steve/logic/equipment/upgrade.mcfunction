@@ -1,21 +1,19 @@
-tag @s[nbt={Inventory:[{id:"minecraft:cobblestone"}]}] add hasCobblestone
-tag @s[nbt={Inventory:[{id:"minecraft:gold_ingot"}]}] add hasGold
-tag @s[nbt={Inventory:[{id:"minecraft:iron_ingot"}]}] add hasIron
-tag @s[nbt={Inventory:[{id:"minecraft:diamond"}]}] add hasDiamond
-tag @s[nbt={Inventory:[{id:"minecraft:netherite_ingot"}]}] add hasNetherite
+tag @s[nbt={Inventory:[{id:"minecraft:cobblestone"}]}] add has_cobblestone
+tag @s[nbt={Inventory:[{id:"minecraft:gold_ingot"}]}] add has_gold
+tag @s[nbt={Inventory:[{id:"minecraft:iron_ingot"}]}] add has_iron
+tag @s[nbt={Inventory:[{id:"minecraft:diamond"}]}] add has_diamond
+
 clear @s #ssbrc:fighters/steve/items
 
 clear @s #ssbrc:fighters/steve/equipment
-clear @s minecraft:carrot_on_a_stick{pickaxe:1}
+clear @s minecraft:carrot_on_a_stick{steve.pickaxe:1}
 
-execute if entity @s[tag=hasCobblestone] run function ssbrc:fighters/steve/logic/equipment/tiers/stone
-execute if entity @s[tag=hasGold] run function ssbrc:fighters/steve/logic/equipment/tiers/gold
-execute if entity @s[tag=hasIron] run function ssbrc:fighters/steve/logic/equipment/tiers/iron
-execute if entity @s[tag=hasDiamond] run function ssbrc:fighters/steve/logic/equipment/tiers/diamond
-execute if entity @s[tag=hasNetherite] run function ssbrc:fighters/steve/logic/equipment/tiers/netherite
+execute if entity @s[tag=has_cobblestone] run function ssbrc:fighters/steve/logic/equipment/tiers/stone
+execute if entity @s[tag=has_gold] run function ssbrc:fighters/steve/logic/equipment/tiers/gold
+execute if entity @s[tag=has_iron] run function ssbrc:fighters/steve/logic/equipment/tiers/iron
+execute if entity @s[tag=has_diamond] run function ssbrc:fighters/steve/logic/equipment/tiers/diamond
 
-tag @s remove hasCobblestone
-tag @s remove hasGold
-tag @s remove hasIron
-tag @s remove hasDiamond
-tag @s remove hasNetherite
+tag @s remove has_cobblestone
+tag @s remove has_gold
+tag @s remove has_iron
+tag @s remove has_diamond

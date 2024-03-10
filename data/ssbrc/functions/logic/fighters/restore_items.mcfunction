@@ -21,10 +21,10 @@ give @s[tag=byleth,tag=blackEagles,tag=weaponBroken] minecraft:spectral_arrow 4
 
 # Cloud
 tag @s[tag=cloud] add operator
-execute if entity @s[tag=cloud] run function ssbrc:fighters/cloud/logic/abilities/buster_sword/mode_switch/reset
+execute if entity @s[tag=cloud] run function ssbrc:logic/fighters/modify_item {old:"busterSword",new:"cloud/buster_sword"}
 
 # Dark Samus
-execute if entity @s[tag=dark_samus] run function ssbrc:fighters/dark_samus/logic/abilities/phazon_beam/reset
+execute if entity @s[tag=dark_samus] run function ssbrc:logic/fighters/replace_item {old:"phazonBeam",new:"dark_samus/phazon_beam/idle"}
 
 # Donkey Kong
 loot replace entity @s[tag=donkey_kong,scores={charge.1=..0}] hotbar.1 loot ssbrc:fighters/donkey_kong/orange_grenade
@@ -61,7 +61,7 @@ execute if entity @s[tag=pokemon_trainer,tag=charizard,tag=!nextFighterChosen] r
 execute if entity @s[tag=pokemon_trainer,tag=ivysaur,tag=!nextFighterChosen] run function ssbrc:fighters/pokemon_trainer/kits/squirtle
 
 # Rob
-execute if entity @s[tag=rob] run function ssbrc:fighters/rob/logic/abilities/robo_beam/update
+execute if entity @s[tag=rob] run function ssbrc:logic/fighters/modify_item {old:"roboBeam",new:"rob/robo_beam"}
 
 # Ryu
 execute if score gameMode options matches 1 if score @s[tag=ryu] stocks matches 1 run loot replace entity @s[tag=!abilityUsed] hotbar.1 loot ssbrc:fighters/ryu/satsui_no_hado_rage

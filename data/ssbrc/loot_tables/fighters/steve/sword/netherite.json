@@ -6,13 +6,13 @@
 			"entries": [
 				{
 					"type": "minecraft:item",
-					"name": "minecraft:netherite_axe",
+					"name": "minecraft:netherite_sword",
 					"functions": [
 						{
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"translate": "item.minecraft.netherite_axe",
+								"translate": "item.minecraft.netherite_sword",
 								"color": "dark_gray",
 								"bold": true,
 								"italic": false
@@ -24,14 +24,14 @@
 								{
 									"attribute": "minecraft:generic.attack_damage",
 									"name": "Attack Damage",
-									"amount": 9,
+									"amount": 7.5,
 									"operation": "multiply_base",
 									"slot": "mainhand"
 								},
 								{
 									"attribute": "minecraft:generic.attack_speed",
 									"name": "Attack Speed",
-									"amount": 0.5,
+									"amount": 1.5,
 									"operation": "multiply_base",
 									"slot": "mainhand"
 								}
@@ -39,11 +39,7 @@
 						},
 						{
 							"function": "minecraft:reference",
-							"name": "ssbrc:fighters/init/preset/melee"
-						},
-						{
-							"function": "minecraft:set_nbt",
-							"tag": "{netheriteAxe:1}"
+							"name": "ssbrc:fighters/steve/sword"
 						}
 					]
 				}

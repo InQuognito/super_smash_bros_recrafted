@@ -3,7 +3,7 @@ execute if entity @s[tag=!no_spin,predicate=ssbrc:flag/sneaking,scores={charge.s
 execute if entity @s[scores={useAbility=1..},nbt={SelectedItem:{tag:{boomerang:1}}}] at @s anchored eyes run function ssbrc:fighters/link/logic/abilities/boomerang/activate
 
 # Health
-execute if score @s[nbt={Inventory:[{tag:{masterSword:1,awakened:0}}]}] health matches 40.. run function ssbrc:fighters/link/logic/master_sword
+execute if score @s[nbt={Inventory:[{tag:{masterSword:1,awakened:0}}]}] health matches 40.. run function ssbrc:logic/fighters/replace_item {old:"masterSword",new:"link/master_sword"}
 
 execute if score @s health matches ..6 run function ssbrc:fighters/link/logic/low_health_alert/check
 

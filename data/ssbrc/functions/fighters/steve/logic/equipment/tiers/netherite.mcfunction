@@ -1,7 +1,7 @@
 scoreboard players set @s steve.tier 4
 
-loot give @s loot ssbrc:fighters/steve/sword/netherite
+function ssbrc:logic/fighters/replace_item {old:"steve.sword",new:"steve/sword/netherite"}
 
-loot give @s loot ssbrc:fighters/steve/pickaxe/netherite
+function ssbrc:logic/fighters/replace_item {old:"steve.pickaxe",new:"steve/pickaxe/netherite"}
 
-tellraw @s[tag=hasNetherite] {"translate":"ssbrc.fighters.steve.craftNetherite","color":"green"}
+tellraw @s[tag=has_netherite] {"translate":"ssbrc.fighters.steve.craftNetherite","color":"green"}

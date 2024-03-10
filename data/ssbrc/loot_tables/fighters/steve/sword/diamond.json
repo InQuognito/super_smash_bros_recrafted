@@ -24,7 +24,7 @@
 								{
 									"attribute": "minecraft:generic.attack_damage",
 									"name": "Attack Damage",
-									"amount": 8,
+									"amount": 7,
 									"operation": "multiply_base",
 									"slot": "mainhand"
 								},
@@ -39,11 +39,7 @@
 						},
 						{
 							"function": "minecraft:reference",
-							"name": "ssbrc:fighters/init/preset/melee"
-						},
-						{
-							"function": "minecraft:set_nbt",
-							"tag": "{diamondSword:1}"
+							"name": "ssbrc:fighters/steve/sword"
 						}
 					]
 				}

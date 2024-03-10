@@ -7,8 +7,6 @@ execute if entity @s[tag=!hitGround] positioned ~-0.4 ~-0.4 ~-0.4 as @e[tag=!sel
 
 execute if entity @s[tag=!hitGround,scores={temp=41}] run function ssbrc:fighters/king_k_rool/logic/abilities/blunderbuss/drop
 
-execute if entity @s[tag=hitGround,scores={timer=1}] run function ssbrc:logic/fighters/shockwave/medium
-
 teleport @s[tag=!hitGround,scores={temp=..40}] ^ ^ ^0.2
 
 scoreboard players add @s[tag=hitGround] timer 1

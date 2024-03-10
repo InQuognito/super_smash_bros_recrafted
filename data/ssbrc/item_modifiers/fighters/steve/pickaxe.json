@@ -42,6 +42,6 @@
 	},
 	{
 		"function": "minecraft:set_nbt",
-		"tag": "{pickaxe:1}"
+		"tag": "{steve.pickaxe:1}"
 	}
 ]

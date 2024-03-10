@@ -39,11 +39,7 @@
 						},
 						{
 							"function": "minecraft:reference",
-							"name": "ssbrc:fighters/init/preset/melee"
-						},
-						{
-							"function": "minecraft:set_nbt",
-							"tag": "{goldenSword:1}"
+							"name": "ssbrc:fighters/steve/sword"
 						}
 					]
 				}

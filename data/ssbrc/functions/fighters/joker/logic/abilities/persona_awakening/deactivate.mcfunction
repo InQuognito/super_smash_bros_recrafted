@@ -1,6 +1,6 @@
 scoreboard players set @s charge.1 0
 
-function ssbrc:fighters/joker/logic/abilities/persona_awakening/rebel_knife
+function ssbrc:logic/fighters/replace_item {old:"rebelKnife",new:"joker/rebel_knife"}
 
 clear @s minecraft:carrot_on_a_stick{personaAwakening:1}
 

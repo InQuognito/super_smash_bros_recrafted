@@ -51,26 +51,7 @@
 							"condition": "minecraft:entity_scores",
 							"entity": "this",
 							"scores": {
-								"steve.tier": {
-									"min": 3,
-									"max": 4
-								}
-							}
-						}
-					]
-				},
-				{
-					"type": "minecraft:item",
-					"name": "minecraft:netherite_ingot",
-					"conditions": [
-						{
-							"condition": "minecraft:entity_scores",
-							"entity": "this",
-							"scores": {
-								"steve.tier": {
-									"min": 3,
-									"max": 4
-								}
+								"steve.tier": 3
 							}
 						}
 					]

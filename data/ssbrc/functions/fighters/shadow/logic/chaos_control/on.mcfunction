@@ -10,7 +10,7 @@ scoreboard players set @e[predicate=ssbrc:flag/targets,tag=!self] shadow.chaosCo
 
 scoreboard players set @s shadow.meter.hero 0
 
-function ssbrc:fighters/shadow/logic/chaos_spear/disable
+function ssbrc:logic/fighters/modify_item {old:"chaosSpear",new:"shadow/chaos_spear/disabled"}
 
 clear @s minecraft:carrot_on_a_stick{chaosControl:1}
 
