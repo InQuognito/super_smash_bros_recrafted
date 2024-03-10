@@ -83,7 +83,7 @@
 				},
 				{
 					"type": "minecraft:item",
-					"weight": 40,
+					"weight": 30,
 					"name": "minecraft:air",
 					"conditions": [
 						{
