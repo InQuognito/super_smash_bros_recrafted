@@ -1884,26 +1884,13 @@
 	},
 	{
 		"function": "minecraft:set_nbt",
-		"tag": "{Trim:{pattern:\"ssbrc:fighters/altered_beast/default/human\",material:\"minecraft:quartz\"}}",
+		"tag": "{Trim:{pattern:\"ssbrc:fighters/altered_beast/default/centurion\",material:\"minecraft:quartz\"}}",
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
 				"entity": "this",
 				"predicate": {
-					"nbt": "{Tags:[\"altered_beast\",\"default\",\"human\"]}"
-				}
-			}
-		]
-	},
-	{
-		"function": "minecraft:set_nbt",
-		"tag": "{Trim:{pattern:\"ssbrc:fighters/altered_beast/default/demigod\",material:\"minecraft:quartz\"}}",
-		"conditions": [
-			{
-				"condition": "minecraft:entity_properties",
-				"entity": "this",
-				"predicate": {
-					"nbt": "{Tags:[\"altered_beast\",\"default\",\"demigod\"]}"
+					"nbt": "{Tags:[\"altered_beast\",\"default\",\"centurion\"]}"
 				}
 			}
 		]
@@ -1962,26 +1949,13 @@
 	},
 	{
 		"function": "minecraft:set_nbt",
-		"tag": "{Trim:{pattern:\"ssbrc:fighters/altered_beast/gold/human\",material:\"minecraft:quartz\"}}",
+		"tag": "{Trim:{pattern:\"ssbrc:fighters/altered_beast/gold/centurion\",material:\"minecraft:quartz\"}}",
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
 				"entity": "this",
 				"predicate": {
-					"nbt": "{Tags:[\"altered_beast\",\"gold\",\"human\"]}"
-				}
-			}
-		]
-	},
-	{
-		"function": "minecraft:set_nbt",
-		"tag": "{Trim:{pattern:\"ssbrc:fighters/altered_beast/gold/demigod\",material:\"minecraft:quartz\"}}",
-		"conditions": [
-			{
-				"condition": "minecraft:entity_properties",
-				"entity": "this",
-				"predicate": {
-					"nbt": "{Tags:[\"altered_beast\",\"gold\",\"demigod\"]}"
+					"nbt": "{Tags:[\"altered_beast\",\"gold\",\"centurion\"]}"
 				}
 			}
 		]
