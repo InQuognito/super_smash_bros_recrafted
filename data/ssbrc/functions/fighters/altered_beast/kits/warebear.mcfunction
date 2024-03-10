@@ -7,10 +7,12 @@ function ssbrc:logic/fighters/attributes/defaults
 function ssbrc:logic/fighters/effects/jump_boost
 
 clear @s #ssbrc:equipment
-loot replace entity @s hotbar.0 loot ssbrc:fighters/altered_beast/warebear/axe
+
+loot replace entity @s hotbar.0 loot ssbrc:fighters/altered_beast/warebear/bear_claw
+loot replace entity @s hotbar.1 loot ssbrc:fighters/altered_beast/warebear/petrifying_breath/default
+
+loot replace entity @s hotbar.8 loot ssbrc:fighters/altered_beast/mark_of_the_beast
 
 function ssbrc:logic/fighters/armor/update
 
-effect give @s minecraft:absorption infinite 1 true
-
-execute at @s run playsound ssbrc:fighters.altered_beast.transform.warebear player @a
+playsound ssbrc:fighters.altered_beast.transform.warebear player @a

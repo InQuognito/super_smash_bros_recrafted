@@ -126,7 +126,10 @@ execute if entity @s[tag=iceBlock] at @s run function ssbrc:fighters/zelda/logic
 execute if entity @s[tag=magicBoomerang] at @s run function ssbrc:fighters/zelda/logic/abilities/magic_boomerang/tick
 
 # Altered Beast
-execute if entity @s[tag=flameHands] at @s run function ssbrc:fighters/altered_beast/logic/abilities/flame_hands/tick
+execute if entity @s[tag=sabretooth] run function ssbrc:fighters/altered_beast/logic/waretiger/sabretooth/raycast/start
+execute if entity @s[tag=super_jump] run function ssbrc:fighters/altered_beast/logic/waretiger/super_jump/raycast/start
+execute if entity @s[tag=flame_hands] run function ssbrc:fighters/altered_beast/logic/warewolf/flame_hands/tick
+execute if entity @s[tag=flame_arrow] run function ssbrc:fighters/altered_beast/logic/warewolf/flame_arrow/tick
 
 # Alucard
 execute if entity @s[tag=mist] at @s run function ssbrc:fighters/alucard/logic/abilities/mist/tick_entity

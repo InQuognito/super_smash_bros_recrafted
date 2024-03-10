@@ -1,0 +1,71 @@
+{
+	"type": "minecraft:command",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:carrot_on_a_stick",
+					"functions": [
+						{
+							"function": "minecraft:set_name",
+							"entity": "this",
+							"name": {
+								"translate": "ssbrc.tooltips.altered_beast.warebear.petrifyingBreath",
+								"color": "yellow",
+								"bold": true,
+								"italic": false
+							}
+						},
+						{
+							"function": "minecraft:reference",
+							"name": "ssbrc:fighters/init/tooltip/ability/ranged"
+						},
+						{
+							"function": "minecraft:reference",
+							"name": "ssbrc:fighters/init/animation/instant"
+						},
+						{
+							"function": "minecraft:set_lore",
+							"entity": "this",
+							"lore": [
+								{
+									"translate": "- [",
+									"color": "gray",
+									"bold": false,
+									"italic": false,
+									"extra": [
+										{
+											"keybind": "key.use",
+											"color": "gray",
+											"bold": false,
+											"italic": false
+										},
+										{
+											"translate": "ssbrc.tooltips.altered_beast.warebear.petrifyingBreath.description.1",
+											"color": "gray",
+											"bold": false,
+											"italic": false
+										}
+									]
+								},
+								{
+									"translate": "ssbrc.tooltips.altered_beast.warebear.petrifyingBreath.description.2",
+									"color": "gray",
+									"bold": false,
+									"italic": false
+								}
+							],
+							"replace": false
+						},
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{petrifyingBreath:1,CustomModelData:1821}"
+						}
+					]
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,53 @@
+{
+	"type": "minecraft:command",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:iron_axe",
+					"functions": [
+						{
+							"function": "minecraft:set_name",
+							"entity": "this",
+							"name": {
+								"translate": "ssbrc.tooltips.altered_beast.centurion.sharp_axe",
+								"color": "white",
+								"bold": true,
+								"italic": false
+							}
+						},
+						{
+							"function": "minecraft:reference",
+							"name": "ssbrc:fighters/init/preset/melee"
+						},
+						{
+							"function": "minecraft:set_attributes",
+							"modifiers": [
+								{
+									"attribute": "minecraft:generic.attack_damage",
+									"name": "Attack Damage",
+									"amount": 6,
+									"operation": "multiply_base",
+									"slot": "mainhand"
+								},
+								{
+									"attribute": "minecraft:generic.attack_speed",
+									"name": "Attack Speed",
+									"amount": 1,
+									"operation": "multiply_base",
+									"slot": "mainhand"
+								}
+							]
+						},
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{axe:1}"
+						}
+					]
+				}
+			]
+		}
+	]
+}

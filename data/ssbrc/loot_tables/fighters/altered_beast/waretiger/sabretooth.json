@@ -6,7 +6,7 @@
 			"entries": [
 				{
 					"type": "minecraft:item",
-					"name": "minecraft:firework_rocket",
+					"name": "minecraft:carrot_on_a_stick",
 					"functions": [
 						{
 							"function": "minecraft:set_name",
@@ -19,12 +19,8 @@
 							}
 						},
 						{
-							"function": "minecraft:set_count",
-							"count": 6
-						},
-						{
 							"function": "minecraft:reference",
-							"name": "ssbrc:fighters/init/tooltip/ammo"
+							"name": "ssbrc:fighters/init/tooltip/ability/ranged"
 						},
 						{
 							"function": "minecraft:reference",
@@ -32,7 +28,7 @@
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{sabretooth:1,Fireworks:{Flight:3,Explosions:[{Type:1,Flicker:1b,Trail:1b,Colors:[I;14602026,14597930,14593834],FadeColors:[I;17233746]}]}}"
+							"tag": "{sabretooth:1}"
 						}
 					]
 				}

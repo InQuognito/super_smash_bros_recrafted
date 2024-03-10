@@ -1,14 +1,18 @@
-execute if entity @s[scores={useAbility=1..,cooldown.1=..0,duration.1=..0},nbt={SelectedItem:{tag:{electrocution:1}}}] at @s run function ssbrc:fighters/altered_beast/logic/abilities/electrocution/activate
-execute if entity @s[scores={useAbility=1..,cooldown.1=..0},nbt={SelectedItem:{tag:{flameHands:1}}}] at @s anchored eyes positioned ^ ^ ^ run function ssbrc:fighters/altered_beast/logic/abilities/flame_hands/activate
+execute if entity @s[scores={useAbility=1..}] at @s anchored eyes positioned ^ ^ ^ run function ssbrc:fighters/altered_beast/logic/abilities/impulse
 
-# Waredragon
-execute at @s[tag=waredragon,predicate=ssbrc:flag/sneaking] run function ssbrc:logic/fighters/slow_falling
+# Spirit Gauge
+execute if score @s[predicate=!ssbrc:fighters/altered_beast/is_beast] charge.1 < altered_beast.spirit.max vars run scoreboard players operation @s charge.1 += altered_beast.spirit.recharge_rate vars
+execute if entity @s[predicate=ssbrc:fighters/altered_beast/is_beast] run function ssbrc:fighters/altered_beast/logic/spirit_gauge/tick
 
-# Electrocution
-execute at @s[tag=waredragon,scores={duration.1=2..}] run function ssbrc:fighters/altered_beast/logic/abilities/electrocution/tick
-execute at @s[tag=waredragon,scores={duration.1=1}] run function ssbrc:fighters/altered_beast/logic/abilities/electrocution/deactivate
+function ssbrc:fighters/altered_beast/logic/spirit_gauge/update
 
-execute if entity @s[tag=waredragon] run function ssbrc:fighters/altered_beast/logic/abilities/electrocution/cooldown
+function ssbrc:fighters/altered_beast/logic/spirit_gauge/cooldown
 
-# Flame Hands
-execute if entity @s[tag=warewolf] run function ssbrc:fighters/altered_beast/logic/abilities/flame_hands/cooldown
+# Beast Form
+execute if entity @s[tag=warebear] run function ssbrc:fighters/altered_beast/logic/warebear/tick
+
+execute if entity @s[tag=waredragon] run function ssbrc:fighters/altered_beast/logic/waredragon/tick
+
+execute if entity @s[tag=waretiger] run function ssbrc:fighters/altered_beast/logic/waretiger/tick
+
+execute if entity @s[tag=warewolf] run function ssbrc:fighters/altered_beast/logic/warewolf/tick
