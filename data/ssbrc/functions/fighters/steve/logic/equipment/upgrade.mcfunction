@@ -5,7 +5,7 @@ tag @s[nbt={Inventory:[{id:"minecraft:diamond"}]}] add has_diamond
 
 clear @s #ssbrc:fighters/steve/items
 
-clear @s #ssbrc:fighters/steve/equipment
+clear @s #ssbrc:swords
 clear @s minecraft:carrot_on_a_stick{steve.pickaxe:1}
 
 execute if entity @s[tag=has_cobblestone] run function ssbrc:fighters/steve/logic/equipment/tiers/stone

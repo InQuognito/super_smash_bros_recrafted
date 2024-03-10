@@ -6,7 +6,7 @@
 			"entries": [
 				{
 					"type": "minecraft:item",
-					"weight": 5,
+					"weight": 10,
 					"name": "minecraft:stick",
 					"conditions": [
 						{
@@ -40,7 +40,7 @@
 				},
 				{
 					"type": "minecraft:item",
-					"weight": 20,
+					"weight": 10,
 					"name": "minecraft:flint",
 					"conditions": [
 						{
@@ -61,20 +61,6 @@
 									}
 								}
 							]
-						}
-					]
-				},
-				{
-					"type": "minecraft:item",
-					"weight": 10,
-					"name": "minecraft:oak_planks",
-					"conditions": [
-						{
-							"condition": "minecraft:entity_properties",
-							"entity": "this",
-							"predicate": {
-								"nbt": "{Inventory:[{tag:{shield:1}}]}"
-							}
 						}
 					]
 				},
