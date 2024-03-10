@@ -41,7 +41,7 @@ execute if entity @s[tag=steve] run function ssbrc:fighters/steve/logic/tick
 execute if entity @s[tag=wolf] run function ssbrc:fighters/wolf/logic/tick
 execute if entity @s[tag=zelda] run function ssbrc:fighters/zelda/logic/tick
 
-execute if entity @s[tag=altered_beast] run function ssbrc:fighters/altered_beast/logic/tick
+execute if entity @s[tag=altered_beast] at @s run function ssbrc:fighters/altered_beast/logic/tick
 execute if entity @s[tag=alucard] run function ssbrc:fighters/alucard/logic/tick
 execute if entity @s[tag=giegue] run function ssbrc:fighters/giegue/logic/tick
 execute if entity @s[tag=shadow] run function ssbrc:fighters/shadow/logic/tick
