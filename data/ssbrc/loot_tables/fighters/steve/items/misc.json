@@ -40,7 +40,7 @@
 				},
 				{
 					"type": "minecraft:item",
-					"weight": 10,
+					"weight": 20,
 					"name": "minecraft:flint",
 					"conditions": [
 						{
