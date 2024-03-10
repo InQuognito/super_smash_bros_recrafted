@@ -91,7 +91,7 @@ scoreboard players set #samus.waveBeamPiercing vars 3
 
 scoreboard players set #shadow.maxMeter vars 300
 scoreboard players set shadow.chaosSpearCooldown vars 15
-scoreboard players set shadow.chaosSpearCost vars 50
+scoreboard players set shadow.chaos_spear.cost vars 50
 
 scoreboard players set #shovel_knight.maxMana vars 10
 scoreboard players set shovel_knight.chaosSphereCooldown vars 20

@@ -1,5 +1,5 @@
 {
-	"parent": "ssbrc:utility/root",
+	"parent": "ssbrc:utility/shadow_root",
 	"criteria": {
 		"requirement": {
 			"trigger": "minecraft:player_hurt_entity",

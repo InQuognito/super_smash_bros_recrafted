@@ -9,7 +9,7 @@ execute at @s[scores={charge.1=1..}] anchored eyes run function ssbrc:fighters/s
 execute if score @s charge.1 matches 15.. at @s anchored eyes positioned ^ ^ ^ run function ssbrc:fighters/shadow/logic/chaos_spear/summon
 
 function ssbrc:fighters/shadow/logic/chaos_spear/chaos_energy/calculate
-execute if score chaosEnergy temp >= shadow.chaosSpearCost vars run function ssbrc:fighters/shadow/logic/chaos_spear/cooldown
+execute if score chaos_energy temp >= shadow.chaos_spear.cost vars run function ssbrc:fighters/shadow/logic/chaos_spear/cooldown
 
 # Chaos Control
 scoreboard players remove @a[scores={shadow.chaosControl=1..}] shadow.chaosControl 1

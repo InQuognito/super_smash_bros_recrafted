@@ -6,10 +6,6 @@ scoreboard players operation @s[advancements={ssbrc:utility/flag/hurt_player/cus
 scoreboard players operation @s[advancements={ssbrc:utility/flag/hurt_player/custom/shadow_villain=true}] shadow.meter.villain += @s flag.damageDealt
 
 function ssbrc:fighters/shadow/logic/chaos_spear/chaos_energy/calculate
-execute if score chaosEnergy temp >= shadow.chaosSpearCost vars run function ssbrc:logic/fighters/modify_item {old:"chaosSpear",new:"shadow/chaos_spear/default"}
+execute if score chaos_energy temp >= shadow.chaos_spear.cost vars run function ssbrc:logic/fighters/modify_item {old:"chaosSpear",new:"shadow/chaos_spear/default"}
 
-advancement revoke @s only ssbrc:utility/flag/hurt_player/custom/alignment_hero
-advancement revoke @s only ssbrc:utility/flag/hurt_player/custom/alignment_villain
-advancement revoke @s only ssbrc:utility/flag/hurt_player/custom/shadow_neutral
-advancement revoke @s only ssbrc:utility/flag/hurt_player/custom/shadow_hero
-advancement revoke @s only ssbrc:utility/flag/hurt_player/custom/shadow_villain
+advancement revoke @s through ssbrc:utility/shadow_root
