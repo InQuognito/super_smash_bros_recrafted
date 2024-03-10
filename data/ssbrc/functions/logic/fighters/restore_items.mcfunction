@@ -83,8 +83,7 @@ execute if score @s[tag=steve] steve.tier matches 3 run function ssbrc:fighters/
 execute if entity @s[tag=zelda] run function ssbrc:fighters/zelda/kit
 
 # Altered Beast
-loot replace entity @s[tag=waretiger] hotbar.0 loot ssbrc:fighters/altered_beast/waretiger/feral_claw
-loot replace entity @s[tag=waretiger] weapon.offhand loot ssbrc:fighters/altered_beast/waretiger/sabretooth
+execute if entity @s[tag=altered_beast] run function ssbrc:fighters/altered_beast/kits/centurion
 
 # Alucard
 execute if entity @s[tag=alucard] run function ssbrc:fighters/alucard/restore_items

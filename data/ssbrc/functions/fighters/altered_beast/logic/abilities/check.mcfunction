@@ -1,4 +1,4 @@
-execute if entity @s[nbt={SelectedItem:{tag:{petrifyingBreath:1}}}] run function ssbrc:fighters/altered_beast/logic/warebear/petrifying_breath/activate
+execute if entity @s[nbt={SelectedItem:{tag:{petrifying_breath:1}}}] run function ssbrc:fighters/altered_beast/logic/warebear/petrifying_breath/activate
 
 execute if entity @s[nbt={SelectedItem:{tag:{electrocution:1}}}] run function ssbrc:fighters/altered_beast/logic/waredragon/electrocution/activate
 

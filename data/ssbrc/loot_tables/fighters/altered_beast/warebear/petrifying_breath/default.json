@@ -61,7 +61,7 @@
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{petrifyingBreath:1,CustomModelData:1821}"
+							"tag": "{petrifying_breath:1,CustomModelData:1821}"
 						}
 					]
 				}
