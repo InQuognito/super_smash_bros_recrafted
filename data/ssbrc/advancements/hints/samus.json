@@ -1,0 +1,29 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:carrot_on_a_stick",
+			"nbt": "{CustomModelData:1421}"
+		},
+		"title": {
+			"keybind": "key.sneak",
+			"extra": [
+				{
+					"text": " + "
+				},
+				{
+					"keybind": "key.use"
+				},
+				{
+					"text": " to swap weapons"
+				}
+			]
+		},
+		"description": "This is a description",
+		"show_toast": true
+	},
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:impossible"
+		}
+	}
+}
