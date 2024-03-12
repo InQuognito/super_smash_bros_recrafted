@@ -4,6 +4,6 @@ execute rotated as @s positioned 0.0 0.0 0.0 run function ssbrc:fighters/byleth/
 
 data modify storage ssbrc:data Motion set from entity @s Pos
 
-execute positioned ^ ^ ^1 summon minecraft:spectral_arrow run function ssbrc:fighters/byleth/logic/golden_deer/failnaught/init/projectile
+execute positioned ^ ^ ^1 summon minecraft:spectral_arrow run function ssbrc:fighters/byleth/logic/golden_deer/failnaught/init/default/projectile
 
 kill @s
