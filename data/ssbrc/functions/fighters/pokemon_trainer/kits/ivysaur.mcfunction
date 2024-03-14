@@ -14,7 +14,7 @@ loot replace entity @s hotbar.0 loot ssbrc:fighters/pokemon_trainer/ivysaur/knoc
 
 loot replace entity @s hotbar.1 loot ssbrc:fighters/pokemon_trainer/ivysaur/leech_seed
 
-scoreboard players set @s charge.1 6
+scoreboard players set @s charge.1 4
 
 function ssbrc:logic/fighters/armor/update
 function ssbrc:logic/fighters/attributes/defaults
