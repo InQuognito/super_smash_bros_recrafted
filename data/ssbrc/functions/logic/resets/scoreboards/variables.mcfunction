@@ -94,6 +94,7 @@ scoreboard players set pikachu.thunderJoltCooldown vars 20
 scoreboard players set #pikachu.thunderJoltMaxRotation vars 160
 
 scoreboard players set pokemon_trainer.flareBlitzCooldown vars 60
+scoreboard players set pokemon_trainer.poison_powder.cooldown vars 200
 scoreboard players set pokemon_trainer.leechSeedCooldown vars 100
 scoreboard players set pokemon_trainer.waterGunCooldown vars 40
 
