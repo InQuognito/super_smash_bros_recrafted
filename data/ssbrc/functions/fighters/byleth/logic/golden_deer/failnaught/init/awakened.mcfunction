@@ -1,4 +1,5 @@
 tag @s add failnaught
+tag @s add awakened
 
 function ssbrc:logic/init/projectile
 
