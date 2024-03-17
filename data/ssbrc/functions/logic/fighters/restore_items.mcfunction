@@ -68,7 +68,7 @@ execute if score gameMode options matches 1 if score @s[tag=ryu] stocks matches 
 execute if score gameMode options matches 2 if score gameTime timer matches ..60 run loot replace entity @s[tag=ryu,tag=!abilityUsed] hotbar.1 loot ssbrc:fighters/ryu/satsui_no_hado_rage
 
 # Snake
-loot replace entity @s[tag=snake] hotbar.8 loot ssbrc:fighters/snake/status/undetected
+execute if entity @s[tag=snake] run function ssbrc:logic/fighters/replace_item {old:"status",new:"snake/status/undetected"}
 
 # Sora
 execute if entity @s[tag=sora] run function ssbrc:fighters/sora/kit
