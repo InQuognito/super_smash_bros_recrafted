@@ -61,7 +61,7 @@
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{poison_powder:1,CustomModelData:50009}"
+							"tag": "{poison_powder:1,CustomModelData:50013}"
 						}
 					]
 				}
