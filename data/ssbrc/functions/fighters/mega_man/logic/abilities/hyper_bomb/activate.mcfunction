@@ -1,11 +1,6 @@
-scoreboard players operation @s mana -= #hyper_bombMagicCost temp
+execute summon minecraft:marker run function ssbrc:fighters/mega_man/logic/abilities/hyper_bomb/init/marker
 
-scoreboard players set @s cooldown.1 2
+scoreboard players set @s cooldown.2 40
+execute if score @s shadow.chaosControl matches 1.. run function ssbrc:logic/fighters/cooldown_modifiers/chaos_control/2
 
-tag @s add activeFuse
-scoreboard players reset @s fuse
-
-item modify entity @s weapon.mainhand ssbrc:fighters/mega_man/hyper_bomb/default
-
-playsound ssbrc:fighters.mega_man.hyper_bomb.activate player @a
-playsound ssbrc:fighters.mega_man.hyper_bomb.fuse player @a
+function ssbrc:fighters/mega_man/logic/abilities/hyper_bomb/reset
