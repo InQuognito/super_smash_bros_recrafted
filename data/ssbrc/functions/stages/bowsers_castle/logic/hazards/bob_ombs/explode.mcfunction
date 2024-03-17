@@ -1,7 +1,7 @@
 execute as @e[predicate=ssbrc:flag/targets,distance=..3] run damage @s 12.0 ssbrc:projectile
 
 particle minecraft:explosion_emitter ~ ~ ~ 0.0 0.0 0.0 0.0 1 normal @a
-playsound entity.generic.explode player @a
+playsound minecraft:entity.generic.explode player @a
 
 # Northeast
 execute if entity @s[tag=ne] if score stairs.se temp matches 1 run clone -637 30 899 -631 35 906 -685 24 854

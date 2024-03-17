@@ -62,6 +62,16 @@ scoreboard objectives add mana dummy
 scoreboard objectives add map dummy
 scoreboard objectives add mapVote dummy
 scoreboard objectives add math dummy
+scoreboard objectives add mega_man.air_shooter dummy
+scoreboard objectives add mega_man.beat_call dummy
+scoreboard objectives add mega_man.drill_bomb dummy
+scoreboard objectives add mega_man.flame_sword dummy
+scoreboard objectives add mega_man.hyper_bomb dummy
+scoreboard objectives add mega_man.junk_shield dummy
+scoreboard objectives add mega_man.mamagma_bazooka dummy
+scoreboard objectives add mega_man.metal_blade dummy
+scoreboard objectives add mega_man.pile_driver dummy
+scoreboard objectives add mega_man.remote_mine dummy
 scoreboard objectives add menu trigger
 scoreboard objectives add motionX dummy
 scoreboard objectives add motionY dummy

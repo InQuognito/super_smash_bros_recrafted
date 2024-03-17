@@ -12,8 +12,8 @@
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"translate": "ssbrc.tooltips.mega_man.blackHoleBomb",
-								"color": "dark_purple",
+								"translate": "ssbrc.tooltips.mega_man.remote_mine",
+								"color": "red",
 								"bold": true,
 								"italic": false
 							}
@@ -39,31 +39,19 @@
 											"italic": false
 										},
 										{
-											"translate": "ssbrc.tooltips.mega_man.blackHoleBomb.description.1",
+											"translate": "ssbrc.tooltips.ability.activate",
 											"color": "gray",
 											"bold": false,
 											"italic": false
 										}
 									]
-								},
-								{
-									"translate": "ssbrc.tooltips.mega_man.blackHoleBomb.description.2",
-									"color": "gray",
-									"bold": false,
-									"italic": false
-								},
-								{
-									"translate": "ssbrc.tooltips.mega_man.blackHoleBomb.description.3",
-									"color": "gray",
-									"bold": false,
-									"italic": false
 								}
 							],
 							"replace": false
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{blackHoleBomb:1,CustomModelData:882}"
+							"tag": "{remote_mine:1}"
 						}
 					]
 				}

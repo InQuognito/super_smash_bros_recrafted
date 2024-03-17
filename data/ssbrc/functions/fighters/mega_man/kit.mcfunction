@@ -1,5 +1,9 @@
+clear @s #ssbrc:equipment
+
 loot replace entity @s hotbar.0 loot ssbrc:fighters/mega_man/mega_buster
 
-loot replace entity @s hotbar.1 loot ssbrc:fighters/mega_man/flame_sword
+function ssbrc:fighters/mega_man/logic/weapons/choose {slot:1}
 
-loot replace entity @s hotbar.2 loot ssbrc:fighters/mega_man/black_hole_bomb
+function ssbrc:fighters/mega_man/logic/weapons/choose {slot:2}
+
+function ssbrc:fighters/mega_man/logic/weapons/choose {slot:3}

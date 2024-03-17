@@ -62,6 +62,16 @@ scoreboard objectives remove mana
 scoreboard objectives remove map
 scoreboard objectives remove mapVote
 scoreboard objectives remove math
+scoreboard objectives remove mega_man.air_shooter
+scoreboard objectives remove mega_man.beat_call
+scoreboard objectives remove mega_man.drill_bomb
+scoreboard objectives remove mega_man.flame_sword
+scoreboard objectives remove mega_man.hyper_bomb
+scoreboard objectives remove mega_man.junk_shield
+scoreboard objectives remove mega_man.mamagma_bazooka
+scoreboard objectives remove mega_man.metal_blade
+scoreboard objectives remove mega_man.pile_driver
+scoreboard objectives remove mega_man.remote_mine
 scoreboard objectives remove menu
 scoreboard objectives remove motionX
 scoreboard objectives remove motionY

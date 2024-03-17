@@ -5,4 +5,4 @@ particle minecraft:explosion_emitter ~ ~ ~ 0.0 0.0 0.0 0.0 1 normal @a
 scoreboard players set entityHit temp 1
 
 playsound ssbrc:fighters.yar.missile_launcher.explode player @a
-playsound entity.generic.explode player @a
+playsound minecraft:entity.generic.explode player @a

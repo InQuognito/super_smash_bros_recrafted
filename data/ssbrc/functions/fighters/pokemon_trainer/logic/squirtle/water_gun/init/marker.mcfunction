@@ -18,5 +18,3 @@ data modify storage ssbrc:data Motion set from entity @s Pos
 execute summon minecraft:arrow run function ssbrc:fighters/pokemon_trainer/logic/squirtle/water_gun/init/projectile
 
 kill @s
-
-playsound ssbrc:fighters.pokemon_trainer.squirtle.water_gun.activate player @a
