@@ -55,7 +55,9 @@ execute if entity @s[tag=fireball] at @s run function ssbrc:fighters/mario/logic
 
 # Mega Man
 execute if entity @s[tag=megaBuster] at @s run function ssbrc:fighters/mega_man/logic/abilities/mega_buster/tick
-execute if entity @s[tag=blackHoleBomb] at @s unless block ~ ~-0.1 ~ #ssbrc:passthrough run function ssbrc:fighters/mega_man/logic/abilities/black_hole_bomb/tick
+execute if entity @s[tag=air_shooter] at @s run function ssbrc:fighters/mega_man/logic/abilities/air_shooter/tick
+execute if entity @s[tag=drill_bomb] at @s run function ssbrc:fighters/mega_man/logic/abilities/drill_bomb/tick
+execute if entity @s[tag=hyper_bomb] at @s run function ssbrc:fighters/mega_man/logic/abilities/hyper_bomb/tick
 
 # Ness
 execute if entity @s[tag=pkFire,tag=!exploded] at @s run function ssbrc:fighters/ness/logic/abilities/pk_fire/tick
