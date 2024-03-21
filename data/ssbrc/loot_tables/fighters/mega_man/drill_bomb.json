@@ -51,7 +51,7 @@
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{drill_bomb:1}"
+							"tag": "{drill_bomb:1,CustomModelData:886}"
 						}
 					]
 				}

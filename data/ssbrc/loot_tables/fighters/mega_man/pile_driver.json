@@ -51,7 +51,7 @@
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{pile_driver:1}"
+							"tag": "{pile_driver:1,CustomModelData:892}"
 						}
 					]
 				}

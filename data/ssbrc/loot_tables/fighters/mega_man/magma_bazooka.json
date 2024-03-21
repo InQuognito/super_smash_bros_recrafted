@@ -51,7 +51,7 @@
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{magma_bazooka:1}"
+							"tag": "{magma_bazooka:1,CustomModelData:890}"
 						}
 					]
 				}

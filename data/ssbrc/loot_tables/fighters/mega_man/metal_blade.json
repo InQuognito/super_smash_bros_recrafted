@@ -51,7 +51,7 @@
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{metal_blade:1}"
+							"tag": "{metal_blade:1,CustomModelData:891}"
 						}
 					]
 				}

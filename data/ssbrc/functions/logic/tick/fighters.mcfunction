@@ -26,7 +26,7 @@ execute if entity @s[tag=kirby] run function ssbrc:fighters/kirby/logic/tick
 execute if entity @s[tag=link] run function ssbrc:fighters/link/logic/tick
 execute if entity @s[tag=luigi] run function ssbrc:fighters/luigi/logic/tick
 execute if entity @s[tag=mario] run function ssbrc:fighters/mario/logic/tick
-execute if entity @s[tag=mega_man] run function ssbrc:fighters/mega_man/logic/tick
+execute at @s[tag=mega_man] run function ssbrc:fighters/mega_man/logic/tick
 execute if entity @s[tag=ness] run function ssbrc:fighters/ness/logic/tick
 execute if entity @s[tag=pikachu] run function ssbrc:fighters/pikachu/logic/tick
 execute if entity @s[tag=pit] run function ssbrc:fighters/pit/logic/tick
@@ -41,7 +41,7 @@ execute if entity @s[tag=steve] run function ssbrc:fighters/steve/logic/tick
 execute if entity @s[tag=wolf] run function ssbrc:fighters/wolf/logic/tick
 execute if entity @s[tag=zelda] run function ssbrc:fighters/zelda/logic/tick
 
-execute if entity @s[tag=altered_beast] at @s run function ssbrc:fighters/altered_beast/logic/tick
+execute at @s[tag=altered_beast] run function ssbrc:fighters/altered_beast/logic/tick
 execute if entity @s[tag=alucard] run function ssbrc:fighters/alucard/logic/tick
 execute if entity @s[tag=giegue] run function ssbrc:fighters/giegue/logic/tick
 execute if entity @s[tag=shadow] run function ssbrc:fighters/shadow/logic/tick
@@ -49,7 +49,8 @@ execute if entity @s[tag=shovel_knight] run function ssbrc:fighters/shovel_knigh
 execute if entity @s[tag=team_rocket] run function ssbrc:fighters/team_rocket/logic/tick
 execute if entity @s[tag=yar] run function ssbrc:fighters/yar/logic/tick
 
-scoreboard players reset @s useAbility
+execute at @s[scores={useAbility=1..}] run function ssbrc:logic/inputs/abilities/impulse/default
+execute at @s[scores={charge.step=5..}] run function ssbrc:logic/inputs/abilities/charge/default
 
 execute if score @s charge.step matches 5.. run function ssbrc:logic/resets/charge
 

@@ -1,6 +1,6 @@
 tag @s add drill_bomb
 
-item replace entity @s container.0 with minecraft:carrot_on_a_stick{CustomModelData:1976}
+loot replace entity @s container.0 loot ssbrc:fighters/mega_man/drill_bomb
 
 data merge entity @s {teleport_duration:1}
 

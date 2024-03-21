@@ -2,7 +2,6 @@ scoreboard players remove @s[scores={charge.1=1..}] charge.1 1
 execute store result storage ssbrc:data/bowser x double 0.01 run random value -100..100
 execute store result storage ssbrc:data/bowser y double 0.01 run random value -100..100
 
-
 function ssbrc:fighters/bowser/logic/abilities/fire_breath/step with storage ssbrc:data/bowser
 
 execute store result storage ssbrc:data/bowser x double 0.01 run random value -100..100

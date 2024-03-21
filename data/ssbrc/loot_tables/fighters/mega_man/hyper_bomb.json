@@ -75,7 +75,7 @@
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{hyper_bomb:1}"
+							"tag": "{hyper_bomb:1,CustomModelData:888}"
 						}
 					]
 				}

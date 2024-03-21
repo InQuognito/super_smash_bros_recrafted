@@ -51,7 +51,7 @@
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{beat_call:1}"
+							"tag": "{beat_call:1,CustomModelData:885}"
 						}
 					]
 				}

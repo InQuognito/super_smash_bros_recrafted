@@ -51,7 +51,7 @@
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{junk_shield:1}"
+							"tag": "{junk_shield:1,CustomModelData:889}"
 						}
 					]
 				}

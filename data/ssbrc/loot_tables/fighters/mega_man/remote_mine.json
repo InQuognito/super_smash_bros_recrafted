@@ -51,7 +51,7 @@
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{remote_mine:1}"
+							"tag": "{remote_mine:1,CustomModelData:893}"
 						}
 					]
 				}
