@@ -5,4 +5,4 @@ execute if entity @s[scores={cooldown.2=..0,mega_man.drill_bomb=1..},nbt={Select
 execute if entity @s[scores={cooldown.2=..0,mega_man.hyper_bomb=1..},nbt={SelectedItem:{tag:{hyper_bomb:1}}}] run function ssbrc:fighters/mega_man/logic/abilities/hyper_bomb/activate
 execute if entity @s[scores={cooldown.2=..0,mega_man.metal_blade=1..},nbt={SelectedItem:{tag:{metal_blade:1}}}] run function ssbrc:fighters/mega_man/logic/abilities/metal_blade/activate
 execute if entity @s[scores={cooldown.2=..0,mega_man.pile_driver=1..},nbt={SelectedItem:{tag:{pile_driver:1}}}] run function ssbrc:fighters/mega_man/logic/abilities/pile_driver/activate
-execute if entity @s[scores={mega_man.remote_mine=1..},nbt={SelectedItem:{tag:{remote_mine:1}}}] run function ssbrc:fighters/mega_man/logic/abilities/remote_mine/check
+execute if entity @s[nbt={SelectedItem:{tag:{remote_mine:1}}}] run function ssbrc:fighters/mega_man/logic/abilities/remote_mine/check
