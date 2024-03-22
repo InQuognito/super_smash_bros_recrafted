@@ -4,5 +4,5 @@ loot replace entity @s container.0 loot ssbrc:fighters/mega_man/metal_blade
 
 function ssbrc:logic/init/projectile
 
-data merge entity @s {teleport_duration:1}
+data merge entity @s {item_display:"head",teleport_duration:1}
 function ssbrc:fighters/mega_man/logic/abilities/metal_blade/animation/1
