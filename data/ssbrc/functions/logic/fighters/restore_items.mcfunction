@@ -49,8 +49,8 @@ loot replace entity @s[tag=link] hotbar.2 loot ssbrc:fighters/link/boomerang
 loot replace entity @s[tag=link] weapon.offhand loot ssbrc:fighters/link/hylian_shield
 give @s[tag=link] minecraft:spectral_arrow 5
 
-# Megaman
-loot replace entity @s[tag=mega_man] hotbar.2 loot ssbrc:fighters/mega_man/black_hole_bomb
+# Mega Man
+execute if entity @s[tag=mega_man] run function ssbrc:fighters/mega_man/kit
 
 # Pit
 execute if entity @s[tag=pit] run function ssbrc:fighters/pit/logic/abilities/wings/regain/activate
