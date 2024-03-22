@@ -8,3 +8,7 @@ execute if entity @s[nbt={SelectedItem:{tag:{magma_bazooka:1}}}] run function ss
 execute if entity @s[nbt={SelectedItem:{tag:{metal_blade:1}}}] run function ssbrc:fighters/mega_man/logic/abilities/update {weapon:"metal_blade"}
 execute if entity @s[nbt={SelectedItem:{tag:{pile_driver:1}}}] run function ssbrc:fighters/mega_man/logic/abilities/update {weapon:"pile_driver"}
 execute if entity @s[nbt={SelectedItem:{tag:{remote_mine:1}}}] run function ssbrc:fighters/mega_man/logic/abilities/update {weapon:"remote_mine"}
+
+# Pile Driver
+execute if entity @s[tag=mega_man.pile_driver,scores={duration.2=1}] run function ssbrc:fighters/mega_man/logic/abilities/pile_driver/deactivate
+execute if entity @s[tag=mega_man.pile_driver,nbt={SelectedItem:{tag:{pile_driver:1}}},scores={charge.input=1..,cooldown.2=..0,duration.2=..0}] at @s anchored eyes run function ssbrc:fighters/mega_man/logic/abilities/pile_driver/particle/raycast/start

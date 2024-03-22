@@ -4,7 +4,7 @@ execute summon minecraft:marker run function ssbrc:fighters/mega_man/logic/abili
 
 scoreboard players set @s duration.2 10
 
-scoreboard players remove @s mega_man.metal_blade 1
+scoreboard players remove @s mega_man.pile_driver 1
 
 effect give @s minecraft:levitation infinite 0 true
 
