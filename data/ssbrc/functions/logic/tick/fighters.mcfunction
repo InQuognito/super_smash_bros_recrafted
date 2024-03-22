@@ -52,8 +52,6 @@ execute if entity @s[tag=yar] run function ssbrc:fighters/yar/logic/tick
 execute at @s[scores={useAbility=1..}] run function ssbrc:logic/inputs/abilities/impulse/default
 execute at @s[scores={charge.step=5..}] run function ssbrc:logic/inputs/abilities/charge/default
 
-execute if score @s charge.step matches 5.. run function ssbrc:logic/resets/charge
-
 execute if entity @s[scores={flag.damageDealt=1..}] run function ssbrc:logic/fighters/damage_dealt
 execute if entity @s[scores={flag.damageTaken=1..}] run function ssbrc:logic/fighters/damage_taken
 
