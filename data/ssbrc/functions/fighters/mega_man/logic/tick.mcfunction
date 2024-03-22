@@ -1,3 +1,5 @@
+title @s actionbar ""
+
 execute if entity @s[nbt={SelectedItem:{tag:{air_shooter:1}}}] run function ssbrc:fighters/mega_man/logic/abilities/update {weapon:"air_shooter"}
 execute if entity @s[nbt={SelectedItem:{tag:{beat_call:1}}}] run function ssbrc:fighters/mega_man/logic/abilities/update {weapon:"beat_call"}
 execute if entity @s[nbt={SelectedItem:{tag:{drill_bomb:1}}}] run function ssbrc:fighters/mega_man/logic/abilities/update {weapon:"drill_bomb"}
