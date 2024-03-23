@@ -5,3 +5,6 @@ execute if entity @s[tag=dreamNeedle] run function ssbrc:fighters/joker/logic/ab
 execute if score entityHit temp matches 1 run kill @s
 
 teleport @s ^ ^ ^0.25
+
+scoreboard players remove #n temp 1
+execute if score #n temp matches 1.. unless score entityHit temp matches 1 at @s run function ssbrc:fighters/joker/logic/tt33/move_forward

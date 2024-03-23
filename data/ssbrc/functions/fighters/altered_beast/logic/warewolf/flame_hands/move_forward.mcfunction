@@ -8,3 +8,6 @@ execute positioned ~-0.15 ~-0.15 ~-0.15 as @e[tag=!self,nbt=!{Inventory:[{tag:{g
 execute if score entity_hit temp matches 1 run kill @s
 
 teleport @s ^ ^ ^0.25
+
+scoreboard players remove #n temp 1
+execute if score #n temp matches 1.. unless score entity_hit temp matches 1 at @s run function ssbrc:fighters/altered_beast/logic/warewolf/flame_hands/move_forward

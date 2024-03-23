@@ -1,35 +1,6 @@
+scoreboard players set #n temp 32
+
 function ssbrc:fighters/snake/logic/weapons/psg1/move_forward
-execute unless score entityHit temp matches 1 at @s run function ssbrc:fighters/snake/logic/weapons/psg1/move_forward
-execute unless score entityHit temp matches 1 at @s run function ssbrc:fighters/snake/logic/weapons/psg1/move_forward
-execute unless score entityHit temp matches 1 at @s run function ssbrc:fighters/snake/logic/weapons/psg1/move_forward
-execute unless score entityHit temp matches 1 at @s run function ssbrc:fighters/snake/logic/weapons/psg1/move_forward
-execute unless score entityHit temp matches 1 at @s run function ssbrc:fighters/snake/logic/weapons/psg1/move_forward
-execute unless score entityHit temp matches 1 at @s run function ssbrc:fighters/snake/logic/weapons/psg1/move_forward
-execute unless score entityHit temp matches 1 at @s run function ssbrc:fighters/snake/logic/weapons/psg1/move_forward
-execute unless score entityHit temp matches 1 at @s run function ssbrc:fighters/snake/logic/weapons/psg1/move_forward
-execute unless score entityHit temp matches 1 at @s run function ssbrc:fighters/snake/logic/weapons/psg1/move_forward
-execute unless score entityHit temp matches 1 at @s run function ssbrc:fighters/snake/logic/weapons/psg1/move_forward
-execute unless score entityHit temp matches 1 at @s run function ssbrc:fighters/snake/logic/weapons/psg1/move_forward
-execute unless score entityHit temp matches 1 at @s run function ssbrc:fighters/snake/logic/weapons/psg1/move_forward
-execute unless score entityHit temp matches 1 at @s run function ssbrc:fighters/snake/logic/weapons/psg1/move_forward
-execute unless score entityHit temp matches 1 at @s run function ssbrc:fighters/snake/logic/weapons/psg1/move_forward
-execute unless score entityHit temp matches 1 at @s run function ssbrc:fighters/snake/logic/weapons/psg1/move_forward
-execute unless score entityHit temp matches 1 at @s run function ssbrc:fighters/snake/logic/weapons/psg1/move_forward
-execute unless score entityHit temp matches 1 at @s run function ssbrc:fighters/snake/logic/weapons/psg1/move_forward
-execute unless score entityHit temp matches 1 at @s run function ssbrc:fighters/snake/logic/weapons/psg1/move_forward
-execute unless score entityHit temp matches 1 at @s run function ssbrc:fighters/snake/logic/weapons/psg1/move_forward
-execute unless score entityHit temp matches 1 at @s run function ssbrc:fighters/snake/logic/weapons/psg1/move_forward
-execute unless score entityHit temp matches 1 at @s run function ssbrc:fighters/snake/logic/weapons/psg1/move_forward
-execute unless score entityHit temp matches 1 at @s run function ssbrc:fighters/snake/logic/weapons/psg1/move_forward
-execute unless score entityHit temp matches 1 at @s run function ssbrc:fighters/snake/logic/weapons/psg1/move_forward
-execute unless score entityHit temp matches 1 at @s run function ssbrc:fighters/snake/logic/weapons/psg1/move_forward
-execute unless score entityHit temp matches 1 at @s run function ssbrc:fighters/snake/logic/weapons/psg1/move_forward
-execute unless score entityHit temp matches 1 at @s run function ssbrc:fighters/snake/logic/weapons/psg1/move_forward
-execute unless score entityHit temp matches 1 at @s run function ssbrc:fighters/snake/logic/weapons/psg1/move_forward
-execute unless score entityHit temp matches 1 at @s run function ssbrc:fighters/snake/logic/weapons/psg1/move_forward
-execute unless score entityHit temp matches 1 at @s run function ssbrc:fighters/snake/logic/weapons/psg1/move_forward
-execute unless score entityHit temp matches 1 at @s run function ssbrc:fighters/snake/logic/weapons/psg1/move_forward
-execute unless score entityHit temp matches 1 at @s run function ssbrc:fighters/snake/logic/weapons/psg1/move_forward
 scoreboard players reset entityHit temp
 
 scoreboard players add @s temp 1

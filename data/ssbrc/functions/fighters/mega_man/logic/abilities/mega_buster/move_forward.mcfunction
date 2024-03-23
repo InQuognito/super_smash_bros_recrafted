@@ -6,3 +6,6 @@ execute positioned ~-0.15 ~-0.15 ~-0.15 as @e[tag=!self,predicate=ssbrc:flag/tar
 execute if score entityHit temp matches 1 run kill @s
 
 teleport @s ^ ^ ^0.5
+
+scoreboard players remove #n temp 1
+execute if score #n temp matches 1.. unless score entityHit temp matches 1 at @s run function ssbrc:fighters/mega_man/logic/abilities/mega_buster/move_forward
