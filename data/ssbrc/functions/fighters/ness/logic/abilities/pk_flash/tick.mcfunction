@@ -9,4 +9,6 @@ execute if score @s temp matches 80.. as @a[tag=self,limit=1] run function ssbrc
 teleport @s[scores={temp=..19}] ~ ~0.2 ~
 teleport @s[scores={temp=20..}] ~ ~-0.3 ~
 
+execute if entity @a[tag=self,limit=1,predicate=!ssbrc:flag/sneaking] at @s[scores={temp=20..}] run function ssbrc:fighters/ness/logic/abilities/pk_flash/adjust
+
 scoreboard players add @s temp 1
