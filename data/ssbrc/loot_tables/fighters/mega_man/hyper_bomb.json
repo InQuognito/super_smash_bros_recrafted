@@ -71,11 +71,11 @@
 						},
 						{
 							"function": "minecraft:reference",
-							"name": "ssbrc:fighters/zelda/bomb/default"
+							"name": "ssbrc:fighters/mega_man/hyper_bomb/default"
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{hyper_bomb:1,CustomModelData:888}"
+							"tag": "{hyper_bomb:1}"
 						}
 					]
 				}

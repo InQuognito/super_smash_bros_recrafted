@@ -91,6 +91,7 @@ scoreboard players set mega_man.beat_call vars 3
 scoreboard players set mega_man.drill_bomb vars 3
 scoreboard players set mega_man.flame_sword vars 10
 scoreboard players set mega_man.hyper_bomb vars 3
+scoreboard players set mega_man.hyper_bomb.timer vars 40
 scoreboard players set mega_man.junk_shield vars 3
 scoreboard players set mega_man.magma_bazooka vars 3
 scoreboard players set mega_man.metal_blade vars 3
