@@ -4,8 +4,6 @@ execute as @a[scores={respawn=2..}] run function ssbrc:logic/tick/respawn
 gamemode spectator @a[team=dead]
 gamemode spectator @a[team=spectator]
 
-kill @e[type=#minecraft:arrows,nbt={inGround:1b}]
-
 clear @a minecraft:glass_bottle
 
 scoreboard players remove @e[type=!minecraft:player,scores={cooldown.1=1..}] cooldown.1 1
@@ -28,6 +26,8 @@ execute as @a[team=!admin,tag=alive,scores={respawn=..0},gamemode=!adventure,gam
 execute as @a[predicate=ssbrc:flag/player] if entity @s[advancements={ssbrc:utility/flag/hurt_player/condition/blocked=true}] if entity @a[predicate=ssbrc:flag/player,scores={flag.breakShield=1..}] run scoreboard players add @s shieldBreaker 1
 advancement revoke @a only ssbrc:utility/flag/hurt_player/condition/blocked
 scoreboard players reset @a flag.breakShield
+
+kill @e[type=#minecraft:arrows,nbt={inGround:1b}]
 
 # Maps
 function ssbrc:logic/tick/stages/after_start
