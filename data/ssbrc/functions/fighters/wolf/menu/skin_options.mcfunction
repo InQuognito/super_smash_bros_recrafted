@@ -9,6 +9,4 @@ tellraw @s[tag=gold] [{"translate":"ssbrc.fighters.skin.gold","color":"gold"},{"
 tellraw @s[tag=!assault,advancements={ssbrc:fighters/wolf/skins/assault=true}] [{"translate":"ssbrc.fighters.wolf.skin.assault","color":"green","clickEvent":{"action":"run_command","value":"/trigger menu set 1726"}}]
 tellraw @s[tag=assault] [{"translate":"ssbrc.fighters.wolf.skin.assault","color":"green"},{"text":" ✔","color":"green"}]
 
-tellraw @s [{"text":"================","bold":true,"color":"white"}]
-
-execute at @s run playsound minecraft:ui.button.click master @s
+function ssbrc:logic/fighters/menu/skin_options

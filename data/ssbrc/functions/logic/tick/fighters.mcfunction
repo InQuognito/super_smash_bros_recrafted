@@ -10,7 +10,7 @@ scoreboard players reset @s[scores={charge.input=2..}] charge.step
 scoreboard players remove @s[scores={charge.input=2..}] charge.input 1
 
 execute if entity @s[tag=bowser] run function ssbrc:fighters/bowser/logic/tick
-execute if entity @s[tag=byleth] run function ssbrc:fighters/byleth/logic/tick
+execute at @s[tag=byleth] run function ssbrc:fighters/byleth/logic/tick
 execute if entity @s[tag=captain_falcon] run function ssbrc:fighters/captain_falcon/logic/tick
 execute if entity @s[tag=cloud] run function ssbrc:fighters/cloud/logic/tick
 execute if entity @s[tag=dark_samus] run function ssbrc:fighters/dark_samus/logic/tick

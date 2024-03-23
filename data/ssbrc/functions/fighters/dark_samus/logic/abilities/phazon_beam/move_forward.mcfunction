@@ -11,9 +11,9 @@ scoreboard players operation checkDamage temp = @s charge.1
 execute unless block ~ ~ ~ #ssbrc:passthrough run kill @s
 
 execute positioned ~-0.2 ~-0.2 ~-0.2 as @e[tag=!self,predicate=ssbrc:flag/targets,dx=0] positioned ~-0.6 ~-0.6 ~-0.6 if entity @s[dx=0] run function ssbrc:fighters/dark_samus/logic/abilities/phazon_beam/hit
-execute if score entityHit temp matches 1 run kill @s
+execute if score entity_hit temp matches 1 run kill @s
 
 teleport @s ^ ^ ^0.25
 
 scoreboard players remove #n temp 1
-execute if score #n temp matches 1.. unless score entityHit temp matches 1 at @s run function ssbrc:fighters/dark_samus/logic/abilities/phazon_beam/move_forward
+execute if score #n temp matches 1.. unless score entity_hit temp matches 1 at @s run function ssbrc:fighters/dark_samus/logic/abilities/phazon_beam/move_forward

@@ -12,6 +12,4 @@ tellraw @s[tag=shiny] [{"translate":"ssbrc.series.pokemon.skins.shiny","color":"
 tellraw @s[tag=!santaHat,advancements={ssbrc:fighters/pikachu/skins/santa_hat=true}] [{"nbt":"winter","storage":"ssbrc:data/skins","interpret":true},{"translate":"ssbrc.fighters.pikachu.skin.santaHat","color":"red","clickEvent":{"action":"run_command","value":"/trigger menu set 1207"}}]
 tellraw @s[tag=santaHat] [{"nbt":"winter","storage":"ssbrc:data/skins","interpret":true},{"translate":"ssbrc.fighters.pikachu.skin.santaHat","color":"red"},{"text":" ✔","color":"green"}]
 
-tellraw @s [{"text":"================","bold":true,"color":"white"}]
-
-execute at @s run playsound minecraft:ui.button.click master @s
+function ssbrc:logic/fighters/menu/skin_options

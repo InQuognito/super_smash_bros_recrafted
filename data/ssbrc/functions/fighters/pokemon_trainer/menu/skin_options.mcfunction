@@ -15,6 +15,4 @@ tellraw @s[tag=dawn] [{"translate":"ssbrc.fighters.pokemon_trainer.skin.dawn","c
 tellraw @s[tag=!victor,advancements={ssbrc:fighters/pokemon_trainer/skins/victor=true}] [{"translate":"ssbrc.fighters.pokemon_trainer.skin.victor","color":"dark_blue","clickEvent":{"action":"run_command","value":"/trigger menu set 1268"}}]
 tellraw @s[tag=victor] [{"translate":"ssbrc.fighters.pokemon_trainer.skin.victor","color":"dark_blue"},{"text":" ✔","color":"green"}]
 
-tellraw @s [{"text":"================","bold":true,"color":"white"}]
-
-execute at @s run playsound minecraft:ui.button.click master @s
+function ssbrc:logic/fighters/menu/skin_options

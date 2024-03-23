@@ -15,6 +15,4 @@ tellraw @s[tag=rek] [{"translate":"ssbrc.fighters.hero.skin.rek","color":"blue"}
 tellraw @s[tag=!sofia,advancements={ssbrc:fighters/hero/skins/sofia=true}] [{"translate":"ssbrc.fighters.hero.skin.sofia","color":"green","clickEvent":{"action":"run_command","value":"/trigger menu set 448"}}]
 tellraw @s[tag=sofia] [{"translate":"ssbrc.fighters.hero.skin.sofia","color":"green"},{"text":" ✔","color":"green"}]
 
-tellraw @s [{"text":"================","bold":true,"color":"white"}]
-
-execute at @s run playsound minecraft:ui.button.click master @s
+function ssbrc:logic/fighters/menu/skin_options

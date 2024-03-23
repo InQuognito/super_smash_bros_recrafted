@@ -15,6 +15,4 @@ tellraw @s[tag=pajamas] [{"translate":"ssbrc.fighters.ness.skin.pajamas","color"
 tellraw @s[tag=!phaseDistortion,advancements={ssbrc:fighters/ness/skins/phase_distortion=true}] [{"translate":"ssbrc.fighters.ness.skin.phaseDistortion","color":"gray","clickEvent":{"action":"run_command","value":"/trigger menu set 1088"}}]
 tellraw @s[tag=phaseDistortion] [{"translate":"ssbrc.fighters.ness.skin.phaseDistortion","color":"gray"},{"text":" ✔","color":"green"}]
 
-tellraw @s [{"text":"================","bold":true,"color":"white"}]
-
-execute at @s run playsound minecraft:ui.button.click master @s
+function ssbrc:logic/fighters/menu/skin_options

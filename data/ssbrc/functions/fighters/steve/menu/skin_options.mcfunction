@@ -12,6 +12,4 @@ tellraw @s[tag=alex] [{"translate":"ssbrc.fighters.steve.skin.alex","color":"yel
 tellraw @s[tag=!herobrine,advancements={ssbrc:fighters/steve/skins/herobrine=true}] [{"translate":"ssbrc.fighters.steve.skin.herobrine","color":"white","clickEvent":{"action":"run_command","value":"/trigger menu set 1587"}}]
 tellraw @s[tag=herobrine] [{"translate":"ssbrc.fighters.steve.skin.herobrine","color":"white"},{"text":" ✔","color":"green"}]
 
-tellraw @s [{"text":"================","bold":true,"color":"white"}]
-
-execute at @s run playsound minecraft:ui.button.click master @s
+function ssbrc:logic/fighters/menu/skin_options

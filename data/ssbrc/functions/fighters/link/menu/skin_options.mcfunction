@@ -15,6 +15,4 @@ tellraw @s[tag=goron] [{"translate":"ssbrc.fighters.link.skin.goronTunic","color
 tellraw @s[tag=!zora,advancements={ssbrc:fighters/link/skins/zora_tunic=true}] [{"translate":"ssbrc.fighters.link.skin.zoraTunic","color":"blue","clickEvent":{"action":"run_command","value":"/trigger menu set 728"}}]
 tellraw @s[tag=zora] [{"translate":"ssbrc.fighters.link.skin.zoraTunic","color":"blue"},{"text":" ✔","color":"green"}]
 
-tellraw @s [{"text":"================","bold":true,"color":"white"}]
-
-execute at @s run playsound minecraft:ui.button.click master @s
+function ssbrc:logic/fighters/menu/skin_options

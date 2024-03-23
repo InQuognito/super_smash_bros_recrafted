@@ -9,6 +9,4 @@ tellraw @s[tag=gold] [{"translate":"ssbrc.fighters.skin.gold","color":"gold"},{"
 tellraw @s[tag=!bowsette,advancements={ssbrc:fighters/bowser/skins/bowsette=true}] [{"translate":"ssbrc.fighters.bowser.skin.bowsette","color":"yellow","clickEvent":{"action":"run_command","value":"/trigger menu set 66"}}]
 tellraw @s[tag=bowsette] [{"translate":"ssbrc.fighters.bowser.skin.bowsette","color":"yellow"},{"text":" ✔","color":"green"}]
 
-tellraw @s [{"text":"================","bold":true,"color":"white"}]
-
-execute at @s run playsound minecraft:ui.button.click master @s
+function ssbrc:logic/fighters/menu/skin_options

@@ -12,6 +12,4 @@ tellraw @s[tag=armorOfChaos] [{"translate":"ssbrc.fighters.shovel_knight.skin.ar
 tellraw @s[tag=!toadGear,advancements={ssbrc:fighters/shovel_knight/skins/toad_gear=true}] [{"translate":"ssbrc.fighters.shovel_knight.skin.toadGear","color":"green","clickEvent":{"action":"run_command","value":"/trigger menu set 1927"}}]
 tellraw @s[tag=toadGear] [{"translate":"ssbrc.fighters.shovel_knight.skin.toadGear","color":"green"},{"text":" ✔","color":"green"}]
 
-tellraw @s [{"text":"================","bold":true,"color":"white"}]
-
-execute at @s run playsound minecraft:ui.button.click master @s
+function ssbrc:logic/fighters/menu/skin_options

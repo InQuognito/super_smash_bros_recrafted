@@ -9,6 +9,4 @@ tellraw @s[tag=gold] [{"translate":"ssbrc.fighters.skin.gold","color":"gold"},{"
 tellraw @s[tag=!adventures,advancements={ssbrc:fighters/fox/skins/adventures=true}] [{"translate":"ssbrc.fighters.fox.skin.adventures","color":"yellow","clickEvent":{"action":"run_command","value":"/trigger menu set 386"}}]
 tellraw @s[tag=adventures] [{"translate":"ssbrc.fighters.fox.skin.adventures","color":"yellow"},{"text":" ✔","color":"green"}]
 
-tellraw @s [{"text":"================","bold":true,"color":"white"}]
-
-execute at @s run playsound minecraft:ui.button.click master @s
+function ssbrc:logic/fighters/menu/skin_options

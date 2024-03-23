@@ -6,6 +6,4 @@ tellraw @s[tag=default] [{"translate":"ssbrc.fighters.skin.default","color":"lig
 tellraw @s[tag=!gold,advancements={ssbrc:fighters/kirby/skins/gold=true}] [{"translate":"ssbrc.fighters.skin.gold","color":"gold","clickEvent":{"action":"run_command","value":"/trigger menu set 705"}}]
 tellraw @s[tag=gold] [{"translate":"ssbrc.fighters.skin.gold","color":"gold"},{"text":" ✔","color":"green"}]
 
-tellraw @s [{"text":"================","bold":true,"color":"white"}]
-
-execute at @s run playsound minecraft:ui.button.click master @s
+function ssbrc:logic/fighters/menu/skin_options

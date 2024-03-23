@@ -10,4 +10,4 @@ function ssbrc:logic/fighters/checks/hit
 teleport @s ^ ^ ^0.25
 
 scoreboard players remove #n temp 1
-execute if score #n temp matches 1.. unless score entityHit temp matches 1 at @s run function ssbrc:fighters/shadow/logic/chaos_blast/shockwave/move_forward
+execute if score #n temp matches 1.. unless score entity_hit temp matches 1 at @s run function ssbrc:fighters/shadow/logic/chaos_blast/shockwave/move_forward

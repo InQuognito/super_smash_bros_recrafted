@@ -7,4 +7,4 @@ function ssbrc:logic/resets/charge
 function ssbrc:logic/fighters/replace_item {old:"phazonBeam",new:"dark_samus/phazon_beam/idle"}
 
 scoreboard players set @s cooldown.1 10
-execute if score @s shadow.chaosControl matches 1.. run function ssbrc:logic/fighters/cooldown_modifiers/chaos_control/1
+execute if score @s shadow.chaosControl matches 1.. run function ssbrc:logic/fighters/cooldown_modifiers/chaos_control {type:"1"}

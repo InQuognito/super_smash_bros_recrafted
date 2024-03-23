@@ -12,6 +12,4 @@ tellraw @s[tag=flowerPower] [{"translate":"ssbrc.series.superMarioBros.skin.flow
 tellraw @s[tag=!superKong,advancements={ssbrc:fighters/donkey_kong/skins/super_kong=true}] [{"translate":"ssbrc.fighters.donkey_kong.skin.superKong","color":"white","clickEvent":{"action":"run_command","value":"/trigger menu set 307"}}]
 tellraw @s[tag=superKong] [{"translate":"ssbrc.fighters.donkey_kong.skin.superKong","color":"white"},{"text":" ✔","color":"green"}]
 
-tellraw @s [{"text":"================","bold":true,"color":"white"}]
-
-execute at @s run playsound minecraft:ui.button.click master @s
+function ssbrc:logic/fighters/menu/skin_options

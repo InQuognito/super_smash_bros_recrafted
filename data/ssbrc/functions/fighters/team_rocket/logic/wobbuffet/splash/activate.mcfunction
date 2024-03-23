@@ -38,4 +38,4 @@ particle minecraft:splash ^-0.017382559757426627 ^0.09847764526165059 ^ ^-173825
 execute as @e[tag=!self,predicate=ssbrc:flag/targets,distance=..0.4] run damage @s 0.1 ssbrc:projectile by @a[tag=self,limit=1]
 
 scoreboard players operation @s cooldown.1 = team_rocket.destinyBondCooldown vars
-execute if score @s shadow.chaosControl matches 1.. run function ssbrc:logic/fighters/cooldown_modifiers/chaos_control/1
+execute if score @s shadow.chaosControl matches 1.. run function ssbrc:logic/fighters/cooldown_modifiers/chaos_control {type:"1"}

@@ -3,7 +3,7 @@ execute if entity @e[type=minecraft:marker,tag=bladeBeam,tag=limitBreak,sort=nea
 
 #execute if entity @e[type=minecraft:marker,tag=bladeBeam,tag=limitBreak,sort=nearest,limit=1] run function ssbrc:fighters/cloud/logic/abilities/buster_sword/blade_beam/multi_hit/activate
 
-scoreboard players set entityHit temp 1
+scoreboard players set entity_hit temp 1
 
 scoreboard players operation @a[tag=self,limit=1] flag.damageDealt += #damage.bladeBeam vars
 function ssbrc:logic/fighters/damage_dealt

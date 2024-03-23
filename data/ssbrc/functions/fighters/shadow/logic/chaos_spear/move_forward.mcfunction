@@ -12,9 +12,9 @@ particle minecraft:dust_color_transition 1.0 1.0 0.0 1.0 1.0 1.0 0.5 ^-0.30 ^ ^-
 execute unless block ~ ~ ~ #ssbrc:passthrough run kill @s
 
 execute positioned ~-0.25 ~-0.15 ~-0.25 as @e[tag=!self,predicate=ssbrc:flag/targets,dx=0] positioned ~-0.5 ~-0.7 ~-0.5 if entity @s[dx=0] run function ssbrc:fighters/shadow/logic/chaos_spear/hit
-execute if score entityHit temp matches 1 run kill @s
+execute if score entity_hit temp matches 1 run kill @s
 
 teleport @s ^ ^ ^0.25
 
 scoreboard players remove #n temp 1
-execute if score #n temp matches 1.. unless score entityHit temp matches 1 at @s run function ssbrc:fighters/shadow/logic/chaos_spear/move_forward
+execute if score #n temp matches 1.. unless score entity_hit temp matches 1 at @s run function ssbrc:fighters/shadow/logic/chaos_spear/move_forward

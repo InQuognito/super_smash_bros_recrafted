@@ -12,6 +12,4 @@ tellraw @s[tag=ancientMinister] [{"translate":"ssbrc.fighters.rob.skin.ancientMi
 tellraw @s[tag=!famicom,advancements={ssbrc:fighters/rob/skins/famicom=true}] [{"translate":"ssbrc.fighters.rob.skin.famicom","color":"red","clickEvent":{"action":"run_command","value":"/trigger menu set 8"}}]
 tellraw @s[tag=famicom] [{"translate":"ssbrc.fighters.rob.skin.famicom","color":"red"},{"text":" ✔","color":"green"}]
 
-tellraw @s [{"text":"================","bold":true,"color":"white"}]
-
-execute at @s run playsound minecraft:ui.button.click master @s
+function ssbrc:logic/fighters/menu/skin_options

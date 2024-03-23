@@ -15,6 +15,4 @@ tellraw @s[tag=tearsOfTheKingdom] [{"translate":"ssbrc.fighters.ganondorf.skin.t
 tellraw @s[tag=!windWaker,advancements={ssbrc:fighters/ganondorf/skins/wind_waker=true}] [{"translate":"ssbrc.fighters.ganondorf.skin.windWaker","color":"aqua","clickEvent":{"action":"run_command","value":"/trigger menu set 408"}}]
 tellraw @s[tag=windWaker] [{"translate":"ssbrc.fighters.ganondorf.skin.windWaker","color":"aqua"},{"text":" ✔","color":"green"}]
 
-tellraw @s [{"text":"================","bold":true,"color":"white"}]
-
-execute at @s run playsound minecraft:ui.button.click master @s
+function ssbrc:logic/fighters/menu/skin_options

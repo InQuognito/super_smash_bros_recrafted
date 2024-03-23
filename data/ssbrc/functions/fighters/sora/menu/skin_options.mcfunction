@@ -9,6 +9,4 @@ tellraw @s[tag=gold] [{"translate":"ssbrc.fighters.skin.gold","color":"gold"},{"
 tellraw @s[tag=!timelessRiver,advancements={ssbrc:fighters/sora/skins/timeless_river=true}] [{"translate":"ssbrc.fighters.sora.skin.timelessRiver","color":"gray","clickEvent":{"action":"run_command","value":"/trigger menu set 1566"}}]
 tellraw @s[tag=timelessRiver] [{"translate":"ssbrc.fighters.sora.skin.timelessRiver","color":"gray"},{"text":" ✔","color":"green"}]
 
-tellraw @s [{"text":"================","bold":true,"color":"white"}]
-
-execute at @s run playsound minecraft:ui.button.click master @s
+function ssbrc:logic/fighters/menu/skin_options

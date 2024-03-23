@@ -9,6 +9,4 @@ tellraw @s[tag=gold] [{"translate":"ssbrc.fighters.skin.gold","color":"gold"},{"
 tellraw @s[tag=!hotRyu,advancements={ssbrc:fighters/ryu/skins/hot_ryu=true}] [{"translate":"ssbrc.fighters.ryu.skin.hotRyu","color":"white","clickEvent":{"action":"run_command","value":"/trigger menu set 1406"}}]
 tellraw @s[tag=hotRyu] [{"translate":"ssbrc.fighters.ryu.skin.hotRyu","color":"white"},{"text":" ✔","color":"green"}]
 
-tellraw @s [{"text":"================","bold":true,"color":"white"}]
-
-execute at @s run playsound minecraft:ui.button.click master @s
+function ssbrc:logic/fighters/menu/skin_options
