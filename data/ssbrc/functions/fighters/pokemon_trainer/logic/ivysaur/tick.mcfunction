@@ -3,9 +3,10 @@ execute if entity @s[scores={useAbility=1..,cooldown.1=..0,charge.1=1..},nbt={Se
 
 # Poison Powder
 function ssbrc:fighters/pokemon_trainer/logic/ivysaur/poison_powder/cooldown
+function ssbrc:logic/fighters/cooldown {item:"poison_powder",type:"2",amount:"pokemon_trainer.poison_powder.cooldown"}
 
 # Leech Seed
 title @s[nbt=!{SelectedItem:{tag:{leechSeed:1}}}] actionbar ""
 title @s[nbt={SelectedItem:{tag:{leechSeed:1}}}] actionbar {"score":{"name":"@s","objective":"charge.1"},"color":"red"}
 
-execute if entity @s[scores={charge.1=1..}] run function ssbrc:fighters/pokemon_trainer/logic/ivysaur/leech_seed/cooldown
+execute if entity @s[scores={charge.1=1..}] run function ssbrc:logic/fighters/cooldown {item:"leechSeed",type:"1",amount:"pokemon_trainer.leechSeedCooldown"}

@@ -1,7 +1,7 @@
 execute if entity @s[scores={useAbility=1..,cooldown.1=..0},nbt={SelectedItem:{tag:{fireball:1}}}] at @s anchored eyes run function ssbrc:fighters/mario/logic/abilities/fireball/activate
 
 # Fireball
-function ssbrc:fighters/mario/logic/abilities/fireball/cooldown
+function ssbrc:logic/fighters/cooldown {item:"fireball",type:"1",amount:"mario.fireballCooldown"}
 
 # Super Jump
 execute if entity @s[predicate=ssbrc:flag/sneaking] at @s unless block ~ ~-0.1 ~ #ssbrc:passthrough run scoreboard players add @s charge.1 1

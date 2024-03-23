@@ -7,4 +7,4 @@ execute at @s[scores={duration.1=1}] run function ssbrc:fighters/captain_falcon/
 # Falcon Punch
 execute if score @s charge.1 matches 1.. run function ssbrc:fighters/captain_falcon/logic/abilities/falcon_punch/tick
 
-function ssbrc:fighters/captain_falcon/logic/abilities/falcon_punch/cooldown
+function ssbrc:logic/fighters/cooldown {item:"falconPunch",type:"2",amount:"captain_falcon.falconPunchCooldown"}

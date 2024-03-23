@@ -19,23 +19,23 @@ scoreboard players add @s[scores={charge.3=1..}] charge.3 1
 execute if score @s charge.3 matches 5.. run function ssbrc:fighters/shovel_knight/logic/abilities/shovel_drop/reset
 
 # Chaos Sphere
-execute if entity @s[tag=shovel_knight.chaosSphere] run function ssbrc:fighters/shovel_knight/logic/abilities/chaos_sphere/cooldown
+execute if entity @s[tag=shovel_knight.chaosSphere] run function ssbrc:logic/fighters/cooldown {item:"chaosSphere",type:"1",amount:"shovel_knight.chaosSphereCooldown"}
 
 # Flare Wand
-execute if entity @s[tag=shovel_knight.flareWand] run function ssbrc:fighters/shovel_knight/logic/abilities/flare_wand/cooldown
+execute if entity @s[tag=shovel_knight.flareWand] run function ssbrc:logic/fighters/cooldown {item:"flareWand",type:"1",amount:"shovel_knight.flareWandCooldown"}
 
 # Phase Locket
 execute if score @s[tag=shovel_knight.phaseLocket] duration.2 matches 20 at @s run playsound ssbrc:fighters.shovel_knight.phase_locket.warn player @s
 execute if score @s[tag=shovel_knight.phaseLocket] duration.2 matches 1 run function ssbrc:fighters/shovel_knight/logic/abilities/phase_locket/deactivate
 execute if score @s[tag=shovel_knight.phaseLocket] duration.2 matches 1.. run function ssbrc:logic/fighters/effects/cleanse_harmful
 
-execute if entity @s[tag=shovel_knight.phaseLocket] run function ssbrc:fighters/shovel_knight/logic/abilities/phase_locket/cooldown
+execute if entity @s[tag=shovel_knight.phaseLocket] run function ssbrc:logic/fighters/cooldown {item:"phaseLocket",type:"2",amount:"shovel_knight.phaseLocketCooldown"}
 
 # Propeller Dagger
 execute if score @s[tag=shovel_knight.propellerDagger] duration.2 matches 1 run function ssbrc:fighters/shovel_knight/logic/abilities/propeller_dagger/deactivate
 execute if entity @s[tag=shovel_knight.propellerDagger,nbt={SelectedItem:{tag:{propellerDagger:1}}},scores={charge.input=1..,cooldown.2=..0,duration.2=..0}] if score @s mana >= #shovel_knight.propellerDaggerManaCost vars at @s anchored eyes run function ssbrc:fighters/shovel_knight/logic/abilities/propeller_dagger/particle/raycast/start
 
-execute if entity @s[tag=shovel_knight.propellerDagger] run function ssbrc:fighters/shovel_knight/logic/abilities/propeller_dagger/cooldown
+execute if entity @s[tag=shovel_knight.propellerDagger] run function ssbrc:logic/fighters/cooldown {item:"propellerDagger",type:"2",amount:"shovel_knight.propellerDaggerCooldown"}
 
 # Throwing Anchor
-execute if entity @s[tag=shovel_knight.throwingAnchor] run function ssbrc:fighters/shovel_knight/logic/abilities/throwing_anchor/cooldown
+execute if entity @s[tag=shovel_knight.throwingAnchor] run function ssbrc:logic/fighters/cooldown {item:"throwingAnchor",type:"1",amount:"shovel_knight.throwingAnchorCooldown"}

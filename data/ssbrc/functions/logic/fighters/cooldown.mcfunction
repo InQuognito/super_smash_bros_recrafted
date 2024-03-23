@@ -1,4 +1,8 @@
-function ssbrc:logic/fighters/calculate_cooldown
+scoreboard players set indicator.damage temp 100
+$scoreboard players operation indicator.cooldown temp = @s cooldown.$(type)
+scoreboard players operation indicator.cooldown temp *= 100 integers
+$scoreboard players operation indicator.cooldown temp /= $(amount) vars
+scoreboard players operation indicator.damage temp -= indicator.cooldown temp
 
 $execute if entity @s[nbt={Inventory:[{tag:{$(item):1},Slot:0b}]}] run item modify entity @s hotbar.0 ssbrc:fighters/cooldown
 $execute if entity @s[nbt={Inventory:[{tag:{$(item):1},Slot:1b}]}] run item modify entity @s hotbar.1 ssbrc:fighters/cooldown

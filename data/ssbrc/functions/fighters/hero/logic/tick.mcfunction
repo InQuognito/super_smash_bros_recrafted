@@ -6,13 +6,13 @@ execute if score @s[scores={useAbility=1..,duration.2=..0},nbt={SelectedItem:{ta
 function ssbrc:fighters/hero/logic/mana/update
 
 # Bang
-function ssbrc:fighters/hero/logic/abilities/bang/cooldown
+function ssbrc:logic/fighters/cooldown {item:"bang",type:"1",amount:"hero.bangCooldown"}
 
 # Kaclang
 execute if score @s duration.2 matches 2.. at @s run function ssbrc:fighters/hero/logic/abilities/kaclang/tick
 execute if score @s duration.2 matches 1 run function ssbrc:fighters/hero/logic/abilities/kaclang/deactivate
 
-function ssbrc:fighters/hero/logic/abilities/kaclang/cooldown
+function ssbrc:logic/fighters/cooldown {item:"kaclang",type:"1",amount:"hero.kaclangCooldown"}
 
 # Magic Burst
 execute if score @s charge.1 matches 1.. at @s run function ssbrc:fighters/hero/logic/abilities/magic_burst/tick

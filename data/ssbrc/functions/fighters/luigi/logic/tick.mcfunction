@@ -1,7 +1,7 @@
 execute if entity @s[scores={useAbility=1..,cooldown.1=..0},nbt={SelectedItem:{tag:{iceBall:1}}}] at @s anchored eyes run function ssbrc:fighters/luigi/logic/abilities/ice_ball/activate
 
 # Ice Ball
-function ssbrc:fighters/luigi/logic/abilities/ice_ball/cooldown
+function ssbrc:logic/fighters/cooldown {item:"iceBall",type:"1",amount:"luigi.iceBallCooldown"}
 
 # Super Jump
 execute if entity @s[predicate=ssbrc:flag/sneaking] at @s unless block ~ ~-0.1 ~ #ssbrc:passthrough run scoreboard players add @s charge.1 1

@@ -5,7 +5,7 @@ execute if score @s duration.2 matches 2.. at @s anchored eyes positioned ^ ^ ^2
 
 execute if score @s duration.2 matches 1 run function ssbrc:logic/fighters/effects/mobility/mobilize
 
-function ssbrc:fighters/fox/logic/abilities/reflector/cooldown
+function ssbrc:logic/fighters/cooldown {item:"reflector",type:"2",amount:"fox.reflectorCooldown"}
 
 # Fire Fox
 execute unless score @s duration.3 matches 1.. if entity @s[scores={cooldown.3=..0,duration.3=..0},predicate=ssbrc:flag/sneaking] at @s run function ssbrc:fighters/fox/logic/abilities/fire_fox/charge

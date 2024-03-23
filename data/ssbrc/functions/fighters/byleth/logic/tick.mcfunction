@@ -22,7 +22,7 @@ execute if entity @s[tag=blueLions,predicate=!ssbrc:flag/sneaking,scores={charge
 execute if entity @s[tag=spinning] at @s run function ssbrc:fighters/byleth/logic/blue_lions/spin_attack/tick
 
 # Steed Charge
-function ssbrc:fighters/byleth/logic/blue_lions/steed_charge/cooldown
+function ssbrc:logic/fighters/cooldown {item:"steedCharge",type:"2",amount:"byleth.steedChargeCooldown"}
 
 # Failnaught
 execute if entity @s[tag=goldenDeer,scores={charge.output=1..},nbt={SelectedItem:{tag:{failnaught:1}}}] run function ssbrc:fighters/byleth/logic/golden_deer/failnaught/charge
