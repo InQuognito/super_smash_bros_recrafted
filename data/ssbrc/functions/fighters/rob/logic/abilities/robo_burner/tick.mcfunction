@@ -6,7 +6,7 @@ execute if score @s charge.3 matches 1.. run particle minecraft:flame ~ ~-0.7 ~ 
 
 execute if score @s charge.3 matches 1 run function ssbrc:fighters/rob/logic/abilities/robo_burner/activate
 execute if score @s charge.3 matches 4 run effect clear @s minecraft:levitation
-execute if score @s charge.3 matches 6 run effect give @s minecraft:levitation infinite 0 true
+execute if score @s charge.3 matches 6.. run effect give @s minecraft:levitation infinite 0 true
 
 scoreboard players set @s cooldown.2 60
 
