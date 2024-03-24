@@ -1,4 +1,4 @@
-tag @s add magicBoomerang
+tag @s add magic_boomerang
 
 loot replace entity @s container.0 loot ssbrc:fighters/zelda/dungeon_items/magic_boomerang
 

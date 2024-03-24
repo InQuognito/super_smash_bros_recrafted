@@ -3,7 +3,7 @@
 		"function": "minecraft:set_name",
 		"entity": "this",
 		"name": {
-			"translate": "ssbrc.tooltips.hero.flameSlash",
+			"translate": "ssbrc.tooltips.hero.flame_slash",
 			"color": "gold",
 			"bold": true,
 			"italic": false
@@ -40,6 +40,6 @@
 	},
 	{
 		"function": "minecraft:set_nbt",
-		"tag": "{flameSlash:1}"
+		"tag": "{flame_slash:1}"
 	}
 ]

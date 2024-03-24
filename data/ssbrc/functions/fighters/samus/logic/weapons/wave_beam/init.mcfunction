@@ -1,4 +1,4 @@
-tag @s add waveBeam
+tag @s add wave_beam
 
 function ssbrc:logic/init/projectile
 

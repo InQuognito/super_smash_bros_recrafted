@@ -1,6 +1,6 @@
 advancement grant @s only ssbrc:fighters/fox/skins/adventures
 
-scoreboard players operation @s stats.credits -= #price.skin.common vars
+scoreboard players operation @s stats.credits -= price.skin.common vars
 
 tellraw @s [{"translate":"ssbrc.shop.purchase.skin","color":"white"},{"translate":"ssbrc.fighters.fox.skin.adventures","color":"yellow"}]
 

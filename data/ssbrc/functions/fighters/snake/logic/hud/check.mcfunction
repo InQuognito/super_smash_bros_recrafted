@@ -5,5 +5,5 @@ execute if entity @s[nbt={SelectedItem:{tag:{famas:1}}}] run function ssbrc:figh
 execute if entity @s[nbt={SelectedItem:{tag:{s1000:1}}}] run function ssbrc:fighters/snake/logic/hud/s1000
 execute if entity @s[nbt={SelectedItem:{tag:{socom:1}}}] run function ssbrc:fighters/snake/logic/hud/socom
 
-title @s[nbt={SelectedItem:{tag:{antiPersonnelMine:1}}},scores={snake.antiPersonnelMineA=0..}] actionbar {"score":{"name":"@s","objective":"snake.antiPersonnelMineA"},"color":"green"}
-title @s[nbt={SelectedItem:{tag:{smokeGrenade:1}}},scores={snake.smokeGrenadeA=0..}] actionbar {"score":{"name":"@s","objective":"snake.smokeGrenadeA"},"color":"green"}
+title @s[nbt={SelectedItem:{tag:{anti_personnel_mine:1}}},scores={snake.anti_personnel_mineA=0..}] actionbar {"score":{"name":"@s","objective":"snake.anti_personnel_mineA"},"color":"green"}
+title @s[nbt={SelectedItem:{tag:{smoke_grenade:1}}},scores={snake.smoke_grenadeA=0..}] actionbar {"score":{"name":"@s","objective":"snake.smoke_grenadeA"},"color":"green"}

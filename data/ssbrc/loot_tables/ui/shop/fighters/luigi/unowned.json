@@ -30,7 +30,7 @@
 									"extra": [
 										{
 											"score": {
-												"name": "#price.fighter.common",
+												"name": "price.fighter.common",
 												"objective": "vars"
 											},
 											"bold": false,

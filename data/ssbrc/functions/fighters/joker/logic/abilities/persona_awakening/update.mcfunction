@@ -1,6 +1,6 @@
 scoreboard players operation $joker.awakeningPercent temp = @s charge.1
 scoreboard players operation $joker.awakeningPercent temp *= 100 integers
-scoreboard players operation $joker.awakeningPercent temp /= #joker.maxAwakening vars
+scoreboard players operation $joker.awakeningPercent temp /= joker.awakening.max vars
 
 execute if score $joker.awakeningPercent temp matches 0 run title @s[nbt=!{SelectedItem:{tag:{tt33:1}}}] actionbar ""
 execute if score $joker.awakeningPercent temp matches 1..10 run title @s[nbt=!{SelectedItem:{tag:{tt33:1}}}] actionbar [{"translate":"ssbrc.fighters.joker.personaAwakening","bold":true,"color":"white"},{"translate":"\u25ae","color":"red"},{"translate":"\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae","color":"dark_gray"}]
@@ -15,4 +15,4 @@ execute if score $joker.awakeningPercent temp matches 81..90 run title @s[nbt=!{
 execute if score $joker.awakeningPercent temp matches 91..99 run title @s[nbt=!{SelectedItem:{tag:{tt33:1}}}] actionbar [{"translate":"ssbrc.fighters.joker.personaAwakening","bold":true,"color":"white"},{"translate":"\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae","color":"red"}]
 execute if score $joker.awakeningPercent temp matches 100.. run title @s[scores={duration.1=0}] actionbar {"translate":"ssbrc.fighters.joker.personaAwakening.activate","bold":true,"color":"blue"}
 
-execute if score @s charge.1 >= #joker.maxAwakening vars unless score @s duration.1 matches 1.. run function ssbrc:fighters/joker/logic/abilities/persona_awakening/activate
+execute if score @s charge.1 >= joker.awakening.max vars unless score @s duration.1 matches 1.. run function ssbrc:fighters/joker/logic/abilities/persona_awakening/activate

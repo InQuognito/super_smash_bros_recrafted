@@ -1,4 +1,4 @@
-scoreboard players reset @s leechSeed
-scoreboard players reset @s leechSeedTimer
+scoreboard players reset @s leech_seed
+scoreboard players reset @s leech_seedTimer
 
-tag @s remove leechSeed
+tag @s remove leech_seed

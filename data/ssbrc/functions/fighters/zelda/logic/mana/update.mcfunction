@@ -1,6 +1,6 @@
 scoreboard players operation #percentage temp = @s mana
 scoreboard players operation #percentage temp *= 100 integers
-scoreboard players operation #percentage temp /= #zelda.maxMagic vars
+scoreboard players operation #percentage temp /= zelda.magic.max vars
 
 execute if score #percentage temp matches 0 run title @s actionbar [{"translate":"ssbrc.fighters.mana.deplete","bold":true,"color":"red"},{"translate":" | ","color":"white"},{"score":{"name":"@s","objective":"charge.1"},"color":"green"},{"translate":"ssbrc.fighters.zelda.rupees","color":"green"}]
 execute if score #percentage temp matches 1..10 run title @s actionbar [{"translate":"ssbrc.fighters.zelda.magic","bold":true,"color":"white"},{"translate":"\u25ae","color":"blue"},{"translate":" | ","color":"white"},{"score":{"name":"@s","objective":"charge.1"},"color":"green"},{"translate":"ssbrc.fighters.zelda.rupees","color":"green"}]

@@ -7,9 +7,9 @@ execute if score @s shadow.chaosControl matches 1.. run function ssbrc:logic/fig
 item replace entity @s weapon.mainhand with minecraft:air
 loot replace entity @s weapon.mainhand loot ssbrc:fighters/cloud/buster_sword
 
-execute unless score @s cloud.limit >= #cloud.maxLimit vars run playsound ssbrc:fighters.cloud.blade_beam.activate player @a
-execute if score @s cloud.limit >= #cloud.maxLimit vars run playsound ssbrc:fighters.cloud.blade_beam.activate_limit player @a
+execute unless score @s cloud.limit >= cloud.limit.max vars run playsound ssbrc:fighters.cloud.blade_beam.activate player @a
+execute if score @s cloud.limit >= cloud.limit.max vars run playsound ssbrc:fighters.cloud.blade_beam.activate_limit player @a
 
-execute if score @s cloud.limit >= #cloud.maxLimit vars run scoreboard players operation @s cloud.limit = 0 integers
+execute if score @s cloud.limit >= cloud.limit.max vars run scoreboard players operation @s cloud.limit = 0 integers
 
 function ssbrc:fighters/cloud/logic/limit/update

@@ -12,7 +12,7 @@
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"translate": "ssbrc.tooltips.giegue.pkFreeze",
+								"translate": "ssbrc.tooltips.giegue.pk_freeze",
 								"color": "aqua",
 								"bold": true,
 								"italic": false,
@@ -51,7 +51,7 @@
 											"italic": false
 										},
 										{
-											"translate": "ssbrc.tooltips.giegue.pkFreeze.description.1",
+											"translate": "ssbrc.tooltips.giegue.pk_freeze.description.1",
 											"color": "gray",
 											"bold": false,
 											"italic": false
@@ -59,7 +59,7 @@
 									]
 								},
 								{
-									"translate": "ssbrc.tooltips.giegue.pkFreeze.description.2",
+									"translate": "ssbrc.tooltips.giegue.pk_freeze.description.2",
 									"color": "gray",
 									"bold": false,
 									"italic": false
@@ -69,7 +69,7 @@
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{pkFreeze:1,CustomModelData:1861}"
+							"tag": "{pk_freeze:1,CustomModelData:1861}"
 						}
 					]
 				}

@@ -5,6 +5,6 @@
 	},
 	{
 		"function": "minecraft:set_nbt",
-		"tag": "{rayBlaster:1,powerUp:0}"
+		"tag": "{ray_blaster:1,powerUp:0}"
 	}
 ]

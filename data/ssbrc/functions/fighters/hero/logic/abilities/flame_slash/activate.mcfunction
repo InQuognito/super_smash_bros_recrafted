@@ -5,6 +5,6 @@ execute if score random.output temp matches 1 run function ssbrc:fighters/hero/l
 execute if score random.output temp matches 2 run function ssbrc:fighters/hero/logic/abilities/flame_slash/particles/90_degrees
 execute if score random.output temp matches 3 run function ssbrc:fighters/hero/logic/abilities/flame_slash/particles/135_degrees
 
-scoreboard players operation @s mana -= #hero.flameSlashManaCost vars
+scoreboard players operation @s mana -= hero.flame_slash.cost vars
 
 playsound ssbrc:fighters.hero.flame_slash.hit player @a

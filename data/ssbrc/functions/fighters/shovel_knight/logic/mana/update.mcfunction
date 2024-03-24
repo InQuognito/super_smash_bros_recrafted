@@ -1,6 +1,6 @@
 scoreboard players operation #percentage temp = @s mana
 scoreboard players operation #percentage temp *= 100 integers
-scoreboard players operation #percentage temp /= #shovel_knight.maxMana vars
+scoreboard players operation #percentage temp /= shovel_knight.mana.max vars
 
 execute if score #percentage temp matches 1..10 run title @s actionbar [{"translate":"ssbrc.fighters.mana","bold":true,"color":"white"},{"translate":"\u25ae","color":"dark_aqua"}]
 execute if score #percentage temp matches 11..20 run title @s actionbar [{"translate":"ssbrc.fighters.mana","bold":true,"color":"white"},{"translate":"\u25ae\u25ae","color":"dark_aqua"}]
@@ -14,4 +14,4 @@ execute if score #percentage temp matches 81..90 run title @s actionbar [{"trans
 execute if score #percentage temp matches 91.. run title @s actionbar [{"translate":"ssbrc.fighters.mana","bold":true,"color":"white"},{"translate":"\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae","color":"dark_aqua"}]
 
 execute if score @s mana matches ..0 run function ssbrc:fighters/shovel_knight/logic/mana/deplete
-execute if score @s mana > #shovel_knight.maxMana vars run scoreboard players operation @s mana = #shovel_knight.maxMana vars
+execute if score @s mana > shovel_knight.mana.max vars run scoreboard players operation @s mana = shovel_knight.mana.max vars

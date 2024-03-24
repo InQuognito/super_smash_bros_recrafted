@@ -12,7 +12,7 @@
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"translate": "ssbrc.tooltips.pikachu.electricTerrain",
+								"translate": "ssbrc.tooltips.pikachu.electric_terrain",
 								"color": "yellow",
 								"bold": true,
 								"italic": false
@@ -43,7 +43,7 @@
 											"italic": false
 										},
 										{
-											"translate": "ssbrc.tooltips.pikachu.electricTerrain.description.1",
+											"translate": "ssbrc.tooltips.pikachu.electric_terrain.description.1",
 											"color": "gray",
 											"bold": false,
 											"italic": false
@@ -51,7 +51,7 @@
 									]
 								},
 								{
-									"translate": "ssbrc.tooltips.pikachu.electricTerrain.description.2",
+									"translate": "ssbrc.tooltips.pikachu.electric_terrain.description.2",
 									"color": "gray",
 									"bold": false,
 									"italic": false
@@ -61,7 +61,7 @@
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{electricTerrain:1,CustomModelData:1201}"
+							"tag": "{electric_terrain:1,CustomModelData:1201}"
 						}
 					]
 				}

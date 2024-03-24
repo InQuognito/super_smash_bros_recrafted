@@ -1,3 +1,3 @@
-tag @s add plasmaBeam
+tag @s add plasma_beam
 
 function ssbrc:logic/init/projectile

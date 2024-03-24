@@ -17,7 +17,7 @@ loot replace entity @s hotbar.5 loot ssbrc:fighters/zelda/inventory_refresh
 
 function ssbrc:fighters/zelda/logic/passive_items/apply
 
-scoreboard players operation @s mana = #zelda.maxMagic vars
+scoreboard players operation @s mana = zelda.magic.max vars
 
 scoreboard players reset @s fuse
 tag @s remove activeFuse

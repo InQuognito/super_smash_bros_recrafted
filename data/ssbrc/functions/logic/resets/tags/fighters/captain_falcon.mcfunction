@@ -1,4 +1,4 @@
 tag @s remove captain_falcon
 
-tag @s remove falconPunched
-tag @s remove falconPunchMissed
+tag @s remove falcon_punched
+tag @s remove falcon_punchMissed

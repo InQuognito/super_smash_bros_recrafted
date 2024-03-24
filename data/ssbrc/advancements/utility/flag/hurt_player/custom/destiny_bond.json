@@ -25,7 +25,7 @@
 					},
 					"type": {
 						"direct_entity": {
-							"nbt": "{Tags:[\"damage.destinyBond\"]}"
+							"nbt": "{Tags:[\"damage.destiny_bond\"]}"
 						}
 					}
 				}

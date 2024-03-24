@@ -4,4 +4,4 @@ execute if entity @s[predicate=ssbrc:fighters/effects/has/poison] run particle m
 
 execute if score @s frostbiteTimer matches 1.. run function ssbrc:logic/fighters/attributes/modifiers/frostbite/tick
 
-execute if entity @e[type=minecraft:marker,tag=electricTerrain,distance=..12] if block ~ ~ ~ minecraft:water run damage @s 6.0 ssbrc:pierce
+execute if entity @e[type=minecraft:marker,tag=electric_terrain,distance=..12] if block ~ ~ ~ minecraft:water run damage @s 6.0 ssbrc:pierce

@@ -5,7 +5,7 @@
 			"conditions": {
 				"damage": {
 					"source_entity": {
-						"nbt": "{Tags:[\"bladeBeam\"]}"
+						"nbt": "{Tags:[\"blade_beam\"]}"
 					}
 				}
 			}

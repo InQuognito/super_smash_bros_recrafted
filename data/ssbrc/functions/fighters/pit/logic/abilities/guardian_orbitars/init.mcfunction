@@ -1,4 +1,4 @@
-tag @s add guardianOrbitar
+tag @s add guardian_orbitar
 
 execute if entity @p[tag=self,tag=!gold] run tag @s add default
 execute if entity @p[tag=self,tag=gold] run tag @s add gold

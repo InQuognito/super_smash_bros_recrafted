@@ -1,4 +1,4 @@
-function ssbrc:logic/fighters/replace_item {old:"propellerDagger",new:"mega_man/pile_driver"}
+function ssbrc:logic/fighters/replace_item {old:"propeller_dagger",new:"mega_man/pile_driver"}
 
-scoreboard players operation @s cooldown.2 = mega_man.propellerDaggerCooldown vars
+scoreboard players operation @s cooldown.2 = mega_man.propeller_dagger.cooldown vars
 execute if score @s shadow.chaosControl matches 1.. run function ssbrc:logic/fighters/cooldown_modifiers/chaos_control {type:"2"}

@@ -22,8 +22,8 @@ execute if score hazards options matches 1 if score gameMode options matches 1 i
 
 # Bonuses
 scoreboard players reset @s coward.timer
-scoreboard players reset @s noJohns
-scoreboard players reset @s rapidKill.timer
+scoreboard players reset @s no_johns
+scoreboard players reset @s rapid_kill.timer
 
 # Logic
 function ssbrc:logic/stats/deaths

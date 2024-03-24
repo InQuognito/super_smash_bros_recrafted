@@ -1,4 +1,4 @@
-scoreboard players set @s 8PlayerMatch 0
+scoreboard players set @s 8_player_match 0
 
 scoreboard players set @s acrobat 0
 
@@ -6,63 +6,63 @@ scoreboard players set @s aerialist 0
 
 scoreboard players set @s armistice 0
 
-#scoreboard players set @s cementShoes 0
+#scoreboard players set @s cement_shoes 0
 
-scoreboard players set @s firstStrike 0
+scoreboard players set @s first_strike 0
 
-scoreboard players set @s fullPower 0
+scoreboard players set @s full_power 0
 
-scoreboard players set @s goodFriend 0
+scoreboard players set @s good_friend 0
 
 scoreboard players set @s heartgold 0
 
-scoreboard players set @s heavyDamage 0
+scoreboard players set @s heavy_damage 0
 
-scoreboard players set @s lastSecond 0
+scoreboard players set @s last_second 0
 
-scoreboard players set @s luckyNumberSeven 0
+scoreboard players set @s lucky_number_seven 0
 
-scoreboard players set @s mercifulMaster 0
+scoreboard players set @s merciful_master 0
 
-scoreboard players set @s noJohns 0
+scoreboard players set @s no_johns 0
 
-scoreboard players set @s onARoll 0
+scoreboard players set @s on_a_roll 0
 
-scoreboard players set @s speedDemon 0
+scoreboard players set @s speed_demon 0
 
-scoreboard players set @s stiffKnees 0
+scoreboard players set @s stiff_knees 0
 
-scoreboard players set @s suddenDeath 0
+scoreboard players set @s sudden_death 0
 
 scoreboard players set @s switzerland 0
 
 scoreboard players set @s tortoise 0
 
-scoreboard players set @s trulyHeroic 0
+scoreboard players set @s truly_heroic 0
 
-scoreboard players set @s trulyVillainous 0
+scoreboard players set @s truly_villainous 0
 
-scoreboard players set @s WACCoordinator 0
+scoreboard players set @s wac_coordinator 0
 
-scoreboard players set @s yearLongBattle 0
+scoreboard players set @s year_long_battle 0
 
 scoreboard players set @s 765o 0
 
-scoreboard players set @s bankShot 0
+scoreboard players set @s bank_shot 0
 
-scoreboard players set @s crushingWeight 0
+scoreboard players set @s crushing_weight 0
 
-scoreboard players set @s ionZoneProtection 0
+scoreboard players set @s ion_zone_protection 0
 
-scoreboard players set @s NPCKO 0
+scoreboard players set @s npc_ko 0
 
-scoreboard players set @s rapidKill 0
+scoreboard players set @s rapid_kill 0
 
 scoreboard players set @s revenge 0
 
-scoreboard players set @s shieldBreaker 0
+scoreboard players set @s shield_breaker 0
 
-scoreboard players set @s shinyEncounter 0
+scoreboard players set @s shiny_encounter 0
 
 scoreboard players set @s sniper 0
 

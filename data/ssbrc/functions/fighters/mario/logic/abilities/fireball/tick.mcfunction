@@ -7,9 +7,9 @@ function ssbrc:logic/fighters/checks/hit
 
 execute store result entity @s Rotation[1] float 0.25 run scoreboard players get @s point
 
-execute if score @s point < #mario.fireballMaxRotation vars run scoreboard players operation @s point -= @s slope
-execute if score @s point > #mario.fireballMaxRotation vars run scoreboard players operation @s point = #mario.fireballMaxRotation vars
-execute if score @s point < #mario.fireballMaxRotation vars run scoreboard players remove @s slope 20
+execute if score @s point < mario.fireball.rotation vars run scoreboard players operation @s point -= @s slope
+execute if score @s point > mario.fireball.rotation vars run scoreboard players operation @s point = mario.fireball.rotation vars
+execute if score @s point < mario.fireball.rotation vars run scoreboard players remove @s slope 20
 
 execute if score @s point > 0 integers unless block ~ ~-0.6 ~ #ssbrc:passthrough run function ssbrc:fighters/mario/logic/abilities/fireball/bounce
 

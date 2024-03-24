@@ -20,7 +20,7 @@
 						"italic": false
 					},
 					{
-						"translate": "ssbrc.tooltips.dark_samus.phazonBeam.description.1",
+						"translate": "ssbrc.tooltips.dark_samus.phazon_beam.description.1",
 						"color": "gray",
 						"bold": false,
 						"italic": false
@@ -52,7 +52,7 @@
 						"italic": false
 					},
 					{
-						"translate": "ssbrc.tooltips.dark_samus.phazonBeam.description.2",
+						"translate": "ssbrc.tooltips.dark_samus.phazon_beam.description.2",
 						"color": "gray",
 						"bold": false,
 						"italic": false
@@ -99,6 +99,6 @@
 	},
 	{
 		"function": "minecraft:set_nbt",
-		"tag": "{phazonBeam:1}"
+		"tag": "{phazon_beam:1}"
 	}
 ]

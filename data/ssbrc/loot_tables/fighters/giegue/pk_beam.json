@@ -12,7 +12,7 @@
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"translate": "ssbrc.tooltips.giegue.pkBeam",
+								"translate": "ssbrc.tooltips.giegue.pk_beam",
 								"color": "gold",
 								"bold": true,
 								"italic": false,
@@ -51,7 +51,7 @@
 											"italic": false
 										},
 										{
-											"translate": "ssbrc.tooltips.giegue.pkBeam.description.1",
+											"translate": "ssbrc.tooltips.giegue.pk_beam.description.1",
 											"color": "gray",
 											"bold": false,
 											"italic": false
@@ -63,7 +63,7 @@
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{pkBeam:1,CustomModelData:1862}"
+							"tag": "{pk_beam:1,CustomModelData:1862}"
 						}
 					]
 				}

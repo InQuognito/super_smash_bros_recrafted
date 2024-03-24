@@ -12,7 +12,7 @@
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"translate": "ssbrc.tooltips.greninja.waterShuriken",
+								"translate": "ssbrc.tooltips.greninja.water_shuriken",
 								"color": "blue",
 								"bold": true,
 								"italic": false
@@ -39,7 +39,7 @@
 											"italic": false
 										},
 										{
-											"translate": "ssbrc.tooltips.greninja.waterShuriken.description.1",
+											"translate": "ssbrc.tooltips.greninja.water_shuriken.description.1",
 											"color": "gray",
 											"bold": false,
 											"italic": false
@@ -51,7 +51,7 @@
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{waterShuriken:1,CustomModelData:421}"
+							"tag": "{water_shuriken:1,CustomModelData:421}"
 						}
 					]
 				}

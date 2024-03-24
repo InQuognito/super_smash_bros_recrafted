@@ -1,6 +1,6 @@
 execute positioned ^ ^ ^1 run function ssbrc:fighters/sora/logic/abilities/blizzaga/projectile
 
-scoreboard players operation @s mana -= #sora.blizzagaMPCost vars
+scoreboard players operation @s mana -= sora.blizzaga.cost vars
 
 scoreboard players set @s cooldown.1 40
 scoreboard players operation @s[tag=wisdom] cooldown.1 /= 2 integers

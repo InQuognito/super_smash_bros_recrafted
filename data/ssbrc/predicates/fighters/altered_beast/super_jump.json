@@ -15,7 +15,7 @@
 					"type": "minecraft:score",
 					"target": {
 						"type": "minecraft:fixed",
-						"name": "#altered_beast.super_jump_threshold"
+						"name": "#altered_beast.super_jump.threshold"
 					},
 					"score": "vars"
 				}

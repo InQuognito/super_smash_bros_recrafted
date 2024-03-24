@@ -3,7 +3,7 @@
 		"function": "minecraft:set_name",
 		"entity": "this",
 		"name": {
-			"translate": "ssbrc.tooltips.shovel_knight.phaseLocket",
+			"translate": "ssbrc.tooltips.shovel_knight.phase_locket",
 			"color": "gray",
 			"bold": true,
 			"italic": false

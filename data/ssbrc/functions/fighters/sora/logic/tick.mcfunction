@@ -9,8 +9,8 @@ execute if score @s health matches ..6 run function ssbrc:fighters/sora/logic/lo
 function ssbrc:fighters/sora/logic/mana/update
 
 # Drive Forms
-execute if entity @s[scores={useAbility=1..},nbt={SelectedItem:{tag:{valor:1}}}] run tag @s add driveForm.valor
-execute if entity @s[scores={useAbility=1..},nbt={SelectedItem:{tag:{wisdom:1}}}] run tag @s add driveForm.wisdom
+execute if entity @s[scores={useAbility=1..},nbt={SelectedItem:{tag:{valor:1}}}] run tag @s add drive.threshold.basic.valor
+execute if entity @s[scores={useAbility=1..},nbt={SelectedItem:{tag:{wisdom:1}}}] run tag @s add drive.threshold.basic.wisdom
 execute if entity @s[predicate=ssbrc:fighters/sora/drive_form_check] run function ssbrc:fighters/sora/logic/drive_forms/anti_check
 execute if score @s duration.1 matches 1 run function ssbrc:fighters/sora/logic/drive_forms/default
 

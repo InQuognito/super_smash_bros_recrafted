@@ -1,4 +1,4 @@
-tag @s add wolfFlash
+tag @s add wolf_flash
 
 teleport @s ~ ~ ~ 0.0 -15.0
 

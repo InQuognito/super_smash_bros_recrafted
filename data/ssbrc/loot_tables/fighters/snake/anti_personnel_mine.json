@@ -33,7 +33,7 @@
 											"italic": false
 										},
 										{
-											"translate": "ssbrc.tooltips.snake.antiPersonnelMine.description.1",
+											"translate": "ssbrc.tooltips.snake.anti_personnel_mine.description.1",
 											"color": "gray",
 											"bold": false,
 											"italic": false
@@ -41,7 +41,7 @@
 									]
 								},
 								{
-									"translate": "ssbrc.tooltips.snake.antiPersonnelMine.description.2",
+									"translate": "ssbrc.tooltips.snake.anti_personnel_mine.description.2",
 									"color": "gray",
 									"bold": false,
 									"italic": false
@@ -80,7 +80,7 @@
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{antiPersonnelMine:1}"
+							"tag": "{anti_personnel_mine:1}"
 						}
 					]
 				}

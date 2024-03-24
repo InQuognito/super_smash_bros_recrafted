@@ -1,4 +1,4 @@
-tag @s add steedCharge
+tag @s add steed_charge
 tag @s add noKill
 
 execute if entity @p[tag=self,tag=!gold] run tag @s add default

@@ -3,7 +3,7 @@
 	"damage": {
 		"type": "minecraft:score",
 		"target": "this",
-		"score": "yar.droneHealth"
+		"score": "yar.drone.health"
 	},
 	"add": false
 }

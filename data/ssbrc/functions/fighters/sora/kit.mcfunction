@@ -1,6 +1,6 @@
 function ssbrc:fighters/sora/logic/drive_forms/reset
 
-scoreboard players operation @s mana = #sora.maxMP vars
+scoreboard players operation @s mana = sora.mp.max vars
 
 loot replace entity @s hotbar.0 loot ssbrc:fighters/sora/keyblades/primary/fire
 

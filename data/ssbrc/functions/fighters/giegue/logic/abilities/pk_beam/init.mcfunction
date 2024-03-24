@@ -1,3 +1,3 @@
-tag @s add pkBeam
+tag @s add pk_beam
 
 function ssbrc:logic/init/projectile

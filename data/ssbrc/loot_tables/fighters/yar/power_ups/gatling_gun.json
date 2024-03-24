@@ -12,7 +12,7 @@
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"translate": "ssbrc.tooltips.yar.gatlingGun",
+								"translate": "ssbrc.tooltips.yar.gatling_gun",
 								"color": "gold",
 								"bold": true,
 								"italic": false
@@ -45,7 +45,7 @@
 											"italic": false,
 											"extra": [
 												{
-													"translate": "ssbrc.tooltips.yar.rayBlaster",
+													"translate": "ssbrc.tooltips.yar.ray_blaster",
 													"color": "gray",
 													"bold": false,
 													"italic": false
@@ -57,7 +57,7 @@
 													"italic": false
 												},
 												{
-													"translate": "ssbrc.tooltips.yar.gatlingGun",
+													"translate": "ssbrc.tooltips.yar.gatling_gun",
 													"color": "gray",
 													"bold": false,
 													"italic": false
@@ -71,7 +71,7 @@
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{powerUp:1,gatlingGun:1,CustomModelData:1967}"
+							"tag": "{powerUp:1,gatling_gun:1,CustomModelData:1967}"
 						}
 					]
 				}

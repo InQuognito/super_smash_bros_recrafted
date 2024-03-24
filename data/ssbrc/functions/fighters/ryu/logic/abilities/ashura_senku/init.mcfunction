@@ -1,4 +1,4 @@
-tag @s add ashuraSenku
+tag @s add ashura_senku
 tag @s add chargeAttack
 
 execute if entity @p[tag=self,tag=default] run tag @s add default

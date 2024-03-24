@@ -3,7 +3,7 @@
 		"function": "minecraft:set_name",
 		"entity": "this",
 		"name": {
-			"translate": "ssbrc.tooltips.jigglypuff.hyperVoice",
+			"translate": "ssbrc.tooltips.jigglypuff.hyper_voice",
 			"color": "gold",
 			"bold": true,
 			"italic": false

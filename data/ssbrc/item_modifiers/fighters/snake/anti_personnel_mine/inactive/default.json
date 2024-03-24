@@ -3,7 +3,7 @@
 		"function": "minecraft:set_name",
 		"entity": "this",
 		"name": {
-			"translate": "ssbrc.fighters.snake.antiPersonnelMine",
+			"translate": "ssbrc.fighters.snake.anti_personnel_mine",
 			"color": "green",
 			"bold": true,
 			"italic": false

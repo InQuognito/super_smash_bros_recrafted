@@ -1,5 +1,5 @@
-tag @s remove warHornActive
+tag @s remove war_hornActive
 
 function ssbrc:logic/fighters/effects/mobility/mobilize
 
-function ssbrc:logic/fighters/replace_item {old:"warHorn",new:"shovel_knight/war_horn/disabled"}
+function ssbrc:logic/fighters/replace_item {old:"war_horn",new:"shovel_knight/war_horn/disabled"}

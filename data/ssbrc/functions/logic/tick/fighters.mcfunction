@@ -75,14 +75,14 @@ execute at @s[tag=immobile] run function ssbrc:logic/fighters/effects/mobility/t
 
 execute at @s[tag=pivot,tag=!immobile] unless predicate ssbrc:flag/in_air run function ssbrc:logic/fighters/effects/mobility/immobilize/pivot/activate
 
-scoreboard players add @s[tag=immobile.pkFlash] timer.pkFlash 1
-execute if score @s timer.pkFlash matches 40.. run function ssbrc:fighters/ness/logic/abilities/pk_flash/damage/mobilize
+scoreboard players add @s[tag=immobile.pk_flash] timer.pk_flash 1
+execute if score @s timer.pk_flash matches 40.. run function ssbrc:fighters/ness/logic/abilities/pk_flash/damage/mobilize
 
 scoreboard players add @s[tag=armorBreak] armorBreak 1
 execute if score @s armorBreak matches 60.. run function ssbrc:fighters/pokemon_trainer/logic/charizard/rock_smash/deactivate
 
-execute if entity @s[tag=leechSeed] run function ssbrc:fighters/pokemon_trainer/logic/ivysaur/leech_seed/calculate
-execute if score @s leechSeedStacks matches 1.. run function ssbrc:fighters/pokemon_trainer/logic/ivysaur/leech_seed/calculate_healing
+execute if entity @s[tag=leech_seed] run function ssbrc:fighters/pokemon_trainer/logic/ivysaur/leech_seed/calculate
+execute if score @s leech_seedStacks matches 1.. run function ssbrc:fighters/pokemon_trainer/logic/ivysaur/leech_seed/calculate_healing
 
 scoreboard players remove @s[scores={flinch=1..}] flinch 1
 execute if score @s flinch matches 1 run function ssbrc:logic/fighters/effects/mobility/mobilize
@@ -99,6 +99,6 @@ execute if score $sandOcean map matches 1 if score hazards options matches 1 at 
 # Bonuses
 execute unless score @s aerialist matches 1.. at @s run function ssbrc:logic/fighters/bonuses/aerialist/tick
 execute if score @s revenge.tracking matches 0.. at @s run function ssbrc:logic/fighters/bonuses/revenge/tick
-scoreboard players reset @s[scores={stiffKnees=1..},predicate=ssbrc:flag/sneaking] stiffKnees
+scoreboard players reset @s[scores={stiff_knees=1..},predicate=ssbrc:flag/sneaking] stiff_knees
 scoreboard players reset @s[scores={tortoise=1..},predicate=ssbrc:flag/sprinting] tortoise
-scoreboard players remove @s[scores={rapidKill.timer=1..}] rapidKill.timer 1
+scoreboard players remove @s[scores={rapid_kill.timer=1..}] rapid_kill.timer 1

@@ -1,6 +1,6 @@
 scoreboard players operation #percentage temp = @s charge.1
 scoreboard players operation #percentage temp *= 100 integers
-scoreboard players operation #percentage temp /= #bowser.maxFireBreath vars
+scoreboard players operation #percentage temp /= bowser.fire_breath.max vars
 
 execute if score #percentage temp matches 0 run title @s actionbar ""
 execute if score #percentage temp matches 1..10 run title @s actionbar {"translate":"\u25ae","color":"red"}

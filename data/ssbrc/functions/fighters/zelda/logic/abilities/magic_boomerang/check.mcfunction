@@ -1,4 +1,4 @@
-scoreboard players operation #magicBoomerangMagicCost temp = #zelda.magicBoomerangMagicCost vars
-execute if score @s zelda.halfMagic matches 1.. run scoreboard players operation #magicBoomerangMagicCost temp /= 2 integers
+scoreboard players operation zelda.magic_boomerang.cost temp = zelda.magic_boomerang.cost vars
+execute if score @s zelda.halfMagic matches 1.. run scoreboard players operation zelda.magic_boomerang.cost temp /= 2 integers
 
-execute if score @s mana >= #magicBoomerangMagicCost temp at @s anchored eyes run function ssbrc:fighters/zelda/logic/abilities/magic_boomerang/activate
+execute if score @s mana >= zelda.magic_boomerang.cost temp at @s anchored eyes run function ssbrc:fighters/zelda/logic/abilities/magic_boomerang/activate

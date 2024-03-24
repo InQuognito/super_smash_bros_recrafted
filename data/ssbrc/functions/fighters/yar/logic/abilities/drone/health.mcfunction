@@ -1,5 +1,5 @@
-scoreboard players operation indicator.cooldownType temp = @s yar.droneHealth
-scoreboard players operation indicator.cooldownAmount temp = yar.droneHealth vars
+scoreboard players operation indicator.cooldownType temp = @s yar.drone.health
+scoreboard players operation indicator.cooldownAmount temp = yar.drone.health vars
 
 scoreboard players set indicator.damage temp 100
 scoreboard players operation indicator.cooldown temp = indicator.cooldownType temp

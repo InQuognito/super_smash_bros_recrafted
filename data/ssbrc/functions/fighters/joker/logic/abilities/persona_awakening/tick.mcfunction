@@ -3,16 +3,16 @@ execute if entity @s[scores={useAbility=1..,cooldown.1=..0}] run function ssbrc:
 # Amrita Shower
 execute if entity @s[tag=highPixie,scores={duration.3=1..}] as @a[predicate=ssbrc:flag/player,predicate=ssbrc:team_match] run function ssbrc:logic/fighters/effects/cleanse
 
-execute if entity @s[tag=highPixie] run function ssbrc:logic/fighters/cooldown {item:"amritaShower",type:"1",amount:"joker.amritaShowerCooldown"}
+execute if entity @s[tag=highPixie] run function ssbrc:logic/fighters/cooldown {item:"amrita_shower",type:"1",amount:"joker.amrita_shower.cooldown"}
 
 # Eiagon
-execute if entity @s[tag=arsene] run function ssbrc:logic/fighters/cooldown {item:"eiagon",type:"1",amount:"joker.eiagonCooldown"}
+execute if entity @s[tag=arsene] run function ssbrc:logic/fighters/cooldown {item:"eiagon",type:"1",amount:"joker.eiagon.cooldown"}
 
 # Hama
-execute if entity @s[tag=archangel] run function ssbrc:logic/fighters/cooldown {item:"hama",type:"1",amount:"joker.hamaCooldown"}
+execute if entity @s[tag=archangel] run function ssbrc:logic/fighters/cooldown {item:"hama",type:"1",amount:"joker.hama.cooldown"}
 
 # Phantom Show
-execute if entity @s[tag=raoul] run function ssbrc:logic/fighters/cooldown {item:"phantomShow",type:"1",amount:"joker.phantomShowCooldown"}
+execute if entity @s[tag=raoul] run function ssbrc:logic/fighters/cooldown {item:"phantom_show",type:"1",amount:"joker.phantom_show.cooldown"}
 
 
 

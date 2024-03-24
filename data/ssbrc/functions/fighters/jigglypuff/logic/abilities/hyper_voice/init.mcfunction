@@ -1,4 +1,4 @@
-tag @s add hyperVoice
+tag @s add hyper_voice
 
 execute if entity @p[tag=self,tag=default] run tag @s add pink
 execute if entity @p[tag=self,tag=gold] run tag @s add gold

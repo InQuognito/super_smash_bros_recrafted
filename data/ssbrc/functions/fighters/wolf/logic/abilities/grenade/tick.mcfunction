@@ -1,6 +1,6 @@
 scoreboard players operation #percentage temp = @s temp
 scoreboard players operation #percentage temp *= 100 integers
-scoreboard players operation #percentage temp /= #wolf.grenadeTimer vars
+scoreboard players operation #percentage temp /= wolf.grenade.timer vars
 
 execute if score #percentage temp matches 0 run item modify entity @s armor.head ssbrc:fighters/wolf/grenade/beep
 execute if score #percentage temp matches 5 run item modify entity @s armor.head ssbrc:fighters/wolf/grenade/default

@@ -1,4 +1,4 @@
-tag @s add smokeGrenade
+tag @s add smoke_grenade
 
 loot replace entity @s armor.head loot ssbrc:fighters/snake/smoke_grenade
 

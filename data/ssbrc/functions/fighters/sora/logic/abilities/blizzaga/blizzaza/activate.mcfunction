@@ -2,7 +2,7 @@ scoreboard players add @s charge.4 1
 
 execute positioned ^ ^ ^1 run function ssbrc:fighters/sora/logic/abilities/blizzaga/blizzaza/projectile
 
-scoreboard players operation #blizzazaCost temp = #sora.blizzazaMPCost vars
+scoreboard players operation #blizzazaCost temp = sora.blizzaza.cost vars
 execute if score @s charge.4 matches 3.. run scoreboard players operation #blizzazaCost temp *= 4 integers
 scoreboard players operation @s mana -= #blizzazaCost temp
 

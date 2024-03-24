@@ -135,9 +135,9 @@ execute if score @s[tag=snake,tag=s1000] characterTrigger matches 1525 run funct
 execute if score @s[tag=snake] characterTrigger matches 1526 run function ssbrc:fighters/snake/menu/loadout/socom/check
 execute if score @s[tag=snake,tag=socom] characterTrigger matches 1527 run function ssbrc:fighters/snake/menu/loadout/socom/deselect
 execute if score @s[tag=snake] characterTrigger matches 1528 run function ssbrc:fighters/snake/menu/loadout/anti_personnel_mine/check
-execute if score @s[tag=snake,tag=antiPersonnelMine] characterTrigger matches 1529 run function ssbrc:fighters/snake/menu/loadout/anti_personnel_mine/deselect
+execute if score @s[tag=snake,tag=anti_personnel_mine] characterTrigger matches 1529 run function ssbrc:fighters/snake/menu/loadout/anti_personnel_mine/deselect
 execute if score @s[tag=snake] characterTrigger matches 1530 run function ssbrc:fighters/snake/menu/loadout/smoke_grenade/check
-execute if score @s[tag=snake,tag=smokeGrenade] characterTrigger matches 1531 run function ssbrc:fighters/snake/menu/loadout/smoke_grenade/deselect
+execute if score @s[tag=snake,tag=smoke_grenade] characterTrigger matches 1531 run function ssbrc:fighters/snake/menu/loadout/smoke_grenade/deselect
 
 execute if score @s[tag=sonic] menu matches 1544 run function ssbrc:fighters/sonic/menu/skins/default
 execute if score @s[tag=sonic] menu matches 1545 run function ssbrc:fighters/sonic/menu/skins/gold

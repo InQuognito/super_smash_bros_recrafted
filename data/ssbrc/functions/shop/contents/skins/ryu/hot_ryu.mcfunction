@@ -1,6 +1,6 @@
 advancement grant @s only ssbrc:fighters/ryu/skins/hot_ryu
 
-scoreboard players operation @s stats.credits -= #price.skin.common vars
+scoreboard players operation @s stats.credits -= price.skin.common vars
 
 tellraw @s [{"translate":"ssbrc.shop.purchase.skin","color":"white"},{"translate":"ssbrc.fighters.ryu.skin.hotRyu","color":"white"}]
 

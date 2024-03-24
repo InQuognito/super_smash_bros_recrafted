@@ -1,4 +1,4 @@
-tag @s add chaosBlast
+tag @s add chaos_blast
 
 execute if entity @p[tag=self,limit=1,tag=red] run tag @s add red
 execute if entity @p[tag=self,limit=1,tag=gold] run tag @s add gold

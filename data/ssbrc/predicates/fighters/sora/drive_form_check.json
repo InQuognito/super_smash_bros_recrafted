@@ -5,14 +5,14 @@
 			"condition": "minecraft:entity_properties",
 			"entity": "this",
 			"predicate": {
-				"nbt": "{Tags:[\"driveForm.valor\"]}"
+				"nbt": "{Tags:[\"drive.threshold.basic.valor\"]}"
 			}
 		},
 		{
 			"condition": "minecraft:entity_properties",
 			"entity": "this",
 			"predicate": {
-				"nbt": "{Tags:[\"driveForm.wisdom\"]}"
+				"nbt": "{Tags:[\"drive.threshold.basic.wisdom\"]}"
 			}
 		}
 	]

@@ -12,7 +12,7 @@
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"translate": "ssbrc.tooltips.ness.pkFlash",
+								"translate": "ssbrc.tooltips.ness.pk_flash",
 								"color": "green",
 								"bold": true,
 								"italic": false,
@@ -51,7 +51,7 @@
 											"italic": false
 										},
 										{
-											"translate": "ssbrc.tooltips.ness.pkFlash.description.1",
+											"translate": "ssbrc.tooltips.ness.pk_flash.description.1",
 											"color": "gray",
 											"bold": false,
 											"italic": false
@@ -71,7 +71,7 @@
 											"italic": false
 										},
 										{
-											"translate": "ssbrc.tooltips.ness.pkFlash.description.2",
+											"translate": "ssbrc.tooltips.ness.pk_flash.description.2",
 											"color": "gray",
 											"bold": false,
 											"italic": false
@@ -79,7 +79,7 @@
 									]
 								},
 								{
-									"translate": "ssbrc.tooltips.ness.pkFlash.description.3",
+									"translate": "ssbrc.tooltips.ness.pk_flash.description.3",
 									"color": "gray",
 									"bold": false,
 									"italic": false
@@ -97,7 +97,7 @@
 											"italic": false
 										},
 										{
-											"translate": "ssbrc.tooltips.ness.pkFlash.description.4",
+											"translate": "ssbrc.tooltips.ness.pk_flash.description.4",
 											"color": "gray",
 											"bold": false,
 											"italic": false
@@ -109,7 +109,7 @@
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{pkFlash:1,CustomModelData:1082}"
+							"tag": "{pk_flash:1,CustomModelData:1082}"
 						}
 					]
 				}

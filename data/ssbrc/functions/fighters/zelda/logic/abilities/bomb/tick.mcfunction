@@ -2,7 +2,7 @@ particle minecraft:smoke ~ ~0.75 ~ 0.0 0.0 0.0 0.01 1 normal @a
 
 scoreboard players operation #percentage temp = @s temp
 scoreboard players operation #percentage temp *= 100 integers
-scoreboard players operation #percentage temp /= #zelda.bombTimer vars
+scoreboard players operation #percentage temp /= zelda.bomb.timer vars
 
 execute if score #percentage temp matches 90 run item modify entity @s armor.head ssbrc:fighters/zelda/bomb/red
 execute if score #percentage temp matches 95 run item modify entity @s armor.head ssbrc:fighters/zelda/bomb/white

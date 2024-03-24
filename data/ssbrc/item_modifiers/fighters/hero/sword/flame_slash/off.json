@@ -13,6 +13,6 @@
 	},
 	{
 		"function": "minecraft:set_nbt",
-		"tag": "{flameSlash:0}"
+		"tag": "{flame_slash:0}"
 	}
 ]

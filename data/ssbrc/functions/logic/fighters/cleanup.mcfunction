@@ -25,14 +25,14 @@ tag @s remove tornado.spin
 # Kill objects belonging to dead player
 scoreboard players operation idToMatch temp = @s id
 
-execute if entity @s[tag=byleth] run kill @e[type=minecraft:horse,tag=steedCharge,predicate=ssbrc:id_match]
-execute if entity @s[tag=captain_falcon] run kill @e[type=minecraft:marker,tag=raptorBoost,predicate=ssbrc:id_match]
-execute if entity @s[tag=fox] run kill @e[type=minecraft:marker,tag=fireFox,predicate=ssbrc:id_match]
-execute if entity @s[tag=greninja] run kill @e[type=minecraft:marker,tag=shadowSneak,predicate=ssbrc:id_match]
+execute if entity @s[tag=byleth] run kill @e[type=minecraft:horse,tag=steed_charge,predicate=ssbrc:id_match]
+execute if entity @s[tag=captain_falcon] run kill @e[type=minecraft:marker,tag=raptor_boost,predicate=ssbrc:id_match]
+execute if entity @s[tag=fox] run kill @e[type=minecraft:marker,tag=fire_fox,predicate=ssbrc:id_match]
+execute if entity @s[tag=greninja] run kill @e[type=minecraft:marker,tag=shadow_sneak,predicate=ssbrc:id_match]
 execute if entity @s[tag=link] run kill @e[type=minecraft:item_display,tag=link.boomerang,predicate=ssbrc:id_match]
-execute if entity @s[tag=pokemon_trainer,tag=charizard] run kill @e[type=minecraft:marker,tag=flareBlitz,predicate=ssbrc:id_match]
+execute if entity @s[tag=pokemon_trainer,tag=charizard] run kill @e[type=minecraft:marker,tag=flare_blitz,predicate=ssbrc:id_match]
 execute if entity @s[tag=pokemon_trainer,tag=ivysaur] run function ssbrc:fighters/pokemon_trainer/logic/ivysaur/leech_seed/kill
-execute if entity @s[tag=ryu] run kill @e[type=minecraft:marker,tag=tatsumakiSenpukyaku,predicate=ssbrc:id_match]
+execute if entity @s[tag=ryu] run kill @e[type=minecraft:marker,tag=tatsumaki_senpukyaku,predicate=ssbrc:id_match]
 execute if entity @s[tag=shovel_knight] run function ssbrc:fighters/shovel_knight/logic/kill_entities
 execute if entity @s[tag=yar] run kill @e[type=minecraft:bee,tag=drone,predicate=ssbrc:id_match]
 execute if entity @s[tag=zelda] run function ssbrc:fighters/zelda/logic/kill_entities

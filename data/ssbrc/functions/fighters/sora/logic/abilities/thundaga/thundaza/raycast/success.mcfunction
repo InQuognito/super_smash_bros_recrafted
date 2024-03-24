@@ -1,7 +1,7 @@
 execute summon minecraft:marker run function ssbrc:fighters/sora/logic/abilities/thundaga/thundaza/init
 
-scoreboard players operation #thunderSpellMPCost temp = #sora.thundazaMPCost vars
-execute if entity @e[type=minecraft:marker,tag=electricTerrain,distance=..12] run scoreboard players operation #thunderSpellMPCost temp /= 2 integers
+scoreboard players operation #thunderSpellMPCost temp = sora.thundaza.cost vars
+execute if entity @e[type=minecraft:marker,tag=electric_terrain,distance=..12] run scoreboard players operation #thunderSpellMPCost temp /= 2 integers
 
 scoreboard players operation @s mana -= #thunderSpellMPCost temp
 

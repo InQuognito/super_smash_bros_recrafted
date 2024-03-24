@@ -1,7 +1,7 @@
 tag @s add naturalShiny
 tag @s add shiny
 
-scoreboard players add @a[predicate=ssbrc:flag/player] shinyEncounter 1
+scoreboard players add @a[predicate=ssbrc:flag/player] shiny_encounter 1
 
 advancement grant @s[tag=greninja,advancements={ssbrc:fighters/greninja/skins/shiny=false}] only ssbrc:fighters/greninja/skins/shiny
 advancement grant @s[tag=jigglypuff,advancements={ssbrc:fighters/jigglypuff/skins/shiny=false}] only ssbrc:fighters/jigglypuff/skins/shiny

@@ -46,7 +46,7 @@
 		"entity": "this",
 		"lore": [
 			{
-				"translate": "ssbrc.tooltips.superMarioBros.superJump",
+				"translate": "ssbrc.tooltips.superMarioBros.super_jump",
 				"color": "yellow",
 				"bold": false,
 				"italic": false,
@@ -65,7 +65,7 @@
 						"italic": false
 					},
 					{
-						"translate": "ssbrc.tooltips.superMarioBros.superJump.description.1",
+						"translate": "ssbrc.tooltips.superMarioBros.super_jump.description.1",
 						"color": "gray",
 						"bold": false,
 						"italic": false
@@ -73,13 +73,13 @@
 				]
 			},
 			{
-				"translate": "ssbrc.tooltips.superMarioBros.superJump.description.2",
+				"translate": "ssbrc.tooltips.superMarioBros.super_jump.description.2",
 				"color": "gray",
 				"bold": false,
 				"italic": false
 			},
 			{
-				"translate": "ssbrc.tooltips.mario.superJump.description.1",
+				"translate": "ssbrc.tooltips.mario.super_jump.description.1",
 				"color": "gray",
 				"bold": false,
 				"italic": false
@@ -101,7 +101,7 @@
 		"entity": "this",
 		"lore": [
 			{
-				"translate": "ssbrc.tooltips.superMarioBros.superJump",
+				"translate": "ssbrc.tooltips.superMarioBros.super_jump",
 				"color": "yellow",
 				"bold": false,
 				"italic": false,
@@ -120,7 +120,7 @@
 						"italic": false
 					},
 					{
-						"translate": "ssbrc.tooltips.superMarioBros.superJump.description.1",
+						"translate": "ssbrc.tooltips.superMarioBros.super_jump.description.1",
 						"color": "gray",
 						"bold": false,
 						"italic": false
@@ -128,13 +128,13 @@
 				]
 			},
 			{
-				"translate": "ssbrc.tooltips.superMarioBros.superJump.description.2",
+				"translate": "ssbrc.tooltips.superMarioBros.super_jump.description.2",
 				"color": "gray",
 				"bold": false,
 				"italic": false
 			},
 			{
-				"translate": "ssbrc.tooltips.luigi.superJump.description.1",
+				"translate": "ssbrc.tooltips.luigi.super_jump.description.1",
 				"color": "gray",
 				"bold": false,
 				"italic": false
@@ -315,7 +315,7 @@
 		"entity": "this",
 		"lore": [
 			{
-				"translate": "ssbrc.tooltips.fox.fireFox",
+				"translate": "ssbrc.tooltips.fox.fire_fox",
 				"color": "yellow",
 				"bold": false,
 				"italic": false,
@@ -334,7 +334,7 @@
 						"italic": false
 					},
 					{
-						"translate": "ssbrc.tooltips.fox.fireFox.description.1",
+						"translate": "ssbrc.tooltips.fox.fire_fox.description.1",
 						"color": "gray",
 						"bold": false,
 						"italic": false
@@ -407,7 +407,7 @@
 		"entity": "this",
 		"lore": [
 			{
-				"translate": "ssbrc.tooltips.greninja.shadowSneak",
+				"translate": "ssbrc.tooltips.greninja.shadow_sneak",
 				"color": "yellow",
 				"bold": false,
 				"italic": false,
@@ -426,7 +426,7 @@
 						"italic": false
 					},
 					{
-						"translate": "ssbrc.tooltips.greninja.shadowSneak.description.1",
+						"translate": "ssbrc.tooltips.greninja.shadow_sneak.description.1",
 						"color": "gray",
 						"bold": false,
 						"italic": false
@@ -434,13 +434,13 @@
 				]
 			},
 			{
-				"translate": "ssbrc.tooltips.greninja.shadowSneak.description.2",
+				"translate": "ssbrc.tooltips.greninja.shadow_sneak.description.2",
 				"color": "gray",
 				"bold": false,
 				"italic": false
 			},
 			{
-				"translate": "ssbrc.tooltips.greninja.shadowSneak.description.3",
+				"translate": "ssbrc.tooltips.greninja.shadow_sneak.description.3",
 				"color": "gray",
 				"bold": false,
 				"italic": false
@@ -511,7 +511,7 @@
 		"entity": "this",
 		"lore": [
 			{
-				"translate": "ssbrc.tooltips.pit.guardianOrbitars",
+				"translate": "ssbrc.tooltips.pit.guardian_orbitars",
 				"color": "yellow",
 				"bold": false,
 				"italic": false,
@@ -530,7 +530,7 @@
 						"italic": false
 					},
 					{
-						"translate": "ssbrc.tooltips.pit.guardianOrbitars.description.1",
+						"translate": "ssbrc.tooltips.pit.guardian_orbitars.description.1",
 						"color": "gray",
 						"bold": false,
 						"italic": false
@@ -538,13 +538,13 @@
 				]
 			},
 			{
-				"translate": "ssbrc.tooltips.pit.guardianOrbitars.description.2",
+				"translate": "ssbrc.tooltips.pit.guardian_orbitars.description.2",
 				"color": "gray",
 				"bold": false,
 				"italic": false
 			},
 			{
-				"translate": "ssbrc.tooltips.pit.guardianOrbitars.description.3",
+				"translate": "ssbrc.tooltips.pit.guardian_orbitars.description.3",
 				"color": "gray",
 				"bold": false,
 				"italic": false
@@ -615,7 +615,7 @@
 		"entity": "this",
 		"lore": [
 			{
-				"translate": "ssbrc.tooltips.ryu.tatsumakiSenpukyaku",
+				"translate": "ssbrc.tooltips.ryu.tatsumaki_senpukyaku",
 				"color": "yellow",
 				"bold": false,
 				"italic": false,
@@ -634,7 +634,7 @@
 						"italic": false
 					},
 					{
-						"translate": "ssbrc.tooltips.ryu.tatsumakiSenpukyaku.description.1",
+						"translate": "ssbrc.tooltips.ryu.tatsumaki_senpukyaku.description.1",
 						"color": "gray",
 						"bold": false,
 						"italic": false
@@ -642,7 +642,7 @@
 				]
 			},
 			{
-				"translate": "ssbrc.tooltips.ryu.tatsumakiSenpukyaku.description.2",
+				"translate": "ssbrc.tooltips.ryu.tatsumaki_senpukyaku.description.2",
 				"color": "gray",
 				"bold": false,
 				"italic": false
@@ -664,7 +664,7 @@
 		"entity": "this",
 		"lore": [
 			{
-				"translate": "ssbrc.tooltips.ryu.ashuraSenku",
+				"translate": "ssbrc.tooltips.ryu.ashura_senku",
 				"color": "yellow",
 				"bold": false,
 				"italic": false,
@@ -683,7 +683,7 @@
 						"italic": false
 					},
 					{
-						"translate": "ssbrc.tooltips.ryu.ashuraSenku.description.1",
+						"translate": "ssbrc.tooltips.ryu.ashura_senku.description.1",
 						"color": "gray",
 						"bold": false,
 						"italic": false

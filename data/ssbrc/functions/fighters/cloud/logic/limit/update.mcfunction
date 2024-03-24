@@ -1,6 +1,6 @@
 scoreboard players operation #percentage temp = @s cloud.limit
 scoreboard players operation #percentage temp *= 100 integers
-scoreboard players operation #percentage temp /= #cloud.maxLimit vars
+scoreboard players operation #percentage temp /= cloud.limit.max vars
 
 execute if score #percentage temp matches 0 run title @s actionbar ""
 execute if score #percentage temp matches 1..10 run title @s actionbar [{"translate":"ssbrc.fighters.cloud.limit","bold":true,"color":"white"},{"translate":"\u25ae","color":"red"},{"translate":"\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae","color":"dark_gray"}]
@@ -15,5 +15,5 @@ execute if score #percentage temp matches 81..90 run title @s actionbar [{"trans
 execute if score #percentage temp matches 91..99 run title @s actionbar [{"translate":"ssbrc.fighters.cloud.limit","bold":true,"color":"white"},{"translate":"\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae","color":"red"}]
 execute if score #percentage temp matches 100.. run title @s actionbar {"translate":"ssbrc.fighters.cloud.limitBreak","bold":true,"color":"blue"}
 
-execute if score @s cloud.limit = #cloud.maxLimit vars at @s run playsound ssbrc:fighters.cloud.limit.ready player @a
-execute if score @s cloud.limit > #cloud.maxLimit vars run scoreboard players operation @s cloud.limit = #cloud.maxLimit vars
+execute if score @s cloud.limit = cloud.limit.max vars at @s run playsound ssbrc:fighters.cloud.limit.ready player @a
+execute if score @s cloud.limit > cloud.limit.max vars run scoreboard players operation @s cloud.limit = cloud.limit.max vars

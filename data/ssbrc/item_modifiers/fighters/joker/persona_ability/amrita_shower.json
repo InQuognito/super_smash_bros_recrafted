@@ -16,7 +16,7 @@
 						"italic": false
 					},
 					{
-						"translate": "ssbrc.tooltips.joker.amritaShower.description.1",
+						"translate": "ssbrc.tooltips.joker.amrita_shower.description.1",
 						"color": "gray",
 						"bold": false,
 						"italic": false
@@ -24,7 +24,7 @@
 				]
 			},
 			{
-				"translate": "ssbrc.tooltips.joker.amritaShower.description.2",
+				"translate": "ssbrc.tooltips.joker.amrita_shower.description.2",
 				"color": "gray",
 				"bold": false,
 				"italic": false

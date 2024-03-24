@@ -1,11 +1,11 @@
 scoreboard players operation idToMatch temp = @s id
 execute positioned ~ ~0.75 ~ summon minecraft:marker run function ssbrc:fighters/shovel_knight/logic/abilities/war_horn/init
 
-tag @s add warHornActive
+tag @s add war_hornActive
 
 function ssbrc:logic/fighters/effects/mobility/immobilize/default
 
-scoreboard players operation @s mana -= #shovel_knight.warHornManaCost vars
+scoreboard players operation @s mana -= shovel_knight.war_horn.cost vars
 function ssbrc:fighters/shovel_knight/logic/check_relics
 
 scoreboard players set @s cooldown.2 300

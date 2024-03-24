@@ -33,7 +33,7 @@
 											"italic": false
 										},
 										{
-											"translate": "ssbrc.tooltips.luigi.iceBall.description.1",
+											"translate": "ssbrc.tooltips.luigi.ice_ball.description.1",
 											"color": "gray",
 											"bold": false,
 											"italic": false
@@ -86,7 +86,7 @@
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{iceBall:1}"
+							"tag": "{ice_ball:1}"
 						}
 					]
 				}

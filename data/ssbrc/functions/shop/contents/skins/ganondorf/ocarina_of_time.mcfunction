@@ -1,6 +1,6 @@
 advancement grant @s only ssbrc:fighters/ganondorf/skins/ocarina_of_time
 
-scoreboard players operation @s stats.credits -= #price.skin.common vars
+scoreboard players operation @s stats.credits -= price.skin.common vars
 
 tellraw @s [{"translate":"ssbrc.shop.purchase.skin","color":"white"},{"translate":"ssbrc.fighters.ganondorf.skin.ocarinaOfTime","color":"red"}]
 

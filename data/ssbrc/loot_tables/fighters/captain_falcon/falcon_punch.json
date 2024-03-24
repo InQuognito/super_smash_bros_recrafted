@@ -33,7 +33,7 @@
 											"italic": false
 										},
 										{
-											"translate": "ssbrc.tooltips.captain_falcon.falconPunch.description.1",
+											"translate": "ssbrc.tooltips.captain_falcon.falcon_punch.description.1",
 											"color": "gray",
 											"bold": false,
 											"italic": false
@@ -41,13 +41,13 @@
 									]
 								},
 								{
-									"translate": "ssbrc.tooltips.captain_falcon.falconPunch.description.2",
+									"translate": "ssbrc.tooltips.captain_falcon.falcon_punch.description.2",
 									"color": "gray",
 									"bold": false,
 									"italic": false
 								},
 								{
-									"translate": "ssbrc.tooltips.captain_falcon.falconPunch.description.3",
+									"translate": "ssbrc.tooltips.captain_falcon.falcon_punch.description.3",
 									"color": "gray",
 									"bold": false,
 									"italic": false
@@ -111,7 +111,7 @@
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{falconPunch:1}"
+							"tag": "{falcon_punch:1}"
 						}
 					]
 				}

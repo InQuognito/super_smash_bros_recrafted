@@ -1,6 +1,6 @@
 scoreboard players operation #percentage temp = @s fuse
 scoreboard players operation #percentage temp *= 100 integers
-scoreboard players operation #percentage temp /= #zelda.bombTimer vars
+scoreboard players operation #percentage temp /= zelda.bomb.timer vars
 
 execute if score #percentage temp matches 90 run item modify entity @s weapon.mainhand ssbrc:fighters/zelda/bomb/red
 execute if score #percentage temp matches 95 run item modify entity @s weapon.mainhand ssbrc:fighters/zelda/bomb/white

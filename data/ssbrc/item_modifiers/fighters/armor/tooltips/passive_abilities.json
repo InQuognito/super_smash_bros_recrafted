@@ -204,14 +204,14 @@
 		"entity": "this",
 		"lore": [
 			{
-				"translate": "ssbrc.tooltips.dark_samus.phazonSpikes",
+				"translate": "ssbrc.tooltips.dark_samus.phazon_spikes",
 				"color": "yellow",
 				"bold": false,
 				"italic": false,
 				"underlined": true
 			},
 			{
-				"translate": "ssbrc.tooltips.dark_samus.phazonSpikes.description.1",
+				"translate": "ssbrc.tooltips.dark_samus.phazon_spikes.description.1",
 				"color": "gray",
 				"bold": false,
 				"italic": false
@@ -448,14 +448,14 @@
 		"entity": "this",
 		"lore": [
 			{
-				"translate": "ssbrc.tooltips.joker.finalGuard",
+				"translate": "ssbrc.tooltips.joker.final_guard",
 				"color": "yellow",
 				"bold": false,
 				"italic": false,
 				"underlined": true
 			},
 			{
-				"translate": "ssbrc.tooltips.joker.finalGuard.description.1",
+				"translate": "ssbrc.tooltips.joker.final_guard.description.1",
 				"color": "gray",
 				"bold": false,
 				"italic": false

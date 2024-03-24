@@ -3,7 +3,7 @@
 		"function": "minecraft:set_name",
 		"entity": "this",
 		"name": {
-			"translate": "ssbrc.tooltips.yar.missileLauncher",
+			"translate": "ssbrc.tooltips.yar.missile_launcher",
 			"color": "white",
 			"bold": true,
 			"italic": false

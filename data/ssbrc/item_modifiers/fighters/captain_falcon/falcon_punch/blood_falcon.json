@@ -3,7 +3,7 @@
 		"function": "minecraft:set_name",
 		"entity": "this",
 		"name": {
-			"translate": "ssbrc.tooltips.captain_falcon.falconPunch",
+			"translate": "ssbrc.tooltips.captain_falcon.falcon_punch",
 			"color": "dark_red",
 			"bold": true,
 			"italic": false

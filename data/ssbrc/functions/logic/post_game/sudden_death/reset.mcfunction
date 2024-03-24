@@ -1,3 +1,3 @@
 scoreboard players set gameMode options 2
 
-scoreboard players reset suddenDeath options
+scoreboard players reset sudden_death options

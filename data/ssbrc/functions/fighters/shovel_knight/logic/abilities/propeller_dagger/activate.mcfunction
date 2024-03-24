@@ -2,7 +2,7 @@ particle minecraft:poof ~ ~0.75 ~ 0.2 0.4 0.2 0.01 25 normal @a
 
 execute summon minecraft:marker run function ssbrc:fighters/shovel_knight/logic/abilities/propeller_dagger/init
 
-scoreboard players operation @s mana -= #shovel_knight.propellerDaggerManaCost vars
+scoreboard players operation @s mana -= shovel_knight.propeller_dagger.cost vars
 function ssbrc:fighters/shovel_knight/logic/check_relics
 
 scoreboard players set @s duration.2 10

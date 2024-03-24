@@ -43,7 +43,7 @@
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{megaBuster:1}"
+							"tag": "{mega_buster:1}"
 						}
 					]
 				}

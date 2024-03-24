@@ -12,7 +12,7 @@
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"translate": "ssbrc.tooltips.yar.missileLauncher",
+								"translate": "ssbrc.tooltips.yar.missile_launcher",
 								"color": "gold",
 								"bold": true,
 								"italic": false
@@ -45,7 +45,7 @@
 											"italic": false,
 											"extra": [
 												{
-													"translate": "ssbrc.tooltips.yar.rayBlaster",
+													"translate": "ssbrc.tooltips.yar.ray_blaster",
 													"color": "gray",
 													"bold": false,
 													"italic": false
@@ -57,7 +57,7 @@
 													"italic": false
 												},
 												{
-													"translate": "ssbrc.tooltips.yar.missileLauncher",
+													"translate": "ssbrc.tooltips.yar.missile_launcher",
 													"color": "gray",
 													"bold": false,
 													"italic": false
@@ -71,7 +71,7 @@
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{powerUp:1,missileLauncher:1,CustomModelData:1968}"
+							"tag": "{powerUp:1,missile_launcher:1,CustomModelData:1968}"
 						}
 					]
 				}

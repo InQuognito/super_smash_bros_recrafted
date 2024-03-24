@@ -3,7 +3,7 @@
 		"function": "minecraft:set_name",
 		"entity": "this",
 		"name": {
-			"translate": "ssbrc.tooltips.shadow.chaosSpear",
+			"translate": "ssbrc.tooltips.shadow.chaos_spear",
 			"color": "gray",
 			"bold": true,
 			"italic": false

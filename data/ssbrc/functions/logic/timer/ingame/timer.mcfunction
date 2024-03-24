@@ -6,8 +6,8 @@ execute if score gameMode options matches 2 run function ssbrc:logic/timer/ingam
 
 # Characters
 execute as @a[tag=bowser] if score @s charge.2 matches 1.. run function ssbrc:logic/timer/fighters/bowser
-execute as @a[tag=sora,tag=!valor,tag=!anti] if score @s mana < #sora.maxMP vars run function ssbrc:logic/timer/fighters/sora
-execute as @a[tag=zelda] if score @s mana < #zelda.maxMagic vars run function ssbrc:logic/timer/fighters/zelda
+execute as @a[tag=sora,tag=!valor,tag=!anti] if score @s mana < sora.mp.max vars run function ssbrc:logic/timer/fighters/sora
+execute as @a[tag=zelda] if score @s mana < zelda.magic.max vars run function ssbrc:logic/timer/fighters/zelda
 
 # Tridents
 execute as @a[predicate=ssbrc:fighters/kits/trident] run function ssbrc:logic/timer/fighters/tridents

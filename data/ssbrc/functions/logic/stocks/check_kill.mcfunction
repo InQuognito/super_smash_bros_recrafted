@@ -1,5 +1,5 @@
 # Bonuses
-scoreboard players add @s[tag=checkShockwave] crushingWeight 1
+scoreboard players add @s[tag=checkShockwave] crushing_weight 1
 
 function ssbrc:logic/fighters/bonuses/einstein
 

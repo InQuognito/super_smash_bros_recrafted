@@ -1,4 +1,4 @@
-tag @s add gatlingGun
+tag @s add gatling_gun
 
 data merge entity @s {damage:0.15}
 

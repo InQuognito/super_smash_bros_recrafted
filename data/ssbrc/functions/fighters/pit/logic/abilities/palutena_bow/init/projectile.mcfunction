@@ -1,4 +1,4 @@
-tag @s add palutenaBow
+tag @s add palutena_bow
 
 data merge entity @s {damage:2.0,Glowing:1b}
 

@@ -30,7 +30,7 @@
 			"condition": "minecraft:entity_properties",
 			"entity": "this",
 			"predicate": {
-				"nbt": "{Tags:[\"guardianOrbitar\"]}"
+				"nbt": "{Tags:[\"guardian_orbitar\"]}"
 			}
 		},
 		{
@@ -44,7 +44,7 @@
 			"condition": "minecraft:entity_properties",
 			"entity": "this",
 			"predicate": {
-				"nbt": "{Tags:[\"magicBoomerang\"]}"
+				"nbt": "{Tags:[\"magic_boomerang\"]}"
 			}
 		}
 	]

@@ -33,7 +33,7 @@
 											"italic": false
 										},
 										{
-											"translate": "ssbrc.tooltips.snake.smokeGrenade.description.1",
+											"translate": "ssbrc.tooltips.snake.smoke_grenade.description.1",
 											"color": "gray",
 											"bold": false,
 											"italic": false
@@ -41,13 +41,13 @@
 									]
 								},
 								{
-									"translate": "ssbrc.tooltips.snake.smokeGrenade.description.2",
+									"translate": "ssbrc.tooltips.snake.smoke_grenade.description.2",
 									"color": "gray",
 									"bold": false,
 									"italic": false
 								},
 								{
-									"translate": "ssbrc.tooltips.snake.smokeGrenade.description.3",
+									"translate": "ssbrc.tooltips.snake.smoke_grenade.description.3",
 									"color": "gray",
 									"bold": false,
 									"italic": false
@@ -86,7 +86,7 @@
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{smokeGrenade:1}"
+							"tag": "{smoke_grenade:1}"
 						}
 					]
 				}

@@ -1,3 +1,3 @@
-scoreboard players operation countdown timer = quickStart vars
+scoreboard players operation countdown timer = quick_start vars
 
 tellraw @a[tag=room.characterSelect] {"translate":"ssbrc.game.start.warn.sameTeams","bold":false,"color":"red"}

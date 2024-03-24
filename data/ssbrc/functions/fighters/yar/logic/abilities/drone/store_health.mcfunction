@@ -1,4 +1,4 @@
-scoreboard players operation droneHealth temp = @s yar.droneHealth
-scoreboard players operation droneHealth temp += yar.droneHealthThreshold vars
+scoreboard players operation drone.health temp = @s yar.drone.health
+scoreboard players operation drone.health temp += yar.drone.drone.health.threshold vars
 
 kill @s

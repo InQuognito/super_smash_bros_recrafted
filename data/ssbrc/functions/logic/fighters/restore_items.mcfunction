@@ -24,7 +24,7 @@ tag @s[tag=cloud] add operator
 execute if entity @s[tag=cloud] run function ssbrc:logic/fighters/modify_item {old:"busterSword",new:"cloud/buster_sword"}
 
 # Dark Samus
-execute if entity @s[tag=dark_samus] run function ssbrc:logic/fighters/replace_item {old:"phazonBeam",new:"dark_samus/phazon_beam/idle"}
+execute if entity @s[tag=dark_samus] run function ssbrc:logic/fighters/replace_item {old:"phazon_beam",new:"dark_samus/phazon_beam/idle"}
 
 # Donkey Kong
 loot replace entity @s[tag=donkey_kong,scores={charge.1=..0}] hotbar.1 loot ssbrc:fighters/donkey_kong/orange_grenade
@@ -36,7 +36,7 @@ loot replace entity @s[tag=ganondorf] hotbar.1 loot ssbrc:fighters/ganondorf/tri
 # Hero
 execute if entity @s[tag=hero] run function ssbrc:fighters/hero/logic/abilities/kaclang/deactivate
 
-scoreboard players operation @s[tag=hero] mana += #hero.manaGainedOnDeath vars
+scoreboard players operation @s[tag=hero] mana += hero.mana.gained_on_death vars
 execute if entity @s[tag=hero] run function ssbrc:fighters/hero/logic/mana/restore
 
 # Joker
@@ -61,7 +61,7 @@ execute if entity @s[tag=pokemon_trainer,tag=charizard,tag=!nextFighterChosen] r
 execute if entity @s[tag=pokemon_trainer,tag=ivysaur,tag=!nextFighterChosen] run function ssbrc:fighters/pokemon_trainer/kits/squirtle
 
 # Rob
-execute if entity @s[tag=rob] run function ssbrc:logic/fighters/modify_item {old:"roboBeam",new:"rob/robo_beam"}
+execute if entity @s[tag=rob] run function ssbrc:logic/fighters/modify_item {old:"robo_beam",new:"rob/robo_beam"}
 
 # Ryu
 execute if score gameMode options matches 1 if score @s[tag=ryu] stocks matches 1 run loot replace entity @s[tag=!abilityUsed] hotbar.1 loot ssbrc:fighters/ryu/satsui_no_hado_rage

@@ -1,4 +1,4 @@
-scoreboard players operation indicator.cooldownAmount vars = pikachu.thunderJoltCooldown vars
-execute at @s if entity @e[type=minecraft:marker,tag=electricTerrain,distance=..12] run scoreboard players operation indicator.cooldownAmount vars /= 2 integers
+scoreboard players operation indicator.cooldownAmount vars = pikachu.thunder_jolt.cooldown vars
+execute at @s if entity @e[type=minecraft:marker,tag=electric_terrain,distance=..12] run scoreboard players operation indicator.cooldownAmount vars /= 2 integers
 
-function ssbrc:logic/fighters/cooldown {item:"thunderJolt",type:"1",amount:"indicator.cooldownAmount"}
+function ssbrc:logic/fighters/cooldown {item:"thunder_jolt",type:"1",amount:"indicator.cooldownAmount"}

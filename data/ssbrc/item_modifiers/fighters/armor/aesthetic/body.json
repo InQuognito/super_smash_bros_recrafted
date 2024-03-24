@@ -2176,7 +2176,7 @@
 				"condition": "minecraft:entity_properties",
 				"entity": "this",
 				"predicate": {
-					"nbt": "{Tags:[\"shovel_knight\",\"phaseLocket\"]}"
+					"nbt": "{Tags:[\"shovel_knight\",\"phase_locket\"]}"
 				}
 			}
 		]

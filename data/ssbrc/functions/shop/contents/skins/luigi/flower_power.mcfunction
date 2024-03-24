@@ -1,6 +1,6 @@
 advancement grant @s only ssbrc:fighters/luigi/skins/flower_power
 
-scoreboard players operation @s stats.credits -= #price.skin.common vars
+scoreboard players operation @s stats.credits -= price.skin.common vars
 
 tellraw @s [{"translate":"ssbrc.shop.purchase.skin","color":"white"},{"translate":"ssbrc.series.superMarioBros.skin.flowerPower","color":"aqua"}]
 

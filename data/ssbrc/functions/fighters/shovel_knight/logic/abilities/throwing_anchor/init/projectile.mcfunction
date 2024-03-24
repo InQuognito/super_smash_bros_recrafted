@@ -1,4 +1,4 @@
-tag @s add throwingAnchor
+tag @s add throwing_anchor
 
 loot replace entity @s armor.head loot ssbrc:fighters/shovel_knight/throwing_anchor
 

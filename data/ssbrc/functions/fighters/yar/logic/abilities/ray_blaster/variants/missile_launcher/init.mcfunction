@@ -1,4 +1,4 @@
-tag @s add missileLauncher
+tag @s add missile_launcher
 
 execute if entity @p[tag=self,tag=!gold] run tag @s add default
 execute if entity @p[tag=self,tag=gold] run tag @s add gold

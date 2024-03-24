@@ -1,4 +1,4 @@
-tag @s add holyWater.display
+tag @s add holy_water.display
 
 execute if entity @p[tag=self,tag=!gold] run tag @s add default
 execute if entity @p[tag=self,tag=gold] run tag @s add gold
@@ -9,4 +9,4 @@ data merge entity @s {Small:1b}
 
 function ssbrc:logic/init/armor_stand/static
 
-ride @s mount @e[type=minecraft:snowball,tag=holyWater.vehicle,sort=nearest,limit=1]
+ride @s mount @e[type=minecraft:snowball,tag=holy_water.vehicle,sort=nearest,limit=1]

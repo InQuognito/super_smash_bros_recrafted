@@ -1,3 +1,3 @@
 tag @s remove greninja
 
-tag @s remove shadowSneak
+tag @s remove shadow_sneak

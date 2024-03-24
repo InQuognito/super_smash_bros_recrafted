@@ -3,7 +3,7 @@
 		"function": "minecraft:set_name",
 		"entity": "this",
 		"name": {
-			"translate": "ssbrc.fighters.snake.smokeGrenade",
+			"translate": "ssbrc.fighters.snake.smoke_grenade",
 			"color": "green",
 			"bold": true,
 			"italic": false
