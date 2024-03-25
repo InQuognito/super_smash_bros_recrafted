@@ -12,7 +12,7 @@
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"translate": "ssbrc.tooltips.zelda.dungeonItem.redPotion",
+								"translate": "ssbrc.tooltips.zelda.dungeonItem.red_potion",
 								"color": "red",
 								"bold": true,
 								"italic": false
@@ -35,7 +35,7 @@
 							"entity": "this",
 							"lore": [
 								{
-									"translate": "ssbrc.tooltips.zelda.dungeonItem.redPotion.description.1",
+									"translate": "ssbrc.tooltips.zelda.dungeonItem.red_potion.description.1",
 									"color": "gray",
 									"bold": false,
 									"italic": false
@@ -45,7 +45,7 @@
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{redPotion:1,CustomModelData:1780}"
+							"tag": "{red_potion:1,CustomModelData:1780}"
 						}
 					]
 				}

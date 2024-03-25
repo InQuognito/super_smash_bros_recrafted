@@ -22,7 +22,7 @@
 					"source_entity": {
 						"equipment": {
 							"mainhand": {
-								"nbt": "{poisonJab:1}"
+								"nbt": "{poison_jab:1}"
 							}
 						}
 					}

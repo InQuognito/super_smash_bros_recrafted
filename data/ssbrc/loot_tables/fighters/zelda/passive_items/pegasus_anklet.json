@@ -12,7 +12,7 @@
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"translate": "ssbrc.tooltips.zelda.passiveItem.pegasusAnklet",
+								"translate": "ssbrc.tooltips.zelda.passiveItem.pegasus_anklet",
 								"color": "white",
 								"bold": true,
 								"italic": false
@@ -27,7 +27,7 @@
 							"entity": "this",
 							"lore": [
 								{
-									"translate": "ssbrc.tooltips.zelda.passiveItem.pegasusAnklet.description.1",
+									"translate": "ssbrc.tooltips.zelda.passiveItem.pegasus_anklet.description.1",
 									"color": "gray",
 									"bold": false,
 									"italic": false
@@ -37,7 +37,7 @@
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{pegasusAnklet:1,CustomModelData:9035}"
+							"tag": "{pegasus_anklet:1,CustomModelData:9035}"
 						}
 					]
 				}

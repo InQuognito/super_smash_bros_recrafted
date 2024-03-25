@@ -5,4 +5,4 @@ execute if score @s charge.1 > zelda.rupees.max vars run scoreboard players oper
 
 function ssbrc:fighters/zelda/logic/kill_entities
 
-tag @s remove shieldBroken
+tag @s remove shield_broken

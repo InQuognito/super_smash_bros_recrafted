@@ -54,7 +54,7 @@ tag @s remove intangible
 tag @s remove naturalShiny
 tag @s remove nextFighterChosen
 tag @s remove pivot
-tag @s remove shieldBroken
+tag @s remove shield_broken
 
 tag @s remove female
 tag @s remove male

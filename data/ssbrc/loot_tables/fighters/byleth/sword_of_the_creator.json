@@ -12,7 +12,7 @@
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"translate": "ssbrc.tooltips.byleth.swordOfTheCreator",
+								"translate": "ssbrc.tooltips.byleth.sword_of_the_creator",
 								"color": "yellow",
 								"bold": true,
 								"italic": false
@@ -50,7 +50,7 @@
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{swordOfTheCreator:1,CustomModelData:100}"
+							"tag": "{sword_of_the_creator:1,CustomModelData:100}"
 						}
 					]
 				}

@@ -1,5 +1,5 @@
-scoreboard players set #blessingChosen temp 1
+scoreboard players set #blessing_chosen temp 1
 
-tag @s add rupeeMaster
+tag @s add rupee_master
 
-tellraw @s [{"translate":"ssbrc.fighters.zelda.blessing","color":"yellow"},{"translate":"ssbrc.fighters.zelda.blessing.rupeeMaster","color":"green"}]
+tellraw @s [{"translate":"ssbrc.fighters.zelda.blessing","color":"yellow"},{"translate":"ssbrc.fighters.zelda.blessing.rupee_master","color":"green"}]

@@ -1,7 +1,7 @@
 scoreboard objectives add animation dummy
 scoreboard objectives add armorBreak dummy
-scoreboard objectives add bowser.fireBreath dummy
-scoreboard objectives add bowser.fireBreath.target dummy
+scoreboard objectives add bowser.fire_breath dummy
+scoreboard objectives add bowser.fire_breath.target dummy
 scoreboard objectives add burning dummy
 scoreboard objectives add characterTrigger trigger
 scoreboard objectives add characterPicked dummy
@@ -142,10 +142,10 @@ scoreboard objectives add useItem minecraft.used:minecraft.warped_fungus_on_a_st
 scoreboard objectives add vars dummy
 scoreboard objectives add walkDistance minecraft.custom:minecraft.walk_one_cm
 scoreboard objectives add yar.drone.health dummy
-scoreboard objectives add zelda.enchantArmor dummy
-scoreboard objectives add zelda.halfMagic dummy
-scoreboard objectives add zelda.shatterResist dummy
-scoreboard objectives add zelda.specialBond dummy
+scoreboard objectives add zelda.enchant_armor dummy
+scoreboard objectives add zelda.half_magic dummy
+scoreboard objectives add zelda.shatter_resist dummy
+scoreboard objectives add zelda.special_bond dummy
 
 scoreboard objectives modify points displayname {"translate":"ssbrc.game.points","bold":true,"color":"yellow"}
 scoreboard objectives modify stocks displayname {"translate":"ssbrc.game.stocks","bold":true,"color":"yellow"}

@@ -39,7 +39,7 @@
 											"italic": false
 										},
 										{
-											"translate": "ssbrc.tooltips.yar.powerUp.description.1",
+											"translate": "ssbrc.tooltips.yar.power_up.description.1",
 											"color": "gray",
 											"bold": false,
 											"italic": false,
@@ -51,7 +51,7 @@
 													"italic": false
 												},
 												{
-													"translate": "ssbrc.tooltips.yar.powerUp.description.2",
+													"translate": "ssbrc.tooltips.yar.power_up.description.2",
 													"color": "gray",
 													"bold": false,
 													"italic": false
@@ -71,7 +71,7 @@
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{powerUp:1,missile_launcher:1,CustomModelData:1968}"
+							"tag": "{power_up:1,missile_launcher:1,CustomModelData:1968}"
 						}
 					]
 				}

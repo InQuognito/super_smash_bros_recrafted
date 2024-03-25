@@ -36,7 +36,7 @@
 							"entity": "this",
 							"lore": [
 								{
-									"translate": "ssbrc.tooltips.snake.cqcKnife.description.1",
+									"translate": "ssbrc.tooltips.snake.cqc_knife.description.1",
 									"color": "gray",
 									"bold": false,
 									"italic": false
@@ -75,7 +75,7 @@
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{cqcKnife:1}"
+							"tag": "{cqc_knife:1}"
 						}
 					]
 				}

@@ -24,6 +24,6 @@
 	},
 	{
 		"function": "minecraft:set_nbt",
-		"tag": "{roboRotor:1}"
+		"tag": "{robo_rotor:1}"
 	}
 ]

@@ -12,7 +12,7 @@
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"translate": "ssbrc.tooltips.zelda.passiveItem.ringOfBlasting",
+								"translate": "ssbrc.tooltips.zelda.passiveItem.ring_of_blasting",
 								"color": "gray",
 								"bold": true,
 								"italic": false
@@ -27,13 +27,13 @@
 							"entity": "this",
 							"lore": [
 								{
-									"translate": "ssbrc.tooltips.zelda.passiveItem.ringOfBlasting.description.1",
+									"translate": "ssbrc.tooltips.zelda.passiveItem.ring_of_blasting.description.1",
 									"color": "gray",
 									"bold": false,
 									"italic": false
 								},
 								{
-									"translate": "ssbrc.tooltips.zelda.passiveItem.ringOfBlasting.description.2",
+									"translate": "ssbrc.tooltips.zelda.passiveItem.ring_of_blasting.description.2",
 									"color": "gray",
 									"bold": false,
 									"italic": false
@@ -43,7 +43,7 @@
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{ringOfBlasting:1,CustomModelData:9036}"
+							"tag": "{ring_of_blasting:1,CustomModelData:9036}"
 						}
 					]
 				}

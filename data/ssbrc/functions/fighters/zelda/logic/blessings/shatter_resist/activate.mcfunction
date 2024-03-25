@@ -1,6 +1,6 @@
-scoreboard players set #blessingChosen temp 1
+scoreboard players set #blessing_chosen temp 1
 
-tag @s add shatterResist
-scoreboard players set @s zelda.shatterResist 600
+tag @s add shatter_resist
+scoreboard players set @s zelda.shatter_resist 600
 
-tellraw @s [{"translate":"ssbrc.fighters.zelda.blessing","color":"yellow"},{"translate":"ssbrc.fighters.zelda.blessing.shatterResist","color":"aqua"}]
+tellraw @s [{"translate":"ssbrc.fighters.zelda.blessing","color":"yellow"},{"translate":"ssbrc.fighters.zelda.blessing.shatter_resist","color":"aqua"}]

@@ -48,7 +48,7 @@
 											"italic": false
 										},
 										{
-											"translate": "ssbrc.tooltips.fox.krazoanStaff.description.1",
+											"translate": "ssbrc.tooltips.fox.krazoan_staff.description.1",
 											"color": "gray",
 											"bold": false,
 											"italic": false
@@ -95,7 +95,7 @@
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{krazoanStaff:1}"
+							"tag": "{krazoan_staff:1}"
 						}
 					]
 				}

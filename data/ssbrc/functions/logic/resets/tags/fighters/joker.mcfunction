@@ -9,4 +9,4 @@ tag @s remove raoul
 tag @s remove sandman
 tag @s remove yatagarasu
 
-tag @s remove rebelsGuard
+tag @s remove rebels_guard

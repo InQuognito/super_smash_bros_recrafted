@@ -62,7 +62,7 @@
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{blackSword:1}"
+							"tag": "{black_sword:1}"
 						}
 					]
 				}

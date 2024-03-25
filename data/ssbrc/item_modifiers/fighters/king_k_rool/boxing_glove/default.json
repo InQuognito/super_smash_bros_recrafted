@@ -3,7 +3,7 @@
 		"function": "minecraft:set_name",
 		"entity": "this",
 		"name": {
-			"translate": "ssbrc.tooltips.king_k_rool.boxingGlove",
+			"translate": "ssbrc.tooltips.king_k_rool.boxing_glove",
 			"color": "red",
 			"bold": true,
 			"italic": false

@@ -3,7 +3,7 @@
 		"function": "minecraft:set_name",
 		"entity": "this",
 		"name": {
-			"translate": "ssbrc.tooltips.hero.swordOfRamias",
+			"translate": "ssbrc.tooltips.hero.sword_of_ramias",
 			"color": "gray",
 			"bold": true,
 			"italic": false

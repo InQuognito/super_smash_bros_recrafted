@@ -12,7 +12,7 @@
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"translate": "ssbrc.tooltips.sora.kingdomKey",
+								"translate": "ssbrc.tooltips.sora.kingdom_key",
 								"color": "white",
 								"bold": true,
 								"italic": false
@@ -31,7 +31,7 @@
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"translate": "ssbrc.tooltips.sora.kingdomKey",
+								"translate": "ssbrc.tooltips.sora.kingdom_key",
 								"color": "gold",
 								"bold": true,
 								"italic": false

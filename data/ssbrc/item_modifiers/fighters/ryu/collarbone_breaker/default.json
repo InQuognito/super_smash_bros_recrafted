@@ -3,7 +3,7 @@
 		"function": "minecraft:set_name",
 		"entity": "this",
 		"name": {
-			"translate": "ssbrc.tooltips.ryu.collarboneBreaker",
+			"translate": "ssbrc.tooltips.ryu.collarbone_breaker",
 			"color": "white",
 			"bold": true,
 			"italic": false

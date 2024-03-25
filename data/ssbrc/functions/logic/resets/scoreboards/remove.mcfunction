@@ -1,7 +1,7 @@
 scoreboard objectives remove animation
 scoreboard objectives remove armorBreak
-scoreboard objectives remove bowser.fireBreath
-scoreboard objectives remove bowser.fireBreath.target
+scoreboard objectives remove bowser.fire_breath
+scoreboard objectives remove bowser.fire_breath.target
 scoreboard objectives remove burning
 scoreboard objectives remove characterTrigger
 scoreboard objectives remove characterPicked
@@ -142,10 +142,10 @@ scoreboard objectives remove useItem
 scoreboard objectives remove vars
 scoreboard objectives remove walkDistance
 scoreboard objectives remove yar.drone.health
-scoreboard objectives remove zelda.enchantArmor
-scoreboard objectives remove zelda.halfMagic
-scoreboard objectives remove zelda.shatterResist
-scoreboard objectives remove zelda.specialBond
+scoreboard objectives remove zelda.enchant_armor
+scoreboard objectives remove zelda.half_magic
+scoreboard objectives remove zelda.shatter_resist
+scoreboard objectives remove zelda.special_bond
 
 # Bonuses
 scoreboard objectives remove 765o

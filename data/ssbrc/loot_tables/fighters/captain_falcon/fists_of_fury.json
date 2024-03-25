@@ -48,7 +48,7 @@
 											"italic": false
 										},
 										{
-											"translate": "ssbrc.tooltips.captain_falcon.fistsOfFury.description.1",
+											"translate": "ssbrc.tooltips.captain_falcon.fists_of_fury.description.1",
 											"color": "gray",
 											"bold": false,
 											"italic": false
@@ -56,7 +56,7 @@
 									]
 								},
 								{
-									"translate": "ssbrc.tooltips.captain_falcon.fistsOfFury.description.2",
+									"translate": "ssbrc.tooltips.captain_falcon.fists_of_fury.description.2",
 									"color": "gray",
 									"bold": false,
 									"italic": false
@@ -120,7 +120,7 @@
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{fistsOfFury:1,CustomModelData:121}"
+							"tag": "{fists_of_fury:1,CustomModelData:121}"
 						}
 					]
 				}

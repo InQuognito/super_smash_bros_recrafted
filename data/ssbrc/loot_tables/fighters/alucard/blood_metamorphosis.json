@@ -29,7 +29,7 @@
 											"italic": false
 										},
 										{
-											"translate": "ssbrc.tooltips.alucard.bloodMetamorphosis.description.1",
+											"translate": "ssbrc.tooltips.alucard.blood_metamorphosis.description.1",
 											"color": "gray",
 											"bold": false,
 											"italic": false
@@ -37,19 +37,19 @@
 									]
 								},
 								{
-									"translate": "ssbrc.tooltips.alucard.bloodMetamorphosis.description.2",
+									"translate": "ssbrc.tooltips.alucard.blood_metamorphosis.description.2",
 									"color": "gray",
 									"bold": false,
 									"italic": false
 								},
 								{
-									"translate": "ssbrc.tooltips.alucard.bloodMetamorphosis.description.3",
+									"translate": "ssbrc.tooltips.alucard.blood_metamorphosis.description.3",
 									"color": "gray",
 									"bold": false,
 									"italic": false
 								},
 								{
-									"translate": "ssbrc.tooltips.alucard.bloodMetamorphosis.description.4",
+									"translate": "ssbrc.tooltips.alucard.blood_metamorphosis.description.4",
 									"color": "gray",
 									"bold": false,
 									"italic": false
@@ -94,14 +94,14 @@
 									"condition": "minecraft:entity_properties",
 									"entity": "this",
 									"predicate": {
-										"nbt": "{Tags:[\"bloodMetamorphosis\"]}"
+										"nbt": "{Tags:[\"blood_metamorphosis\"]}"
 									}
 								}
 							]
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{bloodMetamorphosis:1}"
+							"tag": "{blood_metamorphosis:1}"
 						}
 					]
 				}

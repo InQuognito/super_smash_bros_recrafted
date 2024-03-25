@@ -6,7 +6,7 @@ particle minecraft:dust_color_transition 1.0 1.0 0.0 0.75 1.0 1.0 1.0 ~ ~1.5 ~ 0
 
 execute positioned ~ ~-0.1 ~ if block ~ ~ ~ #ssbrc:passthrough run teleport @s ~ ~ ~
 
-execute as @e[predicate=ssbrc:flag/targets,nbt=!{Inventory:[{tag:{goronLocket:1}}]},distance=..1.5] run function ssbrc:fighters/ness/logic/abilities/pk_fire/hit
+execute as @e[predicate=ssbrc:flag/targets,nbt=!{Inventory:[{tag:{goron_locket:1}}]},distance=..1.5] run function ssbrc:fighters/ness/logic/abilities/pk_fire/hit
 
 scoreboard players add @s temp 1
 kill @s[scores={temp=40..}]

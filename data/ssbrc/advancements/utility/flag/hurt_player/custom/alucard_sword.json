@@ -21,7 +21,7 @@
 						"condition": "minecraft:entity_properties",
 						"entity": "this",
 						"predicate": {
-							"nbt": "{Tags:[\"alucard\",\"bloodMetamorphosis\"]}"
+							"nbt": "{Tags:[\"alucard\",\"blood_metamorphosis\"]}"
 						}
 					}
 				],
@@ -29,7 +29,7 @@
 					"source_entity": {
 						"equipment": {
 							"mainhand": {
-								"nbt": "{alucardSword:1,awakened:1}"
+								"nbt": "{alucard_sword:1,awakened:1}"
 							}
 						}
 					},

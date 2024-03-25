@@ -1,4 +1,4 @@
-item modify entity @s[predicate=ssbrc:fighters/enchantments/blast_protection_infinity,nbt={Inventory:[{tag:{ringOfBlasting:1}}]}] armor.chest ssbrc:fighters/enchantments/blast_protection_infinity
+item modify entity @s[predicate=ssbrc:fighters/enchantments/blast_protection_infinity,nbt={Inventory:[{tag:{ring_of_blasting:1}}]}] armor.chest ssbrc:fighters/enchantments/blast_protection_infinity
 item modify entity @s[predicate=ssbrc:fighters/enchantments/protection] armor.chest ssbrc:fighters/enchantments/protection
 item modify entity @s[predicate=ssbrc:fighters/enchantments/projectile_protection] armor.chest ssbrc:fighters/enchantments/projectile_protection
 item modify entity @s[predicate=ssbrc:fighters/enchantments/fire_protection] armor.chest ssbrc:fighters/enchantments/fire_protection

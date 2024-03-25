@@ -12,7 +12,7 @@
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"translate": "ssbrc.tooltips.pokemon_trainer.charizard.rockSmash",
+								"translate": "ssbrc.tooltips.pokemon_trainer.charizard.rock_smash",
 								"color": "gray",
 								"bold": true,
 								"italic": false
@@ -77,7 +77,7 @@
 							"entity": "this",
 							"lore": [
 								{
-									"translate": "ssbrc.tooltips.pokemon_trainer.charizard.rockSmash.description.1",
+									"translate": "ssbrc.tooltips.pokemon_trainer.charizard.rock_smash.description.1",
 									"color": "gray",
 									"bold": false,
 									"italic": false
@@ -87,7 +87,7 @@
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{rockSmash:1}"
+							"tag": "{rock_smash:1}"
 						}
 					]
 				}

@@ -24,7 +24,7 @@
 				]
 			},
 			{
-				"translate": "ssbrc.tooltips.cloud.limitBreak",
+				"translate": "ssbrc.tooltips.cloud.limit_break",
 				"color": "gray",
 				"bold": false,
 				"italic": false,

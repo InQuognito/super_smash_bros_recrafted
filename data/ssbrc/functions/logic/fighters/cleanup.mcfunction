@@ -39,7 +39,7 @@ execute if entity @s[tag=zelda] run function ssbrc:fighters/zelda/logic/kill_ent
 
 # Misc
 tag @s remove hasShield
-tag @s remove shieldBroken
+tag @s remove shield_broken
 
 # Bowser
 tag @s remove rageUsed
@@ -51,7 +51,7 @@ clear @s minecraft:shield{hylianShield:1}
 scoreboard players set @s[tag=link] charge.1 0
 
 # Zelda
-tag @s remove rupeeMaster
+tag @s remove rupee_master
 
 # Ganondorf
 clear @s minecraft:trident{tridentOfPower:1}
@@ -91,9 +91,9 @@ scoreboard players set @s[tag=cloud] cloud.limit 0
 tag @s remove punisher
 
 # Alucard
-tag @s remove bloodMetamorphosis
+tag @s remove blood_metamorphosis
 
-clear @s minecraft:shield{alucardShield:1}
+clear @s minecraft:shield{alucard_shield:1}
 
 # Joker
 clear @s minecraft:carrot_on_a_stick{mask:1}

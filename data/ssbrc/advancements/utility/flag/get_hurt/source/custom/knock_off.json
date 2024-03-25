@@ -29,7 +29,7 @@
 					"source_entity": {
 						"equipment": {
 							"mainhand": {
-								"nbt": "{knockOff:1}"
+								"nbt": "{knock_off:1}"
 							}
 						}
 					}

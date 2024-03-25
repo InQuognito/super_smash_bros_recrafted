@@ -12,7 +12,7 @@
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"translate": "ssbrc.tooltips.team_rocket.arbok.poisonJab",
+								"translate": "ssbrc.tooltips.team_rocket.arbok.poison_jab",
 								"color": "light_purple",
 								"bold": true,
 								"italic": false
@@ -56,7 +56,7 @@
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{poisonJab:1}"
+							"tag": "{poison_jab:1}"
 						}
 					]
 				}

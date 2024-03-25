@@ -12,7 +12,7 @@
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"translate": "ssbrc.tooltips.bowser.powerBand",
+								"translate": "ssbrc.tooltips.bowser.power_band",
 								"color": "dark_gray",
 								"bold": true,
 								"italic": false
@@ -72,7 +72,7 @@
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{powerBand:1}"
+							"tag": "{power_band:1}"
 						}
 					]
 				}

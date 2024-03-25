@@ -6,8 +6,8 @@ execute if entity @s[scores={useAbility=1..},nbt={SelectedItem:{tag:{mask:1}}}] 
 execute if score @s duration.1 matches 1.. run function ssbrc:fighters/joker/logic/abilities/persona_awakening/tick
 
 # Rebel's Guard
-execute at @s[tag=!rebelsGuard,predicate=ssbrc:flag/sneaking,nbt={SelectedItem:{tag:{rebelKnife:1}}}] unless score @s duration.1 matches 1.. unless score @s duration.2 matches 1.. run function ssbrc:fighters/joker/logic/abilities/rebels_guard/activate
-execute at @s[tag=rebelsGuard] run function ssbrc:fighters/joker/logic/abilities/rebels_guard/tick
+execute at @s[tag=!rebels_guard,predicate=ssbrc:flag/sneaking,nbt={SelectedItem:{tag:{rebelKnife:1}}}] unless score @s duration.1 matches 1.. unless score @s duration.2 matches 1.. run function ssbrc:fighters/joker/logic/abilities/rebels_guard/activate
+execute at @s[tag=rebels_guard] run function ssbrc:fighters/joker/logic/abilities/rebels_guard/tick
 
 # Final Guard
 execute if score @s[tag=!abilityUsed] health <= joker.final_guard.threshold vars run function ssbrc:fighters/joker/logic/final_guard/activate

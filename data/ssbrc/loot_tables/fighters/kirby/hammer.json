@@ -75,7 +75,7 @@
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{hammerKirby:1}"
+							"tag": "{hammer:1}"
 						}
 					]
 				}

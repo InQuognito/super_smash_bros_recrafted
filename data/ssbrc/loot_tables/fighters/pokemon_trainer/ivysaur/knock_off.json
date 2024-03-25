@@ -12,7 +12,7 @@
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"translate": "ssbrc.tooltips.pokemon_trainer.ivysaur.knockOff",
+								"translate": "ssbrc.tooltips.pokemon_trainer.ivysaur.knock_off",
 								"color": "dark_gray",
 								"bold": true,
 								"italic": false
@@ -46,7 +46,7 @@
 							"entity": "this",
 							"lore": [
 								{
-									"translate": "ssbrc.tooltips.pokemon_trainer.ivysaur.knockOff.description.1",
+									"translate": "ssbrc.tooltips.pokemon_trainer.ivysaur.knock_off.description.1",
 									"color": "gray",
 									"bold": false,
 									"italic": false
@@ -56,7 +56,7 @@
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{knockOff:1}"
+							"tag": "{knock_off:1}"
 						}
 					]
 				}

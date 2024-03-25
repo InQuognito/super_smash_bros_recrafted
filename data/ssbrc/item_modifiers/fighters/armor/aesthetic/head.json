@@ -2312,7 +2312,7 @@
 				"condition": "minecraft:entity_properties",
 				"entity": "this",
 				"predicate": {
-					"nbt": "{Tags:[\"alucard\",\"default\",\"bloodMetamorphosis\"]}"
+					"nbt": "{Tags:[\"alucard\",\"default\",\"blood_metamorphosis\"]}"
 				}
 			}
 		]
@@ -2338,7 +2338,7 @@
 				"condition": "minecraft:entity_properties",
 				"entity": "this",
 				"predicate": {
-					"nbt": "{Tags:[\"alucard\",\"gold\",\"bloodMetamorphosis\"]}"
+					"nbt": "{Tags:[\"alucard\",\"gold\",\"blood_metamorphosis\"]}"
 				}
 			}
 		]

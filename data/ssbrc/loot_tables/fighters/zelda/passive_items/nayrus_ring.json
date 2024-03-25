@@ -12,7 +12,7 @@
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"translate": "ssbrc.tooltips.zelda.passiveItem.nayrusRing",
+								"translate": "ssbrc.tooltips.zelda.passiveItem.nayrus_ring",
 								"color": "gray",
 								"bold": true,
 								"italic": false
@@ -27,13 +27,13 @@
 							"entity": "this",
 							"lore": [
 								{
-									"translate": "ssbrc.tooltips.zelda.passiveItem.nayrusRing.description.1",
+									"translate": "ssbrc.tooltips.zelda.passiveItem.nayrus_ring.description.1",
 									"color": "gray",
 									"bold": false,
 									"italic": false
 								},
 								{
-									"translate": "ssbrc.tooltips.zelda.passiveItem.nayrusRing.description.2",
+									"translate": "ssbrc.tooltips.zelda.passiveItem.nayrus_ring.description.2",
 									"color": "gray",
 									"bold": false,
 									"italic": false
@@ -43,7 +43,7 @@
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{nayrusRing:1,CustomModelData:9034}"
+							"tag": "{nayrus_ring:1,CustomModelData:9034}"
 						}
 					]
 				}

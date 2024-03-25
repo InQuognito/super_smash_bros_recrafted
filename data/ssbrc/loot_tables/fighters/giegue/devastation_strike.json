@@ -12,7 +12,7 @@
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"translate": "ssbrc.tooltips.giegue.devastationStrike",
+								"translate": "ssbrc.tooltips.giegue.devastation_strike",
 								"color": "dark_gray",
 								"bold": true,
 								"italic": false
@@ -43,7 +43,7 @@
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{devastationStrike:1}"
+							"tag": "{devastation_strike:1}"
 						}
 					]
 				}

@@ -73,7 +73,7 @@
 										"condition": "minecraft:entity_properties",
 										"entity": "this",
 										"predicate": {
-											"nbt": "{Tags:[\"bloodMetamorphosis\"]}"
+											"nbt": "{Tags:[\"blood_metamorphosis\"]}"
 										}
 									}
 								}
@@ -87,14 +87,14 @@
 									"condition": "minecraft:entity_properties",
 									"entity": "this",
 									"predicate": {
-										"nbt": "{Tags:[\"bloodMetamorphosis\"]}"
+										"nbt": "{Tags:[\"blood_metamorphosis\"]}"
 									}
 								}
 							]
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{alucardSword:1}"
+							"tag": "{alucard_sword:1}"
 						}
 					]
 				}

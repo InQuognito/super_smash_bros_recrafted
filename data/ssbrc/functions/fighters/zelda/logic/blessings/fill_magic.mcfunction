@@ -1,4 +1,4 @@
-scoreboard players set #blessingChosen temp 1
+scoreboard players set #blessing_chosen temp 1
 
 scoreboard players operation @s mana = zelda.magic.max vars
 

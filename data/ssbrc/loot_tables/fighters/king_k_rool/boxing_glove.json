@@ -62,7 +62,7 @@
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{boxingGlove:1}"
+							"tag": "{boxing_glove:1}"
 						}
 					]
 				}

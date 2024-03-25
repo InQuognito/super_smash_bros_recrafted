@@ -57,7 +57,7 @@
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{alucardShield:1}"
+							"tag": "{alucard_shield:1}"
 						}
 					]
 				}

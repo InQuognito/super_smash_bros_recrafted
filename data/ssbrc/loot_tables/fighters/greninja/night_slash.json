@@ -12,7 +12,7 @@
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"translate": "ssbrc.tooltips.greninja.nightSlash",
+								"translate": "ssbrc.tooltips.greninja.night_slash",
 								"color": "dark_gray",
 								"bold": true,
 								"italic": false
@@ -39,7 +39,7 @@
 							"entity": "this",
 							"lore": [
 								{
-									"translate": "ssbrc.tooltips.greninja.nightSlash.description.1",
+									"translate": "ssbrc.tooltips.greninja.night_slash.description.1",
 									"color": "gray",
 									"bold": false,
 									"italic": false
@@ -78,7 +78,7 @@
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{nightSlash:1}"
+							"tag": "{night_slash:1}"
 						}
 					]
 				}

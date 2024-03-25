@@ -22,7 +22,7 @@
 					"source_entity": {
 						"equipment": {
 							"mainhand": {
-								"nbt": "{rockSmash:1}"
+								"nbt": "{rock_smash:1}"
 							}
 						}
 					}

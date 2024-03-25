@@ -82,7 +82,7 @@
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{tornadoKirby:1}"
+							"tag": "{tornado:1}"
 						}
 					]
 				}

@@ -21,7 +21,7 @@ give @s[tag=byleth,tag=blackEagles,tag=weaponBroken] minecraft:spectral_arrow 4
 
 # Cloud
 tag @s[tag=cloud] add operator
-execute if entity @s[tag=cloud] run function ssbrc:logic/fighters/modify_item {old:"busterSword",new:"cloud/buster_sword"}
+execute if entity @s[tag=cloud] run function ssbrc:logic/fighters/modify_item {old:"buster_sword",new:"cloud/buster_sword"}
 
 # Dark Samus
 execute if entity @s[tag=dark_samus] run function ssbrc:logic/fighters/replace_item {old:"phazon_beam",new:"dark_samus/phazon_beam/idle"}
