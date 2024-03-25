@@ -32,9 +32,9 @@ execute at @s[scores={snake.s1000A=1..,snake.s1000F=15}] run playsound ssbrc:sho
 execute if entity @s[tag=anti_personnel_mine] run function ssbrc:logic/fighters/cooldown {item:"anti_personnel_mine",type:"2",amount:"snake.anti_personnel_mine.cooldown"}
 
 # Smoke Grenade
-execute at @e[type=minecraft:armor_stand,tag=smoke_grenade,sort=nearest,limit=1] if entity @s[tag=nightVisionGoggles,distance=4.1..] run function ssbrc:fighters/snake/logic/night_vision_goggles/deactivate
+execute at @e[type=minecraft:armor_stand,tag=smoke_grenade,sort=nearest,limit=1] if entity @s[tag=night_vision_goggles,distance=4.1..] run function ssbrc:fighters/snake/logic/night_vision_goggles/deactivate
 
 execute if entity @s[tag=smoke_grenade] run function ssbrc:logic/fighters/cooldown {item:"smoke_grenade",type:"3",amount:"snake.smoke_grenade.cooldown"}
 
 # Night Vision Goggles
-execute if entity @s[tag=nightVisionGoggles] run function ssbrc:fighters/snake/logic/night_vision_goggles/clear_smoke_effects
+execute if entity @s[tag=night_vision_goggles] run function ssbrc:fighters/snake/logic/night_vision_goggles/clear_smoke_effects

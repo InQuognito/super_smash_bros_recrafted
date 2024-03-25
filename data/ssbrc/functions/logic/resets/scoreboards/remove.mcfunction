@@ -3,7 +3,7 @@ scoreboard objectives remove armorBreak
 scoreboard objectives remove bowser.fire_breath
 scoreboard objectives remove bowser.fire_breath.target
 scoreboard objectives remove burning
-scoreboard objectives remove characterTrigger
+scoreboard objectives remove character_trigger
 scoreboard objectives remove characterPicked
 scoreboard objectives remove charge.1
 scoreboard objectives remove charge.2

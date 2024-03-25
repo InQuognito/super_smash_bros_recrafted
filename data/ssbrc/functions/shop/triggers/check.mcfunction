@@ -36,3 +36,6 @@ execute if score @s shop matches 222 run function ssbrc:shop/triggers/triggers/s
 execute if score @s shop matches 223 run function ssbrc:shop/triggers/triggers/skins/fox
 execute if score @s shop matches 224 run function ssbrc:shop/triggers/triggers/skins/joker
 execute if score @s shop matches 225 run function ssbrc:shop/triggers/triggers/skins/pikachu
+execute if score @s shop matches 226 run function ssbrc:shop/triggers/triggers/skins/mega_man
+execute if score @s shop matches 227 run function ssbrc:shop/triggers/triggers/skins/kirby
+execute if score @s shop matches 228 run function ssbrc:shop/triggers/triggers/skins/pit

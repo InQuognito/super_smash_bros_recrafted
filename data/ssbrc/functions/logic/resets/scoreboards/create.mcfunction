@@ -3,7 +3,7 @@ scoreboard objectives add armorBreak dummy
 scoreboard objectives add bowser.fire_breath dummy
 scoreboard objectives add bowser.fire_breath.target dummy
 scoreboard objectives add burning dummy
-scoreboard objectives add characterTrigger trigger
+scoreboard objectives add character_trigger trigger
 scoreboard objectives add characterPicked dummy
 scoreboard objectives add charge.1 dummy
 scoreboard objectives add charge.2 dummy

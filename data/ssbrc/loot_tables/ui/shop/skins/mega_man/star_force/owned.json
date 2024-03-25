@@ -1,0 +1,24 @@
+{
+	"type": "minecraft:command",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:barrier",
+					"functions": [
+						{
+							"function": "minecraft:reference",
+							"name": "ssbrc:fighters/mega_man/skins/star_force"
+						},
+						{
+							"function": "minecraft:reference",
+							"name": "ssbrc:ui/shop/owned"
+						}
+					]
+				}
+			]
+		}
+	]
+}

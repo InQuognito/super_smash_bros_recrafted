@@ -979,6 +979,19 @@
 	},
 	{
 		"function": "minecraft:set_nbt",
+		"tag": "{CustomModelData:703}",
+		"conditions": [
+			{
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"nbt": "{Tags:[\"kirby\",\"keeby\"]}"
+				}
+			}
+		]
+	},
+	{
+		"function": "minecraft:set_nbt",
 		"tag": "{CustomModelData:720}",
 		"conditions": [
 			{
@@ -1187,6 +1200,19 @@
 	},
 	{
 		"function": "minecraft:set_nbt",
+		"tag": "{CustomModelData:882}",
+		"conditions": [
+			{
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"nbt": "{Tags:[\"mega_man\",\"star_force\"]}"
+				}
+			}
+		]
+	},
+	{
+		"function": "minecraft:set_nbt",
 		"tag": "{CustomModelData:1080}",
 		"conditions": [
 			{
@@ -1350,6 +1376,19 @@
 				"entity": "this",
 				"predicate": {
 					"nbt": "{Tags:[\"pit\",\"gold\"]}"
+				}
+			}
+		]
+	},
+	{
+		"function": "minecraft:set_nbt",
+		"tag": "{CustomModelData:1222}",
+		"conditions": [
+			{
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"nbt": "{Tags:[\"pit\",\"retro\"]}"
 				}
 			}
 		]
@@ -1752,8 +1791,27 @@
 				"condition": "minecraft:entity_properties",
 				"entity": "this",
 				"predicate": {
-					"nbt": "{Tags:[\"snake\",\"default\"]}"
+					"nbt": "{Tags:[\"snake\"]}"
 				}
+			},
+			{
+				"condition": "minecraft:any_of",
+				"terms": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"nbt": "{Tags:[\"default\"]}"
+						}
+					},
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"nbt": "{Tags:[\"classic_tuxedo\"]}"
+						}
+					}
+				]
 			}
 		]
 	},
@@ -1765,8 +1823,27 @@
 				"condition": "minecraft:entity_properties",
 				"entity": "this",
 				"predicate": {
-					"nbt": "{Tags:[\"snake\",\"default\",\"nightVisionGoggles\"]}"
+					"nbt": "{Tags:[\"snake\",\"night_vision_goggles\"]}"
 				}
+			},
+			{
+				"condition": "minecraft:any_of",
+				"terms": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"nbt": "{Tags:[\"default\"]}"
+						}
+					},
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"nbt": "{Tags:[\"classic_tuxedo\"]}"
+						}
+					}
+				]
 			}
 		]
 	},
@@ -1791,7 +1868,7 @@
 				"condition": "minecraft:entity_properties",
 				"entity": "this",
 				"predicate": {
-					"nbt": "{Tags:[\"snake\",\"gold\",\"nightVisionGoggles\"]}"
+					"nbt": "{Tags:[\"snake\",\"gold\",\"night_vision_goggles\"]}"
 				}
 			}
 		]
@@ -1817,7 +1894,7 @@
 				"condition": "minecraft:entity_properties",
 				"entity": "this",
 				"predicate": {
-					"nbt": "{Tags:[\"snake\",\"iroquois_pliskin\",\"nightVisionGoggles\"]}"
+					"nbt": "{Tags:[\"snake\",\"iroquois_pliskin\",\"night_vision_goggles\"]}"
 				}
 			}
 		]
@@ -1857,6 +1934,32 @@
 				"entity": "this",
 				"predicate": {
 					"nbt": "{Tags:[\"sonic\",\"classic\"]}"
+				}
+			}
+		]
+	},
+	{
+		"function": "minecraft:set_nbt",
+		"tag": "{CustomModelData:1543}",
+		"conditions": [
+			{
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"nbt": "{Tags:[\"sonic\",\"werehog\"]}"
+				}
+			}
+		]
+	},
+	{
+		"function": "minecraft:set_nbt",
+		"tag": "{CustomModelData:1544}",
+		"conditions": [
+			{
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"nbt": "{Tags:[\"sonic\",\"hylian_tunic\"]}"
 				}
 			}
 		]
@@ -2160,7 +2263,6 @@
 			}
 		]
 	},
-
 	{
 		"function": "minecraft:set_nbt",
 		"tag": "{CustomModelData:1820}",
@@ -2429,6 +2531,19 @@
 				"condition": "minecraft:entity_properties",
 				"entity": "this",
 				"predicate": {
+					"nbt": "{Tags:[\"shadow\",\"sir_lancelot\"]}"
+				}
+			}
+		]
+	},
+	{
+		"function": "minecraft:set_nbt",
+		"tag": "{CustomModelData:1903}",
+		"conditions": [
+			{
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
 					"nbt": "{Tags:[\"shadow\",\"yellow_android\"]}"
 				}
 			}
@@ -2447,7 +2562,6 @@
 			}
 		]
 	},
-
 	{
 		"function": "minecraft:set_nbt",
 		"tag": "{CustomModelData:1922}",
