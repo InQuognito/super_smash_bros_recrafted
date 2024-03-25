@@ -1,1 +1,1 @@
-scoreboard players operation @s id = idToMatch temp
+scoreboard players operation @s id = id_to_match temp

@@ -1,5 +1,5 @@
 execute if entity @s[scores={charge.step=5..},nbt={SelectedItem:{tag:{areadbhar:1}}},predicate=ssbrc:flag/sneaking] run function ssbrc:fighters/byleth/logic/blue_lions/spin_attack/deactivate
-execute if entity @s[scores={useAbility=1..,cooldown.2=..0},nbt={SelectedItem:{tag:{steed_charge:1}}}] rotated ~ 0.0 run function ssbrc:fighters/byleth/logic/blue_lions/steed_charge/activate
+execute if entity @s[scores={use_ability=1..,cooldown.2=..0},nbt={SelectedItem:{tag:{steed_charge:1}}}] rotated ~ 0.0 run function ssbrc:fighters/byleth/logic/blue_lions/steed_charge/activate
 
 # Spin Attack
 scoreboard players add $spinAttack rotation 15

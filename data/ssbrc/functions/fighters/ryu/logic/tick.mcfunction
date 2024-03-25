@@ -1,5 +1,5 @@
 execute if entity @s[scores={charge.step=5..,cooldown.1=..0},nbt={SelectedItem:{tag:{collarbone_breaker:1}}}] at @s run function ssbrc:fighters/ryu/logic/abilities/hadouken/check
-execute if entity @s[scores={useAbility=1..},nbt={SelectedItem:{tag:{satsuiNoHadoRage:1}}}] run function ssbrc:fighters/ryu/logic/abilities/satsui_no_hado_rage/activate
+execute if entity @s[scores={use_ability=1..},nbt={SelectedItem:{tag:{satsuiNoHadoRage:1}}}] run function ssbrc:fighters/ryu/logic/abilities/satsui_no_hado_rage/activate
 
 # Tatsumaki Senpukyaku
 scoreboard players add @s[predicate=ssbrc:flag/sneaking] charge.2 1

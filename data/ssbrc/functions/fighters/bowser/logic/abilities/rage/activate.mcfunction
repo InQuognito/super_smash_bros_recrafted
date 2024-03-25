@@ -5,6 +5,6 @@ effect give @s minecraft:resistance 3 2 true
 function ssbrc:logic/fighters/attributes/defaults
 
 scoreboard players reset @s charge.2
-tag @s add rageUsed
+tag @s add rage_used
 
 execute at @s run playsound ssbrc:fighters.bowser.rage.activate player @a

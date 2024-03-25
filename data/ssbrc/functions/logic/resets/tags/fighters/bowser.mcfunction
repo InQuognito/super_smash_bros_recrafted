@@ -1,3 +1,3 @@
 tag @s remove bowser
 
-tag @s remove rageUsed
+tag @s remove rage_used

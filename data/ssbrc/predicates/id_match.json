@@ -7,7 +7,7 @@
 				"type": "minecraft:score",
 				"target": {
 					"type": "minecraft:fixed",
-					"name": "idToMatch"
+					"name": "id_to_match"
 				},
 				"score": "temp"
 			},
@@ -15,7 +15,7 @@
 				"type": "minecraft:score",
 				"target": {
 					"type": "minecraft:fixed",
-					"name": "idToMatch"
+					"name": "id_to_match"
 				},
 				"score": "temp"
 			}

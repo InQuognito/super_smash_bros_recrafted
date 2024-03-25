@@ -1,12 +1,12 @@
-execute if entity @s[scores={useAbility=1..},nbt={SelectedItem:{tag:{bomb:1}}}] run function ssbrc:fighters/zelda/logic/abilities/bomb/check
-execute if entity @s[scores={useAbility=1..},nbt={SelectedItem:{tag:{boomerang:1}}}] run function ssbrc:fighters/zelda/logic/abilities/boomerang/check
+execute if entity @s[scores={use_ability=1..},nbt={SelectedItem:{tag:{bomb:1}}}] run function ssbrc:fighters/zelda/logic/abilities/bomb/check
+execute if entity @s[scores={use_ability=1..},nbt={SelectedItem:{tag:{boomerang:1}}}] run function ssbrc:fighters/zelda/logic/abilities/boomerang/check
 execute if entity @s[scores={charge.step=5..,cooldown.1=..0},nbt={SelectedItem:{tag:{bow:1}}}] run function ssbrc:fighters/zelda/logic/abilities/bow/check
-execute if entity @s[scores={useAbility=1..,cooldown.1=..0},nbt={SelectedItem:{tag:{fire_rod:1}}}] at @s anchored eyes run function ssbrc:fighters/zelda/logic/abilities/fire_rod/check
-execute if entity @s[scores={useAbility=1..,cooldown.1=..0},nbt={SelectedItem:{tag:{ice_rod:1}}}] at @s anchored eyes run function ssbrc:fighters/zelda/logic/abilities/ice_rod/check
-execute if entity @s[scores={useAbility=1..},nbt={SelectedItem:{tag:{magic_boomerang:1}}}] run function ssbrc:fighters/zelda/logic/abilities/magic_boomerang/check
+execute if entity @s[scores={use_ability=1..,cooldown.1=..0},nbt={SelectedItem:{tag:{fire_rod:1}}}] at @s anchored eyes run function ssbrc:fighters/zelda/logic/abilities/fire_rod/check
+execute if entity @s[scores={use_ability=1..,cooldown.1=..0},nbt={SelectedItem:{tag:{ice_rod:1}}}] at @s anchored eyes run function ssbrc:fighters/zelda/logic/abilities/ice_rod/check
+execute if entity @s[scores={use_ability=1..},nbt={SelectedItem:{tag:{magic_boomerang:1}}}] run function ssbrc:fighters/zelda/logic/abilities/magic_boomerang/check
 
-execute if entity @s[scores={useAbility=1..},nbt={SelectedItem:{tag:{great_fairy_blessing:1}}}] run function ssbrc:fighters/zelda/logic/abilities/great_fairy_blessing/check
-execute if entity @s[scores={useAbility=1..},nbt={SelectedItem:{tag:{inventory_refresh:1}}}] run function ssbrc:fighters/zelda/logic/abilities/inventory_refresh/check
+execute if entity @s[scores={use_ability=1..},nbt={SelectedItem:{tag:{great_fairy_blessing:1}}}] run function ssbrc:fighters/zelda/logic/abilities/great_fairy_blessing/check
+execute if entity @s[scores={use_ability=1..},nbt={SelectedItem:{tag:{inventory_refresh:1}}}] run function ssbrc:fighters/zelda/logic/abilities/inventory_refresh/check
 
 # Mana
 function ssbrc:fighters/zelda/logic/mana/update

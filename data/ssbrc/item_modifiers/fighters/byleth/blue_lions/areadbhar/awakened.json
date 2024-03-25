@@ -3,7 +3,7 @@
 		"function": "minecraft:set_name",
 		"entity": "this",
 		"name": {
-			"translate": "ssbrc.tooltips.byleth.blueLions.areadbhar",
+			"translate": "ssbrc.tooltips.byleth.blue_lions.areadbhar",
 			"color": "red",
 			"bold": true,
 			"italic": false

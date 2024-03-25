@@ -1,6 +1,6 @@
 function ssbrc:logic/pre_game/character_select/count_players
 
-execute if entity @s[tag=byleth,tag=weaponBroken] run function ssbrc:fighters/byleth/logic/get_kill/player
+execute if entity @s[tag=byleth,tag=weapon_broken] run function ssbrc:fighters/byleth/logic/get_kill/player
 execute if entity @s[tag=ganondorf] run tag @s add stalfosGet
 execute if entity @s[tag=hero] run function ssbrc:fighters/hero/logic/get_kill
 execute if entity @s[tag=pikachu] run function ssbrc:fighters/pikachu/logic/get_kill

@@ -2,7 +2,7 @@ tag @s remove room.characterSelect
 
 clear @s
 
-scoreboard players reset @s useAbility
+scoreboard players reset @s use_ability
 function ssbrc:logic/resets/charge
 function ssbrc:logic/resets/triggers
 

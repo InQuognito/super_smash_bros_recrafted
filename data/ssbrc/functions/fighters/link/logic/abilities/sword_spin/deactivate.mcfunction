@@ -2,4 +2,4 @@ execute if score @s charge.output matches 21.. run function ssbrc:fighters/link/
 
 tag @s remove swordSpin
 
-execute if entity @s[tag=!shield_broken,nbt=!{Inventory:[{tag:{hylianShield:1}}]}] run function ssbrc:fighters/link/logic/hylian_shield
+execute if entity @s[tag=!shield_broken,nbt=!{Inventory:[{tag:{hylian_shield:1}}]}] run function ssbrc:fighters/link/logic/hylian_shield

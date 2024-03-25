@@ -233,14 +233,14 @@
 		"entity": "this",
 		"lore": [
 			{
-				"translate": "ssbrc.tooltips.byleth.blueLions.swiftness",
+				"translate": "ssbrc.tooltips.byleth.blue_lions.swiftness",
 				"color": "yellow",
 				"bold": false,
 				"italic": false,
 				"underlined": true
 			},
 			{
-				"translate": "ssbrc.tooltips.byleth.blueLions.swiftness.description.1",
+				"translate": "ssbrc.tooltips.byleth.blue_lions.swiftness.description.1",
 				"color": "gray",
 				"bold": false,
 				"italic": false
@@ -252,7 +252,7 @@
 				"condition": "minecraft:entity_properties",
 				"entity": "this",
 				"predicate": {
-					"nbt": "{Tags:[\"byleth\",\"blueLions\"]}"
+					"nbt": "{Tags:[\"byleth\",\"blue_lions\"]}"
 				}
 			}
 		]
@@ -262,14 +262,14 @@
 		"entity": "this",
 		"lore": [
 			{
-				"translate": "ssbrc.tooltips.byleth.goldenDeer.resistance",
+				"translate": "ssbrc.tooltips.byleth.golden_deer.resistance",
 				"color": "yellow",
 				"bold": false,
 				"italic": false,
 				"underlined": true
 			},
 			{
-				"translate": "ssbrc.tooltips.byleth.goldenDeer.resistance.description.1",
+				"translate": "ssbrc.tooltips.byleth.golden_deer.resistance.description.1",
 				"color": "gray",
 				"bold": false,
 				"italic": false
@@ -281,7 +281,7 @@
 				"condition": "minecraft:entity_properties",
 				"entity": "this",
 				"predicate": {
-					"nbt": "{Tags:[\"byleth\",\"goldenDeer\"]}"
+					"nbt": "{Tags:[\"byleth\",\"golden_deer\"]}"
 				}
 			}
 		]
@@ -291,14 +291,14 @@
 		"entity": "this",
 		"lore": [
 			{
-				"translate": "ssbrc.tooltips.byleth.blackEagles.heavyArmor",
+				"translate": "ssbrc.tooltips.byleth.black_eagles.heavyArmor",
 				"color": "yellow",
 				"bold": false,
 				"italic": false,
 				"underlined": true
 			},
 			{
-				"translate": "ssbrc.tooltips.byleth.blackEagles.heavyArmor.description.1",
+				"translate": "ssbrc.tooltips.byleth.black_eagles.heavyArmor.description.1",
 				"color": "gray",
 				"bold": false,
 				"italic": false
@@ -310,7 +310,7 @@
 				"condition": "minecraft:entity_properties",
 				"entity": "this",
 				"predicate": {
-					"nbt": "{Tags:[\"byleth\",\"blackEagles\"]}"
+					"nbt": "{Tags:[\"byleth\",\"black_eagles\"]}"
 				}
 			}
 		]

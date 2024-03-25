@@ -68,6 +68,7 @@ scoreboard players set jigglypuff.hyper_voice.cooldown vars 40
 scoreboard players set joker.awakening.max vars 600
 scoreboard players set joker.persona_break vars 300
 scoreboard players set joker.final_guard.threshold vars 4
+scoreboard players set joker.tt33.ammo vars 8
 scoreboard players set joker.amrita_shower.cooldown vars 100
 scoreboard players set joker.eiagon.cooldown vars 40
 scoreboard players set joker.hama.cooldown vars 300

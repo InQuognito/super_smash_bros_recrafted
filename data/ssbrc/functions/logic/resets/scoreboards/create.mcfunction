@@ -25,10 +25,10 @@ scoreboard objectives add duration.2 dummy
 scoreboard objectives add duration.3 dummy
 scoreboard objectives add duration.4 dummy
 scoreboard objectives add event dummy
-scoreboard objectives add fallDistance minecraft.custom:minecraft.fall_one_cm
+scoreboard objectives add fall_distance minecraft.custom:minecraft.fall_one_cm
 scoreboard objectives add favorite.temp dummy
-scoreboard objectives add fiendsCauldron dummy
-scoreboard objectives add fiendsCauldron.timer dummy
+scoreboard objectives add fiends_cauldron dummy
+scoreboard objectives add fiends_cauldron.timer dummy
 scoreboard objectives add flag.breakShield minecraft.broken:minecraft.shield
 scoreboard objectives add flag.damage_dealt minecraft.custom:minecraft.damage_dealt
 scoreboard objectives add flag.damage_taken minecraft.custom:minecraft.damage_taken
@@ -40,7 +40,7 @@ scoreboard objectives add flag.walking minecraft.custom:minecraft.walk_one_cm
 scoreboard objectives add flinch dummy
 scoreboard objectives add frostbite dummy
 scoreboard objectives add frostbiteCooldown dummy
-scoreboard objectives add frostbiteTimer dummy
+scoreboard objectives add frostbite.timer dummy
 scoreboard objectives add fuse dummy
 scoreboard objectives add health dummy
 scoreboard objectives add healthTimer dummy
@@ -137,7 +137,7 @@ scoreboard objectives add timer.stat.kill dummy
 scoreboard objectives add timer.trident dummy
 scoreboard objectives add temp dummy
 scoreboard objectives add tower_of_fateBarrier dummy
-scoreboard objectives add useAbility minecraft.used:minecraft.carrot_on_a_stick
+scoreboard objectives add use_ability minecraft.used:minecraft.carrot_on_a_stick
 scoreboard objectives add useItem minecraft.used:minecraft.warped_fungus_on_a_stick
 scoreboard objectives add vars dummy
 scoreboard objectives add walkDistance minecraft.custom:minecraft.walk_one_cm

@@ -21,7 +21,7 @@
 				"damage": {
 					"blocked": false,
 					"source_entity": {
-						"nbt": "{Tags:[\"byleth\",\"blueLions\"]}",
+						"nbt": "{Tags:[\"byleth\",\"blue_lions\"]}",
 						"equipment": {
 							"mainhand": {
 								"nbt": "{areadbhar:1}"

@@ -10,112 +10,67 @@ scoreboard players set @s duration.3 0
 scoreboard players set @s flag.sprinting 0
 
 # Clear effects
-tag @s remove crossSlashTarget
+tag @s remove cross_slash.target
 function ssbrc:fighters/pokemon_trainer/logic/ivysaur/leech_seed/reset
 
 scoreboard players reset @s burning
-scoreboard players reset @s fiendsCauldron
+scoreboard players reset @s fiends_cauldron
 scoreboard players reset @s frostbite
-scoreboard players reset @s frostbiteTimer
+scoreboard players reset @s frostbite.timer
 
-tag @s remove angelFeather
+tag @s remove angel_feather
 tag @s remove immobile
 tag @s remove tornado.spin
 
-# Kill objects belonging to dead player
-scoreboard players operation idToMatch temp = @s id
-
-execute if entity @s[tag=byleth] run kill @e[type=minecraft:horse,tag=steed_charge,predicate=ssbrc:id_match]
-execute if entity @s[tag=captain_falcon] run kill @e[type=minecraft:marker,tag=raptor_boost,predicate=ssbrc:id_match]
-execute if entity @s[tag=fox] run kill @e[type=minecraft:marker,tag=fire_fox,predicate=ssbrc:id_match]
-execute if entity @s[tag=greninja] run kill @e[type=minecraft:marker,tag=shadow_sneak,predicate=ssbrc:id_match]
-execute if entity @s[tag=link] run kill @e[type=minecraft:item_display,tag=link.boomerang,predicate=ssbrc:id_match]
-execute if entity @s[tag=pokemon_trainer,tag=charizard] run kill @e[type=minecraft:marker,tag=flare_blitz,predicate=ssbrc:id_match]
-execute if entity @s[tag=pokemon_trainer,tag=ivysaur] run function ssbrc:fighters/pokemon_trainer/logic/ivysaur/leech_seed/kill
-execute if entity @s[tag=ryu] run kill @e[type=minecraft:marker,tag=tatsumaki_senpukyaku,predicate=ssbrc:id_match]
-execute if entity @s[tag=shovel_knight] run function ssbrc:fighters/shovel_knight/logic/kill_entities
-execute if entity @s[tag=yar] run kill @e[type=minecraft:bee,tag=drone,predicate=ssbrc:id_match]
-execute if entity @s[tag=zelda] run function ssbrc:fighters/zelda/logic/kill_entities
-
 # Misc
-tag @s remove hasShield
+tag @s remove has_shield
 tag @s remove shield_broken
-
-# Bowser
-tag @s remove rageUsed
-
-# Link
-clear @s[tag=link] minecraft:carrot_on_a_stick{boomerang:1}
-clear @s minecraft:shield{hylianShield:1}
-
-scoreboard players set @s[tag=link] charge.1 0
-
-# Zelda
-tag @s remove rupee_master
-
-# Ganondorf
-clear @s minecraft:trident{tridentOfPower:1}
-
-# Jigglypuff
-tag @s remove rest
-execute if entity @s[tag=jigglypuff] run function ssbrc:fighters/jigglypuff/logic/abilities/rest/deactivate
-
-# Pokémon Trainer / Team Rocket
 tag @s remove next_fighter_chosen
 
-# Giegue
-scoreboard players set @s[tag=giegue] charge.1 0
-scoreboard players set @s[tag=giegue] charge.2 0
+scoreboard players operation id_to_match temp = @s id
 
-# Byleth
-clear @s[tag=byleth] minecraft:shield{shield:1}
+execute if entity @s[tag=alucard] run function ssbrc:fighters/alucard/cleanup
 
-# Snake
-clear @s minecraft:paper{status:1}
+tag @s[tag=bowser] remove rage_used
 
-# Shadow
-scoreboard players set @s[tag=shadow] charge.1 0
-scoreboard players set @s[tag=shadow] charge.2 0
+execute if entity @s[tag=byleth] run function ssbrc:fighters/byleth/cleanup
 
-# R.O.B.
-scoreboard players set @s[tag=rob] charge.1 0
-scoreboard players set @s[tag=rob] charge.2 0
-scoreboard players set @s[tag=rob] charge.3 0
+execute if entity @s[tag=captain_falcon] run kill @e[type=minecraft:marker,tag=raptor_boost,predicate=ssbrc:id_match]
 
-# Ryu
-execute if entity @s[tag=ryu] run function ssbrc:fighters/ryu/logic/abilities/satsui_no_hado_rage/off
+execute if entity @s[tag=cloud] run function ssbrc:fighters/cloud/cleanup
 
-# Cloud
-scoreboard players set @s[tag=cloud] cloud.limit 0
+execute if entity @s[tag=fox] run kill @e[type=minecraft:marker,tag=fire_fox,predicate=ssbrc:id_match]
 
-tag @s remove punisher
+clear @s[tag=ganondorf] minecraft:trident{trident_of_power:1}
 
-# Alucard
-tag @s remove blood_metamorphosis
+execute if entity @s[tag=giegue] run function ssbrc:fighters/giegue/cleanup
 
-clear @s minecraft:shield{alucard_shield:1}
+execute if entity @s[tag=greninja] run kill @e[type=minecraft:marker,tag=shadow_sneak,predicate=ssbrc:id_match]
 
-# Joker
-clear @s minecraft:carrot_on_a_stick{mask:1}
+execute if entity @s[tag=jigglypuff] run function ssbrc:fighters/jigglypuff/cleanup
 
-# Shadow
-execute if entity @s[tag=shadow] at @s run playsound ssbrc:fighters.sonic_the_hedgehog.lose_stock player @a
+clear @s[tag=joker] minecraft:carrot_on_a_stick{mask:1}
 
-# Sonic
-execute if entity @s[tag=sonic] at @s run playsound ssbrc:fighters.sonic_the_hedgehog.lose_stock player @a
+execute if entity @s[tag=link] run function ssbrc:fighters/link/cleanup
 
-# Steve
-scoreboard players remove @s[tag=steve,scores={steve.tier=1..}] steve.tier 1
+execute if entity @s[tag=pokemon_trainer] run function ssbrc:fighters/pokemon_trainer/cleanup
 
-clear @s[tag=steve] #ssbrc:swords
-clear @s minecraft:carrot_on_a_stick{steve.pickaxe:1}
+execute if entity @s[tag=rob] run function ssbrc:fighters/rob/cleanup
 
-# Sora
+execute if entity @s[tag=ryu] run function ssbrc:fighters/ryu/cleanup
+
+execute if entity @s[tag=shadow] run function ssbrc:fighters/shadow/cleanup
+
+execute if entity @s[tag=shovel_knight] run function ssbrc:fighters/shovel_knight/logic/kill_entities
+
+clear @s[tag=snake] minecraft:paper{status:1}
+
+execute at @s[predicate=ssbrc:fighters/sonic_the_hedgehog] run playsound ssbrc:fighters.sonic_the_hedgehog.lose_stock player @a
+
 scoreboard players set @s[tag=sora] charge.3 0
 
-# Altered Beast
-clear @s minecraft:trident{feralClaw:1}
-clear @s minecraft:firework_rocket{sabretooth:1}
+execute if entity @s[tag=steve] run function ssbrc:fighters/steve/cleanup
 
-# Yar
-clear @s minecraft:carrot_on_a_stick{drone:1}
+execute if entity @s[tag=yar] run function ssbrc:fighters/yar/cleanup
+
+execute if entity @s[tag=zelda] run function ssbrc:fighters/zelda/cleanup

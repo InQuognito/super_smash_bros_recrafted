@@ -12,7 +12,7 @@
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"translate": "ssbrc.tooltips.ganondorf.tridentOfPower",
+								"translate": "ssbrc.tooltips.ganondorf.trident_of_power",
 								"color": "dark_gray",
 								"bold": true,
 								"italic": false
@@ -35,7 +35,7 @@
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{tridentOfPower:1}"
+							"tag": "{trident_of_power:1}"
 						}
 					]
 				}

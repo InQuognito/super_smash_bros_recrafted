@@ -100,4 +100,4 @@ execute if entity @e[type=minecraft:item_display,tag=lostpuppet,dx=0,sort=neares
 
 execute if entity @e[type=minecraft:item_display,tag=fighterDisplay,dx=0,sort=nearest,limit=1] run advancement grant @s[advancements={ssbrc:tutorial/intro/3=true,ssbrc:tutorial/fighter_select/2=false}] only ssbrc:tutorial/fighter_select/2
 
-scoreboard players reset @s useAbility
+scoreboard players reset @s use_ability

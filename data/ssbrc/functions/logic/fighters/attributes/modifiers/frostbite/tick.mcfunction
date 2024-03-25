@@ -9,5 +9,5 @@ execute if score @s frostbite matches 5 run particle minecraft:snowflake ~ ~0.75
 
 scoreboard players remove @s[scores={frostbiteCooldown=1..}] frostbiteCooldown 1
 
-scoreboard players remove @s[scores={frostbiteTimer=1..}] frostbiteTimer 1
-execute if score @s frostbiteTimer matches 0 run function ssbrc:logic/fighters/attributes/modifiers/frostbite/decrease
+scoreboard players remove @s[scores={frostbite.timer=1..}] frostbite.timer 1
+execute if score @s frostbite.timer matches 0 run function ssbrc:logic/fighters/attributes/modifiers/frostbite/decrease

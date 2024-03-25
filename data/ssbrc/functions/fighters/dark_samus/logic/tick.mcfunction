@@ -1,6 +1,6 @@
-execute if entity @s[scores={duration.1=..0,useAbility=1..,cooldown.1=..0},predicate=!ssbrc:flag/sneaking,nbt={SelectedItem:{tag:{phazon_beam:1}}}] at @s anchored eyes run function ssbrc:fighters/dark_samus/logic/abilities/phazon_beam/activate
+execute if entity @s[scores={duration.1=..0,use_ability=1..,cooldown.1=..0},predicate=!ssbrc:flag/sneaking,nbt={SelectedItem:{tag:{phazon_beam:1}}}] at @s anchored eyes run function ssbrc:fighters/dark_samus/logic/abilities/phazon_beam/activate
 execute if entity @s[scores={duration.1=..0,charge.step=5..,cooldown.1=..0},predicate=ssbrc:flag/sneaking,nbt={SelectedItem:{tag:{phazon_beam:1}}}] at @s anchored eyes run function ssbrc:fighters/dark_samus/logic/abilities/phazon_beam/activate
-execute if entity @s[scores={useAbility=1..},nbt={SelectedItem:{tag:{phazon_overload:1}}}] at @s anchored eyes run function ssbrc:fighters/dark_samus/logic/abilities/phazon_overload/activate
+execute if entity @s[scores={use_ability=1..},nbt={SelectedItem:{tag:{phazon_overload:1}}}] at @s anchored eyes run function ssbrc:fighters/dark_samus/logic/abilities/phazon_overload/activate
 
 # Charge Beam
 execute if entity @s[scores={charge.output=1..,cooldown.1=..0,duration.1=..0},predicate=ssbrc:flag/sneaking,nbt={SelectedItem:{tag:{phazon_beam:1}}}] at @s positioned ~ ~1 ~ run function ssbrc:fighters/dark_samus/logic/abilities/phazon_beam/charge

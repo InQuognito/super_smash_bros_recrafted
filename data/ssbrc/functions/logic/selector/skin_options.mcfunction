@@ -37,4 +37,4 @@ execute if entity @s[tag=wolf] run function ssbrc:fighters/wolf/menu/skin_option
 execute if entity @s[tag=yar] run function ssbrc:fighters/yar/menu/skin_options
 execute if entity @s[tag=zelda] run function ssbrc:fighters/zelda/menu/skin_options
 
-scoreboard players reset @s useAbility
+scoreboard players reset @s use_ability

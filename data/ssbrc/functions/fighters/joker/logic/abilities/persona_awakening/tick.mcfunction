@@ -1,4 +1,4 @@
-execute if entity @s[scores={useAbility=1..,cooldown.1=..0}] run function ssbrc:fighters/joker/logic/abilities/check
+execute if entity @s[scores={use_ability=1..,cooldown.1=..0}] run function ssbrc:fighters/joker/logic/abilities/check
 
 # Amrita Shower
 execute if entity @s[tag=highPixie,scores={duration.3=1..}] as @a[predicate=ssbrc:flag/player,predicate=ssbrc:team_match] run function ssbrc:logic/fighters/effects/cleanse

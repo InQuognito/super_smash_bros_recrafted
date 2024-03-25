@@ -37,4 +37,4 @@ execute if entity @s[tag=wolf] run tellraw @s [{"translate":"[","color":"dark_aq
 execute if entity @s[tag=yar] run tellraw @s [{"translate":"[","color":"dark_aqua"},{"translate":"ssbrc.fighters.menu.wiki","color":"aqua","clickEvent":{"action":"open_url","value":"https://super-smash-bros-recrafted.fandom.com/wiki/Yar"}},{"translate":"]","color":"dark_aqua"}]
 execute if entity @s[tag=zelda] run tellraw @s [{"translate":"[","color":"dark_aqua"},{"translate":"ssbrc.fighters.menu.wiki","color":"aqua","clickEvent":{"action":"open_url","value":"https://super-smash-bros-recrafted.fandom.com/wiki/Zelda"}},{"translate":"]","color":"dark_aqua"}]
 
-scoreboard players reset @s useAbility
+scoreboard players reset @s use_ability

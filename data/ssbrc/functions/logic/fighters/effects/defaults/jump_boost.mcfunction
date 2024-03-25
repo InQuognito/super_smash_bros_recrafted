@@ -6,4 +6,4 @@ effect give @s[predicate=ssbrc:fighters/effects/jump_boost/high] minecraft:jump_
 effect give @s[predicate=ssbrc:fighters/effects/jump_boost/super] minecraft:jump_boost infinite 3 true
 effect give @s[predicate=ssbrc:fighters/effects/jump_boost/insane] minecraft:jump_boost infinite 7 true
 
-effect give @s[tag=angelFeather] minecraft:jump_boost infinite 7 true
+effect give @s[tag=angel_feather] minecraft:jump_boost infinite 7 true

@@ -25,10 +25,10 @@ scoreboard objectives remove duration.2
 scoreboard objectives remove duration.3
 scoreboard objectives remove duration.4
 #scoreboard objectives remove event
-scoreboard objectives remove fallDistance
+scoreboard objectives remove fall_distance
 scoreboard objectives remove favorite.temp
-scoreboard objectives remove fiendsCauldron
-scoreboard objectives remove fiendsCauldron.timer
+scoreboard objectives remove fiends_cauldron
+scoreboard objectives remove fiends_cauldron.timer
 scoreboard objectives remove flag.breakShield
 scoreboard objectives remove flag.damage_dealt
 scoreboard objectives remove flag.damage_taken
@@ -40,7 +40,7 @@ scoreboard objectives remove flag.walking
 scoreboard objectives remove flinch
 scoreboard objectives remove frostbite
 scoreboard objectives remove frostbiteCooldown
-scoreboard objectives remove frostbiteTimer
+scoreboard objectives remove frostbite.timer
 scoreboard objectives remove fuse
 scoreboard objectives remove health
 scoreboard objectives remove healthTimer
@@ -137,7 +137,7 @@ scoreboard objectives remove timer.stat.kill
 scoreboard objectives remove timer.trident
 scoreboard objectives remove temp
 scoreboard objectives remove tower_of_fateBarrier
-scoreboard objectives remove useAbility
+scoreboard objectives remove use_ability
 scoreboard objectives remove useItem
 scoreboard objectives remove vars
 scoreboard objectives remove walkDistance

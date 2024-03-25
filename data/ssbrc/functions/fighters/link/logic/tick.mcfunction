@@ -1,6 +1,6 @@
-execute if entity @s[predicate=ssbrc:fighters/link/master_sword_awakened,predicate=!ssbrc:flag/sneaking,scores={useAbility=1..,cooldown.1=..0},nbt={SelectedItem:{tag:{master_sword:1}}}] at @s anchored eyes positioned ^ ^ ^ run function ssbrc:fighters/link/logic/abilities/sword_beam/activate
+execute if entity @s[predicate=ssbrc:fighters/link/master_sword_awakened,predicate=!ssbrc:flag/sneaking,scores={use_ability=1..,cooldown.1=..0},nbt={SelectedItem:{tag:{master_sword:1}}}] at @s anchored eyes positioned ^ ^ ^ run function ssbrc:fighters/link/logic/abilities/sword_beam/activate
 execute if entity @s[tag=!no_spin,predicate=ssbrc:flag/sneaking,scores={charge.step=5..}] at @s run function ssbrc:fighters/link/logic/abilities/sword_spin/deactivate
-execute if entity @s[scores={useAbility=1..},nbt={SelectedItem:{tag:{boomerang:1}}}] at @s anchored eyes run function ssbrc:fighters/link/logic/abilities/boomerang/activate
+execute if entity @s[scores={use_ability=1..},nbt={SelectedItem:{tag:{boomerang:1}}}] at @s anchored eyes run function ssbrc:fighters/link/logic/abilities/boomerang/activate
 
 # Health
 execute if score @s[nbt={Inventory:[{tag:{master_sword:1,awakened:0}}]}] health matches 40.. run function ssbrc:logic/fighters/replace_item {old:"master_sword",new:"link/master_sword"}

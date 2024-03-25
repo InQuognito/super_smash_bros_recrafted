@@ -1,4 +1,4 @@
-execute if entity @s[scores={useAbility=1..,cooldown.1=..0},nbt={SelectedItem:{tag:{fireball:1}}}] at @s anchored eyes run function ssbrc:fighters/mario/logic/abilities/fireball/activate
+execute if entity @s[scores={use_ability=1..,cooldown.1=..0},nbt={SelectedItem:{tag:{fireball:1}}}] at @s anchored eyes run function ssbrc:fighters/mario/logic/abilities/fireball/activate
 
 # Fireball
 function ssbrc:logic/fighters/cooldown {item:"fireball",type:"1",amount:"mario.fireball.cooldown"}

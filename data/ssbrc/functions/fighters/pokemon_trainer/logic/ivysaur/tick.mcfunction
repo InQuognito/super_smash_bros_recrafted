@@ -1,5 +1,5 @@
-execute if entity @s[scores={useAbility=1..,cooldown.2=..0},nbt={SelectedItem:{tag:{poison_powder:1}}}] positioned ~ ~0.75 ~ run function ssbrc:fighters/pokemon_trainer/logic/ivysaur/poison_powder/activate
-execute if entity @s[scores={useAbility=1..,cooldown.1=..0,charge.1=1..},nbt={SelectedItem:{tag:{leech_seed:1}}}] anchored eyes positioned ^ ^ ^ run function ssbrc:fighters/pokemon_trainer/logic/ivysaur/leech_seed/activate
+execute if entity @s[scores={use_ability=1..,cooldown.2=..0},nbt={SelectedItem:{tag:{poison_powder:1}}}] positioned ~ ~0.75 ~ run function ssbrc:fighters/pokemon_trainer/logic/ivysaur/poison_powder/activate
+execute if entity @s[scores={use_ability=1..,cooldown.1=..0,charge.1=1..},nbt={SelectedItem:{tag:{leech_seed:1}}}] anchored eyes positioned ^ ^ ^ run function ssbrc:fighters/pokemon_trainer/logic/ivysaur/leech_seed/activate
 
 # Poison Powder
 function ssbrc:fighters/pokemon_trainer/logic/ivysaur/poison_powder/cooldown

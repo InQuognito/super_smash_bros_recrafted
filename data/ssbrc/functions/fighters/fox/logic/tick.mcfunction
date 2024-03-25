@@ -1,4 +1,4 @@
-execute if entity @s[scores={useAbility=1..,duration.2=..0}] at @s anchored eyes positioned ^ ^ ^ run function ssbrc:fighters/fox/logic/abilities/check
+execute if entity @s[scores={use_ability=1..,duration.2=..0}] at @s anchored eyes positioned ^ ^ ^ run function ssbrc:fighters/fox/logic/abilities/check
 
 # Reflector
 execute if score @s duration.2 matches 2.. at @s anchored eyes positioned ^ ^ ^2 as @e[type=#ssbrc:projectiles,predicate=!ssbrc:reflect_exceptions,tag=!reflected,distance=..2] run function ssbrc:fighters/fox/logic/abilities/reflector/tick

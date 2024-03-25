@@ -9,8 +9,8 @@ team modify team6 nametagVisibility never
 team modify team7 nametagVisibility never
 team modify team8 nametagVisibility never
 
-execute if score gameMode options matches 1 run function ssbrc:logic/start/setup/stock
-execute if score gameMode options matches 2 run function ssbrc:logic/start/setup/time
+execute if score game_mode options matches 1 run function ssbrc:logic/start/setup/stock
+execute if score game_mode options matches 2 run function ssbrc:logic/start/setup/time
 
 execute if entity @a[tag=byleth] run summon minecraft:marker 0.5 25.0 0.5 {Tags:["byleth.spinner"]}
 execute if entity @a[tag=link] run summon minecraft:marker 0.5 25.0 0.5 {Tags:["link.spinner"]}

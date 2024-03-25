@@ -49,20 +49,20 @@ execute if entity @s[tag=shovel_knight] run function ssbrc:fighters/shovel_knigh
 execute at @s[tag=team_rocket] run function ssbrc:fighters/team_rocket/logic/tick
 execute if entity @s[tag=yar] run function ssbrc:fighters/yar/logic/tick
 
-execute at @s[scores={useAbility=1..}] run function ssbrc:logic/inputs/abilities/impulse/default
+execute at @s[scores={use_ability=1..}] run function ssbrc:logic/inputs/abilities/impulse/default
 execute at @s[scores={charge.step=5..}] run function ssbrc:logic/inputs/abilities/charge/default
 
 execute if entity @s[scores={flag.damage_dealt=1..}] run function ssbrc:logic/fighters/damage_dealt
 execute if entity @s[scores={flag.damage_taken=1..}] run function ssbrc:logic/fighters/damage_taken
 
-execute at @s[scores={fallDistance=1..}] run function ssbrc:logic/fighters/shockwave/check
+execute at @s[scores={fall_distance=1..}] run function ssbrc:logic/fighters/shockwave/check
 execute at @s[scores={jumps=1..}] run function ssbrc:logic/fighters/jump
 
 # Items
-execute if entity @s[scores={useItem=1..},nbt={SelectedItem:{tag:{angelFeather:1}}}] run function ssbrc:stages/palutenas_temple/logic/angel_feather/activate
+execute if entity @s[scores={useItem=1..},nbt={SelectedItem:{tag:{angel_feather:1}}}] run function ssbrc:stages/palutenas_temple/logic/angel_feather/activate
 execute if entity @s[scores={useItem=1..},nbt={SelectedItem:{tag:{powerPellet:1}}}] run function ssbrc:stages/pac_maze/logic/power_pellet/use
 
-execute at @s[tag=angelFeather] run particle minecraft:dust_color_transition 1.0 1.0 0.0 0.5 1.0 1.0 1.0 ~ ~0.75 ~ 0.2 0.3 0.2 0.0 3 normal @a
+execute at @s[tag=angel_feather] run particle minecraft:dust_color_transition 1.0 1.0 0.0 0.5 1.0 1.0 1.0 ~ ~0.75 ~ 0.2 0.3 0.2 0.0 3 normal @a
 
 scoreboard players reset @s useItem
 

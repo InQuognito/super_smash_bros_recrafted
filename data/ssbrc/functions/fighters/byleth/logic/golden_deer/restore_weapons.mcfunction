@@ -5,4 +5,4 @@ clear @s minecraft:iron_sword{steel_sword:1}
 loot replace entity @s hotbar.1 loot ssbrc:fighters/byleth/sword_of_the_creator
 
 scoreboard players reset @s charge.2
-tag @s remove weaponBroken
+tag @s remove weapon_broken

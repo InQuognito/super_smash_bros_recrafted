@@ -5,4 +5,4 @@ title @s title {"translate":"ssbrc.game.start","color":"dark_green"}
 
 scoreboard players reset @s stocks
 
-scoreboard players reset @s fallDistance
+scoreboard players reset @s fall_distance

@@ -82,7 +82,7 @@
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{hylianShield:1}"
+							"tag": "{hylian_shield:1}"
 						}
 					]
 				}

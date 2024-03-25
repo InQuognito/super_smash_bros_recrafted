@@ -12,7 +12,7 @@
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"translate": "ssbrc.tooltips.byleth.blueLions.steed_charge",
+								"translate": "ssbrc.tooltips.byleth.blue_lions.steed_charge",
 								"color": "gray",
 								"bold": true,
 								"italic": false
@@ -43,7 +43,7 @@
 											"italic": false
 										},
 										{
-											"translate": "ssbrc.tooltips.byleth.blueLions.steed_charge.description.1",
+											"translate": "ssbrc.tooltips.byleth.blue_lions.steed_charge.description.1",
 											"color": "gray",
 											"bold": false,
 											"italic": false
