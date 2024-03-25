@@ -119,6 +119,8 @@ scoreboard players set samus.wave_beam.piercing vars 3
 scoreboard players set shadow.chaos_meter.max vars 300
 scoreboard players set shadow.chaos_spear.cooldown vars 15
 scoreboard players set shadow.chaos_spear.cost vars 50
+scoreboard players operation shadow.chaos_spear.half vars = shadow.chaos_spear.cost vars
+scoreboard players operation shadow.chaos_spear.half vars /= 2 integers
 
 scoreboard players set shovel_knight.mana.max vars 10
 scoreboard players set shovel_knight.chaos_sphere.cooldown vars 20
@@ -198,13 +200,6 @@ scoreboard players set zelda.ice_rod.cost.alt vars 4
 scoreboard players set zelda.magic_boomerang.cost vars 3
 scoreboard players set zelda.great_fairy_blessing vars 10
 scoreboard players set zelda.inventory_refresh vars 20
-
-scoreboard players set #damage.blade_beam vars 50
-scoreboard players set #damage.blizzaga vars 5
-scoreboard players set #damage.chaos_spear vars 95
-scoreboard players set #damage.firaga vars 40
-scoreboard players set #damage.thundaga vars 40
-scoreboard players set #damage.tt33 vars 40
 
 # Maps
 scoreboard players set thwompTime vars 100
