@@ -23,7 +23,7 @@
 						"direct_entity": {
 							"equipment": {
 								"mainhand": {
-									"nbt": "{flameSword:1}"
+									"nbt": "{flame_sword:1}"
 								}
 							}
 						}
