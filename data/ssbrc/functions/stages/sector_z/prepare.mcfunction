@@ -23,4 +23,4 @@ summon minecraft:marker 269.5 34.0 3283.5 {Tags:["spawnpoint.item"]}
 execute as @a[predicate=ssbrc:ingame] run function ssbrc:logic/pre_game/prepare_players
 function ssbrc:logic/pre_game/prepare_match
 
-tag @a[predicate=ssbrc:flag/player] add sectorZ
+tag @a[predicate=ssbrc:flag/player] add sector_z

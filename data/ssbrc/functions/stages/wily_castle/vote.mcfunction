@@ -1,9 +1,9 @@
-scoreboard players add @e[type=minecraft:text_display,tag=voteCounter,tag=wilyCastle,limit=1] mapVote 1
+scoreboard players add @e[type=minecraft:text_display,tag=voteCounter,tag=wily_castle,limit=1] mapVote 1
 
-execute unless entity @s[tag=wilyCastle] run tellraw @a[tag=room.mapVoting] [{"selector":"@s","color":"yellow"},{"translate":"ssbrc.stageSelect.voteMap","color":"gold"},{"translate":"ssbrc.stages.wilyCastle","color":"gold"},{"translate":"ssbrc.stageSelect.voteMap.display","color":"gold"},{"score":{"name":"@e[type=minecraft:text_display,tag=voteCounter,tag=wilyCastle,limit=1]","objective":"mapVote"},"color":"yellow"}]
+execute unless entity @s[tag=wily_castle] run tellraw @a[tag=room.mapVoting] [{"selector":"@s","color":"yellow"},{"translate":"ssbrc.stage_select.vote_map","color":"gold"},{"translate":"ssbrc.stages.wily_castle","color":"gold"},{"translate":"ssbrc.stage_select.vote_map.display","color":"gold"},{"score":{"name":"@e[type=minecraft:text_display,tag=voteCounter,tag=wily_castle,limit=1]","objective":"mapVote"},"color":"yellow"}]
 
 function ssbrc:logic/pre_game/map_voting/update_counters/remove_vote
-tag @s add wilyCastle
+tag @s add wily_castle
 
 execute if score teams options matches 0 run team join ready @s
 effect clear @s minecraft:glowing

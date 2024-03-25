@@ -5,63 +5,63 @@
 			"condition": "minecraft:entity_properties",
 			"entity": "this",
 			"predicate": {
-				"nbt": "{Tags:[\"bowsersCastle\"]}"
+				"nbt": "{Tags:[\"bowsers_castle\"]}"
 			}
 		},
 		{
 			"condition": "minecraft:entity_properties",
 			"entity": "this",
 			"predicate": {
-				"nbt": "{Tags:[\"greatPlateau\"]}"
+				"nbt": "{Tags:[\"great_plateau\"]}"
 			}
 		},
 		{
 			"condition": "minecraft:entity_properties",
 			"entity": "this",
 			"predicate": {
-				"nbt": "{Tags:[\"planetZebes\"]}"
+				"nbt": "{Tags:[\"planet_zebes\"]}"
 			}
 		},
 		{
 			"condition": "minecraft:entity_properties",
 			"entity": "this",
 			"predicate": {
-				"nbt": "{Tags:[\"lakeOfRage\"]}"
+				"nbt": "{Tags:[\"lake_of_rage\"]}"
 			}
 		},
 		{
 			"condition": "minecraft:entity_properties",
 			"entity": "this",
 			"predicate": {
-				"nbt": "{Tags:[\"castleSiege\"]}"
+				"nbt": "{Tags:[\"castle_siege\"]}"
 			}
 		},
 		{
 			"condition": "minecraft:entity_properties",
 			"entity": "this",
 			"predicate": {
-				"nbt": "{Tags:[\"flatZone\"]}"
+				"nbt": "{Tags:[\"flat_zone\"]}"
 			}
 		},
 		{
 			"condition": "minecraft:entity_properties",
 			"entity": "this",
 			"predicate": {
-				"nbt": "{Tags:[\"gardenOfHope\"]}"
+				"nbt": "{Tags:[\"garden_of_hope\"]}"
 			}
 		},
 		{
 			"condition": "minecraft:entity_properties",
 			"entity": "this",
 			"predicate": {
-				"nbt": "{Tags:[\"suzakuCastle\"]}"
+				"nbt": "{Tags:[\"suzaku_castle\"]}"
 			}
 		},
 		{
 			"condition": "minecraft:entity_properties",
 			"entity": "this",
 			"predicate": {
-				"nbt": "{Tags:[\"yggdrasilsAltar\"]}"
+				"nbt": "{Tags:[\"yggdrasils_altar\"]}"
 			}
 		}
 	]

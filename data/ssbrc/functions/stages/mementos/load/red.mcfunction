@@ -1,4 +1,4 @@
-scoreboard players set $mementosType map 3
+scoreboard players set mementos.type map 3
 
 time set night
 

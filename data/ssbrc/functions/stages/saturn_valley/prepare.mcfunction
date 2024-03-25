@@ -23,4 +23,4 @@ summon minecraft:marker -203.5 10.0 611.5 {Tags:["spawnpoint.item"]}
 execute as @a[predicate=ssbrc:ingame] run function ssbrc:logic/pre_game/prepare_players
 function ssbrc:logic/pre_game/prepare_match
 
-tag @a[predicate=ssbrc:flag/player] add saturnValley
+tag @a[predicate=ssbrc:flag/player] add saturn_valley

@@ -46,7 +46,7 @@
 		"entity": "this",
 		"lore": [
 			{
-				"translate": "ssbrc.tooltips.superMarioBros.super_jump",
+				"translate": "ssbrc.tooltips.super_mario_bros.super_jump",
 				"color": "yellow",
 				"bold": false,
 				"italic": false,
@@ -65,7 +65,7 @@
 						"italic": false
 					},
 					{
-						"translate": "ssbrc.tooltips.superMarioBros.super_jump.description.1",
+						"translate": "ssbrc.tooltips.super_mario_bros.super_jump.description.1",
 						"color": "gray",
 						"bold": false,
 						"italic": false
@@ -73,7 +73,7 @@
 				]
 			},
 			{
-				"translate": "ssbrc.tooltips.superMarioBros.super_jump.description.2",
+				"translate": "ssbrc.tooltips.super_mario_bros.super_jump.description.2",
 				"color": "gray",
 				"bold": false,
 				"italic": false
@@ -101,7 +101,7 @@
 		"entity": "this",
 		"lore": [
 			{
-				"translate": "ssbrc.tooltips.superMarioBros.super_jump",
+				"translate": "ssbrc.tooltips.super_mario_bros.super_jump",
 				"color": "yellow",
 				"bold": false,
 				"italic": false,
@@ -120,7 +120,7 @@
 						"italic": false
 					},
 					{
-						"translate": "ssbrc.tooltips.superMarioBros.super_jump.description.1",
+						"translate": "ssbrc.tooltips.super_mario_bros.super_jump.description.1",
 						"color": "gray",
 						"bold": false,
 						"italic": false
@@ -128,7 +128,7 @@
 				]
 			},
 			{
-				"translate": "ssbrc.tooltips.superMarioBros.super_jump.description.2",
+				"translate": "ssbrc.tooltips.super_mario_bros.super_jump.description.2",
 				"color": "gray",
 				"bold": false,
 				"italic": false

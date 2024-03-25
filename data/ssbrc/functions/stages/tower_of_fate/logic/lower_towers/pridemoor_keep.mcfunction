@@ -1,4 +1,4 @@
-scoreboard players set $towerOfFatePridemoorKeep temp 1
+scoreboard players set tower_of_fatePridemoorKeep temp 1
 
 clone 6043 8 482 6067 20 506 5988 8 488
 

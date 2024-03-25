@@ -12,4 +12,4 @@ execute if score random.output temp matches 9 positioned -722.5 39.5 807.5 summo
 execute if score random.output temp matches 10 positioned -681.5 39.5 881.5 summon minecraft:armor_stand run function ssbrc:stages/bowsers_castle/logic/hazards/bob_ombs/southeast/activate
 execute if score random.output temp matches 11 positioned -722.5 39.5 881.5 summon minecraft:armor_stand run function ssbrc:stages/bowsers_castle/logic/hazards/bob_ombs/southwest/activate
 
-execute unless score #bowsersCastleHazard temp matches 1 run function ssbrc:stages/bowsers_castle/logic/hazards/choose
+execute unless score #bowsers_castleHazard temp matches 1 run function ssbrc:stages/bowsers_castle/logic/hazards/choose

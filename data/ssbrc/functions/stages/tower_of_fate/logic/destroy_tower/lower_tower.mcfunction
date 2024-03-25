@@ -21,4 +21,4 @@ setblock 5989 23 500 minecraft:air
 
 execute positioned 6000.5 22.5 500.5 run function ssbrc:stages/tower_of_fate/logic/destroy_tower/explosion
 
-scoreboard players set towerOfFateDestroyed temp 2
+scoreboard players set tower_of_fateDestroyed temp 2

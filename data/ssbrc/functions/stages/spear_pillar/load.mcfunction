@@ -1,5 +1,5 @@
 scoreboard players reset * map
-scoreboard players set $spearPillar map 1
+scoreboard players set spear_pillar map 1
 scoreboard players set songCount map 2
 scoreboard players set mapPicked mapVote 1
 forceload add 768 -128 847 47

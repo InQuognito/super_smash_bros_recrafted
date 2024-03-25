@@ -1,5 +1,5 @@
 scoreboard players reset * map
-scoreboard players set $castleSiege map 1
+scoreboard players set castle_siege map 1
 scoreboard players set songCount map 2
 scoreboard players set mapPicked mapVote 1
 forceload add 1616 417 1663 495

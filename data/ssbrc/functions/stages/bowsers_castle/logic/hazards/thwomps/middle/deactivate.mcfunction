@@ -5,4 +5,4 @@ fill -706 40 842 -706 42 846 minecraft:air replace
 
 fill -705 44 842 -703 47 846 minecraft:air replace minecraft:barrier
 
-scoreboard players reset #bowsersCastleHazard temp
+scoreboard players reset #bowsers_castleHazard temp

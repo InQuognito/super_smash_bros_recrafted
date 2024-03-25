@@ -1,3 +1,3 @@
-scoreboard players reset $planetZebesRain temp
+scoreboard players reset planet_zebesRain temp
 
 weather clear

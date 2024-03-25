@@ -5,28 +5,28 @@
 			"condition": "minecraft:entity_properties",
 			"entity": "this",
 			"predicate": {
-				"nbt": "{Tags:[\"luigisMansion\"]}"
+				"nbt": "{Tags:[\"luigis_mansion\"]}"
 			}
 		},
 		{
 			"condition": "minecraft:entity_properties",
 			"entity": "this",
 			"predicate": {
-				"nbt": "{Tags:[\"frozenHijinx\"]}"
+				"nbt": "{Tags:[\"frozen_hijinx\"]}"
 			}
 		},
 		{
 			"condition": "minecraft:entity_properties",
 			"entity": "this",
 			"predicate": {
-				"nbt": "{Tags:[\"greatBay\"]}"
+				"nbt": "{Tags:[\"great_bay\"]}"
 			}
 		},
 		{
 			"condition": "minecraft:entity_properties",
 			"entity": "this",
 			"predicate": {
-				"nbt": "{Tags:[\"hyruleCastle\"]}"
+				"nbt": "{Tags:[\"hyrule_castle\"]}"
 			}
 		},
 		{
@@ -47,21 +47,21 @@
 			"condition": "minecraft:entity_properties",
 			"entity": "this",
 			"predicate": {
-				"nbt": "{Tags:[\"icicleMountain\"]}"
+				"nbt": "{Tags:[\"icicle_mountain\"]}"
 			}
 		},
 		{
 			"condition": "minecraft:entity_properties",
 			"entity": "this",
 			"predicate": {
-				"nbt": "{Tags:[\"shadowMosesIsland\"]}"
+				"nbt": "{Tags:[\"shadow_moses_island\"]}"
 			}
 		},
 		{
 			"condition": "minecraft:entity_properties",
 			"entity": "this",
 			"predicate": {
-				"nbt": "{Tags:[\"towerOfFate\"]}"
+				"nbt": "{Tags:[\"tower_of_fate\"]}"
 			}
 		}
 	]

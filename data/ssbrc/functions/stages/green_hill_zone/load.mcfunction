@@ -1,5 +1,5 @@
 scoreboard players reset * map
-scoreboard players set $greenHillZone map 1
+scoreboard players set green_hill_zone map 1
 scoreboard players set songCount map 2
 scoreboard players set mapPicked mapVote 1
 forceload add -64 208 31 255

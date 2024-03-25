@@ -1,4 +1,4 @@
-scoreboard players set $towerOfFateFlyingMachine temp 1
+scoreboard players set tower_of_fateFlyingMachine temp 1
 
 clone 6073 8 447 6097 20 471 5988 8 488
 

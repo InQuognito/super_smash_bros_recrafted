@@ -23,4 +23,4 @@ summon minecraft:marker 816.5 15.0 -43.5 {Tags:["spawnpoint.item"]}
 execute as @a[predicate=ssbrc:ingame] run function ssbrc:logic/pre_game/prepare_players
 function ssbrc:logic/pre_game/prepare_match
 
-tag @a[predicate=ssbrc:flag/player] add spearPillar
+tag @a[predicate=ssbrc:flag/player] add spear_pillar

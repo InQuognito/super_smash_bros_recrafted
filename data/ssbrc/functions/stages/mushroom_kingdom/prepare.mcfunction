@@ -23,4 +23,4 @@ summon minecraft:marker -239.5 39.0 -144.5 {Tags:["spawnpoint.item"]}
 execute as @a[predicate=ssbrc:ingame] run function ssbrc:logic/pre_game/prepare_players
 function ssbrc:logic/pre_game/prepare_match
 
-tag @a[predicate=ssbrc:flag/player] add mushroomKingdom
+tag @a[predicate=ssbrc:flag/player] add mushroom_kingdom

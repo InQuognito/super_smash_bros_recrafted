@@ -1,5 +1,5 @@
 scoreboard players reset * map
-scoreboard players set $miiverse map 1
+scoreboard players set miiverse map 1
 scoreboard players set songCount map 2
 scoreboard players set mapPicked mapVote 1
 forceload add -736 544 -625 655

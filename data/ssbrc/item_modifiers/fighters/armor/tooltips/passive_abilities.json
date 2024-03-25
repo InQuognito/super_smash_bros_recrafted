@@ -46,14 +46,14 @@
 		"entity": "this",
 		"lore": [
 			{
-				"translate": "ssbrc.tooltips.superMarioBros.stomp",
+				"translate": "ssbrc.tooltips.super_mario_bros.stomp",
 				"color": "yellow",
 				"bold": false,
 				"italic": false,
 				"underlined": true
 			},
 			{
-				"translate": "ssbrc.tooltips.superMarioBros.stomp.description.1",
+				"translate": "ssbrc.tooltips.super_mario_bros.stomp.description.1",
 				"color": "gray",
 				"bold": false,
 				"italic": false
@@ -75,14 +75,14 @@
 		"entity": "this",
 		"lore": [
 			{
-				"translate": "ssbrc.tooltips.superMarioBros.stomp",
+				"translate": "ssbrc.tooltips.super_mario_bros.stomp",
 				"color": "yellow",
 				"bold": false,
 				"italic": false,
 				"underlined": true
 			},
 			{
-				"translate": "ssbrc.tooltips.superMarioBros.stomp.description.1",
+				"translate": "ssbrc.tooltips.super_mario_bros.stomp.description.1",
 				"color": "gray",
 				"bold": false,
 				"italic": false

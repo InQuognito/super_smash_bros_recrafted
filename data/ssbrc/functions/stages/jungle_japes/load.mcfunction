@@ -1,5 +1,5 @@
 scoreboard players reset * map
-scoreboard players set $jungleJapes map 1
+scoreboard players set jungle_japes map 1
 scoreboard players set songCount map 2
 scoreboard players set mapPicked mapVote 1
 forceload add 2208 1552 2319 1631

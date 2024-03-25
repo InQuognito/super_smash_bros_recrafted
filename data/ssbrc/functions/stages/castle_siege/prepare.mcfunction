@@ -23,4 +23,4 @@ summon minecraft:marker 1647.5 35.0 473.5 {Tags:["spawnpoint.item"]}
 execute as @a[predicate=ssbrc:ingame] run function ssbrc:logic/pre_game/prepare_players
 function ssbrc:logic/pre_game/prepare_match
 
-tag @a[predicate=ssbrc:flag/player] add castleSiege
+tag @a[predicate=ssbrc:flag/player] add castle_siege

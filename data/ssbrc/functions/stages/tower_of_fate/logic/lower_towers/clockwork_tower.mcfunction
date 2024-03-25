@@ -1,4 +1,4 @@
-scoreboard players set $towerOfFateClockworkTower temp 1
+scoreboard players set tower_of_fateClockworkTower temp 1
 
 clone 6042 8 425 6066 20 449 5988 8 488
 
