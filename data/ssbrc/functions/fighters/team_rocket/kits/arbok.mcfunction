@@ -1,5 +1,5 @@
 function ssbrc:fighters/team_rocket/kits/reset
-tag @s add nextFighterChosen
+tag @s add next_fighter_chosen
 
 tag @s add arbok
 

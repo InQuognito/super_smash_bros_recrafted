@@ -56,9 +56,9 @@ execute if entity @s[tag=mega_man] run function ssbrc:fighters/mega_man/kit
 execute if entity @s[tag=pit] run function ssbrc:fighters/pit/logic/abilities/wings/regain/activate
 
 # Pokémon Trainer
-execute if entity @s[tag=pokemon_trainer,tag=squirtle,tag=!nextFighterChosen] run function ssbrc:fighters/pokemon_trainer/kits/charizard
-execute if entity @s[tag=pokemon_trainer,tag=charizard,tag=!nextFighterChosen] run function ssbrc:fighters/pokemon_trainer/kits/ivysaur
-execute if entity @s[tag=pokemon_trainer,tag=ivysaur,tag=!nextFighterChosen] run function ssbrc:fighters/pokemon_trainer/kits/squirtle
+execute if entity @s[tag=pokemon_trainer,tag=squirtle,tag=!next_fighter_chosen] run function ssbrc:fighters/pokemon_trainer/kits/charizard
+execute if entity @s[tag=pokemon_trainer,tag=charizard,tag=!next_fighter_chosen] run function ssbrc:fighters/pokemon_trainer/kits/ivysaur
+execute if entity @s[tag=pokemon_trainer,tag=ivysaur,tag=!next_fighter_chosen] run function ssbrc:fighters/pokemon_trainer/kits/squirtle
 
 # Rob
 execute if entity @s[tag=rob] run function ssbrc:logic/fighters/modify_item {old:"robo_beam",new:"rob/robo_beam"}
@@ -92,9 +92,9 @@ execute if entity @s[tag=alucard] run function ssbrc:fighters/alucard/restore_it
 execute if entity @s[tag=shovel_knight] run function ssbrc:fighters/shovel_knight/kit
 
 # Team Rocket
-execute if entity @s[tag=team_rocket,tag=wobbuffet,tag=!nextFighterChosen] run function ssbrc:fighters/team_rocket/kits/arbok
-execute if entity @s[tag=team_rocket,tag=meowth,tag=!nextFighterChosen] run function ssbrc:fighters/team_rocket/kits/wobbuffet
-execute if entity @s[tag=team_rocket,tag=arbok,tag=!nextFighterChosen] run function ssbrc:fighters/team_rocket/kits/meowth
+execute if entity @s[tag=team_rocket,tag=wobbuffet,tag=!next_fighter_chosen] run function ssbrc:fighters/team_rocket/kits/arbok
+execute if entity @s[tag=team_rocket,tag=meowth,tag=!next_fighter_chosen] run function ssbrc:fighters/team_rocket/kits/wobbuffet
+execute if entity @s[tag=team_rocket,tag=arbok,tag=!next_fighter_chosen] run function ssbrc:fighters/team_rocket/kits/meowth
 
 # Yar
 execute if entity @s[tag=yar] run function ssbrc:fighters/yar/logic/abilities/power_ups/reset

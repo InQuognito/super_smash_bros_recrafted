@@ -52,7 +52,7 @@ tag @s remove ignoreFeedback
 tag @s remove immobile
 tag @s remove intangible
 tag @s remove naturalShiny
-tag @s remove nextFighterChosen
+tag @s remove next_fighter_chosen
 tag @s remove pivot
 tag @s remove shield_broken
 

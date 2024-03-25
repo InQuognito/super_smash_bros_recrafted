@@ -61,7 +61,7 @@ tag @s remove rest
 execute if entity @s[tag=jigglypuff] run function ssbrc:fighters/jigglypuff/logic/abilities/rest/deactivate
 
 # Pokémon Trainer / Team Rocket
-tag @s remove nextFighterChosen
+tag @s remove next_fighter_chosen
 
 # Giegue
 scoreboard players set @s[tag=giegue] charge.1 0

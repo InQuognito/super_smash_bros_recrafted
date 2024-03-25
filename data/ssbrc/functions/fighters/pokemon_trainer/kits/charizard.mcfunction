@@ -1,4 +1,4 @@
-tag @s add nextFighterChosen
+tag @s add next_fighter_chosen
 
 function ssbrc:fighters/pokemon_trainer/kits/reset
 
