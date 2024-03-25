@@ -52,8 +52,8 @@ execute if entity @s[tag=yar] run function ssbrc:fighters/yar/logic/tick
 execute at @s[scores={useAbility=1..}] run function ssbrc:logic/inputs/abilities/impulse/default
 execute at @s[scores={charge.step=5..}] run function ssbrc:logic/inputs/abilities/charge/default
 
-execute if entity @s[scores={flag.damageDealt=1..}] run function ssbrc:logic/fighters/damage_dealt
-execute if entity @s[scores={flag.damageTaken=1..}] run function ssbrc:logic/fighters/damage_taken
+execute if entity @s[scores={flag.damage_dealt=1..}] run function ssbrc:logic/fighters/damage_dealt
+execute if entity @s[scores={flag.damage_taken=1..}] run function ssbrc:logic/fighters/damage_taken
 
 execute at @s[scores={fallDistance=1..}] run function ssbrc:logic/fighters/shockwave/check
 execute at @s[scores={jumps=1..}] run function ssbrc:logic/fighters/jump

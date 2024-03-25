@@ -5,6 +5,6 @@ execute if entity @e[type=minecraft:marker,tag=blade_beam,tag=limit_break,sort=n
 
 scoreboard players set entity_hit temp 1
 
-scoreboard players operation @a[tag=self,limit=1] flag.damageDealt += #damage.blade_beam vars
+scoreboard players operation @a[tag=self,limit=1] flag.damage_dealt += #damage.blade_beam vars
 function ssbrc:logic/fighters/damage_dealt
 execute as @a[tag=self,limit=1] at @s run playsound minecraft:entity.arrow.hit_player player @s

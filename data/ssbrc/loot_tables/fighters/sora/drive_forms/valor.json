@@ -136,7 +136,7 @@
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{drive.threshold.basic:1,valor:1}"
+							"tag": "{drive_form:1,valor:1}"
 						}
 					]
 				}

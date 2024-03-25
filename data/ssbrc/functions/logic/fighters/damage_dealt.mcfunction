@@ -6,4 +6,4 @@ execute if entity @s[tag=sora,predicate=!ssbrc:fighters/sora/drive_form] run fun
 
 execute unless score sudden_death options matches 1 run scoreboard players reset @s armistice
 
-scoreboard players reset @s flag.damageDealt
+scoreboard players reset @s flag.damage_dealt

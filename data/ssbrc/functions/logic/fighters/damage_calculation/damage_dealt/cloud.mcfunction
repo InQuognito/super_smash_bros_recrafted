@@ -1,4 +1,4 @@
-scoreboard players operation #limitGain temp = @s flag.damageDealt
+scoreboard players operation #limitGain temp = @s flag.damage_dealt
 
 execute if entity @s[tag=operator] run scoreboard players operation #limitGain temp *= 4 integers
 execute if entity @s[tag=operator] run scoreboard players operation #limitGain temp /= 30 integers

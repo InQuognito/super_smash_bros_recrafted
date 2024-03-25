@@ -1,4 +1,4 @@
-scoreboard players operation #limitGain temp = @s flag.damageTaken
+scoreboard players operation #limitGain temp = @s flag.damage_taken
 
 scoreboard players operation #limitGain temp *= 2 integers
 scoreboard players operation #limitGain temp /= 30 integers

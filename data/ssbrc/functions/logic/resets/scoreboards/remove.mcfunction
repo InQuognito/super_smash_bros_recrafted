@@ -30,8 +30,8 @@ scoreboard objectives remove favorite.temp
 scoreboard objectives remove fiendsCauldron
 scoreboard objectives remove fiendsCauldron.timer
 scoreboard objectives remove flag.breakShield
-scoreboard objectives remove flag.damageDealt
-scoreboard objectives remove flag.damageTaken
+scoreboard objectives remove flag.damage_dealt
+scoreboard objectives remove flag.damage_taken
 scoreboard objectives remove flag.dead
 scoreboard objectives remove flag.fireBow
 scoreboard objectives remove flag.inLava

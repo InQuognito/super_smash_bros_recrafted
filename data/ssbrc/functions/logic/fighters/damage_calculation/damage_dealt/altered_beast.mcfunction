@@ -1,4 +1,4 @@
-scoreboard players operation spiritGain temp = @s flag.damageDealt
+scoreboard players operation spiritGain temp = @s flag.damage_dealt
 
 scoreboard players operation spiritGain temp *= 100 integers
 
