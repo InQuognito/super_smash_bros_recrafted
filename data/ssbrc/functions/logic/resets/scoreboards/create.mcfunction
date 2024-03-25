@@ -120,8 +120,8 @@ scoreboard objectives add snake.socomR dummy
 scoreboard objectives add snake.anti_personnel_mineA dummy
 scoreboard objectives add snake.smoke_grenadeA dummy
 scoreboard objectives add sprintDistance minecraft.custom:minecraft.sprint_one_cm
-scoreboard objectives add stageIndex dummy
-scoreboard objectives add stageIndexCalculator dummy
+scoreboard objectives add stage_index dummy
+scoreboard objectives add stage_indexCalculator dummy
 scoreboard objectives add steve.tier dummy
 scoreboard objectives add stocks dummy
 scoreboard objectives add suicides dummy

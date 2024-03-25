@@ -120,8 +120,8 @@ scoreboard objectives remove snake.socomR
 scoreboard objectives remove snake.anti_personnel_mineA
 scoreboard objectives remove snake.smoke_grenadeA
 scoreboard objectives remove sprintDistance
-scoreboard objectives remove stageIndex
-scoreboard objectives remove stageIndexCalculator
+scoreboard objectives remove stage_index
+scoreboard objectives remove stage_indexCalculator
 scoreboard objectives remove steve.tier
 scoreboard objectives remove stocks
 scoreboard objectives remove suicides
