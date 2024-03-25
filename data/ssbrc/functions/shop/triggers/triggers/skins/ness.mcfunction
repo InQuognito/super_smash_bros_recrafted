@@ -7,5 +7,5 @@ execute if score @s shopCalculator matches 1.. run function ssbrc:shop/contents/
 execute store result score @s shopCalculator run clear @s #ssbrc:ui/buttons{ui:{id:"skins.ness.pajamas"}}
 execute if score @s shopCalculator matches 1.. run function ssbrc:shop/contents/skins/ness/pajamas
 
-execute store result score @s shopCalculator run clear @s #ssbrc:ui/buttons{ui:{id:"skins.ness.phaseDistortion"}}
+execute store result score @s shopCalculator run clear @s #ssbrc:ui/buttons{ui:{id:"skins.ness.phase_distortion"}}
 execute if score @s shopCalculator matches 1.. run function ssbrc:shop/contents/skins/ness/phase_distortion

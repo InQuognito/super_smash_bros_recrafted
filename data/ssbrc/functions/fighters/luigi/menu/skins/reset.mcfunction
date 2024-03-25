@@ -1,5 +1,5 @@
 tag @s remove default
 tag @s remove gold
-tag @s remove flowerPower
+tag @s remove flower_power
 tag @s remove gooigi
 tag @s remove penguin

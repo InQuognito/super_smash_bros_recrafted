@@ -12,7 +12,7 @@
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"translate": "ssbrc.fighters.shovel_knight.skin.armorOfChaos",
+								"translate": "ssbrc.fighters.shovel_knight.skin.armor_of_chaos",
 								"color": "red",
 								"bold": true,
 								"italic": false

@@ -1,3 +1,3 @@
 tag @s remove default
 tag @s remove gold
-tag @s remove yellowAndroid
+tag @s remove yellow_android

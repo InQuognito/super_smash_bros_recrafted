@@ -12,7 +12,7 @@
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"translate": "ssbrc.fighters.rob.skin.ancientMinister",
+								"translate": "ssbrc.fighters.rob.skin.ancient_minister",
 								"color": "dark_green",
 								"bold": true,
 								"italic": false

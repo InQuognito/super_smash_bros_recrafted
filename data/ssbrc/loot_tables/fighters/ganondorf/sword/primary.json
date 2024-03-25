@@ -46,7 +46,7 @@
 									"condition": "minecraft:entity_properties",
 									"entity": "this",
 									"predicate": {
-										"nbt": "{Tags:[\"ocarinaOfTime\"]}"
+										"nbt": "{Tags:[\"ocarina_of_time\"]}"
 									}
 								}
 							]
@@ -59,7 +59,7 @@
 									"condition": "minecraft:entity_properties",
 									"entity": "this",
 									"predicate": {
-										"nbt": "{Tags:[\"tearsOfTheKingdom\"]}"
+										"nbt": "{Tags:[\"tears_of_the_kingdom\"]}"
 									}
 								}
 							]
@@ -72,7 +72,7 @@
 									"condition": "minecraft:entity_properties",
 									"entity": "this",
 									"predicate": {
-										"nbt": "{Tags:[\"windWaker\"]}"
+										"nbt": "{Tags:[\"wind_waker\"]}"
 									}
 								}
 							]

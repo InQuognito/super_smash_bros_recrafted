@@ -1,3 +1,3 @@
 tag @s remove default
 tag @s remove gold
-tag @s remove timelessRiver
+tag @s remove timeless_river

@@ -12,7 +12,7 @@
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"translate": "ssbrc.fighters.link.skin.goronTunic",
+								"translate": "ssbrc.fighters.link.skin.goron_tunic",
 								"color": "red",
 								"bold": true,
 								"italic": false
@@ -28,7 +28,7 @@
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{ui:{id:\"skins.link.goronTunic\",sound:\"click\"},CustomModelData:723}"
+							"tag": "{ui:{id:\"skins.link.goron_tunic\",sound:\"click\"},CustomModelData:723}"
 						}
 					]
 				}

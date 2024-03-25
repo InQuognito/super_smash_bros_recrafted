@@ -12,7 +12,7 @@
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"translate": "ssbrc.fighters.joker.skin.christmasOutfit",
+								"translate": "ssbrc.fighters.joker.skin.christmas_outfit",
 								"color": "red",
 								"bold": true,
 								"italic": false

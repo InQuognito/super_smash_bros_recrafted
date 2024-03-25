@@ -164,7 +164,7 @@ execute if score @s[tag=altered_beast] menu matches 1825 run function ssbrc:figh
 
 execute if score @s[tag=alucard,tag=!default] menu matches 1844 run function ssbrc:fighters/alucard/menu/skins/default
 execute if score @s[tag=alucard,tag=!gold] menu matches 1845 run function ssbrc:fighters/alucard/menu/skins/gold
-execute if score @s[tag=alucard,tag=!lordsOfShadow] menu matches 1846 run function ssbrc:fighters/alucard/menu/skins/lords_of_shadow
+execute if score @s[tag=alucard,tag=!lords_of_shadow] menu matches 1846 run function ssbrc:fighters/alucard/menu/skins/lords_of_shadow
 
 execute if score @s[tag=giegue] menu matches 1864 run function ssbrc:fighters/giegue/menu/skins/default
 execute if score @s[tag=giegue] menu matches 1865 run function ssbrc:fighters/giegue/menu/skins/gold

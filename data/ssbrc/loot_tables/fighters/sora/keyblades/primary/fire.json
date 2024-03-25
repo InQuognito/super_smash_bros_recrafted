@@ -218,7 +218,7 @@
 									"condition": "minecraft:entity_properties",
 									"entity": "this",
 									"predicate": {
-										"nbt": "{Tags:[\"timelessRiver\"]}"
+										"nbt": "{Tags:[\"timeless_river\"]}"
 									}
 								},
 								{
@@ -267,7 +267,7 @@
 									"condition": "minecraft:entity_properties",
 									"entity": "this",
 									"predicate": {
-										"nbt": "{Tags:[\"timelessRiver\",\"wisdom\"]}"
+										"nbt": "{Tags:[\"timeless_river\",\"wisdom\"]}"
 									}
 								}
 							]

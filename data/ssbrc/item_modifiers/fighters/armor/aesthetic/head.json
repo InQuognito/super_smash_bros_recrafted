@@ -160,7 +160,7 @@
 				"condition": "minecraft:entity_properties",
 				"entity": "this",
 				"predicate": {
-					"nbt": "{Tags:[\"rob\",\"ancientMinister\"]}"
+					"nbt": "{Tags:[\"rob\",\"ancient_minister\"]}"
 				}
 			}
 		]
@@ -316,7 +316,7 @@
 				"condition": "minecraft:entity_properties",
 				"entity": "this",
 				"predicate": {
-					"nbt": "{Tags:[\"captain_falcon\",\"bloodFalcon\"]}"
+					"nbt": "{Tags:[\"captain_falcon\",\"blood_falcon\"]}"
 				}
 			}
 		]
@@ -329,7 +329,7 @@
 				"condition": "minecraft:entity_properties",
 				"entity": "this",
 				"predicate": {
-					"nbt": "{Tags:[\"captain_falcon\",\"rickWheeler\"]}"
+					"nbt": "{Tags:[\"captain_falcon\",\"rick_wheeler\"]}"
 				}
 			}
 		]
@@ -420,7 +420,7 @@
 				"condition": "minecraft:entity_properties",
 				"entity": "this",
 				"predicate": {
-					"nbt": "{Tags:[\"donkey_kong\",\"flowerPower\"]}"
+					"nbt": "{Tags:[\"donkey_kong\",\"flower_power\"]}"
 				}
 			}
 		]
@@ -433,7 +433,7 @@
 				"condition": "minecraft:entity_properties",
 				"entity": "this",
 				"predicate": {
-					"nbt": "{Tags:[\"donkey_kong\",\"superKong\"]}"
+					"nbt": "{Tags:[\"donkey_kong\",\"super_kong\"]}"
 				}
 			}
 		]
@@ -511,7 +511,7 @@
 				"condition": "minecraft:entity_properties",
 				"entity": "this",
 				"predicate": {
-					"nbt": "{Tags:[\"ganondorf\",\"ocarinaOfTime\"]}"
+					"nbt": "{Tags:[\"ganondorf\",\"ocarina_of_time\"]}"
 				}
 			}
 		]
@@ -524,7 +524,7 @@
 				"condition": "minecraft:entity_properties",
 				"entity": "this",
 				"predicate": {
-					"nbt": "{Tags:[\"ganondorf\",\"tearsOfTheKingdom\"]}"
+					"nbt": "{Tags:[\"ganondorf\",\"tears_of_the_kingdom\"]}"
 				}
 			}
 		]
@@ -537,7 +537,7 @@
 				"condition": "minecraft:entity_properties",
 				"entity": "this",
 				"predicate": {
-					"nbt": "{Tags:[\"ganondorf\",\"windWaker\"]}"
+					"nbt": "{Tags:[\"ganondorf\",\"wind_waker\"]}"
 				}
 			}
 		]
@@ -865,7 +865,7 @@
 				"condition": "minecraft:entity_properties",
 				"entity": "this",
 				"predicate": {
-					"nbt": "{Tags:[\"joker\",\"christmasOutfit\"]}"
+					"nbt": "{Tags:[\"joker\",\"christmas_outfit\"]}"
 				}
 			},
 			{
@@ -882,7 +882,7 @@
 				"condition": "minecraft:entity_properties",
 				"entity": "this",
 				"predicate": {
-					"nbt": "{Tags:[\"joker\",\"christmasOutfit\"]}"
+					"nbt": "{Tags:[\"joker\",\"christmas_outfit\"]}"
 				}
 			},
 			{
@@ -899,7 +899,7 @@
 				"condition": "minecraft:entity_properties",
 				"entity": "this",
 				"predicate": {
-					"nbt": "{Tags:[\"joker\",\"shujinAcademy\"]}"
+					"nbt": "{Tags:[\"joker\",\"shujin_academy\"]}"
 				}
 			},
 			{
@@ -916,7 +916,7 @@
 				"condition": "minecraft:entity_properties",
 				"entity": "this",
 				"predicate": {
-					"nbt": "{Tags:[\"joker\",\"shujinAcademy\"]}"
+					"nbt": "{Tags:[\"joker\",\"shujin_academy\"]}"
 				}
 			},
 			{
@@ -1011,7 +1011,7 @@
 				"condition": "minecraft:entity_properties",
 				"entity": "this",
 				"predicate": {
-					"nbt": "{Tags:[\"link\",\"dark\"]}"
+					"nbt": "{Tags:[\"link\",\"dark_link\"]}"
 				}
 			}
 		]
@@ -1024,7 +1024,7 @@
 				"condition": "minecraft:entity_properties",
 				"entity": "this",
 				"predicate": {
-					"nbt": "{Tags:[\"link\",\"goron\"]}"
+					"nbt": "{Tags:[\"link\",\"goron_tunic\"]}"
 				}
 			}
 		]
@@ -1037,7 +1037,7 @@
 				"condition": "minecraft:entity_properties",
 				"entity": "this",
 				"predicate": {
-					"nbt": "{Tags:[\"link\",\"zora\"]}"
+					"nbt": "{Tags:[\"link\",\"zora_tunic\"]}"
 				}
 			}
 		]
@@ -1076,7 +1076,7 @@
 				"condition": "minecraft:entity_properties",
 				"entity": "this",
 				"predicate": {
-					"nbt": "{Tags:[\"luigi\",\"flowerPower\"]}"
+					"nbt": "{Tags:[\"luigi\",\"flower_power\"]}"
 				}
 			}
 		]
@@ -1141,7 +1141,7 @@
 				"condition": "minecraft:entity_properties",
 				"entity": "this",
 				"predicate": {
-					"nbt": "{Tags:[\"mario\",\"flowerPower\"]}"
+					"nbt": "{Tags:[\"mario\",\"flower_power\"]}"
 				}
 			}
 		]
@@ -1245,7 +1245,7 @@
 				"condition": "minecraft:entity_properties",
 				"entity": "this",
 				"predicate": {
-					"nbt": "{Tags:[\"ness\",\"phaseDistortion\"]}"
+					"nbt": "{Tags:[\"ness\",\"phase_distortion\"]}"
 				}
 			}
 		]
@@ -1674,7 +1674,7 @@
 				"condition": "minecraft:entity_properties",
 				"entity": "this",
 				"predicate": {
-					"nbt": "{Tags:[\"ryu\",\"hotRyu\"]}"
+					"nbt": "{Tags:[\"ryu\",\"hot_ryu\"]}"
 				}
 			}
 		]
@@ -1687,7 +1687,7 @@
 				"condition": "minecraft:entity_properties",
 				"entity": "this",
 				"predicate": {
-					"nbt": "{Tags:[\"ryu\",\"hotRyu\",\"satsuiNoHadoRage\"]}"
+					"nbt": "{Tags:[\"ryu\",\"hot_ryu\",\"satsuiNoHadoRage\"]}"
 				}
 			}
 		]
@@ -1726,7 +1726,7 @@
 				"condition": "minecraft:entity_properties",
 				"entity": "this",
 				"predicate": {
-					"nbt": "{Tags:[\"samus\",\"gravitySuit\"]}"
+					"nbt": "{Tags:[\"samus\",\"gravity_suit\"]}"
 				}
 			}
 		]
@@ -1739,7 +1739,7 @@
 				"condition": "minecraft:entity_properties",
 				"entity": "this",
 				"predicate": {
-					"nbt": "{Tags:[\"samus\",\"phazonSuit\"]}"
+					"nbt": "{Tags:[\"samus\",\"phazon_suit\"]}"
 				}
 			}
 		]
@@ -1804,7 +1804,7 @@
 				"condition": "minecraft:entity_properties",
 				"entity": "this",
 				"predicate": {
-					"nbt": "{Tags:[\"snake\",\"iroquoisPliskin\"]}"
+					"nbt": "{Tags:[\"snake\",\"iroquois_pliskin\"]}"
 				}
 			}
 		]
@@ -1817,7 +1817,7 @@
 				"condition": "minecraft:entity_properties",
 				"entity": "this",
 				"predicate": {
-					"nbt": "{Tags:[\"snake\",\"iroquoisPliskin\",\"nightVisionGoggles\"]}"
+					"nbt": "{Tags:[\"snake\",\"iroquois_pliskin\",\"nightVisionGoggles\"]}"
 				}
 			}
 		]
@@ -1960,7 +1960,7 @@
 				"condition": "minecraft:entity_properties",
 				"entity": "this",
 				"predicate": {
-					"nbt": "{Tags:[\"sora\",\"timelessRiver\"]}"
+					"nbt": "{Tags:[\"sora\",\"timeless_river\"]}"
 				}
 			}
 		]
@@ -1973,7 +1973,7 @@
 				"condition": "minecraft:entity_properties",
 				"entity": "this",
 				"predicate": {
-					"nbt": "{Tags:[\"sora\",\"timelessRiver\",\"anti\"]}"
+					"nbt": "{Tags:[\"sora\",\"timeless_river\",\"anti\"]}"
 				}
 			}
 		]
@@ -1986,7 +1986,7 @@
 				"condition": "minecraft:entity_properties",
 				"entity": "this",
 				"predicate": {
-					"nbt": "{Tags:[\"sora\",\"timelessRiver\",\"valor\"]}"
+					"nbt": "{Tags:[\"sora\",\"timeless_river\",\"valor\"]}"
 				}
 			}
 		]
@@ -1999,7 +1999,7 @@
 				"condition": "minecraft:entity_properties",
 				"entity": "this",
 				"predicate": {
-					"nbt": "{Tags:[\"sora\",\"timelessRiver\",\"wisdom\"]}"
+					"nbt": "{Tags:[\"sora\",\"timeless_river\",\"wisdom\"]}"
 				}
 			}
 		]
@@ -2012,7 +2012,7 @@
 				"condition": "minecraft:entity_properties",
 				"entity": "this",
 				"predicate": {
-					"nbt": "{Tags:[\"sora\",\"timelessRiver\",\"master\"]}"
+					"nbt": "{Tags:[\"sora\",\"timeless_river\",\"master\"]}"
 				}
 			}
 		]
@@ -2351,7 +2351,7 @@
 				"condition": "minecraft:entity_properties",
 				"entity": "this",
 				"predicate": {
-					"nbt": "{Tags:[\"alucard\",\"lordsOfShadow\"]}"
+					"nbt": "{Tags:[\"alucard\",\"lords_of_shadow\"]}"
 				}
 			}
 		]
@@ -2364,7 +2364,7 @@
 				"condition": "minecraft:entity_properties",
 				"entity": "this",
 				"predicate": {
-					"nbt": "{Tags:[\"alucard\",\"gold\",\"lordsOfShadow\"]}"
+					"nbt": "{Tags:[\"alucard\",\"gold\",\"lords_of_shadow\"]}"
 				}
 			}
 		]
@@ -2429,7 +2429,7 @@
 				"condition": "minecraft:entity_properties",
 				"entity": "this",
 				"predicate": {
-					"nbt": "{Tags:[\"shadow\",\"yellowAndroid\"]}"
+					"nbt": "{Tags:[\"shadow\",\"yellow_android\"]}"
 				}
 			}
 		]
@@ -2469,7 +2469,7 @@
 				"condition": "minecraft:entity_properties",
 				"entity": "this",
 				"predicate": {
-					"nbt": "{Tags:[\"shovel_knight\",\"armorOfChaos\"]}"
+					"nbt": "{Tags:[\"shovel_knight\",\"armor_of_chaos\"]}"
 				}
 			}
 		]
@@ -2482,7 +2482,7 @@
 				"condition": "minecraft:entity_properties",
 				"entity": "this",
 				"predicate": {
-					"nbt": "{Tags:[\"shovel_knight\",\"toadGear\"]}"
+					"nbt": "{Tags:[\"shovel_knight\",\"toad_gear\"]}"
 				}
 			}
 		]

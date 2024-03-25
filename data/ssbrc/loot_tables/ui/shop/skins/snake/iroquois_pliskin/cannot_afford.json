@@ -12,7 +12,7 @@
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"translate": "ssbrc.fighters.snake.skin.iroquoisPliskin",
+								"translate": "ssbrc.fighters.snake.skin.iroquois_pliskin",
 								"color": "dark_green",
 								"bold": true,
 								"italic": false

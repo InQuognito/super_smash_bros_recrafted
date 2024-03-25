@@ -12,7 +12,7 @@
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"translate": "ssbrc.fighters.ganondorf.skin.windWaker",
+								"translate": "ssbrc.fighters.ganondorf.skin.wind_waker",
 								"color": "aqua",
 								"bold": true,
 								"italic": false

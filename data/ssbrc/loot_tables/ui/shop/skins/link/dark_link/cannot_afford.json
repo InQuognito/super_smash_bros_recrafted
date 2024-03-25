@@ -12,7 +12,7 @@
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"translate": "ssbrc.fighters.link.skin.darkLink",
+								"translate": "ssbrc.fighters.link.skin.dark_link",
 								"color": "dark_gray",
 								"bold": true,
 								"italic": false

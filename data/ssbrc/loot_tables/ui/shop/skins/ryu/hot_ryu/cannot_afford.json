@@ -12,7 +12,7 @@
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"translate": "ssbrc.fighters.ryu.skin.hotRyu",
+								"translate": "ssbrc.fighters.ryu.skin.hot_ryu",
 								"color": "white",
 								"bold": true,
 								"italic": false

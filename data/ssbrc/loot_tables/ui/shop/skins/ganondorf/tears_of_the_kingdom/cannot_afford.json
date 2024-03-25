@@ -12,7 +12,7 @@
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"translate": "ssbrc.fighters.ganondorf.skin.tearsOfTheKingdom",
+								"translate": "ssbrc.fighters.ganondorf.skin.tears_of_the_kingdom",
 								"color": "dark_red",
 								"bold": true,
 								"italic": false

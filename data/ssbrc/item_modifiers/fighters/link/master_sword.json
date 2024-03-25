@@ -19,7 +19,7 @@
 							"condition": "minecraft:entity_properties",
 							"entity": "this",
 							"predicate": {
-								"nbt": "{Tags:[\"dark\"]}"
+								"nbt": "{Tags:[\"dark_link\"]}"
 							}
 						}
 					]
@@ -48,7 +48,7 @@
 				"condition": "minecraft:entity_properties",
 				"entity": "this",
 				"predicate": {
-					"nbt": "{Tags:[\"dark\"]}"
+					"nbt": "{Tags:[\"dark_link\"]}"
 				}
 			}
 		]

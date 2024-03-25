@@ -12,7 +12,7 @@
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"translate": "ssbrc.fighters.link.skin.goronTunic",
+								"translate": "ssbrc.fighters.link.skin.goron_tunic",
 								"color": "red",
 								"bold": true,
 								"italic": false

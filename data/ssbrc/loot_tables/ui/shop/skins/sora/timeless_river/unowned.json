@@ -12,7 +12,7 @@
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"translate": "ssbrc.fighters.sora.skin.timelessRiver",
+								"translate": "ssbrc.fighters.sora.skin.timeless_river",
 								"color": "gray",
 								"bold": true,
 								"italic": false
@@ -28,7 +28,7 @@
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{ui:{id:\"skins.sora.timelessRiver\",sound:\"click\"},CustomModelData:1570}"
+							"tag": "{ui:{id:\"skins.sora.timeless_river\",sound:\"click\"},CustomModelData:1570}"
 						}
 					]
 				}

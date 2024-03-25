@@ -12,7 +12,7 @@
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"translate": "ssbrc.fighters.snake.skin.iroquoisPliskin",
+								"translate": "ssbrc.fighters.snake.skin.iroquois_pliskin",
 								"color": "dark_green",
 								"bold": true,
 								"italic": false
@@ -28,7 +28,7 @@
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{ui:{id:\"skins.snake.iroquoisPliskin\",sound:\"click\"},CustomModelData:1524}"
+							"tag": "{ui:{id:\"skins.snake.iroquois_pliskin\",sound:\"click\"},CustomModelData:1524}"
 						}
 					]
 				}

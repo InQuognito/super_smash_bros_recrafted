@@ -12,7 +12,7 @@ execute if score @s[tag=default] charge.2 matches 70..80 run particle minecraft:
 execute if score @s[tag=default] charge.2 matches 70..80 run particle minecraft:dust_color_transition 0.5 0.0 0.0 1.0 0.3 0.0 0.0 ~ ~ ~ 2.0 2.0 2.0 1.5 75 force @a
 execute if score @s[tag=gold] charge.2 matches 70..80 run particle minecraft:dust_color_transition 0.5 0.5 0.0 2.0 1.0 1.0 0.0 ~ ~ ~ 1.0 1.0 1.0 0.15 200 force @a
 execute if score @s[tag=gold] charge.2 matches 70..80 run particle minecraft:dust_color_transition 1.0 1.0 0.0 1.0 1.0 1.0 1.0 ~ ~ ~ 2.0 2.0 2.0 1.5 75 force @a
-execute if score @s[tag=yellowAndroid] charge.2 matches 70..80 run particle minecraft:dust_color_transition 1.0 1.0 0.0 2.0 1.0 1.0 1.0 ~ ~ ~ 1.0 1.0 1.0 0.15 200 force @a
-execute if score @s[tag=yellowAndroid] charge.2 matches 70..80 run particle minecraft:dust_color_transition 1.0 1.0 0.0 1.0 1.0 1.0 1.0 ~ ~ ~ 2.0 2.0 2.0 1.5 75 force @a
+execute if score @s[tag=yellow_android] charge.2 matches 70..80 run particle minecraft:dust_color_transition 1.0 1.0 0.0 2.0 1.0 1.0 1.0 ~ ~ ~ 1.0 1.0 1.0 0.15 200 force @a
+execute if score @s[tag=yellow_android] charge.2 matches 70..80 run particle minecraft:dust_color_transition 1.0 1.0 0.0 1.0 1.0 1.0 1.0 ~ ~ ~ 2.0 2.0 2.0 1.5 75 force @a
 
 execute if score @s charge.2 matches 70 run function ssbrc:fighters/shadow/logic/chaos_blast/unleash

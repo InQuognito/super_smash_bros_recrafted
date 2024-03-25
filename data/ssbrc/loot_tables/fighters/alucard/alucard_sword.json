@@ -58,7 +58,7 @@
 									"condition": "minecraft:entity_properties",
 									"entity": "this",
 									"predicate": {
-										"nbt": "{Tags:[\"lordsOfShadow\"]}"
+										"nbt": "{Tags:[\"lords_of_shadow\"]}"
 									}
 								}
 							]

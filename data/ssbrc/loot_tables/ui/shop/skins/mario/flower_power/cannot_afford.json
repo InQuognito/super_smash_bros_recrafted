@@ -12,7 +12,7 @@
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"translate": "ssbrc.series.super_mario_bros.skin.flowerPower",
+								"translate": "ssbrc.series.super_mario_bros.skin.flower_power",
 								"color": "white",
 								"bold": true,
 								"italic": false
