@@ -46,7 +46,7 @@ execute if entity @s[tag=alucard] run function ssbrc:fighters/alucard/logic/tick
 execute if entity @s[tag=giegue] run function ssbrc:fighters/giegue/logic/tick
 execute if entity @s[tag=shadow] run function ssbrc:fighters/shadow/logic/tick
 execute if entity @s[tag=shovel_knight] run function ssbrc:fighters/shovel_knight/logic/tick
-execute if entity @s[tag=team_rocket] run function ssbrc:fighters/team_rocket/logic/tick
+execute at @s[tag=team_rocket] run function ssbrc:fighters/team_rocket/logic/tick
 execute if entity @s[tag=yar] run function ssbrc:fighters/yar/logic/tick
 
 execute at @s[scores={useAbility=1..}] run function ssbrc:logic/inputs/abilities/impulse/default

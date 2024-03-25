@@ -169,6 +169,7 @@ scoreboard players set steve.mining.range vars 3
 scoreboard players set team_rocket.acid.cooldown vars 300
 scoreboard players set team_rocket.payday.cooldown vars 200
 scoreboard players set team_rocket.destiny_bond.cooldown vars 600
+scoreboard players set team_rocket.splash.cooldown vars 20
 
 scoreboard players set wolf.grenade.timer vars 80
 scoreboard players set wolf.wolf_flash vars 6
