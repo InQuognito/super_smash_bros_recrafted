@@ -390,14 +390,14 @@
 		"entity": "this",
 		"lore": [
 			{
-				"translate": "ssbrc.tooltips.sonicTheHedgehog.acceleration",
+				"translate": "ssbrc.tooltips.sonic_the_hedgehog.acceleration",
 				"color": "yellow",
 				"bold": false,
 				"italic": false,
 				"underlined": true
 			},
 			{
-				"translate": "ssbrc.tooltips.sonicTheHedgehog.acceleration.description.1",
+				"translate": "ssbrc.tooltips.sonic_the_hedgehog.acceleration.description.1",
 				"color": "gray",
 				"bold": false,
 				"italic": false
@@ -419,14 +419,14 @@
 		"entity": "this",
 		"lore": [
 			{
-				"translate": "ssbrc.tooltips.sonicTheHedgehog.acceleration",
+				"translate": "ssbrc.tooltips.sonic_the_hedgehog.acceleration",
 				"color": "yellow",
 				"bold": false,
 				"italic": false,
 				"underlined": true
 			},
 			{
-				"translate": "ssbrc.tooltips.sonicTheHedgehog.acceleration.description.1",
+				"translate": "ssbrc.tooltips.sonic_the_hedgehog.acceleration.description.1",
 				"color": "gray",
 				"bold": false,
 				"italic": false

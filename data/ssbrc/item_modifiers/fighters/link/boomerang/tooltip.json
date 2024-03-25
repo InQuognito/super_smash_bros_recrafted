@@ -16,7 +16,7 @@
 						"italic": false
 					},
 					{
-						"translate": "ssbrc.tooltips.theLegendOfZelda.boomerang.description.1",
+						"translate": "ssbrc.tooltips.the_legend_of_zelda.boomerang.description.1",
 						"color": "gray",
 						"bold": false,
 						"italic": false
@@ -24,7 +24,7 @@
 				]
 			},
 			{
-				"translate": "ssbrc.tooltips.theLegendOfZelda.boomerang.description.2",
+				"translate": "ssbrc.tooltips.the_legend_of_zelda.boomerang.description.2",
 				"color": "gray",
 				"bold": false,
 				"italic": false
