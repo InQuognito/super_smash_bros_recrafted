@@ -102,7 +102,7 @@
 							"entity": "this",
 							"lore": [
 								{
-									"translate": "ssbrc.statistics.winLossRatio",
+									"translate": "ssbrc.statistics.win_loss_ratio",
 									"color": "gold",
 									"bold": false,
 									"italic": false,
@@ -175,7 +175,7 @@
 							"entity": "this",
 							"lore": [
 								{
-									"translate": "ssbrc.statistics.killDeathRatio",
+									"translate": "ssbrc.statistics.kill_death_ratio",
 									"color": "gold",
 									"bold": false,
 									"italic": false,

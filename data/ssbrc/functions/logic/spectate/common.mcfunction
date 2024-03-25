@@ -1,4 +1,4 @@
-tellraw @s[team=!spectator] {"translate":"ssbrc.fighterSelect.spectateGame","color":"gray"}
+tellraw @s[team=!spectator] {"translate":"ssbrc.fighter_select.spectateGame","color":"gray"}
 
 function ssbrc:logic/resets/tags/fighters
 
