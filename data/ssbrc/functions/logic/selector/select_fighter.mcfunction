@@ -10,7 +10,7 @@ effect clear @s minecraft:glowing
 
 function ssbrc:logic/pre_game/character_select/check_participation
 
-clear @s minecraft:carrot_on_a_stick{skinOptions:1}
+clear @s minecraft:carrot_on_a_stick{skin_options:1}
 clear @s minecraft:carrot_on_a_stick{wiki:1}
 
 loot replace entity @s[tag=!blind_pick] hotbar.3 loot ssbrc:skin_options

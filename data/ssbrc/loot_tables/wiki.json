@@ -39,7 +39,7 @@
 											"italic": false
 										},
 										{
-											"translate": "ssbrc.fighters.menu.skinOptions.description",
+											"translate": "ssbrc.fighters.menu.skin_options.description",
 											"color": "gray",
 											"bold": false,
 											"italic": false
