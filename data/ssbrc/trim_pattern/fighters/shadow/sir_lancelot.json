@@ -1,0 +1,7 @@
+{
+	"asset_id": "ssbrc:fighters/shadow/sir_lancelot",
+	"description": {
+		"translate": "trim_pattern.example.stripes"
+	},
+	"template_item": "minecraft:stick"
+}
