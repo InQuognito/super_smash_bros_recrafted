@@ -12,7 +12,7 @@
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"translate": "ssbrc.fighters.pikachu.skin.santaHat",
+								"translate": "ssbrc.fighters.pikachu.skin.santa_hat",
 								"color": "red",
 								"bold": true,
 								"italic": false
@@ -36,7 +36,7 @@
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{ui:{id:\"skins.pikachu.santaHat\",sound:\"click\"},CustomModelData:1203}"
+							"tag": "{ui:{id:\"skins.pikachu.santa_hat\",sound:\"click\"},CustomModelData:1203}"
 						}
 					]
 				}
