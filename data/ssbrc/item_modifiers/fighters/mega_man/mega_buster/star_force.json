@@ -11,6 +11,6 @@
 	},
 	{
 		"function": "minecraft:set_nbt",
-		"tag": "{CustomModelData:884}"
+		"tag": "{CustomModelData:883}"
 	}
 ]
