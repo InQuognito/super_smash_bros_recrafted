@@ -4,7 +4,7 @@
 		"entity": "this",
 		"name": {
 			"translate": "ssbrc.tooltips.mega_man.mega_buster",
-			"color": "gold",
+			"color": "green",
 			"bold": true,
 			"italic": false
 		}
