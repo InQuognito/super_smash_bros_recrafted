@@ -3,14 +3,14 @@
 		"function": "minecraft:set_name",
 		"entity": "this",
 		"name": {
-			"translate": "ssbrc.fighters.sonic.skin.werehog",
-			"color": "blue",
+			"translate": "ssbrc.fighters.shadow.skin.yellow_android",
+			"color": "yellow",
 			"bold": true,
 			"italic": false
 		}
 	},
 	{
 		"function": "minecraft:set_nbt",
-		"tag": "{CustomModelData:1543}"
+		"tag": "{CustomModelData:1903}"
 	}
 ]
