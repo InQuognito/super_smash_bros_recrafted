@@ -170,6 +170,7 @@ scoreboard players set snake.smoke_grenade.scavenger vars 1
 scoreboard players set steve.mining.range vars 3
 
 scoreboard players set team_rocket.acid.cooldown vars 300
+scoreboard players set team_rocket.fury_swipes.cooldown vars 40
 scoreboard players set team_rocket.payday.cooldown vars 200
 scoreboard players set team_rocket.destiny_bond.cooldown vars 600
 scoreboard players set team_rocket.splash.cooldown vars 20

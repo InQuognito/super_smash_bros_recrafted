@@ -6,7 +6,7 @@ execute if score sqrt.output math matches ..9 run function ssbrc:fighters/shadow
 execute if score sqrt.output math matches 10..99 run function ssbrc:fighters/shadow/logic/chaos_meters/hero/tens
 execute if score sqrt.output math matches 100.. run function ssbrc:fighters/shadow/logic/chaos_meters/hero/hundreds
 
-execute if score @s[nbt=!{Inventory:[{id:"minecraft:carrot_on_a_stick",Count:1b,tag:{chaosControl:1}}]}] shadow.meter.hero >= shadow.chaos_meter.max vars run loot replace entity @s hotbar.4 loot ssbrc:fighters/shadow/chaos_control
+execute if score @s[nbt=!{Inventory:[{id:"minecraft:carrot_on_a_stick",Count:1b,tag:{chaos_control:1}}]}] shadow.meter.hero >= shadow.chaos_meter.max vars run loot replace entity @s hotbar.4 loot ssbrc:fighters/shadow/chaos_control
 
 tag @s remove alignment.villain
 tag @s add alignment.hero

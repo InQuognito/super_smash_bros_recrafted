@@ -1,3 +1,3 @@
 teleport @s ^ ^ ^
 
-scoreboard players reset rayLength temp
+scoreboard players reset ray_length temp

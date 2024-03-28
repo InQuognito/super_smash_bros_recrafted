@@ -3,7 +3,7 @@ execute positioned ^ ^ ^1 summon minecraft:marker run function ssbrc:fighters/do
 scoreboard players remove @s charge.1 1
 
 scoreboard players set @s cooldown.2 20
-execute if score @s shadow.chaosControl matches 1.. run function ssbrc:logic/fighters/cooldown_modifiers/chaos_control {type:"2"}
+execute if score @s shadow.chaos_control matches 1.. run function ssbrc:logic/fighters/cooldown_modifiers/chaos_control {type:"2"}
 
 loot replace entity @s weapon.mainhand loot ssbrc:fighters/donkey_kong/orange_grenade/throw
 loot replace entity @s weapon.mainhand loot ssbrc:fighters/donkey_kong/orange_grenade/default

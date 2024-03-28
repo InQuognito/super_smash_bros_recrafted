@@ -10,7 +10,7 @@ execute store result entity @s Rotation[1] float 1.0 run scoreboard players get 
 
 execute rotated as @s run teleport @s ^ ^ ^-.75
 
-scoreboard players set rayLength temp 15
+scoreboard players set ray_length temp 15
 execute at @s run function ssbrc:fighters/sora/logic/drive_forms/anti/slash/loop
 
 kill @s

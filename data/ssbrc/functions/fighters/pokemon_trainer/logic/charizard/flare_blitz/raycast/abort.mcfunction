@@ -1,6 +1,6 @@
 scoreboard players set entity_hit temp 1
 
-scoreboard players reset rayLength temp
+scoreboard players reset ray_length temp
 
 scoreboard players set rayAbort temp 1
 

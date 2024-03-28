@@ -96,7 +96,7 @@ scoreboard objectives remove rotationY
 scoreboard objectives remove rotationY.prev
 scoreboard objectives remove sandbag.standOn
 scoreboard objectives remove selectItem
-scoreboard objectives remove shadow.chaosControl
+scoreboard objectives remove shadow.chaos_control
 scoreboard objectives remove shadow.meter.hero
 scoreboard objectives remove shadow.meter.villain
 scoreboard objectives remove shop

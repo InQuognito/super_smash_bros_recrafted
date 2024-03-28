@@ -1,3 +1,3 @@
-scoreboard players operation rayLength temp = wolf.wolf_flash vars
-scoreboard players operation rayLength temp *= 10 integers
+scoreboard players operation ray_length temp = wolf.wolf_flash vars
+scoreboard players operation ray_length temp *= 10 integers
 function ssbrc:fighters/wolf/logic/abilities/wolf_flash/raycast/loop

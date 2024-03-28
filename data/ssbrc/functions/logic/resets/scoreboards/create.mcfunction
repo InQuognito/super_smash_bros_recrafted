@@ -96,7 +96,7 @@ scoreboard objectives add rotationY dummy
 scoreboard objectives add rotationY.prev dummy
 scoreboard objectives add sandbag.standOn dummy
 scoreboard objectives add selectItem minecraft.used:minecraft.carrot_on_a_stick
-scoreboard objectives add shadow.chaosControl dummy
+scoreboard objectives add shadow.chaos_control dummy
 scoreboard objectives add shadow.meter.hero dummy
 scoreboard objectives add shadow.meter.villain dummy
 scoreboard objectives add shop dummy

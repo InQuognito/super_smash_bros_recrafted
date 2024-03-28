@@ -3,4 +3,4 @@ execute rotated as @e[type=minecraft:marker,tag=ryu.spinner,limit=1] run telepor
 
 teleport @s ^ ^ ^
 
-scoreboard players reset rayLength temp
+scoreboard players reset ray_length temp

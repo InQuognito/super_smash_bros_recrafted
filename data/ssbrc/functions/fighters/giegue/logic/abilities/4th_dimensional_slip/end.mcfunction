@@ -4,6 +4,6 @@ teleport @s ^ ^ ^-0.5
 
 effect give @s minecraft:slowness 3 0 true
 
-scoreboard players reset rayLength temp
+scoreboard players reset ray_length temp
 
 scoreboard players set rayAbort temp 1

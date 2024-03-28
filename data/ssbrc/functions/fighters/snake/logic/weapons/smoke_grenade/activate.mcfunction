@@ -3,7 +3,7 @@ execute summon minecraft:marker run function ssbrc:fighters/snake/logic/weapons/
 scoreboard players remove @s snake.smoke_grenadeA 1
 
 scoreboard players operation @s cooldown.3 = snake.smoke_grenade.cooldown vars
-execute if score @s shadow.chaosControl matches 1.. run function ssbrc:logic/fighters/cooldown_modifiers/chaos_control {type:"3"}
+execute if score @s shadow.chaos_control matches 1.. run function ssbrc:logic/fighters/cooldown_modifiers/chaos_control {type:"3"}
 
 clear @s[scores={snake.smoke_grenadeA=..0}] minecraft:carrot_on_a_stick{smoke_grenade:1}
 
