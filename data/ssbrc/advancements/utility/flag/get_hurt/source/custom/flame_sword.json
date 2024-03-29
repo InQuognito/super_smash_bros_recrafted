@@ -11,7 +11,7 @@
 							"type": "minecraft:score",
 							"target": {
 								"type": "minecraft:fixed",
-								"name": "gameStage"
+								"name": "game_stage"
 							},
 							"score": "temp"
 						},
@@ -23,7 +23,7 @@
 						"direct_entity": {
 							"equipment": {
 								"mainhand": {
-									"nbt": "{flame_sword:1}"
+									"nbt": "{flame_sword:1,charged:1}"
 								}
 							}
 						}

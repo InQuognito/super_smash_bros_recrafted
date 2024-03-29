@@ -25,5 +25,5 @@ function ssbrc:logic/start_hazards
 
 tag @e[type=minecraft:marker,tag=tpDest] remove tpDest
 
-scoreboard players set gameStage temp 4
+scoreboard players set game_stage temp 4
 scoreboard players reset countdown timer

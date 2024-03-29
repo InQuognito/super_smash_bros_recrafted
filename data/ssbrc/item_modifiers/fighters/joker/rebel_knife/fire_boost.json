@@ -3,13 +3,13 @@
 		"function": "minecraft:set_name",
 		"entity": "this",
 		"name": {
-			"translate": "ssbrc.tooltips.joker.rebelKnife",
+			"translate": "ssbrc.tooltips.joker.rebel_knife",
 			"color": "gray",
 			"bold": true,
 			"italic": false,
 			"extra": [
 				{
-					"translate": "ssbrc.tooltips.joker.rebelKnife.fireBoost",
+					"translate": "ssbrc.tooltips.joker.rebel_knife.fire_boost",
 					"color": "red",
 					"bold": true,
 					"italic": false
@@ -33,13 +33,13 @@
 		"function": "minecraft:set_name",
 		"entity": "this",
 		"name": {
-			"translate": "ssbrc.tooltips.joker.rebelKnife",
+			"translate": "ssbrc.tooltips.joker.rebel_knife",
 			"color": "gold",
 			"bold": true,
 			"italic": false,
 			"extra": [
 				{
-					"translate": "ssbrc.tooltips.joker.rebelKnife.fireBoost",
+					"translate": "ssbrc.tooltips.joker.rebel_knife.fire_boost",
 					"color": "red",
 					"bold": true,
 					"italic": false
@@ -58,6 +58,6 @@
 	},
 	{
 		"function": "minecraft:set_nbt",
-		"tag": "{fireBoost:1,freezeBoost:0}"
+		"tag": "{fire_boost:1,freeze_boost:0}"
 	}
 ]

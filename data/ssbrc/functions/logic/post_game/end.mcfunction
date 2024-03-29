@@ -14,4 +14,4 @@ scoreboard players operation team temp = @s team
 execute if score teams options matches 1 as @a[predicate=ssbrc:team_match] run function ssbrc:logic/post_game/winner/set
 
 weather clear
-scoreboard players set gameStage temp 5
+scoreboard players set game_stage temp 5

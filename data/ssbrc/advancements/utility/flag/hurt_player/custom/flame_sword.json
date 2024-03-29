@@ -2,7 +2,7 @@
 	"parent": "ssbrc:utility/root",
 	"criteria": {
 		"requirement": {
-			"trigger": "minecraft:entity_hurt_player",
+			"trigger": "minecraft:player_hurt_entity",
 			"conditions": {
 				"player": [
 					{
@@ -22,15 +22,26 @@
 					"source_entity": {
 						"equipment": {
 							"mainhand": {
-								"nbt": "{rock_smash:1}"
+								"nbt": "{flame_sword:1,charged:1}"
 							}
 						}
+					},
+					"blocked": false,
+					"type": {
+						"is_explosion": false,
+						"is_fire": false,
+						"is_magic": false,
+						"is_projectile": false,
+						"is_lightning": false,
+						"bypasses_armor": false,
+						"bypasses_invulnerability": false,
+						"bypasses_magic": false
 					}
 				}
 			}
 		}
 	},
 	"rewards": {
-		"function": "ssbrc:fighters/pokemon_trainer/logic/charizard/rock_smash/check"
+		"function": "ssbrc:fighters/mega_man/logic/abilities/flame_sword/activate"
 	}
 }

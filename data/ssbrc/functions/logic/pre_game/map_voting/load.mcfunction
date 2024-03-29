@@ -58,7 +58,7 @@ execute store result score playersAlive temp if entity @a[predicate=ssbrc:ingame
 
 execute if score players.playing temp matches 1 run function ssbrc:logic/options/presets/singleplayer/on
 
-scoreboard players set gameStage temp 2
+scoreboard players set game_stage temp 2
 scoreboard players set countdown timer 30
 
 data modify entity @e[tag=lobby.status,limit=1] text set value '[{"translate":"ssbrc.lobby.status","color":"gold"},{"translate":"ssbrc.lobby.status.stage_select","color":"yellow"}]'

@@ -10,7 +10,7 @@
 							"type": "minecraft:score",
 							"target": {
 								"type": "minecraft:fixed",
-								"name": "gameStage"
+								"name": "game_stage"
 							},
 							"score": "temp"
 						},

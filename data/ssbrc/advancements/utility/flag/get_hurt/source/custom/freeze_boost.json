@@ -11,7 +11,7 @@
 							"type": "minecraft:score",
 							"target": {
 								"type": "minecraft:fixed",
-								"name": "gameStage"
+								"name": "game_stage"
 							},
 							"score": "temp"
 						},
@@ -22,7 +22,7 @@
 					"source_entity": {
 						"equipment": {
 							"mainhand": {
-								"nbt": "{rebelKnife:1,freezeBoost:1}"
+								"nbt": "{rebel_knife:1,freeze_boost:1}"
 							}
 						}
 					}
