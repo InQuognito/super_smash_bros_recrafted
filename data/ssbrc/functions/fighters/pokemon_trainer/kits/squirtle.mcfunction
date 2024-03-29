@@ -4,9 +4,9 @@ function ssbrc:fighters/pokemon_trainer/kits/reset
 
 tag @s add squirtle
 
-tellraw @s[tag=!dawn,tag=!victor] [{"translate":"ssbrc.fighters.pokemon_trainer.iChooseYou.prefix","color":"blue"},{"translate":"ssbrc.fighters.pokemon_trainer.squirtle.default","color":"blue"},{"translate":"ssbrc.fighters.pokemon_trainer.iChooseYou","color":"blue"}]
-tellraw @s[tag=dawn] [{"translate":"ssbrc.fighters.pokemon_trainer.iChooseYou.prefix","color":"blue"},{"translate":"ssbrc.fighters.pokemon_trainer.squirtle.dawn","color":"blue"},{"translate":"ssbrc.fighters.pokemon_trainer.iChooseYou","color":"blue"}]
-tellraw @s[tag=victor] [{"translate":"ssbrc.fighters.pokemon_trainer.iChooseYou.prefix","color":"blue"},{"translate":"ssbrc.fighters.pokemon_trainer.squirtle.victor","color":"blue"},{"translate":"ssbrc.fighters.pokemon_trainer.iChooseYou","color":"blue"}]
+tellraw @s[tag=!dawn,tag=!victor] [{"translate":"ssbrc.fighters.pokemon_trainer.i_choose_you.prefix","color":"blue"},{"translate":"ssbrc.fighters.pokemon_trainer.squirtle.default","color":"blue"},{"translate":"ssbrc.fighters.pokemon_trainer.i_choose_you","color":"blue"}]
+tellraw @s[tag=dawn] [{"translate":"ssbrc.fighters.pokemon_trainer.i_choose_you.prefix","color":"blue"},{"translate":"ssbrc.fighters.pokemon_trainer.squirtle.dawn","color":"blue"},{"translate":"ssbrc.fighters.pokemon_trainer.i_choose_you","color":"blue"}]
+tellraw @s[tag=victor] [{"translate":"ssbrc.fighters.pokemon_trainer.i_choose_you.prefix","color":"blue"},{"translate":"ssbrc.fighters.pokemon_trainer.squirtle.victor","color":"blue"},{"translate":"ssbrc.fighters.pokemon_trainer.i_choose_you","color":"blue"}]
 
 clear @s #ssbrc:equipment
 

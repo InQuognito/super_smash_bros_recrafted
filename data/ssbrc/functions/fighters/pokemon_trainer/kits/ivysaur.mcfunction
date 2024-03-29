@@ -4,9 +4,9 @@ function ssbrc:fighters/pokemon_trainer/kits/reset
 
 tag @s add ivysaur
 
-tellraw @s[tag=!dawn,tag=!victor] [{"translate":"ssbrc.fighters.pokemon_trainer.iChooseYou.prefix","color":"green"},{"translate":"ssbrc.fighters.pokemon_trainer.ivysaur.default","color":"green"},{"translate":"ssbrc.fighters.pokemon_trainer.iChooseYou","color":"green"}]
-tellraw @s[tag=dawn] [{"translate":"ssbrc.fighters.pokemon_trainer.iChooseYou.prefix","color":"green"},{"translate":"ssbrc.fighters.pokemon_trainer.ivysaur.dawn","color":"green"},{"translate":"ssbrc.fighters.pokemon_trainer.iChooseYou","color":"green"}]
-tellraw @s[tag=victor] [{"translate":"ssbrc.fighters.pokemon_trainer.iChooseYou.prefix","color":"green"},{"translate":"ssbrc.fighters.pokemon_trainer.ivysaur.victor","color":"green"},{"translate":"ssbrc.fighters.pokemon_trainer.iChooseYou","color":"green"}]
+tellraw @s[tag=!dawn,tag=!victor] [{"translate":"ssbrc.fighters.pokemon_trainer.i_choose_you.prefix","color":"green"},{"translate":"ssbrc.fighters.pokemon_trainer.ivysaur.default","color":"green"},{"translate":"ssbrc.fighters.pokemon_trainer.i_choose_you","color":"green"}]
+tellraw @s[tag=dawn] [{"translate":"ssbrc.fighters.pokemon_trainer.i_choose_you.prefix","color":"green"},{"translate":"ssbrc.fighters.pokemon_trainer.ivysaur.dawn","color":"green"},{"translate":"ssbrc.fighters.pokemon_trainer.i_choose_you","color":"green"}]
+tellraw @s[tag=victor] [{"translate":"ssbrc.fighters.pokemon_trainer.i_choose_you.prefix","color":"green"},{"translate":"ssbrc.fighters.pokemon_trainer.ivysaur.victor","color":"green"},{"translate":"ssbrc.fighters.pokemon_trainer.i_choose_you","color":"green"}]
 
 clear @s #ssbrc:equipment
 
