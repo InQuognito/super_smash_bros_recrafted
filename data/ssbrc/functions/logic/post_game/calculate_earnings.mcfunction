@@ -212,7 +212,7 @@ execute if score @s quitter matches 1.. run scoreboard players set @s stats.cred
 tag @s remove endedEarly
 
 scoreboard players set @s[scores={stats.credits.temp=..-1}] stats.credits.temp 0
-tellraw @s [{"translate":"ssbrc.game.end.summary.creditsEarned","color":"gold"},{"score":{"name":"@s","objective":"stats.credits.temp"},"color":"yellow"},{"text":"₡","color":"yellow"}]
+tellraw @s [{"translate":"ssbrc.game.end.summary.credits_earned","color":"gold"},{"score":{"name":"@s","objective":"stats.credits.temp"},"color":"yellow"},{"text":"₡","color":"yellow"}]
 scoreboard players operation @s stats.credits += @s stats.credits.temp
 
 scoreboard players operation @s stats.bonus.765o += @s 765o
