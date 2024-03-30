@@ -254,4 +254,4 @@ scoreboard players operation @s stats.bonus.truly_villainous += @s truly_villain
 scoreboard players operation @s stats.bonus.wac_coordinator += @s wac_coordinator
 scoreboard players operation @s stats.bonus.year_long_battle += @s year_long_battle
 
-tellraw @s [{"translate":"[ ","color":"gold"},{"translate":"ssbrc.game.end.summary.showBonuses","color":"yellow","hoverEvent":{"action":"show_text","contents":[{"storage":"ssbrc:bonuses","nbt":"value[]","interpret":true,"separator":"\n"}]}},{"translate":" ]","color":"gold"}]
+tellraw @s [{"translate":"[ ","color":"gold"},{"translate":"ssbrc.game.end.summary.show_bonuses","color":"yellow","hoverEvent":{"action":"show_text","contents":[{"storage":"ssbrc:bonuses","nbt":"value[]","interpret":true,"separator":"\n"}]}},{"translate":" ]","color":"gold"}]
