@@ -1,6 +1,6 @@
 scoreboard players reset @s charge.1
 
-tag @s remove falcon_punchMissed
+tag @s remove falcon_punch_missed
 
 title @s actionbar ""
 

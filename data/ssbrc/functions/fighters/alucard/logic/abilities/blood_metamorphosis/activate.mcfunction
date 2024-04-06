@@ -1,4 +1,4 @@
-effect give @s minecraft:instant_damage 1 0 true
+damage @s 4.0 ssbrc:projectile
 
 tag @s add blood_metamorphosis
 

@@ -1,3 +1,3 @@
-effect give @s minecraft:instant_damage 1 0 true
+damage @s 4.0 ssbrc:pierce
 
-scoreboard players reset @s tower_of_fateBarrier
+scoreboard players reset @s tower_of_fate.barrier
