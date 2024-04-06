@@ -1448,7 +1448,7 @@
 				"condition": "minecraft:entity_properties",
 				"entity": "this",
 				"predicate": {
-					"nbt": "{Tags:[\"ryu\",\"default\",\"satsuiNoHadoRage\"]}"
+					"nbt": "{Tags:[\"ryu\",\"default\",\"satsui_no_hado_rage\"]}"
 				}
 			}
 		]
@@ -1474,7 +1474,7 @@
 				"condition": "minecraft:entity_properties",
 				"entity": "this",
 				"predicate": {
-					"nbt": "{Tags:[\"ryu\",\"gold\",\"satsuiNoHadoRage\"]}"
+					"nbt": "{Tags:[\"ryu\",\"gold\",\"satsui_no_hado_rage\"]}"
 				}
 			}
 		]
@@ -1500,7 +1500,7 @@
 				"condition": "minecraft:entity_properties",
 				"entity": "this",
 				"predicate": {
-					"nbt": "{Tags:[\"ryu\",\"hot_ryu\",\"satsuiNoHadoRage\"]}"
+					"nbt": "{Tags:[\"ryu\",\"hot_ryu\",\"satsui_no_hado_rage\"]}"
 				}
 			}
 		]

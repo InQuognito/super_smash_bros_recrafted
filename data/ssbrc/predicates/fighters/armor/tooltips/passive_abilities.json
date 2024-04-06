@@ -5,14 +5,7 @@
 			"condition": "minecraft:entity_properties",
 			"entity": "this",
 			"predicate": {
-				"nbt": "{Tags:[\"mario\"]}"
-			}
-		},
-		{
-			"condition": "minecraft:entity_properties",
-			"entity": "this",
-			"predicate": {
-				"nbt": "{Tags:[\"luigi\"]}"
+				"nbt": "{Tags:[\"altered_beast\"]}"
 			}
 		},
 		{
@@ -26,7 +19,7 @@
 			"condition": "minecraft:entity_properties",
 			"entity": "this",
 			"predicate": {
-				"nbt": "{Tags:[\"ganondorf\"]}"
+				"nbt": "{Tags:[\"byleth\"]}"
 			}
 		},
 		{
@@ -40,7 +33,28 @@
 			"condition": "minecraft:entity_properties",
 			"entity": "this",
 			"predicate": {
-				"nbt": "{Tags:[\"byleth\"]}"
+				"nbt": "{Tags:[\"ganondorf\"]}"
+			}
+		},
+		{
+			"condition": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
+				"nbt": "{Tags:[\"joker\"]}"
+			}
+		},
+		{
+			"condition": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
+				"nbt": "{Tags:[\"luigi\"]}"
+			}
+		},
+		{
+			"condition": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
+				"nbt": "{Tags:[\"mario\"]}"
 			}
 		},
 		{
@@ -48,6 +62,13 @@
 			"entity": "this",
 			"predicate": {
 				"nbt": "{Tags:[\"pit\"]}"
+			}
+		},
+		{
+			"condition": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
+				"nbt": "{Tags:[\"shadow\"]}"
 			}
 		},
 		{
@@ -63,39 +84,6 @@
 			"predicate": {
 				"nbt": "{Tags:[\"sonic\"]}"
 			}
-		},
-		{
-			"condition": "minecraft:entity_properties",
-			"entity": "this",
-			"predicate": {
-				"nbt": "{Tags:[\"shadow\"]}"
-			}
-		},
-		{
-			"condition": "minecraft:entity_properties",
-			"entity": "this",
-			"predicate": {
-				"nbt": "{Tags:[\"joker\"]}"
-			}
-		},
-		{
-			"condition": "minecraft:all_of",
-			"terms": [
-				{
-					"condition": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"nbt": "{Tags:[\"altered_beast\"]}"
-					}
-				},
-				{
-					"condition": "minecraft:inverted",
-					"term": {
-						"condition": "minecraft:reference",
-						"name": "ssbrc:fighters/altered_beast/is_beast"
-					}
-				}
-			]
 		}
 	]
 }

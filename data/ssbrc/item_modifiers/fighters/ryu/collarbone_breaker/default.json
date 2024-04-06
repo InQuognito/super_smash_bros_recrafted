@@ -19,7 +19,7 @@
 					"condition": "minecraft:entity_properties",
 					"entity": "this",
 					"predicate": {
-						"nbt": "{Tags:[\"satsuiNoHadoRage\"]}"
+						"nbt": "{Tags:[\"satsui_no_hado_rage\"]}"
 					}
 				}
 			}
@@ -33,7 +33,7 @@
 				"condition": "minecraft:entity_properties",
 				"entity": "this",
 				"predicate": {
-					"nbt": "{Tags:[\"satsuiNoHadoRage\"]}"
+					"nbt": "{Tags:[\"satsui_no_hado_rage\"]}"
 				}
 			}
 		]

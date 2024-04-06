@@ -46,14 +46,14 @@
 		"entity": "this",
 		"lore": [
 			{
-				"translate": "ssbrc.tooltips.super_mario_bros.super_jump",
+				"translate": "ssbrc.tooltips.altered_beast.waredragon.wings",
 				"color": "yellow",
 				"bold": false,
 				"italic": false,
 				"underlined": true
 			},
 			{
-				"translate": "ssbrc.tooltips.holdKey",
+				"translate": "ssbrc.tooltips.hold_key",
 				"color": "gray",
 				"bold": false,
 				"italic": false,
@@ -65,24 +65,12 @@
 						"italic": false
 					},
 					{
-						"translate": "ssbrc.tooltips.super_mario_bros.super_jump.description.1",
+						"translate": "ssbrc.tooltips.altered_beast.waredragon.wings.description.1",
 						"color": "gray",
 						"bold": false,
 						"italic": false
 					}
 				]
-			},
-			{
-				"translate": "ssbrc.tooltips.super_mario_bros.super_jump.description.2",
-				"color": "gray",
-				"bold": false,
-				"italic": false
-			},
-			{
-				"translate": "ssbrc.tooltips.mario.super_jump.description.1",
-				"color": "gray",
-				"bold": false,
-				"italic": false
 			}
 		],
 		"replace": false,
@@ -91,7 +79,7 @@
 				"condition": "minecraft:entity_properties",
 				"entity": "this",
 				"predicate": {
-					"nbt": "{Tags:[\"mario\"]}"
+					"nbt": "{Tags:[\"altered_beast\",\"waredragon\"]}"
 				}
 			}
 		]
@@ -101,14 +89,14 @@
 		"entity": "this",
 		"lore": [
 			{
-				"translate": "ssbrc.tooltips.super_mario_bros.super_jump",
+				"translate": "ssbrc.tooltips.altered_beast.waretiger.pouncing_leap",
 				"color": "yellow",
 				"bold": false,
 				"italic": false,
 				"underlined": true
 			},
 			{
-				"translate": "ssbrc.tooltips.holdKey",
+				"translate": "ssbrc.tooltips.hold_key",
 				"color": "gray",
 				"bold": false,
 				"italic": false,
@@ -120,7 +108,93 @@
 						"italic": false
 					},
 					{
-						"translate": "ssbrc.tooltips.super_mario_bros.super_jump.description.1",
+						"translate": "ssbrc.tooltips.altered_beast.waretiger.pouncing_leap.description.1",
+						"color": "gray",
+						"bold": false,
+						"italic": false
+					}
+				]
+			}
+		],
+		"replace": false,
+		"conditions": [
+			{
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"nbt": "{Tags:[\"altered_beast\",\"waretiger\"]}"
+				}
+			}
+		]
+	},
+	{
+		"function": "minecraft:set_lore",
+		"entity": "this",
+		"lore": [
+			{
+				"translate": "ssbrc.tooltips.altered_beast.warewolf.flame_arrow",
+				"color": "yellow",
+				"bold": false,
+				"italic": false,
+				"underlined": true
+			},
+			{
+				"translate": "ssbrc.tooltips.hold_key",
+				"color": "gray",
+				"bold": false,
+				"italic": false,
+				"extra": [
+					{
+						"keybind": "key.sneak",
+						"color": "gray",
+						"bold": false,
+						"italic": false
+					},
+					{
+						"translate": "ssbrc.tooltips.altered_beast.warewolf.flame_arrow.description.1",
+						"color": "gray",
+						"bold": false,
+						"italic": false
+					}
+				]
+			}
+		],
+		"replace": false,
+		"conditions": [
+			{
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"nbt": "{Tags:[\"altered_beast\",\"warewolf\"]}"
+				}
+			}
+		]
+	},
+	{
+		"function": "minecraft:set_lore",
+		"entity": "this",
+		"lore": [
+			{
+				"translate": "ssbrc.tooltips.alucard.mist",
+				"color": "yellow",
+				"bold": false,
+				"italic": false,
+				"underlined": true
+			},
+			{
+				"text": "- [",
+				"color": "gray",
+				"bold": false,
+				"italic": false,
+				"extra": [
+					{
+						"keybind": "key.sneak",
+						"color": "gray",
+						"bold": false,
+						"italic": false
+					},
+					{
+						"translate": "ssbrc.tooltips.alucard.mist.description.1",
 						"color": "gray",
 						"bold": false,
 						"italic": false
@@ -128,13 +202,13 @@
 				]
 			},
 			{
-				"translate": "ssbrc.tooltips.super_mario_bros.super_jump.description.2",
+				"translate": "ssbrc.tooltips.alucard.mist.description.2",
 				"color": "gray",
 				"bold": false,
 				"italic": false
 			},
 			{
-				"translate": "ssbrc.tooltips.luigi.super_jump.description.1",
+				"translate": "ssbrc.tooltips.alucard.mist.description.3",
 				"color": "gray",
 				"bold": false,
 				"italic": false
@@ -146,7 +220,7 @@
 				"condition": "minecraft:entity_properties",
 				"entity": "this",
 				"predicate": {
-					"nbt": "{Tags:[\"luigi\"]}"
+					"nbt": "{Tags:[\"alucard\"]}"
 				}
 			}
 		]
@@ -163,7 +237,7 @@
 				"underlined": true
 			},
 			{
-				"translate": "ssbrc.tooltips.holdKey",
+				"translate": "ssbrc.tooltips.hold_key",
 				"color": "gray",
 				"bold": false,
 				"italic": false,
@@ -260,61 +334,6 @@
 		"entity": "this",
 		"lore": [
 			{
-				"translate": "ssbrc.tooltips.kirby.puffUp",
-				"color": "yellow",
-				"bold": false,
-				"italic": false,
-				"underlined": true
-			},
-			{
-				"text": "- [",
-				"color": "gray",
-				"bold": false,
-				"italic": false,
-				"extra": [
-					{
-						"keybind": "key.sneak",
-						"color": "gray",
-						"bold": false,
-						"italic": false
-					},
-					{
-						"translate": "ssbrc.tooltips.kirby.puffUp.description.1",
-						"color": "gray",
-						"bold": false,
-						"italic": false
-					}
-				]
-			},
-			{
-				"translate": "ssbrc.tooltips.kirby.puffUp.description.2",
-				"color": "gray",
-				"bold": false,
-				"italic": false
-			},
-			{
-				"translate": "ssbrc.tooltips.kirby.puffUp.description.3",
-				"color": "gray",
-				"bold": false,
-				"italic": false
-			}
-		],
-		"replace": false,
-		"conditions": [
-			{
-				"condition": "minecraft:entity_properties",
-				"entity": "this",
-				"predicate": {
-					"nbt": "{Tags:[\"kirby\"]}"
-				}
-			}
-		]
-	},
-	{
-		"function": "minecraft:set_lore",
-		"entity": "this",
-		"lore": [
-			{
 				"translate": "ssbrc.tooltips.fox.fire_fox",
 				"color": "yellow",
 				"bold": false,
@@ -322,7 +341,7 @@
 				"underlined": true
 			},
 			{
-				"translate": "ssbrc.tooltips.holdKey",
+				"translate": "ssbrc.tooltips.hold_key",
 				"color": "gray",
 				"bold": false,
 				"italic": false,
@@ -364,7 +383,7 @@
 		"entity": "this",
 		"lore": [
 			{
-				"translate": "ssbrc.tooltips.jigglypuff.hotAir",
+				"translate": "ssbrc.tooltips.giegue.4th_dimensional_slip",
 				"color": "yellow",
 				"bold": false,
 				"italic": false,
@@ -383,12 +402,18 @@
 						"italic": false
 					},
 					{
-						"translate": "ssbrc.tooltips.jigglypuff.hotAir.description.1",
+						"translate": "ssbrc.tooltips.giegue.4th_dimensional_slip.description.1",
 						"color": "gray",
 						"bold": false,
 						"italic": false
 					}
 				]
+			},
+			{
+				"translate": "ssbrc.tooltips.giegue.4th_dimensional_slip.description.2",
+				"color": "gray",
+				"bold": false,
+				"italic": false
 			}
 		],
 		"replace": false,
@@ -397,7 +422,7 @@
 				"condition": "minecraft:entity_properties",
 				"entity": "this",
 				"predicate": {
-					"nbt": "{Tags:[\"jigglypuff\"]}"
+					"nbt": "{Tags:[\"giegue\"]}"
 				}
 			}
 		]
@@ -414,7 +439,7 @@
 				"underlined": true
 			},
 			{
-				"translate": "ssbrc.tooltips.holdKey",
+				"translate": "ssbrc.tooltips.hold_key",
 				"color": "gray",
 				"bold": false,
 				"italic": false,
@@ -462,7 +487,7 @@
 		"entity": "this",
 		"lore": [
 			{
-				"translate": "ssbrc.tooltips.giegue.4thDimensionalSlip",
+				"translate": "ssbrc.tooltips.jigglypuff.hot_air",
 				"color": "yellow",
 				"bold": false,
 				"italic": false,
@@ -481,7 +506,50 @@
 						"italic": false
 					},
 					{
-						"translate": "ssbrc.tooltips.giegue.4thDimensionalSlip.description.1",
+						"translate": "ssbrc.tooltips.jigglypuff.hot_air.description.1",
+						"color": "gray",
+						"bold": false,
+						"italic": false
+					}
+				]
+			}
+		],
+		"replace": false,
+		"conditions": [
+			{
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"nbt": "{Tags:[\"jigglypuff\"]}"
+				}
+			}
+		]
+	},
+	{
+		"function": "minecraft:set_lore",
+		"entity": "this",
+		"lore": [
+			{
+				"translate": "ssbrc.tooltips.joker.rebels_guard",
+				"color": "yellow",
+				"bold": false,
+				"italic": false,
+				"underlined": true
+			},
+			{
+				"translate": "ssbrc.tooltips.hold_key",
+				"color": "gray",
+				"bold": false,
+				"italic": false,
+				"extra": [
+					{
+						"keybind": "key.sneak",
+						"color": "gray",
+						"bold": false,
+						"italic": false
+					},
+					{
+						"translate": "ssbrc.tooltips.joker.rebels_guard.description.1",
 						"color": "gray",
 						"bold": false,
 						"italic": false
@@ -489,7 +557,13 @@
 				]
 			},
 			{
-				"translate": "ssbrc.tooltips.giegue.4thDimensionalSlip.description.2",
+				"translate": "ssbrc.tooltips.joker.rebels_guard.description.2",
+				"color": "gray",
+				"bold": false,
+				"italic": false
+			},
+			{
+				"translate": "ssbrc.tooltips.joker.rebels_guard.description.3",
 				"color": "gray",
 				"bold": false,
 				"italic": false
@@ -501,7 +575,62 @@
 				"condition": "minecraft:entity_properties",
 				"entity": "this",
 				"predicate": {
-					"nbt": "{Tags:[\"giegue\"]}"
+					"nbt": "{Tags:[\"joker\"]}"
+				}
+			}
+		]
+	},
+	{
+		"function": "minecraft:set_lore",
+		"entity": "this",
+		"lore": [
+			{
+				"translate": "ssbrc.tooltips.kirby.puff_up",
+				"color": "yellow",
+				"bold": false,
+				"italic": false,
+				"underlined": true
+			},
+			{
+				"text": "- [",
+				"color": "gray",
+				"bold": false,
+				"italic": false,
+				"extra": [
+					{
+						"keybind": "key.sneak",
+						"color": "gray",
+						"bold": false,
+						"italic": false
+					},
+					{
+						"translate": "ssbrc.tooltips.kirby.puff_up.description.1",
+						"color": "gray",
+						"bold": false,
+						"italic": false
+					}
+				]
+			},
+			{
+				"translate": "ssbrc.tooltips.kirby.puff_up.description.2",
+				"color": "gray",
+				"bold": false,
+				"italic": false
+			},
+			{
+				"translate": "ssbrc.tooltips.kirby.puff_up.description.3",
+				"color": "gray",
+				"bold": false,
+				"italic": false
+			}
+		],
+		"replace": false,
+		"conditions": [
+			{
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"nbt": "{Tags:[\"kirby\"]}"
 				}
 			}
 		]
@@ -518,7 +647,7 @@
 				"underlined": true
 			},
 			{
-				"translate": "ssbrc.tooltips.holdKey",
+				"translate": "ssbrc.tooltips.hold_key",
 				"color": "gray",
 				"bold": false,
 				"italic": false,
@@ -573,7 +702,7 @@
 				"underlined": true
 			},
 			{
-				"translate": "ssbrc.tooltips.holdKey",
+				"translate": "ssbrc.tooltips.hold_key",
 				"color": "gray",
 				"bold": false,
 				"italic": false,
@@ -622,7 +751,7 @@
 				"underlined": true
 			},
 			{
-				"translate": "ssbrc.tooltips.holdKey",
+				"translate": "ssbrc.tooltips.hold_key",
 				"color": "gray",
 				"bold": false,
 				"italic": false,
@@ -671,7 +800,7 @@
 				"underlined": true
 			},
 			{
-				"translate": "ssbrc.tooltips.holdKey",
+				"translate": "ssbrc.tooltips.hold_key",
 				"color": "gray",
 				"bold": false,
 				"italic": false,
@@ -697,7 +826,7 @@
 				"condition": "minecraft:entity_properties",
 				"entity": "this",
 				"predicate": {
-					"nbt": "{Tags:[\"ryu\",\"satsuiNoHadoRage\"]}"
+					"nbt": "{Tags:[\"ryu\",\"satsui_no_hado_rage\"]}"
 				}
 			}
 		]
@@ -707,14 +836,14 @@
 		"entity": "this",
 		"lore": [
 			{
-				"translate": "ssbrc.tooltips.alucard.mist",
+				"translate": "ssbrc.tooltips.super_mario_bros.super_jump",
 				"color": "yellow",
 				"bold": false,
 				"italic": false,
 				"underlined": true
 			},
 			{
-				"text": "- [",
+				"translate": "ssbrc.tooltips.hold_key",
 				"color": "gray",
 				"bold": false,
 				"italic": false,
@@ -726,7 +855,7 @@
 						"italic": false
 					},
 					{
-						"translate": "ssbrc.tooltips.alucard.mist.description.1",
+						"translate": "ssbrc.tooltips.super_mario_bros.super_jump.description.1",
 						"color": "gray",
 						"bold": false,
 						"italic": false
@@ -734,13 +863,13 @@
 				]
 			},
 			{
-				"translate": "ssbrc.tooltips.alucard.mist.description.2",
+				"translate": "ssbrc.tooltips.super_mario_bros.super_jump.description.2",
 				"color": "gray",
 				"bold": false,
 				"italic": false
 			},
 			{
-				"translate": "ssbrc.tooltips.alucard.mist.description.3",
+				"translate": "ssbrc.tooltips.luigi.super_jump.description.1",
 				"color": "gray",
 				"bold": false,
 				"italic": false
@@ -749,109 +878,8 @@
 		"replace": false,
 		"conditions": [
 			{
-				"condition": "minecraft:entity_properties",
-				"entity": "this",
-				"predicate": {
-					"nbt": "{Tags:[\"alucard\"]}"
-				}
-			}
-		]
-	},
-	{
-		"function": "minecraft:set_lore",
-		"entity": "this",
-		"lore": [
-			{
-				"translate": "ssbrc.tooltips.joker.rebels_guard",
-				"color": "yellow",
-				"bold": false,
-				"italic": false,
-				"underlined": true
-			},
-			{
-				"translate": "ssbrc.tooltips.holdKey",
-				"color": "gray",
-				"bold": false,
-				"italic": false,
-				"extra": [
-					{
-						"keybind": "key.sneak",
-						"color": "gray",
-						"bold": false,
-						"italic": false
-					},
-					{
-						"translate": "ssbrc.tooltips.joker.rebels_guard.description.1",
-						"color": "gray",
-						"bold": false,
-						"italic": false
-					}
-				]
-			},
-			{
-				"translate": "ssbrc.tooltips.joker.rebels_guard.description.2",
-				"color": "gray",
-				"bold": false,
-				"italic": false
-			},
-			{
-				"translate": "ssbrc.tooltips.joker.rebels_guard.description.3",
-				"color": "gray",
-				"bold": false,
-				"italic": false
-			}
-		],
-		"replace": false,
-		"conditions": [
-			{
-				"condition": "minecraft:entity_properties",
-				"entity": "this",
-				"predicate": {
-					"nbt": "{Tags:[\"joker\"]}"
-				}
-			}
-		]
-	},
-	{
-		"function": "minecraft:set_lore",
-		"entity": "this",
-		"lore": [
-			{
-				"translate": "ssbrc.tooltips.altered_beast.waredragon.wings",
-				"color": "yellow",
-				"bold": false,
-				"italic": false,
-				"underlined": true
-			},
-			{
-				"translate": "ssbrc.tooltips.holdKey",
-				"color": "gray",
-				"bold": false,
-				"italic": false,
-				"extra": [
-					{
-						"keybind": "key.sneak",
-						"color": "gray",
-						"bold": false,
-						"italic": false
-					},
-					{
-						"translate": "ssbrc.tooltips.altered_beast.waredragon.wings.description.1",
-						"color": "gray",
-						"bold": false,
-						"italic": false
-					}
-				]
-			}
-		],
-		"replace": false,
-		"conditions": [
-			{
-				"condition": "minecraft:entity_properties",
-				"entity": "this",
-				"predicate": {
-					"nbt": "{Tags:[\"altered_beast\",\"waredragon\"]}"
-				}
+				"condition": "minecraft:reference",
+				"name": "ssbrc:fighters/super_mario_bros"
 			}
 		]
 	}

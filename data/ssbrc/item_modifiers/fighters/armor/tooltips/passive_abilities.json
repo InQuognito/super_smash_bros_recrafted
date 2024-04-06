@@ -46,14 +46,14 @@
 		"entity": "this",
 		"lore": [
 			{
-				"translate": "ssbrc.tooltips.super_mario_bros.stomp",
+				"translate": "ssbrc.tooltips.altered_beast.mark_of_the_beast",
 				"color": "yellow",
 				"bold": false,
 				"italic": false,
 				"underlined": true
 			},
 			{
-				"translate": "ssbrc.tooltips.super_mario_bros.stomp.description.1",
+				"translate": "ssbrc.tooltips.altered_beast.mark_of_the_beast.description.1",
 				"color": "gray",
 				"bold": false,
 				"italic": false
@@ -65,7 +65,7 @@
 				"condition": "minecraft:entity_properties",
 				"entity": "this",
 				"predicate": {
-					"nbt": "{Tags:[\"mario\"]}"
+					"nbt": "{Tags:[\"altered_beast\",\"centurion\"]}"
 				}
 			}
 		]
@@ -75,14 +75,14 @@
 		"entity": "this",
 		"lore": [
 			{
-				"translate": "ssbrc.tooltips.super_mario_bros.stomp",
+				"translate": "ssbrc.tooltips.altered_beast.warebear.intimidate",
 				"color": "yellow",
 				"bold": false,
 				"italic": false,
 				"underlined": true
 			},
 			{
-				"translate": "ssbrc.tooltips.super_mario_bros.stomp.description.1",
+				"translate": "ssbrc.tooltips.altered_beast.warebear.intimidate.description.1",
 				"color": "gray",
 				"bold": false,
 				"italic": false
@@ -94,7 +94,100 @@
 				"condition": "minecraft:entity_properties",
 				"entity": "this",
 				"predicate": {
-					"nbt": "{Tags:[\"luigi\"]}"
+					"nbt": "{Tags:[\"altered_beast\",\"warebear\"]}"
+				}
+			}
+		]
+	},
+	{
+		"function": "minecraft:set_lore",
+		"entity": "this",
+		"lore": [
+			{
+				"translate": "ssbrc.tooltips.altered_beast.waredragon.inner_strength",
+				"color": "yellow",
+				"bold": false,
+				"italic": false,
+				"underlined": true
+			},
+			{
+				"translate": "ssbrc.tooltips.altered_beast.waredragon.inner_strength.description.1",
+				"color": "gray",
+				"bold": false,
+				"italic": false
+			},
+			{
+				"translate": "ssbrc.tooltips.altered_beast.waredragon.inner_strength.description.2",
+				"color": "gray",
+				"bold": false,
+				"italic": false
+			}
+		],
+		"replace": false,
+		"conditions": [
+			{
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"nbt": "{Tags:[\"altered_beast\",\"waredragon\"]}"
+				}
+			}
+		]
+	},
+	{
+		"function": "minecraft:set_lore",
+		"entity": "this",
+		"lore": [
+			{
+				"translate": "ssbrc.tooltips.altered_beast.waretiger.champion_of_zeus",
+				"color": "yellow",
+				"bold": false,
+				"italic": false,
+				"underlined": true
+			},
+			{
+				"translate": "ssbrc.tooltips.altered_beast.waretiger.champion_of_zeus.description.1",
+				"color": "gray",
+				"bold": false,
+				"italic": false
+			}
+		],
+		"replace": false,
+		"conditions": [
+			{
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"nbt": "{Tags:[\"altered_beast\",\"waretiger\"]}"
+				}
+			}
+		]
+	},
+	{
+		"function": "minecraft:set_lore",
+		"entity": "this",
+		"lore": [
+			{
+				"translate": "ssbrc.tooltips.altered_beast.warewolf.feral_instincts",
+				"color": "yellow",
+				"bold": false,
+				"italic": false,
+				"underlined": true
+			},
+			{
+				"translate": "ssbrc.tooltips.altered_beast.warewolf.feral_instincts.description.1",
+				"color": "gray",
+				"bold": false,
+				"italic": false
+			}
+		],
+		"replace": false,
+		"conditions": [
+			{
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"nbt": "{Tags:[\"altered_beast\",\"warewolf\"]}"
 				}
 			}
 		]
@@ -175,64 +268,6 @@
 		"entity": "this",
 		"lore": [
 			{
-				"translate": "ssbrc.tooltips.ganondorf.summonStalfos",
-				"color": "yellow",
-				"bold": false,
-				"italic": false,
-				"underlined": true
-			},
-			{
-				"translate": "ssbrc.tooltips.ganondorf.summonStalfos.description.1",
-				"color": "gray",
-				"bold": false,
-				"italic": false
-			}
-		],
-		"replace": false,
-		"conditions": [
-			{
-				"condition": "minecraft:entity_properties",
-				"entity": "this",
-				"predicate": {
-					"nbt": "{Tags:[\"ganondorf\"]}"
-				}
-			}
-		]
-	},
-	{
-		"function": "minecraft:set_lore",
-		"entity": "this",
-		"lore": [
-			{
-				"translate": "ssbrc.tooltips.dark_samus.phazon_spikes",
-				"color": "yellow",
-				"bold": false,
-				"italic": false,
-				"underlined": true
-			},
-			{
-				"translate": "ssbrc.tooltips.dark_samus.phazon_spikes.description.1",
-				"color": "gray",
-				"bold": false,
-				"italic": false
-			}
-		],
-		"replace": false,
-		"conditions": [
-			{
-				"condition": "minecraft:entity_properties",
-				"entity": "this",
-				"predicate": {
-					"nbt": "{Tags:[\"dark_samus\"]}"
-				}
-			}
-		]
-	},
-	{
-		"function": "minecraft:set_lore",
-		"entity": "this",
-		"lore": [
-			{
 				"translate": "ssbrc.tooltips.byleth.blue_lions.swiftness",
 				"color": "yellow",
 				"bold": false,
@@ -291,14 +326,14 @@
 		"entity": "this",
 		"lore": [
 			{
-				"translate": "ssbrc.tooltips.byleth.black_eagles.heavyArmor",
+				"translate": "ssbrc.tooltips.byleth.black_eagles.heavy_armor",
 				"color": "yellow",
 				"bold": false,
 				"italic": false,
 				"underlined": true
 			},
 			{
-				"translate": "ssbrc.tooltips.byleth.black_eagles.heavyArmor.description.1",
+				"translate": "ssbrc.tooltips.byleth.black_eagles.heavy_armor.description.1",
 				"color": "gray",
 				"bold": false,
 				"italic": false
@@ -311,6 +346,93 @@
 				"entity": "this",
 				"predicate": {
 					"nbt": "{Tags:[\"byleth\",\"black_eagles\"]}"
+				}
+			}
+		]
+	},
+	{
+		"function": "minecraft:set_lore",
+		"entity": "this",
+		"lore": [
+			{
+				"translate": "ssbrc.tooltips.dark_samus.phazon_spikes",
+				"color": "yellow",
+				"bold": false,
+				"italic": false,
+				"underlined": true
+			},
+			{
+				"translate": "ssbrc.tooltips.dark_samus.phazon_spikes.description.1",
+				"color": "gray",
+				"bold": false,
+				"italic": false
+			}
+		],
+		"replace": false,
+		"conditions": [
+			{
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"nbt": "{Tags:[\"dark_samus\"]}"
+				}
+			}
+		]
+	},
+	{
+		"function": "minecraft:set_lore",
+		"entity": "this",
+		"lore": [
+			{
+				"translate": "ssbrc.tooltips.ganondorf.summon_stalfos",
+				"color": "yellow",
+				"bold": false,
+				"italic": false,
+				"underlined": true
+			},
+			{
+				"translate": "ssbrc.tooltips.ganondorf.summon_stalfos.description.1",
+				"color": "gray",
+				"bold": false,
+				"italic": false
+			}
+		],
+		"replace": false,
+		"conditions": [
+			{
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"nbt": "{Tags:[\"ganondorf\"]}"
+				}
+			}
+		]
+	},
+	{
+		"function": "minecraft:set_lore",
+		"entity": "this",
+		"lore": [
+			{
+				"translate": "ssbrc.tooltips.joker.final_guard",
+				"color": "yellow",
+				"bold": false,
+				"italic": false,
+				"underlined": true
+			},
+			{
+				"translate": "ssbrc.tooltips.joker.final_guard.description.1",
+				"color": "gray",
+				"bold": false,
+				"italic": false
+			}
+		],
+		"replace": false,
+		"conditions": [
+			{
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"nbt": "{Tags:[\"joker\"]}"
 				}
 			}
 		]
@@ -406,11 +528,8 @@
 		"replace": false,
 		"conditions": [
 			{
-				"condition": "minecraft:entity_properties",
-				"entity": "this",
-				"predicate": {
-					"nbt": "{Tags:[\"sonic\"]}"
-				}
+				"condition": "minecraft:reference",
+				"name": "ssbrc:fighters/sonic_the_hedgehog"
 			}
 		]
 	},
@@ -419,14 +538,14 @@
 		"entity": "this",
 		"lore": [
 			{
-				"translate": "ssbrc.tooltips.sonic_the_hedgehog.acceleration",
+				"translate": "ssbrc.tooltips.super_mario_bros.stomp",
 				"color": "yellow",
 				"bold": false,
 				"italic": false,
 				"underlined": true
 			},
 			{
-				"translate": "ssbrc.tooltips.sonic_the_hedgehog.acceleration.description.1",
+				"translate": "ssbrc.tooltips.super_mario_bros.stomp.description.1",
 				"color": "gray",
 				"bold": false,
 				"italic": false
@@ -435,76 +554,8 @@
 		"replace": false,
 		"conditions": [
 			{
-				"condition": "minecraft:entity_properties",
-				"entity": "this",
-				"predicate": {
-					"nbt": "{Tags:[\"shadow\"]}"
-				}
-			}
-		]
-	},
-	{
-		"function": "minecraft:set_lore",
-		"entity": "this",
-		"lore": [
-			{
-				"translate": "ssbrc.tooltips.joker.final_guard",
-				"color": "yellow",
-				"bold": false,
-				"italic": false,
-				"underlined": true
-			},
-			{
-				"translate": "ssbrc.tooltips.joker.final_guard.description.1",
-				"color": "gray",
-				"bold": false,
-				"italic": false
-			}
-		],
-		"replace": false,
-		"conditions": [
-			{
-				"condition": "minecraft:entity_properties",
-				"entity": "this",
-				"predicate": {
-					"nbt": "{Tags:[\"joker\"]}"
-				}
-			}
-		]
-	},
-	{
-		"function": "minecraft:set_lore",
-		"entity": "this",
-		"lore": [
-			{
-				"translate": "ssbrc.tooltips.altered_beast.markOfTheBeast",
-				"color": "yellow",
-				"bold": false,
-				"italic": false,
-				"underlined": true
-			},
-			{
-				"translate": "ssbrc.tooltips.altered_beast.markOfTheBeast.description.1",
-				"color": "gray",
-				"bold": false,
-				"italic": false
-			}
-		],
-		"replace": false,
-		"conditions": [
-			{
-				"condition": "minecraft:entity_properties",
-				"entity": "this",
-				"predicate": {
-					"nbt": "{Tags:[\"altered_beast\"]}"
-				}
-			},
-			{
-				"condition": "minecraft:inverted",
-				"term": {
-					"condition": "minecraft:reference",
-					"name": "ssbrc:fighters/altered_beast/is_beast"
-				}
+				"condition": "minecraft:reference",
+				"name": "ssbrc:fighters/super_mario_bros"
 			}
 		]
 	}

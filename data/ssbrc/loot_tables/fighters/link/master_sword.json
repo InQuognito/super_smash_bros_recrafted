@@ -37,7 +37,7 @@
 									]
 								},
 								{
-									"translate": "ssbrc.tooltips.holdKey",
+									"translate": "ssbrc.tooltips.hold_key",
 									"color": "gray",
 									"bold": false,
 									"italic": false,

@@ -12,7 +12,7 @@
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"translate": "ssbrc.tooltips.ryu.satsuiNoHadoRage",
+								"translate": "ssbrc.tooltips.ryu.satsui_no_hado_rage",
 								"color": "dark_red",
 								"bold": true,
 								"italic": false
@@ -39,7 +39,7 @@
 											"italic": false
 										},
 										{
-											"translate": "ssbrc.tooltips.ryu.satsuiNoHadoRage.description.1",
+											"translate": "ssbrc.tooltips.ryu.satsui_no_hado_rage.description.1",
 											"color": "gray",
 											"bold": false,
 											"italic": false
@@ -53,7 +53,7 @@
 									"italic": false,
 									"extra": [
 										{
-											"translate": "ssbrc.tooltips.ryu.satsuiNoHadoRage.description.2",
+											"translate": "ssbrc.tooltips.ryu.satsui_no_hado_rage.description.2",
 											"color": "gray",
 											"bold": false,
 											"italic": false
@@ -67,7 +67,7 @@
 									"italic": false,
 									"extra": [
 										{
-											"translate": "ssbrc.tooltips.ryu.satsuiNoHadoRage.description.3",
+											"translate": "ssbrc.tooltips.ryu.satsui_no_hado_rage.description.3",
 											"color": "gray",
 											"bold": false,
 											"italic": false
@@ -79,7 +79,7 @@
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{satsuiNoHadoRage:1,CustomModelData:1402}"
+							"tag": "{satsui_no_hado_rage:1,CustomModelData:1402}"
 						}
 					]
 				}
