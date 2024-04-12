@@ -1,4 +1,4 @@
-tag @s add barrelCannon
+tag @s add barrel_cannon
 tag @s add noKill
 
 item replace entity @s container.0 with minecraft:sugar{CustomModelData:501}

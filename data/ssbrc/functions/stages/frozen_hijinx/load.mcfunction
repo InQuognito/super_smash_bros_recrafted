@@ -1,7 +1,7 @@
-scoreboard players reset * map
-scoreboard players set frozen_hijinx map 1
-scoreboard players set songCount map 2
-scoreboard players set mapPicked mapVote 1
+scoreboard players reset * stage
+scoreboard players set frozen_hijinx stage 1
+scoreboard players set songCount stage 2
+scoreboard players set stagePicked stage_vote 1
 forceload add 2016 1264 2159 1439
 
 execute if score hazards options matches 0 run function ssbrc:stages/frozen_hijinx/load/hazards_off

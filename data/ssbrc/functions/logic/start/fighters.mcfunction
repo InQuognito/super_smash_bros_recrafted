@@ -61,6 +61,6 @@ function ssbrc:logic/fighters/attributes/defaults
 function ssbrc:logic/fighters/effects/default
 
 scoreboard players set @s flag.sprinting 0
-scoreboard players set @s frostbiteCooldown 0
+scoreboard players set @s frostbite.cooldown 0
 
 function ssbrc:logic/pre_game/bonuses/all

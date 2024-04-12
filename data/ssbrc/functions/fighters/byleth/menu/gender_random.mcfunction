@@ -1,4 +1,4 @@
-scoreboard players set @s characterPicked 1
+scoreboard players set @s character_picked 1
 
 execute store result score random.output temp run random value 0..1
 

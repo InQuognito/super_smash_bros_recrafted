@@ -12,7 +12,7 @@ item replace entity @s armor.chest with minecraft:air
 item replace entity @s armor.legs with minecraft:air
 item replace entity @s armor.feet with minecraft:air
 
-execute if score sector_z map matches 1 run effect give @s minecraft:slow_falling infinite 255 true
+execute if score sector_z stage matches 1 run effect give @s minecraft:slow_falling infinite 255 true
 
 execute unless score $blackout temp matches 1 run data merge entity @s {Glowing:1b}
 

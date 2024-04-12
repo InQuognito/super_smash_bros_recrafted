@@ -7,4 +7,4 @@ data modify storage ssbrc:facing Head[0] set from entity @s Rotation[1]
 
 data modify entity @s Pose.Head set from storage ssbrc:facing Head
 
-scoreboard players set @s raycastSuccess 1
+scoreboard players set @s raycast_success 1

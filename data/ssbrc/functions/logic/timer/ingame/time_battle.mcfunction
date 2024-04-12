@@ -16,12 +16,12 @@ execute if score game_time timer matches 2 as @a[predicate=ssbrc:ingame] at @s r
 execute if score game_time timer matches 1 as @a[predicate=ssbrc:ingame] at @s run playsound ssbrc:one voice @s
 execute if score game_time timer matches ..0 run function ssbrc:logic/post_game/winner/time
 
-execute if score hazards options matches 1 if score tower_of_fate map matches 1 unless score tower_of_fateDestroyed temp matches 1.. if score game_timePercent temp matches ..50 run function ssbrc:stages/tower_of_fate/logic/destroy_tower/start
+execute if score hazards options matches 1 if score tower_of_fate stage matches 1 unless score tower_of_fateDestroyed temp matches 1.. if score game_timePercent temp matches ..50 run function ssbrc:stages/tower_of_fate/logic/destroy_tower/start
 
 data modify entity @e[tag=lobby.timer,limit=1] text set value '[{"translate":"ssbrc.lobby.time_remaining","color":"gold"},{"score":{"name":"game_time","objective":"timer"},"color":"yellow"},{"translate":"s","color":"gold"}]'
 
 # Ryu
-execute if score game_time timer matches 60 as @a[tag=ryu,tag=!abilityUsed,nbt=!{Inventory:[{tag:{satsui_no_hado_rage:1}}]}] run loot replace entity @s hotbar.1 loot ssbrc:fighters/ryu/satsui_no_hado_rage
+execute if score game_time timer matches 60 as @a[tag=ryu,tag=!ability_used,nbt=!{Inventory:[{tag:{satsui_no_hado_rage:1}}]}] run loot replace entity @s hotbar.1 loot ssbrc:fighters/ryu/satsui_no_hado_rage
 
 # Countdown
 scoreboard players remove game_time timer 1

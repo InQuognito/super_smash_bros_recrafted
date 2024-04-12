@@ -3,12 +3,12 @@ function ssbrc:logic/resets/tags/fighters
 execute unless entity @s[tag=picking_random] run function ssbrc:logic/resets/tags/skins
 execute unless entity @s[tag=picking_random] run tag @s add default
 
-tag @s add characterPicked
+tag @s add character_picked
 
 execute if score teams options matches 0 run team join ready @s
 effect clear @s minecraft:glowing
 
-function ssbrc:logic/pre_game/character_select/check_participation
+function ssbrc:logic/pre_game/fighter_select/check_participation
 
 clear @s minecraft:carrot_on_a_stick{skin_options:1}
 clear @s minecraft:carrot_on_a_stick{wiki:1}

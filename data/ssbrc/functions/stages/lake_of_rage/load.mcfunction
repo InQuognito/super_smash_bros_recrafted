@@ -1,7 +1,7 @@
-scoreboard players reset * map
-scoreboard players set lake_of_rage map 1
-scoreboard players set songCount map 2
-scoreboard players set mapPicked mapVote 1
+scoreboard players reset * stage
+scoreboard players set lake_of_rage stage 1
+scoreboard players set songCount stage 2
+scoreboard players set stagePicked stage_vote 1
 forceload add 2464 3968 2591 4095
 
 execute store result score random.output temp run random value 0..2

@@ -1,7 +1,7 @@
-scoreboard players reset * map
-scoreboard players set miiverse map 1
-scoreboard players set songCount map 2
-scoreboard players set mapPicked mapVote 1
+scoreboard players reset * stage
+scoreboard players set miiverse stage 1
+scoreboard players set songCount stage 2
+scoreboard players set stagePicked stage_vote 1
 forceload add -736 544 -625 655
 
 execute unless score debug options matches 1 positioned -682.5 18.0 601.5 run function ssbrc:stages/miiverse/logic/posts/origin/summon

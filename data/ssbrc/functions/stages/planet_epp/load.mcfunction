@@ -1,7 +1,7 @@
-scoreboard players reset * map
-scoreboard players set planet_epp map 1
-scoreboard players set songCount map 2
-scoreboard players set mapPicked mapVote 1
+scoreboard players reset * stage
+scoreboard players set planet_epp stage 1
+scoreboard players set songCount stage 2
+scoreboard players set stagePicked stage_vote 1
 forceload add 9856 19808 10031 20031
 
 # Neutral Zone

@@ -1,7 +1,7 @@
-scoreboard players reset * map
-scoreboard players set green_hill_zone map 1
-scoreboard players set songCount map 2
-scoreboard players set mapPicked mapVote 1
+scoreboard players reset * stage
+scoreboard players set green_hill_zone stage 1
+scoreboard players set songCount stage 2
+scoreboard players set stagePicked stage_vote 1
 forceload add -64 208 31 255
 
 # Armor Stands

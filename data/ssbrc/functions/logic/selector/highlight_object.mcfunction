@@ -129,4 +129,4 @@ tag @s remove highlight.normal
 tag @s remove highlight.selected
 tag @s remove highlight.unowned
 
-scoreboard players set @s raycastSuccess 1
+scoreboard players set @s raycast_success 1

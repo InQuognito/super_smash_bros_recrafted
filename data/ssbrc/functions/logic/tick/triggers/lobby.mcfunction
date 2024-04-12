@@ -3,4 +3,4 @@ execute if entity @s[nbt={SelectedItem:{tag:{options:1}}}] run function ssbrc:lo
 
 execute if score @s debug matches 1.. run function ssbrc:logic/tick/triggers/debug
 
-execute if score @s selectItem matches 1.. run function ssbrc:logic/tick/lobby/character_select
+execute if score @s select_item matches 1.. run function ssbrc:logic/tick/lobby/fighter_select

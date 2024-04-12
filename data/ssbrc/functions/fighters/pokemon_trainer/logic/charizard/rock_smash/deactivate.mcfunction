@@ -1,4 +1,4 @@
 attribute @s minecraft:generic.armor modifier remove 19192183-0000-0000-0005-000000000000
-tag @s remove armorBreak
+tag @s remove armor_break
 
-scoreboard players reset @s armorBreak
+scoreboard players reset @s armor_break

@@ -1,7 +1,7 @@
-scoreboard players reset * map
-scoreboard players set acropolis_graveyard map 1
-scoreboard players set songCount map 2
-scoreboard players set mapPicked mapVote 1
+scoreboard players reset * stage
+scoreboard players set acropolis_graveyard stage 1
+scoreboard players set songCount stage 2
+scoreboard players set stagePicked stage_vote 1
 forceload add -1392 -480 -1313 -417
 
 time set noon

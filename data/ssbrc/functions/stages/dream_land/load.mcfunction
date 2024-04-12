@@ -1,7 +1,7 @@
-scoreboard players reset * map
-scoreboard players set dream_land map 1
-scoreboard players set songCount map 2
-scoreboard players set mapPicked mapVote 1
+scoreboard players reset * stage
+scoreboard players set dream_land stage 1
+scoreboard players set songCount stage 2
+scoreboard players set stagePicked stage_vote 1
 forceload add 2032 896 2143 1023
 
 time set noon

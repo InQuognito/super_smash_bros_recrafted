@@ -4,7 +4,7 @@ function ssbrc:logic/tick/lobby/credits
 
 # Chest UIs
 function ssbrc:shop/tick
-function ssbrc:logic/pre_game/map_voting/stage_index/tick
+function ssbrc:logic/pre_game/stage_select/stage_index/tick
 
 # Tick During Certain Game Stages
 execute unless score game_stage temp matches 2.. as @a run function ssbrc:logic/tick/triggers/lobby
@@ -12,9 +12,9 @@ execute if score game_stage temp matches 3 run function ssbrc:logic/tick/countdo
 execute if score game_stage temp matches 4 run function ssbrc:logic/tick/ingame
 execute if score game_stage temp matches 5 run function ssbrc:logic/tick/post_game
 
-execute if score $mapRoom timer matches 1.. run scoreboard players add $mapRoom timer 1
-execute if score $mapRoom timer matches 7 run function ssbrc:logic/pre_game/map_voting/prepare
-execute if score $mapRoom timer matches 7.. run scoreboard players reset $mapRoom timer
+execute if score $stageRoom timer matches 1.. run scoreboard players add $stageRoom timer 1
+execute if score $stageRoom timer matches 7 run function ssbrc:logic/pre_game/stage_select/prepare
+execute if score $stageRoom timer matches 7.. run scoreboard players reset $stageRoom timer
 
 # Reset Players
 execute as @a unless score @s worldTime = $worldTime worldTime run function ssbrc:logic/join

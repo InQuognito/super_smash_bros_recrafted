@@ -1,7 +1,7 @@
-scoreboard players reset * map
-scoreboard players set final_destination map 1
-scoreboard players set songCount map 2
-scoreboard players set mapPicked mapVote 1
+scoreboard players reset * stage
+scoreboard players set final_destination stage 1
+scoreboard players set songCount stage 2
+scoreboard players set stagePicked stage_vote 1
 forceload add 23408 8592 23503 8647
 
 time set midnight

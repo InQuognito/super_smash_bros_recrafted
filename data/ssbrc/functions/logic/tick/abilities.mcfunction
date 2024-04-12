@@ -33,7 +33,7 @@ execute if entity @s[tag=bang] run function ssbrc:fighters/hero/logic/abilities/
 execute if entity @s[tag=hyper_voice] run function ssbrc:fighters/jigglypuff/logic/abilities/hyper_voice/tick
 
 # Joker
-execute if entity @s[tag=tt33.bullet] run function ssbrc:fighters/joker/logic/tt33/tick
+execute if entity @s[tag=tt33.bullet] run function ssbrc:fighters/joker/logic/abilities/tt33/tick
 execute if entity @s[tag=eiagon] run function ssbrc:fighters/joker/logic/abilities/eiagon/tick
 execute if entity @s[tag=eiagon.pool] run particle minecraft:dust_color_transition 0.4 0.0 0.0 1.0 0.2 0.0 0.0 ~ ~1 ~ 0.2 0.5 0.2 0.0 25 normal @a
 execute if entity @s[tag=hama] run function ssbrc:fighters/joker/logic/abilities/hama/tick

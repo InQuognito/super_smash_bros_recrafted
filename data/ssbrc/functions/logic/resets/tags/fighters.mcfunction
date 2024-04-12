@@ -40,9 +40,9 @@ function ssbrc:logic/resets/tags/fighters/zelda
 function ssbrc:logic/fighters/pokemon/natures/reset
 
 # Misc
-tag @s remove abilityUsed
+tag @s remove ability_used
 tag @s remove air_stall
-tag @s remove characterPicked
+tag @s remove character_picked
 tag @s remove checkDeath
 tag @s remove checkKill
 tag @s remove checkShockwave

@@ -30,6 +30,6 @@ tag @s remove squirtle.quiet
 tag @s remove squirtle.timid
 tag @s remove squirtle.natureSet
 
-tag @s remove armorBreak
+tag @s remove armor_break
 
 function ssbrc:fighters/pokemon_trainer/logic/ivysaur/leech_seed/reset

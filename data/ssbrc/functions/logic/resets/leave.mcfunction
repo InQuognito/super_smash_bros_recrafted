@@ -43,7 +43,7 @@ execute unless score @s stats.credits matches -2147483648..2147483647 run scoreb
 item replace entity @s inventory.13 with minecraft:copper_ingot
 loot replace entity @s inventory.13 loot ssbrc:statistics
 
-scoreboard players set @s shopCalculator 0
+scoreboard players set @s shop.selector 0
 function ssbrc:shop/pages/main/load
 
 execute unless score @s hardReset matches -2147483648..2147483647 run scoreboard players set @s hardReset 0

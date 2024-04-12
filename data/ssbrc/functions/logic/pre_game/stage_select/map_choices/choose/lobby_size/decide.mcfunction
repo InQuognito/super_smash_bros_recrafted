@@ -1,0 +1,3 @@
+execute if score players.playing temp matches ..2 as @e[type=minecraft:text_display,tag=voteCounter,predicate=ssbrc:stage/size/small,tag=!selected,sort=random,limit=1] run function ssbrc:logic/pre_game/stage_select/stage_choices/choose/lobby_size/small
+execute if score players.playing temp matches 3..5 as @e[type=minecraft:text_display,tag=voteCounter,predicate=ssbrc:stage/size/medium,tag=!selected,sort=random,limit=1] run function ssbrc:logic/pre_game/stage_select/stage_choices/choose/lobby_size/medium
+execute if score players.playing temp matches 6.. as @e[type=minecraft:text_display,tag=voteCounter,predicate=ssbrc:stage/size/large,tag=!selected,sort=random,limit=1] run function ssbrc:logic/pre_game/stage_select/stage_choices/choose/lobby_size/large

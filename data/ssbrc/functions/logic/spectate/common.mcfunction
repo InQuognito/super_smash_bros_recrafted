@@ -2,6 +2,6 @@ tellraw @s[team=!spectator] {"translate":"ssbrc.fighter_select.spectate_game","c
 
 function ssbrc:logic/resets/tags/fighters
 
-tag @s add characterPicked
+tag @s add character_picked
 
 team join spectator @s

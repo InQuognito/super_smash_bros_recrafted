@@ -5,7 +5,7 @@ function ssbrc:logic/resets/tags/fighters
 function ssbrc:logic/resets/tags/skins
 
 # Maps
-function ssbrc:logic/resets/tags/maps
+function ssbrc:logic/resets/tags/stages
 
 # Favorites
 
@@ -20,7 +20,7 @@ tag @s remove mostPoints
 tag @s remove no_spin
 tag @s remove picking_random
 tag @s remove room.characterSelect
-tag @s remove room.mapVoting
+tag @s remove room.stageVoting
 tag @s remove self
 tag @s remove team1
 tag @s remove team2

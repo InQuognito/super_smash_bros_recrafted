@@ -1,7 +1,7 @@
-scoreboard players reset * map
-scoreboard players set sector_z map 1
-scoreboard players set songCount map 2
-scoreboard players set mapPicked mapVote 1
+scoreboard players reset * stage
+scoreboard players set sector_z stage 1
+scoreboard players set songCount stage 2
+scoreboard players set stagePicked stage_vote 1
 forceload add 240 3248 367 3327
 
 # Armor Stands

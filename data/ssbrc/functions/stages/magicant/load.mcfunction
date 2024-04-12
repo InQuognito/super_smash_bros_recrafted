@@ -1,7 +1,7 @@
-scoreboard players reset * map
-scoreboard players set magicant map 1
-scoreboard players set songCount map 2
-scoreboard players set mapPicked mapVote 1
+scoreboard players reset * stage
+scoreboard players set magicant stage 1
+scoreboard players set songCount stage 2
+scoreboard players set stagePicked stage_vote 1
 forceload add 608 -912 687 -833
 
 # Armor Stands

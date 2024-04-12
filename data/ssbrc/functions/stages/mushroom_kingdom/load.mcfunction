@@ -1,7 +1,7 @@
-scoreboard players reset * map
-scoreboard players set mushroom_kingdom map 1
-scoreboard players set songCount map 3
-scoreboard players set mapPicked mapVote 1
+scoreboard players reset * stage
+scoreboard players set mushroom_kingdom stage 1
+scoreboard players set songCount stage 3
+scoreboard players set stagePicked stage_vote 1
 forceload add -288 -192 -177 -81
 
 # Yoshi Egg
