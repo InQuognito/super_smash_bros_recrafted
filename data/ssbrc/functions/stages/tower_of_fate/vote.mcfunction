@@ -1,6 +1,6 @@
-scoreboard players add @e[type=minecraft:text_display,tag=voteCounter,tag=tower_of_fate,limit=1] stage_vote 1
+scoreboard players add @e[type=minecraft:text_display,tag=vote_counter,tag=tower_of_fate,limit=1] stage_vote 1
 
-execute unless entity @s[tag=tower_of_fate] run tellraw @a[tag=room.stageVoting] [{"selector":"@s","color":"yellow"},{"translate":"ssbrc.stage_select.vote_stage","color":"gold"},{"translate":"ssbrc.stages.tower_of_fate","color":"gold"},{"translate":"ssbrc.stage_select.vote_stage.display","color":"gold"},{"score":{"name":"@e[type=minecraft:text_display,tag=voteCounter,tag=tower_of_fate,limit=1]","objective":"stage_vote"},"color":"yellow"}]
+execute unless entity @s[tag=tower_of_fate] run tellraw @a[tag=room.stage_voting] [{"selector":"@s","color":"yellow"},{"translate":"ssbrc.stage_select.vote_stage","color":"gold"},{"translate":"ssbrc.stages.tower_of_fate","color":"gold"},{"translate":"ssbrc.stage_select.vote_stage.display","color":"gold"},{"score":{"name":"@e[type=minecraft:text_display,tag=vote_counter,tag=tower_of_fate,limit=1]","objective":"stage_vote"},"color":"yellow"}]
 
 function ssbrc:logic/pre_game/stage_select/update_counters/remove_vote
 tag @s add tower_of_fate

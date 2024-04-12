@@ -1,4 +1,4 @@
-tag @s add inCannon
+tag @s add in_cannon
 
 scoreboard players operation @e[type=minecraft:item_display,tag=barrel_cannon,sort=nearest,limit=1] id = @s id
 

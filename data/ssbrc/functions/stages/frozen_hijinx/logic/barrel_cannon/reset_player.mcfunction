@@ -1,4 +1,4 @@
-tag @s remove inCannon
+tag @s remove in_cannon
 
 scoreboard players reset @s timer.barrel_cannon
 

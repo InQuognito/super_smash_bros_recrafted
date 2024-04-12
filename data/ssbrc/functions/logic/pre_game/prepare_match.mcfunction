@@ -1,5 +1,5 @@
 kill @e[type=minecraft:item_display,tag=stageIcon]
-kill @e[type=minecraft:area_effect_cloud,tag=voteCounter]
+kill @e[type=minecraft:area_effect_cloud,tag=vote_counter]
 kill @e[type=minecraft:area_effect_cloud,tag=infoDisplay]
 
 scoreboard players operation totalStocks temp = players.playing temp

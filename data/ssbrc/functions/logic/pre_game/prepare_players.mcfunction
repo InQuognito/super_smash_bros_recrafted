@@ -14,4 +14,4 @@ effect give @s[predicate=ssbrc:flag/player] minecraft:slowness infinite 255 true
 
 tag @s[predicate=ssbrc:flag/player] add teleportMe
 
-tag @s remove room.stageVoting
+tag @s remove room.stage_voting

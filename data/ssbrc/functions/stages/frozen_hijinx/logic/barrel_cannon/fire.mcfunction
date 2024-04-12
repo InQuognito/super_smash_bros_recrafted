@@ -1,7 +1,7 @@
-tag @s remove inCannon
+tag @s remove in_cannon
 scoreboard players reset @s timer.barrel_cannon
 
-tag @s add followCannonPath
+tag @s add follow_cannon_path
 
 execute as @e[type=minecraft:item_display,tag=barrel_cannon,sort=nearest,limit=1] at @s run function ssbrc:stages/frozen_hijinx/logic/barrel_cannon/summon_path
 

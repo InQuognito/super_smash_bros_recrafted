@@ -9,8 +9,8 @@ tag @s remove final_destination
 tag @s remove flat_zone
 tag @s remove frozen_hijinx
 
-tag @s remove followCannonPath
-tag @s remove inCannon
+tag @s remove follow_cannon_path
+tag @s remove in_cannon
 
 tag @s remove garden_of_hope
 tag @s remove great_bay
