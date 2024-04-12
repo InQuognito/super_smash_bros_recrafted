@@ -25,7 +25,7 @@ teleport @s -37.5 6.0 13.5 0.0 0.0
 execute if score teams options matches 0 run team join waiting @s[team=!spectator]
 effect give @s[team=!spectator] minecraft:glowing infinite 255 true
 
-tag @s add room.stage_voting
+tag @s add room.stage_select
 
 scoreboard players set @s stage_index.selector 0
 function ssbrc:logic/pre_game/stage_select/stage_index/pages/stages/1/load

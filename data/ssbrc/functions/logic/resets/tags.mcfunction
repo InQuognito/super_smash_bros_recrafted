@@ -20,7 +20,7 @@ tag @s remove mostPoints
 tag @s remove no_spin
 tag @s remove picking_random
 tag @s remove room.fighter_select
-tag @s remove room.stage_voting
+tag @s remove room.stage_select
 tag @s remove self
 tag @s remove team1
 tag @s remove team2
