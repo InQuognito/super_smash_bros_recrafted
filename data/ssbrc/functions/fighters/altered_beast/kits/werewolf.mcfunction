@@ -11,7 +11,7 @@ clear @s #ssbrc:equipment
 loot replace entity @s hotbar.0 loot ssbrc:fighters/altered_beast/werewolf/flame_hands
 loot replace entity @s weapon.offhand loot ssbrc:fighters/altered_beast/werewolf/flame_hands
 
-loot replace entity @s hotbar.8 loot ssbrc:fighters/altered_beast/mark_of_the_beast
+loot replace entity @s hotbar.8 loot ssbrc:fighters/altered_beast/spirit_orb
 
 function ssbrc:logic/fighters/armor/update
 
