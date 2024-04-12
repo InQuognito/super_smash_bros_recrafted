@@ -1,6 +1,5 @@
 scoreboard objectives remove animation
 scoreboard objectives remove armor_break
-scoreboard objectives remove bounces
 scoreboard objectives remove bowser.fire_breath
 scoreboard objectives remove bowser.fire_breath.target
 scoreboard objectives remove burning

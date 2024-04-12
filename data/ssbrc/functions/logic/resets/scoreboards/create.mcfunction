@@ -1,6 +1,5 @@
 scoreboard objectives add animation dummy
 scoreboard objectives add armor_break dummy
-scoreboard objectives add bounces dummy
 scoreboard objectives add bowser.fire_breath dummy
 scoreboard objectives add bowser.fire_breath.target dummy
 scoreboard objectives add burning dummy
