@@ -1,5 +1,5 @@
-scoreboard players remove @s snake.psg1M 1
-scoreboard players set @s snake.psg1A 1
+scoreboard players remove @s weapon_2.mags 1
+scoreboard players set @s weapon_2.ammo 1
 
-scoreboard players reset @s snake.psg1R
+scoreboard players reset @s weapon_2.reload
 tag @s remove reloading

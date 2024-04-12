@@ -15,4 +15,4 @@ execute if score @s[tag=!ability_used] health <= joker.final_guard.threshold var
 execute if score @s duration.2 matches 1.. run function ssbrc:fighters/joker/logic/abilities/final_guard/tick
 
 # Ammo HUD
-title @s[nbt={SelectedItem:{tag:{tt33:1}}}] actionbar {"score":{"name":"@s","objective":"weapon.ammo"},"color":"red"}
+title @s[nbt={SelectedItem:{tag:{tt33:1}}}] actionbar {"score":{"name":"@s","objective":"weapon_1.ammo"},"color":"red"}

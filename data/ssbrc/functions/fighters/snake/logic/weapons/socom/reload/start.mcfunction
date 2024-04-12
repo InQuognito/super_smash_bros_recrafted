@@ -1,2 +1,2 @@
-scoreboard players operation @s snake.socomR = snake.socom.reload vars
+scoreboard players operation @s weapon_4.reload = snake.socom.reload vars
 tag @s add reloading

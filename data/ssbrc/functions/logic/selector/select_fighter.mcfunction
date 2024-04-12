@@ -3,7 +3,7 @@ function ssbrc:logic/resets/tags/fighters
 execute unless entity @s[tag=picking_random] run function ssbrc:logic/resets/tags/skins
 execute unless entity @s[tag=picking_random] run tag @s add default
 
-tag @s add character_picked
+tag @s add fighter_picked
 
 execute if score teams options matches 0 run team join ready @s
 effect clear @s minecraft:glowing

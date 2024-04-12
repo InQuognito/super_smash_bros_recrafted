@@ -1,5 +1,5 @@
-scoreboard players remove @s snake.famasM 1
-scoreboard players set @s snake.famasA 24
+scoreboard players remove @s weapon_3.mags 1
+scoreboard players set @s weapon_3.ammo 24
 
-scoreboard players reset @s snake.famasR
+scoreboard players reset @s weapon_3.reload
 tag @s remove reloading

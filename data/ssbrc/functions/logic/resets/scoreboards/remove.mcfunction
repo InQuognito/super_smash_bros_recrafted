@@ -4,7 +4,7 @@ scoreboard objectives remove bowser.fire_breath
 scoreboard objectives remove bowser.fire_breath.target
 scoreboard objectives remove burning
 scoreboard objectives remove character_trigger
-scoreboard objectives remove character_picked
+scoreboard objectives remove fighter_picked
 scoreboard objectives remove charge.1
 scoreboard objectives remove charge.2
 scoreboard objectives remove charge.3
@@ -112,10 +112,10 @@ scoreboard objectives remove use_ability
 scoreboard objectives remove use_item
 scoreboard objectives remove vars
 scoreboard objectives remove walk_distance
-scoreboard objectives remove weapon.ammo
-scoreboard objectives remove weapon.fire_rate
-scoreboard objectives remove weapon.mags
-scoreboard objectives remove weapon.reload
+scoreboard objectives remove weapon_1.ammo
+scoreboard objectives remove weapon_1.fire_rate
+scoreboard objectives remove weapon_1.mags
+scoreboard objectives remove weapon_1.reload
 scoreboard objectives remove weapon_2.ammo
 scoreboard objectives remove weapon_2.mags
 scoreboard objectives remove weapon_2.reload

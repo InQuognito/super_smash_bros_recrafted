@@ -20,10 +20,10 @@ function ssbrc:logic/resets/gamerules
 function ssbrc:logic/resets/schedule
 function ssbrc:logic/resets/teams/reset
 
-data modify storage ssbrc:data snake_ammo_psg1 set value '[{"score":{"name":"@s","objective":"snake.psg1A"},"color":"green"},{"text":" | ","color":"white"},{"score":{"name":"@s","objective":"snake.psg1M"},"color":"dark_green"}]'
-data modify storage ssbrc:data snake_ammo_famas set value '[{"score":{"name":"@s","objective":"snake.famasA"},"color":"green"},{"text":" | ","color":"white"},{"score":{"name":"@s","objective":"snake.famasM"},"color":"dark_green"}]'
-data modify storage ssbrc:data snake_ammo_s1000 set value '[{"score":{"name":"@s","objective":"snake.s1000A"},"color":"green"},{"text":" | ","color":"white"},{"score":{"name":"@s","objective":"snake.s1000M"},"color":"dark_green"}]'
-data modify storage ssbrc:data snake_ammo_socom set value '[{"score":{"name":"@s","objective":"snake.socomA"},"color":"green"},{"text":" | ","color":"white"},{"score":{"name":"@s","objective":"snake.socomM"},"color":"dark_green"}]'
+data modify storage ssbrc:data snake_ammo_psg1 set value '[{"score":{"name":"@s","objective":"weapon_2.ammo"},"color":"green"},{"text":" | ","color":"white"},{"score":{"name":"@s","objective":"weapon_2.mags"},"color":"dark_green"}]'
+data modify storage ssbrc:data snake_ammo_famas set value '[{"score":{"name":"@s","objective":"weapon_3.ammo"},"color":"green"},{"text":" | ","color":"white"},{"score":{"name":"@s","objective":"weapon_3.mags"},"color":"dark_green"}]'
+data modify storage ssbrc:data snake_ammo_s1000 set value '[{"score":{"name":"@s","objective":"weapon_1.ammo"},"color":"green"},{"text":" | ","color":"white"},{"score":{"name":"@s","objective":"weapon_1.mags"},"color":"dark_green"}]'
+data modify storage ssbrc:data snake_ammo_socom set value '[{"score":{"name":"@s","objective":"weapon_4.ammo"},"color":"green"},{"text":" | ","color":"white"},{"score":{"name":"@s","objective":"weapon_4.mags"},"color":"dark_green"}]'
 data modify storage ssbrc:data snake_out_of_ammo set value '[{"text":"-","color":"red"},{"text":" | ","color":"white"},{"text":"-","color":"red"}]'
 data modify storage ssbrc:data snake_prompt_reload set value '[{"translate":"ssbrc.fighters.snake.reload.prefix","color":"gray"},{"keybind":"key.drop","color":"white"},{"translate":"ssbrc.fighters.snake.reload.suffix","color":"gray"}]'
 

@@ -1,5 +1,5 @@
-scoreboard players remove @s snake.socomM 1
-scoreboard players set @s snake.socomA 8
+scoreboard players remove @s weapon_4.mags 1
+scoreboard players set @s weapon_4.ammo 8
 
-scoreboard players reset @s snake.socomR
+scoreboard players reset @s weapon_4.reload
 tag @s remove reloading

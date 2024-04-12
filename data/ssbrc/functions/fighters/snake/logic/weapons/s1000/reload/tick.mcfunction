@@ -1,5 +1,5 @@
-scoreboard players remove @s snake.s1000R 1
+scoreboard players remove @s weapon_1.reload 1
 
-execute at @s[scores={snake.s1000M=1..,snake.s1000R=35}] run playsound ssbrc:shotgun_shell player @a
-execute at @s[scores={snake.s1000M=1..,snake.s1000R=15}] run playsound ssbrc:shotgun_reload player @a
-execute at @s[scores={snake.s1000R=..0}] run function ssbrc:fighters/snake/logic/weapons/s1000/reload/reload
+execute at @s[scores={weapon_1.mags=1..,weapon_1.reload=35}] run playsound ssbrc:shotgun_shell player @a
+execute at @s[scores={weapon_1.mags=1..,weapon_1.reload=15}] run playsound ssbrc:shotgun_reload player @a
+execute at @s[scores={weapon_1.reload=..0}] run function ssbrc:fighters/snake/logic/weapons/s1000/reload/reload
