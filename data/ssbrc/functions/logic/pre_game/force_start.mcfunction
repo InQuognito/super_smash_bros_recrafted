@@ -1,4 +1,4 @@
-execute as @a[tag=room.characterSelect] run function ssbrc:logic/pre_game/fighter_select/force_selection
+execute as @a[tag=room.fighter_select] run function ssbrc:logic/pre_game/fighter_select/force_selection
 
 scoreboard players set $global id 0
 execute as @r[predicate=ssbrc:ingame,team=!spectator,tag=!idSet] run function ssbrc:logic/id/set

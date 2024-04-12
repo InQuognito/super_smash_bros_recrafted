@@ -1,4 +1,4 @@
-tag @s remove room.characterSelect
+tag @s remove room.fighter_select
 
 clear @s
 

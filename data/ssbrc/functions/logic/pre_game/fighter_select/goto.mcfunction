@@ -7,7 +7,7 @@ execute if score teams options matches 1 run function ssbrc:logic/teams/red
 
 effect give @s minecraft:glowing infinite 255 true
 
-tag @s add room.characterSelect
+tag @s add room.fighter_select
 
 execute unless entity @a[nbt={Inventory:[{tag:{options:1}}]}] unless entity @e[type=minecraft:item,nbt={Item:{tag:{options:1}}}] unless entity @s[tag=cannotHost] run function ssbrc:logic/options
 

@@ -12,4 +12,4 @@ execute if score players temp matches 1.. if score character_picked temp = playe
 execute unless score game_stage temp matches 0 if score players temp matches 2.. if score character_picked temp matches 1.. if score character_picked temp < players temp if entity @s[scores={influence=1..}] run scoreboard players set countdown timer 90
 execute unless score game_stage temp matches 0 if score players temp matches 2.. if score character_picked temp matches 1.. if score character_picked temp < players temp if entity @s[scores={influence=1..}] run scoreboard players set game_stage temp 0
 
-execute if score game_stage temp matches 0..1 run title @a[tag=room.characterSelect] actionbar [{"translate":"ssbrc.lobby.time_until_start","color":"gold"},{"score":{"name":"countdown","objective":"timer"},"color":"yellow"},{"translate":"s","color":"gold"}]
+execute if score game_stage temp matches 0..1 run title @a[tag=room.fighter_select] actionbar [{"translate":"ssbrc.lobby.time_until_start","color":"gold"},{"score":{"name":"countdown","objective":"timer"},"color":"yellow"},{"translate":"s","color":"gold"}]
