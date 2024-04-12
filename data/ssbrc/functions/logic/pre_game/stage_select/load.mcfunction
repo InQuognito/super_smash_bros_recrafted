@@ -40,12 +40,12 @@ summon minecraft:text_display ~ ~ ~ {Tags:["voteCounter","tower_of_fate"],billbo
 summon minecraft:text_display ~ ~ ~ {Tags:["voteCounter","wily_castle"],billboard:center}
 summon minecraft:text_display ~ ~ ~ {Tags:["voteCounter","yggdrasils_altar"],billboard:center}
 
-function ssbrc:logic/pre_game/stage_select/stage_choices/start
+function ssbrc:logic/pre_game/stage_select/featured/start
 
-function ssbrc:logic/pre_game/stage_select/stage_choices/stages/battlefield
-function ssbrc:logic/pre_game/stage_select/stage_choices/stages/big_battlefield
-function ssbrc:logic/pre_game/stage_select/stage_choices/stages/final_destination
-function ssbrc:logic/pre_game/stage_select/stage_choices/stages/random
+function ssbrc:logic/pre_game/stage_select/featured/stages/battlefield
+function ssbrc:logic/pre_game/stage_select/featured/stages/big_battlefield
+function ssbrc:logic/pre_game/stage_select/featured/stages/final_destination
+function ssbrc:logic/pre_game/stage_select/featured/stages/random
 
 summon minecraft:text_display -37.5 8.25 7.5 {text:'[{"translate":"✪ ","color":"gold"},{"translate":"ssbrc.stage_select.stage_index","color":"gold"},{"translate":" ✪","color":"gold"}]',billboard:center}
 
