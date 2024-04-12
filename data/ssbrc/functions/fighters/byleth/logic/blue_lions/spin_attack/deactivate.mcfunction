@@ -1,7 +1,7 @@
-execute if score @s charge.output matches 21..40 as @e[tag=!self,predicate=ssbrc:flag/targets,distance=..2.25] run damage @s 8.0 ssbrc:projectile by @a[tag=self,limit=1]
-execute if score @s charge.output matches 41..60 as @e[tag=!self,predicate=ssbrc:flag/targets,distance=..2.5] run damage @s 10.0 ssbrc:projectile by @a[tag=self,limit=1]
-execute if score @s charge.output matches 61..80 as @e[tag=!self,predicate=ssbrc:flag/targets,distance=..2.75] run damage @s 12.0 ssbrc:projectile by @a[tag=self,limit=1]
-execute if score @s charge.output matches 81.. as @e[tag=!self,predicate=ssbrc:flag/targets,distance=..3.0] run damage @s 14.0 ssbrc:projectile by @a[tag=self,limit=1]
+execute if score @s charge.output matches 21..40 as @e[tag=!self,predicate=ssbrc:flag/targets,distance=..2.25] run damage @s 8.0 ssbrc:generic by @a[tag=self,limit=1]
+execute if score @s charge.output matches 41..60 as @e[tag=!self,predicate=ssbrc:flag/targets,distance=..2.5] run damage @s 10.0 ssbrc:generic by @a[tag=self,limit=1]
+execute if score @s charge.output matches 61..80 as @e[tag=!self,predicate=ssbrc:flag/targets,distance=..2.75] run damage @s 12.0 ssbrc:generic by @a[tag=self,limit=1]
+execute if score @s charge.output matches 81.. as @e[tag=!self,predicate=ssbrc:flag/targets,distance=..3.0] run damage @s 14.0 ssbrc:generic by @a[tag=self,limit=1]
 
 scoreboard players add @s charge.1 1
 execute if score @s charge.output matches 21..40 if entity @e[tag=!self,predicate=ssbrc:flag/targets,distance=..3] run function ssbrc:fighters/byleth/logic/blue_lions/areadbhar/hit

@@ -3,7 +3,7 @@ particle minecraft:explosion ~ ~ ~ 0.0 0.0 0.0 0.0 1 normal @a
 
 playsound minecraft:entity.generic.explode player @a
 
-execute as @e[tag=!self,predicate=ssbrc:flag/targets,distance=..2.5] at @s run damage @s 12.0 ssbrc:projectile by @a[tag=self,limit=1]
+execute as @e[tag=!self,predicate=ssbrc:flag/targets,distance=..2.5] at @s run damage @s 12.0 ssbrc:generic by @a[tag=self,limit=1]
 
 kill @s
 

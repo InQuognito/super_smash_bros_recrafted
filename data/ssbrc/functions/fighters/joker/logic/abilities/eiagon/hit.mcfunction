@@ -1,4 +1,4 @@
-damage @s 6.0 ssbrc:projectile by @a[tag=self,limit=1]
+damage @s 6.0 ssbrc:generic by @a[tag=self,limit=1]
 
 effect give @s minecraft:poison 3 1 true
 
