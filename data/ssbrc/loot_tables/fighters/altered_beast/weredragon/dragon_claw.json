@@ -13,7 +13,7 @@
 							"entity": "this",
 							"name": {
 								"translate": "ssbrc.tooltips.altered_beast.weredragon.dragon_claw",
-								"color": "white",
+								"color": "dark_green",
 								"bold": true,
 								"italic": false
 							}
@@ -43,7 +43,7 @@
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{dragon_claw:1}"
+							"tag": "{dragon_claw:1,CustomModelData:1828}"
 						}
 					]
 				}

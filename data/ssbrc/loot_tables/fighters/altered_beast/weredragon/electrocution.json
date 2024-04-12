@@ -67,7 +67,7 @@
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{electrocution:1,CustomModelData:1821}"
+							"tag": "{electrocution:1,CustomModelData:1829}"
 						}
 					]
 				}

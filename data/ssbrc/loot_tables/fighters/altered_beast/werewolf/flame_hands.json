@@ -87,7 +87,7 @@
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{flame_hands:1,CustomModelData:1822}"
+							"tag": "{flame_hands:1,CustomModelData:1837}"
 						}
 					]
 				}
