@@ -46,7 +46,7 @@
 		"entity": "this",
 		"lore": [
 			{
-				"translate": "ssbrc.tooltips.altered_beast.waredragon.wings",
+				"translate": "ssbrc.tooltips.altered_beast.weredragon.wings",
 				"color": "yellow",
 				"bold": false,
 				"italic": false,
@@ -65,7 +65,7 @@
 						"italic": false
 					},
 					{
-						"translate": "ssbrc.tooltips.altered_beast.waredragon.wings.description.1",
+						"translate": "ssbrc.tooltips.altered_beast.weredragon.wings.description.1",
 						"color": "gray",
 						"bold": false,
 						"italic": false
@@ -79,7 +79,7 @@
 				"condition": "minecraft:entity_properties",
 				"entity": "this",
 				"predicate": {
-					"nbt": "{Tags:[\"altered_beast\",\"waredragon\"]}"
+					"nbt": "{Tags:[\"altered_beast\",\"weredragon\"]}"
 				}
 			}
 		]
@@ -89,7 +89,7 @@
 		"entity": "this",
 		"lore": [
 			{
-				"translate": "ssbrc.tooltips.altered_beast.waretiger.pouncing_leap",
+				"translate": "ssbrc.tooltips.altered_beast.weretiger.pouncing_leap",
 				"color": "yellow",
 				"bold": false,
 				"italic": false,
@@ -108,7 +108,7 @@
 						"italic": false
 					},
 					{
-						"translate": "ssbrc.tooltips.altered_beast.waretiger.pouncing_leap.description.1",
+						"translate": "ssbrc.tooltips.altered_beast.weretiger.pouncing_leap.description.1",
 						"color": "gray",
 						"bold": false,
 						"italic": false
@@ -122,7 +122,7 @@
 				"condition": "minecraft:entity_properties",
 				"entity": "this",
 				"predicate": {
-					"nbt": "{Tags:[\"altered_beast\",\"waretiger\"]}"
+					"nbt": "{Tags:[\"altered_beast\",\"weretiger\"]}"
 				}
 			}
 		]
@@ -132,7 +132,7 @@
 		"entity": "this",
 		"lore": [
 			{
-				"translate": "ssbrc.tooltips.altered_beast.warewolf.flame_arrow",
+				"translate": "ssbrc.tooltips.altered_beast.werewolf.flame_arrow",
 				"color": "yellow",
 				"bold": false,
 				"italic": false,
@@ -151,7 +151,7 @@
 						"italic": false
 					},
 					{
-						"translate": "ssbrc.tooltips.altered_beast.warewolf.flame_arrow.description.1",
+						"translate": "ssbrc.tooltips.altered_beast.werewolf.flame_arrow.description.1",
 						"color": "gray",
 						"bold": false,
 						"italic": false
@@ -165,7 +165,7 @@
 				"condition": "minecraft:entity_properties",
 				"entity": "this",
 				"predicate": {
-					"nbt": "{Tags:[\"altered_beast\",\"warewolf\"]}"
+					"nbt": "{Tags:[\"altered_beast\",\"werewolf\"]}"
 				}
 			}
 		]

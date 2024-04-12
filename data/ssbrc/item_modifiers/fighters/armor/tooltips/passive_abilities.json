@@ -75,14 +75,14 @@
 		"entity": "this",
 		"lore": [
 			{
-				"translate": "ssbrc.tooltips.altered_beast.warebear.intimidate",
+				"translate": "ssbrc.tooltips.altered_beast.werebear.intimidate",
 				"color": "yellow",
 				"bold": false,
 				"italic": false,
 				"underlined": true
 			},
 			{
-				"translate": "ssbrc.tooltips.altered_beast.warebear.intimidate.description.1",
+				"translate": "ssbrc.tooltips.altered_beast.werebear.intimidate.description.1",
 				"color": "gray",
 				"bold": false,
 				"italic": false
@@ -94,7 +94,7 @@
 				"condition": "minecraft:entity_properties",
 				"entity": "this",
 				"predicate": {
-					"nbt": "{Tags:[\"altered_beast\",\"warebear\"]}"
+					"nbt": "{Tags:[\"altered_beast\",\"werebear\"]}"
 				}
 			}
 		]
@@ -104,20 +104,20 @@
 		"entity": "this",
 		"lore": [
 			{
-				"translate": "ssbrc.tooltips.altered_beast.waredragon.inner_strength",
+				"translate": "ssbrc.tooltips.altered_beast.weredragon.inner_strength",
 				"color": "yellow",
 				"bold": false,
 				"italic": false,
 				"underlined": true
 			},
 			{
-				"translate": "ssbrc.tooltips.altered_beast.waredragon.inner_strength.description.1",
+				"translate": "ssbrc.tooltips.altered_beast.weredragon.inner_strength.description.1",
 				"color": "gray",
 				"bold": false,
 				"italic": false
 			},
 			{
-				"translate": "ssbrc.tooltips.altered_beast.waredragon.inner_strength.description.2",
+				"translate": "ssbrc.tooltips.altered_beast.weredragon.inner_strength.description.2",
 				"color": "gray",
 				"bold": false,
 				"italic": false
@@ -129,7 +129,7 @@
 				"condition": "minecraft:entity_properties",
 				"entity": "this",
 				"predicate": {
-					"nbt": "{Tags:[\"altered_beast\",\"waredragon\"]}"
+					"nbt": "{Tags:[\"altered_beast\",\"weredragon\"]}"
 				}
 			}
 		]
@@ -139,14 +139,14 @@
 		"entity": "this",
 		"lore": [
 			{
-				"translate": "ssbrc.tooltips.altered_beast.waretiger.champion_of_zeus",
+				"translate": "ssbrc.tooltips.altered_beast.weretiger.champion_of_zeus",
 				"color": "yellow",
 				"bold": false,
 				"italic": false,
 				"underlined": true
 			},
 			{
-				"translate": "ssbrc.tooltips.altered_beast.waretiger.champion_of_zeus.description.1",
+				"translate": "ssbrc.tooltips.altered_beast.weretiger.champion_of_zeus.description.1",
 				"color": "gray",
 				"bold": false,
 				"italic": false
@@ -158,7 +158,7 @@
 				"condition": "minecraft:entity_properties",
 				"entity": "this",
 				"predicate": {
-					"nbt": "{Tags:[\"altered_beast\",\"waretiger\"]}"
+					"nbt": "{Tags:[\"altered_beast\",\"weretiger\"]}"
 				}
 			}
 		]
@@ -168,14 +168,14 @@
 		"entity": "this",
 		"lore": [
 			{
-				"translate": "ssbrc.tooltips.altered_beast.warewolf.feral_instincts",
+				"translate": "ssbrc.tooltips.altered_beast.werewolf.feral_instincts",
 				"color": "yellow",
 				"bold": false,
 				"italic": false,
 				"underlined": true
 			},
 			{
-				"translate": "ssbrc.tooltips.altered_beast.warewolf.feral_instincts.description.1",
+				"translate": "ssbrc.tooltips.altered_beast.werewolf.feral_instincts.description.1",
 				"color": "gray",
 				"bold": false,
 				"italic": false
@@ -187,7 +187,7 @@
 				"condition": "minecraft:entity_properties",
 				"entity": "this",
 				"predicate": {
-					"nbt": "{Tags:[\"altered_beast\",\"warewolf\"]}"
+					"nbt": "{Tags:[\"altered_beast\",\"werewolf\"]}"
 				}
 			}
 		]

@@ -12,11 +12,15 @@
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"translate": "ssbrc.tooltips.altered_beast.waretiger.tiger_claw",
+								"translate": "ssbrc.tooltips.altered_beast.weredragon.dragon_claw",
 								"color": "white",
 								"bold": true,
 								"italic": false
 							}
+						},
+						{
+							"function": "minecraft:reference",
+							"name": "ssbrc:fighters/init/preset/melee"
 						},
 						{
 							"function": "minecraft:set_attributes",
@@ -24,26 +28,22 @@
 								{
 									"attribute": "minecraft:generic.attack_damage",
 									"name": "Attack Damage",
-									"amount": 7,
+									"amount": 6,
 									"operation": "multiply_base",
 									"slot": "mainhand"
 								},
 								{
 									"attribute": "minecraft:generic.attack_speed",
 									"name": "Attack Speed",
-									"amount": 0.5,
+									"amount": 1,
 									"operation": "multiply_base",
 									"slot": "mainhand"
 								}
 							]
 						},
 						{
-							"function": "minecraft:reference",
-							"name": "ssbrc:fighters/init/preset/melee"
-						},
-						{
 							"function": "minecraft:set_nbt",
-							"tag": "{feral_claw:1}"
+							"tag": "{dragon_claw:1}"
 						}
 					]
 				}

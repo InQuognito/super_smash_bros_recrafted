@@ -5,28 +5,28 @@
 			"condition": "minecraft:entity_properties",
 			"entity": "this",
 			"predicate": {
-				"nbt": "{Tags:[\"warebear\"]}"
+				"nbt": "{Tags:[\"werebear\"]}"
 			}
 		},
 		{
 			"condition": "minecraft:entity_properties",
 			"entity": "this",
 			"predicate": {
-				"nbt": "{Tags:[\"waredragon\"]}"
+				"nbt": "{Tags:[\"weredragon\"]}"
 			}
 		},
 		{
 			"condition": "minecraft:entity_properties",
 			"entity": "this",
 			"predicate": {
-				"nbt": "{Tags:[\"waretiger\"]}"
+				"nbt": "{Tags:[\"weretiger\"]}"
 			}
 		},
 		{
 			"condition": "minecraft:entity_properties",
 			"entity": "this",
 			"predicate": {
-				"nbt": "{Tags:[\"warewolf\"]}"
+				"nbt": "{Tags:[\"werewolf\"]}"
 			}
 		}
 	]

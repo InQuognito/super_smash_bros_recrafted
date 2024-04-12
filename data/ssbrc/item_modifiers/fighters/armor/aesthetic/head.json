@@ -2284,7 +2284,7 @@
 				"condition": "minecraft:entity_properties",
 				"entity": "this",
 				"predicate": {
-					"nbt": "{Tags:[\"altered_beast\",\"default\",\"warebear\"]}"
+					"nbt": "{Tags:[\"altered_beast\",\"default\",\"werebear\"]}"
 				}
 			}
 		]
@@ -2297,7 +2297,7 @@
 				"condition": "minecraft:entity_properties",
 				"entity": "this",
 				"predicate": {
-					"nbt": "{Tags:[\"altered_beast\",\"default\",\"waredragon\"]}"
+					"nbt": "{Tags:[\"altered_beast\",\"default\",\"weredragon\"]}"
 				}
 			}
 		]
@@ -2310,7 +2310,7 @@
 				"condition": "minecraft:entity_properties",
 				"entity": "this",
 				"predicate": {
-					"nbt": "{Tags:[\"altered_beast\",\"default\",\"waretiger\"]}"
+					"nbt": "{Tags:[\"altered_beast\",\"default\",\"weretiger\"]}"
 				}
 			}
 		]
@@ -2323,7 +2323,7 @@
 				"condition": "minecraft:entity_properties",
 				"entity": "this",
 				"predicate": {
-					"nbt": "{Tags:[\"altered_beast\",\"default\",\"warewolf\"]}"
+					"nbt": "{Tags:[\"altered_beast\",\"default\",\"werewolf\"]}"
 				}
 			}
 		]
@@ -2349,7 +2349,7 @@
 				"condition": "minecraft:entity_properties",
 				"entity": "this",
 				"predicate": {
-					"nbt": "{Tags:[\"altered_beast\",\"gold\",\"warebear\"]}"
+					"nbt": "{Tags:[\"altered_beast\",\"gold\",\"werebear\"]}"
 				}
 			}
 		]
@@ -2362,7 +2362,7 @@
 				"condition": "minecraft:entity_properties",
 				"entity": "this",
 				"predicate": {
-					"nbt": "{Tags:[\"altered_beast\",\"gold\",\"waredragon\"]}"
+					"nbt": "{Tags:[\"altered_beast\",\"gold\",\"weredragon\"]}"
 				}
 			}
 		]
@@ -2375,7 +2375,7 @@
 				"condition": "minecraft:entity_properties",
 				"entity": "this",
 				"predicate": {
-					"nbt": "{Tags:[\"altered_beast\",\"gold\",\"waretiger\"]}"
+					"nbt": "{Tags:[\"altered_beast\",\"gold\",\"weretiger\"]}"
 				}
 			}
 		]
@@ -2388,7 +2388,7 @@
 				"condition": "minecraft:entity_properties",
 				"entity": "this",
 				"predicate": {
-					"nbt": "{Tags:[\"altered_beast\",\"gold\",\"warewolf\"]}"
+					"nbt": "{Tags:[\"altered_beast\",\"gold\",\"werewolf\"]}"
 				}
 			}
 		]

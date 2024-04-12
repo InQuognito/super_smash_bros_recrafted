@@ -1,7 +1,7 @@
 tag @s remove centurion
-tag @s remove warebear
-tag @s remove waredragon
-tag @s remove waretiger
-tag @s remove warewolf
+tag @s remove werebear
+tag @s remove weredragon
+tag @s remove weretiger
+tag @s remove werewolf
 
 tag @s remove feral_instincts

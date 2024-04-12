@@ -12,7 +12,7 @@
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"translate": "ssbrc.tooltips.altered_beast.warebear.bear_claw",
+								"translate": "ssbrc.tooltips.altered_beast.werebear.bear_claw",
 								"color": "gold",
 								"bold": true,
 								"italic": false

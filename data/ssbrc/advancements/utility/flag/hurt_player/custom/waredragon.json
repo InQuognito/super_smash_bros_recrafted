@@ -21,7 +21,7 @@
 						"condition": "minecraft:entity_properties",
 						"entity": "this",
 						"predicate": {
-							"nbt": "{Tags:[\"altered_beast\",\"waredragon\"]}"
+							"nbt": "{Tags:[\"altered_beast\",\"weredragon\"]}"
 						}
 					}
 				],
@@ -41,6 +41,6 @@
 		}
 	},
 	"rewards": {
-		"function": "ssbrc:fighters/altered_beast/logic/waredragon/hurt_player"
+		"function": "ssbrc:fighters/altered_beast/logic/weredragon/hurt_player"
 	}
 }

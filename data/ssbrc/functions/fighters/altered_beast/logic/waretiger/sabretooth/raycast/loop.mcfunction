@@ -6,4 +6,4 @@ scoreboard players add out math 1500
 scoreboard players operation out math /= 200 integers
 
 scoreboard players operation $lengthInner temp = out math
-execute facing ^ ^1 ^ run function ssbrc:fighters/altered_beast/logic/waretiger/sabretooth/raycast/loop_inner
+execute facing ^ ^1 ^ run function ssbrc:fighters/altered_beast/logic/weretiger/sabretooth/raycast/loop_inner

@@ -1,0 +1,101 @@
+{
+	"type": "minecraft:command",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:carrot_on_a_stick",
+					"functions": [
+						{
+							"function": "minecraft:set_name",
+							"entity": "this",
+							"name": {
+								"translate": "ssbrc.tooltips.altered_beast.spirit_orb",
+								"color": "red",
+								"bold": true,
+								"italic": false
+							}
+						},
+						{
+							"function": "minecraft:reference",
+							"name": "ssbrc:fighters/init/tooltip/separator"
+						},
+						{
+							"function": "minecraft:reference",
+							"name": "ssbrc:fighters/init/animation/instant"
+						},
+						{
+							"function": "minecraft:set_lore",
+							"entity": "this",
+							"lore": [
+								{
+									"translate": "ssbrc.tooltips.altered_beast.spirit_orb.description.1",
+									"color": "gray",
+									"bold": false,
+									"italic": false
+								}
+							],
+							"replace": false
+						},
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{CustomModelData:1821}",
+							"conditions": [
+								{
+									"condition": "minecraft:reference",
+									"name": "ssbrc:fighters/altered_beast/is_beast"
+								}
+							]
+						},
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{CustomModelData:1824}",
+							"conditions": [
+								{
+									"condition": "minecraft:reference",
+									"name": "ssbrc:fighters/altered_beast/werebear"
+								}
+							]
+						},
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{CustomModelData:1828}",
+							"conditions": [
+								{
+									"condition": "minecraft:reference",
+									"name": "ssbrc:fighters/altered_beast/weredragon"
+								}
+							]
+						},
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{CustomModelData:1832}",
+							"conditions": [
+								{
+									"condition": "minecraft:reference",
+									"name": "ssbrc:fighters/altered_beast/weretiger"
+								}
+							]
+						},
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{CustomModelData:1836}",
+							"conditions": [
+								{
+									"condition": "minecraft:reference",
+									"name": "ssbrc:fighters/altered_beast/werewolf"
+								}
+							]
+						},
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{spirit_orb:1}"
+						}
+					]
+				}
+			]
+		}
+	]
+}

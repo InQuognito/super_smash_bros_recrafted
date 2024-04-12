@@ -12,7 +12,7 @@
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"translate": "ssbrc.tooltips.altered_beast.warebear.petrifying_breath",
+								"translate": "ssbrc.tooltips.altered_beast.weredragon.electrocution",
 								"color": "yellow",
 								"bold": true,
 								"italic": false
@@ -31,7 +31,7 @@
 							"entity": "this",
 							"lore": [
 								{
-									"translate": "- [",
+									"text": "- [",
 									"color": "gray",
 									"bold": false,
 									"italic": false,
@@ -43,19 +43,31 @@
 											"italic": false
 										},
 										{
-											"translate": "ssbrc.tooltips.altered_beast.warebear.petrifying_breath.description.1",
+											"translate": "ssbrc.tooltips.altered_beast.weredragon.electrocution.description.1",
 											"color": "gray",
 											"bold": false,
 											"italic": false
 										}
 									]
+								},
+								{
+									"translate": "ssbrc.tooltips.altered_beast.weredragon.electrocution.description.2",
+									"color": "gray",
+									"bold": false,
+									"italic": false
+								},
+								{
+									"translate": "ssbrc.tooltips.altered_beast.weredragon.electrocution.description.3",
+									"color": "gray",
+									"bold": false,
+									"italic": false
 								}
 							],
 							"replace": false
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{petrifying_breath:1,CustomModelData:1821}"
+							"tag": "{electrocution:1,CustomModelData:1821}"
 						}
 					]
 				}

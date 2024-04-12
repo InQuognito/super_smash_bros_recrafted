@@ -1,4 +1,4 @@
-execute if entity @s[predicate=ssbrc:fighters/altered_beast/warebear] run function ssbrc:fighters/altered_beast/kits/warebear
-execute if entity @s[predicate=ssbrc:fighters/altered_beast/waredragon] run function ssbrc:fighters/altered_beast/kits/waredragon
-execute if entity @s[predicate=ssbrc:fighters/altered_beast/waretiger] run function ssbrc:fighters/altered_beast/kits/waretiger
-execute if entity @s[predicate=ssbrc:fighters/altered_beast/warewolf] run function ssbrc:fighters/altered_beast/kits/warewolf
+execute if entity @s[predicate=ssbrc:fighters/altered_beast/werebear] run function ssbrc:fighters/altered_beast/kits/werebear
+execute if entity @s[predicate=ssbrc:fighters/altered_beast/weredragon] run function ssbrc:fighters/altered_beast/kits/weredragon
+execute if entity @s[predicate=ssbrc:fighters/altered_beast/weretiger] run function ssbrc:fighters/altered_beast/kits/weretiger
+execute if entity @s[predicate=ssbrc:fighters/altered_beast/werewolf] run function ssbrc:fighters/altered_beast/kits/werewolf

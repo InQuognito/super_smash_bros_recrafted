@@ -12,7 +12,7 @@
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"translate": "ssbrc.tooltips.altered_beast.warebear.petrifying_breath",
+								"translate": "ssbrc.tooltips.altered_beast.werebear.petrifying_breath",
 								"color": "yellow",
 								"bold": true,
 								"italic": false
@@ -43,7 +43,7 @@
 											"italic": false
 										},
 										{
-											"translate": "ssbrc.tooltips.altered_beast.warebear.petrifying_breath.description.1",
+											"translate": "ssbrc.tooltips.altered_beast.werebear.petrifying_breath.description.1",
 											"color": "gray",
 											"bold": false,
 											"italic": false

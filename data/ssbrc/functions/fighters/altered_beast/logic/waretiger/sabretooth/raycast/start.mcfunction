@@ -1,4 +1,4 @@
-execute anchored eyes positioned ^ ^ ^ anchored feet run function ssbrc:fighters/altered_beast/logic/waretiger/sabretooth/raycast/loop
+execute anchored eyes positioned ^ ^ ^ anchored feet run function ssbrc:fighters/altered_beast/logic/weretiger/sabretooth/raycast/loop
 
 teleport @s ^ ^ ^0.5
 
