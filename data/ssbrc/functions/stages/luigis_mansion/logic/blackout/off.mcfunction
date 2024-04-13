@@ -1,4 +1,4 @@
-scoreboard players reset $blackout temp
+scoreboard players reset blackout temp
 
 effect give @a[predicate=ssbrc:flag/targets,tag=!snake] minecraft:glowing infinite 255 true
 execute as @e[nbt={Item:{tag:{Tags:[steve.item]}}}] run data merge entity @s {Glowing:1}

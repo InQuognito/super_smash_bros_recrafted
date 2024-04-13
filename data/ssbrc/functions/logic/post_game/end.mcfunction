@@ -6,7 +6,7 @@ scoreboard objectives setdisplay sidebar
 
 schedule clear ssbrc:logic/timer
 
-tag @a remove cannotHost
+tag @a remove cannot_host
 
 execute if score teams options matches 0 run function ssbrc:logic/post_game/winner/set
 
@@ -15,3 +15,5 @@ execute if score teams options matches 1 as @a[predicate=ssbrc:team_match] run f
 
 weather clear
 scoreboard players set game_stage temp 5
+
+execute if score luigis_mansion stage matches 1 if score blackout temp matches 1 run function ssbrc:stages/luigis_mansion/logic/blackout/off

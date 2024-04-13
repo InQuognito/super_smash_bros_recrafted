@@ -14,7 +14,7 @@ item replace entity @s armor.feet with minecraft:air
 
 execute if score sector_z stage matches 1 run effect give @s minecraft:slow_falling infinite 255 true
 
-execute unless score $blackout temp matches 1 run data merge entity @s {Glowing:1b}
+execute unless score blackout temp matches 1 run data merge entity @s {Glowing:1b}
 
 data merge entity @s {Health:12,HandDropChances:[0f,0f],ArmorDropChances:[0f,0f,0f,0f]}
 
