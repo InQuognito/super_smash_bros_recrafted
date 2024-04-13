@@ -1,0 +1,13 @@
+{
+	"values": [
+		"#ssbrc:foliage",
+		"#ssbrc:torches",
+		"#minecraft:all_signs",
+		"#minecraft:banners",
+		"#minecraft:buttons",
+		"#minecraft:candles",
+		"minecraft:air",
+		"minecraft:light",
+		"minecraft:structure_void"
+	]
+}
