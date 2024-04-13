@@ -43,7 +43,7 @@ execute unless score @s[advancements={ssbrc:fighters/ganondorf/skins/default=tru
 execute unless score @s[advancements={ssbrc:fighters/link/skins/default=true}] fighter_picked matches 1.. if score random.output temp matches 36 run function ssbrc:fighters/link/menu/skins/random
 execute unless score @s[advancements={ssbrc:fighters/zelda/skins/default=true}] fighter_picked matches 1.. if score random.output temp matches 37 run function ssbrc:fighters/zelda/menu/skins/random
 
-execute if score @s fighter_picked matches 1.. if score blind_pick options matches 1 run tellraw @s {"translate":"ssbrc.fighters.menu.selectRandom","color":"white"}
+execute if score @s fighter_picked matches 1.. if score blind_pick options matches 1 run tellraw @s {"translate":"ssbrc.fighters.menu.select_random","color":"white"}
 execute unless score @s fighter_picked matches 1.. run function ssbrc:fighters/random
 scoreboard players reset @s fighter_picked
 scoreboard players reset @s skin_picked

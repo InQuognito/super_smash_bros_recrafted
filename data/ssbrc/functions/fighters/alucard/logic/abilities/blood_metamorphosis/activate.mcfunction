@@ -1,4 +1,4 @@
-damage @s 4.0 ssbrc:projectile
+damage @s 4.0 ssbrc:generic
 
 tag @s add blood_metamorphosis
 
