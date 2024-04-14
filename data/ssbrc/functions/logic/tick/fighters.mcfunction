@@ -11,45 +11,9 @@ scoreboard players add @s[scores={charge.input=1..}] charge.output 1
 scoreboard players reset @s[scores={charge.input=2..}] charge.step
 scoreboard players remove @s[scores={charge.input=2..}] charge.input 1
 
-execute if entity @s[tag=bowser] run function ssbrc:fighters/bowser/logic/tick
-execute if entity @s[tag=byleth] run function ssbrc:fighters/byleth/logic/tick
-execute if entity @s[tag=captain_falcon] run function ssbrc:fighters/captain_falcon/logic/tick
-execute if entity @s[tag=cloud] run function ssbrc:fighters/cloud/logic/tick
-execute if entity @s[tag=dark_samus] run function ssbrc:fighters/dark_samus/logic/tick
-execute if entity @s[tag=donkey_kong] run function ssbrc:fighters/donkey_kong/logic/tick
-execute if entity @s[tag=fox] run function ssbrc:fighters/fox/logic/tick
-execute if entity @s[tag=ganondorf] run function ssbrc:fighters/ganondorf/logic/tick
-execute if entity @s[tag=greninja] run function ssbrc:fighters/greninja/logic/tick
-execute if entity @s[tag=hero] run function ssbrc:fighters/hero/logic/tick
-execute if entity @s[tag=jigglypuff] run function ssbrc:fighters/jigglypuff/logic/tick
-execute if entity @s[tag=joker] run function ssbrc:fighters/joker/logic/tick
-execute if entity @s[tag=king_k_rool] run function ssbrc:fighters/king_k_rool/logic/tick
-execute if entity @s[tag=kirby] run function ssbrc:fighters/kirby/logic/tick
-execute if entity @s[tag=link] run function ssbrc:fighters/link/logic/tick
-execute if entity @s[tag=luigi] run function ssbrc:fighters/luigi/logic/tick
-execute if entity @s[tag=mario] run function ssbrc:fighters/mario/logic/tick
-execute if entity @s[tag=mega_man] run function ssbrc:fighters/mega_man/logic/tick
-execute if entity @s[tag=ness] run function ssbrc:fighters/ness/logic/tick
-execute if entity @s[tag=pikachu] run function ssbrc:fighters/pikachu/logic/tick
-execute if entity @s[tag=pit] run function ssbrc:fighters/pit/logic/tick
-execute if entity @s[tag=pokemon_trainer] run function ssbrc:fighters/pokemon_trainer/logic/tick
-execute if entity @s[tag=rob] run function ssbrc:fighters/rob/logic/tick
-execute if entity @s[tag=ryu] run function ssbrc:fighters/ryu/logic/tick
-execute if entity @s[tag=samus] run function ssbrc:fighters/samus/logic/tick
-execute if entity @s[tag=snake] run function ssbrc:fighters/snake/logic/tick
-execute if entity @s[tag=sonic] run function ssbrc:fighters/sonic/logic/tick
-execute if entity @s[tag=sora] run function ssbrc:fighters/sora/logic/tick
-execute if entity @s[tag=steve] run function ssbrc:fighters/steve/logic/tick
-execute if entity @s[tag=wolf] run function ssbrc:fighters/wolf/logic/tick
-execute if entity @s[tag=zelda] run function ssbrc:fighters/zelda/logic/tick
+execute if entity @e[type=minecraft:marker,tag=electric_terrain,distance=..12] run scoreboard players set electric_terrain temp 1
 
-execute if entity @s[tag=altered_beast] run function ssbrc:fighters/altered_beast/logic/tick
-execute if entity @s[tag=alucard] run function ssbrc:fighters/alucard/logic/tick
-execute if entity @s[tag=giegue] run function ssbrc:fighters/giegue/logic/tick
-execute if entity @s[tag=shadow] run function ssbrc:fighters/shadow/logic/tick
-execute if entity @s[tag=shovel_knight] run function ssbrc:fighters/shovel_knight/logic/tick
-execute if entity @s[tag=team_rocket] run function ssbrc:fighters/team_rocket/logic/tick
-execute if entity @s[tag=yar] run function ssbrc:fighters/yar/logic/tick
+function ssbrc:logic/fighters/get {function:"ssbrc:logic/fighters/tick"}
 
 execute if entity @s[scores={use_ability=1..}] run function ssbrc:logic/inputs/abilities/impulse/default
 execute if entity @s[scores={charge.step=5..}] run function ssbrc:logic/inputs/abilities/charge/default
@@ -59,6 +23,8 @@ execute if entity @s[scores={flag.damage_taken=1..}] run function ssbrc:logic/fi
 
 execute if entity @s[scores={fall_distance=1..}] run function ssbrc:logic/fighters/shockwave/check
 execute if entity @s[scores={jumps=1..}] run function ssbrc:logic/fighters/jump
+
+scoreboard players reset electric_terrain temp
 
 # Items
 execute if entity @s[scores={use_item=1..},nbt={SelectedItem:{tag:{angel_feather:1}}}] run function ssbrc:stages/palutenas_temple/logic/angel_feather/activate

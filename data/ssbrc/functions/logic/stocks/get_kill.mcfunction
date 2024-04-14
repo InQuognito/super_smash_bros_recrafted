@@ -9,4 +9,4 @@ function ssbrc:logic/fighters/bonuses/rapid_kill
 
 function ssbrc:logic/stats/kills
 
-tag @s add checkKill
+tag @s add check_kill

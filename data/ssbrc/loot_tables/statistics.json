@@ -35,7 +35,7 @@
 										{
 											"score": {
 												"name": "@s",
-												"objective": "stats.winStreak.record"
+												"objective": "stats.win_streak.record"
 											},
 											"color": "yellow",
 											"bold": false,
@@ -52,7 +52,7 @@
 										{
 											"score": {
 												"name": "@s",
-												"objective": "stats.winStreak"
+												"objective": "stats.win_streak"
 											},
 											"color": "yellow",
 											"bold": false,
@@ -78,7 +78,7 @@
 									]
 								},
 								{
-									"translate": "ssbrc.statistics.gamesPlayed",
+									"translate": "ssbrc.statistics.games_played",
 									"color": "gold",
 									"bold": false,
 									"italic": false,
@@ -86,7 +86,7 @@
 										{
 											"score": {
 												"name": "@s",
-												"objective": "stats.gamesPlayed"
+												"objective": "stats.games_played"
 											},
 											"color": "yellow",
 											"bold": false,

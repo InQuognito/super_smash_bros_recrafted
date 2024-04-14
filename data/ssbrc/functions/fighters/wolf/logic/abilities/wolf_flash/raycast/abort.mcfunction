@@ -4,4 +4,4 @@ function ssbrc:fighters/wolf/logic/abilities/wolf_flash/deactivate
 
 scoreboard players reset ray_length temp
 
-scoreboard players set rayAbort temp 1
+scoreboard players set ray_abort temp 1

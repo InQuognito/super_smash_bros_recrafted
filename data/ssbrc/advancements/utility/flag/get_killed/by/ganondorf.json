@@ -29,6 +29,6 @@
 		}
 	},
 	"rewards": {
-		"function": "ssbrc:fighters/ganondorf/logic/stalfos/mark"
+		"function": "ssbrc:fighters/ganondorf/logic/stalfos/activate"
 	}
 }

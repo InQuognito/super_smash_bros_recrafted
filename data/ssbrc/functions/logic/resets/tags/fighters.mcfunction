@@ -43,8 +43,8 @@ function ssbrc:logic/fighters/pokemon/natures/reset
 tag @s remove ability_used
 tag @s remove air_stall
 tag @s remove fighter_picked
-tag @s remove checkDeath
-tag @s remove checkKill
+tag @s remove check_death
+tag @s remove check_kill
 tag @s remove checkShockwave
 tag @s remove critical
 tag @s remove has_shield

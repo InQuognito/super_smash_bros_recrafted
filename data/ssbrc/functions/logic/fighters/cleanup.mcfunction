@@ -9,9 +9,9 @@ scoreboard players set @s flag.sprinting 0
 tag @s remove cross_slash.target
 function ssbrc:fighters/pokemon_trainer/logic/ivysaur/leech_seed/reset
 
-scoreboard players reset @s burning
+scoreboard players set @s burning 0
 scoreboard players reset @s fiends_cauldron
-scoreboard players reset @s frostbite
+scoreboard players set @s frostbite 0
 scoreboard players reset @s frostbite.timer
 
 tag @s remove angel_feather

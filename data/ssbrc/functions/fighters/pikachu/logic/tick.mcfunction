@@ -5,4 +5,4 @@ execute if entity @s[scores={use_ability=1..},nbt={SelectedItem:{tag:{electric_t
 function ssbrc:fighters/pikachu/logic/abilities/thunder_jolt/cooldown
 
 # Electric Terrain
-execute if entity @e[type=minecraft:marker,tag=electric_terrain,distance=..12] run effect give @s minecraft:speed 1 1 true
+execute if score electric_terrain temp matches 1 run effect give @s minecraft:speed 1 1 true

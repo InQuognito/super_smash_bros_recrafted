@@ -28,6 +28,6 @@ scoreboard players reset @s rapid_kill.timer
 # Logic
 function ssbrc:logic/stats/deaths
 
-tag @s add checkDeath
+tag @s add check_death
 
 scoreboard players set @s flag.dead 0

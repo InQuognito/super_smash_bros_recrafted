@@ -12,13 +12,13 @@ execute if score chaos_energy temp >= shadow.chaos_spear.cost vars run function 
 # Chaos Blast
 execute if entity @s[scores={charge.2=1..}] positioned ~ ~0.75 ~ run function ssbrc:fighters/shadow/logic/chaos_blast/charge
 execute if entity @s[scores={charge.2=70}] run function ssbrc:fighters/shadow/logic/chaos_blast/unleash
-scoreboard players reset @s[scores={charge.2=101..}] charge.2
+scoreboard players set @s[scores={charge.2=101..}] charge.2 0
 
 # Acceleration
 scoreboard players set @s[scores={flag.sprinting=..-1}] flag.sprinting 0
 scoreboard players remove @s[scores={flag.sprinting=1..},predicate=ssbrc:flag/walking_or_in_air] flag.sprinting 3
 scoreboard players add @s[scores={shadow.chaos_control=..0,flag.sprinting=..59},predicate=ssbrc:flag/sprinting] flag.sprinting 1
-execute if entity @e[type=minecraft:marker,tag=electric_terrain,distance=..12] run scoreboard players set @s flag.sprinting 60
+execute if score electric_terrain temp matches 1 run scoreboard players set @s flag.sprinting 60
 
 function ssbrc:fighters/shadow/logic/speed/tick
 

@@ -1,6 +1,3 @@
-execute if entity @s[scores={charge.step=5..,cooldown.1=..0},nbt={SelectedItem:{tag:{failnaught:1}}}] run function ssbrc:fighters/byleth/logic/golden_deer/failnaught/check
-execute if entity @s[scores={charge.step=5..},nbt={SelectedItem:{tag:{brave_bow:1}}}] anchored eyes positioned ^ ^ ^ run function ssbrc:fighters/byleth/logic/golden_deer/brave_bow/activate
-
 # Failnaught
 execute if entity @s[scores={charge.output=1..},nbt={SelectedItem:{tag:{failnaught:1}}}] run function ssbrc:fighters/byleth/logic/golden_deer/failnaught/charge
 

@@ -6,4 +6,4 @@ execute if entity @s[scores={health=..4}] run scoreboard players set @s heavy_da
 
 execute if score @s kills matches 0 run scoreboard players set @s merciful_master 1
 
-scoreboard players set @s[scores={stats.winStreak=2..}] on_a_roll 1
+scoreboard players set @s[scores={stats.win_streak=2..}] on_a_roll 1

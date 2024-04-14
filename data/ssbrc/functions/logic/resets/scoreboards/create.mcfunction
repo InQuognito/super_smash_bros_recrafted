@@ -129,7 +129,6 @@ scoreboard objectives add timer.barrel_cannon dummy
 scoreboard objectives add timer.galaxian_flagship dummy
 scoreboard objectives add timer.pk_flash dummy
 scoreboard objectives add timer.shockwave dummy
-scoreboard objectives add timer.stalfos dummy
 scoreboard objectives add timer.stat.death dummy
 scoreboard objectives add timer.stat.kill dummy
 scoreboard objectives add timer.trident dummy

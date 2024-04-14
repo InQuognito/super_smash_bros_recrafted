@@ -1,3 +1,3 @@
 tag @s remove ganondorf
 
-tag @s remove stalfosGet
+tag @s remove stalfos_get

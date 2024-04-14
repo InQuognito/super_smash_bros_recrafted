@@ -2,7 +2,7 @@
 scoreboard players set @s[scores={flag.sprinting=..-1}] flag.sprinting 0
 scoreboard players remove @s[scores={flag.sprinting=1..},predicate=ssbrc:flag/walking_or_in_air] flag.sprinting 2
 scoreboard players add @s[scores={shadow.chaos_control=..0,flag.sprinting=..39},predicate=ssbrc:flag/sprinting] flag.sprinting 1
-execute if entity @e[type=minecraft:marker,tag=electric_terrain,distance=..12] run scoreboard players set @s flag.sprinting 40
+execute if score electric_terrain temp matches 1 run scoreboard players set @s flag.sprinting 40
 
 function ssbrc:fighters/sonic/logic/speed/tick
 

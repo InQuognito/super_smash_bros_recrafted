@@ -119,85 +119,85 @@ execute if entity @s[tag=winner,tag=yar] run scoreboard players add yar log.wins
 execute if entity @s[tag=winner,tag=zelda] run scoreboard players add zelda log.wins 1
 
 # Win Streak
-scoreboard players reset @s[tag=!winner] stats.winStreak
-scoreboard players add @s[tag=winner] stats.winStreak 1
+scoreboard players reset @s[tag=!winner] stats.win_streak
+scoreboard players add @s[tag=winner] stats.win_streak 1
 
-execute if entity @s[tag=winner] if score @s stats.winStreak > @s stats.winStreak.record run scoreboard players operation @s stats.winStreak.record = @s stats.winStreak
+execute if entity @s[tag=winner] if score @s stats.win_streak > @s stats.win_streak.record run scoreboard players operation @s stats.win_streak.record = @s stats.win_streak
 
-scoreboard players reset @s[tag=!winner,tag=altered_beast] stats.altered_beast.winStreak
-scoreboard players reset @s[tag=!winner,tag=alucard] stats.alucard.winStreak
-scoreboard players reset @s[tag=!winner,tag=bowser] stats.bowser.winStreak
-scoreboard players reset @s[tag=!winner,tag=byleth] stats.byleth.winStreak
-scoreboard players reset @s[tag=!winner,tag=captain_falcon] stats.captain_falcon.winStreak
-scoreboard players reset @s[tag=!winner,tag=cloud] stats.cloud.winStreak
-scoreboard players reset @s[tag=!winner,tag=dark_samus] stats.dark_samus.winStreak
-scoreboard players reset @s[tag=!winner,tag=donkey_kong] stats.donkey_kong.winStreak
-scoreboard players reset @s[tag=!winner,tag=fox] stats.fox.winStreak
-scoreboard players reset @s[tag=!winner,tag=ganondorf] stats.ganondorf.winStreak
-scoreboard players reset @s[tag=!winner,tag=giegue] stats.giegue.winStreak
-scoreboard players reset @s[tag=!winner,tag=greninja] stats.greninja.winStreak
-scoreboard players reset @s[tag=!winner,tag=hero] stats.hero.winStreak
-scoreboard players reset @s[tag=!winner,tag=jigglypuff] stats.jigglypuff.winStreak
-scoreboard players reset @s[tag=!winner,tag=joker] stats.joker.winStreak
-scoreboard players reset @s[tag=!winner,tag=king_k_rool] stats.king_k_rool.winStreak
-scoreboard players reset @s[tag=!winner,tag=kirby] stats.kirby.winStreak
-scoreboard players reset @s[tag=!winner,tag=link] stats.link.winStreak
-scoreboard players reset @s[tag=!winner,tag=luigi] stats.luigi.winStreak
-scoreboard players reset @s[tag=!winner,tag=mario] stats.mario.winStreak
-scoreboard players reset @s[tag=!winner,tag=mega_man] stats.mega_man.winStreak
-scoreboard players reset @s[tag=!winner,tag=ness] stats.ness.winStreak
-scoreboard players reset @s[tag=!winner,tag=pikachu] stats.pikachu.winStreak
-scoreboard players reset @s[tag=!winner,tag=pit] stats.pit.winStreak
-scoreboard players reset @s[tag=!winner,tag=pokemon_trainer] stats.pokemon_trainer.winStreak
-scoreboard players reset @s[tag=!winner,tag=rob] stats.rob.winStreak
-scoreboard players reset @s[tag=!winner,tag=ryu] stats.ryu.winStreak
-scoreboard players reset @s[tag=!winner,tag=samus] stats.samus.winStreak
-scoreboard players reset @s[tag=!winner] stats.shadow.winStreak
-scoreboard players reset @s[tag=!winner,tag=shovel_knight] stats.shovel_knight.winStreak
-scoreboard players reset @s[tag=!winner,tag=snake] stats.snake.winStreak
-scoreboard players reset @s[tag=!winner,tag=sonic] stats.sonic.winStreak
-scoreboard players reset @s[tag=!winner,tag=sora] stats.sora.winStreak
-scoreboard players reset @s[tag=!winner,tag=steve] stats.steve.winStreak
-scoreboard players reset @s[tag=!winner,tag=team_rocket] stats.team_rocket.winStreak
-scoreboard players reset @s[tag=!winner,tag=wolf] stats.wolf.winStreak
-scoreboard players reset @s[tag=!winner,tag=yar] stats.yar.winStreak
-scoreboard players reset @s[tag=!winner,tag=zelda] stats.zelda.winStreak
+scoreboard players reset @s[tag=!winner,tag=altered_beast] stats.altered_beast.win_streak
+scoreboard players reset @s[tag=!winner,tag=alucard] stats.alucard.win_streak
+scoreboard players reset @s[tag=!winner,tag=bowser] stats.bowser.win_streak
+scoreboard players reset @s[tag=!winner,tag=byleth] stats.byleth.win_streak
+scoreboard players reset @s[tag=!winner,tag=captain_falcon] stats.captain_falcon.win_streak
+scoreboard players reset @s[tag=!winner,tag=cloud] stats.cloud.win_streak
+scoreboard players reset @s[tag=!winner,tag=dark_samus] stats.dark_samus.win_streak
+scoreboard players reset @s[tag=!winner,tag=donkey_kong] stats.donkey_kong.win_streak
+scoreboard players reset @s[tag=!winner,tag=fox] stats.fox.win_streak
+scoreboard players reset @s[tag=!winner,tag=ganondorf] stats.ganondorf.win_streak
+scoreboard players reset @s[tag=!winner,tag=giegue] stats.giegue.win_streak
+scoreboard players reset @s[tag=!winner,tag=greninja] stats.greninja.win_streak
+scoreboard players reset @s[tag=!winner,tag=hero] stats.hero.win_streak
+scoreboard players reset @s[tag=!winner,tag=jigglypuff] stats.jigglypuff.win_streak
+scoreboard players reset @s[tag=!winner,tag=joker] stats.joker.win_streak
+scoreboard players reset @s[tag=!winner,tag=king_k_rool] stats.king_k_rool.win_streak
+scoreboard players reset @s[tag=!winner,tag=kirby] stats.kirby.win_streak
+scoreboard players reset @s[tag=!winner,tag=link] stats.link.win_streak
+scoreboard players reset @s[tag=!winner,tag=luigi] stats.luigi.win_streak
+scoreboard players reset @s[tag=!winner,tag=mario] stats.mario.win_streak
+scoreboard players reset @s[tag=!winner,tag=mega_man] stats.mega_man.win_streak
+scoreboard players reset @s[tag=!winner,tag=ness] stats.ness.win_streak
+scoreboard players reset @s[tag=!winner,tag=pikachu] stats.pikachu.win_streak
+scoreboard players reset @s[tag=!winner,tag=pit] stats.pit.win_streak
+scoreboard players reset @s[tag=!winner,tag=pokemon_trainer] stats.pokemon_trainer.win_streak
+scoreboard players reset @s[tag=!winner,tag=rob] stats.rob.win_streak
+scoreboard players reset @s[tag=!winner,tag=ryu] stats.ryu.win_streak
+scoreboard players reset @s[tag=!winner,tag=samus] stats.samus.win_streak
+scoreboard players reset @s[tag=!winner] stats.shadow.win_streak
+scoreboard players reset @s[tag=!winner,tag=shovel_knight] stats.shovel_knight.win_streak
+scoreboard players reset @s[tag=!winner,tag=snake] stats.snake.win_streak
+scoreboard players reset @s[tag=!winner,tag=sonic] stats.sonic.win_streak
+scoreboard players reset @s[tag=!winner,tag=sora] stats.sora.win_streak
+scoreboard players reset @s[tag=!winner,tag=steve] stats.steve.win_streak
+scoreboard players reset @s[tag=!winner,tag=team_rocket] stats.team_rocket.win_streak
+scoreboard players reset @s[tag=!winner,tag=wolf] stats.wolf.win_streak
+scoreboard players reset @s[tag=!winner,tag=yar] stats.yar.win_streak
+scoreboard players reset @s[tag=!winner,tag=zelda] stats.zelda.win_streak
 
-scoreboard players add @s[tag=winner,tag=altered_beast] stats.altered_beast.winStreak 1
-scoreboard players add @s[tag=winner,tag=alucard] stats.alucard.winStreak 1
-scoreboard players add @s[tag=winner,tag=bowser] stats.bowser.winStreak 1
-scoreboard players add @s[tag=winner,tag=byleth] stats.byleth.winStreak 1
-scoreboard players add @s[tag=winner,tag=captain_falcon] stats.captain_falcon.winStreak 1
-scoreboard players add @s[tag=winner,tag=cloud] stats.cloud.winStreak 1
-scoreboard players add @s[tag=winner,tag=dark_samus] stats.dark_samus.winStreak 1
-scoreboard players add @s[tag=winner,tag=donkey_kong] stats.donkey_kong.winStreak 1
-scoreboard players add @s[tag=winner,tag=fox] stats.fox.winStreak 1
-scoreboard players add @s[tag=winner,tag=ganondorf] stats.ganondorf.winStreak 1
-scoreboard players add @s[tag=winner,tag=giegue] stats.giegue.winStreak 1
-scoreboard players add @s[tag=winner,tag=greninja] stats.greninja.winStreak 1
-scoreboard players add @s[tag=winner,tag=hero] stats.hero.winStreak 1
-scoreboard players add @s[tag=winner,tag=jigglypuff] stats.jigglypuff.winStreak 1
-scoreboard players add @s[tag=winner,tag=joker] stats.joker.winStreak 1
-scoreboard players add @s[tag=winner,tag=king_k_rool] stats.king_k_rool.winStreak 1
-scoreboard players add @s[tag=winner,tag=kirby] stats.kirby.winStreak 1
-scoreboard players add @s[tag=winner,tag=link] stats.link.winStreak 1
-scoreboard players add @s[tag=winner,tag=luigi] stats.luigi.winStreak 1
-scoreboard players add @s[tag=winner,tag=mario] stats.mario.winStreak 1
-scoreboard players add @s[tag=winner,tag=mega_man] stats.mega_man.winStreak 1
-scoreboard players add @s[tag=winner,tag=ness] stats.ness.winStreak 1
-scoreboard players add @s[tag=winner,tag=pikachu] stats.pikachu.winStreak 1
-scoreboard players add @s[tag=winner,tag=pit] stats.pit.winStreak 1
-scoreboard players add @s[tag=winner,tag=pokemon_trainer] stats.pokemon_trainer.winStreak 1
-scoreboard players add @s[tag=winner,tag=rob] stats.rob.winStreak 1
-scoreboard players add @s[tag=winner,tag=ryu] stats.ryu.winStreak 1
-scoreboard players add @s[tag=winner,tag=samus] stats.samus.winStreak 1
-scoreboard players add @s[tag=winner,tag=shadow] stats.shadow.winStreak 1
-scoreboard players add @s[tag=winner,tag=shovel_knight] stats.shovel_knight.winStreak 1
-scoreboard players add @s[tag=winner,tag=snake] stats.snake.winStreak 1
-scoreboard players add @s[tag=winner,tag=sonic] stats.sonic.winStreak 1
-scoreboard players add @s[tag=winner,tag=sora] stats.sora.winStreak 1
-scoreboard players add @s[tag=winner,tag=steve] stats.steve.winStreak 1
-scoreboard players add @s[tag=winner,tag=team_rocket] stats.team_rocket.winStreak 1
-scoreboard players add @s[tag=winner,tag=wolf] stats.wolf.winStreak 1
-scoreboard players add @s[tag=winner,tag=yar] stats.yar.winStreak 1
-scoreboard players add @s[tag=winner,tag=zelda] stats.zelda.winStreak 1
+scoreboard players add @s[tag=winner,tag=altered_beast] stats.altered_beast.win_streak 1
+scoreboard players add @s[tag=winner,tag=alucard] stats.alucard.win_streak 1
+scoreboard players add @s[tag=winner,tag=bowser] stats.bowser.win_streak 1
+scoreboard players add @s[tag=winner,tag=byleth] stats.byleth.win_streak 1
+scoreboard players add @s[tag=winner,tag=captain_falcon] stats.captain_falcon.win_streak 1
+scoreboard players add @s[tag=winner,tag=cloud] stats.cloud.win_streak 1
+scoreboard players add @s[tag=winner,tag=dark_samus] stats.dark_samus.win_streak 1
+scoreboard players add @s[tag=winner,tag=donkey_kong] stats.donkey_kong.win_streak 1
+scoreboard players add @s[tag=winner,tag=fox] stats.fox.win_streak 1
+scoreboard players add @s[tag=winner,tag=ganondorf] stats.ganondorf.win_streak 1
+scoreboard players add @s[tag=winner,tag=giegue] stats.giegue.win_streak 1
+scoreboard players add @s[tag=winner,tag=greninja] stats.greninja.win_streak 1
+scoreboard players add @s[tag=winner,tag=hero] stats.hero.win_streak 1
+scoreboard players add @s[tag=winner,tag=jigglypuff] stats.jigglypuff.win_streak 1
+scoreboard players add @s[tag=winner,tag=joker] stats.joker.win_streak 1
+scoreboard players add @s[tag=winner,tag=king_k_rool] stats.king_k_rool.win_streak 1
+scoreboard players add @s[tag=winner,tag=kirby] stats.kirby.win_streak 1
+scoreboard players add @s[tag=winner,tag=link] stats.link.win_streak 1
+scoreboard players add @s[tag=winner,tag=luigi] stats.luigi.win_streak 1
+scoreboard players add @s[tag=winner,tag=mario] stats.mario.win_streak 1
+scoreboard players add @s[tag=winner,tag=mega_man] stats.mega_man.win_streak 1
+scoreboard players add @s[tag=winner,tag=ness] stats.ness.win_streak 1
+scoreboard players add @s[tag=winner,tag=pikachu] stats.pikachu.win_streak 1
+scoreboard players add @s[tag=winner,tag=pit] stats.pit.win_streak 1
+scoreboard players add @s[tag=winner,tag=pokemon_trainer] stats.pokemon_trainer.win_streak 1
+scoreboard players add @s[tag=winner,tag=rob] stats.rob.win_streak 1
+scoreboard players add @s[tag=winner,tag=ryu] stats.ryu.win_streak 1
+scoreboard players add @s[tag=winner,tag=samus] stats.samus.win_streak 1
+scoreboard players add @s[tag=winner,tag=shadow] stats.shadow.win_streak 1
+scoreboard players add @s[tag=winner,tag=shovel_knight] stats.shovel_knight.win_streak 1
+scoreboard players add @s[tag=winner,tag=snake] stats.snake.win_streak 1
+scoreboard players add @s[tag=winner,tag=sonic] stats.sonic.win_streak 1
+scoreboard players add @s[tag=winner,tag=sora] stats.sora.win_streak 1
+scoreboard players add @s[tag=winner,tag=steve] stats.steve.win_streak 1
+scoreboard players add @s[tag=winner,tag=team_rocket] stats.team_rocket.win_streak 1
+scoreboard players add @s[tag=winner,tag=wolf] stats.wolf.win_streak 1
+scoreboard players add @s[tag=winner,tag=yar] stats.yar.win_streak 1
+scoreboard players add @s[tag=winner,tag=zelda] stats.zelda.win_streak 1

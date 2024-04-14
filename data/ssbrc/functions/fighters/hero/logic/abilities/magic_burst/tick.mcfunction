@@ -8,4 +8,4 @@ execute if entity @s[scores={charge.1=40..70}] run particle minecraft:dust 1.0 0
 
 execute if entity @s[scores={charge.1=40}] run function ssbrc:fighters/hero/logic/abilities/magic_burst/deactivate
 
-scoreboard players reset @s[scores={charge.1=71..}] charge.1
+scoreboard players set @s[scores={charge.1=71..}] charge.1 0

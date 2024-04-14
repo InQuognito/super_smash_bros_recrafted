@@ -32,10 +32,10 @@ stopsound @s
 
 execute unless score @s stats.deaths matches -2147483648..2147483647 run scoreboard players set @s stats.deaths 0
 execute unless score @s stats.kills matches -2147483648..2147483647 run scoreboard players set @s stats.kills 0
-execute unless score @s stats.gamesPlayed matches -2147483648..2147483647 run scoreboard players set @s stats.gamesPlayed 0
+execute unless score @s stats.games_played matches -2147483648..2147483647 run scoreboard players set @s stats.games_played 0
 execute unless score @s stats.wins matches -2147483648..2147483647 run scoreboard players set @s stats.wins 0
-execute unless score @s stats.winStreak matches -2147483648..2147483647 run scoreboard players set @s stats.winStreak 0
-execute unless score @s stats.winStreak.record matches -2147483648..2147483647 run scoreboard players set @s stats.winStreak.record 0
+execute unless score @s stats.win_streak matches -2147483648..2147483647 run scoreboard players set @s stats.win_streak 0
+execute unless score @s stats.win_streak.record matches -2147483648..2147483647 run scoreboard players set @s stats.win_streak.record 0
 execute unless score @s stats.credits matches -2147483648..2147483647 run scoreboard players set @s stats.credits 0
 # function ssbrc:logic/resets/scoreboards/set_empty_stats
 # function ssbrc:logic/resets/calculate_stats
@@ -50,6 +50,6 @@ execute unless score @s hardReset matches -2147483648..2147483647 run scoreboard
 
 tag @s add loaded
 
-advancement grant @s[scores={stats.gamesPlayed=1..},advancements={ssbrc:tutorial/stage_select/1=true}] only ssbrc:tutorial/outro/1
+advancement grant @s[scores={stats.games_played=1..},advancements={ssbrc:tutorial/stage_select/1=true}] only ssbrc:tutorial/outro/1
 
 scoreboard players enable @s debug

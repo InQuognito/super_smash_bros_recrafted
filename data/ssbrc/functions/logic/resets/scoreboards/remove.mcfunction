@@ -102,7 +102,6 @@ scoreboard objectives remove timer.barrel_cannon
 scoreboard objectives remove timer.galaxian_flagship
 scoreboard objectives remove timer.pk_flash
 scoreboard objectives remove timer.shockwave
-scoreboard objectives remove timer.stalfos
 scoreboard objectives remove timer.stat.death
 scoreboard objectives remove timer.stat.kill
 scoreboard objectives remove timer.trident

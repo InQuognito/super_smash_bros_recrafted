@@ -1,3 +1,5 @@
+function ssbrc:logic/init/fighters
+
 function ssbrc:logic/resets/scoreboards/stats
 function ssbrc:logic/resets/scoreboards/remove
 function ssbrc:logic/resets/scoreboards/create
