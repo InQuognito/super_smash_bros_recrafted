@@ -1,7 +1,7 @@
 function ssbrc:logic/resets/tags/fighters
 
 execute unless entity @s[tag=picking_random] run function ssbrc:logic/resets/tags/skins
-execute unless entity @s[tag=picking_random] run tag @s add default
+tag @s[tag=!picking_random] add default
 
 tag @s add fighter_picked
 
