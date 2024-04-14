@@ -73,6 +73,12 @@ summon minecraft:item_display -736.99 33.5 822.0 {Rotation:[-90f,0f],item:{id:"m
 # Power Bands
 execute positioned -682.5 23.5 865.5 summon minecraft:item_display run function ssbrc:stages/bowsers_castle/logic/power_band
 execute positioned -682.5 17.5 865.5 summon minecraft:item_display run function ssbrc:stages/bowsers_castle/logic/power_band
+execute positioned -682.5 23.5 823.5 summon minecraft:item_display run function ssbrc:stages/bowsers_castle/logic/power_band
+execute positioned -682.5 17.5 823.5 summon minecraft:item_display run function ssbrc:stages/bowsers_castle/logic/power_band
+execute positioned -721.5 23.5 865.5 summon minecraft:item_display run function ssbrc:stages/bowsers_castle/logic/power_band
+execute positioned -721.5 17.5 865.5 summon minecraft:item_display run function ssbrc:stages/bowsers_castle/logic/power_band
+execute positioned -721.5 23.5 823.5 summon minecraft:item_display run function ssbrc:stages/bowsers_castle/logic/power_band
+execute positioned -721.5 17.5 823.5 summon minecraft:item_display run function ssbrc:stages/bowsers_castle/logic/power_band
 
 # Armor Stands
 execute positioned -734.959 27.0 854.474 summon minecraft:armor_stand run function ssbrc:stages/bowsers_castle/logic/armor_stands/peach
