@@ -48,7 +48,7 @@ tag @s remove check_kill
 tag @s remove checkShockwave
 tag @s remove critical
 tag @s remove has_shield
-tag @s remove ignoreFeedback
+tag @s remove ignore_feedback
 tag @s remove immobile
 tag @s remove intangible
 tag @s remove naturalShiny

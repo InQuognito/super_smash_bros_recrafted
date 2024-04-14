@@ -1,5 +1,5 @@
 scoreboard players set @s skin_picked 2
-tag @s add ignoreFeedback
+tag @s add ignore_feedback
 
 execute unless score @s skin_picked matches 3 if score @s snake.capacity matches ..0 if predicate ssbrc:random_chance/10 run scoreboard players set @s skin_picked 3
 execute unless score @s skin_picked matches 3 if score @s snake.capacity matches 1.. if predicate ssbrc:random_chance/20 run scoreboard players set @s skin_picked 3
