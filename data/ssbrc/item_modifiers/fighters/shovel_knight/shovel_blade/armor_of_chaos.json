@@ -3,7 +3,7 @@
 		"function": "minecraft:set_name",
 		"entity": "this",
 		"name": {
-			"translate": "ssbrc.tooltips.shovel_knight.shovelOfChaos",
+			"translate": "ssbrc.tooltips.shovel_knight.shovel_of_chaos",
 			"color": "red",
 			"bold": true,
 			"italic": false
