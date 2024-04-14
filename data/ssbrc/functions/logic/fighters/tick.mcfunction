@@ -1,1 +1,1 @@
-$execute if entity @s[tag=$(fighter)] run function ssbrc:fighters/$(fighter)/logic/tick
+$execute if entity @s[tag=$(name)] run function ssbrc:fighters/$(name)/logic/tick

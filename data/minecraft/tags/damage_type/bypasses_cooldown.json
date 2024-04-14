@@ -1,7 +1,7 @@
 {
 	"values": [
 		"minecraft:arrow",
-		"ssbrc:projectile",
+		"ssbrc:generic",
 		"ssbrc:status"
 	]
 }
