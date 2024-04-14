@@ -4,9 +4,6 @@ data modify storage ssbrc:data fighters set value {\
 		"model": 1820,\
 		"color": "gold",\
 		"skin_count": 2,\
-		"skins": {\
-			},\
-		},\
 	},\
 	"alucard": {\
 		"name": "alucard",\
@@ -69,9 +66,6 @@ data modify storage ssbrc:data fighters set value {\
 		"model": 180,\
 		"color": "white",\
 		"skin_count": 2,\
-		"skins": {\
-			},\
-		},\
 	},\
 	"dark_samus": {\
 		"name": "dark_samus",\
@@ -150,9 +144,6 @@ data modify storage ssbrc:data fighters set value {\
 		"model": 1860,\
 		"color": "light_purple",\
 		"skin_count": 2,\
-		"skins": {\
-			},\
-		},\
 	},\
 	"greninja": {\
 		"name": "greninja",\
@@ -231,9 +222,6 @@ data modify storage ssbrc:data fighters set value {\
 		"model": 680,\
 		"color": "dark_green",\
 		"skin_count": 2,\
-		"skins": {\
-			},\
-		},\
 	},\
 	"kirby": {\
 		"name": "kirby",\
@@ -371,9 +359,6 @@ data modify storage ssbrc:data fighters set value {\
 		"model": 1220,\
 		"color": "white",\
 		"skin_count": 2,\
-		"skins": {\
-			},\
-		},\
 	},\
 	"pokemon_trainer": {\
 		"name": "pokemon_trainer",\
@@ -560,9 +545,6 @@ data modify storage ssbrc:data fighters set value {\
 		"model_james": 1942,\
 		"color": "dark_purple",\
 		"skin_count": 2,\
-		"skins": {\
-			},\
-		},\
 	},\
 	"wolf": {\
 		"name": "wolf",\

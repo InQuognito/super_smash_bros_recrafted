@@ -30,14 +30,15 @@ def fighter_storage():
 			if fighter == 'byleth':
 				skin_count *= 2
 			out.write(indent(2) + pre + 'skin_count' + sep_n + str(skin_count) + suf_n)
-			out.write(indent(2) + pre + 'skins' + suf_e)
-			for skin in ssbrc.fighters[fighter]['skins']:
-				out.write(indent(3) + pre + skin + suf_e)
-				out.write(indent(4) + pre + 'name' + sep_s + skin + suf_s)
-				out.write(indent(4) + pre + 'model' + sep_n + str(ssbrc.fighters[fighter]['skins'][skin]['model']) + suf_n)
-				out.write(indent(4) + pre + 'color' + sep_s + str(ssbrc.fighters[fighter]['skins'][skin]['color']) + suf_s)
-			out.write(indent(3) + end_e)
-			out.write(indent(2) + end_e)
+			if skin_count > 2:
+				out.write(indent(2) + pre + 'skins' + suf_e)
+				for skin in ssbrc.fighters[fighter]['skins']:
+					out.write(indent(3) + pre + skin + suf_e)
+					out.write(indent(4) + pre + 'name' + sep_s + skin + suf_s)
+					out.write(indent(4) + pre + 'model' + sep_n + str(ssbrc.fighters[fighter]['skins'][skin]['model']) + suf_n)
+					out.write(indent(4) + pre + 'color' + sep_s + str(ssbrc.fighters[fighter]['skins'][skin]['color']) + suf_s)
+				out.write(indent(3) + end_e)
+				out.write(indent(2) + end_e)
 			out.write(indent(1) + end_e)
 		out.write(end_f)
 
