@@ -3,4 +3,4 @@ execute summon minecraft:skeleton run function ssbrc:fighters/ganondorf/logic/st
 kill @e[type=minecraft:marker,tag=stalfosSpawn,sort=nearest,limit=1,predicate=ssbrc:id_match]
 
 tag @s remove stalfosGet
-scoreboard players reset @s charge.1
+scoreboard players set @s charge.1 0

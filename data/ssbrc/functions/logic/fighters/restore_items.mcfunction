@@ -53,6 +53,4 @@ execute if entity @s[tag=yar] run function ssbrc:fighters/yar/restore_items
 
 execute if entity @s[tag=zelda] run function ssbrc:fighters/zelda/kit
 
-scoreboard players set @s duration.1 0
-scoreboard players set @s duration.2 0
-scoreboard players set @s duration.3 0
+function ssbrc:logic/resets/scoreboards/duration

@@ -1,7 +1,7 @@
 execute if score debug options matches 1.. run say items.mcfunction
 
 scoreboard players reset @s flag.damage_taken
-scoreboard players reset @s charge.3
+scoreboard players set @s charge.3 0
 
 clear @s #ssbrc:equipment
 

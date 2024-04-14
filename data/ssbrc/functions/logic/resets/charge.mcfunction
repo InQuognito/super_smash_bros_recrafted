@@ -1,3 +1,3 @@
-scoreboard players reset @s charge.input
-scoreboard players reset @s charge.output
-scoreboard players reset @s charge.step
+scoreboard players set @s charge.input 0
+scoreboard players set @s charge.output 0
+scoreboard players set @s charge.step 0

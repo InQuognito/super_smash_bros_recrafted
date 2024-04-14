@@ -1,8 +1,8 @@
 # Wings
-execute if entity @s[tag=!silenced,tag=!wings_flapped,predicate=ssbrc:flag/in_air,predicate=ssbrc:flag/sneaking] run function ssbrc:fighters/altered_beast/logic/weredragon/flap
+execute if entity @s[tag=!wings_flapped,predicate=ssbrc:flag/in_air,predicate=ssbrc:flag/sneaking] run function ssbrc:fighters/altered_beast/logic/weredragon/flap
 tag @s[tag=wings_flapped,predicate=!ssbrc:flag/in_air] remove wings_flapped
 
-execute if entity @s[tag=!silenced,predicate=ssbrc:flag/sneaking] run function ssbrc:logic/fighters/slow_falling
+execute if entity @s[predicate=ssbrc:flag/sneaking] run function ssbrc:logic/fighters/slow_falling
 
 effect clear @s[scores={cooldown.3=6}] minecraft:levitation
 

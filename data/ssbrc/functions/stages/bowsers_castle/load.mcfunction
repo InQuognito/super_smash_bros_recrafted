@@ -70,6 +70,10 @@ summon minecraft:item_display -681.5 24.01 844.5 {Rotation:[-90f,0f],item:{id:"m
 summon minecraft:item_display -736.99 33.5 867.0 {Rotation:[-90f,0f],item:{id:"minecraft:sugar",tag:{CustomModelData:151},Count:1b},transformation:[2f,0f,0f,0f,0f,2f,0f,0f,0f,0f,2f,0f,0f,0f,0f,1f],brightness:{sky:6,block:6}}
 summon minecraft:item_display -736.99 33.5 822.0 {Rotation:[-90f,0f],item:{id:"minecraft:sugar",tag:{CustomModelData:151},Count:1b},transformation:[2f,0f,0f,0f,0f,2f,0f,0f,0f,0f,2f,0f,0f,0f,0f,1f],brightness:{sky:6,block:6}}
 
+# Power Bands
+execute positioned -682.5 23.5 865.5 summon minecraft:item_display run function ssbrc:stages/bowsers_castle/logic/power_band
+execute positioned -682.5 17.5 865.5 summon minecraft:item_display run function ssbrc:stages/bowsers_castle/logic/power_band
+
 # Armor Stands
 execute positioned -734.959 27.0 854.474 summon minecraft:armor_stand run function ssbrc:stages/bowsers_castle/logic/armor_stands/peach
 execute positioned -734.897 27.0 834.552 summon minecraft:armor_stand run function ssbrc:stages/bowsers_castle/logic/armor_stands/toad/default

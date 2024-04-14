@@ -1,12 +1,8 @@
 function ssbrc:logic/pre_game/fighter_select/leave
 
-scoreboard players set @s cooldown.1 0
-scoreboard players set @s cooldown.2 0
-scoreboard players set @s cooldown.3 0
+function ssbrc:logic/resets/scoreboards/cooldown
 
-scoreboard players set @s charge.1 0
-scoreboard players set @s charge.2 0
-scoreboard players set @s charge.3 0
+function ssbrc:logic/resets/scoreboards/charge
 
 scoreboard players set @s duration.1 1
 scoreboard players set @s duration.2 1
@@ -16,9 +12,7 @@ execute if entity @s[predicate=ssbrc:fighters/pokemon/can_be_shiny,predicate=ssb
 
 function ssbrc:logic/fighters/armor/get
 
-scoreboard players set @s duration.1 0
-scoreboard players set @s duration.2 0
-scoreboard players set @s duration.3 0
+function ssbrc:logic/resets/scoreboards/duration
 
 teleport @s -37.5 6.0 13.5 0.0 0.0
 

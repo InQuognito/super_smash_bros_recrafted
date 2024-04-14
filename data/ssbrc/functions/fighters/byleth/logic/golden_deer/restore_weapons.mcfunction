@@ -4,5 +4,5 @@ loot replace entity @s hotbar.0 loot ssbrc:fighters/byleth/golden_deer/failnaugh
 clear @s minecraft:iron_sword{steel_sword:1}
 loot replace entity @s hotbar.1 loot ssbrc:fighters/byleth/sword_of_the_creator
 
-scoreboard players reset @s charge.2
+scoreboard players set @s charge.2 0
 tag @s remove weapon_broken

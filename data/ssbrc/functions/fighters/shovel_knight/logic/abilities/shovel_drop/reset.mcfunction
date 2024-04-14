@@ -1,2 +1,2 @@
 effect clear @s minecraft:levitation
-scoreboard players reset @s charge.3
+scoreboard players set @s charge.3 0

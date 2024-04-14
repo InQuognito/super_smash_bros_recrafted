@@ -1,11 +1,7 @@
 # Clear abilities
-scoreboard players set @s cooldown.1 0
-scoreboard players set @s cooldown.2 0
-scoreboard players set @s cooldown.3 0
+function ssbrc:logic/resets/scoreboards/cooldown
 
-scoreboard players set @s duration.1 0
-scoreboard players set @s duration.2 0
-scoreboard players set @s duration.3 0
+function ssbrc:logic/resets/scoreboards/duration
 
 scoreboard players set @s flag.sprinting 0
 

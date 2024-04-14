@@ -1,5 +1,3 @@
-scoreboard players reset @s duration.1
-
 kill @e[type=minecraft:marker,tag=super_jump,predicate=ssbrc:id_match,sort=nearest,limit=1]
 
 tag @s remove super_jump
