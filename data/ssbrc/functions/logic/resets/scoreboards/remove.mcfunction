@@ -90,7 +90,7 @@ scoreboard objectives remove slope
 scoreboard objectives remove snake.capacity
 scoreboard objectives remove snake.anti_personnel_mineA
 scoreboard objectives remove snake.smoke_grenadeA
-scoreboard objectives remove sprintDistance
+scoreboard objectives remove sprint_distance
 scoreboard objectives remove stage_index
 scoreboard objectives remove stage_index.selector
 scoreboard objectives remove steve.tier

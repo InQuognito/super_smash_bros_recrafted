@@ -117,7 +117,7 @@ scoreboard objectives add weapon_4.mags dummy
 scoreboard objectives add weapon_4.reload dummy
 scoreboard objectives add snake.anti_personnel_mineA dummy
 scoreboard objectives add snake.smoke_grenadeA dummy
-scoreboard objectives add sprintDistance minecraft.custom:minecraft.sprint_one_cm
+scoreboard objectives add sprint_distance minecraft.custom:minecraft.sprint_one_cm
 scoreboard objectives add stage_index dummy
 scoreboard objectives add stage_index.selector dummy
 scoreboard objectives add steve.tier dummy
