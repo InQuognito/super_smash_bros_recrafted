@@ -3,7 +3,7 @@ tag @s add centurion
 
 clear @s #ssbrc:equipment
 
-loot replace entity @s hotbar.0 loot ssbrc:fighters/altered_beast/centurion/axe
+loot replace entity @s hotbar.0 loot ssbrc:fighters/altered_beast/gladius
 
 loot replace entity @s hotbar.8 loot ssbrc:fighters/altered_beast/spirit_orb
 

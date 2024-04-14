@@ -12,7 +12,7 @@
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"translate": "ssbrc.tooltips.altered_beast.centurion.sharp_axe",
+								"translate": "ssbrc.tooltips.altered_beast.centurion.gladius",
 								"color": "white",
 								"bold": true,
 								"italic": false
@@ -43,7 +43,7 @@
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{axe:1}"
+							"tag": "{gladius:1}"
 						}
 					]
 				}
