@@ -13,4 +13,4 @@ execute if entity @s[nbt={SelectedItem:{tag:{remote_mine:1}}}] run function ssbr
 
 # Pile Driver
 execute if entity @s[tag=mega_man.pile_driver,scores={duration.2=1}] run function ssbrc:fighters/mega_man/logic/abilities/pile_driver/deactivate
-execute if entity @s[tag=mega_man.pile_driver,nbt={SelectedItem:{tag:{pile_driver:1}}},scores={charge.input=1..,cooldown.2=..0,duration.2=..0}] at @s anchored eyes run function ssbrc:fighters/mega_man/logic/abilities/pile_driver/particle/raycast/start
+execute if entity @s[tag=mega_man.pile_driver,scores={charge.input=1..,cooldown.2=..0,duration.2=..0},nbt={SelectedItem:{tag:{pile_driver:1}}}] anchored eyes run function ssbrc:fighters/mega_man/logic/abilities/pile_driver/particle/raycast/start

@@ -1,6 +1,6 @@
 execute if entity @s[type=#ssbrc:movement/motion] run function ssbrc:logic/fighters/reflect/motion
-execute if entity @s[type=!#ssbrc:movement/motion,type=!minecraft:armor_stand] at @s run teleport @s ~ ~ ~ facing ^ ^ ^-1
-execute if entity @s[type=minecraft:armor_stand] run function ssbrc:logic/fighters/reflect/armor_stands
+teleport @s[type=!#ssbrc:movement/motion,type=!minecraft:armor_stand] ~ ~ ~ facing ^ ^ ^-1
+execute at @s[type=minecraft:armor_stand] run function ssbrc:logic/fighters/reflect/armor_stands
 
 data modify entity @s Owner set from entity @a[tag=self,limit=1] UUID
 

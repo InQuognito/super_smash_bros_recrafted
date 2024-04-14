@@ -5,7 +5,7 @@ particle minecraft:dust_color_transition 1.0 0.5 0.0 0.75 1.0 1.0 1.0 ~ ~1 ~ 0.2
 
 execute positioned ~ ~0.2 ~ unless block ^ ^ ^0.1 #ssbrc:passthrough run kill @s
 
-execute positioned ~-0.15 ~ ~-0.15 as @e[tag=!self,nbt=!{Inventory:[{tag:{goron_locket:1}}]},predicate=ssbrc:flag/targets,dy=2] positioned ~-0.7 ~ ~-0.7 if entity @s[dy=2] at @s run function ssbrc:fighters/zelda/logic/abilities/fire_rod/alternate_function/hit
+execute positioned ~-0.15 ~ ~-0.15 as @e[tag=!self,nbt=!{Inventory:[{tag:{goron_locket:1}}]},predicate=ssbrc:flag/targets,dy=2] positioned ~-0.7 ~ ~-0.7 if entity @s[dy=2] run function ssbrc:fighters/zelda/logic/abilities/fire_rod/alternate_function/hit
 
 teleport @s ^ ^ ^0.1
 

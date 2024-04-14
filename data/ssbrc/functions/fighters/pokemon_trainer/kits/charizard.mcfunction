@@ -21,4 +21,4 @@ function ssbrc:logic/fighters/effects/default
 execute unless entity @s[tag=charizard.natureSet] run function ssbrc:fighters/pokemon_trainer/natures/charizard/set
 function ssbrc:fighters/pokemon_trainer/natures/charizard/apply
 
-execute at @s run playsound ssbrc:items.poke_ball.open player @a
+playsound ssbrc:items.poke_ball.open player @a

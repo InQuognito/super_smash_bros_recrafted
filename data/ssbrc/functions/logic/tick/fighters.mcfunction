@@ -89,6 +89,9 @@ execute if entity @s[scores={leech_seed.stacks=1..}] run function ssbrc:fighters
 scoreboard players remove @s[scores={flinch=1..}] flinch 1
 execute if entity @s[scores={flinch=1}] run function ssbrc:logic/fighters/effects/mobility/mobilize
 
+scoreboard players remove @s[scores={shadow.chaos_control=1..}] shadow.chaos_control 1
+execute if entity @s[scores={shadow.chaos_control=..0}] run function ssbrc:fighters/shadow/logic/chaos_control/off
+
 # Map Effects
 execute unless block ~ ~ ~ minecraft:lava run scoreboard players remove @s[scores={flag.in_lava=1..}] flag.in_lava 1
 execute if block ~ ~ ~ minecraft:lava run scoreboard players add @s flag.in_lava 1

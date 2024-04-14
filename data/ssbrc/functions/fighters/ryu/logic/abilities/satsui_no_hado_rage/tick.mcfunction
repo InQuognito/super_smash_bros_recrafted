@@ -25,3 +25,5 @@ execute if score #percentage temp matches 81..85 run title @s actionbar [{"text"
 execute if score #percentage temp matches 86..90 run title @s actionbar [{"text":"\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae","color":"dark_red"}]
 execute if score #percentage temp matches 91..95 run title @s actionbar [{"text":"\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae","color":"dark_red"}]
 execute if score #percentage temp matches 96..100 run title @s actionbar [{"text":"\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae","color":"dark_red"}]
+
+execute if entity @s[scores={duration.1=1}] run function ssbrc:fighters/ryu/logic/abilities/satsui_no_hado_rage/deactivate

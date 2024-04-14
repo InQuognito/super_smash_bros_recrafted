@@ -1,4 +1,4 @@
-execute at @s run particle minecraft:smoke ~ ~0.75 ~ 0.2 0.4 0.2 0.01 3 normal @a
+particle minecraft:smoke ~ ~0.75 ~ 0.2 0.4 0.2 0.01 3 normal @a
 
 scoreboard players add @s charge.1 1
 

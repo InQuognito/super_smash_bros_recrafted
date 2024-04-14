@@ -4,7 +4,7 @@ scoreboard players remove @s burning 1
 
 scoreboard players operation #burning temp = @s burning
 scoreboard players operation #burning temp %= 10 integers
-execute if score #burning temp matches 0 at @s run function ssbrc:logic/fighters/effects/burning/damage
+execute if score #burning temp matches 0 run function ssbrc:logic/fighters/effects/burning/damage
 scoreboard players reset #burning temp
 
-execute if score @s burning matches 0 run function ssbrc:logic/fighters/effects/burning/reset
+execute if entity @s[scores={burning=0}] run function ssbrc:logic/fighters/effects/burning/reset

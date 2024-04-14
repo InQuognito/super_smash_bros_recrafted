@@ -1,6 +1,6 @@
 tag @s remove guardian_orbitars
 
-execute as @e[type=minecraft:item_display,tag=guardian_orbitar] at @s if score @s id = @a[tag=self,limit=1] id run kill @s
+kill @e[type=minecraft:item_display,tag=guardian_orbitar,predicate=ssbrc:id_match]
 
 function ssbrc:logic/fighters/effects/mobility/immobilize/pivot/deactivate
 

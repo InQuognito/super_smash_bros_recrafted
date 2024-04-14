@@ -10,4 +10,4 @@ effect give @s minecraft:resistance infinite 255 true
 
 tag @s add ability_used
 
-execute at @s run playsound ssbrc:fighters.joker.final_guard.activate player @s
+playsound ssbrc:fighters.joker.final_guard.activate player @s

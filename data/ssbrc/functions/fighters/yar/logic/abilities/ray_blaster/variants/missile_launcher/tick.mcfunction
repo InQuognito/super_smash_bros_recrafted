@@ -19,4 +19,4 @@ execute at @s run teleport @s[scores={temp=45..}] ^ ^ ^0.05
 execute at @s run teleport @s[scores={temp=50..}] ^ ^ ^0.05
 
 scoreboard players add @s temp 1
-execute if score @s temp matches 100.. run function ssbrc:fighters/yar/logic/abilities/ray_blaster/variants/missile_launcher/explode/block
+execute if entity @s[scores={temp=100..}] run function ssbrc:fighters/yar/logic/abilities/ray_blaster/variants/missile_launcher/explode/block

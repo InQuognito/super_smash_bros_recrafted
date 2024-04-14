@@ -22,4 +22,4 @@ tag @s remove valor_form
 tag @s remove wisdom_form
 tag @s remove anti_form
 
-execute at @s run playsound ssbrc:fighters.sora.drive_forms.activate player @a
+playsound ssbrc:fighters.sora.drive_forms.activate player @a

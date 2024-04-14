@@ -11,4 +11,4 @@ tellraw @s [{"translate":"ssbrc.fighters.cloud.mode_switch","bold":true,"color":
 scoreboard players set @s cooldown.1 100
 scoreboard players set mode_switched temp 1
 
-execute at @s run playsound ssbrc:fighters.cloud.mode_switch.operator player @a
+playsound ssbrc:fighters.cloud.mode_switch.operator player @a

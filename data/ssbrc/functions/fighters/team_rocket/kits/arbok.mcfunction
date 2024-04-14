@@ -15,4 +15,4 @@ function ssbrc:logic/fighters/armor/update
 function ssbrc:logic/fighters/attributes/defaults
 function ssbrc:logic/fighters/effects/default
 
-execute at @s run playsound ssbrc:items.poke_ball.open player @a
+playsound ssbrc:items.poke_ball.open player @a

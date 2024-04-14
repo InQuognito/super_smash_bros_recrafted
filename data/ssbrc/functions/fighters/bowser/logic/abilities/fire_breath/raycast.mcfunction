@@ -2,7 +2,7 @@
 #execute if score @s bowser.fire_breath matches 81..100 run particle minecraft:smoke ~ ~ ~ 0.25 0.25 0.25 0.0075 2 force @a
 
 scoreboard players set @s bowser.fire_breath.target 0
-#execute at @s anchored eyes as @e[predicate=ssbrc:flag/targets,distance=..15] facing entity @s eyes anchored feet positioned ^ ^ ^-1 rotated as @a[tag=self,limit=1] positioned ^ ^ ^1 if entity @a[tag=self,limit=1,distance=..0.1] facing entity @s feet run function ssbrc:fighters/bowser/logic/abilities/fire_breath/target/start
+#execute anchored eyes as @e[predicate=ssbrc:flag/targets,distance=..15] facing entity @s eyes anchored feet positioned ^ ^ ^-1 rotated as @a[tag=self,limit=1] positioned ^ ^ ^1 if entity @a[tag=self,limit=1,distance=..0.1] facing entity @s feet run function ssbrc:fighters/bowser/logic/abilities/fire_breath/target/start
 execute positioned ~-0.5 ~-0.5 ~-0.5 as @e[tag=!self,nbt=!{Inventory:[{tag:{goron_locket:1}}]},predicate=ssbrc:flag/targets,dx=0] run function ssbrc:fighters/bowser/logic/abilities/fire_breath/hit
 
 scoreboard players add @s bowser.fire_breath 1

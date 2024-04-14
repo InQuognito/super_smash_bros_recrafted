@@ -6,4 +6,4 @@ function ssbrc:logic/fighters/effects/mobility/immobilize/default
 
 scoreboard players set @s mana 0
 
-execute at @s run playsound ssbrc:fighters.hero.magic_burst.charge player @a
+playsound ssbrc:fighters.hero.magic_burst.charge player @a

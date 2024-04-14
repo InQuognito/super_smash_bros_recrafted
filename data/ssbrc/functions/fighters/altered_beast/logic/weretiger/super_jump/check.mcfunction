@@ -1,5 +1,5 @@
 scoreboard players add @s[predicate=ssbrc:flag/sneaking,predicate=!ssbrc:flag/in_air] charge.2 1
-execute if score @s charge.2 >= altered_beast.super_jump.threshold vars at @s run particle minecraft:item minecraft:stone ~ ~0.01 ~ 0.2 0.2 0.2 0.0 2 normal @a
+execute if score @s charge.2 >= altered_beast.super_jump.threshold vars run particle minecraft:item minecraft:stone ~ ~0.01 ~ 0.2 0.2 0.2 0.0 2 normal @a
 
 execute if score @s charge.2 = altered_beast.super_jump.threshold vars run function ssbrc:fighters/altered_beast/logic/weretiger/super_jump/charge
 
