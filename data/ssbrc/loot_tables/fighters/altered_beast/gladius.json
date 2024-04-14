@@ -43,7 +43,7 @@
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{gladius:1}"
+							"tag": "{gladius:1,CustomModelData:1820}"
 						}
 					]
 				}
