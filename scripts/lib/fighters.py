@@ -33,9 +33,10 @@ def fighter_storage():
 			out.write(indent(2) + pre + 'skins' + suf_e)
 			for skin in ssbrc.fighters[fighter]['skins']:
 				out.write(indent(3) + pre + skin + suf_e)
-				out.write(indent(4) + pre + 'name' + sep_s + skin + suf_e)
+				out.write(indent(4) + pre + 'name' + sep_s + skin + suf_s)
 				out.write(indent(4) + pre + 'model' + sep_n + str(ssbrc.fighters[fighter]['skins'][skin]['model']) + suf_n)
 				out.write(indent(4) + pre + 'color' + sep_s + str(ssbrc.fighters[fighter]['skins'][skin]['color']) + suf_s)
+			out.write(indent(3) + end_e)
 			out.write(indent(2) + end_e)
 			out.write(indent(1) + end_e)
 		out.write(end_f)
