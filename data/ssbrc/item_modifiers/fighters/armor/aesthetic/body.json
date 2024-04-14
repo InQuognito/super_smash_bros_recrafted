@@ -1962,13 +1962,26 @@
 	},
 	{
 		"function": "minecraft:set_nbt",
-		"tag": "{Trim:{pattern:\"ssbrc:fighters/altered_beast/default/centurion\",material:\"minecraft:quartz\"}}",
+		"tag": "{Trim:{pattern:\"ssbrc:fighters/altered_beast/default/centurion/default\",material:\"minecraft:quartz\"}}",
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
 				"entity": "this",
 				"predicate": {
 					"nbt": "{Tags:[\"altered_beast\",\"default\",\"centurion\"]}"
+				}
+			}
+		]
+	},
+	{
+		"function": "minecraft:set_nbt",
+		"tag": "{Trim:{pattern:\"ssbrc:fighters/altered_beast/default/centurion/shirtless\",material:\"minecraft:quartz\"}}",
+		"conditions": [
+			{
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"nbt": "{Tags:[\"altered_beast\",\"default\",\"centurion\",\"shirtless\"]}"
 				}
 			}
 		]
@@ -2027,13 +2040,26 @@
 	},
 	{
 		"function": "minecraft:set_nbt",
-		"tag": "{Trim:{pattern:\"ssbrc:fighters/altered_beast/gold/centurion\",material:\"minecraft:quartz\"}}",
+		"tag": "{Trim:{pattern:\"ssbrc:fighters/altered_beast/gold/centurion/default\",material:\"minecraft:quartz\"}}",
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
 				"entity": "this",
 				"predicate": {
 					"nbt": "{Tags:[\"altered_beast\",\"gold\",\"centurion\"]}"
+				}
+			}
+		]
+	},
+	{
+		"function": "minecraft:set_nbt",
+		"tag": "{Trim:{pattern:\"ssbrc:fighters/altered_beast/gold/centurion/shirtless\",material:\"minecraft:quartz\"}}",
+		"conditions": [
+			{
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"nbt": "{Tags:[\"altered_beast\",\"gold\",\"centurion\",\"shirtless\"]}"
 				}
 			}
 		]
@@ -2086,6 +2112,84 @@
 				"entity": "this",
 				"predicate": {
 					"nbt": "{Tags:[\"altered_beast\",\"gold\",\"werewolf\"]}"
+				}
+			}
+		]
+	},
+	{
+		"function": "minecraft:set_nbt",
+		"tag": "{Trim:{pattern:\"ssbrc:fighters/altered_beast/player_2/centurion/default\",material:\"minecraft:quartz\"}}",
+		"conditions": [
+			{
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"nbt": "{Tags:[\"altered_beast\",\"player_2\",\"centurion\"]}"
+				}
+			}
+		]
+	},
+	{
+		"function": "minecraft:set_nbt",
+		"tag": "{Trim:{pattern:\"ssbrc:fighters/altered_beast/player_2/centurion/shirtless\",material:\"minecraft:quartz\"}}",
+		"conditions": [
+			{
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"nbt": "{Tags:[\"altered_beast\",\"player_2\",\"centurion\",\"shirtless\"]}"
+				}
+			}
+		]
+	},
+	{
+		"function": "minecraft:set_nbt",
+		"tag": "{Trim:{pattern:\"ssbrc:fighters/altered_beast/player_2/werebear\",material:\"minecraft:quartz\"}}",
+		"conditions": [
+			{
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"nbt": "{Tags:[\"altered_beast\",\"player_2\",\"werebear\"]}"
+				}
+			}
+		]
+	},
+	{
+		"function": "minecraft:set_nbt",
+		"tag": "{Trim:{pattern:\"ssbrc:fighters/altered_beast/player_2/weredragon\",material:\"minecraft:quartz\"}}",
+		"conditions": [
+			{
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"nbt": "{Tags:[\"altered_beast\",\"player_2\",\"weredragon\"]}"
+				}
+			}
+		]
+	},
+	{
+		"function": "minecraft:set_nbt",
+		"tag": "{Trim:{pattern:\"ssbrc:fighters/altered_beast/player_2/weretiger\",material:\"minecraft:quartz\"}}",
+		"conditions": [
+			{
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"nbt": "{Tags:[\"altered_beast\",\"player_2\",\"weretiger\"]}"
+				}
+			}
+		]
+	},
+	{
+		"function": "minecraft:set_nbt",
+		"tag": "{Trim:{pattern:\"ssbrc:fighters/altered_beast/player_2/werewolf\",material:\"minecraft:quartz\"}}",
+		"conditions": [
+			{
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"nbt": "{Tags:[\"altered_beast\",\"player_2\",\"werewolf\"]}"
 				}
 			}
 		]
