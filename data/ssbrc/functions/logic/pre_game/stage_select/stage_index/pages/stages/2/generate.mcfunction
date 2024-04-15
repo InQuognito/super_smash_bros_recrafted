@@ -1,27 +1,27 @@
 function ssbrc:logic/pre_game/stage_select/stage_index/pages/reset
 
 loot replace entity @s enderchest.0 loot ssbrc:ui/null/orange
-item replace entity @s enderchest.9 with minecraft:barrier{ui:{id:"navigation.stages.1",sound:"click"},CustomModelData:9999991,display:{Name:'{"translate":"ssbrc.ui.go_back","color":"red","italic":false}'}}
+function ssbrc:shop/contents/navigator {goto:"navigation.stages.1",type:"back",slot:"9"}
 loot replace entity @s enderchest.18 loot ssbrc:ui/null/orange
 
-item replace entity @s enderchest.2 with minecraft:sugar{ui:{id:"stages.pallet_town",sound:"click"},CustomModelData:1350,HideFlags:255,display:{Name:'{"translate":"ssbrc.stages.pallet_town","color":"red","italic":false}',Lore:['{"translate":"ssbrc.series.pokemon","color":"yellow","italic":false}','""','{"translate":"ssbrc.ui.click_to_vote","color":"yellow","italic":false}']}}
-item replace entity @s enderchest.3 with minecraft:sugar{ui:{id:"stages.lake_of_rage",sound:"click"},CustomModelData:950,HideFlags:255,display:{Name:'{"translate":"ssbrc.stages.lake_of_rage","color":"red","italic":false}',Lore:['{"translate":"ssbrc.series.pokemon","color":"yellow","italic":false}','""','{"translate":"ssbrc.ui.click_to_vote","color":"yellow","italic":false}']}}
-item replace entity @s enderchest.4 with minecraft:sugar{ui:{id:"stages.spear_pillar",sound:"click"},CustomModelData:1650,HideFlags:255,display:{Name:'{"translate":"ssbrc.stages.spear_pillar","color":"yellow","italic":false}',Lore:['{"translate":"ssbrc.series.pokemon","color":"yellow","italic":false}','""','{"translate":"ssbrc.ui.click_to_vote","color":"yellow","italic":false}']}}
-item replace entity @s enderchest.5 with minecraft:sugar{ui:{id:"stages.saturn_valley",sound:"click"},CustomModelData:1500,HideFlags:255,display:{Name:'{"translate":"ssbrc.stages.saturn_valley","color":"green","italic":false}',Lore:['{"translate":"ssbrc.series.earthbound","color":"gold","italic":false}','""','{"translate":"ssbrc.ui.click_to_vote","color":"yellow","italic":false}']}}
-item replace entity @s enderchest.6 with minecraft:sugar{ui:{id:"stages.magicant",sound:"click"},CustomModelData:1050,HideFlags:255,display:{Name:'{"translate":"ssbrc.stages.magicant","color":"light_purple","italic":false}',Lore:['{"translate":"ssbrc.series.earthbound","color":"gold","italic":false}','""','{"translate":"ssbrc.ui.click_to_vote","color":"yellow","italic":false}']}}
+loot replace entity @s enderchest.2 loot ssbrc:ui/stages/pallet_town
+loot replace entity @s enderchest.3 loot ssbrc:ui/stages/lake_of_rage
+loot replace entity @s enderchest.4 loot ssbrc:ui/stages/spear_pillar
+loot replace entity @s enderchest.5 loot ssbrc:ui/stages/saturn_valley
+loot replace entity @s enderchest.6 loot ssbrc:ui/stages/magicant
 
-item replace entity @s enderchest.11 with minecraft:sugar{ui:{id:"stages.sand_ocean",sound:"click"},CustomModelData:1450,HideFlags:255,display:{Name:'{"translate":"ssbrc.stages.sand_ocean","color":"gold","italic":false}',Lore:['{"translate":"ssbrc.series.f_zero","color":"gray","italic":false}','""','{"translate":"ssbrc.ui.click_to_vote","color":"yellow","italic":false}']}}
-item replace entity @s enderchest.12 with minecraft:sugar{ui:{id:"stages.icicle_mountain",sound:"click"},CustomModelData:850,HideFlags:255,display:{Name:'{"translate":"ssbrc.stages.icicle_mountain","color":"aqua","italic":false}',Lore:['{"translate":"ssbrc.series.ice_climber","color":"aqua","italic":false}','""','{"translate":"ssbrc.ui.click_to_vote","color":"yellow","italic":false}']}}
-item replace entity @s enderchest.13 with minecraft:sugar{ui:{id:"stages.castle_siege",sound:"click"},CustomModelData:200,HideFlags:255,display:{Name:'{"translate":"ssbrc.stages.castle_siege","color":"red","italic":false}',Lore:['{"translate":"ssbrc.series.fire_emblem","color":"gold","italic":false}','""','{"translate":"ssbrc.ui.click_to_vote","color":"yellow","italic":false}']}}
-item replace entity @s enderchest.14 with minecraft:sugar{ui:{id:"stages.flat_zone",sound:"click"},CustomModelData:450,HideFlags:255,display:{Name:'{"translate":"ssbrc.stages.flat_zone","color":"white","italic":false}',Lore:['{"translate":"ssbrc.series.game_and_watch","color":"black","italic":false}','""','{"translate":"ssbrc.ui.click_to_vote","color":"yellow","italic":false}']}}
-item replace entity @s enderchest.15 with minecraft:sugar{ui:{id:"stages.palutenas_temple",sound:"click"},CustomModelData:250,HideFlags:255,display:{Name:'{"translate":"ssbrc.stages.palutenas_temple","color":"green","italic":false}',Lore:['{"translate":"ssbrc.series.kid_icarus","color":"white","italic":false}','""','{"translate":"ssbrc.ui.click_to_vote","color":"yellow","italic":false}']}}
+loot replace entity @s enderchest.11 loot ssbrc:ui/stages/sand_ocean
+loot replace entity @s enderchest.12 loot ssbrc:ui/stages/icicle_mountain
+loot replace entity @s enderchest.13 loot ssbrc:ui/stages/castle_siege
+loot replace entity @s enderchest.14 loot ssbrc:ui/stages/flat_zone
+loot replace entity @s enderchest.15 loot ssbrc:ui/stages/palutenas_temple
 
-item replace entity @s enderchest.20 with minecraft:sugar{ui:{id:"stages.shadow_moses_island",sound:"click"},CustomModelData:1600,HideFlags:255,display:{Name:'{"translate":"ssbrc.stages.shadow_moses_island","color":"white","italic":false}',Lore:['{"translate":"ssbrc.series.metal_gear","color":"red","italic":false}','""','{"translate":"ssbrc.ui.click_to_vote","color":"yellow","italic":false}']}}
-item replace entity @s enderchest.21 with minecraft:sugar{ui:{id:"stages.green_hill_zone",sound:"click"},CustomModelData:750,HideFlags:255,display:{Name:'{"translate":"ssbrc.stages.green_hill_zone","color":"green","italic":false}',Lore:['{"translate":"ssbrc.series.sonic_the_hedgehog","color":"blue","italic":false}','""','{"translate":"ssbrc.ui.click_to_vote","color":"yellow","italic":false}']}}
-item replace entity @s enderchest.22 with minecraft:sugar{ui:{id:"stages.garden_of_hope",sound:"click"},CustomModelData:600,HideFlags:255,display:{Name:'{"translate":"ssbrc.stages.garden_of_hope","color":"green","italic":false}',Lore:['{"translate":"ssbrc.series.pikmin","color":"green","italic":false}','""','{"translate":"ssbrc.ui.click_to_vote","color":"yellow","italic":false}']}}
-item replace entity @s enderchest.23 with minecraft:sugar{ui:{id:"stages.wily_castle",sound:"click"},CustomModelData:1800,HideFlags:255,display:{Name:'{"translate":"ssbrc.stages.wily_castle","color":"blue","italic":false}',Lore:['{"translate":"ssbrc.fighters.mega_man","color":"blue","italic":false}','""','{"translate":"ssbrc.ui.click_to_vote","color":"yellow","italic":false}']}}
-item replace entity @s enderchest.24 with minecraft:sugar{ui:{id:"stages.miiverse",sound:"click"},CustomModelData:1150,HideFlags:255,display:{Name:'{"translate":"ssbrc.stages.miiverse","color":"green","italic":false}',Lore:['{"translate":"ssbrc.series.mii","color":"white","italic":false}','""','{"translate":"ssbrc.ui.click_to_vote","color":"yellow","italic":false}']}}
+loot replace entity @s enderchest.20 loot ssbrc:ui/stages/shadow_moses_island
+loot replace entity @s enderchest.21 loot ssbrc:ui/stages/green_hill_zone
+loot replace entity @s enderchest.22 loot ssbrc:ui/stages/garden_of_hope
+loot replace entity @s enderchest.23 loot ssbrc:ui/stages/wily_castle
+loot replace entity @s enderchest.24 loot ssbrc:ui/stages/miiverse
 
 loot replace entity @s enderchest.8 loot ssbrc:ui/null/orange
-item replace entity @s enderchest.17 with minecraft:barrier{ui:{id:"navigation.stages.3",sound:"click"},CustomModelData:9999992,display:{Name:'{"translate":"ssbrc.ui.next_page","color":"red","italic":false}'}}
+function ssbrc:shop/contents/navigator {goto:"navigation.stages.3",type:"forward",slot:"17"}
 loot replace entity @s enderchest.26 loot ssbrc:ui/null/orange

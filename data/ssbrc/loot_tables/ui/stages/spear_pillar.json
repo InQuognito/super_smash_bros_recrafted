@@ -1,0 +1,42 @@
+{
+	"type": "minecraft:command",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:sugar",
+					"functions": [
+						{
+							"function": "minecraft:set_name",
+							"entity": "this",
+							"target": "item_name",
+							"name": {
+								"translate": "ssbrc.stages.spear_pillar",
+								"color": "yellow",
+								"bold": true
+							}
+						},
+						{
+							"function": "minecraft:reference",
+							"name": "ssbrc:series/pokemon"
+						},
+						{
+							"function": "minecraft:reference",
+							"name": "ssbrc:fighters/init/preset/stage_index"
+						},
+						{
+							"function": "minecraft:set_custom_model_data",
+							"value": 1650
+						},
+						{
+							"function": "minecraft:set_custom_data",
+							"tag": "{ui:{id:\"stages.spear_pillar\",sound:\"click\"}}"
+						}
+					]
+				}
+			]
+		}
+	]
+}

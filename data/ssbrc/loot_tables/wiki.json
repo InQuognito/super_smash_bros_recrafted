@@ -11,11 +11,11 @@
 						{
 							"function": "minecraft:set_name",
 							"entity": "this",
+							"target": "item_name",
 							"name": {
 								"translate": "ssbrc.fighters.menu.wiki",
 								"color": "yellow",
-								"bold": true,
-								"italic": false
+								"bold": true
 							}
 						},
 						{

@@ -1,6 +1,6 @@
 tag @s add payday
 
-item replace entity @s armor.head with minecraft:nether_star{CustomModelData:1944}
+item replace entity @s armor.head with minecraft:nether_star[minecraft:custom_model_data=1944]
 
 data merge entity @s {Small:1b}
 

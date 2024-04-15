@@ -1,1 +1,1 @@
-loot replace entity @s container.0 loot ssbrc:stages/miiverse/posts/zelda/0
+loot replace entity @s contents loot ssbrc:stages/miiverse/posts/zelda/0

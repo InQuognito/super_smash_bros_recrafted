@@ -1,6 +1,6 @@
 tag @s add middle
 
-data merge entity @s {ArmorItems:[{},{},{},{id:"minecraft:sugar",Count:1b,tag:{CustomModelData:804}}]}
+data merge entity @s {ArmorItems:[{},{},{},{id:"minecraft:sugar",components:{"minecraft:custom_model_data":804}}]}
 
 function ssbrc:stages/hyrule_castle/logic/hazards/tornadoes/init
 

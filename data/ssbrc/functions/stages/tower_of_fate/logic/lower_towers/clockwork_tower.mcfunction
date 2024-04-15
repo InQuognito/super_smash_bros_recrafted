@@ -13,4 +13,4 @@ summon minecraft:marker 5994.5 13.0 506.5 {Tags:["spawnpoint"]}
 summon minecraft:marker 5994.5 13.0 494.5 {Tags:["spawnpoint"]}
 summon minecraft:marker 6006.5 13.0 494.5 {Tags:["spawnpoint"]}
 
-summon minecraft:item_display 6000.5 9.5 500.5 {item:{id:"minecraft:iron_bars",Count:1b,tag:{CustomModelData:1}},transformation:[4f,0f,0f,0f,0f,4f,0f,0f,0f,0f,4f,0f,0f,0f,0f,1f]}
+summon minecraft:item_display 6000.5 9.5 500.5 {item:{id:"minecraft:iron_bars",components:{"minecraft:custom_model_data":1}},transformation:[4f,0f,0f,0f,0f,4f,0f,0f,0f,0f,4f,0f,0f,0f,0f,1f]}

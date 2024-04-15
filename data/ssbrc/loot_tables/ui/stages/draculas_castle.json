@@ -1,0 +1,42 @@
+{
+	"type": "minecraft:command",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:sugar",
+					"functions": [
+						{
+							"function": "minecraft:set_name",
+							"entity": "this",
+							"target": "item_name",
+							"name": {
+								"translate": "ssbrc.stages.draculas_castle",
+								"color": "red",
+								"bold": true
+							}
+						},
+						{
+							"function": "minecraft:reference",
+							"name": "ssbrc:series/castlevania"
+						},
+						{
+							"function": "minecraft:reference",
+							"name": "ssbrc:fighters/init/preset/stage_index"
+						},
+						{
+							"function": "minecraft:set_custom_model_data",
+							"value": 300
+						},
+						{
+							"function": "minecraft:set_custom_data",
+							"tag": "{ui:{id:\"stages.draculas_castle\",sound:\"click\"}}"
+						}
+					]
+				}
+			]
+		}
+	]
+}

@@ -31,8 +31,8 @@ execute if score #shinyGiratina temp matches 1 run clone 563 2 -134 576 40 -88 8
 execute if score #shinyGiratina temp matches 1 run clone 577 2 -134 585 40 -88 826 10 -124
 execute if score #shinyGiratina temp matches 1 run scoreboard players add @a[predicate=ssbrc:flag/player] shiny_encounter 1
 
-summon minecraft:glow_item_frame 803.5 51.0 23.5 {Facing:2b,ItemRotation:1b,Item:{id:"minecraft:black_candle",Count:1b},Fixed:1b}
-summon minecraft:glow_item_frame 803.5 51.0 25.5 {Facing:3b,ItemRotation:7b,Item:{id:"minecraft:black_candle",Count:1b},Fixed:1b}
+summon minecraft:glow_item_frame 803.5 51.0 23.5 {Facing:2b,ItemRotation:1b,Item:{id:"minecraft:black_candle"},Fixed:1b}
+summon minecraft:glow_item_frame 803.5 51.0 25.5 {Facing:3b,ItemRotation:7b,Item:{id:"minecraft:black_candle"},Fixed:1b}
 
 time set noon
 weather clear

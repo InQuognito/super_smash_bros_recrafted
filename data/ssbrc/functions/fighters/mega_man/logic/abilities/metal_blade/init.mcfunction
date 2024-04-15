@@ -1,6 +1,6 @@
 tag @s add metal_blade
 
-loot replace entity @s container.0 loot ssbrc:fighters/mega_man/metal_blade
+loot replace entity @s contents loot ssbrc:fighters/mega_man/metal_blade
 
 function ssbrc:logic/init/projectile
 

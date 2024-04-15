@@ -1,6 +1,6 @@
 tag @s add magic_boomerang
 
-loot replace entity @s container.0 loot ssbrc:fighters/zelda/dungeon_items/magic_boomerang
+loot replace entity @s contents loot ssbrc:fighters/zelda/dungeon_items/magic_boomerang
 
 function ssbrc:logic/init/projectile_horizontal
 

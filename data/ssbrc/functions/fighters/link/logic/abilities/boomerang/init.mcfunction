@@ -1,6 +1,6 @@
 tag @s add link.boomerang
 
-loot replace entity @s container.0 loot ssbrc:fighters/link/boomerang
+loot replace entity @s contents loot ssbrc:fighters/link/boomerang
 
 function ssbrc:logic/init/projectile_horizontal
 

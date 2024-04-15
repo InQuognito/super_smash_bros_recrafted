@@ -1,0 +1,19 @@
+[
+	{
+		"function": "minecraft:reference",
+		"name": "ssbrc:fighters/init/preset/ui"
+	},
+	{
+		"function": "minecraft:set_lore",
+		"entity": "this",
+		"lore": [
+			{
+				"translate": "ssbrc.ui.click_to_vote",
+				"color": "yellow",
+				"bold": false,
+				"italic": false
+			}
+		],
+		"mode": "append"
+	}
+]

@@ -30,7 +30,7 @@ execute positioned 2539.5 21.4 3997.5 summon minecraft:item_display run function
 execute positioned 2487.0 14.5 4032.5 summon minecraft:item_display run function ssbrc:stages/lake_of_rage/logic/hazards/gyarados/init
 
 # Sudowoodo
-summon minecraft:item_display 2513.5 17.3 3983.5 {Tags:["sudowoodo"],item:{id:"minecraft:diamond",Count:1b,tag:{CustomModelData:1850}}}
+summon minecraft:item_display 2513.5 17.3 3983.5 {Tags:["sudowoodo"],item:{id:"minecraft:diamond",components:{"minecraft:custom_model_data":1850}}}
 
 weather clear
 execute if predicate ssbrc:random_chance/30 run weather rain
