@@ -24,3 +24,5 @@ execute if entity @e[type=minecraft:item_display,tag=miffenkop,dx=0,sort=nearest
 execute if entity @e[type=minecraft:item_display,tag=lostpuppet,dx=0,sort=nearest,limit=1] run function ssbrc:logic/selector/events/developers/lostpuppet
 
 execute if entity @e[type=minecraft:item_display,tag=fighter_display,dx=0,sort=nearest,limit=1] run advancement grant @s[advancements={ssbrc:tutorial/intro/3=true,ssbrc:tutorial/fighter_select/2=false}] only ssbrc:tutorial/fighter_select/2
+
+scoreboard players set raycast_success temp 1
