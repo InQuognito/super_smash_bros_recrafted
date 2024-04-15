@@ -63,11 +63,15 @@
 									"italic": false
 								}
 							],
-							"replace": false
+							"mode": "append"
 						},
 						{
-							"function": "minecraft:set_nbt",
-							"tag": "{orange_grenade:1,CustomModelData:302}"
+							"function": "minecraft:set_custom_model_data",
+							"value": 302
+						},
+						{
+							"function": "minecraft:set_custom_data",
+							"tag": "{orange_grenade:1}"
 						}
 					]
 				}

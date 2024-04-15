@@ -34,10 +34,10 @@
 				]
 			}
 		],
-		"replace": false
+		"mode": "append"
 	},
 	{
-		"function": "minecraft:set_nbt",
+		"function": "minecraft:set_custom_data",
 		"tag": "{awakened:1,CustomModelData:102}"
 	}
 ]

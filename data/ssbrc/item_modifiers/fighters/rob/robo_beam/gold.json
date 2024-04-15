@@ -10,8 +10,8 @@
 		}
 	},
 	{
-		"function": "set_nbt",
-		"tag": "{CustomModelData:5}",
+		"function": "minecraft:set_custom_model_data",
+		"value": 5,
 		"conditions": [
 			{
 				"condition": "minecraft:inverted",
@@ -28,8 +28,8 @@
 		]
 	},
 	{
-		"function": "set_nbt",
-		"tag": "{CustomModelData:6}",
+		"function": "minecraft:set_custom_model_data",
+		"value": 6,
 		"conditions": [
 			{
 				"condition": "minecraft:entity_scores",
@@ -44,8 +44,8 @@
 		]
 	},
 	{
-		"function": "set_nbt",
-		"tag": "{CustomModelData:7}",
+		"function": "minecraft:set_custom_model_data",
+		"value": 7,
 		"conditions": [
 			{
 				"condition": "minecraft:entity_scores",

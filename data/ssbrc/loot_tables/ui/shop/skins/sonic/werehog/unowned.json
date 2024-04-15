@@ -21,7 +21,7 @@
 							"name": "ssbrc:ui/shop/unowned"
 						},
 						{
-							"function": "minecraft:set_nbt",
+							"function": "minecraft:set_custom_data",
 							"tag": "{ui:{id:\"skins.sonic.werehog\",sound:\"click\"}}"
 						}
 					]

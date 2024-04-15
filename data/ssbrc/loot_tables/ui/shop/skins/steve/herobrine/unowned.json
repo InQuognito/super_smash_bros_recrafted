@@ -9,14 +9,8 @@
 					"name": "minecraft:barrier",
 					"functions": [
 						{
-							"function": "minecraft:set_name",
-							"entity": "this",
-							"name": {
-								"translate": "ssbrc.fighters.steve.skin.herobrine",
-								"color": "white",
-								"bold": true,
-								"italic": false
-							}
+							"function": "minecraft:reference",
+							"name": "ssbrc:fighters/steve/skins/herobrine"
 						},
 						{
 							"function": "minecraft:reference",
@@ -27,8 +21,8 @@
 							"name": "ssbrc:ui/shop/unowned"
 						},
 						{
-							"function": "minecraft:set_nbt",
-							"tag": "{ui:{id:\"skins.steve.herobrine\",sound:\"click\"},CustomModelData:1583}"
+							"function": "minecraft:set_custom_data",
+							"tag": "{ui:{id:\"skins.steve.herobrine\",sound:\"click\"}}"
 						}
 					]
 				}

@@ -28,6 +28,6 @@
 				]
 			}
 		],
-		"replace": false
+		"mode": "append"
 	}
 ]

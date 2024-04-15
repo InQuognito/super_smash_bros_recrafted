@@ -10,7 +10,7 @@
 		}
 	},
 	{
-		"function": "minecraft:set_nbt",
-		"tag": "{CustomModelData:1522}"
+		"function": "minecraft:set_custom_model_data",
+		"value": 1522
 	}
 ]

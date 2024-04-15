@@ -9,22 +9,12 @@
 					"name": "minecraft:barrier",
 					"functions": [
 						{
-							"function": "minecraft:set_name",
-							"entity": "this",
-							"name": {
-								"translate": "ssbrc.fighters.hero.skin.erdrick",
-								"color": "yellow",
-								"bold": true,
-								"italic": false
-							}
+							"function": "minecraft:reference",
+							"name": "ssbrc:fighters/hero/skins/erdrick"
 						},
 						{
 							"function": "minecraft:reference",
 							"name": "ssbrc:ui/shop/owned"
-						},
-						{
-							"function": "minecraft:set_nbt",
-							"tag": "{CustomModelData:444}"
 						}
 					]
 				}

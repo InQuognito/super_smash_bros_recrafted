@@ -17,8 +17,8 @@
 							"name": "ssbrc:fighters/joker/personas/sandman"
 						},
 						{
-							"function": "minecraft:set_nbt",
-							"tag": "{CustomModelData:606}"
+							"function": "minecraft:set_custom_model_data",
+							"value": 606
 						}
 					]
 				}

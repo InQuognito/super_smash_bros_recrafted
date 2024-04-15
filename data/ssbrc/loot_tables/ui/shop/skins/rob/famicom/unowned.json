@@ -9,14 +9,8 @@
 					"name": "minecraft:barrier",
 					"functions": [
 						{
-							"function": "minecraft:set_name",
-							"entity": "this",
-							"name": {
-								"translate": "ssbrc.fighters.rob.skin.famicom",
-								"color": "red",
-								"bold": true,
-								"italic": false
-							}
+							"function": "minecraft:reference",
+							"name": "ssbrc:fighters/rob/skins/famicom"
 						},
 						{
 							"function": "minecraft:reference",
@@ -27,8 +21,8 @@
 							"name": "ssbrc:ui/shop/unowned"
 						},
 						{
-							"function": "minecraft:set_nbt",
-							"tag": "{ui:{id:\"skins.rob.famicom\",sound:\"click\"},CustomModelData:7}"
+							"function": "minecraft:set_custom_data",
+							"tag": "{ui:{id:\"skins.rob.famicom\",sound:\"click\"}}"
 						}
 					]
 				}

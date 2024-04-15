@@ -17,8 +17,8 @@
 							"name": "ssbrc:fighters/link/boomerang"
 						},
 						{
-							"function": "minecraft:set_nbt",
-							"tag": "{CustomModelData:723}"
+							"function": "minecraft:set_custom_model_data",
+							"value": 723
 						}
 					]
 				}

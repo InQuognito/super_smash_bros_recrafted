@@ -34,10 +34,10 @@
 				]
 			}
 		],
-		"replace": false
+		"mode": "append"
 	},
 	{
-		"function": "minecraft:set_nbt",
+		"function": "minecraft:set_custom_data",
 		"tag": "{ray_blaster:1,power_up:0,railgun:1}"
 	}
 ]

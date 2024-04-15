@@ -1,0 +1,16 @@
+[
+	{
+		"function": "minecraft:set_name",
+		"entity": "this",
+		"target": "item_name",
+		"name": {
+			"translate": "ssbrc.fighters.ganondorf.skin.tears_of_the_kingdom",
+			"color": "dark_red",
+			"bold": true
+		}
+	},
+	{
+		"function": "minecraft:set_custom_model_data",
+		"value": 403
+	}
+]

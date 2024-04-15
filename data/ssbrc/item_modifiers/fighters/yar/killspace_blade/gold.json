@@ -3,14 +3,14 @@
 		"function": "minecraft:set_name",
 		"entity": "this",
 		"name": {
-			"translate": "ssbrc.tooltips.yar.killspaceBlade",
+			"translate": "ssbrc.tooltips.yar.killspace_blade",
 			"color": "gold",
 			"bold": true,
 			"italic": false
 		}
 	},
 	{
-		"function": "minecraft:set_nbt",
-		"tag": "{CustomModelData:1961}"
+		"function": "minecraft:set_custom_model_data",
+		"value": 1961
 	}
 ]

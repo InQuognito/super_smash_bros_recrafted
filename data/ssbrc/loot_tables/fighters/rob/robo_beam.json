@@ -49,14 +49,14 @@
 									"italic": false
 								}
 							],
-							"replace": false
+							"mode": "append"
 						},
 						{
 							"function": "minecraft:reference",
 							"name": "ssbrc:fighters/rob/robo_beam"
 						},
 						{
-							"function": "minecraft:set_nbt",
+							"function": "minecraft:set_custom_data",
 							"tag": "{robo_beam:1}"
 						}
 					]

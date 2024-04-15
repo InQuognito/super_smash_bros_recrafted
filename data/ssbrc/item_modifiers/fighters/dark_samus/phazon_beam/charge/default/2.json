@@ -1,0 +1,10 @@
+[
+	{
+		"function": "minecraft:set_custom_model_data",
+		"value": 264
+	},
+	{
+		"function": "minecraft:set_custom_data",
+		"tag": "{charge:2}"
+	}
+]

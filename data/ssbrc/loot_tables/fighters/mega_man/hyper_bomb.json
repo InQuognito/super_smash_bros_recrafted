@@ -67,14 +67,14 @@
 									]
 								}
 							],
-							"replace": false
+							"mode": "append"
 						},
 						{
 							"function": "minecraft:reference",
 							"name": "ssbrc:fighters/mega_man/hyper_bomb/default"
 						},
 						{
-							"function": "minecraft:set_nbt",
+							"function": "minecraft:set_custom_data",
 							"tag": "{hyper_bomb:1}"
 						}
 					]

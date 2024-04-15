@@ -47,11 +47,15 @@
 									]
 								}
 							],
-							"replace": false
+							"mode": "append"
 						},
 						{
-							"function": "minecraft:set_nbt",
-							"tag": "{junk_shield:1,CustomModelData:889}"
+							"function": "minecraft:set_custom_model_data",
+							"value": 889
+						},
+						{
+							"function": "minecraft:set_custom_data",
+							"tag": "{junk_shield:1}"
 						}
 					]
 				}

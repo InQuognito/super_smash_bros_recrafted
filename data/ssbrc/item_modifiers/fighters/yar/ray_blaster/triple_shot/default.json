@@ -3,14 +3,14 @@
 		"function": "minecraft:set_name",
 		"entity": "this",
 		"name": {
-			"translate": "ssbrc.tooltips.yar.tripleShot",
+			"translate": "ssbrc.tooltips.yar.triple_shot",
 			"color": "white",
 			"bold": true,
 			"italic": false
 		}
 	},
 	{
-		"function": "minecraft:set_nbt",
-		"tag": "{CustomModelData:1966}"
+		"function": "minecraft:set_custom_model_data",
+		"value": 1966
 	}
 ]

@@ -1,0 +1,28 @@
+{
+	"type": "minecraft:command",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:barrier",
+					"functions": [
+						{
+							"function": "minecraft:reference",
+							"name": "ssbrc:fighters/steve/skins/default"
+						},
+						{
+							"function": "minecraft:reference",
+							"name": "ssbrc:ui/separator"
+						},
+						{
+							"function": "minecraft:reference",
+							"name": "ssbrc:ui/unowned"
+						}
+					]
+				}
+			]
+		}
+	]
+}

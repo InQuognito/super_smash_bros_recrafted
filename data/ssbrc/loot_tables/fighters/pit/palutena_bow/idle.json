@@ -17,8 +17,8 @@
 							"name": "ssbrc:fighters/pit/palutena_bow/joined"
 						},
 						{
-							"function": "minecraft:set_nbt",
-							"tag": "{CustomModelData:1221}"
+							"function": "minecraft:set_custom_model_data",
+							"value": 1221
 						}
 					]
 				}

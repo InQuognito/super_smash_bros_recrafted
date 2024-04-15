@@ -10,8 +10,8 @@
 		}
 	},
 	{
-		"function": "minecraft:set_nbt",
-		"tag": "{charge:0,CustomModelData:261}",
+		"function": "minecraft:reference",
+		"name": "ssbrc:fighters/dark_samus/phazon_beam/charge/default/0",
 		"conditions": [
 			{
 				"condition": "minecraft:inverted",
@@ -28,8 +28,8 @@
 		]
 	},
 	{
-		"function": "minecraft:set_nbt",
-		"tag": "{charge:1,CustomModelData:263}",
+		"function": "minecraft:reference",
+		"name": "ssbrc:fighters/dark_samus/phazon_beam/charge/default/1",
 		"conditions": [
 			{
 				"condition": "minecraft:entity_scores",
@@ -41,8 +41,8 @@
 		]
 	},
 	{
-		"function": "minecraft:set_nbt",
-		"tag": "{charge:2,CustomModelData:264}",
+		"function": "minecraft:reference",
+		"name": "ssbrc:fighters/dark_samus/phazon_beam/charge/default/2",
 		"conditions": [
 			{
 				"condition": "minecraft:entity_scores",
@@ -54,8 +54,8 @@
 		]
 	},
 	{
-		"function": "minecraft:set_nbt",
-		"tag": "{charge:3,CustomModelData:265}",
+		"function": "minecraft:reference",
+		"name": "ssbrc:fighters/dark_samus/phazon_beam/charge/default/3",
 		"conditions": [
 			{
 				"condition": "minecraft:entity_scores",

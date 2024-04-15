@@ -1,7 +1,7 @@
 [
 	{
-		"function": "minecraft:set_nbt",
-		"tag": "{CustomModelData:1529}",
+		"function": "minecraft:set_custom_model_data",
+		"value": 1529}",
 		"conditions": [
 			{
 				"condition": "minecraft:inverted",
@@ -16,8 +16,8 @@
 		]
 	},
 	{
-		"function": "minecraft:set_nbt",
-		"tag": "{CustomModelData:1538}",
+		"function": "minecraft:set_custom_model_data",
+		"value": 1538}",
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",

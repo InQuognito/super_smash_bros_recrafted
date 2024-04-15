@@ -17,8 +17,12 @@
 							"name": "ssbrc:fighters/pit/palutena_bow"
 						},
 						{
-							"function": "minecraft:set_nbt",
-							"tag": "{split:1,CustomModelData:1225}"
+							"function": "minecraft:set_custom_model_data",
+							"value": 1225
+						},
+						{
+							"function": "minecraft:set_custom_data",
+							"tag": "{split:1}"
 						}
 					]
 				}

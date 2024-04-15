@@ -15,7 +15,7 @@
 					"italic": false
 				},
 				{
-					"translate": "ssbrc.tooltips.the_legend_of_zelda.poisonArrow",
+					"translate": "ssbrc.tooltips.the_legend_of_zelda.poison_arrow",
 					"color": "green",
 					"bold": false,
 					"italic": false
@@ -34,10 +34,10 @@
 				"italic": false
 			}
 		],
-		"replace": false
+		"mode": "append"
 	},
 	{
-		"function": "minecraft:set_nbt",
+		"function": "minecraft:set_custom_data",
 		"tag": "{bow:1,poison:1}"
 	}
 ]

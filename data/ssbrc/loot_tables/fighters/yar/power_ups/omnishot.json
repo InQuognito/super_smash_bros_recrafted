@@ -37,7 +37,7 @@
 									"italic": false
 								}
 							],
-							"replace": false
+							"mode": "append"
 						},
 						{
 							"function": "minecraft:reference",

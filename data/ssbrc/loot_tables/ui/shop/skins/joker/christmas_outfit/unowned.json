@@ -9,22 +9,8 @@
 					"name": "minecraft:barrier",
 					"functions": [
 						{
-							"function": "minecraft:set_name",
-							"entity": "this",
-							"name": {
-								"translate": "ssbrc.fighters.joker.skin.christmas_outfit",
-								"color": "red",
-								"bold": true,
-								"italic": false
-							}
-						},
-						{
 							"function": "minecraft:reference",
-							"name": "ssbrc:ui/shop/collection/winter"
-						},
-						{
-							"function": "minecraft:reference",
-							"name": "ssbrc:ui/separator"
+							"name": "ssbrc:fighters/joker/skins/christmas_outfit"
 						},
 						{
 							"function": "minecraft:reference",
@@ -35,8 +21,8 @@
 							"name": "ssbrc:ui/shop/unowned"
 						},
 						{
-							"function": "minecraft:set_nbt",
-							"tag": "{ui:{id:\"skins.joker.christmas_outfit\",sound:\"click\"},CustomModelData:606}"
+							"function": "minecraft:set_custom_data",
+							"tag": "{ui:{id:\"skins.joker.christmas_outfit\",sound:\"click\"}}"
 						}
 					]
 				}

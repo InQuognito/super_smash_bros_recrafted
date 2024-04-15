@@ -9,14 +9,8 @@
 					"name": "minecraft:barrier",
 					"functions": [
 						{
-							"function": "minecraft:set_name",
-							"entity": "this",
-							"name": {
-								"translate": "ssbrc.fighters.hero.skin.sofia",
-								"color": "green",
-								"bold": true,
-								"italic": false
-							}
+							"function": "minecraft:reference",
+							"name": "ssbrc:fighters/hero/skins/sofia"
 						},
 						{
 							"function": "minecraft:reference",
@@ -27,8 +21,8 @@
 							"name": "ssbrc:ui/shop/unowned"
 						},
 						{
-							"function": "minecraft:set_nbt",
-							"tag": "{ui:{id:\"skins.hero.sofia\",sound:\"click\"},CustomModelData:448}"
+							"function": "minecraft:set_custom_data",
+							"tag": "{ui:{id:\"skins.hero.sofia\",sound:\"click\"}}"
 						}
 					]
 				}

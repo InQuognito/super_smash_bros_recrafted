@@ -1,7 +1,7 @@
 [
 	{
-		"function": "minecraft:set_nbt",
-		"tag": "{CustomModelData:1562}",
+		"function": "minecraft:set_custom_model_data",
+		"value": 1562}",
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -13,8 +13,8 @@
 		]
 	},
 	{
-		"function": "minecraft:set_nbt",
-		"tag": "{CustomModelData:1572}",
+		"function": "minecraft:set_custom_model_data",
+		"value": 1572}",
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -26,8 +26,8 @@
 		]
 	},
 	{
-		"function": "minecraft:set_nbt",
-		"tag": "{CustomModelData:1564}",
+		"function": "minecraft:set_custom_model_data",
+		"value": 1564}",
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -39,7 +39,7 @@
 		]
 	},
 	{
-		"function": "minecraft:set_nbt",
+		"function": "minecraft:set_custom_data",
 		"tag": "{secondary:1}"
 	}
 ]

@@ -6,14 +6,14 @@
 				"attribute": "minecraft:generic.attack_damage",
 				"name": "Attack Damage",
 				"amount": 8,
-				"operation": "multiply_base",
+				"operation": "add_multiplied_base",
 				"slot": "mainhand"
 			},
 			{
 				"attribute": "minecraft:generic.attack_speed",
 				"name": "Attack Speed",
 				"amount": 1,
-				"operation": "multiply_base",
+				"operation": "add_multiplied_base",
 				"slot": "mainhand"
 			}
 		]
@@ -23,7 +23,7 @@
 		"name": "ssbrc:fighters/init/preset/melee"
 	},
 	{
-		"function": "minecraft:set_nbt",
+		"function": "minecraft:set_custom_data",
 		"tag": "{ganondorf.sword:1}"
 	}
 ]

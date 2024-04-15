@@ -47,11 +47,15 @@
 									]
 								}
 							],
-							"replace": false
+							"mode": "append"
 						},
 						{
-							"function": "minecraft:set_nbt",
-							"tag": "{air_shooter:1,CustomModelData:884}"
+							"function": "minecraft:set_custom_model_data",
+							"value": 884
+						},
+						{
+							"function": "minecraft:set_custom_data",
+							"tag": "{air_shooter:1}"
 						}
 					]
 				}

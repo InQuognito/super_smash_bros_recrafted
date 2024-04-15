@@ -12,7 +12,7 @@
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"translate": "ssbrc.tooltips.hero.magicBurst",
+								"translate": "ssbrc.tooltips.hero.magic_burst",
 								"color": "light_purple",
 								"bold": true,
 								"italic": false
@@ -43,7 +43,7 @@
 											"italic": false
 										},
 										{
-											"translate": "ssbrc.tooltips.hero.magicBurst.description.1",
+											"translate": "ssbrc.tooltips.hero.magic_burst.description.1",
 											"color": "gray",
 											"bold": false,
 											"italic": false
@@ -51,11 +51,15 @@
 									]
 								}
 							],
-							"replace": false
+							"mode": "append"
 						},
 						{
-							"function": "minecraft:set_nbt",
-							"tag": "{hero.spell:1,magicBurst:1,CustomModelData:443}"
+							"function": "minecraft:set_custom_model_data",
+							"value": 443
+						},
+						{
+							"function": "minecraft:set_custom_data",
+							"tag": "{hero.spell:1,magic_burst:1}"
 						}
 					]
 				}

@@ -4,7 +4,7 @@
 		"name": "ssbrc:fighters/init/preset/ranged"
 	},
 	{
-		"function": "minecraft:set_nbt",
+		"function": "minecraft:set_custom_data",
 		"tag": "{ray_blaster:1,power_up:0}"
 	}
 ]

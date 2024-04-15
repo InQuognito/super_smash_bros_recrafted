@@ -51,11 +51,15 @@
 									]
 								}
 							],
-							"replace": false
+							"mode": "append"
 						},
 						{
-							"function": "minecraft:set_nbt",
-							"tag": "{steed_charge:1,CustomModelData:118}"
+							"function": "minecraft:set_custom_model_data",
+							"value": 118
+						},
+						{
+							"function": "minecraft:set_custom_data",
+							"tag": "{steed_charge:1}"
 						}
 					]
 				}

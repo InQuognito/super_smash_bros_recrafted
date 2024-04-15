@@ -4,7 +4,7 @@
 		"name": "ssbrc:fighters/init/preset/melee"
 	},
 	{
-		"function": "minecraft:set_nbt",
+		"function": "minecraft:set_custom_data",
 		"tag": "{steve.sword:1}"
 	}
 ]

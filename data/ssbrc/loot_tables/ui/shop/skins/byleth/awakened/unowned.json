@@ -9,14 +9,8 @@
 					"name": "minecraft:barrier",
 					"functions": [
 						{
-							"function": "minecraft:set_name",
-							"entity": "this",
-							"name": {
-								"translate": "ssbrc.fighters.byleth.skin.awakened",
-								"color": "aqua",
-								"bold": true,
-								"italic": false
-							}
+							"function": "minecraft:reference",
+							"name": "ssbrc:fighters/byleth/skins/awakened"
 						},
 						{
 							"function": "minecraft:reference",
@@ -27,8 +21,8 @@
 							"name": "ssbrc:ui/shop/unowned"
 						},
 						{
-							"function": "minecraft:set_nbt",
-							"tag": "{ui:{id:\"skins.byleth.awakened\",sound:\"click\"},CustomModelData:104}"
+							"function": "minecraft:set_custom_data",
+							"tag": "{ui:{id:\"skins.byleth.awakened\",sound:\"click\"}}"
 						}
 					]
 				}

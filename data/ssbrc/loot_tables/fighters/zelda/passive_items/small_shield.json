@@ -12,7 +12,7 @@
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"translate": "ssbrc.tooltips.zelda.passiveItem.smallShield",
+								"translate": "ssbrc.tooltips.zelda.passive_item.small_shield",
 								"color": "gray",
 								"bold": true,
 								"italic": false
@@ -59,8 +59,8 @@
 							"name": "ssbrc:fighters/init/preset/defensive"
 						},
 						{
-							"function": "minecraft:set_nbt",
-							"tag": "{passiveItem:1,smallShield:1}"
+							"function": "minecraft:set_custom_data",
+							"tag": "{passive_item:1,small_shield:1}"
 						}
 					]
 				}

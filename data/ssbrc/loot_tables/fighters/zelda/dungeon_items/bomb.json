@@ -77,14 +77,14 @@
 									"italic": false
 								}
 							],
-							"replace": false
+							"mode": "append"
 						},
 						{
 							"function": "minecraft:reference",
 							"name": "ssbrc:fighters/zelda/bomb/stowed"
 						},
 						{
-							"function": "minecraft:set_nbt",
+							"function": "minecraft:set_custom_data",
 							"tag": "{bomb:1}"
 						}
 					]

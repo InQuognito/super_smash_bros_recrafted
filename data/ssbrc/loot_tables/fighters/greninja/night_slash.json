@@ -25,7 +25,7 @@
 									"attribute": "minecraft:generic.attack_speed",
 									"name": "Attack Speed",
 									"amount": 2,
-									"operation": "multiply_base",
+									"operation": "add_multiplied_base",
 									"slot": "mainhand"
 								}
 							]
@@ -45,7 +45,7 @@
 									"italic": false
 								}
 							],
-							"replace": false
+							"mode": "append"
 						},
 						{
 							"function": "minecraft:reference",
@@ -77,7 +77,7 @@
 							]
 						},
 						{
-							"function": "minecraft:set_nbt",
+							"function": "minecraft:set_custom_data",
 							"tag": "{night_slash:1}"
 						}
 					]

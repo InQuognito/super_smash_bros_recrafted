@@ -9,18 +9,8 @@
 					"name": "minecraft:barrier",
 					"functions": [
 						{
-							"function": "minecraft:set_name",
-							"entity": "this",
-							"name": {
-								"translate": "ssbrc.fighters.luigi.skin.gooigi",
-								"color": "green",
-								"bold": true,
-								"italic": false
-							}
-						},
-						{
 							"function": "minecraft:reference",
-							"name": "ssbrc:ui/separator"
+							"name": "ssbrc:fighters/luigi/skins/gooigi"
 						},
 						{
 							"function": "minecraft:reference",
@@ -31,8 +21,8 @@
 							"name": "ssbrc:ui/shop/unowned"
 						},
 						{
-							"function": "minecraft:set_nbt",
-							"tag": "{ui:{id:\"skins.luigi.gooigi\",sound:\"click\"},CustomModelData:823}"
+							"function": "minecraft:set_custom_data",
+							"tag": "{ui:{id:\"skins.luigi.gooigi\",sound:\"click\"}}"
 						}
 					]
 				}

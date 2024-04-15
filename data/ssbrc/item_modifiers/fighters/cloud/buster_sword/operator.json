@@ -38,7 +38,7 @@
 				]
 			}
 		],
-		"replace": false
+		"mode": "append"
 	},
 	{
 		"function": "minecraft:reference",
@@ -69,6 +69,6 @@
 				]
 			}
 		],
-		"replace": false
+		"mode": "append"
 	}
 ]

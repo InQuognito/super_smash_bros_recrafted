@@ -61,7 +61,7 @@
 	],
 	"functions": [
 		{
-			"function": "minecraft:set_nbt",
+			"function": "minecraft:set_custom_data",
 			"tag": "{Tags:[\"steve.item\",\"steve.item.normal\",\"steve.item.tier\",\"steve.item.teleport\"]}"
 		}
 	]

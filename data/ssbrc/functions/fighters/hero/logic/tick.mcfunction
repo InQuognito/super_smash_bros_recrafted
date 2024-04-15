@@ -1,6 +1,6 @@
 execute if entity @s[scores={use_ability=1..,cooldown.1=..0,duration.2=..0},nbt={SelectedItem:{tag:{bang:1}}}] run function ssbrc:fighters/hero/logic/abilities/bang/check
 execute if entity @s[scores={use_ability=1..,cooldown.1=..0,duration.2=..0},nbt={SelectedItem:{tag:{kaclang:1}}}] run function ssbrc:fighters/hero/logic/abilities/kaclang/check
-execute if score @s[scores={use_ability=1..,duration.2=..0},nbt={SelectedItem:{tag:{magicBurst:1}}}] mana >= hero.mana.max vars run function ssbrc:fighters/hero/logic/abilities/magic_burst/activate
+execute if score @s[scores={use_ability=1..,duration.2=..0},nbt={SelectedItem:{tag:{magic_burst:1}}}] mana >= hero.mana.max vars run function ssbrc:fighters/hero/logic/abilities/magic_burst/activate
 
 # Mana
 function ssbrc:fighters/hero/logic/mana/update

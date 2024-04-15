@@ -10,8 +10,8 @@
 		}
 	},
 	{
-		"function": "set_nbt",
-		"tag": "{charging:0,CustomModelData:1963}",
+		"function": "minecraft:reference",
+		"name": "ssbrc:fighters/yar/ray_blaster/gatling_gun/default/default",
 		"conditions": [
 			{
 				"condition": "minecraft:inverted",
@@ -28,8 +28,8 @@
 		]
 	},
 	{
-		"function": "set_nbt",
-		"tag": "{charging:1,CustomModelData:1974}",
+		"function": "reference",
+		"name": "ssbrc:fighters/yar/ray_blaster/gatling_gun/default/charging",
 		"conditions": [
 			{
 				"condition": "minecraft:entity_scores",

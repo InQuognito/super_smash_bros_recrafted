@@ -17,8 +17,8 @@
 							"name": "ssbrc:fighters/joker/personas/raoul"
 						},
 						{
-							"function": "minecraft:set_nbt",
-							"tag": "{CustomModelData:605}"
+							"function": "minecraft:set_custom_model_data",
+							"value": 605
 						}
 					]
 				}

@@ -24,10 +24,10 @@
 				"italic": false
 			}
 		],
-		"replace": false
+		"mode": "append"
 	},
 	{
-		"function": "minecraft:set_nbt",
+		"function": "minecraft:set_custom_data",
 		"tag": "{brave_bow:1}"
 	}
 ]

@@ -1,0 +1,16 @@
+[
+	{
+		"function": "minecraft:set_name",
+		"entity": "this",
+		"target": "item_name",
+		"name": {
+			"translate": "ssbrc.fighters.luigi",
+			"color": "dark_green",
+			"bold": true
+		}
+	},
+	{
+		"function": "minecraft:set_custom_model_data",
+		"value": 820
+	}
+]

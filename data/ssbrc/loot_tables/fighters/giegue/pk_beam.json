@@ -59,11 +59,15 @@
 									]
 								}
 							],
-							"replace": false
+							"mode": "append"
 						},
 						{
-							"function": "minecraft:set_nbt",
-							"tag": "{pk_beam:1,CustomModelData:1862}"
+							"function": "minecraft:set_custom_model_data",
+							"value": 1862
+						},
+						{
+							"function": "minecraft:set_custom_data",
+							"tag": "{pk_beam:1}"
 						}
 					]
 				}

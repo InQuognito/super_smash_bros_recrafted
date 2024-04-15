@@ -9,7 +9,7 @@ execute if score ghostSirenTimer temp matches 30.. run function ssbrc:stages/pac
 
 # Pickups
 execute as @a[predicate=ssbrc:flag/player] at @s positioned ~ ~0.5 ~ if entity @e[type=minecraft:item_display,tag=dot,distance=..0.75] run function ssbrc:stages/pac_maze/logic/dots/pickup
-execute as @e[type=minecraft:item_display,tag=powerPellet] at @s if entity @p[predicate=ssbrc:flag/player,distance=..1.0] run function ssbrc:stages/pac_maze/logic/power_pellet/pickup
+execute as @e[type=minecraft:item_display,tag=power_pellet] at @s if entity @p[predicate=ssbrc:flag/player,distance=..1.0] run function ssbrc:stages/pac_maze/logic/power_pellet/pickup
 
 # Galaxian Flagship
 scoreboard players add @a[tag=galaxian_flagship] timer.galaxian_flagship 1

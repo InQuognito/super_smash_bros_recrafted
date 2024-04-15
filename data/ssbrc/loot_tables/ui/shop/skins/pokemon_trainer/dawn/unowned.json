@@ -9,14 +9,8 @@
 					"name": "minecraft:barrier",
 					"functions": [
 						{
-							"function": "minecraft:set_name",
-							"entity": "this",
-							"name": {
-								"translate": "ssbrc.fighters.pokemon_trainer.skin.dawn",
-								"color": "light_purple",
-								"bold": true,
-								"italic": false
-							}
+							"function": "minecraft:reference",
+							"name": "ssbrc:fighters/pokemon_trainer/skins/dawn"
 						},
 						{
 							"function": "minecraft:reference",
@@ -27,8 +21,8 @@
 							"name": "ssbrc:ui/shop/unowned"
 						},
 						{
-							"function": "minecraft:set_nbt",
-							"tag": "{ui:{id:\"skins.pokemon_trainer.dawn\",sound:\"click\"},CustomModelData:1271}"
+							"function": "minecraft:set_custom_data",
+							"tag": "{ui:{id:\"skins.pokemon_trainer.dawn\",sound:\"click\"}}"
 						}
 					]
 				}

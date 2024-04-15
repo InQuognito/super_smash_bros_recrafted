@@ -8,7 +8,7 @@
 		"name": "ssbrc:fighters/dark_samus/phazon_beam"
 	},
 	{
-		"function": "minecraft:set_nbt",
+		"function": "minecraft:set_custom_data",
 		"tag": "{charging:1}"
 	}
 ]

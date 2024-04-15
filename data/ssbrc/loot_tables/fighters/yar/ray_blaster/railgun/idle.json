@@ -17,8 +17,8 @@
 							"name": "ssbrc:fighters/yar/ray_blaster/railgun"
 						},
 						{
-							"function": "minecraft:set_nbt",
-							"tag": "{CustomModelData:1965}",
+							"function": "minecraft:set_custom_model_data",
+							"value": 1965,
 							"conditions": [
 								{
 									"condition": "minecraft:inverted",
@@ -33,8 +33,8 @@
 							]
 						},
 						{
-							"function": "minecraft:set_nbt",
-							"tag": "{CustomModelData:1981}",
+							"function": "minecraft:set_custom_model_data",
+							"value": 1981,
 							"conditions": [
 								{
 									"condition": "minecraft:entity_properties",

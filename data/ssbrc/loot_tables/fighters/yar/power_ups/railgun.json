@@ -67,7 +67,7 @@
 									]
 								}
 							],
-							"replace": false
+							"mode": "append"
 						},
 						{
 							"function": "minecraft:set_nbt",

@@ -10,8 +10,8 @@
 		}
 	},
 	{
-		"function": "minecraft:set_nbt",
-		"tag": "{shovelDrop:0,CustomModelData:1926}",
+		"function": "minecraft:reference",
+		"name": "ssbrc:fighters/shovel_knight/shovel_blade/toad_gear/default",
 		"conditions": [
 			{
 				"condition": "minecraft:inverted",
@@ -23,8 +23,8 @@
 		]
 	},
 	{
-		"function": "minecraft:set_nbt",
-		"tag": "{shovelDrop:1,CustomModelData:1927}",
+		"function": "minecraft:reference",
+		"name": "ssbrc:fighters/shovel_knight/shovel_blade/toad_gear/shovel_drop",
 		"conditions": [
 			{
 				"condition": "minecraft:reference",

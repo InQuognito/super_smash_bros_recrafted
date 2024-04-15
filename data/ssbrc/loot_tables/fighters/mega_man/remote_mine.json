@@ -47,11 +47,15 @@
 									]
 								}
 							],
-							"replace": false
+							"mode": "append"
 						},
 						{
-							"function": "minecraft:set_nbt",
-							"tag": "{remote_mine:1,CustomModelData:893}"
+							"function": "minecraft:set_custom_model_data",
+							"value": 893
+						},
+						{
+							"function": "minecraft:set_custom_data",
+							"tag": "{remote_mine:1}"
 						}
 					]
 				}

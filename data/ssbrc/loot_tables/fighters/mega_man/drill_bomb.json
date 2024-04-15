@@ -47,11 +47,15 @@
 									]
 								}
 							],
-							"replace": false
+							"mode": "append"
 						},
 						{
-							"function": "minecraft:set_nbt",
-							"tag": "{drill_bomb:1,CustomModelData:886}"
+							"function": "minecraft:set_custom_model_data",
+							"value": 886
+						},
+						{
+							"function": "minecraft:set_custom_data",
+							"tag": "{drill_bomb:1}"
 						}
 					]
 				}

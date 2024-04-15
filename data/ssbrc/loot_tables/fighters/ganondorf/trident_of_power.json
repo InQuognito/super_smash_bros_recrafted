@@ -34,7 +34,7 @@
 							"name": "ssbrc:fighters/init/unbreakable/smooth"
 						},
 						{
-							"function": "minecraft:set_nbt",
+							"function": "minecraft:set_custom_data",
 							"tag": "{trident_of_power:1}"
 						}
 					]

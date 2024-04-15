@@ -3,7 +3,7 @@
 		"function": "minecraft:set_name",
 		"entity": "this",
 		"name": {
-			"translate": "ssbrc.fighters.joker.persona.jackFrost",
+			"translate": "ssbrc.fighters.joker.persona.jack_frost",
 			"color": "aqua",
 			"bold": true,
 			"italic": false
@@ -20,7 +20,7 @@
 				"italic": false
 			}
 		],
-		"replace": false
+		"mode": "append"
 	},
 	{
 		"function": "minecraft:set_lore",
@@ -47,10 +47,10 @@
 				]
 			}
 		],
-		"replace": false
+		"mode": "append"
 	},
 	{
-		"function": "minecraft:set_nbt",
-		"tag": "{jackFrost:1}"
+		"function": "minecraft:set_custom_data",
+		"tag": "{jack_frost:1}"
 	}
 ]

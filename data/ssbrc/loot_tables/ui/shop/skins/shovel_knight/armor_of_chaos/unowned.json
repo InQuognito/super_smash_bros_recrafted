@@ -9,14 +9,8 @@
 					"name": "minecraft:barrier",
 					"functions": [
 						{
-							"function": "minecraft:set_name",
-							"entity": "this",
-							"name": {
-								"translate": "ssbrc.fighters.shovel_knight.skin.armor_of_chaos",
-								"color": "red",
-								"bold": true,
-								"italic": false
-							}
+							"function": "minecraft:reference",
+							"name": "ssbrc:fighters/shovel_knight/skins/armor_of_chaos"
 						},
 						{
 							"function": "minecraft:reference",
@@ -27,8 +21,8 @@
 							"name": "ssbrc:ui/shop/unowned"
 						},
 						{
-							"function": "minecraft:set_nbt",
-							"tag": "{ui:{id:\"skins.shovel_knight.armor_of_chaos\",sound:\"click\"},CustomModelData:1923}"
+							"function": "minecraft:set_custom_data",
+							"tag": "{ui:{id:\"skins.shovel_knight.armor_of_chaos\",sound:\"click\"}}"
 						}
 					]
 				}

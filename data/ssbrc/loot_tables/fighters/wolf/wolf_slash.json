@@ -15,14 +15,14 @@
 									"attribute": "minecraft:generic.attack_damage",
 									"name": "Attack Damage",
 									"amount": 5,
-									"operation": "multiply_base",
+									"operation": "add_multiplied_base",
 									"slot": "mainhand"
 								},
 								{
 									"attribute": "minecraft:generic.attack_speed",
 									"name": "Attack Speed",
 									"amount": 1.5,
-									"operation": "multiply_base",
+									"operation": "add_multiplied_base",
 									"slot": "mainhand"
 								}
 							]
@@ -74,7 +74,7 @@
 									"italic": false
 								}
 							],
-							"replace": false
+							"mode": "append"
 						},
 						{
 							"function": "minecraft:reference",
@@ -116,7 +116,7 @@
 							]
 						},
 						{
-							"function": "minecraft:set_nbt",
+							"function": "minecraft:set_custom_data",
 							"tag": "{wolf_slash:1}"
 						}
 					]

@@ -30,7 +30,7 @@
 				"italic": false
 			}
 		],
-		"replace": false
+		"mode": "append"
 	},
 	{
 		"function": "minecraft:set_attributes",
@@ -39,13 +39,13 @@
 				"attribute": "minecraft:generic.attack_damage",
 				"name": "Attack Damage",
 				"amount": 7,
-				"operation": "multiply_base",
+				"operation": "add_multiplied_base",
 				"slot": "mainhand"
 			}
 		]
 	},
 	{
-		"function": "minecraft:set_nbt",
+		"function": "minecraft:set_custom_data",
 		"tag": "{strike_raid:1}"
 	}
 ]

@@ -42,7 +42,7 @@
 							]
 						},
 						{
-							"function": "minecraft:set_nbt",
+							"function": "minecraft:set_custom_data",
 							"tag": "{s1000:1}"
 						}
 					]

@@ -31,8 +31,12 @@
 							"name": "ssbrc:fighters/joker/persona_ability/amrita_shower"
 						},
 						{
-							"function": "minecraft:set_nbt",
-							"tag": "{amrita_shower:1,CustomModelData:603}"
+							"function": "minecraft:set_custom_model_data",
+							"value": 603
+						},
+						{
+							"function": "minecraft:set_custom_data",
+							"tag": "{amrita_shower:1}"
 						}
 					]
 				}

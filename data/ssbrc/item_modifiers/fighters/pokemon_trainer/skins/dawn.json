@@ -1,0 +1,16 @@
+[
+	{
+		"function": "minecraft:set_name",
+		"entity": "this",
+		"target": "item_name",
+		"name": {
+			"translate": "ssbrc.fighters.pokemon_trainer.skin.dawn",
+			"color": "light_purple",
+			"bold": true
+		}
+	},
+	{
+		"function": "minecraft:set_custom_model_data",
+		"value": 1271
+	}
+]

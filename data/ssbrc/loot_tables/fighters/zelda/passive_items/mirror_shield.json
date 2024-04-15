@@ -12,7 +12,7 @@
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"translate": "ssbrc.tooltips.zelda.passiveItem.mirrorShield.description.1",
+								"translate": "ssbrc.tooltips.zelda.passive_item.mirror_shield.description.1",
 								"color": "white",
 								"bold": true,
 								"italic": false
@@ -71,8 +71,8 @@
 							"name": "ssbrc:fighters/init/animation/smooth"
 						},
 						{
-							"function": "minecraft:set_nbt",
-							"tag": "{passiveItem:1,mirrorShield:1}"
+							"function": "minecraft:set_custom_data",
+							"tag": "{passive_item:1,mirror_shield:1}"
 						}
 					]
 				}

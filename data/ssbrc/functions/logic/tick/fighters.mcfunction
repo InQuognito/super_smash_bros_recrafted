@@ -28,7 +28,7 @@ scoreboard players reset electric_terrain temp
 
 # Items
 execute if entity @s[scores={use_item=1..},nbt={SelectedItem:{tag:{angel_feather:1}}}] run function ssbrc:stages/palutenas_temple/logic/angel_feather/activate
-execute if entity @s[scores={use_item=1..},nbt={SelectedItem:{tag:{powerPellet:1}}}] run function ssbrc:stages/pac_maze/logic/power_pellet/use
+execute if entity @s[scores={use_item=1..},nbt={SelectedItem:{tag:{power_pellet:1}}}] run function ssbrc:stages/pac_maze/logic/power_pellet/use
 
 execute if entity @s[tag=angel_feather] run particle minecraft:dust_color_transition 1.0 1.0 0.0 0.5 1.0 1.0 1.0 ~ ~0.75 ~ 0.2 0.3 0.2 0.0 3 normal @a
 

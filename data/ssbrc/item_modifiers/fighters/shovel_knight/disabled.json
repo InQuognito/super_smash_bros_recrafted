@@ -10,7 +10,11 @@
 				"italic": false
 			}
 		],
-		"replace": false
+		"mode": "append"
+	},
+	{
+		"function": "minecraft:set_custom_data",
+		"tag": "{disabled:1}"
 	},
 	{
 		"function": "minecraft:reference",

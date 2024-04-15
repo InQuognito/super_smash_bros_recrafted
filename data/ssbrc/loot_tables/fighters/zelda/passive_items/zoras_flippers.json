@@ -12,7 +12,7 @@
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"translate": "ssbrc.tooltips.zelda.passiveItem.zoras_flippers",
+								"translate": "ssbrc.tooltips.zelda.passive_item.zoras_flippers",
 								"color": "blue",
 								"bold": true,
 								"italic": false
@@ -27,13 +27,13 @@
 							"entity": "this",
 							"lore": [
 								{
-									"translate": "ssbrc.tooltips.zelda.passiveItem.zoras_flippers.description.1",
+									"translate": "ssbrc.tooltips.zelda.passive_item.zoras_flippers.description.1",
 									"color": "gray",
 									"bold": false,
 									"italic": false
 								}
 							],
-							"replace": false
+							"mode": "append"
 						},
 						{
 							"function": "minecraft:set_nbt",

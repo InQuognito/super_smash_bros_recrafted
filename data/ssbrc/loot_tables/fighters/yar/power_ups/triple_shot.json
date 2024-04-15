@@ -12,7 +12,7 @@
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"translate": "ssbrc.tooltips.yar.tripleShot",
+								"translate": "ssbrc.tooltips.yar.triple_shot",
 								"color": "gold",
 								"bold": true,
 								"italic": false
@@ -57,7 +57,7 @@
 													"italic": false
 												},
 												{
-													"translate": "ssbrc.tooltips.yar.tripleShot",
+													"translate": "ssbrc.tooltips.yar.triple_shot",
 													"color": "gray",
 													"bold": false,
 													"italic": false
@@ -67,11 +67,11 @@
 									]
 								}
 							],
-							"replace": false
+							"mode": "append"
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{power_up:1,tripleShot:1,CustomModelData:1971}"
+							"tag": "{power_up:1,triple_shot:1,CustomModelData:1971}"
 						}
 					]
 				}

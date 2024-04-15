@@ -1,4 +1,4 @@
-tag @s add staticObject
+tag @s add static_object
 
 data merge entity @s {NoGravity:1b,ShowArms:1b}
 

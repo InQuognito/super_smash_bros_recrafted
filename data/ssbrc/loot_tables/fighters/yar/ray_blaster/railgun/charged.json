@@ -13,8 +13,8 @@
 							"name": "ssbrc:fighters/yar/ray_blaster/railgun/charging"
 						},
 						{
-							"function": "minecraft:set_nbt",
-							"tag": "{CustomModelData:1973}",
+							"function": "minecraft:set_custom_model_data",
+							"value": 1973,
 							"conditions": [
 								{
 									"condition": "minecraft:inverted",
@@ -29,8 +29,8 @@
 							]
 						},
 						{
-							"function": "minecraft:set_nbt",
-							"tag": "{CustomModelData:1983}",
+							"function": "minecraft:set_custom_model_data",
+							"value": 1983,
 							"conditions": [
 								{
 									"condition": "minecraft:entity_properties",

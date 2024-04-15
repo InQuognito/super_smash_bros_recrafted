@@ -9,49 +9,20 @@
 					"name": "minecraft:barrier",
 					"functions": [
 						{
-							"function": "minecraft:set_name",
-							"entity": "this",
-							"name": {
-								"translate": "ssbrc.fighters.king_k_rool",
-								"color": "dark_green",
-								"bold": true,
-								"italic": false
-							}
+							"function": "minecraft:reference",
+							"name": "ssbrc:fighters/king_k_rool/skins/default"
 						},
 						{
-							"function": "minecraft:set_lore",
-							"entity": "this",
-							"lore": [
-								{
-									"translate": "ssbrc.shop.price",
-									"color": "yellow",
-									"bold": false,
-									"italic": false,
-									"extra": [
-										{
-											"score": {
-												"name": "price.fighter.common",
-												"objective": "vars"
-											},
-											"bold": false,
-											"italic": false
-										},
-										{
-											"text": "₡",
-											"color": "yellow"
-										}
-									]
-								}
-							],
-							"replace": true
+							"function": "minecraft:reference",
+							"name": "ssbrc:ui/shop/price/fighter"
 						},
 						{
 							"function": "minecraft:reference",
 							"name": "ssbrc:ui/shop/unowned"
 						},
 						{
-							"function": "minecraft:set_nbt",
-							"tag": "{ui:{id:\"king_k_rool\",sound:\"click\"},CustomModelData:680}"
+							"function": "minecraft:set_custom_data",
+							"tag": "{ui:{id:\"king_k_rool\",sound:\"click\"}}"
 						}
 					]
 				}

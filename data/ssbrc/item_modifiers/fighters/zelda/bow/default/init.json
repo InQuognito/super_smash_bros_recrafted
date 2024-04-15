@@ -4,7 +4,7 @@
 		"name": "ssbrc:fighters/init/preset/bow"
 	},
 	{
-		"function": "minecraft:set_nbt",
+		"function": "minecraft:set_custom_data",
 		"tag": "{default:1}"
 	}
 ]

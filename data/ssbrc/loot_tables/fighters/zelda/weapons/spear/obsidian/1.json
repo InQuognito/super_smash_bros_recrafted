@@ -33,14 +33,14 @@
 									"attribute": "minecraft:generic.attack_damage",
 									"name": "Attack Damage",
 									"amount": 7,
-									"operation": "multiply_base",
+									"operation": "add_multiplied_base",
 									"slot": "mainhand"
 								},
 								{
 									"attribute": "minecraft:generic.attack_speed",
 									"name": "Attack Speed",
 									"amount": 1.5,
-									"operation": "multiply_base",
+									"operation": "add_multiplied_base",
 									"slot": "mainhand"
 								}
 							]
@@ -50,7 +50,7 @@
 							"name": "ssbrc:fighters/zelda/weapons/obsidian/spear"
 						},
 						{
-							"function": "minecraft:set_nbt",
+							"function": "minecraft:set_custom_data",
 							"tag": "{obsidian:1}"
 						}
 					]

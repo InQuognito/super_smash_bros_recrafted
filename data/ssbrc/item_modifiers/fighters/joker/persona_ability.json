@@ -11,6 +11,6 @@
 				"underlined": true
 			}
 		],
-		"replace": false
+		"mode": "append"
 	}
 ]

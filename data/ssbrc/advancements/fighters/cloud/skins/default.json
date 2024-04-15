@@ -2,7 +2,7 @@
 	"parent": "ssbrc:skins",
 	"criteria": {
 		"default": {
-			"trigger": "minecraft:impossible"
+			"trigger": "minecraft:tick"
 		}
 	}
 }

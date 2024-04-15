@@ -95,7 +95,7 @@
 									]
 								}
 							],
-							"replace": false
+							"mode": "append"
 						},
 						{
 							"function": "minecraft:set_lore",
@@ -127,7 +127,7 @@
 									]
 								}
 							],
-							"replace": false
+							"mode": "append"
 						},
 						{
 							"function": "minecraft:set_lore",
@@ -168,7 +168,7 @@
 									]
 								}
 							],
-							"replace": false
+							"mode": "append"
 						},
 						{
 							"function": "minecraft:set_lore",
@@ -200,11 +200,11 @@
 									]
 								}
 							],
-							"replace": false
+							"mode": "append"
 						},
 						{
-							"function": "minecraft:set_nbt",
-							"tag": "{CustomModelData:1}"
+							"function": "minecraft:set_custom_model_data",
+							"value": 1
 						}
 					]
 				}

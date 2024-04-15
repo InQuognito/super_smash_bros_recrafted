@@ -1,6 +1,8 @@
 [
 	{
-		"function": "minecraft:set_nbt",
-		"tag": "{HideFlags:255}"
+		"function": "minecraft:set_components",
+		"components": {
+			"minecraft:hide_tooltip": {}
+		}
 	}
 ]

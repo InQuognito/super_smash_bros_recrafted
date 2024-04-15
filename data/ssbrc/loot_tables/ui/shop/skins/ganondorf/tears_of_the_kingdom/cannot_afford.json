@@ -9,14 +9,8 @@
 					"name": "minecraft:barrier",
 					"functions": [
 						{
-							"function": "minecraft:set_name",
-							"entity": "this",
-							"name": {
-								"translate": "ssbrc.fighters.ganondorf.skin.tears_of_the_kingdom",
-								"color": "dark_red",
-								"bold": true,
-								"italic": false
-							}
+							"function": "minecraft:reference",
+							"name": "ssbrc:fighters/ganondorf/skins/tears_of_the_kingdom"
 						},
 						{
 							"function": "minecraft:reference",
@@ -25,10 +19,6 @@
 						{
 							"function": "minecraft:reference",
 							"name": "ssbrc:ui/shop/cannot_afford"
-						},
-						{
-							"function": "minecraft:set_nbt",
-							"tag": "{CustomModelData:403}"
 						}
 					]
 				}

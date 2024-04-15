@@ -1,0 +1,24 @@
+{
+	"type": "minecraft:command",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:barrier",
+					"functions": [
+						{
+							"function": "minecraft:reference",
+							"name": "ssbrc:fighters/pokemon_trainer/skins/shiny"
+						},
+						{
+							"function": "minecraft:reference",
+							"name": "ssbrc:ui/shop/owned"
+						}
+					]
+				}
+			]
+		}
+	]
+}

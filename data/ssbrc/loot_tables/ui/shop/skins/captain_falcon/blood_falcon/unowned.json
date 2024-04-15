@@ -9,14 +9,8 @@
 					"name": "minecraft:barrier",
 					"functions": [
 						{
-							"function": "minecraft:set_name",
-							"entity": "this",
-							"name": {
-								"translate": "ssbrc.fighters.captain_falcon.skin.blood_falcon",
-								"color": "dark_red",
-								"bold": true,
-								"italic": false
-							}
+							"function": "minecraft:reference",
+							"name": "ssbrc:fighters/captain_falcon/skins/blood_falcon"
 						},
 						{
 							"function": "minecraft:reference",
@@ -27,8 +21,8 @@
 							"name": "ssbrc:ui/shop/unowned"
 						},
 						{
-							"function": "minecraft:set_nbt",
-							"tag": "{ui:{id:\"skins.captain_falcon.blood_falcon\",sound:\"click\"},CustomModelData:123}"
+							"function": "minecraft:set_custom_data",
+							"tag": "{ui:{id:\"skins.captain_falcon.blood_falcon\",sound:\"click\"}}"
 						}
 					]
 				}

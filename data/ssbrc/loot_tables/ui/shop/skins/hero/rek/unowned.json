@@ -9,14 +9,8 @@
 					"name": "minecraft:barrier",
 					"functions": [
 						{
-							"function": "minecraft:set_name",
-							"entity": "this",
-							"name": {
-								"translate": "ssbrc.fighters.hero.skin.rek",
-								"color": "blue",
-								"bold": true,
-								"italic": false
-							}
+							"function": "minecraft:reference",
+							"name": "ssbrc:fighters/hero/skins/rek"
 						},
 						{
 							"function": "minecraft:reference",
@@ -27,8 +21,8 @@
 							"name": "ssbrc:ui/shop/unowned"
 						},
 						{
-							"function": "minecraft:set_nbt",
-							"tag": "{ui:{id:\"skins.hero.rek\",sound:\"click\"},CustomModelData:446}"
+							"function": "minecraft:set_custom_data",
+							"tag": "{ui:{id:\"skins.hero.rek\",sound:\"click\"}}"
 						}
 					]
 				}

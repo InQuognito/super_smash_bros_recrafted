@@ -1,5 +1,5 @@
 tag @s add barrel_cannon.path
-tag @s add noKill
+tag @s add no_kill
 
 data merge entity @s {Small:1b}
 

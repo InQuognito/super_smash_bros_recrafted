@@ -10,7 +10,11 @@
 		}
 	},
 	{
-		"function": "minecraft:set_nbt",
-		"tag": "{disabled:1,CustomModelData:1904}"
+		"function": "minecraft:set_custom_model_data",
+		"value": 1904
+	},
+	{
+		"function": "minecraft:set_custom_data",
+		"tag": "{disabled:1}"
 	}
 ]

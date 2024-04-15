@@ -29,21 +29,25 @@
 									"attribute": "minecraft:generic.attack_damage",
 									"name": "Attack Damage",
 									"amount": 6,
-									"operation": "multiply_base",
+									"operation": "add_multiplied_base",
 									"slot": "mainhand"
 								},
 								{
 									"attribute": "minecraft:generic.attack_speed",
 									"name": "Attack Speed",
 									"amount": 1,
-									"operation": "multiply_base",
+									"operation": "add_multiplied_base",
 									"slot": "mainhand"
 								}
 							]
 						},
 						{
-							"function": "minecraft:set_nbt",
-							"tag": "{dragon_claw:1,CustomModelData:1828}"
+							"function": "minecraft:set_custom_model_data",
+							"value": 1828
+						},
+						{
+							"function": "minecraft:set_custom_data",
+							"tag": "{dragon_claw:1}"
 						}
 					]
 				}

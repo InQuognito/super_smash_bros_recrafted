@@ -9,14 +9,8 @@
 					"name": "minecraft:barrier",
 					"functions": [
 						{
-							"function": "minecraft:set_name",
-							"entity": "this",
-							"name": {
-								"translate": "ssbrc.fighters.pokemon_trainer.skin.victor",
-								"color": "dark_blue",
-								"bold": true,
-								"italic": false
-							}
+							"function": "minecraft:reference",
+							"name": "ssbrc:fighters/pokemon_trainer/skins/victor"
 						},
 						{
 							"function": "minecraft:reference",
@@ -25,10 +19,6 @@
 						{
 							"function": "minecraft:reference",
 							"name": "ssbrc:ui/shop/cannot_afford"
-						},
-						{
-							"function": "minecraft:set_nbt",
-							"tag": "{CustomModelData:1275}"
 						}
 					]
 				}

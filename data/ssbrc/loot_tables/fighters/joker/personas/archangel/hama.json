@@ -31,8 +31,12 @@
 							"name": "ssbrc:fighters/joker/persona_ability/hama"
 						},
 						{
-							"function": "minecraft:set_nbt",
-							"tag": "{hama:1,CustomModelData:605}"
+							"function": "minecraft:set_custom_model_data",
+							"value": 605
+						},
+						{
+							"function": "minecraft:set_custom_data",
+							"tag": "{hama:1}"
 						}
 					]
 				}

@@ -9,8 +9,8 @@
 					"name": "minecraft:gray_stained_glass_pane",
 					"functions": [
 						{
-							"function": "minecraft:set_nbt",
-							"tag": "{UIPlaceHolder:1b,display:{Name:'{\"translate\": \"...\",\"color\":\"gray\"}'}}"
+							"function": "minecraft:reference",
+							"name": "ssbrc:ui/null"
 						}
 					]
 				}

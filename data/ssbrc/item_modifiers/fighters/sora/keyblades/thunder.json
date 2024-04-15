@@ -24,7 +24,7 @@
 				]
 			}
 		],
-		"replace": false,
+		"mode": "append",
 		"conditions": [
 			{
 				"condition": "minecraft:inverted",
@@ -63,7 +63,7 @@
 				]
 			}
 		],
-		"replace": false,
+		"mode": "append",
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -115,10 +115,10 @@
 				]
 			}
 		],
-		"replace": false
+		"mode": "append"
 	},
 	{
-		"function": "minecraft:set_nbt",
+		"function": "minecraft:set_custom_data",
 		"tag": "{thunder:1}"
 	}
 ]

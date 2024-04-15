@@ -32,7 +32,7 @@
 				]
 			}
 		],
-		"replace": false
+		"mode": "append"
 	},
 	{
 		"function": "minecraft:reference",
@@ -43,8 +43,8 @@
 		"name": "ssbrc:fighters/joker/persona_ability"
 	},
 	{
-		"function": "minecraft:set_nbt",
-		"tag": "{CustomModelData:602}",
+		"function": "minecraft:set_custom_model_data",
+		"value": 602,
 		"conditions": [
 			{
 				"condition": "minecraft:inverted",
@@ -59,8 +59,8 @@
 		]
 	},
 	{
-		"function": "minecraft:set_nbt",
-		"tag": "{CustomModelData:608}",
+		"function": "minecraft:set_custom_model_data",
+		"value": 608,
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -72,7 +72,7 @@
 		]
 	},
 	{
-		"function": "minecraft:set_nbt",
+		"function": "minecraft:set_custom_data",
 		"tag": "{mask:1}"
 	}
 ]

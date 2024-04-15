@@ -57,11 +57,15 @@
 									"italic": false
 								}
 							],
-							"replace": false
+							"mode": "append"
 						},
 						{
-							"function": "minecraft:set_nbt",
-							"tag": "{thunder_jolt:1,CustomModelData:50003}"
+							"function": "minecraft:set_custom_model_data",
+							"value": 50003
+						},
+						{
+							"function": "minecraft:set_custom_data",
+							"tag": "{thunder_jolt:1}"
 						}
 					]
 				}

@@ -65,11 +65,15 @@
 									"italic": false
 								}
 							],
-							"replace": false
+							"mode": "append"
 						},
 						{
-							"function": "minecraft:set_nbt",
-							"tag": "{pk_freeze:1,CustomModelData:1861}"
+							"function": "minecraft:set_custom_model_data",
+							"value": 1861
+						},
+						{
+							"function": "minecraft:set_custom_data",
+							"tag": "{pk_freeze:1}"
 						}
 					]
 				}

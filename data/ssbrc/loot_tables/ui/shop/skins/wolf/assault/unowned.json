@@ -9,14 +9,8 @@
 					"name": "minecraft:barrier",
 					"functions": [
 						{
-							"function": "minecraft:set_name",
-							"entity": "this",
-							"name": {
-								"translate": "ssbrc.fighters.wolf.skin.assault",
-								"color": "green",
-								"bold": true,
-								"italic": false
-							}
+							"function": "minecraft:reference",
+							"name": "ssbrc:fighters/wolf/skins/assault"
 						},
 						{
 							"function": "minecraft:reference",
@@ -27,8 +21,8 @@
 							"name": "ssbrc:ui/shop/unowned"
 						},
 						{
-							"function": "minecraft:set_nbt",
-							"tag": "{ui:{id:\"skins.wolf.assault\",sound:\"click\"},CustomModelData:1722}"
+							"function": "minecraft:set_custom_data",
+							"tag": "{ui:{id:\"skins.wolf.assault\",sound:\"click\"}}"
 						}
 					]
 				}

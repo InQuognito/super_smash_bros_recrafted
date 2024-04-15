@@ -4,7 +4,7 @@
 		"name": "ssbrc:fighters/init/animation/instant"
 	},
 	{
-		"function": "minecraft:set_nbt",
+		"function": "minecraft:set_custom_data",
 		"tag": "{persona_awakening:1}"
 	}
 ]

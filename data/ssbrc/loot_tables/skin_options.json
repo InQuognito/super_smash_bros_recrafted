@@ -47,11 +47,15 @@
 									]
 								}
 							],
-							"replace": false
+							"mode": "append"
 						},
 						{
-							"function": "minecraft:set_nbt",
-							"tag": "{skin_options:1,CustomModelData:9999988}"
+							"function": "minecraft:set_custom_model_data",
+							"value": 9999988
+						},
+						{
+							"function": "minecraft:set_custom_data",
+							"tag": "{skin_options:1}"
 						}
 					]
 				}

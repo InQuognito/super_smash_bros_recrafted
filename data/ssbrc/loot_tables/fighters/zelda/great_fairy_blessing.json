@@ -37,14 +37,14 @@
 									"italic": false
 								}
 							],
-							"replace": false
+							"mode": "append"
 						},
 						{
 							"function": "minecraft:reference",
 							"name": "ssbrc:fighters/zelda/great_fairy_blessing"
 						},
 						{
-							"function": "minecraft:set_nbt",
+							"function": "minecraft:set_custom_data",
 							"tag": "{great_fairy_blessing:1}"
 						}
 					]

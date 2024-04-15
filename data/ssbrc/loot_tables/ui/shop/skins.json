@@ -1,0 +1,38 @@
+{
+	"type": "minecraft:command",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:iron_chestplate",
+					"functions": [
+						{
+							"function": "minecraft:set_name",
+							"entity": "this",
+							"target": "item_name",
+							"name": {
+								"translate": "ssbrc.game.skins",
+								"color": "yellow",
+								"bold": true
+							}
+						},
+						{
+							"function": "minecraft:reference",
+							"name": "ssbrc:ui/separator"
+						},
+						{
+							"function": "minecraft:reference",
+							"name": "ssbrc:ui/owned"
+						},
+						{
+							"function": "minecraft:set_custom_data",
+							"tag": "{ui:{id:\"navigation.skins.1\",sound:\"click\"}"
+						}
+					]
+				}
+			]
+		}
+	]
+}

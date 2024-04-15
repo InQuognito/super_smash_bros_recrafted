@@ -11,11 +11,11 @@
 						{
 							"function": "minecraft:set_name",
 							"entity": "this",
+							"target": "item_name",
 							"name": {
 								"translate": "ssbrc.shop.credits",
 								"color": "gold",
 								"bold": true,
-								"italic": false,
 								"extra": [
 									{
 										"score": {
@@ -23,21 +23,23 @@
 											"objective": "stats.credits"
 										},
 										"color": "yellow",
-										"bold": false,
-										"italic": false
+										"bold": false
 									},
 									{
 										"text": "₡",
 										"color": "yellow",
-										"bold": false,
-										"italic": false
+										"bold": false
 									}
 								]
 							}
 						},
 						{
-							"function": "minecraft:set_nbt",
-							"tag": "{UIPlaceHolder:1b,CustomModelData:1,HideFlags:255}"
+							"function": "minecraft:set_custom_model_data",
+							"value": 1
+						},
+						{
+							"function": "minecraft:set_custom_data",
+							"tag": "{ui.placeholder:1b}"
 						}
 					]
 				}

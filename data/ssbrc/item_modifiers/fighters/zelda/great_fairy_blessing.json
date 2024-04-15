@@ -1,7 +1,7 @@
 [
 	{
-		"function": "minecraft:set_nbt",
-		"tag": "{CustomModelData:9045}",
+		"function": "minecraft:set_custom_model_data",
+		"value": 9045}",
 		"conditions": [
 			{
 				"condition": "minecraft:value_check",
@@ -18,8 +18,8 @@
 		]
 	},
 	{
-		"function": "minecraft:set_nbt",
-		"tag": "{CustomModelData:9046}",
+		"function": "minecraft:set_custom_model_data",
+		"value": 9046}",
 		"conditions": [
 			{
 				"condition": "minecraft:value_check",
@@ -36,8 +36,8 @@
 		]
 	},
 	{
-		"function": "minecraft:set_nbt",
-		"tag": "{CustomModelData:9047}",
+		"function": "minecraft:set_custom_model_data",
+		"value": 9047}",
 		"conditions": [
 			{
 				"condition": "minecraft:value_check",
@@ -54,8 +54,8 @@
 		]
 	},
 	{
-		"function": "minecraft:set_nbt",
-		"tag": "{CustomModelData:9048}",
+		"function": "minecraft:set_custom_model_data",
+		"value": 9048}",
 		"conditions": [
 			{
 				"condition": "minecraft:value_check",
@@ -72,8 +72,8 @@
 		]
 	},
 	{
-		"function": "minecraft:set_nbt",
-		"tag": "{CustomModelData:9049}",
+		"function": "minecraft:set_custom_model_data",
+		"value": 9049}",
 		"conditions": [
 			{
 				"condition": "minecraft:value_check",

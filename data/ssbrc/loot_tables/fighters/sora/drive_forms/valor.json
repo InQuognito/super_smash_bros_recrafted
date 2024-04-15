@@ -103,11 +103,11 @@
 									]
 								}
 							],
-							"replace": false
+							"mode": "append"
 						},
 						{
-							"function": "minecraft:set_nbt",
-							"tag": "{CustomModelData:1567}",
+							"function": "minecraft:set_custom_model_data",
+							"value": 1567,
 							"conditions": [
 								{
 									"condition": "minecraft:inverted",
@@ -122,8 +122,8 @@
 							]
 						},
 						{
-							"function": "minecraft:set_nbt",
-							"tag": "{CustomModelData:1569}",
+							"function": "minecraft:set_custom_model_data",
+							"value": 1569,
 							"conditions": [
 								{
 									"condition": "minecraft:entity_properties",
@@ -135,7 +135,7 @@
 							]
 						},
 						{
-							"function": "minecraft:set_nbt",
+							"function": "minecraft:set_custom_data",
 							"tag": "{drive_form:1,valor:1}"
 						}
 					]

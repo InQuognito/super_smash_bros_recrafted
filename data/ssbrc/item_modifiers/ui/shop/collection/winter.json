@@ -20,6 +20,6 @@
 				]
 			}
 		],
-		"replace": false
+		"mode": "append"
 	}
 ]

@@ -1,0 +1,16 @@
+[
+	{
+		"function": "minecraft:set_name",
+		"entity": "this",
+		"target": "item_name",
+		"name": {
+			"translate": "ssbrc.fighters.altered_beast",
+			"color": "gold",
+			"bold": true
+		}
+	},
+	{
+		"function": "minecraft:set_custom_model_data",
+		"value": 1820
+	}
+]

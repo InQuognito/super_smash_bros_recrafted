@@ -13,8 +13,8 @@
 							"name": "ssbrc:fighters/byleth/golden_deer/brave_bow/idle"
 						},
 						{
-							"function": "minecraft:set_nbt",
-							"tag": "{CustomModelData:105}"
+							"function": "minecraft:set_custom_model_data",
+							"value": 105
 						}
 					]
 				}

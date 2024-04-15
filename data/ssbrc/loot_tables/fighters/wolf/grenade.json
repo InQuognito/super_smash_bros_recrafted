@@ -53,14 +53,14 @@
 									"italic": false
 								}
 							],
-							"replace": false
+							"mode": "append"
 						},
 						{
 							"function": "minecraft:reference",
 							"name": "ssbrc:fighters/wolf/grenade/default"
 						},
 						{
-							"function": "minecraft:set_nbt",
+							"function": "minecraft:set_custom_data",
 							"tag": "{grenade:1}"
 						}
 					]

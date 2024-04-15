@@ -8,7 +8,7 @@
 		"name": "ssbrc:fighters/init/unbreakable/smooth"
 	},
 	{
-		"function": "minecraft:set_nbt",
-		"tag": "{passiveItem:1}"
+		"function": "minecraft:set_custom_data",
+		"tag": "{passive_item:1}"
 	}
 ]

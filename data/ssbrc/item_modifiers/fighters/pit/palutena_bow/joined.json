@@ -4,7 +4,7 @@
 		"name": "ssbrc:fighters/pit/palutena_bow"
 	},
 	{
-		"function": "minecraft:set_nbt",
+		"function": "minecraft:set_custom_data",
 		"tag": "{split:0}"
 	}
 ]

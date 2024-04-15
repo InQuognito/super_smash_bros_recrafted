@@ -1,7 +1,12 @@
 [
 	{
-		"function": "minecraft:set_nbt",
-		"tag": "{Trim:{pattern:\"ssbrc:fighters/bowser/default\",material:\"minecraft:quartz\"}}",
+		"function": "minecraft:set_components",
+		"components": {
+			"minecraft:trim": {
+				"material": "minecraft:quartz",
+				"pattern": "ssbrc:fighters/bowser/default"
+			}
+		},
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -13,8 +18,13 @@
 		]
 	},
 	{
-		"function": "minecraft:set_nbt",
-		"tag": "{Trim:{pattern:\"ssbrc:fighters/bowser/gold\",material:\"minecraft:quartz\"}}",
+		"function": "minecraft:set_components",
+		"components": {
+			"minecraft:trim": {
+				"material": "minecraft:quartz",
+				"pattern": "ssbrc:fighters/bowser/gold"
+			}
+		},
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -26,8 +36,13 @@
 		]
 	},
 	{
-		"function": "minecraft:set_nbt",
-		"tag": "{Trim:{pattern:\"ssbrc:fighters/bowser/bowsette\",material:\"minecraft:quartz\"}}",
+		"function": "minecraft:set_components",
+		"components": {
+			"minecraft:trim": {
+				"material": "minecraft:quartz",
+				"pattern": "ssbrc:fighters/bowser/bowsette"
+			}
+		},
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -39,8 +54,13 @@
 		]
 	},
 	{
-		"function": "minecraft:set_nbt",
-		"tag": "{Trim:{pattern:\"ssbrc:fighters/byleth/default/female\",material:\"minecraft:quartz\"}}",
+		"function": "minecraft:set_components",
+		"components": {
+			"minecraft:trim": {
+				"material": "minecraft:quartz",
+				"pattern": "ssbrc:fighters/byleth/default/female"
+			}
+		},
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -52,8 +72,13 @@
 		]
 	},
 	{
-		"function": "minecraft:set_nbt",
-		"tag": "{Trim:{pattern:\"ssbrc:fighters/byleth/default/male\",material:\"minecraft:quartz\"}}",
+		"function": "minecraft:set_components",
+		"components": {
+			"minecraft:trim": {
+				"material": "minecraft:quartz",
+				"pattern": "ssbrc:fighters/byleth/default/male"
+			}
+		},
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -65,8 +90,13 @@
 		]
 	},
 	{
-		"function": "minecraft:set_nbt",
-		"tag": "{Trim:{pattern:\"ssbrc:fighters/byleth/gold/female\",material:\"minecraft:quartz\"}}",
+		"function": "minecraft:set_components",
+		"components": {
+			"minecraft:trim": {
+				"material": "minecraft:quartz",
+				"pattern": "ssbrc:fighters/byleth/gold/female"
+			}
+		},
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -78,8 +108,13 @@
 		]
 	},
 	{
-		"function": "minecraft:set_nbt",
-		"tag": "{Trim:{pattern:\"ssbrc:fighters/byleth/gold/male\",material:\"minecraft:quartz\"}}",
+		"function": "minecraft:set_components",
+		"components": {
+			"minecraft:trim": {
+				"material": "minecraft:quartz",
+				"pattern": "ssbrc:fighters/byleth/gold/male"
+			}
+		},
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -91,8 +126,13 @@
 		]
 	},
 	{
-		"function": "minecraft:set_nbt",
-		"tag": "{Trim:{pattern:\"ssbrc:fighters/byleth/awakened/female\",material:\"minecraft:quartz\"}}",
+		"function": "minecraft:set_components",
+		"components": {
+			"minecraft:trim": {
+				"material": "minecraft:quartz",
+				"pattern": "ssbrc:fighters/byleth/awakened/female"
+			}
+		},
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -104,8 +144,13 @@
 		]
 	},
 	{
-		"function": "minecraft:set_nbt",
-		"tag": "{Trim:{pattern:\"ssbrc:fighters/byleth/awakened/male\",material:\"minecraft:quartz\"}}",
+		"function": "minecraft:set_components",
+		"components": {
+			"minecraft:trim": {
+				"material": "minecraft:quartz",
+				"pattern": "ssbrc:fighters/byleth/awakened/male"
+			}
+		},
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -117,8 +162,13 @@
 		]
 	},
 	{
-		"function": "minecraft:set_nbt",
-		"tag": "{Trim:{pattern:\"ssbrc:fighters/captain_falcon/default\",material:\"minecraft:quartz\"}}",
+		"function": "minecraft:set_components",
+		"components": {
+			"minecraft:trim": {
+				"material": "minecraft:quartz",
+				"pattern": "ssbrc:fighters/captain_falcon/default"
+			}
+		},
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -130,8 +180,13 @@
 		]
 	},
 	{
-		"function": "minecraft:set_nbt",
-		"tag": "{Trim:{pattern:\"ssbrc:fighters/captain_falcon/gold\",material:\"minecraft:quartz\"}}",
+		"function": "minecraft:set_components",
+		"components": {
+			"minecraft:trim": {
+				"material": "minecraft:quartz",
+				"pattern": "ssbrc:fighters/captain_falcon/gold"
+			}
+		},
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -143,8 +198,13 @@
 		]
 	},
 	{
-		"function": "minecraft:set_nbt",
-		"tag": "{Trim:{pattern:\"ssbrc:fighters/captain_falcon/blood_falcon\",material:\"minecraft:quartz\"}}",
+		"function": "minecraft:set_components",
+		"components": {
+			"minecraft:trim": {
+				"material": "minecraft:quartz",
+				"pattern": "ssbrc:fighters/captain_falcon/blood_falcon"
+			}
+		},
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -156,8 +216,13 @@
 		]
 	},
 	{
-		"function": "minecraft:set_nbt",
-		"tag": "{Trim:{pattern:\"ssbrc:fighters/captain_falcon/rick_wheeler\",material:\"minecraft:quartz\"}}",
+		"function": "minecraft:set_components",
+		"components": {
+			"minecraft:trim": {
+				"material": "minecraft:quartz",
+				"pattern": "ssbrc:fighters/captain_falcon/rick_wheeler"
+			}
+		},
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -169,8 +234,13 @@
 		]
 	},
 	{
-		"function": "minecraft:set_nbt",
-		"tag": "{Trim:{pattern:\"ssbrc:fighters/cloud/default\",material:\"minecraft:quartz\"}}",
+		"function": "minecraft:set_components",
+		"components": {
+			"minecraft:trim": {
+				"material": "minecraft:quartz",
+				"pattern": "ssbrc:fighters/cloud/default"
+			}
+		},
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -182,8 +252,13 @@
 		]
 	},
 	{
-		"function": "minecraft:set_nbt",
-		"tag": "{Trim:{pattern:\"ssbrc:fighters/cloud/gold\",material:\"minecraft:quartz\"}}",
+		"function": "minecraft:set_components",
+		"components": {
+			"minecraft:trim": {
+				"material": "minecraft:quartz",
+				"pattern": "ssbrc:fighters/cloud/gold"
+			}
+		},
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -195,8 +270,13 @@
 		]
 	},
 	{
-		"function": "minecraft:set_nbt",
-		"tag": "{Trim:{pattern:\"ssbrc:fighters/dark_samus/default\",material:\"minecraft:quartz\"}}",
+		"function": "minecraft:set_components",
+		"components": {
+			"minecraft:trim": {
+				"material": "minecraft:quartz",
+				"pattern": "ssbrc:fighters/dark_samus/default"
+			}
+		},
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -208,8 +288,13 @@
 		]
 	},
 	{
-		"function": "minecraft:set_nbt",
-		"tag": "{Trim:{pattern:\"ssbrc:fighters/dark_samus/gold\",material:\"minecraft:quartz\"}}",
+		"function": "minecraft:set_components",
+		"components": {
+			"minecraft:trim": {
+				"material": "minecraft:quartz",
+				"pattern": "ssbrc:fighters/dark_samus/gold"
+			}
+		},
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -221,8 +306,13 @@
 		]
 	},
 	{
-		"function": "minecraft:set_nbt",
-		"tag": "{Trim:{pattern:\"ssbrc:fighters/donkey_kong/default\",material:\"minecraft:quartz\"}}",
+		"function": "minecraft:set_components",
+		"components": {
+			"minecraft:trim": {
+				"material": "minecraft:quartz",
+				"pattern": "ssbrc:fighters/donkey_kong/default"
+			}
+		},
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -234,8 +324,13 @@
 		]
 	},
 	{
-		"function": "minecraft:set_nbt",
-		"tag": "{Trim:{pattern:\"ssbrc:fighters/donkey_kong/gold\",material:\"minecraft:quartz\"}}",
+		"function": "minecraft:set_components",
+		"components": {
+			"minecraft:trim": {
+				"material": "minecraft:quartz",
+				"pattern": "ssbrc:fighters/donkey_kong/gold"
+			}
+		},
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -247,8 +342,13 @@
 		]
 	},
 	{
-		"function": "minecraft:set_nbt",
-		"tag": "{Trim:{pattern:\"ssbrc:fighters/donkey_kong/flower_power\",material:\"minecraft:quartz\"}}",
+		"function": "minecraft:set_components",
+		"components": {
+			"minecraft:trim": {
+				"material": "minecraft:quartz",
+				"pattern": "ssbrc:fighters/donkey_kong/flower_power"
+			}
+		},
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -260,8 +360,13 @@
 		]
 	},
 	{
-		"function": "minecraft:set_nbt",
-		"tag": "{Trim:{pattern:\"ssbrc:fighters/donkey_kong/super_kong\",material:\"minecraft:quartz\"}}",
+		"function": "minecraft:set_components",
+		"components": {
+			"minecraft:trim": {
+				"material": "minecraft:quartz",
+				"pattern": "ssbrc:fighters/donkey_kong/super_kong"
+			}
+		},
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -273,8 +378,13 @@
 		]
 	},
 	{
-		"function": "minecraft:set_nbt",
-		"tag": "{Trim:{pattern:\"ssbrc:fighters/fox/default\",material:\"minecraft:quartz\"}}",
+		"function": "minecraft:set_components",
+		"components": {
+			"minecraft:trim": {
+				"material": "minecraft:quartz",
+				"pattern": "ssbrc:fighters/fox/default"
+			}
+		},
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -286,8 +396,13 @@
 		]
 	},
 	{
-		"function": "minecraft:set_nbt",
-		"tag": "{Trim:{pattern:\"ssbrc:fighters/fox/gold\",material:\"minecraft:quartz\"}}",
+		"function": "minecraft:set_components",
+		"components": {
+			"minecraft:trim": {
+				"material": "minecraft:quartz",
+				"pattern": "ssbrc:fighters/fox/gold"
+			}
+		},
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -299,8 +414,13 @@
 		]
 	},
 	{
-		"function": "minecraft:set_nbt",
-		"tag": "{Trim:{pattern:\"ssbrc:fighters/fox/adventures\",material:\"minecraft:quartz\"}}",
+		"function": "minecraft:set_components",
+		"components": {
+			"minecraft:trim": {
+				"material": "minecraft:quartz",
+				"pattern": "ssbrc:fighters/fox/adventures"
+			}
+		},
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -312,8 +432,13 @@
 		]
 	},
 	{
-		"function": "minecraft:set_nbt",
-		"tag": "{Trim:{pattern:\"ssbrc:fighters/ganondorf/default\",material:\"minecraft:quartz\"}}",
+		"function": "minecraft:set_components",
+		"components": {
+			"minecraft:trim": {
+				"material": "minecraft:quartz",
+				"pattern": "ssbrc:fighters/ganondorf/default"
+			}
+		},
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -325,8 +450,13 @@
 		]
 	},
 	{
-		"function": "minecraft:set_nbt",
-		"tag": "{Trim:{pattern:\"ssbrc:fighters/ganondorf/gold\",material:\"minecraft:quartz\"}}",
+		"function": "minecraft:set_components",
+		"components": {
+			"minecraft:trim": {
+				"material": "minecraft:quartz",
+				"pattern": "ssbrc:fighters/ganondorf/gold"
+			}
+		},
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -338,8 +468,13 @@
 		]
 	},
 	{
-		"function": "minecraft:set_nbt",
-		"tag": "{Trim:{pattern:\"ssbrc:fighters/ganondorf/ocarina_of_time\",material:\"minecraft:quartz\"}}",
+		"function": "minecraft:set_components",
+		"components": {
+			"minecraft:trim": {
+				"material": "minecraft:quartz",
+				"pattern": "ssbrc:fighters/ganondorf/ocarina_of_time"
+			}
+		},
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -351,8 +486,13 @@
 		]
 	},
 	{
-		"function": "minecraft:set_nbt",
-		"tag": "{Trim:{pattern:\"ssbrc:fighters/ganondorf/tears_of_the_kingdom\",material:\"minecraft:quartz\"}}",
+		"function": "minecraft:set_components",
+		"components": {
+			"minecraft:trim": {
+				"material": "minecraft:quartz",
+				"pattern": "ssbrc:fighters/ganondorf/tears_of_the_kingdom"
+			}
+		},
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -364,8 +504,13 @@
 		]
 	},
 	{
-		"function": "minecraft:set_nbt",
-		"tag": "{Trim:{pattern:\"ssbrc:fighters/ganondorf/wind_waker\",material:\"minecraft:quartz\"}}",
+		"function": "minecraft:set_components",
+		"components": {
+			"minecraft:trim": {
+				"material": "minecraft:quartz",
+				"pattern": "ssbrc:fighters/ganondorf/wind_waker"
+			}
+		},
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -377,8 +522,13 @@
 		]
 	},
 	{
-		"function": "minecraft:set_nbt",
-		"tag": "{Trim:{pattern:\"ssbrc:fighters/greninja/default\",material:\"minecraft:quartz\"}}",
+		"function": "minecraft:set_components",
+		"components": {
+			"minecraft:trim": {
+				"material": "minecraft:quartz",
+				"pattern": "ssbrc:fighters/greninja/default"
+			}
+		},
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -390,8 +540,13 @@
 		]
 	},
 	{
-		"function": "minecraft:set_nbt",
-		"tag": "{Trim:{pattern:\"ssbrc:fighters/greninja/gold\",material:\"minecraft:quartz\"}}",
+		"function": "minecraft:set_components",
+		"components": {
+			"minecraft:trim": {
+				"material": "minecraft:quartz",
+				"pattern": "ssbrc:fighters/greninja/gold"
+			}
+		},
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -403,8 +558,13 @@
 		]
 	},
 	{
-		"function": "minecraft:set_nbt",
-		"tag": "{Trim:{pattern:\"ssbrc:fighters/greninja/shiny\",material:\"minecraft:quartz\"}}",
+		"function": "minecraft:set_components",
+		"components": {
+			"minecraft:trim": {
+				"material": "minecraft:quartz",
+				"pattern": "ssbrc:fighters/greninja/shiny"
+			}
+		},
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -416,8 +576,13 @@
 		]
 	},
 	{
-		"function": "minecraft:set_nbt",
-		"tag": "{Trim:{pattern:\"ssbrc:fighters/hero/default/default\",material:\"minecraft:quartz\"}}",
+		"function": "minecraft:set_components",
+		"components": {
+			"minecraft:trim": {
+				"material": "minecraft:quartz",
+				"pattern": "ssbrc:fighters/hero/default/default"
+			}
+		},
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -429,8 +594,13 @@
 		]
 	},
 	{
-		"function": "minecraft:set_nbt",
-		"tag": "{Trim:{pattern:\"ssbrc:fighters/hero/default/kaclang\",material:\"minecraft:quartz\"}}",
+		"function": "minecraft:set_components",
+		"components": {
+			"minecraft:trim": {
+				"material": "minecraft:quartz",
+				"pattern": "ssbrc:fighters/hero/default/kaclang"
+			}
+		},
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -442,8 +612,13 @@
 		]
 	},
 	{
-		"function": "minecraft:set_nbt",
-		"tag": "{Trim:{pattern:\"ssbrc:fighters/hero/gold/default\",material:\"minecraft:quartz\"}}",
+		"function": "minecraft:set_components",
+		"components": {
+			"minecraft:trim": {
+				"material": "minecraft:quartz",
+				"pattern": "ssbrc:fighters/hero/gold/default"
+			}
+		},
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -455,8 +630,13 @@
 		]
 	},
 	{
-		"function": "minecraft:set_nbt",
-		"tag": "{Trim:{pattern:\"ssbrc:fighters/hero/default/kaclang\",material:\"minecraft:quartz\"}}",
+		"function": "minecraft:set_components",
+		"components": {
+			"minecraft:trim": {
+				"material": "minecraft:quartz",
+				"pattern": "ssbrc:fighters/hero/default/kaclang"
+			}
+		},
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -468,8 +648,13 @@
 		]
 	},
 	{
-		"function": "minecraft:set_nbt",
-		"tag": "{Trim:{pattern:\"ssbrc:fighters/hero/erdrick/default\",material:\"minecraft:quartz\"}}",
+		"function": "minecraft:set_components",
+		"components": {
+			"minecraft:trim": {
+				"material": "minecraft:quartz",
+				"pattern": "ssbrc:fighters/hero/erdrick/default"
+			}
+		},
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -481,8 +666,13 @@
 		]
 	},
 	{
-		"function": "minecraft:set_nbt",
-		"tag": "{Trim:{pattern:\"ssbrc:fighters/hero/erdrick/kaclang\",material:\"minecraft:quartz\"}}",
+		"function": "minecraft:set_components",
+		"components": {
+			"minecraft:trim": {
+				"material": "minecraft:quartz",
+				"pattern": "ssbrc:fighters/hero/erdrick/kaclang"
+			}
+		},
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -494,8 +684,13 @@
 		]
 	},
 	{
-		"function": "minecraft:set_nbt",
-		"tag": "{Trim:{pattern:\"ssbrc:fighters/hero/rek/default\",material:\"minecraft:quartz\"}}",
+		"function": "minecraft:set_components",
+		"components": {
+			"minecraft:trim": {
+				"material": "minecraft:quartz",
+				"pattern": "ssbrc:fighters/hero/rek/default"
+			}
+		},
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -507,8 +702,13 @@
 		]
 	},
 	{
-		"function": "minecraft:set_nbt",
-		"tag": "{Trim:{pattern:\"ssbrc:fighters/hero/rek/kaclang\",material:\"minecraft:quartz\"}}",
+		"function": "minecraft:set_components",
+		"components": {
+			"minecraft:trim": {
+				"material": "minecraft:quartz",
+				"pattern": "ssbrc:fighters/hero/rek/kaclang"
+			}
+		},
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -520,8 +720,13 @@
 		]
 	},
 	{
-		"function": "minecraft:set_nbt",
-		"tag": "{Trim:{pattern:\"ssbrc:fighters/hero/sofia/default\",material:\"minecraft:quartz\"}}",
+		"function": "minecraft:set_components",
+		"components": {
+			"minecraft:trim": {
+				"material": "minecraft:quartz",
+				"pattern": "ssbrc:fighters/hero/sofia/default"
+			}
+		},
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -533,8 +738,13 @@
 		]
 	},
 	{
-		"function": "minecraft:set_nbt",
-		"tag": "{Trim:{pattern:\"ssbrc:fighters/hero/sofia/kaclang\",material:\"minecraft:quartz\"}}",
+		"function": "minecraft:set_components",
+		"components": {
+			"minecraft:trim": {
+				"material": "minecraft:quartz",
+				"pattern": "ssbrc:fighters/hero/sofia/kaclang"
+			}
+		},
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -546,8 +756,13 @@
 		]
 	},
 	{
-		"function": "minecraft:set_nbt",
-		"tag": "{Trim:{pattern:\"ssbrc:fighters/jigglypuff/default\",material:\"minecraft:quartz\"}}",
+		"function": "minecraft:set_components",
+		"components": {
+			"minecraft:trim": {
+				"material": "minecraft:quartz",
+				"pattern": "ssbrc:fighters/jigglypuff/default"
+			}
+		},
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -559,8 +774,13 @@
 		]
 	},
 	{
-		"function": "minecraft:set_nbt",
-		"tag": "{Trim:{pattern:\"ssbrc:fighters/jigglypuff/gold\",material:\"minecraft:quartz\"}}",
+		"function": "minecraft:set_components",
+		"components": {
+			"minecraft:trim": {
+				"material": "minecraft:quartz",
+				"pattern": "ssbrc:fighters/jigglypuff/gold"
+			}
+		},
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -572,8 +792,13 @@
 		]
 	},
 	{
-		"function": "minecraft:set_nbt",
-		"tag": "{Trim:{pattern:\"ssbrc:fighters/jigglypuff/shiny\",material:\"minecraft:quartz\"}}",
+		"function": "minecraft:set_components",
+		"components": {
+			"minecraft:trim": {
+				"material": "minecraft:quartz",
+				"pattern": "ssbrc:fighters/jigglypuff/shiny"
+			}
+		},
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -585,8 +810,13 @@
 		]
 	},
 	{
-		"function": "minecraft:set_nbt",
-		"tag": "{Trim:{pattern:\"ssbrc:fighters/joker/default\",material:\"minecraft:quartz\"}}",
+		"function": "minecraft:set_components",
+		"components": {
+			"minecraft:trim": {
+				"material": "minecraft:quartz",
+				"pattern": "ssbrc:fighters/joker/default"
+			}
+		},
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -598,8 +828,13 @@
 		]
 	},
 	{
-		"function": "minecraft:set_nbt",
-		"tag": "{Trim:{pattern:\"ssbrc:fighters/joker/gold\",material:\"minecraft:quartz\"}}",
+		"function": "minecraft:set_components",
+		"components": {
+			"minecraft:trim": {
+				"material": "minecraft:quartz",
+				"pattern": "ssbrc:fighters/joker/gold"
+			}
+		},
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -611,8 +846,13 @@
 		]
 	},
 	{
-		"function": "minecraft:set_nbt",
-		"tag": "{Trim:{pattern:\"ssbrc:fighters/joker/christmas_outfit\",material:\"minecraft:quartz\"}}",
+		"function": "minecraft:set_components",
+		"components": {
+			"minecraft:trim": {
+				"material": "minecraft:quartz",
+				"pattern": "ssbrc:fighters/joker/christmas_outfit"
+			}
+		},
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -624,8 +864,13 @@
 		]
 	},
 	{
-		"function": "minecraft:set_nbt",
-		"tag": "{Trim:{pattern:\"ssbrc:fighters/joker/shujin_academy\",material:\"minecraft:quartz\"}}",
+		"function": "minecraft:set_components",
+		"components": {
+			"minecraft:trim": {
+				"material": "minecraft:quartz",
+				"pattern": "ssbrc:fighters/joker/shujin_academy"
+			}
+		},
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -637,8 +882,13 @@
 		]
 	},
 	{
-		"function": "minecraft:set_nbt",
-		"tag": "{Trim:{pattern:\"ssbrc:fighters/king_k_rool/default\",material:\"minecraft:quartz\"}}",
+		"function": "minecraft:set_components",
+		"components": {
+			"minecraft:trim": {
+				"material": "minecraft:quartz",
+				"pattern": "ssbrc:fighters/king_k_rool/default"
+			}
+		},
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -650,8 +900,13 @@
 		]
 	},
 	{
-		"function": "minecraft:set_nbt",
-		"tag": "{Trim:{pattern:\"ssbrc:fighters/king_k_rool/gold\",material:\"minecraft:quartz\"}}",
+		"function": "minecraft:set_components",
+		"components": {
+			"minecraft:trim": {
+				"material": "minecraft:quartz",
+				"pattern": "ssbrc:fighters/king_k_rool/gold"
+			}
+		},
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -663,8 +918,13 @@
 		]
 	},
 	{
-		"function": "minecraft:set_nbt",
-		"tag": "{Trim:{pattern:\"ssbrc:fighters/kirby/default\",material:\"minecraft:quartz\"}}",
+		"function": "minecraft:set_components",
+		"components": {
+			"minecraft:trim": {
+				"material": "minecraft:quartz",
+				"pattern": "ssbrc:fighters/kirby/default"
+			}
+		},
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -676,8 +936,13 @@
 		]
 	},
 	{
-		"function": "minecraft:set_nbt",
-		"tag": "{Trim:{pattern:\"ssbrc:fighters/kirby/gold\",material:\"minecraft:quartz\"}}",
+		"function": "minecraft:set_components",
+		"components": {
+			"minecraft:trim": {
+				"material": "minecraft:quartz",
+				"pattern": "ssbrc:fighters/kirby/gold"
+			}
+		},
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -689,8 +954,13 @@
 		]
 	},
 	{
-		"function": "minecraft:set_nbt",
-		"tag": "{Trim:{pattern:\"ssbrc:fighters/kirby/keeby\",material:\"minecraft:quartz\"}}",
+		"function": "minecraft:set_components",
+		"components": {
+			"minecraft:trim": {
+				"material": "minecraft:quartz",
+				"pattern": "ssbrc:fighters/kirby/keeby"
+			}
+		},
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -702,8 +972,13 @@
 		]
 	},
 	{
-		"function": "minecraft:set_nbt",
-		"tag": "{Trim:{pattern:\"ssbrc:fighters/link/default\",material:\"minecraft:quartz\"}}",
+		"function": "minecraft:set_components",
+		"components": {
+			"minecraft:trim": {
+				"material": "minecraft:quartz",
+				"pattern": "ssbrc:fighters/link/default"
+			}
+		},
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -715,8 +990,13 @@
 		]
 	},
 	{
-		"function": "minecraft:set_nbt",
-		"tag": "{Trim:{pattern:\"ssbrc:fighters/link/gold\",material:\"minecraft:quartz\"}}",
+		"function": "minecraft:set_components",
+		"components": {
+			"minecraft:trim": {
+				"material": "minecraft:quartz",
+				"pattern": "ssbrc:fighters/link/gold"
+			}
+		},
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -728,8 +1008,13 @@
 		]
 	},
 	{
-		"function": "minecraft:set_nbt",
-		"tag": "{Trim:{pattern:\"ssbrc:fighters/link/dark_link\",material:\"minecraft:quartz\"}}",
+		"function": "minecraft:set_components",
+		"components": {
+			"minecraft:trim": {
+				"material": "minecraft:quartz",
+				"pattern": "ssbrc:fighters/link/dark_link"
+			}
+		},
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -741,8 +1026,13 @@
 		]
 	},
 	{
-		"function": "minecraft:set_nbt",
-		"tag": "{Trim:{pattern:\"ssbrc:fighters/link/goron_tunic\",material:\"minecraft:quartz\"}}",
+		"function": "minecraft:set_components",
+		"components": {
+			"minecraft:trim": {
+				"material": "minecraft:quartz",
+				"pattern": "ssbrc:fighters/link/goron_tunic"
+			}
+		},
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -754,8 +1044,13 @@
 		]
 	},
 	{
-		"function": "minecraft:set_nbt",
-		"tag": "{Trim:{pattern:\"ssbrc:fighters/link/zora_tunic\",material:\"minecraft:quartz\"}}",
+		"function": "minecraft:set_components",
+		"components": {
+			"minecraft:trim": {
+				"material": "minecraft:quartz",
+				"pattern": "ssbrc:fighters/link/zora_tunic"
+			}
+		},
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -767,8 +1062,13 @@
 		]
 	},
 	{
-		"function": "minecraft:set_nbt",
-		"tag": "{Trim:{pattern:\"ssbrc:fighters/luigi/default\",material:\"minecraft:quartz\"}}",
+		"function": "minecraft:set_components",
+		"components": {
+			"minecraft:trim": {
+				"material": "minecraft:quartz",
+				"pattern": "ssbrc:fighters/luigi/default"
+			}
+		},
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -780,8 +1080,13 @@
 		]
 	},
 	{
-		"function": "minecraft:set_nbt",
-		"tag": "{Trim:{pattern:\"ssbrc:fighters/luigi/gold\",material:\"minecraft:quartz\"}}",
+		"function": "minecraft:set_components",
+		"components": {
+			"minecraft:trim": {
+				"material": "minecraft:quartz",
+				"pattern": "ssbrc:fighters/luigi/gold"
+			}
+		},
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -793,8 +1098,13 @@
 		]
 	},
 	{
-		"function": "minecraft:set_nbt",
-		"tag": "{Trim:{pattern:\"ssbrc:fighters/luigi/flower_power\",material:\"minecraft:quartz\"}}",
+		"function": "minecraft:set_components",
+		"components": {
+			"minecraft:trim": {
+				"material": "minecraft:quartz",
+				"pattern": "ssbrc:fighters/luigi/flower_power"
+			}
+		},
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -806,8 +1116,13 @@
 		]
 	},
 	{
-		"function": "minecraft:set_nbt",
-		"tag": "{Trim:{pattern:\"ssbrc:fighters/luigi/gooigi\",material:\"minecraft:quartz\"}}",
+		"function": "minecraft:set_components",
+		"components": {
+			"minecraft:trim": {
+				"material": "minecraft:quartz",
+				"pattern": "ssbrc:fighters/luigi/gooigi"
+			}
+		},
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -819,8 +1134,13 @@
 		]
 	},
 	{
-		"function": "minecraft:set_nbt",
-		"tag": "{Trim:{pattern:\"ssbrc:fighters/luigi/penguin\",material:\"minecraft:quartz\"}}",
+		"function": "minecraft:set_components",
+		"components": {
+			"minecraft:trim": {
+				"material": "minecraft:quartz",
+				"pattern": "ssbrc:fighters/luigi/penguin"
+			}
+		},
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -832,8 +1152,13 @@
 		]
 	},
 	{
-		"function": "minecraft:set_nbt",
-		"tag": "{Trim:{pattern:\"ssbrc:fighters/mario/default\",material:\"minecraft:quartz\"}}",
+		"function": "minecraft:set_components",
+		"components": {
+			"minecraft:trim": {
+				"material": "minecraft:quartz",
+				"pattern": "ssbrc:fighters/mario/default"
+			}
+		},
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -845,8 +1170,13 @@
 		]
 	},
 	{
-		"function": "minecraft:set_nbt",
-		"tag": "{Trim:{pattern:\"ssbrc:fighters/mario/gold\",material:\"minecraft:quartz\"}}",
+		"function": "minecraft:set_components",
+		"components": {
+			"minecraft:trim": {
+				"material": "minecraft:quartz",
+				"pattern": "ssbrc:fighters/mario/gold"
+			}
+		},
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -858,8 +1188,13 @@
 		]
 	},
 	{
-		"function": "minecraft:set_nbt",
-		"tag": "{Trim:{pattern:\"ssbrc:fighters/mario/flower_power\",material:\"minecraft:quartz\"}}",
+		"function": "minecraft:set_components",
+		"components": {
+			"minecraft:trim": {
+				"material": "minecraft:quartz",
+				"pattern": "ssbrc:fighters/mario/flower_power"
+			}
+		},
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -871,8 +1206,13 @@
 		]
 	},
 	{
-		"function": "minecraft:set_nbt",
-		"tag": "{Trim:{pattern:\"ssbrc:fighters/mario/penguin\",material:\"minecraft:quartz\"}}",
+		"function": "minecraft:set_components",
+		"components": {
+			"minecraft:trim": {
+				"material": "minecraft:quartz",
+				"pattern": "ssbrc:fighters/mario/penguin"
+			}
+		},
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -884,8 +1224,13 @@
 		]
 	},
 	{
-		"function": "minecraft:set_nbt",
-		"tag": "{Trim:{pattern:\"ssbrc:fighters/mega_man/default\",material:\"minecraft:quartz\"}}",
+		"function": "minecraft:set_components",
+		"components": {
+			"minecraft:trim": {
+				"material": "minecraft:quartz",
+				"pattern": "ssbrc:fighters/mega_man/default"
+			}
+		},
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -897,8 +1242,13 @@
 		]
 	},
 	{
-		"function": "minecraft:set_nbt",
-		"tag": "{Trim:{pattern:\"ssbrc:fighters/mega_man/gold\",material:\"minecraft:quartz\"}}",
+		"function": "minecraft:set_components",
+		"components": {
+			"minecraft:trim": {
+				"material": "minecraft:quartz",
+				"pattern": "ssbrc:fighters/mega_man/gold"
+			}
+		},
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -910,8 +1260,13 @@
 		]
 	},
 	{
-		"function": "minecraft:set_nbt",
-		"tag": "{Trim:{pattern:\"ssbrc:fighters/mega_man/star_force\",material:\"minecraft:quartz\"}}",
+		"function": "minecraft:set_components",
+		"components": {
+			"minecraft:trim": {
+				"material": "minecraft:quartz",
+				"pattern": "ssbrc:fighters/mega_man/star_force"
+			}
+		},
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -923,8 +1278,13 @@
 		]
 	},
 	{
-		"function": "minecraft:set_nbt",
-		"tag": "{Trim:{pattern:\"ssbrc:fighters/ness/default\",material:\"minecraft:quartz\"}}",
+		"function": "minecraft:set_components",
+		"components": {
+			"minecraft:trim": {
+				"material": "minecraft:quartz",
+				"pattern": "ssbrc:fighters/ness/default"
+			}
+		},
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -936,8 +1296,13 @@
 		]
 	},
 	{
-		"function": "minecraft:set_nbt",
-		"tag": "{Trim:{pattern:\"ssbrc:fighters/ness/gold\",material:\"minecraft:quartz\"}}",
+		"function": "minecraft:set_components",
+		"components": {
+			"minecraft:trim": {
+				"material": "minecraft:quartz",
+				"pattern": "ssbrc:fighters/ness/gold"
+			}
+		},
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -949,8 +1314,13 @@
 		]
 	},
 	{
-		"function": "minecraft:set_nbt",
-		"tag": "{Trim:{pattern:\"ssbrc:fighters/ness/moonside\",material:\"minecraft:quartz\"}}",
+		"function": "minecraft:set_components",
+		"components": {
+			"minecraft:trim": {
+				"material": "minecraft:quartz",
+				"pattern": "ssbrc:fighters/ness/moonside"
+			}
+		},
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -962,8 +1332,13 @@
 		]
 	},
 	{
-		"function": "minecraft:set_nbt",
-		"tag": "{Trim:{pattern:\"ssbrc:fighters/ness/pajamas\",material:\"minecraft:quartz\"}}",
+		"function": "minecraft:set_components",
+		"components": {
+			"minecraft:trim": {
+				"material": "minecraft:quartz",
+				"pattern": "ssbrc:fighters/ness/pajamas"
+			}
+		},
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -975,8 +1350,13 @@
 		]
 	},
 	{
-		"function": "minecraft:set_nbt",
-		"tag": "{Trim:{pattern:\"ssbrc:fighters/ness/phase_distortion\",material:\"minecraft:quartz\"}}",
+		"function": "minecraft:set_components",
+		"components": {
+			"minecraft:trim": {
+				"material": "minecraft:quartz",
+				"pattern": "ssbrc:fighters/ness/phase_distortion"
+			}
+		},
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -988,8 +1368,13 @@
 		]
 	},
 	{
-		"function": "minecraft:set_nbt",
-		"tag": "{Trim:{pattern:\"ssbrc:fighters/peach/default\",material:\"minecraft:quartz\"}}",
+		"function": "minecraft:set_components",
+		"components": {
+			"minecraft:trim": {
+				"material": "minecraft:quartz",
+				"pattern": "ssbrc:fighters/peach/default"
+			}
+		},
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -1001,8 +1386,13 @@
 		]
 	},
 	{
-		"function": "minecraft:set_nbt",
-		"tag": "{Trim:{pattern:\"ssbrc:fighters/peach/gold\",material:\"minecraft:quartz\"}}",
+		"function": "minecraft:set_components",
+		"components": {
+			"minecraft:trim": {
+				"material": "minecraft:quartz",
+				"pattern": "ssbrc:fighters/peach/gold"
+			}
+		},
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -1014,8 +1404,13 @@
 		]
 	},
 	{
-		"function": "minecraft:set_nbt",
-		"tag": "{Trim:{pattern:\"ssbrc:fighters/pikachu/default\",material:\"minecraft:quartz\"}}",
+		"function": "minecraft:set_components",
+		"components": {
+			"minecraft:trim": {
+				"material": "minecraft:quartz",
+				"pattern": "ssbrc:fighters/pikachu/default"
+			}
+		},
 		"conditions": [
 			{
 				"condition": "minecraft:all_of",
@@ -1051,8 +1446,13 @@
 		]
 	},
 	{
-		"function": "minecraft:set_nbt",
-		"tag": "{Trim:{pattern:\"ssbrc:fighters/pikachu/gold\",material:\"minecraft:quartz\"}}",
+		"function": "minecraft:set_components",
+		"components": {
+			"minecraft:trim": {
+				"material": "minecraft:quartz",
+				"pattern": "ssbrc:fighters/pikachu/gold"
+			}
+		},
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -1064,8 +1464,13 @@
 		]
 	},
 	{
-		"function": "minecraft:set_nbt",
-		"tag": "{Trim:{pattern:\"ssbrc:fighters/pikachu/shiny\",material:\"minecraft:quartz\"}}",
+		"function": "minecraft:set_components",
+		"components": {
+			"minecraft:trim": {
+				"material": "minecraft:quartz",
+				"pattern": "ssbrc:fighters/pikachu/shiny"
+			}
+		},
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -1077,8 +1482,13 @@
 		]
 	},
 	{
-		"function": "minecraft:set_nbt",
-		"tag": "{Trim:{pattern:\"ssbrc:fighters/pit/default\",material:\"minecraft:quartz\"}}",
+		"function": "minecraft:set_components",
+		"components": {
+			"minecraft:trim": {
+				"material": "minecraft:quartz",
+				"pattern": "ssbrc:fighters/pit/default"
+			}
+		},
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -1090,8 +1500,13 @@
 		]
 	},
 	{
-		"function": "minecraft:set_nbt",
-		"tag": "{Trim:{pattern:\"ssbrc:fighters/pit/gold\",material:\"minecraft:quartz\"}}",
+		"function": "minecraft:set_components",
+		"components": {
+			"minecraft:trim": {
+				"material": "minecraft:quartz",
+				"pattern": "ssbrc:fighters/pit/gold"
+			}
+		},
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -1103,8 +1518,13 @@
 		]
 	},
 	{
-		"function": "minecraft:set_nbt",
-		"tag": "{Trim:{pattern:\"ssbrc:fighters/pit/retro\",material:\"minecraft:quartz\"}}",
+		"function": "minecraft:set_components",
+		"components": {
+			"minecraft:trim": {
+				"material": "minecraft:quartz",
+				"pattern": "ssbrc:fighters/pit/retro"
+			}
+		},
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -1116,8 +1536,13 @@
 		]
 	},
 	{
-		"function": "minecraft:set_nbt",
-		"tag": "{Trim:{pattern:\"ssbrc:fighters/pokemon_trainer/default/trainer\",material:\"minecraft:quartz\"}}",
+		"function": "minecraft:set_components",
+		"components": {
+			"minecraft:trim": {
+				"material": "minecraft:quartz",
+				"pattern": "ssbrc:fighters/pokemon_trainer/default/trainer"
+			}
+		},
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -1129,8 +1554,13 @@
 		]
 	},
 	{
-		"function": "minecraft:set_nbt",
-		"tag": "{Trim:{pattern:\"ssbrc:fighters/pokemon_trainer/default/charizard\",material:\"minecraft:quartz\"}}",
+		"function": "minecraft:set_components",
+		"components": {
+			"minecraft:trim": {
+				"material": "minecraft:quartz",
+				"pattern": "ssbrc:fighters/pokemon_trainer/default/charizard"
+			}
+		},
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -1142,8 +1572,13 @@
 		]
 	},
 	{
-		"function": "minecraft:set_nbt",
-		"tag": "{Trim:{pattern:\"ssbrc:fighters/pokemon_trainer/default/ivysaur\",material:\"minecraft:quartz\"}}",
+		"function": "minecraft:set_components",
+		"components": {
+			"minecraft:trim": {
+				"material": "minecraft:quartz",
+				"pattern": "ssbrc:fighters/pokemon_trainer/default/ivysaur"
+			}
+		},
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -1155,8 +1590,13 @@
 		]
 	},
 	{
-		"function": "minecraft:set_nbt",
-		"tag": "{Trim:{pattern:\"ssbrc:fighters/pokemon_trainer/default/squirtle\",material:\"minecraft:quartz\"}}",
+		"function": "minecraft:set_components",
+		"components": {
+			"minecraft:trim": {
+				"material": "minecraft:quartz",
+				"pattern": "ssbrc:fighters/pokemon_trainer/default/squirtle"
+			}
+		},
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -1168,8 +1608,13 @@
 		]
 	},
 	{
-		"function": "minecraft:set_nbt",
-		"tag": "{Trim:{pattern:\"ssbrc:fighters/pokemon_trainer/gold/trainer\",material:\"minecraft:quartz\"}}",
+		"function": "minecraft:set_components",
+		"components": {
+			"minecraft:trim": {
+				"material": "minecraft:quartz",
+				"pattern": "ssbrc:fighters/pokemon_trainer/gold/trainer"
+			}
+		},
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -1181,8 +1626,13 @@
 		]
 	},
 	{
-		"function": "minecraft:set_nbt",
-		"tag": "{Trim:{pattern:\"ssbrc:fighters/pokemon_trainer/gold/charizard\",material:\"minecraft:quartz\"}}",
+		"function": "minecraft:set_components",
+		"components": {
+			"minecraft:trim": {
+				"material": "minecraft:quartz",
+				"pattern": "ssbrc:fighters/pokemon_trainer/gold/charizard"
+			}
+		},
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -1194,8 +1644,13 @@
 		]
 	},
 	{
-		"function": "minecraft:set_nbt",
-		"tag": "{Trim:{pattern:\"ssbrc:fighters/pokemon_trainer/gold/ivysaur\",material:\"minecraft:quartz\"}}",
+		"function": "minecraft:set_components",
+		"components": {
+			"minecraft:trim": {
+				"material": "minecraft:quartz",
+				"pattern": "ssbrc:fighters/pokemon_trainer/gold/ivysaur"
+			}
+		},
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -1207,8 +1662,13 @@
 		]
 	},
 	{
-		"function": "minecraft:set_nbt",
-		"tag": "{Trim:{pattern:\"ssbrc:fighters/pokemon_trainer/gold/squirtle\",material:\"minecraft:quartz\"}}",
+		"function": "minecraft:set_components",
+		"components": {
+			"minecraft:trim": {
+				"material": "minecraft:quartz",
+				"pattern": "ssbrc:fighters/pokemon_trainer/gold/squirtle"
+			}
+		},
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -1220,8 +1680,13 @@
 		]
 	},
 	{
-		"function": "minecraft:set_nbt",
-		"tag": "{Trim:{pattern:\"ssbrc:fighters/pokemon_trainer/dawn/trainer\",material:\"minecraft:quartz\"}}",
+		"function": "minecraft:set_components",
+		"components": {
+			"minecraft:trim": {
+				"material": "minecraft:quartz",
+				"pattern": "ssbrc:fighters/pokemon_trainer/dawn/trainer"
+			}
+		},
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -1233,8 +1698,13 @@
 		]
 	},
 	{
-		"function": "minecraft:set_nbt",
-		"tag": "{Trim:{pattern:\"ssbrc:fighters/pokemon_trainer/dawn/charizard\",material:\"minecraft:quartz\"}}",
+		"function": "minecraft:set_components",
+		"components": {
+			"minecraft:trim": {
+				"material": "minecraft:quartz",
+				"pattern": "ssbrc:fighters/pokemon_trainer/dawn/charizard"
+			}
+		},
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -1246,8 +1716,13 @@
 		]
 	},
 	{
-		"function": "minecraft:set_nbt",
-		"tag": "{Trim:{pattern:\"ssbrc:fighters/pokemon_trainer/dawn/ivysaur\",material:\"minecraft:quartz\"}}",
+		"function": "minecraft:set_components",
+		"components": {
+			"minecraft:trim": {
+				"material": "minecraft:quartz",
+				"pattern": "ssbrc:fighters/pokemon_trainer/dawn/ivysaur"
+			}
+		},
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -1259,8 +1734,13 @@
 		]
 	},
 	{
-		"function": "minecraft:set_nbt",
-		"tag": "{Trim:{pattern:\"ssbrc:fighters/pokemon_trainer/dawn/squirtle\",material:\"minecraft:quartz\"}}",
+		"function": "minecraft:set_components",
+		"components": {
+			"minecraft:trim": {
+				"material": "minecraft:quartz",
+				"pattern": "ssbrc:fighters/pokemon_trainer/dawn/squirtle"
+			}
+		},
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -1272,8 +1752,13 @@
 		]
 	},
 	{
-		"function": "minecraft:set_nbt",
-		"tag": "{Trim:{pattern:\"ssbrc:fighters/pokemon_trainer/victor/trainer\",material:\"minecraft:quartz\"}}",
+		"function": "minecraft:set_components",
+		"components": {
+			"minecraft:trim": {
+				"material": "minecraft:quartz",
+				"pattern": "ssbrc:fighters/pokemon_trainer/victor/trainer"
+			}
+		},
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -1285,8 +1770,13 @@
 		]
 	},
 	{
-		"function": "minecraft:set_nbt",
-		"tag": "{Trim:{pattern:\"ssbrc:fighters/pokemon_trainer/victor/charizard\",material:\"minecraft:quartz\"}}",
+		"function": "minecraft:set_components",
+		"components": {
+			"minecraft:trim": {
+				"material": "minecraft:quartz",
+				"pattern": "ssbrc:fighters/pokemon_trainer/victor/charizard"
+			}
+		},
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -1298,8 +1788,13 @@
 		]
 	},
 	{
-		"function": "minecraft:set_nbt",
-		"tag": "{Trim:{pattern:\"ssbrc:fighters/pokemon_trainer/victor/ivysaur\",material:\"minecraft:quartz\"}}",
+		"function": "minecraft:set_components",
+		"components": {
+			"minecraft:trim": {
+				"material": "minecraft:quartz",
+				"pattern": "ssbrc:fighters/pokemon_trainer/victor/ivysaur"
+			}
+		},
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -1311,8 +1806,13 @@
 		]
 	},
 	{
-		"function": "minecraft:set_nbt",
-		"tag": "{Trim:{pattern:\"ssbrc:fighters/pokemon_trainer/victor/squirtle\",material:\"minecraft:quartz\"}}",
+		"function": "minecraft:set_components",
+		"components": {
+			"minecraft:trim": {
+				"material": "minecraft:quartz",
+				"pattern": "ssbrc:fighters/pokemon_trainer/victor/squirtle"
+			}
+		},
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -1324,8 +1824,13 @@
 		]
 	},
 	{
-		"function": "minecraft:set_nbt",
-		"tag": "{Trim:{pattern:\"ssbrc:fighters/pokemon_trainer/default/trainer\",material:\"minecraft:quartz\"}}",
+		"function": "minecraft:set_components",
+		"components": {
+			"minecraft:trim": {
+				"material": "minecraft:quartz",
+				"pattern": "ssbrc:fighters/pokemon_trainer/default/trainer"
+			}
+		},
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -1337,8 +1842,13 @@
 		]
 	},
 	{
-		"function": "minecraft:set_nbt",
-		"tag": "{Trim:{pattern:\"ssbrc:fighters/pokemon_trainer/shiny/charizard\",material:\"minecraft:quartz\"}}",
+		"function": "minecraft:set_components",
+		"components": {
+			"minecraft:trim": {
+				"material": "minecraft:quartz",
+				"pattern": "ssbrc:fighters/pokemon_trainer/shiny/charizard"
+			}
+		},
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -1350,8 +1860,13 @@
 		]
 	},
 	{
-		"function": "minecraft:set_nbt",
-		"tag": "{Trim:{pattern:\"ssbrc:fighters/pokemon_trainer/shiny/ivysaur\",material:\"minecraft:quartz\"}}",
+		"function": "minecraft:set_components",
+		"components": {
+			"minecraft:trim": {
+				"material": "minecraft:quartz",
+				"pattern": "ssbrc:fighters/pokemon_trainer/shiny/ivysaur"
+			}
+		},
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -1363,8 +1878,13 @@
 		]
 	},
 	{
-		"function": "minecraft:set_nbt",
-		"tag": "{Trim:{pattern:\"ssbrc:fighters/pokemon_trainer/shiny/squirtle\",material:\"minecraft:quartz\"}}",
+		"function": "minecraft:set_components",
+		"components": {
+			"minecraft:trim": {
+				"material": "minecraft:quartz",
+				"pattern": "ssbrc:fighters/pokemon_trainer/shiny/squirtle"
+			}
+		},
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -1376,8 +1896,13 @@
 		]
 	},
 	{
-		"function": "minecraft:set_nbt",
-		"tag": "{Trim:{pattern:\"ssbrc:fighters/rob/default\",material:\"minecraft:quartz\"}}",
+		"function": "minecraft:set_components",
+		"components": {
+			"minecraft:trim": {
+				"material": "minecraft:quartz",
+				"pattern": "ssbrc:fighters/rob/default"
+			}
+		},
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -1389,8 +1914,13 @@
 		]
 	},
 	{
-		"function": "minecraft:set_nbt",
-		"tag": "{Trim:{pattern:\"ssbrc:fighters/rob/gold\",material:\"minecraft:quartz\"}}",
+		"function": "minecraft:set_components",
+		"components": {
+			"minecraft:trim": {
+				"material": "minecraft:quartz",
+				"pattern": "ssbrc:fighters/rob/gold"
+			}
+		},
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -1402,8 +1932,13 @@
 		]
 	},
 	{
-		"function": "minecraft:set_nbt",
-		"tag": "{Trim:{pattern:\"ssbrc:fighters/rob/ancient_minister\",material:\"minecraft:quartz\"}}",
+		"function": "minecraft:set_components",
+		"components": {
+			"minecraft:trim": {
+				"material": "minecraft:quartz",
+				"pattern": "ssbrc:fighters/rob/ancient_minister"
+			}
+		},
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -1415,8 +1950,13 @@
 		]
 	},
 	{
-		"function": "minecraft:set_nbt",
-		"tag": "{Trim:{pattern:\"ssbrc:fighters/rob/famicom\",material:\"minecraft:quartz\"}}",
+		"function": "minecraft:set_components",
+		"components": {
+			"minecraft:trim": {
+				"material": "minecraft:quartz",
+				"pattern": "ssbrc:fighters/rob/famicom"
+			}
+		},
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -1428,8 +1968,13 @@
 		]
 	},
 	{
-		"function": "minecraft:set_nbt",
-		"tag": "{Trim:{pattern:\"ssbrc:fighters/ryu/default/default\",material:\"minecraft:quartz\"}}",
+		"function": "minecraft:set_components",
+		"components": {
+			"minecraft:trim": {
+				"material": "minecraft:quartz",
+				"pattern": "ssbrc:fighters/ryu/default/default"
+			}
+		},
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -1441,8 +1986,13 @@
 		]
 	},
 	{
-		"function": "minecraft:set_nbt",
-		"tag": "{Trim:{pattern:\"ssbrc:fighters/ryu/default/evil\",material:\"minecraft:quartz\"}}",
+		"function": "minecraft:set_components",
+		"components": {
+			"minecraft:trim": {
+				"material": "minecraft:quartz",
+				"pattern": "ssbrc:fighters/ryu/default/evil"
+			}
+		},
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -1454,8 +2004,13 @@
 		]
 	},
 	{
-		"function": "minecraft:set_nbt",
-		"tag": "{Trim:{pattern:\"ssbrc:fighters/ryu/gold/default\",material:\"minecraft:quartz\"}}",
+		"function": "minecraft:set_components",
+		"components": {
+			"minecraft:trim": {
+				"material": "minecraft:quartz",
+				"pattern": "ssbrc:fighters/ryu/gold/default"
+			}
+		},
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -1467,8 +2022,13 @@
 		]
 	},
 	{
-		"function": "minecraft:set_nbt",
-		"tag": "{Trim:{pattern:\"ssbrc:fighters/ryu/gold/evil\",material:\"minecraft:quartz\"}}",
+		"function": "minecraft:set_components",
+		"components": {
+			"minecraft:trim": {
+				"material": "minecraft:quartz",
+				"pattern": "ssbrc:fighters/ryu/gold/evil"
+			}
+		},
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -1480,8 +2040,13 @@
 		]
 	},
 	{
-		"function": "minecraft:set_nbt",
-		"tag": "{Trim:{pattern:\"ssbrc:fighters/ryu/hot_ryu/default\",material:\"minecraft:quartz\"}}",
+		"function": "minecraft:set_components",
+		"components": {
+			"minecraft:trim": {
+				"material": "minecraft:quartz",
+				"pattern": "ssbrc:fighters/ryu/hot_ryu/default"
+			}
+		},
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -1493,8 +2058,13 @@
 		]
 	},
 	{
-		"function": "minecraft:set_nbt",
-		"tag": "{Trim:{pattern:\"ssbrc:fighters/ryu/hot_ryu/evil\",material:\"minecraft:quartz\"}}",
+		"function": "minecraft:set_components",
+		"components": {
+			"minecraft:trim": {
+				"material": "minecraft:quartz",
+				"pattern": "ssbrc:fighters/ryu/hot_ryu/evil"
+			}
+		},
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -1506,8 +2076,13 @@
 		]
 	},
 	{
-		"function": "minecraft:set_nbt",
-		"tag": "{Trim:{pattern:\"ssbrc:fighters/samus/default\",material:\"minecraft:quartz\"}}",
+		"function": "minecraft:set_components",
+		"components": {
+			"minecraft:trim": {
+				"material": "minecraft:quartz",
+				"pattern": "ssbrc:fighters/samus/default"
+			}
+		},
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -1519,8 +2094,13 @@
 		]
 	},
 	{
-		"function": "minecraft:set_nbt",
-		"tag": "{Trim:{pattern:\"ssbrc:fighters/samus/gold\",material:\"minecraft:quartz\"}}",
+		"function": "minecraft:set_components",
+		"components": {
+			"minecraft:trim": {
+				"material": "minecraft:quartz",
+				"pattern": "ssbrc:fighters/samus/gold"
+			}
+		},
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -1532,8 +2112,13 @@
 		]
 	},
 	{
-		"function": "minecraft:set_nbt",
-		"tag": "{Trim:{pattern:\"ssbrc:fighters/samus/gravity_suit\",material:\"minecraft:quartz\"}}",
+		"function": "minecraft:set_components",
+		"components": {
+			"minecraft:trim": {
+				"material": "minecraft:quartz",
+				"pattern": "ssbrc:fighters/samus/gravity_suit"
+			}
+		},
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -1545,8 +2130,13 @@
 		]
 	},
 	{
-		"function": "minecraft:set_nbt",
-		"tag": "{Trim:{pattern:\"ssbrc:fighters/samus/phazon_suit\",material:\"minecraft:quartz\"}}",
+		"function": "minecraft:set_components",
+		"components": {
+			"minecraft:trim": {
+				"material": "minecraft:quartz",
+				"pattern": "ssbrc:fighters/samus/phazon_suit"
+			}
+		},
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -1558,8 +2148,13 @@
 		]
 	},
 	{
-		"function": "minecraft:set_nbt",
-		"tag": "{Trim:{pattern:\"ssbrc:fighters/snake/default\",material:\"minecraft:quartz\"}}",
+		"function": "minecraft:set_components",
+		"components": {
+			"minecraft:trim": {
+				"material": "minecraft:quartz",
+				"pattern": "ssbrc:fighters/snake/default"
+			}
+		},
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -1571,8 +2166,13 @@
 		]
 	},
 	{
-		"function": "minecraft:set_nbt",
-		"tag": "{Trim:{pattern:\"ssbrc:fighters/snake/gold\",material:\"minecraft:quartz\"}}",
+		"function": "minecraft:set_components",
+		"components": {
+			"minecraft:trim": {
+				"material": "minecraft:quartz",
+				"pattern": "ssbrc:fighters/snake/gold"
+			}
+		},
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -1584,8 +2184,13 @@
 		]
 	},
 	{
-		"function": "minecraft:set_nbt",
-		"tag": "{Trim:{pattern:\"ssbrc:fighters/snake/classic_tuxedo\",material:\"minecraft:quartz\"}}",
+		"function": "minecraft:set_components",
+		"components": {
+			"minecraft:trim": {
+				"material": "minecraft:quartz",
+				"pattern": "ssbrc:fighters/snake/classic_tuxedo"
+			}
+		},
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -1597,8 +2202,13 @@
 		]
 	},
 	{
-		"function": "minecraft:set_nbt",
-		"tag": "{Trim:{pattern:\"ssbrc:fighters/snake/iroquois_pliskin\",material:\"minecraft:quartz\"}}",
+		"function": "minecraft:set_components",
+		"components": {
+			"minecraft:trim": {
+				"material": "minecraft:quartz",
+				"pattern": "ssbrc:fighters/snake/iroquois_pliskin"
+			}
+		},
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -1610,8 +2220,13 @@
 		]
 	},
 	{
-		"function": "minecraft:set_nbt",
-		"tag": "{Trim:{pattern:\"ssbrc:fighters/sonic/default\",material:\"minecraft:quartz\"}}",
+		"function": "minecraft:set_components",
+		"components": {
+			"minecraft:trim": {
+				"material": "minecraft:quartz",
+				"pattern": "ssbrc:fighters/sonic/default"
+			}
+		},
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -1623,8 +2238,13 @@
 		]
 	},
 	{
-		"function": "minecraft:set_nbt",
-		"tag": "{Trim:{pattern:\"ssbrc:fighters/sonic/gold\",material:\"minecraft:quartz\"}}",
+		"function": "minecraft:set_components",
+		"components": {
+			"minecraft:trim": {
+				"material": "minecraft:quartz",
+				"pattern": "ssbrc:fighters/sonic/gold"
+			}
+		},
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -1636,8 +2256,13 @@
 		]
 	},
 	{
-		"function": "minecraft:set_nbt",
-		"tag": "{Trim:{pattern:\"ssbrc:fighters/sonic/classic\",material:\"minecraft:quartz\"}}",
+		"function": "minecraft:set_components",
+		"components": {
+			"minecraft:trim": {
+				"material": "minecraft:quartz",
+				"pattern": "ssbrc:fighters/sonic/classic"
+			}
+		},
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -1649,8 +2274,13 @@
 		]
 	},
 	{
-		"function": "minecraft:set_nbt",
-		"tag": "{Trim:{pattern:\"ssbrc:fighters/sonic/hylian_tunic\",material:\"minecraft:quartz\"}}",
+		"function": "minecraft:set_components",
+		"components": {
+			"minecraft:trim": {
+				"material": "minecraft:quartz",
+				"pattern": "ssbrc:fighters/sonic/hylian_tunic"
+			}
+		},
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -1662,8 +2292,13 @@
 		]
 	},
 	{
-		"function": "minecraft:set_nbt",
-		"tag": "{Trim:{pattern:\"ssbrc:fighters/sonic/werehog\",material:\"minecraft:quartz\"}}",
+		"function": "minecraft:set_components",
+		"components": {
+			"minecraft:trim": {
+				"material": "minecraft:quartz",
+				"pattern": "ssbrc:fighters/sonic/werehog"
+			}
+		},
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -1675,8 +2310,13 @@
 		]
 	},
 	{
-		"function": "minecraft:set_nbt",
-		"tag": "{Trim:{pattern:\"ssbrc:fighters/sora/default/default\",material:\"minecraft:quartz\"}}",
+		"function": "minecraft:set_components",
+		"components": {
+			"minecraft:trim": {
+				"material": "minecraft:quartz",
+				"pattern": "ssbrc:fighters/sora/default/default"
+			}
+		},
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -1688,8 +2328,13 @@
 		]
 	},
 	{
-		"function": "minecraft:set_nbt",
-		"tag": "{Trim:{pattern:\"ssbrc:fighters/sora/default/anti\",material:\"minecraft:quartz\"}}",
+		"function": "minecraft:set_components",
+		"components": {
+			"minecraft:trim": {
+				"material": "minecraft:quartz",
+				"pattern": "ssbrc:fighters/sora/default/anti"
+			}
+		},
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -1701,8 +2346,13 @@
 		]
 	},
 	{
-		"function": "minecraft:set_nbt",
-		"tag": "{Trim:{pattern:\"ssbrc:fighters/sora/default/valor\",material:\"minecraft:quartz\"}}",
+		"function": "minecraft:set_components",
+		"components": {
+			"minecraft:trim": {
+				"material": "minecraft:quartz",
+				"pattern": "ssbrc:fighters/sora/default/valor"
+			}
+		},
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -1714,8 +2364,13 @@
 		]
 	},
 	{
-		"function": "minecraft:set_nbt",
-		"tag": "{Trim:{pattern:\"ssbrc:fighters/sora/default/wisdom\",material:\"minecraft:quartz\"}}",
+		"function": "minecraft:set_components",
+		"components": {
+			"minecraft:trim": {
+				"material": "minecraft:quartz",
+				"pattern": "ssbrc:fighters/sora/default/wisdom"
+			}
+		},
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -1727,8 +2382,13 @@
 		]
 	},
 	{
-		"function": "minecraft:set_nbt",
-		"tag": "{Trim:{pattern:\"ssbrc:fighters/sora/gold/default\",material:\"minecraft:quartz\"}}",
+		"function": "minecraft:set_components",
+		"components": {
+			"minecraft:trim": {
+				"material": "minecraft:quartz",
+				"pattern": "ssbrc:fighters/sora/gold/default"
+			}
+		},
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -1740,8 +2400,13 @@
 		]
 	},
 	{
-		"function": "minecraft:set_nbt",
-		"tag": "{Trim:{pattern:\"ssbrc:fighters/sora/gold/anti\",material:\"minecraft:quartz\"}}",
+		"function": "minecraft:set_components",
+		"components": {
+			"minecraft:trim": {
+				"material": "minecraft:quartz",
+				"pattern": "ssbrc:fighters/sora/gold/anti"
+			}
+		},
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -1753,8 +2418,13 @@
 		]
 	},
 	{
-		"function": "minecraft:set_nbt",
-		"tag": "{Trim:{pattern:\"ssbrc:fighters/sora/gold/valor\",material:\"minecraft:quartz\"}}",
+		"function": "minecraft:set_components",
+		"components": {
+			"minecraft:trim": {
+				"material": "minecraft:quartz",
+				"pattern": "ssbrc:fighters/sora/gold/valor"
+			}
+		},
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -1766,8 +2436,13 @@
 		]
 	},
 	{
-		"function": "minecraft:set_nbt",
-		"tag": "{Trim:{pattern:\"ssbrc:fighters/sora/gold/wisdom\",material:\"minecraft:quartz\"}}",
+		"function": "minecraft:set_components",
+		"components": {
+			"minecraft:trim": {
+				"material": "minecraft:quartz",
+				"pattern": "ssbrc:fighters/sora/gold/wisdom"
+			}
+		},
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -1779,8 +2454,13 @@
 		]
 	},
 	{
-		"function": "minecraft:set_nbt",
-		"tag": "{Trim:{pattern:\"ssbrc:fighters/sora/timeless_river/default\",material:\"minecraft:quartz\"}}",
+		"function": "minecraft:set_components",
+		"components": {
+			"minecraft:trim": {
+				"material": "minecraft:quartz",
+				"pattern": "ssbrc:fighters/sora/timeless_river/default"
+			}
+		},
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -1792,8 +2472,13 @@
 		]
 	},
 	{
-		"function": "minecraft:set_nbt",
-		"tag": "{Trim:{pattern:\"ssbrc:fighters/sora/default/anti\",material:\"minecraft:quartz\"}}",
+		"function": "minecraft:set_components",
+		"components": {
+			"minecraft:trim": {
+				"material": "minecraft:quartz",
+				"pattern": "ssbrc:fighters/sora/default/anti"
+			}
+		},
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -1805,8 +2490,13 @@
 		]
 	},
 	{
-		"function": "minecraft:set_nbt",
-		"tag": "{Trim:{pattern:\"ssbrc:fighters/sora/timeless_river/valor\",material:\"minecraft:quartz\"}}",
+		"function": "minecraft:set_components",
+		"components": {
+			"minecraft:trim": {
+				"material": "minecraft:quartz",
+				"pattern": "ssbrc:fighters/sora/timeless_river/valor"
+			}
+		},
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -1818,8 +2508,13 @@
 		]
 	},
 	{
-		"function": "minecraft:set_nbt",
-		"tag": "{Trim:{pattern:\"ssbrc:fighters/sora/timeless_river/wisdom\",material:\"minecraft:quartz\"}}",
+		"function": "minecraft:set_components",
+		"components": {
+			"minecraft:trim": {
+				"material": "minecraft:quartz",
+				"pattern": "ssbrc:fighters/sora/timeless_river/wisdom"
+			}
+		},
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -1831,8 +2526,13 @@
 		]
 	},
 	{
-		"function": "minecraft:set_nbt",
-		"tag": "{Trim:{pattern:\"ssbrc:fighters/steve/default\",material:\"minecraft:quartz\"}}",
+		"function": "minecraft:set_components",
+		"components": {
+			"minecraft:trim": {
+				"material": "minecraft:quartz",
+				"pattern": "ssbrc:fighters/steve/default"
+			}
+		},
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -1844,8 +2544,13 @@
 		]
 	},
 	{
-		"function": "minecraft:set_nbt",
-		"tag": "{Trim:{pattern:\"ssbrc:fighters/steve/gold\",material:\"minecraft:quartz\"}}",
+		"function": "minecraft:set_components",
+		"components": {
+			"minecraft:trim": {
+				"material": "minecraft:quartz",
+				"pattern": "ssbrc:fighters/steve/gold"
+			}
+		},
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -1857,8 +2562,13 @@
 		]
 	},
 	{
-		"function": "minecraft:set_nbt",
-		"tag": "{Trim:{pattern:\"ssbrc:fighters/steve/alex\",material:\"minecraft:quartz\"}}",
+		"function": "minecraft:set_components",
+		"components": {
+			"minecraft:trim": {
+				"material": "minecraft:quartz",
+				"pattern": "ssbrc:fighters/steve/alex"
+			}
+		},
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -1870,8 +2580,13 @@
 		]
 	},
 	{
-		"function": "minecraft:set_nbt",
-		"tag": "{Trim:{pattern:\"ssbrc:fighters/steve/default\",material:\"minecraft:quartz\"}}",
+		"function": "minecraft:set_components",
+		"components": {
+			"minecraft:trim": {
+				"material": "minecraft:quartz",
+				"pattern": "ssbrc:fighters/steve/default"
+			}
+		},
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -1883,8 +2598,13 @@
 		]
 	},
 	{
-		"function": "minecraft:set_nbt",
-		"tag": "{Trim:{pattern:\"ssbrc:fighters/wolf/default\",material:\"minecraft:quartz\"}}",
+		"function": "minecraft:set_components",
+		"components": {
+			"minecraft:trim": {
+				"material": "minecraft:quartz",
+				"pattern": "ssbrc:fighters/wolf/default"
+			}
+		},
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -1896,8 +2616,13 @@
 		]
 	},
 	{
-		"function": "minecraft:set_nbt",
-		"tag": "{Trim:{pattern:\"ssbrc:fighters/wolf/gold\",material:\"minecraft:quartz\"}}",
+		"function": "minecraft:set_components",
+		"components": {
+			"minecraft:trim": {
+				"material": "minecraft:quartz",
+				"pattern": "ssbrc:fighters/wolf/gold"
+			}
+		},
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -1909,8 +2634,13 @@
 		]
 	},
 	{
-		"function": "minecraft:set_nbt",
-		"tag": "{Trim:{pattern:\"ssbrc:fighters/wolf/assault\",material:\"minecraft:quartz\"}}",
+		"function": "minecraft:set_components",
+		"components": {
+			"minecraft:trim": {
+				"material": "minecraft:quartz",
+				"pattern": "ssbrc:fighters/wolf/assault"
+			}
+		},
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -1922,8 +2652,13 @@
 		]
 	},
 	{
-		"function": "minecraft:set_nbt",
-		"tag": "{Trim:{pattern:\"ssbrc:fighters/yoshi/default\",material:\"minecraft:quartz\"}}",
+		"function": "minecraft:set_components",
+		"components": {
+			"minecraft:trim": {
+				"material": "minecraft:quartz",
+				"pattern": "ssbrc:fighters/yoshi/default"
+			}
+		},
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -1935,8 +2670,13 @@
 		]
 	},
 	{
-		"function": "minecraft:set_nbt",
-		"tag": "{Trim:{pattern:\"ssbrc:fighters/zelda/default\",material:\"minecraft:quartz\"}}",
+		"function": "minecraft:set_components",
+		"components": {
+			"minecraft:trim": {
+				"material": "minecraft:quartz",
+				"pattern": "ssbrc:fighters/zelda/default"
+			}
+		},
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -1948,8 +2688,13 @@
 		]
 	},
 	{
-		"function": "minecraft:set_nbt",
-		"tag": "{Trim:{pattern:\"ssbrc:fighters/zelda/gold\",material:\"minecraft:quartz\"}}",
+		"function": "minecraft:set_components",
+		"components": {
+			"minecraft:trim": {
+				"material": "minecraft:quartz",
+				"pattern": "ssbrc:fighters/zelda/gold"
+			}
+		},
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -1961,8 +2706,13 @@
 		]
 	},
 	{
-		"function": "minecraft:set_nbt",
-		"tag": "{Trim:{pattern:\"ssbrc:fighters/altered_beast/default/centurion/default\",material:\"minecraft:quartz\"}}",
+		"function": "minecraft:set_components",
+		"components": {
+			"minecraft:trim": {
+				"material": "minecraft:quartz",
+				"pattern": "ssbrc:fighters/altered_beast/default/centurion/default"
+			}
+		},
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -1974,8 +2724,13 @@
 		]
 	},
 	{
-		"function": "minecraft:set_nbt",
-		"tag": "{Trim:{pattern:\"ssbrc:fighters/altered_beast/default/centurion/shirtless\",material:\"minecraft:quartz\"}}",
+		"function": "minecraft:set_components",
+		"components": {
+			"minecraft:trim": {
+				"material": "minecraft:quartz",
+				"pattern": "ssbrc:fighters/altered_beast/default/centurion/shirtless"
+			}
+		},
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -1987,8 +2742,13 @@
 		]
 	},
 	{
-		"function": "minecraft:set_nbt",
-		"tag": "{Trim:{pattern:\"ssbrc:fighters/altered_beast/default/werebear\",material:\"minecraft:quartz\"}}",
+		"function": "minecraft:set_components",
+		"components": {
+			"minecraft:trim": {
+				"material": "minecraft:quartz",
+				"pattern": "ssbrc:fighters/altered_beast/default/werebear"
+			}
+		},
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -2000,8 +2760,13 @@
 		]
 	},
 	{
-		"function": "minecraft:set_nbt",
-		"tag": "{Trim:{pattern:\"ssbrc:fighters/altered_beast/default/weredragon\",material:\"minecraft:quartz\"}}",
+		"function": "minecraft:set_components",
+		"components": {
+			"minecraft:trim": {
+				"material": "minecraft:quartz",
+				"pattern": "ssbrc:fighters/altered_beast/default/weredragon"
+			}
+		},
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -2013,8 +2778,13 @@
 		]
 	},
 	{
-		"function": "minecraft:set_nbt",
-		"tag": "{Trim:{pattern:\"ssbrc:fighters/altered_beast/default/weretiger\",material:\"minecraft:quartz\"}}",
+		"function": "minecraft:set_components",
+		"components": {
+			"minecraft:trim": {
+				"material": "minecraft:quartz",
+				"pattern": "ssbrc:fighters/altered_beast/default/weretiger"
+			}
+		},
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -2026,8 +2796,13 @@
 		]
 	},
 	{
-		"function": "minecraft:set_nbt",
-		"tag": "{Trim:{pattern:\"ssbrc:fighters/altered_beast/default/werewolf\",material:\"minecraft:quartz\"}}",
+		"function": "minecraft:set_components",
+		"components": {
+			"minecraft:trim": {
+				"material": "minecraft:quartz",
+				"pattern": "ssbrc:fighters/altered_beast/default/werewolf"
+			}
+		},
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -2039,8 +2814,13 @@
 		]
 	},
 	{
-		"function": "minecraft:set_nbt",
-		"tag": "{Trim:{pattern:\"ssbrc:fighters/altered_beast/gold/centurion/default\",material:\"minecraft:quartz\"}}",
+		"function": "minecraft:set_components",
+		"components": {
+			"minecraft:trim": {
+				"material": "minecraft:quartz",
+				"pattern": "ssbrc:fighters/altered_beast/gold/centurion/default"
+			}
+		},
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -2052,8 +2832,13 @@
 		]
 	},
 	{
-		"function": "minecraft:set_nbt",
-		"tag": "{Trim:{pattern:\"ssbrc:fighters/altered_beast/gold/centurion/shirtless\",material:\"minecraft:quartz\"}}",
+		"function": "minecraft:set_components",
+		"components": {
+			"minecraft:trim": {
+				"material": "minecraft:quartz",
+				"pattern": "ssbrc:fighters/altered_beast/gold/centurion/shirtless"
+			}
+		},
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -2065,8 +2850,13 @@
 		]
 	},
 	{
-		"function": "minecraft:set_nbt",
-		"tag": "{Trim:{pattern:\"ssbrc:fighters/altered_beast/gold/werebear\",material:\"minecraft:quartz\"}}",
+		"function": "minecraft:set_components",
+		"components": {
+			"minecraft:trim": {
+				"material": "minecraft:quartz",
+				"pattern": "ssbrc:fighters/altered_beast/gold/werebear"
+			}
+		},
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -2078,8 +2868,13 @@
 		]
 	},
 	{
-		"function": "minecraft:set_nbt",
-		"tag": "{Trim:{pattern:\"ssbrc:fighters/altered_beast/gold/weredragon\",material:\"minecraft:quartz\"}}",
+		"function": "minecraft:set_components",
+		"components": {
+			"minecraft:trim": {
+				"material": "minecraft:quartz",
+				"pattern": "ssbrc:fighters/altered_beast/gold/weredragon"
+			}
+		},
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -2091,8 +2886,13 @@
 		]
 	},
 	{
-		"function": "minecraft:set_nbt",
-		"tag": "{Trim:{pattern:\"ssbrc:fighters/altered_beast/gold/weretiger\",material:\"minecraft:quartz\"}}",
+		"function": "minecraft:set_components",
+		"components": {
+			"minecraft:trim": {
+				"material": "minecraft:quartz",
+				"pattern": "ssbrc:fighters/altered_beast/gold/weretiger"
+			}
+		},
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -2104,8 +2904,13 @@
 		]
 	},
 	{
-		"function": "minecraft:set_nbt",
-		"tag": "{Trim:{pattern:\"ssbrc:fighters/altered_beast/gold/werewolf\",material:\"minecraft:quartz\"}}",
+		"function": "minecraft:set_components",
+		"components": {
+			"minecraft:trim": {
+				"material": "minecraft:quartz",
+				"pattern": "ssbrc:fighters/altered_beast/gold/werewolf"
+			}
+		},
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -2117,8 +2922,13 @@
 		]
 	},
 	{
-		"function": "minecraft:set_nbt",
-		"tag": "{Trim:{pattern:\"ssbrc:fighters/altered_beast/player_2/centurion/default\",material:\"minecraft:quartz\"}}",
+		"function": "minecraft:set_components",
+		"components": {
+			"minecraft:trim": {
+				"material": "minecraft:quartz",
+				"pattern": "ssbrc:fighters/altered_beast/player_2/centurion/default"
+			}
+		},
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -2130,8 +2940,13 @@
 		]
 	},
 	{
-		"function": "minecraft:set_nbt",
-		"tag": "{Trim:{pattern:\"ssbrc:fighters/altered_beast/player_2/centurion/shirtless\",material:\"minecraft:quartz\"}}",
+		"function": "minecraft:set_components",
+		"components": {
+			"minecraft:trim": {
+				"material": "minecraft:quartz",
+				"pattern": "ssbrc:fighters/altered_beast/player_2/centurion/shirtless"
+			}
+		},
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -2143,8 +2958,13 @@
 		]
 	},
 	{
-		"function": "minecraft:set_nbt",
-		"tag": "{Trim:{pattern:\"ssbrc:fighters/altered_beast/player_2/werebear\",material:\"minecraft:quartz\"}}",
+		"function": "minecraft:set_components",
+		"components": {
+			"minecraft:trim": {
+				"material": "minecraft:quartz",
+				"pattern": "ssbrc:fighters/altered_beast/player_2/werebear"
+			}
+		},
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -2156,8 +2976,13 @@
 		]
 	},
 	{
-		"function": "minecraft:set_nbt",
-		"tag": "{Trim:{pattern:\"ssbrc:fighters/altered_beast/player_2/weredragon\",material:\"minecraft:quartz\"}}",
+		"function": "minecraft:set_components",
+		"components": {
+			"minecraft:trim": {
+				"material": "minecraft:quartz",
+				"pattern": "ssbrc:fighters/altered_beast/player_2/weredragon"
+			}
+		},
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -2169,8 +2994,13 @@
 		]
 	},
 	{
-		"function": "minecraft:set_nbt",
-		"tag": "{Trim:{pattern:\"ssbrc:fighters/altered_beast/player_2/weretiger\",material:\"minecraft:quartz\"}}",
+		"function": "minecraft:set_components",
+		"components": {
+			"minecraft:trim": {
+				"material": "minecraft:quartz",
+				"pattern": "ssbrc:fighters/altered_beast/player_2/weretiger"
+			}
+		},
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -2182,8 +3012,13 @@
 		]
 	},
 	{
-		"function": "minecraft:set_nbt",
-		"tag": "{Trim:{pattern:\"ssbrc:fighters/altered_beast/player_2/werewolf\",material:\"minecraft:quartz\"}}",
+		"function": "minecraft:set_components",
+		"components": {
+			"minecraft:trim": {
+				"material": "minecraft:quartz",
+				"pattern": "ssbrc:fighters/altered_beast/player_2/werewolf"
+			}
+		},
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -2195,8 +3030,13 @@
 		]
 	},
 	{
-		"function": "minecraft:set_nbt",
-		"tag": "{Trim:{pattern:\"ssbrc:fighters/alucard/default\",material:\"minecraft:quartz\"}}",
+		"function": "minecraft:set_components",
+		"components": {
+			"minecraft:trim": {
+				"material": "minecraft:quartz",
+				"pattern": "ssbrc:fighters/alucard/default"
+			}
+		},
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -2208,8 +3048,13 @@
 		]
 	},
 	{
-		"function": "minecraft:set_nbt",
-		"tag": "{Trim:{pattern:\"ssbrc:fighters/alucard/gold\",material:\"minecraft:quartz\"}}",
+		"function": "minecraft:set_components",
+		"components": {
+			"minecraft:trim": {
+				"material": "minecraft:quartz",
+				"pattern": "ssbrc:fighters/alucard/gold"
+			}
+		},
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -2221,8 +3066,13 @@
 		]
 	},
 	{
-		"function": "minecraft:set_nbt",
-		"tag": "{Trim:{pattern:\"ssbrc:fighters/alucard/lords_of_shadow\",material:\"minecraft:quartz\"}}",
+		"function": "minecraft:set_components",
+		"components": {
+			"minecraft:trim": {
+				"material": "minecraft:quartz",
+				"pattern": "ssbrc:fighters/alucard/lords_of_shadow"
+			}
+		},
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -2234,8 +3084,13 @@
 		]
 	},
 	{
-		"function": "minecraft:set_nbt",
-		"tag": "{Trim:{pattern:\"ssbrc:fighters/giegue/default\",material:\"minecraft:quartz\"}}",
+		"function": "minecraft:set_components",
+		"components": {
+			"minecraft:trim": {
+				"material": "minecraft:quartz",
+				"pattern": "ssbrc:fighters/giegue/default"
+			}
+		},
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -2247,8 +3102,13 @@
 		]
 	},
 	{
-		"function": "minecraft:set_nbt",
-		"tag": "{Trim:{pattern:\"ssbrc:fighters/giegue/gold\",material:\"minecraft:quartz\"}}",
+		"function": "minecraft:set_components",
+		"components": {
+			"minecraft:trim": {
+				"material": "minecraft:quartz",
+				"pattern": "ssbrc:fighters/giegue/gold"
+			}
+		},
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -2260,8 +3120,13 @@
 		]
 	},
 	{
-		"function": "minecraft:set_nbt",
-		"tag": "{Trim:{pattern:\"ssbrc:fighters/shadow/default\",material:\"minecraft:quartz\"}}",
+		"function": "minecraft:set_components",
+		"components": {
+			"minecraft:trim": {
+				"material": "minecraft:quartz",
+				"pattern": "ssbrc:fighters/shadow/default"
+			}
+		},
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -2273,8 +3138,13 @@
 		]
 	},
 	{
-		"function": "minecraft:set_nbt",
-		"tag": "{Trim:{pattern:\"ssbrc:fighters/shadow/gold\",material:\"minecraft:quartz\"}}",
+		"function": "minecraft:set_components",
+		"components": {
+			"minecraft:trim": {
+				"material": "minecraft:quartz",
+				"pattern": "ssbrc:fighters/shadow/gold"
+			}
+		},
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -2286,8 +3156,13 @@
 		]
 	},
 	{
-		"function": "minecraft:set_nbt",
-		"tag": "{Trim:{pattern:\"ssbrc:fighters/shadow/sir_lancelot\",material:\"minecraft:quartz\"}}",
+		"function": "minecraft:set_components",
+		"components": {
+			"minecraft:trim": {
+				"material": "minecraft:quartz",
+				"pattern": "ssbrc:fighters/shadow/sir_lancelot"
+			}
+		},
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -2299,8 +3174,13 @@
 		]
 	},
 	{
-		"function": "minecraft:set_nbt",
-		"tag": "{Trim:{pattern:\"ssbrc:fighters/shadow/yellow_android\",material:\"minecraft:quartz\"}}",
+		"function": "minecraft:set_components",
+		"components": {
+			"minecraft:trim": {
+				"material": "minecraft:quartz",
+				"pattern": "ssbrc:fighters/shadow/yellow_android"
+			}
+		},
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -2312,8 +3192,13 @@
 		]
 	},
 	{
-		"function": "minecraft:set_nbt",
-		"tag": "{Trim:{pattern:\"ssbrc:fighters/shovel_knight/default\",material:\"minecraft:quartz\"}}",
+		"function": "minecraft:set_components",
+		"components": {
+			"minecraft:trim": {
+				"material": "minecraft:quartz",
+				"pattern": "ssbrc:fighters/shovel_knight/default"
+			}
+		},
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -2325,8 +3210,13 @@
 		]
 	},
 	{
-		"function": "minecraft:set_nbt",
-		"tag": "{Trim:{pattern:\"ssbrc:fighters/shovel_knight/gold\",material:\"minecraft:quartz\"}}",
+		"function": "minecraft:set_components",
+		"components": {
+			"minecraft:trim": {
+				"material": "minecraft:quartz",
+				"pattern": "ssbrc:fighters/shovel_knight/gold"
+			}
+		},
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -2338,8 +3228,13 @@
 		]
 	},
 	{
-		"function": "minecraft:set_nbt",
-		"tag": "{Trim:{pattern:\"ssbrc:fighters/shovel_knight/armor_of_chaos\",material:\"minecraft:quartz\"}}",
+		"function": "minecraft:set_components",
+		"components": {
+			"minecraft:trim": {
+				"material": "minecraft:quartz",
+				"pattern": "ssbrc:fighters/shovel_knight/armor_of_chaos"
+			}
+		},
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -2351,8 +3246,13 @@
 		]
 	},
 	{
-		"function": "minecraft:set_nbt",
-		"tag": "{Trim:{pattern:\"ssbrc:fighters/shovel_knight/toad_gear\",material:\"minecraft:quartz\"}}",
+		"function": "minecraft:set_components",
+		"components": {
+			"minecraft:trim": {
+				"material": "minecraft:quartz",
+				"pattern": "ssbrc:fighters/shovel_knight/toad_gear"
+			}
+		},
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -2364,8 +3264,13 @@
 		]
 	},
 	{
-		"function": "minecraft:set_nbt",
-		"tag": "{Trim:{pattern:\"ssbrc:fighters/shovel_knight/phase_locket\",material:\"minecraft:quartz\"}}",
+		"function": "minecraft:set_components",
+		"components": {
+			"minecraft:trim": {
+				"material": "minecraft:quartz",
+				"pattern": "ssbrc:fighters/shovel_knight/phase_locket"
+			}
+		},
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -2377,8 +3282,13 @@
 		]
 	},
 	{
-		"function": "minecraft:set_nbt",
-		"tag": "{Trim:{pattern:\"ssbrc:fighters/team_rocket/default/james\",material:\"minecraft:quartz\"}}",
+		"function": "minecraft:set_components",
+		"components": {
+			"minecraft:trim": {
+				"material": "minecraft:quartz",
+				"pattern": "ssbrc:fighters/team_rocket/default/james"
+			}
+		},
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -2390,8 +3300,13 @@
 		]
 	},
 	{
-		"function": "minecraft:set_nbt",
-		"tag": "{Trim:{pattern:\"ssbrc:fighters/team_rocket/default/jesse\",material:\"minecraft:quartz\"}}",
+		"function": "minecraft:set_components",
+		"components": {
+			"minecraft:trim": {
+				"material": "minecraft:quartz",
+				"pattern": "ssbrc:fighters/team_rocket/default/jesse"
+			}
+		},
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -2403,8 +3318,13 @@
 		]
 	},
 	{
-		"function": "minecraft:set_nbt",
-		"tag": "{Trim:{pattern:\"ssbrc:fighters/team_rocket/default/arbok\",material:\"minecraft:quartz\"}}",
+		"function": "minecraft:set_components",
+		"components": {
+			"minecraft:trim": {
+				"material": "minecraft:quartz",
+				"pattern": "ssbrc:fighters/team_rocket/default/arbok"
+			}
+		},
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -2416,8 +3336,13 @@
 		]
 	},
 	{
-		"function": "minecraft:set_nbt",
-		"tag": "{Trim:{pattern:\"ssbrc:fighters/team_rocket/default/meowth\",material:\"minecraft:quartz\"}}",
+		"function": "minecraft:set_components",
+		"components": {
+			"minecraft:trim": {
+				"material": "minecraft:quartz",
+				"pattern": "ssbrc:fighters/team_rocket/default/meowth"
+			}
+		},
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -2429,8 +3354,13 @@
 		]
 	},
 	{
-		"function": "minecraft:set_nbt",
-		"tag": "{Trim:{pattern:\"ssbrc:fighters/team_rocket/default/wobbuffet\",material:\"minecraft:quartz\"}}",
+		"function": "minecraft:set_components",
+		"components": {
+			"minecraft:trim": {
+				"material": "minecraft:quartz",
+				"pattern": "ssbrc:fighters/team_rocket/default/wobbuffet"
+			}
+		},
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -2442,8 +3372,13 @@
 		]
 	},
 	{
-		"function": "minecraft:set_nbt",
-		"tag": "{Trim:{pattern:\"ssbrc:fighters/team_rocket/gold/james\",material:\"minecraft:quartz\"}}",
+		"function": "minecraft:set_components",
+		"components": {
+			"minecraft:trim": {
+				"material": "minecraft:quartz",
+				"pattern": "ssbrc:fighters/team_rocket/gold/james"
+			}
+		},
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -2455,8 +3390,13 @@
 		]
 	},
 	{
-		"function": "minecraft:set_nbt",
-		"tag": "{Trim:{pattern:\"ssbrc:fighters/team_rocket/gold/jesse\",material:\"minecraft:quartz\"}}",
+		"function": "minecraft:set_components",
+		"components": {
+			"minecraft:trim": {
+				"material": "minecraft:quartz",
+				"pattern": "ssbrc:fighters/team_rocket/gold/jesse"
+			}
+		},
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -2468,8 +3408,13 @@
 		]
 	},
 	{
-		"function": "minecraft:set_nbt",
-		"tag": "{Trim:{pattern:\"ssbrc:fighters/team_rocket/gold/arbok\",material:\"minecraft:quartz\"}}",
+		"function": "minecraft:set_components",
+		"components": {
+			"minecraft:trim": {
+				"material": "minecraft:quartz",
+				"pattern": "ssbrc:fighters/team_rocket/gold/arbok"
+			}
+		},
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -2481,8 +3426,13 @@
 		]
 	},
 	{
-		"function": "minecraft:set_nbt",
-		"tag": "{Trim:{pattern:\"ssbrc:fighters/team_rocket/gold/meowth\",material:\"minecraft:quartz\"}}",
+		"function": "minecraft:set_components",
+		"components": {
+			"minecraft:trim": {
+				"material": "minecraft:quartz",
+				"pattern": "ssbrc:fighters/team_rocket/gold/meowth"
+			}
+		},
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -2494,8 +3444,13 @@
 		]
 	},
 	{
-		"function": "minecraft:set_nbt",
-		"tag": "{Trim:{pattern:\"ssbrc:fighters/team_rocket/gold/wobbuffet\",material:\"minecraft:quartz\"}}",
+		"function": "minecraft:set_components",
+		"components": {
+			"minecraft:trim": {
+				"material": "minecraft:quartz",
+				"pattern": "ssbrc:fighters/team_rocket/gold/wobbuffet"
+			}
+		},
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -2507,8 +3462,13 @@
 		]
 	},
 	{
-		"function": "minecraft:set_nbt",
-		"tag": "{Trim:{pattern:\"ssbrc:fighters/yar/default\",material:\"minecraft:quartz\"}}",
+		"function": "minecraft:set_components",
+		"components": {
+			"minecraft:trim": {
+				"material": "minecraft:quartz",
+				"pattern": "ssbrc:fighters/yar/default"
+			}
+		},
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -2520,8 +3480,13 @@
 		]
 	},
 	{
-		"function": "minecraft:set_nbt",
-		"tag": "{Trim:{pattern:\"ssbrc:fighters/yar/gold\",material:\"minecraft:quartz\"}}",
+		"function": "minecraft:set_components",
+		"components": {
+			"minecraft:trim": {
+				"material": "minecraft:quartz",
+				"pattern": "ssbrc:fighters/yar/gold"
+			}
+		},
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -2533,8 +3498,13 @@
 		]
 	},
 	{
-		"function": "minecraft:set_nbt",
-		"tag": "{Trim:{pattern:\"ssbrc:fighters/yar/recruit\",material:\"minecraft:quartz\"}}",
+		"function": "minecraft:set_components",
+		"components": {
+			"minecraft:trim": {
+				"material": "minecraft:quartz",
+				"pattern": "ssbrc:fighters/yar/recruit"
+			}
+		},
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",

@@ -56,7 +56,7 @@ fighters = {
 	'cloud': {
 		'model': 180,
 		'color': 'white',
-		'default': False,
+		'default': True,
 		'skins': {}
 	},
 	'dark_samus': {
@@ -151,7 +151,7 @@ fighters = {
 	'hero': {
 		'model': 440,
 		'color': 'yellow',
-		'default': False,
+		'default': True,
 		'skins': {
 			'erdrick': {
 				'model': 444,
@@ -181,7 +181,7 @@ fighters = {
 	'joker': {
 		'model': 600,
 		'color': 'dark_red',
-		'default': False,
+		'default': True,
 		'skins': {
 			'christmas_outfit': {
 				'model': 606,
@@ -419,7 +419,7 @@ fighters = {
 	'snake': {
 		'model': 1520,
 		'color': 'gray',
-		'default': False,
+		'default': True,
 		'skins': {
 			'classic_tuxedo': {
 				'model': 1526,
@@ -444,7 +444,7 @@ fighters = {
 				'model': 1542,
 				'color': 'blue'
 			},
-			'hyrule_tunic': {
+			'hylian_tunic': {
 				'model': 1544,
 				'color': 'green'
 			},

@@ -10,8 +10,8 @@
 		}
 	},
 	{
-		"function": "minecraft:set_nbt",
-		"tag": "{CustomModelData:443}"
+		"function": "minecraft:set_custom_model_data",
+		"value": 443
 	},
 	{
 		"function": "minecraft:reference",

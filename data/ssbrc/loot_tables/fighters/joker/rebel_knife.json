@@ -15,7 +15,7 @@
 									"attribute": "minecraft:generic.attack_speed",
 									"name": "Attack Speed",
 									"amount": 3,
-									"operation": "multiply_base",
+									"operation": "add_multiplied_base",
 									"slot": "mainhand"
 								}
 							]
@@ -29,7 +29,7 @@
 							"name": "ssbrc:fighters/joker/rebel_knife"
 						},
 						{
-							"function": "minecraft:set_nbt",
+							"function": "minecraft:set_custom_data",
 							"tag": "{rebel_knife:1}"
 						}
 					]

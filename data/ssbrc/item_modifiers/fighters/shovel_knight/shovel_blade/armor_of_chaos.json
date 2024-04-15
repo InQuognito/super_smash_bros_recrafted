@@ -10,8 +10,8 @@
 		}
 	},
 	{
-		"function": "minecraft:set_nbt",
-		"tag": "{shovelDrop:0,CustomModelData:1924}",
+		"function": "minecraft:reference",
+		"name": "ssbrc:fighters/shovel_knight/shovel_blade/armor_of_chaos/default",
 		"conditions": [
 			{
 				"condition": "minecraft:inverted",
@@ -23,8 +23,8 @@
 		]
 	},
 	{
-		"function": "minecraft:set_nbt",
-		"tag": "{shovelDrop:1,CustomModelData:1925}",
+		"function": "minecraft:reference",
+		"name": "ssbrc:fighters/shovel_knight/shovel_blade/armor_of_chaos/shovel_drop",
 		"conditions": [
 			{
 				"condition": "minecraft:reference",

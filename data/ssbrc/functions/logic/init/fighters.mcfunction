@@ -528,8 +528,8 @@ data modify storage ssbrc:data fighters set value {\
 				"model": 1542,\
 				"color": "blue",\
 			},\
-			"hyrule_tunic": {\
-				"name": "hyrule_tunic",\
+			"hylian_tunic": {\
+				"name": "hylian_tunic",\
 				"model": 1544,\
 				"color": "green",\
 			},\

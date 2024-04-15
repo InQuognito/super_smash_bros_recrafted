@@ -8,7 +8,7 @@
 		"name": "ssbrc:fighters/byleth/golden_deer/failnaught/init"
 	},
 	{
-		"function": "minecraft:set_nbt",
+		"function": "minecraft:set_custom_data",
 		"tag": "{pulling:1}"
 	}
 ]
