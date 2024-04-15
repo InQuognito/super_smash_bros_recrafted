@@ -13,8 +13,8 @@ effect clear @s minecraft:glowing
 
 function ssbrc:logic/pre_game/fighter_select/check_participation
 
-clear @s minecraft:carrot_on_a_stick{skin_options:1}
-clear @s minecraft:carrot_on_a_stick{wiki:1}
+clear @s minecraft:nether_star{skin_options:1}
+clear @s minecraft:nether_star{wiki:1}
 
 execute unless entity @s[tag=blind_pick] run function ssbrc:logic/pre_game/fighter_select/options
 

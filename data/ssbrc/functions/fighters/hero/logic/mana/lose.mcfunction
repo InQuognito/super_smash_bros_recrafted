@@ -2,7 +2,7 @@ title @s actionbar [{"translate":"ssbrc.fighters.hero.warriorSwitch","bold":true
 
 tag @s add magicLost
 
-clear @s minecraft:carrot_on_a_stick{hero.spell:1}
+clear @s minecraft:nether_star{hero.spell:1}
 
 function ssbrc:logic/fighters/replace_item {old:"hero.sword",new:"hero/sword"}
 

@@ -9,7 +9,7 @@ scoreboard objectives add charge.1 dummy
 scoreboard objectives add charge.2 dummy
 scoreboard objectives add charge.3 dummy
 scoreboard objectives add charge.4 dummy
-scoreboard objectives add charge.input minecraft.used:minecraft.carrot_on_a_stick
+scoreboard objectives add charge.input minecraft.used:minecraft.nether_star
 scoreboard objectives add charge.output dummy
 scoreboard objectives add charge.step dummy
 scoreboard objectives add cloud.limit dummy
@@ -93,7 +93,7 @@ scoreboard objectives add rotationX.prev dummy
 scoreboard objectives add rotationY dummy
 scoreboard objectives add rotationY.prev dummy
 scoreboard objectives add sandbag.stand_on dummy
-scoreboard objectives add select_item minecraft.used:minecraft.carrot_on_a_stick
+scoreboard objectives add select_item minecraft.used:minecraft.nether_star
 scoreboard objectives add shadow.chaos_control dummy
 scoreboard objectives add shadow.meter.hero dummy
 scoreboard objectives add shadow.meter.villain dummy
@@ -134,7 +134,7 @@ scoreboard objectives add timer.stat.kill dummy
 scoreboard objectives add timer.trident dummy
 scoreboard objectives add temp dummy
 scoreboard objectives add tower_of_fate.barrier dummy
-scoreboard objectives add use_ability minecraft.used:minecraft.carrot_on_a_stick
+scoreboard objectives add use_ability minecraft.used:minecraft.nether_star
 scoreboard objectives add use_item minecraft.used:minecraft.warped_fungus_on_a_stick
 scoreboard objectives add vars dummy
 scoreboard objectives add walk_distance minecraft.custom:minecraft.walk_one_cm

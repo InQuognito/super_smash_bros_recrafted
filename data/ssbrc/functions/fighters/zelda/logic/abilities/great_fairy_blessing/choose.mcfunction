@@ -1,6 +1,6 @@
 execute store result score #enchanted_weapons temp run clear @s minecraft:iron_sword{enchanted:1} 0
 execute store result score #glass_weapons temp run clear @s minecraft:iron_sword{glass:1} 0
-execute store result score #nayrus_rings temp run clear @s minecraft:carrot_on_a_stick{nayrus_ring:1} 0
+execute store result score #nayrus_rings temp run clear @s minecraft:nether_star{nayrus_ring:1} 0
 execute store result score #red_potions temp run clear @s minecraft:potion{red_potion:1} 0
 
 scoreboard players operation #percentage temp = @s mana

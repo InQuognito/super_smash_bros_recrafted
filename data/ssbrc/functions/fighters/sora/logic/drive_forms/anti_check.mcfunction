@@ -12,7 +12,7 @@ tag @s[scores={charge.2=10}] add anti_form
 tag @s[tag=always_anti] add anti_form
 tag @s[tag=never_anti] remove anti_form
 
-clear @s minecraft:carrot_on_a_stick{drive_form:1}
+clear @s minecraft:nether_star{drive_form:1}
 
 execute if entity @s[tag=!anti_form,tag=valor_form] run function ssbrc:fighters/sora/logic/drive_forms/valor
 execute if entity @s[tag=!anti_form,tag=wisdom_form] run function ssbrc:fighters/sora/logic/drive_forms/wisdom

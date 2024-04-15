@@ -45,7 +45,7 @@ execute if entity @s[tag=greninja] run kill @e[type=minecraft:marker,tag=shadow_
 
 execute if entity @s[tag=jigglypuff] run function ssbrc:fighters/jigglypuff/cleanup
 
-clear @s[tag=joker] minecraft:carrot_on_a_stick{mask:1}
+clear @s[tag=joker] minecraft:nether_star{mask:1}
 
 execute if entity @s[tag=link] run function ssbrc:fighters/link/cleanup
 

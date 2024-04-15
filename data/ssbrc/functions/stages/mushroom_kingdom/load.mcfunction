@@ -5,7 +5,7 @@ scoreboard players set stagePicked stage_vote 1
 forceload add -288 -192 -177 -81
 
 # Yoshi Egg
-summon minecraft:item_display -218.5 28.25 -144.5 {Rotation:[15f,0f],item:{id:"minecraft:carrot_on_a_stick",Count:1b,tag:{CustomModelData:1741}}}
+summon minecraft:item_display -218.5 28.25 -144.5 {Rotation:[15f,0f],item:{id:"minecraft:nether_star",Count:1b,tag:{CustomModelData:1741}}}
 
 # Warp Zone
 summon minecraft:text_display -249.5 28.0 -154.5 {Rotation:[-90f,0f],text:'[{"translate":"ssbrc.stages.mushroom_kingdom.warpZone1","font":"ssbrc:mario"}]',line_width:500,background:0}

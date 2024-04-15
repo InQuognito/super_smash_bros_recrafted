@@ -1,4 +1,4 @@
-clear @s minecraft:carrot_on_a_stick{brave_bow:1}
+clear @s minecraft:nether_star{brave_bow:1}
 loot replace entity @s hotbar.0 loot ssbrc:fighters/byleth/golden_deer/failnaught/idle
 
 clear @s minecraft:iron_sword{steel_sword:1}
