@@ -288,5 +288,5 @@ function ssbrc:logic/load
 
 tellraw @a {"translate":"ssbrc.admin.forceReset","color":"dark_red"}
 
-scoreboard players add numberOfResets hardReset 1
-scoreboard players operation @a hardReset = numberOfResets hardReset
+scoreboard players add num hard_resets 1
+scoreboard players operation @a hard_resets = num hard_resets

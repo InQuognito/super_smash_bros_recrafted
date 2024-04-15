@@ -1,40 +1,77 @@
-execute if entity @s[tag=altered_beast] run tellraw @s [{"translate":"[","color":"dark_aqua"},{"translate":"ssbrc.fighters.menu.wiki","color":"aqua","clickEvent":{"action":"open_url","value":"https://super-smash-bros-recrafted.fandom.com/wiki/Altered_Beast"}},{"translate":"]","color":"dark_aqua"}]
-execute if entity @s[tag=alucard] run tellraw @s [{"translate":"[","color":"dark_aqua"},{"translate":"ssbrc.fighters.menu.wiki","color":"aqua","clickEvent":{"action":"open_url","value":"https://super-smash-bros-recrafted.fandom.com/wiki/Alucard"}},{"translate":"]","color":"dark_aqua"}]
-execute if entity @s[tag=bowser] run tellraw @s [{"translate":"[","color":"dark_aqua"},{"translate":"ssbrc.fighters.menu.wiki","color":"aqua","clickEvent":{"action":"open_url","value":"https://super-smash-bros-recrafted.fandom.com/wiki/Bowser"}},{"translate":"]","color":"dark_aqua"}]
-execute if entity @s[tag=byleth] run tellraw @s [{"translate":"[","color":"dark_aqua"},{"translate":"ssbrc.fighters.menu.wiki","color":"aqua","clickEvent":{"action":"open_url","value":"https://super-smash-bros-recrafted.fandom.com/wiki/Byleth"}},{"translate":"]","color":"dark_aqua"}]
-execute if entity @s[tag=captain_falcon] run tellraw @s [{"translate":"[","color":"dark_aqua"},{"translate":"ssbrc.fighters.menu.wiki","color":"aqua","clickEvent":{"action":"open_url","value":"https://super-smash-bros-recrafted.fandom.com/wiki/Captain_Falcon"}},{"translate":"]","color":"dark_aqua"}]
-execute if entity @s[tag=cloud] run tellraw @s [{"translate":"[","color":"dark_aqua"},{"translate":"ssbrc.fighters.menu.wiki","color":"aqua","clickEvent":{"action":"open_url","value":"https://super-smash-bros-recrafted.fandom.com/wiki/Cloud"}},{"translate":"]","color":"dark_aqua"}]
-execute if entity @s[tag=dark_samus] run tellraw @s [{"translate":"[","color":"dark_aqua"},{"translate":"ssbrc.fighters.menu.wiki","color":"aqua","clickEvent":{"action":"open_url","value":"https://super-smash-bros-recrafted.fandom.com/wiki/Dark_Samus"}},{"translate":"]","color":"dark_aqua"}]
-execute if entity @s[tag=donkey_kong] run tellraw @s [{"translate":"[","color":"dark_aqua"},{"translate":"ssbrc.fighters.menu.wiki","color":"aqua","clickEvent":{"action":"open_url","value":"https://super-smash-bros-recrafted.fandom.com/wiki/Donkey_Kong"}},{"translate":"]","color":"dark_aqua"}]
-execute if entity @s[tag=fox] run tellraw @s [{"translate":"[","color":"dark_aqua"},{"translate":"ssbrc.fighters.menu.wiki","color":"aqua","clickEvent":{"action":"open_url","value":"https://super-smash-bros-recrafted.fandom.com/wiki/Fox"}},{"translate":"]","color":"dark_aqua"}]
-execute if entity @s[tag=ganondorf] run tellraw @s [{"translate":"[","color":"dark_aqua"},{"translate":"ssbrc.fighters.menu.wiki","color":"aqua","clickEvent":{"action":"open_url","value":"https://super-smash-bros-recrafted.fandom.com/wiki/Ganondorf"}},{"translate":"]","color":"dark_aqua"}]
-execute if entity @s[tag=giegue] run tellraw @s [{"translate":"[","color":"dark_aqua"},{"translate":"ssbrc.fighters.menu.wiki","color":"aqua","clickEvent":{"action":"open_url","value":"https://super-smash-bros-recrafted.fandom.com/wiki/Giegue"}},{"translate":"]","color":"dark_aqua"}]
-execute if entity @s[tag=greninja] run tellraw @s [{"translate":"[","color":"dark_aqua"},{"translate":"ssbrc.fighters.menu.wiki","color":"aqua","clickEvent":{"action":"open_url","value":"https://super-smash-bros-recrafted.fandom.com/wiki/Greninja"}},{"translate":"]","color":"dark_aqua"}]
-execute if entity @s[tag=hero] run tellraw @s [{"translate":"[","color":"dark_aqua"},{"translate":"ssbrc.fighters.menu.wiki","color":"aqua","clickEvent":{"action":"open_url","value":"https://super-smash-bros-recrafted.fandom.com/wiki/Hero"}},{"translate":"]","color":"dark_aqua"}]
-execute if entity @s[tag=jigglypuff] run tellraw @s [{"translate":"[","color":"dark_aqua"},{"translate":"ssbrc.fighters.menu.wiki","color":"aqua","clickEvent":{"action":"open_url","value":"https://super-smash-bros-recrafted.fandom.com/wiki/Jigglypuff"}},{"translate":"]","color":"dark_aqua"}]
-execute if entity @s[tag=joker] run tellraw @s [{"translate":"[","color":"dark_aqua"},{"translate":"ssbrc.fighters.menu.wiki","color":"aqua","clickEvent":{"action":"open_url","value":"https://super-smash-bros-recrafted.fandom.com/wiki/Joker"}},{"translate":"]","color":"dark_aqua"}]
-execute if entity @s[tag=king_k_rool] run tellraw @s [{"translate":"[","color":"dark_aqua"},{"translate":"ssbrc.fighters.menu.wiki","color":"aqua","clickEvent":{"action":"open_url","value":"https://super-smash-bros-recrafted.fandom.com/wiki/King_K._Rool"}},{"translate":"]","color":"dark_aqua"}]
-execute if entity @s[tag=kirby] run tellraw @s [{"translate":"[","color":"dark_aqua"},{"translate":"ssbrc.fighters.menu.wiki","color":"aqua","clickEvent":{"action":"open_url","value":"https://super-smash-bros-recrafted.fandom.com/wiki/Kirby"}},{"translate":"]","color":"dark_aqua"}]
-execute if entity @s[tag=link] run tellraw @s [{"translate":"[","color":"dark_aqua"},{"translate":"ssbrc.fighters.menu.wiki","color":"aqua","clickEvent":{"action":"open_url","value":"https://super-smash-bros-recrafted.fandom.com/wiki/Link"}},{"translate":"]","color":"dark_aqua"}]
-execute if entity @s[tag=luigi] run tellraw @s [{"translate":"[","color":"dark_aqua"},{"translate":"ssbrc.fighters.menu.wiki","color":"aqua","clickEvent":{"action":"open_url","value":"https://super-smash-bros-recrafted.fandom.com/wiki/Luigi"}},{"translate":"]","color":"dark_aqua"}]
-execute if entity @s[tag=mario] run tellraw @s [{"translate":"[","color":"dark_aqua"},{"translate":"ssbrc.fighters.menu.wiki","color":"aqua","clickEvent":{"action":"open_url","value":"https://super-smash-bros-recrafted.fandom.com/wiki/Mario"}},{"translate":"]","color":"dark_aqua"}]
-execute if entity @s[tag=mega_man] run tellraw @s [{"translate":"[","color":"dark_aqua"},{"translate":"ssbrc.fighters.menu.wiki","color":"aqua","clickEvent":{"action":"open_url","value":"https://super-smash-bros-recrafted.fandom.com/wiki/Mega_Man"}},{"translate":"]","color":"dark_aqua"}]
-execute if entity @s[tag=ness] run tellraw @s [{"translate":"[","color":"dark_aqua"},{"translate":"ssbrc.fighters.menu.wiki","color":"aqua","clickEvent":{"action":"open_url","value":"https://super-smash-bros-recrafted.fandom.com/wiki/Ness"}},{"translate":"]","color":"dark_aqua"}]
-execute if entity @s[tag=pikachu] run tellraw @s [{"translate":"[","color":"dark_aqua"},{"translate":"ssbrc.fighters.menu.wiki","color":"aqua","clickEvent":{"action":"open_url","value":"https://super-smash-bros-recrafted.fandom.com/wiki/Pikachu"}},{"translate":"]","color":"dark_aqua"}]
-execute if entity @s[tag=pit] run tellraw @s [{"translate":"[","color":"dark_aqua"},{"translate":"ssbrc.fighters.menu.wiki","color":"aqua","clickEvent":{"action":"open_url","value":"https://super-smash-bros-recrafted.fandom.com/wiki/Pit"}},{"translate":"]","color":"dark_aqua"}]
-execute if entity @s[tag=pokemon_trainer] run tellraw @s [{"translate":"[","color":"dark_aqua"},{"translate":"ssbrc.fighters.menu.wiki","color":"aqua","clickEvent":{"action":"open_url","value":"https://super-smash-bros-recrafted.fandom.com/wiki/Pokémon_Trainer"}},{"translate":"]","color":"dark_aqua"}]
-execute if entity @s[tag=rob] run tellraw @s [{"translate":"[","color":"dark_aqua"},{"translate":"ssbrc.fighters.menu.wiki","color":"aqua","clickEvent":{"action":"open_url","value":"https://super-smash-bros-recrafted.fandom.com/wiki/R.O.B."}},{"translate":"]","color":"dark_aqua"}]
-execute if entity @s[tag=ryu] run tellraw @s [{"translate":"[","color":"dark_aqua"},{"translate":"ssbrc.fighters.menu.wiki","color":"aqua","clickEvent":{"action":"open_url","value":"https://super-smash-bros-recrafted.fandom.com/wiki/Ryu"}},{"translate":"]","color":"dark_aqua"}]
-execute if entity @s[tag=samus] run tellraw @s [{"translate":"[","color":"dark_aqua"},{"translate":"ssbrc.fighters.menu.wiki","color":"aqua","clickEvent":{"action":"open_url","value":"https://super-smash-bros-recrafted.fandom.com/wiki/Samus"}},{"translate":"]","color":"dark_aqua"}]
-execute if entity @s[tag=shadow] run tellraw @s [{"translate":"[","color":"dark_aqua"},{"translate":"ssbrc.fighters.menu.wiki","color":"aqua","clickEvent":{"action":"open_url","value":"https://super-smash-bros-recrafted.fandom.com/wiki/Shadow"}},{"translate":"]","color":"dark_aqua"}]
-execute if entity @s[tag=shovel_knight] run tellraw @s [{"translate":"[","color":"dark_aqua"},{"translate":"ssbrc.fighters.menu.wiki","color":"aqua","clickEvent":{"action":"open_url","value":"https://super-smash-bros-recrafted.fandom.com/wiki/Shovel_Knight"}},{"translate":"]","color":"dark_aqua"}]
-execute if entity @s[tag=snake] run tellraw @s [{"translate":"[","color":"dark_aqua"},{"translate":"ssbrc.fighters.menu.wiki","color":"aqua","clickEvent":{"action":"open_url","value":"https://super-smash-bros-recrafted.fandom.com/wiki/Snake"}},{"translate":"]","color":"dark_aqua"}]
-execute if entity @s[tag=sonic] run tellraw @s [{"translate":"[","color":"dark_aqua"},{"translate":"ssbrc.fighters.menu.wiki","color":"aqua","clickEvent":{"action":"open_url","value":"https://super-smash-bros-recrafted.fandom.com/wiki/Sonic"}},{"translate":"]","color":"dark_aqua"}]
-execute if entity @s[tag=sora] run tellraw @s [{"translate":"[","color":"dark_aqua"},{"translate":"ssbrc.fighters.menu.wiki","color":"aqua","clickEvent":{"action":"open_url","value":"https://super-smash-bros-recrafted.fandom.com/wiki/Sora"}},{"translate":"]","color":"dark_aqua"}]
-execute if entity @s[tag=steve] run tellraw @s [{"translate":"[","color":"dark_aqua"},{"translate":"ssbrc.fighters.menu.wiki","color":"aqua","clickEvent":{"action":"open_url","value":"https://super-smash-bros-recrafted.fandom.com/wiki/Steve"}},{"translate":"]","color":"dark_aqua"}]
-execute if entity @s[tag=team_rocket] run tellraw @s [{"translate":"[","color":"dark_aqua"},{"translate":"ssbrc.fighters.menu.wiki","color":"aqua","clickEvent":{"action":"open_url","value":"https://super-smash-bros-recrafted.fandom.com/wiki/Team_Rocket"}},{"translate":"]","color":"dark_aqua"}]
-execute if entity @s[tag=wolf] run tellraw @s [{"translate":"[","color":"dark_aqua"},{"translate":"ssbrc.fighters.menu.wiki","color":"aqua","clickEvent":{"action":"open_url","value":"https://super-smash-bros-recrafted.fandom.com/wiki/Wolf"}},{"translate":"]","color":"dark_aqua"}]
-execute if entity @s[tag=yar] run tellraw @s [{"translate":"[","color":"dark_aqua"},{"translate":"ssbrc.fighters.menu.wiki","color":"aqua","clickEvent":{"action":"open_url","value":"https://super-smash-bros-recrafted.fandom.com/wiki/Yar"}},{"translate":"]","color":"dark_aqua"}]
-execute if entity @s[tag=zelda] run tellraw @s [{"translate":"[","color":"dark_aqua"},{"translate":"ssbrc.fighters.menu.wiki","color":"aqua","clickEvent":{"action":"open_url","value":"https://super-smash-bros-recrafted.fandom.com/wiki/Zelda"}},{"translate":"]","color":"dark_aqua"}]
+tellraw @s[tag=altered_beast] [{"text":"[","color":"dark_aqua"},{"translate":"ssbrc.fighters.menu.wiki","color":"aqua","clickEvent":{"action":"open_url","value":"https://super-smash-bros-recrafted.fandom.com/wiki/Altered_Beast"}},{"text":"]","color":"dark_aqua"}]
 
-scoreboard players reset @s use_ability
+tellraw @s[tag=alucard] [{"text":"[","color":"dark_aqua"},{"translate":"ssbrc.fighters.menu.wiki","color":"aqua","clickEvent":{"action":"open_url","value":"https://super-smash-bros-recrafted.fandom.com/wiki/Alucard"}},{"text":"]","color":"dark_aqua"}]
+
+tellraw @s[tag=bowser] [{"text":"[","color":"dark_aqua"},{"translate":"ssbrc.fighters.menu.wiki","color":"aqua","clickEvent":{"action":"open_url","value":"https://super-smash-bros-recrafted.fandom.com/wiki/Bowser"}},{"text":"]","color":"dark_aqua"}]
+
+tellraw @s[tag=byleth] [{"text":"[","color":"dark_aqua"},{"translate":"ssbrc.fighters.menu.wiki","color":"aqua","clickEvent":{"action":"open_url","value":"https://super-smash-bros-recrafted.fandom.com/wiki/Byleth"}},{"text":"]","color":"dark_aqua"}]
+
+tellraw @s[tag=captain_falcon] [{"text":"[","color":"dark_aqua"},{"translate":"ssbrc.fighters.menu.wiki","color":"aqua","clickEvent":{"action":"open_url","value":"https://super-smash-bros-recrafted.fandom.com/wiki/Captain_Falcon"}},{"text":"]","color":"dark_aqua"}]
+
+tellraw @s[tag=cloud] [{"text":"[","color":"dark_aqua"},{"translate":"ssbrc.fighters.menu.wiki","color":"aqua","clickEvent":{"action":"open_url","value":"https://super-smash-bros-recrafted.fandom.com/wiki/Cloud"}},{"text":"]","color":"dark_aqua"}]
+
+tellraw @s[tag=dark_samus] [{"text":"[","color":"dark_aqua"},{"translate":"ssbrc.fighters.menu.wiki","color":"aqua","clickEvent":{"action":"open_url","value":"https://super-smash-bros-recrafted.fandom.com/wiki/Dark_Samus"}},{"text":"]","color":"dark_aqua"}]
+
+tellraw @s[tag=donkey_kong] [{"text":"[","color":"dark_aqua"},{"translate":"ssbrc.fighters.menu.wiki","color":"aqua","clickEvent":{"action":"open_url","value":"https://super-smash-bros-recrafted.fandom.com/wiki/Donkey_Kong"}},{"text":"]","color":"dark_aqua"}]
+
+tellraw @s[tag=fox] [{"text":"[","color":"dark_aqua"},{"translate":"ssbrc.fighters.menu.wiki","color":"aqua","clickEvent":{"action":"open_url","value":"https://super-smash-bros-recrafted.fandom.com/wiki/Fox"}},{"text":"]","color":"dark_aqua"}]
+
+tellraw @s[tag=ganondorf] [{"text":"[","color":"dark_aqua"},{"translate":"ssbrc.fighters.menu.wiki","color":"aqua","clickEvent":{"action":"open_url","value":"https://super-smash-bros-recrafted.fandom.com/wiki/Ganondorf"}},{"text":"]","color":"dark_aqua"}]
+
+tellraw @s[tag=giegue] [{"text":"[","color":"dark_aqua"},{"translate":"ssbrc.fighters.menu.wiki","color":"aqua","clickEvent":{"action":"open_url","value":"https://super-smash-bros-recrafted.fandom.com/wiki/Giegue"}},{"text":"]","color":"dark_aqua"}]
+
+tellraw @s[tag=greninja] [{"text":"[","color":"dark_aqua"},{"translate":"ssbrc.fighters.menu.wiki","color":"aqua","clickEvent":{"action":"open_url","value":"https://super-smash-bros-recrafted.fandom.com/wiki/Greninja"}},{"text":"]","color":"dark_aqua"}]
+
+tellraw @s[tag=hero] [{"text":"[","color":"dark_aqua"},{"translate":"ssbrc.fighters.menu.wiki","color":"aqua","clickEvent":{"action":"open_url","value":"https://super-smash-bros-recrafted.fandom.com/wiki/Hero"}},{"text":"]","color":"dark_aqua"}]
+
+tellraw @s[tag=jigglypuff] [{"text":"[","color":"dark_aqua"},{"translate":"ssbrc.fighters.menu.wiki","color":"aqua","clickEvent":{"action":"open_url","value":"https://super-smash-bros-recrafted.fandom.com/wiki/Jigglypuff"}},{"text":"]","color":"dark_aqua"}]
+
+tellraw @s[tag=joker] [{"text":"[","color":"dark_aqua"},{"translate":"ssbrc.fighters.menu.wiki","color":"aqua","clickEvent":{"action":"open_url","value":"https://super-smash-bros-recrafted.fandom.com/wiki/Joker"}},{"text":"]","color":"dark_aqua"}]
+
+tellraw @s[tag=king_k_rool] [{"text":"[","color":"dark_aqua"},{"translate":"ssbrc.fighters.menu.wiki","color":"aqua","clickEvent":{"action":"open_url","value":"https://super-smash-bros-recrafted.fandom.com/wiki/King_K._Rool"}},{"text":"]","color":"dark_aqua"}]
+
+tellraw @s[tag=kirby] [{"text":"[","color":"dark_aqua"},{"translate":"ssbrc.fighters.menu.wiki","color":"aqua","clickEvent":{"action":"open_url","value":"https://super-smash-bros-recrafted.fandom.com/wiki/Kirby"}},{"text":"]","color":"dark_aqua"}]
+
+tellraw @s[tag=link] [{"text":"[","color":"dark_aqua"},{"translate":"ssbrc.fighters.menu.wiki","color":"aqua","clickEvent":{"action":"open_url","value":"https://super-smash-bros-recrafted.fandom.com/wiki/Link"}},{"text":"]","color":"dark_aqua"}]
+
+tellraw @s[tag=luigi] [{"text":"[","color":"dark_aqua"},{"translate":"ssbrc.fighters.menu.wiki","color":"aqua","clickEvent":{"action":"open_url","value":"https://super-smash-bros-recrafted.fandom.com/wiki/Luigi"}},{"text":"]","color":"dark_aqua"}]
+
+tellraw @s[tag=mario] [{"text":"[","color":"dark_aqua"},{"translate":"ssbrc.fighters.menu.wiki","color":"aqua","clickEvent":{"action":"open_url","value":"https://super-smash-bros-recrafted.fandom.com/wiki/Mario"}},{"text":"]","color":"dark_aqua"}]
+
+tellraw @s[tag=mega_man] [{"text":"[","color":"dark_aqua"},{"translate":"ssbrc.fighters.menu.wiki","color":"aqua","clickEvent":{"action":"open_url","value":"https://super-smash-bros-recrafted.fandom.com/wiki/Mega_Man"}},{"text":"]","color":"dark_aqua"}]
+
+tellraw @s[tag=ness] [{"text":"[","color":"dark_aqua"},{"translate":"ssbrc.fighters.menu.wiki","color":"aqua","clickEvent":{"action":"open_url","value":"https://super-smash-bros-recrafted.fandom.com/wiki/Ness"}},{"text":"]","color":"dark_aqua"}]
+
+tellraw @s[tag=pikachu] [{"text":"[","color":"dark_aqua"},{"translate":"ssbrc.fighters.menu.wiki","color":"aqua","clickEvent":{"action":"open_url","value":"https://super-smash-bros-recrafted.fandom.com/wiki/Pikachu"}},{"text":"]","color":"dark_aqua"}]
+
+tellraw @s[tag=pit] [{"text":"[","color":"dark_aqua"},{"translate":"ssbrc.fighters.menu.wiki","color":"aqua","clickEvent":{"action":"open_url","value":"https://super-smash-bros-recrafted.fandom.com/wiki/Pit"}},{"text":"]","color":"dark_aqua"}]
+
+tellraw @s[tag=pokemon_trainer] [{"text":"[","color":"dark_aqua"},{"translate":"ssbrc.fighters.menu.wiki","color":"aqua","clickEvent":{"action":"open_url","value":"https://super-smash-bros-recrafted.fandom.com/wiki/Pokémon_Trainer"}},{"text":"]","color":"dark_aqua"}]
+
+tellraw @s[tag=rob] [{"text":"[","color":"dark_aqua"},{"translate":"ssbrc.fighters.menu.wiki","color":"aqua","clickEvent":{"action":"open_url","value":"https://super-smash-bros-recrafted.fandom.com/wiki/R.O.B."}},{"text":"]","color":"dark_aqua"}]
+
+tellraw @s[tag=ryu] [{"text":"[","color":"dark_aqua"},{"translate":"ssbrc.fighters.menu.wiki","color":"aqua","clickEvent":{"action":"open_url","value":"https://super-smash-bros-recrafted.fandom.com/wiki/Ryu"}},{"text":"]","color":"dark_aqua"}]
+
+tellraw @s[tag=samus] [{"text":"[","color":"dark_aqua"},{"translate":"ssbrc.fighters.menu.wiki","color":"aqua","clickEvent":{"action":"open_url","value":"https://super-smash-bros-recrafted.fandom.com/wiki/Samus"}},{"text":"]","color":"dark_aqua"}]
+
+tellraw @s[tag=shadow] [{"text":"[","color":"dark_aqua"},{"translate":"ssbrc.fighters.menu.wiki","color":"aqua","clickEvent":{"action":"open_url","value":"https://super-smash-bros-recrafted.fandom.com/wiki/Shadow"}},{"text":"]","color":"dark_aqua"}]
+
+tellraw @s[tag=shovel_knight] [{"text":"[","color":"dark_aqua"},{"translate":"ssbrc.fighters.menu.wiki","color":"aqua","clickEvent":{"action":"open_url","value":"https://super-smash-bros-recrafted.fandom.com/wiki/Shovel_Knight"}},{"text":"]","color":"dark_aqua"}]
+
+tellraw @s[tag=snake] [{"text":"[","color":"dark_aqua"},{"translate":"ssbrc.fighters.menu.wiki","color":"aqua","clickEvent":{"action":"open_url","value":"https://super-smash-bros-recrafted.fandom.com/wiki/Snake"}},{"text":"]","color":"dark_aqua"}]
+
+tellraw @s[tag=sonic] [{"text":"[","color":"dark_aqua"},{"translate":"ssbrc.fighters.menu.wiki","color":"aqua","clickEvent":{"action":"open_url","value":"https://super-smash-bros-recrafted.fandom.com/wiki/Sonic"}},{"text":"]","color":"dark_aqua"}]
+
+tellraw @s[tag=sora] [{"text":"[","color":"dark_aqua"},{"translate":"ssbrc.fighters.menu.wiki","color":"aqua","clickEvent":{"action":"open_url","value":"https://super-smash-bros-recrafted.fandom.com/wiki/Sora"}},{"text":"]","color":"dark_aqua"}]
+
+tellraw @s[tag=steve] [{"text":"[","color":"dark_aqua"},{"translate":"ssbrc.fighters.menu.wiki","color":"aqua","clickEvent":{"action":"open_url","value":"https://super-smash-bros-recrafted.fandom.com/wiki/Steve"}},{"text":"]","color":"dark_aqua"}]
+
+tellraw @s[tag=team_rocket] [{"text":"[","color":"dark_aqua"},{"translate":"ssbrc.fighters.menu.wiki","color":"aqua","clickEvent":{"action":"open_url","value":"https://super-smash-bros-recrafted.fandom.com/wiki/Team_Rocket"}},{"text":"]","color":"dark_aqua"}]
+
+tellraw @s[tag=wolf] [{"text":"[","color":"dark_aqua"},{"translate":"ssbrc.fighters.menu.wiki","color":"aqua","clickEvent":{"action":"open_url","value":"https://super-smash-bros-recrafted.fandom.com/wiki/Wolf"}},{"text":"]","color":"dark_aqua"}]
+
+tellraw @s[tag=yar] [{"text":"[","color":"dark_aqua"},{"translate":"ssbrc.fighters.menu.wiki","color":"aqua","clickEvent":{"action":"open_url","value":"https://super-smash-bros-recrafted.fandom.com/wiki/Yar"}},{"text":"]","color":"dark_aqua"}]
+
+tellraw @s[tag=zelda] [{"text":"[","color":"dark_aqua"},{"translate":"ssbrc.fighters.menu.wiki","color":"aqua","clickEvent":{"action":"open_url","value":"https://super-smash-bros-recrafted.fandom.com/wiki/Zelda"}},{"text":"]","color":"dark_aqua"}]
+
+advancement revoke @s only ssbrc:utility/use_item/wiki

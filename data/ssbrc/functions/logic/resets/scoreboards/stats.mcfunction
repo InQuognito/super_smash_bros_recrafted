@@ -12,10 +12,10 @@ scoreboard objectives add log.games_played dummy
 scoreboard objectives add log.wins dummy
 scoreboard objectives add log.wL dummy
 
-scoreboard objectives add hardReset dummy
+scoreboard objectives add hard_resets dummy
 scoreboard objectives add options trigger
 scoreboard objectives add random dummy
-scoreboard objectives add worldTime dummy
+scoreboard objectives add world_time dummy
 
 # Characters
 scoreboard objectives add stats.altered_beast.deaths dummy

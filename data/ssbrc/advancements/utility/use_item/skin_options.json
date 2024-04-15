@@ -1,0 +1,18 @@
+{
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:using_item",
+			"conditions": {
+				"player": [],
+				"item": {
+					"predicates": {
+						"minecraft:custom_data": "{skin_options:1}"
+					}
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "ssbrc:logic/selector/skin_options"
+	}
+}

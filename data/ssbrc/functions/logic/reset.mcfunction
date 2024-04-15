@@ -50,7 +50,7 @@ weather clear
 
 setworldspawn -521 5 -1945
 
-execute unless score numberOfResets hardReset matches -2147483648..2147483647 run scoreboard players set numberOfResets hardReset 0
+execute unless score num hard_resets matches -2147483648..2147483647 run scoreboard players set num hard_resets 0
 
 function ssbrc:logic/timer
 schedule function ssbrc:logic/resets/lobby 1s replace

@@ -46,7 +46,7 @@ loot replace entity @s inventory.13 loot ssbrc:statistics
 scoreboard players set @s shop.selector 0
 function ssbrc:shop/pages/main/load
 
-execute unless score @s hardReset matches -2147483648..2147483647 run scoreboard players set @s hardReset 0
+execute unless score @s hard_resets matches -2147483648..2147483647 run scoreboard players set @s hard_resets 0
 
 tag @s add loaded
 

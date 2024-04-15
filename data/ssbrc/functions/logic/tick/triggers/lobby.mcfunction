@@ -1,5 +1,5 @@
 function ssbrc:logic/tick/triggers/menu
-execute if entity @s[nbt={SelectedItem:{tag:{options:1}}}] run function ssbrc:logic/tick/triggers/options
+execute if entity @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{options:1}}}}] run function ssbrc:logic/tick/triggers/options
 
 execute if score @s debug matches 1.. run function ssbrc:logic/tick/triggers/debug
 

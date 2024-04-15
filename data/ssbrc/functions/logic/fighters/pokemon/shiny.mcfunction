@@ -1,4 +1,4 @@
-tag @s add naturalShiny
+tag @s add natural_shiny
 tag @s add shiny
 
 scoreboard players add @a[predicate=ssbrc:flag/player] shiny_encounter 1
