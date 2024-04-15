@@ -1,5 +1,5 @@
 summon minecraft:text_display 144.5 7.25 153.5 {Tags:["static_object"],text:'{"translate":"ssbrc.fighter_select.random","color":"white"}',billboard:center}
-summon minecraft:item_display 144.5 6.0 153.5 {Tags:["selectable","static_object","randomFighter"],item:{id:"minecraft:stick",tag:{CustomModelData:9998},Count:1b}}
+summon minecraft:item_display 144.5 6.0 153.5 {Tags:["selectable","static_object","random_fighter"],item:{id:"minecraft:stick",tag:{CustomModelData:9998},Count:1b}}
 
 summon minecraft:text_display 147.5 7.25 154.5 {Tags:["static_object"],text:'{"translate":"ssbrc.fighters.mario","color":"red"}',billboard:center}
 summon minecraft:item_display 147.5 6.0 154.5 {Tags:["selectable","static_object","fighter_display","mario"],item:{id:"minecraft:stick",tag:{CustomModelData:840},Count:1b}}

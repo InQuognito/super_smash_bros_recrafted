@@ -1,4 +1,4 @@
-particle minecraft:dust 1.0 0.0 0.0 1.0 ~ ~ ~ 0.0 0.0 0.0 0.0 3 force @a
+particle minecraft:dust{color:[1.0,0.0,0.0],scale:1.0} ~ ~ ~ 0.0 0.0 0.0 0.0 3 force @a
 
 execute unless block ~ ~ ~ #ssbrc:passthrough run kill @s
 

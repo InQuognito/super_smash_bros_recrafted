@@ -1,4 +1,4 @@
-execute if entity @e[type=minecraft:item_display,tag=randomFighter,dx=0,sort=nearest,limit=1] run function ssbrc:fighters/random
+execute if entity @e[type=minecraft:item_display,tag=random_fighter,dx=0,sort=nearest,limit=1] run function ssbrc:fighters/random
 
 function ssbrc:logic/fighters/get {function:"ssbrc:logic/selector/select_object/check"}
 

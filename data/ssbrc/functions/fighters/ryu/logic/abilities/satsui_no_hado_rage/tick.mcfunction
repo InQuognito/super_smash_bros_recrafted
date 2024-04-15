@@ -1,4 +1,4 @@
-particle minecraft:dust_color_transition 0.3 0.0 0.0 1.0 0.6 0.0 0.0 ~ ~0.75 ~ 0.2 0.4 0.2 0.0 10 normal @a
+particle minecraft:dust_color_transition{from_color:[0.3,0.0,0.0],to_color:[0.6,0.0,0.0],scale:1.0} ~ ~0.75 ~ 0.2 0.4 0.2 0.0 10 normal @a
 
 scoreboard players operation #percentage temp = @s duration.1
 scoreboard players operation #percentage temp *= 100 integers

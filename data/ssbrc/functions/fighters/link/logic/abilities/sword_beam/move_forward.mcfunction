@@ -1,6 +1,6 @@
-execute if entity @s[tag=blue] run function ssbrc:fighters/link/logic/abilities/sword_beam/particles/blue
-execute if entity @s[tag=gold] run function ssbrc:fighters/link/logic/abilities/sword_beam/particles/gold
-execute if entity @s[tag=red] run function ssbrc:fighters/link/logic/abilities/sword_beam/particles/red
+execute if entity @s[tag=blue] run function ssbrc:fighters/link/logic/abilities/sword_beam/particles {from:"0.3,0.6,1.0",to:"0.6,0.9,1.0"}
+execute if entity @s[tag=gold] run function ssbrc:fighters/link/logic/abilities/sword_beam/particles {from:"1.0,1.0,0.0",to:"1.0,1.0,0.75"}
+execute if entity @s[tag=red] run function ssbrc:fighters/link/logic/abilities/sword_beam/particles {from:"1.0,0.0,0.0",to:"1.0,0.75,0.75"}
 
 execute unless block ~ ~ ~ #ssbrc:passthrough run kill @s
 

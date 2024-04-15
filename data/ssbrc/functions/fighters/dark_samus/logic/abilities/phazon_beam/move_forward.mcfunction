@@ -1,9 +1,9 @@
-execute if entity @s[scores={charge.1=1}] run particle minecraft:dust_color_transition 0.0 0.8 1.0 0.5 0.0 0.5 1.0 ~ ~ ~ 0.05 0.05 0.05 0.0 15 force @a
-execute if entity @s[scores={charge.1=2}] run particle minecraft:dust_color_transition 0.0 0.8 1.0 1.0 0.0 0.5 1.0 ~ ~ ~ 0.05 0.05 0.05 0.0 15 force @a
-execute if entity @s[scores={charge.1=3}] run particle minecraft:dust_color_transition 0.0 0.8 1.0 1.5 0.0 0.5 1.0 ~ ~ ~ 0.05 0.05 0.05 0.0 15 force @a
+execute if entity @s[scores={charge.1=1}] run particle minecraft:dust_color_transition{from_color:[0.0,0.8,1.0],to_color:[0.0,0.5,1.0],scale:0.5} ~ ~ ~ 0.05 0.05 0.05 0.0 15 force @a
+execute if entity @s[scores={charge.1=2}] run particle minecraft:dust_color_transition{from_color:[0.0,0.8,1.0],to_color:[0.0,0.5,1.0],scale:1.0} ~ ~ ~ 0.05 0.05 0.05 0.0 15 force @a
+execute if entity @s[scores={charge.1=3}] run particle minecraft:dust_color_transition{from_color:[0.0,0.8,1.0],to_color:[0.0,0.5,1.0],scale:1.5} ~ ~ ~ 0.05 0.05 0.05 0.0 15 force @a
 
 #execute if entity @s[scores={charge.1=4}] run function ssbrc:fighters/dark_samus/logic/abilities/phazon_beam/particles/1
-execute if entity @s[scores={charge.1=4}] run particle minecraft:dust_color_transition 0.0 0.8 1.0 1.5 0.0 0.5 1.0 ~ ~ ~ 0.05 0.05 0.05 0.0 15 force @a
+execute if entity @s[scores={charge.1=4}] run particle minecraft:dust_color_transition{from_color:[0.0,0.8,1.0],to_color:[0.0,0.5,1.0],scale:1.5} ~ ~ ~ 0.05 0.05 0.05 0.0 15 force @a
 execute if entity @s[scores={charge.1=4}] run particle soul_fire_flame ~ ~ ~ 0 0 0 0.1 1 force @a
 
 scoreboard players operation checkDamage temp = @s charge.1

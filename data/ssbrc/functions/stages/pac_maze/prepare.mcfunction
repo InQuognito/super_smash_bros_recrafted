@@ -1,5 +1,5 @@
-execute if score pac_mazeType stage matches 1 run function ssbrc:stages/pac_maze/prepare/pac_maze
-execute if score pac_mazeType stage matches 2 run function ssbrc:stages/pac_maze/prepare/mrs_pac_maze
+execute if score pac_maze.type stage matches 1 run function ssbrc:stages/pac_maze/prepare/pac_maze
+execute if score pac_maze.type stage matches 2 run function ssbrc:stages/pac_maze/prepare/mrs_pac_maze
 
 function ssbrc:stages/pac_maze/logic/ghosts/states/animation_schedule
 

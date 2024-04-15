@@ -1,4 +1,4 @@
-tag @s add hitGround
+tag @s add hit_ground
 execute facing ~ ~-1 ~ run function ssbrc:fighters/king_k_rool/logic/abilities/blunderbuss/particles/2
 execute facing ~ ~-1 ~ run function ssbrc:fighters/king_k_rool/logic/abilities/blunderbuss/particles/3
 execute facing ~ ~-1 ~ run function ssbrc:fighters/king_k_rool/logic/abilities/blunderbuss/particles/4

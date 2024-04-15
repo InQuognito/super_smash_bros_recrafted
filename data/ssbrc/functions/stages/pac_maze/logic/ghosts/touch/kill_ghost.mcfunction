@@ -6,5 +6,5 @@ execute as @p[predicate=ssbrc:flag/player,distance=..2] run function ssbrc:stage
 
 scoreboard players set @s cooldown.1 600
 
-execute if score pac_mazeType stage matches 1 run playsound ssbrc:stages.pac_maze.pac_maze.eat_ghost player @a[predicate=ssbrc:ingame]
-execute if score pac_mazeType stage matches 2 run playsound ssbrc:stages.pac_maze.mrs_pac_maze.eat_ghost player @a[predicate=ssbrc:ingame]
+execute if score pac_maze.type stage matches 1 run playsound ssbrc:stages.pac_maze.pac_maze.eat_ghost player @a[predicate=ssbrc:ingame]
+execute if score pac_maze.type stage matches 2 run playsound ssbrc:stages.pac_maze.mrs_pac_maze.eat_ghost player @a[predicate=ssbrc:ingame]

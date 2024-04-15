@@ -1,4 +1,4 @@
-scoreboard players set pac_mazeType stage 1
+scoreboard players set pac_maze.type stage 1
 
 forceload add 23328 8608 23391 8671
 

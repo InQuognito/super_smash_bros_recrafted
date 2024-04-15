@@ -1,4 +1,4 @@
-particle minecraft:dust 0.0 0.5 0.0 2.0 ~ ~ ~ 0.0 0.0 0.0 0.0 1 force @a
+particle minecraft:dust{color:[0.0,0.5,0.0],scale:2.0} ~ ~ ~ 0.0 0.0 0.0 0.0 1 force @a
 
 execute store result entity @s Rotation[1] float 0.25 run scoreboard players get @s point
 

@@ -2856,7 +2856,7 @@
 				"condition": "minecraft:entity_properties",
 				"entity": "this",
 				"predicate": {
-					"nbt": "{Tags:[\"randomFighter\"]}"
+					"nbt": "{Tags:[\"random_fighter\"]}"
 				}
 			}
 		]

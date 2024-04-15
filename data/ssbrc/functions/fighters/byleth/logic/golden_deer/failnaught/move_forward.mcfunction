@@ -1,4 +1,4 @@
-particle minecraft:dust_color_transition 1.0 1.0 0.0 2.5 1.0 1.0 1.0 ~ ~ ~ 0.0 0.0 0.0 0.0 20 normal @a
+particle minecraft:dust_color_transition{from_color:[1.0,1.0,0.0],to_color:[1.0,1.0,1.0],scale:2.5} ~ ~ ~ 0.0 0.0 0.0 0.0 20 normal @a
 
 execute unless block ~ ~ ~ #ssbrc:passthrough run function ssbrc:fighters/byleth/logic/golden_deer/failnaught/explode
 

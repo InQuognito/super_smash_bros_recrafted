@@ -15,7 +15,7 @@ execute if entity @s[predicate=ssbrc:fighters/sora/drive_form_check] run functio
 execute if entity @s[scores={duration.1=1}] run function ssbrc:fighters/sora/logic/drive_forms/default
 
 # Anti Form
-execute if entity @s[tag=anti] run function ssbrc:fighters/sora/logic/drive_forms/anti/tick
+execute if entity @s[tag=anti] positioned ~ ~0.75 ~ run function ssbrc:fighters/sora/logic/drive_forms/anti/tick
 
 # Blizzaza
 scoreboard players set @s[scores={duration.2=1}] charge.4 0

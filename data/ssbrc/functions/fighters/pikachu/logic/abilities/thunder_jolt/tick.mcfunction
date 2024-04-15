@@ -1,4 +1,4 @@
-particle minecraft:dust_color_transition 0.5 1.0 1.0 1.5 1.0 1.0 1.0 ~ ~ ~ 0.15 0.15 0.15 0.0 10 force @a
+particle minecraft:dust_color_transition{from_color:[0.5,1.0,1.0],to_color:[1.0,1.0,1.0],scale:1.5} ~ ~ ~ 0.15 0.15 0.15 0.0 10 force @a
 particle minecraft:electric_spark ~ ~ ~ 0.2 0.2 0.2 0.05 5 normal @a
 
 function ssbrc:logic/fighters/pokemon/natures/apply

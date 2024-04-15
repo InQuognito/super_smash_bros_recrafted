@@ -1,4 +1,4 @@
-particle minecraft:dust 0.6 0.9 1.0 1.0 ~ ~ ~ 0.0 0.0 0.0 0.0 1 force @a
+particle minecraft:dust{color:[0.6,0.9,1.0],scale:1.0} ~ ~ ~ 0.0 0.0 0.0 0.0 1 force @a
 particle minecraft:snowflake ~ ~ ~ 0.1 0.1 0.1 0.025 1 normal @a
 
 execute unless block ~ ~ ~ #ssbrc:passthrough run kill @s

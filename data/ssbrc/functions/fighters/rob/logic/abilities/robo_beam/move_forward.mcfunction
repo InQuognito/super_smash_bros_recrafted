@@ -1,7 +1,7 @@
 execute if entity @s[tag=!large] run scoreboard players set robo_beam_size temp 1
 execute if entity @s[tag=large] run scoreboard players set robo_beam_size temp 2
 
-execute if entity @s[tag=!large] run particle minecraft:dust_color_transition 1.0 0.0 0.0 1.0 1.0 1.0 1.0 ~ ~ ~ 0.0 0.0 0.0 0.5 5 force @a
+execute if entity @s[tag=!large] run particle minecraft:dust_color_transition{from_color:[1.0,0.0,0.0],to_color:[1.0,1.0,1.0],scale:1.0} ~ ~ ~ 0.0 0.0 0.0 0.5 5 force @a
 execute if entity @s[tag=large] run function ssbrc:fighters/rob/logic/abilities/robo_beam/particles
 
 execute unless block ~0.5 ~ ~ #ssbrc:passthrough run function ssbrc:logic/fighters/projectiles/bounce/x

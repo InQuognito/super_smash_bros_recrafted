@@ -1,5 +1,5 @@
 scoreboard players operation ray_length temp = yar.railgun.range vars
-scoreboard players set $rayPiercing temp 0
+scoreboard players set ray_piercing temp 0
 
 function ssbrc:fighters/yar/logic/abilities/ray_blaster/variants/railgun/raycast/loop
 

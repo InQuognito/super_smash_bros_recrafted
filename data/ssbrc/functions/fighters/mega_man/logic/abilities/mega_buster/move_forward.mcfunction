@@ -1,5 +1,5 @@
-execute if entity @s[tag=!green] run particle minecraft:dust_color_transition 1.0 1.0 0.5 0.1 1.0 1.0 1.0 ~ ~ ~ 0.05 0.05 0.05 0.0 200 force @a
-execute if entity @s[tag=green] run particle minecraft:dust_color_transition 0.0 1.0 0.0 0.1 0.75 1.0 0.75 ~ ~ ~ 0.05 0.05 0.05 0.0 200 force @a
+execute if entity @s[tag=!green] run particle minecraft:dust_color_transition{from_color:[1.0,1.0,0.5],to_color:[1.0,1.0,1.0],scale:0.1} ~ ~ ~ 0.05 0.05 0.05 0.0 20 force @a
+execute if entity @s[tag=green] run particle minecraft:dust_color_transition{from_color:[0.0,1.0,0.0],to_color:[0.75,1.0,0.75],scale:0.1} ~ ~ ~ 0.05 0.05 0.05 0.0 20 force @a
 
 execute unless block ~ ~ ~ #ssbrc:passthrough run kill @s
 

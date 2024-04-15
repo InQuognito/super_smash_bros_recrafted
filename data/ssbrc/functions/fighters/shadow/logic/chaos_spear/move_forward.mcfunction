@@ -1,13 +1,13 @@
-particle minecraft:dust_color_transition 1.0 1.0 0.0 1.0 1.0 1.0 0.5 ^ ^ ^-1.25 0.03 0.03 0.03 0.0 1 force @a
-particle minecraft:dust_color_transition 1.0 1.0 0.0 1.0 1.0 1.0 0.5 ^ ^ ^-1.00 0.03 0.03 0.03 0.0 1 force @a
-particle minecraft:dust_color_transition 1.0 1.0 0.0 1.0 1.0 1.0 0.5 ^ ^ ^-0.75 0.03 0.03 0.03 0.0 1 force @a
-particle minecraft:dust_color_transition 1.0 1.0 0.0 1.0 1.0 1.0 0.5 ^ ^ ^-0.50 0.03 0.03 0.03 0.0 1 force @a
-particle minecraft:dust_color_transition 1.0 1.0 0.0 1.0 1.0 1.0 0.5 ^ ^ ^-0.25 0.03 0.03 0.03 0.0 1 force @a
-particle minecraft:dust_color_transition 1.0 1.0 0.0 1.0 1.0 1.0 0.5 ^ ^ ^ 0.03 0.03 0.03 0.0 1 force @a
-particle minecraft:dust_color_transition 1.0 1.0 0.0 1.0 1.0 1.0 0.5 ^0.15 ^ ^-0.25 0.03 0.03 0.03 0.0 1 force @a
-particle minecraft:dust_color_transition 1.0 1.0 0.0 1.0 1.0 1.0 0.5 ^-0.15 ^ ^-0.25 0.03 0.03 0.03 0.0 1 force @a
-particle minecraft:dust_color_transition 1.0 1.0 0.0 1.0 1.0 1.0 0.5 ^0.30 ^ ^-0.50 0.03 0.03 0.03 0.0 1 force @a
-particle minecraft:dust_color_transition 1.0 1.0 0.0 1.0 1.0 1.0 0.5 ^-0.30 ^ ^-0.50 0.03 0.03 0.03 0.0 1 force @a
+particle minecraft:dust_color_transition{from_color:[1.0,1.0,0.0],to_color:[1.0,1.0,0.5],scale:1.0} ^ ^ ^-1.25 0.03 0.03 0.03 0.0 1 force @a
+particle minecraft:dust_color_transition{from_color:[1.0,1.0,0.0],to_color:[1.0,1.0,0.5],scale:1.0} ^ ^ ^-1.00 0.03 0.03 0.03 0.0 1 force @a
+particle minecraft:dust_color_transition{from_color:[1.0,1.0,0.0],to_color:[1.0,1.0,0.5],scale:1.0} ^ ^ ^-0.75 0.03 0.03 0.03 0.0 1 force @a
+particle minecraft:dust_color_transition{from_color:[1.0,1.0,0.0],to_color:[1.0,1.0,0.5],scale:1.0} ^ ^ ^-0.50 0.03 0.03 0.03 0.0 1 force @a
+particle minecraft:dust_color_transition{from_color:[1.0,1.0,0.0],to_color:[1.0,1.0,0.5],scale:1.0} ^ ^ ^-0.25 0.03 0.03 0.03 0.0 1 force @a
+particle minecraft:dust_color_transition{from_color:[1.0,1.0,0.0],to_color:[1.0,1.0,0.5],scale:1.0} ^ ^ ^ 0.03 0.03 0.03 0.0 1 force @a
+particle minecraft:dust_color_transition{from_color:[1.0,1.0,0.0],to_color:[1.0,1.0,0.5],scale:1.0} ^0.15 ^ ^-0.25 0.03 0.03 0.03 0.0 1 force @a
+particle minecraft:dust_color_transition{from_color:[1.0,1.0,0.0],to_color:[1.0,1.0,0.5],scale:1.0} ^-0.15 ^ ^-0.25 0.03 0.03 0.03 0.0 1 force @a
+particle minecraft:dust_color_transition{from_color:[1.0,1.0,0.0],to_color:[1.0,1.0,0.5],scale:1.0} ^0.30 ^ ^-0.50 0.03 0.03 0.03 0.0 1 force @a
+particle minecraft:dust_color_transition{from_color:[1.0,1.0,0.0],to_color:[1.0,1.0,0.5],scale:1.0} ^-0.30 ^ ^-0.50 0.03 0.03 0.03 0.0 1 force @a
 
 execute unless block ~ ~ ~ #ssbrc:passthrough run kill @s
 
