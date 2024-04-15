@@ -1,4 +1,4 @@
-clear @s minecraft:iron_sword{rapier:1}
+clear @s minecraft:iron_sword[minecraft:custom_data={rapier:1}]
 
 execute store result score random.output temp run random value 0..4
 

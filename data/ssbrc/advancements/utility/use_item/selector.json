@@ -5,13 +5,13 @@
 			"conditions": {
 				"item": {
 					"predicates": {
-						"minecraft:custom_data": "{skin_options:1}"
+						"minecraft:custom_data": "{selector:1}"
 					}
 				}
 			}
 		}
 	},
 	"rewards": {
-		"function": "ssbrc:logic/selector/skin_options"
+		"function": "ssbrc:logic/selector/click"
 	}
 }

@@ -1,4 +1,4 @@
-clear @s minecraft:shield{shield:1}
+clear @s minecraft:shield[minecraft:custom_data={shield:1}]
 
 loot replace entity @s weapon.offhand loot ssbrc:fighters/steve/shield
 
