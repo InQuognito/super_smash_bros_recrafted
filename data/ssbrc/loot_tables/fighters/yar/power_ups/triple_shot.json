@@ -70,8 +70,12 @@
 							"mode": "append"
 						},
 						{
-							"function": "minecraft:set_nbt",
-							"tag": "{power_up:1,triple_shot:1,CustomModelData:1971}"
+							"function": "minecraft:set_custom_model_data",
+							"value": 1971
+						},
+						{
+							"function": "minecraft:set_custom_data",
+							"tag": "{triple_shot:1,power_up:1}"
 						}
 					]
 				}

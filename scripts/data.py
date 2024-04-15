@@ -223,17 +223,17 @@ fighters = {
 		'color': 'green',
 		'default': True,
 		'skins': {
-			'archaic_tunic': {
-				'model': 722,
-				'color': 'green'
-			},
 			'dark_tunic': {
-				'model': 723,
+				'model': 722,
 				'color': 'dark_gray'
 			},
-			'tunic_of_time': {
+			'goron_tunic': {
+				'model': 723,
+				'color': 'red'
+			},
+			'zora_tunic': {
 				'model': 724,
-				'color': 'dark_green'
+				'color': 'blue'
 			}
 		}
 	},

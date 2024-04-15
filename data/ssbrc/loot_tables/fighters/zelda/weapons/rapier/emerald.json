@@ -42,8 +42,12 @@
 							"name": "ssbrc:fighters/zelda/weapons/emerald"
 						},
 						{
-							"function": "minecraft:set_nbt",
-							"tag": "{rapier:1,CustomModelData:9013}"
+							"function": "minecraft:set_custom_model_data",
+							"value": 9013
+						},
+						{
+							"function": "minecraft:set_custom_data",
+							"tag": "{rapier:1}"
 						}
 					]
 				}

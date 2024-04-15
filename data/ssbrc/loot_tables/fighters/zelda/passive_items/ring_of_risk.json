@@ -36,8 +36,12 @@
 							"mode": "append"
 						},
 						{
-							"function": "minecraft:set_nbt",
-							"tag": "{ring_of_risk:1,CustomModelData:9037}"
+							"function": "minecraft:set_custom_model_data",
+							"value": 9037
+						},
+						{
+							"function": "minecraft:set_custom_data",
+							"tag": "{ring_of_risk:1}"
 						}
 					]
 				}

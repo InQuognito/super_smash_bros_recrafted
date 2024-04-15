@@ -70,8 +70,12 @@
 							"mode": "append"
 						},
 						{
-							"function": "minecraft:set_nbt",
-							"tag": "{power_up:1,railgun:1,CustomModelData:1970}"
+							"function": "minecraft:set_custom_model_data",
+							"value": 1970
+						},
+						{
+							"function": "minecraft:set_custom_data",
+							"tag": "{railgun:1,power_up:1}"
 						}
 					]
 				}

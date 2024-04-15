@@ -9,14 +9,8 @@
 					"name": "minecraft:barrier",
 					"functions": [
 						{
-							"function": "minecraft:set_name",
-							"entity": "this",
-							"name": {
-								"translate": "ssbrc.fighters.link.skin.goron_tunic",
-								"color": "red",
-								"bold": true,
-								"italic": false
-							}
+							"function": "minecraft:reference",
+							"name": "ssbrc:fighters/link/skins/goron_tunic"
 						},
 						{
 							"function": "minecraft:reference",
@@ -25,10 +19,6 @@
 						{
 							"function": "minecraft:reference",
 							"name": "ssbrc:ui/shop/cannot_afford"
-						},
-						{
-							"function": "minecraft:set_nbt",
-							"tag": "{CustomModelData:723}"
 						}
 					]
 				}

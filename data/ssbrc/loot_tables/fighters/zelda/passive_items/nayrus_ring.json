@@ -42,8 +42,12 @@
 							"mode": "append"
 						},
 						{
-							"function": "minecraft:set_nbt",
-							"tag": "{nayrus_ring:1,CustomModelData:9034}"
+							"function": "minecraft:set_custom_model_data",
+							"value": 9034
+						},
+						{
+							"function": "minecraft:set_custom_data",
+							"tag": "{nayrus_ring:1}"
 						}
 					]
 				}

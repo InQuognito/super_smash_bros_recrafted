@@ -42,8 +42,12 @@
 							"mode": "append"
 						},
 						{
-							"function": "minecraft:set_nbt",
-							"tag": "{torch_of_wisdom:1,CustomModelData:9040}"
+							"function": "minecraft:set_custom_model_data",
+							"value": 9040
+						},
+						{
+							"function": "minecraft:set_custom_data",
+							"tag": "{torch_of_wisdom:1}"
 						}
 					]
 				}

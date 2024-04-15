@@ -66,8 +66,12 @@
 							"mode": "append"
 						},
 						{
-							"function": "minecraft:set_nbt",
-							"tag": "{destiny_bond:1,CustomModelData:50008}"
+							"function": "minecraft:set_custom_model_data",
+							"value": 50008
+						},
+						{
+							"function": "minecraft:set_custom_data",
+							"tag": "{destiny_bond:1}"
 						}
 					]
 				}

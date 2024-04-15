@@ -36,8 +36,12 @@
 							"mode": "append"
 						},
 						{
-							"function": "minecraft:set_nbt",
-							"tag": "{goron_locket:1,CustomModelData:9032}"
+							"function": "minecraft:set_custom_model_data",
+							"value": 9032
+						},
+						{
+							"function": "minecraft:set_custom_data",
+							"tag": "{goron_locket:1}"
 						}
 					]
 				}

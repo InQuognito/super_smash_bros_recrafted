@@ -70,8 +70,12 @@
 							"mode": "append"
 						},
 						{
-							"function": "minecraft:set_nbt",
-							"tag": "{power_up:1,missile_launcher:1,CustomModelData:1968}"
+							"function": "minecraft:set_custom_model_data",
+							"value": 1968
+						},
+						{
+							"function": "minecraft:set_custom_data",
+							"tag": "{missile_launcher:1,power_up:1}"
 						}
 					]
 				}

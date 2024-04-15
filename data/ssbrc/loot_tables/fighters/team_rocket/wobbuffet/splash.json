@@ -54,8 +54,12 @@
 							"mode": "append"
 						},
 						{
-							"function": "minecraft:set_nbt",
-							"tag": "{splash:1,CustomModelData:50018}"
+							"function": "minecraft:set_custom_model_data",
+							"value": 50018
+						},
+						{
+							"function": "minecraft:set_custom_data",
+							"tag": "{splash:1}"
 						}
 					]
 				}

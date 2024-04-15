@@ -263,20 +263,20 @@ data modify storage ssbrc:data fighters set value {\
 		"color": "green",\
 		"skin_count": 5,\
 		"skins": {\
-			"archaic_tunic": {\
-				"name": "archaic_tunic",\
-				"model": 722,\
-				"color": "green",\
-			},\
 			"dark_tunic": {\
 				"name": "dark_tunic",\
-				"model": 723,\
+				"model": 722,\
 				"color": "dark_gray",\
 			},\
-			"tunic_of_time": {\
-				"name": "tunic_of_time",\
+			"goron_tunic": {\
+				"name": "goron_tunic",\
+				"model": 723,\
+				"color": "red",\
+			},\
+			"zora_tunic": {\
+				"name": "zora_tunic",\
 				"model": 724,\
-				"color": "dark_green",\
+				"color": "blue",\
 			},\
 		},\
 	},\

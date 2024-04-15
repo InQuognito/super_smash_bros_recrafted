@@ -42,8 +42,12 @@
 							"name": "ssbrc:fighters/zelda/weapons/ruby"
 						},
 						{
-							"function": "minecraft:set_nbt",
-							"tag": "{dagger:1,CustomModelData:9004}"
+							"function": "minecraft:set_custom_model_data",
+							"value": 9004
+						},
+						{
+							"function": "minecraft:set_custom_data",
+							"tag": "{dagger:1}"
 						}
 					]
 				}

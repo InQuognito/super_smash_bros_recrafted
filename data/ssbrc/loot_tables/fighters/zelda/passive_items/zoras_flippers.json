@@ -36,8 +36,12 @@
 							"mode": "append"
 						},
 						{
-							"function": "minecraft:set_nbt",
-							"tag": "{zoras_flippers:1,CustomModelData:9041}"
+							"function": "minecraft:set_custom_model_data",
+							"value": 9041
+						},
+						{
+							"function": "minecraft:set_custom_data",
+							"tag": "{zoras_flippers:1}"
 						}
 					]
 				}

@@ -12,7 +12,7 @@
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"translate": "ssbrc.tooltips.zelda.passive_item.ringOfCharisma",
+								"translate": "ssbrc.tooltips.zelda.passive_item.ring_of_charisma",
 								"color": "dark_green",
 								"bold": true,
 								"italic": false
@@ -27,7 +27,7 @@
 							"entity": "this",
 							"lore": [
 								{
-									"translate": "ssbrc.tooltips.zelda.passive_item.ringOfCharisma.description.1",
+									"translate": "ssbrc.tooltips.zelda.passive_item.ring_of_charisma.description.1",
 									"color": "gray",
 									"bold": false,
 									"italic": false
@@ -36,8 +36,12 @@
 							"mode": "append"
 						},
 						{
-							"function": "minecraft:set_nbt",
-							"tag": "{ringOfCharisma:1,CustomModelData:9042}"
+							"function": "minecraft:set_custom_model_data",
+							"value": 9042
+						},
+						{
+							"function": "minecraft:set_custom_data",
+							"tag": "{ring_of_charisma:1}"
 						}
 					]
 				}

@@ -49,8 +49,12 @@
 							"name": "ssbrc:fighters/init/preset/melee"
 						},
 						{
-							"function": "minecraft:set_nbt",
-							"tag": "{flail:1,CustomModelData:9006}"
+							"function": "minecraft:set_custom_model_data",
+							"value": 9006
+						},
+						{
+							"function": "minecraft:set_custom_data",
+							"tag": "{flail:1}"
 						}
 					]
 				}

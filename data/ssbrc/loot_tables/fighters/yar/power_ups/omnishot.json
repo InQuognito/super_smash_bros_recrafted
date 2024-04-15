@@ -44,8 +44,12 @@
 							"name": "ssbrc:fighters/init/unbreakable/instant"
 						},
 						{
-							"function": "minecraft:set_nbt",
-							"tag": "{power_up:1,omnishot:1,CustomModelData:1969}"
+							"function": "minecraft:set_custom_model_data",
+							"value": 1969
+						},
+						{
+							"function": "minecraft:set_custom_data",
+							"tag": "{omnishot:1,power_up:1}"
 						}
 					]
 				}

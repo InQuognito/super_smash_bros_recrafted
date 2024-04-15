@@ -60,8 +60,12 @@
 							"mode": "append"
 						},
 						{
-							"function": "minecraft:set_nbt",
-							"tag": "{chaos_sphere:1,disabled:0,CustomModelData:1921}"
+							"function": "minecraft:set_custom_model_data",
+							"value": 1921
+						},
+						{
+							"function": "minecraft:set_custom_data",
+							"tag": "{chaos_sphere:1}"
 						}
 					]
 				}

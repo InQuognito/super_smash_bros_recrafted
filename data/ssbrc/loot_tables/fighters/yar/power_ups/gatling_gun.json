@@ -70,8 +70,12 @@
 							"mode": "append"
 						},
 						{
-							"function": "minecraft:set_nbt",
-							"tag": "{power_up:1,gatling_gun:1,CustomModelData:1967}"
+							"function": "minecraft:set_custom_model_data",
+							"value": 1967
+						},
+						{
+							"function": "minecraft:set_custom_data",
+							"tag": "{gatling_gun:1,power_up:1}"
 						}
 					]
 				}
