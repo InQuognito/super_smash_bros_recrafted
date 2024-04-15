@@ -74,4 +74,6 @@ execute if entity @s[tag=yar] run function ssbrc:fighters/yar/menu/skin_options
 
 execute if entity @s[tag=zelda] run function ssbrc:fighters/zelda/menu/skin_options
 
+scoreboard players set @s cooldown 5
+
 advancement revoke @s only ssbrc:utility/use_item/skin_options
