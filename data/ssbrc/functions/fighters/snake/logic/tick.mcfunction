@@ -14,10 +14,10 @@ execute at @s[scores={weapon_3.reload=1..}] run function ssbrc:fighters/snake/lo
 execute at @s[scores={weapon_4.reload=1..}] run function ssbrc:fighters/snake/logic/weapons/socom/reload/tick
 
 # PSG-1
-execute if entity @s[nbt={SelectedItem:{tag:{psg1:1}}},predicate=!ssbrc:flag/sneaking] run attribute @s minecraft:generic.movement_speed modifier remove 19192183-0000-0000-0001-000001000000
-execute if entity @s[nbt=!{SelectedItem:{tag:{psg1:1}}}] run attribute @s minecraft:generic.movement_speed modifier remove 19192183-0000-0000-0001-000001000000
-execute if entity @s[tag=reloading] run attribute @s minecraft:generic.movement_speed modifier remove 19192183-0000-0000-0001-000001000000
-execute if entity @s[tag=!reloading,nbt={SelectedItem:{tag:{psg1:1}}},predicate=ssbrc:flag/sneaking] run attribute @s minecraft:generic.movement_speed modifier add 19192183-0000-0000-0001-000001000000 "zoom" -1.0 multiply_base
+attribute @s[nbt={SelectedItem:{tag:{psg1:1}}},predicate=!ssbrc:flag/sneaking] minecraft:generic.movement_speed modifier remove 19192183-0000-0000-0001-000001000000
+attribute @s[nbt=!{SelectedItem:{tag:{psg1:1}}}] minecraft:generic.movement_speed modifier remove 19192183-0000-0000-0001-000001000000
+attribute @s[tag=reloading] minecraft:generic.movement_speed modifier remove 19192183-0000-0000-0001-000001000000
+attribute @s[tag=!reloading,nbt={SelectedItem:{tag:{psg1:1}}},predicate=ssbrc:flag/sneaking] minecraft:generic.movement_speed modifier add 19192183-0000-0000-0001-000001000000 "zoom" -1.0 add_multiplied_base
 
 # S1000
 scoreboard players remove @s[scores={weapon_1.fire_rate=1..}] weapon_1.fire_rate 1
