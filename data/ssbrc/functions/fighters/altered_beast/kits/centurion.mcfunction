@@ -11,3 +11,5 @@ function ssbrc:logic/fighters/armor/update
 
 scoreboard players operation @s cooldown.3 = altered_beast.mark_of_the_beast.cooldown vars
 execute if entity @s[scores={shadow.chaos_control=1..}] run function ssbrc:logic/fighters/cooldown_modifiers/chaos_control {type:"3"}
+
+advancement revoke @s only ssbrc:utility/use_item/fighters/altered_beast/spirit_orb/revert

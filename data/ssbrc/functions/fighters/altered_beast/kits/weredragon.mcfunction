@@ -15,3 +15,5 @@ loot replace entity @s hotbar.8 loot ssbrc:fighters/altered_beast/spirit_orb
 function ssbrc:logic/fighters/armor/update
 
 playsound ssbrc:fighters.altered_beast.transform.weredragon player @a
+
+advancement revoke @s only ssbrc:utility/use_item/fighters/altered_beast/spirit_orb/transform/weredragon

@@ -13,6 +13,7 @@ scoreboard objectives remove charge.input
 scoreboard objectives remove charge.output
 scoreboard objectives remove charge.step
 scoreboard objectives remove cloud.limit
+scoreboard objectives remove cooldown
 scoreboard objectives remove cooldown.1
 scoreboard objectives remove cooldown.2
 scoreboard objectives remove cooldown.3

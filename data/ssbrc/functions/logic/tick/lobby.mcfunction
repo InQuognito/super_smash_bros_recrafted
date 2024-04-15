@@ -1,3 +1,5 @@
+scoreboard players remove @s[scores={cooldown=1..}] cooldown 1
+
 # Teleport - Character Select
 execute positioned -530.0 5.0 -1939.0 if entity @s[dy=1] run function ssbrc:logic/tick/lobby/teleport_pad
 

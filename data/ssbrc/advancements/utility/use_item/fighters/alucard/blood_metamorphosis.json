@@ -1,0 +1,43 @@
+{
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:using_item",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:value_check",
+						"value": {
+							"type": "minecraft:score",
+							"target": {
+								"type": "minecraft:fixed",
+								"name": "game_stage"
+							},
+							"score": "temp"
+						},
+						"range": {
+							"min": 4
+						}
+					},
+					{
+						"condition": "minecraft:inverted",
+						"term": {
+							"condition": "minecraft:entity_properties",
+							"entity": "this",
+							"predicate": {
+								"nbt": "{Tags:[\"blood_metamorphosis\"]}"
+							}
+						}
+					}
+				],
+				"item": {
+					"predicates": {
+						"minecraft:custom_data": "{blood_metamorphosis:1}"
+					}
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "ssbrc:fighters/alucard/logic/abilities/blood_metamorphosis/activate"
+	}
+}

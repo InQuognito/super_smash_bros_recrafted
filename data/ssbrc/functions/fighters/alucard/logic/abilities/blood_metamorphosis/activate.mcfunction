@@ -6,3 +6,5 @@ function ssbrc:logic/fighters/replace_item {old:"alucard_sword",new:"alucard/alu
 loot replace entity @s weapon.mainhand loot ssbrc:fighters/alucard/blood_metamorphosis
 
 function ssbrc:logic/fighters/armor/update
+
+advancement revoke @s only ssbrc:utility/use_item/fighters/alucard/blood_metamorphosis

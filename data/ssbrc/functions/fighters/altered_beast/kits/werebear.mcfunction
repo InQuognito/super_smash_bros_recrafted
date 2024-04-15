@@ -9,10 +9,12 @@ function ssbrc:logic/fighters/effects/jump_boost
 clear @s #ssbrc:equipment
 
 loot replace entity @s hotbar.0 loot ssbrc:fighters/altered_beast/werebear/bear_claw
-loot replace entity @s hotbar.1 loot ssbrc:fighters/altered_beast/werebear/petrifying_breath/default
+loot replace entity @s hotbar.1 loot ssbrc:fighters/altered_beast/werebear/petrifying_breath
 
 loot replace entity @s hotbar.8 loot ssbrc:fighters/altered_beast/spirit_orb
 
 function ssbrc:logic/fighters/armor/update
 
 playsound ssbrc:fighters.altered_beast.transform.werebear player @a
+
+advancement revoke @s only ssbrc:utility/use_item/fighters/altered_beast/spirit_orb/transform/werebear

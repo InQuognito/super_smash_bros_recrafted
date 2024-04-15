@@ -13,6 +13,7 @@ scoreboard objectives add charge.input minecraft.used:minecraft.nether_star
 scoreboard objectives add charge.output dummy
 scoreboard objectives add charge.step dummy
 scoreboard objectives add cloud.limit dummy
+scoreboard objectives add cooldown dummy
 scoreboard objectives add cooldown.1 dummy
 scoreboard objectives add cooldown.2 dummy
 scoreboard objectives add cooldown.3 dummy

@@ -17,3 +17,5 @@ function ssbrc:logic/fighters/armor/update
 effect give @s minecraft:resistance 2 3 true
 
 playsound ssbrc:fighters.altered_beast.transform.weretiger player @a
+
+advancement revoke @s only ssbrc:utility/use_item/fighters/altered_beast/spirit_orb/transform/weretiger
