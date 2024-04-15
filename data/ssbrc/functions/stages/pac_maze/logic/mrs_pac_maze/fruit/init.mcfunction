@@ -12,7 +12,7 @@ item replace entity @s armor.head with minecraft:apple
 
 scoreboard players operation fruitDisplay temp = fruit temp
 scoreboard players add fruitDisplay temp 8
-execute store result entity @s ArmorItems[3].tag.CustomModelData int 1.0 run scoreboard players get fruitDisplay temp
+execute store result entity @s ArmorItems[3].components.minecraft:custom_model_data int 1.0 run scoreboard players get fruitDisplay temp
 
 execute if score random.output temp matches 0 run teleport @s ~ ~ ~ -90.0 0.0
 execute if score random.output temp matches 1 run teleport @s ~ ~ ~ 90.0 0.0

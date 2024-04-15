@@ -9,7 +9,7 @@ execute if score fruit temp matches 8 run tag @s add key
 
 item replace entity @s hotbar.0 with minecraft:apple
 
-execute store result entity @s item.tag.CustomModelData int 1.0 run scoreboard players get fruit temp
+execute store result entity @s item.components.minecraft:custom_model_data int 1.0 run scoreboard players get fruit temp
 
 execute if score fruit temp matches 8.. run scoreboard players set fruit temp 0
 

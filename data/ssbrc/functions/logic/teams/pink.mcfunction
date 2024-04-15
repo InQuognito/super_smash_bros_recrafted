@@ -1,5 +1,5 @@
 scoreboard players set @s team 7
 team join team7 @s
 
-item replace entity @s hotbar.1 with minecraft:nether_star{team_flag:1,team.pink:1,CustomModelData:9999997,Unbreakable:1b,display:{Name:'[{"translate":"ssbrc.team.pink","italic":false,"color":"light_purple","bold":true}]'},HideFlags:255} 1
+item replace entity @s hotbar.1 with minecraft:nether_star[minecraft:item_name={'[{"translate":"ssbrc.team.pink","color":"light_purple","bold":true}]'},minecraft:custom_model_data=9999997,minecraft:custom_data={team_flag:1,team.pink:1}]
 scoreboard players reset @s select_item

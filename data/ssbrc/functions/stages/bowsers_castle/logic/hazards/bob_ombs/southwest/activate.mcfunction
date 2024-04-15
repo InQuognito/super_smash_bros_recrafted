@@ -1,7 +1,7 @@
 tag @s add bobOmb
 tag @s add sw
 
-item replace entity @s armor.head with minecraft:sugar{CustomModelData:184}
+item replace entity @s armor.head with minecraft:sugar[minecraft:custom_model_data=184]
 
 data merge entity @s {Small:1b,Motion:[0d,0d,-5.25d]}
 
