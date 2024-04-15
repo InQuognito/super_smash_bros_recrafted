@@ -1,4 +1,4 @@
-particle minecraft:item minecraft:stripped_bamboo_block ~ ~ ~ 0.1 0.1 0.1 0.05 3 force @a
+particle minecraft:item{item:"minecraft:stripped_bamboo_block"} ~ ~ ~ 0.1 0.1 0.1 0.05 3 force @a
 
 execute if score #loop temp matches 0 run playsound minecraft:block.bamboo_wood.hit player @a ~ ~ ~ 0.25
 
