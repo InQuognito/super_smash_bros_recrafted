@@ -1,4 +1,4 @@
-execute if score debug options matches 1.. run function say click_button
+execute if score debug options matches 1.. run say click_button
 
 execute unless score votes_locked temp matches 1 if entity @s[tag=room.stage_select] run function ssbrc:logic/inputs/stage_select
 
