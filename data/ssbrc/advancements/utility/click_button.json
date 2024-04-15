@@ -2,14 +2,17 @@
 	"parent": "ssbrc:utility/root",
 	"criteria": {
 		"requirement": {
-			"trigger": "minecraft:item_used_on_block",
+			"trigger": "minecraft:any_block_use",
 			"conditions": {
 				"location": [
 					{
-						"condition": "minecraft:location_check",
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
 						"predicate": {
-							"block": {
-								"blocks": "#minecraft:buttons"
+							"location": {
+								"block": {
+									"blocks": "#minecraft:buttons"
+								}
 							}
 						}
 					}
