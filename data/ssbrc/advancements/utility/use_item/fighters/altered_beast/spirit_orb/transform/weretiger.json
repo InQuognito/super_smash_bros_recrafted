@@ -23,7 +23,7 @@
 						"entity": "this",
 						"scores": {
 							"cooldown.3": {
-								"min": 0
+								"max": 0
 							}
 						}
 					},
