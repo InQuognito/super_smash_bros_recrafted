@@ -42,8 +42,12 @@
 							]
 						},
 						{
+							"function": "minecraft:set_custom_model_data",
+							"value": 1824
+						},
+						{
 							"function": "minecraft:set_custom_data",
-							"tag": "{bearclaw:1}"
+							"tag": "{bear_claw:1}"
 						}
 					]
 				}
