@@ -10,20 +10,6 @@
 		}
 	},
 	{
-		"function": "minecraft:copy_nbt",
-		"source": {
-			"type": "minecraft:storage",
-			"source": "ssbrc:shield"
-		},
-		"ops": [
-			{
-				"source": "damage",
-				"target": "Damage",
-				"op": "replace"
-			}
-		]
-	},
-	{
 		"function": "minecraft:reference",
 		"name": "ssbrc:fighters/init/preset/defensive"
 	},

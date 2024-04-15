@@ -1,2 +1,3 @@
-execute store result storage ssbrc:shield damage int 1.0 run scoreboard players get @s durability
 loot replace entity @s weapon.offhand loot ssbrc:fighters/byleth/shield
+
+function ssbrc:logic/fighters/shield with entity @s
