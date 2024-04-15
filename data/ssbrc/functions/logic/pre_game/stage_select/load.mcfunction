@@ -54,7 +54,7 @@ scoreboard players set @e[type=minecraft:text_display,tag=vote_counter] stage_vo
 execute as @e[type=minecraft:text_display,tag=vote_counter,tag=selected] unless score @s stage_vote = @s temp run tag @s add vote_counter.update
 execute as @e[type=minecraft:text_display,tag=vote_counter.update,sort=random,limit=1] run function ssbrc:logic/pre_game/stage_select/update_counters/votes
 
-execute store result score playersAlive temp if entity @a[predicate=ssbrc:ingame,team=!spectator]
+execute store result score players_alive temp if entity @a[predicate=ssbrc:ingame,team=!spectator]
 
 execute if score players.playing temp matches 1 run function ssbrc:logic/options/presets/singleplayer/on
 
