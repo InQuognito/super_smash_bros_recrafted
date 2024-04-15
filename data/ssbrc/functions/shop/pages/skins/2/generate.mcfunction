@@ -1,8 +1,8 @@
 function ssbrc:shop/pages/reset
 
-loot replace entity @s enderchest.0 loot ssbrc:ui/null/orange
+loot replace entity @s enderchest.0 loot ssbrc:ui/null/yellow
 function ssbrc:shop/contents/navigator {goto:"navigation.skins.1",type:"back",slot:"9"}
-loot replace entity @s enderchest.18 loot ssbrc:ui/null/orange
+loot replace entity @s enderchest.18 loot ssbrc:ui/null/yellow
 
 function ssbrc:shop/contents/header {name:"pit",slot:"2"}
 function ssbrc:shop/contents/header {name:"snake",slot:"3"}
@@ -22,6 +22,6 @@ function ssbrc:shop/contents/header {name:"shovel_knight",slot:"22"}
 function ssbrc:shop/contents/header {name:"yar",slot:"23"}
 function ssbrc:shop/contents/header {name:"",slot:"24"}
 
-loot replace entity @s enderchest.8 loot ssbrc:ui/null/orange
-loot replace entity @s enderchest.17 loot ssbrc:ui/null/orange
-loot replace entity @s enderchest.26 loot ssbrc:ui/null/orange
+loot replace entity @s enderchest.8 loot ssbrc:ui/null/yellow
+loot replace entity @s enderchest.17 loot ssbrc:ui/null/yellow
+loot replace entity @s enderchest.26 loot ssbrc:ui/null/yellow

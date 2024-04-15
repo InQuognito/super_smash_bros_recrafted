@@ -1,17 +1,12 @@
 function ssbrc:shop/pages/reset
 
-loot replace entity @s enderchest.0 loot ssbrc:ui/null/red
-item replace entity @s enderchest.9 with minecraft:barrier{ui:{id:"navigation.skins.2",sound:"click"},CustomModelData:9999991,display:{Name:'{"translate":"ssbrc.ui.go_back","color":"red","italic":false}'}}
-loot replace entity @s enderchest.18 loot ssbrc:ui/null/red
+loot replace entity @s enderchest.0 loot ssbrc:ui/null/lime
+function ssbrc:shop/contents/navigator {goto:"navigation.skins.2",type:"back",slot:"9"}
+loot replace entity @s enderchest.18 loot ssbrc:ui/null/lime
 
-execute if score @s[advancements={ssbrc:fighters/shovel_knight/skins/armor_of_chaos=false}] stats.credits < price.skin.common vars run loot replace entity @s enderchest.2 loot ssbrc:ui/shop/skins/shovel_knight/armor_of_chaos/cannot_afford
-execute if score @s[advancements={ssbrc:fighters/shovel_knight/skins/armor_of_chaos=false}] stats.credits >= price.skin.common vars run loot replace entity @s enderchest.2 loot ssbrc:ui/shop/skins/shovel_knight/armor_of_chaos/unowned
-loot replace entity @s[advancements={ssbrc:fighters/shovel_knight/skins/armor_of_chaos=true}] enderchest.2 loot ssbrc:ui/shop/skins/shovel_knight/armor_of_chaos/owned
+function ssbrc:shop/contents/skin {name:"shovel_knight",skin:"armor_of_chaos",slot:"2"}
+function ssbrc:shop/contents/skin {name:"shovel_knight",skin:"toad_gear",slot:"3"}
 
-execute if score @s[advancements={ssbrc:fighters/shovel_knight/skins/toad_gear=false}] stats.credits < price.skin.common vars run loot replace entity @s enderchest.3 loot ssbrc:ui/shop/skins/shovel_knight/toad_gear/cannot_afford
-execute if score @s[advancements={ssbrc:fighters/shovel_knight/skins/toad_gear=false}] stats.credits >= price.skin.common vars run loot replace entity @s enderchest.3 loot ssbrc:ui/shop/skins/shovel_knight/toad_gear/unowned
-loot replace entity @s[advancements={ssbrc:fighters/shovel_knight/skins/toad_gear=true}] enderchest.3 loot ssbrc:ui/shop/skins/shovel_knight/toad_gear/owned
-
-loot replace entity @s enderchest.8 loot ssbrc:ui/null/red
-loot replace entity @s enderchest.17 loot ssbrc:ui/null/red
-loot replace entity @s enderchest.26 loot ssbrc:ui/null/red
+loot replace entity @s enderchest.8 loot ssbrc:ui/null/lime
+loot replace entity @s enderchest.17 loot ssbrc:ui/null/lime
+loot replace entity @s enderchest.26 loot ssbrc:ui/null/lime
