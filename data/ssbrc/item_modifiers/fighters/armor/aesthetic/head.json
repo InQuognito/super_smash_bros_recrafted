@@ -2213,32 +2213,6 @@
 	},
 	{
 		"function": "minecraft:set_custom_model_data",
-		"value": 1740,
-		"conditions": [
-			{
-				"condition": "minecraft:entity_properties",
-				"entity": "this",
-				"predicate": {
-					"nbt": "{Tags:[\"yoshi\",\"default\"]}"
-				}
-			}
-		]
-	},
-	{
-		"function": "minecraft:set_custom_model_data",
-		"value": 1741,
-		"conditions": [
-			{
-				"condition": "minecraft:entity_properties",
-				"entity": "this",
-				"predicate": {
-					"nbt": "{Tags:[\"yoshi\",\"gold\"]}"
-				}
-			}
-		]
-	},
-	{
-		"function": "minecraft:set_custom_model_data",
 		"value": 1780,
 		"conditions": [
 			{

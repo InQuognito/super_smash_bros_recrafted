@@ -2802,25 +2802,6 @@
 		"components": {
 			"minecraft:trim": {
 				"material": "minecraft:quartz",
-				"pattern": "ssbrc:fighters/yoshi/default",
-				"show_in_tooltip": false
-			}
-		},
-		"conditions": [
-			{
-				"condition": "minecraft:entity_properties",
-				"entity": "this",
-				"predicate": {
-					"nbt": "{Tags:[\"yoshi\",\"default\"]}"
-				}
-			}
-		]
-	},
-	{
-		"function": "minecraft:set_components",
-		"components": {
-			"minecraft:trim": {
-				"material": "minecraft:quartz",
 				"pattern": "ssbrc:fighters/zelda/default",
 				"show_in_tooltip": false
 			}

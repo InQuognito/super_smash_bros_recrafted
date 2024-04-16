@@ -28,7 +28,7 @@
 						},
 						{
 							"function": "minecraft:set_custom_data",
-							"tag": "{ui:{id:\"navigation.skins.1\",sound:\"click\"}"
+							"tag": "{ui:{id:\"navigation.skins.1\",sound:\"click\"}}"
 						}
 					]
 				}
