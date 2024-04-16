@@ -3,7 +3,7 @@ scoreboard players set @s points 0
 
 scoreboard players operation @s stocks = stocks temp
 
-effect clear @s minecraft:jump_boost
+attribute @s minecraft:generic.jump_strength base set 0.42
 effect clear @s minecraft:slowness
 
 scoreboard players set @s[tag=alucard] durability 312
