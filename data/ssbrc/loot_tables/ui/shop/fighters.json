@@ -20,11 +20,7 @@
 						},
 						{
 							"function": "minecraft:reference",
-							"name": "ssbrc:ui/separator"
-						},
-						{
-							"function": "minecraft:reference",
-							"name": "ssbrc:ui/owned"
+							"name": "ssbrc:ui/shop/button"
 						},
 						{
 							"function": "minecraft:set_custom_data",
