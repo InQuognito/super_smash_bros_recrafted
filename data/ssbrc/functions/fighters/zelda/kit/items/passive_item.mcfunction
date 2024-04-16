@@ -1,6 +1,6 @@
 execute if score debug options matches 1.. run say passive_item.mcfunction
 
-clear @s #ssbrc:fighters/zelda/passive_items{passive_item:1}
+clear @s #ssbrc:fighters/zelda/passive_items[minecraft:custom_data={passive_item:1}]
 
 scoreboard players reset #passiveChosen temp
 

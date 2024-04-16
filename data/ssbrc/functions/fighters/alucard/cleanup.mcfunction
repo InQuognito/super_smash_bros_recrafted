@@ -1,3 +1,3 @@
 tag @s remove blood_metamorphosis
 
-clear @s minecraft:shield{alucard_shield:1}
+clear @s minecraft:shield[minecraft:custom_data={alucard_shield:1}]

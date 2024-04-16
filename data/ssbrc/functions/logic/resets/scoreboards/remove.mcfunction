@@ -89,8 +89,8 @@ scoreboard objectives remove shop.selector
 scoreboard objectives remove skin_picked
 scoreboard objectives remove slope
 scoreboard objectives remove snake.capacity
-scoreboard objectives remove snake.anti_personnel_mineA
-scoreboard objectives remove snake.smoke_grenadeA
+scoreboard objectives remove snake.anti_personnel_mine.ammo
+scoreboard objectives remove snake.smoke_grenade.ammo
 scoreboard objectives remove sprint_distance
 scoreboard objectives remove stage_index
 scoreboard objectives remove stage_index.selector

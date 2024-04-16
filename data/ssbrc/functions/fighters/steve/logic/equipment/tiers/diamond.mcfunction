@@ -4,4 +4,4 @@ loot give @s loot ssbrc:fighters/steve/sword/diamond
 
 loot give @s loot ssbrc:fighters/steve/pickaxe/diamond
 
-tellraw @s[tag=has_diamond] {"translate":"ssbrc.fighters.steve.craftDiamond","color":"green"}
+tellraw @s[tag=has_diamond] {"translate":"ssbrc.fighters.steve.craft_diamond","color":"green"}

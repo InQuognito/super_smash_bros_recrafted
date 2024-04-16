@@ -2,4 +2,4 @@ scoreboard players operation @s[advancements={ssbrc:utility/flag/get_kill/on/pla
 scoreboard players operation @s[advancements={ssbrc:utility/flag/get_kill/on/non_player=true}] mana += hero.mana.gained_on_kill.npc vars
 scoreboard players operation @s[advancements={ssbrc:utility/flag/get_kill/on/misc=true}] mana += hero.mana.gained_on_kill.misc vars
 
-execute if score @s[tag=magicLost] mana >= hero.mana.half vars run function ssbrc:fighters/hero/logic/mana/restore
+execute if score @s[tag=magic_lost] mana >= hero.mana.half vars run function ssbrc:fighters/hero/logic/mana/restore

@@ -6,8 +6,8 @@ tag @s[nbt={Inventory:[{id:"minecraft:netherite_scrap"}]}] add has_netherite
 
 clear @s #ssbrc:fighters/steve/items
 
-execute if entity @s[tag=has_stick,nbt=!{Inventory:[{id:"minecraft:bow",tag:{bow:1}}]}] run function ssbrc:fighters/steve/logic/equipment/others/bow
-execute if entity @s[tag=has_tripwire_hook,nbt=!{Inventory:[{id:"minecraft:crossbow",tag:{crossbow:1}}]}] run function ssbrc:fighters/steve/logic/equipment/others/crossbow
+execute if entity @s[tag=has_stick,nbt=!{Inventory:[{id:"minecraft:bow",components:{"minecraft:custom_data":{bow:1}}}]}] run function ssbrc:fighters/steve/logic/equipment/others/bow
+execute if entity @s[tag=has_tripwire_hook,nbt=!{Inventory:[{id:"minecraft:crossbow",components:{"minecraft:custom_data":{crossbow:1}}}]}] run function ssbrc:fighters/steve/logic/equipment/others/crossbow
 execute if entity @s[tag=has_flint] run function ssbrc:fighters/steve/logic/equipment/others/arrows
 execute if entity @s[tag=has_oak_planks] run function ssbrc:fighters/steve/logic/equipment/others/shield
 execute if entity @s[tag=has_netherite] run function ssbrc:fighters/steve/logic/equipment/tiers/netherite

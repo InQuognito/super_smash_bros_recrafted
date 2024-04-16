@@ -1,6 +1,6 @@
 tag @s add satsui_no_hado_rage
 
-clear @s minecraft:nether_star{satsui_no_hado_rage:1}
+clear @s minecraft:nether_star[minecraft:custom_data={satsui_no_hado_rage:1}]
 
 function ssbrc:logic/fighters/effects/cleanse
 

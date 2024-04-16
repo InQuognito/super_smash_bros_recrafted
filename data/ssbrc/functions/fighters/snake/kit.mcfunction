@@ -22,5 +22,5 @@ scoreboard players set @s[tag=famas] weapon_3.mags 1
 scoreboard players set @s[tag=famas] weapon_3.ammo 24
 scoreboard players set @s[tag=socom] weapon_4.mags 2
 scoreboard players set @s[tag=socom] weapon_4.ammo 8
-scoreboard players set @s[tag=anti_personnel_mine] snake.anti_personnel_mineA 2
-scoreboard players set @s[tag=smoke_grenade] snake.smoke_grenadeA 2
+scoreboard players set @s[tag=anti_personnel_mine] snake.anti_personnel_mine.ammo 2
+scoreboard players set @s[tag=smoke_grenade] snake.smoke_grenade.ammo 2

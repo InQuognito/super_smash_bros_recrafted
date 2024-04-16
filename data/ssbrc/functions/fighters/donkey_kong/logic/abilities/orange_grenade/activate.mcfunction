@@ -8,6 +8,6 @@ execute if entity @s[scores={shadow.chaos_control=1..}] run function ssbrc:logic
 loot replace entity @s weapon.mainhand loot ssbrc:fighters/donkey_kong/orange_grenade/throw
 loot replace entity @s weapon.mainhand loot ssbrc:fighters/donkey_kong/orange_grenade/default
 
-clear @s[scores={charge.1=..0}] minecraft:nether_star{orange_grenade:1}
+clear @s[scores={charge.1=..0}] minecraft:nether_star[minecraft:custom_data={orange_grenade:1}]
 
 playsound ssbrc:fighters.donkey_kong.orange_grenade.activate player @a

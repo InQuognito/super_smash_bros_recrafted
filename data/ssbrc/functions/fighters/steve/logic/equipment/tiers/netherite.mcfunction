@@ -4,4 +4,4 @@ function ssbrc:logic/fighters/replace_item {old:"steve.sword",new:"steve/sword/n
 
 function ssbrc:logic/fighters/replace_item {old:"steve.pickaxe",new:"steve/pickaxe/netherite"}
 
-tellraw @s[tag=has_netherite] {"translate":"ssbrc.fighters.steve.craftNetherite","color":"green"}
+tellraw @s[tag=has_netherite] {"translate":"ssbrc.fighters.steve.craft_netherite","color":"green"}

@@ -12,7 +12,7 @@ scoreboard players set @s shadow.meter.hero 0
 
 function ssbrc:logic/fighters/modify_item {old:"chaos_spear",new:"shadow/chaos_spear/disabled"}
 
-clear @s minecraft:nether_star{chaos_control:1}
+clear @s minecraft:nether_star[minecraft:custom_data={chaos_control:1}]
 
 playsound ssbrc:fighters.shadow.chaos_control.activate player @s
 execute as @a[predicate=ssbrc:flag/player,tag=!self] at @s run playsound ssbrc:fighters.shadow.chaos_control.hit player @s

@@ -72,7 +72,7 @@
 				"condition": "minecraft:entity_properties",
 				"entity": "this",
 				"predicate": {
-					"nbt": "{Tags:[\"magicLost\"]}"
+					"nbt": "{Tags:[\"magic_lost\"]}"
 				}
 			}
 		]
@@ -87,7 +87,7 @@
 					"condition": "minecraft:entity_properties",
 					"entity": "this",
 					"predicate": {
-						"nbt": "{Tags:[\"magicLost\"]}"
+						"nbt": "{Tags:[\"magic_lost\"]}"
 					}
 				}
 			}

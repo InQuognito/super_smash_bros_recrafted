@@ -2,7 +2,7 @@ scoreboard players operation #percentage temp = @s mana
 scoreboard players operation #percentage temp *= 100 integers
 scoreboard players operation #percentage temp /= hero.mana.max vars
 
-execute if score #percentage temp matches 0 unless score @s[tag=!magicLost] duration.2 >= 1 integers run function ssbrc:fighters/hero/logic/mana/lose
+execute if score #percentage temp matches 0 unless score @s[tag=!magic_lost] duration.2 >= 1 integers run function ssbrc:fighters/hero/logic/mana/lose
 execute if score #percentage temp matches 1..10 run title @s actionbar [{"translate":"ssbrc.fighters.mana","bold":true,"color":"white"},{"text":"\u25ae","color":"yellow"}]
 execute if score #percentage temp matches 11..20 run title @s actionbar [{"translate":"ssbrc.fighters.mana","bold":true,"color":"white"},{"text":"\u25ae\u25ae","color":"yellow"}]
 execute if score #percentage temp matches 21..30 run title @s actionbar [{"translate":"ssbrc.fighters.mana","bold":true,"color":"white"},{"text":"\u25ae\u25ae\u25ae","color":"yellow"}]
