@@ -1,4 +1,4 @@
-scoreboard players set #blessing_chosen temp 1
+scoreboard players set blessing_chosen temp 1
 
 tag @s add shatter_resist
 scoreboard players set @s zelda.shatter_resist 600

@@ -1,4 +1,4 @@
-scoreboard players set #blessing_chosen temp 1
+scoreboard players set blessing_chosen temp 1
 
 scoreboard players set @s zelda.half_magic 600
 

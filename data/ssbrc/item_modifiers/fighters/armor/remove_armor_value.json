@@ -5,25 +5,15 @@
 			"attribute": "minecraft:generic.armor",
 			"name": "",
 			"amount": 0,
-			"operation": "addition",
-			"slot": [
-				"head",
-				"chest",
-				"legs",
-				"feet"
-			]
+			"operation": "add_multiplied_base",
+			"slot": "armor"
 		},
 		{
 			"attribute": "minecraft:generic.armor_toughness",
 			"name": "",
 			"amount": 0,
-			"operation": "addition",
-			"slot": [
-				"head",
-				"chest",
-				"legs",
-				"feet"
-			]
+			"operation": "add_multiplied_base",
+			"slot": "armor"
 		}
 	]
 }

@@ -1,4 +1,4 @@
-clear @s minecraft:golden_sword{sword_of_the_creator:1}
+clear @s minecraft:golden_sword[minecraft:custom_data={sword_of_the_creator:1}]
 
 loot replace entity @s weapon.mainhand loot ssbrc:fighters/byleth/steel_sword
 

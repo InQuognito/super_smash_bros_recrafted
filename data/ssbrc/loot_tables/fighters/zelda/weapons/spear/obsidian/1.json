@@ -11,17 +11,16 @@
 						{
 							"function": "minecraft:set_name",
 							"entity": "this",
+							"target": "item_name",
 							"name": {
 								"translate": "ssbrc.tooltips.zelda.weapon.spear.obsidian",
 								"color": "dark_purple",
 								"bold": true,
-								"italic": false,
 								"extra": [
 									{
 										"translate": " I",
 										"color": "light_purple",
-										"bold": false,
-										"italic": false
+										"bold": false
 									}
 								]
 							}

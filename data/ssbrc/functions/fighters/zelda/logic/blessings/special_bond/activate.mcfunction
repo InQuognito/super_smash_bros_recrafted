@@ -1,4 +1,4 @@
-scoreboard players set #blessing_chosen temp 1
+scoreboard players set blessing_chosen temp 1
 
 tag @s add special_bond
 scoreboard players set @s zelda.special_bond 400
