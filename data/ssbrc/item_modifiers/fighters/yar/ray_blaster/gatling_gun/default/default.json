@@ -1,7 +1,7 @@
 [
 	{
-		"function": "set_custom_model_data",
-		"tag": 1963
+		"function": "minecraft:set_custom_model_data",
+		"value": 1963
 	},
 	{
 		"function": "minecraft:reference",
