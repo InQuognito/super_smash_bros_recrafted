@@ -11,7 +11,7 @@
 	},
 	{
 		"function": "minecraft:set_custom_model_data",
-		"value": 181}",
+		"value": 181,
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -24,7 +24,7 @@
 	},
 	{
 		"function": "minecraft:set_custom_model_data",
-		"value": 182}",
+		"value": 182,
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",

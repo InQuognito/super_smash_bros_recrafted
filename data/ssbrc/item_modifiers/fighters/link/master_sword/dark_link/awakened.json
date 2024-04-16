@@ -11,7 +11,7 @@
 	},
 	{
 		"function": "minecraft:set_custom_model_data",
-		"value": 725}",
+		"value": 725,
 		"conditions": [
 			{
 				"condition": "minecraft:inverted",
@@ -27,7 +27,7 @@
 	},
 	{
 		"function": "minecraft:set_custom_model_data",
-		"value": 729}",
+		"value": 729,
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",

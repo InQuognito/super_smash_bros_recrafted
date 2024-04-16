@@ -7,7 +7,7 @@
 				{
 					"type": "minecraft:loot_table",
 					"weight": 10,
-					"name": "ssbrc:fighters/steve/items/gear",
+					"value": "ssbrc:fighters/steve/items/gear",
 					"conditions": [
 						{
 							"condition": "minecraft:entity_scores",
@@ -23,7 +23,7 @@
 				{
 					"type": "minecraft:loot_table",
 					"weight": 10,
-					"name": "ssbrc:fighters/steve/items/misc"
+					"value": "ssbrc:fighters/steve/items/misc"
 				},
 				{
 					"type": "minecraft:item",
