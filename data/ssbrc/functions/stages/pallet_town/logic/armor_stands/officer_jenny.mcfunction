@@ -1,4 +1,4 @@
-tag @s add officerJenny
+tag @s add officer_jenny
 
 teleport @s ~ ~ ~ 35.0 0.0
 

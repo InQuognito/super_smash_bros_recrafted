@@ -1,0 +1,36 @@
+{
+	"type": "minecraft:command",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:stone_sword",
+					"functions": [
+						{
+							"function": "minecraft:set_attributes",
+							"modifiers": [
+								{
+									"attribute": "minecraft:generic.attack_damage",
+									"name": "Attack Damage",
+									"amount": 3,
+									"operation": "add_multiplied_base",
+									"slot": "mainhand"
+								}
+							]
+						},
+						{
+							"function": "minecraft:set_custom_model_data",
+							"value": 400
+						},
+						{
+							"function": "minecraft:set_custom_data",
+							"tag": "{stalfos_sword:1}"
+						}
+					]
+				}
+			]
+		}
+	]
+}

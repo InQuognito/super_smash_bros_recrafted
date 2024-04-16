@@ -4,7 +4,8 @@
 		"components": {
 			"minecraft:trim": {
 				"material": "minecraft:quartz",
-				"pattern": "ssbrc:fighters/peach/default"
+				"pattern": "ssbrc:fighters/peach/default",
+				"show_in_tooltip": false
 			}
 		},
 		"conditions": [
@@ -22,7 +23,8 @@
 		"components": {
 			"minecraft:trim": {
 				"material": "minecraft:quartz",
-				"pattern": "ssbrc:armor_stands/bowsers_castle/toad/default"
+				"pattern": "ssbrc:armor_stands/bowsers_castle/toad/default",
+				"show_in_tooltip": false
 			}
 		},
 		"conditions": [
@@ -40,7 +42,8 @@
 		"components": {
 			"minecraft:trim": {
 				"material": "minecraft:quartz",
-				"pattern": "ssbrc:armor_stands/bowsers_castle/toad/blue"
+				"pattern": "ssbrc:armor_stands/bowsers_castle/toad/blue",
+				"show_in_tooltip": false
 			}
 		},
 		"conditions": [
@@ -58,7 +61,8 @@
 		"components": {
 			"minecraft:trim": {
 				"material": "minecraft:quartz",
-				"pattern": "ssbrc:armor_stands/bowsers_castle/toad/yellow"
+				"pattern": "ssbrc:armor_stands/bowsers_castle/toad/yellow",
+				"show_in_tooltip": false
 			}
 		},
 		"conditions": [
@@ -76,7 +80,8 @@
 		"components": {
 			"minecraft:trim": {
 				"material": "minecraft:quartz",
-				"pattern": "ssbrc:armor_stands/castle_siege/king"
+				"pattern": "ssbrc:armor_stands/castle_siege/king",
+				"show_in_tooltip": false
 			}
 		},
 		"conditions": [
@@ -94,7 +99,8 @@
 		"components": {
 			"minecraft:trim": {
 				"material": "minecraft:quartz",
-				"pattern": "ssbrc:armor_stands/frozen_hijinx/funky_kong"
+				"pattern": "ssbrc:armor_stands/frozen_hijinx/funky_kong",
+				"show_in_tooltip": false
 			}
 		},
 		"conditions": [
@@ -102,7 +108,7 @@
 				"condition": "minecraft:entity_properties",
 				"entity": "this",
 				"predicate": {
-					"nbt": "{Tags:[\"funkyKong\"]}"
+					"nbt": "{Tags:[\"funky_kong\"]}"
 				}
 			}
 		]
@@ -112,7 +118,8 @@
 		"components": {
 			"minecraft:trim": {
 				"material": "minecraft:quartz",
-				"pattern": "ssbrc:armor_stands/great_plateau/link"
+				"pattern": "ssbrc:armor_stands/great_plateau/link",
+				"show_in_tooltip": false
 			}
 		},
 		"conditions": [
@@ -130,7 +137,8 @@
 		"components": {
 			"minecraft:trim": {
 				"material": "minecraft:quartz",
-				"pattern": "ssbrc:fighters/shadow/default"
+				"pattern": "ssbrc:fighters/shadow/default",
+				"show_in_tooltip": false
 			}
 		},
 		"conditions": [
@@ -148,7 +156,8 @@
 		"components": {
 			"minecraft:trim": {
 				"material": "minecraft:quartz",
-				"pattern": "ssbrc:armor_stands/green_hill_zone/amy"
+				"pattern": "ssbrc:armor_stands/green_hill_zone/amy",
+				"show_in_tooltip": false
 			}
 		},
 		"conditions": [
@@ -166,7 +175,8 @@
 		"components": {
 			"minecraft:trim": {
 				"material": "minecraft:quartz",
-				"pattern": "ssbrc:armor_stands/green_hill_zone/charmy"
+				"pattern": "ssbrc:armor_stands/green_hill_zone/charmy",
+				"show_in_tooltip": false
 			}
 		},
 		"conditions": [
@@ -184,7 +194,8 @@
 		"components": {
 			"minecraft:trim": {
 				"material": "minecraft:quartz",
-				"pattern": "ssbrc:armor_stands/green_hill_zone/cream"
+				"pattern": "ssbrc:armor_stands/green_hill_zone/cream",
+				"show_in_tooltip": false
 			}
 		},
 		"conditions": [
@@ -202,7 +213,8 @@
 		"components": {
 			"minecraft:trim": {
 				"material": "minecraft:quartz",
-				"pattern": "ssbrc:armor_stands/green_hill_zone/espio"
+				"pattern": "ssbrc:armor_stands/green_hill_zone/espio",
+				"show_in_tooltip": false
 			}
 		},
 		"conditions": [
@@ -220,7 +232,8 @@
 		"components": {
 			"minecraft:trim": {
 				"material": "minecraft:quartz",
-				"pattern": "ssbrc:armor_stands/green_hill_zone/knuckles"
+				"pattern": "ssbrc:armor_stands/green_hill_zone/knuckles",
+				"show_in_tooltip": false
 			}
 		},
 		"conditions": [
@@ -238,7 +251,8 @@
 		"components": {
 			"minecraft:trim": {
 				"material": "minecraft:quartz",
-				"pattern": "ssbrc:armor_stands/green_hill_zone/silver"
+				"pattern": "ssbrc:armor_stands/green_hill_zone/silver",
+				"show_in_tooltip": false
 			}
 		},
 		"conditions": [
@@ -256,7 +270,8 @@
 		"components": {
 			"minecraft:trim": {
 				"material": "minecraft:quartz",
-				"pattern": "ssbrc:armor_stands/green_hill_zone/tails"
+				"pattern": "ssbrc:armor_stands/green_hill_zone/tails",
+				"show_in_tooltip": false
 			}
 		},
 		"conditions": [
@@ -274,7 +289,8 @@
 		"components": {
 			"minecraft:trim": {
 				"material": "minecraft:quartz",
-				"pattern": "ssbrc:armor_stands/green_hill_zone/vector"
+				"pattern": "ssbrc:armor_stands/green_hill_zone/vector",
+				"show_in_tooltip": false
 			}
 		},
 		"conditions": [
@@ -292,7 +308,8 @@
 		"components": {
 			"minecraft:trim": {
 				"material": "minecraft:quartz",
-				"pattern": "ssbrc:armor_stands/magicant/jeff"
+				"pattern": "ssbrc:armor_stands/magicant/jeff",
+				"show_in_tooltip": false
 			}
 		},
 		"conditions": [
@@ -310,7 +327,8 @@
 		"components": {
 			"minecraft:trim": {
 				"material": "minecraft:quartz",
-				"pattern": "ssbrc:armor_stands/magicant/paula"
+				"pattern": "ssbrc:armor_stands/magicant/paula",
+				"show_in_tooltip": false
 			}
 		},
 		"conditions": [
@@ -328,7 +346,8 @@
 		"components": {
 			"minecraft:trim": {
 				"material": "minecraft:quartz",
-				"pattern": "ssbrc:armor_stands/magicant/poo"
+				"pattern": "ssbrc:armor_stands/magicant/poo",
+				"show_in_tooltip": false
 			}
 		},
 		"conditions": [
@@ -346,7 +365,8 @@
 		"components": {
 			"minecraft:trim": {
 				"material": "minecraft:quartz",
-				"pattern": "ssbrc:armor_stands/mementos/jose"
+				"pattern": "ssbrc:armor_stands/mementos/jose",
+				"show_in_tooltip": false
 			}
 		},
 		"conditions": [
@@ -364,7 +384,8 @@
 		"components": {
 			"minecraft:trim": {
 				"material": "minecraft:quartz",
-				"pattern": "ssbrc:armor_stands/mementos/queen"
+				"pattern": "ssbrc:armor_stands/mementos/queen",
+				"show_in_tooltip": false
 			}
 		},
 		"conditions": [
@@ -382,7 +403,8 @@
 		"components": {
 			"minecraft:trim": {
 				"material": "minecraft:quartz",
-				"pattern": "ssbrc:armor_stands/pallet_town/brock"
+				"pattern": "ssbrc:armor_stands/pallet_town/brock",
+				"show_in_tooltip": false
 			}
 		},
 		"conditions": [
@@ -400,7 +422,8 @@
 		"components": {
 			"minecraft:trim": {
 				"material": "minecraft:quartz",
-				"pattern": "ssbrc:armor_stands/pallet_town/gary"
+				"pattern": "ssbrc:armor_stands/pallet_town/gary",
+				"show_in_tooltip": false
 			}
 		},
 		"conditions": [
@@ -418,7 +441,8 @@
 		"components": {
 			"minecraft:trim": {
 				"material": "minecraft:quartz",
-				"pattern": "ssbrc:armor_stands/pallet_town/misty"
+				"pattern": "ssbrc:armor_stands/pallet_town/misty",
+				"show_in_tooltip": false
 			}
 		},
 		"conditions": [
@@ -436,7 +460,8 @@
 		"components": {
 			"minecraft:trim": {
 				"material": "minecraft:quartz",
-				"pattern": "ssbrc:armor_stands/pallet_town/nurse_joy"
+				"pattern": "ssbrc:armor_stands/pallet_town/nurse_joy",
+				"show_in_tooltip": false
 			}
 		},
 		"conditions": [
@@ -444,7 +469,7 @@
 				"condition": "minecraft:entity_properties",
 				"entity": "this",
 				"predicate": {
-					"nbt": "{Tags:[\"nurseJoy\"]}"
+					"nbt": "{Tags:[\"nurse_joy\"]}"
 				}
 			}
 		]
@@ -454,7 +479,8 @@
 		"components": {
 			"minecraft:trim": {
 				"material": "minecraft:quartz",
-				"pattern": "ssbrc:armor_stands/pallet_town/officer_jenny"
+				"pattern": "ssbrc:armor_stands/pallet_town/officer_jenny",
+				"show_in_tooltip": false
 			}
 		},
 		"conditions": [
@@ -462,7 +488,7 @@
 				"condition": "minecraft:entity_properties",
 				"entity": "this",
 				"predicate": {
-					"nbt": "{Tags:[\"officerJenny\"]}"
+					"nbt": "{Tags:[\"officer_jenny\"]}"
 				}
 			}
 		]
@@ -472,7 +498,8 @@
 		"components": {
 			"minecraft:trim": {
 				"material": "minecraft:quartz",
-				"pattern": "ssbrc:armor_stands/pallet_town/professor_oak"
+				"pattern": "ssbrc:armor_stands/pallet_town/professor_oak",
+				"show_in_tooltip": false
 			}
 		},
 		"conditions": [
@@ -480,7 +507,7 @@
 				"condition": "minecraft:entity_properties",
 				"entity": "this",
 				"predicate": {
-					"nbt": "{Tags:[\"professorOak\"]}"
+					"nbt": "{Tags:[\"professor_oak\"]}"
 				}
 			}
 		]
@@ -490,7 +517,8 @@
 		"components": {
 			"minecraft:trim": {
 				"material": "minecraft:quartz",
-				"pattern": "ssbrc:armor_stands/sector_z/krystal"
+				"pattern": "ssbrc:armor_stands/sector_z/krystal",
+				"show_in_tooltip": false
 			}
 		},
 		"conditions": [
@@ -508,7 +536,8 @@
 		"components": {
 			"minecraft:trim": {
 				"material": "minecraft:quartz",
-				"pattern": "ssbrc:armor_stands/sector_z/leon"
+				"pattern": "ssbrc:armor_stands/sector_z/leon",
+				"show_in_tooltip": false
 			}
 		},
 		"conditions": [
@@ -526,7 +555,8 @@
 		"components": {
 			"minecraft:trim": {
 				"material": "minecraft:quartz",
-				"pattern": "ssbrc:armor_stands/sector_z/panther"
+				"pattern": "ssbrc:armor_stands/sector_z/panther",
+				"show_in_tooltip": false
 			}
 		},
 		"conditions": [
@@ -544,7 +574,8 @@
 		"components": {
 			"minecraft:trim": {
 				"material": "minecraft:quartz",
-				"pattern": "ssbrc:armor_stands/sector_z/peppy"
+				"pattern": "ssbrc:armor_stands/sector_z/peppy",
+				"show_in_tooltip": false
 			}
 		},
 		"conditions": [
@@ -562,7 +593,8 @@
 		"components": {
 			"minecraft:trim": {
 				"material": "minecraft:quartz",
-				"pattern": "ssbrc:armor_stands/sector_z/pigma"
+				"pattern": "ssbrc:armor_stands/sector_z/pigma",
+				"show_in_tooltip": false
 			}
 		},
 		"conditions": [
@@ -580,7 +612,8 @@
 		"components": {
 			"minecraft:trim": {
 				"material": "minecraft:quartz",
-				"pattern": "ssbrc:armor_stands/sector_z/rob_64"
+				"pattern": "ssbrc:armor_stands/sector_z/rob_64",
+				"show_in_tooltip": false
 			}
 		},
 		"conditions": [
@@ -588,7 +621,7 @@
 				"condition": "minecraft:entity_properties",
 				"entity": "this",
 				"predicate": {
-					"nbt": "{Tags:[\"rob64\"]}"
+					"nbt": "{Tags:[\"rob_64\"]}"
 				}
 			}
 		]
@@ -598,7 +631,8 @@
 		"components": {
 			"minecraft:trim": {
 				"material": "minecraft:quartz",
-				"pattern": "ssbrc:armor_stands/sector_z/slippy"
+				"pattern": "ssbrc:armor_stands/sector_z/slippy",
+				"show_in_tooltip": false
 			}
 		},
 		"conditions": [
@@ -616,7 +650,8 @@
 		"components": {
 			"minecraft:trim": {
 				"material": "minecraft:quartz",
-				"pattern": "ssbrc:armor_stands/wily_castle/acid_man"
+				"pattern": "ssbrc:armor_stands/wily_castle/acid_man",
+				"show_in_tooltip": false
 			}
 		},
 		"conditions": [
@@ -624,7 +659,7 @@
 				"condition": "minecraft:entity_properties",
 				"entity": "this",
 				"predicate": {
-					"nbt": "{Tags:[\"acidMan\"]}"
+					"nbt": "{Tags:[\"acid_man\"]}"
 				}
 			}
 		]
@@ -634,7 +669,8 @@
 		"components": {
 			"minecraft:trim": {
 				"material": "minecraft:quartz",
-				"pattern": "ssbrc:armor_stands/wily_castle/guts_man"
+				"pattern": "ssbrc:armor_stands/wily_castle/guts_man",
+				"show_in_tooltip": false
 			}
 		},
 		"conditions": [
@@ -642,7 +678,7 @@
 				"condition": "minecraft:entity_properties",
 				"entity": "this",
 				"predicate": {
-					"nbt": "{Tags:[\"gutsMan\"]}"
+					"nbt": "{Tags:[\"guts_man\"]}"
 				}
 			}
 		]
@@ -652,7 +688,8 @@
 		"components": {
 			"minecraft:trim": {
 				"material": "minecraft:quartz",
-				"pattern": "ssbrc:armor_stands/wily_castle/nitro_man"
+				"pattern": "ssbrc:armor_stands/wily_castle/nitro_man",
+				"show_in_tooltip": false
 			}
 		},
 		"conditions": [
@@ -660,7 +697,7 @@
 				"condition": "minecraft:entity_properties",
 				"entity": "this",
 				"predicate": {
-					"nbt": "{Tags:[\"nitroMan\"]}"
+					"nbt": "{Tags:[\"nitro_man\"]}"
 				}
 			}
 		]
@@ -670,7 +707,8 @@
 		"components": {
 			"minecraft:trim": {
 				"material": "minecraft:quartz",
-				"pattern": "ssbrc:armor_stands/wily_castle/quick_man"
+				"pattern": "ssbrc:armor_stands/wily_castle/quick_man",
+				"show_in_tooltip": false
 			}
 		},
 		"conditions": [
@@ -678,7 +716,7 @@
 				"condition": "minecraft:entity_properties",
 				"entity": "this",
 				"predicate": {
-					"nbt": "{Tags:[\"quickMan\"]}"
+					"nbt": "{Tags:[\"quick_man\"]}"
 				}
 			}
 		]

@@ -1,4 +1,4 @@
-clear @s minecraft:nether_star{power_up:1}
+clear @s minecraft:nether_star[minecraft:custom_data={power_up:1}]
 
 execute store result score random.output temp run random value 1..5
 

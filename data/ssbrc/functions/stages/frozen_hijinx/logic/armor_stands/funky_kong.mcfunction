@@ -1,4 +1,4 @@
-tag @s add funkyKong
+tag @s add funky_kong
 
 teleport @s ~ ~ ~ 310.0 0.0
 

@@ -1,4 +1,4 @@
-tag @s add professorOak
+tag @s add professor_oak
 
 teleport @s ~ ~ ~ 30.0 0.0
 

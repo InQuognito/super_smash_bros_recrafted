@@ -1,7 +1,7 @@
 [
 	{
 		"function": "minecraft:set_custom_model_data",
-		"value": 151}",
+		"value": 151,
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -14,7 +14,7 @@
 	},
 	{
 		"function": "minecraft:set_custom_model_data",
-		"value": 153}",
+		"value": 153,
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -27,7 +27,7 @@
 	},
 	{
 		"function": "minecraft:set_custom_model_data",
-		"value": 155}",
+		"value": 155,
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -40,7 +40,7 @@
 	},
 	{
 		"function": "minecraft:set_custom_model_data",
-		"value": 157}",
+		"value": 157,
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -53,7 +53,7 @@
 	},
 	{
 		"function": "minecraft:set_custom_model_data",
-		"value": 201}",
+		"value": 201,
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -66,20 +66,20 @@
 	},
 	{
 		"function": "minecraft:set_custom_model_data",
-		"value": 501}",
+		"value": 501,
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
 				"entity": "this",
 				"predicate": {
-					"nbt": "{Tags:[\"funkyKong\"]}"
+					"nbt": "{Tags:[\"funky_kong\"]}"
 				}
 			}
 		]
 	},
 	{
 		"function": "minecraft:set_custom_model_data",
-		"value": 701}",
+		"value": 701,
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -92,7 +92,7 @@
 	},
 	{
 		"function": "minecraft:set_custom_model_data",
-		"value": 751}",
+		"value": 751,
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -105,7 +105,7 @@
 	},
 	{
 		"function": "minecraft:set_custom_model_data",
-		"value": 753}",
+		"value": 753,
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -118,7 +118,7 @@
 	},
 	{
 		"function": "minecraft:set_custom_model_data",
-		"value": 755}",
+		"value": 755,
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -131,7 +131,7 @@
 	},
 	{
 		"function": "minecraft:set_custom_model_data",
-		"value": 757}",
+		"value": 757,
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -144,7 +144,7 @@
 	},
 	{
 		"function": "minecraft:set_custom_model_data",
-		"value": 759}",
+		"value": 759,
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -157,7 +157,7 @@
 	},
 	{
 		"function": "minecraft:set_custom_model_data",
-		"value": 761}",
+		"value": 761,
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -170,7 +170,7 @@
 	},
 	{
 		"function": "minecraft:set_custom_model_data",
-		"value": 763}",
+		"value": 763,
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -183,7 +183,7 @@
 	},
 	{
 		"function": "minecraft:set_custom_model_data",
-		"value": 765}",
+		"value": 765,
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -196,7 +196,7 @@
 	},
 	{
 		"function": "minecraft:set_custom_model_data",
-		"value": 767}",
+		"value": 767,
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -209,7 +209,7 @@
 	},
 	{
 		"function": "minecraft:set_custom_model_data",
-		"value": 1051}",
+		"value": 1051,
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -222,7 +222,7 @@
 	},
 	{
 		"function": "minecraft:set_custom_model_data",
-		"value": 1053}",
+		"value": 1053,
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -235,7 +235,7 @@
 	},
 	{
 		"function": "minecraft:set_custom_model_data",
-		"value": 1055}",
+		"value": 1055,
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -248,7 +248,7 @@
 	},
 	{
 		"function": "minecraft:set_custom_model_data",
-		"value": 1101}",
+		"value": 1101,
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -261,7 +261,7 @@
 	},
 	{
 		"function": "minecraft:set_custom_model_data",
-		"value": 1103}",
+		"value": 1103,
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -274,7 +274,7 @@
 	},
 	{
 		"function": "minecraft:set_custom_model_data",
-		"value": 1351}",
+		"value": 1351,
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -287,7 +287,7 @@
 	},
 	{
 		"function": "minecraft:set_custom_model_data",
-		"value": 1353}",
+		"value": 1353,
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -300,7 +300,7 @@
 	},
 	{
 		"function": "minecraft:set_custom_model_data",
-		"value": 1355}",
+		"value": 1355,
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -313,46 +313,46 @@
 	},
 	{
 		"function": "minecraft:set_custom_model_data",
-		"value": 1357}",
+		"value": 1357,
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
 				"entity": "this",
 				"predicate": {
-					"nbt": "{Tags:[\"nurseJoy\"]}"
+					"nbt": "{Tags:[\"nurse_joy\"]}"
 				}
 			}
 		]
 	},
 	{
 		"function": "minecraft:set_custom_model_data",
-		"value": 1359}",
+		"value": 1359,
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
 				"entity": "this",
 				"predicate": {
-					"nbt": "{Tags:[\"officerJenny\"]}"
+					"nbt": "{Tags:[\"officer_jenny\"]}"
 				}
 			}
 		]
 	},
 	{
 		"function": "minecraft:set_custom_model_data",
-		"value": 1361}",
+		"value": 1361,
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
 				"entity": "this",
 				"predicate": {
-					"nbt": "{Tags:[\"professorOak\"]}"
+					"nbt": "{Tags:[\"professor_oak\"]}"
 				}
 			}
 		]
 	},
 	{
 		"function": "minecraft:set_custom_model_data",
-		"value": 1551}",
+		"value": 1551,
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -365,7 +365,7 @@
 	},
 	{
 		"function": "minecraft:set_custom_model_data",
-		"value": 1553}",
+		"value": 1553,
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -378,7 +378,7 @@
 	},
 	{
 		"function": "minecraft:set_custom_model_data",
-		"value": 1555}",
+		"value": 1555,
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -391,7 +391,7 @@
 	},
 	{
 		"function": "minecraft:set_custom_model_data",
-		"value": 1557}",
+		"value": 1557,
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -404,7 +404,7 @@
 	},
 	{
 		"function": "minecraft:set_custom_model_data",
-		"value": 1559}",
+		"value": 1559,
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -417,20 +417,20 @@
 	},
 	{
 		"function": "minecraft:set_custom_model_data",
-		"value": 1561}",
+		"value": 1561,
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
 				"entity": "this",
 				"predicate": {
-					"nbt": "{Tags:[\"rob64\"]}"
+					"nbt": "{Tags:[\"rob_64\"]}"
 				}
 			}
 		]
 	},
 	{
 		"function": "minecraft:set_custom_model_data",
-		"value": 1563}",
+		"value": 1563,
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -443,52 +443,52 @@
 	},
 	{
 		"function": "minecraft:set_custom_model_data",
-		"value": 1801}",
+		"value": 1801,
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
 				"entity": "this",
 				"predicate": {
-					"nbt": "{Tags:[\"acidMan\"]}"
+					"nbt": "{Tags:[\"acid_man\"]}"
 				}
 			}
 		]
 	},
 	{
 		"function": "minecraft:set_custom_model_data",
-		"value": 1803}",
+		"value": 1803,
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
 				"entity": "this",
 				"predicate": {
-					"nbt": "{Tags:[\"gutsMan\"]}"
+					"nbt": "{Tags:[\"guts_man\"]}"
 				}
 			}
 		]
 	},
 	{
 		"function": "minecraft:set_custom_model_data",
-		"value": 1805}",
+		"value": 1805,
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
 				"entity": "this",
 				"predicate": {
-					"nbt": "{Tags:[\"nitroMan\"]}"
+					"nbt": "{Tags:[\"nitro_man\"]}"
 				}
 			}
 		]
 	},
 	{
 		"function": "minecraft:set_custom_model_data",
-		"value": 1807}",
+		"value": 1807,
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
 				"entity": "this",
 				"predicate": {
-					"nbt": "{Tags:[\"quickMan\"]}"
+					"nbt": "{Tags:[\"quick_man\"]}"
 				}
 			}
 		]

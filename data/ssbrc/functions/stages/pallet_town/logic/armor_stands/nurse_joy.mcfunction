@@ -1,4 +1,4 @@
-tag @s add nurseJoy
+tag @s add nurse_joy
 
 teleport @s ~ ~ ~ 30.0 0.0
 

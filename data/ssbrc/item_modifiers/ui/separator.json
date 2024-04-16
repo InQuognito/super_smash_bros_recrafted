@@ -1,15 +1,13 @@
-[
-	{
-		"function": "minecraft:set_lore",
-		"entity": "this",
-		"lore": [
-			{
-				"text": "",
-				"color": "white",
-				"bold": false,
-				"italic": false
-			}
-		],
-		"mode": "append"
-	}
-]
+{
+	"function": "minecraft:set_lore",
+	"entity": "this",
+	"lore": [
+		{
+			"text": "",
+			"color": "white",
+			"bold": false,
+			"italic": false
+		}
+	],
+	"mode": "append"
+}

@@ -1,4 +1,4 @@
-tag @s add rob64
+tag @s add rob_64
 
 teleport @s ~ ~ ~ 180.0 0.0
 

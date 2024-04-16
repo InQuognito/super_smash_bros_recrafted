@@ -7,6 +7,6 @@ tag @s remove s1000
 tag @s remove smoke_grenade
 tag @s remove socom
 
-tag @s remove itemsGiven
+tag @s remove items_given
 tag @s remove night_vision_goggles
 tag @s remove reloading

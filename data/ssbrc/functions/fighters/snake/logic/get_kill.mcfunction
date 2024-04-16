@@ -7,5 +7,5 @@ execute if score random.output temp matches 3 if entity @s[tag=socom] run functi
 execute if score random.output temp matches 4 if entity @s[tag=anti_personnel_mine] run function ssbrc:fighters/snake/logic/scavenger/anti_personnel_mine
 execute if score random.output temp matches 5 if entity @s[tag=smoke_grenade] run function ssbrc:fighters/snake/logic/scavenger/smoke_grenade
 
-execute if entity @s[tag=!itemsGiven] run function ssbrc:fighters/snake/logic/get_kill
-tag @s remove itemsGiven
+execute if entity @s[tag=!items_given] run function ssbrc:fighters/snake/logic/get_kill
+tag @s remove items_given
