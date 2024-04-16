@@ -1,7 +1,11 @@
 {
-	"function": "minecraft:set_enchantments",
-	"enchantments": {
-		"minecraft:binding_curse": 1
-	},
-	"add": false
+	"function": "minecraft:set_components",
+	"components": {
+		"minecraft:enchantments": {
+			"levels": {
+				"minecraft:binding_curse": 1
+			},
+			"show_in_tooltip": false
+		}
+	}
 }
