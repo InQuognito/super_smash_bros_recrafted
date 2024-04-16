@@ -27,7 +27,7 @@
 							"entity": "this",
 							"lore": [
 								{
-									"translate": "ssbrc.statistics.highestWinStreak",
+									"translate": "ssbrc.statistics.highest_win_streak",
 									"color": "gold",
 									"bold": false,
 									"italic": false,
@@ -44,7 +44,7 @@
 									]
 								},
 								{
-									"translate": "ssbrc.statistics.currentWinStreak",
+									"translate": "ssbrc.statistics.current_win_streak",
 									"color": "gold",
 									"bold": false,
 									"italic": false,
