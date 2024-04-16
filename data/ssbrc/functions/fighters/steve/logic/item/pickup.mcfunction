@@ -3,3 +3,5 @@ execute if entity @s[tag=steve,nbt={Inventory:[{components:{"minecraft:custom_da
 
 tellraw @s[tag=!steve] {"translate":"ssbrc.fighters.steve.discard_item","color":"red"}
 clear @s[tag=!steve] #ssbrc:fighters/steve/items
+
+advancement revoke @s only ssbrc:utility/pickup_steve_items
