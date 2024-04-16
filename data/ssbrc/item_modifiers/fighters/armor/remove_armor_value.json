@@ -1,19 +1,35 @@
 {
-	"function": "minecraft:set_attributes",
-	"modifiers": [
-		{
-			"attribute": "minecraft:generic.armor",
-			"name": "",
-			"amount": 0,
-			"operation": "add_multiplied_base",
-			"slot": "armor"
-		},
-		{
-			"attribute": "minecraft:generic.armor_toughness",
-			"name": "",
-			"amount": 0,
-			"operation": "add_multiplied_base",
-			"slot": "armor"
+	"function": "minecraft:set_components",
+	"components": {
+		"minecraft:attribute_modifiers": {
+			"modifiers": [
+				{
+					"type": "minecraft:generic.armor",
+					"uuid": [
+						0,
+						0,
+						0,
+						0
+					],
+					"name": "\"\"",
+					"amount": 0,
+					"operation": "add_multiplied_base",
+					"slot": "armor"
+				},
+				{
+					"type": "minecraft:generic.armor_toughness",
+					"uuid": [
+						0,
+						0,
+						0,
+						0
+					],
+					"name": "\"\"",
+					"amount": 0,
+					"operation": "add_multiplied_base",
+					"slot": "armor"
+				}
+			]
 		}
-	]
+	}
 }

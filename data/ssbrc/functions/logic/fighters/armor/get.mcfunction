@@ -22,4 +22,8 @@ item modify entity @s armor.chest ssbrc:fighters/enchantments/binding_curse
 item modify entity @s armor.legs ssbrc:fighters/enchantments/binding_curse
 item modify entity @s armor.feet ssbrc:fighters/enchantments/binding_curse
 
+item modify entity @s armor.chest ssbrc:fighters/armor/remove_armor_value
+item modify entity @s armor.legs ssbrc:fighters/armor/remove_armor_value
+item modify entity @s armor.feet ssbrc:fighters/armor/remove_armor_value
+
 function ssbrc:logic/fighters/armor/update
