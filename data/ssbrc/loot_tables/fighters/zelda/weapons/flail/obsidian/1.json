@@ -47,7 +47,7 @@
 						{
 							"function": "minecraft:set_enchantments",
 							"enchantments": {
-								"minecraft:sweeping": 1
+								"minecraft:sweeping_edge": 1
 							},
 							"add": false
 						},
