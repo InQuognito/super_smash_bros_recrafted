@@ -30,4 +30,4 @@ tag @s remove team5
 tag @s remove team6
 tag @s remove team7
 tag @s remove team8
-tag @s remove teleportMe
+tag @s remove teleport_me

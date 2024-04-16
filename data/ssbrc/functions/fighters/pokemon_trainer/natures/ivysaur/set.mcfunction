@@ -9,4 +9,4 @@ execute if score random.output temp matches 5 run tag @s add ivysaur.lonely
 execute if score random.output temp matches 6 run tag @s add ivysaur.quiet
 execute if score random.output temp matches 7 run tag @s add ivysaur.timid
 
-tag @s add ivysaur.natureSet
+tag @s add ivysaur.nature_set

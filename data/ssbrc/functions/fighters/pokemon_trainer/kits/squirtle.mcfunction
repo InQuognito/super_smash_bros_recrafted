@@ -18,7 +18,7 @@ function ssbrc:logic/fighters/armor/update
 function ssbrc:logic/fighters/attributes/defaults
 function ssbrc:logic/fighters/effects/default
 
-execute unless entity @s[tag=squirtle.natureSet] run function ssbrc:fighters/pokemon_trainer/natures/squirtle/set
+execute unless entity @s[tag=squirtle.nature_set] run function ssbrc:fighters/pokemon_trainer/natures/squirtle/set
 function ssbrc:fighters/pokemon_trainer/natures/squirtle/apply
 
 playsound ssbrc:items.poke_ball.open player @a

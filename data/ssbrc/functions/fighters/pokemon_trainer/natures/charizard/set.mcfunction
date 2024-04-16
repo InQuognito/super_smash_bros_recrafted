@@ -9,4 +9,4 @@ execute if score random.output temp matches 5 run tag @s add charizard.lonely
 execute if score random.output temp matches 6 run tag @s add charizard.quiet
 execute if score random.output temp matches 7 run tag @s add charizard.timid
 
-tag @s add charizard.natureSet
+tag @s add charizard.nature_set

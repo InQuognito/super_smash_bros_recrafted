@@ -22,7 +22,7 @@ function ssbrc:logic/fighters/armor/update
 function ssbrc:logic/fighters/attributes/defaults
 function ssbrc:logic/fighters/effects/default
 
-execute unless entity @s[tag=ivysaur.natureSet] run function ssbrc:fighters/pokemon_trainer/natures/ivysaur/set
+execute unless entity @s[tag=ivysaur.nature_set] run function ssbrc:fighters/pokemon_trainer/natures/ivysaur/set
 function ssbrc:fighters/pokemon_trainer/natures/ivysaur/apply
 
 playsound ssbrc:items.poke_ball.open player @a

@@ -1,8 +1,6 @@
 execute store result score random.output temp run random value 1..2
 
-attribute @s minecraft:generic.knockback_resistance base set 0.95
-execute if score random.output temp matches 1 run damage @s 0.5 ssbrc:generic by @a[tag=self,limit=1]
-execute if score random.output temp matches 2 run damage @s 0.75 ssbrc:generic by @a[tag=self,limit=1]
-function ssbrc:logic/fighters/attributes/defaults/knockback_resistance
+execute if score random.output temp matches 1 run function ssbrc:logic/fighters/damage {amount:"0.5",type:"generic",kb_resist:"0.95"}
+execute if score random.output temp matches 2 run function ssbrc:logic/fighters/damage {amount:"0.75",type:"generic",kb_resist:"0.95"}
 
 function ssbrc:logic/fighters/projectiles/hit

@@ -1,13 +1,3 @@
-item modify entity @s armor.head ssbrc:fighters/armor/remove_armor_value
-item modify entity @s armor.chest ssbrc:fighters/armor/remove_armor_value
-item modify entity @s armor.legs ssbrc:fighters/armor/remove_armor_value
-item modify entity @s armor.feet ssbrc:fighters/armor/remove_armor_value
+function ssbrc:logic/fighters/armor/update/head
 
-item modify entity @s armor.head ssbrc:fighters/armor/aesthetic/head
-item modify entity @s armor.chest ssbrc:fighters/armor/aesthetic/body
-item modify entity @s armor.legs ssbrc:fighters/armor/aesthetic/body
-
-item modify entity @s armor.chest ssbrc:fighters/armor/tooltips/passive_abilities
-item modify entity @s armor.legs ssbrc:fighters/armor/tooltips/utility_abilities
-
-function ssbrc:logic/fighters/armor/enchant
+function ssbrc:logic/fighters/armor/update/armor

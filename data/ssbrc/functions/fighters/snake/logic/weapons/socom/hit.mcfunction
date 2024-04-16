@@ -1,5 +1,3 @@
-attribute @s minecraft:generic.knockback_resistance base set 0.8
-damage @s 3.0 ssbrc:generic by @a[tag=self,limit=1]
-function ssbrc:logic/fighters/attributes/defaults/knockback_resistance
+function ssbrc:logic/fighters/damage {amount:"3.0",type:"generic",kb_resist:"0.8"}
 
 function ssbrc:logic/fighters/projectiles/hit

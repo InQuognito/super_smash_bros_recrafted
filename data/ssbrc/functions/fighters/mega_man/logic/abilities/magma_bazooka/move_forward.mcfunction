@@ -6,7 +6,7 @@ execute if entity @s[scores={charge.1=3}] run particle minecraft:dust_color_tran
 execute if entity @s[scores={charge.1=4}] run particle minecraft:dust_color_transition{from_color:[0.0,0.8,1.0],to_color:[0.0,0.5,1.0],scale:1.5} ~ ~ ~ 0.05 0.05 0.05 0.0 15 force @a
 execute if entity @s[scores={charge.1=4}] run particle minecraft:soul_fire_flame ~ ~ ~ 0.0 0.0 0.0 0.1 1 force @a
 
-scoreboard players operation checkDamage temp = @s charge.1
+scoreboard players operation check_damage temp = @s charge.1
 
 execute unless block ~ ~ ~ #ssbrc:passthrough run kill @s
 

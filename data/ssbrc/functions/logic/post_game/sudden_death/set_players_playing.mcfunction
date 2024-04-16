@@ -17,4 +17,4 @@ attribute @s minecraft:generic.max_health base set 20.0
 damage @s 0.1
 effect give @s minecraft:instant_health 1 50 true
 
-tag @s add teleportMe
+tag @s add teleport_me

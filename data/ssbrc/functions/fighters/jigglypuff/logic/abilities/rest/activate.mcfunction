@@ -8,6 +8,6 @@ function ssbrc:logic/fighters/effects/mobility/immobilize/default
 effect give @s minecraft:blindness infinite 255 true
 effect give @s minecraft:regeneration infinite 2 true
 
-function ssbrc:logic/fighters/armor/update
+function ssbrc:logic/fighters/armor/update/head
 
 playsound ssbrc:fighters.jigglypuff.rest.activate player @a

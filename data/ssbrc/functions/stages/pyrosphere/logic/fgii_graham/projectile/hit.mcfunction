@@ -1,5 +1,3 @@
-attribute @s minecraft:generic.knockback_resistance base set 0.8
-damage @s 1.0 ssbrc:generic
-function ssbrc:logic/fighters/attributes/defaults/knockback_resistance
+function ssbrc:logic/fighters/damage {amount:"1.0",type:"generic",kb_resist:"0.8"}
 
 scoreboard players set entity_hit temp 1

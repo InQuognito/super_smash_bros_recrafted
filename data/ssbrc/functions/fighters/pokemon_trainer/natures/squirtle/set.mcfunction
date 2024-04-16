@@ -9,4 +9,4 @@ execute if score random.output temp matches 5 run tag @s add squirtle.lonely
 execute if score random.output temp matches 6 run tag @s add squirtle.quiet
 execute if score random.output temp matches 7 run tag @s add squirtle.timid
 
-tag @s add squirtle.natureSet
+tag @s add squirtle.nature_set
