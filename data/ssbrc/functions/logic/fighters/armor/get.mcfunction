@@ -1,8 +1,8 @@
-item replace entity @s armor.head with minecraft:barrier[minecraft:item_name='""',minecraft:unbreakable={}]
-item replace entity @s armor.chest with minecraft:iron_chestplate[minecraft:item_name='""',minecraft:unbreakable={}]
-item replace entity @s[tag=pit,tag=!wings_burned] armor.chest with minecraft:elytra[minecraft:item_name='""',minecraft:damage=429]
-item replace entity @s armor.legs with minecraft:iron_leggings[minecraft:item_name='""',minecraft:unbreakable={}]
-item replace entity @s armor.feet with minecraft:iron_boots[minecraft:item_name='""',minecraft:unbreakable={}]
+item replace entity @s armor.head with minecraft:barrier[minecraft:hide_tooltip={}]
+item replace entity @s armor.chest with minecraft:iron_chestplate[minecraft:item_name='{"translate":"ssbrc.tooltips.ability.passives","color":"blue","bold":true}',minecraft:unbreakable={show_in_tooltip:false}]
+item replace entity @s[tag=pit,tag=!wings_burned] armor.chest with minecraft:elytra[minecraft:item_name='{"translate":"ssbrc.tooltips.ability.passives","color":"blue","bold":true}',minecraft:damage=429]
+item replace entity @s armor.legs with minecraft:iron_leggings[minecraft:item_name='{"translate":"ssbrc.tooltips.ability.utilities","color":"green","bold":true}',minecraft:unbreakable={show_in_tooltip:false}]
+item replace entity @s armor.feet with minecraft:iron_boots[minecraft:hide_tooltip={},minecraft:unbreakable={}]
 
 item modify entity @s[predicate=ssbrc:fighters/enchantments/blast_protection_infinity,nbt={Inventory:[{components:{"minecraft:custom_data":{ring_of_blasting:1}}}]}] armor.chest ssbrc:fighters/enchantments/blast_protection_infinity
 item modify entity @s[predicate=ssbrc:fighters/enchantments/protection] armor.chest ssbrc:fighters/enchantments/protection

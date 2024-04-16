@@ -1,15 +1,5 @@
 [
 	{
-		"function": "minecraft:set_name",
-		"entity": "this",
-		"name": {
-			"translate": "ssbrc.tooltips.ability.passives",
-			"color": "blue",
-			"bold": true,
-			"italic": false
-		}
-	},
-	{
 		"function": "minecraft:reference",
 		"name": "ssbrc:fighters/init/tooltip/separator"
 	},
