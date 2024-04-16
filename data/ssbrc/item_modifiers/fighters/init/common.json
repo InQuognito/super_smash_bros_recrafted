@@ -7,8 +7,13 @@
 				"saturation": 0,
 				"can_always_eat": true,
 				"eat_seconds": 1000000
-			},
-			"minecraft:hide_additional_tooltip": {}
+			}
+		}
+	},
+	{
+		"function": "minecraft:toggle_tooltips",
+		"toggles": {
+			"minecraft:attribute_modifiers": false
 		}
 	}
 ]
