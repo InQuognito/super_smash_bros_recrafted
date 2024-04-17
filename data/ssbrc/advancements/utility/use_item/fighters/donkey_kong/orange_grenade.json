@@ -1,0 +1,46 @@
+{
+	"parent": "ssbrc:utility/root",
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:using_item",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:value_check",
+						"value": {
+							"type": "minecraft:score",
+							"target": {
+								"type": "minecraft:fixed",
+								"name": "game_stage"
+							},
+							"score": "temp"
+						},
+						"range": {
+							"min": 4
+						}
+					},
+					{
+						"condition": "minecraft:entity_scores",
+						"entity": "this",
+						"scores": {
+							"charge.1": {
+								"min": 1
+							},
+							"cooldown.2": {
+								"max": 0
+							}
+						}
+					}
+				],
+				"item": {
+					"predicates": {
+						"minecraft:custom_data": "{orange_grenade:1}"
+					}
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "ssbrc:fighters/donkey_kong/logic/abilities/orange_grenade/activate"
+	}
+}

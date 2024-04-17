@@ -1,0 +1,68 @@
+{
+	"parent": "ssbrc:utility/use_item/fighters/shovel_knight/insufficient_mana",
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:using_item",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:value_check",
+						"value": {
+							"type": "minecraft:score",
+							"target": {
+								"type": "minecraft:fixed",
+								"name": "game_stage"
+							},
+							"score": "temp"
+						},
+						"range": {
+							"min": 4
+						}
+					},
+					{
+						"condition": "minecraft:entity_scores",
+						"entity": "this",
+						"scores": {
+							"cooldown.2": {
+								"max": 0
+							},
+							"cooldown.3": {
+								"max": 0
+							},
+							"duration.2": {
+								"max": 0
+							}
+						}
+					},
+					{
+						"condition": "minecraft:inverted",
+						"term": {
+							"condition": "minecraft:entity_scores",
+							"entity": "this",
+							"scores": {
+								"mana": {
+									"min": {
+										"type": "minecraft:score",
+										"target": {
+											"type": "minecraft:fixed",
+											"name": "shovel_knight.phase_locket.cost"
+										},
+										"score": "vars"
+									}
+								}
+							}
+						}
+					}
+				],
+				"item": {
+					"predicates": {
+						"minecraft:custom_data": "{phase_locket:1}"
+					}
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "ssbrc:fighters/shovel_knight/logic/mana/insufficient"
+	}
+}

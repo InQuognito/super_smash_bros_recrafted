@@ -4,3 +4,5 @@ scoreboard players set @s charge.1 0
 clear @s minecraft:nether_star[minecraft:custom_data={phazon_overload:1}]
 
 playsound ssbrc:fighters.dark_samus.phazon_overload.activate player @a
+
+advancement revoke @s only ssbrc:utility/use_item/fighters/dark_samus/phazon_overload

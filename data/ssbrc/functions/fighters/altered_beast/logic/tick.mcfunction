@@ -1,5 +1,3 @@
-execute if entity @s[scores={use_ability=1..}] anchored eyes positioned ^ ^ ^ run function ssbrc:fighters/altered_beast/logic/abilities/impulse
-
 # Spirit Gauge
 execute if score @s[predicate=!ssbrc:fighters/altered_beast/is_beast] charge.1 < altered_beast.spirit.max vars run scoreboard players operation @s charge.1 += altered_beast.spirit.recharge_rate vars
 execute if entity @s[predicate=ssbrc:fighters/altered_beast/is_beast] run function ssbrc:fighters/altered_beast/logic/spirit_gauge/tick

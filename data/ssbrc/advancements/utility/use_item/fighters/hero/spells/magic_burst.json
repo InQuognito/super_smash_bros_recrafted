@@ -1,0 +1,52 @@
+{
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:using_item",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:value_check",
+						"value": {
+							"type": "minecraft:score",
+							"target": {
+								"type": "minecraft:fixed",
+								"name": "game_stage"
+							},
+							"score": "temp"
+						},
+						"range": {
+							"min": 4
+						}
+					},
+					{
+						"condition": "minecraft:entity_scores",
+						"entity": "this",
+						"scores": {
+							"duration.2": {
+								"max": 0
+							},
+							"mana": {
+								"min": {
+									"type": "minecraft:score",
+									"target": {
+										"type": "minecraft:fixed",
+										"name": "hero.mana.max"
+									},
+									"score": "vars"
+								}
+							}
+						}
+					}
+				],
+				"item": {
+					"predicates": {
+						"minecraft:custom_data": "{magic_burst:1}"
+					}
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "ssbrc:fighters/hero/logic/abilities/magic_burst/activate"
+	}
+}

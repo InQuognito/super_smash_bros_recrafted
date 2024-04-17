@@ -11,3 +11,5 @@ effect give @s minecraft:levitation infinite 0 true
 function ssbrc:logic/fighters/flags/use_recovery
 
 playsound ssbrc:fighters.mega_man.pile_driver.activate player @a
+
+advancement revoke @s only ssbrc:utility/use_item/fighters/mega_man/pile_driver

@@ -2,7 +2,6 @@ scoreboard players set #arrowMax temp 10
 
 scoreboard players set -45 integers -45
 scoreboard players set -1 integers -1
-scoreboard players set 0 integers 0
 scoreboard players set 1 integers 1
 scoreboard players set 2 integers 2
 scoreboard players set 3 integers 3

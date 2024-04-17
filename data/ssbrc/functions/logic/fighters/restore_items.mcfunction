@@ -1,4 +1,3 @@
-scoreboard players reset @s use_ability
 function ssbrc:logic/resets/charge
 
 scoreboard players reset @s fall_distance

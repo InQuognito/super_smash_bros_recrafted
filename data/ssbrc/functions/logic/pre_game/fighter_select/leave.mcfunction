@@ -2,7 +2,6 @@ tag @s remove room.fighter_select
 
 clear @s
 
-scoreboard players reset @s use_ability
 function ssbrc:logic/resets/charge
 function ssbrc:logic/resets/triggers
 

@@ -1,0 +1,78 @@
+{
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:using_item",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:value_check",
+						"value": {
+							"type": "minecraft:score",
+							"target": {
+								"type": "minecraft:fixed",
+								"name": "game_stage"
+							},
+							"score": "temp"
+						},
+						"range": {
+							"min": 4
+						}
+					},
+					{
+						"condition": "minecraft:entity_scores",
+						"entity": "this",
+						"scores": {
+							"cooldown.1": {
+								"max": 0
+							},
+							"mana": {
+								"min": {
+									"type": "minecraft:score",
+									"target": {
+										"type": "minecraft:fixed",
+										"name": "sora.firaga.cost"
+									},
+									"score": "vars"
+								}
+							}
+						}
+					},
+					{
+						"condition": "minecraft:inverted",
+						"term": {
+							"condition": "minecraft:all_of",
+							"terms": [
+								{
+									"condition": "minecraft:reference",
+									"name": "ssbrc:fighters/sora/no_spells"
+								},
+								{
+									"condition": "minecraft:reference",
+									"name": "ssbrc:flag/sneaking"
+								}
+							]
+						}
+					},
+					{
+						"condition": "minecraft:inverted",
+						"term": {
+							"condition": "minecraft:entity_properties",
+							"entity": "this",
+							"predicate": {
+								"nbt": "{Tags:[\"wisdom\"]}"
+							}
+						}
+					}
+				],
+				"item": {
+					"predicates": {
+						"minecraft:custom_data": "{fire:1}"
+					}
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "ssbrc:fighters/sora/logic/abilities/firaga/activate"
+	}
+}

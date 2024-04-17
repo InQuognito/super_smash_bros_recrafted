@@ -97,12 +97,12 @@ execute if entity @s[tag=wave_beam] run function ssbrc:fighters/samus/logic/weap
 execute if entity @s[tag=plasma_beam] run function ssbrc:fighters/samus/logic/weapons/plasma_beam/tick
 
 # Snake
-execute if entity @s[tag=psg1] run function ssbrc:fighters/snake/logic/weapons/psg1/tick
-execute if entity @s[tag=famas] run function ssbrc:fighters/snake/logic/weapons/famas/tick
-execute if entity @s[tag=s1000] run function ssbrc:fighters/snake/logic/weapons/s1000/tick
-execute if entity @s[tag=socom] run function ssbrc:fighters/snake/logic/weapons/socom/tick
-execute if entity @s[tag=anti_personnel_mine] unless block ~ ~-0.1 ~ #ssbrc:passthrough run function ssbrc:fighters/snake/logic/weapons/anti_personnel_mine/tick
-execute if entity @s[tag=smoke_grenade] unless block ~ ~-0.1 ~ #ssbrc:passthrough run function ssbrc:fighters/snake/logic/weapons/smoke_grenade/tick
+execute if entity @s[tag=psg1] run function ssbrc:fighters/snake/logic/abilities/psg1/tick
+execute if entity @s[tag=famas] run function ssbrc:fighters/snake/logic/abilities/famas/tick
+execute if entity @s[tag=s1000] run function ssbrc:fighters/snake/logic/abilities/s1000/tick
+execute if entity @s[tag=socom] run function ssbrc:fighters/snake/logic/abilities/socom/tick
+execute if entity @s[tag=anti_personnel_mine] unless block ~ ~-0.1 ~ #ssbrc:passthrough run function ssbrc:fighters/snake/logic/abilities/anti_personnel_mine/tick
+execute if entity @s[tag=smoke_grenade] unless block ~ ~-0.1 ~ #ssbrc:passthrough run function ssbrc:fighters/snake/logic/abilities/smoke_grenade/tick
 
 # Sora
 execute if entity @s[tag=firaga] run function ssbrc:fighters/sora/logic/abilities/firaga/tick
@@ -147,8 +147,8 @@ execute if entity @s[tag=pk_freeze] run function ssbrc:fighters/giegue/logic/abi
 execute if entity @s[tag=pk_beam] run function ssbrc:fighters/giegue/logic/abilities/pk_beam/tick
 
 # Shadow
-execute if entity @s[tag=chaos_spear] run function ssbrc:fighters/shadow/logic/chaos_spear/tick
-execute if entity @s[tag=chaos_blast] run function ssbrc:fighters/shadow/logic/chaos_blast/shockwave/tick
+execute if entity @s[tag=chaos_spear] run function ssbrc:fighters/shadow/logic/abilities/chaos_spear/tick
+execute if entity @s[tag=chaos_blast] run function ssbrc:fighters/shadow/logic/abilities/chaos_blast/shockwave/tick
 
 # Shovel Knight
 execute if entity @s[tag=chaos_sphere] run function ssbrc:fighters/shovel_knight/logic/abilities/chaos_sphere/tick

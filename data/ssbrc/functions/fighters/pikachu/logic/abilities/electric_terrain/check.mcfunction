@@ -1,5 +1,5 @@
-execute as @e[type=minecraft:marker,tag=electric_terrain] if score @s id = @a[tag=self,limit=1] id run tag @s add check_against
+execute store result score electric_terrain temp if entity @e[type=minecraft:marker,tag=electric_terrain,predicate=ssbrc:id_match]
 
-execute unless entity @e[type=minecraft:marker,tag=check_against] run function ssbrc:fighters/pikachu/logic/abilities/electric_terrain/activate
+execute unless score electric_terrain temp matches 1.. run function ssbrc:fighters/pikachu/logic/abilities/electric_terrain/activate
 
-tag @e[type=minecraft:marker,tag=electric_terrain,tag=check_against] remove check_against
+advancement revoke @s only ssbrc:utility/use_item/fighters/pikachu/electric_terrain

@@ -6,3 +6,5 @@ execute if entity @s[scores={shadow.chaos_control=1..}] run function ssbrc:logic
 scoreboard players operation @s mana -= hero.bang.cost vars
 
 playsound ssbrc:fighters.hero.bang.activate player @a
+
+advancement revoke @s only ssbrc:utility/use_item/fighters/hero/spells/bang/activate

@@ -70,7 +70,7 @@
 						},
 						{
 							"function": "minecraft:set_custom_data",
-							"tag": "{default:1}"
+							"tag": "{ray_blaster:1}"
 						}
 					]
 				}

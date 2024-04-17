@@ -10,3 +10,5 @@ scoreboard players operation @s mana -= shovel_knight.phase_locket.cost vars
 function ssbrc:fighters/shovel_knight/logic/check_relics
 
 playsound ssbrc:fighters.shovel_knight.phase_locket.activate player @a
+
+advancement revoke @s only ssbrc:utility/use_item/fighters/shovel_knight/phase_locket/activate

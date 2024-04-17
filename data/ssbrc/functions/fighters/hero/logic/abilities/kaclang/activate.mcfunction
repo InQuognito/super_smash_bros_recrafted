@@ -14,3 +14,5 @@ scoreboard players operation @s mana -= hero.kaclang.cost vars
 
 playsound ssbrc:fighters.hero.kaclang.activate player @a
 playsound ssbrc:items.metal_box.activate player @a
+
+advancement revoke @s only ssbrc:utility/use_item/fighters/hero/spells/kaclang/activate

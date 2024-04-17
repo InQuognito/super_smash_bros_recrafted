@@ -9,7 +9,7 @@
 					"type": "minecraft:score",
 					"target": {
 						"type": "minecraft:fixed",
-						"name": "#great_fairy_blessingCost"
+						"name": "great_fairy_blessing.cost"
 					},
 					"score": "temp"
 				},
@@ -27,7 +27,7 @@
 					"type": "minecraft:score",
 					"target": {
 						"type": "minecraft:fixed",
-						"name": "#great_fairy_blessingCost"
+						"name": "great_fairy_blessing.cost"
 					},
 					"score": "temp"
 				},
@@ -45,7 +45,7 @@
 					"type": "minecraft:score",
 					"target": {
 						"type": "minecraft:fixed",
-						"name": "#great_fairy_blessingCost"
+						"name": "great_fairy_blessing.cost"
 					},
 					"score": "temp"
 				},
@@ -63,7 +63,7 @@
 					"type": "minecraft:score",
 					"target": {
 						"type": "minecraft:fixed",
-						"name": "#great_fairy_blessingCost"
+						"name": "great_fairy_blessing.cost"
 					},
 					"score": "temp"
 				},
@@ -81,7 +81,7 @@
 					"type": "minecraft:score",
 					"target": {
 						"type": "minecraft:fixed",
-						"name": "#great_fairy_blessingCost"
+						"name": "great_fairy_blessing.cost"
 					},
 					"score": "temp"
 				},

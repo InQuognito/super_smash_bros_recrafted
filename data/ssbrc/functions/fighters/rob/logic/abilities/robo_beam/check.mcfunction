@@ -7,3 +7,5 @@ execute unless score robo_beam temp matches 100.. run playsound ssbrc:fighters.r
 execute if score robo_beam temp matches 100.. anchored eyes run function ssbrc:fighters/rob/logic/abilities/robo_beam/activate
 
 scoreboard players set @s cooldown.1 20
+
+advancement revoke @s only ssbrc:utility/use_item/fighters/rob/robo_beam

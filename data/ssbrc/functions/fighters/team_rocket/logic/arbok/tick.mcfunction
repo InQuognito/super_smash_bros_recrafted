@@ -1,5 +1,3 @@
-execute if entity @s[scores={use_ability=1..,cooldown.1=..0},nbt={SelectedItem:{tag:{acid:1}}}] anchored eyes positioned ^ ^ ^ run function ssbrc:fighters/team_rocket/logic/arbok/acid/activate
-
 # Acid
 function ssbrc:logic/fighters/cooldown {item:"acid",type:"1",amount:"team_rocket.acid.cooldown"}
 

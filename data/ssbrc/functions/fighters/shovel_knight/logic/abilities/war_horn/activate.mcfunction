@@ -1,7 +1,7 @@
 scoreboard players operation id_to_match temp = @s id
 execute positioned ~ ~0.75 ~ summon minecraft:marker run function ssbrc:fighters/shovel_knight/logic/abilities/war_horn/init
 
-tag @s add war_hornActive
+tag @s add war_horn.active
 
 function ssbrc:logic/fighters/effects/mobility/immobilize/default
 
@@ -13,4 +13,4 @@ execute if entity @s[scores={shadow.chaos_control=1..}] run function ssbrc:logic
 
 playsound ssbrc:fighters.shovel_knight.war_horn.activate player @a
 
-advancement revoke @s only ssbrc:utility/flag/using_item/war_horn
+advancement revoke @s only ssbrc:utility/use_item/fighters/shovel_knight/war_horn/activate

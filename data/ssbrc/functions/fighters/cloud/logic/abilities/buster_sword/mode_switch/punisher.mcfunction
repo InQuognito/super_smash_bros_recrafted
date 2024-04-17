@@ -12,3 +12,5 @@ scoreboard players set @s cooldown.1 20
 scoreboard players set mode_switched temp 1
 
 playsound ssbrc:fighters.cloud.mode_switch.punisher player @a
+
+advancement revoke @s only ssbrc:utility/use_item/fighters/cloud/mode_switch/punisher

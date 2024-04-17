@@ -11,7 +11,7 @@ execute if score @s point < mario.fireball.rotation vars run scoreboard players 
 execute if score @s point > mario.fireball.rotation vars run scoreboard players operation @s point = mario.fireball.rotation vars
 execute if score @s point < mario.fireball.rotation vars run scoreboard players remove @s slope 20
 
-execute if score @s point > 0 integers unless block ~ ~-0.6 ~ #ssbrc:passthrough run function ssbrc:fighters/mario/logic/abilities/fireball/bounce
+execute if entity @s[scores={point=1..}] unless block ~ ~-0.6 ~ #ssbrc:passthrough run function ssbrc:fighters/mario/logic/abilities/fireball/bounce
 
 execute rotated as @s run teleport @s ^ ^ ^0.4
 

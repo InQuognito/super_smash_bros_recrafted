@@ -1,4 +1,4 @@
-execute positioned ^ ^ ^1 summon minecraft:marker run function ssbrc:fighters/zelda/logic/abilities/ice_rod/init
+execute anchored eyes positioned ^ ^ ^1 summon minecraft:marker run function ssbrc:fighters/zelda/logic/abilities/ice_rod/init
 
 scoreboard players operation @s mana -= zelda.ice_rod.cost temp
 

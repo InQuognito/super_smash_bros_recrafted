@@ -4,3 +4,5 @@ execute as @e[tag=!self,predicate=ssbrc:flag/targets,distance=..0.5] run damage 
 
 scoreboard players operation @s cooldown.2 = team_rocket.splash.cooldown vars
 execute if entity @s[scores={shadow.chaos_control=1..}] run function ssbrc:logic/fighters/cooldown_modifiers/chaos_control {type:"2"}
+
+advancement revoke @s only ssbrc:utility/use_item/fighters/team_rocket/wobbuffet/splash

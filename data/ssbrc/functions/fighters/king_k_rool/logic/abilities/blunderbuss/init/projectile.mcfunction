@@ -1,3 +1,5 @@
+function ssbrc:fighters/king_k_rool/logic/abilities/blunderbuss/particles/1
+
 tag @s add blunderbuss
 
 execute if entity @p[tag=self,tag=!gold] run tag @s add default

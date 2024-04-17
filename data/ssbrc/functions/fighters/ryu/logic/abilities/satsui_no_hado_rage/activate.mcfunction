@@ -15,3 +15,5 @@ function ssbrc:fighters/ryu/logic/abilities/satsui_no_hado_rage/update
 tag @s add ability_used
 
 playsound ssbrc:fighters.ryu.satsui_no_hado_rage.activate player @a
+
+advancement revoke @s only ssbrc:utility/use_item/fighters/ryu/satsui_no_hado_rage

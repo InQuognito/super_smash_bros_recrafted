@@ -5,7 +5,6 @@ execute if entity @s[scores={shadow.chaos_control=1..}] run function ssbrc:logic
 
 scoreboard players remove @s mega_man.drill_bomb 1
 
-item replace entity @s weapon.mainhand with minecraft:air
-loot replace entity @s weapon.mainhand loot ssbrc:fighters/mega_man/drill_bomb
-
 playsound ssbrc:fighters.mega_man.drill_bomb.activate player @a
+
+advancement revoke @s only ssbrc:utility/use_item/fighters/mega_man/drill_bomb

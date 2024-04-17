@@ -11,3 +11,5 @@ effect give @s minecraft:regeneration infinite 2 true
 function ssbrc:logic/fighters/armor/update/head
 
 playsound ssbrc:fighters.jigglypuff.rest.activate player @a
+
+advancement revoke @s only ssbrc:utility/use_item/fighters/jigglypuff/rest

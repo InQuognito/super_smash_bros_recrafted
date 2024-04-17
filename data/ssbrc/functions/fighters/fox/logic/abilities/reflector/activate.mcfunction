@@ -1,4 +1,4 @@
-particle minecraft:sonic_boom ^ ^ ^2 0.0 0.0 0.0 0.0 1 force @a
+execute anchored eyes run particle minecraft:sonic_boom ^ ^ ^2 0.0 0.0 0.0 0.0 1 force @a
 
 scoreboard players set @s duration.2 20
 
@@ -8,3 +8,5 @@ execute if entity @s[scores={shadow.chaos_control=1..}] run function ssbrc:logic
 function ssbrc:logic/fighters/effects/mobility/immobilize/air_stall
 
 playsound ssbrc:fighters.fox.reflector.activate player @a
+
+advancement revoke @s only ssbrc:utility/use_item/fighters/fox/reflector

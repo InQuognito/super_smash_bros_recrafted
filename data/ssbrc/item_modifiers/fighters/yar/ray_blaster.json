@@ -5,6 +5,6 @@
 	},
 	{
 		"function": "minecraft:set_custom_data",
-		"tag": "{ray_blaster:1,power_up:0}"
+		"tag": "{power_up:0}"
 	}
 ]

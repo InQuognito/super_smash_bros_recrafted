@@ -26,7 +26,6 @@
 							}
 						}
 					},
-					"blocked": false,
 					"type": {
 						"is_explosion": false,
 						"is_fire": false,

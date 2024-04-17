@@ -15,7 +15,6 @@ execute if entity @e[type=minecraft:marker,tag=electric_terrain,distance=..12] r
 
 function ssbrc:logic/fighters/get {function:"ssbrc:logic/fighters/tick"}
 
-execute if entity @s[scores={use_ability=1..}] run function ssbrc:logic/inputs/abilities/impulse/default
 execute if entity @s[scores={charge.step=5..}] run function ssbrc:logic/inputs/abilities/charge/default
 
 execute if entity @s[scores={flag.damage_dealt=1..}] run function ssbrc:logic/fighters/damage_dealt
@@ -56,7 +55,7 @@ scoreboard players remove @s[scores={flinch=1..}] flinch 1
 execute if entity @s[scores={flinch=1}] run function ssbrc:logic/fighters/effects/mobility/mobilize
 
 scoreboard players remove @s[scores={shadow.chaos_control=1..}] shadow.chaos_control 1
-execute if entity @s[scores={shadow.chaos_control=..0}] run function ssbrc:fighters/shadow/logic/chaos_control/off
+execute if entity @s[scores={shadow.chaos_control=..0}] run function ssbrc:fighters/shadow/logic/abilities/chaos_control/deactivate
 
 # Map Effects
 execute unless block ~ ~ ~ minecraft:lava run scoreboard players remove @s[scores={flag.in_lava=1..}] flag.in_lava 1

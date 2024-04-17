@@ -8,3 +8,5 @@ function ssbrc:fighters/cloud/logic/limit/update
 function ssbrc:logic/fighters/effects/mobility/immobilize/default
 
 playsound ssbrc:fighters.cloud.cross_slash.activate player @a
+
+advancement revoke @s only ssbrc:utility/use_item/fighters/cloud/cross_slash

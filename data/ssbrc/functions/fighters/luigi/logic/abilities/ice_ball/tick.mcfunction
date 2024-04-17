@@ -10,7 +10,7 @@ execute if score @s point < luigi.ice_ball.rotation vars run scoreboard players 
 execute if score @s point > luigi.ice_ball.rotation vars run scoreboard players operation @s point = luigi.ice_ball.rotation vars
 execute if score @s point < luigi.ice_ball.rotation vars run scoreboard players remove @s slope 5
 
-execute if score @s point > 0 integers unless block ~ ~-0.3 ~ #ssbrc:passthrough run function ssbrc:fighters/luigi/logic/abilities/ice_ball/bounce
+execute if entity @s[scores={point=1..}] unless block ~ ~-0.3 ~ #ssbrc:passthrough run function ssbrc:fighters/luigi/logic/abilities/ice_ball/bounce
 
 execute rotated as @s run teleport @s ^ ^ ^0.3
 
