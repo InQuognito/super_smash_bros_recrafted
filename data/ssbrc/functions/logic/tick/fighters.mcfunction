@@ -6,10 +6,9 @@ scoreboard players remove @s[scores={cooldown.3=1..}] cooldown.3 1
 
 scoreboard players remove @s[scores={weapon_1.fire_rate=1..}] weapon_1.fire_rate 1
 
-scoreboard players add @s[scores={charge.input=1..}] charge.step 1
-scoreboard players add @s[scores={charge.input=1..}] charge.output 1
-scoreboard players reset @s[scores={charge.input=2..}] charge.step
-scoreboard players remove @s[scores={charge.input=2..}] charge.input 1
+scoreboard players set @s[scores={charge.step=1..}] charge.output 0
+scoreboard players set @s[scores={charge.step=1..}] charge.step 0
+scoreboard players add @s[scores={charge.output=1..}] charge.step 1
 
 execute if entity @e[type=minecraft:marker,tag=electric_terrain,distance=..12] run scoreboard players set electric_terrain temp 1
 
