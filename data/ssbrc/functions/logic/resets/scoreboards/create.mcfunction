@@ -135,7 +135,6 @@ scoreboard objectives add timer.stat.kill dummy
 scoreboard objectives add timer.trident dummy
 scoreboard objectives add temp dummy
 scoreboard objectives add tower_of_fate.barrier dummy
-scoreboard objectives add use_item minecraft.used:minecraft.warped_fungus_on_a_stick
 scoreboard objectives add vars dummy
 scoreboard objectives add walk_distance minecraft.custom:minecraft.walk_one_cm
 scoreboard objectives add yar.drone.health dummy

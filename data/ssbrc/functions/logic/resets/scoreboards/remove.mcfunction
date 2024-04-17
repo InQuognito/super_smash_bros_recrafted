@@ -108,7 +108,6 @@ scoreboard objectives remove timer.stat.kill
 scoreboard objectives remove timer.trident
 scoreboard objectives remove temp
 scoreboard objectives remove tower_of_fate.barrier
-scoreboard objectives remove use_item
 scoreboard objectives remove vars
 scoreboard objectives remove walk_distance
 scoreboard objectives remove weapon_1.ammo
