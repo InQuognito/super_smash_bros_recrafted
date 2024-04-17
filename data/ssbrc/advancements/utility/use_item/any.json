@@ -5,6 +5,6 @@
 		}
 	},
 	"rewards": {
-		"function": "ssbrc:logic/fighters/charge"
+		"function": "ssbrc:logic/fighters/charge/tick"
 	}
 }
