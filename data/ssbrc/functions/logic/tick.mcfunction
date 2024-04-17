@@ -1,12 +1,10 @@
-execute as @a[gamemode=adventure] run function ssbrc:logic/tick/players
-
 function ssbrc:logic/tick/lobby/credits
 
 # Chest UIs
 function ssbrc:shop/tick
 function ssbrc:logic/pre_game/stage_select/stage_index/tick
 
-# Tick During Certain Game Stages
+# Tick during certain game stages
 execute unless score game_stage temp matches 2.. as @a run function ssbrc:logic/tick/triggers/lobby
 execute if score game_stage temp matches 3 run function ssbrc:logic/tick/countdown
 execute if score game_stage temp matches 4 run function ssbrc:logic/tick/ingame
@@ -15,6 +13,8 @@ execute if score game_stage temp matches 5 run function ssbrc:logic/tick/post_ga
 execute if score stage_select timer matches 1.. run scoreboard players add stage_select timer 1
 execute if score stage_select timer matches 7 run function ssbrc:logic/pre_game/stage_select/prepare
 execute if score stage_select timer matches 7.. run scoreboard players reset stage_select timer
+
+execute as @a[gamemode=adventure] run function ssbrc:logic/tick/players
 
 # Reset Players
 execute as @a unless score @s world_time = current world_time run function ssbrc:logic/join

@@ -38,4 +38,4 @@ execute unless entity @a[gamemode=!spectator,x=-555.0,y=-5.0,z=-1950.0,dx=17,dy=
 execute if entity @a[gamemode=!spectator,x=-555.0,y=-5.0,z=-1950.0,dx=17,dy=4,dz=10] positioned -556.5 -3.5 -1946.5 if block ~ ~ ~ minecraft:light[level=0] run fill ~ ~ ~ ~ ~ ~4 minecraft:light[level=15]
 
 # Text Displays
-execute as @e[type=minecraft:text_display,tag=creditsText] at @s run function ssbrc:logic/tick/lobby/credits/text_displays
+execute as @e[type=minecraft:text_display,tag=credits_text] at @s run function ssbrc:logic/tick/lobby/credits/text_displays
