@@ -1,5 +1,3 @@
-execute if entity @s[scores={charge.step=5..,cooldown.1=..0},nbt={SelectedItem:{tag:{collarbone_breaker:1}}}] run function ssbrc:fighters/ryu/logic/abilities/hadouken/check
-
 # Tatsumaki Senpukyaku
 scoreboard players add @s[predicate=ssbrc:flag/sneaking] charge.2 1
 

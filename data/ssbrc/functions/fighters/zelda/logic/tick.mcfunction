@@ -1,5 +1,3 @@
-execute if entity @s[scores={charge.step=5..,cooldown.1=..0},nbt={SelectedItem:{components:{"minecraft:custom_data":{bow:1}}}}] run function ssbrc:fighters/zelda/logic/abilities/bow/check
-
 # Mana
 function ssbrc:fighters/zelda/logic/mana/update
 
@@ -7,8 +5,6 @@ function ssbrc:fighters/zelda/logic/mana/update
 execute if entity @s[tag=active_fuse] run function ssbrc:fighters/zelda/logic/abilities/bomb/fuse_tick
 
 # Bow
-execute if entity @s[scores={charge.output=1..},nbt={SelectedItem:{components:{"minecraft:custom_data":{bow:1}}}}] run function ssbrc:fighters/zelda/logic/abilities/bow/charge_check
-
 execute if entity @s[nbt=!{SelectedItem:{components:{"minecraft:custom_data":{bow:1}}}},nbt={Inventory:[{components:{"minecraft:custom_data":{bow:1,pulling:1}}}]}] run function ssbrc:fighters/zelda/logic/abilities/bow/reset
 
 # Passive Items

@@ -1,8 +1,4 @@
-execute if entity @s[scores={charge.step=5..,cooldown.1=..0},nbt={SelectedItem:{tag:{palutena_bow:1}}}] run function ssbrc:fighters/pit/logic/abilities/palutena_bow/check
-
 # Palutena Bow
-execute if entity @s[scores={charge.output=1..},nbt={SelectedItem:{tag:{palutena_bow:1}}}] run function ssbrc:fighters/pit/logic/abilities/palutena_bow/charge
-
 execute if entity @s[nbt=!{SelectedItem:{tag:{palutena_bow:1}}},nbt={Inventory:[{tag:{palutena_bow:1,pulling:1}}]}] run function ssbrc:fighters/pit/logic/abilities/palutena_bow/reset
 
 # Guardian Orbitars

@@ -16,7 +16,7 @@ function ssbrc:fighters/shovel_knight/kits/utility/reset
 tag @s remove admin
 tag @s remove alive
 tag @s remove id_set
-tag @s remove mostPoints
+tag @s remove most_points
 tag @s remove no_spin
 tag @s remove picking_random
 tag @s remove room.fighter_select

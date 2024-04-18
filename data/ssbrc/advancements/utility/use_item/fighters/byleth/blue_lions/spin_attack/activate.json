@@ -24,7 +24,7 @@
 						"entity": "this",
 						"scores": {
 							"charge.step": {
-								"min": 1
+								"min": 2
 							},
 							"charge.output": {
 								"min": 20

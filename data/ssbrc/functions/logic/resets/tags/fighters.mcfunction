@@ -47,14 +47,12 @@ tag @s remove check_death
 tag @s remove check_kill
 tag @s remove checkShockwave
 tag @s remove critical
-tag @s remove has_shield
 tag @s remove ignore_feedback
 tag @s remove immobile
 tag @s remove intangible
 tag @s remove natural_shiny
 tag @s remove next_fighter_chosen
 tag @s remove pivot
-tag @s remove shield_broken
 
 tag @s remove female
 tag @s remove male

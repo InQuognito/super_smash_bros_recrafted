@@ -13,3 +13,5 @@ execute if score percentage temp matches 80 run item modify entity @s weapon.mai
 execute if score percentage temp matches 100 run item modify entity @s weapon.mainhand ssbrc:fighters/wolf/grenade/beep
 
 execute if score percentage temp matches 100.. run function ssbrc:fighters/wolf/logic/abilities/grenade/explode_in_hand
+
+advancement revoke @s only ssbrc:utility/use_item/fighters/wolf/grenade/charge

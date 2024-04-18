@@ -3,7 +3,7 @@ tag @s add fruit
 execute if score fruit temp matches 1 run tag @s add cherry
 execute if score fruit temp matches 2 run tag @s add strawberry
 execute if score fruit temp matches 3 run tag @s add orange
-execute if score fruit temp matches 4 run tag @s add saltedPretzel
+execute if score fruit temp matches 4 run tag @s add salted_pretzel
 execute if score fruit temp matches 5 run tag @s add apple
 execute if score fruit temp matches 6 run tag @s add pear
 execute if score fruit temp matches 7 run tag @s add banana

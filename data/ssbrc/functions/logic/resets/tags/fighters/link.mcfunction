@@ -1,3 +1,3 @@
 tag @s remove link
 
-tag @s remove swordSpin
+tag @s remove sword_spin

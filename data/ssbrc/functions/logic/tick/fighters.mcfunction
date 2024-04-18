@@ -14,7 +14,7 @@ execute if entity @e[type=minecraft:marker,tag=electric_terrain,distance=..12] r
 
 function ssbrc:logic/fighters/get {function:"ssbrc:logic/fighters/tick"}
 
-execute if entity @s[scores={charge.step=5..}] run function ssbrc:logic/inputs/abilities/charge/default
+execute if entity @s[scores={charge.step=2..}] run function ssbrc:logic/inputs/abilities/charge/default
 
 execute if entity @s[scores={flag.damage_dealt=1..}] run function ssbrc:logic/fighters/damage_dealt
 execute if entity @s[scores={flag.damage_taken=1..}] run function ssbrc:logic/fighters/damage_taken

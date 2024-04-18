@@ -5,8 +5,7 @@ scoreboard players operation @s[tag=blood_metamorphosis] duration.1 *= 2 integer
 
 execute if entity @s[tag=blood_metamorphosis] summon minecraft:marker run function ssbrc:fighters/alucard/logic/abilities/mist/summon
 
-tag @s[nbt=!{Inventory:[{tag:{alucard_shield:1}}]}] add shield_broken
-function ssbrc:fighters/alucard/logic/abilities/mist/check_shield_durability
+function ssbrc:logic/fighters/shield/durability {shield:"alucard_shield"}
 
 clear @s
 

@@ -10,4 +10,4 @@ execute as @a[predicate=ssbrc:ingame] run function ssbrc:logic/post_game/sudden_
 
 function ssbrc:logic/pre_game/teleport_begin
 
-tag @a remove mostPoints
+tag @a remove most_points
