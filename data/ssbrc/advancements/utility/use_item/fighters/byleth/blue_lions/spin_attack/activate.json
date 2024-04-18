@@ -2,7 +2,7 @@
 	"parent": "ssbrc:utility/root",
 	"criteria": {
 		"requirement": {
-			"trigger": "minecraft:using_item",
+			"trigger": "minecraft:tick",
 			"conditions": {
 				"player": [
 					{
@@ -23,34 +23,36 @@
 						"condition": "minecraft:entity_scores",
 						"entity": "this",
 						"scores": {
-							"snake.smoke_grenade.ammo": {
+							"charge.step": {
 								"min": 1
 							},
-							"cooldown.3": {
-								"max": 0
+							"charge.output": {
+								"min": 20
 							}
 						}
 					},
 					{
-						"condition": "minecraft:inverted",
-						"term": {
-							"condition": "minecraft:entity_properties",
-							"entity": "this",
-							"predicate": {
-								"nbt": "{Tags:[\"reloading\"]}"
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"equipment": {
+								"mainhand": {
+									"predicates": {
+										"minecraft:custom_data": "{areadbhar:1}"
+									}
+								}
 							}
 						}
+					},
+					{
+						"condition": "minecraft:reference",
+						"name": "ssbrc:flag/sneaking"
 					}
-				],
-				"item": {
-					"predicates": {
-						"minecraft:custom_data": "{smoke_grenade:1}"
-					}
-				}
+				]
 			}
 		}
 	},
 	"rewards": {
-		"function": "ssbrc:fighters/snake/logic/abilities/smoke_grenade/activate"
+		"function": "ssbrc:fighters/byleth/logic/blue_lions/spin_attack/activate"
 	}
 }

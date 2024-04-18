@@ -1,3 +1,3 @@
-execute if entity @s[predicate=ssbrc:flag/sneaking] positioned ~ ~0.75 ~ run function ssbrc:fighters/byleth/logic/blue_lions/spin_attack/charge
+execute positioned ~ ~0.75 ~ run function ssbrc:fighters/byleth/logic/blue_lions/spin_attack/charge
 
-execute if entity @s[predicate=!ssbrc:flag/sneaking] run function ssbrc:fighters/byleth/logic/blue_lions/spin_attack/cancel
+advancement revoke @s only ssbrc:utility/use_item/fighters/byleth/blue_lions/spin_attack/charge

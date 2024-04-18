@@ -23,7 +23,13 @@
 						"condition": "minecraft:entity_scores",
 						"entity": "this",
 						"scores": {
-							"cooldown.1": {
+							"mega_man.pile_driver": {
+								"min": 1
+							},
+							"cooldown.2": {
+								"max": 0
+							},
+							"duration.2": {
 								"max": 0
 							}
 						}
@@ -31,13 +37,13 @@
 				],
 				"item": {
 					"predicates": {
-						"minecraft:custom_data": "{fireball:1}"
+						"minecraft:custom_data": "{pile_driver:1}"
 					}
 				}
 			}
 		}
 	},
 	"rewards": {
-		"function": "ssbrc:fighters/mario/logic/abilities/fireball/activate"
+		"function": "ssbrc:fighters/mega_man/logic/abilities/pile_driver/particle/raycast/start"
 	}
 }

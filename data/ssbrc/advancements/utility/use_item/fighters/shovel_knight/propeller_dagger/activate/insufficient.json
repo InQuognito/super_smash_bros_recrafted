@@ -1,8 +1,8 @@
 {
-	"parent": "ssbrc:utility/root",
+	"parent": "ssbrc:utility/use_item/fighters/shovel_knight/insufficient_mana",
 	"criteria": {
 		"requirement": {
-			"trigger": "minecraft:using_item",
+			"trigger": "minecraft:tick",
 			"conditions": {
 				"player": [
 					{
@@ -23,7 +23,16 @@
 						"condition": "minecraft:entity_scores",
 						"entity": "this",
 						"scores": {
+							"charge.step": {
+								"min": 1
+							},
 							"cooldown.2": {
+								"max": 0
+							},
+							"cooldown.3": {
+								"max": 0
+							},
+							"duration.2": {
 								"max": 0
 							}
 						}
@@ -31,34 +40,40 @@
 					{
 						"condition": "minecraft:inverted",
 						"term": {
-							"condition": "minecraft:reference",
-							"name": "ssbrc:flag/sneaking"
+							"condition": "minecraft:entity_scores",
+							"entity": "this",
+							"scores": {
+								"mana": {
+									"min": {
+										"type": "minecraft:score",
+										"target": {
+											"type": "minecraft:fixed",
+											"name": "shovel_knight.propeller_dagger.cost"
+										},
+										"score": "vars"
+									}
+								}
+							}
 						}
 					},
 					{
 						"condition": "minecraft:entity_properties",
 						"entity": "this",
 						"predicate": {
-							"nbt": "{Tags:[\"valor\"]}",
 							"equipment": {
-								"offhand": {
+								"mainhand": {
 									"predicates": {
-										"minecraft:custom_data": "{keyblade:1}"
+										"minecraft:custom_data": "{propeller_dagger:1}"
 									}
 								}
 							}
 						}
 					}
-				],
-				"item": {
-					"predicates": {
-						"minecraft:custom_data": "{keyblade:1}"
-					}
-				}
+				]
 			}
 		}
 	},
 	"rewards": {
-		"function": "ssbrc:fighters/sora/logic/abilities/strike_raid/activate"
+		"function": "ssbrc:fighters/shovel_knight/logic/mana/insufficient"
 	}
 }

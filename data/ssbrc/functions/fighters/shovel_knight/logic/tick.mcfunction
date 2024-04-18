@@ -1,5 +1,3 @@
-execute if entity @s[scores={charge.step=5..,cooldown.2=..0,cooldown.3=..0,duration.2=..0},nbt={SelectedItem:{tag:{propeller_dagger:1}}}] run function ssbrc:fighters/shovel_knight/logic/abilities/propeller_dagger/check
-
 # Mana
 function ssbrc:fighters/shovel_knight/logic/mana/update
 

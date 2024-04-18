@@ -9,7 +9,6 @@ scoreboard objectives add charge.1 dummy
 scoreboard objectives add charge.2 dummy
 scoreboard objectives add charge.3 dummy
 scoreboard objectives add charge.4 dummy
-scoreboard objectives add charge.input minecraft.used:minecraft.nether_star
 scoreboard objectives add charge.output dummy
 scoreboard objectives add charge.step dummy
 scoreboard objectives add cloud.limit dummy

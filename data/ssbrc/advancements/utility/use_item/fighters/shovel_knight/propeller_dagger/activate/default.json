@@ -2,7 +2,7 @@
 	"parent": "ssbrc:utility/root",
 	"criteria": {
 		"requirement": {
-			"trigger": "minecraft:using_item",
+			"trigger": "minecraft:tick",
 			"conditions": {
 				"player": [
 					{
@@ -23,7 +23,16 @@
 						"condition": "minecraft:entity_scores",
 						"entity": "this",
 						"scores": {
-							"cooldown.1": {
+							"charge.step": {
+								"min": 1
+							},
+							"cooldown.2": {
+								"max": 0
+							},
+							"cooldown.3": {
+								"max": 0
+							},
+							"duration.2": {
 								"max": 0
 							},
 							"mana": {
@@ -31,7 +40,7 @@
 									"type": "minecraft:score",
 									"target": {
 										"type": "minecraft:fixed",
-										"name": "sora.firaza.cost"
+										"name": "shovel_knight.propeller_dagger.cost"
 									},
 									"score": "vars"
 								}
@@ -39,38 +48,23 @@
 						}
 					},
 					{
-						"condition": "minecraft:inverted",
-						"term": {
-							"condition": "minecraft:all_of",
-							"terms": [
-								{
-									"condition": "minecraft:reference",
-									"name": "ssbrc:fighters/sora/no_spells"
-								},
-								{
-									"condition": "minecraft:reference",
-									"name": "ssbrc:flag/sneaking"
-								}
-							]
-						}
-					},
-					{
 						"condition": "minecraft:entity_properties",
 						"entity": "this",
 						"predicate": {
-							"nbt": "{Tags:[\"wisdom\"]}"
+							"equipment": {
+								"mainhand": {
+									"predicates": {
+										"minecraft:custom_data": "{propeller_dagger:1}"
+									}
+								}
+							}
 						}
 					}
-				],
-				"item": {
-					"predicates": {
-						"minecraft:custom_data": "{fire:1}"
-					}
-				}
+				]
 			}
 		}
 	},
 	"rewards": {
-		"function": "ssbrc:fighters/sora/logic/abilities/firaga/firaza/activate"
+		"function": "ssbrc:fighters/shovel_knight/logic/abilities/propeller_dagger/activate"
 	}
 }
