@@ -1,10 +1,11 @@
+function ssbrc:logic/fighters/ability/init
+
 execute anchored eyes positioned ^ ^ ^1 summon minecraft:marker run function ssbrc:fighters/snake/logic/abilities/anti_personnel_mine/init/marker
 
 scoreboard players remove @s snake.anti_personnel_mine.ammo 1
 
-scoreboard players operation @s cooldown.2 = snake.anti_personnel_mine.cooldown vars
-execute if entity @s[scores={shadow.chaos_control=1..}] run function ssbrc:logic/fighters/cooldown_modifiers/chaos_control {type:"2"}
+function ssbrc:logic/fighters/cooldown/set/score {type:"2",value:"snake.anti_personnel_mine.cooldown"}
 
-clear @s[scores={snake.anti_personnel_mine.ammo=..0}] minecraft:nether_star[minecraft:custom_data={anti_personnel_mine:1}]
+item replace entity @s[scores={snake.anti_personnel_mine.ammo=..0}] weapon.mainhand with minecraft:air
 
-advancement revoke @s only ssbrc:utility/use_item/fighters/snake/anti_personnel_mine
+function ssbrc:logic/fighters/ability/deinit

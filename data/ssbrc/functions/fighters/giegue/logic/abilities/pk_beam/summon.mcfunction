@@ -12,7 +12,6 @@ scoreboard players set @s charge.1 0
 
 function ssbrc:logic/fighters/effects/mobility/immobilize/pivot/deactivate
 
-scoreboard players operation @s cooldown.2 = giegue.pk_beam.cooldown vars
-execute if entity @s[scores={shadow.chaos_control=1..}] run function ssbrc:logic/fighters/cooldown_modifiers/chaos_control {type:2}
+function ssbrc:logic/fighters/cooldown/set/score {type:"2",value:"giegue.pk_beam.cooldown"}
 
 playsound ssbrc:fighters.giegue.pk_beam.activate player @a

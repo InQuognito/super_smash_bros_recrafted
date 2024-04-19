@@ -1,3 +1,5 @@
+function ssbrc:logic/fighters/ability/init
+
 execute rotated ~-90.0 0.0 run function ssbrc:fighters/link/logic/abilities/sword_beam/summon
 
 execute rotated ~0.0 0.0 run function ssbrc:fighters/link/logic/abilities/sword_beam/summon
@@ -5,3 +7,5 @@ execute rotated ~0.0 0.0 run function ssbrc:fighters/link/logic/abilities/sword_
 execute rotated ~90.0 0.0 run function ssbrc:fighters/link/logic/abilities/sword_beam/summon
 
 execute rotated ~180.0 0.0 run function ssbrc:fighters/link/logic/abilities/sword_beam/summon
+
+function ssbrc:logic/fighters/ability/deinit

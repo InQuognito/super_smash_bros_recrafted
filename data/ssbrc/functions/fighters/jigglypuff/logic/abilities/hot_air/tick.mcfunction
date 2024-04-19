@@ -1,2 +1,3 @@
-execute if entity @s[predicate=ssbrc:flag/effects/slow_falling,scores={cooldown.2=..0}] run function ssbrc:fighters/jigglypuff/logic/abilities/hot_air/off
-execute if entity @s[predicate=!ssbrc:flag/effects/slow_falling,scores={cooldown.2=..0}] run function ssbrc:fighters/jigglypuff/logic/abilities/hot_air/on
+execute if entity @s[predicate=ssbrc:flag/effects/slow_falling] run return run function ssbrc:fighters/jigglypuff/logic/abilities/hot_air/deactivate
+
+execute if entity @s[predicate=!ssbrc:flag/effects/slow_falling] run function ssbrc:fighters/jigglypuff/logic/abilities/hot_air/activate

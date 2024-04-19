@@ -1,6 +1,7 @@
 tag @s add satsui_no_hado_rage
+tag @s add ability_used
 
-clear @s minecraft:nether_star[minecraft:custom_data={satsui_no_hado_rage:1}]
+item replace entity @s weapon.mainhand with minecraft:air
 
 function ssbrc:logic/fighters/effects/cleanse
 
@@ -11,8 +12,6 @@ attribute @s minecraft:generic.attack_damage modifier add 19192183-0000-0000-000
 scoreboard players set @s duration.1 400
 
 function ssbrc:fighters/ryu/logic/abilities/satsui_no_hado_rage/update
-
-tag @s add ability_used
 
 playsound ssbrc:fighters.ryu.satsui_no_hado_rage.activate player @a
 

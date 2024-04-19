@@ -1,5 +1,5 @@
 {
-	"parent": "ssbrc:utility/root",
+	"parent": "ssbrc:utility/use_item/root",
 	"criteria": {
 		"requirement": {
 			"trigger": "minecraft:tick",

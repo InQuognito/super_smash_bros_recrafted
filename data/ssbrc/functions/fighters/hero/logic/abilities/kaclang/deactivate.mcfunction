@@ -8,5 +8,4 @@ function ssbrc:logic/fighters/armor/update
 
 execute if score @s mana matches 1.. run function ssbrc:fighters/hero/logic/restore_items
 
-scoreboard players operation @s cooldown.1 = hero.bang.cooldown vars
-execute if entity @s[scores={shadow.chaos_control=1..}] run function ssbrc:logic/fighters/cooldown_modifiers/chaos_control {type:"1"}
+function ssbrc:logic/fighters/cooldown/set/score {type:"1",value:"hero.bang.cooldown"}

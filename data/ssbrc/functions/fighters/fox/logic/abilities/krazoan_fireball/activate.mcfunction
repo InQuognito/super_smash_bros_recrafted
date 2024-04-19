@@ -1,8 +1,9 @@
+function ssbrc:logic/fighters/ability/init
+
 execute anchored eyes positioned ^ ^ ^1 summon minecraft:marker run function ssbrc:fighters/fox/logic/abilities/krazoan_fireball/init
 
-scoreboard players set @s cooldown.1 30
-execute if entity @s[scores={shadow.chaos_control=1..}] run function ssbrc:logic/fighters/cooldown_modifiers/chaos_control {type:"1"}
+function ssbrc:logic/fighters/cooldown/set/const {type:"1",value:"30"}
 
 playsound ssbrc:fighters.fox.krazoan_staff.activate player @a
 
-advancement revoke @s only ssbrc:utility/use_item/fighters/fox/krazoan_fireball
+function ssbrc:logic/fighters/ability/deinit

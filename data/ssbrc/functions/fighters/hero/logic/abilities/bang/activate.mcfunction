@@ -1,10 +1,11 @@
-execute summon minecraft:marker run function ssbrc:fighters/hero/logic/abilities/bang/init/marker
+function ssbrc:logic/fighters/ability/init
 
-scoreboard players operation @s cooldown.1 = hero.bang.cooldown vars
-execute if entity @s[scores={shadow.chaos_control=1..}] run function ssbrc:logic/fighters/cooldown_modifiers/chaos_control {type:"1"}
+execute anchored eyes positioned ^ ^ ^1 summon minecraft:marker run function ssbrc:fighters/hero/logic/abilities/bang/init/marker
+
+function ssbrc:logic/fighters/cooldown/set/score {type:"1",value:"hero.bang.cooldown"}
 
 scoreboard players operation @s mana -= hero.bang.cost vars
 
 playsound ssbrc:fighters.hero.bang.activate player @a
 
-advancement revoke @s only ssbrc:utility/use_item/fighters/hero/spells/bang/activate
+function ssbrc:logic/fighters/ability/deinit

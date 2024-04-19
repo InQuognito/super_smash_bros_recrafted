@@ -1,10 +1,11 @@
-execute anchored eyes positioned ^ ^ ^ summon minecraft:marker run function ssbrc:fighters/wolf/logic/abilities/grenade/init/marker
+function ssbrc:logic/fighters/ability/init
 
-scoreboard players set @s cooldown.2 20
-execute if entity @s[scores={shadow.chaos_control=1..}] run function ssbrc:logic/fighters/cooldown_modifiers/chaos_control {type:"2"}
+execute anchored eyes positioned ^ ^ ^1 summon minecraft:marker run function ssbrc:fighters/wolf/logic/abilities/grenade/init/marker
+
+function ssbrc:logic/fighters/cooldown/set/const {type:"2",value:"20"}
 
 function ssbrc:fighters/wolf/logic/abilities/grenade/reset
 
 playsound ssbrc:fighters.wolf.grenade.throw player @a
 
-advancement revoke @s only ssbrc:utility/use_item/fighters/wolf/grenade/activate
+function ssbrc:logic/fighters/ability/deinit

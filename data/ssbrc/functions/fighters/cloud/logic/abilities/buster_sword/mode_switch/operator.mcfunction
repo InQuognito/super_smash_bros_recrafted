@@ -8,7 +8,8 @@ function ssbrc:logic/fighters/effects/jump_boost
 
 tellraw @s [{"translate":"ssbrc.fighters.cloud.mode_switch","bold":true,"color":"yellow"},{"translate":"ssbrc.fighters.cloud.operator","bold":false,"color":"green"}]
 
-scoreboard players set @s cooldown.1 100
+function ssbrc:logic/fighters/cooldown/set/const {type:"1",value:"100"}
+
 scoreboard players set mode_switched temp 1
 
 playsound ssbrc:fighters.cloud.mode_switch.operator player @a

@@ -1,6 +1,6 @@
 execute positioned ~ ~2.5 ~ summon minecraft:marker run function ssbrc:fighters/ness/logic/abilities/pk_flash/init
 
-scoreboard players set @s cooldown.2 9999
-scoreboard players set @s cooldown.3 1
+function ssbrc:logic/fighters/cooldown/set/const {type:"2",value:"9999"}
+function ssbrc:logic/fighters/cooldown/set/const {type:"3",value:"1"}
 
 playsound ssbrc:fighters.ness.pk_flash.activate player @a

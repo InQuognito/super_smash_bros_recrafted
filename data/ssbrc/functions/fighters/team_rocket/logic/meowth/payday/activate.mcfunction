@@ -1,8 +1,9 @@
+function ssbrc:logic/fighters/ability/init
+
 execute anchored eyes positioned ^ ^ ^1 summon minecraft:marker run function ssbrc:fighters/team_rocket/logic/meowth/payday/init/marker
 
-scoreboard players operation @s cooldown.2 = team_rocket.payday.cooldown vars
-execute if entity @s[scores={shadow.chaos_control=1..}] run function ssbrc:logic/fighters/cooldown_modifiers/chaos_control {type:"2"}
+function ssbrc:logic/fighters/cooldown/set/score {type:"2",value:"team_rocket.payday.cooldown"}
 
 playsound ssbrc:fighters.team_rocket.meowth.payday.activate player @a
 
-advancement revoke @s only ssbrc:utility/use_item/fighters/team_rocket/meowth/payday
+function ssbrc:logic/fighters/ability/deinit

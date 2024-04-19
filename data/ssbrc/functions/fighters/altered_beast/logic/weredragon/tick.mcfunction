@@ -9,4 +9,4 @@ effect clear @s[scores={cooldown.3=6}] minecraft:levitation
 # Electrocution
 execute if entity @s[scores={duration.1=1..}] run function ssbrc:fighters/altered_beast/logic/weredragon/electrocution/tick
 
-function ssbrc:logic/fighters/cooldown {item:"electrocution",type:"1",amount:"altered_beast.electrocution.cooldown"}
+function ssbrc:logic/fighters/cooldown/update {item:"electrocution",type:"1",amount:"altered_beast.electrocution.cooldown"}

@@ -1,10 +1,9 @@
-tag @s add self
-execute anchored eyes positioned ^ ^ ^1 summon minecraft:marker run function ssbrc:fighters/mario/logic/abilities/fireball/init
-tag @s remove self
+function ssbrc:logic/fighters/ability/init
 
-scoreboard players operation @s cooldown.1 = mario.fireball.cooldown vars
-execute if entity @s[scores={shadow.chaos_control=1..}] run function ssbrc:logic/fighters/cooldown_modifiers/chaos_control {type:"1"}
+execute anchored eyes positioned ^ ^ ^1 summon minecraft:marker run function ssbrc:fighters/mario/logic/abilities/fireball/init
+
+function ssbrc:logic/fighters/cooldown/set/score {type:"1",value:"mario.fireball.cooldown"}
 
 playsound ssbrc:fighters.mario.fireball.activate player @a
 
-advancement revoke @s only ssbrc:utility/use_item/fighters/mario/fireball
+function ssbrc:logic/fighters/ability/deinit

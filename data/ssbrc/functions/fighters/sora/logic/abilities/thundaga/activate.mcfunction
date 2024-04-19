@@ -1,3 +1,5 @@
+function ssbrc:logic/fighters/ability/init
+
 execute summon minecraft:marker run function ssbrc:fighters/sora/logic/abilities/thundaga/init
 
 scoreboard players operation sora.thunder.cost temp = sora.thundaga.cost vars
@@ -5,7 +7,6 @@ execute if score electric_terrain temp matches 1 run scoreboard players operatio
 
 scoreboard players operation @s mana -= sora.thunder.cost temp
 
-scoreboard players set @s cooldown.1 60
-execute if entity @s[scores={shadow.chaos_control=1..}] run function ssbrc:logic/fighters/cooldown_modifiers/chaos_control {type:"1"}
+function ssbrc:logic/fighters/cooldown/set/const {type:"1",value:"60"}
 
-advancement revoke @s only ssbrc:utility/use_item/fighters/sora/thunder/thundaga
+function ssbrc:logic/fighters/ability/deinit

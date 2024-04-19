@@ -1,3 +1,3 @@
 playsound ssbrc:generic_misfire player @a
 
-$scoreboard players set @s cooldown.$(type) $(amount)
+$function ssbrc:logic/fighters/cooldown/set/const {type:"$(type)",value:"$(amount)"}

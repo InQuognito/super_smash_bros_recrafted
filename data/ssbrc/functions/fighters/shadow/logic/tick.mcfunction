@@ -2,7 +2,7 @@
 execute if entity @s[scores={charge.1=1..}] anchored eyes positioned ^ ^ ^ run function ssbrc:fighters/shadow/logic/abilities/chaos_spear/charge
 
 function ssbrc:fighters/shadow/logic/abilities/chaos_spear/chaos_energy/calculate
-execute if score chaos_energy temp >= shadow.chaos_spear.cost vars run function ssbrc:logic/fighters/cooldown {item:"chaos_spear",type:"1",amount:"shadow.chaos_spear.cooldown"}
+execute if score chaos_energy temp >= shadow.chaos_spear.cost vars run function ssbrc:logic/fighters/cooldown/update {item:"chaos_spear",type:"1",amount:"shadow.chaos_spear.cooldown"}
 
 # Chaos Blast
 execute if entity @s[scores={charge.2=1..}] positioned ~ ~0.75 ~ run function ssbrc:fighters/shadow/logic/abilities/chaos_blast/charge

@@ -1,13 +1,14 @@
+function ssbrc:logic/fighters/ability/init
+
 execute store result score temp health run scoreboard players get @s health
 execute anchored eyes positioned ^ ^ ^1 summon minecraft:marker run function ssbrc:fighters/snake/logic/abilities/famas/init
 
 scoreboard players remove @s weapon_3.ammo 1
 
-scoreboard players set @s cooldown.1 4
-execute if entity @s[scores={shadow.chaos_control=1..}] run function ssbrc:logic/fighters/cooldown_modifiers/chaos_control {type:"1"}
+function ssbrc:logic/fighters/cooldown/set/const {type:"1",value:"4"}
 
 execute if entity @s[scores={weapon_3.mags=1..,weapon_3.ammo=0}] run function ssbrc:fighters/snake/logic/abilities/famas/reload/start
 
 playsound ssbrc:generic_fire player @a
 
-advancement revoke @s only ssbrc:utility/use_item/fighters/snake/famas/activate
+function ssbrc:logic/fighters/ability/deinit

@@ -1,4 +1,5 @@
 tag @s add rest
+
 item modify entity @s weapon.mainhand ssbrc:fighters/jigglypuff/rest/disabled
 
 scoreboard players set @s charge.1 1

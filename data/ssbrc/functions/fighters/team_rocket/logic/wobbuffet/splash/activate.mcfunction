@@ -2,7 +2,6 @@ execute positioned ~ ~0.5 ~ facing ~ ~1 ~ run function ssbrc:fighters/team_rocke
 
 execute as @e[tag=!self,predicate=ssbrc:flag/targets,distance=..0.5] run damage @s 0.1 ssbrc:generic by @a[tag=self,limit=1]
 
-scoreboard players operation @s cooldown.2 = team_rocket.splash.cooldown vars
-execute if entity @s[scores={shadow.chaos_control=1..}] run function ssbrc:logic/fighters/cooldown_modifiers/chaos_control {type:"2"}
+function ssbrc:logic/fighters/cooldown/set/score {type:"2",value:"team_rocket.splash.cooldown"}
 
 advancement revoke @s only ssbrc:utility/use_item/fighters/team_rocket/wobbuffet/splash

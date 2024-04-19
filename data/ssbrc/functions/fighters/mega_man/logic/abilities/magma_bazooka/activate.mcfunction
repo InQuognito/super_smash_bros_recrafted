@@ -5,7 +5,6 @@ scoreboard players set @s charge.output 0
 
 function ssbrc:logic/fighters/replace_item {old:"phazon_beam",new:"dark_samus/phazon_beam/idle"}
 
-scoreboard players set @s cooldown.1 10
-execute if entity @s[scores={shadow.chaos_control=1..}] run function ssbrc:logic/fighters/cooldown_modifiers/chaos_control {type:"1"}
+function ssbrc:logic/fighters/cooldown/set/const {type:"1",value:"10"}
 
 advancement revoke @s only ssbrc:utility/use_item/fighters/mega_man/magma_bazooka

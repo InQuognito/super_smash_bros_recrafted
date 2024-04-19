@@ -18,8 +18,7 @@ effect give @s minecraft:resistance infinite 255 true
 
 function ssbrc:logic/fighters/attributes/defaults
 
-scoreboard players set @s cooldown.1 300
-execute if entity @s[scores={shadow.chaos_control=1..}] run function ssbrc:logic/fighters/cooldown_modifiers/chaos_control {type:"1"}
+function ssbrc:logic/fighters/cooldown/set/const {type:"1",value:"300"}
 
 function ssbrc:logic/fighters/flags/use_recovery
 
