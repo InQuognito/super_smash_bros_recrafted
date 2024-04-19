@@ -11,5 +11,3 @@ execute if entity @s[scores={duration.1=2..}] run scoreboard players add ryu.had
 execute if score hadouken temp < ryu.hadouken.limit vars run function ssbrc:fighters/ryu/logic/abilities/hadouken/activate
 
 tag @s remove self
-
-advancement revoke @s only ssbrc:utility/use_item/fighters/ryu/hadouken
