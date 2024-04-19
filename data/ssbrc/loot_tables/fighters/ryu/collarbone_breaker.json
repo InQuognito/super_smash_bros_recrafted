@@ -70,7 +70,7 @@
 						},
 						{
 							"function": "minecraft:set_custom_data",
-							"tag": "{path:\"ryu\/logic\/abilities\/hadouken\/check\"}"
+							"tag": "{path:\"ryu/logic/abilities/hadouken/check\"}"
 						}
 					]
 				}
