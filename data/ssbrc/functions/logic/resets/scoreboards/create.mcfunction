@@ -93,6 +93,8 @@ scoreboard objectives add rotationY dummy
 scoreboard objectives add rotationY.prev dummy
 scoreboard objectives add sandbag.stand_on dummy
 scoreboard objectives add select_item minecraft.used:minecraft.nether_star
+scoreboard objectives add selected_item dummy
+scoreboard objectives add selected_item.prev dummy
 scoreboard objectives add shadow.chaos_control dummy
 scoreboard objectives add shadow.meter.hero dummy
 scoreboard objectives add shadow.meter.villain dummy

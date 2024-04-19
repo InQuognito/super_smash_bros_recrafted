@@ -79,6 +79,8 @@ scoreboard objectives remove respawn
 scoreboard objectives remove rotation
 scoreboard objectives remove sandbag.stand_on
 scoreboard objectives remove select_item
+scoreboard objectives remove selected_item
+scoreboard objectives remove selected_item.prev
 scoreboard objectives remove shadow.chaos_control
 scoreboard objectives remove shadow.meter.hero
 scoreboard objectives remove shadow.meter.villain

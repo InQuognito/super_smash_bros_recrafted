@@ -8,7 +8,7 @@ scoreboard players remove @s[scores={weapon_1.fire_rate=1..}] weapon_1.fire_rate
 
 function ssbrc:logic/fighters/get {function:"ssbrc:logic/fighters/tick"}
 
-execute if entity @s[scores={charge.output=1..},advancements={ssbrc:utility/use_item/any=false}] run function ssbrc:logic/fighters/charge/activate with entity @s SelectedItem.components.minecraft:custom_data
+execute if entity @s[scores={charge.output=1..}] run function ssbrc:logic/fighters/charge/check
 execute if entity @s[advancements={ssbrc:utility/use_item/any=true}] run function ssbrc:logic/fighters/charge/tick
 
 execute if entity @e[type=minecraft:marker,tag=electric_terrain,distance=..12] run scoreboard players set electric_terrain temp 1

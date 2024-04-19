@@ -4,4 +4,4 @@
 
 $function ssbrc:fighters/$(path)
 
-scoreboard players set @s charge.output 0
+function ssbrc:logic/fighters/charge/reset
