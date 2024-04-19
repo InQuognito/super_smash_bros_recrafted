@@ -32,7 +32,7 @@
 				],
 				"item": {
 					"predicates": {
-						"minecraft:custom_data": "{angel_feather1}"
+						"minecraft:custom_data": "{angel_feather:1}"
 					}
 				}
 			}

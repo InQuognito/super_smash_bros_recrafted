@@ -1,3 +1,5 @@
+execute if score debug options matches 1.. run say hadouken | check
+
 tag @s add self
 
 scoreboard players operation @s id = id_to_match temp

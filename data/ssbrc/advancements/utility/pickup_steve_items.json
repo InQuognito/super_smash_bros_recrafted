@@ -32,7 +32,7 @@
 				],
 				"items": [
 					{
-						"items": "ssbrc:fighters/steve/items"
+						"items": "#ssbrc:fighters/steve/items"
 					}
 				]
 			}
