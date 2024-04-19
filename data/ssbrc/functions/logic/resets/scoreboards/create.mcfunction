@@ -11,7 +11,6 @@ scoreboard objectives add charge.3 dummy
 scoreboard objectives add charge.4 dummy
 scoreboard objectives add charge.output dummy
 scoreboard objectives add charge.output.prev dummy
-scoreboard objectives add charge.step dummy
 scoreboard objectives add cloud.limit dummy
 scoreboard objectives add cooldown dummy
 scoreboard objectives add cooldown.1 dummy
