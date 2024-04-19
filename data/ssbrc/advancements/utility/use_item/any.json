@@ -15,8 +15,5 @@
 				}
 			}
 		}
-	},
-	"rewards": {
-		"function": "ssbrc:logic/fighters/charge/tick"
 	}
 }
