@@ -8,4 +8,4 @@ playsound minecraft:entity.generic.explode player @a
 
 function ssbrc:fighters/wolf/logic/abilities/grenade/reset
 
-function ssbrc:logic/resets/charge
+scoreboard players set @s charge.output 0

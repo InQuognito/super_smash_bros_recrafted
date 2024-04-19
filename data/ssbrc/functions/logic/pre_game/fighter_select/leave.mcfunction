@@ -2,7 +2,6 @@ tag @s remove room.fighter_select
 
 clear @s
 
-function ssbrc:logic/resets/charge
 function ssbrc:logic/resets/triggers
 
 title @s actionbar ""

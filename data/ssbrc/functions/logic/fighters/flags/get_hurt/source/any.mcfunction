@@ -7,7 +7,7 @@ execute if entity @s[tag=snake] unless score blackout temp matches 1 run functio
 scoreboard players set @s[predicate=ssbrc:fighters/sonic_the_hedgehog] flag.sprinting 0
 scoreboard players set @s[tag=steve] charge.1 0
 loot replace entity @s[tag=team_rocket,tag=wobbuffet] hotbar.0 loot ssbrc:fighters/team_rocket/wobbuffet/counter
-execute if entity @s[tag=yar,scores={charge.output=1..},nbt={SelectedItem:{tag:{gatling_gun:1}}}] run function ssbrc:logic/resets/charge
+scoreboard players set @s[tag=yar,scores={charge.output=1..},nbt={SelectedItem:{tag:{gatling_gun:1}}}] charge.output 0
 execute if entity @s[tag=zelda,scores={health=..6},nbt={Inventory:[{tag:{nayrus_ring:1}}]}] run function ssbrc:fighters/zelda/logic/get_hurt
 
 scoreboard players reset @s coward.timer
