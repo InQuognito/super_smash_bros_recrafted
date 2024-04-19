@@ -24,7 +24,7 @@
 						"entity": "this",
 						"scores": {
 							"charge.step": {
-								"min": 2
+								"min": 1
 							},
 							"cooldown.2": {
 								"max": 0

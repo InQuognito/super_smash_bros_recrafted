@@ -2,8 +2,8 @@ kill @e[type=minecraft:item_display,tag=stageIcon]
 kill @e[type=minecraft:area_effect_cloud,tag=vote_counter]
 kill @e[type=minecraft:area_effect_cloud,tag=infoDisplay]
 
-scoreboard players operation totalStocks temp = players.playing temp
-scoreboard players operation totalStocks temp *= stock_limit options
+scoreboard players operation total_stocks temp = players.playing temp
+scoreboard players operation total_stocks temp *= stock_limit options
 
 data modify entity @e[tag=lobby.timer,limit=1] text set value '[{"translate":"ssbrc.lobby.players_remaining","color":"gold"},{"score":{"name":"players.playing","objective":"temp"},"color":"yellow"}]'
 

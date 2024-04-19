@@ -17,7 +17,7 @@ function ssbrc:logic/fighters/cleanup
 scoreboard players reset $stockPercentage temp
 scoreboard players operation $stockPercentage temp += @a[tag=alive] stocks
 scoreboard players operation $stockPercentage temp *= 100 integers
-scoreboard players operation $stockPercentage temp /= totalStocks temp
+scoreboard players operation $stockPercentage temp /= total_stocks temp
 execute if score hazards options matches 1 if score game_mode options matches 1 if score tower_of_fate stage matches 1 unless score tower_of_fateDestroyed temp matches 1.. if score $stockPercentage temp matches ..50 run function ssbrc:stages/tower_of_fate/logic/destroy_tower/start
 
 # Bonuses
