@@ -70,7 +70,7 @@
 						},
 						{
 							"function": "minecraft:set_custom_data",
-							"tag": "{collarbone_breaker:1}"
+							"tag": "{path:{\"ryu/logic/abilities/hadouken/check\"},cooldown:1}"
 						}
 					]
 				}
