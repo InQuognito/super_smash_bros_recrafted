@@ -6,14 +6,14 @@ scoreboard players remove @s[scores={cooldown.3=1..}] cooldown.3 1
 
 scoreboard players remove @s[scores={weapon_1.fire_rate=1..}] weapon_1.fire_rate 1
 
-scoreboard players set @s[scores={charge.step=2..}] charge.output 0
-execute if entity @s[scores={charge.step=2..}] run function ssbrc:logic/inputs/abilities/charge/default
-scoreboard players set @s[scores={charge.step=2..}] charge.step 0
+function ssbrc:logic/fighters/get {function:"ssbrc:logic/fighters/tick"}
+
+scoreboard players set @s[scores={charge.step=3..}] charge.output 0
+execute if entity @s[scores={charge.step=3..}] run function ssbrc:logic/inputs/abilities/charge/default
+scoreboard players set @s[scores={charge.step=3..}] charge.step 0
 scoreboard players add @s[scores={charge.output=1..}] charge.step 1
 
 execute if entity @e[type=minecraft:marker,tag=electric_terrain,distance=..12] run scoreboard players set electric_terrain temp 1
-
-function ssbrc:logic/fighters/get {function:"ssbrc:logic/fighters/tick"}
 
 execute if entity @s[scores={flag.damage_dealt=1..}] run function ssbrc:logic/fighters/damage_dealt
 execute if entity @s[scores={flag.damage_taken=1..}] run function ssbrc:logic/fighters/damage_taken
