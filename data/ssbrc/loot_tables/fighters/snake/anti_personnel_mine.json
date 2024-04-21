@@ -14,6 +14,10 @@
 						},
 						{
 							"function": "minecraft:reference",
+							"name": "ssbrc:fighters/init/ability/default"
+						},
+						{
+							"function": "minecraft:reference",
 							"name": "ssbrc:fighters/init/animation/smooth"
 						},
 						{

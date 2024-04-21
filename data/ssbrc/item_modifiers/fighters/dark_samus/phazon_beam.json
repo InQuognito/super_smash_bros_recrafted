@@ -5,7 +5,7 @@
 	},
 	{
 		"function": "minecraft:reference",
-		"name": "ssbrc:fighters/init/ability/default"
+		"name": "ssbrc:fighters/init/ability/charge"
 	},
 	{
 		"function": "minecraft:set_lore",
@@ -103,6 +103,6 @@
 	},
 	{
 		"function": "minecraft:set_custom_data",
-		"tag": "{item:\"phazon_beam\"}"
+		"tag": "{item:\"phazon_beam\",path:\"dark_samus/logic/abilities/phazon_beam/activate\"}"
 	}
 ]

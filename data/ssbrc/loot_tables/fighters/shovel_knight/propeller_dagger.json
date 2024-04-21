@@ -24,6 +24,10 @@
 						},
 						{
 							"function": "minecraft:reference",
+							"name": "ssbrc:fighters/init/ability/charge"
+						},
+						{
+							"function": "minecraft:reference",
 							"name": "ssbrc:fighters/init/animation/instant"
 						},
 						{
@@ -59,7 +63,7 @@
 						},
 						{
 							"function": "minecraft:set_custom_data",
-							"tag": "{item:\"propeller_dagger\",disabled:\"false\"}"
+							"tag": "{item:\"propeller_dagger\",disabled:\"false\",path:\"shovel_knight/logic/abilities/propeller_dagger/check\"}"
 						}
 					]
 				}

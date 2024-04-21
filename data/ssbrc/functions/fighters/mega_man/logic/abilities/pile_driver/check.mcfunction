@@ -1,2 +1,1 @@
-execute if score @s mana >= #mega_man.propeller_dagger.cost vars positioned ~ ~0.1 ~ run function ssbrc:fighters/mega_man/logic/abilities/pile_driver/activate
-execute unless score @s mana >= #mega_man.propeller_dagger.cost vars run function ssbrc:fighters/mega_man/logic/mana/insufficient
+execute if entity @s[scores={mega_man.pile_driver=1..,cooldown.2=..0,duration.2=..0}] run function ssbrc:fighters/mega_man/logic/abilities/pile_driver/activate

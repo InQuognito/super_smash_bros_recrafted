@@ -33,7 +33,7 @@
 						},
 						{
 							"function": "minecraft:reference",
-							"name": "ssbrc:fighters/init/ability/charge"
+							"name": "ssbrc:fighters/init/ability/default"
 						},
 						{
 							"function": "minecraft:reference",

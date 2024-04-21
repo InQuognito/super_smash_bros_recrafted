@@ -38,6 +38,6 @@
 	},
 	{
 		"function": "minecraft:set_custom_data",
-		"tag": "{item:\"palutena_bow\",path:\"pit/logic/abilities/palutena_bow/activate\"}"
+		"tag": "{item:\"palutena_bow\",path:\"pit/logic/abilities/palutena_bow/check\"}"
 	}
 ]

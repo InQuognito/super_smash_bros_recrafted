@@ -24,7 +24,7 @@
 						},
 						{
 							"function": "minecraft:reference",
-							"name": "ssbrc:fighters/init/ability/default"
+							"name": "ssbrc:fighters/init/ability/charge"
 						},
 						{
 							"function": "minecraft:set_lore",
@@ -59,7 +59,7 @@
 						},
 						{
 							"function": "minecraft:set_custom_data",
-							"tag": "{item:\"pile_driver\"}"
+							"tag": "{item:\"pile_driver\",path:\"mega_man/logic/abilities/pile_driver/check\"}"
 						}
 					]
 				}
