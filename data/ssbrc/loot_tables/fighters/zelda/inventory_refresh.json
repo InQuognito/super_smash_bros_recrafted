@@ -45,7 +45,7 @@
 						},
 						{
 							"function": "minecraft:set_custom_data",
-							"tag": "{inventory_refresh:1}"
+							"tag": "{item:\"inventory_refresh\"}"
 						}
 					]
 				}

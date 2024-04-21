@@ -23,6 +23,10 @@
 							"name": "ssbrc:fighters/init/preset/ranged"
 						},
 						{
+							"function": "minecraft:reference",
+							"name": "ssbrc:fighters/init/ability/default"
+						},
+						{
 							"function": "minecraft:set_lore",
 							"entity": "this",
 							"lore": [
@@ -55,7 +59,7 @@
 						},
 						{
 							"function": "minecraft:set_custom_data",
-							"tag": "{drill_bomb:1}"
+							"tag": "{item:\"drill_bomb\"}"
 						}
 					]
 				}

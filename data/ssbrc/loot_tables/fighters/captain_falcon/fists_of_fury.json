@@ -32,6 +32,10 @@
 							"name": "ssbrc:fighters/init/preset/melee"
 						},
 						{
+							"function": "minecraft:reference",
+							"name": "ssbrc:fighters/init/ability/default"
+						},
+						{
 							"function": "minecraft:set_lore",
 							"entity": "this",
 							"lore": [
@@ -124,7 +128,7 @@
 						},
 						{
 							"function": "minecraft:set_custom_data",
-							"tag": "{fists_of_fury:1}"
+							"tag": "{item:\"fists_of_fury\"}"
 						}
 					]
 				}

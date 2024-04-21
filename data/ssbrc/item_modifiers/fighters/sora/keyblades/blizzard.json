@@ -138,6 +138,6 @@
 	},
 	{
 		"function": "minecraft:set_custom_data",
-		"tag": "{blizzard:1}"
+		"tag": "{spell:\"blizzard\"}"
 	}
 ]

@@ -68,7 +68,7 @@
 						},
 						{
 							"function": "minecraft:set_custom_data",
-							"tag": "{hylian_shield:1}"
+							"tag": "{item:\"hylian_shield\"}"
 						}
 					]
 				}

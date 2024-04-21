@@ -51,6 +51,6 @@
 	},
 	{
 		"function": "minecraft:set_custom_data",
-		"tag": "{jack_o_lantern:1}"
+		"tag": "{persona:\"jack_o_lantern\"}"
 	}
 ]

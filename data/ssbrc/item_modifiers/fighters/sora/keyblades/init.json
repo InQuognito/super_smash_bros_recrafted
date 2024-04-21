@@ -24,6 +24,6 @@
 	},
 	{
 		"function": "minecraft:set_custom_data",
-		"tag": "{keyblade:1}"
+		"tag": "{item:\"keyblade\"}"
 	}
 ]

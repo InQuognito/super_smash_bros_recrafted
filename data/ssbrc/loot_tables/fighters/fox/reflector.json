@@ -14,6 +14,10 @@
 						},
 						{
 							"function": "minecraft:reference",
+							"name": "ssbrc:fighters/init/ability/default"
+						},
+						{
+							"function": "minecraft:reference",
 							"name": "ssbrc:fighters/init/animation/instant"
 						},
 						{
@@ -70,7 +74,7 @@
 						},
 						{
 							"function": "minecraft:set_custom_data",
-							"tag": "{reflector:1}"
+							"tag": "{item:\"reflector\"}"
 						}
 					]
 				}

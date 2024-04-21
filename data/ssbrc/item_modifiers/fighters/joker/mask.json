@@ -5,6 +5,10 @@
 	},
 	{
 		"function": "minecraft:reference",
+		"name": "ssbrc:fighters/init/ability/default"
+	},
+	{
+		"function": "minecraft:reference",
 		"name": "ssbrc:fighters/init/unbreakable/instant"
 	},
 	{
@@ -73,6 +77,6 @@
 	},
 	{
 		"function": "minecraft:set_custom_data",
-		"tag": "{mask:1}"
+		"tag": "{group:\"mask:\"}"
 	}
 ]

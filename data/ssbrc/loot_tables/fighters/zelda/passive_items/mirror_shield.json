@@ -58,7 +58,7 @@
 						},
 						{
 							"function": "minecraft:set_custom_data",
-							"tag": "{passive_item:1,mirror_shield:1}"
+							"tag": "{item:\"mirror_shield\"}"
 						}
 					]
 				}

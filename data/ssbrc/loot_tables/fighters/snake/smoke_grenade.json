@@ -86,7 +86,7 @@
 						},
 						{
 							"function": "minecraft:set_custom_data",
-							"tag": "{smoke_grenade:1}"
+							"tag": "{item:\"smoke_grenade\"}"
 						}
 					]
 				}

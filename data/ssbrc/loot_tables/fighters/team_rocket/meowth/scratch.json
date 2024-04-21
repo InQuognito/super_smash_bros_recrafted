@@ -43,7 +43,7 @@
 						},
 						{
 							"function": "minecraft:set_custom_data",
-							"tag": "{scratch:1}"
+							"tag": "{item:\"scratch\"}"
 						}
 					]
 				}

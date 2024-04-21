@@ -70,7 +70,7 @@
 						},
 						{
 							"function": "minecraft:set_custom_data",
-							"tag": "{triple_shot:1}"
+							"tag": "{item:\"triple_shot\"}"
 						}
 					]
 				}

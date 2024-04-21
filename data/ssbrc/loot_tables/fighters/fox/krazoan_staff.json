@@ -32,6 +32,10 @@
 							"name": "ssbrc:fighters/init/preset/hybrid"
 						},
 						{
+							"function": "minecraft:reference",
+							"name": "ssbrc:fighters/init/ability/default"
+						},
+						{
 							"function": "minecraft:set_lore",
 							"entity": "this",
 							"lore": [
@@ -95,7 +99,7 @@
 						},
 						{
 							"function": "minecraft:set_custom_data",
-							"tag": "{krazoan_staff:1}"
+							"tag": "{item:\"krazoan_staff\"}"
 						}
 					]
 				}

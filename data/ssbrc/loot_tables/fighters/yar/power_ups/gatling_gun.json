@@ -75,7 +75,7 @@
 						},
 						{
 							"function": "minecraft:set_custom_data",
-							"tag": "{gatling_gun:1,power_up:1}"
+							"tag": "{group:\"power_up\",power_up:\"gatling_gun\"}"
 						}
 					]
 				}

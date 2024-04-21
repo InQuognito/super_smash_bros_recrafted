@@ -87,7 +87,7 @@
 						},
 						{
 							"function": "minecraft:set_custom_data",
-							"tag": "{black_sword:1}"
+							"tag": "{item:\"shadow.sword\"}"
 						}
 					]
 				}

@@ -47,7 +47,7 @@
 						},
 						{
 							"function": "minecraft:set_custom_data",
-							"tag": "{bear_claw:1}"
+							"tag": "{item:\"bear_claw\"}"
 						}
 					]
 				}

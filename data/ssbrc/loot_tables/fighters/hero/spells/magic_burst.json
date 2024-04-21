@@ -24,6 +24,10 @@
 						},
 						{
 							"function": "minecraft:reference",
+							"name": "ssbrc:fighters/init/ability/default"
+						},
+						{
+							"function": "minecraft:reference",
 							"name": "ssbrc:fighters/init/unbreakable/instant"
 						},
 						{
@@ -59,7 +63,7 @@
 						},
 						{
 							"function": "minecraft:set_custom_data",
-							"tag": "{hero.spell:1,magic_burst:1}"
+							"tag": "{group:\"hero.spell\",item:\"magic_burst\"}"
 						}
 					]
 				}

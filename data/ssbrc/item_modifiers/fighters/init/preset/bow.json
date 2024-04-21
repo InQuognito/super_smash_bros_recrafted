@@ -11,6 +11,6 @@
 	},
 	{
 		"function": "minecraft:set_custom_data",
-		"tag": "{bow:1}"
+		"tag": "{item:\"bow\"}"
 	}
 ]

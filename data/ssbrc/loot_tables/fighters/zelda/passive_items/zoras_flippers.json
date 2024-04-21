@@ -41,7 +41,7 @@
 						},
 						{
 							"function": "minecraft:set_custom_data",
-							"tag": "{zoras_flippers:1}"
+							"tag": "{item:\"zoras_flippers\"}"
 						}
 					]
 				}

@@ -24,11 +24,15 @@
 						},
 						{
 							"function": "minecraft:reference",
+							"name": "ssbrc:fighters/init/ability/default"
+						},
+						{
+							"function": "minecraft:reference",
 							"name": "ssbrc:fighters/init/animation/smooth"
 						},
 						{
 							"function": "minecraft:set_custom_data",
-							"tag": "{sabretooth:1}"
+							"tag": "{item:\"sabretooth\"}"
 						}
 					]
 				}

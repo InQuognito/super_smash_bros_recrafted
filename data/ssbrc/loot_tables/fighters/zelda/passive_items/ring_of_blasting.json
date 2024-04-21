@@ -47,7 +47,7 @@
 						},
 						{
 							"function": "minecraft:set_custom_data",
-							"tag": "{ring_of_blasting:1}"
+							"tag": "{item:\"ring_of_blasting\"}"
 						}
 					]
 				}

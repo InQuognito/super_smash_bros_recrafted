@@ -93,7 +93,7 @@
 						},
 						{
 							"function": "minecraft:set_custom_data",
-							"tag": "{ice_rod:1}"
+							"tag": "{item:\"ice_rod\"}"
 						}
 					]
 				}

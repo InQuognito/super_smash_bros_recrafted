@@ -47,7 +47,7 @@
 						},
 						{
 							"function": "minecraft:set_custom_data",
-							"tag": "{torch_of_wisdom:1}"
+							"tag": "{item:\"torch_of_wisdom\"}"
 						}
 					]
 				}

@@ -36,7 +36,7 @@
 						},
 						{
 							"function": "minecraft:set_custom_data",
-							"tag": "{eiagon:1}"
+							"tag": "{item:\"eiagon\"}"
 						}
 					]
 				}

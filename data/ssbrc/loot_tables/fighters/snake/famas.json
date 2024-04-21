@@ -43,7 +43,7 @@
 						},
 						{
 							"function": "minecraft:set_custom_data",
-							"tag": "{famas:1}"
+							"tag": "{item:\"famas\"}"
 						}
 					]
 				}

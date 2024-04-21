@@ -19,6 +19,25 @@
 							}
 						},
 						{
+							"function": "minecraft:set_attributes",
+							"modifiers": [
+								{
+									"attribute": "minecraft:generic.attack_damage",
+									"name": "Attack Damage",
+									"amount": 4,
+									"operation": "add_multiplied_base",
+									"slot": "mainhand"
+								},
+								{
+									"attribute": "minecraft:generic.attack_speed",
+									"name": "Attack Speed",
+									"amount": 1,
+									"operation": "add_multiplied_base",
+									"slot": "mainhand"
+								}
+							]
+						},
+						{
 							"function": "minecraft:set_enchantments",
 							"enchantments": {
 								"minecraft:loyalty": 1
@@ -30,12 +49,8 @@
 							"name": "ssbrc:fighters/init/tooltip/ability/hybrid"
 						},
 						{
-							"function": "minecraft:reference",
-							"name": "ssbrc:fighters/init/unbreakable/smooth"
-						},
-						{
 							"function": "minecraft:set_custom_data",
-							"tag": "{trident_of_power:1}"
+							"tag": "{item:\"trident_of_power\"}"
 						}
 					]
 				}

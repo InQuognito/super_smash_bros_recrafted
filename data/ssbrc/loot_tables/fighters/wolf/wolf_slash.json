@@ -117,7 +117,7 @@
 						},
 						{
 							"function": "minecraft:set_custom_data",
-							"tag": "{wolf_slash:1}"
+							"tag": "{item:\"wolf_slash\"}"
 						}
 					]
 				}

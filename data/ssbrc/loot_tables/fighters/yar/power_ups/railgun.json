@@ -75,7 +75,7 @@
 						},
 						{
 							"function": "minecraft:set_custom_data",
-							"tag": "{railgun:1,power_up:1}"
+							"tag": "{group:\"power_up\",power_up:\"railgun\"}"
 						}
 					]
 				}

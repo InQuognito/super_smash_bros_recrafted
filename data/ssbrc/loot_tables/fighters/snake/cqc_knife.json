@@ -75,7 +75,7 @@
 						},
 						{
 							"function": "minecraft:set_custom_data",
-							"tag": "{cqc_knife:1}"
+							"tag": "{item:\"cqc_knife\"}"
 						}
 					]
 				}

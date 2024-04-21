@@ -51,7 +51,7 @@
 						},
 						{
 							"function": "minecraft:set_custom_data",
-							"tag": "{status:1,detected:1}"
+							"tag": "{item:\"status\",detected:\"true\"}"
 						}
 					]
 				}

@@ -24,6 +24,10 @@
 						},
 						{
 							"function": "minecraft:reference",
+							"name": "ssbrc:fighters/init/ability/default"
+						},
+						{
+							"function": "minecraft:reference",
 							"name": "ssbrc:fighters/init/animation/instant"
 						},
 						{
@@ -59,7 +63,7 @@
 						},
 						{
 							"function": "minecraft:set_custom_data",
-							"tag": "{steed_charge:1}"
+							"tag": "{item:\"steed_charge\"}"
 						}
 					]
 				}

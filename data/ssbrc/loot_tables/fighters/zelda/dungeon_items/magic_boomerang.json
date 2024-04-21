@@ -45,7 +45,7 @@
 						},
 						{
 							"function": "minecraft:set_custom_data",
-							"tag": "{magic_boomerang:1}"
+							"tag": "{item:\"magic_boomerang\"}"
 						}
 					]
 				}

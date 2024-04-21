@@ -85,7 +85,7 @@
 						},
 						{
 							"function": "minecraft:set_custom_data",
-							"tag": "{bomb:1}"
+							"tag": "{item:\"bomb\"}"
 						}
 					]
 				}

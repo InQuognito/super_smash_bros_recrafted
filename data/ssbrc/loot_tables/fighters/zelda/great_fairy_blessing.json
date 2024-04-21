@@ -45,7 +45,7 @@
 						},
 						{
 							"function": "minecraft:set_custom_data",
-							"tag": "{great_fairy_blessing:1}"
+							"tag": "{item:\"great_fairy_blessing\"}"
 						}
 					]
 				}

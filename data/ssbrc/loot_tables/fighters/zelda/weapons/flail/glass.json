@@ -38,11 +38,8 @@
 							]
 						},
 						{
-							"function": "minecraft:set_enchantments",
-							"enchantments": {
-								"minecraft:sweeping_edge": 1
-							},
-							"add": false
+							"function": "minecraft:reference",
+							"name": "ssbrc:fighters/zelda/weapons/flail/init"
 						},
 						{
 							"function": "minecraft:reference",
@@ -51,10 +48,6 @@
 						{
 							"function": "minecraft:set_custom_model_data",
 							"value": 9008
-						},
-						{
-							"function": "minecraft:set_custom_data",
-							"tag": "{flail:1}"
 						}
 					]
 				}

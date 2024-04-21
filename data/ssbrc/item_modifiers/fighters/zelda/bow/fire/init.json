@@ -38,6 +38,6 @@
 	},
 	{
 		"function": "minecraft:set_custom_data",
-		"tag": "{bow:1,fire:1}"
+		"tag": "{item:\"bow\",type:\"fire\"}"
 	}
 ]

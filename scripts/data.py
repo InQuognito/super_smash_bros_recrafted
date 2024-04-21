@@ -223,7 +223,7 @@ fighters = {
 		'color': 'green',
 		'default': True,
 		'skins': {
-			'dark_tunic': {
+			'dark_link': {
 				'model': 722,
 				'color': 'dark_gray'
 			},

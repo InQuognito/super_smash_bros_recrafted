@@ -59,7 +59,7 @@
 						},
 						{
 							"function": "minecraft:set_custom_data",
-							"tag": "{water_gun:1}"
+							"tag": "{item:\"water_gun\"}"
 						}
 					]
 				}

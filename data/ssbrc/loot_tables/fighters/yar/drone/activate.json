@@ -111,7 +111,7 @@
 						},
 						{
 							"function": "minecraft:set_custom_data",
-							"tag": "{activate:1}"
+							"tag": "{command:\"activate\"}"
 						}
 					]
 				}

@@ -59,7 +59,7 @@
 						},
 						{
 							"function": "minecraft:set_custom_data",
-							"tag": "{chaos_control:1}"
+							"tag": "{item:\"chaos_control\"}"
 						}
 					]
 				}

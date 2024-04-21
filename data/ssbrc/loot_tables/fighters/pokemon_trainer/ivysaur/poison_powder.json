@@ -65,7 +65,7 @@
 						},
 						{
 							"function": "minecraft:set_custom_data",
-							"tag": "{poison_powder:1}"
+							"tag": "{item:\"poison_powder\"}"
 						}
 					]
 				}

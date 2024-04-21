@@ -47,7 +47,7 @@
 						},
 						{
 							"function": "minecraft:set_custom_data",
-							"tag": "{gladius:1}"
+							"tag": "{item:\"gladius\"}"
 						}
 					]
 				}

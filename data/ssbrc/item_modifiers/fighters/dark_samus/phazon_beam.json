@@ -4,6 +4,10 @@
 		"name": "ssbrc:fighters/init/tooltip/ability/ranged"
 	},
 	{
+		"function": "minecraft:reference",
+		"name": "ssbrc:fighters/init/ability/default"
+	},
+	{
 		"function": "minecraft:set_lore",
 		"entity": "this",
 		"lore": [
@@ -99,6 +103,6 @@
 	},
 	{
 		"function": "minecraft:set_custom_data",
-		"tag": "{phazon_beam:1}"
+		"tag": "{item:\"phazon_beam\"}"
 	}
 ]

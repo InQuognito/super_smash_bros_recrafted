@@ -101,7 +101,7 @@
 						},
 						{
 							"function": "minecraft:set_custom_data",
-							"tag": "{blood_metamorphosis:1}"
+							"tag": "{item:\"blood_metamorphosis\"}"
 						}
 					]
 				}

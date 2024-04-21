@@ -4,6 +4,10 @@
 		"name": "ssbrc:fighters/init/preset/ranged"
 	},
 	{
+		"function": "minecraft:reference",
+		"name": "ssbrc:fighters/init/ability/default"
+	},
+	{
 		"function": "minecraft:set_lore",
 		"entity": "this",
 		"lore": [

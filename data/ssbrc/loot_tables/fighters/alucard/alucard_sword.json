@@ -94,7 +94,7 @@
 						},
 						{
 							"function": "minecraft:set_custom_data",
-							"tag": "{alucard_sword:1}"
+							"tag": "{item:\"alucard_sword\"}"
 						}
 					]
 				}

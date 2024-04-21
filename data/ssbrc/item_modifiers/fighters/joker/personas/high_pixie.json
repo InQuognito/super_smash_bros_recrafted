@@ -28,6 +28,6 @@
 	},
 	{
 		"function": "minecraft:set_custom_data",
-		"tag": "{high_pixie:1}"
+		"tag": "{persona:\"high_pixie\"}"
 	}
 ]

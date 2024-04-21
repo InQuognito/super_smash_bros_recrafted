@@ -39,11 +39,11 @@
 						},
 						{
 							"function": "minecraft:reference",
-							"name": "ssbrc:fighters/zelda/weapons/obsidian/dagger"
+							"name": "ssbrc:fighters/zelda/weapons/dagger/obsidian"
 						},
 						{
 							"function": "minecraft:set_custom_data",
-							"tag": "{obsidian:0}"
+							"tag": "{level:0}"
 						}
 					]
 				}

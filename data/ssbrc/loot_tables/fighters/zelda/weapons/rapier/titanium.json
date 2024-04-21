@@ -39,15 +39,15 @@
 						},
 						{
 							"function": "minecraft:reference",
+							"name": "ssbrc:fighters/zelda/weapons/rapier/init"
+						},
+						{
+							"function": "minecraft:reference",
 							"name": "ssbrc:fighters/zelda/weapons/titanium"
 						},
 						{
 							"function": "minecraft:set_custom_model_data",
 							"value": 9017
-						},
-						{
-							"function": "minecraft:set_custom_data",
-							"tag": "{rapier:1}"
 						}
 					]
 				}

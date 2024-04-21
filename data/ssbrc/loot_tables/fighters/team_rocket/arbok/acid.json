@@ -65,7 +65,7 @@
 						},
 						{
 							"function": "minecraft:set_custom_data",
-							"tag": "{acid:1}"
+							"tag": "{item:\"acid\"}"
 						}
 					]
 				}

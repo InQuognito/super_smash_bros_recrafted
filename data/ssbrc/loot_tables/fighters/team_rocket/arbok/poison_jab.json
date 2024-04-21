@@ -56,7 +56,7 @@
 						},
 						{
 							"function": "minecraft:set_custom_data",
-							"tag": "{poison_jab:1}"
+							"tag": "{item:\"poison_jab\"}"
 						}
 					]
 				}

@@ -32,6 +32,10 @@
 						},
 						{
 							"function": "minecraft:reference",
+							"name": "ssbrc:fighters/init/ability/default"
+						},
+						{
+							"function": "minecraft:reference",
 							"name": "ssbrc:fighters/init/animation/instant"
 						},
 						{
@@ -67,7 +71,7 @@
 						},
 						{
 							"function": "minecraft:set_custom_data",
-							"tag": "{pk_beam:1}"
+							"tag": "{item:\"pk_beam\"}"
 						}
 					]
 				}

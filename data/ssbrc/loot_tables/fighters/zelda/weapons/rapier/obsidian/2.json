@@ -46,11 +46,11 @@
 						},
 						{
 							"function": "minecraft:reference",
-							"name": "ssbrc:fighters/zelda/weapons/obsidian/rapier"
+							"name": "ssbrc:fighters/zelda/weapons/rapier/obsidian"
 						},
 						{
 							"function": "minecraft:set_custom_data",
-							"tag": "{obsidian:2}"
+							"tag": "{level:2}"
 						}
 					]
 				}

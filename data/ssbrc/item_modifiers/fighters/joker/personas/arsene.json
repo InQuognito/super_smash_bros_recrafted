@@ -28,6 +28,6 @@
 	},
 	{
 		"function": "minecraft:set_custom_data",
-		"tag": "{arsene:1}"
+		"tag": "{persona:\"arsene\"}"
 	}
 ]

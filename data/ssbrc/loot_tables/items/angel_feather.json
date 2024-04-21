@@ -47,7 +47,7 @@
 						},
 						{
 							"function": "minecraft:set_custom_data",
-							"tag": "{angel_feather:1}"
+							"tag": "{item:\"angel_feather\"}"
 						}
 					]
 				}

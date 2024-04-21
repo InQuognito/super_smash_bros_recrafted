@@ -61,7 +61,7 @@
 						},
 						{
 							"function": "minecraft:set_custom_data",
-							"tag": "{grenade:1}"
+							"tag": "{item:\"grenade\"}"
 						}
 					]
 				}

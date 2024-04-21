@@ -36,7 +36,7 @@
 						},
 						{
 							"function": "minecraft:set_custom_data",
-							"tag": "{amrita_shower:1}"
+							"tag": "{item:\"amrita_shower\"}"
 						}
 					]
 				}

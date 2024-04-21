@@ -82,7 +82,7 @@
 						},
 						{
 							"function": "minecraft:set_custom_data",
-							"tag": "{tornado:1}"
+							"tag": "{item:\"tornado\"}"
 						}
 					]
 				}

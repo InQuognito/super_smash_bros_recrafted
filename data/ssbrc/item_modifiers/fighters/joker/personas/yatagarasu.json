@@ -45,6 +45,6 @@
 	},
 	{
 		"function": "minecraft:set_custom_data",
-		"tag": "{yatagarasu:1}"
+		"tag": "{persona:\"yatagarasu\"}"
 	}
 ]

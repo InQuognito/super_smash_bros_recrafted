@@ -33,11 +33,15 @@
 						},
 						{
 							"function": "minecraft:reference",
+							"name": "ssbrc:fighters/init/ability/default"
+						},
+						{
+							"function": "minecraft:reference",
 							"name": "ssbrc:fighters/cloud/buster_sword"
 						},
 						{
 							"function": "minecraft:set_custom_data",
-							"tag": "{buster_sword:1}"
+							"tag": "{item:\"buster_sword\"}"
 						}
 					]
 				}

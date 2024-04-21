@@ -38,6 +38,6 @@
 	},
 	{
 		"function": "minecraft:set_custom_data",
-		"tag": "{ray_blaster:1,power_up:0,railgun:1}"
+		"tag": "{item:\"railgun\",power_up:\"false\"}"
 	}
 ]

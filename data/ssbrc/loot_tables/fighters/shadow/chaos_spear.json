@@ -49,7 +49,7 @@
 						},
 						{
 							"function": "minecraft:set_custom_data",
-							"tag": "{chaos_spear:1}"
+							"tag": "{item:\"chaos_spear\"}"
 						}
 					]
 				}

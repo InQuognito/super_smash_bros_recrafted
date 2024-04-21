@@ -43,7 +43,7 @@
 						},
 						{
 							"function": "minecraft:set_custom_data",
-							"tag": "{devastation_strike:1}"
+							"tag": "{item:\"devastation_strike\"}"
 						}
 					]
 				}

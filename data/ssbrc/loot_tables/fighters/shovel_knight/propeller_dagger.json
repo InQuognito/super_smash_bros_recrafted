@@ -59,7 +59,7 @@
 						},
 						{
 							"function": "minecraft:set_custom_data",
-							"tag": "{propeller_dagger:1,disabled:0}"
+							"tag": "{item:\"propeller_dagger\",disabled:\"false\"}"
 						}
 					]
 				}

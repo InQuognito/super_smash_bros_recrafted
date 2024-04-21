@@ -36,7 +36,7 @@
 						},
 						{
 							"function": "minecraft:set_custom_data",
-							"tag": "{hama:1}"
+							"tag": "{item:\"hama\"}"
 						}
 					]
 				}

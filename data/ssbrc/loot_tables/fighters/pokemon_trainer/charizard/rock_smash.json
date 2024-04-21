@@ -87,7 +87,7 @@
 						},
 						{
 							"function": "minecraft:set_custom_data",
-							"tag": "{rock_smash:1}"
+							"tag": "{item:\"rock_smash\"}"
 						}
 					]
 				}

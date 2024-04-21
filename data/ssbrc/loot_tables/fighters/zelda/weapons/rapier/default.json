@@ -19,35 +19,12 @@
 							}
 						},
 						{
-							"function": "minecraft:set_attributes",
-							"modifiers": [
-								{
-									"attribute": "minecraft:generic.attack_damage",
-									"name": "Attack Damage",
-									"amount": 6,
-									"operation": "add_multiplied_base",
-									"slot": "mainhand"
-								},
-								{
-									"attribute": "minecraft:generic.attack_speed",
-									"name": "Attack Speed",
-									"amount": 2,
-									"operation": "add_multiplied_base",
-									"slot": "mainhand"
-								}
-							]
-						},
-						{
 							"function": "minecraft:reference",
-							"name": "ssbrc:fighters/init/preset/melee"
+							"name": "ssbrc:fighters/zelda/weapons/rapier/default"
 						},
 						{
 							"function": "minecraft:set_custom_model_data",
 							"value": 9012
-						},
-						{
-							"function": "minecraft:set_custom_data",
-							"tag": "{rapier:1}"
 						}
 					]
 				}

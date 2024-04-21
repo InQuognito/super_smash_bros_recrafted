@@ -79,7 +79,7 @@
 						},
 						{
 							"function": "minecraft:set_custom_data",
-							"tag": "{stop:1}"
+							"tag": "{command:\"stop\"}"
 						}
 					]
 				}

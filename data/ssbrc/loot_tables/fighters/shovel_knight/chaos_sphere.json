@@ -65,7 +65,7 @@
 						},
 						{
 							"function": "minecraft:set_custom_data",
-							"tag": "{chaos_sphere:1}"
+							"tag": "{item:\"chaos_sphere\",disabled:\"false\"}"
 						}
 					]
 				}

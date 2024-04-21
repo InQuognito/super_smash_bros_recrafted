@@ -43,7 +43,7 @@
 						},
 						{
 							"function": "minecraft:set_custom_data",
-							"tag": "{fairy_bow:1}"
+							"tag": "{item:\"fairy_bow\"}"
 						}
 					]
 				}

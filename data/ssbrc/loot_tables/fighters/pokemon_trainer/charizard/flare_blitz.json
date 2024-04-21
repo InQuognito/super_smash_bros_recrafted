@@ -65,7 +65,7 @@
 						},
 						{
 							"function": "minecraft:set_custom_data",
-							"tag": "{flare_blitz:1}"
+							"tag": "{item:\"flare_blitz\"}"
 						}
 					]
 				}

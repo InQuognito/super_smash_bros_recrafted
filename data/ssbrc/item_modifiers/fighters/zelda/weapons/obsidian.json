@@ -1,9 +1,5 @@
 [
 	{
-		"function": "minecraft:reference",
-		"name": "ssbrc:fighters/zelda/weapons/enchanted"
-	},
-	{
 		"function": "minecraft:set_lore",
 		"entity": "this",
 		"lore": [
@@ -15,5 +11,9 @@
 			}
 		],
 		"mode": "append"
+	},
+	{
+		"function": "minecraft:set_custom_data",
+		"tag": "{enchanted:\"true\",enchantment:\"obsidian\"}"
 	}
 ]

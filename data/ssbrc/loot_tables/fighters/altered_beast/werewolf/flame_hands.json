@@ -50,7 +50,7 @@
 						},
 						{
 							"function": "minecraft:reference",
-							"name": "ssbrc:fighters/init/common"
+							"name": "ssbrc:fighters/init/ability/default"
 						},
 						{
 							"function": "minecraft:set_lore",
@@ -91,7 +91,7 @@
 						},
 						{
 							"function": "minecraft:set_custom_data",
-							"tag": "{flame_hands:1}"
+							"tag": "{item:\"flame_hands\"}"
 						}
 					]
 				}

@@ -43,7 +43,7 @@
 						},
 						{
 							"function": "minecraft:set_custom_data",
-							"tag": "{s1000:1}"
+							"tag": "{item:\"s1000\"}"
 						}
 					]
 				}

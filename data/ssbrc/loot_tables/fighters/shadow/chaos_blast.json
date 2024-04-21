@@ -73,7 +73,7 @@
 						},
 						{
 							"function": "minecraft:set_custom_data",
-							"tag": "{chaos_blast:1}"
+							"tag": "{item:\"chaos_blast\"}"
 						}
 					]
 				}

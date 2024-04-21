@@ -24,7 +24,11 @@
 						},
 						{
 							"function": "minecraft:reference",
-							"name": "ssbrc:fighters/init/animation/instant"
+							"name": "ssbrc:fighters/init/ability/default"
+						},
+						{
+							"function": "minecraft:reference",
+							"name": "ssbrc:fighters/init/ui"
 						},
 						{
 							"function": "minecraft:set_lore",
@@ -91,7 +95,7 @@
 						},
 						{
 							"function": "minecraft:set_custom_data",
-							"tag": "{spirit_orb:1}"
+							"tag": "{item:\"spirit_orb\"}"
 						}
 					]
 				}

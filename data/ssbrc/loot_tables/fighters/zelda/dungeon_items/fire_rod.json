@@ -99,7 +99,7 @@
 						},
 						{
 							"function": "minecraft:set_custom_data",
-							"tag": "{fire_rod:1}"
+							"tag": "{item:\"fire_rod\"}"
 						}
 					]
 				}

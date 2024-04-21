@@ -71,7 +71,7 @@
 						},
 						{
 							"function": "minecraft:set_custom_data",
-							"tag": "{destiny_bond:1}"
+							"tag": "{item:\"destiny_bond\"}"
 						}
 					]
 				}

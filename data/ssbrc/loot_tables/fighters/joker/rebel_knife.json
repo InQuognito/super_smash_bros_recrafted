@@ -30,7 +30,7 @@
 						},
 						{
 							"function": "minecraft:set_custom_data",
-							"tag": "{rebel_knife:1}"
+							"tag": "{item:\"rebel_knife\"}"
 						}
 					]
 				}

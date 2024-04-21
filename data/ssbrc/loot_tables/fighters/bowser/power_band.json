@@ -72,7 +72,7 @@
 						},
 						{
 							"function": "minecraft:set_custom_data",
-							"tag": "{power_band:1}"
+							"tag": "{item:\"power_band\"}"
 						}
 					]
 				}

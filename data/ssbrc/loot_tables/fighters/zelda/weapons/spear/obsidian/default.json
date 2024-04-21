@@ -39,11 +39,11 @@
 						},
 						{
 							"function": "minecraft:reference",
-							"name": "ssbrc:fighters/zelda/weapons/obsidian/spear"
+							"name": "ssbrc:fighters/zelda/weapons/spear/obsidian"
 						},
 						{
 							"function": "minecraft:set_custom_data",
-							"tag": "{obsidian:0}"
+							"tag": "{level:0}"
 						}
 					]
 				}

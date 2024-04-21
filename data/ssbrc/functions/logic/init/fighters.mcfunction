@@ -263,8 +263,8 @@ data modify storage ssbrc:data fighters set value {\
 		"color": "green",\
 		"skin_count": 5,\
 		"skins": {\
-			"dark_tunic": {\
-				"name": "dark_tunic",\
+			"dark_link": {\
+				"name": "dark_link",\
 				"model": 722,\
 				"color": "dark_gray",\
 			},\

@@ -71,7 +71,7 @@
 						},
 						{
 							"function": "minecraft:set_custom_data",
-							"tag": "{leech_seed:1}"
+							"tag": "{item:\"leech_seed\"}"
 						}
 					]
 				}

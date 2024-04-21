@@ -10,7 +10,7 @@
 					"functions": [
 						{
 							"function": "minecraft:reference",
-							"name": "ssbrc:fighters/link/skins/dark_tunic"
+							"name": "ssbrc:fighters/link/skins/dark_link"
 						},
 						{
 							"function": "minecraft:reference",
@@ -22,7 +22,7 @@
 						},
 						{
 							"function": "minecraft:set_custom_data",
-							"tag": "{ui:{id:\"skins.link.dark_tunic\",sound:\"click\"}}"
+							"tag": "{ui:{id:\"skins.link.dark_link\",sound:\"click\"}}"
 						}
 					]
 				}

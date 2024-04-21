@@ -22,7 +22,7 @@
 						},
 						{
 							"function": "minecraft:set_custom_data",
-							"tag": "{split:1}"
+							"tag": "{split:\"true\"}"
 						}
 					]
 				}

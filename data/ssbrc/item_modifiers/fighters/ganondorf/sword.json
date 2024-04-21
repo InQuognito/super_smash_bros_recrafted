@@ -24,6 +24,6 @@
 	},
 	{
 		"function": "minecraft:set_custom_data",
-		"tag": "{ganondorf.sword:1}"
+		"tag": "{item:\"ganondorf.sword\"}"
 	}
 ]

@@ -47,7 +47,7 @@
 						},
 						{
 							"function": "minecraft:set_custom_data",
-							"tag": "{dragon_claw:1}"
+							"tag": "{item:\"dragon_claw\"}"
 						}
 					]
 				}

@@ -78,7 +78,7 @@
 						},
 						{
 							"function": "minecraft:set_custom_data",
-							"tag": "{night_slash:1}"
+							"tag": "{item:\"night_slash\"}"
 						}
 					]
 				}

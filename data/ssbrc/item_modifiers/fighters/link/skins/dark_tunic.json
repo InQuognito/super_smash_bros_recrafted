@@ -4,7 +4,7 @@
 		"entity": "this",
 		"target": "item_name",
 		"name": {
-			"translate": "ssbrc.fighters.link.skin.dark_tunic",
+			"translate": "ssbrc.fighters.link.skin.dark_link",
 			"color": "dark_gray",
 			"bold": true
 		}

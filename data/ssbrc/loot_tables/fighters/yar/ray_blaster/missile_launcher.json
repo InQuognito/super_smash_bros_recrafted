@@ -82,7 +82,7 @@
 						},
 						{
 							"function": "minecraft:set_custom_data",
-							"tag": "{missile_launcher:1}"
+							"tag": "{item:\"missile_launcher\"}"
 						}
 					]
 				}

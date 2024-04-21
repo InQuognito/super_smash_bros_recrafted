@@ -119,6 +119,6 @@
 	},
 	{
 		"function": "minecraft:set_custom_data",
-		"tag": "{thunder:1}"
+		"tag": "{spell:\"thunder\"}"
 	}
 ]

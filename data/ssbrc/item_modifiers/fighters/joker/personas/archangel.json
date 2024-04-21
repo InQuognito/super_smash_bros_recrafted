@@ -28,6 +28,6 @@
 	},
 	{
 		"function": "minecraft:set_custom_data",
-		"tag": "{archangel:1}"
+		"tag": "{persona:\"archangel\"}"
 	}
 ]

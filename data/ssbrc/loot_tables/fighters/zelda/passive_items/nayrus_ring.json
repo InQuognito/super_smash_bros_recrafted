@@ -47,7 +47,7 @@
 						},
 						{
 							"function": "minecraft:set_custom_data",
-							"tag": "{nayrus_ring:1}"
+							"tag": "{item:\"nayrus_ring\"}"
 						}
 					]
 				}

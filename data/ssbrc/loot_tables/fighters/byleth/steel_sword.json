@@ -66,7 +66,7 @@
 						},
 						{
 							"function": "minecraft:set_custom_data",
-							"tag": "{steel_sword:1}"
+							"tag": "{item:\"steel_sword\"}"
 						}
 					]
 				}

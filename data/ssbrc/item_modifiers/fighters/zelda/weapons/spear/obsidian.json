@@ -1,14 +1,14 @@
 [
 	{
 		"function": "minecraft:reference",
+		"name": "ssbrc:fighters/zelda/weapons/spear/init"
+	},
+	{
+		"function": "minecraft:reference",
 		"name": "ssbrc:fighters/zelda/weapons/obsidian"
 	},
 	{
 		"function": "minecraft:set_custom_model_data",
 		"value": 9021
-	},
-	{
-		"function": "minecraft:set_custom_data",
-		"tag": "{spear:1}"
 	}
 ]

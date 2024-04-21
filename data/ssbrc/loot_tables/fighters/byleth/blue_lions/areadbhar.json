@@ -32,6 +32,10 @@
 							"name": "ssbrc:fighters/init/preset/melee"
 						},
 						{
+							"function": "minecraft:reference",
+							"name": "ssbrc:fighters/init/ability/charge"
+						},
+						{
 							"function": "minecraft:set_lore",
 							"entity": "this",
 							"lore": [
@@ -105,7 +109,7 @@
 						},
 						{
 							"function": "minecraft:set_custom_data",
-							"tag": "{areadbhar:1}"
+							"tag": "{item:\"areadbhar\"}"
 						}
 					]
 				}

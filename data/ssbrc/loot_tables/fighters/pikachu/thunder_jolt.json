@@ -65,7 +65,7 @@
 						},
 						{
 							"function": "minecraft:set_custom_data",
-							"tag": "{thunder_jolt:1}"
+							"tag": "{item:\"thunder_jolt\"}"
 						}
 					]
 				}

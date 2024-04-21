@@ -36,7 +36,7 @@
 						},
 						{
 							"function": "minecraft:set_custom_data",
-							"tag": "{phantom_show:1}"
+							"tag": "{item:\"phantom_show\"}"
 						}
 					]
 				}

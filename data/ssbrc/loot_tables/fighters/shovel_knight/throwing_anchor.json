@@ -65,7 +65,7 @@
 						},
 						{
 							"function": "minecraft:set_custom_data",
-							"tag": "{throwing_anchor:1,disabled:0}"
+							"tag": "{item:\"throwing_anchor\",disabled:\"false\"}"
 						}
 					]
 				}
