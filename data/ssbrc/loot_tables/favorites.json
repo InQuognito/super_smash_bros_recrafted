@@ -51,7 +51,7 @@
 						},
 						{
 							"function": "minecraft:set_custom_data",
-							"tag": "{favorites:1}"
+							"tag": "{item:\"favorites\"}"
 						}
 					]
 				}

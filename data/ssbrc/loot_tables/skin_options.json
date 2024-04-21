@@ -55,7 +55,7 @@
 						},
 						{
 							"function": "minecraft:set_custom_data",
-							"tag": "{skin_options:1}"
+							"tag": "{item:\"skin_options\"}"
 						}
 					]
 				}

@@ -55,7 +55,7 @@
 						},
 						{
 							"function": "minecraft:set_custom_data",
-							"tag": "{wiki:1}"
+							"tag": "{item:\"wiki\"}"
 						}
 					]
 				}
