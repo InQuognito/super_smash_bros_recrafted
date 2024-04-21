@@ -42,7 +42,7 @@
 				],
 				"item": {
 					"predicates": {
-						"minecraft:custom_data": "{spirit_orb:1}"
+						"minecraft:custom_data": "{item:\"spirit_orb\"}"
 					}
 				}
 			}

@@ -22,7 +22,7 @@
 				],
 				"item": {
 					"predicates": {
-						"minecraft:custom_data": "{electric_terrain:1}"
+						"minecraft:custom_data": "{item:\"electric_terrain\"}"
 					}
 				}
 			}

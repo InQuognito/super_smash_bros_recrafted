@@ -44,7 +44,7 @@
 				],
 				"item": {
 					"predicates": {
-						"minecraft:custom_data": "{anti_personnel_mine:1}"
+						"minecraft:custom_data": "{item:\"anti_personnel_mine\"}"
 					}
 				}
 			}

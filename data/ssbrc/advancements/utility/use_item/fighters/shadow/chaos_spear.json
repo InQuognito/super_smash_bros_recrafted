@@ -34,7 +34,7 @@
 				],
 				"item": {
 					"predicates": {
-						"minecraft:custom_data": "{chaos_spear:1,disabled:0}"
+						"minecraft:custom_data": "{item:\"chaos_spear\",disabled:\"false\"}"
 					}
 				}
 			}

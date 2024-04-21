@@ -22,7 +22,7 @@
 				],
 				"item": {
 					"predicates": {
-						"minecraft:custom_data": "{phazon_overload:1}"
+						"minecraft:custom_data": "{item:\"phazon_overload\"}"
 					}
 				}
 			}

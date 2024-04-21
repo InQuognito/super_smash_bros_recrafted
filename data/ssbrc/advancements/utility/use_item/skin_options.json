@@ -17,7 +17,7 @@
 				],
 				"item": {
 					"predicates": {
-						"minecraft:custom_data": "{skin_options:1}"
+						"minecraft:custom_data": "{item:\"skin_options\"}"
 					}
 				}
 			}

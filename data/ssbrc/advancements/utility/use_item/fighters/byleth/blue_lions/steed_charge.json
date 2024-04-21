@@ -31,7 +31,7 @@
 				],
 				"item": {
 					"predicates": {
-						"minecraft:custom_data": "{steed_charge:1}"
+						"minecraft:custom_data": "{item:\"steed_charge\"}"
 					}
 				}
 			}

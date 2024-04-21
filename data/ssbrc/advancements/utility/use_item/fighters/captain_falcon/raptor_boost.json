@@ -34,7 +34,7 @@
 				],
 				"item": {
 					"predicates": {
-						"minecraft:custom_data": "{fists_of_fury:1}"
+						"minecraft:custom_data": "{item:\"fists_of_fury\"}"
 					}
 				}
 			}

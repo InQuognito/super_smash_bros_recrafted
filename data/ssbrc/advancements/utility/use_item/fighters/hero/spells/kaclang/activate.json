@@ -43,7 +43,7 @@
 				],
 				"item": {
 					"predicates": {
-						"minecraft:custom_data": "{kaclang:1}"
+						"minecraft:custom_data": "{item:\"kaclang\"}"
 					}
 				}
 			}

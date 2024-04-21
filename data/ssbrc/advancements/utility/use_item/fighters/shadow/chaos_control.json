@@ -31,7 +31,7 @@
 				],
 				"item": {
 					"predicates": {
-						"minecraft:custom_data": "{chaos_control:1}"
+						"minecraft:custom_data": "{item:\"chaos_control\"}"
 					}
 				}
 			}

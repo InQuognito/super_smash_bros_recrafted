@@ -35,7 +35,7 @@
 				],
 				"item": {
 					"predicates": {
-						"minecraft:custom_data": "{drone:1,activate:1}"
+						"minecraft:custom_data": "{item:\"drone\",command:\"activate\"}"
 					}
 				}
 			}

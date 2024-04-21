@@ -38,7 +38,7 @@
 							"equipment": {
 								"mainhand": {
 									"predicates": {
-										"minecraft:custom_data": "{bow:1}"
+										"minecraft:custom_data": "{item:\"bow\"}"
 									}
 								}
 							}

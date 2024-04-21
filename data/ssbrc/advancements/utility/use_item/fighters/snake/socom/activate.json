@@ -47,7 +47,7 @@
 				],
 				"item": {
 					"predicates": {
-						"minecraft:custom_data": "{socom:1}"
+						"minecraft:custom_data": "{item:\"socom\"}"
 					}
 				}
 			}

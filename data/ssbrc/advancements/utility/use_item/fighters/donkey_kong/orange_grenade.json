@@ -34,7 +34,7 @@
 				],
 				"item": {
 					"predicates": {
-						"minecraft:custom_data": "{orange_grenade:1}"
+						"minecraft:custom_data": "{item:\"orange_grenade\"}"
 					}
 				}
 			}

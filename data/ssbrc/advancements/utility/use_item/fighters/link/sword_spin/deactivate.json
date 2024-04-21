@@ -38,7 +38,7 @@
 				],
 				"item": {
 					"predicates": {
-						"minecraft:custom_data": "{master_sword:1}"
+						"minecraft:custom_data": "{item:\"master_sword\"}"
 					}
 				}
 			}

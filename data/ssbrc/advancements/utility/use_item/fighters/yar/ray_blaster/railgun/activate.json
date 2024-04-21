@@ -38,7 +38,7 @@
 							"equipment": {
 								"mainhand": {
 									"predicates": {
-										"minecraft:custom_data": "{railgun:1,power_up:0}"
+										"minecraft:custom_data": "{item:\"railgun\"}"
 									}
 								}
 							}

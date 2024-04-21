@@ -54,7 +54,7 @@
 							"equipment": {
 								"mainhand": {
 									"predicates": {
-										"minecraft:custom_data": "{propeller_dagger:1}"
+										"minecraft:custom_data": "{item:\"propeller_dagger\"}"
 									}
 								}
 							}

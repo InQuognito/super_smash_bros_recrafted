@@ -17,7 +17,7 @@
 				],
 				"item": {
 					"predicates": {
-						"minecraft:custom_data": "{selector:1}"
+						"minecraft:custom_data": "{item:\"selector\"}"
 					}
 				}
 			}

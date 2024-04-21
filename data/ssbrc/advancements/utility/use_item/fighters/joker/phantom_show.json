@@ -33,7 +33,7 @@
 				],
 				"item": {
 					"predicates": {
-						"minecraft:custom_data": "{phantom_show:1}"
+						"minecraft:custom_data": "{item:\"phantom_show\"}"
 					}
 				}
 			}

@@ -44,7 +44,7 @@
 				],
 				"item": {
 					"predicates": {
-						"minecraft:custom_data": "{smoke_grenade:1}"
+						"minecraft:custom_data": "{item:\"smoke_grenade\"}"
 					}
 				}
 			}

@@ -31,7 +31,7 @@
 				],
 				"item": {
 					"predicates": {
-						"minecraft:custom_data": "{barrel:1}"
+						"minecraft:custom_data": "{item:\"barrel\"}"
 					}
 				}
 			}

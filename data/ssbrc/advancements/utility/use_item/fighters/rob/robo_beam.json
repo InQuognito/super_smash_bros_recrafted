@@ -34,7 +34,7 @@
 				],
 				"item": {
 					"predicates": {
-						"minecraft:custom_data": "{robo_beam:1}"
+						"minecraft:custom_data": "{item:\"robo_beam\"}"
 					}
 				}
 			}

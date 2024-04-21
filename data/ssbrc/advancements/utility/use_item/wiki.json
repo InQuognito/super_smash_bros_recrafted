@@ -17,7 +17,7 @@
 				],
 				"item": {
 					"predicates": {
-						"minecraft:custom_data": "{wiki:1}"
+						"minecraft:custom_data": "{item:\"wiki\"}"
 					}
 				}
 			}

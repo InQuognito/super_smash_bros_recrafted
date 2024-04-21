@@ -43,7 +43,7 @@
 							"equipment": {
 								"offhand": {
 									"predicates": {
-										"minecraft:custom_data": "{keyblade:1}"
+										"minecraft:custom_data": "{item:\"keyblade\"}"
 									}
 								}
 							}
@@ -52,7 +52,7 @@
 				],
 				"item": {
 					"predicates": {
-						"minecraft:custom_data": "{keyblade:1}"
+						"minecraft:custom_data": "{item:\"keyblade\"}"
 					}
 				}
 			}

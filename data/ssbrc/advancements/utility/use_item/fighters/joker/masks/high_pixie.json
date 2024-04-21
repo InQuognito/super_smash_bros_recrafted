@@ -21,7 +21,7 @@
 				],
 				"item": {
 					"predicates": {
-						"minecraft:custom_data": "{mask:1,high_pixie:1}"
+						"minecraft:custom_data": "{group:\"mask\",persona:\"high_pixie\"}"
 					}
 				}
 			}

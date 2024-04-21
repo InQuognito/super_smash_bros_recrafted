@@ -37,7 +37,7 @@
 				],
 				"item": {
 					"predicates": {
-						"minecraft:custom_data": "{krazoan_staff:1}"
+						"minecraft:custom_data": "{item:\"krazoan_staff\"}"
 					}
 				}
 			}

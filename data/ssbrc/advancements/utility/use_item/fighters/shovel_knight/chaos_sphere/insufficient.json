@@ -53,7 +53,7 @@
 				],
 				"item": {
 					"predicates": {
-						"minecraft:custom_data": "{chaos_sphere:1}"
+						"minecraft:custom_data": "{item:\"chaos_sphere\"}"
 					}
 				}
 			}

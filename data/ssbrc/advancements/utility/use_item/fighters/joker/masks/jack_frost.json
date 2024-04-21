@@ -21,7 +21,7 @@
 				],
 				"item": {
 					"predicates": {
-						"minecraft:custom_data": "{mask:1,jack_frost:1}"
+						"minecraft:custom_data": "{group:\"mask\",persona:\"jack_frost\"}"
 					}
 				}
 			}

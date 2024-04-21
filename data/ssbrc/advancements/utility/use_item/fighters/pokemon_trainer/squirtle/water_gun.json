@@ -34,7 +34,7 @@
 				],
 				"item": {
 					"predicates": {
-						"minecraft:custom_data": "{water_gun:1}"
+						"minecraft:custom_data": "{item:\"water_gun\"}"
 					}
 				}
 			}

@@ -15,6 +15,6 @@
 	},
 	{
 		"function": "minecraft:set_custom_data",
-		"tag": "{item:\"shield:1\"}"
+		"tag": "{item:\"shield\"}"
 	}
 ]

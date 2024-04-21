@@ -33,7 +33,7 @@
 				],
 				"item": {
 					"predicates": {
-						"minecraft:custom_data": "{amrita_shower:1}"
+						"minecraft:custom_data": "{item:\"amrita_shower\"}"
 					}
 				}
 			}

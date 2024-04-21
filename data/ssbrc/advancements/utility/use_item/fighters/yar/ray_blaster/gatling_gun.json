@@ -34,7 +34,7 @@
 				],
 				"item": {
 					"predicates": {
-						"minecraft:custom_data": "{gatling_gun:1,power_up:0}"
+						"minecraft:custom_data": "{item:\"gatling_gun\"}"
 					}
 				}
 			}

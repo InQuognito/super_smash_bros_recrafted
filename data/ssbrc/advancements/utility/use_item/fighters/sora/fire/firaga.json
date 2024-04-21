@@ -67,7 +67,7 @@
 				],
 				"item": {
 					"predicates": {
-						"minecraft:custom_data": "{fire:1}"
+						"minecraft:custom_data": "{spell:\"fire\"}"
 					}
 				}
 			}

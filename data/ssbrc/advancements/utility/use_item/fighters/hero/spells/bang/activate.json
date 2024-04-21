@@ -44,7 +44,7 @@
 				],
 				"item": {
 					"predicates": {
-						"minecraft:custom_data": "{bang:1}"
+						"minecraft:custom_data": "{item:\"bang\"}"
 					}
 				}
 			}

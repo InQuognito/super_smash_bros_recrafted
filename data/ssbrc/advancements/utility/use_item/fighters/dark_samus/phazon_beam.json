@@ -41,7 +41,7 @@
 				],
 				"item": {
 					"predicates": {
-						"minecraft:custom_data": "{phazon_beam:1}"
+						"minecraft:custom_data": "{item:\"phazon_beam\"}"
 					}
 				}
 			}

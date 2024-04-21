@@ -56,7 +56,7 @@
 				],
 				"item": {
 					"predicates": {
-						"minecraft:custom_data": "{phase_locket:1}"
+						"minecraft:custom_data": "{item:\"phase_locket\"}"
 					}
 				}
 			}

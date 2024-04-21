@@ -34,7 +34,7 @@
 				],
 				"item": {
 					"predicates": {
-						"minecraft:custom_data": "{splash:1}"
+						"minecraft:custom_data": "{item:\"splash\"}"
 					}
 				}
 			}

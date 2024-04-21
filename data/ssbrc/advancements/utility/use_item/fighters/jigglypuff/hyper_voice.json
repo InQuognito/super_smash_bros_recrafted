@@ -40,7 +40,7 @@
 				],
 				"item": {
 					"predicates": {
-						"minecraft:custom_data": "{hyper_voice:1}"
+						"minecraft:custom_data": "{item:\"hyper_voice\"}"
 					}
 				}
 			}

@@ -31,7 +31,7 @@
 				],
 				"item": {
 					"predicates": {
-						"minecraft:custom_data": "{remote_mine:1}"
+						"minecraft:custom_data": "{item:\"remote_mine\"}"
 					}
 				}
 			}
