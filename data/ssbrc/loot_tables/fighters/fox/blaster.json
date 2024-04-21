@@ -74,7 +74,7 @@
 						},
 						{
 							"function": "minecraft:set_custom_data",
-							"tag": "{item:\"blaster\"}"
+							"tag": "{item:\"fox.blaster\"}"
 						}
 					]
 				}
