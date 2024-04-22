@@ -11,5 +11,3 @@ execute if predicate ssbrc:flag/in_air run function ssbrc:fighters/link/logic/ab
 tag @s remove sword_spin
 
 playsound ssbrc:fighters.link.sword_spin.unleash player @a
-
-advancement revoke @s only ssbrc:utility/use_item/fighters/link/sword_spin/activate
