@@ -4,6 +4,6 @@ execute if entity @s[scores={health=40..},nbt={Inventory:[{components:{"minecraf
 execute if entity @s[scores={health=..6}] run function ssbrc:fighters/link/logic/low_health_alert/check
 
 # Sword Spin
-execute if entity @s[tag=spinning] run function ssbrc:fighters/link/logic/abilities/sword_spin/tick
+execute if entity @s[scores={rotation=1000..}] run function ssbrc:fighters/link/logic/abilities/sword_spin/tick
 
 tag @s[tag=no_spin,predicate=!ssbrc:flag/in_air] remove no_spin
