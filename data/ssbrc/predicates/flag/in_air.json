@@ -4,7 +4,7 @@
 	"predicate": {
 		"stepping_on": {
 			"block": {
-				"tag": "ssbrc:no_hitbox"
+				"blocks": "#ssbrc:no_hitbox"
 			}
 		}
 	}
