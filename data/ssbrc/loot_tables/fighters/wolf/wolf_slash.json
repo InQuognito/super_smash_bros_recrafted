@@ -32,6 +32,10 @@
 							"name": "ssbrc:fighters/init/preset/hybrid"
 						},
 						{
+							"function": "minecraft:reference",
+							"name": "ssbrc:fighters/init/ability/default"
+						},
+						{
 							"function": "minecraft:set_lore",
 							"entity": "this",
 							"lore": [

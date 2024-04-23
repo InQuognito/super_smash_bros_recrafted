@@ -1,6 +1,18 @@
 [
 	{
 		"function": "minecraft:reference",
+		"name": "ssbrc:fighters/init/tooltip/ability/utility"
+	},
+	{
+		"function": "minecraft:reference",
+		"name": "ssbrc:fighters/init/ability/default"
+	},
+	{
+		"function": "minecraft:reference",
+		"name": "ssbrc:fighters/init/animation/smooth"
+	},
+	{
+		"function": "minecraft:reference",
 		"name": "ssbrc:fighters/yar/drone/default",
 		"conditions": [
 			{

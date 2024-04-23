@@ -4,6 +4,10 @@
 		"name": "ssbrc:fighters/init/preset/bow"
 	},
 	{
+		"function": "minecraft:reference",
+		"name": "ssbrc:fighters/zelda/bow/init"
+	},
+	{
 		"function": "minecraft:set_custom_data",
 		"tag": "{type:\"default\"}"
 	}

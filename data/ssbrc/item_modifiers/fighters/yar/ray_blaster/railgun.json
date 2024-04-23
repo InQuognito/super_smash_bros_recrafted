@@ -4,6 +4,10 @@
 		"name": "ssbrc:fighters/init/tooltip/ability/ranged"
 	},
 	{
+		"function": "minecraft:reference",
+		"name": "ssbrc:fighters/init/ability/charge"
+	},
+	{
 		"function": "minecraft:set_lore",
 		"entity": "this",
 		"lore": [
@@ -38,6 +42,6 @@
 	},
 	{
 		"function": "minecraft:set_custom_data",
-		"tag": "{item:\"railgun\",power_up:\"false\"}"
+		"tag": "{item:\"railgun\",power_up:\"false\",path:\"yar/logic/abilities/ray_blaster/variants/railgun/check\"}"
 	}
 ]

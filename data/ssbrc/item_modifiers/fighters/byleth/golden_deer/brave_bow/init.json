@@ -32,6 +32,6 @@
 	},
 	{
 		"function": "minecraft:set_custom_data",
-		"tag": "{item:\"brave_bow\"}"
+		"tag": "{item:\"brave_bow\",path:\"byleth/logic/golden_deer/brave_bow/activate\"}"
 	}
 ]

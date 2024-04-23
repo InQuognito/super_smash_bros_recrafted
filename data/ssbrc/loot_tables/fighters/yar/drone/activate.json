@@ -40,11 +40,7 @@
 						},
 						{
 							"function": "minecraft:reference",
-							"name": "ssbrc:fighters/init/tooltip/ability/utility"
-						},
-						{
-							"function": "minecraft:reference",
-							"name": "ssbrc:fighters/init/animation/smooth"
+							"name": "ssbrc:fighters/yar/drone"
 						},
 						{
 							"function": "minecraft:set_lore",
@@ -104,10 +100,6 @@
 								}
 							],
 							"mode": "append"
-						},
-						{
-							"function": "minecraft:reference",
-							"name": "ssbrc:fighters/yar/drone"
 						},
 						{
 							"function": "minecraft:set_custom_data",

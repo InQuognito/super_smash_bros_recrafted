@@ -23,6 +23,10 @@
 							"name": "ssbrc:fighters/init/preset/magic"
 						},
 						{
+							"function": "minecraft:reference",
+							"name": "ssbrc:fighters/init/ability/default"
+						},
+						{
 							"function": "minecraft:set_lore",
 							"entity": "this",
 							"lore": [

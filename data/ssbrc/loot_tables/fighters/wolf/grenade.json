@@ -23,6 +23,10 @@
 							"name": "ssbrc:fighters/init/preset/ranged"
 						},
 						{
+							"function": "minecraft:reference",
+							"name": "ssbrc:fighters/init/ability/charge"
+						},
+						{
 							"function": "minecraft:set_lore",
 							"entity": "this",
 							"lore": [
@@ -61,7 +65,7 @@
 						},
 						{
 							"function": "minecraft:set_custom_data",
-							"tag": "{item:\"grenade\"}"
+							"tag": "{item:\"grenade\",path:\"wolf/logic/abilities/grenade/check\"}"
 						}
 					]
 				}
