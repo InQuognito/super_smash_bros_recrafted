@@ -4,4 +4,4 @@ loot replace entity @s hotbar.1 loot ssbrc:fighters/byleth/steel_bow
 
 item replace entity @s hotbar.8 with minecraft:spectral_arrow 8
 
-function ssbrc:fighters/byleth/logic/black_eagles/ground_pound/shield
+loot replace entity @s weapon.offhand loot ssbrc:fighters/byleth/shield

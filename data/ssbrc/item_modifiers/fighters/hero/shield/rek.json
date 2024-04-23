@@ -10,41 +10,7 @@
 		}
 	},
 	{
-		"function": "minecraft:set_banner_pattern",
-		"patterns": [
-			{
-				"pattern": "minecraft:base",
-				"color": "gray"
-			},
-			{
-				"pattern": "minecraft:stripe_right",
-				"color": "orange"
-			},
-			{
-				"pattern": "minecraft:stripe_left",
-				"color": "orange"
-			},
-			{
-				"pattern": "minecraft:stripe_top",
-				"color": "orange"
-			},
-			{
-				"pattern": "minecraft:stripe_bottom",
-				"color": "orange"
-			},
-			{
-				"pattern": "minecraft:border",
-				"color": "yellow"
-			},
-			{
-				"pattern": "minecraft:globe",
-				"color": "gray"
-			},
-			{
-				"pattern": "minecraft:circle",
-				"color": "light_blue"
-			}
-		],
-		"append": false
+		"function": "minecraft:set_custom_model_data",
+		"value": 443
 	}
 ]

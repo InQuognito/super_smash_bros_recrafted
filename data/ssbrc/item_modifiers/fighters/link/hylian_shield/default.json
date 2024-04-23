@@ -10,13 +10,7 @@
 		}
 	},
 	{
-		"function": "minecraft:set_banner_pattern",
-		"patterns": [
-			{
-				"pattern": "ssbrc:fighters/link/hylian_shield/default",
-				"color": "white"
-			}
-		],
-		"append": false
+		"function": "minecraft:set_custom_model_data",
+		"value": 720
 	}
 ]

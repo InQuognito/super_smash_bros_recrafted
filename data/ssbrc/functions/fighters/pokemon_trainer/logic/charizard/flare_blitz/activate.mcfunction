@@ -8,6 +8,8 @@ scoreboard players set @s duration.1 30
 
 function ssbrc:logic/fighters/flags/use_recovery
 
-playsound ssbrc:fighters.pokemon_trainer.charizard.flare_blitz.activate player @a
+execute if entity @s[tag=!dawn,tag=!victor] run playsound ssbrc:fighters.pokemon_trainer.charizard.flare_blitz.activate.default player @a
+execute if entity @s[tag=dawn] run playsound ssbrc:fighters.pokemon_trainer.charizard.flare_blitz.activate.dawn player @a
+execute if entity @s[tag=victor] run playsound ssbrc:fighters.pokemon_trainer.charizard.flare_blitz.activate.victor player @a
 
 function ssbrc:logic/fighters/ability/deinit

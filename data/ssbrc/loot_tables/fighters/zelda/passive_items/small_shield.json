@@ -19,30 +19,12 @@
 							}
 						},
 						{
-							"function": "minecraft:set_banner_pattern",
-							"patterns": [
-								{
-									"pattern": "minecraft:base",
-									"color": "gray"
-								},
-								{
-									"pattern": "minecraft:half_vertical",
-									"color": "blue"
-								},
-								{
-									"pattern": "minecraft:half_vertical_right",
-									"color": "blue"
-								},
-								{
-									"pattern": "minecraft:border",
-									"color": "gray"
-								}
-							],
-							"append": false
-						},
-						{
 							"function": "minecraft:reference",
 							"name": "ssbrc:fighters/init/preset/defensive"
+						},
+						{
+							"function": "minecraft:set_custom_model_data",
+							"value": 1780
 						},
 						{
 							"function": "minecraft:set_custom_data",

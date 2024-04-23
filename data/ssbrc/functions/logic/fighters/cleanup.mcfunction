@@ -47,6 +47,8 @@ clear @s[tag=joker] minecraft:nether_star[minecraft:custom_data={mask:1}]
 
 execute if entity @s[tag=link] run function ssbrc:fighters/link/cleanup
 
+execute at @s[tag=mega_man] run playsound ssbrc:fighters.mega_man.death player @a
+
 execute if entity @s[tag=pokemon_trainer] run function ssbrc:fighters/pokemon_trainer/cleanup
 
 execute if entity @s[tag=rob] run function ssbrc:fighters/rob/cleanup
@@ -59,7 +61,7 @@ execute if entity @s[tag=shovel_knight] run function ssbrc:fighters/shovel_knigh
 
 clear @s[tag=snake] minecraft:paper[minecraft:custom_data={status:1}]
 
-execute at @s[predicate=ssbrc:fighters/sonic_the_hedgehog] run playsound ssbrc:fighters.sonic_the_hedgehog.lose_stock player @a
+execute at @s[predicate=ssbrc:fighters/sonic_the_hedgehog] run playsound ssbrc:fighters.sonic_the_hedgehog.death player @a
 
 scoreboard players set @s[tag=sora] charge.3 0
 

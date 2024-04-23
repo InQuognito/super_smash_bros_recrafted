@@ -45,7 +45,7 @@ tag @s remove air_stall
 tag @s remove fighter_picked
 tag @s remove check_death
 tag @s remove check_kill
-tag @s remove checkShockwave
+tag @s remove check_shockwave
 tag @s remove critical
 tag @s remove ignore_feedback
 tag @s remove immobile

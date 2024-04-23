@@ -6,4 +6,6 @@ function ssbrc:logic/fighters/cooldown/set/const {type:"2",value:"40"}
 
 scoreboard players remove @s mega_man.metal_blade 1
 
+playsound ssbrc:fighters.mega_man.metal_blade.activate player @a
+
 function ssbrc:logic/fighters/ability/deinit

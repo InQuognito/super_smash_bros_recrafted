@@ -1,6 +1,6 @@
 scoreboard players add @a[tag=check_kill] timer.stat.kill 1
 scoreboard players add @a[tag=check_death] timer.stat.death 1
-scoreboard players add @a[tag=checkShockwave] timer.shockwave 1
+scoreboard players add @a[tag=check_shockwave] timer.shockwave 1
 
 # General
 execute as @a[tag=check_kill] if score @s timer.stat.kill matches 2 run function ssbrc:logic/stocks/check_kill
