@@ -1,4 +1,4 @@
-data modify storage ssbrc:data shop.ui merge value {page:"main",ui_color:"red"}
+data modify storage ssbrc:data shop merge value {page:"main",ui_color:"red"}
 function ssbrc:shop/pages/reset with storage ssbrc:data shop
 
 function ssbrc:shop/contents/placeholder/get {slot:"0"}
