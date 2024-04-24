@@ -1,7 +1,7 @@
 function ssbrc:logic/pre_game/stage_select/stage_index/pages/reset
 
 loot replace entity @s enderchest.0 loot ssbrc:ui/null/orange
-function ssbrc:shop/contents/navigator {goto:"navigation.stages.1",type:"back",slot:"9"}
+function ssbrc:shop/buttons/navigator {goto:"pages/stages.1",type:"back",slot:"9"}
 loot replace entity @s enderchest.18 loot ssbrc:ui/null/orange
 
 loot replace entity @s enderchest.2 loot ssbrc:ui/stages/pallet_town
@@ -23,5 +23,5 @@ loot replace entity @s enderchest.23 loot ssbrc:ui/stages/wily_castle
 loot replace entity @s enderchest.24 loot ssbrc:ui/stages/miiverse
 
 loot replace entity @s enderchest.8 loot ssbrc:ui/null/orange
-function ssbrc:shop/contents/navigator {goto:"navigation.stages.3",type:"forward",slot:"17"}
+function ssbrc:shop/buttons/navigator {goto:"pages/stages.3",type:"forward",slot:"17"}
 loot replace entity @s enderchest.26 loot ssbrc:ui/null/orange

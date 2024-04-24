@@ -1,8 +1,9 @@
-function ssbrc:shop/pages/reset
+data modify storage ssbrc:data shop merge value {page:"skins/1",ui_color:"orange"}
+function ssbrc:shop/pages/reset with storage ssbrc:data shop
 
-loot replace entity @s enderchest.0 loot ssbrc:ui/null/orange
-function ssbrc:shop/contents/navigator {goto:"navigation.main",type:"back",slot:"9"}
-loot replace entity @s enderchest.18 loot ssbrc:ui/null/orange
+function ssbrc:shop/buttons/placeholder/get {slot:"0"}
+function ssbrc:shop/buttons/navigator {goto:"pages/main",type:"back",slot:"9"}
+function ssbrc:shop/buttons/placeholder/get {slot:"18"}
 
 function ssbrc:shop/contents/header {name:"mario",slot:"2"}
 function ssbrc:shop/contents/header {name:"luigi",slot:"3"}
@@ -22,6 +23,6 @@ function ssbrc:shop/contents/header {name:"ness",slot:"22"}
 function ssbrc:shop/contents/header {name:"captain_falcon",slot:"23"}
 function ssbrc:shop/contents/header {name:"byleth",slot:"24"}
 
-loot replace entity @s enderchest.8 loot ssbrc:ui/null/orange
-function ssbrc:shop/contents/navigator {goto:"navigation.skins.2",type:"forward",slot:"17"}
-loot replace entity @s enderchest.26 loot ssbrc:ui/null/orange
+function ssbrc:shop/buttons/placeholder/get {slot:"8"}
+function ssbrc:shop/buttons/navigator {goto:"pages/skins/2",type:"forward",slot:"17"}
+function ssbrc:shop/buttons/placeholder/get {slot:"26"}

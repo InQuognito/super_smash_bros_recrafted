@@ -1,11 +1,12 @@
-function ssbrc:shop/pages/reset
+data modify storage ssbrc:data shop merge value {page:"skins/fox",ui_color:"lime"}
+function ssbrc:shop/pages/reset with storage ssbrc:data shop
 
-loot replace entity @s enderchest.0 loot ssbrc:ui/null/yellow
-function ssbrc:shop/contents/navigator {goto:"navigation.skins.1",type:"back",slot:"9"}
-loot replace entity @s enderchest.18 loot ssbrc:ui/null/yellow
+function ssbrc:shop/buttons/placeholder/get {slot:"0"}
+function ssbrc:shop/buttons/navigator {goto:"pages/skins/1",type:"back",slot:"9"}
+function ssbrc:shop/buttons/placeholder/get {slot:"18"}
 
 function ssbrc:shop/contents/skin {name:"fox",skin:"adventures",slot:"2"}
 
-loot replace entity @s enderchest.8 loot ssbrc:ui/null/yellow
-loot replace entity @s enderchest.17 loot ssbrc:ui/null/yellow
-loot replace entity @s enderchest.26 loot ssbrc:ui/null/yellow
+function ssbrc:shop/buttons/placeholder/get {slot:"8"}
+function ssbrc:shop/buttons/placeholder/get {slot:"17"}
+function ssbrc:shop/buttons/placeholder/get {slot:"26"}

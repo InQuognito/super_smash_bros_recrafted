@@ -23,5 +23,5 @@ loot replace entity @s enderchest.23 loot ssbrc:ui/stages/dream_land
 loot replace entity @s enderchest.24 loot ssbrc:ui/stages/sector_z
 
 loot replace entity @s enderchest.8 loot ssbrc:ui/null/red
-function ssbrc:shop/contents/navigator {goto:"navigation.stages.2",type:"forward",slot:"17"}
+function ssbrc:shop/buttons/navigator {goto:"pages/stages.2",type:"forward",slot:"17"}
 loot replace entity @s enderchest.26 loot ssbrc:ui/null/red
