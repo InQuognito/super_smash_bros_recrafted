@@ -1,27 +1,53 @@
-loot replace entity @s enderchest.0 loot ssbrc:ui/null/gray
-loot replace entity @s enderchest.1 loot ssbrc:ui/null/gray
-loot replace entity @s enderchest.2 loot ssbrc:ui/null/gray
-loot replace entity @s enderchest.3 loot ssbrc:ui/null/gray
-loot replace entity @s enderchest.4 loot ssbrc:ui/null/gray
-loot replace entity @s enderchest.5 loot ssbrc:ui/null/gray
-loot replace entity @s enderchest.6 loot ssbrc:ui/null/gray
-loot replace entity @s enderchest.7 loot ssbrc:ui/null/gray
-loot replace entity @s enderchest.8 loot ssbrc:ui/null/gray
-loot replace entity @s enderchest.9 loot ssbrc:ui/null/gray
-loot replace entity @s enderchest.10 loot ssbrc:ui/null/gray
-loot replace entity @s enderchest.11 loot ssbrc:ui/null/gray
-loot replace entity @s enderchest.12 loot ssbrc:ui/null/gray
-loot replace entity @s enderchest.13 loot ssbrc:ui/null/gray
-loot replace entity @s enderchest.14 loot ssbrc:ui/null/gray
-loot replace entity @s enderchest.15 loot ssbrc:ui/null/gray
-loot replace entity @s enderchest.16 loot ssbrc:ui/null/gray
-loot replace entity @s enderchest.17 loot ssbrc:ui/null/gray
-loot replace entity @s enderchest.18 loot ssbrc:ui/null/gray
-loot replace entity @s enderchest.19 loot ssbrc:ui/null/gray
-loot replace entity @s enderchest.20 loot ssbrc:ui/null/gray
-loot replace entity @s enderchest.21 loot ssbrc:ui/null/gray
-loot replace entity @s enderchest.22 loot ssbrc:ui/null/gray
-loot replace entity @s enderchest.23 loot ssbrc:ui/null/gray
-loot replace entity @s enderchest.24 loot ssbrc:ui/null/gray
-loot replace entity @s enderchest.25 loot ssbrc:ui/null/gray
-loot replace entity @s enderchest.26 loot ssbrc:ui/null/gray
+$function ssbrc:shop/contents/placeholder/set {slot:"0",color:"gray",page:$(page)}
+
+$function ssbrc:shop/contents/placeholder/set {slot:"1",color:"gray",page:$(page)}
+
+$function ssbrc:shop/contents/placeholder/set {slot:"2",color:"gray",page:$(page)}
+
+$function ssbrc:shop/contents/placeholder/set {slot:"3",color:"gray",page:$(page)}
+
+$function ssbrc:shop/contents/placeholder/set {slot:"4",color:"gray",page:$(page)}
+
+$function ssbrc:shop/contents/placeholder/set {slot:"5",color:"gray",page:$(page)}
+
+$function ssbrc:shop/contents/placeholder/set {slot:"6",color:"gray",page:$(page)}
+
+$function ssbrc:shop/contents/placeholder/set {slot:"7",color:"gray",page:$(page)}
+
+$function ssbrc:shop/contents/placeholder/set {slot:"8",color:"gray",page:$(page)}
+
+$function ssbrc:shop/contents/placeholder/set {slot:"9",color:"gray",page:$(page)}
+
+$function ssbrc:shop/contents/placeholder/set {slot:"10",color:"gray",page:$(page)}
+
+$function ssbrc:shop/contents/placeholder/set {slot:"11",color:"gray",page:$(page)}
+
+$function ssbrc:shop/contents/placeholder/set {slot:"12",color:"gray",page:$(page)}
+
+$function ssbrc:shop/contents/placeholder/set {slot:"13",color:"gray",page:$(page)}
+
+$function ssbrc:shop/contents/placeholder/set {slot:"14",color:"gray",page:$(page)}
+
+$function ssbrc:shop/contents/placeholder/set {slot:"15",color:"gray",page:$(page)}
+
+$function ssbrc:shop/contents/placeholder/set {slot:"16",color:"gray",page:$(page)}
+
+$function ssbrc:shop/contents/placeholder/set {slot:"17",color:"gray",page:$(page)}
+
+$function ssbrc:shop/contents/placeholder/set {slot:"18",color:"gray",page:$(page)}
+
+$function ssbrc:shop/contents/placeholder/set {slot:"19",color:"gray",page:$(page)}
+
+$function ssbrc:shop/contents/placeholder/set {slot:"20",color:"gray",page:$(page)}
+
+$function ssbrc:shop/contents/placeholder/set {slot:"21",color:"gray",page:$(page)}
+
+$function ssbrc:shop/contents/placeholder/set {slot:"22",color:"gray",page:$(page)}
+
+$function ssbrc:shop/contents/placeholder/set {slot:"23",color:"gray",page:$(page)}
+
+$function ssbrc:shop/contents/placeholder/set {slot:"24",color:"gray",page:$(page)}
+
+$function ssbrc:shop/contents/placeholder/set {slot:"25",color:"gray",page:$(page)}
+
+$function ssbrc:shop/contents/placeholder/set {slot:"26",color:"gray",page:$(page)}

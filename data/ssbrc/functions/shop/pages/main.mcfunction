@@ -1,13 +1,14 @@
-function ssbrc:shop/pages/reset
+data modify storage ssbrc:data shop merge value {page:"main",color:"red"}
+function ssbrc:shop/pages/reset with storage ssbrc:data shop
 
-loot replace entity @s enderchest.0 loot ssbrc:ui/null/red
-loot replace entity @s enderchest.9 loot ssbrc:ui/null/red
-loot replace entity @s enderchest.18 loot ssbrc:ui/null/red
+function ssbrc:shop/contents/placeholder/get {slot:"0"}
+function ssbrc:shop/contents/placeholder/get {slot:"9"}
+function ssbrc:shop/contents/placeholder/get {slot:"18"}
 
 loot replace entity @s enderchest.11 loot ssbrc:ui/shop/fighters
 loot replace entity @s enderchest.13 loot ssbrc:ui/shop/credits
 loot replace entity @s enderchest.15 loot ssbrc:ui/shop/skins
 
-loot replace entity @s enderchest.8 loot ssbrc:ui/null/red
-loot replace entity @s enderchest.17 loot ssbrc:ui/null/red
-loot replace entity @s enderchest.26 loot ssbrc:ui/null/red
+function ssbrc:shop/contents/placeholder/get {slot:"8"}
+function ssbrc:shop/contents/placeholder/get {slot:"17"}
+function ssbrc:shop/contents/placeholder/get {slot:"26"}

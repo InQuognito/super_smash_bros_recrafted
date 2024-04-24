@@ -1,10 +1,9 @@
-function ssbrc:shop/pages/reset
+data modify storage ssbrc:data shop merge value {page:"fighters/1",color:"orange"}
+function ssbrc:shop/pages/reset with storage ssbrc:data shop
 
-loot replace entity @s enderchest.0 loot ssbrc:ui/null/orange
+function ssbrc:shop/contents/placeholder/get {slot:"0"}
 function ssbrc:shop/contents/navigator {goto:"pages/main",type:"back",slot:"9"}
-loot replace entity @s enderchest.18 loot ssbrc:ui/null/orange
-
-data modify storage ssbrc:data shop merge value {page:1}
+function ssbrc:shop/contents/placeholder/get {slot:"18"}
 
 function ssbrc:shop/contents/get_value {name:"luigi",slot:"2"}
 function ssbrc:shop/contents/get_value {name:"king_k_rool",slot:"3"}
@@ -24,6 +23,6 @@ function ssbrc:shop/contents/get_value {name:"alucard",slot:"22"}
 function ssbrc:shop/contents/get_value {name:"steve",slot:"23"}
 function ssbrc:shop/contents/get_value {name:"sora",slot:"24"}
 
-loot replace entity @s enderchest.8 loot ssbrc:ui/null/orange
+function ssbrc:shop/contents/placeholder/get {slot:"8"}
 function ssbrc:shop/contents/navigator {goto:"pages/fighters/2",type:"forward",slot:"17"}
-loot replace entity @s enderchest.26 loot ssbrc:ui/null/orange
+function ssbrc:shop/contents/placeholder/get {slot:"26"}
