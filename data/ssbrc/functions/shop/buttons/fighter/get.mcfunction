@@ -2,4 +2,4 @@ $data modify storage ssbrc:data shop merge from storage ssbrc:data fighters.$(na
 
 $data modify storage ssbrc:data shop merge value {slot:$(slot)}
 
-function ssbrc:shop/contents/fighter with storage ssbrc:data shop
+function ssbrc:shop/buttons/fighter/set with storage ssbrc:data shop
