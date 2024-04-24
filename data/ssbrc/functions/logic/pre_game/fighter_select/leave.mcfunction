@@ -12,6 +12,3 @@ title @s reset
 gamemode spectator @s[team=spectator]
 
 tag @s[team=!spectator] add alive
-
-scoreboard players reset @s shop
-scoreboard players reset @s shop.selector

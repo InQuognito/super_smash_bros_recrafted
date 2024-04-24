@@ -1,4 +1,3 @@
-execute as @a at @s run function ssbrc:shop/tick_player
-execute if entity @e[type=minecraft:item,nbt={Item:{components:{"minecraft:custom_data":{ui:{}}}}}] run function ssbrc:shop/foolproof/dropped
-execute if entity @e[type=minecraft:item,nbt={Item:{components:{"minecraft:custom_data":{ui.placeholder:1b}}}}] run function ssbrc:shop/foolproof/dropped
-execute as @a[tag=lock_ui] run function ssbrc:shop/pages/reset
+execute if items entity @s player.cursor #ssbrc:ui[minecraft:custom_data~{ui:{}}] at @s run function ssbrc:shop/navigation/check
+
+execute if entity @s[tag=lock_ui] run function ssbrc:shop/pages/reset

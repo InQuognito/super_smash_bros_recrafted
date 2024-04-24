@@ -1,3 +1,6 @@
+function ssbrc:shop/tick
+function ssbrc:logic/pre_game/stage_select/stage_index/tick
+
 function ssbrc:logic/tick/lobby
 
 execute if score @s drop_item matches 1.. run function ssbrc:logic/tick/drop_item

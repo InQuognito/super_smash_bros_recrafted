@@ -1,6 +1,8 @@
 {
 	"values": [
+		"#ssbrc:stained_glass_panes",
 		"minecraft:barrier",
+		"minecraft:gold_nugget",
 		"minecraft:iron_chestplate",
 		"minecraft:iron_sword",
 		"minecraft:sugar"
