@@ -45,8 +45,7 @@ loot replace entity @s inventory.13 loot ssbrc:statistics
 
 scoreboard players set @s cooldown 0
 
-scoreboard players set @s shop.selector 0
-function ssbrc:shop/pages/main/load
+function ssbrc:shop/pages/main
 
 execute unless score @s hard_resets matches -2147483648..2147483647 run scoreboard players set @s hard_resets 0
 
