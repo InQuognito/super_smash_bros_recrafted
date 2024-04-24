@@ -23,7 +23,10 @@ def create_item_modifier(skin, fighter, path):
 			js_write(file, tab(2) + qm + 'entity' + sep_s + 'this' + suf_s)
 			js_write(file, tab(2) + qm + 'target' + sep_s + 'item_name' + suf_s)
 			js_write(file, tab(2) + qm + 'name' + suf_e)
-			js_write(file, tab(3) + qm + 'translate' + sep_s + f'ssbrc.fighters.{fighter}.skin.{skin}' + suf_s)
+			if skin == 'flower_power':
+				js_write(file, tab(3) + qm + 'translate' + sep_s + f'ssbrc.series.super_mario_bros.skin.{skin}' + suf_s)
+			else:
+				js_write(file, tab(3) + qm + 'translate' + sep_s + f'ssbrc.fighters.{fighter}.skin.{skin}' + suf_s)
 			js_write(file, tab(3) + qm + 'color' + sep_s + str(ssbrc.fighters[fighter]['skins'][skin]['color']) + suf_s)
 			js_write(file, tab(3) + qm + 'bold' + sep_n + 'true')
 			js_write(file, tab(2) + '}')
