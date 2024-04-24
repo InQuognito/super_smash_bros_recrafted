@@ -4,7 +4,7 @@
 		"entity": "this",
 		"target": "item_name",
 		"name": {
-			"text": "ssbrc.ui.go_back",
+			"translate": "ssbrc.ui.go_back",
 			"color": "gray"
 		}
 	},

@@ -1,50 +1,50 @@
-execute store result score @s shop.selector run clear @s #ssbrc:ui/buttons[minecraft:custom_data={ui:{id:"navigation.main"}}]
+execute store result score @s shop.selector run clear @s #ssbrc:ui/buttons[minecraft:custom_data~{ui:{id:"navigation.main"}}]
 execute if score @s shop.selector matches 1.. run function ssbrc:shop/pages/main/load
 
-execute store result score @s shop.selector run clear @s #ssbrc:ui/buttons[minecraft:custom_data={ui:{id:"navigation.skins.mario"}}]
+execute store result score @s shop.selector run clear @s #ssbrc:ui/buttons[minecraft:custom_data~{ui:{id:"navigation.skins.mario"}}]
 execute if score @s shop.selector matches 1.. run function ssbrc:shop/pages/skins/mario/load
 
-execute store result score @s shop.selector run clear @s #ssbrc:ui/buttons[minecraft:custom_data={ui:{id:"navigation.skins.luigi"}}]
+execute store result score @s shop.selector run clear @s #ssbrc:ui/buttons[minecraft:custom_data~{ui:{id:"navigation.skins.luigi"}}]
 execute if score @s shop.selector matches 1.. run function ssbrc:shop/pages/skins/luigi/load
 
-execute store result score @s shop.selector run clear @s #ssbrc:ui/buttons[minecraft:custom_data={ui:{id:"navigation.skins.bowser"}}]
+execute store result score @s shop.selector run clear @s #ssbrc:ui/buttons[minecraft:custom_data~{ui:{id:"navigation.skins.bowser"}}]
 execute if score @s shop.selector matches 1.. run function ssbrc:shop/pages/skins/bowser/load
 
-execute store result score @s shop.selector run clear @s #ssbrc:ui/buttons[minecraft:custom_data={ui:{id:"navigation.skins.donkey_kong"}}]
+execute store result score @s shop.selector run clear @s #ssbrc:ui/buttons[minecraft:custom_data~{ui:{id:"navigation.skins.donkey_kong"}}]
 execute if score @s shop.selector matches 1.. run function ssbrc:shop/pages/skins/donkey_kong/load
 
-execute store result score @s shop.selector run clear @s #ssbrc:ui/buttons[minecraft:custom_data={ui:{id:"navigation.skins.link"}}]
+execute store result score @s shop.selector run clear @s #ssbrc:ui/buttons[minecraft:custom_data~{ui:{id:"navigation.skins.link"}}]
 execute if score @s shop.selector matches 1.. run function ssbrc:shop/pages/skins/link/load
 
-execute store result score @s shop.selector run clear @s #ssbrc:ui/buttons[minecraft:custom_data={ui:{id:"navigation.skins.ganondorf"}}]
+execute store result score @s shop.selector run clear @s #ssbrc:ui/buttons[minecraft:custom_data~{ui:{id:"navigation.skins.ganondorf"}}]
 execute if score @s shop.selector matches 1.. run function ssbrc:shop/pages/skins/ganondorf/load
 
-execute store result score @s shop.selector run clear @s #ssbrc:ui/buttons[minecraft:custom_data={ui:{id:"navigation.skins.samus"}}]
+execute store result score @s shop.selector run clear @s #ssbrc:ui/buttons[minecraft:custom_data~{ui:{id:"navigation.skins.samus"}}]
 execute if score @s shop.selector matches 1.. run function ssbrc:shop/pages/skins/samus/load
 
-execute store result score @s shop.selector run clear @s #ssbrc:ui/buttons[minecraft:custom_data={ui:{id:"navigation.skins.kirby"}}]
+execute store result score @s shop.selector run clear @s #ssbrc:ui/buttons[minecraft:custom_data~{ui:{id:"navigation.skins.kirby"}}]
 execute if score @s shop.selector matches 1.. run function ssbrc:shop/pages/skins/kirby/load
 
-execute store result score @s shop.selector run clear @s #ssbrc:ui/buttons[minecraft:custom_data={ui:{id:"navigation.skins.fox"}}]
+execute store result score @s shop.selector run clear @s #ssbrc:ui/buttons[minecraft:custom_data~{ui:{id:"navigation.skins.fox"}}]
 execute if score @s shop.selector matches 1.. run function ssbrc:shop/pages/skins/fox/load
 
-execute store result score @s shop.selector run clear @s #ssbrc:ui/buttons[minecraft:custom_data={ui:{id:"navigation.skins.wolf"}}]
+execute store result score @s shop.selector run clear @s #ssbrc:ui/buttons[minecraft:custom_data~{ui:{id:"navigation.skins.wolf"}}]
 execute if score @s shop.selector matches 1.. run function ssbrc:shop/pages/skins/wolf/load
 
-execute store result score @s shop.selector run clear @s #ssbrc:ui/buttons[minecraft:custom_data={ui:{id:"navigation.skins.pikachu"}}]
+execute store result score @s shop.selector run clear @s #ssbrc:ui/buttons[minecraft:custom_data~{ui:{id:"navigation.skins.pikachu"}}]
 execute if score @s shop.selector matches 1.. run function ssbrc:shop/pages/skins/pikachu/load
 
-execute store result score @s shop.selector run clear @s #ssbrc:ui/buttons[minecraft:custom_data={ui:{id:"navigation.skins.pokemon_trainer"}}]
+execute store result score @s shop.selector run clear @s #ssbrc:ui/buttons[minecraft:custom_data~{ui:{id:"navigation.skins.pokemon_trainer"}}]
 execute if score @s shop.selector matches 1.. run function ssbrc:shop/pages/skins/pokemon_trainer/load
 
-execute store result score @s shop.selector run clear @s #ssbrc:ui/buttons[minecraft:custom_data={ui:{id:"navigation.skins.ness"}}]
+execute store result score @s shop.selector run clear @s #ssbrc:ui/buttons[minecraft:custom_data~{ui:{id:"navigation.skins.ness"}}]
 execute if score @s shop.selector matches 1.. run function ssbrc:shop/pages/skins/ness/load
 
-execute store result score @s shop.selector run clear @s #ssbrc:ui/buttons[minecraft:custom_data={ui:{id:"navigation.skins.captain_falcon"}}]
+execute store result score @s shop.selector run clear @s #ssbrc:ui/buttons[minecraft:custom_data~{ui:{id:"navigation.skins.captain_falcon"}}]
 execute if score @s shop.selector matches 1.. run function ssbrc:shop/pages/skins/captain_falcon/load
 
-execute store result score @s shop.selector run clear @s #ssbrc:ui/buttons[minecraft:custom_data={ui:{id:"navigation.skins.byleth"}}]
+execute store result score @s shop.selector run clear @s #ssbrc:ui/buttons[minecraft:custom_data~{ui:{id:"navigation.skins.byleth"}}]
 execute if score @s shop.selector matches 1.. run function ssbrc:shop/pages/skins/byleth/load
 
-execute store result score @s shop.selector run clear @s #ssbrc:ui/buttons[minecraft:custom_data={ui:{id:"navigation.skins.2"}}]
+execute store result score @s shop.selector run clear @s #ssbrc:ui/buttons[minecraft:custom_data~{ui:{id:"navigation.skins.2"}}]
 execute if score @s shop.selector matches 1.. run function ssbrc:shop/pages/skins/2/load

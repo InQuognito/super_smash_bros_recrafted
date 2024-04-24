@@ -1,6 +1,6 @@
 function ssbrc:shop/foolproof/check
 
-execute store result score @s shop.selector run clear @s #ssbrc:ui/buttons[minecraft:custom_data={ui:{sound:"click"}}] 0
+execute store result score @s shop.selector run clear @s #ssbrc:ui/buttons[minecraft:custom_data~{ui:{sound:"click"}}] 0
 execute at @s[scores={shop.selector=1..}] run playsound minecraft:ui.button.click master @s
 
 execute if score @s shop matches 1 run function ssbrc:shop/triggers/triggers/main
