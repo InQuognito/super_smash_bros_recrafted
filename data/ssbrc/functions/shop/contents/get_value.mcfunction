@@ -1,4 +1,4 @@
-$data modify storage ssbrc:data shop set from storage ssbrc:data fighters.$(name)
+$data modify storage ssbrc:data shop merge from storage ssbrc:data fighters.$(name)
 
 $data modify storage ssbrc:data shop merge value {slot:$(slot)}
 
