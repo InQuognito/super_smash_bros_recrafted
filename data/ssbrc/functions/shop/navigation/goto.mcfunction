@@ -1,1 +1,1 @@
-function ssbrc:shop/$(navigation)
+$function ssbrc:shop/$(navigation)
