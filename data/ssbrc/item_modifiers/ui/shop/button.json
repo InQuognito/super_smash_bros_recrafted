@@ -8,9 +8,9 @@
 		"name": "ssbrc:ui/owned"
 	},
 	{
-		"function": "minecraft:set_components",
-		"components": {
-			"minecraft:hide_additional_tooltip": {}
+		"function": "minecraft:toggle_tooltips",
+		"toggles": {
+			"minecraft:attribute_modifiers": false
 		}
 	}
 ]
