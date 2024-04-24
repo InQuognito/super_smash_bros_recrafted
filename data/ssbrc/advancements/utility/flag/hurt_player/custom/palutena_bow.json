@@ -23,7 +23,9 @@
 						"nbt": "{Tags:[\"pit\"]}",
 						"equipment": {
 							"mainhand": {
-								"nbt": "{palutena_bow:1,split:0}"
+								"predicates": {
+									"minecraft:custom_data": "{item:\"palutena_bow\",split:\"false\"}"
+								}
 							}
 						}
 					},

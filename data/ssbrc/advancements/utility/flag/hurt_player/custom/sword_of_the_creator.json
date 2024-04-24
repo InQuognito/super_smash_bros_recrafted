@@ -24,7 +24,9 @@
 						"nbt": "{Tags:[\"byleth\"]}",
 						"equipment": {
 							"mainhand": {
-								"nbt": "{sword_of_the_creator:1}"
+								"predicates": {
+									"minecraft:custom_data": "{item:\"sword_of_the_creator\"}"
+								}
 							}
 						}
 					}

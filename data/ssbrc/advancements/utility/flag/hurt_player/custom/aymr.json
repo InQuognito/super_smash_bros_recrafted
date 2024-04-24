@@ -24,7 +24,9 @@
 						"nbt": "{Tags:[\"byleth\",\"black_eagles\"]}",
 						"equipment": {
 							"mainhand": {
-								"nbt": "{aymr:1}"
+								"predicates": {
+									"minecraft:custom_data": "{item:\"aymr\"}"
+								}
 							}
 						}
 					}

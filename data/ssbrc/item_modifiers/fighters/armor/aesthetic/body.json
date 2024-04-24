@@ -1467,25 +1467,6 @@
 		"components": {
 			"minecraft:trim": {
 				"material": "minecraft:quartz",
-				"pattern": "ssbrc:fighters/peach/gold",
-				"show_in_tooltip": false
-			}
-		},
-		"conditions": [
-			{
-				"condition": "minecraft:entity_properties",
-				"entity": "this",
-				"predicate": {
-					"nbt": "{Tags:[\"peach\",\"gold\"]}"
-				}
-			}
-		]
-	},
-	{
-		"function": "minecraft:set_components",
-		"components": {
-			"minecraft:trim": {
-				"material": "minecraft:quartz",
 				"pattern": "ssbrc:fighters/pikachu/default",
 				"show_in_tooltip": false
 			}
@@ -3667,6 +3648,25 @@
 				"entity": "this",
 				"predicate": {
 					"nbt": "{Tags:[\"yar\",\"gold\"]}"
+				}
+			}
+		]
+	},
+	{
+		"function": "minecraft:set_components",
+		"components": {
+			"minecraft:trim": {
+				"material": "minecraft:quartz",
+				"pattern": "ssbrc:fighters/yar/player_2",
+				"show_in_tooltip": false
+			}
+		},
+		"conditions": [
+			{
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"nbt": "{Tags:[\"yar\",\"player_2\"]}"
 				}
 			}
 		]

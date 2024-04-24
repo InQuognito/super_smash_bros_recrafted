@@ -22,7 +22,9 @@
 					"source_entity": {
 						"equipment": {
 							"mainhand": {
-								"nbt": "{flame_slash:1}"
+								"predicates": {
+									"minecraft:custom_data": "{item:\"flame_slash\"}"
+								}
 							}
 						}
 					},

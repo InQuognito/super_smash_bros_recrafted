@@ -29,7 +29,9 @@
 					"source_entity": {
 						"equipment": {
 							"mainhand": {
-								"nbt": "{knock_off:1}"
+								"predicates": {
+									"minecraft:custom_data": "{item:\"knock_off\"}"
+								}
 							}
 						}
 					}

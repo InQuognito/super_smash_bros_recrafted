@@ -22,7 +22,9 @@
 					"source_entity": {
 						"equipment": {
 							"mainhand": {
-								"nbt": "{rebel_knife:1,fire_boost:1}"
+								"predicates": {
+									"minecraft:custom_data": "{item:\"rebel_knife\",persona_boost:\"fire\"}"
+								}
 							}
 						}
 					}

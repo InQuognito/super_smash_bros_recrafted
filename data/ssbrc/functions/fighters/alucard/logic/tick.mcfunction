@@ -1,5 +1,5 @@
 # Holy Water
-loot give @s[scores={cooldown.2=1,duration.1=..0},nbt=!{Inventory:[{tag:{holy_water:1}}]}] loot ssbrc:fighters/alucard/holy_water
+loot give @s[scores={cooldown.2=1,duration.1=..0},nbt=!{Inventory:[{components:{"minecraft:custom_data":{item:"holy_water"}}}]}] loot ssbrc:fighters/alucard/holy_water
 
 # Mist
 execute if entity @s[scores={cooldown.1=..0},predicate=ssbrc:flag/sneaking,predicate=ssbrc:flag/in_air] run function ssbrc:fighters/alucard/logic/abilities/mist/activate
