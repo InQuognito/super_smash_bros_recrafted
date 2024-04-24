@@ -1,11 +1,11 @@
-data modify storage ssbrc:data shop merge value {page:"skins/fox",ui_color:"lime"}
+data modify storage ssbrc:data shop merge value {page:"skins/fox",name:"fox",ui_color:"lime"}
 function ssbrc:shop/pages/reset with storage ssbrc:data shop
 
 function ssbrc:shop/buttons/placeholder/get {slot:"0"}
 function ssbrc:shop/buttons/navigator {goto:"pages/skins/1",type:"back",slot:"9"}
 function ssbrc:shop/buttons/placeholder/get {slot:"18"}
 
-function ssbrc:shop/contents/skin {name:"fox",skin:"adventures",slot:"2"}
+function ssbrc:shop/buttons/skin/get {skin:"adventures",slot:"2"}
 
 function ssbrc:shop/buttons/placeholder/get {slot:"8"}
 function ssbrc:shop/buttons/placeholder/get {slot:"17"}

@@ -1,12 +1,12 @@
-data modify storage ssbrc:data shop merge value {page:"skins/shadow",ui_color:"lime"}
+data modify storage ssbrc:data shop merge value {page:"skins/shadow",name:"shadow",ui_color:"lime"}
 function ssbrc:shop/pages/reset with storage ssbrc:data shop
 
 function ssbrc:shop/buttons/placeholder/get {slot:"0"}
 function ssbrc:shop/buttons/navigator {goto:"pages/skins/2",type:"back",slot:"9"}
 function ssbrc:shop/buttons/placeholder/get {slot:"18"}
 
-function ssbrc:shop/contents/skin {name:"shadow",skin:"sir_lancelot",slot:"2"}
-function ssbrc:shop/contents/skin {name:"shadow",skin:"yellow_android",slot:"3"}
+function ssbrc:shop/buttons/skin/get {skin:"sir_lancelot",slot:"2"}
+function ssbrc:shop/buttons/skin/get {skin:"yellow_android",slot:"3"}
 
 function ssbrc:shop/buttons/placeholder/get {slot:"8"}
 function ssbrc:shop/buttons/placeholder/get {slot:"17"}
