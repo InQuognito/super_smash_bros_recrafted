@@ -22,7 +22,7 @@
 						},
 						{
 							"function": "minecraft:set_custom_data",
-							"tag": "{ui:{id:\"skins.ganondorf.tears_of_the_kingdom\",sound:\"click\"}}"
+							"tag": "{ui:{navigation:\"contents/skins/ganondorf/tears_of_the_kingdom\"}}"
 						}
 					]
 				}

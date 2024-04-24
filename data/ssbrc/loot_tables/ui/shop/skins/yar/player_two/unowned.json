@@ -22,7 +22,7 @@
 						},
 						{
 							"function": "minecraft:set_custom_data",
-							"tag": "{ui:{id:\"skins.yar.player_two\",sound:\"click\"}}"
+							"tag": "{ui:{navigation:\"contents/skins/yar/player_two\"}}"
 						}
 					]
 				}

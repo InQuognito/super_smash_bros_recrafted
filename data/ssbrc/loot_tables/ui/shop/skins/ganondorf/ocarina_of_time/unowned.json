@@ -22,7 +22,7 @@
 						},
 						{
 							"function": "minecraft:set_custom_data",
-							"tag": "{ui:{id:\"skins.ganondorf.ocarina_of_time\",sound:\"click\"}}"
+							"tag": "{ui:{navigation:\"contents/skins/ganondorf/ocarina_of_time\"}}"
 						}
 					]
 				}

@@ -22,7 +22,7 @@
 						},
 						{
 							"function": "minecraft:set_custom_data",
-							"tag": "{ui:{id:\"skins.pikachu.santa_hat\",sound:\"click\"}}"
+							"tag": "{ui:{navigation:\"contents/skins/pikachu/santa_hat\"}}"
 						}
 					]
 				}

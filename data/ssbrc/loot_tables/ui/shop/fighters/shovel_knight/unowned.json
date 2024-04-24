@@ -22,7 +22,7 @@
 						},
 						{
 							"function": "minecraft:set_custom_data",
-							"tag": "{ui:{id:\"shovel_knight\",sound:\"click\"}}"
+							"tag": "{ui:{navigation:\"pages/fighters/shovel_knight\"}}"
 						}
 					]
 				}

@@ -22,7 +22,7 @@
 						},
 						{
 							"function": "minecraft:set_custom_data",
-							"tag": "{ui:{id:\"skins.captain_falcon.rick_wheeler\",sound:\"click\"}}"
+							"tag": "{ui:{navigation:\"contents/skins/captain_falcon/rick_wheeler\"}}"
 						}
 					]
 				}

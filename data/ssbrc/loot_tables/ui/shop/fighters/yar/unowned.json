@@ -22,7 +22,7 @@
 						},
 						{
 							"function": "minecraft:set_custom_data",
-							"tag": "{ui:{id:\"yar\",sound:\"click\"}}"
+							"tag": "{ui:{navigation:\"pages/fighters/yar\"}}"
 						}
 					]
 				}

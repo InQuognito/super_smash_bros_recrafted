@@ -22,7 +22,7 @@
 						},
 						{
 							"function": "minecraft:set_custom_data",
-							"tag": "{ui:{id:\"skins.pit.retro\",sound:\"click\"}}"
+							"tag": "{navigation:\"contents/skins/pit/retro\"}"
 						}
 					]
 				}

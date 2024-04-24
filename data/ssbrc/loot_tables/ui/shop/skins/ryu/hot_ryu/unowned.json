@@ -22,7 +22,7 @@
 						},
 						{
 							"function": "minecraft:set_custom_data",
-							"tag": "{ui:{id:\"skins.ryu.hot_ryu\",sound:\"click\"}}"
+							"tag": "{ui:{navigation:\"contents/skins/ryu/hot_ryu\"}}"
 						}
 					]
 				}

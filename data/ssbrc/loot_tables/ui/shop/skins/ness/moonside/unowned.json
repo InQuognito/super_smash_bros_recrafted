@@ -22,7 +22,7 @@
 						},
 						{
 							"function": "minecraft:set_custom_data",
-							"tag": "{ui:{id:\"skins.ness.moonside\",sound:\"click\"}}"
+							"tag": "{ui:{navigation:\"contents/skins/ness/moonside\"}}"
 						}
 					]
 				}

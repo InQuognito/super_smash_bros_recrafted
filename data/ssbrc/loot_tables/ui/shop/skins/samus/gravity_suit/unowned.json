@@ -22,7 +22,7 @@
 						},
 						{
 							"function": "minecraft:set_custom_data",
-							"tag": "{ui:{id:\"skins.samus.gravity_suit\",sound:\"click\"}}"
+							"tag": "{ui:{navigation:\"contents/skins/samus/gravity_suit\"}}"
 						}
 					]
 				}

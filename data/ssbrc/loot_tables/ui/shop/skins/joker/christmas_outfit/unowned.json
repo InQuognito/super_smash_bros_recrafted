@@ -22,7 +22,7 @@
 						},
 						{
 							"function": "minecraft:set_custom_data",
-							"tag": "{ui:{id:\"skins.joker.christmas_outfit\",sound:\"click\"}}"
+							"tag": "{ui:{navigation:\"contents/skins/joker/christmas_outfit\"}}"
 						}
 					]
 				}

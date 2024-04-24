@@ -22,7 +22,7 @@
 						},
 						{
 							"function": "minecraft:set_custom_data",
-							"tag": "{ui:{id:\"skins.ness.phase_distortion\",sound:\"click\"}}"
+							"tag": "{ui:{navigation:\"contents/skins/ness/phase_distortion\"}}"
 						}
 					]
 				}

@@ -22,7 +22,7 @@
 						},
 						{
 							"function": "minecraft:set_custom_data",
-							"tag": "{ui:{id:\"skins.shadow.yellow_android\",sound:\"click\"}}"
+							"tag": "{ui:{navigation:\"contents/skins/shadow/yellow_android\"}}"
 						}
 					]
 				}

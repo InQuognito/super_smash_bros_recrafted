@@ -135,7 +135,7 @@ def create_shop_entry(skin, fighter, path):
 		js_write(file, tab(6) + ent)
 		js_write(file, tab(6) + '{')
 		js_write(file, tab(7) + qm + 'function' + sep_s + 'minecraft:set_custom_data' + suf_s)
-		js_write(file, tab(7) + qm + 'tag' + sep_s + '{ui:{id:\\"skins.' + fighter + '.' + skin + '\\",sound:\\"click\\"}}' + qm)
+		js_write(file, tab(7) + qm + 'tag' + sep_s + '{ui:{navigation:\\"contents/skins/' + fighter + '/' + skin + '\\"}}' + qm)
 		js_write(file, tab(6) + '}')
 		js_write(file, tab(5) + ']')
 		js_write(file, tab(4) + '}')

@@ -22,7 +22,7 @@
 						},
 						{
 							"function": "minecraft:set_custom_data",
-							"tag": "{ui:{id:\"skins.link.goron_tunic\",sound:\"click\"}}"
+							"tag": "{ui:{navigation:\"contents/skins/link/goron_tunic\"}}"
 						}
 					]
 				}

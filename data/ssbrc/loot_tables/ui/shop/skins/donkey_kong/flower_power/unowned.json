@@ -22,7 +22,7 @@
 						},
 						{
 							"function": "minecraft:set_custom_data",
-							"tag": "{ui:{id:\"skins.donkey_kong.flower_power\",sound:\"click\"}}"
+							"tag": "{ui:{navigation:\"contents/skins/donkey_kong/flower_power\"}}"
 						}
 					]
 				}

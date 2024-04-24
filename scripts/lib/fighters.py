@@ -197,7 +197,7 @@ def fighter_shop_entries(fighter, path):
 		js_write(file, tab(6) + ent)
 		js_write(file, tab(6) + '{')
 		js_write(file, tab(7) + qm + 'function' + sep_s + 'minecraft:set_custom_data' + suf_s)
-		js_write(file, tab(7) + qm + 'tag' + sep_s + '{ui:{id:\\"' + fighter + '\\",sound:\\"click\\"}}' + qm)
+		js_write(file, tab(7) + qm + 'tag' + sep_s + '{ui:{navigation:\\"pages/fighters/' + fighter + '\\"}}' + qm)
 		js_write(file, tab(6) + '}')
 		js_write(file, tab(5) + ']')
 		js_write(file, tab(4) + '}')

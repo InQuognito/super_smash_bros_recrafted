@@ -22,7 +22,7 @@
 						},
 						{
 							"function": "minecraft:set_custom_data",
-							"tag": "{ui:{id:\"skins.sonic.hylian_tunic\",sound:\"click\"}}"
+							"tag": "{ui:{navigation:\"contents/skins/sonic/hylian_tunic\"}}"
 						}
 					]
 				}

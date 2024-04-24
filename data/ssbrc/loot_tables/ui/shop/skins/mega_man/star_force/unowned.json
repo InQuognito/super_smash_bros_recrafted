@@ -22,7 +22,7 @@
 						},
 						{
 							"function": "minecraft:set_custom_data",
-							"tag": "{ui:{id:\"skins.mega_man.star_force\",sound:\"click\"}}"
+							"tag": "{ui:{navigation:\"contents/skins/mega_man/star_force\"}}"
 						}
 					]
 				}

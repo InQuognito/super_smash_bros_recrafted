@@ -22,7 +22,7 @@
 						},
 						{
 							"function": "minecraft:set_custom_data",
-							"tag": "{ui:{id:\"skins.shovel_knight.toad_gear\",sound:\"click\"}}"
+							"tag": "{ui:{navigation:\"contents/skins/shovel_knight/toad_gear\"}}"
 						}
 					]
 				}
