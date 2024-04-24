@@ -6,4 +6,4 @@ tellraw @s [{"translate":"ssbrc.shop.purchase.skin","color":"white"},{"translate
 
 playsound minecraft:entity.player.levelup master @s ~ ~ ~
 
-function ssbrc:shop/pages/skins/byleth/load
+function ssbrc:shop/pages/skins/byleth

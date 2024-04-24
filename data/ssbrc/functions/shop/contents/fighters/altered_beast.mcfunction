@@ -6,4 +6,4 @@ tellraw @s [{"translate":"ssbrc.shop.purchase.fighter","color":"white"},{"transl
 
 playsound minecraft:entity.player.levelup master @s ~ ~ ~
 
-function ssbrc:shop/pages/fighters/2/load
+function ssbrc:shop/pages/fighters/2
