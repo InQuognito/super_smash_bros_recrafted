@@ -39,3 +39,4 @@ execute if items entity @s inventory.26 #ssbrc:ui[minecraft:custom_data~{ui:{}}]
 execute if items entity @s weapon.offhand #ssbrc:ui[minecraft:custom_data~{ui:{}}] run data modify storage ssbrc:data shop merge from entity @s Inventory[{Slot:-106b}].components.minecraft:custom_data.ui
 
 function ssbrc:shop/actions/click/goto with storage ssbrc:data shop
+clear @s #ssbrc:ui[minecraft:custom_data~{ui:{}}]
