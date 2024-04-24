@@ -1,13 +1,13 @@
 {
 	"values": [
-		"#ssbrc:swords",
 		"#ssbrc:axes",
 		"#ssbrc:shovels",
+		"#ssbrc:swords",
 		"minecraft:bow",
 		"minecraft:crossbow",
 		"minecraft:gunpowder",
-		"minecraft:trident",
+		"minecraft:nether_star",
 		"minecraft:shield",
-		"minecraft:nether_star"
+		"minecraft:trident"
 	]
 }

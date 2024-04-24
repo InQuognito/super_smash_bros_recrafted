@@ -1,4 +1,3 @@
-function ssbrc:shop/tick
 function ssbrc:logic/pre_game/stage_select/stage_index/tick
 
 function ssbrc:logic/tick/lobby

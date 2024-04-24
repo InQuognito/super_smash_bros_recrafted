@@ -1,6 +1,6 @@
 [
 	{
 		"function": "minecraft:set_custom_data",
-		"tag": "{ui.placeholder:1b}"
+		"tag": "{ui:{placeholder:\"true\"}"
 	}
 ]

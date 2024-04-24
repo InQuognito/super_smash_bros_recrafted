@@ -1,1 +1,0 @@
-$function ssbrc:shop/$(navigation)
