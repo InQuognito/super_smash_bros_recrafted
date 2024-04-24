@@ -1,7 +1,7 @@
 function ssbrc:shop/pages/reset
 
 loot replace entity @s enderchest.0 loot ssbrc:ui/null/yellow
-function ssbrc:shop/contents/navigator {goto:"navigation.fighters.1",type:"back",slot:"9"}
+function ssbrc:shop/contents/navigator {goto:"pages/fighters/1",type:"back",slot:"9"}
 loot replace entity @s enderchest.18 loot ssbrc:ui/null/yellow
 
 function ssbrc:shop/contents/fighter {name:"shovel_knight",slot:"2"}
