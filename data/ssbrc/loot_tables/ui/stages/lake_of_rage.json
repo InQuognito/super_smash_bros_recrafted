@@ -32,7 +32,7 @@
 						},
 						{
 							"function": "minecraft:set_custom_data",
-							"tag": "{ui:{id:\"stages.lake_of_rage\",sound:\"click\"}}"
+							"tag": "{ui:{navigation:\"stages/lake_of_rage/vote\"}}"
 						}
 					]
 				}

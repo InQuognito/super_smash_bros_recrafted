@@ -32,7 +32,7 @@
 						},
 						{
 							"function": "minecraft:set_custom_data",
-							"tag": "{ui:{id:\"stages.mushroom_kingdom\",sound:\"click\"}}"
+							"tag": "{ui:{navigation:\"stages/mushroom_kingdom/vote\"}}"
 						}
 					]
 				}

@@ -56,7 +56,7 @@ def create_stage_icon():
 			js_write(file, tab(6) + ent)
 			js_write(file, tab(6) + '{')
 			js_write(file, tab(7) + qm + 'function' + sep_s + 'minecraft:set_custom_data' + suf_s)
-			js_write(file, tab(7) + qm + 'tag' + sep_s + '{ui:{id:\\"stages.' + stage + '\\",sound:\\"click\\"}}' + qm)
+			js_write(file, tab(7) + qm + 'tag' + sep_s + '{ui:{navigation:\\"stages/' + stage + '/vote\\"}}' + qm)
 			js_write(file, tab(6) + '}')
 			js_write(file, tab(5) + ']')
 			js_write(file, tab(4) + '}')

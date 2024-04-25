@@ -1,6 +1,6 @@
 execute if score hazards options matches 1 unless score #gyarados temp matches 1 if predicate ssbrc:random_chance/lake_of_rage_hazard run scoreboard players set #gyarados temp 1
 
-execute if score #gyarados temp matches 1 as @e[type=minecraft:item_display,tag=gyarados] at @s run function ssbrc:stages/lake_of_rage/logic/hazards/gyarados/tick
+execute if score #gyarados temp matches 1 as @e[type=minecraft:item_display,tag=gyarados] at @s run function ssbrc:stages/lake_of_rage/logic/pokemon/gyarados/tick
 
 execute as @e[type=minecraft:item_display,tag=lapras] at @s run function ssbrc:stages/lake_of_rage/logic/pokemon/lapras/tick
 execute as @e[type=minecraft:item_display,tag=gastly] at @s run function ssbrc:stages/lake_of_rage/logic/pokemon/gastly/move

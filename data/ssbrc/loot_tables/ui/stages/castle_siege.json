@@ -32,7 +32,7 @@
 						},
 						{
 							"function": "minecraft:set_custom_data",
-							"tag": "{ui:{id:\"stages.castle_siege\",sound:\"click\"}}"
+							"tag": "{ui:{navigation:\"stages/castle_siege/vote\"}}"
 						}
 					]
 				}

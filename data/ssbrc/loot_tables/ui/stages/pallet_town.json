@@ -32,7 +32,7 @@
 						},
 						{
 							"function": "minecraft:set_custom_data",
-							"tag": "{ui:{id:\"stages.pallet_town\",sound:\"click\"}}"
+							"tag": "{ui:{navigation:\"stages/pallet_town/vote\"}}"
 						}
 					]
 				}

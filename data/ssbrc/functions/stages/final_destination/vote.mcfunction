@@ -7,7 +7,7 @@ tag @s add final_destination
 
 execute if score teams options matches 0 run team join ready @s
 effect clear @s minecraft:glowing
-function ssbrc:logic/pre_game/stage_select/stage_index/pages/stages/1/load
+function ssbrc:logic/pre_game/stage_select/stage_index/pages/1
 
 function ssbrc:logic/inputs/reset
 

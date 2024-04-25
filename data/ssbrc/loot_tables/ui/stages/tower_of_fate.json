@@ -32,7 +32,7 @@
 						},
 						{
 							"function": "minecraft:set_custom_data",
-							"tag": "{ui:{id:\"stages.tower_of_fate\",sound:\"click\"}}"
+							"tag": "{ui:{navigation:\"stages/tower_of_fate/vote\"}}"
 						}
 					]
 				}

@@ -32,7 +32,7 @@
 						},
 						{
 							"function": "minecraft:set_custom_data",
-							"tag": "{ui:{id:\"stages.planet_zebes\",sound:\"click\"}}"
+							"tag": "{ui:{navigation:\"stages/planet_zebes/vote\"}}"
 						}
 					]
 				}

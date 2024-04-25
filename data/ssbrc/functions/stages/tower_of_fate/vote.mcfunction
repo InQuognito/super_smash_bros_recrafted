@@ -8,7 +8,7 @@ tag @s add tower_of_fate
 execute if score teams options matches 0 run team join ready @s
 effect clear @s minecraft:glowing
 
-function ssbrc:logic/pre_game/stage_select/stage_index/pages/stages/3/load
+function ssbrc:logic/pre_game/stage_select/stage_index/pages/3
 
 function ssbrc:logic/inputs/reset
 

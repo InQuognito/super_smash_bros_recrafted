@@ -32,7 +32,7 @@
 						},
 						{
 							"function": "minecraft:set_custom_data",
-							"tag": "{ui:{id:\"stages.green_hill_zone\",sound:\"click\"}}"
+							"tag": "{ui:{navigation:\"stages/green_hill_zone/vote\"}}"
 						}
 					]
 				}

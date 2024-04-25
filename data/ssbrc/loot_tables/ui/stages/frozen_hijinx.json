@@ -32,7 +32,7 @@
 						},
 						{
 							"function": "minecraft:set_custom_data",
-							"tag": "{ui:{id:\"stages.frozen_hijinx\",sound:\"click\"}}"
+							"tag": "{ui:{navigation:\"stages/frozen_hijinx/vote\"}}"
 						}
 					]
 				}

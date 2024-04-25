@@ -24,7 +24,7 @@
 						},
 						{
 							"function": "minecraft:set_custom_data",
-							"tag": "{ui:{navigation:\"pages/skins/1\"}}"
+							"tag": "{ui:{navigation:\"shop/pages/skins/1\"}}"
 						}
 					]
 				}

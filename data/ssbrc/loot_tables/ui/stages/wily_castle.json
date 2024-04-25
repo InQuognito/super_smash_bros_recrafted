@@ -32,7 +32,7 @@
 						},
 						{
 							"function": "minecraft:set_custom_data",
-							"tag": "{ui:{id:\"stages.wily_castle\",sound:\"click\"}}"
+							"tag": "{ui:{navigation:\"stages/wily_castle/vote\"}}"
 						}
 					]
 				}

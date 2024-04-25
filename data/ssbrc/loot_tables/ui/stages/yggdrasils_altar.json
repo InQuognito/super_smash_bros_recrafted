@@ -32,7 +32,7 @@
 						},
 						{
 							"function": "minecraft:set_custom_data",
-							"tag": "{ui:{id:\"stages.yggdrasils_altar\",sound:\"click\"}}"
+							"tag": "{ui:{navigation:\"stages/yggdrasils_altar/vote\"}}"
 						}
 					]
 				}

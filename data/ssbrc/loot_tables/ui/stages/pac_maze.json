@@ -32,7 +32,7 @@
 						},
 						{
 							"function": "minecraft:set_custom_data",
-							"tag": "{ui:{id:\"stages.pac_maze\",sound:\"click\"}}"
+							"tag": "{ui:{navigation:\"stages/pac_maze/vote\"}}"
 						}
 					]
 				}

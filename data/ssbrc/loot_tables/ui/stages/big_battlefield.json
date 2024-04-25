@@ -32,7 +32,7 @@
 						},
 						{
 							"function": "minecraft:set_custom_data",
-							"tag": "{ui:{id:\"stages.big_battlefield\",sound:\"click\"}}"
+							"tag": "{ui:{navigation:\"stages/big_battlefield/vote\"}}"
 						}
 					]
 				}

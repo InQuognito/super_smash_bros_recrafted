@@ -32,7 +32,7 @@
 						},
 						{
 							"function": "minecraft:set_custom_data",
-							"tag": "{ui:{id:\"stages.jungle_japes\",sound:\"click\"}}"
+							"tag": "{ui:{navigation:\"stages/jungle_japes/vote\"}}"
 						}
 					]
 				}

@@ -1,9 +1,9 @@
-data modify storage ssbrc:data shop merge value {page:"fighters/1",ui_color:"orange"}
-function ssbrc:shop/pages/reset with storage ssbrc:data shop
+data modify storage ssbrc:data ui merge value {path:"shop/pages/fighters/1",ui_color:"orange"}
+function ssbrc:logic/ui/reset with storage ssbrc:data ui
 
-function ssbrc:shop/buttons/placeholder/get {slot:"0"}
-function ssbrc:shop/buttons/navigator {goto:"pages/main",type:"back",slot:"9"}
-function ssbrc:shop/buttons/placeholder/get {slot:"18"}
+function ssbrc:logic/ui/buttons/placeholder/get {slot:"0"}
+function ssbrc:logic/ui/buttons/navigator {path:"shop/pages/main",type:"back",slot:"9"}
+function ssbrc:logic/ui/buttons/placeholder/get {slot:"18"}
 
 function ssbrc:shop/buttons/fighter/get {name:"luigi",slot:"2"}
 function ssbrc:shop/buttons/fighter/get {name:"king_k_rool",slot:"3"}
@@ -23,6 +23,6 @@ function ssbrc:shop/buttons/fighter/get {name:"alucard",slot:"22"}
 function ssbrc:shop/buttons/fighter/get {name:"steve",slot:"23"}
 function ssbrc:shop/buttons/fighter/get {name:"sora",slot:"24"}
 
-function ssbrc:shop/buttons/placeholder/get {slot:"8"}
-function ssbrc:shop/buttons/navigator {goto:"pages/fighters/2",type:"forward",slot:"17"}
-function ssbrc:shop/buttons/placeholder/get {slot:"26"}
+function ssbrc:logic/ui/buttons/placeholder/get {slot:"8"}
+function ssbrc:logic/ui/buttons/navigator {path:"shop/pages/fighters/2",type:"forward",slot:"17"}
+function ssbrc:logic/ui/buttons/placeholder/get {slot:"26"}

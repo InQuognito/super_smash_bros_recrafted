@@ -32,7 +32,7 @@
 						},
 						{
 							"function": "minecraft:set_custom_data",
-							"tag": "{ui:{id:\"stages.spear_pillar\",sound:\"click\"}}"
+							"tag": "{ui:{navigation:\"stages/spear_pillar/vote\"}}"
 						}
 					]
 				}

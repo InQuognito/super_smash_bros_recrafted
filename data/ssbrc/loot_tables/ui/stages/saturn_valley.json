@@ -32,7 +32,7 @@
 						},
 						{
 							"function": "minecraft:set_custom_data",
-							"tag": "{ui:{id:\"stages.saturn_valley\",sound:\"click\"}}"
+							"tag": "{ui:{navigation:\"stages/saturn_valley/vote\"}}"
 						}
 					]
 				}

@@ -32,7 +32,7 @@
 						},
 						{
 							"function": "minecraft:set_custom_data",
-							"tag": "{ui:{id:\"stages.garden_of_hope\",sound:\"click\"}}"
+							"tag": "{ui:{navigation:\"stages/garden_of_hope/vote\"}}"
 						}
 					]
 				}

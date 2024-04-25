@@ -8,7 +8,7 @@ tag @s add palutenas_temple
 execute if score teams options matches 0 run team join ready @s
 effect clear @s minecraft:glowing
 
-function ssbrc:logic/pre_game/stage_select/stage_index/pages/stages/2/load
+function ssbrc:logic/pre_game/stage_select/stage_index/pages/2
 
 function ssbrc:logic/inputs/reset
 
