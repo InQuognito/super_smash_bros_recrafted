@@ -33,7 +33,7 @@ fighters = {
 		'default': False,
 		'skins': {
 			'awakened': {
-				'model': 102,
+				'model': 104,
 				'color': 'aqua'
 			}
 		}
