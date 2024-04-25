@@ -366,11 +366,11 @@ fighters = {
 				'color': 'white'
 			},
 			'iron_fist': {
-				'model': 1408,
+				'model': 1406,
 				'color': 'yellow'
 			},
 			'super_turbo': {
-				'model': 1406,
+				'model': 1408,
 				'color': 'dark_gray'
 			}
 		}

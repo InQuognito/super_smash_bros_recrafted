@@ -435,12 +435,12 @@ data modify storage ssbrc:data fighters set value {\
 			},\
 			"iron_fist": {\
 				"name": "iron_fist",\
-				"model": 1408,\
+				"model": 1406,\
 				"color": "yellow",\
 			},\
 			"super_turbo": {\
 				"name": "super_turbo",\
-				"model": 1406,\
+				"model": 1408,\
 				"color": "dark_gray",\
 			},\
 		},\
