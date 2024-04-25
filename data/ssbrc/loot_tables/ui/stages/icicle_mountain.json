@@ -32,7 +32,7 @@
 						},
 						{
 							"function": "minecraft:set_custom_data",
-							"tag": "{ui:{navigation:\"stages/icicle_mountain/vote\"}}"
+							"tag": "{ui:{navigation:\"logic/stages/vote with storage ssbrc:data stages.icicle_mountain\"}}"
 						}
 					]
 				}

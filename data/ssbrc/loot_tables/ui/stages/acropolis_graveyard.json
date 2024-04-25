@@ -32,7 +32,7 @@
 						},
 						{
 							"function": "minecraft:set_custom_data",
-							"tag": "{ui:{navigation:\"stages/acropolis_graveyard/vote\"}}"
+							"tag": "{ui:{navigation:\"logic/stages/vote with storage ssbrc:data stages.acropolis_graveyard\"}}"
 						}
 					]
 				}

@@ -32,7 +32,7 @@
 						},
 						{
 							"function": "minecraft:set_custom_data",
-							"tag": "{ui:{navigation:\"stages/big_battlefield/vote\"}}"
+							"tag": "{ui:{navigation:\"logic/stages/vote with storage ssbrc:data stages.big_battlefield\"}}"
 						}
 					]
 				}

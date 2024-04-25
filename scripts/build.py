@@ -5,5 +5,7 @@ from lib.stages import *
 init_fighter()
 
 # Stages
+stage_storage()
+stage_getter()
 create_series_tags()
 create_stage_icon()

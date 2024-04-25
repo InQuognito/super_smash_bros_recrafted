@@ -1,5 +1,39 @@
 from lib.core import *
 
+def stage_storage():
+	'''Initializes stage database into a Minecraft JSON storage.'''
+	with open('data\\ssbrc\\functions\\logic\\init\\stages.mcfunction', 'w') as file:
+		mc_write(file, 'data modify storage ssbrc:data stages set value {')
+		for stage in ssbrc.stages:
+			mc_write(file, tab(1) + qm + stage + suf_e)
+			mc_write(file, tab(2) + qm + 'name' + sep_s + stage + suf_s)
+			mc_write(file, tab(2) + qm + 'page' + sep_n + str(ssbrc.stages[stage]['page']) + ',')
+			mc_write(file, tab(2) + qm + 'location' + sep_s + str(ssbrc.stages[stage]['location']) + suf_s)
+			if ssbrc.stages[stage]['location'] != "null":
+				mc_write(file, tab(2) + qm + 'center' + sep_s + str(center(ssbrc.stages[stage]['location'])) + suf_s)
+			mc_write(file, tab(2) + qm + 'song_count' + sep_n + str(ssbrc.stages[stage]['song_count']) + ',')
+			mc_write(file, tab(2) + qm + 'time' + sep_s + str(ssbrc.stages[stage]['time']) + suf_s)
+			mc_write(file, tab(2) + qm + 'weather' + sep_s + str(ssbrc.stages[stage]['weather']) + suf_s)
+			mc_write(file, tab(2) + qm + 'spawnpoints' + suf_e)
+			for i, pos in ssbrc.stages[stage]['spawnpoints'].items():
+				mc_write(file, tab(3) + qm + i + sep_s + pos + suf_s)
+			mc_write(file, tab(2) + ent)
+			mc_write(file, tab(2) + qm + 'item_spawnpoints' + suf_e)
+			for i, pos in ssbrc.stages[stage]['item_spawnpoints'].items():
+				mc_write(file, tab(3) + qm + i + sep_s + pos + suf_s)
+			mc_write(file, tab(2) + ent)
+			mc_write(file, tab(1) + ent)
+		file.write('}\n')
+
+def stage_getter():
+	'''Initializes the getter function that can be used to check for the desired stage.'''
+	with open('data\\ssbrc\\functions\\logic\\stages\\get.mcfunction', 'w') as file:
+		for stage in ssbrc.stages:
+			js_write(file, f'$function $(function) with storage ssbrc:data stages.{stage}\n')
+	with open('data\\ssbrc\\functions\\logic\\stages\\get_entity.mcfunction', 'w') as file:
+		for stage in ssbrc.stages:
+			js_write(file, f'$execute if entity @s[tag=$(stage)] run function $(function) with storage ssbrc:data stages.{stage}\n')
+
 def create_series_tags():
 	'''Initializes series tags.'''
 	for name, color in ssbrc.series.items():
@@ -56,7 +90,7 @@ def create_stage_icon():
 			js_write(file, tab(6) + ent)
 			js_write(file, tab(6) + '{')
 			js_write(file, tab(7) + qm + 'function' + sep_s + 'minecraft:set_custom_data' + suf_s)
-			js_write(file, tab(7) + qm + 'tag' + sep_s + '{ui:{navigation:\\"stages/' + stage + '/vote\\"}}' + qm)
+			js_write(file, tab(7) + qm + 'tag' + sep_s + '{ui:{navigation:\\"logic/stages/vote with storage ssbrc:data stages.' + stage + '\\"}}' + qm)
 			js_write(file, tab(6) + '}')
 			js_write(file, tab(5) + ']')
 			js_write(file, tab(4) + '}')

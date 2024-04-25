@@ -10,17 +10,6 @@
 		}
 	},
 	{
-		"function": "minecraft:set_lore",
-		"entity": "this",
-		"lore": [
-			{
-				"text": "\u1840",
-				"font": "ssbrc:skins"
-			}
-		],
-		"mode": "append"
-	},
-	{
 		"function": "minecraft:set_custom_model_data",
 		"value": 1844
 	}
