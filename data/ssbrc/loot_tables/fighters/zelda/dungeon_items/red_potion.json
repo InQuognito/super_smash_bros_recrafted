@@ -12,7 +12,7 @@
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"translate": "ssbrc.tooltips.zelda.dungeonItem.red_potion",
+								"translate": "ssbrc.tooltips.zelda.dungeon_item.red_potion",
 								"color": "red",
 								"bold": true,
 								"italic": false
@@ -35,7 +35,7 @@
 							"entity": "this",
 							"lore": [
 								{
-									"translate": "ssbrc.tooltips.zelda.dungeonItem.red_potion.description.1",
+									"translate": "ssbrc.tooltips.zelda.dungeon_item.red_potion.description.1",
 									"color": "gray",
 									"bold": false,
 									"italic": false

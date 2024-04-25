@@ -12,7 +12,7 @@
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"translate": "ssbrc.tooltips.zelda.dungeonItem.fire_rod",
+								"translate": "ssbrc.tooltips.zelda.dungeon_item.fire_rod",
 								"color": "red",
 								"bold": true,
 								"italic": false
@@ -43,7 +43,7 @@
 											"italic": false
 										},
 										{
-											"translate": "ssbrc.tooltips.zelda.dungeonItem.fire_rod.description.1",
+											"translate": "ssbrc.tooltips.zelda.dungeon_item.fire_rod.description.1",
 											"color": "gray",
 											"bold": false,
 											"italic": false
@@ -75,7 +75,7 @@
 											"italic": false
 										},
 										{
-											"translate": "ssbrc.tooltips.zelda.dungeonItem.fire_rod.description.2",
+											"translate": "ssbrc.tooltips.zelda.dungeon_item.fire_rod.description.2",
 											"color": "gray",
 											"bold": false,
 											"italic": false
@@ -83,7 +83,7 @@
 									]
 								},
 								{
-									"translate": "ssbrc.tooltips.zelda.dungeonItem.fire_rod.description.3",
+									"translate": "ssbrc.tooltips.zelda.dungeon_item.fire_rod.description.3",
 									"color": "gray",
 									"bold": false,
 									"italic": false
