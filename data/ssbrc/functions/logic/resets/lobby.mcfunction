@@ -26,7 +26,7 @@ summon minecraft:text_display -521.5 1.75 -1944.5 {text:'{"translate":"ssbrc.lob
 summon minecraft:item_display -535.5 8.0 -1944.5 {Tags:["static_object","no_kill"],item:{id:"minecraft:stick",components:{"minecraft:custom_model_data":841}},Rotation:[-90f,0f]}
 
 # Sandbag
-summon minecraft:item_display -525.5 5.25 -1936.5 {Tags:["sandbag","selectable"],item:{id:"minecraft:warped_fungus_on_a_stick",components:{"minecraft:custom_model_data":10000}},Rotation:[-145f,0f]}
+summon minecraft:item_display -525.5 5.25 -1936.5 {Tags:["sandbag","selectable"],item:{id:"minecraft:emerald",components:{"minecraft:custom_model_data":10000}},Rotation:[-145f,0f]}
 
 # Resource Pack Checker
 summon minecraft:item_display -525.5 5.5 -1952.5 {Tags:["asset_test"],item:{id:"minecraft:barrier",components:{"minecraft:custom_model_data":99999}},transformation:[0.75f,0f,0f,0f,0f,0.75f,0f,0f,0f,0f,0.75f,0f,0f,0f,0f,1f]}

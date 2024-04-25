@@ -21,7 +21,7 @@
 						"condition": "minecraft:entity_properties",
 						"entity": "this",
 						"predicate": {
-							"nbt": "{Inventory:[{id:\"minecraft:warped_fungus_on_a_stick\"}]}"
+							"nbt": "{Inventory:[{id:\"minecraft:emerald\"}]}"
 						}
 					}
 				],
