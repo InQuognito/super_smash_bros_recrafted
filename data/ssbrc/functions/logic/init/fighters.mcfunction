@@ -3,7 +3,14 @@ data modify storage ssbrc:data fighters set value {\
 		"name": "altered_beast",\
 		"model": 1820,\
 		"color": "gold",\
-		"skin_count": 2,\
+		"skin_count": 3,\
+		"skins": {\
+			"player_2": {\
+				"name": "player_2",\
+				"model": 1830,\
+				"color": "blue",\
+			},\
+		},\
 	},\
 	"alucard": {\
 		"name": "alucard",\
@@ -178,7 +185,7 @@ data modify storage ssbrc:data fighters set value {\
 		"name": "hero",\
 		"model": 440,\
 		"color": "yellow",\
-		"skin_count": 5,\
+		"skin_count": 6,\
 		"skins": {\
 			"erdrick": {\
 				"name": "erdrick",\
@@ -193,6 +200,11 @@ data modify storage ssbrc:data fighters set value {\
 			"sofia": {\
 				"name": "sofia",\
 				"model": 448,\
+				"color": "green",\
+			},\
+			"solo": {\
+				"name": "solo",\
+				"model": 450,\
 				"color": "green",\
 			},\
 		},\
@@ -238,21 +250,11 @@ data modify storage ssbrc:data fighters set value {\
 		"name": "kirby",\
 		"model": 700,\
 		"color": "light_purple",\
-		"skin_count": 5,\
+		"skin_count": 3,\
 		"skins": {\
-			"anti_kirby": {\
-				"name": "anti_kirby",\
-				"model": 702,\
-				"color": "light_purple",\
-			},\
 			"keeby": {\
 				"name": "keeby",\
 				"model": 703,\
-				"color": "light_purple",\
-			},\
-			"kusamochi": {\
-				"name": "kusamochi",\
-				"model": 704,\
 				"color": "light_purple",\
 			},\
 		},\
@@ -613,8 +615,8 @@ data modify storage ssbrc:data fighters set value {\
 		"color": "red",\
 		"skin_count": 4,\
 		"skins": {\
-			"player_two": {\
-				"name": "player_two",\
+			"player_2": {\
+				"name": "player_2",\
 				"model": 1962,\
 				"color": "dark_green",\
 			},\

@@ -2,8 +2,8 @@ advancement grant @s only ssbrc:fighters/joker/skins/shujin_academy
 
 scoreboard players operation @s stats.credits -= price.skin.common vars
 
-tellraw @s [{"translate":"ssbrc.shop.purchase.skin","color":"white"},{"translate":"ssbrc.fighters.joker.skin.shujin_academy","color":"dark_red"}]
+tellraw @s [{"translate":"ssbrc.shop.purchase.skin","color":"white"},{"translate":"ssbrc.fighters.joker.skin.shujin_academy","color":"white"}]
 
-playsound minecraft:entity.player.levelup master @s ~ ~ ~
+playsound minecraft:entity.player.levelup master @s
 
 function ssbrc:shop/pages/skins/joker

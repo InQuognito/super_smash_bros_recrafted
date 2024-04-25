@@ -3,7 +3,12 @@ fighters = {
 		'model': 1820,
 		'color': 'gold',
 		'default': False,
-		'skins': {}
+		'skins': {
+			'player_2': {
+				'model': 1830,
+				'color': 'blue'
+			}
+		}
 	},
 	'alucard': {
 		'model': 1840,
@@ -164,6 +169,10 @@ fighters = {
 			'sofia': {
 				'model': 448,
 				'color': 'green'
+			},
+			'solo': {
+				'model': 450,
+				'color': 'green'
 			}
 		}
 	},
@@ -204,16 +213,8 @@ fighters = {
 		'color': 'light_purple',
 		'default': True,
 		'skins': {
-			'anti_kirby': {
-				'model': 702,
-				'color': 'light_purple'
-			},
 			'keeby': {
 				'model': 703,
-				'color': 'light_purple'
-			},
-			'kusamochi': {
-				'model': 704,
 				'color': 'light_purple'
 			}
 		}
@@ -514,7 +515,7 @@ fighters = {
 		'color': 'red',
 		'default': False,
 		'skins': {
-			'player_two': {
+			'player_2': {
 				'model': 1962,
 				'color': 'dark_green'
 			},
