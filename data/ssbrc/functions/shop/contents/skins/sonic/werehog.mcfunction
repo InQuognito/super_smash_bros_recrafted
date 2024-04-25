@@ -2,7 +2,7 @@ advancement grant @s only ssbrc:fighters/sonic/skins/werehog
 
 scoreboard players operation @s stats.credits -= price.skin.common vars
 
-tellraw @s [{"translate":"ssbrc.shop.purchase.skin","color":"white"},{"translate":"ssbrc.fighters.sonic.skin.werehog","color":"white"}]
+tellraw @s [{"translate":"ssbrc.shop.purchase.skin","color":"white"},{"translate":"ssbrc.fighters.sonic.skin.werehog","color":"dark_blue"}]
 
 playsound minecraft:entity.player.levelup master @s
 

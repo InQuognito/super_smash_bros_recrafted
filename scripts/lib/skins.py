@@ -66,9 +66,9 @@ def create_shop_entry(skin, fighter, path):
 			js_write(file, f'advancement grant @s only ssbrc:fighters/{fighter}/skins/{skin}\n')
 			js_write(file, 'scoreboard players operation @s stats.credits -= price.skin.common vars\n')
 			if skin == 'player_2':
-				js_write(file, 'tellraw @s [{"translate":"ssbrc.shop.purchase.skin","color":"white"},{"translate":"ssbrc.fighters.skin.player_2","color":"white"}]\n')
+				js_write(file, 'tellraw @s [{"translate":"ssbrc.shop.purchase.skin","color":"white"},{"translate":"ssbrc.fighters.skin.player_2","color":"' + str(ssbrc.fighters[fighter]['skins'][skin]['color']) + '"}]\n')
 			else:
-				js_write(file, 'tellraw @s [{"translate":"ssbrc.shop.purchase.skin","color":"white"},{"translate":"ssbrc.fighters.' + fighter + '.skin.' + skin + '","color":"white"}]\n')
+				js_write(file, 'tellraw @s [{"translate":"ssbrc.shop.purchase.skin","color":"white"},{"translate":"ssbrc.fighters.' + fighter + '.skin.' + skin + '","color":"' + str(ssbrc.fighters[fighter]['skins'][skin]['color']) + '"}]\n')
 			js_write(file, 'playsound minecraft:entity.player.levelup master @s\n')
 			js_write(file, f'function ssbrc:shop/pages/skins/{fighter}')
 	elif skin == 'gold':
