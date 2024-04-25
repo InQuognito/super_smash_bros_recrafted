@@ -21,7 +21,7 @@ function ssbrc:shop/buttons/header/get {name:"steve",slot:"20"}
 function ssbrc:shop/buttons/header/get {name:"sora",slot:"21"}
 function ssbrc:shop/buttons/header/get {name:"shovel_knight",slot:"22"}
 function ssbrc:shop/buttons/header/get {name:"yar",slot:"23"}
-function ssbrc:shop/buttons/header/get {name:"",slot:"24"}
+function ssbrc:shop/buttons/header/get {name:"zelda",slot:"24"}
 
 function ssbrc:logic/ui/buttons/placeholder/get {slot:"8"}
 function ssbrc:logic/ui/buttons/placeholder/get {slot:"17"}
