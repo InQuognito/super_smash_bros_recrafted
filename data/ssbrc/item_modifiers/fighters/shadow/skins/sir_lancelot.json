@@ -2,11 +2,11 @@
 	{
 		"function": "minecraft:set_name",
 		"entity": "this",
+		"target": "item_name",
 		"name": {
 			"translate": "ssbrc.fighters.shadow.skin.sir_lancelot",
-			"color": "gray",
-			"bold": true,
-			"italic": false
+			"color": "yellow",
+			"bold": true
 		}
 	},
 	{

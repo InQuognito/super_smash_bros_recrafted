@@ -467,11 +467,16 @@ data modify storage ssbrc:data fighters set value {\
 		"name": "shadow",\
 		"model": 1900,\
 		"color": "dark_red",\
-		"skin_count": 3,\
+		"skin_count": 4,\
 		"skins": {\
+			"sir_lancelot": {\
+				"name": "sir_lancelot",\
+				"model": 1902,\
+				"color": "yellow",\
+			},\
 			"yellow_android": {\
 				"name": "yellow_android",\
-				"model": 1902,\
+				"model": 1903,\
 				"color": "yellow",\
 			},\
 		},\

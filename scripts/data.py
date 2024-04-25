@@ -395,8 +395,12 @@ fighters = {
 		'color': 'dark_red',
 		'default': False,
 		'skins': {
-			'yellow_android': {
+			'sir_lancelot': {
 				'model': 1902,
+				'color': 'yellow'
+			},
+			'yellow_android': {
+				'model': 1903,
 				'color': 'yellow'
 			}
 		}
