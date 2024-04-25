@@ -1,6 +1,6 @@
 import os
 
-import data as ssbrc
+import ssbrc_data as ssbrc
 
 qm = '\"'
 sep_n = '\": '
