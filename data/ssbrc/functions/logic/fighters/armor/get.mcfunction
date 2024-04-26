@@ -1,6 +1,6 @@
 item replace entity @s armor.head with minecraft:barrier[minecraft:hide_tooltip={}]
 item replace entity @s armor.chest with minecraft:iron_chestplate[minecraft:item_name='{"translate":"ssbrc.tooltips.ability.passives","color":"blue","bold":true}',minecraft:unbreakable={show_in_tooltip:false}]
-item replace entity @s[tag=pit,tag=!wings_burned] armor.chest with minecraft:elytra[minecraft:item_name='{"translate":"ssbrc.tooltips.ability.passives","color":"blue","bold":true}',minecraft:damage=429]
+item replace entity @s[tag=pit,tag=!wings_burned] armor.chest with minecraft:elytra[minecraft:item_name='{"translate":"ssbrc.tooltips.ability.passives","color":"blue","bold":true}',minecraft:max_damage=3]
 item replace entity @s armor.legs with minecraft:iron_leggings[minecraft:item_name='{"translate":"ssbrc.tooltips.ability.utilities","color":"green","bold":true}',minecraft:unbreakable={show_in_tooltip:false}]
 item replace entity @s armor.feet with minecraft:iron_boots[minecraft:hide_tooltip={},minecraft:unbreakable={}]
 
