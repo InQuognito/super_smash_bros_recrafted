@@ -2,11 +2,11 @@
 	{
 		"function": "minecraft:set_name",
 		"entity": "this",
+		"target": "item_name",
 		"name": {
 			"translate": "ssbrc.fighters.pit.skin.retro",
 			"color": "white",
-			"bold": true,
-			"italic": false
+			"bold": true
 		}
 	},
 	{

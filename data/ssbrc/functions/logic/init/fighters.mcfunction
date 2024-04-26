@@ -86,18 +86,8 @@ data modify storage ssbrc:data fighters set value {\
 		"page": 1,\
 		"model": 260,\
 		"color": "aqua",\
-		"skin_count": 5,\
+		"skin_count": 3,\
 		"skins": {\
-			"prime_2": {\
-				"name": "prime_2",\
-				"model": 262,\
-				"color": "aqua",\
-			},\
-			"prime_3": {\
-				"name": "prime_3",\
-				"model": 263,\
-				"color": "aqua",\
-			},\
 			"prototype": {\
 				"name": "prototype",\
 				"model": 264,\
@@ -405,7 +395,14 @@ data modify storage ssbrc:data fighters set value {\
 		"page": 1,\
 		"model": 1220,\
 		"color": "white",\
-		"skin_count": 2,\
+		"skin_count": 3,\
+		"skins": {\
+			"retro": {\
+				"name": "retro",\
+				"model": 1222,\
+				"color": "white",\
+			},\
+		},\
 	},\
 	"pokemon_trainer": {\
 		"name": "pokemon_trainer",\
@@ -669,22 +666,12 @@ data modify storage ssbrc:data fighters set value {\
 		"page": 1,\
 		"model": 1780,\
 		"color": "blue",\
-		"skin_count": 5,\
+		"skin_count": 3,\
 		"skins": {\
 			"hyrule_warriors": {\
 				"name": "hyrule_warriors",\
 				"model": 1782,\
 				"color": "light_purple",\
-			},\
-			"shadow_zelda": {\
-				"name": "shadow_zelda",\
-				"model": 1783,\
-				"color": "dark_gray",\
-			},\
-			"twilight_princess": {\
-				"name": "twilight_princess",\
-				"model": 1784,\
-				"color": "dark_purple",\
 			},\
 		},\
 	},\
