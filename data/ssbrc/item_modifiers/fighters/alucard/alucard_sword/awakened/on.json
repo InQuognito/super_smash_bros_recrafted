@@ -13,6 +13,6 @@
 	},
 	{
 		"function": "minecraft:set_custom_data",
-		"tag": "{awakened:1}"
+		"tag": "{awakened:\"true\"}"
 	}
 ]

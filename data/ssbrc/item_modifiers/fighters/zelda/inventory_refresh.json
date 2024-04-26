@@ -9,7 +9,13 @@
 					"condition": "minecraft:entity_properties",
 					"entity": "this",
 					"predicate": {
-						"nbt": "{Inventory:[{tag:{ring_of_charisma:1}}]}"
+						"slots": {
+							"container.*": {
+								"predicates": {
+									"minecraft:custom_data": "{item:\"ring_of_charisma\"}"
+								}
+							}
+						}
 					}
 				}
 			}
@@ -23,7 +29,13 @@
 				"condition": "minecraft:entity_properties",
 				"entity": "this",
 				"predicate": {
-					"nbt": "{Inventory:[{tag:{ring_of_charisma:1}}]}"
+					"slots": {
+						"container.*": {
+							"predicates": {
+								"minecraft:custom_data": "{item:\"ring_of_charisma\"}"
+							}
+						}
+					}
 				}
 			}
 		]

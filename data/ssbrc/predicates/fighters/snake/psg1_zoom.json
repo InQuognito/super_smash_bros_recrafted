@@ -1,0 +1,32 @@
+{
+	"condition": "minecraft:all_of",
+	"terms": [
+		{
+			"condition": "minecraft:inverted",
+			"term": {
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"nbt": "{Tags:[\"reloading\"]}"
+				}
+			}
+		},
+		{
+			"condition": "minecraft:reference",
+			"name": "ssbrc:flag/sneaking"
+		},
+		{
+			"condition": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
+				"equipment": {
+					"mainhand": {
+						"predicates": {
+							"minecraft:custom_data": "{item:\"psg1\"}"
+						}
+					}
+				}
+			}
+		}
+	]
+}

@@ -1,5 +1,5 @@
 tag @s add self
-execute if entity @s[nbt={Inventory:[{tag:{options:1}}]}] as @r[tag=!self,tag=room.fighter_select,tag=!cannot_host] run function ssbrc:logic/options
+execute if items entity @s container.* minecraft:written_book[minecraft:custom_data~{item:"options"}] as @r[tag=!self,tag=room.fighter_select,tag=!cannot_host] run function ssbrc:logic/options
 tag @s remove self
 
 function ssbrc:logic/resets/leave

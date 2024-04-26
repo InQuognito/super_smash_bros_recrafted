@@ -92,7 +92,6 @@ scoreboard objectives add rotationX.prev dummy
 scoreboard objectives add rotationY dummy
 scoreboard objectives add rotationY.prev dummy
 scoreboard objectives add sandbag.stand_on dummy
-scoreboard objectives add select_item minecraft.used:minecraft.nether_star
 scoreboard objectives add selected_item dummy
 scoreboard objectives add selected_item.prev dummy
 scoreboard objectives add shadow.chaos_control dummy
@@ -117,8 +116,6 @@ scoreboard objectives add weapon_4.reload dummy
 scoreboard objectives add snake.anti_personnel_mine.ammo dummy
 scoreboard objectives add snake.smoke_grenade.ammo dummy
 scoreboard objectives add sprint_distance minecraft.custom:minecraft.sprint_one_cm
-scoreboard objectives add stage_index dummy
-scoreboard objectives add stage_index.selector dummy
 scoreboard objectives add steve.tier dummy
 scoreboard objectives add stocks dummy
 scoreboard objectives add suicides dummy

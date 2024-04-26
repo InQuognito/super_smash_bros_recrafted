@@ -9,7 +9,9 @@
 				"predicate": {
 					"equipment": {
 						"mainhand": {
-							"nbt": "{psg1:1}"
+							"predicates": {
+								"minecraft:custom_data": "{item:\"psg1\"}"
+							}
 						}
 					}
 				}
@@ -20,7 +22,9 @@
 				"predicate": {
 					"equipment": {
 						"mainhand": {
-							"nbt": "{famas:1}"
+							"predicates": {
+								"minecraft:custom_data": "{item:\"famas\"}"
+							}
 						}
 					}
 				}
@@ -31,7 +35,9 @@
 				"predicate": {
 					"equipment": {
 						"mainhand": {
-							"nbt": "{s1000:1}"
+							"predicates": {
+								"minecraft:custom_data": "{item:\"s1000\"}"
+							}
 						}
 					}
 				}
@@ -42,7 +48,9 @@
 				"predicate": {
 					"equipment": {
 						"mainhand": {
-							"nbt": "{socom:1}"
+							"predicates": {
+								"minecraft:custom_data": "{item:\"socom\"}"
+							}
 						}
 					}
 				}
@@ -53,7 +61,9 @@
 				"predicate": {
 					"equipment": {
 						"mainhand": {
-							"nbt": "{anti_personnel_mine:1}"
+							"predicates": {
+								"minecraft:custom_data": "{item:\"anti_personnel_mine\"}"
+							}
 						}
 					}
 				}
@@ -65,7 +75,9 @@
 				"predicate": {
 					"equipment": {
 						"mainhand": {
-							"nbt": "{smoke_grenade:1}"
+							"predicates": {
+								"minecraft:custom_data": "{item:\"smoke_grenade\"}"
+							}
 						}
 					}
 				}

@@ -1,3 +1,3 @@
 scoreboard players operation @s charge.1 += @s flag.damage_dealt
 
-execute if entity @s[nbt=!{SelectedItem:{components:{"minecraft:custom_data":{tt33:1}}}}] run function ssbrc:fighters/joker/logic/abilities/persona_awakening/update
+execute unless items entity @s weapon.mainhand minecraft:nether_star[minecraft:custom_data~{item:"tt33"}] run function ssbrc:fighters/joker/logic/abilities/persona_awakening/update

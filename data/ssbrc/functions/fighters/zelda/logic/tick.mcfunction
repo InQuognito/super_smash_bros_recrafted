@@ -5,17 +5,17 @@ function ssbrc:fighters/zelda/logic/mana/update
 execute if entity @s[tag=active_fuse] run function ssbrc:fighters/zelda/logic/abilities/bomb/fuse_tick
 
 # Bow
-execute if entity @s[nbt=!{SelectedItem:{components:{"minecraft:custom_data":{bow:1}}}},nbt={Inventory:[{components:{"minecraft:custom_data":{bow:1,pulling:1}}}]}] run function ssbrc:fighters/zelda/logic/abilities/bow/reset
+execute unless items entity @s weapon.mainhand minecraft:nether_star[minecraft:custom_data~{item:"bow"}] if items entity @s container.* minecraft:nether_star[minecraft:custom_data~{item:"bow",pulling:"true"}] run function ssbrc:fighters/zelda/logic/abilities/bow/reset
 
 # Passive Items
-effect clear @s[nbt={Inventory:[{components:{"minecraft:custom_data":{goron_locket:1}}}]}] minecraft:wither
+execute if items entity @s container.* minecraft:nether_star[minecraft:custom_data~{item:"goron_locket"}] run effect clear @s minecraft:wither
 
-execute at @s[nbt={Inventory:[{components:{"minecraft:custom_data":{torch_of_wisdom:1}}}]}] as @e[predicate=ssbrc:flag/targets,predicate=!ssbrc:team_match,predicate=!ssbrc:fighters/effects/has/glowing,distance=..10] run effect give @s minecraft:glowing 1 255 true
+execute if items entity @s container.* minecraft:nether_star[minecraft:custom_data~{item:"torch_of_wisdom"}] run effect give @e[predicate=ssbrc:flag/targets,predicate=!ssbrc:team_match,predicate=!ssbrc:fighters/effects/has/glowing,distance=..10] minecraft:glowing 1 255 true
 
-effect clear @s[nbt=!{Inventory:[{components:{"minecraft:custom_data":{nayrus_ring:1}}}]}] minecraft:resistance
-execute if entity @s[nbt={Inventory:[{components:{"minecraft:custom_data":{nayrus_ring:1}}}]}] run function ssbrc:fighters/zelda/logic/passive_items/nayrus_ring/tick
+execute unless items entity @s container.* minecraft:nether_star[minecraft:custom_data~{item:"nayrus_ring"}] run effect clear @s minecraft:resistance
+execute if items entity @s container.* minecraft:nether_star[minecraft:custom_data~{item:"nayrus_ring"}] run function ssbrc:fighters/zelda/logic/passive_items/nayrus_ring/tick
 
-execute if entity @s[nbt={Inventory:[{components:{"minecraft:custom_data":{ring_of_risk:1}}}]}] run function ssbrc:fighters/zelda/logic/passive_items/ring_of_risk
+execute if items entity @s container.* minecraft:nether_star[minecraft:custom_data~{item:"ring_of_risk"}] run function ssbrc:fighters/zelda/logic/passive_items/ring_of_risk
 
 # Great Fairy Blessings
 execute if entity @s[scores={zelda.enchant_armor=1..}] run function ssbrc:fighters/zelda/logic/blessings/enchant_armor/tick

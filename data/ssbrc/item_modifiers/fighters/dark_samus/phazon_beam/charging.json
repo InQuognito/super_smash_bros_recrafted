@@ -9,6 +9,6 @@
 	},
 	{
 		"function": "minecraft:set_custom_data",
-		"tag": "{charging:1}"
+		"tag": "{charging:\"true\"}"
 	}
 ]

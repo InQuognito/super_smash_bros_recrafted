@@ -3,5 +3,5 @@ execute if entity @s[tag=!hand_slap,predicate=ssbrc:flag/sneaking] rotated ~ 0.0
 execute if entity @s[tag=hand_slap,predicate=!ssbrc:flag/sneaking] run function ssbrc:fighters/donkey_kong/logic/abilities/hand_slap/deactivate
 
 # Ammo HUD
-title @s[nbt=!{SelectedItem:{components:{"minecraft:custom_data":{orange_grenade:1}}}}] actionbar ""
-title @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{orange_grenade:1}}}}] actionbar {"score":{"name":"@s","objective":"charge.1"},"color":"green"}
+execute unless items entity @s weapon.mainhand minecraft:nether_star[minecraft:custom_data~{item:"orange_grenade"}] run title @s actionbar ""
+execute if items entity @s weapon.mainhand minecraft:nether_star[minecraft:custom_data~{item:"orange_grenade"}] run title @s actionbar {"score":{"name":"@s","objective":"charge.1"},"color":"green"}

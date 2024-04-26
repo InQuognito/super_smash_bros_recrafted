@@ -1,9 +1,9 @@
-execute if entity @s[predicate=ssbrc:fighters/snake/not_holding_weapon] run title @s actionbar ""
+title @s[predicate=ssbrc:fighters/snake/not_holding_weapon] actionbar ""
 
-execute if entity @s[nbt={SelectedItem:{tag:{psg1:1}}}] run function ssbrc:fighters/snake/logic/hud/psg1
-execute if entity @s[nbt={SelectedItem:{tag:{famas:1}}}] run function ssbrc:fighters/snake/logic/hud/famas
-execute if entity @s[nbt={SelectedItem:{tag:{s1000:1}}}] run function ssbrc:fighters/snake/logic/hud/s1000
-execute if entity @s[nbt={SelectedItem:{tag:{socom:1}}}] run function ssbrc:fighters/snake/logic/hud/socom
+execute if items entity @s weapon.mainhand minecraft:nether_star[minecraft:custom_data~{item:"psg1"}] run function ssbrc:fighters/snake/logic/hud/psg1
+execute if items entity @s weapon.mainhand minecraft:nether_star[minecraft:custom_data~{item:"famas"}] run function ssbrc:fighters/snake/logic/hud/famas
+execute if items entity @s weapon.mainhand minecraft:nether_star[minecraft:custom_data~{item:"s1000"}] run function ssbrc:fighters/snake/logic/hud/s1000
+execute if items entity @s weapon.mainhand minecraft:nether_star[minecraft:custom_data~{item:"socom"}] run function ssbrc:fighters/snake/logic/hud/socom
 
-title @s[nbt={SelectedItem:{tag:{anti_personnel_mine:1}}},scores={snake.anti_personnel_mine.ammo=0..}] actionbar {"score":{"name":"@s","objective":"snake.anti_personnel_mine.ammo"},"color":"green"}
-title @s[nbt={SelectedItem:{tag:{smoke_grenade:1}}},scores={snake.smoke_grenade.ammo=0..}] actionbar {"score":{"name":"@s","objective":"snake.smoke_grenade.ammo"},"color":"green"}
+execute if items entity @s[scores={snake.anti_personnel_mine.ammo=0..}] weapon.mainhand minecraft:nether_star[minecraft:custom_data~{item:"anti_personnel_mine"}] run title @s actionbar {"score":{"name":"@s","objective":"snake.anti_personnel_mine.ammo"},"color":"green"}
+execute if items entity @s[scores={snake.smoke_grenade.ammo=0..}] weapon.mainhand minecraft:nether_star[minecraft:custom_data~{item:"smoke_grenade"}] run title @s actionbar {"score":{"name":"@s","objective":"snake.smoke_grenade.ammo"},"color":"green"}

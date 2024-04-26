@@ -4,3 +4,5 @@ execute anchored eyes positioned ^ ^-0.75 ^1 run function ssbrc:fighters/dark_sa
 
 damage @s 2.0 minecraft:magic
 effect give @s minecraft:poison 1 0 true
+
+advancement revoke @s only ssbrc:utility/use_item/fighters/dark_samus/phazon_beam/overload

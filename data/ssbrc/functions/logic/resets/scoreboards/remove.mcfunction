@@ -78,7 +78,6 @@ scoreboard objectives remove reset
 scoreboard objectives remove respawn
 scoreboard objectives remove rotation
 scoreboard objectives remove sandbag.stand_on
-scoreboard objectives remove select_item
 scoreboard objectives remove selected_item
 scoreboard objectives remove selected_item.prev
 scoreboard objectives remove shadow.chaos_control
@@ -90,8 +89,6 @@ scoreboard objectives remove snake.capacity
 scoreboard objectives remove snake.anti_personnel_mine.ammo
 scoreboard objectives remove snake.smoke_grenade.ammo
 scoreboard objectives remove sprint_distance
-scoreboard objectives remove stage_index
-scoreboard objectives remove stage_index.selector
 scoreboard objectives remove steve.tier
 scoreboard objectives remove stocks
 scoreboard objectives remove suicides

@@ -1,0 +1,18 @@
+{
+	"parent": "ssbrc:utility/use_item/teams/root",
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:using_item",
+			"conditions": {
+				"item": {
+					"predicates": {
+						"minecraft:custom_data": "{team:\"green\"}"
+					}
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "ssbrc:logic/teams/yellow"
+	}
+}

@@ -2,9 +2,9 @@ title @s actionbar [{"translate":"ssbrc.fighters.hero.warrior_switch","bold":tru
 
 tag @s add magic_lost
 
-clear @s minecraft:nether_star[minecraft:custom_data~{hero.spell:1}]
+clear @s minecraft:nether_star[minecraft:custom_data~{group:"hero.spell"}]
 
 function ssbrc:logic/fighters/replace_item {old:"hero.sword",new:"hero/sword"}
 
-loot replace entity @s[nbt=!{Inventory:[{tag:{hero.shield:1}}]},nbt=!{Inventory:[{Slot:-106b}]}] weapon.offhand loot ssbrc:fighters/hero/shield
-loot give @s[nbt=!{Inventory:[{tag:{hero.shield:1}}]},nbt={Inventory:[{Slot:-106b}]}] loot ssbrc:fighters/hero/shield
+execute unless items entity @s weapon.offhand minecraft:shield[minecraft:custom_data~{item:"hero.shield"}] unless items entity @s weapon.offhand * run loot replace entity @s weapon.offhand loot ssbrc:fighters/hero/shield
+execute unless items entity @s weapon.offhand minecraft:shield[minecraft:custom_data~{item:"hero.shield"}] if items entity @s weapon.offhand * run loot give @s loot ssbrc:fighters/hero/shield

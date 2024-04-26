@@ -21,7 +21,7 @@ execute if score hazards options matches 1 if score tower_of_fate stage matches 
 data modify entity @e[tag=lobby.timer,limit=1] text set value '[{"translate":"ssbrc.lobby.time_remaining","color":"gold"},{"score":{"name":"game_time","objective":"timer"},"color":"yellow"},{"translate":"s","color":"gold"}]'
 
 # Ryu
-execute if score game_time timer matches 60 as @a[tag=ryu,tag=!ability_used,nbt=!{Inventory:[{tag:{satsui_no_hado_rage:1}}]}] run loot replace entity @s hotbar.1 loot ssbrc:fighters/ryu/satsui_no_hado_rage
+execute if score game_time timer matches 60 as @a[tag=ryu,tag=!ability_used] unless items entity @s container.* minecraft:nether_star[minecraft:custom_data~{item:"satsui_no_hado_rage"}] run loot replace entity @s hotbar.1 loot ssbrc:fighters/ryu/satsui_no_hado_rage
 
 # Countdown
 scoreboard players remove game_time timer 1

@@ -7,7 +7,9 @@
 			"predicate": {
 				"equipment": {
 					"mainhand": {
-						"nbt": "{areadbhar:1}"
+						"predicates": {
+							"minecraft:custom_data": "{item:\"areadbhar\"}"
+						}
 					}
 				}
 			}
@@ -18,7 +20,9 @@
 			"predicate": {
 				"equipment": {
 					"mainhand": {
-						"nbt": "{aymr:1}"
+						"predicates": {
+							"minecraft:custom_data": "{item:\"aymr\"}"
+						}
 					}
 				}
 			}

@@ -4,7 +4,7 @@ item replace entity @s[tag=pit,tag=!wings_burned] armor.chest with minecraft:ely
 item replace entity @s armor.legs with minecraft:iron_leggings[minecraft:item_name='{"translate":"ssbrc.tooltips.ability.utilities","color":"green","bold":true}',minecraft:unbreakable={show_in_tooltip:false}]
 item replace entity @s armor.feet with minecraft:iron_boots[minecraft:hide_tooltip={},minecraft:unbreakable={}]
 
-item modify entity @s[predicate=ssbrc:fighters/enchantments/blast_protection_infinity,nbt={Inventory:[{components:{"minecraft:custom_data":{ring_of_blasting:1}}}]}] armor.chest ssbrc:fighters/enchantments/blast_protection_infinity
+execute if items entity @s[predicate=ssbrc:fighters/enchantments/blast_protection_infinity] container.* minecraft:nether_star[minecraft:custom_data~{item:"ring_of_blasting"}] run item modify entity @s armor.chest ssbrc:fighters/enchantments/blast_protection_infinity
 item modify entity @s[predicate=ssbrc:fighters/enchantments/protection] armor.chest ssbrc:fighters/enchantments/protection
 item modify entity @s[predicate=ssbrc:fighters/enchantments/projectile_protection] armor.chest ssbrc:fighters/enchantments/projectile_protection
 item modify entity @s[predicate=ssbrc:fighters/enchantments/fire_protection] armor.chest ssbrc:fighters/enchantments/fire_protection

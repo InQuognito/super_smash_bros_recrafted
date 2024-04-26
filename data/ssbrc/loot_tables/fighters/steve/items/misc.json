@@ -15,7 +15,13 @@
 								"condition": "minecraft:entity_properties",
 								"entity": "this",
 								"predicate": {
-									"nbt": "{Inventory:[{tag:{bow:1}}]}"
+									"slots": {
+										"container.*": {
+											"predicates": {
+												"minecraft:custom_data": "{item:\"bow\"}"
+											}
+										}
+									}
 								}
 							}
 						}
@@ -32,7 +38,13 @@
 								"condition": "minecraft:entity_properties",
 								"entity": "this",
 								"predicate": {
-									"nbt": "{Inventory:[{tag:{crossbow:1}}]}"
+									"slots": {
+										"container.*": {
+											"predicates": {
+												"minecraft:custom_data": "{item:\"crossbow\"}"
+											}
+										}
+									}
 								}
 							}
 						}
@@ -50,14 +62,26 @@
 									"condition": "minecraft:entity_properties",
 									"entity": "this",
 									"predicate": {
-										"nbt": "{Inventory:[{tag:{bow:1}}]}"
+										"slots": {
+											"container.*": {
+												"predicates": {
+													"minecraft:custom_data": "{item:\"bow\"}"
+												}
+											}
+										}
 									}
 								},
 								{
 									"condition": "minecraft:entity_properties",
 									"entity": "this",
 									"predicate": {
-										"nbt": "{Inventory:[{tag:{crossbow:1}}]}"
+										"slots": {
+											"container.*": {
+												"predicates": {
+													"minecraft:custom_data": "{item:\"crossbow\"}"
+												}
+											}
+										}
 									}
 								}
 							]
@@ -75,7 +99,13 @@
 								"condition": "minecraft:entity_properties",
 								"entity": "this",
 								"predicate": {
-									"nbt": "{Inventory:[{tag:{shield:1}}]}"
+									"slots": {
+										"container.*": {
+											"predicates": {
+												"minecraft:custom_data": "{item:\"shield\"}"
+											}
+										}
+									}
 								}
 							}
 						}

@@ -1,7 +1,7 @@
 tag @s add bow
 
-execute if entity @p[tag=self,nbt={SelectedItem:{tag:{fire:1}}}] run tag @s add effect.wither
-execute if entity @p[tag=self,nbt={SelectedItem:{tag:{poison:1}}}] run tag @s add effect.poison
+execute if items entity @a[tag=self,limit=1] weapon.mainhand minecraft:nether_star[minecraft:custom_data~{type:"fire"}] run tag @s add effect.wither
+execute if items entity @a[tag=self,limit=1] weapon.mainhand minecraft:nether_star[minecraft:custom_data~{type:"poison"}] run tag @s add effect.poison
 
 data merge entity @s {damage:0.3}
 

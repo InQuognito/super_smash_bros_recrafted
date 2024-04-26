@@ -1,4 +1,4 @@
 {
 	"function": "minecraft:set_custom_data",
-	"tag": "{shovel_drop:1}"
+	"tag": "{shovel_drop:\"true\"}"
 }

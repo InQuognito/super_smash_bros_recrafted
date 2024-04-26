@@ -1,6 +1,6 @@
 # Water Shuriken
-title @s[nbt=!{SelectedItem:{tag:{water_shuriken:1}}}] actionbar ""
-title @s[nbt={SelectedItem:{tag:{water_shuriken:1}}}] actionbar {"score":{"name":"@s","objective":"charge.1"},"color":"blue"}
+execute unless items entity @s weapon.mainhand minecraft:nether_star[minecraft:custom_data~{item:"water_shuriken"}] run title @s actionbar ""
+execute if items entity @s weapon.mainhand minecraft:nether_star[minecraft:custom_data~{item:"water_shuriken"}] run title @s actionbar {"score":{"name":"@s","objective":"charge.1"},"color":"blue"}
 
 execute if entity @s[scores={charge.1=..3}] run function ssbrc:fighters/greninja/logic/abilities/water_shuriken/charge
 
