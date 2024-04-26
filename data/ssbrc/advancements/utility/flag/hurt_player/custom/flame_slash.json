@@ -23,7 +23,7 @@
 						"equipment": {
 							"mainhand": {
 								"predicates": {
-									"minecraft:custom_data": "{item:\"flame_slash\"}"
+									"minecraft:custom_data": "{spell:\"flame_slash\"}"
 								}
 							}
 						}

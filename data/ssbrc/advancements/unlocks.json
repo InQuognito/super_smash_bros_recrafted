@@ -1,7 +1,6 @@
 {
-	"parent": "ssbrc:fighters",
 	"criteria": {
-		"default": {
+		"requirement": {
 			"trigger": "minecraft:impossible"
 		}
 	}

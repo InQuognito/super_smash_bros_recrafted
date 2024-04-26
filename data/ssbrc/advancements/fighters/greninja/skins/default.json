@@ -1,5 +1,5 @@
 {
-	"parent": "ssbrc:skins",
+	"parent": "ssbrc:fighters",
 	"criteria": {
 		"default": {
 			"trigger": "minecraft:impossible"

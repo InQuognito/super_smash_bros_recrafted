@@ -1,17 +1,24 @@
 from lib.core import *
 
-adv_pre = '{\n\t\"parent\": \"ssbrc:skins\",\n\t\"criteria\": {\n\t\t\"default\": {\n\t\t\t\"trigger\": \"minecraft:'
-adv_suf = '\"\n\t\t}\n\t}\n}\n'
-
 def create_advancement(skin, fighter, path):
 	'''Initializes fighter advancements.'''
 	create_path(path)
 
 	with open(path + skin + '.json', 'w') as file:
-		if ssbrc.fighters[fighter]['default'] and skin == 'default':
-			file.write(adv_pre + 'tick' + adv_suf)
+		js_write(file, '{')
+		if skin == 'default':
+			js_write(file, tab(1) + qm + 'parent' + sep_s + 'ssbrc:fighters' + suf_s)
 		else:
-			file.write(adv_pre + 'impossible' + adv_suf)
+			js_write(file, tab(1) + qm + 'parent' + sep_s + 'ssbrc:skins' + suf_s)
+		js_write(file, tab(1) + qm + 'criteria' + suf_e)
+		js_write(file, tab(2) + qm + 'default' + suf_e)
+		if ssbrc.fighters[fighter]['default'] and skin == 'default':
+			js_write(file, tab(3) + qm + 'trigger' + sep_s + 'minecraft:tick' + qm)
+		else:
+			js_write(file, tab(3) + qm + 'trigger' + sep_s + 'minecraft:impossible' + qm)
+		js_write(file, tab(2) + '}')
+		js_write(file, tab(1) + '}')
+		js_write(file, '}')
 
 def create_item_modifier(skin, fighter, path):
 	'''Initializes skin item modifiers.'''

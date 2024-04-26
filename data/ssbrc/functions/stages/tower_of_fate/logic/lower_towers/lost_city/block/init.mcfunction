@@ -1,4 +1,4 @@
-tag @s add lost_cityBlock
+tag @s add lost_city.block
 
 execute if block ~ ~ ~ minecraft:basalt run tag @s add lost_city.basalt
 execute if block ~ ~ ~ minecraft:coarse_dirt run tag @s add lost_city.coarse_dirt
