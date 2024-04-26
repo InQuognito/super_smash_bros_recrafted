@@ -1,0 +1,61 @@
+{
+	"type": "minecraft:command",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:nether_star",
+					"functions": [
+						{
+							"function": "minecraft:set_name",
+							"entity": "this",
+							"name": {
+								"translate": "ssbrc.tooltips.pit.palutena_bow",
+								"color": "white",
+								"bold": true,
+								"italic": false
+							}
+						},
+						{
+							"function": "minecraft:set_attributes",
+							"modifiers": [
+								{
+									"attribute": "minecraft:generic.attack_damage",
+									"name": "Attack Damage",
+									"amount": 6,
+									"operation": "add_multiplied_base",
+									"slot": "mainhand"
+								},
+								{
+									"attribute": "minecraft:generic.attack_speed",
+									"name": "Attack Speed",
+									"amount": 1.5,
+									"operation": "add_multiplied_base",
+									"slot": "mainhand"
+								}
+							]
+						},
+						{
+							"function": "minecraft:reference",
+							"name": "ssbrc:fighters/init/tooltip/ability/hybrid"
+						},
+						{
+							"function": "minecraft:reference",
+							"name": "ssbrc:fighters/init/ability/charge"
+						},
+						{
+							"function": "minecraft:set_custom_data",
+							"tag": "{item:\"palutena_bow\",pulling:\"false\",split:\"false\",path:\"pit/logic/abilities/palutena_bow/check\"}"
+						},
+						{
+							"function": "minecraft:set_custom_model_data",
+							"value": 1221
+						}
+					]
+				}
+			]
+		}
+	]
+}
