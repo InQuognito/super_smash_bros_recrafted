@@ -2,14 +2,17 @@ from lib.skins import *
 
 def init_fighter():
 	'''Initializes the necessary data to register a fighter and their skins.'''
+	fighter_storage()
+	fighter_getter()
+
 	for fighter in ssbrc.fighters:
 		create_path(f'data\\ssbrc\\advancements\\fighters\\{fighter}\\skins\\') # Create advancement files
 
-		fighter_storage()
-		fighter_getter()
+		random_skin(fighter)
+		reset_skin(fighter)
 
 		# Create skins
-		for skin in ['default', 'gold'] or ssbrc.fighters[fighter]['skins']:
+		for skin in ['default', 'gold']:
 			create_skin(skin, fighter)
 		for skin in ssbrc.fighters[fighter]['skins']:
 			create_skin(skin, fighter)
@@ -48,3 +51,44 @@ def fighter_getter():
 	with open('data\\ssbrc\\functions\\logic\\fighters\\get.mcfunction', 'w') as file:
 		for fighter in ssbrc.fighters:
 			file.write(f'$function $(function) with storage ssbrc:data fighters.{fighter}\n')
+
+def random_skin(fighter):
+	'''Initializes the file containing the random skin selection for the fighter.'''
+	with open(f'data\\ssbrc\\functions\\fighters\\{fighter}\\menu\\skins\\random.mcfunction', 'w') as file:
+		js_write(file, 'scoreboard players set @s fighter_picked 1\n')
+		js_write(file, f'execute store result score random.output temp run random value 1..{count_skins(fighter)}\n')
+
+		if fighter == 'byleth':
+			i = 1
+			for skin in ['default','gold']:
+				js_write(file, 'execute unless score @s[advancements={ssbrc:fighters/' + fighter + '/skins/' + skin + '=true}] skin_picked matches 1 if score random.output temp matches ' + str(i) + ' run function ssbrc:fighters/' + fighter + '/menu/skins/' + skin + '/female')
+				js_write(file, 'execute unless score @s[advancements={ssbrc:fighters/' + fighter + '/skins/' + skin + '=true}] skin_picked matches 1 if score random.output temp matches ' + str(i+1) + ' run function ssbrc:fighters/' + fighter + '/menu/skins/' + skin + '/male')
+				i += 2
+			for skin in ssbrc.fighters[fighter]['skins']:
+				js_write(file, 'execute unless score @s[advancements={ssbrc:fighters/' + fighter + '/skins/' + skin + '=true}] skin_picked matches 1 if score random.output temp matches ' + str(i) + ' run function ssbrc:fighters/' + fighter + '/menu/skins/' + skin + '/female')
+				js_write(file, 'execute unless score @s[advancements={ssbrc:fighters/' + fighter + '/skins/' + skin + '=true}] skin_picked matches 1 if score random.output temp matches ' + str(i+1) + ' run function ssbrc:fighters/' + fighter + '/menu/skins/' + skin + '/male')
+				i += 2
+
+		else:
+			i = 1
+			for skin in ['default','gold']:
+				js_write(file, 'execute unless score @s[advancements={ssbrc:fighters/' + fighter + '/skins/' + skin + '=true}] skin_picked matches 1 if score random.output temp matches ' + str(i) + ' run function ssbrc:fighters/' + fighter + '/menu/skins/' + skin)
+				i += 1
+			for skin in ssbrc.fighters[fighter]['skins']:
+				js_write(file, 'execute unless score @s[advancements={ssbrc:fighters/' + fighter + '/skins/' + skin + '=true}] skin_picked matches 1 if score random.output temp matches ' + str(i) + ' run function ssbrc:fighters/' + fighter + '/menu/skins/' + skin)
+				i += 1
+
+		js_write(file, f'\nexecute if score @s skin_picked matches 1 run function ssbrc:logic/selector/select_fighter with storage ssbrc:data fighters.{fighter}')
+		js_write(file, f'execute unless score @s skin_picked matches 1 run function ssbrc:fighters/{fighter}/menu/skins/random')
+
+def reset_skin(fighter):
+	'''Initializes the file containing the random skin selection for the fighter.'''
+	with open(f'data\\ssbrc\\functions\\fighters\\{fighter}\\menu\\skins\\reset.mcfunction', 'w') as file:
+		for skin in ['default', 'gold']:
+			js_write(file, f'tag @s remove {skin}')
+		for skin in ssbrc.fighters[fighter]['skins']:
+			js_write(file, f'tag @s remove {skin}')
+
+		if fighter == 'byleth':
+			js_write(file, f'tag @s remove female')
+			js_write(file, f'tag @s remove male')

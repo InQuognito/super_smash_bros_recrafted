@@ -13,8 +13,8 @@ def create_advancement(skin, fighter, path):
 
 def create_item_modifier(skin, fighter, path):
 	'''Initializes skin item modifiers.'''
-	if not os.path.exists(path):
-			os.makedirs(path)
+	create_path(path)
+
 	if skin != 'default' and skin != 'gold':
 		with open(path + skin + '.json', 'w') as file:
 			js_write(file, '[')
@@ -25,10 +25,10 @@ def create_item_modifier(skin, fighter, path):
 			js_write(file, tab(2) + qm + 'name' + suf_e)
 			if skin == 'flower_power' or skin == 'penguin':
 				js_write(file, tab(3) + qm + 'translate' + sep_s + f'ssbrc.series.super_mario_bros.skin.{skin}' + suf_s)
-			elif skin == 'player_2':
-				js_write(file, tab(3) + qm + 'translate' + sep_s + 'ssbrc.fighters.skin.player_2' + suf_s)
 			elif skin == 'shadow':
 				js_write(file, tab(3) + qm + 'translate' + sep_s + 'ssbrc.series.pokemon.skin.shadow' + suf_s)
+			elif skin == 'player_2':
+				js_write(file, tab(3) + qm + 'translate' + sep_s + 'ssbrc.fighters.skin.player_2' + suf_s)
 			else:
 				js_write(file, tab(3) + qm + 'translate' + sep_s + f'ssbrc.fighters.{fighter}.skin.{skin}' + suf_s)
 			js_write(file, tab(3) + qm + 'color' + sep_s + str(ssbrc.fighters[fighter]['skins'][skin]['color']) + suf_s)
@@ -59,22 +59,85 @@ def create_item_modifier(skin, fighter, path):
 			js_write(file, tab(1) + '}')
 			js_write(file, ']')
 
+def create_skin_file(skin, fighter, path):
+	'''Initializes the file that allows the skin to be selected.'''
+	create_path(path)
+
+	if fighter == 'byleth':
+		with open(path + skin + '/female.mcfunction', 'w') as file:
+			js_write(file, f'function ssbrc:fighters/{fighter}/menu/skins/reset')
+			js_write(file, f'tag @s add {skin}')
+			js_write(file, f'tag @s add female\n')
+
+			prefix = 'tellraw @s[tag=!blind_pick,tag=!picking_random] [{"text":"\\n"},{"translate":"ssbrc.fighters.menu.skin","color":"white"},{"translate":"ssbrc.'
+			suffix = '"},{"text":"\\n"},{"translate":"ssbrc.fighters.menu.gender","color":"white"},{"translate":"ssbrc.fighters.menu.gender.female","color":"light_purple"},{"text":"\\n"}]'
+
+			if skin == 'default':
+				js_write(file, prefix + 'fighters.skin.default","color":"' + ssbrc.fighters[fighter]['color'] + suffix)
+			elif skin == 'gold':
+				js_write(file, prefix + 'fighters.skin.gold","color":"gold' + suffix)
+			else:
+				js_write(file, prefix + f'fighters.{fighter}.skin.{skin}","color":"' + ssbrc.fighters[fighter]['skins'][skin]['color'] + suffix)
+
+			js_write(file, f'execute if entity @s[tag=!blind_pick,tag=!picking_random] run function ssbrc:fighters/{fighter}/menu/skin_options\n')
+			js_write(file, 'function ssbrc:logic/selector/select_skin')
+
+		with open(path + skin + '/male.mcfunction', 'w') as file:
+			js_write(file, f'function ssbrc:fighters/{fighter}/menu/skins/reset')
+			js_write(file, f'tag @s add {skin}')
+			js_write(file, f'tag @s add male\n')
+
+			prefix = 'tellraw @s[tag=!blind_pick,tag=!picking_random] [{"text":"\\n"},{"translate":"ssbrc.fighters.menu.skin","color":"white"},{"translate":"ssbrc.'
+			suffix = '"},{"text":"\\n"},{"translate":"ssbrc.fighters.menu.gender","color":"white"},{"translate":"ssbrc.fighters.menu.gender.male","color":"dark_blue"},{"text":"\\n"}]'
+
+			if skin == 'default':
+				js_write(file, prefix + 'fighters.skin.default","color":"' + ssbrc.fighters[fighter]['color'] + suffix)
+			elif skin == 'gold':
+				js_write(file, prefix + 'fighters.skin.gold","color":"gold' + suffix)
+			else:
+				js_write(file, prefix + f'fighters.{fighter}.skin.{skin}","color":"' + ssbrc.fighters[fighter]['skins'][skin]['color'] + suffix)
+
+			js_write(file, f'execute if entity @s[tag=!blind_pick,tag=!picking_random] run function ssbrc:fighters/{fighter}/menu/skin_options\n')
+			js_write(file, 'function ssbrc:logic/selector/select_skin')
+
+	else:
+		with open(path + skin + '.mcfunction', 'w') as file:
+			js_write(file, f'function ssbrc:fighters/{fighter}/menu/skins/reset')
+			js_write(file, f'tag @s add {skin}\n')
+
+			prefix = 'tellraw @s[tag=!blind_pick,tag=!picking_random] [{"text":"\\n"},{"translate":"ssbrc.fighters.menu.skin","color":"white"},{"translate":"ssbrc.'
+			suffix = '"},{"text":"\\n"}]'
+
+			if skin == 'default':
+				js_write(file, prefix + 'fighters.skin.default","color":"' + ssbrc.fighters[fighter]['color'] + suffix)
+			elif skin == 'gold':
+				js_write(file, prefix + 'fighters.skin.gold","color":"gold' + suffix)
+			elif skin == 'flower_power' or skin == 'penguin':
+				js_write(file, prefix + 'series.super_mario_bros.skin.' + skin + '","color":"' + ssbrc.fighters[fighter]['skins'][skin]['color'] + suffix)
+			elif skin == 'shadow':
+				js_write(file, prefix + 'series.pokemon.skin.shadow","color":"dark_gray' + suffix)
+			elif skin == 'player_2':
+				js_write(file, prefix + 'fighters.skin.player_2","color":"' + ssbrc.fighters[fighter]['skins'][skin]['color'] + suffix)
+			else:
+				js_write(file, prefix + f'fighters.{fighter}.skin.{skin}","color":"' + ssbrc.fighters[fighter]['skins'][skin]['color'] + suffix)
+
+			js_write(file, f'execute if entity @s[tag=!blind_pick,tag=!picking_random] run function ssbrc:fighters/{fighter}/menu/skin_options\n')
+			js_write(file, 'function ssbrc:logic/selector/select_skin')
+
 def create_shop_entry(skin, fighter, path):
 	'''Initializes skin shop entry.'''
-	if not os.path.exists(path):
-			os.makedirs(path)
+	create_path(path)
+
 	if skin != 'default' and skin != 'gold' and skin != 'shiny':
 		with open(path + skin + '.mcfunction', 'w') as file:
 			js_write(file, f'advancement grant @s only ssbrc:fighters/{fighter}/skins/{skin}\n')
 			js_write(file, 'scoreboard players operation @s stats.credits -= price.skin.common vars\n')
-			if skin == 'flower_power':
-				js_write(file, 'tellraw @s [{"translate":"ssbrc.shop.purchase.skin","color":"white"},{"translate":"ssbrc.series.super_mario_bros.skin.flower_power","color":"' + str(ssbrc.fighters[fighter]['skins']['flower_power']['color']) + '"}]\n')
-			elif skin == 'penguin':
-				js_write(file, 'tellraw @s [{"translate":"ssbrc.shop.purchase.skin","color":"white"},{"translate":"ssbrc.series.super_mario_bros.skin.penguin","color":"' + str(ssbrc.fighters[fighter]['skins']['penguin']['color']) + '"}]\n')
-			elif skin == 'player_2':
-				js_write(file, 'tellraw @s [{"translate":"ssbrc.shop.purchase.skin","color":"white"},{"translate":"ssbrc.fighters.skin.player_2","color":"' + str(ssbrc.fighters[fighter]['skins']['player_2']['color']) + '"}]\n')
+			if skin == 'flower_power' or skin == 'penguin':
+				js_write(file, 'tellraw @s [{"translate":"ssbrc.shop.purchase.skin","color":"white"},{"translate":"ssbrc.series.super_mario_bros.skin.' + skin + '","color":"' + str(ssbrc.fighters[fighter]['skins'][skin]['color']) + '"}]\n')
 			elif skin == 'shadow':
 				js_write(file, 'tellraw @s [{"translate":"ssbrc.shop.purchase.skin","color":"white"},{"translate":"ssbrc.series.pokemon.skin.shadow","color":"' + str(ssbrc.fighters[fighter]['skins']['shadow']['color']) + '"}]\n')
+			elif skin == 'player_2':
+				js_write(file, 'tellraw @s [{"translate":"ssbrc.shop.purchase.skin","color":"white"},{"translate":"ssbrc.fighters.skin.player_2","color":"' + str(ssbrc.fighters[fighter]['skins']['player_2']['color']) + '"}]\n')
 			else:
 				js_write(file, 'tellraw @s [{"translate":"ssbrc.shop.purchase.skin","color":"white"},{"translate":"ssbrc.fighters.' + fighter + '.skin.' + skin + '","color":"' + str(ssbrc.fighters[fighter]['skins'][skin]['color']) + '"}]\n')
 			js_write(file, 'playsound minecraft:entity.player.levelup master @s\n')
@@ -85,5 +148,7 @@ def create_skin(skin, fighter):
 	create_advancement(skin, fighter, f'data\\ssbrc\\advancements\\fighters\\{fighter}\\skins\\')
 
 	create_item_modifier(skin, fighter, f'data\\ssbrc\\item_modifiers\\fighters\\{fighter}\\skins\\')
+
+	create_skin_file(skin, fighter, f'data\\ssbrc\\functions\\fighters\\{fighter}\\menu\\skins\\')
 
 	create_shop_entry(skin, fighter, f'data\\ssbrc\\functions\\shop\\contents\\skins\\{fighter}\\')
