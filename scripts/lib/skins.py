@@ -37,6 +37,11 @@ def create_item_modifier(skin, fighter, path):
 			js_write(file, tab(3) + qm + 'bold' + sep_n + 'true')
 			js_write(file, tab(2) + '}')
 			js_write(file, tab(1) + ent)
+			if 'collection' in ssbrc.fighters[fighter]['skins'][skin].keys():
+				js_write(file, tab(1) + '{')
+				js_write(file, tab(2) + qm + 'function' + sep_s + 'minecraft:reference' + suf_s)
+				js_write(file, tab(2) + qm + 'name' + sep_s + 'ssbrc:ui/shop/collection/' + str(ssbrc.fighters[fighter]['skins'][skin]['collection']) + qm)
+				js_write(file, tab(1) + ent)
 			js_write(file, tab(1) + '{')
 			js_write(file, tab(2) + qm + 'function' + sep_s + 'minecraft:set_custom_model_data' + suf_s)
 			js_write(file, tab(2) + qm + 'value' + sep_n + str(ssbrc.fighters[fighter]['skins'][skin]['model']))
