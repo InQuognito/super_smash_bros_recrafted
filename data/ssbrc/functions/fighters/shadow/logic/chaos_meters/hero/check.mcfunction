@@ -1,6 +1,6 @@
-scoreboard players operation $shadow.heroPercent temp = @s shadow.meter.hero
-scoreboard players operation $shadow.heroPercent temp *= 100 integers
-scoreboard players operation $shadow.heroPercent temp /= shadow.chaos_meter.max vars
+scoreboard players operation shadow.hero_percent temp = @s shadow.meter.hero
+scoreboard players operation shadow.hero_percent temp *= 100 integers
+scoreboard players operation shadow.hero_percent temp /= shadow.chaos_meter.max vars
 
 execute if score sqrt.output math matches ..9 run function ssbrc:fighters/shadow/logic/chaos_meters/hero/ones
 execute if score sqrt.output math matches 10..99 run function ssbrc:fighters/shadow/logic/chaos_meters/hero/tens

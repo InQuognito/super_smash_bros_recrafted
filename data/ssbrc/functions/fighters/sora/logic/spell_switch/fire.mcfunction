@@ -1,4 +1,4 @@
-function ssbrc:fighters/sora/logic/drive_forms/keyblade
+function ssbrc:logic/fighters/replace_item {old:"keyblade",new:"sora/keyblades/primary/fire"}
 
 function ssbrc:logic/fighters/cooldown/set/const {type:"1",value:"5"}
 

@@ -1,6 +1,6 @@
-scoreboard players operation $shadow.villainPercent temp = @s shadow.meter.villain
-scoreboard players operation $shadow.villainPercent temp *= 100 integers
-scoreboard players operation $shadow.villainPercent temp /= shadow.chaos_meter.max vars
+scoreboard players operation shadow.villain_percent temp = @s shadow.meter.villain
+scoreboard players operation shadow.villain_percent temp *= 100 integers
+scoreboard players operation shadow.villain_percent temp /= shadow.chaos_meter.max vars
 
 execute if score sqrt.output math matches ..9 run function ssbrc:fighters/shadow/logic/chaos_meters/villain/ones
 execute if score sqrt.output math matches 10..99 run function ssbrc:fighters/shadow/logic/chaos_meters/villain/tens
