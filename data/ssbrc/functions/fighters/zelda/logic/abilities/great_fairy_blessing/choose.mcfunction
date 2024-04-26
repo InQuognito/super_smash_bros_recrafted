@@ -10,7 +10,7 @@ execute if score teams options matches 1 store result score random.output temp r
 
 execute if score random.output temp matches 1 run function ssbrc:fighters/zelda/logic/blessings/confusion
 execute if score random.output temp matches 2 unless score @s zelda.enchant_armor matches 1.. run function ssbrc:fighters/zelda/logic/blessings/enchant_armor/activate
-execute if score random.output temp matches 3 unless items entity @s conainer.* minecraft:iron_sword[minecraft:custom_data~{enchanted:"true"}] run function ssbrc:fighters/zelda/logic/blessings/enchant_weapon
+execute if score random.output temp matches 3 unless items entity @s container.* minecraft:iron_sword[minecraft:custom_data~{enchanted:"true"}] run function ssbrc:fighters/zelda/logic/blessings/enchant_weapon
 execute if score random.output temp matches 4 if score percentage temp matches ..40 run function ssbrc:fighters/zelda/logic/blessings/fill_magic
 execute if score random.output temp matches 5 unless items entity @s[scores={zelda.half_magic=..0}] conainer.* minecraft:potion[minecraft:custom_data~{item:"red_potion"}] run function ssbrc:fighters/zelda/logic/blessings/half_magic
 execute if score random.output temp matches 6 unless entity @s[tag=rupee_master] run function ssbrc:fighters/zelda/logic/blessings/rupee_master

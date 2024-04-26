@@ -1,4 +1,5 @@
 function ssbrc:logic/init/fighters
+function ssbrc:logic/init/stages
 
 function ssbrc:logic/resets/scoreboards/stats
 function ssbrc:logic/resets/scoreboards/remove
