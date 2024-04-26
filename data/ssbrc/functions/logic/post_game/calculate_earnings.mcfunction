@@ -1,4 +1,4 @@
-execute if entity @s[tag=endedEarly] run function ssbrc:logic/post_game/reset_bonuses
+execute if entity @s[tag=ended_early] run function ssbrc:logic/post_game/reset_bonuses
 
 # Bonuses
 data modify storage ssbrc:bonuses value set value []
@@ -6,8 +6,8 @@ data modify storage ssbrc:bonuses value set value []
 data modify storage ssbrc:bonuses value append value '[{"translate":"ssbrc.bonuses.participation","bold":true,"color":"gold"},{"text":" - ","bold":false,"color":"white"},{"score":{"name":"value.participation","objective":"vars"},"bold":false,"color":"yellow"},{"text":"₡","bold":false,"color":"yellow"}]'
 scoreboard players operation @s stats.credits.temp += value.participation vars
 
-execute if entity @s[tag=winner,tag=!endedEarly] run data modify storage ssbrc:bonuses value append value '[{"translate":"ssbrc.bonuses.win","bold":true,"color":"gold"},{"text":" - ","bold":false,"color":"white"},{"score":{"name":"value.victory","objective":"vars"},"bold":false,"color":"yellow"},{"text":"₡","bold":false,"color":"yellow"}]'
-scoreboard players operation @s[tag=winner,tag=!endedEarly] stats.credits.temp += value.victory vars
+execute if entity @s[tag=winner,tag=!ended_early] run data modify storage ssbrc:bonuses value append value '[{"translate":"ssbrc.bonuses.win","bold":true,"color":"gold"},{"text":" - ","bold":false,"color":"white"},{"score":{"name":"value.victory","objective":"vars"},"bold":false,"color":"yellow"},{"text":"₡","bold":false,"color":"yellow"}]'
+scoreboard players operation @s[tag=winner,tag=!ended_early] stats.credits.temp += value.victory vars
 
 scoreboard players operation value kills = @s kills
 scoreboard players operation value kills *= value.ko vars
@@ -209,7 +209,7 @@ scoreboard players operation @s stats.credits.temp += value suicides
 execute if score @s quitter matches 1.. run data modify storage ssbrc:bonuses value append value '[{"translate":"ssbrc.game.bonus.quitter","bold":true,"color":"gold"},{"text":" - ","bold":false,"color":"white"},{"translate":"ssbrc.game.bonus.quitter.warn","bold":false,"color":"red"}]'
 execute if score @s quitter matches 1.. run scoreboard players set @s stats.credits.temp 0
 
-tag @s remove endedEarly
+tag @s remove ended_early
 
 scoreboard players set @s[scores={stats.credits.temp=..-1}] stats.credits.temp 0
 tellraw @s [{"translate":"ssbrc.game.end.summary.credits_earned","color":"gold"},{"score":{"name":"@s","objective":"stats.credits.temp"},"color":"yellow"},{"text":"₡","color":"yellow"}]
