@@ -11,17 +11,17 @@ function ssbrc:shop/buttons/header/get {name:"bowser",slot:"4"}
 function ssbrc:shop/buttons/header/get {name:"donkey_kong",slot:"5"}
 function ssbrc:shop/buttons/header/get {name:"link",slot:"6"}
 
-function ssbrc:shop/buttons/header/get {name:"ganondorf",slot:"11"}
-function ssbrc:shop/buttons/header/get {name:"samus",slot:"12"}
-function ssbrc:shop/buttons/header/get {name:"kirby",slot:"13"}
-function ssbrc:shop/buttons/header/get {name:"fox",slot:"14"}
-function ssbrc:shop/buttons/header/get {name:"wolf",slot:"15"}
+function ssbrc:shop/buttons/header/get {name:"zelda",slot:"11"}
+function ssbrc:shop/buttons/header/get {name:"ganondorf",slot:"12"}
+function ssbrc:shop/buttons/header/get {name:"samus",slot:"13"}
+function ssbrc:shop/buttons/header/get {name:"dark_samus",slot:"14"}
+function ssbrc:shop/buttons/header/get {name:"kirby",slot:"15"}
 
-function ssbrc:shop/buttons/header/get {name:"pikachu",slot:"20"}
-function ssbrc:shop/buttons/header/get {name:"pokemon_trainer",slot:"21"}
-function ssbrc:shop/buttons/header/get {name:"ness",slot:"22"}
-function ssbrc:shop/buttons/header/get {name:"captain_falcon",slot:"23"}
-function ssbrc:shop/buttons/header/get {name:"byleth",slot:"24"}
+function ssbrc:shop/buttons/header/get {name:"fox",slot:"20"}
+function ssbrc:shop/buttons/header/get {name:"wolf",slot:"21"}
+function ssbrc:shop/buttons/header/get {name:"pikachu",slot:"22"}
+function ssbrc:shop/buttons/header/get {name:"pokemon_trainer",slot:"23"}
+function ssbrc:shop/buttons/header/get {name:"greninja",slot:"24"}
 
 function ssbrc:logic/ui/buttons/placeholder/get {slot:"8"}
 function ssbrc:logic/ui/buttons/navigator {path:"shop/pages/skins/2",type:"forward",slot:"17"}

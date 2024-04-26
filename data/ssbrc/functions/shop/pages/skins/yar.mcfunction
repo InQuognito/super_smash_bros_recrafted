@@ -1,4 +1,4 @@
-data modify storage ssbrc:data ui merge value {path:"shop/pages/skins/yar",name:"yar",ui_color:"lime"}
+data modify storage ssbrc:data ui merge value {path:"shop/pages/skins/yar",name:"yar",ui_color:"green"}
 function ssbrc:logic/ui/reset with storage ssbrc:data ui
 
 function ssbrc:logic/ui/buttons/placeholder/get {slot:"0"}

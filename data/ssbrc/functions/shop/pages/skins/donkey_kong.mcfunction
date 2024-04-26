@@ -1,4 +1,4 @@
-data modify storage ssbrc:data ui merge value {path:"shop/pages/skins/donkey_kong",name:"donkey_kong",ui_color:"lime"}
+data modify storage ssbrc:data ui merge value {path:"shop/pages/skins/donkey_kong",name:"donkey_kong",ui_color:"yellow"}
 function ssbrc:logic/ui/reset with storage ssbrc:data ui
 
 function ssbrc:logic/ui/buttons/placeholder/get {slot:"0"}
