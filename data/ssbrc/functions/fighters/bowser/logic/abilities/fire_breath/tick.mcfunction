@@ -20,7 +20,6 @@ data remove storage ssbrc:data/bowser z
 scoreboard players set @s bowser.fire_breath 0
 execute anchored eyes positioned ^ ^-0.3 ^0.3 run function ssbrc:fighters/bowser/logic/abilities/fire_breath/raycast
 
-function ssbrc:logic/fighters/cooldown/set/const {type:"1",value:"20"}
 function ssbrc:logic/fighters/cooldown/set/const {type:"2",value:"80"}
 
 scoreboard players operation fire_breath temp = @s charge.1
