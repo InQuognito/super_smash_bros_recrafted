@@ -27,6 +27,8 @@ def create_item_modifier(skin, fighter, path):
 				js_write(file, tab(3) + qm + 'translate' + sep_s + f'ssbrc.series.super_mario_bros.skin.{skin}' + suf_s)
 			elif skin == 'player_2':
 				js_write(file, tab(3) + qm + 'translate' + sep_s + 'ssbrc.fighters.skin.player_2' + suf_s)
+			elif skin == 'shadow':
+				js_write(file, tab(3) + qm + 'translate' + sep_s + 'ssbrc.series.pokemon.skin.shadow' + suf_s)
 			else:
 				js_write(file, tab(3) + qm + 'translate' + sep_s + f'ssbrc.fighters.{fighter}.skin.{skin}' + suf_s)
 			js_write(file, tab(3) + qm + 'color' + sep_s + str(ssbrc.fighters[fighter]['skins'][skin]['color']) + suf_s)
@@ -65,8 +67,14 @@ def create_shop_entry(skin, fighter, path):
 		with open(path + skin + '.mcfunction', 'w') as file:
 			js_write(file, f'advancement grant @s only ssbrc:fighters/{fighter}/skins/{skin}\n')
 			js_write(file, 'scoreboard players operation @s stats.credits -= price.skin.common vars\n')
-			if skin == 'player_2':
-				js_write(file, 'tellraw @s [{"translate":"ssbrc.shop.purchase.skin","color":"white"},{"translate":"ssbrc.fighters.skin.player_2","color":"' + str(ssbrc.fighters[fighter]['skins'][skin]['color']) + '"}]\n')
+			if skin == 'flower_power':
+				js_write(file, 'tellraw @s [{"translate":"ssbrc.shop.purchase.skin","color":"white"},{"translate":"ssbrc.series.super_mario_bros.skin.flower_power","color":"' + str(ssbrc.fighters[fighter]['skins']['flower_power']['color']) + '"}]\n')
+			elif skin == 'penguin':
+				js_write(file, 'tellraw @s [{"translate":"ssbrc.shop.purchase.skin","color":"white"},{"translate":"ssbrc.series.super_mario_bros.skin.penguin","color":"' + str(ssbrc.fighters[fighter]['skins']['penguin']['color']) + '"}]\n')
+			elif skin == 'player_2':
+				js_write(file, 'tellraw @s [{"translate":"ssbrc.shop.purchase.skin","color":"white"},{"translate":"ssbrc.fighters.skin.player_2","color":"' + str(ssbrc.fighters[fighter]['skins']['player_2']['color']) + '"}]\n')
+			elif skin == 'shadow':
+				js_write(file, 'tellraw @s [{"translate":"ssbrc.shop.purchase.skin","color":"white"},{"translate":"ssbrc.series.pokemon.skin.shadow","color":"' + str(ssbrc.fighters[fighter]['skins']['shadow']['color']) + '"}]\n')
 			else:
 				js_write(file, 'tellraw @s [{"translate":"ssbrc.shop.purchase.skin","color":"white"},{"translate":"ssbrc.fighters.' + fighter + '.skin.' + skin + '","color":"' + str(ssbrc.fighters[fighter]['skins'][skin]['color']) + '"}]\n')
 			js_write(file, 'playsound minecraft:entity.player.levelup master @s\n')
