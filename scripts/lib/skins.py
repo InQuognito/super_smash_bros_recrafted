@@ -71,10 +71,6 @@ def create_shop_entry(skin, fighter, path):
 				js_write(file, 'tellraw @s [{"translate":"ssbrc.shop.purchase.skin","color":"white"},{"translate":"ssbrc.fighters.' + fighter + '.skin.' + skin + '","color":"' + str(ssbrc.fighters[fighter]['skins'][skin]['color']) + '"}]\n')
 			js_write(file, 'playsound minecraft:entity.player.levelup master @s\n')
 			js_write(file, f'function ssbrc:shop/pages/skins/{fighter}')
-	elif skin == 'gold':
-		with open(path + skin + '.mcfunction', 'w') as file:
-			js_write(file, f'advancement grant @s only ssbrc:fighters/{fighter}/skins/gold\n')
-			js_write(file, 'function ssbrc:shop/contents/skins/gold')
 
 def create_skin(skin, fighter):
 	'''Initializes a skin.'''

@@ -7,6 +7,6 @@ scoreboard players add @s[advancements={ssbrc:utility/flag/get_kill/distance/30=
 
 function ssbrc:logic/fighters/bonuses/rapid_kill
 
-function ssbrc:logic/stats/kills
+function ssbrc:logic/fighters/get {function:"ssbrc:logic/stats/kills"}
 
 tag @s add check_kill

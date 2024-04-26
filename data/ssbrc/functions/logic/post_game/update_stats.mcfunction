@@ -1,2 +1,5 @@
-function ssbrc:logic/stats/games_played
-function ssbrc:logic/stats/win_streak
+$execute if entity @s[tag=$(name)] run function ssbrc:logic/stats/games_played {name:"$(name)"}
+
+$execute if entity @s[tag=winner,tag=$(name)] run function ssbrc:logic/stats/win {name:"$(name)"}
+
+$execute if entity @s[tag=!winner,tag=$(name)] run function ssbrc:logic/stats/lose {name:"$(name)"}
