@@ -135,6 +135,8 @@ scoreboard objectives add walk_distance minecraft.custom:minecraft.walk_one_cm
 scoreboard objectives add yar.drone.health dummy
 scoreboard objectives add zelda.enchant_armor dummy
 scoreboard objectives add zelda.half_magic dummy
+scoreboard objectives add zelda.rupee.down dummy
+scoreboard objectives add zelda.rupee.up dummy
 scoreboard objectives add zelda.shatter_resist dummy
 scoreboard objectives add zelda.special_bond dummy
 

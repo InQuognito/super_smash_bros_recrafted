@@ -127,6 +127,8 @@ scoreboard objectives remove weapon_10.ammo
 scoreboard objectives remove yar.drone.health
 scoreboard objectives remove zelda.enchant_armor
 scoreboard objectives remove zelda.half_magic
+scoreboard objectives remove zelda.rupee.down
+scoreboard objectives remove zelda.rupee.up
 scoreboard objectives remove zelda.shatter_resist
 scoreboard objectives remove zelda.special_bond
 

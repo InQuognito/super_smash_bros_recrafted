@@ -1,6 +1,5 @@
-execute store result score rupee_gain temp run random value 8..12
-
-function ssbrc:fighters/zelda/logic/add_rupees
+execute store result score @s zelda.rupee.up run random value 8..12
+scoreboard players operation @s[tag=rupee_master] zelda.rupee.up *= 2 integers
 
 execute if items entity @s container.* minecraft:nether_star[minecraft:custom_data~{item:"dagger",enchantment:"obsidian",level:2}] run loot replace entity @s hotbar.0 loot ssbrc:fighters/zelda/weapons/dagger/obsidian/3
 execute if items entity @s container.* minecraft:nether_star[minecraft:custom_data~{item:"dagger",enchantment:"obsidian",level:1}] run loot replace entity @s hotbar.0 loot ssbrc:fighters/zelda/weapons/dagger/obsidian/2

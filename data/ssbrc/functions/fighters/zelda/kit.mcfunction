@@ -1,4 +1,4 @@
 function ssbrc:fighters/zelda/kit/items
 
-scoreboard players set rupee_gain temp 10
-function ssbrc:fighters/zelda/logic/add_rupees
+scoreboard players set @s zelda.rupee.up 10
+scoreboard players operation @s[tag=rupee_master] zelda.rupee.up *= 2 integers
