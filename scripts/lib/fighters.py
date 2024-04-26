@@ -21,6 +21,7 @@ def fighter_storage():
 		for fighter in ssbrc.fighters:
 			mc_write(file, tab(1) + qm + fighter + suf_e)
 			mc_write(file, tab(2) + qm + 'name' + sep_s + fighter + suf_s)
+			mc_write(file, tab(2) + qm + 'page' + sep_n + str(ssbrc.fighters[fighter]['page']) + ',')
 			mc_write(file, tab(2) + qm + 'model' + sep_n + str(ssbrc.fighters[fighter]['model']) + ',')
 			if fighter == 'team_rocket':
 				mc_write(file, tab(2) + qm + 'model_jesse' + sep_n + str(ssbrc.fighters[fighter]['model'] + 1) + ',')
