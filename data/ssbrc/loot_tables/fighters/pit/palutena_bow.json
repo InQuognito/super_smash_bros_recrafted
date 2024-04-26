@@ -46,12 +46,12 @@
 							"name": "ssbrc:fighters/init/ability/charge"
 						},
 						{
-							"function": "minecraft:set_custom_data",
-							"tag": "{item:\"palutena_bow\",pulling:\"false\",split:\"false\",path:\"pit/logic/abilities/palutena_bow/check\"}"
-						},
-						{
 							"function": "minecraft:set_custom_model_data",
 							"value": 1221
+						},
+						{
+							"function": "minecraft:set_custom_data",
+							"tag": "{item:\"palutena_bow\",pulling:\"false\",split:\"false\",path:\"pit/logic/abilities/palutena_bow/check\"}"
 						}
 					]
 				}
