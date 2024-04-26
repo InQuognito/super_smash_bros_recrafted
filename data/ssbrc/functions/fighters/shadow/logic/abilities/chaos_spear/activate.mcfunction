@@ -6,5 +6,5 @@ function ssbrc:fighters/shadow/logic/abilities/chaos_spear/chaos_energy/check
 function ssbrc:fighters/shadow/logic/abilities/chaos_spear/chaos_energy/calculate
 execute if score chaos_energy temp < shadow.chaos_spear.cost vars run function ssbrc:logic/fighters/modify_item {old:"chaos_spear",new:"shadow/chaos_spear/disabled"}
 
-execute if score @s[nbt={Inventory:[{tag:{chaos_blast:1}}]}] shadow.meter.villain < shadow.chaos_meter.max vars run clear @s minecraft:nether_star[minecraft:custom_data={chaos_blast:1}]
-execute if score @s[nbt={Inventory:[{tag:{chaos_control:1}}]}] shadow.meter.hero < shadow.chaos_meter.max vars run clear @s minecraft:nether_star[minecraft:custom_data={chaos_control:1}]
+execute if score @s[nbt={Inventory:[{tag:{chaos_blast:1}}]}] shadow.meter.villain < shadow.chaos_meter.max vars run clear @s minecraft:nether_star[minecraft:custom_data~{chaos_blast:1}]
+execute if score @s[nbt={Inventory:[{tag:{chaos_control:1}}]}] shadow.meter.hero < shadow.chaos_meter.max vars run clear @s minecraft:nether_star[minecraft:custom_data~{chaos_control:1}]

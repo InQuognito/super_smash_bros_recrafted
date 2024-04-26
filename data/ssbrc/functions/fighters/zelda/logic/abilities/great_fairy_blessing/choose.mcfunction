@@ -1,7 +1,7 @@
-execute store result score enchanted_weapons temp run clear @s minecraft:iron_sword[minecraft:custom_data={enchanted:1}] 0
-execute store result score glass_weapons temp run clear @s minecraft:iron_sword[minecraft:custom_data={glass:1}] 0
-execute store result score nayrus_rings temp run clear @s minecraft:nether_star[minecraft:custom_data={nayrus_ring:1}] 0
-execute store result score red_potions temp run clear @s minecraft:potion[minecraft:custom_data={red_potion:1}] 0
+execute store result score enchanted_weapons temp run clear @s minecraft:iron_sword[minecraft:custom_data~{enchanted:1}] 0
+execute store result score glass_weapons temp run clear @s minecraft:iron_sword[minecraft:custom_data~{glass:1}] 0
+execute store result score nayrus_rings temp run clear @s minecraft:nether_star[minecraft:custom_data~{nayrus_ring:1}] 0
+execute store result score red_potions temp run clear @s minecraft:potion[minecraft:custom_data~{red_potion:1}] 0
 
 scoreboard players operation percentage temp = @s mana
 scoreboard players operation percentage temp *= 100 integers

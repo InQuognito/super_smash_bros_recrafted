@@ -1,4 +1,4 @@
-clear @s minecraft:iron_sword[minecraft:custom_data={dagger:1}]
+clear @s minecraft:iron_sword[minecraft:custom_data~{dagger:1}]
 
 execute store result score random.output temp run random value 0..4
 

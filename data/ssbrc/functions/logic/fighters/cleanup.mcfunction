@@ -35,7 +35,7 @@ execute if entity @s[tag=cloud] run function ssbrc:fighters/cloud/cleanup
 
 execute if entity @s[tag=fox] run kill @e[type=minecraft:marker,tag=fire_fox,predicate=ssbrc:id_match]
 
-clear @s[tag=ganondorf] minecraft:trident[minecraft:custom_data={trident_of_power:1}]
+clear @s[tag=ganondorf] minecraft:trident[minecraft:custom_data~{trident_of_power:1}]
 
 execute if entity @s[tag=giegue] run function ssbrc:fighters/giegue/cleanup
 
@@ -43,7 +43,7 @@ execute if entity @s[tag=greninja] run kill @e[type=minecraft:marker,tag=shadow_
 
 execute if entity @s[tag=jigglypuff] run function ssbrc:fighters/jigglypuff/cleanup
 
-clear @s[tag=joker] minecraft:nether_star[minecraft:custom_data={mask:1}]
+clear @s[tag=joker] minecraft:nether_star[minecraft:custom_data~{mask:1}]
 
 execute if entity @s[tag=link] run function ssbrc:fighters/link/cleanup
 
@@ -59,7 +59,7 @@ execute if entity @s[tag=shadow] run function ssbrc:fighters/shadow/cleanup
 
 execute if entity @s[tag=shovel_knight] run function ssbrc:fighters/shovel_knight/logic/kill_entities
 
-clear @s[tag=snake] minecraft:paper[minecraft:custom_data={status:1}]
+clear @s[tag=snake] minecraft:paper[minecraft:custom_data~{status:1}]
 
 execute at @s[predicate=ssbrc:fighters/sonic_the_hedgehog] run playsound ssbrc:fighters.sonic_the_hedgehog.death player @a
 
