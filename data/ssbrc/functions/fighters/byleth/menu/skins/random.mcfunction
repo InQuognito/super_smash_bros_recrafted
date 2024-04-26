@@ -9,5 +9,5 @@ execute unless score @s[advancements={ssbrc:fighters/byleth/skins/gold=true}] sk
 execute unless score @s[advancements={ssbrc:fighters/byleth/skins/awakened=true}] skin_picked matches 1 if score random.output temp matches 5 run function ssbrc:fighters/byleth/menu/skins/awakened/female
 execute unless score @s[advancements={ssbrc:fighters/byleth/skins/awakened=true}] skin_picked matches 1 if score random.output temp matches 6 run function ssbrc:fighters/byleth/menu/skins/awakened/male
 
-execute if score @s skin_picked matches 1 run function ssbrc:fighters/byleth/menu/select_character
+execute if score @s skin_picked matches 1 run function ssbrc:logic/selector/select_fighter with storage ssbrc:data fighters.byleth
 execute unless score @s skin_picked matches 1 run function ssbrc:fighters/byleth/menu/skins/random

@@ -7,5 +7,5 @@ execute unless score @s[advancements={ssbrc:fighters/samus/skins/gold=true}] ski
 execute unless score @s[advancements={ssbrc:fighters/samus/skins/gravity_suit=true}] skin_picked matches 1 if score random.output temp matches 3 run function ssbrc:fighters/samus/menu/skins/gravity_suit
 execute unless score @s[advancements={ssbrc:fighters/samus/skins/phazon_suit=true}] skin_picked matches 1 if score random.output temp matches 4 run function ssbrc:fighters/samus/menu/skins/phazon_suit
 
-execute if score @s skin_picked matches 1 run function ssbrc:fighters/samus/menu/select_character
+execute if score @s skin_picked matches 1 run function ssbrc:logic/selector/select_fighter with storage ssbrc:data fighters.samus
 execute unless score @s skin_picked matches 1 run function ssbrc:fighters/samus/menu/skins/random

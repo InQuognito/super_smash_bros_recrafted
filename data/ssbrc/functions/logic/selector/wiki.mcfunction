@@ -32,7 +32,7 @@ tellraw @s[tag=king_k_rool] [{"text":"[","color":"dark_aqua"},{"translate":"ssbr
 
 tellraw @s[tag=kirby] [{"text":"[","color":"dark_aqua"},{"translate":"ssbrc.fighters.menu.wiki","color":"aqua","clickEvent":{"action":"open_url","value":"https://super-smash-bros-recrafted.fandom.com/wiki/Kirby"}},{"text":"]","color":"dark_aqua"}]
 
-tellraw @s[tag=link] [{"text":"[","color":"dark_aqua"},{"translate":"ssbrc.fighters.menu.wiki","color":"aqua","clickEvent":{"action":"open_url","value":"https://super-smash-bros-recrafted.fandom.com/wiki/Link"}},{"text":"]","color":"dark_aqua"}]
+tellraw @s[tag=link] [{"text":"[","color":"dark_aqua"},{"translate":"ssbrc.fighters.menu.wiki","color":"aqua","clickEvent":{"action":"open_url","value":"https://super-smash-bros-recrafted.fandom.com/wiki/_link"}},{"text":"]","color":"dark_aqua"}]
 
 tellraw @s[tag=luigi] [{"text":"[","color":"dark_aqua"},{"translate":"ssbrc.fighters.menu.wiki","color":"aqua","clickEvent":{"action":"open_url","value":"https://super-smash-bros-recrafted.fandom.com/wiki/Luigi"}},{"text":"]","color":"dark_aqua"}]
 

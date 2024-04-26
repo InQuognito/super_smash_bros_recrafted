@@ -7,5 +7,5 @@ execute unless score @s[advancements={ssbrc:fighters/shovel_knight/skins/gold=tr
 execute unless score @s[advancements={ssbrc:fighters/shovel_knight/skins/armor_of_chaos=true}] skin_picked matches 1 if score random.output temp matches 3 run function ssbrc:fighters/shovel_knight/menu/skins/armor_of_chaos
 execute unless score @s[advancements={ssbrc:fighters/shovel_knight/skins/toad_gear=true}] skin_picked matches 1 if score random.output temp matches 4 run function ssbrc:fighters/shovel_knight/menu/skins/toad_gear
 
-execute if score @s skin_picked matches 1 run function ssbrc:fighters/shovel_knight/menu/select_character
+execute if score @s skin_picked matches 1 run function ssbrc:logic/selector/select_fighter with storage ssbrc:data fighters.shovel_knight
 execute unless score @s skin_picked matches 1 run function ssbrc:fighters/shovel_knight/menu/skins/random

@@ -6,5 +6,5 @@ execute unless score @s[advancements={ssbrc:fighters/bowser/skins/default=true}]
 execute unless score @s[advancements={ssbrc:fighters/bowser/skins/gold=true}] skin_picked matches 1 if score random.output temp matches 2 run function ssbrc:fighters/bowser/menu/skins/gold
 execute unless score @s[advancements={ssbrc:fighters/bowser/skins/bowsette=true}] skin_picked matches 1 if score random.output temp matches 3 run function ssbrc:fighters/bowser/menu/skins/bowsette
 
-execute if score @s skin_picked matches 1 run function ssbrc:fighters/bowser/menu/select_character
+execute if score @s skin_picked matches 1 run function ssbrc:logic/selector/select_fighter with storage ssbrc:data fighters.bowser
 execute unless score @s skin_picked matches 1 run function ssbrc:fighters/bowser/menu/skins/random

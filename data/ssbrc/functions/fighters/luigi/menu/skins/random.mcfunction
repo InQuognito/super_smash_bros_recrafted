@@ -8,5 +8,5 @@ execute unless score @s[advancements={ssbrc:fighters/luigi/skins/flower_power=tr
 execute unless score @s[advancements={ssbrc:fighters/luigi/skins/gooigi=true}] skin_picked matches 1 if score random.output temp matches 4 run function ssbrc:fighters/luigi/menu/skins/gooigi
 execute unless score @s[advancements={ssbrc:fighters/luigi/skins/penguin=true}] skin_picked matches 1 if score random.output temp matches 5 run function ssbrc:fighters/luigi/menu/skins/penguin
 
-execute if score @s skin_picked matches 1 run function ssbrc:fighters/luigi/menu/select_character
+execute if score @s skin_picked matches 1 run function ssbrc:logic/selector/select_fighter with storage ssbrc:data fighters.luigi
 execute unless score @s skin_picked matches 1 run function ssbrc:fighters/luigi/menu/skins/random

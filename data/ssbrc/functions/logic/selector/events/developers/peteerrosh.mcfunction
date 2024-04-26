@@ -1,1 +1,1 @@
-tellraw @s [{"translate":"ssbrc.lobby.credits.developerBio.peteerrosh","color":"white"},{"translate":"ssbrc.lobby.credits.developerBio.peteerroshLink","color":"aqua","clickEvent":{"action":"open_url","value":"https://twitter.com/peteerrosh"}}]
+tellraw @s [{"translate":"ssbrc.lobby.credits.developer_bio.peteerrosh","color":"white"},{"translate":"ssbrc.lobby.credits.developer_bio.peteerrosh_link","color":"aqua","clickEvent":{"action":"open_url","value":"https://x.com/peteerrosh"}}]

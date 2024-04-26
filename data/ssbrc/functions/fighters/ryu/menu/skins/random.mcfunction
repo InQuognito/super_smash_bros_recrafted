@@ -6,5 +6,5 @@ execute unless score @s[advancements={ssbrc:fighters/ryu/skins/default=true}] sk
 execute unless score @s[advancements={ssbrc:fighters/ryu/skins/gold=true}] skin_picked matches 1 if score random.output temp matches 2 run function ssbrc:fighters/ryu/menu/skins/gold
 execute unless score @s[advancements={ssbrc:fighters/ryu/skins/hot_ryu=true}] skin_picked matches 1 if score random.output temp matches 3 run function ssbrc:fighters/ryu/menu/skins/hot_ryu
 
-execute if score @s skin_picked matches 1 run function ssbrc:fighters/ryu/menu/select_character
+execute if score @s skin_picked matches 1 run function ssbrc:logic/selector/select_fighter with storage ssbrc:data fighters.ryu
 execute unless score @s skin_picked matches 1 run function ssbrc:fighters/ryu/menu/skins/random

@@ -1,1 +1,1 @@
-tellraw @s [{"translate":"ssbrc.lobby.credits.developerBio.davidtippy","color":"white"},{"translate":"ssbrc.lobby.credits.developerBio.davidtippyLink","color":"aqua","clickEvent":{"action":"open_url","value":"https://twitter.com/DavidTippy1"}}]
+tellraw @s [{"translate":"ssbrc.lobby.credits.developer_bio.davidtippy","color":"white"},{"translate":"ssbrc.lobby.credits.developer_bio.davidtippy_link","color":"aqua","clickEvent":{"action":"open_url","value":"https://x.com/DavidTippy1"}}]

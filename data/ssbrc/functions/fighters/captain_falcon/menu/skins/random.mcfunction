@@ -7,5 +7,5 @@ execute unless score @s[advancements={ssbrc:fighters/captain_falcon/skins/gold=t
 execute unless score @s[advancements={ssbrc:fighters/captain_falcon/skins/blood_falcon=true}] skin_picked matches 1 if score random.output temp matches 3 run function ssbrc:fighters/captain_falcon/menu/skins/blood_falcon
 execute unless score @s[advancements={ssbrc:fighters/captain_falcon/skins/rick_wheeler=true}] skin_picked matches 1 if score random.output temp matches 4 run function ssbrc:fighters/captain_falcon/menu/skins/rick_wheeler
 
-execute if score @s skin_picked matches 1 run function ssbrc:fighters/captain_falcon/menu/select_character
+execute if score @s skin_picked matches 1 run function ssbrc:logic/selector/select_fighter with storage ssbrc:data fighters.captain_falcon
 execute unless score @s skin_picked matches 1 run function ssbrc:fighters/captain_falcon/menu/skins/random

@@ -1,1 +1,1 @@
-tellraw @s {"translate":"ssbrc.lobby.credits.developerBio.orionbrigade","color":"white"}
+tellraw @s {"translate":"ssbrc.lobby.credits.developer_bio.orionbrigade","color":"white"}
