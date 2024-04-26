@@ -6,8 +6,6 @@ function ssbrc:logic/ui/buttons/navigator {path:"shop/pages/skins/2",type:"back"
 function ssbrc:logic/ui/buttons/placeholder/get {slot:"18"}
 
 function ssbrc:shop/buttons/skin/get {skin:"hot_ryu",slot:"2"}
-function ssbrc:shop/buttons/skin/get {skin:"iron_fist",slot:"3"}
-function ssbrc:shop/buttons/skin/get {skin:"super_turbo",slot:"4"}
 
 function ssbrc:logic/ui/buttons/placeholder/get {slot:"8"}
 function ssbrc:logic/ui/buttons/placeholder/get {slot:"17"}

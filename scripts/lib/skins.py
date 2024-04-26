@@ -5,6 +5,8 @@ adv_suf = '\"\n\t\t}\n\t}\n}\n'
 
 def create_advancement(skin, fighter, path):
 	'''Initializes fighter advancements.'''
+	create_path(path)
+
 	with open(path + skin + '.json', 'w') as file:
 		if ssbrc.fighters[fighter]['default'] and skin == 'default':
 			file.write(adv_pre + 'tick' + adv_suf)
@@ -64,7 +66,8 @@ def create_skin_file(skin, fighter, path):
 	create_path(path)
 
 	if fighter == 'byleth':
-		with open(path + skin + '/female.mcfunction', 'w') as file:
+		create_path(path + skin + '\\')
+		with open(path + skin + '\\female.mcfunction', 'w') as file:
 			js_write(file, f'function ssbrc:fighters/{fighter}/menu/skins/reset')
 			js_write(file, f'tag @s add {skin}')
 			js_write(file, f'tag @s add female\n')

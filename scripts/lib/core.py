@@ -1,4 +1,5 @@
 import os
+import shutil
 
 import ssbrc_data as ssbrc
 
@@ -9,6 +10,10 @@ suf_s = '\",'
 suf_e = '\": {'
 suf_l = '\": ['
 ent = '},'
+
+def remove_path(path):
+	if os.path.exists(path):
+		shutil.rmtree(path)
 
 def create_path(path):
 	if not os.path.exists(path):

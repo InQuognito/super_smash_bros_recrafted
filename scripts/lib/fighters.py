@@ -6,10 +6,12 @@ def init_fighter():
 	fighter_getter()
 
 	for fighter in ssbrc.fighters:
-		create_path(f'data\\ssbrc\\advancements\\fighters\\{fighter}\\skins\\') # Create advancement files
+		# Remove constructed trees
+		remove_path(f'data\\ssbrc\\advancements\\fighters\\{fighter}')
+		remove_path(f'data\\ssbrc\\functions\\fighters\\{fighter}\\menu\\skins\\')
 
-		random_skin(fighter)
-		reset_skin(fighter)
+		random_skin(fighter, f'data\\ssbrc\\functions\\fighters\\{fighter}\\menu\\skins\\')
+		reset_skin(fighter, f'data\\ssbrc\\functions\\fighters\\{fighter}\\menu\\skins\\')
 
 		# Create skins
 		for skin in ['default', 'gold']:
@@ -52,9 +54,10 @@ def fighter_getter():
 		for fighter in ssbrc.fighters:
 			file.write(f'$function $(function) with storage ssbrc:data fighters.{fighter}\n')
 
-def random_skin(fighter):
+def random_skin(fighter, path):
 	'''Initializes the file containing the random skin selection for the fighter.'''
-	with open(f'data\\ssbrc\\functions\\fighters\\{fighter}\\menu\\skins\\random.mcfunction', 'w') as file:
+	create_path(path)
+	with open(path + 'random.mcfunction', 'w') as file:
 		js_write(file, 'scoreboard players set @s fighter_picked 1\n')
 		js_write(file, f'execute store result score random.output temp run random value 1..{count_skins(fighter)}\n')
 
@@ -81,9 +84,10 @@ def random_skin(fighter):
 		js_write(file, f'\nexecute if score @s skin_picked matches 1 run function ssbrc:logic/selector/select_fighter with storage ssbrc:data fighters.{fighter}')
 		js_write(file, f'execute unless score @s skin_picked matches 1 run function ssbrc:fighters/{fighter}/menu/skins/random')
 
-def reset_skin(fighter):
+def reset_skin(fighter, path):
 	'''Initializes the file containing the random skin selection for the fighter.'''
-	with open(f'data\\ssbrc\\functions\\fighters\\{fighter}\\menu\\skins\\reset.mcfunction', 'w') as file:
+	create_path(path)
+	with open(path + 'reset.mcfunction', 'w') as file:
 		for skin in ['default', 'gold']:
 			js_write(file, f'tag @s remove {skin}')
 		for skin in ssbrc.fighters[fighter]['skins']:

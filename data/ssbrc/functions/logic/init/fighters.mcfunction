@@ -88,9 +88,9 @@ data modify storage ssbrc:data fighters set value {\
 		"color": "aqua",\
 		"skin_count": 3,\
 		"skins": {\
-			"prototype": {\
-				"name": "prototype",\
-				"model": 264,\
+			"prime_3": {\
+				"name": "prime_3",\
+				"model": 263,\
 				"color": "dark_gray",\
 			},\
 		},\
@@ -164,18 +164,8 @@ data modify storage ssbrc:data fighters set value {\
 		"page": 1,\
 		"model": 420,\
 		"color": "blue",\
-		"skin_count": 5,\
+		"skin_count": 3,\
 		"skins": {\
-			"hero_style": {\
-				"name": "hero_style",\
-				"model": 424,\
-				"color": "green",\
-			},\
-			"shadow": {\
-				"name": "shadow",\
-				"model": 423,\
-				"color": "dark_gray",\
-			},\
 			"shiny": {\
 				"name": "shiny",\
 				"model": 422,\
@@ -452,22 +442,12 @@ data modify storage ssbrc:data fighters set value {\
 		"page": 1,\
 		"model": 1400,\
 		"color": "white",\
-		"skin_count": 5,\
+		"skin_count": 3,\
 		"skins": {\
 			"hot_ryu": {\
 				"name": "hot_ryu",\
 				"model": 1404,\
 				"color": "white",\
-			},\
-			"iron_fist": {\
-				"name": "iron_fist",\
-				"model": 1406,\
-				"color": "yellow",\
-			},\
-			"super_turbo": {\
-				"name": "super_turbo",\
-				"model": 1408,\
-				"color": "dark_gray",\
 			},\
 		},\
 	},\
@@ -533,7 +513,7 @@ data modify storage ssbrc:data fighters set value {\
 		"page": 1,\
 		"model": 1520,\
 		"color": "gray",\
-		"skin_count": 5,\
+		"skin_count": 4,\
 		"skins": {\
 			"classic_tuxedo": {\
 				"name": "classic_tuxedo",\
@@ -544,11 +524,6 @@ data modify storage ssbrc:data fighters set value {\
 				"name": "iroquois_pliskin",\
 				"model": 1522,\
 				"color": "dark_green",\
-			},\
-			"old_snake": {\
-				"name": "old_snake",\
-				"model": 1524,\
-				"color": "yellow",\
 			},\
 		},\
 	},\
@@ -623,22 +598,12 @@ data modify storage ssbrc:data fighters set value {\
 		"page": 1,\
 		"model": 1720,\
 		"color": "dark_purple",\
-		"skin_count": 5,\
+		"skin_count": 3,\
 		"skins": {\
 			"assault": {\
 				"name": "assault",\
 				"model": 1722,\
 				"color": "green",\
-			},\
-			"star_fox_2": {\
-				"name": "star_fox_2",\
-				"model": 1723,\
-				"color": "dark_gray",\
-			},\
-			"starlink": {\
-				"name": "starlink",\
-				"model": 1724,\
-				"color": "gold",\
 			},\
 		},\
 	},\
@@ -647,13 +612,8 @@ data modify storage ssbrc:data fighters set value {\
 		"page": 2,\
 		"model": 1960,\
 		"color": "red",\
-		"skin_count": 4,\
+		"skin_count": 3,\
 		"skins": {\
-			"player_2": {\
-				"name": "player_2",\
-				"model": 1962,\
-				"color": "dark_green",\
-			},\
 			"recruit": {\
 				"name": "recruit",\
 				"model": 1963,\
