@@ -20,7 +20,7 @@ def create_advancement(skin, fighter, path):
 		js_write(file, tab(1) + '}')
 		js_write(file, '}')
 
-def create_item_modifier(skin, fighter, path, i):
+def create_shop_display(skin, fighter, path, i):
 	'''Initializes skin item modifiers.'''
 	create_path(path)
 
@@ -72,6 +72,49 @@ def create_item_modifier(skin, fighter, path, i):
 			js_write(file, tab(2) + qm + 'value' + sep_n + str(i))
 			js_write(file, tab(1) + '}')
 			js_write(file, ']')
+
+def create_head_display(skin, fighter, i):
+	'''Initializes skin item modifiers.'''
+	if skin not in ['default','gold']:
+		if 'forms' in ssbrc.fighters[fighter].keys() and ssbrc.fighters[fighter]['skins'][skin]['forms'] == True:
+			for form in ssbrc.fighters[fighter]['forms']:
+				path = f'data\\ssbrc\\item_modifiers\\fighters\\armor\\\\aesthetic\\{fighter}\\{skin}\\'
+				create_path(path)
+				with open(path + form + '.json', 'w') as file:
+					js_write(file, '{')
+					js_write(file, tab(1) + qm + 'function' + sep_s + 'minecraft:set_custom_model_data' + suf_s)
+					js_write(file, tab(1) + qm + 'value' + sep_n + str(i))
+					js_write(file, '}')
+				i += 1
+		else:
+			path = f'data\\ssbrc\\item_modifiers\\fighters\\armor\\\\aesthetic\\{fighter}\\'
+			create_path(path)
+			with open(path + skin + '.json', 'w') as file:
+				js_write(file, '{')
+				js_write(file, tab(1) + qm + 'function' + sep_s + 'minecraft:set_custom_model_data' + suf_s)
+				js_write(file, tab(1) + qm + 'value' + sep_n + str(i))
+				js_write(file, '}')
+			i += 1
+	else:
+		if 'forms' in ssbrc.fighters[fighter].keys():
+			for form in ssbrc.fighters[fighter]['forms']:
+				path = f'data\\ssbrc\\item_modifiers\\fighters\\armor\\\\aesthetic\\{fighter}\\{skin}\\'
+				create_path(path)
+				with open(path + form + '.json', 'w') as file:
+					js_write(file, '{')
+					js_write(file, tab(1) + qm + 'function' + sep_s + 'minecraft:set_custom_model_data' + suf_s)
+					js_write(file, tab(1) + qm + 'value' + sep_n + str(i))
+					js_write(file, '}')
+				i += 1
+		else:
+			path = f'data\\ssbrc\\item_modifiers\\fighters\\armor\\\\aesthetic\\{fighter}\\'
+			create_path(path)
+			with open(path + skin + '.json', 'w') as file:
+				js_write(file, '{')
+				js_write(file, tab(1) + qm + 'function' + sep_s + 'minecraft:set_custom_model_data' + suf_s)
+				js_write(file, tab(1) + qm + 'value' + sep_n + str(i))
+				js_write(file, '}')
+			i += 1
 
 def create_skin_file(skin, fighter, path):
 	'''Initializes the file that allows the skin to be selected.'''
@@ -162,7 +205,9 @@ def create_skin(skin, fighter, i):
 	'''Initializes a skin.'''
 	create_advancement(skin, fighter, f'data\\ssbrc\\advancements\\fighters\\{fighter}\\skins\\')
 
-	create_item_modifier(skin, fighter, f'data\\ssbrc\\item_modifiers\\fighters\\{fighter}\\skins\\', i)
+	create_shop_display(skin, fighter, f'data\\ssbrc\\item_modifiers\\fighters\\{fighter}\\skins\\', i)
+
+	create_head_display(skin, fighter, i)
 
 	create_skin_file(skin, fighter, f'data\\ssbrc\\functions\\fighters\\{fighter}\\menu\\skins\\')
 

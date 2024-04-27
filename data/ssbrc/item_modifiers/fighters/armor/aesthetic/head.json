@@ -1,7 +1,7 @@
 [
 	{
-		"function": "minecraft:set_custom_model_data",
-		"value": 1,
+		"function": "minecraft:reference",
+		"name": "ssbrc:fighters/armor/aesthetic/rob/default/depleted",
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -17,8 +17,8 @@
 		]
 	},
 	{
-		"function": "minecraft:set_custom_model_data",
-		"value": 2,
+		"function": "minecraft:reference",
+		"name": "ssbrc:fighters/armor/aesthetic/rob/default/ready",
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -34,8 +34,8 @@
 		]
 	},
 	{
-		"function": "minecraft:set_custom_model_data",
-		"value": 3,
+		"function": "minecraft:reference",
+		"name": "ssbrc:fighters/armor/aesthetic/rob/default/charged",
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -51,8 +51,8 @@
 		]
 	},
 	{
-		"function": "minecraft:set_custom_model_data",
-		"value": 4,
+		"function": "minecraft:reference",
+		"name": "ssbrc:fighters/armor/aesthetic/rob/gold/depleted",
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -68,8 +68,8 @@
 		]
 	},
 	{
-		"function": "minecraft:set_custom_model_data",
-		"value": 5,
+		"function": "minecraft:reference",
+		"name": "ssbrc:fighters/armor/aesthetic/rob/gold/ready",
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -85,8 +85,8 @@
 		]
 	},
 	{
-		"function": "minecraft:set_custom_model_data",
-		"value": 6,
+		"function": "minecraft:reference",
+		"name": "ssbrc:fighters/armor/aesthetic/rob/gold/charged",
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -102,8 +102,8 @@
 		]
 	},
 	{
-		"function": "minecraft:set_custom_model_data",
-		"value": 7,
+		"function": "minecraft:reference",
+		"name": "ssbrc:fighters/armor/aesthetic/rob/famicom/depleted",
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -119,8 +119,8 @@
 		]
 	},
 	{
-		"function": "minecraft:set_custom_model_data",
-		"value": 8,
+		"function": "minecraft:reference",
+		"name": "ssbrc:fighters/armor/aesthetic/rob/famicom/ready",
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -136,8 +136,8 @@
 		]
 	},
 	{
-		"function": "minecraft:set_custom_model_data",
-		"value": 9,
+		"function": "minecraft:reference",
+		"name": "ssbrc:fighters/armor/aesthetic/rob/famicom/charged",
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -153,8 +153,8 @@
 		]
 	},
 	{
-		"function": "minecraft:set_custom_model_data",
-		"value": 10,
+		"function": "minecraft:reference",
+		"name": "ssbrc:fighters/armor/aesthetic/rob/ancient_minister",
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -166,8 +166,8 @@
 		]
 	},
 	{
-		"function": "minecraft:set_custom_model_data",
-		"value": 60,
+		"function": "minecraft:reference",
+		"name": "ssbrc:fighters/armor/aesthetic/bowser/default",
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -179,8 +179,8 @@
 		]
 	},
 	{
-		"function": "minecraft:set_custom_model_data",
-		"value": 61,
+		"function": "minecraft:reference",
+		"name": "ssbrc:fighters/armor/aesthetic/bowser/gold",
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -192,8 +192,8 @@
 		]
 	},
 	{
-		"function": "minecraft:set_custom_model_data",
-		"value": 62,
+		"function": "minecraft:reference",
+		"name": "ssbrc:fighters/armor/aesthetic/bowser/bowsette",
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -205,8 +205,8 @@
 		]
 	},
 	{
-		"function": "minecraft:set_custom_model_data",
-		"value": 100,
+		"function": "minecraft:reference",
+		"name": "ssbrc:fighters/armor/aesthetic/byleth/default/female",
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -218,8 +218,8 @@
 		]
 	},
 	{
-		"function": "minecraft:set_custom_model_data",
-		"value": 101,
+		"function": "minecraft:reference",
+		"name": "ssbrc:fighters/armor/aesthetic/byleth/default/male",
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -231,8 +231,8 @@
 		]
 	},
 	{
-		"function": "minecraft:set_custom_model_data",
-		"value": 102,
+		"function": "minecraft:reference",
+		"name": "ssbrc:fighters/armor/aesthetic/byleth/gold/female",
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -244,8 +244,8 @@
 		]
 	},
 	{
-		"function": "minecraft:set_custom_model_data",
-		"value": 103,
+		"function": "minecraft:reference",
+		"name": "ssbrc:fighters/armor/aesthetic/byleth/gold/male",
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -257,8 +257,8 @@
 		]
 	},
 	{
-		"function": "minecraft:set_custom_model_data",
-		"value": 104,
+		"function": "minecraft:reference",
+		"name": "ssbrc:fighters/armor/aesthetic/byleth/awakened/female",
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -270,8 +270,8 @@
 		]
 	},
 	{
-		"function": "minecraft:set_custom_model_data",
-		"value": 105,
+		"function": "minecraft:reference",
+		"name": "ssbrc:fighters/armor/aesthetic/byleth/awakened/male",
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -283,8 +283,8 @@
 		]
 	},
 	{
-		"function": "minecraft:set_custom_model_data",
-		"value": 120,
+		"function": "minecraft:reference",
+		"name": "ssbrc:fighters/armor/aesthetic/captain_falcon/default",
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -296,8 +296,8 @@
 		]
 	},
 	{
-		"function": "minecraft:set_custom_model_data",
-		"value": 121,
+		"function": "minecraft:reference",
+		"name": "ssbrc:fighters/armor/aesthetic/captain_falcon/gold",
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -309,8 +309,8 @@
 		]
 	},
 	{
-		"function": "minecraft:set_custom_model_data",
-		"value": 123,
+		"function": "minecraft:reference",
+		"name": "ssbrc:fighters/armor/aesthetic/captain_falcon/blood_falcon",
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -322,8 +322,8 @@
 		]
 	},
 	{
-		"function": "minecraft:set_custom_model_data",
-		"value": 122,
+		"function": "minecraft:reference",
+		"name": "ssbrc:fighters/armor/aesthetic/captain_falcon/rick_wheeler",
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -335,8 +335,8 @@
 		]
 	},
 	{
-		"function": "minecraft:set_custom_model_data",
-		"value": 180,
+		"function": "minecraft:reference",
+		"name": "ssbrc:fighters/armor/aesthetic/cloud/default",
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -348,8 +348,8 @@
 		]
 	},
 	{
-		"function": "minecraft:set_custom_model_data",
-		"value": 181,
+		"function": "minecraft:reference",
+		"name": "ssbrc:fighters/armor/aesthetic/cloud/gold",
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -361,8 +361,8 @@
 		]
 	},
 	{
-		"function": "minecraft:set_custom_model_data",
-		"value": 260,
+		"function": "minecraft:reference",
+		"name": "ssbrc:fighters/armor/aesthetic/dark_samus/default",
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -374,8 +374,8 @@
 		]
 	},
 	{
-		"function": "minecraft:set_custom_model_data",
-		"value": 261,
+		"function": "minecraft:reference",
+		"name": "ssbrc:fighters/armor/aesthetic/dark_samus/gold",
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -387,8 +387,21 @@
 		]
 	},
 	{
-		"function": "minecraft:set_custom_model_data",
-		"value": 300,
+		"function": "minecraft:reference",
+		"name": "ssbrc:fighters/armor/aesthetic/dark_samus/prime_3",
+		"conditions": [
+			{
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"nbt": "{Tags:[\"dark_samus\",\"prime_3\"]}"
+				}
+			}
+		]
+	},
+	{
+		"function": "minecraft:reference",
+		"name": "ssbrc:fighters/armor/aesthetic/donkey_kong/default",
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -400,8 +413,8 @@
 		]
 	},
 	{
-		"function": "minecraft:set_custom_model_data",
-		"value": 301,
+		"function": "minecraft:reference",
+		"name": "ssbrc:fighters/armor/aesthetic/donkey_kong/gold",
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -413,8 +426,8 @@
 		]
 	},
 	{
-		"function": "minecraft:set_custom_model_data",
-		"value": 303,
+		"function": "minecraft:reference",
+		"name": "ssbrc:fighters/armor/aesthetic/donkey_kong/flower_power",
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -426,8 +439,8 @@
 		]
 	},
 	{
-		"function": "minecraft:set_custom_model_data",
-		"value": 302,
+		"function": "minecraft:reference",
+		"name": "ssbrc:fighters/armor/aesthetic/donkey_kong/super_kong",
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -439,8 +452,8 @@
 		]
 	},
 	{
-		"function": "minecraft:set_custom_model_data",
-		"value": 380,
+		"function": "minecraft:reference",
+		"name": "ssbrc:fighters/armor/aesthetic/fox/default",
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -452,8 +465,8 @@
 		]
 	},
 	{
-		"function": "minecraft:set_custom_model_data",
-		"value": 381,
+		"function": "minecraft:reference",
+		"name": "ssbrc:fighters/armor/aesthetic/fox/gold",
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -465,8 +478,8 @@
 		]
 	},
 	{
-		"function": "minecraft:set_custom_model_data",
-		"value": 382,
+		"function": "minecraft:reference",
+		"name": "ssbrc:fighters/armor/aesthetic/fox/adventures",
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -478,8 +491,8 @@
 		]
 	},
 	{
-		"function": "minecraft:set_custom_model_data",
-		"value": 400,
+		"function": "minecraft:reference",
+		"name": "ssbrc:fighters/armor/aesthetic/ganondorf/default",
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -491,8 +504,8 @@
 		]
 	},
 	{
-		"function": "minecraft:set_custom_model_data",
-		"value": 401,
+		"function": "minecraft:reference",
+		"name": "ssbrc:fighters/armor/aesthetic/ganondorf/gold",
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -504,8 +517,8 @@
 		]
 	},
 	{
-		"function": "minecraft:set_custom_model_data",
-		"value": 402,
+		"function": "minecraft:reference",
+		"name": "ssbrc:fighters/armor/aesthetic/ganondorf/ocarina_of_time",
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -517,8 +530,8 @@
 		]
 	},
 	{
-		"function": "minecraft:set_custom_model_data",
-		"value": 403,
+		"function": "minecraft:reference",
+		"name": "ssbrc:fighters/armor/aesthetic/ganondorf/tears_of_the_kingdom",
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -530,8 +543,8 @@
 		]
 	},
 	{
-		"function": "minecraft:set_custom_model_data",
-		"value": 404,
+		"function": "minecraft:reference",
+		"name": "ssbrc:fighters/armor/aesthetic/ganondorf/wind_waker",
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -543,8 +556,8 @@
 		]
 	},
 	{
-		"function": "minecraft:set_custom_model_data",
-		"value": 420,
+		"function": "minecraft:reference",
+		"name": "ssbrc:fighters/armor/aesthetic/greninja/default",
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -556,8 +569,8 @@
 		]
 	},
 	{
-		"function": "minecraft:set_custom_model_data",
-		"value": 421,
+		"function": "minecraft:reference",
+		"name": "ssbrc:fighters/armor/aesthetic/greninja/gold",
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -569,8 +582,8 @@
 		]
 	},
 	{
-		"function": "minecraft:set_custom_model_data",
-		"value": 422,
+		"function": "minecraft:reference",
+		"name": "ssbrc:fighters/armor/aesthetic/greninja/shiny",
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -582,8 +595,8 @@
 		]
 	},
 	{
-		"function": "minecraft:set_custom_model_data",
-		"value": 440,
+		"function": "minecraft:reference",
+		"name": "ssbrc:fighters/armor/aesthetic/hero/default/default",
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -595,8 +608,8 @@
 		]
 	},
 	{
-		"function": "minecraft:set_custom_model_data",
-		"value": 441,
+		"function": "minecraft:reference",
+		"name": "ssbrc:fighters/armor/aesthetic/hero/default/kaclang",
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -608,8 +621,8 @@
 		]
 	},
 	{
-		"function": "minecraft:set_custom_model_data",
-		"value": 442,
+		"function": "minecraft:reference",
+		"name": "ssbrc:fighters/armor/aesthetic/hero/gold/default",
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -621,8 +634,8 @@
 		]
 	},
 	{
-		"function": "minecraft:set_custom_model_data",
-		"value": 441,
+		"function": "minecraft:reference",
+		"name": "ssbrc:fighters/armor/aesthetic/hero/gold/kaclang",
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -634,8 +647,8 @@
 		]
 	},
 	{
-		"function": "minecraft:set_custom_model_data",
-		"value": 444,
+		"function": "minecraft:reference",
+		"name": "ssbrc:fighters/armor/aesthetic/hero/erdrick/default",
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -647,8 +660,8 @@
 		]
 	},
 	{
-		"function": "minecraft:set_custom_model_data",
-		"value": 445,
+		"function": "minecraft:reference",
+		"name": "ssbrc:fighters/armor/aesthetic/hero/erdrick/kaclang",
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -660,8 +673,8 @@
 		]
 	},
 	{
-		"function": "minecraft:set_custom_model_data",
-		"value": 446,
+		"function": "minecraft:reference",
+		"name": "ssbrc:fighters/armor/aesthetic/hero/rek/default",
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -673,8 +686,8 @@
 		]
 	},
 	{
-		"function": "minecraft:set_custom_model_data",
-		"value": 447,
+		"function": "minecraft:reference",
+		"name": "ssbrc:fighters/armor/aesthetic/hero/rek/kaclang",
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -686,8 +699,8 @@
 		]
 	},
 	{
-		"function": "minecraft:set_custom_model_data",
-		"value": 448,
+		"function": "minecraft:reference",
+		"name": "ssbrc:fighters/armor/aesthetic/hero/sofia/default",
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -699,8 +712,8 @@
 		]
 	},
 	{
-		"function": "minecraft:set_custom_model_data",
-		"value": 449,
+		"function": "minecraft:reference",
+		"name": "ssbrc:fighters/armor/aesthetic/hero/sofia/kaclang",
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -712,8 +725,34 @@
 		]
 	},
 	{
-		"function": "minecraft:set_custom_model_data",
-		"value": 580,
+		"function": "minecraft:reference",
+		"name": "ssbrc:fighters/armor/aesthetic/hero/solo/default",
+		"conditions": [
+			{
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"nbt": "{Tags:[\"hero\",\"solo\"]}"
+				}
+			}
+		]
+	},
+	{
+		"function": "minecraft:reference",
+		"name": "ssbrc:fighters/armor/aesthetic/hero/solo/kaclang",
+		"conditions": [
+			{
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"nbt": "{Tags:[\"hero\",\"solo\",\"kaclang\"]}"
+				}
+			}
+		]
+	},
+	{
+		"function": "minecraft:reference",
+		"name": "ssbrc:fighters/armor/aesthetic/jigglypuff/default/default",
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -725,8 +764,8 @@
 		]
 	},
 	{
-		"function": "minecraft:set_custom_model_data",
-		"value": 581,
+		"function": "minecraft:reference",
+		"name": "ssbrc:fighters/armor/aesthetic/jigglypuff/default/asleep",
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -738,8 +777,8 @@
 		]
 	},
 	{
-		"function": "minecraft:set_custom_model_data",
-		"value": 582,
+		"function": "minecraft:reference",
+		"name": "ssbrc:fighters/armor/aesthetic/jigglypuff/gold/default",
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -751,8 +790,8 @@
 		]
 	},
 	{
-		"function": "minecraft:set_custom_model_data",
-		"value": 583,
+		"function": "minecraft:reference",
+		"name": "ssbrc:fighters/armor/aesthetic/jigglypuff/gold/asleep",
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -764,8 +803,8 @@
 		]
 	},
 	{
-		"function": "minecraft:set_custom_model_data",
-		"value": 584,
+		"function": "minecraft:reference",
+		"name": "ssbrc:fighters/armor/aesthetic/jigglypuff/shiny/default",
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -777,8 +816,8 @@
 		]
 	},
 	{
-		"function": "minecraft:set_custom_model_data",
-		"value": 585,
+		"function": "minecraft:reference",
+		"name": "ssbrc:fighters/armor/aesthetic/jigglypuff/shiny/asleep",
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -790,8 +829,8 @@
 		]
 	},
 	{
-		"function": "minecraft:set_custom_model_data",
-		"value": 600,
+		"function": "minecraft:reference",
+		"name": "ssbrc:fighters/armor/aesthetic/joker/default/default",
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -807,8 +846,8 @@
 		]
 	},
 	{
-		"function": "minecraft:set_custom_model_data",
-		"value": 601,
+		"function": "minecraft:reference",
+		"name": "ssbrc:fighters/armor/aesthetic/joker/default/maskless",
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -824,8 +863,8 @@
 		]
 	},
 	{
-		"function": "minecraft:set_custom_model_data",
-		"value": 602,
+		"function": "minecraft:reference",
+		"name": "ssbrc:fighters/armor/aesthetic/joker/gold/default",
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -841,8 +880,8 @@
 		]
 	},
 	{
-		"function": "minecraft:set_custom_model_data",
-		"value": 603,
+		"function": "minecraft:reference",
+		"name": "ssbrc:fighters/armor/aesthetic/joker/gold/maskless",
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -858,8 +897,8 @@
 		]
 	},
 	{
-		"function": "minecraft:set_custom_model_data",
-		"value": 606,
+		"function": "minecraft:reference",
+		"name": "ssbrc:fighters/armor/aesthetic/joker/christmas_outfit/default",
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -875,8 +914,8 @@
 		]
 	},
 	{
-		"function": "minecraft:set_custom_model_data",
-		"value": 607,
+		"function": "minecraft:reference",
+		"name": "ssbrc:fighters/armor/aesthetic/joker/christmas_outfit/maskless",
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -892,8 +931,8 @@
 		]
 	},
 	{
-		"function": "minecraft:set_custom_model_data",
-		"value": 604,
+		"function": "minecraft:reference",
+		"name": "ssbrc:fighters/armor/aesthetic/joker/shujin_academy/default",
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -909,8 +948,8 @@
 		]
 	},
 	{
-		"function": "minecraft:set_custom_model_data",
-		"value": 605,
+		"function": "minecraft:reference",
+		"name": "ssbrc:fighters/armor/aesthetic/joker/shujin_academy/maskless",
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -926,8 +965,8 @@
 		]
 	},
 	{
-		"function": "minecraft:set_custom_model_data",
-		"value": 680,
+		"function": "minecraft:reference",
+		"name": "ssbrc:fighters/armor/aesthetic/king_k_rool/default",
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -939,8 +978,8 @@
 		]
 	},
 	{
-		"function": "minecraft:set_custom_model_data",
-		"value": 681,
+		"function": "minecraft:reference",
+		"name": "ssbrc:fighters/armor/aesthetic/king_k_rool/gold",
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -952,8 +991,8 @@
 		]
 	},
 	{
-		"function": "minecraft:set_custom_model_data",
-		"value": 700,
+		"function": "minecraft:reference",
+		"name": "ssbrc:fighters/armor/aesthetic/kirby/default/default",
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -965,8 +1004,8 @@
 		]
 	},
 	{
-		"function": "minecraft:set_custom_model_data",
-		"value": 701,
+		"function": "minecraft:reference",
+		"name": "ssbrc:fighters/armor/aesthetic/kirby/gold/default",
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -978,8 +1017,8 @@
 		]
 	},
 	{
-		"function": "minecraft:set_custom_model_data",
-		"value": 703,
+		"function": "minecraft:reference",
+		"name": "ssbrc:fighters/armor/aesthetic/kirby/keeby/default",
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -991,8 +1030,8 @@
 		]
 	},
 	{
-		"function": "minecraft:set_custom_model_data",
-		"value": 720,
+		"function": "minecraft:reference",
+		"name": "ssbrc:fighters/armor/aesthetic/link/default",
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -1004,8 +1043,8 @@
 		]
 	},
 	{
-		"function": "minecraft:set_custom_model_data",
-		"value": 721,
+		"function": "minecraft:reference",
+		"name": "ssbrc:fighters/armor/aesthetic/link/gold",
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -1017,8 +1056,8 @@
 		]
 	},
 	{
-		"function": "minecraft:set_custom_model_data",
-		"value": 722,
+		"function": "minecraft:reference",
+		"name": "ssbrc:fighters/armor/aesthetic/link/dark_link",
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -1030,8 +1069,8 @@
 		]
 	},
 	{
-		"function": "minecraft:set_custom_model_data",
-		"value": 723,
+		"function": "minecraft:reference",
+		"name": "ssbrc:fighters/armor/aesthetic/link/goron_tunic",
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -1043,8 +1082,8 @@
 		]
 	},
 	{
-		"function": "minecraft:set_custom_model_data",
-		"value": 724,
+		"function": "minecraft:reference",
+		"name": "ssbrc:fighters/armor/aesthetic/link/zora_tunic",
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -1056,8 +1095,8 @@
 		]
 	},
 	{
-		"function": "minecraft:set_custom_model_data",
-		"value": 820,
+		"function": "minecraft:reference",
+		"name": "ssbrc:fighters/armor/aesthetic/luigi/default",
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -1069,8 +1108,8 @@
 		]
 	},
 	{
-		"function": "minecraft:set_custom_model_data",
-		"value": 821,
+		"function": "minecraft:reference",
+		"name": "ssbrc:fighters/armor/aesthetic/luigi/gold",
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -1082,8 +1121,8 @@
 		]
 	},
 	{
-		"function": "minecraft:set_custom_model_data",
-		"value": 822,
+		"function": "minecraft:reference",
+		"name": "ssbrc:fighters/armor/aesthetic/luigi/flower_power",
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -1095,8 +1134,8 @@
 		]
 	},
 	{
-		"function": "minecraft:set_custom_model_data",
-		"value": 823,
+		"function": "minecraft:reference",
+		"name": "ssbrc:fighters/armor/aesthetic/luigi/gooigi",
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -1108,8 +1147,8 @@
 		]
 	},
 	{
-		"function": "minecraft:set_custom_model_data",
-		"value": 824,
+		"function": "minecraft:reference",
+		"name": "ssbrc:fighters/armor/aesthetic/luigi/penguin",
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -1121,8 +1160,8 @@
 		]
 	},
 	{
-		"function": "minecraft:set_custom_model_data",
-		"value": 840,
+		"function": "minecraft:reference",
+		"name": "ssbrc:fighters/armor/aesthetic/mario/default",
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -1134,8 +1173,8 @@
 		]
 	},
 	{
-		"function": "minecraft:set_custom_model_data",
-		"value": 841,
+		"function": "minecraft:reference",
+		"name": "ssbrc:fighters/armor/aesthetic/mario/gold",
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -1147,8 +1186,8 @@
 		]
 	},
 	{
-		"function": "minecraft:set_custom_model_data",
-		"value": 842,
+		"function": "minecraft:reference",
+		"name": "ssbrc:fighters/armor/aesthetic/mario/flower_power",
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -1160,8 +1199,8 @@
 		]
 	},
 	{
-		"function": "minecraft:set_custom_model_data",
-		"value": 843,
+		"function": "minecraft:reference",
+		"name": "ssbrc:fighters/armor/aesthetic/mario/penguin",
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -1173,8 +1212,8 @@
 		]
 	},
 	{
-		"function": "minecraft:set_custom_model_data",
-		"value": 880,
+		"function": "minecraft:reference",
+		"name": "ssbrc:fighters/armor/aesthetic/mega_man/default",
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -1186,8 +1225,8 @@
 		]
 	},
 	{
-		"function": "minecraft:set_custom_model_data",
-		"value": 881,
+		"function": "minecraft:reference",
+		"name": "ssbrc:fighters/armor/aesthetic/mega_man/gold",
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -1199,8 +1238,8 @@
 		]
 	},
 	{
-		"function": "minecraft:set_custom_model_data",
-		"value": 882,
+		"function": "minecraft:reference",
+		"name": "ssbrc:fighters/armor/aesthetic/mega_man/star_force",
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -1212,8 +1251,8 @@
 		]
 	},
 	{
-		"function": "minecraft:set_custom_model_data",
-		"value": 1080,
+		"function": "minecraft:reference",
+		"name": "ssbrc:fighters/armor/aesthetic/ness/default",
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -1225,8 +1264,8 @@
 		]
 	},
 	{
-		"function": "minecraft:set_custom_model_data",
-		"value": 1081,
+		"function": "minecraft:reference",
+		"name": "ssbrc:fighters/armor/aesthetic/ness/gold",
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -1238,8 +1277,8 @@
 		]
 	},
 	{
-		"function": "minecraft:set_custom_model_data",
-		"value": 1082,
+		"function": "minecraft:reference",
+		"name": "ssbrc:fighters/armor/aesthetic/ness/moonside",
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -1251,8 +1290,8 @@
 		]
 	},
 	{
-		"function": "minecraft:set_custom_model_data",
-		"value": 1083,
+		"function": "minecraft:reference",
+		"name": "ssbrc:fighters/armor/aesthetic/ness/pajamas",
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -1264,8 +1303,8 @@
 		]
 	},
 	{
-		"function": "minecraft:set_custom_model_data",
-		"value": 1084,
+		"function": "minecraft:reference",
+		"name": "ssbrc:fighters/armor/aesthetic/ness/phase_distortion",
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -1277,8 +1316,8 @@
 		]
 	},
 	{
-		"function": "minecraft:set_custom_model_data",
-		"value": 1160,
+		"function": "minecraft:reference",
+		"name": "ssbrc:fighters/armor/aesthetic/peach/default",
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -1290,8 +1329,8 @@
 		]
 	},
 	{
-		"function": "minecraft:set_custom_model_data",
-		"value": 1161,
+		"function": "minecraft:reference",
+		"name": "ssbrc:fighters/armor/aesthetic/peach/gold",
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -1303,8 +1342,8 @@
 		]
 	},
 	{
-		"function": "minecraft:set_custom_model_data",
-		"value": 1200,
+		"function": "minecraft:reference",
+		"name": "ssbrc:fighters/armor/aesthetic/pikachu/default",
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -1316,8 +1355,8 @@
 		]
 	},
 	{
-		"function": "minecraft:set_custom_model_data",
-		"value": 1201,
+		"function": "minecraft:reference",
+		"name": "ssbrc:fighters/armor/aesthetic/pikachu/gold",
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -1329,8 +1368,8 @@
 		]
 	},
 	{
-		"function": "minecraft:set_custom_model_data",
-		"value": 1202,
+		"function": "minecraft:reference",
+		"name": "ssbrc:fighters/armor/aesthetic/pikachu/shiny",
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -1342,8 +1381,8 @@
 		]
 	},
 	{
-		"function": "minecraft:set_custom_model_data",
-		"value": 1203,
+		"function": "minecraft:reference",
+		"name": "ssbrc:fighters/armor/aesthetic/pikachu/santa_hat",
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -1355,8 +1394,8 @@
 		]
 	},
 	{
-		"function": "minecraft:set_custom_model_data",
-		"value": 1220,
+		"function": "minecraft:reference",
+		"name": "ssbrc:fighters/armor/aesthetic/pit/default",
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -1368,8 +1407,8 @@
 		]
 	},
 	{
-		"function": "minecraft:set_custom_model_data",
-		"value": 1221,
+		"function": "minecraft:reference",
+		"name": "ssbrc:fighters/armor/aesthetic/pit/gold",
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -1381,8 +1420,8 @@
 		]
 	},
 	{
-		"function": "minecraft:set_custom_model_data",
-		"value": 1222,
+		"function": "minecraft:reference",
+		"name": "ssbrc:fighters/armor/aesthetic/pit/retro",
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -1394,8 +1433,8 @@
 		]
 	},
 	{
-		"function": "minecraft:set_custom_model_data",
-		"value": 1260,
+		"function": "minecraft:reference",
+		"name": "ssbrc:fighters/armor/aesthetic/pokemon_trainer/default/trainer",
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -1407,8 +1446,8 @@
 		]
 	},
 	{
-		"function": "minecraft:set_custom_model_data",
-		"value": 1261,
+		"function": "minecraft:reference",
+		"name": "ssbrc:fighters/armor/aesthetic/pokemon_trainer/default/charizard",
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -1420,8 +1459,8 @@
 		]
 	},
 	{
-		"function": "minecraft:set_custom_model_data",
-		"value": 1262,
+		"function": "minecraft:reference",
+		"name": "ssbrc:fighters/armor/aesthetic/pokemon_trainer/default/ivysaur",
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -1433,8 +1472,8 @@
 		]
 	},
 	{
-		"function": "minecraft:set_custom_model_data",
-		"value": 1263,
+		"function": "minecraft:reference",
+		"name": "ssbrc:fighters/armor/aesthetic/pokemon_trainer/default/squirtle",
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -1446,8 +1485,8 @@
 		]
 	},
 	{
-		"function": "minecraft:set_custom_model_data",
-		"value": 1264,
+		"function": "minecraft:reference",
+		"name": "ssbrc:fighters/armor/aesthetic/pokemon_trainer/gold/trainer",
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -1459,8 +1498,8 @@
 		]
 	},
 	{
-		"function": "minecraft:set_custom_model_data",
-		"value": 1265,
+		"function": "minecraft:reference",
+		"name": "ssbrc:fighters/armor/aesthetic/pokemon_trainer/gold/charizard",
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -1472,8 +1511,8 @@
 		]
 	},
 	{
-		"function": "minecraft:set_custom_model_data",
-		"value": 1266,
+		"function": "minecraft:reference",
+		"name": "ssbrc:fighters/armor/aesthetic/pokemon_trainer/gold/ivysaur",
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -1485,8 +1524,8 @@
 		]
 	},
 	{
-		"function": "minecraft:set_custom_model_data",
-		"value": 1267,
+		"function": "minecraft:reference",
+		"name": "ssbrc:fighters/armor/aesthetic/pokemon_trainer/gold/squirtle",
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -1498,8 +1537,8 @@
 		]
 	},
 	{
-		"function": "minecraft:set_custom_model_data",
-		"value": 1271,
+		"function": "minecraft:reference",
+		"name": "ssbrc:fighters/armor/aesthetic/pokemon_trainer/dawn/trainer",
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -1511,8 +1550,8 @@
 		]
 	},
 	{
-		"function": "minecraft:set_custom_model_data",
-		"value": 1272,
+		"function": "minecraft:reference",
+		"name": "ssbrc:fighters/armor/aesthetic/pokemon_trainer/dawn/charizard",
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -1524,8 +1563,8 @@
 		]
 	},
 	{
-		"function": "minecraft:set_custom_model_data",
-		"value": 1273,
+		"function": "minecraft:reference",
+		"name": "ssbrc:fighters/armor/aesthetic/pokemon_trainer/dawn/ivysaur",
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -1537,8 +1576,8 @@
 		]
 	},
 	{
-		"function": "minecraft:set_custom_model_data",
-		"value": 1274,
+		"function": "minecraft:reference",
+		"name": "ssbrc:fighters/armor/aesthetic/pokemon_trainer/dawn/squirtle",
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -1550,8 +1589,8 @@
 		]
 	},
 	{
-		"function": "minecraft:set_custom_model_data",
-		"value": 1275,
+		"function": "minecraft:reference",
+		"name": "ssbrc:fighters/armor/aesthetic/pokemon_trainer/victor/trainer",
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -1563,8 +1602,8 @@
 		]
 	},
 	{
-		"function": "minecraft:set_custom_model_data",
-		"value": 1276,
+		"function": "minecraft:reference",
+		"name": "ssbrc:fighters/armor/aesthetic/pokemon_trainer/victor/charizard",
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -1576,8 +1615,8 @@
 		]
 	},
 	{
-		"function": "minecraft:set_custom_model_data",
-		"value": 1277,
+		"function": "minecraft:reference",
+		"name": "ssbrc:fighters/armor/aesthetic/pokemon_trainer/victor/ivysaur",
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -1589,8 +1628,8 @@
 		]
 	},
 	{
-		"function": "minecraft:set_custom_model_data",
-		"value": 1278,
+		"function": "minecraft:reference",
+		"name": "ssbrc:fighters/armor/aesthetic/pokemon_trainer/victor/squirtle",
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -1602,8 +1641,8 @@
 		]
 	},
 	{
-		"function": "minecraft:set_custom_model_data",
-		"value": 1260,
+		"function": "minecraft:reference",
+		"name": "ssbrc:fighters/armor/aesthetic/pokemon_trainer/shiny/trainer",
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -1615,8 +1654,8 @@
 		]
 	},
 	{
-		"function": "minecraft:set_custom_model_data",
-		"value": 1268,
+		"function": "minecraft:reference",
+		"name": "ssbrc:fighters/armor/aesthetic/pokemon_trainer/shiny/charizard",
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -1628,8 +1667,8 @@
 		]
 	},
 	{
-		"function": "minecraft:set_custom_model_data",
-		"value": 1269,
+		"function": "minecraft:reference",
+		"name": "ssbrc:fighters/armor/aesthetic/pokemon_trainer/shiny/ivysaur",
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -1641,8 +1680,8 @@
 		]
 	},
 	{
-		"function": "minecraft:set_custom_model_data",
-		"value": 1270,
+		"function": "minecraft:reference",
+		"name": "ssbrc:fighters/armor/aesthetic/pokemon_trainer/shiny/squirtle",
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -1654,8 +1693,8 @@
 		]
 	},
 	{
-		"function": "minecraft:set_custom_model_data",
-		"value": 1400,
+		"function": "minecraft:reference",
+		"name": "ssbrc:fighters/armor/aesthetic/ryu/default/default",
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -1667,8 +1706,8 @@
 		]
 	},
 	{
-		"function": "minecraft:set_custom_model_data",
-		"value": 1401,
+		"function": "minecraft:reference",
+		"name": "ssbrc:fighters/armor/aesthetic/ryu/default/evil",
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -1680,8 +1719,8 @@
 		]
 	},
 	{
-		"function": "minecraft:set_custom_model_data",
-		"value": 1402,
+		"function": "minecraft:reference",
+		"name": "ssbrc:fighters/armor/aesthetic/ryu/gold/default",
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -1693,8 +1732,8 @@
 		]
 	},
 	{
-		"function": "minecraft:set_custom_model_data",
-		"value": 1403,
+		"function": "minecraft:reference",
+		"name": "ssbrc:fighters/armor/aesthetic/ryu/gold/evil",
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -1706,8 +1745,8 @@
 		]
 	},
 	{
-		"function": "minecraft:set_custom_model_data",
-		"value": 1404,
+		"function": "minecraft:reference",
+		"name": "ssbrc:fighters/armor/aesthetic/ryu/hot_ryu/default",
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -1719,8 +1758,8 @@
 		]
 	},
 	{
-		"function": "minecraft:set_custom_model_data",
-		"value": 1405,
+		"function": "minecraft:reference",
+		"name": "ssbrc:fighters/armor/aesthetic/ryu/hot_ryu/evil",
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -1732,8 +1771,8 @@
 		]
 	},
 	{
-		"function": "minecraft:set_custom_model_data",
-		"value": 1420,
+		"function": "minecraft:reference",
+		"name": "ssbrc:fighters/armor/aesthetic/samus/default",
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -1745,8 +1784,8 @@
 		]
 	},
 	{
-		"function": "minecraft:set_custom_model_data",
-		"value": 1421,
+		"function": "minecraft:reference",
+		"name": "ssbrc:fighters/armor/aesthetic/samus/gold",
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -1758,8 +1797,8 @@
 		]
 	},
 	{
-		"function": "minecraft:set_custom_model_data",
-		"value": 1422,
+		"function": "minecraft:reference",
+		"name": "ssbrc:fighters/armor/aesthetic/samus/gravity_suit",
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -1771,8 +1810,8 @@
 		]
 	},
 	{
-		"function": "minecraft:set_custom_model_data",
-		"value": 1423,
+		"function": "minecraft:reference",
+		"name": "ssbrc:fighters/armor/aesthetic/samus/phazon_suit",
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -1784,8 +1823,8 @@
 		]
 	},
 	{
-		"function": "minecraft:set_custom_model_data",
-		"value": 1520,
+		"function": "minecraft:reference",
+		"name": "ssbrc:fighters/armor/aesthetic/snake/default/default",
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -1816,8 +1855,8 @@
 		]
 	},
 	{
-		"function": "minecraft:set_custom_model_data",
-		"value": 1521,
+		"function": "minecraft:reference",
+		"name": "ssbrc:fighters/armor/aesthetic/snake/default/night_vision_goggles",
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -1848,8 +1887,8 @@
 		]
 	},
 	{
-		"function": "minecraft:set_custom_model_data",
-		"value": 1522,
+		"function": "minecraft:reference",
+		"name": "ssbrc:fighters/armor/aesthetic/snake/gold/default",
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -1861,8 +1900,8 @@
 		]
 	},
 	{
-		"function": "minecraft:set_custom_model_data",
-		"value": 1523,
+		"function": "minecraft:reference",
+		"name": "ssbrc:fighters/armor/aesthetic/snake/gold/night_vision_goggles",
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -1874,8 +1913,8 @@
 		]
 	},
 	{
-		"function": "minecraft:set_custom_model_data",
-		"value": 1524,
+		"function": "minecraft:reference",
+		"name": "ssbrc:fighters/armor/aesthetic/snake/iroquois_pliskin/default",
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -1887,8 +1926,8 @@
 		]
 	},
 	{
-		"function": "minecraft:set_custom_model_data",
-		"value": 1525,
+		"function": "minecraft:reference",
+		"name": "ssbrc:fighters/armor/aesthetic/snake/iroquois_pliskin/night_vision_goggles",
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -1900,8 +1939,8 @@
 		]
 	},
 	{
-		"function": "minecraft:set_custom_model_data",
-		"value": 1540,
+		"function": "minecraft:reference",
+		"name": "ssbrc:fighters/armor/aesthetic/sonic/default",
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -1913,8 +1952,8 @@
 		]
 	},
 	{
-		"function": "minecraft:set_custom_model_data",
-		"value": 1541,
+		"function": "minecraft:reference",
+		"name": "ssbrc:fighters/armor/aesthetic/sonic/gold",
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -1926,8 +1965,8 @@
 		]
 	},
 	{
-		"function": "minecraft:set_custom_model_data",
-		"value": 1542,
+		"function": "minecraft:reference",
+		"name": "ssbrc:fighters/armor/aesthetic/sonic/classic",
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -1939,21 +1978,8 @@
 		]
 	},
 	{
-		"function": "minecraft:set_custom_model_data",
-		"value": 1543,
-		"conditions": [
-			{
-				"condition": "minecraft:entity_properties",
-				"entity": "this",
-				"predicate": {
-					"nbt": "{Tags:[\"sonic\",\"werehog\"]}"
-				}
-			}
-		]
-	},
-	{
-		"function": "minecraft:set_custom_model_data",
-		"value": 1544,
+		"function": "minecraft:reference",
+		"name": "ssbrc:fighters/armor/aesthetic/sonic/hylian_tunic",
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -1965,8 +1991,21 @@
 		]
 	},
 	{
-		"function": "minecraft:set_custom_model_data",
-		"value": 1560,
+		"function": "minecraft:reference",
+		"name": "ssbrc:fighters/armor/aesthetic/sonic/werehog",
+		"conditions": [
+			{
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"nbt": "{Tags:[\"sonic\",\"werehog\"]}"
+				}
+			}
+		]
+	},
+	{
+		"function": "minecraft:reference",
+		"name": "ssbrc:fighters/armor/aesthetic/sora/default/default",
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -1978,8 +2017,8 @@
 		]
 	},
 	{
-		"function": "minecraft:set_custom_model_data",
-		"value": 1561,
+		"function": "minecraft:reference",
+		"name": "ssbrc:fighters/armor/aesthetic/sora/default/anti",
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -1991,8 +2030,8 @@
 		]
 	},
 	{
-		"function": "minecraft:set_custom_model_data",
-		"value": 1562,
+		"function": "minecraft:reference",
+		"name": "ssbrc:fighters/armor/aesthetic/sora/default/valor",
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -2004,8 +2043,8 @@
 		]
 	},
 	{
-		"function": "minecraft:set_custom_model_data",
-		"value": 1563,
+		"function": "minecraft:reference",
+		"name": "ssbrc:fighters/armor/aesthetic/sora/default/wisdom",
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -2017,8 +2056,8 @@
 		]
 	},
 	{
-		"function": "minecraft:set_custom_model_data",
-		"value": 1564,
+		"function": "minecraft:reference",
+		"name": "ssbrc:fighters/armor/aesthetic/sora/default/master",
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -2030,8 +2069,8 @@
 		]
 	},
 	{
-		"function": "minecraft:set_custom_model_data",
-		"value": 1565,
+		"function": "minecraft:reference",
+		"name": "ssbrc:fighters/armor/aesthetic/sora/default/default",
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -2043,8 +2082,8 @@
 		]
 	},
 	{
-		"function": "minecraft:set_custom_model_data",
-		"value": 1566,
+		"function": "minecraft:reference",
+		"name": "ssbrc:fighters/armor/aesthetic/sora/default/anti",
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -2056,8 +2095,8 @@
 		]
 	},
 	{
-		"function": "minecraft:set_custom_model_data",
-		"value": 1570,
+		"function": "minecraft:reference",
+		"name": "ssbrc:fighters/armor/aesthetic/sora/timeless_river/default",
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -2069,8 +2108,8 @@
 		]
 	},
 	{
-		"function": "minecraft:set_custom_model_data",
-		"value": 1561,
+		"function": "minecraft:reference",
+		"name": "ssbrc:fighters/armor/aesthetic/sora/timeless_river/anti",
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -2082,8 +2121,8 @@
 		]
 	},
 	{
-		"function": "minecraft:set_custom_model_data",
-		"value": 1572,
+		"function": "minecraft:reference",
+		"name": "ssbrc:fighters/armor/aesthetic/sora/timeless_river/valor",
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -2095,8 +2134,8 @@
 		]
 	},
 	{
-		"function": "minecraft:set_custom_model_data",
-		"value": 1573,
+		"function": "minecraft:reference",
+		"name": "ssbrc:fighters/armor/aesthetic/sora/timeless_river/wisdom",
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -2108,8 +2147,8 @@
 		]
 	},
 	{
-		"function": "minecraft:set_custom_model_data",
-		"value": 1574,
+		"function": "minecraft:reference",
+		"name": "ssbrc:fighters/armor/aesthetic/sora/timeless_river/master",
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -2121,8 +2160,8 @@
 		]
 	},
 	{
-		"function": "minecraft:set_custom_model_data",
-		"value": 1580,
+		"function": "minecraft:reference",
+		"name": "ssbrc:fighters/armor/aesthetic/steve/default",
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -2134,8 +2173,8 @@
 		]
 	},
 	{
-		"function": "minecraft:set_custom_model_data",
-		"value": 1581,
+		"function": "minecraft:reference",
+		"name": "ssbrc:fighters/armor/aesthetic/steve/gold",
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -2147,8 +2186,8 @@
 		]
 	},
 	{
-		"function": "minecraft:set_custom_model_data",
-		"value": 1582,
+		"function": "minecraft:reference",
+		"name": "ssbrc:fighters/armor/aesthetic/steve/alex",
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -2160,8 +2199,8 @@
 		]
 	},
 	{
-		"function": "minecraft:set_custom_model_data",
-		"value": 1583,
+		"function": "minecraft:reference",
+		"name": "ssbrc:fighters/armor/aesthetic/steve/herobrine",
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -2173,8 +2212,8 @@
 		]
 	},
 	{
-		"function": "minecraft:set_custom_model_data",
-		"value": 1720,
+		"function": "minecraft:reference",
+		"name": "ssbrc:fighters/armor/aesthetic/wolf/default",
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -2186,8 +2225,8 @@
 		]
 	},
 	{
-		"function": "minecraft:set_custom_model_data",
-		"value": 1721,
+		"function": "minecraft:reference",
+		"name": "ssbrc:fighters/armor/aesthetic/wolf/gold",
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -2199,8 +2238,8 @@
 		]
 	},
 	{
-		"function": "minecraft:set_custom_model_data",
-		"value": 1722,
+		"function": "minecraft:reference",
+		"name": "ssbrc:fighters/armor/aesthetic/wolf/assault",
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -2212,8 +2251,8 @@
 		]
 	},
 	{
-		"function": "minecraft:set_custom_model_data",
-		"value": 1780,
+		"function": "minecraft:reference",
+		"name": "ssbrc:fighters/armor/aesthetic/zelda/default",
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -2225,8 +2264,8 @@
 		]
 	},
 	{
-		"function": "minecraft:set_custom_model_data",
-		"value": 1781,
+		"function": "minecraft:reference",
+		"name": "ssbrc:fighters/armor/aesthetic/zelda/gold",
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -2238,8 +2277,21 @@
 		]
 	},
 	{
-		"function": "minecraft:set_custom_model_data",
-		"value": 1820,
+		"function": "minecraft:reference",
+		"name": "ssbrc:fighters/armor/aesthetic/zelda/hyrule_warriors",
+		"conditions": [
+			{
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"nbt": "{Tags:[\"zelda\",\"hyrule_warriors\"]}"
+				}
+			}
+		]
+	},
+	{
+		"function": "minecraft:reference",
+		"name": "ssbrc:fighters/armor/aesthetic/altered_beast/default/centurion",
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -2251,8 +2303,8 @@
 		]
 	},
 	{
-		"function": "minecraft:set_custom_model_data",
-		"value": 1821,
+		"function": "minecraft:reference",
+		"name": "ssbrc:fighters/armor/aesthetic/altered_beast/default/werebear",
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -2264,8 +2316,8 @@
 		]
 	},
 	{
-		"function": "minecraft:set_custom_model_data",
-		"value": 1822,
+		"function": "minecraft:reference",
+		"name": "ssbrc:fighters/armor/aesthetic/altered_beast/default/weredragon",
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -2277,8 +2329,8 @@
 		]
 	},
 	{
-		"function": "minecraft:set_custom_model_data",
-		"value": 1823,
+		"function": "minecraft:reference",
+		"name": "ssbrc:fighters/armor/aesthetic/altered_beast/default/weretiger",
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -2290,8 +2342,8 @@
 		]
 	},
 	{
-		"function": "minecraft:set_custom_model_data",
-		"value": 1824,
+		"function": "minecraft:reference",
+		"name": "ssbrc:fighters/armor/aesthetic/altered_beast/default/werewolf",
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -2303,8 +2355,8 @@
 		]
 	},
 	{
-		"function": "minecraft:set_custom_model_data",
-		"value": 1825,
+		"function": "minecraft:reference",
+		"name": "ssbrc:fighters/armor/aesthetic/altered_beast/gold/centurion",
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -2316,8 +2368,8 @@
 		]
 	},
 	{
-		"function": "minecraft:set_custom_model_data",
-		"value": 1826,
+		"function": "minecraft:reference",
+		"name": "ssbrc:fighters/armor/aesthetic/altered_beast/gold/werebear",
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -2329,8 +2381,8 @@
 		]
 	},
 	{
-		"function": "minecraft:set_custom_model_data",
-		"value": 1827,
+		"function": "minecraft:reference",
+		"name": "ssbrc:fighters/armor/aesthetic/altered_beast/gold/weredragon",
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -2342,8 +2394,8 @@
 		]
 	},
 	{
-		"function": "minecraft:set_custom_model_data",
-		"value": 1828,
+		"function": "minecraft:reference",
+		"name": "ssbrc:fighters/armor/aesthetic/altered_beast/gold/weretiger",
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -2355,8 +2407,8 @@
 		]
 	},
 	{
-		"function": "minecraft:set_custom_model_data",
-		"value": 1829,
+		"function": "minecraft:reference",
+		"name": "ssbrc:fighters/armor/aesthetic/altered_beast/gold/werewolf",
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -2368,8 +2420,8 @@
 		]
 	},
 	{
-		"function": "minecraft:set_custom_model_data",
-		"value": 1830,
+		"function": "minecraft:reference",
+		"name": "ssbrc:fighters/armor/aesthetic/altered_beast/player_2/centurion",
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -2381,8 +2433,8 @@
 		]
 	},
 	{
-		"function": "minecraft:set_custom_model_data",
-		"value": 1831,
+		"function": "minecraft:reference",
+		"name": "ssbrc:fighters/armor/aesthetic/altered_beast/player_2/werebear",
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -2394,8 +2446,8 @@
 		]
 	},
 	{
-		"function": "minecraft:set_custom_model_data",
-		"value": 1832,
+		"function": "minecraft:reference",
+		"name": "ssbrc:fighters/armor/aesthetic/altered_beast/player_2/weredragon",
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -2407,8 +2459,8 @@
 		]
 	},
 	{
-		"function": "minecraft:set_custom_model_data",
-		"value": 1833,
+		"function": "minecraft:reference",
+		"name": "ssbrc:fighters/armor/aesthetic/altered_beast/player_2/weretiger",
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -2420,8 +2472,8 @@
 		]
 	},
 	{
-		"function": "minecraft:set_custom_model_data",
-		"value": 1834,
+		"function": "minecraft:reference",
+		"name": "ssbrc:fighters/armor/aesthetic/altered_beast/player_2/werewolf",
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -2433,8 +2485,8 @@
 		]
 	},
 	{
-		"function": "minecraft:set_custom_model_data",
-		"value": 1840,
+		"function": "minecraft:reference",
+		"name": "ssbrc:fighters/armor/aesthetic/alucard/default/default",
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -2446,8 +2498,8 @@
 		]
 	},
 	{
-		"function": "minecraft:set_custom_model_data",
-		"value": 1841,
+		"function": "minecraft:reference",
+		"name": "ssbrc:fighters/armor/aesthetic/alucard/default/blood_metamorphosis",
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -2459,8 +2511,8 @@
 		]
 	},
 	{
-		"function": "minecraft:set_custom_model_data",
-		"value": 1842,
+		"function": "minecraft:reference",
+		"name": "ssbrc:fighters/armor/aesthetic/alucard/gold/default",
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -2472,8 +2524,8 @@
 		]
 	},
 	{
-		"function": "minecraft:set_custom_model_data",
-		"value": 1843,
+		"function": "minecraft:reference",
+		"name": "ssbrc:fighters/armor/aesthetic/alucard/gold/blood_metamorphosis",
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -2485,8 +2537,8 @@
 		]
 	},
 	{
-		"function": "minecraft:set_custom_model_data",
-		"value": 1844,
+		"function": "minecraft:reference",
+		"name": "ssbrc:fighters/armor/aesthetic/alucard/default/default",
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -2498,21 +2550,21 @@
 		]
 	},
 	{
-		"function": "minecraft:set_custom_model_data",
-		"value": 1845,
+		"function": "minecraft:reference",
+		"name": "ssbrc:fighters/armor/aesthetic/alucard/default/blood_metamorphosis",
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
 				"entity": "this",
 				"predicate": {
-					"nbt": "{Tags:[\"alucard\",\"gold\",\"lords_of_shadow\"]}"
+					"nbt": "{Tags:[\"alucard\",\"lords_of_shadow\",\"blood_metamorphosis\"]}"
 				}
 			}
 		]
 	},
 	{
-		"function": "minecraft:set_custom_model_data",
-		"value": 1860,
+		"function": "minecraft:reference",
+		"name": "ssbrc:fighters/armor/aesthetic/giegue/default",
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -2524,8 +2576,8 @@
 		]
 	},
 	{
-		"function": "minecraft:set_custom_model_data",
-		"value": 1861,
+		"function": "minecraft:reference",
+		"name": "ssbrc:fighters/armor/aesthetic/giegue/gold",
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -2537,8 +2589,8 @@
 		]
 	},
 	{
-		"function": "minecraft:set_custom_model_data",
-		"value": 1900,
+		"function": "minecraft:reference",
+		"name": "ssbrc:fighters/armor/aesthetic/shadow/default",
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -2550,8 +2602,8 @@
 		]
 	},
 	{
-		"function": "minecraft:set_custom_model_data",
-		"value": 1901,
+		"function": "minecraft:reference",
+		"name": "ssbrc:fighters/armor/aesthetic/shadow/gold",
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -2563,8 +2615,8 @@
 		]
 	},
 	{
-		"function": "minecraft:set_custom_model_data",
-		"value": 1902,
+		"function": "minecraft:reference",
+		"name": "ssbrc:fighters/armor/aesthetic/shadow/sir_lancelot",
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -2576,8 +2628,8 @@
 		]
 	},
 	{
-		"function": "minecraft:set_custom_model_data",
-		"value": 1903,
+		"function": "minecraft:reference",
+		"name": "ssbrc:fighters/armor/aesthetic/shadow/yellow_android",
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -2589,8 +2641,8 @@
 		]
 	},
 	{
-		"function": "minecraft:set_custom_model_data",
-		"value": 1920,
+		"function": "minecraft:reference",
+		"name": "ssbrc:fighters/armor/aesthetic/shovel_knight/default/default",
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -2602,8 +2654,8 @@
 		]
 	},
 	{
-		"function": "minecraft:set_custom_model_data",
-		"value": 1922,
+		"function": "minecraft:reference",
+		"name": "ssbrc:fighters/armor/aesthetic/shovel_knight/gold/default",
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -2615,8 +2667,8 @@
 		]
 	},
 	{
-		"function": "minecraft:set_custom_model_data",
-		"value": 1923,
+		"function": "minecraft:reference",
+		"name": "ssbrc:fighters/armor/aesthetic/shovel_knight/armor_of_chaos/default",
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -2628,8 +2680,8 @@
 		]
 	},
 	{
-		"function": "minecraft:set_custom_model_data",
-		"value": 1924,
+		"function": "minecraft:reference",
+		"name": "ssbrc:fighters/armor/aesthetic/shovel_knight/toad_gear/default",
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -2641,8 +2693,8 @@
 		]
 	},
 	{
-		"function": "minecraft:set_custom_model_data",
-		"value": 1921,
+		"function": "minecraft:reference",
+		"name": "ssbrc:fighters/armor/aesthetic/shovel_knight/default/phase_locket",
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -2654,8 +2706,8 @@
 		]
 	},
 	{
-		"function": "minecraft:set_custom_model_data",
-		"value": 1941,
+		"function": "minecraft:reference",
+		"name": "ssbrc:fighters/armor/aesthetic/team_rocket/default/james",
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -2667,8 +2719,8 @@
 		]
 	},
 	{
-		"function": "minecraft:set_custom_model_data",
-		"value": 1942,
+		"function": "minecraft:reference",
+		"name": "ssbrc:fighters/armor/aesthetic/team_rocket/default/jesse",
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -2680,8 +2732,8 @@
 		]
 	},
 	{
-		"function": "minecraft:set_custom_model_data",
-		"value": 1943,
+		"function": "minecraft:reference",
+		"name": "ssbrc:fighters/armor/aesthetic/team_rocket/default/arbok",
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -2693,8 +2745,8 @@
 		]
 	},
 	{
-		"function": "minecraft:set_custom_model_data",
-		"value": 1944,
+		"function": "minecraft:reference",
+		"name": "ssbrc:fighters/armor/aesthetic/team_rocket/default/meowth",
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -2706,8 +2758,8 @@
 		]
 	},
 	{
-		"function": "minecraft:set_custom_model_data",
-		"value": 1945,
+		"function": "minecraft:reference",
+		"name": "ssbrc:fighters/armor/aesthetic/team_rocket/default/wobbuffet",
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -2719,8 +2771,8 @@
 		]
 	},
 	{
-		"function": "minecraft:set_custom_model_data",
-		"value": 1946,
+		"function": "minecraft:reference",
+		"name": "ssbrc:fighters/armor/aesthetic/team_rocket/gold/james",
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -2732,8 +2784,8 @@
 		]
 	},
 	{
-		"function": "minecraft:set_custom_model_data",
-		"value": 1947,
+		"function": "minecraft:reference",
+		"name": "ssbrc:fighters/armor/aesthetic/team_rocket/gold/jesse",
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -2745,8 +2797,8 @@
 		]
 	},
 	{
-		"function": "minecraft:set_custom_model_data",
-		"value": 1948,
+		"function": "minecraft:reference",
+		"name": "ssbrc:fighters/armor/aesthetic/team_rocket/gold/arbok",
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -2758,8 +2810,8 @@
 		]
 	},
 	{
-		"function": "minecraft:set_custom_model_data",
-		"value": 1949,
+		"function": "minecraft:reference",
+		"name": "ssbrc:fighters/armor/aesthetic/team_rocket/gold/meowth",
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -2771,8 +2823,8 @@
 		]
 	},
 	{
-		"function": "minecraft:set_custom_model_data",
-		"value": 1950,
+		"function": "minecraft:reference",
+		"name": "ssbrc:fighters/armor/aesthetic/team_rocket/gold/wobbuffet",
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -2784,8 +2836,8 @@
 		]
 	},
 	{
-		"function": "minecraft:set_custom_model_data",
-		"value": 1960,
+		"function": "minecraft:reference",
+		"name": "ssbrc:fighters/armor/aesthetic/yar/default",
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -2797,8 +2849,8 @@
 		]
 	},
 	{
-		"function": "minecraft:set_custom_model_data",
-		"value": 1961,
+		"function": "minecraft:reference",
+		"name": "ssbrc:fighters/armor/aesthetic/yar/gold",
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
@@ -2810,40 +2862,14 @@
 		]
 	},
 	{
-		"function": "minecraft:set_custom_model_data",
-		"value": 1962,
+		"function": "minecraft:reference",
+		"name": "ssbrc:fighters/armor/aesthetic/yar/recruit",
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",
 				"entity": "this",
 				"predicate": {
 					"nbt": "{Tags:[\"yar\",\"recruit\"]}"
-				}
-			}
-		]
-	},
-	{
-		"function": "minecraft:set_custom_model_data",
-		"value": 9999,
-		"conditions": [
-			{
-				"condition": "minecraft:entity_properties",
-				"entity": "this",
-				"predicate": {
-					"nbt": "{Tags:[\"random_fighter\"]}"
-				}
-			}
-		]
-	},
-	{
-		"function": "minecraft:set_custom_model_data",
-		"value": 10000,
-		"conditions": [
-			{
-				"condition": "minecraft:entity_properties",
-				"entity": "this",
-				"predicate": {
-					"nbt": "{Tags:[\"spectator\"]}"
 				}
 			}
 		]
