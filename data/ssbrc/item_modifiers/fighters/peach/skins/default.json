@@ -4,13 +4,13 @@
 		"entity": "this",
 		"target": "item_name",
 		"name": {
-			"translate": "ssbrc.fighters.yar.skin.recruit",
-			"color": "dark_green",
+			"translate": "ssbrc.fighters.peach",
+			"color": "light_purple",
 			"bold": true
 		}
 	},
 	{
 		"function": "minecraft:set_custom_model_data",
-		"value": 1962
+		"value": 1160
 	}
 ]

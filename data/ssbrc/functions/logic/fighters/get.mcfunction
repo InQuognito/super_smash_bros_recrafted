@@ -20,6 +20,7 @@ $function $(function) with storage ssbrc:data fighters.luigi
 $function $(function) with storage ssbrc:data fighters.mario
 $function $(function) with storage ssbrc:data fighters.mega_man
 $function $(function) with storage ssbrc:data fighters.ness
+$function $(function) with storage ssbrc:data fighters.peach
 $function $(function) with storage ssbrc:data fighters.pikachu
 $function $(function) with storage ssbrc:data fighters.pit
 $function $(function) with storage ssbrc:data fighters.pokemon_trainer

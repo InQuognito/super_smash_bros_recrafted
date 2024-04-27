@@ -64,12 +64,12 @@ data modify storage ssbrc:data fighters set value {\
 		"skins": {\
 			"blood_falcon": {\
 				"name": "blood_falcon",\
-				"model": 123,\
+				"model": 122,\
 				"color": "dark_red",\
 			},\
 			"rick_wheeler": {\
 				"name": "rick_wheeler",\
-				"model": 122,\
+				"model": 123,\
 				"color": "dark_blue",\
 			},\
 		},\
@@ -80,6 +80,8 @@ data modify storage ssbrc:data fighters set value {\
 		"model": 180,\
 		"color": "white",\
 		"skin_count": 2,\
+		"skins": {\
+		},\
 	},\
 	"dark_samus": {\
 		"name": "dark_samus",\
@@ -90,7 +92,7 @@ data modify storage ssbrc:data fighters set value {\
 		"skins": {\
 			"prime_3": {\
 				"name": "prime_3",\
-				"model": 263,\
+				"model": 262,\
 				"color": "dark_gray",\
 			},\
 		},\
@@ -104,12 +106,12 @@ data modify storage ssbrc:data fighters set value {\
 		"skins": {\
 			"flower_power": {\
 				"name": "flower_power",\
-				"model": 303,\
+				"model": 302,\
 				"color": "red",\
 			},\
 			"super_kong": {\
 				"name": "super_kong",\
-				"model": 302,\
+				"model": 303,\
 				"color": "white",\
 			},\
 		},\
@@ -158,18 +160,25 @@ data modify storage ssbrc:data fighters set value {\
 		"model": 1860,\
 		"color": "light_purple",\
 		"skin_count": 2,\
+		"skins": {\
+		},\
 	},\
 	"greninja": {\
 		"name": "greninja",\
 		"page": 1,\
 		"model": 420,\
 		"color": "blue",\
-		"skin_count": 3,\
+		"skin_count": 4,\
 		"skins": {\
 			"shiny": {\
 				"name": "shiny",\
 				"model": 422,\
 				"color": "dark_gray",\
+			},\
+			"hero_style": {\
+				"name": "hero_style",\
+				"model": 423,\
+				"color": "green",\
 			},\
 		},\
 	},\
@@ -225,12 +234,12 @@ data modify storage ssbrc:data fighters set value {\
 		"skins": {\
 			"christmas_outfit": {\
 				"name": "christmas_outfit",\
-				"model": 606,\
+				"model": 604,\
 				"color": "red",\
 			},\
 			"shujin_academy": {\
 				"name": "shujin_academy",\
-				"model": 604,\
+				"model": 606,\
 				"color": "dark_red",\
 			},\
 		},\
@@ -241,6 +250,8 @@ data modify storage ssbrc:data fighters set value {\
 		"model": 680,\
 		"color": "dark_green",\
 		"skin_count": 2,\
+		"skins": {\
+		},\
 	},\
 	"kirby": {\
 		"name": "kirby",\
@@ -251,7 +262,7 @@ data modify storage ssbrc:data fighters set value {\
 		"skins": {\
 			"keeby": {\
 				"name": "keeby",\
-				"model": 703,\
+				"model": 702,\
 				"color": "light_purple",\
 			},\
 		},\
@@ -361,6 +372,15 @@ data modify storage ssbrc:data fighters set value {\
 			},\
 		},\
 	},\
+	"peach": {\
+		"name": "peach",\
+		"page": 1,\
+		"model": 1160,\
+		"color": "light_purple",\
+		"skin_count": 2,\
+		"skins": {\
+		},\
+	},\
 	"pikachu": {\
 		"name": "pikachu",\
 		"page": 1,\
@@ -370,12 +390,12 @@ data modify storage ssbrc:data fighters set value {\
 		"skins": {\
 			"santa_hat": {\
 				"name": "santa_hat",\
-				"model": 1203,\
+				"model": 1202,\
 				"color": "red",\
 			},\
 			"shiny": {\
 				"name": "shiny",\
-				"model": 1202,\
+				"model": 1203,\
 				"color": "yellow",\
 			},\
 		},\
@@ -403,17 +423,17 @@ data modify storage ssbrc:data fighters set value {\
 		"skins": {\
 			"dawn": {\
 				"name": "dawn",\
-				"model": 1271,\
+				"model": 1268,\
 				"color": "light_purple",\
 			},\
 			"shiny": {\
 				"name": "shiny",\
-				"model": 1260,\
+				"model": 1272,\
 				"color": "dark_gray",\
 			},\
 			"victor": {\
 				"name": "victor",\
-				"model": 1275,\
+				"model": 1276,\
 				"color": "dark_blue",\
 			},\
 		},\
@@ -427,12 +447,12 @@ data modify storage ssbrc:data fighters set value {\
 		"skins": {\
 			"ancient_minister": {\
 				"name": "ancient_minister",\
-				"model": 10,\
+				"model": 7,\
 				"color": "dark_green",\
 			},\
 			"famicom": {\
 				"name": "famicom",\
-				"model": 7,\
+				"model": 10,\
 				"color": "red",\
 			},\
 		},\
@@ -498,12 +518,12 @@ data modify storage ssbrc:data fighters set value {\
 		"skins": {\
 			"armor_of_chaos": {\
 				"name": "armor_of_chaos",\
-				"model": 1923,\
+				"model": 1924,\
 				"color": "red",\
 			},\
 			"toad_gear": {\
 				"name": "toad_gear",\
-				"model": 1924,\
+				"model": 1926,\
 				"color": "green",\
 			},\
 		},\
@@ -517,12 +537,12 @@ data modify storage ssbrc:data fighters set value {\
 		"skins": {\
 			"classic_tuxedo": {\
 				"name": "classic_tuxedo",\
-				"model": 1526,\
+				"model": 1524,\
 				"color": "white",\
 			},\
 			"iroquois_pliskin": {\
 				"name": "iroquois_pliskin",\
-				"model": 1522,\
+				"model": 1526,\
 				"color": "dark_green",\
 			},\
 		},\
@@ -541,12 +561,12 @@ data modify storage ssbrc:data fighters set value {\
 			},\
 			"hylian_tunic": {\
 				"name": "hylian_tunic",\
-				"model": 1544,\
+				"model": 1543,\
 				"color": "green",\
 			},\
 			"werehog": {\
 				"name": "werehog",\
-				"model": 1543,\
+				"model": 1544,\
 				"color": "dark_blue",\
 			},\
 		},\
@@ -592,6 +612,8 @@ data modify storage ssbrc:data fighters set value {\
 		"model_james": 1942,\
 		"color": "dark_purple",\
 		"skin_count": 2,\
+		"skins": {\
+		},\
 	},\
 	"wolf": {\
 		"name": "wolf",\
@@ -616,7 +638,7 @@ data modify storage ssbrc:data fighters set value {\
 		"skins": {\
 			"recruit": {\
 				"name": "recruit",\
-				"model": 1963,\
+				"model": 1962,\
 				"color": "dark_green",\
 			},\
 		},\

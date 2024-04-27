@@ -69,7 +69,7 @@ def create_item_modifier(skin, fighter, path, i):
 			js_write(file, tab(1) + ent)
 			js_write(file, tab(1) + '{')
 			js_write(file, tab(2) + qm + 'function' + sep_s + 'minecraft:set_custom_model_data' + suf_s)
-			js_write(file, tab(2) + qm + 'value' + sep_n + str(ssbrc.fighters[fighter]['model']))
+			js_write(file, tab(2) + qm + 'value' + sep_n + str(i))
 			js_write(file, tab(1) + '}')
 			js_write(file, ']')
 
