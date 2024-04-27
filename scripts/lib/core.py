@@ -40,6 +40,14 @@ def count_skins(fighter):
 		n *= 2
 	return n
 
+def count_forms(fighter):
+	'''Returns the skin count of the specified fighter.'''
+	if 'forms' in ssbrc.fighters[fighter].keys():
+		n = len(ssbrc.fighters[fighter]['forms'])
+		return n
+	else:
+		return 1
+
 def mc_write(file, str):
 	'''Write to file, mcfunction format.'''
 	file.write(str + '\\\n')

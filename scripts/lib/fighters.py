@@ -14,10 +14,14 @@ def init_fighter():
 		reset_skin(fighter, f'data\\ssbrc\\functions\\fighters\\{fighter}\\menu\\skins\\')
 
 		# Create skins
+		forms = count_forms(fighter)
+		i = ssbrc.fighters[fighter]['model']
 		for skin in ['default', 'gold']:
-			create_skin(skin, fighter)
+			create_skin(skin, fighter, i)
+			i += forms
 		for skin in ssbrc.fighters[fighter]['skins']:
-			create_skin(skin, fighter)
+			create_skin(skin, fighter, i)
+			i += forms
 
 def fighter_storage():
 	'''Initializes fighter database into a Minecraft JSON storage.'''
@@ -31,20 +35,20 @@ def fighter_storage():
 			if fighter == 'team_rocket':
 				mc_write(file, tab(2) + qm + 'model_jesse' + sep_n + str(ssbrc.fighters[fighter]['model'] + 1) + ',')
 				mc_write(file, tab(2) + qm + 'model_james' + sep_n + str(ssbrc.fighters[fighter]['model'] + 2) + ',')
-			if fighter == 'ice_climbers':
-				mc_write(file, tab(2) + qm + 'model_nana' + sep_n + str(ssbrc.fighters[fighter]['model'] + 1) + ',')
 			mc_write(file, tab(2) + qm + 'color' + sep_s + str(ssbrc.fighters[fighter]['color']) + suf_s)
 			skin_count = count_skins(fighter)
+			forms = count_forms(fighter)
 			mc_write(file, tab(2) + qm + 'skin_count' + sep_n + str(skin_count) + ',')
-			if skin_count > 2:
-				mc_write(file, tab(2) + qm + 'skins' + suf_e)
-				for skin in ssbrc.fighters[fighter]['skins']:
-					mc_write(file, tab(3) + qm + skin + suf_e)
-					mc_write(file, tab(4) + qm + 'name' + sep_s + skin + suf_s)
-					mc_write(file, tab(4) + qm + 'model' + sep_n + str(ssbrc.fighters[fighter]['skins'][skin]['model']) + ',')
-					mc_write(file, tab(4) + qm + 'color' + sep_s + str(ssbrc.fighters[fighter]['skins'][skin]['color']) + suf_s)
-					mc_write(file, tab(3) + ent)
-				mc_write(file, tab(2) + ent)
+			mc_write(file, tab(2) + qm + 'skins' + suf_e)
+			i = ssbrc.fighters[fighter]['model']
+			for skin in ssbrc.fighters[fighter]['skins']:
+				mc_write(file, tab(3) + qm + skin + suf_e)
+				mc_write(file, tab(4) + qm + 'name' + sep_s + skin + suf_s)
+				mc_write(file, tab(4) + qm + 'model' + sep_n + str(i) + ',')
+				mc_write(file, tab(4) + qm + 'color' + sep_s + str(ssbrc.fighters[fighter]['skins'][skin]['color']) + suf_s)
+				mc_write(file, tab(3) + ent)
+				i += forms
+			mc_write(file, tab(2) + ent)
 			mc_write(file, tab(1) + ent)
 		file.write('}\n')
 

@@ -20,7 +20,7 @@ def create_advancement(skin, fighter, path):
 		js_write(file, tab(1) + '}')
 		js_write(file, '}')
 
-def create_item_modifier(skin, fighter, path):
+def create_item_modifier(skin, fighter, path, i):
 	'''Initializes skin item modifiers.'''
 	create_path(path)
 
@@ -51,7 +51,7 @@ def create_item_modifier(skin, fighter, path):
 				js_write(file, tab(1) + ent)
 			js_write(file, tab(1) + '{')
 			js_write(file, tab(2) + qm + 'function' + sep_s + 'minecraft:set_custom_model_data' + suf_s)
-			js_write(file, tab(2) + qm + 'value' + sep_n + str(ssbrc.fighters[fighter]['skins'][skin]['model']))
+			js_write(file, tab(2) + qm + 'value' + sep_n + str(i))
 			js_write(file, tab(1) + '}')
 			js_write(file, ']')
 	elif skin == 'default':
@@ -158,11 +158,11 @@ def create_shop_entry(skin, fighter, path):
 			js_write(file, 'playsound minecraft:entity.player.levelup master @s\n')
 			js_write(file, f'function ssbrc:shop/pages/skins/{fighter}')
 
-def create_skin(skin, fighter):
+def create_skin(skin, fighter, i):
 	'''Initializes a skin.'''
 	create_advancement(skin, fighter, f'data\\ssbrc\\advancements\\fighters\\{fighter}\\skins\\')
 
-	create_item_modifier(skin, fighter, f'data\\ssbrc\\item_modifiers\\fighters\\{fighter}\\skins\\')
+	create_item_modifier(skin, fighter, f'data\\ssbrc\\item_modifiers\\fighters\\{fighter}\\skins\\', i)
 
 	create_skin_file(skin, fighter, f'data\\ssbrc\\functions\\fighters\\{fighter}\\menu\\skins\\')
 
