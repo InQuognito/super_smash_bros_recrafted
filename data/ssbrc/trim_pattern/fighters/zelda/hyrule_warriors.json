@@ -1,0 +1,7 @@
+{
+	"asset_id": "ssbrc:fighters/zelda/hyrule_warriors",
+	"description": {
+		"translate": "trim_pattern.example.stripes"
+	},
+	"template_item": "minecraft:stick"
+}
