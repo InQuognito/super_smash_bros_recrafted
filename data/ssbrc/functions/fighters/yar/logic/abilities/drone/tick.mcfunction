@@ -9,13 +9,12 @@ execute if score percentage temp matches ..50 run particle minecraft:electric_sp
 execute if score percentage temp matches ..25 run particle minecraft:smoke ~ ~0.5 ~ 0.2 0.2 0.2 0.01 1 normal @a
 execute if score percentage temp matches ..10 run particle minecraft:small_flame ~ ~0.5 ~ 0.2 0.2 0.2 0.025 1 normal @a
 
-execute unless entity @s[tag=stop] unless block ^ ^ ^1 #ssbrc:passthrough run function ssbrc:fighters/yar/logic/abilities/drone/commands/stop
+execute unless entity @s[tag=stop] unless block ^ ^ ^1 #ssbrc:passthrough run function ssbrc:fighters/yar/logic/abilities/drone/commands/stop/drone
 
 teleport @e[type=minecraft:item,distance=..1] @s
 
 effect give @a[tag=snake,predicate=!ssbrc:fighters/effects/has/glowing,distance=0.1..10] minecraft:glowing 1 255 true
 
-scoreboard players remove @s[scores={cooldown.1=1..}] cooldown.1 1
 execute if entity @s[tag=stop,scores={cooldown.1=..0}] facing entity @e[tag=!self,predicate=ssbrc:flag/targets,sort=nearest,limit=1,distance=0.1..3] eyes run function ssbrc:fighters/yar/logic/abilities/drone/projectile/activate
 
 execute if entity @s[tag=recall] positioned ~-0.5 ~-0.5 ~-0.5 as @p[tag=self,dx=0] run function ssbrc:fighters/yar/logic/abilities/drone/recall
