@@ -10,7 +10,7 @@
 		}
 	},
 	{
-		"function": "minecraft:set_custom_model_data",
-		"value": 702
+		"function": "minecraft:reference",
+		"name": "ssbrc:fighters/armor/aesthetic/kirby/keeby/default"
 	}
 ]

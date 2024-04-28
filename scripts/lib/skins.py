@@ -50,8 +50,11 @@ def create_item_modifier(skin, fighter, path, i):
 				js_write(file, tab(2) + qm + 'name' + sep_s + 'ssbrc:ui/shop/collection/' + str(ssbrc.fighters[fighter]['skins'][skin]['collection']) + qm)
 				js_write(file, tab(1) + ent)
 			js_write(file, tab(1) + '{')
-			js_write(file, tab(2) + qm + 'function' + sep_s + 'minecraft:set_custom_model_data' + suf_s)
-			js_write(file, tab(2) + qm + 'value' + sep_n + str(i))
+			js_write(file, tab(2) + qm + 'function' + sep_s + 'minecraft:reference' + suf_s)
+			if 'forms' in ssbrc.fighters[fighter].keys():
+				js_write(file, tab(2) + qm + 'name' + sep_s + 'ssbrc:fighters/armor/aesthetic/' + fighter + '/' + skin + '/' + ssbrc.fighters[fighter]['forms'][0] + qm)
+			else:
+				js_write(file, tab(2) + qm + 'name' + sep_s + 'ssbrc:fighters/armor/aesthetic/' + fighter + '/' + skin + qm)
 			js_write(file, tab(1) + '}')
 			js_write(file, ']')
 	elif skin == 'default':
@@ -68,8 +71,11 @@ def create_item_modifier(skin, fighter, path, i):
 			js_write(file, tab(2) + '}')
 			js_write(file, tab(1) + ent)
 			js_write(file, tab(1) + '{')
-			js_write(file, tab(2) + qm + 'function' + sep_s + 'minecraft:set_custom_model_data' + suf_s)
-			js_write(file, tab(2) + qm + 'value' + sep_n + str(i))
+			js_write(file, tab(2) + qm + 'function' + sep_s + 'minecraft:reference' + suf_s)
+			if 'forms' in ssbrc.fighters[fighter].keys():
+				js_write(file, tab(2) + qm + 'name' + sep_s + 'ssbrc:fighters/armor/aesthetic/' + fighter + '/' + skin + '/' + ssbrc.fighters[fighter]['forms'][0] + qm)
+			else:
+				js_write(file, tab(2) + qm + 'name' + sep_s + 'ssbrc:fighters/armor/aesthetic/' + fighter + '/' + skin + qm)
 			js_write(file, tab(1) + '}')
 			js_write(file, ']')
 

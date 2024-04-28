@@ -10,7 +10,7 @@
 		}
 	},
 	{
-		"function": "minecraft:set_custom_model_data",
-		"value": 423
+		"function": "minecraft:reference",
+		"name": "ssbrc:fighters/armor/aesthetic/greninja/hero_style"
 	}
 ]
