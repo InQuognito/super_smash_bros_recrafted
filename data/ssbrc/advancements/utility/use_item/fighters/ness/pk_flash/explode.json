@@ -25,6 +25,9 @@
 						"scores": {
 							"cooldown.2": {
 								"min": 41
+							},
+							"cooldown.3": {
+								"max": 0
 							}
 						}
 					}
