@@ -1,3 +1,3 @@
-particle minecraft:smoke ^-0.25 ^ ^ 0.0 0.0 0.0 0.0 0 normal @a
-particle minecraft:smoke ^0.25 ^ ^ 0.0 0.0 0.0 0.0 0 normal @a
-particle minecraft:campfire_cosy_smoke ^ ^ ^ 0.0 0.0 0.0 0.0 0 normal @a
+attribute @s minecraft:generic.movement_speed base set 0.1880
+
+execute unless block ~ ~-0.1 ~ minecraft:air positioned ~ ~0.1 ~ run function ssbrc:fighters/sonic/logic/speed/particles
