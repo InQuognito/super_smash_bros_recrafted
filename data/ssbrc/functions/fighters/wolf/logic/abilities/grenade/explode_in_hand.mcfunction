@@ -1,4 +1,5 @@
-execute as @e[predicate=ssbrc:flag/targets,distance=..3] run damage @s 12.0 ssbrc:generic by @a[tag=self,limit=1]
+execute as @e[tag=!self,predicate=ssbrc:flag/targets,distance=..3] run damage @s 12.0 ssbrc:generic by @a[tag=self,limit=1]
+damage @s[distance=..3] 12.0 ssbrc:generic
 
 function ssbrc:logic/fighters/cooldown/set/const {type:"2",value:"20"}
 

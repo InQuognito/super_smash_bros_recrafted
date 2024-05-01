@@ -92,10 +92,10 @@ execute if score great_plateau stage matches 1 if score song temp matches 2 run 
 execute if score great_plateau stage matches 1 if score song temp matches 2 run tellraw @s [{"translate":"ssbrc.game.music.now_playing","bold":true,"color":"gold"},{"translate":"ssbrc.music.rescue_operation","color":"yellow"}]
 execute if score great_plateau stage matches 1 if score song temp matches 2 run schedule function ssbrc:logic/music/loop_schedule 160t replace
 
-execute if score green_hill_zone stage matches 1 if score song temp matches 0 run playsound ssbrc:sonic_adventure_2_intro music @s
+execute if score green_hill_zone stage matches 1 if score song temp matches 0 run playsound ssbrc:green_hill_zone_sonic_adventure_2_intro music @s
 execute if score green_hill_zone stage matches 1 if score song temp matches 0 run tellraw @s [{"translate":"ssbrc.game.music.now_playing","bold":true,"color":"gold"},{"translate":"ssbrc.music.green_hill_zone_sonic_adventure_2","color":"yellow"}]
 execute if score green_hill_zone stage matches 1 if score song temp matches 0 run schedule function ssbrc:logic/music/loop_schedule 304t replace
-execute if score green_hill_zone stage matches 1 if score song temp matches 1 run playsound ssbrc:sonic_mania_intro music @s
+execute if score green_hill_zone stage matches 1 if score song temp matches 1 run playsound ssbrc:green_hill_zone_sonic_mania_intro music @s
 execute if score green_hill_zone stage matches 1 if score song temp matches 1 run tellraw @s [{"translate":"ssbrc.game.music.now_playing","bold":true,"color":"gold"},{"translate":"ssbrc.music.green_hill_zone_sonic_mania","color":"yellow"}]
 execute if score green_hill_zone stage matches 1 if score song temp matches 1 run schedule function ssbrc:logic/music/loop_schedule 297t replace
 

@@ -30,6 +30,13 @@
 								"max": 0
 							}
 						}
+					},
+					{
+						"condition": "minecraft:inverted",
+						"term": {
+							"condition": "minecraft:reference",
+							"name": "ssbrc:flag/in_air"
+						}
 					}
 				],
 				"item": {

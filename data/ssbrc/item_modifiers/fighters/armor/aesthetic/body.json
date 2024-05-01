@@ -327,6 +327,25 @@
 		"components": {
 			"minecraft:trim": {
 				"material": "minecraft:quartz",
+				"pattern": "ssbrc:fighters/dark_samus/prime_3",
+				"show_in_tooltip": false
+			}
+		},
+		"conditions": [
+			{
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"nbt": "{Tags:[\"dark_samus\",\"prime_3\"]}"
+				}
+			}
+		]
+	},
+	{
+		"function": "minecraft:set_components",
+		"components": {
+			"minecraft:trim": {
+				"material": "minecraft:quartz",
 				"pattern": "ssbrc:fighters/donkey_kong/default",
 				"show_in_tooltip": false
 			}
@@ -793,6 +812,44 @@
 				"entity": "this",
 				"predicate": {
 					"nbt": "{Tags:[\"hero\",\"sofia\",\"kaclang\"]}"
+				}
+			}
+		]
+	},
+	{
+		"function": "minecraft:set_components",
+		"components": {
+			"minecraft:trim": {
+				"material": "minecraft:quartz",
+				"pattern": "ssbrc:fighters/hero/solo/default",
+				"show_in_tooltip": false
+			}
+		},
+		"conditions": [
+			{
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"nbt": "{Tags:[\"hero\",\"solo\"]}"
+				}
+			}
+		]
+	},
+	{
+		"function": "minecraft:set_components",
+		"components": {
+			"minecraft:trim": {
+				"material": "minecraft:quartz",
+				"pattern": "ssbrc:fighters/hero/solo/kaclang",
+				"show_in_tooltip": false
+			}
+		},
+		"conditions": [
+			{
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"nbt": "{Tags:[\"hero\",\"solo\",\"kaclang\"]}"
 				}
 			}
 		]
@@ -2821,6 +2878,25 @@
 		"components": {
 			"minecraft:trim": {
 				"material": "minecraft:quartz",
+				"pattern": "ssbrc:fighters/zelda/hyrule_warriors",
+				"show_in_tooltip": false
+			}
+		},
+		"conditions": [
+			{
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"nbt": "{Tags:[\"zelda\",\"hyrule_warriors\"]}"
+				}
+			}
+		]
+	},
+	{
+		"function": "minecraft:set_components",
+		"components": {
+			"minecraft:trim": {
+				"material": "minecraft:quartz",
 				"pattern": "ssbrc:fighters/altered_beast/default/centurion/default",
 				"show_in_tooltip": false
 			}
@@ -3648,25 +3724,6 @@
 				"entity": "this",
 				"predicate": {
 					"nbt": "{Tags:[\"yar\",\"gold\"]}"
-				}
-			}
-		]
-	},
-	{
-		"function": "minecraft:set_components",
-		"components": {
-			"minecraft:trim": {
-				"material": "minecraft:quartz",
-				"pattern": "ssbrc:fighters/yar/player_2",
-				"show_in_tooltip": false
-			}
-		},
-		"conditions": [
-			{
-				"condition": "minecraft:entity_properties",
-				"entity": "this",
-				"predicate": {
-					"nbt": "{Tags:[\"yar\",\"player_2\"]}"
 				}
 			}
 		]

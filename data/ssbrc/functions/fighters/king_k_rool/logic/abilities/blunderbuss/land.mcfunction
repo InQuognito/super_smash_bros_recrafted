@@ -4,7 +4,8 @@ execute facing ~ ~-1 ~ run function ssbrc:fighters/king_k_rool/logic/abilities/b
 execute facing ~ ~-1 ~ run function ssbrc:fighters/king_k_rool/logic/abilities/blunderbuss/particles/4
 execute facing ~ ~-1 ~ run function ssbrc:fighters/king_k_rool/logic/abilities/blunderbuss/particles/5
 
-execute as @e[predicate=ssbrc:flag/targets,distance=0.1..2] unless block ~ ~-0.1 ~ #ssbrc:passthrough run damage @s 8.0 ssbrc:generic by @a[tag=self,limit=1]
+execute as @e[tag=!self,predicate=ssbrc:flag/targets,distance=0.1..2] unless block ~ ~-0.1 ~ #ssbrc:passthrough run damage @s 8.0 ssbrc:generic by @a[tag=self,limit=1]
+damage @a[tag=self,limit=1,distance=0.1..2] 8.0 ssbrc:generic
 
 playsound ssbrc:fighters.shockwave player @a
 

@@ -16,10 +16,12 @@
 			{
 				"condition": "minecraft:inverted",
 				"term": {
-					"condition": "minecraft:entity_properties",
+					"condition": "minecraft:entity_scores",
 					"entity": "this",
-					"predicate": {
-						"nbt": "{Tags:[\"spinning\"]}"
+					"scores": {
+						"rotation": {
+							"max": 999
+						}
 					}
 				}
 			}
@@ -30,10 +32,12 @@
 		"value": 729,
 		"conditions": [
 			{
-				"condition": "minecraft:entity_properties",
+				"condition": "minecraft:entity_scores",
 				"entity": "this",
-				"predicate": {
-					"nbt": "{Tags:[\"spinning\"]}"
+				"scores": {
+					"rotation": {
+						"min": 1000
+					}
 				}
 			}
 		]
