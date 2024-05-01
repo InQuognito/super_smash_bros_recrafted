@@ -1,5 +1,5 @@
-teleport @p[tag=respawnMe] @s
-execute at @p[tag=respawnMe] run spawnpoint @p[tag=respawnMe] ~ ~0.5 ~
+teleport @p[tag=respawn_me] @s
+execute at @p[tag=respawn_me] run spawnpoint @p[tag=respawn_me] ~ ~0.5 ~
 
-tag @p[tag=respawnMe] remove respawnMe
-tag @e[type=minecraft:marker,tag=spawnpoint] remove checkSpawnpoint
+tag @p[tag=respawn_me] remove respawn_me
+tag @e[type=minecraft:marker,tag=spawnpoint] remove check_spawnpoint

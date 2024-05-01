@@ -2,9 +2,9 @@ title @s title ""
 
 scoreboard players set @s respawn 0
 
-tag @s add respawnMe
-tag @e[type=minecraft:marker,tag=spawnpoint] add checkSpawnpoint
-execute as @e[type=minecraft:marker,tag=checkSpawnpoint,sort=random,limit=1] at @s run function ssbrc:logic/stocks/spawnpoint_checks/start
+tag @s add respawn_me
+tag @e[type=minecraft:marker,tag=spawnpoint] add check_spawnpoint
+execute as @e[type=minecraft:marker,tag=check_spawnpoint,sort=random,limit=1] at @s run function ssbrc:logic/stocks/spawnpoint_checks/start
 
 gamemode adventure @s
 
