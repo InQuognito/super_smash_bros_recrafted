@@ -31,8 +31,11 @@
 							"name": "ssbrc:fighters/init/animation/smooth"
 						},
 						{
-							"function": "minecraft:set_custom_data",
-							"tag": "{item:\"sabretooth\"}"
+							"function": "minecraft:set_components",
+							"components": {
+								"minecraft:custom_model_data": 1833,
+								"minecraft:custom_data": {"item":"sabretooth"}
+							}
 						}
 					]
 				}

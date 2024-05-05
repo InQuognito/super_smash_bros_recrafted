@@ -45,16 +45,6 @@
 						},
 						{
 							"function": "minecraft:set_custom_model_data",
-							"value": 1821,
-							"conditions": [
-								{
-									"condition": "minecraft:reference",
-									"name": "ssbrc:fighters/altered_beast/is_beast"
-								}
-							]
-						},
-						{
-							"function": "minecraft:set_custom_model_data",
 							"value": 1824,
 							"conditions": [
 								{
@@ -90,6 +80,16 @@
 								{
 									"condition": "minecraft:reference",
 									"name": "ssbrc:fighters/altered_beast/werewolf"
+								}
+							]
+						},
+						{
+							"function": "minecraft:set_custom_model_data",
+							"value": 1821,
+							"conditions": [
+								{
+									"condition": "minecraft:reference",
+									"name": "ssbrc:fighters/altered_beast/is_beast"
 								}
 							]
 						},
