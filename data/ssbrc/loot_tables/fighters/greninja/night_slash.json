@@ -26,10 +26,10 @@
 										{
 											"type": "minecraft:generic.attack_speed",
 											"uuid": [
-												601100111,
-												601100101,
-												601101101,
-												601110001
+												666666666,
+												666666666,
+												666666666,
+												222222222
 											],
 											"name": "Attack Speed",
 											"amount": 2,
@@ -39,7 +39,7 @@
 									],
 									"show_in_tooltip": false
 								},
-								"minecraft:custom_data": "{item:\"night_slash\"}"
+								"minecraft:custom_data": {"item":"night_slash"}
 							}
 						},
 						{

@@ -18,7 +18,7 @@
 									"slots": {
 										"container.*": {
 											"predicates": {
-												"minecraft:custom_data": "{item:\"bow\"}"
+												"minecraft:custom_data": {"item":"bow\"}"
 											}
 										}
 									}
@@ -41,7 +41,7 @@
 									"slots": {
 										"container.*": {
 											"predicates": {
-												"minecraft:custom_data": "{item:\"crossbow\"}"
+												"minecraft:custom_data": {"item":"crossbow\"}"
 											}
 										}
 									}
@@ -65,7 +65,7 @@
 										"slots": {
 											"container.*": {
 												"predicates": {
-													"minecraft:custom_data": "{item:\"bow\"}"
+													"minecraft:custom_data": {"item":"bow\"}"
 												}
 											}
 										}
@@ -78,7 +78,7 @@
 										"slots": {
 											"container.*": {
 												"predicates": {
-													"minecraft:custom_data": "{item:\"crossbow\"}"
+													"minecraft:custom_data": {"item":"crossbow\"}"
 												}
 											}
 										}
@@ -102,7 +102,7 @@
 									"slots": {
 										"container.*": {
 											"predicates": {
-												"minecraft:custom_data": "{item:\"shield\"}"
+												"minecraft:custom_data": {"item":"shield\"}"
 											}
 										}
 									}

@@ -26,10 +26,10 @@
 										{
 											"type": "minecraft:generic.attack_damage",
 											"uuid": [
-												601100111,
-												601100101,
-												601101101,
-												601110011
+												666666666,
+												666666666,
+												666666666,
+												111111111
 											],
 											"name": "Attack Damage",
 											"amount": 8,
@@ -39,10 +39,10 @@
 										{
 											"type": "minecraft:generic.attack_speed",
 											"uuid": [
-												601100111,
-												601100101,
-												601101101,
-												601110001
+												666666666,
+												666666666,
+												666666666,
+												222222222
 											],
 											"name": "Attack Speed",
 											"amount": 1.5,
