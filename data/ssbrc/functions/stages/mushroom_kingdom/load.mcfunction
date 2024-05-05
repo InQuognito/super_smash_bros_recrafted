@@ -8,11 +8,11 @@ forceload add -288 -192 -177 -81
 summon minecraft:item_display -218.5 28.25 -144.5 {Rotation:[15f,0f],item:{id:"minecraft:nether_star",components:{"minecraft:custom_model_data":1741}}}
 
 # Warp Zone
-summon minecraft:text_display -249.5 28.0 -154.5 {Rotation:[-90f,0f],text:'[{"translate":"ssbrc.stages.mushroom_kingdom.warp_zone.1","font":"ssbrc:mario"}]',line_width:500,background:0}
-summon minecraft:text_display -249.5 27.0 -154.5 {Rotation:[-90f,0f],text:'[{"translate":"ssbrc.stages.mushroom_kingdom.warp_zone.2","font":"ssbrc:mario"}]',line_width:500,background:0}
-summon minecraft:text_display -249.5 26.0 -148.5 {Rotation:[-90f,0f],text:'[{"translate":"2","font":"ssbrc:mario"}]',background:0}
-summon minecraft:text_display -249.5 26.0 -154.5 {Rotation:[-90f,0f],text:'[{"translate":"3","font":"ssbrc:mario"}]',background:0}
-summon minecraft:text_display -249.5 26.0 -160.5 {Rotation:[-90f,0f],text:'[{"translate":"4","font":"ssbrc:mario"}]',background:0}
+summon minecraft:text_display -249.5 28.0 -154.5 {Rotation:[-90f,0f],text:'[{"translate":"ssbrc.stages.mushroom_kingdom.warp_zone.1","font":"ssbrc:mario"}]',line_width:500,background:0,alignment:"center"}
+summon minecraft:text_display -249.5 27.0 -154.5 {Rotation:[-90f,0f],text:'[{"translate":"ssbrc.stages.mushroom_kingdom.warp_zone.2","font":"ssbrc:mario"}]',line_width:500,background:0,alignment:"center"}
+summon minecraft:text_display -249.5 26.0 -148.5 {Rotation:[-90f,0f],text:'[{"translate":"2","font":"ssbrc:mario"}]',background:0,alignment:"center"}
+summon minecraft:text_display -249.5 26.0 -154.5 {Rotation:[-90f,0f],text:'[{"translate":"3","font":"ssbrc:mario"}]',background:0,alignment:"center"}
+summon minecraft:text_display -249.5 26.0 -160.5 {Rotation:[-90f,0f],text:'[{"translate":"4","font":"ssbrc:mario"}]',background:0,alignment:"center"}
 
 # ? Blocks
 summon minecraft:item_display -218.5 35.5 -136.5 {item:{id:"minecraft:sugar",components:{"minecraft:custom_model_data":1201}},brightness:{sky:13,block:13}}

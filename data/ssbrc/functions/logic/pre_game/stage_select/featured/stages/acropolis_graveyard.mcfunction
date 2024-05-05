@@ -2,5 +2,5 @@ summon minecraft:item_display ~ ~ ~ {Tags:["stageIcon","modifyEntity"],item:{id:
 
 function ssbrc:logic/pre_game/stage_select/featured/choose/modify
 
-summon minecraft:text_display ~ ~1.25 ~ {Tags:["infoDisplay"],text:'{"translate":"ssbrc.stages.acropolis_graveyard","bold":false,"color":"gold"}',billboard:"center",alignment:"center"}
-summon minecraft:text_display ~ ~1 ~ {Tags:["infoDisplay"],text:'{"translate":"ssbrc.fighters.altered_beast","bold":false,"color":"blue"}',billboard:"center",alignment:"center"}
+summon minecraft:text_display ~ ~1.25 ~ {Tags:["info_display"],text:'{"translate":"ssbrc.stages.acropolis_graveyard","bold":false,"color":"gold"}',billboard:"center",alignment:"center"}
+summon minecraft:text_display ~ ~1 ~ {Tags:["info_display"],text:'{"translate":"ssbrc.fighters.altered_beast","bold":false,"color":"blue"}',billboard:"center",alignment:"center"}

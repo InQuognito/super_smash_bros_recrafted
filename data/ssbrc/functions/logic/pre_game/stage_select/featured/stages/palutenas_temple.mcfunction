@@ -2,5 +2,5 @@ summon minecraft:item_display ~ ~ ~ {Tags:["stageIcon","modifyEntity"],item:{id:
 
 function ssbrc:logic/pre_game/stage_select/featured/choose/modify
 
-summon minecraft:text_display ~ ~1.25 ~ {Tags:["infoDisplay"],text:'{"translate":"ssbrc.stages.palutenas_temple","bold":false,"color":"green"}',billboard:"center",alignment:"center"}
-summon minecraft:text_display ~ ~1 ~ {Tags:["infoDisplay"],text:'{"translate":"ssbrc.series.kid_icarus","bold":false,"color":"white"}',billboard:"center",alignment:"center"}
+summon minecraft:text_display ~ ~1.25 ~ {Tags:["info_display"],text:'{"translate":"ssbrc.stages.palutenas_temple","bold":false,"color":"green"}',billboard:"center",alignment:"center"}
+summon minecraft:text_display ~ ~1 ~ {Tags:["info_display"],text:'{"translate":"ssbrc.series.kid_icarus","bold":false,"color":"white"}',billboard:"center",alignment:"center"}
