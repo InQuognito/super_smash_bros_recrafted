@@ -59,7 +59,7 @@
 									],
 									"show_in_tooltip": false
 								},
-								"minecraft:custom_data": "{level:2}"}
+								"minecraft:custom_data": {"level":2}
 							}
 						},
 						{

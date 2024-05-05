@@ -42,10 +42,10 @@
 										{
 											"type": "minecraft:generic.movement_speed",
 											"uuid": [
-												1,
-												1,
-												1,
-												2
+												666666666,
+												666666666,
+												666666666,
+												333333333
 											],
 											"name": "Movement Speed",
 											"amount": 0.3,
