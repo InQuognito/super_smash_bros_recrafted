@@ -26,10 +26,10 @@
 										{
 											"type": "minecraft:generic.attack_speed",
 											"uuid": [
-												100000000,
-												100000000,
-												100000000,
-												100000000
+												111111111,
+												111111111,
+												111111111,
+												111111112
 											],
 											"name": "Attack Speed",
 											"amount": 2,
