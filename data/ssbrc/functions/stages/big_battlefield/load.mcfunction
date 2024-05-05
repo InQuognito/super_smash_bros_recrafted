@@ -1,7 +1,7 @@
 scoreboard players reset * stage
 scoreboard players set big_battlefield stage 1
-scoreboard players set songCount stage 2
-scoreboard players set stagePicked stage_vote 1
+scoreboard players set song_count stage 2
+scoreboard players set stage_picked stage_vote 1
 forceload add 100032 99936 100079 99967
 
 time set noon

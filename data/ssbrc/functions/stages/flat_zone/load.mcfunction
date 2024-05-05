@@ -1,7 +1,7 @@
 scoreboard players reset * stage
 scoreboard players set flat_zone stage 1
-scoreboard players set songCount stage 2
-scoreboard players set stagePicked stage_vote 1
+scoreboard players set song_count stage 2
+scoreboard players set stage_picked stage_vote 1
 forceload add 752 176 799 223
 
 fill 791 5 201 791 6 202 minecraft:white_concrete replace

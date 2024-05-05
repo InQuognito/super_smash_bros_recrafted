@@ -1,7 +1,7 @@
 scoreboard players reset * stage
 scoreboard players set pyrosphere stage 1
-scoreboard players set songCount stage 4
-scoreboard players set stagePicked stage_vote 1
+scoreboard players set song_count stage 4
+scoreboard players set stage_picked stage_vote 1
 forceload add 640 8047 719 7968
 
 time set noon

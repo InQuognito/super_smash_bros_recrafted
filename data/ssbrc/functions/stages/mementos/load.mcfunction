@@ -1,7 +1,7 @@
 scoreboard players reset * stage
 scoreboard players set $mementos stage 1
-scoreboard players set songCount stage 2
-scoreboard players set stagePicked stage_vote 1
+scoreboard players set song_count stage 2
+scoreboard players set stage_picked stage_vote 1
 forceload add -1248 800 -1105 1023
 
 fill -1220 0 921 -1156 48 923 minecraft:air

@@ -1,7 +1,7 @@
 scoreboard players reset * stage
 scoreboard players set great_plateau stage 1
-scoreboard players set songCount stage 3
-scoreboard players set stagePicked stage_vote 1
+scoreboard players set song_count stage 3
+scoreboard players set stage_picked stage_vote 1
 forceload add 1536 1328 1631 1407
 
 # Great Pleateau Tower
