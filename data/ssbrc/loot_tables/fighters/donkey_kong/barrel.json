@@ -9,23 +9,41 @@
 					"name": "minecraft:nether_star",
 					"functions": [
 						{
-							"function": "minecraft:set_attributes",
-							"modifiers": [
-								{
-									"attribute": "minecraft:generic.attack_damage",
-									"name": "Attack Damage",
-									"amount": 7,
-									"operation": "add_multiplied_base",
-									"slot": "mainhand"
+							"function": "minecraft:set_components",
+							"components": {
+								"minecraft:attribute_modifiers": {
+									"modifiers": [
+										{
+											"type": "minecraft:generic.attack_damage",
+											"uuid": [
+												1,
+												1,
+												1,
+												0
+											],
+											"name": "Attack Damage",
+											"amount": 7,
+											"operation": "add_multiplied_base",
+											"slot": "mainhand"
+										},
+										{
+											"type": "minecraft:generic.attack_speed",
+											"uuid": [
+												1,
+												1,
+												1,
+												1
+											],
+											"name": "Attack Speed",
+											"amount": 0.5,
+											"operation": "add_multiplied_base",
+											"slot": "mainhand"
+										}
+									],
+									"show_in_tooltip": false
 								},
-								{
-									"attribute": "minecraft:generic.attack_speed",
-									"name": "Attack Speed",
-									"amount": 0.5,
-									"operation": "add_multiplied_base",
-									"slot": "mainhand"
-								}
-							]
+								"minecraft:custom_data": "{item:\"barrel\"}"
+							}
 						},
 						{
 							"function": "minecraft:reference",
@@ -127,10 +145,6 @@
 									}
 								}
 							]
-						},
-						{
-							"function": "minecraft:set_custom_data",
-							"tag": "{item:\"barrel\"}"
 						}
 					]
 				}

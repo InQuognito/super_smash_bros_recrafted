@@ -50,6 +50,6 @@
 		}
 	},
 	"rewards": {
-		"function": "ssbrc:fighters/alucard/logic/hurt_player"
+		"function": "ssbrc:fighters/alucard/logic/abilities/alucard_sword/hit"
 	}
 }

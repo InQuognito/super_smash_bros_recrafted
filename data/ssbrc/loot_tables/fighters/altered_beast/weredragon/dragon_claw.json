@@ -23,31 +23,42 @@
 							"name": "ssbrc:fighters/init/preset/melee"
 						},
 						{
-							"function": "minecraft:set_attributes",
-							"modifiers": [
-								{
-									"attribute": "minecraft:generic.attack_damage",
-									"name": "Attack Damage",
-									"amount": 6,
-									"operation": "add_multiplied_base",
-									"slot": "mainhand"
+							"function": "minecraft:set_components",
+							"components": {
+								"minecraft:attribute_modifiers": {
+									"modifiers": [
+										{
+											"type": "minecraft:generic.attack_damage",
+											"uuid": [
+												1,
+												1,
+												1,
+												0
+											],
+											"name": "Attack Damage",
+											"amount": 6,
+											"operation": "add_multiplied_base",
+											"slot": "mainhand"
+										},
+										{
+											"type": "minecraft:generic.attack_speed",
+											"uuid": [
+												1,
+												1,
+												1,
+												1
+											],
+											"name": "Attack Speed",
+											"amount": 1,
+											"operation": "add_multiplied_base",
+											"slot": "mainhand"
+										}
+									],
+									"show_in_tooltip": false
 								},
-								{
-									"attribute": "minecraft:generic.attack_speed",
-									"name": "Attack Speed",
-									"amount": 1,
-									"operation": "add_multiplied_base",
-									"slot": "mainhand"
-								}
-							]
-						},
-						{
-							"function": "minecraft:set_custom_model_data",
-							"value": 1828
-						},
-						{
-							"function": "minecraft:set_custom_data",
-							"tag": "{item:\"dragon_claw\"}"
+								"minecraft:custom_model_data": 1828,
+								"minecraft:custom_data": "{item:\"dragon_claw\"}"
+							}
 						}
 					]
 				}

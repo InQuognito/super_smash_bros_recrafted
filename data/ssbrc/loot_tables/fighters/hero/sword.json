@@ -9,16 +9,28 @@
 					"name": "minecraft:iron_sword",
 					"functions": [
 						{
-							"function": "minecraft:set_attributes",
-							"modifiers": [
-								{
-									"attribute": "minecraft:generic.attack_speed",
-									"name": "Attack Speed",
-									"amount": 1.5,
-									"operation": "add_multiplied_base",
-									"slot": "mainhand"
-								}
-							]
+							"function": "minecraft:set_components",
+							"components": {
+								"minecraft:attribute_modifiers": {
+									"modifiers": [
+										{
+											"type": "minecraft:generic.attack_speed",
+											"uuid": [
+												1,
+												1,
+												1,
+												1
+											],
+											"name": "Attack Speed",
+											"amount": 1.5,
+											"operation": "add_multiplied_base",
+											"slot": "mainhand"
+										}
+									],
+									"show_in_tooltip": false
+								},
+								"minecraft:custom_data": "{item:\"hero.sword\"}"
+							}
 						},
 						{
 							"function": "minecraft:reference",
@@ -27,10 +39,6 @@
 						{
 							"function": "minecraft:reference",
 							"name": "ssbrc:fighters/hero/sword"
-						},
-						{
-							"function": "minecraft:set_custom_data",
-							"tag": "{item:\"hero.sword\"}"
 						}
 					]
 				}
