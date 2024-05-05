@@ -2,9 +2,9 @@ scoreboard players operation spin_attack temp = @s charge.output
 scoreboard players operation spin_attack temp %= 5 integers
 execute if score spin_attack temp matches 0 run function ssbrc:fighters/byleth/logic/blue_lions/spin_attack/raycast/start
 
-execute if entity @s[scores={charge.output=..40}] rotated as @e[type=minecraft:marker,tag=byleth.spinner,limit=1] run particle minecraft:dust{color:[1.0,1.0,0.0],scale:1.0} ^ ^ ^2.25 0.0 0.0 0.0 0.0 1 force @a[tag=!self]
-execute if entity @s[scores={charge.output=41..60}] rotated as @e[type=minecraft:marker,tag=byleth.spinner,limit=1] run particle minecraft:dust{color:[1.0,0.5,0.0],scale:1.0} ^ ^ ^2.5 0.0 0.0 0.0 0.0 1 force @a[tag=!self]
-execute if entity @s[scores={charge.output=61..80}] rotated as @e[type=minecraft:marker,tag=byleth.spinner,limit=1] run particle minecraft:dust{color:[1.0,0.0,0.0],scale:1.0} ^ ^ ^2.75 0.0 0.0 0.0 0.0 1 force @a[tag=!self]
-execute if entity @s[scores={charge.output=81..}] rotated as @e[type=minecraft:marker,tag=byleth.spinner,limit=1] run particle minecraft:dust{color:[0.25,0.0,0.0],scale:1.0} ^ ^ ^3.0 0.0 0.0 0.0 0.0 1 force @a[tag=!self]
+execute if entity @s[scores={charge.output=..40}] run function ssbrc:fighters/byleth/logic/blue_lions/spin_attack/particles/rotate {type:"1"}
+execute if entity @s[scores={charge.output=41..60}] run function ssbrc:fighters/byleth/logic/blue_lions/spin_attack/particles/rotate {type:"2"}
+execute if entity @s[scores={charge.output=61..80}] run function ssbrc:fighters/byleth/logic/blue_lions/spin_attack/particles/rotate {type:"3"}
+execute if entity @s[scores={charge.output=81..}] run function ssbrc:fighters/byleth/logic/blue_lions/spin_attack/particles/rotate {type:"4"}
 
 item modify entity @s[scores={charge.output=81}] weapon.mainhand ssbrc:fighters/byleth/blue_lions/areadbhar/awakened
