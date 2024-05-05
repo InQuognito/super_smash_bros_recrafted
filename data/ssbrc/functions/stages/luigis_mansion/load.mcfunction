@@ -39,15 +39,15 @@ summon minecraft:item_display -289.5 16.5 -1108.5 {Rotation:[-90f,0f],item:{id:"
 summon minecraft:item_display -291.5 16.5 -1106.5 {Rotation:[315f,0f],item:{id:"minecraft:sugar",components:{"minecraft:custom_model_data":1019}}}
 
 # Lanterns
-summon minecraft:marker -295.5 20.5 -1112.5 {Tags:["lantern_off.hanging"]}
-summon minecraft:marker -291.5 19.5 -1137.5 {Tags:["lantern_off.hanging"]}
-summon minecraft:marker -287.5 19.5 -1137.5 {Tags:["lantern_off.hanging"]}
-summon minecraft:marker -291.5 19.5 -1130.5 {Tags:["lantern_off.hanging"]}
-summon minecraft:marker -287.5 19.5 -1130.5 {Tags:["lantern_off.hanging"]}
+summon minecraft:item_display -295.5 20.5 -1112.5 {Tags:["lantern_off","hanging"]}
+summon minecraft:item_display -291.5 19.5 -1137.5 {Tags:["lantern_off","hanging"]}
+summon minecraft:item_display -287.5 19.5 -1137.5 {Tags:["lantern_off","hanging"]}
+summon minecraft:item_display -291.5 19.5 -1130.5 {Tags:["lantern_off","hanging"]}
+summon minecraft:item_display -287.5 19.5 -1130.5 {Tags:["lantern_off","hanging"]}
 
-summon minecraft:marker -288.5 13.5 -1152.5 {Tags:["lantern_off.hanging"]}
+summon minecraft:item_display -288.5 13.5 -1152.5 {Tags:["lantern_off","hanging"]}
 
-summon minecraft:marker -293.5 11.5 -1149.5 {Tags:["lantern_off.floor"]}
+summon minecraft:item_display -293.5 11.5 -1149.5 {Tags:["lantern_off","floor"]}
 
 time set midnight
 weather thunder

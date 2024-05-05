@@ -53,7 +53,7 @@ schedule clear ssbrc:stages/flat_zone/logic/zookeeper/2
 
 # Luigis Mansion
 schedule clear ssbrc:stages/luigis_mansion/logic/blackout/check
-schedule clear ssbrc:stages/luigis_mansion/logic/blackout/off
+schedule clear ssbrc:stages/luigis_mansion/logic/blackout/deactivate
 
 # Pac-Maze
 schedule clear ssbrc:stages/pac_maze/logic/ghosts/release/schedule

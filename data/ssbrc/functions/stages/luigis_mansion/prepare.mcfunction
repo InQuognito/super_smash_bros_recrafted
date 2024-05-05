@@ -22,7 +22,7 @@ summon minecraft:marker -312.5 18.0 -1103.5 {Tags:["spawnpoint.item"]}
 summon minecraft:marker -291.5 17.0 -1112.5 {Tags:["spawnpoint.item"]}
 summon minecraft:marker -290.5 18.0 -1119.5 {Tags:["spawnpoint.item"]}
 
-function ssbrc:stages/luigis_mansion/logic/blackout/off
+function ssbrc:stages/luigis_mansion/logic/blackout/deactivate
 
 execute as @a[predicate=ssbrc:ingame] run function ssbrc:logic/pre_game/prepare_players
 function ssbrc:logic/pre_game/prepare_match

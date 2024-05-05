@@ -38,9 +38,8 @@ fill -337 16 -1107 -335 16 -1105 minecraft:blast_furnace[facing=east,lit=false] 
 execute at @e[type=minecraft:marker,tag=lantern_off.floor] run setblock ~ ~ ~ minecraft:air replace
 execute at @e[type=minecraft:marker,tag=lantern_off.hanging] run setblock ~ ~ ~ minecraft:air replace
 
-execute at @e[type=minecraft:marker,tag=lantern_off.floor] run summon minecraft:item_frame ~ ~ ~ {Tags:["lantern_off"],Facing:1b,Invisible:1b,Fixed:1b,Item:{id:"minecraft:sugar",components:{"minecraft:custom_model_data":1020}}}
-execute at @e[type=minecraft:marker,tag=lantern_off.hanging] run summon minecraft:item_frame ~ ~ ~ {Tags:["lantern_off"],Facing:0b,Invisible:1b,Fixed:1b,Item:{id:"minecraft:sugar",components:{"minecraft:custom_model_data":1021}}}
+execute as @e[type=minecraft:item_display,tag=lantern_off] run function ssbrc:stages/luigis_mansion/logic/blackout/lanterns/deactivate
 
 execute as @a[predicate=ssbrc:ingame] at @s run playsound ssbrc:blackout ambient @s
 
-schedule function ssbrc:stages/luigis_mansion/logic/blackout/off 40s replace
+schedule function ssbrc:stages/luigis_mansion/logic/blackout/deactivate 40s replace
