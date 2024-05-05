@@ -35,10 +35,10 @@ fill -340 8 -1123 -285 24 -1102 minecraft:soul_wall_torch[facing=west] replace m
 fill -337 16 -1107 -335 16 -1105 minecraft:blast_furnace[facing=north,lit=true] replace minecraft:blast_furnace[facing=north]
 fill -337 16 -1107 -335 16 -1105 minecraft:blast_furnace[facing=east,lit=true] replace minecraft:blast_furnace[facing=east]
 
-kill @e[type=minecraft:item_frame,tag=lanternOff]
+kill @e[type=minecraft:item_frame,tag=lantern_off]
 
-execute at @e[type=minecraft:marker,tag=lanternOff.floor] run setblock ~ ~ ~ minecraft:lantern[hanging=false] replace
-execute at @e[type=minecraft:marker,tag=lanternOff.hanging] run setblock ~ ~ ~ minecraft:lantern[hanging=true] replace
+execute at @e[type=minecraft:marker,tag=lantern_off.floor] run setblock ~ ~ ~ minecraft:lantern[hanging=false] replace
+execute at @e[type=minecraft:marker,tag=lantern_off.hanging] run setblock ~ ~ ~ minecraft:lantern[hanging=true] replace
 
 execute at @e[type=minecraft:armor_stand,tag=boo] anchored eyes run particle minecraft:poof ^ ^ ^5 0.1 0.1 0.1 0.05 5 normal @a
 kill @e[type=minecraft:armor_stand,tag=boo]

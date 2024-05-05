@@ -1,7 +1,6 @@
-execute as @e[tag=luigis_mansion.painting,sort=random,limit=1] run function ssbrc:stages/luigis_mansion/logic/decide_painting
-execute as @e[tag=luigis_mansion.paintingSmall,sort=random,limit=1] run function ssbrc:stages/luigis_mansion/logic/decide_painting_small
+execute as @e[type=minecraft:item_display,tag=luigis_mansion.painting] run function ssbrc:stages/luigis_mansion/logic/decide_painting
 
-summon minecraft:marker -325.5 0.0 -1133.5 {Tags:["centerPoint"]}
+summon minecraft:marker -325.5 0.0 -1133.5 {Tags:["center_point"]}
 
 summon minecraft:marker -309.5 16.0 -1139.5 {Tags:["spawnpoint"]}
 summon minecraft:marker -309.5 16.0 -1129.5 {Tags:["spawnpoint"]}

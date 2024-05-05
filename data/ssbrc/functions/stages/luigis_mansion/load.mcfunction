@@ -8,13 +8,13 @@ forceload add -352 -1168 -273 -1089
 summon minecraft:item_display -322.5 18.5 -1108.5 {Rotation:[90f,0f],item:{id:"minecraft:sugar",components:{"minecraft:custom_model_data":1002}}}
 summon minecraft:item_display -302.5 18.5 -1108.5 {Rotation:[-90f,0f],item:{id:"minecraft:sugar",components:{"minecraft:custom_model_data":1002}}}
 
-summon minecraft:armor_stand -295.5 18.5 -1104.5 {Tags:["luigis_mansion.painting"],Rotation:[180f,0f],ArmorItems:[{},{},{},{id:"minecraft:sugar"}],NoGravity:1b,Invisible:1b,DisabledSlots:4144959}
-summon minecraft:armor_stand -336.5 17.5 -1119.5 {Tags:["luigis_mansion.painting"],Rotation:[-90f,0f],ArmorItems:[{},{},{},{id:"minecraft:sugar"}],NoGravity:1b,Invisible:1b,DisabledSlots:4144959}
-summon minecraft:armor_stand -298.5 17.5 -1134.5 {Tags:["luigis_mansion.painting"],ArmorItems:[{},{},{},{id:"minecraft:sugar"}],NoGravity:1b,Invisible:1b,DisabledSlots:4144959}
+summon minecraft:item_display -295.5 19.5 -1104.01 {Tags:["luigis_mansion.painting"],Rotation:[180f,0f],transformation:[3f,0f,0f,0f,0f,3f,0f,0f,0f,0f,1f,0f,0f,0f,0f,1f]}
+summon minecraft:item_display -336.99 18.5 -1119.5 {Tags:["luigis_mansion.painting"],Rotation:[-90f,0f],transformation:[3f,0f,0f,0f,0f,3f,0f,0f,0f,0f,1f,0f,0f,0f,0f,1f]}
+summon minecraft:item_display -298.5 18.5 -1134.99 {Tags:["luigis_mansion.painting"],Rotation:[0f,0f],transformation:[3f,0f,0f,0f,0f,3f,0f,0f,0f,0f,1f,0f,0f,0f,0f,1f]}
 
-summon minecraft:armor_stand -310.5 17.5 -1102.5 {Tags:["luigis_mansion.paintingSmall"],ArmorItems:[{},{},{},{id:"minecraft:sugar"}],NoGravity:1b,Invisible:1b,DisabledSlots:4144959}
-summon minecraft:armor_stand -312.5 18.5 -1102.5 {Tags:["luigis_mansion.paintingSmall"],ArmorItems:[{},{},{},{id:"minecraft:sugar"}],NoGravity:1b,Invisible:1b,DisabledSlots:4144959}
-summon minecraft:armor_stand -314.5 17.5 -1102.5 {Tags:["luigis_mansion.paintingSmall"],ArmorItems:[{},{},{},{id:"minecraft:sugar"}],NoGravity:1b,Invisible:1b,DisabledSlots:4144959}
+summon minecraft:item_display -310.5 18.5 -1102.01 {Tags:["luigis_mansion.painting"]}
+summon minecraft:item_display -312.5 19.5 -1102.01 {Tags:["luigis_mansion.painting"]}
+summon minecraft:item_display -314.5 18.5 -1102.01 {Tags:["luigis_mansion.painting"]}
 
 # Chairs
 summon minecraft:item_display -323.5 16.75 -1145.5 {item:{id:"minecraft:sugar",components:{"minecraft:custom_model_data":1018}}}
@@ -39,15 +39,15 @@ summon minecraft:item_display -289.5 16.5 -1108.5 {Rotation:[-90f,0f],item:{id:"
 summon minecraft:item_display -291.5 16.5 -1106.5 {Rotation:[315f,0f],item:{id:"minecraft:sugar",components:{"minecraft:custom_model_data":1019}}}
 
 # Lanterns
-summon minecraft:marker -295.5 20.5 -1112.5 {Tags:["lanternOff.hanging"]}
-summon minecraft:marker -291.5 19.5 -1137.5 {Tags:["lanternOff.hanging"]}
-summon minecraft:marker -287.5 19.5 -1137.5 {Tags:["lanternOff.hanging"]}
-summon minecraft:marker -291.5 19.5 -1130.5 {Tags:["lanternOff.hanging"]}
-summon minecraft:marker -287.5 19.5 -1130.5 {Tags:["lanternOff.hanging"]}
+summon minecraft:marker -295.5 20.5 -1112.5 {Tags:["lantern_off.hanging"]}
+summon minecraft:marker -291.5 19.5 -1137.5 {Tags:["lantern_off.hanging"]}
+summon minecraft:marker -287.5 19.5 -1137.5 {Tags:["lantern_off.hanging"]}
+summon minecraft:marker -291.5 19.5 -1130.5 {Tags:["lantern_off.hanging"]}
+summon minecraft:marker -287.5 19.5 -1130.5 {Tags:["lantern_off.hanging"]}
 
-summon minecraft:marker -288.5 13.5 -1152.5 {Tags:["lanternOff.hanging"]}
+summon minecraft:marker -288.5 13.5 -1152.5 {Tags:["lantern_off.hanging"]}
 
-summon minecraft:marker -293.5 11.5 -1149.5 {Tags:["lanternOff.floor"]}
+summon minecraft:marker -293.5 11.5 -1149.5 {Tags:["lantern_off.floor"]}
 
 time set midnight
 weather thunder
