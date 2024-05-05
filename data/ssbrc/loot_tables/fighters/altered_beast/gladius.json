@@ -57,7 +57,7 @@
 									"show_in_tooltip": false
 								},
 								"minecraft:custom_model_data": 1820,
-								"minecraft:custom_data": "{item:\"gladius\"}"
+								"minecraft:custom_data": {"item":"gladius"}
 							}
 						}
 					]
