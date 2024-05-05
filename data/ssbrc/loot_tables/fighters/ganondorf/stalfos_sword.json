@@ -16,10 +16,10 @@
 										{
 											"type": "minecraft:generic.attack_damage",
 											"uuid": [
-												999999999,
-												999999999,
-												999999999,
-												999999999
+												601100111,
+												601100101,
+												601101101,
+												601110011
 											],
 											"name": "Attack Damage",
 											"amount": 3,
