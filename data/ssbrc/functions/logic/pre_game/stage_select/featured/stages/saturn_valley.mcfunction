@@ -2,5 +2,5 @@ summon minecraft:item_display ~ ~ ~ {Tags:["stageIcon","modifyEntity"],item:{id:
 
 function ssbrc:logic/pre_game/stage_select/featured/choose/modify
 
-summon minecraft:text_display ~ ~1.25 ~ {Tags:["infoDisplay"],text:'{"translate":"ssbrc.stages.saturn_valley","bold":false,"color":"green"}',billboard:center}
-summon minecraft:text_display ~ ~1 ~ {Tags:["infoDisplay"],text:'{"translate":"ssbrc.series.earthbound","bold":false,"color":"gold"}',billboard:center}
+summon minecraft:text_display ~ ~1.25 ~ {Tags:["infoDisplay"],text:'{"translate":"ssbrc.stages.saturn_valley","bold":false,"color":"green"}',billboard:"center",alignment:"center"}
+summon minecraft:text_display ~ ~1 ~ {Tags:["infoDisplay"],text:'{"translate":"ssbrc.series.earthbound","bold":false,"color":"gold"}',billboard:"center",alignment:"center"}

@@ -1,4 +1,4 @@
-summon minecraft:text_display 144.5 7.25 153.5 {Tags:["static_object"],text:'{"translate":"ssbrc.fighter_select.random","color":"white"}',billboard:center}
+summon minecraft:text_display 144.5 7.25 153.5 {Tags:["static_object"],text:'{"translate":"ssbrc.fighter_select.random","color":"white"}',billboard:"center",alignment:"center"}
 summon minecraft:item_display 144.5 6.0 153.5 {Tags:["selectable","static_object","random_fighter"],item:{id:"minecraft:stick",components:{"minecraft:custom_model_data":9998}}}
 
 execute positioned 147.5 6.0 154.5 summon minecraft:item_display run function ssbrc:logic/resets/lobby/init/fighter with storage ssbrc:data fighters.mario
@@ -40,7 +40,7 @@ execute positioned 123.5 6.0 158.5 summon minecraft:item_display run function ss
 execute positioned 125.5 6.0 156.5 summon minecraft:item_display run function ssbrc:logic/resets/lobby/init/fighter with storage ssbrc:data fighters.altered_beast
 execute positioned 129.5 6.0 154.5 summon minecraft:item_display run function ssbrc:logic/resets/lobby/init/fighter with storage ssbrc:data fighters.yar
 
-summon minecraft:text_display 132.5 7.25 153.5 {Tags:["static_object"],text:'{"translate":"ssbrc.fighter_select.spectate","color":"white"}',billboard:center}
+summon minecraft:text_display 132.5 7.25 153.5 {Tags:["static_object"],text:'{"translate":"ssbrc.fighter_select.spectate","color":"white"}',billboard:"center",alignment:"center"}
 summon minecraft:item_display 132.5 6.0 153.5 {Tags:["selectable","static_object","spectate"],item:{id:"minecraft:stick",components:{"minecraft:custom_model_data":9999}}}
 
-summon minecraft:text_display 138.5 6.0 150.5 {Tags:["static_object"],text:'{"translate":"ssbrc.fighter_select.leave","color":"yellow"}',billboard:center}
+summon minecraft:text_display 138.5 6.0 150.5 {Tags:["static_object"],text:'{"translate":"ssbrc.fighter_select.leave","color":"yellow"}',billboard:"center",alignment:"center"}

@@ -7,4 +7,4 @@ $item replace entity @s contents with minecraft:stick[minecraft:custom_model_dat
 
 execute at @s facing 138.5 6.0 173.0 run teleport @s ~ ~ ~ ~ ~
 
-$summon minecraft:text_display ~ ~1.25 ~ {Tags:["static_object"],text:'{"translate":"ssbrc.fighters.$(name)","color":"$(color)"}',billboard:center}
+$summon minecraft:text_display ~ ~1.25 ~ {Tags:["static_object"],text:'{"translate":"ssbrc.fighters.$(name)","color":"$(color)"}',billboard:"center",alignment:"center"}

@@ -2,5 +2,5 @@ summon minecraft:item_display ~ ~ ~ {Tags:["stageIcon","modifyEntity"],item:{id:
 
 function ssbrc:logic/pre_game/stage_select/featured/choose/modify
 
-summon minecraft:text_display ~ ~1.25 ~ {Tags:["infoDisplay"],text:'{"translate":"ssbrc.stages.icicle_mountain","bold":false,"color":"aqua"}',billboard:center}
-summon minecraft:text_display ~ ~1 ~ {Tags:["infoDisplay"],text:'{"translate":"ssbrc.series.ice_climber","bold":false,"color":"aqua"}',billboard:center}
+summon minecraft:text_display ~ ~1.25 ~ {Tags:["infoDisplay"],text:'{"translate":"ssbrc.stages.icicle_mountain","bold":false,"color":"aqua"}',billboard:"center",alignment:"center"}
+summon minecraft:text_display ~ ~1 ~ {Tags:["infoDisplay"],text:'{"translate":"ssbrc.series.ice_climber","bold":false,"color":"aqua"}',billboard:"center",alignment:"center"}
