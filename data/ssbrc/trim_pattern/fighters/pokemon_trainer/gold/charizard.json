@@ -1,7 +1,5 @@
 {
 	"asset_id": "ssbrc:fighters/pokemon_trainer/gold/charizard",
-	"description": {
-		"translate": "trim_pattern.example.stripes"
-	},
+	"description": "",
 	"template_item": "minecraft:stick"
 }

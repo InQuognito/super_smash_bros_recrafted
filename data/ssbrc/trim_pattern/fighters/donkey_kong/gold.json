@@ -1,7 +1,5 @@
 {
 	"asset_id": "ssbrc:fighters/donkey_kong/gold",
-	"description": {
-		"translate": "trim_pattern.example.stripes"
-	},
+	"description": "",
 	"template_item": "minecraft:stick"
 }

@@ -1,7 +1,5 @@
 {
 	"asset_id": "ssbrc:fighters/altered_beast/player_2/weretiger",
-	"description": {
-		"translate": "trim_pattern.example.stripes"
-	},
+	"description": "",
 	"template_item": "minecraft:stick"
 }

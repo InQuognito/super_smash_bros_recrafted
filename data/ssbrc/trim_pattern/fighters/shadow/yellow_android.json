@@ -1,7 +1,5 @@
 {
 	"asset_id": "ssbrc:fighters/shadow/yellow_android",
-	"description": {
-		"translate": "trim_pattern.example.stripes"
-	},
+	"description": "",
 	"template_item": "minecraft:stick"
 }
