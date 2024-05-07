@@ -1,5 +1,6 @@
 {
 	"values": [
-		"ssbrc:logic/load"
+		"ssbrc:logic/load",
+		"delta:internal/technical/load"
 	]
 }
