@@ -11,12 +11,12 @@ scoreboard players add @s[scores={charge.3=1..}] charge.3 1
 execute if entity @s[scores={charge.3=5..}] run function ssbrc:fighters/shovel_knight/logic/abilities/shovel_drop/reset
 
 # Relics
-execute if entity @s[tag=shovel_knight.chaos_sphere] run function ssbrc:logic/fighters/cooldown/update {item:"chaos_sphere",type:"1",amount:"shovel_knight.chaos_sphere.cooldown"}
+execute if entity @s[tag=shovel_knight.chaos_sphere] run function ssbrc:logic/fighters/cooldown/display/check {item:"chaos_sphere",type:"1",amount:"shovel_knight.chaos_sphere.cooldown"}
 
-execute if entity @s[tag=shovel_knight.flare_wand] run function ssbrc:logic/fighters/cooldown/update {item:"flare_wand",type:"1",amount:"shovel_knight.flare_wand.cooldown"}
+execute if entity @s[tag=shovel_knight.flare_wand] run function ssbrc:logic/fighters/cooldown/display/check {item:"flare_wand",type:"1",amount:"shovel_knight.flare_wand.cooldown"}
 
 execute if entity @s[tag=shovel_knight.phase_locket] run function ssbrc:fighters/shovel_knight/logic/tick/phase_locket
 
 execute if entity @s[tag=shovel_knight.propeller_dagger] run function ssbrc:fighters/shovel_knight/logic/tick/propeller_dagger
 
-execute if entity @s[tag=shovel_knight.throwing_anchor] run function ssbrc:logic/fighters/cooldown/update {item:"throwing_anchor",type:"1",amount:"shovel_knight.throwing_anchor.cooldown"}
+execute if entity @s[tag=shovel_knight.throwing_anchor] run function ssbrc:logic/fighters/cooldown/display/check {item:"throwing_anchor",type:"1",amount:"shovel_knight.throwing_anchor.cooldown"}
