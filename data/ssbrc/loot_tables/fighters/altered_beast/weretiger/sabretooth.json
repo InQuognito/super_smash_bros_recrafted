@@ -33,6 +33,7 @@
 						{
 							"function": "minecraft:set_components",
 							"components": {
+								"minecraft:max_damage": 60,
 								"minecraft:custom_model_data": 1833,
 								"minecraft:custom_data": {"item":"sabretooth"}
 							}

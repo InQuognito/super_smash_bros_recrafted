@@ -50,12 +50,11 @@
 							"mode": "append"
 						},
 						{
-							"function": "minecraft:set_custom_model_data",
-							"value": 9999989
-						},
-						{
-							"function": "minecraft:set_custom_data",
-							"tag": "{item:\"wiki\"}"
+							"function": "minecraft:set_components",
+							"components": {
+								"minecraft:custom_model_data": 9999989,
+								"minecraft:custom_data": {"item":"wiki"}
+							}
 						}
 					]
 				}

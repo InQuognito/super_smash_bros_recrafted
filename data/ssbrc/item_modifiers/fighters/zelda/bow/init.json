@@ -1,10 +1,14 @@
 [
 	{
 		"function": "minecraft:reference",
+		"name": "ssbrc:fighters/init/preset/magic"
+	},
+	{
+		"function": "minecraft:reference",
 		"name": "ssbrc:fighters/init/ability/charge"
 	},
 	{
 		"function": "minecraft:set_custom_data",
-		"tag": "{path:\"zelda/logic/abilities/bow/check\"}"
+		"tag": "{item:\"bow\",path:\"zelda/logic/abilities/bow/check\"}"
 	}
 ]

@@ -203,8 +203,11 @@
 							"mode": "append"
 						},
 						{
-							"function": "minecraft:set_custom_model_data",
-							"value": 1
+							"function": "minecraft:set_components",
+							"components": {
+								"minecraft:custom_model_data": 1,
+								"minecraft:custom_data": {"item":"statistics"}
+							}
 						}
 					]
 				}

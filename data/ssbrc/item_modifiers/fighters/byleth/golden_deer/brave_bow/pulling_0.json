@@ -1,10 +1,10 @@
 [
 	{
 		"function": "minecraft:reference",
-		"name": "ssbrc:fighters/init/unbreakable/smooth"
+		"name": "ssbrc:fighters/init/pulling"
 	},
 	{
 		"function": "minecraft:set_custom_model_data",
-		"value": 105
+		"value": 106
 	}
 ]

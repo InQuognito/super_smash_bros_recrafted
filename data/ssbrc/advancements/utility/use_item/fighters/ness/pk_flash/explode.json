@@ -6,27 +6,17 @@
 			"conditions": {
 				"player": [
 					{
-						"condition": "minecraft:value_check",
-						"value": {
-							"type": "minecraft:score",
-							"target": {
-								"type": "minecraft:fixed",
-								"name": "game_stage"
-							},
-							"score": "temp"
-						},
-						"range": {
-							"min": 4
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"nbt": "{Tags:[\"pk_flash\"]}"
 						}
 					},
 					{
 						"condition": "minecraft:entity_scores",
 						"entity": "this",
 						"scores": {
-							"cooldown.2": {
-								"min": 41
-							},
-							"cooldown.3": {
+							"cooldown": {
 								"max": 0
 							}
 						}
@@ -34,7 +24,10 @@
 				],
 				"item": {
 					"predicates": {
-						"minecraft:custom_data": "{item:\"pk_flash\"}"
+						"minecraft:custom_data": "{item:\"pk_flash\"}",
+						"minecraft:damage": {
+							"damage": 0
+						}
 					}
 				}
 			}

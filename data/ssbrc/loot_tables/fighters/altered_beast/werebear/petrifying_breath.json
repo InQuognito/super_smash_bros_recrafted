@@ -58,12 +58,12 @@
 							"mode": "append"
 						},
 						{
-							"function": "minecraft:set_custom_model_data",
-							"value": 1825
-						},
-						{
-							"function": "minecraft:set_custom_data",
-							"tag": "{item:\"petrifying_breath\"}"
+							"function": "minecraft:set_components",
+							"components": {
+								"minecraft:max_damage": 100,
+								"minecraft:custom_model_data": 1825,
+								"minecraft:custom_data": {"item":"petrifying_breath"}
+							}
 						}
 					]
 				}

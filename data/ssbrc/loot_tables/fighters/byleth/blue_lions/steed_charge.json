@@ -58,12 +58,12 @@
 							"mode": "append"
 						},
 						{
-							"function": "minecraft:set_custom_model_data",
-							"value": 118
-						},
-						{
-							"function": "minecraft:set_custom_data",
-							"tag": "{item:\"steed_charge\"}"
+							"function": "minecraft:set_components",
+							"components": {
+								"minecraft:max_damage": 300,
+								"minecraft:custom_model_data": 118,
+								"minecraft:custom_data": {"item":"steed_charge"}
+							}
 						}
 					]
 				}

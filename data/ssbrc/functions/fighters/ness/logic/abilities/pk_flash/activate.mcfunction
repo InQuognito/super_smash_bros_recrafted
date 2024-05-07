@@ -1,3 +1,5 @@
+tag @s add pk_flash
+
 function ssbrc:logic/fighters/ability/init
 
 execute positioned ~ ~2.5 ~ summon minecraft:marker run function ssbrc:fighters/ness/logic/abilities/pk_flash/init

@@ -58,12 +58,11 @@
 							"mode": "append"
 						},
 						{
-							"function": "minecraft:set_custom_model_data",
-							"value": 443
-						},
-						{
-							"function": "minecraft:set_custom_data",
-							"tag": "{group:\"hero.spell\",item:\"magic_burst\"}"
+							"function": "minecraft:set_components",
+							"components": {
+								"minecraft:custom_model_data": 443,
+								"minecraft:custom_data": {"item":"magic_burst","group":"hero.spell"}
+							}
 						}
 					]
 				}

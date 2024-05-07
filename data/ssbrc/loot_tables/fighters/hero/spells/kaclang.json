@@ -58,12 +58,12 @@
 							"mode": "append"
 						},
 						{
-							"function": "minecraft:set_custom_model_data",
-							"value": 442
-						},
-						{
-							"function": "minecraft:set_custom_data",
-							"tag": "{group:\"hero.spell\",item:\"kaclang\"}"
+							"function": "minecraft:set_components",
+							"components": {
+								"minecraft:max_damage": 20,
+								"minecraft:custom_model_data": 442,
+								"minecraft:custom_data": {"item":"kaclang","group":"hero.spell"}
+							}
 						}
 					]
 				}

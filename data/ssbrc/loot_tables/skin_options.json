@@ -50,12 +50,11 @@
 							"mode": "append"
 						},
 						{
-							"function": "minecraft:set_custom_model_data",
-							"value": 9999988
-						},
-						{
-							"function": "minecraft:set_custom_data",
-							"tag": "{item:\"skin_options\"}"
+							"function": "minecraft:set_components",
+							"components": {
+								"minecraft:custom_model_data": 9999988,
+								"minecraft:custom_data": {"item":"skin_options"}
+							}
 						}
 					]
 				}
