@@ -1,7 +1,7 @@
+tag @s remove remote_mine
+
 function ssbrc:logic/fighters/ability/init
 
-execute if entity @s[scores={cooldown.3=41..}] as @e[type=minecraft:item_display,tag=remote_mine,predicate=ssbrc:id_match] run function ssbrc:fighters/mega_man/logic/abilities/remote_mine/explode
-
-execute if entity @s[scores={mega_man.remote_mine=1..,cooldown.3=..0}] run function ssbrc:fighters/mega_man/logic/abilities/remote_mine/activate
+execute as @e[type=minecraft:item_display,tag=remote_mine,predicate=ssbrc:id_match,limit=1] run function ssbrc:fighters/mega_man/logic/abilities/remote_mine/explode
 
 function ssbrc:logic/fighters/ability/deinit
