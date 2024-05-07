@@ -1,10 +1,6 @@
-tag @s add in_cannon
+tag @s add contains_player
 
-scoreboard players operation @e[type=minecraft:item_display,tag=barrel_cannon,sort=nearest,limit=1] id = @s id
+execute as @p[predicate=ssbrc:flag/player,tag=!barrel_cannon.in,distance=..1] run function ssbrc:stages/frozen_hijinx/logic/barrel_cannon/players/load
+scoreboard players operation @s id = id_to_match id
 
-ride @s mount @e[type=minecraft:item_display,tag=barrel_cannon,sort=nearest,limit=1]
-
-tag @e[type=minecraft:item_display,tag=barrel_cannon,sort=nearest,limit=1] add playerInCannon
-
-effect give @s minecraft:invisibility 2 0 true
-effect give @s minecraft:resistance 2 255 true
+ride @a[predicate=ssbrc:id_match,limit=1] mount @s

@@ -1,7 +1,5 @@
-execute if entity @s[tag=!in_cannon,tag=!follow_cannon_path] if entity @e[type=minecraft:item_display,tag=barrel_cannon,tag=!playerInCannon,distance=..1] run function ssbrc:stages/frozen_hijinx/logic/barrel_cannon/load
-execute if entity @s[tag=in_cannon] as @e[type=minecraft:item_display,tag=barrel_cannon,tag=playerInCannon,distance=1.1..] if score @s id = @p[tag=in_cannon] id run function ssbrc:stages/frozen_hijinx/logic/barrel_cannon/reset
+execute if entity @s[tag=!contains_player] if entity @a[predicate=ssbrc:flag/player,tag=!barrel_cannon.in,tag=!barrel_cannon.launched,distance=..1] run function ssbrc:stages/frozen_hijinx/logic/barrel_cannon/load
+execute if entity @s[tag=contains_player] unless entity @a[predicate=ssbrc:flag/player,tag=barrel_cannon.in,distance=..1] run function ssbrc:stages/frozen_hijinx/logic/barrel_cannon/cancel
 
-scoreboard players add @s[tag=in_cannon] timer.barrel_cannon 1
-execute if score @s timer.barrel_cannon matches 40.. run function ssbrc:stages/frozen_hijinx/logic/barrel_cannon/fire
-
-execute if entity @s[tag=follow_cannon_path] run function ssbrc:stages/frozen_hijinx/logic/barrel_cannon/follow_path
+scoreboard players add @s[tag=contains_player] timer.barrel_cannon 1
+execute if entity @s[scores={timer.barrel_cannon=40..}] run function ssbrc:stages/frozen_hijinx/logic/barrel_cannon/fire

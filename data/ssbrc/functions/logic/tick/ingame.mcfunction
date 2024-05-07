@@ -32,9 +32,6 @@ kill @e[type=#minecraft:arrows,nbt={inGround:1b}]
 # Maps
 function ssbrc:logic/tick/stages/after_start
 
-# Movement Entities
-execute as @e[tag=movementEntity] at @s run function ssbrc:logic/tick/movement_entities
-
 # Kill Tridents On Ground
 execute as @e[type=minecraft:item,nbt={Item:{id:"minecraft:trident"}}] run function ssbrc:logic/tick/projectiles/tridents
 

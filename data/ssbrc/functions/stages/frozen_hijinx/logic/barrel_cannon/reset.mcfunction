@@ -1,5 +1,4 @@
-tag @s remove playerInCannon
+tag @s remove contains_player
+scoreboard players reset @s timer.barrel_cannon
 
 scoreboard players reset @s id
-
-execute as @p[tag=in_cannon] run function ssbrc:stages/frozen_hijinx/logic/barrel_cannon/reset_player

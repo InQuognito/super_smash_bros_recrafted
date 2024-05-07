@@ -10,7 +10,7 @@ tag @s remove flat_zone
 tag @s remove frozen_hijinx
 
 tag @s remove follow_cannon_path
-tag @s remove in_cannon
+tag @s remove barrel_cannon.in
 
 tag @s remove garden_of_hope
 tag @s remove great_bay
