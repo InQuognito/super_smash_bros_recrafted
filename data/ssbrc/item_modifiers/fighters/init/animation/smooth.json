@@ -7,10 +7,10 @@
 					{
 						"type": "minecraft:generic.attack_damage",
 						"uuid": [
-							1,
-							1,
-							1,
-							0
+							666666666,
+							666666666,
+							666666666,
+							111111111
 						],
 						"name": "Attack Damage",
 						"amount": 0,
@@ -18,14 +18,14 @@
 						"slot": "mainhand"
 					},
 					{
-						"type": "minecraft:generic.attack_damage",
+						"type": "minecraft:generic.attack_speed",
 						"uuid": [
-							1,
-							1,
-							1,
-							0
+							666666666,
+							666666666,
+							666666666,
+							222222222
 						],
-						"name": "Attack Damage",
+						"name": "Attack Speed",
 						"amount": 1024,
 						"operation": "add_multiplied_base",
 						"slot": "mainhand"
@@ -34,9 +34,5 @@
 				"show_in_tooltip": false
 			}
 		}
-	},
-	{
-		"function": "minecraft:reference",
-		"name": "ssbrc:fighters/init/common"
 	}
 ]

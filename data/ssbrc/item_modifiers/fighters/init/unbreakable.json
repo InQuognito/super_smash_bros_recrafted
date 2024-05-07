@@ -6,9 +6,5 @@
 				"show_in_tooltip": false
 			}
 		}
-	},
-	{
-		"function": "minecraft:reference",
-		"name": "ssbrc:fighters/init/common"
 	}
 ]
