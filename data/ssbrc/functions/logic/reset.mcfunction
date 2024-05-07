@@ -30,7 +30,7 @@ data modify storage ssbrc:data snake_ammo_socom set value '[{"score":{"name":"@s
 data modify storage ssbrc:data snake_out_of_ammo set value '[{"text":"-","color":"red"},{"text":" | ","color":"white"},{"text":"-","color":"red"}]'
 data modify storage ssbrc:data snake_prompt_reload set value '[{"translate":"ssbrc.fighters.snake.reload.prefix","color":"gray"},{"keybind":"key.drop","color":"white"},{"translate":"ssbrc.fighters.snake.reload.suffix","color":"gray"}]'
 
-kill @e[type=!minecraft:player]
+kill @e[type=!minecraft:player,tag=!smithed.strict,tag=!smithed.entity]
 
 forceload remove all
 
