@@ -4,7 +4,7 @@ execute if entity @s[predicate=ssbrc:fighters/altered_beast/is_beast] run functi
 
 function ssbrc:fighters/altered_beast/logic/spirit_gauge/update
 
-function ssbrc:logic/fighters/cooldown/display/check {item:"mark_of_the_beast",type:"3",amount:"altered_beast.mark_of_the_beast.cooldown"}
+function ssbrc:logic/fighters/cooldown/display/check {item:"mark_of_the_beast"}
 
 # Beast Form
 execute if entity @s[tag=werebear] run function ssbrc:fighters/altered_beast/logic/werebear/tick

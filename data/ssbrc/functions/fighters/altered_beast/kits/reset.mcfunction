@@ -6,4 +6,4 @@ tag @s remove werewolf
 
 tag @s remove feral_instincts
 
-function ssbrc:logic/fighters/cooldown/set/const {type:"3",value:"40"}
+item modify entity @s hotbar.8 {"function":"minecraft:set_damage","damage":0,"add":false}

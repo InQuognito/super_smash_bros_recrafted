@@ -58,12 +58,12 @@
 							"mode": "append"
 						},
 						{
-							"function": "minecraft:set_custom_model_data",
-							"value": 50018
-						},
-						{
-							"function": "minecraft:set_custom_data",
-							"tag": "{item:\"splash\"}"
+							"function": "minecraft:set_components",
+							"components": {
+								"minecraft:max_damage": 20,
+								"minecraft:custom_model_data": 50018,
+								"minecraft:custom_data": {"item":"splash"}
+							}
 						}
 					]
 				}

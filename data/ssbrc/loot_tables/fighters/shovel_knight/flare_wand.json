@@ -64,12 +64,12 @@
 							"mode": "append"
 						},
 						{
-							"function": "minecraft:set_custom_model_data",
-							"value": 1922
-						},
-						{
-							"function": "minecraft:set_custom_data",
-							"tag": "{item:\"flare_wand\"}"
+							"function": "minecraft:set_components",
+							"components": {
+								"minecraft:max_damage": 15,
+								"minecraft:custom_model_data": 1922,
+								"minecraft:custom_data": {"item":"flare_wand"}
+							}
 						}
 					]
 				}

@@ -64,12 +64,12 @@
 							"mode": "append"
 						},
 						{
-							"function": "minecraft:set_custom_model_data",
-							"value": 1921
-						},
-						{
-							"function": "minecraft:set_custom_data",
-							"tag": "{item:\"chaos_sphere\",disabled:\"false\"}"
+							"function": "minecraft:set_components",
+							"components": {
+								"minecraft:max_damage": 20,
+								"minecraft:custom_model_data": 1921,
+								"minecraft:custom_data": {"item":"chaos_sphere","disabled":"false"}
+							}
 						}
 					]
 				}

@@ -89,8 +89,11 @@
 							]
 						},
 						{
-							"function": "minecraft:set_custom_data",
-							"tag": "{item:\"ice_ball\"}"
+							"function": "minecraft:set_components",
+							"components": {
+								"minecraft:max_damage": 20,
+								"minecraft:custom_data": {"item":"ice_ball"}
+							}
 						}
 					]
 				}

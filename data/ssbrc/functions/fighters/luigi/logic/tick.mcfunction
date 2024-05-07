@@ -1,5 +1,5 @@
 # Ice Ball
-function ssbrc:logic/fighters/cooldown/display/check {item:"ice_ball",type:"1",amount:"luigi.ice_ball.cooldown"}
+function ssbrc:logic/fighters/cooldown/display/check {item:"ice_ball"}
 
 # Super Jump
 function ssbrc:logic/fighters/jump/super_jump/tick {fighter:"luigi"}

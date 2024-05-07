@@ -85,8 +85,11 @@
 							]
 						},
 						{
-							"function": "minecraft:set_custom_data",
-							"tag": "{item:\"smoke_grenade\"}"
+							"function": "minecraft:set_components",
+							"components": {
+								"minecraft:max_damage": 300,
+								"minecraft:custom_data": {"item":"smoke_grenade"}
+							}
 						}
 					]
 				}

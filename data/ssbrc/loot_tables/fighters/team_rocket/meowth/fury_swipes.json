@@ -58,12 +58,12 @@
 							"mode": "append"
 						},
 						{
-							"function": "minecraft:set_custom_model_data",
-							"value": 50012
-						},
-						{
-							"function": "minecraft:set_custom_data",
-							"tag": "{item:\"fury_swipes\"}"
+							"function": "minecraft:set_components",
+							"components": {
+								"minecraft:max_damage": 40,
+								"minecraft:custom_model_data": 50012,
+								"minecraft:custom_data": {"item":"fury_swipes"}
+							}
 						}
 					]
 				}

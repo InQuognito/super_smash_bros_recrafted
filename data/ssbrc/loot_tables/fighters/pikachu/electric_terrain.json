@@ -60,12 +60,11 @@
 							"mode": "append"
 						},
 						{
-							"function": "minecraft:set_custom_model_data",
-							"value": 1201
-						},
-						{
-							"function": "minecraft:set_custom_data",
-							"tag": "{item:\"electric_terrain\"}"
+							"function": "minecraft:set_components",
+							"components": {
+								"minecraft:custom_model_data": 1201,
+								"minecraft:custom_data": {"item":"electric_terrain"}
+							}
 						}
 					]
 				}
