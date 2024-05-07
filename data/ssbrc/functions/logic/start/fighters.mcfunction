@@ -17,13 +17,13 @@ function ssbrc:logic/teams/set
 
 execute store result score @s health run data get entity @s Health
 
+scoreboard players set @s flag.sprinting 0
+scoreboard players set @s frostbite.cooldown 0
+scoreboard players set @s rotation 0
+
 function ssbrc:logic/fighters/get {function:"ssbrc:logic/fighters/kit"}
 
 function ssbrc:logic/fighters/attributes/defaults
 function ssbrc:logic/fighters/effects/default
-
-scoreboard players set @s flag.sprinting 0
-scoreboard players set @s frostbite.cooldown 0
-scoreboard players set @s rotation 0
 
 function ssbrc:logic/pre_game/bonuses/all
