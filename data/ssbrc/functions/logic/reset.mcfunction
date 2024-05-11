@@ -53,5 +53,7 @@ setworldspawn -521 5 -1945
 
 execute unless score num hard_resets matches -2147483648..2147483647 run scoreboard players set num hard_resets 0
 
+scoreboard players set game_stage temp -1
+
 function ssbrc:logic/timer
 schedule function ssbrc:logic/resets/lobby 1s replace
