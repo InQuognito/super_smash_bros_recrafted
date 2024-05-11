@@ -53,11 +53,11 @@ def get_translation_key(fighter, skin):
 	if skin == 'default' or skin == 'gold':
 		return f'ssbrc.fighters.skin.{skin}'
 	elif skin == 'flower_power' or skin == 'penguin':
-		return f'series.super_mario_bros.skin.{skin}'
+		return f'ssbrc.series.super_mario_bros.skin.{skin}'
 	elif skin == 'shadow':
-		return 'series.pokemon.skin.shadow'
+		return 'ssbrc.series.pokemon.skin.shadow'
 	elif skin == 'player_2':
-		return f'fighters.skin.player_2'
+		return f'ssbrc.fighters.skin.player_2'
 	else:
 		return f'ssbrc.fighters.{fighter}.skin.{skin}'
 
