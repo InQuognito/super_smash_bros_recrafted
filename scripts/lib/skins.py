@@ -169,7 +169,7 @@ def create_skin_file(skin, fighter, path):
 			js_write(file, f'function ssbrc:fighters/{fighter}/menu/skins/reset')
 			js_write(file, f'tag @s add {skin}\n')
 
-			prefix = 'tellraw @s[tag=!blind_pick,tag=!picking_random] [{"text":"\\n"},{"translate":"ssbrc.fighters.menu.skin","color":"white"},{"translate":"ssbrc.'
+			prefix = 'tellraw @s[tag=!blind_pick,tag=!picking_random] [{"text":"\\n"},{"translate":"ssbrc.fighters.menu.skin","color":"white"},{"translate":"'
 			suffix = '"},{"text":"\\n"}]'
 
 			if skin == 'default':

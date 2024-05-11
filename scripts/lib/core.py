@@ -48,6 +48,28 @@ def count_forms(fighter):
 	else:
 		return 1
 
+def get_translation_key(fighter, skin):
+	'''Returns the translation key, fixed for values that have merged entries.'''
+	if skin == 'default' or skin == 'gold':
+		return f'ssbrc.fighters.skin.{skin}'
+	elif skin == 'flower_power' or skin == 'penguin':
+		return f'series.super_mario_bros.skin.{skin}'
+	elif skin == 'shadow':
+		return 'series.pokemon.skin.shadow'
+	elif skin == 'player_2':
+		return f'fighters.skin.player_2'
+	else:
+		return f'ssbrc.fighters.{fighter}.skin.{skin}'
+
+def get_color(fighter, skin):
+	'''Returns the colorof the selected skin.'''
+	if skin == 'default':
+		return ssbrc.fighters[fighter]['color']
+	elif skin == 'gold':
+		return 'gold'
+	else:
+		return ssbrc.fighters[fighter]['skins'][skin]['color']
+
 def mc_write(file, str):
 	'''Write to file, mcfunction format.'''
 	file.write(str + '\\\n')
