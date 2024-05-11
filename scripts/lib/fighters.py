@@ -123,8 +123,6 @@ def skin_trigger(path):
 
 		js_write(file, '\nscoreboard players reset @s menu')
 		js_write(file, 'scoreboard players enable @s menu')
-		js_write(file, 'scoreboard players reset @s character_trigger')
-		js_write(file, 'scoreboard players enable @s character_trigger')
 
 def skin_options(fighter, path):
 	'''Initializes the file containing the skin triggers for the fighter.'''

@@ -1,5 +1,7 @@
 function ssbrc:logic/tick/lobby/credits
 
+execute as @a[scores={debug=1..}] run function ssbrc:logic/tick/triggers/debug
+
 # Tick during certain game stages
 execute unless score game_stage temp matches 2.. as @a run function ssbrc:logic/tick/triggers/lobby
 execute if score game_stage temp matches 3 run function ssbrc:logic/tick/countdown
