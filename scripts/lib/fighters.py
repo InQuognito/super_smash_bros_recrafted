@@ -40,7 +40,7 @@ def fighter_storage():
 			if fighter == 'team_rocket':
 				mc_write(file, tab(2) + qm + 'model_jesse' + sep_n + str(ssbrc.fighters[fighter]['model'] + 1) + ',')
 				mc_write(file, tab(2) + qm + 'model_james' + sep_n + str(ssbrc.fighters[fighter]['model'] + 2) + ',')
-			mc_write(file, tab(2) + qm + 'color' + sep_s + str(ssbrc.fighters[fighter]['color']) + suf_s)
+			mc_write(file, tab(2) + qm + 'color' + sep_s + get_color(fighter) + suf_s)
 			skin_count = count_skins(fighter)
 			mc_write(file, tab(2) + qm + 'skin_count' + sep_n + str(skin_count) + ',')
 			mc_write(file, tab(2) + qm + 'skins' + suf_e)
@@ -53,7 +53,7 @@ def fighter_storage():
 				mc_write(file, tab(3) + qm + skin + suf_e)
 				mc_write(file, tab(4) + qm + 'name' + sep_s + skin + suf_s)
 				mc_write(file, tab(4) + qm + 'model' + sep_n + str(i) + ',')
-				mc_write(file, tab(4) + qm + 'color' + sep_s + str(ssbrc.fighters[fighter]['skins'][skin]['color']) + suf_s)
+				mc_write(file, tab(4) + qm + 'color' + sep_s + get_color(fighter, skin) + suf_s)
 				mc_write(file, tab(3) + ent)
 				i += forms
 

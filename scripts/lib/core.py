@@ -40,6 +40,12 @@ def count_skins(fighter):
 		n *= 2
 	return n
 
+def has_forms(fighter):
+	'''Returns true if the specified fighter has forms, otherwise return false.'''
+	if 'forms' in ssbrc.fighters[fighter].keys():
+		return True
+	return False
+
 def count_forms(fighter):
 	'''Returns the skin count of the specified fighter.'''
 	if 'forms' in ssbrc.fighters[fighter].keys():
@@ -61,7 +67,7 @@ def get_translation_key(fighter, skin):
 	else:
 		return f'ssbrc.fighters.{fighter}.skin.{skin}'
 
-def get_color(fighter, skin):
+def get_color(fighter, skin='default'):
 	'''Returns the colorof the selected skin.'''
 	if skin == 'default':
 		return ssbrc.fighters[fighter]['color']
