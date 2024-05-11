@@ -12,7 +12,7 @@
 							"duration.1": {
 								"min": 1
 							},
-							"cooldown.2": {
+							"cooldown": {
 								"max": 0
 							}
 						}
@@ -20,7 +20,10 @@
 				],
 				"item": {
 					"predicates": {
-						"minecraft:custom_data": "{item:\"amrita_shower\"}"
+						"minecraft:custom_data": "{item:\"amrita_shower\"}",
+						"minecraft:damage": {
+							"damage": 0
+						}
 					}
 				}
 			}

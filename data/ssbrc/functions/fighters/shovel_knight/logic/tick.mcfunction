@@ -4,11 +4,7 @@ function ssbrc:fighters/shovel_knight/logic/mana/update
 # Shovel Drop
 execute if items entity @s weapon.mainhand minecraft:diamond_shovel[minecraft:custom_data~{item:"shovel_blade",shovel_drop:"true"}] run function ssbrc:fighters/shovel_knight/logic/abilities/shovel_drop/tick
 
-execute if items entity @s[predicate=ssbrc:flag/sneaking,predicate=ssbrc:flag/in_air] weapon.mainhand minecraft:diamond_shovel[minecraft:custom_data~{item:"shovel_blade",shovel_drop:"false"}] run loot replace entity @s weapon.mainhand loot ssbrc:fighters/shovel_knight/shovel_blade
-
-execute if entity @s[scores={charge.3=1..},predicate=!ssbrc:flag/sneaking] run function ssbrc:fighters/shovel_knight/logic/abilities/shovel_drop/reset
-scoreboard players add @s[scores={charge.3=1..}] charge.3 1
-execute if entity @s[scores={charge.3=5..}] run function ssbrc:fighters/shovel_knight/logic/abilities/shovel_drop/reset
+execute if items entity @s[predicate=!ssbrc:flag/standing_or_on_ground] weapon.mainhand minecraft:diamond_shovel[minecraft:custom_data~{item:"shovel_blade",shovel_drop:"false"}] run item modify entity @s weapon.mainhand ssbrc:fighters/shovel_knight/shovel_blade/shovel_drop/on
 
 # Relics
 execute if entity @s[tag=shovel_knight.chaos_sphere] run function ssbrc:logic/fighters/cooldown/display/check {item:"chaos_sphere"}

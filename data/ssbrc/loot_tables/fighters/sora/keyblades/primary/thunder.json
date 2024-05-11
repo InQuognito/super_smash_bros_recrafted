@@ -281,6 +281,12 @@
 							"name": "ssbrc:fighters/sora/keyblades/thunder"
 						},
 						{
+							"function": "minecraft:set_components",
+							"components": {
+								"minecraft:max_damage": 60
+							}
+						},
+						{
 							"function": "minecraft:reference",
 							"name": "ssbrc:fighters/sora/keyblades/primary/model"
 						}

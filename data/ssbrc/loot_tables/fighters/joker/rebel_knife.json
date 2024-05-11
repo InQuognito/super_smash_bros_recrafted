@@ -28,8 +28,7 @@
 										}
 									],
 									"show_in_tooltip": false
-								},
-								"minecraft:custom_data": {"item":"rebel_knife"}
+								}
 							}
 						},
 						{
@@ -39,6 +38,10 @@
 						{
 							"function": "minecraft:reference",
 							"name": "ssbrc:fighters/joker/rebel_knife"
+						},
+						{
+							"function": "minecraft:set_custom_data",
+							"tag": "{item:\"rebel_knife\"}"
 						}
 					]
 				}

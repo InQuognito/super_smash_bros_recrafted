@@ -6,4 +6,4 @@ title @s actionbar ""
 
 function ssbrc:logic/fighters/effects/mobility/mobilize
 
-function ssbrc:logic/fighters/cooldown/set/score {type:"2",value:"captain_falcon.falcon_punch.cooldown"}
+function ssbrc:logic/fighters/cooldown/set

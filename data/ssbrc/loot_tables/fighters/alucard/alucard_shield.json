@@ -42,6 +42,13 @@
 							]
 						},
 						{
+							"function": "minecraft:set_components",
+							"components": {
+								"minecraft:max_damage": 20,
+								"minecraft:custom_model_data": 1840
+							}
+						},
+						{
 							"function": "minecraft:set_custom_data",
 							"tag": "{item:\"alucard_shield\"}"
 						}

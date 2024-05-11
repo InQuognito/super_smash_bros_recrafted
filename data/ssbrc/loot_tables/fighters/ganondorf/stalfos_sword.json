@@ -29,9 +29,12 @@
 									],
 									"show_in_tooltip": false
 								},
-								"minecraft:custom_model_data": 400,
-								"minecraft:custom_data": {"item":"stalfos_sword"}
+								"minecraft:custom_model_data": 400
 							}
+						},
+						{
+							"function": "minecraft:set_custom_data",
+							"tag": "{item:\"stalfos_sword\"}"
 						}
 					]
 				}

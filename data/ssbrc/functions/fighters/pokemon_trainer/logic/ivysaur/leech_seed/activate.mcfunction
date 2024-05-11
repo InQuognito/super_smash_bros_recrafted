@@ -5,7 +5,7 @@ execute anchored eyes positioned ^ ^ ^1 summon minecraft:marker run function ssb
 scoreboard players remove @s charge.1 1
 item modify entity @s[scores={charge.1=0}] weapon.mainhand ssbrc:fighters/pokemon_trainer/ivysaur/leech_seed/disabled
 
-function ssbrc:logic/fighters/cooldown/set/score {type:"1",value:"pokemon_trainer.leech_seed.cooldown"}
+function ssbrc:logic/fighters/cooldown/set
 
 playsound ssbrc:fighters.pokemon_trainer.ivysaur.leech_seed.activate player @a
 

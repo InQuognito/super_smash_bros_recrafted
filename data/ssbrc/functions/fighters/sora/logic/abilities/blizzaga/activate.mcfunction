@@ -4,7 +4,8 @@ execute anchored eyes positioned ^ ^ ^1 run function ssbrc:fighters/sora/logic/a
 
 scoreboard players operation @s mana -= sora.blizzaga.cost vars
 
-function ssbrc:logic/fighters/cooldown/set/const {type:"1",value:"40"}
+item modify entity @s weapon.mainhand {function:"minecraft:set_components",components:{"minecraft:max_damage":40}}
+function ssbrc:logic/fighters/cooldown/set
 
 playsound ssbrc:fighters.sora.blizzaga.activate player @a
 

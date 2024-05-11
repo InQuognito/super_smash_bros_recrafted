@@ -42,8 +42,7 @@
 									],
 									"show_in_tooltip": false
 								},
-								"minecraft:custom_model_data": 121,
-								"minecraft:custom_data": {"item":"fists_of_fury"}
+								"minecraft:custom_model_data": 121
 							}
 						},
 						{
@@ -140,6 +139,10 @@
 									}
 								}
 							]
+						},
+						{
+							"function": "minecraft:set_custom_data",
+							"tag": "{item:\"fists_of_fury\"}"
 						}
 					]
 				}

@@ -205,9 +205,12 @@
 						{
 							"function": "minecraft:set_components",
 							"components": {
-								"minecraft:custom_model_data": 1,
-								"minecraft:custom_data": {"item":"statistics"}
+								"minecraft:custom_model_data": 1
 							}
+						},
+						{
+							"function": "minecraft:set_custom_data",
+							"tag": "{item:\"statistics\"}"
 						}
 					]
 				}

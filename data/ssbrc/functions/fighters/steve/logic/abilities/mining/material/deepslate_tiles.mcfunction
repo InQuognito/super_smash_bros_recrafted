@@ -2,4 +2,4 @@ particle minecraft:item{item:"minecraft:deepslate_tiles"} ~ ~ ~ 0.1 0.1 0.1 0.05
 
 execute if score #loop temp matches 0 run playsound minecraft:block.deepslate_tiles.hit player @a ~ ~ ~ 0.25
 
-scoreboard players set particlePlaced temp 1
+scoreboard players set particle_placed temp 1

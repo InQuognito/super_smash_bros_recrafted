@@ -1,9 +1,9 @@
+tag @s add bomb
+scoreboard players reset @s fuse
+
 scoreboard players operation @s mana -= zelda.bomb.cost temp
 
-function ssbrc:logic/fighters/cooldown/set/const {type:"1",value:"5"}
-
-tag @s add active_fuse
-scoreboard players reset @s fuse
+scoreboard players set @s cooldown 3
 
 item modify entity @s weapon.mainhand ssbrc:fighters/zelda/bomb/default
 

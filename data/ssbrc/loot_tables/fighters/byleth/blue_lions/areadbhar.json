@@ -6,7 +6,7 @@
 			"entries": [
 				{
 					"type": "minecraft:item",
-					"name": "minecraft:nether_star",
+					"name": "minecraft:iron_sword",
 					"functions": [
 						{
 							"function": "minecraft:set_components",
@@ -41,13 +41,12 @@
 										}
 									],
 									"show_in_tooltip": false
-								},
-								"minecraft:custom_data": {"item":"areadbhar\",path:\"byleth/logic/blue_lions/spin_attack/activate/check"}
+								}
 							}
 						},
 						{
 							"function": "minecraft:reference",
-							"name": "ssbrc:fighters/init/preset/melee"
+							"name": "ssbrc:fighters/init/tooltip/ability/melee"
 						},
 						{
 							"function": "minecraft:reference",
@@ -94,36 +93,17 @@
 						},
 						{
 							"function": "minecraft:reference",
-							"name": "ssbrc:fighters/byleth/blue_lions/areadbhar/default",
-							"conditions": [
-								{
-									"condition": "minecraft:inverted",
-									"term": {
-										"condition": "minecraft:entity_scores",
-										"entity": "this",
-										"scores": {
-											"charge.output": {
-												"min": 81
-											}
-										}
-									}
-								}
-							]
+							"name": "ssbrc:fighters/byleth/blue_lions/areadbhar"
 						},
 						{
-							"function": "minecraft:reference",
-							"name": "ssbrc:fighters/byleth/blue_lions/areadbhar/awakened",
-							"conditions": [
-								{
-									"condition": "minecraft:entity_scores",
-									"entity": "this",
-									"scores": {
-										"charge.output": {
-											"min": 81
-										}
-									}
-								}
-							]
+							"function": "minecraft:set_components",
+							"components": {
+								"minecraft:max_damage": 20
+							}
+						},
+						{
+							"function": "minecraft:set_custom_data",
+							"tag": "{item:\"areadbhar\",path:\"byleth/logic/blue_lions/spin_attack/activate/check\"}"
 						}
 					]
 				}

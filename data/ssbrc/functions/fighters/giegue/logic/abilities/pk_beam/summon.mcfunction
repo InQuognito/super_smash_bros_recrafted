@@ -12,6 +12,6 @@ scoreboard players set @s charge.1 0
 
 function ssbrc:logic/fighters/effects/mobility/immobilize/pivot/deactivate
 
-function ssbrc:logic/fighters/cooldown/set/score {type:"2",value:"giegue.pk_beam.cooldown"}
+function ssbrc:logic/fighters/cooldown/set
 
 playsound ssbrc:fighters.giegue.pk_beam.activate player @a

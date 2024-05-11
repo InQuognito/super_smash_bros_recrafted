@@ -1,4 +1,3 @@
-teleport @s @s
+function ssbrc:logic/motion/calculate_strength {strength:6000,amplifier:7500}
 
-effect give @s minecraft:levitation infinite 15 true
-scoreboard players set @s charge.3 1
+function player_motion:api/launch_xyz

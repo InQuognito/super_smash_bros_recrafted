@@ -12,7 +12,7 @@
 							"snake.smoke_grenade.ammo": {
 								"min": 1
 							},
-							"cooldown.3": {
+							"cooldown": {
 								"max": 0
 							}
 						}
@@ -30,7 +30,10 @@
 				],
 				"item": {
 					"predicates": {
-						"minecraft:custom_data": "{item:\"smoke_grenade\"}"
+						"minecraft:custom_data": "{item:\"smoke_grenade\"}",
+						"minecraft:damage": {
+							"damage": 0
+						}
 					}
 				}
 			}

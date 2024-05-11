@@ -1,3 +1,5 @@
+function ssbrc:logic/fighters/ability/init
+
 particle minecraft:sonic_boom ~ ~0.75 ~ 0.0 0.0 0.0 0.0 1 normal @a
 
 effect give @e[tag=!ryu,tag=!shadow,tag=!sonic,predicate=ssbrc:flag/targets] minecraft:slowness 20 1 true
@@ -17,4 +19,4 @@ item replace entity @s weapon.mainhand with minecraft:air
 playsound ssbrc:fighters.shadow.chaos_control.activate player @s
 execute as @a[predicate=ssbrc:flag/player,tag=!self] at @s run playsound ssbrc:fighters.shadow.chaos_control.hit player @s
 
-advancement revoke @s only ssbrc:utility/use_item/fighters/shadow/chaos_control
+function ssbrc:logic/fighters/ability/deinit

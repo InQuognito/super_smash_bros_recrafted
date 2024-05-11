@@ -56,9 +56,12 @@
 									],
 									"show_in_tooltip": false
 								},
-								"minecraft:custom_model_data": 1828,
-								"minecraft:custom_data": {"item":"dragon_claw"}
+								"minecraft:custom_model_data": 1828
 							}
+						},
+						{
+							"function": "minecraft:set_custom_data",
+							"tag": "{item:\"dragon_claw\"}"
 						}
 					]
 				}

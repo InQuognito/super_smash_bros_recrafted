@@ -38,8 +38,7 @@
 										}
 									],
 									"show_in_tooltip": false
-								},
-								"minecraft:custom_data": {"item":"night_slash"}
+								}
 							}
 						},
 						{
@@ -87,6 +86,10 @@
 									}
 								}
 							]
+						},
+						{
+							"function": "minecraft:set_custom_data",
+							"tag": "{item:\"night_slash\"}"
 						}
 					]
 				}

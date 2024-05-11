@@ -61,9 +61,12 @@
 							"function": "minecraft:set_components",
 							"components": {
 								"minecraft:max_damage": 200,
-								"minecraft:custom_model_data": 1923,
-								"minecraft:custom_data": {"item":"phase_locket","disabled":"false"}
+								"minecraft:custom_model_data": 1923
 							}
+						},
+						{
+							"function": "minecraft:set_custom_data",
+							"tag": "{item:\"phase_locket\",disabled:\"false\"}"
 						}
 					]
 				}

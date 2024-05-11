@@ -41,8 +41,7 @@
 										}
 									],
 									"show_in_tooltip": false
-								},
-								"minecraft:custom_data": {"item":"krazoan_staff"}
+								}
 							}
 						},
 						{
@@ -114,6 +113,16 @@
 									}
 								}
 							]
+						},
+						{
+							"function": "minecraft:set_components",
+							"components": {
+								"minecraft:max_damage": 30
+							}
+						},
+						{
+							"function": "minecraft:set_custom_data",
+							"tag": "{item:\"krazoan_staff\"}"
 						}
 					]
 				}

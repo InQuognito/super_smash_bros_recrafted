@@ -1,5 +1,5 @@
-loot replace entity @s weapon.mainhand loot ssbrc:fighters/byleth/black_eagles/aymr
+item modify entity @s weapon.mainhand ssbrc:fighters/byleth/black_eagles/aymr/awakened
 
-function ssbrc:logic/fighters/cooldown/set/const {type:"1",value:"10"}
+scoreboard players set @s cooldown 10
 
-scoreboard players set @s charge.output 0
+function ssbrc:logic/fighters/charge/reset

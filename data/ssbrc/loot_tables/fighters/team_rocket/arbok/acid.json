@@ -67,9 +67,12 @@
 							"function": "minecraft:set_components",
 							"components": {
 								"minecraft:max_damage": 300,
-								"minecraft:custom_model_data": 50013,
-								"minecraft:custom_data": {"item":"acid"}
+								"minecraft:custom_model_data": 50013
 							}
+						},
+						{
+							"function": "minecraft:set_custom_data",
+							"tag": "{item:\"acid\"}"
 						}
 					]
 				}

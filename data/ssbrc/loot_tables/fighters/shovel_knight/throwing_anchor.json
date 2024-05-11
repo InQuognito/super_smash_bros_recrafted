@@ -67,9 +67,12 @@
 							"function": "minecraft:set_components",
 							"components": {
 								"minecraft:max_damage": 10,
-								"minecraft:custom_model_data": 1925,
-								"minecraft:custom_data": {"item":"throwing_anchor","disabled":"false"}
+								"minecraft:custom_model_data": 1925
 							}
+						},
+						{
+							"function": "minecraft:set_custom_data",
+							"tag": "{item:\"throwing_anchor\",disabled:\"false\"}"
 						}
 					]
 				}

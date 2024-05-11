@@ -1,1 +1,0 @@
-execute if entity @s[scores={cooldown.1=..0},nbt={SelectedItem:{components:{"minecraft:custom_data":{item:"aymr"}}}},predicate=ssbrc:flag/sneaking] run function ssbrc:fighters/byleth/logic/black_eagles/aymr/check

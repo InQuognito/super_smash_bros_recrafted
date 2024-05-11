@@ -42,8 +42,7 @@
 									],
 									"show_in_tooltip": false
 								},
-								"minecraft:custom_model_data": 100,
-								"minecraft:custom_data": {"item":"steel_sword"}
+								"minecraft:custom_model_data": 100
 							}
 						},
 						{
@@ -78,6 +77,10 @@
 									}
 								}
 							]
+						},
+						{
+							"function": "minecraft:set_custom_data",
+							"tag": "{item:\"steel_sword\"}"
 						}
 					]
 				}

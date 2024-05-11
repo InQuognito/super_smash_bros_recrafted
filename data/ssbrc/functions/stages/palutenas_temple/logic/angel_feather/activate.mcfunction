@@ -1,5 +1,5 @@
 tag @s add angel_feather
-function ssbrc:logic/fighters/effects/defaults/jump_boost
+attribute @s minecraft:generic.jump_strength modifier add 19192183-0000-0000-0002-000110000001 "angel_feather" 4.0 add_multiplied_base
 
 item replace entity @s weapon.mainhand with minecraft:air
 

@@ -51,13 +51,16 @@
 										}
 									],
 									"show_in_tooltip": false
-								},
-								"minecraft:custom_data": {"item":"devastation_strike"}
+								}
 							}
 						},
 						{
 							"function": "minecraft:reference",
 							"name": "ssbrc:fighters/init/preset/melee"
+						},
+						{
+							"function": "minecraft:set_custom_data",
+							"tag": "{item:\"devastation_strike\"}"
 						}
 					]
 				}

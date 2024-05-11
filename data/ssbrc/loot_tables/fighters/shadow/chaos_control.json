@@ -28,7 +28,7 @@
 						},
 						{
 							"function": "minecraft:reference",
-							"name": "ssbrc:fighters/init/unbreakable/instant"
+							"name": "ssbrc:fighters/init/animation/instant"
 						},
 						{
 							"function": "minecraft:set_lore",

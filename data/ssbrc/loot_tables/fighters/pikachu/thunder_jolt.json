@@ -27,6 +27,10 @@
 							"name": "ssbrc:fighters/init/animation/instant"
 						},
 						{
+							"function": "minecraft:reference",
+							"name": "ssbrc:fighters/init/ability/default"
+						},
+						{
 							"function": "minecraft:set_lore",
 							"entity": "this",
 							"lore": [
@@ -63,9 +67,12 @@
 							"function": "minecraft:set_components",
 							"components": {
 								"minecraft:max_damage": 20,
-								"minecraft:custom_model_data": 50003,
-								"minecraft:custom_data": {"item":"fireball"}
+								"minecraft:custom_model_data": 50003
 							}
+						},
+						{
+							"function": "minecraft:set_custom_data",
+							"tag": "{item:\"thunder_jolt\"}"
 						}
 					]
 				}

@@ -1353,7 +1353,7 @@
 		"components": {
 			"minecraft:trim": {
 				"material": "minecraft:quartz",
-				"pattern": "ssbrc:fighters/mega_man/default",
+				"pattern": "ssbrc:fighters/mega_man/default/default",
 				"show_in_tooltip": false
 			}
 		},
@@ -1372,7 +1372,7 @@
 		"components": {
 			"minecraft:trim": {
 				"material": "minecraft:quartz",
-				"pattern": "ssbrc:fighters/mega_man/gold",
+				"pattern": "ssbrc:fighters/mega_man/gold/default",
 				"show_in_tooltip": false
 			}
 		},
@@ -1391,7 +1391,7 @@
 		"components": {
 			"minecraft:trim": {
 				"material": "minecraft:quartz",
-				"pattern": "ssbrc:fighters/mega_man/star_force",
+				"pattern": "ssbrc:fighters/mega_man/star_force/default",
 				"show_in_tooltip": false
 			}
 		},

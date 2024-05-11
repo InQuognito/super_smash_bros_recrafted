@@ -73,9 +73,12 @@
 							"function": "minecraft:set_components",
 							"components": {
 								"minecraft:max_damage": 100,
-								"minecraft:custom_model_data": 50009,
-								"minecraft:custom_data": {"item":"leech_seed"}
+								"minecraft:custom_model_data": 50009
 							}
+						},
+						{
+							"function": "minecraft:set_custom_data",
+							"tag": "{item:\"leech_seed\"}"
 						}
 					]
 				}

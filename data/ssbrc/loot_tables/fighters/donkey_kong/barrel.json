@@ -41,9 +41,9 @@
 										}
 									],
 									"show_in_tooltip": false
-								},
-								"minecraft:custom_data": {"item":"barrel"}
-							}
+								}
+							},
+							"minecraft:max_damage": 10
 						},
 						{
 							"function": "minecraft:reference",
@@ -145,6 +145,10 @@
 									}
 								}
 							]
+						},
+						{
+							"function": "minecraft:set_custom_data",
+							"tag": "{item:\"barrel\"}"
 						}
 					]
 				}

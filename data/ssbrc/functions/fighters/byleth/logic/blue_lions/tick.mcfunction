@@ -1,5 +1,5 @@
 # Spin Attack
-execute if entity @s[tag=spinning] run function ssbrc:fighters/byleth/logic/blue_lions/spin_attack/tick
+execute if entity @s[scores={rotation=1000..}] run function ssbrc:fighters/byleth/logic/blue_lions/spin_attack/tick
 
 # Steed Charge
 function ssbrc:logic/fighters/cooldown/display/check {item:"steed_charge"}

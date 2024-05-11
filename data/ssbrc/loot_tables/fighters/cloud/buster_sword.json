@@ -41,8 +41,7 @@
 										}
 									],
 									"show_in_tooltip": false
-								},
-								"minecraft:custom_data": {"item":"buster_sword"}
+								}
 							}
 						},
 						{
@@ -52,6 +51,10 @@
 						{
 							"function": "minecraft:reference",
 							"name": "ssbrc:fighters/cloud/buster_sword"
+						},
+						{
+							"function": "minecraft:set_custom_data",
+							"tag": "{item:\"buster_sword\"}"
 						}
 					]
 				}

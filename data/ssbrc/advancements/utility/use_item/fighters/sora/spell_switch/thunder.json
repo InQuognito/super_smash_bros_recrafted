@@ -9,7 +9,7 @@
 						"condition": "minecraft:entity_scores",
 						"entity": "this",
 						"scores": {
-							"cooldown.1": {
+							"cooldown": {
 								"max": 0
 							}
 						}
@@ -28,7 +28,10 @@
 				],
 				"item": {
 					"predicates": {
-						"minecraft:custom_data": "{spell:\"blizzard\"}"
+						"minecraft:custom_data": "{spell:\"blizzard\"}",
+						"minecraft:damage": {
+							"damage": 0
+						}
 					}
 				}
 			}

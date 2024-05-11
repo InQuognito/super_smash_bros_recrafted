@@ -52,9 +52,12 @@
 						{
 							"function": "minecraft:set_components",
 							"components": {
-								"minecraft:custom_model_data": 9999990,
-								"minecraft:custom_data": {"item":"selector"}
+								"minecraft:custom_model_data": 9999990
 							}
+						},
+						{
+							"function": "minecraft:set_custom_data",
+							"tag": "{item:\"selector\"}"
 						}
 					]
 				}

@@ -56,9 +56,12 @@
 									],
 									"show_in_tooltip": false
 								},
-								"minecraft:custom_model_data": 1824,
-								"minecraft:custom_data": {"item":"bear_claw"}
+								"minecraft:custom_model_data": 1824
 							}
+						},
+						{
+							"function": "minecraft:set_custom_data",
+							"tag": "{item:\"bear_claw\"}"
 						}
 					]
 				}

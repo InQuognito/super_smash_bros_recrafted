@@ -52,6 +52,12 @@
 							"name": "ssbrc:fighters/shadow/chaos_spear/disabled"
 						},
 						{
+							"function": "minecraft:set_components",
+							"components": {
+								"minecraft:max_damage": 20
+							}
+						},
+						{
 							"function": "minecraft:set_custom_data",
 							"tag": "{item:\"chaos_spear\"}"
 						}

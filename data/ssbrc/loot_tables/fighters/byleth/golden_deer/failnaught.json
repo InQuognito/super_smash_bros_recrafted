@@ -50,8 +50,14 @@
 							"mode": "append"
 						},
 						{
+							"function": "minecraft:set_components",
+							"components": {
+								"minecraft:max_damage": 6
+							}
+						},
+						{
 							"function": "minecraft:set_custom_data",
-							"tag": "{item:\"failnaught\",path:\"byleth/logic/golden_deer/failnaught/activate\"}"
+							"tag": "{item:\"failnaught\",path:\"byleth/logic/golden_deer/failnaught/check\"}"
 						}
 					]
 				}

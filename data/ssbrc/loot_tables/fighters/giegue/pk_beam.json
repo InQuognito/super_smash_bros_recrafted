@@ -69,9 +69,12 @@
 							"function": "minecraft:set_components",
 							"components": {
 								"minecraft:max_damage": 60,
-								"minecraft:custom_model_data": 1862,
-								"minecraft:custom_data": {"item":"pk_beam"}
+								"minecraft:custom_model_data": 1862
 							}
+						},
+						{
+							"function": "minecraft:set_custom_data",
+							"tag": "{item:\"pk_beam\"}"
 						}
 					]
 				}

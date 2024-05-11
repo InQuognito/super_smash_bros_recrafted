@@ -1,4 +1,4 @@
-item replace entity @s weapon.mainhand with minecraft:air
+clear @s minecraft:nether_star[minecraft:custom_data~{group:"mask"}]
 
 tag @s remove archangel
 tag @s remove arsene

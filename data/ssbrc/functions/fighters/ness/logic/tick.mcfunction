@@ -2,4 +2,4 @@
 function ssbrc:logic/fighters/cooldown/display/check {item:"pk_fire"}
 
 # PK Flash
-execute if score @s cooldown.2 <= ness.pk_flash.cooldown vars run function ssbrc:logic/fighters/cooldown/display/check {item:"pk_flash"}
+execute unless entity @s[tag=pk_flash] run function ssbrc:logic/fighters/cooldown/display/check {item:"pk_flash"}

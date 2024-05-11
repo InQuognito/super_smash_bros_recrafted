@@ -20,15 +20,11 @@
 						},
 						{
 							"function": "minecraft:reference",
-							"name": "ssbrc:fighters/init/tooltip/ability/magic"
+							"name": "ssbrc:fighters/init/preset/magic"
 						},
 						{
 							"function": "minecraft:reference",
 							"name": "ssbrc:fighters/init/ability/default"
-						},
-						{
-							"function": "minecraft:reference",
-							"name": "ssbrc:fighters/init/unbreakable/smooth"
 						},
 						{
 							"function": "minecraft:set_lore",
@@ -86,6 +82,12 @@
 						{
 							"function": "minecraft:reference",
 							"name": "ssbrc:fighters/zelda/bomb/stowed"
+						},
+						{
+							"function": "minecraft:set_components",
+							"components": {
+								"minecraft:max_damage": 20
+							}
 						},
 						{
 							"function": "minecraft:set_custom_data",

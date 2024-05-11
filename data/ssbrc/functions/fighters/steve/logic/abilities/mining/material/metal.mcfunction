@@ -6,4 +6,4 @@ execute if block ~ ~ ~ minecraft:redstone_block run particle minecraft:item{item
 
 execute if score #loop temp matches 0 run playsound minecraft:block.metal.hit player @a ~ ~ ~ 1.0
 
-scoreboard players set particlePlaced temp 1
+scoreboard players set particle_placed temp 1

@@ -2,10 +2,18 @@
 function ssbrc:fighters/zelda/logic/mana/update
 
 # Bomb
-execute if entity @s[tag=active_fuse] run function ssbrc:fighters/zelda/logic/abilities/bomb/fuse_tick
+execute if entity @s[tag=bomb] run function ssbrc:fighters/zelda/logic/abilities/bomb/fuse_tick
+
+function ssbrc:logic/fighters/cooldown/display/check {item:"bomb"}
 
 # Bow
 execute unless items entity @s weapon.mainhand minecraft:nether_star[minecraft:custom_data~{item:"bow"}] if items entity @s container.* minecraft:nether_star[minecraft:custom_data~{item:"bow",pulling:"true"}] run function ssbrc:fighters/zelda/logic/abilities/bow/reset
+
+# Fire Rod
+function ssbrc:logic/fighters/cooldown/display/check {item:"fire_rod"}
+
+# Ice Rod
+function ssbrc:logic/fighters/cooldown/display/check {item:"ice_rod"}
 
 # Passive Items
 execute if items entity @s container.* minecraft:nether_star[minecraft:custom_data~{item:"goron_locket"}] run effect clear @s minecraft:wither

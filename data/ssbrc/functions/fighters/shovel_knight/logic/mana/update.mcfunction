@@ -13,5 +13,4 @@ execute if score percentage temp matches 71..80 run title @s actionbar [{"transl
 execute if score percentage temp matches 81..90 run title @s actionbar [{"translate":"ssbrc.fighters.mana","bold":true,"color":"white"},{"text":"\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae","color":"dark_aqua"}]
 execute if score percentage temp matches 91.. run title @s actionbar [{"translate":"ssbrc.fighters.mana","bold":true,"color":"white"},{"text":"\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae","color":"dark_aqua"}]
 
-execute if score @s mana matches ..0 run function ssbrc:fighters/shovel_knight/logic/mana/deplete
-execute if score @s mana > shovel_knight.mana.max vars run scoreboard players operation @s mana = shovel_knight.mana.max vars
+execute if entity @s[scores={mana=..0}] run function ssbrc:fighters/shovel_knight/logic/mana/deplete

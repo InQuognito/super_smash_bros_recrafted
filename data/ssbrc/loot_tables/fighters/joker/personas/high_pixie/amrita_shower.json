@@ -34,9 +34,12 @@
 							"function": "minecraft:set_components",
 							"components": {
 								"minecraft:max_damage": 100,
-								"minecraft:custom_model_data": 603,
-								"minecraft:custom_data": {"item":"amrita_shower"}
+								"minecraft:custom_model_data": 603
 							}
+						},
+						{
+							"function": "minecraft:set_custom_data",
+							"tag": "{item:\"amrita_shower\"}"
 						}
 					]
 				}

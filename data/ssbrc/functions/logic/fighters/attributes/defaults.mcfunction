@@ -50,3 +50,14 @@ attribute @s[tag=snake,scores={snake.capacity=10..}] minecraft:generic.movement_
 attribute @s[tag=sonic] minecraft:generic.movement_speed base set 0.11
 attribute @s[tag=sora,tag=wisdom] minecraft:generic.movement_speed base set 0.105
 attribute @s[tag=wobbuffet] minecraft:generic.movement_speed base set 0.085
+
+# Jump Strength
+function ssbrc:logic/fighters/attributes/defaults/jump_strength
+
+# Gravity
+execute unless score sector_z stage matches 1 run attribute @s minecraft:generic.gravity base set 0.08
+execute if score sector_z stage matches 1 run attribute @s minecraft:generic.gravity base set 0.01
+
+# Fall Damage
+execute unless score sector_z stage matches 1 run attribute @s minecraft:generic.safe_fall_distance base set 8.0
+execute if score sector_z stage matches 1 run attribute @s minecraft:generic.safe_fall_distance base set 80.0

@@ -19,7 +19,7 @@
 						"condition": "minecraft:entity_scores",
 						"entity": "this",
 						"scores": {
-							"cooldown.2": {
+							"cooldown": {
 								"max": 0
 							}
 						}
@@ -27,7 +27,10 @@
 				],
 				"item": {
 					"predicates": {
-						"minecraft:custom_data": "{item:\"falcon_punch\"}"
+						"minecraft:custom_data": "{item:\"falcon_punch\"}",
+						"minecraft:damage": {
+							"damage": 0
+						}
 					}
 				}
 			}

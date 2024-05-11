@@ -19,50 +19,20 @@
 							}
 						},
 						{
-							"function": "minecraft:set_components",
-							"components": {
-								"minecraft:attribute_modifiers": {
-									"modifiers": [
-										{
-											"type": "minecraft:generic.attack_damage",
-											"uuid": [
-												666666666,
-												666666666,
-												666666666,
-												111111111
-											],
-											"name": "Attack Damage",
-											"amount": 6,
-											"operation": "add_multiplied_base",
-											"slot": "mainhand"
-										},
-										{
-											"type": "minecraft:generic.attack_speed",
-											"uuid": [
-												666666666,
-												666666666,
-												666666666,
-												222222222
-											],
-											"name": "Attack Speed",
-											"amount": 1.5,
-											"operation": "add_multiplied_base",
-											"slot": "mainhand"
-										}
-									],
-									"show_in_tooltip": false
-								},
-								"minecraft:custom_model_data": 1221,
-								"minecraft:custom_data": {"item":"palutena_bow\",pulling:\"false\",split:\"false\",path:\"pit/logic/abilities/palutena_bow/check"}
-							}
-						},
-						{
 							"function": "minecraft:reference",
 							"name": "ssbrc:fighters/init/tooltip/ability/hybrid"
 						},
 						{
 							"function": "minecraft:reference",
 							"name": "ssbrc:fighters/init/ability/charge"
+						},
+						{
+							"function": "minecraft:reference",
+							"name": "ssbrc:fighters/pit/palutena_bow/idle"
+						},
+						{
+							"function": "minecraft:set_custom_data",
+							"tag": "{item:\"palutena_bow\",path:\"pit/logic/abilities/palutena_bow/check\"}"
 						}
 					]
 				}

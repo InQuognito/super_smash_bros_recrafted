@@ -4,9 +4,13 @@ particle minecraft:crimson_spore ~ ~ ~ 0.05 0.0 0.05 0.0 100 normal @a
 
 execute as @e[predicate=ssbrc:flag/targets,tag=!self,distance=..6] unless block ~ ~-0.5 ~ minecraft:air run damage @s 20.0 ssbrc:generic by @a[tag=self,limit=1]
 
+scoreboard players set @s cooldown 10
+
 item modify entity @s weapon.mainhand ssbrc:fighters/byleth/black_eagles/aymr/default
 
-scoreboard players add @s charge.1 2
+scoreboard players set durability.remove temp 3
+function ssbrc:logic/fighters/durability/remove
+
 function ssbrc:fighters/byleth/logic/black_eagles/aymr/hit
 
 playsound ssbrc:fighters.byleth.black_eagles.aymr.activate player @a

@@ -4,7 +4,8 @@ execute anchored eyes positioned ^ ^ ^1 summon minecraft:marker run function ssb
 
 scoreboard players operation @s mana -= sora.firaga.cost vars
 
-function ssbrc:logic/fighters/cooldown/set/const {type:"1",value:"20"}
+item modify entity @s weapon.mainhand {function:"minecraft:set_components",components:{"minecraft:max_damage":20}}
+function ssbrc:logic/fighters/cooldown/set
 
 playsound ssbrc:fighters.sora.firaga.activate player @a
 

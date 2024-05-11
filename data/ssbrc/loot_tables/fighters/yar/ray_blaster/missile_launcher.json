@@ -83,9 +83,12 @@
 						{
 							"function": "minecraft:set_components",
 							"components": {
-								"minecraft:max_damage": 100,
-								"minecraft:custom_data": {"item":"missile_launcher"}
+								"minecraft:max_damage": 100
 							}
+						},
+						{
+							"function": "minecraft:set_custom_data",
+							"tag": "{item:\"missile_launcher\"}"
 						}
 					]
 				}

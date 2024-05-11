@@ -1,4 +1,4 @@
-function ssbrc:logic/fighters/cooldown/set/const {type:"1",value:"20"}
+function ssbrc:logic/fighters/cooldown/set
 
 playsound ssbrc:fighters.hero.insufficient_mana player @s
 

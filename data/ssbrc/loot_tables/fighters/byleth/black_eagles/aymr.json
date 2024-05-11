@@ -6,7 +6,7 @@
 			"entries": [
 				{
 					"type": "minecraft:item",
-					"name": "minecraft:nether_star",
+					"name": "minecraft:iron_axe",
 					"functions": [
 						{
 							"function": "minecraft:set_components",
@@ -41,17 +41,16 @@
 										}
 									],
 									"show_in_tooltip": false
-								},
-								"minecraft:custom_data": {"item":"aymr"}
+								}
 							}
 						},
 						{
 							"function": "minecraft:reference",
-							"name": "ssbrc:fighters/init/preset/melee"
+							"name": "ssbrc:fighters/init/tooltip/ability/melee"
 						},
 						{
 							"function": "minecraft:reference",
-							"name": "ssbrc:fighters/init/ability/default"
+							"name": "ssbrc:fighters/init/ability/charge"
 						},
 						{
 							"function": "minecraft:reference",
@@ -85,6 +84,16 @@
 									}
 								}
 							]
+						},
+						{
+							"function": "minecraft:set_components",
+							"components": {
+								"minecraft:max_damage": 6
+							}
+						},
+						{
+							"function": "minecraft:set_custom_data",
+							"tag": "{item:\"aymr\"}"
 						}
 					]
 				}

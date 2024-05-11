@@ -9,7 +9,7 @@
 	},
 	{
 		"function": "minecraft:reference",
-		"name": "ssbrc:fighters/init/unbreakable/instant"
+		"name": "ssbrc:fighters/init/animation/instant"
 	},
 	{
 		"function": "minecraft:set_lore",
@@ -77,6 +77,6 @@
 	},
 	{
 		"function": "minecraft:set_custom_data",
-		"tag": "{group:\"mask:\"}"
+		"tag": "{group:\"mask\"}"
 	}
 ]

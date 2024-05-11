@@ -15,4 +15,7 @@ tellraw @s[tag=rek] [{"translate":"ssbrc.fighters.hero.skin.rek","color":"blue"}
 tellraw @s[tag=!sofia,advancements={ssbrc:fighters/hero/skins/sofia=true}] [{"translate":"ssbrc.fighters.hero.skin.sofia","color":"green","clickEvent":{"action":"run_command","value":"/trigger menu set 448"}}]
 tellraw @s[tag=sofia] [{"translate":"ssbrc.fighters.hero.skin.sofia","color":"green"},{"text":" ✔","color":"green"}]
 
+tellraw @s[tag=!solo,advancements={ssbrc:fighters/hero/skins/solo=true}] [{"translate":"ssbrc.fighters.hero.skin.solo","color":"green","clickEvent":{"action":"run_command","value":"/trigger menu set 449"}}]
+tellraw @s[tag=solo] [{"translate":"ssbrc.fighters.hero.skin.solo","color":"green"},{"text":" ✔","color":"green"}]
+
 function ssbrc:logic/fighters/menu/skin_options

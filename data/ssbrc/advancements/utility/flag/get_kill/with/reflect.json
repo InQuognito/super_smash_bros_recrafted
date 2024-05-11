@@ -4,20 +4,6 @@
 		"requirement": {
 			"trigger": "minecraft:player_killed_entity",
 			"conditions": {
-				"player": [
-					{
-						"condition": "minecraft:value_check",
-						"value": {
-							"type": "minecraft:score",
-							"target": {
-								"type": "minecraft:fixed",
-								"name": "game_stage"
-							},
-							"score": "temp"
-						},
-						"range": 4
-					}
-				],
 				"killing_blow": {
 					"direct_entity": {
 						"nbt": "{Tags:[\"reflected\"]}"

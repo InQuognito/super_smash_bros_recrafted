@@ -1,5 +1,5 @@
 # Thunder Jolt
-function ssbrc:fighters/pikachu/logic/abilities/thunder_jolt/cooldown
+function ssbrc:logic/fighters/cooldown/display/check {item:"thunder_jolt"}
 
 # Electric Terrain
 execute if score electric_terrain temp matches 1 run effect give @s minecraft:speed 1 1 true

@@ -9,7 +9,7 @@ execute if score percentage temp matches ..50 run particle minecraft:electric_sp
 execute if score percentage temp matches ..25 run particle minecraft:smoke ~ ~0.5 ~ 0.2 0.2 0.2 0.01 1 normal @a
 execute if score percentage temp matches ..10 run particle minecraft:small_flame ~ ~0.5 ~ 0.2 0.2 0.2 0.025 1 normal @a
 
-execute unless entity @s[tag=stop] unless block ^ ^ ^1 #ssbrc:passthrough run function ssbrc:fighters/yar/logic/abilities/drone/commands/stop/drone
+execute unless entity @s[tag=stop] unless block ^ ^ ^1 #ssbrc:passthrough run function ssbrc:fighters/yar/logic/abilities/drone/commands/stop/drone_force
 
 teleport @e[type=minecraft:item,distance=..1] @s
 

@@ -28,7 +28,7 @@
 						},
 						{
 							"function": "minecraft:reference",
-							"name": "ssbrc:fighters/init/unbreakable/instant"
+							"name": "ssbrc:fighters/init/animation/instant"
 						},
 						{
 							"function": "minecraft:set_lore",
@@ -60,9 +60,12 @@
 						{
 							"function": "minecraft:set_components",
 							"components": {
-								"minecraft:custom_model_data": 443,
-								"minecraft:custom_data": {"item":"magic_burst","group":"hero.spell"}
+								"minecraft:custom_model_data": 443
 							}
+						},
+						{
+							"function": "minecraft:set_custom_data",
+							"tag": "{item:\"magic_burst\",group:\"hero.spell\"}"
 						}
 					]
 				}

@@ -1,7 +1,7 @@
 function ssbrc:logic/fighters/ability/init
 
 scoreboard players operation limit temp = @s cloud.limit
-execute rotated ~ 0.0 anchored eyes positioned ^ ^ ^1 summon minecraft:marker run function ssbrc:fighters/cloud/logic/abilities/buster_sword/blade_beam/init
+execute rotated ~ 0.0 positioned ^ ^ ^1 summon minecraft:marker run function ssbrc:fighters/cloud/logic/abilities/buster_sword/blade_beam/init
 
 function ssbrc:logic/fighters/cooldown/set/const {type:"2",value:"20"}
 

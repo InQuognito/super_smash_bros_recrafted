@@ -52,8 +52,7 @@
 									],
 									"show_in_tooltip": false
 								},
-								"minecraft:custom_model_data": 887,
-								"minecraft:custom_data": {"item":"flame_sword"}
+								"minecraft:custom_model_data": 887
 							}
 						},
 						{
@@ -72,6 +71,10 @@
 								}
 							],
 							"mode": "append"
+						},
+						{
+							"function": "minecraft:set_custom_data",
+							"tag": "{item:\"flame_sword\"}"
 						}
 					]
 				}

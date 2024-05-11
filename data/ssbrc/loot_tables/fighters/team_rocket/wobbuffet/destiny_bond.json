@@ -73,9 +73,12 @@
 							"function": "minecraft:set_components",
 							"components": {
 								"minecraft:max_damage": 600,
-								"minecraft:custom_model_data": 50008,
-								"minecraft:custom_data": {"item":"destiny_bond"}
+								"minecraft:custom_model_data": 50008
 							}
+						},
+						{
+							"function": "minecraft:set_custom_data",
+							"tag": "{item:\"destiny_bond\"}"
 						}
 					]
 				}

@@ -38,8 +38,7 @@
 										}
 									],
 									"show_in_tooltip": false
-								},
-								"minecraft:custom_data": {"item":"counter"}
+								}
 							}
 						},
 						{
@@ -62,6 +61,10 @@
 								}
 							],
 							"mode": "append"
+						},
+						{
+							"function": "minecraft:set_custom_data",
+							"tag": "{item:\"counter\"}"
 						}
 					]
 				}

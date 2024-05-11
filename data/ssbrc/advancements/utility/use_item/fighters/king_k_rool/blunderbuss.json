@@ -17,7 +17,10 @@
 				],
 				"item": {
 					"predicates": {
-						"minecraft:custom_data": "{item:\"blunderbuss\"}"
+						"minecraft:custom_data": "{item:\"blunderbuss\"}",
+						"minecraft:damage": {
+							"damage": 0
+						}
 					}
 				}
 			}

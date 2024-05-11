@@ -11,15 +11,14 @@
 	},
 	{
 		"function": "minecraft:set_custom_model_data",
-		"value": 104,
+		"value": 103,
 		"conditions": [
 			{
-				"condition": "minecraft:inverted",
-				"term": {
-					"condition": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"nbt": "{Tags:[\"spinning\"]}"
+				"condition": "minecraft:entity_scores",
+				"entity": "this",
+				"scores": {
+					"rotation": {
+						"max": 999
 					}
 				}
 			}
@@ -27,13 +26,15 @@
 	},
 	{
 		"function": "minecraft:set_custom_model_data",
-		"value": 111,
+		"value": 105,
 		"conditions": [
 			{
-				"condition": "minecraft:entity_properties",
+				"condition": "minecraft:entity_scores",
 				"entity": "this",
-				"predicate": {
-					"nbt": "{Tags:[\"spinning\"]}"
+				"scores": {
+					"rotation": {
+						"min": 1000
+					}
 				}
 			}
 		]

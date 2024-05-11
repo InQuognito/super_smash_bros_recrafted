@@ -58,13 +58,17 @@
 									},
 									"show_in_tooltip": false
 								},
-								"minecraft:custom_model_data": 100,
-								"minecraft:custom_data": {"item":"sword_of_the_creator"}
+								"minecraft:max_damage": 10,
+								"minecraft:custom_model_data": 100
 							}
 						},
 						{
 							"function": "minecraft:reference",
-							"name": "ssbrc:fighters/init/preset/melee"
+							"name": "ssbrc:fighters/init/tooltip/ability/melee"
+						},
+						{
+							"function": "minecraft:set_custom_data",
+							"tag": "{item:\"sword_of_the_creator\"}"
 						}
 					]
 				}

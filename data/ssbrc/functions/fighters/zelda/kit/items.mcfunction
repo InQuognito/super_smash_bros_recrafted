@@ -19,5 +19,5 @@ function ssbrc:fighters/zelda/logic/passive_items/apply
 
 scoreboard players operation @s mana = zelda.magic.max vars
 
+tag @s remove bomb
 scoreboard players reset @s fuse
-tag @s remove active_fuse

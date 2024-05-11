@@ -28,8 +28,7 @@
 										}
 									],
 									"show_in_tooltip": false
-								},
-								"minecraft:custom_data": {"item":"hero.sword"}
+								}
 							}
 						},
 						{
@@ -39,6 +38,10 @@
 						{
 							"function": "minecraft:reference",
 							"name": "ssbrc:fighters/hero/sword"
+						},
+						{
+							"function": "minecraft:set_custom_data",
+							"tag": "{item:\"hero.sword\"}"
 						}
 					]
 				}

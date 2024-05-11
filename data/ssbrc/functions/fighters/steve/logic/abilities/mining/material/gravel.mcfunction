@@ -4,4 +4,4 @@ execute if block ~ ~ ~ minecraft:gravel run particle minecraft:item{item:"minecr
 
 execute if score #loop temp matches 0 run playsound minecraft:block.gravel.hit player @a ~ ~ ~ 0.25
 
-scoreboard players set particlePlaced temp 1
+scoreboard players set particle_placed temp 1

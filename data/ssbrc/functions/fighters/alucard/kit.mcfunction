@@ -4,4 +4,4 @@ execute unless items entity @s[scores={cooldown.2=..0}] container.* minecraft:ne
 
 loot replace entity @s hotbar.2 loot ssbrc:fighters/alucard/blood_metamorphosis
 
-function ssbrc:fighters/alucard/logic/alucard_shield
+loot replace entity @s weapon.offhand loot ssbrc:fighters/alucard/alucard_shield

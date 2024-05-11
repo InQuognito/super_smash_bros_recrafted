@@ -1,4 +1,58 @@
-{
-	"function": "minecraft:set_custom_data",
-	"tag": "{shovel_drop:0}"
-}
+[
+	{
+		"function": "minecraft:set_custom_data",
+		"tag": "{shovel_drop:\"false\"}"
+	},
+	{
+		"function": "minecraft:set_custom_model_data",
+		"value": 1920,
+		"conditions": [
+			{
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"nbt": "{Tags:[\"default\"]}"
+				}
+			}
+		]
+	},
+	{
+		"function": "minecraft:set_custom_model_data",
+		"value": 1922,
+		"conditions": [
+			{
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"nbt": "{Tags:[\"gold\"]}"
+				}
+			}
+		]
+	},
+	{
+		"function": "minecraft:set_custom_model_data",
+		"value": 1924,
+		"conditions": [
+			{
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"nbt": "{Tags:[\"armor_of_chaos\"]}"
+				}
+			}
+		]
+	},
+	{
+		"function": "minecraft:set_custom_model_data",
+		"value": 1926,
+		"conditions": [
+			{
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"nbt": "{Tags:[\"toad_gear\"]}"
+				}
+			}
+		]
+	}
+]

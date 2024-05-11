@@ -57,6 +57,7 @@ execute if score @s[tag=hero] menu matches 445 run function ssbrc:fighters/hero/
 execute if score @s[tag=hero] menu matches 446 run function ssbrc:fighters/hero/menu/skins/erdrick
 execute if score @s[tag=hero] menu matches 447 run function ssbrc:fighters/hero/menu/skins/rek
 execute if score @s[tag=hero] menu matches 448 run function ssbrc:fighters/hero/menu/skins/sofia
+execute if score @s[tag=hero] menu matches 449 run function ssbrc:fighters/hero/menu/skins/solo
 
 execute if score @s[tag=jigglypuff] menu matches 584 run function ssbrc:fighters/jigglypuff/menu/skins/default
 execute if score @s[tag=jigglypuff] menu matches 585 run function ssbrc:fighters/jigglypuff/menu/skins/gold

@@ -1,7 +1,3 @@
-#$scoreboard players operation @s cooldown = @s cooldown.$(cooldown)
-
-#$execute if entity @s[scores={cooldown=..0}] run function ssbrc:fighters/$(path)
-
-$function ssbrc:fighters/$(path)
+function ssbrc:logic/fighters/charge/path with entity @s SelectedItem.components.minecraft:custom_data
 
 function ssbrc:logic/fighters/charge/reset

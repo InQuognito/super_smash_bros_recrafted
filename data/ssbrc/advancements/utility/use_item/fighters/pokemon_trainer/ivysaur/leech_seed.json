@@ -12,7 +12,7 @@
 							"charge.1": {
 								"min": 1
 							},
-							"cooldown.1": {
+							"cooldown": {
 								"max": 0
 							}
 						}
@@ -20,7 +20,10 @@
 				],
 				"item": {
 					"predicates": {
-						"minecraft:custom_data": "{item:\"leech_seed\"}"
+						"minecraft:custom_data": "{item:\"leech_seed\"}",
+						"minecraft:damage": {
+							"damage": 0
+						}
 					}
 				}
 			}

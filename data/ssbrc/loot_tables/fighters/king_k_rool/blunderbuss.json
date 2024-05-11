@@ -10,11 +10,15 @@
 					"functions": [
 						{
 							"function": "minecraft:reference",
-							"name": "ssbrc:fighters/init/preset/ranged"
+							"name": "ssbrc:fighters/init/tooltip/ability/ranged"
 						},
 						{
 							"function": "minecraft:reference",
 							"name": "ssbrc:fighters/init/ability/default"
+						},
+						{
+							"function": "minecraft:reference",
+							"name": "ssbrc:fighters/init/animation/smooth"
 						},
 						{
 							"function": "minecraft:set_lore",
@@ -87,9 +91,12 @@
 						{
 							"function": "minecraft:set_components",
 							"components": {
-								"minecraft:max_damage": 60,
-								"minecraft:custom_data": {"item":"blunderbuss"}
+								"minecraft:max_damage": 60
 							}
+						},
+						{
+							"function": "minecraft:set_custom_data",
+							"tag": "{item:\"blunderbuss\"}"
 						}
 					]
 				}

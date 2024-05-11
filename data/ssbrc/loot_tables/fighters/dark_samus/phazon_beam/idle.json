@@ -41,8 +41,7 @@
 										}
 									],
 									"show_in_tooltip": false
-								},
-								"minecraft:custom_data": {"item":"phazon_beam\",path:\"dark_samus/logic/abilities/phazon_beam/activate"}
+								}
 							}
 						},
 						{
@@ -52,6 +51,10 @@
 						{
 							"function": "minecraft:reference",
 							"name": "ssbrc:fighters/dark_samus/phazon_beam"
+						},
+						{
+							"function": "minecraft:set_custom_data",
+							"tag": "{item:\"phazon_beam\",path:\"dark_samus/logic/abilities/phazon_beam/activate\"}"
 						}
 					]
 				}

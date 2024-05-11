@@ -61,9 +61,12 @@
 							"function": "minecraft:set_components",
 							"components": {
 								"minecraft:max_damage": 200,
-								"minecraft:custom_model_data": 50012,
-								"minecraft:custom_data": {"item":"payday"}
+								"minecraft:custom_model_data": 50012
 							}
+						},
+						{
+							"function": "minecraft:set_custom_data",
+							"tag": "{item:\"payday\"}"
 						}
 					]
 				}

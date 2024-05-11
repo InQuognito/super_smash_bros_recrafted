@@ -51,8 +51,7 @@
 										}
 									],
 									"show_in_tooltip": false
-								},
-								"minecraft:custom_data": {"item":"poison_jab"}
+								}
 							}
 						},
 						{
@@ -71,6 +70,10 @@
 								}
 							],
 							"mode": "append"
+						},
+						{
+							"function": "minecraft:set_custom_data",
+							"tag": "{item:\"poison_jab\"}"
 						}
 					]
 				}

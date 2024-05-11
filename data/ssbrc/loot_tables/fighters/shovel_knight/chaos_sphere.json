@@ -67,9 +67,12 @@
 							"function": "minecraft:set_components",
 							"components": {
 								"minecraft:max_damage": 20,
-								"minecraft:custom_model_data": 1921,
-								"minecraft:custom_data": {"item":"chaos_sphere","disabled":"false"}
+								"minecraft:custom_model_data": 1921
 							}
+						},
+						{
+							"function": "minecraft:set_custom_data",
+							"tag": "{item:\"chaos_sphere\",disabled:\"false\"}"
 						}
 					]
 				}

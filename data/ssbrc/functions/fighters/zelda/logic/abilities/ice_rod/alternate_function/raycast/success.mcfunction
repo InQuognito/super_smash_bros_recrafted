@@ -2,6 +2,7 @@ execute positioned ~ ~5 ~ summon minecraft:armor_stand run function ssbrc:fighte
 
 scoreboard players operation @s mana -= zelda.ice_rod.cost temp
 
-function ssbrc:logic/fighters/cooldown/set/const {type:"1",value:"60"}
+item modify entity @s weapon.mainhand {function:"minecraft:set_components",components:{"minecraft:max_damage":60}}
+function ssbrc:logic/fighters/cooldown/set
 
 scoreboard players set raycast_success temp 1

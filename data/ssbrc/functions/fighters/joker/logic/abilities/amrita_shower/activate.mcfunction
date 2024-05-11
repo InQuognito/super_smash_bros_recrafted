@@ -1,6 +1,6 @@
 scoreboard players set @s duration.3 40
 
-function ssbrc:logic/fighters/cooldown/set/score {type:"2",value:"joker.amrita_shower.cooldown"}
+function ssbrc:logic/fighters/cooldown/set
 
 playsound ssbrc:fighters.joker.amrita_shower.activate player @a
 

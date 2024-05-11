@@ -20,4 +20,4 @@ execute if block ~ ~ ~ minecraft:sand run particle minecraft:item{item:"minecraf
 
 execute if score #loop temp matches 0 run playsound minecraft:block.sand.hit player @a ~ ~ ~ 0.25
 
-scoreboard players set particlePlaced temp 1
+scoreboard players set particle_placed temp 1

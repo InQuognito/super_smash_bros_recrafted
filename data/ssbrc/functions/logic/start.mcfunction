@@ -1,3 +1,5 @@
+execute if score debug options matches 1 run schedule clear ssbrc:logic/timer
+
 execute as @a[predicate=ssbrc:ingame] run function ssbrc:logic/start/init
 
 team modify team1 nametagVisibility never

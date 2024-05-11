@@ -52,9 +52,12 @@
 						{
 							"function": "minecraft:set_components",
 							"components": {
-								"minecraft:custom_model_data": 9999989,
-								"minecraft:custom_data": {"item":"wiki"}
+								"minecraft:custom_model_data": 9999989
 							}
+						},
+						{
+							"function": "minecraft:set_custom_data",
+							"tag": "{item:\"wiki\"}"
 						}
 					]
 				}

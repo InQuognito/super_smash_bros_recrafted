@@ -116,9 +116,12 @@
 						{
 							"function": "minecraft:set_components",
 							"components": {
-								"minecraft:max_damage": 200,
-								"minecraft:custom_data": {"item":"falcon_punch"}
+								"minecraft:max_damage": 200
 							}
+						},
+						{
+							"function": "minecraft:set_custom_data",
+							"tag": "{item:\"falcon_punch\"}"
 						}
 					]
 				}

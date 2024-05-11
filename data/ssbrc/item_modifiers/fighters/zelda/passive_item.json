@@ -5,7 +5,7 @@
 	},
 	{
 		"function": "minecraft:reference",
-		"name": "ssbrc:fighters/init/unbreakable/smooth"
+		"name": "ssbrc:fighters/init/animation/smooth"
 	},
 	{
 		"function": "minecraft:set_custom_data",

@@ -11,6 +11,12 @@
 						{
 							"function": "minecraft:reference",
 							"name": "ssbrc:fighters/init/preset/shield"
+						},
+						{
+							"function": "minecraft:set_components",
+							"components": {
+								"minecraft:max_damage": 10
+							}
 						}
 					]
 				}

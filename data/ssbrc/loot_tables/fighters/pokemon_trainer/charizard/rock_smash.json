@@ -82,8 +82,7 @@
 										}
 									],
 									"show_in_tooltip": false
-								},
-								"minecraft:custom_data": {"item":"rock_smash"}
+								}
 							}
 						},
 						{
@@ -102,6 +101,10 @@
 								}
 							],
 							"mode": "append"
+						},
+						{
+							"function": "minecraft:set_custom_data",
+							"tag": "{item:\"rock_smash\"}"
 						}
 					]
 				}

@@ -281,6 +281,12 @@
 							"name": "ssbrc:fighters/sora/keyblades/blizzard"
 						},
 						{
+							"function": "minecraft:set_components",
+							"components": {
+								"minecraft:max_damage": 40
+							}
+						},
+						{
 							"function": "minecraft:reference",
 							"name": "ssbrc:fighters/sora/keyblades/primary/model"
 						}

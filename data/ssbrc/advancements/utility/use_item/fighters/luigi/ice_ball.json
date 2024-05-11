@@ -17,7 +17,10 @@
 				],
 				"item": {
 					"predicates": {
-						"minecraft:custom_data": "{item:\"ice_ball\"}"
+						"minecraft:custom_data": "{item:\"ice_ball\"}",
+						"minecraft:damage": {
+							"damage": 0
+						}
 					}
 				}
 			}

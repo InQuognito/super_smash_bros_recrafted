@@ -1,0 +1,33 @@
+{
+	"parent": "ssbrc:utility/use_item/root",
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:using_item",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:entity_scores",
+						"entity": "this",
+						"scores": {
+							"cooldown": {
+								"max": 0
+							}
+						}
+					},
+					{
+						"condition": "minecraft:reference",
+						"name": "ssbrc:flag/sneaking"
+					}
+				],
+				"item": {
+					"predicates": {
+						"minecraft:custom_data": "{item:\"aymr\",awakened:\"true\"}"
+					}
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "ssbrc:fighters/byleth/logic/black_eagles/ground_pound/check"
+	}
+}

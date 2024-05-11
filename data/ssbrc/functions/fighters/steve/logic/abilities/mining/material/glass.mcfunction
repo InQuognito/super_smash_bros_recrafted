@@ -25,4 +25,4 @@ execute if block ~ ~ ~ minecraft:tinted_glass run particle minecraft:item{item:"
 
 execute if score #loop temp matches 0 run playsound minecraft:block.glass.hit player @a ~ ~ ~ 0.25
 
-scoreboard players set particlePlaced temp 1
+scoreboard players set particle_placed temp 1

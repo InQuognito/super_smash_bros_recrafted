@@ -1,3 +1,3 @@
-function ssbrc:logic/fighters/cooldown/set/score {type:"2",value:"ness.pk_flash.cooldown"}
+tag @s remove pk_flash
 
-function ssbrc:logic/fighters/cooldown/set/const {type:"3",value:"10"}
+function ssbrc:logic/fighters/cooldown/check {item:"pk_flash"}

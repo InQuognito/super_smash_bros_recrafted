@@ -8,7 +8,7 @@ scoreboard players set @s duration.3 1
 
 execute if entity @s[tag=altered_beast] run function ssbrc:fighters/altered_beast/kits/centurion
 
-execute if entity @s[tag=alucard] run function ssbrc:fighters/alucard/restore_items
+execute if entity @s[tag=alucard] run function ssbrc:fighters/alucard/logic/abilities/mist/off
 
 execute if entity @s[tag=bowser] run function ssbrc:fighters/bowser/logic/abilities/rage/deactivate
 

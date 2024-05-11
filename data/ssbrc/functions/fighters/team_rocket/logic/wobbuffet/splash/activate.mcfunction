@@ -4,7 +4,7 @@ execute positioned ~ ~0.5 ~ facing ~ ~1 ~ run function ssbrc:fighters/team_rocke
 
 execute as @e[tag=!self,predicate=ssbrc:flag/targets,distance=..0.5] run damage @s 0.1 ssbrc:generic by @a[tag=self,limit=1]
 
-function ssbrc:logic/fighters/cooldown/set/score {type:"2",value:"team_rocket.splash.cooldown"}
+function ssbrc:logic/fighters/cooldown/set
 
 playsound ssbrc:fighters.team_rocket.wobbuffet.splash.activate player @a
 

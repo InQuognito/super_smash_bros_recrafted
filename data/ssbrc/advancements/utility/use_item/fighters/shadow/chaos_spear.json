@@ -9,7 +9,7 @@
 						"condition": "minecraft:entity_scores",
 						"entity": "this",
 						"scores": {
-							"cooldown.1": {
+							"cooldown": {
 								"max": 0
 							},
 							"charge.1": {
@@ -20,7 +20,10 @@
 				],
 				"item": {
 					"predicates": {
-						"minecraft:custom_data": "{item:\"chaos_spear\",disabled:\"false\"}"
+						"minecraft:custom_data": "{item:\"chaos_spear\",disabled:\"false\"}",
+						"minecraft:damage": {
+							"damage": 0
+						}
 					}
 				}
 			}

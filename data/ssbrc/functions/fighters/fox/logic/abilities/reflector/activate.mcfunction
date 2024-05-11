@@ -2,7 +2,7 @@ execute anchored eyes positioned ^ ^ ^2 run particle minecraft:sonic_boom ~ ~ ~ 
 
 scoreboard players set @s duration.2 20
 
-function ssbrc:logic/fighters/cooldown/set/score {type:"2",value:"fox.reflector.cooldown"}
+function ssbrc:logic/fighters/cooldown/set
 
 function ssbrc:logic/fighters/effects/mobility/immobilize/air_stall
 

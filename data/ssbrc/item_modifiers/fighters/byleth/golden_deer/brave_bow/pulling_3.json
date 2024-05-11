@@ -1,13 +1,16 @@
 [
 	{
 		"function": "minecraft:reference",
-		"name": "ssbrc:fighters/init/unbreakable/smooth"
+		"name": "ssbrc:fighters/init/animation/smooth"
 	},
 	{
 		"function": "minecraft:set_components",
 		"components": {
-			"minecraft:custom_model_data": 109,
-			"minecraft:custom_data": {"pulling":"true"}
+			"minecraft:custom_model_data": 106
 		}
+	},
+	{
+		"function": "minecraft:set_custom_data",
+		"tag": "{pulling:\"true\"}"
 	}
 ]

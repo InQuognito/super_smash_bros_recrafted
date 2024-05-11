@@ -58,13 +58,16 @@
 										}
 									],
 									"show_in_tooltip": false
-								},
-								"minecraft:custom_data": {"level":2}
+								}
 							}
 						},
 						{
 							"function": "minecraft:reference",
 							"name": "ssbrc:fighters/zelda/weapons/flail/obsidian"
+						},
+						{
+							"function": "minecraft:set_custom_data",
+							"tag": "{level:2}"
 						}
 					]
 				}

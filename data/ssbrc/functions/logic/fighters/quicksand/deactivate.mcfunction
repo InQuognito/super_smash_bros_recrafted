@@ -1,4 +1,5 @@
 tag @s remove quicksand
-effect clear @s minecraft:slowness
 
-function ssbrc:logic/fighters/effects/defaults/jump_boost
+attribute @s minecraft:generic.movement_speed modifier remove 19192183-0000-0000-0012-000110000001
+
+function ssbrc:logic/fighters/attributes/defaults/jump_strength

@@ -70,10 +70,10 @@
 	},
 	{
 		"function": "minecraft:set_custom_model_data",
-		"value": 101
+		"value": 100
 	},
 	{
 		"function": "minecraft:set_custom_data",
-		"tag": "{awakened:0}"
+		"tag": "{awakened:\"false\",chargable:\"true\"}"
 	}
 ]

@@ -41,8 +41,7 @@
 										}
 									],
 									"show_in_tooltip": false
-								},
-								"minecraft:custom_data": {"item":"shovel_blade"}
+								}
 							}
 						},
 						{
@@ -83,8 +82,14 @@
 							"mode": "append"
 						},
 						{
-							"function": "minecraft:reference",
-							"name": "ssbrc:fighters/shovel_knight/shovel_blade/default",
+							"function": "minecraft:set_name",
+							"entity": "this",
+							"name": {
+								"translate": "ssbrc.tooltips.shovel_knight.shovel_blade",
+								"color": "dark_aqua",
+								"bold": true,
+								"italic": false
+							},
 							"conditions": [
 								{
 									"condition": "minecraft:entity_properties",
@@ -96,8 +101,14 @@
 							]
 						},
 						{
-							"function": "minecraft:reference",
-							"name": "ssbrc:fighters/shovel_knight/shovel_blade/gold",
+							"function": "minecraft:set_name",
+							"entity": "this",
+							"name": {
+								"translate": "ssbrc.tooltips.shovel_knight.shovel_blade",
+								"color": "gold",
+								"bold": true,
+								"italic": false
+							},
 							"conditions": [
 								{
 									"condition": "minecraft:entity_properties",
@@ -109,8 +120,14 @@
 							]
 						},
 						{
-							"function": "minecraft:reference",
-							"name": "ssbrc:fighters/shovel_knight/shovel_blade/armor_of_chaos",
+							"function": "minecraft:set_name",
+							"entity": "this",
+							"name": {
+								"translate": "ssbrc.tooltips.shovel_knight.shovel_blade",
+								"color": "red",
+								"bold": true,
+								"italic": false
+							},
 							"conditions": [
 								{
 									"condition": "minecraft:entity_properties",
@@ -122,8 +139,14 @@
 							]
 						},
 						{
-							"function": "minecraft:reference",
-							"name": "ssbrc:fighters/shovel_knight/shovel_blade/toad_gear",
+							"function": "minecraft:set_name",
+							"entity": "this",
+							"name": {
+								"translate": "ssbrc.tooltips.shovel_knight.shovel_blade",
+								"color": "green",
+								"bold": true,
+								"italic": false
+							},
 							"conditions": [
 								{
 									"condition": "minecraft:entity_properties",
@@ -133,6 +156,14 @@
 									}
 								}
 							]
+						},
+						{
+							"function": "minecraft:reference",
+							"name": "ssbrc:fighters/shovel_knight/shovel_blade/shovel_drop/off"
+						},
+						{
+							"function": "minecraft:set_custom_data",
+							"tag": "{item:\"shovel_blade\"}"
 						}
 					]
 				}

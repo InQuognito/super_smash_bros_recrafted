@@ -9,4 +9,4 @@ execute if block ~ ~ ~ #ssbrc:material/wood/spruce run particle minecraft:item{i
 
 execute if score #loop temp matches 0 run playsound minecraft:block.wood.hit player @a ~ ~ ~ 0.25
 
-scoreboard players set particlePlaced temp 1
+scoreboard players set particle_placed temp 1

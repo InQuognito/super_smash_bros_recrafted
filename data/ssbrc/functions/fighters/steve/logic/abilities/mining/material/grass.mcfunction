@@ -16,4 +16,4 @@ execute if block ~ ~ ~ minecraft:tnt run particle minecraft:item{item:"minecraft
 
 execute if score #loop temp matches 0 run playsound minecraft:block.grass.hit player @a ~ ~ ~ 1.0
 
-scoreboard players set particlePlaced temp 1
+scoreboard players set particle_placed temp 1

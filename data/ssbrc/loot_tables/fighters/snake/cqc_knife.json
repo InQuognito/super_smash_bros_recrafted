@@ -41,8 +41,7 @@
 										}
 									],
 									"show_in_tooltip": false
-								},
-								"minecraft:custom_data": {"item":"cqc_knife"}
+								}
 							}
 						},
 						{
@@ -90,6 +89,10 @@
 									}
 								}
 							]
+						},
+						{
+							"function": "minecraft:set_custom_data",
+							"tag": "{item:\"cqc_knife\"}"
 						}
 					]
 				}

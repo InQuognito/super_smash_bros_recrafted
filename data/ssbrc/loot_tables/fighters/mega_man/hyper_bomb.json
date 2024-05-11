@@ -78,6 +78,12 @@
 							"name": "ssbrc:fighters/mega_man/hyper_bomb/default"
 						},
 						{
+							"function": "minecraft:set_components",
+							"components": {
+								"minecraft:max_damage": 40
+							}
+						},
+						{
 							"function": "minecraft:set_custom_data",
 							"tag": "{item:\"hyper_bomb\"}"
 						}

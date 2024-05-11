@@ -41,8 +41,7 @@
 										}
 									],
 									"show_in_tooltip": false
-								},
-								"minecraft:custom_data": {"item":"boxing_glove"}
+								}
 							}
 						},
 						{
@@ -77,6 +76,10 @@
 									}
 								}
 							]
+						},
+						{
+							"function": "minecraft:set_custom_data",
+							"tag": "{item:\"boxing_glove\"}"
 						}
 					]
 				}

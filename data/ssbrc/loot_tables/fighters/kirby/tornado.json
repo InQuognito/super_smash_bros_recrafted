@@ -47,8 +47,7 @@
 										"minecraft:knockback": 1
 									},
 									"show_in_tooltip": false
-								},
-								"minecraft:custom_data": {"item":"tornado"}
+								}
 							}
 						},
 						{
@@ -96,6 +95,10 @@
 									}
 								}
 							]
+						},
+						{
+							"function": "minecraft:set_custom_data",
+							"tag": "{item:\"tornado\"}"
 						}
 					]
 				}

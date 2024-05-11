@@ -12,7 +12,7 @@
 							"snake.anti_personnel_mine.ammo": {
 								"min": 1
 							},
-							"cooldown.2": {
+							"cooldown": {
 								"max": 0
 							}
 						}
@@ -30,7 +30,10 @@
 				],
 				"item": {
 					"predicates": {
-						"minecraft:custom_data": "{item:\"anti_personnel_mine\"}"
+						"minecraft:custom_data": "{item:\"anti_personnel_mine\"}",
+						"minecraft:damage": {
+							"damage": 0
+						}
 					}
 				}
 			}

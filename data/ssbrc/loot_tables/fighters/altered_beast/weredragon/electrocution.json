@@ -73,9 +73,12 @@
 							"function": "minecraft:set_components",
 							"components": {
 								"minecraft:max_damage": 300,
-								"minecraft:custom_model_data": 1829,
-								"minecraft:custom_data": {"item":"electrocution"}
+								"minecraft:custom_model_data": 1829
 							}
+						},
+						{
+							"function": "minecraft:set_custom_data",
+							"tag": "{item:\"electrocution\"}"
 						}
 					]
 				}

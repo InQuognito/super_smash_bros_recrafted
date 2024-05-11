@@ -34,9 +34,12 @@
 							"function": "minecraft:set_components",
 							"components": {
 								"minecraft:max_damage": 15,
-								"minecraft:custom_model_data": 606,
-								"minecraft:custom_data": {"item":"phantom_show"}
+								"minecraft:custom_model_data": 606
 							}
+						},
+						{
+							"function": "minecraft:set_custom_data",
+							"tag": "{item:\"phantom_show\"}"
 						}
 					]
 				}

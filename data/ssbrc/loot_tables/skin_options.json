@@ -52,9 +52,12 @@
 						{
 							"function": "minecraft:set_components",
 							"components": {
-								"minecraft:custom_model_data": 9999988,
-								"minecraft:custom_data": {"item":"skin_options"}
+								"minecraft:custom_model_data": 9999988
 							}
+						},
+						{
+							"function": "minecraft:set_custom_data",
+							"tag": "{item:\"skin_options\"}"
 						}
 					]
 				}

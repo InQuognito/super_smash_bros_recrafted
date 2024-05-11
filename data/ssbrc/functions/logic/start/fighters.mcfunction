@@ -6,20 +6,16 @@ scoreboard players operation @s stocks = stocks temp
 attribute @s minecraft:generic.jump_strength base set 0.42
 effect clear @s minecraft:slowness
 
-scoreboard players set @s[tag=alucard] durability 312
-scoreboard players set @s[tag=byleth] durability 318
-scoreboard players set @s[tag=link] durability 300
-scoreboard players set @s[tag=steve] durability 326
-scoreboard players set @s[tag=zelda] durability 322
-
 execute if score teams options matches 0 run scoreboard players operation team temp = @s id
 function ssbrc:logic/teams/set
 
 execute store result score @s health run data get entity @s Health
 
+scoreboard players set @s charge.output 0
 scoreboard players set @s flag.sprinting 0
 scoreboard players set @s frostbite.cooldown 0
 scoreboard players set @s rotation 0
+scoreboard players set @s shadow.chaos_control 0
 
 function ssbrc:logic/fighters/get {function:"ssbrc:logic/fighters/kit"}
 

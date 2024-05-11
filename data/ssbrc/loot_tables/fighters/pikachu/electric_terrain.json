@@ -24,7 +24,11 @@
 						},
 						{
 							"function": "minecraft:reference",
-							"name": "ssbrc:fighters/init/unbreakable/instant"
+							"name": "ssbrc:fighters/init/animation/instant"
+						},
+						{
+							"function": "minecraft:reference",
+							"name": "ssbrc:fighters/init/ability/default"
 						},
 						{
 							"function": "minecraft:set_lore",
@@ -62,9 +66,12 @@
 						{
 							"function": "minecraft:set_components",
 							"components": {
-								"minecraft:custom_model_data": 1201,
-								"minecraft:custom_data": {"item":"electric_terrain"}
+								"minecraft:custom_model_data": 1201
 							}
+						},
+						{
+							"function": "minecraft:set_custom_data",
+							"tag": "{item:\"electric_terrain\"}"
 						}
 					]
 				}

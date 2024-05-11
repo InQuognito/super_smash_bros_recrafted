@@ -34,9 +34,12 @@
 							"function": "minecraft:set_components",
 							"components": {
 								"minecraft:max_damage": 40,
-								"minecraft:custom_model_data": 604,
-								"minecraft:custom_data": {"item":"eiagon"}
+								"minecraft:custom_model_data": 604
 							}
+						},
+						{
+							"function": "minecraft:set_custom_data",
+							"tag": "{item:\"eiagon\"}"
 						}
 					]
 				}

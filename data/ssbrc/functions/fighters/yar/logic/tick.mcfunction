@@ -3,6 +3,8 @@ execute if items entity @s container.* minecraft:nether_star[minecraft:custom_da
 
 execute if entity @s[scores={cooldown.2=1}] run function ssbrc:fighters/yar/logic/abilities/drone/regain
 
+function ssbrc:logic/fighters/cooldown/display/check {item:"drone"}
+
 # Power Ups
 execute if entity @s[scores={duration.1=1}] run function ssbrc:fighters/yar/logic/abilities/power_ups/reset
 

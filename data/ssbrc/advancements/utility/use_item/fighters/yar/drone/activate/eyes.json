@@ -24,7 +24,10 @@
 				],
 				"item": {
 					"predicates": {
-						"minecraft:custom_data": "{item:\"drone\",command:\"activate\"}"
+						"minecraft:custom_data": "{item:\"drone\",command:\"activate\"}",
+						"minecraft:damage": {
+							"damage": 0
+						}
 					}
 				}
 			}

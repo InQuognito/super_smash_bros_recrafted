@@ -61,9 +61,12 @@
 							"function": "minecraft:set_components",
 							"components": {
 								"minecraft:max_damage": 10,
-								"minecraft:custom_model_data": 441,
-								"minecraft:custom_data": {"item":"bang","group":"hero.spell"}
+								"minecraft:custom_model_data": 441
 							}
+						},
+						{
+							"function": "minecraft:set_custom_data",
+							"tag": "{item:\"bang\",group:\"hero.spell\"}"
 						}
 					]
 				}

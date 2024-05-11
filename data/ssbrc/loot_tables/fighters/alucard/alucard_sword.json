@@ -28,8 +28,7 @@
 										}
 									],
 									"show_in_tooltip": false
-								},
-								"minecraft:custom_data": {"item":"alucard_sword"}
+								}
 							}
 						},
 						{
@@ -103,6 +102,10 @@
 									}
 								}
 							]
+						},
+						{
+							"function": "minecraft:set_custom_data",
+							"tag": "{item:\"alucard_sword\"}"
 						}
 					]
 				}

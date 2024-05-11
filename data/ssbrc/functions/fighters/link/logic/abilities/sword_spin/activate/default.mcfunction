@@ -6,8 +6,7 @@ tag @s add no_spin
 tag @s remove sword_spin
 
 scoreboard players set @s rotation 1000
-
-loot replace entity @s weapon.mainhand loot ssbrc:fighters/link/master_sword
+item modify entity @s weapon.mainhand ssbrc:fighters/link/master_sword
 
 execute if entity @s[predicate=ssbrc:flag/in_air] run function ssbrc:fighters/link/logic/abilities/sword_spin/levitate
 
