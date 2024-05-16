@@ -13,7 +13,7 @@ scoreboard objectives add log.wins dummy
 scoreboard objectives add log.wL dummy
 
 scoreboard objectives add hard_resets dummy
-scoreboard objectives add options trigger
+scoreboard objectives add options dummy
 scoreboard objectives add random dummy
 scoreboard objectives add world_time dummy
 
