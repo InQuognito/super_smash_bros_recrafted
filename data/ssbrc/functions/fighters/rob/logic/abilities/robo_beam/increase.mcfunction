@@ -1,4 +1,4 @@
-function ssbrc:logic/fighters/modify_item {old:"robo_beam",new:"rob/robo_beam"}
+function ssbrc:logic/modify_item {old:"robo_beam",new:"fighters/rob/robo_beam"}
 
 function ssbrc:logic/fighters/armor/update/head
 

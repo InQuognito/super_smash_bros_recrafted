@@ -1,4 +1,4 @@
-function ssbrc:logic/fighters/replace_item {old:"keyblade",new:"sora/keyblades/primary/fire"}
+function ssbrc:logic/replace_item {old:"keyblade",new:"fighters/sora/keyblades/primary/fire"}
 
 scoreboard players set @s cooldown 5
 

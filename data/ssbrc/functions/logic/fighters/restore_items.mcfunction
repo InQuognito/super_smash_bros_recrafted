@@ -16,7 +16,7 @@ execute if entity @s[tag=byleth] run function ssbrc:fighters/byleth/restore_item
 
 execute if entity @s[tag=cloud] run function ssbrc:fighters/cloud/restore_items
 
-execute if entity @s[tag=dark_samus] run function ssbrc:logic/fighters/replace_item {old:"phazon_beam",new:"dark_samus/phazon_beam/idle"}
+execute if entity @s[tag=dark_samus] run function ssbrc:logic/replace_item {old:"phazon_beam",new:"fighters/dark_samus/phazon_beam/idle"}
 
 execute if entity @s[tag=donkey_kong] run function ssbrc:fighters/donkey_kong/restore_items
 
@@ -34,13 +34,13 @@ execute if entity @s[tag=pit] run function ssbrc:fighters/pit/logic/abilities/wi
 
 execute if entity @s[tag=pokemon_trainer] run function ssbrc:fighters/pokemon_trainer/restore_items
 
-execute if entity @s[tag=rob] run function ssbrc:logic/fighters/modify_item {old:"robo_beam",new:"rob/robo_beam"}
+execute if entity @s[tag=rob] run function ssbrc:logic/modify_item {old:"robo_beam",new:"fighters/rob/robo_beam"}
 
 execute if entity @s[tag=ryu] run function ssbrc:fighters/ryu/restore_items
 
 execute if entity @s[tag=shovel_knight] run function ssbrc:fighters/shovel_knight/kit
 
-execute if entity @s[tag=snake] run function ssbrc:logic/fighters/replace_item {old:"status",new:"snake/status/undetected"}
+execute if entity @s[tag=snake] run function ssbrc:logic/replace_item {old:"status",new:"fighters/snake/status/undetected"}
 
 execute if entity @s[tag=sora] run function ssbrc:fighters/sora/kit
 

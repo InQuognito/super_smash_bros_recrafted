@@ -1,1 +1,1 @@
-function ssbrc:logic/fighters/modify_item {old:"chaos_spear",new:"shadow/chaos_spear/default"}
+function ssbrc:logic/modify_item {old:"chaos_spear",new:"fighters/shadow/chaos_spear/default"}
