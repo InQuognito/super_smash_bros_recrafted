@@ -1,11 +1,11 @@
 [
 	{
 		"function": "minecraft:reference",
-		"name": "ssbrc:fighters/init/animation/instant"
+		"name": "ssbrc:fighters/init/animation/smooth"
 	},
 	{
 		"function": "minecraft:set_custom_model_data",
-		"value": 1972,
+		"value": 1965,
 		"conditions": [
 			{
 				"condition": "minecraft:inverted",
@@ -21,7 +21,7 @@
 	},
 	{
 		"function": "minecraft:set_custom_model_data",
-		"value": 1982,
+		"value": 1981,
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",

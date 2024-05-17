@@ -5,9 +5,11 @@
 		"#minecraft:candles",
 		"#minecraft:pressure_plates",
 		"#minecraft:wool_carpets",
+		"minecraft:big_dripleaf",
 		"minecraft:flower_pot",
 		"minecraft:lily_pad",
 		"minecraft:sea_pickle",
+		"minecraft:small_dripleaf",
 		"minecraft:snow"
 	]
 }

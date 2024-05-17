@@ -8,4 +8,4 @@ execute if score @s[tag=shovel_knight.phase_locket] mana < shovel_knight.phase_l
 
 execute if score @s[tag=shovel_knight.propeller_dagger] mana < shovel_knight.propeller_dagger.cost vars run function ssbrc:logic/modify_item {old:"propeller_dagger",new:"fighters/shovel_knight/propeller_dagger/disabled"}
 
-execute if score @s[tag=shovel_knight.war_horn,tag=!war_horn.active] mana < shovel_knight.war_horn.cost vars run function ssbrc:logic/replace_item {old:"war_horn",new:"fighters/shovel_knight/war_horn/disabled"}
+execute if score @s[tag=shovel_knight.war_horn,tag=!war_horn.active] mana < shovel_knight.war_horn.cost vars run function ssbrc:logic/replace_item {tag:"item",old:"war_horn",new:"fighters/shovel_knight/war_horn/disabled"}
