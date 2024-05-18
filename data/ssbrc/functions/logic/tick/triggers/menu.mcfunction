@@ -42,5 +42,5 @@ execute if entity @s[tag=wolf] run function ssbrc:fighters/wolf/menu/trigger
 execute if entity @s[tag=yar] run function ssbrc:fighters/yar/menu/trigger
 execute if entity @s[tag=zelda] run function ssbrc:fighters/zelda/menu/trigger
 
-scoreboard players set @s menu 0
+scoreboard players reset @s menu
 scoreboard players enable @s menu

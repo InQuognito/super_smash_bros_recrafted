@@ -10,7 +10,7 @@ summon minecraft:item_display -302.5 18.5 -1108.5 {Rotation:[-90f,0f],item:{id:"
 
 summon minecraft:item_display -295.5 19.5 -1104.01 {Tags:["luigis_mansion.painting"],Rotation:[180f,0f],transformation:[3f,0f,0f,0f,0f,3f,0f,0f,0f,0f,1f,0f,0f,0f,0f,1f]}
 summon minecraft:item_display -336.99 18.5 -1119.5 {Tags:["luigis_mansion.painting"],Rotation:[-90f,0f],transformation:[3f,0f,0f,0f,0f,3f,0f,0f,0f,0f,1f,0f,0f,0f,0f,1f]}
-summon minecraft:item_display -298.5 18.5 -1134.99 {Tags:["luigis_mansion.painting"],Rotation:[0f,0f],transformation:[3f,0f,0f,0f,0f,3f,0f,0f,0f,0f,1f,0f,0f,0f,0f,1f]}
+summon minecraft:item_display -298.5 18.5 -1134.99 {Tags:["luigis_mansion.painting"],transformation:[3f,0f,0f,0f,0f,3f,0f,0f,0f,0f,1f,0f,0f,0f,0f,1f]}
 
 summon minecraft:item_display -310.5 18.5 -1102.01 {Tags:["luigis_mansion.painting"]}
 summon minecraft:item_display -312.5 19.5 -1102.01 {Tags:["luigis_mansion.painting"]}

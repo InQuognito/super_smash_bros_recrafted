@@ -1,7 +1,7 @@
 data modify storage ssbrc:data fighters set value {\
 	"altered_beast": {\
 		"name": "altered_beast",\
-		"page": 2,\
+		"page": 3,\
 		"model": 1820,\
 		"color": "gold",\
 		"skin_count": 3,\
@@ -343,7 +343,7 @@ data modify storage ssbrc:data fighters set value {\
 		"skins": {\
 			"star_force": {\
 				"name": "star_force",\
-				"model": 882,\
+				"model": 900,\
 				"color": "blue",\
 			},\
 		},\
@@ -511,7 +511,7 @@ data modify storage ssbrc:data fighters set value {\
 	},\
 	"shovel_knight": {\
 		"name": "shovel_knight",\
-		"page": 2,\
+		"page": 3,\
 		"model": 1920,\
 		"color": "dark_aqua",\
 		"skin_count": 4,\
@@ -631,7 +631,7 @@ data modify storage ssbrc:data fighters set value {\
 	},\
 	"yar": {\
 		"name": "yar",\
-		"page": 2,\
+		"page": 3,\
 		"model": 1960,\
 		"color": "red",\
 		"skin_count": 3,\

@@ -35,10 +35,7 @@ fill -340 8 -1123 -285 24 -1102 minecraft:redstone_wall_torch[facing=west] repla
 fill -337 16 -1107 -335 16 -1105 minecraft:blast_furnace[facing=north,lit=false] replace minecraft:blast_furnace[facing=north]
 fill -337 16 -1107 -335 16 -1105 minecraft:blast_furnace[facing=east,lit=false] replace minecraft:blast_furnace[facing=east]
 
-execute at @e[type=minecraft:marker,tag=lantern_off.floor] run setblock ~ ~ ~ minecraft:air replace
-execute at @e[type=minecraft:marker,tag=lantern_off.hanging] run setblock ~ ~ ~ minecraft:air replace
-
-execute as @e[type=minecraft:item_display,tag=lantern_off] run function ssbrc:stages/luigis_mansion/logic/blackout/lanterns/deactivate
+execute as @e[type=minecraft:item_display,tag=lantern_off] at @s run function ssbrc:stages/luigis_mansion/logic/blackout/lanterns/deactivate
 
 execute as @a[predicate=ssbrc:ingame] at @s run playsound ssbrc:blackout ambient @s
 
