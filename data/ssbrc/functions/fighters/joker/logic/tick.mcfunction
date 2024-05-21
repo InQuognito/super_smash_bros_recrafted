@@ -11,5 +11,5 @@ execute if entity @s[tag=!ability_used,scores={health=..4}] run function ssbrc:f
 execute if entity @s[scores={duration.2=1..}] run function ssbrc:fighters/joker/logic/abilities/final_guard/tick
 
 # Ammo HUD
-execute unless items entity @s weapon.mainhand minecraft:nether_star[minecraft:custom_data~{item:"tt33"}] run title @s actionbar ""
+execute unless score @s duration.1 matches 1.. unless items entity @s weapon.mainhand minecraft:nether_star[minecraft:custom_data~{item:"tt33"}] run title @s actionbar ""
 execute if items entity @s weapon.mainhand minecraft:nether_star[minecraft:custom_data~{item:"tt33"}] run title @s actionbar {"score":{"name":"@s","objective":"weapon_1.ammo"},"color":"red"}

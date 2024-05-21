@@ -1,4 +1,6 @@
-scoreboard players operation percentage temp = @s charge.1
+execute unless score @s duration.1 matches 1.. run scoreboard players operation percentage temp = @s charge.1
+execute if score @s duration.1 matches 1.. run scoreboard players operation percentage temp = @s duration.1
+
 scoreboard players operation percentage temp *= 100 integers
 scoreboard players operation percentage temp /= joker.awakening.max vars
 

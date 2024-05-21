@@ -1226,6 +1226,26 @@
 	},
 	{
 		"function": "minecraft:reference",
+		"name": "ssbrc:fighters/armor/aesthetic/mega_man/default",
+		"conditions": [
+			{
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"nbt": "{Tags:[\"mega_man\",\"default\"]}",
+					"equipment": {
+						"mainhand": {
+							"predicates": {
+								"minecraft:custom_data": "{item:\"air_shooter\"}"
+							}
+						}
+					}
+				}
+			}
+		]
+	},
+	{
+		"function": "minecraft:reference",
 		"name": "ssbrc:fighters/armor/aesthetic/mega_man/gold",
 		"conditions": [
 			{

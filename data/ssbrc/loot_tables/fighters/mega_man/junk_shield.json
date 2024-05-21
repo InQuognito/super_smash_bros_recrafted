@@ -62,7 +62,7 @@
 						},
 						{
 							"function": "minecraft:set_custom_data",
-							"tag": "{item:\"junk_shield\"}"
+							"tag": "{item:\"junk_shield\",group:\"mega_buster\"}"
 						}
 					]
 				}

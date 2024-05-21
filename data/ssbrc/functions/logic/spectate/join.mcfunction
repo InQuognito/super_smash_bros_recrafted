@@ -1,4 +1,4 @@
-function ssbrc:logic/spectate/common
+function ssbrc:logic/spectate/init
 
 effect clear @s minecraft:glowing
 

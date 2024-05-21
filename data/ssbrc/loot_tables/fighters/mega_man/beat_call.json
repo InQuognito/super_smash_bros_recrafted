@@ -62,7 +62,7 @@
 						},
 						{
 							"function": "minecraft:set_custom_data",
-							"tag": "{item:\"beat_call\"}"
+							"tag": "{item:\"beat_call\",group:\"mega_buster\"}"
 						}
 					]
 				}

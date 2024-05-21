@@ -68,7 +68,7 @@ def create_item_modifier(skin, fighter, path, i):
 			js_write(file, tab(1) + ent)
 			js_write(file, tab(1) + '{')
 			js_write(file, tab(2) + qm + 'function' + sep_s + 'minecraft:reference' + suf_s)
-			if 'forms' in ssbrc.fighters[fighter].keys():
+			if has_forms(fighter):
 				js_write(file, tab(2) + qm + 'name' + sep_s + 'ssbrc:fighters/armor/aesthetic/' + fighter + '/' + skin + '/' + ssbrc.fighters[fighter]['forms'][0] + qm)
 			else:
 				js_write(file, tab(2) + qm + 'name' + sep_s + 'ssbrc:fighters/armor/aesthetic/' + fighter + '/' + skin + qm)

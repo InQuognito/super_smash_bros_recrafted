@@ -30,7 +30,7 @@ summon minecraft:item_display -525.5 5.25 -1936.5 {Tags:["sandbag","selectable"]
 summon minecraft:item_display -525.5 5.5 -1952.5 {Tags:["asset_test"],item:{id:"minecraft:barrier",components:{"minecraft:custom_model_data":99999}},transformation:[0.75f,0f,0f,0f,0f,0.75f,0f,0f,0f,0f,0.75f,0f,0f,0f,0f,1f]}
 #setblock -526 4 -1952 minecraft:dark_oak_wall_sign[facing=south]{front_text:{color:"white",messages:['[{"text":"If this is NOT a","bold":false,"color":"white"}]','[{"text":"Pokéball","clickEvent":{"action":"run_command","value":"/tellraw @s [\\"\\",{\\"text\\":\\"[\\",\\"bold\\":true,\\"color\\":\\"dark_blue\\"},{\\"text\\":\\"Resource Pack\\",\\"bold\\":true,\\"color\\":\\"blue\\",\\"clickEvent\\":{\\"action\\":\\"open_url\\",\\"value\\":\\"https://www.mediafire.com/folder/nfw6qfrl6rgd7/SSBRC\\"}},{\\"text\\":\\"]\\",\\"bold\\":true,\\"color\\":\\"dark_blue\\"}]"},"bold":false,"color":"red"},{"text":", click","bold":false,"color":"white"}]','[{"text":"here to download","bold":false,"color":"white"}]','[{"text":"Resource Pack!","bold":false,"color":"white"}]'],has_glowing_text:1b},is_waxed:1b} destroy
 
-function ssbrc:logic/resets/lobby/fighter_select
+execute positioned ~ 6.06 ~ run function ssbrc:logic/resets/lobby/fighter_select
 function ssbrc:logic/resets/lobby/credits
 
 tag @a remove winner

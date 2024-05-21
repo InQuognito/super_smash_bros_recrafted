@@ -62,7 +62,7 @@
 						},
 						{
 							"function": "minecraft:set_custom_data",
-							"tag": "{item:\"metal_blade\"}"
+							"tag": "{item:\"metal_blade\",group:\"mega_buster\"}"
 						}
 					]
 				}

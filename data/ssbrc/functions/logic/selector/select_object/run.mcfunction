@@ -2,7 +2,7 @@ execute if entity @e[type=minecraft:item_display,tag=random_fighter,dx=0,sort=ne
 
 function ssbrc:logic/fighters/get {function:"ssbrc:logic/selector/select_object/check"}
 
-execute if entity @e[type=minecraft:item_display,tag=spectate,dx=0,sort=nearest,limit=1] run function ssbrc:logic/spectate/join
+execute if entity @e[type=minecraft:item_display,tag=spectate,dx=0,sort=nearest,limit=1] run function ssbrc:logic/spectate/check
 
 execute if entity @e[type=minecraft:item_display,tag=sandbag,dx=0,sort=nearest,limit=1] run function ssbrc:logic/selector/events/sandbag/interact
 

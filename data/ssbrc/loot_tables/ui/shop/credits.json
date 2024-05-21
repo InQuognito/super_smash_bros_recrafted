@@ -39,7 +39,7 @@
 						},
 						{
 							"function": "minecraft:set_custom_data",
-							"tag": "{ui:{placeholder:\"true\"}}"
+							"tag": "{ui:{navigation:\"shop/pages/main\",placeholder:\"true\"}}"
 						}
 					]
 				}
