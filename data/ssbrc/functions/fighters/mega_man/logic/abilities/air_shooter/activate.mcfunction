@@ -4,6 +4,8 @@ execute anchored eyes positioned ^ ^ ^1 run function ssbrc:fighters/mega_man/log
 
 function ssbrc:logic/fighters/cooldown/set
 
+scoreboard players set @s cooldown 20
+
 scoreboard players remove @s mega_man.air_shooter 1
 
 playsound ssbrc:fighters.mega_man.air_shooter.activate player @a

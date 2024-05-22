@@ -4,6 +4,8 @@ execute anchored eyes positioned ^ ^ ^1 summon minecraft:marker run function ssb
 
 function ssbrc:logic/fighters/cooldown/set
 
+scoreboard players set @s cooldown 20
+
 scoreboard players remove @s mega_man.hyper_bomb 1
 
 playsound ssbrc:fighters.mega_man.hyper_bomb.activate player @a

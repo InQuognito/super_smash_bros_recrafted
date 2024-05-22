@@ -4,9 +4,10 @@ particle minecraft:explosion ~ ~ ~ 0.0 0.0 0.0 0.0 1 normal @a
 playsound minecraft:entity.generic.explode player @a
 
 execute as @e[tag=!self,predicate=ssbrc:flag/targets,distance=..2.5] at @s run damage @s 12.0 ssbrc:generic by @a[tag=self,limit=1]
+damage @a[tag=self,limit=1,distance=..2.5] 12.0 ssbrc:generic
 
 kill @s
 
-execute as @a[tag=self,limit=1] run function ssbrc:logic/fighters/cooldown/set/const {type:"3",value:"40"}
+scoreboard players set @a[tag=self,limit=1] cooldown 20
 
 playsound ssbrc:fighters.mega_man.remote_mine.explode player @a

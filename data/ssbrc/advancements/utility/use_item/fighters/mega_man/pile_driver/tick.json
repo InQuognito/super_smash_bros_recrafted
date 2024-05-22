@@ -12,7 +12,7 @@
 							"mega_man.pile_driver": {
 								"min": 1
 							},
-							"cooldown.2": {
+							"cooldown": {
 								"max": 0
 							},
 							"duration.2": {
@@ -23,7 +23,10 @@
 				],
 				"item": {
 					"predicates": {
-						"minecraft:custom_data": "{item:\"pile_driver\"}"
+						"minecraft:custom_data": "{item:\"pile_driver\"}",
+						"minecraft:damage": {
+							"damage": 0
+						}
 					}
 				}
 			}

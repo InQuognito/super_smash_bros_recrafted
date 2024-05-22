@@ -1,6 +1,6 @@
-$scoreboard players operation percentage temp = @s mega_man.$(weapon)
+$scoreboard players operation percentage temp = @s mega_man.$(item)
 scoreboard players operation percentage temp *= 100 integers
-$scoreboard players operation percentage temp /= mega_man.$(weapon) vars
+$scoreboard players operation percentage temp /= mega_man.$(item) vars
 
 execute if score percentage temp matches 0 run title @s actionbar [{"text":"EMPTY","color":"red"}]
 execute if score percentage temp matches 1..10 run title @s actionbar [{"text":"\u25ae","color":"yellow"}]

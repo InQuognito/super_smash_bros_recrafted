@@ -12,7 +12,7 @@
 							"mega_man.metal_blade": {
 								"min": 1
 							},
-							"cooldown.2": {
+							"cooldown": {
 								"max": 0
 							}
 						}
@@ -20,7 +20,10 @@
 				],
 				"item": {
 					"predicates": {
-						"minecraft:custom_data": "{item:\"metal_blade\"}"
+						"minecraft:custom_data": "{item:\"metal_blade\"}",
+						"minecraft:damage": {
+							"damage": 0
+						}
 					}
 				}
 			}

@@ -4,6 +4,8 @@ execute anchored eyes positioned ^ ^ ^1 summon minecraft:item_display run functi
 
 function ssbrc:logic/fighters/cooldown/set
 
+scoreboard players set @s cooldown 20
+
 scoreboard players remove @s mega_man.drill_bomb 1
 
 playsound ssbrc:fighters.mega_man.drill_bomb.activate player @a

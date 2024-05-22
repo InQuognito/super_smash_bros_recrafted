@@ -12,7 +12,7 @@
 							"mega_man.hyper_bomb": {
 								"min": 1
 							},
-							"cooldown.2": {
+							"cooldown": {
 								"max": 0
 							}
 						}
@@ -20,7 +20,10 @@
 				],
 				"item": {
 					"predicates": {
-						"minecraft:custom_data": "{item:\"hyper_bomb\"}"
+						"minecraft:custom_data": "{item:\"hyper_bomb\"}",
+						"minecraft:damage": {
+							"damage": 0
+						}
 					}
 				}
 			}
