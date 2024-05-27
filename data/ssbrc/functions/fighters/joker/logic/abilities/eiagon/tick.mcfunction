@@ -3,7 +3,7 @@ particle minecraft:dust_color_transition{from_color:[0.4,0.0,0.0],to_color:[0.2,
 execute unless block ~ ~ ~ #ssbrc:passthrough run function ssbrc:fighters/joker/logic/abilities/eiagon/summon_pool
 
 execute positioned ~-0.15 ~-0.15 ~-0.15 as @e[tag=!self,predicate=ssbrc:flag/targets,dx=0] positioned ~-0.7 ~-0.7 ~-0.7 if entity @s[dx=0] run function ssbrc:fighters/joker/logic/abilities/eiagon/hit
-function ssbrc:logic/fighters/checks/hit
+execute if score entity_hit temp matches 1 run kill @s
 
 teleport @s ^ ^ ^0.5
 

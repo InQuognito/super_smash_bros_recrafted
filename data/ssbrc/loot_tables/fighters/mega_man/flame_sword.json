@@ -6,7 +6,7 @@
 			"entries": [
 				{
 					"type": "minecraft:item",
-					"name": "minecraft:golden_sword",
+					"name": "minecraft:nether_star",
 					"functions": [
 						{
 							"function": "minecraft:set_name",
@@ -52,7 +52,7 @@
 									],
 									"show_in_tooltip": false
 								},
-								"minecraft:custom_model_data": 887
+								"minecraft:custom_model_data": 885
 							}
 						},
 						{

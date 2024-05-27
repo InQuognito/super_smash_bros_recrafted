@@ -5,7 +5,7 @@ scoreboard players operation @s[tag=blood_metamorphosis] duration.1 *= 2 integer
 
 execute if entity @s[tag=blood_metamorphosis] summon minecraft:marker run function ssbrc:fighters/alucard/logic/abilities/mist/summon
 
-function ssbrc:logic/fighters/shield/get {item:"alucard_shield"}
+function ssbrc:logic/fighters/data/item/component/get {key:"item",value:"alucard_shield",component:"minecraft:damage",output:"score @s durability"}
 
 clear @s
 

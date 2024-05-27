@@ -20,6 +20,7 @@ execute unless score sector_z stage matches 1 run effect give @a[predicate=ssbrc
 execute as @a[predicate=ssbrc:ingame] run function ssbrc:logic/tick/characters
 execute as @e[predicate=ssbrc:flag/targets] at @s run function ssbrc:logic/tick/targets
 function ssbrc:logic/tick/post_checks
+scoreboard players reset entity_hit temp
 
 execute as @a[team=!admin,tag=alive,scores={respawn=..0},gamemode=!adventure,gamemode=!spectator] run function ssbrc:logic/teams/admin
 

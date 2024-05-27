@@ -90,7 +90,7 @@
 						},
 						{
 							"function": "minecraft:set_custom_data",
-							"tag": "{item:\"anti_personnel_mine\"}"
+							"tag": "{item:\"anti_personnel_mine\",group:\"snake.weapon\"}"
 						}
 					]
 				}

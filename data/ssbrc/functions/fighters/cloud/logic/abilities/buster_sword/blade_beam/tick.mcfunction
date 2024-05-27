@@ -4,7 +4,6 @@ scoreboard players set #n temp 2
 execute if entity @s[tag=limit_break] run scoreboard players add #n temp 1
 
 function ssbrc:fighters/cloud/logic/abilities/buster_sword/blade_beam/move_forward
-scoreboard players reset entity_hit temp
 
 scoreboard players reset limit_break temp
 

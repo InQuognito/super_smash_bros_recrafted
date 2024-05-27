@@ -57,7 +57,7 @@
 							"function": "minecraft:set_components",
 							"components": {
 								"minecraft:max_damage": 40,
-								"minecraft:custom_model_data": 884
+								"minecraft:custom_model_data": 883
 							}
 						},
 						{

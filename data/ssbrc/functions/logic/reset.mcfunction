@@ -56,4 +56,4 @@ execute unless score num hard_resets matches -2147483648..2147483647 run scorebo
 scoreboard players set game_stage temp -1
 
 function ssbrc:logic/timer
-schedule function ssbrc:logic/resets/lobby 1s replace
+function ssbrc:logic/resets/lobby

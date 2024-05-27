@@ -1,6 +1,10 @@
 data modify storage ssbrc:data stages set value {\
 	"acropolis_graveyard": {\
 		"name": "acropolis_graveyard",\
+		"series": "altered_beast",\
+		"color": "gold",\
+		"model": 1,\
+		"name": "acropolis_graveyard",\
 		"page": 3,\
 		"location": "-1392 -480 -1313 -417",\
 		"center": "-1352.5 0.0 -448.5",\
@@ -41,6 +45,10 @@ data modify storage ssbrc:data stages set value {\
 		},\
 	},\
 	"battlefield": {\
+		"name": "battlefield",\
+		"series": "super_smash_bros",\
+		"color": "aqua",\
+		"model": 50,\
 		"name": "battlefield",\
 		"page": 1,\
 		"location": "319 -545 288 -576",\
@@ -83,6 +91,10 @@ data modify storage ssbrc:data stages set value {\
 	},\
 	"big_battlefield": {\
 		"name": "big_battlefield",\
+		"series": "super_smash_bros",\
+		"color": "green",\
+		"model": 100,\
+		"name": "big_battlefield",\
 		"page": 1,\
 		"location": "100032 99936 100079 99967",\
 		"center": "100055.5 0.0 99951.5",\
@@ -123,6 +135,10 @@ data modify storage ssbrc:data stages set value {\
 		},\
 	},\
 	"bowsers_castle": {\
+		"name": "bowsers_castle",\
+		"series": "super_mario_bros",\
+		"color": "green",\
+		"model": 150,\
 		"name": "bowsers_castle",\
 		"page": 1,\
 		"location": "-768 800 -641 895",\
@@ -165,10 +181,14 @@ data modify storage ssbrc:data stages set value {\
 	},\
 	"castle_siege": {\
 		"name": "castle_siege",\
+		"series": "fire_emblem",\
+		"color": "red",\
+		"model": 200,\
+		"name": "castle_siege",\
 		"page": 2,\
 		"location": "1616 417 1663 495",\
 		"center": "1639.5 0.0 456.0",\
-		"song_count": 3,\
+		"song_count": 2,\
 		"time": "12430",\
 		"weather": "clear",\
 		"spawnpoints": {\
@@ -205,6 +225,10 @@ data modify storage ssbrc:data stages set value {\
 		},\
 	},\
 	"draculas_castle": {\
+		"name": "draculas_castle",\
+		"series": "castlevania",\
+		"color": "red",\
+		"model": 300,\
 		"name": "draculas_castle",\
 		"page": 3,\
 		"location": "-1120 0 -1041 79",\
@@ -247,10 +271,14 @@ data modify storage ssbrc:data stages set value {\
 	},\
 	"dream_land": {\
 		"name": "dream_land",\
+		"series": "kirby",\
+		"color": "yellow",\
+		"model": 350,\
+		"name": "dream_land",\
 		"page": 1,\
 		"location": "2032 896 2143 1023",\
 		"center": "2087.5 0.0 959.5",\
-		"song_count": 3,\
+		"song_count": 2,\
 		"time": "noon",\
 		"weather": "clear",\
 		"spawnpoints": {\
@@ -287,6 +315,10 @@ data modify storage ssbrc:data stages set value {\
 		},\
 	},\
 	"final_destination": {\
+		"name": "final_destination",\
+		"series": "super_smash_bros",\
+		"color": "dark_purple",\
+		"model": 400,\
 		"name": "final_destination",\
 		"page": 1,\
 		"location": "23408 8592 23503 8647",\
@@ -329,6 +361,10 @@ data modify storage ssbrc:data stages set value {\
 	},\
 	"flat_zone": {\
 		"name": "flat_zone",\
+		"series": "game_and_watch",\
+		"color": "white",\
+		"model": 450,\
+		"name": "flat_zone",\
 		"page": 2,\
 		"location": "752 176 799 223",\
 		"center": "775.5 0.0 199.5",\
@@ -369,6 +405,10 @@ data modify storage ssbrc:data stages set value {\
 		},\
 	},\
 	"frozen_hijinx": {\
+		"name": "frozen_hijinx",\
+		"series": "donkey_kong",\
+		"color": "aqua",\
+		"model": 500,\
 		"name": "frozen_hijinx",\
 		"page": 1,\
 		"location": "2016 1264 2159 1439",\
@@ -411,6 +451,10 @@ data modify storage ssbrc:data stages set value {\
 	},\
 	"garden_of_hope": {\
 		"name": "garden_of_hope",\
+		"series": "pikmin",\
+		"color": "green",\
+		"model": 600,\
+		"name": "garden_of_hope",\
 		"page": 2,\
 		"location": "512 480 607 575",\
 		"center": "559.5 0.0 527.5",\
@@ -452,10 +496,14 @@ data modify storage ssbrc:data stages set value {\
 	},\
 	"great_bay": {\
 		"name": "great_bay",\
+		"series": "the_legend_of_zelda",\
+		"color": "blue",\
+		"model": 650,\
+		"name": "great_bay",\
 		"page": 1,\
 		"location": "2624 32 2703 127",\
 		"center": "2663.5 0.0 79.5",\
-		"song_count": 3,\
+		"song_count": 2,\
 		"time": "noon",\
 		"weather": "clear",\
 		"spawnpoints": {\
@@ -492,6 +540,10 @@ data modify storage ssbrc:data stages set value {\
 		},\
 	},\
 	"great_plateau": {\
+		"name": "great_plateau",\
+		"series": "the_legend_of_zelda",\
+		"color": "green",\
+		"model": 700,\
 		"name": "great_plateau",\
 		"page": 1,\
 		"location": "1536 1328 1631 1407",\
@@ -534,6 +586,10 @@ data modify storage ssbrc:data stages set value {\
 	},\
 	"green_hill_zone": {\
 		"name": "green_hill_zone",\
+		"series": "sonic_the_hedgehog",\
+		"color": "green",\
+		"model": 750,\
+		"name": "green_hill_zone",\
 		"page": 2,\
 		"location": "-64 208 31 255",\
 		"center": "-16.5 0.0 231.5",\
@@ -574,6 +630,10 @@ data modify storage ssbrc:data stages set value {\
 		},\
 	},\
 	"hyrule_castle": {\
+		"name": "hyrule_castle",\
+		"series": "the_legend_of_zelda",\
+		"color": "blue",\
+		"model": 800,\
 		"name": "hyrule_castle",\
 		"page": 1,\
 		"location": "7023 223 6944 129",\
@@ -616,6 +676,10 @@ data modify storage ssbrc:data stages set value {\
 	},\
 	"icicle_mountain": {\
 		"name": "icicle_mountain",\
+		"series": "ice_climber",\
+		"color": "aqua",\
+		"model": 850,\
+		"name": "icicle_mountain",\
 		"page": 2,\
 		"location": "1024 848 1103 911",\
 		"center": "1063.5 0.0 879.5",\
@@ -656,6 +720,10 @@ data modify storage ssbrc:data stages set value {\
 		},\
 	},\
 	"jungle_japes": {\
+		"name": "jungle_japes",\
+		"series": "donkey_kong",\
+		"color": "dark_green",\
+		"model": 900,\
 		"name": "jungle_japes",\
 		"page": 1,\
 		"location": "2208 1552 2319 1631",\
@@ -698,6 +766,10 @@ data modify storage ssbrc:data stages set value {\
 	},\
 	"lake_of_rage": {\
 		"name": "lake_of_rage",\
+		"series": "pokemon",\
+		"color": "blue",\
+		"model": 950,\
+		"name": "lake_of_rage",\
 		"page": 2,\
 		"location": "2464 3968 2591 4095",\
 		"center": "2527.5 0.0 4031.5",\
@@ -738,6 +810,10 @@ data modify storage ssbrc:data stages set value {\
 		},\
 	},\
 	"luigis_mansion": {\
+		"name": "luigis_mansion",\
+		"series": "super_mario_bros",\
+		"color": "aqua",\
+		"model": 1000,\
 		"name": "luigis_mansion",\
 		"page": 1,\
 		"location": "-352 -1168 -273 -1089",\
@@ -780,6 +856,10 @@ data modify storage ssbrc:data stages set value {\
 	},\
 	"magicant": {\
 		"name": "magicant",\
+		"series": "earthbound",\
+		"color": "light_purple",\
+		"model": 1050,\
+		"name": "magicant",\
 		"page": 2,\
 		"location": "608 -912 687 -833",\
 		"center": "647.5 0.0 -872.5",\
@@ -820,6 +900,10 @@ data modify storage ssbrc:data stages set value {\
 		},\
 	},\
 	"mementos": {\
+		"name": "mementos",\
+		"series": "persona",\
+		"color": "red",\
+		"model": 1100,\
 		"name": "mementos",\
 		"page": 3,\
 		"location": "-1248 800 -1105 1023",\
@@ -862,6 +946,10 @@ data modify storage ssbrc:data stages set value {\
 	},\
 	"miiverse": {\
 		"name": "miiverse",\
+		"series": "mii",\
+		"color": "green",\
+		"model": 1150,\
+		"name": "miiverse",\
 		"page": 2,\
 		"location": "-736 544 -625 655",\
 		"center": "-680.5 0.0 599.5",\
@@ -902,6 +990,10 @@ data modify storage ssbrc:data stages set value {\
 		},\
 	},\
 	"mushroom_kingdom": {\
+		"name": "mushroom_kingdom",\
+		"series": "super_mario_bros",\
+		"color": "green",\
+		"model": 1200,\
 		"name": "mushroom_kingdom",\
 		"page": 1,\
 		"location": "-288 -192 -177 -81",\
@@ -944,6 +1036,10 @@ data modify storage ssbrc:data stages set value {\
 	},\
 	"pac_maze": {\
 		"name": "pac_maze",\
+		"series": "pac_man",\
+		"color": "blue",\
+		"model": 1300,\
+		"name": "pac_maze",\
 		"page": 3,\
 		"location": "null",\
 		"song_count": 2,\
@@ -983,6 +1079,10 @@ data modify storage ssbrc:data stages set value {\
 		},\
 	},\
 	"pallet_town": {\
+		"name": "pallet_town",\
+		"series": "pokemon",\
+		"color": "red",\
+		"model": 1350,\
 		"name": "pallet_town",\
 		"page": 2,\
 		"location": "-608 -208 -529 -97",\
@@ -1025,6 +1125,10 @@ data modify storage ssbrc:data stages set value {\
 	},\
 	"palutenas_temple": {\
 		"name": "palutenas_temple",\
+		"series": "kid_icarus",\
+		"color": "green",\
+		"model": 250,\
+		"name": "palutenas_temple",\
 		"page": 2,\
 		"location": "50015 24944 49952 24991",\
 		"center": "49983.5 0.0 24967.5",\
@@ -1065,6 +1169,10 @@ data modify storage ssbrc:data stages set value {\
 		},\
 	},\
 	"planet_epp": {\
+		"name": "planet_epp",\
+		"series": "yars_revenge",\
+		"color": "red",\
+		"model": 1850,\
 		"name": "planet_epp",\
 		"page": 3,\
 		"location": "9856 19808 10031 20031",\
@@ -1107,6 +1215,10 @@ data modify storage ssbrc:data stages set value {\
 	},\
 	"planet_zebes": {\
 		"name": "planet_zebes",\
+		"series": "metroid",\
+		"color": "dark_aqua",\
+		"model": 1400,\
+		"name": "planet_zebes",\
 		"page": 1,\
 		"location": "39968 39968 40031 40031",\
 		"center": "39999.5 0.0 39999.5",\
@@ -1147,6 +1259,10 @@ data modify storage ssbrc:data stages set value {\
 		},\
 	},\
 	"pyrosphere": {\
+		"name": "pyrosphere",\
+		"series": "metroid",\
+		"color": "red",\
+		"model": 1900,\
 		"name": "pyrosphere",\
 		"page": 1,\
 		"location": "640 8047 719 7968",\
@@ -1189,6 +1305,10 @@ data modify storage ssbrc:data stages set value {\
 	},\
 	"sand_ocean": {\
 		"name": "sand_ocean",\
+		"series": "f_zero",\
+		"color": "gold",\
+		"model": 1450,\
+		"name": "sand_ocean",\
 		"page": 2,\
 		"location": "-225 -961 -320 -1056",\
 		"center": "-272.5 0.0 -1008.5",\
@@ -1229,6 +1349,10 @@ data modify storage ssbrc:data stages set value {\
 		},\
 	},\
 	"saturn_valley": {\
+		"name": "saturn_valley",\
+		"series": "earthbound",\
+		"color": "green",\
+		"model": 1500,\
 		"name": "saturn_valley",\
 		"page": 2,\
 		"location": "-256 560 -177 639",\
@@ -1271,6 +1395,10 @@ data modify storage ssbrc:data stages set value {\
 	},\
 	"sector_z": {\
 		"name": "sector_z",\
+		"series": "star_fox",\
+		"color": "gold",\
+		"model": 1550,\
+		"name": "sector_z",\
 		"page": 1,\
 		"location": "240 3248 367 3327",\
 		"center": "303.5 0.0 3287.5",\
@@ -1311,6 +1439,10 @@ data modify storage ssbrc:data stages set value {\
 		},\
 	},\
 	"shadow_moses_island": {\
+		"name": "shadow_moses_island",\
+		"series": "metal_gear",\
+		"color": "white",\
+		"model": 1600,\
 		"name": "shadow_moses_island",\
 		"page": 2,\
 		"location": "48 -1488 207 -1361",\
@@ -1353,6 +1485,10 @@ data modify storage ssbrc:data stages set value {\
 	},\
 	"spear_pillar": {\
 		"name": "spear_pillar",\
+		"series": "pokemon",\
+		"color": "yellow",\
+		"model": 1650,\
+		"name": "spear_pillar",\
 		"page": 2,\
 		"location": "768 -128 847 47",\
 		"center": "807.5 0.0 -40.5",\
@@ -1393,6 +1529,10 @@ data modify storage ssbrc:data stages set value {\
 		},\
 	},\
 	"suzaku_castle": {\
+		"name": "suzaku_castle",\
+		"series": "street_fighter",\
+		"color": "aqua",\
+		"model": 1700,\
 		"name": "suzaku_castle",\
 		"page": 2,\
 		"location": "6960 2944 7055 3023",\
@@ -1435,6 +1575,10 @@ data modify storage ssbrc:data stages set value {\
 	},\
 	"tower_of_fate": {\
 		"name": "tower_of_fate",\
+		"series": "shovel_knight",\
+		"color": "dark_purple",\
+		"model": 1750,\
+		"name": "tower_of_fate",\
 		"page": 3,\
 		"location": "5984 416 6111 575",\
 		"center": "6047.5 0.0 495.5",\
@@ -1465,6 +1609,10 @@ data modify storage ssbrc:data stages set value {\
 		},\
 	},\
 	"wily_castle": {\
+		"name": "wily_castle",\
+		"series": "mega_man",\
+		"color": "blue",\
+		"model": 1800,\
 		"name": "wily_castle",\
 		"page": 2,\
 		"location": "4912 5008 5055 5119",\
@@ -1506,6 +1654,10 @@ data modify storage ssbrc:data stages set value {\
 		},\
 	},\
 	"yggdrasils_altar": {\
+		"name": "yggdrasils_altar",\
+		"series": "dragon_quest",\
+		"color": "yellow",\
+		"model": 1950,\
 		"name": "yggdrasils_altar",\
 		"page": 3,\
 		"location": "288 3984 351 4063",\

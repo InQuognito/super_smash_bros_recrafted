@@ -6,7 +6,6 @@ execute if score chaos_energy temp >= shadow.chaos_spear.cost vars run function 
 
 # Chaos Blast
 execute if entity @s[scores={charge.2=1..}] positioned ~ ~0.75 ~ run function ssbrc:fighters/shadow/logic/abilities/chaos_blast/charge
-execute if entity @s[scores={charge.2=70}] run function ssbrc:fighters/shadow/logic/abilities/chaos_blast/unleash
 scoreboard players set @s[scores={charge.2=101..}] charge.2 0
 
 # Acceleration

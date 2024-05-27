@@ -7,13 +7,17 @@ def stage_storage():
 		for stage in ssbrc.stages:
 			mc_write(file, tab(1) + qm + stage + suf_e)
 			mc_write(file, tab(2) + qm + 'name' + sep_s + stage + suf_s)
+			mc_write(file, tab(2) + qm + 'series' + sep_s + ssbrc.stages[stage]['series'] + suf_s)
+			mc_write(file, tab(2) + qm + 'color' + sep_s + ssbrc.stages[stage]['color'] + suf_s)
+			mc_write(file, tab(2) + qm + 'model' + sep_n + str(ssbrc.stages[stage]['model']) + ',')
+			mc_write(file, tab(2) + qm + 'name' + sep_s + stage + suf_s)
 			mc_write(file, tab(2) + qm + 'page' + sep_n + str(ssbrc.stages[stage]['page']) + ',')
 			mc_write(file, tab(2) + qm + 'location' + sep_s + str(ssbrc.stages[stage]['location']) + suf_s)
 			if ssbrc.stages[stage]['location'] != "null":
 				mc_write(file, tab(2) + qm + 'center' + sep_s + str(center(ssbrc.stages[stage]['location'])) + suf_s)
 			mc_write(file, tab(2) + qm + 'song_count' + sep_n + str(ssbrc.stages[stage]['song_count']) + ',')
 			mc_write(file, tab(2) + qm + 'time' + sep_s + str(ssbrc.stages[stage]['time']) + suf_s)
-			mc_write(file, tab(2) + qm + 'weather' + sep_s + str(ssbrc.stages[stage]['weather']) + suf_s)
+			mc_write(file, tab(2) + qm + 'weather' + sep_s + ssbrc.stages[stage]['weather'] + suf_s)
 			mc_write(file, tab(2) + qm + 'spawnpoints' + suf_e)
 			for i, pos in ssbrc.stages[stage]['spawnpoints'].items():
 				mc_write(file, tab(3) + qm + i + sep_s + pos + suf_s)

@@ -58,6 +58,7 @@ execute if entity @s[tag=mega_buster] run function ssbrc:fighters/mega_man/logic
 execute if entity @s[tag=air_shooter] run function ssbrc:fighters/mega_man/logic/abilities/air_shooter/tick
 execute if entity @s[tag=drill_bomb] run function ssbrc:fighters/mega_man/logic/abilities/drill_bomb/tick
 execute if entity @s[tag=hyper_bomb] run function ssbrc:fighters/mega_man/logic/abilities/hyper_bomb/tick
+execute if entity @s[tag=junk_shield] run function ssbrc:fighters/mega_man/logic/abilities/junk_shield/tick
 execute if entity @s[tag=metal_blade] run function ssbrc:fighters/mega_man/logic/abilities/metal_blade/tick
 execute if entity @s[tag=pile_driver] run function ssbrc:fighters/mega_man/logic/abilities/pile_driver/tick
 execute if entity @s[tag=remote_mine] run function ssbrc:fighters/mega_man/logic/abilities/remote_mine/tick

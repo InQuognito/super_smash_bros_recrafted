@@ -43,7 +43,7 @@
 						},
 						{
 							"function": "minecraft:set_custom_data",
-							"tag": "{item:\"socom\"}"
+							"tag": "{item:\"socom\",group:\"snake.weapon\"}"
 						}
 					]
 				}

@@ -1,7 +1,6 @@
 scoreboard players set #n temp 28
 
 function ssbrc:stages/pyrosphere/logic/fgii_graham/projectile/move_forward
-scoreboard players reset entity_hit temp
 
 execute at @s run particle minecraft:end_rod ~ ~ ~ 0.0 0.0 0.0 0.0 1 force @a
 

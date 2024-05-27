@@ -2,7 +2,7 @@ particle minecraft:dust_color_transition{from_color:[0.4,0.9,1.0],to_color:[1.0,
 particle minecraft:snowflake ~ ~ ~ 0.0 0.0 0.0 0.0 1 force @a
 
 execute positioned ~-0.375 ~-0.375 ~-0.375 as @e[tag=!self,predicate=ssbrc:flag/targets,dx=0] positioned ~-0.25 ~-0.25 ~-0.25 if entity @s[dx=0] run function ssbrc:fighters/luigi/logic/abilities/ice_ball/hit
-function ssbrc:logic/fighters/checks/hit
+execute if score entity_hit temp matches 1 run kill @s
 
 execute store result entity @s Rotation[1] float 0.3 run scoreboard players get @s point
 

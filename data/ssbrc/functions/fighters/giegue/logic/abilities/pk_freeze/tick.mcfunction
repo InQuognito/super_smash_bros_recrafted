@@ -4,7 +4,7 @@ execute if entity @s[tag=pk_freeze.split] run particle minecraft:dust_color_tran
 execute unless block ~ ~ ~ #ssbrc:passthrough run kill @s
 
 execute positioned ~-0.15 ~-0.15 ~-0.15 as @e[tag=!self,predicate=ssbrc:flag/targets,dx=0] positioned ~-0.7 ~-0.7 ~-0.7 if entity @s[dx=0] run function ssbrc:fighters/giegue/logic/abilities/pk_freeze/hit
-function ssbrc:logic/fighters/checks/hit
+execute if score entity_hit temp matches 1 run kill @s
 
 execute if entity @s[tag=!pk_freeze.split,scores={temp=30..}] run function ssbrc:fighters/giegue/logic/abilities/pk_freeze/split
 

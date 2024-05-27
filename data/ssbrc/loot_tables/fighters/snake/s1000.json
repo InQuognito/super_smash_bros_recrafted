@@ -43,7 +43,7 @@
 						},
 						{
 							"function": "minecraft:set_custom_data",
-							"tag": "{item:\"s1000\"}"
+							"tag": "{item:\"s1000\",group:\"snake.weapon\"}"
 						}
 					]
 				}

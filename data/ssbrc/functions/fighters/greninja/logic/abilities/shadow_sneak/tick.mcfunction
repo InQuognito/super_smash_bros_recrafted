@@ -9,4 +9,4 @@ teleport @s[scores={temp=..40}] ^ ^ ^0.25
 
 scoreboard players add @s temp 1
 execute if entity @s[scores={temp=41..}] as @a[tag=self,limit=1] at @s run function ssbrc:fighters/greninja/logic/abilities/shadow_sneak/deactivate
-function ssbrc:logic/fighters/checks/hit
+execute if score entity_hit temp matches 1 run kill @s

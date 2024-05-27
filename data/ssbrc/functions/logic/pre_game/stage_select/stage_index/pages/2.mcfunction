@@ -5,23 +5,23 @@ function ssbrc:logic/ui/buttons/placeholder/get {slot:"0"}
 function ssbrc:logic/ui/buttons/navigator {path:"logic/pre_game/stage_select/stage_index/pages/1",type:"back",slot:"9"}
 function ssbrc:logic/ui/buttons/placeholder/get {slot:"18"}
 
-loot replace entity @s enderchest.2 loot ssbrc:ui/stages/pallet_town
-loot replace entity @s enderchest.3 loot ssbrc:ui/stages/lake_of_rage
-loot replace entity @s enderchest.4 loot ssbrc:ui/stages/spear_pillar
-loot replace entity @s enderchest.5 loot ssbrc:ui/stages/saturn_valley
-loot replace entity @s enderchest.6 loot ssbrc:ui/stages/magicant
+function ssbrc:logic/pre_game/stage_select/stage_index/buttons/stage/get {name:"pallet_town",slot:"2"}
+function ssbrc:logic/pre_game/stage_select/stage_index/buttons/stage/get {name:"lake_of_rage",slot:"3"}
+function ssbrc:logic/pre_game/stage_select/stage_index/buttons/stage/get {name:"spear_pillar",slot:"4"}
+function ssbrc:logic/pre_game/stage_select/stage_index/buttons/stage/get {name:"saturn_valley",slot:"5"}
+function ssbrc:logic/pre_game/stage_select/stage_index/buttons/stage/get {name:"magicant",slot:"6"}
 
-loot replace entity @s enderchest.11 loot ssbrc:ui/stages/sand_ocean
-loot replace entity @s enderchest.12 loot ssbrc:ui/stages/icicle_mountain
-loot replace entity @s enderchest.13 loot ssbrc:ui/stages/castle_siege
-loot replace entity @s enderchest.14 loot ssbrc:ui/stages/flat_zone
-loot replace entity @s enderchest.15 loot ssbrc:ui/stages/palutenas_temple
+function ssbrc:logic/pre_game/stage_select/stage_index/buttons/stage/get {name:"sand_ocean",slot:"11"}
+function ssbrc:logic/pre_game/stage_select/stage_index/buttons/stage/get {name:"icicle_mountain",slot:"12"}
+function ssbrc:logic/pre_game/stage_select/stage_index/buttons/stage/get {name:"castle_siege",slot:"13"}
+function ssbrc:logic/pre_game/stage_select/stage_index/buttons/stage/get {name:"flat_zone",slot:"14"}
+function ssbrc:logic/pre_game/stage_select/stage_index/buttons/stage/get {name:"palutenas_temple",slot:"15"}
 
-loot replace entity @s enderchest.20 loot ssbrc:ui/stages/shadow_moses_island
-loot replace entity @s enderchest.21 loot ssbrc:ui/stages/green_hill_zone
-loot replace entity @s enderchest.22 loot ssbrc:ui/stages/garden_of_hope
-loot replace entity @s enderchest.23 loot ssbrc:ui/stages/wily_castle
-loot replace entity @s enderchest.24 loot ssbrc:ui/stages/miiverse
+function ssbrc:logic/pre_game/stage_select/stage_index/buttons/stage/get {name:"shadow_moses_island",slot:"20"}
+function ssbrc:logic/pre_game/stage_select/stage_index/buttons/stage/get {name:"green_hill_zone",slot:"21"}
+function ssbrc:logic/pre_game/stage_select/stage_index/buttons/stage/get {name:"garden_of_hope",slot:"22"}
+function ssbrc:logic/pre_game/stage_select/stage_index/buttons/stage/get {name:"wily_castle",slot:"23"}
+function ssbrc:logic/pre_game/stage_select/stage_index/buttons/stage/get {name:"miiverse",slot:"24"}
 
 function ssbrc:logic/ui/buttons/placeholder/get {slot:"8"}
 function ssbrc:logic/ui/buttons/navigator {path:"logic/pre_game/stage_select/stage_index/pages/3",type:"forward",slot:"17"}

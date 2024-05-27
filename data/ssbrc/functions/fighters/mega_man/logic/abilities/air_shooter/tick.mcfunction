@@ -3,7 +3,7 @@ particle minecraft:dust_color_transition{from_color:[0.8,0.8,1.0],to_color:[1.0,
 execute unless block ^ ^ ^0.1 #ssbrc:passthrough run kill @s
 
 execute positioned ~-0.25 ~-0.25 ~-0.25 as @e[tag=!self,predicate=ssbrc:flag/targets,dx=0,sort=nearest,limit=1] positioned ~-0.5 ~-0.5 ~-0.5 if entity @s[dx=0] at @e[type=minecraft:item_display,tag=air_shooter,sort=nearest,limit=1] run function ssbrc:fighters/mega_man/logic/abilities/air_shooter/hit
-function ssbrc:logic/fighters/checks/hit
+execute if score entity_hit temp matches 1 run kill @s
 
 teleport @s[tag=1] ^ ^0.1 ^0.2
 teleport @s[tag=2] ^ ^0.1 ^0.3

@@ -96,7 +96,7 @@
 						},
 						{
 							"function": "minecraft:set_custom_data",
-							"tag": "{item:\"smoke_grenade\"}"
+							"tag": "{item:\"smoke_grenade\",group:\"snake.weapon\"}"
 						}
 					]
 				}

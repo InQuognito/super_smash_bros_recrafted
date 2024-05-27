@@ -1,2 +1,3 @@
-execute if score entity_hit temp matches 1 run kill @s
-scoreboard players reset entity_hit temp
+execute as @a[tag=self,limit=1] at @s run playsound minecraft:entity.arrow.hit_player player @s
+
+scoreboard players set entity_hit temp 1

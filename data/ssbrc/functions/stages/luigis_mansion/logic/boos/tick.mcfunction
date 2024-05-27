@@ -1,3 +1,5 @@
+execute if predicate ssbrc:random_chance/0.5 run playsound ssbrc:stages.luigis_mansion.boo.laugh ambient @a
+
 scoreboard players operation $in math = @s temp
 function ssbrc:math/trig/sin
 

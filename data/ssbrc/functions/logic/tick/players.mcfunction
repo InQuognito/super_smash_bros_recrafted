@@ -1,5 +1,4 @@
-execute at @s run function ssbrc:logic/ui/tick {ui:"shop"}
-execute at @s run function ssbrc:logic/ui/tick {ui:"logic/pre_game/stage_select/stage_index"}
+function ssbrc:logic/ui/tick
 
 function ssbrc:logic/tick/lobby
 

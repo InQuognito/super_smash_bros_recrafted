@@ -4,4 +4,4 @@ execute if score ray_abort temp matches 1 run function ssbrc:fighters/altered_be
 execute unless score ray_abort temp matches 1 run function ssbrc:fighters/altered_beast/logic/weretiger/super_jump/raycast/proceed
 scoreboard players reset ray_abort temp
 
-function ssbrc:logic/fighters/checks/hit
+execute if score entity_hit temp matches 1 run kill @s

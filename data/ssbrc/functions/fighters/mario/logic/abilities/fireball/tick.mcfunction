@@ -3,7 +3,7 @@ particle minecraft:flame ^ ^ ^.25 0.05 0.05 0.05 0.0 2 force @a
 particle minecraft:dust_color_transition{from_color:[1.0,0.5,0.0],to_color:[1.0,1.0,1.0],scale:0.75} ^ ^ ^-0.1 0.075 0.075 0.075 0.0 10 normal @a
 
 execute positioned ~-0.375 ~-0.375 ~-0.375 as @e[tag=!self,predicate=ssbrc:flag/targets,dx=0] unless items entity @s container.* minecraft:nether_star[minecraft:custom_data~{item:"goron_locket"}] positioned ~-0.25 ~-0.25 ~-0.25 if entity @s[dx=0] run function ssbrc:fighters/mario/logic/abilities/fireball/hit
-function ssbrc:logic/fighters/checks/hit
+execute if score entity_hit temp matches 1 run kill @s
 
 execute store result entity @s Rotation[1] float 0.25 run scoreboard players get @s point
 

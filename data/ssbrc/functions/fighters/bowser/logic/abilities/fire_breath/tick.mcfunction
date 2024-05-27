@@ -2,6 +2,10 @@ execute unless entity @s[tag=fire_breath] run playsound ssbrc:fighters.bowser.fi
 tag @s add fire_breath
 
 scoreboard players remove @s[scores={charge.1=1..}] charge.1 1
+
+execute if entity @s[predicate=!ssbrc:flag/in_water] run data modify storage ssbrc:data/bowser particle set value "flame"
+execute if entity @s[predicate=ssbrc:flag/in_water] run data modify storage ssbrc:data/bowser particle set value "bubble"
+
 execute store result storage ssbrc:data/bowser x double 0.01 run random value -100..100
 execute store result storage ssbrc:data/bowser y double 0.01 run random value -100..100
 
