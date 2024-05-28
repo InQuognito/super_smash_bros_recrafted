@@ -1,7 +1,13 @@
 [
 	{
-		"function": "minecraft:reference",
-		"name": "ssbrc:fighters/link/boomerang/name"
+		"function": "minecraft:set_name",
+		"entity": "this",
+		"name": {
+			"translate": "ssbrc.tooltips.the_legend_of_zelda.boomerang",
+			"color": "gold",
+			"bold": true,
+			"italic": false
+		}
 	},
 	{
 		"function": "minecraft:reference",
