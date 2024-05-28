@@ -9,11 +9,11 @@
 						"condition": "minecraft:entity_scores",
 						"entity": "this",
 						"scores": {
-							"cooldown.1": {
+							"cooldown": {
 								"max": 0
 							},
 							"weapon_3.mags": {
-								"min": 1
+								"min": 0
 							},
 							"weapon_3.ammo": {
 								"min": 1

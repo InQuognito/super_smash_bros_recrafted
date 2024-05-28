@@ -1,7 +1,7 @@
 execute store result score percentage temp run data get entity @s Health 1.0
 scoreboard players operation percentage temp *= 100 integers
-execute store result score #fgiiGraham.maxHealth vars run attribute @s minecraft:generic.max_health get
-scoreboard players operation percentage temp /= #fgiiGraham.maxHealth vars
+execute store result score #fgii_graham.maxHealth vars run attribute @s minecraft:generic.max_health get
+scoreboard players operation percentage temp /= #fgii_graham.maxHealth vars
 
 execute if score percentage temp matches ..5 positioned ~ 39.5 ~ run teleport @s ^ ^ ^0.01 ~ ~
 execute if score percentage temp matches 6..10 positioned ~ 39.5 ~ run teleport @s ^ ^ ^0.02 ~ ~
