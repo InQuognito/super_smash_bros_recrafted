@@ -80,7 +80,7 @@ def custom_model_data(skin, fighter, i):
 	if skin not in ['default','gold']:
 		if has_forms(fighter) and ssbrc.fighters[fighter]['skins'][skin]['forms'] == True:
 			for form in ssbrc.fighters[fighter]['forms']:
-				path = f'data\\ssbrc\\item_modifiers\\fighters\\armor\\\\aesthetic\\{fighter}\\{skin}\\'
+				path = f'data\\ssbrc\\item_modifier\\fighters\\armor\\\\aesthetic\\{fighter}\\{skin}\\'
 				create_path(path)
 				with open(path + form + '.json', 'w') as file:
 					js_write(file, '{')
@@ -89,7 +89,7 @@ def custom_model_data(skin, fighter, i):
 					js_write(file, '}')
 				i += 1
 		else:
-			path = f'data\\ssbrc\\item_modifiers\\fighters\\armor\\\\aesthetic\\{fighter}\\'
+			path = f'data\\ssbrc\\item_modifier\\fighters\\armor\\\\aesthetic\\{fighter}\\'
 			create_path(path)
 			with open(path + skin + '.json', 'w') as file:
 				js_write(file, '{')
@@ -100,7 +100,7 @@ def custom_model_data(skin, fighter, i):
 	else:
 		if has_forms(fighter):
 			for form in ssbrc.fighters[fighter]['forms']:
-				path = f'data\\ssbrc\\item_modifiers\\fighters\\armor\\\\aesthetic\\{fighter}\\{skin}\\'
+				path = f'data\\ssbrc\\item_modifier\\fighters\\armor\\\\aesthetic\\{fighter}\\{skin}\\'
 				create_path(path)
 				with open(path + form + '.json', 'w') as file:
 					js_write(file, '{')
@@ -109,7 +109,7 @@ def custom_model_data(skin, fighter, i):
 					js_write(file, '}')
 				i += 1
 		else:
-			path = f'data\\ssbrc\\item_modifiers\\fighters\\armor\\\\aesthetic\\{fighter}\\'
+			path = f'data\\ssbrc\\item_modifier\\fighters\\armor\\\\aesthetic\\{fighter}\\'
 			create_path(path)
 			with open(path + skin + '.json', 'w') as file:
 				js_write(file, '{')
@@ -177,12 +177,12 @@ def create_shop_entry(skin, fighter, path):
 
 def create_skin(skin, fighter, i):
 	'''Initializes a skin.'''
-	create_advancement(skin, fighter, f'data\\ssbrc\\advancements\\fighters\\{fighter}\\skins\\')
+	create_advancement(skin, fighter, f'data\\ssbrc\\advancement\\fighters\\{fighter}\\skins\\')
 
-	create_item_modifier(skin, fighter, f'data\\ssbrc\\item_modifiers\\fighters\\{fighter}\\skins\\', i)
+	create_item_modifier(skin, fighter, f'data\\ssbrc\\item_modifier\\fighters\\{fighter}\\skins\\', i)
 
 	custom_model_data(skin, fighter, i)
 
-	create_skin_file(skin, fighter, f'data\\ssbrc\\functions\\fighters\\{fighter}\\menu\\skins\\')
+	create_skin_file(skin, fighter, f'data\\ssbrc\\function\\fighters\\{fighter}\\menu\\skins\\')
 
-	create_shop_entry(skin, fighter, f'data\\ssbrc\\functions\\shop\\contents\\skins\\{fighter}\\')
+	create_shop_entry(skin, fighter, f'data\\ssbrc\\function\\shop\\contents\\skins\\{fighter}\\')

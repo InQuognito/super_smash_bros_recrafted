@@ -1,0 +1,52 @@
+{
+	"type": "minecraft:command",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:nether_star",
+					"functions": [
+						{
+							"function": "minecraft:set_components",
+							"components": {
+								"minecraft:attribute_modifiers": {
+									"modifiers": [
+										{
+											"type": "minecraft:generic.attack_damage",
+											"id": "ssbrc:attack_damage",
+											"amount": 1.5,
+											"operation": "add_multiplied_base",
+											"slot": "mainhand"
+										},
+										{
+											"type": "minecraft:generic.attack_speed",
+											"id": "ssbrc:attack_speed",
+											"amount": 0.5,
+											"operation": "add_multiplied_base",
+											"slot": "mainhand"
+										}
+									],
+									"show_in_tooltip": false
+								}
+							}
+						},
+						{
+							"function": "minecraft:reference",
+							"name": "ssbrc:fighters/init/unbreakable"
+						},
+						{
+							"function": "minecraft:reference",
+							"name": "ssbrc:fighters/dark_samus/phazon_beam"
+						},
+						{
+							"function": "minecraft:set_custom_data",
+							"tag": "{item:\"phazon_beam\",path:\"dark_samus/logic/abilities/phazon_beam/activate\"}"
+						}
+					]
+				}
+			]
+		}
+	]
+}

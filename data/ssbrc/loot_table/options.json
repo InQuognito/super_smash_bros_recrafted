@@ -1,0 +1,212 @@
+{
+	"type": "minecraft:command",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:written_book",
+					"functions": [
+						{
+							"function": "minecraft:set_name",
+							"entity": "this",
+							"target": "item_name",
+							"name": {
+								"text": "Options",
+								"color": "gold",
+								"bold": true
+							}
+						},
+						{
+							"function": "minecraft:set_written_book_pages",
+							"pages": [
+								[
+									{
+										"text": ""
+									},
+									{
+										"nbt": "game_mode_header",
+										"storage": "ssbrc:options",
+										"interpret": true
+									},
+									{
+										"text": "\n"
+									},
+									{
+										"text": "[ ",
+										"color": "dark_gray"
+									},
+									{
+										"nbt": "game_mode_options",
+										"storage": "ssbrc:options",
+										"interpret": true
+									},
+									{
+										"text": " ]",
+										"color": "dark_gray"
+									},
+									{
+										"text": "\n\n"
+									},
+									{
+										"nbt": "game_mode_options_header",
+										"storage": "ssbrc:options",
+										"interpret": true
+									},
+									{
+										"text": "\n"
+									},
+									{
+										"text": "[ ",
+										"color": "dark_gray"
+									},
+									{
+										"nbt": "game_mode",
+										"storage": "ssbrc:options",
+										"interpret": true
+									},
+									{
+										"text": " ]",
+										"color": "dark_gray"
+									},
+									{
+										"text": "\n\n"
+									},
+									{
+										"nbt": "teams_header",
+										"storage": "ssbrc:options",
+										"interpret": true
+									},
+									{
+										"text": "\n"
+									},
+									{
+										"text": "[ ",
+										"color": "dark_gray"
+									},
+									{
+										"nbt": "teams_options",
+										"storage": "ssbrc:options",
+										"interpret": true
+									},
+									{
+										"text": " ]",
+										"color": "dark_gray"
+									},
+									{
+										"text": "\n\n"
+									},
+									{
+										"nbt": "friendly_fire_header",
+										"storage": "ssbrc:options",
+										"interpret": true
+									},
+									{
+										"text": "\n"
+									},
+									{
+										"text": "[ ",
+										"color": "dark_gray"
+									},
+									{
+										"nbt": "friendly_fire_options",
+										"storage": "ssbrc:options",
+										"interpret": true
+									},
+									{
+										"text": " ]",
+										"color": "dark_gray"
+									}
+								],
+								[
+									{
+										"nbt": "hazards_header",
+										"storage": "ssbrc:options",
+										"interpret": true
+									},
+									{
+										"text": "\n"
+									},
+									{
+										"text": "[ ",
+										"color": "dark_gray"
+									},
+									{
+										"nbt": "hazards_options",
+										"storage": "ssbrc:options",
+										"interpret": true
+									},
+									{
+										"text": " ]",
+										"color": "dark_gray"
+									},
+									{
+										"text": "\n\n"
+									},
+									{
+										"nbt": "blind_pick_header",
+										"storage": "ssbrc:options",
+										"interpret": true
+									},
+									{
+										"text": "\n"
+									},
+									{
+										"text": "[ ",
+										"color": "dark_gray"
+									},
+									{
+										"nbt": "blind_pick_options",
+										"storage": "ssbrc:options",
+										"interpret": true
+									},
+									{
+										"text": " ]",
+										"color": "dark_gray"
+									},
+									{
+										"text": "\n\n"
+									},
+									{
+										"nbt": "music_header",
+										"storage": "ssbrc:options",
+										"interpret": true
+									},
+									{
+										"text": "\n"
+									},
+									{
+										"text": "[ ",
+										"color": "dark_gray"
+									},
+									{
+										"nbt": "music_options",
+										"storage": "ssbrc:options",
+										"interpret": true
+									},
+									{
+										"text": " ]",
+										"color": "dark_gray"
+									}
+								]
+							],
+							"mode": "replace_all"
+						},
+						{
+							"function": "minecraft:set_components",
+							"components": {
+								"minecraft:custom_model_data": 1,
+								"minecraft:hide_additional_tooltip": {}
+							}
+						},
+						{
+							"function": "minecraft:set_custom_data",
+							"tag": "{item:\"options\"}"
+						}
+					]
+				}
+			]
+		}
+	]
+}

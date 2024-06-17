@@ -2,12 +2,14 @@ from lib.core import *
 
 def stage_storage():
 	'''Initializes stage database into a Minecraft JSON storage.'''
-	with open('data\\ssbrc\\functions\\logic\\init\\stages.mcfunction', 'w') as file:
+	with open('data\\ssbrc\\function\\logic\\init\\stages.mcfunction', 'w') as file:
 		mc_write(file, 'data modify storage ssbrc:data stages set value {')
 		for stage in ssbrc.stages:
 			mc_write(file, tab(1) + qm + stage + suf_e)
 			mc_write(file, tab(2) + qm + 'name' + sep_s + stage + suf_s)
-			mc_write(file, tab(2) + qm + 'series' + sep_s + ssbrc.stages[stage]['series'] + suf_s)
+			series = ssbrc.stages[stage]['series']
+			mc_write(file, tab(2) + qm + 'series' + sep_s + series + suf_s)
+			mc_write(file, tab(2) + qm + 'series_color' + sep_s + ssbrc.series[series] + suf_s)
 			mc_write(file, tab(2) + qm + 'color' + sep_s + ssbrc.stages[stage]['color'] + suf_s)
 			mc_write(file, tab(2) + qm + 'model' + sep_n + str(ssbrc.stages[stage]['model']) + ',')
 			mc_write(file, tab(2) + qm + 'name' + sep_s + stage + suf_s)
@@ -31,17 +33,17 @@ def stage_storage():
 
 def stage_getter():
 	'''Initializes the getter function that can be used to check for the desired stage.'''
-	with open('data\\ssbrc\\functions\\logic\\stages\\get.mcfunction', 'w') as file:
+	with open('data\\ssbrc\\function\\logic\\stages\\get.mcfunction', 'w') as file:
 		for stage in ssbrc.stages:
 			js_write(file, f'$function $(function) with storage ssbrc:data stages.{stage}\n')
-	with open('data\\ssbrc\\functions\\logic\\stages\\get_entity.mcfunction', 'w') as file:
+	with open('data\\ssbrc\\function\\logic\\stages\\get_entity.mcfunction', 'w') as file:
 		for stage in ssbrc.stages:
 			js_write(file, f'$execute if entity @s[tag=$(stage)] run function $(function) with storage ssbrc:data stages.{stage}\n')
 
 def create_series_tags():
 	'''Initializes series tags.'''
 	for name, color in ssbrc.series.items():
-		with open(f'data\\ssbrc\\item_modifiers\\series\\{name}.json', 'w') as file:
+		with open(f'data\\ssbrc\\item_modifier\\series\\{name}.json', 'w') as file:
 			js_write(file, '{')
 			js_write(file, tab(1) + qm + 'function' + sep_s + 'minecraft:set_lore' + suf_s)
 			js_write(file, tab(1) + qm + 'entity' + sep_s + 'this' + suf_s)
@@ -59,7 +61,7 @@ def create_series_tags():
 def create_stage_icon():
 	'''Initializes stage icons.'''
 	for stage in ssbrc.stages:
-		with open(f'data\\ssbrc\\loot_tables\\ui\\stages\\{stage}.json', 'w') as file:
+		with open(f'data\\ssbrc\\loot_table\\ui\\stages\\{stage}.json', 'w') as file:
 			js_write(file, '{')
 			js_write(file, tab(1) + qm + 'type' + sep_s + 'minecraft:command' + suf_s)
 			js_write(file, tab(1) + qm + 'pools' + suf_l)

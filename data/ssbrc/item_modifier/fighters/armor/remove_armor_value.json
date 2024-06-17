@@ -1,0 +1,24 @@
+{
+	"function": "minecraft:set_components",
+	"components": {
+		"minecraft:attribute_modifiers": {
+			"modifiers": [
+				{
+					"type": "minecraft:generic.armor",
+					"id": "ssbrc:armor",
+					"amount": 0,
+					"operation": "add_multiplied_base",
+					"slot": "armor"
+				},
+				{
+					"type": "minecraft:generic.armor_toughness",
+					"id": "ssbrc:armor_toughness",
+					"amount": 0,
+					"operation": "add_multiplied_base",
+					"slot": "armor"
+				}
+			],
+			"show_in_tooltip": false
+		}
+	}
+}

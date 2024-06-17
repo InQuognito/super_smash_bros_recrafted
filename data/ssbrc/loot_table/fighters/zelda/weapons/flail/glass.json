@@ -1,0 +1,59 @@
+{
+	"type": "minecraft:command",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:iron_sword",
+					"functions": [
+						{
+							"function": "minecraft:set_name",
+							"entity": "this",
+							"target": "item_name",
+							"name": {
+								"translate": "ssbrc.tooltips.zelda.weapon.flail.glass",
+								"color": "aqua",
+								"bold": true
+							}
+						},
+						{
+							"function": "minecraft:set_components",
+							"components": {
+								"minecraft:attribute_modifiers": {
+									"modifiers": [
+										{
+											"type": "minecraft:generic.attack_damage",
+											"id": "ssbrc:attack_damage",
+											"amount": 10,
+											"operation": "add_multiplied_base",
+											"slot": "mainhand"
+										},
+										{
+											"type": "minecraft:generic.attack_speed",
+											"id": "ssbrc:attack_speed",
+											"amount": 0.75,
+											"operation": "add_multiplied_base",
+											"slot": "mainhand"
+										}
+									],
+									"show_in_tooltip": false
+								},
+								"minecraft:custom_model_data": 9008
+							}
+						},
+						{
+							"function": "minecraft:reference",
+							"name": "ssbrc:fighters/zelda/weapons/flail/init"
+						},
+						{
+							"function": "minecraft:reference",
+							"name": "ssbrc:fighters/zelda/weapons/glass"
+						}
+					]
+				}
+			]
+		}
+	]
+}

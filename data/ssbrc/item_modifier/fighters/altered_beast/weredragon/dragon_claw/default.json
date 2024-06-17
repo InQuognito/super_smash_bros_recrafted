@@ -1,0 +1,16 @@
+[
+	{
+		"function": "minecraft:set_name",
+		"entity": "this",
+		"name": {
+			"translate": "ssbrc.tooltips.altered_beast.weredragon.dragon_claw",
+			"color": "dark_green",
+			"bold": true,
+			"italic": false
+		}
+	},
+	{
+		"function": "minecraft:set_custom_model_data",
+		"value": 1828
+	}
+]

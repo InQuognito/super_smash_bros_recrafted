@@ -1,0 +1,26 @@
+[
+	{
+		"function": "minecraft:set_components",
+		"components": {
+			"minecraft:attribute_modifiers": {
+				"modifiers": [
+					{
+						"type": "minecraft:generic.attack_damage",
+						"id": "ssbrc:attack_damage",
+						"amount": 0,
+						"operation": "add_multiplied_base",
+						"slot": "mainhand"
+					},
+					{
+						"type": "minecraft:generic.attack_speed",
+						"id": "ssbrc:attack_speed",
+						"amount": 1024,
+						"operation": "add_multiplied_base",
+						"slot": "mainhand"
+					}
+				],
+				"show_in_tooltip": false
+			}
+		}
+	}
+]

@@ -1,0 +1,200 @@
+{
+	"type": "minecraft:command",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:written_book",
+					"functions": [
+						{
+							"function": "minecraft:set_name",
+							"entity": "this",
+							"target": "item_name",
+							"name": {
+								"translate": "ssbrc.statistics.player_profile",
+								"color": "gold",
+								"bold": true
+							}
+						},
+						{
+							"function": "minecraft:reference",
+							"name": "ssbrc:fighters/init/preset/ui"
+						},
+						{
+							"function": "minecraft:set_lore",
+							"entity": "this",
+							"lore": [
+								{
+									"translate": "ssbrc.statistics.highest_win_streak",
+									"color": "gold",
+									"bold": false,
+									"italic": false,
+									"extra": [
+										{
+											"score": {
+												"name": "@s",
+												"objective": "stats.win_streak.record"
+											},
+											"color": "yellow",
+											"bold": false,
+											"italic": false
+										}
+									]
+								},
+								{
+									"translate": "ssbrc.statistics.current_win_streak",
+									"color": "gold",
+									"bold": false,
+									"italic": false,
+									"extra": [
+										{
+											"score": {
+												"name": "@s",
+												"objective": "stats.win_streak"
+											},
+											"color": "yellow",
+											"bold": false,
+											"italic": false
+										}
+									]
+								},
+								{
+									"translate": "ssbrc.statistics.wins",
+									"color": "gold",
+									"bold": false,
+									"italic": false,
+									"extra": [
+										{
+											"score": {
+												"name": "@s",
+												"objective": "stats.wins"
+											},
+											"color": "yellow",
+											"bold": false,
+											"italic": false
+										}
+									]
+								},
+								{
+									"translate": "ssbrc.statistics.games_played",
+									"color": "gold",
+									"bold": false,
+									"italic": false,
+									"extra": [
+										{
+											"score": {
+												"name": "@s",
+												"objective": "stats.games_played"
+											},
+											"color": "yellow",
+											"bold": false,
+											"italic": false
+										}
+									]
+								},
+								{
+									"translate": "ssbrc.statistics.win_loss",
+									"color": "gold",
+									"bold": false,
+									"italic": false,
+									"extra": [
+										{
+											"score": {
+												"name": "@s",
+												"objective": "stats.win_loss"
+											},
+											"color": "yellow",
+											"bold": false,
+											"italic": false,
+											"extra": [
+												{
+													"translate": "%",
+													"color": "yellow",
+													"bold": false,
+													"italic": false
+												}
+											]
+										}
+									]
+								},
+								{
+									"translate": "ssbrc.statistics.kills",
+									"color": "gold",
+									"bold": false,
+									"italic": false,
+									"extra": [
+										{
+											"score": {
+												"name": "@s",
+												"objective": "stats.kills"
+											},
+											"color": "yellow",
+											"bold": false,
+											"italic": false
+										}
+									]
+								},
+								{
+									"translate": "ssbrc.statistics.deaths",
+									"color": "gold",
+									"bold": false,
+									"italic": false,
+									"extra": [
+										{
+											"score": {
+												"name": "@s",
+												"objective": "stats.deaths"
+											},
+											"color": "yellow",
+											"bold": false,
+											"italic": false
+										}
+									]
+								},
+								{
+									"translate": "ssbrc.statistics.kill_death",
+									"color": "gold",
+									"bold": false,
+									"italic": false,
+									"extra": [
+										{
+											"score": {
+												"name": "@s",
+												"objective": "stats.kill_death"
+											},
+											"color": "yellow",
+											"bold": false,
+											"italic": false,
+											"extra": [
+												{
+													"translate": "%",
+													"color": "yellow",
+													"bold": false,
+													"italic": false
+												}
+											]
+										}
+									]
+								}
+							],
+							"mode": "append"
+						},
+						{
+							"function": "minecraft:set_components",
+							"components": {
+								"minecraft:custom_model_data": 2,
+								"minecraft:hide_additional_tooltip": {}
+							}
+						},
+						{
+							"function": "minecraft:set_custom_data",
+							"tag": "{item:\"statistics\"}"
+						}
+					]
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,14 @@
+{
+	"values": [
+		"#minecraft:axes",
+		"#minecraft:shovels",
+		"#minecraft:swords",
+		"minecraft:bow",
+		"minecraft:crossbow",
+		"minecraft:goat_horn",
+		"minecraft:gunpowder",
+		"minecraft:nether_star",
+		"minecraft:shield",
+		"minecraft:trident"
+	]
+}
