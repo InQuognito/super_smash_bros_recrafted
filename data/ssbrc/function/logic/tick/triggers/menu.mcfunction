@@ -1,4 +1,4 @@
-execute if entity @s[scores={menu=-999}] run function ssbrc:logic/player_data/reset/ask
+execute if score @s menu matches -999 run function ssbrc:logic/player_data/reset/ask
 execute if entity @s[scores={menu=-998,reset=1}] run function ssbrc:logic/player_data/reset/cancel
 execute if entity @s[scores={menu=-997,reset=1}] run function ssbrc:logic/player_data/reset/confirm
 

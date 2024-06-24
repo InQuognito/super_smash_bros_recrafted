@@ -1,0 +1,38 @@
+{
+	"type": "minecraft:command",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:iron_sword",
+					"functions": [
+						{
+							"function": "minecraft:set_name",
+							"entity": "this",
+							"target": "item_name",
+							"name": {
+								"translate": "ssbrc.tooltips.zelda.weapon.flail.obsidian",
+								"color": "dark_purple",
+								"bold": true
+							}
+						},
+						{
+							"function": "minecraft:reference",
+							"name": "ssbrc:fighters/zelda/weapon/flail"
+						},
+						{
+							"function": "minecraft:reference",
+							"name": "ssbrc:fighters/zelda/weapon/enchant/obsidian"
+						},
+						{
+							"function": "minecraft:set_custom_model_data",
+							"value": 9009
+						}
+					]
+				}
+			]
+		}
+	]
+}

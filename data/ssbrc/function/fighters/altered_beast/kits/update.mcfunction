@@ -4,4 +4,4 @@ function ssbrc:logic/fighters/attributes/defaults
 
 clear @s #ssbrc:equipment
 
-function ssbrc:logic/fighters/armor/update
+function ssbrc:logic/fighters/armor/update/check

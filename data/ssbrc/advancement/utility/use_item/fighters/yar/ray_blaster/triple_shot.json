@@ -16,6 +16,7 @@
 					}
 				],
 				"item": {
+					"items": "#ssbrc:equipment",
 					"predicates": {
 						"minecraft:custom_data": "{item:\"triple_shot\"}"
 					}

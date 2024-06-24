@@ -4,7 +4,7 @@
 		"components": {
 			"minecraft:trim": {
 				"material": "minecraft:quartz",
-				"pattern": "ssbrc:fighters/peach/default",
+				"pattern": "ssbrc:fighters/peach/default/default",
 				"show_in_tooltip": false
 			}
 		},
@@ -137,7 +137,7 @@
 		"components": {
 			"minecraft:trim": {
 				"material": "minecraft:quartz",
-				"pattern": "ssbrc:fighters/shadow/default",
+				"pattern": "ssbrc:fighters/shadow/default/default",
 				"show_in_tooltip": false
 			}
 		},

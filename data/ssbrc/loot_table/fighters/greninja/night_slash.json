@@ -24,6 +24,13 @@
 								"minecraft:attribute_modifiers": {
 									"modifiers": [
 										{
+											"type": "minecraft:generic.attack_damage",
+											"id": "ssbrc:attack_damage",
+											"amount": 5,
+											"operation": "add_multiplied_base",
+											"slot": "mainhand"
+										},
+										{
 											"type": "minecraft:generic.attack_speed",
 											"id": "ssbrc:attack_speed",
 											"amount": 2,
@@ -31,6 +38,12 @@
 											"slot": "mainhand"
 										}
 									],
+									"show_in_tooltip": false
+								},
+								"minecraft:enchantments": {
+									"levels": {
+										"ssbrc:fighter/greninja/night_slash": 1
+									},
 									"show_in_tooltip": false
 								}
 							}
@@ -51,35 +64,6 @@
 								}
 							],
 							"mode": "append"
-						},
-						{
-							"function": "minecraft:reference",
-							"name": "ssbrc:fighters/greninja/night_slash/default",
-							"conditions": [
-								{
-									"condition": "minecraft:inverted",
-									"term": {
-										"condition": "minecraft:entity_properties",
-										"entity": "this",
-										"predicate": {
-											"nbt": "{Tags:[\"critical\"]}"
-										}
-									}
-								}
-							]
-						},
-						{
-							"function": "minecraft:reference",
-							"name": "ssbrc:fighters/greninja/night_slash/critical",
-							"conditions": [
-								{
-									"condition": "minecraft:entity_properties",
-									"entity": "this",
-									"predicate": {
-										"nbt": "{Tags:[\"critical\"]}"
-									}
-								}
-							]
 						},
 						{
 							"function": "minecraft:set_custom_data",

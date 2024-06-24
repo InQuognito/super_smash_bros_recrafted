@@ -41,6 +41,7 @@
 					}
 				],
 				"item": {
+					"items": "#ssbrc:equipment",
 					"predicates": {
 						"minecraft:custom_data": "{item:\"phase_locket\"}"
 					}

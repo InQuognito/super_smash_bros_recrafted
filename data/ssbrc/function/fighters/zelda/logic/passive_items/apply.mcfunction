@@ -6,8 +6,7 @@ execute if items entity @s container.* minecraft:nether_star[minecraft:custom_da
 execute unless items entity @s container.* minecraft:nether_star[minecraft:custom_data~{item:"pegasus_anklet"}] run effect clear @s minecraft:speed
 execute if items entity @s container.* minecraft:nether_star[minecraft:custom_data~{item:"pegasus_anklet"}] run effect give @s minecraft:speed infinite 0 true
 
-execute unless items entity @s[predicate=ssbrc:fighters/enchantments/has/blast_protection] container.* minecraft:nether_star[minecraft:custom_data~{item:"ring_of_blasting"}] run function ssbrc:logic/fighters/armor/update
-execute if items entity @s[predicate=!ssbrc:fighters/enchantments/has/blast_protection] container.* minecraft:nether_star[minecraft:custom_data~{item:"ring_of_blasting"}] run function ssbrc:logic/fighters/armor/update
+function ssbrc:logic/fighters/armor/get
 
 execute unless items entity @s container.* minecraft:nether_star[minecraft:custom_data~{item:"snorkel"}] run effect clear @s minecraft:water_breathing
 execute if items entity @s container.* minecraft:nether_star[minecraft:custom_data~{item:"snorkel"}] run effect give @s minecraft:water_breathing infinite 255 true

@@ -14,7 +14,7 @@ team remove temp
 team remove waiting
 
 team remove aqua
-team remove darkGray
+team remove dark_gray
 team remove gold
 team remove gray
 team remove yellow
@@ -35,7 +35,7 @@ team add temp
 team add waiting
 
 team add aqua
-team add darkGray
+team add dark_gray
 team add gold
 team add gray
 team add yellow

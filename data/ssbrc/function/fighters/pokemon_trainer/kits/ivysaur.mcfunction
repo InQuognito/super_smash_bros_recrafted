@@ -18,7 +18,7 @@ loot replace entity @s hotbar.2 loot ssbrc:fighters/pokemon_trainer/ivysaur/leec
 
 scoreboard players set @s charge.1 4
 
-function ssbrc:logic/fighters/armor/update
+function ssbrc:logic/fighters/armor/update/check
 function ssbrc:logic/fighters/attributes/defaults
 function ssbrc:logic/fighters/effects/default
 

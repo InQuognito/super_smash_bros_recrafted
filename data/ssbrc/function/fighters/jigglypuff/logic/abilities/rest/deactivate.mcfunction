@@ -10,6 +10,6 @@ function ssbrc:logic/fighters/effects/mobility/mobilize
 effect clear @s minecraft:blindness
 effect clear @s minecraft:regeneration
 
-function ssbrc:logic/fighters/armor/update/head
+function ssbrc:logic/fighters/armor/update/check
 
 execute if entity @s[tag=rest] run playsound ssbrc:fighters.jigglypuff.rest.deactivate player @a

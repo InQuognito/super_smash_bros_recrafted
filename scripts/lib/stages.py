@@ -4,6 +4,7 @@ def stage_storage():
 	'''Initializes stage database into a Minecraft JSON storage.'''
 	with open('data\\ssbrc\\function\\logic\\init\\stages.mcfunction', 'w') as file:
 		mc_write(file, 'data modify storage ssbrc:data stages set value {')
+		n = 1
 		for stage in ssbrc.stages:
 			mc_write(file, tab(1) + qm + stage + suf_e)
 			mc_write(file, tab(2) + qm + 'name' + sep_s + stage + suf_s)
@@ -21,14 +22,28 @@ def stage_storage():
 			mc_write(file, tab(2) + qm + 'time' + sep_s + str(ssbrc.stages[stage]['time']) + suf_s)
 			mc_write(file, tab(2) + qm + 'weather' + sep_s + ssbrc.stages[stage]['weather'] + suf_s)
 			mc_write(file, tab(2) + qm + 'spawnpoints' + suf_e)
+			s = 1
 			for i, pos in ssbrc.stages[stage]['spawnpoints'].items():
-				mc_write(file, tab(3) + qm + i + sep_s + pos + suf_s)
+				if s < 8:
+					mc_write(file, tab(3) + qm + i + sep_s + pos + suf_s)
+				else:
+					mc_write(file, tab(3) + qm + i + sep_s + pos + qm)
+				s += 1
 			mc_write(file, tab(2) + ent)
 			mc_write(file, tab(2) + qm + 'item_spawnpoints' + suf_e)
+			s = 1
 			for i, pos in ssbrc.stages[stage]['item_spawnpoints'].items():
-				mc_write(file, tab(3) + qm + i + sep_s + pos + suf_s)
-			mc_write(file, tab(2) + ent)
-			mc_write(file, tab(1) + ent)
+				if s < 20:
+					mc_write(file, tab(3) + qm + i + sep_s + pos + suf_s)
+				else:
+					mc_write(file, tab(3) + qm + i + sep_s + pos + qm)
+				s += 1
+			mc_write(file, tab(2) + '}')
+			if n < len(ssbrc.stages):
+				mc_write(file, tab(1) + ent)
+			else:
+				mc_write(file, tab(1) + '}')
+			n += 1
 		file.write('}\n')
 
 def stage_getter():

@@ -99,7 +99,7 @@ execute if score teams options matches 1 run team modify team8 color aqua
 team modify team8 collisionRule always
 team modify team8 deathMessageVisibility never
 execute if score teams options matches 0 run team modify team8 displayName "Alive"
-execute if score teams options matches 1 run team modify team8 displayName "Aqua"
+execute if score teams options matches 1 run team modify team8 displayName "Teal"
 execute if score friendly_fire options matches 0 run team modify team8 friendlyFire false
 execute if score friendly_fire options matches 1 run team modify team8 friendlyFire true
 team modify team8 nametagVisibility always
@@ -171,27 +171,27 @@ team modify waiting suffix " ⌛"
 team modify aqua color aqua
 team modify aqua collisionRule never
 team modify aqua deathMessageVisibility never
-team modify aqua displayName "Yellow"
+team modify aqua displayName "display.aqua"
 team modify aqua friendlyFire true
 team modify aqua nametagVisibility never
 team modify aqua prefix ""
 team modify aqua seeFriendlyInvisibles false
 team modify aqua suffix ""
 
-team modify darkGray color dark_gray
-team modify darkGray collisionRule never
-team modify darkGray deathMessageVisibility never
-team modify darkGray displayName "Yellow"
-team modify darkGray friendlyFire true
-team modify darkGray nametagVisibility never
-team modify darkGray prefix ""
-team modify darkGray seeFriendlyInvisibles false
-team modify darkGray suffix ""
+team modify dark_gray color dark_gray
+team modify dark_gray collisionRule never
+team modify dark_gray deathMessageVisibility never
+team modify dark_gray displayName "display.dark_gray"
+team modify dark_gray friendlyFire true
+team modify dark_gray nametagVisibility never
+team modify dark_gray prefix ""
+team modify dark_gray seeFriendlyInvisibles false
+team modify dark_gray suffix ""
 
 team modify gold color gold
 team modify gold collisionRule never
 team modify gold deathMessageVisibility never
-team modify gold displayName "Yellow"
+team modify gold displayName "display.gold"
 team modify gold friendlyFire true
 team modify gold nametagVisibility never
 team modify gold prefix ""
@@ -201,7 +201,7 @@ team modify gold suffix ""
 team modify gray color gray
 team modify gray collisionRule never
 team modify gray deathMessageVisibility never
-team modify gray displayName "Yellow"
+team modify gray displayName "display.gray"
 team modify gray friendlyFire true
 team modify gray nametagVisibility never
 team modify gray prefix ""
@@ -211,7 +211,7 @@ team modify gray suffix ""
 team modify yellow color yellow
 team modify yellow collisionRule never
 team modify yellow deathMessageVisibility never
-team modify yellow displayName "Yellow"
+team modify yellow displayName "display.yellow"
 team modify yellow friendlyFire true
 team modify yellow nametagVisibility never
 team modify yellow prefix ""

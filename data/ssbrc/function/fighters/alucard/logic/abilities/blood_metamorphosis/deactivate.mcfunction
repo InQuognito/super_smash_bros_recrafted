@@ -4,4 +4,4 @@ function ssbrc:logic/replace_item {tag:"item",old:"blood_metamorphosis",new:"fig
 
 function ssbrc:logic/modify_item {old:"alucard_sword",new:"fighters/alucard/alucard_sword/awakened/off"}
 
-function ssbrc:logic/fighters/armor/update/head
+function ssbrc:logic/fighters/armor/update/check

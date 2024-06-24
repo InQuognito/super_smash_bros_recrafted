@@ -49,6 +49,7 @@
 					}
 				],
 				"item": {
+					"items": "#ssbrc:equipment",
 					"predicates": {
 						"minecraft:custom_data": "{spell:\"blizzard\"}",
 						"minecraft:damage": {

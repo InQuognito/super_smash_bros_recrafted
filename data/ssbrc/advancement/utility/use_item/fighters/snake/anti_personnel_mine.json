@@ -29,6 +29,7 @@
 					}
 				],
 				"item": {
+					"items": "#ssbrc:equipment",
 					"predicates": {
 						"minecraft:custom_data": "{item:\"anti_personnel_mine\"}",
 						"minecraft:damage": {

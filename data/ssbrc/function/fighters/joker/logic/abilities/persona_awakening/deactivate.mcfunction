@@ -6,6 +6,6 @@ clear @s minecraft:nether_star[minecraft:custom_data~{group:"persona_awakening"}
 
 function ssbrc:logic/fighters/attributes/defaults/knockback_resistance
 
-function ssbrc:logic/fighters/armor/update/head
+function ssbrc:logic/fighters/armor/update/check
 
 playsound ssbrc:fighters.joker.persona_awakening.deactivate player @a

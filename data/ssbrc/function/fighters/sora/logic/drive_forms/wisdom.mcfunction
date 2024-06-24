@@ -8,5 +8,5 @@ scoreboard players add @s charge.2 1
 
 function ssbrc:logic/replace_item {tag:"item",old:"keyblade",new:"fighters/sora/keyblades/primary/fire"}
 
-function ssbrc:logic/fighters/armor/update
+function ssbrc:logic/fighters/armor/update/check
 function ssbrc:logic/fighters/attributes/defaults

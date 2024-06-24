@@ -27,6 +27,7 @@
 					}
 				],
 				"item": {
+					"items": "#ssbrc:equipment",
 					"predicates": {
 						"minecraft:custom_data": "{item:\"spirit_orb\"}"
 					}

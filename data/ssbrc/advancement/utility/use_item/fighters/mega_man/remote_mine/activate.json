@@ -36,6 +36,7 @@
 					}
 				],
 				"item": {
+					"items": "#ssbrc:equipment",
 					"predicates": {
 						"minecraft:custom_data": "{item:\"remote_mine\"}",
 						"minecraft:damage": {

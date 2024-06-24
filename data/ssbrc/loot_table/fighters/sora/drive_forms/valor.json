@@ -89,7 +89,7 @@
 									]
 								},
 								{
-									"translate": " - ",
+									"text": " - ",
 									"color": "red",
 									"bold": true,
 									"italic": false,

@@ -6,7 +6,7 @@
 			"entries": [
 				{
 					"type": "minecraft:item",
-					"name": "minecraft:nether_star",
+					"name": "minecraft:bow",
 					"functions": [
 						{
 							"function": "minecraft:set_name",
@@ -18,7 +18,7 @@
 								"italic": false,
 								"extra": [
 									{
-										"translate": " - ",
+										"text": " - ",
 										"color": "white",
 										"bold": false,
 										"italic": false

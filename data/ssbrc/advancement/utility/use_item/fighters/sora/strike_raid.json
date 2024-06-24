@@ -37,6 +37,7 @@
 					}
 				],
 				"item": {
+					"items": "#ssbrc:equipment",
 					"predicates": {
 						"minecraft:custom_data": "{item:\"keyblade\"}",
 						"minecraft:damage": {

@@ -7,13 +7,17 @@ def init_fighter():
 
 	skin_trigger(f'data\\ssbrc\\function\\logic\\tick\\triggers\\')
 
+	remove_path(f'data\\ssbrc\\advancement\\fighters\\')
+
 	for fighter in ssbrc.fighters:
 		# Remove constructed trees
-		remove_path(f'data\\ssbrc\\advancement\\fighters\\{fighter}')
-		remove_path(f'data\\ssbrc\\function\\fighters\\{fighter}\\menu\\skins\\')
+		remove_path(f'data\\ssbrc\\item_modifier\\fighters\\{fighter}\\skins\\')
 
-		random_skin(fighter, f'data\\ssbrc\\function\\fighters\\{fighter}\\menu\\skins\\')
-		reset_skin(fighter, f'data\\ssbrc\\function\\fighters\\{fighter}\\menu\\skins\\')
+		skin_path = f'data\\ssbrc\\function\\fighters\\{fighter}\\menu\\skins\\'
+		remove_path(skin_path)
+
+		random_skin(fighter, skin_path)
+		reset_skin(fighter, skin_path)
 
 		skin_options(fighter, f'data\\ssbrc\\function\\fighters\\{fighter}\\menu\\')
 		skin_triggers(fighter, f'data\\ssbrc\\function\\fighters\\{fighter}\\menu\\')
@@ -32,6 +36,8 @@ def fighter_storage():
 	'''Initializes fighter database into a Minecraft JSON storage.'''
 	with open('data\\ssbrc\\function\\logic\\init\\fighters.mcfunction', 'w') as file:
 		mc_write(file, 'data modify storage ssbrc:data fighters set value {')
+		fighter_count = len(ssbrc.fighters)
+		f = 1
 		for fighter in ssbrc.fighters:
 			mc_write(file, tab(1) + qm + fighter + suf_e)
 			mc_write(file, tab(2) + qm + 'name' + sep_s + fighter + suf_s)
@@ -40,30 +46,40 @@ def fighter_storage():
 			if fighter == 'team_rocket':
 				mc_write(file, tab(2) + qm + 'model_jesse' + sep_n + str(ssbrc.fighters[fighter]['model'] + 1) + ',')
 				mc_write(file, tab(2) + qm + 'model_james' + sep_n + str(ssbrc.fighters[fighter]['model'] + 2) + ',')
+			mc_write(file, tab(2) + qm + 'default_form' + sep_s + ssbrc.fighters[fighter]['forms'][0] + suf_s)
 			mc_write(file, tab(2) + qm + 'color' + sep_s + get_color(fighter) + suf_s)
 			skin_count = count_skins(fighter)
 			mc_write(file, tab(2) + qm + 'skin_count' + sep_n + str(skin_count) + ',')
+			if fighter == 'byleth': skin_count /= 2
 			mc_write(file, tab(2) + qm + 'skins' + suf_e)
 
 			forms = count_forms(fighter)
 			i = ssbrc.fighters[fighter]['model']
 			for skin in ['default','gold']:
 				i += forms
+			n = 1
 			for skin in ssbrc.fighters[fighter]['skins']:
 				mc_write(file, tab(3) + qm + skin + suf_e)
 				mc_write(file, tab(4) + qm + 'name' + sep_s + skin + suf_s)
 				mc_write(file, tab(4) + qm + 'model' + sep_n + str(i) + ',')
-				mc_write(file, tab(4) + qm + 'color' + sep_s + get_color(fighter, skin) + suf_s)
-				mc_write(file, tab(3) + ent)
+				mc_write(file, tab(4) + qm + 'color' + sep_s + get_color(fighter, skin) + qm)
+				if n < (skin_count - 2):
+					mc_write(file, tab(3) + ent)
+				else:
+					mc_write(file, tab(3) + '}')
 				i += forms
-
-			mc_write(file, tab(2) + ent)
-			mc_write(file, tab(1) + ent)
+				n += 1
+			mc_write(file, tab(2) + '}')
+			if f < fighter_count:
+				mc_write(file, tab(1) + ent)
+			else:
+				mc_write(file, tab(1) + '}')
+			f += 1
 		file.write('}\n')
 
 def fighter_getter():
 	'''Initializes the getter function that can be used to check for the desired fighter.'''
-	with open('data\\ssbrc\\function\\logic\\fighters\\get.mcfunction', 'w') as file:
+	with open('data\\ssbrc\\function\\logic\\fighters\\loop.mcfunction', 'w') as file:
 		for fighter in ssbrc.fighters:
 			file.write(f'$function $(function) with storage ssbrc:data fighters.{fighter}\n')
 
@@ -114,7 +130,7 @@ def skin_trigger(path):
 	'''Initializes the file containing the skin triggers for the fighter.'''
 	create_path(path)
 	with open(path + 'menu.mcfunction', 'w') as file:
-		js_write(file, 'execute if entity @s[scores={menu=-999}] run function ssbrc:logic/player_data/reset/ask')
+		js_write(file, 'execute if score @s menu matches -999 run function ssbrc:logic/player_data/reset/ask')
 		js_write(file, 'execute if entity @s[scores={menu=-998,reset=1}] run function ssbrc:logic/player_data/reset/cancel')
 		js_write(file, 'execute if entity @s[scores={menu=-997,reset=1}] run function ssbrc:logic/player_data/reset/confirm\n')
 

@@ -19,6 +19,7 @@
 					}
 				],
 				"item": {
+					"items": "#ssbrc:equipment",
 					"predicates": {
 						"minecraft:custom_data": "{item:\"eiagon\"}",
 						"minecraft:damage": {

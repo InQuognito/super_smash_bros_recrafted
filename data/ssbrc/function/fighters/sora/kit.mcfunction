@@ -4,6 +4,6 @@ scoreboard players operation @s mana = sora.mp.max vars
 
 loot replace entity @s hotbar.0 loot ssbrc:fighters/sora/keyblades/primary/fire
 
-function ssbrc:logic/fighters/armor/update
+function ssbrc:logic/fighters/armor/update/check
 function ssbrc:logic/fighters/attributes/defaults
 function ssbrc:logic/fighters/effects/default

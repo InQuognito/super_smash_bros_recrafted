@@ -26,6 +26,7 @@
 					}
 				],
 				"item": {
+					"items": "#ssbrc:equipment",
 					"predicates": {
 						"minecraft:custom_data": "{item:\"hyper_voice\"}",
 						"minecraft:damage": {

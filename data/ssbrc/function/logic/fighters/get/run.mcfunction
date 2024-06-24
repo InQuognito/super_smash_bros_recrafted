@@ -1,1 +1,1 @@
-$function $(function) with storage ssbrc:data fighters.$(name)
+$function $(function) with storage ssbrc:data fighters.$(fighter)

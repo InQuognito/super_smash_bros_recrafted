@@ -29,6 +29,7 @@
 					}
 				],
 				"item": {
+					"items": "#ssbrc:equipment",
 					"predicates": {
 						"minecraft:custom_data": "{item:\"air_shooter\"}",
 						"minecraft:damage": {

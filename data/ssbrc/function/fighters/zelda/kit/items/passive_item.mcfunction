@@ -10,7 +10,7 @@ execute if score random.output temp matches 3 run loot replace entity @s hotbar.
 execute if score random.output temp matches 4 run loot replace entity @s hotbar.2 loot ssbrc:fighters/zelda/passive_items/ring_of_blasting
 execute if score random.output temp matches 5 run loot replace entity @s hotbar.2 loot ssbrc:fighters/zelda/passive_items/ring_of_charisma
 execute if score random.output temp matches 6 run loot replace entity @s hotbar.2 loot ssbrc:fighters/zelda/passive_items/ring_of_risk
-execute if score random.output temp matches 7 run function ssbrc:fighters/zelda/kit/passive_items/small_shield
+execute if score random.output temp matches 7 run loot replace entity @s weapon.offhand loot ssbrc:fighters/zelda/passive_items/small_shield
 execute if score random.output temp matches 8 run loot replace entity @s[predicate=ssbrc:stage/has_water] hotbar.2 loot ssbrc:fighters/zelda/passive_items/snorkel
 execute if score random.output temp matches 9 run loot replace entity @s hotbar.2 loot ssbrc:fighters/zelda/passive_items/torch_of_wisdom
 execute if score random.output temp matches 10 run loot replace entity @s[predicate=ssbrc:stage/has_water] hotbar.2 loot ssbrc:fighters/zelda/passive_items/zoras_flippers

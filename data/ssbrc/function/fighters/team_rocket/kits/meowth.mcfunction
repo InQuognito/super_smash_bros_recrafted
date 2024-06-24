@@ -13,6 +13,6 @@ loot replace entity @s hotbar.1 loot ssbrc:fighters/team_rocket/meowth/fury_swip
 
 loot replace entity @s hotbar.2 loot ssbrc:fighters/team_rocket/meowth/payday
 
-function ssbrc:logic/fighters/armor/update
+function ssbrc:logic/fighters/armor/update/check
 function ssbrc:logic/fighters/attributes/defaults
 function ssbrc:logic/fighters/effects/default

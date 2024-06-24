@@ -11,7 +11,7 @@ loot replace entity @s hotbar.0 loot ssbrc:fighters/team_rocket/arbok/poison_jab
 
 loot replace entity @s hotbar.1 loot ssbrc:fighters/team_rocket/arbok/acid
 
-function ssbrc:logic/fighters/armor/update
+function ssbrc:logic/fighters/armor/update/check
 function ssbrc:logic/fighters/attributes/defaults
 function ssbrc:logic/fighters/effects/default
 

@@ -8,6 +8,6 @@ scoreboard players set @s charge.2 0
 
 clear @s minecraft:nether_star[minecraft:custom_data~{item:"keyblade"}]
 
-function ssbrc:logic/fighters/armor/update
+function ssbrc:logic/fighters/armor/update/check
 function ssbrc:logic/fighters/attributes/defaults
 function ssbrc:logic/fighters/effects/jump_boost

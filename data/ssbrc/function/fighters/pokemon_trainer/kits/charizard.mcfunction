@@ -14,7 +14,7 @@ loot replace entity @s hotbar.0 loot ssbrc:fighters/pokemon_trainer/charizard/ro
 
 loot replace entity @s hotbar.1 loot ssbrc:fighters/pokemon_trainer/charizard/flare_blitz
 
-function ssbrc:logic/fighters/armor/update
+function ssbrc:logic/fighters/armor/update/check
 function ssbrc:logic/fighters/attributes/defaults
 function ssbrc:logic/fighters/effects/default
 

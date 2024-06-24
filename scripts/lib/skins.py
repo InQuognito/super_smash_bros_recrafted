@@ -4,6 +4,7 @@ def create_advancement(skin, fighter, path):
 	'''Initializes fighter advancements.'''
 	create_path(path)
 
+
 	with open(path + skin + '.json', 'w') as file:
 		js_write(file, '{')
 		if skin == 'default':
@@ -20,7 +21,7 @@ def create_advancement(skin, fighter, path):
 		js_write(file, tab(1) + '}')
 		js_write(file, '}')
 
-def create_item_modifier(skin, fighter, path, i):
+def create_item_modifier(skin, fighter, path):
 	'''Initializes skin item modifiers.'''
 	create_path(path)
 
@@ -47,76 +48,39 @@ def create_item_modifier(skin, fighter, path, i):
 				js_write(file, tab(1) + ent)
 			js_write(file, tab(1) + '{')
 			js_write(file, tab(2) + qm + 'function' + sep_s + 'minecraft:reference' + suf_s)
-			if has_forms(fighter):
-				js_write(file, tab(2) + qm + 'name' + sep_s + 'ssbrc:fighters/armor/aesthetic/' + fighter + '/' + skin + '/' + ssbrc.fighters[fighter]['forms'][0] + qm)
-			else:
-				js_write(file, tab(2) + qm + 'name' + sep_s + 'ssbrc:fighters/armor/aesthetic/' + fighter + '/' + skin + qm)
-			js_write(file, tab(1) + '}')
-			js_write(file, ']')
-	elif skin == 'default':
-		with open(path + skin + '.json', 'w') as file:
-			js_write(file, '[')
-			js_write(file, tab(1) + '{')
-			js_write(file, tab(2) + qm + 'function' + sep_s + 'minecraft:set_name' + suf_s)
-			js_write(file, tab(2) + qm + 'entity' + sep_s + 'this' + suf_s)
-			js_write(file, tab(2) + qm + 'target' + sep_s + 'item_name' + suf_s)
-			js_write(file, tab(2) + qm + 'name' + suf_e)
-			js_write(file, tab(3) + qm + 'translate' + sep_s + f'ssbrc.fighters.{fighter}' + suf_s)
-			js_write(file, tab(3) + qm + 'color' + sep_s + str(ssbrc.fighters[fighter]['color']) + suf_s)
-			js_write(file, tab(3) + qm + 'bold' + sep_n + 'true')
-			js_write(file, tab(2) + '}')
-			js_write(file, tab(1) + ent)
-			js_write(file, tab(1) + '{')
-			js_write(file, tab(2) + qm + 'function' + sep_s + 'minecraft:reference' + suf_s)
-			if has_forms(fighter):
-				js_write(file, tab(2) + qm + 'name' + sep_s + 'ssbrc:fighters/armor/aesthetic/' + fighter + '/' + skin + '/' + ssbrc.fighters[fighter]['forms'][0] + qm)
-			else:
-				js_write(file, tab(2) + qm + 'name' + sep_s + 'ssbrc:fighters/armor/aesthetic/' + fighter + '/' + skin + qm)
+			js_write(file, tab(2) + qm + 'name' + sep_s + 'ssbrc:fighters/armor/aesthetic/' + fighter + '/' + skin + '/' + ssbrc.fighters[fighter]['forms'][0] + qm)
 			js_write(file, tab(1) + '}')
 			js_write(file, ']')
 
+def create_armor_trim(skin, fighter, path):
+	'''Initializes the armor trim file for every skin and form.'''
+	create_path(path)
+	for form in ssbrc.fighters[fighter]['forms']:
+		create_path(f'{path}{fighter}\\{skin}\\')
+		with open(f'{path}{fighter}\\{skin}\\{form}.json', 'w') as file:
+			js_write(file, '{')
+			if has_forms(fighter):
+				if forms_isolated(fighter):
+					js_write(file, tab(1) + qm + 'asset_id' + sep_s + f'ssbrc:fighters/{fighter}/{skin}' + suf_s)
+				else:
+					js_write(file, tab(1) + qm + 'asset_id' + sep_s + f'ssbrc:fighters/{fighter}/{skin}/{form}' + suf_s)
+			else:
+				js_write(file, tab(1) + qm + 'asset_id' + sep_s + f'ssbrc:fighters/{fighter}/{skin}' + suf_s)
+			js_write(file, tab(1) + qm + 'description' + sep_s + '",')
+			js_write(file, tab(1) + qm + 'template_item' + sep_s + 'minecraft:stick' + qm)
+			js_write(file, '}')
+
 def custom_model_data(skin, fighter, i):
 	'''Initializes skin item modifiers.'''
-	if skin not in ['default','gold']:
-		if has_forms(fighter) and ssbrc.fighters[fighter]['skins'][skin]['forms'] == True:
-			for form in ssbrc.fighters[fighter]['forms']:
-				path = f'data\\ssbrc\\item_modifier\\fighters\\armor\\\\aesthetic\\{fighter}\\{skin}\\'
-				create_path(path)
-				with open(path + form + '.json', 'w') as file:
-					js_write(file, '{')
-					js_write(file, tab(1) + qm + 'function' + sep_s + 'minecraft:set_custom_model_data' + suf_s)
-					js_write(file, tab(1) + qm + 'value' + sep_n + str(i))
-					js_write(file, '}')
-				i += 1
-		else:
-			path = f'data\\ssbrc\\item_modifier\\fighters\\armor\\\\aesthetic\\{fighter}\\'
-			create_path(path)
-			with open(path + skin + '.json', 'w') as file:
-				js_write(file, '{')
-				js_write(file, tab(1) + qm + 'function' + sep_s + 'minecraft:set_custom_model_data' + suf_s)
-				js_write(file, tab(1) + qm + 'value' + sep_n + str(i))
-				js_write(file, '}')
-			i += 1
-	else:
-		if has_forms(fighter):
-			for form in ssbrc.fighters[fighter]['forms']:
-				path = f'data\\ssbrc\\item_modifier\\fighters\\armor\\\\aesthetic\\{fighter}\\{skin}\\'
-				create_path(path)
-				with open(path + form + '.json', 'w') as file:
-					js_write(file, '{')
-					js_write(file, tab(1) + qm + 'function' + sep_s + 'minecraft:set_custom_model_data' + suf_s)
-					js_write(file, tab(1) + qm + 'value' + sep_n + str(i))
-					js_write(file, '}')
-				i += 1
-		else:
-			path = f'data\\ssbrc\\item_modifier\\fighters\\armor\\\\aesthetic\\{fighter}\\'
-			create_path(path)
-			with open(path + skin + '.json', 'w') as file:
-				js_write(file, '{')
-				js_write(file, tab(1) + qm + 'function' + sep_s + 'minecraft:set_custom_model_data' + suf_s)
-				js_write(file, tab(1) + qm + 'value' + sep_n + str(i))
-				js_write(file, '}')
-			i += 1
+	for form in ssbrc.fighters[fighter]['forms']:
+		path = f'data\\ssbrc\\item_modifier\\fighters\\armor\\\\aesthetic\\{fighter}\\{skin}\\'
+		create_path(path)
+		with open(path + form + '.json', 'w') as file:
+			js_write(file, '{')
+			js_write(file, tab(1) + qm + 'function' + sep_s + 'minecraft:set_custom_model_data' + suf_s)
+			js_write(file, tab(1) + qm + 'value' + sep_n + str(i))
+			js_write(file, '}')
+		i += 1
 
 def create_skin_file(skin, fighter, path):
 	'''Initializes the file that allows the skin to be selected.'''
@@ -179,7 +143,9 @@ def create_skin(skin, fighter, i):
 	'''Initializes a skin.'''
 	create_advancement(skin, fighter, f'data\\ssbrc\\advancement\\fighters\\{fighter}\\skins\\')
 
-	create_item_modifier(skin, fighter, f'data\\ssbrc\\item_modifier\\fighters\\{fighter}\\skins\\', i)
+	create_item_modifier(skin, fighter, f'data\\ssbrc\\item_modifier\\fighters\\{fighter}\\skins\\')
+
+	create_armor_trim(skin, fighter, 'data\\ssbrc\\trim_pattern\\fighters\\')
 
 	custom_model_data(skin, fighter, i)
 

@@ -11,6 +11,6 @@
 	},
 	{
 		"function": "minecraft:reference",
-		"name": "ssbrc:fighters/armor/aesthetic/samus/gravity_suit"
+		"name": "ssbrc:fighters/armor/aesthetic/samus/gravity_suit/default"
 	}
 ]
