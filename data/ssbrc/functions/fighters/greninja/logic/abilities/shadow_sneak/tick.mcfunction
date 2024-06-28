@@ -5,7 +5,7 @@ execute positioned ~ ~0.5 ~ run function ssbrc:logic/fighters/checks/raycast/blo
 execute if score rayAbort temp matches 1 run scoreboard players set @s temp 41
 scoreboard players reset rayAbort temp
 
-execute rotated as @a[tag=self,limit=1] rotated ~ 0 run teleport @s[scores={temp=..40}] ^ ^ ^.5 ~ 0
+teleport @s[scores={temp=..40}] ^ ^ ^0.25
 
 
 
