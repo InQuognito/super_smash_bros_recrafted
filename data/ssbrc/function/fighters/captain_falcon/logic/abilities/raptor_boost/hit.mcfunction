@@ -1,6 +1,6 @@
 execute if score debug options matches 1.. run say raptor_boost | hit
 
-damage @s 5.0 ssbrc:generic by @a[tag=self,limit=1]
+function ssbrc:logic/damage/player {amount:"5.0",type:"generic",kb_resist:"0.0"}
 
 scoreboard players set $y player_motion.api.launch 10000
 function player_motion:api/launch_xyz

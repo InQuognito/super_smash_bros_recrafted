@@ -28,7 +28,7 @@
 						"italic": false
 					},
 					{
-						"translate": "ssbrc.fighters.joker.persona.equip",
+						"translate": "ssbrc.fighter.joker.persona.equip",
 						"color": "gray",
 						"bold": false,
 						"italic": false

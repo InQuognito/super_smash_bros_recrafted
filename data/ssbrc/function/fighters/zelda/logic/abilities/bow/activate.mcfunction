@@ -3,6 +3,6 @@ execute anchored eyes positioned ^ ^ ^1 summon minecraft:marker run function ssb
 
 scoreboard players operation @s mana -= zelda.bow.cost temp
 
-function ssbrc:logic/fighters/cooldown/set/const {type:"1",value:"30"}
+function ssbrc:logic/item/cooldown/set/const {type:"1",value:"30"}
 
 playsound minecraft:entity.arrow.shoot player @a

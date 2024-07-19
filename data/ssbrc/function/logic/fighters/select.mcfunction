@@ -2,12 +2,12 @@ $function ssbrc:logic/player_data/set {mode:"store",key:"fighter",value:"$(name)
 execute unless entity @s[tag=picking_random] run function ssbrc:logic/player_data/set {mode:"store",key:"skin",value:"default"}
 
 function ssbrc:logic/player_data/copy/check
-$execute unless data storage ssbrc:temp player.data{fighter:"team_rocket"} run function ssbrc:logic/player_data/set {mode:"store",key:"form",value:"$(default_form)"}
-execute if data storage ssbrc:temp player.data{fighter:"team_rocket"} run function ssbrc:logic/player_data/set {mode:"store",key:"form",value:"$(default_form)"}
+$execute unless data storage ssbrc:temp player.temp_data{fighter:"team_rocket"} run function ssbrc:logic/player_data/set {mode:"store",key:"form",value:"$(default_form)"}
+execute if data storage ssbrc:temp player.temp_data{fighter:"team_rocket"} run function ssbrc:logic/player_data/set {mode:"store",key:"form",value:"$(default_form)"}
 
 tag @s add fighter_picked
 
-$tellraw @s[tag=!blind_pick] [{"translate":"ssbrc.fighters.menu.selected","color":"white"},{"translate":"ssbrc.fighters.$(name)","color":"$(color)"}]
+$tellraw @s[tag=!blind_pick] [{"translate":"ssbrc.fighter.menu.selected","color":"white"},{"translate":"ssbrc.fighter.$(name)","color":"$(color)"}]
 $function ssbrc:fighters/$(name)/menu/select
 
 execute if score teams options matches 0 run team join ready @s

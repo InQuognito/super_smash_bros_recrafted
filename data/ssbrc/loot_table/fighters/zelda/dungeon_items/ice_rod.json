@@ -12,7 +12,7 @@
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"translate": "ssbrc.tooltips.zelda.dungeon_item.ice_rod",
+								"translate": "ssbrc.fighter.zelda.dungeon_item.ice_rod",
 								"color": "aqua",
 								"bold": true,
 								"italic": false
@@ -43,7 +43,7 @@
 											"italic": false
 										},
 										{
-											"translate": "ssbrc.tooltips.zelda.dungeon_item.ice_rod.description.1",
+											"translate": "ssbrc.fighter.zelda.dungeon_item.ice_rod.description.1",
 											"color": "gray",
 											"bold": false,
 											"italic": false
@@ -75,7 +75,7 @@
 											"italic": false
 										},
 										{
-											"translate": "ssbrc.tooltips.zelda.dungeon_item.ice_rod.description.2",
+											"translate": "ssbrc.fighter.zelda.dungeon_item.ice_rod.description.2",
 											"color": "gray",
 											"bold": false,
 											"italic": false
@@ -83,7 +83,7 @@
 									]
 								},
 								{
-									"translate": "ssbrc.tooltips.effects.frostbite",
+									"translate": "ssbrc.tooltip.effect.frostbite",
 									"color": "gray",
 									"bold": false,
 									"italic": false

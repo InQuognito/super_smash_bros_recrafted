@@ -4,7 +4,7 @@ function ssbrc:logic/fighters/ability/init
 
 scoreboard players set @s duration.1 30
 
-scoreboard players set @s cloud.limit 0
+scoreboard players set @s resource 0
 function ssbrc:fighters/cloud/logic/limit/update
 
 function ssbrc:logic/fighters/effects/mobility/immobilize/default

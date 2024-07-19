@@ -12,7 +12,7 @@
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"translate": "ssbrc.tooltips.pokemon_trainer.squirtle.bite",
+								"translate": "ssbrc.fighter.pokemon_trainer.squirtle.bite",
 								"color": "dark_gray",
 								"bold": true,
 								"italic": false
@@ -34,7 +34,7 @@
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"translate": "ssbrc.tooltips.jigglypuff.pound",
+								"translate": "ssbrc.fighter.jigglypuff.pound",
 								"color": "white",
 								"bold": true,
 								"italic": false
@@ -82,6 +82,12 @@
 										}
 									],
 									"show_in_tooltip": false
+								},
+								"minecraft:enchantments": {
+									"levels": {
+										"ssbrc:fighter/pokemon_trainer/bite": 1
+									},
+									"show_in_tooltip": false
 								}
 							}
 						},
@@ -94,7 +100,7 @@
 							"entity": "this",
 							"lore": [
 								{
-									"translate": "ssbrc.tooltips.pokemon_trainer.squirtle.bite.description.1",
+									"translate": "ssbrc.fighter.pokemon_trainer.squirtle.bite.description.1",
 									"color": "gray",
 									"bold": false,
 									"italic": false

@@ -1,1 +1,1 @@
-tag @s add lavaPlume
+tag @s add lava_plume

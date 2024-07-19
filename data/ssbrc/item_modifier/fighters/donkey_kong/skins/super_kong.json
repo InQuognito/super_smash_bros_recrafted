@@ -4,7 +4,7 @@
 		"entity": "this",
 		"target": "item_name",
 		"name": {
-			"translate": "ssbrc.fighters.donkey_kong.skin.super_kong",
+			"translate": "ssbrc.skin.super_kong",
 			"color": "white",
 			"bold": true
 		}

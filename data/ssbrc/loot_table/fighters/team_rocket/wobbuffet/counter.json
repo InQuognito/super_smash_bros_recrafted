@@ -12,7 +12,7 @@
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"translate": "ssbrc.tooltips.team_rocket.wobbuffet.counter",
+								"translate": "ssbrc.fighter.team_rocket.wobbuffet.counter",
 								"color": "dark_gray",
 								"bold": true,
 								"italic": false
@@ -48,7 +48,7 @@
 							"entity": "this",
 							"lore": [
 								{
-									"translate": "ssbrc.tooltips.team_rocket.wobbuffet.counter.description.1",
+									"translate": "ssbrc.fighter.team_rocket.wobbuffet.counter.description.1",
 									"color": "gray",
 									"bold": false,
 									"italic": false

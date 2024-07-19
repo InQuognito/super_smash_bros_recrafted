@@ -35,7 +35,6 @@ tag @s remove ignore_feedback
 tag @s remove immobile
 tag @s remove intangible
 tag @s remove natural_shiny
-tag @s remove next_fighter_chosen
 tag @s remove pivot
 
 tag @s remove female

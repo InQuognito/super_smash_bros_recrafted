@@ -1,10 +1,7 @@
 tag @s remove intangible
 
 function ssbrc:logic/fighters/armor/get
-function ssbrc:fighters/alucard/kit
-
-execute store result storage ssbrc:shield durability int 1.0 run scoreboard players get @s durability
-function ssbrc:fighters/alucard/logic/shield with storage ssbrc:shield
+function ssbrc:fighters/alucard/logic/items
 
 effect clear @s minecraft:invisibility
 effect clear @s minecraft:levitation

@@ -3,7 +3,7 @@
 		"function": "minecraft:set_name",
 		"entity": "this",
 		"name": {
-			"translate": "ssbrc.tooltips.hero.zenithian_sword",
+			"translate": "ssbrc.fighter.hero.zenithian_sword",
 			"color": "yellow",
 			"bold": true,
 			"italic": false

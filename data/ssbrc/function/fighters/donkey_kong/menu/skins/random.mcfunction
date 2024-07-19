@@ -1,11 +1,10 @@
-scoreboard players set @s fighter_picked 1
+# This file is controlled by the build script. Changes should be made in the respective file.
 
 execute store result score random.output temp run random value 1..4
 
-execute unless score @s[advancements={ssbrc:fighters/donkey_kong/skins/default=true}] skin_picked matches 1 if score random.output temp matches 1 run function ssbrc:fighters/donkey_kong/menu/skins/default
-execute unless score @s[advancements={ssbrc:fighters/donkey_kong/skins/gold=true}] skin_picked matches 1 if score random.output temp matches 2 run function ssbrc:fighters/donkey_kong/menu/skins/gold
-execute unless score @s[advancements={ssbrc:fighters/donkey_kong/skins/flower_power=true}] skin_picked matches 1 if score random.output temp matches 3 run function ssbrc:fighters/donkey_kong/menu/skins/flower_power
-execute unless score @s[advancements={ssbrc:fighters/donkey_kong/skins/super_kong=true}] skin_picked matches 1 if score random.output temp matches 4 run function ssbrc:fighters/donkey_kong/menu/skins/super_kong
+execute if score random.output temp matches 1 if entity @s[advancements={ssbrc:fighters/donkey_kong/skins/default=true}] run return run function ssbrc:logic/fighters/select_skin {fighter:"donkey_kong",skin:"default",color:"gold"}
+execute if score random.output temp matches 2 if entity @s[advancements={ssbrc:fighters/donkey_kong/skins/gold=true}] run return run function ssbrc:logic/fighters/select_skin {fighter:"donkey_kong",skin:"gold",color:"gold"}
+execute if score random.output temp matches 3 if entity @s[advancements={ssbrc:fighters/donkey_kong/skins/flower_power=true}] run return run function ssbrc:logic/fighters/select_skin {fighter:"donkey_kong",skin:"flower_power",color:"red"}
+execute if score random.output temp matches 4 if entity @s[advancements={ssbrc:fighters/donkey_kong/skins/super_kong=true}] run return run function ssbrc:logic/fighters/select_skin {fighter:"donkey_kong",skin:"super_kong",color:"white"}
 
-execute if score @s skin_picked matches 1 run function ssbrc:logic/fighters/select with storage ssbrc:data fighters.donkey_kong
-execute unless score @s skin_picked matches 1 run function ssbrc:fighters/donkey_kong/menu/skins/random
+function ssbrc:fighters/donkey_kong/menu/skins/random

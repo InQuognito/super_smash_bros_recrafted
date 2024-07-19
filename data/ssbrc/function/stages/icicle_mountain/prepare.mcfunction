@@ -22,5 +22,3 @@ summon minecraft:marker 1071.5 18.0 896.5 {Tags:["spawnpoint.item"]}
 
 execute as @a[predicate=ssbrc:ingame] run function ssbrc:logic/pre_game/prepare_players
 function ssbrc:logic/pre_game/prepare_match
-
-tag @a[predicate=ssbrc:flag/player] add icicle_mountain

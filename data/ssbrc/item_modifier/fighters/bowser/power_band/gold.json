@@ -3,7 +3,7 @@
 		"function": "minecraft:set_name",
 		"entity": "this",
 		"name": {
-			"translate": "ssbrc.tooltips.bowser.power_band",
+			"translate": "ssbrc.fighter.bowser.power_band",
 			"color": "gold",
 			"bold": true,
 			"italic": false

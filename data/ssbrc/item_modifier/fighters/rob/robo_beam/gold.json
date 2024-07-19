@@ -3,7 +3,7 @@
 		"function": "minecraft:set_name",
 		"entity": "this",
 		"name": {
-			"translate": "ssbrc.tooltips.rob.robo_beam",
+			"translate": "ssbrc.fighter.rob.robo_beam",
 			"color": "gold",
 			"bold": true,
 			"italic": false

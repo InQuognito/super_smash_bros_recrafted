@@ -47,7 +47,7 @@
 							"entity": "this",
 							"lore": [
 								{
-									"translate": "ssbrc.tooltips.kirby.tornado.description.1",
+									"translate": "ssbrc.fighter.kirby.tornado.description.1",
 									"color": "gray",
 									"bold": false,
 									"italic": false

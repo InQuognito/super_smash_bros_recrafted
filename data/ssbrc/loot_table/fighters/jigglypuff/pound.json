@@ -12,7 +12,7 @@
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"translate": "ssbrc.tooltips.jigglypuff.pound",
+								"translate": "ssbrc.fighter.jigglypuff.pound",
 								"color": "white",
 								"bold": true,
 								"italic": false

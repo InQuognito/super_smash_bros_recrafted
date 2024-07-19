@@ -4,7 +4,7 @@ execute anchored eyes positioned ^ ^ ^ summon minecraft:marker run function ssbr
 
 function ssbrc:fighters/alucard/logic/abilities/blood_metamorphosis/deactivate
 
-function ssbrc:logic/fighters/cooldown/set/const {type:"2",value:"300"}
+function ssbrc:logic/item/cooldown/set/const {type:"2",value:"300"}
 
 item replace entity @s weapon.mainhand with minecraft:air
 

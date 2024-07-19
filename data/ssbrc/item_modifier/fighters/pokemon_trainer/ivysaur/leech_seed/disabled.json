@@ -3,7 +3,7 @@
 		"function": "minecraft:set_name",
 		"entity": "this",
 		"name": {
-			"translate": "ssbrc.tooltips.pokemon_trainer.ivysaur.leech_seed",
+			"translate": "ssbrc.fighter.pokemon_trainer.ivysaur.leech_seed",
 			"color": "gray",
 			"bold": true,
 			"italic": false

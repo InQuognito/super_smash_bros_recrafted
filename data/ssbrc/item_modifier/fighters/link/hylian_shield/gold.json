@@ -3,7 +3,7 @@
 		"function": "minecraft:set_name",
 		"entity": "this",
 		"name": {
-			"translate": "ssbrc.tooltips.link.hylian_shield",
+			"translate": "ssbrc.fighter.link.hylian_shield",
 			"color": "gold",
 			"bold": true,
 			"italic": false

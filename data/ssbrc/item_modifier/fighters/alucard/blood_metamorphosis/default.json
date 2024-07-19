@@ -3,7 +3,7 @@
 		"function": "minecraft:set_name",
 		"entity": "this",
 		"name": {
-			"translate": "ssbrc.tooltips.alucard.blood_metamorphosis",
+			"translate": "ssbrc.fighter.alucard.blood_metamorphosis",
 			"color": "dark_red",
 			"bold": true,
 			"italic": false

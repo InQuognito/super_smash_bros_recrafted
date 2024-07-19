@@ -1,0 +1,64 @@
+{
+	"description": "Bite",
+	"supported_items": "#ssbrc:equipment",
+	"weight": 1,
+	"max_level": 1,
+	"min_cost": {
+		"base": 1,
+		"per_level_above_first": 1
+	},
+	"max_cost": {
+		"base": 1,
+		"per_level_above_first": 1
+	},
+	"anvil_cost": 0,
+	"slots": [
+		"mainhand"
+	],
+	"effects": {
+		"minecraft:post_attack": [
+			{
+				"enchanted": "attacker",
+				"affected": "victim",
+				"effect": {
+					"type": "minecraft:all_of",
+					"effects": [
+						{
+							"type": "minecraft:run_function",
+							"function": "ssbrc:fighters/pokemon_trainer/logic/squirtle/bite"
+						},
+						{
+							"type": "minecraft:spawn_particles",
+							"particle": {
+								"type": "minecraft:ash"
+							},
+							"horizontal_position": {
+								"type": "entity_position"
+							},
+							"vertical_position": {
+								"type": "entity_position"
+							},
+							"horizontal_velocity": {
+								"base": 1
+							},
+							"vertical_velocity": {
+								"base": 1
+							},
+							"speed": 0.15
+						},
+						{
+							"type": "minecraft:play_sound",
+							"sound": "minecraft:entity.player.attack.crit",
+							"volume": 1,
+							"pitch": 1
+						}
+					]
+				},
+				"requirements": {
+					"condition": "minecraft:random_chance",
+					"chance": 0.075
+				}
+			}
+		]
+	}
+}

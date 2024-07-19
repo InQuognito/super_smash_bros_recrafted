@@ -1,4 +1,4 @@
-data modify storage ssbrc:data player.data set value []
+data modify storage ssbrc:data player.temp_data set value []
 data modify storage ssbrc:data player.id set value {}
 
 function ssbrc:logic/init/fighters

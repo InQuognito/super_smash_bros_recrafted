@@ -3,7 +3,7 @@
 		"function": "minecraft:set_name",
 		"entity": "this",
 		"name": {
-			"translate": "ssbrc.tooltips.fox.reflector",
+			"translate": "ssbrc.fighter.fox.reflector",
 			"color": "gold",
 			"bold": true,
 			"italic": false

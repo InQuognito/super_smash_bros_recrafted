@@ -4,8 +4,8 @@
 		"entity": "this",
 		"target": "item_name",
 		"name": {
-			"translate": "ssbrc.fighters.mega_man.skin.star_force",
-			"color": "blue",
+			"translate": "ssbrc.skin.star_force",
+			"color": "green",
 			"bold": true
 		}
 	},

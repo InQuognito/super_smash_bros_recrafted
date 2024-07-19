@@ -9,16 +9,6 @@
 					"name": "minecraft:nether_star",
 					"functions": [
 						{
-							"function": "minecraft:set_name",
-							"entity": "this",
-							"name": {
-								"translate": "ssbrc.tooltips.mega_man.flame_sword",
-								"color": "red",
-								"bold": true,
-								"italic": false
-							}
-						},
-						{
 							"function": "minecraft:set_components",
 							"components": {
 								"minecraft:attribute_modifiers": {
@@ -40,7 +30,12 @@
 									],
 									"show_in_tooltip": false
 								},
-								"minecraft:custom_model_data": 885
+								"minecraft:enchantments": {
+									"levels": {
+										"ssbrc:fighter/mega_man/flame_sword": 1
+									},
+									"show_in_tooltip": false
+								}
 							}
 						},
 						{
@@ -52,7 +47,7 @@
 							"entity": "this",
 							"lore": [
 								{
-									"translate": "ssbrc.tooltips.effects.burning",
+									"translate": "ssbrc.tooltip.effect.burning",
 									"color": "gray",
 									"bold": false,
 									"italic": false

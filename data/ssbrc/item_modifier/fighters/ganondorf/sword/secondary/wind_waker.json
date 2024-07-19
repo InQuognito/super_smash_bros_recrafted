@@ -3,7 +3,7 @@
 		"function": "minecraft:set_name",
 		"entity": "this",
 		"name": {
-			"translate": "ssbrc.tooltips.ganondorf.sword.wind_waker.offhand",
+			"translate": "ssbrc.fighter.ganondorf.sword.wind_waker.offhand",
 			"color": "white",
 			"bold": true,
 			"italic": false

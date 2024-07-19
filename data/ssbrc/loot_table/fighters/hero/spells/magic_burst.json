@@ -12,7 +12,7 @@
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"translate": "ssbrc.tooltips.hero.magic_burst",
+								"translate": "ssbrc.fighter.hero.magic_burst",
 								"color": "light_purple",
 								"bold": true,
 								"italic": false
@@ -47,7 +47,7 @@
 											"italic": false
 										},
 										{
-											"translate": "ssbrc.tooltips.hero.magic_burst.description.1",
+											"translate": "ssbrc.fighter.hero.magic_burst.description.1",
 											"color": "gray",
 											"bold": false,
 											"italic": false

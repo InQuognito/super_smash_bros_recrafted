@@ -3,7 +3,7 @@
 		"function": "minecraft:set_name",
 		"entity": "this",
 		"name": {
-			"translate": "ssbrc.tooltips.star_fox.blaster",
+			"translate": "ssbrc.fighter.star_fox.blaster",
 			"color": "dark_purple",
 			"bold": true,
 			"italic": false

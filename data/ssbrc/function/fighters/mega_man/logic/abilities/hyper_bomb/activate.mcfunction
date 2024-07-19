@@ -2,7 +2,7 @@ function ssbrc:logic/fighters/ability/init
 
 execute anchored eyes positioned ^ ^ ^1 summon minecraft:marker run function ssbrc:fighters/mega_man/logic/abilities/hyper_bomb/init/marker
 
-function ssbrc:logic/fighters/cooldown/set
+function ssbrc:logic/item/durability/reset/slot {slot_string:"weapon.mainhand"}
 
 scoreboard players set @s cooldown 20
 

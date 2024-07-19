@@ -32,5 +32,3 @@ execute as @e[type=minecraft:item_display,tag=abra] at @s run function ssbrc:sta
 
 execute as @a[predicate=ssbrc:ingame] run function ssbrc:logic/pre_game/prepare_players
 function ssbrc:logic/pre_game/prepare_match
-
-tag @a[predicate=ssbrc:flag/player] add pallet_town

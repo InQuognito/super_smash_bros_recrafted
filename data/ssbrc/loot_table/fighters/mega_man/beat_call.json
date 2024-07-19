@@ -9,16 +9,6 @@
 					"name": "minecraft:nether_star",
 					"functions": [
 						{
-							"function": "minecraft:set_name",
-							"entity": "this",
-							"name": {
-								"translate": "ssbrc.tooltips.mega_man.beat_call",
-								"color": "red",
-								"bold": true,
-								"italic": false
-							}
-						},
-						{
 							"function": "minecraft:reference",
 							"name": "ssbrc:fighters/init/preset/ranged"
 						},
@@ -43,7 +33,7 @@
 											"italic": false
 										},
 										{
-											"translate": "ssbrc.tooltips.ability.activate",
+											"translate": "ssbrc.ability.activate",
 											"color": "gray",
 											"bold": false,
 											"italic": false
@@ -56,13 +46,12 @@
 						{
 							"function": "minecraft:set_components",
 							"components": {
-								"minecraft:max_damage": 40,
-								"minecraft:custom_model_data": 894
+								"minecraft:max_damage": 5
 							}
 						},
 						{
 							"function": "minecraft:set_custom_data",
-							"tag": "{item:\"beat_call\",group:\"mega_buster\"}"
+							"tag": "{item:\"beat_call\",group:\"mega_buster\",command:\"forward\"}"
 						}
 					]
 				}

@@ -1,7 +1,6 @@
 scoreboard players reset * stage
 scoreboard players set spear_pillar stage 1
 scoreboard players set song_count stage 2
-scoreboard players set stage_picked stage_vote 1
 forceload add 768 -128 847 47
 
 forceload add 592 -64 687 31

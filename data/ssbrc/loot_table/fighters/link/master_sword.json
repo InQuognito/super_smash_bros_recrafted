@@ -33,7 +33,7 @@
 											"italic": false
 										},
 										{
-											"translate":"ssbrc.tooltips.link.master_sword.description.1",
+											"translate":"ssbrc.fighter.link.master_sword.description.1",
 											"color": "gray",
 											"bold": false,
 											"italic": false
@@ -41,7 +41,7 @@
 									]
 								},
 								{
-									"translate": "ssbrc.tooltips.hold_key",
+									"translate": "ssbrc.tooltip.hold_key",
 									"color": "gray",
 									"bold": false,
 									"italic": false,
@@ -65,7 +65,7 @@
 											"italic": false
 										},
 										{
-											"translate":"ssbrc.tooltips.link.master_sword.description.2",
+											"translate":"ssbrc.fighter.link.master_sword.description.2",
 											"color": "gray",
 											"bold": false,
 											"italic": false

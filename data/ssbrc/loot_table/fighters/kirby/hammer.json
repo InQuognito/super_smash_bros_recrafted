@@ -41,7 +41,7 @@
 							"entity": "this",
 							"lore": [
 								{
-									"translate": "ssbrc.tooltips.kirby.hammer.description.1",
+									"translate": "ssbrc.fighter.kirby.hammer.description.1",
 									"color": "gray",
 									"bold": false,
 									"italic": false

@@ -3,7 +3,7 @@
 		"function": "minecraft:set_name",
 		"entity": "this",
 		"name": {
-			"translate": "ssbrc.fighters.joker.persona.high_pixie",
+			"translate": "ssbrc.fighter.joker.persona.high_pixie",
 			"color": "yellow",
 			"bold": true,
 			"italic": false
@@ -14,7 +14,7 @@
 		"entity": "this",
 		"lore": [
 			{
-				"translate": "ssbrc.tooltips.joker.amrita_shower",
+				"translate": "ssbrc.fighter.joker.amrita_shower",
 				"color": "gray",
 				"bold": false,
 				"italic": false

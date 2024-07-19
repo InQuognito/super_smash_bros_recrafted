@@ -4,7 +4,7 @@
 		"entity": "this",
 		"target": "item_name",
 		"name": {
-			"translate": "ssbrc.fighters.alucard.skin.lords_of_shadow",
+			"translate": "ssbrc.skin.lords_of_shadow",
 			"color": "dark_gray",
 			"bold": true
 		}

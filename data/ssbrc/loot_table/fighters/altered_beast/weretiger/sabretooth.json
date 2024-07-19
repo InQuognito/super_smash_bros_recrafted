@@ -12,7 +12,7 @@
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"translate": "ssbrc.tooltips.altered_beast.weretiger.sabretooth",
+								"translate": "ssbrc.fighter.altered_beast.weretiger.sabretooth",
 								"color": "gold",
 								"bold": true,
 								"italic": false

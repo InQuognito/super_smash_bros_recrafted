@@ -1,12 +1,11 @@
-scoreboard players set @s fighter_picked 1
+# This file is controlled by the build script. Changes should be made in the respective file.
 
 execute store result score random.output temp run random value 1..5
 
-execute unless score @s[advancements={ssbrc:fighters/luigi/skins/default=true}] skin_picked matches 1 if score random.output temp matches 1 run function ssbrc:fighters/luigi/menu/skins/default
-execute unless score @s[advancements={ssbrc:fighters/luigi/skins/gold=true}] skin_picked matches 1 if score random.output temp matches 2 run function ssbrc:fighters/luigi/menu/skins/gold
-execute unless score @s[advancements={ssbrc:fighters/luigi/skins/flower_power=true}] skin_picked matches 1 if score random.output temp matches 3 run function ssbrc:fighters/luigi/menu/skins/flower_power
-execute unless score @s[advancements={ssbrc:fighters/luigi/skins/gooigi=true}] skin_picked matches 1 if score random.output temp matches 4 run function ssbrc:fighters/luigi/menu/skins/gooigi
-execute unless score @s[advancements={ssbrc:fighters/luigi/skins/penguin=true}] skin_picked matches 1 if score random.output temp matches 5 run function ssbrc:fighters/luigi/menu/skins/penguin
+execute if score random.output temp matches 1 if entity @s[advancements={ssbrc:fighters/luigi/skins/default=true}] run return run function ssbrc:logic/fighters/select_skin {fighter:"luigi",skin:"default",color:"dark_green"}
+execute if score random.output temp matches 2 if entity @s[advancements={ssbrc:fighters/luigi/skins/gold=true}] run return run function ssbrc:logic/fighters/select_skin {fighter:"luigi",skin:"gold",color:"gold"}
+execute if score random.output temp matches 3 if entity @s[advancements={ssbrc:fighters/luigi/skins/flower_power=true}] run return run function ssbrc:logic/fighters/select_skin {fighter:"luigi",skin:"flower_power",color:"aqua"}
+execute if score random.output temp matches 4 if entity @s[advancements={ssbrc:fighters/luigi/skins/gooigi=true}] run return run function ssbrc:logic/fighters/select_skin {fighter:"luigi",skin:"gooigi",color:"green"}
+execute if score random.output temp matches 5 if entity @s[advancements={ssbrc:fighters/luigi/skins/penguin=true}] run return run function ssbrc:logic/fighters/select_skin {fighter:"luigi",skin:"penguin",color:"blue"}
 
-execute if score @s skin_picked matches 1 run function ssbrc:logic/fighters/select with storage ssbrc:data fighters.luigi
-execute unless score @s skin_picked matches 1 run function ssbrc:fighters/luigi/menu/skins/random
+function ssbrc:fighters/luigi/menu/skins/random

@@ -4,7 +4,7 @@
 		"entity": "this",
 		"target": "item_name",
 		"name": {
-			"translate": "ssbrc.series.pokemon.skin.shiny",
+			"translate": "ssbrc.skin.shiny",
 			"color": "dark_gray",
 			"bold": true
 		}

@@ -13,7 +13,7 @@
 							"entity": "this",
 							"target": "item_name",
 							"name": {
-								"translate": "ssbrc.tooltips.zelda.weapon.rapier.glass",
+								"translate": "ssbrc.fighter.zelda.weapon.rapier.glass",
 								"color": "aqua",
 								"bold": true
 							}

@@ -4,7 +4,7 @@
 		"entity": "this",
 		"target": "item_name",
 		"name": {
-			"translate": "ssbrc.fighters.shovel_knight.skin.armor_of_chaos",
+			"translate": "ssbrc.skin.armor_of_chaos",
 			"color": "red",
 			"bold": true
 		}

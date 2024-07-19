@@ -1,1 +1,1 @@
-data merge entity @s {NoGravity:1b}
+$tellraw @s $(message)

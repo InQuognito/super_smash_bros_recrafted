@@ -22,5 +22,3 @@ summon minecraft:marker 654.5 19.0 -872.5 {Tags:["spawnpoint.item"]}
 
 execute as @a[predicate=ssbrc:ingame] run function ssbrc:logic/pre_game/prepare_players
 function ssbrc:logic/pre_game/prepare_match
-
-tag @a[predicate=ssbrc:flag/player] add magicant

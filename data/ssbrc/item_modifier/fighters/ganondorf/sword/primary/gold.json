@@ -3,7 +3,7 @@
 		"function": "minecraft:set_name",
 		"entity": "this",
 		"name": {
-			"translate": "ssbrc.tooltips.ganondorf.sword.default",
+			"translate": "ssbrc.fighter.ganondorf.sword.default",
 			"color": "gold",
 			"bold": true,
 			"italic": false

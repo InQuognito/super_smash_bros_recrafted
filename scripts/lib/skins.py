@@ -4,7 +4,6 @@ def create_advancement(skin, fighter, path):
 	'''Initializes fighter advancements.'''
 	create_path(path)
 
-
 	with open(path + skin + '.json', 'w') as file:
 		js_write(file, '{')
 		if skin == 'default':
@@ -34,9 +33,9 @@ def create_item_modifier(skin, fighter, path):
 			js_write(file, tab(2) + qm + 'target' + sep_s + 'item_name' + suf_s)
 			js_write(file, tab(2) + qm + 'name' + suf_e)
 			if skin == 'default':
-				js_write(file, tab(3) + qm + 'translate' + sep_s + f'ssbrc.fighters.{fighter}' + suf_s)
+				js_write(file, tab(3) + qm + 'translate' + sep_s + f'ssbrc.fighter.{fighter}' + suf_s)
 			else:
-				js_write(file, tab(3) + qm + 'translate' + sep_s + get_translation_key(fighter, skin) + suf_s)
+				js_write(file, tab(3) + qm + 'translate' + sep_s + f'ssbrc.skin.{skin}' + suf_s)
 			js_write(file, tab(3) + qm + 'color' + sep_s + get_color(fighter, skin) + suf_s)
 			js_write(file, tab(3) + qm + 'bold' + sep_n + 'true')
 			js_write(file, tab(2) + '}')
@@ -89,43 +88,32 @@ def create_skin_file(skin, fighter, path):
 	if fighter == 'byleth':
 		create_path(path + skin + '\\')
 		with open(path + skin + '\\female.mcfunction', 'w') as file:
-			js_write(file, f'function ssbrc:fighters/{fighter}/menu/skins/reset')
-			js_write(file, f'tag @s add {skin}')
+			warn_builder(file)
+
+			js_write(file, 'function ssbrc:logic/player_data/set {mode:"store",key:"skin",value:"' + skin + '"}\n')
 			js_write(file, f'tag @s add female\n')
 
-			prefix = 'tellraw @s[tag=!blind_pick,tag=!picking_random] [{"text":"\\n"},{"translate":"ssbrc.fighters.menu.skin","color":"white"},{"translate":"'
-			suffix = '"},{"text":"\\n"},{"translate":"ssbrc.fighters.menu.gender","color":"white"},{"translate":"ssbrc.fighters.menu.gender.female","color":"light_purple"},{"text":"\\n"}]'
+			prefix = 'tellraw @s[tag=!blind_pick,tag=!picking_random] [{"text":"\\n"},{"translate":"ssbrc.fighter.menu.skin","color":"white"},{"translate":"'
+			suffix = '"},{"text":"\\n"},{"translate":"ssbrc.fighter.menu.gender","color":"white"},{"translate":"ssbrc.fighter.menu.gender.female","color":"light_purple"},{"text":"\\n"}]'
 
-			js_write(file, prefix + get_translation_key(fighter, skin) + '","color":"' + get_color(fighter, skin) + suffix)
+			js_write(file, prefix + f'ssbrc.skin.{skin}' + '","color":"' + get_color(fighter, skin) + suffix)
 
-			js_write(file, f'execute if entity @s[tag=!blind_pick,tag=!picking_random] run function ssbrc:fighters/{fighter}/menu/skin_options\n')
-			js_write(file, 'function ssbrc:logic/selector/select_skin')
+			js_write(file, f'execute if entity @s[tag=!blind_pick,tag=!picking_random] run function ssbrc:fighters/{fighter}/menu/skins/options\n')
+			js_write(file, 'function ssbrc:logic/fighters/select_skin/common')
 
 		with open(path + skin + '/male.mcfunction', 'w') as file:
-			js_write(file, f'function ssbrc:fighters/{fighter}/menu/skins/reset')
-			js_write(file, f'tag @s add {skin}')
+			warn_builder(file)
+
+			js_write(file, 'function ssbrc:logic/player_data/set {mode:"store",key:"skin",value:"' + skin + '"}\n')
 			js_write(file, f'tag @s add male\n')
 
-			prefix = 'tellraw @s[tag=!blind_pick,tag=!picking_random] [{"text":"\\n"},{"translate":"ssbrc.fighters.menu.skin","color":"white"},{"translate":"'
-			suffix = '"},{"text":"\\n"},{"translate":"ssbrc.fighters.menu.gender","color":"white"},{"translate":"ssbrc.fighters.menu.gender.male","color":"dark_blue"},{"text":"\\n"}]'
+			prefix = 'tellraw @s[tag=!blind_pick,tag=!picking_random] [{"text":"\\n"},{"translate":"ssbrc.fighter.menu.skin","color":"white"},{"translate":"'
+			suffix = '"},{"text":"\\n"},{"translate":"ssbrc.fighter.menu.gender","color":"white"},{"translate":"ssbrc.fighter.menu.gender.male","color":"dark_blue"},{"text":"\\n"}]'
 
-			js_write(file, prefix + get_translation_key(fighter, skin) + '","color":"' + get_color(fighter, skin) + suffix)
+			js_write(file, prefix + f'ssbrc.skin.{skin}' + '","color":"' + get_color(fighter, skin) + suffix)
 
-			js_write(file, f'execute if entity @s[tag=!blind_pick,tag=!picking_random] run function ssbrc:fighters/{fighter}/menu/skin_options\n')
-			js_write(file, 'function ssbrc:logic/selector/select_skin')
-
-	else:
-		with open(path + skin + '.mcfunction', 'w') as file:
-			js_write(file, f'function ssbrc:fighters/{fighter}/menu/skins/reset')
-			js_write(file, f'tag @s add {skin}\n')
-
-			prefix = 'tellraw @s[tag=!blind_pick,tag=!picking_random] [{"text":"\\n"},{"translate":"ssbrc.fighters.menu.skin","color":"white"},{"translate":"'
-			suffix = '"},{"text":"\\n"}]'
-
-			js_write(file, prefix + get_translation_key(fighter, skin) + '","color":"' + get_color(fighter, skin) + suffix)
-
-			js_write(file, f'execute if entity @s[tag=!blind_pick,tag=!picking_random] run function ssbrc:fighters/{fighter}/menu/skin_options\n')
-			js_write(file, 'function ssbrc:logic/selector/select_skin')
+			js_write(file, f'execute if entity @s[tag=!blind_pick,tag=!picking_random] run function ssbrc:fighters/{fighter}/menu/skins/options\n')
+			js_write(file, 'function ssbrc:logic/fighters/select_skin/common')
 
 def create_shop_entry(skin, fighter, path):
 	'''Initializes skin shop entry.'''
@@ -133,9 +121,11 @@ def create_shop_entry(skin, fighter, path):
 
 	if skin != 'default' and skin != 'gold' and skin != 'shiny':
 		with open(path + skin + '.mcfunction', 'w') as file:
+			warn_builder(file)
+
 			js_write(file, f'advancement grant @s only ssbrc:fighters/{fighter}/skins/{skin}\n')
 			js_write(file, 'scoreboard players operation @s stats.credits -= price.skin.common vars\n')
-			js_write(file, 'tellraw @s [{"translate":"ssbrc.shop.purchase.skin","color":"white"},{"translate":"' + get_translation_key(fighter, skin) + '","color":"' + get_color(fighter, skin) + '"}]\n')
+			js_write(file, 'tellraw @s [{"translate":"ssbrc.shop.purchase.skin","color":"white"},{"translate":"' + f'ssbrc.skin.{skin}' + '","color":"' + get_color(fighter, skin) + '"}]\n')
 			js_write(file, 'playsound minecraft:entity.player.levelup master @s\n')
 			js_write(file, f'function ssbrc:shop/pages/skins/{fighter}')
 

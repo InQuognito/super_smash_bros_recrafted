@@ -7,7 +7,7 @@ scoreboard players operation gatling_gun.charge temp = @s charge.output
 scoreboard players operation gatling_gun.charge temp /= 10 integers
 scoreboard players operation @s cooldown.1 -= gatling_gun.charge temp
 scoreboard players set @s[scores={cooldown.1=..0}] cooldown.1 1
-execute if entity @s[scores={shadow.chaos_control=1..}] run function ssbrc:logic/fighters/cooldown/chaos_control {type:"1"}
+execute if entity @s[scores={shadow.chaos_control=1..}] run function ssbrc:logic/item/cooldown/chaos_control {type:"1"}
 
 item modify entity @s[scores={charge.output=1}] weapon.mainhand ssbrc:fighters/yar/ray_blaster/gatling_gun
 

@@ -1,3 +1,3 @@
 execute anchored eyes positioned ^ ^ ^ summon minecraft:marker run function ssbrc:fighters/pit/logic/abilities/palutena_bow/init/marker
 
-function ssbrc:logic/fighters/cooldown/set/const {type:"1",value:"10"}
+function ssbrc:logic/item/cooldown/set/const {type:"1",value:"10"}

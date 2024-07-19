@@ -8,13 +8,13 @@
 		"entity": "this",
 		"lore": [
 			{
-				"translate": "ssbrc.tooltips.cloud.limit_break",
+				"translate": "ssbrc.fighter.cloud.limit_break",
 				"color": "gray",
 				"bold": false,
 				"italic": false,
 				"extra": [
 					{
-						"translate": "ssbrc.tooltips.cloud.crossSlash",
+						"translate": "ssbrc.fighter.cloud.crossSlash",
 						"color": "gray",
 						"bold": false,
 						"italic": false
@@ -22,7 +22,7 @@
 				]
 			},
 			{
-				"translate": "ssbrc.tooltips.cloud.crossSlash.description.1",
+				"translate": "ssbrc.fighter.cloud.crossSlash.description.1",
 				"color": "gray",
 				"bold": false,
 				"italic": false
@@ -39,7 +39,7 @@
 		"entity": "this",
 		"lore": [
 			{
-				"translate": "ssbrc.fighters.cloud.punisher",
+				"translate": "ssbrc.fighter.cloud.punisher",
 				"color": "blue",
 				"bold": true,
 				"italic": false,
@@ -51,7 +51,7 @@
 						"italic": false
 					},
 					{
-						"translate": "ssbrc.fighters.cloud.operator",
+						"translate": "ssbrc.fighter.cloud.operator",
 						"color": "green",
 						"bold": false,
 						"italic": false

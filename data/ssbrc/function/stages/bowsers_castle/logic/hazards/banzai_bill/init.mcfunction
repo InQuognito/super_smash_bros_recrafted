@@ -1,4 +1,4 @@
-tag @s add banzaiBill
+tag @s add banzai_bill
 
 teleport @s ~ ~ ~ -90.0 0.0
 

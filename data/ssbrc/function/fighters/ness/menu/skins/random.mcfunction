@@ -1,12 +1,11 @@
-scoreboard players set @s fighter_picked 1
+# This file is controlled by the build script. Changes should be made in the respective file.
 
 execute store result score random.output temp run random value 1..5
 
-execute unless score @s[advancements={ssbrc:fighters/ness/skins/default=true}] skin_picked matches 1 if score random.output temp matches 1 run function ssbrc:fighters/ness/menu/skins/default
-execute unless score @s[advancements={ssbrc:fighters/ness/skins/gold=true}] skin_picked matches 1 if score random.output temp matches 2 run function ssbrc:fighters/ness/menu/skins/gold
-execute unless score @s[advancements={ssbrc:fighters/ness/skins/moonside=true}] skin_picked matches 1 if score random.output temp matches 3 run function ssbrc:fighters/ness/menu/skins/moonside
-execute unless score @s[advancements={ssbrc:fighters/ness/skins/pajamas=true}] skin_picked matches 1 if score random.output temp matches 4 run function ssbrc:fighters/ness/menu/skins/pajamas
-execute unless score @s[advancements={ssbrc:fighters/ness/skins/phase_distortion=true}] skin_picked matches 1 if score random.output temp matches 5 run function ssbrc:fighters/ness/menu/skins/phase_distortion
+execute if score random.output temp matches 1 if entity @s[advancements={ssbrc:fighters/ness/skins/default=true}] run return run function ssbrc:logic/fighters/select_skin {fighter:"ness",skin:"default",color:"dark_purple"}
+execute if score random.output temp matches 2 if entity @s[advancements={ssbrc:fighters/ness/skins/gold=true}] run return run function ssbrc:logic/fighters/select_skin {fighter:"ness",skin:"gold",color:"gold"}
+execute if score random.output temp matches 3 if entity @s[advancements={ssbrc:fighters/ness/skins/moonside=true}] run return run function ssbrc:logic/fighters/select_skin {fighter:"ness",skin:"moonside",color:"aqua"}
+execute if score random.output temp matches 4 if entity @s[advancements={ssbrc:fighters/ness/skins/pajamas=true}] run return run function ssbrc:logic/fighters/select_skin {fighter:"ness",skin:"pajamas",color:"dark_aqua"}
+execute if score random.output temp matches 5 if entity @s[advancements={ssbrc:fighters/ness/skins/phase_distortion=true}] run return run function ssbrc:logic/fighters/select_skin {fighter:"ness",skin:"phase_distortion",color:"gray"}
 
-execute if score @s skin_picked matches 1 run function ssbrc:logic/fighters/select with storage ssbrc:data fighters.ness
-execute unless score @s skin_picked matches 1 run function ssbrc:fighters/ness/menu/skins/random
+function ssbrc:fighters/ness/menu/skins/random

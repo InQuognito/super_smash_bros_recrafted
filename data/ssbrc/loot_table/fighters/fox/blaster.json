@@ -33,7 +33,7 @@
 											"italic": false
 										},
 										{
-											"translate": "ssbrc.tooltips.ability.activate",
+											"translate": "ssbrc.ability.activate",
 											"color": "gray",
 											"bold": false,
 											"italic": false

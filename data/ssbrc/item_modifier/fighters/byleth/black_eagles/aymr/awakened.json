@@ -3,7 +3,7 @@
 		"function": "minecraft:set_name",
 		"entity": "this",
 		"name": {
-			"translate": "ssbrc.tooltips.byleth.black_eagles.aymr",
+			"translate": "ssbrc.fighter.byleth.black_eagles.aymr",
 			"color": "red",
 			"bold": true,
 			"italic": false
@@ -26,7 +26,7 @@
 						"italic": false
 					},
 					{
-						"translate": "ssbrc.tooltips.byleth.black_eagles.aymr.description.3",
+						"translate": "ssbrc.fighter.byleth.black_eagles.aymr.description.3",
 						"color": "gray",
 						"bold": false,
 						"italic": false

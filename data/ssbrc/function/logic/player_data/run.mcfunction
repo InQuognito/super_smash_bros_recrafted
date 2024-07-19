@@ -1,1 +1,1 @@
-$function $(function) with storage ssbrc:data player.data[$(index)]
+$function $(function) with storage ssbrc:data player.temp_data[$(index)]

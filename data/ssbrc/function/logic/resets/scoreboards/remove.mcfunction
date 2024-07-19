@@ -10,7 +10,8 @@ scoreboard objectives remove charge.2
 scoreboard objectives remove charge.3
 scoreboard objectives remove charge.4
 scoreboard objectives remove charge.output
-scoreboard objectives remove cloud.limit
+scoreboard objectives remove combo.count
+scoreboard objectives remove combo.duration
 scoreboard objectives remove cooldown
 scoreboard objectives remove cooldown.1
 scoreboard objectives remove cooldown.2
@@ -56,9 +57,16 @@ scoreboard objectives remove leech_seed.stacks
 scoreboard objectives remove leech_seed.stacks.timer
 scoreboard objectives remove leech_seed.timer
 scoreboard objectives remove mana
-scoreboard objectives remove stage
-scoreboard objectives remove stage_vote
 scoreboard objectives remove math
+scoreboard objectives remove mega_man.air_shooter
+scoreboard objectives remove mega_man.beat_call
+scoreboard objectives remove mega_man.drill_bomb
+scoreboard objectives remove mega_man.flame_sword
+scoreboard objectives remove mega_man.hyper_bomb
+scoreboard objectives remove mega_man.junk_shield
+scoreboard objectives remove mega_man.metal_blade
+scoreboard objectives remove mega_man.pile_driver
+scoreboard objectives remove mega_man.remote_mine
 scoreboard objectives remove menu
 scoreboard objectives remove motion_x
 scoreboard objectives remove motion_y
@@ -76,6 +84,7 @@ scoreboard objectives remove prev_pos_z
 scoreboard objectives remove raycast
 scoreboard objectives remove raycast_success
 scoreboard objectives remove reset
+scoreboard objectives remove resource
 scoreboard objectives remove respawn
 scoreboard objectives remove rotation
 scoreboard objectives remove sandbag.stand_on
@@ -90,6 +99,9 @@ scoreboard objectives remove snake.capacity
 scoreboard objectives remove snake.anti_personnel_mine.ammo
 scoreboard objectives remove snake.smoke_grenade.ammo
 scoreboard objectives remove sprint_distance
+scoreboard objectives remove stage
+scoreboard objectives remove stage_select
+scoreboard objectives remove stage_vote
 scoreboard objectives remove steve.tier
 scoreboard objectives remove stocks
 scoreboard objectives remove self_destruct

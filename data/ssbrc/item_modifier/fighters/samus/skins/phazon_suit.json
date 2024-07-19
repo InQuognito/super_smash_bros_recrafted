@@ -4,7 +4,7 @@
 		"entity": "this",
 		"target": "item_name",
 		"name": {
-			"translate": "ssbrc.fighters.samus.skin.phazon_suit",
+			"translate": "ssbrc.skin.phazon_suit",
 			"color": "red",
 			"bold": true
 		}

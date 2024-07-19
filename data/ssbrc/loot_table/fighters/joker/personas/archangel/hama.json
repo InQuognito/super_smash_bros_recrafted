@@ -12,7 +12,7 @@
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"translate": "ssbrc.tooltips.joker.hama",
+								"translate": "ssbrc.fighter.joker.hama",
 								"color": "yellow",
 								"bold": true,
 								"italic": false

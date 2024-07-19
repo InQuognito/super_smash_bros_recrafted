@@ -3,7 +3,7 @@
 		"function": "minecraft:set_name",
 		"entity": "this",
 		"name": {
-			"translate": "ssbrc.fighters.snake.cqc_knife",
+			"translate": "ssbrc.fighter.snake.cqc_knife",
 			"color": "green",
 			"bold": true,
 			"italic": false

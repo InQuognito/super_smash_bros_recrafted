@@ -2,7 +2,7 @@ execute anchored eyes positioned ^ ^ ^2 run particle minecraft:sonic_boom ~ ~ ~ 
 
 scoreboard players set @s duration.2 20
 
-function ssbrc:logic/fighters/cooldown/set
+function ssbrc:logic/item/durability/reset/slot {slot_string:"weapon.mainhand"}
 
 function ssbrc:logic/fighters/effects/mobility/immobilize/air_stall
 

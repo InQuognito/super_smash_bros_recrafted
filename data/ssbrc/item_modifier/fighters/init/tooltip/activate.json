@@ -16,7 +16,7 @@
 						"italic": false
 					},
 					{
-						"translate": "ssbrc.tooltips.item.activation.activate",
+						"translate": "ssbrc.item.activation.activate",
 						"color": "gray",
 						"bold": false,
 						"italic": false

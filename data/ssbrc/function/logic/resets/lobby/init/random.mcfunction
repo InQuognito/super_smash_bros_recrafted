@@ -1,6 +1,6 @@
 function ssbrc:logic/resets/lobby/init/common
 
-data modify entity @s CustomName set value "random_fighter"
+data modify entity @s CustomName set value '"random_fighter"'
 
 tag @s add standard_highlight
 

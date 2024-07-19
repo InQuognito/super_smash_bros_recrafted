@@ -1,3 +1,3 @@
 function ssbrc:logic/fighters/effects/mobility/mobilize
 
-function ssbrc:logic/fighters/cooldown/set
+function ssbrc:logic/item/durability/reset/slot {slot_string:"weapon.mainhand"}

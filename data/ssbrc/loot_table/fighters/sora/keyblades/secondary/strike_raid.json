@@ -12,7 +12,7 @@
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"translate": "ssbrc.tooltips.sora.starSeeker",
+								"translate": "ssbrc.fighter.sora.starSeeker",
 								"color": "blue",
 								"bold": true,
 								"italic": false
@@ -31,7 +31,7 @@
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"translate": "ssbrc.tooltips.sora.starSeeker",
+								"translate": "ssbrc.fighter.sora.starSeeker",
 								"color": "gold",
 								"bold": true,
 								"italic": false
@@ -50,7 +50,7 @@
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"translate": "ssbrc.tooltips.sora.classicTone",
+								"translate": "ssbrc.fighter.sora.classicTone",
 								"color": "yellow",
 								"bold": true,
 								"italic": false

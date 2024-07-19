@@ -4,7 +4,7 @@
 		"entity": "this",
 		"target": "item_name",
 		"name": {
-			"translate": "ssbrc.fighters.link.skin.goron_tunic",
+			"translate": "ssbrc.skin.goron_tunic",
 			"color": "red",
 			"bold": true
 		}

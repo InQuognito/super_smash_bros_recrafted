@@ -31,6 +31,9 @@
 						"scores": {
 							"mega_man.remote_mine": {
 								"min": 1
+							},
+							"cooldown": {
+								"max": 0
 							}
 						}
 					}

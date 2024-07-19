@@ -12,7 +12,7 @@
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"translate": "ssbrc.tooltips.rob.robo_rotor",
+								"translate": "ssbrc.fighter.rob.robo_rotor",
 								"color": "gold",
 								"bold": true,
 								"italic": false

@@ -12,7 +12,7 @@
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"translate": "ssbrc.tooltips.zelda.passive_item.ring_of_blasting",
+								"translate": "ssbrc.fighter.zelda.passive_item.ring_of_blasting",
 								"color": "gray",
 								"bold": true,
 								"italic": false
@@ -27,13 +27,13 @@
 							"entity": "this",
 							"lore": [
 								{
-									"translate": "ssbrc.tooltips.zelda.passive_item.ring_of_blasting.description.1",
+									"translate": "ssbrc.fighter.zelda.passive_item.ring_of_blasting.description.1",
 									"color": "gray",
 									"bold": false,
 									"italic": false
 								},
 								{
-									"translate": "ssbrc.tooltips.zelda.passive_item.ring_of_blasting.description.2",
+									"translate": "ssbrc.fighter.zelda.passive_item.ring_of_blasting.description.2",
 									"color": "gray",
 									"bold": false,
 									"italic": false

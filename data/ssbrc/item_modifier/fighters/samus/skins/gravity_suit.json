@@ -4,7 +4,7 @@
 		"entity": "this",
 		"target": "item_name",
 		"name": {
-			"translate": "ssbrc.fighters.samus.skin.gravity_suit",
+			"translate": "ssbrc.skin.gravity_suit",
 			"color": "light_purple",
 			"bold": true
 		}

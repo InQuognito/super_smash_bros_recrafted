@@ -3,7 +3,7 @@
 		"function": "minecraft:set_name",
 		"entity": "this",
 		"name": {
-			"translate": "ssbrc.tooltips.shadow.sword",
+			"translate": "ssbrc.fighter.shadow.sword",
 			"color": "gold",
 			"bold": true,
 			"italic": false

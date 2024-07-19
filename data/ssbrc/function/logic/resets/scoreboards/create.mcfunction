@@ -10,7 +10,8 @@ scoreboard objectives add charge.2 dummy
 scoreboard objectives add charge.3 dummy
 scoreboard objectives add charge.4 dummy
 scoreboard objectives add charge.output dummy
-scoreboard objectives add cloud.limit dummy
+scoreboard objectives add combo.count dummy
+scoreboard objectives add combo.duration dummy
 scoreboard objectives add cooldown dummy
 scoreboard objectives add cooldown.1 dummy
 scoreboard objectives add cooldown.2 dummy
@@ -63,7 +64,6 @@ scoreboard objectives add mega_man.drill_bomb dummy
 scoreboard objectives add mega_man.flame_sword dummy
 scoreboard objectives add mega_man.hyper_bomb dummy
 scoreboard objectives add mega_man.junk_shield dummy
-scoreboard objectives add mega_man.mamagma_bazooka dummy
 scoreboard objectives add mega_man.metal_blade dummy
 scoreboard objectives add mega_man.pile_driver dummy
 scoreboard objectives add mega_man.remote_mine dummy
@@ -84,6 +84,7 @@ scoreboard objectives add prev_pos_z dummy
 scoreboard objectives add raycast dummy
 scoreboard objectives add raycast_success dummy
 scoreboard objectives add reset dummy
+scoreboard objectives add resource dummy
 scoreboard objectives add respawn dummy
 scoreboard objectives add rotation dummy
 scoreboard objectives add rotationX dummy
@@ -103,6 +104,7 @@ scoreboard objectives add snake.anti_personnel_mine.ammo dummy
 scoreboard objectives add snake.smoke_grenade.ammo dummy
 scoreboard objectives add sprint_distance minecraft.custom:minecraft.sprint_one_cm
 scoreboard objectives add stage dummy
+scoreboard objectives add stage_select dummy
 scoreboard objectives add stage_vote dummy
 scoreboard objectives add steve.tier dummy
 scoreboard objectives add stocks dummy
@@ -133,6 +135,12 @@ scoreboard objectives add weapon_1.reload dummy
 scoreboard objectives add weapon_4.ammo dummy
 scoreboard objectives add weapon_4.mags dummy
 scoreboard objectives add weapon_4.reload dummy
+scoreboard objectives add weapon_5.ammo dummy
+scoreboard objectives add weapon_6.ammo dummy
+scoreboard objectives add weapon_7.ammo dummy
+scoreboard objectives add weapon_8.ammo dummy
+scoreboard objectives add weapon_9.ammo dummy
+scoreboard objectives add weapon_10.ammo dummy
 scoreboard objectives add yar.drone.health dummy
 scoreboard objectives add zelda.enchant_armor dummy
 scoreboard objectives add zelda.half_magic dummy

@@ -1,3 +1,3 @@
-damage @s 3.0 ssbrc:generic by @a[tag=self,limit=1]
+function ssbrc:logic/damage/player {amount:"3.0",type:"generic",kb_resist:"0.0"}
 
 function ssbrc:logic/fighters/projectiles/hit

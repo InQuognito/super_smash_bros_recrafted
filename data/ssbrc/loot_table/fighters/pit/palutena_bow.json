@@ -12,7 +12,7 @@
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"translate": "ssbrc.tooltips.pit.palutena_bow",
+								"translate": "ssbrc.fighter.pit.palutena_bow",
 								"color": "white",
 								"bold": true,
 								"italic": false

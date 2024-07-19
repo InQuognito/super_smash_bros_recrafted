@@ -13,7 +13,7 @@
 							"entity": "this",
 							"target": "item_name",
 							"name": {
-								"translate": "ssbrc.stages.tower_of_fate",
+								"translate": "ssbrc.stage.tower_of_fate",
 								"color": "dark_purple",
 								"bold": true
 							}

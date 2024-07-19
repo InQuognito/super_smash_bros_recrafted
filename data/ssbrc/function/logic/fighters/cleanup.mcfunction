@@ -19,8 +19,6 @@ tag @s remove immobile
 tag @s remove tornado.spin
 
 # Misc
-tag @s remove next_fighter_chosen
-
 scoreboard players operation id_to_match temp = @s id
 
 $function ssbrc:fighters/$(name)/cleanup

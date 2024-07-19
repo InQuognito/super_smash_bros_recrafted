@@ -13,7 +13,7 @@
 							"entity": "this",
 							"target": "item_name",
 							"name": {
-								"translate": "ssbrc.stages.mementos",
+								"translate": "ssbrc.stage.mementos",
 								"color": "red",
 								"bold": true
 							}

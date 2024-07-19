@@ -1,4 +1,4 @@
-execute store success score damage_success temp run damage @s 6.0 ssbrc:pierce by @a[tag=self,limit=1]
+execute store success score damage_success temp run function ssbrc:logic/damage/player {amount:"6.0",type:"pierce",kb_resist:"0.0"}
 
 execute as @a[tag=self,limit=1] run function ssbrc:fighters/shovel_knight/logic/abilities/shovel_drop/activate
 

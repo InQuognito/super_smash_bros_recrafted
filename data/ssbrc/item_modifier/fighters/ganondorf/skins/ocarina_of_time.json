@@ -4,7 +4,7 @@
 		"entity": "this",
 		"target": "item_name",
 		"name": {
-			"translate": "ssbrc.fighters.ganondorf.skin.ocarina_of_time",
+			"translate": "ssbrc.skin.ocarina_of_time",
 			"color": "red",
 			"bold": true
 		}

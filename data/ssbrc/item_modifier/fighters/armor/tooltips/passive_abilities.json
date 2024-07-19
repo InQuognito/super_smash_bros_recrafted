@@ -8,13 +8,13 @@
 		"entity": "this",
 		"lore": [
 			{
-				"translate": "ssbrc.tooltips.no_abilities",
+				"translate": "ssbrc.tooltip.no_abilities",
 				"color": "gray",
 				"bold": false,
 				"italic": false
 			},
 			{
-				"translate": "ssbrc.tooltips.no_passives",
+				"translate": "ssbrc.tooltip.no_passives",
 				"color": "gray",
 				"bold": false,
 				"italic": false
@@ -36,14 +36,14 @@
 		"entity": "this",
 		"lore": [
 			{
-				"translate": "ssbrc.tooltips.altered_beast.mark_of_the_beast",
+				"translate": "ssbrc.fighter.altered_beast.mark_of_the_beast",
 				"color": "yellow",
 				"bold": false,
 				"italic": false,
 				"underlined": true
 			},
 			{
-				"translate": "ssbrc.tooltips.altered_beast.mark_of_the_beast.description.1",
+				"translate": "ssbrc.fighter.altered_beast.mark_of_the_beast.description.1",
 				"color": "gray",
 				"bold": false,
 				"italic": false
@@ -65,14 +65,14 @@
 		"entity": "this",
 		"lore": [
 			{
-				"translate": "ssbrc.tooltips.altered_beast.werebear.intimidate",
+				"translate": "ssbrc.fighter.altered_beast.werebear.intimidate",
 				"color": "yellow",
 				"bold": false,
 				"italic": false,
 				"underlined": true
 			},
 			{
-				"translate": "ssbrc.tooltips.altered_beast.werebear.intimidate.description.1",
+				"translate": "ssbrc.fighter.altered_beast.werebear.intimidate.description.1",
 				"color": "gray",
 				"bold": false,
 				"italic": false
@@ -94,20 +94,20 @@
 		"entity": "this",
 		"lore": [
 			{
-				"translate": "ssbrc.tooltips.altered_beast.weredragon.inner_strength",
+				"translate": "ssbrc.fighter.altered_beast.weredragon.inner_strength",
 				"color": "yellow",
 				"bold": false,
 				"italic": false,
 				"underlined": true
 			},
 			{
-				"translate": "ssbrc.tooltips.altered_beast.weredragon.inner_strength.description.1",
+				"translate": "ssbrc.fighter.altered_beast.weredragon.inner_strength.description.1",
 				"color": "gray",
 				"bold": false,
 				"italic": false
 			},
 			{
-				"translate": "ssbrc.tooltips.altered_beast.weredragon.inner_strength.description.2",
+				"translate": "ssbrc.fighter.altered_beast.weredragon.inner_strength.description.2",
 				"color": "gray",
 				"bold": false,
 				"italic": false
@@ -129,14 +129,14 @@
 		"entity": "this",
 		"lore": [
 			{
-				"translate": "ssbrc.tooltips.altered_beast.weretiger.champion_of_zeus",
+				"translate": "ssbrc.fighter.altered_beast.weretiger.champion_of_zeus",
 				"color": "yellow",
 				"bold": false,
 				"italic": false,
 				"underlined": true
 			},
 			{
-				"translate": "ssbrc.tooltips.altered_beast.weretiger.champion_of_zeus.description.1",
+				"translate": "ssbrc.fighter.altered_beast.weretiger.champion_of_zeus.description.1",
 				"color": "gray",
 				"bold": false,
 				"italic": false
@@ -158,14 +158,14 @@
 		"entity": "this",
 		"lore": [
 			{
-				"translate": "ssbrc.tooltips.altered_beast.werewolf.feral_instincts",
+				"translate": "ssbrc.fighter.altered_beast.werewolf.feral_instincts",
 				"color": "yellow",
 				"bold": false,
 				"italic": false,
 				"underlined": true
 			},
 			{
-				"translate": "ssbrc.tooltips.altered_beast.werewolf.feral_instincts.description.1",
+				"translate": "ssbrc.fighter.altered_beast.werewolf.feral_instincts.description.1",
 				"color": "gray",
 				"bold": false,
 				"italic": false
@@ -187,14 +187,14 @@
 		"entity": "this",
 		"lore": [
 			{
-				"translate": "ssbrc.tooltips.bowser.rage",
+				"translate": "ssbrc.fighter.bowser.rage",
 				"color": "yellow",
 				"bold": false,
 				"italic": false,
 				"underlined": true
 			},
 			{
-				"translate": "ssbrc.tooltips.bowser.rage.description.1",
+				"translate": "ssbrc.fighter.bowser.rage.description.1",
 				"color": "gray",
 				"bold": false,
 				"italic": false
@@ -206,7 +206,7 @@
 				"italic": false,
 				"extra": [
 					{
-						"translate": "ssbrc.tooltips.bowser.rage.description.2",
+						"translate": "ssbrc.fighter.bowser.rage.description.2",
 						"color": "gray",
 						"bold": false,
 						"italic": false
@@ -220,7 +220,7 @@
 				"italic": false,
 				"extra": [
 					{
-						"translate": "ssbrc.tooltips.bowser.rage.description.3",
+						"translate": "ssbrc.fighter.bowser.rage.description.3",
 						"color": "gray",
 						"bold": false,
 						"italic": false
@@ -234,7 +234,7 @@
 				"italic": false,
 				"extra": [
 					{
-						"translate": "ssbrc.tooltips.bowser.rage.description.4",
+						"translate": "ssbrc.fighter.bowser.rage.description.4",
 						"color": "gray",
 						"bold": false,
 						"italic": false
@@ -258,14 +258,14 @@
 		"entity": "this",
 		"lore": [
 			{
-				"translate": "ssbrc.tooltips.byleth.blue_lions.swiftness",
+				"translate": "ssbrc.fighter.byleth.blue_lions.swiftness",
 				"color": "yellow",
 				"bold": false,
 				"italic": false,
 				"underlined": true
 			},
 			{
-				"translate": "ssbrc.tooltips.byleth.blue_lions.swiftness.description.1",
+				"translate": "ssbrc.fighter.byleth.blue_lions.swiftness.description.1",
 				"color": "gray",
 				"bold": false,
 				"italic": false
@@ -287,14 +287,14 @@
 		"entity": "this",
 		"lore": [
 			{
-				"translate": "ssbrc.tooltips.byleth.golden_deer.resistance",
+				"translate": "ssbrc.fighter.byleth.golden_deer.resistance",
 				"color": "yellow",
 				"bold": false,
 				"italic": false,
 				"underlined": true
 			},
 			{
-				"translate": "ssbrc.tooltips.byleth.golden_deer.resistance.description.1",
+				"translate": "ssbrc.fighter.byleth.golden_deer.resistance.description.1",
 				"color": "gray",
 				"bold": false,
 				"italic": false
@@ -316,14 +316,14 @@
 		"entity": "this",
 		"lore": [
 			{
-				"translate": "ssbrc.tooltips.byleth.black_eagles.heavy_armor",
+				"translate": "ssbrc.fighter.byleth.black_eagles.heavy_armor",
 				"color": "yellow",
 				"bold": false,
 				"italic": false,
 				"underlined": true
 			},
 			{
-				"translate": "ssbrc.tooltips.byleth.black_eagles.heavy_armor.description.1",
+				"translate": "ssbrc.fighter.byleth.black_eagles.heavy_armor.description.1",
 				"color": "gray",
 				"bold": false,
 				"italic": false
@@ -345,14 +345,14 @@
 		"entity": "this",
 		"lore": [
 			{
-				"translate": "ssbrc.tooltips.dark_samus.phazon_spikes",
+				"translate": "ssbrc.fighter.dark_samus.phazon_spikes",
 				"color": "yellow",
 				"bold": false,
 				"italic": false,
 				"underlined": true
 			},
 			{
-				"translate": "ssbrc.tooltips.dark_samus.phazon_spikes.description.1",
+				"translate": "ssbrc.fighter.dark_samus.phazon_spikes.description.1",
 				"color": "gray",
 				"bold": false,
 				"italic": false
@@ -374,14 +374,14 @@
 		"entity": "this",
 		"lore": [
 			{
-				"translate": "ssbrc.tooltips.ganondorf.summon_stalfos",
+				"translate": "ssbrc.fighter.ganondorf.summon_stalfos",
 				"color": "yellow",
 				"bold": false,
 				"italic": false,
 				"underlined": true
 			},
 			{
-				"translate": "ssbrc.tooltips.ganondorf.summon_stalfos.description.1",
+				"translate": "ssbrc.fighter.ganondorf.summon_stalfos.description.1",
 				"color": "gray",
 				"bold": false,
 				"italic": false
@@ -403,14 +403,14 @@
 		"entity": "this",
 		"lore": [
 			{
-				"translate": "ssbrc.tooltips.joker.final_guard",
+				"translate": "ssbrc.fighter.joker.final_guard",
 				"color": "yellow",
 				"bold": false,
 				"italic": false,
 				"underlined": true
 			},
 			{
-				"translate": "ssbrc.tooltips.joker.final_guard.description.1",
+				"translate": "ssbrc.fighter.joker.final_guard.description.1",
 				"color": "gray",
 				"bold": false,
 				"italic": false
@@ -432,20 +432,20 @@
 		"entity": "this",
 		"lore": [
 			{
-				"translate": "ssbrc.tooltips.pit.wings",
+				"translate": "ssbrc.fighter.pit.wings",
 				"color": "yellow",
 				"bold": false,
 				"italic": false,
 				"underlined": true
 			},
 			{
-				"translate": "ssbrc.tooltips.pit.wings.description.1",
+				"translate": "ssbrc.fighter.pit.wings.description.1",
 				"color": "gray",
 				"bold": false,
 				"italic": false
 			},
 			{
-				"translate": "ssbrc.tooltips.pit.wings.description.2",
+				"translate": "ssbrc.fighter.pit.wings.description.2",
 				"color": "gray",
 				"bold": false,
 				"italic": false
@@ -467,20 +467,20 @@
 		"entity": "this",
 		"lore": [
 			{
-				"translate": "ssbrc.tooltips.snake.stealth",
+				"translate": "ssbrc.fighter.snake.stealth",
 				"color": "yellow",
 				"bold": false,
 				"italic": false,
 				"underlined": true
 			},
 			{
-				"translate": "ssbrc.tooltips.snake.stealth.description.1",
+				"translate": "ssbrc.fighter.snake.stealth.description.1",
 				"color": "gray",
 				"bold": false,
 				"italic": false
 			},
 			{
-				"translate": "ssbrc.tooltips.snake.stealth.description.2",
+				"translate": "ssbrc.fighter.snake.stealth.description.2",
 				"color": "gray",
 				"bold": false,
 				"italic": false
@@ -502,14 +502,14 @@
 		"entity": "this",
 		"lore": [
 			{
-				"translate": "ssbrc.tooltips.sonic_the_hedgehog.acceleration",
+				"translate": "ssbrc.fighter.sonic_the_hedgehog.acceleration",
 				"color": "yellow",
 				"bold": false,
 				"italic": false,
 				"underlined": true
 			},
 			{
-				"translate": "ssbrc.tooltips.sonic_the_hedgehog.acceleration.description.1",
+				"translate": "ssbrc.fighter.sonic_the_hedgehog.acceleration.description.1",
 				"color": "gray",
 				"bold": false,
 				"italic": false
@@ -528,14 +528,14 @@
 		"entity": "this",
 		"lore": [
 			{
-				"translate": "ssbrc.tooltips.super_mario_bros.stomp",
+				"translate": "ssbrc.fighter.super_mario_bros.stomp",
 				"color": "yellow",
 				"bold": false,
 				"italic": false,
 				"underlined": true
 			},
 			{
-				"translate": "ssbrc.tooltips.super_mario_bros.stomp.description.1",
+				"translate": "ssbrc.fighter.super_mario_bros.stomp.description.1",
 				"color": "gray",
 				"bold": false,
 				"italic": false

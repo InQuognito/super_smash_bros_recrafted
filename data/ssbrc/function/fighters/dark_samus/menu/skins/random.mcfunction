@@ -1,10 +1,9 @@
-scoreboard players set @s fighter_picked 1
+# This file is controlled by the build script. Changes should be made in the respective file.
 
 execute store result score random.output temp run random value 1..3
 
-execute unless score @s[advancements={ssbrc:fighters/dark_samus/skins/default=true}] skin_picked matches 1 if score random.output temp matches 1 run function ssbrc:fighters/dark_samus/menu/skins/default
-execute unless score @s[advancements={ssbrc:fighters/dark_samus/skins/gold=true}] skin_picked matches 1 if score random.output temp matches 2 run function ssbrc:fighters/dark_samus/menu/skins/gold
-execute unless score @s[advancements={ssbrc:fighters/dark_samus/skins/prime_3=true}] skin_picked matches 1 if score random.output temp matches 3 run function ssbrc:fighters/dark_samus/menu/skins/prime_3
+execute if score random.output temp matches 1 if entity @s[advancements={ssbrc:fighters/dark_samus/skins/default=true}] run return run function ssbrc:logic/fighters/select_skin {fighter:"dark_samus",skin:"default",color:"aqua"}
+execute if score random.output temp matches 2 if entity @s[advancements={ssbrc:fighters/dark_samus/skins/gold=true}] run return run function ssbrc:logic/fighters/select_skin {fighter:"dark_samus",skin:"gold",color:"gold"}
+execute if score random.output temp matches 3 if entity @s[advancements={ssbrc:fighters/dark_samus/skins/prime_3=true}] run return run function ssbrc:logic/fighters/select_skin {fighter:"dark_samus",skin:"prime_3",color:"dark_gray"}
 
-execute if score @s skin_picked matches 1 run function ssbrc:logic/fighters/select with storage ssbrc:data fighters.dark_samus
-execute unless score @s skin_picked matches 1 run function ssbrc:fighters/dark_samus/menu/skins/random
+function ssbrc:fighters/dark_samus/menu/skins/random

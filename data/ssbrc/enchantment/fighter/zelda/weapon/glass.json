@@ -20,7 +20,7 @@
 			{
 				"id": "ssbrc:fighter/zelda/glass",
 				"attribute": "minecraft:generic.attack_damage",
-				"amount": 2,
+				"amount": 0.25,
 				"operation": "add_value"
 			}
 		],
@@ -31,6 +31,44 @@
 				"effect": {
 					"type": "minecraft:damage_item",
 					"amount": 1
+				}
+			}
+		],
+		"minecraft:tick": [
+			{
+				"effect": {
+					"type": "minecraft:all_of",
+					"effects": [
+						{
+							"type": "minecraft:run_function",
+							"function": "ssbrc:fighters/zelda/logic/shatter_glass_weapon"
+						},
+						{
+							"type": "minecraft:play_sound",
+							"sound": "minecraft:block.glass.break",
+							"volume": 1,
+							"pitch": 1
+						},
+						{
+							"type": "minecraft:damage_item",
+							"amount": 999
+						}
+					]
+				},
+				"requirements": {
+					"condition": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"equipment": {
+							"mainhand": {
+								"predicates": {
+									"minecraft:damage": {
+										"durability": 1
+									}
+								}
+							}
+						}
+					}
 				}
 			}
 		]

@@ -5,7 +5,13 @@ scoreboard players operation @s[tag=blood_metamorphosis] duration.1 *= 2 integer
 
 execute if entity @s[tag=blood_metamorphosis] summon minecraft:marker run function ssbrc:fighters/alucard/logic/abilities/mist/summon
 
-function ssbrc:logic/fighters/data/item/component/get {key:"item",value:"alucard_shield",component:"minecraft:damage",output:"score @s durability"}
+execute unless items entity @s container.* minecraft:shield run tag @s add shield_broken
+execute if items entity @s container.* minecraft:shield run function ssbrc:logic/item/component/get {key:"item",value:"alucard_shield",component:"minecraft:damage",output:"score @s durability"}
+
+scoreboard players set durability temp 20
+scoreboard players operation durability temp -= @s durability
+scoreboard players operation durability temp *= 100 integers
+scoreboard players operation durability temp /= 20 integers
 
 clear @s
 
@@ -18,7 +24,7 @@ effect give @s minecraft:resistance infinite 255 true
 
 function ssbrc:logic/fighters/attributes/defaults
 
-function ssbrc:logic/fighters/cooldown/set/const {type:"1",value:"300"}
+function ssbrc:logic/item/cooldown/set/const {type:"1",value:"300"}
 
 function ssbrc:logic/fighters/flags/use_recovery
 

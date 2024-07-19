@@ -1,3 +1,5 @@
+# This file is controlled by the build script. Changes should be made in the respective file.
+
 $function $(function) with storage ssbrc:data fighters.altered_beast
 $function $(function) with storage ssbrc:data fighters.alucard
 $function $(function) with storage ssbrc:data fighters.bowser
@@ -20,7 +22,6 @@ $function $(function) with storage ssbrc:data fighters.luigi
 $function $(function) with storage ssbrc:data fighters.mario
 $function $(function) with storage ssbrc:data fighters.mega_man
 $function $(function) with storage ssbrc:data fighters.ness
-$function $(function) with storage ssbrc:data fighters.peach
 $function $(function) with storage ssbrc:data fighters.pikachu
 $function $(function) with storage ssbrc:data fighters.pit
 $function $(function) with storage ssbrc:data fighters.pokemon_trainer

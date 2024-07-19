@@ -12,7 +12,7 @@
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"translate": "ssbrc.tooltips.zelda.passive_item.pegasus_anklet",
+								"translate": "ssbrc.fighter.zelda.passive_item.pegasus_anklet",
 								"color": "white",
 								"bold": true,
 								"italic": false
@@ -27,7 +27,7 @@
 							"entity": "this",
 							"lore": [
 								{
-									"translate": "ssbrc.tooltips.zelda.passive_item.pegasus_anklet.description.1",
+									"translate": "ssbrc.fighter.zelda.passive_item.pegasus_anklet.description.1",
 									"color": "gray",
 									"bold": false,
 									"italic": false

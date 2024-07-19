@@ -1,6 +1,6 @@
 scoreboard players set @s duration.3 40
 
-function ssbrc:logic/fighters/cooldown/set
+function ssbrc:logic/item/durability/reset/slot {slot_string:"weapon.mainhand"}
 
 playsound ssbrc:fighters.joker.amrita_shower.activate player @a
 

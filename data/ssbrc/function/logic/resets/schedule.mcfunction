@@ -1,32 +1,34 @@
 schedule clear ssbrc:logic/music/decide
 schedule clear ssbrc:logic/music/loop_schedule
-schedule clear ssbrc:logic/music/mass_destruction_dual_mix
 schedule clear ssbrc:logic/timer
 
-# Maps
-schedule clear ssbrc:stages/acropolis_graveyard/load
-schedule clear ssbrc:stages/battlefield/load
-schedule clear ssbrc:stages/bowsers_castle/load
-schedule clear ssbrc:stages/castle_siege/load
-schedule clear ssbrc:stages/draculas_castle/load
-schedule clear ssbrc:stages/dream_land/load
-schedule clear ssbrc:stages/final_destination/load
-schedule clear ssbrc:stages/flat_zone/load
-schedule clear ssbrc:stages/garden_of_hope/load
-schedule clear ssbrc:stages/great_bay/load
-schedule clear ssbrc:stages/great_plateau/load
-schedule clear ssbrc:stages/green_hill_zone/load
-schedule clear ssbrc:stages/icicle_mountain/load
-schedule clear ssbrc:stages/jungle_japes/load
-schedule clear ssbrc:stages/magicant/load
-schedule clear ssbrc:stages/mementos/load
-schedule clear ssbrc:stages/miiverse/load
-schedule clear ssbrc:stages/mushroom_kingdom/load
-schedule clear ssbrc:stages/saturn_valley/load
-schedule clear ssbrc:stages/sector_z/load
-schedule clear ssbrc:stages/shadow_moses_island/load
-schedule clear ssbrc:stages/spear_pillar/load
-schedule clear ssbrc:stages/wily_castle/load
+# Stages
+schedule clear ssbrc:stages/acropolis_graveyard/prepare
+schedule clear ssbrc:stages/battlefield/prepare
+schedule clear ssbrc:stages/bowsers_castle/prepare
+schedule clear ssbrc:stages/castle_siege/prepare
+schedule clear ssbrc:stages/draculas_castle/prepare
+schedule clear ssbrc:stages/dream_land/prepare
+schedule clear ssbrc:stages/final_destination/prepare
+schedule clear ssbrc:stages/flat_zone/prepare
+schedule clear ssbrc:stages/garden_of_hope/prepare
+schedule clear ssbrc:stages/great_bay/prepare
+schedule clear ssbrc:stages/great_plateau/prepare
+schedule clear ssbrc:stages/green_hill_zone/prepare
+schedule clear ssbrc:stages/icicle_mountain/prepare
+schedule clear ssbrc:stages/jungle_japes/prepare
+schedule clear ssbrc:stages/magicant/prepare
+schedule clear ssbrc:stages/mementos/prepare
+schedule clear ssbrc:stages/miiverse/prepare
+schedule clear ssbrc:stages/mushroom_kingdom/prepare
+schedule clear ssbrc:stages/saturn_valley/prepare
+schedule clear ssbrc:stages/sector_z/prepare
+schedule clear ssbrc:stages/shadow_moses_island/prepare
+schedule clear ssbrc:stages/spear_pillar/prepare
+schedule clear ssbrc:stages/wily_castle/prepare
+
+# Bowsers Castle
+schedule clear ssbrc:stages/bowsers_castle/logic/armor_stands/toad/nodding/tick
 
 # Flat Zone
 schedule clear ssbrc:stages/flat_zone/logic/gas_station_guy/1/left

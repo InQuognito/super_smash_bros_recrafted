@@ -12,7 +12,7 @@
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"translate": "ssbrc.tooltips.shovel_knight.throwing_anchor",
+								"translate": "ssbrc.fighter.shovel_knight.throwing_anchor",
 								"color": "dark_gray",
 								"bold": true,
 								"italic": false
@@ -47,7 +47,7 @@
 											"italic": false
 										},
 										{
-											"translate": "ssbrc.tooltips.shovel_knight.throwing_anchor.description.1",
+											"translate": "ssbrc.fighter.shovel_knight.throwing_anchor.description.1",
 											"color": "gray",
 											"bold": false,
 											"italic": false
@@ -55,7 +55,7 @@
 									]
 								},
 								{
-									"translate": "ssbrc.tooltips.ability.description.shockwave",
+									"translate": "ssbrc.ability.description.shockwave",
 									"color": "gray",
 									"bold": false,
 									"italic": false

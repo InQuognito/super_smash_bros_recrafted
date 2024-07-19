@@ -1,7 +1,6 @@
 scoreboard players reset * stage
 scoreboard players set wily_castle stage 1
 scoreboard players set song_count stage 2
-scoreboard players set stage_picked stage_vote 1
 forceload add 4912 5008 5055 5119
 
 # Mural

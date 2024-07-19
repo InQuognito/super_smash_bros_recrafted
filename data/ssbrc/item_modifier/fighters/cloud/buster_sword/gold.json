@@ -3,7 +3,7 @@
 		"function": "minecraft:set_name",
 		"entity": "this",
 		"name": {
-			"translate": "ssbrc.tooltips.cloud.buster_sword",
+			"translate": "ssbrc.fighter.cloud.buster_sword",
 			"color": "gold",
 			"bold": true,
 			"italic": false

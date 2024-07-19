@@ -1,3 +1,1 @@
-damage @s[predicate=ssbrc:flag/buffed] 1.0 ssbrc:generic
-
-advancement revoke @s only ssbrc:utility/flag/hurt_player/custom/weredragon
+execute if predicate ssbrc:flag/buffed run function ssbrc:logic/damage/unsourced {amount:"1.0",type:"generic",kb_resist:"1.0"}

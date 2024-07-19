@@ -12,7 +12,7 @@
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"translate": "ssbrc.tooltips.shovel_knight.flare_wand",
+								"translate": "ssbrc.fighter.shovel_knight.flare_wand",
 								"color": "red",
 								"bold": true,
 								"italic": false
@@ -47,7 +47,7 @@
 											"italic": false
 										},
 										{
-											"translate": "ssbrc.tooltips.shovel_knight.flare_wand.description.1",
+											"translate": "ssbrc.fighter.shovel_knight.flare_wand.description.1",
 											"color": "gray",
 											"bold": false,
 											"italic": false
@@ -55,7 +55,7 @@
 									]
 								},
 								{
-									"translate": "ssbrc.tooltips.effects.burning",
+									"translate": "ssbrc.tooltip.effect.burning",
 									"color": "gray",
 									"bold": false,
 									"italic": false

@@ -20,7 +20,7 @@
 						"italic": false
 					},
 					{
-						"translate": "ssbrc.tooltips.cloud.blade_beam.description.1",
+						"translate": "ssbrc.fighter.cloud.blade_beam.description.1",
 						"color": "gray",
 						"bold": false,
 						"italic": false
@@ -28,13 +28,13 @@
 				]
 			},
 			{
-				"translate": "ssbrc.tooltips.cloud.limit_break",
+				"translate": "ssbrc.fighter.cloud.limit_break",
 				"color": "gray",
 				"bold": false,
 				"italic": false,
 				"extra": [
 					{
-						"translate": "ssbrc.tooltips.cloud.blade_beam.description.2",
+						"translate": "ssbrc.fighter.cloud.blade_beam.description.2",
 						"color": "gray",
 						"bold": false,
 						"italic": false
@@ -53,7 +53,7 @@
 		"entity": "this",
 		"lore": [
 			{
-				"translate": "ssbrc.fighters.cloud.operator",
+				"translate": "ssbrc.fighter.cloud.operator",
 				"color": "green",
 				"bold": true,
 				"italic": false,
@@ -65,7 +65,7 @@
 						"italic": false
 					},
 					{
-						"translate": "ssbrc.fighters.cloud.punisher",
+						"translate": "ssbrc.fighter.cloud.punisher",
 						"color": "blue",
 						"bold": false,
 						"italic": false

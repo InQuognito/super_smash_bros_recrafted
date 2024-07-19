@@ -1,4 +1,4 @@
-execute positioned ~-0.5 ~ ~-0.5 as @e[tag=!self,predicate=ssbrc:flag/targets,dx=0] run damage @s 6.0 ssbrc:pierce by @a[tag=self,limit=1]
+execute positioned ~-0.5 ~ ~-0.5 as @e[tag=!self,predicate=ssbrc:flag/targets,dx=0] run function ssbrc:logic/damage/player {amount:"6.0",type:"pierce",kb_resist:"0.0"}
 
 scoreboard players remove ray_length temp 1
 execute if score ray_length temp matches 0 positioned ^ ^ ^0.1 run function ssbrc:logic/fighters/checks/raycast/update

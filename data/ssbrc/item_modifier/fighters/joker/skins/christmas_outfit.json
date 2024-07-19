@@ -4,7 +4,7 @@
 		"entity": "this",
 		"target": "item_name",
 		"name": {
-			"translate": "ssbrc.fighters.joker.skin.christmas_outfit",
+			"translate": "ssbrc.skin.christmas_outfit",
 			"color": "red",
 			"bold": true
 		}

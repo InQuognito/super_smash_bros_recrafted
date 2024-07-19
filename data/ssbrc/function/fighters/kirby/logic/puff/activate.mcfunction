@@ -8,4 +8,4 @@ execute if entity @s[scores={charge.1=4}] run function ssbrc:fighters/kirby/logi
 execute if entity @s[scores={charge.1=5}] run function ssbrc:fighters/kirby/logic/puff/5
 function player_motion:api/launch_xyz
 
-function ssbrc:logic/fighters/cooldown/set/const {type:"1",value:"10"}
+function ssbrc:logic/item/cooldown/set/const {type:"1",value:"10"}

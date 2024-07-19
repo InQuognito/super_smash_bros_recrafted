@@ -5,77 +5,77 @@
 			"condition": "minecraft:entity_properties",
 			"entity": "this",
 			"predicate": {
-				"nbt": "{Tags:[\"flat_zone\"]}"
+				"nbt": "{CustomName:'\"flat_zone\"'}"
 			}
 		},
 		{
 			"condition": "minecraft:entity_properties",
 			"entity": "this",
 			"predicate": {
-				"nbt": "{Tags:[\"icicle_mountain\"]}"
+				"nbt": "{CustomName:'\"icicle_mountain\"'}"
 			}
 		},
 		{
 			"condition": "minecraft:entity_properties",
 			"entity": "this",
 			"predicate": {
-				"nbt": "{Tags:[\"magicant\"]}"
+				"nbt": "{CustomName:'\"magicant\"'}"
 			}
 		},
 		{
 			"condition": "minecraft:entity_properties",
 			"entity": "this",
 			"predicate": {
-				"nbt": "{Tags:[\"mementos\"]}"
+				"nbt": "{CustomName:'\"mementos\"'}"
 			}
 		},
 		{
 			"condition": "minecraft:entity_properties",
 			"entity": "this",
 			"predicate": {
-				"nbt": "{Tags:[\"miiverse\"]}"
+				"nbt": "{CustomName:'\"miiverse\"'}"
 			}
 		},
 		{
 			"condition": "minecraft:entity_properties",
 			"entity": "this",
 			"predicate": {
-				"nbt": "{Tags:[\"pallet_town\"]}"
+				"nbt": "{CustomName:'\"pallet_town\"'}"
 			}
 		},
 		{
 			"condition": "minecraft:entity_properties",
 			"entity": "this",
 			"predicate": {
-				"nbt": "{Tags:[\"palutenas_temple\"]}"
+				"nbt": "{CustomName:'\"palutenas_temple\"'}"
 			}
 		},
 		{
 			"condition": "minecraft:entity_properties",
 			"entity": "this",
 			"predicate": {
-				"nbt": "{Tags:[\"planet_zebes\"]}"
+				"nbt": "{CustomName:'\"planet_zebes\"'}"
 			}
 		},
 		{
 			"condition": "minecraft:entity_properties",
 			"entity": "this",
 			"predicate": {
-				"nbt": "{Tags:[\"pyrosphere\"]}"
+				"nbt": "{CustomName:'\"pyrosphere\"'}"
 			}
 		},
 		{
 			"condition": "minecraft:entity_properties",
 			"entity": "this",
 			"predicate": {
-				"nbt": "{Tags:[\"spear_pillar\"]}"
+				"nbt": "{CustomName:'\"spear_pillar\"'}"
 			}
 		},
 		{
 			"condition": "minecraft:entity_properties",
 			"entity": "this",
 			"predicate": {
-				"nbt": "{Tags:[\"tower_of_fate\"]}"
+				"nbt": "{CustomName:'\"tower_of_fate\"'}"
 			}
 		}
 	]

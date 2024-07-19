@@ -7,6 +7,6 @@ execute unless score blackout temp matches 1 run effect give @s[tag=!snake] mine
 
 function ssbrc:logic/player_data/copy/check
 
-execute if data storage ssbrc:temp player.data{fighter:"zelda"} run function ssbrc:fighters/zelda/logic/passive_items/apply
+execute if data storage ssbrc:temp player.temp_data{fighter:"zelda"} run function ssbrc:fighters/zelda/logic/passive_items/apply
 
 effect give @s minecraft:instant_health 1 50 true

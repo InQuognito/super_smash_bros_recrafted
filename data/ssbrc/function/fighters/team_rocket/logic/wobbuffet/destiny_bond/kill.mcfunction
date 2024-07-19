@@ -1,4 +1,4 @@
-damage @s 999.9 minecraft:generic_kill by @p[tag=wobbuffet,scores={duration.3=1..}]
+damage @s 999.9 ssbrc:generic by @p[tag=wobbuffet,scores={duration.3=1..}]
 
 playsound ssbrc:fighters.team_rocket.wobbuffet.destiny_bond.kill player @a
 

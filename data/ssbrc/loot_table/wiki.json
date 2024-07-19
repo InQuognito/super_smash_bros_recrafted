@@ -13,7 +13,7 @@
 							"entity": "this",
 							"target": "item_name",
 							"name": {
-								"translate": "ssbrc.fighters.menu.wiki",
+								"translate": "ssbrc.fighter.menu.wiki",
 								"color": "yellow",
 								"bold": true
 							}
@@ -39,7 +39,7 @@
 											"italic": false
 										},
 										{
-											"translate": "ssbrc.fighters.menu.skin_options.description",
+											"translate": "ssbrc.fighter.menu.skin_options.description",
 											"color": "gray",
 											"bold": false,
 											"italic": false

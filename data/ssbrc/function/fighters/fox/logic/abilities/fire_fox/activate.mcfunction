@@ -2,6 +2,7 @@ execute summon minecraft:marker run function ssbrc:fighters/fox/logic/abilities/
 
 effect give @s minecraft:levitation infinite 0 true
 
+scoreboard players set @s cooldown.3 15
 scoreboard players set @s duration.3 15
 
 scoreboard players set @s charge.3 0

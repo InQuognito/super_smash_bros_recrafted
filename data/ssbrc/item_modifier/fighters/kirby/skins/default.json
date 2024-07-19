@@ -4,7 +4,7 @@
 		"entity": "this",
 		"target": "item_name",
 		"name": {
-			"translate": "ssbrc.fighters.kirby",
+			"translate": "ssbrc.fighter.kirby",
 			"color": "light_purple",
 			"bold": true
 		}

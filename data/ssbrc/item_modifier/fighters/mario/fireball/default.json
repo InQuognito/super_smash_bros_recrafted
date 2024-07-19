@@ -3,7 +3,7 @@
 		"function": "minecraft:set_name",
 		"entity": "this",
 		"name": {
-			"translate": "ssbrc.tooltips.mario.fireball",
+			"translate": "ssbrc.fighter.mario.fireball",
 			"color": "red",
 			"bold": true,
 			"italic": false

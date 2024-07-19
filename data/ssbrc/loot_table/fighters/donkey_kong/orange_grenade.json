@@ -12,7 +12,7 @@
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"translate": "ssbrc.tooltips.donkey_kong.orange_grenade",
+								"translate": "ssbrc.fighter.donkey_kong.orange_grenade",
 								"color": "gold",
 								"bold": true,
 								"italic": false
@@ -47,7 +47,7 @@
 											"italic": false
 										},
 										{
-											"translate": "ssbrc.tooltips.donkey_kong.orange_grenade.description.1",
+											"translate": "ssbrc.fighter.donkey_kong.orange_grenade.description.1",
 											"color": "gray",
 											"bold": false,
 											"italic": false
@@ -55,13 +55,13 @@
 									]
 								},
 								{
-									"translate": "ssbrc.tooltips.ability.description.bounce",
+									"translate": "ssbrc.ability.description.bounce",
 									"color": "gray",
 									"bold": false,
 									"italic": false
 								},
 								{
-									"translate": "ssbrc.tooltips.donkey_kong.orange_grenade.description.2",
+									"translate": "ssbrc.fighter.donkey_kong.orange_grenade.description.2",
 									"color": "gray",
 									"bold": false,
 									"italic": false

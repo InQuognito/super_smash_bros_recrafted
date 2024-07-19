@@ -13,7 +13,7 @@
 							"entity": "this",
 							"target": "item_name",
 							"name": {
-								"translate": "ssbrc.stages.shadow_moses_island",
+								"translate": "ssbrc.stage.shadow_moses_island",
 								"color": "white",
 								"bold": true
 							}

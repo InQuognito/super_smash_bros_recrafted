@@ -4,7 +4,7 @@
 		"entity": "this",
 		"target": "item_name",
 		"name": {
-			"translate": "ssbrc.fighters.wolf.skin.assault",
+			"translate": "ssbrc.skin.assault",
 			"color": "green",
 			"bold": true
 		}

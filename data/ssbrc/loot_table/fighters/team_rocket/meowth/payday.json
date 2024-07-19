@@ -12,7 +12,7 @@
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"translate": "ssbrc.tooltips.team_rocket.meowth.payday",
+								"translate": "ssbrc.fighter.team_rocket.meowth.payday",
 								"color": "yellow",
 								"bold": true,
 								"italic": false
@@ -47,7 +47,7 @@
 											"italic": false
 										},
 										{
-											"translate": "ssbrc.tooltips.team_rocket.meowth.payday.description.1",
+											"translate": "ssbrc.fighter.team_rocket.meowth.payday.description.1",
 											"color": "gray",
 											"bold": false,
 											"italic": false

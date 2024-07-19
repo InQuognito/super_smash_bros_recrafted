@@ -5,7 +5,7 @@ effect give @s minecraft:resistance 3 0 true
 
 scoreboard players set @s shadow.meter.villain 0
 
-function ssbrc:logic/modify_item {old:"chaos_spear",new:"fighters/shadow/chaos_spear/disabled"}
+function ssbrc:logic/modify_item {old:"chaos_spear",new:"ssbrc:fighters/shadow/chaos_spear/disabled"}
 
 item replace entity @s weapon.mainhand with minecraft:air
 

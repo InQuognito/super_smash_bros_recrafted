@@ -28,7 +28,7 @@
 						"italic": false
 					},
 					{
-						"translate": "ssbrc.tooltips.steve.pickaxe.description.1",
+						"translate": "ssbrc.fighter.steve.pickaxe.description.1",
 						"color": "gray",
 						"bold": false,
 						"italic": false
@@ -36,7 +36,7 @@
 				]
 			},
 			{
-				"translate": "ssbrc.tooltips.steve.pickaxe.description.2",
+				"translate": "ssbrc.fighter.steve.pickaxe.description.2",
 				"color": "gray",
 				"bold": false,
 				"italic": false

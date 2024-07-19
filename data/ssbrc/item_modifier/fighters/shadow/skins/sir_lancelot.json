@@ -4,8 +4,8 @@
 		"entity": "this",
 		"target": "item_name",
 		"name": {
-			"translate": "ssbrc.fighters.shadow.skin.sir_lancelot",
-			"color": "yellow",
+			"translate": "ssbrc.skin.sir_lancelot",
+			"color": "red",
 			"bold": true
 		}
 	},

@@ -1,7 +1,7 @@
 tag @s add holy_water.display
 
-execute unless data storage ssbrc:temp player.data{skin:"gold"} run tag @s add default
-execute if data storage ssbrc:temp player.data{skin:"gold"} run tag @s add gold
+execute unless data storage ssbrc:temp player.temp_data{skin:"gold"} run tag @s add default
+execute if data storage ssbrc:temp player.temp_data{skin:"gold"} run tag @s add gold
 
 loot replace entity @s armor.head loot ssbrc:fighters/alucard/holy_water
 

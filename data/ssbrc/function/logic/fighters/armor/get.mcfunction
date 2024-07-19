@@ -1,11 +1,11 @@
 item replace entity @s armor.head with minecraft:barrier[minecraft:hide_tooltip={}]
-item replace entity @s armor.chest with minecraft:iron_chestplate[minecraft:item_name='{"translate":"ssbrc.tooltips.ability.passives","color":"blue","bold":true}',minecraft:unbreakable={show_in_tooltip:false}]
-item replace entity @s armor.legs with minecraft:iron_leggings[minecraft:item_name='{"translate":"ssbrc.tooltips.ability.utilities","color":"green","bold":true}',minecraft:unbreakable={show_in_tooltip:false}]
+item replace entity @s armor.chest with minecraft:iron_chestplate[minecraft:item_name='{"translate":"ssbrc.ability.passives","color":"blue","bold":true}',minecraft:unbreakable={show_in_tooltip:false}]
+item replace entity @s armor.legs with minecraft:iron_leggings[minecraft:item_name='{"translate":"ssbrc.ability.utilities","color":"green","bold":true}',minecraft:unbreakable={show_in_tooltip:false}]
 item replace entity @s armor.feet with minecraft:iron_boots[minecraft:hide_tooltip={},minecraft:unbreakable={}]
 
 function ssbrc:logic/player_data/copy/check
 
-execute if data storage ssbrc:temp player.data{fighter:"zelda"} if items entity @s container.* minecraft:nether_star[minecraft:custom_data~{item:"ring_of_blasting"}] run item modify entity @s armor.chest ssbrc:fighters/enchantments/blast_protection_infinity
+execute if data storage ssbrc:temp player.temp_data{fighter:"zelda"} if items entity @s container.* minecraft:nether_star[minecraft:custom_data~{item:"ring_of_blasting"}] run item modify entity @s armor.chest ssbrc:fighters/enchantments/blast_protection_infinity
 item modify entity @s[predicate=ssbrc:fighters/enchantments/protection] armor.chest ssbrc:fighters/enchantments/protection
 item modify entity @s[predicate=ssbrc:fighters/enchantments/projectile_protection] armor.chest ssbrc:fighters/enchantments/projectile_protection
 item modify entity @s[predicate=ssbrc:fighters/enchantments/fire_protection] armor.chest ssbrc:fighters/enchantments/fire_protection

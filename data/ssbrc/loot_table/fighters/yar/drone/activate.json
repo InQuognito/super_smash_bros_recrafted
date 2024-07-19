@@ -12,7 +12,7 @@
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"translate": "ssbrc.tooltips.yar.drone",
+								"translate": "ssbrc.fighter.yar.drone",
 								"color": "gold",
 								"bold": true,
 								"italic": false,
@@ -24,7 +24,7 @@
 										"italic": false
 									},
 									{
-										"translate": "ssbrc.tooltips.yar.drone.activate",
+										"translate": "ssbrc.fighter.yar.drone.activate",
 										"color": "white",
 										"bold": false,
 										"italic": false
@@ -59,7 +59,7 @@
 											"italic": false
 										},
 										{
-											"translate": "ssbrc.tooltips.yar.drone.activate.description.1",
+											"translate": "ssbrc.fighter.yar.drone.activate.description.1",
 											"color": "gray",
 											"bold": false,
 											"italic": false
@@ -91,7 +91,7 @@
 											"italic": false
 										},
 										{
-											"translate": "ssbrc.tooltips.yar.drone.activate.description.2",
+											"translate": "ssbrc.fighter.yar.drone.activate.description.2",
 											"color": "gray",
 											"bold": false,
 											"italic": false

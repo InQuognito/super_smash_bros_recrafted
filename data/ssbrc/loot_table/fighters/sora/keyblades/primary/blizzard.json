@@ -12,7 +12,7 @@
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"translate": "ssbrc.tooltips.sora.kingdom_key",
+								"translate": "ssbrc.fighter.sora.kingdom_key",
 								"color": "white",
 								"bold": true,
 								"italic": false,
@@ -24,7 +24,7 @@
 										"italic": false
 									},
 									{
-										"translate": "ssbrc.tooltips.sora.keyblade.blizzaga",
+										"translate": "ssbrc.fighter.sora.keyblade.blizzaga",
 										"color": "aqua",
 										"bold": false,
 										"italic": false
@@ -61,7 +61,7 @@
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"translate": "ssbrc.tooltips.sora.kingdom_key",
+								"translate": "ssbrc.fighter.sora.kingdom_key",
 								"color": "white",
 								"bold": true,
 								"italic": false,
@@ -73,7 +73,7 @@
 										"italic": false
 									},
 									{
-										"translate": "ssbrc.tooltips.sora.keyblade.blizzaza",
+										"translate": "ssbrc.fighter.sora.keyblade.blizzaza",
 										"color": "aqua",
 										"bold": false,
 										"italic": false
@@ -100,7 +100,7 @@
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"translate": "ssbrc.tooltips.sora.kingdom_key",
+								"translate": "ssbrc.fighter.sora.kingdom_key",
 								"color": "gold",
 								"bold": true,
 								"italic": false,
@@ -112,7 +112,7 @@
 										"italic": false
 									},
 									{
-										"translate": "ssbrc.tooltips.sora.keyblade.blizzaga",
+										"translate": "ssbrc.fighter.sora.keyblade.blizzaga",
 										"color": "aqua",
 										"bold": false,
 										"italic": false
@@ -149,7 +149,7 @@
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"translate": "ssbrc.tooltips.sora.kingdom_key",
+								"translate": "ssbrc.fighter.sora.kingdom_key",
 								"color": "gold",
 								"bold": true,
 								"italic": false,
@@ -161,7 +161,7 @@
 										"italic": false
 									},
 									{
-										"translate": "ssbrc.tooltips.sora.keyblade.blizzaza",
+										"translate": "ssbrc.fighter.sora.keyblade.blizzaza",
 										"color": "aqua",
 										"bold": false,
 										"italic": false
@@ -188,7 +188,7 @@
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"translate": "ssbrc.tooltips.sora.monochrome",
+								"translate": "ssbrc.fighter.sora.monochrome",
 								"color": "gray",
 								"bold": true,
 								"italic": false,
@@ -200,7 +200,7 @@
 										"italic": false
 									},
 									{
-										"translate": "ssbrc.tooltips.sora.keyblade.blizzaga",
+										"translate": "ssbrc.fighter.sora.keyblade.blizzaga",
 										"color": "aqua",
 										"bold": false,
 										"italic": false
@@ -237,7 +237,7 @@
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"translate": "ssbrc.tooltips.sora.monochrome",
+								"translate": "ssbrc.fighter.sora.monochrome",
 								"color": "gray",
 								"bold": true,
 								"italic": false,
@@ -249,7 +249,7 @@
 										"italic": false
 									},
 									{
-										"translate": "ssbrc.tooltips.sora.keyblade.blizzaza",
+										"translate": "ssbrc.fighter.sora.keyblade.blizzaza",
 										"color": "aqua",
 										"bold": false,
 										"italic": false

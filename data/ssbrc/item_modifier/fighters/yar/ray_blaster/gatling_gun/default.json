@@ -3,7 +3,7 @@
 		"function": "minecraft:set_name",
 		"entity": "this",
 		"name": {
-			"translate": "ssbrc.tooltips.yar.gatling_gun",
+			"translate": "ssbrc.fighter.yar.gatling_gun",
 			"color": "white",
 			"bold": true,
 			"italic": false

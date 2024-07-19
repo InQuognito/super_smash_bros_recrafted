@@ -24,7 +24,7 @@
 						"italic": false
 					},
 					{
-						"translate": "ssbrc.tooltips.dark_samus.phazon_beam.description.1",
+						"translate": "ssbrc.fighter.dark_samus.phazon_beam.description.1",
 						"color": "gray",
 						"bold": false,
 						"italic": false
@@ -56,7 +56,7 @@
 						"italic": false
 					},
 					{
-						"translate": "ssbrc.tooltips.dark_samus.phazon_beam.description.2",
+						"translate": "ssbrc.fighter.dark_samus.phazon_beam.description.2",
 						"color": "gray",
 						"bold": false,
 						"italic": false
@@ -64,7 +64,7 @@
 				]
 			},
 			{
-				"translate": "ssbrc.tooltips.effects.poison",
+				"translate": "ssbrc.tooltip.effect.poison",
 				"color": "gray",
 				"bold": false,
 				"italic": false

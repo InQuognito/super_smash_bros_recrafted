@@ -85,13 +85,12 @@ scoreboard players set mario.super_jump.falloff vars 200
 
 scoreboard players set mega_man.mega_buster.limit vars 3
 scoreboard players set mega_man.air_shooter vars 3
-scoreboard players set mega_man.beat_call vars 3
+scoreboard players set mega_man.beat_call vars 20
 scoreboard players set mega_man.drill_bomb vars 3
 scoreboard players set mega_man.flame_sword vars 10
 scoreboard players set mega_man.hyper_bomb vars 3
 scoreboard players set mega_man.hyper_bomb.timer vars 40
 scoreboard players set mega_man.junk_shield vars 3
-scoreboard players set mega_man.magma_bazooka vars 3
 scoreboard players set mega_man.metal_blade vars 3
 scoreboard players set mega_man.pile_driver vars 3
 scoreboard players set mega_man.remote_mine vars 3
@@ -134,7 +133,9 @@ scoreboard players set shovel_knight.propeller_dagger.cooldown vars 60
 scoreboard players set shovel_knight.propeller_dagger.cost vars 2
 scoreboard players set shovel_knight.war_horn.cost vars 7
 
-scoreboard players set sora.drive.threshold.basic vars 400
+scoreboard players set sora.drive.threshold.bar vars 150
+scoreboard players set sora.drive.threshold.basic vars 3
+scoreboard players set sora.drive.threshold.master vars 5
 scoreboard players set sora.mp.max vars 10
 scoreboard players set sora.firaga.cost vars 1
 scoreboard players set sora.firaza.cost vars 3

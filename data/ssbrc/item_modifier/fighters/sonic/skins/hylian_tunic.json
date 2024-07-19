@@ -4,7 +4,7 @@
 		"entity": "this",
 		"target": "item_name",
 		"name": {
-			"translate": "ssbrc.fighters.sonic.skin.hylian_tunic",
+			"translate": "ssbrc.skin.hylian_tunic",
 			"color": "green",
 			"bold": true
 		}

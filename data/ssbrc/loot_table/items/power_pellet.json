@@ -12,7 +12,7 @@
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"translate": "ssbrc.tooltips.item.power_pellet",
+								"translate": "ssbrc.item.power_pellet",
 								"color": "white",
 								"bold": true,
 								"italic": false
@@ -27,7 +27,7 @@
 							"entity": "this",
 							"lore": [
 								{
-									"translate": "ssbrc.tooltips.item.power_pellet.description.1",
+									"translate": "ssbrc.item.power_pellet.description.1",
 									"color": "gray",
 									"bold": false,
 									"italic": false

@@ -1,5 +1,5 @@
-execute if entity @s[tag=squirtle,tag=!next_fighter_chosen] run function ssbrc:fighters/pokemon_trainer/kits/charizard
+execute if data storage ssbrc:temp player.temp_data{form:"squirtle"} run return run function ssbrc:fighters/pokemon_trainer/kits/charizard
 
-execute if entity @s[tag=charizard,tag=!next_fighter_chosen] run function ssbrc:fighters/pokemon_trainer/kits/ivysaur
+execute if data storage ssbrc:temp player.temp_data{form:"charizard"} run return run function ssbrc:fighters/pokemon_trainer/kits/ivysaur
 
-execute if entity @s[tag=ivysaur,tag=!next_fighter_chosen] run function ssbrc:fighters/pokemon_trainer/kits/squirtle
+execute if data storage ssbrc:temp player.temp_data{form:"ivysaur"} run return run function ssbrc:fighters/pokemon_trainer/kits/squirtle

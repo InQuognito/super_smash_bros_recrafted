@@ -6,37 +6,13 @@
 			"conditions": {
 				"player": [
 					{
-						"condition": "minecraft:value_check",
-						"value": {
-							"type": "minecraft:score",
-							"target": {
-								"type": "minecraft:fixed",
-								"name": "game_stage"
-							},
-							"score": "temp"
-						},
-						"range": 4
-					},
-					{
 						"condition": "minecraft:entity_properties",
 						"entity": "this",
 						"predicate": {
 							"nbt": "{Tags:[\"altered_beast\",\"weredragon\"]}"
 						}
 					}
-				],
-				"damage": {
-					"type": {
-						"is_explosion": false,
-						"is_fire": false,
-						"is_magic": false,
-						"is_projectile": false,
-						"is_lightning": false,
-						"bypasses_armor": false,
-						"bypasses_invulnerability": false,
-						"bypasses_magic": false
-					}
-				}
+				]
 			}
 		}
 	},

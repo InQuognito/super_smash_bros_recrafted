@@ -1,7 +1,6 @@
 scoreboard players reset * stage
 scoreboard players set palutenas_temple stage 1
 scoreboard players set song_count stage 2
-scoreboard players set stage_picked stage_vote 1
 forceload add 50015 24944 49952 24991
 
 execute if score hazards options matches 0 run function ssbrc:stages/palutenas_temple/load/hazards_off

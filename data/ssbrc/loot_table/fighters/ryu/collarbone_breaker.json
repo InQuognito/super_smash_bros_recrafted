@@ -57,7 +57,7 @@
 											"italic": false
 										},
 										{
-											"translate": "ssbrc.tooltips.ryu.collarbone_breaker.description.1",
+											"translate": "ssbrc.fighter.ryu.collarbone_breaker.description.1",
 											"color": "gray",
 											"bold": false,
 											"italic": false
@@ -65,7 +65,7 @@
 									]
 								},
 								{
-									"translate": "ssbrc.tooltips.ryu.collarbone_breaker.description.2",
+									"translate": "ssbrc.fighter.ryu.collarbone_breaker.description.2",
 									"color": "gray",
 									"bold": false,
 									"italic": false

@@ -9,16 +9,6 @@
 					"name": "minecraft:nether_star",
 					"functions": [
 						{
-							"function": "minecraft:set_name",
-							"entity": "this",
-							"name": {
-								"translate": "ssbrc.tooltips.mega_man.hyper_bomb",
-								"color": "gray",
-								"bold": true,
-								"italic": false
-							}
-						},
-						{
 							"function": "minecraft:reference",
 							"name": "ssbrc:fighters/init/preset/ranged"
 						},
@@ -43,7 +33,7 @@
 											"italic": false
 										},
 										{
-											"translate": "ssbrc.tooltips.mega_man.hyper_bomb.description.1",
+											"translate": "ssbrc.fighter.mega_man.hyper_bomb.description.1",
 											"color": "gray",
 											"bold": false,
 											"italic": false
@@ -63,7 +53,7 @@
 											"italic": false
 										},
 										{
-											"translate": "ssbrc.tooltips.mega_man.hyper_bomb.description.2",
+											"translate": "ssbrc.fighter.mega_man.hyper_bomb.description.2",
 											"color": "gray",
 											"bold": false,
 											"italic": false
@@ -72,10 +62,6 @@
 								}
 							],
 							"mode": "append"
-						},
-						{
-							"function": "minecraft:reference",
-							"name": "ssbrc:fighters/mega_man/hyper_bomb/default"
 						},
 						{
 							"function": "minecraft:set_components",

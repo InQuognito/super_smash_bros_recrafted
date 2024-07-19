@@ -4,11 +4,11 @@ tag @s add punisher
 item modify entity @s weapon.mainhand ssbrc:fighters/cloud/buster_sword
 
 function ssbrc:logic/fighters/attributes/defaults
-function ssbrc:logic/fighters/effects/jump_boost
+function ssbrc:logic/fighters/attributes/defaults/jump_strength
 
-tellraw @s [{"translate":"ssbrc.fighters.cloud.mode_switch","bold":true,"color":"yellow"},{"translate":"ssbrc.fighters.cloud.punisher","bold":false,"color":"blue"}]
+tellraw @s [{"translate":"ssbrc.fighter.cloud.mode_switch","bold":true,"color":"yellow"},{"translate":"ssbrc.fighter.cloud.punisher","bold":false,"color":"blue"}]
 
-function ssbrc:logic/fighters/cooldown/set/const {type:"1",value:"20"}
+function ssbrc:logic/item/cooldown/set/const {type:"1",value:"20"}
 
 scoreboard players set mode_switched temp 1
 

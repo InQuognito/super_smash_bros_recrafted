@@ -54,10 +54,7 @@
 				"item": {
 					"items": "#ssbrc:equipment",
 					"predicates": {
-						"minecraft:custom_data": "{spell:\"fire\"}",
-						"minecraft:damage": {
-							"damage": 0
-						}
+						"minecraft:custom_data": "{spell:\"fire\"}"
 					}
 				}
 			}

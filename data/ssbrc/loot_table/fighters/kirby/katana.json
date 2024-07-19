@@ -48,7 +48,7 @@
 							"entity": "this",
 							"lore": [
 								{
-									"translate": "ssbrc.tooltips.kirby.katana.description.1",
+									"translate": "ssbrc.fighter.kirby.katana.description.1",
 									"color": "gray",
 									"bold": false,
 									"italic": false

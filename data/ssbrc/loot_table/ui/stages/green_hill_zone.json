@@ -13,7 +13,7 @@
 							"entity": "this",
 							"target": "item_name",
 							"name": {
-								"translate": "ssbrc.stages.green_hill_zone",
+								"translate": "ssbrc.stage.green_hill_zone",
 								"color": "green",
 								"bold": true
 							}

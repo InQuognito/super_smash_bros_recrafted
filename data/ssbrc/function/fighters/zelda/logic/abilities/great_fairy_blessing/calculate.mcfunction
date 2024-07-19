@@ -6,4 +6,4 @@ scoreboard players operation great_fairy_blessing.cost temp = zelda.great_fairy_
 scoreboard players operation great_fairy_blessing.cost temp += great_fairy_blessing.count temp
 execute if score great_fairy_blessing.cost temp matches 26.. run scoreboard players set great_fairy_blessing.cost temp 25
 
-function ssbrc:logic/modify_item {old:"great_fairy_blessing",new:"fighters/zelda/great_fairy_blessing"}
+function ssbrc:logic/modify_item {old:"great_fairy_blessing",new:"ssbrc:fighters/zelda/great_fairy_blessing"}

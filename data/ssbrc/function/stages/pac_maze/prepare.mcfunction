@@ -5,5 +5,3 @@ function ssbrc:stages/pac_maze/logic/ghosts/states/animation_schedule
 
 execute as @a[predicate=ssbrc:ingame] run function ssbrc:logic/pre_game/prepare_players
 function ssbrc:logic/pre_game/prepare_match
-
-tag @a[predicate=ssbrc:flag/player] add pac_maze

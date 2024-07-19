@@ -22,5 +22,3 @@ summon minecraft:marker -1071.5 12.0 17.5 {Tags:["spawnpoint.item"]}
 
 execute as @a[predicate=ssbrc:ingame] run function ssbrc:logic/pre_game/prepare_players
 function ssbrc:logic/pre_game/prepare_match
-
-tag @a[predicate=ssbrc:flag/player] add draculas_castle

@@ -3,7 +3,7 @@
 		"function": "minecraft:set_name",
 		"entity": "this",
 		"name": {
-			"translate": "ssbrc.fighters.snake.psg1",
+			"translate": "ssbrc.fighter.snake.psg1",
 			"color": "gold",
 			"bold": true,
 			"italic": false

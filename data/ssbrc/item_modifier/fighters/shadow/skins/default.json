@@ -4,7 +4,7 @@
 		"entity": "this",
 		"target": "item_name",
 		"name": {
-			"translate": "ssbrc.fighters.shadow",
+			"translate": "ssbrc.fighter.shadow",
 			"color": "dark_red",
 			"bold": true
 		}

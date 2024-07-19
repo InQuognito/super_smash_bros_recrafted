@@ -12,7 +12,7 @@
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"translate": "ssbrc.tooltips.zelda.passive_item.small_shield",
+								"translate": "ssbrc.fighter.zelda.passive_item.small_shield",
 								"color": "gray",
 								"bold": true,
 								"italic": false
@@ -23,10 +23,6 @@
 							"name": "ssbrc:fighters/init/preset/defensive"
 						},
 						{
-							"function": "minecraft:set_custom_model_data",
-							"value": 1780
-						},
-						{
 							"function": "minecraft:set_components",
 							"components": {
 								"minecraft:max_damage": 10,
@@ -35,7 +31,7 @@
 						},
 						{
 							"function": "minecraft:set_custom_data",
-							"tag": "{item:\"small_shield\"}"
+							"tag": "{item:\"small_shield\",group:\"passive_item\"}"
 						}
 					]
 				}

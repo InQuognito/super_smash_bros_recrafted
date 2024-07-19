@@ -1,1 +1,1 @@
-function ssbrc:fighters/alucard/logic/abilities/mist/off
+function ssbrc:fighters/alucard/kit

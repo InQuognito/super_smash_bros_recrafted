@@ -1,8 +1,10 @@
+# This file is controlled by the build script. Changes should be made in the respective file.
+
 advancement grant @s only ssbrc:fighters/fox/skins/adventures
 
 scoreboard players operation @s stats.credits -= price.skin.common vars
 
-tellraw @s [{"translate":"ssbrc.shop.purchase.skin","color":"white"},{"translate":"ssbrc.fighters.fox.skin.adventures","color":"yellow"}]
+tellraw @s [{"translate":"ssbrc.shop.purchase.skin","color":"white"},{"translate":"ssbrc.skin.adventures","color":"yellow"}]
 
 playsound minecraft:entity.player.levelup master @s
 

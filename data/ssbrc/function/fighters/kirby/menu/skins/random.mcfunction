@@ -1,10 +1,9 @@
-scoreboard players set @s fighter_picked 1
+# This file is controlled by the build script. Changes should be made in the respective file.
 
 execute store result score random.output temp run random value 1..3
 
-execute unless score @s[advancements={ssbrc:fighters/kirby/skins/default=true}] skin_picked matches 1 if score random.output temp matches 1 run function ssbrc:fighters/kirby/menu/skins/default
-execute unless score @s[advancements={ssbrc:fighters/kirby/skins/gold=true}] skin_picked matches 1 if score random.output temp matches 2 run function ssbrc:fighters/kirby/menu/skins/gold
-execute unless score @s[advancements={ssbrc:fighters/kirby/skins/keeby=true}] skin_picked matches 1 if score random.output temp matches 3 run function ssbrc:fighters/kirby/menu/skins/keeby
+execute if score random.output temp matches 1 if entity @s[advancements={ssbrc:fighters/kirby/skins/default=true}] run return run function ssbrc:logic/fighters/select_skin {fighter:"kirby",skin:"default",color:"light_purple"}
+execute if score random.output temp matches 2 if entity @s[advancements={ssbrc:fighters/kirby/skins/gold=true}] run return run function ssbrc:logic/fighters/select_skin {fighter:"kirby",skin:"gold",color:"gold"}
+execute if score random.output temp matches 3 if entity @s[advancements={ssbrc:fighters/kirby/skins/keeby=true}] run return run function ssbrc:logic/fighters/select_skin {fighter:"kirby",skin:"keeby",color:"yellow"}
 
-execute if score @s skin_picked matches 1 run function ssbrc:logic/fighters/select with storage ssbrc:data fighters.kirby
-execute unless score @s skin_picked matches 1 run function ssbrc:fighters/kirby/menu/skins/random
+function ssbrc:fighters/kirby/menu/skins/random

@@ -1,3 +1,3 @@
-damage @s 8.0 ssbrc:generic by @a[tag=self,limit=1]
+function ssbrc:logic/damage/player {amount:"8.0",type:"generic",kb_resist:"0.0"}
 
 execute as @a[tag=self,limit=1] at @s run playsound minecraft:entity.arrow.hit_player player @s

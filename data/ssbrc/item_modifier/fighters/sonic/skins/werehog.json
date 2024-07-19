@@ -4,7 +4,7 @@
 		"entity": "this",
 		"target": "item_name",
 		"name": {
-			"translate": "ssbrc.fighters.sonic.skin.werehog",
+			"translate": "ssbrc.skin.werehog",
 			"color": "dark_blue",
 			"bold": true
 		}

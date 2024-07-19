@@ -8,11 +8,10 @@ execute if score game_stage temp matches 3 run function ssbrc:logic/tick/countdo
 execute if score game_stage temp matches 4 run function ssbrc:logic/tick/ingame
 execute if score game_stage temp matches 5 run function ssbrc:logic/tick/post_game
 
-execute if score stage_select timer matches 1.. run scoreboard players add stage_select timer 1
-execute if score stage_select timer matches 7 run function ssbrc:logic/pre_game/stage_select/prepare
-execute if score stage_select timer matches 7.. run scoreboard players reset stage_select timer
-
 execute as @a[gamemode=adventure] run function ssbrc:logic/tick/players
+
+#execute as @e[type=minecraft:zombie,tag=training_dummy] at @s run function ssbrc:logic/training_dummy/tick
+execute as @e[type=minecraft:text_display,tag=training_dummy.damage_number] at @s run function ssbrc:logic/training_dummy/damage_number/tick
 
 # Reset Players
 execute as @a unless score @s world_time = current world_time run function ssbrc:logic/join

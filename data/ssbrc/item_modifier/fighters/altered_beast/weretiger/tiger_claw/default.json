@@ -3,7 +3,7 @@
 		"function": "minecraft:set_name",
 		"entity": "this",
 		"name": {
-			"translate": "ssbrc.tooltips.altered_beast.weretiger.tiger_claw",
+			"translate": "ssbrc.fighter.altered_beast.weretiger.tiger_claw",
 			"color": "gold",
 			"bold": true,
 			"italic": false

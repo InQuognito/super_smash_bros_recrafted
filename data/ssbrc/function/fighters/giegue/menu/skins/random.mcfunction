@@ -1,9 +1,8 @@
-scoreboard players set @s fighter_picked 1
+# This file is controlled by the build script. Changes should be made in the respective file.
 
 execute store result score random.output temp run random value 1..2
 
-execute unless score @s[advancements={ssbrc:fighters/giegue/skins/default=true}] skin_picked matches 1 if score random.output temp matches 1 run function ssbrc:fighters/giegue/menu/skins/default
-execute unless score @s[advancements={ssbrc:fighters/giegue/skins/gold=true}] skin_picked matches 1 if score random.output temp matches 2 run function ssbrc:fighters/giegue/menu/skins/gold
+execute if score random.output temp matches 1 if entity @s[advancements={ssbrc:fighters/giegue/skins/default=true}] run return run function ssbrc:logic/fighters/select_skin {fighter:"giegue",skin:"default",color:"light_purple"}
+execute if score random.output temp matches 2 if entity @s[advancements={ssbrc:fighters/giegue/skins/gold=true}] run return run function ssbrc:logic/fighters/select_skin {fighter:"giegue",skin:"gold",color:"gold"}
 
-execute if score @s skin_picked matches 1 run function ssbrc:logic/fighters/select with storage ssbrc:data fighters.giegue
-execute unless score @s skin_picked matches 1 run function ssbrc:fighters/giegue/menu/skins/random
+function ssbrc:fighters/giegue/menu/skins/random

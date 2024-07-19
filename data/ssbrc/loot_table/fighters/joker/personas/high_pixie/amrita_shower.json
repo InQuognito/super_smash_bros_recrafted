@@ -12,7 +12,7 @@
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"translate": "ssbrc.tooltips.joker.amrita_shower",
+								"translate": "ssbrc.fighter.joker.amrita_shower",
 								"color": "green",
 								"bold": true,
 								"italic": false

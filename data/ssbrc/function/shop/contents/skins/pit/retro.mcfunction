@@ -1,8 +1,10 @@
+# This file is controlled by the build script. Changes should be made in the respective file.
+
 advancement grant @s only ssbrc:fighters/pit/skins/retro
 
 scoreboard players operation @s stats.credits -= price.skin.common vars
 
-tellraw @s [{"translate":"ssbrc.shop.purchase.skin","color":"white"},{"translate":"ssbrc.fighters.pit.skin.retro","color":"white"}]
+tellraw @s [{"translate":"ssbrc.shop.purchase.skin","color":"white"},{"translate":"ssbrc.skin.retro","color":"white"}]
 
 playsound minecraft:entity.player.levelup master @s
 

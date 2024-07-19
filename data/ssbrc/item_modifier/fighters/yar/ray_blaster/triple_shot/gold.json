@@ -3,7 +3,7 @@
 		"function": "minecraft:set_name",
 		"entity": "this",
 		"name": {
-			"translate": "ssbrc.tooltips.yar.triple_shot",
+			"translate": "ssbrc.fighter.yar.triple_shot",
 			"color": "gold",
 			"bold": true,
 			"italic": false

@@ -13,7 +13,7 @@
 							"entity": "this",
 							"target": "item_name",
 							"name": {
-								"translate": "ssbrc.stages.pallet_town",
+								"translate": "ssbrc.stage.pallet_town",
 								"color": "red",
 								"bold": true
 							}

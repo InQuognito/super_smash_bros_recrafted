@@ -3,7 +3,7 @@
 		"function": "minecraft:set_name",
 		"entity": "this",
 		"name": {
-			"translate": "ssbrc.tooltips.kirby.hammer",
+			"translate": "ssbrc.fighter.kirby.hammer",
 			"color": "light_purple",
 			"bold": true,
 			"italic": false

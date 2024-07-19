@@ -57,7 +57,7 @@
 											"italic": false
 										},
 										{
-											"translate": "ssbrc.tooltips.fox.krazoan_staff.description.1",
+											"translate": "ssbrc.fighter.fox.krazoan_staff.description.1",
 											"color": "gray",
 											"bold": false,
 											"italic": false
@@ -65,7 +65,7 @@
 									]
 								},
 								{
-									"translate": "ssbrc.tooltips.effects.burning",
+									"translate": "ssbrc.tooltip.effect.burning",
 									"color": "gray",
 									"bold": false,
 									"italic": false

@@ -1,6 +1,6 @@
 tag @s remove rest
 
-function ssbrc:logic/modify_item {old:"rest",new:"fighters/jigglypuff/rest/default"}
+function ssbrc:logic/modify_item {old:"rest",new:"ssbrc:fighters/jigglypuff/rest/default"}
 
 scoreboard players set @s charge.1 0
 scoreboard players set @s charge.2 0

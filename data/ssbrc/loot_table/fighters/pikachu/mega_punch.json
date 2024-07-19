@@ -12,7 +12,7 @@
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"translate": "ssbrc.tooltips.pokemon.mega_punch",
+								"translate": "ssbrc.fighter.pokemon.mega_punch",
 								"color": "white",
 								"bold": true,
 								"italic": false

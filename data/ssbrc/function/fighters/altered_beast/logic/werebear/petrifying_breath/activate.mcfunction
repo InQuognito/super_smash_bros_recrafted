@@ -1,6 +1,6 @@
 scoreboard players set @s duration.1 20
 
-function ssbrc:logic/fighters/cooldown/set
+function ssbrc:logic/item/durability/reset/slot {slot_string:"weapon.mainhand"}
 
 playsound ssbrc:fighters.altered_beast.werebear.petrifying_breath.activate player @a
 

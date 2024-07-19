@@ -4,7 +4,7 @@
 		"entity": "this",
 		"target": "item_name",
 		"name": {
-			"translate": "ssbrc.fighters.ganondorf.skin.wind_waker",
+			"translate": "ssbrc.skin.wind_waker",
 			"color": "aqua",
 			"bold": true
 		}

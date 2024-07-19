@@ -3,7 +3,7 @@
 		"function": "minecraft:set_name",
 		"entity": "this",
 		"name": {
-			"translate": "ssbrc.tooltips.captain_falcon.fists_of_fury",
+			"translate": "ssbrc.fighter.captain_falcon.fists_of_fury",
 			"color": "gold",
 			"bold": true,
 			"italic": false

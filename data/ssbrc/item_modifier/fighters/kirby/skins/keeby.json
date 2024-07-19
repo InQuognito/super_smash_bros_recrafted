@@ -4,8 +4,8 @@
 		"entity": "this",
 		"target": "item_name",
 		"name": {
-			"translate": "ssbrc.fighters.kirby.skin.keeby",
-			"color": "light_purple",
+			"translate": "ssbrc.skin.keeby",
+			"color": "yellow",
 			"bold": true
 		}
 	},

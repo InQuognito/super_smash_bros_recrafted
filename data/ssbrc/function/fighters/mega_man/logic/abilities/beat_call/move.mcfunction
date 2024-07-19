@@ -1,15 +1,7 @@
-execute if score percentage temp matches 0..10 run teleport @s ^ ^ ^0.03
-execute if score percentage temp matches 11..20 run teleport @s ^ ^ ^0.06
-execute if score percentage temp matches 21..30 run teleport @s ^ ^ ^0.09
-execute if score percentage temp matches 31..40 run teleport @s ^ ^ ^0.12
-execute if score percentage temp matches 41..50 run teleport @s ^ ^ ^0.15
-execute if score percentage temp matches 51..60 run teleport @s ^ ^ ^0.18
-execute if score percentage temp matches 61..70 run teleport @s ^ ^ ^0.21
-execute if score percentage temp matches 71..80 run teleport @s ^ ^ ^0.24
-execute if score percentage temp matches 81..90 run teleport @s ^ ^ ^0.27
-execute if score percentage temp matches 91..100 run teleport @s ^ ^ ^0.30
+execute if block ^ ^ ^1 #ssbrc:passthrough rotated as @s[tag=forward,scores={temp=1..}] run return run function ssbrc:fighters/mega_man/logic/abilities/beat_call/move/forward
 
-scoreboard players remove @s[tag=!recall] temp 1
-scoreboard players add @s[tag=recall,scores={temp=..60}] temp 1
+execute if block ^ ^ ^1 #ssbrc:passthrough if entity @s[tag=recall] facing entity @a[tag=self,limit=1] eyes run return run function ssbrc:fighters/mega_man/logic/abilities/beat_call/move/recall
 
-execute if score @s temp matches 0 run function ssbrc:fighters/mega_man/logic/abilities/beat_call/commands/stop/drone_force
+$execute if entity @s[tag=attack] at @n[tag=beat_call.target] rotated $(rotation) 0.0 positioned ^ ^2 ^1 facing entity @n[tag=beat_call.target] eyes run return run teleport @s ~ ~ ~ ~ ~
+
+$execute at @a[tag=self,limit=1] rotated $(rotation) 0.0 positioned ^ ^2 ^1 rotated as @a[tag=self,limit=1] run teleport @s ~ ~ ~ ~ ~

@@ -1,5 +1,5 @@
 # Hyper Voice
-function ssbrc:logic/fighters/cooldown/display/check {item:"hyper_voice"}
+function ssbrc:logic/item/cooldown/display/check {item:"hyper_voice"}
 
 # Rest
 execute if entity @s[tag=rest] run function ssbrc:fighters/jigglypuff/logic/abilities/rest/tick

@@ -3,7 +3,7 @@
 		"function": "minecraft:set_name",
 		"entity": "this",
 		"name": {
-			"translate": "ssbrc.tooltips.donkey_kong.barrel",
+			"translate": "ssbrc.fighter.donkey_kong.barrel",
 			"color": "gold",
 			"bold": true,
 			"italic": false

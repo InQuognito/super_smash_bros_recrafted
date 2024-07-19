@@ -4,7 +4,7 @@
 		"entity": "this",
 		"target": "item_name",
 		"name": {
-			"translate": "ssbrc.fighters.rob.skin.ancient_minister",
+			"translate": "ssbrc.skin.ancient_minister",
 			"color": "dark_green",
 			"bold": true
 		}

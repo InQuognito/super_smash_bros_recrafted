@@ -37,7 +37,7 @@
 											"italic": false
 										},
 										{
-											"translate": "ssbrc.tooltips.snake.anti_personnel_mine.description.1",
+											"translate": "ssbrc.fighter.snake.anti_personnel_mine.description.1",
 											"color": "gray",
 											"bold": false,
 											"italic": false
@@ -45,7 +45,7 @@
 									]
 								},
 								{
-									"translate": "ssbrc.tooltips.snake.anti_personnel_mine.description.2",
+									"translate": "ssbrc.fighter.snake.anti_personnel_mine.description.2",
 									"color": "gray",
 									"bold": false,
 									"italic": false

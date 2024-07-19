@@ -3,7 +3,7 @@
 		"function": "minecraft:set_name",
 		"entity": "this",
 		"name": {
-			"translate": "ssbrc.tooltips.alucard.alucard_shield",
+			"translate": "ssbrc.fighter.alucard.alucard_shield",
 			"color": "white",
 			"bold": true,
 			"italic": false

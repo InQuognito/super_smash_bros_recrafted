@@ -16,7 +16,7 @@
 						"italic": false
 					},
 					{
-						"translate": "ssbrc.tooltips.joker.hama.description.1",
+						"translate": "ssbrc.fighter.joker.hama.description.1",
 						"color": "gray",
 						"bold": false,
 						"italic": false
@@ -24,7 +24,7 @@
 				]
 			},
 			{
-				"translate": "ssbrc.tooltips.joker.hama.description.2",
+				"translate": "ssbrc.fighter.joker.hama.description.2",
 				"color": "gray",
 				"bold": false,
 				"italic": false

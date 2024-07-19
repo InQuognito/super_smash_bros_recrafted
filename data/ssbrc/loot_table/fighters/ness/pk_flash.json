@@ -12,13 +12,13 @@
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"translate": "ssbrc.tooltips.ness.pk_flash",
+								"translate": "ssbrc.fighter.ness.pk_flash",
 								"color": "green",
 								"bold": true,
 								"italic": false,
 								"extra": [
 									{
-										"translate": "ssbrc.tooltips.earthbound.beta",
+										"translate": "ssbrc.fighter.earthbound.beta",
 										"color": "green",
 										"bold": false,
 										"italic": false
@@ -55,7 +55,7 @@
 											"italic": false
 										},
 										{
-											"translate": "ssbrc.tooltips.ness.pk_flash.description.1",
+											"translate": "ssbrc.fighter.ness.pk_flash.description.1",
 											"color": "gray",
 											"bold": false,
 											"italic": false
@@ -75,7 +75,7 @@
 											"italic": false
 										},
 										{
-											"translate": "ssbrc.tooltips.ness.pk_flash.description.2",
+											"translate": "ssbrc.fighter.ness.pk_flash.description.2",
 											"color": "gray",
 											"bold": false,
 											"italic": false
@@ -83,7 +83,7 @@
 									]
 								},
 								{
-									"translate": "ssbrc.tooltips.ness.pk_flash.description.3",
+									"translate": "ssbrc.fighter.ness.pk_flash.description.3",
 									"color": "gray",
 									"bold": false,
 									"italic": false
@@ -101,7 +101,7 @@
 											"italic": false
 										},
 										{
-											"translate": "ssbrc.tooltips.ness.pk_flash.description.4",
+											"translate": "ssbrc.fighter.ness.pk_flash.description.4",
 											"color": "gray",
 											"bold": false,
 											"italic": false

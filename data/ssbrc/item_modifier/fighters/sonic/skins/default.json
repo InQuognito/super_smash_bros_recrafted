@@ -4,7 +4,7 @@
 		"entity": "this",
 		"target": "item_name",
 		"name": {
-			"translate": "ssbrc.fighters.sonic",
+			"translate": "ssbrc.fighter.sonic",
 			"color": "blue",
 			"bold": true
 		}

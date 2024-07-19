@@ -12,7 +12,7 @@
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"translate": "ssbrc.tooltips.shovel_knight.war_horn",
+								"translate": "ssbrc.fighter.shovel_knight.war_horn",
 								"color": "blue",
 								"bold": true,
 								"italic": false
@@ -43,7 +43,7 @@
 											"italic": false
 										},
 										{
-											"translate": "ssbrc.tooltips.shovel_knight.war_horn.description.1",
+											"translate": "ssbrc.fighter.shovel_knight.war_horn.description.1",
 											"color": "gray",
 											"bold": false,
 											"italic": false

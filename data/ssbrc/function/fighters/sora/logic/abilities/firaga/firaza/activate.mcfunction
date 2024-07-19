@@ -2,8 +2,7 @@ scoreboard players set @s charge.3 1
 
 scoreboard players operation @s mana -= sora.firaza.cost vars
 
-item modify entity @s weapon.mainhand {function:"minecraft:set_components",components:{"minecraft:max_damage":60}}
-function ssbrc:logic/fighters/cooldown/set
+scoreboard players set @s cooldown 60
 
 playsound ssbrc:fighters.sora.firaza.activate player @a
 

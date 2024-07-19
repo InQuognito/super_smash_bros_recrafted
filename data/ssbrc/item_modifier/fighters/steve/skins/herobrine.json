@@ -4,7 +4,7 @@
 		"entity": "this",
 		"target": "item_name",
 		"name": {
-			"translate": "ssbrc.fighters.steve.skin.herobrine",
+			"translate": "ssbrc.skin.herobrine",
 			"color": "white",
 			"bold": true
 		}

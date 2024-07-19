@@ -1,8 +1,8 @@
 tag @s add steed_charge
 tag @s add no_kill
 
-execute unless data storage ssbrc:temp player.data{skin:"gold"} run item replace entity @s horse.chest with minecraft:iron_horse_armor[minecraft:unbreakable={}]
-execute if data storage ssbrc:temp player.data{skin:"gold"} run item replace entity @s horse.chest with minecraft:golden_horse_armor[minecraft:unbreakable={}]
+execute unless data storage ssbrc:temp player.temp_data{skin:"gold"} run item replace entity @s horse.chest with minecraft:iron_horse_armor[minecraft:unbreakable={}]
+execute if data storage ssbrc:temp player.temp_data{skin:"gold"} run item replace entity @s horse.chest with minecraft:golden_horse_armor[minecraft:unbreakable={}]
 
 item replace entity @s horse.saddle with minecraft:saddle
 

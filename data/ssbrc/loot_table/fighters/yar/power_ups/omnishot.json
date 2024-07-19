@@ -12,7 +12,7 @@
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"translate": "ssbrc.tooltips.yar.omnishot",
+								"translate": "ssbrc.fighter.yar.omnishot",
 								"color": "gold",
 								"bold": true,
 								"italic": false
@@ -35,7 +35,7 @@
 							"entity": "this",
 							"lore": [
 								{
-									"translate": "ssbrc.tooltips.yar.omnishot.description.1",
+									"translate": "ssbrc.fighter.yar.omnishot.description.1",
 									"color": "gray",
 									"bold": false,
 									"italic": false

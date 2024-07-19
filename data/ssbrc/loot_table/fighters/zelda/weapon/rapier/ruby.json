@@ -13,7 +13,7 @@
 							"entity": "this",
 							"target": "item_name",
 							"name": {
-								"translate": "ssbrc.tooltips.zelda.weapon.rapier.ruby",
+								"translate": "ssbrc.fighter.zelda.weapon.rapier.ruby",
 								"color": "red",
 								"bold": true
 							}

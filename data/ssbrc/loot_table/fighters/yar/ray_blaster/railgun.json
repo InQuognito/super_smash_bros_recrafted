@@ -12,7 +12,7 @@
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"translate": "ssbrc.tooltips.yar.railgun",
+								"translate": "ssbrc.fighter.yar.railgun",
 								"color": "white",
 								"bold": true,
 								"italic": false
@@ -34,7 +34,7 @@
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"translate": "ssbrc.tooltips.yar.railgun",
+								"translate": "ssbrc.fighter.yar.railgun",
 								"color": "gold",
 								"bold": true,
 								"italic": false
@@ -74,7 +74,7 @@
 											"italic": false
 										},
 										{
-											"translate": "ssbrc.tooltips.yar.railgun.description.1",
+											"translate": "ssbrc.fighter.yar.railgun.description.1",
 											"color": "gray",
 											"bold": false,
 											"italic": false
@@ -82,7 +82,7 @@
 									]
 								},
 								{
-									"translate": "ssbrc.tooltips.yar.railgun.description.2",
+									"translate": "ssbrc.fighter.yar.railgun.description.2",
 									"color": "gray",
 									"bold": false,
 									"italic": false

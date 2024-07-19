@@ -4,7 +4,7 @@
 		"entity": "this",
 		"lore": [
 			{
-				"translate": "ssbrc.tooltips.zelda.weapon.enchant.glass.description.1",
+				"translate": "ssbrc.fighter.zelda.weapon.enchant.glass.description.1",
 				"color": "gray",
 				"bold": false,
 				"italic": false
@@ -21,7 +21,7 @@
 				},
 				"show_in_tooltip": false
 			},
-			"minecraft:max_damage": 6
+			"minecraft:max_damage": 16
 		}
 	},
 	{

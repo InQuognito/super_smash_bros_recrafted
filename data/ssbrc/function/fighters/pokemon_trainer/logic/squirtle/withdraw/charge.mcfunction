@@ -1,6 +1,6 @@
 scoreboard players add @s charge.2 1
 
-execute if score @s charge.2 matches 5 run function ssbrc:fighters/pokemon_trainer/logic/squirtle/withdraw/particles/start
+execute if score @s charge.2 matches 5 run function ssbrc:fighters/pokemon_trainer/logic/squirtle/withdraw/start
 execute if score @s charge.2 matches 20 run function ssbrc:fighters/pokemon_trainer/logic/squirtle/withdraw/particles/start
 execute if score @s charge.2 matches 30 run function ssbrc:fighters/pokemon_trainer/logic/squirtle/withdraw/particles/start
 execute if score @s charge.2 matches 40 run function ssbrc:fighters/pokemon_trainer/logic/squirtle/withdraw/particles/start

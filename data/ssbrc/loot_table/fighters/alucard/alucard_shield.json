@@ -13,35 +13,6 @@
 							"name": "ssbrc:fighters/init/preset/defensive"
 						},
 						{
-							"function": "minecraft:reference",
-							"name": "ssbrc:fighters/alucard/alucard_shield/default",
-							"conditions": [
-								{
-									"condition": "minecraft:inverted",
-									"term": {
-										"condition": "minecraft:entity_properties",
-										"entity": "this",
-										"predicate": {
-											"nbt": "{Tags:[\"gold\"]}"
-										}
-									}
-								}
-							]
-						},
-						{
-							"function": "minecraft:reference",
-							"name": "ssbrc:fighters/alucard/alucard_shield/gold",
-							"conditions": [
-								{
-									"condition": "minecraft:entity_properties",
-									"entity": "this",
-									"predicate": {
-										"nbt": "{Tags:[\"gold\"]}"
-									}
-								}
-							]
-						},
-						{
 							"function": "minecraft:set_components",
 							"components": {
 								"minecraft:max_damage": 20,
@@ -52,8 +23,12 @@
 							"function": "minecraft:set_damage",
 							"damage": {
 								"type": "minecraft:score",
-								"target": "this",
-								"score": "durability"
+								"target": {
+									"type": "minecraft:fixed",
+									"name": "durability"
+								},
+								"score": "temp",
+								"scale": 0.01
 							},
 							"add": false
 						},

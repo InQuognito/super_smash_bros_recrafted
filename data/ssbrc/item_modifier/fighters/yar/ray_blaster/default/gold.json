@@ -3,7 +3,7 @@
 		"function": "minecraft:set_name",
 		"entity": "this",
 		"name": {
-			"translate": "ssbrc.tooltips.yar.ray_blaster",
+			"translate": "ssbrc.fighter.yar.ray_blaster",
 			"color": "gold",
 			"bold": true,
 			"italic": false

@@ -11,6 +11,7 @@ attribute @s minecraft:generic.attack_damage modifier add ssbrc:fighters/ryu/sat
 
 scoreboard players set @s duration.1 400
 
+function ssbrc:logic/player_data/set {mode:"store",key:"form",value:"evil"}
 function ssbrc:fighters/ryu/logic/abilities/satsui_no_hado_rage/update
 
 playsound ssbrc:fighters.ryu.satsui_no_hado_rage.activate player @a

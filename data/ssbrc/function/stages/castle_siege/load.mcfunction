@@ -1,7 +1,6 @@
 scoreboard players reset * stage
 scoreboard players set castle_siege stage 1
 scoreboard players set song_count stage 2
-scoreboard players set stage_picked stage_vote 1
 forceload add 1616 417 1663 495
 
 # Armor Stands

@@ -1,1 +1,1 @@
-$data modify storage ssbrc:data player.data[$(index)].$(key) set value "$(value)"
+$data modify storage ssbrc:data player.temp_data[$(index)].$(key) set value "$(value)"

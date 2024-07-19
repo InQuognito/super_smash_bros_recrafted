@@ -3,7 +3,7 @@
 		"function": "minecraft:set_name",
 		"entity": "this",
 		"name": {
-			"translate": "ssbrc.tooltips.king_k_rool.blunderbuss",
+			"translate": "ssbrc.fighter.king_k_rool.blunderbuss",
 			"color": "dark_gray",
 			"bold": true,
 			"italic": false

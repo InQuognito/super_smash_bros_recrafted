@@ -14,45 +14,6 @@
 	},
 	{
 		"function": "minecraft:set_custom_model_data",
-		"value": 153,
-		"conditions": [
-			{
-				"condition": "minecraft:entity_properties",
-				"entity": "this",
-				"predicate": {
-					"nbt": "{Tags:[\"toad\",\"default\"]}"
-				}
-			}
-		]
-	},
-	{
-		"function": "minecraft:set_custom_model_data",
-		"value": 155,
-		"conditions": [
-			{
-				"condition": "minecraft:entity_properties",
-				"entity": "this",
-				"predicate": {
-					"nbt": "{Tags:[\"toad\",\"blue\"]}"
-				}
-			}
-		]
-	},
-	{
-		"function": "minecraft:set_custom_model_data",
-		"value": 157,
-		"conditions": [
-			{
-				"condition": "minecraft:entity_properties",
-				"entity": "this",
-				"predicate": {
-					"nbt": "{Tags:[\"toad\",\"yellow\"]}"
-				}
-			}
-		]
-	},
-	{
-		"function": "minecraft:set_custom_model_data",
 		"value": 201,
 		"conditions": [
 			{

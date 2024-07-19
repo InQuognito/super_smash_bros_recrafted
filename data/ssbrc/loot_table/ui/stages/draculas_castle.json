@@ -13,7 +13,7 @@
 							"entity": "this",
 							"target": "item_name",
 							"name": {
-								"translate": "ssbrc.stages.draculas_castle",
+								"translate": "ssbrc.stage.draculas_castle",
 								"color": "red",
 								"bold": true
 							}

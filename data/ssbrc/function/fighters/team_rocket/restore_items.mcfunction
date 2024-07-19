@@ -1,5 +1,5 @@
-execute if entity @s[tag=wobbuffet,tag=!next_fighter_chosen] run function ssbrc:fighters/team_rocket/kits/arbok
+execute if data storage ssbrc:temp player.temp_data{form:"wobbuffet"} run return run function ssbrc:fighters/team_rocket/kits/arbok
 
-execute if entity @s[tag=meowth,tag=!next_fighter_chosen] run function ssbrc:fighters/team_rocket/kits/wobbuffet
+execute if data storage ssbrc:temp player.temp_data{form:"meowth"} run return run function ssbrc:fighters/team_rocket/kits/wobbuffet
 
-execute if entity @s[tag=arbok,tag=!next_fighter_chosen] run function ssbrc:fighters/team_rocket/kits/meowth
+execute if data storage ssbrc:temp player.temp_data{form:"arbok"} run return run function ssbrc:fighters/team_rocket/kits/meowth

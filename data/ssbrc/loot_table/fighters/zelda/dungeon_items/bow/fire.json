@@ -24,7 +24,7 @@
 										"italic": false
 									},
 									{
-										"translate": "ssbrc.tooltips.the_legend_of_zelda.fire_arrow",
+										"translate": "ssbrc.fighter.the_legend_of_zelda.fire_arrow",
 										"color": "red",
 										"bold": false,
 										"italic": false
@@ -41,7 +41,7 @@
 							"entity": "this",
 							"lore": [
 								{
-									"translate": "ssbrc.tooltips.effects.burning",
+									"translate": "ssbrc.tooltip.effect.burning",
 									"color": "gray",
 									"bold": false,
 									"italic": false

@@ -3,7 +3,7 @@
 		"function": "minecraft:set_name",
 		"entity": "this",
 		"name": {
-			"translate": "ssbrc.tooltips.kirby.tornado",
+			"translate": "ssbrc.fighter.kirby.tornado",
 			"color": "light_purple",
 			"bold": true,
 			"italic": false

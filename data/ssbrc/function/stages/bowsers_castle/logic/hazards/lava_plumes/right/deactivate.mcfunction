@@ -1,3 +1,3 @@
 scoreboard players reset #bowsers_castleHazard temp
-scoreboard players reset #lavaPlumes.right temp
-scoreboard players reset #lavaPlumes.right timer
+scoreboard players reset lava_plumes.right temp
+scoreboard players reset lava_plumes.right timer

@@ -58,7 +58,7 @@
 											"italic": false
 										},
 										{
-											"translate": "ssbrc.tooltips.captain_falcon.fists_of_fury.description.1",
+											"translate": "ssbrc.fighter.captain_falcon.fists_of_fury.description.1",
 											"color": "gray",
 											"bold": false,
 											"italic": false
@@ -66,67 +66,13 @@
 									]
 								},
 								{
-									"translate": "ssbrc.tooltips.captain_falcon.fists_of_fury.description.2",
+									"translate": "ssbrc.fighter.captain_falcon.fists_of_fury.description.2",
 									"color": "gray",
 									"bold": false,
 									"italic": false
 								}
 							],
 							"mode": "append"
-						},
-						{
-							"function": "minecraft:reference",
-							"name": "ssbrc:fighters/captain_falcon/fists_of_fury/default",
-							"conditions": [
-								{
-									"condition": "minecraft:inverted",
-									"term": {
-										"condition": "minecraft:any_of",
-										"terms": [
-											{
-												"condition": "minecraft:entity_properties",
-												"entity": "this",
-												"predicate": {
-													"nbt": "{Tags:[\"gold\"]}"
-												}
-											},
-											{
-												"condition": "minecraft:entity_properties",
-												"entity": "this",
-												"predicate": {
-													"nbt": "{Tags:[\"blood_falcon\"]}"
-												}
-											}
-										]
-									}
-								}
-							]
-						},
-						{
-							"function": "minecraft:reference",
-							"name": "ssbrc:fighters/captain_falcon/fists_of_fury/gold",
-							"conditions": [
-								{
-									"condition": "minecraft:entity_properties",
-									"entity": "this",
-									"predicate": {
-										"nbt": "{Tags:[\"gold\"]}"
-									}
-								}
-							]
-						},
-						{
-							"function": "minecraft:reference",
-							"name": "ssbrc:fighters/captain_falcon/fists_of_fury/blood_falcon",
-							"conditions": [
-								{
-									"condition": "minecraft:entity_properties",
-									"entity": "this",
-									"predicate": {
-										"nbt": "{Tags:[\"blood_falcon\"]}"
-									}
-								}
-							]
 						},
 						{
 							"function": "minecraft:set_custom_data",

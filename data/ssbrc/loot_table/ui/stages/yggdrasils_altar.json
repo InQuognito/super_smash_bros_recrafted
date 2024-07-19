@@ -13,7 +13,7 @@
 							"entity": "this",
 							"target": "item_name",
 							"name": {
-								"translate": "ssbrc.stages.yggdrasils_altar",
+								"translate": "ssbrc.stage.yggdrasils_altar",
 								"color": "yellow",
 								"bold": true
 							}

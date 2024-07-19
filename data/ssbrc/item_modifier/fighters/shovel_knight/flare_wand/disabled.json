@@ -3,7 +3,7 @@
 		"function": "minecraft:set_name",
 		"entity": "this",
 		"name": {
-			"translate": "ssbrc.tooltips.shovel_knight.flare_wand",
+			"translate": "ssbrc.fighter.shovel_knight.flare_wand",
 			"color": "gray",
 			"bold": true,
 			"italic": false

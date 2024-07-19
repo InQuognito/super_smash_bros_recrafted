@@ -1,7 +1,6 @@
 scoreboard players reset * stage
 scoreboard players set pac_maze stage 1
 scoreboard players set song_count stage 2
-scoreboard players set stage_picked stage_vote 1
 
 execute store result score random.output temp run random value 0..1
 

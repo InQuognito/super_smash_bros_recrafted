@@ -1,10 +1,9 @@
-scoreboard players set @s fighter_picked 1
+# This file is controlled by the build script. Changes should be made in the respective file.
 
 execute store result score random.output temp run random value 1..3
 
-execute unless score @s[advancements={ssbrc:fighters/fox/skins/default=true}] skin_picked matches 1 if score random.output temp matches 1 run function ssbrc:fighters/fox/menu/skins/default
-execute unless score @s[advancements={ssbrc:fighters/fox/skins/gold=true}] skin_picked matches 1 if score random.output temp matches 2 run function ssbrc:fighters/fox/menu/skins/gold
-execute unless score @s[advancements={ssbrc:fighters/fox/skins/adventures=true}] skin_picked matches 1 if score random.output temp matches 3 run function ssbrc:fighters/fox/menu/skins/adventures
+execute if score random.output temp matches 1 if entity @s[advancements={ssbrc:fighters/fox/skins/default=true}] run return run function ssbrc:logic/fighters/select_skin {fighter:"fox",skin:"default",color:"white"}
+execute if score random.output temp matches 2 if entity @s[advancements={ssbrc:fighters/fox/skins/gold=true}] run return run function ssbrc:logic/fighters/select_skin {fighter:"fox",skin:"gold",color:"gold"}
+execute if score random.output temp matches 3 if entity @s[advancements={ssbrc:fighters/fox/skins/adventures=true}] run return run function ssbrc:logic/fighters/select_skin {fighter:"fox",skin:"adventures",color:"yellow"}
 
-execute if score @s skin_picked matches 1 run function ssbrc:logic/fighters/select with storage ssbrc:data fighters.fox
-execute unless score @s skin_picked matches 1 run function ssbrc:fighters/fox/menu/skins/random
+function ssbrc:fighters/fox/menu/skins/random

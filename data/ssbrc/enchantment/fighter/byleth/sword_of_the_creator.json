@@ -1,0 +1,54 @@
+{
+	"description": "Sword of the Creator",
+	"supported_items": "#ssbrc:equipment",
+	"weight": 1,
+	"max_level": 1,
+	"min_cost": {
+		"base": 1,
+		"per_level_above_first": 1
+	},
+	"max_cost": {
+		"base": 1,
+		"per_level_above_first": 1
+	},
+	"anvil_cost": 0,
+	"slots": [
+		"mainhand"
+	],
+	"effects": {
+		"minecraft:post_attack": [
+			{
+				"enchanted": "attacker",
+				"affected": "attacker",
+				"effect": {
+					"type": "minecraft:all_of",
+					"effects": [
+						{
+							"type": "minecraft:run_function",
+							"function": "ssbrc:fighters/byleth/logic/sword_of_the_creator/break"
+						},
+						{
+							"type": "minecraft:damage_item",
+							"amount": 999
+						}
+					]
+				},
+				"requirements": {
+					"condition": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"equipment": {
+							"mainhand": {
+								"predicates": {
+									"minecraft:damage": {
+										"durability": 1
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		]
+	}
+}

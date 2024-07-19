@@ -1,7 +1,6 @@
 scoreboard players reset * stage
 scoreboard players set luigis_mansion stage 1
 scoreboard players set song_count stage 2
-scoreboard players set stage_picked stage_vote 1
 forceload add -352 -1168 -273 -1089
 
 # Paintings

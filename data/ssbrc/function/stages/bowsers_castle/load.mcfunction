@@ -1,7 +1,6 @@
 scoreboard players reset * stage
 scoreboard players set bowsers_castle stage 1
 scoreboard players set song_count stage 2
-scoreboard players set stage_picked stage_vote 1
 forceload add -768 800 -641 895
 
 # Rear Wall
@@ -81,10 +80,11 @@ execute positioned -721.5 23.5 823.5 summon minecraft:item_display run function 
 execute positioned -721.5 17.5 823.5 summon minecraft:item_display run function ssbrc:stages/bowsers_castle/logic/power_band
 
 # Armor Stands
-execute positioned -734.959 27.0 854.474 summon minecraft:armor_stand run function ssbrc:stages/bowsers_castle/logic/armor_stands/peach
-execute positioned -734.897 27.0 834.552 summon minecraft:armor_stand run function ssbrc:stages/bowsers_castle/logic/armor_stands/toad/default
-execute positioned -737.7 26.7 833.175 summon minecraft:armor_stand run function ssbrc:stages/bowsers_castle/logic/armor_stands/toad/blue
-execute positioned -736.46 27.0 835.889 summon minecraft:armor_stand run function ssbrc:stages/bowsers_castle/logic/armor_stands/toad/yellow
+execute positioned -734.9 27.0 854.5 summon minecraft:armor_stand run function ssbrc:stages/bowsers_castle/logic/armor_stands/peach
+execute positioned -735.0 27.2 834.5 rotated -90.0 0.0 summon minecraft:item_display run function ssbrc:stages/bowsers_castle/logic/armor_stands/toad/nodding
+schedule function ssbrc:stages/bowsers_castle/logic/armor_stands/toad/nodding/tick 10t replace
+execute positioned -737.7 27.2 833.2 rotated -45.0 0.0 summon minecraft:item_display run function ssbrc:stages/bowsers_castle/logic/armor_stands/toad/sitting
+execute positioned -736.5 27.5 836.1 rotated 0.0 0.0 summon minecraft:item_display run function ssbrc:stages/bowsers_castle/logic/armor_stands/toad/standing
 
 time set noon
 weather clear

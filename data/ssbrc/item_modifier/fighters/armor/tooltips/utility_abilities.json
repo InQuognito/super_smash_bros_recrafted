@@ -8,13 +8,13 @@
 		"entity": "this",
 		"lore": [
 			{
-				"translate": "ssbrc.tooltips.no_abilities",
+				"translate": "ssbrc.tooltip.no_abilities",
 				"color": "gray",
 				"bold": false,
 				"italic": false
 			},
 			{
-				"translate": "ssbrc.tooltips.no_utilities",
+				"translate": "ssbrc.tooltip.no_utilities",
 				"color": "gray",
 				"bold": false,
 				"italic": false
@@ -36,14 +36,14 @@
 		"entity": "this",
 		"lore": [
 			{
-				"translate": "ssbrc.tooltips.altered_beast.weredragon.wings",
+				"translate": "ssbrc.fighter.altered_beast.weredragon.wings",
 				"color": "yellow",
 				"bold": false,
 				"italic": false,
 				"underlined": true
 			},
 			{
-				"translate": "ssbrc.tooltips.hold_key",
+				"translate": "ssbrc.tooltip.hold_key",
 				"color": "gray",
 				"bold": false,
 				"italic": false,
@@ -55,7 +55,7 @@
 						"italic": false
 					},
 					{
-						"translate": "ssbrc.tooltips.altered_beast.weredragon.wings.description.1",
+						"translate": "ssbrc.fighter.altered_beast.weredragon.wings.description.1",
 						"color": "gray",
 						"bold": false,
 						"italic": false
@@ -79,14 +79,14 @@
 		"entity": "this",
 		"lore": [
 			{
-				"translate": "ssbrc.tooltips.altered_beast.weretiger.pouncing_leap",
+				"translate": "ssbrc.fighter.altered_beast.weretiger.pouncing_leap",
 				"color": "yellow",
 				"bold": false,
 				"italic": false,
 				"underlined": true
 			},
 			{
-				"translate": "ssbrc.tooltips.hold_key",
+				"translate": "ssbrc.tooltip.hold_key",
 				"color": "gray",
 				"bold": false,
 				"italic": false,
@@ -98,7 +98,7 @@
 						"italic": false
 					},
 					{
-						"translate": "ssbrc.tooltips.altered_beast.weretiger.pouncing_leap.description.1",
+						"translate": "ssbrc.fighter.altered_beast.weretiger.pouncing_leap.description.1",
 						"color": "gray",
 						"bold": false,
 						"italic": false
@@ -122,14 +122,14 @@
 		"entity": "this",
 		"lore": [
 			{
-				"translate": "ssbrc.tooltips.altered_beast.werewolf.flame_arrow",
+				"translate": "ssbrc.fighter.altered_beast.werewolf.flame_arrow",
 				"color": "yellow",
 				"bold": false,
 				"italic": false,
 				"underlined": true
 			},
 			{
-				"translate": "ssbrc.tooltips.hold_key",
+				"translate": "ssbrc.tooltip.hold_key",
 				"color": "gray",
 				"bold": false,
 				"italic": false,
@@ -141,7 +141,7 @@
 						"italic": false
 					},
 					{
-						"translate": "ssbrc.tooltips.altered_beast.werewolf.flame_arrow.description.1",
+						"translate": "ssbrc.fighter.altered_beast.werewolf.flame_arrow.description.1",
 						"color": "gray",
 						"bold": false,
 						"italic": false
@@ -165,7 +165,7 @@
 		"entity": "this",
 		"lore": [
 			{
-				"translate": "ssbrc.tooltips.alucard.mist",
+				"translate": "ssbrc.fighter.alucard.mist",
 				"color": "yellow",
 				"bold": false,
 				"italic": false,
@@ -184,7 +184,7 @@
 						"italic": false
 					},
 					{
-						"translate": "ssbrc.tooltips.alucard.mist.description.1",
+						"translate": "ssbrc.fighter.alucard.mist.description.1",
 						"color": "gray",
 						"bold": false,
 						"italic": false
@@ -192,13 +192,13 @@
 				]
 			},
 			{
-				"translate": "ssbrc.tooltips.alucard.mist.description.2",
+				"translate": "ssbrc.fighter.alucard.mist.description.2",
 				"color": "gray",
 				"bold": false,
 				"italic": false
 			},
 			{
-				"translate": "ssbrc.tooltips.alucard.mist.description.3",
+				"translate": "ssbrc.fighter.alucard.mist.description.3",
 				"color": "gray",
 				"bold": false,
 				"italic": false
@@ -220,14 +220,14 @@
 		"entity": "this",
 		"lore": [
 			{
-				"translate": "ssbrc.tooltips.bowser.fire_breath",
+				"translate": "ssbrc.fighter.bowser.fire_breath",
 				"color": "yellow",
 				"bold": false,
 				"italic": false,
 				"underlined": true
 			},
 			{
-				"translate": "ssbrc.tooltips.hold_key",
+				"translate": "ssbrc.tooltip.hold_key",
 				"color": "gray",
 				"bold": false,
 				"italic": false,
@@ -239,7 +239,7 @@
 						"italic": false
 					},
 					{
-						"translate": "ssbrc.tooltips.bowser.fire_breath.description.1",
+						"translate": "ssbrc.fighter.bowser.fire_breath.description.1",
 						"color": "gray",
 						"bold": false,
 						"italic": false
@@ -247,13 +247,13 @@
 				]
 			},
 			{
-				"translate": "ssbrc.tooltips.bowser.fire_breath.description.2",
+				"translate": "ssbrc.fighter.bowser.fire_breath.description.2",
 				"color": "gray",
 				"bold": false,
 				"italic": false
 			},
 			{
-				"translate": "ssbrc.tooltips.effects.burning",
+				"translate": "ssbrc.tooltip.effect.burning",
 				"color": "gray",
 				"bold": false,
 				"italic": false
@@ -275,7 +275,7 @@
 		"entity": "this",
 		"lore": [
 			{
-				"translate": "ssbrc.tooltips.donkey_kong.hand_slap",
+				"translate": "ssbrc.fighter.donkey_kong.hand_slap",
 				"color": "yellow",
 				"bold": false,
 				"italic": false,
@@ -294,7 +294,7 @@
 						"italic": false
 					},
 					{
-						"translate": "ssbrc.tooltips.donkey_kong.hand_slap.description.1",
+						"translate": "ssbrc.fighter.donkey_kong.hand_slap.description.1",
 						"color": "gray",
 						"bold": false,
 						"italic": false
@@ -302,7 +302,7 @@
 				]
 			},
 			{
-				"translate": "ssbrc.tooltips.donkey_kong.hand_slap.description.2",
+				"translate": "ssbrc.fighter.donkey_kong.hand_slap.description.2",
 				"color": "gray",
 				"bold": false,
 				"italic": false
@@ -324,14 +324,14 @@
 		"entity": "this",
 		"lore": [
 			{
-				"translate": "ssbrc.tooltips.fox.fire_fox",
+				"translate": "ssbrc.fighter.fox.fire_fox",
 				"color": "yellow",
 				"bold": false,
 				"italic": false,
 				"underlined": true
 			},
 			{
-				"translate": "ssbrc.tooltips.hold_key",
+				"translate": "ssbrc.tooltip.hold_key",
 				"color": "gray",
 				"bold": false,
 				"italic": false,
@@ -343,7 +343,7 @@
 						"italic": false
 					},
 					{
-						"translate": "ssbrc.tooltips.fox.fire_fox.description.1",
+						"translate": "ssbrc.fighter.fox.fire_fox.description.1",
 						"color": "gray",
 						"bold": false,
 						"italic": false
@@ -351,7 +351,7 @@
 				]
 			},
 			{
-				"translate": "ssbrc.tooltips.effects.burning",
+				"translate": "ssbrc.tooltip.effect.burning",
 				"color": "gray",
 				"bold": false,
 				"italic": false
@@ -373,7 +373,7 @@
 		"entity": "this",
 		"lore": [
 			{
-				"translate": "ssbrc.tooltips.giegue.4th_dimensional_slip",
+				"translate": "ssbrc.fighter.giegue.4th_dimensional_slip",
 				"color": "yellow",
 				"bold": false,
 				"italic": false,
@@ -392,7 +392,7 @@
 						"italic": false
 					},
 					{
-						"translate": "ssbrc.tooltips.giegue.4th_dimensional_slip.description.1",
+						"translate": "ssbrc.fighter.giegue.4th_dimensional_slip.description.1",
 						"color": "gray",
 						"bold": false,
 						"italic": false
@@ -400,7 +400,7 @@
 				]
 			},
 			{
-				"translate": "ssbrc.tooltips.giegue.4th_dimensional_slip.description.2",
+				"translate": "ssbrc.fighter.giegue.4th_dimensional_slip.description.2",
 				"color": "gray",
 				"bold": false,
 				"italic": false
@@ -422,14 +422,14 @@
 		"entity": "this",
 		"lore": [
 			{
-				"translate": "ssbrc.tooltips.greninja.shadow_sneak",
+				"translate": "ssbrc.fighter.greninja.shadow_sneak",
 				"color": "yellow",
 				"bold": false,
 				"italic": false,
 				"underlined": true
 			},
 			{
-				"translate": "ssbrc.tooltips.hold_key",
+				"translate": "ssbrc.tooltip.hold_key",
 				"color": "gray",
 				"bold": false,
 				"italic": false,
@@ -441,7 +441,7 @@
 						"italic": false
 					},
 					{
-						"translate": "ssbrc.tooltips.greninja.shadow_sneak.description.1",
+						"translate": "ssbrc.fighter.greninja.shadow_sneak.description.1",
 						"color": "gray",
 						"bold": false,
 						"italic": false
@@ -449,13 +449,13 @@
 				]
 			},
 			{
-				"translate": "ssbrc.tooltips.greninja.shadow_sneak.description.2",
+				"translate": "ssbrc.fighter.greninja.shadow_sneak.description.2",
 				"color": "gray",
 				"bold": false,
 				"italic": false
 			},
 			{
-				"translate": "ssbrc.tooltips.greninja.shadow_sneak.description.3",
+				"translate": "ssbrc.fighter.greninja.shadow_sneak.description.3",
 				"color": "gray",
 				"bold": false,
 				"italic": false
@@ -477,7 +477,7 @@
 		"entity": "this",
 		"lore": [
 			{
-				"translate": "ssbrc.tooltips.jigglypuff.hot_air",
+				"translate": "ssbrc.fighter.jigglypuff.hot_air",
 				"color": "yellow",
 				"bold": false,
 				"italic": false,
@@ -496,7 +496,7 @@
 						"italic": false
 					},
 					{
-						"translate": "ssbrc.tooltips.jigglypuff.hot_air.description.1",
+						"translate": "ssbrc.fighter.jigglypuff.hot_air.description.1",
 						"color": "gray",
 						"bold": false,
 						"italic": false
@@ -520,14 +520,14 @@
 		"entity": "this",
 		"lore": [
 			{
-				"translate": "ssbrc.tooltips.joker.rebels_guard",
+				"translate": "ssbrc.fighter.joker.rebels_guard",
 				"color": "yellow",
 				"bold": false,
 				"italic": false,
 				"underlined": true
 			},
 			{
-				"translate": "ssbrc.tooltips.hold_key",
+				"translate": "ssbrc.tooltip.hold_key",
 				"color": "gray",
 				"bold": false,
 				"italic": false,
@@ -539,7 +539,7 @@
 						"italic": false
 					},
 					{
-						"translate": "ssbrc.tooltips.joker.rebels_guard.description.1",
+						"translate": "ssbrc.fighter.joker.rebels_guard.description.1",
 						"color": "gray",
 						"bold": false,
 						"italic": false
@@ -547,13 +547,13 @@
 				]
 			},
 			{
-				"translate": "ssbrc.tooltips.joker.rebels_guard.description.2",
+				"translate": "ssbrc.fighter.joker.rebels_guard.description.2",
 				"color": "gray",
 				"bold": false,
 				"italic": false
 			},
 			{
-				"translate": "ssbrc.tooltips.joker.rebels_guard.description.3",
+				"translate": "ssbrc.fighter.joker.rebels_guard.description.3",
 				"color": "gray",
 				"bold": false,
 				"italic": false
@@ -575,7 +575,7 @@
 		"entity": "this",
 		"lore": [
 			{
-				"translate": "ssbrc.tooltips.kirby.puff_up",
+				"translate": "ssbrc.fighter.kirby.puff_up",
 				"color": "yellow",
 				"bold": false,
 				"italic": false,
@@ -594,7 +594,7 @@
 						"italic": false
 					},
 					{
-						"translate": "ssbrc.tooltips.kirby.puff_up.description.1",
+						"translate": "ssbrc.fighter.kirby.puff_up.description.1",
 						"color": "gray",
 						"bold": false,
 						"italic": false
@@ -602,13 +602,13 @@
 				]
 			},
 			{
-				"translate": "ssbrc.tooltips.kirby.puff_up.description.2",
+				"translate": "ssbrc.fighter.kirby.puff_up.description.2",
 				"color": "gray",
 				"bold": false,
 				"italic": false
 			},
 			{
-				"translate": "ssbrc.tooltips.kirby.puff_up.description.3",
+				"translate": "ssbrc.fighter.kirby.puff_up.description.3",
 				"color": "gray",
 				"bold": false,
 				"italic": false
@@ -630,14 +630,14 @@
 		"entity": "this",
 		"lore": [
 			{
-				"translate": "ssbrc.tooltips.pit.guardian_orbitars",
+				"translate": "ssbrc.fighter.pit.guardian_orbitars",
 				"color": "yellow",
 				"bold": false,
 				"italic": false,
 				"underlined": true
 			},
 			{
-				"translate": "ssbrc.tooltips.hold_key",
+				"translate": "ssbrc.tooltip.hold_key",
 				"color": "gray",
 				"bold": false,
 				"italic": false,
@@ -649,7 +649,7 @@
 						"italic": false
 					},
 					{
-						"translate": "ssbrc.tooltips.pit.guardian_orbitars.description.1",
+						"translate": "ssbrc.fighter.pit.guardian_orbitars.description.1",
 						"color": "gray",
 						"bold": false,
 						"italic": false
@@ -657,13 +657,13 @@
 				]
 			},
 			{
-				"translate": "ssbrc.tooltips.pit.guardian_orbitars.description.2",
+				"translate": "ssbrc.fighter.pit.guardian_orbitars.description.2",
 				"color": "gray",
 				"bold": false,
 				"italic": false
 			},
 			{
-				"translate": "ssbrc.tooltips.pit.guardian_orbitars.description.3",
+				"translate": "ssbrc.fighter.pit.guardian_orbitars.description.3",
 				"color": "gray",
 				"bold": false,
 				"italic": false
@@ -685,14 +685,14 @@
 		"entity": "this",
 		"lore": [
 			{
-				"translate": "ssbrc.tooltips.rob.robo_burner",
+				"translate": "ssbrc.fighter.rob.robo_burner",
 				"color": "yellow",
 				"bold": false,
 				"italic": false,
 				"underlined": true
 			},
 			{
-				"translate": "ssbrc.tooltips.hold_key",
+				"translate": "ssbrc.tooltip.hold_key",
 				"color": "gray",
 				"bold": false,
 				"italic": false,
@@ -704,7 +704,7 @@
 						"italic": false
 					},
 					{
-						"translate": "ssbrc.tooltips.rob.robo_burner.description.1",
+						"translate": "ssbrc.fighter.rob.robo_burner.description.1",
 						"color": "gray",
 						"bold": false,
 						"italic": false
@@ -712,7 +712,7 @@
 				]
 			},
 			{
-				"translate": "ssbrc.tooltips.rob.robo_burner.description.2",
+				"translate": "ssbrc.fighter.rob.robo_burner.description.2",
 				"color": "gray",
 				"bold": false,
 				"italic": false
@@ -734,14 +734,14 @@
 		"entity": "this",
 		"lore": [
 			{
-				"translate": "ssbrc.tooltips.ryu.tatsumaki_senpukyaku",
+				"translate": "ssbrc.fighter.ryu.tatsumaki_senpukyaku",
 				"color": "yellow",
 				"bold": false,
 				"italic": false,
 				"underlined": true
 			},
 			{
-				"translate": "ssbrc.tooltips.hold_key",
+				"translate": "ssbrc.tooltip.hold_key",
 				"color": "gray",
 				"bold": false,
 				"italic": false,
@@ -753,7 +753,7 @@
 						"italic": false
 					},
 					{
-						"translate": "ssbrc.tooltips.ryu.tatsumaki_senpukyaku.description.1",
+						"translate": "ssbrc.fighter.ryu.tatsumaki_senpukyaku.description.1",
 						"color": "gray",
 						"bold": false,
 						"italic": false
@@ -761,7 +761,7 @@
 				]
 			},
 			{
-				"translate": "ssbrc.tooltips.ryu.tatsumaki_senpukyaku.description.2",
+				"translate": "ssbrc.fighter.ryu.tatsumaki_senpukyaku.description.2",
 				"color": "gray",
 				"bold": false,
 				"italic": false
@@ -783,14 +783,14 @@
 		"entity": "this",
 		"lore": [
 			{
-				"translate": "ssbrc.tooltips.ryu.ashura_senku",
+				"translate": "ssbrc.fighter.ryu.ashura_senku",
 				"color": "yellow",
 				"bold": false,
 				"italic": false,
 				"underlined": true
 			},
 			{
-				"translate": "ssbrc.tooltips.hold_key",
+				"translate": "ssbrc.tooltip.hold_key",
 				"color": "gray",
 				"bold": false,
 				"italic": false,
@@ -802,7 +802,7 @@
 						"italic": false
 					},
 					{
-						"translate": "ssbrc.tooltips.ryu.ashura_senku.description.1",
+						"translate": "ssbrc.fighter.ryu.ashura_senku.description.1",
 						"color": "gray",
 						"bold": false,
 						"italic": false
@@ -826,14 +826,14 @@
 		"entity": "this",
 		"lore": [
 			{
-				"translate": "ssbrc.tooltips.super_mario_bros.super_jump",
+				"translate": "ssbrc.fighter.super_mario_bros.super_jump",
 				"color": "yellow",
 				"bold": false,
 				"italic": false,
 				"underlined": true
 			},
 			{
-				"translate": "ssbrc.tooltips.hold_key",
+				"translate": "ssbrc.tooltip.hold_key",
 				"color": "gray",
 				"bold": false,
 				"italic": false,
@@ -845,7 +845,7 @@
 						"italic": false
 					},
 					{
-						"translate": "ssbrc.tooltips.super_mario_bros.super_jump.description.1",
+						"translate": "ssbrc.fighter.super_mario_bros.super_jump.description.1",
 						"color": "gray",
 						"bold": false,
 						"italic": false
@@ -853,13 +853,13 @@
 				]
 			},
 			{
-				"translate": "ssbrc.tooltips.super_mario_bros.super_jump.description.2",
+				"translate": "ssbrc.fighter.super_mario_bros.super_jump.description.2",
 				"color": "gray",
 				"bold": false,
 				"italic": false
 			},
 			{
-				"translate": "ssbrc.tooltips.super_mario_bros.super_jump.description.3",
+				"translate": "ssbrc.fighter.super_mario_bros.super_jump.description.3",
 				"color": "gray",
 				"bold": false,
 				"italic": false

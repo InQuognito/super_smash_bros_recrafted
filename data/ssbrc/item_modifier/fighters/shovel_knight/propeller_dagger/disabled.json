@@ -3,7 +3,7 @@
 		"function": "minecraft:set_name",
 		"entity": "this",
 		"name": {
-			"translate": "ssbrc.tooltips.shovel_knight.propeller_dagger",
+			"translate": "ssbrc.fighter.shovel_knight.propeller_dagger",
 			"color": "gray",
 			"bold": true,
 			"italic": false

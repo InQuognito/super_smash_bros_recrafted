@@ -54,27 +54,10 @@ def forms_isolated(fighter):
 
 def count_forms(fighter):
 	'''Returns the skin count of the specified fighter.'''
-	if 'forms' in ssbrc.fighters[fighter].keys():
-		n = len(ssbrc.fighters[fighter]['forms'])
-		return n
-	else:
-		return 1
-
-def get_translation_key(fighter, skin):
-	'''Returns the translation key, fixed for values that have merged entries.'''
-	if skin == 'default' or skin == 'gold':
-		return f'ssbrc.fighters.skin.{skin}'
-	elif skin == 'flower_power' or skin == 'penguin':
-		return f'ssbrc.series.super_mario_bros.skin.{skin}'
-	elif skin == 'shiny' or skin == 'shadow':
-		return f'ssbrc.series.pokemon.skin.{skin}'
-	elif skin == 'player_2':
-		return f'ssbrc.fighters.skin.player_2'
-	else:
-		return f'ssbrc.fighters.{fighter}.skin.{skin}'
+	return len(ssbrc.fighters[fighter]['forms'])
 
 def get_color(fighter, skin='default'):
-	'''Returns the colorof the selected skin.'''
+	'''Returns the color of the selected skin.'''
 	if skin == 'default':
 		return ssbrc.fighters[fighter]['color']
 	elif skin == 'gold':
@@ -89,3 +72,6 @@ def mc_write(file, str):
 def js_write(file, str):
 	'''Write to file, JSON format.'''
 	file.write(str + '\n')
+
+def warn_builder(file):
+	js_write(file, '# This file is controlled by the build script. Changes should be made in the respective file.\n')

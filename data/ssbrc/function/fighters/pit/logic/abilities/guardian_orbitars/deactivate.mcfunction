@@ -4,4 +4,4 @@ kill @e[type=minecraft:item_display,tag=guardian_orbitar,predicate=ssbrc:id_matc
 
 function ssbrc:logic/fighters/effects/mobility/immobilize/pivot/deactivate
 
-function ssbrc:logic/fighters/cooldown/set/const {type:"2",value:"60"}
+function ssbrc:logic/item/cooldown/set/const {type:"2",value:"60"}

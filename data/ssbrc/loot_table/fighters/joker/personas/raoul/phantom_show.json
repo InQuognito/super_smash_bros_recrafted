@@ -12,7 +12,7 @@
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"translate": "ssbrc.tooltips.joker.phantom_show",
+								"translate": "ssbrc.fighter.joker.phantom_show",
 								"color": "dark_red",
 								"bold": true,
 								"italic": false

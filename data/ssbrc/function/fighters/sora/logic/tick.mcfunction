@@ -1,5 +1,3 @@
-function ssbrc:logic/fighters/cooldown/display/check {item:"keyblade"}
-
 # Health
 execute if entity @s[scores={health=..6}] run function ssbrc:fighters/sora/logic/low_health_alert/check
 

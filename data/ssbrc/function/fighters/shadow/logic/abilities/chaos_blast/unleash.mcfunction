@@ -1,4 +1,4 @@
-execute as @e[tag=!self,predicate=ssbrc:flag/targets,distance=..2.0] run damage @s 24.0 ssbrc:generic by @a[tag=self,limit=1]
+execute as @e[tag=!self,predicate=ssbrc:flag/targets,distance=..2] run function ssbrc:logic/damage/player {amount:"24.0",type:"generic",kb_resist:"0.0"}
 
 function ssbrc:logic/fighters/attributes/defaults/knockback_resistance
 

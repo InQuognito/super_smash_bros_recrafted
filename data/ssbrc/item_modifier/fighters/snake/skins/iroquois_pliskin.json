@@ -4,7 +4,7 @@
 		"entity": "this",
 		"target": "item_name",
 		"name": {
-			"translate": "ssbrc.fighters.snake.skin.iroquois_pliskin",
+			"translate": "ssbrc.skin.iroquois_pliskin",
 			"color": "dark_green",
 			"bold": true
 		}

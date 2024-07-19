@@ -12,7 +12,7 @@
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"translate": "ssbrc.tooltips.wolf.grenade",
+								"translate": "ssbrc.fighter.wolf.grenade",
 								"color": "yellow",
 								"bold": true,
 								"italic": false
@@ -43,7 +43,7 @@
 											"italic": false
 										},
 										{
-											"translate": "ssbrc.tooltips.wolf.grenade.description.1",
+											"translate": "ssbrc.fighter.wolf.grenade.description.1",
 											"color": "gray",
 											"bold": false,
 											"italic": false
@@ -51,7 +51,7 @@
 									]
 								},
 								{
-									"translate": "ssbrc.tooltips.wolf.grenade.description.2",
+									"translate": "ssbrc.fighter.wolf.grenade.description.2",
 									"color": "gray",
 									"bold": false,
 									"italic": false

@@ -1,4 +1,4 @@
-tag @s add bobOmb
+tag @s add bob_omb
 tag @s add ne
 
 item replace entity @s armor.head with minecraft:sugar[minecraft:custom_model_data=184]

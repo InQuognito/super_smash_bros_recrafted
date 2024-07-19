@@ -3,7 +3,7 @@
 		"function": "minecraft:set_name",
 		"entity": "this",
 		"name": {
-			"translate": "ssbrc.tooltips.ness.mr_baseball_bat",
+			"translate": "ssbrc.fighter.ness.mr_baseball_bat",
 			"color": "gold",
 			"bold": true,
 			"italic": false

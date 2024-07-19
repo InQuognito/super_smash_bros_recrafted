@@ -3,7 +3,7 @@
 		"function": "minecraft:set_name",
 		"entity": "this",
 		"name": {
-			"translate": "ssbrc.tooltips.the_legend_of_zelda.boomerang",
+			"translate": "ssbrc.fighter.the_legend_of_zelda.boomerang",
 			"color": "gold",
 			"bold": true,
 			"italic": false

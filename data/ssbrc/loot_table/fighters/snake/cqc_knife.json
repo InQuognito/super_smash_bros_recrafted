@@ -41,7 +41,7 @@
 							"entity": "this",
 							"lore": [
 								{
-									"translate": "ssbrc.tooltips.snake.cqc_knife.description.1",
+									"translate": "ssbrc.fighter.snake.cqc_knife.description.1",
 									"color": "gray",
 									"bold": false,
 									"italic": false

@@ -13,7 +13,7 @@ execute unless entity @s[tag=stop] unless block ^ ^ ^1 #ssbrc:passthrough run fu
 
 teleport @e[type=minecraft:item,distance=..1] @s
 
-effect give @a[tag=snake,predicate=!ssbrc:fighters/effects/has/glowing,distance=0.1..10] minecraft:glowing 1 255 true
+effect give @a[tag=snake,predicate=!ssbrc:fighters/effects/has/glowing,distance=..10] minecraft:glowing 1 255 true
 
 execute if entity @s[tag=stop,scores={cooldown.1=..0}] facing entity @n[tag=!self,predicate=ssbrc:flag/targets,distance=..3] eyes run function ssbrc:fighters/yar/logic/abilities/drone/projectile/activate
 

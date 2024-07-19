@@ -3,7 +3,7 @@
 		"function": "minecraft:set_name",
 		"entity": "this",
 		"name": {
-			"translate": "ssbrc.tooltips.kirby.katana",
+			"translate": "ssbrc.fighter.kirby.katana",
 			"color": "light_purple",
 			"bold": true,
 			"italic": false

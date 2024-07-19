@@ -13,7 +13,7 @@
 							"entity": "this",
 							"target": "item_name",
 							"name": {
-								"translate": "ssbrc.tooltips.byleth.sword_of_the_creator",
+								"translate": "ssbrc.fighter.byleth.sword_of_the_creator",
 								"color": "yellow",
 								"bold": true
 							}
@@ -42,6 +42,7 @@
 								},
 								"minecraft:enchantments": {
 									"levels": {
+										"ssbrc:fighter/byleth/sword_of_the_creator": 1,
 										"minecraft:sweeping_edge": 1
 									},
 									"show_in_tooltip": false

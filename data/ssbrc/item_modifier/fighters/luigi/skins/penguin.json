@@ -4,7 +4,7 @@
 		"entity": "this",
 		"target": "item_name",
 		"name": {
-			"translate": "ssbrc.series.super_mario_bros.skin.penguin",
+			"translate": "ssbrc.skin.penguin",
 			"color": "blue",
 			"bold": true
 		}

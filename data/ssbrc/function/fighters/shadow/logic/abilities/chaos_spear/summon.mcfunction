@@ -2,6 +2,6 @@ execute positioned ^ ^ ^1 summon minecraft:marker run function ssbrc:fighters/sh
 
 scoreboard players set @s charge.1 0
 
-function ssbrc:logic/fighters/cooldown/check {item:"chaos_spear"}
+function ssbrc:logic/item/durability/reset/item {item:"chaos_spear"}
 
 playsound ssbrc:fighters.shadow.chaos_spear.activate player @a

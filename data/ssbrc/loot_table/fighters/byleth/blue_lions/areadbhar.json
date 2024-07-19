@@ -29,6 +29,12 @@
 										}
 									],
 									"show_in_tooltip": false
+								},
+								"minecraft:enchantments": {
+									"levels": {
+										"ssbrc:fighter/byleth/areadbhar": 1
+									},
+									"show_in_tooltip": false
 								}
 							}
 						},
@@ -69,7 +75,7 @@
 											"italic": false
 										},
 										{
-											"translate": "ssbrc.tooltips.byleth.blue_lions.areadbhar.description.1",
+											"translate": "ssbrc.fighter.byleth.blue_lions.areadbhar.description.1",
 											"color": "gray",
 											"bold": false,
 											"italic": false

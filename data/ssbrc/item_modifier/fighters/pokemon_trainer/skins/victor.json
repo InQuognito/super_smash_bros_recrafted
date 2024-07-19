@@ -4,7 +4,7 @@
 		"entity": "this",
 		"target": "item_name",
 		"name": {
-			"translate": "ssbrc.fighters.pokemon_trainer.skin.victor",
+			"translate": "ssbrc.skin.victor",
 			"color": "dark_blue",
 			"bold": true
 		}

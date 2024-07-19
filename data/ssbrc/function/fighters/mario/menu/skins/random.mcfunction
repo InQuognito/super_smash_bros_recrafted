@@ -1,11 +1,10 @@
-scoreboard players set @s fighter_picked 1
+# This file is controlled by the build script. Changes should be made in the respective file.
 
 execute store result score random.output temp run random value 1..4
 
-execute unless score @s[advancements={ssbrc:fighters/mario/skins/default=true}] skin_picked matches 1 if score random.output temp matches 1 run function ssbrc:fighters/mario/menu/skins/default
-execute unless score @s[advancements={ssbrc:fighters/mario/skins/gold=true}] skin_picked matches 1 if score random.output temp matches 2 run function ssbrc:fighters/mario/menu/skins/gold
-execute unless score @s[advancements={ssbrc:fighters/mario/skins/flower_power=true}] skin_picked matches 1 if score random.output temp matches 3 run function ssbrc:fighters/mario/menu/skins/flower_power
-execute unless score @s[advancements={ssbrc:fighters/mario/skins/penguin=true}] skin_picked matches 1 if score random.output temp matches 4 run function ssbrc:fighters/mario/menu/skins/penguin
+execute if score random.output temp matches 1 if entity @s[advancements={ssbrc:fighters/mario/skins/default=true}] run return run function ssbrc:logic/fighters/select_skin {fighter:"mario",skin:"default",color:"red"}
+execute if score random.output temp matches 2 if entity @s[advancements={ssbrc:fighters/mario/skins/gold=true}] run return run function ssbrc:logic/fighters/select_skin {fighter:"mario",skin:"gold",color:"gold"}
+execute if score random.output temp matches 3 if entity @s[advancements={ssbrc:fighters/mario/skins/flower_power=true}] run return run function ssbrc:logic/fighters/select_skin {fighter:"mario",skin:"flower_power",color:"white"}
+execute if score random.output temp matches 4 if entity @s[advancements={ssbrc:fighters/mario/skins/penguin=true}] run return run function ssbrc:logic/fighters/select_skin {fighter:"mario",skin:"penguin",color:"blue"}
 
-execute if score @s skin_picked matches 1 run function ssbrc:logic/fighters/select with storage ssbrc:data fighters.mario
-execute unless score @s skin_picked matches 1 run function ssbrc:fighters/mario/menu/skins/random
+function ssbrc:fighters/mario/menu/skins/random

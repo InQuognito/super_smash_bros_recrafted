@@ -6,8 +6,8 @@ execute anchored eyes positioned ^ ^ ^1 summon minecraft:marker run function ssb
 
 scoreboard players set @s charge.output 0
 
-function ssbrc:logic/replace_item {tag:"item",old:"phazon_beam",new:"fighters/dark_samus/phazon_beam/idle"}
+function ssbrc:logic/replace_item {tag:"item",old:"phazon_beam",new:"ssbrc:fighters/dark_samus/phazon_beam/idle"}
 
-function ssbrc:logic/fighters/cooldown/set/const {type:"1",value:"10"}
+function ssbrc:logic/item/cooldown/set/const {type:"1",value:"10"}
 
 function ssbrc:logic/fighters/ability/deinit

@@ -4,6 +4,6 @@ execute at @n[type=minecraft:marker,tag=shadow_sneak,predicate=ssbrc:id_match] r
 
 scoreboard players set entity_hit temp 1
 
-function ssbrc:logic/fighters/cooldown/set/const {type:"2",value:"40"}
+function ssbrc:logic/item/cooldown/set/const {type:"2",value:"40"}
 
 tag @s remove shadow_sneak

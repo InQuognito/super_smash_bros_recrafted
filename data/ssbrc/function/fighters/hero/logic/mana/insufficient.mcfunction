@@ -1,4 +1,4 @@
-function ssbrc:logic/fighters/cooldown/set
+function ssbrc:logic/item/durability/reset/slot {slot_string:"weapon.mainhand"}
 
 playsound ssbrc:fighters.hero.insufficient_mana player @s
 

@@ -8,7 +8,7 @@
 		"entity": "this",
 		"lore": [
 			{
-				"translate": "ssbrc.tooltips.ammo",
+				"translate": "ssbrc.tooltip.ammo",
 				"color": "white",
 				"bold": false,
 				"italic": false,

@@ -7,6 +7,6 @@ execute if entity @s[scores={charge.3=1..}] run function ssbrc:fighters/rob/logi
 execute if entity @s[scores={charge.3=1}] run function ssbrc:fighters/rob/logic/abilities/robo_burner/activate
 effect give @s[scores={charge.3=2..}] minecraft:levitation infinite 0 true
 
-function ssbrc:logic/fighters/cooldown/set/const {type:"2",value:"60"}
+function ssbrc:logic/item/cooldown/set/const {type:"2",value:"60"}
 
 execute if entity @s[scores={charge.2=..0}] run function ssbrc:fighters/rob/logic/abilities/robo_burner/deactivate

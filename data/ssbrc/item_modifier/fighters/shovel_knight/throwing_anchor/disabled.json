@@ -3,7 +3,7 @@
 		"function": "minecraft:set_name",
 		"entity": "this",
 		"name": {
-			"translate": "ssbrc.tooltips.shovel_knight.throwing_anchor",
+			"translate": "ssbrc.fighter.shovel_knight.throwing_anchor",
 			"color": "gray",
 			"bold": true,
 			"italic": false

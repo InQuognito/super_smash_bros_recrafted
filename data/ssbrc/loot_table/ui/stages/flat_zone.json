@@ -13,7 +13,7 @@
 							"entity": "this",
 							"target": "item_name",
 							"name": {
-								"translate": "ssbrc.stages.flat_zone",
+								"translate": "ssbrc.stage.flat_zone",
 								"color": "white",
 								"bold": true
 							}

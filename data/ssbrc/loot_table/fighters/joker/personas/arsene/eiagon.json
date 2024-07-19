@@ -12,7 +12,7 @@
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"translate": "ssbrc.tooltips.joker.eiagon",
+								"translate": "ssbrc.fighter.joker.eiagon",
 								"color": "dark_red",
 								"bold": true,
 								"italic": false

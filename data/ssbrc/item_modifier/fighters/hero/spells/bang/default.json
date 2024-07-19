@@ -3,7 +3,7 @@
 		"function": "minecraft:set_name",
 		"entity": "this",
 		"name": {
-			"translate": "ssbrc.tooltips.hero.bang",
+			"translate": "ssbrc.fighter.hero.bang",
 			"color": "red",
 			"bold": true,
 			"italic": false

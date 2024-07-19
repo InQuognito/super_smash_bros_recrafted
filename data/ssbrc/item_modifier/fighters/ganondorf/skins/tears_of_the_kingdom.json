@@ -4,7 +4,7 @@
 		"entity": "this",
 		"target": "item_name",
 		"name": {
-			"translate": "ssbrc.fighters.ganondorf.skin.tears_of_the_kingdom",
+			"translate": "ssbrc.skin.tears_of_the_kingdom",
 			"color": "dark_red",
 			"bold": true
 		}

@@ -12,7 +12,7 @@
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"translate": "ssbrc.tooltips.pokemon_trainer.charizard.rock_smash",
+								"translate": "ssbrc.fighter.pokemon_trainer.charizard.rock_smash",
 								"color": "gray",
 								"bold": true,
 								"italic": false
@@ -34,7 +34,7 @@
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"translate": "ssbrc.tooltips.pokemon.mega_punch",
+								"translate": "ssbrc.fighter.pokemon.mega_punch",
 								"color": "white",
 								"bold": true,
 								"italic": false
@@ -70,6 +70,12 @@
 										}
 									],
 									"show_in_tooltip": false
+								},
+								"minecraft:enchantments": {
+									"levels": {
+										"ssbrc:fighter/pokemon_trainer/rock_smash": 1
+									},
+									"show_in_tooltip": false
 								}
 							}
 						},
@@ -82,7 +88,7 @@
 							"entity": "this",
 							"lore": [
 								{
-									"translate": "ssbrc.tooltips.pokemon_trainer.charizard.rock_smash.description.1",
+									"translate": "ssbrc.fighter.pokemon_trainer.charizard.rock_smash.description.1",
 									"color": "gray",
 									"bold": false,
 									"italic": false

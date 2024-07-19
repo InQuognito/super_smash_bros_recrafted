@@ -23,63 +23,6 @@
 		"components": {
 			"minecraft:trim": {
 				"material": "minecraft:quartz",
-				"pattern": "ssbrc:armor_stands/bowsers_castle/toad/default",
-				"show_in_tooltip": false
-			}
-		},
-		"conditions": [
-			{
-				"condition": "minecraft:entity_properties",
-				"entity": "this",
-				"predicate": {
-					"nbt": "{Tags:[\"toad\",\"default\"]}"
-				}
-			}
-		]
-	},
-	{
-		"function": "minecraft:set_components",
-		"components": {
-			"minecraft:trim": {
-				"material": "minecraft:quartz",
-				"pattern": "ssbrc:armor_stands/bowsers_castle/toad/blue",
-				"show_in_tooltip": false
-			}
-		},
-		"conditions": [
-			{
-				"condition": "minecraft:entity_properties",
-				"entity": "this",
-				"predicate": {
-					"nbt": "{Tags:[\"toad\",\"blue\"]}"
-				}
-			}
-		]
-	},
-	{
-		"function": "minecraft:set_components",
-		"components": {
-			"minecraft:trim": {
-				"material": "minecraft:quartz",
-				"pattern": "ssbrc:armor_stands/bowsers_castle/toad/yellow",
-				"show_in_tooltip": false
-			}
-		},
-		"conditions": [
-			{
-				"condition": "minecraft:entity_properties",
-				"entity": "this",
-				"predicate": {
-					"nbt": "{Tags:[\"toad\",\"yellow\"]}"
-				}
-			}
-		]
-	},
-	{
-		"function": "minecraft:set_components",
-		"components": {
-			"minecraft:trim": {
-				"material": "minecraft:quartz",
 				"pattern": "ssbrc:armor_stands/castle_siege/king",
 				"show_in_tooltip": false
 			}

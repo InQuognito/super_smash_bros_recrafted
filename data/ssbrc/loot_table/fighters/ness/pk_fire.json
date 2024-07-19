@@ -12,13 +12,13 @@
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"translate": "ssbrc.tooltips.ness.pk_fire",
+								"translate": "ssbrc.fighter.ness.pk_fire",
 								"color": "red",
 								"bold": true,
 								"italic": false,
 								"extra": [
 									{
-										"translate": "ssbrc.tooltips.earthbound.alpha",
+										"translate": "ssbrc.fighter.earthbound.alpha",
 										"color": "red",
 										"bold": false,
 										"italic": false
@@ -55,7 +55,7 @@
 											"italic": false
 										},
 										{
-											"translate": "ssbrc.tooltips.ness.pk_fire.description.1",
+											"translate": "ssbrc.fighter.ness.pk_fire.description.1",
 											"color": "gray",
 											"bold": false,
 											"italic": false
@@ -63,13 +63,13 @@
 									]
 								},
 								{
-									"translate": "ssbrc.tooltips.ness.pk_fire.description.2",
+									"translate": "ssbrc.fighter.ness.pk_fire.description.2",
 									"color": "gray",
 									"bold": false,
 									"italic": false
 								},
 								{
-									"translate": "ssbrc.tooltips.effects.burning",
+									"translate": "ssbrc.tooltip.effect.burning",
 									"color": "gray",
 									"bold": false,
 									"italic": false

@@ -1,5 +1,5 @@
 # Fireball
-function ssbrc:logic/fighters/cooldown/display/check {item:"fireball"}
+function ssbrc:logic/item/cooldown/display/check {item:"fireball"}
 
 # Super Jump
 function ssbrc:logic/fighters/jump/super_jump/tick {fighter:"mario"}

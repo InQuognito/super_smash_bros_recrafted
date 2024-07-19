@@ -22,5 +22,3 @@ summon minecraft:marker 340.5 58.0 4026.5 {Tags:["spawnpoint"]}
 
 execute as @a[predicate=ssbrc:ingame] run function ssbrc:logic/pre_game/prepare_players
 function ssbrc:logic/pre_game/prepare_match
-
-tag @a[predicate=ssbrc:flag/player] add yggdrasils_altar

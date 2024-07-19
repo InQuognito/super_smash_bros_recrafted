@@ -12,7 +12,7 @@
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"translate": "ssbrc.tooltips.team_rocket.arbok.poison_jab",
+								"translate": "ssbrc.fighter.team_rocket.arbok.poison_jab",
 								"color": "light_purple",
 								"bold": true,
 								"italic": false
@@ -39,6 +39,12 @@
 										}
 									],
 									"show_in_tooltip": false
+								},
+								"minecraft:enchantments": {
+									"levels": {
+										"ssbrc:fighter/team_rocket/poison_jab": 1
+									},
+									"show_in_tooltip": false
 								}
 							}
 						},
@@ -51,7 +57,7 @@
 							"entity": "this",
 							"lore": [
 								{
-									"translate": "ssbrc.tooltips.effects.poison",
+									"translate": "ssbrc.tooltip.effect.poison",
 									"color": "gray",
 									"bold": false,
 									"italic": false

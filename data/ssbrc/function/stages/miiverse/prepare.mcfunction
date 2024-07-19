@@ -23,10 +23,7 @@ summon minecraft:marker -683.5 20.0 600.5 {Tags:["spawnpoint.item"]}
 execute as @e[type=minecraft:marker,tag=post.origin] at @s anchored eyes run function ssbrc:stages/miiverse/logic/posts/summon
 
 execute unless score debug options matches 1 run tag @a[predicate=ssbrc:flag/player] add not_posted
-execute as @e[type=minecraft:item_display,tag=post,tag=!posted,sort=random,limit=1] at @s run function ssbrc:stages/miiverse/logic/posts/apply
-tag @a remove not_posted
+execute as @e[type=minecraft:item_display,tag=post] at @s run function ssbrc:stages/miiverse/logic/posts/apply
 
 execute as @a[predicate=ssbrc:ingame] run function ssbrc:logic/pre_game/prepare_players
 function ssbrc:logic/pre_game/prepare_match
-
-tag @a[predicate=ssbrc:flag/player] add miiverse

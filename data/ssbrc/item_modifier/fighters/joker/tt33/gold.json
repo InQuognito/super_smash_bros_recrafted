@@ -3,7 +3,7 @@
 		"function": "minecraft:set_name",
 		"entity": "this",
 		"name": {
-			"translate": "ssbrc.tooltips.joker.tt33",
+			"translate": "ssbrc.fighter.joker.tt33",
 			"color": "gold",
 			"bold": true,
 			"italic": false

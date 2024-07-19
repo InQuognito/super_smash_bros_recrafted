@@ -14,11 +14,11 @@ spectate @r[predicate=ssbrc:flag/player] @s
 function ssbrc:logic/fighters/get {function:"ssbrc:logic/fighters/cleanup"}
 
 # Tower of Fate
-scoreboard players reset $stockPercentage temp
-scoreboard players operation $stockPercentage temp += @a[tag=alive] stocks
-scoreboard players operation $stockPercentage temp *= 100 integers
-scoreboard players operation $stockPercentage temp /= total_stocks temp
-execute if score hazards options matches 1 if score game_mode options matches 1 if score tower_of_fate stage matches 1 unless score tower_of_fate.destroyed temp matches 1.. if score $stockPercentage temp matches ..50 run function ssbrc:stages/tower_of_fate/logic/destroy_tower/start
+scoreboard players reset stock_percentage temp
+scoreboard players operation stock_percentage temp += @a[tag=alive] stocks
+scoreboard players operation stock_percentage temp *= 100 integers
+scoreboard players operation stock_percentage temp /= total_stocks temp
+execute if score hazards options matches 1 if score game_mode options matches 1 if score tower_of_fate stage matches 1 unless score tower_of_fate.destroyed temp matches 1.. if score stock_percentage temp matches ..50 run function ssbrc:stages/tower_of_fate/logic/destroy_tower/start
 
 # Bonuses
 scoreboard players reset @s coward.tracking

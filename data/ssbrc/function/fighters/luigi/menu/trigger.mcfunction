@@ -1,5 +1,7 @@
-execute if entity @s[scores={menu=1}] run function ssbrc:fighters/luigi/menu/skins/default
-execute if entity @s[scores={menu=2}] run function ssbrc:fighters/luigi/menu/skins/gold
-execute if entity @s[scores={menu=3}] run function ssbrc:fighters/luigi/menu/skins/flower_power
-execute if entity @s[scores={menu=4}] run function ssbrc:fighters/luigi/menu/skins/gooigi
-execute if entity @s[scores={menu=5}] run function ssbrc:fighters/luigi/menu/skins/penguin
+# This file is controlled by the build script. Changes should be made in the respective file.
+
+execute if entity @s[scores={menu=1}] run function ssbrc:logic/fighters/select_skin {fighter:"luigi",skin:"default",color:"dark_green"}
+execute if entity @s[scores={menu=2}] run function ssbrc:logic/fighters/select_skin {fighter:"luigi",skin:"gold",color:"gold"}
+execute if entity @s[scores={menu=3}] run function ssbrc:logic/fighters/select_skin {fighter:"luigi",skin:"flower_power",color:"aqua"}
+execute if entity @s[scores={menu=4}] run function ssbrc:logic/fighters/select_skin {fighter:"luigi",skin:"gooigi",color:"green"}
+execute if entity @s[scores={menu=5}] run function ssbrc:logic/fighters/select_skin {fighter:"luigi",skin:"penguin",color:"blue"}

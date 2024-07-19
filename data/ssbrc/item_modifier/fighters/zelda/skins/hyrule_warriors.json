@@ -4,7 +4,7 @@
 		"entity": "this",
 		"target": "item_name",
 		"name": {
-			"translate": "ssbrc.fighters.zelda.skin.hyrule_warriors",
+			"translate": "ssbrc.skin.hyrule_warriors",
 			"color": "light_purple",
 			"bold": true
 		}

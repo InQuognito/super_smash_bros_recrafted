@@ -4,7 +4,7 @@
 		"entity": "this",
 		"target": "item_name",
 		"name": {
-			"translate": "ssbrc.fighters.sora.skin.timeless_river",
+			"translate": "ssbrc.skin.timeless_river",
 			"color": "gray",
 			"bold": true
 		}

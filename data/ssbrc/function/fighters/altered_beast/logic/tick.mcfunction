@@ -1,16 +1,16 @@
 # Spirit Gauge
-execute if score @s[predicate=!ssbrc:fighters/altered_beast/is_beast] charge.1 < altered_beast.spirit.max vars run scoreboard players operation @s charge.1 += altered_beast.spirit.recharge_rate vars
-execute if entity @s[predicate=ssbrc:fighters/altered_beast/is_beast] run function ssbrc:fighters/altered_beast/logic/spirit_gauge/tick
+scoreboard players operation @s[predicate=ssbrc:fighters/altered_beast/charge_spirit] charge.1 += altered_beast.spirit.recharge_rate vars
+execute if entity @s[tag=altered_beast.is_beast] run function ssbrc:fighters/altered_beast/logic/spirit_gauge/tick
 
 function ssbrc:fighters/altered_beast/logic/spirit_gauge/update
 
-function ssbrc:logic/fighters/cooldown/display/check {item:"mark_of_the_beast"}
+function ssbrc:logic/item/cooldown/display/check {item:"mark_of_the_beast"}
 
 # Beast Form
-execute if entity @s[tag=werebear] run function ssbrc:fighters/altered_beast/logic/werebear/tick
+execute if data storage ssbrc:temp player.temp_data{form:"werebear"} run function ssbrc:fighters/altered_beast/logic/werebear/tick
 
-execute if entity @s[tag=weredragon] run function ssbrc:fighters/altered_beast/logic/weredragon/tick
+execute if data storage ssbrc:temp player.temp_data{form:"weredragon"} run function ssbrc:fighters/altered_beast/logic/weredragon/tick
 
-execute if entity @s[tag=weretiger] run function ssbrc:fighters/altered_beast/logic/weretiger/tick
+execute if data storage ssbrc:temp player.temp_data{form:"weretiger"} run function ssbrc:fighters/altered_beast/logic/weretiger/tick
 
-execute if entity @s[tag=werewolf] run function ssbrc:fighters/altered_beast/logic/werewolf/tick
+execute if data storage ssbrc:temp player.temp_data{form:"werewolf"} run function ssbrc:fighters/altered_beast/logic/werewolf/tick

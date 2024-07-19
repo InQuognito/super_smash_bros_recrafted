@@ -4,7 +4,7 @@
 		"entity": "this",
 		"lore": [
 			{
-				"translate": "ssbrc.tooltips.zelda.weapon.enchant.titanium.description.1",
+				"translate": "ssbrc.fighter.zelda.weapon.enchant.titanium.description.1",
 				"color": "gray",
 				"bold": false,
 				"italic": false

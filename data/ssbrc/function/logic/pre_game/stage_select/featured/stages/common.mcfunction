@@ -1,1 +1,0 @@
-$summon minecraft:item_display ~ ~ ~ {CustomName:"$(name)",Tags:["selectable","stage_icon","modify_entity"],item:{id:"minecraft:sugar",components:{"minecraft:custom_model_data":$(model)}},brightness:{sky:13,block:13}}

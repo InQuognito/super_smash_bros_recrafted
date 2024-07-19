@@ -2,7 +2,7 @@ scoreboard players operation percentage temp = @s duration.1
 scoreboard players operation percentage temp *= 100 integers
 scoreboard players operation percentage temp /= 400 integers
 
-execute if score percentage temp matches 0 run title @s actionbar ""
+execute if score percentage temp matches ..0 run title @s actionbar ""
 execute if score percentage temp matches 1..5 run title @s actionbar [{"text":"\u25ae","color":"aqua"}]
 execute if score percentage temp matches 6..10 run title @s actionbar [{"text":"\u25ae\u25ae","color":"aqua"}]
 execute if score percentage temp matches 11..15 run title @s actionbar [{"text":"\u25ae\u25ae\u25ae","color":"aqua"}]

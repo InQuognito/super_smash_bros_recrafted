@@ -1,7 +1,10 @@
+# This file is controlled by the build script. Changes should be made in the respective file.
+
 data modify storage ssbrc:data fighters set value {\
 	"altered_beast": {\
 		"name": "altered_beast",\
 		"page": 3,\
+		"miiverse_posts": 1,\
 		"model": 1820,\
 		"default_form": "centurion",\
 		"color": "gold",\
@@ -9,14 +12,17 @@ data modify storage ssbrc:data fighters set value {\
 		"skins": {\
 			"player_2": {\
 				"name": "player_2",\
-				"model": 1830,\
-				"color": "blue"\
+				"color": "blue",\
+				"model": 1830\
 			}\
+		},\
+		"items": {\
 		}\
 	},\
 	"alucard": {\
 		"name": "alucard",\
 		"page": 1,\
+		"miiverse_posts": 1,\
 		"model": 1840,\
 		"default_form": "default",\
 		"color": "gray",\
@@ -24,14 +30,97 @@ data modify storage ssbrc:data fighters set value {\
 		"skins": {\
 			"lords_of_shadow": {\
 				"name": "lords_of_shadow",\
-				"model": 1844,\
-				"color": "dark_gray"\
+				"color": "dark_gray",\
+				"model": 1844\
 			}\
+		},\
+		"items": {\
+			"alucard_shield": {\
+				"default": {\
+					"name": "ssbrc.fighter.alucard.alucard_shield",\
+					"color": "white",\
+					"model": 1840,\
+					"tag": "alucard_shield"\
+				},\
+				"gold": {\
+					"name": "ssbrc.fighter.alucard.alucard_shield",\
+					"color": "gold",\
+					"model": 1841,\
+					"tag": "alucard_shield"\
+				},\
+				"lords_of_shadow": {\
+					"name": "ssbrc.fighter.alucard.alucard_shield",\
+					"color": "white",\
+					"model": 1840,\
+					"tag": "alucard_shield"\
+				},\
+			},\
+			"alucard_sword": {\
+				"default": {\
+					"name": "ssbrc.fighter.alucard.alucard_sword.default",\
+					"color": "white",\
+					"model": 1840,\
+					"tag": "alucard_sword"\
+				},\
+				"gold": {\
+					"name": "ssbrc.fighter.alucard.alucard_sword.default",\
+					"color": "gold",\
+					"model": 1842,\
+					"tag": "alucard_sword"\
+				},\
+				"lords_of_shadow": {\
+					"name": "ssbrc.fighter.alucard.alucard_sword.lords_of_shadow",\
+					"color": "dark_gray",\
+					"model": 1841,\
+					"tag": "alucard_sword"\
+				},\
+			},\
+			"blood_metamorphosis": {\
+				"default": {\
+					"name": "ssbrc.fighter.alucard.blood_metamorphosis",\
+					"color": "blue",\
+					"model": 1841,\
+					"tag": "blood_metamorphosis"\
+				},\
+				"gold": {\
+					"name": "ssbrc.fighter.alucard.blood_metamorphosis",\
+					"color": "gold",\
+					"model": 1843,\
+					"tag": "blood_metamorphosis"\
+				},\
+				"lords_of_shadow": {\
+					"name": "ssbrc.fighter.alucard.blood_metamorphosis",\
+					"color": "blue",\
+					"model": 1841,\
+					"tag": "blood_metamorphosis"\
+				},\
+			},\
+			"holy_water": {\
+				"default": {\
+					"name": "ssbrc.fighter.alucard.holy_water",\
+					"color": "blue",\
+					"model": 1841,\
+					"tag": "holy_water"\
+				},\
+				"gold": {\
+					"name": "ssbrc.fighter.alucard.holy_water",\
+					"color": "gold",\
+					"model": 1843,\
+					"tag": "holy_water"\
+				},\
+				"lords_of_shadow": {\
+					"name": "ssbrc.fighter.alucard.holy_water",\
+					"color": "blue",\
+					"model": 1841,\
+					"tag": "holy_water"\
+				},\
+			},\
 		}\
 	},\
 	"bowser": {\
 		"name": "bowser",\
 		"page": 1,\
+		"miiverse_posts": 1,\
 		"model": 60,\
 		"default_form": "default",\
 		"color": "green",\
@@ -39,14 +128,37 @@ data modify storage ssbrc:data fighters set value {\
 		"skins": {\
 			"bowsette": {\
 				"name": "bowsette",\
-				"model": 62,\
-				"color": "yellow"\
+				"color": "yellow",\
+				"model": 62\
 			}\
+		},\
+		"items": {\
+			"power_band": {\
+				"default": {\
+					"name": "ssbrc.fighter.bowser.power_band",\
+					"color": "dark_gray",\
+					"model": 60,\
+					"tag": "power_band"\
+				},\
+				"gold": {\
+					"name": "ssbrc.fighter.bowser.power_band",\
+					"color": "gold",\
+					"model": 61,\
+					"tag": "power_band"\
+				},\
+				"bowsette": {\
+					"name": "ssbrc.fighter.bowser.power_band",\
+					"color": "dark_gray",\
+					"model": 60,\
+					"tag": "power_band"\
+				},\
+			},\
 		}\
 	},\
 	"byleth": {\
 		"name": "byleth",\
 		"page": 1,\
+		"miiverse_posts": 1,\
 		"model": 100,\
 		"default_form": "female",\
 		"color": "dark_aqua",\
@@ -54,14 +166,17 @@ data modify storage ssbrc:data fighters set value {\
 		"skins": {\
 			"awakened": {\
 				"name": "awakened",\
-				"model": 104,\
-				"color": "aqua"\
+				"color": "aqua",\
+				"model": 104\
 			}\
+		},\
+		"items": {\
 		}\
 	},\
 	"captain_falcon": {\
 		"name": "captain_falcon",\
 		"page": 1,\
+		"miiverse_posts": 1,\
 		"model": 120,\
 		"default_form": "default",\
 		"color": "red",\
@@ -69,29 +184,35 @@ data modify storage ssbrc:data fighters set value {\
 		"skins": {\
 			"blood_falcon": {\
 				"name": "blood_falcon",\
-				"model": 122,\
-				"color": "dark_red"\
+				"color": "dark_red",\
+				"model": 122\
 			},\
 			"rick_wheeler": {\
 				"name": "rick_wheeler",\
-				"model": 123,\
-				"color": "dark_blue"\
+				"color": "dark_blue",\
+				"model": 123\
 			}\
+		},\
+		"items": {\
 		}\
 	},\
 	"cloud": {\
 		"name": "cloud",\
 		"page": 1,\
+		"miiverse_posts": 1,\
 		"model": 180,\
 		"default_form": "default",\
 		"color": "white",\
 		"skin_count": 2,\
 		"skins": {\
+		},\
+		"items": {\
 		}\
 	},\
 	"dark_samus": {\
 		"name": "dark_samus",\
 		"page": 1,\
+		"miiverse_posts": 1,\
 		"model": 260,\
 		"default_form": "default",\
 		"color": "aqua",\
@@ -99,14 +220,17 @@ data modify storage ssbrc:data fighters set value {\
 		"skins": {\
 			"prime_3": {\
 				"name": "prime_3",\
-				"model": 262,\
-				"color": "dark_gray"\
+				"color": "dark_gray",\
+				"model": 262\
 			}\
+		},\
+		"items": {\
 		}\
 	},\
 	"donkey_kong": {\
 		"name": "donkey_kong",\
 		"page": 1,\
+		"miiverse_posts": 1,\
 		"model": 300,\
 		"default_form": "default",\
 		"color": "gold",\
@@ -114,19 +238,22 @@ data modify storage ssbrc:data fighters set value {\
 		"skins": {\
 			"flower_power": {\
 				"name": "flower_power",\
-				"model": 302,\
-				"color": "red"\
+				"color": "red",\
+				"model": 302\
 			},\
 			"super_kong": {\
 				"name": "super_kong",\
-				"model": 303,\
-				"color": "white"\
+				"color": "white",\
+				"model": 303\
 			}\
+		},\
+		"items": {\
 		}\
 	},\
 	"fox": {\
 		"name": "fox",\
 		"page": 1,\
+		"miiverse_posts": 1,\
 		"model": 380,\
 		"default_form": "default",\
 		"color": "white",\
@@ -134,14 +261,17 @@ data modify storage ssbrc:data fighters set value {\
 		"skins": {\
 			"adventures": {\
 				"name": "adventures",\
-				"model": 382,\
-				"color": "yellow"\
+				"color": "yellow",\
+				"model": 382\
 			}\
+		},\
+		"items": {\
 		}\
 	},\
 	"ganondorf": {\
 		"name": "ganondorf",\
 		"page": 1,\
+		"miiverse_posts": 1,\
 		"model": 400,\
 		"default_form": "default",\
 		"color": "red",\
@@ -149,34 +279,40 @@ data modify storage ssbrc:data fighters set value {\
 		"skins": {\
 			"ocarina_of_time": {\
 				"name": "ocarina_of_time",\
-				"model": 402,\
-				"color": "red"\
+				"color": "red",\
+				"model": 402\
 			},\
 			"tears_of_the_kingdom": {\
 				"name": "tears_of_the_kingdom",\
-				"model": 403,\
-				"color": "dark_red"\
+				"color": "dark_red",\
+				"model": 403\
 			},\
 			"wind_waker": {\
 				"name": "wind_waker",\
-				"model": 404,\
-				"color": "aqua"\
+				"color": "aqua",\
+				"model": 404\
 			}\
+		},\
+		"items": {\
 		}\
 	},\
 	"giegue": {\
 		"name": "giegue",\
 		"page": 1,\
+		"miiverse_posts": 1,\
 		"model": 1860,\
 		"default_form": "default",\
 		"color": "light_purple",\
 		"skin_count": 2,\
 		"skins": {\
+		},\
+		"items": {\
 		}\
 	},\
 	"greninja": {\
 		"name": "greninja",\
 		"page": 1,\
+		"miiverse_posts": 1,\
 		"model": 420,\
 		"default_form": "default",\
 		"color": "blue",\
@@ -184,19 +320,22 @@ data modify storage ssbrc:data fighters set value {\
 		"skins": {\
 			"shiny": {\
 				"name": "shiny",\
-				"model": 422,\
-				"color": "dark_gray"\
+				"color": "dark_gray",\
+				"model": 422\
 			},\
 			"hero_style": {\
 				"name": "hero_style",\
-				"model": 423,\
-				"color": "green"\
+				"color": "green",\
+				"model": 423\
 			}\
+		},\
+		"items": {\
 		}\
 	},\
 	"hero": {\
 		"name": "hero",\
 		"page": 1,\
+		"miiverse_posts": 2,\
 		"model": 440,\
 		"default_form": "default",\
 		"color": "yellow",\
@@ -204,29 +343,32 @@ data modify storage ssbrc:data fighters set value {\
 		"skins": {\
 			"erdrick": {\
 				"name": "erdrick",\
-				"model": 444,\
-				"color": "gray"\
+				"color": "gray",\
+				"model": 444\
 			},\
 			"rek": {\
 				"name": "rek",\
-				"model": 446,\
-				"color": "blue"\
+				"color": "blue",\
+				"model": 446\
 			},\
 			"sofia": {\
 				"name": "sofia",\
-				"model": 448,\
-				"color": "green"\
+				"color": "green",\
+				"model": 448\
 			},\
 			"solo": {\
 				"name": "solo",\
-				"model": 450,\
-				"color": "green"\
+				"color": "green",\
+				"model": 450\
 			}\
+		},\
+		"items": {\
 		}\
 	},\
 	"jigglypuff": {\
 		"name": "jigglypuff",\
 		"page": 1,\
+		"miiverse_posts": 1,\
 		"model": 580,\
 		"default_form": "default",\
 		"color": "light_purple",\
@@ -234,14 +376,17 @@ data modify storage ssbrc:data fighters set value {\
 		"skins": {\
 			"shiny": {\
 				"name": "shiny",\
-				"model": 584,\
-				"color": "light_purple"\
+				"color": "light_purple",\
+				"model": 584\
 			}\
+		},\
+		"items": {\
 		}\
 	},\
 	"joker": {\
 		"name": "joker",\
 		"page": 1,\
+		"miiverse_posts": 1,\
 		"model": 600,\
 		"default_form": "default",\
 		"color": "dark_red",\
@@ -249,29 +394,35 @@ data modify storage ssbrc:data fighters set value {\
 		"skins": {\
 			"christmas_outfit": {\
 				"name": "christmas_outfit",\
-				"model": 604,\
-				"color": "red"\
+				"color": "red",\
+				"model": 604\
 			},\
 			"shujin_academy": {\
 				"name": "shujin_academy",\
-				"model": 606,\
-				"color": "dark_red"\
+				"color": "dark_red",\
+				"model": 606\
 			}\
+		},\
+		"items": {\
 		}\
 	},\
 	"king_k_rool": {\
 		"name": "king_k_rool",\
 		"page": 1,\
+		"miiverse_posts": 1,\
 		"model": 680,\
 		"default_form": "default",\
 		"color": "dark_green",\
 		"skin_count": 2,\
 		"skins": {\
+		},\
+		"items": {\
 		}\
 	},\
 	"kirby": {\
 		"name": "kirby",\
 		"page": 1,\
+		"miiverse_posts": 1,\
 		"model": 700,\
 		"default_form": "default",\
 		"color": "light_purple",\
@@ -279,14 +430,17 @@ data modify storage ssbrc:data fighters set value {\
 		"skins": {\
 			"keeby": {\
 				"name": "keeby",\
-				"model": 702,\
-				"color": "light_purple"\
+				"color": "yellow",\
+				"model": 702\
 			}\
+		},\
+		"items": {\
 		}\
 	},\
 	"link": {\
 		"name": "link",\
 		"page": 1,\
+		"miiverse_posts": 2,\
 		"model": 720,\
 		"default_form": "default",\
 		"color": "green",\
@@ -294,24 +448,27 @@ data modify storage ssbrc:data fighters set value {\
 		"skins": {\
 			"dark_link": {\
 				"name": "dark_link",\
-				"model": 722,\
-				"color": "dark_gray"\
+				"color": "dark_gray",\
+				"model": 722\
 			},\
 			"goron_tunic": {\
 				"name": "goron_tunic",\
-				"model": 723,\
-				"color": "red"\
+				"color": "red",\
+				"model": 723\
 			},\
 			"zora_tunic": {\
 				"name": "zora_tunic",\
-				"model": 724,\
-				"color": "blue"\
+				"color": "blue",\
+				"model": 724\
 			}\
+		},\
+		"items": {\
 		}\
 	},\
 	"luigi": {\
 		"name": "luigi",\
 		"page": 1,\
+		"miiverse_posts": 1,\
 		"model": 820,\
 		"default_form": "default",\
 		"color": "dark_green",\
@@ -319,24 +476,27 @@ data modify storage ssbrc:data fighters set value {\
 		"skins": {\
 			"flower_power": {\
 				"name": "flower_power",\
-				"model": 822,\
-				"color": "aqua"\
+				"color": "aqua",\
+				"model": 822\
 			},\
 			"gooigi": {\
 				"name": "gooigi",\
-				"model": 823,\
-				"color": "green"\
+				"color": "green",\
+				"model": 823\
 			},\
 			"penguin": {\
 				"name": "penguin",\
-				"model": 824,\
-				"color": "blue"\
+				"color": "blue",\
+				"model": 824\
 			}\
+		},\
+		"items": {\
 		}\
 	},\
 	"mario": {\
 		"name": "mario",\
 		"page": 1,\
+		"miiverse_posts": 2,\
 		"model": 840,\
 		"default_form": "default",\
 		"color": "red",\
@@ -344,19 +504,22 @@ data modify storage ssbrc:data fighters set value {\
 		"skins": {\
 			"flower_power": {\
 				"name": "flower_power",\
-				"model": 842,\
-				"color": "white"\
+				"color": "white",\
+				"model": 842\
 			},\
 			"penguin": {\
 				"name": "penguin",\
-				"model": 843,\
-				"color": "blue"\
+				"color": "blue",\
+				"model": 843\
 			}\
+		},\
+		"items": {\
 		}\
 	},\
 	"mega_man": {\
 		"name": "mega_man",\
 		"page": 1,\
+		"miiverse_posts": 1,\
 		"model": 880,\
 		"default_form": "mega_buster",\
 		"color": "blue",\
@@ -364,14 +527,217 @@ data modify storage ssbrc:data fighters set value {\
 		"skins": {\
 			"star_force": {\
 				"name": "star_force",\
-				"model": 900,\
-				"color": "blue"\
+				"color": "green",\
+				"model": 900\
 			}\
+		},\
+		"items": {\
+			"air_shooter": {\
+				"default": {\
+					"name": "ssbrc.fighter.mega_man.air_shooter",\
+					"color": "dark_aqua",\
+					"model": 883,\
+					"tag": "air_shooter"\
+				},\
+				"gold": {\
+					"name": "ssbrc.fighter.mega_man.air_shooter",\
+					"color": "dark_aqua",\
+					"model": 883,\
+					"tag": "air_shooter"\
+				},\
+				"star_force": {\
+					"name": "ssbrc.fighter.mega_man.air_shooter",\
+					"color": "dark_aqua",\
+					"model": 889,\
+					"tag": "air_shooter"\
+				},\
+			},\
+			"beat_call": {\
+				"default": {\
+					"name": "ssbrc.fighter.mega_man.beat_call",\
+					"color": "red",\
+					"model": 881,\
+					"tag": "beat_call"\
+				},\
+				"gold": {\
+					"name": "ssbrc.fighter.mega_man.beat_call",\
+					"color": "red",\
+					"model": 881,\
+					"tag": "beat_call"\
+				},\
+				"star_force": {\
+					"name": "ssbrc.fighter.mega_man.beat_call",\
+					"color": "red",\
+					"model": 888,\
+					"tag": "beat_call"\
+				},\
+			},\
+			"drill_bomb": {\
+				"default": {\
+					"name": "ssbrc.fighter.mega_man.drill_bomb",\
+					"color": "red",\
+					"model": 884,\
+					"tag": "drill_bomb"\
+				},\
+				"gold": {\
+					"name": "ssbrc.fighter.mega_man.drill_bomb",\
+					"color": "red",\
+					"model": 884,\
+					"tag": "drill_bomb"\
+				},\
+				"star_force": {\
+					"name": "ssbrc.fighter.mega_man.drill_bomb",\
+					"color": "red",\
+					"model": 890,\
+					"tag": "drill_bomb"\
+				},\
+			},\
+			"flame_sword": {\
+				"default": {\
+					"name": "ssbrc.fighter.mega_man.flame_sword",\
+					"color": "red",\
+					"model": 885,\
+					"tag": "flame_sword"\
+				},\
+				"gold": {\
+					"name": "ssbrc.fighter.mega_man.flame_sword",\
+					"color": "red",\
+					"model": 885,\
+					"tag": "flame_sword"\
+				},\
+				"star_force": {\
+					"name": "ssbrc.fighter.mega_man.flame_sword",\
+					"color": "red",\
+					"model": 891,\
+					"tag": "flame_sword"\
+				},\
+			},\
+			"hyper_bomb": {\
+				"default": {\
+					"name": "ssbrc.fighter.mega_man.hyper_bomb",\
+					"color": "gray",\
+					"model": 897,\
+					"tag": "hyper_bomb"\
+				},\
+				"gold": {\
+					"name": "ssbrc.fighter.mega_man.hyper_bomb",\
+					"color": "gray",\
+					"model": 897,\
+					"tag": "hyper_bomb"\
+				},\
+				"star_force": {\
+					"name": "ssbrc.fighter.mega_man.hyper_bomb",\
+					"color": "gray",\
+					"model": 897,\
+					"tag": "hyper_bomb"\
+				},\
+			},\
+			"junk_shield": {\
+				"default": {\
+					"name": "ssbrc.fighter.mega_man.junk_shield",\
+					"color": "gray",\
+					"model": 900,\
+					"tag": "junk_shield"\
+				},\
+				"gold": {\
+					"name": "ssbrc.fighter.mega_man.junk_shield",\
+					"color": "gray",\
+					"model": 900,\
+					"tag": "junk_shield"\
+				},\
+				"star_force": {\
+					"name": "ssbrc.fighter.mega_man.junk_shield",\
+					"color": "gray",\
+					"model": 900,\
+					"tag": "junk_shield"\
+				},\
+			},\
+			"mega_buster": {\
+				"default": {\
+					"name": "ssbrc.fighter.mega_man.mega_buster",\
+					"color": "blue",\
+					"model": 881,\
+					"tag": "mega_buster"\
+				},\
+				"gold": {\
+					"name": "ssbrc.fighter.mega_man.mega_buster",\
+					"color": "gold",\
+					"model": 882,\
+					"tag": "mega_buster"\
+				},\
+				"star_force": {\
+					"name": "ssbrc.fighter.mega_man.mega_buster",\
+					"color": "green",\
+					"model": 888,\
+					"tag": "mega_buster"\
+				},\
+			},\
+			"metal_blade": {\
+				"default": {\
+					"name": "ssbrc.fighter.mega_man.metal_blade",\
+					"color": "gray",\
+					"model": 901,\
+					"tag": "metal_blade"\
+				},\
+				"gold": {\
+					"name": "ssbrc.fighter.mega_man.metal_blade",\
+					"color": "gold",\
+					"model": 901,\
+					"tag": "metal_blade"\
+				},\
+				"star_force": {\
+					"name": "ssbrc.fighter.mega_man.metal_blade",\
+					"color": "gray",\
+					"model": 901,\
+					"tag": "metal_blade"\
+				},\
+			},\
+			"pile_driver": {\
+				"default": {\
+					"name": "ssbrc.fighter.mega_man.pile_driver",\
+					"color": "red",\
+					"model": 886,\
+					"tag": "pile_driver"\
+				},\
+				"gold": {\
+					"name": "ssbrc.fighter.mega_man.pile_driver",\
+					"color": "red",\
+					"model": 886,\
+					"tag": "pile_driver"\
+				},\
+				"star_force": {\
+					"name": "ssbrc.fighter.mega_man.pile_driver",\
+					"color": "red",\
+					"model": 892,\
+					"tag": "pile_driver"\
+				},\
+			},\
+			"remote_mine": {\
+				"default": {\
+					"name": "ssbrc.fighter.mega_man.remote_mine",\
+					"color": "red",\
+					"model": 887,\
+					"tag": "remote_mine"\
+				},\
+				"gold": {\
+					"name": "ssbrc.fighter.mega_man.remote_mine",\
+					"color": "red",\
+					"model": 887,\
+					"tag": "remote_mine"\
+				},\
+				"star_force": {\
+					"name": "ssbrc.fighter.mega_man.remote_mine",\
+					"color": "red",\
+					"model": 893,\
+					"tag": "remote_mine"\
+				},\
+			},\
 		}\
 	},\
 	"ness": {\
 		"name": "ness",\
 		"page": 1,\
+		"miiverse_posts": 1,\
 		"model": 1080,\
 		"default_form": "default",\
 		"color": "dark_purple",\
@@ -379,34 +745,40 @@ data modify storage ssbrc:data fighters set value {\
 		"skins": {\
 			"moonside": {\
 				"name": "moonside",\
-				"model": 1082,\
-				"color": "aqua"\
+				"color": "aqua",\
+				"model": 1082\
 			},\
 			"pajamas": {\
 				"name": "pajamas",\
-				"model": 1083,\
-				"color": "dark_aqua"\
+				"color": "dark_aqua",\
+				"model": 1083\
 			},\
 			"phase_distortion": {\
 				"name": "phase_distortion",\
-				"model": 1084,\
-				"color": "gray"\
+				"color": "gray",\
+				"model": 1084\
 			}\
+		},\
+		"items": {\
 		}\
 	},\
 	"peach": {\
 		"name": "peach",\
 		"page": 1,\
+		"miiverse_posts": 1,\
 		"model": 1160,\
 		"default_form": "default",\
 		"color": "light_purple",\
 		"skin_count": 2,\
 		"skins": {\
+		},\
+		"items": {\
 		}\
 	},\
 	"pikachu": {\
 		"name": "pikachu",\
 		"page": 1,\
+		"miiverse_posts": 1,\
 		"model": 1200,\
 		"default_form": "default",\
 		"color": "yellow",\
@@ -414,19 +786,22 @@ data modify storage ssbrc:data fighters set value {\
 		"skins": {\
 			"santa_hat": {\
 				"name": "santa_hat",\
-				"model": 1202,\
-				"color": "red"\
+				"color": "red",\
+				"model": 1202\
 			},\
 			"shiny": {\
 				"name": "shiny",\
-				"model": 1203,\
-				"color": "yellow"\
+				"color": "yellow",\
+				"model": 1203\
 			}\
+		},\
+		"items": {\
 		}\
 	},\
 	"pit": {\
 		"name": "pit",\
 		"page": 1,\
+		"miiverse_posts": 1,\
 		"model": 1220,\
 		"default_form": "default",\
 		"color": "white",\
@@ -434,14 +809,17 @@ data modify storage ssbrc:data fighters set value {\
 		"skins": {\
 			"retro": {\
 				"name": "retro",\
-				"model": 1222,\
-				"color": "white"\
+				"color": "white",\
+				"model": 1222\
 			}\
+		},\
+		"items": {\
 		}\
 	},\
 	"pokemon_trainer": {\
 		"name": "pokemon_trainer",\
 		"page": 1,\
+		"miiverse_posts": 1,\
 		"model": 1260,\
 		"default_form": "trainer",\
 		"color": "red",\
@@ -449,24 +827,27 @@ data modify storage ssbrc:data fighters set value {\
 		"skins": {\
 			"dawn": {\
 				"name": "dawn",\
-				"model": 1268,\
-				"color": "light_purple"\
+				"color": "light_purple",\
+				"model": 1268\
 			},\
 			"shiny": {\
 				"name": "shiny",\
-				"model": 1272,\
-				"color": "dark_gray"\
+				"color": "dark_gray",\
+				"model": 1272\
 			},\
 			"victor": {\
 				"name": "victor",\
-				"model": 1276,\
-				"color": "dark_blue"\
+				"color": "dark_blue",\
+				"model": 1276\
 			}\
+		},\
+		"items": {\
 		}\
 	},\
 	"rob": {\
 		"name": "rob",\
 		"page": 1,\
+		"miiverse_posts": 1,\
 		"model": 1,\
 		"default_form": "depleted",\
 		"color": "white",\
@@ -474,19 +855,22 @@ data modify storage ssbrc:data fighters set value {\
 		"skins": {\
 			"ancient_minister": {\
 				"name": "ancient_minister",\
-				"model": 7,\
-				"color": "dark_green"\
+				"color": "dark_green",\
+				"model": 7\
 			},\
 			"famicom": {\
 				"name": "famicom",\
-				"model": 10,\
-				"color": "red"\
+				"color": "red",\
+				"model": 10\
 			}\
+		},\
+		"items": {\
 		}\
 	},\
 	"ryu": {\
 		"name": "ryu",\
 		"page": 1,\
+		"miiverse_posts": 1,\
 		"model": 1400,\
 		"default_form": "default",\
 		"color": "white",\
@@ -494,14 +878,17 @@ data modify storage ssbrc:data fighters set value {\
 		"skins": {\
 			"hot_ryu": {\
 				"name": "hot_ryu",\
-				"model": 1404,\
-				"color": "white"\
+				"color": "white",\
+				"model": 1404\
 			}\
+		},\
+		"items": {\
 		}\
 	},\
 	"samus": {\
 		"name": "samus",\
 		"page": 1,\
+		"miiverse_posts": 1,\
 		"model": 1420,\
 		"default_form": "default",\
 		"color": "gold",\
@@ -509,19 +896,22 @@ data modify storage ssbrc:data fighters set value {\
 		"skins": {\
 			"gravity_suit": {\
 				"name": "gravity_suit",\
-				"model": 1422,\
-				"color": "light_purple"\
+				"color": "light_purple",\
+				"model": 1422\
 			},\
 			"phazon_suit": {\
 				"name": "phazon_suit",\
-				"model": 1423,\
-				"color": "red"\
+				"color": "red",\
+				"model": 1423\
 			}\
+		},\
+		"items": {\
 		}\
 	},\
 	"shadow": {\
 		"name": "shadow",\
 		"page": 1,\
+		"miiverse_posts": 1,\
 		"model": 1900,\
 		"default_form": "default",\
 		"color": "dark_red",\
@@ -529,19 +919,22 @@ data modify storage ssbrc:data fighters set value {\
 		"skins": {\
 			"sir_lancelot": {\
 				"name": "sir_lancelot",\
-				"model": 1902,\
-				"color": "yellow"\
+				"color": "red",\
+				"model": 1902\
 			},\
 			"yellow_android": {\
 				"name": "yellow_android",\
-				"model": 1903,\
-				"color": "yellow"\
+				"color": "yellow",\
+				"model": 1903\
 			}\
+		},\
+		"items": {\
 		}\
 	},\
 	"shovel_knight": {\
 		"name": "shovel_knight",\
 		"page": 3,\
+		"miiverse_posts": 1,\
 		"model": 1920,\
 		"default_form": "default",\
 		"color": "dark_aqua",\
@@ -549,19 +942,22 @@ data modify storage ssbrc:data fighters set value {\
 		"skins": {\
 			"armor_of_chaos": {\
 				"name": "armor_of_chaos",\
-				"model": 1924,\
-				"color": "red"\
+				"color": "red",\
+				"model": 1924\
 			},\
 			"toad_gear": {\
 				"name": "toad_gear",\
-				"model": 1926,\
-				"color": "green"\
+				"color": "green",\
+				"model": 1926\
 			}\
+		},\
+		"items": {\
 		}\
 	},\
 	"snake": {\
 		"name": "snake",\
 		"page": 1,\
+		"miiverse_posts": 1,\
 		"model": 1520,\
 		"default_form": "default",\
 		"color": "gray",\
@@ -569,19 +965,22 @@ data modify storage ssbrc:data fighters set value {\
 		"skins": {\
 			"classic_tuxedo": {\
 				"name": "classic_tuxedo",\
-				"model": 1524,\
-				"color": "white"\
+				"color": "white",\
+				"model": 1524\
 			},\
 			"iroquois_pliskin": {\
 				"name": "iroquois_pliskin",\
-				"model": 1526,\
-				"color": "dark_green"\
+				"color": "dark_green",\
+				"model": 1526\
 			}\
+		},\
+		"items": {\
 		}\
 	},\
 	"sonic": {\
 		"name": "sonic",\
 		"page": 1,\
+		"miiverse_posts": 1,\
 		"model": 1540,\
 		"default_form": "default",\
 		"color": "blue",\
@@ -589,24 +988,27 @@ data modify storage ssbrc:data fighters set value {\
 		"skins": {\
 			"classic": {\
 				"name": "classic",\
-				"model": 1542,\
-				"color": "blue"\
+				"color": "blue",\
+				"model": 1542\
 			},\
 			"hylian_tunic": {\
 				"name": "hylian_tunic",\
-				"model": 1543,\
-				"color": "green"\
+				"color": "green",\
+				"model": 1543\
 			},\
 			"werehog": {\
 				"name": "werehog",\
-				"model": 1544,\
-				"color": "dark_blue"\
+				"color": "dark_blue",\
+				"model": 1544\
 			}\
+		},\
+		"items": {\
 		}\
 	},\
 	"sora": {\
 		"name": "sora",\
 		"page": 1,\
+		"miiverse_posts": 1,\
 		"model": 1560,\
 		"default_form": "default",\
 		"color": "white",\
@@ -614,14 +1016,17 @@ data modify storage ssbrc:data fighters set value {\
 		"skins": {\
 			"timeless_river": {\
 				"name": "timeless_river",\
-				"model": 1570,\
-				"color": "gray"\
+				"color": "gray",\
+				"model": 1570\
 			}\
+		},\
+		"items": {\
 		}\
 	},\
 	"steve": {\
 		"name": "steve",\
 		"page": 1,\
+		"miiverse_posts": 1,\
 		"model": 1580,\
 		"default_form": "default",\
 		"color": "dark_aqua",\
@@ -629,19 +1034,22 @@ data modify storage ssbrc:data fighters set value {\
 		"skins": {\
 			"alex": {\
 				"name": "alex",\
-				"model": 1582,\
-				"color": "yellow"\
+				"color": "yellow",\
+				"model": 1582\
 			},\
 			"herobrine": {\
 				"name": "herobrine",\
-				"model": 1583,\
-				"color": "white"\
+				"color": "white",\
+				"model": 1583\
 			}\
+		},\
+		"items": {\
 		}\
 	},\
 	"team_rocket": {\
 		"name": "team_rocket",\
 		"page": 1,\
+		"miiverse_posts": 1,\
 		"model": 1940,\
 		"model_jesse": 1941,\
 		"model_james": 1942,\
@@ -649,11 +1057,14 @@ data modify storage ssbrc:data fighters set value {\
 		"color": "dark_purple",\
 		"skin_count": 2,\
 		"skins": {\
+		},\
+		"items": {\
 		}\
 	},\
 	"wolf": {\
 		"name": "wolf",\
 		"page": 1,\
+		"miiverse_posts": 1,\
 		"model": 1720,\
 		"default_form": "default",\
 		"color": "dark_purple",\
@@ -661,14 +1072,17 @@ data modify storage ssbrc:data fighters set value {\
 		"skins": {\
 			"assault": {\
 				"name": "assault",\
-				"model": 1722,\
-				"color": "green"\
+				"color": "green",\
+				"model": 1722\
 			}\
+		},\
+		"items": {\
 		}\
 	},\
 	"yar": {\
 		"name": "yar",\
 		"page": 3,\
+		"miiverse_posts": 1,\
 		"model": 1960,\
 		"default_form": "default",\
 		"color": "red",\
@@ -676,14 +1090,17 @@ data modify storage ssbrc:data fighters set value {\
 		"skins": {\
 			"recruit": {\
 				"name": "recruit",\
-				"model": 1962,\
-				"color": "dark_green"\
+				"color": "dark_green",\
+				"model": 1962\
 			}\
+		},\
+		"items": {\
 		}\
 	},\
 	"zelda": {\
 		"name": "zelda",\
 		"page": 1,\
+		"miiverse_posts": 1,\
 		"model": 1780,\
 		"default_form": "default",\
 		"color": "blue",\
@@ -691,9 +1108,11 @@ data modify storage ssbrc:data fighters set value {\
 		"skins": {\
 			"hyrule_warriors": {\
 				"name": "hyrule_warriors",\
-				"model": 1782,\
-				"color": "light_purple"\
+				"color": "light_purple",\
+				"model": 1782\
 			}\
+		},\
+		"items": {\
 		}\
 	}\
 }

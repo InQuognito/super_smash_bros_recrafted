@@ -12,7 +12,7 @@
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"translate": "ssbrc.tooltips.item.angel_feather",
+								"translate": "ssbrc.item.angel_feather",
 								"color": "aqua",
 								"bold": true,
 								"italic": false
@@ -27,13 +27,13 @@
 							"entity": "this",
 							"lore": [
 								{
-									"translate": "ssbrc.tooltips.item.angel_feather.description.1",
+									"translate": "ssbrc.item.angel_feather.description.1",
 									"color": "gray",
 									"bold": false,
 									"italic": false
 								},
 								{
-									"translate": "ssbrc.tooltips.item.angel_feather.description.2",
+									"translate": "ssbrc.item.angel_feather.description.2",
 									"color": "gray",
 									"bold": false,
 									"italic": false

@@ -56,6 +56,7 @@ execute if entity @s[tag=fireball] run function ssbrc:fighters/mario/logic/abili
 # Mega Man
 execute if entity @s[tag=mega_buster] run function ssbrc:fighters/mega_man/logic/abilities/mega_buster/tick
 execute if entity @s[tag=air_shooter] run function ssbrc:fighters/mega_man/logic/abilities/air_shooter/tick
+execute if entity @s[tag=beat] run function ssbrc:fighters/mega_man/logic/abilities/beat_call/tick
 execute if entity @s[tag=drill_bomb] run function ssbrc:fighters/mega_man/logic/abilities/drill_bomb/tick
 execute if entity @s[tag=hyper_bomb] run function ssbrc:fighters/mega_man/logic/abilities/hyper_bomb/tick
 execute if entity @s[tag=junk_shield] run function ssbrc:fighters/mega_man/logic/abilities/junk_shield/tick

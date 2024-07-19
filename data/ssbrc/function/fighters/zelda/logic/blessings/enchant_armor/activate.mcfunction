@@ -4,4 +4,4 @@ attribute @s minecraft:generic.armor modifier add ssbrc:fighters/zelda/enchant_a
 
 scoreboard players set @s zelda.enchant_armor 600
 
-tellraw @s [{"translate":"ssbrc.fighters.zelda.blessing","color":"yellow"},{"translate":"ssbrc.fighters.zelda.blessing.enchant_armor","color":"gray"}]
+tellraw @s [{"translate":"ssbrc.fighter.zelda.blessing","color":"yellow"},{"translate":"ssbrc.fighter.zelda.blessing.enchant_armor","color":"gray"}]

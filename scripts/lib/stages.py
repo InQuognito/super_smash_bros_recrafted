@@ -3,6 +3,8 @@ from lib.core import *
 def stage_storage():
 	'''Initializes stage database into a Minecraft JSON storage.'''
 	with open('data\\ssbrc\\function\\logic\\init\\stages.mcfunction', 'w') as file:
+		warn_builder(file)
+
 		mc_write(file, 'data modify storage ssbrc:data stages set value {')
 		n = 1
 		for stage in ssbrc.stages:
@@ -10,7 +12,8 @@ def stage_storage():
 			mc_write(file, tab(2) + qm + 'name' + sep_s + stage + suf_s)
 			series = ssbrc.stages[stage]['series']
 			mc_write(file, tab(2) + qm + 'series' + sep_s + series + suf_s)
-			mc_write(file, tab(2) + qm + 'series_color' + sep_s + ssbrc.series[series] + suf_s)
+			mc_write(file, tab(2) + qm + 'series_type' + sep_s + ssbrc.series[series]['type'] + suf_s)
+			mc_write(file, tab(2) + qm + 'series_color' + sep_s + ssbrc.series[series]['color'] + suf_s)
 			mc_write(file, tab(2) + qm + 'color' + sep_s + ssbrc.stages[stage]['color'] + suf_s)
 			mc_write(file, tab(2) + qm + 'model' + sep_n + str(ssbrc.stages[stage]['model']) + ',')
 			mc_write(file, tab(2) + qm + 'name' + sep_s + stage + suf_s)
@@ -48,24 +51,23 @@ def stage_storage():
 
 def stage_getter():
 	'''Initializes the getter function that can be used to check for the desired stage.'''
-	with open('data\\ssbrc\\function\\logic\\stages\\get.mcfunction', 'w') as file:
+	with open('data\\ssbrc\\function\\logic\\stages\\loop.mcfunction', 'w') as file:
+		warn_builder(file)
+
 		for stage in ssbrc.stages:
-			js_write(file, f'$function $(function) with storage ssbrc:data stages.{stage}\n')
-	with open('data\\ssbrc\\function\\logic\\stages\\get_entity.mcfunction', 'w') as file:
-		for stage in ssbrc.stages:
-			js_write(file, f'$execute if entity @s[tag=$(stage)] run function $(function) with storage ssbrc:data stages.{stage}\n')
+			js_write(file, f'$$(operation) with storage ssbrc:data stages.{stage}\n')
 
 def create_series_tags():
 	'''Initializes series tags.'''
-	for name, color in ssbrc.series.items():
-		with open(f'data\\ssbrc\\item_modifier\\series\\{name}.json', 'w') as file:
+	for series in ssbrc.series:
+		with open(f'data\\ssbrc\\item_modifier\\series\\{series}.json', 'w') as file:
 			js_write(file, '{')
 			js_write(file, tab(1) + qm + 'function' + sep_s + 'minecraft:set_lore' + suf_s)
 			js_write(file, tab(1) + qm + 'entity' + sep_s + 'this' + suf_s)
 			js_write(file, tab(1) + qm + 'lore' + suf_l)
 			js_write(file, tab(2) + '{')
-			js_write(file, tab(3) + qm + 'translate' + sep_s + f'ssbrc.series.{name}' + suf_s)
-			js_write(file, tab(3) + qm + 'color' + sep_s + color + suf_s)
+			js_write(file, tab(3) + qm + 'translate' + sep_s + f'ssbrc.series.{series}' + suf_s)
+			js_write(file, tab(3) + qm + 'color' + sep_s + ssbrc.series[series]['color'] + suf_s)
 			js_write(file, tab(3) + qm + 'bold' + sep_n + 'false,')
 			js_write(file, tab(3) + qm + 'italic' + sep_n + 'false')
 			js_write(file, tab(2) + '}')
@@ -92,7 +94,7 @@ def create_stage_icon():
 			js_write(file, tab(7) + qm + 'entity' + sep_s + 'this' + suf_s)
 			js_write(file, tab(7) + qm + 'target' + sep_s + 'item_name' + suf_s)
 			js_write(file, tab(7) + qm + 'name' + suf_e)
-			js_write(file, tab(8) + qm + 'translate' + sep_s + f'ssbrc.stages.{stage}' + suf_s)
+			js_write(file, tab(8) + qm + 'translate' + sep_s + f'ssbrc.stage.{stage}' + suf_s)
 			js_write(file, tab(8) + qm + 'color' + sep_s + str(ssbrc.stages[stage]['color']) + suf_s)
 			js_write(file, tab(8) + qm + 'bold' + sep_n + 'true')
 			js_write(file, tab(7) + '}')

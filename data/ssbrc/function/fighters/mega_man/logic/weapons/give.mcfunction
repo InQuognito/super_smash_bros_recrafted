@@ -1,6 +1,6 @@
 $tag @s add mega_man.$(weapon)
 
-$loot replace entity @s hotbar.$(slot) loot ssbrc:fighters/mega_man/$(weapon)
+$function ssbrc:logic/item/default/get {item:"$(weapon)",slot:"$(slot)",type:"default"}
 
 $scoreboard players operation @s mega_man.$(weapon) = mega_man.$(weapon) vars
 

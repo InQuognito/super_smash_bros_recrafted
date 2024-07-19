@@ -7,7 +7,3 @@ execute if score random.output temp matches 4 run function ssbrc:fighters/mega_m
 
 scoreboard players remove @s mega_man.flame_sword 1
 item modify entity @s[scores={mega_man.flame_sword=..0}] weapon.mainhand ssbrc:fighters/mega_man/flame_sword/deactivate
-
-playsound ssbrc:fighters.hero.flame_slash.hit player @a
-
-advancement revoke @s only ssbrc:utility/flag/hurt_player/custom/flame_sword

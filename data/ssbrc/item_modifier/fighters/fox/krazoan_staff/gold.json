@@ -3,7 +3,7 @@
 		"function": "minecraft:set_name",
 		"entity": "this",
 		"name": {
-			"translate": "ssbrc.tooltips.fox.krazoan_staff",
+			"translate": "ssbrc.fighter.fox.krazoan_staff",
 			"color": "gold",
 			"bold": true,
 			"italic": false

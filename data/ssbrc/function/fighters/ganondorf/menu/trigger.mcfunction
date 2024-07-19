@@ -1,5 +1,7 @@
-execute if entity @s[scores={menu=1}] run function ssbrc:fighters/ganondorf/menu/skins/default
-execute if entity @s[scores={menu=2}] run function ssbrc:fighters/ganondorf/menu/skins/gold
-execute if entity @s[scores={menu=3}] run function ssbrc:fighters/ganondorf/menu/skins/ocarina_of_time
-execute if entity @s[scores={menu=4}] run function ssbrc:fighters/ganondorf/menu/skins/tears_of_the_kingdom
-execute if entity @s[scores={menu=5}] run function ssbrc:fighters/ganondorf/menu/skins/wind_waker
+# This file is controlled by the build script. Changes should be made in the respective file.
+
+execute if entity @s[scores={menu=1}] run function ssbrc:logic/fighters/select_skin {fighter:"ganondorf",skin:"default",color:"red"}
+execute if entity @s[scores={menu=2}] run function ssbrc:logic/fighters/select_skin {fighter:"ganondorf",skin:"gold",color:"gold"}
+execute if entity @s[scores={menu=3}] run function ssbrc:logic/fighters/select_skin {fighter:"ganondorf",skin:"ocarina_of_time",color:"red"}
+execute if entity @s[scores={menu=4}] run function ssbrc:logic/fighters/select_skin {fighter:"ganondorf",skin:"tears_of_the_kingdom",color:"dark_red"}
+execute if entity @s[scores={menu=5}] run function ssbrc:logic/fighters/select_skin {fighter:"ganondorf",skin:"wind_waker",color:"aqua"}

@@ -12,7 +12,7 @@
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"translate": "ssbrc.tooltips.shadow.chaos_control",
+								"translate": "ssbrc.fighter.shadow.chaos_control",
 								"color": "blue",
 								"bold": true,
 								"italic": false
@@ -47,7 +47,7 @@
 											"italic": false
 										},
 										{
-											"translate": "ssbrc.tooltips.shadow.chaos_control.description.1",
+											"translate": "ssbrc.fighter.shadow.chaos_control.description.1",
 											"color": "gray",
 											"bold": false,
 											"italic": false

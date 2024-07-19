@@ -1,8 +1,8 @@
 tag @s add hyper_voice
 
-execute if data storage ssbrc:temp player.data{skin:"default"} run tag @s add default
-execute if data storage ssbrc:temp player.data{skin:"gold"} run tag @s add gold
-execute if data storage ssbrc:temp player.data{skin:"shiny"} run tag @s add shiny
+execute if data storage ssbrc:temp player.temp_data{skin:"default"} run tag @s add default
+execute if data storage ssbrc:temp player.temp_data{skin:"gold"} run tag @s add gold
+execute if data storage ssbrc:temp player.temp_data{skin:"shiny"} run tag @s add shiny
 
 function ssbrc:logic/init/projectile_horizontal
 

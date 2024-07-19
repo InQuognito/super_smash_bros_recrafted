@@ -13,7 +13,7 @@
 							"entity": "this",
 							"target": "item_name",
 							"name": {
-								"translate": "ssbrc.stages.acropolis_graveyard",
+								"translate": "ssbrc.stage.acropolis_graveyard",
 								"color": "gold",
 								"bold": true
 							}

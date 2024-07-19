@@ -5,105 +5,105 @@
 			"condition": "minecraft:entity_properties",
 			"entity": "this",
 			"predicate": {
-				"nbt": "{Tags:[\"bowsers_castle\"]}"
+				"nbt": "{CustomName:'\"bowsers_castle\"'}"
 			}
 		},
 		{
 			"condition": "minecraft:entity_properties",
 			"entity": "this",
 			"predicate": {
-				"nbt": "{Tags:[\"castle_siege\"]}"
+				"nbt": "{CustomName:'\"castle_siege\"'}"
 			}
 		},
 		{
 			"condition": "minecraft:entity_properties",
 			"entity": "this",
 			"predicate": {
-				"nbt": "{Tags:[\"draculas_castle\"]}"
+				"nbt": "{CustomName:'\"draculas_castle\"'}"
 			}
 		},
 		{
 			"condition": "minecraft:entity_properties",
 			"entity": "this",
 			"predicate": {
-				"nbt": "{Tags:[\"dream_land\"]}"
+				"nbt": "{CustomName:'\"dream_land\"'}"
 			}
 		},
 		{
 			"condition": "minecraft:entity_properties",
 			"entity": "this",
 			"predicate": {
-				"nbt": "{Tags:[\"frozen_hijinx\"]}"
+				"nbt": "{CustomName:'\"frozen_hijinx\"'}"
 			}
 		},
 		{
 			"condition": "minecraft:entity_properties",
 			"entity": "this",
 			"predicate": {
-				"nbt": "{Tags:[\"garden_of_hope\"]}"
+				"nbt": "{CustomName:'\"garden_of_hope\"'}"
 			}
 		},
 		{
 			"condition": "minecraft:entity_properties",
 			"entity": "this",
 			"predicate": {
-				"nbt": "{Tags:[\"great_bay\"]}"
+				"nbt": "{CustomName:'\"great_bay\"'}"
 			}
 		},
 		{
 			"condition": "minecraft:entity_properties",
 			"entity": "this",
 			"predicate": {
-				"nbt": "{Tags:[\"green_hill_zone\"]}"
+				"nbt": "{CustomName:'\"green_hill_zone\"'}"
 			}
 		},
 		{
 			"condition": "minecraft:entity_properties",
 			"entity": "this",
 			"predicate": {
-				"nbt": "{Tags:[\"hyrule_castle\"]}"
+				"nbt": "{CustomName:'\"hyrule_castle\"'}"
 			}
 		},
 		{
 			"condition": "minecraft:entity_properties",
 			"entity": "this",
 			"predicate": {
-				"nbt": "{Tags:[\"jungle_japes\"]}"
+				"nbt": "{CustomName:'\"jungle_japes\"'}"
 			}
 		},
 		{
 			"condition": "minecraft:entity_properties",
 			"entity": "this",
 			"predicate": {
-				"nbt": "{Tags:[\"pac_maze\"]}"
+				"nbt": "{CustomName:'\"pac_maze\"'}"
 			}
 		},
 		{
 			"condition": "minecraft:entity_properties",
 			"entity": "this",
 			"predicate": {
-				"nbt": "{Tags:[\"saturn_valley\"]}"
+				"nbt": "{CustomName:'\"saturn_valley\"'}"
 			}
 		},
 		{
 			"condition": "minecraft:entity_properties",
 			"entity": "this",
 			"predicate": {
-				"nbt": "{Tags:[\"sector_z\"]}"
+				"nbt": "{CustomName:'\"sector_z\"'}"
 			}
 		},
 		{
 			"condition": "minecraft:entity_properties",
 			"entity": "this",
 			"predicate": {
-				"nbt": "{Tags:[\"shadow_moses_island\"]}"
+				"nbt": "{CustomName:'\"shadow_moses_island\"'}"
 			}
 		},
 		{
 			"condition": "minecraft:entity_properties",
 			"entity": "this",
 			"predicate": {
-				"nbt": "{Tags:[\"wily_castle\"]}"
+				"nbt": "{CustomName:'\"wily_castle\"'}"
 			}
 		}
 	]

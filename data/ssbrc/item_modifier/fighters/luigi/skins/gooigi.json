@@ -4,7 +4,7 @@
 		"entity": "this",
 		"target": "item_name",
 		"name": {
-			"translate": "ssbrc.fighters.luigi.skin.gooigi",
+			"translate": "ssbrc.skin.gooigi",
 			"color": "green",
 			"bold": true
 		}

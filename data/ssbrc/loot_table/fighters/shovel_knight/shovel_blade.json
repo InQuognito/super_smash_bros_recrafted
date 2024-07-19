@@ -53,7 +53,7 @@
 											"italic": false
 										},
 										{
-											"translate": "ssbrc.tooltips.shovel_knight.shovel_blade.description.1",
+											"translate": "ssbrc.fighter.shovel_knight.shovel_blade.description.1",
 											"color": "gray",
 											"bold": false,
 											"italic": false
@@ -61,7 +61,7 @@
 									]
 								},
 								{
-									"translate": "ssbrc.tooltips.shovel_knight.shovel_blade.description.2",
+									"translate": "ssbrc.fighter.shovel_knight.shovel_blade.description.2",
 									"color": "gray",
 									"bold": false,
 									"italic": false
@@ -73,7 +73,7 @@
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"translate": "ssbrc.tooltips.shovel_knight.shovel_blade",
+								"translate": "ssbrc.fighter.shovel_knight.shovel_blade",
 								"color": "dark_aqua",
 								"bold": true,
 								"italic": false
@@ -92,7 +92,7 @@
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"translate": "ssbrc.tooltips.shovel_knight.shovel_blade",
+								"translate": "ssbrc.fighter.shovel_knight.shovel_blade",
 								"color": "gold",
 								"bold": true,
 								"italic": false
@@ -111,7 +111,7 @@
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"translate": "ssbrc.tooltips.shovel_knight.shovel_blade",
+								"translate": "ssbrc.fighter.shovel_knight.shovel_blade",
 								"color": "red",
 								"bold": true,
 								"italic": false
@@ -130,7 +130,7 @@
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"translate": "ssbrc.tooltips.shovel_knight.shovel_blade",
+								"translate": "ssbrc.fighter.shovel_knight.shovel_blade",
 								"color": "green",
 								"bold": true,
 								"italic": false

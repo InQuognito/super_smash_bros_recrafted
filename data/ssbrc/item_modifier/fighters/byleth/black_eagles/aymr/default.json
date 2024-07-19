@@ -3,7 +3,7 @@
 		"function": "minecraft:set_name",
 		"entity": "this",
 		"name": {
-			"translate": "ssbrc.tooltips.byleth.black_eagles.aymr",
+			"translate": "ssbrc.fighter.byleth.black_eagles.aymr",
 			"color": "white",
 			"bold": true,
 			"italic": false
@@ -38,7 +38,7 @@
 						"italic": false
 					},
 					{
-						"translate": "ssbrc.tooltips.byleth.black_eagles.aymr.description.1",
+						"translate": "ssbrc.fighter.byleth.black_eagles.aymr.description.1",
 						"color": "gray",
 						"bold": false,
 						"italic": false
@@ -58,7 +58,7 @@
 						"italic": false
 					},
 					{
-						"translate": "ssbrc.tooltips.byleth.black_eagles.aymr.description.2",
+						"translate": "ssbrc.fighter.byleth.black_eagles.aymr.description.2",
 						"color": "gray",
 						"bold": false,
 						"italic": false

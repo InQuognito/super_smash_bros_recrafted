@@ -12,7 +12,7 @@
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"translate": "ssbrc.tooltips.zelda.dungeon_item.bomb",
+								"translate": "ssbrc.fighter.zelda.dungeon_item.bomb",
 								"color": "blue",
 								"bold": true,
 								"italic": false
@@ -43,7 +43,7 @@
 											"italic": false
 										},
 										{
-											"translate": "ssbrc.tooltips.zelda.dungeon_item.bomb.description.1",
+											"translate": "ssbrc.fighter.zelda.dungeon_item.bomb.description.1",
 											"color": "gray",
 											"bold": false,
 											"italic": false
@@ -63,7 +63,7 @@
 											"italic": false
 										},
 										{
-											"translate": "ssbrc.tooltips.zelda.dungeon_item.bomb.description.2",
+											"translate": "ssbrc.fighter.zelda.dungeon_item.bomb.description.2",
 											"color": "gray",
 											"bold": false,
 											"italic": false
@@ -71,7 +71,7 @@
 									]
 								},
 								{
-									"translate": "ssbrc.tooltips.zelda.dungeon_item.bomb.description.3",
+									"translate": "ssbrc.fighter.zelda.dungeon_item.bomb.description.3",
 									"color": "gray",
 									"bold": false,
 									"italic": false

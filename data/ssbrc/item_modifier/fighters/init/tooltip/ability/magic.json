@@ -8,7 +8,7 @@
 		"entity": "this",
 		"lore": [
 			{
-				"translate": "ssbrc.tooltips.ability.magic",
+				"translate": "ssbrc.ability.magic",
 				"color": "white",
 				"bold": false,
 				"italic": false,

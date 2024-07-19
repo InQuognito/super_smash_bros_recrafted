@@ -4,6 +4,8 @@ def init_fighter():
 	'''Initializes the necessary data to register a fighter and their skins.'''
 	fighter_storage()
 	fighter_getter()
+	get_random_fighter()
+	get_random_owned()
 
 	skin_trigger(f'data\\ssbrc\\function\\logic\\tick\\triggers\\')
 
@@ -17,9 +19,8 @@ def init_fighter():
 		remove_path(skin_path)
 
 		random_skin(fighter, skin_path)
-		reset_skin(fighter, skin_path)
+		skin_options(fighter, skin_path)
 
-		skin_options(fighter, f'data\\ssbrc\\function\\fighters\\{fighter}\\menu\\')
 		skin_triggers(fighter, f'data\\ssbrc\\function\\fighters\\{fighter}\\menu\\')
 
 		# Create skins
@@ -35,6 +36,8 @@ def init_fighter():
 def fighter_storage():
 	'''Initializes fighter database into a Minecraft JSON storage.'''
 	with open('data\\ssbrc\\function\\logic\\init\\fighters.mcfunction', 'w') as file:
+		warn_builder(file)
+
 		mc_write(file, 'data modify storage ssbrc:data fighters set value {')
 		fighter_count = len(ssbrc.fighters)
 		f = 1
@@ -42,6 +45,7 @@ def fighter_storage():
 			mc_write(file, tab(1) + qm + fighter + suf_e)
 			mc_write(file, tab(2) + qm + 'name' + sep_s + fighter + suf_s)
 			mc_write(file, tab(2) + qm + 'page' + sep_n + str(ssbrc.fighters[fighter]['page']) + ',')
+			mc_write(file, tab(2) + qm + 'miiverse_posts' + sep_n + str(ssbrc.fighters[fighter]['miiverse_posts']) + ',')
 			mc_write(file, tab(2) + qm + 'model' + sep_n + str(ssbrc.fighters[fighter]['model']) + ',')
 			if fighter == 'team_rocket':
 				mc_write(file, tab(2) + qm + 'model_jesse' + sep_n + str(ssbrc.fighters[fighter]['model'] + 1) + ',')
@@ -61,14 +65,36 @@ def fighter_storage():
 			for skin in ssbrc.fighters[fighter]['skins']:
 				mc_write(file, tab(3) + qm + skin + suf_e)
 				mc_write(file, tab(4) + qm + 'name' + sep_s + skin + suf_s)
-				mc_write(file, tab(4) + qm + 'model' + sep_n + str(i) + ',')
-				mc_write(file, tab(4) + qm + 'color' + sep_s + get_color(fighter, skin) + qm)
+				mc_write(file, tab(4) + qm + 'color' + sep_s + get_color(fighter, skin) + suf_s)
+				mc_write(file, tab(4) + qm + 'model' + sep_n + str(i))
 				if n < (skin_count - 2):
 					mc_write(file, tab(3) + ent)
 				else:
 					mc_write(file, tab(3) + '}')
 				i += forms
 				n += 1
+			mc_write(file, tab(2) + ent)
+			mc_write(file, tab(2) + qm + 'items' + suf_e)
+			if 'items' in ssbrc.fighters[fighter].keys():
+				for item in ssbrc.fighters[fighter]['items']:
+					mc_write(file, tab(3) + qm + item + suf_e)
+					for skin in ['default','gold']:
+						mc_write(file, tab(4) + qm + skin + suf_e)
+						mc_write(file, tab(5) + qm + 'name' + sep_s + ssbrc.fighters[fighter]['items'][item][skin]['name'] + suf_s)
+						mc_write(file, tab(5) + qm + 'color' + sep_s + ssbrc.fighters[fighter]['items'][item][skin]['color'] + suf_s)
+						mc_write(file, tab(5) + qm + 'model' + sep_n + str(ssbrc.fighters[fighter]['items'][item][skin]['model']) + ',')
+						tag = ssbrc.fighters[fighter]['items'][item][skin]['name'].split('.')
+						mc_write(file, tab(5) + qm + 'tag' + sep_s + tag[3] + qm)
+						mc_write(file, tab(4) + ent)
+					for skin in ssbrc.fighters[fighter]['skins']:
+						mc_write(file, tab(4) + qm + skin + suf_e)
+						mc_write(file, tab(5) + qm + 'name' + sep_s + ssbrc.fighters[fighter]['items'][item][skin]['name'] + suf_s)
+						mc_write(file, tab(5) + qm + 'color' + sep_s + ssbrc.fighters[fighter]['items'][item][skin]['color'] + suf_s)
+						mc_write(file, tab(5) + qm + 'model' + sep_n + str(ssbrc.fighters[fighter]['items'][item][skin]['model']) + ',')
+						tag = ssbrc.fighters[fighter]['items'][item][skin]['name'].split('.')
+						mc_write(file, tab(5) + qm + 'tag' + sep_s + tag[3] + qm)
+						mc_write(file, tab(4) + ent)
+					mc_write(file, tab(3) + ent)
 			mc_write(file, tab(2) + '}')
 			if f < fighter_count:
 				mc_write(file, tab(1) + ent)
@@ -80,62 +106,82 @@ def fighter_storage():
 def fighter_getter():
 	'''Initializes the getter function that can be used to check for the desired fighter.'''
 	with open('data\\ssbrc\\function\\logic\\fighters\\loop.mcfunction', 'w') as file:
+		warn_builder(file)
+
 		for fighter in ssbrc.fighters:
-			file.write(f'$function $(function) with storage ssbrc:data fighters.{fighter}\n')
+			if fighter != 'peach':
+				js_write(file, f'$function $(function) with storage ssbrc:data fighters.{fighter}')
+
+def get_random_fighter():
+	'''Initializes the getter function that can be used to check for the desired fighter.'''
+	fighter_count = str(len(ssbrc.fighters) - 1)
+
+	with open('data\\ssbrc\\function\\logic\\fighters\\get_random.mcfunction', 'w') as file:
+		warn_builder(file)
+
+		js_write(file, f'execute store result score random.output temp run random value 1..{fighter_count}\n')
+
+		i = 1
+		for fighter in ssbrc.fighters:
+			if fighter != 'peach':
+				js_write(file, f'$execute if score random.output temp matches {str(i)} run return run function $(function) with storage ssbrc:data fighters.{fighter}')
+				i += 1
+
+def get_random_owned():
+	'''Initializes the getter function that can be used to check for the desired fighter.'''
+	fighter_count = str(len(ssbrc.fighters) - 1)
+
+	with open('data\\ssbrc\\function\\logic\\fighters\\get_random_owned.mcfunction', 'w') as file:
+		warn_builder(file)
+
+		js_write(file, f'execute store result score random.output temp run random value 1..{fighter_count}\n')
+
+		i = 1
+		for fighter in ssbrc.fighters:
+			if fighter != 'peach':
+				js_write(file, '$execute if score random.output temp matches ' + str(i) + ' if entity @s[advancements={ssbrc:fighters/' + fighter + '/skins/default=true}] run return run function $(function) with storage ssbrc:data fighters.' + fighter)
+				i += 1
 
 def random_skin(fighter, path):
 	'''Initializes the file containing the random skin selection for the fighter.'''
 	create_path(path)
 	with open(path + 'random.mcfunction', 'w') as file:
-		js_write(file, 'scoreboard players set @s fighter_picked 1\n')
+		warn_builder(file)
+
 		js_write(file, f'execute store result score random.output temp run random value 1..{count_skins(fighter)}\n')
 
+		i = 1
 		if fighter == 'byleth':
-			i = 1
 			for skin in ['default','gold']:
-				js_write(file, 'execute unless score @s[advancements={ssbrc:fighters/' + fighter + '/skins/' + skin + '=true}] skin_picked matches 1 if score random.output temp matches ' + str(i) + ' run function ssbrc:fighters/' + fighter + '/menu/skins/' + skin + '/female')
-				js_write(file, 'execute unless score @s[advancements={ssbrc:fighters/' + fighter + '/skins/' + skin + '=true}] skin_picked matches 1 if score random.output temp matches ' + str(i+1) + ' run function ssbrc:fighters/' + fighter + '/menu/skins/' + skin + '/male')
+				js_write(file, 'execute if score random.output temp matches ' + str(i) + ' if entity @s[advancements={ssbrc:fighters/' + fighter + '/skins/' + skin + '=true}] run function ssbrc:fighters/' + fighter + '/menu/skins/' + skin + '/female')
+				js_write(file, 'execute if score random.output temp matches ' + str(i+1) + ' if entity @s[advancements={ssbrc:fighters/' + fighter + '/skins/' + skin + '=true}] run function ssbrc:fighters/' + fighter + '/menu/skins/' + skin + '/male')
 				i += 2
 			for skin in ssbrc.fighters[fighter]['skins']:
-				js_write(file, 'execute unless score @s[advancements={ssbrc:fighters/' + fighter + '/skins/' + skin + '=true}] skin_picked matches 1 if score random.output temp matches ' + str(i) + ' run function ssbrc:fighters/' + fighter + '/menu/skins/' + skin + '/female')
-				js_write(file, 'execute unless score @s[advancements={ssbrc:fighters/' + fighter + '/skins/' + skin + '=true}] skin_picked matches 1 if score random.output temp matches ' + str(i+1) + ' run function ssbrc:fighters/' + fighter + '/menu/skins/' + skin + '/male')
+				js_write(file, 'execute if score random.output temp matches ' + str(i) + ' if entity @s[advancements={ssbrc:fighters/' + fighter + '/skins/' + skin + '=true}] run function ssbrc:fighters/' + fighter + '/menu/skins/' + skin + '/female')
+				js_write(file, 'execute if score random.output temp matches ' + str(i+1) + ' if entity @s[advancements={ssbrc:fighters/' + fighter + '/skins/' + skin + '=true}] run function ssbrc:fighters/' + fighter + '/menu/skins/' + skin + '/male')
 				i += 2
-
 		else:
-			i = 1
 			for skin in ['default','gold']:
-				js_write(file, 'execute unless score @s[advancements={ssbrc:fighters/' + fighter + '/skins/' + skin + '=true}] skin_picked matches 1 if score random.output temp matches ' + str(i) + ' run function ssbrc:fighters/' + fighter + '/menu/skins/' + skin)
+				js_write(file, 'execute if score random.output temp matches ' + str(i) + ' if entity @s[advancements={ssbrc:fighters/' + fighter + '/skins/' + skin + '=true}] run return run function ssbrc:logic/fighters/select_skin {fighter:"' + fighter + '",skin:"' + skin + '",color:"' + get_color(fighter, skin) + '"}')
 				i += 1
 			for skin in ssbrc.fighters[fighter]['skins']:
-				js_write(file, 'execute unless score @s[advancements={ssbrc:fighters/' + fighter + '/skins/' + skin + '=true}] skin_picked matches 1 if score random.output temp matches ' + str(i) + ' run function ssbrc:fighters/' + fighter + '/menu/skins/' + skin)
+				js_write(file, 'execute if score random.output temp matches ' + str(i) + ' if entity @s[advancements={ssbrc:fighters/' + fighter + '/skins/' + skin + '=true}] run return run function ssbrc:logic/fighters/select_skin {fighter:"' + fighter + '",skin:"' + skin + '",color:"' + get_color(fighter, skin) + '"}')
 				i += 1
 
-		js_write(file, f'\nexecute if score @s skin_picked matches 1 run function ssbrc:logic/fighters/select with storage ssbrc:data fighters.{fighter}')
-		js_write(file, f'execute unless score @s skin_picked matches 1 run function ssbrc:fighters/{fighter}/menu/skins/random')
-
-def reset_skin(fighter, path):
-	'''Initializes the file containing the random skin selection for the fighter.'''
-	create_path(path)
-	with open(path + 'reset.mcfunction', 'w') as file:
-		for skin in ['default', 'gold']:
-			js_write(file, f'tag @s remove {skin}')
-		for skin in ssbrc.fighters[fighter]['skins']:
-			js_write(file, f'tag @s remove {skin}')
-
-		if fighter == 'byleth':
-			js_write(file, f'tag @s remove female')
-			js_write(file, f'tag @s remove male')
+		js_write(file, f'\nfunction ssbrc:fighters/{fighter}/menu/skins/random')
 
 def skin_trigger(path):
 	'''Initializes the file containing the skin triggers for the fighter.'''
 	create_path(path)
 	with open(path + 'menu.mcfunction', 'w') as file:
+		warn_builder(file)
+
 		js_write(file, 'execute if score @s menu matches -999 run function ssbrc:logic/player_data/reset/ask')
 		js_write(file, 'execute if entity @s[scores={menu=-998,reset=1}] run function ssbrc:logic/player_data/reset/cancel')
 		js_write(file, 'execute if entity @s[scores={menu=-997,reset=1}] run function ssbrc:logic/player_data/reset/confirm\n')
 
 		for fighter in ssbrc.fighters:
-			js_write(file, f'execute if entity @s[tag={fighter}] run function ssbrc:fighters/{fighter}/menu/trigger')
+			js_write(file, 'execute if data storage ssbrc:temp player.temp_data{fighter:"' + fighter + '"} run function ssbrc:fighters/' + fighter + '/menu/trigger')
 
 		js_write(file, '\nscoreboard players reset @s menu')
 		js_write(file, 'scoreboard players enable @s menu')
@@ -144,36 +190,38 @@ def skin_options(fighter, path):
 	'''Initializes the file containing the skin triggers for the fighter.'''
 	create_path(path)
 	n = 1
-	with open(path + 'skin_options.mcfunction', 'w', encoding='utf-8') as file:
-		js_write(file, 'tellraw @s [{"text":"=== ","color":"white"},{"translate":"ssbrc.fighters.menu.choose_skin","bold":true,"color":"yellow"},{"text":" ===","color":"white"}]\n')
+	with open(path + 'options.mcfunction', 'w', encoding='utf-8') as file:
+		warn_builder(file)
+
+		js_write(file, 'tellraw @s [{"text":"=== ","color":"white"},{"translate":"ssbrc.fighter.menu.choose_skin","bold":true,"color":"yellow"},{"text":" ===","color":"white"}]\n')
 
 		js_write(file, 'function ssbrc:logic/player_data/copy/check\n')
 
 		if fighter == 'byleth':
 			for skin in ['default','gold']:
 				if skin == 'default':
-					js_write(file, 'execute unless data storage ssbrc:temp player.data{skin:"' + skin + '"} run tellraw @s [{"translate":"' + get_translation_key(fighter, skin) + '","color":"' + get_color(fighter, skin) + '"},{"text":" - ","color":"white"},{"translate":"ssbrc.fighters.menu.gender.female.abbreviation","color":"light_purple","clickEvent":{"action":"run_command","value":"/trigger menu set ' + str(n) + '"}},{"text":" "},{"translate":"ssbrc.fighters.menu.gender.male.abbreviation","color":"blue","clickEvent":{"action":"run_command","value":"/trigger menu set ' + str(n + 1) + '"}}]')
+					js_write(file, 'execute unless data storage ssbrc:temp player.temp_data{skin:"' + skin + '"} run tellraw @s [{"translate":"ssbrc.skin.' + skin + '","color":"' + get_color(fighter, skin) + '"},{"text":" - ","color":"white"},{"translate":"ssbrc.fighter.menu.gender.female.abbreviation","color":"light_purple","clickEvent":{"action":"run_command","value":"/trigger menu set ' + str(n) + '"}},{"text":" "},{"translate":"ssbrc.fighter.menu.gender.male.abbreviation","color":"blue","clickEvent":{"action":"run_command","value":"/trigger menu set ' + str(n + 1) + '"}}]')
 				else:
-					js_write(file, 'execute unless data storage ssbrc:temp player.data{skin:"' + skin + '"} run tellraw @s[advancements={ssbrc:fighters/' + fighter + '/skins/' + skin + '=true}] [{"translate":"' + get_translation_key(fighter, skin) + '","color":"' + get_color(fighter, skin) + '"},{"text":" - ","color":"white"},{"translate":"ssbrc.fighters.menu.gender.female.abbreviation","color":"light_purple","clickEvent":{"action":"run_command","value":"/trigger menu set ' + str(n) + '"}},{"text":" "},{"translate":"ssbrc.fighters.menu.gender.male.abbreviation","color":"blue","clickEvent":{"action":"run_command","value":"/trigger menu set ' + str(n + 1) + '"}}]')
-				js_write(file, 'execute if data storage ssbrc:temp player.data{skin:"' + skin + '"} run tellraw @s[tag=female] [{"translate":"' + get_translation_key(fighter, skin) + '","color":"' + get_color(fighter, skin) + '"},{"text":" - ","color":"white"},{"translate":"ssbrc.fighters.menu.gender.female.abbreviation","strikethrough":true,"color":"light_purple"},{"text":" "},{"translate":"ssbrc.fighters.menu.gender.male.abbreviation","color":"blue","clickEvent":{"action":"run_command","value":"/trigger menu set ' + str(n + 1) + '"}},{"text":" ✔","color":"green"}]')
-				js_write(file, 'execute if data storage ssbrc:temp player.data{skin:"' + skin + '"} run tellraw @s[tag=male] [{"translate":"' + get_translation_key(fighter, skin) + '","color":"' + get_color(fighter, skin) + '"},{"text":" - ","color":"white"},{"translate":"ssbrc.fighters.menu.gender.female.abbreviation","color":"light_purple","clickEvent":{"action":"run_command","value":"/trigger menu set ' + str(n) + '"}},{"text":" "},{"translate":"ssbrc.fighters.menu.gender.male.abbreviation","strikethrough":true,"color":"blue"},{"text":" ✔","color":"green"}]\n')
+					js_write(file, 'execute unless data storage ssbrc:temp player.temp_data{skin:"' + skin + '"} run tellraw @s[advancements={ssbrc:fighters/' + fighter + '/skins/' + skin + '=true}] [{"translate":"ssbrc.skin.' + skin + '","color":"' + get_color(fighter, skin) + '"},{"text":" - ","color":"white"},{"translate":"ssbrc.fighter.menu.gender.female.abbreviation","color":"light_purple","clickEvent":{"action":"run_command","value":"/trigger menu set ' + str(n) + '"}},{"text":" "},{"translate":"ssbrc.fighter.menu.gender.male.abbreviation","color":"blue","clickEvent":{"action":"run_command","value":"/trigger menu set ' + str(n + 1) + '"}}]')
+				js_write(file, 'execute if data storage ssbrc:temp player.temp_data{skin:"' + skin + '"} run tellraw @s[tag=female] [{"translate":"ssbrc.skin.' + skin + '","color":"' + get_color(fighter, skin) + '"},{"text":" - ","color":"white"},{"translate":"ssbrc.fighter.menu.gender.female.abbreviation","strikethrough":true,"color":"light_purple"},{"text":" "},{"translate":"ssbrc.fighter.menu.gender.male.abbreviation","color":"blue","clickEvent":{"action":"run_command","value":"/trigger menu set ' + str(n + 1) + '"}},{"text":" ✔","color":"green"}]')
+				js_write(file, 'execute if data storage ssbrc:temp player.temp_data{skin:"' + skin + '"} run tellraw @s[tag=male] [{"translate":"ssbrc.skin.' + skin + '","color":"' + get_color(fighter, skin) + '"},{"text":" - ","color":"white"},{"translate":"ssbrc.fighter.menu.gender.female.abbreviation","color":"light_purple","clickEvent":{"action":"run_command","value":"/trigger menu set ' + str(n) + '"}},{"text":" "},{"translate":"ssbrc.fighter.menu.gender.male.abbreviation","strikethrough":true,"color":"blue"},{"text":" ✔","color":"green"}]\n')
 				n += 2
 			for skin in ssbrc.fighters[fighter]['skins']:
-				js_write(file, 'execute unless data storage ssbrc:temp player.data{skin:"' + skin + '"} run tellraw @s[advancements={ssbrc:fighters/' + fighter + '/skins/' + skin + '=true}] [{"translate":"' + get_translation_key(fighter, skin) + '","color":"' + get_color(fighter, skin) + '"},{"text":" - ","color":"white"},{"translate":"ssbrc.fighters.menu.gender.female.abbreviation","color":"light_purple","clickEvent":{"action":"run_command","value":"/trigger menu set ' + str(n) + '"}},{"text":" "},{"translate":"ssbrc.fighters.menu.gender.male.abbreviation","color":"blue","clickEvent":{"action":"run_command","value":"/trigger menu set ' + str(n + 1) + '"}}]')
-				js_write(file, 'execute if data storage ssbrc:temp player.data{skin:"' + skin + '"} run tellraw @s[tag=female] [{"translate":"' + get_translation_key(fighter, skin) + '","color":"' + get_color(fighter, skin) + '"},{"text":" - ","color":"white"},{"translate":"ssbrc.fighters.menu.gender.female.abbreviation","strikethrough":true,"color":"light_purple"},{"text":" "},{"translate":"ssbrc.fighters.menu.gender.male.abbreviation","color":"blue","clickEvent":{"action":"run_command","value":"/trigger menu set ' + str(n + 1) + '"}},{"text":" ✔","color":"green"}]')
-				js_write(file, 'execute if data storage ssbrc:temp player.data{skin:"' + skin + '"} run tellraw @s[tag=male] [{"translate":"' + get_translation_key(fighter, skin) + '","color":"' + get_color(fighter, skin) + '"},{"text":" - ","color":"white"},{"translate":"ssbrc.fighters.menu.gender.female.abbreviation","color":"light_purple","clickEvent":{"action":"run_command","value":"/trigger menu set ' + str(n) + '"}},{"text":" "},{"translate":"ssbrc.fighters.menu.gender.male.abbreviation","strikethrough":true,"color":"blue"},{"text":" ✔","color":"green"}]\n')
+				js_write(file, 'execute unless data storage ssbrc:temp player.temp_data{skin:"' + skin + '"} run tellraw @s[advancements={ssbrc:fighters/' + fighter + '/skins/' + skin + '=true}] [{"translate":"ssbrc.skin.' + skin + '","color":"' + get_color(fighter, skin) + '"},{"text":" - ","color":"white"},{"translate":"ssbrc.fighter.menu.gender.female.abbreviation","color":"light_purple","clickEvent":{"action":"run_command","value":"/trigger menu set ' + str(n) + '"}},{"text":" "},{"translate":"ssbrc.fighter.menu.gender.male.abbreviation","color":"blue","clickEvent":{"action":"run_command","value":"/trigger menu set ' + str(n + 1) + '"}}]')
+				js_write(file, 'execute if data storage ssbrc:temp player.temp_data{skin:"' + skin + '"} run tellraw @s[tag=female] [{"translate":"ssbrc.skin.' + skin + '","color":"' + get_color(fighter, skin) + '"},{"text":" - ","color":"white"},{"translate":"ssbrc.fighter.menu.gender.female.abbreviation","strikethrough":true,"color":"light_purple"},{"text":" "},{"translate":"ssbrc.fighter.menu.gender.male.abbreviation","color":"blue","clickEvent":{"action":"run_command","value":"/trigger menu set ' + str(n + 1) + '"}},{"text":" ✔","color":"green"}]')
+				js_write(file, 'execute if data storage ssbrc:temp player.temp_data{skin:"' + skin + '"} run tellraw @s[tag=male] [{"translate":"ssbrc.skin.' + skin + '","color":"' + get_color(fighter, skin) + '"},{"text":" - ","color":"white"},{"translate":"ssbrc.fighter.menu.gender.female.abbreviation","color":"light_purple","clickEvent":{"action":"run_command","value":"/trigger menu set ' + str(n) + '"}},{"text":" "},{"translate":"ssbrc.fighter.menu.gender.male.abbreviation","strikethrough":true,"color":"blue"},{"text":" ✔","color":"green"}]\n')
 				n += 2
 		else:
 			for skin in ['default','gold']:
 				if skin == 'default':
-					js_write(file, 'execute unless data storage ssbrc:temp player.data{skin:"' + skin + '"} run tellraw @s {"translate":"' + get_translation_key(fighter, skin) + '","color":"' + get_color(fighter, skin) + '","clickEvent":{"action":"run_command","value":"/trigger menu set ' + str(n) + '"}}')
+					js_write(file, 'execute unless data storage ssbrc:temp player.temp_data{skin:"' + skin + '"} run tellraw @s {"translate":"ssbrc.skin.' + skin + '","color":"' + get_color(fighter, skin) + '","clickEvent":{"action":"run_command","value":"/trigger menu set ' + str(n) + '"}}')
 				else:
-					js_write(file, 'execute unless data storage ssbrc:temp player.data{skin:"' + skin + '"} run tellraw @s[advancements={ssbrc:fighters/' + fighter + '/skins/' + skin + '=true}] {"translate":"' + get_translation_key(fighter, skin) + '","color":"' + get_color(fighter, skin) + '","clickEvent":{"action":"run_command","value":"/trigger menu set ' + str(n) + '"}}')
-				js_write(file, 'execute if data storage ssbrc:temp player.data{skin:"' + skin + '"} run tellraw @s [{"translate":"' + get_translation_key(fighter, skin) + '","color":"' + get_color(fighter, skin) + '"},{"text":" ✔","color":"green"}]\n')
+					js_write(file, 'execute unless data storage ssbrc:temp player.temp_data{skin:"' + skin + '"} run tellraw @s[advancements={ssbrc:fighters/' + fighter + '/skins/' + skin + '=true}] {"translate":"ssbrc.skin.' + skin + '","color":"' + get_color(fighter, skin) + '","clickEvent":{"action":"run_command","value":"/trigger menu set ' + str(n) + '"}}')
+				js_write(file, 'execute if data storage ssbrc:temp player.temp_data{skin:"' + skin + '"} run tellraw @s [{"translate":"ssbrc.skin.' + skin + '","color":"' + get_color(fighter, skin) + '"},{"text":" ✔","color":"green"}]\n')
 				n += 1
 			for skin in ssbrc.fighters[fighter]['skins']:
-				js_write(file, 'execute unless data storage ssbrc:temp player.data{skin:"' + skin + '"} run tellraw @s[advancements={ssbrc:fighters/' + fighter + '/skins/' + skin + '=true}] {"translate":"' + get_translation_key(fighter, skin) + '","color":"' + get_color(fighter, skin) + '","clickEvent":{"action":"run_command","value":"/trigger menu set ' + str(n) + '"}}')
-				js_write(file, 'execute if data storage ssbrc:temp player.data{skin:"' + skin + '"} run tellraw @s [{"translate":"' + get_translation_key(fighter, skin) + '","color":"' + get_color(fighter, skin) + '"},{"text":" ✔","color":"green"}]\n')
+				js_write(file, 'execute unless data storage ssbrc:temp player.temp_data{skin:"' + skin + '"} run tellraw @s[advancements={ssbrc:fighters/' + fighter + '/skins/' + skin + '=true}] {"translate":"ssbrc.skin.' + skin + '","color":"' + get_color(fighter, skin) + '","clickEvent":{"action":"run_command","value":"/trigger menu set ' + str(n) + '"}}')
+				js_write(file, 'execute if data storage ssbrc:temp player.temp_data{skin:"' + skin + '"} run tellraw @s [{"translate":"ssbrc.skin.' + skin + '","color":"' + get_color(fighter, skin) + '"},{"text":" ✔","color":"green"}]\n')
 				n += 1
 
 		js_write(file, 'function ssbrc:logic/fighters/menu/skin_options')
@@ -183,6 +231,8 @@ def skin_triggers(fighter, path):
 	create_path(path)
 	n = 1
 	with open(path + 'trigger.mcfunction', 'w') as file:
+		warn_builder(file)
+
 		if fighter == 'byleth':
 			for skin in ['default','gold']:
 				js_write(file, 'execute if entity @s[scores={menu=' + str(n) + '}] run function ' + f'ssbrc:fighters/{fighter}/menu/skins/{skin}/female')
@@ -195,8 +245,8 @@ def skin_triggers(fighter, path):
 
 		else:
 			for skin in ['default','gold']:
-				js_write(file, 'execute if entity @s[scores={menu=' + str(n) + '}] run function ' + f'ssbrc:fighters/{fighter}/menu/skins/{skin}')
+				js_write(file, 'execute if entity @s[scores={menu=' + str(n) + '}] run function ' + 'ssbrc:logic/fighters/select_skin {fighter:"' + fighter + '",skin:"' + skin + '",color:"' + get_color(fighter, skin) + '"}')
 				n += 1
 			for skin in ssbrc.fighters[fighter]['skins']:
-				js_write(file, 'execute if entity @s[scores={menu=' + str(n) + '}] run function ' + f'ssbrc:fighters/{fighter}/menu/skins/{skin}')
+				js_write(file, 'execute if entity @s[scores={menu=' + str(n) + '}] run function ' + 'ssbrc:logic/fighters/select_skin {fighter:"' + fighter + '",skin:"' + skin + '",color:"' + get_color(fighter, skin) + '"}')
 				n += 1

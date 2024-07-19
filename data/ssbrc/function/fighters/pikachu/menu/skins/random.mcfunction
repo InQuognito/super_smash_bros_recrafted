@@ -1,11 +1,10 @@
-scoreboard players set @s fighter_picked 1
+# This file is controlled by the build script. Changes should be made in the respective file.
 
 execute store result score random.output temp run random value 1..4
 
-execute unless score @s[advancements={ssbrc:fighters/pikachu/skins/default=true}] skin_picked matches 1 if score random.output temp matches 1 run function ssbrc:fighters/pikachu/menu/skins/default
-execute unless score @s[advancements={ssbrc:fighters/pikachu/skins/gold=true}] skin_picked matches 1 if score random.output temp matches 2 run function ssbrc:fighters/pikachu/menu/skins/gold
-execute unless score @s[advancements={ssbrc:fighters/pikachu/skins/santa_hat=true}] skin_picked matches 1 if score random.output temp matches 3 run function ssbrc:fighters/pikachu/menu/skins/santa_hat
-execute unless score @s[advancements={ssbrc:fighters/pikachu/skins/shiny=true}] skin_picked matches 1 if score random.output temp matches 4 run function ssbrc:fighters/pikachu/menu/skins/shiny
+execute if score random.output temp matches 1 if entity @s[advancements={ssbrc:fighters/pikachu/skins/default=true}] run return run function ssbrc:logic/fighters/select_skin {fighter:"pikachu",skin:"default",color:"yellow"}
+execute if score random.output temp matches 2 if entity @s[advancements={ssbrc:fighters/pikachu/skins/gold=true}] run return run function ssbrc:logic/fighters/select_skin {fighter:"pikachu",skin:"gold",color:"gold"}
+execute if score random.output temp matches 3 if entity @s[advancements={ssbrc:fighters/pikachu/skins/santa_hat=true}] run return run function ssbrc:logic/fighters/select_skin {fighter:"pikachu",skin:"santa_hat",color:"red"}
+execute if score random.output temp matches 4 if entity @s[advancements={ssbrc:fighters/pikachu/skins/shiny=true}] run return run function ssbrc:logic/fighters/select_skin {fighter:"pikachu",skin:"shiny",color:"yellow"}
 
-execute if score @s skin_picked matches 1 run function ssbrc:logic/fighters/select with storage ssbrc:data fighters.pikachu
-execute unless score @s skin_picked matches 1 run function ssbrc:fighters/pikachu/menu/skins/random
+function ssbrc:fighters/pikachu/menu/skins/random

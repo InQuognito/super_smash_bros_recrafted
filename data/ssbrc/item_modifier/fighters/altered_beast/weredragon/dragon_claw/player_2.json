@@ -3,7 +3,7 @@
 		"function": "minecraft:set_name",
 		"entity": "this",
 		"name": {
-			"translate": "ssbrc.tooltips.altered_beast.weredragon.dragon_claw",
+			"translate": "ssbrc.fighter.altered_beast.weredragon.dragon_claw",
 			"color": "yellow",
 			"bold": true,
 			"italic": false

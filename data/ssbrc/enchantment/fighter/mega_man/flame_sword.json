@@ -1,0 +1,67 @@
+{
+	"description": "Flame Sword",
+	"supported_items": "#ssbrc:equipment",
+	"weight": 1,
+	"max_level": 1,
+	"min_cost": {
+		"base": 1,
+		"per_level_above_first": 1
+	},
+	"max_cost": {
+		"base": 1,
+		"per_level_above_first": 1
+	},
+	"anvil_cost": 0,
+	"slots": [
+		"mainhand"
+	],
+	"effects": {
+		"minecraft:post_attack": [
+			{
+				"enchanted": "attacker",
+				"affected": "victim",
+				"effect": {
+					"type": "minecraft:run_function",
+					"function": "ssbrc:logic/fighters/effects/wither"
+				},
+				"requirements": {
+					"condition": "minecraft:entity_scores",
+					"entity": "this",
+					"scores": {
+						"mega_man.flame_sword": {
+							"min": 1
+						}
+					}
+				}
+			},
+			{
+				"enchanted": "attacker",
+				"affected": "attacker",
+				"effect": {
+					"type": "minecraft:all_of",
+					"effects": [
+						{
+							"type": "minecraft:run_function",
+							"function": "ssbrc:fighters/mega_man/logic/abilities/flame_sword/activate"
+						},
+						{
+							"type": "minecraft:play_sound",
+							"sound":{"sound_id":"ssbrc:fighters.hero.flame_slash.hit"},
+							"volume": 1,
+							"pitch": 1
+						}
+					]
+				},
+				"requirements": {
+					"condition": "minecraft:entity_scores",
+					"entity": "this",
+					"scores": {
+						"mega_man.flame_sword": {
+							"min": 1
+						}
+					}
+				}
+			}
+		]
+	}
+}

@@ -4,7 +4,7 @@
 		"entity": "this",
 		"target": "item_name",
 		"name": {
-			"translate": "ssbrc.fighters.hero.skin.rek",
+			"translate": "ssbrc.skin.rek",
 			"color": "blue",
 			"bold": true
 		}

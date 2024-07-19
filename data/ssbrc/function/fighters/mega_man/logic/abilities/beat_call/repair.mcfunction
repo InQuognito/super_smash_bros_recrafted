@@ -1,3 +1,7 @@
-scoreboard players add @s charge.3 1
-execute if score @s charge.3 matches 20.. run scoreboard players add @s yar.drone.health 1
-execute if score @s charge.3 matches 20.. run scoreboard players set @s charge.3 0
+scoreboard players set durability.modify temp 1
+function ssbrc:logic/item/durability/add/check
+
+scoreboard players remove @s charge.1 1
+scoreboard players remove @s mega_man.beat_call 1
+
+scoreboard players set @s cooldown.1 20

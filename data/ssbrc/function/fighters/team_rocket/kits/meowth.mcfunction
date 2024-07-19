@@ -1,18 +1,7 @@
-function ssbrc:fighters/team_rocket/kits/reset
-tag @s add next_fighter_chosen
-
-tag @s add meowth
-
-tellraw @s {"translate":"ssbrc.fighters.team_rocket.meowth.switch","color":"yellow"}
-
-clear @s #ssbrc:equipment
+function ssbrc:fighters/team_rocket/kits/update {form:"meowth",color:"yellow"}
 
 loot replace entity @s hotbar.0 loot ssbrc:fighters/team_rocket/meowth/scratch
 
 loot replace entity @s hotbar.1 loot ssbrc:fighters/team_rocket/meowth/fury_swipes
 
 loot replace entity @s hotbar.2 loot ssbrc:fighters/team_rocket/meowth/payday
-
-function ssbrc:logic/fighters/armor/update/check
-function ssbrc:logic/fighters/attributes/defaults
-function ssbrc:logic/fighters/effects/default
