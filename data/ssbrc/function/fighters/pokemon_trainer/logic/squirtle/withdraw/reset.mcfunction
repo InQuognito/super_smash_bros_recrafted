@@ -5,7 +5,7 @@ scoreboard players set @s charge.2 0
 effect clear @s minecraft:invisibility
 effect give @s minecraft:glowing infinite 0 true
 
-kill @n[type=minecraft:item_display,tag=squirtle_shell]
+kill @n[type=minecraft:item_display,tag=squirtle_shell,predicate=ssbrc:id_match]
 
 function ssbrc:logic/fighters/armor/get
 
