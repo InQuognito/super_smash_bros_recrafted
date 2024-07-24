@@ -5,10 +5,10 @@
 	},
 	{
 		"function": "minecraft:reference",
-		"name": "ssbrc:fighters/init/ability/charge"
+		"name": "ssbrc:fighters/init/unbreakable"
 	},
 	{
 		"function": "minecraft:set_custom_data",
-		"tag": "{item:\"bow\",path:\"zelda/logic/abilities/bow/check\"}"
+		"tag": "{item:\"bow\"}"
 	}
 ]

@@ -3,7 +3,6 @@ execute unless entity @s[tag=picking_random] run function ssbrc:logic/player_dat
 
 function ssbrc:logic/player_data/copy/check
 $execute unless data storage ssbrc:temp player.temp_data{fighter:"team_rocket"} run function ssbrc:logic/player_data/set {mode:"store",key:"form",value:"$(default_form)"}
-execute if data storage ssbrc:temp player.temp_data{fighter:"team_rocket"} run function ssbrc:logic/player_data/set {mode:"store",key:"form",value:"$(default_form)"}
 
 tag @s add fighter_picked
 

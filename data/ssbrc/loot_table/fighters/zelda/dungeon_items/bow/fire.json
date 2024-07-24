@@ -50,8 +50,17 @@
 							"mode": "append"
 						},
 						{
-							"function": "minecraft:reference",
-							"name": "ssbrc:fighters/zelda/bow/fire/idle"
+							"function": "minecraft:set_components",
+							"components": {
+								"minecraft:enchantments": {
+									"levels": {
+										"ssbrc:fighter/zelda/dungeon_item/bow/fire": 1,
+										"minecraft:infinity": 1
+									},
+									"show_in_tooltip": false
+								},
+								"minecraft:custom_model_data": 1781
+							}
 						},
 						{
 							"function": "minecraft:set_custom_data",

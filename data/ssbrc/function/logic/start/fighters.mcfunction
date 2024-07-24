@@ -6,12 +6,10 @@ scoreboard players operation @s stocks = stocks temp
 attribute @s minecraft:generic.jump_strength base set 0.42
 effect clear @s minecraft:slowness
 
-execute if score teams options matches 0 run scoreboard players operation team temp = @s id
-function ssbrc:logic/teams/set
-
 execute store result score @s health run data get entity @s Health
 
 scoreboard players set @s charge.output 0
+scoreboard players set @s combo.count 0
 scoreboard players set @s flag.sprinting 0
 scoreboard players set @s frostbite.cooldown 0
 scoreboard players set @s rotation 0

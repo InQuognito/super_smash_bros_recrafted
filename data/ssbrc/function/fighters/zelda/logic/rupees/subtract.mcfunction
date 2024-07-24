@@ -1,4 +1,4 @@
-scoreboard players remove @s charge.1 1
+scoreboard players remove @s resource 1
 
 scoreboard players remove @s zelda.rupee.down 1
 

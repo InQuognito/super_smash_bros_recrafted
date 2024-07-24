@@ -4,7 +4,7 @@
 	"lore": [
 		{
 			"translate": "ssbrc.series.earthbound",
-			"color": "gold",
+			"color": "#B09C61",
 			"bold": false,
 			"italic": false
 		}

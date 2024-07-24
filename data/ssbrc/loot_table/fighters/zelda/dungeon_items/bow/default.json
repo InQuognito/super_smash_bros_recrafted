@@ -17,8 +17,17 @@
 							"name": "ssbrc:fighters/init/preset/bow"
 						},
 						{
-							"function": "minecraft:reference",
-							"name": "ssbrc:fighters/zelda/bow/default/idle"
+							"function": "minecraft:set_components",
+							"components": {
+								"minecraft:enchantments": {
+									"levels": {
+										"ssbrc:fighter/zelda/dungeon_item/bow/default": 1,
+										"minecraft:infinity": 1
+									},
+									"show_in_tooltip": false
+								},
+								"minecraft:custom_model_data": 1780
+							}
 						},
 						{
 							"function": "minecraft:set_custom_data",

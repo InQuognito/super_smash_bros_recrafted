@@ -1,5 +1,0 @@
-execute if items entity @s weapon.mainhand minecraft:nether_star[minecraft:custom_data~{type:"default"}] run item modify entity @s weapon.mainhand ssbrc:fighters/zelda/bow/default/pulling_0
-
-execute if items entity @s weapon.mainhand minecraft:nether_star[minecraft:custom_data~{type:"fire"}] run item modify entity @s weapon.mainhand ssbrc:fighters/zelda/bow/fire/pulling_0
-
-execute if items entity @s weapon.mainhand minecraft:nether_star[minecraft:custom_data~{type:"poison"}] run item modify entity @s weapon.mainhand ssbrc:fighters/zelda/bow/poison/pulling_0

@@ -6,4 +6,4 @@ item modify entity @s armor.head {"function":"minecraft:set_custom_model_data","
 item modify entity @s armor.chest {"function":"minecraft:set_components","components":{"minecraft:trim":{"material":"minecraft:quartz","pattern":"ssbrc:fighters/petrified","show_in_tooltip":false}}}
 item modify entity @s armor.legs {"function":"minecraft:set_components","components":{"minecraft:trim":{"material":"minecraft:quartz","pattern":"ssbrc:fighters/petrified","show_in_tooltip":false}}}
 
-tellraw @s {"translate":"ssbrc.tooltip.effect.petrified","color":"yellow"}
+playsound ssbrc:fighters.altered_beast.werebear.petrifying_breath.hit player @a

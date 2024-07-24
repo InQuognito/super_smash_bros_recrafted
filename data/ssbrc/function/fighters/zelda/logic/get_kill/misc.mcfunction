@@ -1,3 +1,5 @@
-execute store result score @s zelda.rupee.up run random value 1..2
+scoreboard players set rupee temp 1
+scoreboard players operation rupee temp += @s combo.count
+execute if score rupee temp matches 4.. run scoreboard players set rupee temp 3
 
-scoreboard players operation @s[tag=rupee_master] zelda.rupee.up *= 2 integers
+function ssbrc:fighters/zelda/logic/rupees/set {mode:"up"}

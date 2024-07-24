@@ -1,2 +1,2 @@
-scoreboard players set @s combo.count 1
-scoreboard players reset @s combo.duration
+scoreboard players set @s combo.count 0
+scoreboard players set @s combo.duration 0

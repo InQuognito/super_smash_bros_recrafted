@@ -898,7 +898,7 @@ data modify storage ssbrc:data stages set value {\
 		"name": "magicant",\
 		"series": "earthbound",\
 		"series_type": "default",\
-		"series_color": "gold",\
+		"series_color": "#B09C61",\
 		"color": "light_purple",\
 		"model": 1050,\
 		"name": "magicant",\
@@ -1414,7 +1414,7 @@ data modify storage ssbrc:data stages set value {\
 		"name": "saturn_valley",\
 		"series": "earthbound",\
 		"series_type": "default",\
-		"series_color": "gold",\
+		"series_color": "#B09C61",\
 		"color": "green",\
 		"model": 1500,\
 		"name": "saturn_valley",\

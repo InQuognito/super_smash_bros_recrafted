@@ -1,8 +1,5 @@
-scoreboard players operation charge.output temp = @s charge.output
-execute anchored eyes positioned ^ ^ ^1 summon minecraft:marker run function ssbrc:fighters/zelda/logic/abilities/bow/init/marker
+$scoreboard players operation zelda.bow.cost temp = zelda.bow.cost.$(type) vars
+execute if score @s zelda.half_magic matches 1.. run scoreboard players operation zelda.bow.cost temp /= 2 integers
 
 scoreboard players operation @s mana -= zelda.bow.cost temp
-
-function ssbrc:logic/item/cooldown/set/const {type:"1",value:"30"}
-
-playsound minecraft:entity.arrow.shoot player @a
+execute if score @s mana < zelda.bow.cost temp run clear @s minecraft:arrow

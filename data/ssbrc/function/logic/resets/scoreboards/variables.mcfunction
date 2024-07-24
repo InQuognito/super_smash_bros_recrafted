@@ -184,13 +184,13 @@ scoreboard players set yar.railgun.range vars 600
 scoreboard players set yar.railgun.piercing vars 30
 
 scoreboard players set zelda.magic.max vars 10
-scoreboard players set zelda.rupees.max vars 30
+scoreboard players set zelda.rupees.max vars 50
 scoreboard players set zelda.glass_threshold vars 250
 scoreboard players set zelda.bomb.timer vars 80
 scoreboard players set zelda.ice_block.range vars 20
 scoreboard players set zelda.bomb.cost vars 4
 scoreboard players set zelda.boomerang.cost vars 2
-scoreboard players set zelda.bow.cost vars 1
+scoreboard players set zelda.bow.cost.default vars 1
 scoreboard players set zelda.bow.cost.fire vars 2
 scoreboard players set zelda.bow.cost.poison vars 2
 scoreboard players set zelda.fire_rod.cost vars 2

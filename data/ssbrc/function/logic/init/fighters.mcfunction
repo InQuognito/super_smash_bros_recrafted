@@ -166,7 +166,7 @@ data modify storage ssbrc:data fighters set value {\
 		"skins": {\
 			"awakened": {\
 				"name": "awakened",\
-				"color": "aqua",\
+				"color": "#C7D6AF",\
 				"model": 104\
 			}\
 		},\
@@ -615,19 +615,19 @@ data modify storage ssbrc:data fighters set value {\
 			"hyper_bomb": {\
 				"default": {\
 					"name": "ssbrc.fighter.mega_man.hyper_bomb",\
-					"color": "gray",\
+					"color": "#30993A",\
 					"model": 897,\
 					"tag": "hyper_bomb"\
 				},\
 				"gold": {\
 					"name": "ssbrc.fighter.mega_man.hyper_bomb",\
-					"color": "gray",\
+					"color": "#30993A",\
 					"model": 897,\
 					"tag": "hyper_bomb"\
 				},\
 				"star_force": {\
 					"name": "ssbrc.fighter.mega_man.hyper_bomb",\
-					"color": "gray",\
+					"color": "#30993A",\
 					"model": 897,\
 					"tag": "hyper_bomb"\
 				},\
@@ -681,7 +681,7 @@ data modify storage ssbrc:data fighters set value {\
 				},\
 				"gold": {\
 					"name": "ssbrc.fighter.mega_man.metal_blade",\
-					"color": "gold",\
+					"color": "gray",\
 					"model": 901,\
 					"tag": "metal_blade"\
 				},\
@@ -695,19 +695,19 @@ data modify storage ssbrc:data fighters set value {\
 			"pile_driver": {\
 				"default": {\
 					"name": "ssbrc.fighter.mega_man.pile_driver",\
-					"color": "red",\
+					"color": "#E6771E",\
 					"model": 886,\
 					"tag": "pile_driver"\
 				},\
 				"gold": {\
 					"name": "ssbrc.fighter.mega_man.pile_driver",\
-					"color": "red",\
+					"color": "#E6771E",\
 					"model": 886,\
 					"tag": "pile_driver"\
 				},\
 				"star_force": {\
 					"name": "ssbrc.fighter.mega_man.pile_driver",\
-					"color": "red",\
+					"color": "#E6771E",\
 					"model": 892,\
 					"tag": "pile_driver"\
 				},\
@@ -715,19 +715,19 @@ data modify storage ssbrc:data fighters set value {\
 			"remote_mine": {\
 				"default": {\
 					"name": "ssbrc.fighter.mega_man.remote_mine",\
-					"color": "red",\
+					"color": "#E861A1",\
 					"model": 887,\
 					"tag": "remote_mine"\
 				},\
 				"gold": {\
 					"name": "ssbrc.fighter.mega_man.remote_mine",\
-					"color": "red",\
+					"color": "#E861A1",\
 					"model": 887,\
 					"tag": "remote_mine"\
 				},\
 				"star_force": {\
 					"name": "ssbrc.fighter.mega_man.remote_mine",\
-					"color": "red",\
+					"color": "#E861A1",\
 					"model": 893,\
 					"tag": "remote_mine"\
 				},\
@@ -896,7 +896,7 @@ data modify storage ssbrc:data fighters set value {\
 		"skins": {\
 			"gravity_suit": {\
 				"name": "gravity_suit",\
-				"color": "light_purple",\
+				"color": "#BB2EF4",\
 				"model": 1422\
 			},\
 			"phazon_suit": {\

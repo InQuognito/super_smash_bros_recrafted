@@ -1,5 +1,5 @@
 {
-	"description": "Fire Arrow",
+	"description": "Bow - Fire Arrow",
 	"supported_items": "minecraft:bow",
 	"weight": 1,
 	"max_level": 1,
@@ -20,7 +20,7 @@
 			{
 				"effect": {
 					"type": "minecraft:run_function",
-					"function": "ssbrc:fighters/zelda/logic/abilities/bow/init/fire"
+					"function": "ssbrc:fighters/zelda/logic/abilities/bow/activate/fire"
 				}
 			}
 		]

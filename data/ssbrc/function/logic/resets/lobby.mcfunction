@@ -11,14 +11,10 @@ summon minecraft:text_display -528.5 6.0 -1939.5 {Tags:["lobby.timer"],billboard
 summon minecraft:text_display -528.5 6.75 -1949.5 {text:'{"translate":"ssbrc.lobby.credits","color":"gold"}',billboard:"center",alignment:"center"}
 summon minecraft:text_display -521.5 1.75 -1944.5 {text:'{"translate":"ssbrc.lobby.return","color":"gold"}',billboard:"center",alignment:"center"}
 
-# YouTube
-#setblock -531 4 -1944 minecraft:dark_oak_wall_sign[facing=east]{front_text:{messages:['[""]','[{"text":"YouTube","clickEvent":{"action":"run_command","value":"/tellraw @s [\\"\\",{\\"text\\":\\"[\\",\\"bold\\":true,\\"color\\":\\"dark_red\\"},{\\"text\\":\\"YouTube\\",\\"bold\\":true,\\"color\\":\\"red\\",\\"clickEvent\\":{\\"action\\":\\"open_url\\",\\"value\\":\\"https://www.youtube.com/channel/UCCqXNuFgGs53GgP7oSQGtOA\\"}},{\\"text\\":\\"]\\",\\"bold\\":true,\\"color\\":\\"dark_red\\"}]"},"bold":true,"color":"red"}]','[""]','[""]'],has_glowing_text:1b},is_waxed:1b} destroy
-
-# Discord
-#setblock -531 4 -1945 minecraft:dark_oak_wall_sign[facing=east]{front_text:{messages:['[""]','[{"text":"Discord","clickEvent":{"action":"run_command","value":"/tellraw @s [\\"\\",{\\"text\\":\\"[\\",\\"bold\\":true,\\"color\\":\\"dark_blue\\"},{\\"text\\":\\"Discord\\",\\"bold\\":true,\\"color\\":\\"blue\\",\\"clickEvent\\":{\\"action\\":\\"open_url\\",\\"value\\":\\"https://discord.gg/yAzw55N5Ax\\"}},{\\"text\\":\\"]\\",\\"bold\\":true,\\"color\\":\\"dark_blue\\"}]"},"bold":true,"color":"blue"}]','[""]','[""]'],has_glowing_text:1b},is_waxed:1b} destroy
-
-# Planet Minecraft
-#setblock -531 4 -1946 minecraft:dark_oak_wall_sign[facing=east]{front_text:{messages:['[""]','[{"text":"Planet","clickEvent":{"action":"run_command","value":"/tellraw @s [\\"\\",{\\"text\\":\\"[\\",\\"bold\\":true,\\"color\\":\\"dark_green\\"},{\\"text\\":\\"Planet Minecraft\\",\\"bold\\":true,\\"color\\":\\"green\\",\\"clickEvent\\":{\\"action\\":\\"open_url\\",\\"value\\":\\"https://www.planetminecraft.com/member/team_recrafted/\\"}},{\\"text\\":\\"]\\",\\"bold\\":true,\\"color\\":\\"dark_green\\"}]"},"bold":true,"color":"green"}]','[{"text":"Minecraft","bold":true,"color":"green"}]','[""]'],has_glowing_text:1b},is_waxed:1b} destroy
+# Links
+execute positioned -536 15 -1939 run function ssbrc:logic/resets/lobby/logo {text:"Discord",color:"blue",model:99990}
+execute positioned -536 15 -1945 run function ssbrc:logic/resets/lobby/logo {text:"PlanetMinecraft",color:"green",model:99991}
+execute positioned -536 15 -1951 run function ssbrc:logic/resets/lobby/logo {text:"YouTube",color:"red",model:99992}
 
 # Gold Mario
 summon minecraft:item_display -535.5 8.0 -1944.5 {Tags:["static_object","no_kill"],item:{id:"minecraft:stick",components:{"minecraft:custom_model_data":10000}},Rotation:[-90f,0f]}
@@ -28,7 +24,7 @@ summon minecraft:item_display -525.5 5.25 -1936.5 {CustomName:'"sandbag"',Tags:[
 
 # Resource Pack Checker
 summon minecraft:item_display -525.5 5.5 -1952.5 {Tags:["asset_test"],item:{id:"minecraft:barrier",components:{"minecraft:custom_model_data":99999}},transformation:[0.75f,0f,0f,0f,0f,0.75f,0f,0f,0f,0f,0.75f,0f,0f,0f,0f,1f]}
-#setblock -526 4 -1952 minecraft:dark_oak_wall_sign[facing=south]{front_text:{color:"white",messages:['[{"text":"If this is NOT a","bold":false,"color":"white"}]','[{"text":"Pokéball","clickEvent":{"action":"run_command","value":"/tellraw @s [\\"\\",{\\"text\\":\\"[\\",\\"bold\\":true,\\"color\\":\\"dark_blue\\"},{\\"text\\":\\"Resource Pack\\",\\"bold\\":true,\\"color\\":\\"blue\\",\\"clickEvent\\":{\\"action\\":\\"open_url\\",\\"value\\":\\"https://www.mediafire.com/folder/nfw6qfrl6rgd7/SSBRC\\"}},{\\"text\\":\\"]\\",\\"bold\\":true,\\"color\\":\\"dark_blue\\"}]"},"bold":false,"color":"red"},{"text":", click","bold":false,"color":"white"}]','[{"text":"here to download","bold":false,"color":"white"}]','[{"text":"Resource Pack!","bold":false,"color":"white"}]'],has_glowing_text:1b},is_waxed:1b} destroy
+#setblock -526 4 -1952 minecraft:dark_oak_wall_sign[facing=south]{front_text:{color:"white",messages:['[{"text":"If this is NOT a","bold":false,"color":"white"}]','[{"text":"Pokéball","clickEvent":{"action":"run_command","value":"/tellraw @s [\"\",{\"text\":\"[\",\"bold\":true,\"color\":\"dark_blue\"},{\"text\":\"Resource Pack\",\"bold\":true,\"color\":\"blue\",\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://www.mediafire.com/folder/nfw6qfrl6rgd7/SSBRC\"}},{\"text\":\"]\",\"bold\":true,\"color\":\"dark_blue\"}]"},"bold":false,"color":"red"},{"text":", click","bold":false,"color":"white"}]','[{"text":"here to download","bold":false,"color":"white"}]','[{"text":"Resource Pack!","bold":false,"color":"white"}]'],has_glowing_text:1b},is_waxed:1b} destroy
 
 setblock 0 16 0 minecraft:shulker_box replace
 setblock 0 17 0 minecraft:birch_sign replace

@@ -235,18 +235,18 @@ def skin_triggers(fighter, path):
 
 		if fighter == 'byleth':
 			for skin in ['default','gold']:
-				js_write(file, 'execute if entity @s[scores={menu=' + str(n) + '}] run function ' + f'ssbrc:fighters/{fighter}/menu/skins/{skin}/female')
-				js_write(file, 'execute if entity @s[scores={menu=' + str(n + 1) + '}] run function ' + f'ssbrc:fighters/{fighter}/menu/skins/{skin}/male')
+				js_write(file, 'execute if entity @s[scores={menu=' + str(n) + '}] run return run function ' + f'ssbrc:fighters/{fighter}/menu/skins/{skin}/female')
+				js_write(file, 'execute if entity @s[scores={menu=' + str(n + 1) + '}] run return run function ' + f'ssbrc:fighters/{fighter}/menu/skins/{skin}/male')
 				n += 2
 			for skin in ssbrc.fighters[fighter]['skins']:
-				js_write(file, 'execute if entity @s[scores={menu=' + str(n) + '}] run function ' + f'ssbrc:fighters/{fighter}/menu/skins/{skin}/female')
-				js_write(file, 'execute if entity @s[scores={menu=' + str(n + 1) + '}] run function ' + f'ssbrc:fighters/{fighter}/menu/skins/{skin}/male')
+				js_write(file, 'execute if entity @s[scores={menu=' + str(n) + '}] run return run function ' + f'ssbrc:fighters/{fighter}/menu/skins/{skin}/female')
+				js_write(file, 'execute if entity @s[scores={menu=' + str(n + 1) + '}] run return run function ' + f'ssbrc:fighters/{fighter}/menu/skins/{skin}/male')
 				n += 2
 
 		else:
 			for skin in ['default','gold']:
-				js_write(file, 'execute if entity @s[scores={menu=' + str(n) + '}] run function ' + 'ssbrc:logic/fighters/select_skin {fighter:"' + fighter + '",skin:"' + skin + '",color:"' + get_color(fighter, skin) + '"}')
+				js_write(file, 'execute if entity @s[scores={menu=' + str(n) + '}] run return run function ' + 'ssbrc:logic/fighters/select_skin {fighter:"' + fighter + '",skin:"' + skin + '",color:"' + get_color(fighter, skin) + '"}')
 				n += 1
 			for skin in ssbrc.fighters[fighter]['skins']:
-				js_write(file, 'execute if entity @s[scores={menu=' + str(n) + '}] run function ' + 'ssbrc:logic/fighters/select_skin {fighter:"' + fighter + '",skin:"' + skin + '",color:"' + get_color(fighter, skin) + '"}')
+				js_write(file, 'execute if entity @s[scores={menu=' + str(n) + '}] run return run function ' + 'ssbrc:logic/fighters/select_skin {fighter:"' + fighter + '",skin:"' + skin + '",color:"' + get_color(fighter, skin) + '"}')
 				n += 1
