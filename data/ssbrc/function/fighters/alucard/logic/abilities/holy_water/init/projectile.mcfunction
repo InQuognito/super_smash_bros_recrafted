@@ -1,7 +1,7 @@
 tag @s add holy_water
-execute if entity @p[tag=self,tag=blood_metamorphosis] run tag @s add large
+execute if entity @p[tag=self,tag=blood_metamorphosis] run tag @s add pending_blood_metamorphosis
 
-function ssbrc:logic/init/id
+function ssbrc:logic/init/projectile
 
 data merge entity @s {Duration:200}
 

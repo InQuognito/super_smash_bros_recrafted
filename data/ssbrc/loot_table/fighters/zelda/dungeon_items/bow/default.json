@@ -13,8 +13,14 @@
 							"name": "ssbrc:fighters/zelda/bow/init"
 						},
 						{
-							"function": "minecraft:reference",
-							"name": "ssbrc:fighters/init/preset/bow"
+							"function": "minecraft:set_name",
+							"entity": "this",
+							"name": {
+								"translate": "item.minecraft.bow",
+								"color": "white",
+								"bold": true,
+								"italic": false
+							}
 						},
 						{
 							"function": "minecraft:set_components",
@@ -31,7 +37,7 @@
 						},
 						{
 							"function": "minecraft:set_custom_data",
-							"tag": "{type:\"default\"}"
+							"tag": "{item:\"default_bow\"}"
 						}
 					]
 				}

@@ -190,9 +190,9 @@ scoreboard players set zelda.bomb.timer vars 80
 scoreboard players set zelda.ice_block.range vars 20
 scoreboard players set zelda.bomb.cost vars 4
 scoreboard players set zelda.boomerang.cost vars 2
-scoreboard players set zelda.bow.cost.default vars 1
-scoreboard players set zelda.bow.cost.fire vars 2
-scoreboard players set zelda.bow.cost.poison vars 2
+scoreboard players set zelda.default_bow.cost vars 1
+scoreboard players set zelda.fire_bow.cost vars 2
+scoreboard players set zelda.poison_bow.cost vars 2
 scoreboard players set zelda.fire_rod.cost vars 2
 scoreboard players set zelda.fire_rod.cost.alt vars 4
 scoreboard players set zelda.ice_rod.cost vars 2
@@ -202,8 +202,8 @@ scoreboard players set zelda.great_fairy_blessing vars 10
 scoreboard players set zelda.inventory_refresh vars 20
 
 # Maps
-scoreboard players set thwompTime vars 100
-scoreboard players operation thwompSinkTime vars = thwompTime vars
+scoreboard players set thwomp_time vars 100
+scoreboard players operation thwompSinkTime vars = thwomp_time vars
 scoreboard players operation thwompSinkTime vars *= 3 integers
 
 scoreboard players set cameraRange vars 5

@@ -72,6 +72,7 @@ scoreboard objectives add motion_x dummy
 scoreboard objectives add motion_y dummy
 scoreboard objectives add motion_z dummy
 scoreboard objectives add options_trigger trigger
+scoreboard objectives add petrified dummy
 scoreboard objectives add piercing dummy
 scoreboard objectives add point dummy
 scoreboard objectives add points dummy

@@ -5,10 +5,11 @@ execute if entity @s[tag=evil,tag=heavy] run particle minecraft:dust_color_trans
 
 execute unless block ~ ~ ~ #ssbrc:passthrough run kill @s
 
-execute if entity @s[tag=!evil,tag=!heavy] positioned ~-0.25 ~-0.25 ~-0.25 as @e[tag=!self,predicate=ssbrc:flag/targets,dx=0] positioned ~-0.5 ~-0.5 ~-0.5 if entity @s[dx=0] run function ssbrc:fighters/ryu/logic/abilities/hadouken/hit/default/default
-execute if entity @s[tag=!evil,tag=heavy] positioned ~-0.5 ~-0.5 ~-0.5 as @e[tag=!self,predicate=ssbrc:flag/targets,dx=0] run function ssbrc:fighters/ryu/logic/abilities/hadouken/hit/default/heavy
-execute if entity @s[tag=evil,tag=!heavy] positioned ~-0.25 ~-0.25 ~-0.25 as @e[tag=!self,predicate=ssbrc:flag/targets,dx=0] positioned ~-0.5 ~-0.5 ~-0.5 if entity @s[dx=0] run function ssbrc:fighters/ryu/logic/abilities/hadouken/hit/evil/default
-execute if entity @s[tag=evil,tag=heavy] positioned ~-0.5 ~-0.5 ~-0.5 as @e[tag=!self,predicate=ssbrc:flag/targets,dx=0] run function ssbrc:fighters/ryu/logic/abilities/hadouken/hit/evil/heavy
+execute if entity @s[tag=!evil,tag=!heavy] positioned ~-0.25 ~-0.25 ~-0.25 as @e[tag=!self,predicate=ssbrc:flag/targets,dx=0] positioned ~-0.5 ~-0.5 ~-0.5 if entity @s[dx=0] run function ssbrc:logic/damage/player {amount:"6.0",type:"generic",kb_resist:"0.0"}
+execute if entity @s[tag=!evil,tag=heavy] positioned ~-0.5 ~-0.5 ~-0.5 as @e[tag=!self,predicate=ssbrc:flag/targets,dx=0] run function ssbrc:logic/damage/fire {amount:"8.0",burning:"40",type:"generic",kb_resist:"0.0"}
+execute if entity @s[tag=evil,tag=!heavy] positioned ~-0.25 ~-0.25 ~-0.25 as @e[tag=!self,predicate=ssbrc:flag/targets,dx=0] positioned ~-0.5 ~-0.5 ~-0.5 if entity @s[dx=0] run function ssbrc:logic/damage/player {amount:"8.0",type:"generic",kb_resist:"0.0"}
+execute if entity @s[tag=evil,tag=heavy] positioned ~-0.5 ~-0.5 ~-0.5 as @e[tag=!self,predicate=ssbrc:flag/targets,dx=0] run function ssbrc:logic/damage/player {amount:"10.0",type:"generic",kb_resist:"0.0"}
+
 execute if score entity_hit temp matches 1 run kill @s
 
 teleport @s[tag=!heavy] ^ ^ ^0.6

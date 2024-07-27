@@ -1,4 +1,4 @@
-execute unless score @s combo.duration matches -4..0 run scoreboard players set @s combo.count 0
+execute unless score @s combo.duration matches -4..0 run function ssbrc:logic/fighters/combo/reset
 execute if score @s combo.duration matches -4..0 run scoreboard players add @s combo.count 1
 
 # Reset combo duration

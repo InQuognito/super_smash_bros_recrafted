@@ -2,4 +2,4 @@ $attribute @s minecraft:generic.knockback_resistance modifier add ssbrc:knockbac
 
 $execute store success score damage_success temp run damage @s $(amount) ssbrc:$(type) by @a[tag=self,limit=1]
 
-attribute @s minecraft:generic.knockback_resistance modifier remove ssbrc:knockback_resistance
+function ssbrc:logic/damage/common {sound:"minecraft:entity.arrow.hit_player"}

@@ -6,7 +6,7 @@ execute facing ~ ~-1 ~.1 run particle minecraft:snowflake ^ ^ ^-2.0 ^ ^ ^-100000
 execute facing ~-.1 ~-1 ~ run particle minecraft:snowflake ^ ^ ^-2.0 ^ ^ ^-1000000.0 0.0000005 0 force @a
 execute facing ~ ~-1 ~-.1 run particle minecraft:snowflake ^ ^ ^-2.0 ^ ^ ^-1000000.0 0.0000005 0 force @a
 
-execute positioned ~-1 ~-0.1 ~-1 as @a[dx=2,dy=0,dz=2] run function ssbrc:fighters/zelda/logic/abilities/ice_rod/alternate_function/hit
+execute positioned ~-1 ~-0.1 ~-1 as @a[dx=2,dy=0,dz=2] run function ssbrc:logic/damage/player {amount:"16.0",type:"pierce",kb_resist:"0.0"}
 
 execute unless predicate ssbrc:flag/in_air run scoreboard players add @s temp 1
 execute if score @s temp matches 4.. run function ssbrc:fighters/zelda/logic/abilities/ice_rod/alternate_function/break

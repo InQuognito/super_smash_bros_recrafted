@@ -4,7 +4,7 @@ particle minecraft:dust_color_transition{from_color:[1.0,0.5,0.0],to_color:[1.0,
 
 execute unless block ~ ~ ~ #ssbrc:passthrough run kill @s
 
-execute positioned ~-0.15 ~-0.15 ~-0.15 as @e[tag=!self,nbt=!{Inventory:[{components:{"minecraft:custom_data":{item:"goron_locket"}}}]},predicate=ssbrc:flag/targets,dx=0] positioned ~-0.7 ~-0.7 ~-0.7 if entity @s[dx=0] run function ssbrc:fighters/altered_beast/logic/werewolf/flame_hands/hit
+execute positioned ~-0.15 ~-0.15 ~-0.15 as @e[tag=!self,predicate=ssbrc:flag/targets,dx=0] positioned ~-0.7 ~-0.7 ~-0.7 if entity @s[dx=0] run function ssbrc:logic/damage/fire {amount:"4.0",burning:"40",type:"generic",kb_resist:"0.0"}
 execute if score entity_hit temp matches 1 run kill @s
 
 teleport @s ^ ^ ^0.25

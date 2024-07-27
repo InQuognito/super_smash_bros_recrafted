@@ -1,9 +1,8 @@
 tag @s add holy_water.display
+$tag @s add $(skin)
 
-execute unless data storage ssbrc:temp player.temp_data{skin:"gold"} run tag @s add default
-execute if data storage ssbrc:temp player.temp_data{skin:"gold"} run tag @s add gold
-
-loot replace entity @s armor.head loot ssbrc:fighters/alucard/holy_water
+item replace entity @s[tag=!gold] armor.head with minecraft:nether_star[minecraft:custom_model_data=1841]
+item replace entity @s[tag=gold] armor.head with minecraft:nether_star[minecraft:custom_model_data=1843]
 
 data merge entity @s {Small:1b}
 

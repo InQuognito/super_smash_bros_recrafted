@@ -2,7 +2,7 @@ particle minecraft:dust_color_transition{from_color:[0.75,0.0,0.0],to_color:[1.0
 
 execute unless block ~ ~ ~ #ssbrc:passthrough run kill @s
 
-execute positioned ~-0.15 ~-0.15 ~-0.15 as @e[tag=!self,predicate=ssbrc:flag/targets,dx=0] unless items entity @s container.* minecraft:nether_star[minecraft:custom_data~{item:"goron_locket"}] positioned ~-0.7 ~-0.7 ~-0.7 if entity @s[dx=0] run function ssbrc:fighters/samus/logic/weapons/plasma_beam/hit
+execute positioned ~-0.15 ~-0.15 ~-0.15 as @e[tag=!self,predicate=ssbrc:flag/targets,dx=0] positioned ~-0.7 ~-0.7 ~-0.7 if entity @s[dx=0] run function ssbrc:logic/damage/fire {amount:"8.0",burning:"40",type:"generic",kb_resist:"0.0"}
 execute if score entity_hit temp matches 1 run kill @s
 
 teleport @s ^ ^ ^0.25

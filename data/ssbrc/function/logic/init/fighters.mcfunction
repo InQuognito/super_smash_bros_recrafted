@@ -78,20 +78,20 @@ data modify storage ssbrc:data fighters set value {\
 			"blood_metamorphosis": {\
 				"default": {\
 					"name": "ssbrc.fighter.alucard.blood_metamorphosis",\
-					"color": "blue",\
-					"model": 1841,\
+					"color": "dark_red",\
+					"model": 1842,\
 					"tag": "blood_metamorphosis"\
 				},\
 				"gold": {\
 					"name": "ssbrc.fighter.alucard.blood_metamorphosis",\
 					"color": "gold",\
-					"model": 1843,\
+					"model": 1844,\
 					"tag": "blood_metamorphosis"\
 				},\
 				"lords_of_shadow": {\
 					"name": "ssbrc.fighter.alucard.blood_metamorphosis",\
-					"color": "blue",\
-					"model": 1841,\
+					"color": "dark_red",\
+					"model": 1842,\
 					"tag": "blood_metamorphosis"\
 				},\
 			},\

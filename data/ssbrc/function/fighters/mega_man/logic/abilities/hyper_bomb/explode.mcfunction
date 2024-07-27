@@ -1,4 +1,4 @@
-execute as @e[predicate=ssbrc:flag/targets,distance=..6] run function ssbrc:fighters/mega_man/logic/abilities/hyper_bomb/hit
+execute as @e[tag=!self,predicate=ssbrc:flag/targets,distance=..6] run function ssbrc:logic/damage/player {amount:"12.0",type:"generic",kb_resist:"0.0"}
 execute as @a[tag=self,limit=1,distance=..6] run function ssbrc:logic/damage/unsourced {amount:"12.0",type:"generic",kb_resist:"0.0"}
 
 particle minecraft:explosion_emitter ~ ~ ~ 0.0 0.0 0.0 0.0 1 normal @a

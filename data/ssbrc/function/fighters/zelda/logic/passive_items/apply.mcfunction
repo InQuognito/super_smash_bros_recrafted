@@ -1,5 +1,3 @@
-execute if score debug options matches 1.. run say passive items | apply
-
 execute unless items entity @s container.* minecraft:nether_star[minecraft:custom_data~{item:"goron_locket"}] run effect clear @s minecraft:fire_resistance
 execute if items entity @s container.* minecraft:nether_star[minecraft:custom_data~{item:"goron_locket"}] run effect give @s minecraft:fire_resistance infinite 255 true
 

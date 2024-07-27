@@ -1,5 +1,3 @@
-execute if score debug options matches 1.. run say passive_item.mcfunction
-
 clear @s #ssbrc:fighters/zelda/passive_items[minecraft:custom_data~{group:"passive_item"}]
 
 execute store result score random.output temp run random value 1..10
@@ -15,4 +13,4 @@ execute if score random.output temp matches 8 run loot replace entity @s[predica
 execute if score random.output temp matches 9 run loot replace entity @s hotbar.2 loot ssbrc:fighters/zelda/passive_items/torch_of_wisdom
 execute if score random.output temp matches 10 run loot replace entity @s[predicate=ssbrc:stage/has_water] hotbar.2 loot ssbrc:fighters/zelda/passive_items/zoras_flippers
 
-execute unless items entity @s container.* #ssbrc:fighters/zelda/passive_items[minecraft:custom_data~{group:"passive_item"}] run function ssbrc:fighters/zelda/kit/items/passive_item
+execute unless items entity @s container.* #ssbrc:fighters/zelda/passive_items[minecraft:custom_data~{group:"passive_item"}] unless items entity @s weapon.offhand #ssbrc:fighters/zelda/passive_items[minecraft:custom_data~{group:"passive_item"}] run function ssbrc:fighters/zelda/kit/items/passive_item

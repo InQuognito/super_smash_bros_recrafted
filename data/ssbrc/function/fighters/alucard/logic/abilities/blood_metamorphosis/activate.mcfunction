@@ -2,7 +2,7 @@ function ssbrc:logic/damage/unsourced {amount:"4.0",type:"generic",kb_resist:"1.
 
 tag @s add blood_metamorphosis
 
-loot replace entity @s weapon.mainhand loot ssbrc:fighters/alucard/blood_metamorphosis
+item modify entity @s weapon.mainhand {"function":"minecraft:set_custom_model_data","value":1845}
 
 function ssbrc:logic/player_data/set {mode:"store",key:"form",value:"blood_metamorphosis"}
 function ssbrc:logic/fighters/armor/update/check

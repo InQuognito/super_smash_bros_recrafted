@@ -4,6 +4,4 @@ data merge entity @s {item:{id:"minecraft:nether_star",components:{"minecraft:cu
 
 scoreboard players operation @s id = temp id
 
-execute store result score random.output temp run random value 1..360
-
-execute store result entity @s Rotation[0] float 1.0 run scoreboard players get random.output temp
+execute store result entity @s Rotation[0] int 1.0 run random value 1..360

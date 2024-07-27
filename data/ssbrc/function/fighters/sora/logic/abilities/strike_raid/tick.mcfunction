@@ -2,7 +2,7 @@ particle minecraft:wax_off ~ ~ ~ 0.3 0.3 0.3 1.0 1 normal @a
 
 execute unless block ~ ~ ~ #ssbrc:passthrough run function ssbrc:fighters/sora/logic/abilities/strike_raid/deactivate
 
-execute positioned ~-0.5 ~-0.5 ~-0.5 as @e[tag=!self,predicate=ssbrc:flag/targets,dx=0] run function ssbrc:fighters/sora/logic/abilities/strike_raid/hit
+execute positioned ~-0.5 ~-0.5 ~-0.5 as @e[tag=!self,predicate=ssbrc:flag/targets,dx=0] run function ssbrc:logic/damage/player {amount:"10.0",type:"pierce",kb_resist:"0.0"}
 
 execute unless score @s temp matches 31.. rotated as @s run function ssbrc:fighters/sora/logic/abilities/strike_raid/movement
 

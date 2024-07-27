@@ -1,6 +1,6 @@
 tag @s add top
 
-data merge entity @s {ArmorItems:[{},{},{},{id:"minecraft:sugar",components:{"minecraft:custom_model_data":805}}]}
+item replace entity @s armor.head with minecraft:sugar[minecraft:custom_model_data=805]
 
 function ssbrc:stages/hyrule_castle/logic/hazards/tornadoes/init
 

@@ -20,7 +20,7 @@
 						},
 						{
 							"function": "minecraft:reference",
-							"name": "ssbrc:fighters/init/preset/magic"
+							"name": "ssbrc:fighters/zelda/dungeon_item"
 						},
 						{
 							"function": "minecraft:reference",

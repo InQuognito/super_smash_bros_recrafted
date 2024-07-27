@@ -1,14 +1,14 @@
 [
 	{
 		"function": "minecraft:reference",
+		"name": "ssbrc:fighters/zelda/dungeon_item"
+	},
+	{
+		"function": "minecraft:reference",
 		"name": "ssbrc:fighters/init/preset/magic"
 	},
 	{
 		"function": "minecraft:reference",
 		"name": "ssbrc:fighters/init/unbreakable"
-	},
-	{
-		"function": "minecraft:set_custom_data",
-		"tag": "{item:\"bow\"}"
 	}
 ]
