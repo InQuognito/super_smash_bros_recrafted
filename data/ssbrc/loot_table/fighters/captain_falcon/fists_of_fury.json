@@ -35,11 +35,11 @@
 						},
 						{
 							"function": "minecraft:reference",
-							"name": "ssbrc:fighters/init/preset/melee"
+							"name": "ssbrc:init/preset/melee"
 						},
 						{
 							"function": "minecraft:reference",
-							"name": "ssbrc:fighters/init/ability/default"
+							"name": "ssbrc:init/ability/default"
 						},
 						{
 							"function": "minecraft:set_lore",

@@ -20,7 +20,7 @@
 						},
 						{
 							"function": "minecraft:reference",
-							"name": "ssbrc:fighters/init/preset/item/activation"
+							"name": "ssbrc:init/preset/item/activation"
 						},
 						{
 							"function": "minecraft:set_lore",

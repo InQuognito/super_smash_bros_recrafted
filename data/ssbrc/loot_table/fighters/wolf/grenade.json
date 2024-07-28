@@ -20,11 +20,11 @@
 						},
 						{
 							"function": "minecraft:reference",
-							"name": "ssbrc:fighters/init/preset/ranged"
+							"name": "ssbrc:init/preset/ranged"
 						},
 						{
 							"function": "minecraft:reference",
-							"name": "ssbrc:fighters/init/ability/charge"
+							"name": "ssbrc:init/ability/charge"
 						},
 						{
 							"function": "minecraft:set_lore",

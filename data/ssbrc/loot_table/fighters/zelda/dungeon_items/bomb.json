@@ -24,7 +24,7 @@
 						},
 						{
 							"function": "minecraft:reference",
-							"name": "ssbrc:fighters/init/ability/default"
+							"name": "ssbrc:init/ability/default"
 						},
 						{
 							"function": "minecraft:set_lore",

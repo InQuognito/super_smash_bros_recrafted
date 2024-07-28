@@ -20,11 +20,11 @@
 						},
 						{
 							"function": "minecraft:reference",
-							"name": "ssbrc:fighters/init/tooltip/separator"
+							"name": "ssbrc:init/tooltip/separator"
 						},
 						{
 							"function": "minecraft:reference",
-							"name": "ssbrc:fighters/init/animation/instant"
+							"name": "ssbrc:init/animation/instant"
 						},
 						{
 							"function": "minecraft:set_lore",

@@ -44,7 +44,7 @@
 						},
 						{
 							"function": "minecraft:reference",
-							"name": "ssbrc:fighters/init/preset/melee"
+							"name": "ssbrc:init/preset/melee"
 						},
 						{
 							"function": "minecraft:reference",

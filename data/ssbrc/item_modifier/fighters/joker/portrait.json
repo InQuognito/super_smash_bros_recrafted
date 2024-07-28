@@ -1,11 +1,11 @@
 [
 	{
 		"function": "minecraft:reference",
-		"name": "ssbrc:fighters/init/tooltip/separator"
+		"name": "ssbrc:init/tooltip/separator"
 	},
 	{
 		"function": "minecraft:reference",
-		"name": "ssbrc:fighters/init/animation/smooth"
+		"name": "ssbrc:init/animation/smooth"
 	},
 	{
 		"function": "minecraft:reference",

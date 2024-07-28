@@ -1,7 +1,7 @@
 [
 	{
 		"function": "minecraft:reference",
-		"name": "ssbrc:fighters/init/preset/magic"
+		"name": "ssbrc:init/preset/magic"
 	},
 	{
 		"function": "minecraft:set_custom_data",

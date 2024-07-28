@@ -1,0 +1,10 @@
+[
+	{
+		"function": "minecraft:reference",
+		"name": "ssbrc:init/tooltip/ability/melee"
+	},
+	{
+		"function": "minecraft:reference",
+		"name": "ssbrc:init/unbreakable"
+	}
+]

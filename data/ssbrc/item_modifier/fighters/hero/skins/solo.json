@@ -11,6 +11,6 @@
 	},
 	{
 		"function": "minecraft:reference",
-		"name": "ssbrc:fighters/armor/aesthetic/hero/solo/default"
+		"name": "ssbrc:fighters/hero/armor/aesthetic/solo/default"
 	}
 ]

@@ -20,7 +20,7 @@
 						},
 						{
 							"function": "minecraft:reference",
-							"name": "ssbrc:fighters/init/preset/ui"
+							"name": "ssbrc:init/preset/ui"
 						},
 						{
 							"function": "minecraft:set_lore",

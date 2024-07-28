@@ -20,7 +20,7 @@
 						},
 						{
 							"function": "minecraft:reference",
-							"name": "ssbrc:fighters/init/tooltip/ability/support"
+							"name": "ssbrc:init/tooltip/ability/support"
 						},
 						{
 							"function": "minecraft:reference",

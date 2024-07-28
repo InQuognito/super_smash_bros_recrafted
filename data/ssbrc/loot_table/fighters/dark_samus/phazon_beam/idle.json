@@ -34,7 +34,7 @@
 						},
 						{
 							"function": "minecraft:reference",
-							"name": "ssbrc:fighters/init/unbreakable"
+							"name": "ssbrc:init/unbreakable"
 						},
 						{
 							"function": "minecraft:reference",

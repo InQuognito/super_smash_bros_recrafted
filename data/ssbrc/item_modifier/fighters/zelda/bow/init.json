@@ -5,10 +5,10 @@
 	},
 	{
 		"function": "minecraft:reference",
-		"name": "ssbrc:fighters/init/preset/magic"
+		"name": "ssbrc:init/preset/magic"
 	},
 	{
 		"function": "minecraft:reference",
-		"name": "ssbrc:fighters/init/unbreakable"
+		"name": "ssbrc:init/unbreakable"
 	}
 ]

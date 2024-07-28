@@ -10,7 +10,7 @@
 					"functions": [
 						{
 							"function": "minecraft:reference",
-							"name": "ssbrc:fighters/init/preset/ranged_unbreakable"
+							"name": "ssbrc:init/preset/ranged_unbreakable"
 						},
 						{
 							"function": "minecraft:reference",

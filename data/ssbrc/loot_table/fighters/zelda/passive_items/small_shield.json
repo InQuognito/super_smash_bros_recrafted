@@ -20,7 +20,7 @@
 						},
 						{
 							"function": "minecraft:reference",
-							"name": "ssbrc:fighters/init/preset/defensive"
+							"name": "ssbrc:init/preset/defensive"
 						},
 						{
 							"function": "minecraft:set_components",

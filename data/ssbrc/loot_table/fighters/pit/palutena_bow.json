@@ -20,11 +20,11 @@
 						},
 						{
 							"function": "minecraft:reference",
-							"name": "ssbrc:fighters/init/tooltip/ability/hybrid"
+							"name": "ssbrc:init/tooltip/ability/hybrid"
 						},
 						{
 							"function": "minecraft:reference",
-							"name": "ssbrc:fighters/init/ability/charge"
+							"name": "ssbrc:init/ability/charge"
 						},
 						{
 							"function": "minecraft:reference",

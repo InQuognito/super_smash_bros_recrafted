@@ -24,7 +24,7 @@
 						},
 						{
 							"function": "minecraft:reference",
-							"name": "ssbrc:fighters/init/preset/stage_index"
+							"name": "ssbrc:init/preset/stage_index"
 						},
 						{
 							"function": "minecraft:set_custom_model_data",

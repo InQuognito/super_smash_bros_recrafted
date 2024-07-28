@@ -25,11 +25,11 @@
 	},
 	{
 		"function": "minecraft:reference",
-		"name": "ssbrc:fighters/init/tooltip/ability/hybrid"
+		"name": "ssbrc:init/tooltip/ability/hybrid"
 	},
 	{
 		"function": "minecraft:reference",
-		"name": "ssbrc:fighters/init/ability/default"
+		"name": "ssbrc:init/ability/default"
 	},
 	{
 		"function": "minecraft:set_custom_data",

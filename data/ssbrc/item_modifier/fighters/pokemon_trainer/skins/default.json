@@ -11,6 +11,6 @@
 	},
 	{
 		"function": "minecraft:reference",
-		"name": "ssbrc:fighters/armor/aesthetic/pokemon_trainer/default/trainer"
+		"name": "ssbrc:fighters/pokemon_trainer/armor/aesthetic/default/trainer"
 	}
 ]

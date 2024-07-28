@@ -40,11 +40,11 @@
 						},
 						{
 							"function": "minecraft:reference",
-							"name": "ssbrc:fighters/init/tooltip/ability/melee"
+							"name": "ssbrc:init/tooltip/ability/melee"
 						},
 						{
 							"function": "minecraft:reference",
-							"name": "ssbrc:fighters/init/ability/charge"
+							"name": "ssbrc:init/ability/charge"
 						},
 						{
 							"function": "minecraft:reference",

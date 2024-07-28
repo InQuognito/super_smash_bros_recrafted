@@ -5,26 +5,26 @@ item replace entity @s armor.feet with minecraft:iron_boots[minecraft:hide_toolt
 
 function ssbrc:logic/player_data/copy/check
 
-execute if data storage ssbrc:temp player.temp_data{fighter:"zelda"} if items entity @s container.* minecraft:nether_star[minecraft:custom_data~{item:"ring_of_blasting"}] run item modify entity @s armor.chest ssbrc:fighters/enchantments/blast_protection_infinity
-item modify entity @s[predicate=ssbrc:fighters/enchantments/protection] armor.chest ssbrc:fighters/enchantments/protection
-item modify entity @s[predicate=ssbrc:fighters/enchantments/projectile_protection] armor.chest ssbrc:fighters/enchantments/projectile_protection
-item modify entity @s[predicate=ssbrc:fighters/enchantments/fire_protection] armor.chest ssbrc:fighters/enchantments/fire_protection
+execute if data storage ssbrc:temp player.temp_data{fighter:"zelda"} if items entity @s container.* minecraft:nether_star[minecraft:custom_data~{item:"ring_of_blasting"}] run item modify entity @s armor.chest ssbrc:enchantments/blast_protection_infinity
+item modify entity @s[predicate=ssbrc:fighters/enchantments/protection] armor.chest ssbrc:enchantments/protection
+item modify entity @s[predicate=ssbrc:fighters/enchantments/projectile_protection] armor.chest ssbrc:enchantments/projectile_protection
+item modify entity @s[predicate=ssbrc:fighters/enchantments/fire_protection] armor.chest ssbrc:enchantments/fire_protection
 
-item modify entity @s[predicate=ssbrc:fighters/enchantments/thorns] armor.chest ssbrc:fighters/enchantments/thorns
+item modify entity @s[predicate=ssbrc:fighters/enchantments/thorns] armor.chest ssbrc:enchantments/thorns
 
-item modify entity @s[predicate=ssbrc:fighters/enchantments/swift_sneak] armor.legs ssbrc:fighters/enchantments/swift_sneak
+item modify entity @s[predicate=ssbrc:fighters/enchantments/swift_sneak] armor.legs ssbrc:enchantments/swift_sneak
 
-item modify entity @s[predicate=!ssbrc:fighters/enchantments/feather_falling_infinity] armor.feet ssbrc:fighters/enchantments/feather_falling
-item modify entity @s[predicate=ssbrc:fighters/enchantments/feather_falling_infinity] armor.feet ssbrc:fighters/enchantments/feather_falling_infinity
-item modify entity @s[predicate=ssbrc:fighters/enchantments/depth_strider] armor.feet ssbrc:fighters/enchantments/depth_strider
+item modify entity @s[predicate=!ssbrc:fighters/enchantments/feather_falling_infinity] armor.feet ssbrc:enchantments/feather_falling
+item modify entity @s[predicate=ssbrc:fighters/enchantments/feather_falling_infinity] armor.feet ssbrc:enchantments/feather_falling_infinity
+item modify entity @s[predicate=ssbrc:fighters/enchantments/depth_strider] armor.feet ssbrc:enchantments/depth_strider
 
-item modify entity @s armor.head ssbrc:fighters/enchantments/binding_curse
-item modify entity @s armor.chest ssbrc:fighters/enchantments/binding_curse
-item modify entity @s armor.legs ssbrc:fighters/enchantments/binding_curse
-item modify entity @s armor.feet ssbrc:fighters/enchantments/binding_curse
+item modify entity @s armor.head ssbrc:enchantments/binding_curse
+item modify entity @s armor.chest ssbrc:enchantments/binding_curse
+item modify entity @s armor.legs ssbrc:enchantments/binding_curse
+item modify entity @s armor.feet ssbrc:enchantments/binding_curse
 
-item modify entity @s armor.chest ssbrc:fighters/armor/remove_armor_value
-item modify entity @s armor.legs ssbrc:fighters/armor/remove_armor_value
-item modify entity @s armor.feet ssbrc:fighters/armor/remove_armor_value
+item modify entity @s armor.chest ssbrc:fighters/remove_armor_value
+item modify entity @s armor.legs ssbrc:fighters/remove_armor_value
+item modify entity @s armor.feet ssbrc:fighters/remove_armor_value
 
 function ssbrc:logic/fighters/armor/update/check

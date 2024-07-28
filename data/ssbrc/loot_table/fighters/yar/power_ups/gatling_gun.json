@@ -20,7 +20,7 @@
 						},
 						{
 							"function": "minecraft:reference",
-							"name": "ssbrc:fighters/init/preset/augment"
+							"name": "ssbrc:init/preset/augment"
 						},
 						{
 							"function": "minecraft:set_lore",

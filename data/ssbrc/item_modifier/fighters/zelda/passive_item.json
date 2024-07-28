@@ -1,11 +1,11 @@
 [
 	{
 		"function": "minecraft:reference",
-		"name": "ssbrc:fighters/init/tooltip/ability/passive"
+		"name": "ssbrc:init/tooltip/ability/passive"
 	},
 	{
 		"function": "minecraft:reference",
-		"name": "ssbrc:fighters/init/animation/smooth"
+		"name": "ssbrc:init/animation/smooth"
 	},
 	{
 		"function": "minecraft:set_custom_data",

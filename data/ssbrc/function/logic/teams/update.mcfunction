@@ -1,4 +1,4 @@
-item modify entity @s hotbar.1 ssbrc:fighters/init/ability/default
+item modify entity @s hotbar.1 ssbrc:init/ability/default
 
 scoreboard players set @s cooldown 3
 

@@ -1,7 +1,7 @@
 [
 	{
 		"function": "minecraft:reference",
-		"name": "ssbrc:fighters/init/preset/hybrid"
+		"name": "ssbrc:init/preset/hybrid"
 	},
 	{
 		"function": "minecraft:set_lore",

@@ -28,15 +28,15 @@
 						},
 						{
 							"function": "minecraft:reference",
-							"name": "ssbrc:fighters/init/tooltip/ability/offensive"
+							"name": "ssbrc:init/tooltip/ability/offensive"
 						},
 						{
 							"function": "minecraft:reference",
-							"name": "ssbrc:fighters/init/ability/default"
+							"name": "ssbrc:init/ability/default"
 						},
 						{
 							"function": "minecraft:reference",
-							"name": "ssbrc:fighters/init/animation/instant"
+							"name": "ssbrc:init/animation/instant"
 						},
 						{
 							"function": "minecraft:set_lore",

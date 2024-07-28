@@ -43,11 +43,11 @@ def create_item_modifier(skin, fighter, path):
 			if skin != 'default' and 'collection' in ssbrc.fighters[fighter]['skins'][skin].keys():
 				js_write(file, tab(1) + '{')
 				js_write(file, tab(2) + qm + 'function' + sep_s + 'minecraft:reference' + suf_s)
-				js_write(file, tab(2) + qm + 'name' + sep_s + 'ssbrc:ui/shop/collection/' + str(ssbrc.fighters[fighter]['skins'][skin]['collection']) + qm)
+				js_write(file, tab(2) + qm + 'name' + sep_s + 'ssbrc:ui/shop/collection/' + ssbrc.fighters[fighter]['skins'][skin]['collection'] + qm)
 				js_write(file, tab(1) + ent)
 			js_write(file, tab(1) + '{')
 			js_write(file, tab(2) + qm + 'function' + sep_s + 'minecraft:reference' + suf_s)
-			js_write(file, tab(2) + qm + 'name' + sep_s + 'ssbrc:fighters/armor/aesthetic/' + fighter + '/' + skin + '/' + ssbrc.fighters[fighter]['forms'][0] + qm)
+			js_write(file, tab(2) + qm + 'name' + sep_s + f'ssbrc:fighters/{fighter}/armor/aesthetic/{skin}/' + ssbrc.fighters[fighter]['forms'][0] + qm)
 			js_write(file, tab(1) + '}')
 			js_write(file, ']')
 
@@ -81,7 +81,7 @@ def create_armor_trim(skin, fighter, path):
 def custom_model_data(skin, fighter, i):
 	'''Initializes skin item modifiers.'''
 	for form in ssbrc.fighters[fighter]['forms']:
-		path = f'data\\ssbrc\\item_modifier\\fighters\\armor\\\\aesthetic\\{fighter}\\{skin}\\'
+		path = f'data\\ssbrc\\item_modifier\\fighters\\{fighter}\\armor\\aesthetic\\{skin}\\'
 		create_path(path)
 		with open(path + form + '.json', 'w') as file:
 			js_write(file, '{')

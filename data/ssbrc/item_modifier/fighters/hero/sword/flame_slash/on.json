@@ -34,7 +34,7 @@
 	},
 	{
 		"function": "minecraft:reference",
-		"name": "ssbrc:fighters/init/tooltip/ability/magic"
+		"name": "ssbrc:init/tooltip/ability/magic"
 	},
 	{
 		"function": "minecraft:set_lore",

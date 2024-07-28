@@ -10,11 +10,11 @@
 					"functions": [
 						{
 							"function": "minecraft:reference",
-							"name": "ssbrc:fighters/init/preset/hybrid"
+							"name": "ssbrc:init/preset/hybrid"
 						},
 						{
 							"function": "minecraft:reference",
-							"name": "ssbrc:fighters/init/ability/charge"
+							"name": "ssbrc:init/ability/charge"
 						},
 						{
 							"function": "minecraft:set_lore",

@@ -1,15 +1,15 @@
 [
 	{
 		"function": "minecraft:reference",
-		"name": "ssbrc:fighters/init/tooltip/ability/utility"
+		"name": "ssbrc:init/tooltip/ability/utility"
 	},
 	{
 		"function": "minecraft:reference",
-		"name": "ssbrc:fighters/init/ability/charge"
+		"name": "ssbrc:init/ability/charge"
 	},
 	{
 		"function": "minecraft:reference",
-		"name": "ssbrc:fighters/init/animation/smooth"
+		"name": "ssbrc:init/animation/smooth"
 	},
 	{
 		"function": "minecraft:set_lore",

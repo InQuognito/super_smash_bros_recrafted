@@ -20,7 +20,7 @@
 						},
 						{
 							"function": "minecraft:reference",
-							"name": "ssbrc:fighters/init/preset/transformation"
+							"name": "ssbrc:init/preset/transformation"
 						},
 						{
 							"function": "minecraft:set_lore",

@@ -10,19 +10,19 @@
 					"functions": [
 						{
 							"function": "minecraft:reference",
-							"name": "ssbrc:fighters/init/tooltip/ability/defensive"
+							"name": "ssbrc:init/tooltip/ability/defensive"
 						},
 						{
 							"function": "minecraft:reference",
-							"name": "ssbrc:fighters/init/ability/default"
+							"name": "ssbrc:init/ability/default"
 						},
 						{
 							"function": "minecraft:reference",
-							"name": "ssbrc:fighters/init/animation/instant"
+							"name": "ssbrc:init/animation/instant"
 						},
 						{
 							"function": "minecraft:reference",
-							"name": "ssbrc:fighters/init/tooltip/activate"
+							"name": "ssbrc:init/tooltip/activate"
 						},
 						{
 							"function": "minecraft:set_lore",
