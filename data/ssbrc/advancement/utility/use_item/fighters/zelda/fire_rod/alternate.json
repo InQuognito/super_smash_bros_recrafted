@@ -11,6 +11,16 @@
 						"scores": {
 							"cooldown": {
 								"max": 0
+							},
+							"mana": {
+								"min": {
+									"type": "minecraft:score",
+									"target": {
+										"type": "minecraft:fixed",
+										"name": "zelda.fire_rod.cost.alt"
+									},
+									"score": "vars"
+								}
 							}
 						}
 					},
@@ -32,6 +42,6 @@
 		}
 	},
 	"rewards": {
-		"function": "ssbrc:fighters/zelda/logic/abilities/fire_rod/check/alternate"
+		"function": "ssbrc:fighters/zelda/logic/abilities/fire_rod/alternate_function/activate"
 	}
 }

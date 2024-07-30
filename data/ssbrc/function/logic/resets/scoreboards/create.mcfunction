@@ -144,7 +144,7 @@ scoreboard objectives add weapon_9.ammo dummy
 scoreboard objectives add weapon_10.ammo dummy
 scoreboard objectives add yar.drone.health dummy
 scoreboard objectives add zelda.enchant_armor dummy
-scoreboard objectives add zelda.half_magic dummy
+scoreboard objectives add zelda.magic_fountain dummy
 scoreboard objectives add zelda.rupee.down dummy
 scoreboard objectives add zelda.rupee.up dummy
 scoreboard objectives add zelda.shatter_resist dummy

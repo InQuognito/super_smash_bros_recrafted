@@ -2,7 +2,7 @@
 	"description": "Glass",
 	"supported_items": "#ssbrc:equipment",
 	"weight": 1,
-	"max_level": 1,
+	"max_level": 2,
 	"min_cost": {
 		"base": 1,
 		"per_level_above_first": 1
@@ -20,7 +20,14 @@
 			{
 				"id": "ssbrc:fighter/zelda/glass",
 				"attribute": "minecraft:generic.attack_damage",
-				"amount": 0.25,
+				"amount": {
+					"type": "minecraft:lookup",
+					"values": [
+						0.25,
+						-0.75
+					],
+					"fallback": 0.25
+				},
 				"operation": "add_value"
 			}
 		],
@@ -48,10 +55,6 @@
 							"sound": "minecraft:block.glass.break",
 							"volume": 1,
 							"pitch": 1
-						},
-						{
-							"type": "minecraft:damage_item",
-							"amount": 999
 						}
 					]
 				},
@@ -62,6 +65,12 @@
 						"equipment": {
 							"mainhand": {
 								"predicates": {
+									"minecraft:enchantments": [
+										{
+											"enchantments": "ssbrc:fighter/zelda/weapon/glass",
+											"levels": 1
+										}
+									],
 									"minecraft:damage": {
 										"durability": 1
 									}

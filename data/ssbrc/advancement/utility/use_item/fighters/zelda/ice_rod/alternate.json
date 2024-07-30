@@ -11,6 +11,16 @@
 						"scores": {
 							"cooldown.1": {
 								"max": 0
+							},
+							"mana": {
+								"min": {
+									"type": "minecraft:score",
+									"target": {
+										"type": "minecraft:fixed",
+										"name": "zelda.ice_rod.cost.alt"
+									},
+									"score": "vars"
+								}
 							}
 						}
 					},
@@ -32,6 +42,6 @@
 		}
 	},
 	"rewards": {
-		"function": "ssbrc:fighters/zelda/logic/abilities/ice_rod/check/alternate"
+		"function": "ssbrc:fighters/zelda/logic/abilities/ice_rod/alternate_function/activate"
 	}
 }

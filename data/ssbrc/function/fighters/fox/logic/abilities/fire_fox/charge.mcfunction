@@ -1,6 +1,7 @@
 scoreboard players add @s charge.3 1
 
-particle minecraft:flame ~ ~0.01 ~ 0.4 0.2 0.4 0.0 5 normal @a
+execute unless predicate ssbrc:flag/in_water run particle minecraft:flame ~ ~0.01 ~ 0.4 0.2 0.4 0.0 5 normal @a
+execute if predicate ssbrc:flag/in_water run particle minecraft:bubble ~ ~0.01 ~ 0.4 0.2 0.4 0.0 5 normal @a
 
 teleport @s @s
 

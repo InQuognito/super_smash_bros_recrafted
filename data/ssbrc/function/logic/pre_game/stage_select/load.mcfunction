@@ -10,9 +10,9 @@ execute summon minecraft:text_display run function ssbrc:logic/pre_game/stage_se
 
 execute positioned -27.5 8.5 11.5 rotated 90.0 0.0 run function ssbrc:logic/pre_game/stage_select/featured/start
 
-execute positioned -43.5 8.5 22.5 rotated 180.0 0.0 run function ssbrc:logic/pre_game/stage_select/featured/display/default with storage ssbrc:data stages.battlefield
-execute positioned -46.5 8.5 24.5 rotated 180.0 0.0 run function ssbrc:logic/pre_game/stage_select/featured/display/default with storage ssbrc:data stages.big_battlefield
-execute positioned -31.5 8.5 22.5 rotated 180.0 0.0 run function ssbrc:logic/pre_game/stage_select/featured/display/default with storage ssbrc:data stages.final_destination
+execute positioned -43.5 8.5 22.5 rotated 180.0 0.0 run function ssbrc:logic/pre_game/stage_select/featured/display/fixed with storage ssbrc:data stages.battlefield
+execute positioned -46.5 8.5 24.5 rotated 180.0 0.0 run function ssbrc:logic/pre_game/stage_select/featured/display/fixed with storage ssbrc:data stages.big_battlefield
+execute positioned -31.5 8.5 22.5 rotated 180.0 0.0 run function ssbrc:logic/pre_game/stage_select/featured/display/fixed with storage ssbrc:data stages.final_destination
 execute positioned -28.5 8.5 24.5 rotated 180.0 0.0 run function ssbrc:logic/pre_game/stage_select/featured/display/random
 
 summon minecraft:text_display -37.5 8.25 7.5 {text:'[{"text":"","color":"gold"},"✪ ",{"translate":"ssbrc.stage_select.stage_index"}," ✪"]',billboard:"center",alignment:"center"}

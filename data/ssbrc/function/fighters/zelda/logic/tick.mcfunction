@@ -31,7 +31,7 @@ execute if entity @s[scores={zelda.rupee.down=1..}] run function ssbrc:fighters/
 # Great Fairy Blessings
 execute if entity @s[scores={zelda.enchant_armor=1..}] run function ssbrc:fighters/zelda/logic/blessings/enchant_armor/tick
 
-scoreboard players remove @s[scores={zelda.half_magic=1..}] zelda.half_magic 1
+scoreboard players remove @s[scores={zelda.magic_fountain=1..}] zelda.magic_fountain 1
 
 scoreboard players remove @s[scores={zelda.shatter_resist=1..}] zelda.shatter_resist 1
 

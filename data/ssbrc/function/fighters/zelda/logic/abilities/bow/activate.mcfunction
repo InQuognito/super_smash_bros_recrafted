@@ -1,5 +1,4 @@
 $scoreboard players operation zelda.bow.cost temp = zelda.$(type)_bow.cost vars
-execute if score @s zelda.half_magic matches 1.. run scoreboard players operation zelda.bow.cost temp /= 2 integers
 
-scoreboard players operation @s mana -= zelda.bow.cost temp
+execute unless score @s zelda.magic_fountain matches 1.. run scoreboard players operation @s mana -= zelda.bow.cost temp
 execute if score @s mana < zelda.bow.cost temp run clear @s minecraft:arrow

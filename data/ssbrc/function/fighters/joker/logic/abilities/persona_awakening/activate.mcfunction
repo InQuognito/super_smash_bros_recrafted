@@ -16,7 +16,7 @@ loot give @s[tag=high_pixie] loot ssbrc:fighters/joker/personas/high_pixie/amrit
 loot give @s[tag=raoul] loot ssbrc:fighters/joker/personas/raoul/phantom_show
 execute if entity @s[tag=yatagarasu] run function ssbrc:logic/fighters/attributes/defaults/knockback_resistance
 
-function ssbrc:fighters/joker/logic/abilities/persona_awakening/portrait/get {mode:"add"}
+function ssbrc:logic/item/component/update {mode:"remove",amount:1,search_key:"group",search_value:"persona",component:"minecraft:custom_model_data",output_path:"model temp"}
 
 function ssbrc:logic/player_data/set {mode:"store",key:"form",value:"maskless"}
 function ssbrc:logic/fighters/armor/update/check

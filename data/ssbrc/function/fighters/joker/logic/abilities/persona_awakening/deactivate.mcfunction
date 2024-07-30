@@ -6,7 +6,7 @@ clear @s minecraft:nether_star[minecraft:custom_data~{group:"persona_awakening"}
 
 function ssbrc:logic/fighters/attributes/defaults/knockback_resistance
 
-function ssbrc:fighters/joker/logic/abilities/persona_awakening/portrait/get {mode:"remove"}
+function ssbrc:logic/item/component/update {mode:"add",amount:1,search_key:"group",search_value:"persona",component:"minecraft:custom_model_data",output_path:"model temp"}
 
 function ssbrc:logic/player_data/set {mode:"store",key:"form",value:"default"}
 function ssbrc:logic/fighters/armor/update/check

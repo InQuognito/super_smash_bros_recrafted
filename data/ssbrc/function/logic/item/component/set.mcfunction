@@ -1,3 +1,1 @@
-$function ssbrc:logic/item/component/get {key:"$(key)",value:"$(value)",component:"$(component)",output:"$(output)",set_to:"$(set_to)"}
-
-function ssbrc:logic/item/component/set/run with storage ssbrc:output
+$item modify entity @s $(slot_string) {function:"minecraft:set_components",components:{"$(component)":$(set_to)}}

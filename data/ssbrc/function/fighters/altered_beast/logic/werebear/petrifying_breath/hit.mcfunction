@@ -1,9 +1,7 @@
 scoreboard players set @s petrified 30
 
-effect give @s minecraft:blindness 2 0 true
+execute if entity @s[type=minecraft:player] run function ssbrc:fighters/altered_beast/logic/werebear/petrifying_breath/hit/player
 
-item modify entity @s armor.head {"function":"minecraft:set_custom_model_data","value":9998}
-item modify entity @s armor.chest {"function":"minecraft:set_components","components":{"minecraft:trim":{"material":"minecraft:quartz","pattern":"ssbrc:petrified","show_in_tooltip":false}}}
-item modify entity @s armor.legs {"function":"minecraft:set_components","components":{"minecraft:trim":{"material":"minecraft:quartz","pattern":"ssbrc:petrified","show_in_tooltip":false}}}
+execute if entity @s[type=!minecraft:player] run function ssbrc:fighters/altered_beast/logic/werebear/petrifying_breath/hit/npc
 
 playsound ssbrc:fighters.altered_beast.werebear.petrifying_breath.hit player @a

@@ -1,7 +1,7 @@
 tag @s add bomb
 scoreboard players reset @s fuse
 
-scoreboard players operation @s mana -= zelda.bomb.cost temp
+execute unless score @s zelda.magic_fountain matches 1.. run scoreboard players operation @s mana -= zelda.bomb.cost vars
 
 scoreboard players set @s cooldown 3
 

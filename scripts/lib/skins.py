@@ -58,14 +58,11 @@ def create_armor_trim(skin, fighter, path):
 		create_path(f'{path}{fighter}\\{skin}\\')
 		with open(f'{path}{fighter}\\{skin}\\{form}.json', 'w') as file:
 			js_write(file, '{')
-			if fighter == 'shovel_knight':
-				if form == 'phase_locket':
-					js_write(file, tab(1) + qm + 'asset_id' + sep_s + f'ssbrc:fighters/{fighter}/phase_locket' + suf_s)
-				else:
-					js_write(file, tab(1) + qm + 'asset_id' + sep_s + f'ssbrc:fighters/{fighter}/{skin}' + suf_s)
+			if form == 'phase_locket':
+				js_write(file, tab(1) + qm + 'asset_id' + sep_s + f'ssbrc:fighters/{fighter}/{form}' + suf_s)
 			elif skin == 'ancient_minister':
 				js_write(file, tab(1) + qm + 'asset_id' + sep_s + f'ssbrc:fighters/{fighter}/{skin}/{form}' + suf_s)
-			elif skin == 'santa_hat':
+			elif skin == 'santa_hat' or form == 'beat_call':
 				js_write(file, tab(1) + qm + 'asset_id' + sep_s + f'ssbrc:fighters/{fighter}/default' + suf_s)
 			elif has_forms(fighter):
 				if forms_isolated(fighter):
