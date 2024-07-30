@@ -105,7 +105,7 @@ def create_stage_icon():
 			js_write(file, tab(6) + ent)
 			js_write(file, tab(6) + '{')
 			js_write(file, tab(7) + qm + 'function' + sep_s + 'minecraft:reference' + suf_s)
-			js_write(file, tab(7) + qm + 'name' + sep_s + 'ssbrc:fighters/init/preset/stage_index' + qm)
+			js_write(file, tab(7) + qm + 'name' + sep_s + 'ssbrc:init/preset/stage_index' + qm)
 			js_write(file, tab(6) + ent)
 			js_write(file, tab(6) + '{')
 			js_write(file, tab(7) + qm + 'function' + sep_s + 'minecraft:set_custom_model_data' + suf_s)
