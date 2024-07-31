@@ -17,7 +17,7 @@
 					}
 				],
 				"item": {
-					"items": "#ssbrc:equipment",
+					"items": "minecraft:emerald",
 					"predicates": {
 						"minecraft:custom_data": "{item:\"angel_feather\"}"
 					}

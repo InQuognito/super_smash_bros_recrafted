@@ -27,20 +27,6 @@
 				},
 				{
 					"type": "minecraft:item",
-					"weight": 0,
-					"name": "minecraft:air",
-					"conditions": [
-						{
-							"condition": "minecraft:entity_scores",
-							"entity": "this",
-							"scores": {
-								"steve.tier": 0
-							}
-						}
-					]
-				},
-				{
-					"type": "minecraft:item",
 					"weight": 5,
 					"name": "minecraft:air",
 					"conditions": [
