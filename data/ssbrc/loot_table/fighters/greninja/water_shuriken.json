@@ -24,7 +24,7 @@
 						},
 						{
 							"function": "minecraft:reference",
-							"name": "ssbrc:init/ability/default"
+							"name": "ssbrc:init/ability/charge"
 						},
 						{
 							"function": "minecraft:set_lore",
@@ -55,7 +55,7 @@
 						},
 						{
 							"function": "minecraft:set_custom_model_data",
-							"value": 421
+							"value": 422
 						},
 						{
 							"function": "minecraft:set_custom_data",

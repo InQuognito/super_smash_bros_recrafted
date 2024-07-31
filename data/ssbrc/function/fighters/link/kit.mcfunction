@@ -1,8 +1,8 @@
 loot replace entity @s hotbar.0 loot ssbrc:fighters/link/master_sword
 
-loot replace entity @s hotbar.1 loot ssbrc:fighters/link/fairy_bow
+function ssbrc:logic/item/default/get {item:"fairy_bow",slot:"hotbar.1",type:"default"}
 
-loot replace entity @s hotbar.2 loot ssbrc:fighters/link/boomerang
+function ssbrc:logic/item/default/get {item:"boomerang",slot:"hotbar.2",type:"default"}
 
 item replace entity @s hotbar.8 with minecraft:spectral_arrow 10
 

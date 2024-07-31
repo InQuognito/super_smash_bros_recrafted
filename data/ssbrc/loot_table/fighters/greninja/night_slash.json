@@ -6,18 +6,8 @@
 			"entries": [
 				{
 					"type": "minecraft:item",
-					"name": "minecraft:netherite_sword",
+					"name": "minecraft:nether_star",
 					"functions": [
-						{
-							"function": "minecraft:set_name",
-							"entity": "this",
-							"name": {
-								"translate": "ssbrc.fighter.greninja.night_slash",
-								"color": "dark_gray",
-								"bold": true,
-								"italic": false
-							}
-						},
 						{
 							"function": "minecraft:set_components",
 							"components": {

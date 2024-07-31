@@ -1,5 +1,5 @@
-loot replace entity @s hotbar.0 loot ssbrc:fighters/kirby/hammer
+function ssbrc:logic/item/default/get {item:"hammer",slot:"hotbar.0",type:"default"}
 
-loot replace entity @s hotbar.1 loot ssbrc:fighters/kirby/katana
+function ssbrc:logic/item/default/get {item:"katana",slot:"hotbar.1",type:"default"}
 
-loot replace entity @s hotbar.2 loot ssbrc:fighters/kirby/tornado
+function ssbrc:logic/item/default/get {item:"tornado",slot:"hotbar.2",type:"default"}

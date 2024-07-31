@@ -84,7 +84,8 @@ def fighter_storage():
 						mc_write(file, tab(5) + qm + 'color' + sep_s + ssbrc.fighters[fighter]['items'][item][skin]['color'] + suf_s)
 						mc_write(file, tab(5) + qm + 'model' + sep_n + str(ssbrc.fighters[fighter]['items'][item][skin]['model']) + ',')
 						tag = ssbrc.fighters[fighter]['items'][item][skin]['name'].split('.')
-						mc_write(file, tab(5) + qm + 'tag' + sep_s + tag[3] + qm)
+						if fighter != 'steve':
+							mc_write(file, tab(5) + qm + 'tag' + sep_s + tag[3] + qm)
 						mc_write(file, tab(4) + ent)
 					for skin in ssbrc.fighters[fighter]['skins']:
 						mc_write(file, tab(4) + qm + skin + suf_e)
@@ -92,7 +93,8 @@ def fighter_storage():
 						mc_write(file, tab(5) + qm + 'color' + sep_s + ssbrc.fighters[fighter]['items'][item][skin]['color'] + suf_s)
 						mc_write(file, tab(5) + qm + 'model' + sep_n + str(ssbrc.fighters[fighter]['items'][item][skin]['model']) + ',')
 						tag = ssbrc.fighters[fighter]['items'][item][skin]['name'].split('.')
-						mc_write(file, tab(5) + qm + 'tag' + sep_s + tag[3] + qm)
+						if fighter != 'steve':
+							mc_write(file, tab(5) + qm + 'tag' + sep_s + tag[3] + qm)
 						mc_write(file, tab(4) + ent)
 					mc_write(file, tab(3) + ent)
 			mc_write(file, tab(2) + '}')

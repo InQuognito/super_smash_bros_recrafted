@@ -1,5 +1,5 @@
-loot replace entity @s hotbar.0 loot ssbrc:fighters/jigglypuff/pound
+function ssbrc:logic/item/default/get {item:"pound",slot:"hotbar.0",type:"default"}
 
-loot replace entity @s hotbar.1 loot ssbrc:fighters/jigglypuff/hyper_voice
+function ssbrc:logic/item/default/get {item:"hyper_voice",slot:"hotbar.1",type:"default"}
 
 loot replace entity @s hotbar.2 loot ssbrc:fighters/jigglypuff/rest

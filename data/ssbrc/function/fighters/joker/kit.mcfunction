@@ -1,6 +1,6 @@
-loot replace entity @s hotbar.0 loot ssbrc:fighters/joker/rebel_knife
+function ssbrc:logic/item/default/get {item:"rebel_knife",slot:"hotbar.0",type:"default"}
 
-loot replace entity @s hotbar.1 loot ssbrc:fighters/joker/tt33
+function ssbrc:logic/item/default/get {item:"tt33",slot:"hotbar.1",type:"default"}
 
 function ssbrc:fighters/joker/logic/masks/activate/arsene
 

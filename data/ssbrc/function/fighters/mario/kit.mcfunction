@@ -1,3 +1,3 @@
-loot replace entity @s hotbar.0 loot ssbrc:fighters/mario/hammer
+function ssbrc:logic/item/default/get {item:"hammer",slot:"hotbar.0",type:"default"}
 
-loot replace entity @s hotbar.1 loot ssbrc:fighters/mario/fireball
+function ssbrc:logic/item/default/get {item:"fireball",slot:"hotbar.1",type:"default"}
