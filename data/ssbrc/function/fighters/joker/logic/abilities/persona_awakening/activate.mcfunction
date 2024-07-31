@@ -18,7 +18,7 @@ execute if entity @s[tag=yatagarasu] run function ssbrc:logic/fighters/attribute
 
 function ssbrc:logic/item/component/update {mode:"remove",amount:1,search_key:"group",search_value:"persona",component:"minecraft:custom_model_data",output_path:"model temp"}
 
-function ssbrc:logic/player_data/set {mode:"store",key:"form",value:"maskless"}
+function ssbrc:logic/player_data/temp/set {mode:"store",key:"form",value:"maskless"}
 function ssbrc:logic/fighters/armor/update/check
 
 playsound ssbrc:fighters.joker.persona_awakening.activate player @a

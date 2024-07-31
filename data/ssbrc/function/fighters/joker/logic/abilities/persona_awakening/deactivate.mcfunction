@@ -8,7 +8,7 @@ function ssbrc:logic/fighters/attributes/defaults/knockback_resistance
 
 function ssbrc:logic/item/component/update {mode:"add",amount:1,search_key:"group",search_value:"persona",component:"minecraft:custom_model_data",output_path:"model temp"}
 
-function ssbrc:logic/player_data/set {mode:"store",key:"form",value:"default"}
+function ssbrc:logic/player_data/temp/set {mode:"store",key:"form",value:"default"}
 function ssbrc:logic/fighters/armor/update/check
 
 playsound ssbrc:fighters.joker.persona_awakening.deactivate player @a

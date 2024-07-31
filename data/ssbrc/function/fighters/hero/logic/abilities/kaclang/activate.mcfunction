@@ -6,7 +6,7 @@ effect give @s minecraft:resistance infinite 255 true
 
 function ssbrc:logic/fighters/effects/mobility/immobilize/default
 
-function ssbrc:logic/player_data/set {mode:"store",key:"form",value:"kaclang"}
+function ssbrc:logic/player_data/temp/set {mode:"store",key:"form",value:"kaclang"}
 function ssbrc:logic/fighters/armor/update/check
 
 function ssbrc:fighters/hero/logic/mana/disable

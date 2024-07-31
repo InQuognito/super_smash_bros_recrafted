@@ -99,7 +99,7 @@ def create_skin_file(skin, fighter, path):
 		with open(path + skin + '\\female.mcfunction', 'w') as file:
 			warn_builder(file)
 
-			js_write(file, 'function ssbrc:logic/player_data/set {mode:"store",key:"skin",value:"' + skin + '"}\n')
+			js_write(file, 'function ssbrc:logic/player_data/temp/set {mode:"store",key:"skin",value:"' + skin + '"}\n')
 			js_write(file, f'tag @s add female\n')
 
 			prefix = 'tellraw @s[tag=!blind_pick,tag=!picking_random] [{"text":"\\n"},{"translate":"ssbrc.fighter.menu.skin","color":"white"},{"translate":"'
@@ -113,7 +113,7 @@ def create_skin_file(skin, fighter, path):
 		with open(path + skin + '/male.mcfunction', 'w') as file:
 			warn_builder(file)
 
-			js_write(file, 'function ssbrc:logic/player_data/set {mode:"store",key:"skin",value:"' + skin + '"}\n')
+			js_write(file, 'function ssbrc:logic/player_data/temp/set {mode:"store",key:"skin",value:"' + skin + '"}\n')
 			js_write(file, f'tag @s add male\n')
 
 			prefix = 'tellraw @s[tag=!blind_pick,tag=!picking_random] [{"text":"\\n"},{"translate":"ssbrc.fighter.menu.skin","color":"white"},{"translate":"'
@@ -123,20 +123,6 @@ def create_skin_file(skin, fighter, path):
 
 			js_write(file, f'execute if entity @s[tag=!blind_pick,tag=!picking_random] run function ssbrc:fighters/{fighter}/menu/skins/options\n')
 			js_write(file, 'function ssbrc:logic/fighters/select_skin/common')
-
-def create_shop_entry(skin, fighter, path):
-	'''Initializes skin shop entry.'''
-	create_path(path)
-
-	if skin != 'default' and skin != 'gold' and skin != 'shiny':
-		with open(path + skin + '.mcfunction', 'w') as file:
-			warn_builder(file)
-
-			js_write(file, f'advancement grant @s only ssbrc:fighters/{fighter}/skins/{skin}\n')
-			js_write(file, 'scoreboard players operation @s stats.credits -= price.skin.common vars\n')
-			js_write(file, 'tellraw @s [{"translate":"ssbrc.shop.purchase.skin","color":"white"},{"translate":"' + f'ssbrc.skin.{skin}' + '","color":"' + get_color(fighter, skin) + '"}]\n')
-			js_write(file, 'playsound minecraft:entity.player.levelup master @s\n')
-			js_write(file, f'function ssbrc:shop/pages/skins/{fighter}')
 
 def create_skin(skin, fighter, i):
 	'''Initializes a skin.'''
@@ -149,5 +135,3 @@ def create_skin(skin, fighter, i):
 	custom_model_data(skin, fighter, i)
 
 	create_skin_file(skin, fighter, f'data\\ssbrc\\function\\fighters\\{fighter}\\menu\\skins\\')
-
-	create_shop_entry(skin, fighter, f'data\\ssbrc\\function\\shop\\contents\\skins\\{fighter}\\')

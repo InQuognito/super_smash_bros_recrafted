@@ -1,6 +1,6 @@
 # This file is controlled by the build script. Changes should be made in the respective file.
 
-function ssbrc:logic/player_data/set {mode:"store",key:"skin",value:"gold"}
+function ssbrc:logic/player_data/temp/set {mode:"store",key:"skin",value:"gold"}
 
 tag @s add male
 

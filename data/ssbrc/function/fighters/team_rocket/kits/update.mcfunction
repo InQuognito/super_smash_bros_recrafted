@@ -1,4 +1,4 @@
-$function ssbrc:logic/player_data/set {mode:"store",key:"form",value:"$(form)"}
+$function ssbrc:logic/player_data/temp/set {mode:"store",key:"form",value:"$(form)"}
 
 $tellraw @s {"translate":"ssbrc.fighter.team_rocket.$(form).switch","color":"$(color)"}
 

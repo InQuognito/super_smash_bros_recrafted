@@ -1,5 +1,5 @@
 function ssbrc:fighters/altered_beast/kits/reset
-function ssbrc:logic/player_data/set {mode:"store",key:"form",value:"centurion"}
+function ssbrc:logic/player_data/temp/set {mode:"store",key:"form",value:"centurion"}
 
 loot replace entity @s hotbar.0 loot ssbrc:fighters/altered_beast/gladius
 

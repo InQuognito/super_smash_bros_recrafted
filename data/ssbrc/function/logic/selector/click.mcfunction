@@ -1,6 +1,4 @@
-scoreboard players set clicked temp 1
-
-execute anchored eyes positioned ^ ^ ^ run function ssbrc:logic/selector/raycast/start
+function ssbrc:logic/selector/select_object with storage ssbrc:temp player.temp_data
 
 scoreboard players set @s cooldown 5
 

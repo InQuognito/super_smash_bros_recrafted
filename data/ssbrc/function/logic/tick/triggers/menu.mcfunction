@@ -1,8 +1,8 @@
 # This file is controlled by the build script. Changes should be made in the respective file.
 
-execute if score @s menu matches -999 run function ssbrc:logic/player_data/reset/ask
-execute if entity @s[scores={menu=-998,reset=1}] run function ssbrc:logic/player_data/reset/cancel
-execute if entity @s[scores={menu=-997,reset=1}] run function ssbrc:logic/player_data/reset/confirm
+execute if score @s menu matches -999 run function ssbrc:logic/player_data/temp/reset/ask
+execute if entity @s[scores={menu=-998,reset=1}] run function ssbrc:logic/player_data/temp/reset/cancel
+execute if entity @s[scores={menu=-997,reset=1}] run function ssbrc:logic/player_data/temp/reset/confirm
 
 execute if data storage ssbrc:temp player.temp_data{fighter:"altered_beast"} run function ssbrc:fighters/altered_beast/menu/trigger
 execute if data storage ssbrc:temp player.temp_data{fighter:"alucard"} run function ssbrc:fighters/alucard/menu/trigger

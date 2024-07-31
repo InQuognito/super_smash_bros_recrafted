@@ -176,9 +176,9 @@ def skin_trigger(path):
 	with open(path + 'menu.mcfunction', 'w') as file:
 		warn_builder(file)
 
-		js_write(file, 'execute if score @s menu matches -999 run function ssbrc:logic/player_data/reset/ask')
-		js_write(file, 'execute if entity @s[scores={menu=-998,reset=1}] run function ssbrc:logic/player_data/reset/cancel')
-		js_write(file, 'execute if entity @s[scores={menu=-997,reset=1}] run function ssbrc:logic/player_data/reset/confirm\n')
+		js_write(file, 'execute if score @s menu matches -999 run function ssbrc:logic/player_data/temp/reset/ask')
+		js_write(file, 'execute if entity @s[scores={menu=-998,reset=1}] run function ssbrc:logic/player_data/temp/reset/cancel')
+		js_write(file, 'execute if entity @s[scores={menu=-997,reset=1}] run function ssbrc:logic/player_data/temp/reset/confirm\n')
 
 		for fighter in ssbrc.fighters:
 			js_write(file, 'execute if data storage ssbrc:temp player.temp_data{fighter:"' + fighter + '"} run function ssbrc:fighters/' + fighter + '/menu/trigger')
@@ -195,7 +195,7 @@ def skin_options(fighter, path):
 
 		js_write(file, 'tellraw @s [{"text":"=== ","color":"white"},{"translate":"ssbrc.fighter.menu.choose_skin","bold":true,"color":"yellow"},{"text":" ===","color":"white"}]\n')
 
-		js_write(file, 'function ssbrc:logic/player_data/copy/check\n')
+		js_write(file, 'function ssbrc:logic/player_data/temp/copy/check\n')
 
 		if fighter == 'byleth':
 			for skin in ['default','gold']:

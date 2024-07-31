@@ -1,5 +1,7 @@
 gamemode adventure @s
 
+clear @s #ssbrc:equipment
+
 scoreboard players set @s respawn 0
 scoreboard players set @s flag.dead 0
 

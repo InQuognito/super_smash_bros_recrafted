@@ -1,1 +1,1 @@
-function ssbrc:logic/player_data/access {function:"ssbrc:logic/fighters/armor/update/set"}
+function ssbrc:logic/player_data/temp/access {function:"ssbrc:logic/fighters/armor/update/set"}

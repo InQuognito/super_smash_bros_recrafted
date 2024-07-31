@@ -11,7 +11,7 @@ attribute @s minecraft:generic.attack_damage modifier add ssbrc:fighters/ryu/sat
 
 scoreboard players set @s duration.1 400
 
-function ssbrc:logic/player_data/set {mode:"store",key:"form",value:"evil"}
+function ssbrc:logic/player_data/temp/set {mode:"store",key:"form",value:"evil"}
 function ssbrc:fighters/ryu/logic/abilities/satsui_no_hado_rage/update
 
 item modify entity @s armor.legs {"function":"minecraft:set_lore","entity":"this","lore":[{"translate":"ssbrc.fighter.ryu.ashura_senku","color":"yellow","bold":false,"italic":false,"underlined":true},{"translate":"ssbrc.tooltip.hold_key","color":"gray","bold":false,"italic":false,"extra":[{"keybind":"key.sneak","color":"gray","bold":false,"italic":false},{"translate":"ssbrc.fighter.ryu.ashura_senku.description.1","color":"gray","bold":false,"italic":false}]}],"mode":"append"}

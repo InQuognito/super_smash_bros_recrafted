@@ -3,7 +3,7 @@ scoreboard players set @s stocks 1
 effect give @s minecraft:slowness 1 255 true
 effect give @s minecraft:jump_boost 1 200 true
 
-function ssbrc:logic/player_data/copy/check
+function ssbrc:logic/player_data/temp/copy/check
 
 execute if data storage ssbrc:temp player.temp_data{fighter:"greninja"} run scoreboard players set @s charge.2 5
 execute if data storage ssbrc:temp player.temp_data{fighter:"hero"} run scoreboard players operation @s mana = hero.mana.half vars

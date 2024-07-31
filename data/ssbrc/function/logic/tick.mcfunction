@@ -19,7 +19,7 @@ execute as @a unless score @s world_time = current world_time run function ssbrc
 execute store result score current world_time run time query gametime
 execute as @a store result score @s world_time run time query gametime
 
-execute as @a unless score @s hard_resets = num hard_resets run function ssbrc:logic/player_data/reset/force_reset
+execute as @a unless score @s hard_resets = num hard_resets run function ssbrc:logic/player_data/temp/reset/force_reset
 
 execute as @a[tag=!loaded] run function ssbrc:logic/resets/players
 

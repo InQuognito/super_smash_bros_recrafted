@@ -1,3 +1,4 @@
-$execute store result score durability.current temp run data get entity @s Inventory[{Slot:$(slot_nbt)b}].components.minecraft:damage
+$execute store result score item.damage temp run data get entity @s Inventory[{Slot:$(slot_nbt)b}].components.minecraft:damage
 
-$execute if score durability.current temp matches 1.. run function ssbrc:logic/item/durability/add/set {slot:"$(slot_string)"}
+$execute unless items entity @s $(slot_string) #ssbrc:equipment[minecraft:custom_data~{chargable:"true"}] if score item.damage temp matches 1 run item modify entity @s $(slot_string) ssbrc:init/ability/default
+$execute if score item.damage temp matches 1.. run function ssbrc:logic/item/durability/add/set {slot:"$(slot_string)"}

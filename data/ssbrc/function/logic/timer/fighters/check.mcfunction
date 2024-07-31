@@ -1,4 +1,4 @@
-function ssbrc:logic/player_data/copy/check
+function ssbrc:logic/player_data/temp/copy/check
 
 execute if data storage ssbrc:temp player.temp_data{fighter:"bowser"} if score @s charge.2 matches 1.. run function ssbrc:logic/timer/fighters/bowser
 execute if data storage ssbrc:temp player.temp_data{fighter:"sora"} if score @s[tag=!valor,tag=!anti] mana < sora.mp.max vars run function ssbrc:logic/timer/fighters/sora

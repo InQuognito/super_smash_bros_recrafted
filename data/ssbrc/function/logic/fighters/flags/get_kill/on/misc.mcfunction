@@ -1,4 +1,4 @@
-function ssbrc:logic/player_data/copy/check
+function ssbrc:logic/player_data/temp/copy/check
 
 execute if data storage ssbrc:temp player.temp_data{fighter:"byleth"} if entity @s[tag=weapon_broken] run function ssbrc:fighters/byleth/logic/get_kill/misc
 execute if data storage ssbrc:temp player.temp_data{fighter:"hero"} run function ssbrc:fighters/hero/logic/get_kill

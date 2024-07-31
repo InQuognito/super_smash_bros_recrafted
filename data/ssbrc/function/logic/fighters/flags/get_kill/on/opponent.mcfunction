@@ -1,6 +1,6 @@
 function ssbrc:logic/pre_game/fighter_select/count_players
 
-function ssbrc:logic/player_data/copy/check
+function ssbrc:logic/player_data/temp/copy/check
 
 execute if data storage ssbrc:temp player.temp_data{fighter:"byleth"} if entity @s[tag=weapon_broken] run function ssbrc:fighters/byleth/logic/get_kill/player
 execute if data storage ssbrc:temp player.temp_data{fighter:"ganondorf"} run function ssbrc:fighters/ganondorf/logic/stalfos/activate
