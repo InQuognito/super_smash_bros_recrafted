@@ -1,3 +1,3 @@
-execute if score sector_z stage matches 1 run function ssbrc:stages/sector_z/logic/effects
+execute if entity @s[scores={duration.1=..0}] run function ssbrc:logic/item/cooldown/set/const {type:"2",value:"60"}
 
-function ssbrc:logic/item/cooldown/set/const {type:"2",value:"60"}
+execute if entity @s[scores={duration.1=1..}] run function ssbrc:fighters/ryu/logic/abilities/ashura_senku/deactivate

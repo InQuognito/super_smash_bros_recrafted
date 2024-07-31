@@ -5,9 +5,9 @@ tag @s add altered_beast.is_beast
 tag @s add shirtless
 $function ssbrc:logic/player_data/set {mode:"store",key:"form",value:"$(form)"}
 
-function ssbrc:logic/fighters/attributes/defaults
+item modify entity @s hotbar.8 {"function":"minecraft:set_custom_model_data","value":1821}
 
-clear @s #ssbrc:equipment
+function ssbrc:logic/fighters/attributes/defaults
 
 function ssbrc:logic/fighters/armor/update/check
 

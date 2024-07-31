@@ -55,9 +55,9 @@ attribute @s[tag=wobbuffet] minecraft:generic.movement_speed base set 0.085
 function ssbrc:logic/fighters/attributes/defaults/jump_strength
 
 # Gravity
-execute unless score sector_z stage matches 1 run attribute @s minecraft:generic.gravity base set 0.08
-execute if score sector_z stage matches 1 run attribute @s minecraft:generic.gravity base set 0.01
+execute unless data storage ssbrc:temp game.stage{name:"sector_z"} run attribute @s minecraft:generic.gravity base set 0.08
+execute if data storage ssbrc:temp game.stage{name:"sector_z"} run attribute @s minecraft:generic.gravity base set 0.01
 
 # Fall Damage
-execute unless score sector_z stage matches 1 run attribute @s minecraft:generic.safe_fall_distance base set 8.0
-execute if score sector_z stage matches 1 run attribute @s minecraft:generic.safe_fall_distance base set 80.0
+execute unless data storage ssbrc:temp game.stage{name:"sector_z"} run attribute @s minecraft:generic.safe_fall_distance base set 8.0
+execute if data storage ssbrc:temp game.stage{name:"sector_z"} run attribute @s minecraft:generic.safe_fall_distance base set 80.0

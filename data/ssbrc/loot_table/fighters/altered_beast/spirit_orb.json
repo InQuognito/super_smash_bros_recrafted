@@ -44,56 +44,6 @@
 							"mode": "append"
 						},
 						{
-							"function": "minecraft:set_custom_model_data",
-							"value": 1824,
-							"conditions": [
-								{
-									"condition": "minecraft:reference",
-									"name": "ssbrc:fighters/altered_beast/werebear"
-								}
-							]
-						},
-						{
-							"function": "minecraft:set_custom_model_data",
-							"value": 1828,
-							"conditions": [
-								{
-									"condition": "minecraft:reference",
-									"name": "ssbrc:fighters/altered_beast/weredragon"
-								}
-							]
-						},
-						{
-							"function": "minecraft:set_custom_model_data",
-							"value": 1832,
-							"conditions": [
-								{
-									"condition": "minecraft:reference",
-									"name": "ssbrc:fighters/altered_beast/weretiger"
-								}
-							]
-						},
-						{
-							"function": "minecraft:set_custom_model_data",
-							"value": 1836,
-							"conditions": [
-								{
-									"condition": "minecraft:reference",
-									"name": "ssbrc:fighters/altered_beast/werewolf"
-								}
-							]
-						},
-						{
-							"function": "minecraft:set_custom_model_data",
-							"value": 1821,
-							"conditions": [
-								{
-									"condition": "minecraft:reference",
-									"name": "ssbrc:fighters/altered_beast/is_beast"
-								}
-							]
-						},
-						{
 							"function": "minecraft:set_components",
 							"components": {
 								"minecraft:max_damage": 200

@@ -18,6 +18,9 @@ def stage_storage():
 			mc_write(file, tab(2) + qm + 'model' + sep_n + str(ssbrc.stages[stage]['model']) + ',')
 			mc_write(file, tab(2) + qm + 'name' + sep_s + stage + suf_s)
 			mc_write(file, tab(2) + qm + 'page' + sep_n + str(ssbrc.stages[stage]['page']) + ',')
+			if 'tick' in ssbrc.stages[stage].keys():
+				mc_write(file, tab(2) + qm + 'tick' + sep_s + str(ssbrc.stages[stage]['tick']) + suf_s)
+			mc_write(file, tab(2) + qm + 'altered_beast_form' + sep_s + str(ssbrc.stages[stage]['altered_beast_form']) + suf_s)
 			mc_write(file, tab(2) + qm + 'location' + sep_s + str(ssbrc.stages[stage]['location']) + suf_s)
 			if ssbrc.stages[stage]['location'] != "null":
 				mc_write(file, tab(2) + qm + 'center' + sep_s + str(center(ssbrc.stages[stage]['location'])) + suf_s)

@@ -1,8 +1,3 @@
-scoreboard players reset * stage
-scoreboard players set flat_zone stage 1
-scoreboard players set song_count stage 2
-forceload add 752 176 799 223
-
 fill 791 5 201 791 6 202 minecraft:white_concrete replace
 fill 791 5 207 791 6 208 minecraft:white_concrete replace
 
@@ -30,8 +25,3 @@ function ssbrc:stages/flat_zone/logic/lion/1
 function ssbrc:stages/flat_zone/logic/lion/2
 function ssbrc:stages/flat_zone/logic/zookeeper/1
 function ssbrc:stages/flat_zone/logic/zookeeper/2
-
-time set noon
-weather clear
-
-schedule function ssbrc:stages/flat_zone/prepare 1s replace

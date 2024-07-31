@@ -15,7 +15,7 @@ scoreboard players remove @e[type=!minecraft:player,scores={duration.2=1..}] dur
 scoreboard players remove @e[type=!minecraft:player,scores={duration.3=1..}] duration.3 1
 scoreboard players remove @e[type=!minecraft:player,scores={duration.4=1..}] duration.4 1
 
-execute unless score sector_z stage matches 1 run effect give @a[predicate=ssbrc:flag/targets,predicate=ssbrc:below_y/0] minecraft:blindness 2 0 true
+execute unless data storage ssbrc:temp game.stage{name:"sector_z"} run effect give @a[predicate=ssbrc:flag/targets,predicate=ssbrc:below_y/0] minecraft:blindness 2 0 true
 
 # Fighters
 execute as @a[predicate=ssbrc:ingame] run function ssbrc:logic/tick/characters
@@ -32,7 +32,7 @@ scoreboard players reset @a flag.break_shield
 kill @e[type=#minecraft:arrows,nbt={inGround:1b}]
 
 # Maps
-function ssbrc:logic/tick/stages/after_start
+function ssbrc:logic/tick/stages/after_start with storage ssbrc:temp game.stage
 
 # Kill Tridents On Ground
 execute as @e[type=minecraft:item,nbt={Item:{id:"minecraft:trident"}}] run function ssbrc:logic/tick/projectiles/tridents

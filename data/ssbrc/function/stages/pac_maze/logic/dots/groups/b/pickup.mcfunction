@@ -1,3 +1,3 @@
-scoreboard players reset dotGroup.b temp
+scoreboard players reset dot_group.b temp
 
-function ssbrc:stages/pac_maze/logic/dots/groups/pickup
+function ssbrc:stages/pac_maze/logic/dots/groups/pickup with storage ssbrc:temp game.stage

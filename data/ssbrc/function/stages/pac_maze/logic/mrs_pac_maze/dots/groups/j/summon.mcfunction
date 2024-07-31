@@ -27,4 +27,4 @@ execute positioned 23323.5 5.75 8654.5 summon minecraft:item_display run functio
 execute positioned 23324.5 5.75 8654.5 summon minecraft:item_display run function ssbrc:stages/pac_maze/logic/dots/groups/j/init
 execute positioned 23325.5 5.75 8654.5 summon minecraft:item_display run function ssbrc:stages/pac_maze/logic/dots/groups/j/init
 
-scoreboard players set spawnedDotGroup temp 1
+scoreboard players set spawned_dot_group temp 1

@@ -61,7 +61,7 @@ execute if block ~ ~ ~ minecraft:lava run scoreboard players add @s flag.in_lava
 kill @s[scores={flag.in_lava=60..}]
 scoreboard players reset @s[scores={flag.in_lava=60..}] flag.in_lava
 
-execute if score sand_ocean stage matches 1 if score hazards options matches 1 run function ssbrc:logic/fighters/quicksand/tick
+execute if data storage ssbrc:temp game.stage{name:"sand_ocean"} if score hazards options matches 1 run function ssbrc:logic/fighters/quicksand/tick
 
 # Bonuses
 execute unless score @s aerialist matches 1.. run function ssbrc:logic/fighters/bonuses/aerialist/tick

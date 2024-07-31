@@ -1,8 +1,3 @@
-scoreboard players reset * stage
-scoreboard players set mushroom_kingdom stage 1
-scoreboard players set song_count stage 3
-forceload add -288 -192 -177 -81
-
 # Yoshi Egg
 summon minecraft:item_display -218.5 28.25 -144.5 {Rotation:[15f,0f],item:{id:"minecraft:nether_star",components:{"minecraft:custom_model_data":1741}}}
 
@@ -49,8 +44,3 @@ execute positioned -211.5 37.5 -165.5 summon minecraft:item_display run function
 execute positioned -230.5 27.5 -148.5 summon minecraft:item_display run function ssbrc:stages/mushroom_kingdom/logic/question_mark_block
 execute positioned -208.5 27.5 -158.5 summon minecraft:item_display run function ssbrc:stages/mushroom_kingdom/logic/question_mark_block
 execute positioned -208.5 27.5 -156.5 summon minecraft:item_display run function ssbrc:stages/mushroom_kingdom/logic/question_mark_block
-
-time set noon
-weather clear
-
-schedule function ssbrc:stages/mushroom_kingdom/prepare 1s replace

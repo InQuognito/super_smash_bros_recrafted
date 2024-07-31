@@ -1,4 +1,4 @@
-scoreboard players set mementos.type stage 1
+data modify storage ssbrc:temp game.stage.variant set value "blue"
 
 time set 15000
 

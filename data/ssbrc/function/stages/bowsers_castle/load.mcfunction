@@ -1,8 +1,3 @@
-scoreboard players reset * stage
-scoreboard players set bowsers_castle stage 1
-scoreboard players set song_count stage 2
-forceload add -768 800 -641 895
-
 # Rear Wall
 clone -640 19 835 -639 31 850 -659 19 836
 
@@ -85,8 +80,3 @@ execute positioned -735.0 27.2 834.5 rotated -90.0 0.0 summon minecraft:item_dis
 schedule function ssbrc:stages/bowsers_castle/logic/armor_stands/toad/nodding/tick 10t replace
 execute positioned -737.7 27.2 833.2 rotated -45.0 0.0 summon minecraft:item_display run function ssbrc:stages/bowsers_castle/logic/armor_stands/toad/sitting
 execute positioned -736.5 27.5 836.1 rotated 0.0 0.0 summon minecraft:item_display run function ssbrc:stages/bowsers_castle/logic/armor_stands/toad/standing
-
-time set noon
-weather clear
-
-schedule function ssbrc:stages/bowsers_castle/prepare 1s replace

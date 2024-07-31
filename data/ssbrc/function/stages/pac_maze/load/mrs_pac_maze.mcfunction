@@ -1,4 +1,4 @@
-scoreboard players set pac_maze.type stage 2
+data modify storage ssbrc:temp game.stage.variant set value "mrs_pac_maze"
 
 forceload add 23280 8608 23343 8671
 

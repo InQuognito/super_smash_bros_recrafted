@@ -16,4 +16,4 @@ execute if score teams options matches 1 as @a[predicate=ssbrc:team_match] run f
 weather clear
 scoreboard players set game_stage temp 5
 
-execute if score luigis_mansion stage matches 1 if score blackout temp matches 1 run function ssbrc:stages/luigis_mansion/logic/blackout/deactivate
+execute if score blackout temp matches 1 run function ssbrc:stages/luigis_mansion/logic/blackout/deactivate

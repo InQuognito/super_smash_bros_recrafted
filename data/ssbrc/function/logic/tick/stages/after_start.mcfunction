@@ -1,29 +1,3 @@
-execute if score battlefield stage matches 1 run function ssbrc:stages/battlefield/logic/tick
-execute if score big_battlefield stage matches 1 run function ssbrc:stages/big_battlefield/logic/tick
-execute if score bowsers_castle stage matches 1 run function ssbrc:stages/bowsers_castle/logic/tick
-execute if score castle_siege stage matches 1 run function ssbrc:stages/castle_siege/logic/tick
-execute if score draculas_castle stage matches 1 run function ssbrc:stages/draculas_castle/logic/tick
-execute if score final_destination stage matches 1 run function ssbrc:stages/final_destination/logic/tick
-execute if score flat_zone stage matches 1 run function ssbrc:stages/flat_zone/logic/tick
-execute if score frozen_hijinx stage matches 1 run function ssbrc:stages/frozen_hijinx/logic/tick
-execute if score garden_of_hope stage matches 1 run function ssbrc:stages/garden_of_hope/logic/tick
-execute if score great_bay stage matches 1 run function ssbrc:stages/great_bay/logic/tick
-execute if score great_plateau stage matches 1 run function ssbrc:stages/great_plateau/logic/tick
-execute if score green_hill_zone stage matches 1 run function ssbrc:stages/green_hill_zone/logic/tick
-execute if score hyrule_castle stage matches 1 run function ssbrc:stages/hyrule_castle/logic/tick
-execute if score icicle_mountain stage matches 1 run function ssbrc:stages/icicle_mountain/logic/tick
-execute if score lake_of_rage stage matches 1 run function ssbrc:stages/lake_of_rage/logic/tick
-execute if score luigis_mansion stage matches 1 run function ssbrc:stages/luigis_mansion/logic/tick
-execute if score $mementos stage matches 1 run function ssbrc:stages/mementos/logic/tick
-execute if score miiverse stage matches 1 run function ssbrc:stages/miiverse/logic/tick
-execute if score mushroom_kingdom stage matches 1 run function ssbrc:stages/mushroom_kingdom/logic/tick
-execute if score pac_maze stage matches 1 run function ssbrc:stages/pac_maze/logic/tick
-execute if score pallet_town stage matches 1 run function ssbrc:stages/pallet_town/logic/tick
-execute if score palutenas_temple stage matches 1 run function ssbrc:stages/palutenas_temple/logic/tick
-execute if score planet_epp stage matches 1 run function ssbrc:stages/planet_epp/logic/tick
-execute if score pyrosphere stage matches 1 run function ssbrc:stages/pyrosphere/logic/tick
-execute if score saturn_valley stage matches 1 run function ssbrc:stages/saturn_valley/logic/tick
-execute if score sector_z stage matches 1 run function ssbrc:stages/sector_z/logic/tick
-execute if score shadow_moses_island stage matches 1 run function ssbrc:stages/shadow_moses_island/logic/tick
-execute if score spear_pillar stage matches 1 run function ssbrc:stages/spear_pillar/logic/tick
-execute if score tower_of_fate stage matches 1 run function ssbrc:stages/tower_of_fate/logic/tick
+$execute if data storage ssbrc:temp game.stage{tick:"always"} run return run function ssbrc:stages/$(name)/logic/tick
+
+$execute if data storage ssbrc:temp game.stage{tick:"after_start"} run function ssbrc:stages/$(name)/logic/tick

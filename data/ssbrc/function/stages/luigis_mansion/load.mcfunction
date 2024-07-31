@@ -1,8 +1,3 @@
-scoreboard players reset * stage
-scoreboard players set luigis_mansion stage 1
-scoreboard players set song_count stage 2
-forceload add -352 -1168 -273 -1089
-
 # Doors
 summon minecraft:marker -331.5 10.5 -1147.5 {Tags:["luigis_mansion.door","fake"],data:{type:"spruce",facing:"north",hinge:"left"}}
 summon minecraft:marker -330.5 10.5 -1147.5 {Tags:["luigis_mansion.door","fake"],data:{type:"spruce",facing:"north",hinge:"right"}}
@@ -64,8 +59,3 @@ summon minecraft:item_display -287.5 19.5 -1130.5 {Tags:["lantern_off","hanging"
 summon minecraft:item_display -288.5 13.5 -1152.5 {Tags:["lantern_off","hanging"]}
 
 summon minecraft:item_display -293.5 11.5 -1149.5 {Tags:["lantern_off","floor"]}
-
-time set midnight
-weather thunder
-
-schedule function ssbrc:stages/luigis_mansion/prepare 1s replace

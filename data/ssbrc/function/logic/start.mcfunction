@@ -18,9 +18,9 @@ execute if entity @a[tag=sora] run summon minecraft:marker 0.5 25.0 0.5 {Tags:["
 
 execute as @a[predicate=ssbrc:flag/player] run function ssbrc:logic/start/fighters
 
-function ssbrc:logic/music/decide
+function ssbrc:logic/music/decide_schedule
 
-function ssbrc:logic/start_hazards
+execute if score hazards options matches 1 run function ssbrc:logic/start_hazards
 
 tag @e[type=minecraft:marker,tag=tp_dest] remove tp_dest
 

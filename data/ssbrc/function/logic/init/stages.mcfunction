@@ -10,6 +10,7 @@ data modify storage ssbrc:data stages set value {\
 		"model": 1,\
 		"name": "acropolis_graveyard",\
 		"page": 3,\
+		"altered_beast_form": "werewolf",\
 		"location": "-1392 -480 -1313 -417",\
 		"center": "-1352.5 0.0 -448.5",\
 		"song_count": 2,\
@@ -57,6 +58,8 @@ data modify storage ssbrc:data stages set value {\
 		"model": 50,\
 		"name": "battlefield",\
 		"page": 1,\
+		"tick": "after_start",\
+		"altered_beast_form": "weredragon",\
 		"location": "319 -545 288 -576",\
 		"center": "303.5 0.0 -560.5",\
 		"song_count": 2,\
@@ -104,6 +107,8 @@ data modify storage ssbrc:data stages set value {\
 		"model": 100,\
 		"name": "big_battlefield",\
 		"page": 1,\
+		"tick": "after_start",\
+		"altered_beast_form": "werewolf",\
 		"location": "100032 99936 100079 99967",\
 		"center": "100055.5 0.0 99951.5",\
 		"song_count": 2,\
@@ -151,6 +156,8 @@ data modify storage ssbrc:data stages set value {\
 		"model": 150,\
 		"name": "bowsers_castle",\
 		"page": 1,\
+		"tick": "after_start",\
+		"altered_beast_form": "weredragon",\
 		"location": "-768 800 -641 895",\
 		"center": "-704.5 0.0 847.5",\
 		"song_count": 2,\
@@ -198,6 +205,8 @@ data modify storage ssbrc:data stages set value {\
 		"model": 200,\
 		"name": "castle_siege",\
 		"page": 2,\
+		"tick": "after_start",\
+		"altered_beast_form": "weredragon",\
 		"location": "1616 417 1663 495",\
 		"center": "1639.5 0.0 456.0",\
 		"song_count": 2,\
@@ -245,6 +254,8 @@ data modify storage ssbrc:data stages set value {\
 		"model": 300,\
 		"name": "draculas_castle",\
 		"page": 3,\
+		"tick": "after_start",\
+		"altered_beast_form": "werewolf",\
 		"location": "-1120 0 -1041 79",\
 		"center": "-1080.5 0.0 39.5",\
 		"song_count": 2,\
@@ -292,6 +303,7 @@ data modify storage ssbrc:data stages set value {\
 		"model": 350,\
 		"name": "dream_land",\
 		"page": 1,\
+		"altered_beast_form": "weretiger",\
 		"location": "2032 896 2143 1023",\
 		"center": "2087.5 0.0 959.5",\
 		"song_count": 2,\
@@ -339,6 +351,8 @@ data modify storage ssbrc:data stages set value {\
 		"model": 400,\
 		"name": "final_destination",\
 		"page": 1,\
+		"tick": "after_start",\
+		"altered_beast_form": "werebear",\
 		"location": "23408 8592 23503 8647",\
 		"center": "23455.5 0.0 8619.5",\
 		"song_count": 2,\
@@ -386,6 +400,8 @@ data modify storage ssbrc:data stages set value {\
 		"model": 450,\
 		"name": "flat_zone",\
 		"page": 2,\
+		"tick": "after_start",\
+		"altered_beast_form": "weredragon",\
 		"location": "752 176 799 223",\
 		"center": "775.5 0.0 199.5",\
 		"song_count": 2,\
@@ -433,6 +449,8 @@ data modify storage ssbrc:data stages set value {\
 		"model": 500,\
 		"name": "frozen_hijinx",\
 		"page": 1,\
+		"tick": "after_start",\
+		"altered_beast_form": "werebear",\
 		"location": "2016 1264 2159 1439",\
 		"center": "2087.5 0.0 1351.5",\
 		"song_count": 2,\
@@ -480,6 +498,8 @@ data modify storage ssbrc:data stages set value {\
 		"model": 600,\
 		"name": "garden_of_hope",\
 		"page": 2,\
+		"tick": "after_start",\
+		"altered_beast_form": "weredragon",\
 		"location": "512 480 607 575",\
 		"center": "559.5 0.0 527.5",\
 		"song_count": 2,\
@@ -527,6 +547,8 @@ data modify storage ssbrc:data stages set value {\
 		"model": 650,\
 		"name": "great_bay",\
 		"page": 1,\
+		"tick": "after_start",\
+		"altered_beast_form": "werebear",\
 		"location": "2624 32 2703 127",\
 		"center": "2663.5 0.0 79.5",\
 		"song_count": 2,\
@@ -574,6 +596,8 @@ data modify storage ssbrc:data stages set value {\
 		"model": 700,\
 		"name": "great_plateau",\
 		"page": 1,\
+		"tick": "always",\
+		"altered_beast_form": "weredragon",\
 		"location": "1536 1328 1631 1407",\
 		"center": "1583.5 0.0 1367.5",\
 		"song_count": 3,\
@@ -621,6 +645,8 @@ data modify storage ssbrc:data stages set value {\
 		"model": 750,\
 		"name": "green_hill_zone",\
 		"page": 2,\
+		"tick": "after_start",\
+		"altered_beast_form": "weretiger",\
 		"location": "-64 208 31 255",\
 		"center": "-16.5 0.0 231.5",\
 		"song_count": 2,\
@@ -668,6 +694,8 @@ data modify storage ssbrc:data stages set value {\
 		"model": 800,\
 		"name": "hyrule_castle",\
 		"page": 1,\
+		"tick": "after_start",\
+		"altered_beast_form": "werebear",\
 		"location": "7023 223 6944 129",\
 		"center": "6983.5 0.0 176.0",\
 		"song_count": 3,\
@@ -715,6 +743,8 @@ data modify storage ssbrc:data stages set value {\
 		"model": 850,\
 		"name": "icicle_mountain",\
 		"page": 2,\
+		"tick": "after_start",\
+		"altered_beast_form": "werebear",\
 		"location": "1024 848 1103 911",\
 		"center": "1063.5 0.0 879.5",\
 		"song_count": 2,\
@@ -762,6 +792,7 @@ data modify storage ssbrc:data stages set value {\
 		"model": 900,\
 		"name": "jungle_japes",\
 		"page": 1,\
+		"altered_beast_form": "weretiger",\
 		"location": "2208 1552 2319 1631",\
 		"center": "2263.5 0.0 1591.5",\
 		"song_count": 2,\
@@ -809,6 +840,8 @@ data modify storage ssbrc:data stages set value {\
 		"model": 950,\
 		"name": "lake_of_rage",\
 		"page": 2,\
+		"tick": "always",\
+		"altered_beast_form": "weredragon",\
 		"location": "2464 3968 2591 4095",\
 		"center": "2527.5 0.0 4031.5",\
 		"song_count": 2,\
@@ -856,6 +889,8 @@ data modify storage ssbrc:data stages set value {\
 		"model": 1000,\
 		"name": "luigis_mansion",\
 		"page": 1,\
+		"tick": "after_start",\
+		"altered_beast_form": "werebear",\
 		"location": "-352 -1168 -273 -1089",\
 		"center": "-312.5 0.0 -1128.5",\
 		"song_count": 2,\
@@ -903,6 +938,7 @@ data modify storage ssbrc:data stages set value {\
 		"model": 1050,\
 		"name": "magicant",\
 		"page": 2,\
+		"altered_beast_form": "werebear",\
 		"location": "608 -912 687 -833",\
 		"center": "647.5 0.0 -872.5",\
 		"song_count": 2,\
@@ -950,6 +986,8 @@ data modify storage ssbrc:data stages set value {\
 		"model": 1100,\
 		"name": "mementos",\
 		"page": 3,\
+		"tick": "after_start",\
+		"altered_beast_form": "werewolf",\
 		"location": "-1248 800 -1105 1023",\
 		"center": "-1176.5 0.0 911.5",\
 		"song_count": 2,\
@@ -997,6 +1035,8 @@ data modify storage ssbrc:data stages set value {\
 		"model": 1150,\
 		"name": "miiverse",\
 		"page": 2,\
+		"tick": "always",\
+		"altered_beast_form": "weretiger",\
 		"location": "-736 544 -625 655",\
 		"center": "-680.5 0.0 599.5",\
 		"song_count": 2,\
@@ -1044,6 +1084,8 @@ data modify storage ssbrc:data stages set value {\
 		"model": 1200,\
 		"name": "mushroom_kingdom",\
 		"page": 1,\
+		"tick": "after_start",\
+		"altered_beast_form": "weretiger",\
 		"location": "-288 -192 -177 -81",\
 		"center": "-232.5 0.0 -136.5",\
 		"song_count": 3,\
@@ -1091,6 +1133,8 @@ data modify storage ssbrc:data stages set value {\
 		"model": 1300,\
 		"name": "pac_maze",\
 		"page": 3,\
+		"tick": "after_start",\
+		"altered_beast_form": "weretiger",\
 		"location": "null",\
 		"song_count": 2,\
 		"time": "noon",\
@@ -1137,6 +1181,8 @@ data modify storage ssbrc:data stages set value {\
 		"model": 1350,\
 		"name": "pallet_town",\
 		"page": 2,\
+		"tick": "always",\
+		"altered_beast_form": "werewolf",\
 		"location": "-608 -208 -529 -97",\
 		"center": "-568.5 0.0 -152.5",\
 		"song_count": 2,\
@@ -1184,6 +1230,8 @@ data modify storage ssbrc:data stages set value {\
 		"model": 250,\
 		"name": "palutenas_temple",\
 		"page": 2,\
+		"tick": "after_start",\
+		"altered_beast_form": "werewolf",\
 		"location": "50015 24944 49952 24991",\
 		"center": "49983.5 0.0 24967.5",\
 		"song_count": 2,\
@@ -1231,6 +1279,8 @@ data modify storage ssbrc:data stages set value {\
 		"model": 1850,\
 		"name": "planet_epp",\
 		"page": 3,\
+		"tick": "after_start",\
+		"altered_beast_form": "weretiger",\
 		"location": "9856 19808 10031 20031",\
 		"center": "9943.5 0.0 19919.5",\
 		"song_count": 2,\
@@ -1278,6 +1328,7 @@ data modify storage ssbrc:data stages set value {\
 		"model": 1400,\
 		"name": "planet_zebes",\
 		"page": 1,\
+		"altered_beast_form": "weredragon",\
 		"location": "39968 39968 40031 40031",\
 		"center": "39999.5 0.0 39999.5",\
 		"song_count": 4,\
@@ -1325,6 +1376,8 @@ data modify storage ssbrc:data stages set value {\
 		"model": 1900,\
 		"name": "pyrosphere",\
 		"page": 1,\
+		"tick": "after_start",\
+		"altered_beast_form": "werebear",\
 		"location": "640 8047 719 7968",\
 		"center": "679.5 0.0 8007.5",\
 		"song_count": 4,\
@@ -1372,6 +1425,7 @@ data modify storage ssbrc:data stages set value {\
 		"model": 1450,\
 		"name": "sand_ocean",\
 		"page": 2,\
+		"altered_beast_form": "weretiger",\
 		"location": "-225 -961 -320 -1056",\
 		"center": "-272.5 0.0 -1008.5",\
 		"song_count": 2,\
@@ -1419,6 +1473,8 @@ data modify storage ssbrc:data stages set value {\
 		"model": 1500,\
 		"name": "saturn_valley",\
 		"page": 2,\
+		"tick": "after_start",\
+		"altered_beast_form": "weretiger",\
 		"location": "-256 560 -177 639",\
 		"center": "-216.5 0.0 599.5",\
 		"song_count": 2,\
@@ -1466,6 +1522,8 @@ data modify storage ssbrc:data stages set value {\
 		"model": 1550,\
 		"name": "sector_z",\
 		"page": 1,\
+		"tick": "after_start",\
+		"altered_beast_form": "werewolf",\
 		"location": "240 3248 367 3327",\
 		"center": "303.5 0.0 3287.5",\
 		"song_count": 2,\
@@ -1513,6 +1571,8 @@ data modify storage ssbrc:data stages set value {\
 		"model": 1600,\
 		"name": "shadow_moses_island",\
 		"page": 2,\
+		"tick": "always",\
+		"altered_beast_form": "werebear",\
 		"location": "48 -1488 207 -1361",\
 		"center": "127.5 0.0 -1424.5",\
 		"song_count": 2,\
@@ -1560,6 +1620,8 @@ data modify storage ssbrc:data stages set value {\
 		"model": 1650,\
 		"name": "spear_pillar",\
 		"page": 2,\
+		"tick": "after_start",\
+		"altered_beast_form": "werewolf",\
 		"location": "768 -128 847 47",\
 		"center": "807.5 0.0 -40.5",\
 		"song_count": 2,\
@@ -1607,6 +1669,7 @@ data modify storage ssbrc:data stages set value {\
 		"model": 1700,\
 		"name": "suzaku_castle",\
 		"page": 3,\
+		"altered_beast_form": "weredragon",\
 		"location": "6960 2944 7055 3023",\
 		"center": "7007.5 0.0 2983.5",\
 		"song_count": 2,\
@@ -1654,6 +1717,8 @@ data modify storage ssbrc:data stages set value {\
 		"model": 1750,\
 		"name": "tower_of_fate",\
 		"page": 3,\
+		"tick": "after_start",\
+		"altered_beast_form": "werebear",\
 		"location": "5984 416 6111 575",\
 		"center": "6047.5 0.0 495.5",\
 		"song_count": 2,\
@@ -1701,6 +1766,7 @@ data modify storage ssbrc:data stages set value {\
 		"model": 1800,\
 		"name": "wily_castle",\
 		"page": 2,\
+		"altered_beast_form": "werewolf",\
 		"location": "4912 5008 5055 5119",\
 		"center": "4983.5 0.0 5063.5",\
 		"song_count": 2,\
@@ -1748,6 +1814,7 @@ data modify storage ssbrc:data stages set value {\
 		"model": 1950,\
 		"name": "yggdrasils_altar",\
 		"page": 3,\
+		"altered_beast_form": "weredragon",\
 		"location": "288 3984 351 4063",\
 		"center": "319.5 0.0 4023.5",\
 		"song_count": 2,\

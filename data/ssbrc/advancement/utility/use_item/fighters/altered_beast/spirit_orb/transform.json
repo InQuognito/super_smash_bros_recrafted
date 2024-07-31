@@ -23,10 +23,6 @@
 								"nbt": "{Tags:[\"altered_beast.is_beast\"]}"
 							}
 						}
-					},
-					{
-						"condition": "minecraft:reference",
-						"name": "ssbrc:fighters/altered_beast/werewolf"
 					}
 				],
 				"item": {
@@ -39,6 +35,6 @@
 		}
 	},
 	"rewards": {
-		"function": "ssbrc:fighters/altered_beast/kits/werewolf"
+		"function": "ssbrc:fighters/altered_beast/logic/spirit_orb/check"
 	}
 }

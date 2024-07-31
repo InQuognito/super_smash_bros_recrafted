@@ -3,4 +3,4 @@ tag @s add h
 
 function ssbrc:stages/pac_maze/logic/dots/init
 
-scoreboard players add dotGroup.h temp 1
+scoreboard players add dot_group.h temp 1

@@ -104,7 +104,6 @@ scoreboard objectives add snake.capacity dummy
 scoreboard objectives add snake.anti_personnel_mine.ammo dummy
 scoreboard objectives add snake.smoke_grenade.ammo dummy
 scoreboard objectives add sprint_distance minecraft.custom:minecraft.sprint_one_cm
-scoreboard objectives add stage dummy
 scoreboard objectives add stage_select dummy
 scoreboard objectives add stage_vote dummy
 scoreboard objectives add steve.tier dummy
