@@ -1,6 +1,6 @@
-particle minecraft:soul_fire_flame ~ ~ ~ 0.5 0.2 0.5 0.01 25 force @a
+particle minecraft:soul_fire_flame ~ ~ ~ 0.75 0.2 0.75 0.01 50 force @a
 
-execute positioned ~-0.25 ~-0.25 ~-0.25 as @e[tag=!self,predicate=ssbrc:flag/targets,dx=0] positioned ~-0.5 ~-0.5 ~-0.5 if entity @s[dx=0] run function ssbrc:logic/damage/fire {amount:"8.0",burning:"40",type:"generic",kb_resist:"0.0"}
+execute positioned ~-1.0 ~ ~-1.0 as @e[tag=!self,predicate=ssbrc:flag/targets,dx=1,dz=1] run function ssbrc:logic/damage/fire {amount:"8.0",burning:"40",type:"generic",kb_resist:"0.0"}
 
 teleport @s ^ ^ ^0.3
 

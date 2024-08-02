@@ -1,3 +1,8 @@
+summon minecraft:marker -207.5 32.5 -141.5 {Tags:["door"],data:{type:"dark_oak",facing:"south",hinge:"right"}}
+summon minecraft:marker -206.5 32.5 -130.5 {Tags:["door"],data:{type:"dark_oak",facing:"north",hinge:"right"}}
+
+execute as @e[type=minecraft:marker,tag=door] at @s run function ssbrc:stages/luigis_mansion/logic/doors/close with entity @s data
+
 # Yoshi Egg
 summon minecraft:item_display -218.5 28.25 -144.5 {Rotation:[15f,0f],item:{id:"minecraft:nether_star",components:{"minecraft:custom_model_data":1741}}}
 

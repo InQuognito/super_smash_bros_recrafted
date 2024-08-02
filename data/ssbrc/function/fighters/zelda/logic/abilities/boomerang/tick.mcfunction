@@ -17,7 +17,7 @@ execute if score display temp matches 2 run function ssbrc:fighters/link/logic/a
 execute if score display temp matches 4 run function ssbrc:fighters/link/logic/abilities/boomerang/animation/3
 scoreboard players reset display temp
 
-scoreboard players operation #loop temp = @s temp
-scoreboard players operation #loop temp %= 3 integers
-execute if score #loop temp matches 0 run playsound ssbrc:fighters.link.boomerang.loop player @a
-scoreboard players reset #loop temp
+scoreboard players operation loop temp = @s temp
+scoreboard players operation loop temp %= 3 integers
+execute if score loop temp matches 0 run playsound ssbrc:fighters.link.boomerang.loop player @a
+scoreboard players reset loop temp
