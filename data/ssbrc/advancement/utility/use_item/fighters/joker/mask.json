@@ -7,13 +7,13 @@
 				"item": {
 					"items": "#ssbrc:equipment",
 					"predicates": {
-						"minecraft:custom_data": "{group:\"mask\",persona:\"archangel\"}"
+						"minecraft:custom_data": "{group:\"mask\"}"
 					}
 				}
 			}
 		}
 	},
 	"rewards": {
-		"function": "ssbrc:fighters/joker/logic/masks/activate/archangel"
+		"function": "ssbrc:fighters/joker/logic/masks/check"
 	}
 }

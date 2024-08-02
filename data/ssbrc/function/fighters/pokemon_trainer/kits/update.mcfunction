@@ -7,7 +7,4 @@ $execute if data storage ssbrc:temp player.temp_data{skin:"victor"} run tellraw 
 
 clear @s #ssbrc:equipment
 
-function ssbrc:logic/fighters/attributes/defaults
-function ssbrc:logic/fighters/effects/default
-
 playsound ssbrc:items.poke_ball.open player @a

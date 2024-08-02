@@ -37,35 +37,6 @@
 							"name": "ssbrc:init/preset/melee"
 						},
 						{
-							"function": "minecraft:reference",
-							"name": "ssbrc:fighters/ness/mr_baseball_bat/default",
-							"conditions": [
-								{
-									"condition": "minecraft:inverted",
-									"term": {
-										"condition": "minecraft:entity_properties",
-										"entity": "this",
-										"predicate": {
-											"nbt": "{Tags:[\"gold\"]}"
-										}
-									}
-								}
-							]
-						},
-						{
-							"function": "minecraft:reference",
-							"name": "ssbrc:fighters/ness/mr_baseball_bat/gold",
-							"conditions": [
-								{
-									"condition": "minecraft:entity_properties",
-									"entity": "this",
-									"predicate": {
-										"nbt": "{Tags:[\"gold\"]}"
-									}
-								}
-							]
-						},
-						{
 							"function": "minecraft:set_custom_data",
 							"tag": "{item:\"mr_baseball_bat\"}"
 						}

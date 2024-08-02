@@ -10,5 +10,6 @@ clear @s minecraft:nether_star[minecraft:custom_data~{item:"keyblade"}]
 
 function ssbrc:logic/player_data/temp/set {mode:"store",key:"form",value:"anti"}
 function ssbrc:logic/fighters/armor/update/check
-function ssbrc:logic/fighters/attributes/defaults
-function ssbrc:logic/fighters/attributes/defaults/jump_strength
+
+attribute @s minecraft:generic.attack_damage modifier add ssbrc:anti_form 4.0 add_multiplied_base
+attribute @s minecraft:generic.attack_speed modifier add ssbrc:anti_form 1.0 add_multiplied_base

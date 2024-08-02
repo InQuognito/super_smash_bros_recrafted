@@ -14,7 +14,7 @@ loot give @s[tag=archangel] loot ssbrc:fighters/joker/personas/archangel/hama
 loot give @s[tag=arsene] loot ssbrc:fighters/joker/personas/arsene/eiagon
 loot give @s[tag=high_pixie] loot ssbrc:fighters/joker/personas/high_pixie/amrita_shower
 loot give @s[tag=raoul] loot ssbrc:fighters/joker/personas/raoul/phantom_show
-execute if entity @s[tag=yatagarasu] run function ssbrc:logic/fighters/attributes/defaults/knockback_resistance
+attribute @s[tag=yatagarasu] minecraft:generic.knockback_resistance modifier add ssbrc:yatagarasu 0.25 add_value
 
 function ssbrc:logic/item/component/update {mode:"remove",amount:1,search_key:"group",search_value:"persona",component:"minecraft:custom_model_data",output_path:"model temp"}
 

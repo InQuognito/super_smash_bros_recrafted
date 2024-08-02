@@ -3,14 +3,15 @@ tag @s add operator
 
 item modify entity @s weapon.mainhand ssbrc:fighters/cloud/buster_sword
 
-function ssbrc:logic/fighters/attributes/defaults
-function ssbrc:logic/fighters/attributes/defaults/jump_strength
+attribute @s minecraft:generic.armor modifier remove ssbrc:punisher
+attribute @s minecraft:generic.attack_damage modifier remove ssbrc:punisher
+attribute @s minecraft:generic.jump_strength modifier remove ssbrc:punisher
+attribute @s minecraft:generic.knockback_resistance modifier remove ssbrc:punisher
+attribute @s minecraft:generic.movement_speed modifier remove ssbrc:punisher
 
 tellraw @s [{"translate":"ssbrc.fighter.cloud.mode_switch","bold":true,"color":"yellow"},{"translate":"ssbrc.fighter.cloud.operator","bold":false,"color":"green"}]
 
 function ssbrc:logic/item/cooldown/set/const {type:"1",value:"100"}
-
-scoreboard players set mode_switched temp 1
 
 playsound ssbrc:fighters.cloud.mode_switch.operator player @a
 

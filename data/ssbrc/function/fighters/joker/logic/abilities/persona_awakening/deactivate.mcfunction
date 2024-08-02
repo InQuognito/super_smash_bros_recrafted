@@ -4,7 +4,7 @@ function ssbrc:logic/replace_item {tag:"item",old:"rebel_knife",new:"ssbrc:fight
 
 clear @s minecraft:nether_star[minecraft:custom_data~{group:"persona_awakening"}]
 
-function ssbrc:logic/fighters/attributes/defaults/knockback_resistance
+attribute @s minecraft:generic.knockback_resistance modifier remove ssbrc:yatagarasu
 
 function ssbrc:logic/item/component/update {mode:"add",amount:1,search_key:"group",search_value:"persona",component:"minecraft:custom_model_data",output_path:"model temp"}
 

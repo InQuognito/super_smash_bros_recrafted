@@ -44,6 +44,10 @@ def fighter_storage():
 		for fighter in ssbrc.fighters:
 			mc_write(file, tab(1) + qm + fighter + suf_e)
 			mc_write(file, tab(2) + qm + 'name' + sep_s + fighter + suf_s)
+			mc_write(file, tab(2) + qm + 'armor' + sep_n + str(armor(ssbrc.fighters[fighter]['stats']['armor'])) + ',')
+			mc_write(file, tab(2) + qm + 'jump_strength' + sep_n + str(jump_strength(ssbrc.fighters[fighter]['stats']['jump_strength'])) + ',')
+			mc_write(file, tab(2) + qm + 'max_health' + sep_n + str(max_health(ssbrc.fighters[fighter]['stats']['max_health'])) + ',')
+			mc_write(file, tab(2) + qm + 'movement_speed' + sep_n + str(movement_speed(ssbrc.fighters[fighter]['stats']['movement_speed'])) + ',')
 			mc_write(file, tab(2) + qm + 'page' + sep_n + str(ssbrc.fighters[fighter]['page']) + ',')
 			mc_write(file, tab(2) + qm + 'miiverse_posts' + sep_n + str(ssbrc.fighters[fighter]['miiverse_posts']) + ',')
 			mc_write(file, tab(2) + qm + 'model' + sep_n + str(ssbrc.fighters[fighter]['model']) + ',')

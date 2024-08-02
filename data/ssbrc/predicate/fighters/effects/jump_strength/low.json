@@ -13,41 +13,6 @@
 				"condition": "minecraft:entity_properties",
 				"entity": "this",
 				"predicate": {
-					"nbt": "{Tags:[\"bowser\"]}"
-				}
-			},
-			{
-				"condition": "minecraft:entity_properties",
-				"entity": "this",
-				"predicate": {
-					"nbt": "{Tags:[\"donkey_kong\"]}"
-				}
-			},
-			{
-				"condition": "minecraft:entity_properties",
-				"entity": "this",
-				"predicate": {
-					"nbt": "{Tags:[\"ganondorf\"]}"
-				}
-			},
-			{
-				"condition": "minecraft:entity_properties",
-				"entity": "this",
-				"predicate": {
-					"nbt": "{Tags:[\"jigglypuff\"]}"
-				}
-			},
-			{
-				"condition": "minecraft:entity_properties",
-				"entity": "this",
-				"predicate": {
-					"nbt": "{Tags:[\"king_k_rool\"]}"
-				}
-			},
-			{
-				"condition": "minecraft:entity_properties",
-				"entity": "this",
-				"predicate": {
 					"nbt": "{Tags:[\"sora\",\"anti\"]}"
 				}
 			},

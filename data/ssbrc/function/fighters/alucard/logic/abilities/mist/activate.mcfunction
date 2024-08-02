@@ -22,7 +22,10 @@ effect give @s minecraft:invisibility infinite 0 true
 effect give @s minecraft:levitation infinite 0 true
 effect give @s minecraft:resistance infinite 255 true
 
-function ssbrc:logic/fighters/attributes/defaults
+attribute @s minecraft:generic.armor modifier add ssbrc:mist -1.0 add_multiplied_total
+attribute @s minecraft:generic.attack_damage modifier add ssbrc:mist -1.0 add_multiplied_total
+attribute @s minecraft:generic.attack_speed modifier add ssbrc:mist -1.0 add_multiplied_total
+attribute @s minecraft:generic.knockback_resistance modifier add ssbrc:mist 1.0 add_value
 
 function ssbrc:logic/item/cooldown/set/const {type:"1",value:"300"}
 

@@ -8,23 +8,11 @@
 				"terms": [
 					{
 						"condition": "minecraft:reference",
-						"name": "ssbrc:fighters/effects/jump_strength/none"
-					},
-					{
-						"condition": "minecraft:reference",
 						"name": "ssbrc:fighters/effects/jump_strength/low"
 					},
 					{
 						"condition": "minecraft:reference",
 						"name": "ssbrc:fighters/effects/jump_strength/high"
-					},
-					{
-						"condition": "minecraft:reference",
-						"name": "ssbrc:fighters/effects/jump_strength/super"
-					},
-					{
-						"condition": "minecraft:reference",
-						"name": "ssbrc:fighters/effects/jump_strength/insane"
 					}
 				]
 			}

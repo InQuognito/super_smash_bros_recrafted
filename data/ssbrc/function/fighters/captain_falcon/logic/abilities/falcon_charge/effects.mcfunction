@@ -1,6 +1,6 @@
 tag @s add falcon_charge
 
-attribute @s minecraft:generic.movement_speed base set 0.175
+attribute @s minecraft:generic.movement_speed modifier add ssbrc:falcon_charge 0.7 add_multiplied_total
 
 scoreboard players set @s charge.2 0
 

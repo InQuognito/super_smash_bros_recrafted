@@ -3,6 +3,7 @@
 data modify storage ssbrc:data fighters set value {\
 	"altered_beast": {\
 		"name": "altered_beast",\
+		"jump_strength": 0.58,\
 		"page": 3,\
 		"miiverse_posts": 1,\
 		"model": 1820,\
@@ -21,6 +22,7 @@ data modify storage ssbrc:data fighters set value {\
 	},\
 	"alucard": {\
 		"name": "alucard",\
+		"jump_strength": 0.58,\
 		"page": 1,\
 		"miiverse_posts": 1,\
 		"model": 1840,\
@@ -119,6 +121,7 @@ data modify storage ssbrc:data fighters set value {\
 	},\
 	"bowser": {\
 		"name": "bowser",\
+		"jump_strength": 0.5,\
 		"page": 1,\
 		"miiverse_posts": 1,\
 		"model": 60,\
@@ -157,6 +160,7 @@ data modify storage ssbrc:data fighters set value {\
 	},\
 	"byleth": {\
 		"name": "byleth",\
+		"jump_strength": 0.58,\
 		"page": 1,\
 		"miiverse_posts": 1,\
 		"model": 100,\
@@ -175,6 +179,7 @@ data modify storage ssbrc:data fighters set value {\
 	},\
 	"captain_falcon": {\
 		"name": "captain_falcon",\
+		"jump_strength": 0.58,\
 		"page": 1,\
 		"miiverse_posts": 1,\
 		"model": 120,\
@@ -198,6 +203,7 @@ data modify storage ssbrc:data fighters set value {\
 	},\
 	"cloud": {\
 		"name": "cloud",\
+		"jump_strength": 0.58,\
 		"page": 1,\
 		"miiverse_posts": 1,\
 		"model": 180,\
@@ -211,6 +217,7 @@ data modify storage ssbrc:data fighters set value {\
 	},\
 	"dark_samus": {\
 		"name": "dark_samus",\
+		"jump_strength": 0.58,\
 		"page": 1,\
 		"miiverse_posts": 1,\
 		"model": 260,\
@@ -229,6 +236,7 @@ data modify storage ssbrc:data fighters set value {\
 	},\
 	"donkey_kong": {\
 		"name": "donkey_kong",\
+		"jump_strength": 0.5,\
 		"page": 1,\
 		"miiverse_posts": 1,\
 		"model": 300,\
@@ -252,6 +260,7 @@ data modify storage ssbrc:data fighters set value {\
 	},\
 	"fox": {\
 		"name": "fox",\
+		"jump_strength": 0.58,\
 		"page": 1,\
 		"miiverse_posts": 1,\
 		"model": 380,\
@@ -270,6 +279,7 @@ data modify storage ssbrc:data fighters set value {\
 	},\
 	"ganondorf": {\
 		"name": "ganondorf",\
+		"jump_strength": 0.5,\
 		"page": 1,\
 		"miiverse_posts": 1,\
 		"model": 400,\
@@ -298,6 +308,7 @@ data modify storage ssbrc:data fighters set value {\
 	},\
 	"giegue": {\
 		"name": "giegue",\
+		"jump_strength": 0.58,\
 		"page": 1,\
 		"miiverse_posts": 1,\
 		"model": 1860,\
@@ -311,6 +322,7 @@ data modify storage ssbrc:data fighters set value {\
 	},\
 	"greninja": {\
 		"name": "greninja",\
+		"jump_strength": 0.58,\
 		"page": 1,\
 		"miiverse_posts": 1,\
 		"model": 420,\
@@ -360,6 +372,7 @@ data modify storage ssbrc:data fighters set value {\
 	},\
 	"hero": {\
 		"name": "hero",\
+		"jump_strength": 0.58,\
 		"page": 1,\
 		"miiverse_posts": 2,\
 		"model": 440,\
@@ -431,6 +444,7 @@ data modify storage ssbrc:data fighters set value {\
 	},\
 	"jigglypuff": {\
 		"name": "jigglypuff",\
+		"jump_strength": 0.5,\
 		"page": 1,\
 		"miiverse_posts": 1,\
 		"model": 580,\
@@ -509,6 +523,7 @@ data modify storage ssbrc:data fighters set value {\
 	},\
 	"joker": {\
 		"name": "joker",\
+		"jump_strength": 0.58,\
 		"page": 1,\
 		"miiverse_posts": 1,\
 		"model": 600,\
@@ -610,6 +625,7 @@ data modify storage ssbrc:data fighters set value {\
 	},\
 	"king_k_rool": {\
 		"name": "king_k_rool",\
+		"jump_strength": 0.5,\
 		"page": 1,\
 		"miiverse_posts": 1,\
 		"model": 680,\
@@ -651,6 +667,7 @@ data modify storage ssbrc:data fighters set value {\
 	},\
 	"kirby": {\
 		"name": "kirby",\
+		"jump_strength": 0.58,\
 		"page": 1,\
 		"miiverse_posts": 1,\
 		"model": 700,\
@@ -729,6 +746,7 @@ data modify storage ssbrc:data fighters set value {\
 	},\
 	"link": {\
 		"name": "link",\
+		"jump_strength": 0.58,\
 		"page": 1,\
 		"miiverse_posts": 2,\
 		"model": 720,\
@@ -853,6 +871,7 @@ data modify storage ssbrc:data fighters set value {\
 	},\
 	"luigi": {\
 		"name": "luigi",\
+		"jump_strength": 0.7,\
 		"page": 1,\
 		"miiverse_posts": 1,\
 		"model": 820,\
@@ -945,6 +964,7 @@ data modify storage ssbrc:data fighters set value {\
 	},\
 	"mario": {\
 		"name": "mario",\
+		"jump_strength": 0.7,\
 		"page": 1,\
 		"miiverse_posts": 2,\
 		"model": 840,\
@@ -1020,6 +1040,7 @@ data modify storage ssbrc:data fighters set value {\
 	},\
 	"mega_man": {\
 		"name": "mega_man",\
+		"jump_strength": 0.58,\
 		"page": 1,\
 		"miiverse_posts": 1,\
 		"model": 880,\
@@ -1238,6 +1259,7 @@ data modify storage ssbrc:data fighters set value {\
 	},\
 	"ness": {\
 		"name": "ness",\
+		"jump_strength": 0.58,\
 		"page": 1,\
 		"miiverse_posts": 1,\
 		"model": 1080,\
@@ -1294,74 +1316,11 @@ data modify storage ssbrc:data fighters set value {\
 					"tag": "mr_baseball_bat"\
 				},\
 			},\
-			"pk_fire": {\
-				"default": {\
-					"name": "ssbrc.fighter.ness.pk_fire",\
-					"color": "red",\
-					"model": 1081,\
-					"tag": "pk_fire"\
-				},\
-				"gold": {\
-					"name": "ssbrc.fighter.ness.pk_fire",\
-					"color": "red",\
-					"model": 1081,\
-					"tag": "pk_fire"\
-				},\
-				"moonside": {\
-					"name": "ssbrc.fighter.ness.pk_fire",\
-					"color": "red",\
-					"model": 1081,\
-					"tag": "pk_fire"\
-				},\
-				"pajamas": {\
-					"name": "ssbrc.fighter.ness.pk_fire",\
-					"color": "red",\
-					"model": 1081,\
-					"tag": "pk_fire"\
-				},\
-				"phase_distortion": {\
-					"name": "ssbrc.fighter.ness.pk_fire",\
-					"color": "red",\
-					"model": 1081,\
-					"tag": "pk_fire"\
-				},\
-			},\
-			"pk_flash": {\
-				"default": {\
-					"name": "ssbrc.fighter.ness.pk_flash",\
-					"color": "green",\
-					"model": 1082,\
-					"tag": "pk_flash"\
-				},\
-				"gold": {\
-					"name": "ssbrc.fighter.ness.pk_flash",\
-					"color": "green",\
-					"model": 1082,\
-					"tag": "pk_flash"\
-				},\
-				"moonside": {\
-					"name": "ssbrc.fighter.ness.pk_flash",\
-					"color": "green",\
-					"model": 1082,\
-					"tag": "pk_flash"\
-				},\
-				"pajamas": {\
-					"name": "ssbrc.fighter.ness.pk_flash",\
-					"color": "green",\
-					"model": 1082,\
-					"tag": "pk_flash"\
-				},\
-				"phase_distortion": {\
-					"name": "ssbrc.fighter.ness.pk_flash",\
-					"color": "green",\
-					"model": 1082,\
-					"tag": "pk_flash"\
-				},\
-			},\
 		}\
 	},\
 	"peach": {\
 		"name": "peach",\
+		"jump_strength": 0.58,\
 		"page": 1,\
 		"miiverse_posts": 1,\
 		"model": 1160,\
@@ -1375,6 +1334,7 @@ data modify storage ssbrc:data fighters set value {\
 	},\
 	"pikachu": {\
 		"name": "pikachu",\
+		"jump_strength": 0.58,\
 		"page": 1,\
 		"miiverse_posts": 1,\
 		"model": 1200,\
@@ -1476,6 +1436,7 @@ data modify storage ssbrc:data fighters set value {\
 	},\
 	"pit": {\
 		"name": "pit",\
+		"jump_strength": 0.58,\
 		"page": 1,\
 		"miiverse_posts": 1,\
 		"model": 1220,\
@@ -1514,6 +1475,7 @@ data modify storage ssbrc:data fighters set value {\
 	},\
 	"pokemon_trainer": {\
 		"name": "pokemon_trainer",\
+		"jump_strength": 0.58,\
 		"page": 1,\
 		"miiverse_posts": 1,\
 		"model": 1260,\
@@ -1766,6 +1728,7 @@ data modify storage ssbrc:data fighters set value {\
 	},\
 	"rob": {\
 		"name": "rob",\
+		"jump_strength": 0.58,\
 		"page": 1,\
 		"miiverse_posts": 1,\
 		"model": 1,\
@@ -1841,6 +1804,7 @@ data modify storage ssbrc:data fighters set value {\
 	},\
 	"ryu": {\
 		"name": "ryu",\
+		"jump_strength": 0.58,\
 		"page": 1,\
 		"miiverse_posts": 1,\
 		"model": 1400,\
@@ -1879,6 +1843,7 @@ data modify storage ssbrc:data fighters set value {\
 	},\
 	"samus": {\
 		"name": "samus",\
+		"jump_strength": 0.58,\
 		"page": 1,\
 		"miiverse_posts": 1,\
 		"model": 1420,\
@@ -1928,6 +1893,7 @@ data modify storage ssbrc:data fighters set value {\
 	},\
 	"shadow": {\
 		"name": "shadow",\
+		"jump_strength": 0.58,\
 		"page": 1,\
 		"miiverse_posts": 1,\
 		"model": 1900,\
@@ -2003,6 +1969,7 @@ data modify storage ssbrc:data fighters set value {\
 	},\
 	"shovel_knight": {\
 		"name": "shovel_knight",\
+		"jump_strength": 0.58,\
 		"page": 3,\
 		"miiverse_posts": 1,\
 		"model": 1920,\
@@ -2208,6 +2175,7 @@ data modify storage ssbrc:data fighters set value {\
 	},\
 	"snake": {\
 		"name": "snake",\
+		"jump_strength": 0.58,\
 		"page": 1,\
 		"miiverse_posts": 1,\
 		"model": 1520,\
@@ -2439,6 +2407,7 @@ data modify storage ssbrc:data fighters set value {\
 	},\
 	"sonic": {\
 		"name": "sonic",\
+		"jump_strength": 0.58,\
 		"page": 1,\
 		"miiverse_posts": 1,\
 		"model": 1540,\
@@ -2499,6 +2468,7 @@ data modify storage ssbrc:data fighters set value {\
 	},\
 	"sora": {\
 		"name": "sora",\
+		"jump_strength": 0.58,\
 		"page": 1,\
 		"miiverse_posts": 1,\
 		"model": 1560,\
@@ -2537,6 +2507,7 @@ data modify storage ssbrc:data fighters set value {\
 	},\
 	"steve": {\
 		"name": "steve",\
+		"jump_strength": 0.58,\
 		"page": 1,\
 		"miiverse_posts": 1,\
 		"model": 1580,\
@@ -2582,6 +2553,7 @@ data modify storage ssbrc:data fighters set value {\
 	},\
 	"team_rocket": {\
 		"name": "team_rocket",\
+		"jump_strength": 0.58,\
 		"page": 1,\
 		"miiverse_posts": 1,\
 		"model": 1940,\
@@ -2709,6 +2681,7 @@ data modify storage ssbrc:data fighters set value {\
 	},\
 	"wolf": {\
 		"name": "wolf",\
+		"jump_strength": 0.58,\
 		"page": 1,\
 		"miiverse_posts": 1,\
 		"model": 1720,\
@@ -2787,6 +2760,7 @@ data modify storage ssbrc:data fighters set value {\
 	},\
 	"yar": {\
 		"name": "yar",\
+		"jump_strength": 0.58,\
 		"page": 3,\
 		"miiverse_posts": 1,\
 		"model": 1960,\
@@ -2865,6 +2839,7 @@ data modify storage ssbrc:data fighters set value {\
 	},\
 	"zelda": {\
 		"name": "zelda",\
+		"jump_strength": 0.58,\
 		"page": 1,\
 		"miiverse_posts": 1,\
 		"model": 1780,\

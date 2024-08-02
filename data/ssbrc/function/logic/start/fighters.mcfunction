@@ -17,7 +17,7 @@ scoreboard players set @s shadow.chaos_control 0
 
 function ssbrc:logic/fighters/get {function:"ssbrc:logic/fighters/kit"}
 
-function ssbrc:logic/fighters/attributes/defaults
+function ssbrc:logic/fighters/get {function:"ssbrc:logic/fighters/attributes/defaults"}
 function ssbrc:logic/fighters/effects/default
 
 function ssbrc:logic/pre_game/bonuses/all

@@ -7,4 +7,4 @@ function ssbrc:logic/replace_item {tag:"item",old:"keyblade",new:"ssbrc:fighters
 execute unless items entity @s weapon.offhand minecraft:nether_star[minecraft:custom_data~{item:"keyblade",hand:"secondary"}] unless items entity @s weapon.offhand * run loot replace entity @s weapon.offhand loot ssbrc:fighters/sora/keyblades/secondary/strike_raid
 execute unless items entity @s weapon.offhand minecraft:nether_star[minecraft:custom_data~{item:"keyblade",hand:"secondary"}] if items entity @s weapon.offhand * run loot give @s loot ssbrc:fighters/sora/keyblades/secondary/strike_raid
 
-function ssbrc:logic/fighters/attributes/defaults/jump_strength
+attribute @s minecraft:generic.jump_strength modifier add ssbrc:valor_form 0.2 add_multiplied_base

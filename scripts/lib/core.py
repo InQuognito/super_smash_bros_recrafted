@@ -65,6 +65,46 @@ def get_color(fighter, skin='default'):
 	else:
 		return ssbrc.fighters[fighter]['skins'][skin]['color']
 
+def armor(value):
+	'''Returns the exact value of the armor category.'''
+	if value == 'negligible':
+		return 4.0
+	elif value == 'low':
+		return 10.0
+	elif value == 'high':
+		return 14.0
+	else:
+		return 12.0
+
+def jump_strength(value):
+	'''Returns the exact value of the jump strength category.'''
+	if value == 'none':
+		return 0.42
+	elif value == 'low':
+		return 0.50
+	elif value == 'high':
+		return 0.70
+	elif value == 'super':
+		return 0.81
+	elif value == 'insane':
+		return 1.10
+	else:
+		return 0.58
+
+def max_health(value):
+	'''Returns the exact value of the max_health category.'''
+	if value == 'low':
+		return 32.0
+	else:
+		return 40.0
+
+def movement_speed(value):
+	'''Returns the exact value of the max_health category.'''
+	if value == 'medium':
+		return 0.1
+	else:
+		return value
+
 def mc_write(file, str):
 	'''Write to file, mcfunction format.'''
 	file.write(str + '\\\n')

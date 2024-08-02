@@ -1,5 +1,5 @@
 function ssbrc:fighters/sora/logic/drive_forms/reset
-$tag @s add $(form)
+
 $function ssbrc:logic/player_data/temp/set {mode:"store",key:"form",value:"$(form)"}
 
 scoreboard players set @s duration.1 600

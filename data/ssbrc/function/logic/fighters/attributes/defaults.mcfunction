@@ -1,63 +1,19 @@
-# Armor
-attribute @s[predicate=ssbrc:fighters/armor_values/none] minecraft:generic.armor base set 0.0
-attribute @s[predicate=ssbrc:fighters/armor_values/negligible] minecraft:generic.armor base set 4.0
-attribute @s[predicate=ssbrc:fighters/armor_values/low] minecraft:generic.armor base set 10.0
-attribute @s[predicate=ssbrc:fighters/armor_values/moderate] minecraft:generic.armor base set 12.0
-attribute @s[predicate=ssbrc:fighters/armor_values/medium] minecraft:generic.armor base set 14.0
+$function ssbrc:logic/fighters/get/run {function:"ssbrc:logic/fighters/attributes/defaults/armor",fighter:"$(fighter)"}
 
-# Attack Damage
-attribute @s[predicate=ssbrc:fighters/attack_damage/none] minecraft:generic.attack_damage base set 0.0
-attribute @s[predicate=ssbrc:fighters/attack_damage/low] minecraft:generic.attack_damage base set 1.0
-attribute @s[predicate=ssbrc:fighters/attack_damage/medium] minecraft:generic.attack_damage base set 1.2
-attribute @s[predicate=ssbrc:fighters/attack_damage/high] minecraft:generic.attack_damage base set 2.0
-attribute @s[predicate=ssbrc:fighters/attack_damage/insane] minecraft:generic.attack_damage base set 4.0
+attribute @s minecraft:generic.attack_damage base set 1.0
 
-# Attack Speed
-attribute @s[predicate=ssbrc:fighters/attack_speed/none] minecraft:generic.attack_speed base set 0.0
-attribute @s[predicate=ssbrc:fighters/attack_speed/low] minecraft:generic.attack_speed base set 1.0
-attribute @s[predicate=ssbrc:fighters/attack_speed/medium] minecraft:generic.attack_speed base set 2.0
+attribute @s minecraft:generic.attack_speed base set 1.0
 
-# Knockback Resistance
-function ssbrc:logic/fighters/attributes/defaults/knockback_resistance
+attribute @s minecraft:generic.knockback_resistance base set 0.0
 
-# Max Health
-attribute @s[predicate=ssbrc:fighters/max_health/low] minecraft:generic.max_health base set 32.0
-attribute @s[predicate=ssbrc:fighters/max_health/default] minecraft:generic.max_health base set 40.0
+$function ssbrc:logic/fighters/get/run {function:"ssbrc:logic/fighters/attributes/defaults/max_health",fighter:"$(fighter)"}
 
-# Movement Speed
-attribute @s[predicate=ssbrc:fighters/speed/default] minecraft:generic.movement_speed base set 0.1
+attribute @s minecraft:generic.movement_speed base set 0.1
 
-attribute @s[tag=captain_falcon] minecraft:generic.movement_speed base set 0.105
-attribute @s[tag=cloud,tag=punisher] minecraft:generic.movement_speed base set 0.03
-attribute @s[tag=dark_samus] minecraft:generic.movement_speed base set 0.095
-attribute @s[tag=ganondorf] minecraft:generic.movement_speed base set 0.075
-attribute @s[tag=jigglypuff] minecraft:generic.movement_speed base set 0.085
-attribute @s[tag=king_k_rool] minecraft:generic.movement_speed base set 0.085
-attribute @s[tag=meowth] minecraft:generic.movement_speed base set 0.125
-attribute @s[tag=samus] minecraft:generic.movement_speed base set 0.09
-attribute @s[tag=shadow] minecraft:generic.movement_speed base set 0.105
-attribute @s[tag=snake,scores={snake.capacity=..0}] minecraft:generic.movement_speed base set 0.105
-attribute @s[tag=snake,scores={snake.capacity=1}] minecraft:generic.movement_speed base set 0.099
-attribute @s[tag=snake,scores={snake.capacity=2}] minecraft:generic.movement_speed base set 0.098
-attribute @s[tag=snake,scores={snake.capacity=3}] minecraft:generic.movement_speed base set 0.097
-attribute @s[tag=snake,scores={snake.capacity=4}] minecraft:generic.movement_speed base set 0.096
-attribute @s[tag=snake,scores={snake.capacity=5}] minecraft:generic.movement_speed base set 0.095
-attribute @s[tag=snake,scores={snake.capacity=6}] minecraft:generic.movement_speed base set 0.094
-attribute @s[tag=snake,scores={snake.capacity=7}] minecraft:generic.movement_speed base set 0.093
-attribute @s[tag=snake,scores={snake.capacity=8}] minecraft:generic.movement_speed base set 0.092
-attribute @s[tag=snake,scores={snake.capacity=9}] minecraft:generic.movement_speed base set 0.091
-attribute @s[tag=snake,scores={snake.capacity=10..}] minecraft:generic.movement_speed base set 0.09
-attribute @s[tag=sonic] minecraft:generic.movement_speed base set 0.11
-attribute @s[tag=sora,tag=wisdom] minecraft:generic.movement_speed base set 0.105
-attribute @s[tag=wobbuffet] minecraft:generic.movement_speed base set 0.085
+$function ssbrc:logic/fighters/get/run {function:"ssbrc:logic/fighters/attributes/defaults/jump_strength",fighter:"$(fighter)"}
 
-# Jump Strength
-function ssbrc:logic/fighters/attributes/defaults/jump_strength
-
-# Gravity
 execute unless data storage ssbrc:temp game.stage{name:"sector_z"} run attribute @s minecraft:generic.gravity base set 0.08
 execute if data storage ssbrc:temp game.stage{name:"sector_z"} run attribute @s minecraft:generic.gravity base set 0.01
 
-# Fall Damage
 execute unless data storage ssbrc:temp game.stage{name:"sector_z"} run attribute @s minecraft:generic.safe_fall_distance base set 8.0
 execute if data storage ssbrc:temp game.stage{name:"sector_z"} run attribute @s minecraft:generic.safe_fall_distance base set 80.0

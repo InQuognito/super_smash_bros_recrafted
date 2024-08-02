@@ -5,10 +5,6 @@
 		"terms": [
 			{
 				"condition": "minecraft:reference",
-				"name": "ssbrc:fighters/attack_speed/none"
-			},
-			{
-				"condition": "minecraft:reference",
 				"name": "ssbrc:fighters/attack_speed/medium"
 			}
 		]

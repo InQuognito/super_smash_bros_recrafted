@@ -4,6 +4,8 @@ execute anchored eyes positioned ^ ^ ^1 summon minecraft:marker run function ssb
 
 function ssbrc:logic/item/durability/reset/slot {slot_string:"weapon.mainhand"}
 
+function ssbrc:fighters/snake/logic/load/decrease
+
 scoreboard players remove @s snake.smoke_grenade.ammo 1
 item replace entity @s[scores={snake.smoke_grenade.ammo=..0}] weapon.mainhand with minecraft:air
 

@@ -5,7 +5,5 @@ $tellraw @s {"translate":"ssbrc.fighter.team_rocket.$(form).switch","color":"$(c
 clear @s #ssbrc:equipment
 
 function ssbrc:logic/fighters/armor/update/check
-function ssbrc:logic/fighters/attributes/defaults
-function ssbrc:logic/fighters/effects/default
 
 playsound ssbrc:items.poke_ball.open player @a

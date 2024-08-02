@@ -6,5 +6,3 @@ scoreboard players set @s resource 0
 loot replace entity @s hotbar.0 loot ssbrc:fighters/sora/keyblades/primary/fire
 
 function ssbrc:logic/fighters/armor/update/check
-function ssbrc:logic/fighters/attributes/defaults
-function ssbrc:logic/fighters/effects/default
