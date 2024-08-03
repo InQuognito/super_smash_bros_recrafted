@@ -26,7 +26,7 @@ scoreboard players reset electric_terrain temp
 
 # Combo
 scoreboard players remove @s[scores={combo.duration=-4..}] combo.duration 1
-execute if score @s combo.duration matches ..-5 run function ssbrc:logic/fighters/combo/reset
+scoreboard players set @s[scores={combo.duration=..-5}] combo.count 0
 
 # Items
 execute if entity @s[tag=angel_feather] run particle minecraft:dust_color_transition{from_color:[1.0,1.0,0.0],to_color:[1.0,1.0,1.0],scale:0.5} ~ ~0.75 ~ 0.2 0.3 0.2 0.0 3 normal @a

@@ -1,6 +1,6 @@
 function ssbrc:fighters/zelda/logic/abilities/great_fairy_blessing/calculate
 
-execute if score @s resource >= great_fairy_blessing.cost temp run function ssbrc:fighters/zelda/logic/abilities/great_fairy_blessing/choose
+execute if score @s resource >= great_fairy_blessing.cost temp run function ssbrc:fighters/zelda/logic/abilities/great_fairy_blessing/activate
 
 scoreboard players set @s cooldown 5
 

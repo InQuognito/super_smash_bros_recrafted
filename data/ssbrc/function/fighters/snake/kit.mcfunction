@@ -1,3 +1,5 @@
+loot give @s loot ssbrc:fighters/snake/cqc_knife
+
 loot give @s[tag=psg1] loot ssbrc:fighters/snake/psg1
 
 loot give @s[tag=famas] loot ssbrc:fighters/snake/famas
@@ -5,8 +7,6 @@ loot give @s[tag=famas] loot ssbrc:fighters/snake/famas
 loot give @s[tag=s1000] loot ssbrc:fighters/snake/s1000
 
 loot give @s[tag=socom] loot ssbrc:fighters/snake/socom
-
-loot give @s loot ssbrc:fighters/snake/cqc_knife
 
 loot give @s[tag=anti_personnel_mine] loot ssbrc:fighters/snake/anti_personnel_mine
 

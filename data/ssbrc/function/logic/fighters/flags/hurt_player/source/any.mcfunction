@@ -1,3 +1,5 @@
+function ssbrc:logic/fighters/combo/hit
+
 #execute if score players.playing temp matches 3.. run function ssbrc:logic/fighters/bonuses/bully
 scoreboard players reset @s coward.tracking
 function ssbrc:logic/fighters/bonuses/first_strike

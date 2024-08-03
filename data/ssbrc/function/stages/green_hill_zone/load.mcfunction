@@ -1,3 +1,10 @@
+# Totem Poles
+execute positioned -21.5 18.5 233.5 run function ssbrc:stages/green_hill_zone/logic/totem_pole/init {rotation:"90",wing_position:"2",face_1:"suspicious",face_2:"angry",face_3:"shocked"}
+execute positioned 8.5 19.5 242.5 run function ssbrc:stages/green_hill_zone/logic/totem_pole/init {rotation:"180",wing_position:"2",face_1:"suspicious",face_2:"angry",face_3:"shocked"}
+
+execute positioned -12.5 25.5 195.5 run function ssbrc:stages/green_hill_zone/logic/totem_pole/init {rotation:"0",wing_position:"2",face_1:"suspicious",face_2:"angry",face_3:"shocked"}
+execute positioned -41.5 25.5 274.5 run function ssbrc:stages/green_hill_zone/logic/totem_pole/init {rotation:"180",wing_position:"2",face_1:"suspicious",face_2:"angry",face_3:"shocked"}
+
 # Armor Stands
 execute unless entity @a[tag=shadow] positioned -29.5 31.0 196.5 summon minecraft:armor_stand run function ssbrc:stages/green_hill_zone/logic/armor_stands/shadow
 execute positioned 31.5 25.0 241.5 summon minecraft:armor_stand run function ssbrc:stages/green_hill_zone/logic/armor_stands/amy
