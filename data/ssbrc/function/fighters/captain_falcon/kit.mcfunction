@@ -1,5 +1,5 @@
-loot replace entity @s hotbar.0 loot ssbrc:fighters/captain_falcon/fists_of_fury
+function ssbrc:logic/item/init/default/get {item:"fists_of_fury",slot:"hotbar.0",type:"default"}
 
-loot replace entity @s hotbar.1 loot ssbrc:fighters/captain_falcon/falcon_punch
+function ssbrc:logic/item/init/default/get {item:"falcon_punch",slot:"hotbar.1",type:"default"}
 
-loot replace entity @s hotbar.2 loot ssbrc:fighters/captain_falcon/falcon_charge
+function ssbrc:logic/item/init/default/get {item:"falcon_charge",slot:"hotbar.2",type:"default"}

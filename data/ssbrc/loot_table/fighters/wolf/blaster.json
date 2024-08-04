@@ -44,45 +44,6 @@
 							"mode": "append"
 						},
 						{
-							"function": "minecraft:reference",
-							"name": "ssbrc:fighters/wolf/blaster/default",
-							"conditions": [
-								{
-									"condition": "minecraft:entity_properties",
-									"entity": "this",
-									"predicate": {
-										"nbt": "{Tags:[\"default\"]}"
-									}
-								}
-							]
-						},
-						{
-							"function": "minecraft:reference",
-							"name": "ssbrc:fighters/wolf/blaster/gold",
-							"conditions": [
-								{
-									"condition": "minecraft:entity_properties",
-									"entity": "this",
-									"predicate": {
-										"nbt": "{Tags:[\"gold\"]}"
-									}
-								}
-							]
-						},
-						{
-							"function": "minecraft:reference",
-							"name": "ssbrc:fighters/wolf/blaster/assault",
-							"conditions": [
-								{
-									"condition": "minecraft:entity_properties",
-									"entity": "this",
-									"predicate": {
-										"nbt": "{Tags:[\"assault\"]}"
-									}
-								}
-							]
-						},
-						{
 							"function": "minecraft:set_custom_data",
 							"tag": "{item:\"wolf.blaster\"}"
 						}

@@ -9,7 +9,7 @@ item replace entity @s horse.saddle with minecraft:saddle
 attribute @s minecraft:generic.jump_strength base set 0.7
 attribute @s minecraft:generic.movement_speed base set 0.3
 
-data merge entity @s {Variant:3,Tame:1,Glowing:1b,PersistenceRequired:1b}
+data merge entity @s {Variant:3,Tame:1b,Glowing:1b,PersistenceRequired:1b}
 
 function ssbrc:logic/init/entity/living
 

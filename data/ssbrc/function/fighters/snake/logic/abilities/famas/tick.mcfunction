@@ -1,4 +1,4 @@
-scoreboard players set #n temp 24
+scoreboard players set n temp 24
 
 function ssbrc:fighters/snake/logic/abilities/famas/move_forward
 

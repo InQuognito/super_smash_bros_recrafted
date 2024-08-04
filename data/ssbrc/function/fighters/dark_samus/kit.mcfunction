@@ -1,1 +1,1 @@
-loot replace entity @s hotbar.0 loot ssbrc:fighters/dark_samus/phazon_beam/idle
+function ssbrc:logic/item/init/default/get {item:"phazon_beam",slot:"hotbar.0",type:"default"}

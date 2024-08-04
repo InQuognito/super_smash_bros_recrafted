@@ -1,1 +1,1 @@
-loot replace entity @s hotbar.0 loot ssbrc:fighters/samus/arm_cannon/power_beam
+function ssbrc:logic/item/init/default/get {item:"power_beam",slot:"hotbar.0",type:"default"}

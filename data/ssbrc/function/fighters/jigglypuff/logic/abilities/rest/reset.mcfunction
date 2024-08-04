@@ -1,1 +1,1 @@
-function ssbrc:logic/modify_item {old:"rest",new:"ssbrc:fighters/jigglypuff/rest/default"}
+function ssbrc:logic/item/modify {old:"rest",new:"ssbrc:fighters/jigglypuff/rest/default"}

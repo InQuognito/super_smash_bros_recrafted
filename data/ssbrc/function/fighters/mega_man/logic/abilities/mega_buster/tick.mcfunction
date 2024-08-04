@@ -1,4 +1,4 @@
-scoreboard players set #n temp 2
+scoreboard players set n temp 2
 
 function ssbrc:fighters/mega_man/logic/abilities/mega_buster/move_forward
 

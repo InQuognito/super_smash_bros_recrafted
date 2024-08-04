@@ -1,6 +1,6 @@
-function ssbrc:logic/item/default/get {item:"rebel_knife",slot:"hotbar.0",type:"default"}
+function ssbrc:logic/item/init/default/get {item:"rebel_knife",slot:"hotbar.0",type:"default"}
 
-function ssbrc:logic/item/default/get {item:"tt33",slot:"hotbar.1",type:"default"}
+function ssbrc:logic/item/init/default/get {item:"tt33",slot:"hotbar.1",type:"default"}
 
 function ssbrc:fighters/joker/logic/masks/activate/arsene
 

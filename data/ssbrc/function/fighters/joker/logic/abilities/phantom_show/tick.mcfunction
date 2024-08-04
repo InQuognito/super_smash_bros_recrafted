@@ -1,4 +1,4 @@
-scoreboard players set #n temp 4
+scoreboard players set n temp 4
 
 function ssbrc:fighters/joker/logic/abilities/phantom_show/move_forward
 

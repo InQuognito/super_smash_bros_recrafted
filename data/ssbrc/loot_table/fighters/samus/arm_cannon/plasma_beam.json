@@ -9,18 +9,8 @@
 					"name": "minecraft:nether_star",
 					"functions": [
 						{
-							"function": "minecraft:set_name",
-							"entity": "this",
-							"name": {
-								"translate": "ssbrc.fighter.samus.plasma_beam",
-								"color": "dark_red",
-								"bold": true,
-								"italic": false
-							}
-						},
-						{
 							"function": "minecraft:reference",
-							"name": "ssbrc:fighters/samus/arm_cannon/plasma_beam"
+							"name": "ssbrc:fighters/samus/arm_cannon"
 						},
 						{
 							"function": "minecraft:set_lore",

@@ -9,18 +9,8 @@
 					"name": "minecraft:nether_star",
 					"functions": [
 						{
-							"function": "minecraft:set_name",
-							"entity": "this",
-							"target": "item_name",
-							"name": {
-								"translate": "ssbrc.fighter.samus.power_beam",
-								"color": "gold",
-								"bold": true
-							}
-						},
-						{
 							"function": "minecraft:reference",
-							"name": "ssbrc:fighters/samus/arm_cannon/power_beam"
+							"name": "ssbrc:fighters/samus/arm_cannon"
 						},
 						{
 							"function": "minecraft:set_lore",

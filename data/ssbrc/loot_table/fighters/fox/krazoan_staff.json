@@ -38,7 +38,7 @@
 						},
 						{
 							"function": "minecraft:reference",
-							"name": "ssbrc:init/ability/default"
+							"name": "ssbrc:init/ability/charge"
 						},
 						{
 							"function": "minecraft:set_lore",
@@ -72,35 +72,6 @@
 								}
 							],
 							"mode": "append"
-						},
-						{
-							"function": "minecraft:reference",
-							"name": "ssbrc:fighters/fox/krazoan_staff/default",
-							"conditions": [
-								{
-									"condition": "minecraft:inverted",
-									"term": {
-										"condition": "minecraft:entity_properties",
-										"entity": "this",
-										"predicate": {
-											"nbt": "{Tags:[\"gold\"]}"
-										}
-									}
-								}
-							]
-						},
-						{
-							"function": "minecraft:reference",
-							"name": "ssbrc:fighters/fox/krazoan_staff/gold",
-							"conditions": [
-								{
-									"condition": "minecraft:entity_properties",
-									"entity": "this",
-									"predicate": {
-										"nbt": "{Tags:[\"gold\"]}"
-									}
-								}
-							]
 						},
 						{
 							"function": "minecraft:set_components",

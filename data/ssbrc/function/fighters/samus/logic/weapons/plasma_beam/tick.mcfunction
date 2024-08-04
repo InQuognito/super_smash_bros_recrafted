@@ -1,4 +1,4 @@
-scoreboard players set #n temp 7
+scoreboard players set n temp 7
 
 function ssbrc:fighters/samus/logic/weapons/plasma_beam/move_forward
 

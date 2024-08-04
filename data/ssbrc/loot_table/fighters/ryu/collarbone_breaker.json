@@ -74,10 +74,6 @@
 							"mode": "append"
 						},
 						{
-							"function": "minecraft:reference",
-							"name": "ssbrc:fighters/ryu/collarbone_breaker"
-						},
-						{
 							"function": "minecraft:set_custom_data",
 							"tag": "{item:\"collarbone_breaker\",path:\"ryu/logic/abilities/hadouken/check\"}"
 						}

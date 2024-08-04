@@ -1,4 +1,4 @@
-scoreboard players set #n temp 4
+scoreboard players set n temp 4
 
 function ssbrc:fighters/fox/logic/abilities/blaster/move_forward
 

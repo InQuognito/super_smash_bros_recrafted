@@ -54,5 +54,5 @@ execute if score music options matches 0 run data modify storage ssbrc:options m
 execute if score music options matches 1 run data modify storage ssbrc:options music_options set value '["",{"translate":"ssbrc.options.music.loop","color":"gray","clickEvent":{"action":"run_command","value":"/trigger options_trigger set 21"}},{"text":" ]\\n[ ","color":"dark_gray"},{"translate":"ssbrc.options.music.shuffle","color":"gold","bold":true}]'
 
 # Book
-execute if items entity @s container.* minecraft:written_book[minecraft:custom_data~{item:"options"}] run function ssbrc:logic/replace_item {tag:"item",old:"options",new:"ssbrc:options"}
+execute if items entity @s container.* minecraft:written_book[minecraft:custom_data~{item:"options"}] run function ssbrc:logic/item/replace/get {search_key:"item",search_value:"options",path:"ssbrc:options"}
 execute unless items entity @s container.* minecraft:written_book[minecraft:custom_data~{item:"options"}] run loot replace entity @s hotbar.8 loot ssbrc:options

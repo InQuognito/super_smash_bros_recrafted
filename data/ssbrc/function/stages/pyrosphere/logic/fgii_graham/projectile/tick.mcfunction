@@ -1,4 +1,4 @@
-scoreboard players set #n temp 28
+scoreboard players set n temp 28
 
 function ssbrc:stages/pyrosphere/logic/fgii_graham/projectile/move_forward
 

@@ -214,6 +214,84 @@ data modify storage ssbrc:data fighters set value {\
 			}\
 		},\
 		"items": {\
+			"fists_of_fury": {\
+				"default": {\
+					"name": "ssbrc.fighter.captain_falcon.fists_of_fury",\
+					"color": "red",\
+					"model": 121,\
+					"tag": "fists_of_fury"\
+				},\
+				"gold": {\
+					"name": "ssbrc.fighter.captain_falcon.fists_of_fury",\
+					"color": "gold",\
+					"model": 122,\
+					"tag": "fists_of_fury"\
+				},\
+				"blood_falcon": {\
+					"name": "ssbrc.fighter.captain_falcon.fists_of_fury",\
+					"color": "dark_red",\
+					"model": 123,\
+					"tag": "fists_of_fury"\
+				},\
+				"rick_wheeler": {\
+					"name": "ssbrc.fighter.captain_falcon.fists_of_fury",\
+					"color": "red",\
+					"model": 121,\
+					"tag": "fists_of_fury"\
+				},\
+			},\
+			"falcon_punch": {\
+				"default": {\
+					"name": "ssbrc.fighter.captain_falcon.falcon_punch",\
+					"color": "red",\
+					"model": 124,\
+					"tag": "falcon_punch"\
+				},\
+				"gold": {\
+					"name": "ssbrc.fighter.captain_falcon.falcon_punch",\
+					"color": "gold",\
+					"model": 124,\
+					"tag": "falcon_punch"\
+				},\
+				"blood_falcon": {\
+					"name": "ssbrc.fighter.captain_falcon.falcon_punch",\
+					"color": "red",\
+					"model": 125,\
+					"tag": "falcon_punch"\
+				},\
+				"rick_wheeler": {\
+					"name": "ssbrc.fighter.captain_falcon.falcon_punch",\
+					"color": "red",\
+					"model": 124,\
+					"tag": "falcon_punch"\
+				},\
+			},\
+			"falcon_charge": {\
+				"default": {\
+					"name": "ssbrc.fighter.captain_falcon.falcon_charge.default",\
+					"color": "red",\
+					"model": 126,\
+					"tag": "falcon_charge"\
+				},\
+				"gold": {\
+					"name": "ssbrc.fighter.captain_falcon.falcon_charge.default",\
+					"color": "gold",\
+					"model": 126,\
+					"tag": "falcon_charge"\
+				},\
+				"blood_falcon": {\
+					"name": "ssbrc.fighter.captain_falcon.falcon_charge.blood_falcon",\
+					"color": "red",\
+					"model": 126,\
+					"tag": "falcon_charge"\
+				},\
+				"rick_wheeler": {\
+					"name": "ssbrc.fighter.captain_falcon.falcon_charge.default",\
+					"color": "red",\
+					"model": 126,\
+					"tag": "falcon_charge"\
+				},\
+			},\
 		}\
 	},\
 	"cloud": {\
@@ -231,6 +309,20 @@ data modify storage ssbrc:data fighters set value {\
 		"skins": {\
 		},\
 		"items": {\
+			"buster_sword": {\
+				"default": {\
+					"name": "ssbrc.fighter.cloud.buster_sword",\
+					"color": "gray",\
+					"model": 181,\
+					"tag": "buster_sword"\
+				},\
+				"gold": {\
+					"name": "ssbrc.fighter.cloud.buster_sword",\
+					"color": "gold",\
+					"model": 183,\
+					"tag": "buster_sword"\
+				},\
+			},\
 		}\
 	},\
 	"dark_samus": {\
@@ -253,6 +345,26 @@ data modify storage ssbrc:data fighters set value {\
 			}\
 		},\
 		"items": {\
+			"phazon_beam": {\
+				"default": {\
+					"name": "ssbrc.fighter.dark_samus.phazon_beam",\
+					"color": "aqua",\
+					"model": 261,\
+					"tag": "phazon_beam"\
+				},\
+				"gold": {\
+					"name": "ssbrc.fighter.dark_samus.phazon_beam",\
+					"color": "gold",\
+					"model": 267,\
+					"tag": "phazon_beam"\
+				},\
+				"prime_3": {\
+					"name": "ssbrc.fighter.dark_samus.phazon_beam",\
+					"color": "aqua",\
+					"model": 261,\
+					"tag": "phazon_beam"\
+				},\
+			},\
 		}\
 	},\
 	"donkey_kong": {\
@@ -280,6 +392,32 @@ data modify storage ssbrc:data fighters set value {\
 			}\
 		},\
 		"items": {\
+			"barrel": {\
+				"default": {\
+					"name": "ssbrc.fighter.donkey_kong.barrel",\
+					"color": "gold",\
+					"model": 301,\
+					"tag": "barrel"\
+				},\
+				"gold": {\
+					"name": "ssbrc.fighter.donkey_kong.barrel",\
+					"color": "gold",\
+					"model": 304,\
+					"tag": "barrel"\
+				},\
+				"flower_power": {\
+					"name": "ssbrc.fighter.donkey_kong.barrel.flower_power",\
+					"color": "blue",\
+					"model": 303,\
+					"tag": "barrel"\
+				},\
+				"super_kong": {\
+					"name": "ssbrc.fighter.donkey_kong.barrel",\
+					"color": "gold",\
+					"model": 301,\
+					"tag": "barrel"\
+				},\
+			},\
 		}\
 	},\
 	"fox": {\
@@ -302,6 +440,66 @@ data modify storage ssbrc:data fighters set value {\
 			}\
 		},\
 		"items": {\
+			"krazoan_staff": {\
+				"default": {\
+					"name": "ssbrc.fighter.fox.krazoan_staff",\
+					"color": "gold",\
+					"model": 381,\
+					"tag": "krazoan_staff"\
+				},\
+				"gold": {\
+					"name": "ssbrc.fighter.fox.krazoan_staff",\
+					"color": "gold",\
+					"model": 384,\
+					"tag": "krazoan_staff"\
+				},\
+				"adventures": {\
+					"name": "ssbrc.fighter.fox.krazoan_staff",\
+					"color": "gold",\
+					"model": 381,\
+					"tag": "krazoan_staff"\
+				},\
+			},\
+			"blaster": {\
+				"default": {\
+					"name": "ssbrc.fighter.star_fox.blaster",\
+					"color": "white",\
+					"model": 382,\
+					"tag": "blaster"\
+				},\
+				"gold": {\
+					"name": "ssbrc.fighter.star_fox.blaster",\
+					"color": "gold",\
+					"model": 385,\
+					"tag": "blaster"\
+				},\
+				"adventures": {\
+					"name": "ssbrc.fighter.star_fox.blaster",\
+					"color": "white",\
+					"model": 382,\
+					"tag": "blaster"\
+				},\
+			},\
+			"reflector": {\
+				"default": {\
+					"name": "ssbrc.fighter.fox.reflector",\
+					"color": "white",\
+					"model": 383,\
+					"tag": "reflector"\
+				},\
+				"gold": {\
+					"name": "ssbrc.fighter.fox.reflector",\
+					"color": "gold",\
+					"model": 386,\
+					"tag": "reflector"\
+				},\
+				"adventures": {\
+					"name": "ssbrc.fighter.fox.reflector",\
+					"color": "white",\
+					"model": 383,\
+					"tag": "reflector"\
+				},\
+			},\
 		}\
 	},\
 	"ganondorf": {\
@@ -334,6 +532,38 @@ data modify storage ssbrc:data fighters set value {\
 			}\
 		},\
 		"items": {\
+			"sword": {\
+				"default": {\
+					"name": "ssbrc.fighter.ganondorf.sword.default",\
+					"color": "yellow",\
+					"model": 400,\
+					"tag": "sword"\
+				},\
+				"gold": {\
+					"name": "ssbrc.fighter.ganondorf.sword.default",\
+					"color": "dark_gray",\
+					"model": 401,\
+					"tag": "sword"\
+				},\
+				"ocarina_of_time": {\
+					"name": "ssbrc.fighter.ganondorf.sword.ocarina_of_time",\
+					"color": "dark_gray",\
+					"model": 402,\
+					"tag": "sword"\
+				},\
+				"tears_of_the_kingdom": {\
+					"name": "ssbrc.fighter.ganondorf.sword.tears_of_the_kingdom",\
+					"color": "dark_gray",\
+					"model": 403,\
+					"tag": "sword"\
+				},\
+				"wind_waker": {\
+					"name": "ssbrc.fighter.ganondorf.sword.wind_waker.mainhand",\
+					"color": "dark_gray",\
+					"model": 404,\
+					"tag": "sword"\
+				},\
+			},\
 		}\
 	},\
 	"giegue": {\

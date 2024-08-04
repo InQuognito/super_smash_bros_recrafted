@@ -1,4 +1,4 @@
-scoreboard players set #n temp 28
+scoreboard players set n temp 28
 
 function ssbrc:fighters/joker/logic/abilities/tt33/move_forward
 

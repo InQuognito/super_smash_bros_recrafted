@@ -1,5 +1,5 @@
-loot replace entity @s hotbar.0 loot ssbrc:fighters/fox/krazoan_staff
+function ssbrc:logic/item/init/default/get {item:"krazoan_staff",slot:"hotbar.0",type:"default"}
 
-loot replace entity @s hotbar.1 loot ssbrc:fighters/fox/blaster
+function ssbrc:logic/item/init/default/get {item:"blaster",slot:"hotbar.1",type:"default"}
 
-loot replace entity @s hotbar.2 loot ssbrc:fighters/fox/reflector
+function ssbrc:logic/item/init/default/get {item:"reflector",slot:"hotbar.2",type:"default"}

@@ -44,35 +44,6 @@
 							"mode": "append"
 						},
 						{
-							"function": "minecraft:reference",
-							"name": "ssbrc:fighters/fox/reflector/default",
-							"conditions": [
-								{
-									"condition": "minecraft:inverted",
-									"term": {
-										"condition": "minecraft:entity_properties",
-										"entity": "this",
-										"predicate": {
-											"nbt": "{Tags:[\"gold\"]}"
-										}
-									}
-								}
-							]
-						},
-						{
-							"function": "minecraft:reference",
-							"name": "ssbrc:fighters/fox/reflector/gold",
-							"conditions": [
-								{
-									"condition": "minecraft:entity_properties",
-									"entity": "this",
-									"predicate": {
-										"nbt": "{Tags:[\"gold\"]}"
-									}
-								}
-							]
-						},
-						{
 							"function": "minecraft:set_components",
 							"components": {
 								"minecraft:max_damage": 60

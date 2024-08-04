@@ -1,1 +1,1 @@
-function ssbrc:logic/replace_item {tag:"item",old:"status",new:"ssbrc:fighters/snake/status/undetected"}
+function ssbrc:logic/item/replace/get {search_key:"item",search_value:"status",new:"ssbrc:fighters/snake/status/undetected"}

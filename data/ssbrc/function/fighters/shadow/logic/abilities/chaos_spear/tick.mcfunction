@@ -1,4 +1,4 @@
-scoreboard players set #n temp 4
+scoreboard players set n temp 4
 
 function ssbrc:fighters/shadow/logic/abilities/chaos_spear/move_forward
 

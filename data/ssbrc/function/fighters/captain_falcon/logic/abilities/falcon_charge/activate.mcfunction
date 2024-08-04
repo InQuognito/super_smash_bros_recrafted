@@ -6,7 +6,8 @@ execute if score @s health matches 2.. run function ssbrc:logic/damage/unsourced
 scoreboard players set @s[tag=!falcon_charge] charge.2 1
 execute if entity @s[tag=falcon_charge] run function ssbrc:fighters/captain_falcon/logic/abilities/falcon_charge/effects
 
-scoreboard players set @s cooldown 10
+item modify entity @s weapon.mainhand {function:"minecraft:set_components",components:{"minecraft:max_damage":35}}
+function ssbrc:logic/item/durability/reset/slot {slot_string:"weapon.mainhand"}
 
 playsound ssbrc:fighters.captain_falcon.falcon_charge.activate player @a
 

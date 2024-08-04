@@ -3,10 +3,6 @@
 	"terms": [
 		{
 			"condition": "minecraft:reference",
-			"name": "ssbrc:decorations"
-		},
-		{
-			"condition": "minecraft:reference",
 			"name": "ssbrc:location_markers"
 		},
 		{
@@ -14,6 +10,13 @@
 			"entity": "this",
 			"predicate": {
 				"nbt": "{Tags:[\"no_kill\"]}"
+			}
+		},
+		{
+			"condition": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
+				"nbt": "{Tags:[\"static_object\"]}"
 			}
 		}
 	]

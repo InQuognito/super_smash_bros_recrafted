@@ -34,7 +34,7 @@
 						},
 						{
 							"function": "minecraft:reference",
-							"name": "ssbrc:init/ability/default"
+							"name": "ssbrc:init/ability/charge"
 						},
 						{
 							"function": "minecraft:reference",

@@ -1,0 +1,121 @@
+{
+	"type": "minecraft:command",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:nether_star",
+					"functions": [
+						{
+							"function": "minecraft:set_components",
+							"components": {
+								"minecraft:attribute_modifiers": {
+									"modifiers": [
+										{
+											"type": "minecraft:generic.attack_damage",
+											"id": "ssbrc:attack_damage",
+											"amount": 1.5,
+											"operation": "add_multiplied_base",
+											"slot": "mainhand"
+										},
+										{
+											"type": "minecraft:generic.attack_speed",
+											"id": "ssbrc:attack_speed",
+											"amount": 0.5,
+											"operation": "add_multiplied_base",
+											"slot": "mainhand"
+										}
+									],
+									"show_in_tooltip": false
+								}
+							}
+						},
+						{
+							"function": "minecraft:reference",
+							"name": "ssbrc:init/tooltip/ability/ranged"
+						},
+						{
+							"function": "minecraft:reference",
+							"name": "ssbrc:init/ability/charge"
+						},
+						{
+							"function": "minecraft:reference",
+							"name": "ssbrc:init/unbreakable"
+						},
+						{
+							"function": "minecraft:set_lore",
+							"entity": "this",
+							"lore": [
+								{
+									"text": "- [",
+									"color": "gray",
+									"bold": false,
+									"italic": false,
+									"extra": [
+										{
+											"keybind": "key.use",
+											"color": "gray",
+											"bold": false,
+											"italic": false
+										},
+										{
+											"translate": "ssbrc.fighter.dark_samus.phazon_beam.description.1",
+											"color": "gray",
+											"bold": false,
+											"italic": false
+										}
+									]
+								},
+								{
+									"text": "- [",
+									"color": "gray",
+									"bold": false,
+									"italic": false,
+									"extra": [
+										{
+											"keybind": "key.sneak",
+											"color": "gray",
+											"bold": false,
+											"italic": false
+										},
+										{
+											"translate": "] + [",
+											"color": "gray",
+											"bold": false,
+											"italic": false
+										},
+										{
+											"keybind": "key.use",
+											"color": "gray",
+											"bold": false,
+											"italic": false
+										},
+										{
+											"translate": "ssbrc.fighter.dark_samus.phazon_beam.description.2",
+											"color": "gray",
+											"bold": false,
+											"italic": false
+										}
+									]
+								},
+								{
+									"translate": "ssbrc.tooltip.effect.poison",
+									"color": "gray",
+									"bold": false,
+									"italic": false
+								}
+							],
+							"mode": "append"
+						},
+						{
+							"function": "minecraft:set_custom_data",
+							"tag": "{item:\"phazon_beam\",path:\"dark_samus/logic/abilities/phazon_beam/activate\"}"
+						}
+					]
+				}
+			]
+		}
+	]
+}

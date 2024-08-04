@@ -1,4 +1,4 @@
-scoreboard players set #n temp 8
+scoreboard players set n temp 8
 
 function ssbrc:fighters/altered_beast/logic/werewolf/flame_hands/move_forward
 

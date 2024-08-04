@@ -9,44 +9,6 @@
 					"name": "minecraft:nether_star",
 					"functions": [
 						{
-							"function": "minecraft:set_name",
-							"entity": "this",
-							"name": {
-								"translate": "ssbrc.fighter.captain_falcon.falcon_charge.default",
-								"color": "yellow",
-								"bold": true,
-								"italic": false
-							},
-							"conditions": [
-								{
-									"condition": "minecraft:entity_properties",
-									"entity": "this",
-									"predicate": {
-										"nbt": "{Tags:[\"gold\"]}"
-									}
-								}
-							]
-						},
-						{
-							"function": "minecraft:set_name",
-							"entity": "this",
-							"name": {
-								"translate": "ssbrc.fighter.captain_falcon.falcon_charge.blood_falcon",
-								"color": "red",
-								"bold": true,
-								"italic": false
-							},
-							"conditions": [
-								{
-									"condition": "minecraft:entity_properties",
-									"entity": "this",
-									"predicate": {
-										"nbt": "{Tags:[\"blood_falcon\"]}"
-									}
-								}
-							]
-						},
-						{
 							"function": "minecraft:reference",
 							"name": "ssbrc:init/tooltip/ability/utility"
 						},
@@ -94,7 +56,7 @@
 						{
 							"function": "minecraft:set_components",
 							"components": {
-								"minecraft:max_damage": 80
+								"minecraft:max_damage": 35
 							}
 						},
 						{

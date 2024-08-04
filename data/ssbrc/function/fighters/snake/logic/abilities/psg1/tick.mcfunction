@@ -1,4 +1,4 @@
-scoreboard players set #n temp 32
+scoreboard players set n temp 32
 
 function ssbrc:fighters/snake/logic/abilities/psg1/move_forward
 

@@ -1,4 +1,4 @@
-scoreboard players set #n temp 20
+scoreboard players set n temp 20
 
 function ssbrc:fighters/byleth/logic/golden_deer/failnaught/move_forward
 

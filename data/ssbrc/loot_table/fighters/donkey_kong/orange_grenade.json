@@ -70,8 +70,11 @@
 							"mode": "append"
 						},
 						{
-							"function": "minecraft:set_custom_model_data",
-							"value": 302
+							"function": "minecraft:set_components",
+							"components": {
+								"minecraft:custom_model_data": 302,
+								"minecraft:max_damage": 20
+							}
 						},
 						{
 							"function": "minecraft:set_custom_data",

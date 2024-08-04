@@ -1,5 +1,5 @@
-loot replace entity @s hotbar.0 loot ssbrc:fighters/wolf/wolf_slash
+function ssbrc:logic/item/init/default/get {item:"wolf_slash",slot:"hotbar.0",type:"default"}
 
-loot replace entity @s hotbar.1 loot ssbrc:fighters/wolf/blaster
+function ssbrc:logic/item/init/default/get {item:"blaster",slot:"hotbar.1",type:"default"}
 
 loot replace entity @s hotbar.2 loot ssbrc:fighters/wolf/grenade

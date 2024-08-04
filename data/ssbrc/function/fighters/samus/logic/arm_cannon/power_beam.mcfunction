@@ -1,3 +1,3 @@
-loot replace entity @s weapon.mainhand loot ssbrc:fighters/samus/arm_cannon/power_beam
+function ssbrc:logic/item/init/default/get {item:"power_beam",slot:"weapon.mainhand",type:"default"}
 
 function ssbrc:fighters/samus/logic/arm_cannon/switch

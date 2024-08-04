@@ -20,7 +20,7 @@ execute as @a[predicate=ssbrc:flag/player] run function ssbrc:logic/start/fighte
 
 function ssbrc:logic/music/decide_schedule
 
-execute if score hazards options matches 1 run function ssbrc:logic/start_hazards
+execute if score hazards options matches 1 run function ssbrc:logic/start/hazards
 
 tag @e[type=minecraft:marker,tag=tp_dest] remove tp_dest
 

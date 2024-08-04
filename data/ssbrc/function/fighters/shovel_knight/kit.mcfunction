@@ -3,7 +3,7 @@ execute if entity @s[tag=war_horn.active] run function ssbrc:fighters/shovel_kni
 
 clear @s #ssbrc:equipment
 
-loot replace entity @s hotbar.0 loot ssbrc:fighters/shovel_knight/shovel_blade
+function ssbrc:logic/item/init/default/get {item:"shovel_blade",slot:"hotbar.0",type:"default"}
 
 execute store result score random.output temp run random value 1..3
 

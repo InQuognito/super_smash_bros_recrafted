@@ -1,6 +1,6 @@
-loot replace entity @s hotbar.0 loot ssbrc:fighters/yar/killspace_blade
+function ssbrc:logic/item/init/default/get {item:"killspace_blade",slot:"hotbar.0",type:"default"}
 
-loot replace entity @s hotbar.1 loot ssbrc:fighters/yar/ray_blaster/default
+function ssbrc:logic/item/init/default/get {item:"ray_blaster",slot:"hotbar.1",type:"default"}
 
 loot replace entity @s hotbar.2 loot ssbrc:fighters/yar/drone/activate
 

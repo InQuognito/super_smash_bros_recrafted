@@ -29,9 +29,9 @@
 										}
 									],
 									"show_in_tooltip": false
-								}
-							},
-							"minecraft:max_damage": 10
+								},
+								"minecraft:max_damage": 10
+							}
 						},
 						{
 							"function": "minecraft:reference",
@@ -79,60 +79,6 @@
 								}
 							],
 							"mode": "append"
-						},
-						{
-							"function": "minecraft:reference",
-							"name": "ssbrc:fighters/donkey_kong/barrel/default",
-							"conditions": [
-								{
-									"condition": "minecraft:inverted",
-									"term": {
-										"condition": "minecraft:any_of",
-										"terms": [
-											{
-												"condition": "minecraft:entity_properties",
-												"entity": "this",
-												"predicate": {
-													"nbt": "{Tags:[\"gold\"]}"
-												}
-											},
-											{
-												"condition": "minecraft:entity_properties",
-												"entity": "this",
-												"predicate": {
-													"nbt": "{Tags:[\"flower_power\"]}"
-												}
-											}
-										]
-									}
-								}
-							]
-						},
-						{
-							"function": "minecraft:reference",
-							"name": "ssbrc:fighters/donkey_kong/barrel/gold",
-							"conditions": [
-								{
-									"condition": "minecraft:entity_properties",
-									"entity": "this",
-									"predicate": {
-										"nbt": "{Tags:[\"gold\"]}"
-									}
-								}
-							]
-						},
-						{
-							"function": "minecraft:reference",
-							"name": "ssbrc:fighters/donkey_kong/barrel/flower_power",
-							"conditions": [
-								{
-									"condition": "minecraft:entity_properties",
-									"entity": "this",
-									"predicate": {
-										"nbt": "{Tags:[\"flower_power\"]}"
-									}
-								}
-							]
 						},
 						{
 							"function": "minecraft:set_custom_data",

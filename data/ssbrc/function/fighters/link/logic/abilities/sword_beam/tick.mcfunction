@@ -1,4 +1,4 @@
-scoreboard players set #n temp 4
+scoreboard players set n temp 4
 
 function ssbrc:fighters/link/logic/abilities/sword_beam/move_forward
 

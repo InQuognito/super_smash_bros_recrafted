@@ -1,4 +1,4 @@
-scoreboard players set #n temp 6
+scoreboard players set n temp 6
 
 function ssbrc:fighters/shadow/logic/abilities/chaos_blast/shockwave/move_forward
 

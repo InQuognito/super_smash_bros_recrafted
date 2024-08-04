@@ -1,5 +1,5 @@
 tag @s add barrel_cannon
-tag @s add no_kill
+tag @s add static_object
 
 item replace entity @s contents with minecraft:sugar[minecraft:custom_model_data=501]
 
