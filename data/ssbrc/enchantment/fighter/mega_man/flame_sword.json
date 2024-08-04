@@ -46,7 +46,7 @@
 						},
 						{
 							"type": "minecraft:play_sound",
-							"sound":{"sound_id":"ssbrc:fighters.hero.flame_slash.hit"},
+							"sound": {"sound_id":"ssbrc:fighters.hero.flame_slash.hit"},
 							"volume": 1,
 							"pitch": 1
 						}

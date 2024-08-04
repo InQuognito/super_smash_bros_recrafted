@@ -9,6 +9,16 @@
 					"name": "minecraft:iron_axe",
 					"functions": [
 						{
+							"function": "minecraft:set_name",
+							"entity": "this",
+							"name": {
+								"translate": "ssbrc.fighter.jigglypuff.pound",
+								"color": "white",
+								"bold": true,
+								"italic": false
+							}
+						},
+						{
 							"function": "minecraft:set_components",
 							"components": {
 								"minecraft:attribute_modifiers": {
@@ -35,6 +45,10 @@
 						{
 							"function": "minecraft:reference",
 							"name": "ssbrc:init/preset/melee"
+						},
+						{
+							"function": "minecraft:set_custom_model_data",
+							"value": 50012
 						},
 						{
 							"function": "minecraft:set_custom_data",

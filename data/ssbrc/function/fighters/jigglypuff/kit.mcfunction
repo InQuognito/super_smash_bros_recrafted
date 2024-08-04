@@ -1,4 +1,4 @@
-function ssbrc:logic/item/init/default/get {item:"pound",slot:"hotbar.0",type:"default"}
+loot replace entity @s hotbar.0 loot ssbrc:fighters/jigglypuff/pound
 
 function ssbrc:logic/item/init/default/get {item:"hyper_voice",slot:"hotbar.1",type:"default"}
 
