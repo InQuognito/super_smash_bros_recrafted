@@ -1,14 +1,14 @@
 $data modify storage ssbrc:temp game.stage set from storage ssbrc:data stages.$(name)
 
-scoreboard players reset * stage
-$scoreboard players set $(name) stage 1
-$scoreboard players set song_count stage $(song_count)
-
 $time set $(time)
 $weather $(weather)
 
 $forceload add $(location)
 
+$function ssbrc:logic/stages/spawnpoints with storage ssbrc:data stages.$(name).spawnpoints
+#$function ssbrc:logic/stages/item_spawnpoints with storage ssbrc:data stages.$(name).item_spawnpoints
+
 $function ssbrc:stages/$(name)/load
 
-$function ssbrc:stages/$(name)/prepare
+execute as @a[predicate=ssbrc:ingame] run function ssbrc:logic/pre_game/prepare_players
+function ssbrc:logic/pre_game/prepare_match

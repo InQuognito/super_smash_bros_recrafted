@@ -1,4 +1,3 @@
-# Armor Stands
 execute positioned 647.5 23.0 -865.5 summon minecraft:armor_stand run function ssbrc:stages/magicant/logic/armor_stands/jeff
 execute positioned 659.5 23.0 -866.5 summon minecraft:armor_stand run function ssbrc:stages/magicant/logic/armor_stands/paula
 execute positioned 653.5 23.0 -865.5 summon minecraft:armor_stand run function ssbrc:stages/magicant/logic/armor_stands/poo

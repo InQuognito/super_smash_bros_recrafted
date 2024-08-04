@@ -1,4 +1,3 @@
-# Armor Stands
 execute positioned 325.5 10.0 3261.5 summon minecraft:armor_stand run function ssbrc:stages/sector_z/logic/armor_stands/krystal
 execute positioned 335.5 26.0 3306.5 summon minecraft:armor_stand run function ssbrc:stages/sector_z/logic/armor_stands/leon
 execute positioned 272.5 52.0 3315.5 summon minecraft:armor_stand run function ssbrc:stages/sector_z/logic/armor_stands/panther

@@ -1,2 +1,3 @@
-summon minecraft:item_display ~ ~ ~ {Tags:["static_object","diglettBase"],Rotation:[-90f,0f],item:{id:"minecraft:diamond",components:{"minecraft:custom_model_data":500}}}
-summon minecraft:item_display ~ ~ ~ {Tags:["static_object","diglett"],Rotation:[-90f,0f],item:{id:"minecraft:diamond",components:{"minecraft:custom_model_data":501}}}
+$execute summon minecraft:item_display run function ssbrc:logic/pokemon/init_generic {name:"$(name)",id:$(id)}
+
+$execute summon minecraft:item_display run function ssbrc:stages/pallet_town/logic/pokemon/diglett/base {name:"$(name)",id:$(id)}

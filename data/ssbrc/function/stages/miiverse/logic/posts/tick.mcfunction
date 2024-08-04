@@ -1,1 +1,1 @@
-execute at @s positioned ~ ~0.75 ~ if entity @e[type=#ssbrc:projectiles,predicate=!ssbrc:reflect_exceptions,tag=!post,distance=..4] run function ssbrc:stages/miiverse/logic/posts/like
+execute if entity @e[type=#ssbrc:projectiles,predicate=!ssbrc:reflect_exceptions,tag=!post,distance=..4] run function ssbrc:stages/miiverse/logic/posts/hit
