@@ -89,7 +89,7 @@ def jump_strength(value):
 	elif value == 'insane':
 		return 1.10
 	else:
-		return 0.58
+		return 0.63
 
 def max_health(value):
 	'''Returns the exact value of the max_health category.'''

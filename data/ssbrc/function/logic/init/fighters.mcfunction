@@ -4,7 +4,7 @@ data modify storage ssbrc:data fighters set value {\
 	"altered_beast": {\
 		"name": "altered_beast",\
 		"armor": 10.0,\
-		"jump_strength": 0.58,\
+		"jump_strength": 0.63,\
 		"max_health": 40.0,\
 		"movement_speed": 0.1,\
 		"page": 3,\
@@ -26,7 +26,7 @@ data modify storage ssbrc:data fighters set value {\
 	"alucard": {\
 		"name": "alucard",\
 		"armor": 10.0,\
-		"jump_strength": 0.58,\
+		"jump_strength": 0.63,\
 		"max_health": 40.0,\
 		"movement_speed": 0.1,\
 		"page": 1,\
@@ -170,7 +170,7 @@ data modify storage ssbrc:data fighters set value {\
 	"byleth": {\
 		"name": "byleth",\
 		"armor": 10.0,\
-		"jump_strength": 0.58,\
+		"jump_strength": 0.63,\
 		"max_health": 40.0,\
 		"movement_speed": 0.1,\
 		"page": 1,\
@@ -192,7 +192,7 @@ data modify storage ssbrc:data fighters set value {\
 	"captain_falcon": {\
 		"name": "captain_falcon",\
 		"armor": 10.0,\
-		"jump_strength": 0.58,\
+		"jump_strength": 0.63,\
 		"max_health": 40.0,\
 		"movement_speed": 1.05,\
 		"page": 1,\
@@ -297,7 +297,7 @@ data modify storage ssbrc:data fighters set value {\
 	"cloud": {\
 		"name": "cloud",\
 		"armor": 10.0,\
-		"jump_strength": 0.58,\
+		"jump_strength": 0.63,\
 		"max_health": 32.0,\
 		"movement_speed": 0.1,\
 		"page": 1,\
@@ -328,7 +328,7 @@ data modify storage ssbrc:data fighters set value {\
 	"dark_samus": {\
 		"name": "dark_samus",\
 		"armor": 10.0,\
-		"jump_strength": 0.58,\
+		"jump_strength": 0.63,\
 		"max_health": 40.0,\
 		"movement_speed": 0.095,\
 		"page": 1,\
@@ -423,7 +423,7 @@ data modify storage ssbrc:data fighters set value {\
 	"fox": {\
 		"name": "fox",\
 		"armor": 10.0,\
-		"jump_strength": 0.58,\
+		"jump_strength": 0.63,\
 		"max_health": 40.0,\
 		"movement_speed": 0.1,\
 		"page": 1,\
@@ -569,7 +569,7 @@ data modify storage ssbrc:data fighters set value {\
 	"giegue": {\
 		"name": "giegue",\
 		"armor": 10.0,\
-		"jump_strength": 0.58,\
+		"jump_strength": 0.63,\
 		"max_health": 40.0,\
 		"movement_speed": 0.1,\
 		"page": 1,\
@@ -586,7 +586,7 @@ data modify storage ssbrc:data fighters set value {\
 	"greninja": {\
 		"name": "greninja",\
 		"armor": 10.0,\
-		"jump_strength": 0.58,\
+		"jump_strength": 0.63,\
 		"max_health": 40.0,\
 		"movement_speed": 0.1,\
 		"page": 1,\
@@ -639,7 +639,7 @@ data modify storage ssbrc:data fighters set value {\
 	"hero": {\
 		"name": "hero",\
 		"armor": 10.0,\
-		"jump_strength": 0.58,\
+		"jump_strength": 0.63,\
 		"max_health": 40.0,\
 		"movement_speed": 0.1,\
 		"page": 1,\
@@ -731,26 +731,6 @@ data modify storage ssbrc:data fighters set value {\
 			}\
 		},\
 		"items": {\
-			"pound": {\
-				"default": {\
-					"name": "ssbrc.fighter.jigglypuff.pound",\
-					"color": "white",\
-					"model": null,\
-					"tag": "pound"\
-				},\
-				"gold": {\
-					"name": "ssbrc.fighter.jigglypuff.pound",\
-					"color": "white",\
-					"model": null,\
-					"tag": "pound"\
-				},\
-				"shiny": {\
-					"name": "ssbrc.fighter.jigglypuff.pound",\
-					"color": "white",\
-					"model": null,\
-					"tag": "pound"\
-				},\
-			},\
 			"hyper_voice": {\
 				"default": {\
 					"name": "ssbrc.fighter.jigglypuff.hyper_voice",\
@@ -760,7 +740,7 @@ data modify storage ssbrc:data fighters set value {\
 				},\
 				"gold": {\
 					"name": "ssbrc.fighter.jigglypuff.hyper_voice",\
-					"color": "white",\
+					"color": "gold",\
 					"model": 582,\
 					"tag": "hyper_voice"\
 				},\
@@ -771,32 +751,12 @@ data modify storage ssbrc:data fighters set value {\
 					"tag": "hyper_voice"\
 				},\
 			},\
-			"rest": {\
-				"default": {\
-					"name": "ssbrc.fighter.jigglypuff.rest",\
-					"color": "white",\
-					"model": 50012,\
-					"tag": "rest"\
-				},\
-				"gold": {\
-					"name": "ssbrc.fighter.jigglypuff.rest",\
-					"color": "white",\
-					"model": 50012,\
-					"tag": "rest"\
-				},\
-				"shiny": {\
-					"name": "ssbrc.fighter.jigglypuff.rest",\
-					"color": "white",\
-					"model": 50012,\
-					"tag": "rest"\
-				},\
-			},\
 		}\
 	},\
 	"joker": {\
 		"name": "joker",\
 		"armor": 10.0,\
-		"jump_strength": 0.58,\
+		"jump_strength": 0.63,\
 		"max_health": 40.0,\
 		"movement_speed": 0.1,\
 		"page": 1,\
@@ -946,7 +906,7 @@ data modify storage ssbrc:data fighters set value {\
 	"kirby": {\
 		"name": "kirby",\
 		"armor": 4.0,\
-		"jump_strength": 0.58,\
+		"jump_strength": 0.63,\
 		"max_health": 40.0,\
 		"movement_speed": 0.1,\
 		"page": 1,\
@@ -1028,7 +988,7 @@ data modify storage ssbrc:data fighters set value {\
 	"link": {\
 		"name": "link",\
 		"armor": 10.0,\
-		"jump_strength": 0.58,\
+		"jump_strength": 0.63,\
 		"max_health": 40.0,\
 		"movement_speed": 0.1,\
 		"page": 1,\
@@ -1331,7 +1291,7 @@ data modify storage ssbrc:data fighters set value {\
 	"mega_man": {\
 		"name": "mega_man",\
 		"armor": 10.0,\
-		"jump_strength": 0.58,\
+		"jump_strength": 0.63,\
 		"max_health": 40.0,\
 		"movement_speed": 0.1,\
 		"page": 1,\
@@ -1553,7 +1513,7 @@ data modify storage ssbrc:data fighters set value {\
 	"ness": {\
 		"name": "ness",\
 		"armor": 10.0,\
-		"jump_strength": 0.58,\
+		"jump_strength": 0.63,\
 		"max_health": 40.0,\
 		"movement_speed": 0.1,\
 		"page": 1,\
@@ -1617,7 +1577,7 @@ data modify storage ssbrc:data fighters set value {\
 	"peach": {\
 		"name": "peach",\
 		"armor": 10.0,\
-		"jump_strength": 0.58,\
+		"jump_strength": 0.63,\
 		"max_health": 40.0,\
 		"movement_speed": 0.1,\
 		"page": 1,\
@@ -1634,7 +1594,7 @@ data modify storage ssbrc:data fighters set value {\
 	"pikachu": {\
 		"name": "pikachu",\
 		"armor": 10.0,\
-		"jump_strength": 0.58,\
+		"jump_strength": 0.63,\
 		"max_health": 40.0,\
 		"movement_speed": 0.1,\
 		"page": 1,\
@@ -1656,90 +1616,12 @@ data modify storage ssbrc:data fighters set value {\
 			}\
 		},\
 		"items": {\
-			"mega_punch": {\
-				"default": {\
-					"name": "ssbrc.fighter.pokemon.mega_punch",\
-					"color": "white",\
-					"model": null,\
-					"tag": "mega_punch"\
-				},\
-				"gold": {\
-					"name": "ssbrc.fighter.pokemon.mega_punch",\
-					"color": "gold",\
-					"model": null,\
-					"tag": "mega_punch"\
-				},\
-				"santa_hat": {\
-					"name": "ssbrc.fighter.pokemon.mega_punch",\
-					"color": "white",\
-					"model": null,\
-					"tag": "mega_punch"\
-				},\
-				"shiny": {\
-					"name": "ssbrc.fighter.pokemon.mega_punch",\
-					"color": "white",\
-					"model": null,\
-					"tag": "mega_punch"\
-				},\
-			},\
-			"thunder_jolt": {\
-				"default": {\
-					"name": "ssbrc.fighter.pikachu.thunder_jolt",\
-					"color": "yellow",\
-					"model": 50003,\
-					"tag": "thunder_jolt"\
-				},\
-				"gold": {\
-					"name": "ssbrc.fighter.pikachu.thunder_jolt",\
-					"color": "yellow",\
-					"model": 50003,\
-					"tag": "thunder_jolt"\
-				},\
-				"santa_hat": {\
-					"name": "ssbrc.fighter.pikachu.thunder_jolt",\
-					"color": "yellow",\
-					"model": 50003,\
-					"tag": "thunder_jolt"\
-				},\
-				"shiny": {\
-					"name": "ssbrc.fighter.pikachu.thunder_jolt",\
-					"color": "yellow",\
-					"model": 50003,\
-					"tag": "thunder_jolt"\
-				},\
-			},\
-			"electric_terrain": {\
-				"default": {\
-					"name": "ssbrc.fighter.pikachu.electric_terrain",\
-					"color": "yellow",\
-					"model": 1201,\
-					"tag": "electric_terrain"\
-				},\
-				"gold": {\
-					"name": "ssbrc.fighter.pikachu.electric_terrain",\
-					"color": "yellow",\
-					"model": 1201,\
-					"tag": "electric_terrain"\
-				},\
-				"santa_hat": {\
-					"name": "ssbrc.fighter.pikachu.electric_terrain",\
-					"color": "yellow",\
-					"model": 1201,\
-					"tag": "electric_terrain"\
-				},\
-				"shiny": {\
-					"name": "ssbrc.fighter.pikachu.electric_terrain",\
-					"color": "yellow",\
-					"model": 1201,\
-					"tag": "electric_terrain"\
-				},\
-			},\
 		}\
 	},\
 	"pit": {\
 		"name": "pit",\
 		"armor": 10.0,\
-		"jump_strength": 0.58,\
+		"jump_strength": 0.63,\
 		"max_health": 40.0,\
 		"movement_speed": 0.1,\
 		"page": 1,\
@@ -1781,7 +1663,7 @@ data modify storage ssbrc:data fighters set value {\
 	"pokemon_trainer": {\
 		"name": "pokemon_trainer",\
 		"armor": 10.0,\
-		"jump_strength": 0.58,\
+		"jump_strength": 0.63,\
 		"max_health": 40.0,\
 		"movement_speed": 0.1,\
 		"page": 1,\
@@ -1808,236 +1690,12 @@ data modify storage ssbrc:data fighters set value {\
 			}\
 		},\
 		"items": {\
-			"knock_off": {\
-				"default": {\
-					"name": "ssbrc.fighter.pokemon_trainer.knock_off",\
-					"color": "dark_gray",\
-					"model": null,\
-					"tag": "knock_off"\
-				},\
-				"gold": {\
-					"name": "ssbrc.fighter.pokemon_trainer.knock_off",\
-					"color": "dark_gray",\
-					"model": null,\
-					"tag": "knock_off"\
-				},\
-				"dawn": {\
-					"name": "ssbrc.fighter.pokemon_trainer.knock_off",\
-					"color": "dark_gray",\
-					"model": null,\
-					"tag": "knock_off"\
-				},\
-				"shiny": {\
-					"name": "ssbrc.fighter.pokemon_trainer.knock_off",\
-					"color": "dark_gray",\
-					"model": null,\
-					"tag": "knock_off"\
-				},\
-				"victor": {\
-					"name": "ssbrc.fighter.pokemon_trainer.knock_off",\
-					"color": "dark_gray",\
-					"model": null,\
-					"tag": "knock_off"\
-				},\
-			},\
-			"poison_powder": {\
-				"default": {\
-					"name": "ssbrc.fighter.pokemon_trainer.poison_powder",\
-					"color": "light_purple",\
-					"model": 50013,\
-					"tag": "poison_powder"\
-				},\
-				"gold": {\
-					"name": "ssbrc.fighter.pokemon_trainer.poison_powder",\
-					"color": "light_purple",\
-					"model": 50013,\
-					"tag": "poison_powder"\
-				},\
-				"dawn": {\
-					"name": "ssbrc.fighter.pokemon_trainer.poison_powder",\
-					"color": "light_purple",\
-					"model": 50013,\
-					"tag": "poison_powder"\
-				},\
-				"shiny": {\
-					"name": "ssbrc.fighter.pokemon_trainer.poison_powder",\
-					"color": "light_purple",\
-					"model": 50013,\
-					"tag": "poison_powder"\
-				},\
-				"victor": {\
-					"name": "ssbrc.fighter.pokemon_trainer.poison_powder",\
-					"color": "light_purple",\
-					"model": 50013,\
-					"tag": "poison_powder"\
-				},\
-			},\
-			"leech_seed": {\
-				"default": {\
-					"name": "ssbrc.fighter.pokemon_trainer.leech_seed",\
-					"color": "green",\
-					"model": 50009,\
-					"tag": "leech_seed"\
-				},\
-				"gold": {\
-					"name": "ssbrc.fighter.pokemon_trainer.leech_seed",\
-					"color": "green",\
-					"model": 50009,\
-					"tag": "leech_seed"\
-				},\
-				"dawn": {\
-					"name": "ssbrc.fighter.pokemon_trainer.leech_seed",\
-					"color": "green",\
-					"model": 50009,\
-					"tag": "leech_seed"\
-				},\
-				"shiny": {\
-					"name": "ssbrc.fighter.pokemon_trainer.leech_seed",\
-					"color": "green",\
-					"model": 50009,\
-					"tag": "leech_seed"\
-				},\
-				"victor": {\
-					"name": "ssbrc.fighter.pokemon_trainer.leech_seed",\
-					"color": "green",\
-					"model": 50009,\
-					"tag": "leech_seed"\
-				},\
-			},\
-			"bite": {\
-				"default": {\
-					"name": "ssbrc.fighter.pokemon_trainer.bite",\
-					"color": "dark_gray",\
-					"model": null,\
-					"tag": "bite"\
-				},\
-				"gold": {\
-					"name": "ssbrc.fighter.pokemon_trainer.bite",\
-					"color": "dark_gray",\
-					"model": null,\
-					"tag": "bite"\
-				},\
-				"dawn": {\
-					"name": "ssbrc.fighter.pokemon_trainer.bite",\
-					"color": "dark_gray",\
-					"model": null,\
-					"tag": "bite"\
-				},\
-				"shiny": {\
-					"name": "ssbrc.fighter.pokemon_trainer.bite",\
-					"color": "dark_gray",\
-					"model": null,\
-					"tag": "bite"\
-				},\
-				"victor": {\
-					"name": "ssbrc.fighter.pokemon_trainer.bite",\
-					"color": "dark_gray",\
-					"model": null,\
-					"tag": "bite"\
-				},\
-			},\
-			"water_gun": {\
-				"default": {\
-					"name": "ssbrc.fighter.pokemon_trainer.water_gun",\
-					"color": "blue",\
-					"model": 50018,\
-					"tag": "water_gun"\
-				},\
-				"gold": {\
-					"name": "ssbrc.fighter.pokemon_trainer.water_gun",\
-					"color": "blue",\
-					"model": 50018,\
-					"tag": "water_gun"\
-				},\
-				"dawn": {\
-					"name": "ssbrc.fighter.pokemon_trainer.water_gun",\
-					"color": "blue",\
-					"model": 50018,\
-					"tag": "water_gun"\
-				},\
-				"shiny": {\
-					"name": "ssbrc.fighter.pokemon_trainer.water_gun",\
-					"color": "blue",\
-					"model": 50018,\
-					"tag": "water_gun"\
-				},\
-				"victor": {\
-					"name": "ssbrc.fighter.pokemon_trainer.water_gun",\
-					"color": "blue",\
-					"model": 50018,\
-					"tag": "water_gun"\
-				},\
-			},\
-			"rock_smash": {\
-				"default": {\
-					"name": "ssbrc.fighter.pokemon_trainer.rock_smash",\
-					"color": "gray",\
-					"model": null,\
-					"tag": "rock_smash"\
-				},\
-				"gold": {\
-					"name": "ssbrc.fighter.pokemon_trainer.rock_smash",\
-					"color": "gray",\
-					"model": null,\
-					"tag": "rock_smash"\
-				},\
-				"dawn": {\
-					"name": "ssbrc.fighter.pokemon_trainer.rock_smash",\
-					"color": "gray",\
-					"model": null,\
-					"tag": "rock_smash"\
-				},\
-				"shiny": {\
-					"name": "ssbrc.fighter.pokemon_trainer.rock_smash",\
-					"color": "gray",\
-					"model": null,\
-					"tag": "rock_smash"\
-				},\
-				"victor": {\
-					"name": "ssbrc.fighter.pokemon_trainer.rock_smash",\
-					"color": "gray",\
-					"model": null,\
-					"tag": "rock_smash"\
-				},\
-			},\
-			"flare_blitz": {\
-				"default": {\
-					"name": "ssbrc.fighter.pokemon_trainer.flare_blitz",\
-					"color": "red",\
-					"model": 50006,\
-					"tag": "flare_blitz"\
-				},\
-				"gold": {\
-					"name": "ssbrc.fighter.pokemon_trainer.flare_blitz",\
-					"color": "red",\
-					"model": 50006,\
-					"tag": "flare_blitz"\
-				},\
-				"dawn": {\
-					"name": "ssbrc.fighter.pokemon_trainer.flare_blitz",\
-					"color": "red",\
-					"model": 50006,\
-					"tag": "flare_blitz"\
-				},\
-				"shiny": {\
-					"name": "ssbrc.fighter.pokemon_trainer.flare_blitz",\
-					"color": "red",\
-					"model": 50006,\
-					"tag": "flare_blitz"\
-				},\
-				"victor": {\
-					"name": "ssbrc.fighter.pokemon_trainer.flare_blitz",\
-					"color": "red",\
-					"model": 50006,\
-					"tag": "flare_blitz"\
-				},\
-			},\
 		}\
 	},\
 	"rob": {\
 		"name": "rob",\
 		"armor": 10.0,\
-		"jump_strength": 0.58,\
+		"jump_strength": 0.63,\
 		"max_health": 40.0,\
 		"movement_speed": 0.1,\
 		"page": 1,\
@@ -2059,32 +1717,6 @@ data modify storage ssbrc:data fighters set value {\
 			}\
 		},\
 		"items": {\
-			"robo_rotor": {\
-				"default": {\
-					"name": "ssbrc.fighter.rob.robo_rotor",\
-					"color": "white",\
-					"model": null,\
-					"tag": "robo_rotor"\
-				},\
-				"gold": {\
-					"name": "ssbrc.fighter.rob.robo_rotor",\
-					"color": "gold",\
-					"model": null,\
-					"tag": "robo_rotor"\
-				},\
-				"ancient_minister": {\
-					"name": "ssbrc.fighter.rob.robo_rotor",\
-					"color": "white",\
-					"model": null,\
-					"tag": "robo_rotor"\
-				},\
-				"famicom": {\
-					"name": "ssbrc.fighter.rob.robo_rotor",\
-					"color": "white",\
-					"model": null,\
-					"tag": "robo_rotor"\
-				},\
-			},\
 			"robo_beam": {\
 				"default": {\
 					"name": "ssbrc.fighter.rob.robo_beam",\
@@ -2116,7 +1748,7 @@ data modify storage ssbrc:data fighters set value {\
 	"ryu": {\
 		"name": "ryu",\
 		"armor": 10.0,\
-		"jump_strength": 0.58,\
+		"jump_strength": 0.63,\
 		"max_health": 40.0,\
 		"movement_speed": 0.1,\
 		"page": 1,\
@@ -2158,7 +1790,7 @@ data modify storage ssbrc:data fighters set value {\
 	"samus": {\
 		"name": "samus",\
 		"armor": 10.0,\
-		"jump_strength": 0.58,\
+		"jump_strength": 0.63,\
 		"max_health": 40.0,\
 		"movement_speed": 0.09,\
 		"page": 1,\
@@ -2211,7 +1843,7 @@ data modify storage ssbrc:data fighters set value {\
 	"shadow": {\
 		"name": "shadow",\
 		"armor": 10.0,\
-		"jump_strength": 0.58,\
+		"jump_strength": 0.63,\
 		"max_health": 40.0,\
 		"movement_speed": 0.105,\
 		"page": 1,\
@@ -2259,38 +1891,12 @@ data modify storage ssbrc:data fighters set value {\
 					"tag": "black_sword"\
 				},\
 			},\
-			"chaos_spear": {\
-				"default": {\
-					"name": "ssbrc.fighter.shadow.chaos_spear",\
-					"color": "gray",\
-					"model": 1904,\
-					"tag": "chaos_spear"\
-				},\
-				"gold": {\
-					"name": "ssbrc.fighter.shadow.chaos_spear",\
-					"color": "gray",\
-					"model": 1904,\
-					"tag": "chaos_spear"\
-				},\
-				"sir_lancelot": {\
-					"name": "ssbrc.fighter.shadow.chaos_spear",\
-					"color": "gray",\
-					"model": 1904,\
-					"tag": "chaos_spear"\
-				},\
-				"yellow_android": {\
-					"name": "ssbrc.fighter.shadow.chaos_spear",\
-					"color": "gray",\
-					"model": 1904,\
-					"tag": "chaos_spear"\
-				},\
-			},\
 		}\
 	},\
 	"shovel_knight": {\
 		"name": "shovel_knight",\
 		"armor": 10.0,\
-		"jump_strength": 0.58,\
+		"jump_strength": 0.63,\
 		"max_health": 40.0,\
 		"movement_speed": 0.1,\
 		"page": 3,\
@@ -2312,184 +1918,28 @@ data modify storage ssbrc:data fighters set value {\
 			}\
 		},\
 		"items": {\
-			"chaos_sphere": {\
-				"default": {\
-					"name": "ssbrc.fighter.shovel_knight.chaos_sphere",\
-					"color": "dark_green",\
-					"model": 1921,\
-					"tag": "chaos_sphere"\
-				},\
-				"gold": {\
-					"name": "ssbrc.fighter.shovel_knight.chaos_sphere",\
-					"color": "dark_green",\
-					"model": 1921,\
-					"tag": "chaos_sphere"\
-				},\
-				"armor_of_chaos": {\
-					"name": "ssbrc.fighter.shovel_knight.chaos_sphere",\
-					"color": "dark_green",\
-					"model": 1921,\
-					"tag": "chaos_sphere"\
-				},\
-				"toad_gear": {\
-					"name": "ssbrc.fighter.shovel_knight.chaos_sphere",\
-					"color": "dark_green",\
-					"model": 1921,\
-					"tag": "chaos_sphere"\
-				},\
-			},\
-			"flare_wand": {\
-				"default": {\
-					"name": "ssbrc.fighter.shovel_knight.flare_wand",\
-					"color": "red",\
-					"model": 1922,\
-					"tag": "flare_wand"\
-				},\
-				"gold": {\
-					"name": "ssbrc.fighter.shovel_knight.flare_wand",\
-					"color": "red",\
-					"model": 1922,\
-					"tag": "flare_wand"\
-				},\
-				"armor_of_chaos": {\
-					"name": "ssbrc.fighter.shovel_knight.flare_wand",\
-					"color": "red",\
-					"model": 1922,\
-					"tag": "flare_wand"\
-				},\
-				"toad_gear": {\
-					"name": "ssbrc.fighter.shovel_knight.flare_wand",\
-					"color": "red",\
-					"model": 1922,\
-					"tag": "flare_wand"\
-				},\
-			},\
-			"phase_locket": {\
-				"default": {\
-					"name": "ssbrc.fighter.shovel_knight.phase_locket",\
-					"color": "dark_aqua",\
-					"model": 1923,\
-					"tag": "phase_locket"\
-				},\
-				"gold": {\
-					"name": "ssbrc.fighter.shovel_knight.phase_locket",\
-					"color": "dark_aqua",\
-					"model": 1923,\
-					"tag": "phase_locket"\
-				},\
-				"armor_of_chaos": {\
-					"name": "ssbrc.fighter.shovel_knight.phase_locket",\
-					"color": "dark_aqua",\
-					"model": 1923,\
-					"tag": "phase_locket"\
-				},\
-				"toad_gear": {\
-					"name": "ssbrc.fighter.shovel_knight.phase_locket",\
-					"color": "dark_aqua",\
-					"model": 1923,\
-					"tag": "phase_locket"\
-				},\
-			},\
-			"propeller_dagger": {\
-				"default": {\
-					"name": "ssbrc.fighter.shovel_knight.propeller_dagger",\
-					"color": "dark_aqua",\
-					"model": 1924,\
-					"tag": "propeller_dagger"\
-				},\
-				"gold": {\
-					"name": "ssbrc.fighter.shovel_knight.propeller_dagger",\
-					"color": "dark_aqua",\
-					"model": 1924,\
-					"tag": "propeller_dagger"\
-				},\
-				"armor_of_chaos": {\
-					"name": "ssbrc.fighter.shovel_knight.propeller_dagger",\
-					"color": "dark_aqua",\
-					"model": 1924,\
-					"tag": "propeller_dagger"\
-				},\
-				"toad_gear": {\
-					"name": "ssbrc.fighter.shovel_knight.propeller_dagger",\
-					"color": "dark_aqua",\
-					"model": 1924,\
-					"tag": "propeller_dagger"\
-				},\
-			},\
-			"throwing_anchor": {\
-				"default": {\
-					"name": "ssbrc.fighter.shovel_knight.throwing_anchor",\
-					"color": "dark_aqua",\
-					"model": 1925,\
-					"tag": "throwing_anchor"\
-				},\
-				"gold": {\
-					"name": "ssbrc.fighter.shovel_knight.throwing_anchor",\
-					"color": "dark_aqua",\
-					"model": 1925,\
-					"tag": "throwing_anchor"\
-				},\
-				"armor_of_chaos": {\
-					"name": "ssbrc.fighter.shovel_knight.throwing_anchor",\
-					"color": "dark_aqua",\
-					"model": 1925,\
-					"tag": "throwing_anchor"\
-				},\
-				"toad_gear": {\
-					"name": "ssbrc.fighter.shovel_knight.throwing_anchor",\
-					"color": "dark_aqua",\
-					"model": 1925,\
-					"tag": "throwing_anchor"\
-				},\
-			},\
-			"war_horn": {\
-				"default": {\
-					"name": "ssbrc.fighter.shovel_knight.war_horn",\
-					"color": "blue",\
-					"model": 1920,\
-					"tag": "war_horn"\
-				},\
-				"gold": {\
-					"name": "ssbrc.fighter.shovel_knight.war_horn",\
-					"color": "blue",\
-					"model": 1920,\
-					"tag": "war_horn"\
-				},\
-				"armor_of_chaos": {\
-					"name": "ssbrc.fighter.shovel_knight.war_horn",\
-					"color": "blue",\
-					"model": 1920,\
-					"tag": "war_horn"\
-				},\
-				"toad_gear": {\
-					"name": "ssbrc.fighter.shovel_knight.war_horn",\
-					"color": "blue",\
-					"model": 1920,\
-					"tag": "war_horn"\
-				},\
-			},\
 			"shovel_blade": {\
 				"default": {\
 					"name": "ssbrc.fighter.shovel_knight.shovel_blade",\
-					"color": "blue",\
+					"color": "dark_aqua",\
 					"model": 1920,\
 					"tag": "shovel_blade"\
 				},\
 				"gold": {\
 					"name": "ssbrc.fighter.shovel_knight.shovel_blade",\
-					"color": "blue",\
+					"color": "gold",\
 					"model": 1922,\
 					"tag": "shovel_blade"\
 				},\
 				"armor_of_chaos": {\
 					"name": "ssbrc.fighter.shovel_knight.shovel_blade",\
-					"color": "blue",\
+					"color": "red",\
 					"model": 1924,\
 					"tag": "shovel_blade"\
 				},\
 				"toad_gear": {\
 					"name": "ssbrc.fighter.shovel_knight.shovel_blade",\
-					"color": "blue",\
+					"color": "green",\
 					"model": 1926,\
 					"tag": "shovel_blade"\
 				},\
@@ -2499,7 +1949,7 @@ data modify storage ssbrc:data fighters set value {\
 	"snake": {\
 		"name": "snake",\
 		"armor": 10.0,\
-		"jump_strength": 0.58,\
+		"jump_strength": 0.63,\
 		"max_health": 40.0,\
 		"movement_speed": 0.105,\
 		"page": 1,\
@@ -2521,82 +1971,30 @@ data modify storage ssbrc:data fighters set value {\
 			}\
 		},\
 		"items": {\
-			"psg1": {\
+			"anti_personnel_mine": {\
 				"default": {\
-					"name": "ssbrc.fighter.snake.psg1",\
+					"name": "ssbrc.fighter.snake.anti_personnel_mine",\
 					"color": "green",\
-					"model": 1521,\
-					"tag": "psg1"\
+					"model": 1526,\
+					"tag": "anti_personnel_mine"\
 				},\
 				"gold": {\
-					"name": "ssbrc.fighter.snake.psg1",\
+					"name": "ssbrc.fighter.snake.anti_personnel_mine",\
 					"color": "green",\
-					"model": 1530,\
-					"tag": "psg1"\
+					"model": 1526,\
+					"tag": "anti_personnel_mine"\
 				},\
 				"classic_tuxedo": {\
-					"name": "ssbrc.fighter.snake.psg1",\
+					"name": "ssbrc.fighter.snake.anti_personnel_mine",\
 					"color": "green",\
-					"model": 1521,\
-					"tag": "psg1"\
+					"model": 1526,\
+					"tag": "anti_personnel_mine"\
 				},\
 				"iroquois_pliskin": {\
-					"name": "ssbrc.fighter.snake.psg1",\
+					"name": "ssbrc.fighter.snake.anti_personnel_mine",\
 					"color": "green",\
-					"model": 1521,\
-					"tag": "psg1"\
-				},\
-			},\
-			"famas": {\
-				"default": {\
-					"name": "ssbrc.fighter.snake.famas",\
-					"color": "green",\
-					"model": 1522,\
-					"tag": "famas"\
-				},\
-				"gold": {\
-					"name": "ssbrc.fighter.snake.famas",\
-					"color": "gold",\
-					"model": 1531,\
-					"tag": "famas"\
-				},\
-				"classic_tuxedo": {\
-					"name": "ssbrc.fighter.snake.famas",\
-					"color": "green",\
-					"model": 1522,\
-					"tag": "famas"\
-				},\
-				"iroquois_pliskin": {\
-					"name": "ssbrc.fighter.snake.famas",\
-					"color": "green",\
-					"model": 1522,\
-					"tag": "famas"\
-				},\
-			},\
-			"status": {\
-				"default": {\
-					"name": "ssbrc.fighter.snake.status.undetected",\
-					"color": "aqua",\
-					"model": 1520,\
-					"tag": "status"\
-				},\
-				"gold": {\
-					"name": "ssbrc.fighter.snake.status.undetected",\
-					"color": "aqua",\
-					"model": 1520,\
-					"tag": "status"\
-				},\
-				"classic_tuxedo": {\
-					"name": "ssbrc.fighter.snake.status.undetected",\
-					"color": "aqua",\
-					"model": 1520,\
-					"tag": "status"\
-				},\
-				"iroquois_pliskin": {\
-					"name": "ssbrc.fighter.snake.status.undetected",\
-					"color": "aqua",\
-					"model": 1520,\
-					"tag": "status"\
+					"model": 1526,\
+					"tag": "anti_personnel_mine"\
 				},\
 			},\
 			"cqc_knife": {\
@@ -2625,6 +2023,58 @@ data modify storage ssbrc:data fighters set value {\
 					"tag": "cqc_knife"\
 				},\
 			},\
+			"famas": {\
+				"default": {\
+					"name": "ssbrc.fighter.snake.famas",\
+					"color": "green",\
+					"model": 1522,\
+					"tag": "famas"\
+				},\
+				"gold": {\
+					"name": "ssbrc.fighter.snake.famas",\
+					"color": "gold",\
+					"model": 1531,\
+					"tag": "famas"\
+				},\
+				"classic_tuxedo": {\
+					"name": "ssbrc.fighter.snake.famas",\
+					"color": "green",\
+					"model": 1522,\
+					"tag": "famas"\
+				},\
+				"iroquois_pliskin": {\
+					"name": "ssbrc.fighter.snake.famas",\
+					"color": "green",\
+					"model": 1522,\
+					"tag": "famas"\
+				},\
+			},\
+			"psg1": {\
+				"default": {\
+					"name": "ssbrc.fighter.snake.psg1",\
+					"color": "green",\
+					"model": 1521,\
+					"tag": "psg1"\
+				},\
+				"gold": {\
+					"name": "ssbrc.fighter.snake.psg1",\
+					"color": "green",\
+					"model": 1530,\
+					"tag": "psg1"\
+				},\
+				"classic_tuxedo": {\
+					"name": "ssbrc.fighter.snake.psg1",\
+					"color": "green",\
+					"model": 1521,\
+					"tag": "psg1"\
+				},\
+				"iroquois_pliskin": {\
+					"name": "ssbrc.fighter.snake.psg1",\
+					"color": "green",\
+					"model": 1521,\
+					"tag": "psg1"\
+				},\
+			},\
 			"s1000": {\
 				"default": {\
 					"name": "ssbrc.fighter.snake.s1000",\
@@ -2649,58 +2099,6 @@ data modify storage ssbrc:data fighters set value {\
 					"color": "green",\
 					"model": 1523,\
 					"tag": "s1000"\
-				},\
-			},\
-			"socom": {\
-				"default": {\
-					"name": "ssbrc.fighter.snake.socom",\
-					"color": "green",\
-					"model": 1524,\
-					"tag": "socom"\
-				},\
-				"gold": {\
-					"name": "ssbrc.fighter.snake.socom",\
-					"color": "gold",\
-					"model": 1533,\
-					"tag": "socom"\
-				},\
-				"classic_tuxedo": {\
-					"name": "ssbrc.fighter.snake.socom",\
-					"color": "green",\
-					"model": 1524,\
-					"tag": "socom"\
-				},\
-				"iroquois_pliskin": {\
-					"name": "ssbrc.fighter.snake.socom",\
-					"color": "green",\
-					"model": 1524,\
-					"tag": "socom"\
-				},\
-			},\
-			"anti_personnel_mine": {\
-				"default": {\
-					"name": "ssbrc.fighter.snake.anti_personnel_mine",\
-					"color": "green",\
-					"model": 1526,\
-					"tag": "anti_personnel_mine"\
-				},\
-				"gold": {\
-					"name": "ssbrc.fighter.snake.anti_personnel_mine",\
-					"color": "green",\
-					"model": 1526,\
-					"tag": "anti_personnel_mine"\
-				},\
-				"classic_tuxedo": {\
-					"name": "ssbrc.fighter.snake.anti_personnel_mine",\
-					"color": "green",\
-					"model": 1526,\
-					"tag": "anti_personnel_mine"\
-				},\
-				"iroquois_pliskin": {\
-					"name": "ssbrc.fighter.snake.anti_personnel_mine",\
-					"color": "green",\
-					"model": 1526,\
-					"tag": "anti_personnel_mine"\
 				},\
 			},\
 			"smoke_grenade": {\
@@ -2729,12 +2127,38 @@ data modify storage ssbrc:data fighters set value {\
 					"tag": "smoke_grenade"\
 				},\
 			},\
+			"socom": {\
+				"default": {\
+					"name": "ssbrc.fighter.snake.socom",\
+					"color": "green",\
+					"model": 1524,\
+					"tag": "socom"\
+				},\
+				"gold": {\
+					"name": "ssbrc.fighter.snake.socom",\
+					"color": "gold",\
+					"model": 1533,\
+					"tag": "socom"\
+				},\
+				"classic_tuxedo": {\
+					"name": "ssbrc.fighter.snake.socom",\
+					"color": "green",\
+					"model": 1524,\
+					"tag": "socom"\
+				},\
+				"iroquois_pliskin": {\
+					"name": "ssbrc.fighter.snake.socom",\
+					"color": "green",\
+					"model": 1524,\
+					"tag": "socom"\
+				},\
+			},\
 		}\
 	},\
 	"sonic": {\
 		"name": "sonic",\
 		"armor": 10.0,\
-		"jump_strength": 0.58,\
+		"jump_strength": 0.63,\
 		"max_health": 40.0,\
 		"movement_speed": 0.11,\
 		"page": 1,\
@@ -2761,44 +2185,12 @@ data modify storage ssbrc:data fighters set value {\
 			}\
 		},\
 		"items": {\
-			"mania_punch": {\
-				"default": {\
-					"name": "ssbrc.fighter.sonic.mania_punch",\
-					"color": "blue",\
-					"model": null,\
-					"tag": "mania_punch"\
-				},\
-				"gold": {\
-					"name": "ssbrc.fighter.sonic.mania_punch",\
-					"color": "blue",\
-					"model": null,\
-					"tag": "mania_punch"\
-				},\
-				"classic": {\
-					"name": "ssbrc.fighter.sonic.mania_punch",\
-					"color": "blue",\
-					"model": null,\
-					"tag": "mania_punch"\
-				},\
-				"hylian_tunic": {\
-					"name": "ssbrc.fighter.sonic.mania_punch",\
-					"color": "blue",\
-					"model": null,\
-					"tag": "mania_punch"\
-				},\
-				"werehog": {\
-					"name": "ssbrc.fighter.sonic.mania_punch",\
-					"color": "blue",\
-					"model": null,\
-					"tag": "mania_punch"\
-				},\
-			},\
 		}\
 	},\
 	"sora": {\
 		"name": "sora",\
 		"armor": 10.0,\
-		"jump_strength": 0.58,\
+		"jump_strength": 0.63,\
 		"max_health": 40.0,\
 		"movement_speed": 0.1,\
 		"page": 1,\
@@ -2840,7 +2232,7 @@ data modify storage ssbrc:data fighters set value {\
 	"steve": {\
 		"name": "steve",\
 		"armor": 10.0,\
-		"jump_strength": 0.58,\
+		"jump_strength": 0.63,\
 		"max_health": 40.0,\
 		"movement_speed": 0.1,\
 		"page": 1,\
@@ -2862,34 +2254,12 @@ data modify storage ssbrc:data fighters set value {\
 			}\
 		},\
 		"items": {\
-			"pickaxe": {\
-				"default": {\
-					"name": "item.minecraft.wooden_pickaxe",\
-					"color": "gold",\
-					"model": 1581,\
-				},\
-				"gold": {\
-					"name": "item.minecraft.wooden_pickaxe",\
-					"color": "gold",\
-					"model": 1581,\
-				},\
-				"alex": {\
-					"name": "item.minecraft.wooden_pickaxe",\
-					"color": "gold",\
-					"model": 1581,\
-				},\
-				"herobrine": {\
-					"name": "item.minecraft.wooden_pickaxe",\
-					"color": "gold",\
-					"model": 1581,\
-				},\
-			},\
 		}\
 	},\
 	"team_rocket": {\
 		"name": "team_rocket",\
 		"armor": 10.0,\
-		"jump_strength": 0.58,\
+		"jump_strength": 0.63,\
 		"max_health": 40.0,\
 		"movement_speed": 0.1,\
 		"page": 1,\
@@ -2903,124 +2273,12 @@ data modify storage ssbrc:data fighters set value {\
 		"skins": {\
 		},\
 		"items": {\
-			"poison_jab": {\
-				"default": {\
-					"name": "ssbrc.fighter.team_rocket.poison_jab",\
-					"color": "light_purple",\
-					"model": null,\
-					"tag": "poison_jab"\
-				},\
-				"gold": {\
-					"name": "ssbrc.fighter.team_rocket.poison_jab",\
-					"color": "light_purple",\
-					"model": null,\
-					"tag": "poison_jab"\
-				},\
-			},\
-			"acid": {\
-				"default": {\
-					"name": "ssbrc.fighter.team_rocket.acid",\
-					"color": "dark_purple",\
-					"model": 50013,\
-					"tag": "acid"\
-				},\
-				"gold": {\
-					"name": "ssbrc.fighter.team_rocket.acid",\
-					"color": "dark_purple",\
-					"model": 50013,\
-					"tag": "acid"\
-				},\
-			},\
-			"scratch": {\
-				"default": {\
-					"name": "ssbrc.fighter.team_rocket.scratch",\
-					"color": "white",\
-					"model": null,\
-					"tag": "scratch"\
-				},\
-				"gold": {\
-					"name": "ssbrc.fighter.team_rocket.scratch",\
-					"color": "white",\
-					"model": null,\
-					"tag": "scratch"\
-				},\
-			},\
-			"payday": {\
-				"default": {\
-					"name": "ssbrc.fighter.team_rocket.payday",\
-					"color": "yellow",\
-					"model": 50012,\
-					"tag": "payday"\
-				},\
-				"gold": {\
-					"name": "ssbrc.fighter.team_rocket.payday",\
-					"color": "yellow",\
-					"model": 50012,\
-					"tag": "payday"\
-				},\
-			},\
-			"fury_swipes": {\
-				"default": {\
-					"name": "ssbrc.fighter.team_rocket.fury_swipes",\
-					"color": "yellow",\
-					"model": 50012,\
-					"tag": "fury_swipes"\
-				},\
-				"gold": {\
-					"name": "ssbrc.fighter.team_rocket.fury_swipes",\
-					"color": "yellow",\
-					"model": 50012,\
-					"tag": "fury_swipes"\
-				},\
-			},\
-			"counter": {\
-				"default": {\
-					"name": "ssbrc.fighter.team_rocket.counter",\
-					"color": "dark_gray",\
-					"model": null,\
-					"tag": "counter"\
-				},\
-				"gold": {\
-					"name": "ssbrc.fighter.team_rocket.counter",\
-					"color": "dark_gray",\
-					"model": null,\
-					"tag": "counter"\
-				},\
-			},\
-			"splash": {\
-				"default": {\
-					"name": "ssbrc.fighter.team_rocket.splash",\
-					"color": "blue",\
-					"model": 50018,\
-					"tag": "splash"\
-				},\
-				"gold": {\
-					"name": "ssbrc.fighter.team_rocket.splash",\
-					"color": "blue",\
-					"model": 50018,\
-					"tag": "splash"\
-				},\
-			},\
-			"destiny_bond": {\
-				"default": {\
-					"name": "ssbrc.fighter.team_rocket.destiny_bond",\
-					"color": "dark_gray",\
-					"model": 50008,\
-					"tag": "destiny_bond"\
-				},\
-				"gold": {\
-					"name": "ssbrc.fighter.team_rocket.destiny_bond",\
-					"color": "dark_gray",\
-					"model": 50008,\
-					"tag": "destiny_bond"\
-				},\
-			},\
 		}\
 	},\
 	"wolf": {\
 		"name": "wolf",\
 		"armor": 10.0,\
-		"jump_strength": 0.58,\
+		"jump_strength": 0.63,\
 		"max_health": 40.0,\
 		"movement_speed": 0.1,\
 		"page": 1,\
@@ -3102,7 +2360,7 @@ data modify storage ssbrc:data fighters set value {\
 	"yar": {\
 		"name": "yar",\
 		"armor": 10.0,\
-		"jump_strength": 0.58,\
+		"jump_strength": 0.63,\
 		"max_health": 40.0,\
 		"movement_speed": 0.1,\
 		"page": 3,\
@@ -3184,7 +2442,7 @@ data modify storage ssbrc:data fighters set value {\
 	"zelda": {\
 		"name": "zelda",\
 		"armor": 10.0,\
-		"jump_strength": 0.58,\
+		"jump_strength": 0.63,\
 		"max_health": 40.0,\
 		"movement_speed": 0.1,\
 		"page": 1,\
