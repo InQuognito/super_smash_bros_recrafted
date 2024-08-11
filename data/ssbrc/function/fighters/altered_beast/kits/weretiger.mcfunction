@@ -1,5 +1,7 @@
 function ssbrc:fighters/altered_beast/kits/update {form:"weretiger"}
 
+attribute @s minecraft:generic.safe_fall_distance base set 20.0
+
 effect give @s minecraft:resistance 2 3 true
 
 loot replace entity @s hotbar.0 loot ssbrc:fighters/altered_beast/weretiger/tiger_claw

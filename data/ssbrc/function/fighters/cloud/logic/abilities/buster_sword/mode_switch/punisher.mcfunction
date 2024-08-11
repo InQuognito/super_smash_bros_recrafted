@@ -15,4 +15,6 @@ function ssbrc:logic/item/cooldown/set/const {type:"1",value:"20"}
 
 playsound ssbrc:fighters.cloud.mode_switch.punisher player @a
 
+advancement grant @s only ssbrc:ui/popup/cloud
+
 advancement revoke @s only ssbrc:utility/use_item/fighters/cloud/mode_switch/punisher

@@ -5,7 +5,7 @@ execute anchored eyes positioned ^ ^ ^1 summon minecraft:marker run function ssb
 
 scoreboard players set @s charge.output 0
 
-function ssbrc:logic/item/init/default/get {item:"phazon_beam",slot:"weapon.mainhand",type:"default"}
+function ssbrc:logic/item/init/get {item:"phazon_beam",slot:"weapon.mainhand",type:"default"}
 
 scoreboard players set @s cooldown 10
 

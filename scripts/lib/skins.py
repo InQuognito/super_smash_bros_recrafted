@@ -94,35 +94,18 @@ def create_skin_file(skin, fighter, path):
 	'''Initializes the file that allows the skin to be selected.'''
 	create_path(path)
 
-	if fighter == 'byleth':
-		create_path(path + skin + '\\')
-		with open(path + skin + '\\female.mcfunction', 'w') as file:
-			warn_builder(file)
+	create_path(path + skin + '\\')
+	with open(path + skin + '\\female.mcfunction', 'w') as file:
+		warn_builder(file)
 
-			js_write(file, 'function ssbrc:logic/player_data/temp/set {mode:"store",key:"skin",value:"' + skin + '"}\n')
-			js_write(file, f'tag @s add female\n')
+		js_write(file, 'function ssbrc:logic/fighters/select_skin {fighter:"' + fighter + '",skin:"' + skin + ',color:"' + get_color(fighter, skin) + '"}\n')
+		js_write(file, f'tag @s add female\n')
 
-			prefix = 'tellraw @s[tag=!blind_pick,tag=!picking_random] [{"text":"\\n"},{"translate":"ssbrc.fighter.menu.skin","color":"white"},{"translate":"'
-			suffix = '"},{"text":"\\n"},{"translate":"ssbrc.fighter.menu.gender","color":"white"},{"translate":"ssbrc.fighter.menu.gender.female","color":"light_purple"},{"text":"\\n"}]'
+	with open(path + skin + '/male.mcfunction', 'w') as file:
+		warn_builder(file)
 
-			js_write(file, prefix + f'ssbrc.skin.{skin}' + '","color":"' + get_color(fighter, skin) + suffix)
-
-			js_write(file, f'execute if entity @s[tag=!blind_pick,tag=!picking_random] run function ssbrc:fighters/{fighter}/menu/skins/options\n')
-			js_write(file, 'function ssbrc:logic/fighters/select_skin/common')
-
-		with open(path + skin + '/male.mcfunction', 'w') as file:
-			warn_builder(file)
-
-			js_write(file, 'function ssbrc:logic/player_data/temp/set {mode:"store",key:"skin",value:"' + skin + '"}\n')
-			js_write(file, f'tag @s add male\n')
-
-			prefix = 'tellraw @s[tag=!blind_pick,tag=!picking_random] [{"text":"\\n"},{"translate":"ssbrc.fighter.menu.skin","color":"white"},{"translate":"'
-			suffix = '"},{"text":"\\n"},{"translate":"ssbrc.fighter.menu.gender","color":"white"},{"translate":"ssbrc.fighter.menu.gender.male","color":"dark_blue"},{"text":"\\n"}]'
-
-			js_write(file, prefix + f'ssbrc.skin.{skin}' + '","color":"' + get_color(fighter, skin) + suffix)
-
-			js_write(file, f'execute if entity @s[tag=!blind_pick,tag=!picking_random] run function ssbrc:fighters/{fighter}/menu/skins/options\n')
-			js_write(file, 'function ssbrc:logic/fighters/select_skin/common')
+		js_write(file, 'function ssbrc:logic/fighters/select_skin {fighter:"' + fighter + '",skin:"' + skin + ',color:"' + get_color(fighter, skin) + '"}\n')
+		js_write(file, f'tag @s add male\n')
 
 def create_skin(skin, fighter, i):
 	'''Initializes a skin.'''
@@ -134,4 +117,5 @@ def create_skin(skin, fighter, i):
 
 	custom_model_data(skin, fighter, i)
 
-	create_skin_file(skin, fighter, f'data\\ssbrc\\function\\fighters\\{fighter}\\menu\\skins\\')
+	if fighter == 'byleth':
+		create_skin_file(skin, fighter, f'data\\ssbrc\\function\\fighters\\{fighter}\\menu\\skins\\')

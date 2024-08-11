@@ -7,5 +7,3 @@ $function ssbrc:logic/pre_game/stage_select/stage_index/pages/$(page)
 $function ssbrc:logic/stages/vote_init {name:"$(name)"}
 
 scoreboard players set @s cooldown 10
-
-playsound minecraft:entity.experience_orb.pickup master @s

@@ -44,6 +44,12 @@
 							"mode": "append"
 						},
 						{
+							"function": "minecraft:set_components",
+							"components": {
+								"minecraft:hide_additional_tooltip": {}
+							}
+						},
+						{
 							"function": "minecraft:set_custom_model_data",
 							"value": 1780
 						},

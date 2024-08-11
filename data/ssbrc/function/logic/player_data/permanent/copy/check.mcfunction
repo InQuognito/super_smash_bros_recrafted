@@ -1,3 +1,3 @@
-function ssbrc:logic/player_data/temp/get
+function ssbrc:logic/player_data/permanent/get
 
-function ssbrc:logic/player_data/temp/copy/set with storage ssbrc:temp arguments
+function ssbrc:logic/player_data/permanent/copy/set with storage ssbrc:temp arguments

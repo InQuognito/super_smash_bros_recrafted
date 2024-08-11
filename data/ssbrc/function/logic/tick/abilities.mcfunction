@@ -4,6 +4,7 @@ execute if entity @s[tag=failnaught,tag=awakened] run function ssbrc:fighters/by
 
 # Captain Falcon
 execute if entity @s[tag=raptor_boost] run function ssbrc:fighters/captain_falcon/logic/abilities/raptor_boost/tick
+execute if entity @s[tag=falcon_kick] run function ssbrc:fighters/captain_falcon/logic/abilities/falcon_kick/tick
 
 # Cloud
 execute if entity @s[tag=blade_beam] run function ssbrc:fighters/cloud/logic/abilities/buster_sword/blade_beam/tick

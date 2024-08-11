@@ -1,16 +1,17 @@
 loot give @s loot ssbrc:fighters/snake/cqc_knife
+function ssbrc:logic/item/give {item:"cqc_knife",type:"default"}
 
-loot give @s[tag=psg1] loot ssbrc:fighters/snake/psg1
+execute if entity @s[tag=psg1] run function ssbrc:logic/item/give {item:"psg1",type:"default"}
 
-loot give @s[tag=famas] loot ssbrc:fighters/snake/famas
+execute if entity @s[tag=famas] run function ssbrc:logic/item/give {item:"famas",type:"default"}
 
-loot give @s[tag=s1000] loot ssbrc:fighters/snake/s1000
+execute if entity @s[tag=s1000] run function ssbrc:logic/item/give {item:"s1000",type:"default"}
 
-loot give @s[tag=socom] loot ssbrc:fighters/snake/socom
+execute if entity @s[tag=socom] run function ssbrc:logic/item/give {item:"socom",type:"default"}
 
-loot give @s[tag=anti_personnel_mine] loot ssbrc:fighters/snake/anti_personnel_mine
+execute if entity @s[tag=anti_personnel_mine] run function ssbrc:logic/item/give {item:"anti_personnel_mine",type:"default"}
 
-loot give @s[tag=smoke_grenade] loot ssbrc:fighters/snake/smoke_grenade
+execute if entity @s[tag=smoke_grenade] run function ssbrc:logic/item/give {item:"smoke_grenade",type:"default"}
 
 loot replace entity @s hotbar.8 loot ssbrc:fighters/snake/status/undetected
 

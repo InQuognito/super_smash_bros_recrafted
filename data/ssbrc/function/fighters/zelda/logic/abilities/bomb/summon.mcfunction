@@ -1,3 +1,5 @@
 execute anchored eyes positioned ^ ^ ^ summon minecraft:marker run function ssbrc:fighters/zelda/logic/abilities/bomb/init/marker
 
+scoreboard players set @s cooldown 20
+
 function ssbrc:fighters/zelda/logic/abilities/bomb/reset

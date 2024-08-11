@@ -3,6 +3,5 @@ $execute if score @s charge.1 >= $(fighter).super_jump.threshold vars run partic
 
 $execute if score @s charge.1 = $(fighter).super_jump.threshold vars run function ssbrc:fighters/$(fighter)/logic/abilities/super_jump/charge
 
-scoreboard players operation super_jump.falloff temp = @s walk_distance
-scoreboard players operation super_jump.falloff temp += @s sprint_distance
+function ssbrc:logic/fighters/jump/super_jump/calculate
 $execute if score @s charge.1 >= $(fighter).super_jump.threshold vars if score super_jump.falloff temp >= $(fighter).super_jump.falloff vars run function ssbrc:fighters/$(fighter)/logic/abilities/super_jump/reset

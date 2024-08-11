@@ -1,3 +1,7 @@
+summon minecraft:marker 628.5 13.5 -871.5 {Tags:["door"],data:{type:"jungle",facing:"east",hinge:"left"}}
+
+execute as @e[type=minecraft:marker,tag=door] at @s run function ssbrc:logic/stages/doors/close with entity @s data
+
 execute positioned 647.5 23.0 -865.5 summon minecraft:armor_stand run function ssbrc:stages/magicant/logic/armor_stands/jeff
 execute positioned 659.5 23.0 -866.5 summon minecraft:armor_stand run function ssbrc:stages/magicant/logic/armor_stands/paula
 execute positioned 653.5 23.0 -865.5 summon minecraft:armor_stand run function ssbrc:stages/magicant/logic/armor_stands/poo

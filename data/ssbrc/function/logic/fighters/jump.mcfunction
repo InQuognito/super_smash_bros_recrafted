@@ -1,6 +1,6 @@
 # Fighters
-execute if data storage ssbrc:temp player.temp_data{fighter:"altered_beast"} if entity @s[tag=weretiger] run function ssbrc:logic/fighters/jump/altered_beast/weretiger
-execute if data storage ssbrc:temp player.temp_data{fighter:"altered_beast"} if entity @s[tag=weredragon] run function ssbrc:logic/item/cooldown/set/const {type:"1",value:"5"}
+execute if data storage ssbrc:temp player.temp_data{fighter:"altered_beast",form:"weretiger"} run function ssbrc:logic/fighters/jump/altered_beast/weretiger
+execute if data storage ssbrc:temp player.temp_data{fighter:"altered_beast",form:"weredragon"} run function ssbrc:logic/item/cooldown/set/const {type:"1",value:"5"}
 execute if data storage ssbrc:temp player.temp_data{fighter:"kirby"} run function ssbrc:logic/item/cooldown/set/const {type:"1",value:"5"}
 execute if data storage ssbrc:temp player.temp_data{fighter:"luigi"} run function ssbrc:logic/fighters/jump/luigi
 execute if data storage ssbrc:temp player.temp_data{fighter:"mario"} run function ssbrc:logic/fighters/jump/mario

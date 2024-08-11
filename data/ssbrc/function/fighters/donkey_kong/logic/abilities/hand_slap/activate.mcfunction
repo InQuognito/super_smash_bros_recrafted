@@ -6,3 +6,5 @@ tag @s add hand_slap
 function ssbrc:logic/fighters/effects/mobility/immobilize/default
 
 playsound ssbrc:fighters.donkey_kong.hand_slap.activate player @a
+
+advancement grant @s only ssbrc:ui/popup/donkey_kong

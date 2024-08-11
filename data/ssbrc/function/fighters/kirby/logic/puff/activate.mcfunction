@@ -9,3 +9,5 @@ execute if entity @s[scores={charge.1=5}] run function ssbrc:fighters/kirby/logi
 function player_motion:api/launch_xyz
 
 function ssbrc:logic/item/cooldown/set/const {type:"1",value:"10"}
+
+advancement grant @s only ssbrc:ui/popup/kirby

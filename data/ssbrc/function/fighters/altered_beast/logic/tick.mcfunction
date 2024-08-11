@@ -1,10 +1,10 @@
 # Spirit Gauge
-scoreboard players operation @s[predicate=ssbrc:fighters/altered_beast/charge_spirit] charge.1 += altered_beast.spirit.recharge_rate vars
+scoreboard players operation @s[predicate=ssbrc:fighters/altered_beast/charge_spirit] resource += altered_beast.spirit.recharge_rate vars
 execute if entity @s[tag=altered_beast.is_beast] run function ssbrc:fighters/altered_beast/logic/spirit_gauge/tick
 
 function ssbrc:fighters/altered_beast/logic/spirit_gauge/update
 
-function ssbrc:logic/item/cooldown/display/check {item:"mark_of_the_beast"}
+function ssbrc:logic/item/cooldown/display/check {item:"spirit_orb"}
 
 # Beast Form
 execute if data storage ssbrc:temp player.temp_data{form:"werebear"} run function ssbrc:fighters/altered_beast/logic/werebear/tick

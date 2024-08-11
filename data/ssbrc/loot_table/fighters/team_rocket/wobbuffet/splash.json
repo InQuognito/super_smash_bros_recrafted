@@ -24,7 +24,7 @@
 						},
 						{
 							"function": "minecraft:reference",
-							"name": "ssbrc:init/ability/default"
+							"name": "ssbrc:init/ability/charge"
 						},
 						{
 							"function": "minecraft:reference",
@@ -53,6 +53,12 @@
 											"italic": false
 										}
 									]
+								},
+								{
+									"translate": "ssbrc.fighter.team_rocket.wobbuffet.splash.description.2",
+									"color": "gray",
+									"bold": false,
+									"italic": false
 								}
 							],
 							"mode": "append"

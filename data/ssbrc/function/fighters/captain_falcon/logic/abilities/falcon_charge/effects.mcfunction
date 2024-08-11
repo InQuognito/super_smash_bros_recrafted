@@ -4,4 +4,4 @@ attribute @s minecraft:generic.movement_speed modifier add ssbrc:falcon_charge 0
 
 scoreboard players set @s charge.2 0
 
-scoreboard players set @s duration.3 40
+scoreboard players set @s duration.3 80

@@ -20,7 +20,7 @@
 						},
 						{
 							"function": "minecraft:reference",
-							"name": "ssbrc:init/tooltip/ability/ranged"
+							"name": "ssbrc:init/tooltip/ability/melee"
 						},
 						{
 							"function": "minecraft:reference",

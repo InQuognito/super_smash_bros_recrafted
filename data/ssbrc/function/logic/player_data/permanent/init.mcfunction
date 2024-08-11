@@ -1,3 +1,3 @@
-$execute store result score @s id store result storage ssbrc:data player.id."$(UUID)" int 1.0 if data storage ssbrc:data player.temp_data[]
+$execute store result storage ssbrc:data player.id."$(UUID)" int 1.0 if data storage ssbrc:data player.data[]
 
-$data modify storage ssbrc:data player.temp_data append value {fighter:"",skin:"",form:"",stage_vote:"",id:"$(UUID)"}
+$data modify storage ssbrc:data player.data append value {id:"$(UUID)"}

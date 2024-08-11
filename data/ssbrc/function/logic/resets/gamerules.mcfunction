@@ -19,7 +19,7 @@ gamerule drowningDamage true
 gamerule fallDamage true
 gamerule fireDamage true
 gamerule forgiveDeadPlayers true
-gamerule freezeDamage true
+gamerule freezeDamage false
 gamerule globalSoundEvents false
 gamerule keepInventory true
 gamerule lavaSourceConversion false

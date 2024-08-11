@@ -1616,6 +1616,32 @@ data modify storage ssbrc:data fighters set value {\
 			}\
 		},\
 		"items": {\
+			"mega_punch": {\
+				"default": {\
+					"name": "ssbrc.fighter.pikachu.mega_punch",\
+					"color": "dark_gray",\
+					"model": 1200,\
+					"tag": "mega_punch"\
+				},\
+				"gold": {\
+					"name": "ssbrc.fighter.pikachu.mega_punch",\
+					"color": "dark_gray",\
+					"model": 1200,\
+					"tag": "mega_punch"\
+				},\
+				"santa_hat": {\
+					"name": "ssbrc.fighter.pikachu.mega_punch",\
+					"color": "dark_gray",\
+					"model": 1200,\
+					"tag": "mega_punch"\
+				},\
+				"shiny": {\
+					"name": "ssbrc.fighter.pikachu.mega_punch",\
+					"color": "dark_gray",\
+					"model": 1202,\
+					"tag": "mega_punch"\
+				},\
+			},\
 		}\
 	},\
 	"pit": {\
@@ -1690,6 +1716,38 @@ data modify storage ssbrc:data fighters set value {\
 			}\
 		},\
 		"items": {\
+			"knock_off": {\
+				"default": {\
+					"name": "ssbrc.fighter.pokemon_trainer.knock_off",\
+					"color": "dark_gray",\
+					"model": 1260,\
+					"tag": "knock_off"\
+				},\
+				"gold": {\
+					"name": "ssbrc.fighter.pokemon_trainer.knock_off",\
+					"color": "dark_gray",\
+					"model": 1260,\
+					"tag": "knock_off"\
+				},\
+				"dawn": {\
+					"name": "ssbrc.fighter.pokemon_trainer.knock_off",\
+					"color": "dark_gray",\
+					"model": 1260,\
+					"tag": "knock_off"\
+				},\
+				"shiny": {\
+					"name": "ssbrc.fighter.pokemon_trainer.knock_off",\
+					"color": "dark_gray",\
+					"model": 1260,\
+					"tag": "knock_off"\
+				},\
+				"victor": {\
+					"name": "ssbrc.fighter.pokemon_trainer.knock_off",\
+					"color": "dark_gray",\
+					"model": 1264,\
+					"tag": "knock_off"\
+				},\
+			},\
 		}\
 	},\
 	"rob": {\
@@ -2303,56 +2361,36 @@ data modify storage ssbrc:data fighters set value {\
 					"tag": "wolf_slash"\
 				},\
 				"gold": {\
-					"name": "ssbrc.fighter.sora.kingdom_key",\
+					"name": "ssbrc.fighter.wolf.wolf_slash",\
 					"color": "gold",\
-					"model": 1727,\
-					"tag": "kingdom_key"\
+					"model": 1722,\
+					"tag": "wolf_slash"\
 				},\
 				"assault": {\
-					"name": "ssbrc.fighter.sora.monochrome",\
-					"color": "light_green",\
-					"model": 1726,\
-					"tag": "monochrome"\
+					"name": "ssbrc.fighter.wolf.wolf_slash",\
+					"color": "green",\
+					"model": 1723,\
+					"tag": "wolf_slash"\
 				},\
 			},\
 			"blaster": {\
 				"default": {\
 					"name": "ssbrc.fighter.star_fox.blaster",\
 					"color": "light_purple",\
-					"model": 1722,\
+					"model": 1724,\
 					"tag": "blaster"\
 				},\
 				"gold": {\
 					"name": "ssbrc.fighter.star_fox.blaster",\
 					"color": "gold",\
-					"model": 1728,\
+					"model": 1725,\
 					"tag": "blaster"\
 				},\
 				"assault": {\
 					"name": "ssbrc.fighter.star_fox.blaster",\
-					"color": "light_green",\
-					"model": 1725,\
+					"color": "green",\
+					"model": 1726,\
 					"tag": "blaster"\
-				},\
-			},\
-			"grenade": {\
-				"default": {\
-					"name": "ssbrc.fighter.wolf.grenade",\
-					"color": "yellow",\
-					"model": 1723,\
-					"tag": "grenade"\
-				},\
-				"gold": {\
-					"name": "ssbrc.fighter.wolf.grenade",\
-					"color": "yellow",\
-					"model": 1723,\
-					"tag": "grenade"\
-				},\
-				"assault": {\
-					"name": "ssbrc.fighter.wolf.grenade",\
-					"color": "yellow",\
-					"model": 1723,\
-					"tag": "grenade"\
 				},\
 			},\
 		}\

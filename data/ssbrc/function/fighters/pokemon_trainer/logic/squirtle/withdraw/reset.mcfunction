@@ -9,6 +9,6 @@ kill @n[type=minecraft:item_display,tag=squirtle_shell,predicate=ssbrc:id_match]
 
 function ssbrc:logic/fighters/armor/get
 
-loot replace entity @s hotbar.0 loot ssbrc:fighters/pokemon_trainer/squirtle/bite
+loot replace entity @s hotbar.0 loot ssbrc:fighters/pokemon_trainer/bite
 
-loot replace entity @s hotbar.1 loot ssbrc:fighters/pokemon_trainer/squirtle/water_gun
+loot replace entity @s hotbar.1 loot ssbrc:fighters/pokemon_trainer/water_gun

@@ -1,1 +1,1 @@
-loot give @s loot ssbrc:fighters/donkey_kong/barrel
+function ssbrc:logic/item/give {item:"barrel",type:"default"}

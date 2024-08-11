@@ -7,4 +7,6 @@ function ssbrc:fighters/altered_beast/logic/spirit_orb/give with storage ssbrc:t
 
 function ssbrc:logic/fighters/armor/update/check
 
+advancement grant @s[tag=shirtless] only ssbrc:ui/popup/altered_beast
+
 advancement revoke @s only ssbrc:utility/use_item/fighters/altered_beast/spirit_orb/revert

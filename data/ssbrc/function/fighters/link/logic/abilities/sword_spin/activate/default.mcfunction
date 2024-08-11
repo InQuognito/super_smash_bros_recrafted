@@ -11,3 +11,5 @@ item modify entity @s weapon.mainhand ssbrc:fighters/link/master_sword
 execute if entity @s[predicate=ssbrc:flag/in_air] run function ssbrc:fighters/link/logic/abilities/sword_spin/levitate
 
 playsound ssbrc:fighters.link.sword_spin.unleash player @a
+
+advancement grant @s only ssbrc:ui/popup/link

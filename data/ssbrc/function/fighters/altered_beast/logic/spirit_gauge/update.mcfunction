@@ -1,4 +1,4 @@
-scoreboard players operation percentage temp = @s charge.1
+scoreboard players operation percentage temp = @s resource
 scoreboard players operation percentage temp *= 100 integers
 scoreboard players operation percentage temp /= altered_beast.spirit.max vars
 
