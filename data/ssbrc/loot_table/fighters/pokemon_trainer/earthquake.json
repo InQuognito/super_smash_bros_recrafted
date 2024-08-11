@@ -53,12 +53,6 @@
 											"italic": false
 										}
 									]
-								},
-								{
-									"translate": "ssbrc.fighter.pokemon_trainer.charizard.earthquake.description.2",
-									"color": "gray",
-									"bold": false,
-									"italic": false
 								}
 							],
 							"mode": "append"

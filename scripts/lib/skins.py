@@ -90,23 +90,6 @@ def custom_model_data(skin, fighter, i):
 			js_write(file, '}')
 		i += 1
 
-def create_skin_file(skin, fighter, path):
-	'''Initializes the file that allows the skin to be selected.'''
-	create_path(path)
-
-	create_path(path + skin + '\\')
-	with open(path + skin + '\\female.mcfunction', 'w') as file:
-		warn_builder(file)
-
-		js_write(file, 'function ssbrc:logic/fighters/select_skin {fighter:"' + fighter + '",skin:"' + skin + ',color:"' + get_color(fighter, skin) + '"}\n')
-		js_write(file, f'tag @s add female\n')
-
-	with open(path + skin + '/male.mcfunction', 'w') as file:
-		warn_builder(file)
-
-		js_write(file, 'function ssbrc:logic/fighters/select_skin {fighter:"' + fighter + '",skin:"' + skin + ',color:"' + get_color(fighter, skin) + '"}\n')
-		js_write(file, f'tag @s add male\n')
-
 def create_skin(skin, fighter, i):
 	'''Initializes a skin.'''
 	create_advancement(skin, fighter, f'data\\ssbrc\\advancement\\fighters\\{fighter}\\skins\\')
@@ -116,6 +99,3 @@ def create_skin(skin, fighter, i):
 	create_armor_trim(skin, fighter, 'data\\ssbrc\\trim_pattern\\fighters\\')
 
 	custom_model_data(skin, fighter, i)
-
-	if fighter == 'byleth':
-		create_skin_file(skin, fighter, f'data\\ssbrc\\function\\fighters\\{fighter}\\menu\\skins\\')

@@ -1,2 +1,3 @@
-execute if entity @s[scores={zelda.shatter_resist=..0}] run function ssbrc:fighters/zelda/logic/passive_items/nayrus_ring/shatter
-execute if entity @s[scores={zelda.shatter_resist=1..}] run function ssbrc:logic/item/cooldown/set/const {type:"2",value:"60"}
+execute unless score @s zelda.shatter_resist matches 1.. run function ssbrc:fighters/zelda/logic/passive_items/nayrus_ring/shatter
+
+execute if score @s zelda.shatter_resist matches 1.. run function ssbrc:logic/item/cooldown/set/const {type:"2",value:"60"}
