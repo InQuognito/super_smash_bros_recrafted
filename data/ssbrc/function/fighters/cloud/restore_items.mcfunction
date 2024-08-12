@@ -1,3 +1,3 @@
 tag @s add operator
 
-function ssbrc:logic/item/modify {old:"buster_sword",new:"ssbrc:fighters/cloud/buster_sword"}
+function ssbrc:logic/item/modify {search_key:"item",search_value:"buster_sword",path:"ssbrc:fighters/cloud/buster_sword"}

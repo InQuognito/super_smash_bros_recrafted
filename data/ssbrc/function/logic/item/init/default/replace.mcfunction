@@ -5,4 +5,4 @@ $data modify storage ssbrc:temp item merge value {item:"$(search_value)"}
 
 data modify storage ssbrc:temp item.slot set from storage ssbrc:output slot_string
 
-$function ssbrc:logic/item/$(type)/set with storage ssbrc:temp item
+$function ssbrc:logic/item/init/$(type)/set with storage ssbrc:temp item

@@ -6,7 +6,6 @@
 			"conditions": {
 				"damage": {
 					"source_entity": {
-						"nbt": "{Tags:[\"pit\"]}",
 						"equipment": {
 							"mainhand": {
 								"predicates": {

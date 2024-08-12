@@ -63,9 +63,7 @@ def create_armor_trim(skin, fighter, path):
 					js_write(file, tab(1) + qm + 'asset_id' + sep_s + f'ssbrc:fighters/{fighter}/phase_locket' + suf_s)
 				else:
 					js_write(file, tab(1) + qm + 'asset_id' + sep_s + f'ssbrc:fighters/{fighter}/{skin}' + suf_s)
-			elif skin == 'ancient_minister':
-				js_write(file, tab(1) + qm + 'asset_id' + sep_s + f'ssbrc:fighters/{fighter}/{skin}/{form}' + suf_s)
-			elif skin == 'santa_hat' or form == 'beat_call':
+			elif skin == 'herobrine' or skin == 'santa_hat' or form == 'beat_call':
 				js_write(file, tab(1) + qm + 'asset_id' + sep_s + f'ssbrc:fighters/{fighter}/default' + suf_s)
 			elif has_forms(fighter):
 				if forms_isolated(fighter):
@@ -80,9 +78,9 @@ def create_armor_trim(skin, fighter, path):
 
 def custom_model_data(skin, fighter, i):
 	'''Initializes skin item modifiers.'''
+	path = f'data\\ssbrc\\item_modifier\\fighters\\{fighter}\\armor\\aesthetic\\{skin}\\'
+	create_path(path)
 	for form in ssbrc.fighters[fighter]['forms']:
-		path = f'data\\ssbrc\\item_modifier\\fighters\\{fighter}\\armor\\aesthetic\\{skin}\\'
-		create_path(path)
 		with open(path + form + '.json', 'w') as file:
 			js_write(file, '{')
 			js_write(file, tab(1) + qm + 'function' + sep_s + 'minecraft:set_custom_model_data' + suf_s)

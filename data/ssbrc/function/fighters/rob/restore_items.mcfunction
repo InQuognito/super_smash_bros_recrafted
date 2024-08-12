@@ -1,1 +1,1 @@
-function ssbrc:logic/item/modify {old:"robo_beam",new:"ssbrc:fighters/rob/robo_beam"}
+function ssbrc:logic/item/modify {search_key:"item",search_value:"robo_beam",path:"ssbrc:fighters/rob/robo_beam"}

@@ -1,4 +1,4 @@
-function ssbrc:logic/item/replace/get {search_key:"item",search_value:"ray_blaster",new:"ssbrc:fighters/yar/ray_blaster/gatling_gun"}
+function ssbrc:logic/item/replace/get {search_key:"item",search_value:"ray_blaster",path:"ssbrc:fighters/yar/ray_blaster/gatling_gun"}
 
 scoreboard players set @s duration.1 400
 

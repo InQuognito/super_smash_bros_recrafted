@@ -1,6 +1,6 @@
 scoreboard players set @s charge.1 0
 
-function ssbrc:logic/item/replace/get {search_key:"item",search_value:"rebel_knife",new:"ssbrc:fighters/joker/rebel_knife"}
+function ssbrc:logic/item/replace/get {search_key:"item",search_value:"rebel_knife",path:"ssbrc:fighters/joker/rebel_knife"}
 
 clear @s minecraft:nether_star[minecraft:custom_data~{group:"persona_awakening"}]
 

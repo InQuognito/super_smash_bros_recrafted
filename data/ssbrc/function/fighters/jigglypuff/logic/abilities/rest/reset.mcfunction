@@ -1,1 +1,1 @@
-function ssbrc:logic/item/modify {old:"rest",new:"ssbrc:fighters/jigglypuff/rest/default"}
+function ssbrc:logic/item/modify {search_key:"item",search_value:"rest",path:"ssbrc:fighters/jigglypuff/rest/default"}

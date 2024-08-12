@@ -3,4 +3,4 @@ execute if items entity @s weapon.mainhand minecraft:nether_star[minecraft:custo
 
 execute if score @s mega_man.beat_call matches ..0 run function ssbrc:fighters/mega_man/logic/abilities/beat_call/deactivate
 
-function ssbrc:logic/item/modify {old:"beat_call",new:"{\"function\":\"minecraft:set_custom_data\",\"tag\":\"{command:\\\"forward\\\"}\"}"}
+function ssbrc:logic/item/modify {search_key:"item",search_value:"beat_call",path:"{\"function\":\"minecraft:set_custom_data\",\"tag\":\"{command:\\\"forward\\\"}\"}"}

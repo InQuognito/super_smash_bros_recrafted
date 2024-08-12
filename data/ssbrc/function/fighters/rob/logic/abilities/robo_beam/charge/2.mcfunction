@@ -1,4 +1,4 @@
 function ssbrc:logic/player_data/temp/set {mode:"store",key:"form",value:"charged"}
 
-$execute unless data storage ssbrc:temp player.temp_data{skin:"gold"} run item modify entity @s $(slot) {"function":"minecraft:set_custom_model_data","value":4}
-$execute if data storage ssbrc:temp player.temp_data{skin:"gold"} run item modify entity @s $(slot) {"function":"minecraft:set_custom_model_data","value":7}
+$execute unless data storage ssbrc:temp player.temp_data{skin:"gold"} run item modify entity @s $(slot_string) {"function":"minecraft:set_custom_model_data","value":4}
+$execute if data storage ssbrc:temp player.temp_data{skin:"gold"} run item modify entity @s $(slot_string) {"function":"minecraft:set_custom_model_data","value":7}

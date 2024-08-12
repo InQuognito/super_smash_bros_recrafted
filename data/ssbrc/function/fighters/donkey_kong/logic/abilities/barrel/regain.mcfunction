@@ -1,1 +1,1 @@
-function ssbrc:logic/item/give {item:"barrel",type:"default"}
+function ssbrc:logic/item/give/default {item:"barrel",type:"default"}

@@ -12,7 +12,7 @@ scoreboard players set @e[tag=!self,predicate=ssbrc:flag/targets] shadow.chaos_c
 
 scoreboard players set @s shadow.meter.hero 0
 
-function ssbrc:logic/item/modify {old:"chaos_spear",new:"ssbrc:fighters/shadow/chaos_spear/disabled"}
+function ssbrc:logic/item/modify {search_key:"item",search_value:"chaos_spear",path:"ssbrc:fighters/shadow/chaos_spear/disabled"}
 
 item replace entity @s weapon.mainhand with minecraft:air
 
