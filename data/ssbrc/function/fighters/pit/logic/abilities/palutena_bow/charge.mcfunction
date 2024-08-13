@@ -1,5 +1,7 @@
-execute if entity @s[scores={charge.output=1}] run function ssbrc:fighters/pit/logic/abilities/palutena_bow/charge/begin
-item modify entity @s[scores={charge.output=5}] weapon.mainhand ssbrc:fighters/pit/palutena_bow/pulling_1
-item modify entity @s[scores={charge.output=10}] weapon.mainhand ssbrc:fighters/pit/palutena_bow/pulling_2
+#playsound ssbrc:fighters.pit.palutena_bow.charge player @a
 
-advancement revoke @s only ssbrc:utility/use_item/fighters/pit/palutena_bow/charge
+item replace entity @s weapon.offhand with minecraft:air
+function ssbrc:logic/item/component/update/slot_known {mode:"remove",amount:1,slot_string:"weapon.mainhand",component:"minecraft:custom_model_data",output_path:"model temp"}
+
+tag @s remove palutena_bow.split
+tag @s add palutena_bow.pulling

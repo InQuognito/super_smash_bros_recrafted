@@ -830,32 +830,6 @@ data modify storage ssbrc:data fighters set value {\
 					"tag": "tt33"\
 				},\
 			},\
-			"arsene": {\
-				"default": {\
-					"name": "ssbrc.fighter.joker.arsene",\
-					"color": "dark_red",\
-					"model": 603,\
-					"tag": "arsene"\
-				},\
-				"gold": {\
-					"name": "ssbrc.fighter.joker.arsene",\
-					"color": "dark_red",\
-					"model": 603,\
-					"tag": "arsene"\
-				},\
-				"christmas_outfit": {\
-					"name": "ssbrc.fighter.joker.arsene",\
-					"color": "dark_red",\
-					"model": 603,\
-					"tag": "arsene"\
-				},\
-				"shujin_academy": {\
-					"name": "ssbrc.fighter.joker.arsene",\
-					"color": "dark_red",\
-					"model": 603,\
-					"tag": "arsene"\
-				},\
-			},\
 		}\
 	},\
 	"king_k_rool": {\
@@ -1680,7 +1654,7 @@ data modify storage ssbrc:data fighters set value {\
 				"retro": {\
 					"name": "ssbrc.fighter.pit.palutena_bow",\
 					"color": "gold",\
-					"model": 1228,\
+					"model": 1223,\
 					"tag": "palutena_bow"\
 				},\
 			},\

@@ -4,16 +4,32 @@
 		"requirement": {
 			"trigger": "minecraft:player_hurt_entity",
 			"conditions": {
-				"damage": {
-					"source_entity": {
-						"equipment": {
-							"mainhand": {
-								"predicates": {
-									"minecraft:custom_data": "{item:\"palutena_bow\",split:\"false\"}"
-								}
+				"player": [
+					{
+						"condition": "minecraft:inverted",
+						"term": {
+							"condition": "minecraft:entity_properties",
+							"entity": "this",
+							"predicate": {
+								"nbt": "{Tags:[\"palutena_bow.split\"]}"
 							}
 						}
 					},
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"equipment": {
+								"mainhand": {
+									"predicates": {
+										"minecraft:custom_data": "{item:\"palutena_bow\"}"
+									}
+								}
+							}
+						}
+					}
+				],
+				"damage": {
 					"type": {
 						"tags": [
 							{

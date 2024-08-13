@@ -6,7 +6,7 @@
 			"entries": [
 				{
 					"type": "minecraft:item",
-					"name": "minecraft:nether_star",
+					"name": "minecraft:bow",
 					"functions": [
 						{
 							"function": "minecraft:set_name",
@@ -24,15 +24,43 @@
 						},
 						{
 							"function": "minecraft:reference",
-							"name": "ssbrc:init/ability/charge"
+							"name": "ssbrc:init/unbreakable"
 						},
 						{
-							"function": "minecraft:reference",
-							"name": "ssbrc:fighters/pit/palutena_bow/idle"
+							"function": "minecraft:set_components",
+							"components": {
+								"minecraft:attribute_modifiers": {
+									"modifiers": [
+										{
+											"type": "minecraft:generic.attack_damage",
+											"id": "ssbrc:attack_damage",
+											"amount": 6,
+											"operation": "add_multiplied_base",
+											"slot": "mainhand"
+										},
+										{
+											"type": "minecraft:generic.attack_speed",
+											"id": "ssbrc:attack_speed",
+											"amount": 1.5,
+											"operation": "add_multiplied_base",
+											"slot": "mainhand"
+										}
+									],
+									"show_in_tooltip": false
+								},
+								"minecraft:enchantments": {
+									"levels": {
+										"ssbrc:fighter/pit/palutena_bow": 1,
+										"minecraft:infinity": 1
+									},
+									"show_in_tooltip": false
+								},
+								"minecraft:custom_model_data": 1221
+							}
 						},
 						{
 							"function": "minecraft:set_custom_data",
-							"tag": "{item:\"palutena_bow\",path:\"pit/logic/abilities/palutena_bow/check\"}"
+							"tag": "{item:\"palutena_bow\",split:\"false\"}"
 						}
 					]
 				}

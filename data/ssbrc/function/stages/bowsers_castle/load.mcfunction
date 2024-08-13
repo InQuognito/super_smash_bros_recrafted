@@ -76,7 +76,6 @@ execute positioned -721.5 17.5 823.5 summon minecraft:item_display run function 
 
 # Armor Stands
 execute positioned -734.9 27.0 854.5 summon minecraft:armor_stand run function ssbrc:stages/bowsers_castle/logic/armor_stands/peach
-execute positioned -735.0 27.2 834.5 rotated -90.0 0.0 summon minecraft:item_display run function ssbrc:stages/bowsers_castle/logic/armor_stands/toad/nodding
-schedule function ssbrc:stages/bowsers_castle/logic/armor_stands/toad/nodding/tick 10t replace
-execute positioned -737.7 27.2 833.2 rotated -45.0 0.0 summon minecraft:item_display run function ssbrc:stages/bowsers_castle/logic/armor_stands/toad/sitting
-execute positioned -736.5 27.5 836.1 rotated 0.0 0.0 summon minecraft:item_display run function ssbrc:stages/bowsers_castle/logic/armor_stands/toad/standing
+execute positioned -735.0 27.5 834.5 rotated -90.0 0.0 summon minecraft:item_display run function ssbrc:stages/bowsers_castle/logic/armor_stands/toad/get {pose:"clutching_bars",color:"red"}
+execute positioned -737.7 27.2 833.2 rotated -45.0 0.0 summon minecraft:item_display run function ssbrc:stages/bowsers_castle/logic/armor_stands/toad/get {pose:"sitting",color:"yellow"}
+execute positioned -736.5 27.5 836.0 rotated 0.0 0.0 summon minecraft:item_display run function ssbrc:stages/bowsers_castle/logic/armor_stands/toad/get {pose:"clutching_bars",color:"blue"}

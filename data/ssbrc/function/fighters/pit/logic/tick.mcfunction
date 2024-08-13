@@ -1,11 +1,11 @@
-# Palutena Bow
-execute unless items entity @s weapon.mainhand minecraft:nether_star[minecraft:custom_data~{item:"palutena_bow",pulling:"true"}] if items entity @s container.* minecraft:nether_star[minecraft:custom_data~{item:"palutena_bow",pulling:"true"}] run function ssbrc:logic/item/modify {search_key:"item",search_value:"palutena_bow",path:"ssbrc:fighters/pit/palutena_bow/idle"}
-
 # Guardian Orbitars
-execute if items entity @s[tag=!guardian_orbitars,scores={cooldown.2=..0},predicate=ssbrc:flag/sneaking] weapon.mainhand minecraft:nether_star[minecraft:custom_data~{item:"palutena_bow"}] positioned ~ ~0.75 ~ rotated ~ 0.0 run function ssbrc:fighters/pit/logic/abilities/guardian_orbitars/activate
-execute unless items entity @s[tag=guardian_orbitars] weapon.mainhand minecraft:nether_star[minecraft:custom_data~{item:"palutena_bow"}] run function ssbrc:fighters/pit/logic/abilities/guardian_orbitars/deactivate
+execute if items entity @s[tag=!guardian_orbitars,scores={cooldown.2=..0},predicate=ssbrc:flag/sneaking] weapon.mainhand minecraft:bow[minecraft:custom_data~{item:"palutena_bow"}] positioned ~ ~0.75 ~ rotated ~ 0.0 run function ssbrc:fighters/pit/logic/abilities/guardian_orbitars/activate
+execute unless items entity @s[tag=guardian_orbitars] weapon.mainhand minecraft:bow[minecraft:custom_data~{item:"palutena_bow"}] run function ssbrc:fighters/pit/logic/abilities/guardian_orbitars/deactivate
 execute if entity @s[tag=guardian_orbitars,predicate=!ssbrc:flag/sneaking] run function ssbrc:fighters/pit/logic/abilities/guardian_orbitars/deactivate
 
 # Wings
 execute if items entity @s armor.chest minecraft:elytra[minecraft:damage=2] run function ssbrc:fighters/pit/logic/abilities/wings/burn
-execute if entity @s[tag=wings_burned] run function ssbrc:fighters/pit/logic/abilities/wings/regain/timer
+execute if score @s timer matches 1.. run function ssbrc:fighters/pit/logic/abilities/wings/regain/timer
+
+tag @s[advancements={ssbrc:utility/use_item/fighters/pit/palutena_bow=false}] remove palutena_bow.pulling
+advancement revoke @s only ssbrc:utility/use_item/fighters/pit/palutena_bow

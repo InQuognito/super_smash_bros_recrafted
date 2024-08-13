@@ -19,6 +19,17 @@ def create_path(path):
 	if not os.path.exists(path):
 		os.makedirs(path)
 
+def mc_write(file, str):
+	'''Write to file, mcfunction format.'''
+	file.write(str + '\\\n')
+
+def js_write(file, str):
+	'''Write to file, JSON format.'''
+	file.write(str + '\n')
+
+def warn_builder(file):
+	js_write(file, '# This file is controlled by the build script. Changes should be made in the respective file.\n')
+
 def tab(n):
 	'''Returns n number of tabs.'''
 	return ("\t" * n)
@@ -77,7 +88,7 @@ def armor(value):
 		return 12.0
 
 def jump_strength(value):
-	'''Returns the exact value of the jump strength category.'''
+	'''Returns the exact value of the jump_strength category.'''
 	if value == 'none':
 		return 0.42
 	elif value == 'low':
@@ -93,25 +104,23 @@ def jump_strength(value):
 
 def max_health(value):
 	'''Returns the exact value of the max_health category.'''
-	if value == 'low':
-		return 32.0
-	else:
+	if value == 'medium':
 		return 40.0
+	else:
+		return value
 
 def movement_speed(value):
-	'''Returns the exact value of the max_health category.'''
+	'''Returns the exact value of the movement_speed category.'''
 	if value == 'medium':
 		return 0.1
 	else:
 		return value
 
-def mc_write(file, str):
-	'''Write to file, mcfunction format.'''
-	file.write(str + '\\\n')
-
-def js_write(file, str):
-	'''Write to file, JSON format.'''
-	file.write(str + '\n')
-
-def warn_builder(file):
-	js_write(file, '# This file is controlled by the build script. Changes should be made in the respective file.\n')
+def safe_fall_distance(value):
+	'''Returns the exact value of the safe_fall_distance category.'''
+	if value == 'medium':
+		return 6.0
+	elif value == 'infinite':
+		return 999.0
+	else:
+		return value

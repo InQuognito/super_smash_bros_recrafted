@@ -1,4 +1,4 @@
-tag @s add wings_burned
+scoreboard players set @s timer 200
 
 function ssbrc:logic/fighters/armor/get
 
