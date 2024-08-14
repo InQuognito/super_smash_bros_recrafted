@@ -1,5 +1,6 @@
 function ssbrc:fighters/altered_beast/kits/reset
-function ssbrc:logic/player_data/temp/set {mode:"store",key:"form",value:"centurion"}
+execute unless entity @s[tag=shirtless] run function ssbrc:logic/player_data/temp/set {mode:"store",key:"form",value:"centurion"}
+execute if entity @s[tag=shirtless] run function ssbrc:logic/player_data/temp/set {mode:"store",key:"form",value:"shirtless"}
 
 loot replace entity @s hotbar.0 loot ssbrc:fighters/altered_beast/gladius
 

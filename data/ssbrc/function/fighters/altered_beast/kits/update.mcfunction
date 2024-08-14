@@ -7,8 +7,6 @@ $function ssbrc:logic/player_data/temp/set {mode:"store",key:"form",value:"$(for
 
 item modify entity @s hotbar.8 {"function":"minecraft:set_custom_model_data","value":1821}
 
-function ssbrc:logic/fighters/get {function:"ssbrc:logic/fighters/attributes/defaults"}
-
 function ssbrc:logic/fighters/armor/update/check
 
 $playsound ssbrc:fighters.altered_beast.$(form).transform player @a

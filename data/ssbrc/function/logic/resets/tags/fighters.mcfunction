@@ -36,6 +36,4 @@ tag @s remove immobile
 tag @s remove intangible
 tag @s remove natural_shiny
 tag @s remove pivot
-
-tag @s remove female
-tag @s remove male
+tag @s remove shield_broken
