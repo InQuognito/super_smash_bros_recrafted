@@ -8,4 +8,4 @@ execute if score entity_hit temp matches 1 run kill @s
 teleport @s ^ ^ ^0.25
 
 scoreboard players remove n temp 1
-execute if score n temp matches 1.. unless score entity_hit temp matches 1 at @s run function ssbrc:fighters/samus/logic/weapons/plasma_beam/move_forward
+execute if score n temp matches 1.. unless score entity_hit temp matches 1 at @s run function ssbrc:fighters/samus/logic/abilities/plasma_beam/move_forward

@@ -37,3 +37,5 @@ $execute if items entity @s inventory.25 #ssbrc:modifiable[minecraft:custom_data
 $execute if items entity @s inventory.26 #ssbrc:modifiable[minecraft:custom_data~{$(search_key):"$(search_value)"}] run return run data merge storage ssbrc:output {slot_id:35,slot_string:"inventory.26"}
 
 $execute if items entity @s weapon.offhand #ssbrc:modifiable[minecraft:custom_data~{$(search_key):"$(search_value)"}] run return run data merge storage ssbrc:output {slot_id:-106,slot_string:"weapon.offhand"}
+
+data merge storage ssbrc:output {slot_id:"null",slot_string:"null"}

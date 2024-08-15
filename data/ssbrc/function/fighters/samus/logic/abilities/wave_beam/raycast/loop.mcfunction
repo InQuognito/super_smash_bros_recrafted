@@ -6,8 +6,8 @@ scoreboard players add out math 1500
 scoreboard players operation out math /= 200 integers
 
 scoreboard players operation $lengthInner temp = out math
-execute facing ^ ^1 ^ run function ssbrc:fighters/samus/logic/weapons/wave_beam/raycast/loop_inner
+execute facing ^ ^1 ^ run function ssbrc:fighters/samus/logic/abilities/wave_beam/raycast/loop_inner
 scoreboard players operation $lengthInner temp = out math
-execute facing ^1 ^-1 ^ run function ssbrc:fighters/samus/logic/weapons/wave_beam/raycast/loop_inner
+execute facing ^1 ^-1 ^ run function ssbrc:fighters/samus/logic/abilities/wave_beam/raycast/loop_inner
 scoreboard players operation $lengthInner temp = out math
-execute facing ^-1 ^-1 ^ run function ssbrc:fighters/samus/logic/weapons/wave_beam/raycast/loop_inner
+execute facing ^-1 ^-1 ^ run function ssbrc:fighters/samus/logic/abilities/wave_beam/raycast/loop_inner

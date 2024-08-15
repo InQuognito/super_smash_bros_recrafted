@@ -108,7 +108,7 @@
 				"italic": false,
 				"extra": [
 					{
-						"translate": " -> ",
+						"text": " -> ",
 						"color": "white",
 						"bold": false,
 						"italic": false
@@ -120,7 +120,7 @@
 						"italic": false
 					},
 					{
-						"translate": " -> ",
+						"text": " -> ",
 						"color": "white",
 						"bold": false,
 						"italic": false

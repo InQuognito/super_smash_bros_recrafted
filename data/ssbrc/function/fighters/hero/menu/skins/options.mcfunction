@@ -13,13 +13,13 @@ execute if data storage ssbrc:temp player.temp_data{skin:"gold"} run tellraw @s 
 execute unless data storage ssbrc:temp player.temp_data{skin:"erdrick"} run tellraw @s[advancements={ssbrc:fighters/hero/skins/erdrick=true}] {"translate":"ssbrc.skin.erdrick","color":"gray","clickEvent":{"action":"run_command","value":"/trigger menu set 3"}}
 execute if data storage ssbrc:temp player.temp_data{skin:"erdrick"} run tellraw @s [{"translate":"ssbrc.skin.erdrick","color":"gray"},{"text":" ✔","color":"green"}]
 
-execute unless data storage ssbrc:temp player.temp_data{skin:"rek"} run tellraw @s[advancements={ssbrc:fighters/hero/skins/rek=true}] {"translate":"ssbrc.skin.rek","color":"blue","clickEvent":{"action":"run_command","value":"/trigger menu set 4"}}
-execute if data storage ssbrc:temp player.temp_data{skin:"rek"} run tellraw @s [{"translate":"ssbrc.skin.rek","color":"blue"},{"text":" ✔","color":"green"}]
+execute unless data storage ssbrc:temp player.temp_data{skin:"solo"} run tellraw @s[advancements={ssbrc:fighters/hero/skins/solo=true}] {"translate":"ssbrc.skin.solo","color":"green","clickEvent":{"action":"run_command","value":"/trigger menu set 4"}}
+execute if data storage ssbrc:temp player.temp_data{skin:"solo"} run tellraw @s [{"translate":"ssbrc.skin.solo","color":"green"},{"text":" ✔","color":"green"}]
 
 execute unless data storage ssbrc:temp player.temp_data{skin:"sofia"} run tellraw @s[advancements={ssbrc:fighters/hero/skins/sofia=true}] {"translate":"ssbrc.skin.sofia","color":"green","clickEvent":{"action":"run_command","value":"/trigger menu set 5"}}
 execute if data storage ssbrc:temp player.temp_data{skin:"sofia"} run tellraw @s [{"translate":"ssbrc.skin.sofia","color":"green"},{"text":" ✔","color":"green"}]
 
-execute unless data storage ssbrc:temp player.temp_data{skin:"solo"} run tellraw @s[advancements={ssbrc:fighters/hero/skins/solo=true}] {"translate":"ssbrc.skin.solo","color":"green","clickEvent":{"action":"run_command","value":"/trigger menu set 6"}}
-execute if data storage ssbrc:temp player.temp_data{skin:"solo"} run tellraw @s [{"translate":"ssbrc.skin.solo","color":"green"},{"text":" ✔","color":"green"}]
+execute unless data storage ssbrc:temp player.temp_data{skin:"rek"} run tellraw @s[advancements={ssbrc:fighters/hero/skins/rek=true}] {"translate":"ssbrc.skin.rek","color":"blue","clickEvent":{"action":"run_command","value":"/trigger menu set 6"}}
+execute if data storage ssbrc:temp player.temp_data{skin:"rek"} run tellraw @s [{"translate":"ssbrc.skin.rek","color":"blue"},{"text":" ✔","color":"green"}]
 
 function ssbrc:logic/fighters/menu/skin_options

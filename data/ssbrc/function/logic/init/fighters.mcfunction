@@ -520,14 +520,14 @@ data modify storage ssbrc:data fighters set value {\
 				"color": "red",\
 				"model": 402\
 			},\
-			"tears_of_the_kingdom": {\
-				"name": "tears_of_the_kingdom",\
-				"color": "dark_red",\
-				"model": 403\
-			},\
 			"wind_waker": {\
 				"name": "wind_waker",\
 				"color": "aqua",\
+				"model": 403\
+			},\
+			"tears_of_the_kingdom": {\
+				"name": "tears_of_the_kingdom",\
+				"color": "dark_red",\
 				"model": 404\
 			}\
 		},\
@@ -551,16 +551,16 @@ data modify storage ssbrc:data fighters set value {\
 					"model": 402,\
 					"tag": "sword"\
 				},\
-				"tears_of_the_kingdom": {\
-					"name": "ssbrc.fighter.ganondorf.sword.tears_of_the_kingdom",\
-					"color": "dark_gray",\
-					"model": 403,\
-					"tag": "sword"\
-				},\
 				"wind_waker": {\
 					"name": "ssbrc.fighter.ganondorf.sword.wind_waker.mainhand",\
 					"color": "dark_gray",\
 					"model": 404,\
+					"tag": "sword"\
+				},\
+				"tears_of_the_kingdom": {\
+					"name": "ssbrc.fighter.ganondorf.sword.tears_of_the_kingdom",\
+					"color": "dark_gray",\
+					"model": 403,\
 					"tag": "sword"\
 				},\
 			},\
@@ -654,9 +654,9 @@ data modify storage ssbrc:data fighters set value {\
 				"color": "gray",\
 				"model": 444\
 			},\
-			"rek": {\
-				"name": "rek",\
-				"color": "blue",\
+			"solo": {\
+				"name": "solo",\
+				"color": "green",\
 				"model": 446\
 			},\
 			"sofia": {\
@@ -664,9 +664,9 @@ data modify storage ssbrc:data fighters set value {\
 				"color": "green",\
 				"model": 448\
 			},\
-			"solo": {\
-				"name": "solo",\
-				"color": "green",\
+			"rek": {\
+				"name": "rek",\
+				"color": "blue",\
 				"model": 450\
 			}\
 		},\
@@ -690,10 +690,10 @@ data modify storage ssbrc:data fighters set value {\
 					"model": 440,\
 					"tag": "flame_slash"\
 				},\
-				"rek": {\
+				"solo": {\
 					"name": "ssbrc.fighter.hero.flame_slash",\
 					"color": "gold",\
-					"model": 441,\
+					"model": 442,\
 					"tag": "flame_slash"\
 				},\
 				"sofia": {\
@@ -702,10 +702,10 @@ data modify storage ssbrc:data fighters set value {\
 					"model": 442,\
 					"tag": "flame_slash"\
 				},\
-				"solo": {\
+				"rek": {\
 					"name": "ssbrc.fighter.hero.flame_slash",\
 					"color": "gold",\
-					"model": 442,\
+					"model": 441,\
 					"tag": "flame_slash"\
 				},\
 			},\
@@ -766,14 +766,14 @@ data modify storage ssbrc:data fighters set value {\
 		"color": "dark_red",\
 		"skin_count": 4,\
 		"skins": {\
-			"christmas_outfit": {\
-				"name": "christmas_outfit",\
-				"color": "red",\
-				"model": 604\
-			},\
 			"shujin_academy": {\
 				"name": "shujin_academy",\
 				"color": "dark_red",\
+				"model": 604\
+			},\
+			"christmas_outfit": {\
+				"name": "christmas_outfit",\
+				"color": "red",\
 				"model": 606\
 			}\
 		},\
@@ -791,13 +791,13 @@ data modify storage ssbrc:data fighters set value {\
 					"model": 601,\
 					"tag": "rebel_knife"\
 				},\
-				"christmas_outfit": {\
+				"shujin_academy": {\
 					"name": "ssbrc.fighter.joker.rebel_knife",\
 					"color": "gray",\
 					"model": 600,\
 					"tag": "rebel_knife"\
 				},\
-				"shujin_academy": {\
+				"christmas_outfit": {\
 					"name": "ssbrc.fighter.joker.rebel_knife",\
 					"color": "gray",\
 					"model": 600,\
@@ -817,13 +817,13 @@ data modify storage ssbrc:data fighters set value {\
 					"model": 607,\
 					"tag": "tt33"\
 				},\
-				"christmas_outfit": {\
+				"shujin_academy": {\
 					"name": "ssbrc.fighter.joker.tt33",\
 					"color": "gray",\
 					"model": 601,\
 					"tag": "tt33"\
 				},\
-				"shujin_academy": {\
+				"christmas_outfit": {\
 					"name": "ssbrc.fighter.joker.tt33",\
 					"color": "gray",\
 					"model": 601,\
@@ -1105,14 +1105,14 @@ data modify storage ssbrc:data fighters set value {\
 				"color": "aqua",\
 				"model": 822\
 			},\
-			"gooigi": {\
-				"name": "gooigi",\
-				"color": "green",\
-				"model": 823\
-			},\
 			"penguin": {\
 				"name": "penguin",\
 				"color": "blue",\
+				"model": 823\
+			},\
+			"gooigi": {\
+				"name": "gooigi",\
+				"color": "green",\
 				"model": 824\
 			}\
 		},\
@@ -1136,13 +1136,13 @@ data modify storage ssbrc:data fighters set value {\
 					"model": 820,\
 					"tag": "hammer"\
 				},\
-				"gooigi": {\
+				"penguin": {\
 					"name": "ssbrc.fighter.super_mario_bros.hammer",\
 					"color": "gold",\
 					"model": 820,\
 					"tag": "hammer"\
 				},\
-				"penguin": {\
+				"gooigi": {\
 					"name": "ssbrc.fighter.super_mario_bros.hammer",\
 					"color": "gold",\
 					"model": 820,\
@@ -1168,13 +1168,13 @@ data modify storage ssbrc:data fighters set value {\
 					"model": 821,\
 					"tag": "ice_ball"\
 				},\
-				"gooigi": {\
+				"penguin": {\
 					"name": "ssbrc.fighter.luigi.ice_ball",\
 					"color": "aqua",\
 					"model": 821,\
 					"tag": "ice_ball"\
 				},\
-				"penguin": {\
+				"gooigi": {\
 					"name": "ssbrc.fighter.luigi.ice_ball",\
 					"color": "aqua",\
 					"model": 821,\
@@ -1497,14 +1497,14 @@ data modify storage ssbrc:data fighters set value {\
 		"color": "dark_purple",\
 		"skin_count": 5,\
 		"skins": {\
-			"moonside": {\
-				"name": "moonside",\
-				"color": "aqua",\
-				"model": 1082\
-			},\
 			"pajamas": {\
 				"name": "pajamas",\
 				"color": "dark_aqua",\
+				"model": 1082\
+			},\
+			"moonside": {\
+				"name": "moonside",\
+				"color": "aqua",\
 				"model": 1083\
 			},\
 			"phase_distortion": {\
@@ -1527,13 +1527,13 @@ data modify storage ssbrc:data fighters set value {\
 					"model": 1081,\
 					"tag": "mr_baseball_bat"\
 				},\
-				"moonside": {\
+				"pajamas": {\
 					"name": "ssbrc.fighter.ness.mr_baseball_bat",\
 					"color": "white",\
 					"model": 1080,\
 					"tag": "mr_baseball_bat"\
 				},\
-				"pajamas": {\
+				"moonside": {\
 					"name": "ssbrc.fighter.ness.mr_baseball_bat",\
 					"color": "white",\
 					"model": 1080,\
@@ -1737,14 +1737,14 @@ data modify storage ssbrc:data fighters set value {\
 		"color": "white",\
 		"skin_count": 4,\
 		"skins": {\
-			"ancient_minister": {\
-				"name": "ancient_minister",\
-				"color": "dark_green",\
-				"model": 7\
-			},\
 			"famicom": {\
 				"name": "famicom",\
 				"color": "red",\
+				"model": 7\
+			},\
+			"ancient_minister": {\
+				"name": "ancient_minister",\
+				"color": "dark_green",\
 				"model": 10\
 			}\
 		},\
@@ -1762,13 +1762,13 @@ data modify storage ssbrc:data fighters set value {\
 					"model": 5,\
 					"tag": "robo_beam"\
 				},\
-				"ancient_minister": {\
+				"famicom": {\
 					"name": "ssbrc.fighter.rob.robo_beam",\
 					"color": "white",\
 					"model": 2,\
 					"tag": "robo_beam"\
 				},\
-				"famicom": {\
+				"ancient_minister": {\
 					"name": "ssbrc.fighter.rob.robo_beam",\
 					"color": "white",\
 					"model": 2,\
@@ -1870,6 +1870,58 @@ data modify storage ssbrc:data fighters set value {\
 					"tag": "power_beam"\
 				},\
 			},\
+			"plasma_beam": {\
+				"default": {\
+					"name": "ssbrc.fighter.samus.plasma_beam",\
+					"color": "dark_red",\
+					"model": 1423,\
+					"tag": "plasma_beam"\
+				},\
+				"gold": {\
+					"name": "ssbrc.fighter.samus.plasma_beam",\
+					"color": "dark_red",\
+					"model": 1426,\
+					"tag": "plasma_beam"\
+				},\
+				"gravity_suit": {\
+					"name": "ssbrc.fighter.samus.plasma_beam",\
+					"color": "dark_red",\
+					"model": 1423,\
+					"tag": "plasma_beam"\
+				},\
+				"phazon_suit": {\
+					"name": "ssbrc.fighter.samus.plasma_beam",\
+					"color": "dark_red",\
+					"model": 1423,\
+					"tag": "plasma_beam"\
+				},\
+			},\
+			"wave_beam": {\
+				"default": {\
+					"name": "ssbrc.fighter.samus.wave_beam",\
+					"color": "dark_purple",\
+					"model": 1422,\
+					"tag": "wave_beam"\
+				},\
+				"gold": {\
+					"name": "ssbrc.fighter.samus.wave_beam",\
+					"color": "dark_purple",\
+					"model": 1425,\
+					"tag": "wave_beam"\
+				},\
+				"gravity_suit": {\
+					"name": "ssbrc.fighter.samus.wave_beam",\
+					"color": "dark_purple",\
+					"model": 1422,\
+					"tag": "wave_beam"\
+				},\
+				"phazon_suit": {\
+					"name": "ssbrc.fighter.samus.wave_beam",\
+					"color": "dark_purple",\
+					"model": 1422,\
+					"tag": "wave_beam"\
+				},\
+			},\
 		}\
 	},\
 	"shadow": {\
@@ -1885,14 +1937,14 @@ data modify storage ssbrc:data fighters set value {\
 		"color": "dark_red",\
 		"skin_count": 4,\
 		"skins": {\
-			"sir_lancelot": {\
-				"name": "sir_lancelot",\
-				"color": "red",\
-				"model": 1902\
-			},\
 			"yellow_android": {\
 				"name": "yellow_android",\
 				"color": "yellow",\
+				"model": 1902\
+			},\
+			"sir_lancelot": {\
+				"name": "sir_lancelot",\
+				"color": "red",\
 				"model": 1903\
 			}\
 		},\
@@ -1910,16 +1962,16 @@ data modify storage ssbrc:data fighters set value {\
 					"model": 1901,\
 					"tag": "black_sword"\
 				},\
-				"sir_lancelot": {\
-					"name": "ssbrc.fighter.shadow.black_sword.sir_lancelot",\
-					"color": "gray",\
-					"model": 1902,\
-					"tag": "black_sword"\
-				},\
 				"yellow_android": {\
 					"name": "ssbrc.fighter.shadow.black_sword.default",\
 					"color": "dark_gray",\
 					"model": 1900,\
+					"tag": "black_sword"\
+				},\
+				"sir_lancelot": {\
+					"name": "ssbrc.fighter.shadow.black_sword.sir_lancelot",\
+					"color": "gray",\
+					"model": 1902,\
 					"tag": "black_sword"\
 				},\
 			},\
@@ -2205,14 +2257,14 @@ data modify storage ssbrc:data fighters set value {\
 				"color": "blue",\
 				"model": 1542\
 			},\
-			"hylian_tunic": {\
-				"name": "hylian_tunic",\
-				"color": "green",\
-				"model": 1543\
-			},\
 			"werehog": {\
 				"name": "werehog",\
 				"color": "dark_blue",\
+				"model": 1543\
+			},\
+			"hylian_tunic": {\
+				"name": "hylian_tunic",\
+				"color": "green",\
 				"model": 1544\
 			}\
 		},\

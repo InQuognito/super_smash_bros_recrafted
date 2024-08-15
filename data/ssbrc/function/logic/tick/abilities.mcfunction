@@ -95,9 +95,9 @@ execute if entity @s[tag=ashura_senku] run function ssbrc:fighters/ryu/logic/abi
 execute if entity @s[tag=ashura_senku.trail] run function ssbrc:fighters/ryu/logic/abilities/ashura_senku/trail/tick
 
 # Samus
-execute if entity @s[tag=power_beam] run function ssbrc:fighters/samus/logic/weapons/power_beam/tick
-execute if entity @s[tag=wave_beam] run function ssbrc:fighters/samus/logic/weapons/wave_beam/raycast/start
-execute if entity @s[tag=plasma_beam] run function ssbrc:fighters/samus/logic/weapons/plasma_beam/tick
+execute if entity @s[tag=power_beam] run function ssbrc:fighters/samus/logic/abilities/power_beam/tick
+execute if entity @s[tag=wave_beam] run function ssbrc:fighters/samus/logic/abilities/wave_beam/raycast/start
+execute if entity @s[tag=plasma_beam] run function ssbrc:fighters/samus/logic/abilities/plasma_beam/tick
 
 # Snake
 execute if entity @s[tag=psg1] run function ssbrc:fighters/snake/logic/abilities/psg1/tick
@@ -136,7 +136,6 @@ execute if entity @s[tag=magic_boomerang] run function ssbrc:fighters/zelda/logi
 
 # Altered Beast
 execute if entity @s[tag=sabretooth] run function ssbrc:fighters/altered_beast/logic/weretiger/sabretooth/raycast/start
-execute if entity @s[tag=super_jump] run function ssbrc:fighters/altered_beast/logic/weretiger/super_jump/raycast/start
 execute if entity @s[tag=flame_hands] run function ssbrc:fighters/altered_beast/logic/werewolf/flame_hands/tick
 execute if entity @s[tag=flame_arrow] run function ssbrc:fighters/altered_beast/logic/werewolf/flame_arrow/tick
 

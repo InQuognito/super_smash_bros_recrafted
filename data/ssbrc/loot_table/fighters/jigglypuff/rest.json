@@ -81,32 +81,13 @@
 						},
 						{
 							"function": "minecraft:reference",
-							"name": "ssbrc:fighters/jigglypuff/rest/default",
-							"conditions": [
-								{
-									"condition": "minecraft:inverted",
-									"term": {
-										"condition": "minecraft:entity_properties",
-										"entity": "this",
-										"predicate": {
-											"nbt": "{Tags:[\"rest\"]}"
-										}
-									}
-								}
-							]
+							"name": "ssbrc:fighters/jigglypuff/rest/default"
 						},
 						{
-							"function": "minecraft:reference",
-							"name": "ssbrc:fighters/jigglypuff/rest/disabled",
-							"conditions": [
-								{
-									"condition": "minecraft:entity_properties",
-									"entity": "this",
-									"predicate": {
-										"nbt": "{Tags:[\"rest\"]}"
-									}
-								}
-							]
+							"function": "minecraft:set_components",
+							"components": {
+								"minecraft:max_damage": 1
+							}
 						},
 						{
 							"function": "minecraft:set_custom_data",

@@ -13,10 +13,10 @@ execute if data storage ssbrc:temp player.temp_data{skin:"gold"} run tellraw @s 
 execute unless data storage ssbrc:temp player.temp_data{skin:"classic"} run tellraw @s[advancements={ssbrc:fighters/sonic/skins/classic=true}] {"translate":"ssbrc.skin.classic","color":"blue","clickEvent":{"action":"run_command","value":"/trigger menu set 3"}}
 execute if data storage ssbrc:temp player.temp_data{skin:"classic"} run tellraw @s [{"translate":"ssbrc.skin.classic","color":"blue"},{"text":" ✔","color":"green"}]
 
-execute unless data storage ssbrc:temp player.temp_data{skin:"hylian_tunic"} run tellraw @s[advancements={ssbrc:fighters/sonic/skins/hylian_tunic=true}] {"translate":"ssbrc.skin.hylian_tunic","color":"green","clickEvent":{"action":"run_command","value":"/trigger menu set 4"}}
-execute if data storage ssbrc:temp player.temp_data{skin:"hylian_tunic"} run tellraw @s [{"translate":"ssbrc.skin.hylian_tunic","color":"green"},{"text":" ✔","color":"green"}]
-
-execute unless data storage ssbrc:temp player.temp_data{skin:"werehog"} run tellraw @s[advancements={ssbrc:fighters/sonic/skins/werehog=true}] {"translate":"ssbrc.skin.werehog","color":"dark_blue","clickEvent":{"action":"run_command","value":"/trigger menu set 5"}}
+execute unless data storage ssbrc:temp player.temp_data{skin:"werehog"} run tellraw @s[advancements={ssbrc:fighters/sonic/skins/werehog=true}] {"translate":"ssbrc.skin.werehog","color":"dark_blue","clickEvent":{"action":"run_command","value":"/trigger menu set 4"}}
 execute if data storage ssbrc:temp player.temp_data{skin:"werehog"} run tellraw @s [{"translate":"ssbrc.skin.werehog","color":"dark_blue"},{"text":" ✔","color":"green"}]
+
+execute unless data storage ssbrc:temp player.temp_data{skin:"hylian_tunic"} run tellraw @s[advancements={ssbrc:fighters/sonic/skins/hylian_tunic=true}] {"translate":"ssbrc.skin.hylian_tunic","color":"green","clickEvent":{"action":"run_command","value":"/trigger menu set 5"}}
+execute if data storage ssbrc:temp player.temp_data{skin:"hylian_tunic"} run tellraw @s [{"translate":"ssbrc.skin.hylian_tunic","color":"green"},{"text":" ✔","color":"green"}]
 
 function ssbrc:logic/fighters/menu/skin_options
