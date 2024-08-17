@@ -4,6 +4,20 @@
 		"requirement": {
 			"trigger": "minecraft:using_item",
 			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:entity_scores",
+						"entity": "this",
+						"scores": {
+							"cooldown": {
+								"max": 0
+							},
+							"zelda.rupee.down": {
+								"max": 0
+							}
+						}
+					}
+				],
 				"item": {
 					"items": "#ssbrc:equipment",
 					"predicates": {

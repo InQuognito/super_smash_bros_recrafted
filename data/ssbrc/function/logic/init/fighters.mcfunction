@@ -17,10 +17,70 @@ data modify storage ssbrc:data fighters set value {\
 			"player_2": {\
 				"name": "player_2",\
 				"color": "blue",\
-				"model": 1830\
+				"model": 1832\
 			}\
 		},\
 		"items": {\
+			"bear_claw": {\
+				"default": {\
+					"name": "ssbrc.fighter.altered_beast.bear_claw",\
+					"color": "gold",\
+					"model": 1824,\
+					"tag": "bear_claw"\
+				},\
+				"gold": {\
+					"name": "ssbrc.fighter.altered_beast.bear_claw",\
+					"color": "gold",\
+					"model": 1825,\
+					"tag": "bear_claw"\
+				},\
+				"player_2": {\
+					"name": "ssbrc.fighter.altered_beast.bear_claw",\
+					"color": "gold",\
+					"model": 1826,\
+					"tag": "bear_claw"\
+				},\
+			},\
+			"dragon_claw": {\
+				"default": {\
+					"name": "ssbrc.fighter.altered_beast.dragon_claw",\
+					"color": "white",\
+					"model": 1828,\
+					"tag": "dragon_claw"\
+				},\
+				"gold": {\
+					"name": "ssbrc.fighter.altered_beast.dragon_claw",\
+					"color": "gold",\
+					"model": 1829,\
+					"tag": "dragon_claw"\
+				},\
+				"player_2": {\
+					"name": "ssbrc.fighter.altered_beast.dragon_claw",\
+					"color": "white",\
+					"model": 1830,\
+					"tag": "dragon_claw"\
+				},\
+			},\
+			"tiger_claw": {\
+				"default": {\
+					"name": "ssbrc.fighter.altered_beast.tiger_claw",\
+					"color": "gold",\
+					"model": 1832,\
+					"tag": "tiger_claw"\
+				},\
+				"gold": {\
+					"name": "ssbrc.fighter.altered_beast.tiger_claw",\
+					"color": "gold",\
+					"model": 1833,\
+					"tag": "tiger_claw"\
+				},\
+				"player_2": {\
+					"name": "ssbrc.fighter.altered_beast.tiger_claw",\
+					"color": "gold",\
+					"model": 1834,\
+					"tag": "tiger_claw"\
+				},\
+			},\
 		}\
 	},\
 	"alucard": {\
@@ -87,7 +147,7 @@ data modify storage ssbrc:data fighters set value {\
 				"default": {\
 					"name": "ssbrc.fighter.alucard.blood_metamorphosis",\
 					"color": "dark_red",\
-					"model": 1842,\
+					"model": 1843,\
 					"tag": "blood_metamorphosis"\
 				},\
 				"gold": {\
@@ -99,7 +159,7 @@ data modify storage ssbrc:data fighters set value {\
 				"lords_of_shadow": {\
 					"name": "ssbrc.fighter.alucard.blood_metamorphosis",\
 					"color": "dark_red",\
-					"model": 1842,\
+					"model": 1843,\
 					"tag": "blood_metamorphosis"\
 				},\
 			},\
@@ -113,7 +173,7 @@ data modify storage ssbrc:data fighters set value {\
 				"gold": {\
 					"name": "ssbrc.fighter.alucard.holy_water",\
 					"color": "gold",\
-					"model": 1843,\
+					"model": 1842,\
 					"tag": "holy_water"\
 				},\
 				"lords_of_shadow": {\

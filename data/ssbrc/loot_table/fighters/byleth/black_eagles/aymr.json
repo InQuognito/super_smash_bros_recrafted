@@ -44,10 +44,6 @@
 						},
 						{
 							"function": "minecraft:reference",
-							"name": "ssbrc:init/ability/charge"
-						},
-						{
-							"function": "minecraft:reference",
 							"name": "ssbrc:fighters/byleth/black_eagles/aymr/default",
 							"conditions": [
 								{

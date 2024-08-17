@@ -19,7 +19,7 @@
 							"cooldown.2": {
 								"max": 0
 							},
-							"cloud.limit": {
+							"resource": {
 								"min": {
 									"type": "minecraft:score",
 									"target": {

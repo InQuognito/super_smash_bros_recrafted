@@ -26,3 +26,5 @@ scoreboard players set @s[tag=anti_personnel_mine] snake.anti_personnel_mine.amm
 scoreboard players set @s[tag=smoke_grenade] snake.smoke_grenade.ammo 2
 
 function ssbrc:fighters/snake/logic/load/set
+
+tag @s add cloaked

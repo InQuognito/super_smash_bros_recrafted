@@ -1,6 +1,6 @@
 scoreboard players reset blackout temp
 
-effect give @a[predicate=ssbrc:flag/targets,tag=!snake] minecraft:glowing infinite 255 true
+execute as @a[predicate=ssbrc:flag/targets] unless data storage ssbrc:temp player.temp_data{fighter:"snake"} run function ssbrc:logic/fighters/effects/glowing/uncloak
 execute as @e[nbt={Item:{tag:{Tags:[steve.item]}}}] run data merge entity @s {Glowing:1b}
 
 fill -340 8 -1165 -285 24 -1145 minecraft:light[level=15] replace minecraft:light

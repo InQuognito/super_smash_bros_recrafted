@@ -152,9 +152,11 @@ scoreboard objectives add weapon_10.ammo dummy
 scoreboard objectives add yar.drone.health dummy
 scoreboard objectives add zelda.enchant_armor dummy
 scoreboard objectives add zelda.magic_fountain dummy
+scoreboard objectives add zelda.magic_transfusion dummy
 scoreboard objectives add zelda.rupee.down dummy
 scoreboard objectives add zelda.rupee.up dummy
 scoreboard objectives add zelda.shatter_resist dummy
+scoreboard objectives add zelda.silent_princess dummy
 scoreboard objectives add zelda.special_bond dummy
 
 scoreboard objectives modify points displayname {"translate":"ssbrc.game.points","bold":true,"color":"yellow"}

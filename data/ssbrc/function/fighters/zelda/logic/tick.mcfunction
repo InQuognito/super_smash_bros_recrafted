@@ -23,7 +23,7 @@ execute if items entity @s container.* minecraft:nether_star[minecraft:custom_da
 execute if items entity @s container.* minecraft:nether_star[minecraft:custom_data~{item:"ring_of_risk"}] run function ssbrc:fighters/zelda/logic/passive_items/ring_of_risk
 
 # Rupees
-execute if score @s[scores={zelda.rupee.up=1..}] resource > zelda.rupees.max vars run scoreboard players set @s zelda.rupee.up 0
+execute if score @s[scores={zelda.rupee.up=1..}] resource >= zelda.rupees.max vars run scoreboard players set @s zelda.rupee.up 0
 execute if entity @s[scores={zelda.rupee.up=1..}] run function ssbrc:fighters/zelda/logic/rupees/add
 
 execute if entity @s[scores={zelda.rupee.down=1..}] run function ssbrc:fighters/zelda/logic/rupees/subtract
@@ -33,6 +33,10 @@ execute if entity @s[scores={zelda.enchant_armor=1..}] run function ssbrc:fighte
 
 scoreboard players remove @s[scores={zelda.magic_fountain=1..}] zelda.magic_fountain 1
 
+scoreboard players remove @s[scores={zelda.magic_transfusion=1..}] zelda.magic_transfusion 1
+
 scoreboard players remove @s[scores={zelda.shatter_resist=1..}] zelda.shatter_resist 1
+
+execute if entity @s[scores={zelda.silent_princess=1..}] run function ssbrc:fighters/zelda/logic/blessings/silent_princess/tick
 
 execute if entity @s[scores={zelda.special_bond=1..}] run function ssbrc:fighters/zelda/logic/blessings/special_bond/tick

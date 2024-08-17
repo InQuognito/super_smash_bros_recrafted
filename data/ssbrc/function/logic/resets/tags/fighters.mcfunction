@@ -26,6 +26,7 @@ function ssbrc:logic/resets/tags/fighters/zelda
 # Misc
 tag @s remove ability_used
 tag @s remove air_stall
+tag @s remove cloaked
 tag @s remove fighter_picked
 tag @s remove check_death
 tag @s remove check_kill

@@ -10,9 +10,7 @@
 		}
 	},
 	{
-		"function": "minecraft:set_components",
-		"components": {
-			"!minecraft:food": {}
-		}
+		"function": "minecraft:reference",
+		"name": "ssbrc:init/ability/disable"
 	}
 ]

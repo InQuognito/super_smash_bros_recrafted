@@ -34,3 +34,4 @@ function ssbrc:stages/pac_maze/logic/fruit/galaxian_flagship/reset
 function ssbrc:stages/palutenas_temple/logic/fiends_cauldron/reset
 attribute @s minecraft:generic.jump_strength modifier remove ssbrc:items/angel_feather
 attribute @s minecraft:generic.movement_speed modifier remove ssbrc:quicksand
+attribute @s minecraft:generic.movement_speed modifier remove ssbrc:vent

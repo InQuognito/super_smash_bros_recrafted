@@ -3,5 +3,5 @@ execute positioned -702.0 44.0 822.5 summon minecraft:armor_stand run function s
 fill -705 43 821 -700 43 823 minecraft:air replace
 fill -705 40 820 -700 42 820 minecraft:waxed_copper_block replace
 
-scoreboard players set #bowsers_castleHazard temp 1
+scoreboard players set bowsers_castle.hazard temp 1
 scoreboard players set thwomp.right temp 1

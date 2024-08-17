@@ -1,7 +1,7 @@
 scoreboard players set blackout temp 1
 
-effect clear @a[predicate=ssbrc:flag/targets] minecraft:glowing
-execute as @e[nbt={Item:{tag:{Tags:[steve.item]}}}] run data merge entity @s {Glowing:0}
+execute as @a[predicate=ssbrc:flag/targets] run function ssbrc:logic/fighters/effects/glowing/cloak
+execute as @e[nbt={Item:{tag:{Tags:[steve.item]}}}] run data merge entity @s {Glowing:0b}
 
 fill -340 8 -1165 -285 24 -1145 minecraft:light[level=0] replace minecraft:light
 fill -340 8 -1144 -285 24 -1124 minecraft:light[level=0] replace minecraft:light
