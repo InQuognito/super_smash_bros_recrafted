@@ -1,3 +1,3 @@
 function ssbrc:logic/spectate/init
 
-teleport @s @r[predicate=ssbrc:flag/player]
+teleport @s @r[predicate=ssbrc:ingame]
