@@ -1,6 +1,5 @@
 function ssbrc:logic/fighters/ability/init
 
-function ssbrc:logic/player_data/temp/copy/check
 execute anchored eyes positioned ^ ^ ^1 summon minecraft:armor_stand run function ssbrc:fighters/donkey_kong/logic/abilities/barrel/init
 
 function ssbrc:logic/item/cooldown/set/const {type:"1",value:"10"}
