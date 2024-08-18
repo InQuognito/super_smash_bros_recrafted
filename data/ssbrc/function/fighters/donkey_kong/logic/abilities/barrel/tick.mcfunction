@@ -12,3 +12,5 @@ execute rotated as @s run teleport @s ^ ^ ^0.25
 
 scoreboard players add @s temp 1
 execute if entity @s[scores={temp=100..}] run function ssbrc:fighters/donkey_kong/logic/abilities/barrel/explode
+
+execute as @a[tag=self] run say hi
