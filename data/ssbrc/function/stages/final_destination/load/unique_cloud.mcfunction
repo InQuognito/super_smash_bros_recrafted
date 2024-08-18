@@ -1,7 +1,3 @@
-$fill 23436 19 8617 23476 21 8657 minecraft:$(trim) replace #ssbrc:stages/final_destination/trim
+$execute positioned 23436 19 8617 run function ssbrc:stages/final_destination/load/stage {trim:"$(trim)",light:"$(light)",light_cover:"$(light_cover)"}
 
-$fill 23436 19 8617 23476 21 8657 minecraft:$(light) replace #ssbrc:stages/final_destination/light
-
-$fill 23428 20 8603 23490 30 8675 minecraft:$(cloud) replace #ssbrc:stages/final_destination/cloud
-
-$fill 23436 19 8617 23476 21 8657 minecraft:$(light_cover) replace #ssbrc:stages/final_destination/light_cover
+$function ssbrc:stages/final_destination/load/cloud {cloud:"$(cloud)"}

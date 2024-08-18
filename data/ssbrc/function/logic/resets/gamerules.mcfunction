@@ -2,6 +2,7 @@ gamerule announceAdvancements false
 gamerule blockExplosionDropDecay false
 execute unless score debug options matches 1 run gamerule commandBlockOutput false
 execute if score debug options matches 1 run gamerule commandBlockOutput true
+gamerule commandModificationBlockLimit 100000
 gamerule disableElytraMovementCheck false
 gamerule disableRaids true
 gamerule doDaylightCycle false
