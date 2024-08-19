@@ -1,7 +1,7 @@
 [
 	{
 		"function": "minecraft:reference",
-		"name": "ssbrc:fighters/yar/ray_blaster/gatling_gun/default",
+		"name": "ssbrc:fighters/yar/gatling_gun/default",
 		"conditions": [
 			{
 				"condition": "minecraft:inverted",
@@ -17,7 +17,7 @@
 	},
 	{
 		"function": "minecraft:reference",
-		"name": "ssbrc:fighters/yar/ray_blaster/gatling_gun/gold",
+		"name": "ssbrc:fighters/yar/gatling_gun/gold",
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",

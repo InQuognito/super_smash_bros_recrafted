@@ -25,7 +25,6 @@ effect give @s[team=!spectator] minecraft:glowing infinite 255 true
 
 tag @s add room.stage_select
 
-scoreboard players set @s stage_index.selector 0
 function ssbrc:logic/pre_game/stage_select/stage_index/pages/1
 
 advancement grant @s[advancements={ssbrc:tutorial/stage_select/1=false}] only ssbrc:tutorial/stage_select/1

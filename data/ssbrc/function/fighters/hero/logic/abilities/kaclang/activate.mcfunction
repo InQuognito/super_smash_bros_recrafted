@@ -1,10 +1,10 @@
 tag @s add kaclang
 
 scoreboard players set @s duration.2 200
+function ssbrc:logic/fighters/effects/mobility/immobilize {type:"default",duration:200}
 
 effect give @s minecraft:resistance infinite 255 true
 
-function ssbrc:logic/fighters/effects/mobility/immobilize/default
 
 function ssbrc:logic/player_data/temp/set {mode:"store",key:"form",value:"kaclang"}
 function ssbrc:logic/fighters/armor/update/check

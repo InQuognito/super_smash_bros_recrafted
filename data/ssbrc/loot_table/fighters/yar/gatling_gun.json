@@ -52,10 +52,6 @@
 							"mode": "append"
 						},
 						{
-							"function": "minecraft:reference",
-							"name": "ssbrc:fighters/yar/ray_blaster/gatling_gun"
-						},
-						{
 							"function": "minecraft:set_custom_data",
 							"tag": "{item:\"gatling_gun\"}"
 						}

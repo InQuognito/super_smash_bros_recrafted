@@ -7,3 +7,5 @@ execute if score @s frostbite.timer matches 1.. run function ssbrc:logic/fighter
 execute if score @s petrified matches 1.. run function ssbrc:fighters/altered_beast/logic/werebear/petrifying_breath/tick
 
 execute if score electric_terrain temp matches 1 if block ~ ~ ~ minecraft:water run damage @s 6.0 ssbrc:pierce
+
+execute if data storage ssbrc:temp game.stage{name:"sand_ocean"} if score hazards options matches 1 run function ssbrc:logic/fighters/quicksand/tick

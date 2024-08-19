@@ -1,4 +1,4 @@
-function ssbrc:logic/item/init/get {item:"mega_punch",slot:"hotbar.0",type:"default"}
+function ssbrc:logic/item/init/slot {item:"mega_punch",slot:"hotbar.0",type:"default"}
 
 loot replace entity @s hotbar.1 loot ssbrc:fighters/pikachu/thunder_jolt
 

@@ -1,3 +1,5 @@
+execute as @e[type=minecraft:item_display,name=sandbag,scores={animation=1..},limit=1] run function ssbrc:logic/selector/events/sandbag/tick
+
 function ssbrc:logic/tick/lobby/credits
 
 execute as @a[scores={debug=1..}] run function ssbrc:logic/tick/triggers/debug

@@ -11,7 +11,7 @@
 	},
 	{
 		"function": "minecraft:reference",
-		"name": "ssbrc:fighters/yar/ray_blaster/gatling_gun/gold/default",
+		"name": "ssbrc:fighters/yar/gatling_gun/gold/default",
 		"conditions": [
 			{
 				"condition": "minecraft:inverted",
@@ -29,7 +29,7 @@
 	},
 	{
 		"function": "reference",
-		"name": "ssbrc:fighters/yar/ray_blaster/gatling_gun/gold/charging",
+		"name": "ssbrc:fighters/yar/gatling_gun/gold/charging",
 		"conditions": [
 			{
 				"condition": "minecraft:entity_scores",

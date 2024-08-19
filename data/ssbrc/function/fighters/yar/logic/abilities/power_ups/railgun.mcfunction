@@ -1,4 +1,4 @@
-function ssbrc:logic/item/replace/get {search_key:"item",search_value:"ray_blaster",path:"ssbrc:fighters/yar/ray_blaster/railgun"}
+function ssbrc:logic/item/init/replace {search_key:"item",search_value:"ray_blaster",item:"railgun",type:"default"}
 
 tag @s add railgun
 

@@ -10,6 +10,6 @@ execute summon minecraft:marker run function ssbrc:fighters/giegue/logic/abiliti
 
 scoreboard players set @s charge.1 0
 
-function ssbrc:logic/fighters/effects/mobility/immobilize/pivot/deactivate
+function ssbrc:logic/fighters/effects/mobility/pivot/deactivate
 
 playsound ssbrc:fighters.giegue.pk_beam.activate player @a

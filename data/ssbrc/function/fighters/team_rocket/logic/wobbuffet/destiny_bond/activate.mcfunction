@@ -1,6 +1,5 @@
 scoreboard players set @s duration.3 100
-
-function ssbrc:logic/fighters/effects/mobility/immobilize/default
+function ssbrc:logic/fighters/effects/mobility/immobilize {type:"default",duration:100}
 
 function ssbrc:logic/item/durability/reset/slot {slot_string:"weapon.mainhand"}
 

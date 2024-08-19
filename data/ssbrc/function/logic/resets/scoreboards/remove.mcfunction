@@ -37,7 +37,6 @@ scoreboard objectives remove flag.fire_bow
 scoreboard objectives remove flag.in_lava
 scoreboard objectives remove flag.sprinting
 scoreboard objectives remove flag.walking
-scoreboard objectives remove flinch
 scoreboard objectives remove frostbite
 scoreboard objectives remove frostbite.cooldown
 scoreboard objectives remove frostbite.timer
@@ -45,6 +44,7 @@ scoreboard objectives remove fuse
 scoreboard objectives remove health
 scoreboard objectives remove health_timer
 scoreboard objectives remove id
+scoreboard objectives remove immobile
 scoreboard objectives remove influence
 scoreboard objectives remove integers
 scoreboard objectives remove item_count
@@ -109,7 +109,6 @@ scoreboard objectives remove team
 scoreboard objectives remove timer
 scoreboard objectives remove timer.barrel_cannon
 scoreboard objectives remove timer.galaxian_flagship
-scoreboard objectives remove timer.pk_flash
 scoreboard objectives remove timer.shockwave
 scoreboard objectives remove timer.stat.death
 scoreboard objectives remove timer.stat.kill

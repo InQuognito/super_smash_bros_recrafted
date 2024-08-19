@@ -1,4 +1,4 @@
-function ssbrc:logic/item/init/get {item:"barrel",slot:"hotbar.0",type:"default"}
+function ssbrc:logic/item/init/slot {item:"barrel",slot:"hotbar.0",type:"default"}
 
 loot replace entity @s hotbar.1 loot ssbrc:fighters/donkey_kong/orange_grenade
 

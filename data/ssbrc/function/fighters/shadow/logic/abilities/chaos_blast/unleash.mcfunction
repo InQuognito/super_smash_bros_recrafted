@@ -2,6 +2,4 @@ execute as @e[tag=!self,predicate=ssbrc:flag/targets,distance=..2] run function 
 
 function ssbrc:fighters/shadow/logic/abilities/chaos_blast/shockwave/start
 
-function ssbrc:logic/fighters/effects/mobility/mobilize
-
 playsound ssbrc:fighters.shadow.chaos_blast.activate player @a

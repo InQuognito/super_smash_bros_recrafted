@@ -41,7 +41,6 @@ scoreboard objectives add flag.fire_bow minecraft.used:minecraft.bow
 scoreboard objectives add flag.in_lava dummy
 scoreboard objectives add flag.sprinting dummy
 scoreboard objectives add flag.walking minecraft.custom:minecraft.walk_one_cm
-scoreboard objectives add flinch dummy
 scoreboard objectives add frostbite dummy
 scoreboard objectives add frostbite.cooldown dummy
 scoreboard objectives add frostbite.timer dummy
@@ -49,6 +48,7 @@ scoreboard objectives add fuse dummy
 scoreboard objectives add health dummy
 scoreboard objectives add health_timer dummy
 scoreboard objectives add id dummy
+scoreboard objectives add immobile dummy
 scoreboard objectives add influence dummy
 scoreboard objectives add integers dummy
 scoreboard objectives add item_count dummy
@@ -121,7 +121,6 @@ scoreboard objectives add team dummy
 scoreboard objectives add timer dummy
 scoreboard objectives add timer.barrel_cannon dummy
 scoreboard objectives add timer.galaxian_flagship dummy
-scoreboard objectives add timer.pk_flash dummy
 scoreboard objectives add timer.shockwave dummy
 scoreboard objectives add timer.stat.death dummy
 scoreboard objectives add timer.stat.kill dummy

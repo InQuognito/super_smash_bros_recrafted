@@ -2501,6 +2501,46 @@ data modify storage ssbrc:data fighters set value {\
 			}\
 		},\
 		"items": {\
+			"drone": {\
+				"default": {\
+					"name": "ssbrc.fighter.yar.drone",\
+					"color": "yellow",\
+					"model": 1982,\
+					"tag": "drone"\
+				},\
+				"gold": {\
+					"name": "ssbrc.fighter.yar.drone",\
+					"color": "gold",\
+					"model": 1983,\
+					"tag": "drone"\
+				},\
+				"recruit": {\
+					"name": "ssbrc.fighter.yar.drone",\
+					"color": "yellow",\
+					"model": 1982,\
+					"tag": "drone"\
+				},\
+			},\
+			"gatling_gun": {\
+				"default": {\
+					"name": "ssbrc.fighter.yar.gatling_gun",\
+					"color": "white",\
+					"model": 1963,\
+					"tag": "gatling_gun"\
+				},\
+				"gold": {\
+					"name": "ssbrc.fighter.yar.gatling_gun",\
+					"color": "gold",\
+					"model": 1965,\
+					"tag": "gatling_gun"\
+				},\
+				"recruit": {\
+					"name": "ssbrc.fighter.yar.gatling_gun",\
+					"color": "white",\
+					"model": 1963,\
+					"tag": "gatling_gun"\
+				},\
+			},\
 			"killspace_blade": {\
 				"default": {\
 					"name": "ssbrc.fighter.yar.killspace_blade",\
@@ -2521,44 +2561,84 @@ data modify storage ssbrc:data fighters set value {\
 					"tag": "killspace_blade"\
 				},\
 			},\
+			"missile_launcher": {\
+				"default": {\
+					"name": "ssbrc.fighter.yar.missile_launcher",\
+					"color": "white",\
+					"model": 1967,\
+					"tag": "missile_launcher"\
+				},\
+				"gold": {\
+					"name": "ssbrc.fighter.yar.missile_launcher",\
+					"color": "gold",\
+					"model": 1968,\
+					"tag": "missile_launcher"\
+				},\
+				"recruit": {\
+					"name": "ssbrc.fighter.yar.missile_launcher",\
+					"color": "white",\
+					"model": 1967,\
+					"tag": "missile_launcher"\
+				},\
+			},\
+			"railgun": {\
+				"default": {\
+					"name": "ssbrc.fighter.yar.railgun",\
+					"color": "white",\
+					"model": 1969,\
+					"tag": "railgun"\
+				},\
+				"gold": {\
+					"name": "ssbrc.fighter.yar.railgun",\
+					"color": "gold",\
+					"model": 1972,\
+					"tag": "railgun"\
+				},\
+				"recruit": {\
+					"name": "ssbrc.fighter.yar.railgun",\
+					"color": "white",\
+					"model": 1969,\
+					"tag": "railgun"\
+				},\
+			},\
 			"ray_blaster": {\
 				"default": {\
 					"name": "ssbrc.fighter.yar.ray_blaster",\
 					"color": "white",\
-					"model": 1962,\
+					"model": 1961,\
 					"tag": "ray_blaster"\
 				},\
 				"gold": {\
 					"name": "ssbrc.fighter.yar.ray_blaster",\
 					"color": "gold",\
-					"model": 1977,\
+					"model": 1962,\
 					"tag": "ray_blaster"\
 				},\
 				"recruit": {\
 					"name": "ssbrc.fighter.yar.ray_blaster",\
 					"color": "white",\
-					"model": 1962,\
+					"model": 1961,\
 					"tag": "ray_blaster"\
 				},\
 			},\
-			"drone": {\
+			"triple_shot": {\
 				"default": {\
-					"name": "ssbrc.fighter.yar.drone",\
-					"color": "yellow",\
+					"name": "ssbrc.fighter.yar.triple_shot",\
+					"color": "white",\
 					"model": 1975,\
-					"tag": "drone"\
+					"tag": "triple_shot"\
 				},\
 				"gold": {\
-					"name": "ssbrc.fighter.yar.drone",\
+					"name": "ssbrc.fighter.yar.triple_shot",\
 					"color": "gold",\
-					"model": 1985,\
-					"tag": "drone"\
+					"model": 1976,\
+					"tag": "triple_shot"\
 				},\
 				"recruit": {\
-					"name": "ssbrc.fighter.yar.drone",\
-					"color": "yellow",\
+					"name": "ssbrc.fighter.yar.triple_shot",\
+					"color": "white",\
 					"model": 1975,\
-					"tag": "drone"\
+					"tag": "triple_shot"\
 				},\
 			},\
 		}\

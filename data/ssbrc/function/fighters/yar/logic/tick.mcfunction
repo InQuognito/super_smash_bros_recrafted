@@ -12,7 +12,7 @@ execute if entity @s[scores={duration.1=1}] run function ssbrc:fighters/yar/logi
 execute unless items entity @s weapon.mainhand minecraft:nether_star[minecraft:custom_data~{item:"gatling_gun",power_up:"false"}] if items entity @s container.* minecraft:nether_star[minecraft:custom_data~{item:"gatling_gun",charging:"true"}] run function ssbrc:logic/item/replace/get {search_key:"item",search_value:"charging",path:"ssbrc:fighters/yar/ray_blaster/gatling_gun"}
 
 # Railgun
-execute unless items entity @s weapon.mainhand minecraft:nether_star[minecraft:custom_data~{item:"railgun",power_up:"false"}] if items entity @s container.* minecraft:nether_star[minecraft:custom_data~{item:"railgun",charging:"true"}] run function ssbrc:logic/item/replace/get {search_key:"item",search_value:"charge",path:"ssbrc:fighters/yar/ray_blaster/railgun/idle"}
+execute unless items entity @s weapon.mainhand minecraft:nether_star[minecraft:custom_data~{item:"railgun",power_up:"false"}] if items entity @s container.* minecraft:nether_star[minecraft:custom_data~{item:"railgun",charging:"true"}] run function ssbrc:logic/item/init/replace {search_key:"group",search_value:"ray_blaster",item:"railgun",type:"default"}
 
 # Omnishot
 execute if entity @s[tag=omnishot,scores={duration.1=1..}] run function ssbrc:fighters/yar/logic/abilities/ray_blaster/variants/omnishot/tick

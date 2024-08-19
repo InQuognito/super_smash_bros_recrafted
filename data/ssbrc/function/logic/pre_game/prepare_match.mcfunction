@@ -1,6 +1,6 @@
 kill @e[type=minecraft:item_display,tag=stage_icon]
-kill @e[type=minecraft:area_effect_cloud,tag=vote_counter]
-kill @e[type=minecraft:area_effect_cloud,tag=info_display]
+kill @e[type=minecraft:text_display,tag=vote_counter]
+kill @e[type=minecraft:text_display,tag=info_display]
 
 scoreboard players operation total_stocks temp = players.ingame temp
 scoreboard players operation total_stocks temp *= stock_limit options

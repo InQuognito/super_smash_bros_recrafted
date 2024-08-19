@@ -1,4 +1,4 @@
-function ssbrc:logic/item/replace/get {search_key:"item",search_value:"ray_blaster",path:"ssbrc:fighters/yar/ray_blaster/triple_shot"}
+function ssbrc:logic/item/init/replace {search_key:"item",search_value:"ray_blaster",item:"triple_shot",type:"default"}
 
 tag @s add triple_shot
 

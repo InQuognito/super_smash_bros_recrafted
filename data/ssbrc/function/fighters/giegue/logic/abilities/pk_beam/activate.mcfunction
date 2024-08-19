@@ -1,4 +1,4 @@
-tag @s add pivot
+tag @s add immobile.pivot.queue
 
 scoreboard players set @s charge.1 1
 

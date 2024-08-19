@@ -14,8 +14,9 @@ scoreboard players reset @s fiends_cauldron
 scoreboard players set @s frostbite 0
 scoreboard players reset @s frostbite.timer
 
+function ssbrc:logic/fighters/effects/mobility/mobilize
+
 tag @s remove angel_feather
-tag @s remove immobile
 tag @s remove tornado.spin
 
 # Misc

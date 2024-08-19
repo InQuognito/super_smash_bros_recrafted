@@ -7,4 +7,4 @@ execute store result storage ssbrc:temp cache.rotation int 1.0 run scoreboard pl
 execute summon minecraft:marker run function ssbrc:stages/miiverse/logic/posts/origin/init with storage ssbrc:temp cache
 
 scoreboard players remove n temp 1
-execute if score n temp matches 1.. run function ssbrc:stages/miiverse/logic/posts/origin/summon/default
+execute if score n temp matches 0.. run function ssbrc:stages/miiverse/logic/posts/origin/summon/default

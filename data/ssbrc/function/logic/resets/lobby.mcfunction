@@ -17,10 +17,10 @@ execute positioned -531.99 4.5 -1944.5 unless entity @e[type=minecraft:item_disp
 execute positioned -531.99 4.5 -1945.5 unless entity @e[type=minecraft:item_display,distance=..0.1] run function ssbrc:logic/resets/lobby/logo {text:"youtube",color:"red",model:99992}
 
 # Gold Mario
-execute positioned -535.5 8.0 -1944.5 unless entity @e[type=minecraft:item_display,distance=..0.1] run summon minecraft:item_display ~ ~ ~ {Tags:["static_object"],item:{id:"minecraft:stick",components:{"minecraft:custom_model_data":10000}},Rotation:[-90f,0f]}
+execute positioned -535.5 8.0 -1944.5 unless entity @e[type=minecraft:item_display,distance=..0.1] run summon minecraft:item_display ~ ~ ~ {Tags:["static_object","no_kill"],item:{id:"minecraft:stick",components:{"minecraft:custom_model_data":10000}},Rotation:[-90f,0f]}
 
 # Sandbag
-execute positioned -525.5 5.25 -1936.5 unless entity @e[type=minecraft:item_display,distance=..0.1] run summon minecraft:item_display ~ ~ ~ {CustomName:'"sandbag"',Tags:["selectable","standard_highlight"],item:{id:"minecraft:emerald",components:{"minecraft:custom_model_data":10000}},Rotation:[-145f,0f]}
+execute positioned -525.5 5.25 -1936.5 unless entity @e[type=minecraft:item_display,distance=..0.1] run summon minecraft:item_display ~ ~ ~ {CustomName:'"sandbag"',Tags:["selectable","standard_highlight"],item:{id:"minecraft:emerald",components:{"minecraft:custom_model_data":10001}},Rotation:[-145f,0f]}
 
 # Resource Pack Checker
 execute positioned -525.5 5.5 -1952.5 unless entity @e[type=minecraft:item_display,distance=..0.1] run summon minecraft:item_display ~ ~ ~ {CustomName:'"assets"',Tags:["selectable","standard_highlight"],item:{id:"minecraft:barrier",components:{"minecraft:custom_model_data":99999}},transformation:[0.75f,0f,0f,0f,0f,0.75f,0f,0f,0f,0f,0.75f,0f,0f,0f,0f,1f]}

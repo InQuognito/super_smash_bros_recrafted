@@ -15,7 +15,7 @@ teleport @e[type=minecraft:item,distance=..1] @s
 
 effect give @a[tag=snake,predicate=!ssbrc:fighters/effects/has/glowing,distance=..10] minecraft:glowing 1 255 true
 
-execute if entity @s[tag=stop,scores={cooldown.1=..0}] facing entity @n[tag=!self,predicate=ssbrc:flag/targets,distance=..3] eyes run function ssbrc:fighters/yar/logic/abilities/drone/projectile/activate
+execute if entity @s[tag=stop,scores={cooldown.1=..0}] facing entity @n[tag=!self,predicate=ssbrc:flag/targets,distance=0.1..3] eyes run function ssbrc:fighters/yar/logic/abilities/drone/projectile/activate
 
 execute if entity @s[tag=recall] positioned ~-0.5 ~-0.5 ~-0.5 as @p[tag=self,dx=0] run function ssbrc:fighters/yar/logic/abilities/drone/recall
 

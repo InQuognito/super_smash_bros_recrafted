@@ -1,4 +1,4 @@
-function ssbrc:logic/item/replace/get {search_key:"item",search_value:"ray_blaster",path:"ssbrc:fighters/yar/ray_blaster/missile_launcher"}
+function ssbrc:logic/item/init/replace {search_key:"item",search_value:"ray_blaster",item:"missile_launcher",type:"default"}
 
 scoreboard players set @s duration.1 400
 

@@ -1,6 +1,6 @@
 function ssbrc:fighters/yar/logic/abilities/power_ups/reset_tags
 
-function ssbrc:logic/item/replace/get {search_key:"group",search_value:"ray_blaster",path:"ssbrc:fighters/yar/ray_blaster/default"}
+function ssbrc:logic/item/init/replace {search_key:"group",search_value:"ray_blaster",item:"ray_blaster",type:"default"}
 
 scoreboard players set @s charge.1 0
 

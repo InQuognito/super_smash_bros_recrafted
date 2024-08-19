@@ -9,53 +9,16 @@
 					"name": "minecraft:nether_star",
 					"functions": [
 						{
-							"function": "minecraft:set_name",
-							"entity": "this",
-							"name": {
-								"translate": "ssbrc.fighter.yar.railgun",
-								"color": "white",
-								"bold": true,
-								"italic": false
-							},
-							"conditions": [
-								{
-									"condition": "minecraft:inverted",
-									"term": {
-										"condition": "minecraft:entity_properties",
-										"entity": "this",
-										"predicate": {
-											"nbt": "{Tags:[\"gold\"]}"
-										}
-									}
-								}
-							]
-						},
-						{
-							"function": "minecraft:set_name",
-							"entity": "this",
-							"name": {
-								"translate": "ssbrc.fighter.yar.railgun",
-								"color": "gold",
-								"bold": true,
-								"italic": false
-							},
-							"conditions": [
-								{
-									"condition": "minecraft:entity_properties",
-									"entity": "this",
-									"predicate": {
-										"nbt": "{Tags:[\"gold\"]}"
-									}
-								}
-							]
-						},
-						{
 							"function": "minecraft:reference",
 							"name": "ssbrc:init/tooltip/ability/ranged"
 						},
 						{
 							"function": "minecraft:reference",
 							"name": "ssbrc:init/ability/charge"
+						},
+						{
+							"function": "minecraft:reference",
+							"name": "ssbrc:init/animation/smooth"
 						},
 						{
 							"function": "minecraft:set_lore",
@@ -89,10 +52,6 @@
 								}
 							],
 							"mode": "append"
-						},
-						{
-							"function": "minecraft:reference",
-							"name": "ssbrc:fighters/yar/ray_blaster/railgun/idle"
 						},
 						{
 							"function": "minecraft:set_custom_data",

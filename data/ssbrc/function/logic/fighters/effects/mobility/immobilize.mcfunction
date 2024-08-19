@@ -1,4 +1,6 @@
-tag @s add immobile
+$scoreboard players set @s immobile $(duration)
+
+$tag @s add immobile.$(type)
 
 attribute @s minecraft:generic.attack_damage modifier add ssbrc:immobile -1.0 add_multiplied_total
 attribute @s minecraft:generic.attack_speed modifier add ssbrc:immobile -1.0 add_multiplied_total

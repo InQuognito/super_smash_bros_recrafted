@@ -24,8 +24,9 @@ function ssbrc:logic/resets/tags/fighters/yar
 function ssbrc:logic/resets/tags/fighters/zelda
 
 # Misc
+function ssbrc:logic/fighters/effects/mobility/reset
+
 tag @s remove ability_used
-tag @s remove air_stall
 tag @s remove cloaked
 tag @s remove fighter_picked
 tag @s remove check_death
@@ -33,8 +34,6 @@ tag @s remove check_kill
 tag @s remove check_shockwave
 tag @s remove critical
 tag @s remove ignore_feedback
-tag @s remove immobile
 tag @s remove intangible
 tag @s remove natural_shiny
-tag @s remove pivot
 tag @s remove shield_broken
