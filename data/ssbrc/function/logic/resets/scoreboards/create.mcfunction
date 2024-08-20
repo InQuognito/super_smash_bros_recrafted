@@ -84,6 +84,7 @@ scoreboard objectives add petrified dummy
 scoreboard objectives add piercing dummy
 scoreboard objectives add point dummy
 scoreboard objectives add points dummy
+scoreboard objectives add popup_timer dummy
 scoreboard objectives add pos_x dummy
 scoreboard objectives add pos_y dummy
 scoreboard objectives add pos_z dummy
@@ -148,6 +149,7 @@ scoreboard objectives add weapon_7.ammo dummy
 scoreboard objectives add weapon_8.ammo dummy
 scoreboard objectives add weapon_9.ammo dummy
 scoreboard objectives add weapon_10.ammo dummy
+scoreboard objectives add world_interactible.cooldown dummy
 scoreboard objectives add yar.drone.health dummy
 scoreboard objectives add zelda.enchant_armor dummy
 scoreboard objectives add zelda.magic_fountain dummy

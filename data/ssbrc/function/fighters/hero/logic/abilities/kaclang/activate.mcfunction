@@ -5,7 +5,6 @@ function ssbrc:logic/fighters/effects/mobility/immobilize {type:"default",durati
 
 effect give @s minecraft:resistance infinite 255 true
 
-
 function ssbrc:logic/player_data/temp/set {mode:"store",key:"form",value:"kaclang"}
 function ssbrc:logic/fighters/armor/update/check
 

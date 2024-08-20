@@ -1,5 +1,5 @@
-execute if score @s fall_distance matches ..800 run function ssbrc:logic/fighters/shockwave/low
+execute if score @s fall_distance >= fall_distance.high vars run return run function ssbrc:logic/fighters/shockwave/high
 
-execute if score @s fall_distance matches 801..1100 run function ssbrc:logic/fighters/shockwave/medium
+execute if score @s fall_distance >= fall_distance.medium vars run return run function ssbrc:logic/fighters/shockwave/medium
 
-execute if score @s fall_distance matches 1101.. run function ssbrc:logic/fighters/shockwave/high
+function ssbrc:logic/fighters/shockwave/low

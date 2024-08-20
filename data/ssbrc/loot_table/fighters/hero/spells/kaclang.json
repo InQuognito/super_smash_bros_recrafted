@@ -10,6 +10,10 @@
 					"functions": [
 						{
 							"function": "minecraft:reference",
+							"name": "ssbrc:fighters/hero/spells/kaclang/default"
+						},
+						{
+							"function": "minecraft:reference",
 							"name": "ssbrc:init/tooltip/ability/defensive"
 						},
 						{
@@ -48,13 +52,10 @@
 							"mode": "append"
 						},
 						{
-							"function": "minecraft:reference",
-							"name": "ssbrc:fighters/hero/spells/kaclang/default"
-						},
-						{
 							"function": "minecraft:set_components",
 							"components": {
-								"minecraft:max_damage": 20
+								"minecraft:max_damage": 20,
+								"custom_model_data": 442
 							}
 						},
 						{

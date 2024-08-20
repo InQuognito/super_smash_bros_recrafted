@@ -47,7 +47,10 @@ def create_item_modifier(skin, fighter, path):
 				js_write(file, tab(1) + ent)
 			js_write(file, tab(1) + '{')
 			js_write(file, tab(2) + qm + 'function' + sep_s + 'minecraft:reference' + suf_s)
-			js_write(file, tab(2) + qm + 'name' + sep_s + f'ssbrc:fighters/{fighter}/armor/aesthetic/{skin}/' + ssbrc.fighters[fighter]['forms'][0] + qm)
+			if fighter == 'pokemon_trainer' and skin == 'shiny':
+				js_write(file, tab(2) + qm + 'name' + sep_s + f'ssbrc:fighters/{fighter}/armor/aesthetic/default/' + ssbrc.fighters[fighter]['forms'][0] + qm)
+			else:
+				js_write(file, tab(2) + qm + 'name' + sep_s + f'ssbrc:fighters/{fighter}/armor/aesthetic/{skin}/' + ssbrc.fighters[fighter]['forms'][0] + qm)
 			js_write(file, tab(1) + '}')
 			js_write(file, ']')
 
@@ -66,7 +69,9 @@ def create_armor_trim(skin, fighter, path):
 			elif skin == 'herobrine' or skin == 'santa_hat' or form == 'beat_call':
 				js_write(file, tab(1) + qm + 'asset_id' + sep_s + f'ssbrc:fighters/{fighter}/default' + suf_s)
 			elif has_forms(fighter):
-				if forms_isolated(fighter):
+				if fighter == 'pokemon_trainer' and skin == 'shiny' and form == 'trainer':
+					js_write(file, tab(1) + qm + 'asset_id' + sep_s + f'ssbrc:fighters/{fighter}/default/trainer' + suf_s)
+				elif forms_isolated(fighter):
 					js_write(file, tab(1) + qm + 'asset_id' + sep_s + f'ssbrc:fighters/{fighter}/{skin}' + suf_s)
 				else:
 					js_write(file, tab(1) + qm + 'asset_id' + sep_s + f'ssbrc:fighters/{fighter}/{skin}/{form}' + suf_s)
@@ -84,7 +89,10 @@ def custom_model_data(skin, fighter, i):
 		with open(path + form + '.json', 'w') as file:
 			js_write(file, '{')
 			js_write(file, tab(1) + qm + 'function' + sep_s + 'minecraft:set_custom_model_data' + suf_s)
-			js_write(file, tab(1) + qm + 'value' + sep_n + str(i))
+			if (fighter == 'pokemon_trainer' and skin == 'shiny' and form == 'trainer'):
+				js_write(file, tab(1) + qm + 'value' + sep_n + str(ssbrc.fighters[fighter]['model']))
+			else:
+				js_write(file, tab(1) + qm + 'value' + sep_n + str(i))
 			js_write(file, '}')
 		i += 1
 

@@ -76,6 +76,7 @@ scoreboard objectives remove petrified
 scoreboard objectives remove piercing
 scoreboard objectives remove point
 scoreboard objectives remove points
+scoreboard objectives remove popup_timer
 scoreboard objectives remove pos_x
 scoreboard objectives remove pos_y
 scoreboard objectives remove pos_z
@@ -136,6 +137,7 @@ scoreboard objectives remove weapon_7.ammo
 scoreboard objectives remove weapon_8.ammo
 scoreboard objectives remove weapon_9.ammo
 scoreboard objectives remove weapon_10.ammo
+scoreboard objectives remove world_interactible.cooldown
 scoreboard objectives remove yar.drone.health
 scoreboard objectives remove zelda.enchant_armor
 scoreboard objectives remove zelda.magic_fountain

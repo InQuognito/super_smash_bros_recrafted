@@ -51,18 +51,6 @@
 									"italic": false,
 									"extra": [
 										{
-											"keybind": "key.sneak",
-											"color": "gray",
-											"bold": false,
-											"italic": false
-										},
-										{
-											"translate": "] + [",
-											"color": "gray",
-											"bold": false,
-											"italic": false
-										},
-										{
 											"keybind": "key.use",
 											"color": "gray",
 											"bold": false,

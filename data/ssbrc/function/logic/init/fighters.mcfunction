@@ -791,6 +791,26 @@ data modify storage ssbrc:data fighters set value {\
 			}\
 		},\
 		"items": {\
+			"pound": {\
+				"default": {\
+					"name": "ssbrc.fighter.jigglypuff.pound",\
+					"color": "white",\
+					"model": -1,\
+					"tag": "pound"\
+				},\
+				"gold": {\
+					"name": "ssbrc.fighter.jigglypuff.pound",\
+					"color": "gold",\
+					"model": -1,\
+					"tag": "pound"\
+				},\
+				"shiny": {\
+					"name": "ssbrc.fighter.jigglypuff.pound",\
+					"color": "white",\
+					"model": 50000,\
+					"tag": "pound"\
+				},\
+			},\
 			"hyper_voice": {\
 				"default": {\
 					"name": "ssbrc.fighter.jigglypuff.hyper_voice",\
@@ -1001,7 +1021,7 @@ data modify storage ssbrc:data fighters set value {\
 				"default": {\
 					"name": "ssbrc.fighter.kirby.tornado",\
 					"color": "light_purple",\
-					"model": null,\
+					"model": -1,\
 					"tag": "tornado"\
 				},\
 				"gold": {\
@@ -1013,7 +1033,7 @@ data modify storage ssbrc:data fighters set value {\
 				"keeby": {\
 					"name": "ssbrc.fighter.kirby.tornado",\
 					"color": "light_purple",\
-					"model": null,\
+					"model": -1,\
 					"tag": "tornado"\
 				},\
 			},\
@@ -1652,27 +1672,27 @@ data modify storage ssbrc:data fighters set value {\
 		"items": {\
 			"mega_punch": {\
 				"default": {\
-					"name": "ssbrc.fighter.pikachu.mega_punch",\
+					"name": "ssbrc.fighter.pokemon.mega_punch",\
 					"color": "dark_gray",\
-					"model": 1200,\
+					"model": -1,\
 					"tag": "mega_punch"\
 				},\
 				"gold": {\
-					"name": "ssbrc.fighter.pikachu.mega_punch",\
+					"name": "ssbrc.fighter.pokemon.mega_punch",\
 					"color": "dark_gray",\
-					"model": 1200,\
+					"model": -1,\
 					"tag": "mega_punch"\
 				},\
 				"santa_hat": {\
-					"name": "ssbrc.fighter.pikachu.mega_punch",\
+					"name": "ssbrc.fighter.pokemon.mega_punch",\
 					"color": "dark_gray",\
-					"model": 1200,\
+					"model": -1,\
 					"tag": "mega_punch"\
 				},\
 				"shiny": {\
-					"name": "ssbrc.fighter.pikachu.mega_punch",\
+					"name": "ssbrc.fighter.pokemon.mega_punch",\
 					"color": "dark_gray",\
-					"model": 1202,\
+					"model": 50000,\
 					"tag": "mega_punch"\
 				},\
 			},\
@@ -1733,14 +1753,14 @@ data modify storage ssbrc:data fighters set value {\
 		"color": "red",\
 		"skin_count": 5,\
 		"skins": {\
-			"dawn": {\
-				"name": "dawn",\
-				"color": "light_purple",\
-				"model": 1268\
-			},\
 			"shiny": {\
 				"name": "shiny",\
 				"color": "dark_gray",\
+				"model": 1268\
+			},\
+			"dawn": {\
+				"name": "dawn",\
+				"color": "light_purple",\
 				"model": 1272\
 			},\
 			"victor": {\
@@ -1754,25 +1774,25 @@ data modify storage ssbrc:data fighters set value {\
 				"default": {\
 					"name": "ssbrc.fighter.pokemon_trainer.knock_off",\
 					"color": "dark_gray",\
-					"model": 1260,\
+					"model": -1,\
 					"tag": "knock_off"\
 				},\
 				"gold": {\
 					"name": "ssbrc.fighter.pokemon_trainer.knock_off",\
 					"color": "dark_gray",\
-					"model": 1260,\
-					"tag": "knock_off"\
-				},\
-				"dawn": {\
-					"name": "ssbrc.fighter.pokemon_trainer.knock_off",\
-					"color": "dark_gray",\
-					"model": 1260,\
+					"model": -1,\
 					"tag": "knock_off"\
 				},\
 				"shiny": {\
 					"name": "ssbrc.fighter.pokemon_trainer.knock_off",\
 					"color": "dark_gray",\
-					"model": 1260,\
+					"model": -1,\
+					"tag": "knock_off"\
+				},\
+				"dawn": {\
+					"name": "ssbrc.fighter.pokemon_trainer.knock_off",\
+					"color": "dark_gray",\
+					"model": -1,\
 					"tag": "knock_off"\
 				},\
 				"victor": {\

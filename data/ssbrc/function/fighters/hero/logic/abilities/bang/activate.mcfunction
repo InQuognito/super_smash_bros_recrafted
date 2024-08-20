@@ -5,6 +5,7 @@ execute anchored eyes positioned ^ ^ ^1 summon minecraft:marker run function ssb
 function ssbrc:logic/item/durability/reset/slot {slot_string:"weapon.mainhand"}
 
 scoreboard players operation @s mana -= hero.bang.cost vars
+function ssbrc:fighters/hero/logic/mana/check
 
 playsound ssbrc:fighters.hero.bang.activate player @a
 

@@ -1,16 +1,10 @@
-[
-	{
-		"function": "minecraft:set_name",
-		"entity": "this",
-		"name": {
-			"translate": "ssbrc.fighter.hero.kaclang",
-			"color": "gray",
-			"bold": true,
-			"italic": false
-		}
-	},
-	{
-		"function": "minecraft:set_custom_model_data",
-		"value": 443
+{
+	"function": "minecraft:set_name",
+	"entity": "this",
+	"name": {
+		"translate": "ssbrc.fighter.hero.kaclang",
+		"color": "gray",
+		"bold": true,
+		"italic": false
 	}
-]
+}
