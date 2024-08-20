@@ -421,7 +421,7 @@ data modify storage ssbrc:data fighters set value {\
 				"prime_3": {\
 					"name": "ssbrc.fighter.dark_samus.phazon_beam",\
 					"color": "aqua",\
-					"model": 261,\
+					"model": 272,\
 					"tag": "phazon_beam"\
 				},\
 			},\
