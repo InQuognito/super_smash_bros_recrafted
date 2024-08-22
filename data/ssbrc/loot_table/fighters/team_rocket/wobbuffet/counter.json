@@ -24,6 +24,13 @@
 								"minecraft:attribute_modifiers": {
 									"modifiers": [
 										{
+											"type": "minecraft:generic.attack_damage",
+											"id": "ssbrc:attack_damage",
+											"amount": 0.35,
+											"operation": "add_multiplied_base",
+											"slot": "mainhand"
+										},
+										{
 											"type": "minecraft:generic.attack_speed",
 											"id": "ssbrc:attack_speed",
 											"amount": 2.5,
@@ -32,12 +39,14 @@
 										}
 									],
 									"show_in_tooltip": false
+								},
+								"minecraft:enchantments": {
+									"levels": {
+										"ssbrc:fighter/team_rocket/counter": 1
+									},
+									"show_in_tooltip": false
 								}
 							}
-						},
-						{
-							"function": "minecraft:reference",
-							"name": "ssbrc:fighters/team_rocket/wobbuffet/counter"
 						},
 						{
 							"function": "minecraft:reference",

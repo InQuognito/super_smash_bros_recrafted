@@ -1,8 +1,8 @@
 execute store result score @s health run data get entity @s Health
 
-execute store result score @s motion_x run data get entity @s Motion[1] 1000
-execute store result score @s motion_y run data get entity @s Motion[1] 1000
-execute store result score @s motion_z run data get entity @s Motion[1] 1000
+execute store result score @s motion_x run data get entity @s Motion[1] 1000.0
+execute store result score @s motion_y run data get entity @s Motion[1] 1000.0
+execute store result score @s motion_z run data get entity @s Motion[1] 1000.0
 
 scoreboard players remove @s[scores={cooldown.1=1..}] cooldown.1 1
 scoreboard players remove @s[scores={cooldown.2=1..}] cooldown.2 1

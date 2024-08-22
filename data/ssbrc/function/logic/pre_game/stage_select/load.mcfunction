@@ -15,7 +15,7 @@ execute positioned -46.5 8.5 24.5 rotated 180.0 0.0 run function ssbrc:logic/pre
 execute positioned -31.5 8.5 22.5 rotated 180.0 0.0 run function ssbrc:logic/pre_game/stage_select/featured/display/fixed with storage ssbrc:data stages.final_destination
 execute positioned -28.5 8.5 24.5 rotated 180.0 0.0 run function ssbrc:logic/pre_game/stage_select/featured/display/random
 
-summon minecraft:text_display -37.5 8.25 7.5 {text:'[{"text":"","color":"gold"},"✪ ",{"translate":"ssbrc.stage_select.stage_index"}," ✪"]',billboard:"center",alignment:"center"}
+summon minecraft:text_display -37.5 8.25 7.5 {Tags:["stage_index"],text:'[{"text":"","color":"gold"},"✪ ",{"translate":"ssbrc.stage_select.stage_index"}," ✪"]',billboard:"center",alignment:"center"}
 
 execute as @e[type=minecraft:text_display,tag=selected] at @s run data modify entity @s text set value '[{"translate":"ssbrc.stage_select.votes","color":"gold"},{"score":{"name":"@n[type=minecraft:text_display,tag=vote_counter]","objective":"stage_vote"},"bold":true,"color":"yellow"}]'
 

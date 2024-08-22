@@ -6,5 +6,6 @@ scoreboard players set $y player_motion.api.launch 10000
 function player_motion:api/launch_xyz
 
 function ssbrc:fighters/captain_falcon/logic/abilities/raptor_boost/raycast/abort
+execute as @a[tag=self,limit=1] run function ssbrc:fighters/captain_falcon/logic/abilities/raptor_boost/success
 
 playsound ssbrc:fighters.captain_falcon.raptor_boost.hit player @a

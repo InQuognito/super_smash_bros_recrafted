@@ -1,4 +1,3 @@
-item modify entity @s weapon.mainhand [{"function":"minecraft:reference","name":"ssbrc:init/animation/instant"},{"function":"minecraft:set_custom_data","tag":"{charging:\"true\"}"}]
+item modify entity @s weapon.mainhand [{"function":"minecraft:reference","name":"ssbrc:init/animation/instant"},{"function":"minecraft:set_custom_data","tag":"{charging:\"true\",charge:1}"}]
 
-execute unless data storage ssbrc:temp player.temp_data{skin:"gold"} run item modify entity @s weapon.mainhand [{"function":"minecraft:set_custom_model_data","value":263},{"function":"minecraft:set_custom_data","tag":"{charge:1}"}]
-execute if data storage ssbrc:temp player.temp_data{skin:"gold"} run item modify entity @s weapon.mainhand [{"function":"minecraft:set_custom_model_data","value":268},{"function":"minecraft:set_custom_data","tag":"{charge:1}"}]
+function ssbrc:logic/item/component/update/slot_unknown {mode:"add",amount:1,search_key:"item",search_value:"phazon_beam",component:"minecraft:custom_model_data",output_path:"model temp"}

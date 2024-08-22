@@ -9,6 +9,16 @@
 					"name": "minecraft:nether_star",
 					"functions": [
 						{
+							"function": "minecraft:set_name",
+							"entity": "this",
+							"name": {
+								"translate": "ssbrc.fighter.the_legend_of_zelda.boomerang",
+								"color": "gold",
+								"bold": true,
+								"italic": false
+							}
+						},
+						{
 							"function": "minecraft:reference",
 							"name": "ssbrc:fighters/zelda/dungeon_item"
 						},
