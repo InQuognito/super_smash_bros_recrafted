@@ -124,3 +124,31 @@ def safe_fall_distance(value):
 		return 999.0
 	else:
 		return value
+
+
+
+def init_item_data(file, fighter, skin, item):
+	mc_write(file, tab(4) + qm + skin + suf_e)
+
+	if 'name' in ssbrc.fighters[fighter]['items'][item][skin].keys():
+		mc_write(file, tab(5) + qm + 'name' + sep_s + ssbrc.fighters[fighter]['items'][item][skin]['name'] + suf_s)
+		if fighter != 'steve':
+			tag = ssbrc.fighters[fighter]['items'][item][skin]['name'].split('.')
+			mc_write(file, tab(5) + qm + 'tag' + sep_s + tag[3] + suf_s)
+	else:
+		mc_write(file, tab(5) + qm + 'name' + sep_s + ssbrc.fighters[fighter]['items'][item]['default']['name'] + suf_s)
+		if fighter != 'steve':
+			tag = ssbrc.fighters[fighter]['items'][item]['default']['name'].split('.')
+			mc_write(file, tab(5) + qm + 'tag' + sep_s + tag[3] + suf_s)
+
+	if 'color' in ssbrc.fighters[fighter]['items'][item][skin].keys():
+		mc_write(file, tab(5) + qm + 'color' + sep_s + ssbrc.fighters[fighter]['items'][item][skin]['color'] + suf_s)
+	else:
+		mc_write(file, tab(5) + qm + 'color' + sep_s + ssbrc.fighters[fighter]['items'][item]['default']['color'] + suf_s)
+
+	if 'model' in ssbrc.fighters[fighter]['items'][item][skin].keys():
+		mc_write(file, tab(5) + qm + 'model' + sep_n + str(ssbrc.fighters[fighter]['items'][item][skin]['model']) + ',')
+	else:
+		mc_write(file, tab(5) + qm + 'model' + sep_n + str(ssbrc.fighters[fighter]['items'][item]['default']['model']))
+
+	mc_write(file, tab(4) + ent)

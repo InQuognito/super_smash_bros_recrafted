@@ -81,35 +81,9 @@ def fighter_storage():
 				for item in ssbrc.fighters[fighter]['items']:
 					mc_write(file, tab(3) + qm + item + suf_e)
 					for skin in ['default','gold']:
-						mc_write(file, tab(4) + qm + skin + suf_e)
-						name = ssbrc.fighters[fighter]['items'][item][skin]['name']
-						if name == 'default':
-							mc_write(file, tab(5) + qm + 'name' + sep_s + ssbrc.fighters[fighter]['items'][item]['default']['name'] + suf_s)
-						else:
-							mc_write(file, tab(5) + qm + 'name' + sep_s + name + suf_s)
-						color = ssbrc.fighters[fighter]['items'][item][skin]['color']
-						if color == 'default':
-							mc_write(file, tab(5) + qm + 'color' + sep_s + ssbrc.fighters[fighter]['items'][item]['default']['color'] + suf_s)
-						else:
-							mc_write(file, tab(5) + qm + 'color' + sep_s + color + suf_s)
-						model = str(ssbrc.fighters[fighter]['items'][item][skin]['model'])
-						if model == 'default':
-							mc_write(file, tab(5) + qm + 'model' + sep_n + str(ssbrc.fighters[fighter]['items'][item]['default']['model']) + ',')
-						else:
-							mc_write(file, tab(5) + qm + 'model' + sep_n + model + ',')
-						tag = ssbrc.fighters[fighter]['items'][item][skin]['name'].split('.')
-						if fighter != 'steve':
-							mc_write(file, tab(5) + qm + 'tag' + sep_s + tag[3] + qm)
-						mc_write(file, tab(4) + ent)
+						init_item_data(file, fighter, skin, item)
 					for skin in ssbrc.fighters[fighter]['skins']:
-						mc_write(file, tab(4) + qm + skin + suf_e)
-						mc_write(file, tab(5) + qm + 'name' + sep_s + ssbrc.fighters[fighter]['items'][item][skin]['name'] + suf_s)
-						mc_write(file, tab(5) + qm + 'color' + sep_s + ssbrc.fighters[fighter]['items'][item][skin]['color'] + suf_s)
-						mc_write(file, tab(5) + qm + 'model' + sep_n + str(ssbrc.fighters[fighter]['items'][item][skin]['model']) + ',')
-						tag = ssbrc.fighters[fighter]['items'][item][skin]['name'].split('.')
-						if fighter != 'steve':
-							mc_write(file, tab(5) + qm + 'tag' + sep_s + tag[3] + qm)
-						mc_write(file, tab(4) + ent)
+						init_item_data(file, fighter, skin, item)
 					mc_write(file, tab(3) + ent)
 			mc_write(file, tab(2) + '}')
 			if f < fighter_count:
