@@ -1,7 +1,7 @@
 teleport @r[tag=teleport_me] @s
 teleport @r[team=spectator] @s
 
-spawnpoint @p[tag=teleport_me] ~ ~0.5 ~
+spawnpoint @p[tag=teleport_me] ~ ~1 ~
 tag @p[tag=teleport_me] remove teleport_me
 tag @s remove tp_dest
 

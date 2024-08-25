@@ -1,3 +1,3 @@
-data merge entity @s {ExplosionPower:2,Motion:[0.0f,-0.75f,0.0f],acceleration_power:0.075}
+teleport @s ~ ~ ~ ~ 90.0
 
-tag @s add drop
+data merge entity @s {Motion:[0d,-0.1d,0d],ExplosionPower:2,acceleration_power:0.1}

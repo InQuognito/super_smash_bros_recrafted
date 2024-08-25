@@ -1,7 +1,7 @@
-execute if entity @s[scores={charge.output=..40}] store success score entity_hit temp as @e[tag=!self,predicate=ssbrc:flag/targets,distance=..2.25] run function ssbrc:logic/damage/player {amount:"8.0",type:"generic",kb_resist:"0.0"}
-execute if entity @s[scores={charge.output=41..60}] store success score entity_hit temp as @e[tag=!self,predicate=ssbrc:flag/targets,distance=..2.5] run function ssbrc:logic/damage/player {amount:"10.0",type:"generic",kb_resist:"0.0"}
-execute if entity @s[scores={charge.output=61..80}] store success score entity_hit temp as @e[tag=!self,predicate=ssbrc:flag/targets,distance=..2.75] run function ssbrc:logic/damage/player {amount:"12.0",type:"generic",kb_resist:"0.0"}
-execute if entity @s[scores={charge.output=81..}] store success score entity_hit temp as @e[tag=!self,predicate=ssbrc:flag/targets,distance=..3.0] run function ssbrc:logic/damage/player {amount:"14.0",type:"generic",kb_resist:"0.0"}
+execute if entity @s[scores={charge.output=..40}] as @e[tag=!self,predicate=ssbrc:flag/targets,distance=..2.25] run function ssbrc:logic/damage/player {amount:"8.0",type:"generic",kb_resist:"0.0"}
+execute if entity @s[scores={charge.output=41..60}] as @e[tag=!self,predicate=ssbrc:flag/targets,distance=..2.5] run function ssbrc:logic/damage/player {amount:"10.0",type:"generic",kb_resist:"0.0"}
+execute if entity @s[scores={charge.output=61..80}] as @e[tag=!self,predicate=ssbrc:flag/targets,distance=..2.75] run function ssbrc:logic/damage/player {amount:"12.0",type:"generic",kb_resist:"0.0"}
+execute if entity @s[scores={charge.output=81..}] as @e[tag=!self,predicate=ssbrc:flag/targets,distance=..3.0] run function ssbrc:logic/damage/player {amount:"14.0",type:"generic",kb_resist:"0.0"}
 
 scoreboard players set @s rotation 1000
 item modify entity @s weapon.mainhand ssbrc:fighters/byleth/blue_lions/areadbhar

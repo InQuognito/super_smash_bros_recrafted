@@ -6,6 +6,8 @@
 		"minecraft:lime_stained_glass",
 		"minecraft:polished_andesite",
 		"minecraft:polished_andesite_stairs",
-		"minecraft:polished_andesite_slab"
+		"minecraft:polished_andesite_slab",
+		"minecraft:stone_brick_slab",
+		"minecraft:stone_bricks"
 	]
 }

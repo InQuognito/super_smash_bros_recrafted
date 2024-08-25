@@ -10,13 +10,6 @@
 						"amount": 8,
 						"operation": "add_multiplied_base",
 						"slot": "mainhand"
-					},
-					{
-						"type": "minecraft:generic.attack_speed",
-						"id": "ssbrc:attack_speed",
-						"amount": 2,
-						"operation": "add_multiplied_base",
-						"slot": "mainhand"
 					}
 				],
 				"show_in_tooltip": false

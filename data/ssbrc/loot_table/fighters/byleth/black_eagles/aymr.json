@@ -43,42 +43,85 @@
 							"name": "ssbrc:init/tooltip/ability/melee"
 						},
 						{
-							"function": "minecraft:reference",
-							"name": "ssbrc:fighters/byleth/black_eagles/aymr/default",
-							"conditions": [
+							"function": "minecraft:set_lore",
+							"entity": "this",
+							"lore": [
 								{
-									"condition": "minecraft:inverted",
-									"term": {
-										"condition": "minecraft:entity_scores",
-										"entity": "this",
-										"scores": {
-											"charge.output": {
-												"min": 30
-											}
+									"translate": "ssbrc.tooltip.hold_key",
+									"color": "gray",
+									"bold": false,
+									"italic": false,
+									"extra": [
+										{
+											"keybind": "key.sneak",
+											"color": "gray",
+											"bold": false,
+											"italic": false
+										},
+										{
+											"translate": "] + [",
+											"color": "gray",
+											"bold": false,
+											"italic": false
+										},
+										{
+											"keybind": "key.use",
+											"color": "gray",
+											"bold": false,
+											"italic": false
+										},
+										{
+											"translate": "ssbrc.fighter.byleth.black_eagles.aymr.description.1",
+											"color": "gray",
+											"bold": false,
+											"italic": false
 										}
-									}
+									]
+								},
+								{
+									"text": "- [",
+									"color": "gray",
+									"bold": false,
+									"italic": false,
+									"extra": [
+										{
+											"keybind": "key.sneak",
+											"color": "gray",
+											"bold": false,
+											"italic": false
+										},
+										{
+											"translate": "] + [",
+											"color": "gray",
+											"bold": false,
+											"italic": false
+										},
+										{
+											"keybind": "key.use",
+											"color": "gray",
+											"bold": false,
+											"italic": false
+										},
+										{
+											"translate": "ssbrc.fighter.byleth.black_eagles.aymr.description.2",
+											"color": "gray",
+											"bold": false,
+											"italic": false
+										}
+									]
 								}
-							]
+							],
+							"mode": "append"
 						},
 						{
 							"function": "minecraft:reference",
-							"name": "ssbrc:fighters/byleth/black_eagles/aymr/awakened",
-							"conditions": [
-								{
-									"condition": "minecraft:entity_scores",
-									"entity": "this",
-									"scores": {
-										"charge.output": {
-											"min": 30
-										}
-									}
-								}
-							]
+							"name": "ssbrc:fighters/byleth/black_eagles/aymr/default"
 						},
 						{
 							"function": "minecraft:set_components",
 							"components": {
-								"minecraft:max_damage": 6
+								"minecraft:max_damage": 16,
+								"custom_model_data": 100
 							}
 						},
 						{

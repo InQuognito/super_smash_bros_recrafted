@@ -1,4 +1,4 @@
-loot replace entity @s hotbar.2 loot ssbrc:fighters/link/boomerang
+function ssbrc:logic/item/give/default {item:"boomerang",type:"default"}
 
 loot replace entity @s weapon.offhand loot ssbrc:fighters/link/hylian_shield
 

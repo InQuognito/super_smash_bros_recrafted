@@ -1,3 +1,5 @@
-item modify entity @s weapon.mainhand ssbrc:fighters/shovel_knight/shovel_blade/shovel_drop/enable
+item modify entity @s weapon.mainhand {"function":"minecraft:set_custom_data","tag":"{shovel_drop:\"true\"}"}
 
-function ssbrc:logic/item/component/update/slot_known {mode:"add",amount:1,slot_string:"weapon.mainhand",component:"minecraft:custom_model_data",output_path:"model temp"}
+function ssbrc:logic/item/component/update/slot_unknown {mode:"add",amount:1,search_key:"item",search_value:"shovel_blade",component:"minecraft:custom_model_data",output_path:"model temp"}
+
+ say shovel_drop | enable

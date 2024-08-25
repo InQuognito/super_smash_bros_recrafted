@@ -9,6 +9,23 @@
 					"name": "minecraft:nether_star",
 					"functions": [
 						{
+							"function": "minecraft:set_components",
+							"components": {
+								"minecraft:attribute_modifiers": {
+									"modifiers": [
+										{
+											"type": "minecraft:generic.attack_speed",
+											"id": "ssbrc:attack_speed",
+											"amount": 2,
+											"operation": "add_multiplied_base",
+											"slot": "mainhand"
+										}
+									],
+									"show_in_tooltip": false
+								}
+							}
+						},
+						{
 							"function": "minecraft:reference",
 							"name": "ssbrc:init/preset/hybrid"
 						},
@@ -77,7 +94,7 @@
 						},
 						{
 							"function": "minecraft:reference",
-							"name": "ssbrc:fighters/link/master_sword"
+							"name": "ssbrc:fighters/link/master_sword/enable"
 						},
 						{
 							"function": "minecraft:set_custom_data",

@@ -16,22 +16,11 @@
 		"mainhand"
 	],
 	"effects": {
-		"minecraft:post_attack": [
+		"minecraft:tick": [
 			{
-				"enchanted": "attacker",
-				"affected": "attacker",
 				"effect": {
-					"type": "minecraft:all_of",
-					"effects": [
-						{
-							"type": "minecraft:run_function",
-							"function": "ssbrc:fighters/byleth/logic/blue_lions/areadbhar/break"
-						},
-						{
-							"type": "minecraft:damage_item",
-							"amount": 999
-						}
-					]
+					"type": "minecraft:run_function",
+					"function": "ssbrc:fighters/byleth/logic/blue_lions/areadbhar/break"
 				},
 				"requirements": {
 					"condition": "minecraft:entity_properties",

@@ -10,37 +10,6 @@
 		}
 	},
 	{
-		"function": "minecraft:set_lore",
-		"entity": "this",
-		"lore": [
-			{
-				"text": "- [",
-				"color": "gray",
-				"bold": false,
-				"italic": false,
-				"extra": [
-					{
-						"keybind": "key.use",
-						"color": "gray",
-						"bold": false,
-						"italic": false
-					},
-					{
-						"translate": "ssbrc.fighter.byleth.black_eagles.aymr.description.3",
-						"color": "gray",
-						"bold": false,
-						"italic": false
-					}
-				]
-			}
-		],
-		"mode": "append"
-	},
-	{
-		"function": "minecraft:set_custom_model_data",
-		"value": 101
-	},
-	{
 		"function": "minecraft:set_custom_data",
 		"tag": "{awakened:\"true\",chargable:\"false\"}"
 	}
