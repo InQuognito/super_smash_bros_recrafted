@@ -9,6 +9,16 @@
 					"name": "minecraft:nether_star",
 					"functions": [
 						{
+							"function": "minecraft:set_name",
+							"entity": "this",
+							"name": {
+								"translate": "ssbrc.fighter.greninja.night_slash",
+								"color": "dark_gray",
+								"bold": true,
+								"italic": false
+							}
+						},
+						{
 							"function": "minecraft:set_components",
 							"components": {
 								"minecraft:attribute_modifiers": {
@@ -54,6 +64,12 @@
 								}
 							],
 							"mode": "append"
+						},
+						{
+							"function": "minecraft:set_components",
+							"components": {
+								"minecraft:custom_model_data": 421
+							}
 						},
 						{
 							"function": "minecraft:set_custom_data",

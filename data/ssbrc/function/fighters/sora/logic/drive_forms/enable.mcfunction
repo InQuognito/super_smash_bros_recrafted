@@ -1,3 +1,3 @@
-loot replace entity @s hotbar.2 loot ssbrc:fighters/sora/drive_forms/valor
+function ssbrc:logic/item/init/slot {item:"valor_form",slot:"hotbar.2",type:"default"}
 
-loot replace entity @s hotbar.3 loot ssbrc:fighters/sora/drive_forms/wisdom
+function ssbrc:logic/item/init/slot {item:"wisdom_form",slot:"hotbar.3",type:"default"}

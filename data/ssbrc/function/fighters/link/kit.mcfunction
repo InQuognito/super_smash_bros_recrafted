@@ -1,4 +1,4 @@
-loot replace entity @s hotbar.0 loot ssbrc:fighters/link/master_sword
+function ssbrc:logic/item/init/slot {item:"master_sword",slot:"hotbar.0",type:"default"}
 
 function ssbrc:logic/item/init/slot {item:"fairy_bow",slot:"hotbar.1",type:"default"}
 

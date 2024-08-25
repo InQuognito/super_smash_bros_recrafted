@@ -9,16 +9,6 @@
 					"name": "minecraft:nether_star",
 					"functions": [
 						{
-							"function": "minecraft:set_name",
-							"entity": "this",
-							"name": {
-								"translate": "ssbrc.fighter.sora.wisdom_form",
-								"color": "blue",
-								"bold": true,
-								"italic": false
-							}
-						},
-						{
 							"function": "minecraft:reference",
 							"name": "ssbrc:init/preset/transformation"
 						},
@@ -104,35 +94,6 @@
 								}
 							],
 							"mode": "append"
-						},
-						{
-							"function": "minecraft:set_custom_model_data",
-							"value": 1568,
-							"conditions": [
-								{
-									"condition": "minecraft:inverted",
-									"term": {
-										"condition": "minecraft:entity_properties",
-										"entity": "this",
-										"predicate": {
-											"nbt": "{Tags:[\"timeless_river\"]}"
-										}
-									}
-								}
-							]
-						},
-						{
-							"function": "minecraft:set_custom_model_data",
-							"value": 1570,
-							"conditions": [
-								{
-									"condition": "minecraft:entity_properties",
-									"entity": "this",
-									"predicate": {
-										"nbt": "{Tags:[\"timeless_river\"]}"
-									}
-								}
-							]
 						},
 						{
 							"function": "minecraft:set_custom_data",
