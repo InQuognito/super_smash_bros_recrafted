@@ -2345,7 +2345,7 @@ data modify storage ssbrc:data fighters set value {\
 			}\
 		},\
 		"items": {\
-			"keyblade": {\
+			"keyblade_primary": {\
 				"default": {\
 					"name": "ssbrc.fighter.sora.kingdom_key",\
 					"tag": "kingdom_key",\
@@ -2356,13 +2356,93 @@ data modify storage ssbrc:data fighters set value {\
 					"name": "ssbrc.fighter.sora.kingdom_key",\
 					"tag": "kingdom_key",\
 					"color": "gold",\
-					"model": 1571,\
+					"model": 1564,\
 				},\
 				"timeless_river": {\
 					"name": "ssbrc.fighter.sora.monochrome",\
 					"tag": "monochrome",\
 					"color": "gray",\
-					"model": 1563,\
+					"model": 1567,\
+				},\
+			},\
+			"keyblade_secondary": {\
+				"default": {\
+					"name": "ssbrc.fighter.sora.star_seeker",\
+					"tag": "star_seeker",\
+					"color": "blue",\
+					"model": 1562,\
+				},\
+				"gold": {\
+					"name": "ssbrc.fighter.sora.star_seeker",\
+					"tag": "star_seeker",\
+					"color": "gold",\
+					"model": 1565,\
+				},\
+				"timeless_river": {\
+					"name": "ssbrc.fighter.sora.classic_tone",\
+					"tag": "classic_tone",\
+					"color": "gray",\
+					"model": 1568,\
+				},\
+			},\
+			"keyblade_strike_raid": {\
+				"default": {\
+					"name": "ssbrc.fighter.sora.kingdom_key",\
+					"tag": "kingdom_key",\
+					"color": "yellow",\
+					"model": 1561,\
+				},\
+				"gold": {\
+					"name": "ssbrc.fighter.sora.kingdom_key",\
+					"tag": "kingdom_key",\
+					"color": "gold",\
+					"model": 1564,\
+				},\
+				"timeless_river": {\
+					"name": "ssbrc.fighter.sora.monochrome",\
+					"tag": "monochrome",\
+					"color": "gray",\
+					"model": 1567,\
+				},\
+			},\
+			"valor_form": {\
+				"default": {\
+					"name": "ssbrc.fighter.sora.valor_form",\
+					"tag": "valor_form",\
+					"color": "red",\
+					"model": 1570,\
+				},\
+				"gold": {\
+					"name": "ssbrc.fighter.sora.valor_form",\
+					"tag": "valor_form",\
+					"color": "red",\
+					"model": 1570\
+				},\
+				"timeless_river": {\
+					"name": "ssbrc.fighter.sora.valor_form",\
+					"tag": "valor_form",\
+					"color": "red",\
+					"model": 1572,\
+				},\
+			},\
+			"wisdom_form": {\
+				"default": {\
+					"name": "ssbrc.fighter.sora.wisdom_form",\
+					"tag": "wisdom_form",\
+					"color": "blue",\
+					"model": 1571,\
+				},\
+				"gold": {\
+					"name": "ssbrc.fighter.sora.wisdom_form",\
+					"tag": "wisdom_form",\
+					"color": "blue",\
+					"model": 1571\
+				},\
+				"timeless_river": {\
+					"name": "ssbrc.fighter.sora.wisdom_form",\
+					"tag": "wisdom_form",\
+					"color": "blue",\
+					"model": 1573,\
 				},\
 			},\
 		}\

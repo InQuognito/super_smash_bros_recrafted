@@ -2,9 +2,8 @@ function ssbrc:fighters/sora/logic/drive_forms/update {form:"valor"}
 
 title @s actionbar ""
 
-function ssbrc:logic/item/replace/get {search_key:"item",search_value:"keyblade",path:"ssbrc:fighters/sora/keyblades/primary/strike_raid"}
+function ssbrc:logic/item/replace/get {search_key:"item",search_value:"keyblade",path:"ssbrc:fighters/sora/keyblade_strike_raid"}
 
-execute unless items entity @s weapon.offhand minecraft:nether_star[minecraft:custom_data~{item:"keyblade",hand:"secondary"}] unless items entity @s weapon.offhand * run loot replace entity @s weapon.offhand loot ssbrc:fighters/sora/keyblades/secondary/strike_raid
-execute unless items entity @s weapon.offhand minecraft:nether_star[minecraft:custom_data~{item:"keyblade",hand:"secondary"}] if items entity @s weapon.offhand * run loot give @s loot ssbrc:fighters/sora/keyblades/secondary/strike_raid
+function ssbrc:logic/item/give/offhand {item:"keyblade_secondary",type:"default"}
 
 attribute @s minecraft:generic.jump_strength modifier add ssbrc:valor_form 0.2 add_multiplied_base
