@@ -12,8 +12,8 @@
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"translate": "ssbrc.fighter.sora.starSeeker",
-								"color": "blue",
+								"translate": "ssbrc.fighter.sora.kingdom_key",
+								"color": "white",
 								"bold": true,
 								"italic": false
 							},
@@ -31,7 +31,7 @@
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"translate": "ssbrc.fighter.sora.starSeeker",
+								"translate": "ssbrc.fighter.sora.kingdom_key",
 								"color": "gold",
 								"bold": true,
 								"italic": false
@@ -50,8 +50,8 @@
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"translate": "ssbrc.fighter.sora.classicTone",
-								"color": "yellow",
+								"translate": "ssbrc.fighter.sora.monochrome",
+								"color": "gray",
 								"bold": true,
 								"italic": false
 							},
@@ -72,10 +72,6 @@
 						{
 							"function": "minecraft:reference",
 							"name": "ssbrc:fighters/sora/keyblades/strike_raid"
-						},
-						{
-							"function": "minecraft:reference",
-							"name": "ssbrc:fighters/sora/keyblades/secondary"
 						}
 					]
 				}

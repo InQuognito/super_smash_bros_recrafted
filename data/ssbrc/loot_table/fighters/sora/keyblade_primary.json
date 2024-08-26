@@ -1,0 +1,24 @@
+{
+	"type": "minecraft:command",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:nether_star",
+					"functions": [
+						{
+							"function": "minecraft:reference",
+							"name": "ssbrc:fighters/sora/keyblades/init"
+						},
+						{
+							"function": "minecraft:set_custom_data",
+							"tag": "{hand:\"primary\"}"
+						}
+					]
+				}
+			]
+		}
+	]
+}
