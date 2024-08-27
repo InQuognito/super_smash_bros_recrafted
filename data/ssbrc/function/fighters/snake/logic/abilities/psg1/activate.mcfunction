@@ -5,7 +5,7 @@ execute anchored eyes positioned ^ ^ ^1 summon minecraft:marker run function ssb
 
 scoreboard players remove @s weapon_2.ammo 1
 
-scoreboard players set @s cooldown 20
+scoreboard players add @s cooldown 20
 
 execute if entity @s[scores={weapon_2.mags=1..,weapon_2.ammo=0}] run function ssbrc:fighters/snake/logic/abilities/psg1/reload/start
 

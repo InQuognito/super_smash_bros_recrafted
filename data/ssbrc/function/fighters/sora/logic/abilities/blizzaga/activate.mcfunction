@@ -4,7 +4,7 @@ execute anchored eyes positioned ^ ^ ^1 run function ssbrc:fighters/sora/logic/a
 
 scoreboard players operation @s mana -= sora.blizzaga.cost vars
 
-scoreboard players set @s cooldown 40
+scoreboard players add @s cooldown 40
 
 playsound ssbrc:fighters.sora.blizzaga.activate player @a
 

@@ -4,6 +4,9 @@ execute store result score @s motion_x run data get entity @s Motion[1] 1000.0
 execute store result score @s motion_y run data get entity @s Motion[1] 1000.0
 execute store result score @s motion_z run data get entity @s Motion[1] 1000.0
 
+execute if score @s crawling matches 1 run function ssbrc:logic/fighters/crawl/off
+execute unless score @s crawling matches 1 positioned ~ ~0.601 ~ unless entity @s[dx=0] unless predicate ssbrc:flag/flying run function ssbrc:logic/fighters/crawl/on
+
 scoreboard players remove @s[scores={cooldown.1=1..}] cooldown.1 1
 scoreboard players remove @s[scores={cooldown.2=1..}] cooldown.2 1
 scoreboard players remove @s[scores={cooldown.3=1..}] cooldown.3 1

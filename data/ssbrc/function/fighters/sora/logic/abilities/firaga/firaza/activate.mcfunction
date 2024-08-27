@@ -2,7 +2,7 @@ scoreboard players set @s charge.3 1
 
 scoreboard players operation @s mana -= sora.firaza.cost vars
 
-scoreboard players set @s cooldown 60
+scoreboard players add @s cooldown 60
 
 playsound ssbrc:fighters.sora.firaza.activate player @a
 

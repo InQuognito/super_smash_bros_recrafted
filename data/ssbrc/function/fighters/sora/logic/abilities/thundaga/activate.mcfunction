@@ -7,6 +7,6 @@ execute if score electric_terrain temp matches 1 run scoreboard players operatio
 
 scoreboard players operation @s mana -= sora.thunder.cost temp
 
-scoreboard players set @s cooldown 60
+scoreboard players add @s cooldown 60
 
 function ssbrc:logic/fighters/ability/deinit

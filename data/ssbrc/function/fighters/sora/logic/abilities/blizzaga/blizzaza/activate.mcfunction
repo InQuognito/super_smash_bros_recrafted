@@ -8,6 +8,6 @@ execute if entity @s[scores={charge.4=..2}] run playsound ssbrc:fighters.sora.bl
 execute if entity @s[scores={charge.4=3..}] run function ssbrc:fighters/sora/logic/abilities/blizzaga/blizzaza/burst/activate
 scoreboard players operation @s mana -= sora.blizzaza.cost temp
 
-scoreboard players set @s cooldown 10
+scoreboard players add @s cooldown 10
 
 function ssbrc:logic/fighters/ability/deinit

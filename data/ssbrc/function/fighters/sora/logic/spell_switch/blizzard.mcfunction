@@ -5,7 +5,7 @@ item modify entity @s weapon.mainhand [{"function":"minecraft:set_components","c
 
 function ssbrc:fighters/sora/logic/spell_switch/display/spell_order {spell_1:"blizzard",spell_1_color:"aqua",spell_2:"thunder",spell_2_color:"yellow",spell_3:"fire",spell_3_color:"red"}
 
-scoreboard players set @s cooldown 5
+scoreboard players add @s cooldown 5
 
 advancement grant @s only ssbrc:ui/popup/sora
 

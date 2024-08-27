@@ -6,4 +6,4 @@ $function ssbrc:logic/pre_game/stage_select/stage_index/pages/$(page)
 
 $function ssbrc:logic/stages/vote_init {name:"$(name)"}
 
-scoreboard players set @s cooldown 10
+scoreboard players add @s cooldown 10

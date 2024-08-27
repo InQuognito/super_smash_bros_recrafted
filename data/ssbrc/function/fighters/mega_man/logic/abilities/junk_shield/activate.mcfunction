@@ -14,6 +14,6 @@ execute summon minecraft:item_display run function ssbrc:fighters/mega_man/logic
 
 scoreboard players remove @s mega_man.junk_shield 1
 
-scoreboard players set @s cooldown 20
+scoreboard players add @s cooldown 20
 
 function ssbrc:logic/fighters/ability/deinit

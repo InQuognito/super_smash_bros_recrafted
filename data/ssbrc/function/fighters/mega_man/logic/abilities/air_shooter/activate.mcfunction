@@ -4,7 +4,7 @@ execute anchored eyes positioned ^ ^ ^1 run function ssbrc:fighters/mega_man/log
 
 function ssbrc:logic/item/durability/reset/slot {slot_string:"weapon.mainhand"}
 
-scoreboard players set @s cooldown 20
+scoreboard players add @s cooldown 20
 
 scoreboard players remove @s mega_man.air_shooter 1
 

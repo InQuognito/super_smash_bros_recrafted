@@ -4,7 +4,7 @@ execute anchored eyes positioned ^ ^ ^1 summon minecraft:item_display run functi
 
 function ssbrc:logic/item/durability/reset/slot {slot_string:"weapon.mainhand"}
 
-scoreboard players set @s cooldown 20
+scoreboard players add @s cooldown 20
 
 scoreboard players remove @s mega_man.drill_bomb 1
 

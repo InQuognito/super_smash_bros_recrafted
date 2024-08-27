@@ -4,7 +4,7 @@ execute positioned ~ ~0.1 ~ summon minecraft:marker run function ssbrc:fighters/
 
 scoreboard players set @s duration.2 10
 
-scoreboard players set @s cooldown 30
+scoreboard players add @s cooldown 30
 
 scoreboard players remove @s mega_man.pile_driver 1
 

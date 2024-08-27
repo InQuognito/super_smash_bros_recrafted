@@ -4,7 +4,7 @@ particle minecraft:crimson_spore ~ ~ ~ 0.05 0.0 0.05 0.0 100 normal @a
 
 execute as @e[predicate=ssbrc:flag/targets,tag=!self,distance=..6] unless block ~ ~-0.5 ~ minecraft:air run function ssbrc:logic/damage/player {amount:"16.0",type:"generic",kb_resist:"0.0"}
 
-scoreboard players set @s cooldown 10
+scoreboard players add @s cooldown 10
 
 item modify entity @s weapon.mainhand ssbrc:fighters/byleth/black_eagles/aymr/default
 function ssbrc:logic/item/component/update/slot_unknown {mode:"remove",amount:1,search_key:"item",search_value:"aymr",component:"minecraft:custom_model_data",output_path:"model temp"}

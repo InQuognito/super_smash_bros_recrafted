@@ -8,6 +8,6 @@ execute as @a[tag=self,limit=1,distance=..2.5] run function ssbrc:logic/damage/u
 
 kill @s
 
-scoreboard players set @a[tag=self,limit=1] cooldown 20
+scoreboard players add @a[tag=self,limit=1] cooldown 20
 
 playsound ssbrc:fighters.mega_man.remote_mine.explode player @a

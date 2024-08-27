@@ -18,6 +18,7 @@ scoreboard objectives add cooldown dummy
 scoreboard objectives add cooldown.1 dummy
 scoreboard objectives add cooldown.2 dummy
 scoreboard objectives add cooldown.3 dummy
+scoreboard objectives add crawling dummy
 scoreboard objectives add stats.credits.temp dummy
 scoreboard objectives add debug trigger
 scoreboard players set @a debug 0

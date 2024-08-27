@@ -52,8 +52,12 @@
 							"mode": "append"
 						},
 						{
+							"function": "minecraft:reference",
+							"name": "ssbrc:fighters/yar/gatling_gun/off"
+						},
+						{
 							"function": "minecraft:set_custom_data",
-							"tag": "{item:\"gatling_gun\"}"
+							"tag": "{item:\"gatling_gun\",path:\"yar/logic/abilities/ray_blaster/variants/gatling_gun/charge/off\"}"
 						}
 					]
 				}

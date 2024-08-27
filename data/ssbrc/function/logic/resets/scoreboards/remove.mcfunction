@@ -16,6 +16,7 @@ scoreboard objectives remove cooldown
 scoreboard objectives remove cooldown.1
 scoreboard objectives remove cooldown.2
 scoreboard objectives remove cooldown.3
+scoreboard objectives remove crawling
 scoreboard objectives remove stats.credits.temp
 scoreboard objectives remove debug
 scoreboard objectives remove drop_item

@@ -19,6 +19,10 @@
 							}
 						},
 						{
+							"function": "minecraft:reference",
+							"name": "ssbrc:init/tooltip/ability/melee"
+						},
+						{
 							"function": "minecraft:set_components",
 							"components": {
 								"minecraft:attribute_modifiers": {
@@ -50,10 +54,6 @@
 								"minecraft:max_damage": 10,
 								"minecraft:custom_model_data": 100
 							}
-						},
-						{
-							"function": "minecraft:reference",
-							"name": "ssbrc:init/tooltip/ability/melee"
 						},
 						{
 							"function": "minecraft:set_custom_data",

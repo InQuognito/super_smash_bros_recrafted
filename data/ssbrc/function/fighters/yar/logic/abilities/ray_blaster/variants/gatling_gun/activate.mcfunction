@@ -9,7 +9,7 @@ scoreboard players operation @s cooldown.1 -= gatling_gun.charge temp
 scoreboard players set @s[scores={cooldown.1=..0}] cooldown.1 1
 execute if entity @s[scores={shadow.chaos_control=1..}] run function ssbrc:logic/item/cooldown/chaos_control {type:"1"}
 
-#execute if score @s charge.output matches 1 run function ssbrc:logic/item/component/update/slot_unknown {mode:"add",amount:1,search_key:"item",search_value:"gatling_gun",component:"minecraft:custom_model_data",output_path:"model temp"}
+execute if score @s cooldown.1 matches 15 run function ssbrc:fighters/yar/logic/abilities/ray_blaster/variants/gatling_gun/charge/on
 
 playsound ssbrc:fighters.yar.gatling_gun.activate player @a
 

@@ -37,7 +37,7 @@ function ssbrc:logic/player_data/stats/init/run
 #function ssbrc:logic/player_profile/give
 loot replace entity @s inventory.13 loot ssbrc:statistics
 
-scoreboard players set @s cooldown 0
+scoreboard players add @s cooldown 0
 
 function ssbrc:shop/pages/main
 

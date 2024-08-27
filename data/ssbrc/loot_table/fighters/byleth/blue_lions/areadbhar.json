@@ -9,6 +9,14 @@
 					"name": "minecraft:iron_sword",
 					"functions": [
 						{
+							"function": "minecraft:reference",
+							"name": "ssbrc:init/tooltip/ability/melee"
+						},
+						{
+							"function": "minecraft:reference",
+							"name": "ssbrc:init/ability/charge"
+						},
+						{
 							"function": "minecraft:set_components",
 							"components": {
 								"minecraft:attribute_modifiers": {
@@ -35,16 +43,9 @@
 										"ssbrc:fighter/byleth/areadbhar": 1
 									},
 									"show_in_tooltip": false
-								}
+								},
+								"minecraft:max_damage": 20
 							}
-						},
-						{
-							"function": "minecraft:reference",
-							"name": "ssbrc:init/tooltip/ability/melee"
-						},
-						{
-							"function": "minecraft:reference",
-							"name": "ssbrc:init/ability/charge"
 						},
 						{
 							"function": "minecraft:set_lore",
@@ -88,12 +89,6 @@
 						{
 							"function": "minecraft:reference",
 							"name": "ssbrc:fighters/byleth/blue_lions/areadbhar"
-						},
-						{
-							"function": "minecraft:set_components",
-							"components": {
-								"minecraft:max_damage": 20
-							}
 						},
 						{
 							"function": "minecraft:set_custom_data",

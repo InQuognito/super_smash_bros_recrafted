@@ -37,6 +37,6 @@ execute if data storage ssbrc:temp player.temp_data{fighter:"wolf"} run tellraw 
 execute if data storage ssbrc:temp player.temp_data{fighter:"yar"} run tellraw @s [{"text":"[","color":"dark_aqua"},{"translate":"ssbrc.fighter.menu.wiki","color":"aqua","clickEvent":{"action":"open_url","value":"https://super-smash-bros-recrafted.fandom.com/wiki/Yar"}},{"text":"]","color":"dark_aqua"}]
 execute if data storage ssbrc:temp player.temp_data{fighter:"zelda"} run tellraw @s [{"text":"[","color":"dark_aqua"},{"translate":"ssbrc.fighter.menu.wiki","color":"aqua","clickEvent":{"action":"open_url","value":"https://super-smash-bros-recrafted.fandom.com/wiki/Zelda"}},{"text":"]","color":"dark_aqua"}]
 
-scoreboard players set @s cooldown 5
+scoreboard players add @s cooldown 5
 
 advancement revoke @s only ssbrc:utility/use_item/wiki

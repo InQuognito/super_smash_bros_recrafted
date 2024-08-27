@@ -7,6 +7,6 @@ scoreboard players set @s charge.output 0
 
 function ssbrc:logic/item/init/slot {item:"phazon_beam",slot:"weapon.mainhand",type:"default"}
 
-scoreboard players set @s cooldown 10
+scoreboard players add @s cooldown 10
 
 function ssbrc:logic/fighters/ability/deinit

@@ -9,6 +9,10 @@
 					"name": "minecraft:iron_axe",
 					"functions": [
 						{
+							"function": "minecraft:reference",
+							"name": "ssbrc:init/tooltip/ability/melee"
+						},
+						{
 							"function": "minecraft:set_components",
 							"components": {
 								"minecraft:attribute_modifiers": {
@@ -35,12 +39,10 @@
 										"ssbrc:fighter/byleth/aymr": 1
 									},
 									"show_in_tooltip": false
-								}
+								},
+								"minecraft:max_damage": 16,
+								"custom_model_data": 100
 							}
-						},
-						{
-							"function": "minecraft:reference",
-							"name": "ssbrc:init/tooltip/ability/melee"
 						},
 						{
 							"function": "minecraft:set_lore",
@@ -116,13 +118,6 @@
 						{
 							"function": "minecraft:reference",
 							"name": "ssbrc:fighters/byleth/black_eagles/aymr/default"
-						},
-						{
-							"function": "minecraft:set_components",
-							"components": {
-								"minecraft:max_damage": 16,
-								"custom_model_data": 100
-							}
 						},
 						{
 							"function": "minecraft:set_custom_data",
