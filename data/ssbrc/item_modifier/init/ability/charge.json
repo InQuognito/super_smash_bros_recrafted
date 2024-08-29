@@ -1,12 +1,10 @@
 [
 	{
-		"function": "minecraft:set_components",
-		"components": {
-			"minecraft:damage": 0
-		}
+		"function": "minecraft:reference",
+		"name": "ssbrc:init/ability/default"
 	},
 	{
-		"function": "minecraft:reference",
-		"name": "ssbrc:init/ability/charge_durability"
+		"function": "minecraft:set_custom_data",
+		"tag": "{chargable:\"true\"}"
 	}
 ]

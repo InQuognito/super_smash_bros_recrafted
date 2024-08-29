@@ -58,6 +58,12 @@
 							"mode": "append"
 						},
 						{
+							"function": "minecraft:set_components",
+							"components": {
+								"minecraft:max_damage": 1
+							}
+						},
+						{
 							"function": "minecraft:set_custom_data",
 							"tag": "{item:\"blood_metamorphosis\"}"
 						}

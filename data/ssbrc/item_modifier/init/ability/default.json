@@ -8,6 +8,8 @@
 				"sound_id":"ssbrc:empty"
 			},
 			"has_consume_particles": false
-		}
+		},
+		"minecraft:damage": 0,
+		"max_stack_size": 1
 	}
 }

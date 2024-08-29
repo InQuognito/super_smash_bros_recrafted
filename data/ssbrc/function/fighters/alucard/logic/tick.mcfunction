@@ -6,5 +6,8 @@ execute if entity @s[scores={cooldown.1=..0},predicate=ssbrc:flag/sneaking,predi
 
 execute if entity @s[scores={duration.1=1..}] positioned ~ ~0.75 ~ run function ssbrc:fighters/alucard/logic/abilities/mist/tick
 
+# Blood Metamorphosis
+execute unless entity @s[tag=blood_metamorphosis] run function ssbrc:logic/item/cooldown/display/check {item:"blood_metamorphosis"}
+
 # Particles
 execute if entity @s[tag=blood_metamorphosis] run particle minecraft:mycelium ~ ~0.5 ~ 0.35 0.7 0.35 1 5 normal @a
