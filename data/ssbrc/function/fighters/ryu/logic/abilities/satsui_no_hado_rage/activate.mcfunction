@@ -7,7 +7,7 @@ function ssbrc:logic/fighters/effects/cleanse
 
 effect give @s minecraft:absorption infinite 1 true
 effect give @s minecraft:speed infinite 0 true
-attribute @s minecraft:generic.attack_damage modifier add ssbrc:fighters/ryu/satsui_no_hado_rage 1.25 add_multiplied_base
+attribute @s minecraft:attack_damage modifier add ssbrc:fighters/ryu/satsui_no_hado_rage 1.25 add_multiplied_base
 
 scoreboard players set @s duration.1 400
 

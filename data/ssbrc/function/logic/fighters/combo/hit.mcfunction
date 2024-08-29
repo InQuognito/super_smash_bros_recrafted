@@ -4,7 +4,7 @@ execute if score @s combo.duration matches -4..0 run scoreboard players add @s c
 # Reset combo duration
 scoreboard players set combo.duration temp 2000
 
-execute store result score combo.rate temp run attribute @s minecraft:generic.attack_speed get 100.0
+execute store result score combo.rate temp run attribute @s minecraft:attack_speed get 100.0
 scoreboard players operation combo.duration temp /= combo.rate temp
 execute if score combo.duration temp matches ..9 run scoreboard players set combo.duration temp 10
 scoreboard players operation @s combo.duration = combo.duration temp

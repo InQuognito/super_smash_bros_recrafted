@@ -4,7 +4,7 @@ function ssbrc:logic/item/replace/get {search_key:"item",search_value:"rebel_kni
 
 clear @s minecraft:nether_star[minecraft:custom_data~{group:"persona_awakening"}]
 
-attribute @s minecraft:generic.knockback_resistance modifier remove ssbrc:yatagarasu
+attribute @s minecraft:knockback_resistance modifier remove ssbrc:yatagarasu
 
 function ssbrc:logic/item/component/update/slot_unknown {mode:"add",amount:1,search_key:"group",search_value:"persona",component:"minecraft:custom_model_data",output_path:"model temp"}
 

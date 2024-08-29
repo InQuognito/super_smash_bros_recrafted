@@ -1,4 +1,4 @@
-execute store result score training_dummy.damage temp run attribute @s minecraft:generic.max_health get
+execute store result score training_dummy.damage temp run attribute @s minecraft:max_health get
 execute store result score training_dummy.health temp run data get entity @s Health
 
 scoreboard players operation training_dummy.damage temp -= training_dummy.health temp

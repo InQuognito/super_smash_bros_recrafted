@@ -1,6 +1,6 @@
 function ssbrc:fighters/altered_beast/kits/update {form:"weretiger"}
 
-attribute @s minecraft:generic.safe_fall_distance base set 20.0
+attribute @s minecraft:safe_fall_distance base set 20.0
 
 effect give @s minecraft:resistance 2 3 true
 

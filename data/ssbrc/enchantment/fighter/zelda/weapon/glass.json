@@ -19,7 +19,7 @@
 		"minecraft:attributes": [
 			{
 				"id": "ssbrc:fighter/zelda/glass",
-				"attribute": "minecraft:generic.attack_damage",
+				"attribute": "minecraft:attack_damage",
 				"amount": {
 					"type": "minecraft:lookup",
 					"values": [

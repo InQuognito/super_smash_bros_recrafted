@@ -1,4 +1,4 @@
-attribute @s minecraft:generic.armor modifier add ssbrc:fighters/zelda/enchant_armor 0.5 add_multiplied_base
+attribute @s minecraft:armor modifier add ssbrc:fighters/zelda/enchant_armor 0.5 add_multiplied_base
 
 scoreboard players set @s zelda.enchant_armor 600
 

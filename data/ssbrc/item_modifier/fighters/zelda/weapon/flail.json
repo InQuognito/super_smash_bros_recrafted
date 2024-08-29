@@ -5,14 +5,14 @@
 			"minecraft:attribute_modifiers": {
 				"modifiers": [
 					{
-						"type": "minecraft:generic.attack_damage",
+						"type": "minecraft:attack_damage",
 						"id": "ssbrc:attack_damage",
 						"amount": 8,
 						"operation": "add_multiplied_base",
 						"slot": "mainhand"
 					},
 					{
-						"type": "minecraft:generic.attack_speed",
+						"type": "minecraft:attack_speed",
 						"id": "ssbrc:attack_speed",
 						"amount": 0.75,
 						"operation": "add_multiplied_base",

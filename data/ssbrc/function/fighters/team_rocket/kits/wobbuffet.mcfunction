@@ -6,4 +6,4 @@ loot replace entity @s hotbar.1 loot ssbrc:fighters/team_rocket/wobbuffet/destin
 
 loot replace entity @s hotbar.2 loot ssbrc:fighters/team_rocket/wobbuffet/splash
 
-attribute @s minecraft:generic.movement_speed base set 0.085
+attribute @s minecraft:movement_speed base set 0.085

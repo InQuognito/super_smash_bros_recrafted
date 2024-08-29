@@ -6,8 +6,8 @@ execute if data storage ssbrc:temp player.temp_data{skin:"gold"} run item replac
 
 item replace entity @s horse.saddle with minecraft:saddle
 
-attribute @s minecraft:generic.jump_strength base set 0.7
-attribute @s minecraft:generic.movement_speed base set 0.3
+attribute @s minecraft:jump_strength base set 0.7
+attribute @s minecraft:movement_speed base set 0.3
 
 data merge entity @s {Variant:3,Tame:1b,Glowing:1b,PersistenceRequired:1b}
 

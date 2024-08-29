@@ -1,7 +1,7 @@
 function ssbrc:fighters/altered_beast/kits/update {form:"werebear"}
 
-attribute @s minecraft:generic.armor base set 14.0
-attribute @s minecraft:generic.jump_strength base set 0.5
+attribute @s minecraft:armor base set 14.0
+attribute @s minecraft:jump_strength base set 0.5
 
 function ssbrc:logic/item/init/slot {item:"bear_claw",slot:"hotbar.0",type:"default"}
 loot replace entity @s hotbar.1 loot ssbrc:fighters/altered_beast/petrifying_breath

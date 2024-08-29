@@ -1,8 +1,8 @@
 tag @s add stalfos
 
-attribute @s minecraft:generic.follow_range base set 2048.0
-attribute @s minecraft:generic.movement_speed base set 0.3
-attribute @s minecraft:generic.max_health base set 12.0
+attribute @s minecraft:follow_range base set 2048.0
+attribute @s minecraft:movement_speed base set 0.3
+attribute @s minecraft:max_health base set 12.0
 
 loot replace entity @s weapon.mainhand loot ssbrc:fighters/ganondorf/stalfos_sword
 item replace entity @s weapon.offhand with minecraft:shield

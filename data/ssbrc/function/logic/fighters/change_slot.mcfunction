@@ -1,3 +1,5 @@
+item replace entity @s enderchest.0 from entity @s weapon.mainhand
+
 execute if data storage ssbrc:temp player.temp_data{fighter:"altered_beast",form:"werewolf"} run function ssbrc:fighters/altered_beast/logic/werewolf/flame_hands/give
 
 execute if data storage ssbrc:temp player.temp_data{fighter:"joker"} run title @s actionbar ""

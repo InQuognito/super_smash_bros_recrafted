@@ -11,7 +11,7 @@ execute if data storage ssbrc:temp player.temp_data{fighter:"shovel_knight"} run
 execute if data storage ssbrc:temp player.temp_data{fighter:"snake"} run function ssbrc:fighters/snake/logic/scavenger/all
 execute if data storage ssbrc:temp player.temp_data{fighter:"sora"} run function ssbrc:fighters/sora/logic/drive_forms/enable
 
-attribute @s minecraft:generic.max_health base set 20.0
+attribute @s minecraft:max_health base set 20.0
 
 damage @s 0.1
 effect give @s minecraft:instant_health 1 50 true

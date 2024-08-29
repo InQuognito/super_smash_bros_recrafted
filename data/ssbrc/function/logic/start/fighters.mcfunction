@@ -3,7 +3,7 @@ scoreboard players set @s points 0
 
 scoreboard players operation @s stocks = stocks temp
 
-attribute @s minecraft:generic.jump_strength base set 0.42
+attribute @s minecraft:jump_strength base set 0.42
 effect clear @s minecraft:slowness
 
 execute store result score @s health run data get entity @s Health

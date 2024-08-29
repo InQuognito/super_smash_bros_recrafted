@@ -6,4 +6,4 @@ function ssbrc:logic/item/replace/get {search_key:"item",search_value:"keyblade"
 
 function ssbrc:logic/item/give/offhand {item:"keyblade_secondary",type:"default"}
 
-attribute @s minecraft:generic.jump_strength modifier add ssbrc:valor_form 0.2 add_multiplied_base
+attribute @s minecraft:jump_strength modifier add ssbrc:valor_form 0.2 add_multiplied_base

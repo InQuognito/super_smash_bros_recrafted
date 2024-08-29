@@ -91,7 +91,10 @@
 						{
 							"function": "minecraft:set_components",
 							"components": {
-								"minecraft:max_damage": 60
+								"minecraft:use_cooldown": {
+									"seconds": 3,
+									"cooldownGroup": "ssbrc:samus"
+								}
 							}
 						},
 						{

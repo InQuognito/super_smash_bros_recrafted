@@ -12,8 +12,8 @@ execute if entity @s[scores={weapon_3.reload=1..}] run function ssbrc:fighters/s
 execute if entity @s[scores={weapon_4.reload=1..}] run function ssbrc:fighters/snake/logic/abilities/socom/reload/tick
 
 # PSG-1
-attribute @s[predicate=!ssbrc:fighters/snake/psg1_zoom] minecraft:generic.movement_speed modifier remove ssbrc:fighters/snake/psg1
-attribute @s[predicate=ssbrc:fighters/snake/psg1_zoom] minecraft:generic.movement_speed modifier add ssbrc:fighters/snake/psg1 -1.0 add_multiplied_base
+attribute @s[predicate=!ssbrc:fighters/snake/psg1_zoom] minecraft:movement_speed modifier remove ssbrc:fighters/snake/psg1
+attribute @s[predicate=ssbrc:fighters/snake/psg1_zoom] minecraft:movement_speed modifier add ssbrc:fighters/snake/psg1 -1.0 add_multiplied_base
 
 # S1000
 scoreboard players remove @s[scores={weapon_1.fire_rate=1..}] weapon_1.fire_rate 1

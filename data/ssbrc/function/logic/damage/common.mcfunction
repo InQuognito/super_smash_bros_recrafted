@@ -1,4 +1,4 @@
-attribute @s minecraft:generic.knockback_resistance modifier remove ssbrc:knockback_resistance
+attribute @s minecraft:knockback_resistance modifier remove ssbrc:knockback_resistance
 
 scoreboard players set entity_hit temp 1
 
