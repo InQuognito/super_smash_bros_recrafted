@@ -4,5 +4,6 @@ scoreboard players operation @s mana = sora.mp.max vars
 scoreboard players set @s resource 0
 
 function ssbrc:logic/item/init/slot {item:"keyblade_primary",slot:"hotbar.0",type:"default"}
+function ssbrc:fighters/sora/logic/spell_switch/fire/set {slot:"hotbar.0"}
 
 function ssbrc:logic/fighters/armor/update/check

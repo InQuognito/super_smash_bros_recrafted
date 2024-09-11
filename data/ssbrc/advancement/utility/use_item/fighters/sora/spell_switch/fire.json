@@ -39,6 +39,6 @@
 		}
 	},
 	"rewards": {
-		"function": "ssbrc:fighters/sora/logic/spell_switch/fire"
+		"function": "ssbrc:fighters/sora/logic/spell_switch/fire/get"
 	}
 }

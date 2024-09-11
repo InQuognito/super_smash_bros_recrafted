@@ -1,3 +1,5 @@
+$data modify storage ssbrc:temp cache.item.slot set value "$(slot)"
+
 function ssbrc:fighters/sora/logic/spell_switch/display/find
 
 data modify storage ssbrc:temp cache.item merge from storage ssbrc:temp player.temp_data
