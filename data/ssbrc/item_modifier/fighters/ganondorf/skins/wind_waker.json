@@ -12,7 +12,7 @@
 	{
 		"function": "minecraft:set_components",
 		"components": {
-			"minecraft:item_model": "ssbrc:fighter/ganondorf/wind_waker/default"
+			"minecraft:item_model": "ssbrc:fighter/ganondorf/skin/wind_waker/default"
 		}
 	}
 ]

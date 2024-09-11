@@ -12,7 +12,7 @@
 	{
 		"function": "minecraft:set_components",
 		"components": {
-			"minecraft:item_model": "ssbrc:fighter/jigglypuff/default/default"
+			"minecraft:item_model": "ssbrc:fighter/jigglypuff/skin/default/default"
 		}
 	}
 ]

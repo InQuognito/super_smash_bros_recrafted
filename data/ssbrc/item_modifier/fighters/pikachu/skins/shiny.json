@@ -12,7 +12,7 @@
 	{
 		"function": "minecraft:set_components",
 		"components": {
-			"minecraft:item_model": "ssbrc:fighter/pikachu/shiny/default"
+			"minecraft:item_model": "ssbrc:fighter/pikachu/skin/shiny/default"
 		}
 	}
 ]

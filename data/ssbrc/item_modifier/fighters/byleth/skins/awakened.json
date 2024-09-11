@@ -12,7 +12,7 @@
 	{
 		"function": "minecraft:set_components",
 		"components": {
-			"minecraft:item_model": "ssbrc:fighter/byleth/awakened/female"
+			"minecraft:item_model": "ssbrc:fighter/byleth/skin/awakened/female"
 		}
 	}
 ]

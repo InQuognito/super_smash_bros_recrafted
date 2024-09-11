@@ -12,7 +12,7 @@
 	{
 		"function": "minecraft:set_components",
 		"components": {
-			"minecraft:item_model": "ssbrc:fighter/zelda/hyrule_warriors/default"
+			"minecraft:item_model": "ssbrc:fighter/zelda/skin/hyrule_warriors/default"
 		}
 	}
 ]

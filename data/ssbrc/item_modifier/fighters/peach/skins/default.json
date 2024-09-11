@@ -12,7 +12,7 @@
 	{
 		"function": "minecraft:set_components",
 		"components": {
-			"minecraft:item_model": "ssbrc:fighter/peach/default/default"
+			"minecraft:item_model": "ssbrc:fighter/peach/skin/default/default"
 		}
 	}
 ]

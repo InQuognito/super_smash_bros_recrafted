@@ -12,7 +12,7 @@
 	{
 		"function": "minecraft:set_components",
 		"components": {
-			"minecraft:item_model": "ssbrc:fighter/ganondorf/tears_of_the_kingdom/default"
+			"minecraft:item_model": "ssbrc:fighter/ganondorf/skin/tears_of_the_kingdom/default"
 		}
 	}
 ]

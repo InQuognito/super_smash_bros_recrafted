@@ -12,7 +12,7 @@
 	{
 		"function": "minecraft:set_components",
 		"components": {
-			"minecraft:item_model": "ssbrc:fighter/captain_falcon/blood_falcon/default"
+			"minecraft:item_model": "ssbrc:fighter/captain_falcon/skin/blood_falcon/default"
 		}
 	}
 ]

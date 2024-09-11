@@ -16,7 +16,7 @@
 	{
 		"function": "minecraft:set_components",
 		"components": {
-			"minecraft:item_model": "ssbrc:fighter/joker/christmas_outfit/default"
+			"minecraft:item_model": "ssbrc:fighter/joker/skin/christmas_outfit/default"
 		}
 	}
 ]

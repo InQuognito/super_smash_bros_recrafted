@@ -12,7 +12,7 @@
 	{
 		"function": "minecraft:set_components",
 		"components": {
-			"minecraft:item_model": "ssbrc:fighter/kirby/keeby/default"
+			"minecraft:item_model": "ssbrc:fighter/kirby/skin/keeby/default"
 		}
 	}
 ]

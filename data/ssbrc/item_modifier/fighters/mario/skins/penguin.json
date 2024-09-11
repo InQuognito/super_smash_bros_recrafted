@@ -16,7 +16,7 @@
 	{
 		"function": "minecraft:set_components",
 		"components": {
-			"minecraft:item_model": "ssbrc:fighter/mario/penguin/default"
+			"minecraft:item_model": "ssbrc:fighter/mario/skin/penguin/default"
 		}
 	}
 ]

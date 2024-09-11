@@ -12,7 +12,7 @@
 	{
 		"function": "minecraft:set_components",
 		"components": {
-			"minecraft:item_model": "ssbrc:fighter/shadow/default/default"
+			"minecraft:item_model": "ssbrc:fighter/shadow/skin/default/default"
 		}
 	}
 ]

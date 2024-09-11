@@ -12,7 +12,7 @@
 	{
 		"function": "minecraft:set_components",
 		"components": {
-			"minecraft:item_model": "ssbrc:fighter/shadow/yellow_android/default"
+			"minecraft:item_model": "ssbrc:fighter/shadow/skin/yellow_android/default"
 		}
 	}
 ]

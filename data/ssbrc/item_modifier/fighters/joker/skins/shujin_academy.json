@@ -12,7 +12,7 @@
 	{
 		"function": "minecraft:set_components",
 		"components": {
-			"minecraft:item_model": "ssbrc:fighter/joker/shujin_academy/default"
+			"minecraft:item_model": "ssbrc:fighter/joker/skin/shujin_academy/default"
 		}
 	}
 ]

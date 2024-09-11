@@ -12,7 +12,7 @@
 	{
 		"function": "minecraft:set_components",
 		"components": {
-			"minecraft:item_model": "ssbrc:fighter/alucard/lords_of_shadow/default"
+			"minecraft:item_model": "ssbrc:fighter/alucard/skin/lords_of_shadow/default"
 		}
 	}
 ]

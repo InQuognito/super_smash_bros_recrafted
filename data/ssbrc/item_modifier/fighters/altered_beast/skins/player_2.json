@@ -12,7 +12,7 @@
 	{
 		"function": "minecraft:set_components",
 		"components": {
-			"minecraft:item_model": "ssbrc:fighter/altered_beast/player_2/centurion"
+			"minecraft:item_model": "ssbrc:fighter/altered_beast/skin/player_2/centurion"
 		}
 	}
 ]

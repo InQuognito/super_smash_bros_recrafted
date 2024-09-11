@@ -12,7 +12,7 @@
 	{
 		"function": "minecraft:set_components",
 		"components": {
-			"minecraft:item_model": "ssbrc:fighter/link/zora_tunic/default"
+			"minecraft:item_model": "ssbrc:fighter/link/skin/zora_tunic/default"
 		}
 	}
 ]

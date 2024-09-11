@@ -12,7 +12,7 @@
 	{
 		"function": "minecraft:set_components",
 		"components": {
-			"minecraft:item_model": "ssbrc:fighter/steve/herobrine/default"
+			"minecraft:item_model": "ssbrc:fighter/steve/skin/herobrine/default"
 		}
 	}
 ]

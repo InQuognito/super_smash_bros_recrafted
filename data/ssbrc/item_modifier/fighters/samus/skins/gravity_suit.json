@@ -12,7 +12,7 @@
 	{
 		"function": "minecraft:set_components",
 		"components": {
-			"minecraft:item_model": "ssbrc:fighter/samus/gravity_suit/default"
+			"minecraft:item_model": "ssbrc:fighter/samus/skin/gravity_suit/default"
 		}
 	}
 ]

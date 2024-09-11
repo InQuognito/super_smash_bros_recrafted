@@ -12,7 +12,7 @@
 	{
 		"function": "minecraft:set_components",
 		"components": {
-			"minecraft:item_model": "ssbrc:fighter/team_rocket/default/james"
+			"minecraft:item_model": "ssbrc:fighter/team_rocket/skin/default/james"
 		}
 	}
 ]

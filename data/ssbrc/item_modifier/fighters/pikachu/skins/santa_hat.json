@@ -16,7 +16,7 @@
 	{
 		"function": "minecraft:set_components",
 		"components": {
-			"minecraft:item_model": "ssbrc:fighter/pikachu/santa_hat/default"
+			"minecraft:item_model": "ssbrc:fighter/pikachu/skin/santa_hat/default"
 		}
 	}
 ]
