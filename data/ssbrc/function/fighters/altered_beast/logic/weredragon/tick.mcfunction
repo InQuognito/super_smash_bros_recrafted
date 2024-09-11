@@ -1,5 +1,5 @@
 # Wings
-execute if entity @s[tag=!wings_flapped,predicate=ssbrc:flag/in_air,predicate=ssbrc:flag/sneaking] run function ssbrc:fighters/altered_beast/logic/weredragon/flap
+execute if entity @s[tag=!wings_flapped,scores={motion_y=..-100},predicate=ssbrc:flag/in_air,predicate=ssbrc:input/jump] run function ssbrc:fighters/altered_beast/logic/weredragon/flap
 tag @s[tag=wings_flapped,predicate=!ssbrc:flag/in_air] remove wings_flapped
 
 execute if entity @s[predicate=ssbrc:flag/sneaking] run function ssbrc:logic/fighters/slow_falling

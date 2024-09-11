@@ -2,7 +2,7 @@ execute if score debug options matches 1.. run say raptor_boost | hit
 
 function ssbrc:logic/damage/player {amount:"5.0",type:"generic",kb_resist:"0.0"}
 
-scoreboard players set $y player_motion.api.launch 10000
+scoreboard players set $y player_motion.api.launch 8000
 function player_motion:api/launch_xyz
 
 function ssbrc:fighters/captain_falcon/logic/abilities/raptor_boost/raycast/abort
