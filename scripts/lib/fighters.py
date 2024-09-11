@@ -131,6 +131,7 @@ def get_random_owned():
 			if fighter != 'peach':
 				js_write(file, '$execute if score random.output temp matches ' + str(i) + ' if entity @s[advancements={ssbrc:fighters/' + fighter + '/skins/default=true}] run return run function $(function) with storage ssbrc:data fighters.' + fighter)
 				i += 1
+		js_write(file, '\n$function ssbrc:logic/fighters/get_random_owned {function:"$(function)"}')
 
 def random_skin(fighter, path):
 	'''Initializes the file containing the random skin selection for the fighter.'''

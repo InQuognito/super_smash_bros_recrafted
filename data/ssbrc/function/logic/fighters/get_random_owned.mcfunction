@@ -40,3 +40,5 @@ $execute if score random.output temp matches 35 if entity @s[advancements={ssbrc
 $execute if score random.output temp matches 36 if entity @s[advancements={ssbrc:fighters/wolf/skins/default=true}] run return run function $(function) with storage ssbrc:data fighters.wolf
 $execute if score random.output temp matches 37 if entity @s[advancements={ssbrc:fighters/yar/skins/default=true}] run return run function $(function) with storage ssbrc:data fighters.yar
 $execute if score random.output temp matches 38 if entity @s[advancements={ssbrc:fighters/zelda/skins/default=true}] run return run function $(function) with storage ssbrc:data fighters.zelda
+
+$function ssbrc:logic/fighters/get_random_owned {function:"$(function)"}
