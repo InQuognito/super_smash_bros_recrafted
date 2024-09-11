@@ -54,33 +54,6 @@ def create_item_modifier(skin, fighter, path):
 			js_write(file, tab(1) + '}')
 			js_write(file, ']')
 
-def create_armor_trim(skin, fighter, path):
-	'''Initializes the armor trim file for every skin and form.'''
-	create_path(path)
-	for form in ssbrc.fighters[fighter]['forms']:
-		create_path(f'{path}{fighter}\\{skin}\\')
-		with open(f'{path}{fighter}\\{skin}\\{form}.json', 'w') as file:
-			js_write(file, '{')
-			if fighter == 'shovel_knight':
-				if form == 'phase_locket':
-					js_write(file, tab(1) + qm + 'asset_id' + sep_s + f'ssbrc:fighters/{fighter}/phase_locket' + suf_s)
-				else:
-					js_write(file, tab(1) + qm + 'asset_id' + sep_s + f'ssbrc:fighters/{fighter}/{skin}' + suf_s)
-			elif skin == 'herobrine' or skin == 'santa_hat' or form == 'beat_call':
-				js_write(file, tab(1) + qm + 'asset_id' + sep_s + f'ssbrc:fighters/{fighter}/default' + suf_s)
-			elif has_forms(fighter):
-				if fighter == 'pokemon_trainer' and skin == 'shiny' and form == 'trainer':
-					js_write(file, tab(1) + qm + 'asset_id' + sep_s + f'ssbrc:fighters/{fighter}/default/trainer' + suf_s)
-				elif forms_isolated(fighter):
-					js_write(file, tab(1) + qm + 'asset_id' + sep_s + f'ssbrc:fighters/{fighter}/{skin}' + suf_s)
-				else:
-					js_write(file, tab(1) + qm + 'asset_id' + sep_s + f'ssbrc:fighters/{fighter}/{skin}/{form}' + suf_s)
-			else:
-				js_write(file, tab(1) + qm + 'asset_id' + sep_s + f'ssbrc:fighters/{fighter}/{skin}' + suf_s)
-			js_write(file, tab(1) + qm + 'description' + sep_s + '",')
-			js_write(file, tab(1) + qm + 'template_item' + sep_s + 'minecraft:stick' + qm)
-			js_write(file, '}')
-
 def custom_model_data(skin, fighter, i):
 	'''Initializes skin item modifiers.'''
 	path = f'data\\ssbrc\\item_modifier\\fighters\\{fighter}\\armor\\aesthetic\\{skin}\\'
@@ -101,7 +74,5 @@ def create_skin(skin, fighter, i):
 	create_advancement(skin, fighter, f'data\\ssbrc\\advancement\\fighters\\{fighter}\\skins\\')
 
 	create_item_modifier(skin, fighter, f'data\\ssbrc\\item_modifier\\fighters\\{fighter}\\skins\\')
-
-	create_armor_trim(skin, fighter, 'data\\ssbrc\\trim_pattern\\fighters\\')
 
 	custom_model_data(skin, fighter, i)
