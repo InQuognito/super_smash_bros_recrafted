@@ -9,4 +9,6 @@ tag @s remove mega_man.metal_blade
 tag @s remove mega_man.pile_driver
 tag @s remove mega_man.remote_mine
 
+tag @s remove beat_call
+tag @s remove junk_shield
 tag @s remove remote_mine

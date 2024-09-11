@@ -1,5 +1,5 @@
 playsound ssbrc:fighters.yar.drone.activate player @a
 
-function ssbrc:logic/item/durability/reset/slot {slot_string:"weapon.mainhand"}
+execute if items entity @s weapon.mainhand minecraft:nether_star[minecraft:custom_data~{item:"drone"}] run function ssbrc:logic/item/durability/reset/slot {slot_string:"weapon.mainhand"}
 
 function ssbrc:logic/fighters/ability/deinit

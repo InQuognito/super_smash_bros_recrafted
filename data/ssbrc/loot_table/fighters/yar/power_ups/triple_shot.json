@@ -70,8 +70,10 @@
 							"mode": "append"
 						},
 						{
-							"function": "minecraft:set_custom_model_data",
-							"value": 1971
+							"function": "minecraft:set_components",
+							"components": {
+								"minecraft:item_model": "ssbrc:fighter/yar/item/power_up/triple_shot"
+							}
 						},
 						{
 							"function": "minecraft:set_custom_data",
