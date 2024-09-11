@@ -5,7 +5,7 @@ scoreboard players set @s charge.1 0
 
 function ssbrc:fighters/joker/logic/abilities/tt33/reset
 
-function ssbrc:logic/item/replace/get {search_key:"item",search_value:"rebel_knife",path:"ssbrc:fighters/joker/rebel_knife"}
+function ssbrc:logic/item/init/replace {search_key:"item",search_value:"rebel_knife",item:"rebel_knife",type:"default"}
 
 clear @s minecraft:nether_star[minecraft:custom_data~{group:"mask"}]
 clear @s minecraft:nether_star[minecraft:custom_data~{group:"persona_awakening"}]
