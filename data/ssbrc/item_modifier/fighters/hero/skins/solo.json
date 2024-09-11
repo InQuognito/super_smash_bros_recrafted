@@ -10,7 +10,9 @@
 		}
 	},
 	{
-		"function": "minecraft:reference",
-		"name": "ssbrc:fighters/hero/armor/aesthetic/solo/default"
+		"function": "minecraft:set_components",
+		"components": {
+			"minecraft:item_model": "ssbrc:fighter/hero/solo/default"
+		}
 	}
 ]

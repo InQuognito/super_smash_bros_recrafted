@@ -10,7 +10,9 @@
 		}
 	},
 	{
-		"function": "minecraft:reference",
-		"name": "ssbrc:fighters/ganondorf/armor/aesthetic/tears_of_the_kingdom/default"
+		"function": "minecraft:set_components",
+		"components": {
+			"minecraft:item_model": "ssbrc:fighter/ganondorf/tears_of_the_kingdom/default"
+		}
 	}
 ]

@@ -10,7 +10,9 @@
 		}
 	},
 	{
-		"function": "minecraft:reference",
-		"name": "ssbrc:fighters/pokemon_trainer/armor/aesthetic/dawn/trainer"
+		"function": "minecraft:set_components",
+		"components": {
+			"minecraft:item_model": "ssbrc:fighter/pokemon_trainer/dawn/trainer"
+		}
 	}
 ]

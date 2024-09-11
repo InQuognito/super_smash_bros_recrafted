@@ -10,7 +10,9 @@
 		}
 	},
 	{
-		"function": "minecraft:reference",
-		"name": "ssbrc:fighters/greninja/armor/aesthetic/default/default"
+		"function": "minecraft:set_components",
+		"components": {
+			"minecraft:item_model": "ssbrc:fighter/greninja/default/default"
+		}
 	}
 ]

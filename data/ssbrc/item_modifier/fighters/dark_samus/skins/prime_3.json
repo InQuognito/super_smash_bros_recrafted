@@ -10,7 +10,9 @@
 		}
 	},
 	{
-		"function": "minecraft:reference",
-		"name": "ssbrc:fighters/dark_samus/armor/aesthetic/prime_3/default"
+		"function": "minecraft:set_components",
+		"components": {
+			"minecraft:item_model": "ssbrc:fighter/dark_samus/prime_3/default"
+		}
 	}
 ]

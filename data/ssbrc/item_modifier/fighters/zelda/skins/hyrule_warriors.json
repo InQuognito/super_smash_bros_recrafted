@@ -10,7 +10,9 @@
 		}
 	},
 	{
-		"function": "minecraft:reference",
-		"name": "ssbrc:fighters/zelda/armor/aesthetic/hyrule_warriors/default"
+		"function": "minecraft:set_components",
+		"components": {
+			"minecraft:item_model": "ssbrc:fighter/zelda/hyrule_warriors/default"
+		}
 	}
 ]

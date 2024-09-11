@@ -10,7 +10,9 @@
 		}
 	},
 	{
-		"function": "minecraft:reference",
-		"name": "ssbrc:fighters/alucard/armor/aesthetic/lords_of_shadow/default"
+		"function": "minecraft:set_components",
+		"components": {
+			"minecraft:item_model": "ssbrc:fighter/alucard/lords_of_shadow/default"
+		}
 	}
 ]

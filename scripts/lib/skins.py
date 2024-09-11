@@ -46,33 +46,24 @@ def create_item_modifier(skin, fighter, path):
 				js_write(file, tab(2) + qm + 'name' + sep_s + 'ssbrc:ui/shop/collection/' + ssbrc.fighters[fighter]['skins'][skin]['collection'] + qm)
 				js_write(file, tab(1) + ent)
 			js_write(file, tab(1) + '{')
-			js_write(file, tab(2) + qm + 'function' + sep_s + 'minecraft:reference' + suf_s)
+			js_write(file, tab(2) + qm + 'function' + sep_s + 'minecraft:set_components' + suf_s)
+			js_write(file, tab(2) + qm + 'components' + suf_e)
 			if fighter == 'pokemon_trainer' and skin == 'shiny':
-				js_write(file, tab(2) + qm + 'name' + sep_s + f'ssbrc:fighters/{fighter}/armor/aesthetic/default/' + ssbrc.fighters[fighter]['forms'][0] + qm)
+				js_write(file, tab(3) + qm + 'minecraft:item_model' + sep_s + f'ssbrc:fighter/{fighter}/default/' + ssbrc.fighters[fighter]['forms'][0] + qm)
 			else:
-				js_write(file, tab(2) + qm + 'name' + sep_s + f'ssbrc:fighters/{fighter}/armor/aesthetic/{skin}/' + ssbrc.fighters[fighter]['forms'][0] + qm)
+				js_write(file, tab(3) + qm + 'minecraft:item_model' + sep_s + f'ssbrc:fighter/{fighter}/{skin}/' + ssbrc.fighters[fighter]['forms'][0] + qm)
+			js_write(file, tab(2) + '}')
 			js_write(file, tab(1) + '}')
 			js_write(file, ']')
 
-def custom_model_data(skin, fighter, i):
+def custom_model_data(fighter):
 	'''Initializes skin item modifiers.'''
-	path = f'data\\ssbrc\\item_modifier\\fighters\\{fighter}\\armor\\aesthetic\\{skin}\\'
-	create_path(path)
-	for form in ssbrc.fighters[fighter]['forms']:
-		with open(path + form + '.json', 'w') as file:
-			js_write(file, '{')
-			js_write(file, tab(1) + qm + 'function' + sep_s + 'minecraft:set_custom_model_data' + suf_s)
-			if (fighter == 'pokemon_trainer' and skin == 'shiny' and form == 'trainer'):
-				js_write(file, tab(1) + qm + 'value' + sep_n + str(ssbrc.fighters[fighter]['model']))
-			else:
-				js_write(file, tab(1) + qm + 'value' + sep_n + str(i))
-			js_write(file, '}')
-		i += 1
+	remove_path(f'data\\ssbrc\\item_modifier\\fighters\\{fighter}\\armor\\')
 
-def create_skin(skin, fighter, i):
+def create_skin(skin, fighter):
 	'''Initializes a skin.'''
 	create_advancement(skin, fighter, f'data\\ssbrc\\advancement\\fighters\\{fighter}\\skins\\')
 
 	create_item_modifier(skin, fighter, f'data\\ssbrc\\item_modifier\\fighters\\{fighter}\\skins\\')
 
-	custom_model_data(skin, fighter, i)
+	custom_model_data(fighter)

@@ -1,6 +1,8 @@
 import os
 import shutil
 
+from itertools import chain
+
 import ssbrc_data as ssbrc
 
 qm = '\"'

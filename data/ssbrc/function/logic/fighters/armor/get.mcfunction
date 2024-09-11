@@ -1,7 +1,6 @@
 item replace entity @s armor.head with minecraft:barrier[minecraft:hide_tooltip={}]
 item replace entity @s armor.chest with minecraft:iron_chestplate[minecraft:item_name='{"translate":"ssbrc.ability.passives","color":"blue","bold":true}',minecraft:unbreakable={show_in_tooltip:false}]
 item replace entity @s armor.legs with minecraft:iron_leggings[minecraft:item_name='{"translate":"ssbrc.ability.utilities","color":"green","bold":true}',minecraft:unbreakable={show_in_tooltip:false}]
-item replace entity @s armor.feet with minecraft:iron_boots[minecraft:hide_tooltip={},minecraft:unbreakable={}]
 
 function ssbrc:logic/player_data/temp/copy/check
 
@@ -13,10 +12,6 @@ item modify entity @s[predicate=ssbrc:fighters/enchantments/fire_protection] arm
 item modify entity @s[predicate=ssbrc:fighters/enchantments/thorns] armor.chest ssbrc:enchantments/thorns
 
 item modify entity @s[predicate=ssbrc:fighters/enchantments/swift_sneak] armor.legs ssbrc:enchantments/swift_sneak
-
-item modify entity @s[predicate=!ssbrc:fighters/enchantments/feather_falling_infinity] armor.feet ssbrc:enchantments/feather_falling
-item modify entity @s[predicate=ssbrc:fighters/enchantments/feather_falling_infinity] armor.feet ssbrc:enchantments/feather_falling_infinity
-item modify entity @s[predicate=ssbrc:fighters/enchantments/depth_strider] armor.feet ssbrc:enchantments/depth_strider
 
 item modify entity @s armor.head ssbrc:enchantments/binding_curse
 item modify entity @s armor.chest ssbrc:enchantments/binding_curse

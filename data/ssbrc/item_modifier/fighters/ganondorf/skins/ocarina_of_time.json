@@ -10,7 +10,9 @@
 		}
 	},
 	{
-		"function": "minecraft:reference",
-		"name": "ssbrc:fighters/ganondorf/armor/aesthetic/ocarina_of_time/default"
+		"function": "minecraft:set_components",
+		"components": {
+			"minecraft:item_model": "ssbrc:fighter/ganondorf/ocarina_of_time/default"
+		}
 	}
 ]

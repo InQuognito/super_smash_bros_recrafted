@@ -14,7 +14,9 @@
 		"name": "ssbrc:ui/shop/collection/winter"
 	},
 	{
-		"function": "minecraft:reference",
-		"name": "ssbrc:fighters/mario/armor/aesthetic/penguin/default"
+		"function": "minecraft:set_components",
+		"components": {
+			"minecraft:item_model": "ssbrc:fighter/mario/penguin/default"
+		}
 	}
 ]

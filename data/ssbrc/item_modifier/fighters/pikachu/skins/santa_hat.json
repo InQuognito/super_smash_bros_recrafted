@@ -14,7 +14,9 @@
 		"name": "ssbrc:ui/shop/collection/winter"
 	},
 	{
-		"function": "minecraft:reference",
-		"name": "ssbrc:fighters/pikachu/armor/aesthetic/santa_hat/default"
+		"function": "minecraft:set_components",
+		"components": {
+			"minecraft:item_model": "ssbrc:fighter/pikachu/santa_hat/default"
+		}
 	}
 ]

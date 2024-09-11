@@ -10,7 +10,9 @@
 		}
 	},
 	{
-		"function": "minecraft:reference",
-		"name": "ssbrc:fighters/snake/armor/aesthetic/iroquois_pliskin/default"
+		"function": "minecraft:set_components",
+		"components": {
+			"minecraft:item_model": "ssbrc:fighter/snake/iroquois_pliskin/default"
+		}
 	}
 ]

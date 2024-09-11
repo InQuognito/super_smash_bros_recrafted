@@ -10,7 +10,9 @@
 		}
 	},
 	{
-		"function": "minecraft:reference",
-		"name": "ssbrc:fighters/rob/armor/aesthetic/ancient_minister/depleted"
+		"function": "minecraft:set_components",
+		"components": {
+			"minecraft:item_model": "ssbrc:fighter/rob/ancient_minister/depleted"
+		}
 	}
 ]

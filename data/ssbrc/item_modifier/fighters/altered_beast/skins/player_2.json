@@ -10,7 +10,9 @@
 		}
 	},
 	{
-		"function": "minecraft:reference",
-		"name": "ssbrc:fighters/altered_beast/armor/aesthetic/player_2/centurion"
+		"function": "minecraft:set_components",
+		"components": {
+			"minecraft:item_model": "ssbrc:fighter/altered_beast/player_2/centurion"
+		}
 	}
 ]

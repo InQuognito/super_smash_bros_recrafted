@@ -24,11 +24,8 @@ def init_fighter():
 		# Create skins
 		forms = count_forms(fighter)
 		i = ssbrc.fighters[fighter]['model']
-		for skin in ['default', 'gold']:
-			create_skin(skin, fighter, i)
-			i += forms
-		for skin in ssbrc.fighters[fighter]['skins']:
-			create_skin(skin, fighter, i)
+		for skin in chain(['default', 'gold'], ssbrc.fighters[fighter]['skins']):
+			create_skin(skin, fighter)
 			i += forms
 
 def fighter_storage():
