@@ -1,3 +1,1 @@
-$item replace entity @s enderchest.$(slot) with minecraft:barrier[minecraft:custom_data={ui:{type:"default",navigation:"$(path)",sound:"minecraft:ui.button.click master @s"}}]
-
-$item modify entity @s enderchest.$(slot) ssbrc:ui/navigators/$(type)
+$item replace entity @s enderchest.$(slot) with minecraft:barrier[minecraft:item_name="{"translate":"ssbrc.ui.$(type)","color":"gray"}",minecraft:item_model="ssbrc:ui/arrow/$(type)",minecraft:custom_data={ui:{type:"default",navigation:"$(path)",sound:"minecraft:ui.button.click master @s"}}]
