@@ -1,7 +1,9 @@
 [
 	{
-		"function": "minecraft:set_custom_model_data",
-		"value": 9045,
+		"function": "minecraft:set_components",
+		"components": {
+			"minecraft:item_model": "ssbrc:fighter/zelda/item/great_fairy_blessing/5"
+		},
 		"conditions": [
 			{
 				"condition": "minecraft:value_check",
@@ -18,8 +20,10 @@
 		]
 	},
 	{
-		"function": "minecraft:set_custom_model_data",
-		"value": 9046,
+		"function": "minecraft:set_components",
+		"components": {
+			"minecraft:item_model": "ssbrc:fighter/zelda/item/great_fairy_blessing/10"
+		},
 		"conditions": [
 			{
 				"condition": "minecraft:value_check",
@@ -36,8 +40,10 @@
 		]
 	},
 	{
-		"function": "minecraft:set_custom_model_data",
-		"value": 9047,
+		"function": "minecraft:set_components",
+		"components": {
+			"minecraft:item_model": "ssbrc:fighter/zelda/item/great_fairy_blessing/15"
+		},
 		"conditions": [
 			{
 				"condition": "minecraft:value_check",
@@ -54,8 +60,10 @@
 		]
 	},
 	{
-		"function": "minecraft:set_custom_model_data",
-		"value": 9048,
+		"function": "minecraft:set_components",
+		"components": {
+			"minecraft:item_model": "ssbrc:fighter/zelda/item/great_fairy_blessing/20"
+		},
 		"conditions": [
 			{
 				"condition": "minecraft:value_check",
@@ -72,8 +80,10 @@
 		]
 	},
 	{
-		"function": "minecraft:set_custom_model_data",
-		"value": 9049,
+		"function": "minecraft:set_components",
+		"components": {
+			"minecraft:item_model": "ssbrc:fighter/zelda/item/great_fairy_blessing/25"
+		},
 		"conditions": [
 			{
 				"condition": "minecraft:value_check",

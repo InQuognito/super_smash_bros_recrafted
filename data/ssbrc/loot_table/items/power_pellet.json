@@ -36,8 +36,10 @@
 							"mode": "append"
 						},
 						{
-							"function": "minecraft:set_custom_model_data",
-							"value": 1
+							"function": "minecraft:set_components",
+							"components": {
+								"minecraft:item_model": "ssbrc:item/power_pellet"
+							}
 						},
 						{
 							"function": "minecraft:set_custom_data",

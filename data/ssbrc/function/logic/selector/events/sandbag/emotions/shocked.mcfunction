@@ -1,3 +1,3 @@
-item replace entity @s contents with minecraft:emerald[minecraft:custom_model_data=10005]
+item replace entity @s contents with minecraft:emerald[minecraft:item_model="ssbrc:item/sandbag/shocked"]
 
 scoreboard players set @s animation 100

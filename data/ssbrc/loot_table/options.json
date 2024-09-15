@@ -196,7 +196,7 @@
 						{
 							"function": "minecraft:set_components",
 							"components": {
-								"minecraft:custom_model_data": 1,
+								"minecraft:item_model": "ssbrc:ui/settings",
 								"minecraft:hide_additional_tooltip": {}
 							}
 						},

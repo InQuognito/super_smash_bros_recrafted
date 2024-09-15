@@ -1,6 +1,3 @@
-# HUD
-function ssbrc:fighters/zelda/logic/hud
-
 # Bomb
 execute if entity @s[tag=bomb] run function ssbrc:fighters/zelda/logic/abilities/bomb/fuse_tick
 

@@ -48,6 +48,7 @@ scoreboard objectives add frostbite.timer dummy
 scoreboard objectives add fuse dummy
 scoreboard objectives add health dummy
 scoreboard objectives add health_timer dummy
+scoreboard objectives add hud dummy
 scoreboard objectives add id dummy
 scoreboard objectives add immobile dummy
 scoreboard objectives add influence dummy
