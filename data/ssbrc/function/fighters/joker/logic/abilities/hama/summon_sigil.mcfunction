@@ -1,4 +1,4 @@
-function ssbrc:logic/fighters/projectiles/move_to_ground
+function ssbrc:logic/execute_at_ground {result:"teleport @s ~ ~ ~"}
 
 execute at @s summon minecraft:item_display run function ssbrc:fighters/joker/logic/abilities/hama/init/sigil
 

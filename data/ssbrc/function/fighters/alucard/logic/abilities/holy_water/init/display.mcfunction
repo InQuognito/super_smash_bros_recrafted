@@ -8,4 +8,4 @@ data merge entity @s {Small:1b}
 
 function ssbrc:logic/init/armor_stand/static
 
-ride @s mount @n[type=minecraft:snowball,tag=holy_water.vehicle]
+ride @s mount @n[type=minecraft:snowball,tag=holy_water.vehicle,distance=..0.1]

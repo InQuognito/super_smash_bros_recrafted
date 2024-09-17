@@ -31,4 +31,4 @@ execute at @s facing ^-1.5 ^.5 ^0.5 positioned ~ ~.25 ~ run function ssbrc:fight
 execute at @s facing ^-2 ^ ^1 positioned ~ ~.25 ~ run function ssbrc:fighters/giegue/logic/abilities/pk_beam/particles/4
 
 scoreboard players add @s temp 1
-kill @s[scores={temp=40..}]
+kill @s[scores={temp=10..}]

@@ -38,6 +38,7 @@ scoreboard objectives remove flag.fire_bow
 scoreboard objectives remove flag.in_lava
 scoreboard objectives remove flag.sprinting
 scoreboard objectives remove flag.walking
+scoreboard objectives remove flight_time
 scoreboard objectives remove frostbite
 scoreboard objectives remove frostbite.cooldown
 scoreboard objectives remove frostbite.timer

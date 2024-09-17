@@ -13,16 +13,6 @@
 								"max": 0
 							}
 						}
-					},
-					{
-						"condition": "minecraft:inverted",
-						"term": {
-							"condition": "minecraft:entity_properties",
-							"entity": "this",
-							"predicate": {
-								"nbt": "{Tags:[\"rest\"]}"
-							}
-						}
 					}
 				],
 				"item": {
@@ -38,6 +28,6 @@
 		}
 	},
 	"rewards": {
-		"function": "ssbrc:fighters/jigglypuff/logic/abilities/hyper_voice/activate"
+		"function": "ssbrc:fighters/jigglypuff/logic/abilities/hyper_voice/check"
 	}
 }

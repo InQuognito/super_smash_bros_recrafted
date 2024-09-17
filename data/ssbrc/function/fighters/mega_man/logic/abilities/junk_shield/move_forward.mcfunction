@@ -4,5 +4,4 @@ execute positioned ~-0.25 ~-0.25 ~-0.25 as @e[tag=!self,predicate=ssbrc:flag/tar
 
 teleport @s ^ ^ ^0.5
 
-scoreboard players add @s temp 1
 kill @s[scores={temp=30..}]

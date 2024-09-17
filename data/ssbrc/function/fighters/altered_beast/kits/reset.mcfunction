@@ -5,7 +5,7 @@ tag @s remove feral_instincts
 clear @s #ssbrc:equipment
 loot replace entity @s hotbar.8 loot ssbrc:fighters/altered_beast/spirit_orb
 
-function ssbrc:logic/item/durability/reset/slot {slot_string:"weapon.mainhand"}
+function ssbrc:logic/item/durability/reset/hand
 
 function ssbrc:logic/fighters/get {function:"ssbrc:logic/fighters/attributes/defaults"}
 

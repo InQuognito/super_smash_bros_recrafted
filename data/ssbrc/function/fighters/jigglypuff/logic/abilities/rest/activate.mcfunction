@@ -1,6 +1,6 @@
 item modify entity @s weapon.mainhand ssbrc:fighters/jigglypuff/rest/disabled
 
-function ssbrc:logic/item/durability/reset/slot {slot_string:"weapon.mainhand"}
+function ssbrc:logic/item/durability/reset/hand
 
 scoreboard players set @s charge.1 1
 

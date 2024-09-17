@@ -2,7 +2,7 @@ tag @s add immobile.pivot.queue
 
 scoreboard players set @s charge.1 1
 
-function ssbrc:logic/item/durability/reset/slot {slot_string:"weapon.mainhand"}
+function ssbrc:logic/item/durability/reset/hand
 
 playsound ssbrc:fighters.giegue.pk_beam.charge player @a
 

@@ -5,4 +5,4 @@ function ssbrc:logic/init/projectile
 
 data merge entity @s {Duration:200}
 
-ride @s mount @n[type=minecraft:armor_stand,tag=holy_water.display]
+ride @s mount @n[type=minecraft:armor_stand,tag=holy_water.display,distance=..0.1]

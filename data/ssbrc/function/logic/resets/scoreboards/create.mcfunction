@@ -42,6 +42,7 @@ scoreboard objectives add flag.fire_bow minecraft.used:minecraft.bow
 scoreboard objectives add flag.in_lava dummy
 scoreboard objectives add flag.sprinting dummy
 scoreboard objectives add flag.walking minecraft.custom:minecraft.walk_one_cm
+scoreboard objectives add flight_time minecraft.custom:minecraft.aviate_one_cm
 scoreboard objectives add frostbite dummy
 scoreboard objectives add frostbite.cooldown dummy
 scoreboard objectives add frostbite.timer dummy

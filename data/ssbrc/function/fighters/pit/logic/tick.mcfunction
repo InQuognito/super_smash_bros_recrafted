@@ -4,7 +4,7 @@ execute unless items entity @s[tag=guardian_orbitars] weapon.mainhand minecraft:
 execute if entity @s[tag=guardian_orbitars,predicate=!ssbrc:flag/sneaking] run function ssbrc:fighters/pit/logic/abilities/guardian_orbitars/deactivate
 
 # Wings
-execute if items entity @s armor.chest minecraft:elytra[minecraft:damage=2] run function ssbrc:fighters/pit/logic/abilities/wings/burn
+execute if score @s flight_time matches 5000.. run function ssbrc:fighters/pit/logic/abilities/wings/burn
 execute if score @s timer matches 1.. run function ssbrc:fighters/pit/logic/abilities/wings/regain/timer
 
 tag @s[advancements={ssbrc:utility/use_item/fighters/pit/palutena_bow=false}] remove palutena_bow.pulling

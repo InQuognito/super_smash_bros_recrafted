@@ -22,7 +22,10 @@
 				"item": {
 					"items": "#ssbrc:equipment",
 					"predicates": {
-						"minecraft:custom_data": "{item:\"wave_beam\"}"
+						"minecraft:custom_data": "{item:\"wave_beam\"}",
+						"minecraft:damage": {
+							"damage": 0
+						}
 					}
 				}
 			}

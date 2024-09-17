@@ -210,7 +210,7 @@ scoreboard players set thwomp_time vars 100
 scoreboard players operation thwompSinkTime vars = thwomp_time vars
 scoreboard players operation thwompSinkTime vars *= 3 integers
 
-scoreboard players set cameraRange vars 5
+scoreboard players set camera_range vars 5
 
 # Common Currency Values
 scoreboard players set value.participation vars 100
