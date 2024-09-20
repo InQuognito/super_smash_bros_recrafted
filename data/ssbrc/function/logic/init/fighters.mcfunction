@@ -89,7 +89,7 @@ data modify storage ssbrc:data fighters set value {\
 		"jump_strength": 0.63,\
 		"max_health": 40.0,\
 		"movement_speed": 0.1,\
-		"page": 1,\
+		"page": 3,\
 		"miiverse_posts": 1,\
 		"model": 1840,\
 		"default_form": "default",\
@@ -233,7 +233,7 @@ data modify storage ssbrc:data fighters set value {\
 		"jump_strength": 0.63,\
 		"max_health": 40.0,\
 		"movement_speed": 0.1,\
-		"page": 1,\
+		"page": 2,\
 		"miiverse_posts": 1,\
 		"model": 100,\
 		"default_form": "female",\
@@ -255,7 +255,7 @@ data modify storage ssbrc:data fighters set value {\
 		"jump_strength": 0.63,\
 		"max_health": 40.0,\
 		"movement_speed": 1.05,\
-		"page": 1,\
+		"page": 2,\
 		"miiverse_posts": 1,\
 		"model": 120,\
 		"default_form": "default",\
@@ -360,7 +360,7 @@ data modify storage ssbrc:data fighters set value {\
 		"jump_strength": 0.63,\
 		"max_health": 32.0,\
 		"movement_speed": 0.1,\
-		"page": 1,\
+		"page": 2,\
 		"miiverse_posts": 1,\
 		"model": 180,\
 		"default_form": "default",\
@@ -632,7 +632,7 @@ data modify storage ssbrc:data fighters set value {\
 		"jump_strength": 0.63,\
 		"max_health": 40.0,\
 		"movement_speed": 0.1,\
-		"page": 1,\
+		"page": 2,\
 		"miiverse_posts": 1,\
 		"model": 1860,\
 		"default_form": "default",\
@@ -649,7 +649,7 @@ data modify storage ssbrc:data fighters set value {\
 		"jump_strength": 0.63,\
 		"max_health": 40.0,\
 		"movement_speed": 0.1,\
-		"page": 1,\
+		"page": 2,\
 		"miiverse_posts": 1,\
 		"model": 420,\
 		"default_form": "default",\
@@ -676,7 +676,7 @@ data modify storage ssbrc:data fighters set value {\
 		"jump_strength": 0.63,\
 		"max_health": 40.0,\
 		"movement_speed": 0.1,\
-		"page": 1,\
+		"page": 3,\
 		"miiverse_posts": 2,\
 		"model": 440,\
 		"default_form": "default",\
@@ -813,7 +813,7 @@ data modify storage ssbrc:data fighters set value {\
 		"jump_strength": 0.63,\
 		"max_health": 40.0,\
 		"movement_speed": 0.1,\
-		"page": 1,\
+		"page": 3,\
 		"miiverse_posts": 1,\
 		"model": 600,\
 		"default_form": "default",\
@@ -1322,7 +1322,7 @@ data modify storage ssbrc:data fighters set value {\
 		"jump_strength": 0.63,\
 		"max_health": 40.0,\
 		"movement_speed": 0.1,\
-		"page": 1,\
+		"page": 2,\
 		"miiverse_posts": 1,\
 		"model": 880,\
 		"default_form": "mega_buster",\
@@ -1544,7 +1544,7 @@ data modify storage ssbrc:data fighters set value {\
 		"jump_strength": 0.63,\
 		"max_health": 40.0,\
 		"movement_speed": 0.1,\
-		"page": 1,\
+		"page": 2,\
 		"miiverse_posts": 1,\
 		"model": 1080,\
 		"default_form": "default",\
@@ -1678,7 +1678,7 @@ data modify storage ssbrc:data fighters set value {\
 		"jump_strength": 0.63,\
 		"max_health": 40.0,\
 		"movement_speed": 0.1,\
-		"page": 1,\
+		"page": 2,\
 		"miiverse_posts": 1,\
 		"model": 1220,\
 		"default_form": "default",\
@@ -1720,7 +1720,7 @@ data modify storage ssbrc:data fighters set value {\
 		"jump_strength": 0.63,\
 		"max_health": 40.0,\
 		"movement_speed": 0.1,\
-		"page": 1,\
+		"page": 2,\
 		"miiverse_posts": 1,\
 		"model": 1260,\
 		"default_form": "trainer",\
@@ -1784,7 +1784,7 @@ data modify storage ssbrc:data fighters set value {\
 		"jump_strength": 0.63,\
 		"max_health": 40.0,\
 		"movement_speed": 0.1,\
-		"page": 1,\
+		"page": 2,\
 		"miiverse_posts": 1,\
 		"model": 1,\
 		"default_form": "depleted",\
@@ -1837,7 +1837,7 @@ data modify storage ssbrc:data fighters set value {\
 		"jump_strength": 0.63,\
 		"max_health": 40.0,\
 		"movement_speed": 0.1,\
-		"page": 1,\
+		"page": 2,\
 		"miiverse_posts": 1,\
 		"model": 1400,\
 		"default_form": "default",\
@@ -1984,7 +1984,7 @@ data modify storage ssbrc:data fighters set value {\
 		"jump_strength": 0.63,\
 		"max_health": 40.0,\
 		"movement_speed": 0.105,\
-		"page": 1,\
+		"page": 2,\
 		"miiverse_posts": 1,\
 		"model": 1900,\
 		"default_form": "default",\
@@ -2090,7 +2090,7 @@ data modify storage ssbrc:data fighters set value {\
 		"jump_strength": 0.63,\
 		"max_health": 40.0,\
 		"movement_speed": 0.105,\
-		"page": 1,\
+		"page": 2,\
 		"miiverse_posts": 1,\
 		"model": 1520,\
 		"default_form": "default",\
@@ -2299,7 +2299,7 @@ data modify storage ssbrc:data fighters set value {\
 		"jump_strength": 0.63,\
 		"max_health": 40.0,\
 		"movement_speed": 0.11,\
-		"page": 1,\
+		"page": 2,\
 		"miiverse_posts": 1,\
 		"model": 1540,\
 		"default_form": "default",\
@@ -2331,7 +2331,7 @@ data modify storage ssbrc:data fighters set value {\
 		"jump_strength": 0.63,\
 		"max_health": 40.0,\
 		"movement_speed": 0.1,\
-		"page": 1,\
+		"page": 3,\
 		"miiverse_posts": 1,\
 		"model": 1560,\
 		"default_form": "default",\
@@ -2453,7 +2453,7 @@ data modify storage ssbrc:data fighters set value {\
 		"jump_strength": 0.63,\
 		"max_health": 40.0,\
 		"movement_speed": 0.1,\
-		"page": 1,\
+		"page": 3,\
 		"miiverse_posts": 1,\
 		"model": 1580,\
 		"default_form": "default",\
@@ -2480,7 +2480,7 @@ data modify storage ssbrc:data fighters set value {\
 		"jump_strength": 0.63,\
 		"max_health": 40.0,\
 		"movement_speed": 0.1,\
-		"page": 1,\
+		"page": 2,\
 		"miiverse_posts": 1,\
 		"model": 1940,\
 		"model_jesse": 1941,\

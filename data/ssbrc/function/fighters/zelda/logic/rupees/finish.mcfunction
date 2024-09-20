@@ -4,4 +4,4 @@ execute if score @s resource >= great_fairy_blessing.cost temp run function ssbr
 function ssbrc:fighters/zelda/logic/abilities/inventory_refresh/calculate
 execute if score @s resource >= inventory_refresh temp run function ssbrc:logic/item/modify {search_key:"item",search_value:"inventory_refresh",path:"ssbrc:init/ability/default"}
 
-playsound ssbrc:fighters.zelda.rupee.up_end player @s
+$playsound ssbrc:fighters.zelda.rupee.$(mode).end player @s

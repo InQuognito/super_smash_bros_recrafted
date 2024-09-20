@@ -1,6 +1,6 @@
 function ssbrc:fighters/zelda/kit/items
 
 scoreboard players set rupee temp 10
-function ssbrc:fighters/zelda/logic/rupees/set {mode:"up"}
+function ssbrc:fighters/zelda/logic/rupees/set {mode:"add"}
 
-scoreboard players set @s zelda.rupee.down 0
+scoreboard players set @s zelda.rupee.remove 0

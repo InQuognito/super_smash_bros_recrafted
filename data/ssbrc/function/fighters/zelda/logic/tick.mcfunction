@@ -20,10 +20,10 @@ execute if items entity @s container.* minecraft:nether_star[minecraft:custom_da
 execute if items entity @s container.* minecraft:nether_star[minecraft:custom_data~{item:"ring_of_risk"}] run function ssbrc:fighters/zelda/logic/passive_items/ring_of_risk
 
 # Rupees
-execute if score @s[scores={zelda.rupee.up=1..}] resource >= zelda.rupees.max vars run scoreboard players set @s zelda.rupee.up 0
-execute if entity @s[scores={zelda.rupee.up=1..}] run function ssbrc:fighters/zelda/logic/rupees/add
+execute if score @s[scores={zelda.rupee.add=1..}] resource >= zelda.rupees.max vars run scoreboard players set @s zelda.rupee.add 0
+execute if entity @s[scores={zelda.rupee.add=1..}] run function ssbrc:fighters/zelda/logic/rupees/change {mode:"add"}
 
-execute if entity @s[scores={zelda.rupee.down=1..}] run function ssbrc:fighters/zelda/logic/rupees/subtract
+execute if entity @s[scores={zelda.rupee.remove=1..}] run function ssbrc:fighters/zelda/logic/rupees/change {mode:"remove"}
 
 # Great Fairy Blessings
 execute if entity @s[scores={zelda.enchant_armor=1..}] run function ssbrc:fighters/zelda/logic/blessings/enchant_armor/tick

@@ -12,7 +12,7 @@
 							"cooldown": {
 								"max": 0
 							},
-							"zelda.rupee.down": {
+							"zelda.rupee.remove": {
 								"max": 0
 							}
 						}

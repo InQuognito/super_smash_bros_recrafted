@@ -145,8 +145,8 @@ scoreboard objectives remove yar.drone.health
 scoreboard objectives remove zelda.enchant_armor
 scoreboard objectives remove zelda.magic_fountain
 scoreboard objectives remove zelda.magic_transfusion
-scoreboard objectives remove zelda.rupee.down
-scoreboard objectives remove zelda.rupee.up
+scoreboard objectives remove zelda.rupee.remove
+scoreboard objectives remove zelda.rupee.add
 scoreboard objectives remove zelda.shatter_resist
 scoreboard objectives remove zelda.silent_princess
 scoreboard objectives remove zelda.special_bond
