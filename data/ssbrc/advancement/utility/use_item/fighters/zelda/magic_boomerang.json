@@ -32,6 +32,6 @@
 		}
 	},
 	"rewards": {
-		"function": "ssbrc:fighters/zelda/logic/abilities/magic_boomerang/check"
+		"function": "ssbrc:fighters/zelda/logic/abilities/magic_boomerang/activate"
 	}
 }
