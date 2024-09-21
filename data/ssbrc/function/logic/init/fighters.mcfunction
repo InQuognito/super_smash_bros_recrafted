@@ -365,8 +365,13 @@ data modify storage ssbrc:data fighters set value {\
 		"model": 180,\
 		"default_form": "default",\
 		"color": "white",\
-		"skin_count": 2,\
+		"skin_count": 3,\
 		"skins": {\
+			"midgar_infantry": {\
+				"name": "midgar_infantry",\
+				"color": "blue",\
+				"model": 182\
+			}\
 		},\
 		"items": {\
 			"buster_sword": {\
@@ -381,6 +386,12 @@ data modify storage ssbrc:data fighters set value {\
 					"tag": "buster_sword",\
 					"color": "gold",\
 					"model": 183,\
+				},\
+				"midgar_infantry": {\
+					"name": "ssbrc.fighter.cloud.buster_sword",\
+					"tag": "buster_sword",\
+					"color": "gray",\
+					"model": 181\
 				},\
 			},\
 		}\

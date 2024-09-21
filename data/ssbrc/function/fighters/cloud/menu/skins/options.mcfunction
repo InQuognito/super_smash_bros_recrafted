@@ -10,4 +10,7 @@ execute if data storage ssbrc:temp player.temp_data{skin:"default"} run tellraw 
 execute unless data storage ssbrc:temp player.temp_data{skin:"gold"} run tellraw @s[advancements={ssbrc:fighters/cloud/skins/gold=true}] {"translate":"ssbrc.skin.gold","color":"gold","clickEvent":{"action":"run_command","value":"/trigger menu set 2"}}
 execute if data storage ssbrc:temp player.temp_data{skin:"gold"} run tellraw @s [{"translate":"ssbrc.skin.gold","color":"gold"},{"text":" ✔","color":"green"}]
 
+execute unless data storage ssbrc:temp player.temp_data{skin:"midgar_infantry"} run tellraw @s[advancements={ssbrc:fighters/cloud/skins/midgar_infantry=true}] {"translate":"ssbrc.skin.midgar_infantry","color":"blue","clickEvent":{"action":"run_command","value":"/trigger menu set 3"}}
+execute if data storage ssbrc:temp player.temp_data{skin:"midgar_infantry"} run tellraw @s [{"translate":"ssbrc.skin.midgar_infantry","color":"blue"},{"text":" ✔","color":"green"}]
+
 function ssbrc:logic/fighters/menu/skin_options
