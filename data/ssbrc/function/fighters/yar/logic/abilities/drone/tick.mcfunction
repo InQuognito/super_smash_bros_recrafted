@@ -24,5 +24,3 @@ execute if entity @s[tag=recall] facing entity @a[tag=self,limit=1] eyes run fun
 
 execute if score percentage temp matches ..0 run function ssbrc:fighters/yar/logic/abilities/drone/kill
 execute if score electric_terrain temp matches 1 run function ssbrc:fighters/yar/logic/abilities/drone/kill
-
-tellraw @a {"score": {"name": "@s", "objective": "temp"}}

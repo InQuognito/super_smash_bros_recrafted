@@ -1,6 +1,5 @@
 scoreboard players set @s duration.1 60
-
-effect give @s minecraft:slowness 3 255 true
+function ssbrc:logic/fighters/effects/mobility/immobilize {type:"default",duration:60}
 
 function ssbrc:logic/item/durability/reset/hand
 
