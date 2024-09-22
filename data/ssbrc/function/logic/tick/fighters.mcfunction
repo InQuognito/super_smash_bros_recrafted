@@ -13,6 +13,8 @@ scoreboard players remove @s[scores={cooldown.3=1..}] cooldown.3 1
 
 scoreboard players remove @s[scores={weapon_1.fire_rate=1..}] weapon_1.fire_rate 1
 
+execute if entity @e[type=minecraft:marker,tag=electric_terrain,distance=..12] run scoreboard players set in_electric_terrain temp 1
+
 function ssbrc:logic/fighters/get {function:"ssbrc:logic/fighters/tick"}
 
 execute store result score @s selected_item run data get entity @s SelectedItemSlot
@@ -21,15 +23,13 @@ execute unless score @s selected_item.prev = @s selected_item run function ssbrc
 execute if entity @s[scores={charge.output=1..},advancements={ssbrc:utility/use_item/any=false}] run function ssbrc:logic/fighters/charge/activate
 execute if items entity @s[advancements={ssbrc:utility/use_item/any=true}] weapon.mainhand #ssbrc:equipment[minecraft:custom_data~{chargable:"true"}] run function ssbrc:logic/fighters/charge/tick
 
-execute if entity @e[type=minecraft:marker,tag=electric_terrain,distance=..12] run scoreboard players set electric_terrain temp 1
-
 execute if entity @s[scores={flag.damage_dealt=1..}] run function ssbrc:logic/fighters/damage_dealt
 execute if entity @s[scores={flag.damage_taken=1..}] run function ssbrc:logic/fighters/damage_taken
 
 execute if entity @s[scores={fall_distance=1..}] run function ssbrc:logic/fighters/shockwave/check
 execute if entity @s[scores={jumps=1..}] run function ssbrc:logic/fighters/jump
 
-scoreboard players reset electric_terrain temp
+scoreboard players reset in_electric_terrain temp
 
 # Combo
 scoreboard players remove @s[scores={combo.duration=-4..}] combo.duration 1

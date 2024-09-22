@@ -50,6 +50,6 @@
 		}
 	},
 	"rewards": {
-		"function": "ssbrc:fighters/shovel_knight/logic/mana/insufficient"
+		"function": "ssbrc:fighters/shovel_knight/logic/magic/insufficient"
 	}
 }

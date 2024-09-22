@@ -8,7 +8,7 @@ function ssbrc:logic/player_data/temp/set {mode:"store",key:"form",value:"phase_
 function ssbrc:logic/fighters/armor/update/check
 
 scoreboard players operation @s mana -= shovel_knight.phase_locket.cost vars
-function ssbrc:fighters/shovel_knight/logic/check_relics
+function ssbrc:fighters/shovel_knight/logic/magic/update
 
 playsound ssbrc:fighters.shovel_knight.phase_locket.activate player @a
 

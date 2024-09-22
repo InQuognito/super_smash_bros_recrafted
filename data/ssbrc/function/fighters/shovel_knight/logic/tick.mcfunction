@@ -1,6 +1,3 @@
-# Mana
-function ssbrc:fighters/shovel_knight/logic/mana/update
-
 # Shovel Drop
 execute if items entity @s weapon.mainhand minecraft:diamond_shovel[minecraft:custom_data~{item:"shovel_blade",shovel_drop:"true"}] run function ssbrc:fighters/shovel_knight/logic/abilities/shovel_drop/tick
 

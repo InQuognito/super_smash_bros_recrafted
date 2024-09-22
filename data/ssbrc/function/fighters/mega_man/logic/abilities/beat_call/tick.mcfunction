@@ -14,10 +14,10 @@ scoreboard players add @s rotation 4
 scoreboard players set @s[scores={rotation=360..}] rotation 0
 execute store result storage ssbrc:temp rotation int 1.0 run scoreboard players get @s rotation
 
-execute if score electric_terrain temp matches 1 run tag @s add stunned
-execute unless score electric_terrain temp matches 1 run tag @s[tag=stunned] add recall
-execute unless score electric_terrain temp matches 1 run tag @s[tag=stunned] remove stunned
-execute unless score electric_terrain temp matches 1 run function ssbrc:fighters/mega_man/logic/abilities/beat_call/move with storage ssbrc:temp
+execute if score in_electric_terrain temp matches 1 run tag @s add stunned
+execute unless score in_electric_terrain temp matches 1 run tag @s[tag=stunned] add recall
+execute unless score in_electric_terrain temp matches 1 run tag @s[tag=stunned] remove stunned
+execute unless score in_electric_terrain temp matches 1 run function ssbrc:fighters/mega_man/logic/abilities/beat_call/move with storage ssbrc:temp
 
 effect give @a[tag=snake,predicate=!ssbrc:fighters/effects/has/glowing,distance=..10] minecraft:glowing 1 255 true
 

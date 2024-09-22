@@ -1,3 +1,5 @@
+execute store result score online temp if entity @a
+
 execute unless score game_stage temp matches 2.. store result score players temp if entity @a[tag=room.fighter_select]
 execute if score game_stage temp matches 2 store result score players temp if entity @a[tag=fighter_picked]
 execute if score game_stage temp matches 3.. store result score players temp if entity @a[predicate=ssbrc:ingame]
