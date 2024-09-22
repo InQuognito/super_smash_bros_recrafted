@@ -22,6 +22,7 @@ execute as @a[predicate=ssbrc:ingame] run function ssbrc:logic/tick/ingame
 execute as @e[predicate=ssbrc:flag/targets] at @s run function ssbrc:logic/tick/targets
 function ssbrc:logic/tick/post_checks
 scoreboard players reset entity_hit temp
+scoreboard players reset entity_killed temp
 
 execute as @a[team=!admin,tag=alive,scores={respawn=..0},gamemode=!adventure,gamemode=!spectator] run function ssbrc:logic/teams/admin
 
