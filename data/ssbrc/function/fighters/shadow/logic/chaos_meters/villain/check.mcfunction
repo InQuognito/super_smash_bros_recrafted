@@ -9,4 +9,4 @@ execute if score sqrt.output math matches 100.. run function ssbrc:fighters/shad
 execute unless items entity @s container.* minecraft:nether_star[minecraft:custom_data~{item:"chaos_blast"}] if score @s shadow.meter.dark >= shadow.chaos_meter.max vars run loot replace entity @s hotbar.4 loot ssbrc:fighters/shadow/chaos_blast
 
 tag @s remove alignment.hero
-tag @s add alignment.villain
+tag @s add alignment.dark

@@ -3,4 +3,4 @@ execute if score sqrt.output math matches 10..99 run title @s actionbar [{"trans
 execute if score sqrt.output math matches 100.. run title @s actionbar [{"score":{"name":"sqrt.output","objective":"math"},"color":"white"},{"translate":" KPH","color":"white"}]
 
 tag @s remove alignment.hero
-tag @s remove alignment.villain
+tag @s remove alignment.dark
