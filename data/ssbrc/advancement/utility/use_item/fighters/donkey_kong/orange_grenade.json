@@ -21,7 +21,10 @@
 				"item": {
 					"items": "#ssbrc:equipment",
 					"predicates": {
-						"minecraft:custom_data": "{item:\"orange_grenade\"}"
+						"minecraft:custom_data": "{item:\"orange_grenade\"}",
+						"minecraft:damage": {
+							"damage": 0
+						}
 					}
 				}
 			}
