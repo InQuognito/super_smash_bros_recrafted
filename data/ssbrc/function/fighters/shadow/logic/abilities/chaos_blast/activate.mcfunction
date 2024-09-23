@@ -4,7 +4,7 @@ function ssbrc:logic/fighters/effects/mobility/immobilize {type:"default",durati
 
 effect give @s minecraft:resistance 3 0 true
 
-scoreboard players set @s shadow.meter.villain 0
+scoreboard players set @s shadow.meter.dark 0
 
 function ssbrc:logic/item/modify {search_key:"item",search_value:"chaos_spear",path:"ssbrc:fighters/shadow/chaos_spear/disabled"}
 

@@ -9,7 +9,7 @@
 						"condition": "minecraft:entity_properties",
 						"entity": "this",
 						"predicate": {
-							"nbt": "{Tags:[\"shadow\"]}"
+							"nbt": "{Tags:[\"alignment.neutral\"]}"
 						}
 					}
 				],
@@ -21,7 +21,7 @@
 						"condition": "minecraft:entity_properties",
 						"entity": "this",
 						"predicate": {
-							"nbt": "{Tags:[\"shadow\",\"alignment.hero\"]}"
+							"nbt": "{Tags:[\"alignment.neutral\",\"alignment.hero\"]}"
 						}
 					}
 				]

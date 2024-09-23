@@ -109,7 +109,7 @@ scoreboard objectives add selected_item dummy
 scoreboard objectives add selected_item.prev dummy
 scoreboard objectives add shadow.chaos_control dummy
 scoreboard objectives add shadow.meter.hero dummy
-scoreboard objectives add shadow.meter.villain dummy
+scoreboard objectives add shadow.meter.dark dummy
 scoreboard objectives add skin_picked dummy
 scoreboard objectives add slope dummy
 scoreboard objectives add snake.capacity dummy

@@ -12,6 +12,7 @@ data modify storage ssbrc:data fighters set value {\
 		"model": 1820,\
 		"default_form": "centurion",\
 		"color": "gold",\
+		"alignment": "hero",\
 		"skin_count": 3,\
 		"skins": {\
 			"player_2": {\
@@ -94,6 +95,7 @@ data modify storage ssbrc:data fighters set value {\
 		"model": 1840,\
 		"default_form": "default",\
 		"color": "gray",\
+		"alignment": "hero",\
 		"skin_count": 3,\
 		"skins": {\
 			"lords_of_shadow": {\
@@ -196,6 +198,7 @@ data modify storage ssbrc:data fighters set value {\
 		"model": 60,\
 		"default_form": "default",\
 		"color": "green",\
+		"alignment": "dark",\
 		"skin_count": 3,\
 		"skins": {\
 			"bowsette": {\
@@ -238,6 +241,7 @@ data modify storage ssbrc:data fighters set value {\
 		"model": 100,\
 		"default_form": "female",\
 		"color": "dark_aqua",\
+		"alignment": "hero",\
 		"skin_count": 6,\
 		"skins": {\
 			"awakened": {\
@@ -260,6 +264,7 @@ data modify storage ssbrc:data fighters set value {\
 		"model": 120,\
 		"default_form": "default",\
 		"color": "red",\
+		"alignment": "hero",\
 		"skin_count": 4,\
 		"skins": {\
 			"blood_falcon": {\
@@ -365,6 +370,7 @@ data modify storage ssbrc:data fighters set value {\
 		"model": 180,\
 		"default_form": "default",\
 		"color": "white",\
+		"alignment": "hero",\
 		"skin_count": 3,\
 		"skins": {\
 			"midgar_infantry": {\
@@ -407,6 +413,7 @@ data modify storage ssbrc:data fighters set value {\
 		"model": 260,\
 		"default_form": "default",\
 		"color": "aqua",\
+		"alignment": "dark",\
 		"skin_count": 3,\
 		"skins": {\
 			"prime_3": {\
@@ -449,6 +456,7 @@ data modify storage ssbrc:data fighters set value {\
 		"model": 300,\
 		"default_form": "default",\
 		"color": "gold",\
+		"alignment": "hero",\
 		"skin_count": 4,\
 		"skins": {\
 			"flower_power": {\
@@ -502,6 +510,7 @@ data modify storage ssbrc:data fighters set value {\
 		"model": 380,\
 		"default_form": "default",\
 		"color": "white",\
+		"alignment": "hero",\
 		"skin_count": 3,\
 		"skins": {\
 			"adventures": {\
@@ -584,6 +593,7 @@ data modify storage ssbrc:data fighters set value {\
 		"model": 400,\
 		"default_form": "default",\
 		"color": "red",\
+		"alignment": "dark",\
 		"skin_count": 5,\
 		"skins": {\
 			"ocarina_of_time": {\
@@ -648,6 +658,7 @@ data modify storage ssbrc:data fighters set value {\
 		"model": 1860,\
 		"default_form": "default",\
 		"color": "light_purple",\
+		"alignment": "dark",\
 		"skin_count": 2,\
 		"skins": {\
 		},\
@@ -665,6 +676,7 @@ data modify storage ssbrc:data fighters set value {\
 		"model": 420,\
 		"default_form": "default",\
 		"color": "blue",\
+		"alignment": "hero",\
 		"skin_count": 4,\
 		"skins": {\
 			"shiny": {\
@@ -692,6 +704,7 @@ data modify storage ssbrc:data fighters set value {\
 		"model": 440,\
 		"default_form": "default",\
 		"color": "yellow",\
+		"alignment": "hero",\
 		"skin_count": 6,\
 		"skins": {\
 			"erdrick": {\
@@ -767,6 +780,7 @@ data modify storage ssbrc:data fighters set value {\
 		"model": 580,\
 		"default_form": "default",\
 		"color": "light_purple",\
+		"alignment": "hero",\
 		"skin_count": 3,\
 		"skins": {\
 			"shiny": {\
@@ -829,6 +843,7 @@ data modify storage ssbrc:data fighters set value {\
 		"model": 600,\
 		"default_form": "default",\
 		"color": "dark_red",\
+		"alignment": "hero",\
 		"skin_count": 4,\
 		"skins": {\
 			"shujin_academy": {\
@@ -908,6 +923,7 @@ data modify storage ssbrc:data fighters set value {\
 		"model": 680,\
 		"default_form": "default",\
 		"color": "dark_green",\
+		"alignment": "dark",\
 		"skin_count": 2,\
 		"skins": {\
 		},\
@@ -953,6 +969,7 @@ data modify storage ssbrc:data fighters set value {\
 		"model": 700,\
 		"default_form": "default",\
 		"color": "light_purple",\
+		"alignment": "hero",\
 		"skin_count": 3,\
 		"skins": {\
 			"keeby": {\
@@ -1035,6 +1052,7 @@ data modify storage ssbrc:data fighters set value {\
 		"model": 720,\
 		"default_form": "default",\
 		"color": "green",\
+		"alignment": "hero",\
 		"skin_count": 5,\
 		"skins": {\
 			"dark_link": {\
@@ -1163,6 +1181,7 @@ data modify storage ssbrc:data fighters set value {\
 		"model": 820,\
 		"default_form": "default",\
 		"color": "dark_green",\
+		"alignment": "hero",\
 		"skin_count": 5,\
 		"skins": {\
 			"flower_power": {\
@@ -1259,6 +1278,7 @@ data modify storage ssbrc:data fighters set value {\
 		"model": 840,\
 		"default_form": "default",\
 		"color": "red",\
+		"alignment": "hero",\
 		"skin_count": 4,\
 		"skins": {\
 			"flower_power": {\
@@ -1338,6 +1358,7 @@ data modify storage ssbrc:data fighters set value {\
 		"model": 880,\
 		"default_form": "mega_buster",\
 		"color": "blue",\
+		"alignment": "hero",\
 		"skin_count": 3,\
 		"skins": {\
 			"star_force": {\
@@ -1560,6 +1581,7 @@ data modify storage ssbrc:data fighters set value {\
 		"model": 1080,\
 		"default_form": "default",\
 		"color": "dark_purple",\
+		"alignment": "hero",\
 		"skin_count": 5,\
 		"skins": {\
 			"pajamas": {\
@@ -1624,6 +1646,7 @@ data modify storage ssbrc:data fighters set value {\
 		"model": 1160,\
 		"default_form": "default",\
 		"color": "light_purple",\
+		"alignment": "hero",\
 		"skin_count": 2,\
 		"skins": {\
 		},\
@@ -1641,6 +1664,7 @@ data modify storage ssbrc:data fighters set value {\
 		"model": 1200,\
 		"default_form": "default",\
 		"color": "yellow",\
+		"alignment": "hero",\
 		"skin_count": 4,\
 		"skins": {\
 			"santa_hat": {\
@@ -1694,12 +1718,13 @@ data modify storage ssbrc:data fighters set value {\
 		"model": 1220,\
 		"default_form": "default",\
 		"color": "white",\
+		"alignment": "hero",\
 		"skin_count": 3,\
 		"skins": {\
 			"retro": {\
 				"name": "retro",\
 				"color": "white",\
-				"model": 1222\
+				"model": 1224\
 			}\
 		},\
 		"items": {\
@@ -1736,6 +1761,7 @@ data modify storage ssbrc:data fighters set value {\
 		"model": 1260,\
 		"default_form": "trainer",\
 		"color": "red",\
+		"alignment": "hero",\
 		"skin_count": 5,\
 		"skins": {\
 			"shiny": {\
@@ -1800,6 +1826,7 @@ data modify storage ssbrc:data fighters set value {\
 		"model": 1,\
 		"default_form": "depleted",\
 		"color": "white",\
+		"alignment": "hero",\
 		"skin_count": 4,\
 		"skins": {\
 			"famicom": {\
@@ -1853,6 +1880,7 @@ data modify storage ssbrc:data fighters set value {\
 		"model": 1400,\
 		"default_form": "default",\
 		"color": "white",\
+		"alignment": "hero",\
 		"skin_count": 3,\
 		"skins": {\
 			"hot_ryu": {\
@@ -1895,6 +1923,7 @@ data modify storage ssbrc:data fighters set value {\
 		"model": 1420,\
 		"default_form": "default",\
 		"color": "gold",\
+		"alignment": "hero",\
 		"skin_count": 4,\
 		"skins": {\
 			"gravity_suit": {\
@@ -2000,6 +2029,7 @@ data modify storage ssbrc:data fighters set value {\
 		"model": 1900,\
 		"default_form": "default",\
 		"color": "dark_red",\
+		"alignment": "neutral",\
 		"skin_count": 4,\
 		"skins": {\
 			"yellow_android": {\
@@ -2053,6 +2083,7 @@ data modify storage ssbrc:data fighters set value {\
 		"model": 1920,\
 		"default_form": "default",\
 		"color": "dark_aqua",\
+		"alignment": "hero",\
 		"skin_count": 4,\
 		"skins": {\
 			"armor_of_chaos": {\
@@ -2106,6 +2137,7 @@ data modify storage ssbrc:data fighters set value {\
 		"model": 1520,\
 		"default_form": "default",\
 		"color": "gray",\
+		"alignment": "hero",\
 		"skin_count": 4,\
 		"skins": {\
 			"classic_tuxedo": {\
@@ -2315,6 +2347,7 @@ data modify storage ssbrc:data fighters set value {\
 		"model": 1540,\
 		"default_form": "default",\
 		"color": "blue",\
+		"alignment": "hero",\
 		"skin_count": 5,\
 		"skins": {\
 			"classic": {\
@@ -2347,6 +2380,7 @@ data modify storage ssbrc:data fighters set value {\
 		"model": 1560,\
 		"default_form": "default",\
 		"color": "white",\
+		"alignment": "hero",\
 		"skin_count": 3,\
 		"skins": {\
 			"timeless_river": {\
@@ -2469,6 +2503,7 @@ data modify storage ssbrc:data fighters set value {\
 		"model": 1580,\
 		"default_form": "default",\
 		"color": "dark_aqua",\
+		"alignment": "hero",\
 		"skin_count": 4,\
 		"skins": {\
 			"alex": {\
@@ -2498,6 +2533,7 @@ data modify storage ssbrc:data fighters set value {\
 		"model_james": 1942,\
 		"default_form": "james",\
 		"color": "dark_purple",\
+		"alignment": "villain",\
 		"skin_count": 2,\
 		"skins": {\
 		},\
@@ -2515,6 +2551,7 @@ data modify storage ssbrc:data fighters set value {\
 		"model": 1720,\
 		"default_form": "default",\
 		"color": "dark_purple",\
+		"alignment": "villain",\
 		"skin_count": 3,\
 		"skins": {\
 			"assault": {\
@@ -2577,6 +2614,7 @@ data modify storage ssbrc:data fighters set value {\
 		"model": 1960,\
 		"default_form": "default",\
 		"color": "red",\
+		"alignment": "hero",\
 		"skin_count": 3,\
 		"skins": {\
 			"recruit": {\
@@ -2739,6 +2777,7 @@ data modify storage ssbrc:data fighters set value {\
 		"model": 1780,\
 		"default_form": "default",\
 		"color": "blue",\
+		"alignment": "hero",\
 		"skin_count": 3,\
 		"skins": {\
 			"hyrule_warriors": {\

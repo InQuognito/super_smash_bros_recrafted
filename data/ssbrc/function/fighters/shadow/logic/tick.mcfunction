@@ -17,6 +17,6 @@ execute if score in_electric_terrain temp matches 1 run scoreboard players set @
 function ssbrc:fighters/shadow/logic/speed/tick
 
 # Display
-execute if score @s shadow.meter.hero > @s shadow.meter.villain run function ssbrc:fighters/shadow/logic/chaos_meters/hero/check
-execute if score @s shadow.meter.villain > @s shadow.meter.hero run function ssbrc:fighters/shadow/logic/chaos_meters/villain/check
-execute if score @s shadow.meter.hero = @s shadow.meter.villain run function ssbrc:fighters/shadow/logic/chaos_meters/neutral
+execute if score @s shadow.meter.hero > @s shadow.meter.dark run function ssbrc:fighters/shadow/logic/chaos_meters/hero/check
+execute if score @s shadow.meter.dark > @s shadow.meter.hero run function ssbrc:fighters/shadow/logic/chaos_meters/villain/check
+execute if score @s shadow.meter.hero = @s shadow.meter.dark run function ssbrc:fighters/shadow/logic/chaos_meters/neutral

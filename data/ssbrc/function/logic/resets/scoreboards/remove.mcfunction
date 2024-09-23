@@ -97,7 +97,7 @@ scoreboard objectives remove selected_item
 scoreboard objectives remove selected_item.prev
 scoreboard objectives remove shadow.chaos_control
 scoreboard objectives remove shadow.meter.hero
-scoreboard objectives remove shadow.meter.villain
+scoreboard objectives remove shadow.meter.dark
 scoreboard objectives remove skin_picked
 scoreboard objectives remove slope
 scoreboard objectives remove snake.capacity

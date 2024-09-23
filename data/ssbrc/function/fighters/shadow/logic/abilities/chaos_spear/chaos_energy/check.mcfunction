@@ -1,6 +1,6 @@
-execute unless score chaos_spear_subtracted temp matches 1 if score @s shadow.meter.hero > @s shadow.meter.villain run function ssbrc:fighters/shadow/logic/abilities/chaos_spear/chaos_energy/subtract_hero
-execute unless score chaos_spear_subtracted temp matches 1 if score @s shadow.meter.villain > @s shadow.meter.hero run function ssbrc:fighters/shadow/logic/abilities/chaos_spear/chaos_energy/subtract_villain
-execute unless score chaos_spear_subtracted temp matches 1 if score @s shadow.meter.hero = @s shadow.meter.villain run function ssbrc:fighters/shadow/logic/abilities/chaos_spear/chaos_energy/subtract_random
+execute unless score chaos_spear_subtracted temp matches 1 if score @s shadow.meter.hero > @s shadow.meter.dark run function ssbrc:fighters/shadow/logic/abilities/chaos_spear/chaos_energy/subtract_hero
+execute unless score chaos_spear_subtracted temp matches 1 if score @s shadow.meter.dark > @s shadow.meter.hero run function ssbrc:fighters/shadow/logic/abilities/chaos_spear/chaos_energy/subtract_villain
+execute unless score chaos_spear_subtracted temp matches 1 if score @s shadow.meter.hero = @s shadow.meter.dark run function ssbrc:fighters/shadow/logic/abilities/chaos_spear/chaos_energy/subtract_random
 
 scoreboard players reset chaos_spear_subtracted temp
 

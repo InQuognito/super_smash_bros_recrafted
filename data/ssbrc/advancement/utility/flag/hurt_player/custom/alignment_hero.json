@@ -9,7 +9,7 @@
 						"condition": "minecraft:entity_properties",
 						"entity": "this",
 						"predicate": {
-							"nbt": "{Tags:[\"shadow\"]}"
+							"nbt": "{Tags:[\"alignment.neutral\"]}"
 						}
 					}
 				],
@@ -18,8 +18,11 @@
 				},
 				"entity": [
 					{
-						"condition": "minecraft:reference",
-						"name": "ssbrc:fighters/alignment/hero"
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"nbt": "{Tags:[\"alignment.hero\"]}"
+						}
 					}
 				]
 			}

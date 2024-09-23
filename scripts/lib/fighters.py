@@ -51,6 +51,7 @@ def fighter_storage():
 				mc_write(file, tab(2) + qm + 'model_james' + sep_n + str(ssbrc.fighters[fighter]['model'] + 2) + ',')
 			mc_write(file, tab(2) + qm + 'default_form' + sep_s + ssbrc.fighters[fighter]['forms'][0] + suf_s)
 			mc_write(file, tab(2) + qm + 'color' + sep_s + get_color(fighter) + suf_s)
+			mc_write(file, tab(2) + qm + 'alignment' + sep_s + str(ssbrc.fighters[fighter]['alignment']) + suf_s)
 			skin_count = count_skins(fighter)
 			mc_write(file, tab(2) + qm + 'skin_count' + sep_n + str(skin_count) + ',')
 			if fighter == 'byleth': skin_count /= 2
