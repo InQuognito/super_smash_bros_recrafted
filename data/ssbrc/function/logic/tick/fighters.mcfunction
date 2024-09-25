@@ -1,5 +1,9 @@
 execute store result score @s health run data get entity @s Health
 
+scoreboard players operation health temp = @s health
+scoreboard players operation health temp *= 100 integers
+scoreboard players operation health temp /= 40 integers
+
 execute store result score @s motion_x run data get entity @s Motion[1] 1000.0
 execute store result score @s motion_y run data get entity @s Motion[1] 1000.0
 execute store result score @s motion_z run data get entity @s Motion[1] 1000.0

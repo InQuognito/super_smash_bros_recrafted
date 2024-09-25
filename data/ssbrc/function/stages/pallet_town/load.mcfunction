@@ -20,10 +20,10 @@ execute if score random.output temp matches 2 positioned -549.5 25.5 -121.5 rota
 execute positioned -560.5 13.0 -123.5 rotated 90.0 0.0 summon minecraft:item_display run function ssbrc:stages/pallet_town/logic/pokemon/snorlax
 
 # Rope
-summon minecraft:item_display -553.0 16.25 -157.0 {Tags:["static_object","rope"],Rotation:[90f,0f],item:{id:"minecraft:sugar",components:{"minecraft:custom_model_data":1351}},transformation:[2.5f,0f,0f,0f,0f,2.5f,0f,0f,0f,0f,2.5f,0f,0f,0f,0f,1f]}
+summon minecraft:item_display -553.0 16.25 -157.0 {Tags:["static_object","rope"],Rotation:[90f,0f],item:{id:"minecraft:sugar",components:{"minecraft:item_model":"ssbrc:stage/pallet_town/rope"}},transformation:[2.5f,0f,0f,0f,0f,2.5f,0f,0f,0f,0f,2.5f,0f,0f,0f,0f,1f]}
 
 # Misty's Bike
-summon minecraft:item_display -603.0 13.45 -196.2 {Tags:["static_object","mistys_bike"],Rotation:[-90f,0f],item:{id:"minecraft:sugar",components:{"minecraft:custom_model_data":1352}},transformation:[1f,0.2f,0f,0f,-0.2f,1f,0f,0f,0f,0f,1f,0f,0f,0f,0f,1f]}
+summon minecraft:item_display -603.0 13.45 -196.2 {Tags:["static_object","mistys_bike"],Rotation:[-90f,0f],item:{id:"minecraft:sugar",components:{"minecraft:item_model":"ssbrc:stage/pallet_town/mistys_bike"}},transformation:[1f,0.2f,0f,0f,-0.2f,1f,0f,0f,0f,0f,1f,0f,0f,0f,0f,1f]}
 
 # Armor Stands
 execute positioned -551.5 17.0 -161.5 summon minecraft:armor_stand run function ssbrc:stages/pallet_town/logic/armor_stands/brock
