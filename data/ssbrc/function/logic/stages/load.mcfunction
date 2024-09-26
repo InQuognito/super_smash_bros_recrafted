@@ -1,8 +1,3 @@
-$say data modify storage ssbrc:temp game.stage set from storage ssbrc:data stages.$(name)
-$say time set $(time)
-$say weather $(weather)
-$say forceload add $(location)
-
 $data modify storage ssbrc:temp game.stage set from storage ssbrc:data stages.$(name)
 
 $time set $(time)

@@ -28,7 +28,7 @@ function ssbrc:logic/resets/teams/reset
 
 kill @e[type=!minecraft:player,tag=!smithed.strict,tag=!smithed.entity]
 
-forceload remove all
+#forceload remove all
 
 # Memory Chunk
 forceload add 0 0 0 0
