@@ -7,3 +7,5 @@ effect give @s minecraft:levitation infinite 0 true
 scoreboard players set @s duration.1 15
 
 function ssbrc:logic/fighters/flags/use_recovery
+
+playsound ssbrc:fighters.altered_beast.werewolf.flame_arrow.activate player @a

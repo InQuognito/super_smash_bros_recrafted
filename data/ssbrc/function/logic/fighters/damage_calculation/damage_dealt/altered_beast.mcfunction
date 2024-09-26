@@ -1,5 +1,5 @@
-scoreboard players operation spiritGain temp = @s flag.damage_dealt
+scoreboard players operation spirit_gain temp = @s flag.damage_dealt
 
-scoreboard players operation spiritGain temp *= 100 integers
+scoreboard players operation spirit_gain temp *= 100 integers
 
-scoreboard players operation @s charge.1 += spiritGain temp
+scoreboard players operation @s resource += spirit_gain temp
