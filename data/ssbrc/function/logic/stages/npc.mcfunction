@@ -5,5 +5,3 @@ $item replace entity @s[tag=!no_replace] armor.legs with minecraft:iron_leggings
 
 $item replace entity @s[tag=!no_replace] weapon.mainhand with minecraft:white_dye[minecraft:item_model="ssbrc:$(path)/arm_right"]
 $item replace entity @s[tag=!no_replace] weapon.offhand with minecraft:white_dye[minecraft:item_model="ssbrc:$(path)/arm_left"]
-
-$say ssbrc:$(path)

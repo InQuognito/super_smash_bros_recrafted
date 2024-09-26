@@ -845,8 +845,8 @@ data modify storage ssbrc:data stages set value {\
 		"location": "2464 3968 2591 4095",\
 		"center": "2527.5 0.0 4031.5",\
 		"song_count": 2,\
-		"time": "null",\
-		"weather": "null",\
+		"time": "0",\
+		"weather": "clear",\
 		"spawnpoints": {\
 			"1": "2491.5 17.0 3988.5",\
 			"2": "2504.5 16.0 3989.5",\
@@ -991,7 +991,7 @@ data modify storage ssbrc:data stages set value {\
 		"location": "-1248 800 -1105 1023",\
 		"center": "-1176.5 0.0 911.5",\
 		"song_count": 2,\
-		"time": "null",\
+		"time": "0",\
 		"weather": "clear",\
 		"spawnpoints": {\
 			"1": "-1184.5 23.0 865.5",\
@@ -1135,7 +1135,8 @@ data modify storage ssbrc:data stages set value {\
 		"page": 3,\
 		"tick": "after_start",\
 		"altered_beast_form": "weretiger",\
-		"location": "null",\
+		"location": "23280 8608 23391 8671",\
+		"center": "23335.5 0.0 8639.5",\
 		"song_count": 2,\
 		"time": "noon",\
 		"weather": "clear",\
