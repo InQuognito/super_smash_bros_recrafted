@@ -1733,19 +1733,19 @@ data modify storage ssbrc:data fighters set value {\
 					"name": "ssbrc.fighter.pit.palutena_bow",\
 					"tag": "palutena_bow",\
 					"color": "white",\
-					"model": 1221,\
+					"model": pit/item/palutena_bow/default/idle,\
 				},\
 				"gold": {\
 					"name": "ssbrc.fighter.pit.palutena_bow",\
 					"tag": "palutena_bow",\
 					"color": "gold",\
-					"model": 1221\
+					"model": pit/item/palutena_bow/default/idle\
 				},\
 				"retro": {\
 					"name": "ssbrc.fighter.pit.palutena_bow",\
 					"tag": "palutena_bow",\
 					"color": "yellow",\
-					"model": 1223,\
+					"model": pit/item/palutena_bow/retro/idle,\
 				},\
 			},\
 		}\

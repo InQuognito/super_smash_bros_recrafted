@@ -13,4 +13,5 @@ execute if entity @s[tag=angel_feather] run function ssbrc:logic/fighters/jump/a
 # Bonuses
 #scoreboard players reset @s cement_shoes
 
-scoreboard players reset @s jumps
+scoreboard players add @s jump 1
+scoreboard players set @s jump.cooldown 6

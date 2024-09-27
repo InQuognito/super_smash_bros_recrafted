@@ -1,6 +1,6 @@
 tag @s add wings_flapped
 
-function ssbrc:logic/motion/calculate_strength {strength:4000,amplifier:7500}
+function ssbrc:logic/motion/calculate_strength {strength:7500,amplifier:7500}
 function player_motion:api/launch_xyz
 
 function ssbrc:logic/fighters/flags/use_recovery

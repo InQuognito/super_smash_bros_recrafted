@@ -1,1 +1,1 @@
-scoreboard players set @s charge.3 0
+function ssbrc:fighters/rob/logic/abilities/robo_burner/cancel

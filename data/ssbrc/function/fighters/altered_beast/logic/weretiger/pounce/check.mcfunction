@@ -1,8 +1,6 @@
 scoreboard players add @s[predicate=ssbrc:flag/sneaking,predicate=!ssbrc:flag/in_air] charge.2 1
 execute if score @s charge.2 >= altered_beast.pounce.threshold vars run particle minecraft:item{item:"minecraft:dirt"} ~ ~0.01 ~ 0.2 0.2 0.2 0.0 2 normal @a
 
-execute if score @s charge.2 = altered_beast.pounce.threshold vars run function ssbrc:fighters/altered_beast/logic/weretiger/pounce/charge
-
 function ssbrc:logic/fighters/jump/super_jump/calculate
 execute if score @s charge.2 >= altered_beast.pounce.threshold vars if score pounce.falloff temp >= altered_beast.pounce.falloff vars run function ssbrc:fighters/altered_beast/logic/weretiger/pounce/charge
 

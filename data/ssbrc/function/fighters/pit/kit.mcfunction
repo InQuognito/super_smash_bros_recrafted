@@ -1,4 +1,4 @@
-function ssbrc:logic/item/init/slot {item:"palutena_bow",slot:"hotbar.0",type:"default"}
+function ssbrc:logic/item/init/slot {item:"palutena_bow",slot:"hotbar.0",type:"item_model"}
 
 item replace entity @s inventory.0 with minecraft:arrow
 

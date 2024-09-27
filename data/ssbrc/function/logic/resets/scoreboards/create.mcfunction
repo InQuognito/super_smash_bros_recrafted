@@ -55,7 +55,8 @@ scoreboard objectives add immobile dummy
 scoreboard objectives add influence dummy
 scoreboard objectives add integers dummy
 scoreboard objectives add item_count dummy
-scoreboard objectives add jumps minecraft.custom:minecraft.jump
+scoreboard objectives add jump dummy
+scoreboard objectives add jump.cooldown dummy
 scoreboard objectives add kills dummy
 scoreboard objectives add leaderboard.kills dummy
 scoreboard objectives add leaderboard.wins dummy

@@ -24,8 +24,8 @@ scoreboard players operation altered_beast.spirit.consumption_rate.feral_instinc
 scoreboard players set altered_beast.mark_of_the_beast.cooldown vars 200
 scoreboard players set altered_beast.petrifying_breath.cooldown vars 100
 scoreboard players set altered_beast.electrocution.cooldown vars 300
-scoreboard players set altered_beast.super_jump.threshold vars 10
-scoreboard players set altered_beast.super_jump.falloff vars 200
+scoreboard players set altered_beast.pounce.threshold vars 10
+scoreboard players set altered_beast.pounce.falloff vars 200
 scoreboard players set altered_beast.flame_hands.cooldown vars 20
 
 scoreboard players set bowser.fire_breath.max vars 100

@@ -14,10 +14,14 @@ execute unless score @s crawling matches 1 positioned ~ ~0.601 ~ unless entity @
 scoreboard players remove @s[scores={cooldown.1=1..}] cooldown.1 1
 scoreboard players remove @s[scores={cooldown.2=1..}] cooldown.2 1
 scoreboard players remove @s[scores={cooldown.3=1..}] cooldown.3 1
+scoreboard players remove @s[scores={jump.cooldown=1..}] jump.cooldown 1
 
 scoreboard players remove @s[scores={weapon_1.fire_rate=1..}] weapon_1.fire_rate 1
 
 execute if entity @e[type=minecraft:marker,tag=electric_terrain,distance=..12] run scoreboard players set in_electric_terrain temp 1
+
+execute unless score @s[predicate=ssbrc:input/jump] jump matches 1.. run function ssbrc:logic/fighters/jump
+scoreboard players set @s[predicate=!ssbrc:flag/in_air] jump 0
 
 function ssbrc:logic/fighters/get {function:"ssbrc:logic/fighters/tick"}
 
@@ -31,7 +35,6 @@ execute if entity @s[scores={flag.damage_dealt=1..}] run function ssbrc:logic/fi
 execute if entity @s[scores={flag.damage_taken=1..}] run function ssbrc:logic/fighters/damage_taken
 
 execute if entity @s[scores={fall_distance=1..}] run function ssbrc:logic/fighters/shockwave/check
-execute if entity @s[scores={jumps=1..}] run function ssbrc:logic/fighters/jump
 
 scoreboard players reset in_electric_terrain temp
 

@@ -51,7 +51,8 @@ scoreboard objectives remove immobile
 scoreboard objectives remove influence
 scoreboard objectives remove integers
 scoreboard objectives remove item_count
-scoreboard objectives remove jumps
+scoreboard objectives remove jump
+scoreboard objectives remove jump.cooldown
 scoreboard objectives remove kills
 scoreboard objectives remove leaderboard.kills
 scoreboard objectives remove leaderboard.wins
