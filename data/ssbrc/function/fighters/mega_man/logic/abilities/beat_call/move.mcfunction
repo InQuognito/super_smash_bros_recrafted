@@ -5,3 +5,6 @@ execute if block ^ ^ ^1 #ssbrc:passthrough if entity @s[tag=recall] facing entit
 $execute if entity @s[tag=attack] at @n[tag=beat_call.target] rotated $(rotation) 0.0 positioned ^ ^2 ^1 facing entity @n[tag=beat_call.target] eyes run return run teleport @s ~ ~ ~ ~ ~
 
 $execute at @a[tag=self,limit=1] rotated $(rotation) 0.0 positioned ^ ^2 ^1 rotated as @a[tag=self,limit=1] run teleport @s ~ ~ ~ ~ ~
+
+execute at @s on passengers run teleport @s ~ ~ ~ ~ ~
+ride @n[type=minecraft:item_display] mount @s

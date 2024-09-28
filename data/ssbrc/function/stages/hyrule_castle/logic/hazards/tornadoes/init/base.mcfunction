@@ -5,3 +5,5 @@ item replace entity @s armor.head with minecraft:sugar[minecraft:custom_model_da
 function ssbrc:stages/hyrule_castle/logic/hazards/tornadoes/init
 
 execute summon minecraft:armor_stand run function ssbrc:stages/hyrule_castle/logic/hazards/tornadoes/init/middle
+
+playsound ssbrc:stages.hyrule_castle.tornado.activate hostile @a
