@@ -52,7 +52,7 @@
 									"show_in_tooltip": false
 								},
 								"minecraft:max_damage": 10,
-								"minecraft:custom_model_data": 100
+								"minecraft:item_model": "ssbrc:fighter/byleth/item/sword_of_the_creator"
 							}
 						},
 						{

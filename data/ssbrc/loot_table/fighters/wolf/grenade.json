@@ -60,8 +60,10 @@
 							"mode": "append"
 						},
 						{
-							"function": "minecraft:reference",
-							"name": "ssbrc:fighters/wolf/grenade/default"
+							"function": "minecraft:set_components",
+							"components": {
+								"minecraft:item_model": "ssbrc:fighter/wolf/item/grenade/default"
+							}
 						},
 						{
 							"function": "minecraft:set_custom_data",

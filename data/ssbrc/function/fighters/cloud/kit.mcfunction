@@ -1,6 +1,6 @@
 tag @s remove punisher
 tag @s add operator
 
-loot replace entity @s hotbar.0 loot ssbrc:fighters/cloud/buster_sword
+function ssbrc:logic/item/init/slot {item:"buster_sword",slot:"hotbar.0",type:"variant"}
 
 scoreboard players set @s resource 0

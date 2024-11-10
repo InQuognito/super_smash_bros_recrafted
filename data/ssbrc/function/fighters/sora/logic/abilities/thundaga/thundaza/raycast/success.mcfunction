@@ -5,5 +5,3 @@ execute if score in_electric_terrain temp matches 1 run scoreboard players opera
 scoreboard players operation @s mana -= sora.thunder.cost temp
 
 scoreboard players add @s cooldown 30
-
-scoreboard players set raycast_success temp 1

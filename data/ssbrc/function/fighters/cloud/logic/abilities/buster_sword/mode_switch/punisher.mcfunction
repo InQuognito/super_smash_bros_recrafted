@@ -1,7 +1,7 @@
 tag @s remove operator
 tag @s add punisher
 
-item modify entity @s weapon.mainhand ssbrc:fighters/cloud/buster_sword
+function ssbrc:logic/item/component/update/slot_unknown {mode:"add",amount:1,search_key:"item",search_value:"buster_sword",component:"minecraft:custom_model_data",output_path:"model temp"}
 
 attribute @s minecraft:armor modifier add ssbrc:punisher -1.0 add_multiplied_total
 attribute @s minecraft:attack_damage modifier add ssbrc:punisher 2.0 add_multiplied_base

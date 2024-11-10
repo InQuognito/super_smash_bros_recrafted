@@ -26,3 +26,5 @@ execute as @a unless score @s hard_resets = num hard_resets run function ssbrc:l
 execute as @a[tag=!loaded] run function ssbrc:logic/resets/players
 
 execute if score game_mode options matches ..0 run scoreboard players set game_mode options 1
+
+function ssbrc:test/tick

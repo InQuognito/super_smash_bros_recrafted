@@ -29,42 +29,12 @@
 										}
 									],
 									"show_in_tooltip": false
-								},
-								"minecraft:custom_model_data": 100
+								}
 							}
 						},
 						{
 							"function": "minecraft:reference",
 							"name": "ssbrc:init/preset/melee"
-						},
-						{
-							"function": "minecraft:reference",
-							"name": "ssbrc:fighters/byleth/steel_sword/default",
-							"conditions": [
-								{
-									"condition": "minecraft:inverted",
-									"term": {
-										"condition": "minecraft:entity_properties",
-										"entity": "this",
-										"predicate": {
-											"nbt": "{Tags:[\"gold\"]}"
-										}
-									}
-								}
-							]
-						},
-						{
-							"function": "minecraft:reference",
-							"name": "ssbrc:fighters/byleth/steel_sword/gold",
-							"conditions": [
-								{
-									"condition": "minecraft:entity_properties",
-									"entity": "this",
-									"predicate": {
-										"nbt": "{Tags:[\"gold\"]}"
-									}
-								}
-							]
 						},
 						{
 							"function": "minecraft:set_custom_data",

@@ -127,8 +127,6 @@ def safe_fall_distance(value):
 	else:
 		return value
 
-
-
 def init_item_data(file, fighter, skin, item):
 	mc_write(file, tab(4) + qm + skin + suf_e)
 
@@ -149,8 +147,11 @@ def init_item_data(file, fighter, skin, item):
 		mc_write(file, tab(5) + qm + 'color' + sep_s + ssbrc.fighters[fighter]['items'][item]['default']['color'] + suf_s)
 
 	if 'model' in ssbrc.fighters[fighter]['items'][item][skin].keys():
-		mc_write(file, tab(5) + qm + 'model' + sep_n + str(ssbrc.fighters[fighter]['items'][item][skin]['model']) + ',')
+		mc_write(file, tab(5) + qm + 'model' + sep_s + str(ssbrc.fighters[fighter]['items'][item][skin]['model']) + qm)
 	else:
-		mc_write(file, tab(5) + qm + 'model' + sep_n + str(ssbrc.fighters[fighter]['items'][item]['default']['model']))
+		if skin == 'gold':
+			mc_write(file, tab(5) + qm + 'model' + sep_s + 'gold' + qm)
+		else:
+			mc_write(file, tab(5) + qm + 'model' + sep_s + skin + qm)
 
 	mc_write(file, tab(4) + ent)

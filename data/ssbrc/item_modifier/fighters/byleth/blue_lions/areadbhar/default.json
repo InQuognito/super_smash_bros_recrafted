@@ -10,33 +10,9 @@
 		}
 	},
 	{
-		"function": "minecraft:set_custom_model_data",
-		"value": 102,
-		"conditions": [
-			{
-				"condition": "minecraft:entity_scores",
-				"entity": "this",
-				"scores": {
-					"rotation": {
-						"max": 999
-					}
-				}
-			}
-		]
-	},
-	{
-		"function": "minecraft:set_custom_model_data",
-		"value": 104,
-		"conditions": [
-			{
-				"condition": "minecraft:entity_scores",
-				"entity": "this",
-				"scores": {
-					"rotation": {
-						"min": 1000
-					}
-				}
-			}
-		]
+		"function": "minecraft:set_components",
+		"components": {
+			"minecraft:item_model": "ssbrc:fighter/byleth/item/areadbhar/default"
+		}
 	}
 ]

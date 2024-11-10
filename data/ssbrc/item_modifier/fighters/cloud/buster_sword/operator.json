@@ -46,7 +46,7 @@
 	},
 	{
 		"function": "minecraft:reference",
-		"name": "ssbrc:fighters/cloud/buster_sword/tooltip/change_modes"
+		"name": "ssbrc:fighters/cloud/buster_sword/change_modes"
 	},
 	{
 		"function": "minecraft:set_lore",

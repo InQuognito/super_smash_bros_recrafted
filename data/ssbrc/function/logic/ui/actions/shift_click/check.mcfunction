@@ -38,5 +38,7 @@ execute if items entity @s inventory.26 #ssbrc:ui[minecraft:custom_data~{ui:{}}]
 
 execute if items entity @s weapon.offhand #ssbrc:ui[minecraft:custom_data~{ui:{}}] run data modify storage ssbrc:data ui merge from entity @s Inventory[{Slot:-106b}].components.minecraft:custom_data.ui
 
-function ssbrc:logic/ui/actions/click/goto/default with storage ssbrc:data ui
+execute unless score @s cooldown matches 1.. run function ssbrc:logic/ui/actions/click/goto/default with storage ssbrc:data ui
 clear @s #ssbrc:ui[minecraft:custom_data~{ui:{}}]
+
+scoreboard players set @s cooldown 5

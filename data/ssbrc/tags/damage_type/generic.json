@@ -1,10 +1,7 @@
 {
 	"values": [
 		"minecraft:player_attack",
-		"ssbrc:beam",
 		"ssbrc:generic",
-		"ssbrc:gravity",
-		"ssbrc:pierce",
-		"ssbrc:sonic"
+		"ssbrc:pierce"
 	]
 }

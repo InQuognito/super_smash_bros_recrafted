@@ -5,5 +5,3 @@ function ssbrc:fighters/zelda/logic/mana/update
 
 item modify entity @s weapon.mainhand {function:"minecraft:set_components",components:{"minecraft:max_damage":60}}
 function ssbrc:logic/item/durability/reset/hand
-
-scoreboard players set raycast_success temp 1

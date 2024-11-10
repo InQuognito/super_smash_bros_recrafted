@@ -27,6 +27,7 @@ function ssbrc:logic/resets/schedule
 function ssbrc:logic/resets/teams/reset
 
 kill @e[type=!minecraft:player,tag=!smithed.strict,tag=!smithed.entity]
+summon minecraft:marker 0.0 0.0 0.0 {Tags:["math"]}
 
 #forceload remove all
 

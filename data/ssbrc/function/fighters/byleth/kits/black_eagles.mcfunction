@@ -1,4 +1,4 @@
-loot replace entity @s hotbar.0 loot ssbrc:fighters/byleth/black_eagles/aymr
+loot replace entity @s hotbar.0 loot ssbrc:fighters/byleth/aymr
 
 loot replace entity @s hotbar.1 loot ssbrc:fighters/byleth/steel_bow
 

@@ -1,6 +1,6 @@
 tag @s add robo_burner
 
-function ssbrc:logic/motion/calculate_strength {strength:7500,amplifier:7500}
+scoreboard players set $y player_motion.api.launch 7500
 function player_motion:api/launch_xyz
 
 scoreboard players remove @s resource 18

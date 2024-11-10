@@ -1,8 +1,8 @@
-function ssbrc:logic/item/init/slot {item:"master_sword",slot:"hotbar.0",type:"default"}
+function ssbrc:logic/item/init/slot {item:"master_sword",slot:"hotbar.0",type:"variant"}
 
-function ssbrc:logic/item/init/slot {item:"fairy_bow",slot:"hotbar.1",type:"default"}
+function ssbrc:logic/item/init/slot {item:"fairy_bow",slot:"hotbar.1",type:"variant"}
 
-function ssbrc:logic/item/init/slot {item:"boomerang",slot:"hotbar.2",type:"default"}
+loot replace entity @s hotbar.2 loot ssbrc:fighters/link/boomerang
 
 item replace entity @s hotbar.8 with minecraft:spectral_arrow 10
 

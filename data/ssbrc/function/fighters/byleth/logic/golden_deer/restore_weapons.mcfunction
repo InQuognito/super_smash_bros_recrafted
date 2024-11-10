@@ -1,5 +1,5 @@
 clear @s minecraft:nether_star[minecraft:custom_data~{item:"brave_bow"}]
-loot give @s loot ssbrc:fighters/byleth/golden_deer/failnaught
+loot give @s loot ssbrc:fighters/byleth/failnaught
 
 clear @s minecraft:iron_sword[minecraft:custom_data~{item:"steel_sword"}]
 loot give @s loot ssbrc:fighters/byleth/sword_of_the_creator

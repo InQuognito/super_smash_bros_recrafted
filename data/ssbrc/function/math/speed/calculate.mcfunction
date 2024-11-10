@@ -17,6 +17,5 @@ scoreboard players operation speed temp = pos_x temp
 scoreboard players operation speed temp += pos_z temp
 
 # Square root to find final speed value
-scoreboard players operation sqrt.input math = speed temp
-scoreboard players set sqrt.scale_factor math 3
-function ssbrc:math/sqrt/calculate
+scoreboard players operation in math = speed temp
+function math:root

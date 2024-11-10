@@ -1,4 +1,4 @@
-teleport @s ~ ~ ~ ~ -45.0
+rotate @s ~ -45.0
 
 execute rotated as @s positioned 0.0 0.0 0.0 run teleport @s ^ ^ ^1.5
 

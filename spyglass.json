@@ -1,6 +1,5 @@
 {
 	"env": {
-		"gameVersion": "Latest Snapshot",
-		"useFilePolling": true
+		"gameVersion": "Latest Snapshot"
 	}
 }

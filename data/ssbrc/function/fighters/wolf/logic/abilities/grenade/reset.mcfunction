@@ -1,1 +1,1 @@
-item modify entity @s weapon.mainhand ssbrc:fighters/wolf/grenade/default
+item modify entity @s weapon.mainhand {"function":"set_custom_model_data","value":0}

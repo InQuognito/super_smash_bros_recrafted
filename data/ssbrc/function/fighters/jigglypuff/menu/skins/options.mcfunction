@@ -13,4 +13,7 @@ execute if data storage ssbrc:temp player.temp_data{skin:"gold"} run tellraw @s 
 execute unless data storage ssbrc:temp player.temp_data{skin:"shiny"} run tellraw @s[advancements={ssbrc:fighters/jigglypuff/skins/shiny=true}] {"translate":"ssbrc.skin.shiny","color":"light_purple","clickEvent":{"action":"run_command","value":"/trigger menu set 3"}}
 execute if data storage ssbrc:temp player.temp_data{skin:"shiny"} run tellraw @s [{"translate":"ssbrc.skin.shiny","color":"light_purple"},{"text":" ✔","color":"green"}]
 
+execute unless data storage ssbrc:temp player.temp_data{skin:"scream_tail"} run tellraw @s[advancements={ssbrc:fighters/jigglypuff/skins/scream_tail=true}] {"translate":"ssbrc.skin.scream_tail","color":"light_purple","clickEvent":{"action":"run_command","value":"/trigger menu set 4"}}
+execute if data storage ssbrc:temp player.temp_data{skin:"scream_tail"} run tellraw @s [{"translate":"ssbrc.skin.scream_tail","color":"light_purple"},{"text":" ✔","color":"green"}]
+
 function ssbrc:logic/fighters/menu/skin_options
