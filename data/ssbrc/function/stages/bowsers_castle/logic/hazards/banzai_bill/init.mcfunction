@@ -1,9 +1,11 @@
 tag @s add banzai_bill
 
-teleport @s ~ ~ ~ -90.0 0.0
+teleport @s ~ ~ ~ ~ ~
 
-data merge entity @s {NoGravity:1b,Pose:{RightArm:[270f,0f,0f]},HandItems:[{id:"minecraft:sugar",components:{"minecraft:custom_model_data":158}},{}]}
+item replace entity @s contents with minecraft:sugar[minecraft:item_model="ssbrc:stage/bowsers_castle/banzai_bill"]
+
+data merge entity @s {transformation:[2f,0f,0f,0f,0f,2f,0f,0f,0f,0f,2f,0f,0f,0f,0f,1f],teleport_duration:1}
 
 scoreboard players set @s temp 1
 
-function ssbrc:logic/init/armor_stand/data
+function ssbrc:logic/init/id

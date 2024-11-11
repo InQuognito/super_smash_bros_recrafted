@@ -3,7 +3,7 @@ execute if entity @s[tag=war_horn.active] run function ssbrc:fighters/shovel_kni
 
 clear @s #ssbrc:equipment
 
-function ssbrc:logic/item/init/slot {item:"shovel_blade",slot:"hotbar.0",type:"default"}
+function ssbrc:logic/item/init/slot {item:"shovel_blade",slot:"hotbar.0",type:"skin"}
 
 execute store result score random.output temp run random value 1..3
 

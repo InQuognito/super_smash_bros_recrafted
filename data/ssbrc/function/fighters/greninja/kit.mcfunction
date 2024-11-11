@@ -1,1 +1,1 @@
-function ssbrc:logic/item/init/slot {item:"night_slash",slot:"hotbar.0",type:"default"}
+loot replace entity @s hotbar.0 loot ssbrc:fighters/greninja/night_slash

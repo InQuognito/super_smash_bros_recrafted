@@ -1,4 +1,4 @@
-execute unless items entity @s container.* minecraft:nether_star[minecraft:custom_data~{item:"barrel"}] run function ssbrc:logic/item/give/default {item:"barrel",type:"default"}
+execute unless items entity @s container.* minecraft:nether_star[minecraft:custom_data~{item:"barrel"}] run function ssbrc:logic/item/give/default {item:"barrel",type:"skin"}
 
 loot give @s[scores={charge.1=..0}] loot ssbrc:fighters/donkey_kong/orange_grenade
 

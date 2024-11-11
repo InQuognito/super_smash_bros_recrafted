@@ -1,4 +1,4 @@
-function ssbrc:logic/item/init/replace {search_key:"item",search_value:"ray_blaster",item:"triple_shot",type:"default"}
+function ssbrc:logic/item/init/replace {search_key:"item",search_value:"ray_blaster",item:"triple_shot",type:"skin"}
 
 tag @s add triple_shot
 
