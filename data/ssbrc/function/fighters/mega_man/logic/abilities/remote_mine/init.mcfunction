@@ -1,6 +1,6 @@
 tag @s add remote_mine
 
-item replace entity @s contents with minecraft:nether_star[minecraft:custom_model_data=906]
+item replace entity @s contents with minecraft:nether_star[minecraft:item_model="ssbrc:fighter/mega_man/projectile/remote_mine"]
 
 function ssbrc:logic/init/projectile
 

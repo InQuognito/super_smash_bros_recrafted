@@ -1,10 +1,10 @@
 # Mural
-summon minecraft:item_display 4990.5 12.5 5026.5 {Rotation:[0f,0f],item:{id:"minecraft:sugar",components:{"minecraft:custom_model_data":1801}},brightness:{sky:15,block:15}}
+summon minecraft:item_display 4990.5 12.5 5026.5 {Tags:["static_object"],Rotation:[0f,0f],item:{id:"minecraft:sugar",components:{"minecraft:item_model":"ssbrc:stage/wily_castle/mural"}},brightness:{sky:15,block:15}}
 
 # Dr. W's
-summon minecraft:item_display 4913.01 13.5 5078.5 {Rotation:[-90f,0f],item:{id:"minecraft:sugar",components:{"minecraft:custom_model_data":1802}},brightness:{sky:15,block:15}}
-summon minecraft:item_display 4913.01 13.5 5087.5 {Rotation:[-90f,0f],item:{id:"minecraft:sugar",components:{"minecraft:custom_model_data":1802}},brightness:{sky:15,block:15}}
-summon minecraft:item_display 5019.99 15.5 5063.5 {Rotation:[90f,0f],item:{id:"minecraft:sugar",components:{"minecraft:custom_model_data":1802}},brightness:{sky:15,block:15}}
+execute positioned 4913.01 13.5 5078.5 rotated -90.0 0.0 summon minecraft:item_display run function ssbrc:stages/wily_castle/logic/dr_w
+execute positioned 4913.01 13.5 5087.5 rotated -90.0 0.0 summon minecraft:item_display run function ssbrc:stages/wily_castle/logic/dr_w
+execute positioned 5019.99 15.5 5063.5 rotated 90.0 0.0 summon minecraft:item_display run function ssbrc:stages/wily_castle/logic/dr_w
 
 # Armor Stands
 execute positioned 4913.5 11.0 5076.5 summon minecraft:armor_stand run function ssbrc:stages/wily_castle/logic/armor_stands/acid_man

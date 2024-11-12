@@ -73,7 +73,7 @@
 							"function": "minecraft:set_components",
 							"components": {
 								"minecraft:max_damage": 300,
-								"minecraft:custom_model_data": 1829
+								"minecraft:item_model": "ssbrc:fighter/altered_beast/item/electrocution"
 							}
 						},
 						{

@@ -27,8 +27,10 @@
 							"name": "ssbrc:fighters/link/boomerang"
 						},
 						{
-							"function": "minecraft:set_custom_model_data",
-							"value": 9028
+							"function": "minecraft:set_components",
+							"components": {
+								"minecraft:item_model": "ssbrc:fighter/zelda/item/boomerang"
+							}
 						},
 						{
 							"function": "minecraft:set_custom_data",

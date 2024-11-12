@@ -1,6 +1,6 @@
 tag @s add middle
 
-item replace entity @s armor.head with minecraft:sugar[minecraft:custom_model_data=804]
+item replace entity @s armor.head with minecraft:sugar[minecraft:item_model="ssbrc:stage/hyrule_castle/tornado/middle"]
 
 function ssbrc:stages/hyrule_castle/logic/hazards/tornadoes/init
 

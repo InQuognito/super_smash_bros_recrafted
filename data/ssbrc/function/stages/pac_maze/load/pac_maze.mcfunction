@@ -22,8 +22,8 @@ summon minecraft:marker 23354.5 6.0 8633.5 {Tags:["spawnpoint.item"]}
 summon minecraft:marker 23348.5 6.0 8622.5 {Tags:["spawnpoint.item"]}
 summon minecraft:marker 23372.5 6.0 8622.5 {Tags:["spawnpoint.item"]}
 
-execute if score hazards options matches 0 positioned 23360.5 5.0 8636.5 summon minecraft:armor_stand run function ssbrc:stages/pac_maze/logic/ghosts/init/blinky
-execute if score hazards options matches 1 positioned 23360.5 5.0 8633.5 summon minecraft:armor_stand run function ssbrc:stages/pac_maze/logic/ghosts/init/blinky
-execute positioned 23360.5 5.0 8638.0 summon minecraft:armor_stand run function ssbrc:stages/pac_maze/logic/ghosts/init/pinky
-execute positioned 23358.5 5.0 8638.0 summon minecraft:armor_stand run function ssbrc:stages/pac_maze/logic/ghosts/init/inky
-execute positioned 23362.5 5.0 8638.0 summon minecraft:armor_stand run function ssbrc:stages/pac_maze/logic/ghosts/init/clyde
+execute if score hazards options matches 0 positioned 23360.5 5.0 8636.5 summon minecraft:armor_stand run function ssbrc:stages/pac_maze/logic/ghosts/init {name:"blinky"}
+execute if score hazards options matches 1 positioned 23360.5 5.0 8633.5 summon minecraft:armor_stand run function ssbrc:stages/pac_maze/logic/ghosts/init {name:"blinky"}
+execute positioned 23360.5 5.0 8638.0 summon minecraft:armor_stand run function ssbrc:stages/pac_maze/logic/ghosts/init {name:"pinky"}
+execute positioned 23358.5 5.0 8638.0 summon minecraft:armor_stand run function ssbrc:stages/pac_maze/logic/ghosts/init {name:"inky"}
+execute positioned 23362.5 5.0 8638.0 summon minecraft:armor_stand run function ssbrc:stages/pac_maze/logic/ghosts/init {name:"clyde"}

@@ -78,8 +78,10 @@
 							"mode": "append"
 						},
 						{
-							"function": "minecraft:set_custom_model_data",
-							"value": 1402
+							"function": "minecraft:set_components",
+							"components": {
+								"minecraft:item_model": "ssbrc:fighter/ryu/item/satsui_no_hado_rage"
+							}
 						},
 						{
 							"function": "minecraft:set_custom_data",

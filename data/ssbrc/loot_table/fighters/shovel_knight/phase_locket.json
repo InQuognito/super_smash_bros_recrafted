@@ -61,7 +61,7 @@
 							"function": "minecraft:set_components",
 							"components": {
 								"minecraft:max_damage": 200,
-								"minecraft:custom_model_data": 1923
+								"minecraft:item_model": "ssbrc:fighter/shovel_knight/item/phase_locket/default"
 							}
 						},
 						{

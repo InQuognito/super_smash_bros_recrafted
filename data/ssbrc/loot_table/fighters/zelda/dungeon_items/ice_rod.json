@@ -95,7 +95,7 @@
 							"function": "minecraft:set_components",
 							"components": {
 								"minecraft:max_damage": 40,
-								"minecraft:custom_model_data": 9030
+								"minecraft:item_model": "ssbrc:fighter/zelda/item/ice_rod"
 							}
 						},
 						{

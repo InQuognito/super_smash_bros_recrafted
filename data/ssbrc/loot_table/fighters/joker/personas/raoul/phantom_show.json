@@ -34,7 +34,7 @@
 							"function": "minecraft:set_components",
 							"components": {
 								"minecraft:max_damage": 15,
-								"minecraft:custom_model_data": 606
+								"minecraft:item_model": "ssbrc:fighter/joker/item/phantom_show"
 							}
 						},
 						{

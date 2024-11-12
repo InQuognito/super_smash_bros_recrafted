@@ -72,8 +72,8 @@
 						{
 							"function": "minecraft:set_components",
 							"components": {
-								"minecraft:custom_model_data": 302,
-								"minecraft:max_damage": 20
+								"minecraft:max_damage": 20,
+								"minecraft:item_model": "ssbrc:fighter/donkey_kong/item/orange_grenade"
 							}
 						},
 						{

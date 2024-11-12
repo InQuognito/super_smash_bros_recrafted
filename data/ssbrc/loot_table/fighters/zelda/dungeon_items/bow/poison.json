@@ -59,7 +59,7 @@
 									},
 									"show_in_tooltip": false
 								},
-								"minecraft:custom_model_data": 1782
+								"minecraft:item_model": "ssbrc:fighter/zelda/item/bow/poison/default"
 							}
 						},
 						{

@@ -27,8 +27,10 @@
 							"name": "ssbrc:fighters/zelda/weapon/enchant/glass"
 						},
 						{
-							"function": "minecraft:set_custom_model_data",
-							"value": 9023
+							"function": "minecraft:set_components",
+							"components": {
+								"minecraft:item_model": "ssbrc:fighter/zelda/item/spear/glass/default"
+							}
 						}
 					]
 				}

@@ -55,7 +55,7 @@
 							"function": "minecraft:set_components",
 							"components": {
 								"minecraft:max_damage": 10,
-								"custom_model_data": 441
+								"minecraft:item_model": "ssbrc:fighter/hero/item/bang/default"
 							}
 						},
 						{

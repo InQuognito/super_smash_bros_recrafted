@@ -26,7 +26,7 @@
 							"function": "minecraft:set_components",
 							"components": {
 								"minecraft:max_damage": 10,
-								"minecraft:custom_model_data": 1780
+								"minecraft:item_model": "ssbrc:fighter/zelda/item/small_shield"
 							}
 						},
 						{

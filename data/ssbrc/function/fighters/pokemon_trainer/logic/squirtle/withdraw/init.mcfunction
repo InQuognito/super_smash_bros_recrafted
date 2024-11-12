@@ -1,9 +1,9 @@
 tag @s add squirtle_shell
 $tag @s add $(skin)
 
-item replace entity @s[tag=!gold,tag=!shiny] contents with minecraft:nether_star[minecraft:custom_model_data=1260]
-item replace entity @s[tag=gold] contents with minecraft:nether_star[minecraft:custom_model_data=1261]
-item replace entity @s[tag=shiny] contents with minecraft:nether_star[minecraft:custom_model_data=1262]
+item replace entity @s[tag=!gold,tag=!shiny] contents with minecraft:nether_star[minecraft:item_model="ssbrc:fighter/pokemon_trainer/skin/default/squirtle_shell"]
+item replace entity @s[tag=gold] contents with minecraft:nether_star[minecraft:item_model="ssbrc:fighter/pokemon_trainer/skin/gold/squirtle_shell"]
+item replace entity @s[tag=shiny] contents with minecraft:nether_star[minecraft:item_model="ssbrc:fighter/pokemon_trainer/skin/shiny/squirtle_shell"]
 
 function ssbrc:logic/init/id
 

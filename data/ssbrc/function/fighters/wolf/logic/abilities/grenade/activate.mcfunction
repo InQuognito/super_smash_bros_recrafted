@@ -2,6 +2,6 @@ execute anchored eyes positioned ^ ^ ^1 summon minecraft:marker run function ssb
 
 function ssbrc:logic/item/cooldown/set/const {type:"2",value:"20"}
 
-function ssbrc:fighters/wolf/logic/abilities/grenade/reset
+item modify entity @s weapon.mainhand {"function":"set_components","components":{"!minecraft:custom_model_data":{}}}
 
 playsound ssbrc:fighters.wolf.grenade.throw player @a

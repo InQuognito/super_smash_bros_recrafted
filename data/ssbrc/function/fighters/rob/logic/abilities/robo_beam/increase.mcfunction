@@ -1,8 +1,9 @@
 function ssbrc:logic/item/find {search_key:"item",search_value:"robo_beam"}
 
-execute if score @s charge.1 matches ..99 run function ssbrc:fighters/rob/logic/abilities/robo_beam/charge/0 with storage ssbrc:output
-execute if score @s charge.1 matches 100 run function ssbrc:fighters/rob/logic/abilities/robo_beam/charge/1 with storage ssbrc:output
-execute if score @s charge.1 matches 200 run function ssbrc:fighters/rob/logic/abilities/robo_beam/charge/2 with storage ssbrc:output
+function ssbrc:logic/item/component/update/slot_unknown {mode:"add",amount:1,search_key:"item",search_value:"robo_beam",component:"minecraft:custom_model_data",output_path:"model temp"}
+
+execute if score @s charge.1 matches 100 run function ssbrc:logic/player_data/temp/set {mode:"store",key:"form",value:"ready"}
+execute if score @s charge.1 matches 200 run function ssbrc:logic/player_data/temp/set {mode:"store",key:"form",value:"charged"}
 
 function ssbrc:logic/fighters/armor/update/check
 

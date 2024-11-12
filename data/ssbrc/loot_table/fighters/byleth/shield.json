@@ -16,7 +16,7 @@
 							"function": "minecraft:set_components",
 							"components": {
 								"minecraft:max_damage": 20,
-								"minecraft:custom_model_data": 100
+								"minecraft:item_model": "ssbrc:fighter/byleth/item/steel_shield"
 							}
 						}
 					]

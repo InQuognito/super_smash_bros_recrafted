@@ -1,5 +1,5 @@
 tag @s add fake
 
-item replace entity @s contents with minecraft:sugar[minecraft:custom_model_data=1002]
+item replace entity @s contents with minecraft:sugar[minecraft:item_model="ssbrc:stage/luigis_mansion/painting/boo"]
 
 function ssbrc:stages/luigis_mansion/logic/painting/init

@@ -37,7 +37,7 @@ summon minecraft:item_display -548.5 -2.925 -1954.5 {CustomName:'"pxlsamosa"',Ta
 summon minecraft:text_display -547.5 -1.75 -1952.5 {Tags:["credits_text"],text:'{"text":"Thxlotl","bold":true}',billboard:"center",alignment:"center"}
 summon minecraft:item_display -547.5 -2.925 -1952.5 {CustomName:'"thxlotl"',Tags:["standard_highlight","selectable","developer"],item:{id:"minecraft:stick",components:{"minecraft:item_model":"ssbrc:misc/developer/thxlotl"}}}
 
-summon minecraft:item_display -546.5 -3.5 -1954.5 {Rotation:[0f,0f],item:{id:"minecraft:sugar",components:{"minecraft:custom_model_data":1019}}}
+summon minecraft:item_display -546.5 -3.5 -1954.5 {Rotation:[0f,0f],item:{id:"minecraft:sugar",components:{"minecraft:item_model":"ssbrc:stage/luigis_mansion/easel"}}}
 
 summon minecraft:text_display -545.5 -1.75 -1952.5 {Tags:["credits_text"],text:'{"text":"DavidTippy","bold":true}',billboard:"center",alignment:"center"}
 summon minecraft:item_display -545.5 -2.925 -1952.5 {CustomName:'"davidtippy"',Tags:["standard_highlight","selectable","developer"],item:{id:"minecraft:stick",components:{"minecraft:item_model":"ssbrc:misc/developer/davidtippy"}}}

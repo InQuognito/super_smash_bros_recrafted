@@ -1,8 +1,8 @@
 kill @e[type=minecraft:item_display,tag=power_pellet]
 
-execute store result score random.output temp run random value 0..3
+execute store result score random.output temp run random value 1..4
 
-$function ssbrc:stages/pac_maze/logic/$(variant)/power_pellet/spawn
+$function ssbrc:stages/pac_maze/logic/$(variant)/spawn_pellet
 
 scoreboard players reset dot_group.total temp
 

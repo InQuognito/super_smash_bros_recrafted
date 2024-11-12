@@ -59,7 +59,7 @@
 									},
 									"show_in_tooltip": false
 								},
-								"minecraft:custom_model_data": 1781
+								"minecraft:item_model": "ssbrc:fighter/zelda/item/bow/fire/default"
 							}
 						},
 						{

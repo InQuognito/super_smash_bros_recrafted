@@ -17,8 +17,10 @@
 							"name": "ssbrc:fighters/joker/personas/raoul"
 						},
 						{
-							"function": "minecraft:set_custom_model_data",
-							"value": 611
+							"function": "minecraft:set_components",
+							"components": {
+								"minecraft:item_model": "ssbrc:fighter/joker/portrait/raoul/inactive"
+							}
 						}
 					]
 				}

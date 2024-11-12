@@ -44,7 +44,7 @@
 									],
 									"show_in_tooltip": false
 								},
-								"minecraft:custom_model_data": 1820
+								"minecraft:item_model": "ssbrc:fighter/altered_beast/item/gladius"
 							}
 						},
 						{

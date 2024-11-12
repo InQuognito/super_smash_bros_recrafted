@@ -36,8 +36,10 @@
 							"mode": "append"
 						},
 						{
-							"function": "minecraft:set_custom_model_data",
-							"value": 9039
+							"function": "minecraft:set_components",
+							"components": {
+								"minecraft:item_model": "ssbrc:fighter/zelda/item/snorkel"
+							}
 						},
 						{
 							"function": "minecraft:set_custom_data",

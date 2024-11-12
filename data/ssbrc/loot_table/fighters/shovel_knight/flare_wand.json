@@ -67,7 +67,7 @@
 							"function": "minecraft:set_components",
 							"components": {
 								"minecraft:max_damage": 15,
-								"minecraft:custom_model_data": 1922
+								"minecraft:item_model": "ssbrc:fighter/shovel_knight/item/flare_wand/default"
 							}
 						},
 						{

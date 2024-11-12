@@ -1,6 +1,6 @@
 tag @s add boo
 
-item replace entity @s armor.head with minecraft:sugar[minecraft:custom_model_data=1022]
+item replace entity @s armor.head with minecraft:sugar[minecraft:item_model="ssbrc:stage/luigis_mansion/boo"]
 
 data merge entity @s {Pose:{Head:[0.1f,0.1f,0.1f]},NoGravity:1b}
 

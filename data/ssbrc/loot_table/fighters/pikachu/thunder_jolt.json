@@ -67,7 +67,7 @@
 							"function": "minecraft:set_components",
 							"components": {
 								"minecraft:max_damage": 20,
-								"minecraft:custom_model_data": 50003
+								"minecraft:item_model": "ssbrc:common/pokemon/type_icon/electric/default"
 							}
 						},
 						{

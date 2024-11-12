@@ -60,7 +60,7 @@
 						{
 							"function": "minecraft:set_components",
 							"components": {
-								"minecraft:custom_model_data": 443
+								"minecraft:item_model": "ssbrc:fighter/hero/item/magic_burst"
 							}
 						},
 						{

@@ -2,9 +2,6 @@ schedule clear ssbrc:logic/music/decide_schedule
 schedule clear ssbrc:logic/music/loop_schedule
 schedule clear ssbrc:logic/timer
 
-# Bowsers Castle
-schedule clear ssbrc:stages/bowsers_castle/logic/armor_stands/toad/nodding/tick
-
 # Flat Zone
 schedule clear ssbrc:stages/flat_zone/logic/gas_station_guy/1/left
 schedule clear ssbrc:stages/flat_zone/logic/gas_station_guy/1/right
@@ -34,7 +31,7 @@ schedule clear ssbrc:stages/luigis_mansion/logic/blackout/deactivate
 
 # Pac-Maze
 schedule clear ssbrc:stages/pac_maze/logic/ghosts/release/schedule
-schedule clear ssbrc:stages/pac_maze/logic/ghosts/states/animation_schedule
+schedule clear ssbrc:stages/pac_maze/logic/ghosts/animation/schedule
 
 # Planet Zebes
 schedule clear ssbrc:stages/planet_zebes/logic/rain/check

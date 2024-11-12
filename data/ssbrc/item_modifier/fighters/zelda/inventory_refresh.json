@@ -1,7 +1,9 @@
 [
 	{
-		"function": "minecraft:set_custom_model_data",
-		"value": 9050,
+		"function": "minecraft:set_components",
+		"components": {
+			"minecraft:item_model": "ssbrc:fighter/zelda/item/inventory_refresh/full_price"
+		},
 		"conditions": [
 			{
 				"condition": "minecraft:inverted",
@@ -22,8 +24,10 @@
 		]
 	},
 	{
-		"function": "minecraft:set_custom_model_data",
-		"value": 9051,
+		"function": "minecraft:set_components",
+		"components": {
+			"minecraft:item_model": "ssbrc:fighter/zelda/item/inventory_refresh/half_price"
+		},
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",

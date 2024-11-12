@@ -68,7 +68,7 @@
 						{
 							"function": "minecraft:set_components",
 							"components": {
-								"minecraft:custom_model_data": 421
+								"minecraft:item_model": "ssbrc:fighter/greninja/item/night_slash"
 							}
 						},
 						{

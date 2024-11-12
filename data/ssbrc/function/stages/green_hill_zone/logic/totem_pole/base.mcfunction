@@ -1,5 +1,5 @@
 tag @s add static_object
 
-item replace entity @s contents with minecraft:sugar[minecraft:custom_model_data=752]
+item replace entity @s contents with minecraft:sugar[minecraft:item_model="ssbrc:stage/green_hill_zone/totem_pole/base"]
 
 teleport @s ~ ~ ~ ~ ~

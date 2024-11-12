@@ -23,7 +23,7 @@ execute positioned -535.5 8.0 -1944.5 run summon minecraft:item_display ~ ~ ~ {T
 execute positioned -525.5 5.25 -1936.5 run summon minecraft:item_display ~ ~ ~ {CustomName:'"sandbag"',Tags:["selectable","standard_highlight"],item:{id:"minecraft:emerald",components:{"minecraft:item_model":"ssbrc:item/sandbag/default"}},Rotation:[-145f,0f]}
 
 # Resource Pack Checker
-execute positioned -525.5 5.5 -1952.5 run summon minecraft:item_display ~ ~ ~ {CustomName:'"assets"',Tags:["selectable","standard_highlight"],item:{id:"minecraft:barrier",components:{"minecraft:custom_model_data":99999}},transformation:[0.75f,0f,0f,0f,0f,0.75f,0f,0f,0f,0f,0.75f,0f,0f,0f,0f,1f]}
+execute positioned -525.5 5.5 -1952.5 run summon minecraft:item_display ~ ~ ~ {CustomName:'"assets"',Tags:["selectable","standard_highlight"],item:{id:"minecraft:barrier",components:{"minecraft:item_model":"ssbrc:common/pokemon/pokeball/default"}},transformation:[0.75f,0f,0f,0f,0f,0.75f,0f,0f,0f,0f,0.75f,0f,0f,0f,0f,1f]}
 execute positioned -525.5 4.15 -1951.99 run summon minecraft:text_display ~ ~ ~ {text:'["If this is NOT a ",{"text":"Pokéball","color":"red"},", click the ball to download the resource pack!"]',transformation:[0.5f,0f,0f,0f,0f,0.5f,0f,0f,0f,0f,0.5f,0f,0f,0f,0f,1f],line_width:70,alignment:"center"}
 
 setblock 0 16 0 minecraft:shulker_box replace
