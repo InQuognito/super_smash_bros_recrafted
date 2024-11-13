@@ -11,7 +11,6 @@ item replace entity @s enderchest.12 with minecraft:iron_sword[ \
 		"color": "yellow", \
 		"bold": true \
 	}', \
-	minecraft:item_model = "ssbrc:ui/credits", \
 	minecraft:custom_data = {ui:{navigation:"shop/pages/fighters/1",sound:"minecraft:ui.button.click master @s"}} \
 ]
 item modify entity @s enderchest.12 ssbrc:ui/shop/button

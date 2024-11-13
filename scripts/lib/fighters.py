@@ -22,11 +22,8 @@ def init_fighter():
 		skin_triggers(fighter, f'data\\ssbrc\\function\\fighters\\{fighter}\\menu\\')
 
 		# Create skins
-		forms = count_forms(fighter)
-		i = ssbrc.fighters[fighter]['model']
 		for skin in chain(['default', 'gold'], ssbrc.fighters[fighter]['skins']):
 			create_skin(skin, fighter)
-			i += forms
 
 def fighter_storage():
 	'''Initializes fighter database into a Minecraft JSON storage.'''
@@ -45,10 +42,6 @@ def fighter_storage():
 			mc_write(file, tab(2) + qm + 'movement_speed' + sep_n + str(movement_speed(ssbrc.fighters[fighter]['stats']['movement_speed'])) + ',')
 			mc_write(file, tab(2) + qm + 'page' + sep_n + str(ssbrc.fighters[fighter]['page']) + ',')
 			mc_write(file, tab(2) + qm + 'miiverse_posts' + sep_n + str(ssbrc.fighters[fighter]['miiverse_posts']) + ',')
-			mc_write(file, tab(2) + qm + 'model' + sep_n + str(ssbrc.fighters[fighter]['model']) + ',')
-			if fighter == 'team_rocket':
-				mc_write(file, tab(2) + qm + 'model_jesse' + sep_n + str(ssbrc.fighters[fighter]['model'] + 1) + ',')
-				mc_write(file, tab(2) + qm + 'model_james' + sep_n + str(ssbrc.fighters[fighter]['model'] + 2) + ',')
 			mc_write(file, tab(2) + qm + 'default_form' + sep_s + ssbrc.fighters[fighter]['forms'][0] + suf_s)
 			mc_write(file, tab(2) + qm + 'color' + sep_s + get_color(fighter) + suf_s)
 			mc_write(file, tab(2) + qm + 'alignment' + sep_s + str(ssbrc.fighters[fighter]['alignment']) + suf_s)
@@ -57,21 +50,15 @@ def fighter_storage():
 			if fighter == 'byleth': skin_count /= 2
 			mc_write(file, tab(2) + qm + 'skins' + suf_e)
 
-			forms = count_forms(fighter)
-			i = ssbrc.fighters[fighter]['model']
-			for skin in ['default','gold']:
-				i += forms
 			n = 1
 			for skin in ssbrc.fighters[fighter]['skins']:
 				mc_write(file, tab(3) + qm + skin + suf_e)
 				mc_write(file, tab(4) + qm + 'name' + sep_s + skin + suf_s)
 				mc_write(file, tab(4) + qm + 'color' + sep_s + get_color(fighter, skin) + suf_s)
-				mc_write(file, tab(4) + qm + 'model' + sep_n + str(i))
 				if n < (skin_count - 2):
 					mc_write(file, tab(3) + ent)
 				else:
 					mc_write(file, tab(3) + '}')
-				i += forms
 				n += 1
 			mc_write(file, tab(2) + ent)
 			mc_write(file, tab(2) + qm + 'items' + suf_e)

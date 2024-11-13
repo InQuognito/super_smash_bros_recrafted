@@ -15,7 +15,6 @@ def stage_storage():
 			mc_write(file, tab(2) + qm + 'series_type' + sep_s + ssbrc.series[series]['type'] + suf_s)
 			mc_write(file, tab(2) + qm + 'series_color' + sep_s + ssbrc.series[series]['color'] + suf_s)
 			mc_write(file, tab(2) + qm + 'color' + sep_s + ssbrc.stages[stage]['color'] + suf_s)
-			mc_write(file, tab(2) + qm + 'model' + sep_n + str(ssbrc.stages[stage]['model']) + ',')
 			mc_write(file, tab(2) + qm + 'name' + sep_s + stage + suf_s)
 			mc_write(file, tab(2) + qm + 'page' + sep_n + str(ssbrc.stages[stage]['page']) + ',')
 			if 'tick' in ssbrc.stages[stage].keys():

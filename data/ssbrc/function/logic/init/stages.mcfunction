@@ -7,7 +7,6 @@ data modify storage ssbrc:data stages set value {\
 		"series_type": "fighter",\
 		"series_color": "blue",\
 		"color": "gold",\
-		"model": 1,\
 		"name": "acropolis_graveyard",\
 		"page": 3,\
 		"altered_beast_form": "werewolf",\
@@ -55,7 +54,6 @@ data modify storage ssbrc:data stages set value {\
 		"series_type": "fixed",\
 		"series_color": "white",\
 		"color": "aqua",\
-		"model": 50,\
 		"name": "battlefield",\
 		"page": 1,\
 		"tick": "after_start",\
@@ -104,7 +102,6 @@ data modify storage ssbrc:data stages set value {\
 		"series_type": "fixed",\
 		"series_color": "white",\
 		"color": "green",\
-		"model": 100,\
 		"name": "big_battlefield",\
 		"page": 1,\
 		"tick": "after_start",\
@@ -153,7 +150,6 @@ data modify storage ssbrc:data stages set value {\
 		"series_type": "default",\
 		"series_color": "red",\
 		"color": "green",\
-		"model": 150,\
 		"name": "bowsers_castle",\
 		"page": 1,\
 		"tick": "after_start",\
@@ -202,7 +198,6 @@ data modify storage ssbrc:data stages set value {\
 		"series_type": "default",\
 		"series_color": "gold",\
 		"color": "red",\
-		"model": 200,\
 		"name": "castle_siege",\
 		"page": 2,\
 		"tick": "after_start",\
@@ -251,7 +246,6 @@ data modify storage ssbrc:data stages set value {\
 		"series_type": "default",\
 		"series_color": "blue",\
 		"color": "red",\
-		"model": 300,\
 		"name": "draculas_castle",\
 		"page": 3,\
 		"tick": "after_start",\
@@ -300,7 +294,6 @@ data modify storage ssbrc:data stages set value {\
 		"series_type": "fighter",\
 		"series_color": "light_purple",\
 		"color": "yellow",\
-		"model": 350,\
 		"name": "dream_land",\
 		"page": 1,\
 		"altered_beast_form": "weretiger",\
@@ -348,7 +341,6 @@ data modify storage ssbrc:data stages set value {\
 		"series_type": "fixed",\
 		"series_color": "white",\
 		"color": "dark_purple",\
-		"model": 400,\
 		"name": "final_destination",\
 		"page": 1,\
 		"tick": "after_start",\
@@ -397,7 +389,6 @@ data modify storage ssbrc:data stages set value {\
 		"series_type": "default",\
 		"series_color": "white",\
 		"color": "white",\
-		"model": 450,\
 		"name": "flat_zone",\
 		"page": 2,\
 		"tick": "after_start",\
@@ -446,7 +437,6 @@ data modify storage ssbrc:data stages set value {\
 		"series_type": "fighter",\
 		"series_color": "red",\
 		"color": "aqua",\
-		"model": 500,\
 		"name": "frozen_hijinx",\
 		"page": 1,\
 		"tick": "after_start",\
@@ -495,7 +485,6 @@ data modify storage ssbrc:data stages set value {\
 		"series_type": "default",\
 		"series_color": "green",\
 		"color": "green",\
-		"model": 600,\
 		"name": "garden_of_hope",\
 		"page": 2,\
 		"tick": "after_start",\
@@ -544,7 +533,6 @@ data modify storage ssbrc:data stages set value {\
 		"series_type": "default",\
 		"series_color": "yellow",\
 		"color": "blue",\
-		"model": 650,\
 		"name": "great_bay",\
 		"page": 1,\
 		"tick": "after_start",\
@@ -593,7 +581,6 @@ data modify storage ssbrc:data stages set value {\
 		"series_type": "default",\
 		"series_color": "yellow",\
 		"color": "green",\
-		"model": 700,\
 		"name": "great_plateau",\
 		"page": 1,\
 		"tick": "always",\
@@ -642,7 +629,6 @@ data modify storage ssbrc:data stages set value {\
 		"series_type": "default",\
 		"series_color": "blue",\
 		"color": "green",\
-		"model": 750,\
 		"name": "green_hill_zone",\
 		"page": 2,\
 		"tick": "after_start",\
@@ -691,7 +677,6 @@ data modify storage ssbrc:data stages set value {\
 		"series_type": "default",\
 		"series_color": "yellow",\
 		"color": "blue",\
-		"model": 800,\
 		"name": "hyrule_castle",\
 		"page": 1,\
 		"tick": "after_start",\
@@ -740,7 +725,6 @@ data modify storage ssbrc:data stages set value {\
 		"series_type": "default",\
 		"series_color": "aqua",\
 		"color": "aqua",\
-		"model": 850,\
 		"name": "icicle_mountain",\
 		"page": 2,\
 		"tick": "after_start",\
@@ -789,7 +773,6 @@ data modify storage ssbrc:data stages set value {\
 		"series_type": "fighter",\
 		"series_color": "red",\
 		"color": "dark_green",\
-		"model": 900,\
 		"name": "jungle_japes",\
 		"page": 1,\
 		"altered_beast_form": "weretiger",\
@@ -837,7 +820,6 @@ data modify storage ssbrc:data stages set value {\
 		"series_type": "default",\
 		"series_color": "yellow",\
 		"color": "blue",\
-		"model": 950,\
 		"name": "lake_of_rage",\
 		"page": 2,\
 		"tick": "always",\
@@ -886,7 +868,6 @@ data modify storage ssbrc:data stages set value {\
 		"series_type": "default",\
 		"series_color": "red",\
 		"color": "aqua",\
-		"model": 1000,\
 		"name": "luigis_mansion",\
 		"page": 1,\
 		"tick": "after_start",\
@@ -935,7 +916,6 @@ data modify storage ssbrc:data stages set value {\
 		"series_type": "default",\
 		"series_color": "#B09C61",\
 		"color": "light_purple",\
-		"model": 1050,\
 		"name": "magicant",\
 		"page": 2,\
 		"altered_beast_form": "werebear",\
@@ -983,7 +963,6 @@ data modify storage ssbrc:data stages set value {\
 		"series_type": "default",\
 		"series_color": "white",\
 		"color": "red",\
-		"model": 1100,\
 		"name": "mementos",\
 		"page": 3,\
 		"tick": "after_start",\
@@ -1032,7 +1011,6 @@ data modify storage ssbrc:data stages set value {\
 		"series_type": "default",\
 		"series_color": "white",\
 		"color": "green",\
-		"model": 1150,\
 		"name": "miiverse",\
 		"page": 2,\
 		"tick": "always",\
@@ -1081,7 +1059,6 @@ data modify storage ssbrc:data stages set value {\
 		"series_type": "default",\
 		"series_color": "red",\
 		"color": "green",\
-		"model": 1200,\
 		"name": "mushroom_kingdom",\
 		"page": 1,\
 		"tick": "after_start",\
@@ -1130,7 +1107,6 @@ data modify storage ssbrc:data stages set value {\
 		"series_type": "fighter",\
 		"series_color": "yellow",\
 		"color": "blue",\
-		"model": 1300,\
 		"name": "pac_maze",\
 		"page": 3,\
 		"tick": "after_start",\
@@ -1179,7 +1155,6 @@ data modify storage ssbrc:data stages set value {\
 		"series_type": "default",\
 		"series_color": "yellow",\
 		"color": "red",\
-		"model": 1350,\
 		"name": "pallet_town",\
 		"page": 2,\
 		"tick": "always",\
@@ -1228,7 +1203,6 @@ data modify storage ssbrc:data stages set value {\
 		"series_type": "default",\
 		"series_color": "white",\
 		"color": "green",\
-		"model": 250,\
 		"name": "palutenas_temple",\
 		"page": 2,\
 		"tick": "after_start",\
@@ -1277,7 +1251,6 @@ data modify storage ssbrc:data stages set value {\
 		"series_type": "default",\
 		"series_color": "gold",\
 		"color": "red",\
-		"model": 1850,\
 		"name": "planet_epp",\
 		"page": 3,\
 		"tick": "after_start",\
@@ -1326,7 +1299,6 @@ data modify storage ssbrc:data stages set value {\
 		"series_type": "default",\
 		"series_color": "gold",\
 		"color": "dark_aqua",\
-		"model": 1400,\
 		"name": "planet_zebes",\
 		"page": 1,\
 		"altered_beast_form": "weredragon",\
@@ -1374,7 +1346,6 @@ data modify storage ssbrc:data stages set value {\
 		"series_type": "default",\
 		"series_color": "gold",\
 		"color": "red",\
-		"model": 1900,\
 		"name": "pyrosphere",\
 		"page": 1,\
 		"tick": "after_start",\
@@ -1423,7 +1394,6 @@ data modify storage ssbrc:data stages set value {\
 		"series_type": "default",\
 		"series_color": "gray",\
 		"color": "gold",\
-		"model": 1450,\
 		"name": "sand_ocean",\
 		"page": 2,\
 		"altered_beast_form": "weretiger",\
@@ -1471,7 +1441,6 @@ data modify storage ssbrc:data stages set value {\
 		"series_type": "default",\
 		"series_color": "#B09C61",\
 		"color": "green",\
-		"model": 1500,\
 		"name": "saturn_valley",\
 		"page": 2,\
 		"tick": "after_start",\
@@ -1520,7 +1489,6 @@ data modify storage ssbrc:data stages set value {\
 		"series_type": "default",\
 		"series_color": "green",\
 		"color": "gold",\
-		"model": 1550,\
 		"name": "sector_z",\
 		"page": 1,\
 		"tick": "after_start",\
@@ -1569,7 +1537,6 @@ data modify storage ssbrc:data stages set value {\
 		"series_type": "default",\
 		"series_color": "red",\
 		"color": "white",\
-		"model": 1600,\
 		"name": "shadow_moses_island",\
 		"page": 2,\
 		"tick": "always",\
@@ -1618,7 +1585,6 @@ data modify storage ssbrc:data stages set value {\
 		"series_type": "default",\
 		"series_color": "yellow",\
 		"color": "yellow",\
-		"model": 1650,\
 		"name": "spear_pillar",\
 		"page": 2,\
 		"tick": "after_start",\
@@ -1667,7 +1633,6 @@ data modify storage ssbrc:data stages set value {\
 		"series_type": "default",\
 		"series_color": "red",\
 		"color": "aqua",\
-		"model": 1700,\
 		"name": "suzaku_castle",\
 		"page": 3,\
 		"altered_beast_form": "weredragon",\
@@ -1715,7 +1680,6 @@ data modify storage ssbrc:data stages set value {\
 		"series_type": "fighter",\
 		"series_color": "yellow",\
 		"color": "dark_purple",\
-		"model": 1750,\
 		"name": "tower_of_fate",\
 		"page": 3,\
 		"tick": "after_start",\
@@ -1764,7 +1728,6 @@ data modify storage ssbrc:data stages set value {\
 		"series_type": "fighter",\
 		"series_color": "blue",\
 		"color": "blue",\
-		"model": 1800,\
 		"name": "wily_castle",\
 		"page": 2,\
 		"altered_beast_form": "werewolf",\
@@ -1812,7 +1775,6 @@ data modify storage ssbrc:data stages set value {\
 		"series_type": "default",\
 		"series_color": "red",\
 		"color": "yellow",\
-		"model": 1950,\
 		"name": "yggdrasils_altar",\
 		"page": 3,\
 		"altered_beast_form": "weredragon",\
