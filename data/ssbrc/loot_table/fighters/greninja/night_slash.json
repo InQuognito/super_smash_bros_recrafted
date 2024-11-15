@@ -19,6 +19,10 @@
 							}
 						},
 						{
+							"function": "minecraft:reference",
+							"name": "ssbrc:init/ability/default"
+						},
+						{
 							"function": "minecraft:set_components",
 							"components": {
 								"minecraft:attribute_modifiers": {

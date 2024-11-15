@@ -17,6 +17,8 @@ attribute @s minecraft:armor modifier remove ssbrc:fighters/byleth/heavy_armor
 attribute @s minecraft:movement_speed modifier remove ssbrc:fighters/byleth/golden_deer/failnaught
 attribute @s minecraft:movement_speed modifier remove ssbrc:falcon_charge
 function ssbrc:fighters/cloud/logic/abilities/buster_sword/mode_switch/reset
+attribute @s minecraft:oxygen_bonus modifier remove ssbrc:greninja
+attribute @s minecraft:water_movement_efficiency modifier remove ssbrc:greninja
 attribute @s minecraft:knockback_resistance modifier remove ssbrc:yatagarasu
 attribute @s minecraft:jump_strength modifier remove ssbrc:super_jump
 attribute @s minecraft:armor modifier remove ssbrc:armor_break
