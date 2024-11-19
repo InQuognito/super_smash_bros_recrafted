@@ -4,6 +4,6 @@ execute if score temp health matches 17..24 store result score random.output tem
 execute if score temp health matches 25..32 store result score random.output temp run random value 0..20
 execute if score temp health matches 33.. store result score random.output temp run random value 0..10
 
-execute if predicate ssbrc:random_chance/50 run scoreboard players operation random.output temp *= -1 integers
+execute if predicate ssbrc:random_chance/50 run scoreboard players operation random.output temp *= -1 const
 
 execute if entity @a[tag=self,limit=1,predicate=ssbrc:flag/sneaking] run scoreboard players set random.output temp 0

@@ -1,5 +1,5 @@
 scoreboard players operation #damage_taken temp = @s flag.damage_taken
-execute if entity @s[tag=rebels_guard] run scoreboard players operation #damage_taken temp *= 2 integers
+execute if entity @s[tag=rebels_guard] run scoreboard players operation #damage_taken temp *= 2 const
 scoreboard players operation @s charge.1 += #damage_taken temp
 scoreboard players reset #damage_taken temp
 

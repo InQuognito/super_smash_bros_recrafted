@@ -6,6 +6,6 @@ execute positioned 253.5 30.0 3259.5 summon minecraft:armor_stand run function s
 execute positioned 306.5 30.0 3253.5 summon minecraft:armor_stand run function ssbrc:stages/sector_z/logic/armor_stands/rob_64
 execute positioned 293.5 28.0 3256.5 summon minecraft:armor_stand run function ssbrc:stages/sector_z/logic/armor_stands/slippy
 
-scoreboard players operation fall_distance.low vars *= 2 integers
-scoreboard players operation fall_distance.medium vars *= 2 integers
-scoreboard players operation fall_distance.high vars *= 2 integers
+scoreboard players operation fall_distance.low const *= 2 const
+scoreboard players operation fall_distance.medium const *= 2 const
+scoreboard players operation fall_distance.high const *= 2 const

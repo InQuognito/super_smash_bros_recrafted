@@ -8,9 +8,9 @@ effect give @s minecraft:resistance infinite 255 true
 function ssbrc:logic/player_data/temp/set {mode:"store",key:"form",value:"kaclang"}
 function ssbrc:logic/fighters/armor/update/check
 
-function ssbrc:fighters/hero/logic/mana/disable
+function ssbrc:fighters/hero/logic/magic/disable
 
-scoreboard players operation @s mana -= hero.kaclang.cost vars
+scoreboard players operation @s magic -= hero.kaclang.cost const
 
 playsound ssbrc:fighters.hero.kaclang.activate player @a
 playsound ssbrc:items.metal_box.activate player @a

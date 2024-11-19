@@ -1,1 +1,1 @@
-title @s actionbar [{"translate":"ssbrc.fighter.mana.deplete","bold":true,"color":"red"}]
+title @s actionbar [{"translate":"ssbrc.fighter.magic.deplete","bold":true,"color":"red"}]

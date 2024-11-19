@@ -26,16 +26,16 @@
 				},
 				"requirements": {
 					"condition": "minecraft:entity_scores",
-					"entity": "this",
+					"entity": "attacker",
 					"scores": {
-						"mana": {
+						"magic": {
 							"min": {
 								"type": "minecraft:score",
 								"target": {
 									"type": "minecraft:fixed",
 									"name": "hero.flame_slash.cost"
 								},
-								"score": "vars"
+								"score": "const"
 							}
 						}
 					}
@@ -48,22 +48,34 @@
 					"type": "minecraft:run_function",
 					"function": "ssbrc:fighters/hero/logic/abilities/flame_slash/activate"
 				},
-				"requirements": {
-					"condition": "minecraft:entity_scores",
-					"entity": "this",
-					"scores": {
-						"mana": {
-							"min": {
-								"type": "minecraft:score",
-								"target": {
-									"type": "minecraft:fixed",
-									"name": "hero.flame_slash.cost"
-								},
-								"score": "vars"
+				"requirements": [
+					{
+						"condition": "minecraft:inverted",
+						"term": {
+							"condition": "minecraft:entity_properties",
+							"entity": "attacker",
+							"predicate": {
+								"nbt": "{Tags:[\"magic_lost\"]}"
+							}
+						}
+					},
+					{
+						"condition": "minecraft:entity_scores",
+						"entity": "attacker",
+						"scores": {
+							"magic": {
+								"min": {
+									"type": "minecraft:score",
+									"target": {
+										"type": "minecraft:fixed",
+										"name": "hero.flame_slash.cost"
+									},
+									"score": "const"
+								}
 							}
 						}
 					}
-				}
+				]
 			}
 		]
 	}

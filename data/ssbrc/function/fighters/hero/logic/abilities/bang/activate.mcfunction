@@ -4,8 +4,8 @@ execute anchored eyes positioned ^ ^ ^1 summon minecraft:marker run function ssb
 
 function ssbrc:logic/item/durability/reset/hand
 
-scoreboard players operation @s mana -= hero.bang.cost vars
-function ssbrc:fighters/hero/logic/mana/check
+scoreboard players operation @s magic -= hero.bang.cost const
+function ssbrc:fighters/hero/logic/magic/check
 
 playsound ssbrc:fighters.hero.bang.activate player @a
 

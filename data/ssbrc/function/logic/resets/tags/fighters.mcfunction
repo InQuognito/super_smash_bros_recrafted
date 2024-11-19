@@ -26,13 +26,17 @@ function ssbrc:logic/resets/tags/fighters/zelda
 # Misc
 function ssbrc:logic/fighters/effects/mobility/reset
 
+tag @s remove alignment.hero
+tag @s remove alignment.villain
+
 tag @s remove ability_used
 tag @s remove cloaked
-tag @s remove fighter_picked
+tag @s remove hud_disabled
 tag @s remove check_death
 tag @s remove check_kill
 tag @s remove check_shockwave
 tag @s remove critical
+tag @s remove fighter_picked
 tag @s remove ignore_feedback
 tag @s remove intangible
 tag @s remove natural_shiny

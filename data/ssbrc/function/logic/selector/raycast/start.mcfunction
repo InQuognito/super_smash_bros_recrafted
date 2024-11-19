@@ -1,7 +1,7 @@
 function ssbrc:logic/player_data/temp/copy/check
 
-scoreboard players operation raycast temp = selector_range vars
-scoreboard players operation raycast temp *= 10 integers
+scoreboard players operation raycast temp = selector_range const
+scoreboard players operation raycast temp *= 10 const
 
 function ssbrc:logic/selector/raycast/loop
 

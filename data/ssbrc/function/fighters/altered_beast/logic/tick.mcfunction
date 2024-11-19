@@ -1,5 +1,5 @@
 # Spirit Gauge
-scoreboard players operation @s[predicate=ssbrc:fighters/altered_beast/charge_spirit] resource += altered_beast.spirit.recharge_rate vars
+scoreboard players operation @s[predicate=ssbrc:fighters/altered_beast/charge_spirit] resource += altered_beast.spirit.recharge_rate const
 execute if entity @s[tag=altered_beast.is_beast] run function ssbrc:fighters/altered_beast/logic/spirit_gauge/tick
 
 function ssbrc:fighters/altered_beast/logic/spirit_gauge/update

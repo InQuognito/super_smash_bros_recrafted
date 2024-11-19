@@ -4,9 +4,9 @@ execute positioned ~-0.375 ~-0.375 ~-0.375 as @e[tag=!self,predicate=ssbrc:flag/
 
 execute store result entity @s Rotation[1] float 0.25 run scoreboard players get @s point
 
-execute if score @s point < donkey_kong.orange_grenade.rotation vars run scoreboard players operation @s point -= @s slope
-execute if score @s point > donkey_kong.orange_grenade.rotation vars run scoreboard players operation @s point = donkey_kong.orange_grenade.rotation vars
-execute if score @s point < donkey_kong.orange_grenade.rotation vars run scoreboard players remove @s slope 20
+execute if score @s point < donkey_kong.orange_grenade.rotation const run scoreboard players operation @s point -= @s slope
+execute if score @s point > donkey_kong.orange_grenade.rotation const run scoreboard players operation @s point = donkey_kong.orange_grenade.rotation const
+execute if score @s point < donkey_kong.orange_grenade.rotation const run scoreboard players remove @s slope 20
 
 execute if entity @s[scores={point=1..}] unless block ~ ~-0.6 ~ #ssbrc:passthrough run function ssbrc:fighters/donkey_kong/logic/abilities/orange_grenade/bounce
 

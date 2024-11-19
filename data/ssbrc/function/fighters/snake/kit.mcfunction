@@ -8,7 +8,7 @@ execute if entity @s[tag=s1000] run function ssbrc:logic/item/give/default {item
 
 execute if entity @s[tag=socom] run function ssbrc:logic/item/give/default {item:"socom",type:"skin"}
 
-execute if entity @s[tag=anti_personnel_mine] run function ssbrc:logic/item/give/default {item:"anti_personnel_mine",type:"skin"}
+execute if entity @s[tag=anti_personnel_mine] run function ssbrc:logic/item/give/default {item:"anti_personnel_mine",type:"variant"}
 
 execute if entity @s[tag=smoke_grenade] run function ssbrc:logic/item/give/default {item:"smoke_grenade",type:"skin"}
 

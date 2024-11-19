@@ -13,5 +13,5 @@ execute unless score @s skin_picked matches 3 if score random.output temp matche
 execute unless score @s skin_picked matches 3 if score random.output temp matches 5 run function ssbrc:fighters/snake/menu/loadout/anti_personnel_mine/check
 execute unless score @s skin_picked matches 3 if score random.output temp matches 6 run function ssbrc:fighters/snake/menu/loadout/smoke_grenade/check
 
-execute unless score @s skin_picked matches 3 if score item temp > snake.weight.max vars run scoreboard players set @s skin_picked 3
+execute unless score @s skin_picked matches 3 if score item temp > snake.weight.max const run scoreboard players set @s skin_picked 3
 execute unless score @s skin_picked matches 3 run function ssbrc:fighters/snake/menu/loadout/random

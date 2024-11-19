@@ -6,7 +6,7 @@ tag @s add war_horn.active
 
 function ssbrc:logic/fighters/effects/mobility/immobilize {type:"default",duration:100}
 
-scoreboard players operation @s mana -= shovel_knight.war_horn.cost vars
+scoreboard players operation @s magic -= shovel_knight.war_horn.cost const
 function ssbrc:fighters/shovel_knight/logic/magic/update
 
 playsound ssbrc:fighters.shovel_knight.war_horn.activate player @a

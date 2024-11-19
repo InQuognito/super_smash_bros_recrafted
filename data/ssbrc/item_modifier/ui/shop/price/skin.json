@@ -12,7 +12,7 @@
 					{
 						"score": {
 							"name": "price.skin.common",
-							"objective": "vars"
+							"objective": "const"
 						},
 						"bold": false,
 						"italic": false

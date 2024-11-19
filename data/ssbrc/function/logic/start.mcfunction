@@ -27,4 +27,6 @@ tag @e[type=minecraft:marker,tag=tp_dest] remove tp_dest
 scoreboard players set game_stage temp 4
 scoreboard players reset countdown timer
 
+function ssbrc:logic/timer/fighters/schedule
+
 function ssbrc:logic/ui/popup/update

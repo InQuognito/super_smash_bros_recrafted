@@ -1,7 +1,7 @@
 execute store result score random.output temp run random value 0..6
 
 scoreboard players operation tornado temp = random.output temp
-scoreboard players operation tornado temp += 1 integers
+scoreboard players operation tornado temp += 1 const
 
 execute if score random.output temp matches 0 unless score tornadoes temp matches 3.. positioned 6952.5 37.0 219.5 summon minecraft:armor_stand run function ssbrc:stages/hyrule_castle/logic/hazards/tornadoes/init/base
 execute if score random.output temp matches 1 unless score tornadoes temp matches 3.. positioned 6952.5 37.0 164.5 summon minecraft:armor_stand run function ssbrc:stages/hyrule_castle/logic/hazards/tornadoes/init/base

@@ -1,6 +1,3 @@
-# Mana
-function ssbrc:fighters/hero/logic/mana/update
-
 # Bang
 execute unless entity @s[tag=kaclang] run function ssbrc:logic/item/cooldown/display/check {item:"bang"}
 

@@ -1,5 +1,3 @@
-scoreboard players set @s charge.3 0
+function ssbrc:fighters/fox/logic/abilities/fire_fox/reset
 
-effect clear @s minecraft:levitation
-
-function ssbrc:logic/item/cooldown/set/const {type:"3",value:"60"}
+scoreboard players operation @s cooldown.3 *= 2 const

@@ -41,4 +41,4 @@ execute if items entity @s weapon.offhand #ssbrc:ui[minecraft:custom_data~{ui:{}
 execute unless score @s cooldown matches 1.. run function ssbrc:logic/ui/actions/click/goto/default with storage ssbrc:data ui
 clear @s #ssbrc:ui[minecraft:custom_data~{ui:{}}]
 
-scoreboard players set @s cooldown 5
+scoreboard players add @s cooldown 5

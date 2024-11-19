@@ -1,5 +1,9 @@
 tag @s add exploded
 
+execute positioned ~ ~1 ~ run function ssbrc:fighters/ness/logic/abilities/pk_fire/particles/diamonds/spawn
+
+function ssbrc:fighters/ness/logic/abilities/pk_fire/particles/check
+
 scoreboard players set @s temp 0
 
-playsound ssbrc:fighters.ness.pk_fire.fire player @a
+playsound ssbrc:fighter.ness.pk_fire.fire player @a

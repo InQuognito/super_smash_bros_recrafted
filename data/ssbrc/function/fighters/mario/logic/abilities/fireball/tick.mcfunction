@@ -7,9 +7,9 @@ execute if score entity_hit temp matches 1 run kill @s
 
 execute store result entity @s Rotation[1] float 0.25 run scoreboard players get @s point
 
-execute if score @s point < mario.fireball.rotation vars run scoreboard players operation @s point -= @s slope
-execute if score @s point > mario.fireball.rotation vars run scoreboard players operation @s point = mario.fireball.rotation vars
-execute if score @s point < mario.fireball.rotation vars run scoreboard players remove @s slope 20
+execute if score @s point < mario.fireball.rotation const run scoreboard players operation @s point -= @s slope
+execute if score @s point > mario.fireball.rotation const run scoreboard players operation @s point = mario.fireball.rotation const
+execute if score @s point < mario.fireball.rotation const run scoreboard players remove @s slope 20
 
 execute if entity @s[scores={point=1..}] unless block ~ ~-0.6 ~ #ssbrc:passthrough run function ssbrc:fighters/mario/logic/abilities/fireball/bounce
 

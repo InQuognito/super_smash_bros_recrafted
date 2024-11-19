@@ -6,7 +6,7 @@ particle minecraft:cloud ^ ^-1.5 ^1.0 0.5 0.25 0.5 0.025 10 normal @a
 scoreboard players add @s temp 1
 
 scoreboard players operation hyper_beam temp = @s temp
-scoreboard players operation hyper_beam temp %= 20 integers
+scoreboard players operation hyper_beam temp %= 20 const
 
 teleport @s[scores={temp=1..100}] ^ ^ ^0.25
 teleport @s[scores={temp=101..150}] ^ ^ ^0.25 ~-3 ~

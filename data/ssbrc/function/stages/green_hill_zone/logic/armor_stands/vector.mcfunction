@@ -4,4 +4,4 @@ teleport @s ~ ~ ~ 180.0 0.0
 
 data merge entity @s {Pose:{RightArm:[180f,0f,310f],LeftArm:[180f,0f,45f]}}
 
-function ssbrc:logic/stages/npc
+function ssbrc:logic/stages/npc {path:"npc/green_hill_zone/vector"}

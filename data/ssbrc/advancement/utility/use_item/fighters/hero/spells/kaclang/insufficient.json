@@ -1,5 +1,5 @@
 {
-	"parent": "ssbrc:utility/use_item/fighters/hero/spells/insufficient_mana",
+	"parent": "ssbrc:utility/use_item/fighters/hero/spells/insufficient_magic",
 	"criteria": {
 		"requirement": {
 			"trigger": "minecraft:using_item",
@@ -23,14 +23,14 @@
 							"condition": "minecraft:entity_scores",
 							"entity": "this",
 							"scores": {
-								"mana": {
+								"magic": {
 									"min": {
 										"type": "minecraft:score",
 										"target": {
 											"type": "minecraft:fixed",
 											"name": "hero.kaclang.cost"
 										},
-										"score": "vars"
+										"score": "const"
 									}
 								}
 							}
@@ -50,6 +50,6 @@
 		}
 	},
 	"rewards": {
-		"function": "ssbrc:fighters/hero/logic/mana/insufficient"
+		"function": "ssbrc:fighters/hero/logic/magic/insufficient"
 	}
 }

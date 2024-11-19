@@ -3,4 +3,4 @@ execute if items entity @s weapon.mainhand #ssbrc:equipment[minecraft:custom_dat
 
 function ssbrc:logic/player_data/temp/set_storage/get {input:"ssbrc:hud combo",output:"hud.3"}
 
-scoreboard players operation @s hud = hud_frequency vars
+scoreboard players operation @s hud = hud_frequency const

@@ -147,11 +147,16 @@ def init_item_data(file, fighter, skin, item):
 		mc_write(file, tab(5) + qm + 'color' + sep_s + ssbrc.fighters[fighter]['items'][item]['default']['color'] + suf_s)
 
 	if 'model' in ssbrc.fighters[fighter]['items'][item][skin].keys():
-		mc_write(file, tab(5) + qm + 'model' + sep_s + str(ssbrc.fighters[fighter]['items'][item][skin]['model']) + qm)
+		if ssbrc.fighters[fighter]['items'][item][skin]['model']['type'] == 'null':
+			mc_write(file, tab(5) + qm + 'model' + sep_s + 'null' + qm)
+		elif ssbrc.fighters[fighter]['items'][item][skin]['model']['type'] == 'default':
+			mc_write(file, tab(5) + qm + 'model' + sep_s + f'ssbrc:fighter/{fighter}/item/{item}/' + ssbrc.fighters[fighter]['items'][item][skin]['model']['model'] + qm)
+		else:
+			mc_write(file, tab(5) + qm + 'model' + sep_s + 'ssbrc:' + ssbrc.fighters[fighter]['items'][item][skin]['model']['model'] + qm)
 	else:
 		if skin == 'gold':
-			mc_write(file, tab(5) + qm + 'model' + sep_s + 'gold' + qm)
+			mc_write(file, tab(5) + qm + 'model' + sep_s + f'ssbrc:fighter/{fighter}/item/{item}/gold' + qm)
 		else:
-			mc_write(file, tab(5) + qm + 'model' + sep_s + skin + qm)
+			mc_write(file, tab(5) + qm + 'model' + sep_s + f'ssbrc:fighter/{fighter}/item/{item}/{skin}' + qm)
 
 	mc_write(file, tab(4) + ent)

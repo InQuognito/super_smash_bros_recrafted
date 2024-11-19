@@ -8,7 +8,7 @@ scoreboard players set $y player_motion.api.launch 1300
 scoreboard players operation $y player_motion.api.launch -= @s charge.2
 
 scoreboard players operation display temp = @s charge.2
-scoreboard players operation display temp %= 2 integers
+scoreboard players operation display temp %= 2 const
 execute if score display temp matches 0 run function player_motion:api/launch_xyz
 scoreboard players reset display temp
 

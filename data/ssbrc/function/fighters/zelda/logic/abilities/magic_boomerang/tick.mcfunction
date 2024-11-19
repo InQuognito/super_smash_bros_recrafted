@@ -11,13 +11,13 @@ execute unless score @s temp matches 40.. rotated as @s run teleport @s ^ ^ ^1
 execute if score @s temp matches 40.. facing entity @a[tag=self,limit=1] eyes run function ssbrc:fighters/zelda/logic/abilities/magic_boomerang/return
 
 scoreboard players operation display temp = @s temp
-scoreboard players operation display temp %= 6 integers
+scoreboard players operation display temp %= 6 const
 execute if score display temp matches 0 run function ssbrc:fighters/link/logic/abilities/boomerang/animation/1
 execute if score display temp matches 2 run function ssbrc:fighters/link/logic/abilities/boomerang/animation/2
 execute if score display temp matches 4 run function ssbrc:fighters/link/logic/abilities/boomerang/animation/3
 scoreboard players reset display temp
 
 scoreboard players operation loop temp = @s temp
-scoreboard players operation loop temp %= 3 integers
+scoreboard players operation loop temp %= 3 const
 execute if score loop temp matches 0 run playsound ssbrc:fighters.link.boomerang.loop player @a
 scoreboard players reset loop temp

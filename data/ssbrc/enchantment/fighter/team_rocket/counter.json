@@ -28,7 +28,7 @@
 				},
 				"requirements": {
 					"condition": "minecraft:entity_scores",
-					"entity": "this",
+					"entity": "attacker",
 					"scores": {
 						"health": {
 							"min": 33,
@@ -48,7 +48,7 @@
 				},
 				"requirements": {
 					"condition": "minecraft:entity_scores",
-					"entity": "this",
+					"entity": "attacker",
 					"scores": {
 						"health": {
 							"min": 29,
@@ -68,7 +68,7 @@
 				},
 				"requirements": {
 					"condition": "minecraft:entity_scores",
-					"entity": "this",
+					"entity": "attacker",
 					"scores": {
 						"health": {
 							"min": 25,
@@ -88,7 +88,7 @@
 				},
 				"requirements": {
 					"condition": "minecraft:entity_scores",
-					"entity": "this",
+					"entity": "attacker",
 					"scores": {
 						"health": {
 							"min": 21,
@@ -108,7 +108,7 @@
 				},
 				"requirements": {
 					"condition": "minecraft:entity_scores",
-					"entity": "this",
+					"entity": "attacker",
 					"scores": {
 						"health": {
 							"min": 17,
@@ -128,7 +128,7 @@
 				},
 				"requirements": {
 					"condition": "minecraft:entity_scores",
-					"entity": "this",
+					"entity": "attacker",
 					"scores": {
 						"health": {
 							"min": 13,
@@ -148,7 +148,7 @@
 				},
 				"requirements": {
 					"condition": "minecraft:entity_scores",
-					"entity": "this",
+					"entity": "attacker",
 					"scores": {
 						"health": {
 							"min": 9,
@@ -168,7 +168,7 @@
 				},
 				"requirements": {
 					"condition": "minecraft:entity_scores",
-					"entity": "this",
+					"entity": "attacker",
 					"scores": {
 						"health": {
 							"min": 5,
@@ -188,7 +188,7 @@
 				},
 				"requirements": {
 					"condition": "minecraft:entity_scores",
-					"entity": "this",
+					"entity": "attacker",
 					"scores": {
 						"health": {
 							"max": 4

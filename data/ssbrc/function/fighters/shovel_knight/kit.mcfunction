@@ -17,4 +17,4 @@ execute if score random.output temp matches 1 run function ssbrc:fighters/shovel
 execute if score random.output temp matches 2 run function ssbrc:fighters/shovel_knight/kits/utility/propeller_dagger
 execute if score random.output temp matches 3 run function ssbrc:fighters/shovel_knight/kits/utility/war_horn
 
-scoreboard players set @s mana 10
+scoreboard players set @s magic 10

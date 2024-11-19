@@ -22,7 +22,7 @@
 							"type": "minecraft:fixed",
 							"name": "altered_beast.spirit.max"
 						},
-						"score": "vars"
+						"score": "const"
 					}
 				}
 			}

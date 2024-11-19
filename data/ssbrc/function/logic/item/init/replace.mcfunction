@@ -4,6 +4,6 @@ function ssbrc:logic/player_data/temp/copy/check
 data modify storage ssbrc:temp item set from storage ssbrc:temp player.temp_data
 data modify storage ssbrc:temp item.slot set from storage ssbrc:output slot_string
 
-$data modify storage ssbrc:temp item merge value {item:"$(item)"}
+$data modify storage ssbrc:temp item merge value {item:"$(item)",type:"$(type)"}
 
-$function ssbrc:logic/item/init/$(type)/set with storage ssbrc:temp item
+function ssbrc:logic/item/init/default/set with storage ssbrc:temp item

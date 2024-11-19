@@ -18,14 +18,14 @@
 							"duration.2": {
 								"max": 0
 							},
-							"mana": {
+							"magic": {
 								"min": {
 									"type": "minecraft:score",
 									"target": {
 										"type": "minecraft:fixed",
 										"name": "shovel_knight.propeller_dagger.cost"
 									},
-									"score": "vars"
+									"score": "const"
 								}
 							}
 						}

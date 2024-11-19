@@ -10,7 +10,7 @@ teleport @s[tag=2] ^ ^0.1 ^0.3
 teleport @s[tag=3] ^ ^0.1 ^0.4
 
 scoreboard players operation display temp = @s temp
-scoreboard players operation display temp %= 6 integers
+scoreboard players operation display temp %= 6 const
 execute if score display temp matches 0 run function ssbrc:fighters/mega_man/logic/abilities/air_shooter/animation/1
 execute if score display temp matches 2 run function ssbrc:fighters/mega_man/logic/abilities/air_shooter/animation/2
 execute if score display temp matches 4 run function ssbrc:fighters/mega_man/logic/abilities/air_shooter/animation/3

@@ -25,6 +25,6 @@
 		}
 	},
 	"rewards": {
-		"function": "ssbrc:fighters/yar/logic/abilities/ray_blaster/variants/gatling_gun/activate"
+		"function": "ssbrc:fighters/yar/logic/abilities/gatling_gun/activate"
 	}
 }

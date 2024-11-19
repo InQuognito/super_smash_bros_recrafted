@@ -1,5 +1,5 @@
 scoreboard players operation display temp = @s temp
-scoreboard players operation display temp %= 2 integers
+scoreboard players operation display temp %= 2 const
 execute if score display temp matches 0 run function ssbrc:stages/planet_epp/logic/hazards/neutral_zone/display
 scoreboard players reset display temp
 

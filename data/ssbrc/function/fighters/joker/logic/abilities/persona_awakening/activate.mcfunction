@@ -16,7 +16,7 @@ loot give @s[tag=high_pixie] loot ssbrc:fighters/joker/personas/high_pixie/amrit
 loot give @s[tag=raoul] loot ssbrc:fighters/joker/personas/raoul/phantom_show
 attribute @s[tag=yatagarasu] minecraft:knockback_resistance modifier add ssbrc:yatagarasu 0.25 add_value
 
-function ssbrc:logic/item/component/update/slot_unknown {mode:"remove",amount:1,search_key:"group",search_value:"persona",component:"minecraft:custom_model_data",output_path:"model temp"}
+function ssbrc:logic/item/component/update/slot_unknown {mode:"add",amount:1,search_key:"group",search_value:"persona",component:"minecraft:custom_model_data",output_path:"model temp"}
 
 function ssbrc:logic/player_data/temp/set {mode:"store",key:"form",value:"maskless"}
 function ssbrc:logic/fighters/armor/update/check

@@ -50,35 +50,6 @@
 							"mode": "append"
 						},
 						{
-							"function": "minecraft:reference",
-							"name": "ssbrc:fighters/snake/cqc_knife/default",
-							"conditions": [
-								{
-									"condition": "minecraft:inverted",
-									"term": {
-										"condition": "minecraft:entity_properties",
-										"entity": "this",
-										"predicate": {
-											"nbt": "{Tags:[\"gold\"]}"
-										}
-									}
-								}
-							]
-						},
-						{
-							"function": "minecraft:reference",
-							"name": "ssbrc:fighters/snake/cqc_knife/gold",
-							"conditions": [
-								{
-									"condition": "minecraft:entity_properties",
-									"entity": "this",
-									"predicate": {
-										"nbt": "{Tags:[\"gold\"]}"
-									}
-								}
-							]
-						},
-						{
 							"function": "minecraft:set_custom_data",
 							"tag": "{item:\"cqc_knife\"}"
 						}

@@ -1,5 +1,5 @@
 scoreboard players operation spin_attack temp = @s charge.output
-scoreboard players operation spin_attack temp %= 5 integers
+scoreboard players operation spin_attack temp %= 5 const
 execute if score spin_attack temp matches 0 run function ssbrc:fighters/byleth/logic/blue_lions/spin_attack/raycast/start
 
 execute if entity @s[scores={charge.output=..40}] run function ssbrc:fighters/byleth/logic/blue_lions/spin_attack/particles/rotate {type:"1"}

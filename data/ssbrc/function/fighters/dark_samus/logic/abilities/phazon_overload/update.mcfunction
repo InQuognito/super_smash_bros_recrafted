@@ -1,6 +1,6 @@
 scoreboard players operation percentage temp = @s duration.1
-scoreboard players operation percentage temp *= 100 integers
-scoreboard players operation percentage temp /= 400 integers
+scoreboard players operation percentage temp *= 100 const
+scoreboard players operation percentage temp /= 400 const
 
 execute if score percentage temp matches ..0 run title @s actionbar ""
 execute if score percentage temp matches 1..5 run title @s actionbar [{"text":"\u25ae","color":"aqua"}]

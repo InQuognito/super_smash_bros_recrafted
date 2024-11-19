@@ -6,4 +6,4 @@ scoreboard players operation temp math /= out math
 
 ### a = (a+b)/2
 scoreboard players operation out math += temp math
-scoreboard players operation out math /= 2 integers
+scoreboard players operation out math /= 2 const

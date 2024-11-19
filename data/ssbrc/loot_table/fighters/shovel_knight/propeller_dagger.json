@@ -65,6 +65,10 @@
 							}
 						},
 						{
+							"function": "minecraft:reference",
+							"name": "ssbrc:fighters/shovel_knight/relic"
+						},
+						{
 							"function": "minecraft:set_custom_data",
 							"tag": "{item:\"propeller_dagger\",disabled:\"false\",path:\"shovel_knight/logic/abilities/propeller_dagger/check/default\"}"
 						}

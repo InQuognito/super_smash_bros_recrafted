@@ -1,6 +1,6 @@
 scoreboard players operation percentage temp = @s resource
-scoreboard players operation percentage temp *= 100 integers
-scoreboard players operation percentage temp /= altered_beast.spirit.max vars
+scoreboard players operation percentage temp *= 100 const
+scoreboard players operation percentage temp /= altered_beast.spirit.max const
 
 execute if score percentage temp matches ..0 run title @s actionbar [{"translate":"ssbrc.fighter.altered_beast.spirit","bold":true,"color":"white"},{"text":"\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae","color":"black"}]
 execute if score percentage temp matches 1..10 run title @s actionbar [{"translate":"ssbrc.fighter.altered_beast.spirit","bold":true,"color":"white"},{"text":"\u25ae","color":"dark_red"},{"text":"\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae","color":"gray"}]

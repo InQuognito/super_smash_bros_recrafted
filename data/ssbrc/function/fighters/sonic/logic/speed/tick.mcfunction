@@ -40,4 +40,4 @@ attribute @s[scores={flag.sprinting=39}] minecraft:movement_speed modifier add s
 execute if entity @s[scores={flag.sprinting=40..}] run function ssbrc:fighters/sonic/logic/speed/full
 
 function ssbrc:math/speed/calculate
-scoreboard players operation sqrt.output math /= 8 integers
+scoreboard players operation out math /= 8 const

@@ -108,12 +108,12 @@ execute if entity @s[tag=anti_personnel_mine] unless block ~ ~-0.1 ~ #ssbrc:pass
 execute if entity @s[tag=smoke_grenade] unless block ~ ~-0.1 ~ #ssbrc:passthrough run return run function ssbrc:fighters/snake/logic/abilities/smoke_grenade/tick
 
 # Sora
-execute if entity @s[tag=firaga] run return run function ssbrc:fighters/sora/logic/abilities/firaga/tick
-execute if entity @s[tag=blizzaga] run return run function ssbrc:fighters/sora/logic/abilities/blizzaga/tick
-execute if entity @s[tag=blizzaza] run return run function ssbrc:fighters/sora/logic/abilities/blizzaga/blizzaza/tick
-execute if entity @s[tag=thundaga] run return run function ssbrc:fighters/sora/logic/abilities/thundaga/tick
-execute if entity @s[tag=thundaza] run return run function ssbrc:fighters/sora/logic/abilities/thundaga/thundaza/tick
-execute if entity @s[tag=thundaza_bolt] run return run function ssbrc:fighters/sora/logic/abilities/thundaga/lightning_particle
+execute if entity @s[tag=firaga] run return run function ssbrc:fighters/sora/logic/abilities/fire/firaga/tick
+execute if entity @s[tag=blizzaga] run return run function ssbrc:fighters/sora/logic/abilities/blizzard/blizzaga/tick
+execute if entity @s[tag=blizzaza] run return run function ssbrc:fighters/sora/logic/abilities/blizzard/blizzaza/tick
+execute if entity @s[tag=thundaga] run return run function ssbrc:fighters/sora/logic/abilities/thunder/thundaga/tick
+execute if entity @s[tag=thundaza] run return run function ssbrc:fighters/sora/logic/abilities/thunder/thundaza/tick
+execute if entity @s[tag=thundaza_bolt] run return run function ssbrc:fighters/sora/logic/abilities/thunder/thundaga/lightning_particle
 execute if entity @s[tag=strike_raid] run return run function ssbrc:fighters/sora/logic/abilities/strike_raid/tick
 
 # Steve
@@ -168,7 +168,7 @@ execute if entity @s[tag=payday.projectile] run return run function ssbrc:fighte
 
 # Yar
 execute if entity @s[tag=ray_blaster] run return run function ssbrc:fighters/yar/logic/abilities/ray_blaster/tick
-execute if entity @s[tag=gatling_gun] run return run function ssbrc:fighters/yar/logic/abilities/ray_blaster/variants/gatling_gun/tick
-execute if entity @s[tag=missile_launcher] run return run function ssbrc:fighters/yar/logic/abilities/ray_blaster/variants/missile_launcher/tick
+execute if entity @s[tag=gatling_gun] run return run function ssbrc:fighters/yar/logic/abilities/gatling_gun/tick
+execute if entity @s[tag=missile_launcher] run return run function ssbrc:fighters/yar/logic/abilities/missile_launcher/tick
 execute if entity @s[tag=drone] run return run function ssbrc:fighters/yar/logic/abilities/drone/tick
 execute if entity @s[tag=drone.bullet] run return run function ssbrc:fighters/yar/logic/abilities/drone/projectile/tick

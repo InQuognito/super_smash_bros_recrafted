@@ -1,5 +1,4 @@
-execute if items entity @s weapon.mainhand minecraft:nether_star[minecraft:custom_data~{hand:"primary"}] run function ssbrc:fighters/sora/logic/abilities/strike_raid/regain/secondary
-execute unless score strike_raid_regained temp matches 1 if items entity @s weapon.mainhand minecraft:nether_star[minecraft:custom_data~{hand:"secondary"}] run function ssbrc:fighters/sora/logic/abilities/strike_raid/regain/primary
-scoreboard players reset strike_raid_regained temp
-
 function ssbrc:logic/item/cooldown/set/const {type:"2",value:"10"}
+
+execute if items entity @s container.* minecraft:nether_star[minecraft:custom_data~{hand:"primary"}] run return run function ssbrc:logic/item/give/offhand {item:"keyblade_secondary",type:"skin"}
+function ssbrc:logic/item/give/offhand {item:"keyblade_strike_raid",type:"skin"}

@@ -1,8 +1,8 @@
 execute store result score @s health run data get entity @s Health
 
 scoreboard players operation health temp = @s health
-scoreboard players operation health temp *= 100 integers
-scoreboard players operation health temp /= 40 integers
+scoreboard players operation health temp *= 100 const
+scoreboard players operation health temp /= 40 const
 
 execute store result score @s motion_x run data get entity @s Motion[1] 1000.0
 execute store result score @s motion_y run data get entity @s Motion[1] 1000.0
@@ -44,7 +44,7 @@ execute if score @s combo.duration matches ..-5 run function ssbrc:logic/fighter
 
 # HUD
 scoreboard players add @s hud 1
-execute if score @s hud >= hud_frequency vars run function ssbrc:logic/fighters/get {function:"ssbrc:logic/fighters/hud"}
+execute if score @s hud >= hud_frequency const run function ssbrc:logic/fighters/get {function:"ssbrc:logic/fighters/hud"}
 
 # Items
 execute if entity @s[tag=angel_feather] run particle minecraft:dust_color_transition{from_color:[1.0,1.0,0.0],to_color:[1.0,1.0,1.0],scale:0.5} ~ ~0.75 ~ 0.2 0.3 0.2 0.0 3 normal @a

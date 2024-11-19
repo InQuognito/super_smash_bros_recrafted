@@ -15,14 +15,14 @@
 							"cooldown.3": {
 								"max": 0
 							},
-							"mana": {
+							"magic": {
 								"min": {
 									"type": "minecraft:score",
 									"target": {
 										"type": "minecraft:fixed",
 										"name": "shovel_knight.chaos_sphere.cost"
 									},
-									"score": "vars"
+									"score": "const"
 								}
 							}
 						}

@@ -1,6 +1,6 @@
 scoreboard players operation percentage temp = @s resource
-scoreboard players operation percentage temp *= 100 integers
-scoreboard players operation percentage temp /= rob.fuel.max vars
+scoreboard players operation percentage temp *= 100 const
+scoreboard players operation percentage temp /= rob.fuel.max const
 
 execute if score percentage temp matches ..0 run title @s actionbar [{"translate":"ssbrc.fighter.rob.fuel","bold":true,"color":"white"}]
 execute if score percentage temp matches 1..5 run title @s actionbar [{"translate":"ssbrc.fighter.rob.fuel","bold":true,"color":"white"},{"text":"\u25ae","color":"white"}]

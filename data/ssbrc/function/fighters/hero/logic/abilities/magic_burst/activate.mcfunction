@@ -4,7 +4,7 @@ effect give @s minecraft:resistance 3 255 true
 
 function ssbrc:logic/fighters/effects/mobility/immobilize {type:"default",duration:40}
 
-scoreboard players set @s mana 0
+scoreboard players set @s magic 0
 
 playsound ssbrc:fighters.hero.magic_burst.charge player @a
 

@@ -7,6 +7,6 @@ execute if score in_electric_terrain temp matches 1 run scoreboard players set @
 function ssbrc:fighters/sonic/logic/speed/tick
 
 # Display
-execute if score sqrt.output math matches ..9 run title @s actionbar [{"translate":"00","color":"white"},{"score":{"name":"sqrt.output","objective":"math"},"color":"white"},{"translate":" KPH","color":"white"}]
-execute if score sqrt.output math matches 10..99 run title @s actionbar [{"translate":"0","color":"white"},{"score":{"name":"sqrt.output","objective":"math"},"color":"white"},{"translate":" KPH","color":"white"}]
-execute if score sqrt.output math matches 100.. run title @s actionbar [{"score":{"name":"sqrt.output","objective":"math"},"color":"white"},{"translate":" KPH","color":"white"}]
+execute if score out math matches ..9 run title @s actionbar [{"translate":"00","color":"white"},{"score":{"name":"out","objective":"math"},"color":"white"},{"translate":" KPH","color":"white"}]
+execute if score out math matches 10..99 run title @s actionbar [{"translate":"0","color":"white"},{"score":{"name":"out","objective":"math"},"color":"white"},{"translate":" KPH","color":"white"}]
+execute if score out math matches 100.. run title @s actionbar [{"score":{"name":"out","objective":"math"},"color":"white"},{"translate":" KPH","color":"white"}]

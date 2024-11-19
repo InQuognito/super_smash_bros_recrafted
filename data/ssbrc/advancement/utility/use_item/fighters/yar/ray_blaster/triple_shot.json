@@ -25,6 +25,6 @@
 		}
 	},
 	"rewards": {
-		"function": "ssbrc:fighters/yar/logic/abilities/ray_blaster/variants/triple_shot/activate"
+		"function": "ssbrc:fighters/yar/logic/abilities/triple_shot/activate"
 	}
 }

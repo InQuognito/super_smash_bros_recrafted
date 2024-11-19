@@ -6,9 +6,9 @@ execute if score entity_hit temp matches 1 run kill @s
 
 execute store result entity @s Rotation[1] float 0.3 run scoreboard players get @s point
 
-execute if score @s point < luigi.ice_ball.rotation vars run scoreboard players operation @s point -= @s slope
-execute if score @s point > luigi.ice_ball.rotation vars run scoreboard players operation @s point = luigi.ice_ball.rotation vars
-execute if score @s point < luigi.ice_ball.rotation vars run scoreboard players remove @s slope 5
+execute if score @s point < luigi.ice_ball.rotation const run scoreboard players operation @s point -= @s slope
+execute if score @s point > luigi.ice_ball.rotation const run scoreboard players operation @s point = luigi.ice_ball.rotation const
+execute if score @s point < luigi.ice_ball.rotation const run scoreboard players remove @s slope 5
 
 execute if entity @s[scores={point=1..}] unless block ~ ~-0.3 ~ #ssbrc:passthrough run function ssbrc:fighters/luigi/logic/abilities/ice_ball/bounce
 

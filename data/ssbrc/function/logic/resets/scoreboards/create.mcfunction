@@ -14,6 +14,7 @@ scoreboard objectives add charge.4 dummy
 scoreboard objectives add charge.output dummy
 scoreboard objectives add combo.count dummy
 scoreboard objectives add combo.duration dummy
+scoreboard objectives add const dummy
 scoreboard objectives add cooldown dummy
 scoreboard objectives add cooldown.1 dummy
 scoreboard objectives add cooldown.2 dummy
@@ -53,7 +54,6 @@ scoreboard objectives add hud dummy
 scoreboard objectives add id dummy
 scoreboard objectives add immobile dummy
 scoreboard objectives add influence dummy
-scoreboard objectives add integers dummy
 scoreboard objectives add item_count dummy
 scoreboard objectives add jump dummy
 scoreboard objectives add jump.cooldown dummy
@@ -64,7 +64,7 @@ scoreboard objectives add leech_seed dummy
 scoreboard objectives add leech_seed.stacks dummy
 scoreboard objectives add leech_seed.stacks.timer dummy
 scoreboard objectives add leech_seed.timer dummy
-scoreboard objectives add mana dummy
+scoreboard objectives add magic dummy
 scoreboard objectives add math dummy
 scoreboard objectives add mega_man.air_shooter dummy
 scoreboard objectives add mega_man.beat_call dummy
@@ -132,7 +132,6 @@ scoreboard objectives add timer.stat.kill dummy
 scoreboard objectives add timer.trident dummy
 scoreboard objectives add temp dummy
 scoreboard objectives add tower_of_fate.barrier dummy
-scoreboard objectives add vars dummy
 scoreboard objectives add walk_distance minecraft.custom:minecraft.walk_one_cm
 scoreboard objectives add weapon_3.ammo dummy
 scoreboard objectives add weapon_3.mags dummy

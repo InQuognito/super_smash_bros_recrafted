@@ -26,9 +26,8 @@
 					"value": "ssbrc:fighters/steve/items/misc"
 				},
 				{
-					"type": "minecraft:item",
+					"type": "minecraft:empty",
 					"weight": 5,
-					"name": "minecraft:air",
 					"conditions": [
 						{
 							"condition": "minecraft:entity_scores",
@@ -40,9 +39,8 @@
 					]
 				},
 				{
-					"type": "minecraft:item",
+					"type": "minecraft:empty",
 					"weight": 10,
-					"name": "minecraft:air",
 					"conditions": [
 						{
 							"condition": "minecraft:entity_scores",
@@ -54,9 +52,8 @@
 					]
 				},
 				{
-					"type": "minecraft:item",
+					"type": "minecraft:empty",
 					"weight": 20,
-					"name": "minecraft:air",
 					"conditions": [
 						{
 							"condition": "minecraft:entity_scores",
@@ -68,9 +65,8 @@
 					]
 				},
 				{
-					"type": "minecraft:item",
+					"type": "minecraft:empty",
 					"weight": 30,
-					"name": "minecraft:air",
 					"conditions": [
 						{
 							"condition": "minecraft:entity_scores",

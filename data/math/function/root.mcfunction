@@ -9,7 +9,7 @@ execute if score in math matches 214748.. run tellraw @a [{"text":"MATH Error:",
 execute if score in math matches ..-1 run tellraw @a [{"text":"MATH Error:","color":"red"},{"text":" Fast Sqrt() Imaginary Number (input negative)","color":"white"}]
 
 scoreboard players operation temp1 math = in math
-scoreboard players operation in math *= 10000 integers
+scoreboard players operation in math *= 10000 const
 
 ### a
 scoreboard players set out math 1255
@@ -21,5 +21,5 @@ function math:zprivate/newton_raphson
 execute if score temp1 math matches 10000.. run function math:zprivate/newton_raphson
 execute if score temp1 math matches 100000.. run function math:zprivate/newton_raphson
 
-execute if score out math matches ..0 run scoreboard players operation out math *= -1 integers
+execute if score out math matches ..0 run scoreboard players operation out math *= -1 const
 scoreboard players operation in math = temp1 math

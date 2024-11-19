@@ -55,7 +55,7 @@
 						},
 						{
 							"function": "minecraft:set_custom_data",
-							"tag": "{item:\"railgun\",group:\"ray_blaster\",power_up:\"false\",path:\"yar/logic/abilities/ray_blaster/variants/railgun/check\"}"
+							"tag": "{item:\"railgun\",group:\"ray_blaster\",power_up:\"false\",path:\"yar/logic/abilities/railgun/check\"}"
 						}
 					]
 				}

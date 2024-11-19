@@ -12,7 +12,9 @@ attribute @s minecraft:attack_damage modifier add ssbrc:fighters/ryu/satsui_no_h
 scoreboard players set @s duration.1 400
 
 function ssbrc:logic/player_data/temp/set {mode:"store",key:"form",value:"evil"}
-function ssbrc:fighters/ryu/logic/abilities/satsui_no_hado_rage/update
+
+function ssbrc:logic/item/modify {search_key:"item",search_value:"collarbone_breaker",path:"ssbrc:fighters/ryu/collarbone_breaker/evil"}
+function ssbrc:logic/fighters/armor/update/check
 
 item modify entity @s armor.legs {"function":"minecraft:set_lore","entity":"this","lore":[{"translate":"ssbrc.fighter.ryu.ashura_senku","color":"yellow","bold":false,"italic":false,"underlined":true},{"translate":"ssbrc.tooltip.hold_key","color":"gray","bold":false,"italic":false,"extra":[{"keybind":"key.sneak","color":"gray","bold":false,"italic":false},{"translate":"ssbrc.fighter.ryu.ashura_senku.description.1","color":"gray","bold":false,"italic":false}]}],"mode":"append"}
 

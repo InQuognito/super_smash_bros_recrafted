@@ -1,21 +1,17 @@
 function ssbrc:fighters/shovel_knight/logic/check_relics
 
-scoreboard players operation percentage temp = @s mana
-scoreboard players operation percentage temp *= 100 integers
-scoreboard players operation percentage temp /= shovel_knight.mana.max vars
-
 data modify storage ssbrc:hud shovel_knight.magic set value []
 
-scoreboard players operation n temp = shovel_knight.mana.max vars
+scoreboard players operation n temp = shovel_knight.magic.max const
 
-scoreboard players set mana.queued temp 0
-function ssbrc:fighters/shovel_knight/logic/magic/hud/calculate
+scoreboard players set magic.queued temp 0
+execute if items entity @s weapon.mainhand #ssbrc:equipment[minecraft:custom_data~{group:"shovel_knight.relic"}] run function ssbrc:fighters/shovel_knight/logic/magic/hud/calculate
 
-scoreboard players operation mana.available temp = percentage temp
-scoreboard players operation mana.available.counter temp = mana.available temp
+scoreboard players operation magic.available temp = @s magic
+scoreboard players operation magic.available.counter temp = magic.available temp
 
 function ssbrc:fighters/shovel_knight/logic/magic/hud/check
 
 function ssbrc:logic/player_data/temp/set_storage/get {input:"ssbrc:hud shovel_knight.magic",output:"hud.1"}
 
-scoreboard players operation @s hud = hud_frequency vars
+scoreboard players operation @s hud = hud_frequency const

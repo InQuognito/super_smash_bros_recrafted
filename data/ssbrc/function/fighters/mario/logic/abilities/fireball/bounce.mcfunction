@@ -1,4 +1,4 @@
-scoreboard players operation @s point *= -1 integers
+scoreboard players operation @s point *= -1 const
 scoreboard players set @s slope 0
 
 particle minecraft:lava ~ ~ ~ 0 0 0 1 1 force @a

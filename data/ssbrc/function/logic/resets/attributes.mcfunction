@@ -20,6 +20,7 @@ function ssbrc:fighters/cloud/logic/abilities/buster_sword/mode_switch/reset
 attribute @s minecraft:oxygen_bonus modifier remove ssbrc:greninja
 attribute @s minecraft:water_movement_efficiency modifier remove ssbrc:greninja
 attribute @s minecraft:knockback_resistance modifier remove ssbrc:yatagarasu
+attribute @s minecraft:gravity modifier remove ssbrc:luigi
 attribute @s minecraft:jump_strength modifier remove ssbrc:super_jump
 attribute @s minecraft:armor modifier remove ssbrc:armor_break
 attribute @s minecraft:attack_damage modifier remove ssbrc:fighters/ryu/satsui_no_hado_rage

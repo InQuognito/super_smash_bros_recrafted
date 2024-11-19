@@ -12,14 +12,14 @@
 							"cooldown.1": {
 								"max": 0
 							},
-							"mana": {
+							"magic": {
 								"min": {
 									"type": "minecraft:score",
 									"target": {
 										"type": "minecraft:fixed",
 										"name": "zelda.ice_rod.cost.alt"
 									},
-									"score": "vars"
+									"score": "const"
 								}
 							}
 						}

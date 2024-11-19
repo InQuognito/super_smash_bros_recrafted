@@ -1,6 +1,7 @@
 schedule clear ssbrc:logic/music/decide_schedule
 schedule clear ssbrc:logic/music/loop_schedule
 schedule clear ssbrc:logic/timer
+schedule clear ssbrc:logic/timer/fighters/schedule
 
 # Flat Zone
 schedule clear ssbrc:stages/flat_zone/logic/gas_station_guy/1/left

@@ -80,13 +80,10 @@
 							"mode": "append"
 						},
 						{
-							"function": "minecraft:reference",
-							"name": "ssbrc:fighters/zelda/bomb/stowed"
-						},
-						{
 							"function": "minecraft:set_components",
 							"components": {
-								"minecraft:max_damage": 20
+								"minecraft:max_damage": 20,
+								"minecraft:item_model": "ssbrc:fighter/zelda/bomb/stowed"
 							}
 						},
 						{

@@ -2,7 +2,7 @@
 execute store result bossbar ssbrc:timer value run scoreboard players get game_time timer
 
 execute run scoreboard players operation game_time.percent temp = game_time timer
-execute run scoreboard players operation game_time.percent temp *= 100 integers
+execute run scoreboard players operation game_time.percent temp *= 100 const
 execute run scoreboard players operation game_time.percent temp /= time_limit options
 
 execute if score game_time.percent temp matches 50 run bossbar set ssbrc:timer color green

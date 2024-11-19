@@ -1,5 +1,5 @@
-scoreboard players operation raycast temp = steve.mining.range vars
-scoreboard players operation raycast temp *= 10 integers
+scoreboard players operation raycast temp = steve.mining.range const
+scoreboard players operation raycast temp *= 10 const
 
 execute anchored eyes positioned ^ ^ ^ run function ssbrc:fighters/steve/logic/abilities/mining/loop
 

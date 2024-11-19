@@ -1,7 +1,7 @@
 tag @s add intangible
 
 scoreboard players set @s duration.1 40
-scoreboard players operation @s[tag=blood_metamorphosis] duration.1 *= 2 integers
+scoreboard players operation @s[tag=blood_metamorphosis] duration.1 *= 2 const
 
 execute if entity @s[tag=blood_metamorphosis] summon minecraft:marker run function ssbrc:fighters/alucard/logic/abilities/mist/summon
 
@@ -10,8 +10,8 @@ execute if items entity @s container.* minecraft:shield run function ssbrc:logic
 
 scoreboard players set durability temp 20
 scoreboard players operation durability temp -= @s durability
-scoreboard players operation durability temp *= 100 integers
-scoreboard players operation durability temp /= 20 integers
+scoreboard players operation durability temp *= 100 const
+scoreboard players operation durability temp /= 20 const
 
 clear @s
 

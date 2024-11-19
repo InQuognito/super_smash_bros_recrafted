@@ -56,14 +56,8 @@ def create_item_modifier(skin, fighter, path):
 			js_write(file, tab(1) + '}')
 			js_write(file, ']')
 
-def custom_model_data(fighter):
-	'''Initializes skin item modifiers.'''
-	remove_path(f'data\\ssbrc\\item_modifier\\fighters\\{fighter}\\armor\\')
-
 def create_skin(skin, fighter):
 	'''Initializes a skin.'''
 	create_advancement(skin, fighter, f'data\\ssbrc\\advancement\\fighters\\{fighter}\\skins\\')
 
 	create_item_modifier(skin, fighter, f'data\\ssbrc\\item_modifier\\fighters\\{fighter}\\skins\\')
-
-	custom_model_data(fighter)

@@ -12,6 +12,7 @@ scoreboard objectives remove charge.4
 scoreboard objectives remove charge.output
 scoreboard objectives remove combo.count
 scoreboard objectives remove combo.duration
+scoreboard objectives remove const
 scoreboard objectives remove cooldown
 scoreboard objectives remove cooldown.1
 scoreboard objectives remove cooldown.2
@@ -49,7 +50,6 @@ scoreboard objectives remove hud
 scoreboard objectives remove id
 scoreboard objectives remove immobile
 scoreboard objectives remove influence
-scoreboard objectives remove integers
 scoreboard objectives remove item_count
 scoreboard objectives remove jump
 scoreboard objectives remove jump.cooldown
@@ -60,7 +60,7 @@ scoreboard objectives remove leech_seed
 scoreboard objectives remove leech_seed.stacks
 scoreboard objectives remove leech_seed.stacks.timer
 scoreboard objectives remove leech_seed.timer
-scoreboard objectives remove mana
+scoreboard objectives remove magic
 scoreboard objectives remove math
 scoreboard objectives remove mega_man.air_shooter
 scoreboard objectives remove mega_man.beat_call
@@ -120,7 +120,6 @@ scoreboard objectives remove timer.stat.kill
 scoreboard objectives remove timer.trident
 scoreboard objectives remove temp
 scoreboard objectives remove tower_of_fate.barrier
-scoreboard objectives remove vars
 scoreboard objectives remove walk_distance
 scoreboard objectives remove weapon_1.ammo
 scoreboard objectives remove weapon_1.fire_rate

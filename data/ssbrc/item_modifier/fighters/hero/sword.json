@@ -1,96 +1,40 @@
 [
 	{
-		"function": "minecraft:reference",
-		"name": "ssbrc:fighters/hero/sword/default/default",
-		"conditions": [
-			{
-				"condition": "minecraft:entity_properties",
-				"entity": "this",
-				"predicate": {
-					"nbt": "{Tags:[\"default\"]}"
-				}
-			}
-		]
-	},
-	{
-		"function": "minecraft:reference",
-		"name": "ssbrc:fighters/hero/sword/gold",
-		"conditions": [
-			{
-				"condition": "minecraft:entity_properties",
-				"entity": "this",
-				"predicate": {
-					"nbt": "{Tags:[\"gold\"]}"
-				}
-			}
-		]
-	},
-	{
-		"function": "minecraft:reference",
-		"name": "ssbrc:fighters/hero/sword/erdrick/default",
-		"conditions": [
-			{
-				"condition": "minecraft:entity_properties",
-				"entity": "this",
-				"predicate": {
-					"nbt": "{Tags:[\"erdrick\"]}"
-				}
-			}
-		]
-	},
-	{
-		"function": "minecraft:reference",
-		"name": "ssbrc:fighters/hero/sword/rek/default",
-		"conditions": [
-			{
-				"condition": "minecraft:entity_properties",
-				"entity": "this",
-				"predicate": {
-					"nbt": "{Tags:[\"rek\"]}"
-				}
-			}
-		]
-	},
-	{
-		"function": "minecraft:reference",
-		"name": "ssbrc:fighters/hero/sword/sofia/default",
-		"conditions": [
-			{
-				"condition": "minecraft:entity_properties",
-				"entity": "this",
-				"predicate": {
-					"nbt": "{Tags:[\"sofia\"]}"
-				}
-			}
-		]
-	},
-	{
-		"function": "minecraft:reference",
-		"name": "ssbrc:fighters/hero/sword/flame_slash/off",
-		"conditions": [
-			{
-				"condition": "minecraft:entity_properties",
-				"entity": "this",
-				"predicate": {
-					"nbt": "{Tags:[\"magic_lost\"]}"
-				}
-			}
-		]
-	},
-	{
-		"function": "minecraft:reference",
-		"name": "ssbrc:fighters/hero/sword/flame_slash/on",
-		"conditions": [
-			{
-				"condition": "minecraft:inverted",
-				"term": {
-					"condition": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"nbt": "{Tags:[\"magic_lost\"]}"
+		"function": "minecraft:set_components",
+		"components": {
+			"minecraft:attribute_modifiers": {
+				"modifiers": [
+					{
+						"type": "minecraft:attack_damage",
+						"id": "ssbrc:attack_damage",
+						"amount": 4,
+						"operation": "add_multiplied_base",
+						"slot": "mainhand"
+					},
+					{
+						"type": "minecraft:attack_speed",
+						"id": "ssbrc:attack_speed",
+						"amount": 1.5,
+						"operation": "add_multiplied_base",
+						"slot": "mainhand"
 					}
-				}
+				],
+				"show_in_tooltip": false
+			},
+			"minecraft:enchantments": {
+				"levels": {
+					"ssbrc:fighter/hero/flame_slash": 1
+				},
+				"show_in_tooltip": false
 			}
-		]
+		}
+	},
+	{
+		"function": "minecraft:reference",
+		"name": "ssbrc:init/preset/melee"
+	},
+	{
+		"function": "minecraft:set_custom_data",
+		"tag": "{item:\"hero.sword\",group:\"hero.spell\"}"
 	}
 ]

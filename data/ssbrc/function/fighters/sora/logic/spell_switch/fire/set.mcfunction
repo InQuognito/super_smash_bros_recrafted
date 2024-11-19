@@ -4,6 +4,4 @@ $item modify entity @s $(slot) [{"function":"minecraft:set_components","componen
 
 $function ssbrc:fighters/sora/logic/spell_switch/display/spell_order {slot:"$(slot)",spell_1:"fire",spell_1_color:"red",spell_2:"blizzard",spell_2_color:"aqua",spell_3:"thunder",spell_3_color:"yellow"}
 
-scoreboard players add @s cooldown 5
-
 advancement revoke @s only ssbrc:utility/use_item/fighters/sora/spell_switch/fire

@@ -31,4 +31,4 @@ attribute @s[scores={flag.sprinting=58..59}] minecraft:movement_speed modifier a
 execute if entity @s[scores={flag.sprinting=60..}] positioned ~ ~0.1 ~ run function ssbrc:fighters/shadow/logic/speed/full
 
 function ssbrc:math/speed/calculate
-scoreboard players operation sqrt.output math /= 8 integers
+scoreboard players operation sqrt.output math /= 8 const

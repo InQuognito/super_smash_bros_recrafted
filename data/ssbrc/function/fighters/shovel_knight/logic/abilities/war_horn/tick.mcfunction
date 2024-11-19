@@ -1,7 +1,7 @@
 scoreboard players add @s temp 1
 
 scoreboard players operation war_horn temp = @s temp
-scoreboard players operation war_horn temp %= 5 integers
+scoreboard players operation war_horn temp %= 5 const
 execute if score war_horn temp matches 0 run function ssbrc:fighters/shovel_knight/logic/abilities/war_horn/raycast/start
 
 execute if entity @s[scores={temp=1}] as @e[tag=!self,predicate=ssbrc:flag/targets,distance=..2] run function ssbrc:logic/damage/player {amount:"12.0",type:"pierce",kb_resist:"0.0"}

@@ -3,6 +3,3 @@ execute if score game_mode options matches 1 run scoreboard players add game_tim
 
 # Time Battle
 execute if score game_mode options matches 2 run function ssbrc:logic/timer/ingame/time_battle
-
-# Fighters
-execute as @a[predicate=ssbrc:flag/player] run function ssbrc:logic/timer/fighters/check

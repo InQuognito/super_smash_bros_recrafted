@@ -1,5 +1,5 @@
 scoreboard players set ray_length temp 15
-scoreboard players operation ray_length temp *= 10 integers
+scoreboard players operation ray_length temp *= 10 const
 
 execute anchored eyes positioned ^ ^ ^ run function ssbrc:fighters/mega_man/logic/abilities/pile_driver/particle/raycast/loop
 

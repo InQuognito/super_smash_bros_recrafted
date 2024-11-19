@@ -12,14 +12,14 @@
 							"duration.2": {
 								"max": 0
 							},
-							"mana": {
+							"magic": {
 								"min": {
 									"type": "minecraft:score",
 									"target": {
 										"type": "minecraft:fixed",
-										"name": "hero.mana.max"
+										"name": "hero.magic.max"
 									},
-									"score": "vars"
+									"score": "const"
 								}
 							}
 						}

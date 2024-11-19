@@ -10,7 +10,7 @@ scoreboard players add @s temp 1
 execute if score @s temp matches 60.. run kill @s
 
 scoreboard players operation display temp = @s temp
-scoreboard players operation display temp %= 6 integers
+scoreboard players operation display temp %= 6 const
 execute if score display temp matches 0 run function ssbrc:fighters/mega_man/logic/abilities/metal_blade/animation/1
 execute if score display temp matches 2 run function ssbrc:fighters/mega_man/logic/abilities/metal_blade/animation/2
 execute if score display temp matches 4 run function ssbrc:fighters/mega_man/logic/abilities/metal_blade/animation/3

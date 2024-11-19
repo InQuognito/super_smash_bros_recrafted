@@ -28,7 +28,7 @@
 				},
 				"requirements": {
 					"condition": "minecraft:entity_properties",
-					"entity": "this",
+					"entity": "attacker",
 					"predicate": {
 						"nbt": "{Tags:[\"blood_metamorphosis\"]}"
 					}
@@ -56,7 +56,7 @@
 				},
 				"requirements": {
 					"condition": "minecraft:entity_properties",
-					"entity": "this",
+					"entity": "attacker",
 					"predicate": {
 						"nbt": "{Tags:[\"blood_metamorphosis\"]}"
 					}
