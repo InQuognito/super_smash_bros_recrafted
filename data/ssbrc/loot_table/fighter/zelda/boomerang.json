@@ -1,0 +1,44 @@
+{
+	"type": "minecraft:command",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:nether_star",
+					"functions": [
+						{
+							"function": "minecraft:set_name",
+							"entity": "this",
+							"name": {
+								"translate": "ssbrc.fighter.the_legend_of_zelda.boomerang",
+								"color": "gold",
+								"bold": true,
+								"italic": false
+							}
+						},
+						{
+							"function": "minecraft:reference",
+							"name": "ssbrc:fighter/zelda/dungeon_item"
+						},
+						{
+							"function": "minecraft:reference",
+							"name": "ssbrc:fighter/link/boomerang"
+						},
+						{
+							"function": "minecraft:set_components",
+							"components": {
+								"minecraft:item_model": "ssbrc:fighter/zelda/item/boomerang"
+							}
+						},
+						{
+							"function": "minecraft:set_custom_data",
+							"tag": "{item:\"zelda.boomerang\"}"
+						}
+					]
+				}
+			]
+		}
+	]
+}

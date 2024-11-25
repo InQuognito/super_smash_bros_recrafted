@@ -1,0 +1,10 @@
+[
+	{
+		"function": "minecraft:reference",
+		"name": "ssbrc:init/ability/charge"
+	},
+	{
+		"function": "minecraft:reference",
+		"name": "ssbrc:fighter/link/boomerang/tooltip"
+	}
+]

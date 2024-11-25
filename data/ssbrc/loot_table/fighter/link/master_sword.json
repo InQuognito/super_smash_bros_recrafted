@@ -1,0 +1,121 @@
+{
+	"type": "minecraft:command",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:nether_star",
+					"functions": [
+						{
+							"function": "minecraft:set_components",
+							"components": {
+								"minecraft:attribute_modifiers": {
+									"modifiers": [
+										{
+											"type": "minecraft:attack_damage",
+											"id": "ssbrc:attack_damage",
+											"amount": 6,
+											"operation": "add_multiplied_base",
+											"slot": "mainhand"
+										},
+										{
+											"type": "minecraft:attack_speed",
+											"id": "ssbrc:attack_speed",
+											"amount": 2,
+											"operation": "add_multiplied_base",
+											"slot": "mainhand"
+										}
+									],
+									"show_in_tooltip": false
+								},
+								"minecraft:enchantments": {
+									"levels": {
+										"ssbrc:fighter/link/master_sword": 1
+									},
+									"show_in_tooltip": false
+								}
+							}
+						},
+						{
+							"function": "minecraft:reference",
+							"name": "ssbrc:init/preset/hybrid"
+						},
+						{
+							"function": "minecraft:reference",
+							"name": "ssbrc:init/ability/charge"
+						},
+						{
+							"function": "minecraft:set_lore",
+							"entity": "this",
+							"lore": [
+								{
+									"text": "- [",
+									"color": "gray",
+									"bold": false,
+									"italic": false,
+									"extra": [
+										{
+											"keybind": "key.use",
+											"color": "gray",
+											"bold": false,
+											"italic": false
+										},
+										{
+											"translate":"ssbrc.fighter.link.master_sword.description.1",
+											"color": "gray",
+											"bold": false,
+											"italic": false
+										}
+									]
+								},
+								{
+									"translate": "ssbrc.tooltip.hold_key",
+									"color": "gray",
+									"bold": false,
+									"italic": false,
+									"extra": [
+										{
+											"keybind": "key.sneak",
+											"color": "gray",
+											"bold": false,
+											"italic": false
+										},
+										{
+											"translate": "] + [",
+											"color": "gray",
+											"bold": false,
+											"italic": false
+										},
+										{
+											"keybind": "key.use",
+											"color": "gray",
+											"bold": false,
+											"italic": false
+										},
+										{
+											"translate":"ssbrc.fighter.link.master_sword.description.2",
+											"color": "gray",
+											"bold": false,
+											"italic": false
+										}
+									]
+								}
+							],
+							"mode": "append"
+						},
+						{
+							"function": "minecraft:reference",
+							"name": "ssbrc:fighter/link/master_sword/enable"
+						},
+						{
+							"function": "minecraft:set_custom_data",
+							"tag": "{item:\"master_sword\",path:\"link/logic/abilities/sword_spin/activate/check\"}"
+						}
+					]
+				}
+			]
+		}
+	]
+}

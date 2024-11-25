@@ -1,0 +1,30 @@
+execute positioned 23317.5 5.75 8648.5 summon minecraft:item_display run function ssbrc:stage/pac_maze/logic/dots/groups/j/init
+execute positioned 23318.5 5.75 8648.5 summon minecraft:item_display run function ssbrc:stage/pac_maze/logic/dots/groups/j/init
+execute positioned 23319.5 5.75 8648.5 summon minecraft:item_display run function ssbrc:stage/pac_maze/logic/dots/groups/j/init
+execute positioned 23320.5 5.75 8648.5 summon minecraft:item_display run function ssbrc:stage/pac_maze/logic/dots/groups/j/init
+execute positioned 23321.5 5.75 8648.5 summon minecraft:item_display run function ssbrc:stage/pac_maze/logic/dots/groups/j/init
+execute positioned 23322.5 5.75 8648.5 summon minecraft:item_display run function ssbrc:stage/pac_maze/logic/dots/groups/j/init
+execute positioned 23323.5 5.75 8648.5 summon minecraft:item_display run function ssbrc:stage/pac_maze/logic/dots/groups/j/init
+execute positioned 23324.5 5.75 8648.5 summon minecraft:item_display run function ssbrc:stage/pac_maze/logic/dots/groups/j/init
+execute positioned 23325.5 5.75 8648.5 summon minecraft:item_display run function ssbrc:stage/pac_maze/logic/dots/groups/j/init
+execute positioned 23317.5 5.75 8649.5 summon minecraft:item_display run function ssbrc:stage/pac_maze/logic/dots/groups/j/init
+execute positioned 23325.5 5.75 8649.5 summon minecraft:item_display run function ssbrc:stage/pac_maze/logic/dots/groups/j/init
+execute positioned 23317.5 5.75 8650.5 summon minecraft:item_display run function ssbrc:stage/pac_maze/logic/dots/groups/j/init
+execute positioned 23325.5 5.75 8650.5 summon minecraft:item_display run function ssbrc:stage/pac_maze/logic/dots/groups/j/init
+execute positioned 23317.5 5.75 8651.5 summon minecraft:item_display run function ssbrc:stage/pac_maze/logic/dots/groups/j/init
+execute positioned 23325.5 5.75 8651.5 summon minecraft:item_display run function ssbrc:stage/pac_maze/logic/dots/groups/j/init
+execute positioned 23317.5 5.75 8652.5 summon minecraft:item_display run function ssbrc:stage/pac_maze/logic/dots/groups/j/init
+execute positioned 23325.5 5.75 8652.5 summon minecraft:item_display run function ssbrc:stage/pac_maze/logic/dots/groups/j/init
+execute positioned 23317.5 5.75 8653.5 summon minecraft:item_display run function ssbrc:stage/pac_maze/logic/dots/groups/j/init
+execute positioned 23325.5 5.75 8653.5 summon minecraft:item_display run function ssbrc:stage/pac_maze/logic/dots/groups/j/init
+execute positioned 23317.5 5.75 8654.5 summon minecraft:item_display run function ssbrc:stage/pac_maze/logic/dots/groups/j/init
+execute positioned 23318.5 5.75 8654.5 summon minecraft:item_display run function ssbrc:stage/pac_maze/logic/dots/groups/j/init
+execute positioned 23319.5 5.75 8654.5 summon minecraft:item_display run function ssbrc:stage/pac_maze/logic/dots/groups/j/init
+execute positioned 23320.5 5.75 8654.5 summon minecraft:item_display run function ssbrc:stage/pac_maze/logic/dots/groups/j/init
+execute positioned 23321.5 5.75 8654.5 summon minecraft:item_display run function ssbrc:stage/pac_maze/logic/dots/groups/j/init
+execute positioned 23322.5 5.75 8654.5 summon minecraft:item_display run function ssbrc:stage/pac_maze/logic/dots/groups/j/init
+execute positioned 23323.5 5.75 8654.5 summon minecraft:item_display run function ssbrc:stage/pac_maze/logic/dots/groups/j/init
+execute positioned 23324.5 5.75 8654.5 summon minecraft:item_display run function ssbrc:stage/pac_maze/logic/dots/groups/j/init
+execute positioned 23325.5 5.75 8654.5 summon minecraft:item_display run function ssbrc:stage/pac_maze/logic/dots/groups/j/init
+
+scoreboard players set spawned_dot_group temp 1

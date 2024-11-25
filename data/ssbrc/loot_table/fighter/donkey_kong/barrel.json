@@ -1,0 +1,92 @@
+{
+	"type": "minecraft:command",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:nether_star",
+					"functions": [
+						{
+							"function": "minecraft:reference",
+							"name": "ssbrc:init/preset/hybrid"
+						},
+						{
+							"function": "minecraft:reference",
+							"name": "ssbrc:init/ability/charge"
+						},
+						{
+							"function": "minecraft:set_components",
+							"components": {
+								"minecraft:attribute_modifiers": {
+									"modifiers": [
+										{
+											"type": "minecraft:attack_damage",
+											"id": "ssbrc:attack_damage",
+											"amount": 7,
+											"operation": "add_multiplied_base",
+											"slot": "mainhand"
+										},
+										{
+											"type": "minecraft:attack_speed",
+											"id": "ssbrc:attack_speed",
+											"amount": 0.5,
+											"operation": "add_multiplied_base",
+											"slot": "mainhand"
+										}
+									],
+									"show_in_tooltip": false
+								},
+								"minecraft:max_damage": 10
+							}
+						},
+						{
+							"function": "minecraft:set_lore",
+							"entity": "this",
+							"lore": [
+								{
+									"text": "- [",
+									"color": "gray",
+									"bold": false,
+									"italic": false,
+									"extra": [
+										{
+											"keybind": "key.use",
+											"color": "gray",
+											"bold": false,
+											"italic": false
+										},
+										{
+											"translate": "ssbrc.fighter.donkey_kong.barrel.description.1",
+											"color": "gray",
+											"bold": false,
+											"italic": false
+										}
+									]
+								},
+								{
+									"translate": "ssbrc.ability.description.bounce",
+									"color": "gray",
+									"bold": false,
+									"italic": false
+								},
+								{
+									"translate": "ssbrc.fighter.donkey_kong.barrel.description.2",
+									"color": "gray",
+									"bold": false,
+									"italic": false
+								}
+							],
+							"mode": "append"
+						},
+						{
+							"function": "minecraft:set_custom_data",
+							"tag": "{item:\"barrel\"}"
+						}
+					]
+				}
+			]
+		}
+	]
+}

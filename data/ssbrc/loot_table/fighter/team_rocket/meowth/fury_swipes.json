@@ -1,0 +1,76 @@
+{
+	"type": "minecraft:command",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:nether_star",
+					"functions": [
+						{
+							"function": "minecraft:set_name",
+							"entity": "this",
+							"name": {
+								"translate": "ssbrc.fighter.team_rocket.meowth.fury_swipes",
+								"color": "yellow",
+								"bold": true,
+								"italic": false
+							}
+						},
+						{
+							"function": "minecraft:reference",
+							"name": "ssbrc:init/tooltip/ability/melee"
+						},
+						{
+							"function": "minecraft:reference",
+							"name": "ssbrc:init/ability/default"
+						},
+						{
+							"function": "minecraft:reference",
+							"name": "ssbrc:init/animation/instant"
+						},
+						{
+							"function": "minecraft:set_lore",
+							"entity": "this",
+							"lore": [
+								{
+									"text": "- [",
+									"color": "gray",
+									"bold": false,
+									"italic": false,
+									"extra": [
+										{
+											"keybind": "key.use",
+											"color": "gray",
+											"bold": false,
+											"italic": false
+										},
+										{
+											"translate": "ssbrc.fighter.team_rocket.meowth.fury_swipes.description.1",
+											"color": "gray",
+											"bold": false,
+											"italic": false
+										}
+									]
+								}
+							],
+							"mode": "append"
+						},
+						{
+							"function": "minecraft:set_components",
+							"components": {
+								"minecraft:max_damage": 40,
+								"minecraft:item_model": "ssbrc:common/pokemon/type_icon/normal/default"
+							}
+						},
+						{
+							"function": "minecraft:set_custom_data",
+							"tag": "{item:\"fury_swipes\"}"
+						}
+					]
+				}
+			]
+		}
+	]
+}

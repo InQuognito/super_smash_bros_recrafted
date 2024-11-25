@@ -1,0 +1,62 @@
+{
+	"type": "minecraft:command",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:potion",
+					"functions": [
+						{
+							"function": "minecraft:set_name",
+							"entity": "this",
+							"name": {
+								"translate": "ssbrc.fighter.zelda.dungeon_item.red_potion",
+								"color": "red",
+								"bold": true,
+								"italic": false
+							}
+						},
+						{
+							"function": "minecraft:set_potion",
+							"id": "minecraft:strong_healing"
+						},
+						{
+							"function": "minecraft:reference",
+							"name": "ssbrc:init/tooltip/ability/utility"
+						},
+						{
+							"function": "minecraft:reference",
+							"name": "ssbrc:init/animation/smooth"
+						},
+						{
+							"function": "minecraft:set_lore",
+							"entity": "this",
+							"lore": [
+								{
+									"translate": "ssbrc.fighter.zelda.dungeon_item.red_potion.description.1",
+									"color": "gray",
+									"bold": false,
+									"italic": false
+								}
+							],
+							"mode": "append"
+						},
+						{
+							"function": "minecraft:set_components",
+							"components": {
+								"minecraft:item_model": "ssbrc:fighter/zelda/item/red_potion",
+								"minecraft:hide_additional_tooltip": {}
+							}
+						},
+						{
+							"function": "minecraft:set_custom_data",
+							"tag": "{item:\"red_potion\"}"
+						}
+					]
+				}
+			]
+		}
+	]
+}

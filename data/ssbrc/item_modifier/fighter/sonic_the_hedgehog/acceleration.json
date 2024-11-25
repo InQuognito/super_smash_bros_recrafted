@@ -1,0 +1,20 @@
+{
+	"function": "minecraft:set_lore",
+	"entity": "this",
+	"lore": [
+		{
+			"translate": "ssbrc.fighter.sonic_the_hedgehog.acceleration",
+			"color": "yellow",
+			"bold": false,
+			"italic": false,
+			"underlined": true
+		},
+		{
+			"translate": "ssbrc.fighter.sonic_the_hedgehog.acceleration.description.1",
+			"color": "gray",
+			"bold": false,
+			"italic": false
+		}
+	],
+	"mode": "append"
+}

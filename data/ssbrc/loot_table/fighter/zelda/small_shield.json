@@ -1,0 +1,41 @@
+{
+	"type": "minecraft:command",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:shield",
+					"functions": [
+						{
+							"function": "minecraft:set_name",
+							"entity": "this",
+							"name": {
+								"translate": "ssbrc.fighter.zelda.passive_item.small_shield",
+								"color": "gray",
+								"bold": true,
+								"italic": false
+							}
+						},
+						{
+							"function": "minecraft:reference",
+							"name": "ssbrc:init/preset/defensive"
+						},
+						{
+							"function": "minecraft:set_components",
+							"components": {
+								"minecraft:max_damage": 10,
+								"minecraft:item_model": "ssbrc:fighter/zelda/item/small_shield"
+							}
+						},
+						{
+							"function": "minecraft:set_custom_data",
+							"tag": "{item:\"small_shield\",group:\"passive_item\"}"
+						}
+					]
+				}
+			]
+		}
+	]
+}

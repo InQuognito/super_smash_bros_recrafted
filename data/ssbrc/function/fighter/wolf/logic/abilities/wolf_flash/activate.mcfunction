@@ -1,0 +1,5 @@
+function ssbrc:logic/fighter/ability/init
+
+execute positioned ~ ~0.1 ~ summon minecraft:marker run function ssbrc:fighter/wolf/logic/abilities/wolf_flash/init
+
+function ssbrc:logic/fighter/ability/deinit

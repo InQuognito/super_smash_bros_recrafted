@@ -1,0 +1,16 @@
+[
+	{
+		"function": "minecraft:set_name",
+		"entity": "this",
+		"name": {
+			"translate": "ssbrc.fighter.shovel_knight.phase_locket",
+			"color": "gray",
+			"bold": true,
+			"italic": false
+		}
+	},
+	{
+		"function": "minecraft:reference",
+		"name": "ssbrc:fighter/shovel_knight/disabled"
+	}
+]

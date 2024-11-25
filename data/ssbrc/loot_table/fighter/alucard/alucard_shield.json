@@ -1,0 +1,44 @@
+{
+	"type": "minecraft:command",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:shield",
+					"functions": [
+						{
+							"function": "minecraft:reference",
+							"name": "ssbrc:init/preset/defensive"
+						},
+						{
+							"function": "minecraft:set_components",
+							"components": {
+								"minecraft:max_damage": 20,
+								"minecraft:item_model": "ssbrc:fighter/alucard/item/alucard_shield"
+							}
+						},
+						{
+							"function": "minecraft:set_damage",
+							"damage": {
+								"type": "minecraft:score",
+								"target": {
+									"type": "minecraft:fixed",
+									"name": "durability"
+								},
+								"score": "temp",
+								"scale": 0.01
+							},
+							"add": false
+						},
+						{
+							"function": "minecraft:set_custom_data",
+							"tag": "{item:\"alucard_shield\"}"
+						}
+					]
+				}
+			]
+		}
+	]
+}

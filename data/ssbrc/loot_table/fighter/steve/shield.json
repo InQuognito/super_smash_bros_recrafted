@@ -1,0 +1,26 @@
+{
+	"type": "minecraft:command",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:shield",
+					"functions": [
+						{
+							"function": "minecraft:reference",
+							"name": "ssbrc:init/preset/shield"
+						},
+						{
+							"function": "minecraft:set_components",
+							"components": {
+								"minecraft:max_damage": 10
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}

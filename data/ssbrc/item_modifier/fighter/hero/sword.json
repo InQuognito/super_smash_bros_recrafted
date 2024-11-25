@@ -1,0 +1,40 @@
+[
+	{
+		"function": "minecraft:set_components",
+		"components": {
+			"minecraft:attribute_modifiers": {
+				"modifiers": [
+					{
+						"type": "minecraft:attack_damage",
+						"id": "ssbrc:attack_damage",
+						"amount": 4,
+						"operation": "add_multiplied_base",
+						"slot": "mainhand"
+					},
+					{
+						"type": "minecraft:attack_speed",
+						"id": "ssbrc:attack_speed",
+						"amount": 1.5,
+						"operation": "add_multiplied_base",
+						"slot": "mainhand"
+					}
+				],
+				"show_in_tooltip": false
+			},
+			"minecraft:enchantments": {
+				"levels": {
+					"ssbrc:fighter/hero/flame_slash": 1
+				},
+				"show_in_tooltip": false
+			}
+		}
+	},
+	{
+		"function": "minecraft:reference",
+		"name": "ssbrc:init/preset/melee"
+	},
+	{
+		"function": "minecraft:set_custom_data",
+		"tag": "{item:\"hero.sword\",group:\"hero.spell\"}"
+	}
+]

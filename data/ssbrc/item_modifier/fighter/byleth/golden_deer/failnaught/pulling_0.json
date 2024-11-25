@@ -1,0 +1,10 @@
+[
+	{
+		"function": "minecraft:reference",
+		"name": "ssbrc:init/pulling"
+	},
+	{
+		"function": "minecraft:set_custom_model_data",
+		"value": 1
+	}
+]

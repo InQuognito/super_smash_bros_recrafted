@@ -1,0 +1,74 @@
+[
+	{
+		"function": "minecraft:set_name",
+		"entity": "this",
+		"name": {
+			"translate": "ssbrc.fighter.joker.rebel_knife",
+			"color": "gray",
+			"bold": true,
+			"italic": false,
+			"extra": [
+				{
+					"translate": "ssbrc.fighter.joker.rebel_knife.freeze_boost",
+					"color": "aqua",
+					"bold": true,
+					"italic": false
+				}
+			]
+		},
+		"conditions": [
+			{
+				"condition": "minecraft:inverted",
+				"term": {
+					"condition": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"nbt": "{Tags:[\"gold\"]}"
+					}
+				}
+			}
+		]
+	},
+	{
+		"function": "minecraft:set_name",
+		"entity": "this",
+		"name": {
+			"translate": "ssbrc.fighter.joker.rebel_knife",
+			"color": "gold",
+			"bold": true,
+			"italic": false,
+			"extra": [
+				{
+					"translate": "ssbrc.fighter.joker.rebel_knife.freeze_boost",
+					"color": "aqua",
+					"bold": true,
+					"italic": false
+				}
+			]
+		},
+		"conditions": [
+			{
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"nbt": "{Tags:[\"gold\"]}"
+				}
+			}
+		]
+	},
+	{
+		"function": "minecraft:set_components",
+		"components": {
+			"minecraft:enchantments": {
+				"levels": {
+					"ssbrc:fighter/joker/freeze_boost": 1
+				},
+				"show_in_tooltip": false
+			}
+		}
+	},
+	{
+		"function": "minecraft:set_custom_data",
+		"tag": "{persona_boost:\"freeze\"}"
+	}
+]

@@ -1,0 +1,28 @@
+{
+	"type": "minecraft:command",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:stone_sword",
+					"functions": [
+						{
+							"function": "minecraft:reference",
+							"name": "ssbrc:init/preset/melee"
+						},
+						{
+							"function": "minecraft:reference",
+							"name": "ssbrc:fighter/joker/rebel_knife"
+						},
+						{
+							"function": "minecraft:set_custom_data",
+							"tag": "{item:\"rebel_knife\"}"
+						}
+					]
+				}
+			]
+		}
+	]
+}

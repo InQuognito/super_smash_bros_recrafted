@@ -1,0 +1,61 @@
+{
+	"type": "minecraft:command",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:nether_star",
+					"functions": [
+						{
+							"function": "minecraft:set_name",
+							"entity": "this",
+							"name": {
+								"translate": "ssbrc.fighter.zelda.dungeon_item.magic_boomerang",
+								"color": "blue",
+								"bold": true,
+								"italic": false
+							}
+						},
+						{
+							"function": "minecraft:reference",
+							"name": "ssbrc:fighter/zelda/dungeon_item"
+						},
+						{
+							"function": "minecraft:reference",
+							"name": "ssbrc:init/ability/default"
+						},
+						{
+							"function": "minecraft:reference",
+							"name": "ssbrc:fighter/link/boomerang/tooltip"
+						},
+						{
+							"function": "minecraft:set_lore",
+							"entity": "this",
+							"lore": [
+								{
+									"translate": "ssbrc.fighter.zelda.dungeon_item.magic_boomerang.description.1",
+									"color": "gray",
+									"bold": false,
+									"italic": false
+								}
+							],
+							"mode": "append"
+						},
+						{
+							"function": "minecraft:set_components",
+							"components": {
+								"minecraft:item_model": "ssbrc:fighter/zelda/item/magic_boomerang"
+							}
+						},
+						{
+							"function": "minecraft:set_custom_data",
+							"tag": "{item:\"magic_boomerang\"}"
+						}
+					]
+				}
+			]
+		}
+	]
+}

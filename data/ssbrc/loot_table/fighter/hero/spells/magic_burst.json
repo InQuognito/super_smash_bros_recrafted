@@ -1,0 +1,75 @@
+{
+	"type": "minecraft:command",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:nether_star",
+					"functions": [
+						{
+							"function": "minecraft:set_name",
+							"entity": "this",
+							"name": {
+								"translate": "ssbrc.fighter.hero.magic_burst",
+								"color": "light_purple",
+								"bold": true,
+								"italic": false
+							}
+						},
+						{
+							"function": "minecraft:reference",
+							"name": "ssbrc:init/tooltip/ability/offensive"
+						},
+						{
+							"function": "minecraft:reference",
+							"name": "ssbrc:init/ability/default"
+						},
+						{
+							"function": "minecraft:reference",
+							"name": "ssbrc:init/animation/instant"
+						},
+						{
+							"function": "minecraft:set_lore",
+							"entity": "this",
+							"lore": [
+								{
+									"text": "- [",
+									"color": "gray",
+									"bold": false,
+									"italic": false,
+									"extra": [
+										{
+											"keybind": "key.use",
+											"color": "gray",
+											"bold": false,
+											"italic": false
+										},
+										{
+											"translate": "ssbrc.fighter.hero.magic_burst.description.1",
+											"color": "gray",
+											"bold": false,
+											"italic": false
+										}
+									]
+								}
+							],
+							"mode": "append"
+						},
+						{
+							"function": "minecraft:set_components",
+							"components": {
+								"minecraft:item_model": "ssbrc:fighter/hero/item/magic_burst"
+							}
+						},
+						{
+							"function": "minecraft:set_custom_data",
+							"tag": "{item:\"magic_burst\",group:\"hero.spell\"}"
+						}
+					]
+				}
+			]
+		}
+	]
+}

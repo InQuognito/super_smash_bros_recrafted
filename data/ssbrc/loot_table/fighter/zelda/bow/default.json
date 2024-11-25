@@ -1,0 +1,47 @@
+{
+	"type": "minecraft:command",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:bow",
+					"functions": [
+						{
+							"function": "minecraft:reference",
+							"name": "ssbrc:fighter/zelda/bow/init"
+						},
+						{
+							"function": "minecraft:set_name",
+							"entity": "this",
+							"name": {
+								"translate": "item.minecraft.bow",
+								"color": "white",
+								"bold": true,
+								"italic": false
+							}
+						},
+						{
+							"function": "minecraft:set_components",
+							"components": {
+								"minecraft:enchantments": {
+									"levels": {
+										"ssbrc:fighter/zelda/dungeon_item/bow/default": 1,
+										"minecraft:infinity": 1
+									},
+									"show_in_tooltip": false
+								},
+								"minecraft:item_model": "ssbrc:fighter/zelda/item/bow/default/default"
+							}
+						},
+						{
+							"function": "minecraft:set_custom_data",
+							"tag": "{item:\"default_bow\"}"
+						}
+					]
+				}
+			]
+		}
+	]
+}

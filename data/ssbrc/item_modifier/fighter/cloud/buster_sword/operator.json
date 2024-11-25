@@ -1,0 +1,78 @@
+[
+	{
+		"function": "minecraft:reference",
+		"name": "ssbrc:init/preset/hybrid"
+	},
+	{
+		"function": "minecraft:set_lore",
+		"entity": "this",
+		"lore": [
+			{
+				"text": "- [",
+				"color": "gray",
+				"bold": false,
+				"italic": false,
+				"extra": [
+					{
+						"keybind": "key.use",
+						"color": "gray",
+						"bold": false,
+						"italic": false
+					},
+					{
+						"translate": "ssbrc.fighter.cloud.blade_beam.description.1",
+						"color": "gray",
+						"bold": false,
+						"italic": false
+					}
+				]
+			},
+			{
+				"translate": "ssbrc.fighter.cloud.limit_break",
+				"color": "gray",
+				"bold": false,
+				"italic": false,
+				"extra": [
+					{
+						"translate": "ssbrc.fighter.cloud.blade_beam.description.2",
+						"color": "gray",
+						"bold": false,
+						"italic": false
+					}
+				]
+			}
+		],
+		"mode": "replace_all"
+	},
+	{
+		"function": "minecraft:reference",
+		"name": "ssbrc:fighter/cloud/buster_sword/change_modes"
+	},
+	{
+		"function": "minecraft:set_lore",
+		"entity": "this",
+		"lore": [
+			{
+				"translate": "ssbrc.fighter.cloud.operator",
+				"color": "green",
+				"bold": true,
+				"italic": false,
+				"extra": [
+					{
+						"text": " -> ",
+						"color": "white",
+						"bold": false,
+						"italic": false
+					},
+					{
+						"translate": "ssbrc.fighter.cloud.punisher",
+						"color": "blue",
+						"bold": false,
+						"italic": false
+					}
+				]
+			}
+		],
+		"mode": "append"
+	}
+]

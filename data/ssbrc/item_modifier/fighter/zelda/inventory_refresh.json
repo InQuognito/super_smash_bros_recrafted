@@ -1,0 +1,47 @@
+[
+	{
+		"function": "minecraft:set_components",
+		"components": {
+			"minecraft:item_model": "ssbrc:fighter/zelda/item/inventory_refresh/full_price"
+		},
+		"conditions": [
+			{
+				"condition": "minecraft:inverted",
+				"term": {
+					"condition": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"slots": {
+							"container.*": {
+								"predicates": {
+									"minecraft:custom_data": "{item:\"ring_of_charisma\"}"
+								}
+							}
+						}
+					}
+				}
+			}
+		]
+	},
+	{
+		"function": "minecraft:set_components",
+		"components": {
+			"minecraft:item_model": "ssbrc:fighter/zelda/item/inventory_refresh/half_price"
+		},
+		"conditions": [
+			{
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"slots": {
+						"container.*": {
+							"predicates": {
+								"minecraft:custom_data": "{item:\"ring_of_charisma\"}"
+							}
+						}
+					}
+				}
+			}
+		]
+	}
+]

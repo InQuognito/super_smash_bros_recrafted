@@ -1,0 +1,18 @@
+[
+	{
+		"function": "minecraft:set_name",
+		"entity": "this",
+		"target": "item_name",
+		"name": {
+			"translate": "ssbrc.skin.gravity_suit",
+			"color": "#BB2EF4",
+			"bold": true
+		}
+	},
+	{
+		"function": "minecraft:set_components",
+		"components": {
+			"minecraft:item_model": "ssbrc:fighter/samus/skin/gravity_suit/default"
+		}
+	}
+]

@@ -1,0 +1,61 @@
+{
+	"type": "minecraft:command",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:nether_star",
+					"functions": [
+						{
+							"function": "minecraft:reference",
+							"name": "ssbrc:init/tooltip/ability/defensive"
+						},
+						{
+							"function": "minecraft:reference",
+							"name": "ssbrc:init/ability/default"
+						},
+						{
+							"function": "minecraft:reference",
+							"name": "ssbrc:init/animation/instant"
+						},
+						{
+							"function": "minecraft:reference",
+							"name": "ssbrc:init/tooltip/activate"
+						},
+						{
+							"function": "minecraft:set_lore",
+							"entity": "this",
+							"lore": [
+								{
+									"translate": "ssbrc.fighter.fox.reflector.description.1",
+									"color": "gray",
+									"bold": false,
+									"italic": false
+								},
+								{
+									"translate": "ssbrc.fighter.fox.reflector.description.2",
+									"color": "gray",
+									"bold": false,
+									"italic": false
+								}
+							],
+							"mode": "append"
+						},
+						{
+							"function": "minecraft:set_components",
+							"components": {
+								"minecraft:max_damage": 60
+							}
+						},
+						{
+							"function": "minecraft:set_custom_data",
+							"tag": "{item:\"reflector\"}"
+						}
+					]
+				}
+			]
+		}
+	]
+}

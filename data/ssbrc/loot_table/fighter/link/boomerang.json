@@ -1,0 +1,28 @@
+{
+	"type": "minecraft:command",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:nether_star",
+					"functions": [
+						{
+							"function": "minecraft:reference",
+							"name": "ssbrc:init/preset/ranged"
+						},
+						{
+							"function": "minecraft:reference",
+							"name": "ssbrc:fighter/link/boomerang"
+						},
+						{
+							"function": "minecraft:set_custom_data",
+							"tag": "{item:\"link.boomerang\"}"
+						}
+					]
+				}
+			]
+		}
+	]
+}

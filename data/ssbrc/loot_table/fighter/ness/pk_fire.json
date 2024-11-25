@@ -1,0 +1,96 @@
+{
+	"type": "minecraft:command",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:nether_star",
+					"functions": [
+						{
+							"function": "minecraft:set_name",
+							"entity": "this",
+							"name": {
+								"translate": "ssbrc.fighter.ness.pk_fire",
+								"color": "red",
+								"bold": true,
+								"italic": false,
+								"extra": [
+									{
+										"translate": "ssbrc.fighter.earthbound.alpha",
+										"color": "red",
+										"bold": false,
+										"italic": false
+									}
+								]
+							}
+						},
+						{
+							"function": "minecraft:reference",
+							"name": "ssbrc:init/tooltip/ability/offensive"
+						},
+						{
+							"function": "minecraft:reference",
+							"name": "ssbrc:init/ability/default"
+						},
+						{
+							"function": "minecraft:reference",
+							"name": "ssbrc:init/animation/instant"
+						},
+						{
+							"function": "minecraft:set_lore",
+							"entity": "this",
+							"lore": [
+								{
+									"text": "- [",
+									"color": "gray",
+									"bold": false,
+									"italic": false,
+									"extra": [
+										{
+											"keybind": "key.use",
+											"color": "gray",
+											"bold": false,
+											"italic": false
+										},
+										{
+											"translate": "ssbrc.fighter.ness.pk_fire.description.1",
+											"color": "gray",
+											"bold": false,
+											"italic": false
+										}
+									]
+								},
+								{
+									"translate": "ssbrc.fighter.ness.pk_fire.description.2",
+									"color": "gray",
+									"bold": false,
+									"italic": false
+								},
+								{
+									"translate": "ssbrc.tooltip.effect.burning",
+									"color": "gray",
+									"bold": false,
+									"italic": false
+								}
+							],
+							"mode": "append"
+						},
+						{
+							"function": "minecraft:set_components",
+							"components": {
+								"minecraft:max_damage": 40,
+								"minecraft:item_model": "ssbrc:fighter/ness/item/pk_fire"
+							}
+						},
+						{
+							"function": "minecraft:set_custom_data",
+							"tag": "{item:\"pk_fire\"}"
+						}
+					]
+				}
+			]
+		}
+	]
+}

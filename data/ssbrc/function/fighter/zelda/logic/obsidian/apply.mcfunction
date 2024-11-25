@@ -1,0 +1,1 @@
+$item modify entity @s weapon.mainhand {"function":"minecraft:set_components","components":{"minecraft:enchantments":{"levels":{"ssbrc:fighter/zelda/weapon/obsidian":$(count)},"show_in_tooltip":false}}}
