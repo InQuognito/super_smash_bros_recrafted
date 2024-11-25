@@ -4,7 +4,7 @@
 	"predicate": {
 		"stepping_on": {
 			"block": {
-				"blocks": "#ssbrc:stages/big_battlefield"
+				"blocks": "#ssbrc:stage/big_battlefield"
 			}
 		}
 	}

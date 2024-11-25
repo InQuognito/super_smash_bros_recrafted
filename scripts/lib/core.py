@@ -46,37 +46,37 @@ def center(pos):
 
 	return str((x1 + x2) / 2.0) + ' 0.0 ' + str((y1 + y2) / 2.0)
 
-def count_skins(fighter):
+def count_skin(fighter):
 	'''Returns the skin count of the specified fighter.'''
-	n = len(ssbrc.fighters[fighter]['skins']) + 2
+	n = len(ssbrc.fighter[fighter]['skin']) + 2
 	if fighter == 'byleth':
 		n *= 2
 	return n
 
 def has_forms(fighter):
 	'''Returns true if the specified fighter has forms, otherwise return false.'''
-	if 'true_forms' in ssbrc.fighters[fighter].keys():
+	if 'true_forms' in ssbrc.fighter[fighter].keys():
 		return True
 	return False
 
 def forms_isolated(fighter):
 	'''Returns true if the specified fighter has isolated forms, otherwise return false.'''
-	if 'forms_isolated_to' in ssbrc.fighters[fighter].keys():
+	if 'forms_isolated_to' in ssbrc.fighter[fighter].keys():
 		return True
 	return False
 
 def count_forms(fighter):
 	'''Returns the skin count of the specified fighter.'''
-	return len(ssbrc.fighters[fighter]['forms'])
+	return len(ssbrc.fighter[fighter]['forms'])
 
 def get_color(fighter, skin='default'):
 	'''Returns the color of the selected skin.'''
 	if skin == 'default':
-		return ssbrc.fighters[fighter]['color']
+		return ssbrc.fighter[fighter]['color']
 	elif skin == 'gold':
 		return 'gold'
 	else:
-		return ssbrc.fighters[fighter]['skins'][skin]['color']
+		return ssbrc.fighter[fighter]['skin'][skin]['color']
 
 def armor(value):
 	'''Returns the exact value of the armor category.'''
@@ -130,29 +130,29 @@ def safe_fall_distance(value):
 def init_item_data(file, fighter, skin, item):
 	mc_write(file, tab(4) + qm + skin + suf_e)
 
-	if 'name' in ssbrc.fighters[fighter]['items'][item][skin].keys():
-		mc_write(file, tab(5) + qm + 'name' + sep_s + ssbrc.fighters[fighter]['items'][item][skin]['name'] + suf_s)
+	if 'name' in ssbrc.fighter[fighter]['items'][item][skin].keys():
+		mc_write(file, tab(5) + qm + 'name' + sep_s + ssbrc.fighter[fighter]['items'][item][skin]['name'] + suf_s)
 		if fighter != 'steve':
-			tag = ssbrc.fighters[fighter]['items'][item][skin]['name'].split('.')
+			tag = ssbrc.fighter[fighter]['items'][item][skin]['name'].split('.')
 			mc_write(file, tab(5) + qm + 'tag' + sep_s + tag[3] + suf_s)
 	else:
-		mc_write(file, tab(5) + qm + 'name' + sep_s + ssbrc.fighters[fighter]['items'][item]['default']['name'] + suf_s)
+		mc_write(file, tab(5) + qm + 'name' + sep_s + ssbrc.fighter[fighter]['items'][item]['default']['name'] + suf_s)
 		if fighter != 'steve':
-			tag = ssbrc.fighters[fighter]['items'][item]['default']['name'].split('.')
+			tag = ssbrc.fighter[fighter]['items'][item]['default']['name'].split('.')
 			mc_write(file, tab(5) + qm + 'tag' + sep_s + tag[3] + suf_s)
 
-	if 'color' in ssbrc.fighters[fighter]['items'][item][skin].keys():
-		mc_write(file, tab(5) + qm + 'color' + sep_s + ssbrc.fighters[fighter]['items'][item][skin]['color'] + suf_s)
+	if 'color' in ssbrc.fighter[fighter]['items'][item][skin].keys():
+		mc_write(file, tab(5) + qm + 'color' + sep_s + ssbrc.fighter[fighter]['items'][item][skin]['color'] + suf_s)
 	else:
-		mc_write(file, tab(5) + qm + 'color' + sep_s + ssbrc.fighters[fighter]['items'][item]['default']['color'] + suf_s)
+		mc_write(file, tab(5) + qm + 'color' + sep_s + ssbrc.fighter[fighter]['items'][item]['default']['color'] + suf_s)
 
-	if 'model' in ssbrc.fighters[fighter]['items'][item][skin].keys():
-		if ssbrc.fighters[fighter]['items'][item][skin]['model']['type'] == 'null':
+	if 'model' in ssbrc.fighter[fighter]['items'][item][skin].keys():
+		if ssbrc.fighter[fighter]['items'][item][skin]['model']['type'] == 'null':
 			mc_write(file, tab(5) + qm + 'model' + sep_s + 'null' + qm)
-		elif ssbrc.fighters[fighter]['items'][item][skin]['model']['type'] == 'default':
-			mc_write(file, tab(5) + qm + 'model' + sep_s + f'ssbrc:fighter/{fighter}/item/{item}/' + ssbrc.fighters[fighter]['items'][item][skin]['model']['model'] + qm)
+		elif ssbrc.fighter[fighter]['items'][item][skin]['model']['type'] == 'default':
+			mc_write(file, tab(5) + qm + 'model' + sep_s + f'ssbrc:fighter/{fighter}/item/{item}/' + ssbrc.fighter[fighter]['items'][item][skin]['model']['model'] + qm)
 		else:
-			mc_write(file, tab(5) + qm + 'model' + sep_s + 'ssbrc:' + ssbrc.fighters[fighter]['items'][item][skin]['model']['model'] + qm)
+			mc_write(file, tab(5) + qm + 'model' + sep_s + 'ssbrc:' + ssbrc.fighter[fighter]['items'][item][skin]['model']['model'] + qm)
 	else:
 		if skin == 'gold':
 			mc_write(file, tab(5) + qm + 'model' + sep_s + f'ssbrc:fighter/{fighter}/item/{item}/gold' + qm)

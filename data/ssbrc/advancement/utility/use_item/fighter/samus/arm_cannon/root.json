@@ -1,0 +1,8 @@
+{
+	"parent": "ssbrc:utility/use_item/root",
+	"criteria": {
+		"default": {
+			"trigger": "minecraft:impossible"
+		}
+	}
+}

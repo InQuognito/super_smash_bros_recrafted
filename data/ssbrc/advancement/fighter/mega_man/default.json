@@ -1,0 +1,8 @@
+{
+	"parent": "ssbrc:fighter",
+	"criteria": {
+		"default": {
+			"trigger": "minecraft:tick"
+		}
+	}
+}

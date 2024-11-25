@@ -1,4 +1,4 @@
-path = 'data\\ssbrc\\functions\\fighters\\cloud\\logic\\abilities\\buster_sword\\cross_slash\\particles\\4\\medium'
+path = 'data\\ssbrc\\functions\\fighter\\cloud\\logic\\abilities\\buster_sword\\cross_slash\\particles\\4\\medium'
 ext = '.mcfunction'
 
 output = []

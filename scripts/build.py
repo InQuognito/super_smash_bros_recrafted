@@ -1,7 +1,7 @@
-from lib.fighters import *
-from lib.stages import *
+from lib.fighter import *
+from lib.stage import *
 
-remove_path('data\\ssbrc\\trim_pattern\\fighters\\')
+remove_path('data\\ssbrc\\trim_pattern\\fighter\\')
 
 # Fighters
 init_fighter()
