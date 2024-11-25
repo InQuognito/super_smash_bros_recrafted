@@ -1,1 +1,1 @@
-function ssbrc:fighters/zelda/logic/blessings/reset
+function ssbrc:fighter/zelda/logic/blessings/reset

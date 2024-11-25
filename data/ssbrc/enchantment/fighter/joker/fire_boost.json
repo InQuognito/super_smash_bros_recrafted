@@ -25,12 +25,12 @@
 					"effects": [
 						{
 							"type": "minecraft:run_function",
-							"function": "ssbrc:logic/fighters/effects/wither"
+							"function": "ssbrc:logic/fighter/effects/wither"
 						},
 						{
 							"type": "minecraft:play_sound",
 							"sound": {
-								"sound_id":"ssbrc:fighters.joker.fire_boost.hit"
+								"sound_id":"ssbrc:fighter.joker.fire_boost.hit"
 							},
 							"volume": 1,
 							"pitch": 1

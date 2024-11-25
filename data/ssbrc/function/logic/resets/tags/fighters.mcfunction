@@ -1,30 +1,30 @@
-function ssbrc:logic/resets/tags/fighters/altered_beast
-function ssbrc:logic/resets/tags/fighters/alucard
-function ssbrc:logic/resets/tags/fighters/bowser
-function ssbrc:logic/resets/tags/fighters/byleth
-function ssbrc:logic/resets/tags/fighters/captain_falcon
-function ssbrc:logic/resets/tags/fighters/cloud
-function ssbrc:logic/resets/tags/fighters/donkey_kong
-function ssbrc:logic/resets/tags/fighters/greninja
-function ssbrc:logic/resets/tags/fighters/hero
-function ssbrc:logic/resets/tags/fighters/jigglypuff
-function ssbrc:logic/resets/tags/fighters/joker
-function ssbrc:logic/resets/tags/fighters/link
-function ssbrc:logic/resets/tags/fighters/mega_man
-function ssbrc:logic/resets/tags/fighters/ness
-function ssbrc:logic/resets/tags/fighters/pit
-function ssbrc:logic/resets/tags/fighters/pokemon_trainer
-function ssbrc:logic/resets/tags/fighters/ryu
-function ssbrc:logic/resets/tags/fighters/shadow
-function ssbrc:logic/resets/tags/fighters/shovel_knight
-function ssbrc:logic/resets/tags/fighters/snake
-function ssbrc:logic/resets/tags/fighters/sora
-function ssbrc:logic/resets/tags/fighters/team_rocket
-function ssbrc:logic/resets/tags/fighters/yar
-function ssbrc:logic/resets/tags/fighters/zelda
+function ssbrc:logic/resets/tags/fighter/altered_beast
+function ssbrc:logic/resets/tags/fighter/alucard
+function ssbrc:logic/resets/tags/fighter/bowser
+function ssbrc:logic/resets/tags/fighter/byleth
+function ssbrc:logic/resets/tags/fighter/captain_falcon
+function ssbrc:logic/resets/tags/fighter/cloud
+function ssbrc:logic/resets/tags/fighter/donkey_kong
+function ssbrc:logic/resets/tags/fighter/greninja
+function ssbrc:logic/resets/tags/fighter/hero
+function ssbrc:logic/resets/tags/fighter/jigglypuff
+function ssbrc:logic/resets/tags/fighter/joker
+function ssbrc:logic/resets/tags/fighter/link
+function ssbrc:logic/resets/tags/fighter/mega_man
+function ssbrc:logic/resets/tags/fighter/ness
+function ssbrc:logic/resets/tags/fighter/pit
+function ssbrc:logic/resets/tags/fighter/pokemon_trainer
+function ssbrc:logic/resets/tags/fighter/ryu
+function ssbrc:logic/resets/tags/fighter/shadow
+function ssbrc:logic/resets/tags/fighter/shovel_knight
+function ssbrc:logic/resets/tags/fighter/snake
+function ssbrc:logic/resets/tags/fighter/sora
+function ssbrc:logic/resets/tags/fighter/team_rocket
+function ssbrc:logic/resets/tags/fighter/yar
+function ssbrc:logic/resets/tags/fighter/zelda
 
 # Misc
-function ssbrc:logic/fighters/effects/mobility/reset
+function ssbrc:logic/fighter/effects/mobility/reset
 
 tag @s remove alignment.hero
 tag @s remove alignment.villain

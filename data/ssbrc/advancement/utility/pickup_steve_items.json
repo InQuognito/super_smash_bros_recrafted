@@ -34,13 +34,15 @@
 				],
 				"items": [
 					{
-						"items": "#ssbrc:fighters/steve/items"
+						"predicates": {
+							"minecraft:custom_data": {"steve_item":true}
+						}
 					}
 				]
 			}
 		}
 	},
 	"rewards": {
-		"function": "ssbrc:fighters/steve/logic/item/pickup"
+		"function": "ssbrc:fighter/steve/logic/item/pickup"
 	}
 }

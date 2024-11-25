@@ -1,7 +1,0 @@
-$tag @s remove $(item)
-
-$tellraw @s [{"translate":"ssbrc.fighter.snake.loadout.unequip","color":"red"},{"translate":"ssbrc.fighter.snake.$(item)","color":"red"}]
-
-$scoreboard players operation @s snake.capacity -= snake.$(item).weight const
-
-function ssbrc:fighters/snake/menu/loadout/display_capacity

@@ -5,7 +5,7 @@
 		"lore": [
 			{
 				"nbt": "winter",
-				"storage": "ssbrc:data/skins",
+				"storage": "ssbrc:data/skin",
 				"interpret": true,
 				"color": "aqua",
 				"bold": true,

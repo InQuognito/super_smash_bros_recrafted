@@ -1,1 +1,1 @@
-function ssbrc:fighters/yar/logic/abilities/power_ups/reset_tags
+function ssbrc:fighter/yar/logic/abilities/power_ups/reset_tags

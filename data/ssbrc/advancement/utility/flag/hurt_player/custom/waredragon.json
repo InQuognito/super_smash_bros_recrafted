@@ -17,6 +17,6 @@
 		}
 	},
 	"rewards": {
-		"function": "ssbrc:fighters/altered_beast/logic/weredragon/hurt_player"
+		"function": "ssbrc:fighter/altered_beast/logic/weredragon/hurt_player"
 	}
 }

@@ -1,5 +1,0 @@
-execute as @a[predicate=ssbrc:flag/player] run function ssbrc:stages/palutenas_temple/logic/tick_players
-
-execute if score hazards options matches 1 run function ssbrc:stages/palutenas_temple/logic/hazards
-
-kill @e[predicate=ssbrc:killbox_vulnerable,predicate=ssbrc:below_y/180]

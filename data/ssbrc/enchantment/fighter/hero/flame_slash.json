@@ -22,7 +22,7 @@
 				"affected": "victim",
 				"effect": {
 					"type": "minecraft:run_function",
-					"function": "ssbrc:logic/fighters/effects/wither"
+					"function": "ssbrc:logic/fighter/effects/wither"
 				},
 				"requirements": {
 					"condition": "minecraft:entity_scores",
@@ -46,7 +46,7 @@
 				"affected": "attacker",
 				"effect": {
 					"type": "minecraft:run_function",
-					"function": "ssbrc:fighters/hero/logic/abilities/flame_slash/activate"
+					"function": "ssbrc:fighter/hero/logic/abilities/flame_slash/activate"
 				},
 				"requirements": [
 					{

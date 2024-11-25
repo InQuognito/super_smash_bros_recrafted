@@ -1,4 +1,4 @@
-execute unless score @s menu matches 0 run function ssbrc:logic/fighters/get {function:"ssbrc:logic/tick/triggers/menu"}
+execute unless score @s menu matches 0 run function ssbrc:logic/fighter/get {function:"ssbrc:logic/tick/triggers/menu"}
 
 execute unless score @s character_trigger matches 0 run function ssbrc:logic/tick/triggers/loadout
 

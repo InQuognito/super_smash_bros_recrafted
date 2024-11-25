@@ -5,7 +5,7 @@ scoreboard players add @a[tag=check_shockwave] timer.shockwave 1
 # General
 execute as @a[tag=check_kill] if score @s timer.stat.kill matches 2 run function ssbrc:logic/stocks/check_kill
 execute as @a[tag=check_death] if score @s timer.stat.death matches 2 run function ssbrc:logic/stocks/check_death
-execute as @a if score @s timer.shockwave matches 2 run function ssbrc:logic/fighters/shockwave/reset
+execute as @a if score @s timer.shockwave matches 2 run function ssbrc:logic/fighter/shockwave/reset
 
 # Cleanup
 execute as @a[tag=check_death] if score @s timer.stat.death matches 3 run tag @s remove check_death

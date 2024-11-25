@@ -20,7 +20,7 @@
 			{
 				"effect": {
 					"type": "minecraft:run_function",
-					"function": "ssbrc:fighters/zelda/logic/abilities/bow/activate/fire"
+					"function": "ssbrc:fighter/zelda/logic/abilities/bow/activate/fire"
 				}
 			}
 		]

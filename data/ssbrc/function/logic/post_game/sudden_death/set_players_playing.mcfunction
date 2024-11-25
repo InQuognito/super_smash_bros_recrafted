@@ -7,9 +7,9 @@ function ssbrc:logic/player_data/temp/copy/check
 
 execute if data storage ssbrc:temp player.temp_data{fighter:"greninja"} run scoreboard players set @s charge.2 5
 execute if data storage ssbrc:temp player.temp_data{fighter:"hero"} run scoreboard players operation @s magic = hero.magic.half const
-execute if data storage ssbrc:temp player.temp_data{fighter:"shovel_knight"} run function ssbrc:fighters/shovel_knight/logic/magic/set_half
-execute if data storage ssbrc:temp player.temp_data{fighter:"snake"} run function ssbrc:fighters/snake/logic/scavenger/all
-execute if data storage ssbrc:temp player.temp_data{fighter:"sora"} run function ssbrc:fighters/sora/logic/drive_forms/enable
+execute if data storage ssbrc:temp player.temp_data{fighter:"shovel_knight"} run function ssbrc:fighter/shovel_knight/logic/magic/set_half
+execute if data storage ssbrc:temp player.temp_data{fighter:"snake"} run function ssbrc:fighter/snake/logic/scavenger/all
+execute if data storage ssbrc:temp player.temp_data{fighter:"sora"} run function ssbrc:fighter/sora/logic/drive_forms/enable
 
 attribute @s minecraft:max_health base set 20.0
 

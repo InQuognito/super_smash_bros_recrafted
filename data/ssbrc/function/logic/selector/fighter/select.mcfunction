@@ -1,3 +1,3 @@
-$execute if entity @s[advancements={ssbrc:fighters/$(highlighted_object)/skins/default=true}] run function ssbrc:logic/fighters/select with storage ssbrc:data fighters.$(highlighted_object)
+$execute if entity @s[advancements={ssbrc:fighter/$(highlighted_object)/default=true}] run return run function ssbrc:logic/fighter/select with storage ssbrc:data fighter.$(highlighted_object)
 
-$execute if entity @s[advancements={ssbrc:fighters/$(highlighted_object)/skins/default=false}] run function ssbrc:logic/selector/unowned
+function ssbrc:logic/selector/unowned

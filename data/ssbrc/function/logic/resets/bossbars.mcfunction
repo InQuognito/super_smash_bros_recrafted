@@ -16,7 +16,7 @@ bossbar set ssbrc:timer visible false
 # Tutorial Popups
 function ssbrc:logic/resets/bossbar/ui {name:"tutorial"}
 
-function ssbrc:logic/fighters/loop {function:"ssbrc:logic/resets/bossbar/ui"}
+function ssbrc:logic/fighter/loop {function:"ssbrc:logic/resets/bossbar/ui"}
 
 bossbar set ssbrc:ui/popup/tutorial/default name {"text":"\uf800-","font":"ssbrc:ui","color":"#2404f9"}
 bossbar set ssbrc:ui/popup/tutorial/complete name {"text":"\uf801-","font":"ssbrc:ui","color":"#2404f9"}

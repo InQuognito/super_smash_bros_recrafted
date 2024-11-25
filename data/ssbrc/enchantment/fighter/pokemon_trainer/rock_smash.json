@@ -25,7 +25,7 @@
 					"effects": [
 						{
 							"type": "minecraft:run_function",
-							"function": "ssbrc:fighters/pokemon_trainer/logic/charizard/rock_smash/activate"
+							"function": "ssbrc:fighter/pokemon_trainer/logic/charizard/rock_smash/activate"
 						}
 					]
 				},

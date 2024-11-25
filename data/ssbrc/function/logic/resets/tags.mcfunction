@@ -1,8 +1,8 @@
 # Characters
-function ssbrc:logic/resets/tags/fighters
+function ssbrc:logic/resets/tags/fighter
 
 # Maps
-function ssbrc:logic/resets/tags/stages
+function ssbrc:logic/resets/tags/stage
 
 # Misc
 tag @s remove admin

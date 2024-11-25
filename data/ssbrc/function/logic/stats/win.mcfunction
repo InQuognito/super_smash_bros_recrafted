@@ -6,6 +6,6 @@ execute if score @s stats.win_streak > @s stats.win_streak.record run scoreboard
 $scoreboard players add @s stats.$(name).wins 1
 $scoreboard players add @s stats.$(name).win_streak 1
 
-$execute if score @s stats.$(name).wins matches 10 run function ssbrc:shop/contents/skins/gold {name:"$(name)"}
+$execute if score @s stats.$(name).wins matches 10 run function ssbrc:shop/contents/skin/gold {name:"$(name)"}
 
 $scoreboard players add $(name) log.wins 1

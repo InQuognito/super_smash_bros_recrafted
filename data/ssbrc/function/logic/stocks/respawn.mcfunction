@@ -8,7 +8,7 @@ execute as @e[type=minecraft:marker,tag=check_spawnpoint,sort=random,limit=1] at
 
 gamemode adventure @s
 
-execute if entity @s[tag=alive] run function ssbrc:logic/fighters/get {function:"ssbrc:logic/fighters/restore_items"}
+execute if entity @s[tag=alive] run function ssbrc:logic/fighter/get {function:"ssbrc:logic/fighter/restore_items"}
 
-function ssbrc:logic/fighters/get {function:"ssbrc:logic/fighters/attributes/defaults"}
-function ssbrc:logic/fighters/effects/default
+function ssbrc:logic/fighter/get {function:"ssbrc:logic/fighter/attributes/defaults"}
+function ssbrc:logic/fighter/effects/default

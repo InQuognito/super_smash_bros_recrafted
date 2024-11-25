@@ -6,8 +6,8 @@ execute if score game_mode options matches 2 if score game_time timer matches 1 
 
 scoreboard players add @s[advancements={ssbrc:utility/flag/get_kill/distance/30=true}] sniper 1
 
-function ssbrc:logic/fighters/bonuses/rapid_kill
+function ssbrc:logic/fighter/bonuses/rapid_kill
 
-function ssbrc:logic/fighters/get {function:"ssbrc:logic/stats/kills"}
+function ssbrc:logic/fighter/get {function:"ssbrc:logic/stats/kills"}
 
 tag @s add check_kill

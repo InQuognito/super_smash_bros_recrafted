@@ -1,4 +1,4 @@
-#function ssbrc:logic/fighters/loop {function:"ssbrc:logic/ui/popup/fighter"}
+#function ssbrc:logic/fighter/loop {function:"ssbrc:logic/ui/popup/fighter"}
 
 execute as @a run function ssbrc:logic/ui/popup/check {name:"altered_beast"}
 bossbar set ssbrc:ui/popup/altered_beast/default players @a[tag=this,tag=altered_beast.is_beast,scores={charge.1=..0},advancements={ssbrc:ui/popup/altered_beast=false}]

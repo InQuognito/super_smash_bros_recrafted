@@ -1527,7 +1527,7 @@
 	],
 	"textures": [
 		{
-			"path": "C:\\Users\\Patri\\AppData\\Roaming\\PrismLauncher\\instances\\1.21-pre1\\.minecraft\\resourcepacks\\super_smash_bros_recrafted_assets\\assets\\ssbrc\\textures\\fighters\\mega_man\\projectiles\\beat\\default\\default.png",
+			"path": "C:\\Users\\Patri\\AppData\\Roaming\\PrismLauncher\\instances\\1.21-pre1\\.minecraft\\resourcepacks\\super_smash_bros_recrafted_assets\\assets\\ssbrc\\textures\\fighter\\mega_man\\projectile\\beat\\default\\default.png",
 			"name": "default.png",
 			"folder": "",
 			"namespace": "",
@@ -1555,7 +1555,7 @@
 			"mode": "bitmap"
 		},
 		{
-			"path": "C:\\Users\\Patri\\AppData\\Roaming\\PrismLauncher\\instances\\1.21-pre1\\.minecraft\\resourcepacks\\super_smash_bros_recrafted_assets\\assets\\ssbrc\\textures\\fighters\\mega_man\\projectiles\\beat\\default\\angry.png",
+			"path": "C:\\Users\\Patri\\AppData\\Roaming\\PrismLauncher\\instances\\1.21-pre1\\.minecraft\\resourcepacks\\super_smash_bros_recrafted_assets\\assets\\ssbrc\\textures\\fighter\\mega_man\\projectile\\beat\\default\\angry.png",
 			"name": "angry.png",
 			"folder": "",
 			"namespace": "",
@@ -1583,7 +1583,7 @@
 			"mode": "bitmap"
 		},
 		{
-			"path": "C:\\Users\\Patri\\AppData\\Roaming\\PrismLauncher\\instances\\1.21-pre1\\.minecraft\\resourcepacks\\super_smash_bros_recrafted_assets\\assets\\ssbrc\\textures\\fighters\\mega_man\\projectiles\\beat\\gold\\gold_default.png",
+			"path": "C:\\Users\\Patri\\AppData\\Roaming\\PrismLauncher\\instances\\1.21-pre1\\.minecraft\\resourcepacks\\super_smash_bros_recrafted_assets\\assets\\ssbrc\\textures\\fighter\\mega_man\\projectile\\beat\\gold\\gold_default.png",
 			"name": "gold_default.png",
 			"folder": "",
 			"namespace": "",
@@ -1612,7 +1612,7 @@
 			"mode": "bitmap"
 		},
 		{
-			"path": "C:\\Users\\Patri\\AppData\\Roaming\\PrismLauncher\\instances\\1.21-pre1\\.minecraft\\resourcepacks\\super_smash_bros_recrafted_assets\\assets\\ssbrc\\textures\\fighters\\mega_man\\projectiles\\beat\\gold\\gold_angry.png",
+			"path": "C:\\Users\\Patri\\AppData\\Roaming\\PrismLauncher\\instances\\1.21-pre1\\.minecraft\\resourcepacks\\super_smash_bros_recrafted_assets\\assets\\ssbrc\\textures\\fighter\\mega_man\\projectile\\beat\\gold\\gold_angry.png",
 			"name": "gold_angry.png",
 			"folder": "",
 			"namespace": "",

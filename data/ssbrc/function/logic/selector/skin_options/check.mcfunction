@@ -1,4 +1,4 @@
-function ssbrc:logic/fighters/get {function:"ssbrc:logic/selector/skin_options/run"}
+function ssbrc:logic/fighter/get {function:"ssbrc:logic/selector/skin_options/run"}
 
 scoreboard players add @s cooldown 5
 

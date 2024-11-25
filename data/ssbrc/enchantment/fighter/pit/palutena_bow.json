@@ -20,7 +20,7 @@
 			{
 				"effect": {
 					"type": "minecraft:run_function",
-					"function": "ssbrc:fighters/pit/logic/abilities/palutena_bow/init"
+					"function": "ssbrc:fighter/pit/logic/abilities/palutena_bow/init"
 				}
 			}
 		]

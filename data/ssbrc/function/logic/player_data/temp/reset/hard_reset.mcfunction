@@ -17,7 +17,7 @@ scoreboard objectives remove log.wins
 scoreboard objectives remove log.win_loss
 
 # Fighters
-function ssbrc:logic/fighters/loop {function:"ssbrc:logic/resets/scoreboards/remove/stat"}
+function ssbrc:logic/fighter/loop {function:"ssbrc:logic/resets/scoreboards/remove/stat"}
 
 # Bonuses
 function ssbrc:logic/bonuses/loop {function:"ssbrc:logic/resets/scoreboards/remove/bonuses"}

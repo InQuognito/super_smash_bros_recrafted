@@ -1,3 +1,3 @@
-function ssbrc:fighters/byleth/menu/loadout/reset
+function ssbrc:fighter/byleth/menu/loadout/reset
 
 tag @s remove weapon_broken

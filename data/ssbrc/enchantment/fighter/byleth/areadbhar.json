@@ -20,7 +20,7 @@
 			{
 				"effect": {
 					"type": "minecraft:run_function",
-					"function": "ssbrc:fighters/byleth/logic/blue_lions/areadbhar/break"
+					"function": "ssbrc:fighter/byleth/logic/blue_lions/areadbhar/break"
 				},
 				"requirements": {
 					"condition": "minecraft:entity_properties",

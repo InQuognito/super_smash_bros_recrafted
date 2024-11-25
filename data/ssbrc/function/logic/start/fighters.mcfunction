@@ -15,9 +15,9 @@ scoreboard players set @s frostbite.cooldown 0
 scoreboard players set @s rotation 0
 scoreboard players set @s shadow.chaos_control 0
 
-function ssbrc:logic/fighters/get {function:"ssbrc:logic/fighters/kit"}
+function ssbrc:logic/fighter/get {function:"ssbrc:logic/fighter/kit"}
 
-function ssbrc:logic/fighters/get {function:"ssbrc:logic/fighters/attributes/defaults"}
-function ssbrc:logic/fighters/effects/default
+function ssbrc:logic/fighter/get {function:"ssbrc:logic/fighter/attributes/defaults"}
+function ssbrc:logic/fighter/effects/default
 
 function ssbrc:logic/pre_game/bonuses/all

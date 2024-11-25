@@ -25,12 +25,12 @@
 					"effects": [
 						{
 							"type": "minecraft:run_function",
-							"function": "ssbrc:logic/fighters/attributes/modifiers/frostbite/increase"
+							"function": "ssbrc:logic/fighter/attributes/modifiers/frostbite/increase"
 						},
 						{
 							"type": "minecraft:play_sound",
 							"sound": {
-								"sound_id":"ssbrc:fighters.joker.freeze_boost.hit"
+								"sound_id":"ssbrc:fighter.joker.freeze_boost.hit"
 							},
 							"volume": 1,
 							"pitch": 1

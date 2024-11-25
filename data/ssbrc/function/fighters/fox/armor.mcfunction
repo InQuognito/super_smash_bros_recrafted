@@ -1,3 +1,0 @@
-item modify entity @s armor.chest ssbrc:fighters/no_passives
-
-item modify entity @s armor.legs {"function":"minecraft:set_lore","entity":"this","lore":[{"translate":"ssbrc.fighter.fox.fire_fox","color":"yellow","bold":false,"italic":false,"underlined":true},{"translate":"ssbrc.tooltip.hold_key","color":"gray","bold":false,"italic":false,"extra":[{"keybind":"key.sneak","color":"gray","bold":false,"italic":false},{"translate":"ssbrc.fighter.fox.fire_fox.description.1","color":"gray","bold":false,"italic":false}]},{"translate":"ssbrc.tooltip.effect.burning","color":"gray","bold":false,"italic":false}],"mode":"append"}

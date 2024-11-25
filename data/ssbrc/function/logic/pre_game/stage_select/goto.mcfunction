@@ -9,12 +9,12 @@ scoreboard players set @s duration.2 1
 scoreboard players set @s duration.3 1
 
 function ssbrc:logic/player_data/temp/copy/check
-execute if data storage ssbrc:temp player.temp_data{fighter:"greninja"} if predicate ssbrc:fighters/pokemon/shiny_chance run function ssbrc:logic/fighters/pokemon/shiny with storage ssbrc:temp player.temp_data
-execute if data storage ssbrc:temp player.temp_data{fighter:"jigglypuff"} if predicate ssbrc:fighters/pokemon/shiny_chance run function ssbrc:logic/fighters/pokemon/shiny with storage ssbrc:temp player.temp_data
-execute if data storage ssbrc:temp player.temp_data{fighter:"pikachu"} if predicate ssbrc:fighters/pokemon/shiny_chance run function ssbrc:logic/fighters/pokemon/shiny with storage ssbrc:temp player.temp_data
-execute if data storage ssbrc:temp player.temp_data{fighter:"pokemon_trainer"} if predicate ssbrc:fighters/pokemon/shiny_chance run function ssbrc:logic/fighters/pokemon/shiny with storage ssbrc:temp player.temp_data
+execute if data storage ssbrc:temp player.temp_data{fighter:"greninja"} if predicate ssbrc:fighter/pokemon/shiny_chance run function ssbrc:logic/fighter/pokemon/shiny with storage ssbrc:temp player.temp_data
+execute if data storage ssbrc:temp player.temp_data{fighter:"jigglypuff"} if predicate ssbrc:fighter/pokemon/shiny_chance run function ssbrc:logic/fighter/pokemon/shiny with storage ssbrc:temp player.temp_data
+execute if data storage ssbrc:temp player.temp_data{fighter:"pikachu"} if predicate ssbrc:fighter/pokemon/shiny_chance run function ssbrc:logic/fighter/pokemon/shiny with storage ssbrc:temp player.temp_data
+execute if data storage ssbrc:temp player.temp_data{fighter:"pokemon_trainer"} if predicate ssbrc:fighter/pokemon/shiny_chance run function ssbrc:logic/fighter/pokemon/shiny with storage ssbrc:temp player.temp_data
 
-function ssbrc:logic/fighters/armor/get
+function ssbrc:logic/fighter/armor/get
 
 function ssbrc:logic/resets/scoreboards/duration
 

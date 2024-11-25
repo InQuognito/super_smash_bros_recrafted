@@ -42,7 +42,7 @@
 					"effects": [
 						{
 							"type": "minecraft:run_function",
-							"function": "ssbrc:fighters/alucard/logic/abilities/alucard_sword/hit"
+							"function": "ssbrc:fighter/alucard/logic/abilities/alucard_sword/hit"
 						},
 						{
 							"type": "minecraft:apply_mob_effect",

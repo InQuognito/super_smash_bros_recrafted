@@ -1,1 +1,1 @@
-$function ssbrc:fighters/$(name)/menu/skins/options
+$function ssbrc:fighter/$(name)/menu/skin/options

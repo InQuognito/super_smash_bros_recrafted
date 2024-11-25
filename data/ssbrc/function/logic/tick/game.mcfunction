@@ -33,10 +33,7 @@ scoreboard players reset @a flag.break_shield
 kill @e[type=#minecraft:arrows,nbt={inGround:1b}]
 
 # Maps
-function ssbrc:logic/tick/stages/after_start with storage ssbrc:temp game.stage
+function ssbrc:logic/tick/stage/after_start with storage ssbrc:temp game.stage
 
 # Kill Tridents On Ground
-execute as @e[type=minecraft:item,nbt={Item:{id:"minecraft:trident"}}] run function ssbrc:logic/tick/projectiles/tridents
-
-# Banned From Having More Than One
-execute as @a[predicate=ssbrc:fighters/kits/trident] run function ssbrc:logic/fighters/restore_items/trident_count
+execute as @e[type=minecraft:item,nbt={Item:{id:"minecraft:trident"}}] run function ssbrc:logic/tick/projectile/tridents

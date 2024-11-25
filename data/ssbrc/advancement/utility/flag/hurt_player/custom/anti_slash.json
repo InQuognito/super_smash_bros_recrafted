@@ -22,6 +22,6 @@
 		}
 	},
 	"rewards": {
-		"function": "ssbrc:fighters/sora/logic/drive_forms/anti/slash/activate"
+		"function": "ssbrc:fighter/sora/logic/drive_forms/anti/slash/activate"
 	}
 }

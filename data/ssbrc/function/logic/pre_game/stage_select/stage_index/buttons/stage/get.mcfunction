@@ -1,4 +1,4 @@
-$data modify storage ssbrc:data ui merge from storage ssbrc:data stages.$(name)
+$data modify storage ssbrc:data ui merge from storage ssbrc:data stage.$(name)
 
 $data modify storage ssbrc:data ui merge value {slot:$(slot)}
 

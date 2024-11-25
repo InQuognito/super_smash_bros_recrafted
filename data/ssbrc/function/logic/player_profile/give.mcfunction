@@ -13,7 +13,7 @@ scoreboard players operation deaths temp = @s stats.deaths
 execute unless score kill_death.decimal temp matches 10.. run data modify storage ssbrc:temp page append value '["",{"translate":"ssbrc.statistics.kills","color":"gray"},{"score":{"name":"kills","objective":"temp"},"color":"blue"},{"text":"\\n"},{"translate":"ssbrc.statistics.deaths","color":"gray"},{"score":{"name":"deaths","objective":"temp"},"color":"blue"},{"text":"\\n"},{"translate":"ssbrc.statistics.kill_death","color":"gray"},{"score":{"name":"kill_death.integer","objective":"temp"},"color":"blue"},{"translate":".0"color":"blue"},{"score":{"name":"kill_death.decimal","objective":"temp"},"color":"blue"}]'
 execute if score kill_death.decimal temp matches 10.. run data modify storage ssbrc:temp page append value '["",{"translate":"ssbrc.statistics.kills","color":"gray"},{"score":{"name":"kills","objective":"temp"},"color":"blue"},{"text":"\\n"},{"translate":"ssbrc.statistics.deaths","color":"gray"},{"score":{"name":"deaths","objective":"temp"},"color":"blue"},{"text":"\\n"},{"translate":"ssbrc.statistics.kill_death","color":"gray"},{"score":{"name":"kill_death.integer","objective":"temp"},"color":"blue"},{"translate":".","color":"blue"},{"score":{"name":"kill_death.decimal","objective":"temp"},"color":"blue"}]'
 
-#function ssbrc:logic/fighters/loop {function:"logic/player_profile/fighter"}
+#function ssbrc:logic/fighter/loop {function:"logic/player_profile/fighter"}
 
 data modify block 0 17 0 front_text.messages[0] set value {"nbt":"page[]","storage":"ssbrc:temp","interpret":true,"separator":""}
 data modify storage ssbrc:temp book.pages append from block 0 17 0 front_text.messages[0]

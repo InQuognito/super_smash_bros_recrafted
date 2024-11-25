@@ -34,7 +34,7 @@
 				"affected": "attacker",
 				"effect": {
 					"type": "minecraft:run_function",
-					"function": "ssbrc:fighters/zelda/logic/obsidian/hit"
+					"function": "ssbrc:fighter/zelda/logic/obsidian/hit"
 				}
 			}
 		]

@@ -1,7 +1,7 @@
 tag @s add stage_icon
 tag @s add selectable
 
-$item replace entity @s contents with minecraft:sugar[minecraft:item_model="ssbrc:stage_icon/$(name)"]
+$item replace entity @s contents with minecraft:sugar[minecraft:item_model="ssbrc:stage/$(name)/icon"]
 
 $data merge entity @s {CustomName:"$(name)",brightness:{sky:13,block:13}}
 

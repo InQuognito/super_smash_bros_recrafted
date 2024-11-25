@@ -4,15 +4,15 @@ kill @e[type=minecraft:text_display,tag=lobby.action]
 # Blank Diorama
 place template ssbrc:stage_diorama/random -48 8 35
 
-function ssbrc:logic/stages/loop {operation:"execute summon minecraft:text_display run function ssbrc:logic/pre_game/stage_select/vote_counter/init"}
+function ssbrc:logic/stage/loop {operation:"execute summon minecraft:text_display run function ssbrc:logic/pre_game/stage_select/vote_counter/init"}
 
 execute summon minecraft:text_display run function ssbrc:logic/pre_game/stage_select/vote_counter/init {name:"random_stage"}
 
 execute positioned -27.5 8.5 11.5 rotated 90.0 0.0 run function ssbrc:logic/pre_game/stage_select/featured/start
 
-execute positioned -43.5 8.5 22.5 rotated 180.0 0.0 run function ssbrc:logic/pre_game/stage_select/featured/display/fixed with storage ssbrc:data stages.battlefield
-execute positioned -46.5 8.5 24.5 rotated 180.0 0.0 run function ssbrc:logic/pre_game/stage_select/featured/display/fixed with storage ssbrc:data stages.big_battlefield
-execute positioned -31.5 8.5 22.5 rotated 180.0 0.0 run function ssbrc:logic/pre_game/stage_select/featured/display/fixed with storage ssbrc:data stages.final_destination
+execute positioned -43.5 8.5 22.5 rotated 180.0 0.0 run function ssbrc:logic/pre_game/stage_select/featured/display/fixed with storage ssbrc:data stage.battlefield
+execute positioned -46.5 8.5 24.5 rotated 180.0 0.0 run function ssbrc:logic/pre_game/stage_select/featured/display/fixed with storage ssbrc:data stage.big_battlefield
+execute positioned -31.5 8.5 22.5 rotated 180.0 0.0 run function ssbrc:logic/pre_game/stage_select/featured/display/fixed with storage ssbrc:data stage.final_destination
 execute positioned -28.5 8.5 24.5 rotated 180.0 0.0 run function ssbrc:logic/pre_game/stage_select/featured/display/random
 
 summon minecraft:text_display -37.5 8.25 7.5 {Tags:["stage_index"],text:'[{"text":"","color":"gold"},"✪ ",{"translate":"ssbrc.stage_select.stage_index"}," ✪"]',billboard:"center",alignment:"center"}
