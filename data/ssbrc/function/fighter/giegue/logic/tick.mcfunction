@@ -2,7 +2,7 @@
 function ssbrc:logic/item/cooldown/display/check {item:"pk_freeze"}
 
 # PK Beam
-execute if entity @s[scores={charge.1=1..}] anchored eyes positioned ^ ^ ^1 run function ssbrc:fighter/giegue/logic/abilities/pk_beam/charge
+execute if score @s charge.1 matches 1.. anchored eyes positioned ^ ^ ^1 run function ssbrc:fighter/giegue/logic/abilities/pk_beam/charge
 
 function ssbrc:logic/item/cooldown/display/check {item:"pk_beam"}
 
