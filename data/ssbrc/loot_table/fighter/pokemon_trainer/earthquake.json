@@ -61,7 +61,7 @@
 							"function": "minecraft:set_components",
 							"components": {
 								"minecraft:max_damage": 60,
-								"minecraft:item_model": "ssbrc:common/pokemon/type_icon/ground/default"
+								"minecraft:item_model": "ssbrc:common/pokemon/type_icon/ground"
 							}
 						},
 						{

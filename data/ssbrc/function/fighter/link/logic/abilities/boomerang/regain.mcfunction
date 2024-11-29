@@ -1,4 +1,4 @@
-function ssbrc:logic/item/give/default {item:"boomerang",type:"skin"}
+loot give @s loot ssbrc:fighter/link/boomerang
 
 kill @n[type=minecraft:item_display,tag=link.boomerang,predicate=ssbrc:id_match]
 

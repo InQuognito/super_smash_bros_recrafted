@@ -48,7 +48,7 @@ def create_item_modifier(skin, fighter, path):
 			js_write(file, tab(1) + '{')
 			js_write(file, tab(2) + qm + 'function' + sep_s + 'minecraft:set_components' + suf_s)
 			js_write(file, tab(2) + qm + 'components' + suf_e)
-			if has_forms(fighter):
+			if has_forms(fighter) and forms_isolated_to(fighter) != 'body':
 				if fighter == 'pokemon_trainer' and skin == 'shiny':
 					js_write(file, tab(3) + qm + 'minecraft:item_model' + sep_s + f'ssbrc:fighter/{fighter}/skin/default/' + ssbrc.fighter[fighter]['forms'][0] + qm)
 				else:

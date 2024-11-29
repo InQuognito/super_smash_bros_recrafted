@@ -73,7 +73,7 @@
 							"function": "minecraft:set_components",
 							"components": {
 								"minecraft:max_damage": 700,
-								"minecraft:item_model": "ssbrc:common/pokemon/type_icon/ghost/default"
+								"minecraft:item_model": "ssbrc:common/pokemon/type_icon/ghost"
 							}
 						},
 						{

@@ -12,7 +12,7 @@
 	{
 		"function": "minecraft:set_components",
 		"components": {
-			"minecraft:item_model": "ssbrc:fighter/shovel_knight/skin/default"
+			"minecraft:item_model": "ssbrc:fighter/shovel_knight/skin/default/default"
 		}
 	}
 ]

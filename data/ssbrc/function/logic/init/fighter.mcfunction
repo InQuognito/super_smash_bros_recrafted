@@ -123,24 +123,24 @@ data modify storage ssbrc:data fighter set value {\
 					"model": "ssbrc:fighter/alucard/item/alucard_shield/lords_of_shadow"\
 				},\
 			},\
-			"alucard_sword": {\
+			"sword": {\
 				"default": {\
-					"name": "ssbrc.fighter.alucard.alucard_sword.default",\
-					"tag": "alucard_sword",\
+					"name": "ssbrc.fighter.alucard.sword.default",\
+					"tag": "sword",\
 					"color": "white",\
-					"model": "ssbrc:fighter/alucard/item/alucard_sword/default"\
+					"model": "ssbrc:fighter/alucard/item/sword/default"\
 				},\
 				"gold": {\
-					"name": "ssbrc.fighter.alucard.alucard_sword.default",\
-					"tag": "alucard_sword",\
+					"name": "ssbrc.fighter.alucard.sword.default",\
+					"tag": "sword",\
 					"color": "gold",\
-					"model": "ssbrc:fighter/alucard/item/alucard_sword/gold"\
+					"model": "ssbrc:fighter/alucard/item/sword/gold"\
 				},\
 				"lords_of_shadow": {\
-					"name": "ssbrc.fighter.alucard.alucard_sword.lords_of_shadow",\
-					"tag": "alucard_sword",\
+					"name": "ssbrc.fighter.alucard.sword.lords_of_shadow",\
+					"tag": "sword",\
 					"color": "dark_gray",\
-					"model": "ssbrc:fighter/alucard/item/alucard_sword/lords_of_shadow"\
+					"model": "ssbrc:fighter/alucard/item/sword/lords_of_shadow"\
 				},\
 			},\
 			"blood_metamorphosis": {\
@@ -1775,6 +1775,7 @@ data modify storage ssbrc:data fighter set value {\
 		"page": 2,\
 		"miiverse_posts": 1,\
 		"default_form": "default",\
+		"forms": "true",\
 		"color": "white",\
 		"alignment": "hero",\
 		"skin_count": 3,\
@@ -2089,30 +2090,30 @@ data modify storage ssbrc:data fighter set value {\
 			}\
 		},\
 		"items": {\
-			"black_sword": {\
+			"sword": {\
 				"default": {\
-					"name": "ssbrc.fighter.shadow.black_sword.default",\
-					"tag": "black_sword",\
+					"name": "ssbrc.fighter.shadow.sword.default",\
+					"tag": "sword",\
 					"color": "dark_gray",\
-					"model": "ssbrc:fighter/shadow/item/black_sword/default"\
+					"model": "ssbrc:fighter/shadow/item/sword/default"\
 				},\
 				"gold": {\
-					"name": "ssbrc.fighter.shadow.black_sword.default",\
-					"tag": "black_sword",\
+					"name": "ssbrc.fighter.shadow.sword.default",\
+					"tag": "sword",\
 					"color": "gold",\
-					"model": "ssbrc:fighter/shadow/item/black_sword/gold"\
+					"model": "ssbrc:fighter/shadow/item/sword/gold"\
 				},\
 				"yellow_android": {\
-					"name": "ssbrc.fighter.shadow.black_sword.default",\
-					"tag": "black_sword",\
+					"name": "ssbrc.fighter.shadow.sword.default",\
+					"tag": "sword",\
 					"color": "dark_gray",\
-					"model": "ssbrc:fighter/shadow/item/black_sword/default"\
+					"model": "ssbrc:fighter/shadow/item/sword/default"\
 				},\
 				"sir_lancelot": {\
-					"name": "ssbrc.fighter.shadow.black_sword.sir_lancelot",\
-					"tag": "black_sword",\
+					"name": "ssbrc.fighter.shadow.sword.sir_lancelot",\
+					"tag": "sword",\
 					"color": "gray",\
-					"model": "ssbrc:fighter/shadow/item/black_sword/sir_lancelot"\
+					"model": "ssbrc:fighter/shadow/item/sword/sir_lancelot"\
 				},\
 			},\
 		}\
@@ -2126,6 +2127,7 @@ data modify storage ssbrc:data fighter set value {\
 		"page": 3,\
 		"miiverse_posts": 1,\
 		"default_form": "default",\
+		"forms": "true",\
 		"color": "dark_aqua",\
 		"alignment": "hero",\
 		"skin_count": 4,\

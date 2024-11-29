@@ -59,11 +59,11 @@ def has_forms(fighter):
 		return True
 	return False
 
-def forms_isolated(fighter):
-	'''Returns true if the specified fighter has isolated forms, otherwise return false.'''
+def forms_isolated_to(fighter):
+	'''Returns true if the specified fighter has forms, otherwise return false.'''
 	if 'forms_isolated_to' in ssbrc.fighter[fighter].keys():
-		return True
-	return False
+		return ssbrc.fighter[fighter]['forms_isolated_to']
+	return 'none'
 
 def count_forms(fighter):
 	'''Returns the skin count of the specified fighter.'''

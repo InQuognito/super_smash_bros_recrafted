@@ -5,8 +5,6 @@ execute anchored eyes positioned ^ ^ ^1 summon minecraft:marker run function ssb
 advancement grant @s[scores={charge.output=10..}] only ssbrc:ui/popup/dark_samus
 scoreboard players set @s charge.output 0
 
-function ssbrc:logic/item/init/slot {item:"phazon_beam",slot:"weapon.mainhand",type:"variant"}
-
 scoreboard players add @s cooldown 10
 
 function ssbrc:logic/fighter/ability/deinit

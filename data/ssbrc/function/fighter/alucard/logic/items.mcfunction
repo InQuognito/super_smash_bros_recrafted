@@ -1,4 +1,4 @@
-function ssbrc:logic/item/init/slot {item:"alucard_sword",slot:"hotbar.0",type:"skin"}
+function ssbrc:logic/item/init/slot {item:"sword",slot:"hotbar.0",type:"skin"}
 
 execute unless items entity @s[scores={cooldown.2=..0}] container.* minecraft:nether_star[minecraft:custom_data~{item:"holy_water"}] run function ssbrc:logic/item/init/slot {item:"holy_water",slot:"hotbar.1",type:"skin"}
 

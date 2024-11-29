@@ -67,7 +67,7 @@
 							"function": "minecraft:set_components",
 							"components": {
 								"minecraft:max_damage": 90,
-								"minecraft:item_model": "ssbrc:common/pokemon/type_icon/fire/default"
+								"minecraft:item_model": "ssbrc:common/pokemon/type_icon/fire"
 							}
 						},
 						{
