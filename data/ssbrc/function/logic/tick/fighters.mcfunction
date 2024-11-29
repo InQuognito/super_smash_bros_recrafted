@@ -59,7 +59,7 @@ execute if entity @s[tag=immobile.pivot.queue,tag=!immobile.pivot,predicate=!ssb
 scoreboard players add @s[tag=armor_break] armor_break 1
 execute if score @s armor_break matches 60.. run function ssbrc:fighter/pokemon_trainer/logic/charizard/rock_smash/deactivate
 
-execute if entity @s[tag=leech_seed] run function ssbrc:fighter/pokemon_trainer/logic/ivysaur/leech_seed/calculate
+execute if score @s leech_seed.timer matches 1.. run function ssbrc:fighter/pokemon_trainer/logic/ivysaur/leech_seed/calculate
 execute if score @s leech_seed.stacks matches 1.. run function ssbrc:fighter/pokemon_trainer/logic/ivysaur/leech_seed/calculate_healing
 
 scoreboard players remove @s[scores={shadow.chaos_control=1..}] shadow.chaos_control 1
