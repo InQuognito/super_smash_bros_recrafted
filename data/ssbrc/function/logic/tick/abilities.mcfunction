@@ -81,8 +81,8 @@ execute if entity @s[tag=guardian_orbitar] run return run function ssbrc:fighter
 # Pokémon Trainer
 execute if entity @s[tag=flare_blitz] run return run function ssbrc:fighter/pokemon_trainer/logic/charizard/flare_blitz/tick
 execute if entity @s[tag=poison_powder] run return run function ssbrc:fighter/pokemon_trainer/logic/ivysaur/poison_powder/tick
-execute if entity @s[tag=leech_seed] run return run function ssbrc:fighter/pokemon_trainer/logic/ivysaur/leech_seed/tick/projectile
-execute if entity @s[tag=leech_seed.healing_orb] run return run function ssbrc:fighter/pokemon_trainer/logic/ivysaur/leech_seed/tick/healing_orb
+execute if entity @s[tag=leech_seed] run return run function ssbrc:fighter/pokemon_trainer/logic/ivysaur/leech_seed/tick
+execute if entity @s[tag=leech_seed.healing_orb] run return run function ssbrc:fighter/pokemon_trainer/logic/ivysaur/leech_seed/healing_orb/tick
 execute if entity @s[tag=water_gun] run return run function ssbrc:fighter/pokemon_trainer/logic/squirtle/water_gun/tick
 
 # R.O.B.
