@@ -1743,7 +1743,7 @@ data modify storage ssbrc:data fighter set value {\
 		"movement_speed": 0.1,\
 		"page": 2,\
 		"miiverse_posts": 1,\
-		"default_form": "default",\
+		"default_form": "wings",\
 		"forms": "true",\
 		"color": "white",\
 		"alignment": "hero",\
