@@ -1,4 +1,4 @@
-function ssbrc:logic/teams/count/this
+function ssbrc:logic/game/team/count/this
 scoreboard players operation team temp = @s team
 
 execute if score team_count temp matches 2.. run scoreboard players set @s armistice 1

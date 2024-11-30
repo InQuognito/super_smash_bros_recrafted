@@ -1,4 +1,4 @@
-function ssbrc:logic/player_data/temp/copy/check
+function ssbrc:logic/player/data/temp/copy/check
 
 tag @s add self
 

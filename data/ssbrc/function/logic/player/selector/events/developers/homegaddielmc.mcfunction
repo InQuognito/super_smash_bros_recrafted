@@ -1,0 +1,1 @@
+tellraw @s [{"translate":"ssbrc.lobby.credits.developer_bio.homegaddielmc","color":"white"},{"translate":"ssbrc.lobby.credits.developer_bio.yt_link","color":"red","clickEvent":{"action":"open_url","value":"https://www.youtube.com/channel/UCFCE01AX_k6FsNSLH1aTkbw"}}]

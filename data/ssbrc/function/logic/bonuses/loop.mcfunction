@@ -1,3 +1,4 @@
+# Once Per Match
 $function $(function) {bonus:"8_player_match",type:"single"}
 
 $function $(function) {bonus:"acrobat",type:"single"}
@@ -46,8 +47,7 @@ $function $(function) {bonus:"wac_coordinator",type:"single"}
 
 $function $(function) {bonus:"year_long_battle",type:"single"}
 
-
-
+# Many Per Match
 $function $(function) {bonus:"765o",type:"multiple"}
 
 $function $(function) {bonus:"bank_shot",type:"multiple"}

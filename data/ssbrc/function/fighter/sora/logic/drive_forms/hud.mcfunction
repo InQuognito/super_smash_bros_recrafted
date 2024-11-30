@@ -14,6 +14,6 @@ execute if score percentage temp matches 71..80 run data modify storage ssbrc:hu
 execute if score percentage temp matches 81..90 run data modify storage ssbrc:hud sora.drive set value '[{"text":"\\u25ae\\u25ae\\u25ae\\u25ae\\u25ae\\u25ae\\u25ae\\u25ae\\u25ae","color":"yellow"},{"text":"\\u25ae","color":"dark_gray"}]'
 execute if score percentage temp matches 91.. run data modify storage ssbrc:hud sora.drive set value '{"text":"\\u25ae\\u25ae\\u25ae\\u25ae\\u25ae\\u25ae\\u25ae\\u25ae\\u25ae\\u25ae","color":"yellow"}'
 
-function ssbrc:logic/player_data/temp/set_storage/get {input:"ssbrc:hud sora.drive",output:"hud.2"}
+function ssbrc:logic/player/data/temp/set_storage/get {input:"ssbrc:hud sora.drive",output:"hud.2"}
 
 scoreboard players operation @s hud = hud_frequency const

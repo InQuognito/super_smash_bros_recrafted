@@ -1,0 +1,1 @@
+tellraw @s [{"translate":"ssbrc.lobby.credits.developer_bio.nessispsirockin","color":"white"},{"translate":"ssbrc.lobby.credits.developer_bio.pmc_link","color":"aqua","clickEvent":{"action":"open_url","value":"https://www.planetminecraft.com/member/team_recrafted"}}]

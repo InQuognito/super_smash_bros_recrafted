@@ -4,27 +4,26 @@ data modify storage ssbrc:data player.temp_id set value {}
 function ssbrc:logic/init/fighter
 function ssbrc:logic/init/stage
 
-function ssbrc:logic/resets/scoreboards/stats
-function ssbrc:logic/resets/scoreboards/remove
-function ssbrc:logic/resets/scoreboards/create
-function ssbrc:logic/resets/scoreboards/constants
-function ssbrc:logic/resets/scoreboards/variables
+function ssbrc:logic/game/data/scoreboards/remove
+function ssbrc:logic/game/data/scoreboards/create
+function ssbrc:logic/game/data/scoreboards/constants
+function ssbrc:logic/game/data/scoreboards/variables
 
 scoreboard objectives setdisplay below_name
 scoreboard objectives setdisplay list
 scoreboard objectives setdisplay sidebar
 
-execute if score singleplayer options matches 1 run function ssbrc:logic/options/presets/singleplayer/off
+execute if score singleplayer options matches 1 run function ssbrc:logic/game/options/presets/singleplayer/off
 execute if score sudden_death options matches 1 run function ssbrc:logic/post_game/sudden_death/reset
 
-function ssbrc:logic/resets/options
+function ssbrc:logic/game/options/reset
 
-function ssbrc:logic/resets/advancements
-function ssbrc:logic/resets/bossbars
-function ssbrc:logic/resets/data
-function ssbrc:logic/resets/gamerules
-function ssbrc:logic/resets/schedule
-function ssbrc:logic/resets/teams/reset
+advancement revoke @a through ssbrc:utility/root
+
+function ssbrc:logic/game/data/bossbars
+function ssbrc:logic/game/data/gamerules
+function ssbrc:logic/game/data/schedule
+function ssbrc:logic/game/team/reset
 
 kill @e[type=!minecraft:player,tag=!smithed.strict,tag=!smithed.entity]
 summon minecraft:marker 0.0 0.0 0.0 {Tags:["math"]}
@@ -53,4 +52,4 @@ execute unless score num hard_resets matches -2147483648..2147483647 run scorebo
 scoreboard players set game_stage temp -1
 
 function ssbrc:logic/timer
-function ssbrc:logic/resets/lobby
+function ssbrc:logic/lobby/reset

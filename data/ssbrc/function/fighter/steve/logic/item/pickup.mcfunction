@@ -1,4 +1,4 @@
-function ssbrc:logic/player_data/temp/copy/check
+function ssbrc:logic/player/data/temp/copy/check
 
 execute unless data storage ssbrc:temp player.temp_data{fighter:"steve"} run function ssbrc:fighter/steve/logic/item/discard
 execute if data storage ssbrc:temp player.temp_data{fighter:"steve"} run function ssbrc:fighter/steve/logic/item/check

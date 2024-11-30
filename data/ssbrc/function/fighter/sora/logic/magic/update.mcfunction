@@ -10,6 +10,6 @@ scoreboard players operation magic.available.counter temp = magic.available temp
 
 function ssbrc:fighter/sora/logic/magic/hud/check
 
-function ssbrc:logic/player_data/temp/set_storage/get {input:"ssbrc:hud sora.magic",output:"hud.1"}
+function ssbrc:logic/player/data/temp/set_storage/get {input:"ssbrc:hud sora.magic",output:"hud.1"}
 
 scoreboard players operation @s hud = hud_frequency const

@@ -5,7 +5,7 @@ function ssbrc:logic/fighter/effects/mobility/immobilize {type:"default",duratio
 
 effect give @s minecraft:resistance infinite 255 true
 
-function ssbrc:logic/player_data/temp/set {mode:"store",key:"form",value:"kaclang"}
+function ssbrc:logic/player/data/temp/set {mode:"store",key:"form",value:"kaclang"}
 function ssbrc:logic/fighter/armor/update/check
 
 function ssbrc:fighter/hero/logic/magic/disable

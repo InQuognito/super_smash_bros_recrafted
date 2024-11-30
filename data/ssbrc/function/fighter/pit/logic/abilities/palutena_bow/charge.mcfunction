@@ -1,7 +1,8 @@
-#playsound ssbrc:fighter.pit.palutena_bow.charge player @a
+execute if score @s charge.output matches 1 run playsound ssbrc:fighter.pit.palutena_bow.charge player @a
 
 item replace entity @s weapon.offhand with minecraft:air
-function ssbrc:logic/item/component/update/slot_known {mode:"remove",amount:1,slot_string:"weapon.mainhand",component:"minecraft:custom_model_data",output_path:"model temp"}
+function ssbrc:logic/item/init/slot {item:"palutena_bow",slot:"weapon.mainhand",type:"variant"}
 
 tag @s remove palutena_bow.split
-tag @s add palutena_bow.pulling
+
+advancement revoke @s only ssbrc:utility/use_item/fighter/pit/palutena_bow

@@ -8,4 +8,4 @@ scoreboard players set @s duration.3 1
 
 $function ssbrc:fighter/$(name)/restore_items
 
-function ssbrc:logic/resets/scoreboards/duration
+function ssbrc:logic/game/data/scoreboards/duration

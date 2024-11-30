@@ -7,7 +7,7 @@ clear @s minecraft:nether_star[minecraft:custom_data~{group:"team_flag"}]
 
 clear @s minecraft:written_book
 
-function ssbrc:logic/resets/triggers
+function ssbrc:logic/game/data/triggers
 
 title @s actionbar ""
 

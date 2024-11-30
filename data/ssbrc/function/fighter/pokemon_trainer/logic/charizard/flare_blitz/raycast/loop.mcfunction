@@ -1,4 +1,4 @@
-execute positioned ~ ~0.5 ~ positioned ^ ^ ^0.5 run function ssbrc:logic/fighter/checks/raycast/block
+execute positioned ~ ~0.5 ~ positioned ^ ^ ^0.5 run function ssbrc:logic/fighter/check/raycast/block
 execute if score ray_abort temp matches 1 run function ssbrc:fighter/pokemon_trainer/logic/charizard/flare_blitz/raycast/abort
 
 execute unless score ray_abort temp matches 1 run function ssbrc:fighter/pokemon_trainer/logic/charizard/flare_blitz/raycast/proceed

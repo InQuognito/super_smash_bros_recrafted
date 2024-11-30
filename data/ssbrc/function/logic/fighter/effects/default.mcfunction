@@ -1,4 +1,4 @@
-function ssbrc:logic/player_data/temp/copy/check
+function ssbrc:logic/player/data/temp/copy/check
 
 effect clear @s
 effect give @s minecraft:saturation infinite 255 true

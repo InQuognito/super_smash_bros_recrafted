@@ -1,6 +1,6 @@
 execute store result score @s health run data get entity @s Health
 
-function ssbrc:logic/player_data/temp/copy/check
+function ssbrc:logic/player/data/temp/copy/check
 
 execute if data storage ssbrc:temp player.temp_data{fighter:"jigglypuff",form:"rest"} if predicate ssbrc:random_chance/15 run function ssbrc:fighter/jigglypuff/logic/abilities/rest/deactivate
 execute if data storage ssbrc:temp player.temp_data{fighter:"link"} if items entity @s[scores={health=..39}] container.* minecraft:nether_star[minecraft:custom_data~{item:"master_sword",awakened:"true"}] run function ssbrc:fighter/link/logic/master_sword/disable

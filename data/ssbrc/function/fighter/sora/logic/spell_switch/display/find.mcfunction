@@ -1,4 +1,4 @@
-function ssbrc:logic/player_data/temp/copy/check
+function ssbrc:logic/player/data/temp/copy/check
 
 execute unless data storage ssbrc:temp player.temp_data{form:"wisdom"} run scoreboard players reset wisdom_form temp
 execute if data storage ssbrc:temp player.temp_data{form:"wisdom"} run scoreboard players set wisdom_form temp 1

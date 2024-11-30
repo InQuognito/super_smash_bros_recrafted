@@ -1,6 +1,6 @@
 function ssbrc:logic/pre_game/fighter_select/count_players
 
-function ssbrc:logic/player_data/temp/copy/check
+function ssbrc:logic/player/data/temp/copy/check
 
 execute if data storage ssbrc:temp player.temp_data{fighter:"byleth"} if entity @s[tag=weapon_broken] run function ssbrc:fighter/byleth/logic/get_kill/player
 execute if data storage ssbrc:temp player.temp_data{fighter:"ganondorf"} run function ssbrc:fighter/ganondorf/logic/stalfos/activate
@@ -14,4 +14,4 @@ execute if data storage ssbrc:temp player.temp_data{fighter:"zelda"} run functio
 
 execute if score @p[tag=ivysaur,scores={flag.dead=1..}] id = @s leech_seed run function ssbrc:fighter/pokemon_trainer/logic/ivysaur/leech_seed/reset
 
-function ssbrc:logic/stocks/get_kill
+function ssbrc:logic/fighter/get_kill

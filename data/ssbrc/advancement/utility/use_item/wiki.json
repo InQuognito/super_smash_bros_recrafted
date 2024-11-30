@@ -25,6 +25,6 @@
 		}
 	},
 	"rewards": {
-		"function": "ssbrc:logic/selector/wiki"
+		"function": "ssbrc:logic/player/selector/wiki"
 	}
 }

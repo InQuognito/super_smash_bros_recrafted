@@ -6,6 +6,3 @@ execute if entity @s[tag=guardian_orbitars,predicate=!ssbrc:flag/sneaking] run f
 # Wings
 execute if score @s flight_time matches 5000.. run function ssbrc:fighter/pit/logic/abilities/wings/burn
 execute if score @s timer matches 1.. run function ssbrc:fighter/pit/logic/abilities/wings/regain/timer
-
-tag @s[advancements={ssbrc:utility/use_item/fighter/pit/palutena_bow=false}] remove palutena_bow.pulling
-advancement revoke @s only ssbrc:utility/use_item/fighter/pit/palutena_bow

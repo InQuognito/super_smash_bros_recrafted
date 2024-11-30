@@ -9,7 +9,7 @@ function ssbrc:logic/fighter/effects/mobility/immobilize {type:"default",duratio
 effect give @s minecraft:blindness infinite 255 true
 effect give @s minecraft:regeneration infinite 2 true
 
-function ssbrc:logic/player_data/temp/set {mode:"store",key:"form",value:"rest"}
+function ssbrc:logic/player/data/temp/set {mode:"store",key:"form",value:"rest"}
 function ssbrc:logic/fighter/armor/update/check
 
 playsound ssbrc:fighter.jigglypuff.rest.activate player @a

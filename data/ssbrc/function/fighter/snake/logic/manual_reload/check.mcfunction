@@ -1,4 +1,4 @@
-execute as @n[type=minecraft:item] run function ssbrc:fighter/snake/logic/manual_reload/select_weapon
+execute as @n[type=minecraft:item] store result score weapon_to_reload temp run function ssbrc:fighter/snake/logic/manual_reload/select_weapon
 
 execute if score weapon_to_reload temp matches 1 if entity @s[scores={weapon_2.mags=1..,weapon_2.ammo=0}] run function ssbrc:fighter/snake/logic/abilities/psg1/reload/start
 execute if score weapon_to_reload temp matches 2 if entity @s[scores={weapon_3.mags=1..,weapon_3.ammo=..23}] run function ssbrc:fighter/snake/logic/abilities/famas/reload/start

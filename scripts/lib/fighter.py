@@ -93,7 +93,7 @@ def get_random_fighter():
 	'''Initializes the getter function that can be used to check for the desired fighter.'''
 	fighter_count = str(len(ssbrc.fighter) - 1)
 
-	with open('data\\ssbrc\\function\\logic\\fighter\\get_random.mcfunction', 'w') as file:
+	with open('data\\ssbrc\\function\\logic\\fighter\\get\\random.mcfunction', 'w') as file:
 		warn_builder(file)
 
 		js_write(file, f'execute store result score random.output temp run random value 1..{fighter_count}\n')
@@ -108,7 +108,7 @@ def get_random_owned():
 	'''Initializes the getter function that can be used to check for the desired fighter.'''
 	fighter_count = str(len(ssbrc.fighter) - 1)
 
-	with open('data\\ssbrc\\function\\logic\\fighter\\get_random_owned.mcfunction', 'w') as file:
+	with open('data\\ssbrc\\function\\logic\\fighter\\get\\random_owned.mcfunction', 'w') as file:
 		warn_builder(file)
 
 		js_write(file, f'execute store result score random.output temp run random value 1..{fighter_count}\n')
@@ -118,7 +118,7 @@ def get_random_owned():
 			if fighter != 'peach':
 				js_write(file, '$execute if score random.output temp matches ' + str(i) + ' if entity @s[advancements={ssbrc:fighter/' + fighter + '/default=true}] run return run function $(function) with storage ssbrc:data fighter.' + fighter)
 				i += 1
-		js_write(file, '\n$function ssbrc:logic/fighter/get_random_owned {function:"$(function)"}')
+		js_write(file, '\n$function ssbrc:logic/fighter/get/random_owned {function:"$(function)"}')
 
 def random_skin(fighter, path):
 	'''Initializes the file containing the random skin selection for the fighter.'''
@@ -147,7 +147,7 @@ def skin_options(fighter, path):
 
 		js_write(file, 'tellraw @s [{"text":"=== ","color":"white"},{"translate":"ssbrc.fighter.menu.choose_skin","bold":true,"color":"yellow"},{"text":" ===","color":"white"}]\n')
 
-		js_write(file, 'function ssbrc:logic/player_data/temp/copy/check\n')
+		js_write(file, 'function ssbrc:logic/player/data/temp/copy/check\n')
 
 		if fighter == 'byleth':
 			for skin in chain(['default', 'gold'], ssbrc.fighter[fighter]['skin']):

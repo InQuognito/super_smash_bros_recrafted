@@ -25,6 +25,6 @@
 		}
 	},
 	"rewards": {
-		"function": "ssbrc:logic/teams/orange"
+		"function": "ssbrc:logic/game/team/join/orange"
 	}
 }

@@ -12,6 +12,6 @@ scoreboard players operation magic.available.counter temp = magic.available temp
 
 function ssbrc:fighter/shovel_knight/logic/magic/hud/check
 
-function ssbrc:logic/player_data/temp/set_storage/get {input:"ssbrc:hud shovel_knight.magic",output:"hud.1"}
+function ssbrc:logic/player/data/temp/set_storage/get {input:"ssbrc:hud shovel_knight.magic",output:"hud.1"}
 
 scoreboard players operation @s hud = hud_frequency const

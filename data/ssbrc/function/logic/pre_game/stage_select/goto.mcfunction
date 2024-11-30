@@ -1,14 +1,14 @@
 function ssbrc:logic/pre_game/fighter_select/leave
 
-function ssbrc:logic/resets/scoreboards/cooldown
+function ssbrc:logic/game/data/scoreboards/cooldown
 
-function ssbrc:logic/resets/scoreboards/charge
+function ssbrc:logic/game/data/scoreboards/charge
 
 scoreboard players set @s duration.1 1
 scoreboard players set @s duration.2 1
 scoreboard players set @s duration.3 1
 
-function ssbrc:logic/player_data/temp/copy/check
+function ssbrc:logic/player/data/temp/copy/check
 execute if data storage ssbrc:temp player.temp_data{fighter:"greninja"} if predicate ssbrc:fighter/pokemon/shiny_chance run function ssbrc:logic/fighter/pokemon/shiny with storage ssbrc:temp player.temp_data
 execute if data storage ssbrc:temp player.temp_data{fighter:"jigglypuff"} if predicate ssbrc:fighter/pokemon/shiny_chance run function ssbrc:logic/fighter/pokemon/shiny with storage ssbrc:temp player.temp_data
 execute if data storage ssbrc:temp player.temp_data{fighter:"pikachu"} if predicate ssbrc:fighter/pokemon/shiny_chance run function ssbrc:logic/fighter/pokemon/shiny with storage ssbrc:temp player.temp_data
@@ -16,7 +16,7 @@ execute if data storage ssbrc:temp player.temp_data{fighter:"pokemon_trainer"} i
 
 function ssbrc:logic/fighter/armor/get
 
-function ssbrc:logic/resets/scoreboards/duration
+function ssbrc:logic/game/data/scoreboards/duration
 
 teleport @s -37.5 6.0 13.5 0.0 0.0
 

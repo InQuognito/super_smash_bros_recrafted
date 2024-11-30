@@ -1211,38 +1211,6 @@ data modify storage ssbrc:data fighter set value {\
 					"model": "ssbrc:fighter/link/item/fairy_bow/default"\
 				},\
 			},\
-			"boomerang": {\
-				"default": {\
-					"name": "ssbrc.fighter.the_legend_of_zelda.boomerang",\
-					"tag": "boomerang",\
-					"color": "gold",\
-					"model": "ssbrc:fighter/link/item/boomerang/default"\
-				},\
-				"gold": {\
-					"name": "ssbrc.fighter.the_legend_of_zelda.boomerang",\
-					"tag": "boomerang",\
-					"color": "gold",\
-					"model": "ssbrc:fighter/link/item/boomerang/default"\
-				},\
-				"dark_link": {\
-					"name": "ssbrc.fighter.the_legend_of_zelda.boomerang",\
-					"tag": "boomerang",\
-					"color": "gold",\
-					"model": "ssbrc:fighter/link/item/boomerang/default"\
-				},\
-				"goron_tunic": {\
-					"name": "ssbrc.fighter.the_legend_of_zelda.boomerang",\
-					"tag": "boomerang",\
-					"color": "gold",\
-					"model": "ssbrc:fighter/link/item/boomerang/default"\
-				},\
-				"zora_tunic": {\
-					"name": "ssbrc.fighter.the_legend_of_zelda.boomerang",\
-					"tag": "boomerang",\
-					"color": "gold",\
-					"model": "ssbrc:fighter/link/item/boomerang/default"\
-				},\
-			},\
 		}\
 	},\
 	"luigi": {\

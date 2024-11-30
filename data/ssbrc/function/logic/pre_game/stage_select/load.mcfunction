@@ -21,7 +21,7 @@ execute as @e[type=minecraft:text_display,tag=selected] at @s run data modify en
 
 execute store result score players.playing temp if entity @a[predicate=ssbrc:ingame,team=!spectator]
 
-execute if score players.ingame temp matches 1 run function ssbrc:logic/options/presets/singleplayer/on
+execute if score players.ingame temp matches 1 run function ssbrc:logic/game/options/presets/singleplayer/on
 
 scoreboard players set game_stage temp 2
 scoreboard players set countdown timer 30

@@ -11,6 +11,6 @@ scoreboard players operation magic.available.counter temp = magic.available temp
 function ssbrc:fighter/zelda/logic/magic/hud/check
 execute if score @s zelda.magic_fountain matches 1.. run data modify storage ssbrc:hud zelda.magic append value '{"text":" ∞","color":"aqua"}'
 
-function ssbrc:logic/player_data/temp/set_storage/get {input:"ssbrc:hud zelda.magic",output:"hud.1"}
+function ssbrc:logic/player/data/temp/set_storage/get {input:"ssbrc:hud zelda.magic",output:"hud.1"}
 
 scoreboard players operation @s hud = hud_frequency const

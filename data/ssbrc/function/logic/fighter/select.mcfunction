@@ -1,8 +1,8 @@
-$function ssbrc:logic/player_data/temp/set {mode:"store",key:"fighter",value:"$(name)"}
-execute unless entity @s[tag=picking_random] run function ssbrc:logic/player_data/temp/set {mode:"store",key:"skin",value:"default"}
+$function ssbrc:logic/player/data/temp/set {mode:"store",key:"fighter",value:"$(name)"}
+execute unless entity @s[tag=picking_random] run function ssbrc:logic/player/data/temp/set {mode:"store",key:"skin",value:"default"}
 
-function ssbrc:logic/player_data/temp/copy/check
-$execute unless data storage ssbrc:temp player.temp_data{fighter:"team_rocket"} run function ssbrc:logic/player_data/temp/set {mode:"store",key:"form",value:"$(default_form)"}
+function ssbrc:logic/player/data/temp/copy/check
+$execute unless data storage ssbrc:temp player.temp_data{fighter:"team_rocket"} run function ssbrc:logic/player/data/temp/set {mode:"store",key:"form",value:"$(default_form)"}
 
 tag @s add fighter_picked
 

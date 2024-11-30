@@ -11,7 +11,7 @@ attribute @s minecraft:attack_damage modifier add ssbrc:fighter/ryu/satsui_no_ha
 
 scoreboard players set @s duration.1 400
 
-function ssbrc:logic/player_data/temp/set {mode:"store",key:"form",value:"evil"}
+function ssbrc:logic/player/data/temp/set {mode:"store",key:"form",value:"evil"}
 
 function ssbrc:logic/item/modify {search_key:"item",search_value:"collarbone_breaker",path:"ssbrc:fighter/ryu/collarbone_breaker/evil"}
 function ssbrc:logic/fighter/armor/update/check

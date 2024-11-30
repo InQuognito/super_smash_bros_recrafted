@@ -6,35 +6,13 @@
 			"conditions": {
 				"player": [
 					{
-						"condition": "minecraft:inverted",
-						"term": {
-							"condition": "minecraft:entity_properties",
-							"entity": "this",
-							"predicate": {
-								"nbt": "{Tags:[\"palutena_bow.pulling\"]}"
-							}
-						}
-					},
-					{
-						"condition": "minecraft:entity_properties",
-						"entity": "this",
-						"predicate": {
-							"equipment": {
-								"offhand": {
-									"predicates": {
-										"minecraft:custom_data": "{item:\"palutena_bow\"}"
-									}
-								}
-							}
-						}
-					},
-					{
 						"condition": "minecraft:entity_scores",
 						"entity": "this",
 						"scores": {
 							"cooldown": {
 								"max": 0
-							}
+							},
+							"charge.output": 1
 						}
 					}
 				],
