@@ -39,6 +39,14 @@
 					"type": "minecraft:change_item_damage",
 					"amount": 1
 				}
+			},
+			{
+				"enchanted": "attacker",
+				"affected": "victim",
+				"effect": {
+					"type": "minecraft:change_item_damage",
+					"amount": -1
+				}
 			}
 		],
 		"minecraft:tick": [
@@ -65,12 +73,6 @@
 						"equipment": {
 							"mainhand": {
 								"predicates": {
-									"minecraft:enchantments": [
-										{
-											"enchantments": "ssbrc:fighter/zelda/weapon/glass",
-											"levels": 1
-										}
-									],
 									"minecraft:damage": {
 										"durability": 1
 									}
