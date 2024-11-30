@@ -12,7 +12,7 @@
 	{
 		"function": "minecraft:set_components",
 		"components": {
-			"minecraft:item_model": "ssbrc:fighter/rob/skin/famicom/depleted"
+			"minecraft:item_model": "ssbrc:fighter/rob/skin/famicom/default"
 		}
 	}
 ]

@@ -1048,6 +1048,7 @@ data modify storage ssbrc:data fighter set value {\
 		"page": 1,\
 		"miiverse_posts": 1,\
 		"default_form": "default",\
+		"forms": "true",\
 		"color": "light_purple",\
 		"alignment": "hero",\
 		"skin_count": 3,\
@@ -1846,7 +1847,7 @@ data modify storage ssbrc:data fighter set value {\
 		"movement_speed": 0.1,\
 		"page": 2,\
 		"miiverse_posts": 1,\
-		"default_form": "depleted",\
+		"default_form": "default",\
 		"forms": "true",\
 		"color": "white",\
 		"alignment": "hero",\
