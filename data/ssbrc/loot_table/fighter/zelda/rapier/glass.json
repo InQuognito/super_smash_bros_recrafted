@@ -29,7 +29,7 @@
 						{
 							"function": "minecraft:set_components",
 							"components": {
-								"minecraft:item_model": "ssbrc:fighter/zelda/item/rapier/glass/default"
+								"minecraft:item_model": "ssbrc:fighter/zelda/item/rapier/glass"
 							}
 						}
 					]
