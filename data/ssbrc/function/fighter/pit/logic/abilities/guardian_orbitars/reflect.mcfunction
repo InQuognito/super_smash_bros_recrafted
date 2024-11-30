@@ -6,4 +6,4 @@ data modify entity @s Owner set from entity @a[tag=self,limit=1] UUID
 
 tag @s add reflected
 
-execute as @n[type=minecraft:armor_stand,tag=guardian_orbitar,predicate=ssbrc:id_match] run function ssbrc:fighter/pit/logic/abilities/guardian_orbitars/damage
+scoreboard players set projectile_reflected temp 1
