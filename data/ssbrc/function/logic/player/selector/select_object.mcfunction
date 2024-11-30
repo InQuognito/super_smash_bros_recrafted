@@ -4,6 +4,7 @@ execute if data storage ssbrc:temp player.temp_data{highlighted_object:"random_f
 execute if data storage ssbrc:temp player.temp_data{highlighted_object:"spectate"} run return run function ssbrc:logic/game/player/spectate/check
 
 $execute unless data storage ssbrc:temp player.temp_data{stage_vote:"$(highlighted_object)"} if entity @n[distance=..0.1,tag=stage_icon,name=!random_stage] run return run function ssbrc:logic/stage/vote with storage ssbrc:data stage.$(highlighted_object)
+$execute if data storage ssbrc:temp player.temp_data{stage_vote:"$(highlighted_object)"} if entity @n[distance=..0.1,tag=stage_icon,name=!random_stage] run return -1
 execute if data storage ssbrc:temp player.temp_data{highlighted_object:"random_stage"} unless data storage ssbrc:temp player.temp_data{stage_vote:"random_stage"} run return run function ssbrc:logic/pre_game/stage_select/random_vote
 
 execute if data storage ssbrc:temp player.temp_data{highlighted_object:"discord"} run return run tellraw @s [{"text":"[","color":"dark_blue","bold":true},{"text":"Discord","color":"blue","clickEvent":{"action":"open_url","value":"https://discord.gg/yAzw55N5Ax"}},{"text":"]"}]
