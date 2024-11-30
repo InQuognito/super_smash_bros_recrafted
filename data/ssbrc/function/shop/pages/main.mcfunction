@@ -15,30 +15,7 @@ item replace entity @s enderchest.12 with minecraft:iron_sword[ \
 ]
 item modify entity @s enderchest.12 ssbrc:ui/shop/button
 
-item replace entity @s enderchest.14 with minecraft:gold_nugget[ \
-	minecraft:item_name = '{ \
-		"translate": "ssbrc.shop.credits", \
-		"color": "gold", \
-		"bold": true, \
-		"extra": [ \
-			{ \
-				"score": { \
-					"name": "@s", \
-					"objective": "stats.credits" \
-				}, \
-				"color": "yellow", \
-				"bold": false \
-			}, \
-			{ \
-				"text": "₡", \
-				"color": "yellow", \
-				"bold": false \
-			} \
-		] \
-	}', \
-	minecraft:item_model = "ssbrc:ui/credits", \
-	minecraft:custom_data = {ui:{navigation:"shop/pages/main",sound:"ssbrc:empty",placeholder:"true"}} \
-]
+loot replace entity @s enderchest.14 loot ssbrc:credits
 
 function ssbrc:logic/ui/buttons/placeholder/get {slot:"8"}
 function ssbrc:logic/ui/buttons/placeholder/get {slot:"17"}

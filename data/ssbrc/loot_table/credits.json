@@ -1,0 +1,51 @@
+{
+	"type": "minecraft:command",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:gold_nugget",
+					"functions": [
+						{
+							"function": "minecraft:set_name",
+							"entity": "this",
+							"target": "item_name",
+							"name": {
+								"translate": "ssbrc.shop.credits",
+								"color": "gold",
+								"bold": true,
+								"extra": [
+									{
+										"score": {
+											"name": "@s",
+											"objective": "stats.credits"
+										},
+										"color": "yellow",
+										"bold": false
+									},
+									{
+										"text": "₡",
+										"color": "yellow",
+										"bold": false
+									}
+								]
+							}
+						},
+						{
+							"function": "set_components",
+							"components": {
+								"minecraft:item_model": "ssbrc:ui/credits"
+							}
+						},
+						{
+							"function": "minecraft:set_custom_data",
+							"tag": "{ui:{navigation:\"shop/pages/main\",sound:\"ssbrc:empty\",placeholder:\"true\"}}"
+						}
+					]
+				}
+			]
+		}
+	]
+}
