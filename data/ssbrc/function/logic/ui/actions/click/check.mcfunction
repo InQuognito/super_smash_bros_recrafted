@@ -2,4 +2,4 @@ execute unless score @s cooldown matches 1.. positioned 0 16 0 run function ssbr
 
 item replace entity @s player.cursor with minecraft:air
 
-scoreboard players add @s cooldown 5
+scoreboard players add @s cooldown 3
