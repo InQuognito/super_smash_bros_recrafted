@@ -1,5 +1,3 @@
-execute if score debug options matches 1 run say end game
-
 execute as @a[predicate=ssbrc:ingame] at @s run function ssbrc:logic/post_game/end/announce
 
 scoreboard objectives setdisplay sidebar

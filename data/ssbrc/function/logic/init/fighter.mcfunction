@@ -1554,7 +1554,7 @@ data modify storage ssbrc:data fighter set value {\
 				"gold": {\
 					"name": "ssbrc.fighter.mega_man.metal_blade",\
 					"tag": "metal_blade",\
-					"color": "gray",\
+					"color": "gold",\
 					"model": "ssbrc:fighter/mega_man/item/metal_blade/gold"\
 				},\
 				"star_force": {\
