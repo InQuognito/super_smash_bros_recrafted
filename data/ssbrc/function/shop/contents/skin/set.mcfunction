@@ -1,5 +1,4 @@
 $advancement grant @s only ssbrc:fighter/$(fighter)/skin/$(skin)
-$say $(fighter)
 
 scoreboard players operation @s stats.credits -= price.skin.common const
 
