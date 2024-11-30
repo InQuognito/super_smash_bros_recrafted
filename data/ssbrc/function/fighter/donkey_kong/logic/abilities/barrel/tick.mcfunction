@@ -1,4 +1,4 @@
-execute positioned ~-0.75 ~-0.75 ~-0.75 if entity @e[tag=!self,predicate=ssbrc:flag/targets,dx=0.5] at @s run function ssbrc:fighter/donkey_kong/logic/abilities/barrel/explode
+execute positioned ~-0.75 ~-0.75 ~-0.75 if entity @e[tag=!self,predicate=ssbrc:flag/targets,dx=0.5] positioned ~0.75 ~0.75 ~0.75 run function ssbrc:fighter/donkey_kong/logic/abilities/barrel/explode
 
 execute store result entity @s Rotation[1] float 0.25 run scoreboard players get @s point
 
@@ -11,4 +11,4 @@ execute if entity @s[scores={point=1..}] unless block ~ ~-0.1 ~ #ssbrc:passthrou
 execute rotated as @s run teleport @s ^ ^ ^0.25
 
 scoreboard players add @s temp 1
-execute if entity @s[scores={temp=100..}] run function ssbrc:fighter/donkey_kong/logic/abilities/barrel/explode
+execute if score @s temp matches 100.. run function ssbrc:fighter/donkey_kong/logic/abilities/barrel/explode

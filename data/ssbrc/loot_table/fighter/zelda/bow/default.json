@@ -32,7 +32,7 @@
 									},
 									"show_in_tooltip": false
 								},
-								"minecraft:item_model": "ssbrc:fighter/zelda/item/bow/default/default"
+								"minecraft:item_model": "ssbrc:fighter/zelda/item/bow/default"
 							}
 						},
 						{
