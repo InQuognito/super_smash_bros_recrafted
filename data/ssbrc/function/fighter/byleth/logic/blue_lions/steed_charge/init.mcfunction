@@ -12,5 +12,5 @@ function ssbrc:logic/init/entity/living
 
 ride @a[tag=self,limit=1] mount @s
 
-execute if data storage ssbrc:temp player.temp_data{skin:"gold"} run return run item replace entity @s armor.body with minecraft:golden_horse_armor[minecraft:equippable={slot:"body",model:"ssbrc:fighter/byleth/gold/steed"},minecraft:unbreakable={}]
-item replace entity @s armor.body with minecraft:iron_horse_armor[minecraft:equippable={slot:"body",model:"ssbrc:fighter/byleth/default/steed"},minecraft:unbreakable={}]
+execute if data storage ssbrc:temp player.temp_data{skin:"gold"} run return run item replace entity @s armor.body with minecraft:golden_horse_armor[minecraft:equippable={slot:"body",asset_id:"ssbrc:fighter/byleth/gold/steed"},minecraft:unbreakable={}]
+item replace entity @s armor.body with minecraft:iron_horse_armor[minecraft:equippable={slot:"body",asset_id:"ssbrc:fighter/byleth/default/steed"},minecraft:unbreakable={}]
