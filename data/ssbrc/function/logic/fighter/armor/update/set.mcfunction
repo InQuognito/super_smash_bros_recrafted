@@ -1,10 +1,8 @@
-$execute unless data storage ssbrc:data fighter.$(fighter){forms:"true"} run item modify entity @s armor.head {"function":"minecraft:set_components","components":{"minecraft:item_model":"ssbrc:fighter/$(fighter)/skin/$(skin)"}}
-$execute if data storage ssbrc:data fighter.$(fighter){forms:"true"} run item modify entity @s armor.head {"function":"minecraft:set_components","components":{"minecraft:item_model":"ssbrc:fighter/$(fighter)/skin/$(skin)/$(form)"}}
-
-$execute unless data storage ssbrc:data fighter.$(fighter){forms:"true"} run item modify entity @s armor.chest [{"function":"minecraft:reference","name":"ssbrc:init/tooltip/separator"},{"function":"minecraft:set_components","components":{"minecraft:equippable":{slot:"chest",asset_id:"ssbrc:fighter/$(fighter)/$(skin)"}}}]
-$execute if data storage ssbrc:data fighter.$(fighter){forms:"true"} run item modify entity @s armor.chest [{"function":"minecraft:reference","name":"ssbrc:init/tooltip/separator"},{"function":"minecraft:set_components","components":{"minecraft:equippable":{slot:"chest",asset_id:"ssbrc:fighter/$(fighter)/$(skin)/$(form)"}}}]
-
-$execute unless data storage ssbrc:data fighter.$(fighter){forms:"true"} run item modify entity @s armor.legs [{"function":"minecraft:reference","name":"ssbrc:init/tooltip/separator"},{"function":"minecraft:set_components","components":{"minecraft:equippable":{slot:"legs",asset_id:"ssbrc:fighter/$(fighter)/$(skin)"}}}]
-$execute if data storage ssbrc:data fighter.$(fighter){forms:"true"} run item modify entity @s armor.legs [{"function":"minecraft:reference","name":"ssbrc:init/tooltip/separator"},{"function":"minecraft:set_components","components":{"minecraft:equippable":{slot:"legs",asset_id:"ssbrc:fighter/$(fighter)/$(skin)/$(form)"}}}]
-
+item modify entity @s armor.chest {"function":"minecraft:reference","name":"ssbrc:init/tooltip/separator"}
+item modify entity @s armor.legs {"function":"minecraft:reference","name":"ssbrc:init/tooltip/separator"}
 $function ssbrc:fighter/$(fighter)/armor
+
+$execute if data storage ssbrc:data fighter.$(fighter){forms_isolated_to:"head"} run return run function ssbrc:logic/fighter/armor/update/form/head {fighter:"$(fighter)",skin:"$(skin)",form:"$(form)"}
+$execute if data storage ssbrc:data fighter.$(fighter){forms_isolated_to:"body"} run return run function ssbrc:logic/fighter/armor/update/form/body {fighter:"$(fighter)",skin:"$(skin)",form:"$(form)"}
+$execute if data storage ssbrc:data fighter.$(fighter){forms:"true"} run return run function ssbrc:logic/fighter/armor/update/form/true {fighter:"$(fighter)",skin:"$(skin)",form:"$(form)"}
+$function ssbrc:logic/fighter/armor/update/form/none {fighter:"$(fighter)",skin:"$(skin)"}

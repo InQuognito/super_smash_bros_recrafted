@@ -93,6 +93,7 @@ data modify storage ssbrc:data fighter set value {\
 		"miiverse_posts": 1,\
 		"default_form": "default",\
 		"forms": "true",\
+		"forms_isolated_to": "head",\
 		"color": "gray",\
 		"alignment": "hero",\
 		"skin_count": 3,\
@@ -848,6 +849,7 @@ data modify storage ssbrc:data fighter set value {\
 		"miiverse_posts": 1,\
 		"default_form": "default",\
 		"forms": "true",\
+		"forms_isolated_to": "head",\
 		"color": "light_purple",\
 		"alignment": "hero",\
 		"skin_count": 4,\
@@ -926,6 +928,7 @@ data modify storage ssbrc:data fighter set value {\
 		"miiverse_posts": 1,\
 		"default_form": "default",\
 		"forms": "true",\
+		"forms_isolated_to": "head",\
 		"color": "dark_red",\
 		"alignment": "hero",\
 		"skin_count": 4,\
@@ -1049,6 +1052,7 @@ data modify storage ssbrc:data fighter set value {\
 		"miiverse_posts": 1,\
 		"default_form": "default",\
 		"forms": "true",\
+		"forms_isolated_to": "head",\
 		"color": "light_purple",\
 		"alignment": "hero",\
 		"skin_count": 3,\
@@ -1745,6 +1749,7 @@ data modify storage ssbrc:data fighter set value {\
 		"miiverse_posts": 1,\
 		"default_form": "wings",\
 		"forms": "true",\
+		"forms_isolated_to": "body",\
 		"color": "white",\
 		"alignment": "hero",\
 		"skin_count": 3,\
@@ -1849,6 +1854,7 @@ data modify storage ssbrc:data fighter set value {\
 		"miiverse_posts": 1,\
 		"default_form": "default",\
 		"forms": "true",\
+		"forms_isolated_to": "head",\
 		"color": "white",\
 		"alignment": "hero",\
 		"skin_count": 4,\
@@ -2149,6 +2155,7 @@ data modify storage ssbrc:data fighter set value {\
 		"miiverse_posts": 1,\
 		"default_form": "default",\
 		"forms": "true",\
+		"forms_isolated_to": "head",\
 		"color": "gray",\
 		"alignment": "hero",\
 		"skin_count": 4,\
