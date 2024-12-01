@@ -1,4 +1,4 @@
-function ssbrc:logic/item/init/slot {item:"wolf_slash",slot:"hotbar.0",type:"variant"}
+function ssbrc:logic/item/init/slot {item:"wolf_slash",slot:"hotbar.0",type:"skin"}
 
 function ssbrc:logic/item/init/slot {item:"blaster",slot:"hotbar.1",type:"skin"}
 

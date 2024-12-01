@@ -1,6 +1,4 @@
-function ssbrc:logic/fighter/ability/init
+advancement revoke @s only ssbrc:utility/use_item/fighter/zelda/bomb
 
-execute if entity @s[tag=bomb] run function ssbrc:fighter/zelda/logic/abilities/bomb/summon
-execute if score @s[tag=!bomb] magic >= zelda.bomb.cost const run function ssbrc:fighter/zelda/logic/abilities/bomb/activate
-
-function ssbrc:logic/fighter/ability/deinit
+execute if entity @s[tag=bomb] run return run function ssbrc:fighter/zelda/logic/abilities/bomb/summon
+execute if score @s magic >= zelda.bomb.cost const run function ssbrc:fighter/zelda/logic/abilities/bomb/activate

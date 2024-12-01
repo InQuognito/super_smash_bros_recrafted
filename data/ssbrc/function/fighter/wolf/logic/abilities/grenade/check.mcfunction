@@ -1,1 +1,1 @@
-execute if entity @s[scores={cooldown.2=..0}] run function ssbrc:fighter/wolf/logic/abilities/grenade/activate
+execute if score @s cooldown.2 matches ..0 run function ssbrc:fighter/wolf/logic/abilities/grenade/activate
