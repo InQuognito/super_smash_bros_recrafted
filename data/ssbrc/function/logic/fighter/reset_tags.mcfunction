@@ -29,6 +29,7 @@ function ssbrc:fighter/byleth/menu/loadout/reset
 tag @s remove weapon_broken
 
 # Captain Falcon
+tag @s remove falcon_charge
 tag @s remove falcon_punch_missed
 tag @s remove falcon_punched
 
