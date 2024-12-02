@@ -14,7 +14,7 @@
 					{
 						"type": "minecraft:attack_speed",
 						"id": "ssbrc:attack_speed",
-						"amount": 1024,
+						"amount": 0,
 						"operation": "add_multiplied_base",
 						"slot": "mainhand"
 					}

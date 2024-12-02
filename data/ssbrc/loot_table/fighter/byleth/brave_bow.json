@@ -27,10 +27,6 @@
 							"name": "ssbrc:init/ability/charge"
 						},
 						{
-							"function": "minecraft:reference",
-							"name": "ssbrc:fighter/byleth/golden_deer/brave_bow/idle"
-						},
-						{
 							"function": "minecraft:set_lore",
 							"entity": "this",
 							"lore": [
@@ -42,6 +38,12 @@
 								}
 							],
 							"mode": "append"
+						},
+						{
+							"function": "minecraft:set_components",
+							"components": {
+								"minecraft:item_model": "ssbrc:fighter/byleth/item/brave_bow"
+							}
 						},
 						{
 							"function": "minecraft:set_custom_data",
