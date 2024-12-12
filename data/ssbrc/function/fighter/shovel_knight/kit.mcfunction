@@ -18,3 +18,4 @@ execute if score random.output temp matches 2 run function ssbrc:fighter/shovel_
 execute if score random.output temp matches 3 run function ssbrc:fighter/shovel_knight/kits/utility/war_horn
 
 scoreboard players set @s magic 10
+function ssbrc:fighter/shovel_knight/logic/magic/update
