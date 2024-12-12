@@ -20,12 +20,12 @@ scoreboard players remove @s[scores={weapon_1.fire_rate=1..}] weapon_1.fire_rate
 execute if entity @s[scores={weapon_1.ammo=1..,weapon_1.fire_rate=15}] run playsound ssbrc:shotgun_reload player @a
 
 # Anti-Personnel Mine
-execute if entity @s[tag=anti_personnel_mine] run function ssbrc:logic/item/cooldown/display/check {item:"anti_personnel_mine"}
+execute if entity @s[tag=anti_personnel_mine] run function ssbrc:logic/item/cooldown/decrease {item:"anti_personnel_mine"}
 
 # Smoke Grenade
 execute at @n[type=minecraft:armor_stand,tag=smoke_grenade] if entity @s[tag=night_vision_goggles,distance=4.1..] run function ssbrc:fighter/snake/logic/night_vision_goggles/deactivate
 
-execute if entity @s[tag=smoke_grenade] run function ssbrc:logic/item/cooldown/display/check {item:"smoke_grenade"}
+execute if entity @s[tag=smoke_grenade] run function ssbrc:logic/item/cooldown/decrease {item:"smoke_grenade"}
 
 # Night Vision Goggles
 execute if entity @s[tag=night_vision_goggles] run function ssbrc:fighter/snake/logic/night_vision_goggles/clear_smoke_effects

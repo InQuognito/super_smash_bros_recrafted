@@ -11,4 +11,4 @@ execute if score @s temp = thwomp_time const run function ssbrc:stage/bowsers_ca
 execute if score @s[tag=!sinking] temp >= thwomp_time const run function ssbrc:stage/bowsers_castle/logic/hazards/thwomp/move_upward
 
 execute unless block ~ ~-0.1 ~ #ssbrc:passthrough run function ssbrc:stage/bowsers_castle/logic/hazards/thwomp/grounded
-execute unless score thwomp.middle temp matches 2 run scoreboard players add @s[tag=middle] temp 1
+execute if score thwomp.middle temp matches 2 run scoreboard players add @s[tag=middle] temp 1

@@ -47,6 +47,7 @@ attribute @s minecraft:attack_damage modifier remove ssbrc:fighter/ryu/satsui_no
 
 # Sonic / Shadow
 attribute @s minecraft:movement_speed modifier remove ssbrc:acceleration
+attribute @s minecraft:movement_speed modifier remove ssbrc:chaos_control
 
 # Snake
 attribute @s minecraft:movement_speed modifier remove ssbrc:snake_load

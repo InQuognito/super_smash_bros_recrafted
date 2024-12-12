@@ -4,7 +4,7 @@ execute if entity @s[tag=altered_beast.is_beast] run function ssbrc:fighter/alte
 
 function ssbrc:fighter/altered_beast/logic/spirit_gauge/update
 
-function ssbrc:logic/item/cooldown/display/check {item:"spirit_orb"}
+function ssbrc:logic/item/cooldown/decrease {item:"spirit_orb"}
 
 # Beast Form
 execute if data storage ssbrc:temp player.temp_data{form:"werebear"} run function ssbrc:fighter/altered_beast/logic/werebear/tick

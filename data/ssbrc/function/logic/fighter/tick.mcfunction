@@ -63,7 +63,7 @@ execute if score @s leech_seed.timer matches 1.. run function ssbrc:fighter/poke
 execute if score @s leech_seed.stacks matches 1.. run function ssbrc:fighter/pokemon_trainer/logic/ivysaur/leech_seed/calculate_healing
 
 scoreboard players remove @s[scores={shadow.chaos_control=1..}] shadow.chaos_control 1
-execute if score @s shadow.chaos_control matches 1 run function ssbrc:fighter/shadow/logic/abilities/chaos_control/deactivate
+attribute @s[scores={shadow.chaos_control=1}] minecraft:movement_speed modifier remove ssbrc:chaos_control
 
 # Stage Effects
 execute unless block ~ ~ ~ minecraft:lava run scoreboard players remove @s[scores={flag.in_lava=1..}] flag.in_lava 1

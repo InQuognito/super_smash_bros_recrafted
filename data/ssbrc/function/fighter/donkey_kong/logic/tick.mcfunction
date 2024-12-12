@@ -1,5 +1,5 @@
 # Orange Grenade
-function ssbrc:logic/item/cooldown/display/check {item:"orange_grenade"}
+function ssbrc:logic/item/cooldown/decrease {item:"orange_grenade"}
 
 execute unless items entity @s weapon.mainhand minecraft:nether_star[minecraft:custom_data~{item:"orange_grenade"}] run title @s actionbar ""
 execute if items entity @s weapon.mainhand minecraft:nether_star[minecraft:custom_data~{item:"orange_grenade"}] run title @s actionbar {"score":{"name":"@s","objective":"charge.1"},"color":"gold"}

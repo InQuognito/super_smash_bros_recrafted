@@ -208,7 +208,7 @@ scoreboard players set zelda.inventory_refresh const 20
 # Maps
 scoreboard players set thwomp_time const 100
 scoreboard players operation thwomp_sink_time const = thwomp_time const
-scoreboard players operation thwomp_sink_time const *= 3 const
+scoreboard players operation thwomp_sink_time const *= 2 const
 
 scoreboard players set camera_range const 5
 

@@ -9,3 +9,6 @@ particle minecraft:item{item:"minecraft:tuff"} ~ ~ ~ 0.75 0.25 0.75 0.25 25 norm
 playsound minecraft:entity.generic.explode hostile @a
 
 tag @s add destroyer
+scoreboard players set @s temp 0
+
+scoreboard players set thwomp.middle temp 2

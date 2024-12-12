@@ -1,1 +1,1 @@
-function ssbrc:logic/item/cooldown/display/check {item:"blunderbuss"}
+function ssbrc:logic/item/cooldown/decrease {item:"blunderbuss"}

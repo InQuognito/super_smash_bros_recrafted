@@ -3,7 +3,7 @@ execute if items entity @s[scores={cooldown.3=..0}] container.* minecraft:nether
 
 execute if entity @s[scores={cooldown.2=1}] run function ssbrc:fighter/yar/logic/abilities/drone/regain
 
-function ssbrc:logic/item/cooldown/display/check {item:"drone"}
+function ssbrc:logic/item/cooldown/decrease {item:"drone"}
 
 # Power Ups
 execute if entity @s[scores={duration.1=1}] run function ssbrc:fighter/yar/logic/abilities/power_ups/reset

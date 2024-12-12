@@ -37,7 +37,7 @@ attribute @s[scores={flag.sprinting=36}] minecraft:movement_speed modifier add s
 attribute @s[scores={flag.sprinting=37}] minecraft:movement_speed modifier add ssbrc:acceleration 0.0666 add_value
 attribute @s[scores={flag.sprinting=38}] minecraft:movement_speed modifier add ssbrc:acceleration 0.0703 add_value
 attribute @s[scores={flag.sprinting=39}] minecraft:movement_speed modifier add ssbrc:acceleration 0.0741 add_value
-execute if entity @s[scores={flag.sprinting=40..}] run function ssbrc:fighter/sonic/logic/speed/full
+execute if score @s flag.sprinting matches 40.. run function ssbrc:fighter/sonic/logic/speed/full
 
 function ssbrc:math/speed/calculate
 scoreboard players operation out math /= 8 const

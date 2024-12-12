@@ -15,3 +15,5 @@ execute if score lava_plumes.right timer matches 470 positioned -697.0 27.5 833.
 execute if score lava_plumes.right timer matches 475 positioned -702.0 28.5 832.0 summon minecraft:marker run function ssbrc:stage/bowsers_castle/logic/hazards/lava_plumes/right/6/down/activate
 
 execute if score lava_plumes.right timer matches 500 run function ssbrc:stage/bowsers_castle/logic/hazards/lava_plumes/right/deactivate
+
+execute as @e[type=minecraft:marker,tag=lava_plume,tag=right] at @s run function ssbrc:stage/bowsers_castle/logic/hazards/lava_plumes/right/tick_entity

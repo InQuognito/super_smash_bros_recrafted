@@ -1,13 +1,13 @@
 # Bomb
 execute if entity @s[tag=bomb] run function ssbrc:fighter/zelda/logic/abilities/bomb/fuse_tick
 
-function ssbrc:logic/item/cooldown/display/check {item:"bomb"}
+function ssbrc:logic/item/cooldown/decrease {item:"bomb"}
 
 # Fire Rod
-function ssbrc:logic/item/cooldown/display/check {item:"fire_rod"}
+function ssbrc:logic/item/cooldown/decrease {item:"fire_rod"}
 
 # Ice Rod
-function ssbrc:logic/item/cooldown/display/check {item:"ice_rod"}
+function ssbrc:logic/item/cooldown/decrease {item:"ice_rod"}
 
 # Passive Items
 execute if items entity @s container.* minecraft:nether_star[minecraft:custom_data~{item:"goron_locket"}] run effect clear @s minecraft:wither
@@ -21,12 +21,12 @@ execute if items entity @s container.* minecraft:nether_star[minecraft:custom_da
 
 # Rupees
 execute if score @s[scores={zelda.rupee.add=1..}] resource >= zelda.rupees.max const run scoreboard players set @s zelda.rupee.add 0
-execute if entity @s[scores={zelda.rupee.add=1..}] run function ssbrc:fighter/zelda/logic/rupees/change {mode:"add"}
+execute if score @s zelda.rupee.add matches 1.. run function ssbrc:fighter/zelda/logic/rupees/change {mode:"add"}
 
-execute if entity @s[scores={zelda.rupee.remove=1..}] run function ssbrc:fighter/zelda/logic/rupees/change {mode:"remove"}
+execute if score @s zelda.rupee.remove matches 1.. run function ssbrc:fighter/zelda/logic/rupees/change {mode:"remove"}
 
 # Great Fairy Blessings
-execute if entity @s[scores={zelda.enchant_armor=1..}] run function ssbrc:fighter/zelda/logic/blessings/enchant_armor/tick
+execute if score @s zelda.enchant_armor matches 1.. run function ssbrc:fighter/zelda/logic/blessings/enchant_armor/tick
 
 scoreboard players remove @s[scores={zelda.magic_fountain=1..}] zelda.magic_fountain 1
 
@@ -34,6 +34,6 @@ scoreboard players remove @s[scores={zelda.magic_transfusion=1..}] zelda.magic_t
 
 scoreboard players remove @s[scores={zelda.shatter_resist=1..}] zelda.shatter_resist 1
 
-execute if entity @s[scores={zelda.silent_princess=1..}] run function ssbrc:fighter/zelda/logic/blessings/silent_princess/tick
+execute if score @s zelda.silent_princess matches 1.. run function ssbrc:fighter/zelda/logic/blessings/silent_princess/tick
 
-execute if entity @s[scores={zelda.special_bond=1..}] run function ssbrc:fighter/zelda/logic/blessings/special_bond/tick
+execute if score @s zelda.special_bond matches 1.. run function ssbrc:fighter/zelda/logic/blessings/special_bond/tick

@@ -5,8 +5,3 @@ scoreboard players add @s[scores={shadow.chaos_control=..0,flag.sprinting=..39},
 execute if score in_electric_terrain temp matches 1 run scoreboard players set @s flag.sprinting 40
 
 function ssbrc:fighter/sonic/logic/speed/tick
-
-# Display
-execute if score out math matches ..9 run title @s actionbar [{"translate":"00","color":"white"},{"score":{"name":"out","objective":"math"},"color":"white"},{"translate":" KPH","color":"white"}]
-execute if score out math matches 10..99 run title @s actionbar [{"translate":"0","color":"white"},{"score":{"name":"out","objective":"math"},"color":"white"},{"translate":" KPH","color":"white"}]
-execute if score out math matches 100.. run title @s actionbar [{"score":{"name":"out","objective":"math"},"color":"white"},{"translate":" KPH","color":"white"}]
