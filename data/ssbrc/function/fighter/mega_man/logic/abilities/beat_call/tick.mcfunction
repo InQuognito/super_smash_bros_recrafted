@@ -24,3 +24,5 @@ effect give @a[tag=snake,predicate=!ssbrc:fighter/effects/has/glowing,distance=.
 execute if entity @s[tag=attack,scores={cooldown=..0}] run function ssbrc:fighter/mega_man/logic/abilities/beat_call/hit
 
 execute if entity @s[tag=dead,tag=!attack,tag=!forward,tag=!recall] as @a[tag=self,limit=1] run function ssbrc:fighter/mega_man/logic/abilities/beat_call/death
+
+scoreboard players remove @s[scores={cooldown=1..}] cooldown 1

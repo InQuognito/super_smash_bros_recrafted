@@ -14,12 +14,8 @@ tag @s[tag=never_anti] remove anti_form
 
 clear @s minecraft:nether_star[minecraft:custom_data~{group:"drive_form"}]
 
-execute if entity @s[tag=!anti_form,tag=valor_form] run function ssbrc:fighter/sora/logic/drive_forms/valor
-execute if entity @s[tag=!anti_form,tag=wisdom_form] run function ssbrc:fighter/sora/logic/drive_forms/wisdom
-execute if entity @s[tag=anti_form] run function ssbrc:fighter/sora/logic/drive_forms/anti
-
-tag @s remove valor_form
-tag @s remove wisdom_form
-tag @s remove anti_form
-
 playsound ssbrc:fighter.sora.drive_forms.activate player @a
+
+execute if entity @s[tag=anti_form] run return run function ssbrc:fighter/sora/logic/drive_forms/anti
+execute if entity @s[tag=valor_form] run return run function ssbrc:fighter/sora/logic/drive_forms/valor
+function ssbrc:fighter/sora/logic/drive_forms/wisdom

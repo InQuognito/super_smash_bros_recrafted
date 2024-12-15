@@ -1,15 +1,13 @@
-tag @s add self
+execute if score @s flag.dead matches 1.. run function ssbrc:logic/fighter/stock/lose
+execute if score @s respawn matches 2.. run function ssbrc:logic/fighter/respawn/tick
 
-scoreboard players operation id_to_match temp = @s id
-scoreboard players operation team temp = @s team
+gamemode spectator @s[team=dead]
+gamemode spectator @s[team=spectator]
 
-execute at @s[predicate=ssbrc:flag/player] run function ssbrc:logic/fighter/tick
+execute if predicate ssbrc:ingame run function ssbrc:logic/game/player/ingame
 
-execute as @e[type=!minecraft:player,predicate=ssbrc:id_match] at @s run function ssbrc:logic/fighter/ability/tick
+execute unless data storage ssbrc:temp game.stage{name:"sector_z"} run effect give @s[predicate=ssbrc:flag/player,predicate=ssbrc:below_y/0] minecraft:blindness 2 0 true
 
-scoreboard players remove @s[scores={duration.1=1..}] duration.1 1
-scoreboard players remove @s[scores={duration.2=1..}] duration.2 1
-scoreboard players remove @s[scores={duration.3=1..}] duration.3 1
-scoreboard players remove @s[scores={duration.4=1..}] duration.4 1
+execute if entity @s[team=!admin,tag=alive,scores={respawn=..0},gamemode=!adventure,gamemode=!spectator] run function ssbrc:logic/game/team/admin
 
-tag @s remove self
+execute if entity @s[predicate=ssbrc:flag/player,advancements={ssbrc:utility/flag/hurt_player/condition/blocked=true}] if entity @a[predicate=ssbrc:flag/player,scores={flag.break_shield=1..}] run scoreboard players add @s shield_breaker 1

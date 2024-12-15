@@ -1,4 +1,4 @@
-function ssbrc:fighter/shovel_knight/logic/abilities/phase_locket/off
+function ssbrc:fighter/shovel_knight/logic/abilities/phase_locket/deactivate
 execute if entity @s[tag=war_horn.active] run function ssbrc:fighter/shovel_knight/logic/abilities/war_horn/deactivate
 
 clear @s #ssbrc:equipment

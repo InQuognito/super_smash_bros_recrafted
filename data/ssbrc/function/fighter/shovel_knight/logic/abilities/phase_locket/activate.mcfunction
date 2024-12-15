@@ -10,6 +10,8 @@ function ssbrc:logic/fighter/armor/update/check
 scoreboard players operation @s magic -= shovel_knight.phase_locket.cost const
 function ssbrc:fighter/shovel_knight/logic/magic/update
 
+function ssbrc:logic/item/durability/reset/hand
+
 playsound ssbrc:fighter.shovel_knight.phase_locket.activate player @a
 
 advancement revoke @s only ssbrc:utility/use_item/fighter/shovel_knight/phase_locket/activate

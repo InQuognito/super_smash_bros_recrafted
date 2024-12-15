@@ -47,6 +47,7 @@
 							"function": "minecraft:set_components",
 							"components": {
 								"minecraft:item_model": "ssbrc:fighter/zelda/item/red_potion",
+								"!minecraft:use_remainder": {},
 								"minecraft:hide_additional_tooltip": {}
 							}
 						},

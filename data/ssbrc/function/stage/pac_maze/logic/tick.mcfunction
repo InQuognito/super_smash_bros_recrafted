@@ -2,10 +2,8 @@ execute if data storage ssbrc:temp game.stage{variant:"pac_maze"} run function s
 execute if data storage ssbrc:temp game.stage{variant:"mrs_pac_maze"} run function ssbrc:stage/pac_maze/logic/mrs_pac_maze/tick
 
 # Ghosts
-execute as @e[type=minecraft:armor_stand,tag=ghost] at @s run function ssbrc:stage/pac_maze/logic/ghosts/tick
-
 scoreboard players add pac_maze.ghost.siren_timer temp 1
-execute if score pac_maze.ghost.siren_timer temp matches 30.. run function ssbrc:stage/pac_maze/logic/ghosts/states/active/siren
+execute as @e[type=minecraft:armor_stand,tag=ghost] at @s run function ssbrc:stage/pac_maze/logic/ghosts/tick
 
 # Pickups
 execute as @a[predicate=ssbrc:flag/player] at @s positioned ~ ~0.5 ~ if entity @e[type=minecraft:item_display,tag=dot,distance=..0.75] run function ssbrc:stage/pac_maze/logic/dots/pickup with storage ssbrc:temp game.stage

@@ -25,7 +25,6 @@ scoreboard objectives remove durability
 scoreboard objectives remove duration.1
 scoreboard objectives remove duration.2
 scoreboard objectives remove duration.3
-scoreboard objectives remove duration.4
 #scoreboard objectives remove event
 scoreboard objectives remove fall_distance
 scoreboard objectives remove favorite.temp
@@ -99,7 +98,6 @@ scoreboard objectives remove selected_item.prev
 scoreboard objectives remove shadow.chaos_control
 scoreboard objectives remove shadow.meter.hero
 scoreboard objectives remove shadow.meter.dark
-scoreboard objectives remove skin_picked
 scoreboard objectives remove slope
 scoreboard objectives remove snake.capacity
 scoreboard objectives remove snake.anti_personnel_mine.ammo

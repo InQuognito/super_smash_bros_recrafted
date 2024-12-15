@@ -151,6 +151,8 @@ def init_item_data(file, fighter, skin, item):
 			mc_write(file, tab(5) + qm + 'model' + sep_s + 'null' + qm)
 		elif ssbrc.fighter[fighter]['items'][item][skin]['model']['type'] == 'default':
 			mc_write(file, tab(5) + qm + 'model' + sep_s + f'ssbrc:fighter/{fighter}/item/{item}/' + ssbrc.fighter[fighter]['items'][item][skin]['model']['model'] + qm)
+		elif ssbrc.fighter[fighter]['items'][item][skin]['model']['type'] == 'fixed':
+			mc_write(file, tab(5) + qm + 'model' + sep_s + ssbrc.fighter[fighter]['items'][item][skin]['model']['model'] + qm)
 		else:
 			mc_write(file, tab(5) + qm + 'model' + sep_s + 'ssbrc:' + ssbrc.fighter[fighter]['items'][item][skin]['model']['model'] + qm)
 	else:

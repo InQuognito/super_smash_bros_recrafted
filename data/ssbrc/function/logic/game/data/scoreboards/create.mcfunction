@@ -29,7 +29,6 @@ scoreboard objectives add durability dummy
 scoreboard objectives add duration.1 dummy
 scoreboard objectives add duration.2 dummy
 scoreboard objectives add duration.3 dummy
-scoreboard objectives add duration.4 dummy
 scoreboard objectives add event dummy
 scoreboard objectives add fall_distance minecraft.custom:minecraft.fall_one_cm
 scoreboard objectives add favorite.temp dummy
@@ -111,7 +110,6 @@ scoreboard objectives add selected_item.prev dummy
 scoreboard objectives add shadow.chaos_control dummy
 scoreboard objectives add shadow.meter.hero dummy
 scoreboard objectives add shadow.meter.dark dummy
-scoreboard objectives add skin_picked dummy
 scoreboard objectives add slope dummy
 scoreboard objectives add snake.capacity dummy
 scoreboard objectives add snake.anti_personnel_mine.ammo dummy

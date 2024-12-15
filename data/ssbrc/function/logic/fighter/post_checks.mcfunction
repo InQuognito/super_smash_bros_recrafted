@@ -13,3 +13,6 @@ execute as @a[tag=check_kill] if score @s timer.stat.kill matches 3 run tag @s r
 
 scoreboard players reset @a[scores={timer.stat.death=3}] timer.stat.death
 scoreboard players reset @a[scores={timer.stat.kill=3}] timer.stat.kill
+
+advancement revoke @a only ssbrc:utility/flag/hurt_player/condition/blocked
+scoreboard players reset @a flag.break_shield

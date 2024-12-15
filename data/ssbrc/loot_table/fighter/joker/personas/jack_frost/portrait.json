@@ -19,7 +19,7 @@
 						{
 							"function": "minecraft:set_components",
 							"components": {
-								"minecraft:item_model": "ssbrc:fighter/joker/portrait/jack_frost/inactive"
+								"minecraft:item_model": "ssbrc:fighter/joker/misc/portrait/jack_frost/inactive"
 							}
 						}
 					]

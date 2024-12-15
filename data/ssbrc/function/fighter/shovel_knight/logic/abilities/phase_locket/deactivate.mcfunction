@@ -1,3 +1,6 @@
-function ssbrc:fighter/shovel_knight/logic/abilities/phase_locket/off
+tag @s remove phase_locket
 
-function ssbrc:logic/item/cooldown/set/score {type:"2",value:"shovel_knight.phase_locket.cooldown"}
+effect clear @s minecraft:resistance
+
+function ssbrc:logic/player/data/temp/set {mode:"store",key:"form",value:"default"}
+function ssbrc:logic/fighter/armor/update/check

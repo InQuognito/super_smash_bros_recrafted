@@ -109,19 +109,19 @@ data modify storage ssbrc:data fighter set value {\
 					"name": "ssbrc.fighter.alucard.alucard_shield",\
 					"tag": "alucard_shield",\
 					"color": "white",\
-					"model": "ssbrc:fighter/alucard/item/alucard_shield/default"\
+					"model": "default"\
 				},\
 				"gold": {\
 					"name": "ssbrc.fighter.alucard.alucard_shield",\
 					"tag": "alucard_shield",\
 					"color": "gold",\
-					"model": "ssbrc:fighter/alucard/item/alucard_shield/gold"\
+					"model": "gold"\
 				},\
 				"lords_of_shadow": {\
 					"name": "ssbrc.fighter.alucard.alucard_shield",\
 					"tag": "alucard_shield",\
 					"color": "white",\
-					"model": "ssbrc:fighter/alucard/item/alucard_shield/lords_of_shadow"\
+					"model": "default"\
 				},\
 			},\
 			"sword": {\
@@ -799,6 +799,44 @@ data modify storage ssbrc:data fighter set value {\
 					"model": "ssbrc:fighter/hero/item/sword/rek"\
 				},\
 			},\
+			"shield": {\
+				"default": {\
+					"name": "ssbrc.fighter.hero.shield.default",\
+					"tag": "shield",\
+					"color": "yellow",\
+					"model": "default"\
+				},\
+				"gold": {\
+					"name": "ssbrc.fighter.hero.shield.default",\
+					"tag": "shield",\
+					"color": "gold",\
+					"model": "gold"\
+				},\
+				"erdrick": {\
+					"name": "ssbrc.fighter.hero.shield.erdrick",\
+					"tag": "shield",\
+					"color": "yellow",\
+					"model": "erdrick"\
+				},\
+				"solo": {\
+					"name": "ssbrc.fighter.hero.shield.erdrick",\
+					"tag": "shield",\
+					"color": "yellow",\
+					"model": "erdrick"\
+				},\
+				"sofia": {\
+					"name": "ssbrc.fighter.hero.shield.erdrick",\
+					"tag": "shield",\
+					"color": "yellow",\
+					"model": "erdrick"\
+				},\
+				"rek": {\
+					"name": "ssbrc.fighter.hero.sword.rek",\
+					"tag": "sword",\
+					"color": "yellow",\
+					"model": "rek"\
+				},\
+			},\
 			"sword": {\
 				"default": {\
 					"name": "ssbrc.fighter.hero.sword.default",\
@@ -993,6 +1031,32 @@ data modify storage ssbrc:data fighter set value {\
 					"tag": "tt33",\
 					"color": "gray",\
 					"model": "ssbrc:fighter/joker/item/tt33/default"\
+				},\
+			},\
+			"mask": {\
+				"default": {\
+					"name": "ssbrc.fighter.joker.tt33",\
+					"tag": "tt33",\
+					"color": "gray",\
+					"model": "ssbrc:fighter/joker/item/mask/default"\
+				},\
+				"gold": {\
+					"name": "ssbrc.fighter.joker.tt33",\
+					"tag": "tt33",\
+					"color": "gold",\
+					"model": "ssbrc:fighter/joker/item/mask/gold"\
+				},\
+				"shujin_academy": {\
+					"name": "ssbrc.fighter.joker.tt33",\
+					"tag": "tt33",\
+					"color": "gray",\
+					"model": "ssbrc:fighter/joker/item/mask/default"\
+				},\
+				"christmas_outfit": {\
+					"name": "ssbrc.fighter.joker.tt33",\
+					"tag": "tt33",\
+					"color": "gray",\
+					"model": "ssbrc:fighter/joker/item/mask/default"\
 				},\
 			},\
 		}\
