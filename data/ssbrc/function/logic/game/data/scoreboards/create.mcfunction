@@ -85,6 +85,8 @@ scoreboard players set @a options_trigger 0
 scoreboard players enable @a options_trigger
 scoreboard objectives add petrified dummy
 scoreboard objectives add piercing dummy
+scoreboard objectives add player_motion.storage.force dummy
+scoreboard objectives add player_motion.storage.timer dummy
 scoreboard objectives add point dummy
 scoreboard objectives add points dummy
 scoreboard objectives add popup_timer dummy

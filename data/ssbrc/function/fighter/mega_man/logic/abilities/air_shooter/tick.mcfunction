@@ -1,9 +1,9 @@
+execute unless block ^ ^ ^0.1 #ssbrc:passthrough run return run kill @s
+
 particle minecraft:dust_color_transition{from_color:[0.8,0.8,1.0],to_color:[1.0,1.0,1.0],scale:0.5} ~ ~ ~ 0.1 0.1 0.1 0.0 5 normal @a
 
-execute unless block ^ ^ ^0.1 #ssbrc:passthrough run kill @s
-
 execute positioned ~-0.25 ~-0.25 ~-0.25 as @e[tag=!self,predicate=ssbrc:flag/targets,dx=0] positioned ~-0.5 ~-0.5 ~-0.5 if entity @s[dx=0] at @n[type=minecraft:item_display,tag=air_shooter,predicate=ssbrc:id_match] run function ssbrc:fighter/mega_man/logic/abilities/air_shooter/hit
-execute if score entity_hit temp matches 1 run kill @s
+execute if score entity_hit temp matches 1 run return run kill @s
 
 teleport @s[tag=1] ^ ^0.1 ^0.2
 teleport @s[tag=2] ^ ^0.1 ^0.3
@@ -17,4 +17,4 @@ execute if score display temp matches 4 run function ssbrc:fighter/mega_man/logi
 scoreboard players reset display temp
 
 scoreboard players add @s temp 1
-execute if score @s temp matches 40.. run kill @s
+kill @s[scores={temp=40..}]
