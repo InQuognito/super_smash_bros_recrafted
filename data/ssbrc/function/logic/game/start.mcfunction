@@ -14,8 +14,6 @@ team modify team8 nametagVisibility never
 execute if score game_mode options matches 1 run function ssbrc:logic/game/start/setup/stock
 execute if score game_mode options matches 2 run function ssbrc:logic/game/start/setup/time
 
-execute if entity @a[tag=sora] run summon minecraft:marker 0.5 25.0 0.5 {Tags:["sora.spinner"]}
-
 execute as @a[predicate=ssbrc:flag/player] run function ssbrc:logic/game/start/fighters
 
 function ssbrc:logic/game/music/decide_schedule

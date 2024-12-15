@@ -1,3 +1,4 @@
 scoreboard players set @s rotation 0
 
-function ssbrc:logic/item/component/update/slot_unknown {mode:"remove",amount:2,search_key:"item",search_value:"master_sword",component:"minecraft:custom_model_data",output_path:"model temp"}
+execute if score @s health matches 40.. run return run function ssbrc:fighter/link/logic/master_sword/display/get {modifier:"",type:"default"}
+function ssbrc:fighter/link/logic/master_sword/display/get {modifier:"",type:"dormant"}

@@ -111,6 +111,7 @@ scoreboard objectives remove steve.tier
 scoreboard objectives remove stocks
 scoreboard objectives remove self_destruct
 scoreboard objectives remove team
+scoreboard objectives remove temp
 scoreboard objectives remove timer
 scoreboard objectives remove timer.barrel_cannon
 scoreboard objectives remove timer.galaxian_flagship
@@ -118,7 +119,7 @@ scoreboard objectives remove timer.shockwave
 scoreboard objectives remove timer.stat.death
 scoreboard objectives remove timer.stat.kill
 scoreboard objectives remove timer.trident
-scoreboard objectives remove temp
+scoreboard objectives remove tornado
 scoreboard objectives remove tower_of_fate.barrier
 scoreboard objectives remove walk_distance
 scoreboard objectives remove weapon_1.ammo

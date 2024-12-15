@@ -43,10 +43,6 @@
 							"name": "ssbrc:init/preset/hybrid"
 						},
 						{
-							"function": "minecraft:reference",
-							"name": "ssbrc:init/ability/charge"
-						},
-						{
 							"function": "minecraft:set_lore",
 							"entity": "this",
 							"lore": [

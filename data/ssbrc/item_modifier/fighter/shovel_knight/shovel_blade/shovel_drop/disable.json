@@ -1,6 +1,4 @@
-[
-	{
-		"function": "minecraft:set_custom_data",
-		"tag": "{shovel_drop:\"false\"}"
-	}
-]
+{
+	"function": "minecraft:set_custom_data",
+	"tag": "{shovel_drop:\"false\"}"
+}

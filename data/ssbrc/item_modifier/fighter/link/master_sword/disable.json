@@ -1,5 +1,9 @@
 [
 	{
+		"function": "minecraft:reference",
+		"name": "ssbrc:init/ability/disable"
+	},
+	{
 		"function": "minecraft:set_custom_data",
 		"tag": "{awakened:\"false\"}"
 	}

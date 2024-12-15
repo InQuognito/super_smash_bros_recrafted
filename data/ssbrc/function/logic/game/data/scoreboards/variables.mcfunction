@@ -87,7 +87,6 @@ scoreboard players set mario.fireball.rotation const 160
 scoreboard players set mario.super_jump.threshold const 10
 scoreboard players set mario.super_jump.falloff const 200
 
-scoreboard players set mega_man.mega_buster.limit const 3
 scoreboard players set mega_man.air_shooter const 6
 scoreboard players set mega_man.beat_call const 20
 scoreboard players set mega_man.drill_bomb const 3

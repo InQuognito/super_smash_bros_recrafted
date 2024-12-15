@@ -1,13 +1,8 @@
-execute if items entity @s[tag=!wisdom] container.* #ssbrc:equipment[minecraft:custom_data~{spell:"fire"}] run scoreboard players operation cost temp = sora.firaga.cost const
-execute if items entity @s[tag=wisdom] container.* #ssbrc:equipment[minecraft:custom_data~{spell:"fire"}] run scoreboard players operation cost temp = sora.firaza.cost const
+execute if items entity @s weapon.mainhand #ssbrc:equipment[minecraft:custom_data~{spell:"fire"}] run function ssbrc:fighter/sora/logic/magic/hud/calculate/fire
 
-execute if items entity @s[tag=!wisdom] container.* #ssbrc:equipment[minecraft:custom_data~{spell:"blizzard"}] run scoreboard players operation cost temp = sora.blizzaga.cost const
-execute if items entity @s[tag=wisdom] container.* #ssbrc:equipment[minecraft:custom_data~{spell:"blizzard"}] run scoreboard players operation cost temp = sora.blizzaza.cost const
-execute if items entity @s[tag=wisdom,scores={charge.4=3..}] container.* #ssbrc:equipment[minecraft:custom_data~{spell:"blizzard"}] run scoreboard players operation cost temp *= 4 const
+execute if items entity @s weapon.mainhand #ssbrc:equipment[minecraft:custom_data~{spell:"blizzard"}] run function ssbrc:fighter/sora/logic/magic/hud/calculate/blizzard
 
-execute if items entity @s[tag=!wisdom] container.* #ssbrc:equipment[minecraft:custom_data~{spell:"thunder"}] run scoreboard players operation cost temp = sora.thundaga.cost const
-execute if items entity @s[tag=wisdom] container.* #ssbrc:equipment[minecraft:custom_data~{spell:"thunder"}] run scoreboard players operation cost temp = sora.thundaza.cost const
-execute if items entity @s container.* #ssbrc:equipment[minecraft:custom_data~{spell:"thunder"}] if score in_electric_terrain temp matches 1 run scoreboard players operation cost temp /= 2 const
+execute if items entity @s weapon.mainhand #ssbrc:equipment[minecraft:custom_data~{spell:"thunder"}] run function ssbrc:fighter/sora/logic/magic/hud/calculate/thunder
 
 scoreboard players operation magic.queued temp = cost temp
 scoreboard players operation magic.queued.counter temp = magic.queued temp

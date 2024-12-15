@@ -1007,6 +1007,58 @@ data modify storage ssbrc:data fighter set value {\
 					"model": "ssbrc:fighter/joker/item/rebel_knife/default"\
 				},\
 			},\
+			"rebel_knife_fire": {\
+				"default": {\
+					"name": "ssbrc.fighter.joker.rebel_knife.fire_boost",\
+					"tag": "rebel_knife",\
+					"color": "red",\
+					"model": "ssbrc:fighter/joker/item/rebel_knife/default"\
+				},\
+				"gold": {\
+					"name": "ssbrc.fighter.joker.rebel_knife.fire_boost",\
+					"tag": "rebel_knife",\
+					"color": "red",\
+					"model": "ssbrc:fighter/joker/item/rebel_knife/gold"\
+				},\
+				"shujin_academy": {\
+					"name": "ssbrc.fighter.joker.rebel_knife.fire_boost",\
+					"tag": "rebel_knife",\
+					"color": "red",\
+					"model": "ssbrc:fighter/joker/item/rebel_knife/default"\
+				},\
+				"christmas_outfit": {\
+					"name": "ssbrc.fighter.joker.rebel_knife.fire_boost",\
+					"tag": "rebel_knife",\
+					"color": "red",\
+					"model": "ssbrc:fighter/joker/item/rebel_knife/default"\
+				},\
+			},\
+			"rebel_knife_freeze": {\
+				"default": {\
+					"name": "ssbrc.fighter.joker.rebel_knife.freeze_boost",\
+					"tag": "rebel_knife",\
+					"color": "aqua",\
+					"model": "ssbrc:fighter/joker/item/rebel_knife/default"\
+				},\
+				"gold": {\
+					"name": "ssbrc.fighter.joker.rebel_knife.freeze_boost",\
+					"tag": "rebel_knife",\
+					"color": "aqua",\
+					"model": "ssbrc:fighter/joker/item/rebel_knife/gold"\
+				},\
+				"shujin_academy": {\
+					"name": "ssbrc.fighter.joker.rebel_knife.freeze_boost",\
+					"tag": "rebel_knife",\
+					"color": "aqua",\
+					"model": "ssbrc:fighter/joker/item/rebel_knife/default"\
+				},\
+				"christmas_outfit": {\
+					"name": "ssbrc.fighter.joker.rebel_knife.freeze_boost",\
+					"tag": "rebel_knife",\
+					"color": "aqua",\
+					"model": "ssbrc:fighter/joker/item/rebel_knife/default"\
+				},\
+			},\
 			"tt33": {\
 				"default": {\
 					"name": "ssbrc.fighter.joker.tt33",\
@@ -1031,32 +1083,6 @@ data modify storage ssbrc:data fighter set value {\
 					"tag": "tt33",\
 					"color": "gray",\
 					"model": "ssbrc:fighter/joker/item/tt33/default"\
-				},\
-			},\
-			"mask": {\
-				"default": {\
-					"name": "ssbrc.fighter.joker.tt33",\
-					"tag": "tt33",\
-					"color": "gray",\
-					"model": "ssbrc:fighter/joker/item/mask/default"\
-				},\
-				"gold": {\
-					"name": "ssbrc.fighter.joker.tt33",\
-					"tag": "tt33",\
-					"color": "gold",\
-					"model": "ssbrc:fighter/joker/item/mask/gold"\
-				},\
-				"shujin_academy": {\
-					"name": "ssbrc.fighter.joker.tt33",\
-					"tag": "tt33",\
-					"color": "gray",\
-					"model": "ssbrc:fighter/joker/item/mask/default"\
-				},\
-				"christmas_outfit": {\
-					"name": "ssbrc.fighter.joker.tt33",\
-					"tag": "tt33",\
-					"color": "gray",\
-					"model": "ssbrc:fighter/joker/item/mask/default"\
 				},\
 			},\
 		}\

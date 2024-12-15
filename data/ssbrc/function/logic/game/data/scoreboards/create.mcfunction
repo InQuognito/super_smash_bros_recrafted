@@ -123,6 +123,7 @@ scoreboard objectives add steve.tier dummy
 scoreboard objectives add stocks dummy
 scoreboard objectives add self_destruct dummy
 scoreboard objectives add team dummy
+scoreboard objectives add temp dummy
 scoreboard objectives add timer dummy
 scoreboard objectives add timer.barrel_cannon dummy
 scoreboard objectives add timer.galaxian_flagship dummy
@@ -130,7 +131,7 @@ scoreboard objectives add timer.shockwave dummy
 scoreboard objectives add timer.stat.death dummy
 scoreboard objectives add timer.stat.kill dummy
 scoreboard objectives add timer.trident dummy
-scoreboard objectives add temp dummy
+scoreboard objectives add tornado dummy
 scoreboard objectives add tower_of_fate.barrier dummy
 scoreboard objectives add walk_distance minecraft.custom:minecraft.walk_one_cm
 scoreboard objectives add weapon_3.ammo dummy

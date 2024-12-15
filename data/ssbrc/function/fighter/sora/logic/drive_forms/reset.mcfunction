@@ -7,3 +7,5 @@ tag @s remove valor_form
 tag @s remove wisdom_form
 tag @s remove anti_form
 tag @s remove anti
+
+tag @s remove hud_disabled

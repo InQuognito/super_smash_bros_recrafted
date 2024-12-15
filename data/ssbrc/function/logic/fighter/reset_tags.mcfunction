@@ -77,7 +77,7 @@ tag @s remove pk_flash
 tag @s remove guardian_orbitars
 tag @s remove palutena_bow.split
 
-# Pokemon Trainer
+# Pokémon Trainer
 function ssbrc:fighter/pokemon_trainer/kits/reset
 function ssbrc:fighter/pokemon_trainer/logic/ivysaur/leech_seed/reset
 tag @s remove armor_break

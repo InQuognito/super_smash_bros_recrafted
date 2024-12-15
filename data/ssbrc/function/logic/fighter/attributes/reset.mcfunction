@@ -39,7 +39,7 @@ attribute @s minecraft:knockback_resistance modifier remove ssbrc:yatagarasu
 attribute @s minecraft:gravity modifier remove ssbrc:luigi
 attribute @s minecraft:jump_strength modifier remove ssbrc:super_jump
 
-# Pokemon Trainer
+# Pokémon Trainer
 attribute @s minecraft:armor modifier remove ssbrc:armor_break
 
 # Ryu

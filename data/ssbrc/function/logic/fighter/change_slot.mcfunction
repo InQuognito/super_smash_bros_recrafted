@@ -6,8 +6,6 @@ execute if data storage ssbrc:temp player.temp_data{fighter:"byleth"} run functi
 
 execute if data storage ssbrc:temp player.temp_data{fighter:"hero"} run function ssbrc:fighter/hero/logic/magic/update
 
-execute if data storage ssbrc:temp player.temp_data{fighter:"joker"} run title @s actionbar ""
-
 execute if data storage ssbrc:temp player.temp_data{fighter:"mega_man"} run function ssbrc:fighter/mega_man/logic/armor/get
 
 execute if data storage ssbrc:temp player.temp_data{fighter:"shovel_knight"} run function ssbrc:fighter/shovel_knight/logic/magic/update

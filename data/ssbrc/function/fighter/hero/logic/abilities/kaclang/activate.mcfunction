@@ -11,7 +11,7 @@ function ssbrc:logic/fighter/armor/update/check
 function ssbrc:fighter/hero/logic/magic/disable
 
 scoreboard players operation @s magic -= hero.kaclang.cost const
-function ssbrc:fighter/hero/logic/magic/check
+function ssbrc:fighter/hero/logic/magic/update
 
 playsound ssbrc:fighter.hero.kaclang.activate player @a
 playsound ssbrc:items.metal_box.activate player @a

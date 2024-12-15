@@ -1,6 +1,7 @@
 function ssbrc:fighter/sora/logic/drive_forms/enter {form:"anti"}
 tag @s add anti
 
+tag @s add hud_disabled
 title @s actionbar ""
 
 scoreboard players set @s charge.2 0

@@ -1,4 +1,10 @@
-{
-	"function": "minecraft:set_custom_data",
-	"tag": "{awakened:\"true\"}"
-}
+[
+	{
+		"function": "minecraft:reference",
+		"name": "ssbrc:init/ability/charge"
+	},
+	{
+		"function": "minecraft:set_custom_data",
+		"tag": "{awakened:\"true\"}"
+	}
+]

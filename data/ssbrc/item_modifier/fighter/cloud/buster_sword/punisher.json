@@ -14,7 +14,7 @@
 				"italic": false,
 				"extra": [
 					{
-						"translate": "ssbrc.fighter.cloud.crossSlash",
+						"translate": "ssbrc.fighter.cloud.cross_slash",
 						"color": "gray",
 						"bold": false,
 						"italic": false
@@ -22,7 +22,7 @@
 				]
 			},
 			{
-				"translate": "ssbrc.fighter.cloud.crossSlash.description.1",
+				"translate": "ssbrc.fighter.cloud.cross_slash.description.1",
 				"color": "gray",
 				"bold": false,
 				"italic": false

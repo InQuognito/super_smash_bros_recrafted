@@ -1,7 +1,7 @@
 [
 	{
 		"function": "minecraft:reference",
-		"name": "ssbrc:fighter/joker/rebel_knife/awakened/off",
+		"name": "ssbrc:fighter/joker/rebel_knife/default",
 		"conditions": [
 			{
 				"condition": "minecraft:inverted",
@@ -19,7 +19,7 @@
 	},
 	{
 		"function": "minecraft:reference",
-		"name": "ssbrc:fighter/joker/rebel_knife/awakened/on",
+		"name": "ssbrc:fighter/joker/rebel_knife/awakened",
 		"conditions": [
 			{
 				"condition": "minecraft:entity_scores",

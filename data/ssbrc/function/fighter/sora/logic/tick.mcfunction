@@ -11,4 +11,4 @@ execute if data storage ssbrc:temp player.temp_data{form:"anti"} positioned ~ ~0
 scoreboard players set @s[scores={duration.2=1}] charge.4 0
 
 # Firaza
-execute if score @s charge.3 matches 1.. rotated as @e[type=minecraft:marker,tag=sora.spinner,limit=1] positioned ^ ^1 ^1.5 run function ssbrc:fighter/sora/logic/abilities/fire/firaza/tick
+execute if score @s charge.3 matches 1.. run function ssbrc:fighter/sora/logic/abilities/fire/firaza/tick

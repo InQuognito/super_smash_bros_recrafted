@@ -37,6 +37,32 @@
 							"name": "ssbrc:init/ability/charge"
 						},
 						{
+							"function": "minecraft:reference",
+							"name": "ssbrc:fighter/cloud/buster_sword/operator",
+							"conditions": [
+								{
+									"condition": "minecraft:entity_properties",
+									"entity": "this",
+									"predicate": {
+										"nbt": "{Tags:[\"operator\"]}"
+									}
+								}
+							]
+						},
+						{
+							"function": "minecraft:reference",
+							"name": "ssbrc:fighter/cloud/buster_sword/punisher",
+							"conditions": [
+								{
+									"condition": "minecraft:entity_properties",
+									"entity": "this",
+									"predicate": {
+										"nbt": "{Tags:[\"punisher\"]}"
+									}
+								}
+							]
+						},
+						{
 							"function": "minecraft:set_custom_data",
 							"tag": "{item:\"buster_sword\"}"
 						}

@@ -55,7 +55,7 @@
 							"function": "minecraft:set_components",
 							"components": {
 								"minecraft:max_damage": 20,
-								"minecraft:item_model": "ssbrc:fighter/hero/item/kaclang/default"
+								"minecraft:item_model": "ssbrc:fighter/hero/item/kaclang"
 							}
 						},
 						{

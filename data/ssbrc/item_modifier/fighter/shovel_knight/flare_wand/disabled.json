@@ -10,6 +10,12 @@
 		}
 	},
 	{
+		"function": "minecraft:set_components",
+		"components": {
+			"minecraft:item_model": "ssbrc:fighter/shovel_knight/item/flare_wand/disabled"
+		}
+	},
+	{
 		"function": "minecraft:reference",
 		"name": "ssbrc:fighter/shovel_knight/disabled"
 	}

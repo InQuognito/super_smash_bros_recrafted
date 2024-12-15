@@ -13,10 +13,6 @@
 		"mode": "append"
 	},
 	{
-		"function": "minecraft:set_custom_model_data",
-		"value": 1
-	},
-	{
 		"function": "minecraft:set_custom_data",
 		"tag": "{disabled:\"true\"}"
 	},

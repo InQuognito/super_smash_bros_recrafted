@@ -25,8 +25,8 @@ summon minecraft:item_display -550.5 -2.925 -1936.5 {CustomName:'"sugarshrimp"',
 # Art Team
 summon minecraft:text_display -546.5 -1.75 -1949.5 {Tags:["credits_text"],text:'{"translate":"ssbrc.credits.art_team","bold":true,"color":"gold"}',billboard:"center",alignment:"center"}
 
-summon minecraft:text_display -550.5 -1.75 -1954.5 {Tags:["credits_text"],text:'{"text":"Peteerrosh","bold":true}',billboard:"center",alignment:"center"}
-summon minecraft:item_display -550.5 -2.925 -1954.5 {CustomName:'"peteerrosh"',Tags:["standard_highlight","selectable","developer"],item:{id:"minecraft:stick",components:{"minecraft:item_model":"ssbrc:misc/developer/peteerrosh"}}}
+summon minecraft:text_display -543.5 -1.75 -1952.5 {Tags:["credits_text"],text:'{"text":"Peteerrosh","bold":true}',billboard:"center",alignment:"center"}
+summon minecraft:item_display -543.5 -2.925 -1952.5 {CustomName:'"peteerrosh"',Tags:["standard_highlight","selectable","developer"],item:{id:"minecraft:stick",components:{"minecraft:item_model":"ssbrc:misc/developer/peteerrosh"}}}
 
 summon minecraft:text_display -549.5 -1.75 -1952.5 {Tags:["credits_text"],text:'{"text":"HomegaddielMC","bold":true}',billboard:"center",alignment:"center"}
 summon minecraft:item_display -549.5 -2.925 -1952.5 {CustomName:'"homegaddielmc"',Tags:["standard_highlight","selectable","developer"],item:{id:"minecraft:stick",components:{"minecraft:item_model":"ssbrc:misc/developer/homegaddielmc"}}}
@@ -45,8 +45,8 @@ summon minecraft:item_display -545.5 -2.925 -1952.5 {CustomName:'"davidtippy"',T
 summon minecraft:text_display -544.5 -1.75 -1954.5 {Tags:["credits_text"],text:'{"text":"Ricardo64","bold":true}',billboard:"center",alignment:"center"}
 summon minecraft:item_display -544.5 -2.925 -1954.5 {CustomName:'"ricardo64"',Tags:["standard_highlight","selectable","developer"],item:{id:"minecraft:stick",components:{"minecraft:item_model":"ssbrc:misc/developer/ricardo64"}}}
 
-summon minecraft:text_display -543.5 -1.75 -1952.5 {Tags:["credits_text"],text:'{"text":"PastaPower2K64","bold":true}',billboard:"center",alignment:"center"}
-summon minecraft:item_display -543.5 -2.925 -1952.5 {CustomName:'"pastapower2k64"',Tags:["standard_highlight","selectable","developer"],item:{id:"minecraft:stick",components:{"minecraft:item_model":"ssbrc:misc/developer/pastapower2k64"}}}
+summon minecraft:text_display -550.5 -1.75 -1954.5 {Tags:["credits_text"],text:'{"text":"PastaPower2K64","bold":true}',billboard:"center",alignment:"center"}
+summon minecraft:item_display -550.5 -2.925 -1954.5 {CustomName:'"pastapower2k64"',Tags:["standard_highlight","selectable","developer"],item:{id:"minecraft:stick",components:{"minecraft:item_model":"ssbrc:misc/developer/pastapower2k64"}}}
 
 summon minecraft:text_display -542.5 -1.75 -1954.5 {Tags:["credits_text"],text:'{"text":"MiffenKop","bold":true}',billboard:"center",alignment:"center"}
 summon minecraft:item_display -542.5 -2.925 -1954.5 {CustomName:'"miffenkop"',Tags:["standard_highlight","selectable","developer"],item:{id:"minecraft:stick",components:{"minecraft:item_model":"ssbrc:misc/developer/miffenkop"}}}
@@ -55,11 +55,12 @@ summon minecraft:text_display -551.5 -1.75 -1952.5 {Tags:["credits_text"],text:'
 summon minecraft:item_display -551.5 -2.925 -1952.5 {CustomName:'"lostpuppet"',Tags:["standard_highlight","selectable","developer"],item:{id:"minecraft:stick",components:{"minecraft:item_model":"ssbrc:misc/developer/lostpuppet"}}}
 
 # Testers
-summon minecraft:text_display -534.5 -1.75 -1939.1 {Tags:["credits_text"],text:'{"translate":"ssbrc.credits.testers","bold":true,"color":"yellow"}',background:0,Rotation:[180f,0f],alignment:"center"}
+summon minecraft:text_display -534.5 -1.5 -1939.1 {Tags:["credits_text"],text:'{"translate":"ssbrc.credits.testers","bold":true,"color":"yellow"}',background:0,Rotation:[180f,0f],alignment:"center"}
 
-summon minecraft:text_display -534.5 -4.5 -1939.1 {Tags:["credits_text"],text:'[{"text":"3DSCarnaje\\n"},{"text":"AndrewAwesome87\\n"},{"text":"Mewion\\n"},{"text":"MysticGamer123\\n"},{"text":"P5eudonym\\n"},{"text":"RulerOEverything"}]',background:0,Rotation:[180f,0f],alignment:"center"}
+summon minecraft:text_display -534.5 -4.5 -1939.1 {Tags:["credits_text"],text:'[{"text":"3DSCarnaje\\n\\n"},{"text":"AndrewAwesome87\\n\\n"},{"text":"Mewion\\n\\n"},{"text":"MysticGamer123\\n\\n"},{"text":"P5eudonym\\n\\n"},{"text":"RulerOEverything"}]',background:0,Rotation:[180f,0f],alignment:"center"}
 
 # Special Thanks
-summon minecraft:text_display -534.5 -1.75 -1949.9 {Tags:["credits_text"],text:'{"translate":"ssbrc.credits.special_thanks","bold":true,"color":"yellow"}',background:0,alignment:"center"}
+summon minecraft:text_display -534.5 -1.5 -1949.9 {Tags:["credits_text"],text:'{"translate":"ssbrc.credits.special_thanks","bold":true,"color":"yellow"}',background:0,alignment:"center"}
 
-summon minecraft:text_display -534.5 -4.5 -1949.9 {Tags:["credits_text"],text:'[{"text":"Minecraft Commands Discord\\n"},{"text":"ComicalFont\\n"},{"text":"DawnKiro\\n"},{"text":"LIL_BOI_BLU\\n"},{"text":"Mongoose1716\\n"},{"text":"Simplly\\n"},{"text":"Sushironi\\n"},{"text":"YaBoiDenver"}]',background:0,alignment:"center"}
+summon minecraft:text_display -537.0 -4.75 -1949.9 {Tags:["credits_text"],text:'["",{"text":"MCC Discord (Link)\\n"},{"text":"So much. Thank you ♡\\n\\n","color":"gray"},{"text":"Cobblemon (Link)\\n"},{"text":"Pokémon Assets\\n\\n","color":"gray"},{"text":"DawnKiro\\n"},{"text":"Shaders\\n\\n","color":"gray"},{"text":"Simplly\\n"},{"text":"Lobby","color":"gray"}]',background:0,alignment:"center"}
+summon minecraft:text_display -532.0 -4.75 -1949.9 {Tags:["credits_text"],text:'["",{"text":"Sushironi\\n"},{"text":"Various Contributions\\n\\n","color":"gray"},{"text":"Misc Building\\n"},{"text":"Mongoose1716\\nLIL_BOI_BLU\\n\\n","color":"gray"},{"text":"ComicalFont\\n"},{"text":"Dream Land\\n\\n","color":"gray"},{"text":"YaBoiDenver\\n"},{"text":"???","color":"gray"}]',background:0,alignment:"center"}
