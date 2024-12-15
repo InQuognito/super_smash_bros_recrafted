@@ -10,6 +10,3 @@ scoreboard players reset entity_killed temp
 
 # Stages
 function ssbrc:logic/stage/tick/after_start with storage ssbrc:temp game.stage
-
-# Kill Tridents on Ground
-execute as @e[type=minecraft:item,nbt={Item:{id:"minecraft:trident"}}] run function ssbrc:logic/fighter/projectile/trident

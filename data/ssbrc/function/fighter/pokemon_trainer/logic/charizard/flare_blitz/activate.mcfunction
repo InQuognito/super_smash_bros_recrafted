@@ -5,7 +5,7 @@ execute positioned ~ ~0.1 ~ summon minecraft:marker run function ssbrc:fighter/p
 effect give @s minecraft:levitation infinite 0 true
 
 scoreboard players set @s duration.1 30
-function ssbrc:logic/item/durability/reset/hand
+function ssbrc:logic/item/durability/reset/hand {key:"item",value:"flare_blitz"}
 
 function ssbrc:logic/fighter/flags/use_recovery
 

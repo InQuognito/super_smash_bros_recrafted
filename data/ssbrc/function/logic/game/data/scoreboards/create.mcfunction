@@ -130,7 +130,6 @@ scoreboard objectives add timer.galaxian_flagship dummy
 scoreboard objectives add timer.shockwave dummy
 scoreboard objectives add timer.stat.death dummy
 scoreboard objectives add timer.stat.kill dummy
-scoreboard objectives add timer.trident dummy
 scoreboard objectives add tornado dummy
 scoreboard objectives add tower_of_fate.barrier dummy
 scoreboard objectives add walk_distance minecraft.custom:minecraft.walk_one_cm

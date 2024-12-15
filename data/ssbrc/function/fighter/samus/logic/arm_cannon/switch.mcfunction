@@ -1,5 +1,5 @@
 item modify entity @s weapon.mainhand {function:"minecraft:set_components",components:{"minecraft:max_damage":20}}
-function ssbrc:logic/item/durability/reset/hand
+function ssbrc:logic/item/durability/reset/hand {key:"group",value:"arm_cannon"}
 
 playsound ssbrc:fighter.samus.swap_weapon player @a
 

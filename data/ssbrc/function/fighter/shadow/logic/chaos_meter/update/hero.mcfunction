@@ -6,7 +6,7 @@ scoreboard players operation shadow.hero_percent temp /= shadow.chaos_meter.max 
 
 execute unless items entity @s container.* minecraft:nether_star[minecraft:custom_data~{item:"chaos_control"}] if score @s shadow.meter.hero >= shadow.chaos_meter.max const run loot replace entity @s hotbar.3 loot ssbrc:fighter/shadow/chaos_control
 
-tag @s remove alignment.dark
+tag @s remove alignment.villain
 tag @s add alignment.hero
 
 scoreboard players set n temp 10

@@ -7,7 +7,7 @@ execute as @e[tag=!self,predicate=ssbrc:flag/targets,distance=..0.5] run damage 
 scoreboard players set $y player_motion.api.launch 5000
 function player_motion:api/launch_xyz
 
-function ssbrc:logic/item/durability/reset/hand
+function ssbrc:logic/item/durability/reset/hand {key:"item",value:"splash"}
 
 playsound ssbrc:fighter.team_rocket.wobbuffet.splash.activate player @a
 

@@ -7,6 +7,6 @@ data merge entity @s {transformation:[1.5f,0f,0f,0f,0f,1.5f,0f,0f,0f,0f,1.5f,0f,
 
 team join gold
 
-execute if entity @s[tag=gold] run return run item replace entity @s contents with minecraft:nether_star[minecraft:item_model="ssbrc:fighter/pokemon_trainer/skin/gold/squirtle_shell"]
-execute if entity @s[tag=shiny] run return run item replace entity @s contents with minecraft:nether_star[minecraft:item_model="ssbrc:fighter/pokemon_trainer/skin/shiny/squirtle_shell"]
-item replace entity @s contents with minecraft:nether_star[minecraft:item_model="ssbrc:fighter/pokemon_trainer/skin/default/squirtle_shell"]
+execute if entity @s[tag=gold] run return run item replace entity @s contents with minecraft:nether_star[minecraft:item_model="ssbrc:fighter/pokemon_trainer/misc/squirtle_shell/gold"]
+execute if entity @s[tag=shiny] run return run item replace entity @s contents with minecraft:nether_star[minecraft:item_model="ssbrc:fighter/pokemon_trainer/misc/squirtle_shell/shiny"]
+item replace entity @s contents with minecraft:nether_star[minecraft:item_model="ssbrc:fighter/pokemon_trainer/misc/squirtle_shell/default"]

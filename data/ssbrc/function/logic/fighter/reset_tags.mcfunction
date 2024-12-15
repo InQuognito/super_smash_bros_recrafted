@@ -86,9 +86,9 @@ tag @s remove armor_break
 tag @s remove satsui_no_hado_rage
 
 # Shadow
-tag @s remove alignment.dark
 tag @s remove alignment.hero
 tag @s remove alignment.neutral
+tag @s remove alignment.villain
 
 # Shovel Knight
 function ssbrc:fighter/shovel_knight/kits/offense/reset

@@ -2,7 +2,7 @@ function ssbrc:logic/fighter/ability/init
 
 execute anchored eyes positioned ^ ^ ^1 summon minecraft:marker run function ssbrc:fighter/mega_man/logic/abilities/hyper_bomb/init/marker
 
-function ssbrc:logic/item/durability/reset/hand
+function ssbrc:logic/item/durability/reset/hand {key:"item",value:"hyper_bomb"}
 
 scoreboard players add @s cooldown 20
 

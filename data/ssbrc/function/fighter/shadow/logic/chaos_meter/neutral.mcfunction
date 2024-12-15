@@ -1,3 +1,3 @@
 tag @s remove alignment.hero
 
-tag @s remove alignment.dark
+tag @s remove alignment.villain

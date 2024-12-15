@@ -7,7 +7,7 @@ scoreboard players set @s[tag=!falcon_charge] charge.2 1
 execute if entity @s[tag=falcon_charge] run function ssbrc:fighter/captain_falcon/logic/abilities/falcon_charge/effects
 
 item modify entity @s weapon.mainhand {function:"minecraft:set_components",components:{"minecraft:max_damage":35}}
-function ssbrc:logic/item/durability/reset/hand
+function ssbrc:logic/item/durability/reset/hand {key:"item",value:"falcon_charge"}
 
 playsound ssbrc:fighter.captain_falcon.falcon_charge.activate player @a
 

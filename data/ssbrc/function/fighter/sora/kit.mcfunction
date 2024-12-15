@@ -1,4 +1,4 @@
-function ssbrc:fighter/sora/logic/drive_forms/reset
+function ssbrc:fighter/sora/cleanup
 
 scoreboard players operation @s magic = sora.magic.max const
 

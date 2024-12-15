@@ -7,7 +7,7 @@ scoreboard players operation shadow.dark_percent temp /= shadow.chaos_meter.max 
 execute unless items entity @s container.* minecraft:nether_star[minecraft:custom_data~{item:"chaos_blast"}] if score @s shadow.meter.dark >= shadow.chaos_meter.max const run loot replace entity @s hotbar.4 loot ssbrc:fighter/shadow/chaos_blast
 
 tag @s remove alignment.hero
-tag @s add alignment.dark
+tag @s add alignment.villain
 
 scoreboard players set n temp 10
 

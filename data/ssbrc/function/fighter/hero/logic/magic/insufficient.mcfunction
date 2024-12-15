@@ -1,4 +1,4 @@
-function ssbrc:logic/item/durability/reset/hand
+function ssbrc:logic/item/durability/reset/hand {key:"group",value:"hero.spell"}
 
 playsound ssbrc:fighter.hero.insufficient_magic player @s
 

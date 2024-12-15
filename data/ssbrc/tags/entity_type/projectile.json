@@ -6,7 +6,6 @@
 		"minecraft:fireball",
 		"minecraft:firework_rocket",
 		"minecraft:item_display",
-		"minecraft:marker",
-		"minecraft:trident"
+		"minecraft:marker"
 	]
 }

@@ -118,7 +118,6 @@ scoreboard objectives remove timer.galaxian_flagship
 scoreboard objectives remove timer.shockwave
 scoreboard objectives remove timer.stat.death
 scoreboard objectives remove timer.stat.kill
-scoreboard objectives remove timer.trident
 scoreboard objectives remove tornado
 scoreboard objectives remove tower_of_fate.barrier
 scoreboard objectives remove walk_distance

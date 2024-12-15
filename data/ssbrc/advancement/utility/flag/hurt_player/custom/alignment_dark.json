@@ -21,7 +21,7 @@
 						"condition": "minecraft:entity_properties",
 						"entity": "this",
 						"predicate": {
-							"nbt": "{Tags:[\"alignment.dark\"]}"
+							"nbt": "{Tags:[\"alignment.villain\"]}"
 						}
 					}
 				]
