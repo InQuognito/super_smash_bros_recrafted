@@ -4,20 +4,14 @@ $summon minecraft:text_display ~ ~ ~ {Tags:["leaderboard.label","leaderboard.$(v
 
 tag @a remove leaderboard.loaded
 
-data remove storage ssbrc:leaderboard n
+data remove storage ssbrc:temp leaderboard
 
-data remove storage ssbrc:leaderboard 1
-data remove storage ssbrc:leaderboard 2
-data remove storage ssbrc:leaderboard 3
-data remove storage ssbrc:leaderboard 4
-data remove storage ssbrc:leaderboard 5
+$data modify storage ssbrc:temp leaderboard.value set value "$(value)"
+$data modify storage ssbrc:temp leaderboard.ratio set value "$(ratio)"
 
-$data modify storage ssbrc:leaderboard value set value "$(value)"
-$data modify storage ssbrc:leaderboard ratio set value "$(ratio)"
-
-data modify storage ssbrc:leaderboard n set value 1
-function ssbrc:logic/lobby/leaderboard/check with storage ssbrc:leaderboard
+data modify storage ssbrc:temp leaderboard.n set value 1
+function ssbrc:logic/lobby/leaderboard/check with storage ssbrc:temp leaderboard
 
 tag @a remove leaderboard.loaded
 
-function ssbrc:logic/lobby/leaderboard/update with storage ssbrc:leaderboard
+function ssbrc:logic/lobby/leaderboard/update with storage ssbrc:temp leaderboard
