@@ -17,3 +17,4 @@ $data modify block 0 17 0 front_text.messages[0] set value '{"score":{"name":"le
 $data modify storage ssbrc:temp leaderboard.$(n).ratio_decimal set from block 0 17 0 front_text.messages[0]
 
 tag @s add leaderboard.loaded
+execute as @a[tag=leaderboard.loaded] run say i am on the leaderboard

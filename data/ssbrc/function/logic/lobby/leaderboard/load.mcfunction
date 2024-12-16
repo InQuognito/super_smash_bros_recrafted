@@ -1,5 +1,3 @@
-function ssbrc:logic/player/data/stats/calculate/run
-
 kill @e[type=minecraft:text_display,tag=leaderboard.label]
 
 execute positioned -507.01 5.0 -1947.5 run function ssbrc:logic/lobby/leaderboard/init {value:"wins",ratio:"win_loss"}
