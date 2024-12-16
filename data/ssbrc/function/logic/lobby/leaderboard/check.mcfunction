@@ -1,3 +1,8 @@
+$scoreboard players reset leaderboard.value.$(n) temp
+$scoreboard players reset leaderboard.ratio.$(n) temp
+$scoreboard players reset leaderboard.ratio.$(n).integer temp
+$scoreboard players reset leaderboard.ratio.$(n).decimal temp
+
 $scoreboard players operation leaderboard.value.$(n) temp > @a[tag=!leaderboard.loaded,scores={stats.$(value)=1..}] stats.$(value)
 
 $scoreboard players operation leaderboard.ratio.$(n) temp > @a[tag=!leaderboard.loaded,scores={stats.$(value)=1..}] stats.$(ratio)
