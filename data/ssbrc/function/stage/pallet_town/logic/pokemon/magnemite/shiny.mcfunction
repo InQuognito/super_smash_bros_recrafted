@@ -1,5 +1,5 @@
-item modify entity @s armor.head {"function":"minecraft:set_custom_model_data","value":1}
+item replace entity @s armor.head with minecraft:emerald[minecraft:item_model="ssbrc:common/pokemon/pokemon/magnemite/shiny/body"]
 
-item modify entity @s weapon.mainhand {"function":"minecraft:set_custom_model_data","value":1}
+item replace entity @s weapon.mainhand with minecraft:emerald[minecraft:item_model="ssbrc:common/pokemon/pokemon/magnemite/shiny/arms"]
 
-item modify entity @s weapon.offhand {"function":"minecraft:set_custom_model_data","value":1}
+item replace entity @s weapon.offhand with minecraft:emerald[minecraft:item_model="ssbrc:common/pokemon/pokemon/magnemite/shiny/arms"]
