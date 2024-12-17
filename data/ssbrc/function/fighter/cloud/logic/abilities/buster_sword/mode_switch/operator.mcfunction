@@ -1,7 +1,7 @@
 tag @s remove punisher
 tag @s add operator
 
-function ssbrc:logic/item/init/form/slot {item:"buster_sword",slot:"weapon.mainhand",form:"default"}
+function ssbrc:logic/item/init/variant/slot {item:"buster_sword",slot:"weapon.mainhand",variant:"default"}
 
 function ssbrc:fighter/cloud/logic/abilities/buster_sword/mode_switch/reset
 
