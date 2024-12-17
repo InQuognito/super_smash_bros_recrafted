@@ -10,5 +10,9 @@
 	{
 		"function": "minecraft:reference",
 		"name": "ssbrc:init/animation/instant"
+	},
+	{
+		"function": "minecraft:set_custom_data",
+		"tag": "{group:\"arm_cannon\"}"
 	}
 ]
