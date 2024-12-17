@@ -1,5 +1,4 @@
 tag @s add post
-tag @s add no_post
 
 scoreboard players operation @s id = id temp
 

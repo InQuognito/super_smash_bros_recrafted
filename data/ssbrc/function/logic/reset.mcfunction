@@ -28,8 +28,6 @@ function ssbrc:logic/game/team/reset
 kill @e[type=!minecraft:player,tag=!smithed.strict,tag=!smithed.entity]
 summon minecraft:marker 0.0 0.0 0.0 {Tags:["math"]}
 
-#forceload remove all
-
 # Memory Chunk
 forceload add 0 0 0 0
 # Lobby
@@ -38,6 +36,8 @@ forceload add -544 -1968 -497 -1921
 forceload add 112 144 175 207
 # Stage Select
 forceload add -160 -16 -17 159
+
+function ssbrc:logic/stage/loop {operation:"function ssbrc:logic/stage/forceload"}
 
 worldborder set 9999999
 worldborder center -520.5 -1944.5

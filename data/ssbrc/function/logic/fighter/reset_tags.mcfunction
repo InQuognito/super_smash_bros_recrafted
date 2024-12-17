@@ -52,15 +52,7 @@ tag @s remove magic_lost
 tag @s remove hot_air
 
 # Joker
-tag @s remove archangel
-tag @s remove arsene
-tag @s remove high_pixie
-tag @s remove jack_frost
-tag @s remove jack_o_lantern
-tag @s remove raoul
 tag @s remove rebels_guard
-tag @s remove sandman
-tag @s remove yatagarasu
 
 # Link
 tag @s remove sword_spin

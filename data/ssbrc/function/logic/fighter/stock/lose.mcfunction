@@ -4,7 +4,6 @@ execute if score game_mode options matches 2 run function ssbrc:logic/fighter/st
 
 # Spectate during respawn timer
 gamemode spectator @s
-spectate @r[predicate=ssbrc:flag/player] @s
 
 # Cleanup fighter remnants
 function ssbrc:logic/fighter/get {function:"ssbrc:logic/fighter/cleanup"}

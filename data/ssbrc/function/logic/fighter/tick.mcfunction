@@ -54,7 +54,7 @@ execute if data storage ssbrc:temp player.temp_data{skin:"gold"} run function ss
 scoreboard players reset @s flag.walking
 
 scoreboard players remove @s[scores={player_motion.storage.timer=1..}] player_motion.storage.timer 1
-execute if score @s player_motion.storage.timer matches 1 run function ssbrc:logic/fighter/launch
+execute if score @s player_motion.storage.timer matches 1 run function ssbrc:logic/fighter/motion/launch
 
 execute if score @s immobile matches 1.. run function ssbrc:logic/fighter/effects/mobility/tick
 execute if entity @s[tag=immobile.pivot.queue,tag=!immobile.pivot,predicate=!ssbrc:flag/in_air] run function ssbrc:logic/fighter/effects/mobility/pivot/activate
