@@ -1210,7 +1210,7 @@ data modify storage ssbrc:data fighter set value {\
 					"name": "ssbrc.fighter.kirby.tornado",\
 					"tag": "tornado",\
 					"color": "light_purple",\
-					"model": "ssbrc:fighter/kirby/item/tornado/default"\
+					"model": "null"\
 				},\
 			},\
 		}\
@@ -1242,38 +1242,6 @@ data modify storage ssbrc:data fighter set value {\
 			}\
 		},\
 		"items": {\
-			"master_sword": {\
-				"default": {\
-					"name": "ssbrc.fighter.link.master_sword",\
-					"tag": "master_sword",\
-					"color": "aqua",\
-					"model": "ssbrc:fighter/link/item/master_sword/default"\
-				},\
-				"gold": {\
-					"name": "ssbrc.fighter.link.master_sword",\
-					"tag": "master_sword",\
-					"color": "gold",\
-					"model": "ssbrc:fighter/link/item/master_sword/gold"\
-				},\
-				"dark_link": {\
-					"name": "ssbrc.fighter.link.master_sword",\
-					"tag": "master_sword",\
-					"color": "red",\
-					"model": "ssbrc:fighter/link/item/master_sword/dark_link"\
-				},\
-				"goron_tunic": {\
-					"name": "ssbrc.fighter.link.master_sword",\
-					"tag": "master_sword",\
-					"color": "aqua",\
-					"model": "ssbrc:fighter/link/item/master_sword/default"\
-				},\
-				"zora_tunic": {\
-					"name": "ssbrc.fighter.link.master_sword",\
-					"tag": "master_sword",\
-					"color": "aqua",\
-					"model": "ssbrc:fighter/link/item/master_sword/default"\
-				},\
-			},\
 			"fairy_bow": {\
 				"default": {\
 					"name": "ssbrc.fighter.link.fairy_bow",\
@@ -1304,6 +1272,70 @@ data modify storage ssbrc:data fighter set value {\
 					"tag": "fairy_bow",\
 					"color": "blue",\
 					"model": "ssbrc:fighter/link/item/fairy_bow/default"\
+				},\
+			},\
+			"hylian_shield": {\
+				"default": {\
+					"name": "ssbrc.fighter.link.hylian_shield",\
+					"tag": "hylian_shield",\
+					"color": "blue",\
+					"model": "default"\
+				},\
+				"gold": {\
+					"name": "ssbrc.fighter.link.hylian_shield",\
+					"tag": "hylian_shield",\
+					"color": "gold",\
+					"model": "gold"\
+				},\
+				"dark_link": {\
+					"name": "ssbrc.fighter.link.hylian_shield",\
+					"tag": "hylian_shield",\
+					"color": "red",\
+					"model": "dark_link"\
+				},\
+				"goron_tunic": {\
+					"name": "ssbrc.fighter.link.hylian_shield",\
+					"tag": "hylian_shield",\
+					"color": "blue",\
+					"model": "default"\
+				},\
+				"zora_tunic": {\
+					"name": "ssbrc.fighter.link.hylian_shield",\
+					"tag": "hylian_shield",\
+					"color": "blue",\
+					"model": "default"\
+				},\
+			},\
+			"master_sword": {\
+				"default": {\
+					"name": "ssbrc.fighter.link.master_sword",\
+					"tag": "master_sword",\
+					"color": "aqua",\
+					"model": "ssbrc:fighter/link/item/master_sword/default"\
+				},\
+				"gold": {\
+					"name": "ssbrc.fighter.link.master_sword",\
+					"tag": "master_sword",\
+					"color": "gold",\
+					"model": "ssbrc:fighter/link/item/master_sword/gold"\
+				},\
+				"dark_link": {\
+					"name": "ssbrc.fighter.link.master_sword",\
+					"tag": "master_sword",\
+					"color": "red",\
+					"model": "ssbrc:fighter/link/item/master_sword/dark_link"\
+				},\
+				"goron_tunic": {\
+					"name": "ssbrc.fighter.link.master_sword",\
+					"tag": "master_sword",\
+					"color": "aqua",\
+					"model": "ssbrc:fighter/link/item/master_sword/default"\
+				},\
+				"zora_tunic": {\
+					"name": "ssbrc.fighter.link.master_sword",\
+					"tag": "master_sword",\
+					"color": "aqua",\
+					"model": "ssbrc:fighter/link/item/master_sword/default"\
 				},\
 			},\
 		}\
@@ -2551,6 +2583,26 @@ data modify storage ssbrc:data fighter set value {\
 					"tag": "monochrome",\
 					"color": "gray",\
 					"model": "ssbrc:fighter/sora/item/keyblade/timeless_river/default"\
+				},\
+			},\
+			"keyblade_wisdom": {\
+				"default": {\
+					"name": "ssbrc.fighter.sora.kingdom_key",\
+					"tag": "kingdom_key",\
+					"color": "yellow",\
+					"model": "ssbrc:fighter/sora/item/keyblade/default/wisdom"\
+				},\
+				"gold": {\
+					"name": "ssbrc.fighter.sora.kingdom_key",\
+					"tag": "kingdom_key",\
+					"color": "gold",\
+					"model": "ssbrc:fighter/sora/item/keyblade/gold/wisdom"\
+				},\
+				"timeless_river": {\
+					"name": "ssbrc.fighter.sora.monochrome",\
+					"tag": "monochrome",\
+					"color": "gray",\
+					"model": "ssbrc:fighter/sora/item/keyblade/timeless_river/wisdom"\
 				},\
 			},\
 			"valor_form": {\

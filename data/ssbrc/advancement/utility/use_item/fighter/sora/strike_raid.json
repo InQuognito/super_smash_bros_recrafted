@@ -26,6 +26,11 @@
 						"entity": "this",
 						"predicate": {
 							"equipment": {
+								"mainhand": {
+									"predicates": {
+										"minecraft:custom_data": "{item:\"keyblade\"}"
+									}
+								},
 								"offhand": {
 									"predicates": {
 										"minecraft:custom_data": "{item:\"keyblade\"}"

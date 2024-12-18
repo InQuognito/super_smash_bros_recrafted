@@ -1,4 +1,4 @@
-scoreboard players set n temp 28
+scoreboard players set n temp 15
 
 function ssbrc:fighter/yar/logic/abilities/drone/projectile/move_forward
 

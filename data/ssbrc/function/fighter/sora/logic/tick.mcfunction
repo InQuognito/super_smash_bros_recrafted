@@ -8,7 +8,7 @@ execute if score @s duration.1 matches 1 run function ssbrc:fighter/sora/logic/d
 execute if data storage ssbrc:temp player.temp_data{form:"anti"} positioned ~ ~0.75 ~ run function ssbrc:fighter/sora/logic/drive_forms/anti/tick
 
 # Blizzaza
-scoreboard players set @s[scores={duration.2=1}] charge.4 0
+execute if score @s duration.2 matches 1 run function ssbrc:fighter/sora/logic/abilities/blizzard/blizzaza/reset
 
 # Firaza
 execute if score @s charge.3 matches 1.. run function ssbrc:fighter/sora/logic/abilities/fire/firaza/tick

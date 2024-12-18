@@ -1,4 +1,4 @@
-execute unless block ^ ^ ^0.5 #ssbrc:passthrough unless block ^ ^ ^0.5 minecraft:red_stained_glass run return run function ssbrc:stage/planet_epp/logic/hazards/qotile_zone/swirl/explode
+execute unless block ^ ^ ^0.5 #ssbrc:passthrough unless block ^ ^ ^0.5 minecraft:red_stained_glass run function ssbrc:stage/planet_epp/logic/hazards/qotile_zone/swirl/explode
 
 particle minecraft:dust_color_transition{from_color:[1.0,1.0,0.0],to_color:[1.0,1.0,1.0],scale:4.0} ~ ~ ~ 0.0 0.0 0.0 0.0 1 force @a
 

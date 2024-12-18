@@ -6,4 +6,4 @@ loot replace entity @s hotbar.2 loot ssbrc:fighter/link/boomerang
 
 item replace entity @s hotbar.8 with minecraft:spectral_arrow 10
 
-loot replace entity @s weapon.offhand loot ssbrc:fighter/link/hylian_shield
+function ssbrc:logic/item/init/slot {item:"hylian_shield",slot:"weapon.offhand",type:"shield"}

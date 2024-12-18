@@ -36,4 +36,4 @@ $execute unless items entity @s hotbar.6 * run return run function ssbrc:logic/i
 $execute unless items entity @s hotbar.7 * run return run function ssbrc:logic/item/init/slot {item:"$(item)",slot:"hotbar.7",type:"$(type)"}
 $execute unless items entity @s hotbar.8 * run return run function ssbrc:logic/item/init/slot {item:"$(item)",slot:"hotbar.8",type:"$(type)"}
 
-$execute unless items entity @s weapon.offhand * run return run function ssbrc:logic/item/init/slot {item:"$(item)",slot:"weapon.offhand",type:"$(type)"}
+$function ssbrc:logic/item/init/slot {item:"$(item)",slot:"weapon.offhand",type:"$(type)"}

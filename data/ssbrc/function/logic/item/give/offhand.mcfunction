@@ -36,4 +36,5 @@ $execute unless items entity @s inventory.22 * run return run function ssbrc:log
 $execute unless items entity @s inventory.23 * run return run function ssbrc:logic/item/init/slot {item:"$(item)",slot:"inventory.23",type:"$(type)"}
 $execute unless items entity @s inventory.24 * run return run function ssbrc:logic/item/init/slot {item:"$(item)",slot:"inventory.24",type:"$(type)"}
 $execute unless items entity @s inventory.25 * run return run function ssbrc:logic/item/init/slot {item:"$(item)",slot:"inventory.25",type:"$(type)"}
-$execute unless items entity @s inventory.26 * run return run function ssbrc:logic/item/init/slot {item:"$(item)",slot:"inventory.26",type:"$(type)"}
+
+$function ssbrc:logic/item/init/slot {item:"$(item)",slot:"inventory.26",type:"$(type)"}

@@ -6,21 +6,15 @@
 			"entries": [
 				{
 					"type": "minecraft:item",
-					"name": "minecraft:shield",
+					"name": "minecraft:nether_star",
 					"functions": [
 						{
 							"function": "minecraft:reference",
-							"name": "ssbrc:init/preset/defensive"
-						},
-						{
-							"function": "minecraft:set_components",
-							"components": {
-								"minecraft:max_damage": 30
-							}
+							"name": "ssbrc:fighter/sora/keyblades/init"
 						},
 						{
 							"function": "minecraft:set_custom_data",
-							"tag": "{item:\"hylian_shield\"}"
+							"tag": "{hand:\"primary\"}"
 						}
 					]
 				}
