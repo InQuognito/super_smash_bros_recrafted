@@ -1,2 +1,3 @@
-execute store success score phazon_overloadGained temp run loot replace entity @s[nbt=!{Inventory:[{Slot:4b}]}] hotbar.4 loot ssbrc:fighter/dark_samus/phazon_overload
-execute unless score phazon_overloadGained temp matches 1 store success score phazon_overloadGained temp run loot give @s[nbt={Inventory:[{Slot:4b}]}] loot ssbrc:fighter/dark_samus/phazon_overload
+execute unless items entity @s hotbar.4 * run return run function ssbrc:logic/item/init/slot {item:"phazon_overload",slot:"hotbar.4",type:"skin"}
+
+function ssbrc:logic/item/give/default {item:"phazon_overload",type:"skin"}

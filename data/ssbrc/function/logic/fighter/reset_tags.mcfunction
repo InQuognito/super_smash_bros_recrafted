@@ -60,6 +60,7 @@ tag @s remove sword_spin
 # Mega Man
 function ssbrc:fighter/mega_man/logic/weapons/reset
 tag @s remove beat_call
+tag @s remove beat_call.target
 tag @s remove junk_shield
 
 # Ness

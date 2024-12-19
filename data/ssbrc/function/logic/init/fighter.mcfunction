@@ -196,7 +196,7 @@ data modify storage ssbrc:data fighter set value {\
 		"miiverse_posts": 1,\
 		"default_form": "default",\
 		"color": "green",\
-		"alignment": "dark",\
+		"alignment": "villain",\
 		"skin_count": 3,\
 		"skin": {\
 			"bowsette": {\
@@ -443,7 +443,7 @@ data modify storage ssbrc:data fighter set value {\
 		"miiverse_posts": 1,\
 		"default_form": "default",\
 		"color": "aqua",\
-		"alignment": "dark",\
+		"alignment": "villain",\
 		"skin_count": 3,\
 		"skin": {\
 			"prime_3": {\
@@ -636,7 +636,7 @@ data modify storage ssbrc:data fighter set value {\
 		"miiverse_posts": 1,\
 		"default_form": "default",\
 		"color": "red",\
-		"alignment": "dark",\
+		"alignment": "villain",\
 		"skin_count": 5,\
 		"skin": {\
 			"ocarina_of_time": {\
@@ -697,7 +697,7 @@ data modify storage ssbrc:data fighter set value {\
 		"miiverse_posts": 1,\
 		"default_form": "default",\
 		"color": "light_purple",\
-		"alignment": "dark",\
+		"alignment": "villain",\
 		"skin_count": 2,\
 		"skin": {\
 		},\
@@ -1097,7 +1097,7 @@ data modify storage ssbrc:data fighter set value {\
 		"miiverse_posts": 1,\
 		"default_form": "default",\
 		"color": "dark_green",\
-		"alignment": "dark",\
+		"alignment": "villain",\
 		"skin_count": 2,\
 		"skin": {\
 		},\
@@ -1630,26 +1630,6 @@ data modify storage ssbrc:data fighter set value {\
 					"model": "ssbrc:fighter/mega_man/item/hyper_bomb/default"\
 				},\
 			},\
-			"junk_shield": {\
-				"default": {\
-					"name": "ssbrc.fighter.mega_man.junk_shield",\
-					"tag": "junk_shield",\
-					"color": "gray",\
-					"model": "ssbrc:fighter/mega_man/item/junk_shield/default"\
-				},\
-				"gold": {\
-					"name": "ssbrc.fighter.mega_man.junk_shield",\
-					"tag": "junk_shield",\
-					"color": "gray",\
-					"model": "ssbrc:fighter/mega_man/item/junk_shield/gold"\
-				},\
-				"star_force": {\
-					"name": "ssbrc.fighter.mega_man.junk_shield",\
-					"tag": "junk_shield",\
-					"color": "gray",\
-					"model": "ssbrc:fighter/mega_man/item/junk_shield/star_force"\
-				},\
-			},\
 			"mega_buster": {\
 				"default": {\
 					"name": "ssbrc.fighter.mega_man.mega_buster",\
@@ -1707,7 +1687,7 @@ data modify storage ssbrc:data fighter set value {\
 					"name": "ssbrc.fighter.mega_man.pile_driver",\
 					"tag": "pile_driver",\
 					"color": "#E6771E",\
-					"model": "ssbrc:fighter/mega_man/item/pile_driver/star_force"\
+					"model": "ssbrc:fighter/mega_man/item/pile_driver/default"\
 				},\
 			},\
 			"remote_mine": {\

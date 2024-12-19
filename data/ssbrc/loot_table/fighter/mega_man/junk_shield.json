@@ -9,6 +9,16 @@
 					"name": "minecraft:nether_star",
 					"functions": [
 						{
+							"function": "minecraft:set_name",
+							"entity": "this",
+							"name": {
+								"translate": "ssbrc.fighter.mega_man.junk_shield",
+								"color": "gray",
+								"bold": true,
+								"italic": false
+							}
+						},
+						{
 							"function": "minecraft:reference",
 							"name": "ssbrc:init/preset/ranged"
 						},
@@ -46,7 +56,8 @@
 						{
 							"function": "minecraft:set_components",
 							"components": {
-								"minecraft:max_damage": 40
+								"minecraft:max_damage": 40,
+								"minecraft:item_model": "ssbrc:fighter/mega_man/item/junk_shield"
 							}
 						},
 						{

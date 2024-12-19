@@ -11,16 +11,6 @@
 							"condition": "minecraft:entity_properties",
 							"entity": "this",
 							"predicate": {
-								"nbt": "{Tags:[\"junk_shield\"]}"
-							}
-						}
-					},
-					{
-						"condition": "minecraft:inverted",
-						"term": {
-							"condition": "minecraft:entity_properties",
-							"entity": "this",
-							"predicate": {
 								"nbt": "{Tags:[\"remote_mine\"]}"
 							}
 						}

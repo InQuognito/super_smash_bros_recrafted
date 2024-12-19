@@ -1,4 +1,4 @@
-function ssbrc:logic/damage/unsourced {amount:"4.0",type:"generic",kb_resist:"1.0"}
+function ssbrc:logic/damage/generic {amount:"4.0",type:"generic",kb_resist:"1.0",source:""}
 
 tag @s add blood_metamorphosis
 
