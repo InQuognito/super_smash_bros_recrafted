@@ -108,3 +108,6 @@ particle minecraft:item{item:"minecraft:lapis_block"} ^-0.06429137818861302 ^0.0
 particle minecraft:item{item:"minecraft:lapis_block"} ^-0.05001471001170437 ^0.08659404588333496 ^ ^-500147.10011704365 ^865940.4588333495 ^2000000.0 0.0000002 0 force @a
 particle minecraft:item{item:"minecraft:lapis_block"} ^-0.03421845958878519 ^0.09396327486508055 ^ ^-342184.5958878519 ^939632.7486508053 ^2000000.0 0.0000002 0 force @a
 particle minecraft:item{item:"minecraft:lapis_block"} ^-0.017382559757426627 ^0.09847764526165059 ^ ^-173825.59757426628 ^984776.4526165059 ^2000000.0 0.0000002 0 force @a
+
+playsound minecraft:block.note_block.snare player @a ~ ~ ~ 1.0 1.5
+playsound minecraft:entity.player.levelup player @a

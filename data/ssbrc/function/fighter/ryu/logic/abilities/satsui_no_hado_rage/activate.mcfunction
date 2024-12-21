@@ -13,7 +13,6 @@ scoreboard players set @s duration.1 400
 
 function ssbrc:logic/player/data/temp/set {mode:"store",key:"form",value:"evil"}
 
-function ssbrc:logic/item/modify {search_key:"item",search_value:"collarbone_breaker",path:"ssbrc:fighter/ryu/collarbone_breaker/evil"}
 function ssbrc:logic/fighter/armor/update/check
 
 item modify entity @s armor.legs {"function":"minecraft:set_lore","entity":"this","lore":[{"translate":"ssbrc.fighter.ryu.ashura_senku","color":"yellow","bold":false,"italic":false,"underlined":true},{"translate":"ssbrc.tooltip.hold_key","color":"gray","bold":false,"italic":false,"extra":[{"keybind":"key.sneak","color":"gray","bold":false,"italic":false},{"translate":"ssbrc.fighter.ryu.ashura_senku.description.1","color":"gray","bold":false,"italic":false}]}],"mode":"append"}
@@ -21,3 +20,6 @@ item modify entity @s armor.legs {"function":"minecraft:set_lore","entity":"this
 playsound ssbrc:fighter.ryu.satsui_no_hado_rage.activate player @a
 
 advancement revoke @s only ssbrc:utility/use_item/fighter/ryu/satsui_no_hado_rage
+
+execute if data storage ssbrc:temp player.temp_data{skin:"gold"} run return run function ssbrc:logic/item/modify {search_key:"item",search_value:"collarbone_breaker",path:"{\"function\":\"minecraft:set_components\",\"components\":{\"minecraft:item_model\":\"ssbrc:fighter/ryu/item/collarbone_breaker/gold/evil\"}}"}
+function ssbrc:logic/item/modify {search_key:"item",search_value:"collarbone_breaker",path:"{\"function\":\"minecraft:set_components\",\"components\":{\"minecraft:item_model\":\"ssbrc:fighter/ryu/item/collarbone_breaker/default/evil\"}}"}

@@ -75,6 +75,9 @@ function ssbrc:fighter/pokemon_trainer/kits/reset
 function ssbrc:fighter/pokemon_trainer/logic/ivysaur/leech_seed/reset
 tag @s remove armor_break
 
+# Rob
+tag @s remove robo_burner
+
 # Ryu
 tag @s remove satsui_no_hado_rage
 

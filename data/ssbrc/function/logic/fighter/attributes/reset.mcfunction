@@ -42,6 +42,9 @@ attribute @s minecraft:jump_strength modifier remove ssbrc:super_jump
 # Pokémon Trainer
 attribute @s minecraft:armor modifier remove ssbrc:armor_break
 
+# Rob
+attribute @s minecraft:gravity modifier remove ssbrc:robo_burner
+
 # Ryu
 attribute @s minecraft:attack_damage modifier remove ssbrc:fighter/ryu/satsui_no_hado_rage
 

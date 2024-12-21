@@ -1,6 +1,4 @@
-item modify entity @s weapon.mainhand ssbrc:fighter/byleth/black_eagles/aymr/awakened
-
-function ssbrc:logic/item/component/update/slot_unknown {mode:"add",amount:1,search_key:"item",search_value:"aymr",component:"minecraft:custom_model_data",output_path:"model temp"}
+item modify entity @s weapon.mainhand [{"function":"minecraft:set_name","entity":"this","name":{"translate":"ssbrc.fighter.byleth.black_eagles.aymr","color":"red","bold":true,"italic":false}},{"function":"minecraft:set_components","components":{"minecraft:item_model":"ssbrc:fighter/byleth/item/aymr/awakened"}},{"function":"minecraft:set_custom_data","tag":"{awakened:\"true\",chargable:\"false\"}"}]
 
 scoreboard players add @s cooldown 10
 

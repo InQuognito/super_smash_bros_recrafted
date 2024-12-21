@@ -101,6 +101,7 @@ data modify storage ssbrc:data fighter set value {\
 			"lords_of_shadow": {\
 				"name": "lords_of_shadow",\
 				"color": "dark_gray",\
+				"forms_isolated_to": "head",\
 			}\
 		},\
 		"items": {\
@@ -895,10 +896,12 @@ data modify storage ssbrc:data fighter set value {\
 			"shiny": {\
 				"name": "shiny",\
 				"color": "light_purple",\
+				"forms_isolated_to": "head",\
 			},\
 			"scream_tail": {\
 				"name": "scream_tail",\
 				"color": "light_purple",\
+				"forms_isolated_to": "head",\
 			}\
 		},\
 		"items": {\
@@ -974,10 +977,12 @@ data modify storage ssbrc:data fighter set value {\
 			"shujin_academy": {\
 				"name": "shujin_academy",\
 				"color": "dark_red",\
+				"forms_isolated_to": "head",\
 			},\
 			"christmas_outfit": {\
 				"name": "christmas_outfit",\
 				"color": "red",\
+				"forms_isolated_to": "head",\
 			}\
 		},\
 		"items": {\
@@ -1150,6 +1155,7 @@ data modify storage ssbrc:data fighter set value {\
 			"keeby": {\
 				"name": "keeby",\
 				"color": "yellow",\
+				"forms_isolated_to": "head",\
 			}\
 		},\
 		"items": {\
@@ -1859,6 +1865,7 @@ data modify storage ssbrc:data fighter set value {\
 			"retro": {\
 				"name": "retro",\
 				"color": "white",\
+				"forms_isolated_to": "body",\
 			}\
 		},\
 		"items": {\
@@ -1964,10 +1971,12 @@ data modify storage ssbrc:data fighter set value {\
 			"famicom": {\
 				"name": "famicom",\
 				"color": "red",\
+				"forms_isolated_to": "head",\
 			},\
 			"ancient_minister": {\
 				"name": "ancient_minister",\
 				"color": "dark_green",\
+				"forms_isolated_to": "body",\
 			}\
 		},\
 		"items": {\
@@ -2265,10 +2274,12 @@ data modify storage ssbrc:data fighter set value {\
 			"classic_tuxedo": {\
 				"name": "classic_tuxedo",\
 				"color": "white",\
+				"forms_isolated_to": "head",\
 			},\
 			"iroquois_pliskin": {\
 				"name": "iroquois_pliskin",\
 				"color": "dark_green",\
+				"forms_isolated_to": "head",\
 			}\
 		},\
 		"items": {\
@@ -2790,24 +2801,24 @@ data modify storage ssbrc:data fighter set value {\
 					"model": "ssbrc:fighter/yar/item/gatling_gun/default"\
 				},\
 			},\
-			"killspace_blade": {\
+			"trionic_blade": {\
 				"default": {\
-					"name": "ssbrc.fighter.yar.killspace_blade",\
-					"tag": "killspace_blade",\
+					"name": "ssbrc.fighter.yar.trionic_blade",\
+					"tag": "trionic_blade",\
 					"color": "white",\
-					"model": "ssbrc:fighter/yar/item/killspace_blade/default"\
+					"model": "ssbrc:fighter/yar/item/trionic_blade/default"\
 				},\
 				"gold": {\
-					"name": "ssbrc.fighter.yar.killspace_blade",\
-					"tag": "killspace_blade",\
+					"name": "ssbrc.fighter.yar.trionic_blade",\
+					"tag": "trionic_blade",\
 					"color": "gold",\
-					"model": "ssbrc:fighter/yar/item/killspace_blade/gold"\
+					"model": "ssbrc:fighter/yar/item/trionic_blade/gold"\
 				},\
 				"recruit": {\
-					"name": "ssbrc.fighter.yar.killspace_blade",\
-					"tag": "killspace_blade",\
+					"name": "ssbrc.fighter.yar.trionic_blade",\
+					"tag": "trionic_blade",\
 					"color": "white",\
-					"model": "ssbrc:fighter/yar/item/killspace_blade/default"\
+					"model": "ssbrc:fighter/yar/item/trionic_blade/default"\
 				},\
 			},\
 			"missile_launcher": {\

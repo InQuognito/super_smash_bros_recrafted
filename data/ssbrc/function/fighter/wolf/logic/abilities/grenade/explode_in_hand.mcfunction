@@ -6,6 +6,6 @@ function ssbrc:logic/item/cooldown/set/const {type:"2",value:"20"}
 particle minecraft:explosion ~ ~ ~ 0.0 0.0 0.0 0.0 1 normal @a
 playsound minecraft:entity.generic.explode player @a
 
-item modify entity @s weapon.mainhand {"function":"set_components","components":{"!minecraft:custom_model_data":{}}}
+item modify entity @s weapon.mainhand {"function":"minecraft:set_components","components":{"minecraft:item_model":"ssbrc:fighter/wolf/item/grenade/default"}}
 
 scoreboard players set @s charge.output 0

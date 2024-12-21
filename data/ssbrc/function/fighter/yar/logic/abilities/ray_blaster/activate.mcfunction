@@ -1,6 +1,6 @@
 function ssbrc:logic/fighter/ability/init
 
-execute anchored eyes positioned ^ ^ ^1 summon minecraft:marker run function ssbrc:fighter/yar/logic/abilities/ray_blaster/init
+execute anchored eyes positioned ^ ^ ^1 summon minecraft:marker run function ssbrc:fighter/yar/logic/abilities/ray_blaster/init {variant:"default"}
 
 function ssbrc:logic/item/cooldown/set/const {type:"1",value:"20"}
 

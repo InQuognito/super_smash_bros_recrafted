@@ -59,6 +59,11 @@ def fighter_storage():
 				mc_write(file, tab(3) + qm + skin + suf_e)
 				mc_write(file, tab(4) + qm + 'name' + sep_s + skin + suf_s)
 				mc_write(file, tab(4) + qm + 'color' + sep_s + get_color(fighter, skin) + suf_s)
+				if 'true_forms' in ssbrc.fighter[fighter].keys() and 'forms_isolated_to' in ssbrc.fighter[fighter].keys():
+					if 'forms_isolated_to' in ssbrc.fighter[fighter]['skin'][skin].keys():
+						mc_write(file, tab(4) + qm + 'forms_isolated_to' + sep_s + ssbrc.fighter[fighter]['skin'][skin]['forms_isolated_to'] + suf_s)
+					else:
+						mc_write(file, tab(4) + qm + 'forms_isolated_to' + sep_s + ssbrc.fighter[fighter]['forms_isolated_to'] + suf_s)
 				if n < (skin_count - 2):
 					mc_write(file, tab(3) + ent)
 				else:
