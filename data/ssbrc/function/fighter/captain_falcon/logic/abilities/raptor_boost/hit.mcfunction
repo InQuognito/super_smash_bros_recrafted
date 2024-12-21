@@ -1,6 +1,6 @@
 execute if score debug options matches 1.. run say raptor_boost | hit
 
-function ssbrc:logic/damage/generic {amount:"5.0",type:"generic",kb_resist:"0.0",source:" by @a[tag=self,limit=1"}
+function ssbrc:logic/damage/generic {amount:"5.0",type:"generic",kb_resist:"0.0",source:" by @a[tag=self,limit=1]"}
 
 function ssbrc:logic/fighter/motion/set {force:9000}
 
