@@ -5,4 +5,4 @@ item replace entity @s weapon.mainhand with minecraft:air
 
 playsound ssbrc:items.angel_feather.activate player @s
 
-advancement revoke @s only ssbrc:utility/use_item/items/angel_feather
+advancement revoke @s only ssbrc:utility/use_item/item/angel_feather

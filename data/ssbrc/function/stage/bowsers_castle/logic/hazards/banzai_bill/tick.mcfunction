@@ -1,5 +1,3 @@
-particle minecraft:dust{color:[1.0,0.0,0.0],scale:1.0} ^ ^ ^5 0.0 0.0 0.0 0.0 1 normal @a
-
 execute unless score @s temp matches 20..80 run teleport @s ^ ^ ^0.175
 kill @e[predicate=ssbrc:flag/targets,distance=..3]
 
