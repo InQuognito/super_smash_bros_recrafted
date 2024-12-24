@@ -16,6 +16,7 @@ tag @s remove shield_broken
 # Altered Beast
 tag @s remove altered_beast.is_beast
 tag @s remove shirtless
+tag @s remove wings_flapped
 
 # Alucard
 tag @s remove blood_metamorphosis

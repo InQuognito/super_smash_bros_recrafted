@@ -1,3 +1,5 @@
+function ssbrc:logic/player/data/temp/copy/check
+
 execute if data storage ssbrc:temp player.temp_data{fighter:"altered_beast"} run tellraw @s [{"text":"[","color":"dark_aqua"},{"translate":"ssbrc.fighter.menu.wiki","color":"aqua","clickEvent":{"action":"open_url","value":"https://super-smash-bros-recrafted.fandom.com/wiki/Altered_Beast"}},{"text":"]","color":"dark_aqua"}]
 execute if data storage ssbrc:temp player.temp_data{fighter:"alucard"} run tellraw @s [{"text":"[","color":"dark_aqua"},{"translate":"ssbrc.fighter.menu.wiki","color":"aqua","clickEvent":{"action":"open_url","value":"https://super-smash-bros-recrafted.fandom.com/wiki/Alucard"}},{"text":"]","color":"dark_aqua"}]
 execute if data storage ssbrc:temp player.temp_data{fighter:"bowser"} run tellraw @s [{"text":"[","color":"dark_aqua"},{"translate":"ssbrc.fighter.menu.wiki","color":"aqua","clickEvent":{"action":"open_url","value":"https://super-smash-bros-recrafted.fandom.com/wiki/Bowser"}},{"text":"]","color":"dark_aqua"}]

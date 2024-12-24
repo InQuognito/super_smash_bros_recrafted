@@ -37,7 +37,11 @@ attribute @s[scores={flag.sprinting=36}] minecraft:movement_speed modifier add s
 attribute @s[scores={flag.sprinting=37}] minecraft:movement_speed modifier add ssbrc:acceleration 0.0666 add_value
 attribute @s[scores={flag.sprinting=38}] minecraft:movement_speed modifier add ssbrc:acceleration 0.0703 add_value
 attribute @s[scores={flag.sprinting=39}] minecraft:movement_speed modifier add ssbrc:acceleration 0.0741 add_value
-execute if score @s flag.sprinting matches 40.. run function ssbrc:fighter/sonic/logic/speed/full
+attribute @s[scores={flag.sprinting=40}] minecraft:movement_speed modifier add ssbrc:acceleration 0.0780 add_value
+attribute @s[scores={flag.sprinting=41}] minecraft:movement_speed modifier add ssbrc:acceleration 0.0781 add_value
+attribute @s[scores={flag.sprinting=42}] minecraft:movement_speed modifier add ssbrc:acceleration 0.0782 add_value
+attribute @s[scores={flag.sprinting=43}] minecraft:movement_speed modifier add ssbrc:acceleration 0.0783 add_value
+attribute @s[scores={flag.sprinting=44}] minecraft:movement_speed modifier add ssbrc:acceleration 0.0784 add_value
+execute if score @s flag.sprinting matches 45.. run function ssbrc:fighter/sonic/logic/speed/full
 
-function ssbrc:math/speed/calculate
-scoreboard players operation out math /= 8 const
+function ssbrc:fighter/sonic/logic/speed/hud

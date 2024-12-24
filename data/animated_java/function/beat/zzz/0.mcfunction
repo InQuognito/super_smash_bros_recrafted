@@ -9,5 +9,4 @@ tp @s ~ ~ ~ ~ ~
 execute at @s on passengers run rotate @s ~ ~
 data modify entity @s teleport_duration set value 1
 execute on passengers run data modify entity @s teleport_duration set value 1
-ride @s mount @n[type=minecraft:bee,tag=beat,distance=..0.1]
 function #animated_java:beat/as_root/on_summon

@@ -57,7 +57,7 @@ summon minecraft:item_display -551.5 -2.925 -1952.5 {CustomName:'"lostpuppet"',T
 # Testers
 summon minecraft:text_display -534.5 -1.5 -1939.1 {Tags:["credits_text"],text:'{"translate":"ssbrc.credits.testers","bold":true,"color":"yellow"}',background:0,Rotation:[180f,0f],alignment:"center"}
 
-summon minecraft:text_display -534.5 -4.5 -1939.1 {Tags:["credits_text"],text:'[{"text":"3DSCarnaje\\n\\n"},{"text":"AndrewAwesome87\\n\\n"},{"text":"Mewion\\n\\n"},{"text":"MysticGamer123\\n\\n"},{"text":"P5eudonym\\n\\n"},{"text":"RulerOEverything"}]',background:0,Rotation:[180f,0f],alignment:"center"}
+summon minecraft:text_display -534.5 -4.5 -1939.1 {Tags:["credits_text"],text:'[{"text":"3DSCarnaje\\n\\n"},{"text":"AlexisFTW\\n\\n"},{"text":"AndrewAwesome87\\n\\n"},{"text":"Mewion\\n\\n"},{"text":"MysticGamer123\\n\\n"},{"text":"P5eudonym\\n\\n"},{"text":"RulerOEverything"}]',background:0,Rotation:[180f,0f],alignment:"center"}
 
 # Special Thanks
 summon minecraft:text_display -534.5 -1.5 -1949.9 {Tags:["credits_text"],text:'{"translate":"ssbrc.credits.special_thanks","bold":true,"color":"yellow"}',background:0,alignment:"center"}
