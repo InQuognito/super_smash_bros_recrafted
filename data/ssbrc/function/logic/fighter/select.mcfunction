@@ -12,7 +12,7 @@ $function ssbrc:fighter/$(name)/menu/select
 execute if score teams options matches 0 run team join ready @s
 effect clear @s minecraft:glowing
 
-function ssbrc:logic/pre_game/fighter_select/check_participation
+function ssbrc:logic/pre_game/fighter_select/participation/check
 
 clear @s minecraft:nether_star[minecraft:custom_data~{item:"skin_options"}]
 clear @s minecraft:nether_star[minecraft:custom_data~{item:"wiki"}]

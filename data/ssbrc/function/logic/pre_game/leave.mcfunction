@@ -5,5 +5,5 @@ tag @s remove self
 function ssbrc:logic/player/leave
 
 tag @s add exempt_influence
-function ssbrc:logic/pre_game/fighter_select/check_participation
+function ssbrc:logic/pre_game/fighter_select/participation/check
 tag @s remove exempt_influence
