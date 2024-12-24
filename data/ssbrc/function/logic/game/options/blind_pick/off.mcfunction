@@ -2,4 +2,4 @@ tellraw @a[tag=room.fighter_select] [{"translate":"ssbrc.options.blind_pick","co
 
 scoreboard players set blind_pick options 0
 
-function ssbrc:logic/game/options/update
+function ssbrc:logic/game/options/set

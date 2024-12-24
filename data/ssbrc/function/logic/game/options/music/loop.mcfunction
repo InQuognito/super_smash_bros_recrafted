@@ -2,4 +2,4 @@ tellraw @a[tag=room.fighter_select] [{"translate":"ssbrc.options.music","color":
 
 scoreboard players set music options 0
 
-function ssbrc:logic/game/options/update
+function ssbrc:logic/game/options/set

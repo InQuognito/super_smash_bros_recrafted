@@ -3,4 +3,4 @@ $tellraw @a[tag=room.fighter_select] [{"translate":"ssbrc.options.time_limit","c
 $scoreboard players set time_limit options $(value)
 scoreboard players operation time_limit options *= 60 const
 
-function ssbrc:logic/game/options/update
+function ssbrc:logic/game/options/set

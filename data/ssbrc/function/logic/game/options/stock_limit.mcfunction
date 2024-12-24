@@ -2,4 +2,4 @@ $tellraw @a[tag=room.fighter_select] [{"translate":"ssbrc.options.stock_limit","
 
 $scoreboard players set stock_limit options $(value)
 
-function ssbrc:logic/game/options/update
+function ssbrc:logic/game/options/set

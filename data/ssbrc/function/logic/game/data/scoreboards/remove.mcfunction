@@ -48,7 +48,7 @@ scoreboard objectives remove health_timer
 scoreboard objectives remove hud
 scoreboard objectives remove id
 scoreboard objectives remove immobile
-scoreboard objectives remove influence
+#scoreboard objectives remove influence
 scoreboard objectives remove item_count
 scoreboard objectives remove jump
 scoreboard objectives remove jump.cooldown

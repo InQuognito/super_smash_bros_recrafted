@@ -2,4 +2,4 @@ tellraw @a[tag=room.fighter_select] [{"translate":"ssbrc.options.game_mode","col
 
 scoreboard players set game_mode options 1
 
-function ssbrc:logic/game/options/update
+function ssbrc:logic/game/options/set

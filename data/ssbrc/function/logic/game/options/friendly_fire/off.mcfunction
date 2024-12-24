@@ -4,4 +4,4 @@ scoreboard players set friendly_fire options 0
 
 function ssbrc:logic/game/team/modify
 
-function ssbrc:logic/game/options/update
+function ssbrc:logic/game/options/set

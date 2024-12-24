@@ -9,6 +9,8 @@ function ssbrc:logic/game/data/scoreboards/create
 function ssbrc:logic/game/data/scoreboards/constants
 function ssbrc:logic/game/data/scoreboards/variables
 
+scoreboard players set @a influence 2
+
 scoreboard objectives setdisplay below_name
 scoreboard objectives setdisplay list
 scoreboard objectives setdisplay sidebar
