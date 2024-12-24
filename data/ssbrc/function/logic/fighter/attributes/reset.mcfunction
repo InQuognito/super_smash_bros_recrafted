@@ -8,6 +8,7 @@ attribute @s minecraft:attack_speed base set 100.0
 attribute @s minecraft:max_health base set 40.0
 attribute @s minecraft:movement_speed base set 0.15
 attribute @s minecraft:safe_fall_distance base set 999.0
+attribute @s minecraft:safe_fall_distance modifier remove ssbrc:launched
 
 function ssbrc:logic/fighter/attributes/modifiers/frostbite/remove
 function ssbrc:logic/fighter/effects/mobility/mobilize
@@ -70,3 +71,4 @@ function ssbrc:stage/palutenas_temple/logic/fiends_cauldron/reset
 attribute @s minecraft:jump_strength modifier remove ssbrc:items/angel_feather
 attribute @s minecraft:movement_speed modifier remove ssbrc:quicksand
 attribute @s minecraft:movement_speed modifier remove ssbrc:vent
+attribute @s minecraft:safe_fall_distance modifier remove ssbrc:sector_z

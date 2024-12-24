@@ -15,8 +15,8 @@ $function ssbrc:logic/fighter/get/run {function:"ssbrc:logic/fighter/attributes/
 execute unless data storage ssbrc:temp game.stage{name:"sector_z"} run attribute @s minecraft:gravity base set 0.08
 execute if data storage ssbrc:temp game.stage{name:"sector_z"} run attribute @s minecraft:gravity base set 0.02
 
-execute unless data storage ssbrc:temp game.stage{name:"sector_z"} run attribute @s minecraft:safe_fall_distance base set 4.0
-execute if data storage ssbrc:temp game.stage{name:"sector_z"} run attribute @s minecraft:safe_fall_distance base set 40.0
+attribute @s minecraft:safe_fall_distance base set 6.0
+execute if data storage ssbrc:temp game.stage{name:"sector_z"} run attribute @s minecraft:safe_fall_distance modifier add ssbrc:sector_z 10.0 add_multiplied_base
 
 attribute @s minecraft:block_interaction_range base set 0.0
 
