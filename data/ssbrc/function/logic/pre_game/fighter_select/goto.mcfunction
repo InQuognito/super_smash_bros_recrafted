@@ -9,7 +9,7 @@ tag @s add room.fighter_select
 
 execute unless entity @s[tag=cannot_host] unless items entity @a container.* minecraft:written_book[minecraft:custom_data~{item:"options"}] run function ssbrc:logic/game/options/set
 
-scoreboard players remove @s[tag=!exempt_influence,scores={influence=1..}] influence 1
 function ssbrc:logic/pre_game/fighter_select/check_participation
+scoreboard players remove @s[tag=!exempt_influence,scores={influence=1..}] influence 1
 
 advancement grant @s[advancements={ssbrc:tutorial/fighter_select/1=false}] only ssbrc:tutorial/fighter_select/1
