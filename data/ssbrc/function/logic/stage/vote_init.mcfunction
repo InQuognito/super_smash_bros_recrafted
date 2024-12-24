@@ -6,6 +6,6 @@ $function ssbrc:logic/player/data/temp/set {mode:"store",key:"stage_vote",value:
 execute if score teams options matches 0 run team join ready @s
 effect clear @s minecraft:glowing
 
-function ssbrc:logic/pre_game/stage_select/participation/check
+function ssbrc:logic/pre_game/stage_select/check_participation
 
 playsound minecraft:entity.experience_orb.pickup master @s
