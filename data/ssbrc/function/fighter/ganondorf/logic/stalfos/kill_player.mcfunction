@@ -1,5 +1,3 @@
-execute if score debug options matches 1 run say stalfos | kill player
-
 scoreboard players operation team temp = @n[type=minecraft:skeleton,tag=stalfos] team
 
 execute as @p[tag=ganondorf,predicate=ssbrc:team_match] run function ssbrc:fighter/ganondorf/logic/stalfos/got_kill

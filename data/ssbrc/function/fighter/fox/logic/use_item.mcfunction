@@ -1,0 +1,1 @@
+execute if items entity @s[scores={duration.2=..0,duration.3=..0}] weapon.mainhand minecraft:carrot_on_a_stick[minecraft:custom_data~{item:"fox.blaster"},minecraft:damage~{damage:0}] run function ssbrc:fighter/fox/logic/abilities/blaster/activate

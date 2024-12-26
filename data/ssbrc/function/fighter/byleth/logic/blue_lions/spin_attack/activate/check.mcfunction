@@ -1,1 +1,1 @@
-execute if score @s charge.output matches 20.. run function ssbrc:fighter/byleth/logic/blue_lions/spin_attack/activate
+execute if entity @s[tag=!silenced,scores={charge.output=20..}] run function ssbrc:fighter/byleth/logic/blue_lions/spin_attack/activate

@@ -84,10 +84,12 @@ def armor(value):
 		return 4.0
 	elif value == 'low':
 		return 10.0
+	elif value == 'medium':
+		return 12.0
 	elif value == 'high':
 		return 14.0
 	else:
-		return 12.0
+		return value
 
 def jump_strength(value):
 	'''Returns the exact value of the jump_strength category.'''

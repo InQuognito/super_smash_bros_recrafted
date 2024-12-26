@@ -120,6 +120,7 @@ scoreboard objectives remove timer.stat.death
 scoreboard objectives remove timer.stat.kill
 scoreboard objectives remove tornado
 scoreboard objectives remove tower_of_fate.barrier
+scoreboard objectives remove use_item
 scoreboard objectives remove walk_distance
 scoreboard objectives remove weapon_1.ammo
 scoreboard objectives remove weapon_1.fire_rate

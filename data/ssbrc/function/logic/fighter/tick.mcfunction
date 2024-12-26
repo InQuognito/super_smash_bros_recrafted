@@ -20,6 +20,8 @@ scoreboard players remove @s[scores={weapon_1.fire_rate=1..}] weapon_1.fire_rate
 
 execute if entity @e[type=minecraft:marker,tag=electric_terrain,distance=..12] run scoreboard players set in_electric_terrain temp 1
 
+tag @s[tag=vented] add silenced
+
 execute unless score @s[predicate=ssbrc:input/jump] jump matches 1.. run function ssbrc:logic/fighter/jump
 execute unless predicate ssbrc:flag/in_air run function ssbrc:logic/fighter/grounded
 
@@ -27,6 +29,8 @@ function ssbrc:logic/fighter/get {function:"ssbrc:logic/fighter/tick_specific"}
 
 execute store result score @s selected_item run data get entity @s SelectedItemSlot
 execute unless score @s selected_item.prev = @s selected_item run function ssbrc:logic/fighter/change_slot
+
+execute if score @s use_item matches 1.. run function ssbrc:logic/fighter/get {function:"ssbrc:logic/fighter/use_item"}
 
 execute if entity @s[scores={charge.output=1..},advancements={ssbrc:utility/use_item/any=false}] run function ssbrc:logic/fighter/charge/activate
 execute if items entity @s[advancements={ssbrc:utility/use_item/any=true}] weapon.mainhand #ssbrc:equipment[minecraft:custom_data~{chargable:"true"}] run function ssbrc:logic/fighter/charge/tick
@@ -82,3 +86,6 @@ execute if score @s revenge.timer matches 0.. run function ssbrc:logic/fighter/b
 scoreboard players reset @s[scores={stiff_knees=1..},predicate=ssbrc:flag/sneaking] stiff_knees
 scoreboard players reset @s[scores={tortoise=1..},predicate=ssbrc:flag/sprinting] tortoise
 scoreboard players remove @s[scores={rapid_kill.tracking=1..}] rapid_kill.tracking 1
+
+tag @s[tag=vented] remove silenced
+tag @s remove vented

@@ -75,6 +75,7 @@ scoreboard players set joker.eiagon.cooldown const 40
 scoreboard players set joker.hama.cooldown const 300
 scoreboard players set joker.phantom_show.cooldown const 15
 
+scoreboard players set king_k_rool.adaptive_armor const 200
 scoreboard players set king_k_rool.blunderbuss.cooldown const 60
 
 scoreboard players set luigi.ice_ball.cooldown const 20

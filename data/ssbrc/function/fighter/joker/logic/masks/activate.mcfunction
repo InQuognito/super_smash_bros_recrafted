@@ -1,6 +1,4 @@
-$function ssbrc:logic/player/data/temp/set {mode:"store",key:"persona",value:"$(persona)"}
-
-$function ssbrc:logic/item/replace/get {search_key:"group",search_value:"persona",path:"ssbrc:fighter/joker/personas/$(persona)/portrait"}
+function ssbrc:fighter/joker/logic/masks/set with entity @s SelectedItem.components."minecraft:custom_data"
 
 item replace entity @s weapon.mainhand with minecraft:air
 

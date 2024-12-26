@@ -6,7 +6,7 @@
 			"entries": [
 				{
 					"type": "minecraft:item",
-					"name": "minecraft:nether_star",
+					"name": "minecraft:carrot_on_a_stick",
 					"functions": [
 						{
 							"function": "minecraft:reference",
@@ -14,7 +14,7 @@
 						},
 						{
 							"function": "minecraft:reference",
-							"name": "ssbrc:init/ability/charge"
+							"name": "ssbrc:init/ability/coas"
 						},
 						{
 							"function": "minecraft:set_lore",

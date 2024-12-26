@@ -6,7 +6,7 @@
 			"entries": [
 				{
 					"type": "minecraft:item",
-					"name": "minecraft:nether_star",
+					"name": "minecraft:carrot_on_a_stick",
 					"functions": [
 						{
 							"function": "minecraft:reference",

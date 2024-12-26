@@ -1,0 +1,7 @@
+{
+	"function": "minecraft:set_components",
+	"components": {
+		"minecraft:damage": 0,
+		"max_stack_size": 1
+	}
+}

@@ -13,6 +13,7 @@ tag @s remove intangible
 tag @s remove launched
 tag @s remove natural_shiny
 tag @s remove shield_broken
+tag @s remove silenced
 
 # Altered Beast
 tag @s remove altered_beast.is_beast

@@ -4,6 +4,18 @@
 		"requirement": {
 			"trigger": "minecraft:using_item",
 			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:inverted",
+						"term": {
+							"condition": "minecraft:entity_properties",
+							"entity": "this",
+							"predicate": {
+								"nbt": "{Tags:[\"silenced\"]}"
+							}
+						}
+					}
+				],
 				"item": {
 					"items": "#ssbrc:equipment",
 					"predicates": {

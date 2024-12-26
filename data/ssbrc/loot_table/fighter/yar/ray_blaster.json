@@ -6,11 +6,15 @@
 			"entries": [
 				{
 					"type": "minecraft:item",
-					"name": "minecraft:nether_star",
+					"name": "minecraft:carrot_on_a_stick",
 					"functions": [
 						{
 							"function": "minecraft:reference",
-							"name": "ssbrc:fighter/yar/ray_blaster"
+							"name": "ssbrc:init/preset/ranged"
+						},
+						{
+							"function": "minecraft:reference",
+							"name": "ssbrc:init/ability/coas"
 						},
 						{
 							"function": "minecraft:set_lore",
@@ -40,8 +44,14 @@
 							"mode": "append"
 						},
 						{
+							"function": "minecraft:set_components",
+							"components": {
+								"minecraft:max_damage": 15
+							}
+						},
+						{
 							"function": "minecraft:set_custom_data",
-							"tag": "{item:\"ray_blaster\"}"
+							"tag": "{group:\"ray_blaster\",item:\"ray_blaster\",power_up:\"false\"}"
 						}
 					]
 				}

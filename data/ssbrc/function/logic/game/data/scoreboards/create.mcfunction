@@ -132,6 +132,7 @@ scoreboard objectives add timer.stat.death dummy
 scoreboard objectives add timer.stat.kill dummy
 scoreboard objectives add tornado dummy
 scoreboard objectives add tower_of_fate.barrier dummy
+scoreboard objectives add use_item minecraft.used:minecraft.carrot_on_a_stick
 scoreboard objectives add walk_distance minecraft.custom:minecraft.walk_one_cm
 scoreboard objectives add weapon_3.ammo dummy
 scoreboard objectives add weapon_3.mags dummy

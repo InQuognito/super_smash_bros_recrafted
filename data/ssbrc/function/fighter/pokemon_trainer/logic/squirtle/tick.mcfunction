@@ -4,6 +4,6 @@ execute if entity @s[scores={charge.1=1..}] anchored eyes positioned ^ ^ ^ run f
 function ssbrc:logic/item/cooldown/decrease {item:"water_gun"}
 
 # Withdraw
-execute if entity @s[scores={cooldown.2=..0},predicate=ssbrc:flag/sneaking] run function ssbrc:fighter/pokemon_trainer/logic/squirtle/withdraw/charge
+execute if entity @s[tag=!silenced,scores={cooldown.2=..0},predicate=ssbrc:flag/sneaking] run function ssbrc:fighter/pokemon_trainer/logic/squirtle/withdraw/charge
 
-execute if score @s[predicate=!ssbrc:flag/sneaking] charge.2 matches 1.. run function ssbrc:fighter/pokemon_trainer/logic/squirtle/withdraw/reset
+execute if entity @s[scores={charge.2=1..},predicate=!ssbrc:flag/sneaking] run function ssbrc:fighter/pokemon_trainer/logic/squirtle/withdraw/reset

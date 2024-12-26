@@ -1,5 +1,7 @@
 title @s actionbar ""
 
+function ssbrc:logic/item/cooldown/decrease {item:"mega_buster"}
+
 execute if items entity @s[tag=mega_man.air_shooter] container.* minecraft:nether_star[minecraft:custom_data~{item:"air_shooter"}] run function ssbrc:logic/item/cooldown/decrease {item:"air_shooter"}
 execute if items entity @s[tag=mega_man.beat_call] container.* minecraft:nether_star[minecraft:custom_data~{item:"beat_call"}] run function ssbrc:logic/item/cooldown/decrease {item:"beat_call"}
 execute if items entity @s[tag=mega_man.drill_bomb] container.* minecraft:nether_star[minecraft:custom_data~{item:"drill_bomb"}] run function ssbrc:logic/item/cooldown/decrease {item:"drill_bomb"}

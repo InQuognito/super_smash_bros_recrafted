@@ -9,4 +9,4 @@ execute if score @s charge.2 matches 50 run function ssbrc:fighter/pokemon_train
 execute if score @s charge.2 matches 55 run function ssbrc:fighter/pokemon_trainer/logic/squirtle/withdraw/particles/start {pitch:"1.0"}
 execute if score @s charge.2 matches 60 facing ~ ~1 ~ run function ssbrc:fighter/pokemon_trainer/logic/squirtle/withdraw/particles/end
 
-execute if entity @s[scores={charge.2=60..}] run function ssbrc:fighter/pokemon_trainer/logic/squirtle/withdraw/activate
+execute if score @s charge.2 matches 60.. run function ssbrc:fighter/pokemon_trainer/logic/squirtle/withdraw/activate

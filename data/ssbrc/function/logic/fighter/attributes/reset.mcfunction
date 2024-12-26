@@ -36,6 +36,9 @@ attribute @s minecraft:water_movement_efficiency modifier remove ssbrc:greninja
 # Joker
 attribute @s minecraft:knockback_resistance modifier remove ssbrc:yatagarasu
 
+# King K. Rool
+attribute @s minecraft:armor modifier remove ssbrc:adaptive_armor
+
 # Mario / Luigi
 attribute @s minecraft:gravity modifier remove ssbrc:luigi
 attribute @s minecraft:jump_strength modifier remove ssbrc:super_jump

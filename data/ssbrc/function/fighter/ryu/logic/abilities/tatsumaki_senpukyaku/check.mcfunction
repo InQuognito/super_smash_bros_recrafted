@@ -1,3 +1,3 @@
-execute if entity @s[scores={duration.1=..0}] run function ssbrc:fighter/ryu/logic/abilities/tatsumaki_senpukyaku/activate
+execute if score @s duration.1 matches 1.. run return run function ssbrc:fighter/ryu/logic/abilities/ashura_senku/activate
 
-execute if entity @s[scores={duration.1=1..}] run function ssbrc:fighter/ryu/logic/abilities/ashura_senku/activate
+function ssbrc:fighter/ryu/logic/abilities/tatsumaki_senpukyaku/activate

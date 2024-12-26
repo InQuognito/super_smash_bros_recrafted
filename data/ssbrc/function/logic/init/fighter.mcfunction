@@ -820,20 +820,20 @@ data modify storage ssbrc:data fighter set value {\
 					"model": "erdrick"\
 				},\
 				"solo": {\
-					"name": "ssbrc.fighter.hero.shield.erdrick",\
+					"name": "ssbrc.fighter.hero.shield.rek",\
 					"tag": "shield",\
 					"color": "yellow",\
-					"model": "erdrick"\
+					"model": "rek"\
 				},\
 				"sofia": {\
-					"name": "ssbrc.fighter.hero.shield.erdrick",\
+					"name": "ssbrc.fighter.hero.shield.rek",\
 					"tag": "shield",\
 					"color": "yellow",\
-					"model": "erdrick"\
+					"model": "rek"\
 				},\
 				"rek": {\
-					"name": "ssbrc.fighter.hero.sword.rek",\
-					"tag": "sword",\
+					"name": "ssbrc.fighter.hero.shield.rek",\
+					"tag": "shield",\
 					"color": "yellow",\
 					"model": "rek"\
 				},\
@@ -1094,7 +1094,7 @@ data modify storage ssbrc:data fighter set value {\
 	},\
 	"king_k_rool": {\
 		"name": "king_k_rool",\
-		"armor": 14.0,\
+		"armor": 16.0,\
 		"jump_strength": 0.5,\
 		"max_health": 40.0,\
 		"movement_speed": 0.085,\
