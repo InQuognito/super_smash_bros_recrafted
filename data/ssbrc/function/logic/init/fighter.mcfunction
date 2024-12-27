@@ -1094,7 +1094,7 @@ data modify storage ssbrc:data fighter set value {\
 	},\
 	"king_k_rool": {\
 		"name": "king_k_rool",\
-		"armor": 20.0,\
+		"armor": 16.0,\
 		"jump_strength": 0.5,\
 		"max_health": 20.0,\
 		"movement_speed": 0.085,\
