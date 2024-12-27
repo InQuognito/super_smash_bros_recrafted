@@ -38,6 +38,7 @@ attribute @s minecraft:knockback_resistance modifier remove ssbrc:yatagarasu
 
 # King K. Rool
 attribute @s minecraft:armor modifier remove ssbrc:adaptive_armor
+attribute @s minecraft:knockback_resistance modifier remove ssbrc:adaptive_armor
 
 # Mario / Luigi
 attribute @s minecraft:gravity modifier remove ssbrc:luigi
