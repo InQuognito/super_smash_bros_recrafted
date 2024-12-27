@@ -57,6 +57,9 @@ tag @s remove hot_air
 # Joker
 tag @s remove rebels_guard
 
+# King K. Rool
+tag @s remove adaptive_armor
+
 # Link
 tag @s remove sword_spin
 

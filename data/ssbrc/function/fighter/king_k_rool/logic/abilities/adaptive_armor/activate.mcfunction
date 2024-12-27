@@ -1,5 +1,3 @@
-tag @s add adaptive_armor
+function ssbrc:fighter/king_k_rool/logic/abilities/adaptive_armor/enable
 
-effect clear @s minecraft:absorption
-effect give @s minecraft:absorption infinite 3 true
-attribute @s minecraft:armor modifier remove ssbrc:adaptive_armor
+playsound ssbrc:fighter.king_k_rool.adaptive_armor.activate player @a
