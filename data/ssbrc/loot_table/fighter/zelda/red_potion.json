@@ -6,7 +6,7 @@
 			"entries": [
 				{
 					"type": "minecraft:item",
-					"name": "minecraft:potion",
+					"name": "minecraft:nether_star",
 					"functions": [
 						{
 							"function": "minecraft:set_name",
@@ -17,10 +17,6 @@
 								"bold": true,
 								"italic": false
 							}
-						},
-						{
-							"function": "minecraft:set_potion",
-							"id": "minecraft:strong_healing"
 						},
 						{
 							"function": "minecraft:reference",
@@ -47,7 +43,24 @@
 							"function": "minecraft:set_components",
 							"components": {
 								"minecraft:item_model": "ssbrc:fighter/zelda/item/red_potion",
-								"!minecraft:use_remainder": {},
+								"minecraft:consumable": {
+									"animation": "drink",
+									"consume_seconds": 1.5,
+									"has_consume_particles": false,
+									"on_consume_effects": [
+										{
+											"type": "minecraft:apply_effects",
+											"effects": [
+												{
+													"id": "minecraft:instant_health",
+													"amplifier": 1,
+													"duration": 1
+												}
+											]
+										}
+									],
+									"sound": "minecraft:entity.generic.drink"
+								},
 								"minecraft:hide_additional_tooltip": {}
 							}
 						},

@@ -1,5 +1,3 @@
-execute if score debug options matches 1.. run say cross_slash | activate
-
 function ssbrc:logic/fighter/ability/init
 
 scoreboard players set @s duration.1 30

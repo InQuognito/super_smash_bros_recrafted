@@ -1,5 +1,3 @@
-execute if score debug options matches 1.. run say cross_slash | end
-
 particle minecraft:soul_fire_flame ~ ~ ~ 0.1 0.1 0.1 0.2 25 normal @a
 
 function ssbrc:fighter/cloud/logic/abilities/buster_sword/cross_slash/hit/4
