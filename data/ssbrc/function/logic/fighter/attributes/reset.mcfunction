@@ -33,6 +33,9 @@ function ssbrc:fighter/cloud/logic/abilities/buster_sword/mode_switch/reset
 attribute @s minecraft:oxygen_bonus modifier remove ssbrc:greninja
 attribute @s minecraft:water_movement_efficiency modifier remove ssbrc:greninja
 
+# Jigglypuff
+attribute @s minecraft:gravity modifier remove ssbrc:hot_air
+
 # Joker
 attribute @s minecraft:knockback_resistance modifier remove ssbrc:yatagarasu
 
