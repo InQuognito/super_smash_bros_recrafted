@@ -1,3 +1,5 @@
+particle minecraft:item{item:"minecraft:deepslate_iron_ore"} ~ ~ ~ 0.0 0.0 0.0 0.1 10 normal @a
+
 kill @s
 
 execute store result score junk_shield temp if entity @e[type=minecraft:item_display,tag=junk_shield,predicate=ssbrc:id_match]

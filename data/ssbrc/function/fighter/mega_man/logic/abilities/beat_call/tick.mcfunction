@@ -19,8 +19,6 @@ execute unless score in_electric_terrain temp matches 1 run tag @s[tag=stunned] 
 execute unless score in_electric_terrain temp matches 1 run tag @s[tag=stunned] remove stunned
 execute unless score in_electric_terrain temp matches 1 run function ssbrc:fighter/mega_man/logic/abilities/beat_call/move with storage ssbrc:temp
 
-effect give @a[tag=snake,predicate=!ssbrc:fighter/effects/has/glowing,distance=..10] minecraft:glowing 1 255 true
-
 execute if entity @s[tag=attack,scores={cooldown=..0}] run function ssbrc:fighter/mega_man/logic/abilities/beat_call/hit
 
 execute if entity @s[tag=dead,tag=!attack,tag=!forward,tag=!recall] as @a[tag=self,limit=1] run function ssbrc:fighter/mega_man/logic/abilities/beat_call/death
