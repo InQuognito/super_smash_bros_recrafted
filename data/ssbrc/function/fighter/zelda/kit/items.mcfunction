@@ -2,6 +2,7 @@ scoreboard players reset @s flag.damage_taken
 scoreboard players set @s charge.3 0
 
 clear @s #ssbrc:equipment
+effect clear @s minecraft:resistance
 
 execute store result score random.output temp run random value 1..4
 

@@ -12,10 +12,9 @@ function ssbrc:logic/item/cooldown/decrease {item:"ice_rod"}
 # Passive Items
 execute if items entity @s container.* minecraft:nether_star[minecraft:custom_data~{item:"goron_locket"}] run effect clear @s minecraft:wither
 
-execute if items entity @s container.* minecraft:nether_star[minecraft:custom_data~{item:"torch_of_wisdom"}] run effect give @e[predicate=ssbrc:flag/targets,predicate=!ssbrc:team_match,predicate=!ssbrc:fighter/effects/has/glowing,distance=..10] minecraft:glowing 1 255 true
+execute if items entity @s[scores={health=7..}] container.* minecraft:nether_star[minecraft:custom_data~{item:"nayrus_ring"}] run effect clear @s minecraft:resistance
 
-execute unless items entity @s container.* minecraft:nether_star[minecraft:custom_data~{item:"nayrus_ring"}] run effect clear @s minecraft:resistance
-execute if items entity @s container.* minecraft:nether_star[minecraft:custom_data~{item:"nayrus_ring"}] run function ssbrc:fighter/zelda/logic/passive_items/nayrus_ring/tick
+execute if items entity @s container.* minecraft:nether_star[minecraft:custom_data~{item:"torch_of_wisdom"}] run execute as @e[predicate=ssbrc:flag/targets,predicate=!ssbrc:team_match,tag=cloaked,distance=..10] run function ssbrc:logic/fighter/effects/glowing/uncloak
 
 execute if items entity @s container.* minecraft:nether_star[minecraft:custom_data~{item:"ring_of_risk"}] run function ssbrc:fighter/zelda/logic/passive_items/ring_of_risk
 
@@ -32,7 +31,7 @@ scoreboard players remove @s[scores={zelda.magic_fountain=1..}] zelda.magic_foun
 
 scoreboard players remove @s[scores={zelda.magic_transfusion=1..}] zelda.magic_transfusion 1
 
-scoreboard players remove @s[scores={zelda.shatter_resist=1..}] zelda.shatter_resist 1
+execute if score @s zelda.shatter_resist matches 1.. run function ssbrc:fighter/zelda/logic/blessings/shatter_resist/tick
 
 execute if score @s zelda.silent_princess matches 1.. run function ssbrc:fighter/zelda/logic/blessings/silent_princess/tick
 

@@ -1,3 +1,4 @@
-effect clear @s[scores={cooldown.2=1..}] minecraft:resistance
+function ssbrc:logic/item/cooldown/decrease {item:"nayrus_ring"}
+execute if items entity @s container.* minecraft:nether_star[minecraft:custom_data~{item:"nayrus_ring"},minecraft:damage~{damage:1}] run return run effect give @s minecraft:resistance infinite 255 true
 
-effect give @s[scores={cooldown.2=..0,health=..6}] minecraft:resistance 1 255 true
+scoreboard players remove @s zelda.shatter_resist 1

@@ -23,6 +23,10 @@
 							"name": "ssbrc:fighter/zelda/passive_item"
 						},
 						{
+							"function": "minecraft:reference",
+							"name": "ssbrc:init/ability/cooldown"
+						},
+						{
 							"function": "minecraft:set_lore",
 							"entity": "this",
 							"lore": [
@@ -44,12 +48,13 @@
 						{
 							"function": "minecraft:set_components",
 							"components": {
+								"minecraft:max_damage": 60,
 								"minecraft:item_model": "ssbrc:fighter/zelda/item/nayrus_ring/default"
 							}
 						},
 						{
 							"function": "minecraft:set_custom_data",
-							"tag": "{item:\"nayrus_ring\"}"
+							"tag": "{item:\"nayrus_ring\",shattered:\"false\"}"
 						}
 					]
 				}
