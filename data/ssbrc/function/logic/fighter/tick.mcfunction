@@ -8,6 +8,7 @@ execute store result score @s motion_x run data get entity @s Motion[1] 1000.0
 execute store result score @s motion_y run data get entity @s Motion[1] 1000.0
 execute store result score @s motion_z run data get entity @s Motion[1] 1000.0
 
+# Crawl
 execute if score @s crawling matches 1 run function ssbrc:logic/fighter/crawl/off
 execute unless score @s crawling matches 1 positioned ~ ~0.601 ~ unless entity @s[dx=0] unless predicate ssbrc:flag/flying run function ssbrc:logic/fighter/crawl/on
 

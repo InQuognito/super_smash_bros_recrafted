@@ -1,22 +1,21 @@
-# Bomb
-execute if entity @s[tag=bomb] run function ssbrc:fighter/zelda/logic/abilities/bomb/fuse_tick
+# Dungeon Items
+execute if items entity @s container.* minecraft:nether_star[minecraft:custom_data~{item:"bomb"}] run function ssbrc:fighter/zelda/logic/abilities/bomb/in_kit
 
-function ssbrc:logic/item/cooldown/decrease {item:"bomb"}
+execute if items entity @s container.* minecraft:nether_star[minecraft:custom_data~{item:"fire_rod"}] run function ssbrc:logic/item/cooldown/decrease {item:"fire_rod"}
 
-# Fire Rod
-function ssbrc:logic/item/cooldown/decrease {item:"fire_rod"}
+execute if items entity @s container.* minecraft:nether_star[minecraft:custom_data~{item:"ice_rod"}] run function ssbrc:logic/item/cooldown/decrease {item:"ice_rod"}
 
-# Ice Rod
-function ssbrc:logic/item/cooldown/decrease {item:"ice_rod"}
+execute if items entity @s container.* minecraft:nether_star[minecraft:custom_data~{extra:"magic_rod"}] run function ssbrc:fighter/zelda/logic/magic/update
 
 # Passive Items
 execute if items entity @s container.* minecraft:nether_star[minecraft:custom_data~{item:"goron_locket"}] run effect clear @s minecraft:wither
 
 execute if items entity @s[scores={health=7..}] container.* minecraft:nether_star[minecraft:custom_data~{item:"nayrus_ring"}] run effect clear @s minecraft:resistance
 
-execute if items entity @s container.* minecraft:nether_star[minecraft:custom_data~{item:"torch_of_wisdom"}] run execute as @e[predicate=ssbrc:flag/targets,predicate=!ssbrc:team_match,tag=cloaked,distance=..10] run function ssbrc:logic/fighter/effects/glowing/uncloak
+execute if items entity @s container.* minecraft:nether_star[minecraft:custom_data~{item:"torch_of_wisdom"}] as @e[predicate=ssbrc:flag/targets,predicate=!ssbrc:team_match,tag=cloaked,distance=..10] run function ssbrc:logic/fighter/effects/glowing/uncloak
 
 execute if items entity @s container.* minecraft:nether_star[minecraft:custom_data~{item:"ring_of_risk"}] run function ssbrc:fighter/zelda/logic/passive_items/ring_of_risk
+execute if items entity @s[scores={health=11..}] container.* minecraft:nether_star[minecraft:custom_data~{item:"ring_of_risk"}] run attribute @s minecraft:attack_damage modifier remove ssbrc:fighter/zelda/ring_of_risk
 
 # Rupees
 execute if score @s[scores={zelda.rupee.add=1..}] resource >= zelda.rupees.max const run scoreboard players set @s zelda.rupee.add 0

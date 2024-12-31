@@ -106,7 +106,7 @@
 						},
 						{
 							"function": "minecraft:set_custom_data",
-							"tag": "{item:\"fire_rod\"}"
+							"tag": "{item:\"fire_rod\",extra:\"magic_rod\"}"
 						}
 					]
 				}

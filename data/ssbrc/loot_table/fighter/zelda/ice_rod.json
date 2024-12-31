@@ -100,7 +100,7 @@
 						},
 						{
 							"function": "minecraft:set_custom_data",
-							"tag": "{item:\"ice_rod\"}"
+							"tag": "{item:\"ice_rod\",extra:\"magic_rod\"}"
 						}
 					]
 				}

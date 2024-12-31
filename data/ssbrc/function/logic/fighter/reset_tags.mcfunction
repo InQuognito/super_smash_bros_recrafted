@@ -93,8 +93,6 @@ tag @s remove alignment.neutral
 tag @s remove alignment.villain
 
 # Shovel Knight
-function ssbrc:fighter/shovel_knight/kits/offense/reset
-function ssbrc:fighter/shovel_knight/kits/utility/reset
 tag @s remove phase_locket
 tag @s remove war_horn.active
 

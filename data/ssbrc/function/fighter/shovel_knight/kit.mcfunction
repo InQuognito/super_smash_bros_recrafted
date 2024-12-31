@@ -7,15 +7,15 @@ function ssbrc:logic/item/init/slot {item:"shovel_blade",slot:"hotbar.0",type:"v
 
 execute store result score random.output temp run random value 1..3
 
-execute if score random.output temp matches 1 run function ssbrc:fighter/shovel_knight/kits/offense/chaos_sphere
-execute if score random.output temp matches 2 run function ssbrc:fighter/shovel_knight/kits/offense/flare_wand
-execute if score random.output temp matches 3 run function ssbrc:fighter/shovel_knight/kits/offense/throwing_anchor
+execute if score random.output temp matches 1 run loot replace entity @s hotbar.1 loot ssbrc:fighter/shovel_knight/chaos_sphere
+execute if score random.output temp matches 2 run loot replace entity @s hotbar.1 loot ssbrc:fighter/shovel_knight/flare_wand
+execute if score random.output temp matches 3 run loot replace entity @s hotbar.1 loot ssbrc:fighter/shovel_knight/throwing_anchor
 
 execute store result score random.output temp run random value 1..3
 
-execute if score random.output temp matches 1 run function ssbrc:fighter/shovel_knight/kits/utility/phase_locket
-execute if score random.output temp matches 2 run function ssbrc:fighter/shovel_knight/kits/utility/propeller_dagger
-execute if score random.output temp matches 3 run function ssbrc:fighter/shovel_knight/kits/utility/war_horn
+execute if score random.output temp matches 1 run loot replace entity @s hotbar.2 loot ssbrc:fighter/shovel_knight/phase_locket
+execute if score random.output temp matches 2 run loot replace entity @s hotbar.2 loot ssbrc:fighter/shovel_knight/propeller_dagger
+execute if score random.output temp matches 3 run loot replace entity @s hotbar.2 loot ssbrc:fighter/shovel_knight/war_horn/default
 
 scoreboard players set @s magic 10
 function ssbrc:fighter/shovel_knight/logic/magic/update
