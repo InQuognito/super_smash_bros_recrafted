@@ -1,4 +1,6 @@
 execute unless score @s menu matches 0 run function ssbrc:logic/fighter/get {function:"ssbrc:logic/pre_game/fighter_select/trigger/menu"}
+scoreboard players set @s menu 0
+scoreboard players enable @s menu
 
 execute unless score @s character_trigger matches 0 run function ssbrc:logic/pre_game/fighter_select/trigger/loadout
 
