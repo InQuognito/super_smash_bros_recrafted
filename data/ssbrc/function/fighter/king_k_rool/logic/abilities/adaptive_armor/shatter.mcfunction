@@ -1,7 +1,7 @@
 tag @s remove adaptive_armor
 
 scoreboard players add @s charge.1 1
-scoreboard players set @s duration.1 200
+scoreboard players set @s duration.1 280
 
 playsound ssbrc:fighter.king_k_rool.adaptive_armor.shatter player @a
 
