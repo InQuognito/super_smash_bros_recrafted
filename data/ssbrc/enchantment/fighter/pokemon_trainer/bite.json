@@ -55,8 +55,20 @@
 					]
 				},
 				"requirements": {
-					"condition": "minecraft:random_chance",
-					"chance": 0.075
+					"condition": "minecraft:all_of",
+					"terms": [
+						{
+							"condition": "minecraft:random_chance",
+							"chance": 0.075
+						},
+						{
+							"condition": "minecraft:entity_scores",
+							"entity": "this",
+							"scores": {
+								"immobile": 0
+							}
+						}
+					]
 				}
 			}
 		]
