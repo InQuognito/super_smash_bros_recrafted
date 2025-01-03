@@ -75,6 +75,7 @@ scoreboard objectives remove motion_x
 scoreboard objectives remove motion_y
 scoreboard objectives remove motion_z
 scoreboard objectives remove options_trigger
+scoreboard objectives remove pac_maze.scoreboard
 scoreboard objectives remove petrified
 scoreboard objectives remove piercing
 scoreboard objectives remove player_motion.storage.force

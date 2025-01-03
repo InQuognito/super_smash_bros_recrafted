@@ -83,7 +83,7 @@ attribute @s minecraft:armor modifier remove ssbrc:fighter/zelda/enchant_armor
 attribute @s minecraft:attack_damage modifier remove ssbrc:fighter/zelda/ring_of_risk
 
 # Stages
-function ssbrc:stage/pac_maze/logic/fruit/galaxian_flagship/reset
+function ssbrc:stage/pac_maze/logic/fruit/fruit/galaxian_flagship/reset
 function ssbrc:stage/palutenas_temple/logic/fiends_cauldron/reset
 attribute @s minecraft:jump_strength modifier remove ssbrc:items/angel_feather
 attribute @s minecraft:movement_speed modifier remove ssbrc:quicksand

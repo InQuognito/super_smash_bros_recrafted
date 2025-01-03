@@ -7,8 +7,6 @@ $function $(function) {bonus:"aerialist",type:"single"}
 
 $function $(function) {bonus:"armistice",type:"single"}
 
-#$function $(function) {bonus:"cement_shoes",type:"single"}
-
 $function $(function) {bonus:"first_strike",type:"single"}
 
 $function $(function) {bonus:"full_power",type:"single"}

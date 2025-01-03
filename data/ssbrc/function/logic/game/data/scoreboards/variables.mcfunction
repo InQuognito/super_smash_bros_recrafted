@@ -249,9 +249,6 @@ scoreboard players operation value.bonus.bank_shot const *= 3 const
 
 scoreboard players set value.bonus.bully const -200
 
-#scoreboard players operation value.bonus.cement_shoes const = value.participation const
-#scoreboard players operation value.bonus.cement_shoes const *= 2 const
-
 scoreboard players set value.bonus.coward const -20
 
 scoreboard players operation value.bonus.crushing_weight const = value.ko const

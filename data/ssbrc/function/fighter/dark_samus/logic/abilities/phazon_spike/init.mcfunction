@@ -2,7 +2,7 @@ tag @s add phazon_spike
 
 item replace entity @s contents with minecraft:nether_star[minecraft:item_model="ssbrc:fighter/dark_samus/misc/phazon_spike"]
 
-data merge entity @s {brightness:{sky:14,block:14},transformation:[1f,0f,0f,0f,0f,1f,0f,0f,0f,0f,1f,0f,0f,0f,0f,1f]}
+data merge entity @s {brightness:{sky:14,block:14}}
 
 scoreboard players operation @s id = temp id
 

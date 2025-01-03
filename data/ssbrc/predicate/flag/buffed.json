@@ -15,7 +15,7 @@
 				"condition": "minecraft:entity_scores",
 				"entity": "this",
 				"scores": {
-					"galaxian_flagship": {
+					"timer.galaxian_flagship": {
 						"min": 1
 					}
 				}

@@ -83,6 +83,7 @@ scoreboard objectives add motion_z dummy
 scoreboard objectives add options_trigger trigger
 scoreboard players set @a options_trigger 0
 scoreboard players enable @a options_trigger
+scoreboard objectives add pac_maze.scoreboard dummy
 scoreboard objectives add petrified dummy
 scoreboard objectives add piercing dummy
 scoreboard objectives add player_motion.storage.force dummy

@@ -1,4 +1,6 @@
-execute as @n[type=minecraft:item_display,tag=dot] run function ssbrc:stage/pac_maze/logic/dots/update_group
+scoreboard players add @s pac_maze.scoreboard 10
+
+execute as @n[type=minecraft:item_display,tag=dot,distance=..0.75] run function ssbrc:stage/pac_maze/logic/dots/update_group
 
 execute if score dot_group.a temp matches 0 run function ssbrc:stage/pac_maze/logic/dots/groups/a/pickup
 execute if score dot_group.b temp matches 0 run function ssbrc:stage/pac_maze/logic/dots/groups/b/pickup

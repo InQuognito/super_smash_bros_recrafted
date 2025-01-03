@@ -1,6 +1,6 @@
 scoreboard players reset blackout temp
 
-execute as @a[tag=ingame] unless data storage ssbrc:temp player.temp_data{fighter:"snake"} run function ssbrc:logic/fighter/effects/glowing/uncloak
+execute as @a[tag=alive] unless data storage ssbrc:temp player.temp_data{fighter:"snake"} run function ssbrc:logic/fighter/effects/glowing/uncloak
 execute as @e[type=minecraft:item,nbt={Item:{components:{"minecraft:custom_data":{steve_item:true}}}}] run data merge entity @s {Glowing:1b}
 
 fill -340 8 -1165 -285 24 -1145 minecraft:light[level=15] replace minecraft:light
@@ -37,4 +37,4 @@ fill -337 16 -1107 -335 16 -1105 minecraft:blast_furnace[facing=east,lit=true] r
 
 execute as @e[type=minecraft:item_display,tag=lantern_off] at @s run function ssbrc:stage/luigis_mansion/logic/blackout/lanterns/activate
 
-execute as @e[type=minecraft:armor_stand,tag=boo] at @s anchored eyes run particle minecraft:poof ^ ^ ^5 0.1 0.1 0.1 0.05 5 normal @a
+execute as @e[type=minecraft:item_display,tag=boo] at @s anchored eyes run particle minecraft:poof ^ ^ ^5 0.1 0.1 0.1 0.05 5 normal @a

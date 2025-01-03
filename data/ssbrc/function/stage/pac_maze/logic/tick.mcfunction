@@ -3,12 +3,12 @@ execute if data storage ssbrc:temp game.stage{variant:"mrs_pac_maze"} run functi
 
 # Ghosts
 scoreboard players add pac_maze.ghost.siren_timer temp 1
-execute as @e[type=minecraft:armor_stand,tag=ghost] at @s run function ssbrc:stage/pac_maze/logic/ghosts/tick
+execute as @e[type=minecraft:item_display,tag=ghost] at @s run function ssbrc:stage/pac_maze/logic/ghosts/tick
+execute if score pac_maze.ghost.siren_timer temp matches 30.. run scoreboard players reset pac_maze.ghost.siren_timer temp
 
 # Pickups
 execute as @a[predicate=ssbrc:flag/player] at @s positioned ~ ~0.5 ~ if entity @e[type=minecraft:item_display,tag=dot,distance=..0.75] run function ssbrc:stage/pac_maze/logic/dots/pickup with storage ssbrc:temp game.stage
-execute as @e[type=minecraft:item_display,tag=power_pellet] at @s if entity @p[predicate=ssbrc:flag/player,distance=..1.0] run function ssbrc:stage/pac_maze/logic/power_pellet/pickup with storage ssbrc:temp game.stage
+execute as @a[predicate=ssbrc:flag/player] at @s if entity @e[type=minecraft:item_display,tag=power_pellet,distance=..1.0] run function ssbrc:stage/pac_maze/logic/power_pellet/pickup with storage ssbrc:temp game.stage
 
 # Galaxian Flagship
-scoreboard players add @a[tag=galaxian_flagship] timer.galaxian_flagship 1
-execute as @a[scores={timer.galaxian_flagship=1..}] at @s positioned ~ ~0.75 ~ run function ssbrc:stage/pac_maze/logic/fruit/galaxian_flagship/tick
+execute as @a[scores={timer.galaxian_flagship=1..}] at @s positioned ~ ~0.75 ~ run function ssbrc:stage/pac_maze/logic/fruit/fruit/galaxian_flagship/tick
