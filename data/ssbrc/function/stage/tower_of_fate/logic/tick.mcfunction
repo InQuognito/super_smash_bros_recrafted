@@ -11,7 +11,7 @@ execute if score tower_of_fate.destroyed temp matches 2 as @a[predicate=ssbrc:fl
 execute if score tower_of_fate.clockwork_tower temp matches 1 run kill @e[predicate=ssbrc:flag/targets,x=5996.0,y=9.0,z=496.0,dx=8,dy=0,dz=8]
 
 # Explodatorium
-execute if score tower_of_fateExplodatorium temp matches 1 as @a[predicate=ssbrc:flag/player] at @s run function ssbrc:stage/tower_of_fate/logic/lower_towers/explodatorium/tick
+execute if score tower_of_fate.explodatorium temp matches 1 as @a[predicate=ssbrc:flag/player] at @s run function ssbrc:stage/tower_of_fate/logic/lower_towers/explodatorium/tick
 
 # Lost City
 execute if score tower_of_fateLostCity temp matches 1 run function ssbrc:stage/tower_of_fate/logic/lower_towers/lost_city/tick
