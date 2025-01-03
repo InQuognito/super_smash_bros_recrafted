@@ -1,4 +1,4 @@
-execute unless block ^ ^ ^0.3 #ssbrc:passthrough run scoreboard players set @s temp 30
+execute unless block ^ ^ ^0.3 #ssbrc:passthrough_barrier run scoreboard players set @s temp 30
 
 teleport @e[type=minecraft:item,distance=..1] @s
 

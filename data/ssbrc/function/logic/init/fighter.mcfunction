@@ -1101,6 +1101,8 @@ data modify storage ssbrc:data fighter set value {\
 		"page": 1,\
 		"miiverse_posts": 1,\
 		"default_form": "default",\
+		"forms": "true",\
+		"forms_isolated_to": "body",\
 		"color": "dark_green",\
 		"alignment": "villain",\
 		"skin_count": 2,\

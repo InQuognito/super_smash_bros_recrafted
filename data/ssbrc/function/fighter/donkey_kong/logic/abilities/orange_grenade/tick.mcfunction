@@ -8,7 +8,7 @@ execute if score @s point < donkey_kong.orange_grenade.rotation const run scoreb
 execute if score @s point > donkey_kong.orange_grenade.rotation const run scoreboard players operation @s point = donkey_kong.orange_grenade.rotation const
 execute if score @s point < donkey_kong.orange_grenade.rotation const run scoreboard players remove @s slope 20
 
-execute if entity @s[scores={point=1..}] unless block ~ ~-0.6 ~ #ssbrc:passthrough run function ssbrc:fighter/donkey_kong/logic/abilities/orange_grenade/bounce
+execute if score @s point matches 1.. unless block ~ ~-0.6 ~ #ssbrc:passthrough_barrier run function ssbrc:fighter/donkey_kong/logic/abilities/orange_grenade/bounce
 
 execute rotated as @s run teleport @s ^ ^ ^0.5
 

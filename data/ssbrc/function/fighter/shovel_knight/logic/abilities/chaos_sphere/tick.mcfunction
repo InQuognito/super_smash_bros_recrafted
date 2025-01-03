@@ -9,12 +9,12 @@ execute if score @s point < shovel_knight.chaos_sphere.rotation const run scoreb
 execute if score @s point > shovel_knight.chaos_sphere.rotation const run scoreboard players operation @s point = shovel_knight.chaos_sphere.rotation const
 execute if score @s point < shovel_knight.chaos_sphere.rotation const run scoreboard players remove @s slope 20
 
-execute if score @s point matches 1.. unless block ~ ~-0.15 ~ #ssbrc:passthrough run function ssbrc:fighter/shovel_knight/logic/abilities/chaos_sphere/bounce
+execute if score @s point matches 1.. unless block ~ ~-0.15 ~ #ssbrc:passthrough_barrier run function ssbrc:fighter/shovel_knight/logic/abilities/chaos_sphere/bounce
 
-execute at @s rotated ~ 0.0 unless block ~-0.3 ~ ~ #ssbrc:passthrough run execute store result entity @s Rotation[0] float -1.0 run data get entity @s Rotation[0]
-execute at @s rotated ~ 0.0 unless block ~0.3 ~ ~ #ssbrc:passthrough run execute store result entity @s Rotation[0] float -1.0 run data get entity @s Rotation[0]
-execute at @s rotated ~ 0.0 unless block ~ ~ ~-0.3 #ssbrc:passthrough run execute store result entity @s Rotation[0] float -1.0 run data get entity @s Rotation[0]
-execute at @s rotated ~ 0.0 unless block ~ ~ ~0.3 #ssbrc:passthrough run execute store result entity @s Rotation[0] float -1.0 run data get entity @s Rotation[0]
+execute at @s rotated ~ 0.0 unless block ~-0.3 ~ ~ #ssbrc:passthrough_barrier store result entity @s Rotation[0] float -1.0 run data get entity @s Rotation[0]
+execute at @s rotated ~ 0.0 unless block ~0.3 ~ ~ #ssbrc:passthrough_barrier store result entity @s Rotation[0] float -1.0 run data get entity @s Rotation[0]
+execute at @s rotated ~ 0.0 unless block ~ ~ ~-0.3 #ssbrc:passthrough_barrier store result entity @s Rotation[0] float -1.0 run data get entity @s Rotation[0]
+execute at @s rotated ~ 0.0 unless block ~ ~ ~0.3 #ssbrc:passthrough_barrier store result entity @s Rotation[0] float -1.0 run data get entity @s Rotation[0]
 
 execute at @s rotated as @s run teleport @s ^ ^ ^0.3
 

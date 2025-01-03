@@ -1,13 +1,13 @@
 particle minecraft:wax_off ~ ~ ~ 0.0 0.3 0.0 1.0 1 normal @a
 
-execute unless block ~ ~ ~ #ssbrc:passthrough run kill @s
+execute unless block ~ ~ ~ #ssbrc:passthrough_barrier run return run kill @s
 
 execute positioned ~-0.5 ~-0.5 ~-0.5 as @e[tag=!self,predicate=ssbrc:flag/targets,dx=0] run function ssbrc:logic/damage/generic {amount:"8.0",type:"pierce",kb_resist:"0.0",source:" by @a[tag=self,limit=1]"}
 
 teleport @s ^ ^ ^0.6
 
 scoreboard players add @s temp 1
-execute if score @s temp matches 60.. run kill @s
+execute if score @s temp matches 60.. run return run kill @s
 
 scoreboard players operation display temp = @s temp
 scoreboard players operation display temp %= 6 const

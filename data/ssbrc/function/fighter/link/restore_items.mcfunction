@@ -1,5 +1,5 @@
 function ssbrc:logic/item/give/default {item:"boomerang",type:"skin"}
 
-loot replace entity @s weapon.offhand loot ssbrc:fighter/link/hylian_shield
+function ssbrc:logic/item/init/slot {item:"hylian_shield",slot:"weapon.offhand",type:"shield"}
 
 give @s minecraft:spectral_arrow 5
