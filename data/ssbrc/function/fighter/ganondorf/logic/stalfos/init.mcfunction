@@ -1,5 +1,6 @@
 tag @s add stalfos
 
+attribute @s minecraft:attack_damage base set 1.0
 attribute @s minecraft:follow_range base set 2048.0
 attribute @s minecraft:movement_speed base set 0.3
 attribute @s minecraft:max_health base set 12.0

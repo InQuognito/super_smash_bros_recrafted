@@ -1,12 +1,22 @@
 attribute @s minecraft:armor base reset
+
 attribute @s minecraft:block_interaction_range base reset
+
 attribute @s minecraft:gravity base reset
+attribute @s minecraft:gravity modifier remove ssbrc:zero
+
 attribute @s minecraft:jump_strength base reset
 
+
+
 attribute @s minecraft:attack_damage base set 0.0
+
 attribute @s minecraft:attack_speed base set 100.0
+
 attribute @s minecraft:max_health base set 40.0
+
 attribute @s minecraft:movement_speed base set 0.15
+
 attribute @s minecraft:safe_fall_distance base set 999.0
 attribute @s minecraft:safe_fall_distance modifier remove ssbrc:launched
 

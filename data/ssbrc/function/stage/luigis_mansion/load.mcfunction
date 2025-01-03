@@ -1,17 +1,17 @@
 # Doors
-summon minecraft:marker -331.5 10.5 -1147.5 {Tags:["door","fake"],data:{type:"spruce",facing:"north",hinge:"left"}}
-summon minecraft:marker -330.5 10.5 -1147.5 {Tags:["door","fake"],data:{type:"spruce",facing:"north",hinge:"right"}}
+summon minecraft:marker -331.5 10.5 -1147.5 {Tags:["static_object","door","fake"],data:{type:"spruce",facing:"north",hinge:"left"}}
+summon minecraft:marker -330.5 10.5 -1147.5 {Tags:["static_object","door","fake"],data:{type:"spruce",facing:"north",hinge:"right"}}
 
-summon minecraft:marker -327.5 10.5 -1149.5 {Tags:["door","fake"],data:{type:"spruce",facing:"west",hinge:"left"}}
-summon minecraft:marker -327.5 10.5 -1150.5 {Tags:["door","fake"],data:{type:"spruce",facing:"west",hinge:"right"}}
+summon minecraft:marker -327.5 10.5 -1149.5 {Tags:["static_object","door","fake"],data:{type:"spruce",facing:"west",hinge:"left"}}
+summon minecraft:marker -327.5 10.5 -1150.5 {Tags:["static_object","door","fake"],data:{type:"spruce",facing:"west",hinge:"right"}}
 
-summon minecraft:marker -316.5 16.5 -1129.5 {Tags:["door"],data:{type:"spruce",facing:"east",hinge:"left"}}
-summon minecraft:marker -316.5 16.5 -1128.5 {Tags:["door"],data:{type:"spruce",facing:"east",hinge:"right"}}
+summon minecraft:marker -316.5 16.5 -1129.5 {Tags:["static_object","door"],data:{type:"spruce",facing:"east",hinge:"left"}}
+summon minecraft:marker -316.5 16.5 -1128.5 {Tags:["static_object","door"],data:{type:"spruce",facing:"east",hinge:"right"}}
 
-summon minecraft:marker -309.5 16.5 -1135.5 {Tags:["door"],data:{type:"birch",facing:"south",hinge:"right"}}
+summon minecraft:marker -309.5 16.5 -1135.5 {Tags:["static_object","door"],data:{type:"birch",facing:"south",hinge:"right"}}
 
-summon minecraft:marker -305.5 16.5 -1122.5 {Tags:["door"],data:{type:"spruce",facing:"north",hinge:"left"}}
-summon minecraft:marker -304.5 16.5 -1122.5 {Tags:["door"],data:{type:"spruce",facing:"north",hinge:"right"}}
+summon minecraft:marker -305.5 16.5 -1122.5 {Tags:["static_object","door"],data:{type:"spruce",facing:"north",hinge:"left"}}
+summon minecraft:marker -304.5 16.5 -1122.5 {Tags:["static_object","door"],data:{type:"spruce",facing:"north",hinge:"right"}}
 
 execute as @e[type=minecraft:marker,tag=door] at @s run function ssbrc:logic/stage/doors/close with entity @s data
 
@@ -50,14 +50,14 @@ execute positioned -289.5 16.5 -1108.5 rotated -90.0 0.0 summon minecraft:item_d
 execute positioned -291.5 16.5 -1106.5 rotated 315.0 0.0 summon minecraft:item_display run function ssbrc:stage/luigis_mansion/logic/easel
 
 # Lanterns
-summon minecraft:item_display -295.5 20.5 -1112.5 {Tags:["lantern_off","hanging"]}
-summon minecraft:item_display -291.5 19.5 -1137.5 {Tags:["lantern_off","hanging"]}
-summon minecraft:item_display -287.5 19.5 -1137.5 {Tags:["lantern_off","hanging"]}
-summon minecraft:item_display -291.5 19.5 -1130.5 {Tags:["lantern_off","hanging"]}
-summon minecraft:item_display -287.5 19.5 -1130.5 {Tags:["lantern_off","hanging"]}
+summon minecraft:item_display -295.5 20.5 -1112.5 {Tags:["static_object","lantern_off","hanging"]}
+summon minecraft:item_display -291.5 19.5 -1137.5 {Tags:["static_object","lantern_off","hanging"]}
+summon minecraft:item_display -287.5 19.5 -1137.5 {Tags:["static_object","lantern_off","hanging"]}
+summon minecraft:item_display -291.5 19.5 -1130.5 {Tags:["static_object","lantern_off","hanging"]}
+summon minecraft:item_display -287.5 19.5 -1130.5 {Tags:["static_object","lantern_off","hanging"]}
 
-summon minecraft:item_display -288.5 13.5 -1152.5 {Tags:["lantern_off","hanging"]}
+summon minecraft:item_display -288.5 13.5 -1152.5 {Tags:["static_object","lantern_off","hanging"]}
 
-summon minecraft:item_display -293.5 11.5 -1149.5 {Tags:["lantern_off","floor"]}
+summon minecraft:item_display -293.5 11.5 -1149.5 {Tags:["static_object","lantern_off","floor"]}
 
 function ssbrc:stage/luigis_mansion/logic/blackout/deactivate
