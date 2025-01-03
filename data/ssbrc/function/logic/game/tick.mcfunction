@@ -1,6 +1,6 @@
 function ssbrc:logic/stage/tick/after_start with storage ssbrc:temp game.stage
 
-execute as @a run function ssbrc:logic/game/player/tick
+execute as @a at @s run function ssbrc:logic/game/player/tick
 
 execute as @e[predicate=ssbrc:flag/targets] at @s run function ssbrc:logic/game/target/tick
 kill @e[type=#minecraft:arrows,nbt={inGround:1b}]
