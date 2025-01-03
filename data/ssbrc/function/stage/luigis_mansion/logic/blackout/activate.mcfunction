@@ -1,6 +1,6 @@
 scoreboard players set blackout temp 1
 
-execute as @a[tag=ingame] run function ssbrc:logic/fighter/effects/glowing/cloak
+execute as @a[tag=alive] run function ssbrc:logic/fighter/effects/glowing/cloak
 execute as @e[type=minecraft:item,nbt={Item:{components:{"minecraft:custom_data":{steve_item:true}}}}] run data merge entity @s {Glowing:0b}
 
 fill -340 8 -1165 -285 24 -1145 minecraft:light[level=0] replace minecraft:light
