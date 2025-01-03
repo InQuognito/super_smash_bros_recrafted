@@ -1,5 +1,5 @@
 kill @e[tag=static_object,tag=!no_kill]
-kill @e[type=minecraft:text_display,tag=lobby.action]
+execute positioned -528.5 6.75 -1939.5 run kill @n[type=minecraft:text_display,tag=lobby.action,distance=..0.01]
 
 # Blank Diorama
 place template ssbrc:stage_diorama/random -48 8 35
@@ -26,4 +26,4 @@ execute if score players.ingame temp matches 1 run function ssbrc:logic/game/opt
 scoreboard players set game_stage temp 2
 scoreboard players set countdown timer 30
 
-data modify entity @e[tag=lobby.status,limit=1] text set value '[{"translate":"ssbrc.lobby.status","color":"gold"},{"translate":"ssbrc.lobby.status.stage_select","color":"yellow"}]'
+execute positioned -528.5 6.5 -1939.5 run data modify entity @n[type=minecraft:text_display,tag=lobby.status,distance=..0.01] text set value '[{"translate":"ssbrc.lobby.status","color":"gold"},{"translate":"ssbrc.lobby.status.stage_select","color":"yellow"}]'
