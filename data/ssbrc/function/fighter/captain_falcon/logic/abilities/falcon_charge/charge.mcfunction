@@ -6,4 +6,4 @@ teleport @s @s
 
 execute if score @s charge.2 matches 30.. run function ssbrc:fighter/captain_falcon/logic/abilities/falcon_charge/effects
 
-execute if entity @s[scores={charge.2=1}] run playsound ssbrc:fighter.fox.fire_fox.charge player @a
+execute if score @s charge.2 matches 1 run playsound ssbrc:fighter.fox.fire_fox.charge player @a
