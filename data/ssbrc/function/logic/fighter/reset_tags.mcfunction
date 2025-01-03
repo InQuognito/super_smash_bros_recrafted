@@ -112,6 +112,9 @@ tag @s remove anti
 tag @s remove valor
 tag @s remove wisdom
 
+# Team Rocket
+tag @s remove destiny_bond
+
 # Yar
 function ssbrc:fighter/yar/logic/abilities/power_ups/reset_tags
 
