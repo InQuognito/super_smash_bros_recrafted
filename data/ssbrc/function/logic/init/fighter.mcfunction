@@ -1623,19 +1623,19 @@ data modify storage ssbrc:data fighter set value {\
 					"name": "ssbrc.fighter.mega_man.hyper_bomb",\
 					"tag": "hyper_bomb",\
 					"color": "#30993A",\
-					"model": "ssbrc:fighter/mega_man/item/hyper_bomb/default"\
+					"model": "ssbrc:common/bomb/black"\
 				},\
 				"gold": {\
 					"name": "ssbrc.fighter.mega_man.hyper_bomb",\
 					"tag": "hyper_bomb",\
 					"color": "#30993A",\
-					"model": "ssbrc:fighter/mega_man/item/hyper_bomb/default"\
+					"model": "ssbrc:common/bomb/black"\
 				},\
 				"star_force": {\
 					"name": "ssbrc.fighter.mega_man.hyper_bomb",\
 					"tag": "hyper_bomb",\
 					"color": "#30993A",\
-					"model": "ssbrc:fighter/mega_man/item/hyper_bomb/default"\
+					"model": "ssbrc:common/bomb/black"\
 				},\
 			},\
 			"mega_buster": {\

@@ -14,15 +14,6 @@
 								"nbt": "{Tags:[\"silenced\"]}"
 							}
 						}
-					},
-					{
-						"condition": "minecraft:entity_scores",
-						"entity": "this",
-						"scores": {
-							"cooldown.1": {
-								"max": 0
-							}
-						}
 					}
 				],
 				"item": {
@@ -35,6 +26,6 @@
 		}
 	},
 	"rewards": {
-		"function": "ssbrc:fighter/yar/logic/abilities/gatling_gun/activate"
+		"function": "ssbrc:fighter/yar/logic/abilities/gatling_gun/charge"
 	}
 }
