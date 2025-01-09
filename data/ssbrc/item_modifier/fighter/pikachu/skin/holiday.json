@@ -4,7 +4,7 @@
 		"entity": "this",
 		"target": "item_name",
 		"name": {
-			"translate": "ssbrc.skin.santa_hat",
+			"translate": "ssbrc.skin.holiday",
 			"color": "red",
 			"bold": true
 		}
@@ -16,7 +16,7 @@
 	{
 		"function": "minecraft:set_components",
 		"components": {
-			"minecraft:item_model": "ssbrc:fighter/pikachu/skin/santa_hat"
+			"minecraft:item_model": "ssbrc:fighter/pikachu/skin/holiday"
 		}
 	}
 ]

@@ -1452,7 +1452,7 @@ data modify storage ssbrc:data fighter set value {\
 		"default_form": "default",\
 		"color": "red",\
 		"alignment": "hero",\
-		"skin_count": 4,\
+		"skin_count": 5,\
 		"skin": {\
 			"flower_power": {\
 				"name": "flower_power",\
@@ -1461,6 +1461,10 @@ data modify storage ssbrc:data fighter set value {\
 			"penguin": {\
 				"name": "penguin",\
 				"color": "blue",\
+			},\
+			"skeleton": {\
+				"name": "skeleton",\
+				"color": "white",\
 			}\
 		},\
 		"items": {\
@@ -1489,6 +1493,12 @@ data modify storage ssbrc:data fighter set value {\
 					"color": "white",\
 					"model": "ssbrc:fighter/mario/item/hammer/default"\
 				},\
+				"skeleton": {\
+					"name": "ssbrc.fighter.super_mario_bros.hammer",\
+					"tag": "hammer",\
+					"color": "white",\
+					"model": "ssbrc:fighter/mario/item/hammer/default"\
+				},\
 			},\
 			"fireball": {\
 				"default": {\
@@ -1510,6 +1520,12 @@ data modify storage ssbrc:data fighter set value {\
 					"model": "ssbrc:fighter/mario/item/fireball/default"\
 				},\
 				"penguin": {\
+					"name": "ssbrc.fighter.mario.fireball",\
+					"tag": "fireball",\
+					"color": "red",\
+					"model": "ssbrc:fighter/mario/item/fireball/default"\
+				},\
+				"skeleton": {\
 					"name": "ssbrc.fighter.mario.fireball",\
 					"tag": "fireball",\
 					"color": "red",\
@@ -1809,15 +1825,19 @@ data modify storage ssbrc:data fighter set value {\
 		"default_form": "default",\
 		"color": "yellow",\
 		"alignment": "hero",\
-		"skin_count": 4,\
+		"skin_count": 5,\
 		"skin": {\
-			"santa_hat": {\
-				"name": "santa_hat",\
-				"color": "red",\
-			},\
 			"shiny": {\
 				"name": "shiny",\
 				"color": "yellow",\
+			},\
+			"pikachu_libre": {\
+				"name": "pikachu_libre",\
+				"color": "gold",\
+			},\
+			"holiday": {\
+				"name": "holiday",\
+				"color": "red",\
 			}\
 		},\
 		"items": {\
@@ -1834,17 +1854,23 @@ data modify storage ssbrc:data fighter set value {\
 					"color": "dark_gray",\
 					"model": "null"\
 				},\
-				"santa_hat": {\
-					"name": "ssbrc.fighter.pokemon.mega_punch",\
-					"tag": "mega_punch",\
-					"color": "dark_gray",\
-					"model": "null"\
-				},\
 				"shiny": {\
 					"name": "ssbrc.fighter.pokemon.mega_punch",\
 					"tag": "mega_punch",\
 					"color": "dark_gray",\
 					"model": "ssbrc:common/pokemon/shiny_baton"\
+				},\
+				"pikachu_libre": {\
+					"name": "ssbrc.fighter.pokemon.mega_punch",\
+					"tag": "mega_punch",\
+					"color": "dark_gray",\
+					"model": "null"\
+				},\
+				"holiday": {\
+					"name": "ssbrc.fighter.pokemon.mega_punch",\
+					"tag": "mega_punch",\
+					"color": "dark_gray",\
+					"model": "null"\
 				},\
 			},\
 		}\
@@ -2916,11 +2942,19 @@ data modify storage ssbrc:data fighter set value {\
 		"default_form": "default",\
 		"color": "blue",\
 		"alignment": "hero",\
-		"skin_count": 3,\
+		"skin_count": 5,\
 		"skin": {\
+			"twilight_princess": {\
+				"name": "twilight_princess",\
+				"color": "dark_purple",\
+			},\
 			"hyrule_warriors": {\
 				"name": "hyrule_warriors",\
 				"color": "light_purple",\
+			},\
+			"shadow_zelda": {\
+				"name": "shadow_zelda",\
+				"color": "dark_gray",\
 			}\
 		},\
 		"items": {\

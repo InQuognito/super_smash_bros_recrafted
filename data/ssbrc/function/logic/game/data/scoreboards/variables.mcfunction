@@ -190,8 +190,7 @@ scoreboard players set zelda.magic.max const 10
 scoreboard players set zelda.rupees.max const 50
 scoreboard players set zelda.glass_threshold const 250
 scoreboard players set zelda.bomb.timer const 80
-scoreboard players set zelda.ice_block.range const 20
-scoreboard players set zelda.bomb.cost const 4
+scoreboard players set zelda.bomb.cost const 3
 scoreboard players set zelda.boomerang.cost const 2
 scoreboard players set zelda.default_bow.cost const 1
 scoreboard players set zelda.fire_bow.cost const 2
@@ -200,6 +199,7 @@ scoreboard players set zelda.fire_rod.cost const 2
 scoreboard players set zelda.fire_rod.cost.alt const 4
 scoreboard players set zelda.ice_rod.cost const 2
 scoreboard players set zelda.ice_rod.cost.alt const 4
+scoreboard players set zelda.ice_block.range const 20
 scoreboard players set zelda.magic_boomerang.cost const 3
 scoreboard players set zelda.great_fairy_blessing const 10
 scoreboard players set zelda.inventory_refresh const 20

@@ -2,6 +2,9 @@ function ssbrc:logic/fighter/ability/init
 
 execute anchored eyes positioned ^ ^ ^1 summon minecraft:marker run function ssbrc:fighter/yar/logic/abilities/gatling_gun/init/marker
 
+scoreboard players add @s charge.1 1
+execute if score @s charge.1 matches 200.. run function ssbrc:fighter/yar/logic/abilities/power_ups/reset
+
 scoreboard players add @s cooldown.1 15
 scoreboard players operation gatling_gun.charge temp = @s charge.2
 scoreboard players operation gatling_gun.charge temp /= 10 const

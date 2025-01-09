@@ -1,6 +1,6 @@
 $advancement grant @s only ssbrc:fighter/$(fighter)/$(skin)
 
-scoreboard players operation @s stats.credits -= price.skin.common const
+$scoreboard players operation @s stats.credits -= $(price) const
 
 $tellraw @s [{"translate":"ssbrc.shop.purchase.skin","color":"white"},{"translate":"ssbrc.skin.$(skin)","color":"$(color)"}]
 
