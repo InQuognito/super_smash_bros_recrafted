@@ -1,1 +1,1 @@
-$team join team$(value)
+$team join team$(team)
