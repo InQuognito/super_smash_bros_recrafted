@@ -1,3 +1,5 @@
+function ssbrc:logic/player/data/temp/copy/check
+
 # Fighters
 execute if data storage ssbrc:temp player.temp_data{fighter:"altered_beast",form:"weretiger"} run function ssbrc:logic/fighter/jump/altered_beast/weretiger
 execute if data storage ssbrc:temp player.temp_data{fighter:"altered_beast",form:"weredragon"} run function ssbrc:logic/item/cooldown/set/const {type:"1",value:"5"}

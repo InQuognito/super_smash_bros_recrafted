@@ -1465,6 +1465,7 @@ data modify storage ssbrc:data fighter set value {\
 			"skeleton": {\
 				"name": "skeleton",\
 				"color": "white",\
+				"invisible_player": "true",\
 			}\
 		},\
 		"items": {\

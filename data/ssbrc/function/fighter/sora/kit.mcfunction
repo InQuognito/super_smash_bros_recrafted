@@ -1,7 +1,5 @@
 function ssbrc:fighter/sora/cleanup
 
-scoreboard players operation @s magic = sora.magic.max const
-
 scoreboard players set @s resource 0
 function ssbrc:fighter/sora/logic/drive_forms/hud
 

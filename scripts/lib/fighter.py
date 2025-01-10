@@ -64,6 +64,8 @@ def fighter_storage():
 						mc_write(file, tab(4) + qm + 'forms_isolated_to' + sep_s + ssbrc.fighter[fighter]['skin'][skin]['forms_isolated_to'] + suf_s)
 					else:
 						mc_write(file, tab(4) + qm + 'forms_isolated_to' + sep_s + ssbrc.fighter[fighter]['forms_isolated_to'] + suf_s)
+				if 'invisible_player' in ssbrc.fighter[fighter]['skin'][skin].keys():
+					mc_write(file, tab(4) + qm + 'invisible_player' + sep_s + "true" + suf_s)
 				if n < (skin_count - 2):
 					mc_write(file, tab(3) + ent)
 				else:
