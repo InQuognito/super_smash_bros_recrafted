@@ -1,8 +1,6 @@
-execute if score hazards options matches 1 unless score gyarados temp matches 1 if predicate ssbrc:random_chance/0.15 run scoreboard players set gyarados temp 1
+execute if score hazards options matches 1 as @e[type=minecraft:item_display,tag=aj.gyarados.root] at @s run function ssbrc:stage/lake_of_rage/logic/hazards
 
-execute if score gyarados temp matches 1 as @e[type=minecraft:item_display,tag=gyarados] at @s run function ssbrc:stage/lake_of_rage/logic/pokemon/gyarados/tick
-
-execute as @e[type=minecraft:item_display,tag=gastly] at @s run function ssbrc:stage/lake_of_rage/logic/pokemon/gastly/move
+execute as @e[type=minecraft:item_display,tag=aj.gastly.root] at @s run function ssbrc:stage/lake_of_rage/logic/pokemon/gastly/move
 
 kill @e[predicate=ssbrc:killbox_vulnerable,x=2533.0,y=6.0,z=3999.0,dx=0,dy=21,dz=8]
 kill @e[predicate=ssbrc:killbox_vulnerable,x=2532.0,y=6.0,z=4008.0,dx=0,dy=21,dz=4]

@@ -1,7 +1,7 @@
 time set 24000
 
 # Lapras
-execute positioned 2537.5 12.5 4052.5 rotated 135.0 0.0 run function animated_java:lapras/summon {args:{animation:"animation_lapras_surfacewater_idle",start_animation:true}}
+execute positioned 2537.5 12.5 4052.5 rotated 135.0 0.0 run function ssbrc:logic/pokemon/summon {name:"lapras",animation:"surfacewater_idle"}
 
 # Slowpoke
-execute positioned 2488.5 22.4 4026.5 rotated -110.0 0.0 summon minecraft:item_display run function ssbrc:logic/pokemon/init_generic {name:"slowpoke"}
+execute positioned 2488.5 22.0 4026.5 rotated -110.0 0.0 run function ssbrc:logic/pokemon/summon {name:"slowpoke",animation:"floor_idle"}

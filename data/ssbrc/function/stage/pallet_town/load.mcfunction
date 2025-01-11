@@ -1,23 +1,23 @@
 # Metapod
 execute store result score random.output temp run random value 1..2
-execute if score random.output temp matches 1 positioned -568.5 19.6 -123.5 rotated -135.0 0.0 summon minecraft:item_display run function ssbrc:logic/pokemon/init_generic {name:"metapod",id:11}
-execute if score random.output temp matches 2 positioned -578.5 19.6 -128.5 rotated -110.0 0.0 summon minecraft:item_display run function ssbrc:logic/pokemon/init_generic {name:"metapod",id:11}
+execute if score random.output temp matches 1 positioned -568.5 19.1 -123.5 rotated -135.0 0.0 summon minecraft:item_display run function ssbrc:logic/pokemon/summon {name:"metapod",animation:"ground_idle"}
+execute if score random.output temp matches 2 positioned -578.5 19.1 -128.5 rotated -110.0 0.0 summon minecraft:item_display run function ssbrc:logic/pokemon/summon {name:"metapod",animation:"ground_idle"}
 
 # Diglett / Dugtrio
-execute positioned -594.5 21.5 -135.5 rotated -90.0 0.0 run function ssbrc:stage/pallet_town/logic/pokemon/diglett/decide
-execute positioned -591.5 21.5 -137.5 rotated -90.0 0.0 run function ssbrc:stage/pallet_town/logic/pokemon/diglett/decide
-execute positioned -593.5 21.5 -140.5 rotated -90.0 0.0 run function ssbrc:stage/pallet_town/logic/pokemon/diglett/decide
+execute positioned -594.5 21.0 -135.5 rotated -90.0 0.0 run function ssbrc:stage/pallet_town/logic/pokemon/diglett
+execute positioned -591.5 21.0 -137.5 rotated -90.0 0.0 run function ssbrc:stage/pallet_town/logic/pokemon/diglett
+execute positioned -593.5 21.0 -140.5 rotated -90.0 0.0 run function ssbrc:stage/pallet_town/logic/pokemon/diglett
 
 # Abra
-execute summon minecraft:item_display run function ssbrc:stage/pallet_town/logic/pokemon/abra/init
+function ssbrc:logic/pokemon/summon {name:"abra",animation:"ground_idle"}
 
 # Magnemite
 execute store result score random.output temp run random value 1..2
-execute if score random.output temp matches 1 positioned -530.5 23.5 -153.5 rotated 75.0 0.0 summon minecraft:armor_stand run function ssbrc:stage/pallet_town/logic/pokemon/magnemite/init
-execute if score random.output temp matches 2 positioned -549.5 25.5 -121.5 rotated 180.0 0.0 summon minecraft:armor_stand run function ssbrc:stage/pallet_town/logic/pokemon/magnemite/init
+execute if score random.output temp matches 1 positioned -530.5 24.5 -153.5 rotated 75.0 0.0 run function ssbrc:logic/pokemon/summon {name:"magnemite",animation:"air_idle"}
+execute if score random.output temp matches 2 positioned -549.5 26.5 -121.5 rotated 180.0 0.0 run function ssbrc:logic/pokemon/summon {name:"magnemite",animation:"air_idle"}
 
 # Snorlax
-execute positioned -560.5 13.0 -123.5 rotated 90.0 0.0 summon minecraft:item_display run function ssbrc:stage/pallet_town/logic/pokemon/snorlax
+execute positioned -560.5 12.0 -123.5 rotated 90.0 0.0 run function ssbrc:logic/pokemon/summon {name:"snorlax",animation:"sleep"}
 
 # Rope
 summon minecraft:item_display -553.0 16.25 -157.0 {Tags:["static_object","rope"],Rotation:[90f,0f],item:{id:"minecraft:sugar",components:{"minecraft:item_model":"ssbrc:stage/pallet_town/rope"}},transformation:[2.5f,0f,0f,0f,0f,2.5f,0f,0f,0f,0f,2.5f,0f,0f,0f,0f,1f]}

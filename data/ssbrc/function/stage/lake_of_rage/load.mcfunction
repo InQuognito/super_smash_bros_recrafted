@@ -11,14 +11,14 @@ execute positioned 2506.5 13.75 4027.5 summon minecraft:item_display run functio
 execute positioned 2501.5 13.75 4027.5 summon minecraft:item_display run function ssbrc:stage/lake_of_rage/logic/buoy
 
 # Geodude
-execute positioned 2536.5 21.4 3989.5 rotated 45.0 0.0 summon minecraft:item_display run function ssbrc:logic/pokemon/init_generic {name:"geodude"}
-execute positioned 2539.5 21.4 3997.5 rotated 45.0 0.0 summon minecraft:item_display run function ssbrc:logic/pokemon/init_generic {name:"geodude"}
+execute positioned 2536.5 21.0 3989.5 rotated 45.0 0.0 run function ssbrc:logic/pokemon/summon {name:"geodude",animation:"ground_idle"}
+execute positioned 2539.5 21.0 3997.5 rotated 45.0 0.0 run function ssbrc:logic/pokemon/summon {name:"geodude",animation:"ground_idle"}
 
 # Gyarados
-execute positioned 2487.0 14.5 4032.5 rotated 0.0 0.0 summon minecraft:item_display run function ssbrc:stage/lake_of_rage/logic/pokemon/gyarados/init
+execute positioned 2487.0 12.0 4032.5 rotated 0.0 0.0 run function animated_java:gyarados/summon {args:{variant:"shiny",animation:"surfacewater_idle",start_animation:true}}
 
 # Sudowoodo
-execute positioned 2513.5 17.3 3983.5 rotated 0.0 0.0 summon minecraft:item_display run function ssbrc:logic/pokemon/init_generic {name:"sudowoodo"}
+execute positioned 2513.5 16.0 3983.5 rotated 0.0 0.0 run function ssbrc:logic/pokemon/summon {name:"sudowoodo",animation:"ground_idle"}
 
 execute store result score random.output temp run random value 1..3
 

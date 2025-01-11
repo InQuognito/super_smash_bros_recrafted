@@ -4,7 +4,7 @@ execute if entity @s[predicate=ssbrc:fighter/effects/has/poison] run particle mi
 
 execute if score @s frostbite.timer matches 1.. run function ssbrc:logic/fighter/attributes/modifiers/frostbite/tick
 
-execute if score @s petrified matches 1.. run function ssbrc:fighter/altered_beast/logic/werebear/petrifying_breath/tick
+execute if score @s petrified matches 1.. run function ssbrc:fighter/altered_beast/logic/werebear/petrifying_breath/tick_target
 
 execute if score in_electric_terrain temp matches 1 if block ~ ~ ~ minecraft:water run damage @s 6.0 ssbrc:pierce
 
