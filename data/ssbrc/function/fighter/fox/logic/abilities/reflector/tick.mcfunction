@@ -5,6 +5,6 @@ execute at @s[type=minecraft:armor_stand] run function ssbrc:logic/fighter/refle
 scoreboard players operation @s id = @a[tag=self,limit=1] id
 data modify entity @s Owner set from entity @a[tag=self,limit=1] UUID
 
-tag @s add reflected
+scoreboard players set @s reflect 5
 
 playsound ssbrc:fighter.fox.reflector.reflect player @a

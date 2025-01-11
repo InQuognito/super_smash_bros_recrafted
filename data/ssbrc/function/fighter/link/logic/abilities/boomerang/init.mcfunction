@@ -1,4 +1,5 @@
 tag @s add link.boomerang
+tag @s add reflect_behavior.motion_only
 
 item replace entity @s contents with minecraft:nether_star[minecraft:item_model="ssbrc:fighter/link/item/boomerang"]
 

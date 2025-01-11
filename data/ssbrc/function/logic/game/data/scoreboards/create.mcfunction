@@ -99,6 +99,7 @@ scoreboard objectives add prev_pos_y dummy
 scoreboard objectives add prev_pos_z dummy
 scoreboard objectives add raycast dummy
 scoreboard objectives add raycast_success dummy
+scoreboard objectives add reflect dummy
 scoreboard objectives add reset dummy
 scoreboard objectives add resource dummy
 scoreboard objectives add respawn dummy

@@ -1,0 +1,25 @@
+[
+	{
+		"function": "minecraft:set_lore",
+		"entity": "this",
+		"lore": [
+			{
+				"nbt": "spring",
+				"storage": "ssbrc:data/skin",
+				"interpret": true,
+				"color": "green",
+				"bold": true,
+				"italic": false,
+				"extra": [
+					{
+						"translate": "ssbrc.shop.collection.spring",
+						"color": "white",
+						"bold": false,
+						"italic": false
+					}
+				]
+			}
+		],
+		"mode": "append"
+	}
+]

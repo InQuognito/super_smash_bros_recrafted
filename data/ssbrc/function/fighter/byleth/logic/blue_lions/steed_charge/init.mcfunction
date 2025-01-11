@@ -1,5 +1,4 @@
 tag @s add steed_charge
-tag @s add no_kill
 
 item replace entity @s horse.saddle with minecraft:saddle
 

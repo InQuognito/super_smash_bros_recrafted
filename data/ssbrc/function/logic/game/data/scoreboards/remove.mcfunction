@@ -91,6 +91,7 @@ scoreboard objectives remove prev_pos_y
 scoreboard objectives remove prev_pos_z
 scoreboard objectives remove raycast
 scoreboard objectives remove raycast_success
+scoreboard objectives remove reflect
 scoreboard objectives remove reset
 scoreboard objectives remove resource
 scoreboard objectives remove respawn

@@ -1,4 +1,5 @@
 tag @s add zelda.boomerang
+tag @s add reflect_behavior.motion_only
 
 loot replace entity @s contents loot ssbrc:fighter/zelda/boomerang
 

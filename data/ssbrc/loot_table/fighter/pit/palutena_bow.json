@@ -34,7 +34,7 @@
 										{
 											"type": "minecraft:attack_damage",
 											"id": "ssbrc:attack_damage",
-											"amount": 6,
+											"amount": 5,
 											"operation": "add_multiplied_base",
 											"slot": "mainhand"
 										},
