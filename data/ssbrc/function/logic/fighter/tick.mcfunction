@@ -91,4 +91,4 @@ scoreboard players remove @s[scores={rapid_kill.tracking=1..}] rapid_kill.tracki
 tag @s[tag=vented] remove silenced
 tag @s remove vented
 
-spawnpoint
+execute positioned ~ ~0.5 ~ run spawnpoint
