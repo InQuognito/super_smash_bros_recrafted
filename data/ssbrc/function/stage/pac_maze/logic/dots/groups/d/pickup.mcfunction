@@ -1,3 +1,0 @@
-scoreboard players reset dot_group.d temp
-
-function ssbrc:stage/pac_maze/logic/dots/groups/pickup

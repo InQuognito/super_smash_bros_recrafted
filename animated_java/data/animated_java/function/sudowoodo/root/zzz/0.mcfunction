@@ -5,6 +5,6 @@ execute store result storage aj:temp z int 1 store result score #this.z aj.i run
 function animated_java:sudowoodo/root/outdated_tellraw with storage aj:temp
 data modify entity @s data.rigHash set value '813a7ffaa2eb926b67b493b74499f5ddc8c223d00be4dc62f734890fba0098f8'
 execute on passengers run data merge entity @s {Glowing: 1b, glow_color_override: 16711680}
-summon minecraft:text_display ~ ~ ~ {Tags:['aj.rig_entity', 'aj.outdated_rig_text_display', 'aj.new'], text:'["",{"text":"This rig instance is outdated!\\nIt will not function correctly and should be removed or re-summoned.","color":"red"}]', billboard: "vertical", transformation:{translation:[0f,3f,0f],left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],scale:[1f,1f,1f]}}
+summon minecraft:text_display ~ ~ ~ {Tags:['aj.global.entity', 'aj.outdated_rig_text_display', 'aj.new'], text:'["",{"text":"This rig instance is outdated!\\nIt will not function correctly and should be removed or re-summoned.","color":"red"}]', billboard: "vertical", transformation:{translation:[0f,3f,0f],left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],scale:[1f,1f,1f]}}
 ride @e[type=minecraft:text_display,tag=aj.new,limit=1,distance=..0.01] mount @s
 tag @e[type=minecraft:text_display,tag=aj.new,limit=1,distance=..0.01] remove aj.new

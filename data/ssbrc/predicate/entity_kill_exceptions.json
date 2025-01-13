@@ -18,6 +18,13 @@
 			"predicate": {
 				"nbt": "{Tags:[\"static_object\"]}"
 			}
+		},
+		{
+			"condition": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
+				"nbt": "{Tags:[\"aj.global.entity\"]}"
+			}
 		}
 	]
 }

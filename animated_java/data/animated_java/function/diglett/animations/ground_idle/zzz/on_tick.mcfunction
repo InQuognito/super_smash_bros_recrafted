@@ -5,5 +5,5 @@ execute if score @s aj.tween_duration matches 0 on passengers run data modify en
 execute if score @s aj.ground_idle.frame matches -1 run function animated_java:diglett/animations/ground_idle/zzz/zzz/0
 execute store result storage aj:temp frame int 1 run scoreboard players get @s aj.ground_idle.frame
 function animated_java:diglett/animations/ground_idle/zzz/apply_frame with storage aj:temp
-execute if score @s aj.ground_idle.frame matches 0.. run return run function animated_java:diglett/animations/ground_idle/zzz/zzz/1
+execute if score @s aj.ground_idle.frame matches 79.. run return run function animated_java:diglett/animations/ground_idle/zzz/zzz/1
 scoreboard players add @s aj.ground_idle.frame 1
