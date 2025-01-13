@@ -1,4 +1,4 @@
-execute if score players temp matches ..0 run return run function ssbrc:logic/pre_game/fighter_select/participation/no_players
+execute if score players.ingame temp matches ..0 run return run function ssbrc:logic/pre_game/fighter_select/participation/no_players
 
 execute if score game_stage temp matches ..0 if score players temp matches 1.. if score fighter_picked temp = players temp run return run function ssbrc:logic/pre_game/fighter_select/participation/quickstart
 

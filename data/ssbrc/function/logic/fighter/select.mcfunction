@@ -9,6 +9,7 @@ tag @s add fighter_picked
 $tellraw @s[tag=!blind_pick] [{"translate":"ssbrc.fighter.menu.selected","color":"white"},{"translate":"ssbrc.fighter.$(name)","color":"$(color)"}]
 $function ssbrc:fighter/$(name)/menu/select
 
+execute if entity @s[team=spectator] run function ssbrc:logic/game/team/join/red
 execute if score teams options matches 0 run team join ready @s
 effect clear @s minecraft:glowing
 

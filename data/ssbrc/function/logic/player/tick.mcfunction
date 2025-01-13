@@ -1,5 +1,8 @@
 function ssbrc:logic/ui/tick
 
+scoreboard players add @s[scores={popup_timer=1..}] popup_timer 1
+execute if score @s popup_timer matches 81.. run function ssbrc:logic/ui/popup/clear
+
 function ssbrc:logic/lobby/tick
 
 execute if score @s drop_item matches 1.. run function ssbrc:logic/player/drop_item
