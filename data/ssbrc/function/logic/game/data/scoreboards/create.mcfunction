@@ -180,8 +180,8 @@ scoreboard objectives add world_time dummy
 
 # Stats
 scoreboard objectives add stats.credits dummy
-scoreboard objectives add stats.kills minecraft.custom:minecraft.player_kills
-scoreboard objectives add stats.deaths minecraft.custom:minecraft.deaths
+scoreboard objectives add stats.kills dummy
+scoreboard objectives add stats.deaths dummy
 scoreboard objectives add stats.kill_death dummy
 scoreboard objectives add stats.kill_death.decimal dummy
 scoreboard objectives add stats.kill_death.integer dummy

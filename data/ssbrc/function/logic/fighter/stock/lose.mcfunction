@@ -23,4 +23,5 @@ scoreboard players reset @s rapid_kill.tracking
 # Logic
 tag @s add check_death
 
+execute unless score singleplayer options matches 1 run scoreboard players add @s stats.deaths 1
 scoreboard players set @s flag.dead 0

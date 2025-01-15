@@ -24,4 +24,4 @@ scoreboard players operation id_to_match temp = @s id
 
 $function ssbrc:fighter/$(name)/cleanup
 
-$scoreboard players add @s stats.$(name).deaths 1
+$execute unless score singleplayer options matches 1 run scoreboard players add @s stats.$(name).deaths 1

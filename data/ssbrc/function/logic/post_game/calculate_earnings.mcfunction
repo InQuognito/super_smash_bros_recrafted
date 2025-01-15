@@ -9,6 +9,7 @@ scoreboard players operation @s stats.credits.temp += value.participation const
 execute if entity @s[tag=winner,tag=!ended_early] run data modify storage ssbrc:bonuses value append value '[{"translate":"ssbrc.bonuses.win","bold":true,"color":"gold"},{"text":" - ","bold":false,"color":"white"},{"score":{"name":"value.victory","objective":"const"},"bold":false,"color":"yellow"},{"text":"₡","bold":false,"color":"yellow"}]'
 scoreboard players operation @s[tag=winner,tag=!ended_early] stats.credits.temp += value.victory const
 
+scoreboard players operation @s stats.kills += @s kills
 scoreboard players operation value kills = @s kills
 scoreboard players operation value kills *= value.ko const
 execute if score @s kills matches 1.. run data modify storage ssbrc:bonuses value append value '[{"score":{"name":"@s","objective":"kills"},"bold":true,"color":"yellow"},{"text":"x ","bold":true,"color":"yellow"},{"translate":"ssbrc.bonuses.kills","bold":true,"color":"gold"},{"text":" - ","bold":false,"color":"white"},{"score":{"name":"value","objective":"kills"},"bold":false,"color":"yellow"},{"text":"₡","bold":false,"color":"yellow"}]'
