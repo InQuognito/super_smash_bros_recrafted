@@ -1,3 +1,6 @@
+execute positioned ~ ~2.5 ~ run kill @e[type=minecraft:text_display,tag=leaderboard.label,distance=..0.01]
+kill @e[type=minecraft:text_display,tag=leaderboard.label,distance=..0.01]
+
 $summon minecraft:text_display ~ ~2.5 ~ {Tags:["leaderboard.label"],Rotation:[90f,0f],text:'[{"translate":"ssbrc.stats.$(value)","bold":true,"underlined":true,"color":"aqua"},{"text":" | ","bold":true,"underlined":false,"color":"white"},{"translate":"ssbrc.stats.$(ratio)","bold":true,"underlined":true,"color":"light_purple"}]',alignment:"center"}
 
 $summon minecraft:text_display ~ ~ ~ {Tags:["leaderboard.label","leaderboard.$(value)"],Rotation:[90f,0f],alignment:"center"}

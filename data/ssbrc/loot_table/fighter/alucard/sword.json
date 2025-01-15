@@ -44,7 +44,7 @@
 						},
 						{
 							"function": "minecraft:set_custom_data",
-							"tag": "{item:\"alucard_sword\"}"
+							"tag": "{item:\"alucard_sword\",damage:4}"
 						}
 					]
 				}

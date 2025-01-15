@@ -75,7 +75,7 @@
 						},
 						{
 							"function": "minecraft:set_custom_data",
-							"tag": "{item:\"fists_of_fury\"}"
+							"tag": "{item:\"fists_of_fury\",damage:5}"
 						}
 					]
 				}

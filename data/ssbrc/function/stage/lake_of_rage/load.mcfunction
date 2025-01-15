@@ -11,8 +11,11 @@ execute positioned 2506.5 13.75 4027.5 summon minecraft:item_display run functio
 execute positioned 2501.5 13.75 4027.5 summon minecraft:item_display run function ssbrc:stage/lake_of_rage/logic/buoy
 
 # Geodude
-execute positioned 2536.5 21.0 3989.5 rotated 45.0 0.0 run function ssbrc:logic/pokemon/summon {name:"geodude",animation:"ground_idle"}
+execute positioned 2536.5 21.0 3989.5 rotated 70.0 0.0 run function ssbrc:logic/pokemon/summon {name:"geodude",animation:"ground_idle"}
 execute positioned 2539.5 21.0 3997.5 rotated 45.0 0.0 run function ssbrc:logic/pokemon/summon {name:"geodude",animation:"ground_idle"}
+
+# Tyrogue
+execute positioned 2538.1 23.0 3994.8 rotated 90.0 0.0 run function ssbrc:logic/pokemon/summon {name:"tyrogue",animation:"shoulder_left"}
 
 # Gyarados
 execute positioned 2487.0 12.0 4032.5 rotated 0.0 0.0 run function animated_java:gyarados/summon {args:{variant:"shiny",animation:"surfacewater_idle",start_animation:true}}

@@ -92,7 +92,7 @@
 						},
 						{
 							"function": "minecraft:set_custom_data",
-							"tag": "{item:\"flame_hands\"}"
+							"tag": "{item:\"flame_hands\",damage:5}"
 						}
 					]
 				}

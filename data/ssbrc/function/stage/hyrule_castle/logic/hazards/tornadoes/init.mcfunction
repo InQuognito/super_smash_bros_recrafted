@@ -1,11 +1,10 @@
 tag @s add tornado
 
-scoreboard players operation @s id = tornado temp
+scoreboard players add tornadoes temp 1
 
-data merge entity @s {Pose:{Head:[0.1f,0.1f,0.1f]}}
+playsound ssbrc:stage.hyrule_castle.tornado.activate hostile @a
 
-function ssbrc:logic/init/armor_stand/data
-
-teleport @s[predicate=ssbrc:stage/hyrule_castle/tornadoes/1_and_7] ~ ~ ~ 180.0 0.0
-execute if entity @s[predicate=ssbrc:stage/hyrule_castle/tornadoes/2_and_5] run function ssbrc:stage/hyrule_castle/logic/hazards/tornadoes/init/2_and_5
-execute if entity @s[predicate=ssbrc:stage/hyrule_castle/tornadoes/3_and_6] run function ssbrc:stage/hyrule_castle/logic/hazards/tornadoes/init/3_and_6
+execute if score random.output temp matches 4 run return run function ssbrc:stage/hyrule_castle/logic/hazards/tornadoes/init/4
+execute if predicate ssbrc:stage/hyrule_castle/tornadoes/2_and_5 run return run function ssbrc:stage/hyrule_castle/logic/hazards/tornadoes/init/2_and_5
+execute if predicate ssbrc:stage/hyrule_castle/tornadoes/3_and_6 run return run function ssbrc:stage/hyrule_castle/logic/hazards/tornadoes/init/3_and_6
+rotate @s 180.0 0.0

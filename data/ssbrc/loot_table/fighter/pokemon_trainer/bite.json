@@ -110,7 +110,7 @@
 						},
 						{
 							"function": "minecraft:set_custom_data",
-							"tag": "{item:\"bite\"}"
+							"tag": "{item:\"bite\",damage:7}"
 						}
 					]
 				}

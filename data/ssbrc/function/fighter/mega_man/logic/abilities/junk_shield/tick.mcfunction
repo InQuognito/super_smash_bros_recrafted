@@ -1,6 +1,6 @@
 particle minecraft:ash ~ ~ ~ 0.0 0.0 0.0 0.0 1 normal @a
 
-execute as @n[type=#ssbrc:projectile,predicate=!ssbrc:entity_kill_exceptions,predicate=!ssbrc:id_match,distance=..1] run function ssbrc:fighter/mega_man/logic/abilities/junk_shield/kill
+execute as @n[type=#ssbrc:projectile,predicate=!ssbrc:exceptions/delete,predicate=!ssbrc:id_match,distance=..1] run function ssbrc:fighter/mega_man/logic/abilities/junk_shield/kill
 execute if score entity_killed temp matches 1.. run function ssbrc:fighter/mega_man/logic/abilities/junk_shield/expend
 
 execute if entity @s[tag=!active,scores={temp=15..}] run function ssbrc:fighter/mega_man/logic/abilities/junk_shield/rotation/get

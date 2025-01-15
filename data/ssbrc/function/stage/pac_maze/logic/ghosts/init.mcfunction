@@ -1,5 +1,6 @@
 tag @s add ghost
 $tag @s add $(name)
+tag @s add static_object
 
 $item replace entity @s contents with minecraft:sugar[minecraft:item_model="ssbrc:stage/pac_maze/ghost/$(name)/1"]
 

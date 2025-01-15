@@ -48,7 +48,7 @@
 						},
 						{
 							"function": "minecraft:set_custom_data",
-							"tag": "{item:\"mega_punch\"}"
+							"tag": "{item:\"mega_punch\",damage:6}"
 						}
 					]
 				}

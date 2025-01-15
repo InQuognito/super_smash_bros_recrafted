@@ -48,7 +48,7 @@
 						},
 						{
 							"function": "minecraft:set_custom_data",
-							"tag": "{item:\"mania_punch\"}"
+							"tag": "{item:\"mania_punch\",damage:4}"
 						}
 					]
 				}

@@ -59,7 +59,7 @@
 						},
 						{
 							"function": "minecraft:set_custom_data",
-							"tag": "{item:\"palutena_bow\",split:\"false\",chargable:\"true\"}"
+							"tag": "{item:\"palutena_bow\",split:\"false\",chargable:\"true\",damage:5}"
 						}
 					]
 				}

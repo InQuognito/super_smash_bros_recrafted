@@ -37,4 +37,4 @@ fill -337 16 -1107 -335 16 -1105 minecraft:blast_furnace[facing=east,lit=true] r
 
 execute as @e[type=minecraft:item_display,tag=lantern_off] at @s run function ssbrc:stage/luigis_mansion/logic/blackout/lanterns/activate
 
-execute as @e[type=minecraft:item_display,tag=boo] at @s anchored eyes run particle minecraft:poof ^ ^ ^5 0.1 0.1 0.1 0.05 5 normal @a
+execute as @e[type=minecraft:item_display,tag=aj.boo.root] at @s run function ssbrc:stage/luigis_mansion/logic/boo/deactivate

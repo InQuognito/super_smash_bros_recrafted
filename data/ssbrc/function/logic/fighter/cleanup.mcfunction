@@ -17,7 +17,7 @@ scoreboard players reset @s frostbite.timer
 function ssbrc:logic/fighter/effects/mobility/mobilize
 
 tag @s remove angel_feather
-tag @s remove tornado.spin
+scoreboard players reset @s tornado
 
 # Misc
 scoreboard players operation id_to_match temp = @s id

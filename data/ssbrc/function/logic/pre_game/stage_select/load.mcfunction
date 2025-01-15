@@ -1,4 +1,4 @@
-kill @e[tag=static_object,tag=!no_kill]
+kill @e[tag=static_object,tag=!delete_behavior.disabled]
 execute positioned -528.5 6.75 -1939.5 run kill @n[type=minecraft:text_display,tag=lobby.action,distance=..0.01]
 
 # Blank Diorama

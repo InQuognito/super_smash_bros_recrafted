@@ -2,7 +2,7 @@
 function ssbrc:logic/item/cooldown/decrease {item:"fox.blaster"}
 
 # Reflector
-execute if score @s duration.2 matches 1.. anchored eyes positioned ^ ^ ^2 as @e[type=#ssbrc:projectile,predicate=!ssbrc:reflect_exceptions,distance=..2] unless score @s reflect matches 1.. at @s run function ssbrc:fighter/fox/logic/abilities/reflector/tick
+execute if score @s duration.2 matches 1.. anchored eyes positioned ^ ^ ^2 as @e[type=#ssbrc:projectile,predicate=!ssbrc:exceptions/reflect,distance=..2] unless score @s reflect matches 1.. at @s run function ssbrc:fighter/fox/logic/abilities/reflector/check
 
 function ssbrc:logic/item/cooldown/decrease {item:"reflector"}
 

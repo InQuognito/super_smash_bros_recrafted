@@ -48,7 +48,7 @@
 						},
 						{
 							"function": "minecraft:set_custom_data",
-							"tag": "{item:\"devastation_strike\"}"
+							"tag": "{item:\"devastation_strike\",damage:7}"
 						}
 					]
 				}

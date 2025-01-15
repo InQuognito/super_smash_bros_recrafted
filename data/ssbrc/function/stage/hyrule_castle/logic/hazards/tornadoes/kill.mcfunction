@@ -1,5 +1,3 @@
-kill @n[type=minecraft:armor_stand,tag=middle]
-kill @n[type=minecraft:armor_stand,tag=top]
-kill @s
+function animated_java:tornado/remove/this
 
 scoreboard players remove tornadoes temp 1

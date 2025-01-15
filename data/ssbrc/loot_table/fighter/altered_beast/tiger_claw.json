@@ -38,7 +38,7 @@
 						},
 						{
 							"function": "minecraft:set_custom_data",
-							"tag": "{item:\"tiger_claw\"}"
+							"tag": "{item:\"tiger_claw\",damage:7}"
 						}
 					]
 				}

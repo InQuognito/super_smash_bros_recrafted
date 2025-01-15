@@ -58,6 +58,6 @@
 	},
 	{
 		"function": "minecraft:set_custom_data",
-		"tag": "{spell:\"strike_raid\"}"
+		"tag": "{spell:\"strike_raid\",damage:7}"
 	}
 ]

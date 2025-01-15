@@ -75,7 +75,7 @@
 						},
 						{
 							"function": "minecraft:set_custom_data",
-							"tag": "{item:\"collarbone_breaker\",path:\"ryu/logic/abilities/hadouken/check\"}"
+							"tag": "{item:\"collarbone_breaker\",path:\"ryu/logic/abilities/hadouken/check\",damage:6}"
 						}
 					]
 				}

@@ -82,7 +82,7 @@
 						},
 						{
 							"function": "minecraft:set_custom_data",
-							"tag": "{item:\"barrel\"}"
+							"tag": "{item:\"barrel\",damage:7}"
 						}
 					]
 				}

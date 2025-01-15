@@ -48,7 +48,7 @@
 						},
 						{
 							"function": "minecraft:set_custom_data",
-							"tag": "{item:\"power_band\"}"
+							"tag": "{item:\"power_band\",damage:8}"
 						}
 					]
 				}

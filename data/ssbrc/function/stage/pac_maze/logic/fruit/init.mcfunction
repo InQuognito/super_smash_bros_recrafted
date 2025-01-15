@@ -1,5 +1,6 @@
 tag @s add fruit
 $tag @s add $(fruit)
+tag @s add static_object
 
 teleport @s ~ ~ ~ ~ ~
 

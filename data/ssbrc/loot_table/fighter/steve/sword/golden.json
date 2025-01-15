@@ -45,6 +45,10 @@
 						{
 							"function": "minecraft:reference",
 							"name": "ssbrc:fighter/steve/sword"
+						},
+						{
+							"function": "minecraft:set_custom_data",
+							"tag": "{damage:6}"
 						}
 					]
 				}

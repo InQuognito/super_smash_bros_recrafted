@@ -76,7 +76,7 @@
 						},
 						{
 							"function": "minecraft:set_custom_data",
-							"tag": "{item:\"krazoan_staff\"}"
+							"tag": "{item:\"krazoan_staff\",damage:5}"
 						}
 					]
 				}

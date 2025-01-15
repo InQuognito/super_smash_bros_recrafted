@@ -25,6 +25,6 @@
 	},
 	{
 		"function": "minecraft:set_custom_data",
-		"tag": "{item:\"dagger\"}"
+		"tag": "{item:\"dagger\",damage:5}"
 	}
 ]

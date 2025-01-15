@@ -28,7 +28,7 @@
 						},
 						{
 							"function": "minecraft:set_custom_data",
-							"tag": "{item:\"stalfos_sword\"}"
+							"tag": "{item:\"stalfos_sword\",damage:3}"
 						}
 					]
 				}

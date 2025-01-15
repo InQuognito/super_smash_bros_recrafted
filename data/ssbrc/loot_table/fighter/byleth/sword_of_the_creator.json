@@ -57,7 +57,7 @@
 						},
 						{
 							"function": "minecraft:set_custom_data",
-							"tag": "{item:\"sword_of_the_creator\"}"
+							"tag": "{item:\"sword_of_the_creator\",damage:4}"
 						}
 					]
 				}

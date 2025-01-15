@@ -57,7 +57,7 @@
 						},
 						{
 							"function": "minecraft:set_custom_data",
-							"tag": "{item:\"flame_sword\",group:\"mega_buster\"}"
+							"tag": "{item:\"flame_sword\",group:\"mega_buster\",damage:5}"
 						}
 					]
 				}

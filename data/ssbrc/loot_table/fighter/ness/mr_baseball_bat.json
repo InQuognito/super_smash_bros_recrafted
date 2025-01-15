@@ -38,7 +38,7 @@
 						},
 						{
 							"function": "minecraft:set_custom_data",
-							"tag": "{item:\"mr_baseball_bat\"}"
+							"tag": "{item:\"mr_baseball_bat\",damage:7}"
 						}
 					]
 				}

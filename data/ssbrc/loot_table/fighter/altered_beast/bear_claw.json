@@ -38,7 +38,7 @@
 						},
 						{
 							"function": "minecraft:set_custom_data",
-							"tag": "{item:\"bear_claw\"}"
+							"tag": "{item:\"bear_claw\",damage:8}"
 						}
 					]
 				}

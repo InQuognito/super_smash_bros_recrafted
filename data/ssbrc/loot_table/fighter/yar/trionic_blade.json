@@ -38,7 +38,7 @@
 						},
 						{
 							"function": "minecraft:set_custom_data",
-							"tag": "{item:\"trionic_blade\"}"
+							"tag": "{item:\"trionic_blade\",damage:4}"
 						}
 					]
 				}

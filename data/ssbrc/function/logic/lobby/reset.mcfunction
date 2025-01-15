@@ -17,14 +17,14 @@ execute positioned -531.99 4.5 -1944.5 run function ssbrc:logic/lobby/logo {text
 execute positioned -531.99 4.5 -1945.5 run function ssbrc:logic/lobby/logo {text:"youtube",color:"red"}
 
 # Lobby Statue
-execute positioned -535.5 8.0 -1944.5 run summon minecraft:item_display ~ ~ ~ {Tags:["static_object","no_kill"],item:{id:"minecraft:stick",components:{"minecraft:item_model":"ssbrc:misc/lobby_statue"}},Rotation:[-90f,0f]}
+execute positioned -535.5 8.0 -1944.5 run summon minecraft:item_display ~ ~ ~ {Tags:["static_object","delete_behavior.disabled"],item:{id:"minecraft:stick",components:{"minecraft:item_model":"ssbrc:misc/lobby_statue"}},Rotation:[-90f,0f]}
 
 # Sandbag
 execute positioned -525.5 5.25 -1936.5 run summon minecraft:item_display ~ ~ ~ {CustomName:'"sandbag"',Tags:["selectable","standard_highlight"],item:{id:"minecraft:emerald",components:{"minecraft:item_model":"ssbrc:item/sandbag/default"}},Rotation:[-145f,0f]}
 
 # Resource Pack Checker
-execute positioned -525.5 5.5 -1952.5 run summon minecraft:item_display ~ ~ ~ {CustomName:'"assets"',Tags:["selectable","standard_highlight"],item:{id:"minecraft:barrier",components:{"minecraft:item_model":"ssbrc:common/pokemon/pokeball/default"}},transformation:[0.75f,0f,0f,0f,0f,0.75f,0f,0f,0f,0f,0.75f,0f,0f,0f,0f,1f]}
-execute positioned -525.5 4.15 -1951.99 run summon minecraft:text_display ~ ~ ~ {text:'["If this is NOT a ",{"text":"Pokéball","color":"red"},", click the ball to download the resource pack!"]',transformation:[0.5f,0f,0f,0f,0f,0.5f,0f,0f,0f,0f,0.5f,0f,0f,0f,0f,1f],line_width:70,alignment:"center"}
+execute positioned -525.5 5.0 -1952.5 run summon minecraft:text_display ~ ~ ~ {CustomName:'"assets"',Tags:["selectable","standard_highlight"],text:'["",{"text":"\\uf990","font":"ssbrc:icons","color":"light_purple"}," "]',billboard:"vertical",alignment:"center",background:0,transformation:[3.5f,0f,0f,0f,0f,3.5f,0f,0f,0f,0f,3.5f,0f,0f,0f,0f,1f]}
+execute positioned -525.5 4.15 -1951.99 run summon minecraft:text_display ~ ~ ~ {text:'["Click the note to download the music pack!"]',transformation:[0.5f,0f,0f,0f,0f,0.5f,0f,0f,0f,0f,0.5f,0f,0f,0f,0f,1f],line_width:70,alignment:"center"}
 
 setblock 0 16 0 minecraft:shulker_box replace
 setblock 0 17 0 minecraft:birch_sign replace

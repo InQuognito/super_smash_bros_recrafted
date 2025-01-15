@@ -49,7 +49,7 @@
 						},
 						{
 							"function": "minecraft:set_custom_data",
-							"tag": "{item:\"gladius\"}"
+							"tag": "{item:\"gladius\",damage:6}"
 						}
 					]
 				}

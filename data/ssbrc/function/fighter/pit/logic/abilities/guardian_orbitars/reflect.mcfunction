@@ -1,9 +1,3 @@
-execute if entity @s[type=#ssbrc:movement/motion] run function ssbrc:logic/fighter/reflect/motion
-teleport @s[type=!#ssbrc:movement/motion,type=!minecraft:armor_stand] ~ ~ ~ facing ^ ^ ^-1
-execute at @s[type=minecraft:armor_stand] run function ssbrc:logic/fighter/reflect/armor_stands
-
-data modify entity @s Owner set from entity @a[tag=self,limit=1] UUID
-
-tag @s add reflected
+function ssbrc:logic/fighter/reflect/check
 
 scoreboard players set projectile_reflected temp 1

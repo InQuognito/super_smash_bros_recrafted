@@ -1,17 +1,17 @@
 # Doors
-summon minecraft:marker -331.5 10.5 -1147.5 {Tags:["static_object","door","fake"],data:{type:"spruce",facing:"north",hinge:"left"}}
-summon minecraft:marker -330.5 10.5 -1147.5 {Tags:["static_object","door","fake"],data:{type:"spruce",facing:"north",hinge:"right"}}
+summon minecraft:marker -331.5 10.5 -1147.5 {Tags:["door","static_object","fake"],data:{type:"spruce",facing:"north",hinge:"left"}}
+summon minecraft:marker -330.5 10.5 -1147.5 {Tags:["door","static_object","fake"],data:{type:"spruce",facing:"north",hinge:"right"}}
 
-summon minecraft:marker -327.5 10.5 -1149.5 {Tags:["static_object","door","fake"],data:{type:"spruce",facing:"west",hinge:"left"}}
-summon minecraft:marker -327.5 10.5 -1150.5 {Tags:["static_object","door","fake"],data:{type:"spruce",facing:"west",hinge:"right"}}
+summon minecraft:marker -327.5 10.5 -1149.5 {Tags:["door","static_object","fake"],data:{type:"spruce",facing:"west",hinge:"left"}}
+summon minecraft:marker -327.5 10.5 -1150.5 {Tags:["door","static_object","fake"],data:{type:"spruce",facing:"west",hinge:"right"}}
 
-summon minecraft:marker -316.5 16.5 -1129.5 {Tags:["static_object","door"],data:{type:"spruce",facing:"east",hinge:"left"}}
-summon minecraft:marker -316.5 16.5 -1128.5 {Tags:["static_object","door"],data:{type:"spruce",facing:"east",hinge:"right"}}
+summon minecraft:marker -316.5 16.5 -1129.5 {Tags:["door","static_object"],data:{type:"spruce",facing:"east",hinge:"left"}}
+summon minecraft:marker -316.5 16.5 -1128.5 {Tags:["door","static_object"],data:{type:"spruce",facing:"east",hinge:"right"}}
 
-summon minecraft:marker -309.5 16.5 -1135.5 {Tags:["static_object","door"],data:{type:"birch",facing:"south",hinge:"right"}}
+summon minecraft:marker -309.5 16.5 -1135.5 {Tags:["door","static_object"],data:{type:"birch",facing:"south",hinge:"right"}}
 
-summon minecraft:marker -305.5 16.5 -1122.5 {Tags:["static_object","door"],data:{type:"spruce",facing:"north",hinge:"left"}}
-summon minecraft:marker -304.5 16.5 -1122.5 {Tags:["static_object","door"],data:{type:"spruce",facing:"north",hinge:"right"}}
+summon minecraft:marker -305.5 16.5 -1122.5 {Tags:["door","static_object"],data:{type:"spruce",facing:"north",hinge:"left"}}
+summon minecraft:marker -304.5 16.5 -1122.5 {Tags:["door","static_object"],data:{type:"spruce",facing:"north",hinge:"right"}}
 
 execute as @e[type=minecraft:marker,tag=door] at @s run function ssbrc:logic/stage/doors/close with entity @s data
 

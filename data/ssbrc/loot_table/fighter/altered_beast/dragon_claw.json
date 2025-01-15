@@ -38,7 +38,7 @@
 						},
 						{
 							"function": "minecraft:set_custom_data",
-							"tag": "{item:\"dragon_claw\"}"
+							"tag": "{item:\"dragon_claw\",damage:6}"
 						}
 					]
 				}

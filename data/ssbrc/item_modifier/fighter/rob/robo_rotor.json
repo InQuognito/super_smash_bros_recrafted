@@ -29,6 +29,6 @@
 	},
 	{
 		"function": "minecraft:set_custom_data",
-		"tag": "{item:\"robo_rotor\"}"
+		"tag": "{item:\"robo_rotor\",damage:6}"
 	}
 ]

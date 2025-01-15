@@ -64,7 +64,7 @@
 						},
 						{
 							"function": "minecraft:set_custom_data",
-							"tag": "{item:\"buster_sword\"}"
+							"tag": "{item:\"buster_sword\",damage:7}"
 						}
 					]
 				}

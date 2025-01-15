@@ -107,7 +107,7 @@
 						},
 						{
 							"function": "minecraft:set_custom_data",
-							"tag": "{item:\"master_sword\",path:\"link/logic/abilities/sword_spin/activate/check\"}"
+							"tag": "{item:\"master_sword\",path:\"link/logic/abilities/sword_spin/activate/check\",damage:6}"
 						}
 					]
 				}

@@ -29,6 +29,6 @@
 	},
 	{
 		"function": "minecraft:set_custom_data",
-		"tag": "{item:\"ganondorf.sword\"}"
+		"tag": "{item:\"ganondorf.sword\",damage:8}"
 	}
 ]
