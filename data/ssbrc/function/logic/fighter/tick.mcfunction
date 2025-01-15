@@ -26,12 +26,11 @@ tag @s[tag=vented] add silenced
 execute unless score @s[predicate=ssbrc:input/jump] jump matches 1.. run function ssbrc:logic/fighter/jump
 execute unless predicate ssbrc:flag/in_air run function ssbrc:logic/fighter/grounded
 
+execute if score @s use_item matches 1.. run function ssbrc:logic/fighter/get {function:"ssbrc:logic/fighter/use_item"}
 function ssbrc:logic/fighter/get {function:"ssbrc:logic/fighter/tick_specific"}
 
 execute store result score @s selected_item run data get entity @s SelectedItemSlot
 execute unless score @s selected_item.prev = @s selected_item run function ssbrc:logic/fighter/change_slot
-
-execute if score @s use_item matches 1.. run function ssbrc:logic/fighter/get {function:"ssbrc:logic/fighter/use_item"}
 
 execute if entity @s[scores={charge.output=1..},advancements={ssbrc:utility/use_item/any=false}] run function ssbrc:logic/fighter/charge/activate
 execute if items entity @s[advancements={ssbrc:utility/use_item/any=true}] weapon.mainhand #ssbrc:equipment[minecraft:custom_data~{chargable:"true"}] run function ssbrc:logic/fighter/charge/tick
