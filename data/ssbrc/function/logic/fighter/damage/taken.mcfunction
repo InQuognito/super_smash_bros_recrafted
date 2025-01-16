@@ -3,6 +3,4 @@ execute if data storage ssbrc:temp player.temp_data{fighter:"cloud"} run functio
 execute if data storage ssbrc:temp player.temp_data{fighter:"dark_samus"} unless score @s duration.1 matches 1.. run function ssbrc:logic/fighter/damage/taken/dark_samus
 execute if data storage ssbrc:temp player.temp_data{fighter:"joker"} run function ssbrc:logic/fighter/damage/taken/joker
 
-execute unless score sudden_death options matches 1 run scoreboard players reset @s armistice
-
 scoreboard players reset @s flag.damage_taken

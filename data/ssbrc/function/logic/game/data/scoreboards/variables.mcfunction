@@ -241,9 +241,6 @@ scoreboard players operation value.bonus.acrobat const = value.participation con
 
 scoreboard players operation value.bonus.aerialist const = value.participation const
 
-scoreboard players operation value.bonus.armistice const = value.participation const
-scoreboard players operation value.bonus.armistice const *= 3 const
-
 scoreboard players operation value.bonus.bank_shot const = value.ko const
 scoreboard players operation value.bonus.bank_shot const *= 3 const
 

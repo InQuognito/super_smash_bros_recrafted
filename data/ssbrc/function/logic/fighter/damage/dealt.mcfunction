@@ -4,6 +4,4 @@ execute if data storage ssbrc:temp player.temp_data{fighter:"joker"} unless scor
 execute if data storage ssbrc:temp player.temp_data{fighter:"shadow"} run function ssbrc:logic/fighter/damage/dealt/shadow
 execute if data storage ssbrc:temp player.temp_data{fighter:"sora"} unless predicate ssbrc:fighter/sora/drive_form run function ssbrc:logic/fighter/damage/dealt/sora
 
-execute unless score sudden_death options matches 1 run scoreboard players reset @s armistice
-
 scoreboard players reset @s flag.damage_dealt
