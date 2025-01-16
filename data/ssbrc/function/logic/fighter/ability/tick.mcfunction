@@ -35,8 +35,8 @@ execute if entity @s[tag=hyper_voice] run return run function ssbrc:fighter/jigg
 
 # Joker
 execute if entity @s[tag=tt33.bullet] run return run function ssbrc:fighter/joker/logic/abilities/tt33/tick
-execute if entity @s[tag=eiagon] run return run function ssbrc:fighter/joker/logic/abilities/eiagon/tick
-execute if entity @s[tag=eiagon.pool] run particle minecraft:dust_color_transition{from_color:[0.4,0.0,0.0],to_color:[0.2,0.0,0.0],scale:1.0} ~ ~1 ~ 0.2 0.5 0.2 0.0 25 normal @a
+execute if entity @s[tag=eiagon,tag=!exploded] run return run function ssbrc:fighter/joker/logic/abilities/eiagon/tick
+execute if entity @s[tag=eiagon,tag=exploded] run function ssbrc:fighter/joker/logic/abilities/eiagon/tick_exploded
 execute if entity @s[tag=hama] run return run function ssbrc:fighter/joker/logic/abilities/hama/tick
 execute if entity @s[tag=hama.display] run return run function ssbrc:fighter/joker/logic/abilities/hama/tick/sigil
 execute if entity @s[tag=phantom_show] run return run function ssbrc:fighter/joker/logic/abilities/phantom_show/tick
