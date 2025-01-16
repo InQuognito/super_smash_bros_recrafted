@@ -1,5 +1,3 @@
-say hi
-
 function ssbrc:fighter/joker/logic/abilities/rebels_guard/deactivate
 
 scoreboard players set @s duration.1 600
