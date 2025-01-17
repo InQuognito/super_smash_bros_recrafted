@@ -23,10 +23,10 @@ execute positioned 2487.0 12.0 4032.5 rotated 0.0 0.0 run function animated_java
 # Sudowoodo
 execute positioned 2513.5 16.0 3983.5 rotated 0.0 0.0 run function ssbrc:logic/pokemon/summon {name:"sudowoodo",animation:"ground_idle"}
 
+execute if predicate ssbrc:random_chance/30 run function ssbrc:stage/lake_of_rage/load/rain
+
 execute store result score random.output temp run random value 1..3
 
-execute if score random.output temp matches 1 run function ssbrc:stage/lake_of_rage/load/morning
-execute if score random.output temp matches 2 run function ssbrc:stage/lake_of_rage/load/day
-execute if score random.output temp matches 3 run function ssbrc:stage/lake_of_rage/load/night
-
-execute if predicate ssbrc:random_chance/30 run weather rain
+execute if score random.output temp matches 1 run return run function ssbrc:stage/lake_of_rage/load/morning
+execute if score random.output temp matches 2 run return run function ssbrc:stage/lake_of_rage/load/day
+function ssbrc:stage/lake_of_rage/load/night
