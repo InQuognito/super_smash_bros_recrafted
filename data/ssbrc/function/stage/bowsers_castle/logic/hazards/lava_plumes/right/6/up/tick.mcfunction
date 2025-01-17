@@ -1,4 +1,4 @@
-teleport @a[predicate=ssbrc:flag/player,dx=2,dy=1,dz=2] ~ ~1 ~
+teleport @a[predicate=ssbrc:player,dx=2,dy=1,dz=2] ~ ~1 ~
 
 clone -733 70 843 -730 70 846 ~-1.5 ~ ~-1.5
 fill ~-0.5 ~-1 ~-0.5 ~0.5 ~-1 ~0.5 minecraft:lava

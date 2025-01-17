@@ -35,4 +35,4 @@ particle minecraft:electric_spark ^-0.05001471001170437 ^0.08659404588333496 ^ ^
 particle minecraft:electric_spark ^-0.03421845958878519 ^0.09396327486508055 ^ ^-342184.5958878519 ^939632.7486508053 ^ 0.000001 0 force @a
 particle minecraft:electric_spark ^-0.017382559757426627 ^0.09847764526165059 ^ ^-173825.59757426628 ^984776.4526165059 ^ 0.000001 0 force @a
 
-execute as @e[predicate=ssbrc:flag/targets,distance=..0.75] run function ssbrc:fighter/team_rocket/logic/meowth/payday/projectile/hit
+execute as @e[predicate=ssbrc:target,distance=..0.75] run function ssbrc:fighter/team_rocket/logic/meowth/payday/projectile/hit

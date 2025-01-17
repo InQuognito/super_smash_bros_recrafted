@@ -1,4 +1,4 @@
-execute as @a[predicate=ssbrc:flag/player] run function ssbrc:stage/palutenas_temple/logic/tick_players
+execute as @a[predicate=ssbrc:player] run function ssbrc:stage/palutenas_temple/logic/tick_players
 
 execute if score hazards options matches 1 run function ssbrc:stage/palutenas_temple/logic/hazards
 

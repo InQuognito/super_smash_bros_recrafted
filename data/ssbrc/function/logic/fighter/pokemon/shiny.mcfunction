@@ -1,7 +1,7 @@
 function ssbrc:logic/player/data/temp/set {mode:"store",key:"skin",value:"shiny"}
 tag @s add natural_shiny
 
-scoreboard players add @a[predicate=ssbrc:flag/player] shiny_encounter 1
+scoreboard players add @a[predicate=ssbrc:player] shiny_encounter 1
 
 $advancement grant @s only ssbrc:fighter/$(fighter)/shiny
 

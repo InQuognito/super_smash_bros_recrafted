@@ -2,7 +2,7 @@ function ssbrc:logic/fighter/ability/init
 
 particle minecraft:sonic_boom ~ ~0.75 ~ 0.0 0.0 0.0 0.0 1 normal @a
 
-execute as @e[predicate=ssbrc:flag/targets,tag=!self] run function ssbrc:fighter/shadow/logic/abilities/chaos_control/hit
+execute as @e[predicate=ssbrc:target,tag=!self] run function ssbrc:fighter/shadow/logic/abilities/chaos_control/hit
 
 scoreboard players set @s shadow.meter.hero 0
 function ssbrc:fighter/shadow/logic/chaos_meter/update/hero

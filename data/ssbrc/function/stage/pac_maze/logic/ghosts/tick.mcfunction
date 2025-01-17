@@ -1,6 +1,6 @@
 execute if entity @s[tag=active] run function ssbrc:stage/pac_maze/logic/ghosts/navigation/move
 
-execute if entity @s[tag=active] if entity @e[predicate=ssbrc:flag/targets,distance=..2] run function ssbrc:stage/pac_maze/logic/ghosts/touch/check
+execute if entity @s[tag=active] if entity @e[predicate=ssbrc:target,distance=..2] run function ssbrc:stage/pac_maze/logic/ghosts/touch/check
 execute if entity @s[tag=dead] run function ssbrc:stage/pac_maze/logic/ghosts/states/dead/tick
 
 execute if score @s duration.1 matches 1 run function ssbrc:stage/pac_maze/logic/ghosts/states/retreating/deactivate

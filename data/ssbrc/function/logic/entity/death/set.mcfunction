@@ -1,0 +1,3 @@
+$function $(path)
+
+$say $(path)

@@ -1,7 +1,7 @@
 particle minecraft:dust_color_transition{from_color:[0.5,1.0,1.0],to_color:[1.0,1.0,1.0],scale:1.5} ~ ~ ~ 0.15 0.15 0.15 0.0 10 force @a
 particle minecraft:electric_spark ~ ~ ~ 0.2 0.2 0.2 0.05 5 normal @a
 
-execute positioned ~-0.3 ~-0.3 ~-0.3 as @e[tag=!self,predicate=ssbrc:flag/targets,dx=0] positioned ~-0.4 ~ ~-0.4 if entity @s[dx=0] run function ssbrc:logic/damage/generic {amount:"6.0",type:"generic",kb_resist:"0.0",source:" by @a[tag=self,limit=1]"}
+execute positioned ~-0.3 ~-0.3 ~-0.3 as @e[tag=!self,predicate=ssbrc:target,dx=0] positioned ~-0.4 ~ ~-0.4 if entity @s[dx=0] run function ssbrc:logic/damage/generic {amount:"6.0",type:"generic",kb_resist:"0.0",source:" by @a[tag=self,limit=1]"}
 execute if score entity_hit temp matches 1 run return run kill @s
 
 execute store result entity @s Rotation[1] float 0.25 run scoreboard players get @s point

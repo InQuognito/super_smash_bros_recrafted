@@ -4,7 +4,7 @@
 		"terms": [
 			{
 				"condition": "minecraft:reference",
-				"name": "ssbrc:flag/targets"
+				"name": "ssbrc:target"
 			},
 			{
 				"condition": "minecraft:entity_properties",

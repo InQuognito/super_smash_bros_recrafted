@@ -10,7 +10,7 @@ teleport @s[scores={temp=1..100}] ^ ^ ^0.25
 teleport @s[scores={temp=101..150}] ^ ^ ^0.25 ~-3 ~
 teleport @s[scores={temp=151..250}] ^ ^ ^0.25 ~ ~
 
-execute if score @s temp matches 251 facing entity @r[predicate=ssbrc:flag/player] feet run teleport @s ~ ~ ~ ~ 0.0
+execute if score @s temp matches 251 facing entity @r[predicate=ssbrc:player] feet run teleport @s ~ ~ ~ ~ 0.0
 execute if score @s temp matches 252..330 on passengers if entity @s[tag=aj.data] run function ssbrc:stage/lake_of_rage/logic/pokemon/gyarados/hyper_beam/activate with entity @s data.locators.mouth
 
 teleport @s[scores={temp=371}] ~ ~ ~ 30.0 0.0

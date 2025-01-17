@@ -1,4 +1,4 @@
-teleport @a[predicate=ssbrc:flag/player,dx=2,dy=1,dz=2] ~ ~1 ~
+teleport @a[predicate=ssbrc:player,dx=2,dy=1,dz=2] ~ ~1 ~
 
 fill ~-0.5 ~ ~-0.5 ~0.5 ~ ~0.5 minecraft:air replace #ssbrc:stage/bowsers_castle/lava_plumes
 clone -727 70 832 -726 70 833 ~-0.5 ~-1 ~-0.5

@@ -1,5 +1,5 @@
 execute unless score @s temp matches 20..80 run teleport @s ^ ^ ^0.175
-kill @e[predicate=ssbrc:flag/targets,distance=..3]
+kill @e[predicate=ssbrc:target,distance=..3]
 
 particle minecraft:flame ~-2 ~ ~ 0.4 0.4 0.4 0.015 10 normal @a
 execute unless score @s temp matches 20..80 run particle minecraft:large_smoke ~-2 ~ ~ 0.5 0.5 0.5 0.015 30 normal @a

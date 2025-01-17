@@ -1,1 +1,1 @@
-kill @e[predicate=ssbrc:flag/targets,predicate=ssbrc:stage/big_battlefield]
+kill @e[predicate=ssbrc:target,predicate=ssbrc:stage/big_battlefield]

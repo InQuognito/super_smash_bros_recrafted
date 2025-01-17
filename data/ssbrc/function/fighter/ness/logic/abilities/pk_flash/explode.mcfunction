@@ -2,7 +2,7 @@ particle minecraft:flash ~ ~ ~ 0.0 0.0 0.0 0.0 1 normal @a
 particle minecraft:explosion ~ ~ ~ 0.0 0.0 0.0 0.0 1 normal @a
 particle minecraft:composter ~ ~ ~ 1.0 1.0 1.0 0.0 100 normal @a
 
-execute as @e[tag=!self,predicate=ssbrc:flag/targets,distance=..2.5] run function ssbrc:fighter/ness/logic/abilities/pk_flash/damage/decide
+execute as @e[tag=!self,predicate=ssbrc:target,distance=..2.5] run function ssbrc:fighter/ness/logic/abilities/pk_flash/damage/decide
 
 kill @s
 
