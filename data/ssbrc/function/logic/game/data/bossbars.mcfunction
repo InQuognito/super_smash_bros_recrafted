@@ -28,6 +28,21 @@ function ssbrc:logic/game/data/bossbar/speedometer {n:"11"}
 function ssbrc:logic/game/data/bossbar/speedometer {n:"12"}
 function ssbrc:logic/game/data/bossbar/speedometer {n:"13"}
 function ssbrc:logic/game/data/bossbar/speedometer {n:"14"}
+bossbar set ssbrc:speedometer/0 name {"text":"\uf800-","font":"ssbrc:speedometer","color":"#4304f9"}
+bossbar set ssbrc:speedometer/1 name {"text":"\uf801-","font":"ssbrc:speedometer","color":"#4304f9"}
+bossbar set ssbrc:speedometer/2 name {"text":"\uf802-","font":"ssbrc:speedometer","color":"#4304f9"}
+bossbar set ssbrc:speedometer/3 name {"text":"\uf803-","font":"ssbrc:speedometer","color":"#4304f9"}
+bossbar set ssbrc:speedometer/4 name {"text":"\uf804-","font":"ssbrc:speedometer","color":"#4304f9"}
+bossbar set ssbrc:speedometer/5 name {"text":"\uf805-","font":"ssbrc:speedometer","color":"#4304f9"}
+bossbar set ssbrc:speedometer/6 name {"text":"\uf806-","font":"ssbrc:speedometer","color":"#4304f9"}
+bossbar set ssbrc:speedometer/7 name {"text":"\uf807-","font":"ssbrc:speedometer","color":"#4304f9"}
+bossbar set ssbrc:speedometer/8 name {"text":"\uf808-","font":"ssbrc:speedometer","color":"#4304f9"}
+bossbar set ssbrc:speedometer/9 name {"text":"\uf809-","font":"ssbrc:speedometer","color":"#4304f9"}
+bossbar set ssbrc:speedometer/10 name {"text":"\uf810-","font":"ssbrc:speedometer","color":"#4304f9"}
+bossbar set ssbrc:speedometer/11 name {"text":"\uf811-","font":"ssbrc:speedometer","color":"#4304f9"}
+bossbar set ssbrc:speedometer/12 name {"text":"\uf812-","font":"ssbrc:speedometer","color":"#4304f9"}
+bossbar set ssbrc:speedometer/13 name {"text":"\uf813-","font":"ssbrc:speedometer","color":"#4304f9"}
+bossbar set ssbrc:speedometer/14 name {"text":"\uf814-","font":"ssbrc:speedometer","color":"#4304f9"}
 
 function ssbrc:logic/ui/popup/reset {name:"tutorial"}
 
