@@ -22,6 +22,7 @@ scoreboard players reset @s tornado
 # Misc
 scoreboard players operation id_to_match temp = @s id
 
+function ssbrc:logic/player/data/temp/copy/check
 $function ssbrc:fighter/$(name)/cleanup
 
 $execute unless score singleplayer options matches 1 run scoreboard players add @s stats.$(name).deaths 1
