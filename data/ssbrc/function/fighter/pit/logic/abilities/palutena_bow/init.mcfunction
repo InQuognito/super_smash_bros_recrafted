@@ -1,5 +1,3 @@
-execute if score charge.output temp matches ..4 run return run kill @s
-
 tag @s add palutena_bow
 
 data merge entity @s {NoGravity:1b,Glowing:1b}
