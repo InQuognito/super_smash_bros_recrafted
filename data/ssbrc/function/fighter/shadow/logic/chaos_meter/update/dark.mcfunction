@@ -19,6 +19,6 @@ scoreboard players operation resource.available.counter temp = resource.availabl
 
 function ssbrc:fighter/shadow/logic/chaos_meter/hud/check {color:"red"}
 
-function ssbrc:logic/player/data/temp/set_storage/get {input:"ssbrc:hud temp",output:"hud.2"}
+function ssbrc:logic/player/data/temp/set_storage/get {input:"ssbrc:hud temp",output:"hud.3"}
 
 scoreboard players operation @s hud = hud_frequency const

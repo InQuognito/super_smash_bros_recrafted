@@ -6,5 +6,3 @@ scoreboard players set @s shadow.meter.hero 0
 scoreboard players set @s shadow.meter.dark 0
 
 function ssbrc:fighter/shadow/logic/chaos_meter/update
-
-scoreboard players set @s speedometer 0
