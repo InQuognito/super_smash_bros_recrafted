@@ -13,6 +13,22 @@ bossbar set ssbrc:timer style progress
 bossbar set ssbrc:timer value 1
 bossbar set ssbrc:timer visible false
 
+function ssbrc:logic/game/data/bossbar/speedometer {n:"0"}
+function ssbrc:logic/game/data/bossbar/speedometer {n:"1"}
+function ssbrc:logic/game/data/bossbar/speedometer {n:"2"}
+function ssbrc:logic/game/data/bossbar/speedometer {n:"3"}
+function ssbrc:logic/game/data/bossbar/speedometer {n:"4"}
+function ssbrc:logic/game/data/bossbar/speedometer {n:"5"}
+function ssbrc:logic/game/data/bossbar/speedometer {n:"6"}
+function ssbrc:logic/game/data/bossbar/speedometer {n:"7"}
+function ssbrc:logic/game/data/bossbar/speedometer {n:"8"}
+function ssbrc:logic/game/data/bossbar/speedometer {n:"9"}
+function ssbrc:logic/game/data/bossbar/speedometer {n:"10"}
+function ssbrc:logic/game/data/bossbar/speedometer {n:"11"}
+function ssbrc:logic/game/data/bossbar/speedometer {n:"12"}
+function ssbrc:logic/game/data/bossbar/speedometer {n:"13"}
+function ssbrc:logic/game/data/bossbar/speedometer {n:"14"}
+
 function ssbrc:logic/ui/popup/reset {name:"tutorial"}
 
 function ssbrc:logic/fighter/loop {function:"ssbrc:logic/ui/popup/reset"}

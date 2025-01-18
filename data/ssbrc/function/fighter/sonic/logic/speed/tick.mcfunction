@@ -1,4 +1,5 @@
 attribute @s minecraft:movement_speed modifier remove ssbrc:acceleration
+
 attribute @s[scores={flag.sprinting=2}] minecraft:movement_speed modifier add ssbrc:acceleration 0.0001 add_value
 attribute @s[scores={flag.sprinting=3}] minecraft:movement_speed modifier add ssbrc:acceleration 0.0003 add_value
 attribute @s[scores={flag.sprinting=4}] minecraft:movement_speed modifier add ssbrc:acceleration 0.0006 add_value

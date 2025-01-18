@@ -106,6 +106,7 @@ scoreboard objectives remove slope
 scoreboard objectives remove snake.capacity
 scoreboard objectives remove snake.anti_personnel_mine.ammo
 scoreboard objectives remove snake.smoke_grenade.ammo
+scoreboard objectives remove speedometer
 scoreboard objectives remove sprint_distance
 scoreboard objectives remove stage_select
 scoreboard objectives remove stage_vote
