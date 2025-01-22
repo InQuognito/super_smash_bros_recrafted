@@ -16,3 +16,5 @@ execute if score in_electric_terrain temp matches 1 run return -1
 function ssbrc:fighter/mega_man/logic/abilities/beat_call/move with storage ssbrc:temp
 
 execute if entity @s[tag=attack,scores={cooldown=..0}] run function ssbrc:fighter/mega_man/logic/abilities/beat_call/hit
+
+execute on passengers if entity @s[tag=beat.hitbox] if data entity @s attack run function ssbrc:logic/entity/hit
