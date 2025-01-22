@@ -1,3 +1,5 @@
-execute if entity @s[predicate=ssbrc:fighter/gender/female] store result score team.females temp if entity @a[predicate=ssbrc:fighter/gender/female,predicate=ssbrc:team_match]
+scoreboard players set team.female temp 0
 
-execute if score team.females temp matches 3.. run scoreboard players set @s wac_coordinator 1
+execute as @a[predicate=ssbrc:team_match] run function ssbrc:logic/fighter/check/female
+
+execute if score team.female temp matches 3.. run scoreboard players set @s wac_coordinator 1

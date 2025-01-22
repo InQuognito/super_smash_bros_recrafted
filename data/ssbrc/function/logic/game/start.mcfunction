@@ -14,7 +14,7 @@ team modify team8 nametagVisibility never
 execute if score game_mode options matches 1 run function ssbrc:logic/game/start/setup/stock
 execute if score game_mode options matches 2 run function ssbrc:logic/game/start/setup/time
 
-execute as @a[predicate=ssbrc:player] run function ssbrc:logic/game/start/fighters
+execute as @a[predicate=ssbrc:player] at @s run function ssbrc:logic/game/start/fighters
 
 function ssbrc:logic/game/music/decide_schedule
 

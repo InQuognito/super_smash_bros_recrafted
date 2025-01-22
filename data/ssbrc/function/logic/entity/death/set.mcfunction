@@ -1,3 +1,1 @@
-$function $(path)
-
-$say $(path)
+$function ssbrc:$(path)

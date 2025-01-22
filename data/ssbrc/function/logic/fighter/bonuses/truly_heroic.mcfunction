@@ -1,3 +1,4 @@
-execute store result score team.heroes temp if entity @a[predicate=ssbrc:fighter/alignment/hero,predicate=ssbrc:team_match]
+scoreboard players set team.alignment temp 0
+execute as @a[predicate=ssbrc:team_match] run function ssbrc:logic/fighter/check/alignment {alignment:"hero"}
 
-execute if score team_count temp matches 2.. if score team.heroes temp = team_count temp run scoreboard players set @s truly_heroic 1
+execute if score team_count temp matches 2.. if score team.alignment temp = team_count temp run scoreboard players set @s truly_heroic 1

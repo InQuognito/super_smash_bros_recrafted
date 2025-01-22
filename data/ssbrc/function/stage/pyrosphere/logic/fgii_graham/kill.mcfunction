@@ -4,4 +4,7 @@ particle minecraft:item{item:{id:"minecraft:sugar",components:{"minecraft:item_m
 
 playsound minecraft:entity.generic.explode ambient @a
 
+execute on passengers run kill @s
+kill @s
+
 schedule function ssbrc:stage/pyrosphere/logic/fgii_graham/activate 600t replace
