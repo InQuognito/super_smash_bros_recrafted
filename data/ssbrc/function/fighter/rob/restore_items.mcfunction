@@ -1,1 +1,1 @@
-function ssbrc:logic/item/modify {search_key:"item",search_value:"robo_beam",path:"ssbrc:fighter/rob/robo_beam"}
+function ssbrc:fighter/rob/logic/abilities/robo_beam/display {variant:"default"}
