@@ -9,6 +9,14 @@
 					"name": "minecraft:nether_star",
 					"functions": [
 						{
+							"function": "minecraft:reference",
+							"name": "ssbrc:init/tooltip/ability/hybrid"
+						},
+						{
+							"function": "minecraft:reference",
+							"name": "ssbrc:init/ability/default"
+						},
+						{
 							"function": "minecraft:set_components",
 							"components": {
 								"minecraft:attribute_modifiers": {
@@ -29,16 +37,9 @@
 										}
 									],
 									"show_in_tooltip": false
-								}
+								},
+								"minecraft:max_damage": 80
 							}
-						},
-						{
-							"function": "minecraft:reference",
-							"name": "ssbrc:init/preset/hybrid"
-						},
-						{
-							"function": "minecraft:reference",
-							"name": "ssbrc:init/ability/charge"
 						},
 						{
 							"function": "minecraft:set_lore",

@@ -1,3 +1,6 @@
+# Barrel
+function ssbrc:logic/item/cooldown/decrease {item:"barrel"}
+
 # Orange Grenade
 function ssbrc:logic/item/cooldown/decrease {item:"orange_grenade"}
 

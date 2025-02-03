@@ -11,7 +11,7 @@ attribute @s minecraft:movement_speed modifier add ssbrc:punisher -0.7 add_multi
 
 tellraw @s [{"translate":"ssbrc.fighter.cloud.mode_switch","bold":true,"color":"yellow"},{"translate":"ssbrc.fighter.cloud.punisher","bold":false,"color":"blue"}]
 
-function ssbrc:logic/item/cooldown/set/const {type:"1",value:"20"}
+function ssbrc:logic/item/durability/reset/hand {key:"item",value:"buster_sword"}
 
 playsound ssbrc:fighter.cloud.mode_switch.punisher player @a
 

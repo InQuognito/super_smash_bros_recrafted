@@ -6,39 +6,17 @@
 			"conditions": {
 				"player": [
 					{
-						"condition": "minecraft:inverted",
-						"term": {
-							"condition": "minecraft:entity_properties",
-							"entity": "this",
-							"predicate": {
-								"nbt": "{Tags:[\"silenced\"]}"
-							}
-						}
-					},
-					{
-						"condition": "minecraft:entity_scores",
-						"entity": "this",
-						"scores": {
-							"charge.1": {
-								"max": 0
-							}
-						}
-					},
-					{
-						"condition": "minecraft:inverted",
-						"term": {
-							"condition": "minecraft:entity_properties",
-							"entity": "this",
-							"predicate": {
-								"nbt": "{Tags:[\"rest\"]}"
-							}
-						}
+						"condition": "minecraft:reference",
+						"name": "ssbrc:universal_cooldown"
 					}
 				],
 				"item": {
 					"items": "#ssbrc:equipment",
 					"predicates": {
-						"minecraft:custom_data": "{item:\"rest\"}"
+						"minecraft:custom_data": "{item:\"rest\"}",
+						"minecraft:damage": {
+							"damage": 0
+						}
 					}
 				}
 			}

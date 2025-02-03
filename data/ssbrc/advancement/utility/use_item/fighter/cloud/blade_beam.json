@@ -6,29 +6,14 @@
 			"conditions": {
 				"player": [
 					{
-						"condition": "minecraft:inverted",
-						"term": {
-							"condition": "minecraft:entity_properties",
-							"entity": "this",
-							"predicate": {
-								"nbt": "{Tags:[\"silenced\"]}"
-							}
-						}
+						"condition": "minecraft:reference",
+						"name": "ssbrc:universal_cooldown"
 					},
 					{
 						"condition": "minecraft:entity_properties",
 						"entity": "this",
 						"predicate": {
 							"nbt": "{Tags:[\"operator\"]}"
-						}
-					},
-					{
-						"condition": "minecraft:entity_scores",
-						"entity": "this",
-						"scores": {
-							"cooldown.2": {
-								"max": 0
-							}
 						}
 					},
 					{
@@ -42,7 +27,10 @@
 				"item": {
 					"items": "#ssbrc:equipment",
 					"predicates": {
-						"minecraft:custom_data": "{item:\"buster_sword\"}"
+						"minecraft:custom_data": "{item:\"buster_sword\"}",
+						"minecraft:damage": {
+							"damage": 0
+						}
 					}
 				}
 			}

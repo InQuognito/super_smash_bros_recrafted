@@ -1,4 +1,6 @@
 # Robo Beam
+function ssbrc:logic/item/cooldown/decrease {item:"robo_beam"}
+
 execute if score @s charge.1 < rob.robo_beam.max const run function ssbrc:fighter/rob/logic/abilities/robo_beam/charge
 
 # Robo Burner

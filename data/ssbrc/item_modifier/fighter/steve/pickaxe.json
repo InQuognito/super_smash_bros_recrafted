@@ -9,7 +9,7 @@
 	},
 	{
 		"function": "minecraft:reference",
-		"name": "ssbrc:init/animation/smooth"
+		"name": "ssbrc:init/ability/stats"
 	},
 	{
 		"function": "minecraft:set_lore",

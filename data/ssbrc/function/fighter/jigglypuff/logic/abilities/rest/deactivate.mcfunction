@@ -4,7 +4,6 @@ function ssbrc:logic/player/data/temp/set {mode:"store",key:"form",value:"defaul
 function ssbrc:logic/item/modify {search_key:"item",search_value:"rest",path:"ssbrc:fighter/jigglypuff/rest/default"}
 
 scoreboard players set @s charge.1 0
-scoreboard players set @s charge.2 0
 
 function ssbrc:logic/fighter/effects/mobility/mobilize
 

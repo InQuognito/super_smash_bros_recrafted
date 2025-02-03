@@ -1,5 +1,5 @@
 # Water Gun
-execute if entity @s[scores={charge.1=1..}] anchored eyes positioned ^ ^ ^ run function ssbrc:fighter/pokemon_trainer/logic/squirtle/water_gun/charge
+execute if score @s charge.1 matches 1.. anchored eyes positioned ^ ^ ^ run function ssbrc:fighter/pokemon_trainer/logic/squirtle/water_gun/charge
 
 function ssbrc:logic/item/cooldown/decrease {item:"water_gun"}
 

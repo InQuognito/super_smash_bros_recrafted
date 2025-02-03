@@ -29,7 +29,7 @@
 	},
 	{
 		"function": "minecraft:reference",
-		"name": "ssbrc:init/ability/charge"
+		"name": "ssbrc:init/ability/cooldown"
 	},
 	{
 		"function": "minecraft:set_custom_data",

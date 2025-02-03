@@ -9,7 +9,9 @@ scoreboard objectives remove charge.1
 scoreboard objectives remove charge.2
 scoreboard objectives remove charge.3
 scoreboard objectives remove charge.4
+scoreboard objectives remove charge.input
 scoreboard objectives remove charge.output
+scoreboard objectives remove charge.step
 scoreboard objectives remove combo.count
 scoreboard objectives remove combo.duration
 scoreboard objectives remove const
@@ -25,7 +27,6 @@ scoreboard objectives remove durability
 scoreboard objectives remove duration.1
 scoreboard objectives remove duration.2
 scoreboard objectives remove duration.3
-#scoreboard objectives remove event
 scoreboard objectives remove fall_distance
 scoreboard objectives remove favorite.temp
 scoreboard objectives remove fiends_cauldron
@@ -78,8 +79,7 @@ scoreboard objectives remove options_trigger
 scoreboard objectives remove pac_maze.scoreboard
 scoreboard objectives remove petrified
 scoreboard objectives remove piercing
-scoreboard objectives remove player_motion.storage.force
-scoreboard objectives remove player_motion.storage.timer
+scoreboard objectives remove player_motion.timer
 scoreboard objectives remove point
 scoreboard objectives remove points
 scoreboard objectives remove popup_timer
@@ -122,7 +122,6 @@ scoreboard objectives remove timer.stat.death
 scoreboard objectives remove timer.stat.kill
 scoreboard objectives remove tornado
 scoreboard objectives remove tower_of_fate.barrier
-scoreboard objectives remove use_item
 scoreboard objectives remove walk_distance
 scoreboard objectives remove weapon_1.ammo
 scoreboard objectives remove weapon_1.fire_rate

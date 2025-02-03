@@ -4,9 +4,8 @@ execute anchored eyes positioned ^ ^ ^ summon minecraft:marker run function ssbr
 
 function ssbrc:fighter/alucard/logic/abilities/blood_metamorphosis/deactivate
 
-function ssbrc:logic/item/cooldown/set/const {type:"2",value:"300"}
-
-item replace entity @s weapon.mainhand with minecraft:air
+function ssbrc:logic/item/durability/reset/hand {key:"item",value:"holy_water"}
+say hi
 
 playsound ssbrc:fighter.alucard.holy_water.activate player @a
 

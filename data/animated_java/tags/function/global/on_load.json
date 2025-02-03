@@ -1,1 +1,21 @@
-{"values":["animated_java:jukebox_display/on_load","animated_java:tyrogue/on_load","animated_java:beat/on_load","animated_java:fgii_graham/on_load","animated_java:tornado/on_load","animated_java:sudowoodo/on_load","animated_java:snorlax/on_load","animated_java:slowpoke/on_load","animated_java:metapod/on_load","animated_java:magnemite/on_load","animated_java:lapras/on_load","animated_java:gyarados/on_load","animated_java:geodude/on_load","animated_java:gastly/on_load","animated_java:dugtrio/on_load","animated_java:diglett/on_load","animated_java:abra/on_load","animated_java:boo/on_load"]}
+{
+	"values": [
+		"animated_java:beat/on_load",
+		"animated_java:tyrogue/on_load",
+		"animated_java:fgii_graham/on_load",
+		"animated_java:tornado/on_load",
+		"animated_java:sudowoodo/on_load",
+		"animated_java:snorlax/on_load",
+		"animated_java:slowpoke/on_load",
+		"animated_java:metapod/on_load",
+		"animated_java:magnemite/on_load",
+		"animated_java:lapras/on_load",
+		"animated_java:gyarados/on_load",
+		"animated_java:geodude/on_load",
+		"animated_java:gastly/on_load",
+		"animated_java:dugtrio/on_load",
+		"animated_java:diglett/on_load",
+		"animated_java:abra/on_load",
+		"animated_java:boo/on_load"
+	]
+}

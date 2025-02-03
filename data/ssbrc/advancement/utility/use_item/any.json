@@ -16,7 +16,7 @@
 					}
 				],
 				"item": {
-					"items": "#ssbrc:equipment",
+					"items": "#ssbrc:equipment_no_coas",
 					"predicates": {
 						"minecraft:custom_data": {}
 					}

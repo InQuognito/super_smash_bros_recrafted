@@ -26,4 +26,4 @@ execute if score @s sandbag.stand_on matches 400 run function ssbrc:logic/player
 execute if score @s sandbag.stand_on matches 500 positioned -525.5 6.0 -1936.5 run function ssbrc:logic/player/selector/events/sandbag/stand_on/5
 
 # Seasonal
-execute if score winter event matches 1 run particle minecraft:snowflake -520.5 12.5 -1944.5 10.0 3.0 10.0 0.0 15 normal @s
+execute if data storage ssbrc:data world{event:"winter"} run particle minecraft:snowflake -520.5 12.5 -1944.5 10.0 3.0 10.0 0.0 15 normal @s

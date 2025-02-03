@@ -6,23 +6,14 @@
 			"conditions": {
 				"player": [
 					{
-						"condition": "minecraft:inverted",
-						"term": {
-							"condition": "minecraft:entity_properties",
-							"entity": "this",
-							"predicate": {
-								"nbt": "{Tags:[\"silenced\"]}"
-							}
-						}
+						"condition": "minecraft:reference",
+						"name": "ssbrc:universal_cooldown"
 					},
 					{
 						"condition": "minecraft:entity_scores",
 						"entity": "this",
 						"scores": {
-							"cooldown.1": {
-								"max": 0
-							},
-							"cooldown.3": {
+							"duration.2": {
 								"max": 0
 							},
 							"magic": {
@@ -41,7 +32,10 @@
 				"item": {
 					"items": "#ssbrc:equipment",
 					"predicates": {
-						"minecraft:custom_data": "{item:\"chaos_sphere\"}"
+						"minecraft:custom_data": "{item:\"chaos_sphere\"}",
+						"minecraft:damage": {
+							"damage": 0
+						}
 					}
 				}
 			}

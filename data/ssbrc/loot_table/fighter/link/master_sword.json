@@ -6,7 +6,7 @@
 			"entries": [
 				{
 					"type": "minecraft:item",
-					"name": "minecraft:nether_star",
+					"name": "minecraft:carrot_on_a_stick",
 					"functions": [
 						{
 							"function": "minecraft:set_components",
@@ -40,7 +40,7 @@
 						},
 						{
 							"function": "minecraft:reference",
-							"name": "ssbrc:init/preset/hybrid"
+							"name": "ssbrc:init/tooltip/ability/hybrid"
 						},
 						{
 							"function": "minecraft:set_lore",
@@ -104,6 +104,12 @@
 						{
 							"function": "minecraft:reference",
 							"name": "ssbrc:fighter/link/master_sword/enable"
+						},
+						{
+							"function": "minecraft:set_components",
+							"components": {
+								"minecraft:max_damage": 20
+							}
 						},
 						{
 							"function": "minecraft:set_custom_data",

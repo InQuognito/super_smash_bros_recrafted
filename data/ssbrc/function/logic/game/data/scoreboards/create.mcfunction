@@ -11,7 +11,9 @@ scoreboard objectives add charge.1 dummy
 scoreboard objectives add charge.2 dummy
 scoreboard objectives add charge.3 dummy
 scoreboard objectives add charge.4 dummy
+scoreboard objectives add charge.input minecraft.used:minecraft.carrot_on_a_stick
 scoreboard objectives add charge.output dummy
+scoreboard objectives add charge.step dummy
 scoreboard objectives add combo.count dummy
 scoreboard objectives add combo.duration dummy
 scoreboard objectives add const dummy
@@ -29,7 +31,6 @@ scoreboard objectives add durability dummy
 scoreboard objectives add duration.1 dummy
 scoreboard objectives add duration.2 dummy
 scoreboard objectives add duration.3 dummy
-scoreboard objectives add event dummy
 scoreboard objectives add fall_distance minecraft.custom:minecraft.fall_one_cm
 scoreboard objectives add favorite.temp dummy
 scoreboard objectives add fiends_cauldron dummy
@@ -86,8 +87,7 @@ scoreboard players enable @a options_trigger
 scoreboard objectives add pac_maze.scoreboard dummy
 scoreboard objectives add petrified dummy
 scoreboard objectives add piercing dummy
-scoreboard objectives add player_motion.storage.force dummy
-scoreboard objectives add player_motion.storage.timer dummy
+scoreboard objectives add player_motion.timer dummy
 scoreboard objectives add point dummy
 scoreboard objectives add points dummy
 scoreboard objectives add popup_timer dummy
@@ -134,7 +134,6 @@ scoreboard objectives add timer.stat.death dummy
 scoreboard objectives add timer.stat.kill dummy
 scoreboard objectives add tornado dummy
 scoreboard objectives add tower_of_fate.barrier dummy
-scoreboard objectives add use_item minecraft.used:minecraft.carrot_on_a_stick
 scoreboard objectives add walk_distance minecraft.custom:minecraft.walk_one_cm
 scoreboard objectives add weapon_3.ammo dummy
 scoreboard objectives add weapon_3.mags dummy

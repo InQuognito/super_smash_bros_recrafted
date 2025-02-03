@@ -1,3 +1,6 @@
+# Krazoan Staff
+function ssbrc:logic/item/cooldown/decrease {item:"krazoan_staff"}
+
 # Blaster
 function ssbrc:logic/item/cooldown/decrease {item:"fox.blaster"}
 
@@ -7,6 +10,6 @@ execute if score @s duration.2 matches 1.. anchored eyes positioned ^ ^ ^2 as @e
 function ssbrc:logic/item/cooldown/decrease {item:"reflector"}
 
 # Fire Fox
-execute if entity @s[scores={duration.2=..0,duration.3=..0}] run function ssbrc:fighter/fox/logic/abilities/fire_fox/check
+execute if entity @s[scores={duration.1=..0,duration.2=..0}] run function ssbrc:fighter/fox/logic/abilities/fire_fox/check
 
-execute if score @s duration.3 matches 1 run function ssbrc:fighter/fox/logic/abilities/fire_fox/deactivate
+execute if score @s duration.1 matches 1 run function ssbrc:fighter/fox/logic/abilities/fire_fox/deactivate

@@ -14,7 +14,7 @@
 						},
 						{
 							"function": "minecraft:reference",
-							"name": "ssbrc:init/ability/charge"
+							"name": "ssbrc:init/ability/default"
 						},
 						{
 							"function": "minecraft:set_lore",

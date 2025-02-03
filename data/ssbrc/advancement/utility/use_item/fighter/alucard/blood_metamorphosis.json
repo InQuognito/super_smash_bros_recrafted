@@ -6,30 +6,17 @@
 			"conditions": {
 				"player": [
 					{
-						"condition": "minecraft:inverted",
-						"term": {
-							"condition": "minecraft:entity_properties",
-							"entity": "this",
-							"predicate": {
-								"nbt": "{Tags:[\"silenced\"]}"
-							}
-						}
-					},
-					{
-						"condition": "minecraft:inverted",
-						"term": {
-							"condition": "minecraft:entity_properties",
-							"entity": "this",
-							"predicate": {
-								"nbt": "{Tags:[\"blood_metamorphosis\"]}"
-							}
-						}
+						"condition": "minecraft:reference",
+						"name": "ssbrc:universal_cooldown"
 					}
 				],
 				"item": {
 					"items": "#ssbrc:equipment",
 					"predicates": {
-						"minecraft:custom_data": "{item:\"blood_metamorphosis\"}"
+						"minecraft:custom_data": "{item:\"blood_metamorphosis\"}",
+						"minecraft:damage": {
+							"damage": 0
+						}
 					}
 				}
 			}

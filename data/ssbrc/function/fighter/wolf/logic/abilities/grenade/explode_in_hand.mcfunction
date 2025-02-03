@@ -9,3 +9,5 @@ playsound minecraft:entity.generic.explode player @a
 item modify entity @s weapon.mainhand {"function":"minecraft:set_components","components":{"minecraft:item_model":"ssbrc:fighter/wolf/item/grenade/default"}}
 
 scoreboard players set @s charge.output 0
+
+advancement revoke @s only ssbrc:utility/use_item/fighter/wolf/grenade

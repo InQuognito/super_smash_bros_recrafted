@@ -1,3 +1,5 @@
+function ssbrc:logic/item/cooldown/decrease {item:"tt33"}
+
 # Persona Awakening
 execute if score @s duration.1 matches 1.. run function ssbrc:fighter/joker/logic/abilities/persona_awakening/tick
 

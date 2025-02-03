@@ -6,22 +6,13 @@
 			"conditions": {
 				"player": [
 					{
-						"condition": "minecraft:inverted",
-						"term": {
-							"condition": "minecraft:entity_properties",
-							"entity": "this",
-							"predicate": {
-								"nbt": "{Tags:[\"silenced\"]}"
-							}
-						}
+						"condition": "minecraft:reference",
+						"name": "ssbrc:universal_cooldown"
 					},
 					{
 						"condition": "minecraft:entity_scores",
 						"entity": "this",
 						"scores": {
-							"cooldown": {
-								"max": 0
-							},
 							"magic": {
 								"min": {
 									"type": "minecraft:score",

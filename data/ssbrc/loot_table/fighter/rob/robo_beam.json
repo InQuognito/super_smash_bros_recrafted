@@ -14,7 +14,7 @@
 						},
 						{
 							"function": "minecraft:reference",
-							"name": "ssbrc:init/ability/charge"
+							"name": "ssbrc:init/ability/default"
 						},
 						{
 							"function": "minecraft:set_lore",
@@ -54,6 +54,12 @@
 								}
 							],
 							"mode": "append"
+						},
+						{
+							"function": "minecraft:set_components",
+							"components": {
+								"minecraft:max_damage": 20
+							}
 						},
 						{
 							"function": "minecraft:set_custom_data",

@@ -24,16 +24,19 @@ execute if entity @e[type=minecraft:marker,tag=electric_terrain,distance=..12] r
 tag @s[tag=vented] add silenced
 
 execute unless score @s[predicate=ssbrc:input/jump] jump matches 1.. run function ssbrc:logic/fighter/jump
-execute unless predicate ssbrc:flag/in_air run function ssbrc:logic/fighter/grounded
+execute if entity @s[tag=safe_launch,scores={motion_y=..-100}] unless block ~ ~-10 ~ #ssbrc:passthrough_charge run effect give @s minecraft:slow_falling 1 0 true
+execute if entity @s[tag=launched,predicate=!ssbrc:flag/in_air] unless score @s player_motion.timer matches 1.. run function ssbrc:logic/fighter/grounded
 
-execute if score @s use_item matches 1.. run function ssbrc:logic/fighter/get {function:"ssbrc:logic/fighter/use_item"}
 function ssbrc:logic/fighter/get {function:"ssbrc:logic/fighter/tick_specific"}
+
+execute if score @s charge.input matches 1.. run function ssbrc:logic/fighter/item/tick
+execute if score @s charge.input matches 2.. run function ssbrc:logic/fighter/item/refresh
 
 execute store result score @s selected_item run data get entity @s SelectedItemSlot
 execute unless score @s selected_item.prev = @s selected_item run function ssbrc:logic/fighter/change_slot
 
-execute if entity @s[scores={charge.output=1..},advancements={ssbrc:utility/use_item/any=false}] run function ssbrc:logic/fighter/charge/activate
-execute if items entity @s[advancements={ssbrc:utility/use_item/any=true}] weapon.mainhand #ssbrc:equipment[minecraft:custom_data~{chargable:"true"}] run function ssbrc:logic/fighter/charge/tick
+execute if items entity @s[scores={charge.output=1..},advancements={ssbrc:utility/use_item/any=false}] weapon.* #ssbrc:equipment_no_coas[minecraft:custom_data~{chargable:"true"}] run function ssbrc:logic/fighter/charge/activate
+execute if items entity @s[advancements={ssbrc:utility/use_item/any=true}] weapon.mainhand #ssbrc:equipment_no_coas[minecraft:custom_data~{chargable:"true"}] run function ssbrc:logic/fighter/charge/tick
 
 execute if score @s flag.damage_dealt matches 1.. run function ssbrc:logic/fighter/damage/dealt
 execute if score @s flag.damage_taken matches 1.. run function ssbrc:logic/fighter/damage/taken
@@ -51,14 +54,14 @@ scoreboard players add @s hud 1
 execute if score @s hud >= hud_frequency const run function ssbrc:logic/fighter/get {function:"ssbrc:logic/fighter/hud"}
 
 # Items
-execute if entity @s[tag=angel_feather] run particle minecraft:dust_color_transition{from_color:[1.0,1.0,0.0],to_color:[1.0,1.0,1.0],scale:0.5} ~ ~0.75 ~ 0.2 0.3 0.2 0.0 3 normal @a
+execute if entity @s[tag=angel_feather] run particle minecraft:dust_color_transition{from_color:[0.0,1.0,1.0],to_color:[1.0,1.0,1.0],scale:0.5} ~ ~0.75 ~ 0.2 0.3 0.2 0.0 3 normal @a
 
 # Fighter Effects
 execute if data storage ssbrc:temp player.temp_data{skin:"gold"} run function ssbrc:logic/fighter/gold_trail
 scoreboard players reset @s flag.walking
 
-scoreboard players remove @s[scores={player_motion.storage.timer=1..}] player_motion.storage.timer 1
-execute if score @s player_motion.storage.timer matches 1 run function ssbrc:logic/fighter/motion/launch
+scoreboard players remove @s[scores={player_motion.timer=1..}] player_motion.timer 1
+execute if score @s player_motion.timer matches 1 run function ssbrc:logic/fighter/motion/reset
 
 execute if score @s immobile matches 1.. run function ssbrc:logic/fighter/effects/mobility/tick
 execute if entity @s[tag=immobile.pivot.queue,tag=!immobile.pivot,predicate=!ssbrc:flag/in_air] run function ssbrc:logic/fighter/effects/mobility/pivot/activate

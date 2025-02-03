@@ -1,6 +1,3 @@
-scoreboard players set $y player_motion.api.launch 12000
-function player_motion:api/launch_xyz
-
-tag @s add bounce_pad
+function ssbrc:logic/fighter/motion/y {force:10,safe_launch:"true"}
 
 playsound ssbrc:stage.palutenas_temple.spring block @a

@@ -2,6 +2,4 @@ execute positioned ^ ^ ^1 summon minecraft:marker run function ssbrc:fighter/sha
 
 scoreboard players set @s charge.1 0
 
-function ssbrc:logic/item/durability/reset/item {item:"chaos_spear"}
-
 playsound ssbrc:fighter.shadow.chaos_spear.activate player @a

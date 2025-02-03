@@ -6,7 +6,7 @@
 			"entries": [
 				{
 					"type": "minecraft:item",
-					"name": "minecraft:nether_star",
+					"name": "minecraft:carrot_on_a_stick",
 					"functions": [
 						{
 							"function": "minecraft:reference",
@@ -18,7 +18,7 @@
 						},
 						{
 							"function": "minecraft:reference",
-							"name": "ssbrc:init/animation/instant"
+							"name": "ssbrc:init/ability/stats"
 						},
 						{
 							"function": "minecraft:set_lore",

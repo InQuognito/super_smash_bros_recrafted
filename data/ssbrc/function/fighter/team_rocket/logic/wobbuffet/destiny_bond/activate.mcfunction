@@ -1,6 +1,6 @@
 tag @s add destiny_bond
 
-scoreboard players set @s duration.3 100
+scoreboard players set @s duration.1 60
 function ssbrc:logic/fighter/effects/mobility/immobilize {type:"default",duration:100}
 
 function ssbrc:logic/item/durability/reset/hand {key:"item",value:"destiny_bond"}

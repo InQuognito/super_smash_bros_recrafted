@@ -6,14 +6,8 @@
 			"conditions": {
 				"player": [
 					{
-						"condition": "minecraft:inverted",
-						"term": {
-							"condition": "minecraft:entity_properties",
-							"entity": "this",
-							"predicate": {
-								"nbt": "{Tags:[\"silenced\"]}"
-							}
-						}
+						"condition": "minecraft:reference",
+						"name": "ssbrc:universal_cooldown"
 					},
 					{
 						"condition": "minecraft:inverted",
@@ -31,9 +25,6 @@
 						"scores": {
 							"mega_man.remote_mine": {
 								"min": 1
-							},
-							"cooldown": {
-								"max": 0
 							}
 						}
 					}

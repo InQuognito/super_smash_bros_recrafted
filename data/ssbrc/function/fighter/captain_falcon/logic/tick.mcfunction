@@ -1,6 +1,8 @@
 # Raptor Boost
 execute if score @s duration.1 matches 1 run function ssbrc:fighter/captain_falcon/logic/abilities/raptor_boost/deactivate
 
+function ssbrc:logic/item/cooldown/decrease {item:"fists_of_fury"}
+
 # Falcon Punch
 execute if score @s charge.1 matches 1.. run function ssbrc:fighter/captain_falcon/logic/abilities/falcon_punch/tick
 

@@ -6,11 +6,17 @@
 			"entries": [
 				{
 					"type": "minecraft:item",
-					"name": "minecraft:nether_star",
+					"name": "minecraft:carrot_on_a_stick",
 					"functions": [
 						{
 							"function": "minecraft:reference",
 							"name": "ssbrc:init/preset/gun"
+						},
+						{
+							"function": "minecraft:set_components",
+							"components": {
+								"minecraft:max_damage": 4
+							}
 						},
 						{
 							"function": "minecraft:set_custom_data",

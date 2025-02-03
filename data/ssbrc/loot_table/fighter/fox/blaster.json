@@ -14,7 +14,7 @@
 						},
 						{
 							"function": "minecraft:reference",
-							"name": "ssbrc:init/ability/coas"
+							"name": "ssbrc:init/ability/cooldown"
 						},
 						{
 							"function": "minecraft:set_lore",

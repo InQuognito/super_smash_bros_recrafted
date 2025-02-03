@@ -6,7 +6,7 @@
 			"entries": [
 				{
 					"type": "minecraft:item",
-					"name": "minecraft:nether_star",
+					"name": "minecraft:carrot_on_a_stick",
 					"functions": [
 						{
 							"function": "minecraft:set_components",
@@ -38,11 +38,7 @@
 						},
 						{
 							"function": "minecraft:reference",
-							"name": "ssbrc:init/ability/charge"
-						},
-						{
-							"function": "minecraft:reference",
-							"name": "ssbrc:init/unbreakable"
+							"name": "ssbrc:init/ability/coas/hybrid"
 						},
 						{
 							"function": "minecraft:set_lore",
@@ -108,6 +104,12 @@
 								}
 							],
 							"mode": "append"
+						},
+						{
+							"function": "minecraft:set_components",
+							"components": {
+								"minecraft:max_damage": 10
+							}
 						},
 						{
 							"function": "minecraft:set_custom_data",

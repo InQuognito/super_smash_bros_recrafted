@@ -14,11 +14,11 @@
 						},
 						{
 							"function": "minecraft:reference",
-							"name": "ssbrc:init/ability/charge"
+							"name": "ssbrc:init/ability/default"
 						},
 						{
 							"function": "minecraft:reference",
-							"name": "ssbrc:init/animation/instant"
+							"name": "ssbrc:init/ability/stats"
 						},
 						{
 							"function": "minecraft:set_lore",

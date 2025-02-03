@@ -6,14 +6,8 @@
 			"conditions": {
 				"player": [
 					{
-						"condition": "minecraft:inverted",
-						"term": {
-							"condition": "minecraft:entity_properties",
-							"entity": "this",
-							"predicate": {
-								"nbt": "{Tags:[\"silenced\"]}"
-							}
-						}
+						"condition": "minecraft:reference",
+						"name": "ssbrc:universal_cooldown"
 					},
 					{
 						"condition": "minecraft:entity_scores",
@@ -21,9 +15,6 @@
 						"scores": {
 							"charge.1": {
 								"min": 1
-							},
-							"cooldown.1": {
-								"max": 0
 							}
 						}
 					}
@@ -31,7 +22,10 @@
 				"item": {
 					"items": "#ssbrc:equipment",
 					"predicates": {
-						"minecraft:custom_data": "{item:\"robo_beam\"}"
+						"minecraft:custom_data": "{item:\"robo_beam\"}",
+						"minecraft:damage": {
+							"damage": 0
+						}
 					}
 				}
 			}

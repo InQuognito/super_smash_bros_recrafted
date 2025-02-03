@@ -12,6 +12,7 @@ tag @s remove ignore_feedback
 tag @s remove intangible
 tag @s remove launched
 tag @s remove natural_shiny
+tag @s remove safe_launch
 tag @s remove shield_broken
 tag @s remove silenced
 

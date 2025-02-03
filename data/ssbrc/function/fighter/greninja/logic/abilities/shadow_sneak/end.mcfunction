@@ -1,5 +1,5 @@
 scoreboard players set entity_hit temp 1
 
-function ssbrc:logic/item/cooldown/set/const {type:"2",value:"40"}
+function ssbrc:logic/item/durability/reset/item {item:"night_slash"}
 
 tag @s remove shadow_sneak
