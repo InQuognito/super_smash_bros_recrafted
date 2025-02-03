@@ -28,7 +28,7 @@ title @s reset
 title @s actionbar ""
 
 spawnpoint @s -521 5 -1945 90.0
-teleport @s -520.5 5.0 -1944.5 90.0 0.0
+teleport @s[tag=!soft_load] -520.5 5.0 -1944.5 90.0 0.0
 
 stopsound @s
 
@@ -43,6 +43,7 @@ function ssbrc:shop/pages/main
 
 function ssbrc:logic/player/data/stats/init/set {value:"hard_resets"}
 
+tag @s remove soft_load
 tag @s add loaded
 
 advancement grant @s[scores={stats.games_played=1..},advancements={ssbrc:tutorial/stage_select/1=true}] only ssbrc:tutorial/outro/1
