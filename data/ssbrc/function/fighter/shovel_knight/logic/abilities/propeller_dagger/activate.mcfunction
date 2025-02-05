@@ -6,6 +6,7 @@ scoreboard players operation @s magic -= shovel_knight.propeller_dagger.cost con
 function ssbrc:fighter/shovel_knight/logic/magic/update
 
 scoreboard players set @s duration.2 10
+function ssbrc:logic/item/durability/reset/hand {key:"item",value:"propeller_dagger"}
 
 effect give @s minecraft:levitation infinite 0 true
 

@@ -19,6 +19,14 @@
 							}
 						},
 						{
+							"function": "minecraft:reference",
+							"name": "ssbrc:init/tooltip/ability/hybrid"
+						},
+						{
+							"function": "minecraft:reference",
+							"name": "ssbrc:init/ability/default"
+						},
+						{
 							"function": "minecraft:set_components",
 							"components": {
 								"minecraft:attribute_modifiers": {
@@ -46,16 +54,9 @@
 									},
 									"show_in_tooltip": false
 								},
+								"minecraft:max_damage": 20,
 								"minecraft:item_model": "ssbrc:fighter/altered_beast/item/flame_hands"
 							}
-						},
-						{
-							"function": "minecraft:reference",
-							"name": "ssbrc:init/tooltip/ability/hybrid"
-						},
-						{
-							"function": "minecraft:reference",
-							"name": "ssbrc:init/ability/default"
 						},
 						{
 							"function": "minecraft:set_lore",

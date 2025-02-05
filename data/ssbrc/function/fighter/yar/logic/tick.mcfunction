@@ -1,5 +1,5 @@
 # Ray Blaster
-function ssbrc:logic/item/cooldown/decrease {item:"ray_blaster"}
+function ssbrc:fighter/yar/logic/abilities/ray_blaster/cooldown
 
 scoreboard players remove @s[scores={charge.2=1..}] charge.2 3
 

@@ -13,12 +13,6 @@
 						"condition": "minecraft:entity_scores",
 						"entity": "this",
 						"scores": {
-							"cooldown.1": {
-								"max": 0
-							},
-							"cooldown.3": {
-								"max": 0
-							},
 							"magic": {
 								"min": {
 									"type": "minecraft:score",

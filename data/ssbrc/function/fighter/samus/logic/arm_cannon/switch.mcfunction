@@ -7,5 +7,3 @@ function ssbrc:logic/item/durability/reset/hand {key:"group",value:"arm_cannon"}
 playsound ssbrc:fighter.samus.swap_weapon player @a
 
 advancement grant @s only ssbrc:ui/popup/samus
-
-advancement revoke @s through ssbrc:utility/use_item/fighter/samus/arm_cannon/root
