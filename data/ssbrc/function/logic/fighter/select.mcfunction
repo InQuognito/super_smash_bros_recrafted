@@ -1,5 +1,9 @@
 $function ssbrc:logic/player/data/temp/set {mode:"store",key:"fighter",value:"$(name)"}
-execute unless entity @s[tag=picking_random] run function ssbrc:logic/player/data/temp/set {mode:"store",key:"skin",value:"default"}
+
+data modify storage ssbrc:temp arguments.uuid set from entity @s UUID
+$data modify storage ssbrc:temp arguments.fighter set value "$(name)"
+function ssbrc:logic/fighter/skin/get with storage ssbrc:temp arguments
+execute unless entity @s[tag=picking_random] run function ssbrc:logic/fighter/skin/load with storage ssbrc:temp arguments
 
 function ssbrc:logic/player/data/temp/copy/check
 $execute unless data storage ssbrc:temp player.temp_data{fighter:"team_rocket"} run function ssbrc:logic/player/data/temp/set {mode:"store",key:"form",value:"$(default_form)"}

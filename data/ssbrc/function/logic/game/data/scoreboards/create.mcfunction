@@ -4,8 +4,6 @@ scoreboard objectives add bowser.fire_breath dummy
 scoreboard objectives add bowser.fire_breath.target dummy
 scoreboard objectives add burning dummy
 scoreboard objectives add character_trigger trigger
-scoreboard players set @a character_trigger 0
-scoreboard players enable @a character_trigger
 scoreboard objectives add fighter_picked dummy
 scoreboard objectives add charge.1 dummy
 scoreboard objectives add charge.2 dummy
@@ -24,8 +22,6 @@ scoreboard objectives add cooldown.3 dummy
 scoreboard objectives add crawling dummy
 scoreboard objectives add stats.credits.temp dummy
 scoreboard objectives add debug trigger
-scoreboard players set @a debug 0
-scoreboard players enable @a debug
 scoreboard objectives add drop_item minecraft.custom:minecraft.drop
 scoreboard objectives add durability dummy
 scoreboard objectives add duration.1 dummy
@@ -76,14 +72,10 @@ scoreboard objectives add mega_man.metal_blade dummy
 scoreboard objectives add mega_man.pile_driver dummy
 scoreboard objectives add mega_man.remote_mine dummy
 scoreboard objectives add menu trigger
-scoreboard players set @a menu 0
-scoreboard players enable @a menu
 scoreboard objectives add motion_x dummy
 scoreboard objectives add motion_y dummy
 scoreboard objectives add motion_z dummy
 scoreboard objectives add options_trigger trigger
-scoreboard players set @a options_trigger 0
-scoreboard players enable @a options_trigger
 scoreboard objectives add pac_maze.scoreboard dummy
 scoreboard objectives add petrified dummy
 scoreboard objectives add piercing dummy
