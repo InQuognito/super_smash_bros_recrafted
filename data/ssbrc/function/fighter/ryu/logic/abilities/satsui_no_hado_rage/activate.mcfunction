@@ -1,4 +1,3 @@
-tag @s add satsui_no_hado_rage
 tag @s add ability_used
 
 item replace entity @s weapon.mainhand with minecraft:air

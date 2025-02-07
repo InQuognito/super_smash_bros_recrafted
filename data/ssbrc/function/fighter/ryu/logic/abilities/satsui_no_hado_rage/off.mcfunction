@@ -1,5 +1,3 @@
-tag @s remove satsui_no_hado_rage
-
 effect clear @s minecraft:absorption
 effect clear @s minecraft:speed
 attribute @s minecraft:attack_damage modifier remove ssbrc:fighter/ryu/satsui_no_hado_rage

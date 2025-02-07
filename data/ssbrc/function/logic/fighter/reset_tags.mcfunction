@@ -85,9 +85,6 @@ tag @s remove armor_break
 # Rob
 tag @s remove robo_burner
 
-# Ryu
-tag @s remove satsui_no_hado_rage
-
 # Shadow
 tag @s remove alignment.hero
 tag @s remove alignment.neutral
