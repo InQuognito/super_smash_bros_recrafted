@@ -1646,7 +1646,7 @@ data modify storage ssbrc:data fighter set value {\
 					"name": "ssbrc.fighter.mega_man.hyper_bomb",\
 					"tag": "hyper_bomb",\
 					"color": "#30993A",\
-					"model": "ssbrc:common/bomb/black"\
+					"model": "ssbrc:common/bomb/gold"\
 				},\
 				"star_force": {\
 					"name": "ssbrc.fighter.mega_man.hyper_bomb",\
@@ -1712,7 +1712,7 @@ data modify storage ssbrc:data fighter set value {\
 					"name": "ssbrc.fighter.mega_man.pile_driver",\
 					"tag": "pile_driver",\
 					"color": "#E6771E",\
-					"model": "ssbrc:fighter/mega_man/item/pile_driver/default"\
+					"model": "ssbrc:fighter/mega_man/item/pile_driver/star_force"\
 				},\
 			},\
 			"remote_mine": {\
