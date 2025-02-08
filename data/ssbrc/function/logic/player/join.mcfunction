@@ -6,5 +6,3 @@ execute if score game_stage temp matches -1 run scoreboard players set @s influe
 function ssbrc:logic/player/reset
 
 function ssbrc:logic/lobby/leaderboard/load
-
-function ssbrc:logic/player/data/permanent/init with entity @s
