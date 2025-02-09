@@ -1,4 +1,4 @@
-scoreboard players add $y player_motion.api.launch 1000
+effect give @s minecraft:levitation 1 25 true
 
 playsound ssbrc:fighter.kirby.puff.1 player @a
 

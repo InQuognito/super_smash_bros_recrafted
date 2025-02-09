@@ -1,5 +1,3 @@
-scoreboard players set @s jump 0
-
 execute if entity @s[tag=safe_launch] run effect clear @s minecraft:slow_falling
 
 tag @s remove launched

@@ -1,5 +1,8 @@
 function ssbrc:logic/player/data/temp/copy/check
 
+scoreboard players add @s jump 1
+scoreboard players set @s jump.cooldown 6
+
 # Fighters
 execute if data storage ssbrc:temp player.temp_data{fighter:"altered_beast",form:"weretiger"} run function ssbrc:logic/fighter/jump/altered_beast/weretiger
 execute if data storage ssbrc:temp player.temp_data{fighter:"altered_beast",form:"weredragon"} run function ssbrc:logic/item/cooldown/set/const {type:"1",value:"5"}
@@ -11,7 +14,3 @@ execute if data storage ssbrc:temp game.stage{name:"mushroom_kingdom"} if score 
 
 # Items
 execute if entity @s[tag=angel_feather] run function ssbrc:logic/fighter/jump/angel_feather
-
-# Bonuses
-scoreboard players add @s jump 1
-scoreboard players set @s jump.cooldown 6

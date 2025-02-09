@@ -26,6 +26,7 @@ tag @s[tag=vented] add silenced
 execute unless score @s[predicate=ssbrc:input/jump] jump matches 1.. run function ssbrc:logic/fighter/jump
 execute if entity @s[tag=safe_launch,scores={motion_y=..-100}] unless block ~ ~-10 ~ #ssbrc:passthrough_charge run effect give @s minecraft:slow_falling 1 0 true
 execute if entity @s[tag=launched,predicate=!ssbrc:flag/in_air] unless score @s player_motion.timer matches 1.. run function ssbrc:logic/fighter/grounded
+scoreboard players set @s[predicate=!ssbrc:flag/in_air] jump 0
 
 function ssbrc:logic/fighter/get {function:"ssbrc:logic/fighter/tick_specific"}
 
