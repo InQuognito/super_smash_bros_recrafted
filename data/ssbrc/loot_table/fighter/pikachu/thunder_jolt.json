@@ -66,13 +66,12 @@
 						{
 							"function": "minecraft:set_components",
 							"components": {
-								"minecraft:max_damage": 20,
 								"minecraft:item_model": "ssbrc:common/pokemon/type_icon/electric"
 							}
 						},
 						{
 							"function": "minecraft:set_custom_data",
-							"tag": "{item:\"thunder_jolt\"}"
+							"tag": "{item:\"thunder_jolt\",cooldown:20,alt_cooldown:10}"
 						}
 					]
 				}

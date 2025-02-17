@@ -2,7 +2,7 @@ function ssbrc:logic/fighter/ability/init
 
 execute anchored eyes positioned ^ ^ ^1 summon minecraft:item_display run function ssbrc:fighter/mega_man/logic/abilities/drill_bomb/init
 
-function ssbrc:logic/item/durability/reset/hand {key:"item",value:"drill_bomb"}
+function ssbrc:logic/item/durability/reset/hand {key:"item",value:"drill_bomb",source:"cooldown"}
 
 scoreboard players add @s cooldown 20
 

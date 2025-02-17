@@ -60,13 +60,12 @@
 						{
 							"function": "minecraft:set_components",
 							"components": {
-								"minecraft:max_damage": 60,
 								"minecraft:item_model": "ssbrc:common/pokemon/type_icon/ground"
 							}
 						},
 						{
 							"function": "minecraft:set_custom_data",
-							"tag": "{item:\"earthquake\"}"
+							"tag": "{item:\"earthquake\",cooldown:60}"
 						}
 					]
 				}

@@ -3,7 +3,6 @@ execute anchored eyes positioned ^ ^ ^1 run function ssbrc:fighter/sora/logic/ab
 scoreboard players operation @s magic -= sora.spell.cost temp
 function ssbrc:fighter/sora/logic/magic/update
 
-item modify entity @s weapon.mainhand {"function":"minecraft:set_components","components":{"minecraft:max_damage":40}}
-function ssbrc:logic/item/durability/reset/hand {key:"item",value:"keyblade"}
+function ssbrc:logic/item/durability/reset/hand {key:"item",value:"keyblade",source:"cooldown"}
 
 playsound ssbrc:fighter.sora.blizzaga.activate player @a

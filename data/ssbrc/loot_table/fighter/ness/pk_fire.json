@@ -80,13 +80,12 @@
 						{
 							"function": "minecraft:set_components",
 							"components": {
-								"minecraft:max_damage": 40,
 								"minecraft:item_model": "ssbrc:fighter/ness/item/pk_fire"
 							}
 						},
 						{
 							"function": "minecraft:set_custom_data",
-							"tag": "{item:\"pk_fire\"}"
+							"tag": "{item:\"pk_fire\",cooldown:40}"
 						}
 					]
 				}

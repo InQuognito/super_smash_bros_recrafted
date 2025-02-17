@@ -5,8 +5,7 @@ execute anchored eyes positioned ^ ^ ^1 summon minecraft:marker run function ssb
 scoreboard players operation @s magic -= shovel_knight.flare_wand.cost const
 function ssbrc:fighter/shovel_knight/logic/magic/update
 
-item modify entity @s weapon.mainhand {function:"minecraft:set_components",components:{"minecraft:max_damage":15}}
-function ssbrc:logic/item/durability/reset/hand {key:"item",value:"flare_wand"}
+function ssbrc:logic/item/durability/reset/hand {key:"item",value:"flare_wand",source:"cooldown"}
 
 playsound ssbrc:fighter.shovel_knight.flare_wand.activate player @a
 

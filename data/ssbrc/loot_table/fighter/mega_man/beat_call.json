@@ -44,14 +44,8 @@
 							"mode": "append"
 						},
 						{
-							"function": "minecraft:set_components",
-							"components": {
-								"minecraft:max_damage": 5
-							}
-						},
-						{
 							"function": "minecraft:set_custom_data",
-							"tag": "{item:\"beat_call\",group:\"mega_buster\",command:\"forward\"}"
+							"tag": "{item:\"beat_call\",group:\"mega_buster\",command:\"forward\",cooldown:5}"
 						}
 					]
 				}

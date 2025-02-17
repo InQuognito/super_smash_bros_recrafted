@@ -13,14 +13,8 @@
 							"name": "ssbrc:init/preset/gun"
 						},
 						{
-							"function": "minecraft:set_components",
-							"components": {
-								"minecraft:max_damage": 5
-							}
-						},
-						{
 							"function": "minecraft:set_custom_data",
-							"tag": "{item:\"socom\",group:\"snake.weapon\"}"
+							"tag": "{item:\"socom\",group:\"snake.weapon\",cooldown:5}"
 						}
 					]
 				}

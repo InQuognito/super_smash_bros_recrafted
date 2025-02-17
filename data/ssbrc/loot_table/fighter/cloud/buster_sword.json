@@ -33,8 +33,7 @@
 										}
 									],
 									"show_in_tooltip": false
-								},
-								"minecraft:max_damage": 20
+								}
 							}
 						},
 						{
@@ -65,7 +64,7 @@
 						},
 						{
 							"function": "minecraft:set_custom_data",
-							"tag": "{item:\"buster_sword\",damage:7}"
+							"tag": "{item:\"buster_sword\",damage:7,cooldown:20}"
 						}
 					]
 				}

@@ -83,14 +83,8 @@
 							"mode": "append"
 						},
 						{
-							"function": "minecraft:set_components",
-							"components": {
-								"minecraft:max_damage": 4
-							}
-						},
-						{
 							"function": "minecraft:set_custom_data",
-							"tag": "{item:\"power_beam\"}"
+							"tag": "{item:\"power_beam\",cooldown:4,alt_cooldown:20}"
 						}
 					]
 				}

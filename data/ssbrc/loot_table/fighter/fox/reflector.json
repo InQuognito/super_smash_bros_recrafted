@@ -44,14 +44,8 @@
 							"mode": "append"
 						},
 						{
-							"function": "minecraft:set_components",
-							"components": {
-								"minecraft:max_damage": 60
-							}
-						},
-						{
 							"function": "minecraft:set_custom_data",
-							"tag": "{item:\"reflector\"}"
+							"tag": "{item:\"reflector\",cooldown:60}"
 						}
 					]
 				}

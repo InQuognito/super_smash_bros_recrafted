@@ -60,14 +60,8 @@
 							"mode": "append"
 						},
 						{
-							"function": "minecraft:set_components",
-							"components": {
-								"minecraft:max_damage": 200
-							}
-						},
-						{
 							"function": "minecraft:set_custom_data",
-							"tag": "{item:\"falcon_punch\"}"
+							"tag": "{item:\"falcon_punch\",cooldown:200}"
 						}
 					]
 				}

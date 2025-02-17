@@ -66,13 +66,12 @@
 						{
 							"function": "minecraft:set_components",
 							"components": {
-								"minecraft:max_damage": 90,
 								"minecraft:item_model": "ssbrc:common/pokemon/type_icon/fire"
 							}
 						},
 						{
 							"function": "minecraft:set_custom_data",
-							"tag": "{item:\"flare_blitz\"}"
+							"tag": "{item:\"flare_blitz\",cooldown:90}"
 						}
 					]
 				}

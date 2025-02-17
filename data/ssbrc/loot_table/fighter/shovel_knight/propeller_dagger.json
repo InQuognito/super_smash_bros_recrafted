@@ -60,7 +60,6 @@
 						{
 							"function": "minecraft:set_components",
 							"components": {
-								"minecraft:max_damage": 60,
 								"minecraft:item_model": "ssbrc:fighter/shovel_knight/item/propeller_dagger/default"
 							}
 						},
@@ -70,7 +69,7 @@
 						},
 						{
 							"function": "minecraft:set_custom_data",
-							"tag": "{item:\"propeller_dagger\",disabled:\"false\",path:\"shovel_knight/logic/abilities/propeller_dagger/check/default\"}"
+							"tag": "{item:\"propeller_dagger\",disabled:\"false\",path:\"shovel_knight/logic/abilities/propeller_dagger/check/default\",cooldown:60}"
 						}
 					]
 				}

@@ -94,13 +94,12 @@
 						{
 							"function": "minecraft:set_components",
 							"components": {
-								"minecraft:max_damage": 40,
 								"minecraft:item_model": "ssbrc:fighter/zelda/item/ice_rod"
 							}
 						},
 						{
 							"function": "minecraft:set_custom_data",
-							"tag": "{item:\"ice_rod\",extra:\"magic_rod\"}"
+							"tag": "{item:\"ice_rod\",extra:\"magic_rod\",cooldown:40,alt_cooldown:60}"
 						}
 					]
 				}

@@ -12,6 +12,6 @@ scoreboard players operation cooldown temp -= gatling_gun.charge temp
 execute if score cooldown temp matches ..0 run scoreboard players set cooldown temp 1
 execute store result storage ssbrc:cache cooldown.value int 1.0 run scoreboard players get cooldown temp
 function ssbrc:fighter/yar/logic/abilities/gatling_gun/cooldown with storage ssbrc:cache cooldown
-function ssbrc:logic/item/durability/reset/hand {key:"item",value:"gatling_gun"}
+function ssbrc:logic/item/durability/reset/hand {key:"item",value:"gatling_gun",source:"cooldown"}
 
 playsound ssbrc:fighter.yar.gatling_gun.activate player @a

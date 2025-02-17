@@ -60,7 +60,6 @@
 						{
 							"function": "minecraft:set_components",
 							"components": {
-								"minecraft:max_damage": 300,
 								"minecraft:item_model": "ssbrc:fighter/shovel_knight/item/phase_locket/default"
 							}
 						},
@@ -70,7 +69,7 @@
 						},
 						{
 							"function": "minecraft:set_custom_data",
-							"tag": "{item:\"phase_locket\",disabled:\"false\"}"
+							"tag": "{item:\"phase_locket\",disabled:\"false\",cooldown:300}"
 						}
 					]
 				}

@@ -68,13 +68,12 @@
 						{
 							"function": "minecraft:set_components",
 							"components": {
-								"minecraft:max_damage": 80,
 								"minecraft:item_model": "ssbrc:fighter/giegue/item/pk_beam"
 							}
 						},
 						{
 							"function": "minecraft:set_custom_data",
-							"tag": "{item:\"pk_beam\"}"
+							"tag": "{item:\"pk_beam\",cooldown:80}"
 						}
 					]
 				}

@@ -54,13 +54,12 @@
 						{
 							"function": "minecraft:set_components",
 							"components": {
-								"minecraft:max_damage": 20,
 								"minecraft:item_model": "ssbrc:fighter/hero/item/kaclang"
 							}
 						},
 						{
 							"function": "minecraft:set_custom_data",
-							"tag": "{item:\"kaclang\",group:\"hero.spell\"}"
+							"tag": "{item:\"kaclang\",group:\"hero.spell\",cooldown:20}"
 						}
 					]
 				}

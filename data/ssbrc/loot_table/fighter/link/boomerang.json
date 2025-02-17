@@ -28,13 +28,12 @@
 						{
 							"function": "minecraft:set_components",
 							"components": {
-								"minecraft:max_damage": 10,
 								"minecraft:item_model": "ssbrc:fighter/link/item/boomerang"
 							}
 						},
 						{
 							"function": "minecraft:set_custom_data",
-							"tag": "{item:\"link.boomerang\"}"
+							"tag": "{item:\"link.boomerang\",cooldown:10}"
 						}
 					]
 				}

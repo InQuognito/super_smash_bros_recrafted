@@ -89,14 +89,8 @@
 							"mode": "append"
 						},
 						{
-							"function": "minecraft:set_components",
-							"components": {
-								"minecraft:max_damage": 15
-							}
-						},
-						{
 							"function": "minecraft:set_custom_data",
-							"tag": "{item:\"wave_beam\"}"
+							"tag": "{item:\"wave_beam\",cooldown:15,alt_cooldown:20}"
 						}
 					]
 				}

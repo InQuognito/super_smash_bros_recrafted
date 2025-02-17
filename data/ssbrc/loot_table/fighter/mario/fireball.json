@@ -60,14 +60,8 @@
 							"mode": "append"
 						},
 						{
-							"function": "minecraft:set_components",
-							"components": {
-								"minecraft:max_damage": 20
-							}
-						},
-						{
 							"function": "minecraft:set_custom_data",
-							"tag": "{item:\"fireball\"}"
+							"tag": "{item:\"fireball\",cooldown:20}"
 						}
 					]
 				}

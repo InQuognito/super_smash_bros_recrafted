@@ -13,14 +13,8 @@
 							"name": "ssbrc:init/preset/gun"
 						},
 						{
-							"function": "minecraft:set_components",
-							"components": {
-								"minecraft:max_damage": 20
-							}
-						},
-						{
 							"function": "minecraft:set_custom_data",
-							"tag": "{item:\"psg1\",group:\"snake.weapon\"}"
+							"tag": "{item:\"psg1\",group:\"snake.weapon\",cooldown:20}"
 						}
 					]
 				}

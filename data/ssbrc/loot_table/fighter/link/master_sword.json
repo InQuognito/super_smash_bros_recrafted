@@ -106,14 +106,8 @@
 							"name": "ssbrc:fighter/link/master_sword/enable"
 						},
 						{
-							"function": "minecraft:set_components",
-							"components": {
-								"minecraft:max_damage": 20
-							}
-						},
-						{
 							"function": "minecraft:set_custom_data",
-							"tag": "{item:\"master_sword\",path:\"link/logic/abilities/sword_spin/activate/check\",damage:6}"
+							"tag": "{item:\"master_sword\",path:\"link/logic/abilities/sword_spin/activate/check\",damage:6,cooldown:20}"
 						}
 					]
 				}

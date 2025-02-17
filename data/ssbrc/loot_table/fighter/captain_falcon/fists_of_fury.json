@@ -37,8 +37,7 @@
 										}
 									],
 									"show_in_tooltip": false
-								},
-								"minecraft:max_damage": 60
+								}
 							}
 						},
 						{
@@ -76,7 +75,7 @@
 						},
 						{
 							"function": "minecraft:set_custom_data",
-							"tag": "{item:\"fists_of_fury\",damage:5}"
+							"tag": "{item:\"fists_of_fury\",damage:5,cooldown:60}"
 						}
 					]
 				}

@@ -33,13 +33,12 @@
 						{
 							"function": "minecraft:set_components",
 							"components": {
-								"minecraft:max_damage": 15,
 								"minecraft:item_model": "ssbrc:fighter/joker/item/phantom_show"
 							}
 						},
 						{
 							"function": "minecraft:set_custom_data",
-							"tag": "{item:\"phantom_show\"}"
+							"tag": "{item:\"phantom_show\",cooldown:15}"
 						}
 					]
 				}

@@ -106,14 +106,8 @@
 							"mode": "append"
 						},
 						{
-							"function": "minecraft:set_components",
-							"components": {
-								"minecraft:max_damage": 10
-							}
-						},
-						{
 							"function": "minecraft:set_custom_data",
-							"tag": "{item:\"phazon_beam\",path:\"dark_samus/logic/abilities/phazon_beam/check\",damage:1.5}"
+							"tag": "{item:\"phazon_beam\",path:\"dark_samus/logic/abilities/phazon_beam/check\",damage:1.5,cooldown:10}"
 						}
 					]
 				}

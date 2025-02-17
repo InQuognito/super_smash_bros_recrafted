@@ -66,13 +66,12 @@
 						{
 							"function": "minecraft:set_components",
 							"components": {
-								"minecraft:max_damage": 200,
 								"minecraft:item_model": "ssbrc:common/pokemon/type_icon/poison"
 							}
 						},
 						{
 							"function": "minecraft:set_custom_data",
-							"tag": "{item:\"poison_powder\"}"
+							"tag": "{item:\"poison_powder\",cooldown:200}"
 						}
 					]
 				}

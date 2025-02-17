@@ -54,13 +54,12 @@
 						{
 							"function": "minecraft:set_components",
 							"components": {
-								"minecraft:max_damage": 10,
 								"minecraft:item_model": "ssbrc:fighter/hero/item/bang"
 							}
 						},
 						{
 							"function": "minecraft:set_custom_data",
-							"tag": "{item:\"bang\",group:\"hero.spell\"}"
+							"tag": "{item:\"bang\",group:\"hero.spell\",cooldown:10}"
 						}
 					]
 				}

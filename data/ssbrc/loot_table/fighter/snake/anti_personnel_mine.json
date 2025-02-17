@@ -54,14 +54,8 @@
 							"mode": "append"
 						},
 						{
-							"function": "minecraft:set_components",
-							"components": {
-								"minecraft:max_damage": 20
-							}
-						},
-						{
 							"function": "minecraft:set_custom_data",
-							"tag": "{item:\"anti_personnel_mine\",group:\"snake.weapon\"}"
+							"tag": "{item:\"anti_personnel_mine\",group:\"snake.weapon\",cooldown:20}"
 						}
 					]
 				}

@@ -54,14 +54,8 @@
 							"mode": "append"
 						},
 						{
-							"function": "minecraft:set_components",
-							"components": {
-								"minecraft:max_damage": 40
-							}
-						},
-						{
 							"function": "minecraft:set_custom_data",
-							"tag": "{item:\"hyper_voice\"}"
+							"tag": "{item:\"hyper_voice\",cooldown:40}"
 						}
 					]
 				}

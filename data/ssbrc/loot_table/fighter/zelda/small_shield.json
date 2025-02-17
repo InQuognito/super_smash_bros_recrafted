@@ -45,14 +45,8 @@
 							"name": "ssbrc:init/preset/defensive"
 						},
 						{
-							"function": "minecraft:set_components",
-							"components": {
-								"minecraft:max_damage": 10
-							}
-						},
-						{
 							"function": "minecraft:set_custom_data",
-							"tag": "{item:\"small_shield\",group:\"passive_item\"}"
+							"tag": "{item:\"small_shield\",group:\"passive_item\",cooldown:10}"
 						}
 					]
 				}

@@ -56,13 +56,12 @@
 						{
 							"function": "minecraft:set_components",
 							"components": {
-								"minecraft:max_damage": 40,
 								"minecraft:item_model": "ssbrc:fighter/mega_man/item/junk_shield"
 							}
 						},
 						{
 							"function": "minecraft:set_custom_data",
-							"tag": "{item:\"junk_shield\",group:\"mega_buster\"}"
+							"tag": "{item:\"junk_shield\",group:\"mega_buster\",cooldown:40}"
 						}
 					]
 				}

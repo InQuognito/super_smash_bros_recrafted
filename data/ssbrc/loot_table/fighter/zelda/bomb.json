@@ -82,13 +82,12 @@
 						{
 							"function": "minecraft:set_components",
 							"components": {
-								"minecraft:max_damage": 20,
 								"minecraft:item_model": "ssbrc:fighter/zelda/item/bomb"
 							}
 						},
 						{
 							"function": "minecraft:set_custom_data",
-							"tag": "{item:\"bomb\"}"
+							"tag": "{item:\"bomb\",cooldown:20}"
 						}
 					]
 				}

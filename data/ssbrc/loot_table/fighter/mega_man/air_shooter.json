@@ -44,14 +44,8 @@
 							"mode": "append"
 						},
 						{
-							"function": "minecraft:set_components",
-							"components": {
-								"minecraft:max_damage": 40
-							}
-						},
-						{
 							"function": "minecraft:set_custom_data",
-							"tag": "{item:\"air_shooter\",group:\"mega_buster\"}"
+							"tag": "{item:\"air_shooter\",group:\"mega_buster\",cooldown:40}"
 						}
 					]
 				}

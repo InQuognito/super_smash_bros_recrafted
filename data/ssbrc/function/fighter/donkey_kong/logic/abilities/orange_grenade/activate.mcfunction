@@ -8,4 +8,4 @@ function ssbrc:logic/fighter/ability/deinit
 
 scoreboard players remove @s charge.1 1
 execute if score @s charge.1 matches ..0 run return run clear @s minecraft:nether_star[minecraft:custom_data~{item:"orange_grenade"}]
-function ssbrc:logic/item/durability/reset/hand {key:"item",value:"orange_grenade"}
+function ssbrc:logic/item/durability/reset/hand {key:"item",value:"orange_grenade",source:"cooldown"}

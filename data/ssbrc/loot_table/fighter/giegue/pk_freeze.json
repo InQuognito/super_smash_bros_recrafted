@@ -74,13 +74,12 @@
 						{
 							"function": "minecraft:set_components",
 							"components": {
-								"minecraft:max_damage": 25,
 								"minecraft:item_model": "ssbrc:fighter/giegue/item/pk_freeze"
 							}
 						},
 						{
 							"function": "minecraft:set_custom_data",
-							"tag": "{item:\"pk_freeze\"}"
+							"tag": "{item:\"pk_freeze\",cooldown:25}"
 						}
 					]
 				}

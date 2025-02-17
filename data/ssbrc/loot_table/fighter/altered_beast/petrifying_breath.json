@@ -60,13 +60,12 @@
 						{
 							"function": "minecraft:set_components",
 							"components": {
-								"minecraft:max_damage": 100,
 								"minecraft:item_model": "ssbrc:fighter/altered_beast/item/petrifying_breath"
 							}
 						},
 						{
 							"function": "minecraft:set_custom_data",
-							"tag": "{item:\"petrifying_breath\"}"
+							"tag": "{item:\"petrifying_breath\",cooldown:100}"
 						}
 					]
 				}

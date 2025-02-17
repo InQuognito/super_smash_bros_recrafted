@@ -62,13 +62,12 @@
 						{
 							"function": "minecraft:set_components",
 							"components": {
-								"minecraft:max_damage": 20,
 								"minecraft:item_model": "ssbrc:fighter/wolf/item/grenade/default"
 							}
 						},
 						{
 							"function": "minecraft:set_custom_data",
-							"tag": "{item:\"grenade\",path:\"wolf/logic/abilities/grenade/check\"}"
+							"tag": "{item:\"grenade\",path:\"wolf/logic/abilities/grenade/check\",cooldown:20}"
 						}
 					]
 				}

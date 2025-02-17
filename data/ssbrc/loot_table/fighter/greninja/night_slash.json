@@ -118,13 +118,12 @@
 						{
 							"function": "minecraft:set_components",
 							"components": {
-								"minecraft:max_damage": 40,
 								"minecraft:item_model": "ssbrc:fighter/greninja/item/night_slash"
 							}
 						},
 						{
 							"function": "minecraft:set_custom_data",
-							"tag": "{item:\"night_slash\",damage:5}"
+							"tag": "{item:\"night_slash\",damage:5,cooldown:40}"
 						}
 					]
 				}

@@ -56,14 +56,8 @@
 							"mode": "append"
 						},
 						{
-							"function": "minecraft:set_components",
-							"components": {
-								"minecraft:max_damage": 300
-							}
-						},
-						{
 							"function": "minecraft:set_custom_data",
-							"tag": "{item:\"holy_water\"}"
+							"tag": "{item:\"holy_water\",cooldown:300}"
 						}
 					]
 				}

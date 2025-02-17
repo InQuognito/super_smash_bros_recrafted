@@ -13,12 +13,6 @@
 							"name": "ssbrc:init/preset/gun"
 						},
 						{
-							"function": "minecraft:set_components",
-							"components": {
-								"minecraft:max_damage": 5
-							}
-						},
-						{
 							"function": "minecraft:set_custom_data",
 							"tag": "{item:\"tt33\",cooldown:5}"
 						}

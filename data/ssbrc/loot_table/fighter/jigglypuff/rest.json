@@ -84,14 +84,8 @@
 							"name": "ssbrc:fighter/jigglypuff/rest/default"
 						},
 						{
-							"function": "minecraft:set_components",
-							"components": {
-								"minecraft:max_damage": 1
-							}
-						},
-						{
 							"function": "minecraft:set_custom_data",
-							"tag": "{item:\"rest\"}"
+							"tag": "{item:\"rest\",cooldown:1}"
 						}
 					]
 				}

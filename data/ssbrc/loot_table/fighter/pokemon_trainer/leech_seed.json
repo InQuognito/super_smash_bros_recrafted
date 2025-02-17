@@ -72,13 +72,12 @@
 						{
 							"function": "minecraft:set_components",
 							"components": {
-								"minecraft:max_damage": 100,
 								"minecraft:item_model": "ssbrc:common/pokemon/type_icon/grass"
 							}
 						},
 						{
 							"function": "minecraft:set_custom_data",
-							"tag": "{item:\"leech_seed\"}"
+							"tag": "{item:\"leech_seed\",cooldown:100}"
 						}
 					]
 				}

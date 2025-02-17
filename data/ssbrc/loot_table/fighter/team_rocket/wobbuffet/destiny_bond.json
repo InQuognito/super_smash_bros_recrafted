@@ -72,13 +72,12 @@
 						{
 							"function": "minecraft:set_components",
 							"components": {
-								"minecraft:max_damage": 700,
 								"minecraft:item_model": "ssbrc:common/pokemon/type_icon/ghost"
 							}
 						},
 						{
 							"function": "minecraft:set_custom_data",
-							"tag": "{item:\"destiny_bond\"}"
+							"tag": "{item:\"destiny_bond\",cooldown:700}"
 						}
 					]
 				}

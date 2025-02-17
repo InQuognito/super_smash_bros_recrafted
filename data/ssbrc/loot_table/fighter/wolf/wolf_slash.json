@@ -37,8 +37,7 @@
 										}
 									],
 									"show_in_tooltip": false
-								},
-								"minecraft:max_damage": 80
+								}
 							}
 						},
 						{
@@ -76,7 +75,7 @@
 						},
 						{
 							"function": "minecraft:set_custom_data",
-							"tag": "{item:\"wolf_slash\",damage:5}"
+							"tag": "{item:\"wolf_slash\",damage:5,cooldown:80}"
 						}
 					]
 				}

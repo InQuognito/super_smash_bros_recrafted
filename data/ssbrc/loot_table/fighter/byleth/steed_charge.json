@@ -60,13 +60,12 @@
 						{
 							"function": "minecraft:set_components",
 							"components": {
-								"minecraft:max_damage": 300,
 								"minecraft:item_model": "ssbrc:fighter/byleth/item/steed_charge"
 							}
 						},
 						{
 							"function": "minecraft:set_custom_data",
-							"tag": "{item:\"steed_charge\"}"
+							"tag": "{item:\"steed_charge\",cooldown:300}"
 						}
 					]
 				}

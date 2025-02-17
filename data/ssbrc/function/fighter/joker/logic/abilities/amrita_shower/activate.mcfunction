@@ -1,6 +1,6 @@
 scoreboard players set @s duration.3 40
 
-function ssbrc:logic/item/durability/reset/hand {key:"item",value:"amrita_shower"}
+function ssbrc:logic/item/durability/reset/hand {key:"item",value:"amrita_shower",source:"cooldown"}
 
 playsound ssbrc:fighter.joker.amrita_shower.activate player @a
 
