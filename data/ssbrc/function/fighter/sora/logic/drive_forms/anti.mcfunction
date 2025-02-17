@@ -6,7 +6,7 @@ title @s actionbar ""
 
 scoreboard players set @s charge.2 0
 
-clear @s minecraft:nether_star[minecraft:custom_data~{item:"keyblade"}]
+clear @s minecraft:carrot_on_a_stick[minecraft:custom_data~{item:"keyblade"}]
 
 attribute @s minecraft:attack_damage modifier add ssbrc:anti_form 4.0 add_multiplied_base
 attribute @s minecraft:attack_speed modifier add ssbrc:anti_form 1.0 add_multiplied_base
