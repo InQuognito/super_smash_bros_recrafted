@@ -42,6 +42,6 @@
 		}
 	},
 	"rewards": {
-		"function": "ssbrc:fighter/mega_man/logic/abilities/junk_shield/activate"
+		"function": "ssbrc:fighter/mega_man/logic/abilities/junk_shield/check"
 	}
 }
