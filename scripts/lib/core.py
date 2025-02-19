@@ -21,9 +21,19 @@ def create_path(path):
 	if not os.path.exists(path):
 		os.makedirs(path)
 
-def mc_write(file, str):
+def mc_write(file, type, indent=0, key='', value=''):
 	'''Write to file, mcfunction format.'''
-	file.write(str + '\\\n')
+	string_case = qm + str(key) + sep_s + str(value)
+
+	content = tab(indent)
+	match type:
+		case 'root_e': content += qm + str(key) + suf_e
+		case 'root_s': content += ent
+		case 'item_s': content += string_case + suf_s
+		case 'last_s': content += string_case + qm
+		case 'item_n': content += qm + str(key) + sep_n + str(value) + ','
+		case 'fixed': content += key
+	file.write(content + '\\\n')
 
 def js_write(file, str):
 	'''Write to file, JSON format.'''
@@ -78,91 +88,89 @@ def get_color(fighter, skin='default'):
 	else:
 		return ssbrc.fighter[fighter]['skin'][skin]['color']
 
+armor_values = {
+	'negligible': 4.0,
+	'low': 10.0,
+	'medium': 12.0,
+	'high': 14.0
+}
+
 def armor(value):
 	'''Returns the exact value of the armor category.'''
-	if value == 'negligible':
-		return 4.0
-	elif value == 'low':
-		return 10.0
-	elif value == 'medium':
-		return 12.0
-	elif value == 'high':
-		return 14.0
-	else:
-		return value
+	return armor_values.get(value, value)
 
-def jump_strength(value):
+jump_strength_values = {
+	'none': 0.42,
+	'low': 0.50,
+	'high': 0.70,
+	'super': 0.81,
+	'insane': 1.10
+}
+
+def jump_strength(fighter):
 	'''Returns the exact value of the jump_strength category.'''
-	if value == 'none':
-		return 0.42
-	elif value == 'low':
-		return 0.50
-	elif value == 'high':
-		return 0.70
-	elif value == 'super':
-		return 0.81
-	elif value == 'insane':
-		return 1.10
+	path = ssbrc.fighter[fighter]['stats']
+	if 'jump_strength' in path.keys():
+		return jump_strength_values[path['jump_strength']]
 	else:
 		return 0.63
 
-def max_health(value):
+def max_health(fighter):
 	'''Returns the exact value of the max_health category.'''
-	if value == 'medium':
+	path = ssbrc.fighter[fighter]['stats']
+	if 'max_health' in path.keys():
+		return path['max_health']
+	else:
 		return 40.0
-	else:
-		return value
 
-def movement_speed(value):
+def movement_speed(fighter):
 	'''Returns the exact value of the movement_speed category.'''
-	if value == 'medium':
-		return 0.1
+	path = ssbrc.fighter[fighter]['stats']
+	if 'movement_speed' in path.keys():
+		return path['movement_speed']
 	else:
-		return value
+		return 0.1
+
+safe_fall_distance_values = {
+	'medium': 6.0,
+	'infinite': 999.0
+}
 
 def safe_fall_distance(value):
 	'''Returns the exact value of the safe_fall_distance category.'''
-	if value == 'medium':
-		return 6.0
-	elif value == 'infinite':
-		return 999.0
-	else:
-		return value
+	return safe_fall_distance_values.get(value, value)
 
 def init_item_data(file, fighter, skin, item):
-	mc_write(file, tab(4) + qm + skin + suf_e)
+	path = ssbrc.fighter[fighter]['items'][item]
+	mc_write(file, 'root_e', 4, skin)
 
-	if 'name' in ssbrc.fighter[fighter]['items'][item][skin].keys():
-		mc_write(file, tab(5) + qm + 'name' + sep_s + ssbrc.fighter[fighter]['items'][item][skin]['name'] + suf_s)
+	if 'name' in path[skin].keys():
+		mc_write(file, 'item_s', 5, 'name', path[skin]['name'])
 		if fighter != 'steve':
-			tag = ssbrc.fighter[fighter]['items'][item][skin]['name'].split('.')
-			mc_write(file, tab(5) + qm + 'tag' + sep_s + tag[3] + suf_s)
+			tag = path[skin]['name'].split('.')
+			mc_write(file, 'item_s', 5, 'tag', tag[3])
 	else:
-		mc_write(file, tab(5) + qm + 'name' + sep_s + ssbrc.fighter[fighter]['items'][item]['default']['name'] + suf_s)
+		mc_write(file, 'item_s', 5, 'name', path['default']['name'])
 		if fighter != 'steve':
-			tag = ssbrc.fighter[fighter]['items'][item]['default']['name'].split('.')
-			mc_write(file, tab(5) + qm + 'tag' + sep_s + tag[3] + suf_s)
+			tag = path['default']['name'].split('.')
+			mc_write(file, 'item_s', 5, 'tag', tag[3])
 
-	if 'color' in ssbrc.fighter[fighter]['items'][item][skin].keys():
-		mc_write(file, tab(5) + qm + 'color' + sep_s + ssbrc.fighter[fighter]['items'][item][skin]['color'] + suf_s)
+	if 'color' in path[skin].keys():
+		mc_write(file, 'item_s', 5, 'color', path[skin]['color'])
 	else:
-		mc_write(file, tab(5) + qm + 'color' + sep_s + ssbrc.fighter[fighter]['items'][item]['default']['color'] + suf_s)
+		mc_write(file, 'item_s', 5, 'color', path['default']['color'])
 
-	if 'model' in ssbrc.fighter[fighter]['items'][item][skin].keys():
-		if ssbrc.fighter[fighter]['items'][item][skin]['model']['type'] == 'null':
-			mc_write(file, tab(5) + qm + 'model' + sep_s + 'null' + qm)
-		elif ssbrc.fighter[fighter]['items'][item][skin]['model']['type'] == 'default':
-			mc_write(file, tab(5) + qm + 'model' + sep_s + f'ssbrc:fighter/{fighter}/item/{item}/' + ssbrc.fighter[fighter]['items'][item][skin]['model']['model'] + qm)
-		elif ssbrc.fighter[fighter]['items'][item][skin]['model']['type'] == 'inherit':
-			mc_write(file, tab(5) + qm + 'model' + sep_s + ssbrc.fighter[fighter]['items'][item][ssbrc.fighter[fighter]['items'][item][skin]['model']['model']]['model']['model'] + qm)
-		elif ssbrc.fighter[fighter]['items'][item][skin]['model']['type'] == 'fixed':
-			mc_write(file, tab(5) + qm + 'model' + sep_s + ssbrc.fighter[fighter]['items'][item][skin]['model']['model'] + qm)
-		else:
-			mc_write(file, tab(5) + qm + 'model' + sep_s + 'ssbrc:' + ssbrc.fighter[fighter]['items'][item][skin]['model']['model'] + qm)
+	if 'model' in path[skin].keys():
+		match path[skin]['model']['type']:
+			case 'null': mc_write(file, 'last_s', 5, 'model', 'null')
+			case 'default': mc_write(file, 'last_s', 5, 'model', f'ssbrc:fighter/{fighter}/item/{item}/' + path[skin]['model']['model'])
+			case 'inherit': mc_write(file, 'last_s', 5, 'model', path[path[skin]['model']['model']]['model']['model'])
+			case 'fixed': mc_write(file, 'last_s', 5, 'model', path[skin]['model']['model'])
+			case _: mc_write(file, 'last_s', 5, 'model', 'ssbrc:' + path[skin]['model']['model'])
 	else:
 		if skin == 'gold':
-			mc_write(file, tab(5) + qm + 'model' + sep_s + f'ssbrc:fighter/{fighter}/item/{item}/gold' + qm)
+			mc_write(file, 'last_s', 5, 'model', f'ssbrc:fighter/{fighter}/item/{item}/gold')
 		else:
-			mc_write(file, tab(5) + qm + 'model' + sep_s + f'ssbrc:fighter/{fighter}/item/{item}/{skin}' + qm)
+			mc_write(file, 'last_s', 5, 'model', f'ssbrc:fighter/{fighter}/item/{item}/{skin}')
 
-	mc_write(file, tab(4) + ent)
+	mc_write(file, 'root_s', 4)

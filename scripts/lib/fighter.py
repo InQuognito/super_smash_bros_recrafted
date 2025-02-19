@@ -30,62 +30,62 @@ def fighter_storage():
 	with open('data\\ssbrc\\function\\logic\\init\\fighter.mcfunction', 'w') as file:
 		warn_builder(file)
 
-		mc_write(file, 'data modify storage ssbrc:data fighter set value {')
+		mc_write(file, 'fixed', 0, 'data modify storage ssbrc:data fighter set value {')
 		fighter_count = len(ssbrc.fighter)
 		f = 1
 		for fighter in ssbrc.fighter:
-			mc_write(file, tab(1) + qm + fighter + suf_e)
-			mc_write(file, tab(2) + qm + 'name' + sep_s + fighter + suf_s)
-			mc_write(file, tab(2) + qm + 'armor' + sep_n + str(armor(ssbrc.fighter[fighter]['stats']['armor'])) + ',')
-			mc_write(file, tab(2) + qm + 'jump_strength' + sep_n + str(jump_strength(ssbrc.fighter[fighter]['stats']['jump_strength'])) + ',')
-			mc_write(file, tab(2) + qm + 'max_health' + sep_n + str(max_health(ssbrc.fighter[fighter]['stats']['max_health'])) + ',')
-			mc_write(file, tab(2) + qm + 'movement_speed' + sep_n + str(movement_speed(ssbrc.fighter[fighter]['stats']['movement_speed'])) + ',')
-			mc_write(file, tab(2) + qm + 'page' + sep_n + str(ssbrc.fighter[fighter]['page']) + ',')
-			mc_write(file, tab(2) + qm + 'miiverse_posts' + sep_n + str(ssbrc.fighter[fighter]['miiverse_posts']) + ',')
-			mc_write(file, tab(2) + qm + 'default_form' + sep_s + ssbrc.fighter[fighter]['forms'][0] + suf_s)
-			if 'true_forms' in ssbrc.fighter[fighter].keys():
-				mc_write(file, tab(2) + qm + 'forms' + sep_s + "true" + suf_s)
-				if 'forms_isolated_to' in ssbrc.fighter[fighter].keys():
-					mc_write(file, tab(2) + qm + 'forms_isolated_to' + sep_s + ssbrc.fighter[fighter]['forms_isolated_to'] + suf_s)
-			mc_write(file, tab(2) + qm + 'color' + sep_s + get_color(fighter) + suf_s)
-			mc_write(file, tab(2) + qm + 'alignment' + sep_s + ssbrc.fighter[fighter]['alignment'] + suf_s)
+			path = ssbrc.fighter[fighter]
+			mc_write(file, 'root_e', 1, fighter)
+			mc_write(file, 'item_s', 2, 'name', fighter)
+			mc_write(file, 'item_n', 2, 'armor', armor(path['stats']['armor']))
+			mc_write(file, 'item_n', 2, 'jump_strength', jump_strength(fighter))
+			mc_write(file, 'item_n', 2, 'max_health', max_health(fighter))
+			mc_write(file, 'item_n', 2, 'movement_speed', movement_speed(fighter))
+			mc_write(file, 'item_n', 2, 'page', path['page'])
+			mc_write(file, 'item_n', 2, 'miiverse_posts', path['miiverse_posts'])
+			mc_write(file, 'item_s', 2, 'default_form', path['forms'][0])
+			if 'true_forms' in path.keys():
+				mc_write(file, 'item_s', 2, 'forms', "true")
+				if 'forms_isolated_to' in path.keys():
+					mc_write(file, 'item_s', 2, 'forms_isolated_to', path['forms_isolated_to'])
+			mc_write(file, 'item_s', 2, 'color', get_color(fighter))
+			mc_write(file, 'item_s', 2, 'alignment', path['alignment'])
 			skin_count = count_skin(fighter)
-			mc_write(file, tab(2) + qm + 'skin_count' + sep_n + str(skin_count) + ',')
+			mc_write(file, 'item_n', 2, 'skin_count', skin_count)
 			if fighter == 'byleth': skin_count /= 2
-			mc_write(file, tab(2) + qm + 'skin' + suf_e)
+			mc_write(file, 'root_e', 2, 'skin')
 
 			n = 1
-			for skin in ssbrc.fighter[fighter]['skin']:
-				mc_write(file, tab(3) + qm + skin + suf_e)
-				mc_write(file, tab(4) + qm + 'name' + sep_s + skin + suf_s)
-				mc_write(file, tab(4) + qm + 'color' + sep_s + get_color(fighter, skin) + suf_s)
-				if 'true_forms' in ssbrc.fighter[fighter].keys() and 'forms_isolated_to' in ssbrc.fighter[fighter].keys():
-					if 'forms_isolated_to' in ssbrc.fighter[fighter]['skin'][skin].keys():
-						mc_write(file, tab(4) + qm + 'forms_isolated_to' + sep_s + ssbrc.fighter[fighter]['skin'][skin]['forms_isolated_to'] + suf_s)
+			for skin in path['skin']:
+				mc_write(file, 'root_e', 3, skin)
+				mc_write(file, 'item_s', 4, 'name', skin)
+				mc_write(file, 'item_s', 4, 'color', get_color(fighter, skin))
+				if 'true_forms' in path.keys() and 'forms_isolated_to' in path.keys():
+					if 'forms_isolated_to' in path['skin'][skin].keys():
+						mc_write(file, 'item_s', 4, 'forms_isolated_to', path['skin'][skin]['forms_isolated_to'])
 					else:
-						mc_write(file, tab(4) + qm + 'forms_isolated_to' + sep_s + ssbrc.fighter[fighter]['forms_isolated_to'] + suf_s)
-				if 'invisible_player' in ssbrc.fighter[fighter]['skin'][skin].keys():
-					mc_write(file, tab(4) + qm + 'invisible_player' + sep_s + "true" + suf_s)
+						mc_write(file, 'item_s', 4, 'forms_isolated_to', path['forms_isolated_to'])
+				if 'invisible_player' in path['skin'][skin].keys(): mc_write(file, 'item_s', 4, 'invisible_player', "true")
 				if n < (skin_count - 2):
-					mc_write(file, tab(3) + ent)
+					mc_write(file, 'root_s', 3)
 				else:
-					mc_write(file, tab(3) + '}')
+					mc_write(file, 'fixed', 3, '}')
 				n += 1
-			mc_write(file, tab(2) + ent)
-			mc_write(file, tab(2) + qm + 'items' + suf_e)
-			if 'items' in ssbrc.fighter[fighter].keys():
-				for item in ssbrc.fighter[fighter]['items']:
-					mc_write(file, tab(3) + qm + item + suf_e)
+			mc_write(file, 'root_s', 2)
+			mc_write(file, 'root_e', 2, 'items')
+			if 'items' in path.keys():
+				for item in path['items']:
+					mc_write(file, 'root_e', 3, item)
 					for skin in ['default','gold']:
 						init_item_data(file, fighter, skin, item)
-					for skin in ssbrc.fighter[fighter]['skin']:
+					for skin in path['skin']:
 						init_item_data(file, fighter, skin, item)
-					mc_write(file, tab(3) + ent)
-			mc_write(file, tab(2) + '}')
+					mc_write(file, 'root_s', 3)
+			mc_write(file, 'fixed', 2, '}')
 			if f < fighter_count:
-				mc_write(file, tab(1) + ent)
+				mc_write(file, 'root_s', 1)
 			else:
-				mc_write(file, tab(1) + '}')
+				mc_write(file, 'fixed', 1, '}')
 			f += 1
 		file.write('}\n')
 
@@ -95,8 +95,7 @@ def fighter_getter():
 		warn_builder(file)
 
 		for fighter in ssbrc.fighter:
-			if fighter != 'peach':
-				js_write(file, f'$function $(function) with storage ssbrc:data fighter.{fighter}')
+			if fighter != 'peach': js_write(file, f'$function $(function) with storage ssbrc:data fighter.{fighter}')
 
 def get_random_fighter():
 	'''Initializes the getter function that can be used to check for the desired fighter.'''

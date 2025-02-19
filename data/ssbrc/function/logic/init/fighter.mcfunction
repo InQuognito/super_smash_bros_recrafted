@@ -1697,19 +1697,19 @@ data modify storage ssbrc:data fighter set value {\
 			},\
 			"pile_driver": {\
 				"default": {\
-					"name": "ssbrc.fighter.mega_man.pile_driver",\
+					"name": "ssbrc.fighter.mega_man.pile_driver.default",\
 					"tag": "pile_driver",\
 					"color": "#E6771E",\
 					"model": "ssbrc:fighter/mega_man/item/pile_driver/default"\
 				},\
 				"gold": {\
-					"name": "ssbrc.fighter.mega_man.pile_driver",\
+					"name": "ssbrc.fighter.mega_man.pile_driver.default",\
 					"tag": "pile_driver",\
 					"color": "#E6771E",\
 					"model": "ssbrc:fighter/mega_man/item/pile_driver/default"\
 				},\
 				"star_force": {\
-					"name": "ssbrc.fighter.mega_man.pile_driver",\
+					"name": "ssbrc.fighter.mega_man.pile_driver.star_force",\
 					"tag": "pile_driver",\
 					"color": "#E6771E",\
 					"model": "ssbrc:fighter/mega_man/item/pile_driver/star_force"\

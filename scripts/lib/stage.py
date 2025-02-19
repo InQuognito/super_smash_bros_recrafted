@@ -5,49 +5,48 @@ def stage_storage():
 	with open('data\\ssbrc\\function\\logic\\init\\stage.mcfunction', 'w') as file:
 		warn_builder(file)
 
-		mc_write(file, 'data modify storage ssbrc:data stage set value {')
+		mc_write(file, 'fixed', 0, 'data modify storage ssbrc:data stage set value {')
 		n = 1
 		for stage in ssbrc.stage:
-			mc_write(file, tab(1) + qm + stage + suf_e)
-			mc_write(file, tab(2) + qm + 'name' + sep_s + stage + suf_s)
-			series = ssbrc.stage[stage]['series']
-			mc_write(file, tab(2) + qm + 'series' + sep_s + series + suf_s)
-			mc_write(file, tab(2) + qm + 'series_type' + sep_s + ssbrc.series[series]['type'] + suf_s)
-			mc_write(file, tab(2) + qm + 'series_color' + sep_s + ssbrc.series[series]['color'] + suf_s)
-			mc_write(file, tab(2) + qm + 'color' + sep_s + ssbrc.stage[stage]['color'] + suf_s)
-			mc_write(file, tab(2) + qm + 'name' + sep_s + stage + suf_s)
-			mc_write(file, tab(2) + qm + 'page' + sep_n + str(ssbrc.stage[stage]['page']) + ',')
-			if 'tick' in ssbrc.stage[stage].keys():
-				mc_write(file, tab(2) + qm + 'tick' + sep_s + str(ssbrc.stage[stage]['tick']) + suf_s)
-			mc_write(file, tab(2) + qm + 'altered_beast_form' + sep_s + str(ssbrc.stage[stage]['altered_beast_form']) + suf_s)
-			mc_write(file, tab(2) + qm + 'location' + sep_s + str(ssbrc.stage[stage]['location']) + suf_s)
-			if ssbrc.stage[stage]['location'] != "null":
-				mc_write(file, tab(2) + qm + 'center' + sep_s + str(center(ssbrc.stage[stage]['location'])) + suf_s)
-			mc_write(file, tab(2) + qm + 'song_count' + sep_n + str(ssbrc.stage[stage]['song_count']) + ',')
-			mc_write(file, tab(2) + qm + 'time' + sep_s + str(ssbrc.stage[stage]['time']) + suf_s)
-			mc_write(file, tab(2) + qm + 'weather' + sep_s + ssbrc.stage[stage]['weather'] + suf_s)
-			mc_write(file, tab(2) + qm + 'spawnpoints' + suf_e)
+			path = ssbrc.stage[stage]
+			series = path['series']
+			series_path = ssbrc.series[series]
+			mc_write(file, 'root_e', 1, stage)
+			mc_write(file, 'item_s', 2, 'name', stage)
+			mc_write(file, 'item_s', 2, 'series', series)
+			mc_write(file, 'item_s', 2, 'series_type', series_path['type'])
+			mc_write(file, 'item_s', 2, 'series_color', series_path['color'])
+			mc_write(file, 'item_s', 2, 'color', path['color'])
+			mc_write(file, 'item_n', 2, 'page', path['page'])
+			if 'tick' in path.keys(): mc_write(file, 'item_s', 2, 'tick', path['tick'])
+			mc_write(file, 'item_s', 2, 'altered_beast_form', path['altered_beast_form'])
+			mc_write(file, 'item_s', 2, 'location', path['location'])
+			if path['location'] != "null": mc_write(file, 'item_s', 2, 'center', center(path['location']))
+			mc_write(file, 'item_n', 2, 'song_count', path['song_count'])
+			mc_write(file, 'item_s', 2, 'time', path['time'])
+			mc_write(file, 'item_s', 2, 'weather', path['weather'])
+			mc_write(file, 'root_e', 2, 'spawnpoints')
 			s = 1
-			for i, pos in ssbrc.stage[stage]['spawnpoints'].items():
+			for i, pos in path['spawnpoints'].items():
 				if s < 8:
-					mc_write(file, tab(3) + qm + i + sep_s + pos + suf_s)
+					mc_write(file, 'item_s', 3, i, pos)
 				else:
-					mc_write(file, tab(3) + qm + i + sep_s + pos + qm)
+					mc_write(file, 'last_s', 3, i, pos)
 				s += 1
-			mc_write(file, tab(2) + ent)
-			mc_write(file, tab(2) + qm + 'item_spawnpoints' + suf_e)
+			mc_write(file, 'root_s', 2)
+			mc_write(file, 'root_e', 2, 'item_spawnpoints')
 			s = 1
-			for i, pos in ssbrc.stage[stage]['item_spawnpoints'].items():
+			for i, pos in path['item_spawnpoints'].items():
 				if s < 20:
-					mc_write(file, tab(3) + qm + i + sep_s + pos + suf_s)
+					mc_write(file, 'item_s', 3, i, pos)
 				else:
-					mc_write(file, tab(3) + qm + i + sep_s + pos + qm)
+					mc_write(file, 'last_s', 3, i, pos)
 				s += 1
-			mc_write(file, tab(2) + '}')
+			mc_write(file, 'fixed', 2, '}')
 			if n < len(ssbrc.stage):
-				mc_write(file, tab(1) + ent)
+				mc_write(file, 'root_s', 1)
 			else:
-				mc_write(file, tab(1) + '}')
+				mc_write(file, 'fixed', 1, '}')
 			n += 1
 		file.write('}\n')
 
