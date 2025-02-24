@@ -1,3 +1,1 @@
-{
-	"values": ["ssbrc:load"]
-}
+{"values":["animated_java:global/on_load","animated_java:global/internal/gu/load","ssbrc:load"]}
