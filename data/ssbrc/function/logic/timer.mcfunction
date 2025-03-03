@@ -1,4 +1,3 @@
-function ssbrc:logic/pre_game/fighter_select/count_players
 execute if score game_stage temp matches 2.. if score players temp matches 0 run function ssbrc:reset
 execute if score game_stage temp matches 2..4 if score players.ingame temp matches 1 unless score singleplayer options matches 1 as @a[tag=alive,limit=1] run function ssbrc:logic/post_game/end_early
 

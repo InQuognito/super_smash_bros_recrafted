@@ -6,6 +6,7 @@ execute if score teams options matches 1 run function ssbrc:logic/game/team/join
 effect give @s minecraft:glowing infinite 255 true
 
 tag @s add room.fighter_select
+scoreboard players add old_players temp 1
 
 execute unless entity @s[tag=cannot_host] unless items entity @a container.* minecraft:written_book[minecraft:custom_data~{item:"options"}] run function ssbrc:logic/game/options/set
 

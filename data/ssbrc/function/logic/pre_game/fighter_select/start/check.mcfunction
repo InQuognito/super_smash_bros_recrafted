@@ -1,5 +1,3 @@
-function ssbrc:logic/pre_game/fighter_select/count_players
-
 execute if score teams options matches 0 run function ssbrc:logic/pre_game/force_start
 
 execute if score teams options matches 1 run function ssbrc:logic/pre_game/fighter_select/start/teams

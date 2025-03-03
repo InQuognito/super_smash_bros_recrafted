@@ -1,3 +1,5 @@
+execute store result score online temp if entity @a
+
 function ssbrc:logic/pre_game/fighter_select/count/check
 
 execute store result score fighter_picked temp if entity @a[tag=fighter_picked]

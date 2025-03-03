@@ -1,5 +1,3 @@
-function ssbrc:logic/pre_game/fighter_select/count_players
-
 function ssbrc:logic/player/data/temp/copy/check
 
 execute if data storage ssbrc:temp player.temp_data{fighter:"byleth"} if entity @s[tag=weapon_broken] run function ssbrc:fighter/byleth/logic/get_kill/player
