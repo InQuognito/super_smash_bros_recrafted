@@ -37,4 +37,4 @@ jobs:
       - name: Send message to server
         env:
           BLOOM_API_KEY: "${{ secrets.BLOOM_API_KEY }}"
-        run: poetry run python .github/workflows/send_bloom.py
+        run: python .github/workflows/send_bloom.py
