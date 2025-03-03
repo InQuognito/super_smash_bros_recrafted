@@ -34,6 +34,9 @@ jobs:
       - name: Install dependencies
         run: pip install requests
 
+      - name: Package datapack
+        run: zip -r datapack.zip pack.mcmeta data
+
       - name: Send message to server
         env:
           BLOOM_API_KEY: "${{ secrets.BLOOM_API_KEY }}"
