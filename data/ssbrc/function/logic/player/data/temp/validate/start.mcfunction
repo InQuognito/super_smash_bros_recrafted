@@ -1,5 +1,3 @@
-scoreboard players set pointer temp 0
-execute store result storage ssbrc:temp cache.looper.pointer int 1.0 run scoreboard players get pointer temp
+data modify storage ssbrc:data player.temp_data_copy set from storage ssbrc:data player.temp_data
 
-scoreboard players reset offline_player_found temp
-function ssbrc:logic/player/data/temp/validate/loop with storage ssbrc:temp cache.looper
+function ssbrc:logic/player/data/temp/validate/loop
