@@ -35,7 +35,7 @@ jobs:
         run: pip install requests
 
       - name: Package datapack
-        run: zip -r datapack.zip pack.mcmeta data
+        run: zip -r datapack.zip pack.mcmeta data animated_java
 
       - name: Send message to server
         env:
