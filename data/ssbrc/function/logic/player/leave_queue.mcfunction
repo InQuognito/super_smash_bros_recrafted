@@ -47,4 +47,6 @@ function ssbrc:logic/player/data/stats/init/set {value:"hard_resets"}
 tag @s remove soft_load
 tag @s add loaded
 
+function ssbrc:logic/player/data/temp/validate/start
+
 advancement grant @s[scores={stats.games_played=1..},advancements={ssbrc:tutorial/stage_select/1=true}] only ssbrc:tutorial/outro/1
