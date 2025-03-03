@@ -7,6 +7,8 @@ gamemode adventure @s
 clear @s
 loot replace entity @s[advancements={ssbrc:tutorial/intro/2=true}] hotbar.0 loot ssbrc:selector
 
+# TODO: Remove player from temp storage and set everyone's ID value above them down by one
+
 scoreboard players reset @s id
 
 scoreboard players reset @s team
