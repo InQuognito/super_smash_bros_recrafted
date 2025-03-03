@@ -1,1 +1,1 @@
-say a player has left!
+function ssbrc:logic/player/data/temp/validate/start
