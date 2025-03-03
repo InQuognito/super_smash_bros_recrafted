@@ -7,8 +7,6 @@ gamemode adventure @s
 clear @s
 loot replace entity @s[advancements={ssbrc:tutorial/intro/2=true}] hotbar.0 loot ssbrc:selector
 
-function ssbrc:logic/player/data/temp/validate/start
-
 scoreboard players reset @s team
 team leave @s
 function ssbrc:logic/game/team/count/all
