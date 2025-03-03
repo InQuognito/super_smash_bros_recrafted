@@ -8,7 +8,6 @@ clear @s
 loot replace entity @s[advancements={ssbrc:tutorial/intro/2=true}] hotbar.0 loot ssbrc:selector
 
 scoreboard players reset @s id
-function ssbrc:logic/player/data/temp/init with entity @s
 
 scoreboard players reset @s team
 team leave @s
