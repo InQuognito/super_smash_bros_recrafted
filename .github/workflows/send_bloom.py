@@ -31,4 +31,4 @@ make_request(
 )
 print("Success!")
 time.sleep(0.05)
-make_request(route="command", data={"command": "say build complete! run /reload to apply the changes."})
+make_request(route="command", data={"command": "function ssbrc:logic/server/build_finish"})

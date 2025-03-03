@@ -18,7 +18,7 @@ jobs:
             -H 'Authorization: Bearer ${{ secrets.BLOOM_API_KEY }}' \
             -X POST \
             -d '{
-              "command": "say pushing latest code to server..."
+              "command": "function ssbrc:logic/server/build_start"
             }'
 
       - name: Checkout repository
