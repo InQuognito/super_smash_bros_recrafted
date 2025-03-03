@@ -5,5 +5,3 @@ clear @s minecraft:shield[minecraft:custom_data~{item:"hylian_shield"}]
 
 scoreboard players set durability temp 30
 scoreboard players operation durability temp -= @s durability
-scoreboard players operation durability temp *= 100 const
-scoreboard players operation durability temp /= 30 const

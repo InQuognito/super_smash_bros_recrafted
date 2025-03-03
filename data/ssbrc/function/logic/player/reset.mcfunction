@@ -1,4 +1,4 @@
-function ssbrc:logic/player/leave
+function ssbrc:logic/player/leave_queue
 
 function ssbrc:logic/player/data/stats/calculate/run
 

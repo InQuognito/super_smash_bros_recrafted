@@ -18,6 +18,10 @@ execute as @e[type=minecraft:text_display,tag=training_dummy.damage_number] at @
 # Reset Players
 execute as @a unless score @s world_time = current world_time run function ssbrc:logic/player/join
 
+scoreboard players operation old_online temp = online temp
+execute store result score online temp if entity @a
+execute if score online temp < old_online temp run function ssbrc:logic/player/leave
+
 execute store result score current world_time run time query gametime
 execute as @a store result score @s world_time run time query gametime
 
