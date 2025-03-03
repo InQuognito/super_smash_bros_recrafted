@@ -16,9 +16,10 @@ execute as @a[gamemode=adventure] run function ssbrc:logic/player/tick
 execute as @e[type=minecraft:text_display,tag=training_dummy.damage_number] at @s run function ssbrc:logic/training_dummy/damage_number/tick
 
 # Reset Players
+scoreboard players operation old_online temp = online temp
+
 execute as @a unless score @s world_time = current world_time run function ssbrc:logic/player/join
 
-scoreboard players operation old_online temp = online temp
 execute store result score online temp if entity @a
 execute if score online temp < old_online temp run function ssbrc:logic/player/leave
 

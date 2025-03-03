@@ -1,3 +1,5 @@
+scoreboard players add old_online temp 1
+
 function ssbrc:logic/pre_game/fighter_select/count_players
 execute if score online temp matches 1 run function ssbrc:logic/reset
 
