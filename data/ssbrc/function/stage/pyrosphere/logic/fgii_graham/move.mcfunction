@@ -1,6 +1,7 @@
 scoreboard players operation percentage temp = @s health
+scoreboard players operation percentage temp -= yar.drone.drone.health.threshold const
 scoreboard players operation percentage temp *= 100 const
-scoreboard players operation percentage temp /= 20 const
+scoreboard players operation percentage temp /= yar.drone.drone.health.cushion const
 
 execute if score percentage temp matches ..50 positioned ~ 39.5 ~ run particle minecraft:electric_spark ~ ~0.5 ~ 0.2 0.2 0.2 0.5 1 normal @a
 execute if score percentage temp matches ..25 positioned ~ 39.5 ~ run particle minecraft:smoke ~ ~0.5 ~ 0.2 0.2 0.2 0.01 1 normal @a

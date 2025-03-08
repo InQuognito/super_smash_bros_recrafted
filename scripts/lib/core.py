@@ -69,10 +69,15 @@ def has_forms(fighter):
 		return True
 	return False
 
-def forms_isolated_to(fighter):
+def forms_isolated_to(fighter, skin='default'):
 	'''Returns true if the specified fighter has forms, otherwise return false.'''
-	if 'forms_isolated_to' in ssbrc.fighter[fighter].keys():
-		return ssbrc.fighter[fighter]['forms_isolated_to']
+	path = ssbrc.fighter[fighter]
+	if skin != 'default':
+		skin_path = path['skin'][skin]
+		if 'forms_isolated_to' in skin_path.keys():
+			return skin_path['forms_isolated_to']
+	if 'forms_isolated_to' in path.keys():
+		return path['forms_isolated_to']
 	return 'none'
 
 def count_forms(fighter):

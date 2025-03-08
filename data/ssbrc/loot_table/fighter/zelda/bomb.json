@@ -71,7 +71,7 @@
 									]
 								},
 								{
-									"translate": "ssbrc.fighter.zelda.dungeon_item.bomb.description.3",
+									"translate": "ssbrc.ability.description.explode",
 									"color": "gray",
 									"bold": false,
 									"italic": false

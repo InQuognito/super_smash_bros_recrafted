@@ -37,6 +37,12 @@
 											"color": "gray",
 											"bold": false,
 											"italic": false
+										},
+										{
+											"translate": "ssbrc.fighter.mega_man.remote_mine.description",
+											"color": "gray",
+											"bold": false,
+											"italic": false
 										}
 									]
 								}

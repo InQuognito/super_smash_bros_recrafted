@@ -43,7 +43,19 @@
 											"italic": false
 										},
 										{
-											"translate": "ssbrc.ability.activate",
+											"translate": "ssbrc.fighter.mega_man.junk_shield.description.1",
+											"color": "gray",
+											"bold": false,
+											"italic": false
+										},
+										{
+											"translate": "ssbrc.fighter.mega_man.junk_shield.description.2",
+											"color": "gray",
+											"bold": false,
+											"italic": false
+										},
+										{
+											"translate": "ssbrc.fighter.mega_man.junk_shield.description.3",
 											"color": "gray",
 											"bold": false,
 											"italic": false

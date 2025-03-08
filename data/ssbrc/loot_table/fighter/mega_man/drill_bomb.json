@@ -37,6 +37,12 @@
 											"color": "gray",
 											"bold": false,
 											"italic": false
+										},
+										{
+											"translate": "ssbrc.fighter.mega_man.drill_bomb.description",
+											"color": "gray",
+											"bold": false,
+											"italic": false
 										}
 									]
 								}

@@ -33,7 +33,7 @@
 											"italic": false
 										},
 										{
-											"translate": "ssbrc.fighter.mega_man.hyper_bomb.description.1",
+											"translate": "ssbrc.fighter.mega_man.hyper_bomb.description",
 											"color": "gray",
 											"bold": false,
 											"italic": false
@@ -41,24 +41,10 @@
 									]
 								},
 								{
-									"text": "- [",
+									"translate": "ssbrc.ability.description.explode",
 									"color": "gray",
 									"bold": false,
-									"italic": false,
-									"extra": [
-										{
-											"keybind": "key.use",
-											"color": "gray",
-											"bold": false,
-											"italic": false
-										},
-										{
-											"translate": "ssbrc.fighter.mega_man.hyper_bomb.description.2",
-											"color": "gray",
-											"bold": false,
-											"italic": false
-										}
-									]
+									"italic": false
 								}
 							],
 							"mode": "append"
