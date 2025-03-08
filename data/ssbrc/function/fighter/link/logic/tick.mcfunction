@@ -7,6 +7,9 @@ execute if score @s rotation matches 1000.. run function ssbrc:fighter/link/logi
 
 tag @s[tag=no_spin,predicate=!ssbrc:flag/in_air] remove no_spin
 
+execute unless score @s[tag=sword_spin] charge.output matches 1.. run function ssbrc:fighter/link/logic/abilities/sword_spin/cancel
+execute if entity @s[tag=sword_spin,predicate=!ssbrc:flag/sneaking] run function ssbrc:fighter/link/logic/abilities/sword_spin/cancel
+
 # Boomerang
 function ssbrc:logic/item/cooldown/decrease {item:"link.boomerang"}
 

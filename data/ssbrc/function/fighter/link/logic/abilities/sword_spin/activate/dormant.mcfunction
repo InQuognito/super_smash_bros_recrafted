@@ -3,7 +3,7 @@ execute if entity @s[scores={charge.output=51..},predicate=!ssbrc:fighter/link/m
 execute if predicate ssbrc:fighter/link/master_sword_awakened run function ssbrc:fighter/link/logic/abilities/sword_spin/activate/default
 
 tag @s add no_spin
-tag @s remove sword_spin
+function ssbrc:fighter/link/logic/abilities/sword_spin/cancel
 
 scoreboard players set @s rotation 1000
 
