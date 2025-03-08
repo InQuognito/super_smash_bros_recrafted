@@ -4,6 +4,8 @@ execute if data storage ssbrc:temp player.temp_data{fighter:"altered_beast",form
 
 execute if data storage ssbrc:temp player.temp_data{fighter:"byleth"} run function ssbrc:fighter/byleth/logic/golden_deer/failnaught/reset
 
+execute if data storage ssbrc:temp player.temp_data{fighter:"dark_samus"} run function ssbrc:logic/item/init/variant/find {search_key:"item",search_value:"phazon_beam",variant:"default"}
+
 execute if data storage ssbrc:temp player.temp_data{fighter:"hero"} run function ssbrc:fighter/hero/logic/magic/update
 
 execute if data storage ssbrc:temp player.temp_data{fighter:"joker"} run function ssbrc:fighter/joker/logic/hud
