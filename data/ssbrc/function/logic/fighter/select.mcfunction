@@ -17,6 +17,7 @@ execute if entity @s[team=spectator] run function ssbrc:logic/game/team/join/red
 execute if score teams options matches 0 run team join ready @s
 effect clear @s minecraft:glowing
 
+function ssbrc:logic/pre_game/fighter_select/count/activate
 function ssbrc:logic/pre_game/fighter_select/participation/check
 
 clear @s minecraft:nether_star[minecraft:custom_data~{item:"skin_options"}]

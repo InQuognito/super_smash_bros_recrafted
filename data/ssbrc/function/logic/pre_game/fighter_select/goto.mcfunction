@@ -14,6 +14,7 @@ loot replace entity @s armor.head loot {"type":"minecraft:command","pools":[{"ro
 function ssbrc:logic/player/data/temp/init with entity @s Inventory[{Slot:103b}].components."minecraft:profile"
 item replace entity @s armor.head with minecraft:air
 
+function ssbrc:logic/pre_game/fighter_select/count/activate
 function ssbrc:logic/pre_game/fighter_select/participation/check
 scoreboard players remove @s[tag=!exempt_influence,scores={influence=1..}] influence 1
 

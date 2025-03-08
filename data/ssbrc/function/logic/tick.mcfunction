@@ -1,3 +1,4 @@
+scoreboard players operation old_online temp = online temp
 scoreboard players operation old_players temp = players temp
 
 execute as @e[type=minecraft:item_display,name=sandbag,scores={animation=1..},limit=1] run function ssbrc:logic/player/selector/events/sandbag/tick
@@ -20,7 +21,8 @@ execute as @e[type=minecraft:text_display,tag=training_dummy.damage_number] at @
 # Reset Players
 execute as @a unless score @s world_time = current world_time run function ssbrc:logic/player/join
 
-function ssbrc:logic/pre_game/fighter_select/count_players
+function ssbrc:logic/pre_game/fighter_select/count/tick
+execute if score online temp < old_online temp run function ssbrc:logic/player/leave
 execute if score players temp < old_players temp run function ssbrc:logic/player/leave
 
 execute store result score current world_time run time query gametime
