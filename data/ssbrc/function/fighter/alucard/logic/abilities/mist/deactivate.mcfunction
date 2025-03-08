@@ -1,4 +1,4 @@
-function ssbrc:fighter/alucard/logic/abilities/mist/off
+function ssbrc:fighter/alucard/kit
 
 function ssbrc:fighter/alucard/logic/abilities/blood_metamorphosis/deactivate
 

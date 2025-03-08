@@ -5,13 +5,7 @@ scoreboard players operation @s[tag=blood_metamorphosis] duration.1 *= 2 const
 
 execute if entity @s[tag=blood_metamorphosis] summon minecraft:marker run function ssbrc:fighter/alucard/logic/abilities/mist/summon
 
-execute unless items entity @s weapon.offhand minecraft:shield unless items entity @s container.* minecraft:shield run tag @s add shield_broken
-execute if items entity @s container.* minecraft:shield run function ssbrc:logic/item/component/get {search_key:"item",search_value:"alucard_shield",component:"minecraft:damage",output_type:"score",output_path:"@s durability"}
-
-scoreboard players set durability temp 20
-scoreboard players operation durability temp -= @s durability
-scoreboard players operation durability temp *= 100 const
-scoreboard players operation durability temp /= 20 const
+function ssbrc:fighter/link/logic/abilities/sword_spin/shield
 
 clear @s
 

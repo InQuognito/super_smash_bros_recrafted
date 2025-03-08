@@ -2,6 +2,3 @@ execute unless items entity @s weapon.offhand minecraft:shield[minecraft:custom_
 
 function ssbrc:logic/item/component/get {search_key:"item",search_value:"hylian_shield",component:"minecraft:damage",output_type:"score",output_path:"@s durability"}
 clear @s minecraft:shield[minecraft:custom_data~{item:"hylian_shield"}]
-
-scoreboard players set durability temp 30
-scoreboard players operation durability temp -= @s durability
