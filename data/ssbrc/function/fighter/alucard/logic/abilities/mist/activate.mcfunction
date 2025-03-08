@@ -5,7 +5,7 @@ scoreboard players operation @s[tag=blood_metamorphosis] duration.1 *= 2 const
 
 execute if entity @s[tag=blood_metamorphosis] summon minecraft:marker run function ssbrc:fighter/alucard/logic/abilities/mist/summon
 
-function ssbrc:fighter/link/logic/abilities/sword_spin/shield
+function ssbrc:fighter/alucard/logic/abilities/mist/shield
 
 clear @s
 
