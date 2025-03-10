@@ -8,6 +8,7 @@ function ssbrc:logic/ui/buttons/placeholder/get {slot:"18"}
 
 function ssbrc:shop/buttons/skin/get {skin:"gravity_suit",slot:"2",price:"price.skin.common"}
 function ssbrc:shop/buttons/skin/get {skin:"phazon_suit",slot:"3",price:"price.skin.common"}
+function ssbrc:shop/buttons/skin/get {skin:"cloaked",slot:"4",price:"price.skin.common"}
 
 function ssbrc:logic/ui/buttons/placeholder/get {slot:"8"}
 function ssbrc:logic/ui/buttons/placeholder/get {slot:"17"}

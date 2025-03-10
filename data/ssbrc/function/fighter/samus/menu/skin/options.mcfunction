@@ -16,4 +16,7 @@ execute if data storage ssbrc:temp player.temp_data{skin:"gravity_suit"} run tel
 execute unless data storage ssbrc:temp player.temp_data{skin:"phazon_suit"} run tellraw @s[advancements={ssbrc:fighter/samus/phazon_suit=true}] {"translate":"ssbrc.skin.phazon_suit","color":"red","clickEvent":{"action":"run_command","value":"/trigger menu set 4"}}
 execute if data storage ssbrc:temp player.temp_data{skin:"phazon_suit"} run tellraw @s [{"translate":"ssbrc.skin.phazon_suit","color":"red"},{"text":" ✔","color":"green"}]
 
+execute unless data storage ssbrc:temp player.temp_data{skin:"cloaked"} run tellraw @s[advancements={ssbrc:fighter/samus/cloaked=true}] {"translate":"ssbrc.skin.cloaked","color":"gold","clickEvent":{"action":"run_command","value":"/trigger menu set 5"}}
+execute if data storage ssbrc:temp player.temp_data{skin:"cloaked"} run tellraw @s [{"translate":"ssbrc.skin.cloaked","color":"gold"},{"text":" ✔","color":"green"}]
+
 function ssbrc:logic/fighter/menu/skin_options

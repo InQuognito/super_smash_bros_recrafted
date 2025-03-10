@@ -2090,7 +2090,7 @@ data modify storage ssbrc:data fighter set value {\
 		"default_form": "default",\
 		"color": "gold",\
 		"alignment": "hero",\
-		"skin_count": 4,\
+		"skin_count": 5,\
 		"skin": {\
 			"gravity_suit": {\
 				"name": "gravity_suit",\
@@ -2099,6 +2099,10 @@ data modify storage ssbrc:data fighter set value {\
 			"phazon_suit": {\
 				"name": "phazon_suit",\
 				"color": "red",\
+			},\
+			"cloaked": {\
+				"name": "cloaked",\
+				"color": "gold",\
 			}\
 		},\
 		"items": {\
@@ -2122,6 +2126,12 @@ data modify storage ssbrc:data fighter set value {\
 					"model": "ssbrc:fighter/samus/item/power_beam/default"\
 				},\
 				"phazon_suit": {\
+					"name": "ssbrc.fighter.samus.power_beam",\
+					"tag": "power_beam",\
+					"color": "gold",\
+					"model": "ssbrc:fighter/samus/item/power_beam/default"\
+				},\
+				"cloaked": {\
 					"name": "ssbrc.fighter.samus.power_beam",\
 					"tag": "power_beam",\
 					"color": "gold",\
@@ -2153,6 +2163,12 @@ data modify storage ssbrc:data fighter set value {\
 					"color": "dark_red",\
 					"model": "ssbrc:fighter/samus/item/plasma_beam/default"\
 				},\
+				"cloaked": {\
+					"name": "ssbrc.fighter.samus.plasma_beam",\
+					"tag": "plasma_beam",\
+					"color": "dark_red",\
+					"model": "ssbrc:fighter/samus/item/plasma_beam/default"\
+				},\
 			},\
 			"wave_beam": {\
 				"default": {\
@@ -2174,6 +2190,12 @@ data modify storage ssbrc:data fighter set value {\
 					"model": "ssbrc:fighter/samus/item/wave_beam/default"\
 				},\
 				"phazon_suit": {\
+					"name": "ssbrc.fighter.samus.wave_beam",\
+					"tag": "wave_beam",\
+					"color": "dark_purple",\
+					"model": "ssbrc:fighter/samus/item/wave_beam/default"\
+				},\
+				"cloaked": {\
 					"name": "ssbrc.fighter.samus.wave_beam",\
 					"tag": "wave_beam",\
 					"color": "dark_purple",\
