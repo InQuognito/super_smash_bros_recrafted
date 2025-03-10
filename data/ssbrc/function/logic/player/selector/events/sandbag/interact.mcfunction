@@ -1,7 +1,7 @@
 execute if entity @s[advancements={ssbrc:tutorial/outro/2=true}] run function ssbrc:logic/player/selector/events/sandbag/tips/check
 
-tellraw @s[advancements={ssbrc:tutorial/intro/3=true,ssbrc:tutorial/fighter_select/2=false}] [{"text":"Mr. Sandbag | ","bold":true,"color":"yellow"},{"translate":"ssbrc.sandbag.reminder.1","bold":false,"color":"white"}]
-tellraw @s[advancements={ssbrc:tutorial/fighter_select/2=true,ssbrc:tutorial/outro/1=false}] [{"text":"Mr. Sandbag | ","bold":true,"color":"yellow"},{"translate":"ssbrc.sandbag.reminder.2","bold":false,"color":"white"}]
+tellraw @s[advancements={ssbrc:tutorial/intro/3=true,ssbrc:tutorial/fighter_select/2=false}] ["",{"text":"Mr. Sandbag | ","bold":true,"color":"yellow"},{"translate":"ssbrc.sandbag.reminder.1"}]
+tellraw @s[advancements={ssbrc:tutorial/fighter_select/2=true,ssbrc:tutorial/outro/1=false}] ["",{"text":"Mr. Sandbag | ","bold":true,"color":"yellow"},{"translate":"ssbrc.sandbag.reminder.2"}]
 
 execute as @n[type=minecraft:item_display,name=sandbag,limit=1] run function ssbrc:logic/player/selector/events/sandbag/emotions/blush
 

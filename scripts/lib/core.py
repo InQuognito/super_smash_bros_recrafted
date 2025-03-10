@@ -84,6 +84,19 @@ def count_forms(fighter):
 	'''Returns the skin count of the specified fighter.'''
 	return len(ssbrc.fighter[fighter]['forms'])
 
+def get_color_wrapper(fighter, skin='default'):
+	'''Decides whether to append the color field to a text object.'''
+	white = False
+	if skin == 'default':
+		if ssbrc.fighter[fighter]['color'] == 'white': white = True
+	elif skin == 'gold': pass
+	elif white == False and ssbrc.fighter[fighter]['skin'][skin]['color'] == 'white': white = True
+
+	if white == True:
+		return ''
+	else:
+		return '","color":"' + get_color(fighter, skin)
+
 def get_color(fighter, skin='default'):
 	'''Returns the color of the selected skin.'''
 	if skin == 'default':

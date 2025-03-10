@@ -9,7 +9,7 @@ attribute @s minecraft:jump_strength modifier add ssbrc:punisher -0.7 add_multip
 attribute @s minecraft:knockback_resistance modifier add ssbrc:punisher 0.4 add_value
 attribute @s minecraft:movement_speed modifier add ssbrc:punisher -0.7 add_multiplied_base
 
-tellraw @s [{"translate":"ssbrc.fighter.cloud.mode_switch","bold":true,"color":"yellow"},{"translate":"ssbrc.fighter.cloud.punisher","bold":false,"color":"blue"}]
+tellraw @s ["",{"translate":"ssbrc.fighter.cloud.mode_switch","bold":true,"color":"yellow"},{"translate":"ssbrc.fighter.cloud.punisher","color":"blue"}]
 
 function ssbrc:logic/item/durability/reset/hand {key:"item",value:"buster_sword",source:"cooldown"}
 

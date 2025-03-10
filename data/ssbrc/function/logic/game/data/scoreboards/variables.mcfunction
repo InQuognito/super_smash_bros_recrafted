@@ -166,7 +166,7 @@ scoreboard players set snake.anti_personnel_mine.weight const 2
 scoreboard players set snake.anti_personnel_mine.scavenger const 2
 scoreboard players set snake.smoke_grenade.cooldown const 300
 scoreboard players set snake.smoke_grenade.weight const 2
-scoreboard players set snake.smoke_grenade.scavenger const 1
+scoreboard players set snake.smoke_grenade.scavenger const 2
 
 scoreboard players set steve.mining.range const 3
 

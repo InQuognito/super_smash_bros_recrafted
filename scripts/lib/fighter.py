@@ -153,26 +153,26 @@ def skin_options(fighter, path):
 	with open(path + 'options.mcfunction', 'w', encoding='utf-8') as file:
 		warn_builder(file)
 
-		js_write(file, 'tellraw @s [{"text":"=== ","color":"white"},{"translate":"ssbrc.fighter.menu.choose_skin","bold":true,"color":"yellow"},{"text":" ===","color":"white"}]\n')
+		js_write(file, 'tellraw @s ["","=== ",{"translate":"ssbrc.fighter.menu.choose_skin","bold":true,"color":"yellow"}," ==="]\n')
 
 		js_write(file, 'function ssbrc:logic/player/data/temp/copy/check\n')
 
 		if fighter == 'byleth':
 			for skin in chain(['default', 'gold'], ssbrc.fighter[fighter]['skin']):
 				if skin == 'default':
-					js_write(file, 'execute unless data storage ssbrc:temp player.temp_data{skin:"' + skin + '"} run tellraw @s [{"translate":"ssbrc.skin.' + skin + '","color":"' + get_color(fighter, skin) + '"},{"text":" - ","color":"white"},{"translate":"ssbrc.fighter.menu.gender.female.abv","color":"light_purple","clickEvent":{"action":"run_command","value":"/trigger menu set ' + str(n) + '"}},{"text":" "},{"translate":"ssbrc.fighter.menu.gender.male.abv","color":"blue","clickEvent":{"action":"run_command","value":"/trigger menu set ' + str(n + 1) + '"}}]')
+					js_write(file, 'execute unless data storage ssbrc:temp player.temp_data{skin:"' + skin + '"} run tellraw @s ["",{"translate":"ssbrc.skin.' + skin + get_color_wrapper(fighter, skin) + '"}," - ",{"translate":"ssbrc.fighter.menu.gender.female.abv","color":"light_purple","clickEvent":{"action":"run_command","value":"/trigger menu set ' + str(n) + '"}}," ",{"translate":"ssbrc.fighter.menu.gender.male.abv","color":"blue","clickEvent":{"action":"run_command","value":"/trigger menu set ' + str(n + 1) + '"}}]')
 				else:
-					js_write(file, 'execute unless data storage ssbrc:temp player.temp_data{skin:"' + skin + '"} run tellraw @s[advancements={ssbrc:fighter/' + fighter + '/' + skin + '=true}] [{"translate":"ssbrc.skin.' + skin + '","color":"' + get_color(fighter, skin) + '"},{"text":" - ","color":"white"},{"translate":"ssbrc.fighter.menu.gender.female.abv","color":"light_purple","clickEvent":{"action":"run_command","value":"/trigger menu set ' + str(n) + '"}},{"text":" "},{"translate":"ssbrc.fighter.menu.gender.male.abv","color":"blue","clickEvent":{"action":"run_command","value":"/trigger menu set ' + str(n + 1) + '"}}]')
-				js_write(file, 'execute if data storage ssbrc:temp player.temp_data{skin:"' + skin + '",form:"female"} run tellraw @s [{"translate":"ssbrc.skin.' + skin + '","color":"' + get_color(fighter, skin) + '"},{"text":" - ","color":"white"},{"translate":"ssbrc.fighter.menu.gender.female.abv","strikethrough":true,"color":"light_purple"},{"text":" "},{"translate":"ssbrc.fighter.menu.gender.male.abv","color":"blue","clickEvent":{"action":"run_command","value":"/trigger menu set ' + str(n + 1) + '"}},{"text":" ✔","color":"green"}]')
-				js_write(file, 'execute if data storage ssbrc:temp player.temp_data{skin:"' + skin + '",form:"male"} run tellraw @s [{"translate":"ssbrc.skin.' + skin + '","color":"' + get_color(fighter, skin) + '"},{"text":" - ","color":"white"},{"translate":"ssbrc.fighter.menu.gender.female.abv","color":"light_purple","clickEvent":{"action":"run_command","value":"/trigger menu set ' + str(n) + '"}},{"text":" "},{"translate":"ssbrc.fighter.menu.gender.male.abv","strikethrough":true,"color":"blue"},{"text":" ✔","color":"green"}]\n')
+					js_write(file, 'execute unless data storage ssbrc:temp player.temp_data{skin:"' + skin + '"} run tellraw @s[advancements={ssbrc:fighter/' + fighter + '/' + skin + '=true}] ["",{"translate":"ssbrc.skin.' + skin + get_color_wrapper(fighter, skin) + '"}," - ",{"translate":"ssbrc.fighter.menu.gender.female.abv","color":"light_purple","clickEvent":{"action":"run_command","value":"/trigger menu set ' + str(n) + '"}}," ",{"translate":"ssbrc.fighter.menu.gender.male.abv","color":"blue","clickEvent":{"action":"run_command","value":"/trigger menu set ' + str(n + 1) + '"}}]')
+				js_write(file, 'execute if data storage ssbrc:temp player.temp_data{skin:"' + skin + '",form:"female"} run tellraw @s ["",{"translate":"ssbrc.skin.' + skin + get_color_wrapper(fighter, skin) + '"}," - ",{"translate":"ssbrc.fighter.menu.gender.female.abv","strikethrough":true,"color":"light_purple"}," ",{"translate":"ssbrc.fighter.menu.gender.male.abv","color":"blue","clickEvent":{"action":"run_command","value":"/trigger menu set ' + str(n + 1) + '"}},{"text":" ✔","color":"green"}]')
+				js_write(file, 'execute if data storage ssbrc:temp player.temp_data{skin:"' + skin + '",form:"male"} run tellraw @s ["",{"translate":"ssbrc.skin.' + skin + get_color_wrapper(fighter, skin) + '"}," - ",{"translate":"ssbrc.fighter.menu.gender.female.abv","color":"light_purple","clickEvent":{"action":"run_command","value":"/trigger menu set ' + str(n) + '"}}," ",{"translate":"ssbrc.fighter.menu.gender.male.abv","strikethrough":true,"color":"blue"},{"text":" ✔","color":"green"}]\n')
 				n += 2
 		else:
 			for skin in chain(['default', 'gold'], ssbrc.fighter[fighter]['skin']):
 				if skin == 'default':
-					js_write(file, 'execute unless data storage ssbrc:temp player.temp_data{skin:"' + skin + '"} run tellraw @s {"translate":"ssbrc.skin.' + skin + '","color":"' + get_color(fighter, skin) + '","clickEvent":{"action":"run_command","value":"/trigger menu set ' + str(n) + '"}}')
+					js_write(file, 'execute unless data storage ssbrc:temp player.temp_data{skin:"' + skin + '"} run tellraw @s {"translate":"ssbrc.skin.' + skin + get_color_wrapper(fighter, skin) + '","clickEvent":{"action":"run_command","value":"/trigger menu set ' + str(n) + '"}}')
 				else:
-					js_write(file, 'execute unless data storage ssbrc:temp player.temp_data{skin:"' + skin + '"} run tellraw @s[advancements={ssbrc:fighter/' + fighter + '/' + skin + '=true}] {"translate":"ssbrc.skin.' + skin + '","color":"' + get_color(fighter, skin) + '","clickEvent":{"action":"run_command","value":"/trigger menu set ' + str(n) + '"}}')
-				js_write(file, 'execute if data storage ssbrc:temp player.temp_data{skin:"' + skin + '"} run tellraw @s [{"translate":"ssbrc.skin.' + skin + '","color":"' + get_color(fighter, skin) + '"},{"text":" ✔","color":"green"}]\n')
+					js_write(file, 'execute unless data storage ssbrc:temp player.temp_data{skin:"' + skin + '"} run tellraw @s[advancements={ssbrc:fighter/' + fighter + '/' + skin + '=true}] {"translate":"ssbrc.skin.' + skin + get_color_wrapper(fighter, skin) + '","clickEvent":{"action":"run_command","value":"/trigger menu set ' + str(n) + '"}}')
+				js_write(file, 'execute if data storage ssbrc:temp player.temp_data{skin:"' + skin + '"} run tellraw @s ["",{"translate":"ssbrc.skin.' + skin + get_color_wrapper(fighter, skin) + '"},{"text":" ✔","color":"green"}]\n')
 				n += 1
 
 		js_write(file, 'function ssbrc:logic/fighter/menu/skin_options')
@@ -186,11 +186,11 @@ def skin_triggers(fighter, path):
 
 		if fighter == 'byleth':
 			for skin in chain(['default', 'gold'], ssbrc.fighter[fighter]['skin']):
-				js_write(file, 'execute if score @s menu matches ' + str(n) + ' run return run function ' + 'ssbrc:fighter/' + fighter + '/menu/skin {fighter:"' + fighter + '",skin:"' + skin + '",color:"' + get_color(fighter, skin) + '",gender:"female"}')
-				js_write(file, 'execute if score @s menu matches ' + str(n + 1) + ' run return run function ' + 'ssbrc:fighter/' + fighter + '/menu/skin {fighter:"' + fighter + '",skin:"' + skin + '",color:"' + get_color(fighter, skin) + '",gender:"male"}')
+				js_write(file, 'execute if score @s menu matches ' + str(n) + ' run return run function ' + 'ssbrc:fighter/' + fighter + '/menu/skin {fighter:"' + fighter + '",skin:"' + skin + get_color_wrapper(fighter, skin) + '",gender:"female"}')
+				js_write(file, 'execute if score @s menu matches ' + str(n + 1) + ' run return run function ' + 'ssbrc:fighter/' + fighter + '/menu/skin {fighter:"' + fighter + '",skin:"' + skin + get_color_wrapper(fighter, skin) + '",gender:"male"}')
 				n += 2
 
 		else:
 			for skin in chain(['default', 'gold'], ssbrc.fighter[fighter]['skin']):
-				js_write(file, 'execute if score @s menu matches ' + str(n) + ' run return run function ' + 'ssbrc:logic/fighter/select_skin {fighter:"' + fighter + '",skin:"' + skin + '",color:"' + get_color(fighter, skin) + '"}')
+				js_write(file, 'execute if score @s menu matches ' + str(n) + ' run return run function ' + 'ssbrc:logic/fighter/select_skin {fighter:"' + fighter + '",skin:"' + skin + get_color_wrapper(fighter, skin) + '"}')
 				n += 1

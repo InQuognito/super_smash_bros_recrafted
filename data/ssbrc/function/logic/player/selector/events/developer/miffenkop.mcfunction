@@ -1,1 +1,1 @@
-tellraw @s [{"translate":"ssbrc.lobby.credits.developer_bio.miffenkop","color":"white"},{"translate":"ssbrc.lobby.credits.developer_bio.x_link","color":"dark_gray","clickEvent":{"action":"open_url","value":"https://x.com/MiffenKop"}}]
+tellraw @s ["",{"translate":"ssbrc.lobby.credits.developer_bio.miffenkop"},{"translate":"ssbrc.lobby.credits.developer_bio.x_link","color":"dark_gray","clickEvent":{"action":"open_url","value":"https://x.com/MiffenKop"}}]

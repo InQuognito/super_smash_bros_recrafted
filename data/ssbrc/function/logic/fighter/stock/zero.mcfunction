@@ -1,4 +1,4 @@
-tellraw @a[predicate=ssbrc:ingame] [{"selector":"@s"},{"translate":"ssbrc.game.out","bold":false,"color":"red"}]
+tellraw @a[predicate=ssbrc:ingame] ["",{"selector":"@s"},{"translate":"ssbrc.game.out","color":"red"}]
 tag @s remove alive
 team join dead
 scoreboard players reset @s stocks

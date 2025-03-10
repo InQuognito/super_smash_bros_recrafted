@@ -1,4 +1,4 @@
-tellraw @a [{"translate":"Debug Mode: ","color":"white"},{"translate":"DISABLED","color":"green"}]
+tellraw @a ["Debug Mode: ",{"text":"DISABLED","color":"green"}]
 
 scoreboard players set debug options 0
 

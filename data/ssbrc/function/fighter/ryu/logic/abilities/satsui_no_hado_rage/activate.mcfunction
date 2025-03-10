@@ -14,7 +14,7 @@ function ssbrc:logic/player/data/temp/set {mode:"store",key:"form",value:"evil"}
 
 function ssbrc:logic/fighter/armor/update/check
 
-item modify entity @s armor.legs {"function":"minecraft:set_lore","entity":"this","lore":[{"translate":"ssbrc.fighter.ryu.ashura_senku","color":"yellow","bold":false,"italic":false,"underlined":true},{"translate":"ssbrc.tooltip.hold_key","color":"gray","bold":false,"italic":false,"extra":[{"keybind":"key.sneak","color":"gray","bold":false,"italic":false},{"translate":"ssbrc.fighter.ryu.ashura_senku.description.1","color":"gray","bold":false,"italic":false}]}],"mode":"append"}
+item modify entity @s armor.legs {"function":"minecraft:set_lore","entity":"this","lore":[{"translate":"ssbrc.fighter.ryu.ashura_senku","color":"yellow","italic":false,"underlined":true},{"translate":"ssbrc.tooltip.hold_key","color":"gray","italic":false,"extra":[{"keybind":"key.sneak","color":"gray","italic":false},{"translate":"ssbrc.fighter.ryu.ashura_senku.description.1","color":"gray","italic":false}]}],"mode":"append"}
 
 playsound ssbrc:fighter.ryu.satsui_no_hado_rage.activate player @a
 
