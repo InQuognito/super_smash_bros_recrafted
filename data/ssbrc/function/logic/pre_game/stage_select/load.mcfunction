@@ -5,8 +5,9 @@ execute positioned -528.5 6.75 -1939.5 run kill @n[type=minecraft:text_display,t
 place template ssbrc:stage_diorama/random -48 8 35
 
 function ssbrc:logic/stage/loop {operation:"function ssbrc:logic/pre_game/stage_select/vote_counter/init"}
+function ssbrc:logic/pre_game/stage_select/vote_counter/init {name:"random_stage"}
 
-execute summon minecraft:text_display run function ssbrc:logic/pre_game/stage_select/vote_counter/init {name:"random_stage"}
+scoreboard players set @e[type=minecraft:text_display,tag=vote_counter,distance=..0.01] stage_vote 0
 
 execute positioned -27.5 8.5 11.5 rotated 90.0 0.0 run function ssbrc:logic/pre_game/stage_select/featured/start
 
