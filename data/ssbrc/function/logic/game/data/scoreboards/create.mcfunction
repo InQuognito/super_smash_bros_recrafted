@@ -89,6 +89,7 @@ scoreboard objectives add pos_z dummy
 scoreboard objectives add prev_pos_x dummy
 scoreboard objectives add prev_pos_y dummy
 scoreboard objectives add prev_pos_z dummy
+scoreboard objectives add quitter dummy
 scoreboard objectives add ray.max dummy
 scoreboard objectives add ray.min dummy
 scoreboard objectives add ray.ticks dummy

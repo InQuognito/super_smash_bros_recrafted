@@ -4,7 +4,7 @@ execute positioned -528.5 6.75 -1939.5 run kill @n[type=minecraft:text_display,t
 # Blank Diorama
 place template ssbrc:stage_diorama/random -48 8 35
 
-function ssbrc:logic/stage/loop {operation:"execute summon minecraft:text_display run function ssbrc:logic/pre_game/stage_select/vote_counter/init"}
+function ssbrc:logic/stage/loop {operation:"function ssbrc:logic/pre_game/stage_select/vote_counter/init"}
 
 execute summon minecraft:text_display run function ssbrc:logic/pre_game/stage_select/vote_counter/init {name:"random_stage"}
 

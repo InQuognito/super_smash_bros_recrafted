@@ -89,6 +89,7 @@ scoreboard objectives remove pos_z
 scoreboard objectives remove prev_pos_x
 scoreboard objectives remove prev_pos_y
 scoreboard objectives remove prev_pos_z
+scoreboard objectives remove quitter
 scoreboard objectives remove ray.max
 scoreboard objectives remove ray.min
 scoreboard objectives remove ray.ticks

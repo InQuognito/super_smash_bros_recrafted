@@ -19,8 +19,7 @@ data modify storage ssbrc:bonuses value append value '{"text":"===============",
 
 function ssbrc:logic/bonuses/loop {function:"ssbrc:logic/post_game/bonuses/calculate"}
 
-execute if score @s quitter matches 1.. run data modify storage ssbrc:bonuses value append value '["",{"translate":"ssbrc.game.bonus.quitter","bold":true,"color":"gold"}," - ",{"translate":"ssbrc.game.bonus.quitter.warn","color":"red"}]'
-execute if score @s quitter matches 1.. run scoreboard players set @s stats.credits.temp 0
+execute if score @s quitter matches 1.. run function ssbrc:logic/post_game/bonuses/quitter
 
 tag @s remove ended_early
 

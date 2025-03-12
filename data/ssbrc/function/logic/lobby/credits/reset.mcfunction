@@ -63,5 +63,80 @@ summon minecraft:text_display -536.0 -4.5 -1939.1 {Tags:["credits_text"],text:'[
 # Special Thanks
 summon minecraft:text_display -534.5 -1.5 -1949.9 {Tags:["credits_text"],text:'{"translate":"ssbrc.credits.special_thanks","bold":true,"color":"yellow"}',background:0,alignment:"center"}
 
-summon minecraft:text_display -537.0 -4.75 -1949.9 {Tags:["credits_text"],text:'["",{"text":"MCC Discord\\n"},{"text":"So much. Thank you ♡\\n\\n","color":"gray"},{"text":"Cobblemon\\n"},{"text":"Pokémon Assets\\n\\n","color":"gray"},{"text":"DawnKiro\\n"},{"text":"Shaders\\n\\n","color":"gray"},{"text":"Simplly\\n"},{"text":"Lobby","color":"gray"}]',background:0,alignment:"center"}
-summon minecraft:text_display -532.0 -4.75 -1949.9 {Tags:["credits_text"],text:'["",{"text":"Sushironi\\n"},{"text":"Various Contributions\\n\\n","color":"gray"},{"text":"Misc Building\\n"},{"text":"Mongoose1716\\nLIL_BOI_BLU\\n\\n","color":"gray"},{"text":"ComicalFont\\n"},{"text":"Dream Land\\n\\n","color":"gray"},{"text":"Kill3rCreeper\\n"},{"text":"Samus Skins","color":"gray"}]',background:0,alignment:"center"}
+summon minecraft:text_display -537.5 -4.75 -1949.9 { \
+	Tags: [ \
+		"credits_text" \
+	], \
+	text:'[ \
+		"", \
+		"MCC Discord\\n", \
+		{ \
+			"text": "So much. Thank you ♡\\n\\n", \
+			"color": "gray" \
+		}, \
+		"Cobblemon\\n", \
+		{ \
+			"text": "Pokémon Assets\\n\\n", \
+			"color": "gray" \
+		}, \
+		"DawnKiro\\n", \
+		{ \
+			"text": "Shaders\\n\\n", \
+			"color": "gray" \
+		} \
+	]', \
+	background: 0, \
+	alignment: "center" \
+}
+
+summon minecraft:text_display -534.5 -4.75 -1949.9 { \
+	Tags: [ \
+		"credits_text" \
+	], \
+	text:'[ \
+		"", \
+		"Simplly\\n", \
+		{ \
+			"text": "Lobby\\n\\n", \
+			"color": "gray" \
+		}, \
+		"Xanbelor\\n", \
+		{ \
+			"text": "VFX Artist\\n\\n", \
+			"color": "gray" \
+		}, \
+		"Sushironi\\n", \
+		{ \
+			"text": "Various\\n\\n", \
+			"color": "gray" \
+		} \
+	]', \
+	background: 0, \
+	alignment: "center" \
+}
+
+summon minecraft:text_display -531.5 -4.75 -1949.9 { \
+	Tags: [ \
+		"credits_text" \
+	], \
+	text:'[ \
+		"", \
+		"Misc. Building\\n", \
+		{ \
+			"text": "Mongoose1716\\nLIL_BOI_BLU\\n\\n", \
+			"color": "gray" \
+		}, \
+		"ComicalFont\\n", \
+		{ \
+			"text": "Dream Land\\n\\n", \
+			"color": "gray" \
+		}, \
+		"Kill3rCreeper\\n", \
+		{ \
+			"text": "Samus Skins\\n\\n", \
+			"color": "gray" \
+		} \
+	]', \
+	background: 0, \
+	alignment: "center" \
+}
