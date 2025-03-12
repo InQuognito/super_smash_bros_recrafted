@@ -47,8 +47,8 @@ execute if score @s fall_distance matches 1.. run function ssbrc:logic/fighter/s
 scoreboard players reset in_electric_terrain temp
 
 # Combo
-scoreboard players remove @s[scores={combo.duration=-4..}] combo.duration 1
-execute if score @s combo.duration matches ..-5 run function ssbrc:logic/fighter/combo/expire
+execute unless score @s combo.duration < combo.threshold const run scoreboard players remove @s combo.duration 1
+execute if score @s combo.duration < combo.threshold const run function ssbrc:logic/fighter/combo/expire
 
 # HUD
 scoreboard players add @s hud 1

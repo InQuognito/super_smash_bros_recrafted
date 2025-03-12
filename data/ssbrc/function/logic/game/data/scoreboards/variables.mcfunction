@@ -3,6 +3,7 @@ scoreboard players set quick_start const 10
 scoreboard players set selector_range const 20
 
 # Misc
+scoreboard players set combo.threshold const -15
 scoreboard players set frostbite.timer const 100
 scoreboard players set fall_distance.low const 500
 scoreboard players set fall_distance.medium const 800
