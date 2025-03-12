@@ -11,7 +11,7 @@ teleport @s[scores={temp=101..150}] ^ ^ ^0.25 ~-3 ~
 teleport @s[scores={temp=151..250}] ^ ^ ^0.25 ~ ~
 
 execute if score @s temp matches 251 facing entity @r[predicate=ssbrc:player] eyes run rotate @s ~ 0.0
-execute if score @s temp matches 252..330 positioned ^ ^5 ^3 run function ssbrc:stage/lake_of_rage/logic/pokemon/gyarados/hyper_beam/tick
+execute if score @s temp matches 252..330 positioned ^ ^4.25 ^3.5 run function ssbrc:stage/lake_of_rage/logic/pokemon/gyarados/hyper_beam/tick
 
 teleport @s[scores={temp=371}] ~ ~ ~ 30.0 0.0
 teleport @s[scores={temp=372..470}] ^ ^ ^0.25

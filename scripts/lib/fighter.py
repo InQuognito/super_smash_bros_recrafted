@@ -153,7 +153,7 @@ def skin_options(fighter, path):
 	with open(path + 'options.mcfunction', 'w', encoding='utf-8') as file:
 		warn_builder(file)
 
-		js_write(file, 'tellraw @s ["","=== ",{"translate":"ssbrc.fighter.menu.choose_skin","bold":true,"color":"yellow"}," ==="]\n')
+		js_write(file, 'tellraw @s ["=== ",{"translate":"ssbrc.fighter.menu.choose_skin","bold":true,"color":"yellow"}," ==="]\n')
 
 		js_write(file, 'function ssbrc:logic/player/data/temp/copy/check\n')
 

@@ -89,6 +89,9 @@ scoreboard objectives add pos_z dummy
 scoreboard objectives add prev_pos_x dummy
 scoreboard objectives add prev_pos_y dummy
 scoreboard objectives add prev_pos_z dummy
+scoreboard objectives add ray.max dummy
+scoreboard objectives add ray.min dummy
+scoreboard objectives add ray.ticks dummy
 scoreboard objectives add raycast dummy
 scoreboard objectives add raycast_success dummy
 scoreboard objectives add reflect dummy
@@ -101,6 +104,7 @@ scoreboard objectives add rotationX.prev dummy
 scoreboard objectives add rotationY dummy
 scoreboard objectives add rotationY.prev dummy
 scoreboard objectives add sandbag.stand_on dummy
+scoreboard objectives add ssbrc.vfx_type dummy
 scoreboard objectives add selected_item dummy
 scoreboard objectives add selected_item.prev dummy
 scoreboard objectives add shadow.chaos_control dummy

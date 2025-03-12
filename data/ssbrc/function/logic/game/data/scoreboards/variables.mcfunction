@@ -7,7 +7,7 @@ scoreboard players set frostbite.timer const 100
 scoreboard players set fall_distance.low const 500
 scoreboard players set fall_distance.medium const 800
 scoreboard players set fall_distance.high const 1100
-scoreboard players set hud_frequency const 20
+scoreboard players set hud_frequency const 30
 
 # Fighters
 scoreboard players set altered_beast.spirit.max const 100000

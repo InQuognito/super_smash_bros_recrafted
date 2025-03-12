@@ -5,6 +5,8 @@ execute as @a at @s run function ssbrc:logic/game/player/tick
 execute as @e[predicate=ssbrc:target] at @s run function ssbrc:logic/game/target/tick
 kill @e[type=#minecraft:arrows,nbt={inGround:1b}]
 
+execute as @e[type=minecraft:marker,tag=ssbrc.vfx] at @s run function ssbrc:logic/vfx/markers/tick
+
 function ssbrc:logic/fighter/post_checks
 
 scoreboard players reset entity_hit temp

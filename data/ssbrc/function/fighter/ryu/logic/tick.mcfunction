@@ -1,4 +1,4 @@
-function ssbrc:logic/item/cooldown/decrease {item:"collarbone_breaker"}
+function ssbrc:logic/item/cooldown/decrease_all {item:"collarbone_breaker"}
 
 # Tatsumaki Senpukyaku
 scoreboard players add @s[predicate=ssbrc:flag/sneaking] charge.2 1

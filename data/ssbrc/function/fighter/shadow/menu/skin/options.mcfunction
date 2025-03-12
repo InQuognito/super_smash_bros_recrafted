@@ -1,6 +1,6 @@
 # This file is controlled by the build script. Changes should be made in the respective file.
 
-tellraw @s ["","=== ",{"translate":"ssbrc.fighter.menu.choose_skin","bold":true,"color":"yellow"}," ==="]
+tellraw @s ["=== ",{"translate":"ssbrc.fighter.menu.choose_skin","bold":true,"color":"yellow"}," ==="]
 
 function ssbrc:logic/player/data/temp/copy/check
 

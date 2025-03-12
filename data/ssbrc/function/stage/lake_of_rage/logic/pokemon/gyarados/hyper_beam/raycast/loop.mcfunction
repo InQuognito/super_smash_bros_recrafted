@@ -1,7 +1,6 @@
 particle minecraft:dust_color_transition{from_color:[1.0,0.0,0.0],to_color:[1.0,0.9,0.0],scale:3.0} ~ ~ ~ 0.15 0.15 0.15 0.0 3 force @a
 
 scoreboard players add rings temp 1
-#execute if score rings temp matches 10.. run function ssbrc:logic/vfx/energy_ring
 
 execute unless block ~ ~ ~ #ssbrc:passthrough run scoreboard players set ray_length temp 1
 

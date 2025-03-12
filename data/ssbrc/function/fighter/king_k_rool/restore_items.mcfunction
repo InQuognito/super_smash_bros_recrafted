@@ -1,3 +1,3 @@
 scoreboard players set @s charge.1 0
 
-scoreboard players set @s duration.1 2
+function ssbrc:fighter/king_k_rool/logic/abilities/adaptive_armor/activate

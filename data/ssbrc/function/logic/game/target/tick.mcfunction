@@ -1,5 +1,3 @@
-scoreboard players remove @s[tag=hitbox,scores={cooldown=1..}] cooldown 1
-
 execute if score @s burning matches 1.. run function ssbrc:logic/fighter/effects/burning/tick
 
 execute if entity @s[predicate=ssbrc:fighter/effects/has/poison] run particle minecraft:dust{color:[0.0,1.0,0.0],scale:0.5} ~ ~0.75 ~ 0.2 0.4 0.2 0.0 1 normal @a

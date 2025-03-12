@@ -89,6 +89,9 @@ scoreboard objectives remove pos_z
 scoreboard objectives remove prev_pos_x
 scoreboard objectives remove prev_pos_y
 scoreboard objectives remove prev_pos_z
+scoreboard objectives remove ray.max
+scoreboard objectives remove ray.min
+scoreboard objectives remove ray.ticks
 scoreboard objectives remove raycast
 scoreboard objectives remove raycast_success
 scoreboard objectives remove reflect
@@ -97,6 +100,7 @@ scoreboard objectives remove resource
 scoreboard objectives remove respawn
 scoreboard objectives remove rotation
 scoreboard objectives remove sandbag.stand_on
+scoreboard objectives remove ssbrc.vfx_type
 scoreboard objectives remove selected_item
 scoreboard objectives remove selected_item.prev
 scoreboard objectives remove shadow.chaos_control
