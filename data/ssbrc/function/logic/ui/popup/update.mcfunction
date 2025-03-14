@@ -28,7 +28,5 @@ function ssbrc:logic/ui/popup/fighter {name:"sora"}
 
 function ssbrc:logic/ui/popup/fighter {name:"zelda"}
 
-bossbar set ssbrc:ui/popup/tutorial/default players @a[tag=!ingame,advancements={ssbrc:tutorial/intro/1=true,ssbrc:tutorial/intro/3=false}]
-bossbar set ssbrc:ui/popup/tutorial/complete players @a[tag=!ingame,advancements={ssbrc:tutorial/intro/3=true},scores={popup_timer=1..80}]
-
-tag @a remove ingame
+bossbar set ssbrc:ui/popup/tutorial/default players @a[predicate=!ssbrc:player,advancements={ssbrc:tutorial/intro/1=true,ssbrc:tutorial/intro/3=false}]
+bossbar set ssbrc:ui/popup/tutorial/complete players @a[predicate=!ssbrc:player,tag=!ingame,advancements={ssbrc:tutorial/intro/3=true},scores={popup_timer=1..80}]
