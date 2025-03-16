@@ -1,0 +1,32 @@
+{
+	"description": "Obsidian",
+	"supported_items": "#ssbrc:equipment",
+	"weight": 1,
+	"max_level": 25,
+	"min_cost": {
+		"base": 1,
+		"per_level_above_first": 1
+	},
+	"max_cost": {
+		"base": 1,
+		"per_level_above_first": 1
+	},
+	"anvil_cost": 0,
+	"slots": [
+		"mainhand"
+	],
+	"effects": {
+		"minecraft:attributes": [
+			{
+				"id": "ssbrc:fighter/zelda/obsidian",
+				"attribute": "minecraft:attack_damage",
+				"amount": {
+					"type": "minecraft:linear",
+					"base": -0.2,
+					"per_level_above_first": 0.05
+				},
+				"operation": "add_value"
+			}
+		]
+	}
+}

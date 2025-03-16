@@ -1,0 +1,99 @@
+{
+	"type": "minecraft:command",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:stick",
+					"functions": [
+						{
+							"function": "minecraft:reference",
+							"name": "ssbrc:init/tooltip/ability/melee"
+						},
+						{
+							"function": "minecraft:reference",
+							"name": "ssbrc:init/ability/charge"
+						},
+						{
+							"function": "minecraft:set_components",
+							"components": {
+								"minecraft:weapon": {
+									"item_damage_per_attack": 1
+								},
+								"minecraft:attribute_modifiers": [
+									{
+										"type": "minecraft:attack_damage",
+										"id": "ssbrc:attack_damage",
+										"amount": 3,
+										"operation": "add_multiplied_base",
+										"slot": "mainhand"
+									},
+									{
+										"type": "minecraft:attack_speed",
+										"id": "ssbrc:attack_speed",
+										"amount": 4,
+										"operation": "add_multiplied_base",
+										"slot": "mainhand"
+									}
+								],
+								"minecraft:enchantments": {
+									"ssbrc:fighter/byleth/areadbhar": 1
+								},
+								"minecraft:max_damage": 20
+							}
+						},
+						{
+							"function": "minecraft:set_lore",
+							"entity": "this",
+							"lore": [
+								{
+									"text": "- [",
+									"color": "gray",
+									"bold": false,
+									"italic": false,
+									"extra": [
+										{
+											"keybind": "key.sneak",
+											"color": "gray",
+											"bold": false,
+											"italic": false
+										},
+										{
+											"text": "] + [",
+											"color": "gray",
+											"bold": false,
+											"italic": false
+										},
+										{
+											"keybind": "key.use",
+											"color": "gray",
+											"bold": false,
+											"italic": false
+										},
+										{
+											"translate": "ssbrc.fighter.byleth.blue_lions.areadbhar.description.1",
+											"color": "gray",
+											"bold": false,
+											"italic": false
+										}
+									]
+								}
+							],
+							"mode": "append"
+						},
+						{
+							"function": "minecraft:reference",
+							"name": "ssbrc:fighter/byleth/blue_lions/areadbhar/default"
+						},
+						{
+							"function": "minecraft:set_custom_data",
+							"tag": "{item:\"areadbhar\",path:\"byleth/logic/blue_lions/spin_attack/activate/check\",damage:3}"
+						}
+					]
+				}
+			]
+		}
+	]
+}

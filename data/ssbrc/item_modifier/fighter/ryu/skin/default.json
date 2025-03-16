@@ -1,0 +1,18 @@
+[
+	{
+		"function": "minecraft:set_name",
+		"entity": "this",
+		"target": "item_name",
+		"name": {
+			"translate": "ssbrc.fighter.ryu",
+			"color": "white",
+			"bold": true
+		}
+	},
+	{
+		"function": "minecraft:set_components",
+		"components": {
+			"minecraft:item_model": "ssbrc:fighter/ryu/skin/default/default"
+		}
+	}
+]

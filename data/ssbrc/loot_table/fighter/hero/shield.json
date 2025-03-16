@@ -1,0 +1,36 @@
+{
+	"type": "minecraft:command",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:stick",
+					"functions": [
+						{
+							"function": "minecraft:set_components",
+							"components": {
+								"minecraft:blocks_attacks": {
+									"block_delay_seconds": 0.0,
+									"block_sound": "minecraft:item.shield.block",
+									"disabled_sound": "minecraft:item.shield.break"
+								},
+								"minecraft:max_damage": 30,
+								"minecraft:item_model": "minecraft:shield"
+							}
+						},
+						{
+							"function": "minecraft:reference",
+							"name": "ssbrc:init/preset/defensive"
+						},
+						{
+							"function": "minecraft:set_custom_data",
+							"tag": "{item:\"hero.shield\"}"
+						}
+					]
+				}
+			]
+		}
+	]
+}

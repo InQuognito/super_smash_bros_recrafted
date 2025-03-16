@@ -1,0 +1,102 @@
+[
+	{
+		"function": "minecraft:set_components",
+		"components": {
+			"minecraft:item_model": "ssbrc:fighter/zelda/item/great_fairy_blessing/5"
+		},
+		"conditions": [
+			{
+				"condition": "minecraft:value_check",
+				"value": {
+					"type": "minecraft:score",
+					"target": {
+						"type": "minecraft:fixed",
+						"name": "great_fairy_blessing.cost"
+					},
+					"score": "temp"
+				},
+				"range": 5
+			}
+		]
+	},
+	{
+		"function": "minecraft:set_components",
+		"components": {
+			"minecraft:item_model": "ssbrc:fighter/zelda/item/great_fairy_blessing/10"
+		},
+		"conditions": [
+			{
+				"condition": "minecraft:value_check",
+				"value": {
+					"type": "minecraft:score",
+					"target": {
+						"type": "minecraft:fixed",
+						"name": "great_fairy_blessing.cost"
+					},
+					"score": "temp"
+				},
+				"range": 10
+			}
+		]
+	},
+	{
+		"function": "minecraft:set_components",
+		"components": {
+			"minecraft:item_model": "ssbrc:fighter/zelda/item/great_fairy_blessing/15"
+		},
+		"conditions": [
+			{
+				"condition": "minecraft:value_check",
+				"value": {
+					"type": "minecraft:score",
+					"target": {
+						"type": "minecraft:fixed",
+						"name": "great_fairy_blessing.cost"
+					},
+					"score": "temp"
+				},
+				"range": 15
+			}
+		]
+	},
+	{
+		"function": "minecraft:set_components",
+		"components": {
+			"minecraft:item_model": "ssbrc:fighter/zelda/item/great_fairy_blessing/20"
+		},
+		"conditions": [
+			{
+				"condition": "minecraft:value_check",
+				"value": {
+					"type": "minecraft:score",
+					"target": {
+						"type": "minecraft:fixed",
+						"name": "great_fairy_blessing.cost"
+					},
+					"score": "temp"
+				},
+				"range": 20
+			}
+		]
+	},
+	{
+		"function": "minecraft:set_components",
+		"components": {
+			"minecraft:item_model": "ssbrc:fighter/zelda/item/great_fairy_blessing/25"
+		},
+		"conditions": [
+			{
+				"condition": "minecraft:value_check",
+				"value": {
+					"type": "minecraft:score",
+					"target": {
+						"type": "minecraft:fixed",
+						"name": "great_fairy_blessing.cost"
+					},
+					"score": "temp"
+				},
+				"range": 25
+			}
+		]
+	}
+]

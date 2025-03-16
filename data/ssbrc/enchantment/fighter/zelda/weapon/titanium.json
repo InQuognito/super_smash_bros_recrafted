@@ -1,0 +1,34 @@
+{
+	"description": "Titanium",
+	"supported_items": "#ssbrc:equipment",
+	"weight": 1,
+	"max_level": 1,
+	"min_cost": {
+		"base": 1,
+		"per_level_above_first": 1
+	},
+	"max_cost": {
+		"base": 1,
+		"per_level_above_first": 1
+	},
+	"anvil_cost": 0,
+	"slots": [
+		"mainhand"
+	],
+	"effects": {
+		"minecraft:attributes": [
+			{
+				"id": "ssbrc:fighter/zelda/titanium/attack_damage",
+				"attribute": "minecraft:attack_damage",
+				"amount": 0.2,
+				"operation": "add_value"
+			},
+			{
+				"id": "ssbrc:fighter/zelda/titanium/attack_speed",
+				"attribute": "minecraft:attack_speed",
+				"amount": -0.1,
+				"operation": "add_value"
+			}
+		]
+	}
+}

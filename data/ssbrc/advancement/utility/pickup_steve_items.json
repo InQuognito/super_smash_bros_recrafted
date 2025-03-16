@@ -1,0 +1,48 @@
+{
+	"parent": "ssbrc:utility/root",
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:value_check",
+						"value": {
+							"type": "minecraft:score",
+							"target": {
+								"type": "minecraft:fixed",
+								"name": "game_stage"
+							},
+							"score": "temp"
+						},
+						"range": {
+							"min": 4
+						}
+					},
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"type_specific": {
+								"type": "minecraft:player",
+								"gamemode": [
+									"adventure"
+								]
+							}
+						}
+					}
+				],
+				"items": [
+					{
+						"predicates": {
+							"minecraft:custom_data": {"steve_item":true}
+						}
+					}
+				]
+			}
+		}
+	},
+	"rewards": {
+		"function": "ssbrc:fighter/steve/logic/item/pickup"
+	}
+}

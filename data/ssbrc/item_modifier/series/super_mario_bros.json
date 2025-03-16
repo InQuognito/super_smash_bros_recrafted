@@ -1,0 +1,13 @@
+{
+	"function": "minecraft:set_lore",
+	"entity": "this",
+	"lore": [
+		{
+			"translate": "ssbrc.series.super_mario_bros",
+			"color": "red",
+			"bold": false,
+			"italic": false
+		}
+	],
+	"mode": "append"
+}

@@ -1,0 +1,47 @@
+{
+	"parent": "ssbrc:utility/use_item/root",
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:using_item",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:reference",
+						"name": "ssbrc:universal_cooldown"
+					},
+					{
+						"condition": "minecraft:inverted",
+						"term": {
+							"condition": "minecraft:entity_properties",
+							"entity": "this",
+							"predicate": {
+								"nbt": "{Tags:[\"remote_mine\"]}"
+							}
+						}
+					},
+					{
+						"condition": "minecraft:entity_scores",
+						"entity": "this",
+						"scores": {
+							"mega_man.remote_mine": {
+								"min": 1
+							}
+						}
+					}
+				],
+				"item": {
+					"items": "#ssbrc:equipment",
+					"predicates": {
+						"minecraft:custom_data": "{item:\"remote_mine\"}",
+						"minecraft:damage": {
+							"damage": 0
+						}
+					}
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "ssbrc:fighter/mega_man/logic/abilities/remote_mine/activate"
+	}
+}

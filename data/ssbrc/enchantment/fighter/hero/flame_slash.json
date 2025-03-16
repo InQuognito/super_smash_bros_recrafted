@@ -1,0 +1,82 @@
+{
+	"description": "Flame Slash",
+	"supported_items": "#ssbrc:equipment",
+	"weight": 1,
+	"max_level": 1,
+	"min_cost": {
+		"base": 1,
+		"per_level_above_first": 1
+	},
+	"max_cost": {
+		"base": 1,
+		"per_level_above_first": 1
+	},
+	"anvil_cost": 0,
+	"slots": [
+		"mainhand"
+	],
+	"effects": {
+		"minecraft:post_attack": [
+			{
+				"enchanted": "attacker",
+				"affected": "victim",
+				"effect": {
+					"type": "minecraft:run_function",
+					"function": "ssbrc:logic/fighter/effects/wither"
+				},
+				"requirements": {
+					"condition": "minecraft:entity_scores",
+					"entity": "attacker",
+					"scores": {
+						"magic": {
+							"min": {
+								"type": "minecraft:score",
+								"target": {
+									"type": "minecraft:fixed",
+									"name": "hero.flame_slash.cost"
+								},
+								"score": "const"
+							}
+						}
+					}
+				}
+			},
+			{
+				"enchanted": "attacker",
+				"affected": "attacker",
+				"effect": {
+					"type": "minecraft:run_function",
+					"function": "ssbrc:fighter/hero/logic/abilities/flame_slash/activate"
+				},
+				"requirements": [
+					{
+						"condition": "minecraft:inverted",
+						"term": {
+							"condition": "minecraft:entity_properties",
+							"entity": "attacker",
+							"predicate": {
+								"nbt": "{Tags:[\"magic_lost\"]}"
+							}
+						}
+					},
+					{
+						"condition": "minecraft:entity_scores",
+						"entity": "attacker",
+						"scores": {
+							"magic": {
+								"min": {
+									"type": "minecraft:score",
+									"target": {
+										"type": "minecraft:fixed",
+										"name": "hero.flame_slash.cost"
+									},
+									"score": "const"
+								}
+							}
+						}
+					}
+				]
+			}
+		]
+	}
+}

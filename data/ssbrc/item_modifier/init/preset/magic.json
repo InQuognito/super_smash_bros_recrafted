@@ -1,0 +1,10 @@
+[
+	{
+		"function": "minecraft:reference",
+		"name": "ssbrc:init/tooltip/ability/magic"
+	},
+	{
+		"function": "minecraft:reference",
+		"name": "ssbrc:init/ability/stats"
+	}
+]

@@ -1,0 +1,13 @@
+{
+	"function": "minecraft:set_lore",
+	"entity": "this",
+	"lore": [
+		{
+			"translate": "ssbrc.series.the_legend_of_zelda",
+			"color": "yellow",
+			"bold": false,
+			"italic": false
+		}
+	],
+	"mode": "append"
+}

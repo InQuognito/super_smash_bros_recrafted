@@ -1,0 +1,18 @@
+[
+	{
+		"function": "minecraft:reference",
+		"name": "ssbrc:init/tooltip/item/activation"
+	},
+	{
+		"function": "minecraft:reference",
+		"name": "ssbrc:init/tooltip/activate"
+	},
+	{
+		"function": "minecraft:reference",
+		"name": "ssbrc:init/ability/default"
+	},
+	{
+		"function": "minecraft:reference",
+		"name": "ssbrc:init/ability/stats"
+	}
+]

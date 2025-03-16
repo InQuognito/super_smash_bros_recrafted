@@ -1,0 +1,48 @@
+{
+	"parent": "ssbrc:utility/use_item/root",
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:using_item",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:reference",
+						"name": "ssbrc:universal_cooldown"
+					},
+					{
+						"condition": "minecraft:entity_scores",
+						"entity": "this",
+						"scores": {
+							"magic": {
+								"min": {
+									"type": "minecraft:score",
+									"target": {
+										"type": "minecraft:fixed",
+										"name": "zelda.ice_rod.cost.alt"
+									},
+									"score": "const"
+								}
+							}
+						}
+					},
+					{
+						"condition": "minecraft:reference",
+						"name": "ssbrc:flag/sneaking"
+					}
+				],
+				"item": {
+					"items": "#ssbrc:equipment",
+					"predicates": {
+						"minecraft:custom_data": "{item:\"ice_rod\"}",
+						"minecraft:damage": {
+							"damage": 0
+						}
+					}
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "ssbrc:fighter/zelda/logic/abilities/ice_rod/alternate_function/activate"
+	}
+}

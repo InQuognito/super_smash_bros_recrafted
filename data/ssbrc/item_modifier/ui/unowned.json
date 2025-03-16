@@ -1,0 +1,14 @@
+[
+	{
+		"function": "minecraft:set_lore",
+		"entity": "this",
+		"lore": [
+			{
+				"translate": "ssbrc.fighter_select.unowned",
+				"color": "red",
+				"italic": false
+			}
+		],
+		"mode": "append"
+	}
+]

@@ -1,0 +1,34 @@
+{
+	"type": "minecraft:command",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:carrot_on_a_stick",
+					"functions": [
+						{
+							"function": "minecraft:reference",
+							"name": "ssbrc:fighter/sora/keyblades/init"
+						},
+						{
+							"function": "minecraft:reference",
+							"name": "ssbrc:fighter/sora/keyblades/strike_raid"
+						},
+						{
+							"function": "minecraft:set_components",
+							"components": {
+								"minecraft:item_model": "ssbrc:fighter/sora/item/keyblade/secondary"
+							}
+						},
+						{
+							"function": "minecraft:set_custom_data",
+							"tag": "{hand:\"secondary\"}"
+						}
+					]
+				}
+			]
+		}
+	]
+}

@@ -1,17 +1,25 @@
 {
 	"pack": {
-		"pack_format": 26,
+		"pack_format": 71,
 		"description": "Datapack for Super Smash Bros Re:Crafted, Made by InQuognito"
 	},
 	"filter": {
 		"block": [
 			{
 				"namespace": "minecraft",
-				"path": "recipes/.*"
+				"path": "recipe/.*"
 			},
 			{
 				"namespace": "minecraft",
-				"path": "advancements/.*"
+				"path": "advancement/.*"
+			}
+		]
+	},
+	"overlays": {
+		"entries": [
+			{
+				"directory": "animated_java",
+				"formats": 61
 			}
 		]
 	}

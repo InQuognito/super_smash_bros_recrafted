@@ -1,0 +1,62 @@
+{
+	"type": "minecraft:command",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:stick",
+					"functions": [
+						{
+							"function": "minecraft:set_components",
+							"components": {
+								"minecraft:weapon": {
+									"item_damage_per_attack": 0
+								},
+								"minecraft:attribute_modifiers": [
+									{
+										"type": "minecraft:attack_damage",
+										"id": "ssbrc:attack_damage",
+										"amount": 4,
+										"operation": "add_multiplied_base",
+										"slot": "mainhand"
+									},
+									{
+										"type": "minecraft:attack_speed",
+										"id": "ssbrc:attack_speed",
+										"amount": 3,
+										"operation": "add_multiplied_base",
+										"slot": "mainhand"
+									}
+								],
+								"minecraft:item_model": "ssbrc:fighter/snake/item/cqc_knife"
+							}
+						},
+						{
+							"function": "minecraft:reference",
+							"name": "ssbrc:init/preset/melee"
+						},
+						{
+							"function": "minecraft:set_lore",
+							"entity": "this",
+							"lore": [
+								{
+									"translate": "ssbrc.fighter.snake.cqc_knife.description.1",
+									"color": "gray",
+									"bold": false,
+									"italic": false
+								}
+							],
+							"mode": "append"
+						},
+						{
+							"function": "minecraft:set_custom_data",
+							"tag": "{item:\"cqc_knife\",damage:4}"
+						}
+					]
+				}
+			]
+		}
+	]
+}

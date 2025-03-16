@@ -1,0 +1,25 @@
+[
+	{
+		"function": "minecraft:reference",
+		"name": "ssbrc:init/tooltip/separator"
+	},
+	{
+		"function": "minecraft:reference",
+		"name": "ssbrc:init/ability/default"
+	},
+	{
+		"function": "minecraft:reference",
+		"name": "ssbrc:init/ability/stats"
+	},
+	{
+		"function": "minecraft:set_components",
+		"components": {
+			"minecraft:tooltip_display": {
+				"hidden_components": [
+					"minecraft:attribute_modifiers",
+					"minecraft:written_book_content"
+				]
+			}
+		}
+	}
+]

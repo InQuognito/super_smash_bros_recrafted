@@ -1,0 +1,42 @@
+{
+	"description": "Palutena Bow",
+	"supported_items": "minecraft:bow",
+	"weight": 1,
+	"max_level": 1,
+	"min_cost": {
+		"base": 1,
+		"per_level_above_first": 1
+	},
+	"max_cost": {
+		"base": 1,
+		"per_level_above_first": 1
+	},
+	"anvil_cost": 0,
+	"slots": [
+		"mainhand"
+	],
+	"effects": {
+		"minecraft:projectile_spawned": [
+			{
+				"effect": {
+					"type": "minecraft:run_function",
+					"function": "ssbrc:fighter/pit/logic/abilities/palutena_bow/init"
+				}
+			}
+		],
+		"minecraft:ammo_use": [
+			{
+				"effect": {
+					"type": "minecraft:set",
+					"value": 0.0
+				},
+				"requirements": {
+					"condition": "minecraft:match_tool",
+					"predicate": {
+						"items": "#minecraft:arrows"
+					}
+				}
+			}
+		]
+	}
+}

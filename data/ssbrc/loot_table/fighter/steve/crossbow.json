@@ -1,0 +1,41 @@
+{
+	"type": "minecraft:command",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:crossbow",
+					"functions": [
+						{
+							"function": "minecraft:set_name",
+							"entity": "this",
+							"name": {
+								"translate": "item.minecraft.crossbow",
+								"color": "white",
+								"bold": true,
+								"italic": false
+							}
+						},
+						{
+							"function": "minecraft:set_enchantments",
+							"enchantments": {
+								"minecraft:piercing": 1
+							},
+							"add": false
+						},
+						{
+							"function": "minecraft:reference",
+							"name": "ssbrc:init/preset/ranged_unbreakable"
+						},
+						{
+							"function": "minecraft:set_custom_data",
+							"tag": "{item:\"crossbow\"}"
+						}
+					]
+				}
+			]
+		}
+	]
+}

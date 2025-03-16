@@ -1,0 +1,31 @@
+{
+	"parent": "ssbrc:utility/root",
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"nbt": "{Tags:[\"destiny_bond\"]}"
+						}
+					},
+					{
+						"condition": "minecraft:entity_scores",
+						"entity": "this",
+						"scores": {
+							"duration.3": {
+								"min": 40
+							}
+						}
+					}
+				]
+			}
+		}
+	},
+	"rewards": {
+		"function": "ssbrc:fighter/team_rocket/logic/wobbuffet/destiny_bond/kill"
+	}
+}

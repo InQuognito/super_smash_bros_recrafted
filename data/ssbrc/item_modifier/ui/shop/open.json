@@ -1,0 +1,23 @@
+[
+	{
+		"function": "minecraft:reference",
+		"name": "ssbrc:ui/separator"
+	},
+	{
+		"function": "minecraft:set_lore",
+		"entity": "this",
+		"lore": [
+			{
+				"translate": "ssbrc.shop.browse_skins",
+				"color": "green",
+				"bold": false,
+				"italic": false
+			}
+		],
+		"mode": "append"
+	},
+	{
+		"function": "minecraft:reference",
+		"name": "ssbrc:ui/placeholder"
+	}
+]

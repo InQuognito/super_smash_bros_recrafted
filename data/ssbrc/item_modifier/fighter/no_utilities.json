@@ -1,0 +1,19 @@
+{
+	"function": "minecraft:set_lore",
+	"entity": "this",
+	"lore": [
+		{
+			"translate": "ssbrc.tooltip.no_abilities",
+			"color": "gray",
+			"bold": false,
+			"italic": false
+		},
+		{
+			"translate": "ssbrc.tooltip.no_utilities",
+			"color": "gray",
+			"bold": false,
+			"italic": false
+		}
+	],
+	"mode": "append"
+}

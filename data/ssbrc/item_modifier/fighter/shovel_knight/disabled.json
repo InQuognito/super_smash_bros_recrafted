@@ -1,0 +1,19 @@
+[
+	{
+		"function": "minecraft:set_lore",
+		"entity": "this",
+		"lore": [
+			{
+				"translate": "ssbrc.fighter.shovel_knight.relic_disabled",
+				"color": "red",
+				"bold": false,
+				"italic": false
+			}
+		],
+		"mode": "append"
+	},
+	{
+		"function": "minecraft:set_custom_data",
+		"tag": "{disabled:\"true\"}"
+	}
+]

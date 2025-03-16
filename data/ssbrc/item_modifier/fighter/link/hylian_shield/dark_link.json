@@ -1,0 +1,30 @@
+{
+	"function": "minecraft:set_banner_pattern",
+	"patterns": [
+		{
+			"pattern": "minecraft:base",
+			"color": "gray"
+		},
+		{
+			"pattern": "minecraft:flower",
+			"color": "red"
+		},
+		{
+			"pattern": "minecraft:half_horizontal",
+			"color": "gray"
+		},
+		{
+			"pattern": "minecraft:triangle_top",
+			"color": "yellow"
+		},
+		{
+			"pattern": "minecraft:stripe_top",
+			"color": "gray"
+		},
+		{
+			"pattern": "minecraft:curly_border",
+			"color": "black"
+		}
+	],
+	"append": false
+}

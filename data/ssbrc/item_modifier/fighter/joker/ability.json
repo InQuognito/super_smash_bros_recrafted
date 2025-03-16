@@ -1,0 +1,14 @@
+[
+	{
+		"function": "minecraft:reference",
+		"name": "ssbrc:init/ability/default"
+	},
+	{
+		"function": "minecraft:reference",
+		"name": "ssbrc:init/ability/stats"
+	},
+	{
+		"function": "minecraft:set_custom_data",
+		"tag": "{group:\"persona_awakening\"}"
+	}
+]

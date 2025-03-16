@@ -1,0 +1,26 @@
+{
+	"function": "minecraft:set_banner_pattern",
+	"patterns": [
+		{
+			"pattern": "minecraft:base",
+			"color": "white"
+		},
+		{
+			"pattern": "minecraft:flower",
+			"color": "yellow"
+		},
+		{
+			"pattern": "minecraft:skull",
+			"color": "yellow"
+		},
+		{
+			"pattern": "minecraft:circle",
+			"color": "gray"
+		},
+		{
+			"pattern": "minecraft:border",
+			"color": "yellow"
+		}
+	],
+	"append": false
+}

@@ -1,1 +1,0 @@
-tellraw @s [{"translate":"ssbrc.lobby.credits.developerBio.pxlsamosa","color":"white"},{"translate":"ssbrc.lobby.credits.developerBio.pxlsamosaLink","color":"red","clickEvent":{"action":"open_url","value":"https://pxlsamosa.github.io/portfolio/"}}]

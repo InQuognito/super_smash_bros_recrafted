@@ -1,0 +1,13 @@
+{
+	"function": "minecraft:set_lore",
+	"entity": "this",
+	"lore": [
+		{
+			"translate": "ssbrc.series.f_zero",
+			"color": "gray",
+			"bold": false,
+			"italic": false
+		}
+	],
+	"mode": "append"
+}

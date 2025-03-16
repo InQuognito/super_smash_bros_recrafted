@@ -1,0 +1,8 @@
+$item replace entity @s enderchest.$(slot) with minecraft:barrier
+$item modify entity @s enderchest.$(slot) {"function":"minecraft:reference","name":"ssbrc:fighter/$(name)/skin/$(skin)"}
+
+$execute if entity @s[advancements={ssbrc:fighter/$(name)/$(skin)=true}] run return run item modify entity @s enderchest.$(slot) [{"function":"minecraft:reference","name":"ssbrc:ui/shop/owned"},{"function":"minecraft:set_custom_data","tag":"{ui:{type:\"default\",navigation:\"$(path) with storage ssbrc:data fighter.$(name)\",sound:\"minecraft:ui.button.click master @s\"}}"}]
+
+$execute if score @s stats.credits >= $(price) const run return run item modify entity @s enderchest.$(slot) [{"function":"minecraft:set_lore","entity":"this","lore":[{"translate":"ssbrc.shop.price","color":"yellow","italic":false,"extra":[{"score":{"name":"$(price)","objective":"const"},"italic":false},{"text":"₡","color":"yellow"}]}],"mode":"append"},{"function":"minecraft:reference","name":"ssbrc:ui/shop/unowned"},{"function":"minecraft:set_custom_data","tag":"{ui:{type:\"skin\",navigation:\"shop/contents/skin/get\",fighter:\"$(name)\",skin:\"$(skin)\",price:\"$(price)\",sound:\"minecraft:ui.button.click master @s\"}}"}]
+
+$item modify entity @s enderchest.$(slot) [{"function":"minecraft:set_lore","entity":"this","lore":[{"translate":"ssbrc.shop.price","color":"yellow","italic":false,"extra":[{"score":{"name":"$(price)","objective":"const"},"italic":false},{"text":"₡","color":"yellow"}]}],"mode":"append"},{"function":"minecraft:reference","name":"ssbrc:ui/shop/cannot_afford"},{"function":"minecraft:set_custom_data","tag":"{ui:{type:\"default\",navigation:\"$(path) with storage ssbrc:data fighter.$(name)\",sound:\"minecraft:block.note_block.bass master @s ~ ~ ~ 1.0 0.5\"}}"}]

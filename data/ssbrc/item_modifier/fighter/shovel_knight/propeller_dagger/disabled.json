@@ -1,0 +1,22 @@
+[
+	{
+		"function": "minecraft:set_name",
+		"entity": "this",
+		"name": {
+			"translate": "ssbrc.fighter.shovel_knight.propeller_dagger",
+			"color": "gray",
+			"bold": true,
+			"italic": false
+		}
+	},
+	{
+		"function": "minecraft:set_components",
+		"components": {
+			"minecraft:item_model": "ssbrc:fighter/shovel_knight/item/propeller_dagger/disabled"
+		}
+	},
+	{
+		"function": "minecraft:reference",
+		"name": "ssbrc:fighter/shovel_knight/disabled"
+	}
+]

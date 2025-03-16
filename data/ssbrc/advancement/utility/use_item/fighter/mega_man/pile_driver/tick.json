@@ -1,0 +1,40 @@
+{
+	"parent": "ssbrc:utility/use_item/root",
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:using_item",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:reference",
+						"name": "ssbrc:universal_cooldown"
+					},
+					{
+						"condition": "minecraft:entity_scores",
+						"entity": "this",
+						"scores": {
+							"mega_man.pile_driver": {
+								"min": 1
+							},
+							"duration.2": {
+								"max": 0
+							}
+						}
+					}
+				],
+				"item": {
+					"items": "#ssbrc:equipment",
+					"predicates": {
+						"minecraft:custom_data": "{item:\"pile_driver\"}",
+						"minecraft:damage": {
+							"damage": 0
+						}
+					}
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "ssbrc:fighter/mega_man/logic/abilities/pile_driver/particle/raycast/start"
+	}
+}

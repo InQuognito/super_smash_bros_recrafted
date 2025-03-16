@@ -1,0 +1,129 @@
+{
+	"type": "minecraft:command",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:stick",
+					"functions": [
+						{
+							"function": "minecraft:reference",
+							"name": "ssbrc:init/tooltip/ability/melee"
+						},
+						{
+							"function": "minecraft:set_components",
+							"components": {
+								"minecraft:weapon": {
+									"item_damage_per_attack": 1,
+									"disable_blocking_for_seconds": 5.0
+								},
+								"minecraft:attribute_modifiers": [
+									{
+										"type": "minecraft:attack_damage",
+										"id": "ssbrc:attack_damage",
+										"amount": 9,
+										"operation": "add_multiplied_base",
+										"slot": "mainhand"
+									},
+									{
+										"type": "minecraft:attack_speed",
+										"id": "ssbrc:attack_speed",
+										"amount": 0.5,
+										"operation": "add_multiplied_base",
+										"slot": "mainhand"
+									}
+								],
+								"minecraft:enchantments": {
+									"ssbrc:fighter/byleth/aymr": 1
+								},
+								"minecraft:max_damage": 16,
+								"minecraft:item_model": "ssbrc:fighter/byleth/item/aymr/default"
+							}
+						},
+						{
+							"function": "minecraft:set_lore",
+							"entity": "this",
+							"lore": [
+								{
+									"translate": "ssbrc.tooltip.hold_key",
+									"color": "gray",
+									"bold": false,
+									"italic": false,
+									"extra": [
+										{
+											"keybind": "key.sneak",
+											"color": "gray",
+											"bold": false,
+											"italic": false
+										},
+										{
+											"text": "] + [",
+											"color": "gray",
+											"bold": false,
+											"italic": false
+										},
+										{
+											"keybind": "key.use",
+											"color": "gray",
+											"bold": false,
+											"italic": false
+										},
+										{
+											"translate": "ssbrc.fighter.byleth.black_eagles.aymr.description.1",
+											"color": "gray",
+											"bold": false,
+											"italic": false
+										}
+									]
+								},
+								{
+									"text": "- [",
+									"color": "gray",
+									"bold": false,
+									"italic": false,
+									"extra": [
+										{
+											"keybind": "key.sneak",
+											"color": "gray",
+											"bold": false,
+											"italic": false
+										},
+										{
+											"text": "] + [",
+											"color": "gray",
+											"bold": false,
+											"italic": false
+										},
+										{
+											"keybind": "key.use",
+											"color": "gray",
+											"bold": false,
+											"italic": false
+										},
+										{
+											"translate": "ssbrc.fighter.byleth.black_eagles.aymr.description.2",
+											"color": "gray",
+											"bold": false,
+											"italic": false
+										}
+									]
+								}
+							],
+							"mode": "append"
+						},
+						{
+							"function": "minecraft:reference",
+							"name": "ssbrc:fighter/byleth/black_eagles/aymr/default"
+						},
+						{
+							"function": "minecraft:set_custom_data",
+							"tag": "{item:\"aymr\",damage:9}"
+						}
+					]
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,14 @@
+[
+	{
+		"function": "minecraft:set_components",
+		"components": {
+			"minecraft:tooltip_display": {
+				"hide_tooltip": true
+			}
+		}
+	},
+	{
+		"function": "minecraft:reference",
+		"name": "ssbrc:ui/placeholder"
+	}
+]

@@ -1,0 +1,41 @@
+[
+	{
+		"function": "minecraft:set_lore",
+		"entity": "this",
+		"lore": [
+			{
+				"text": "- [",
+				"color": "gray",
+				"bold": false,
+				"italic": false,
+				"extra": [
+					{
+						"keybind": "key.sneak",
+						"color": "gray",
+						"bold": false,
+						"italic": false
+					},
+					{
+						"text": "] + [",
+						"color": "gray",
+						"bold": false,
+						"italic": false
+					},
+					{
+						"keybind": "key.use",
+						"color": "gray",
+						"bold": false,
+						"italic": false
+					},
+					{
+						"translate": "ssbrc.fighter.cloud.change_modes",
+						"color": "gray",
+						"bold": false,
+						"italic": false
+					}
+				]
+			}
+		],
+		"mode": "append"
+	}
+]

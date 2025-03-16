@@ -1,0 +1,31 @@
+[
+	{
+		"function": "minecraft:set_lore",
+		"entity": "this",
+		"lore": [
+			{
+				"translate": "ssbrc.fighter.zelda.weapon.enchant.obsidian.description.1",
+				"color": "gray",
+				"bold": false,
+				"italic": false
+			}
+		],
+		"mode": "append"
+	},
+	{
+		"function": "minecraft:set_components",
+		"components": {
+			"minecraft:enchantments": {
+				"ssbrc:fighter/zelda/weapon/obsidian": 1
+			}
+		}
+	},
+	{
+		"function": "minecraft:reference",
+		"name": "ssbrc:init/preset/melee"
+	},
+	{
+		"function": "minecraft:set_custom_data",
+		"tag": "{enchanted:\"true\",enchantment:\"obsidian\"}"
+	}
+]

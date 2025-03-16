@@ -1,0 +1,10 @@
+[
+	{
+		"function": "minecraft:reference",
+		"name": "ssbrc:init/ability/cooldown"
+	},
+	{
+		"function": "minecraft:reference",
+		"name": "ssbrc:init/ability/enable"
+	}
+]

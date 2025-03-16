@@ -1,0 +1,14 @@
+[
+	{
+		"function": "minecraft:reference",
+		"name": "ssbrc:fighter/zelda/dungeon_item"
+	},
+	{
+		"function": "minecraft:reference",
+		"name": "ssbrc:init/preset/magic"
+	},
+	{
+		"function": "minecraft:reference",
+		"name": "ssbrc:init/unbreakable"
+	}
+]

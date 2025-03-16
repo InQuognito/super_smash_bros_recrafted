@@ -1,0 +1,23 @@
+{
+	"parent": "ssbrc:utility/root",
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:player_hurt_entity",
+			"conditions": {
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"targeted_entity": {
+								"distance": {
+									"absolute": 30
+								}
+							}
+						}
+					}
+				]
+			}
+		}
+	}
+}

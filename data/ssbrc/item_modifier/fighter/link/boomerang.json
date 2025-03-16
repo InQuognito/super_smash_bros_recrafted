@@ -1,0 +1,10 @@
+[
+	{
+		"function": "minecraft:reference",
+		"name": "ssbrc:init/ability/default"
+	},
+	{
+		"function": "minecraft:reference",
+		"name": "ssbrc:fighter/link/boomerang/tooltip"
+	}
+]

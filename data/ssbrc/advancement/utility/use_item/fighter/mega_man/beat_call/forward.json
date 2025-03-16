@@ -1,0 +1,44 @@
+{
+	"parent": "ssbrc:utility/use_item/root",
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:using_item",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:reference",
+						"name": "ssbrc:universal_cooldown"
+					},
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"nbt": "{Tags:[\"beat_call\"]}"
+						}
+					},
+					{
+						"condition": "minecraft:entity_scores",
+						"entity": "this",
+						"scores": {
+							"mega_man.beat_call": {
+								"min": 1
+							}
+						}
+					}
+				],
+				"item": {
+					"items": "#ssbrc:equipment",
+					"predicates": {
+						"minecraft:custom_data": "{item:\"beat_call\",command:\"forward\"}",
+						"minecraft:damage": {
+							"damage": 0
+						}
+					}
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "ssbrc:fighter/mega_man/logic/abilities/beat_call/commands/forward"
+	}
+}

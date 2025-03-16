@@ -1,0 +1,13 @@
+{
+	"function": "minecraft:set_lore",
+	"entity": "this",
+	"lore": [
+		{
+			"translate": "ssbrc.series.game_and_watch",
+			"color": "white",
+			"bold": false,
+			"italic": false
+		}
+	],
+	"mode": "append"
+}

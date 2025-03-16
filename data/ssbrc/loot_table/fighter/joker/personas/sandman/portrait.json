@@ -1,0 +1,30 @@
+{
+	"type": "minecraft:command",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:stick",
+					"functions": [
+						{
+							"function": "minecraft:reference",
+							"name": "ssbrc:fighter/joker/portrait"
+						},
+						{
+							"function": "minecraft:reference",
+							"name": "ssbrc:fighter/joker/personas/sandman"
+						},
+						{
+							"function": "minecraft:set_components",
+							"components": {
+								"minecraft:item_model": "ssbrc:fighter/joker/misc/portrait/sandman/inactive"
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}

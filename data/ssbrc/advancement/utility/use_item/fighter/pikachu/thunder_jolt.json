@@ -1,0 +1,28 @@
+{
+	"parent": "ssbrc:utility/use_item/root",
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:using_item",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:reference",
+						"name": "ssbrc:universal_cooldown"
+					}
+				],
+				"item": {
+					"items": "#ssbrc:equipment",
+					"predicates": {
+						"minecraft:custom_data": "{item:\"thunder_jolt\"}",
+						"minecraft:damage": {
+							"damage": 0
+						}
+					}
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "ssbrc:fighter/pikachu/logic/abilities/thunder_jolt/check"
+	}
+}

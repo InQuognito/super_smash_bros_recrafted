@@ -1,0 +1,31 @@
+[
+	{
+		"function": "minecraft:set_lore",
+		"entity": "this",
+		"lore": [
+			{
+				"translate": "ssbrc.tooltip.effect.poison",
+				"color": "gray",
+				"bold": false,
+				"italic": false
+			}
+		],
+		"mode": "append"
+	},
+	{
+		"function": "minecraft:set_components",
+		"components": {
+			"minecraft:enchantments": {
+				"ssbrc:fighter/zelda/weapon/emerald": 1
+			}
+		}
+	},
+	{
+		"function": "minecraft:reference",
+		"name": "ssbrc:init/preset/melee"
+	},
+	{
+		"function": "minecraft:set_custom_data",
+		"tag": "{enchanted:\"true\",enchantment:\"emerald\"}"
+	}
+]

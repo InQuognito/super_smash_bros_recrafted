@@ -1,0 +1,8 @@
+{
+	"function": "minecraft:set_components",
+	"components": {
+		"minecraft:enchantments": {
+			"minecraft:binding_curse": 1
+		}
+	}
+}

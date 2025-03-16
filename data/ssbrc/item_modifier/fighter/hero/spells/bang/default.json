@@ -1,0 +1,10 @@
+{
+	"function": "minecraft:set_name",
+	"entity": "this",
+	"name": {
+		"translate": "ssbrc.fighter.hero.bang",
+		"color": "red",
+		"bold": true,
+		"italic": false
+	}
+}

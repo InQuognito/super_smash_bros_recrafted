@@ -1,0 +1,12 @@
+[
+	{
+		"function": "minecraft:set_components",
+		"components": {
+			"minecraft:item_model": "ssbrc:fighter/zelda/item/nayrus_ring/shattered"
+		}
+	},
+	{
+		"function": "minecraft:set_custom_data",
+		"tag": "{shattered:\"true\"}"
+	}
+]

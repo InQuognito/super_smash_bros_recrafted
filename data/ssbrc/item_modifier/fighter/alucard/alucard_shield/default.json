@@ -1,0 +1,30 @@
+{
+	"function": "minecraft:set_banner_pattern",
+	"patterns": [
+		{
+			"pattern": "minecraft:base",
+			"color": "red"
+		},
+		{
+			"pattern": "minecraft:triangle_top",
+			"color": "gray"
+		},
+		{
+			"pattern": "minecraft:cross",
+			"color": "black"
+		},
+		{
+			"pattern": "minecraft:rhombus",
+			"color": "gray"
+		},
+		{
+			"pattern": "minecraft:flower",
+			"color": "yellow"
+		},
+		{
+			"pattern": "minecraft:piglin",
+			"color": "gray"
+		}
+	],
+	"append": false
+}

@@ -1,0 +1,35 @@
+[
+	{
+		"function": "minecraft:set_components",
+		"components": {
+			"minecraft:weapon": {
+				"item_damage_per_attack": 0
+			},
+			"minecraft:attribute_modifiers": [
+				{
+					"type": "minecraft:attack_damage",
+					"id": "ssbrc:attack_damage",
+					"amount": 8,
+					"operation": "add_multiplied_base",
+					"slot": "mainhand"
+				},
+				{
+					"type": "minecraft:attack_speed",
+					"id": "ssbrc:attack_speed",
+					"amount": 0.5,
+					"operation": "add_multiplied_base",
+					"slot": "mainhand"
+				}
+			],
+			"minecraft:item_model": "ssbrc:fighter/ganondorf/item/sword"
+		}
+	},
+	{
+		"function": "minecraft:reference",
+		"name": "ssbrc:init/preset/melee"
+	},
+	{
+		"function": "minecraft:set_custom_data",
+		"tag": "{item:\"ganondorf.sword\",damage:8}"
+	}
+]

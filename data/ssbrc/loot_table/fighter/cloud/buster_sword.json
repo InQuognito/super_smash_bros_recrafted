@@ -1,0 +1,74 @@
+{
+	"type": "minecraft:command",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:stick",
+					"functions": [
+						{
+							"function": "minecraft:reference",
+							"name": "ssbrc:init/ability/default"
+						},
+						{
+							"function": "minecraft:set_components",
+							"components": {
+								"minecraft:weapon": {
+									"item_damage_per_attack": 0
+								},
+								"minecraft:attribute_modifiers": [
+									{
+										"type": "minecraft:attack_damage",
+										"id": "ssbrc:attack_damage",
+										"amount": 7,
+										"operation": "add_multiplied_base",
+										"slot": "mainhand"
+									},
+									{
+										"type": "minecraft:attack_speed",
+										"id": "ssbrc:attack_speed",
+										"amount": 1,
+										"operation": "add_multiplied_base",
+										"slot": "mainhand"
+									}
+								]
+							}
+						},
+						{
+							"function": "minecraft:reference",
+							"name": "ssbrc:fighter/cloud/buster_sword/operator",
+							"conditions": [
+								{
+									"condition": "minecraft:entity_properties",
+									"entity": "this",
+									"predicate": {
+										"nbt": "{Tags:[\"operator\"]}"
+									}
+								}
+							]
+						},
+						{
+							"function": "minecraft:reference",
+							"name": "ssbrc:fighter/cloud/buster_sword/punisher",
+							"conditions": [
+								{
+									"condition": "minecraft:entity_properties",
+									"entity": "this",
+									"predicate": {
+										"nbt": "{Tags:[\"punisher\"]}"
+									}
+								}
+							]
+						},
+						{
+							"function": "minecraft:set_custom_data",
+							"tag": "{item:\"buster_sword\",damage:7,cooldown:20}"
+						}
+					]
+				}
+			]
+		}
+	]
+}

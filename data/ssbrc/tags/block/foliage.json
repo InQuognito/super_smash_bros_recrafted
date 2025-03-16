@@ -1,0 +1,19 @@
+{
+	"values": [
+		"#minecraft:crops",
+		"#minecraft:flowers",
+		"#minecraft:saplings",
+		"minecraft:bush",
+		"minecraft:cactus_flower",
+		"minecraft:large_fern",
+		"minecraft:leaf_litter",
+		"minecraft:fern",
+		"minecraft:firefly_bush",
+		"minecraft:fern",
+		"minecraft:short_grass",
+		"minecraft:seagrass",
+		"minecraft:sugar_cane",
+		"minecraft:tall_grass",
+		"minecraft:tall_seagrass"
+	]
+}

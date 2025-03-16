@@ -1,0 +1,41 @@
+{
+	"description": "Master Sword",
+	"supported_items": "#ssbrc:equipment",
+	"weight": 1,
+	"max_level": 1,
+	"min_cost": {
+		"base": 1,
+		"per_level_above_first": 1
+	},
+	"max_cost": {
+		"base": 1,
+		"per_level_above_first": 1
+	},
+	"anvil_cost": 0,
+	"slots": [
+		"mainhand"
+	],
+	"effects": {
+		"minecraft:post_attack": [
+			{
+				"enchanted": "attacker",
+				"affected": "victim",
+				"effect": {
+					"type": "minecraft:damage_entity",
+					"damage_type": "ssbrc:generic",
+					"min_damage": 2,
+					"max_damage": 2
+				},
+				"requirements": {
+					"condition": "minecraft:entity_scores",
+					"entity": "attacker",
+					"scores": {
+						"health": {
+							"min": 40
+						}
+					}
+				}
+			}
+		]
+	}
+}

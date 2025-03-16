@@ -1,0 +1,16 @@
+[
+	{
+		"function": "minecraft:reference",
+		"name": "ssbrc:ui/separator"
+	},
+	{
+		"function": "minecraft:reference",
+		"name": "ssbrc:ui/owned"
+	},
+	{
+		"function": "minecraft:toggle_tooltips",
+		"toggles": {
+			"minecraft:attribute_modifiers": false
+		}
+	}
+]

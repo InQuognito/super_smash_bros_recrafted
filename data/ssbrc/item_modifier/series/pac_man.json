@@ -1,0 +1,13 @@
+{
+	"function": "minecraft:set_lore",
+	"entity": "this",
+	"lore": [
+		{
+			"translate": "ssbrc.series.pac_man",
+			"color": "yellow",
+			"bold": false,
+			"italic": false
+		}
+	],
+	"mode": "append"
+}
