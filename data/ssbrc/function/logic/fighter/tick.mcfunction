@@ -25,8 +25,8 @@ tag @s[tag=vented] add silenced
 
 execute unless score @s[predicate=ssbrc:input/jump] jump matches 1.. run function ssbrc:logic/fighter/jump
 execute if entity @s[tag=safe_launch,scores={motion_y=..-100}] unless block ~ ~-10 ~ #ssbrc:passthrough_charge run effect give @s minecraft:slow_falling 1 0 true
-execute if entity @s[tag=launched,predicate=!ssbrc:flag/in_air] unless score @s player_motion.timer matches 1.. run function ssbrc:logic/fighter/grounded
-scoreboard players set @s[predicate=!ssbrc:flag/in_air] jump 0
+execute if entity @s[tag=launched,predicate=ssbrc:flag/on_ground] unless score @s player_motion.timer matches 1.. run function ssbrc:logic/fighter/grounded
+scoreboard players set @s[predicate=ssbrc:flag/on_ground] jump 0
 
 function ssbrc:logic/fighter/get {function:"ssbrc:logic/fighter/tick_specific"}
 
@@ -65,7 +65,7 @@ scoreboard players remove @s[scores={player_motion.timer=1..}] player_motion.tim
 execute if score @s player_motion.timer matches 1 run function ssbrc:logic/fighter/motion/reset
 
 execute if score @s immobile matches 1.. run function ssbrc:logic/fighter/effects/mobility/tick
-execute if entity @s[tag=immobile.pivot.queue,tag=!immobile.pivot,predicate=!ssbrc:flag/in_air] run function ssbrc:logic/fighter/effects/mobility/pivot/activate
+execute if entity @s[tag=immobile.pivot.queue,tag=!immobile.pivot,predicate=!ssbrc:flag/on_ground] run function ssbrc:logic/fighter/effects/mobility/pivot/activate
 
 scoreboard players add @s[tag=armor_break] armor_break 1
 execute if score @s armor_break matches 60.. run function ssbrc:fighter/pokemon_trainer/logic/charizard/rock_smash/deactivate

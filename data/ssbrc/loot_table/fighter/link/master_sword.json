@@ -6,7 +6,7 @@
 			"entries": [
 				{
 					"type": "minecraft:item",
-					"name": "minecraft:stick",
+					"name": "minecraft:carrot_on_a_stick",
 					"functions": [
 						{
 							"function": "minecraft:set_components",
@@ -32,7 +32,8 @@
 								],
 								"minecraft:enchantments": {
 									"ssbrc:fighter/link/master_sword": 1
-								}
+								},
+								"minecraft:item_model": "ssbrc:fighter/link/item/master_sword"
 							}
 						},
 						{

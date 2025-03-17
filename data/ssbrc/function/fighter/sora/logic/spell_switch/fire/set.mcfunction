@@ -15,10 +15,10 @@ $item modify entity @s $(slot) [ \
 	}, \
 	{ \
 		"function": "minecraft:set_custom_data", \
-		"tag": "{ \
-			cooldown: 40, \
-			alt_cooldown: 60 \
-		}" \
+		"tag": { \
+			"cooldown": 40, \
+			"alt_cooldown": 60 \
+		} \
 	} \
 ]
 

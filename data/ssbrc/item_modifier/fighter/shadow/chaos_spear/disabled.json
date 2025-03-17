@@ -10,13 +10,9 @@
 		}
 	},
 	{
-		"function": "minecraft:set_components",
-		"components": {
-			"minecraft:item_model": "ssbrc:fighter/shadow/item/chaos_spear/disabled"
-		}
-	},
-	{
 		"function": "minecraft:set_custom_data",
-		"tag": "{disabled:\"true\"}"
+		"tag": {
+			"enabled": "false"
+		}
 	}
 ]

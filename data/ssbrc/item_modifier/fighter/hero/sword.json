@@ -32,6 +32,10 @@
 	},
 	{
 		"function": "minecraft:set_custom_data",
-		"tag": "{item:\"hero.sword\",group:\"hero.spell\",damage:4}"
+		"tag": {
+			"item": "hero.sword",
+			"group": "hero.spell",
+			"damage": 4
+		}
 	}
 ]

@@ -26,10 +26,10 @@ item modify entity @s weapon.mainhand [ \
 	}, \
 	{ \
 		"function": "minecraft:set_custom_data", \
-		"tag": "{ \
-			cooldown: 40, \
-			alt_cooldown: 10 \
-		}" \
+		"tag": { \
+			"cooldown": 40, \
+			"alt_cooldown": 10 \
+		} \
 	} \
 ]
 

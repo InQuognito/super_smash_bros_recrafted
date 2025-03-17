@@ -1,7 +1,7 @@
 # Shovel Drop
 execute if items entity @s weapon.mainhand minecraft:stick[minecraft:custom_data~{item:"shovel_blade",shovel_drop:"true"}] run function ssbrc:fighter/shovel_knight/logic/abilities/shovel_drop/tick
 
-execute if items entity @s[tag=!silenced,predicate=ssbrc:flag/sneaking,predicate=ssbrc:flag/in_air] weapon.mainhand minecraft:stick[minecraft:custom_data~{item:"shovel_blade",shovel_drop:"false"}] run function ssbrc:fighter/shovel_knight/logic/abilities/shovel_drop/enable
+execute if items entity @s[tag=!silenced,predicate=ssbrc:flag/sneaking,predicate=!ssbrc:flag/on_ground] weapon.mainhand minecraft:stick[minecraft:custom_data~{item:"shovel_blade",shovel_drop:"false"}] run function ssbrc:logic/item/data/get {item:"shovel_blade",flag_key:"shovel_drop",flag_value:"true"}
 
 # Relics
 execute if items entity @s container.* minecraft:stick[minecraft:custom_data~{item:"chaos_sphere"}] run function ssbrc:logic/item/cooldown/decrease {item:"chaos_sphere"}

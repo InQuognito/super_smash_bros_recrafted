@@ -17,7 +17,13 @@
 					"operation": "add_multiplied_base",
 					"slot": "mainhand"
 				}
-			]
+			],
+			"minecraft:tooltip_display": {
+				"hidden_components": [
+					"minecraft:attribute_modifiers",
+					"minecraft:unbreakable"
+				]
+			}
 		}
 	}
 ]

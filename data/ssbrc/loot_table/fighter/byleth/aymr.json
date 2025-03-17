@@ -39,7 +39,7 @@
 									"ssbrc:fighter/byleth/aymr": 1
 								},
 								"minecraft:max_damage": 16,
-								"minecraft:item_model": "ssbrc:fighter/byleth/item/aymr/default"
+								"minecraft:item_model": "ssbrc:fighter/byleth/item/aymr"
 							}
 						},
 						{

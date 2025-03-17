@@ -58,12 +58,24 @@
 						{
 							"function": "minecraft:set_components",
 							"components": {
-								"minecraft:item_model": "ssbrc:fighter/rob/item/robo_beam/default"
+								"minecraft:item_model": "ssbrc:fighter/rob/item/robo_beam"
+							}
+						},
+						{
+							"function": "minecraft:set_custom_model_data",
+							"floats": {
+								"values": [
+									0.0
+								],
+								"mode": "replace_all"
 							}
 						},
 						{
 							"function": "minecraft:set_custom_data",
-							"tag": "{item:\"robo_beam\",cooldown:20}"
+							"tag": {
+								"item": "robo_beam",
+								"cooldown": 20
+							}
 						}
 					]
 				}

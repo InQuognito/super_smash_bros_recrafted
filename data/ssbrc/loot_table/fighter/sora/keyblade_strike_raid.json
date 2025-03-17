@@ -17,14 +17,10 @@
 							"name": "ssbrc:fighter/sora/keyblades/strike_raid"
 						},
 						{
-							"function": "minecraft:set_components",
-							"components": {
-								"minecraft:item_model": "ssbrc:fighter/sora/item/keyblade/default"
-							}
-						},
-						{
 							"function": "minecraft:set_custom_data",
-							"tag": "{hand:\"primary\"}"
+							"tag": {
+								"hand": "primary"
+							}
 						}
 					]
 				}

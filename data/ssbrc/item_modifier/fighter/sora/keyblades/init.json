@@ -20,7 +20,8 @@
 					"operation": "add_multiplied_base",
 					"slot": "mainhand"
 				}
-			]
+			],
+			"minecraft:item_model": "ssbrc:fighter/sora/item/keyblade"
 		}
 	},
 	{
@@ -33,6 +34,9 @@
 	},
 	{
 		"function": "minecraft:set_custom_data",
-		"tag": "{item:\"keyblade\",damage:5}"
+		"tag": {
+			"item": "keyblade",
+			"damage": 5
+		}
 	}
 ]

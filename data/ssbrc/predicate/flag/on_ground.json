@@ -2,10 +2,8 @@
 	"condition": "minecraft:entity_properties",
 	"entity": "this",
 	"predicate": {
-		"stepping_on": {
-			"block": {
-				"blocks": "#ssbrc:no_hitbox"
-			}
+		"flags": {
+			"is_on_ground": true
 		}
 	}
 }

@@ -6,7 +6,7 @@ attribute @s minecraft:movement_speed base set 0.3
 attribute @s minecraft:max_health base set 8.0
 
 loot replace entity @s weapon.mainhand loot ssbrc:fighter/ganondorf/stalfos_sword
-item replace entity @s weapon.offhand with minecraft:shield
+item replace entity @s weapon.offhand with minecraft:stick
 
 item replace entity @s armor.head with minecraft:leather_helmet
 item replace entity @s armor.chest with minecraft:air

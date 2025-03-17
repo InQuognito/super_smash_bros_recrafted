@@ -10,11 +10,8 @@
 						"name": "ssbrc:universal_cooldown"
 					},
 					{
-						"condition": "minecraft:inverted",
-						"term": {
-							"condition": "minecraft:reference",
-							"name": "ssbrc:flag/in_air"
-						}
+						"condition": "minecraft:reference",
+						"name": "ssbrc:flag/on_ground"
 					}
 				],
 				"item": {

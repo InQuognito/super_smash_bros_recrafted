@@ -1,4 +1,4 @@
-teleport @s[tag=!immobile.air_stall,tag=!immobile.pivot,predicate=!ssbrc:flag/in_air] @s
+teleport @s[tag=!immobile.air_stall,tag=!immobile.pivot,predicate=ssbrc:flag/on_ground] @s
 
 teleport @s[tag=immobile.air_stall] @s
 

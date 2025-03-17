@@ -5,7 +5,9 @@
 		"equipment": {
 			"mainhand": {
 				"predicates": {
-					"minecraft:custom_data": "{awakened:\"true\"}"
+					"minecraft:custom_data": {
+						"awakened": "true"
+					}
 				}
 			}
 		}

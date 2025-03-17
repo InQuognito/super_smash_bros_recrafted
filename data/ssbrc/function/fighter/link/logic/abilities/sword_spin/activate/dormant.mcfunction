@@ -7,11 +7,10 @@ function ssbrc:fighter/link/logic/abilities/sword_spin/cancel
 
 scoreboard players set @s rotation 1000
 
-execute if predicate ssbrc:flag/in_air run function ssbrc:fighter/link/logic/abilities/sword_spin/levitate
+execute unless predicate ssbrc:flag/on_ground run function ssbrc:fighter/link/logic/abilities/sword_spin/levitate
 
 playsound ssbrc:fighter.link.sword_spin.unleash player @a
 
 advancement grant @s only ssbrc:ui/popup/link
 
-execute if score @s health matches 40.. run return run function ssbrc:fighter/link/logic/master_sword/display/get {modifier:"spinning/",type:"default"}
-function ssbrc:fighter/link/logic/master_sword/display/get {modifier:"spinning/",type:"dormant"}
+function ssbrc:logic/item/data/get {item:"master_sword",flag_key:"spinning",flag_value:"true"}

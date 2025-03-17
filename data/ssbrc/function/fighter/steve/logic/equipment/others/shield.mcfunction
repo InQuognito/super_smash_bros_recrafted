@@ -1,4 +1,4 @@
-clear @s minecraft:shield[minecraft:custom_data~{item:"shield"}]
+clear @s minecraft:stick[minecraft:custom_data~{item:"shield"}]
 
 loot replace entity @s weapon.offhand loot ssbrc:fighter/steve/shield
 

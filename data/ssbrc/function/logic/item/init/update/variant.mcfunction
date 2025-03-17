@@ -1,3 +1,21 @@
-$item modify entity @s $(slot) {"function":"minecraft:set_name","entity":"this","name":{"translate":"$(name)","color":"$(color)","bold":true,"italic":false}}
-
-$execute unless data storage ssbrc:temp item{model:"null"} run item modify entity @s $(slot) {"function":"minecraft:set_components","components":{"minecraft:item_model":"$(model)/default"}}
+$item modify entity @s $(slot) [ \
+	{ \
+		"function": "minecraft:set_name", \
+		"entity": "this", \
+		"name": { \
+			"translate": "$(name)", \
+			"color": "$(color)", \
+			"bold": true, \
+			"italic": false \
+		} \
+	}, \
+	{ \
+		"function": "minecraft:set_custom_model_data", \
+		"strings": { \
+			"values": [ \
+				"$(skin)" \
+			], \
+			"mode": "replace_all" \
+		} \
+	} \
+]
