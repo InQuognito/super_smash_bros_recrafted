@@ -1,0 +1,25 @@
+{
+	"type": "minecraft:fishing",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"weight": 3,
+					"value": "ssbrc:fishing/fish/tropical_fish"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"weight": 2,
+					"value": "ssbrc:fishing/fish/pufferfish"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"weight": 1,
+					"value": "ssbrc:fishing/fish/sea_neon"
+				}
+			]
+		}
+	]
+}

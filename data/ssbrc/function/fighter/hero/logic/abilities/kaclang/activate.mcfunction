@@ -14,6 +14,6 @@ scoreboard players operation @s magic -= hero.kaclang.cost const
 function ssbrc:fighter/hero/logic/magic/update
 
 playsound ssbrc:fighter.hero.kaclang.activate player @a
-playsound ssbrc:items.metal_box.activate player @a
+playsound ssbrc:item.metal_box.activate player @a
 
 advancement revoke @s only ssbrc:utility/use_item/fighter/hero/spells/kaclang/activate

@@ -26,7 +26,7 @@
 	},
 	{
 		"function": "minecraft:reference",
-		"name": "ssbrc:init/preset/melee"
+		"name": "ssbrc:init/tooltip/ability/melee"
 	},
 	{
 		"function": "minecraft:set_custom_data",

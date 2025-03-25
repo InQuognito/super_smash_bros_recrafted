@@ -1,0 +1,25 @@
+[
+	{
+		"function": "minecraft:reference",
+		"name": "ssbrc:fishing/fish/tropical_fish/common"
+	},
+	{
+		"function": "minecraft:set_lore",
+		"entity": "this",
+		"lore": [
+			{
+				"translate": "ssbrc.series.minecraft",
+				"color": "gray",
+				"bold": false,
+				"italic": false
+			}
+		],
+		"mode": "replace_all"
+	},
+	{
+		"function": "minecraft:set_components",
+		"components": {
+			"minecraft:item_model": "minecraft:tropical_fish"
+		}
+	}
+]

@@ -57,6 +57,14 @@ execute if score @s hud >= hud_frequency const run function ssbrc:logic/fighter/
 # Items
 execute if entity @s[tag=angel_feather] run particle minecraft:dust_color_transition{from_color:[0.0,1.0,1.0],to_color:[1.0,1.0,1.0],scale:0.5} ~ ~0.75 ~ 0.2 0.3 0.2 0.0 3 normal @a
 
+#execute if items entity @s[tag=!silenced,scores={charge.output=200..}] weapon.* minecraft:emerald[minecraft:custom_data~{item:"special_flag"}] run function ssbrc:item/special_flag/activate
+
+#execute if entity @s[scores={item.cloaking_device=1..}] run function ssbrc:items/cloaking_device/tick
+#execute if entity @s[scores={item.franklin_badge=1..}] positioned ~ ~0.75 ~ run function ssbrc:items/franklin_badge/tick
+execute if entity @s[scores={item.poison_mushroom.timer=1..}] run function ssbrc:item/poison_mushroom/tick
+execute if entity @s[scores={item.super_mushroom.timer=1..}] run function ssbrc:item/super_mushroom/tick
+#function ssbrc:items/killing_edge/tick
+
 # Fighter Effects
 execute if data storage ssbrc:temp player.temp_data{skin:"gold"} run function ssbrc:logic/fighter/gold_trail
 scoreboard players reset @s flag.walking

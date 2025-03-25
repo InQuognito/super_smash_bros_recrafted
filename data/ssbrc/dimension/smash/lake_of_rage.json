@@ -1,0 +1,11 @@
+{
+	"type": "ssbrc:default",
+	"generator": {
+		"type": "minecraft:flat",
+		"settings": {
+			"biome": "ssbrc:lake_of_rage",
+			"layers": [],
+			"structure_overrides": []
+		}
+	}
+}

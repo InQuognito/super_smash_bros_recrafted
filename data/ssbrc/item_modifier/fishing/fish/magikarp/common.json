@@ -1,0 +1,21 @@
+[
+	{
+		"function": "minecraft:set_lore",
+		"entity": "this",
+		"lore": [
+			{
+				"translate": "ssbrc.series.pokemon",
+				"color": "gray",
+				"bold": false,
+				"italic": false
+			}
+		],
+		"mode": "replace_all"
+	},
+	{
+		"function": "minecraft:set_custom_data",
+		"tag": {
+			"item": "magikarp"
+		}
+	}
+]

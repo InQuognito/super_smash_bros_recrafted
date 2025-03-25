@@ -1,0 +1,11 @@
+{
+	"type": "ssbrc:default",
+	"generator": {
+		"type": "minecraft:flat",
+		"settings": {
+			"biome": "ssbrc:spear_pillar",
+			"layers": [],
+			"structure_overrides": []
+		}
+	}
+}

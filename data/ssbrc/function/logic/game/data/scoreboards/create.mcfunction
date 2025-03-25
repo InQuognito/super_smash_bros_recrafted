@@ -50,6 +50,8 @@ scoreboard objectives add hud dummy
 scoreboard objectives add id dummy
 scoreboard objectives add immobile dummy
 scoreboard objectives add influence dummy
+scoreboard objectives add item.poison_mushroom.timer dummy
+scoreboard objectives add item.super_mushroom.timer dummy
 scoreboard objectives add item_count dummy
 scoreboard objectives add jump dummy
 scoreboard objectives add jump.cooldown dummy

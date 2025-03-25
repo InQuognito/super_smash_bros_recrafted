@@ -1,0 +1,20 @@
+[
+	{
+		"function": "minecraft:reference",
+		"name": "ssbrc:init/tooltip/separator"
+	},
+	{
+		"function": "minecraft:set_lore",
+		"entity": "this",
+		"lore": [
+			{
+				"translate": "ssbrc.item.shooting",
+				"color": "white",
+				"bold": false,
+				"italic": false,
+				"underlined": true
+			}
+		],
+		"mode": "append"
+	}
+]

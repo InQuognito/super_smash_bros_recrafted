@@ -1,0 +1,11 @@
+{
+	"type": "ssbrc:default",
+	"generator": {
+		"type": "minecraft:flat",
+		"settings": {
+			"biome": "ssbrc:acropolis_graveyard",
+			"layers": [],
+			"structure_overrides": []
+		}
+	}
+}

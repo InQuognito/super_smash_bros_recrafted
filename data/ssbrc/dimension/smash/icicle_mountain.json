@@ -1,0 +1,11 @@
+{
+	"type": "ssbrc:default",
+	"generator": {
+		"type": "minecraft:flat",
+		"settings": {
+			"biome": "ssbrc:icicle_mountain",
+			"layers": [],
+			"structure_overrides": []
+		}
+	}
+}

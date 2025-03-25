@@ -1,0 +1,11 @@
+{
+	"type": "ssbrc:default",
+	"generator": {
+		"type": "minecraft:flat",
+		"settings": {
+			"biome": "ssbrc:dream_land",
+			"layers": [],
+			"structure_overrides": []
+		}
+	}
+}

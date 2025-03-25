@@ -9,4 +9,5 @@ init_fighter()
 # Stages
 stage_storage()
 stage_getter()
+stage_dimensions()
 create_series_tags()

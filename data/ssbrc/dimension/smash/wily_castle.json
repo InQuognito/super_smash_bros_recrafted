@@ -1,0 +1,11 @@
+{
+	"type": "ssbrc:default",
+	"generator": {
+		"type": "minecraft:flat",
+		"settings": {
+			"biome": "ssbrc:wily_castle",
+			"layers": [],
+			"structure_overrides": []
+		}
+	}
+}

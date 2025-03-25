@@ -1,0 +1,20 @@
+{
+	"type": "minecraft:fishing",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"weight": 1,
+					"value": "ssbrc:fishing/fish/hylian_loach"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"weight": 1,
+					"value": "ssbrc:fishing/fish/treasurefish"
+				}
+			]
+		}
+	]
+}

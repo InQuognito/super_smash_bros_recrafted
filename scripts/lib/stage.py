@@ -58,6 +58,22 @@ def stage_getter():
 		for stage in ssbrc.stage:
 			js_write(file, f'$$(operation) with storage ssbrc:data stage.{stage}\n')
 
+def stage_dimensions():
+	'''Initializes series dimensions.'''
+	for stage in ssbrc.stage:
+		with open(f'data\\ssbrc\\dimension\\smash\\{stage}.json', 'w') as file:
+			js_write(file, '{')
+			js_write(file, tab(1) + qm + 'type' + sep_s + 'ssbrc:default' + suf_s)
+			js_write(file, tab(1) + qm + 'generator' + suf_e)
+			js_write(file, tab(2) + qm + 'type' + sep_s + 'minecraft:flat' + suf_s)
+			js_write(file, tab(2) + qm + 'settings' + suf_e)
+			js_write(file, tab(3) + qm + 'biome' + sep_s + f'ssbrc:{stage}' + suf_s)
+			js_write(file, tab(3) + qm + 'layers' + sep_n + '[],')
+			js_write(file, tab(3) + qm + 'structure_overrides' + sep_n + '[]')
+			js_write(file, tab(2) + '}')
+			js_write(file, tab(1) + '}')
+			js_write(file, '}')
+
 def create_series_tags():
 	'''Initializes series tags.'''
 	for series in ssbrc.series:

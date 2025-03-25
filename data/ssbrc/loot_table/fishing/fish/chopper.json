@@ -1,0 +1,24 @@
+{
+	"type": "minecraft:command",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:stick",
+					"functions": [
+						{
+							"function": "minecraft:reference",
+							"name": "ssbrc:fishing/fish/chopper"
+						},
+						{
+							"function": "minecraft:reference",
+							"name": "ssbrc:fishing/default"
+						}
+					]
+				}
+			]
+		}
+	]
+}

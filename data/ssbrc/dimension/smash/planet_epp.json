@@ -1,0 +1,11 @@
+{
+	"type": "ssbrc:default",
+	"generator": {
+		"type": "minecraft:flat",
+		"settings": {
+			"biome": "ssbrc:planet_epp",
+			"layers": [],
+			"structure_overrides": []
+		}
+	}
+}

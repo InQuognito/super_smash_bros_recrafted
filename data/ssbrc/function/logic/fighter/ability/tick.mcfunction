@@ -172,3 +172,8 @@ execute if entity @s[tag=gatling_gun] run return run function ssbrc:fighter/yar/
 execute if entity @s[tag=missile_launcher] run return run function ssbrc:fighter/yar/logic/abilities/missile_launcher/tick
 execute if entity @s[tag=drone] run return run function ssbrc:fighter/yar/logic/abilities/drone/tick
 execute if entity @s[tag=drone.bullet] run return run function ssbrc:fighter/yar/logic/abilities/drone/projectile/tick
+
+# Items
+execute if entity @s[tag=item.black_hole] run return run function ssbrc:item/black_hole/tick
+execute if entity @s[tag=item.cracker_launcher] run return run function ssbrc:item/cracker_launcher/tick
+execute if entity @s[tag=item.ray_gun] run return run function ssbrc:item/ray_gun/tick

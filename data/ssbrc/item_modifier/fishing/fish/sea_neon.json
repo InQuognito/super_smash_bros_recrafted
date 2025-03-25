@@ -1,0 +1,37 @@
+[
+	{
+		"function": "minecraft:set_name",
+		"entity": "this",
+		"name": {
+			"translate": "ssbrc.fish.sea_neon",
+			"color": "blue",
+			"bold": true,
+			"italic": false
+		}
+	},
+	{
+		"function": "minecraft:set_lore",
+		"entity": "this",
+		"lore": [
+			{
+				"translate": "ssbrc.series.kingdom_hearts",
+				"color": "gray",
+				"bold": false,
+				"italic": false
+			}
+		],
+		"mode": "replace_all"
+	},
+	{
+		"function": "minecraft:set_components",
+		"components": {
+			"minecraft:item_model": "ssbrc:fish/sea_neon"
+		}
+	},
+	{
+		"function": "minecraft:set_custom_data",
+		"tag": {
+			"item": "sea_neon"
+		}
+	}
+]

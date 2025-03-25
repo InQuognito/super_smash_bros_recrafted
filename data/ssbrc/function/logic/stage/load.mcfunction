@@ -6,7 +6,7 @@ $weather $(weather)
 $forceload add $(location)
 
 $function ssbrc:logic/stage/spawnpoints with storage ssbrc:data stage.$(name).spawnpoints
-#$function ssbrc:logic/stage/item_spawnpoints with storage ssbrc:data stage.$(name).item_spawnpoints
+$function ssbrc:logic/stage/item_spawnpoints with storage ssbrc:data stage.$(name).item_spawnpoints
 
 $function ssbrc:stage/$(name)/load
 

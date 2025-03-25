@@ -1,0 +1,19 @@
+execute as @e[predicate=ssbrc:target,distance=..3] run function ssbrc:logic/damage/generic {amount:"6.0",type:"generic",kb_resist:"0.0",source:" by @a[tag=self,limit=1]"}
+execute if entity @s[tag=self,distance=..3] run function ssbrc:logic/damage/generic {amount:"6.0",type:"generic",kb_resist:"0.0",source:" by @a[tag=self,limit=1]"}
+
+kill @s
+
+execute store result score random.output temp run random value 1..12
+
+execute if score random.output temp matches 1 run return run summon minecraft:firework_rocket ~ ~ ~ {LifeTime:0,FireworksItem:{id:"minecraft:firework_rocket",count:1,components:{"minecraft:fireworks":{explosions:[{shape:"small_ball",colors:[I;15435844,14602026]}]}}}}
+execute if score random.output temp matches 2 run return run summon minecraft:firework_rocket ~ ~ ~ {LifeTime:0,FireworksItem:{id:"minecraft:firework_rocket",count:1,components:{"minecraft:fireworks":{explosions:[{shape:"star",colors:[I;15435844,14602026]}]}}}}
+execute if score random.output temp matches 3 run return run summon minecraft:firework_rocket ~ ~ ~ {LifeTime:0,FireworksItem:{id:"minecraft:firework_rocket",count:1,components:{"minecraft:fireworks":{explosions:[{shape:"burst",colors:[I;15435844,14602026]}]}}}}
+execute if score random.output temp matches 4 run return run summon minecraft:firework_rocket ~ ~ ~ {LifeTime:0,FireworksItem:{id:"minecraft:firework_rocket",count:1,components:{"minecraft:fireworks":{explosions:[{shape:"small_ball",colors:[I;15435844,14602026],fade_colors:[I;15790320]}]}}}}
+execute if score random.output temp matches 5 run return run summon minecraft:firework_rocket ~ ~ ~ {LifeTime:0,FireworksItem:{id:"minecraft:firework_rocket",count:1,components:{"minecraft:fireworks":{explosions:[{shape:"star",colors:[I;15435844,14602026],fade_colors:[I;15790320]}]}}}}
+execute if score random.output temp matches 6 run return run summon minecraft:firework_rocket ~ ~ ~ {LifeTime:0,FireworksItem:{id:"minecraft:firework_rocket",count:1,components:{"minecraft:fireworks":{explosions:[{shape:"burst",colors:[I;15435844,14602026],fade_colors:[I;15790320]}]}}}}
+execute if score random.output temp matches 7 run return run summon minecraft:firework_rocket ~ ~ ~ {LifeTime:0,FireworksItem:{id:"minecraft:firework_rocket",count:1,components:{"minecraft:fireworks":{explosions:[{shape:"small_ball",colors:[I;15435844,14602026],Trail:1b}]}}}}
+execute if score random.output temp matches 8 run return run summon minecraft:firework_rocket ~ ~ ~ {LifeTime:0,FireworksItem:{id:"minecraft:firework_rocket",count:1,components:{"minecraft:fireworks":{explosions:[{shape:"star",colors:[I;15435844,14602026],Trail:1b}]}}}}
+execute if score random.output temp matches 9 run return run summon minecraft:firework_rocket ~ ~ ~ {LifeTime:0,FireworksItem:{id:"minecraft:firework_rocket",count:1,components:{"minecraft:fireworks":{explosions:[{shape:"burst",colors:[I;15435844,14602026],Trail:1b}]}}}}
+execute if score random.output temp matches 10 run return run summon minecraft:firework_rocket ~ ~ ~ {LifeTime:0,FireworksItem:{id:"minecraft:firework_rocket",count:1,components:{"minecraft:fireworks":{explosions:[{shape:"small_ball",colors:[I;15435844,14602026],fade_colors:[I;15790320],Trail:1b}]}}}}
+execute if score random.output temp matches 11 run return run summon minecraft:firework_rocket ~ ~ ~ {LifeTime:0,FireworksItem:{id:"minecraft:firework_rocket",count:1,components:{"minecraft:fireworks":{explosions:[{shape:"star",colors:[I;15435844,14602026],fade_colors:[I;15790320],Trail:1b}]}}}}
+execute if score random.output temp matches 12 run return run summon minecraft:firework_rocket ~ ~ ~ {LifeTime:0,FireworksItem:{id:"minecraft:firework_rocket",count:1,components:{"minecraft:fireworks":{explosions:[{shape:"burst",colors:[I;15435844,14602026],fade_colors:[I;15790320],Trail:1b}]}}}}

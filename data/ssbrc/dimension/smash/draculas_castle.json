@@ -1,0 +1,11 @@
+{
+	"type": "ssbrc:default",
+	"generator": {
+		"type": "minecraft:flat",
+		"settings": {
+			"biome": "ssbrc:draculas_castle",
+			"layers": [],
+			"structure_overrides": []
+		}
+	}
+}

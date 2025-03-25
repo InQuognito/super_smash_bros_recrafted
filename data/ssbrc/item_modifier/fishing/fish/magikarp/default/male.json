@@ -1,0 +1,28 @@
+[
+	{
+		"function": "minecraft:set_name",
+		"entity": "this",
+		"name": {
+			"translate": "ssbrc.fish.magikarp",
+			"color": "white",
+			"bold": true,
+			"italic": false,
+			"extra": [
+				{
+					"text": " ♂",
+					"color": "aqua"
+				}
+			]
+		}
+	},
+	{
+		"function": "minecraft:reference",
+		"name": "ssbrc:fishing/fish/magikarp/common"
+	},
+	{
+		"function": "minecraft:set_components",
+		"components": {
+			"minecraft:item_model": "ssbrc:fish/magikarp/default"
+		}
+	}
+]

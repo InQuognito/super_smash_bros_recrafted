@@ -1,0 +1,40 @@
+{
+	"type": "minecraft:fishing",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"weight": 4,
+					"value": "ssbrc:fishing/fish/cod"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"weight": 3,
+					"value": "ssbrc:fishing/fish/cheep_cheep"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"weight": 3,
+					"value": "ssbrc:fishing/fish/magikarp"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"weight": 2,
+					"value": "ssbrc:fishing/fish/blipper"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"weight": 2,
+					"value": "ssbrc:fishing/fish/wogpole"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"weight": 1,
+					"value": "ssbrc:fishing/fish/troupple"
+				}
+			]
+		}
+	]
+}

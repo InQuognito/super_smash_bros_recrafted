@@ -2,4 +2,4 @@ execute anchored eyes positioned ^ ^ ^1 summon minecraft:marker run function ssb
 
 function ssbrc:logic/item/durability/reset/hand {key:"item",value:"ray_blaster",source:"cooldown"}
 
-playsound ssbrc:fighter.yar.ray_blaster.activate player @a
+playsound ssbrc:item.ray_gun.activate player @a

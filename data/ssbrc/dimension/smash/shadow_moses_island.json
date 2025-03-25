@@ -1,0 +1,11 @@
+{
+	"type": "ssbrc:default",
+	"generator": {
+		"type": "minecraft:flat",
+		"settings": {
+			"biome": "ssbrc:shadow_moses_island",
+			"layers": [],
+			"structure_overrides": []
+		}
+	}
+}

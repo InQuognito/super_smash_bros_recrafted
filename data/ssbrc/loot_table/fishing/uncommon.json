@@ -1,0 +1,35 @@
+{
+	"type": "minecraft:fishing",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"weight": 5,
+					"value": "ssbrc:fishing/fish/salmon"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"weight": 4,
+					"value": "ssbrc:fishing/fish/blooper"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"weight": 3,
+					"value": "ssbrc:fishing/fish/puftup"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"weight": 2,
+					"value": "ssbrc:fishing/fish/chopper"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"weight": 1,
+					"value": "ssbrc:fishing/fish/aqua_slime"
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,37 @@
+[
+	{
+		"function": "minecraft:set_name",
+		"entity": "this",
+		"name": {
+			"translate": "item.minecraft.pufferfish",
+			"color": "blue",
+			"bold": true,
+			"italic": false
+		}
+	},
+	{
+		"function": "minecraft:set_lore",
+		"entity": "this",
+		"lore": [
+			{
+				"translate": "ssbrc.series.minecraft",
+				"color": "gray",
+				"bold": false,
+				"italic": false
+			}
+		],
+		"mode": "replace_all"
+	},
+	{
+		"function": "minecraft:set_components",
+		"components": {
+			"minecraft:item_model": "minecraft:pufferfish"
+		}
+	},
+	{
+		"function": "minecraft:set_custom_data",
+		"tag": {
+			"item": "pufferfish"
+		}
+	}
+]

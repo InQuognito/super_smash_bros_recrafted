@@ -1,0 +1,11 @@
+{
+	"type": "ssbrc:default",
+	"generator": {
+		"type": "minecraft:flat",
+		"settings": {
+			"biome": "ssbrc:suzaku_castle",
+			"layers": [],
+			"structure_overrides": []
+		}
+	}
+}

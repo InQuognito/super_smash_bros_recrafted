@@ -121,6 +121,54 @@
 								],
 								[
 									{
+										"nbt": "items_header",
+										"storage": "ssbrc:options",
+										"interpret": true
+									},
+									{
+										"text": "\n"
+									},
+									{
+										"text": "[ ",
+										"color": "dark_gray"
+									},
+									{
+										"nbt": "items_options",
+										"storage": "ssbrc:options",
+										"interpret": true
+									},
+									{
+										"text": " ]",
+										"color": "dark_gray"
+									},
+									{
+										"text": "\n\n"
+									},
+									{
+										"nbt": "item_rate_header",
+										"storage": "ssbrc:options",
+										"interpret": true
+									},
+									{
+										"text": "\n"
+									},
+									{
+										"text": "[ ",
+										"color": "dark_gray"
+									},
+									{
+										"nbt": "item_rate_options",
+										"storage": "ssbrc:options",
+										"interpret": true
+									},
+									{
+										"text": " ]",
+										"color": "dark_gray"
+									},
+									{
+										"text": "\n\n"
+									},
+									{
 										"nbt": "hazards_header",
 										"storage": "ssbrc:options",
 										"interpret": true

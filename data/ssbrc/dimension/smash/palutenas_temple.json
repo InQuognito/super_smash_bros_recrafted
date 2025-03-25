@@ -1,0 +1,11 @@
+{
+	"type": "ssbrc:default",
+	"generator": {
+		"type": "minecraft:flat",
+		"settings": {
+			"biome": "ssbrc:palutenas_temple",
+			"layers": [],
+			"structure_overrides": []
+		}
+	}
+}

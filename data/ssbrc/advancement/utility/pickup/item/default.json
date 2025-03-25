@@ -35,7 +35,9 @@
 				"items": [
 					{
 						"predicates": {
-							"minecraft:custom_data": {"steve_item":true}
+							"minecraft:custom_data": {
+								"group": "item"
+							}
 						}
 					}
 				]
@@ -43,6 +45,6 @@
 		}
 	},
 	"rewards": {
-		"function": "ssbrc:fighter/steve/logic/item/pickup"
+		"function": "ssbrc:logic/game/item/pickup/default"
 	}
 }

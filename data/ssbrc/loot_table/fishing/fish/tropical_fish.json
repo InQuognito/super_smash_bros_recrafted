@@ -1,0 +1,38 @@
+{
+	"type": "minecraft:command",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"weight": 2,
+					"name": "minecraft:stick",
+					"functions": [
+						{
+							"function": "minecraft:reference",
+							"name": "ssbrc:fishing/fish/tropical_fish/minecraft"
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 1,
+					"name": "minecraft:tropical_fish",
+					"functions": [
+						{
+							"function": "minecraft:reference",
+							"name": "ssbrc:fishing/fish/tropical_fish/game_and_watch"
+						}
+					]
+				}
+			],
+			"functions": [
+				{
+					"function": "minecraft:reference",
+					"name": "ssbrc:fishing/default"
+				}
+			]
+		}
+	]
+}

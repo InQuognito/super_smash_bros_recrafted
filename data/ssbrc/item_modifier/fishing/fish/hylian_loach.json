@@ -1,0 +1,37 @@
+[
+	{
+		"function": "minecraft:set_name",
+		"entity": "this",
+		"name": {
+			"translate": "ssbrc.fish.hylian_loach",
+			"color": "gold",
+			"bold": true,
+			"italic": false
+		}
+	},
+	{
+		"function": "minecraft:set_lore",
+		"entity": "this",
+		"lore": [
+			{
+				"translate": "ssbrc.series.the_legend_of_zelda",
+				"color": "gray",
+				"bold": false,
+				"italic": false
+			}
+		],
+		"mode": "replace_all"
+	},
+	{
+		"function": "minecraft:set_components",
+		"components": {
+			"minecraft:item_model": "ssbrc:fish/hylian_loach"
+		}
+	},
+	{
+		"function": "minecraft:set_custom_data",
+		"tag": {
+			"item": "hylian_loach"
+		}
+	}
+]

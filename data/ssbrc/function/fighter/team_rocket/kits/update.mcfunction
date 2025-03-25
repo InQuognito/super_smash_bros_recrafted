@@ -9,4 +9,4 @@ clear @s #ssbrc:equipment
 
 function ssbrc:logic/fighter/armor/update/check
 
-playsound ssbrc:items.poke_ball.open player @a
+playsound ssbrc:item.poke_ball.open player @a

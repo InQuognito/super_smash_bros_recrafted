@@ -1,0 +1,21 @@
+{
+	"parent": "ssbrc:utility/use_item/fishing/root",
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:consume_item",
+			"conditions": {
+				"item": {
+					"items": "#ssbrc:equipment",
+					"predicates": {
+						"minecraft:custom_data": {
+							"item": "cod"
+						}
+					}
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "ssbrc:logic/fishing/fish/cod"
+	}
+}

@@ -1,0 +1,11 @@
+{
+	"type": "ssbrc:default",
+	"generator": {
+		"type": "minecraft:flat",
+		"settings": {
+			"biome": "ssbrc:mushroom_kingdom",
+			"layers": [],
+			"structure_overrides": []
+		}
+	}
+}

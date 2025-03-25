@@ -1,0 +1,4 @@
+data modify storage ssbrc:options friendly_fire_header set value ["",{"translate":"ssbrc.options.friendly_fire","bold":true,"underlined":true,"color":"black"},{"text":" 🛈","color":"gray","hover_event":{"action":"show_text","value":[{"translate":"ssbrc.options.friendly_fire.description","color":"gold"}]}}]
+
+execute if score friendly_fire options matches 1 run return run data modify storage ssbrc:options friendly_fire_options set value ["",{"translate":"ssbrc.options.on","color":"gold","bold":true},{"text":" | ","color":"dark_gray"},{"translate":"ssbrc.options.off","color":"gray","click_event":{"action":"run_command","command":"trigger options_trigger set 15"}}]
+data modify storage ssbrc:options friendly_fire_options set value ["",{"translate":"ssbrc.options.on","color":"gray","click_event":{"action":"run_command","command":"trigger options_trigger set 14"}},{"text":" | ","color":"dark_gray"},{"translate":"ssbrc.options.off","color":"gold","bold":true}]

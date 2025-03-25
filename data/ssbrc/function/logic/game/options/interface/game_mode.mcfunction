@@ -1,0 +1,4 @@
+data modify storage ssbrc:options game_mode_header set value ["",{"translate":"ssbrc.options.game_mode","bold":true,"underlined":true,"color":"black"},{"text":" 🛈","color":"gray","hover_event":{"action":"show_text","value":[{"translate":"ssbrc.options.game_mode.description","color":"gold"},"\n\n",{"translate":"ssbrc.options.game_mode.stock","color":"gold"}," - ",{"translate":"ssbrc.options.game_mode.stock.description","color":"gray"},"\n\n",{"translate":"ssbrc.options.game_mode.time","color":"gold"}," - ",{"translate":"ssbrc.options.game_mode.time.description","color":"gray"}]}}]
+
+execute if score game_mode options matches 1 run function ssbrc:logic/game/options/interface/game_mode/stock
+execute if score game_mode options matches 2 run function ssbrc:logic/game/options/interface/game_mode/time

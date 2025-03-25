@@ -7,8 +7,6 @@ attribute @s minecraft:gravity modifier remove ssbrc:zero
 
 attribute @s minecraft:jump_strength base reset
 
-
-
 attribute @s minecraft:attack_damage base set 0.0
 
 attribute @s minecraft:attack_speed base set 100.0
@@ -81,6 +79,10 @@ attribute @s minecraft:jump_strength modifier remove ssbrc:valor_form
 # Zelda
 attribute @s minecraft:armor modifier remove ssbrc:fighter/zelda/enchant_armor
 attribute @s minecraft:attack_damage modifier remove ssbrc:fighter/zelda/ring_of_risk
+
+# Items
+function ssbrc:item/poison_mushroom/deactivate
+function ssbrc:item/super_mushroom/deactivate
 
 # Stages
 function ssbrc:stage/pac_maze/logic/fruit/fruit/galaxian_flagship/reset

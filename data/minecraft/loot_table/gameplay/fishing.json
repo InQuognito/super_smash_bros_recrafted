@@ -1,0 +1,30 @@
+{
+	"type": "minecraft:fishing",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"weight": 35,
+					"value": "ssbrc:fishing/common"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"weight": 10,
+					"value": "ssbrc:fishing/uncommon"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"weight": 4,
+					"value": "ssbrc:fishing/rare"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"weight": 1,
+					"value": "ssbrc:fishing/legendary"
+				}
+			]
+		}
+	]
+}

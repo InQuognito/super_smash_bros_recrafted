@@ -20,6 +20,8 @@ function ssbrc:logic/game/music/decide_schedule
 
 execute if score hazards options matches 1 run function ssbrc:logic/game/start/hazards
 
+execute if score items options matches 1 if score item_rate options matches 2.. run function ssbrc:logic/game/item/check
+
 tag @e[type=minecraft:marker,tag=tp_dest] remove tp_dest
 
 scoreboard players set game_stage temp 4

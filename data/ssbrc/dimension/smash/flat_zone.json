@@ -1,0 +1,11 @@
+{
+	"type": "ssbrc:default",
+	"generator": {
+		"type": "minecraft:flat",
+		"settings": {
+			"biome": "ssbrc:flat_zone",
+			"layers": [],
+			"structure_overrides": []
+		}
+	}
+}

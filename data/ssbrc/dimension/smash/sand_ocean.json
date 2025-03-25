@@ -1,0 +1,11 @@
+{
+	"type": "ssbrc:default",
+	"generator": {
+		"type": "minecraft:flat",
+		"settings": {
+			"biome": "ssbrc:sand_ocean",
+			"layers": [],
+			"structure_overrides": []
+		}
+	}
+}

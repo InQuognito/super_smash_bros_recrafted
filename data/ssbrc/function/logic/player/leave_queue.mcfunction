@@ -6,6 +6,7 @@ gamemode adventure @s
 
 clear @s
 loot replace entity @s[advancements={ssbrc:tutorial/intro/2=true}] hotbar.0 loot ssbrc:selector
+item replace entity @s hotbar.8 with minecraft:fishing_rod[minecraft:enchantments={"minecraft:lure":5},minecraft:unbreakable={}]
 
 scoreboard players reset @s team
 team leave @s

@@ -3,6 +3,6 @@ attribute @s minecraft:jump_strength modifier add ssbrc:items/angel_feather 2.0 
 
 item replace entity @s weapon.mainhand with minecraft:air
 
-playsound ssbrc:items.angel_feather.activate player @s
+playsound ssbrc:item.angel_feather.activate player @s
 
 advancement revoke @s only ssbrc:utility/use_item/item/angel_feather
