@@ -1,6 +1,6 @@
 tag @s add metal_blade
 
-function ssbrc:logic/item/init/slot {item:"metal_blade",slot:"contents",type:"skin"}
+function ssbrc:logic/item/init/slot {item:"metal_blade",slot:"contents",type:"default"}
 
 function ssbrc:logic/init/projectile
 

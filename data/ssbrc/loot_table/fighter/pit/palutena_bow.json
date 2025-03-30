@@ -48,12 +48,18 @@
 								"minecraft:enchantments": {
 									"ssbrc:fighter/pit/palutena_bow": 1,
 									"minecraft:infinity": 1
-								}
+								},
+								"minecraft:item_model": "ssbrc:fighter/pit/item/palutena_bow"
 							}
 						},
 						{
 							"function": "minecraft:set_custom_data",
-							"tag": "{item:\"palutena_bow\",split:\"false\",chargable:\"true\",damage:5}"
+							"tag": {
+								"item": "palutena_bow",
+								"split": "false",
+								"chargable": "true",
+								"damage":5
+							}
 						}
 					]
 				}
