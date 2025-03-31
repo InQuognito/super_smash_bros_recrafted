@@ -1,5 +1,9 @@
 function ssbrc:logic/player/data/temp/copy/check
 
+execute if data storage ssbrc:temp player.temp_data{fighter:"snake"} run say i am snake
+execute if items entity @s weapon.* minecraft:stick[minecraft:custom_data~{item:"cqc_knife"}] run say i am holding knife
+execute unless score players.ingame temp matches 1 run say this other thing is also true
+
 execute if data storage ssbrc:temp player.temp_data{fighter:"byleth"} if entity @s[tag=weapon_broken] run function ssbrc:fighter/byleth/logic/get_kill/player
 execute if data storage ssbrc:temp player.temp_data{fighter:"ganondorf"} run function ssbrc:fighter/ganondorf/logic/stalfos/activate
 execute if data storage ssbrc:temp player.temp_data{fighter:"hero"} run function ssbrc:fighter/hero/logic/get_kill
