@@ -1,6 +1,6 @@
 function ssbrc:logic/pre_game/fighter_select/init/common
 
-data modify entity @s CustomName set value '"spectate"'
+data modify entity @s CustomName set value "spectate"
 
 tag @s add standard_highlight
 
