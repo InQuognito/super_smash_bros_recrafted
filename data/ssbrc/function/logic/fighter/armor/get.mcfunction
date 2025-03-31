@@ -14,6 +14,8 @@ item replace entity @s armor.chest with minecraft:iron_chestplate[ \
 	minecraft:unbreakable = {}, \
 	minecraft:tooltip_display = { \
 		hidden_components: [ \
+			"minecraft:attribute_modifiers", \
+			"minecraft:enchantments", \
 			"minecraft:unbreakable" \
 		] \
 	}, \
@@ -29,6 +31,8 @@ item replace entity @s armor.legs with minecraft:iron_leggings[ \
 	minecraft:unbreakable = {}, \
 	minecraft:tooltip_display = { \
 		hidden_components: [ \
+			"minecraft:attribute_modifiers", \
+			"minecraft:enchantments", \
 			"minecraft:unbreakable" \
 		] \
 	}, \
