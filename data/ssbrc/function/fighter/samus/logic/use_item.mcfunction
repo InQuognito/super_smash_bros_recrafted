@@ -2,4 +2,4 @@ execute unless items entity @s weapon.mainhand minecraft:carrot_on_a_stick[minec
 
 execute if predicate ssbrc:flag/sneaking run return run function ssbrc:fighter/samus/logic/arm_cannon/check
 
-function ssbrc:fighter/samus/logic/arm_cannon/activate with entity @s SelectedItem.components."minecraft:custom_data"
+function ssbrc:fighter/samus/logic/arm_cannon/activate with entity @s SelectedItem.components.minecraft:custom_data

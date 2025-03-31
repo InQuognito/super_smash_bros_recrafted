@@ -164,7 +164,7 @@ data modify block 0 17 0 front_text.messages[0] set value '{ \
 
 data modify storage ssbrc:temp book.pages append from block 0 17 0 front_text.messages[0]
 
-data modify block 0 16 0 Items[{Slot:1b}].components."minecraft:written_book_content" set from storage ssbrc:temp book
+data modify block 0 16 0 Items[{Slot:1b}].components.minecraft:written_book_content set from storage ssbrc:temp book
 item replace entity @s inventory.13 from block 0 16 0 container.1
 
 #data remove storage ssbrc:temp book

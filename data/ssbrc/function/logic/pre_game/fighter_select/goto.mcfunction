@@ -11,7 +11,7 @@ scoreboard players add old_players temp 1
 execute unless entity @s[tag=cannot_host] unless items entity @a container.* minecraft:written_book[minecraft:custom_data~{item:"options"}] run function ssbrc:logic/game/options/set
 
 loot replace entity @s armor.head loot {"type":"minecraft:command","pools":[{"rolls":1,"entries":[{"type":"minecraft:item","name":"minecraft:player_head","functions":[{"function":"minecraft:fill_player_head","entity":"this"}]}]}]}
-function ssbrc:logic/player/data/temp/init with entity @s equipment.head.components."minecraft:profile"
+function ssbrc:logic/player/data/temp/init with entity @s equipment.head.components.minecraft:profile
 item replace entity @s armor.head with minecraft:air
 
 function ssbrc:logic/pre_game/fighter_select/count/activate
