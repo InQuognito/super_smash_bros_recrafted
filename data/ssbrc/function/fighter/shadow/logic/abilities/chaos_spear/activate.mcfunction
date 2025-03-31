@@ -9,4 +9,4 @@ execute if score @s shadow.meter.dark < shadow.chaos_meter.max const run clear @
 execute if score @s shadow.meter.hero < shadow.chaos_meter.max const run clear @s minecraft:stick[minecraft:custom_data~{item:"chaos_control"}]
 
 execute if score chaos_energy temp < shadow.chaos_spear.cost const run return run function ssbrc:logic/item/modify {search_key:"item",search_value:"chaos_spear",path:"ssbrc:fighter/shadow/chaos_spear/disabled"}
-function ssbrc:logic/item/durability/reset/item {item:"chaos_spear"}
+function ssbrc:logic/item/durability/reset/item {item:"chaos_spear",source:"cooldown"}
