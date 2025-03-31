@@ -126,10 +126,13 @@
 							}
 						},
 						{
+							"function": "minecraft:reference",
+							"name": "ssbrc:fighter/yar/drone/activate"
+						},
+						{
 							"function": "minecraft:set_custom_data",
 							"tag": {
 								"item": "drone",
-								"command": "activate",
 								"cooldown": 5
 							}
 						}

@@ -1,6 +1,6 @@
 {
 	"function": "minecraft:set_custom_data",
 	"tag": {
-		"command": "recall"
+		"command": "null"
 	}
 }
