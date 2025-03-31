@@ -1,1 +1,1 @@
-$execute rotated $(value) 0.0 run function ssbrc:fighter/link/logic/abilities/sword_spin/particles/$(type)
+$execute rotated $(value) 0.0 run function ssbrc:fighter/byleth/logic/blue_lions/spin_attack/particles/$(type)
