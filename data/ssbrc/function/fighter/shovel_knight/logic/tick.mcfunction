@@ -8,8 +8,10 @@ function ssbrc:logic/item/cooldown/decrease {item:"chaos_sphere"}
 
 function ssbrc:logic/item/cooldown/decrease {item:"flare_wand"}
 
-function ssbrc:fighter/shovel_knight/logic/tick/phase_locket
+function ssbrc:logic/item/cooldown/decrease {item:"phase_locket"}
+execute if score @s[tag=phase_locket] duration.2 matches 1.. run function ssbrc:fighter/shovel_knight/logic/abilities/phase_locket/tick
 
-function ssbrc:fighter/shovel_knight/logic/tick/propeller_dagger
+function ssbrc:logic/item/cooldown/decrease {item:"propeller_dagger"}
+effect clear @s[scores={duration.2=1}] minecraft:levitation
 
 function ssbrc:logic/item/cooldown/decrease {item:"throwing_anchor"}
