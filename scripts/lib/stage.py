@@ -56,7 +56,7 @@ def stage_getter():
 		warn_builder(file)
 
 		for stage in ssbrc.stage:
-			js_write(file, f'$$(operation) with storage ssbrc:data stage.{stage}\n')
+			js_write(file, f'$$(operation) with storage ssbrc:data stage.{stage}', 1)
 
 def create_series_tags():
 	'''Initializes series tags.'''

@@ -1,4 +1,6 @@
-data modify storage ssbrc:data ui merge value {path:"shop/pages/skin/wolf",name:"wolf"}
+# This file is controlled by the build script. Changes should be made in the respective file.
+
+data modify storage ssbrc:data ui merge value {path:"shop/buttons/skin/find_page",name:"wolf"}
 $function ssbrc:logic/ui/page_color/skin {page:"$(page)"}
 function ssbrc:logic/ui/reset with storage ssbrc:data ui
 
