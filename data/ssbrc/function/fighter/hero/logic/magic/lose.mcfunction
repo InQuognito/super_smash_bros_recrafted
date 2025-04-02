@@ -3,7 +3,8 @@ title @s actionbar [{"translate":"ssbrc.fighter.hero.warrior_switch","bold":true
 tag @s add magic_lost
 tag @s add hud_disabled
 
-clear @s minecraft:stick[minecraft:custom_data~{group:"hero.spell"}]
+clear @s minecraft:stick[minecraft:custom_data~{item:"bang"}]
+clear @s minecraft:stick[minecraft:custom_data~{item:"kaclang"}]
 
 function ssbrc:logic/item/init/replace {search_key:"item",search_value:"hero.sword",item:"sword",type:"default"}
 
