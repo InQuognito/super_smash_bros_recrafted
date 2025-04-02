@@ -52,7 +52,7 @@
 						{
 							"function": "minecraft:set_components",
 							"components": {
-								"minecraft:item_model": "ssbrc:fighter/mega_man/item/hyper_bomb"
+								"minecraft:item_model": "ssbrc:common/bomb/black"
 							}
 						},
 						{

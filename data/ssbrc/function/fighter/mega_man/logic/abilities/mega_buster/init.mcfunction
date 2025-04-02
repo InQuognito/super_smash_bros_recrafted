@@ -1,8 +1,7 @@
 tag @s add mega_buster
 $tag @s add $(skin)
 
-item replace entity @s[tag=!star_force] contents with minecraft:stick[minecraft:item_model="ssbrc:fighter/mega_man/projectile/mega_buster/default"]
-item replace entity @s[tag=star_force] contents with minecraft:stick[minecraft:item_model="ssbrc:fighter/mega_man/projectile/mega_buster/star_force"]
+function ssbrc:fighter/mega_man/logic/abilities/mega_buster/model
 
 data merge entity @s {teleport_duration:1}
 
