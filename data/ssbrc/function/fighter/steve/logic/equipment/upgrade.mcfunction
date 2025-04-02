@@ -5,7 +5,7 @@ execute if items entity @s container.* minecraft:diamond run tag @s add has_diam
 
 clear @s *[minecraft:custom_data~{steve_item:true}]
 
-clear @s #minecraft:swords
+clear @s minecraft:stick[minecraft:custom_data~{item:"steve.sword"}]
 clear @s minecraft:stick[minecraft:custom_data~{item:"steve.pickaxe"}]
 
 execute if entity @s[tag=has_cobblestone] run function ssbrc:fighter/steve/logic/equipment/tiers/stone
