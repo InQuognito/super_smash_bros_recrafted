@@ -4,4 +4,4 @@ execute if items entity @s container.* minecraft:flint run function ssbrc:fighte
 execute if items entity @s container.* minecraft:oak_planks run function ssbrc:fighter/steve/logic/equipment/others/shield
 execute if items entity @s container.* minecraft:netherite_scrap run function ssbrc:fighter/steve/logic/equipment/tiers/netherite
 
-clear @s *[minecraft:custom_data~{steve_item:true}]
+clear @s *[minecraft:custom_data~{steve_item:"true"}]

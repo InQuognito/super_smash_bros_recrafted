@@ -3,7 +3,7 @@ execute if items entity @s container.* minecraft:gold_ingot run tag @s add has_g
 execute if items entity @s container.* minecraft:iron_ingot run tag @s add has_iron
 execute if items entity @s container.* minecraft:diamond run tag @s add has_diamond
 
-clear @s *[minecraft:custom_data~{steve_item:true}]
+clear @s *[minecraft:custom_data~{steve_item:"true"}]
 
 clear @s minecraft:stick[minecraft:custom_data~{item:"steve.sword"}]
 clear @s minecraft:stick[minecraft:custom_data~{item:"steve.pickaxe"}]
