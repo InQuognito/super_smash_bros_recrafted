@@ -21,6 +21,6 @@ function ssbrc:logic/fighter/armor/update/check
 
 playsound ssbrc:fighter.joker.persona_awakening.activate player @a
 
-execute if data storage ssbrc:temp player.temp_data{persona:"jack_frost"} run return run function ssbrc:logic/item/init/replace {search_key:"item",search_value:"rebel_knife",item:"rebel_knife_freeze",type:"skin"}
-execute if data storage ssbrc:temp player.temp_data{persona:"jack_o_lantern"} run return run function ssbrc:logic/item/init/replace {search_key:"item",search_value:"rebel_knife",item:"rebel_knife_fire",type:"skin"}
-function ssbrc:logic/item/init/replace {search_key:"item",search_value:"rebel_knife",item:"rebel_knife",type:"skin"}
+execute if data storage ssbrc:temp player.temp_data{persona:"jack_frost"} run return run function ssbrc:logic/item/init/replace {search_key:"item",search_value:"rebel_knife",item:"rebel_knife_freeze",type:"default"}
+execute if data storage ssbrc:temp player.temp_data{persona:"jack_o_lantern"} run return run function ssbrc:logic/item/init/replace {search_key:"item",search_value:"rebel_knife",item:"rebel_knife_fire",type:"default"}
+function ssbrc:logic/item/init/replace {search_key:"item",search_value:"rebel_knife",item:"rebel_knife",type:"default"}
