@@ -133,7 +133,8 @@
 							"function": "minecraft:set_custom_data",
 							"tag": {
 								"item": "drone",
-								"cooldown": 5
+								"cooldown": 5,
+								"alt_cooldown": 300
 							}
 						}
 					]
