@@ -133,20 +133,20 @@ def shop_entry(fighter, path):
 
 		js_write(file, 'data modify storage ssbrc:data ui merge value {path:"shop/buttons/skin/find_page",name:"' + fighter + '"}')
 		js_write(file, '$function ssbrc:logic/ui/page_color/skin {page:"$(page)"}')
-		js_write(file, 'function ssbrc:logic/ui/reset with storage ssbrc:data ui', 1)
+		js_write(file, 'function ssbrc:logic/ui/fighter_reset with storage ssbrc:data ui', 1)
 
-		js_write(file, 'function ssbrc:logic/ui/buttons/placeholder/get {slot:"0"}')
+		js_write(file, 'function ssbrc:logic/ui/buttons/fighter_placeholder/get {slot:"0"}')
 		js_write(file, '$function ssbrc:logic/ui/buttons/navigator {path:"shop/pages/fighter/$(page)",type:"back",slot:"9"}')
-		js_write(file, 'function ssbrc:logic/ui/buttons/placeholder/get {slot:"18"}', 1)
+		js_write(file, 'function ssbrc:logic/ui/buttons/fighter_placeholder/get {slot:"18"}', 1)
 
 		for skin in ssbrc.fighter[fighter]['skin']:
 			js_write(file, 'function ssbrc:shop/buttons/skin/get {skin:"' + skin + '",slot:"' + str(shop_pages[n]) + '",price:"price.skin.common"}')
 			n += 1
 		js_write(file, '')
 
-		js_write(file, 'function ssbrc:logic/ui/buttons/placeholder/get {slot:"8"}')
-		js_write(file, 'function ssbrc:logic/ui/buttons/placeholder/get {slot:"17"}')
-		js_write(file, 'function ssbrc:logic/ui/buttons/placeholder/get {slot:"26"}')
+		js_write(file, 'function ssbrc:logic/ui/buttons/fighter_placeholder/get {slot:"8"}')
+		js_write(file, 'function ssbrc:logic/ui/buttons/fighter_placeholder/get {slot:"17"}')
+		js_write(file, 'function ssbrc:logic/ui/buttons/fighter_placeholder/get {slot:"26"}')
 
 def random_skin(fighter, path):
 	'''Initializes the file containing the random skin selection for the fighter.'''

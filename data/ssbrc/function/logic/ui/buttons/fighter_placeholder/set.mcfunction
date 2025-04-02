@@ -9,7 +9,8 @@ $item modify entity @s enderchest.$(slot) [ \
 		"function": "minecraft:set_custom_data", \
 		"tag": { \
 			"ui": { \
-				"type": "default", \
+				"type": "fighter", \
+				"name": "$(name)", \
 				"navigation": "$(path)", \
 				"sound": "ssbrc:empty" \
 			} \
