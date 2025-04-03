@@ -9,6 +9,10 @@
 					"name": "minecraft:stick",
 					"functions": [
 						{
+							"function": "minecraft:reference",
+							"name": "ssbrc:init/preset/defensive"
+						},
+						{
 							"function": "minecraft:set_components",
 							"components": {
 								"minecraft:blocks_attacks": {
@@ -19,10 +23,6 @@
 								"minecraft:max_damage": 30,
 								"minecraft:item_model": "minecraft:shield"
 							}
-						},
-						{
-							"function": "minecraft:reference",
-							"name": "ssbrc:init/preset/defensive"
 						},
 						{
 							"function": "minecraft:set_custom_data",
