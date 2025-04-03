@@ -9,19 +9,22 @@
 				{
 					"type": "minecraft:attack_damage",
 					"id": "ssbrc:attack_damage",
-					"amount": 8,
+					"amount": 4,
 					"operation": "add_multiplied_base",
 					"slot": "mainhand"
 				},
 				{
 					"type": "minecraft:attack_speed",
 					"id": "ssbrc:attack_speed",
-					"amount": 0.5,
+					"amount": 1.5,
 					"operation": "add_multiplied_base",
 					"slot": "mainhand"
 				}
 			],
-			"minecraft:item_model": "ssbrc:fighter/ganondorf/item/sword"
+			"minecraft:enchantments": {
+				"ssbrc:fighter/hero/flame_slash": 1
+			},
+			"minecraft:item_model": "ssbrc:fighter/hero/item/sword"
 		}
 	},
 	{
@@ -31,8 +34,9 @@
 	{
 		"function": "minecraft:set_custom_data",
 		"tag": {
-			"item": "ganondorf.sword",
-			"damage": 8
+			"item": "hero.sword",
+			"group": "hero.spell",
+			"damage": 4
 		}
 	}
 ]

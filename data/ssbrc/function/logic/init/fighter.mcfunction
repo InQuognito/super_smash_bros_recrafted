@@ -779,7 +779,7 @@ data modify storage ssbrc:data fighter set value {\
 					"color": "yellow",\
 				},\
 				"sofia": {\
-					"name": "ssbrc.fighter.hero.sword.default",\
+					"name": "ssbrc.fighter.hero.sword.solo",\
 					"tag": "sword",\
 					"color": "yellow",\
 				},\
