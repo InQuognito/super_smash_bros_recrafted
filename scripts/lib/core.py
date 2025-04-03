@@ -48,10 +48,9 @@ def mc_write(file, type, indent=0, key='', value=''):
 		case 'root_e': content += qm + str(key) + suf_e
 		case 'root_s': content += ent
 		case 'item_s': content += string_case + suf_s
-		case 'last_s': content += string_case + qm
 		case 'item_n': content += qm + str(key) + sep_n + str(value) + ','
 		case 'fixed': content += key
-	file.write(content + '\\\n')
+	file.write(content + ' \\\n')
 
 def js_write(file, str, n=0):
 	'''Write to file, JSON format.'''
@@ -195,5 +194,14 @@ def init_item_data(file, fighter, skin, item):
 		mc_write(file, 'item_s', 5, 'color', path[skin]['color'])
 	else:
 		mc_write(file, 'item_s', 5, 'color', path['default']['color'])
+
+	if 'type' in path.keys():
+		type = path['type']
+		match type:
+			case 'shield':
+				if 'model' in path[skin].keys():
+					mc_write(file, 'item_s', 5, 'model', path[skin]['model'])
+				else:
+					mc_write(file, 'item_s', 5, 'model', skin)
 
 	mc_write(file, 'root_s', 4)

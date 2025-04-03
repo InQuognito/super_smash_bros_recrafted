@@ -6,7 +6,6 @@ def stage_storage():
 		warn_builder(file)
 
 		mc_write(file, 'fixed', 0, 'data modify storage ssbrc:data stage set value {')
-		n = 1
 		for stage in ssbrc.stage:
 			path = ssbrc.stage[stage]
 			series = path['series']
@@ -26,28 +25,14 @@ def stage_storage():
 			mc_write(file, 'item_s', 2, 'time', path['time'])
 			mc_write(file, 'item_s', 2, 'weather', path['weather'])
 			mc_write(file, 'root_e', 2, 'spawnpoints')
-			s = 1
 			for i, pos in path['spawnpoints'].items():
-				if s < 8:
-					mc_write(file, 'item_s', 3, i, pos)
-				else:
-					mc_write(file, 'last_s', 3, i, pos)
-				s += 1
+				mc_write(file, 'item_s', 3, i, pos)
 			mc_write(file, 'root_s', 2)
 			mc_write(file, 'root_e', 2, 'item_spawnpoints')
-			s = 1
 			for i, pos in path['item_spawnpoints'].items():
-				if s < 20:
-					mc_write(file, 'item_s', 3, i, pos)
-				else:
-					mc_write(file, 'last_s', 3, i, pos)
-				s += 1
+				mc_write(file, 'item_s', 3, i, pos)
 			mc_write(file, 'fixed', 2, '}')
-			if n < len(ssbrc.stage):
-				mc_write(file, 'root_s', 1)
-			else:
-				mc_write(file, 'fixed', 1, '}')
-			n += 1
+			mc_write(file, 'root_s', 1)
 		file.write('}\n')
 
 def stage_getter():

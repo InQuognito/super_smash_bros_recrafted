@@ -58,7 +58,7 @@
 						},
 						{
 							"function": "minecraft:set_custom_data",
-							"tag": "{item:\"small_shield\",group:\"passive_item\",cooldown:10}"
+							"tag": "{item:\"small_shield\",group:\"passive_item\"}"
 						}
 					]
 				}

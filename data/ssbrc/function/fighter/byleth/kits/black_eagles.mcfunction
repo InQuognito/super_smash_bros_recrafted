@@ -4,4 +4,4 @@ function ssbrc:logic/item/init/slot {item:"steel_bow",slot:"hotbar.1",type:"defa
 
 item replace entity @s hotbar.8 with minecraft:spectral_arrow 8
 
-loot replace entity @s weapon.offhand loot ssbrc:fighter/byleth/shield
+function ssbrc:logic/item/init/slot {item:"steel_shield",slot:"weapon.offhand",type:"shield"}

@@ -12,9 +12,5 @@
 	{
 		"function": "minecraft:reference",
 		"name": "ssbrc:init/preset/defensive"
-	},
-	{
-		"function": "minecraft:set_custom_data",
-		"tag": "{item:\"shield\"}"
 	}
 ]

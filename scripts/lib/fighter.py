@@ -76,6 +76,17 @@ def fighter_storage():
 			if 'items' in path.keys():
 				for item in path['items']:
 					mc_write(file, 'root_e', 3, item)
+					if 'type' in ssbrc.fighter[fighter]['items'][item].keys():
+						mc_write(file, 'root_e', 4, 'stats')
+						stat = ssbrc.fighter[fighter]['items'][item]['stats']
+						type = ssbrc.fighter[fighter]['items'][item]['type']
+						match type:
+							case 'shield':
+								mc_write(file, 'item_n', 5, 'max_damage', stat['max_damage'])
+								mc_write(file, 'item_n', 5, 'block_delay_seconds', stat['block_delay_seconds'])
+								mc_write(file, 'item_s', 5, 'block_sound', stat['block_sound'])
+								mc_write(file, 'item_s', 5, 'disabled_sound', stat['disabled_sound'])
+						mc_write(file, 'root_s', 4)
 					for skin in ['default','gold']:
 						init_item_data(file, fighter, skin, item)
 					for skin in path['skin']:
