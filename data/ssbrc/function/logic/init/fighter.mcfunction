@@ -722,6 +722,24 @@ data modify storage ssbrc:data fighter set value { \
 		"skin": { \
 		}, \
 		"items": { \
+			"devastation_strike": { \
+				"stats": { \
+					"attack_damage": 7, \
+					"attack_speed": 2, \
+					"item_damage_on_attack": 0, \
+					"disable_blocking_for_seconds": 0.0, \
+				}, \
+				"default": { \
+					"name": "ssbrc.fighter.giegue.devastation_strike", \
+					"tag": "devastation_strike", \
+					"color": "dark_gray", \
+				}, \
+				"gold": { \
+					"name": "ssbrc.fighter.giegue.devastation_strike", \
+					"tag": "devastation_strike", \
+					"color": "dark_gray", \
+				}, \
+			}, \
 		} \
 	}, \
 	"greninja": { \
@@ -919,6 +937,12 @@ data modify storage ssbrc:data fighter set value { \
 		}, \
 		"items": { \
 			"pound": { \
+				"stats": { \
+					"attack_damage": 6, \
+					"attack_speed": 0.75, \
+					"item_damage_on_attack": 0, \
+					"disable_blocking_for_seconds": 5.0, \
+				}, \
 				"default": { \
 					"name": "ssbrc.fighter.jigglypuff.pound", \
 					"tag": "pound", \
@@ -1354,6 +1378,12 @@ data modify storage ssbrc:data fighter set value { \
 		}, \
 		"items": { \
 			"hammer": { \
+				"stats": { \
+					"attack_damage": 5, \
+					"attack_speed": 1, \
+					"item_damage_on_attack": 0, \
+					"disable_blocking_for_seconds": 5.0, \
+				}, \
 				"default": { \
 					"name": "ssbrc.fighter.super_mario_bros.hammer", \
 					"tag": "hammer", \
@@ -1438,6 +1468,12 @@ data modify storage ssbrc:data fighter set value { \
 		}, \
 		"items": { \
 			"hammer": { \
+				"stats": { \
+					"attack_damage": 6, \
+					"attack_speed": 0.5, \
+					"item_damage_on_attack": 0, \
+					"disable_blocking_for_seconds": 5.0, \
+				}, \
 				"default": { \
 					"name": "ssbrc.fighter.super_mario_bros.hammer", \
 					"tag": "hammer", \
@@ -1696,6 +1732,12 @@ data modify storage ssbrc:data fighter set value { \
 		}, \
 		"items": { \
 			"mr_baseball_bat": { \
+				"stats": { \
+					"attack_damage": 7, \
+					"attack_speed": 2, \
+					"item_damage_on_attack": 0, \
+					"disable_blocking_for_seconds": 0.0, \
+				}, \
 				"default": { \
 					"name": "ssbrc.fighter.ness.mr_baseball_bat", \
 					"tag": "mr_baseball_bat", \
@@ -1769,30 +1811,36 @@ data modify storage ssbrc:data fighter set value { \
 		}, \
 		"items": { \
 			"mega_punch": { \
+				"stats": { \
+					"attack_damage": 6, \
+					"attack_speed": 1, \
+					"item_damage_on_attack": 0, \
+					"disable_blocking_for_seconds": 0.0, \
+				}, \
 				"default": { \
 					"name": "ssbrc.fighter.pokemon.mega_punch", \
 					"tag": "mega_punch", \
-					"color": "dark_gray", \
+					"color": "white", \
 				}, \
 				"gold": { \
 					"name": "ssbrc.fighter.pokemon.mega_punch", \
 					"tag": "mega_punch", \
-					"color": "dark_gray", \
+					"color": "white", \
 				}, \
 				"shiny": { \
 					"name": "ssbrc.fighter.pokemon.mega_punch", \
 					"tag": "mega_punch", \
-					"color": "dark_gray", \
+					"color": "white", \
 				}, \
 				"pikachu_libre": { \
 					"name": "ssbrc.fighter.pokemon.mega_punch", \
 					"tag": "mega_punch", \
-					"color": "dark_gray", \
+					"color": "white", \
 				}, \
 				"holiday": { \
 					"name": "ssbrc.fighter.pokemon.mega_punch", \
 					"tag": "mega_punch", \
-					"color": "dark_gray", \
+					"color": "white", \
 				}, \
 			}, \
 		} \
@@ -2662,6 +2710,24 @@ data modify storage ssbrc:data fighter set value { \
 		"skin": { \
 		}, \
 		"items": { \
+			"scratch": { \
+				"stats": { \
+					"attack_damage": 3, \
+					"attack_speed": 3.5, \
+					"item_damage_on_attack": 0, \
+					"disable_blocking_for_seconds": 0.0, \
+				}, \
+				"default": { \
+					"name": "ssbrc.fighter.team_rocket.meowth.scratch", \
+					"tag": "meowth", \
+					"color": "white", \
+				}, \
+				"gold": { \
+					"name": "ssbrc.fighter.team_rocket.meowth.scratch", \
+					"tag": "meowth", \
+					"color": "white", \
+				}, \
+			}, \
 		} \
 	}, \
 	"wolf": { \
@@ -2772,23 +2838,6 @@ data modify storage ssbrc:data fighter set value { \
 					"color": "white", \
 				}, \
 			}, \
-			"trionic_blade": { \
-				"default": { \
-					"name": "ssbrc.fighter.yar.trionic_blade", \
-					"tag": "trionic_blade", \
-					"color": "white", \
-				}, \
-				"gold": { \
-					"name": "ssbrc.fighter.yar.trionic_blade", \
-					"tag": "trionic_blade", \
-					"color": "gold", \
-				}, \
-				"recruit": { \
-					"name": "ssbrc.fighter.yar.trionic_blade", \
-					"tag": "trionic_blade", \
-					"color": "white", \
-				}, \
-			}, \
 			"missile_launcher": { \
 				"default": { \
 					"name": "ssbrc.fighter.yar.missile_launcher", \
@@ -2837,6 +2886,29 @@ data modify storage ssbrc:data fighter set value { \
 				"recruit": { \
 					"name": "ssbrc.fighter.yar.ray_blaster", \
 					"tag": "ray_blaster", \
+					"color": "white", \
+				}, \
+			}, \
+			"trionic_blade": { \
+				"stats": { \
+					"attack_damage": 4, \
+					"attack_speed": 1, \
+					"item_damage_on_attack": 0, \
+					"disable_blocking_for_seconds": 0.0, \
+				}, \
+				"default": { \
+					"name": "ssbrc.fighter.yar.trionic_blade", \
+					"tag": "trionic_blade", \
+					"color": "white", \
+				}, \
+				"gold": { \
+					"name": "ssbrc.fighter.yar.trionic_blade", \
+					"tag": "trionic_blade", \
+					"color": "gold", \
+				}, \
+				"recruit": { \
+					"name": "ssbrc.fighter.yar.trionic_blade", \
+					"tag": "trionic_blade", \
 					"color": "white", \
 				}, \
 			}, \
