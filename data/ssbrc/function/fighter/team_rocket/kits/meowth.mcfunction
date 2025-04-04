@@ -1,6 +1,6 @@
 function ssbrc:fighter/team_rocket/kits/update {form:"meowth",color:"yellow"}
 
-loot replace entity @s hotbar.0 loot ssbrc:fighter/team_rocket/meowth/scratch
+function ssbrc:logic/item/init/slot {item:"scratch",slot:"hotbar.0",type:"weapon_default"}
 
 loot replace entity @s hotbar.1 loot ssbrc:fighter/team_rocket/meowth/fury_swipes
 

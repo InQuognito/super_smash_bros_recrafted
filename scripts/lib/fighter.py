@@ -81,6 +81,17 @@ def fighter_storage():
 						stat = ssbrc.fighter[fighter]['items'][item]['stats']
 						type = ssbrc.fighter[fighter]['items'][item]['type']
 						match type:
+							case 'weapon':
+								mc_write(file, 'item_n', 5, 'attack_damage', stat['attack_damage'])
+								mc_write(file, 'item_n', 5, 'attack_speed', stat['attack_speed'])
+								if 'item_damage_on_attack' in stat.keys():
+									mc_write(file, 'item_n', 5, 'item_damage_on_attack', stat['item_damage_on_attack'])
+								else:
+									mc_write(file, 'item_n', 5, 'item_damage_on_attack', 0)
+								if 'disable_blocking_for_seconds' in stat.keys():
+									mc_write(file, 'item_n', 5, 'disable_blocking_for_seconds', stat['disable_blocking_for_seconds'])
+								else:
+									mc_write(file, 'item_n', 5, 'disable_blocking_for_seconds', 0.0)
 							case 'shield':
 								mc_write(file, 'item_n', 5, 'max_damage', stat['max_damage'])
 								mc_write(file, 'item_n', 5, 'block_delay_seconds', stat['block_delay_seconds'])

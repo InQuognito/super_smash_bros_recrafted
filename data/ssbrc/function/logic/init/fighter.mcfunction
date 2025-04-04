@@ -22,6 +22,12 @@ data modify storage ssbrc:data fighter set value { \
 		}, \
 		"items": { \
 			"bear_claw": { \
+				"stats": { \
+					"attack_damage": 8, \
+					"attack_speed": 0.5, \
+					"item_damage_on_attack": 0, \
+					"disable_blocking_for_seconds": 5.0, \
+				}, \
 				"default": { \
 					"name": "ssbrc.fighter.altered_beast.bear_claw", \
 					"tag": "bear_claw", \
@@ -39,6 +45,12 @@ data modify storage ssbrc:data fighter set value { \
 				}, \
 			}, \
 			"dragon_claw": { \
+				"stats": { \
+					"attack_damage": 6, \
+					"attack_speed": 1, \
+					"item_damage_on_attack": 0, \
+					"disable_blocking_for_seconds": 0.0, \
+				}, \
 				"default": { \
 					"name": "ssbrc.fighter.altered_beast.dragon_claw", \
 					"tag": "dragon_claw", \
@@ -55,7 +67,36 @@ data modify storage ssbrc:data fighter set value { \
 					"color": "white", \
 				}, \
 			}, \
+			"gladius": { \
+				"stats": { \
+					"attack_damage": 6, \
+					"attack_speed": 1, \
+					"item_damage_on_attack": 0, \
+					"disable_blocking_for_seconds": 5.0, \
+				}, \
+				"default": { \
+					"name": "ssbrc.fighter.altered_beast.centurion.gladius", \
+					"tag": "centurion", \
+					"color": "white", \
+				}, \
+				"gold": { \
+					"name": "ssbrc.fighter.altered_beast.centurion.gladius", \
+					"tag": "centurion", \
+					"color": "gold", \
+				}, \
+				"player_2": { \
+					"name": "ssbrc.fighter.altered_beast.centurion.gladius", \
+					"tag": "centurion", \
+					"color": "white", \
+				}, \
+			}, \
 			"tiger_claw": { \
+				"stats": { \
+					"attack_damage": 7, \
+					"attack_speed": 0.5, \
+					"item_damage_on_attack": 0, \
+					"disable_blocking_for_seconds": 0.0, \
+				}, \
 				"default": { \
 					"name": "ssbrc.fighter.altered_beast.tiger_claw", \
 					"tag": "tiger_claw", \
@@ -195,6 +236,12 @@ data modify storage ssbrc:data fighter set value { \
 		}, \
 		"items": { \
 			"power_band": { \
+				"stats": { \
+					"attack_damage": 8, \
+					"attack_speed": 1, \
+					"item_damage_on_attack": 0, \
+					"disable_blocking_for_seconds": 0.0, \
+				}, \
 				"default": { \
 					"name": "ssbrc.fighter.bowser.power_band", \
 					"tag": "power_band", \
@@ -626,6 +673,12 @@ data modify storage ssbrc:data fighter set value { \
 		}, \
 		"items": { \
 			"sword": { \
+				"stats": { \
+					"attack_damage": 8, \
+					"attack_speed": 0.5, \
+					"item_damage_on_attack": 0, \
+					"disable_blocking_for_seconds": 0.0, \
+				}, \
 				"default": { \
 					"name": "ssbrc.fighter.ganondorf.sword.default", \
 					"tag": "sword", \
@@ -1046,6 +1099,12 @@ data modify storage ssbrc:data fighter set value { \
 		}, \
 		"items": { \
 			"boxing_glove": { \
+				"stats": { \
+					"attack_damage": 7, \
+					"attack_speed": 0.75, \
+					"item_damage_on_attack": 0, \
+					"disable_blocking_for_seconds": 0.0, \
+				}, \
 				"default": { \
 					"name": "ssbrc.fighter.king_k_rool.boxing_glove", \
 					"tag": "boxing_glove", \
@@ -1864,6 +1923,12 @@ data modify storage ssbrc:data fighter set value { \
 		}, \
 		"items": { \
 			"robo_rotor": { \
+				"stats": { \
+					"attack_damage": 6, \
+					"attack_speed": 2, \
+					"item_damage_on_attack": 0, \
+					"disable_blocking_for_seconds": 0.0, \
+				}, \
 				"default": { \
 					"name": "ssbrc.fighter.rob.robo_rotor", \
 					"tag": "robo_rotor", \
@@ -2082,6 +2147,12 @@ data modify storage ssbrc:data fighter set value { \
 		}, \
 		"items": { \
 			"sword": { \
+				"stats": { \
+					"attack_damage": 3, \
+					"attack_speed": 5, \
+					"item_damage_on_attack": 0, \
+					"disable_blocking_for_seconds": 0.0, \
+				}, \
 				"default": { \
 					"name": "ssbrc.fighter.shadow.sword.default", \
 					"tag": "sword", \
@@ -2363,6 +2434,39 @@ data modify storage ssbrc:data fighter set value { \
 			} \
 		}, \
 		"items": { \
+			"sonic_punch": { \
+				"stats": { \
+					"attack_damage": 4, \
+					"attack_speed": 6, \
+					"item_damage_on_attack": 0, \
+					"disable_blocking_for_seconds": 0.0, \
+				}, \
+				"default": { \
+					"name": "ssbrc.fighter.sonic.sonic_punch", \
+					"tag": "sonic_punch", \
+					"color": "blue", \
+				}, \
+				"gold": { \
+					"name": "ssbrc.fighter.sonic.sonic_punch", \
+					"tag": "sonic_punch", \
+					"color": "blue", \
+				}, \
+				"classic": { \
+					"name": "ssbrc.fighter.sonic.sonic_punch", \
+					"tag": "sonic_punch", \
+					"color": "blue", \
+				}, \
+				"werehog": { \
+					"name": "ssbrc.fighter.sonic.sonic_punch", \
+					"tag": "sonic_punch", \
+					"color": "blue", \
+				}, \
+				"hylian_tunic": { \
+					"name": "ssbrc.fighter.sonic.sonic_punch", \
+					"tag": "sonic_punch", \
+					"color": "blue", \
+				}, \
+			}, \
 		} \
 	}, \
 	"sora": { \

@@ -1,6 +1,5 @@
-$loot replace entity @s $(slot) loot ssbrc:fighter/$(fighter)/$(item)
+function ssbrc:logic/item/init/set/common with storage ssbrc:temp item
 
-$data modify storage ssbrc:temp item merge from storage ssbrc:data fighter.$(fighter).items.$(item).$(skin)
-$data modify storage ssbrc:temp item.slot set value "$(slot)"
+$loot replace entity @s $(slot) loot ssbrc:fighter/$(fighter)/$(item)
 
 $function ssbrc:logic/item/init/update/$(type) with storage ssbrc:temp item

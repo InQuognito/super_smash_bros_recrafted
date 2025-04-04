@@ -6,4 +6,4 @@ data modify storage ssbrc:temp item.slot set from storage ssbrc:output slot_stri
 
 $data modify storage ssbrc:temp item merge value {item:"$(item)",type:"$(type)"}
 
-function ssbrc:logic/item/init/default/set with storage ssbrc:temp item
+function ssbrc:logic/item/init/set/default with storage ssbrc:temp item

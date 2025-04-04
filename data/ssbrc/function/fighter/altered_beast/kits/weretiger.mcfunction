@@ -4,7 +4,7 @@ attribute @s minecraft:safe_fall_distance base set 20.0
 
 effect give @s minecraft:resistance 2 3 true
 
-function ssbrc:logic/item/init/slot {item:"tiger_claw",slot:"hotbar.0",type:"default"}
+function ssbrc:logic/item/init/slot {item:"tiger_claw",slot:"hotbar.0",type:"weapon_default"}
 loot replace entity @s hotbar.1 loot ssbrc:fighter/altered_beast/sabretooth
 
 item modify entity @s armor.chest [{"function":"minecraft:reference","name":"ssbrc:init/tooltip/separator"},{"function":"minecraft:set_lore","entity":"this","lore":[{"translate":"ssbrc.fighter.altered_beast.weretiger.champion_of_zeus","color":"yellow","italic":false,"underlined":true},{"translate":"ssbrc.fighter.altered_beast.weretiger.champion_of_zeus.description.1","color":"gray","italic":false}],"mode":"append"}]

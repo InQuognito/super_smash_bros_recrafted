@@ -1,4 +1,4 @@
-function ssbrc:logic/item/init/slot {item:"sword",slot:"hotbar.0",type:"default"}
+function ssbrc:logic/item/init/slot {item:"sword",slot:"hotbar.0",type:"weapon_default"}
 
 loot replace entity @s hotbar.1 loot ssbrc:fighter/shadow/chaos_spear
 

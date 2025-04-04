@@ -5,8 +5,27 @@ attribute @s minecraft:follow_range base set 2048.0
 attribute @s minecraft:movement_speed base set 0.3
 attribute @s minecraft:max_health base set 8.0
 
-loot replace entity @s weapon.mainhand loot ssbrc:fighter/ganondorf/stalfos_sword
-item replace entity @s weapon.offhand with minecraft:stick
+item replace entity @s weapon.mainhand with minecraft:stick[ \
+	minecraft:weapon = { \
+		item_damage_per_attack: 0 \
+	}, \
+	minecraft:attribute_modifiers = [ \
+		{ \
+			"type": "minecraft:attack_damage", \
+			"id": "ssbrc:attack_damage", \
+			"amount": 3, \
+			"operation": "add_multiplied_base", \
+			"slot": "mainhand" \
+		} \
+	], \
+	minecraft:item_model = "ssbrc:fighter/ganondorf/misc/stalfos_sword", \
+	minecraft:custom_data = { \
+		"item": "stalfos_sword", \
+		"damage": 3 \
+	} \
+]
+
+item replace entity @s weapon.offhand with minecraft:stick[minecraft:item_model="minecraft:shield"]
 
 item replace entity @s armor.head with minecraft:leather_helmet
 item replace entity @s armor.chest with minecraft:air
