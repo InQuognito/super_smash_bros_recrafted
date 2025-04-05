@@ -11,8 +11,7 @@ execute if score random.output temp matches 6 unless items entity @s container.*
 execute if score random.output temp matches 7 unless items entity @s container.* minecraft:stick[minecraft:custom_data~{persona:"sandman"}] run loot replace entity @s hotbar.7 loot ssbrc:fighter/joker/personas/sandman/mask
 execute if score random.output temp matches 8 unless items entity @s container.* minecraft:stick[minecraft:custom_data~{persona:"yatagarasu"}] run loot replace entity @s hotbar.7 loot ssbrc:fighter/joker/personas/yatagarasu/mask
 
-execute unless data storage ssbrc:temp player.temp_data{skin:"gold"} run item modify entity @s hotbar.7 {"function":"minecraft:set_components","components":{"minecraft:item_model":"ssbrc:fighter/joker/item/mask/default"}}
-execute if data storage ssbrc:temp player.temp_data{skin:"gold"} run item modify entity @s hotbar.7 {"function":"minecraft:set_components","components":{"minecraft:item_model":"ssbrc:fighter/joker/item/mask/gold"}}
+execute if data storage ssbrc:temp player.temp_data{skin:"gold"} run item modify entity @s hotbar.7 {"function":"minecraft:set_components","components":{"minecraft:custom_model_data":{strings:["gold"]}}}
 
 execute if items entity @s container.* minecraft:stick[minecraft:custom_data~{group:"mask"}] run return 1
 function ssbrc:fighter/joker/logic/masks/get
