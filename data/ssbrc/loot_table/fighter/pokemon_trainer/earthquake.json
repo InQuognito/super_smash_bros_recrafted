@@ -12,7 +12,7 @@
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"translate": "ssbrc.fighter.pokemon_trainer.charizard.earthquake",
+								"translate": "ssbrc.fighter.pokemon_trainer.earthquake",
 								"color": "gold",
 								"bold": true,
 								"italic": false
@@ -47,7 +47,7 @@
 											"italic": false
 										},
 										{
-											"translate": "ssbrc.fighter.pokemon_trainer.charizard.earthquake.description.1",
+											"translate": "ssbrc.fighter.pokemon_trainer.earthquake.description.1",
 											"color": "gray",
 											"bold": false,
 											"italic": false

@@ -36,5 +36,5 @@ item replace entity @s weapon.offhand with minecraft:stick[ \
 
 item modify entity @s weapon.offhand { \
 	"function": "minecraft:reference", \
-	"name": "ssbrc:init/tooltip/ability/melee" \
+	"name": "ssbrc:init/item/melee" \
 }

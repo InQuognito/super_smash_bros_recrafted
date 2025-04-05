@@ -26,7 +26,7 @@ $item modify entity @s $(slot) [ \
 	}, \
 	{ \
 		"function": "minecraft:reference", \
-		"name": "ssbrc:init/tooltip/ability/hybrid" \
+		"name": "ssbrc:init/item/hybrid" \
 	}, \
 	{ \
 		"function": "minecraft:set_lore", \

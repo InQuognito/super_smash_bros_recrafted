@@ -10,13 +10,11 @@
 					"operation": "add_multiplied_total",
 					"slot": "mainhand"
 				}
-			],
-			"minecraft:tooltip_display": {
-				"hidden_components": [
-					"minecraft:attribute_modifiers",
-					"minecraft:unbreakable"
-				]
-			}
+			]
 		}
+	},
+	{
+		"function": "minecraft:reference",
+		"name": "ssbrc:init/item/common"
 	}
 ]

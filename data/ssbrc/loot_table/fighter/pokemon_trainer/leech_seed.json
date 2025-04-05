@@ -12,7 +12,7 @@
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"translate": "ssbrc.fighter.pokemon_trainer.ivysaur.leech_seed",
+								"translate": "ssbrc.fighter.pokemon_trainer.leech_seed",
 								"color": "green",
 								"bold": true,
 								"italic": false
@@ -47,7 +47,7 @@
 											"italic": false
 										},
 										{
-											"translate": "ssbrc.fighter.pokemon_trainer.ivysaur.leech_seed.description.1",
+											"translate": "ssbrc.fighter.pokemon_trainer.leech_seed.description.1",
 											"color": "gray",
 											"bold": false,
 											"italic": false
@@ -55,13 +55,13 @@
 									]
 								},
 								{
-									"translate": "ssbrc.fighter.pokemon_trainer.ivysaur.leech_seed.description.2",
+									"translate": "ssbrc.fighter.pokemon_trainer.leech_seed.description.2",
 									"color": "gray",
 									"bold": false,
 									"italic": false
 								},
 								{
-									"translate": "ssbrc.fighter.pokemon_trainer.ivysaur.leech_seed.description.3",
+									"translate": "ssbrc.fighter.pokemon_trainer.leech_seed.description.3",
 									"color": "gray",
 									"bold": false,
 									"italic": false

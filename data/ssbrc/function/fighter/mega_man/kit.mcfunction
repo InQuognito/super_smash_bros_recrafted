@@ -1,6 +1,6 @@
 clear @s #ssbrc:equipment
 
-function ssbrc:logic/item/init/slot {item:"mega_buster",slot:"hotbar.0",type:"default"}
+function ssbrc:logic/item/init/slot {item:"mega_buster",slot:"hotbar.0",class:"default",type:"default"}
 
 function ssbrc:fighter/mega_man/logic/weapons/reset
 

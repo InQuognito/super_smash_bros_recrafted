@@ -175,33 +175,33 @@ def safe_fall_distance(value):
 	'''Returns the exact value of the safe_fall_distance category.'''
 	return safe_fall_distance_values.get(value, value)
 
+def item_data_fallback(file, path, key):
+	mc_write(file, 'item_s', 5, key, path['default'][key])
+
 def init_item_data(file, fighter, skin, item):
 	path = ssbrc.fighter[fighter]['items'][item]
 	mc_write(file, 'root_e', 4, skin)
+	if skin == 'static_data': skin = 'default'
+	if skin in path.keys():
+		if 'name' in path[skin].keys():
+			mc_write(file, 'item_s', 5, 'name', path[skin]['name'])
+		else:
+			item_data_fallback(file, path, 'name')
 
-	if 'name' in path[skin].keys():
-		mc_write(file, 'item_s', 5, 'name', path[skin]['name'])
-		if fighter != 'steve':
-			tag = path[skin]['name'].split('.')
-			mc_write(file, 'item_s', 5, 'tag', tag[3])
+		if 'color' in path[skin].keys():
+			mc_write(file, 'item_s', 5, 'color', path[skin]['color'])
+		else:
+			item_data_fallback(file, path, 'color')
+
+		if 'type' in path.keys():
+			type = path['type']
+			match type:
+				case 'shield':
+					if 'model' in path[skin].keys():
+						mc_write(file, 'item_s', 5, 'model', path[skin]['model'])
+					else:
+						mc_write(file, 'item_s', 5, 'model', skin)
 	else:
-		mc_write(file, 'item_s', 5, 'name', path['default']['name'])
-		if fighter != 'steve':
-			tag = path['default']['name'].split('.')
-			mc_write(file, 'item_s', 5, 'tag', tag[3])
-
-	if 'color' in path[skin].keys():
-		mc_write(file, 'item_s', 5, 'color', path[skin]['color'])
-	else:
-		mc_write(file, 'item_s', 5, 'color', path['default']['color'])
-
-	if 'type' in path.keys():
-		type = path['type']
-		match type:
-			case 'shield':
-				if 'model' in path[skin].keys():
-					mc_write(file, 'item_s', 5, 'model', path[skin]['model'])
-				else:
-					mc_write(file, 'item_s', 5, 'model', skin)
+		mc_write(file, 'item_s', 5, 'inherit', 'default')
 
 	mc_write(file, 'root_s', 4)

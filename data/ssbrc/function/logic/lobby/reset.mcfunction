@@ -23,7 +23,7 @@ execute positioned -535.5 8.0 -1944.5 run summon minecraft:item_display ~ ~ ~ {T
 execute positioned -525.5 5.25 -1936.5 run summon minecraft:item_display ~ ~ ~ {CustomName:"sandbag",Tags:["selectable","standard_highlight"],item:{id:"minecraft:emerald",components:{"minecraft:item_model":"ssbrc:item/sandbag/default"}},Rotation:[-145f,0f]}
 
 # OST Pack
-summon minecraft:item_display -525.5 5.5 -1952.5 {CustomName:"assets",Tags:["selectable","standard_highlight"],item:{id:"minecraft:jukebox"},transformation:{left_rotation:[0.20f,0.35f,-0.1f,0.9f],right_rotation:[0f,0f,0f,1f],scale:[0.5f,0.5f,0.5f],translation:[0f,0f,0f]}}
+summon minecraft:item_display -525.5 5.5 -1952.5 {CustomName:"assets",Tags:["selectable"],item:{id:"minecraft:jukebox"},transformation:{left_rotation:[0.20f,0.35f,-0.1f,0.9f],right_rotation:[0f,0f,0f,1f],scale:[0.5f,0.5f,0.5f],translation:[0f,0f,0f]}}
 execute positioned -525.5 4.25 -1951.99 run summon minecraft:text_display ~ ~ ~ {text:{"text":"Click the jukebox to download the music pack!","color":"yellow"},transformation:[0.5f,0f,0f,0f,0f,0.5f,0f,0f,0f,0f,0.5f,0f,0f,0f,0f,1f],line_width:75,alignment:"center",background:0}
 
 setblock 0 16 0 minecraft:shulker_box replace

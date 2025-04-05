@@ -76,10 +76,10 @@ def fighter_storage():
 			if 'items' in path.keys():
 				for item in path['items']:
 					mc_write(file, 'root_e', 3, item)
-					if 'type' in ssbrc.fighter[fighter]['items'][item].keys():
+					if 'type' in path['items'][item].keys():
 						mc_write(file, 'root_e', 4, 'stats')
-						stat = ssbrc.fighter[fighter]['items'][item]['stats']
-						type = ssbrc.fighter[fighter]['items'][item]['type']
+						stat = path['items'][item]['stats']
+						type = path['items'][item]['type']
 						match type:
 							case 'weapon':
 								mc_write(file, 'item_n', 5, 'attack_damage', stat['attack_damage'])
@@ -98,10 +98,16 @@ def fighter_storage():
 								mc_write(file, 'item_s', 5, 'block_sound', stat['block_sound'])
 								mc_write(file, 'item_s', 5, 'disabled_sound', stat['disabled_sound'])
 						mc_write(file, 'root_s', 4)
-					for skin in ['default','gold']:
-						init_item_data(file, fighter, skin, item)
-					for skin in path['skin']:
-						init_item_data(file, fighter, skin, item)
+
+					excluded_keys = {'type', 'stats'}
+					item_overrides = sum(
+						bool(value) for key, value in path['items'][item].items() if key not in excluded_keys
+					)
+					if item_overrides > 1:
+						for skin in chain(['default', 'gold'], path['skin']):
+							init_item_data(file, fighter, skin, item)
+					else:
+						init_item_data(file, fighter, 'static_data', item)
 					mc_write(file, 'root_s', 3)
 			mc_write(file, 'fixed', 2, '}')
 			mc_write(file, 'root_s', 1)

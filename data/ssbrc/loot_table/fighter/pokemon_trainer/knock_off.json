@@ -32,12 +32,13 @@
 								],
 								"minecraft:enchantments": {
 									"ssbrc:fighter/pokemon_trainer/knock_off": 1
-								}
+								},
+								"minecraft:item_model": "ssbrc:fighter/pokemon_trainer/item/knock_off"
 							}
 						},
 						{
 							"function": "minecraft:reference",
-							"name": "ssbrc:init/tooltip/ability/melee"
+							"name": "ssbrc:init/item/melee"
 						},
 						{
 							"function": "minecraft:set_lore",

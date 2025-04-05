@@ -1,17 +1,12 @@
 [
 	{
 		"function": "minecraft:reference",
-		"name": "ssbrc:init/tooltip/ability/defensive"
+		"name": "ssbrc:init/item/defensive"
 	},
 	{
 		"function": "minecraft:set_components",
 		"components": {
-			"minecraft:max_stack_size": 1,
-			"minecraft:tooltip_display": {
-				"hidden_components": [
-					"minecraft:banner_patterns"
-				]
-			}
+			"minecraft:max_stack_size": 1
 		}
 	}
 ]

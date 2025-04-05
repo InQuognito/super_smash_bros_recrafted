@@ -19,14 +19,6 @@ $loot replace entity @s $(slot) loot { \
 							} \
 						}, \
 						{ \
-							"function": "minecraft:reference", \
-							"name": "ssbrc:init/tooltip/ability/defensive" \
-						}, \
-						{ \
-							"function": "minecraft:reference", \
-							"name": "ssbrc:init/item/common" \
-						}, \
-						{ \
 							"function": "minecraft:set_components", \
 							"components": { \
 								"minecraft:blocks_attacks": { \
@@ -34,9 +26,14 @@ $loot replace entity @s $(slot) loot { \
 									"block_sound": "$(block_sound)", \
 									"disabled_sound": "$(disabled_sound)" \
 								}, \
+								"minecraft:max_stack_size": 1, \
 								"minecraft:max_damage": $(max_damage), \
 								"minecraft:item_model": "minecraft:shield" \
 							} \
+						}, \
+						{ \
+							"function": "minecraft:reference", \
+							"name": "ssbrc:init/item/defensive" \
 						}, \
 						{ \
 							"function": "minecraft:set_custom_model_data", \
@@ -50,7 +47,7 @@ $loot replace entity @s $(slot) loot { \
 						{ \
 							"function": "minecraft:set_custom_data", \
 							"tag": { \
-								"item": "shield" \
+								"item": "$(item)" \
 							} \
 						} \
 					] \
@@ -61,7 +58,7 @@ $loot replace entity @s $(slot) loot { \
 }
 
 execute store result storage ssbrc:temp item.damage int 1.0 run scoreboard players get @s durability
-function ssbrc:logic/item/init/update/durability with storage ssbrc:temp item
+function ssbrc:logic/item/init/type/durability with storage ssbrc:temp item
 
 $item modify entity @s $(slot) { \
 	"function": "minecraft:reference", \

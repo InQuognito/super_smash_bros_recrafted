@@ -14,7 +14,7 @@
 						},
 						{
 							"function": "minecraft:reference",
-							"name": "ssbrc:init/tooltip/ability/defensive"
+							"name": "ssbrc:init/item/defensive"
 						},
 						{
 							"function": "minecraft:reference",

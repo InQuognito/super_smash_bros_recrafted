@@ -1,0 +1,27 @@
+{
+	"parent": "ssbrc:utility/root",
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"type_specific": {
+								"type": "minecraft:player",
+								"gamemode": [
+									"adventure"
+								]
+							}
+						}
+					}
+				]
+			}
+		}
+	},
+	"rewards": {
+		"function": "ssbrc:logic/player/drop_item/check"
+	}
+}

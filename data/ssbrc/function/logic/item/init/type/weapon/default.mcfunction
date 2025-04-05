@@ -7,7 +7,7 @@ $item replace entity @s $(slot) with minecraft:stick[ \
 	}, \
 	minecraft:max_stack_size = 1, \
 	minecraft:weapon = { \
-		"item_damage_per_attack": $(item_damage_per_attack), \
+		"item_damage_on_attack": $(item_damage_on_attack), \
 		"disable_blocking_for_seconds": $(disable_blocking_for_seconds) \
 	}, \
 	minecraft:attribute_modifiers = [ \
@@ -33,18 +33,12 @@ $item replace entity @s $(slot) with minecraft:stick[ \
 		] \
 	}, \
 	minecraft:custom_data = { \
-		"item": "$(tag)", \
+		"item": "$(item)", \
 		"damage": $(attack_damage) \
 	} \
 ]
 
-$item modify entity @s $(slot) [ \
-	{ \
-		"function": "minecraft:reference", \
-		"name": "ssbrc:init/tooltip/ability/melee" \
-	}, \
-	{ \
-		"function": "minecraft:reference", \
-		"name": "ssbrc:init/item/common" \
-	} \
-]
+$item modify entity @s $(slot) { \
+	"function": "minecraft:reference", \
+	"name": "ssbrc:init/item/melee" \
+}

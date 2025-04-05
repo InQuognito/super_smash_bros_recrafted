@@ -16,5 +16,9 @@
 			}
 		],
 		"mode": "append"
+	},
+	{
+		"function": "minecraft:reference",
+		"name": "ssbrc:init/item/common"
 	}
 ]

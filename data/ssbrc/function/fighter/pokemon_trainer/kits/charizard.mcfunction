@@ -1,7 +1,7 @@
 function ssbrc:fighter/pokemon_trainer/kits/update {form:"charizard",color:"red"}
 function ssbrc:logic/fighter/armor/update/check
 
-loot replace entity @s hotbar.0 loot ssbrc:fighter/pokemon_trainer/rock_smash
+function ssbrc:logic/item/init/slot {item:"rock_smash",slot:"hotbar.0",class:"default",type:"default"}
 
 loot replace entity @s hotbar.1 loot ssbrc:fighter/pokemon_trainer/flare_blitz
 

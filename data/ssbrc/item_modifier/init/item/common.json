@@ -5,7 +5,8 @@
 			"hidden_components": [
 				"minecraft:attribute_modifiers",
 				"minecraft:banner_patterns",
-				"minecraft:enchantments"
+				"minecraft:enchantments",
+				"minecraft:unbreakable"
 			]
 		},
 		"minecraft:enchantment_glint_override": false

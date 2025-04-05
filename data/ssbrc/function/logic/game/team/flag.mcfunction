@@ -1,1 +1,1 @@
-$item replace entity @s hotbar.1 with minecraft:stick[minecraft:item_name='{"translate":"ssbrc.team.$(team)","color":"$(color)","bold":true}',minecraft:item_model="ssbrc:ui/team_flag/$(team)",minecraft:custom_data={team:"$(team)",group:"team_flag"}]
+$item replace entity @s hotbar.1 with minecraft:stick[minecraft:item_name={"translate":"ssbrc.team.$(team)","color":"$(color)","bold":true},minecraft:item_model="ssbrc:ui/team_flag/$(team)",minecraft:custom_data={team:"$(team)",group:"team_flag"}]

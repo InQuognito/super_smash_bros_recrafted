@@ -12,7 +12,7 @@
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"translate": "ssbrc.fighter.pokemon_trainer.ivysaur.poison_powder",
+								"translate": "ssbrc.fighter.pokemon_trainer.poison_powder",
 								"color": "light_purple",
 								"bold": true,
 								"italic": false
@@ -20,7 +20,7 @@
 						},
 						{
 							"function": "minecraft:reference",
-							"name": "ssbrc:init/tooltip/ability/defensive"
+							"name": "ssbrc:init/item/defensive"
 						},
 						{
 							"function": "minecraft:reference",
@@ -47,7 +47,7 @@
 											"italic": false
 										},
 										{
-											"translate": "ssbrc.fighter.pokemon_trainer.ivysaur.poison_powder.description.1",
+											"translate": "ssbrc.fighter.pokemon_trainer.poison_powder.description.1",
 											"color": "gray",
 											"bold": false,
 											"italic": false
@@ -55,7 +55,7 @@
 									]
 								},
 								{
-									"translate": "ssbrc.fighter.pokemon_trainer.ivysaur.poison_powder.description.2",
+									"translate": "ssbrc.fighter.pokemon_trainer.poison_powder.description.2",
 									"color": "gray",
 									"bold": false,
 									"italic": false
