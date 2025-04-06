@@ -20,4 +20,4 @@ playsound ssbrc:fighter.ryu.satsui_no_hado_rage.activate player @a
 
 advancement revoke @s only ssbrc:utility/use_item/fighter/ryu/satsui_no_hado_rage
 
-function ssbrc:logic/item/modify {search_key:"item",search_value:"collarbone_breaker",path:"{\"function\":\"minecraft:set_custom_data\",\"tag\":{\"evil\":\"true\"}}"}
+function ssbrc:logic/item/data/get {item:"collarbone_breaker",flag_key:"evil",flag_value:"true"}
