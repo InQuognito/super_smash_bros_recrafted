@@ -1,7 +1,7 @@
 tag @s add anti_personnel_mine
-$tag @s add $(skin)
 
-function ssbrc:fighter/snake/logic/abilities/anti_personnel_mine/init/model
+item replace entity @s armor.head with minecraft:stick[minecraft:item_model="ssbrc:fighter/snake/item/anti_personnel_mine/default"]
+$function ssbrc:logic/init/model {skin:"$(skin)"}
 
 data merge entity @s {Small:1b}
 
