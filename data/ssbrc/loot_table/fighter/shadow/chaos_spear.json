@@ -48,6 +48,12 @@
 							"mode": "append"
 						},
 						{
+							"function": "minecraft:set_components",
+							"components": {
+								"minecraft:item_model": "ssbrc:fighter/shadow/item/chaos_spear"
+							}
+						},
+						{
 							"function": "minecraft:reference",
 							"name": "ssbrc:fighter/shadow/chaos_spear/disabled"
 						},
