@@ -7,4 +7,4 @@ function ssbrc:logic/pre_game/stage_select/featured/get with storage ssbrc:temp 
 scoreboard players remove featured_stage temp 1
 
 execute if score featured_stage temp matches 1.. run function ssbrc:logic/pre_game/stage_select/featured/loop
-execute if score featured_stage temp matches 0 as @a[predicate=ssbrc:ingame] run function ssbrc:logic/pre_game/stage_select/goto
+execute if score featured_stage temp matches 0 as @a[predicate=ssbrc:ingame] run function ssbrc:logic/pre_game/stage_select/join
