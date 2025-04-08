@@ -1,3 +1,4 @@
+$data merge storage ssbrc:output {slot_id:$(slot_id),slot_string:"$(slot_string)"}
 $function ssbrc:logic/item/durability/add/find {slot_id:$(slot_id)}
 
 #$execute if score item.damage temp matches 1 run function ssbrc:logic/item/enable {slot_string:"$(slot_string)"}
