@@ -1,6 +1,16 @@
-function ssbrc:logic/player/data/temp/copy/check
+function ssbrc:fighter/steve/logic/item/pickup/get
 
-execute unless data storage ssbrc:temp player.temp_data{fighter:"steve"} run function ssbrc:fighter/steve/logic/item/discard
-execute if data storage ssbrc:temp player.temp_data{fighter:"steve"} run function ssbrc:fighter/steve/logic/item/check
+execute if items entity @s container.* minecraft:lapis_lazuli[minecraft:custom_data~{"item_type":"tier"}] run function ssbrc:fighter/steve/logic/item/pickup/tier
+clear @s minecraft:lapis_lazuli
 
-advancement revoke @s only ssbrc:utility/pickup_steve_items
+function ssbrc:fighter/steve/logic/item/get
+
+tag @s remove get_stone
+tag @s remove get_gold
+tag @s remove get_iron
+tag @s remove get_diamond
+tag @s remove get_bow
+tag @s remove get_crossbow
+tag @s remove get_arrow
+tag @s remove get_shield
+tag @s remove get_netherite

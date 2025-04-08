@@ -1,4 +1,4 @@
-execute if score @s charge.output matches 40.. positioned ^ ^ ^-1 run function ssbrc:fighter/steve/logic/item/spawn
+execute if score @s charge.output matches 40.. positioned ^ ^ ^-0.5 run function ssbrc:fighter/steve/logic/item/spawn
 
 scoreboard players operation loop temp = @s charge.output
 scoreboard players operation loop temp %= 5 const

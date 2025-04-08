@@ -6,7 +6,21 @@
 			"entries": [
 				{
 					"type": "minecraft:item",
-					"name": "minecraft:cobblestone",
+					"name": "minecraft:lapis_lazuli",
+					"functions": [
+						{
+							"function": "minecraft:set_components",
+							"components": {
+								"minecraft:item_model": "minecraft:cobblestone"
+							}
+						},
+						{
+							"function": "minecraft:set_custom_data",
+							"tag": {
+								"get": "stone"
+							}
+						}
+					],
 					"conditions": [
 						{
 							"condition": "minecraft:entity_scores",
@@ -19,7 +33,21 @@
 				},
 				{
 					"type": "minecraft:item",
-					"name": "minecraft:gold_ingot",
+					"name": "minecraft:lapis_lazuli",
+					"functions": [
+						{
+							"function": "minecraft:set_components",
+							"components": {
+								"minecraft:item_model": "minecraft:gold_ingot"
+							}
+						},
+						{
+							"function": "minecraft:set_custom_data",
+							"tag": {
+								"get": "gold"
+							}
+						}
+					],
 					"conditions": [
 						{
 							"condition": "minecraft:entity_scores",
@@ -32,7 +60,21 @@
 				},
 				{
 					"type": "minecraft:item",
-					"name": "minecraft:iron_ingot",
+					"name": "minecraft:lapis_lazuli",
+					"functions": [
+						{
+							"function": "minecraft:set_components",
+							"components": {
+								"minecraft:item_model": "minecraft:iron_ingot"
+							}
+						},
+						{
+							"function": "minecraft:set_custom_data",
+							"tag": {
+								"get": "iron"
+							}
+						}
+					],
 					"conditions": [
 						{
 							"condition": "minecraft:entity_scores",
@@ -45,7 +87,21 @@
 				},
 				{
 					"type": "minecraft:item",
-					"name": "minecraft:diamond",
+					"name": "minecraft:lapis_lazuli",
+					"functions": [
+						{
+							"function": "minecraft:set_components",
+							"components": {
+								"minecraft:item_model": "minecraft:diamond"
+							}
+						},
+						{
+							"function": "minecraft:set_custom_data",
+							"tag": {
+								"get": "diamond"
+							}
+						}
+					],
 					"conditions": [
 						{
 							"condition": "minecraft:entity_scores",
@@ -63,7 +119,6 @@
 		{
 			"function": "minecraft:set_custom_data",
 			"tag": {
-				"steve_item": "true",
 				"item_type": "tier"
 			}
 		}
