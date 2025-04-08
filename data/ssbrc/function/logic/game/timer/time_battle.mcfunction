@@ -37,7 +37,7 @@ execute positioned -528.5 6.0 -1939.5 run data modify entity @n[type=minecraft:t
 ]
 
 # Ryu
-execute if score game_time timer matches 60 as @a[tag=!ability_used] if data storage ssbrc:temp player.temp_data{fighter:"ryu"} unless items entity @s container.* minecraft:stick[minecraft:custom_data~{item:"satsui_no_hado_rage"}] run loot replace entity @s hotbar.1 loot ssbrc:fighter/ryu/satsui_no_hado_rage
+execute if score game_time timer matches 60 as @a[predicate=ssbrc:ingame,tag=!ability_used] unless items entity @s container.* minecraft:stick[minecraft:custom_data~{item:"satsui_no_hado_rage"}] run function ssbrc:logic/game/timer/fighter/ryu
 
 # Countdown
 scoreboard players remove game_time timer 1
