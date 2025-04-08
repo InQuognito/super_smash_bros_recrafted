@@ -1,5 +1,5 @@
 summon minecraft:text_display -520.5 0.1 -1940.1 {Tags:["credits_text"],text:[{"text":"Super Smash Bros. Re:Crafted is a non-profit, fan-made project dedicated to the Smash Bros. series. All rights belong to their original owners. Team Re:Crafted is not contractually bound, paid, or associated with Nintendo or any of its inherited or affiliated IPs. No copyright infringement intended. Please support the official franchise and all associated IPs."}],Rotation:[180f,0f],background:0,line_width:190,alignment:"center"}
-summon minecraft:text_display -520.5 1.5 -1948.9 {Tags:["credits_text"],text:[{"text":"SSBRC v2.5","bold":true}],background:0,alignment:"center"}
+summon minecraft:text_display -520.5 1.5 -1948.9 {Tags:["credits_text"],text:[{"text":"SSBRC v2.5.1","bold":true}],background:0,alignment:"center"}
 
 # Project Leads
 summon minecraft:text_display -556.5 -1.75 -1942.5 {Tags:["credits_text"],text:{"text":"NessIsPSIRockin","bold":true},billboard:"center",alignment:"center"}
