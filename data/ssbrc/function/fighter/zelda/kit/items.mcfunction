@@ -33,15 +33,12 @@ execute if score random.output temp matches 6 run loot replace entity @s hotbar.
 execute if score random.output temp matches 7 run loot replace entity @s hotbar.1 loot ssbrc:fighter/zelda/red_potion
 
 function ssbrc:fighter/zelda/kit/items/passive_item
-function ssbrc:fighter/zelda/logic/passive_items/apply
 
 scoreboard players set @s charge.2 0
 function ssbrc:fighter/zelda/logic/abilities/great_fairy_blessing/calculate
 loot replace entity @s hotbar.4 loot ssbrc:fighter/zelda/great_fairy_blessing
 
 loot replace entity @s hotbar.5 loot ssbrc:fighter/zelda/inventory_refresh
-
-function ssbrc:fighter/zelda/logic/passive_items/apply
 
 scoreboard players operation @s magic = zelda.magic.max const
 
