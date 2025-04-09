@@ -8,7 +8,7 @@ function ssbrc:fighter/joker/logic/abilities/tt33/reset
 clear @s minecraft:stick[minecraft:custom_data~{group:"mask"}]
 clear @s minecraft:stick[minecraft:custom_data~{group:"persona_awakening"}]
 
-$function ssbrc:logic/item/modify {search_key:"group",search_value:"persona",path:"{\"function\":\"minecraft:set_components\",\"components\":{\"minecraft:item_model\":\"ssbrc:fighter/joker/misc/portrait/$(persona)/active\"}}"}
+$function ssbrc:logic/item/modify {search_key:"group",search_value:"persona",path:{"function":"minecraft:set_components","components":{"minecraft:item_model":"ssbrc:fighter/joker/misc/portrait/$(persona)/active"}}}
 
 execute if data storage ssbrc:temp player.temp_data{persona:"archangel"} run loot give @s loot ssbrc:fighter/joker/personas/archangel/hama
 execute if data storage ssbrc:temp player.temp_data{persona:"arsene"} run loot give @s loot ssbrc:fighter/joker/personas/arsene/eiagon
