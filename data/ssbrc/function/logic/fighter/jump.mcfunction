@@ -1,7 +1,7 @@
 function ssbrc:logic/player/data/temp/copy/check
 
 scoreboard players add @s jump 1
-scoreboard players set @s jump.cooldown 6
+scoreboard players set @s jump.cooldown 8
 
 # Fighters
 execute if data storage ssbrc:temp player.temp_data{fighter:"altered_beast",form:"weretiger"} run function ssbrc:logic/fighter/jump/altered_beast/weretiger
