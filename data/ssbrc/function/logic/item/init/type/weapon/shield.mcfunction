@@ -57,8 +57,8 @@ $loot replace entity @s $(slot) loot { \
 	] \
 }
 
-execute store result storage ssbrc:temp item.damage int 1.0 run scoreboard players get @s durability
-function ssbrc:logic/item/init/type/durability with storage ssbrc:temp item
+execute store result storage ssbrc:temp cache.item.damage int 1.0 run scoreboard players get @s durability
+function ssbrc:logic/item/init/type/durability with storage ssbrc:temp cache.item
 
 $item modify entity @s $(slot) { \
 	"function": "minecraft:reference", \
