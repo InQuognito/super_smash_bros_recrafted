@@ -6,4 +6,4 @@ execute positioned ~-0.05 ~-0.05 ~-0.05 as @e[tag=!self,predicate=ssbrc:target,d
 execute if score entity_hit temp matches 1 run return 0
 
 scoreboard players remove n temp 1
-execute if score n temp matches 1.. positioned ^ ^ ^0.25 rotated ~ ~-0.001 run function ssbrc:fighter/snake/logic/abilities/socom/loop
+execute if score n temp matches 1.. positioned ^ ^ ^0.25 rotated ~ ~0.005 run function ssbrc:fighter/snake/logic/abilities/socom/loop

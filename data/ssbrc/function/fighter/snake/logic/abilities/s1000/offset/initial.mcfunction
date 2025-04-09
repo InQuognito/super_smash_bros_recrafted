@@ -5,3 +5,5 @@ execute if score temp health matches 25..32 store result score random.output tem
 execute if score temp health matches 33.. store result score random.output temp run random value 0..4
 
 execute if predicate ssbrc:random_chance/50 run scoreboard players operation random.output temp *= -1 const
+
+$scoreboard players operation $(axis)_rot temp = random.output temp
