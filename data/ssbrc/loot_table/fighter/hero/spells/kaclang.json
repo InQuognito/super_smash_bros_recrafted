@@ -59,7 +59,11 @@
 						},
 						{
 							"function": "minecraft:set_custom_data",
-							"tag": "{item:\"kaclang\",group:\"hero.spell\",cooldown:20}"
+							"tag": {
+								"item": "kaclang",
+								"group": "hero.spell",
+								"cooldown": 20
+							}
 						}
 					]
 				}

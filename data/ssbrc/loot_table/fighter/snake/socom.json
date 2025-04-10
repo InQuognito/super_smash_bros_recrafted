@@ -20,7 +20,10 @@
 						},
 						{
 							"function": "minecraft:set_custom_data",
-							"tag": "{item:\"socom\",group:\"snake.weapon\",cooldown:5}"
+							"tag": {
+								"item": "socom",
+								"group": "snake.weapon",
+								"cooldown": 5}
 						}
 					]
 				}

@@ -26,7 +26,10 @@
 						},
 						{
 							"function": "minecraft:set_custom_data",
-							"tag": "{item:\"rebel_knife\",persona_boost:\"fire\"}"
+							"tag": {
+								"item": "rebel_knife",
+								"persona_boost": "fire"
+							}
 						}
 					]
 				}

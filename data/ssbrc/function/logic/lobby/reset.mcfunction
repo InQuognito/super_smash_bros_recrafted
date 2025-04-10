@@ -12,18 +12,18 @@ execute positioned -528.5 6.75 -1949.5 run summon minecraft:text_display ~ ~ ~ {
 execute positioned -521.5 1.75 -1944.5 run summon minecraft:text_display ~ ~ ~ {text:{"translate":"ssbrc.lobby.return","color":"gold"},billboard:"center",alignment:"center"}
 
 # Links
-execute positioned -531.99 4.5 -1943.5 run function ssbrc:logic/lobby/logo {text:"discord",color:"blue"}
-execute positioned -531.99 4.5 -1944.5 run function ssbrc:logic/lobby/logo {text:"pmc",color:"green"}
-execute positioned -531.99 4.5 -1945.5 run function ssbrc:logic/lobby/logo {text:"youtube",color:"red"}
+execute positioned -531.99 4.5 -1943.5 run function ssbrc:logic/lobby/logo {id:"discord",color:"blue",link:"https://discord.gg/yAzw55N5Ax"}
+execute positioned -531.99 4.5 -1944.5 run function ssbrc:logic/lobby/logo {id:"pmc",color:"green",link:"https://www.planetminecraft.com/member/team_recrafted"}
+execute positioned -531.99 4.5 -1945.5 run function ssbrc:logic/lobby/logo {id:"youtube",color:"red",link:"https://www.youtube.com/channel/UCCqXNuFgGs53GgP7oSQGtOA"}
 
 # Lobby Statue
 execute positioned -535.5 8.0 -1944.5 run summon minecraft:item_display ~ ~ ~ {Tags:["static_object","delete_behavior.disabled"],item:{id:"minecraft:stick",components:{"minecraft:item_model":"ssbrc:misc/lobby_statue"}},Rotation:[-90f,0f]}
 
 # Sandbag
-execute positioned -525.5 5.25 -1936.5 run summon minecraft:item_display ~ ~ ~ {CustomName:"sandbag",Tags:["selectable","standard_highlight"],item:{id:"minecraft:emerald",components:{"minecraft:item_model":"ssbrc:item/sandbag/default"}},Rotation:[-145f,0f]}
+execute positioned -525.5 5.25 -1936.5 run summon minecraft:item_display ~ ~ ~ {data:{interaction:{id:"sandbag",action:"function ssbrc:logic/player/selector/events/sandbag/interact"}},item:{id:"minecraft:emerald",components:{"minecraft:item_model":"ssbrc:item/sandbag/default"}},Rotation:[-145f,0f]}
 
 # OST Pack
-summon minecraft:item_display -525.5 5.5 -1952.5 {CustomName:"assets",Tags:["selectable"],item:{id:"minecraft:jukebox"},transformation:{left_rotation:[0.20f,0.35f,-0.1f,0.9f],right_rotation:[0f,0f,0f,1f],scale:[0.5f,0.5f,0.5f],translation:[0f,0f,0f]}}
+summon minecraft:item_display -525.5 5.5 -1952.5 {data:{interaction:{id:"assets",action:"tellraw @s [{\"text\":\"[\",\"color\":\"gold\",\"bold\":true},{\"text\":\"Music Pack\",\"color\":\"yellow\",\"click_event\":{\"action\":\"open_url\",\"url\":\"https://www.mediafire.com/folder/nfw6qfrl6rgd7/SSBRC\"}},\"]\"]"}},item:{id:"minecraft:jukebox"},transformation:{left_rotation:[0.20f,0.35f,-0.1f,0.9f],right_rotation:[0f,0f,0f,1f],scale:[0.5f,0.5f,0.5f],translation:[0f,0f,0f]}}
 execute positioned -525.5 4.25 -1951.99 run summon minecraft:text_display ~ ~ ~ {text:{"text":"Click the jukebox to download the music pack!","color":"yellow"},transformation:[0.5f,0f,0f,0f,0f,0.5f,0f,0f,0f,0f,0.5f,0f,0f,0f,0f,1f],line_width:75,alignment:"center",background:0}
 
 setblock 0 16 0 minecraft:shulker_box replace

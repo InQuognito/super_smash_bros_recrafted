@@ -61,7 +61,9 @@
 						},
 						{
 							"function": "minecraft:set_custom_data",
-							"tag": "{item:\"fire_bow\"}"
+							"tag": {
+								"item": "fire_bow"
+							}
 						}
 					]
 				}

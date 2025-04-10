@@ -38,7 +38,10 @@
 						},
 						{
 							"function": "minecraft:set_custom_data",
-							"tag": "{item:\"phantom_show\",cooldown:15}"
+							"tag": {
+								"item": "phantom_show",
+								"cooldown": 15
+							}
 						}
 					]
 				}

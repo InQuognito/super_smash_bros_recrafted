@@ -76,7 +76,11 @@
 						},
 						{
 							"function": "minecraft:set_custom_data",
-							"tag": "{item:\"fists_of_fury\",damage:5,cooldown:60}"
+							"tag": {
+								"item": "fists_of_fury",
+								"damage": 5,
+								"cooldown": 60
+							}
 						}
 					]
 				}

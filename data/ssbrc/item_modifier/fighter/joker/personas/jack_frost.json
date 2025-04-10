@@ -51,6 +51,8 @@
 	},
 	{
 		"function": "minecraft:set_custom_data",
-		"tag": "{persona:\"jack_frost\"}"
+		"tag": {
+			"persona": "jack_frost"
+		}
 	}
 ]

@@ -27,6 +27,9 @@
 	},
 	{
 		"function": "minecraft:set_custom_data",
-		"tag": "{enchanted:\"true\",enchantment:\"glass\"}"
+		"tag": {
+			"enchanted": "true",
+			"enchantment": "glass"
+		}
 	}
 ]

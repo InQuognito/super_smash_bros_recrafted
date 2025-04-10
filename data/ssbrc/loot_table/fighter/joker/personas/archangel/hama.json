@@ -38,7 +38,10 @@
 						},
 						{
 							"function": "minecraft:set_custom_data",
-							"tag": "{item:\"hama\",cooldown:300}"
+							"tag": {
+								"item": "hama",
+								"cooldown": 300
+							}
 						}
 					]
 				}

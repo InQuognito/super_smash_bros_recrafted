@@ -45,7 +45,7 @@
 									"condition": "minecraft:entity_properties",
 									"entity": "this",
 									"predicate": {
-										"nbt": "{Tags:[\"operator\"]}"
+										"nbt": "{Tags:["operator"]}
 									}
 								}
 							]
@@ -58,7 +58,7 @@
 									"condition": "minecraft:entity_properties",
 									"entity": "this",
 									"predicate": {
-										"nbt": "{Tags:[\"punisher\"]}"
+										"nbt": "{Tags:["punisher"]}
 									}
 								}
 							]

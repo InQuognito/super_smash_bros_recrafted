@@ -67,7 +67,10 @@
 						},
 						{
 							"function": "minecraft:set_custom_data",
-							"tag": "{item:\"fireball\",cooldown:20}"
+							"tag": {
+								"item": "fireball",
+								"cooldown": 20
+							}
 						}
 					]
 				}

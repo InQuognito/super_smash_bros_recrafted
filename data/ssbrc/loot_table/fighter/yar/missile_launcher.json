@@ -59,7 +59,10 @@
 						},
 						{
 							"function": "minecraft:set_custom_data",
-							"tag": "{item:\"missile_launcher\",cooldown:100}"
+							"tag": {
+								"item": "missile_launcher",
+								"cooldown": 100
+							}
 						}
 					]
 				}

@@ -65,7 +65,10 @@
 						},
 						{
 							"function": "minecraft:set_custom_data",
-							"tag": "{item:\"payday\",cooldown:200}"
+							"tag": {
+								"item": "payday",
+								"cooldown": 200
+							}
 						}
 					]
 				}

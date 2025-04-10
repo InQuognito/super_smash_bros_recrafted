@@ -77,7 +77,10 @@
 						},
 						{
 							"function": "minecraft:set_custom_data",
-							"tag": "{item:\"leech_seed\",cooldown:100}"
+							"tag": {
+								"item": "leech_seed",
+								"cooldown": 100
+							}
 						}
 					]
 				}

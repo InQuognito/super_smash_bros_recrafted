@@ -9,6 +9,8 @@
 	},
 	{
 		"function": "minecraft:set_custom_data",
-		"tag": "{group:\"persona_awakening\"}"
+		"tag": {
+			"group": "persona_awakening"
+		}
 	}
 ]

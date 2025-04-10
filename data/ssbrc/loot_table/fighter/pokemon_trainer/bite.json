@@ -55,7 +55,9 @@
 						},
 						{
 							"function": "minecraft:set_custom_data",
-							"tag": "{item:\"bite\",damage:7}"
+							"tag": {
+								"item": "bite",
+								"damage": 7}
 						}
 					]
 				}

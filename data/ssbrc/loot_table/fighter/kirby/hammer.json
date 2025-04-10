@@ -53,7 +53,9 @@
 						},
 						{
 							"function": "minecraft:set_custom_data",
-							"tag": "{item:\"hammer\",damage:6}"
+							"tag": {
+								"item": "hammer",
+								"damage": 6}
 						}
 					]
 				}

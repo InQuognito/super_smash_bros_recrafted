@@ -71,7 +71,10 @@
 						},
 						{
 							"function": "minecraft:set_custom_data",
-							"tag": "{item:\"flare_blitz\",cooldown:90}"
+							"tag": {
+								"item": "flare_blitz",
+								"cooldown": 90
+							}
 						}
 					]
 				}

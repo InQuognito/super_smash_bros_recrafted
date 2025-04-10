@@ -20,7 +20,10 @@
 						},
 						{
 							"function": "minecraft:set_custom_data",
-							"tag": "{item:\"tt33\",cooldown:5}"
+							"tag": {
+								"item": "tt33",
+								"cooldown": 5
+							}
 						}
 					]
 				}

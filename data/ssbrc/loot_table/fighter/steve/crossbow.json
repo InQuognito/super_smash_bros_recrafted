@@ -31,7 +31,9 @@
 						},
 						{
 							"function": "minecraft:set_custom_data",
-							"tag": "{item:\"crossbow\"}"
+							"tag": {
+								"item": "crossbow"
+							}
 						}
 					]
 				}

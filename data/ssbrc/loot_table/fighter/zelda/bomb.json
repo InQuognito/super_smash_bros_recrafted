@@ -87,7 +87,10 @@
 						},
 						{
 							"function": "minecraft:set_custom_data",
-							"tag": "{item:\"bomb\",cooldown:20}"
+							"tag": {
+								"item": "bomb",
+								"cooldown": 20
+							}
 						}
 					]
 				}

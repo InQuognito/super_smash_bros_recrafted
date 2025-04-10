@@ -85,7 +85,10 @@
 						},
 						{
 							"function": "minecraft:set_custom_data",
-							"tag": "{item:\"rest\",cooldown:1}"
+							"tag": {
+								"item": "rest",
+								"cooldown": 1
+							}
 						}
 					]
 				}

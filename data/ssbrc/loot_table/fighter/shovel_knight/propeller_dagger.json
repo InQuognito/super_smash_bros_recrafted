@@ -69,7 +69,12 @@
 						},
 						{
 							"function": "minecraft:set_custom_data",
-							"tag": "{item:\"propeller_dagger\",disabled:\"false\",path:\"shovel_knight/logic/abilities/propeller_dagger/check/default\",cooldown:60}"
+							"tag": {
+								"item": "propeller_dagger",
+								"disabled": "false",
+								"path": "shovel_knight/logic/abilities/propeller_dagger/check/default",
+								"cooldown": 60
+							}
 						}
 					]
 				}

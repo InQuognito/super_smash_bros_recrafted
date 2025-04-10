@@ -55,7 +55,9 @@
 						},
 						{
 							"function": "minecraft:set_custom_data",
-							"tag": "{group:\"power_up\",power_up:\"omnishot\"}"
+							"tag": {"group": "power_up",
+								"power_up": "omnishot"
+							}
 						}
 					]
 				}

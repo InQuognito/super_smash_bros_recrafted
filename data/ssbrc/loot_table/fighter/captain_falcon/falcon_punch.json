@@ -67,7 +67,10 @@
 						},
 						{
 							"function": "minecraft:set_custom_data",
-							"tag": "{item:\"falcon_punch\",cooldown:200}"
+							"tag": {
+								"item": "falcon_punch",
+								"cooldown": 200
+							}
 						}
 					]
 				}

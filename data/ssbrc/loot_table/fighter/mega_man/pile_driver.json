@@ -51,7 +51,12 @@
 						},
 						{
 							"function": "minecraft:set_custom_data",
-							"tag": "{item:\"pile_driver\",group:\"mega_buster\",path:\"mega_man/logic/abilities/pile_driver/check\",cooldown:40}"
+							"tag": {
+								"item": "pile_driver",
+								"group": "mega_buster",
+								"path": "mega_man/logic/abilities/pile_driver/check",
+								"cooldown": 40
+							}
 						}
 					]
 				}

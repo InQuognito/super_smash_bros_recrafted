@@ -33,7 +33,10 @@
 						},
 						{
 							"function": "minecraft:set_custom_data",
-							"tag": "{item:\"link.boomerang\",cooldown:10}"
+							"tag": {
+								"item": "link.boomerang",
+								"cooldown": 10
+							}
 						}
 					]
 				}

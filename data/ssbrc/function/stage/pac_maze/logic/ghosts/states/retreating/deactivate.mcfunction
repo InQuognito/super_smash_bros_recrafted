@@ -1,3 +1,3 @@
-tag @s remove retreating
+data modify entity @s data.state set value "active"
 
-scoreboard players reset @a 765o.tracking
+function ssbrc:stage/pac_maze/logic/ghosts/animation/update with entity @s data

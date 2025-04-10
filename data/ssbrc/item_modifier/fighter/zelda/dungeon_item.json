@@ -5,6 +5,8 @@
 	},
 	{
 		"function": "minecraft:set_custom_data",
-		"tag": "{group:\"dungeon_item\"}"
+		"tag": {
+			"group": "dungeon_item"
+		}
 	}
 ]

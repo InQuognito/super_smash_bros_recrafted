@@ -89,7 +89,11 @@
 						},
 						{
 							"function": "minecraft:set_custom_data",
-							"tag": "{item:\"flame_hands\",damage:5,cooldown:20}"
+							"tag": {
+								"item": "flame_hands",
+								"damage": 5,
+								"cooldown": 20
+							}
 						}
 					]
 				}

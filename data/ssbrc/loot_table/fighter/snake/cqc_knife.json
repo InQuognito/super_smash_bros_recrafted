@@ -52,7 +52,9 @@
 						},
 						{
 							"function": "minecraft:set_custom_data",
-							"tag": "{item:\"cqc_knife\",damage:4}"
+							"tag": {
+								"item": "cqc_knife",
+								"damage": 4}
 						}
 					]
 				}

@@ -71,7 +71,10 @@
 						},
 						{
 							"function": "minecraft:set_custom_data",
-							"tag": "{item:\"acid\",cooldown:300}"
+							"tag": {
+								"item": "acid",
+								"cooldown": 300
+							}
 						}
 					]
 				}

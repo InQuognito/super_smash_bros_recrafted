@@ -57,7 +57,11 @@
 						},
 						{
 							"function": "minecraft:set_custom_data",
-							"tag": "{item:\"hyper_bomb\",group:\"mega_buster\",cooldown:40}"
+							"tag": {
+								"item": "hyper_bomb",
+								"group": "mega_buster",
+								"cooldown": 40
+							}
 						}
 					]
 				}

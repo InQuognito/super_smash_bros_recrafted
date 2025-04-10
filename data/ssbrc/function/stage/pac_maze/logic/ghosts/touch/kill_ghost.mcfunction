@@ -1,10 +1,8 @@
-tag @s remove retreating
-tag @s remove active
-tag @s add dead
+data modify entity @s data.state set value "dead"
 
 scoreboard players set @s cooldown 600
 
-function ssbrc:stage/pac_maze/logic/ghosts/animation/update with entity @s
+function ssbrc:stage/pac_maze/logic/ghosts/animation/update with entity @s data
 
 execute as @p[predicate=ssbrc:player,distance=..2] run function ssbrc:stage/pac_maze/logic/ghosts/touch/player_kill_ghost
 

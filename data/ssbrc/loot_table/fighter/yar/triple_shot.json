@@ -47,7 +47,10 @@
 						},
 						{
 							"function": "minecraft:set_custom_data",
-							"tag": "{item:\"triple_shot\",cooldown:15}"
+							"tag": {
+								"item": "triple_shot",
+								"cooldown": 15
+							}
 						}
 					]
 				}

@@ -65,7 +65,10 @@
 						},
 						{
 							"function": "minecraft:set_custom_data",
-							"tag": "{item:\"steed_charge\",cooldown:300}"
+							"tag": {
+								"item": "steed_charge",
+								"cooldown": 300
+							}
 						}
 					]
 				}

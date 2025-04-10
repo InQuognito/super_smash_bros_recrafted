@@ -75,7 +75,9 @@
 						},
 						{
 							"function": "minecraft:set_custom_data",
-							"tag": "{item:\"phazon_overload\"}"
+							"tag": {
+								"item": "phazon_overload"
+							}
 						}
 					]
 				}

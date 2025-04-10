@@ -51,7 +51,10 @@
 						},
 						{
 							"function": "minecraft:set_custom_data",
-							"tag": "{item:\"magic_boomerang\",cooldown:10}"
+							"tag": {
+								"item": "magic_boomerang",
+								"cooldown": 10
+							}
 						}
 					]
 				}

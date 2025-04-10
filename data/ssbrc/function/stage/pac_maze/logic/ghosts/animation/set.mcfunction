@@ -1,5 +1,15 @@
-$execute if entity @s[tag=dead] run return run item modify entity @s contents {"function":"minecraft:set_components","components":{"minecraft:item_model":"ssbrc:stage/pac_maze/ghost/eyes/$(value)"}}
+$item modify entity @s contents { \
+	"function": "minecraft:set_custom_model_data", \
+	"floats": { \
+		"values": [ \
+			$(value).0f \
+		], \
+		"mode": "replace_all" \
+	} \
+}
 
-$execute if entity @s[tag=retreating] run return run item modify entity @s contents {"function":"minecraft:set_components","components":{"minecraft:item_model":"ssbrc:stage/pac_maze/ghost/blue/$(value)"}}
+execute if data entity @s data{state:"dead"} run return run item modify entity @s contents {"function":"minecraft:set_components","components":{"minecraft:item_model":"ssbrc:stage/pac_maze/ghost/eyes"}}
 
-$item modify entity @s contents {"function":"minecraft:set_components","components":{"minecraft:item_model":"ssbrc:stage/pac_maze/ghost/$(name)/$(value)"}}
+execute if data entity @s data{state:"retreating"} run return run item modify entity @s contents {"function":"minecraft:set_components","components":{"minecraft:item_model":"ssbrc:stage/pac_maze/ghost/blue"}}
+
+$item modify entity @s contents {"function":"minecraft:set_components","components":{"minecraft:item_model":"ssbrc:stage/pac_maze/ghost/$(name)"}}

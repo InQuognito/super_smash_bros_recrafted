@@ -61,7 +61,11 @@
 						},
 						{
 							"function": "minecraft:set_custom_data",
-							"tag": "{item:\"falcon_charge\",cooldown:35,alt_cooldown:80}"
+							"tag": {
+								"item": "falcon_charge",
+								"cooldown": 35,
+								"alt_cooldown": 80
+							}
 						}
 					]
 				}

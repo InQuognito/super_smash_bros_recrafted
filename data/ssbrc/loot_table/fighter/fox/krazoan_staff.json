@@ -76,7 +76,11 @@
 						},
 						{
 							"function": "minecraft:set_custom_data",
-							"tag": "{item:\"krazoan_staff\",damage:5,cooldown:30}"
+							"tag": {
+								"item": "krazoan_staff",
+								"damage": 5,
+								"cooldown": 30
+							}
 						}
 					]
 				}

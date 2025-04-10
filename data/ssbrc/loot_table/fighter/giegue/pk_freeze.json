@@ -79,7 +79,10 @@
 						},
 						{
 							"function": "minecraft:set_custom_data",
-							"tag": "{item:\"pk_freeze\",cooldown:25}"
+							"tag": {
+								"item": "pk_freeze",
+								"cooldown": 25
+							}
 						}
 					]
 				}

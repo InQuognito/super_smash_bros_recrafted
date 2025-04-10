@@ -65,7 +65,9 @@
 						},
 						{
 							"function": "minecraft:set_custom_data",
-							"tag": "{item:\"chaos_control\"}"
+							"tag": {
+								"item": "chaos_control"
+							}
 						}
 					]
 				}

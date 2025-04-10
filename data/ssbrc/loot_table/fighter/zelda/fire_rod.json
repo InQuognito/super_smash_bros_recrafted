@@ -105,7 +105,12 @@
 						},
 						{
 							"function": "minecraft:set_custom_data",
-							"tag": "{item:\"fire_rod\",extra:\"magic_rod\",cooldown:40,alt_cooldown:60}"
+							"tag": {
+								"item": "fire_rod",
+								"extra": "magic_rod",
+								"cooldown": 40,
+								"alt_cooldown": 60
+							}
 						}
 					]
 				}

@@ -120,7 +120,11 @@
 						},
 						{
 							"function": "minecraft:set_custom_data",
-							"tag": "{item:\"night_slash\",damage:5,cooldown:40}"
+							"tag": {
+								"item": "night_slash",
+								"damage": 5,
+								"cooldown": 40
+							}
 						}
 					]
 				}

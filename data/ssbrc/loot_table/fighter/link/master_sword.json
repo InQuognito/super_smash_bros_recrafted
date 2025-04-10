@@ -57,7 +57,7 @@
 											"italic": false
 										},
 										{
-											"translate":"ssbrc.fighter.link.master_sword.description.1",
+											"translate": "ssbrc.fighter.link.master_sword.description.1",
 											"color": "gray",
 											"bold": false,
 											"italic": false
@@ -89,7 +89,7 @@
 											"italic": false
 										},
 										{
-											"translate":"ssbrc.fighter.link.master_sword.description.2",
+											"translate": "ssbrc.fighter.link.master_sword.description.2",
 											"color": "gray",
 											"bold": false,
 											"italic": false
@@ -105,7 +105,12 @@
 						},
 						{
 							"function": "minecraft:set_custom_data",
-							"tag": "{item:\"master_sword\",path:\"link/logic/abilities/sword_spin/activate/check\",damage:6,cooldown:20}"
+							"tag": {
+								"item": "master_sword",
+								"path": "link/logic/abilities/sword_spin/activate/check",
+								"damage": 6,
+								"cooldown": 20
+							}
 						}
 					]
 				}

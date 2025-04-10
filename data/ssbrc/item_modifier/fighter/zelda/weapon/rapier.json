@@ -25,6 +25,9 @@
 	},
 	{
 		"function": "minecraft:set_custom_data",
-		"tag": "{item:\"rapier\",damage:6}"
+		"tag": {
+			"item": "rapier",
+			"damage": 6
+		}
 	}
 ]

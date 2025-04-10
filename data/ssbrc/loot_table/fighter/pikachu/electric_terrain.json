@@ -71,7 +71,9 @@
 						},
 						{
 							"function": "minecraft:set_custom_data",
-							"tag": "{item:\"electric_terrain\"}"
+							"tag": {
+								"item": "electric_terrain"
+							}
 						}
 					]
 				}

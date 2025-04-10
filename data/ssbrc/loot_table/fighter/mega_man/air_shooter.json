@@ -51,7 +51,11 @@
 						},
 						{
 							"function": "minecraft:set_custom_data",
-							"tag": "{item:\"air_shooter\",group:\"mega_buster\",cooldown:40}"
+							"tag": {
+								"item": "air_shooter",
+								"group": "mega_buster",
+								"cooldown": 40
+							}
 						}
 					]
 				}

@@ -55,7 +55,9 @@
 						},
 						{
 							"function": "minecraft:set_custom_data",
-							"tag": "{item:\"rock_smash\",damage:7}"
+							"tag": {
+								"item": "rock_smash",
+								"damage": 7}
 						}
 					]
 				}

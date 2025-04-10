@@ -77,7 +77,9 @@
 						},
 						{
 							"function": "minecraft:set_custom_data",
-							"tag": "{group:\"power_up\",power_up:\"missile_launcher\"}"
+							"tag": {"group": "power_up",
+								"power_up": "missile_launcher"
+							}
 						}
 					]
 				}

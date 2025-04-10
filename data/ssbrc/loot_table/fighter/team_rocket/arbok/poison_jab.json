@@ -65,7 +65,9 @@
 						},
 						{
 							"function": "minecraft:set_custom_data",
-							"tag": "{item:\"poison_jab\",damage:3}"
+							"tag": {
+								"item": "poison_jab",
+								"damage": 3}
 						}
 					]
 				}

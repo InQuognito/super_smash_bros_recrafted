@@ -5,147 +5,147 @@
 			"condition": "minecraft:entity_properties",
 			"entity": "this",
 			"predicate": {
-				"nbt": "{CustomName:'\"acropolis_graveyard\"'}"
+				"nbt": "{data:{id:\"acropolis_graveyard\"}}"
 			}
 		},
 		{
 			"condition": "minecraft:entity_properties",
 			"entity": "this",
 			"predicate": {
-				"nbt": "{CustomName:'\"bowsers_castle\"'}"
+				"nbt": "{data:{id:\"bowsers_castle\"}}"
 			}
 		},
 		{
 			"condition": "minecraft:entity_properties",
 			"entity": "this",
 			"predicate": {
-				"nbt": "{CustomName:'\"castle_siege\"'}"
+				"nbt": "{data:{id:\"castle_siege\"}}"
 			}
 		},
 		{
 			"condition": "minecraft:entity_properties",
 			"entity": "this",
 			"predicate": {
-				"nbt": "{CustomName:'\"draculas_castle\"'}"
+				"nbt": "{data:{id:\"draculas_castle\"}}"
 			}
 		},
 		{
 			"condition": "minecraft:entity_properties",
 			"entity": "this",
 			"predicate": {
-				"nbt": "{CustomName:'\"flat_zone\"'}"
+				"nbt": "{data:{id:\"flat_zone\"}}"
 			}
 		},
 		{
 			"condition": "minecraft:entity_properties",
 			"entity": "this",
 			"predicate": {
-				"nbt": "{CustomName:'\"frozen_hijinx\"'}"
+				"nbt": "{data:{id:\"frozen_hijinx\"}}"
 			}
 		},
 		{
 			"condition": "minecraft:entity_properties",
 			"entity": "this",
 			"predicate": {
-				"nbt": "{CustomName:'\"great_plateau\"'}"
+				"nbt": "{data:{id:\"great_plateau\"}}"
 			}
 		},
 		{
 			"condition": "minecraft:entity_properties",
 			"entity": "this",
 			"predicate": {
-				"nbt": "{CustomName:'\"green_hill_zone\"'}"
+				"nbt": "{data:{id:\"green_hill_zone\"}}"
 			}
 		},
 		{
 			"condition": "minecraft:entity_properties",
 			"entity": "this",
 			"predicate": {
-				"nbt": "{CustomName:'\"jungle_japes\"'}"
+				"nbt": "{data:{id:\"jungle_japes\"}}"
 			}
 		},
 		{
 			"condition": "minecraft:entity_properties",
 			"entity": "this",
 			"predicate": {
-				"nbt": "{CustomName:'\"luigis_mansion\"'}"
+				"nbt": "{data:{id:\"luigis_mansion\"}}"
 			}
 		},
 		{
 			"condition": "minecraft:entity_properties",
 			"entity": "this",
 			"predicate": {
-				"nbt": "{CustomName:'\"mementos\"'}"
+				"nbt": "{data:{id:\"mementos\"}}"
 			}
 		},
 		{
 			"condition": "minecraft:entity_properties",
 			"entity": "this",
 			"predicate": {
-				"nbt": "{CustomName:'\"mushroom_kingdom\"'}"
+				"nbt": "{data:{id:\"mushroom_kingdom\"}}"
 			}
 		},
 		{
 			"condition": "minecraft:entity_properties",
 			"entity": "this",
 			"predicate": {
-				"nbt": "{CustomName:'\"pac_maze\"'}"
+				"nbt": "{data:{id:\"pac_maze\"}}"
 			}
 		},
 		{
 			"condition": "minecraft:entity_properties",
 			"entity": "this",
 			"predicate": {
-				"nbt": "{CustomName:'\"pallet_town\"'}"
+				"nbt": "{data:{id:\"pallet_town\"}}"
 			}
 		},
 		{
 			"condition": "minecraft:entity_properties",
 			"entity": "this",
 			"predicate": {
-				"nbt": "{CustomName:'\"palutenas_temple\"'}"
+				"nbt": "{data:{id:\"palutenas_temple\"}}"
 			}
 		},
 		{
 			"condition": "minecraft:entity_properties",
 			"entity": "this",
 			"predicate": {
-				"nbt": "{CustomName:'\"planet_zebes\"'}"
+				"nbt": "{data:{id:\"planet_zebes\"}}"
 			}
 		},
 		{
 			"condition": "minecraft:entity_properties",
 			"entity": "this",
 			"predicate": {
-				"nbt": "{CustomName:'\"saturn_valley\"'}"
+				"nbt": "{data:{id:\"saturn_valley\"}}"
 			}
 		},
 		{
 			"condition": "minecraft:entity_properties",
 			"entity": "this",
 			"predicate": {
-				"nbt": "{CustomName:'\"sector_z\"'}"
+				"nbt": "{data:{id:\"sector_z\"}}"
 			}
 		},
 		{
 			"condition": "minecraft:entity_properties",
 			"entity": "this",
 			"predicate": {
-				"nbt": "{CustomName:'\"suzaku_castle\"'}"
+				"nbt": "{data:{id:\"suzaku_castle\"}}"
 			}
 		},
 		{
 			"condition": "minecraft:entity_properties",
 			"entity": "this",
 			"predicate": {
-				"nbt": "{CustomName:'\"planet_epp\"'}"
+				"nbt": "{data:{id:\"planet_epp\"}}"
 			}
 		},
 		{
 			"condition": "minecraft:entity_properties",
 			"entity": "this",
 			"predicate": {
-				"nbt": "{CustomName:'\"yggdrasils_altar\"'}"
+				"nbt": "{data:{id:\"yggdrasils_altar\"}}"
 			}
 		}
 	]

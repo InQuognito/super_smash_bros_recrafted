@@ -65,7 +65,9 @@
 						},
 						{
 							"function": "minecraft:set_custom_data",
-							"tag": "{item:\"counter\",damage:0.35}"
+							"tag": {
+								"item": "counter",
+								"damage": 0.35}
 						}
 					]
 				}

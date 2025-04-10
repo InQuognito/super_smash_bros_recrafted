@@ -71,7 +71,10 @@
 						},
 						{
 							"function": "minecraft:set_custom_data",
-							"tag": "{item:\"poison_powder\",cooldown:200}"
+							"tag": {
+								"item": "poison_powder",
+								"cooldown": 200
+							}
 						}
 					]
 				}

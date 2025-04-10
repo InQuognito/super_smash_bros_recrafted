@@ -26,6 +26,9 @@
 	},
 	{
 		"function": "minecraft:set_custom_data",
-		"tag": "{enchanted:\"true\",enchantment:\"titanium\"}"
+		"tag": {
+			"enchanted": "true",
+			"enchantment": "titanium"
+		}
 	}
 ]

@@ -65,7 +65,10 @@
 						},
 						{
 							"function": "minecraft:set_custom_data",
-							"tag": "{item:\"war_horn\",disabled:\"false\"}"
+							"tag": {
+								"item": "war_horn",
+								"disabled": "false"
+							}
 						}
 					]
 				}

@@ -91,7 +91,10 @@
 						},
 						{
 							"function": "minecraft:set_custom_data",
-							"tag": "{item:\"areadbhar\",path:\"byleth/logic/blue_lions/spin_attack/activate/check\",damage:3}"
+							"tag": {
+								"item": "areadbhar",
+								"path": "byleth/logic/blue_lions/spin_attack/activate/check",
+								"damage": 3}
 						}
 					]
 				}

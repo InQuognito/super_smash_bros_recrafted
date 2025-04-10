@@ -55,7 +55,9 @@
 						},
 						{
 							"function": "minecraft:set_custom_data",
-							"tag": "{item:\"tornado\",damage:4}"
+							"tag": {
+								"item": "tornado",
+								"damage": 4}
 						}
 					]
 				}

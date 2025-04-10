@@ -67,7 +67,11 @@
 						},
 						{
 							"function": "minecraft:set_custom_data",
-							"tag": "{item:\"smoke_grenade\",group:\"snake.weapon\",cooldown:300}"
+							"tag": {
+								"item": "smoke_grenade",
+								"group": "snake.weapon",
+								"cooldown": 300
+							}
 						}
 					]
 				}

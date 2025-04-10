@@ -65,7 +65,10 @@
 						},
 						{
 							"function": "minecraft:set_custom_data",
-							"tag": "{item:\"fury_swipes\",cooldown:40}"
+							"tag": {
+								"item": "fury_swipes",
+								"cooldown": 40
+							}
 						}
 					]
 				}

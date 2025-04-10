@@ -20,8 +20,6 @@ function ssbrc:logic/game/data/scoreboards/duration
 
 teleport @s -37.5 6.0 13.5 0.0 0.0
 
-attribute @s minecraft:block_interaction_range base set 10.0
-
 execute if score teams options matches 0 run team join waiting @s[team=!spectator]
 effect give @s[team=!spectator] minecraft:glowing infinite 255 true
 

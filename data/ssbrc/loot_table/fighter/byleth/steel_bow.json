@@ -20,7 +20,9 @@
 						},
 						{
 							"function": "minecraft:set_custom_data",
-							"tag": "{item:\"steel_bow\"}"
+							"tag": {
+								"item": "steel_bow"
+							}
 						}
 					]
 				}

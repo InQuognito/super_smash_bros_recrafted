@@ -57,7 +57,11 @@
 						},
 						{
 							"function": "minecraft:set_custom_data",
-							"tag": "{item:\"remote_mine\",group:\"mega_buster\",cooldown:40}"
+							"tag": {
+								"item": "remote_mine",
+								"group": "mega_buster",
+								"cooldown": 40
+							}
 						}
 					]
 				}

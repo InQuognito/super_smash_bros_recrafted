@@ -77,7 +77,10 @@
 						},
 						{
 							"function": "minecraft:set_custom_data",
-							"tag": "{item:\"electrocution\",cooldown:300}"
+							"tag": {
+								"item": "electrocution",
+								"cooldown": 300
+							}
 						}
 					]
 				}

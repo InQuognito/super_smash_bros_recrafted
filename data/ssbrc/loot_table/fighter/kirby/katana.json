@@ -59,7 +59,9 @@
 						},
 						{
 							"function": "minecraft:set_custom_data",
-							"tag": "{item:\"katana\",damage:5}"
+							"tag": {
+								"item": "katana",
+								"damage": 5}
 						}
 					]
 				}

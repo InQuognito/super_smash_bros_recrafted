@@ -96,7 +96,11 @@
 						},
 						{
 							"function": "minecraft:set_custom_data",
-							"tag": "{item:\"plasma_beam\",cooldown:60,alt_cooldown:20}"
+							"tag": {
+								"item": "plasma_beam",
+								"cooldown": 60,
+								"alt_cooldown": 20
+							}
 						}
 					]
 				}

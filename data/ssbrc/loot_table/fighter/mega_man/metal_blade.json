@@ -51,7 +51,11 @@
 						},
 						{
 							"function": "minecraft:set_custom_data",
-							"tag": "{item:\"metal_blade\",group:\"mega_buster\",cooldown:40}"
+							"tag": {
+								"item": "metal_blade",
+								"group": "mega_buster",
+								"cooldown": 40
+							}
 						}
 					]
 				}

@@ -59,7 +59,10 @@
 						},
 						{
 							"function": "minecraft:set_custom_data",
-							"tag": "{item:\"spirit_orb\",cooldown:100}"
+							"tag": {
+								"item": "spirit_orb",
+								"cooldown": 100
+							}
 						}
 					]
 				}

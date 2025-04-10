@@ -43,7 +43,9 @@
 						},
 						{
 							"function": "minecraft:set_custom_data",
-							"tag": "{item:\"goron_locket\"}"
+							"tag": {
+								"item": "goron_locket"
+							}
 						}
 					]
 				}

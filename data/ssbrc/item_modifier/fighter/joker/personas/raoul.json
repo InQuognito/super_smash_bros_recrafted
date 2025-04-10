@@ -28,6 +28,8 @@
 	},
 	{
 		"function": "minecraft:set_custom_data",
-		"tag": "{persona:\"raoul\"}"
+		"tag": {
+			"persona": "raoul"
+		}
 	}
 ]

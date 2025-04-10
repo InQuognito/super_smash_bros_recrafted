@@ -51,7 +51,10 @@
 						},
 						{
 							"function": "minecraft:set_custom_data",
-							"tag": "{item:\"fox.blaster\",cooldown:10}"
+							"tag": {
+								"item": "fox.blaster",
+								"cooldown": 10
+							}
 						}
 					]
 				}

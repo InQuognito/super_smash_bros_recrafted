@@ -69,7 +69,11 @@
 						},
 						{
 							"function": "minecraft:set_custom_data",
-							"tag": "{item:\"phase_locket\",disabled:\"false\",cooldown:300}"
+							"tag": {
+								"item": "phase_locket",
+								"disabled": "false",
+								"cooldown": 300
+							}
 						}
 					]
 				}
