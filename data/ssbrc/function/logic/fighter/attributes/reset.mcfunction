@@ -1,6 +1,6 @@
 attribute @s minecraft:armor base reset
 
-attribute @s minecraft:block_interaction_range base reset
+attribute @s minecraft:block_interaction_range base set 0.0
 
 attribute @s minecraft:gravity base reset
 attribute @s minecraft:gravity modifier remove ssbrc:zero
