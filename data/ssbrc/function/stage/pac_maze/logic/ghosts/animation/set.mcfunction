@@ -2,7 +2,7 @@ $item modify entity @s contents { \
 	"function": "minecraft:set_custom_model_data", \
 	"floats": { \
 		"values": [ \
-			$(value).0f \
+			$(value) \
 		], \
 		"mode": "replace_all" \
 	} \
