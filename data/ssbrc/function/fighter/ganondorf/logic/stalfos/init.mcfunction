@@ -25,7 +25,7 @@ item replace entity @s weapon.mainhand with minecraft:stick[ \
 	} \
 ]
 
-item replace entity @s weapon.offhand with minecraft:stick[minecraft:item_model="minecraft:shield"]
+item replace entity @s weapon.offhand with minecraft:shield
 
 item replace entity @s armor.head with minecraft:leather_helmet
 item replace entity @s armor.chest with minecraft:air

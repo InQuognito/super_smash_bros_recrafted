@@ -6,7 +6,7 @@ $loot replace entity @s $(slot) loot { \
 			"entries": [ \
 				{ \
 					"type": "minecraft:item", \
-					"name": "minecraft:stick", \
+					"name": "minecraft:shield", \
 					"functions": [ \
 						{ \
 							"function": "minecraft:set_name", \
@@ -26,9 +26,7 @@ $loot replace entity @s $(slot) loot { \
 									"block_sound": "$(block_sound)", \
 									"disabled_sound": "$(disabled_sound)" \
 								}, \
-								"minecraft:max_stack_size": 1, \
-								"minecraft:max_damage": $(max_damage), \
-								"minecraft:item_model": "minecraft:shield" \
+								"minecraft:max_damage": $(max_damage) \
 							} \
 						}, \
 						{ \

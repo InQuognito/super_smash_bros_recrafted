@@ -6,7 +6,7 @@
 			"entries": [
 				{
 					"type": "minecraft:item",
-					"name": "minecraft:stick",
+					"name": "minecraft:shield",
 					"functions": [
 						{
 							"function": "minecraft:set_name",
@@ -30,8 +30,7 @@
 									"block_sound": "minecraft:item.shield.block",
 									"disabled_sound": "minecraft:item.shield.break"
 								},
-								"minecraft:max_damage": 20,
-								"minecraft:item_model": "minecraft:shield"
+								"minecraft:max_damage": 20
 							}
 						},
 						{
