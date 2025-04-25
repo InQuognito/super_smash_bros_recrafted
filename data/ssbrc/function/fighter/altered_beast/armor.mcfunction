@@ -18,3 +18,5 @@ item modify entity @s armor.chest { \
 }
 
 item modify entity @s armor.legs ssbrc:fighter/no_utilities
+
+say hi
