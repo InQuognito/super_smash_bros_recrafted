@@ -7,8 +7,8 @@ function ssbrc:logic/ui/buttons/placeholder/get {slot:"18"}
 
 item replace entity @s enderchest.12 with minecraft:stick[ \
 	minecraft:item_name = { \
-		"translate": "ssbrc.game.fighters", \
-		"color": "yellow", \
+		translate: "ssbrc.game.fighters", \
+		color: "yellow", \
 		"bold": true \
 	}, \
 	minecraft:item_model = "minecraft:iron_sword", \

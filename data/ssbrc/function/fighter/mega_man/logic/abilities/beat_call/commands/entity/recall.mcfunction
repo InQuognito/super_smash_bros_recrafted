@@ -1,3 +1,1 @@
-function ssbrc:fighter/mega_man/logic/abilities/beat_call/commands/entity/reset
-
-tag @s add recall
+data modify entity @s data.command set value "recall"

@@ -1,7 +1,5 @@
 function ssbrc:logic/fighter/ability/init
 
-execute positioned ~ ~0.1 ~ summon minecraft:marker run function ssbrc:fighter/wolf/logic/abilities/wolf_flash/init
-
-function ssbrc:logic/item/durability/reset/hand {key:"item",value:"wolf_slash",source:"cooldown"}
+execute positioned ~ ~0.1 ~ rotated ~ -15.0 run function ssbrc:fighter/wolf/logic/abilities/wolf_flash/raycast/start
 
 function ssbrc:logic/fighter/ability/deinit

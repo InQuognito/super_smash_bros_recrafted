@@ -1,6 +1,6 @@
 function ssbrc:fighter/team_rocket/kits/update {form:"meowth",color:"yellow"}
 
-function ssbrc:logic/item/init/slot {item:"scratch",slot:"hotbar.0",class:"weapon",type:"default"}
+function ssbrc:logic/item/init/slot {item:"scratch",slot:"hotbar.0",class:"item",type:"weapon"}
 
 loot replace entity @s hotbar.1 loot ssbrc:fighter/team_rocket/meowth/fury_swipes
 
@@ -19,14 +19,14 @@ item modify entity @s armor.chest [ \
 		"entity": "this", \
 		"lore": [ \
 			{ \
-				"translate": "ssbrc.fighter.team_rocket.meowth.grace", \
-				"color": "yellow", \
+				translate: "ssbrc.fighter.team_rocket.meowth.grace", \
+				color: "yellow", \
 				"italic": false, \
 				"underlined":true \
 			}, \
 			{ \
-				"translate": "ssbrc.fighter.team_rocket.meowth.grace.description.1", \
-				"color": "gray", \
+				translate: "ssbrc.fighter.team_rocket.meowth.grace.description.1", \
+				color: "gray", \
 				"italic": false \
 			} \
 		], \

@@ -20,11 +20,9 @@
 					}
 				],
 				"item": {
-					"items": "#ssbrc:equipment",
 					"predicates": {
-						"minecraft:custom_data": "{item:\"drill_bomb\"}",
-						"minecraft:damage": {
-							"damage": 0
+						"minecraft:custom_data": {
+							"item": "drill_bomb"
 						}
 					}
 				}

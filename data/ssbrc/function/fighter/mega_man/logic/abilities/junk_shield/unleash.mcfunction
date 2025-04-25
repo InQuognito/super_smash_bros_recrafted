@@ -1,3 +1,5 @@
+advancement revoke @s only ssbrc:utility/use_item/fighter/mega_man/junk_shield/unleash
+
 function ssbrc:logic/fighter/ability/init
 
 function ssbrc:fighter/mega_man/logic/abilities/junk_shield/deactivate

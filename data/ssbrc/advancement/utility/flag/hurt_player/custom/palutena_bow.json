@@ -22,7 +22,9 @@
 							"equipment": {
 								"mainhand": {
 									"predicates": {
-										"minecraft:custom_data": "{item:\"palutena_bow\"}"
+										"minecraft:custom_data": {
+											"item": "palutena_bow"
+										}
 									}
 								}
 							}

@@ -1,8 +1,8 @@
-function ssbrc:logic/fighter/ability/init
+advancement revoke @s only ssbrc:utility/use_item/fighter/altered_beast/werewolf/flame_hands
 
-execute anchored eyes positioned ^ ^ ^1 summon minecraft:marker run function ssbrc:fighter/altered_beast/logic/werewolf/flame_hands/init
+function ssbrc:logic/fighter/ability/init_entity {fighter:"altered_beast",item:"flame_hands"}
 
-function ssbrc:logic/item/durability/reset/hand {key:"item",value:"flame_hands",source:"cooldown"}
+execute anchored eyes positioned ^ ^ ^0.5 summon minecraft:marker run function ssbrc:fighter/altered_beast/logic/werewolf/flame_hands/init
 
 playsound ssbrc:fighter.altered_beast.werewolf.flame_hands.activate player @a
 

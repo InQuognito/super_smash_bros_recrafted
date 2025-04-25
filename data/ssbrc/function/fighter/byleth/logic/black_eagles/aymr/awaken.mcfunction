@@ -3,8 +3,8 @@ item modify entity @s weapon.mainhand [ \
 		"function": "minecraft:set_name", \
 		"entity": "this", \
 		"name": { \
-			"translate": "ssbrc.fighter.byleth.black_eagles.aymr", \
-			"color": "red", \
+			translate: "ssbrc.fighter.byleth.black_eagles.aymr", \
+			color: "red", \
 			"bold": true, \
 			"italic": false \
 		} \

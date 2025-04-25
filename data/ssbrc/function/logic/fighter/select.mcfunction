@@ -10,7 +10,7 @@ $execute unless data storage ssbrc:temp player.temp_data{fighter:"team_rocket"} 
 
 tag @s add fighter_picked
 
-$tellraw @s[tag=!blind_pick] ["",{"translate":"ssbrc.fighter.menu.selected"},{"translate":"ssbrc.fighter.$(name)","color":"$(color)"}]
+$tellraw @s[tag=!blind_pick] ["",{translate:"ssbrc.fighter.menu.selected"},{translate:"ssbrc.fighter.$(name)",color:"$(color)"}]
 $function ssbrc:fighter/$(name)/menu/select
 
 execute if entity @s[team=spectator] run function ssbrc:logic/game/team/join/red

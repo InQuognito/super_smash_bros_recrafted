@@ -1,6 +1,6 @@
 tag @s add hyper_voice
 
-function ssbrc:logic/init/projectile_horizontal
+function ssbrc:logic/init/projectile/horizontal with storage ssbrc:temp cache.item
 rotate @s ~90 0.0
 
 execute if data storage ssbrc:temp player.temp_data{skin:"gold"} run return run tag @s add gold

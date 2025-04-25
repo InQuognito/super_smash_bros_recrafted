@@ -1,7 +1,7 @@
-function ssbrc:logic/fighter/ability/init
+advancement revoke @s only ssbrc:utility/use_item/fighter/joker/hama
 
-execute anchored eyes positioned ^ ^ ^1 summon minecraft:marker run function ssbrc:fighter/joker/logic/abilities/hama/init/marker
+function ssbrc:logic/fighter/ability/init_entity {fighter:"joker",item:"hama"}
 
-function ssbrc:logic/item/durability/reset/hand {key:"item",value:"hama",source:"cooldown"}
+execute anchored eyes positioned ^ ^ ^0.5 summon minecraft:marker run function ssbrc:fighter/joker/logic/abilities/hama/init/marker
 
 function ssbrc:logic/fighter/ability/deinit

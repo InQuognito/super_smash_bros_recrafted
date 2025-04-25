@@ -7,8 +7,8 @@ item replace entity @s armor.head with minecraft:barrier[ \
 
 item replace entity @s armor.chest with minecraft:iron_chestplate[ \
 	minecraft:item_name = { \
-		"translate": "ssbrc.ability.passives", \
-		"color": "blue", \
+		translate: "ssbrc.ability.passives", \
+		color: "blue", \
 		"bold": true \
 	}, \
 	minecraft:unbreakable = {}, \
@@ -24,8 +24,8 @@ item replace entity @s armor.chest with minecraft:iron_chestplate[ \
 
 item replace entity @s armor.legs with minecraft:iron_leggings[ \
 	minecraft:item_name = { \
-		"translate": "ssbrc.ability.utilities", \
-		"color": "green", \
+		translate: "ssbrc.ability.utilities", \
+		color: "green", \
 		"bold": true \
 	}, \
 	minecraft:unbreakable = {}, \

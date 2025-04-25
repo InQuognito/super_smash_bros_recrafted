@@ -15,16 +15,17 @@
 						"scores": {
 							"duration.1": {
 								"max": 0
+							},
+							"duration.2": {
+								"max": 0
 							}
 						}
 					}
 				],
 				"item": {
-					"items": "#ssbrc:equipment",
 					"predicates": {
-						"minecraft:custom_data": "{item:\"krazoan_staff\"}",
-						"minecraft:damage": {
-							"damage": 0
+						"minecraft:custom_data": {
+							"item": "krazoan_staff"
 						}
 					}
 				}

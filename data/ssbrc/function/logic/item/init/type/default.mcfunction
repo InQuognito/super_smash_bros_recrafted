@@ -3,8 +3,8 @@ $item modify entity @s $(slot) [ \
 		"function": "minecraft:set_name", \
 		"entity": "this", \
 		"name": { \
-			"translate": "$(name)", \
-			"color": "$(color)", \
+			translate: "$(name)", \
+			color: "$(color)", \
 			"bold": true, \
 			"italic": false \
 		} \

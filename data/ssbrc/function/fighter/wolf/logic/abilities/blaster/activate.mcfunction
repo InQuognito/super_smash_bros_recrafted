@@ -1,8 +1,6 @@
-function ssbrc:logic/fighter/ability/init
+function ssbrc:logic/fighter/ability/init {fighter:"wolf",item:"wolf_blaster"}
 
-execute anchored eyes positioned ^ ^ ^1 summon minecraft:marker run function ssbrc:fighter/wolf/logic/abilities/blaster/init with storage ssbrc:temp player.temp_data
-
-function ssbrc:logic/item/durability/reset/hand {key:"item",value:"wolf.blaster",source:"cooldown"}
+execute anchored eyes positioned ^ ^ ^0.5 summon minecraft:marker run function ssbrc:fighter/wolf/logic/abilities/blaster/init
 
 playsound ssbrc:fighter.wolf.blaster.activate player @a
 

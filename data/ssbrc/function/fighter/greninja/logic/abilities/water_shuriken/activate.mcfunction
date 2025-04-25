@@ -1,11 +1,11 @@
-function ssbrc:logic/fighter/ability/init
+advancement revoke @s only ssbrc:utility/use_item/fighter/greninja/water_shuriken
 
-execute anchored eyes positioned ^ ^ ^1 summon minecraft:item_display run function ssbrc:fighter/greninja/logic/abilities/water_shuriken/init
+function ssbrc:logic/fighter/ability/init_entity {fighter:"greninja",item:"water_shuriken"}
+
+execute anchored eyes positioned ^ ^ ^0.5 summon minecraft:item_display run function ssbrc:fighter/greninja/logic/abilities/water_shuriken/init
 
 scoreboard players remove @s charge.1 1
-item replace entity @s[scores={charge.1=..0}] weapon.mainhand with minecraft:air
-
-function ssbrc:logic/item/durability/reset/hand {key:"item",value:"water_shuriken",source:"cooldown"}
+clear @s[scores={charge.1=..0}] minecraft:goat_horn[minecraft:custom_data~{item:"water_shuriken"}]
 
 playsound ssbrc:fighter.greninja.water_shuriken.activate player @a
 

@@ -1,3 +1,5 @@
+advancement revoke @s only ssbrc:utility/use_item/fighter/mega_man/junk_shield/activate
+
 tag @s add junk_shield
 
 function ssbrc:logic/fighter/ability/init

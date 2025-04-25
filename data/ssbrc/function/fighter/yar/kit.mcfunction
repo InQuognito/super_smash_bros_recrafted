@@ -1,4 +1,4 @@
-function ssbrc:logic/item/init/slot {item:"trionic_blade",slot:"hotbar.0",class:"weapon",type:"default"}
+function ssbrc:logic/item/init/slot {item:"trionic_blade",slot:"hotbar.0",class:"item",type:"weapon"}
 
 function ssbrc:logic/item/init/slot {item:"ray_blaster",slot:"hotbar.1",class:"default",type:"default"}
 

@@ -15,11 +15,10 @@
 					}
 				],
 				"item": {
-					"items": "#ssbrc:equipment",
 					"predicates": {
-						"minecraft:custom_data": "{item:\"drone\",command:\"activate\"}",
-						"minecraft:damage": {
-							"damage": 0
+						"minecraft:custom_data": {
+							"item": "drone",
+							"command": "activate"
 						}
 					}
 				}

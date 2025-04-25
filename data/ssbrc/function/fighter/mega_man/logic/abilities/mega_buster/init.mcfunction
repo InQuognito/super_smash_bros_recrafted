@@ -5,4 +5,4 @@ $function ssbrc:logic/init/model {skin:"$(skin)"}
 
 data merge entity @s {teleport_duration:1}
 
-function ssbrc:logic/init/projectile
+function ssbrc:logic/init/projectile/generic

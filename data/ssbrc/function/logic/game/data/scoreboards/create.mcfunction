@@ -162,8 +162,8 @@ scoreboard objectives add zelda.shatter_resist dummy
 scoreboard objectives add zelda.silent_princess dummy
 scoreboard objectives add zelda.special_bond dummy
 
-scoreboard objectives modify points displayname {"translate":"ssbrc.game.points","bold":true,"color":"yellow"}
-scoreboard objectives modify stocks displayname {"translate":"ssbrc.game.stocks","bold":true,"color":"yellow"}
+scoreboard objectives modify points displayname {translate:"ssbrc.game.points","bold":true,color:"yellow"}
+scoreboard objectives modify stocks displayname {translate:"ssbrc.game.stocks","bold":true,color:"yellow"}
 
 scoreboard objectives add log.games_played dummy
 scoreboard objectives add log.wins dummy

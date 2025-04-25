@@ -1,6 +1,6 @@
 function ssbrc:logic/fighter/ability/init
 
-execute positioned ~ ~0.75 ~ summon minecraft:marker run function ssbrc:fighter/shovel_knight/logic/abilities/war_horn/init
+execute positioned ~ ~0.75 ~ summon minecraft:item_display run function ssbrc:fighter/shovel_knight/logic/abilities/war_horn/init
 
 tag @s add war_horn.active
 

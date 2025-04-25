@@ -1,5 +1,5 @@
 clear @s minecraft:shield[minecraft:custom_data~{item:"shield"}]
 
-function ssbrc:logic/item/init/slot {item:"shield",slot:"weapon.offhand",class:"weapon",type:"shield"}
+function ssbrc:logic/item/init/slot {item:"shield",slot:"weapon.offhand",class:"item",type:"shield"}
 
-tellraw @s {"translate":"ssbrc.fighter.steve.craft_shield","color":"green"}
+tellraw @s {translate:"ssbrc.fighter.steve.craft_shield",color:"green"}

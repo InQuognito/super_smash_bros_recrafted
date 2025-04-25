@@ -1,5 +1,4 @@
 tag @s add electric_terrain
-
-execute if entity @p[tag=self,tag=santa_hat] run tag @s add snowing
+execute if score snowing temp matches 1 run data modify entity @s data.snowing set value "true"
 
 function ssbrc:logic/init/id

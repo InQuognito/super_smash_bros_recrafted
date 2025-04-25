@@ -1,8 +1,8 @@
-function ssbrc:logic/fighter/ability/init
+advancement revoke @s only ssbrc:utility/use_item/fighter/mega_man/metal_blade
 
-execute anchored eyes positioned ^ ^ ^1 summon minecraft:item_display run function ssbrc:fighter/mega_man/logic/abilities/metal_blade/init
+function ssbrc:logic/fighter/ability/init_entity {fighter:"mega_man",item:"metal_blade"}
 
-function ssbrc:logic/item/durability/reset/hand {key:"item",value:"metal_blade",source:"cooldown"}
+execute anchored eyes positioned ^ ^ ^0.5 summon minecraft:item_display run function ssbrc:fighter/mega_man/logic/abilities/metal_blade/init
 
 scoreboard players add @s cooldown 20
 

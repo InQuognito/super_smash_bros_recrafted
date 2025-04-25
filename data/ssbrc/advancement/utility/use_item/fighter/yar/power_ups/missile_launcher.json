@@ -11,9 +11,10 @@
 					}
 				],
 				"item": {
-					"items": "#ssbrc:equipment",
 					"predicates": {
-						"minecraft:custom_data": "{power_up:\"missile_launcher\"}"
+						"minecraft:custom_data": {
+							"power_up": "missile_launcher"
+						}
 					}
 				}
 			}

@@ -1,4 +1,4 @@
-tellraw @a[tag=room.fighter_select] [{"translate":"ssbrc.options.teams","color":"yellow"}," -> ",{"translate":"ssbrc.options.on","color":"blue"}]
+tellraw @a[tag=room.fighter_select] [{translate:"ssbrc.options.teams",color:"yellow"}," -> ",{translate:"ssbrc.options.on",color:"blue"}]
 
 scoreboard players set teams options 1
 

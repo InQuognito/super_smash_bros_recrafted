@@ -8,28 +8,28 @@ $item modify entity @s $(slot) [ \
 		"entity": "this", \
 		"lore": [ \
 			{ \
-				"text": "", \
-				"color": "white", \
+				text: "", \
+				color: "white", \
 				"italic": false, \
 				"extra": [ \
 					{ \
-						"translate": "ssbrc.fighter.sora.$(spell_1)", \
-						"color": "$(spell_1_color)", \
+						translate: "ssbrc.fighter.sora.$(spell_1)", \
+						color: "$(spell_1_color)", \
 						"bold": true \
 					}, \
 					{ \
-						"text": " -> " \
+						text: " -> " \
 					}, \
 					{ \
-						"translate": "ssbrc.fighter.sora.$(spell_2)", \
-						"color": "$(spell_2_color)" \
+						translate: "ssbrc.fighter.sora.$(spell_2)", \
+						color: "$(spell_2_color)" \
 					}, \
 					{ \
-						"text": " -> " \
+						text: " -> " \
 					}, \
 					{ \
-						"translate": "ssbrc.fighter.sora.$(spell_3)", \
-						"color": "$(spell_3_color)" \
+						translate: "ssbrc.fighter.sora.$(spell_3)", \
+						color: "$(spell_3_color)" \
 					} \
 				] \
 			} \

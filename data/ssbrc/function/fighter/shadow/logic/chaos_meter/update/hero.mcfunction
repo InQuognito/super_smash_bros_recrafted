@@ -12,7 +12,7 @@ tag @s add alignment.hero
 scoreboard players set n temp 10
 
 scoreboard players set resource.queued temp 0
-#execute if items entity @s weapon.mainhand #ssbrc:equipment[minecraft:custom_data~{item:"chaos_spear"}] run function ssbrc:fighter/shadow/logic/chaos_meter/hud/calculate
+#execute if items entity @s weapon.mainhand *[minecraft:custom_data~{item:"chaos_spear"}] run function ssbrc:fighter/shadow/logic/chaos_meter/hud/calculate
 
 scoreboard players operation resource.available temp = shadow.hero_percent temp
 scoreboard players operation resource.available.counter temp = resource.available temp

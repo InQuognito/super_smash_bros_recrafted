@@ -3,7 +3,7 @@ data modify storage ssbrc:hud hero.magic set value []
 scoreboard players operation n temp = hero.magic.max const
 
 scoreboard players set magic.queued temp 0
-execute if items entity @s weapon.mainhand #ssbrc:equipment[minecraft:custom_data~{group:"hero.spell"}] run function ssbrc:fighter/hero/logic/magic/hud/calculate
+execute if items entity @s weapon.mainhand minecraft:goat_horn[minecraft:custom_data~{group:"hero.spell"}] run function ssbrc:fighter/hero/logic/magic/hud/calculate
 
 scoreboard players operation magic.available temp = @s magic
 scoreboard players operation magic.available.counter temp = magic.available temp

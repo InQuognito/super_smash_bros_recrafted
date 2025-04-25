@@ -20,19 +20,19 @@ execute if data storage ssbrc:temp game.stage{name:"tower_of_fate"} if score haz
 
 execute positioned -528.5 6.0 -1939.5 run data modify entity @n[type=minecraft:text_display,tag=lobby.timer,distance=..0.01] text set value [ \
 	{ \
-		"translate": "ssbrc.lobby.time_remaining", \
-		"color": "gold" \
+		translate: "ssbrc.lobby.time_remaining", \
+		color: "gold" \
 	}, \
 	{ \
 		"score": { \
 			"name": "game_time", \
 			"objective": "timer" \
 		}, \
-		"color": "yellow" \
+		color: "yellow" \
 	}, \
 	{ \
-		"text": "s", \
-		"color": "gold" \
+		text: "s", \
+		color: "gold" \
 	} \
 ]
 

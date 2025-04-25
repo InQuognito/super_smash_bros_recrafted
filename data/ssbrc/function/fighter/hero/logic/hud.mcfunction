@@ -1,7 +1,7 @@
 title @s actionbar [ \
 	"", \
 	{ \
-		"translate": "ssbrc.fighter.magic", \
+		translate: "ssbrc.fighter.magic", \
 		"bold": true \
 	}, \
 	{ \

@@ -1,9 +1,9 @@
 title @s actionbar [ \
 	"", \
 	{ \
-		"translate": "ssbrc.fighter.sora.magic", \
+		translate: "ssbrc.fighter.sora.magic", \
 		"bold": true, \
-		"color": "blue" \
+		color: "blue" \
 	}, \
 	{ \
 		"nbt": "player.temp_data.hud.1[]", \
@@ -13,9 +13,9 @@ title @s actionbar [ \
 	}, \
 	" | ", \
 	{ \
-		"translate": "ssbrc.fighter.sora.drive", \
+		translate: "ssbrc.fighter.sora.drive", \
 		"bold": true, \
-		"color": "yellow" \
+		color: "yellow" \
 	}, \
 	{ \
 		"nbt": "player.temp_data.hud.2", \
@@ -29,6 +29,6 @@ title @s actionbar [ \
 			"name": "@s", \
 			"objective": "resource" \
 		}, \
-		"color":"yellow" \
+		color:"yellow" \
 	} \
 ]

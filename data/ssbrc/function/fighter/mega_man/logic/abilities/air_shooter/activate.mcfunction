@@ -1,8 +1,8 @@
-function ssbrc:logic/fighter/ability/init
+advancement revoke @s only ssbrc:utility/use_item/fighter/mega_man/air_shooter
 
-execute anchored eyes positioned ^ ^ ^1 run function ssbrc:fighter/mega_man/logic/abilities/air_shooter/projectile
+function ssbrc:logic/fighter/ability/init_entity {fighter:"mega_man",item:"air_shooter"}
 
-function ssbrc:logic/item/durability/reset/hand {key:"item",value:"air_shooter",source:"cooldown"}
+execute anchored eyes positioned ^ ^ ^0.5 run function ssbrc:fighter/mega_man/logic/abilities/air_shooter/projectile
 
 scoreboard players add @s cooldown 20
 

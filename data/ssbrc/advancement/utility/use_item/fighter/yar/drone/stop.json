@@ -11,11 +11,10 @@
 					}
 				],
 				"item": {
-					"items": "#ssbrc:equipment",
 					"predicates": {
-						"minecraft:custom_data": "{item:\"drone\",command:\"stop\"}",
-						"minecraft:damage": {
-							"damage": 0
+						"minecraft:custom_data": {
+							"item": "drone",
+							"command": "stop"
 						}
 					}
 				}

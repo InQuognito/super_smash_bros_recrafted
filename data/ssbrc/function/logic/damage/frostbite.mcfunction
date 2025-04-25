@@ -6,5 +6,4 @@ $execute store success score damage_success temp run damage @s $(amount) ssbrc:$
 
 function ssbrc:logic/fighter/attributes/modifiers/frostbite/increase
 
-$data modify storage ssbrc:cache damage.source set value "$(source)"
 function ssbrc:logic/damage/common

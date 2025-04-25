@@ -16,9 +16,10 @@
 					}
 				],
 				"item": {
-					"items": "#ssbrc:equipment",
 					"predicates": {
-						"minecraft:custom_data": "{team:\"green\"}"
+						"minecraft:custom_data": {
+							"team": "green"
+						}
 					}
 				}
 			}

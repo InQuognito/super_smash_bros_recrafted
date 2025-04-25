@@ -20,14 +20,10 @@
 					}
 				],
 				"item": {
-					"items": "#ssbrc:equipment",
 					"predicates": {
 						"minecraft:custom_data": {
 							"item": "chaos_spear",
 							"enabled": "true"
-						},
-						"minecraft:damage": {
-							"damage": 0
 						}
 					}
 				}

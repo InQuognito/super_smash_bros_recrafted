@@ -8,4 +8,4 @@ execute if score entity_hit temp matches 1 run return run kill @s
 teleport @s ^ ^ ^0.5
 
 scoreboard players add @s temp 1
-kill @s[scores={temp=100..}]
+kill @s[scores={temp=60..}]

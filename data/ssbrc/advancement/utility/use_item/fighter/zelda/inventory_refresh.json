@@ -20,9 +20,10 @@
 					}
 				],
 				"item": {
-					"items": "#ssbrc:equipment",
 					"predicates": {
-						"minecraft:custom_data": "{item:\"inventory_refresh\"}"
+						"minecraft:custom_data": {
+							"item": "inventory_refresh"
+						}
 					}
 				}
 			}

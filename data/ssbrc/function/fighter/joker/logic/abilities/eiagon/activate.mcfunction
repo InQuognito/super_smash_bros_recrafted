@@ -1,8 +1,8 @@
-function ssbrc:logic/fighter/ability/init
+advancement revoke @s only ssbrc:utility/use_item/fighter/joker/eiagon
 
-execute anchored eyes positioned ^ ^ ^1 summon minecraft:marker run function ssbrc:fighter/joker/logic/abilities/eiagon/init
+function ssbrc:logic/fighter/ability/init_entity {fighter:"joker",item:"eiagon"}
 
-function ssbrc:logic/item/durability/reset/hand {key:"item",value:"eiagon",source:"cooldown"}
+execute anchored eyes positioned ^ ^ ^0.5 summon minecraft:marker run function ssbrc:fighter/joker/logic/abilities/eiagon/init
 
 playsound ssbrc:fighter.joker.eiagon.activate player @a
 

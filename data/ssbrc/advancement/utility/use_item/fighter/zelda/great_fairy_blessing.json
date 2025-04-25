@@ -20,9 +20,10 @@
 					}
 				],
 				"item": {
-					"items": "#ssbrc:equipment",
 					"predicates": {
-						"minecraft:custom_data": "{item:\"great_fairy_blessing\"}"
+						"minecraft:custom_data": {
+							"item": "great_fairy_blessing"
+						}
 					}
 				}
 			}

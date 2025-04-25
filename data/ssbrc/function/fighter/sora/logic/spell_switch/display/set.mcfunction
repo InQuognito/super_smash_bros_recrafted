@@ -3,23 +3,23 @@ $item modify entity @s $(slot) [ \
 		"function": "minecraft:set_name", \
 		"entity": "this", \
 		"name": { \
-			"text": "", \
+			text: "", \
 			"italic": false, \
 			"extra": [ \
 				{ \
-					"translate": "$(name)", \
-					"color": "$(color)", \
+					translate: "$(name)", \
+					color: "$(color)", \
 					"bold": true \
 				}, \
 				{ \
-					"text": " (" \
+					text: " (" \
 				}, \
 				{ \
-					"translate": "ssbrc.fighter.sora.keyblade.$(spell)$(suffix)", \
-					"color": "$(spell_color)" \
+					translate: "ssbrc.fighter.sora.keyblade.$(spell)$(suffix)", \
+					color: "$(spell_color)" \
 				}, \
 				{ \
-					"text": ")" \
+					text: ")" \
 				} \
 			] \
 		} \
@@ -33,17 +33,17 @@ $item modify entity @s $(slot) [ \
 		"entity": "this", \
 		"lore": [ \
 			{ \
-				"text": "- [", \
-				"color": "gray", \
+				text: "- [", \
+				color: "gray", \
 				"italic": false, \
 				"extra": [ \
 					{ \
 						"keybind": "key.use", \
-						"color": "gray" \
+						color: "gray" \
 					}, \
 					{ \
-						"translate": "ssbrc.fighter.sora.keyblade.$(spell)$(suffix).description.1", \
-						"color": "gray" \
+						translate: "ssbrc.fighter.sora.keyblade.$(spell)$(suffix).description.1", \
+						color: "gray" \
 					} \
 				] \
 			} \

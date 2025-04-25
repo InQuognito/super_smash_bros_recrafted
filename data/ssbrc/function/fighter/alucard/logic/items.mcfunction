@@ -4,4 +4,4 @@ execute unless items entity @s[scores={cooldown.2=..0}] container.* minecraft:st
 
 function ssbrc:logic/item/init/slot {item:"blood_metamorphosis",slot:"hotbar.2",class:"default",type:"default"}
 
-execute unless entity @s[tag=shield_broken] run function ssbrc:logic/item/init/slot {item:"alucard_shield",slot:"weapon.offhand",class:"weapon",type:"shield"}
+execute unless entity @s[tag=shield_broken] run function ssbrc:logic/item/init/slot {item:"alucard_shield",slot:"weapon.offhand",class:"item",type:"shield"}

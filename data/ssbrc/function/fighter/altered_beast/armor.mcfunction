@@ -3,14 +3,14 @@ item modify entity @s armor.chest { \
 	"entity": "this", \
 	"lore": [ \
 		{ \
-			"translate": "ssbrc.fighter.altered_beast.mark_of_the_beast", \
-			"color": "yellow", \
+			translate: "ssbrc.fighter.altered_beast.mark_of_the_beast", \
+			color: "yellow", \
 			"italic": false, \
 			"underlined": true \
 		}, \
 		{ \
-			"translate": "ssbrc.fighter.altered_beast.mark_of_the_beast.description", \
-			"color": "gray", \
+			translate: "ssbrc.fighter.altered_beast.mark_of_the_beast.description", \
+			color: "gray", \
 			"italic": false \
 		} \
 	], \

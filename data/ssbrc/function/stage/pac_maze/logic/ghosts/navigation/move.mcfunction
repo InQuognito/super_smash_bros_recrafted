@@ -1,4 +1,4 @@
-execute if data entity @s data{state:"active"} if entity @e[predicate=ssbrc:target,distance=..2] run function ssbrc:stage/pac_maze/logic/ghosts/touch/check
+execute if entity @e[predicate=ssbrc:target,distance=..2] run function ssbrc:stage/pac_maze/logic/ghosts/touch/check
 
 execute align xyz positioned ~.5 ~ ~.5 if entity @s[distance=..0.05] positioned ~ ~6.0 ~ if block ~ ~ ~ minecraft:yellow_concrete run function ssbrc:stage/pac_maze/logic/ghosts/navigation/turn/random
 

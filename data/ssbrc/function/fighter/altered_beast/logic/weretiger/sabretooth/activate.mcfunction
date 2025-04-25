@@ -1,7 +1,7 @@
-function ssbrc:logic/fighter/ability/init
+advancement revoke @s only ssbrc:utility/use_item/fighter/altered_beast/weretiger/sabretooth
 
-execute anchored eyes positioned ^ ^-0.5 ^1 summon minecraft:marker run function ssbrc:fighter/altered_beast/logic/weretiger/sabretooth/init
+function ssbrc:logic/fighter/ability/init_entity {fighter:"altered_beast",item:"sabretooth"}
 
-function ssbrc:logic/item/durability/reset/hand {key:"item",value:"sabretooth",source:"cooldown"}
+execute anchored eyes positioned ^ ^-0.5 ^0.5 summon minecraft:marker run function ssbrc:fighter/altered_beast/logic/weretiger/sabretooth/init
 
 function ssbrc:logic/fighter/ability/deinit

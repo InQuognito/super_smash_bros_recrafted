@@ -18,9 +18,10 @@
 					}
 				],
 				"item": {
-					"items": "#ssbrc:equipment",
 					"predicates": {
-						"minecraft:custom_data": "{item:\"railgun\"}"
+						"minecraft:custom_data": {
+							"item": "railgun"
+						}
 					}
 				}
 			}

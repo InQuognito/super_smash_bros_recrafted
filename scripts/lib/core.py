@@ -112,7 +112,7 @@ def get_color_wrapper(fighter, skin='default'):
 	if white == True:
 		return ''
 	else:
-		return '","color":"' + get_color(fighter, skin)
+		return '",color:"' + get_color(fighter, skin)
 
 def get_color(fighter, skin='default'):
 	'''Returns the color of the selected skin.'''

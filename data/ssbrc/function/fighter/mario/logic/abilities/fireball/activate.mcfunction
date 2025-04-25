@@ -1,5 +1,9 @@
-execute anchored eyes positioned ^ ^ ^1 summon minecraft:marker run function ssbrc:fighter/mario/logic/abilities/fireball/init
+advancement revoke @s only ssbrc:utility/use_item/fighter/mario/fireball
 
-function ssbrc:logic/item/durability/reset/hand {key:"item",value:"fireball",source:"cooldown"}
+function ssbrc:logic/fighter/ability/init_entity {fighter:"mario",item:"fireball"}
+
+execute anchored eyes positioned ^ ^ ^0.5 summon minecraft:marker run function ssbrc:logic/init/projectile/bouncing
 
 playsound ssbrc:fighter.mario.fireball.activate player @a
+
+function ssbrc:logic/fighter/ability/deinit

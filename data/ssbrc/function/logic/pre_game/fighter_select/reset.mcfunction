@@ -41,4 +41,4 @@ execute positioned 129.5 ~ 154.5 summon minecraft:item_display run function ssbr
 
 execute positioned 132.5 ~ 153.5 summon minecraft:item_display run function ssbrc:logic/pre_game/fighter_select/init/spectate
 
-summon minecraft:text_display 138.5 ~ 150.5 {Tags:["static_object"],text:{"translate":"ssbrc.fighter_select.leave","color":"yellow"},billboard:"center",alignment:"center"}
+summon minecraft:text_display 138.5 ~ 150.5 {Tags:["static_object"],text:{translate:"ssbrc.fighter_select.leave",color:"yellow"},billboard:"center",alignment:"center"}

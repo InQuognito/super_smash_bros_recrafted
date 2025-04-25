@@ -8,11 +8,11 @@ execute as @e[type=minecraft:marker,tag=door] at @s run function ssbrc:logic/sta
 summon minecraft:item_display -218.5 28.25 -144.5 {Rotation:[15f,0f],item:{id:"minecraft:stick",components:{"minecraft:item_model":"ssbrc:fighter/yoshi/item/egg/default"}}}
 
 # Warp Zone
-summon minecraft:text_display -249.5 28.0 -154.5 {Rotation:[-90f,0f],text:[{"translate":"ssbrc.stage.mushroom_kingdom.warp_zone.1","font":"ssbrc:mario"}],line_width:500,background:0,alignment:"center"}
-summon minecraft:text_display -249.5 27.0 -154.5 {Rotation:[-90f,0f],text:[{"translate":"ssbrc.stage.mushroom_kingdom.warp_zone.2","font":"ssbrc:mario"}],line_width:500,background:0,alignment:"center"}
-summon minecraft:text_display -249.5 26.0 -148.5 {Rotation:[-90f,0f],text:[{"text":"2","font":"ssbrc:mario"}],background:0,alignment:"center"}
-summon minecraft:text_display -249.5 26.0 -154.5 {Rotation:[-90f,0f],text:[{"text":"3","font":"ssbrc:mario"}],background:0,alignment:"center"}
-summon minecraft:text_display -249.5 26.0 -160.5 {Rotation:[-90f,0f],text:[{"text":"4","font":"ssbrc:mario"}],background:0,alignment:"center"}
+summon minecraft:text_display -249.5 28.0 -154.5 {Rotation:[-90f,0f],text:[{translate:"ssbrc.stage.mushroom_kingdom.warp_zone.1","font":"ssbrc:mario"}],line_width:500,background:0,alignment:"center"}
+summon minecraft:text_display -249.5 27.0 -154.5 {Rotation:[-90f,0f],text:[{translate:"ssbrc.stage.mushroom_kingdom.warp_zone.2","font":"ssbrc:mario"}],line_width:500,background:0,alignment:"center"}
+summon minecraft:text_display -249.5 26.0 -148.5 {Rotation:[-90f,0f],text:[{text:"2","font":"ssbrc:mario"}],background:0,alignment:"center"}
+summon minecraft:text_display -249.5 26.0 -154.5 {Rotation:[-90f,0f],text:[{text:"3","font":"ssbrc:mario"}],background:0,alignment:"center"}
+summon minecraft:text_display -249.5 26.0 -160.5 {Rotation:[-90f,0f],text:[{text:"4","font":"ssbrc:mario"}],background:0,alignment:"center"}
 
 # ? Blocks
 execute positioned -218.5 35.5 -136.5 summon minecraft:item_display run function ssbrc:stage/mushroom_kingdom/logic/question_mark_block

@@ -11,8 +11,8 @@ item modify entity @s[scores={charge.output=81}] weapon.mainhand { \
 	"function": "minecraft:set_name", \
 	"entity": "this", \
 	"name": { \
-		"translate": "ssbrc.fighter.byleth.blue_lions.areadbhar", \
-		"color": "red", \
+		translate: "ssbrc.fighter.byleth.blue_lions.areadbhar", \
+		color: "red", \
 		"bold": true, \
 		"italic": false \
 	} \

@@ -34,7 +34,7 @@ scoreboard players set 2000 const 2000
 scoreboard players set 9999 const 9999
 
 # Storage
-data modify storage ssbrc:data/skin selected set value {"text":" ✔","color":"green"}
-data modify storage ssbrc:data/skin autumn set value {"text":"🍂 "}
-data modify storage ssbrc:data/skin winter set value {"text":"❆ "}
-data modify storage ssbrc:data/skin/super_mario_bros penguin set value {"translate":"ssbrc.series.super_mario_bros.skin.penguin","color":"blue"}
+data modify storage ssbrc:data const.selected set value {text:" ✔",color:"green"}
+data modify storage ssbrc:data const.collection.autumn set value "🍂 "
+data modify storage ssbrc:data const.collection.winter set value "❆ "
+data modify storage ssbrc:data const.skin.penguin set value {translate:"ssbrc.series.super_mario_bros.skin.penguin",color:"blue"}

@@ -5,7 +5,7 @@ $data modify storage ssbrc:temp snake_ammo set value [ \
 			"name": "@s", \
 			"objective": "weapon_$(id).ammo" \
 		}, \
-		"color":"green" \
+		color:"green" \
 	}, \
 	" | ", \
 	{ \
@@ -13,7 +13,7 @@ $data modify storage ssbrc:temp snake_ammo set value [ \
 			"name": "@s", \
 			"objective": "weapon_$(id).mags" \
 		}, \
-		"color":"dark_green" \
+		color:"dark_green" \
 	} \
 ]
 
@@ -26,13 +26,13 @@ $title @s[scores={weapon_$(id).ammo=1..}] actionbar { \
 $title @s[scores={weapon_$(id).mags=0,weapon_$(id).ammo=0}] actionbar [ \
 	"", \
 	{ \
-		"text": "-", \
-		"color": "red" \
+		text: "-", \
+		color: "red" \
 	}, \
 	" | ", \
 	{ \
-		"text": "-", \
-		"color": "red" \
+		text: "-", \
+		color: "red" \
 	} \
 ]
 
@@ -44,14 +44,14 @@ $title @s[scores={weapon_$(id).mags=1..,weapon_$(id).ammo=0}] actionbar [ \
 		"interpret": true \
 	}, \
 	{ \
-		"translate": "ssbrc.fighter.snake.reload.prefix", \
-		"color": "gray" \
+		translate: "ssbrc.fighter.snake.reload.prefix", \
+		color: "gray" \
 	}, \
 	{ \
 		"keybind": "key.drop" \
 	}, \
 	{ \
-		"translate": "ssbrc.fighter.snake.reload.suffix", \
-		"color": "gray" \
+		translate: "ssbrc.fighter.snake.reload.suffix", \
+		color: "gray" \
 	} \
 ]

@@ -1,1 +1,1 @@
-tellraw @s {"translate":"ssbrc.lobby.credits.developer_bio.sugarshrimp"}
+tellraw @s {translate:"ssbrc.lobby.credits.developer_bio.sugarshrimp"}

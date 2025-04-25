@@ -16,9 +16,10 @@
 					}
 				],
 				"item": {
-					"items": "#ssbrc:equipment",
 					"predicates": {
-						"minecraft:custom_data": "{item:\"selector\"}"
+						"minecraft:custom_data": {
+							"item": "selector"
+						}
 					}
 				}
 			}

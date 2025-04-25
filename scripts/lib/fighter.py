@@ -81,17 +81,18 @@ def fighter_storage():
 						stat = path['items'][item]['stats']
 						type = path['items'][item]['type']
 						match type:
+							case 'hybrid':
+								init_weapon(file, stat)
+								init_interactions(file, stat, 0.05)
+							case 'charge_hybrid':
+								init_weapon(file, stat)
+								init_interactions(file, stat, 1000000)
 							case 'weapon':
-								mc_write(file, 'item_n', 5, 'attack_damage', stat['attack_damage'])
-								mc_write(file, 'item_n', 5, 'attack_speed', stat['attack_speed'])
-								if 'item_damage_on_attack' in stat.keys():
-									mc_write(file, 'item_n', 5, 'item_damage_on_attack', stat['item_damage_on_attack'])
-								else:
-									mc_write(file, 'item_n', 5, 'item_damage_on_attack', 0)
-								if 'disable_blocking_for_seconds' in stat.keys():
-									mc_write(file, 'item_n', 5, 'disable_blocking_for_seconds', stat['disable_blocking_for_seconds'])
-								else:
-									mc_write(file, 'item_n', 5, 'disable_blocking_for_seconds', 0.0)
+								init_weapon(file, stat)
+							case 'ability':
+								init_ability(file, stat)
+							case 'charge_ability':
+								init_ability(file, stat, 1000000)
 							case 'shield':
 								mc_write(file, 'item_n', 5, 'max_damage', stat['max_damage'])
 								mc_write(file, 'item_n', 5, 'block_delay_seconds', stat['block_delay_seconds'])
@@ -112,6 +113,49 @@ def fighter_storage():
 			mc_write(file, 'fixed', 2, '}')
 			mc_write(file, 'root_s', 1)
 		file.write('}\n')
+
+def init_weapon(file, stat):
+	mc_write(file, 'item_n', 5, 'attack_damage', stat['attack_damage'])
+	mc_write(file, 'item_n', 5, 'attack_speed', stat['attack_speed'])
+	if 'item_damage_on_attack' in stat.keys():
+		mc_write(file, 'item_n', 5, 'item_damage_on_attack', stat['item_damage_on_attack'])
+	else:
+		mc_write(file, 'item_n', 5, 'item_damage_on_attack', 0)
+	if 'disable_blocking_for_seconds' in stat.keys():
+		mc_write(file, 'item_n', 5, 'disable_blocking_for_seconds', stat['disable_blocking_for_seconds'])
+	else:
+		mc_write(file, 'item_n', 5, 'disable_blocking_for_seconds', 0.0)
+
+def init_ability(file, stat, use_duration=0.05):
+	mc_write(file, 'item_s', 5, 'tag', stat['tag'])
+	mc_write(file, 'item_n', 5, 'attack_damage', -1)
+	mc_write(file, 'item_n', 5, 'attack_speed', 0)
+	if 'use_duration' in stat.keys():
+		init_interactions(file, stat, stat['use_duration'])
+	else:
+		init_interactions(file, stat, use_duration)
+
+def init_interactions(file, stat, use_duration):
+	if 'damage' in stat.keys():
+		path = stat['damage']
+		damage_type = path['type']
+		mc_write(file, 'item_s', 5, 'damage_type', damage_type)
+		mc_write(file, 'item_n', 5, 'damage_amount', path['amount'])
+		if 'knockback_resist' in path.keys():
+			mc_write(file, 'item_n', 5, 'knockback_resist', path['knockback_resist'])
+		else:
+			mc_write(file, 'item_n', 5, 'knockback_resist', 0.0)
+		if 'tag' in path.keys():
+			mc_write(file, 'item_s', 5, 'damage_tag', path['tag'])
+		else:
+			mc_write(file, 'item_s', 5, 'damage_tag', 'generic')
+		match damage_type:
+			case 'fire':
+				mc_write(file, 'item_n', 5, 'burn_duration', path['duration'])
+
+	mc_write(file, 'item_n', 5, 'use_duration', use_duration)
+	mc_write(file, 'item_s', 5, 'cooldown_group', stat['cooldown_group'])
+	mc_write(file, 'item_n', 5, 'cooldown', stat['cooldown'])
 
 def fighter_getter():
 	'''Initializes the getter function that can be used to check for the desired fighter.'''
@@ -201,26 +245,26 @@ def skin_options(fighter, path):
 	with open(path + 'options.mcfunction', 'w', encoding='utf-8') as file:
 		warn_builder(file)
 
-		js_write(file, 'tellraw @s ["=== ",{"translate":"ssbrc.fighter.menu.choose_skin","bold":true,"color":"yellow"}," ==="]', 1)
+		js_write(file, 'tellraw @s ["=== ",{translate:"ssbrc.fighter.menu.choose_skin",bold:true,color:"yellow"}," ==="]', 1)
 
 		js_write(file, 'function ssbrc:logic/player/data/temp/copy/check', 1)
 
 		if fighter == 'byleth':
 			for skin in chain(['default', 'gold'], ssbrc.fighter[fighter]['skin']):
 				if skin == 'default':
-					js_write(file, 'execute unless data storage ssbrc:temp player.temp_data{skin:"' + skin + '"} run tellraw @s ["",{"translate":"ssbrc.skin.' + skin + get_color_wrapper(fighter, skin) + '"}," - ",{"translate":"ssbrc.fighter.menu.gender.female.abv","color":"light_purple","click_event":{"action":"run_command","command":"trigger menu set ' + str(n) + '"}}," ",{"translate":"ssbrc.fighter.menu.gender.male.abv","color":"blue","click_event":{"action":"run_command","command":"trigger menu set ' + str(n + 1) + '"}}]')
+					js_write(file, 'execute unless data storage ssbrc:temp player.temp_data{skin:"' + skin + '"} run tellraw @s ["",{translate:"ssbrc.skin.' + skin + get_color_wrapper(fighter, skin) + '"}," - ",{translate:"ssbrc.fighter.menu.gender.female.abv",color:"light_purple",click_event:{action:run_command,command:"trigger menu set ' + str(n) + '"}}," ",{translate:"ssbrc.fighter.menu.gender.male.abv",color:"blue",click_event:{action:run_command,command:"trigger menu set ' + str(n + 1) + '"}}]')
 				else:
-					js_write(file, 'execute unless data storage ssbrc:temp player.temp_data{skin:"' + skin + '"} run tellraw @s[advancements={ssbrc:fighter/' + fighter + '/' + skin + '=true}] ["",{"translate":"ssbrc.skin.' + skin + get_color_wrapper(fighter, skin) + '"}," - ",{"translate":"ssbrc.fighter.menu.gender.female.abv","color":"light_purple","click_event":{"action":"run_command","command":"trigger menu set ' + str(n) + '"}}," ",{"translate":"ssbrc.fighter.menu.gender.male.abv","color":"blue","click_event":{"action":"run_command","command":"trigger menu set ' + str(n + 1) + '"}}]')
-				js_write(file, 'execute if data storage ssbrc:temp player.temp_data{skin:"' + skin + '",form:"female"} run tellraw @s ["",{"translate":"ssbrc.skin.' + skin + get_color_wrapper(fighter, skin) + '"}," - ",{"translate":"ssbrc.fighter.menu.gender.female.abv","strikethrough":true,"color":"light_purple"}," ",{"translate":"ssbrc.fighter.menu.gender.male.abv","color":"blue","click_event":{"action":"run_command","command":"trigger menu set ' + str(n + 1) + '"}},{"text":" ✔","color":"green"}]')
-				js_write(file, 'execute if data storage ssbrc:temp player.temp_data{skin:"' + skin + '",form:"male"} run tellraw @s ["",{"translate":"ssbrc.skin.' + skin + get_color_wrapper(fighter, skin) + '"}," - ",{"translate":"ssbrc.fighter.menu.gender.female.abv","color":"light_purple","click_event":{"action":"run_command","command":"trigger menu set ' + str(n) + '"}}," ",{"translate":"ssbrc.fighter.menu.gender.male.abv","strikethrough":true,"color":"blue"},{"text":" ✔","color":"green"}]', 1)
+					js_write(file, 'execute unless data storage ssbrc:temp player.temp_data{skin:"' + skin + '"} run tellraw @s[advancements={ssbrc:fighter/' + fighter + '/' + skin + '=true}] ["",{translate:"ssbrc.skin.' + skin + get_color_wrapper(fighter, skin) + '"}," - ",{translate:"ssbrc.fighter.menu.gender.female.abv",color:"light_purple",click_event:{action:run_command,command:"trigger menu set ' + str(n) + '"}}," ",{translate:"ssbrc.fighter.menu.gender.male.abv",color:"blue",click_event:{action:run_command,command:"trigger menu set ' + str(n + 1) + '"}}]')
+				js_write(file, 'execute if data storage ssbrc:temp player.temp_data{skin:"' + skin + '",form:"female"} run tellraw @s ["",{translate:"ssbrc.skin.' + skin + get_color_wrapper(fighter, skin) + '"}," - ",{translate:"ssbrc.fighter.menu.gender.female.abv","strikethrough":true,color:"light_purple"}," ",{translate:"ssbrc.fighter.menu.gender.male.abv",color:"blue",click_event:{action:run_command,command:"trigger menu set ' + str(n + 1) + '"}},{text:" ✔",color:"green"}]')
+				js_write(file, 'execute if data storage ssbrc:temp player.temp_data{skin:"' + skin + '",form:"male"} run tellraw @s ["",{translate:"ssbrc.skin.' + skin + get_color_wrapper(fighter, skin) + '"}," - ",{translate:"ssbrc.fighter.menu.gender.female.abv",color:"light_purple",click_event:{action:run_command,command:"trigger menu set ' + str(n) + '"}}," ",{translate:"ssbrc.fighter.menu.gender.male.abv","strikethrough":true,color:"blue"},{text:" ✔",color:"green"}]', 1)
 				n += 2
 		else:
 			for skin in chain(['default', 'gold'], ssbrc.fighter[fighter]['skin']):
 				if skin == 'default':
-					js_write(file, 'execute unless data storage ssbrc:temp player.temp_data{skin:"' + skin + '"} run tellraw @s {"translate":"ssbrc.skin.' + skin + get_color_wrapper(fighter, skin) + '","click_event":{"action":"run_command","command":"trigger menu set ' + str(n) + '"}}')
+					js_write(file, 'execute unless data storage ssbrc:temp player.temp_data{skin:"' + skin + '"} run tellraw @s {translate:"ssbrc.skin.' + skin + get_color_wrapper(fighter, skin) + '",click_event:{action:run_command,command:"trigger menu set ' + str(n) + '"}}')
 				else:
-					js_write(file, 'execute unless data storage ssbrc:temp player.temp_data{skin:"' + skin + '"} run tellraw @s[advancements={ssbrc:fighter/' + fighter + '/' + skin + '=true}] {"translate":"ssbrc.skin.' + skin + get_color_wrapper(fighter, skin) + '","click_event":{"action":"run_command","command":"trigger menu set ' + str(n) + '"}}')
-				js_write(file, 'execute if data storage ssbrc:temp player.temp_data{skin:"' + skin + '"} run tellraw @s ["",{"translate":"ssbrc.skin.' + skin + get_color_wrapper(fighter, skin) + '"},{"text":" ✔","color":"green"}]', 1)
+					js_write(file, 'execute unless data storage ssbrc:temp player.temp_data{skin:"' + skin + '"} run tellraw @s[advancements={ssbrc:fighter/' + fighter + '/' + skin + '=true}] {translate:"ssbrc.skin.' + skin + get_color_wrapper(fighter, skin) + '",click_event:{action:run_command,command:"trigger menu set ' + str(n) + '"}}')
+				js_write(file, 'execute if data storage ssbrc:temp player.temp_data{skin:"' + skin + '"} run tellraw @s ["",{translate:"ssbrc.skin.' + skin + get_color_wrapper(fighter, skin) + '"},{text:" ✔",color:"green"}]', 1)
 				n += 1
 
 		js_write(file, 'function ssbrc:logic/fighter/menu/skin_options')

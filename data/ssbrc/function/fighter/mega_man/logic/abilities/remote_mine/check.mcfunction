@@ -1,3 +1,5 @@
+advancement revoke @s only ssbrc:utility/use_item/fighter/mega_man/remote_mine/explode
+
 tag @s remove remote_mine
 
 function ssbrc:logic/fighter/ability/init

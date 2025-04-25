@@ -1,3 +1,5 @@
+advancement revoke @s only ssbrc:utility/use_item/fighter/ness/pk_flash/explode
+
 function ssbrc:fighter/ness/logic/abilities/pk_flash/deactivate
 
 function ssbrc:logic/fighter/ability/init

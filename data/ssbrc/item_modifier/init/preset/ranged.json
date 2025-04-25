@@ -5,6 +5,6 @@
 	},
 	{
 		"function": "minecraft:reference",
-		"name": "ssbrc:init/ability/stats"
+		"name": "ssbrc:init/item/ability"
 	}
 ]

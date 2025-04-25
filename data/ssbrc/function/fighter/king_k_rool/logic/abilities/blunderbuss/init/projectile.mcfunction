@@ -1,5 +1,3 @@
-tag @s add blunderbuss
-
 item replace entity @s armor.head with minecraft:stick[minecraft:item_model="ssbrc:fighter/king_k_rool/projectile/cannonball"]
 $function ssbrc:logic/init/model {skin:"$(skin)"}
 

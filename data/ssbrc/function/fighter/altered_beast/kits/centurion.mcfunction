@@ -2,7 +2,7 @@ function ssbrc:fighter/altered_beast/kits/reset
 execute unless entity @s[tag=shirtless] run function ssbrc:logic/player/data/temp/set {mode:"store",key:"form",value:"centurion"}
 execute if entity @s[tag=shirtless] run function ssbrc:logic/player/data/temp/set {mode:"store",key:"form",value:"shirtless"}
 
-function ssbrc:logic/item/init/slot {item:"gladius",slot:"hotbar.0",class:"weapon",type:"default"}
+function ssbrc:logic/item/init/slot {item:"gladius",slot:"hotbar.0",class:"item",type:"weapon"}
 
 function ssbrc:fighter/altered_beast/logic/spirit_orb/give with storage ssbrc:temp game.stage
 

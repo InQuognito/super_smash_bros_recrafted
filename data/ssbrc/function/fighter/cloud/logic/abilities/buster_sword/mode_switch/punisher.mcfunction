@@ -10,7 +10,7 @@ attribute @s minecraft:jump_strength modifier add ssbrc:punisher -0.7 add_multip
 attribute @s minecraft:knockback_resistance modifier add ssbrc:punisher 0.4 add_value
 attribute @s minecraft:movement_speed modifier add ssbrc:punisher -0.7 add_multiplied_base
 
-tellraw @s ["",{"translate":"ssbrc.fighter.cloud.mode_switch","bold":true,"color":"yellow"},{"translate":"ssbrc.fighter.cloud.punisher","color":"blue"}]
+tellraw @s ["",{translate:"ssbrc.fighter.cloud.mode_switch","bold":true,color:"yellow"},{translate:"ssbrc.fighter.cloud.punisher",color:"blue"}]
 
 playsound ssbrc:fighter.cloud.mode_switch.punisher player @a
 

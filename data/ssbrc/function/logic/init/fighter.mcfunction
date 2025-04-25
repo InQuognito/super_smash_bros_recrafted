@@ -463,6 +463,19 @@ data modify storage ssbrc:data fighter set value { \
 		}, \
 		"items": { \
 			"barrel": { \
+				"stats": { \
+					"attack_damage": 7, \
+					"attack_speed": 0.5, \
+					"item_damage_on_attack": 0, \
+					"disable_blocking_for_seconds": 0.0, \
+					"damage_type": "generic", \
+					"damage_amount": 6, \
+					"knockback_resist": 0.0, \
+					"damage_tag": "generic", \
+					"use_duration": 0.05, \
+					"cooldown_group": "donkey_kong/barrel", \
+					"cooldown": 0.5, \
+				}, \
 				"default": { \
 					"name": "ssbrc.fighter.donkey_kong.barrel", \
 					"color": "gold", \
@@ -477,6 +490,24 @@ data modify storage ssbrc:data fighter set value { \
 				}, \
 				"super_kong": { \
 					"inherit": "default", \
+				}, \
+			}, \
+			"orange_grenade": { \
+				"stats": { \
+					"tag": "ranged", \
+					"attack_damage": -1, \
+					"attack_speed": 0, \
+					"damage_type": "explosive", \
+					"damage_amount": 6, \
+					"knockback_resist": 0.0, \
+					"damage_tag": "generic", \
+					"use_duration": 0.05, \
+					"cooldown_group": "donkey_kong/orange_grenade", \
+					"cooldown": 1, \
+				}, \
+				"static_data": { \
+					"name": "ssbrc.fighter.donkey_kong.orange_grenade", \
+					"color": "gold", \
 				}, \
 			}, \
 		} \
@@ -500,13 +531,19 @@ data modify storage ssbrc:data fighter set value { \
 			} \
 		}, \
 		"items": { \
-			"krazoan_staff": { \
-				"static_data": { \
-					"name": "ssbrc.fighter.fox.krazoan_staff", \
-					"color": "gold", \
+			"fox_blaster": { \
+				"stats": { \
+					"tag": "ranged", \
+					"attack_damage": -1, \
+					"attack_speed": 0, \
+					"damage_type": "generic", \
+					"damage_amount": 1, \
+					"knockback_resist": 0.0, \
+					"damage_tag": "generic", \
+					"use_duration": 0.05, \
+					"cooldown_group": "fox/projectile", \
+					"cooldown": 0.5, \
 				}, \
-			}, \
-			"blaster": { \
 				"default": { \
 					"name": "ssbrc.fighter.star_fox.blaster", \
 					"color": "white", \
@@ -519,7 +556,35 @@ data modify storage ssbrc:data fighter set value { \
 					"inherit": "default", \
 				}, \
 			}, \
+			"krazoan_staff": { \
+				"stats": { \
+					"attack_damage": 5, \
+					"attack_speed": 3, \
+					"item_damage_on_attack": 0, \
+					"disable_blocking_for_seconds": 0.0, \
+					"damage_type": "fire", \
+					"damage_amount": 4, \
+					"knockback_resist": 0.0, \
+					"damage_tag": "generic", \
+					"burn_duration": 40, \
+					"use_duration": 0.05, \
+					"cooldown_group": "fox/projectile", \
+					"cooldown": 1.5, \
+				}, \
+				"static_data": { \
+					"name": "ssbrc.fighter.fox.krazoan_staff", \
+					"color": "gold", \
+				}, \
+			}, \
 			"reflector": { \
+				"stats": { \
+					"tag": "defensive", \
+					"attack_damage": -1, \
+					"attack_speed": 0, \
+					"use_duration": 0.05, \
+					"cooldown_group": "fox/reflector", \
+					"cooldown": 3, \
+				}, \
 				"default": { \
 					"name": "ssbrc.fighter.fox.reflector", \
 					"color": "white", \
@@ -1150,6 +1215,18 @@ data modify storage ssbrc:data fighter set value { \
 				}, \
 			}, \
 			"ice_ball": { \
+				"stats": { \
+					"tag": "ranged", \
+					"attack_damage": -1, \
+					"attack_speed": 0, \
+					"damage_type": "frost", \
+					"damage_amount": 6, \
+					"knockback_resist": 0.0, \
+					"damage_tag": "generic", \
+					"use_duration": 0.05, \
+					"cooldown_group": "luigi/ice_ball", \
+					"cooldown": 1, \
+				}, \
 				"default": { \
 					"name": "ssbrc.fighter.luigi.ice_ball", \
 					"color": "aqua", \
@@ -1224,6 +1301,19 @@ data modify storage ssbrc:data fighter set value { \
 				}, \
 			}, \
 			"fireball": { \
+				"stats": { \
+					"tag": "ranged", \
+					"attack_damage": -1, \
+					"attack_speed": 0, \
+					"damage_type": "fire", \
+					"damage_amount": 4, \
+					"knockback_resist": 0.0, \
+					"damage_tag": "generic", \
+					"burn_duration": 30, \
+					"use_duration": 0.05, \
+					"cooldown_group": "mario/fireball", \
+					"cooldown": 1, \
+				}, \
 				"default": { \
 					"name": "ssbrc.fighter.mario.fireball", \
 					"color": "red", \
@@ -2155,7 +2245,38 @@ data modify storage ssbrc:data fighter set value { \
 			} \
 		}, \
 		"items": { \
+			"grenade": { \
+				"stats": { \
+					"tag": "ranged", \
+					"attack_damage": -1, \
+					"attack_speed": 0, \
+					"damage_type": "explosive", \
+					"damage_amount": 12, \
+					"knockback_resist": 0.0, \
+					"damage_tag": "generic", \
+					"use_duration": 4, \
+					"cooldown_group": "wolf/grenade", \
+					"cooldown": 1, \
+				}, \
+				"static_data": { \
+					"name": "ssbrc.fighter.wolf.grenade", \
+					"color": "yellow", \
+				}, \
+			}, \
 			"wolf_slash": { \
+				"stats": { \
+					"attack_damage": 5, \
+					"attack_speed": 1.5, \
+					"item_damage_on_attack": 0, \
+					"disable_blocking_for_seconds": 0.0, \
+					"damage_type": "generic", \
+					"damage_amount": 14, \
+					"knockback_resist": 0.0, \
+					"damage_tag": "generic", \
+					"use_duration": 0.05, \
+					"cooldown_group": "wolf/wolf_flash", \
+					"cooldown": 4, \
+				}, \
 				"default": { \
 					"name": "ssbrc.fighter.wolf.wolf_slash", \
 					"color": "light_purple", \
@@ -2169,7 +2290,19 @@ data modify storage ssbrc:data fighter set value { \
 					"color": "green", \
 				}, \
 			}, \
-			"blaster": { \
+			"wolf_blaster": { \
+				"stats": { \
+					"tag": "ranged", \
+					"attack_damage": -1, \
+					"attack_speed": 0, \
+					"damage_type": "generic", \
+					"damage_amount": 8, \
+					"knockback_resist": 0.0, \
+					"damage_tag": "generic", \
+					"use_duration": 0.05, \
+					"cooldown_group": "wolf/blaster", \
+					"cooldown": 2, \
+				}, \
 				"default": { \
 					"name": "ssbrc.fighter.star_fox.blaster", \
 					"color": "light_purple", \

@@ -11,9 +11,10 @@
 					}
 				],
 				"item": {
-					"items": "#ssbrc:equipment",
 					"predicates": {
-						"minecraft:custom_data": "{item:\"satsui_no_hado_rage\"}"
+						"minecraft:custom_data": {
+							"item": "satsui_no_hado_rage"
+						}
 					}
 				}
 			}

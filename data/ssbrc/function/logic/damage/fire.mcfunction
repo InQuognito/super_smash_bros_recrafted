@@ -6,5 +6,4 @@ $execute unless items entity @s container.* minecraft:stick[minecraft:custom_dat
 
 $execute unless items entity @s container.* minecraft:stick[minecraft:custom_data~{item:"goron_locket"}] run scoreboard players set @s burning $(burning)
 
-$data modify storage ssbrc:cache damage.source set value "$(source)"
 function ssbrc:logic/damage/common

@@ -1,16 +1,16 @@
 $execute if entity @s[advancements={ssbrc:fighter/$(name)/default=true}] run data modify storage ssbrc:statistics $(name)_wins value set value '[ \
 	"", \
 	{ \
-		"translate": "ssbrc.fighter.$(name)", \
+		translate: "ssbrc.fighter.$(name)", \
 		"bold": true, \
 		"underlined": true, \
-		"color": "dark_gray" \
+		color: "dark_gray" \
 	}, \
 	"\n", \
 	{ \
-		"translate": "ssbrc.statistics.wins", \
+		translate: "ssbrc.statistics.wins", \
 		"underlined": false \
-		"color": "gray", \
+		color: "gray", \
 	}, \
 	{ \
 		"score": { \
@@ -18,26 +18,26 @@ $execute if entity @s[advancements={ssbrc:fighter/$(name)/default=true}] run dat
 			"objective": "stats.$(name).wins" \
 		}, \
 		"underlined": false \
-		"color": "blue", \
+		color: "blue", \
 	}, \
 	"\n", \
 	{ \
-		"translate": "ssbrc.statistics.games_played", \
+		translate: "ssbrc.statistics.games_played", \
 		"underlined": false \
-		"color": "gray", \
+		color: "gray", \
 	}, \
 	{ \
 		"score": { \
 			"name": "@s", \
 			"objective": "stats.$(name).games_played" \
 		}, \
-		"color": "blue", \
+		color: "blue", \
 		"underlined": false \
 	}, \
 	"\n", \
 	{ \
-		"translate": "ssbrc.statistics.win_loss", \
-		"color": "gray", \
+		translate: "ssbrc.statistics.win_loss", \
+		color: "gray", \
 		"underlined": false \
 	}, \
 	{ \
@@ -45,12 +45,12 @@ $execute if entity @s[advancements={ssbrc:fighter/$(name)/default=true}] run dat
 			"name": "@s", \
 			"objective": "stats.$(name).win_loss" \
 		}, \
-		"color": "blue", \
+		color: "blue", \
 		"underlined": false \
 	}, \
 	{ \
-		"text": " %", \
-		"color": "blue", \
+		text: " %", \
+		color: "blue", \
 		"underlined": false \
 	}, \
 	"\n" \
@@ -59,8 +59,8 @@ $execute if entity @s[advancements={ssbrc:fighter/$(name)/default=true}] run dat
 $execute if entity @s[advancements={ssbrc:fighter/$(name)/default=true}] if score @s stats.$(name).kill_death.decimal matches ..9 run data modify storage ssbrc:statistics $(name)_kills value set value '[ \
 	"", \
 	{ \
-		"translate": "ssbrc.statistics.kills", \
-		"color": "gray", \
+		translate: "ssbrc.statistics.kills", \
+		color: "gray", \
 		"underlined": false \
 	}, \
 	{ \
@@ -68,13 +68,13 @@ $execute if entity @s[advancements={ssbrc:fighter/$(name)/default=true}] if scor
 			"name": "@s", \
 			"objective": "stats.$(name).kills" \
 		}, \
-		"color": "blue", \
+		color: "blue", \
 		"underlined": false \
 	}, \
 	"\n", \
 	{ \
-		"translate": "ssbrc.statistics.deaths", \
-		"color": "gray", \
+		translate: "ssbrc.statistics.deaths", \
+		color: "gray", \
 		"underlined": false \
 	}, \
 	{ \
@@ -82,13 +82,13 @@ $execute if entity @s[advancements={ssbrc:fighter/$(name)/default=true}] if scor
 			"name": "@s", \
 			"objective": "stats.$(name).deaths" \
 		}, \
-		"color": "blue", \
+		color: "blue", \
 		"underlined": false \
 	}, \
 	"\n", \
 	{ \
-		"translate": "ssbrc.statistics.kill_death", \
-		"color": "gray", \
+		translate: "ssbrc.statistics.kill_death", \
+		color: "gray", \
 		"underlined": false \
 	}, \
 	{ \
@@ -96,12 +96,12 @@ $execute if entity @s[advancements={ssbrc:fighter/$(name)/default=true}] if scor
 			"name": "@s", \
 			"objective": "stats.$(name).kill_death.integer" \
 		}, \
-		"color": "blue", \
+		color: "blue", \
 		"underlined": false \
 	}, \
 	{ \
-		"text": ".0 ", \
-		"color": "blue", \
+		text: ".0 ", \
+		color: "blue", \
 		"underlined": false \
 	}, \
 	{ \
@@ -109,7 +109,7 @@ $execute if entity @s[advancements={ssbrc:fighter/$(name)/default=true}] if scor
 			"name": "@s", \
 			"objective": "stats.$(name).kill_death.decimal" \
 		}, \
-		"color": "blue", \
+		color: "blue", \
 		"underlined": false \
 	}, \
 	"\n" \
@@ -118,8 +118,8 @@ $execute if entity @s[advancements={ssbrc:fighter/$(name)/default=true}] if scor
 $execute if entity @s[advancements={ssbrc:fighter/$(name)/default=true}] if score @s stats.$(name).kill_death.decimal matches 10.. run data modify storage ssbrc:statistics $(name)_kills value set value '[ \
 	"", \
 	{ \
-		"translate": "ssbrc.statistics.kills", \
-		"color": "gray", \
+		translate: "ssbrc.statistics.kills", \
+		color: "gray", \
 		"underlined": false \
 	}, \
 	{ \
@@ -127,13 +127,13 @@ $execute if entity @s[advancements={ssbrc:fighter/$(name)/default=true}] if scor
 			"name": "@s", \
 			"objective": "stats.$(name).kills" \
 		}, \
-		"color": "blue", \
+		color: "blue", \
 		"underlined": false \
 	}, \
 	"\n", \
 	{ \
-		"translate": "ssbrc.statistics.deaths", \
-		"color": "gray", \
+		translate: "ssbrc.statistics.deaths", \
+		color: "gray", \
 		"underlined": false \
 	}, \
 	{ \
@@ -141,13 +141,13 @@ $execute if entity @s[advancements={ssbrc:fighter/$(name)/default=true}] if scor
 			"name": "@s", \
 			"objective": "stats.$(name).deaths" \
 		}, \
-		"color": "blue", \
+		color: "blue", \
 		"underlined": false \
 	}, \
 	"\n", \
 	{ \
-		"translate": "ssbrc.statistics.kill_death", \
-		"color": "gray", \
+		translate: "ssbrc.statistics.kill_death", \
+		color: "gray", \
 		"underlined": false \
 	}, \
 	{ \
@@ -155,12 +155,12 @@ $execute if entity @s[advancements={ssbrc:fighter/$(name)/default=true}] if scor
 			"name": "@s", \
 			"objective": "stats.$(name).kill_death.integer" \
 		}, \
-		"color": "blue", \
+		color: "blue", \
 		"underlined": false \
 	}, \
 	{ \
-		"text": ".", \
-		"color": "blue", \
+		text: ".", \
+		color: "blue", \
 		"underlined": false \
 	}, \
 	{ \
@@ -168,7 +168,7 @@ $execute if entity @s[advancements={ssbrc:fighter/$(name)/default=true}] if scor
 			"name": "@s", \
 			"objective": "stats.$(name).kill_death.decimal" \
 		}, \
-		"color": "blue", \
+		color: "blue", \
 		"underlined": false \
 	}, \
 	"\n" \

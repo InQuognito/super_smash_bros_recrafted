@@ -6,4 +6,4 @@ item replace entity @s contents with minecraft:stick[minecraft:item_model="ssbrc
 data merge entity @s {teleport_duration:1}
 function ssbrc:fighter/mega_man/logic/abilities/air_shooter/animation/1
 
-function ssbrc:logic/init/projectile_horizontal
+function ssbrc:logic/init/projectile/horizontal with storage ssbrc:temp cache.item

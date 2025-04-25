@@ -6,6 +6,7 @@
 				"minecraft:attribute_modifiers",
 				"minecraft:banner_patterns",
 				"minecraft:enchantments",
+				"minecraft:instrument",
 				"minecraft:unbreakable"
 			]
 		},

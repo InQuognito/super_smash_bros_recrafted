@@ -5,8 +5,8 @@ execute if score wisdom_form temp matches 1 run item modify entity @s weapon.mai
 	"entity": "this", \
 	"lore": [ \
 		{ \
-			"translate": "ssbrc.fighter.sora.keyblade.blizzaza.description.2", \
-			"color": "gray", \
+			translate: "ssbrc.fighter.sora.keyblade.blizzaza.description.2", \
+			color: "gray", \
 			"italic": false \
 		} \
 	], \
@@ -18,8 +18,8 @@ item modify entity @s weapon.mainhand [ \
 		"function": "minecraft:set_lore", \
 		"entity": "this", \
 		"lore": [ \
-			{ "translate": "ssbrc.tooltip.effect.frostbite", \
-			"color": "gray", \
+			{ translate: "ssbrc.tooltip.effect.frostbite", \
+			color: "gray", \
 			"italic": false} \
 		], \
 		"mode": "append" \

@@ -24,9 +24,10 @@
 					}
 				],
 				"item": {
-					"items": "#ssbrc:equipment",
 					"predicates": {
-						"minecraft:custom_data": "{item:\"areadbhar\"}"
+						"minecraft:custom_data": {
+							"item": "areadbhar"
+						}
 					}
 				}
 			}

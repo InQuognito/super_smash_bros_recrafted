@@ -15,9 +15,10 @@
 						"predicate": {
 							"equipment": {
 								"offhand": {
-									"items": "#ssbrc:equipment",
-									"predicates": {
-										"minecraft:custom_data": "{item:\"flame_hands\"}",
+													"predicates": {
+										"minecraft:custom_data": {
+											"item": "flame_hands"
+										},
 										"minecraft:damage": {
 											"damage": 0
 										}
@@ -28,11 +29,9 @@
 					}
 				],
 				"item": {
-					"items": "#ssbrc:equipment",
 					"predicates": {
-						"minecraft:custom_data": "{item:\"flame_hands\"}",
-						"minecraft:damage": {
-							"damage": 0
+						"minecraft:custom_data": {
+							"item": "flame_hands"
 						}
 					}
 				}

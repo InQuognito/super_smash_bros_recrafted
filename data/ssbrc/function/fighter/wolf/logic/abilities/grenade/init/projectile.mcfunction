@@ -1,6 +1,6 @@
 tag @s add grenade
 
-loot replace entity @s armor.head loot ssbrc:fighter/wolf/grenade
+item replace entity @s armor.head with minecraft:stick[minecraft:item_model="ssbrc:fighter/wolf/item/grenade"]
 
 data merge entity @s {Small:1b}
 

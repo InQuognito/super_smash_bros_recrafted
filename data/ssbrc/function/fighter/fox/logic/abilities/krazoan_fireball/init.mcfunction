@@ -1,3 +1,3 @@
 tag @s add krazoan_fireball
 
-function ssbrc:logic/init/projectile
+function ssbrc:logic/init/projectile/generic

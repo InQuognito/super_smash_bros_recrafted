@@ -1,7 +1,6 @@
-teleport @a[tag=self,limit=1] @s
+teleport @s ~ ~ ~ ~ -15
 
-function ssbrc:fighter/wolf/logic/abilities/wolf_flash/deactivate
+playsound ssbrc:fighter.wolf.wolf_flash.activate player @a
 
 scoreboard players reset ray_length temp
-
-scoreboard players set ray_abort temp 1
+scoreboard players reset ray_abort temp

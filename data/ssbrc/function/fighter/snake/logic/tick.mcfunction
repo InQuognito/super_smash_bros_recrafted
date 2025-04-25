@@ -3,7 +3,7 @@ function ssbrc:fighter/snake/logic/glowing
 
 # Ammo HUD
 execute if entity @s[tag=!reloading] run function ssbrc:fighter/snake/logic/hud/check
-title @s[tag=reloading] actionbar {"translate":"ssbrc.fighter.snake.reloading","color":"gray"}
+title @s[tag=reloading] actionbar {translate:"ssbrc.fighter.snake.reloading",color:"gray"}
 
 # Reload
 execute if score @s weapon_1.reload matches 1.. run function ssbrc:fighter/snake/logic/abilities/s1000/reload/tick

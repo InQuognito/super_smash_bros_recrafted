@@ -6,8 +6,8 @@ $item modify entity @s $(slot) [ \
 		"entity": "this", \
 		"lore": [ \
 			{ \
-				"translate": "ssbrc.tooltip.effect.burning", \
-				"color": "gray", \
+				translate: "ssbrc.tooltip.effect.burning", \
+				color: "gray", \
 				"italic": false \
 			} \
 		], \

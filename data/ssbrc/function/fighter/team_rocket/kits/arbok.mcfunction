@@ -14,14 +14,14 @@ item modify entity @s armor.chest [ \
 		"entity": "this", \
 		"lore": [ \
 			{ \
-				"translate": "ssbrc.fighter.team_rocket.arbok.shed_skin", \
-				"color": "yellow", \
+				translate: "ssbrc.fighter.team_rocket.arbok.shed_skin", \
+				color: "yellow", \
 				"italic": false, \
 				"underlined": true \
 			}, \
 			{ \
-				"translate": "ssbrc.fighter.team_rocket.arbok.shed_skin.description.1", \
-				"color": "gray", \
+				translate: "ssbrc.fighter.team_rocket.arbok.shed_skin.description.1", \
+				color: "gray", \
 				"italic": false \
 			} \
 		], \

@@ -1,3 +1,3 @@
 tag @s add blizzaza
 
-function ssbrc:logic/init/projectile
+function ssbrc:logic/init/projectile/generic

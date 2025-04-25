@@ -1,6 +1,6 @@
 item replace entity @s weapon.offhand with minecraft:stick[ \
 	minecraft:item_name = { \
-		"text": "Koume", \
+		text: "Koume", \
 		"bold": true \
 	}, \
 	minecraft:weapon = { \

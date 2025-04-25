@@ -1,8 +1,8 @@
-function ssbrc:logic/fighter/ability/init
+advancement revoke @s only ssbrc:utility/use_item/fighter/ness/pk_fire
 
-execute anchored eyes positioned ^ ^ ^1 summon minecraft:marker run function ssbrc:fighter/ness/logic/abilities/pk_fire/init
+function ssbrc:logic/fighter/ability/init_entity {fighter:"ness",item:"pk_fire"}
 
-function ssbrc:logic/item/durability/reset/hand {key:"item",value:"pk_fire",source:"cooldown"}
+execute anchored eyes positioned ^ ^ ^0.5 summon minecraft:marker run function ssbrc:fighter/ness/logic/abilities/pk_fire/init
 
 playsound ssbrc:fighter.ness.pk_fire.activate player @a
 
