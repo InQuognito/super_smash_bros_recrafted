@@ -6,21 +6,21 @@ $loot replace entity @s $(slot) loot { \
 			"entries": [ \
 				{ \
 					"type": "minecraft:item", \
-					"name": "minecraft:shield", \
+					name: "minecraft:shield", \
 					"functions": [ \
 						{ \
-							"function": "minecraft:set_name", \
-							"entity": "this", \
-							"name": { \
-								"translate": "$(name)", \
-								"color": "$(color)", \
-								"bold": true, \
-								"italic": false \
+							function: "minecraft:set_name", \
+							entity: this, \
+							name: { \
+								translate: "$(name)", \
+								color: "$(color)", \
+								bold: true, \
+								italic: false \
 							} \
 						}, \
 						{ \
-							"function": "minecraft:set_components", \
-							"components": { \
+							function: "minecraft:set_components", \
+							components: { \
 								"minecraft:blocks_attacks": { \
 									"block_delay_seconds": $(block_delay_seconds), \
 									"block_sound": "$(block_sound)", \
@@ -30,11 +30,11 @@ $loot replace entity @s $(slot) loot { \
 							} \
 						}, \
 						{ \
-							"function": "minecraft:reference", \
-							"name": "ssbrc:init/item/defensive" \
+							function: "minecraft:reference", \
+							name: "ssbrc:init/item/defensive" \
 						}, \
 						{ \
-							"function": "minecraft:set_custom_model_data", \
+							function: "minecraft:set_custom_model_data", \
 							"strings": { \
 								"values": [ \
 									"$(skin)" \
@@ -43,8 +43,8 @@ $loot replace entity @s $(slot) loot { \
 							} \
 						}, \
 						{ \
-							"function": "minecraft:set_custom_data", \
-							"tag": { \
+							function: "minecraft:set_custom_data", \
+							tag: { \
 								"item": "$(item)" \
 							} \
 						} \
@@ -59,6 +59,6 @@ execute store result storage ssbrc:temp cache.item.damage int 1.0 run scoreboard
 function ssbrc:logic/item/init/type/durability with storage ssbrc:temp cache.item
 
 $item modify entity @s $(slot) { \
-	"function": "minecraft:reference", \
-	"name": "ssbrc:fighter/$(fighter)/$(item)/$(model)" \
+	function: "minecraft:reference", \
+	name: "ssbrc:fighter/$(fighter)/$(item)/$(model)" \
 }

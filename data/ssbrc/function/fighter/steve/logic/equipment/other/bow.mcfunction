@@ -1,4 +1,4 @@
-clear @s minecraft:crossbow[minecraft:custom_data~{item:"crossbow"}]
+clear @s *[minecraft:custom_data~{item:"crossbow"}]
 
 loot give @s loot ssbrc:fighter/steve/bow
 

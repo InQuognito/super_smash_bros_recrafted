@@ -2,11 +2,11 @@
 
 data modify storage ssbrc:data stage set value { \
 	"acropolis_graveyard": { \
-		"name": "acropolis_graveyard", \
+		name: "acropolis_graveyard", \
 		"series": "altered_beast", \
 		"series_type": "fighter", \
 		"series_color": "blue", \
-		"color": "gold", \
+		color: "gold", \
 		"page": 3, \
 		"altered_beast_form": "werewolf", \
 		"location": "-1392 -480 -1313 -417", \
@@ -48,11 +48,11 @@ data modify storage ssbrc:data stage set value { \
 		} \
 	}, \
 	"battlefield": { \
-		"name": "battlefield", \
+		name: "battlefield", \
 		"series": "super_smash_bros", \
 		"series_type": "fixed", \
 		"series_color": "white", \
-		"color": "aqua", \
+		color: "aqua", \
 		"page": 1, \
 		"tick": "after_start", \
 		"altered_beast_form": "weredragon", \
@@ -95,11 +95,11 @@ data modify storage ssbrc:data stage set value { \
 		} \
 	}, \
 	"big_battlefield": { \
-		"name": "big_battlefield", \
+		name: "big_battlefield", \
 		"series": "super_smash_bros", \
 		"series_type": "fixed", \
 		"series_color": "white", \
-		"color": "green", \
+		color: "green", \
 		"page": 1, \
 		"tick": "after_start", \
 		"altered_beast_form": "werewolf", \
@@ -142,11 +142,11 @@ data modify storage ssbrc:data stage set value { \
 		} \
 	}, \
 	"bowsers_castle": { \
-		"name": "bowsers_castle", \
+		name: "bowsers_castle", \
 		"series": "super_mario_bros", \
 		"series_type": "default", \
 		"series_color": "red", \
-		"color": "green", \
+		color: "green", \
 		"page": 1, \
 		"tick": "after_start", \
 		"altered_beast_form": "weredragon", \
@@ -189,11 +189,11 @@ data modify storage ssbrc:data stage set value { \
 		} \
 	}, \
 	"castle_siege": { \
-		"name": "castle_siege", \
+		name: "castle_siege", \
 		"series": "fire_emblem", \
 		"series_type": "default", \
 		"series_color": "gold", \
-		"color": "red", \
+		color: "red", \
 		"page": 2, \
 		"tick": "after_start", \
 		"altered_beast_form": "weredragon", \
@@ -236,11 +236,11 @@ data modify storage ssbrc:data stage set value { \
 		} \
 	}, \
 	"draculas_castle": { \
-		"name": "draculas_castle", \
+		name: "draculas_castle", \
 		"series": "castlevania", \
 		"series_type": "default", \
 		"series_color": "blue", \
-		"color": "red", \
+		color: "red", \
 		"page": 3, \
 		"tick": "after_start", \
 		"altered_beast_form": "werewolf", \
@@ -283,11 +283,11 @@ data modify storage ssbrc:data stage set value { \
 		} \
 	}, \
 	"dream_land": { \
-		"name": "dream_land", \
+		name: "dream_land", \
 		"series": "kirby", \
 		"series_type": "fighter", \
 		"series_color": "light_purple", \
-		"color": "yellow", \
+		color: "yellow", \
 		"page": 1, \
 		"altered_beast_form": "weretiger", \
 		"location": "2032 896 2143 1023", \
@@ -329,11 +329,11 @@ data modify storage ssbrc:data stage set value { \
 		} \
 	}, \
 	"final_destination": { \
-		"name": "final_destination", \
+		name: "final_destination", \
 		"series": "super_smash_bros", \
 		"series_type": "fixed", \
 		"series_color": "white", \
-		"color": "dark_purple", \
+		color: "dark_purple", \
 		"page": 1, \
 		"tick": "after_start", \
 		"altered_beast_form": "werebear", \
@@ -376,11 +376,11 @@ data modify storage ssbrc:data stage set value { \
 		} \
 	}, \
 	"flat_zone": { \
-		"name": "flat_zone", \
+		name: "flat_zone", \
 		"series": "game_and_watch", \
 		"series_type": "default", \
 		"series_color": "white", \
-		"color": "white", \
+		color: "white", \
 		"page": 2, \
 		"tick": "after_start", \
 		"altered_beast_form": "weredragon", \
@@ -423,11 +423,11 @@ data modify storage ssbrc:data stage set value { \
 		} \
 	}, \
 	"frozen_hijinx": { \
-		"name": "frozen_hijinx", \
+		name: "frozen_hijinx", \
 		"series": "donkey_kong", \
 		"series_type": "fighter", \
 		"series_color": "red", \
-		"color": "aqua", \
+		color: "aqua", \
 		"page": 1, \
 		"tick": "after_start", \
 		"altered_beast_form": "werebear", \
@@ -470,11 +470,11 @@ data modify storage ssbrc:data stage set value { \
 		} \
 	}, \
 	"garden_of_hope": { \
-		"name": "garden_of_hope", \
+		name: "garden_of_hope", \
 		"series": "pikmin", \
 		"series_type": "default", \
 		"series_color": "green", \
-		"color": "green", \
+		color: "green", \
 		"page": 2, \
 		"tick": "after_start", \
 		"altered_beast_form": "weredragon", \
@@ -517,11 +517,11 @@ data modify storage ssbrc:data stage set value { \
 		} \
 	}, \
 	"great_bay": { \
-		"name": "great_bay", \
+		name: "great_bay", \
 		"series": "the_legend_of_zelda", \
 		"series_type": "default", \
 		"series_color": "yellow", \
-		"color": "blue", \
+		color: "blue", \
 		"page": 1, \
 		"tick": "after_start", \
 		"altered_beast_form": "werebear", \
@@ -564,11 +564,11 @@ data modify storage ssbrc:data stage set value { \
 		} \
 	}, \
 	"great_plateau": { \
-		"name": "great_plateau", \
+		name: "great_plateau", \
 		"series": "the_legend_of_zelda", \
 		"series_type": "default", \
 		"series_color": "yellow", \
-		"color": "green", \
+		color: "green", \
 		"page": 1, \
 		"tick": "always", \
 		"altered_beast_form": "weredragon", \
@@ -611,11 +611,11 @@ data modify storage ssbrc:data stage set value { \
 		} \
 	}, \
 	"green_hill_zone": { \
-		"name": "green_hill_zone", \
+		name: "green_hill_zone", \
 		"series": "sonic_the_hedgehog", \
 		"series_type": "default", \
 		"series_color": "blue", \
-		"color": "green", \
+		color: "green", \
 		"page": 2, \
 		"tick": "after_start", \
 		"altered_beast_form": "weretiger", \
@@ -658,11 +658,11 @@ data modify storage ssbrc:data stage set value { \
 		} \
 	}, \
 	"hyrule_castle": { \
-		"name": "hyrule_castle", \
+		name: "hyrule_castle", \
 		"series": "the_legend_of_zelda", \
 		"series_type": "default", \
 		"series_color": "yellow", \
-		"color": "blue", \
+		color: "blue", \
 		"page": 1, \
 		"tick": "after_start", \
 		"altered_beast_form": "werebear", \
@@ -705,11 +705,11 @@ data modify storage ssbrc:data stage set value { \
 		} \
 	}, \
 	"icicle_mountain": { \
-		"name": "icicle_mountain", \
+		name: "icicle_mountain", \
 		"series": "ice_climber", \
 		"series_type": "default", \
 		"series_color": "aqua", \
-		"color": "aqua", \
+		color: "aqua", \
 		"page": 2, \
 		"tick": "after_start", \
 		"altered_beast_form": "werebear", \
@@ -752,11 +752,11 @@ data modify storage ssbrc:data stage set value { \
 		} \
 	}, \
 	"jungle_japes": { \
-		"name": "jungle_japes", \
+		name: "jungle_japes", \
 		"series": "donkey_kong", \
 		"series_type": "fighter", \
 		"series_color": "red", \
-		"color": "dark_green", \
+		color: "dark_green", \
 		"page": 1, \
 		"altered_beast_form": "weretiger", \
 		"location": "2208 1552 2319 1631", \
@@ -798,11 +798,11 @@ data modify storage ssbrc:data stage set value { \
 		} \
 	}, \
 	"lake_of_rage": { \
-		"name": "lake_of_rage", \
+		name: "lake_of_rage", \
 		"series": "pokemon", \
 		"series_type": "default", \
 		"series_color": "yellow", \
-		"color": "blue", \
+		color: "blue", \
 		"page": 2, \
 		"tick": "always", \
 		"altered_beast_form": "weredragon", \
@@ -845,11 +845,11 @@ data modify storage ssbrc:data stage set value { \
 		} \
 	}, \
 	"luigis_mansion": { \
-		"name": "luigis_mansion", \
+		name: "luigis_mansion", \
 		"series": "super_mario_bros", \
 		"series_type": "default", \
 		"series_color": "red", \
-		"color": "aqua", \
+		color: "aqua", \
 		"page": 1, \
 		"tick": "after_start", \
 		"altered_beast_form": "werebear", \
@@ -892,11 +892,11 @@ data modify storage ssbrc:data stage set value { \
 		} \
 	}, \
 	"magicant": { \
-		"name": "magicant", \
+		name: "magicant", \
 		"series": "earthbound", \
 		"series_type": "default", \
 		"series_color": "#B09C61", \
-		"color": "light_purple", \
+		color: "light_purple", \
 		"page": 2, \
 		"altered_beast_form": "werebear", \
 		"location": "608 -912 687 -833", \
@@ -938,11 +938,11 @@ data modify storage ssbrc:data stage set value { \
 		} \
 	}, \
 	"mementos": { \
-		"name": "mementos", \
+		name: "mementos", \
 		"series": "persona", \
 		"series_type": "default", \
 		"series_color": "white", \
-		"color": "red", \
+		color: "red", \
 		"page": 3, \
 		"tick": "after_start", \
 		"altered_beast_form": "werewolf", \
@@ -985,11 +985,11 @@ data modify storage ssbrc:data stage set value { \
 		} \
 	}, \
 	"miiverse": { \
-		"name": "miiverse", \
+		name: "miiverse", \
 		"series": "mii", \
 		"series_type": "default", \
 		"series_color": "white", \
-		"color": "green", \
+		color: "green", \
 		"page": 2, \
 		"tick": "always", \
 		"altered_beast_form": "weretiger", \
@@ -1032,11 +1032,11 @@ data modify storage ssbrc:data stage set value { \
 		} \
 	}, \
 	"mushroom_kingdom": { \
-		"name": "mushroom_kingdom", \
+		name: "mushroom_kingdom", \
 		"series": "super_mario_bros", \
 		"series_type": "default", \
 		"series_color": "red", \
-		"color": "green", \
+		color: "green", \
 		"page": 1, \
 		"tick": "after_start", \
 		"altered_beast_form": "weretiger", \
@@ -1079,11 +1079,11 @@ data modify storage ssbrc:data stage set value { \
 		} \
 	}, \
 	"pac_maze": { \
-		"name": "pac_maze", \
+		name: "pac_maze", \
 		"series": "pac_man", \
 		"series_type": "fighter", \
 		"series_color": "yellow", \
-		"color": "blue", \
+		color: "blue", \
 		"page": 3, \
 		"tick": "after_start", \
 		"altered_beast_form": "weretiger", \
@@ -1126,11 +1126,11 @@ data modify storage ssbrc:data stage set value { \
 		} \
 	}, \
 	"pallet_town": { \
-		"name": "pallet_town", \
+		name: "pallet_town", \
 		"series": "pokemon", \
 		"series_type": "default", \
 		"series_color": "yellow", \
-		"color": "red", \
+		color: "red", \
 		"page": 2, \
 		"tick": "always", \
 		"altered_beast_form": "werewolf", \
@@ -1173,11 +1173,11 @@ data modify storage ssbrc:data stage set value { \
 		} \
 	}, \
 	"palutenas_temple": { \
-		"name": "palutenas_temple", \
+		name: "palutenas_temple", \
 		"series": "kid_icarus", \
 		"series_type": "default", \
 		"series_color": "white", \
-		"color": "green", \
+		color: "green", \
 		"page": 2, \
 		"tick": "after_start", \
 		"altered_beast_form": "werewolf", \
@@ -1220,11 +1220,11 @@ data modify storage ssbrc:data stage set value { \
 		} \
 	}, \
 	"planet_epp": { \
-		"name": "planet_epp", \
+		name: "planet_epp", \
 		"series": "yars_revenge", \
 		"series_type": "default", \
 		"series_color": "gold", \
-		"color": "red", \
+		color: "red", \
 		"page": 3, \
 		"tick": "after_start", \
 		"altered_beast_form": "weretiger", \
@@ -1267,11 +1267,11 @@ data modify storage ssbrc:data stage set value { \
 		} \
 	}, \
 	"planet_zebes": { \
-		"name": "planet_zebes", \
+		name: "planet_zebes", \
 		"series": "metroid", \
 		"series_type": "default", \
 		"series_color": "gold", \
-		"color": "dark_aqua", \
+		color: "dark_aqua", \
 		"page": 1, \
 		"altered_beast_form": "weredragon", \
 		"location": "39968 39968 40031 40031", \
@@ -1313,11 +1313,11 @@ data modify storage ssbrc:data stage set value { \
 		} \
 	}, \
 	"pyrosphere": { \
-		"name": "pyrosphere", \
+		name: "pyrosphere", \
 		"series": "metroid", \
 		"series_type": "default", \
 		"series_color": "gold", \
-		"color": "red", \
+		color: "red", \
 		"page": 1, \
 		"tick": "after_start", \
 		"altered_beast_form": "werebear", \
@@ -1360,11 +1360,11 @@ data modify storage ssbrc:data stage set value { \
 		} \
 	}, \
 	"sand_ocean": { \
-		"name": "sand_ocean", \
+		name: "sand_ocean", \
 		"series": "f_zero", \
 		"series_type": "default", \
 		"series_color": "gray", \
-		"color": "gold", \
+		color: "gold", \
 		"page": 2, \
 		"altered_beast_form": "weretiger", \
 		"location": "-225 -961 -320 -1056", \
@@ -1406,11 +1406,11 @@ data modify storage ssbrc:data stage set value { \
 		} \
 	}, \
 	"saturn_valley": { \
-		"name": "saturn_valley", \
+		name: "saturn_valley", \
 		"series": "earthbound", \
 		"series_type": "default", \
 		"series_color": "#B09C61", \
-		"color": "green", \
+		color: "green", \
 		"page": 2, \
 		"tick": "after_start", \
 		"altered_beast_form": "weretiger", \
@@ -1453,11 +1453,11 @@ data modify storage ssbrc:data stage set value { \
 		} \
 	}, \
 	"sector_z": { \
-		"name": "sector_z", \
+		name: "sector_z", \
 		"series": "star_fox", \
 		"series_type": "default", \
 		"series_color": "green", \
-		"color": "gold", \
+		color: "gold", \
 		"page": 1, \
 		"tick": "after_start", \
 		"altered_beast_form": "werewolf", \
@@ -1500,11 +1500,11 @@ data modify storage ssbrc:data stage set value { \
 		} \
 	}, \
 	"shadow_moses_island": { \
-		"name": "shadow_moses_island", \
+		name: "shadow_moses_island", \
 		"series": "metal_gear", \
 		"series_type": "default", \
 		"series_color": "red", \
-		"color": "white", \
+		color: "white", \
 		"page": 2, \
 		"tick": "always", \
 		"altered_beast_form": "werebear", \
@@ -1547,11 +1547,11 @@ data modify storage ssbrc:data stage set value { \
 		} \
 	}, \
 	"spear_pillar": { \
-		"name": "spear_pillar", \
+		name: "spear_pillar", \
 		"series": "pokemon", \
 		"series_type": "default", \
 		"series_color": "yellow", \
-		"color": "yellow", \
+		color: "yellow", \
 		"page": 2, \
 		"tick": "after_start", \
 		"altered_beast_form": "werewolf", \
@@ -1594,11 +1594,11 @@ data modify storage ssbrc:data stage set value { \
 		} \
 	}, \
 	"suzaku_castle": { \
-		"name": "suzaku_castle", \
+		name: "suzaku_castle", \
 		"series": "street_fighter", \
 		"series_type": "default", \
 		"series_color": "red", \
-		"color": "aqua", \
+		color: "aqua", \
 		"page": 3, \
 		"altered_beast_form": "weredragon", \
 		"location": "6960 2944 7055 3023", \
@@ -1640,11 +1640,11 @@ data modify storage ssbrc:data stage set value { \
 		} \
 	}, \
 	"tower_of_fate": { \
-		"name": "tower_of_fate", \
+		name: "tower_of_fate", \
 		"series": "shovel_knight", \
 		"series_type": "fighter", \
 		"series_color": "yellow", \
-		"color": "dark_purple", \
+		color: "dark_purple", \
 		"page": 3, \
 		"tick": "after_start", \
 		"altered_beast_form": "werebear", \
@@ -1687,11 +1687,11 @@ data modify storage ssbrc:data stage set value { \
 		} \
 	}, \
 	"wily_castle": { \
-		"name": "wily_castle", \
+		name: "wily_castle", \
 		"series": "mega_man", \
 		"series_type": "fighter", \
 		"series_color": "blue", \
-		"color": "blue", \
+		color: "blue", \
 		"page": 2, \
 		"altered_beast_form": "werewolf", \
 		"location": "4912 5008 5055 5119", \
@@ -1733,11 +1733,11 @@ data modify storage ssbrc:data stage set value { \
 		} \
 	}, \
 	"yggdrasils_altar": { \
-		"name": "yggdrasils_altar", \
+		name: "yggdrasils_altar", \
 		"series": "dragon_quest", \
 		"series_type": "default", \
 		"series_color": "red", \
-		"color": "yellow", \
+		color: "yellow", \
 		"page": 3, \
 		"altered_beast_form": "weredragon", \
 		"location": "288 3984 351 4063", \

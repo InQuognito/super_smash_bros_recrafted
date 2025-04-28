@@ -1,5 +1,6 @@
 tag @s add guardian_orbitars
-tag @s add immobile.pivot.queue
+
+function ssbrc:logic/fighter/effects/mobility/immobilize {type:"default",duration:1000000}
 
 function ssbrc:logic/player/data/temp/copy/check
 

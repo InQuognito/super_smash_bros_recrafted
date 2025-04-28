@@ -1,8 +1,8 @@
 title @s actionbar [ \
 	"", \
 	{ \
-		"translate": "ssbrc.fighter.magic", \
-		"bold": true \
+		translate: "ssbrc.fighter.magic", \
+		bold: true \
 	}, \
 	{ \
 		"nbt": "player.temp_data.hud.1[]", \

@@ -1,7 +1,7 @@
 item replace entity @s weapon.offhand with minecraft:stick[ \
 	minecraft:item_name = { \
-		"text": "Koume", \
-		"bold": true \
+		text: "Koume", \
+		bold: true \
 	}, \
 	minecraft:weapon = { \
 		"item_damage_per_attack": 0 \
@@ -35,6 +35,6 @@ item replace entity @s weapon.offhand with minecraft:stick[ \
 ]
 
 item modify entity @s weapon.offhand { \
-	"function": "minecraft:reference", \
-	"name": "ssbrc:init/item/melee" \
+	function: "minecraft:reference", \
+	name: "ssbrc:init/item/melee" \
 }

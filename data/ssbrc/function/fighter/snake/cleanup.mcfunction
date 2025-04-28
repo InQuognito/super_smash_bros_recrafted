@@ -1,1 +1,1 @@
-clear @s minecraft:stick[minecraft:custom_data~{group:"status"}]
+clear @s *[minecraft:custom_data~{group:"status"}]

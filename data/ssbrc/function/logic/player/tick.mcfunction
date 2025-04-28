@@ -5,6 +5,6 @@ execute if score @s popup_timer matches 81.. run function ssbrc:logic/ui/popup/c
 
 function ssbrc:logic/lobby/tick
 
-execute if items entity @s weapon.mainhand minecraft:stick[minecraft:custom_data~{item:"selector"}] at @s anchored eyes positioned ^ ^ ^ run function ssbrc:logic/player/selector/raycast/start
+execute if items entity @s weapon.mainhand *[minecraft:custom_data~{item:"selector"}] at @s anchored eyes positioned ^ ^ ^ run function ssbrc:logic/player/selector/raycast/start
 
 execute at @s[tag=natural_shiny] run particle minecraft:glow ~ ~0.7 ~ 0.5 0.4 0.5 0.0 1 normal @a

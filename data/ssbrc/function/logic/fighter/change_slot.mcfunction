@@ -12,7 +12,7 @@ execute if data storage ssbrc:temp player.temp_data{fighter:"mega_man"} unless s
 
 execute if data storage ssbrc:temp player.temp_data{fighter:"shovel_knight"} run function ssbrc:fighter/shovel_knight/logic/magic/update
 
-execute if data storage ssbrc:temp player.temp_data{fighter:"snake"} unless items entity @s weapon.mainhand minecraft:stick[minecraft:custom_data~{group:"snake.weapon"}] run title @s actionbar ""
+execute if data storage ssbrc:temp player.temp_data{fighter:"snake"} unless items entity @s weapon.mainhand *[minecraft:custom_data~{group:"snake.weapon"}] run title @s actionbar ""
 
 execute if data storage ssbrc:temp player.temp_data{fighter:"sora"} run function ssbrc:fighter/sora/logic/magic/update
 

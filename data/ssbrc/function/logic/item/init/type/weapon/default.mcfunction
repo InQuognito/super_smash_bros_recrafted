@@ -1,9 +1,9 @@
 $item replace entity @s $(slot) with minecraft:stick[ \
 	minecraft:item_name = { \
-		"translate": "$(name)", \
-		"color": "$(color)", \
-		"bold": true, \
-		"italic": false \
+		translate: "$(name)", \
+		color: "$(color)", \
+		bold: true, \
+		italic: false \
 	}, \
 	minecraft:max_stack_size = 1, \
 	minecraft:weapon = { \
@@ -39,6 +39,6 @@ $item replace entity @s $(slot) with minecraft:stick[ \
 ]
 
 $item modify entity @s $(slot) { \
-	"function": "minecraft:reference", \
-	"name": "ssbrc:init/item/melee" \
+	function: "minecraft:reference", \
+	name: "ssbrc:init/item/melee" \
 }

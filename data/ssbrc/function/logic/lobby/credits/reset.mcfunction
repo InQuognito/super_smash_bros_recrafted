@@ -117,18 +117,18 @@ summon minecraft:text_display -537.5 -4.75 -1949.9 { \
 	text: [ \
 		"MCC Discord\n", \
 		{ \
-			"text": "So much. Thank you ♡\n\n", \
-			"color": "gray" \
+			text: "So much. Thank you ♡\n\n", \
+			color: "gray" \
 		}, \
 		"Cobblemon\n", \
 		{ \
-			"text": "Pokémon Assets\n\n", \
-			"color": "gray" \
+			text: "Pokémon Assets\n\n", \
+			color: "gray" \
 		}, \
 		"DawnKiro\n", \
 		{ \
-			"text": "Shaders\n\n", \
-			"color": "gray" \
+			text: "Shaders\n\n", \
+			color: "gray" \
 		} \
 	], \
 	background: 0, \
@@ -142,18 +142,18 @@ summon minecraft:text_display -534.5 -4.75 -1949.9 { \
 	text: [ \
 		"Simplly\n", \
 		{ \
-			"text": "Lobby\n\n", \
-			"color": "gray" \
+			text: "Lobby\n\n", \
+			color: "gray" \
 		}, \
 		"Xanbelor\n", \
 		{ \
-			"text": "VFX Artist\n\n", \
-			"color": "gray" \
+			text: "VFX Artist\n\n", \
+			color: "gray" \
 		}, \
 		"Sushironi\n", \
 		{ \
-			"text": "Various\n\n", \
-			"color": "gray" \
+			text: "Various\n\n", \
+			color: "gray" \
 		} \
 	], \
 	background: 0, \
@@ -167,18 +167,18 @@ summon minecraft:text_display -531.5 -4.75 -1949.9 { \
 	text: [ \
 		"Misc. Building\n", \
 		{ \
-			"text": "Mongoose1716\nLIL_BOI_BLU\n\n", \
-			"color": "gray" \
+			text: "Mongoose1716\nLIL_BOI_BLU\n\n", \
+			color: "gray" \
 		}, \
 		"ComicalFont\n", \
 		{ \
-			"text": "Dream Land\n\n", \
-			"color": "gray" \
+			text: "Dream Land\n\n", \
+			color: "gray" \
 		}, \
 		"Kill3rCreeper\n", \
 		{ \
-			"text": "Samus Skins\n\n", \
-			"color": "gray" \
+			text: "Samus Skins\n\n", \
+			color: "gray" \
 		} \
 	], \
 	background: 0, \

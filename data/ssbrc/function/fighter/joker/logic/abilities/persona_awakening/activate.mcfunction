@@ -5,8 +5,8 @@ scoreboard players set @s charge.1 0
 
 function ssbrc:fighter/joker/logic/abilities/tt33/reset
 
-clear @s minecraft:stick[minecraft:custom_data~{group:"mask"}]
-clear @s minecraft:stick[minecraft:custom_data~{group:"persona_awakening"}]
+clear @s *[minecraft:custom_data~{group:"mask"}]
+clear @s *[minecraft:custom_data~{group:"persona_awakening"}]
 
 $function ssbrc:logic/item/modify {search_key:"group",search_value:"persona",path:{"function":"minecraft:set_components","components":{"minecraft:item_model":"ssbrc:fighter/joker/misc/portrait/$(persona)/active"}}}
 

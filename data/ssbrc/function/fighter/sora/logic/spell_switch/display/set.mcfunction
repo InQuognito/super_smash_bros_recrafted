@@ -1,53 +1,53 @@
 $item modify entity @s $(slot) [ \
 	{ \
-		"function": "minecraft:set_name", \
-		"entity": "this", \
-		"name": { \
-			"text": "", \
-			"italic": false, \
-			"extra": [ \
+		function: "minecraft:set_name", \
+		entity: this, \
+		name: { \
+			text: "", \
+			italic: false, \
+			extra: [ \
 				{ \
-					"translate": "$(name)", \
-					"color": "$(color)", \
-					"bold": true \
+					translate: "$(name)", \
+					color: "$(color)", \
+					bold: true \
 				}, \
 				{ \
-					"text": " (" \
+					text: " (" \
 				}, \
 				{ \
-					"translate": "ssbrc.fighter.sora.keyblade.$(spell)$(suffix)", \
-					"color": "$(spell_color)" \
+					translate: "ssbrc.fighter.sora.keyblade.$(spell)$(suffix)", \
+					color: "$(spell_color)" \
 				}, \
 				{ \
-					"text": ")" \
+					text: ")" \
 				} \
 			] \
 		} \
 	}, \
 	{ \
-		"function": "minecraft:reference", \
-		"name": "ssbrc:init/item/hybrid" \
+		function: "minecraft:reference", \
+		name: "ssbrc:init/item/hybrid" \
 	}, \
 	{ \
-		"function": "minecraft:set_lore", \
-		"entity": "this", \
-		"lore": [ \
+		function: "minecraft:set_lore", \
+		entity: this, \
+		lore: [ \
 			{ \
-				"text": "- [", \
-				"color": "gray", \
-				"italic": false, \
-				"extra": [ \
+				text: "- [", \
+				color: "gray", \
+				italic: false, \
+				extra: [ \
 					{ \
 						"keybind": "key.use", \
-						"color": "gray" \
+						color: "gray" \
 					}, \
 					{ \
-						"translate": "ssbrc.fighter.sora.keyblade.$(spell)$(suffix).description.1", \
-						"color": "gray" \
+						translate: "ssbrc.fighter.sora.keyblade.$(spell)$(suffix).description.1", \
+						color: "gray" \
 					} \
 				] \
 			} \
 		], \
-		"mode":"append" \
+		mode: append, \
 	} \
 ]

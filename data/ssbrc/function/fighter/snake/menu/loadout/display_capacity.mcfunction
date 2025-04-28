@@ -1,29 +1,29 @@
 tellraw @s [ \
 	"", \
 	{ \
-		"translate": "ssbrc.fighter.snake.capacity" \
+		translate: "ssbrc.fighter.snake.capacity" \
 	}, \
 	{ \
 		"score": { \
-			"name": "@s", \
-			"objective": "snake.capacity" \
+			name: "@s", \
+			objective: "snake.capacity" \
 		}, \
-		"color": "gold" \
+		color: "gold" \
 	}, \
 	{ \
-		"translate": "ssbrc.info.weight", \
+		translate: "ssbrc.info.weight", \
 		"color":"gray" \
 	}, \
 	"/", \
 	{ \
 		"score": { \
-			"name": "snake.weight.max", \
-			"objective": "const" \
+			name: "snake.weight.max", \
+			objective: "const" \
 		}, \
-		"color": "red" \
+		color: "red" \
 	}, \
 	{ \
-		"translate": "ssbrc.info.weight", \
+		translate: "ssbrc.info.weight", \
 		"color":"gray" \
 	}, \
 	"." \

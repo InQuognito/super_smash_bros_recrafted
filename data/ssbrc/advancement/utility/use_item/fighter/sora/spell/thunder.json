@@ -1,0 +1,27 @@
+{
+	"parent": "ssbrc:utility/use_item/root",
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:using_item",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:reference",
+						"name": "ssbrc:cooldown/not_sneaking"
+					}
+				],
+				"item": {
+					"predicates": {
+						"minecraft:custom_data": {
+							"item": "keyblade",
+							"spell": "thunder"
+						}
+					}
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "ssbrc:fighter/sora/logic/abilities/thunder/check"
+	}
+}

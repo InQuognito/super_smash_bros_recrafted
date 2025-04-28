@@ -7,7 +7,7 @@
 				"player": [
 					{
 						"condition": "minecraft:reference",
-						"name": "ssbrc:universal_cooldown"
+						"name": "ssbrc:cooldown/universal"
 					},
 					{
 						"condition": "minecraft:entity_scores",
@@ -20,7 +20,6 @@
 					}
 				],
 				"item": {
-					"items": "#ssbrc:equipment",
 					"predicates": {
 						"minecraft:custom_data": "{item:\"flare_blitz\"}",
 						"minecraft:damage": {

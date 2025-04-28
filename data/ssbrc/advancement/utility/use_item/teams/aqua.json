@@ -16,7 +16,6 @@
 					}
 				],
 				"item": {
-					"items": "#ssbrc:equipment",
 					"predicates": {
 						"minecraft:custom_data": "{team:\"aqua\"}"
 					}

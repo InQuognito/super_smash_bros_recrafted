@@ -1,5 +1,3 @@
-function ssbrc:logic/item/cooldown/decrease {item:"keyblade"}
-
 # Health
 execute if score @s health matches ..6 run function ssbrc:fighter/sora/logic/low_health_alert/check
 

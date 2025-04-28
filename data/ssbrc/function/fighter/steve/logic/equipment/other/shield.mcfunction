@@ -1,4 +1,4 @@
-clear @s minecraft:shield[minecraft:custom_data~{item:"shield"}]
+clear @s *[minecraft:custom_data~{item:"shield"}]
 
 function ssbrc:logic/item/init/slot {item:"shield",slot:"weapon.offhand",class:"weapon",type:"shield"}
 

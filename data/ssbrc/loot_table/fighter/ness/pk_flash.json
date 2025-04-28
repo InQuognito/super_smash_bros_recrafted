@@ -121,7 +121,8 @@
 							"function": "minecraft:set_custom_data",
 							"tag": {
 								"item": "pk_flash",
-								"cooldown": 40
+								"alt_cooldown": 40,
+								"cooldown": 10
 							}
 						}
 					]

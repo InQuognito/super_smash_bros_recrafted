@@ -6,7 +6,7 @@
 			"entries": [
 				{
 					"type": "minecraft:item",
-					"name": "minecraft:carrot_on_a_stick",
+					"name": "minecraft:goat_horn",
 					"functions": [
 						{
 							"function": "minecraft:set_components",
@@ -32,6 +32,10 @@
 								],
 								"minecraft:enchantments": {
 									"ssbrc:fighter/link/master_sword": 1
+								},
+								"minecraft:use_cooldown": {
+									"seconds": 1.0,
+									"cooldown_group": "ssbrc:link/sword_beam"
 								},
 								"minecraft:item_model": "ssbrc:fighter/link/item/master_sword"
 							}

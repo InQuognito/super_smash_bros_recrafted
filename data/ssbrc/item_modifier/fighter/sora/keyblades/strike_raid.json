@@ -53,7 +53,11 @@
 					"operation": "add_multiplied_base",
 					"slot": "mainhand"
 				}
-			]
+			],
+			"minecraft:use_cooldown": {
+				"seconds": 0.5,
+				"cooldown_group": "ssbrc:sora/keyblade"
+			}
 		}
 	},
 	{
