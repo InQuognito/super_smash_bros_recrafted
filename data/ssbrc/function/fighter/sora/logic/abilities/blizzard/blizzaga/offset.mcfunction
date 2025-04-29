@@ -1,3 +1,1 @@
-execute store result score random.output temp run random value 0..150
-
-execute if predicate ssbrc:random_chance/50 run scoreboard players operation random.output temp *= -1 const
+$execute store result storage ssbrc:temp cache.rotation.$(axis) float 0.1 run random value -150..150

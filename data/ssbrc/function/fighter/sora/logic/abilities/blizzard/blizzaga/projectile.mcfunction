@@ -1,15 +1,9 @@
-data modify storage ssbrc:data OriginalRotation set from entity @s Rotation
+data remove storage ssbrc:temp cache.rotation
 
-execute store result score x_rot temp run data get storage ssbrc:data OriginalRotation[0] 10
-execute store result score y_rot temp run data get storage ssbrc:data OriginalRotation[1] 10
+function ssbrc:fighter/sora/logic/abilities/blizzard/blizzaga/offset {axis:"x"}
+function ssbrc:fighter/sora/logic/abilities/blizzard/blizzaga/offset {axis:"y"}
 
-data modify storage ssbrc:data Rotation set value [0f,0f]
+function ssbrc:fighter/sora/logic/abilities/blizzard/blizzaga/start with storage ssbrc:temp cache.rotation
 
-execute summon minecraft:marker run function ssbrc:fighter/sora/logic/abilities/blizzard/blizzaga/init
-execute summon minecraft:marker run function ssbrc:fighter/sora/logic/abilities/blizzard/blizzaga/init
-execute summon minecraft:marker run function ssbrc:fighter/sora/logic/abilities/blizzard/blizzaga/init
-execute summon minecraft:marker run function ssbrc:fighter/sora/logic/abilities/blizzard/blizzaga/init
-execute summon minecraft:marker run function ssbrc:fighter/sora/logic/abilities/blizzard/blizzaga/init
-execute summon minecraft:marker run function ssbrc:fighter/sora/logic/abilities/blizzard/blizzaga/init
-execute summon minecraft:marker run function ssbrc:fighter/sora/logic/abilities/blizzard/blizzaga/init
-execute summon minecraft:marker run function ssbrc:fighter/sora/logic/abilities/blizzard/blizzaga/init
+scoreboard players remove projectile temp 1
+execute if score projectile temp matches 1.. run function ssbrc:fighter/sora/logic/abilities/blizzard/blizzaga/projectile
