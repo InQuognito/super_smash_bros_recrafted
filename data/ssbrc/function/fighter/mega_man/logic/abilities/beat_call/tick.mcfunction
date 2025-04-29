@@ -16,7 +16,7 @@ execute store result storage ssbrc:temp rotation int 1.0 run scoreboard players 
 
 scoreboard players remove @s[scores={cooldown=1..}] cooldown 1
 
-execute if score in_electric_terrain temp matches 1 run return run function ssbrc:fighter/mega_man/logic/abilities/beat_call/electric_terrain
+execute if entity @e[type=minecraft:marker,tag=electric_terrain,distance=..12] run return run function ssbrc:fighter/mega_man/logic/abilities/beat_call/electric_terrain
 function ssbrc:fighter/mega_man/logic/abilities/beat_call/move with storage ssbrc:temp
 
 execute if entity @s[tag=attack,scores={cooldown=..0}] run function ssbrc:fighter/mega_man/logic/abilities/beat_call/hit
