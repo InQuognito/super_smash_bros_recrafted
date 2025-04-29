@@ -44,8 +44,6 @@ execute if score @s flag.damage_taken matches 1.. run function ssbrc:logic/fight
 
 execute if score @s fall_distance matches 1.. run function ssbrc:logic/fighter/shockwave/check
 
-scoreboard players reset in_electric_terrain temp
-
 # Combo
 execute unless score @s combo.duration < combo.threshold const run scoreboard players remove @s combo.duration 1
 execute if score @s combo.duration < combo.threshold const run function ssbrc:logic/fighter/combo/expire
