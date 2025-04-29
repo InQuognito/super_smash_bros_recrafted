@@ -1,4 +1,4 @@
-$execute unless items entity @s container.* *[minecraft:custom_data~{item:"$(item)"}] run loot give @s loot ssbrc:fighter/snake/$(item)
+$execute unless items entity @s container.* *[minecraft:custom_data~{item:"$(item)"}] run function ssbrc:logic/item/give/default {item:"$(item)",class:"default",type:"default"}
 
 $scoreboard players operation @s snake.capacity += snake.$(item).weight const
 

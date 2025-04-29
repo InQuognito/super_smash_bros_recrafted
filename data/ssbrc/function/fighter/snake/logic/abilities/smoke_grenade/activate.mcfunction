@@ -1,6 +1,6 @@
 function ssbrc:logic/fighter/ability/init
 
-execute anchored eyes positioned ^ ^ ^1 summon minecraft:marker run function ssbrc:fighter/snake/logic/abilities/smoke_grenade/init/marker
+execute anchored eyes positioned ^ ^ ^0.5 summon minecraft:marker run function ssbrc:fighter/snake/logic/abilities/smoke_grenade/init/marker
 
 function ssbrc:logic/item/durability/reset/hand {key:"item",value:"smoke_grenade",source:"cooldown"}
 
