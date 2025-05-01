@@ -6,7 +6,7 @@
 			"entries": [
 				{
 					"type": "minecraft:item",
-					"name": "minecraft:stick",
+					"name": "minecraft:goat_horn",
 					"functions": [
 						{
 							"function": "minecraft:reference",
@@ -14,7 +14,7 @@
 						},
 						{
 							"function": "minecraft:reference",
-							"name": "ssbrc:init/ability/default"
+							"name": "ssbrc:init/ability/instrument/default"
 						},
 						{
 							"function": "minecraft:set_lore",
@@ -46,6 +46,10 @@
 						{
 							"function": "minecraft:set_components",
 							"components": {
+								"minecraft:use_cooldown": {
+									"seconds": 0.5,
+									"cooldown_group": "ssbrc:mega_man/metal_blade"
+								},
 								"minecraft:item_model": "ssbrc:fighter/mega_man/item/metal_blade"
 							}
 						},
@@ -53,8 +57,7 @@
 							"function": "minecraft:set_custom_data",
 							"tag": {
 								"item": "metal_blade",
-								"group": "mega_buster",
-								"cooldown": 40
+								"group": "mega_buster"
 							}
 						}
 					]

@@ -1,5 +1,5 @@
 # Ray Blaster
-function ssbrc:fighter/yar/logic/abilities/ray_blaster/cooldown
+function ssbrc:logic/item/cooldown/decrease {item:"gatling_gun"}
 
 scoreboard players remove @s[scores={charge.2=1..}] charge.2 3
 

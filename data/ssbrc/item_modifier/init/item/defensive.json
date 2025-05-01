@@ -19,6 +19,6 @@
 	},
 	{
 		"function": "minecraft:reference",
-		"name": "ssbrc:init/item/common"
+		"name": "ssbrc:init/ability/stats"
 	}
 ]

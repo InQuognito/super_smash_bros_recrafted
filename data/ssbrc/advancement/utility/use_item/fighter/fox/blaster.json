@@ -22,7 +22,7 @@
 				"item": {
 					"predicates": {
 						"minecraft:custom_data": {
-							"item": "krazoan_staff"
+							"item": "fox.blaster"
 						}
 					}
 				}
@@ -30,6 +30,6 @@
 		}
 	},
 	"rewards": {
-		"function": "ssbrc:fighter/fox/logic/abilities/krazoan_fireball/activate"
+		"function": "ssbrc:fighter/fox/logic/abilities/blaster/activate"
 	}
 }

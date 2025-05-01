@@ -6,7 +6,7 @@
 			"entries": [
 				{
 					"type": "minecraft:item",
-					"name": "minecraft:carrot_on_a_stick",
+					"name": "minecraft:goat_horn",
 					"functions": [
 						{
 							"function": "minecraft:reference",
@@ -14,7 +14,7 @@
 						},
 						{
 							"function": "minecraft:reference",
-							"name": "ssbrc:init/ability/cooldown"
+							"name": "ssbrc:init/ability/instrument/default"
 						},
 						{
 							"function": "minecraft:set_lore",
@@ -46,6 +46,10 @@
 						{
 							"function": "minecraft:set_components",
 							"components": {
+								"minecraft:use_cooldown": {
+									"seconds": 0.2,
+									"cooldown_group": "ssbrc:mega_man/mega_buster"
+								},
 								"minecraft:item_model": "ssbrc:fighter/mega_man/item/mega_buster"
 							}
 						},
@@ -53,8 +57,8 @@
 							"function": "minecraft:set_custom_data",
 							"tag": {
 								"item": "mega_buster",
-								"group": "mega_buster",
-								"cooldown": 4}
+								"group": "mega_buster"
+							}
 						}
 					]
 				}

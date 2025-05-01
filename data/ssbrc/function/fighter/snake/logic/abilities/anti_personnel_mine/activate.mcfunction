@@ -1,8 +1,6 @@
 function ssbrc:logic/fighter/ability/init
 
-execute anchored eyes positioned ^ ^ ^1 summon minecraft:marker run function ssbrc:fighter/snake/logic/abilities/anti_personnel_mine/init/marker
-
-function ssbrc:logic/item/durability/reset/hand {key:"item",value:"anti_personnel_mine",source:"cooldown"}
+execute anchored eyes positioned ^ ^ ^0.5 summon minecraft:marker run function ssbrc:fighter/snake/logic/abilities/anti_personnel_mine/init/marker
 
 function ssbrc:fighter/snake/logic/load/decrease
 

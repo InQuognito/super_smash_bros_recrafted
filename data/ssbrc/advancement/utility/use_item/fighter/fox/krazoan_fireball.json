@@ -21,9 +21,8 @@
 				],
 				"item": {
 					"predicates": {
-						"minecraft:custom_data": "{item:\"krazoan_staff\"}",
-						"minecraft:damage": {
-							"damage": 0
+						"minecraft:custom_data": {
+							"item": "krazoan_staff"
 						}
 					}
 				}

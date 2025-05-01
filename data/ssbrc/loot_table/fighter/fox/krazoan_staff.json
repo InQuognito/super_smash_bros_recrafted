@@ -6,7 +6,7 @@
 			"entries": [
 				{
 					"type": "minecraft:item",
-					"name": "minecraft:stick",
+					"name": "minecraft:goat_horn",
 					"functions": [
 						{
 							"function": "minecraft:reference",
@@ -14,7 +14,7 @@
 						},
 						{
 							"function": "minecraft:reference",
-							"name": "ssbrc:init/ability/default"
+							"name": "ssbrc:init/ability/instrument/default"
 						},
 						{
 							"function": "minecraft:set_components",
@@ -38,6 +38,10 @@
 										"slot": "mainhand"
 									}
 								],
+								"minecraft:use_cooldown": {
+									"seconds": 1.5,
+									"cooldown_group": "ssbrc:fox/projectile"
+								},
 								"minecraft:item_model": "ssbrc:fighter/fox/item/krazoan_staff"
 							}
 						},
@@ -78,8 +82,7 @@
 							"function": "minecraft:set_custom_data",
 							"tag": {
 								"item": "krazoan_staff",
-								"damage": 5,
-								"cooldown": 30
+								"damage": 5
 							}
 						}
 					]

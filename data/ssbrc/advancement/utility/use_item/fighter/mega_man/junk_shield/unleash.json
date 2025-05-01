@@ -19,9 +19,8 @@
 				],
 				"item": {
 					"predicates": {
-						"minecraft:custom_data": "{item:\"junk_shield\"}",
-						"minecraft:damage": {
-							"damage": 0
+						"minecraft:custom_data": {
+							"item": "junk_shield"
 						}
 					}
 				}

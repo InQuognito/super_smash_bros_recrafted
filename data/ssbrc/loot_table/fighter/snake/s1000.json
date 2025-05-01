@@ -6,7 +6,7 @@
 			"entries": [
 				{
 					"type": "minecraft:item",
-					"name": "minecraft:carrot_on_a_stick",
+					"name": "minecraft:goat_horn",
 					"functions": [
 						{
 							"function": "minecraft:reference",
@@ -15,6 +15,10 @@
 						{
 							"function": "minecraft:set_components",
 							"components": {
+								"minecraft:use_cooldown": {
+									"seconds": 1.0,
+									"cooldown_group": "ssbrc:snake/s1000"
+								},
 								"minecraft:item_model": "ssbrc:fighter/snake/item/s1000"
 							}
 						},
@@ -22,8 +26,7 @@
 							"function": "minecraft:set_custom_data",
 							"tag": {
 								"item": "s1000",
-								"group": "snake.weapon",
-								"cooldown": 20
+								"group": "snake.weapon"
 							}
 						}
 					]

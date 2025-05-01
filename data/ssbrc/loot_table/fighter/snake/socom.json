@@ -6,7 +6,7 @@
 			"entries": [
 				{
 					"type": "minecraft:item",
-					"name": "minecraft:carrot_on_a_stick",
+					"name": "minecraft:goat_horn",
 					"functions": [
 						{
 							"function": "minecraft:reference",
@@ -15,6 +15,10 @@
 						{
 							"function": "minecraft:set_components",
 							"components": {
+								"minecraft:use_cooldown": {
+									"seconds": 0.25,
+									"cooldown_group": "ssbrc:snake/socom"
+								},
 								"minecraft:item_model": "ssbrc:fighter/snake/item/socom"
 							}
 						},
@@ -22,8 +26,8 @@
 							"function": "minecraft:set_custom_data",
 							"tag": {
 								"item": "socom",
-								"group": "snake.weapon",
-								"cooldown": 5}
+								"group": "snake.weapon"
+							}
 						}
 					]
 				}

@@ -6,7 +6,7 @@
 			"entries": [
 				{
 					"type": "minecraft:item",
-					"name": "minecraft:stick",
+					"name": "minecraft:goat_horn",
 					"functions": [
 						{
 							"function": "minecraft:reference",
@@ -14,11 +14,7 @@
 						},
 						{
 							"function": "minecraft:reference",
-							"name": "ssbrc:init/ability/default"
-						},
-						{
-							"function": "minecraft:reference",
-							"name": "ssbrc:init/ability/stats"
+							"name": "ssbrc:init/ability/instrument/default"
 						},
 						{
 							"function": "minecraft:reference",
@@ -46,14 +42,17 @@
 						{
 							"function": "minecraft:set_components",
 							"components": {
+								"minecraft:use_cooldown": {
+									"seconds": 3.0,
+									"cooldown_group": "ssbrc:fox/reflector"
+								},
 								"minecraft:item_model": "ssbrc:fighter/fox/item/reflector"
 							}
 						},
 						{
 							"function": "minecraft:set_custom_data",
 							"tag": {
-								"item": "reflector",
-								"cooldown": 60
+								"item": "reflector"
 							}
 						}
 					]

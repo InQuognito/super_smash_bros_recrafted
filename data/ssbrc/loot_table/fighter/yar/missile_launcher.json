@@ -6,11 +6,15 @@
 			"entries": [
 				{
 					"type": "minecraft:item",
-					"name": "minecraft:stick",
+					"name": "minecraft:goat_horn",
 					"functions": [
 						{
 							"function": "minecraft:reference",
-							"name": "ssbrc:fighter/yar/ray_blaster"
+							"name": "ssbrc:init/preset/ranged"
+						},
+						{
+							"function": "minecraft:reference",
+							"name": "ssbrc:init/ability/instrument/default"
 						},
 						{
 							"function": "minecraft:set_lore",
@@ -54,14 +58,17 @@
 						{
 							"function": "minecraft:set_components",
 							"components": {
+								"minecraft:use_cooldown": {
+									"seconds": 5.0,
+									"cooldown_group": "ssbrc:yar/ray_blaster"
+								},
 								"minecraft:item_model": "ssbrc:fighter/yar/item/missile_launcher"
 							}
 						},
 						{
 							"function": "minecraft:set_custom_data",
 							"tag": {
-								"item": "missile_launcher",
-								"cooldown": 100
+								"item": "missile_launcher"
 							}
 						}
 					]

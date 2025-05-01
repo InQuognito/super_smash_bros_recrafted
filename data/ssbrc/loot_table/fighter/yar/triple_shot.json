@@ -6,11 +6,15 @@
 			"entries": [
 				{
 					"type": "minecraft:item",
-					"name": "minecraft:stick",
+					"name": "minecraft:goat_horn",
 					"functions": [
 						{
 							"function": "minecraft:reference",
-							"name": "ssbrc:fighter/yar/ray_blaster"
+							"name": "ssbrc:init/preset/ranged"
+						},
+						{
+							"function": "minecraft:reference",
+							"name": "ssbrc:init/ability/instrument/default"
 						},
 						{
 							"function": "minecraft:set_lore",
@@ -42,6 +46,10 @@
 						{
 							"function": "minecraft:set_components",
 							"components": {
+								"minecraft:use_cooldown": {
+									"seconds": 0.75,
+									"cooldown_group": "ssbrc:yar/ray_blaster"
+								},
 								"minecraft:item_model": "ssbrc:fighter/yar/item/triple_shot"
 							}
 						},
@@ -49,7 +57,8 @@
 							"function": "minecraft:set_custom_data",
 							"tag": {
 								"item": "triple_shot",
-								"cooldown": 15
+								"group": "ray_blaster",
+								"power_up": "false"
 							}
 						}
 					]

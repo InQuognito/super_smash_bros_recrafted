@@ -6,7 +6,7 @@
 			"entries": [
 				{
 					"type": "minecraft:item",
-					"name": "minecraft:carrot_on_a_stick",
+					"name": "minecraft:goat_horn",
 					"functions": [
 						{
 							"function": "minecraft:reference",
@@ -14,7 +14,7 @@
 						},
 						{
 							"function": "minecraft:reference",
-							"name": "ssbrc:init/ability/cooldown"
+							"name": "ssbrc:init/ability/instrument/default"
 						},
 						{
 							"function": "minecraft:set_lore",
@@ -46,14 +46,17 @@
 						{
 							"function": "minecraft:set_components",
 							"components": {
+								"minecraft:use_cooldown": {
+									"seconds": 0.5,
+									"cooldown_group": "ssbrc:fox/projectile"
+								},
 								"minecraft:item_model": "ssbrc:fighter/fox/item/blaster"
 							}
 						},
 						{
 							"function": "minecraft:set_custom_data",
 							"tag": {
-								"item": "fox.blaster",
-								"cooldown": 10
+								"item": "fox.blaster"
 							}
 						}
 					]

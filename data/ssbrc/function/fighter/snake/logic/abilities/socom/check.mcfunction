@@ -1,4 +1,4 @@
-function ssbrc:logic/item/durability/reset/hand {key:"item",value:"socom",source:"cooldown"}
+advancement revoke @s only ssbrc:utility/use_item/fighter/snake/socom
 
 execute if score @s weapon_4.ammo matches 1.. run return run function ssbrc:fighter/snake/logic/abilities/socom/activate
 
