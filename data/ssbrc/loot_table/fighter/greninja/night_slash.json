@@ -51,7 +51,7 @@
 						},
 						{
 							"function": "minecraft:reference",
-							"name": "ssbrc:init/tooltip/ability/melee"
+							"name": "ssbrc:init/item/melee"
 						},
 						{
 							"function": "minecraft:set_lore",
@@ -120,7 +120,11 @@
 						},
 						{
 							"function": "minecraft:set_custom_data",
-							"tag": "{item:\"night_slash\",damage:5,cooldown:40}"
+							"tag": {
+								"item": "night_slash",
+								"damage": 5,
+								"cooldown": 40
+							}
 						}
 					]
 				}

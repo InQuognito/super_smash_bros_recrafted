@@ -1,7 +1,7 @@
 [
 	{
 		"function": "minecraft:reference",
-		"name": "ssbrc:init/ability/coas/hybrid"
+		"name": "ssbrc:init/ability/instrument/default"
 	},
 	{
 		"function": "minecraft:set_custom_data",

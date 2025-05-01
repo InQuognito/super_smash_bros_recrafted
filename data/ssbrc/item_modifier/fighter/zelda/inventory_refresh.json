@@ -14,7 +14,9 @@
 						"slots": {
 							"container.*": {
 								"predicates": {
-									"minecraft:custom_data": "{item:\"ring_of_charisma\"}"
+									"minecraft:custom_data": {
+										"item": "ring_of_charisma"
+									}
 								}
 							}
 						}
@@ -36,7 +38,9 @@
 					"slots": {
 						"container.*": {
 							"predicates": {
-								"minecraft:custom_data": "{item:\"ring_of_charisma\"}"
+								"minecraft:custom_data": {
+									"item": "ring_of_charisma"
+								}
 							}
 						}
 					}

@@ -6,19 +6,15 @@
 			"entries": [
 				{
 					"type": "minecraft:item",
-					"name": "minecraft:carrot_on_a_stick",
+					"name": "minecraft:goat_horn",
 					"functions": [
 						{
 							"function": "minecraft:reference",
-							"name": "ssbrc:init/tooltip/ability/ranged"
+							"name": "ssbrc:init/preset/ranged"
 						},
 						{
 							"function": "minecraft:reference",
-							"name": "ssbrc:init/ability/default"
-						},
-						{
-							"function": "minecraft:reference",
-							"name": "ssbrc:init/ability/stats"
+							"name": "ssbrc:init/ability/instrument/default"
 						},
 						{
 							"function": "minecraft:set_lore",
@@ -62,12 +58,18 @@
 						{
 							"function": "minecraft:set_components",
 							"components": {
+								"minecraft:use_cooldown": {
+									"seconds": 1.0,
+									"cooldown_group": "ssbrc:luigi/ice_ball"
+								},
 								"minecraft:item_model": "ssbrc:fighter/luigi/item/ice_ball"
 							}
 						},
 						{
 							"function": "minecraft:set_custom_data",
-							"tag": "{item:\"ice_ball\",cooldown:20}"
+							"tag": {
+								"item": "ice_ball"
+							}
 						}
 					]
 				}

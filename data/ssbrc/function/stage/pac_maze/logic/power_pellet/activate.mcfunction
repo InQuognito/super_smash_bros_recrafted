@@ -1,4 +1,6 @@
-execute as @e[type=minecraft:item_display,tag=ghost,tag=active,tag=!dead] run function ssbrc:stage/pac_maze/logic/ghosts/states/retreating/activate
+scoreboard players set power_pellet temp 140
+
+execute as @e[type=minecraft:item_display,tag=ghost] if data entity @s data{state:"active"} run function ssbrc:stage/pac_maze/logic/ghosts/states/retreating/activate
 
 item replace entity @s weapon.mainhand with minecraft:air
 

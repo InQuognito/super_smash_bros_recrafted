@@ -63,7 +63,10 @@
 						},
 						{
 							"function": "minecraft:set_custom_data",
-							"tag": "{item:\"holy_water\",cooldown:300}"
+							"tag": {
+								"item": "holy_water",
+								"cooldown": 300
+							}
 						}
 					]
 				}

@@ -81,7 +81,11 @@
 						},
 						{
 							"function": "minecraft:set_custom_data",
-							"tag": "{item:\"flare_wand\",disabled:\"false\",cooldown:15}"
+							"tag": {
+								"item": "flare_wand",
+								"disabled": "false",
+								"cooldown": 15
+							}
 						}
 					]
 				}

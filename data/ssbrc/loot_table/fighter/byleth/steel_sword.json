@@ -35,11 +35,14 @@
 						},
 						{
 							"function": "minecraft:reference",
-							"name": "ssbrc:init/tooltip/ability/melee"
+							"name": "ssbrc:init/item/melee"
 						},
 						{
 							"function": "minecraft:set_custom_data",
-							"tag": "{item:\"steel_sword\",damage:3}"
+							"tag": {
+								"item": "steel_sword",
+								"damage": 3
+							}
 						}
 					]
 				}

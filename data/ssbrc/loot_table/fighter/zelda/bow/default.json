@@ -34,7 +34,9 @@
 						},
 						{
 							"function": "minecraft:set_custom_data",
-							"tag": "{item:\"default_bow\"}"
+							"tag": {
+								"item": "default_bow"
+							}
 						}
 					]
 				}

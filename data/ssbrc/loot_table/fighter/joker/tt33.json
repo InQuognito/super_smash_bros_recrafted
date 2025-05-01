@@ -6,7 +6,7 @@
 			"entries": [
 				{
 					"type": "minecraft:item",
-					"name": "minecraft:carrot_on_a_stick",
+					"name": "minecraft:goat_horn",
 					"functions": [
 						{
 							"function": "minecraft:reference",
@@ -15,12 +15,18 @@
 						{
 							"function": "minecraft:set_components",
 							"components": {
+								"minecraft:use_cooldown": {
+									"seconds": 0.2,
+									"cooldown_group": "ssbrc:joker/tt33"
+								},
 								"minecraft:item_model": "ssbrc:fighter/joker/item/tt33"
 							}
 						},
 						{
 							"function": "minecraft:set_custom_data",
-							"tag": "{item:\"tt33\",cooldown:5}"
+							"tag": {
+								"item": "tt33"
+							}
 						}
 					]
 				}

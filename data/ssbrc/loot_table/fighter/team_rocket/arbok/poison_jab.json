@@ -48,7 +48,7 @@
 						},
 						{
 							"function": "minecraft:reference",
-							"name": "ssbrc:init/tooltip/ability/melee"
+							"name": "ssbrc:init/item/melee"
 						},
 						{
 							"function": "minecraft:set_lore",
@@ -65,7 +65,9 @@
 						},
 						{
 							"function": "minecraft:set_custom_data",
-							"tag": "{item:\"poison_jab\",damage:3}"
+							"tag": {
+								"item": "poison_jab",
+								"damage": 3}
 						}
 					]
 				}

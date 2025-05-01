@@ -120,19 +120,22 @@
 							"mode": "append"
 						},
 						{
-							"function": "minecraft:set_damage",
-							"damage": 0,
-							"add": false
-						},
-						{
 							"function": "minecraft:set_components",
 							"components": {
 								"minecraft:item_model": "ssbrc:fighter/yar/item/drone"
 							}
 						},
 						{
+							"function": "minecraft:reference",
+							"name": "ssbrc:fighter/yar/drone/activate"
+						},
+						{
 							"function": "minecraft:set_custom_data",
-							"tag": "{item:\"drone\",cooldown:5}"
+							"tag": {
+								"item": "drone",
+								"cooldown": 5,
+								"alt_cooldown": 300
+							}
 						}
 					]
 				}

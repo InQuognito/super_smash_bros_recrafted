@@ -10,11 +10,12 @@
 					"functions": [
 						{
 							"function": "minecraft:reference",
-							"name": "ssbrc:init/tooltip/ability/melee"
+							"name": "ssbrc:init/item/melee"
 						},
 						{
 							"function": "minecraft:set_components",
 							"components": {
+								"minecraft:max_stack_size": 1,
 								"minecraft:weapon": {
 									"item_damage_per_attack": 1,
 									"disable_blocking_for_seconds": 5.0
@@ -119,7 +120,9 @@
 						},
 						{
 							"function": "minecraft:set_custom_data",
-							"tag": "{item:\"aymr\",damage:9}"
+							"tag": {
+								"item": "aymr",
+								"damage": 9}
 						}
 					]
 				}

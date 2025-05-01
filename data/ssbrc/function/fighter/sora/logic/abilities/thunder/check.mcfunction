@@ -1,8 +1,7 @@
-execute unless data storage ssbrc:temp player.temp_data{form:"wisdom"} run scoreboard players operation sora.spell.cost temp = sora.thundaga.cost const
-execute if data storage ssbrc:temp player.temp_data{form:"wisdom"} run scoreboard players operation sora.spell.cost temp = sora.thundaza.cost const
+advancement revoke @s only ssbrc:utility/use_item/fighter/sora/spell/thunder
 
-execute if entity @e[type=minecraft:marker,tag=electric_terrain,distance=..12] run scoreboard players set in_electric_terrain temp 1
-execute if score in_electric_terrain temp matches 1 run scoreboard players operation sora.spell.cost temp /= 2 const
+function ssbrc:logic/player/data/temp/copy/check
 
-execute unless data storage ssbrc:temp player.temp_data{form:"wisdom"} if score @s magic >= sora.spell.cost temp rotated ~ 0.0 run function ssbrc:fighter/sora/logic/abilities/thunder/thundaga/activate
-execute if data storage ssbrc:temp player.temp_data{form:"wisdom"} if score @s magic >= sora.spell.cost temp anchored eyes positioned ^ ^ ^ run function ssbrc:fighter/sora/logic/abilities/thunder/thundaza/activate
+execute if data storage ssbrc:temp player.temp_data{form:"wisdom"} run return run function ssbrc:fighter/sora/logic/abilities/thunder/thundaza/check
+
+function ssbrc:fighter/sora/logic/abilities/thunder/thundaga/check

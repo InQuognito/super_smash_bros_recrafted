@@ -6,7 +6,7 @@
 			"entries": [
 				{
 					"type": "minecraft:item",
-					"name": "minecraft:carrot_on_a_stick",
+					"name": "minecraft:goat_horn",
 					"functions": [
 						{
 							"function": "minecraft:set_components",
@@ -33,12 +33,16 @@
 								"minecraft:enchantments": {
 									"ssbrc:fighter/link/master_sword": 1
 								},
+								"minecraft:use_cooldown": {
+									"seconds": 1.0,
+									"cooldown_group": "ssbrc:link/sword_beam"
+								},
 								"minecraft:item_model": "ssbrc:fighter/link/item/master_sword"
 							}
 						},
 						{
 							"function": "minecraft:reference",
-							"name": "ssbrc:init/tooltip/ability/hybrid"
+							"name": "ssbrc:init/item/hybrid"
 						},
 						{
 							"function": "minecraft:set_lore",
@@ -57,7 +61,7 @@
 											"italic": false
 										},
 										{
-											"translate":"ssbrc.fighter.link.master_sword.description.1",
+											"translate": "ssbrc.fighter.link.master_sword.description.1",
 											"color": "gray",
 											"bold": false,
 											"italic": false
@@ -89,7 +93,7 @@
 											"italic": false
 										},
 										{
-											"translate":"ssbrc.fighter.link.master_sword.description.2",
+											"translate": "ssbrc.fighter.link.master_sword.description.2",
 											"color": "gray",
 											"bold": false,
 											"italic": false
@@ -105,7 +109,12 @@
 						},
 						{
 							"function": "minecraft:set_custom_data",
-							"tag": "{item:\"master_sword\",path:\"link/logic/abilities/sword_spin/activate/check\",damage:6,cooldown:20}"
+							"tag": {
+								"item": "master_sword",
+								"path": "link/logic/abilities/sword_spin/activate/check",
+								"damage": 6,
+								"cooldown": 20
+							}
 						}
 					]
 				}

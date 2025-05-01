@@ -1,10 +1,12 @@
 [
 	{
 		"function": "minecraft:reference",
-		"name": "ssbrc:init/tooltip/ability/melee"
+		"name": "ssbrc:init/item/melee"
 	},
 	{
 		"function": "minecraft:set_custom_data",
-		"tag": "{item:\"steve.sword\"}"
+		"tag": {
+			"item": "steve.sword"
+		}
 	}
 ]

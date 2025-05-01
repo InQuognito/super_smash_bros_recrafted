@@ -1,4 +1,4 @@
-clear @s minecraft:stick[minecraft:custom_data~{item:"aymr"}]
+clear @s *[minecraft:custom_data~{item:"aymr"}]
 loot give @s loot ssbrc:fighter/byleth/sword_of_the_creator
 
 tag @s add weapon_broken

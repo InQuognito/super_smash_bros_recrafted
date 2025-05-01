@@ -1,3 +1,5 @@
+advancement revoke @s only ssbrc:utility/use_item/wiki
+
 function ssbrc:logic/player/data/temp/copy/check
 
 execute if data storage ssbrc:temp player.temp_data{fighter:"altered_beast"} run tellraw @s [{"text":"[","color":"dark_aqua"},{"translate":"ssbrc.fighter.menu.wiki","color":"aqua","click_event":{"action":"open_url","url":"https://super-smash-bros-recrafted.fandom.com/wiki/Altered_Beast"}},{"text":"]","color":"dark_aqua"}]
@@ -38,7 +40,3 @@ execute if data storage ssbrc:temp player.temp_data{fighter:"team_rocket"} run t
 execute if data storage ssbrc:temp player.temp_data{fighter:"wolf"} run tellraw @s [{"text":"[","color":"dark_aqua"},{"translate":"ssbrc.fighter.menu.wiki","color":"aqua","click_event":{"action":"open_url","url":"https://super-smash-bros-recrafted.fandom.com/wiki/Wolf"}},{"text":"]","color":"dark_aqua"}]
 execute if data storage ssbrc:temp player.temp_data{fighter:"yar"} run tellraw @s [{"text":"[","color":"dark_aqua"},{"translate":"ssbrc.fighter.menu.wiki","color":"aqua","click_event":{"action":"open_url","url":"https://super-smash-bros-recrafted.fandom.com/wiki/Yar"}},{"text":"]","color":"dark_aqua"}]
 execute if data storage ssbrc:temp player.temp_data{fighter:"zelda"} run tellraw @s [{"text":"[","color":"dark_aqua"},{"translate":"ssbrc.fighter.menu.wiki","color":"aqua","click_event":{"action":"open_url","url":"https://super-smash-bros-recrafted.fandom.com/wiki/Zelda"}},{"text":"]","color":"dark_aqua"}]
-
-scoreboard players add @s cooldown 5
-
-advancement revoke @s only ssbrc:utility/use_item/wiki

@@ -20,11 +20,11 @@
 						},
 						{
 							"function": "minecraft:reference",
-							"name": "ssbrc:init/tooltip/ability/hybrid"
+							"name": "ssbrc:init/item/hybrid"
 						},
 						{
 							"function": "minecraft:reference",
-							"name": "ssbrc:init/unbreakable"
+							"name": "ssbrc:init/item/common"
 						},
 						{
 							"function": "minecraft:set_components",
@@ -48,12 +48,19 @@
 								"minecraft:enchantments": {
 									"ssbrc:fighter/pit/palutena_bow": 1,
 									"minecraft:infinity": 1
-								}
+								},
+								"minecraft:unbreakable": {},
+								"minecraft:item_model": "ssbrc:fighter/pit/item/palutena_bow"
 							}
 						},
 						{
 							"function": "minecraft:set_custom_data",
-							"tag": "{item:\"palutena_bow\",split:\"false\",chargable:\"true\",damage:5}"
+							"tag": {
+								"item": "palutena_bow",
+								"split": "false",
+								"chargable": "true",
+								"damage":5
+							}
 						}
 					]
 				}

@@ -77,7 +77,9 @@
 						},
 						{
 							"function": "minecraft:set_custom_data",
-							"tag": "{group:\"power_up\",power_up:\"triple_shot\"}"
+							"tag": {"group": "power_up",
+								"power_up": "triple_shot"
+							}
 						}
 					]
 				}

@@ -6,7 +6,7 @@
 			"entries": [
 				{
 					"type": "minecraft:item",
-					"name": "minecraft:carrot_on_a_stick",
+					"name": "minecraft:goat_horn",
 					"functions": [
 						{
 							"function": "minecraft:reference",
@@ -14,7 +14,7 @@
 						},
 						{
 							"function": "minecraft:reference",
-							"name": "ssbrc:init/ability/cooldown"
+							"name": "ssbrc:init/ability/instrument/default"
 						},
 						{
 							"function": "minecraft:set_lore",
@@ -46,12 +46,20 @@
 						{
 							"function": "minecraft:set_components",
 							"components": {
+								"minecraft:use_cooldown": {
+									"seconds": 0.75,
+									"cooldown_group": "ssbrc:yar/ray_blaster"
+								},
 								"minecraft:item_model": "ssbrc:fighter/yar/item/ray_blaster"
 							}
 						},
 						{
 							"function": "minecraft:set_custom_data",
-							"tag": "{group:\"ray_blaster\",item:\"ray_blaster\",power_up:\"false\",cooldown:15}"
+							"tag": {
+								"item": "ray_blaster",
+								"group": "ray_blaster",
+								"power_up": "false"
+							}
 						}
 					]
 				}

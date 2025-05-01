@@ -1,5 +1,7 @@
-execute anchored eyes positioned ^ ^ ^1 summon minecraft:marker run function ssbrc:fighter/yar/logic/abilities/ray_blaster/init {variant:"default"}
+function ssbrc:logic/fighter/ability/init
 
-function ssbrc:logic/item/durability/reset/hand {key:"item",value:"ray_blaster",source:"cooldown"}
+execute anchored eyes positioned ^ ^ ^0.5 summon minecraft:marker run function ssbrc:fighter/yar/logic/abilities/ray_blaster/init {variant:"default"}
 
-playsound ssbrc:item.ray_gun.activate player @a
+playsound ssbrc:fighter.yar.ray_blaster.activate player @a
+
+function ssbrc:logic/fighter/ability/deinit

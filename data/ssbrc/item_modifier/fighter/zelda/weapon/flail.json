@@ -28,6 +28,9 @@
 	},
 	{
 		"function": "minecraft:set_custom_data",
-		"tag": "{item:\"flail\",damage:8}"
+		"tag": {
+			"item": "flail",
+			"damage": 8
+		}
 	}
 ]

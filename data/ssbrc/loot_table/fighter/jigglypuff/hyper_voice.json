@@ -61,7 +61,10 @@
 						},
 						{
 							"function": "minecraft:set_custom_data",
-							"tag": "{item:\"hyper_voice\",cooldown:40}"
+							"tag": {
+								"item": "hyper_voice",
+								"cooldown": 40
+							}
 						}
 					]
 				}

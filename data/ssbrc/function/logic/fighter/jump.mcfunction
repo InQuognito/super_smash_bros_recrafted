@@ -1,7 +1,7 @@
 function ssbrc:logic/player/data/temp/copy/check
 
 scoreboard players add @s jump 1
-scoreboard players set @s jump.cooldown 6
+scoreboard players set @s jump.cooldown 8
 
 execute unless entity @s[tag=silenced] run function ssbrc:logic/fighter/jump/effects
 

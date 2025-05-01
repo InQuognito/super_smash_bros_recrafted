@@ -7,7 +7,21 @@
 				{
 					"type": "minecraft:item",
 					"weight": 10,
-					"name": "minecraft:stick",
+					"name": "minecraft:lapis_lazuli",
+					"functions": [
+						{
+							"function": "minecraft:set_components",
+							"components": {
+								"minecraft:item_model": "minecraft:stick"
+							}
+						},
+						{
+							"function": "minecraft:set_custom_data",
+							"tag": {
+								"get": "bow"
+							}
+						}
+					],
 					"conditions": [
 						{
 							"condition": "minecraft:inverted",
@@ -18,7 +32,9 @@
 									"slots": {
 										"container.*": {
 											"predicates": {
-												"minecraft:custom_data": "{item:\"bow\"}"
+												"minecraft:custom_data": {
+													"item": "bow"
+												}
 											}
 										}
 									}
@@ -30,7 +46,21 @@
 				{
 					"type": "minecraft:item",
 					"weight": 5,
-					"name": "minecraft:tripwire_hook",
+					"name": "minecraft:lapis_lazuli",
+					"functions": [
+						{
+							"function": "minecraft:set_components",
+							"components": {
+								"minecraft:item_model": "minecraft:tripwire_hook"
+							}
+						},
+						{
+							"function": "minecraft:set_custom_data",
+							"tag": {
+								"get": "crossbow"
+							}
+						}
+					],
 					"conditions": [
 						{
 							"condition": "minecraft:inverted",
@@ -41,7 +71,9 @@
 									"slots": {
 										"container.*": {
 											"predicates": {
-												"minecraft:custom_data": "{item:\"crossbow\"}"
+												"minecraft:custom_data": {
+													"item": "crossbow"
+												}
 											}
 										}
 									}
@@ -53,7 +85,21 @@
 				{
 					"type": "minecraft:item",
 					"weight": 20,
-					"name": "minecraft:flint",
+					"name": "minecraft:lapis_lazuli",
+					"functions": [
+						{
+							"function": "minecraft:set_components",
+							"components": {
+								"minecraft:item_model": "minecraft:flint"
+							}
+						},
+						{
+							"function": "minecraft:set_custom_data",
+							"tag": {
+								"get": "arrow"
+							}
+						}
+					],
 					"conditions": [
 						{
 							"condition": "minecraft:any_of",
@@ -65,7 +111,9 @@
 										"slots": {
 											"container.*": {
 												"predicates": {
-													"minecraft:custom_data": "{item:\"bow\"}"
+													"minecraft:custom_data": {
+														"item": "bow"
+													}
 												}
 											}
 										}
@@ -78,7 +126,9 @@
 										"slots": {
 											"container.*": {
 												"predicates": {
-													"minecraft:custom_data": "{item:\"crossbow\"}"
+													"minecraft:custom_data": {
+														"item": "crossbow"
+													}
 												}
 											}
 										}
@@ -91,7 +141,21 @@
 				{
 					"type": "minecraft:item",
 					"weight": 5,
-					"name": "minecraft:oak_planks",
+					"name": "minecraft:lapis_lazuli",
+					"functions": [
+						{
+							"function": "minecraft:set_components",
+							"components": {
+								"minecraft:item_model": "minecraft:oak_planks"
+							}
+						},
+						{
+							"function": "minecraft:set_custom_data",
+							"tag": {
+								"get": "shield"
+							}
+						}
+					],
 					"conditions": [
 						{
 							"condition": "minecraft:inverted",
@@ -102,7 +166,9 @@
 									"slots": {
 										"container.*": {
 											"predicates": {
-												"minecraft:custom_data": "{item:\"shield\"}"
+												"minecraft:custom_data": {
+													"item": "shield"
+												}
 											}
 										}
 									}
@@ -114,7 +180,21 @@
 				{
 					"type": "minecraft:item",
 					"weight": 5,
-					"name": "minecraft:netherite_scrap",
+					"name": "minecraft:lapis_lazuli",
+					"functions": [
+						{
+							"function": "minecraft:set_components",
+							"components": {
+								"minecraft:item_model": "minecraft:netherite_scrap"
+							}
+						},
+						{
+							"function": "minecraft:set_custom_data",
+							"tag": {
+								"get": "netherite"
+							}
+						}
+					],
 					"conditions": [
 						{
 							"condition": "minecraft:entity_scores",
@@ -124,12 +204,6 @@
 							}
 						}
 					]
-				}
-			],
-			"functions": [
-				{
-					"function": "minecraft:set_custom_data",
-					"tag": "{steve_item:true,item_type:\"other\"}"
 				}
 			]
 		}

@@ -61,7 +61,9 @@
 						},
 						{
 							"function": "minecraft:set_custom_data",
-							"tag": "{item:\"poison_bow\"}"
+							"tag": {
+								"item": "poison_bow"
+							}
 						}
 					]
 				}

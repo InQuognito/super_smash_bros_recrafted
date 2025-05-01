@@ -90,7 +90,11 @@
 						},
 						{
 							"function": "minecraft:set_custom_data",
-							"tag": "{item:\"power_beam\",cooldown:4,alt_cooldown:20}"
+							"tag": {
+								"item": "power_beam",
+								"cooldown": 4,
+								"alt_cooldown": 20
+							}
 						}
 					]
 				}

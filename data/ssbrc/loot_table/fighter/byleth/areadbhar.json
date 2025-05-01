@@ -10,7 +10,7 @@
 					"functions": [
 						{
 							"function": "minecraft:reference",
-							"name": "ssbrc:init/tooltip/ability/melee"
+							"name": "ssbrc:init/item/melee"
 						},
 						{
 							"function": "minecraft:reference",
@@ -19,6 +19,7 @@
 						{
 							"function": "minecraft:set_components",
 							"components": {
+								"minecraft:max_stack_size": 1,
 								"minecraft:weapon": {
 									"item_damage_per_attack": 1
 								},
@@ -90,7 +91,10 @@
 						},
 						{
 							"function": "minecraft:set_custom_data",
-							"tag": "{item:\"areadbhar\",path:\"byleth/logic/blue_lions/spin_attack/activate/check\",damage:3}"
+							"tag": {
+								"item": "areadbhar",
+								"path": "byleth/logic/blue_lions/spin_attack/activate/check",
+								"damage": 3}
 						}
 					]
 				}

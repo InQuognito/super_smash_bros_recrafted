@@ -38,14 +38,14 @@
 						},
 						{
 							"function": "minecraft:reference",
-							"name": "ssbrc:init/tooltip/ability/melee"
+							"name": "ssbrc:init/item/melee"
 						},
 						{
 							"function": "minecraft:set_lore",
 							"entity": "this",
 							"lore": [
 								{
-									"translate": "ssbrc.fighter.pokemon_trainer.charizard.rock_smash.description.1",
+									"translate": "ssbrc.fighter.pokemon_trainer.rock_smash.description.1",
 									"color": "gray",
 									"bold": false,
 									"italic": false
@@ -55,7 +55,9 @@
 						},
 						{
 							"function": "minecraft:set_custom_data",
-							"tag": "{item:\"rock_smash\",damage:7}"
+							"tag": {
+								"item": "rock_smash",
+								"damage": 7}
 						}
 					]
 				}

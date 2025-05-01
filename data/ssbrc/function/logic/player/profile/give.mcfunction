@@ -10,43 +10,43 @@ scoreboard players operation games_played temp = @s stats.games_played
 data modify storage ssbrc:temp page append value '[ \
 	"", \
 	{ \
-		"translate": "ssbrc.statistics.wins", \
-		"color": "gray" \
+		translate: "ssbrc.statistics.wins", \
+		color: "gray" \
 	}, \
 	{ \
 		"score": { \
-			"name": "wins", \
-			"objective": "temp" \
+			name: "wins", \
+			objective: "temp" \
 		}, \
-		"color": "blue" \
+		color: "blue" \
 	}, \
 	"\n", \
 	{ \
-		"translate": "ssbrc.statistics.games_played", \
-		"color": "gray" \
+		translate: "ssbrc.statistics.games_played", \
+		color: "gray" \
 	}, \
 	{ \
 		"score": { \
-			"name": "games_played", \
-			"objective": "temp" \
+			name: "games_played", \
+			objective: "temp" \
 		}, \
-		"color": "blue" \
+		color: "blue" \
 	}, \
 	"\n", \
 	{ \
-		"translate": "ssbrc.statistics.win_loss", \
-		"color": "gray" \
+		translate: "ssbrc.statistics.win_loss", \
+		color: "gray" \
 	}, \
 	{ \
 		"score": { \
-			"name": "win_loss", \
-			"objective": "temp" \
+			name: "win_loss", \
+			objective: "temp" \
 		}, \
-		"color": "blue" \
+		color: "blue" \
 	}, \
 	{ \
-		"text": "%", \
-		"color": "blue" \
+		text: "%", \
+		color: "blue" \
 	} \
 ]'
 
@@ -56,100 +56,100 @@ scoreboard players operation deaths temp = @s stats.deaths
 execute unless score kill_death.decimal temp matches 10.. run data modify storage ssbrc:temp page append value '[ \
 	"", \
 	{ \
-		"translate": "ssbrc.statistics.kills", \
-		"color": "gray" \
+		translate: "ssbrc.statistics.kills", \
+		color: "gray" \
 	}, \
 	{ \
 		"score": { \
-			"name": "kills", \
-			"objective": "temp" \
+			name: "kills", \
+			objective: "temp" \
 		}, \
-		"color": "blue" \
+		color: "blue" \
 	}, \
 	"\n", \
 	{ \
-		"translate": "ssbrc.statistics.deaths", \
-		"color": "gray" \
+		translate: "ssbrc.statistics.deaths", \
+		color: "gray" \
 	}, \
 	{ \
 		"score": { \
-			"name": "deaths", \
-			"objective": "temp" \
+			name: "deaths", \
+			objective: "temp" \
 		}, \
-		"color": "blue" \
+		color: "blue" \
 	}, \
 	"\n", \
 	{ \
-		"translate": "ssbrc.statistics.kill_death", \
-		"color": "gray" \
+		translate: "ssbrc.statistics.kill_death", \
+		color: "gray" \
 	}, \
 	{ \
 		"score": { \
-			"name": "kill_death.integer", \
-			"objective": "temp" \
+			name: "kill_death.integer", \
+			objective: "temp" \
 		}, \
-		"color": "blue" \
+		color: "blue" \
 	}, \
 	{ \
-		"text": ".0", \
-		"color": "blue" \
+		text: ".0", \
+		color: "blue" \
 	}, \
 	{ \
 		"score": { \
-			"name": "kill_death.decimal", \
-			"objective": "temp" \
+			name: "kill_death.decimal", \
+			objective: "temp" \
 		}, \
-		"color": "blue" \
+		color: "blue" \
 	} \
 ]'
 
 execute if score kill_death.decimal temp matches 10.. run data modify storage ssbrc:temp page append value '[ \
 	"", \
 	{ \
-		"translate": "ssbrc.statistics.kills", \
-		"color": "gray" \
+		translate: "ssbrc.statistics.kills", \
+		color: "gray" \
 	}, \
 	{ \
 		"score": { \
-			"name": "kills", \
-			"objective": "temp" \
+			name: "kills", \
+			objective: "temp" \
 		}, \
-		"color": "blue" \
+		color: "blue" \
 	}, \
 	"\n", \
 	{ \
-		"translate": "ssbrc.statistics.deaths", \
-		"color": "gray" \
+		translate: "ssbrc.statistics.deaths", \
+		color: "gray" \
 	}, \
 	{ \
 		"score": { \
-			"name": "deaths", \
-			"objective": "temp" \
+			name: "deaths", \
+			objective: "temp" \
 		}, \
-		"color": "blue" \
+		color: "blue" \
 	}, \
 	"\n", \
 	{ \
-		"translate": "ssbrc.statistics.kill_death", \
-		"color": "gray" \
+		translate: "ssbrc.statistics.kill_death", \
+		color: "gray" \
 	}, \
 	{ \
 		"score": { \
-			"name": "kill_death.integer", \
-			"objective": "temp" \
+			name: "kill_death.integer", \
+			objective: "temp" \
 		}, \
-		"color": "blue" \
+		color: "blue" \
 	}, \
 	{ \
-		"text": ".", \
-		"color": "blue" \
+		text: ".", \
+		color: "blue" \
 	}, \
 	{ \
 		"score": { \
-			"name": "kill_death.decimal", \
-			"objective": "temp" \
+			name: "kill_death.decimal", \
+			objective: "temp" \
 		}, \
-		"color": "blue" \
+		color: "blue" \
 	} \
 ]'
 
@@ -164,7 +164,7 @@ data modify block 0 17 0 front_text.messages[0] set value '{ \
 
 data modify storage ssbrc:temp book.pages append from block 0 17 0 front_text.messages[0]
 
-data modify block 0 16 0 Items[{Slot:1b}].components."minecraft:written_book_content" set from storage ssbrc:temp book
+data modify block 0 16 0 Items[{Slot:1b}].components.minecraft:written_book_content set from storage ssbrc:temp book
 item replace entity @s inventory.13 from block 0 16 0 container.1
 
 #data remove storage ssbrc:temp book

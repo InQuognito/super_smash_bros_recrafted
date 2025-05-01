@@ -1,0 +1,10 @@
+[
+	{
+		"condition": "minecraft:reference",
+		"name": "ssbrc:cooldown/universal"
+	},
+	{
+		"condition": "minecraft:reference",
+		"name": "ssbrc:flag/sneaking"
+	}
+]

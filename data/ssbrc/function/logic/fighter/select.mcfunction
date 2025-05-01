@@ -20,8 +20,8 @@ effect clear @s minecraft:glowing
 function ssbrc:logic/pre_game/fighter_select/count/activate
 function ssbrc:logic/pre_game/fighter_select/participation/check
 
-clear @s minecraft:stick[minecraft:custom_data~{item:"skin_options"}]
-clear @s minecraft:stick[minecraft:custom_data~{item:"wiki"}]
+clear @s *[minecraft:custom_data~{item:"skin_options"}]
+clear @s *[minecraft:custom_data~{item:"wiki"}]
 
 execute unless entity @s[tag=blind_pick] run function ssbrc:logic/pre_game/fighter_select/options
 

@@ -54,6 +54,8 @@
 	},
 	{
 		"function": "minecraft:set_custom_data",
-		"tag": "{group:\"mask\"}"
+		"tag": {
+			"group": "mask"
+		}
 	}
 ]

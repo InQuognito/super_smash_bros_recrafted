@@ -1,4 +1,4 @@
-function ssbrc:logic/item/durability/reset/hand {key:"item",value:"tt33",source:"cooldown"}
+advancement revoke @s only ssbrc:utility/use_item/fighter/joker/tt33
 
 execute if score @s weapon_1.ammo matches 1.. run return run function ssbrc:fighter/joker/logic/abilities/tt33/activate
 

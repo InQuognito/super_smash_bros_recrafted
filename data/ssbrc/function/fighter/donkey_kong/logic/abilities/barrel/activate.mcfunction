@@ -1,8 +1,8 @@
 function ssbrc:logic/fighter/ability/init
 
-execute anchored eyes positioned ^ ^ ^1 summon minecraft:armor_stand run function ssbrc:fighter/donkey_kong/logic/abilities/barrel/init/projectile
+execute anchored eyes positioned ^ ^ ^1 summon minecraft:armor_stand run function ssbrc:fighter/donkey_kong/logic/abilities/barrel/init
 
-item replace entity @s weapon.mainhand with minecraft:air
+clear @s *[minecraft:custom_data~{item:"barrel"}]
 
 playsound ssbrc:fighter.donkey_kong.barrel.activate player @a
 

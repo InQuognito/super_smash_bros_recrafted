@@ -1,7 +1,7 @@
-team join gray @s[nbt={Item:{id:"minecraft:cobblestone"}}]
-team join gold @s[nbt={Item:{id:"minecraft:gold_ingot"}}]
-team join aqua @s[nbt={Item:{id:"minecraft:diamond"}}]
-team join dark_gray @s[nbt={Item:{id:"minecraft:netherite_scrap"}}]
+execute if items entity @s contents minecraft:lapis_lazuli[minecraft:custom_data~{get:"stone"}] run team join gray @s
+execute if items entity @s contents minecraft:lapis_lazuli[minecraft:custom_data~{get:"gold"}] run team join gold @s
+execute if items entity @s contents minecraft:lapis_lazuli[minecraft:custom_data~{get:"diamond"}] run team join aqua @s
+execute if items entity @s contents minecraft:lapis_lazuli[minecraft:custom_data~{get:"netherite"}] run team join dark_gray @s
 
 data merge entity @s {Glowing:1b}
 

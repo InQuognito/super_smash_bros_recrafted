@@ -1,7 +1,7 @@
 scoreboard players set blackout temp 1
 
 execute as @a[tag=alive] run function ssbrc:logic/fighter/effects/glowing/cloak
-execute as @e[type=minecraft:item,nbt={Item:{components:{"minecraft:custom_data":{steve_item:true}}}}] run data merge entity @s {Glowing:0b}
+execute as @e[type=minecraft:item] if items entity @s contents minecraft:lapis_lazuli run data merge entity @s {Glowing:0b}
 
 fill -340 8 -1165 -285 24 -1145 minecraft:light[level=0] replace minecraft:light
 fill -340 8 -1144 -285 24 -1124 minecraft:light[level=0] replace minecraft:light

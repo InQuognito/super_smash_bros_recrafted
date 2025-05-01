@@ -13,6 +13,24 @@ suf_e = '\": {'
 suf_l = '\": ['
 ent = '},'
 
+shop_pages = {
+	1: 2,
+	2: 3,
+	3: 4,
+	4: 5,
+	5: 6,
+	6: 11,
+	7: 12,
+	8: 13,
+	9: 14,
+	10: 15,
+	11: 20,
+	12: 21,
+	13: 22,
+	14: 23,
+	15: 24
+}
+
 def remove_path(path):
 	if os.path.exists(path):
 		shutil.rmtree(path)
@@ -30,14 +48,13 @@ def mc_write(file, type, indent=0, key='', value=''):
 		case 'root_e': content += qm + str(key) + suf_e
 		case 'root_s': content += ent
 		case 'item_s': content += string_case + suf_s
-		case 'last_s': content += string_case + qm
 		case 'item_n': content += qm + str(key) + sep_n + str(value) + ','
 		case 'fixed': content += key
-	file.write(content + '\\\n')
+	file.write(content + ' \\\n')
 
-def js_write(file, str):
+def js_write(file, str, n=0):
 	'''Write to file, JSON format.'''
-	file.write(str + '\n')
+	file.write(str + ('\n' * (n + 1)))
 
 def warn_builder(file):
 	js_write(file, '# This file is controlled by the build script. Changes should be made in the respective file.\n')
@@ -158,24 +175,33 @@ def safe_fall_distance(value):
 	'''Returns the exact value of the safe_fall_distance category.'''
 	return safe_fall_distance_values.get(value, value)
 
+def item_data_fallback(file, path, key):
+	mc_write(file, 'item_s', 5, key, path['default'][key])
+
 def init_item_data(file, fighter, skin, item):
 	path = ssbrc.fighter[fighter]['items'][item]
 	mc_write(file, 'root_e', 4, skin)
+	if skin == 'static_data': skin = 'default'
+	if skin in path.keys():
+		if 'name' in path[skin].keys():
+			mc_write(file, 'item_s', 5, 'name', path[skin]['name'])
+		else:
+			item_data_fallback(file, path, 'name')
 
-	if 'name' in path[skin].keys():
-		mc_write(file, 'item_s', 5, 'name', path[skin]['name'])
-		if fighter != 'steve':
-			tag = path[skin]['name'].split('.')
-			mc_write(file, 'item_s', 5, 'tag', tag[3])
-	else:
-		mc_write(file, 'item_s', 5, 'name', path['default']['name'])
-		if fighter != 'steve':
-			tag = path['default']['name'].split('.')
-			mc_write(file, 'item_s', 5, 'tag', tag[3])
+		if 'color' in path[skin].keys():
+			mc_write(file, 'item_s', 5, 'color', path[skin]['color'])
+		else:
+			item_data_fallback(file, path, 'color')
 
-	if 'color' in path[skin].keys():
-		mc_write(file, 'item_s', 5, 'color', path[skin]['color'])
+		if 'type' in path.keys():
+			type = path['type']
+			match type:
+				case 'shield':
+					if 'model' in path[skin].keys():
+						mc_write(file, 'item_s', 5, 'model', path[skin]['model'])
+					else:
+						mc_write(file, 'item_s', 5, 'model', skin)
 	else:
-		mc_write(file, 'item_s', 5, 'color', path['default']['color'])
+		mc_write(file, 'item_s', 5, 'inherit', 'default')
 
 	mc_write(file, 'root_s', 4)

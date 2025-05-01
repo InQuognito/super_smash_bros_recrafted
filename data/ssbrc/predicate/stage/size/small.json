@@ -5,77 +5,77 @@
 			"condition": "minecraft:entity_properties",
 			"entity": "this",
 			"predicate": {
-				"nbt": "{CustomName:\"flat_zone\"}"
+				"nbt": "{data:{id:\"flat_zone\"}}"
 			}
 		},
 		{
 			"condition": "minecraft:entity_properties",
 			"entity": "this",
 			"predicate": {
-				"nbt": "{CustomName:\"icicle_mountain\"}"
+				"nbt": "{data:{id:\"icicle_mountain\"}}"
 			}
 		},
 		{
 			"condition": "minecraft:entity_properties",
 			"entity": "this",
 			"predicate": {
-				"nbt": "{CustomName:\"magicant\"}"
+				"nbt": "{data:{id:\"magicant\"}}"
 			}
 		},
 		{
 			"condition": "minecraft:entity_properties",
 			"entity": "this",
 			"predicate": {
-				"nbt": "{CustomName:\"mementos\"}"
+				"nbt": "{data:{id:\"mementos\"}}"
 			}
 		},
 		{
 			"condition": "minecraft:entity_properties",
 			"entity": "this",
 			"predicate": {
-				"nbt": "{CustomName:\"miiverse\"}"
+				"nbt": "{data:{id:\"miiverse\"}}"
 			}
 		},
 		{
 			"condition": "minecraft:entity_properties",
 			"entity": "this",
 			"predicate": {
-				"nbt": "{CustomName:\"pallet_town\"}"
+				"nbt": "{data:{id:\"pallet_town\"}}"
 			}
 		},
 		{
 			"condition": "minecraft:entity_properties",
 			"entity": "this",
 			"predicate": {
-				"nbt": "{CustomName:\"palutenas_temple\"}"
+				"nbt": "{data:{id:\"palutenas_temple\"}}"
 			}
 		},
 		{
 			"condition": "minecraft:entity_properties",
 			"entity": "this",
 			"predicate": {
-				"nbt": "{CustomName:\"planet_zebes\"}"
+				"nbt": "{data:{id:\"planet_zebes\"}}"
 			}
 		},
 		{
 			"condition": "minecraft:entity_properties",
 			"entity": "this",
 			"predicate": {
-				"nbt": "{CustomName:\"pyrosphere\"}"
+				"nbt": "{data:{id:\"pyrosphere\"}}"
 			}
 		},
 		{
 			"condition": "minecraft:entity_properties",
 			"entity": "this",
 			"predicate": {
-				"nbt": "{CustomName:\"spear_pillar\"}"
+				"nbt": "{data:{id:\"spear_pillar\"}}"
 			}
 		},
 		{
 			"condition": "minecraft:entity_properties",
 			"entity": "this",
 			"predicate": {
-				"nbt": "{CustomName:\"tower_of_fate\"}"
+				"nbt": "{data:{id:\"tower_of_fate\"}}"
 			}
 		}
 	]

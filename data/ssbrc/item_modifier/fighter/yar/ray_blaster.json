@@ -9,6 +9,9 @@
 	},
 	{
 		"function": "minecraft:set_custom_data",
-		"tag": "{group:\"ray_blaster\",power_up:\"false\"}"
+		"tag": {
+			"group": "ray_blaster",
+			"power_up": "false"
+		}
 	}
 ]

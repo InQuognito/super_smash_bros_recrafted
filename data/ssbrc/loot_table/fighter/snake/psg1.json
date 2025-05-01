@@ -6,7 +6,7 @@
 			"entries": [
 				{
 					"type": "minecraft:item",
-					"name": "minecraft:carrot_on_a_stick",
+					"name": "minecraft:goat_horn",
 					"functions": [
 						{
 							"function": "minecraft:reference",
@@ -15,12 +15,19 @@
 						{
 							"function": "minecraft:set_components",
 							"components": {
+								"minecraft:use_cooldown": {
+									"seconds": 1.0,
+									"cooldown_group": "ssbrc:snake/psg1"
+								},
 								"minecraft:item_model": "ssbrc:fighter/snake/item/psg1"
 							}
 						},
 						{
 							"function": "minecraft:set_custom_data",
-							"tag": "{item:\"psg1\",group:\"snake.weapon\",cooldown:20}"
+							"tag": {
+								"item": "psg1",
+								"group": "snake.weapon"
+							}
 						}
 					]
 				}

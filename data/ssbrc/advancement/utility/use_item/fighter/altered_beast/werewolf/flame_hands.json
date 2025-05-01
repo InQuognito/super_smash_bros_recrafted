@@ -7,7 +7,7 @@
 				"player": [
 					{
 						"condition": "minecraft:reference",
-						"name": "ssbrc:universal_cooldown"
+						"name": "ssbrc:cooldown/universal"
 					},
 					{
 						"condition": "minecraft:entity_properties",
@@ -15,8 +15,7 @@
 						"predicate": {
 							"equipment": {
 								"offhand": {
-									"items": "#ssbrc:equipment",
-									"predicates": {
+													"predicates": {
 										"minecraft:custom_data": "{item:\"flame_hands\"}",
 										"minecraft:damage": {
 											"damage": 0
@@ -28,7 +27,6 @@
 					}
 				],
 				"item": {
-					"items": "#ssbrc:equipment",
 					"predicates": {
 						"minecraft:custom_data": "{item:\"flame_hands\"}",
 						"minecraft:damage": {

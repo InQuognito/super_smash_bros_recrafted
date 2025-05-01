@@ -33,6 +33,8 @@
 	},
 	{
 		"function": "minecraft:set_custom_data",
-		"tag": "{group:\"arm_cannon\"}"
+		"tag": {
+			"group": "arm_cannon"
+		}
 	}
 ]

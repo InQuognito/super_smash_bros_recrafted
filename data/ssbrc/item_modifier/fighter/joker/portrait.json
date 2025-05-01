@@ -13,6 +13,8 @@
 	},
 	{
 		"function": "minecraft:set_custom_data",
-		"tag": "{group:\"persona\"}"
+		"tag": {
+			"group": "persona"
+		}
 	}
 ]

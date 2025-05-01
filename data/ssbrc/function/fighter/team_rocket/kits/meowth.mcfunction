@@ -1,6 +1,6 @@
 function ssbrc:fighter/team_rocket/kits/update {form:"meowth",color:"yellow"}
 
-loot replace entity @s hotbar.0 loot ssbrc:fighter/team_rocket/meowth/scratch
+function ssbrc:logic/item/init/slot {item:"scratch",slot:"hotbar.0",class:"weapon",type:"default"}
 
 loot replace entity @s hotbar.1 loot ssbrc:fighter/team_rocket/meowth/fury_swipes
 
@@ -11,25 +11,25 @@ attribute @s minecraft:safe_fall_distance base set 999.0
 
 item modify entity @s armor.chest [ \
 	{ \
-		"function": "minecraft:reference", \
-		"name": "ssbrc:init/tooltip/separator" \
+		function: "minecraft:reference", \
+		name: "ssbrc:init/tooltip/separator" \
 	}, \
 	{ \
-		"function": "minecraft:set_lore", \
-		"entity": "this", \
-		"lore": [ \
+		function: "minecraft:set_lore", \
+		entity: this, \
+		lore: [ \
 			{ \
-				"translate": "ssbrc.fighter.team_rocket.meowth.grace", \
-				"color": "yellow", \
-				"italic": false, \
+				translate: "ssbrc.fighter.team_rocket.meowth.grace", \
+				color: "yellow", \
+				italic: false, \
 				"underlined":true \
 			}, \
 			{ \
-				"translate": "ssbrc.fighter.team_rocket.meowth.grace.description.1", \
-				"color": "gray", \
-				"italic": false \
+				translate: "ssbrc.fighter.team_rocket.meowth.grace.description.1", \
+				color: "gray", \
+				italic: false \
 			} \
 		], \
-		"mode": "append" \
+		mode: append, \
 	} \
 ]

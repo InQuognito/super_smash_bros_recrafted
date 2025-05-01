@@ -34,7 +34,10 @@
 						},
 						{
 							"function": "minecraft:set_custom_data",
-							"tag": "{item:\"zelda.boomerang\",cooldown:10}"
+							"tag": {
+								"item": "zelda.boomerang",
+								"cooldown": 10
+							}
 						}
 					]
 				}

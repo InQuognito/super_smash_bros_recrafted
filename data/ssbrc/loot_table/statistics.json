@@ -184,13 +184,14 @@
 						{
 							"function": "minecraft:set_components",
 							"components": {
-								"minecraft:item_model": "ssbrc:ui/profile",
-								"minecraft:enchantment_glint_override": false
+								"minecraft:item_model": "ssbrc:ui/profile"
 							}
 						},
 						{
 							"function": "minecraft:set_custom_data",
-							"tag": "{item:\"statistics\"}"
+							"tag": {
+								"item": "statistics"
+							}
 						}
 					]
 				}

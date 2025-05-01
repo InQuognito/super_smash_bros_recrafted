@@ -25,6 +25,9 @@
 	},
 	{
 		"function": "minecraft:set_custom_data",
-		"tag": "{charged:\"false\",damage:3}"
+		"tag": {
+			"charged": "false",
+			"damage": 3
+		}
 	}
 ]

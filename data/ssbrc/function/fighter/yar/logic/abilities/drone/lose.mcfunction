@@ -1,3 +1,3 @@
-clear @s minecraft:stick[minecraft:custom_data~{item:"drone"}]
+function ssbrc:logic/item/durability/reset/item {item:"drone",source:"alt_cooldown"}
 
-function ssbrc:logic/item/cooldown/set/const {type:"2",value:"300"}
+function ssbrc:logic/item/modify {search_key:"item",search_value:"drone",path:"ssbrc:fighter/yar/drone/activate"}

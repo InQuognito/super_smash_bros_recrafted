@@ -1,0 +1,40 @@
+{
+	"parent": "ssbrc:utility/use_item/root",
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:using_item",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:reference",
+						"name": "ssbrc:cooldown/universal"
+					},
+					{
+						"condition": "minecraft:reference",
+						"name": "ssbrc:flag/sneaking"
+					},
+					{
+						"condition": "minecraft:inverted",
+						"term": {
+							"condition": "minecraft:entity_properties",
+							"entity": "this",
+							"predicate": {
+								"nbt": "{Tags:[\"no_spin\"]}"
+							}
+						}
+					}
+				],
+				"item": {
+					"predicates": {
+						"minecraft:custom_data": {
+							"item": "master_sword"
+						}
+					}
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "ssbrc:fighter/link/logic/abilities/sword_spin/activate"
+	}
+}

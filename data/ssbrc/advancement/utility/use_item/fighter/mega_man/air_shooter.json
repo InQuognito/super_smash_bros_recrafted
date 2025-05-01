@@ -7,7 +7,7 @@
 				"player": [
 					{
 						"condition": "minecraft:reference",
-						"name": "ssbrc:universal_cooldown"
+						"name": "ssbrc:cooldown/universal"
 					},
 					{
 						"condition": "minecraft:entity_scores",
@@ -20,11 +20,9 @@
 					}
 				],
 				"item": {
-					"items": "#ssbrc:equipment",
 					"predicates": {
-						"minecraft:custom_data": "{item:\"air_shooter\"}",
-						"minecraft:damage": {
-							"damage": 0
+						"minecraft:custom_data": {
+							"item": "air_shooter"
 						}
 					}
 				}

@@ -1,5 +1,7 @@
 execute if data storage ssbrc:temp game.stage{name:"acropolis_graveyard"} run return 1
 
+execute if data storage ssbrc:temp game.stage{name:"draculas_castle"} run return 1
+
 execute if data storage ssbrc:temp game.stage{name:"dream_land"} run return 1
 
 execute if data storage ssbrc:temp game.stage{name:"flat_zone"} run return 1

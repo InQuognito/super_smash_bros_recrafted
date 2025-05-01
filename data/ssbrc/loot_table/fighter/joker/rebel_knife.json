@@ -10,7 +10,7 @@
 					"functions": [
 						{
 							"function": "minecraft:reference",
-							"name": "ssbrc:init/tooltip/ability/melee"
+							"name": "ssbrc:init/item/melee"
 						},
 						{
 							"function": "minecraft:reference",
@@ -18,7 +18,9 @@
 						},
 						{
 							"function": "minecraft:set_custom_data",
-							"tag": "{item:\"rebel_knife\"}"
+							"tag": {
+								"item": "rebel_knife"
+							}
 						}
 					]
 				}

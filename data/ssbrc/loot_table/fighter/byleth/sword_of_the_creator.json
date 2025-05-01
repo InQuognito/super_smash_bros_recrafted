@@ -20,11 +20,12 @@
 						},
 						{
 							"function": "minecraft:reference",
-							"name": "ssbrc:init/tooltip/ability/melee"
+							"name": "ssbrc:init/item/melee"
 						},
 						{
 							"function": "minecraft:set_components",
 							"components": {
+								"minecraft:max_stack_size": 1,
 								"minecraft:weapon": {
 									"item_damage_per_attack": 1
 								},
@@ -54,7 +55,9 @@
 						},
 						{
 							"function": "minecraft:set_custom_data",
-							"tag": "{item:\"sword_of_the_creator\",damage:4}"
+							"tag": {
+								"item": "sword_of_the_creator",
+								"damage": 4}
 						}
 					]
 				}

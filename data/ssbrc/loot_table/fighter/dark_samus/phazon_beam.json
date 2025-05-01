@@ -108,7 +108,12 @@
 						},
 						{
 							"function": "minecraft:set_custom_data",
-							"tag": "{item:\"phazon_beam\",path:\"dark_samus/logic/abilities/phazon_beam/check\",damage:1.5,cooldown:10}"
+							"tag": {
+								"item": "phazon_beam",
+								"path": "dark_samus/logic/abilities/phazon_beam/check",
+								"damage": 1.5,
+								"cooldown": 10
+							}
 						}
 					]
 				}

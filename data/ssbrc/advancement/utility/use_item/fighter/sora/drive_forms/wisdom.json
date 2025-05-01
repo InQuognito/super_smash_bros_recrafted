@@ -7,13 +7,15 @@
 				"player": [
 					{
 						"condition": "minecraft:reference",
-						"name": "ssbrc:universal_cooldown"
+						"name": "ssbrc:cooldown/universal"
 					}
 				],
 				"item": {
-					"items": "#ssbrc:equipment",
 					"predicates": {
-						"minecraft:custom_data": "{form:\"wisdom\"}"
+						"minecraft:custom_data": {
+							"group": "drive_form",
+							"form": "wisdom"
+						}
 					}
 				}
 			}

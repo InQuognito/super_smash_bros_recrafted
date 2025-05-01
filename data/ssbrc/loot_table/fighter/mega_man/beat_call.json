@@ -6,7 +6,7 @@
 			"entries": [
 				{
 					"type": "minecraft:item",
-					"name": "minecraft:stick",
+					"name": "minecraft:goat_horn",
 					"functions": [
 						{
 							"function": "minecraft:reference",
@@ -14,7 +14,7 @@
 						},
 						{
 							"function": "minecraft:reference",
-							"name": "ssbrc:init/ability/default"
+							"name": "ssbrc:init/ability/instrument/default"
 						},
 						{
 							"function": "minecraft:set_lore",
@@ -52,12 +52,20 @@
 						{
 							"function": "minecraft:set_components",
 							"components": {
+								"minecraft:use_cooldown": {
+									"seconds": 0.25,
+									"cooldown_group": "ssbrc:mega_man/beat_call"
+								},
 								"minecraft:item_model": "ssbrc:fighter/mega_man/item/beat_call"
 							}
 						},
 						{
 							"function": "minecraft:set_custom_data",
-							"tag": "{item:\"beat_call\",group:\"mega_buster\",command:\"forward\",cooldown:5}"
+							"tag": {
+								"item": "beat_call",
+								"group": "mega_buster",
+								"command": "forward"
+							}
 						}
 					]
 				}

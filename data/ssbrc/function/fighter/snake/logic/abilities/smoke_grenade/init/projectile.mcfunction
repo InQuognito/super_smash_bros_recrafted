@@ -1,7 +1,7 @@
 tag @s add smoke_grenade
-$tag @s add $(skin)
 
-function ssbrc:fighter/snake/logic/abilities/smoke_grenade/init/model
+item replace entity @s armor.head with minecraft:stick[minecraft:item_model="ssbrc:fighter/snake/item/smoke_grenade"]
+$function ssbrc:logic/init/model {skin:"$(skin)"}
 
 data merge entity @s {Small:1b}
 

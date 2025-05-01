@@ -1,5 +1,7 @@
-execute unless data storage ssbrc:temp player.temp_data{form:"wisdom"} run scoreboard players operation sora.spell.cost temp = sora.firaga.cost const
-execute if data storage ssbrc:temp player.temp_data{form:"wisdom"} run scoreboard players operation sora.spell.cost temp = sora.firaza.cost const
+advancement revoke @s only ssbrc:utility/use_item/fighter/sora/spell/fire
 
-execute unless data storage ssbrc:temp player.temp_data{form:"wisdom"} if score @s magic >= sora.spell.cost temp run function ssbrc:fighter/sora/logic/abilities/fire/firaga/activate
-execute if data storage ssbrc:temp player.temp_data{form:"wisdom"} if score @s magic >= sora.spell.cost temp run function ssbrc:fighter/sora/logic/abilities/fire/firaza/activate
+function ssbrc:logic/player/data/temp/copy/check
+
+execute if data storage ssbrc:temp player.temp_data{form:"wisdom"} run return run function ssbrc:fighter/sora/logic/abilities/fire/firaza/check
+
+function ssbrc:fighter/sora/logic/abilities/fire/firaga/check

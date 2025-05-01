@@ -36,7 +36,7 @@
 						},
 						{
 							"function": "minecraft:reference",
-							"name": "ssbrc:init/tooltip/ability/melee"
+							"name": "ssbrc:init/item/melee"
 						},
 						{
 							"function": "minecraft:set_lore",
@@ -53,7 +53,9 @@
 						},
 						{
 							"function": "minecraft:set_custom_data",
-							"tag": "{item:\"hammer\",damage:6}"
+							"tag": {
+								"item": "hammer",
+								"damage": 6}
 						}
 					]
 				}

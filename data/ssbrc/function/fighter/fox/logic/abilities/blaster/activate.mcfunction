@@ -1,6 +1,7 @@
-execute anchored eyes positioned ^ ^ ^1 summon minecraft:marker run function ssbrc:fighter/fox/logic/abilities/blaster/init
+function ssbrc:logic/fighter/ability/init
 
-function ssbrc:logic/item/durability/reset/hand {key:"item",value:"fox.blaster",source:"cooldown"}
-function ssbrc:logic/item/durability/reset/item {item:"krazoan_staff"}
+execute anchored eyes positioned ^ ^ ^0.5 summon minecraft:marker run function ssbrc:fighter/fox/logic/abilities/blaster/init
 
 playsound ssbrc:fighter.fox.blaster.activate player @a
+
+function ssbrc:logic/fighter/ability/deinit

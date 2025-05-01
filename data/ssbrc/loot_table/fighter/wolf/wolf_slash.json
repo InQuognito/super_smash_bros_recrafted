@@ -10,7 +10,7 @@
 					"functions": [
 						{
 							"function": "minecraft:reference",
-							"name": "ssbrc:init/tooltip/ability/hybrid"
+							"name": "ssbrc:init/item/hybrid"
 						},
 						{
 							"function": "minecraft:reference",
@@ -76,7 +76,11 @@
 						},
 						{
 							"function": "minecraft:set_custom_data",
-							"tag": "{item:\"wolf_slash\",damage:5,cooldown:80}"
+							"tag": {
+								"item": "wolf_slash",
+								"damage": 5,
+								"cooldown": 80
+							}
 						}
 					]
 				}

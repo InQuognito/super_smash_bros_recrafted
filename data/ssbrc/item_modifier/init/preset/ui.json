@@ -5,7 +5,7 @@
 	},
 	{
 		"function": "minecraft:reference",
-		"name": "ssbrc:init/ability/default"
+		"name": "ssbrc:init/ability/instrument/default"
 	},
 	{
 		"function": "minecraft:reference",
@@ -17,6 +17,7 @@
 			"minecraft:tooltip_display": {
 				"hidden_components": [
 					"minecraft:attribute_modifiers",
+					"minecraft:instrument",
 					"minecraft:written_book_content"
 				]
 			}

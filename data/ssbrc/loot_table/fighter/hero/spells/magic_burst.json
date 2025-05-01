@@ -65,7 +65,10 @@
 						},
 						{
 							"function": "minecraft:set_custom_data",
-							"tag": "{item:\"magic_burst\",group:\"hero.spell\"}"
+							"tag": {
+								"item": "magic_burst",
+								"group": "hero.spell"
+							}
 						}
 					]
 				}

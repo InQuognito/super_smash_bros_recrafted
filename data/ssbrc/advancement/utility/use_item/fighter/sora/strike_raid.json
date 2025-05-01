@@ -1,0 +1,48 @@
+{
+	"parent": "ssbrc:utility/use_item/root",
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:using_item",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:reference",
+						"name": "ssbrc:cooldown/universal"
+					},
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"equipment": {
+								"mainhand": {
+									"predicates": {
+										"minecraft:custom_data": {
+											"item": "keyblade"
+										}
+									}
+								},
+								"offhand": {
+									"predicates": {
+										"minecraft:custom_data": {
+											"item": "keyblade"
+										}
+									}
+								}
+							}
+						}
+					}
+				],
+				"item": {
+					"predicates": {
+						"minecraft:custom_data": {
+							"item": "keyblade"
+						}
+					}
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "ssbrc:fighter/sora/logic/abilities/strike_raid/activate"
+	}
+}

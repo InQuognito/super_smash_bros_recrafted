@@ -53,11 +53,18 @@
 					"operation": "add_multiplied_base",
 					"slot": "mainhand"
 				}
-			]
+			],
+			"minecraft:use_cooldown": {
+				"seconds": 0.5,
+				"cooldown_group": "ssbrc:sora/keyblade"
+			}
 		}
 	},
 	{
 		"function": "minecraft:set_custom_data",
-		"tag": "{spell:\"strike_raid\",damage:7}"
+		"tag": {
+			"spell": "strike_raid",
+			"damage": 7
+		}
 	}
 ]

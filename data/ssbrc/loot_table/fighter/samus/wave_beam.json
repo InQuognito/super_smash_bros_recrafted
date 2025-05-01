@@ -96,7 +96,11 @@
 						},
 						{
 							"function": "minecraft:set_custom_data",
-							"tag": "{item:\"wave_beam\",cooldown:15,alt_cooldown:20}"
+							"tag": {
+								"item": "wave_beam",
+								"cooldown": 15,
+								"alt_cooldown": 20
+							}
 						}
 					]
 				}

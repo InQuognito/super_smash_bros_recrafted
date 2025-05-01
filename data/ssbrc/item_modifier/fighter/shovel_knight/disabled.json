@@ -14,6 +14,8 @@
 	},
 	{
 		"function": "minecraft:set_custom_data",
-		"tag": "{disabled:\"true\"}"
+		"tag": {
+			"disabled": "true"
+		}
 	}
 ]

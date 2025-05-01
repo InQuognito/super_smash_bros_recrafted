@@ -1,0 +1,24 @@
+[
+	{
+		"function": "minecraft:reference",
+		"name": "ssbrc:init/tooltip/separator"
+	},
+	{
+		"function": "minecraft:set_lore",
+		"entity": "this",
+		"lore": [
+			{
+				"translate": "ssbrc.ability.defensive",
+				"color": "white",
+				"bold": false,
+				"italic": false,
+				"underlined": true
+			}
+		],
+		"mode": "append"
+	},
+	{
+		"function": "minecraft:reference",
+		"name": "ssbrc:init/ability/stats"
+	}
+]

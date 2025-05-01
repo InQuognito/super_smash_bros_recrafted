@@ -1,2 +1,1 @@
-tag @s remove recall
-tag @s add stop
+data modify entity @s data.command set value "stop"

@@ -75,7 +75,11 @@
 						},
 						{
 							"function": "minecraft:set_custom_data",
-							"tag": "{item:\"throwing_anchor\",disabled:\"false\",cooldown:10}"
+							"tag": {
+								"item": "throwing_anchor",
+								"disabled": "false",
+								"cooldown": 10
+							}
 						}
 					]
 				}

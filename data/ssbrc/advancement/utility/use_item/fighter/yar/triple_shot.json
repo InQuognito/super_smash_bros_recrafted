@@ -7,15 +7,14 @@
 				"player": [
 					{
 						"condition": "minecraft:reference",
-						"name": "ssbrc:universal_cooldown"
+						"name": "ssbrc:cooldown/universal"
 					}
 				],
 				"item": {
-					"items": "#ssbrc:equipment",
 					"predicates": {
-						"minecraft:custom_data": "{item:\"triple_shot\"}",
-						"minecraft:damage": {
-							"damage": 0
+						"minecraft:custom_data": {
+							"item": "triple_shot",
+							"power_up": "false"
 						}
 					}
 				}

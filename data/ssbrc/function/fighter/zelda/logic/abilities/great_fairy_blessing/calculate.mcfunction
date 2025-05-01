@@ -1,5 +1,5 @@
 scoreboard players operation great_fairy_blessing.count temp = @s charge.2
-execute if items entity @s container.* minecraft:stick[minecraft:custom_data~{item:"ring_of_charisma"}] run scoreboard players operation great_fairy_blessing.count temp /= 2 const
+execute if items entity @s container.* *[minecraft:custom_data~{item:"ring_of_charisma"}] run scoreboard players operation great_fairy_blessing.count temp /= 2 const
 scoreboard players operation great_fairy_blessing.count temp *= 5 const
 
 scoreboard players operation great_fairy_blessing.cost temp = zelda.great_fairy_blessing const

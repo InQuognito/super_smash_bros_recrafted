@@ -42,7 +42,7 @@
 						},
 						{
 							"function": "minecraft:reference",
-							"name": "ssbrc:init/tooltip/ability/melee"
+							"name": "ssbrc:init/item/melee"
 						},
 						{
 							"function": "minecraft:set_lore",
@@ -59,7 +59,9 @@
 						},
 						{
 							"function": "minecraft:set_custom_data",
-							"tag": "{item:\"katana\",damage:5}"
+							"tag": {
+								"item": "katana",
+								"damage": 5}
 						}
 					]
 				}

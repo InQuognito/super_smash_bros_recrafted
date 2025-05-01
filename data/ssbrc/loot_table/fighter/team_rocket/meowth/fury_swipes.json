@@ -20,7 +20,7 @@
 						},
 						{
 							"function": "minecraft:reference",
-							"name": "ssbrc:init/tooltip/ability/melee"
+							"name": "ssbrc:init/item/melee"
 						},
 						{
 							"function": "minecraft:reference",
@@ -65,7 +65,10 @@
 						},
 						{
 							"function": "minecraft:set_custom_data",
-							"tag": "{item:\"fury_swipes\",cooldown:40}"
+							"tag": {
+								"item": "fury_swipes",
+								"cooldown": 40
+							}
 						}
 					]
 				}

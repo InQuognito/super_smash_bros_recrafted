@@ -5,7 +5,7 @@
 	},
 	{
 		"function": "minecraft:reference",
-		"name": "ssbrc:init/ability/cooldown"
+		"name": "ssbrc:init/ability/instrument/default"
 	},
 	{
 		"function": "minecraft:set_lore",

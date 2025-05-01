@@ -1,0 +1,14 @@
+{
+	"function": "minecraft:set_components",
+	"components": {
+		"minecraft:max_stack_size": 1,
+		"minecraft:instrument": {
+			"use_duration": 0.05,
+			"sound_event": {
+				"sound_id": "ssbrc:empty"
+			},
+			"range": 1,
+			"description": ""
+		}
+	}
+}

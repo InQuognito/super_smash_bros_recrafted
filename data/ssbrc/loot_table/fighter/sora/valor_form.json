@@ -103,7 +103,10 @@
 						},
 						{
 							"function": "minecraft:set_custom_data",
-							"tag": "{group:\"drive_form\",form:\"valor\"}"
+							"tag": {
+								"group": "drive_form",
+								"form": "valor"
+							}
 						}
 					]
 				}

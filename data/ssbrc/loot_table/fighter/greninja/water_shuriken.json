@@ -61,7 +61,10 @@
 						},
 						{
 							"function": "minecraft:set_custom_data",
-							"tag": "{item:\"water_shuriken\",cooldown:3}"
+							"tag": {
+								"item": "water_shuriken",
+								"cooldown": 3
+							}
 						}
 					]
 				}

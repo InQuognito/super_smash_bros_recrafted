@@ -5,7 +5,7 @@ execute if data storage ssbrc:temp player.temp_data{fighter:"ganondorf"} run fun
 execute if data storage ssbrc:temp player.temp_data{fighter:"hero"} run function ssbrc:fighter/hero/logic/get_kill
 execute if data storage ssbrc:temp player.temp_data{fighter:"pikachu"} run function ssbrc:fighter/pikachu/logic/get_kill
 execute if data storage ssbrc:temp player.temp_data{fighter:"joker"} unless score @s duration.1 matches 1.. run function ssbrc:fighter/joker/logic/masks/get
-execute if data storage ssbrc:temp player.temp_data{fighter:"snake"} if items entity @s weapon.* minecraft:stick[minecraft:custom_data~{item:"cqc_knife"}] unless score players.ingame temp matches 1 run function ssbrc:fighter/snake/logic/get_kill
+execute if data storage ssbrc:temp player.temp_data{fighter:"snake"} if items entity @s weapon.* *[minecraft:custom_data~{item:"cqc_knife"}] unless score players.ingame temp matches 1 run function ssbrc:fighter/snake/logic/get_kill
 execute if data storage ssbrc:temp player.temp_data{fighter:"sora"} run function ssbrc:fighter/sora/logic/get_kill
 execute if data storage ssbrc:temp player.temp_data{fighter:"yar"} run function ssbrc:fighter/yar/logic/get_kill
 execute if data storage ssbrc:temp player.temp_data{fighter:"zelda"} run function ssbrc:fighter/zelda/logic/get_kill/player

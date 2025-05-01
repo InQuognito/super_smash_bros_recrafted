@@ -6,7 +6,7 @@
 			"entries": [
 				{
 					"type": "minecraft:item",
-					"name": "minecraft:stick",
+					"name": "minecraft:goat_horn",
 					"functions": [
 						{
 							"function": "minecraft:set_name",
@@ -52,12 +52,18 @@
 						{
 							"function": "minecraft:set_components",
 							"components": {
+								"minecraft:use_cooldown": {
+									"seconds": 0.5,
+									"cooldown_group": "ssbrc:ui"
+								},
 								"minecraft:item_model": "ssbrc:ui/skin_options"
 							}
 						},
 						{
 							"function": "minecraft:set_custom_data",
-							"tag": "{item:\"skin_options\"}"
+							"tag": {
+								"item": "skin_options"
+							}
 						}
 					]
 				}

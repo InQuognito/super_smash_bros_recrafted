@@ -23,10 +23,13 @@
 	},
 	{
 		"function": "minecraft:reference",
-		"name": "ssbrc:init/tooltip/ability/melee"
+		"name": "ssbrc:init/item/melee"
 	},
 	{
 		"function": "minecraft:set_custom_data",
-		"tag": "{enchanted:\"true\",enchantment:\"glass\"}"
+		"tag": {
+			"enchanted": "true",
+			"enchantment": "glass"
+		}
 	}
 ]

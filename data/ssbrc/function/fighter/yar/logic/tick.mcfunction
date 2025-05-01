@@ -1,12 +1,10 @@
 # Ray Blaster
-function ssbrc:fighter/yar/logic/abilities/ray_blaster/cooldown
+function ssbrc:logic/item/cooldown/decrease {item:"gatling_gun"}
 
 scoreboard players remove @s[scores={charge.2=1..}] charge.2 3
 
 # Drone
-execute if items entity @s[scores={cooldown.3=..0}] container.* minecraft:stick[minecraft:custom_data~{item:"drone",command:"activate"}] if score @s yar.drone.health < yar.drone.drone.health.cushion const run function ssbrc:fighter/yar/logic/abilities/drone/repair
-
-execute if score @s cooldown.2 matches 1 run function ssbrc:fighter/yar/logic/abilities/drone/regain
+execute if items entity @s[scores={cooldown.3=..0}] container.* *[minecraft:custom_data~{item:"drone",command:"activate"}] if score @s yar.drone.health < yar.drone.drone.health.cushion const run function ssbrc:fighter/yar/logic/abilities/drone/repair
 
 function ssbrc:logic/item/cooldown/decrease {item:"drone"}
 

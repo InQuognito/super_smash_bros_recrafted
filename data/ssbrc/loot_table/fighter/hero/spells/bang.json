@@ -59,7 +59,11 @@
 						},
 						{
 							"function": "minecraft:set_custom_data",
-							"tag": "{item:\"bang\",group:\"hero.spell\",cooldown:10}"
+							"tag": {
+								"item": "bang",
+								"group": "hero.spell",
+								"cooldown": 10
+							}
 						}
 					]
 				}

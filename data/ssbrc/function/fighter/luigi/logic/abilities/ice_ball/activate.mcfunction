@@ -1,5 +1,7 @@
-execute anchored eyes positioned ^ ^ ^1 summon minecraft:marker run function ssbrc:fighter/luigi/logic/abilities/ice_ball/init
+function ssbrc:logic/fighter/ability/init
 
-function ssbrc:logic/item/durability/reset/hand {key:"item",value:"ice_ball",source:"cooldown"}
+execute anchored eyes positioned ^ ^ ^0.5 summon minecraft:marker run function ssbrc:fighter/luigi/logic/abilities/ice_ball/init
 
 playsound ssbrc:fighter.luigi.ice_ball.activate player @a
+
+function ssbrc:logic/fighter/ability/deinit

@@ -49,7 +49,7 @@
 						},
 						{
 							"function": "minecraft:set_custom_data",
-							"tag": "{damage:6.5}"
+							"tag": {"damage": 6.5}
 						}
 					]
 				}

@@ -20,24 +20,24 @@ execute if data storage ssbrc:temp game.stage{name:"tower_of_fate"} if score haz
 
 execute positioned -528.5 6.0 -1939.5 run data modify entity @n[type=minecraft:text_display,tag=lobby.timer,distance=..0.01] text set value [ \
 	{ \
-		"translate": "ssbrc.lobby.time_remaining", \
-		"color": "gold" \
+		translate: "ssbrc.lobby.time_remaining", \
+		color: "gold" \
 	}, \
 	{ \
 		"score": { \
-			"name": "game_time", \
-			"objective": "timer" \
+			name: "game_time", \
+			objective: "timer" \
 		}, \
-		"color": "yellow" \
+		color: "yellow" \
 	}, \
 	{ \
-		"text": "s", \
-		"color": "gold" \
+		text: "s", \
+		color: "gold" \
 	} \
 ]
 
 # Ryu
-execute if score game_time timer matches 60 as @a[tag=!ability_used] if data storage ssbrc:temp player.temp_data{fighter:"ryu"} unless items entity @s container.* minecraft:stick[minecraft:custom_data~{item:"satsui_no_hado_rage"}] run loot replace entity @s hotbar.1 loot ssbrc:fighter/ryu/satsui_no_hado_rage
+execute if score game_time timer matches 60 as @a[predicate=ssbrc:ingame,tag=!ability_used] unless items entity @s container.* *[minecraft:custom_data~{item:"satsui_no_hado_rage"}] run function ssbrc:logic/game/timer/fighter/ryu
 
 # Countdown
 scoreboard players remove game_time timer 1

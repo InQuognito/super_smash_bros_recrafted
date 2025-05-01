@@ -1,5 +1,5 @@
 tag @s add sword_beam
-execute if score temp charge.output matches 81.. run tag @s add mini
+execute if score charge temp matches 1.. run tag @s add mini
 
 function ssbrc:logic/init/projectile
 

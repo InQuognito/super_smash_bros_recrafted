@@ -43,7 +43,9 @@
 						},
 						{
 							"function": "minecraft:set_custom_data",
-							"tag": "{item:\"power_pellet\"}"
+							"tag": {
+								"item": "power_pellet"
+							}
 						}
 					]
 				}

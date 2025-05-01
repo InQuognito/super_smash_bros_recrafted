@@ -6,7 +6,7 @@
 			"entries": [
 				{
 					"type": "minecraft:item",
-					"name": "minecraft:stick",
+					"name": "minecraft:goat_horn",
 					"functions": [
 						{
 							"function": "minecraft:reference",
@@ -14,7 +14,7 @@
 						},
 						{
 							"function": "minecraft:reference",
-							"name": "ssbrc:init/ability/default"
+							"name": "ssbrc:init/ability/instrument/default"
 						},
 						{
 							"function": "minecraft:set_lore",
@@ -52,12 +52,19 @@
 						{
 							"function": "minecraft:set_components",
 							"components": {
-								"minecraft:item_model": "ssbrc:fighter/mega_man/item/hyper_bomb"
+								"minecraft:use_cooldown": {
+									"seconds": 2.0,
+									"cooldown_group": "ssbrc:mega_man/hyper_bomb"
+								},
+								"minecraft:item_model": "ssbrc:common/bomb/black"
 							}
 						},
 						{
 							"function": "minecraft:set_custom_data",
-							"tag": "{item:\"hyper_bomb\",group:\"mega_buster\",cooldown:40}"
+							"tag": {
+								"item": "hyper_bomb",
+								"group": "mega_buster"
+							}
 						}
 					]
 				}

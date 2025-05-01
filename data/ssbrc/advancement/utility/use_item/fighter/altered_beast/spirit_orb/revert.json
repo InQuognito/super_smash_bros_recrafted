@@ -7,7 +7,7 @@
 				"player": [
 					{
 						"condition": "minecraft:reference",
-						"name": "ssbrc:universal_cooldown"
+						"name": "ssbrc:cooldown/universal"
 					},
 					{
 						"condition": "minecraft:entity_properties",
@@ -18,7 +18,6 @@
 					}
 				],
 				"item": {
-					"items": "#ssbrc:equipment",
 					"predicates": {
 						"minecraft:custom_data": "{item:\"spirit_orb\"}",
 						"minecraft:damage": {

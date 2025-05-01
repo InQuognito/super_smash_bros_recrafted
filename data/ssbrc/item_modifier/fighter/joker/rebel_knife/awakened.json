@@ -22,6 +22,9 @@
 	},
 	{
 		"function": "minecraft:set_custom_data",
-		"tag": "{awakened:\"true\",damage:7}"
+		"tag": {
+			"awakened": "true",
+			"damage": 7
+		}
 	}
 ]

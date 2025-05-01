@@ -8,7 +8,9 @@
 		"name": "ssbrc:init/preset/magic"
 	},
 	{
-		"function": "minecraft:reference",
-		"name": "ssbrc:init/unbreakable"
+		"function": "minecraft:set_components",
+		"components": {
+			"minecraft:unbreakable": {}
+		}
 	}
 ]

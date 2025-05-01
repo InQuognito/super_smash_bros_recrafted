@@ -1,8 +1,6 @@
 function ssbrc:logic/pre_game/fighter_select/init/common
 
-data modify entity @s CustomName set value '"spectate"'
-
-tag @s add standard_highlight
+data modify entity @s data.interaction set value {id:"spectate",type:"default",action:"function ssbrc:logic/game/player/spectate/check"}
 
 item replace entity @s contents with minecraft:stick[minecraft:item_model="ssbrc:fighter/spectator"]
 

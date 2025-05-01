@@ -6,7 +6,7 @@
 			"entries": [
 				{
 					"type": "minecraft:item",
-					"name": "minecraft:carrot_on_a_stick",
+					"name": "minecraft:goat_horn",
 					"functions": [
 						{
 							"function": "minecraft:reference",
@@ -15,12 +15,19 @@
 						{
 							"function": "minecraft:set_components",
 							"components": {
+								"minecraft:use_cooldown": {
+									"seconds": 0.2,
+									"cooldown_group": "ssbrc:snake/famas"
+								},
 								"minecraft:item_model": "ssbrc:fighter/snake/item/famas"
 							}
 						},
 						{
 							"function": "minecraft:set_custom_data",
-							"tag": "{item:\"famas\",group:\"snake.weapon\",cooldown:4}"
+							"tag": {
+								"item": "famas",
+								"group": "snake.weapon"
+							}
 						}
 					]
 				}

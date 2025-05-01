@@ -44,8 +44,6 @@ execute if score @s flag.damage_taken matches 1.. run function ssbrc:logic/fight
 
 execute if score @s fall_distance matches 1.. run function ssbrc:logic/fighter/shockwave/check
 
-scoreboard players reset in_electric_terrain temp
-
 # Combo
 execute unless score @s combo.duration < combo.threshold const run scoreboard players remove @s combo.duration 1
 execute if score @s combo.duration < combo.threshold const run function ssbrc:logic/fighter/combo/expire
@@ -73,7 +71,6 @@ scoreboard players remove @s[scores={player_motion.timer=1..}] player_motion.tim
 execute if score @s player_motion.timer matches 1 run function ssbrc:logic/fighter/motion/reset
 
 execute if score @s immobile matches 1.. run function ssbrc:logic/fighter/effects/mobility/tick
-execute if entity @s[tag=immobile.pivot.queue,tag=!immobile.pivot,predicate=!ssbrc:flag/on_ground] run function ssbrc:logic/fighter/effects/mobility/pivot/activate
 
 scoreboard players add @s[tag=armor_break] armor_break 1
 execute if score @s armor_break matches 60.. run function ssbrc:fighter/pokemon_trainer/logic/charizard/rock_smash/deactivate
