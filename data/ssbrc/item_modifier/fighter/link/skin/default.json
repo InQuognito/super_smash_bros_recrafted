@@ -5,7 +5,7 @@
 		"target": "item_name",
 		"name": {
 			"translate": "ssbrc.fighter.link",
-			"color": "green",
+			"color": "blue",
 			"bold": true
 		}
 	},

@@ -1055,7 +1055,7 @@ data modify storage ssbrc:data fighter set value { \
 		"page": 1, \
 		"miiverse_posts": 2, \
 		"default_form": "default", \
-		"color": "green", \
+		"color": "blue", \
 		"alignment": "hero", \
 		"skin_count": 5, \
 		"skin": { \
