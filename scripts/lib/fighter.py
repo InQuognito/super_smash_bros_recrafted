@@ -168,8 +168,9 @@ def shop_entry(fighter, path):
 		js_write(file, 'function ssbrc:logic/ui/buttons/fighter_placeholder/get {slot:"18"}', 1)
 
 		for skin in ssbrc.fighter[fighter]['skin']:
-			js_write(file, 'function ssbrc:shop/buttons/skin/get {skin:"' + skin + '",slot:"' + str(shop_pages[n]) + '",price:"price.skin.common"}')
-			n += 1
+			if skin != 'shiny':
+				js_write(file, 'function ssbrc:shop/buttons/skin/get {skin:"' + skin + '",slot:"' + str(shop_pages[n]) + '",price:"price.skin.common"}')
+				n += 1
 		js_write(file, '')
 
 		js_write(file, 'function ssbrc:logic/ui/buttons/fighter_placeholder/get {slot:"8"}')
