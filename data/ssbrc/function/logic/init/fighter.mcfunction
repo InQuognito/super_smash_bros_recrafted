@@ -636,6 +636,23 @@ data modify storage ssbrc:data fighter set value { \
 			}, \
 		} \
 	}, \
+	"gooey": { \
+		"name": "gooey", \
+		"armor": 10.0, \
+		"jump_strength": 0.63, \
+		"max_health": 40.0, \
+		"movement_speed": 0.1, \
+		"page": 1, \
+		"miiverse_posts": 1, \
+		"default_form": "default", \
+		"color": "dark_blue", \
+		"alignment": "hero", \
+		"skin_count": 2, \
+		"skin": { \
+		}, \
+		"items": { \
+		} \
+	}, \
 	"greninja": { \
 		"name": "greninja", \
 		"armor": 10.0, \
@@ -762,6 +779,23 @@ data modify storage ssbrc:data fighter set value { \
 					"color": "yellow", \
 				}, \
 			}, \
+		} \
+	}, \
+	"ice_climbers": { \
+		"name": "ice_climbers", \
+		"armor": 10.0, \
+		"jump_strength": 0.63, \
+		"max_health": 40.0, \
+		"movement_speed": 0.1, \
+		"page": 1, \
+		"miiverse_posts": 1, \
+		"default_form": "default", \
+		"color": "aqua", \
+		"alignment": "hero", \
+		"skin_count": 2, \
+		"skin": { \
+		}, \
+		"items": { \
 		} \
 	}, \
 	"jigglypuff": { \
@@ -1111,6 +1145,23 @@ data modify storage ssbrc:data fighter set value { \
 					"inherit": "default", \
 				}, \
 			}, \
+		} \
+	}, \
+	"lucario": { \
+		"name": "lucario", \
+		"armor": 10.0, \
+		"jump_strength": 0.63, \
+		"max_health": 40.0, \
+		"movement_speed": 0.1, \
+		"page": 1, \
+		"miiverse_posts": 1, \
+		"default_form": "default", \
+		"color": "blue", \
+		"alignment": "hero", \
+		"skin_count": 2, \
+		"skin": { \
+		}, \
+		"items": { \
 		} \
 	}, \
 	"luigi": { \
@@ -1560,6 +1611,23 @@ data modify storage ssbrc:data fighter set value { \
 			}, \
 		} \
 	}, \
+	"raiden": { \
+		"name": "raiden", \
+		"armor": 10.0, \
+		"jump_strength": 0.63, \
+		"max_health": 40.0, \
+		"movement_speed": 0.1, \
+		"page": 1, \
+		"miiverse_posts": 1, \
+		"default_form": "default", \
+		"color": "gray", \
+		"alignment": "hero", \
+		"skin_count": 2, \
+		"skin": { \
+		}, \
+		"items": { \
+		} \
+	}, \
 	"rob": { \
 		"name": "rob", \
 		"armor": 10.0, \
@@ -1625,6 +1693,23 @@ data modify storage ssbrc:data fighter set value { \
 					"inherit": "default", \
 				}, \
 			}, \
+		} \
+	}, \
+	"roy": { \
+		"name": "roy", \
+		"armor": 10.0, \
+		"jump_strength": 0.63, \
+		"max_health": 40.0, \
+		"movement_speed": 0.1, \
+		"page": 1, \
+		"miiverse_posts": 1, \
+		"default_form": "default", \
+		"color": "red", \
+		"alignment": "hero", \
+		"skin_count": 2, \
+		"skin": { \
+		}, \
+		"items": { \
 		} \
 	}, \
 	"ryu": { \
@@ -2154,6 +2239,57 @@ data modify storage ssbrc:data fighter set value { \
 					"color": "white", \
 				}, \
 			}, \
+		} \
+	}, \
+	"terry": { \
+		"name": "terry", \
+		"armor": 10.0, \
+		"jump_strength": 0.63, \
+		"max_health": 40.0, \
+		"movement_speed": 0.1, \
+		"page": 1, \
+		"miiverse_posts": 1, \
+		"default_form": "default", \
+		"color": "red", \
+		"alignment": "hero", \
+		"skin_count": 2, \
+		"skin": { \
+		}, \
+		"items": { \
+		} \
+	}, \
+	"toon_link": { \
+		"name": "toon_link", \
+		"armor": 10.0, \
+		"jump_strength": 0.63, \
+		"max_health": 40.0, \
+		"movement_speed": 0.1, \
+		"page": 1, \
+		"miiverse_posts": 1, \
+		"default_form": "default", \
+		"color": "green", \
+		"alignment": "hero", \
+		"skin_count": 2, \
+		"skin": { \
+		}, \
+		"items": { \
+		} \
+	}, \
+	"villager": { \
+		"name": "villager", \
+		"armor": 10.0, \
+		"jump_strength": 0.63, \
+		"max_health": 40.0, \
+		"movement_speed": 0.1, \
+		"page": 1, \
+		"miiverse_posts": 1, \
+		"default_form": "default", \
+		"color": "red", \
+		"alignment": "hero", \
+		"skin_count": 2, \
+		"skin": { \
+		}, \
+		"items": { \
 		} \
 	}, \
 	"wolf": { \

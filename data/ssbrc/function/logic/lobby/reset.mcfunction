@@ -29,7 +29,7 @@ execute positioned -525.5 4.25 -1951.99 run summon minecraft:text_display ~ ~ ~ 
 setblock 0 16 0 minecraft:shulker_box replace
 setblock 0 17 0 minecraft:birch_sign replace
 
-execute positioned ~ 6.06 ~ run function ssbrc:logic/pre_game/fighter_select/reset
+execute positioned 138.5 6.06 173.5 run function ssbrc:logic/pre_game/fighter_select/reset
 function ssbrc:logic/lobby/credits/reset
 
 tag @a remove winner

@@ -32,6 +32,7 @@ scoreboard players set 225 const 225
 scoreboard players set 400 const 400
 scoreboard players set 2000 const 2000
 scoreboard players set 9999 const 9999
+scoreboard players set 100000 const 100000
 
 # Storage
 data modify storage ssbrc:data/skin selected set value {"text":" ✔","color":"green"}

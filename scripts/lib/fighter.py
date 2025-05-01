@@ -119,7 +119,7 @@ def fighter_getter():
 		warn_builder(file)
 
 		for fighter in ssbrc.fighter:
-			if fighter != 'peach': js_write(file, f'$function $(function) with storage ssbrc:data fighter.{fighter}')
+			js_write(file, f'$function $(function) with storage ssbrc:data fighter.{fighter}')
 
 def get_random_fighter():
 	'''Initializes the getter function that can be used to check for the desired fighter.'''
@@ -132,9 +132,8 @@ def get_random_fighter():
 
 		i = 1
 		for fighter in ssbrc.fighter:
-			if fighter != 'peach':
-				js_write(file, f'$execute if score random.output temp matches {str(i)} run return run function $(function) with storage ssbrc:data fighter.{fighter}')
-				i += 1
+			js_write(file, f'$execute if score random.output temp matches {str(i)} run return run function $(function) with storage ssbrc:data fighter.{fighter}')
+			i += 1
 
 def get_random_owned():
 	'''Initializes the getter function that can be used to check for the desired fighter.'''
@@ -147,9 +146,8 @@ def get_random_owned():
 
 		i = 1
 		for fighter in ssbrc.fighter:
-			if fighter != 'peach':
-				js_write(file, '$execute if score random.output temp matches ' + str(i) + ' if entity @s[advancements={ssbrc:fighter/' + fighter + '/default=true}] run return run function $(function) with storage ssbrc:data fighter.' + fighter)
-				i += 1
+			js_write(file, '$execute if score random.output temp matches ' + str(i) + ' if entity @s[advancements={ssbrc:fighter/' + fighter + '/default=true}] run return run function $(function) with storage ssbrc:data fighter.' + fighter)
+			i += 1
 		js_write(file, '\n$function ssbrc:logic/fighter/get/random_owned {function:"$(function)"}')
 
 def shop_entry(fighter, path):
