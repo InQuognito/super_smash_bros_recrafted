@@ -1,4 +1,3 @@
-execute if items entity @s weapon.mainhand *[minecraft:custom_data~{item:"hero.sword"}] run scoreboard players operation magic.queued temp = hero.flame_slash.cost const
 execute if items entity @s weapon.mainhand *[minecraft:custom_data~{item:"bang"}] run scoreboard players operation magic.queued temp = hero.bang.cost const
 execute if items entity @s weapon.mainhand *[minecraft:custom_data~{item:"kaclang"}] run scoreboard players operation magic.queued temp = hero.kaclang.cost const
 

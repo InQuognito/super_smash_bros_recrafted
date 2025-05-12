@@ -8,9 +8,11 @@ function ssbrc:logic/ui/buttons/fighter_placeholder/get {slot:"0"}
 $function ssbrc:logic/ui/buttons/navigator {path:"shop/pages/fighter/$(page)",type:"back",slot:"9"}
 function ssbrc:logic/ui/buttons/fighter_placeholder/get {slot:"18"}
 
-function ssbrc:shop/buttons/skin/get {skin:"gravity_suit",slot:"2",price:"price.skin.common"}
-function ssbrc:shop/buttons/skin/get {skin:"phazon_suit",slot:"3",price:"price.skin.common"}
-function ssbrc:shop/buttons/skin/get {skin:"cloaked",slot:"4",price:"price.skin.common"}
+function ssbrc:shop/buttons/skin/get {skin:"super_metroid",slot:"2",price:"price.skin.common"}
+function ssbrc:shop/buttons/skin/get {skin:"gravity_suit",slot:"3",price:"price.skin.common"}
+function ssbrc:shop/buttons/skin/get {skin:"phazon_suit",slot:"4",price:"price.skin.common"}
+function ssbrc:shop/buttons/skin/get {skin:"power_suit_dread",slot:"5",price:"price.skin.common"}
+function ssbrc:shop/buttons/skin/get {skin:"cloaked",slot:"6",price:"price.skin.common"}
 
 function ssbrc:logic/ui/buttons/fighter_placeholder/get {slot:"8"}
 function ssbrc:logic/ui/buttons/fighter_placeholder/get {slot:"17"}

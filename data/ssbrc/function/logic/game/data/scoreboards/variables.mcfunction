@@ -51,23 +51,7 @@ scoreboard players set giegue.pk_freeze.cooldown const 25
 scoreboard players set giegue.pk_beam.cooldown const 60
 scoreboard players set giegue.4th_dimensional_slip.range const 6
 
-scoreboard players set hero.magic.max const 20
-scoreboard players operation hero.magic.half const = hero.magic.max const
-scoreboard players operation hero.magic.half const /= 2 const
-scoreboard players operation hero.magic.initial const = hero.magic.max const
-scoreboard players operation hero.magic.initial const *= 3 const
-scoreboard players operation hero.magic.initial const /= 4 const
-scoreboard players set hero.magic.gained_on_kill.player const 8
-scoreboard players operation hero.magic.gained_on_kill.npc const = hero.magic.gained_on_kill.player const
-scoreboard players operation hero.magic.gained_on_kill.npc const /= 2 const
-scoreboard players operation hero.magic.gained_on_kill.misc const = hero.magic.gained_on_kill.npc const
-scoreboard players operation hero.magic.gained_on_kill.misc const /= 2 const
-scoreboard players set hero.magic.gained_on_death const 6
-scoreboard players set hero.flame_slash.cost const 1
-scoreboard players set hero.bang.cooldown const 10
-scoreboard players set hero.bang.cost const 2
-scoreboard players set hero.kaclang.cooldown const 20
-scoreboard players set hero.kaclang.cost const 3
+scoreboard players set hero.magic.max const 100
 
 scoreboard players set jigglypuff.hyper_voice.cooldown const 40
 
@@ -118,11 +102,10 @@ scoreboard players set ryu.tatsumaki_senpukyaku const 10
 
 scoreboard players set samus.wave_beam.piercing const 3
 
-scoreboard players set shadow.chaos_meter.max const 300
-scoreboard players set shadow.chaos_spear.cooldown const 15
-scoreboard players set shadow.chaos_spear.cost const 50
-scoreboard players operation shadow.chaos_spear.half const = shadow.chaos_spear.cost const
-scoreboard players operation shadow.chaos_spear.half const /= 2 const
+scoreboard players set shadow.chaos_gauge.max const 20
+scoreboard players set shadow.chaos_spear.cost const 2
+scoreboard players set shadow.chaos_control.cost const 7
+scoreboard players set shadow.chaos_snap.cost const 2
 
 scoreboard players set shovel_knight.magic.max const 10
 scoreboard players set shovel_knight.chaos_sphere.cooldown const 20

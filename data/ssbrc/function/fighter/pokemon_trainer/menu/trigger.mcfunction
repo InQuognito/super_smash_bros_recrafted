@@ -5,3 +5,4 @@ execute if score @s menu matches 2 run return run function ssbrc:logic/fighter/s
 execute if score @s menu matches 3 run return run function ssbrc:logic/fighter/select_skin {fighter:"pokemon_trainer",skin:"shiny",color:"dark_gray"}
 execute if score @s menu matches 4 run return run function ssbrc:logic/fighter/select_skin {fighter:"pokemon_trainer",skin:"dawn",color:"light_purple"}
 execute if score @s menu matches 5 run return run function ssbrc:logic/fighter/select_skin {fighter:"pokemon_trainer",skin:"victor",color:"dark_blue"}
+execute if score @s menu matches 6 run return run function ssbrc:logic/fighter/select_skin {fighter:"pokemon_trainer",skin:"juliana",color:"dark_purple"}

@@ -9,6 +9,8 @@ $function ssbrc:logic/ui/buttons/navigator {path:"shop/pages/fighter/$(page)",ty
 function ssbrc:logic/ui/buttons/fighter_placeholder/get {slot:"18"}
 
 function ssbrc:shop/buttons/skin/get {skin:"retro",slot:"2",price:"price.skin.common"}
+function ssbrc:shop/buttons/skin/get {skin:"revived",slot:"3",price:"price.skin.common"}
+function ssbrc:shop/buttons/skin/get {skin:"eggplant",slot:"4",price:"price.skin.common"}
 
 function ssbrc:logic/ui/buttons/fighter_placeholder/get {slot:"8"}
 function ssbrc:logic/ui/buttons/fighter_placeholder/get {slot:"17"}

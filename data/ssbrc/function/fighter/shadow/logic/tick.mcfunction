@@ -1,12 +1,12 @@
 # Chaos Spear
 execute if score @s charge.1 matches 1.. anchored eyes positioned ^ ^ ^ run function ssbrc:fighter/shadow/logic/abilities/chaos_spear/charge
 
-function ssbrc:fighter/shadow/logic/chaos_meter/calculate
-execute if score chaos_energy temp >= shadow.chaos_spear.cost const run function ssbrc:logic/item/cooldown/decrease {item:"chaos_spear"}
-
 # Chaos Blast
 execute if score @s charge.2 matches 1.. positioned ~ ~0.75 ~ run function ssbrc:fighter/shadow/logic/abilities/chaos_blast/charge
 scoreboard players set @s[scores={charge.2=101..}] charge.2 0
+
+# Chaos Snap
+execute if score @s[tag=chaos_boost,tag=!silenced,scores={jump.cooldown=..0,cooldown.1=..0},predicate=ssbrc:input/jump] resource >= shadow.chaos_snap.cost const run function ssbrc:fighter/shadow/logic/abilities/chaos_snap/activate
 
 # Acceleration
 scoreboard players set @s[scores={flag.sprinting=..-1}] flag.sprinting 0

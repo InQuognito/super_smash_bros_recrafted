@@ -13,4 +13,10 @@ execute if data storage ssbrc:temp player.temp_data{skin:"gold"} run tellraw @s 
 execute unless data storage ssbrc:temp player.temp_data{skin:"retro"} run tellraw @s[advancements={ssbrc:fighter/pit/retro=true}] {"translate":"ssbrc.skin.retro","click_event":{"action":"run_command","command":"trigger menu set 3"}}
 execute if data storage ssbrc:temp player.temp_data{skin:"retro"} run tellraw @s ["",{"translate":"ssbrc.skin.retro"},{"text":" ✔","color":"green"}]
 
+execute unless data storage ssbrc:temp player.temp_data{skin:"revived"} run tellraw @s[advancements={ssbrc:fighter/pit/revived=true}] {"translate":"ssbrc.skin.revived","click_event":{"action":"run_command","command":"trigger menu set 4"}}
+execute if data storage ssbrc:temp player.temp_data{skin:"revived"} run tellraw @s ["",{"translate":"ssbrc.skin.revived"},{"text":" ✔","color":"green"}]
+
+execute unless data storage ssbrc:temp player.temp_data{skin:"eggplant"} run tellraw @s[advancements={ssbrc:fighter/pit/eggplant=true}] {"translate":"ssbrc.skin.eggplant","color":"dark_purple","click_event":{"action":"run_command","command":"trigger menu set 5"}}
+execute if data storage ssbrc:temp player.temp_data{skin:"eggplant"} run tellraw @s ["",{"translate":"ssbrc.skin.eggplant","color":"dark_purple"},{"text":" ✔","color":"green"}]
+
 function ssbrc:logic/fighter/menu/skin_options

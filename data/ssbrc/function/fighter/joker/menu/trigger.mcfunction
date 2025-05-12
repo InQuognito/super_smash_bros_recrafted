@@ -3,4 +3,5 @@
 execute if score @s menu matches 1 run return run function ssbrc:logic/fighter/select_skin {fighter:"joker",skin:"default",color:"dark_red"}
 execute if score @s menu matches 2 run return run function ssbrc:logic/fighter/select_skin {fighter:"joker",skin:"gold",color:"gold"}
 execute if score @s menu matches 3 run return run function ssbrc:logic/fighter/select_skin {fighter:"joker",skin:"shujin_academy",color:"dark_red"}
-execute if score @s menu matches 4 run return run function ssbrc:logic/fighter/select_skin {fighter:"joker",skin:"christmas_outfit",color:"red"}
+execute if score @s menu matches 4 run return run function ssbrc:logic/fighter/select_skin {fighter:"joker",skin:"prisoner_of_fate",color:"white"}
+execute if score @s menu matches 5 run return run function ssbrc:logic/fighter/select_skin {fighter:"joker",skin:"christmas_outfit",color:"red"}

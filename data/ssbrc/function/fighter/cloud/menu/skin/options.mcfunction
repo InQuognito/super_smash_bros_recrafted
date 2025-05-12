@@ -13,4 +13,10 @@ execute if data storage ssbrc:temp player.temp_data{skin:"gold"} run tellraw @s 
 execute unless data storage ssbrc:temp player.temp_data{skin:"midgar_infantry"} run tellraw @s[advancements={ssbrc:fighter/cloud/midgar_infantry=true}] {"translate":"ssbrc.skin.midgar_infantry","color":"blue","click_event":{"action":"run_command","command":"trigger menu set 3"}}
 execute if data storage ssbrc:temp player.temp_data{skin:"midgar_infantry"} run tellraw @s ["",{"translate":"ssbrc.skin.midgar_infantry","color":"blue"},{"text":" ✔","color":"green"}]
 
+execute unless data storage ssbrc:temp player.temp_data{skin:"ocean_chocobo"} run tellraw @s[advancements={ssbrc:fighter/cloud/ocean_chocobo=true}] {"translate":"ssbrc.skin.ocean_chocobo","color":"aqua","click_event":{"action":"run_command","command":"trigger menu set 4"}}
+execute if data storage ssbrc:temp player.temp_data{skin:"ocean_chocobo"} run tellraw @s ["",{"translate":"ssbrc.skin.ocean_chocobo","color":"aqua"},{"text":" ✔","color":"green"}]
+
+execute unless data storage ssbrc:temp player.temp_data{skin:"sky_soarer"} run tellraw @s[advancements={ssbrc:fighter/cloud/sky_soarer=true}] {"translate":"ssbrc.skin.sky_soarer","color":"aqua","click_event":{"action":"run_command","command":"trigger menu set 5"}}
+execute if data storage ssbrc:temp player.temp_data{skin:"sky_soarer"} run tellraw @s ["",{"translate":"ssbrc.skin.sky_soarer","color":"aqua"},{"text":" ✔","color":"green"}]
+
 function ssbrc:logic/fighter/menu/skin_options

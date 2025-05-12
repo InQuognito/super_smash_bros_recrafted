@@ -10,8 +10,7 @@ execute as @a[scores={debug=1..}] run function ssbrc:logic/game/options/debug/tr
 # Tick during certain game stage
 execute unless score game_stage temp matches 2.. as @a run function ssbrc:logic/lobby/trigger
 execute if score game_stage temp matches 3 run function ssbrc:logic/stage/tick/before_start with storage ssbrc:temp game.stage
-execute if score game_stage temp matches 4 run function ssbrc:logic/game/tick
-execute if score game_stage temp matches 5 run function ssbrc:logic/post_game/tick
+execute if score game_stage temp matches 4.. run function ssbrc:logic/game/tick
 
 execute as @a[gamemode=adventure] run function ssbrc:logic/player/tick
 

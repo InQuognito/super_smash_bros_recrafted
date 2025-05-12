@@ -1,10 +1,13 @@
-# Bang
-execute unless entity @s[tag=kaclang] run function ssbrc:logic/item/cooldown/decrease {item:"bang"}
+execute if score @s[tag=accelerate] duration.1 matches 1.. run function ssbrc:fighter/hero/logic/abilities/accelerate/tick
 
-# Kaclang
-execute if entity @s[scores={duration.2=1..}] run function ssbrc:fighter/hero/logic/abilities/kaclang/tick
+execute if score @s[tag=acceleratle] duration.1 matches 1.. run function ssbrc:fighter/hero/logic/abilities/acceleratle/tick
 
-execute unless entity @s[tag=kaclang] run function ssbrc:logic/item/cooldown/decrease {item:"kaclang"}
+execute if score @s[tag=kaclang] duration.1 matches 1.. run function ssbrc:fighter/hero/logic/abilities/kaclang/tick
 
-# Magic Burst
-execute if entity @s[scores={charge.1=1..}] run function ssbrc:fighter/hero/logic/abilities/magic_burst/tick
+execute if score @s[tag=oomph] duration.1 matches 1.. run function ssbrc:fighter/hero/logic/abilities/oomph/tick
+
+
+
+execute if score @s[tag=kamikazee] charge.1 matches 1.. positioned ~ ~0.75 ~ run function ssbrc:fighter/hero/logic/abilities/kamikazee/tick
+
+execute if score @s[tag=magic_burst] charge.1 matches 1.. positioned ~ ~0.75 ~ run function ssbrc:fighter/hero/logic/abilities/magic_burst/tick

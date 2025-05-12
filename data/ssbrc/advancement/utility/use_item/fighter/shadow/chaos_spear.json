@@ -13,8 +13,15 @@
 						"condition": "minecraft:entity_scores",
 						"entity": "this",
 						"scores": {
-							"charge.1": {
-								"max": 0
+							"resource": {
+								"min": {
+									"type": "minecraft:score",
+									"target": {
+										"type": "minecraft:fixed",
+										"name": "shadow.chaos_spear.cost"
+									},
+									"score": "const"
+								}
 							}
 						}
 					}
@@ -22,11 +29,7 @@
 				"item": {
 					"predicates": {
 						"minecraft:custom_data": {
-							"item": "chaos_spear",
-							"enabled": "true"
-						},
-						"minecraft:damage": {
-							"damage": 0
+							"item": "chaos_spear"
 						}
 					}
 				}
@@ -34,6 +37,6 @@
 		}
 	},
 	"rewards": {
-		"function": "ssbrc:fighter/shadow/logic/abilities/chaos_spear/check"
+		"function": "ssbrc:fighter/shadow/logic/abilities/chaos_spear/activate"
 	}
 }

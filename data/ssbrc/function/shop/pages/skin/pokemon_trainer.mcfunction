@@ -10,6 +10,7 @@ function ssbrc:logic/ui/buttons/fighter_placeholder/get {slot:"18"}
 
 function ssbrc:shop/buttons/skin/get {skin:"dawn",slot:"2",price:"price.skin.common"}
 function ssbrc:shop/buttons/skin/get {skin:"victor",slot:"3",price:"price.skin.common"}
+function ssbrc:shop/buttons/skin/get {skin:"juliana",slot:"4",price:"price.skin.common"}
 
 function ssbrc:logic/ui/buttons/fighter_placeholder/get {slot:"8"}
 function ssbrc:logic/ui/buttons/fighter_placeholder/get {slot:"17"}

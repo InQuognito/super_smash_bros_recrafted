@@ -8,9 +8,9 @@ function ssbrc:logic/ui/buttons/fighter_placeholder/get {slot:"0"}
 $function ssbrc:logic/ui/buttons/navigator {path:"shop/pages/fighter/$(page)",type:"back",slot:"9"}
 function ssbrc:logic/ui/buttons/fighter_placeholder/get {slot:"18"}
 
-function ssbrc:shop/buttons/skin/get {skin:"dark_link",slot:"2",price:"price.skin.common"}
-function ssbrc:shop/buttons/skin/get {skin:"goron_tunic",slot:"3",price:"price.skin.common"}
-function ssbrc:shop/buttons/skin/get {skin:"zora_tunic",slot:"4",price:"price.skin.common"}
+function ssbrc:shop/buttons/skin/get {skin:"awakening",slot:"2",price:"price.skin.common"}
+function ssbrc:shop/buttons/skin/get {skin:"tunic_of_time",slot:"3",price:"price.skin.common"}
+function ssbrc:shop/buttons/skin/get {skin:"dark_tunic",slot:"4",price:"price.skin.common"}
 
 function ssbrc:logic/ui/buttons/fighter_placeholder/get {slot:"8"}
 function ssbrc:logic/ui/buttons/fighter_placeholder/get {slot:"17"}

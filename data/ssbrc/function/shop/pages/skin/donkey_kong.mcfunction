@@ -10,6 +10,7 @@ function ssbrc:logic/ui/buttons/fighter_placeholder/get {slot:"18"}
 
 function ssbrc:shop/buttons/skin/get {skin:"flower_power",slot:"2",price:"price.skin.common"}
 function ssbrc:shop/buttons/skin/get {skin:"super_kong",slot:"3",price:"price.skin.common"}
+function ssbrc:shop/buttons/skin/get {skin:"strikers",slot:"4",price:"price.skin.common"}
 
 function ssbrc:logic/ui/buttons/fighter_placeholder/get {slot:"8"}
 function ssbrc:logic/ui/buttons/fighter_placeholder/get {slot:"17"}

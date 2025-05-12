@@ -13,7 +13,10 @@ execute if data storage ssbrc:temp player.temp_data{skin:"gold"} run tellraw @s 
 execute unless data storage ssbrc:temp player.temp_data{skin:"shujin_academy"} run tellraw @s[advancements={ssbrc:fighter/joker/shujin_academy=true}] {"translate":"ssbrc.skin.shujin_academy","color":"dark_red","click_event":{"action":"run_command","command":"trigger menu set 3"}}
 execute if data storage ssbrc:temp player.temp_data{skin:"shujin_academy"} run tellraw @s ["",{"translate":"ssbrc.skin.shujin_academy","color":"dark_red"},{"text":" ✔","color":"green"}]
 
-execute unless data storage ssbrc:temp player.temp_data{skin:"christmas_outfit"} run tellraw @s[advancements={ssbrc:fighter/joker/christmas_outfit=true}] {"translate":"ssbrc.skin.christmas_outfit","color":"red","click_event":{"action":"run_command","command":"trigger menu set 4"}}
+execute unless data storage ssbrc:temp player.temp_data{skin:"prisoner_of_fate"} run tellraw @s[advancements={ssbrc:fighter/joker/prisoner_of_fate=true}] {"translate":"ssbrc.skin.prisoner_of_fate","click_event":{"action":"run_command","command":"trigger menu set 4"}}
+execute if data storage ssbrc:temp player.temp_data{skin:"prisoner_of_fate"} run tellraw @s ["",{"translate":"ssbrc.skin.prisoner_of_fate"},{"text":" ✔","color":"green"}]
+
+execute unless data storage ssbrc:temp player.temp_data{skin:"christmas_outfit"} run tellraw @s[advancements={ssbrc:fighter/joker/christmas_outfit=true}] {"translate":"ssbrc.skin.christmas_outfit","color":"red","click_event":{"action":"run_command","command":"trigger menu set 5"}}
 execute if data storage ssbrc:temp player.temp_data{skin:"christmas_outfit"} run tellraw @s ["",{"translate":"ssbrc.skin.christmas_outfit","color":"red"},{"text":" ✔","color":"green"}]
 
 function ssbrc:logic/fighter/menu/skin_options

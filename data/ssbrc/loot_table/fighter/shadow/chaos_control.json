@@ -6,25 +6,15 @@
 			"entries": [
 				{
 					"type": "minecraft:item",
-					"name": "minecraft:stick",
+					"name": "minecraft:goat_horn",
 					"functions": [
-						{
-							"function": "minecraft:set_name",
-							"entity": "this",
-							"name": {
-								"translate": "ssbrc.fighter.shadow.chaos_control",
-								"color": "blue",
-								"bold": true,
-								"italic": false
-							}
-						},
 						{
 							"function": "minecraft:reference",
 							"name": "ssbrc:init/tooltip/ability/support"
 						},
 						{
 							"function": "minecraft:reference",
-							"name": "ssbrc:init/ability/default"
+							"name": "ssbrc:init/ability/instrument/default"
 						},
 						{
 							"function": "minecraft:reference",
@@ -60,8 +50,16 @@
 						{
 							"function": "minecraft:set_components",
 							"components": {
+								"minecraft:use_cooldown": {
+									"seconds": 10,
+									"cooldown_group": "ssbrc:shadow/chaos_control"
+								},
 								"minecraft:item_model": "ssbrc:common/sonic_the_hedgehog/chaos_emerald/blue"
 							}
+						},
+						{
+							"function": "minecraft:reference",
+							"name": "ssbrc:fighter/shadow/chaos_control/disabled"
 						},
 						{
 							"function": "minecraft:set_custom_data",

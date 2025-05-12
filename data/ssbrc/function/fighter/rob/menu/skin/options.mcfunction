@@ -16,4 +16,7 @@ execute if data storage ssbrc:temp player.temp_data{skin:"famicom"} run tellraw 
 execute unless data storage ssbrc:temp player.temp_data{skin:"ancient_minister"} run tellraw @s[advancements={ssbrc:fighter/rob/ancient_minister=true}] {"translate":"ssbrc.skin.ancient_minister","color":"dark_green","click_event":{"action":"run_command","command":"trigger menu set 4"}}
 execute if data storage ssbrc:temp player.temp_data{skin:"ancient_minister"} run tellraw @s ["",{"translate":"ssbrc.skin.ancient_minister","color":"dark_green"},{"text":" ✔","color":"green"}]
 
+execute unless data storage ssbrc:temp player.temp_data{skin:"rob_blaster"} run tellraw @s[advancements={ssbrc:fighter/rob/rob_blaster=true}] {"translate":"ssbrc.skin.rob_blaster","color":"light_purple","click_event":{"action":"run_command","command":"trigger menu set 5"}}
+execute if data storage ssbrc:temp player.temp_data{skin:"rob_blaster"} run tellraw @s ["",{"translate":"ssbrc.skin.rob_blaster","color":"light_purple"},{"text":" ✔","color":"green"}]
+
 function ssbrc:logic/fighter/menu/skin_options

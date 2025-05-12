@@ -6,6 +6,7 @@ def init_fighter():
 	fighter_getter()
 	get_random_fighter()
 	get_random_owned()
+	shop_index(f'data\\ssbrc\\function\\shop\\pages\\fighter\\')
 
 	remove_path(f'data\\ssbrc\\advancement\\fighter\\')
 
@@ -52,7 +53,7 @@ def fighter_storage():
 			mc_write(file, 'item_s', 2, 'alignment', path['alignment'])
 			skin_count = count_skin(fighter)
 			mc_write(file, 'item_n', 2, 'skin_count', skin_count)
-			if fighter == 'byleth': skin_count /= 2
+			if fighter in ['byleth', 'villager']: skin_count /= 2
 			mc_write(file, 'root_e', 2, 'skin')
 
 			n = 1
@@ -150,6 +151,40 @@ def get_random_owned():
 			i += 1
 		js_write(file, '\n$function ssbrc:logic/fighter/get/random_owned {function:"$(function)"}')
 
+def shop_index(path):
+	'''Initializes the shop pages.'''
+	pages = 4
+	for page in range(pages):
+		if page == 0:
+			shop_header(path, 'shop/pages/main', f'shop/pages/fighter/{page + 1}', f'shop/pages/fighter/{page + 2}', page, pages)
+		else:
+			shop_header(path, f'shop/pages/fighter/{page}', f'shop/pages/fighter/{page + 1}', f'shop/pages/fighter/{page + 2}', page, pages)
+
+def shop_header(path, previous, this, next, page, pages):
+	with open(path + f'{page + 1}.mcfunction', 'w', encoding='utf-8') as file:
+		warn_builder(file)
+
+		js_write(file, 'data modify storage ssbrc:data ui merge value {path:"' + this + '",ui_color:"red"}')
+		js_write(file, 'function ssbrc:logic/ui/reset with storage ssbrc:data ui', 1)
+
+		js_write(file, 'function ssbrc:logic/ui/buttons/placeholder/get {slot:0}')
+		js_write(file, 'function ssbrc:logic/ui/buttons/navigator {path:"' + previous + '",type:"back",slot:9}')
+		js_write(file, 'function ssbrc:logic/ui/buttons/placeholder/get {slot:18}', 1)
+
+		n = 1
+		for fighter in list(ssbrc.fighter.keys())[(page * 15):(page * 15) + 15]:
+			if fighter != 'terry':
+				js_write(file, 'function ssbrc:shop/buttons/fighter/get {name:"' + fighter + '",slot:' + str(shop_pages[n]) + '}')
+			if n % 5 == 0: js_write(file, '')
+			n += 1
+
+		js_write(file, 'function ssbrc:logic/ui/buttons/placeholder/get {slot:8}')
+		if page == (pages - 1):
+			js_write(file, 'function ssbrc:logic/ui/buttons/placeholder/get {slot:17}')
+		else:
+			js_write(file, 'function ssbrc:logic/ui/buttons/navigator {path:"' + next + '",type:"forward",slot:17}')
+		js_write(file, 'function ssbrc:logic/ui/buttons/placeholder/get {slot:26}')
+
 def shop_entry(fighter, path):
 	'''Initializes the file containing the shop entry for the fighter.'''
 	create_path(path)
@@ -181,7 +216,7 @@ def random_skin(fighter, path):
 	with open(path + 'random.mcfunction', 'w') as file:
 		warn_builder(file)
 
-		if fighter == 'byleth':
+		if fighter in ['byleth', 'villager']:
 			js_write(file, f'execute store result score random.output temp run random value 1..{int(count_skin(fighter)/2)}', 1)
 		else:
 			js_write(file, f'execute store result score random.output temp run random value 1..{count_skin(fighter)}', 1)
@@ -204,7 +239,7 @@ def skin_options(fighter, path):
 
 		js_write(file, 'function ssbrc:logic/player/data/temp/copy/check', 1)
 
-		if fighter == 'byleth':
+		if fighter in ['byleth', 'villager']:
 			for skin in chain(['default', 'gold'], ssbrc.fighter[fighter]['skin']):
 				if skin == 'default':
 					js_write(file, 'execute unless data storage ssbrc:temp player.temp_data{skin:"' + skin + '"} run tellraw @s ["",{"translate":"ssbrc.skin.' + skin + get_color_wrapper(fighter, skin) + '"}," - ",{"translate":"ssbrc.fighter.menu.gender.female.abv","color":"light_purple","click_event":{"action":"run_command","command":"trigger menu set ' + str(n) + '"}}," ",{"translate":"ssbrc.fighter.menu.gender.male.abv","color":"blue","click_event":{"action":"run_command","command":"trigger menu set ' + str(n + 1) + '"}}]')
@@ -231,7 +266,7 @@ def skin_triggers(fighter, path):
 	with open(path + 'trigger.mcfunction', 'w') as file:
 		warn_builder(file)
 
-		if fighter == 'byleth':
+		if fighter in ['byleth', 'villager']:
 			for skin in chain(['default', 'gold'], ssbrc.fighter[fighter]['skin']):
 				js_write(file, 'execute if score @s menu matches ' + str(n) + ' run return run function ' + 'ssbrc:fighter/' + fighter + '/menu/skin {fighter:"' + fighter + '",skin:"' + skin + '",color:"' + get_color(fighter, skin) + '",gender:"female"}')
 				js_write(file, 'execute if score @s menu matches ' + str(n + 1) + ' run return run function ' + 'ssbrc:fighter/' + fighter + '/menu/skin {fighter:"' + fighter + '",skin:"' + skin + '",color:"' + get_color(fighter, skin) + '",gender:"male"}')

@@ -1,0 +1,3 @@
+execute if items entity @s container.* *[minecraft:custom_data~{item:"chaos_control",enabled:"false"}] if score @s resource >= shadow.chaos_control.cost const run return run function ssbrc:logic/item/modify {search_key:"item",search_value:"chaos_control",path:"ssbrc:fighter/shadow/chaos_control/enabled"}
+
+execute if items entity @s container.* *[minecraft:custom_data~{item:"chaos_control",enabled:"true"}] if score @s resource < shadow.chaos_control.cost const run function ssbrc:logic/item/modify {search_key:"item",search_value:"chaos_control",path:"ssbrc:fighter/shadow/chaos_control/disabled"}

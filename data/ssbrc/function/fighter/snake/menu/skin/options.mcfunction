@@ -16,4 +16,7 @@ execute if data storage ssbrc:temp player.temp_data{skin:"classic_tuxedo"} run t
 execute unless data storage ssbrc:temp player.temp_data{skin:"iroquois_pliskin"} run tellraw @s[advancements={ssbrc:fighter/snake/iroquois_pliskin=true}] {"translate":"ssbrc.skin.iroquois_pliskin","color":"dark_green","click_event":{"action":"run_command","command":"trigger menu set 4"}}
 execute if data storage ssbrc:temp player.temp_data{skin:"iroquois_pliskin"} run tellraw @s ["",{"translate":"ssbrc.skin.iroquois_pliskin","color":"dark_green"},{"text":" ✔","color":"green"}]
 
+execute unless data storage ssbrc:temp player.temp_data{skin:"old_snake"} run tellraw @s[advancements={ssbrc:fighter/snake/old_snake=true}] {"translate":"ssbrc.skin.old_snake","click_event":{"action":"run_command","command":"trigger menu set 5"}}
+execute if data storage ssbrc:temp player.temp_data{skin:"old_snake"} run tellraw @s ["",{"translate":"ssbrc.skin.old_snake"},{"text":" ✔","color":"green"}]
+
 function ssbrc:logic/fighter/menu/skin_options

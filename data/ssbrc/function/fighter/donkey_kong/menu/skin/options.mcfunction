@@ -16,4 +16,7 @@ execute if data storage ssbrc:temp player.temp_data{skin:"flower_power"} run tel
 execute unless data storage ssbrc:temp player.temp_data{skin:"super_kong"} run tellraw @s[advancements={ssbrc:fighter/donkey_kong/super_kong=true}] {"translate":"ssbrc.skin.super_kong","click_event":{"action":"run_command","command":"trigger menu set 4"}}
 execute if data storage ssbrc:temp player.temp_data{skin:"super_kong"} run tellraw @s ["",{"translate":"ssbrc.skin.super_kong"},{"text":" ✔","color":"green"}]
 
+execute unless data storage ssbrc:temp player.temp_data{skin:"strikers"} run tellraw @s[advancements={ssbrc:fighter/donkey_kong/strikers=true}] {"translate":"ssbrc.skin.strikers","color":"yellow","click_event":{"action":"run_command","command":"trigger menu set 5"}}
+execute if data storage ssbrc:temp player.temp_data{skin:"strikers"} run tellraw @s ["",{"translate":"ssbrc.skin.strikers","color":"yellow"},{"text":" ✔","color":"green"}]
+
 function ssbrc:logic/fighter/menu/skin_options

@@ -1,3 +1,5 @@
+execute if score game_stage temp matches 5 run function ssbrc:logic/post_game/tick
+
 function ssbrc:logic/stage/tick/after_start with storage ssbrc:temp game.stage
 
 execute as @a at @s run function ssbrc:logic/game/player/tick

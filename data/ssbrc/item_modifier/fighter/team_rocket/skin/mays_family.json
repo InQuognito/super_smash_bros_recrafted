@@ -1,0 +1,18 @@
+[
+	{
+		"function": "minecraft:set_name",
+		"entity": "this",
+		"target": "item_name",
+		"name": {
+			"translate": "ssbrc.skin.mays_family",
+			"color": "red",
+			"bold": true
+		}
+	},
+	{
+		"function": "minecraft:set_components",
+		"components": {
+			"minecraft:item_model": "ssbrc:fighter/team_rocket/skin/mays_family/james"
+		}
+	}
+]

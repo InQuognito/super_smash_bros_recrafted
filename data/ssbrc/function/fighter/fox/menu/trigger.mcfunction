@@ -2,4 +2,6 @@
 
 execute if score @s menu matches 1 run return run function ssbrc:logic/fighter/select_skin {fighter:"fox",skin:"default",color:"white"}
 execute if score @s menu matches 2 run return run function ssbrc:logic/fighter/select_skin {fighter:"fox",skin:"gold",color:"gold"}
-execute if score @s menu matches 3 run return run function ssbrc:logic/fighter/select_skin {fighter:"fox",skin:"adventures",color:"yellow"}
+execute if score @s menu matches 3 run return run function ssbrc:logic/fighter/select_skin {fighter:"fox",skin:"assault",color:"blue"}
+execute if score @s menu matches 4 run return run function ssbrc:logic/fighter/select_skin {fighter:"fox",skin:"adventures",color:"yellow"}
+execute if score @s menu matches 5 run return run function ssbrc:logic/fighter/select_skin {fighter:"fox",skin:"g_zero",color:"red"}

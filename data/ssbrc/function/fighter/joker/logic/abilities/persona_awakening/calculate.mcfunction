@@ -15,6 +15,6 @@ execute if score percentage temp matches 61..70 run data modify storage ssbrc:hu
 execute if score percentage temp matches 71..80 run data modify storage ssbrc:hud temp set value [{"text":"\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae","color":"red"},{"text":"\u25ae\u25ae","color":"dark_gray"}]
 execute if score percentage temp matches 81..90 run data modify storage ssbrc:hud temp set value [{"text":"\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae","color":"red"},{"text":"\u25ae","color":"dark_gray"}]
 execute if score percentage temp matches 91..99 run data modify storage ssbrc:hud temp set value {"text":"\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae","color":"red"}
-execute if score percentage temp matches 100.. run data modify storage ssbrc:hud temp set value {"translate":"ssbrc.fighter.joker.persona_awakening.activate","bold":true,"color":"blue"}
+execute if score percentage temp matches 100.. run data modify storage ssbrc:hud temp set value {"translate":"ssbrc.fighter.joker.persona_awakening","bold":true,"color":"blue"}
 
 function ssbrc:logic/player/data/temp/set_storage/get {input:"ssbrc:hud temp",output:"hud.1"}

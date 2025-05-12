@@ -1,0 +1,18 @@
+[
+	{
+		"function": "minecraft:set_name",
+		"entity": "this",
+		"target": "item_name",
+		"name": {
+			"translate": "ssbrc.skin.power_suit_dread",
+			"color": "aqua",
+			"bold": true
+		}
+	},
+	{
+		"function": "minecraft:set_components",
+		"components": {
+			"minecraft:item_model": "ssbrc:fighter/samus/skin/power_suit_dread"
+		}
+	}
+]

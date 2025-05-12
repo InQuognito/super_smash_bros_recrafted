@@ -76,8 +76,7 @@ def center(pos):
 def count_skin(fighter):
 	'''Returns the skin count of the specified fighter.'''
 	n = len(ssbrc.fighter[fighter]['skin']) + 2
-	if fighter == 'byleth':
-		n *= 2
+	if fighter in ['byleth','villager']: n *= 2
 	return n
 
 def has_forms(fighter):

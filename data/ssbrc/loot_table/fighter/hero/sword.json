@@ -9,8 +9,40 @@
 					"name": "minecraft:stick",
 					"functions": [
 						{
+							"function": "minecraft:set_components",
+							"components": {
+								"minecraft:weapon": {
+									"item_damage_per_attack": 0
+								},
+								"minecraft:attribute_modifiers": [
+									{
+										"type": "minecraft:attack_damage",
+										"id": "ssbrc:attack_damage",
+										"amount": 4,
+										"operation": "add_multiplied_base",
+										"slot": "mainhand"
+									},
+									{
+										"type": "minecraft:attack_speed",
+										"id": "ssbrc:attack_speed",
+										"amount": 1.5,
+										"operation": "add_multiplied_base",
+										"slot": "mainhand"
+									}
+								],
+								"minecraft:item_model": "ssbrc:fighter/hero/item/sword"
+							}
+						},
+						{
 							"function": "minecraft:reference",
-							"name": "ssbrc:fighter/hero/sword"
+							"name": "ssbrc:init/item/melee"
+						},
+						{
+							"function": "minecraft:set_custom_data",
+							"tag": {
+								"item": "hero.sword",
+								"damage": 4
+							}
 						}
 					]
 				}

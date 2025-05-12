@@ -8,6 +8,9 @@ function ssbrc:logic/ui/buttons/fighter_placeholder/get {slot:"0"}
 $function ssbrc:logic/ui/buttons/navigator {path:"shop/pages/fighter/$(page)",type:"back",slot:"9"}
 function ssbrc:logic/ui/buttons/fighter_placeholder/get {slot:"18"}
 
+function ssbrc:shop/buttons/skin/get {skin:"second_sword",slot:"2",price:"price.skin.common"}
+function ssbrc:shop/buttons/skin/get {skin:"third_sword",slot:"3",price:"price.skin.common"}
+function ssbrc:shop/buttons/skin/get {skin:"fourth_sword",slot:"4",price:"price.skin.common"}
 
 function ssbrc:logic/ui/buttons/fighter_placeholder/get {slot:"8"}
 function ssbrc:logic/ui/buttons/fighter_placeholder/get {slot:"17"}

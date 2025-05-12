@@ -1,1 +1,1 @@
-title @s actionbar ["",{"nbt":"player.temp_data.hud.1[]","storage":"ssbrc:temp","interpret":true,"separator":""},"   ",{"nbt":"player.temp_data.hud.2","storage":"ssbrc:temp","interpret":true,"separator":""},"   ",{"nbt":"player.temp_data.hud.3[]","storage":"ssbrc:temp","interpret":true,"separator":""}]
+title @s actionbar ["",{"nbt":"player.temp_data.hud.1[]","storage":"ssbrc:temp","interpret":true,"separator":""},"   ",{"nbt":"player.temp_data.hud.2","storage":"ssbrc:temp","interpret":true,"separator":""}]

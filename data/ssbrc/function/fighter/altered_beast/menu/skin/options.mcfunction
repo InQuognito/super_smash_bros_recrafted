@@ -13,4 +13,10 @@ execute if data storage ssbrc:temp player.temp_data{skin:"gold"} run tellraw @s 
 execute unless data storage ssbrc:temp player.temp_data{skin:"player_2"} run tellraw @s[advancements={ssbrc:fighter/altered_beast/player_2=true}] {"translate":"ssbrc.skin.player_2","color":"blue","click_event":{"action":"run_command","command":"trigger menu set 3"}}
 execute if data storage ssbrc:temp player.temp_data{skin:"player_2"} run tellraw @s ["",{"translate":"ssbrc.skin.player_2","color":"blue"},{"text":" ✔","color":"green"}]
 
+execute unless data storage ssbrc:temp player.temp_data{skin:"luke_custer"} run tellraw @s[advancements={ssbrc:fighter/altered_beast/luke_custer=true}] {"translate":"ssbrc.skin.luke_custer","color":"light_purple","click_event":{"action":"run_command","command":"trigger menu set 4"}}
+execute if data storage ssbrc:temp player.temp_data{skin:"luke_custer"} run tellraw @s ["",{"translate":"ssbrc.skin.luke_custer","color":"light_purple"},{"text":" ✔","color":"green"}]
+
+execute unless data storage ssbrc:temp player.temp_data{skin:"lost_warrior"} run tellraw @s[advancements={ssbrc:fighter/altered_beast/lost_warrior=true}] {"translate":"ssbrc.skin.lost_warrior","color":"dark_green","click_event":{"action":"run_command","command":"trigger menu set 5"}}
+execute if data storage ssbrc:temp player.temp_data{skin:"lost_warrior"} run tellraw @s ["",{"translate":"ssbrc.skin.lost_warrior","color":"dark_green"},{"text":" ✔","color":"green"}]
+
 function ssbrc:logic/fighter/menu/skin_options

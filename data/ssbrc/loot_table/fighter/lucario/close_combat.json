@@ -1,0 +1,71 @@
+{
+	"type": "minecraft:command",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:goat_horn",
+					"functions": [
+						{
+							"function": "minecraft:reference",
+							"name": "ssbrc:init/tooltip/ability/offensive"
+						},
+						{
+							"function": "minecraft:reference",
+							"name": "ssbrc:init/ability/stats"
+						},
+						{
+							"function": "minecraft:reference",
+							"name": "ssbrc:init/ability/instrument/default"
+						},
+						{
+							"function": "minecraft:set_lore",
+							"entity": "this",
+							"lore": [
+								{
+									"text": "- [",
+									"color": "gray",
+									"bold": false,
+									"italic": false,
+									"extra": [
+										{
+											"keybind": "key.use",
+											"color": "gray",
+											"bold": false,
+											"italic": false
+										},
+										{
+											"translate": "ssbrc.fighter.pokemon.close_combat.description.1",
+											"color": "gray",
+											"bold": false,
+											"italic": false
+										}
+									]
+								}
+							],
+							"mode": "append"
+						},
+						{
+							"function": "minecraft:set_components",
+							"components": {
+								"minecraft:use_cooldown": {
+									"seconds": 5,
+									"cooldown_group": "ssbrc:lucario/close_combat"
+								},
+								"minecraft:item_model": "ssbrc:common/pokemon/type_icon/fighting"
+							}
+						},
+						{
+							"function": "minecraft:set_custom_data",
+							"tag": {
+								"item": "close_combat"
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}

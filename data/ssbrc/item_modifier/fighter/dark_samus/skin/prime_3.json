@@ -5,7 +5,7 @@
 		"target": "item_name",
 		"name": {
 			"translate": "ssbrc.skin.prime_3",
-			"color": "dark_gray",
+			"color": "aqua",
 			"bold": true
 		}
 	},

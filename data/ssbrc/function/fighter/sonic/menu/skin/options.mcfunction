@@ -19,4 +19,7 @@ execute if data storage ssbrc:temp player.temp_data{skin:"werehog"} run tellraw 
 execute unless data storage ssbrc:temp player.temp_data{skin:"hylian_tunic"} run tellraw @s[advancements={ssbrc:fighter/sonic/hylian_tunic=true}] {"translate":"ssbrc.skin.hylian_tunic","color":"green","click_event":{"action":"run_command","command":"trigger menu set 5"}}
 execute if data storage ssbrc:temp player.temp_data{skin:"hylian_tunic"} run tellraw @s ["",{"translate":"ssbrc.skin.hylian_tunic","color":"green"},{"text":" ✔","color":"green"}]
 
+execute unless data storage ssbrc:temp player.temp_data{skin:"scarlet_speedster"} run tellraw @s[advancements={ssbrc:fighter/sonic/scarlet_speedster=true}] {"translate":"ssbrc.skin.scarlet_speedster","color":"red","click_event":{"action":"run_command","command":"trigger menu set 6"}}
+execute if data storage ssbrc:temp player.temp_data{skin:"scarlet_speedster"} run tellraw @s ["",{"translate":"ssbrc.skin.scarlet_speedster","color":"red"},{"text":" ✔","color":"green"}]
+
 function ssbrc:logic/fighter/menu/skin_options

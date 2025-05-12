@@ -19,4 +19,7 @@ execute if data storage ssbrc:temp player.temp_data{skin:"dawn"} run tellraw @s 
 execute unless data storage ssbrc:temp player.temp_data{skin:"victor"} run tellraw @s[advancements={ssbrc:fighter/pokemon_trainer/victor=true}] {"translate":"ssbrc.skin.victor","color":"dark_blue","click_event":{"action":"run_command","command":"trigger menu set 5"}}
 execute if data storage ssbrc:temp player.temp_data{skin:"victor"} run tellraw @s ["",{"translate":"ssbrc.skin.victor","color":"dark_blue"},{"text":" ✔","color":"green"}]
 
+execute unless data storage ssbrc:temp player.temp_data{skin:"juliana"} run tellraw @s[advancements={ssbrc:fighter/pokemon_trainer/juliana=true}] {"translate":"ssbrc.skin.juliana","color":"dark_purple","click_event":{"action":"run_command","command":"trigger menu set 6"}}
+execute if data storage ssbrc:temp player.temp_data{skin:"juliana"} run tellraw @s ["",{"translate":"ssbrc.skin.juliana","color":"dark_purple"},{"text":" ✔","color":"green"}]
+
 function ssbrc:logic/fighter/menu/skin_options

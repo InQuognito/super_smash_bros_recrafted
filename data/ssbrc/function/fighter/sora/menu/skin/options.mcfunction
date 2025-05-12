@@ -13,4 +13,10 @@ execute if data storage ssbrc:temp player.temp_data{skin:"gold"} run tellraw @s 
 execute unless data storage ssbrc:temp player.temp_data{skin:"timeless_river"} run tellraw @s[advancements={ssbrc:fighter/sora/timeless_river=true}] {"translate":"ssbrc.skin.timeless_river","color":"gray","click_event":{"action":"run_command","command":"trigger menu set 3"}}
 execute if data storage ssbrc:temp player.temp_data{skin:"timeless_river"} run tellraw @s ["",{"translate":"ssbrc.skin.timeless_river","color":"gray"},{"text":" ✔","color":"green"}]
 
+execute unless data storage ssbrc:temp player.temp_data{skin:"space_paranoids"} run tellraw @s[advancements={ssbrc:fighter/sora/space_paranoids=true}] {"translate":"ssbrc.skin.space_paranoids","color":"aqua","click_event":{"action":"run_command","command":"trigger menu set 4"}}
+execute if data storage ssbrc:temp player.temp_data{skin:"space_paranoids"} run tellraw @s ["",{"translate":"ssbrc.skin.space_paranoids","color":"aqua"},{"text":" ✔","color":"green"}]
+
+execute unless data storage ssbrc:temp player.temp_data{skin:"birth_by_sleep"} run tellraw @s[advancements={ssbrc:fighter/sora/birth_by_sleep=true}] {"translate":"ssbrc.skin.birth_by_sleep","color":"aqua","click_event":{"action":"run_command","command":"trigger menu set 5"}}
+execute if data storage ssbrc:temp player.temp_data{skin:"birth_by_sleep"} run tellraw @s ["",{"translate":"ssbrc.skin.birth_by_sleep","color":"aqua"},{"text":" ✔","color":"green"}]
+
 function ssbrc:logic/fighter/menu/skin_options

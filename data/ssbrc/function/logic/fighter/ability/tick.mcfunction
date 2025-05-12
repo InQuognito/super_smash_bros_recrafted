@@ -29,12 +29,14 @@ execute if entity @s[tag=shadow_sneak] run return run function ssbrc:fighter/gre
 
 # Hero
 execute if entity @s[tag=bang] run return run function ssbrc:fighter/hero/logic/abilities/bang/tick
+execute if entity @s[tag=frizz] run return run function ssbrc:fighter/hero/logic/abilities/frizz/tick
+execute if entity @s[tag=frizzle] run return run function ssbrc:fighter/hero/logic/abilities/frizzle/tick
+execute if entity @s[tag=kafrizz] run return run function ssbrc:fighter/hero/logic/abilities/kafrizz/tick
 
 # Jigglypuff
 execute if entity @s[tag=hyper_voice] run return run function ssbrc:fighter/jigglypuff/logic/abilities/hyper_voice/tick
 
 # Joker
-execute if entity @s[tag=tt33.bullet] run return run function ssbrc:fighter/joker/logic/abilities/tt33/tick
 execute if entity @s[tag=eiagon,tag=!exploded] run return run function ssbrc:fighter/joker/logic/abilities/eiagon/tick
 execute if entity @s[tag=eiagon,tag=exploded] run function ssbrc:fighter/joker/logic/abilities/eiagon/tick_exploded
 execute if entity @s[tag=hama] run return run function ssbrc:fighter/joker/logic/abilities/hama/tick
@@ -47,6 +49,9 @@ execute if entity @s[tag=blunderbuss] run return run function ssbrc:fighter/king
 # Link
 execute if entity @s[tag=sword_beam] run return run function ssbrc:fighter/link/logic/abilities/sword_beam/tick
 execute if entity @s[tag=link.boomerang] run return run function ssbrc:fighter/link/logic/abilities/boomerang/tick
+
+# Lucario
+execute if entity @s[tag=force_palm] run return run function ssbrc:fighter/lucario/logic/abilities/force_palm/tick
 
 # Luigi
 execute if entity @s[tag=ice_ball] run return run function ssbrc:fighter/luigi/logic/abilities/ice_ball/tick
@@ -69,6 +74,9 @@ execute if entity @s[tag=remote_mine] run return run function ssbrc:fighter/mega
 execute if entity @s[tag=pk_fire,tag=!exploded] run return run function ssbrc:fighter/ness/logic/abilities/pk_fire/tick
 execute if entity @s[tag=pk_fire,tag=exploded] run return run function ssbrc:fighter/ness/logic/abilities/pk_fire/tick_explosion
 execute if entity @s[tag=pk_flash] run return run function ssbrc:fighter/ness/logic/abilities/pk_flash/tick
+
+# Peach
+execute if entity @s[tag=turnip] run return run function ssbrc:fighter/peach/logic/abilities/trowel/tick
 
 # Pikachu
 execute if entity @s[tag=thunder_jolt] run return run function ssbrc:fighter/pikachu/logic/abilities/thunder_jolt/tick
@@ -100,16 +108,11 @@ execute if entity @s[tag=wave_beam] run return run function ssbrc:fighter/samus/
 execute if entity @s[tag=plasma_beam] run return run function ssbrc:fighter/samus/logic/abilities/plasma_beam/tick
 
 # Snake
-execute if entity @s[tag=psg1] run return run function ssbrc:fighter/snake/logic/abilities/psg1/tick
-execute if entity @s[tag=famas] run return run function ssbrc:fighter/snake/logic/abilities/famas/tick
-execute if entity @s[tag=s1000] run return run function ssbrc:fighter/snake/logic/abilities/s1000/tick
-execute if entity @s[tag=socom] run return run function ssbrc:fighter/snake/logic/abilities/socom/tick
 execute if entity @s[tag=anti_personnel_mine] unless block ~ ~-0.1 ~ #ssbrc:passthrough run return run function ssbrc:fighter/snake/logic/abilities/anti_personnel_mine/tick
 execute if entity @s[tag=smoke_grenade] unless block ~ ~-0.1 ~ #ssbrc:passthrough run return run function ssbrc:fighter/snake/logic/abilities/smoke_grenade/tick
 
 # Sora
 execute if entity @s[tag=firaga] run return run function ssbrc:fighter/sora/logic/abilities/fire/firaga/tick
-execute if entity @s[tag=blizzaga] run return run function ssbrc:fighter/sora/logic/abilities/blizzard/blizzaga/tick
 execute if entity @s[tag=blizzaza] run return run function ssbrc:fighter/sora/logic/abilities/blizzard/blizzaza/tick
 execute if entity @s[tag=thundaga] run return run function ssbrc:fighter/sora/logic/abilities/thunder/thundaga/tick
 execute if entity @s[tag=thundaza] run return run function ssbrc:fighter/sora/logic/abilities/thunder/thundaza/tick

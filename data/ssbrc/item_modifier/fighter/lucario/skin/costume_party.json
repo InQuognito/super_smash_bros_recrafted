@@ -1,0 +1,22 @@
+[
+	{
+		"function": "minecraft:set_name",
+		"entity": "this",
+		"target": "item_name",
+		"name": {
+			"translate": "ssbrc.skin.costume_party",
+			"color": "dark_gray",
+			"bold": true
+		}
+	},
+	{
+		"function": "minecraft:reference",
+		"name": "ssbrc:ui/shop/collection/autumn"
+	},
+	{
+		"function": "minecraft:set_components",
+		"components": {
+			"minecraft:item_model": "ssbrc:fighter/lucario/skin/costume_party"
+		}
+	}
+]

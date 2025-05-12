@@ -10,7 +10,13 @@ execute if data storage ssbrc:temp player.temp_data{skin:"default"} run tellraw 
 execute unless data storage ssbrc:temp player.temp_data{skin:"gold"} run tellraw @s[advancements={ssbrc:fighter/alucard/gold=true}] {"translate":"ssbrc.skin.gold","color":"gold","click_event":{"action":"run_command","command":"trigger menu set 2"}}
 execute if data storage ssbrc:temp player.temp_data{skin:"gold"} run tellraw @s ["",{"translate":"ssbrc.skin.gold","color":"gold"},{"text":" ✔","color":"green"}]
 
-execute unless data storage ssbrc:temp player.temp_data{skin:"lords_of_shadow"} run tellraw @s[advancements={ssbrc:fighter/alucard/lords_of_shadow=true}] {"translate":"ssbrc.skin.lords_of_shadow","color":"dark_gray","click_event":{"action":"run_command","command":"trigger menu set 3"}}
+execute unless data storage ssbrc:temp player.temp_data{skin:"judgement"} run tellraw @s[advancements={ssbrc:fighter/alucard/judgement=true}] {"translate":"ssbrc.skin.judgement","color":"blue","click_event":{"action":"run_command","command":"trigger menu set 3"}}
+execute if data storage ssbrc:temp player.temp_data{skin:"judgement"} run tellraw @s ["",{"translate":"ssbrc.skin.judgement","color":"blue"},{"text":" ✔","color":"green"}]
+
+execute unless data storage ssbrc:temp player.temp_data{skin:"lords_of_shadow"} run tellraw @s[advancements={ssbrc:fighter/alucard/lords_of_shadow=true}] {"translate":"ssbrc.skin.lords_of_shadow","color":"dark_gray","click_event":{"action":"run_command","command":"trigger menu set 4"}}
 execute if data storage ssbrc:temp player.temp_data{skin:"lords_of_shadow"} run tellraw @s ["",{"translate":"ssbrc.skin.lords_of_shadow","color":"dark_gray"},{"text":" ✔","color":"green"}]
+
+execute unless data storage ssbrc:temp player.temp_data{skin:"moonlight_rhapsody"} run tellraw @s[advancements={ssbrc:fighter/alucard/moonlight_rhapsody=true}] {"translate":"ssbrc.skin.moonlight_rhapsody","color":"red","click_event":{"action":"run_command","command":"trigger menu set 5"}}
+execute if data storage ssbrc:temp player.temp_data{skin:"moonlight_rhapsody"} run tellraw @s ["",{"translate":"ssbrc.skin.moonlight_rhapsody","color":"red"},{"text":" ✔","color":"green"}]
 
 function ssbrc:logic/fighter/menu/skin_options

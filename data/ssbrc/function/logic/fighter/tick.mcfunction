@@ -4,10 +4,6 @@ scoreboard players operation health temp = @s health
 scoreboard players operation health temp *= 100 const
 scoreboard players operation health temp /= 40 const
 
-execute store result score @s motion_x run data get entity @s Motion[1] 1000.0
-execute store result score @s motion_y run data get entity @s Motion[1] 1000.0
-execute store result score @s motion_z run data get entity @s Motion[1] 1000.0
-
 # Crawl
 execute if score @s crawling matches 1 run function ssbrc:logic/fighter/crawl/off
 execute unless score @s crawling matches 1 positioned ~ ~0.601 ~ unless entity @s[dx=0] unless predicate ssbrc:flag/flying run function ssbrc:logic/fighter/crawl/on
@@ -34,7 +30,7 @@ execute if score @s charge.input matches 1.. run function ssbrc:logic/fighter/it
 execute if score @s charge.input matches 2.. run function ssbrc:logic/fighter/item/refresh
 
 execute store result score @s selected_item run data get entity @s SelectedItemSlot
-execute unless score @s selected_item.prev = @s selected_item run function ssbrc:logic/fighter/change_slot
+execute unless score @s selected_item.prev = @s selected_item run function ssbrc:logic/fighter/change_slot with storage ssbrc:temp player.temp_data
 
 execute if items entity @s[scores={charge.output=1..},advancements={ssbrc:utility/use_item/any=false}] weapon.* #ssbrc:equipment_no_coas[minecraft:custom_data~{chargable:"true"}] run function ssbrc:logic/fighter/charge/activate
 execute if items entity @s[advancements={ssbrc:utility/use_item/any=true}] weapon.mainhand #ssbrc:equipment_no_coas[minecraft:custom_data~{chargable:"true"}] run function ssbrc:logic/fighter/charge/tick

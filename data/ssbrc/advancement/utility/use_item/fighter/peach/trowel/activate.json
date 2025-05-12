@@ -1,0 +1,42 @@
+{
+	"parent": "ssbrc:utility/use_item/root",
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:using_item",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:reference",
+						"name": "ssbrc:cooldown/universal"
+					},
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"equipment": {
+								"mainhand": {
+									"predicates": {
+										"minecraft:custom_data": {
+											"item": "trowel"
+										}
+									}
+								}
+							}
+						}
+					}
+				],
+				"item": {
+					"predicates": {
+						"minecraft:custom_data": {
+							"item": "trowel",
+							"primed": "true"
+						}
+					}
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "ssbrc:fighter/peach/logic/abilities/trowel/activate"
+	}
+}

@@ -16,4 +16,7 @@ execute if data storage ssbrc:temp player.temp_data{skin:"yellow_android"} run t
 execute unless data storage ssbrc:temp player.temp_data{skin:"sir_lancelot"} run tellraw @s[advancements={ssbrc:fighter/shadow/sir_lancelot=true}] {"translate":"ssbrc.skin.sir_lancelot","color":"red","click_event":{"action":"run_command","command":"trigger menu set 4"}}
 execute if data storage ssbrc:temp player.temp_data{skin:"sir_lancelot"} run tellraw @s ["",{"translate":"ssbrc.skin.sir_lancelot","color":"red"},{"text":" ✔","color":"green"}]
 
+execute unless data storage ssbrc:temp player.temp_data{skin:"dark_knight"} run tellraw @s[advancements={ssbrc:fighter/shadow/dark_knight=true}] {"translate":"ssbrc.skin.dark_knight","color":"dark_gray","click_event":{"action":"run_command","command":"trigger menu set 5"}}
+execute if data storage ssbrc:temp player.temp_data{skin:"dark_knight"} run tellraw @s ["",{"translate":"ssbrc.skin.dark_knight","color":"dark_gray"},{"text":" ✔","color":"green"}]
+
 function ssbrc:logic/fighter/menu/skin_options

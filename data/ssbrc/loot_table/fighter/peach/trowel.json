@@ -1,0 +1,84 @@
+{
+	"type": "minecraft:command",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:goat_horn",
+					"functions": [
+						{
+							"function": "minecraft:set_name",
+							"entity": "this",
+							"name": {
+								"translate": "ssbrc.fighter.peach.trowel",
+								"color": "gray",
+								"bold": true,
+								"italic": false
+							}
+						},
+						{
+							"function": "minecraft:reference",
+							"name": "ssbrc:init/preset/ranged"
+						},
+						{
+							"function": "minecraft:reference",
+							"name": "ssbrc:init/ability/instrument/default"
+						},
+						{
+							"function": "minecraft:set_lore",
+							"entity": "this",
+							"lore": [
+								{
+									"text": "- [",
+									"color": "gray",
+									"bold": false,
+									"italic": false,
+									"extra": [
+										{
+											"keybind": "key.use",
+											"color": "gray",
+											"bold": false,
+											"italic": false
+										},
+										{
+											"translate": "ssbrc.fighter.peach.trowel.description.1",
+											"color": "gray",
+											"bold": false,
+											"italic": false
+										}
+									]
+								},
+								{
+									"translate": "ssbrc.fighter.peach.trowel.description.2",
+									"color": "gray",
+									"bold": false,
+									"italic": false
+								}
+							],
+							"mode": "append"
+						},
+						{
+							"function": "minecraft:set_components",
+							"components": {
+								"minecraft:use_cooldown": {
+									"seconds": 0.5,
+									"cooldown_group": "ssbrc:peach/trowel"
+								},
+								"minecraft:item_model": "ssbrc:fighter/peach/item/trowel"
+							}
+						},
+						{
+							"function": "minecraft:set_custom_data",
+							"tag": {
+								"item": "trowel",
+								"primed": "false"
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}

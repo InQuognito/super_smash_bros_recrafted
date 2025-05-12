@@ -64,6 +64,9 @@ tag @s remove adaptive_armor
 # Link
 tag @s remove sword_spin
 
+# Lucario
+function ssbrc:fighter/lucario/logic/aura/reset
+
 # Mega Man
 function ssbrc:fighter/mega_man/logic/weapons/reset
 tag @s remove beat_call

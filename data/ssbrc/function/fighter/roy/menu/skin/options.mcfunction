@@ -10,4 +10,13 @@ execute if data storage ssbrc:temp player.temp_data{skin:"default"} run tellraw 
 execute unless data storage ssbrc:temp player.temp_data{skin:"gold"} run tellraw @s[advancements={ssbrc:fighter/roy/gold=true}] {"translate":"ssbrc.skin.gold","color":"gold","click_event":{"action":"run_command","command":"trigger menu set 2"}}
 execute if data storage ssbrc:temp player.temp_data{skin:"gold"} run tellraw @s ["",{"translate":"ssbrc.skin.gold","color":"gold"},{"text":" ✔","color":"green"}]
 
+execute unless data storage ssbrc:temp player.temp_data{skin:"young_lion"} run tellraw @s[advancements={ssbrc:fighter/roy/young_lion=true}] {"translate":"ssbrc.skin.young_lion","color":"red","click_event":{"action":"run_command","command":"trigger menu set 3"}}
+execute if data storage ssbrc:temp player.temp_data{skin:"young_lion"} run tellraw @s ["",{"translate":"ssbrc.skin.young_lion","color":"red"},{"text":" ✔","color":"green"}]
+
+execute unless data storage ssbrc:temp player.temp_data{skin:"awakening"} run tellraw @s[advancements={ssbrc:fighter/roy/awakening=true}] {"translate":"ssbrc.skin.awakening","color":"blue","click_event":{"action":"run_command","command":"trigger menu set 4"}}
+execute if data storage ssbrc:temp player.temp_data{skin:"awakening"} run tellraw @s ["",{"translate":"ssbrc.skin.awakening","color":"blue"},{"text":" ✔","color":"green"}]
+
+execute unless data storage ssbrc:temp player.temp_data{skin:"blazing_bachelor"} run tellraw @s[advancements={ssbrc:fighter/roy/blazing_bachelor=true}] {"translate":"ssbrc.skin.blazing_bachelor","click_event":{"action":"run_command","command":"trigger menu set 5"}}
+execute if data storage ssbrc:temp player.temp_data{skin:"blazing_bachelor"} run tellraw @s ["",{"translate":"ssbrc.skin.blazing_bachelor"},{"text":" ✔","color":"green"}]
+
 function ssbrc:logic/fighter/menu/skin_options
