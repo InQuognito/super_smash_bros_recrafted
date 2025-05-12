@@ -1,3 +1,5 @@
+function ssbrc:logic/fighter/ability/init
+
 data remove storage ssbrc:temp cache.rotation
 
 function ssbrc:fighter/joker/logic/abilities/tt33/offset {axis:"x"}
@@ -9,3 +11,5 @@ execute anchored eyes positioned ^ ^ ^0.5 run function ssbrc:fighter/joker/logic
 
 scoreboard players remove @s weapon_1.ammo 1
 scoreboard players operation @s hud = hud_frequency const
+
+function ssbrc:logic/fighter/ability/deinit
