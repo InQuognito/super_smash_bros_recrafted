@@ -4,7 +4,7 @@ execute if score @s respawn matches 2.. run function ssbrc:logic/fighter/respawn
 gamemode spectator @s[team=dead]
 gamemode spectator @s[team=spectator]
 
-execute if predicate ssbrc:ingame run function ssbrc:logic/game/player/ingame
+execute if entity @s[predicate=ssbrc:ingame,team=!spectator] run function ssbrc:logic/game/player/ingame
 
 execute unless data storage ssbrc:temp game.stage{name:"sector_z"} run effect give @s[predicate=ssbrc:player,predicate=ssbrc:below_y/0] minecraft:blindness 2 0 true
 
