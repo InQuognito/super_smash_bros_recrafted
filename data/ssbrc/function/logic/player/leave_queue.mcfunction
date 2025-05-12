@@ -39,6 +39,7 @@ scoreboard players add @s cooldown 0
 function ssbrc:shop/pages/main
 
 function ssbrc:logic/player/data/stats/init/set {value:"hard_resets"}
+function ssbrc:logic/player/data/temp/validate/start
 
 tag @s remove soft_load
 tag @s add loaded
