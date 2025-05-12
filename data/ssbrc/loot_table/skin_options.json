@@ -54,7 +54,7 @@
 							"components": {
 								"minecraft:use_cooldown": {
 									"seconds": 0.5,
-									"cooldown_group": "ssbrc:ui"
+									"cooldown_group": "ssbrc:ui/skin_options"
 								},
 								"minecraft:item_model": "ssbrc:ui/skin_options"
 							}
