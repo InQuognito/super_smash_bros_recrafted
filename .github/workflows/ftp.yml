@@ -51,9 +51,9 @@ jobs:
         with:
           name: ssbrc-latest
           path: |
-            build/super_smash_bros_recrafted_resource_pack/assets/
-            build/super_smash_bros_recrafted_resource_pack/pack.mcmeta
-            build/super_smash_bros_recrafted_resource_pack/pack.png
+            build/super_smash_bros_re_crafted_resource_pack/assets/
+            build/super_smash_bros_re_crafted_resource_pack/pack.mcmeta
+            build/super_smash_bros_re_crafted_resource_pack/pack.png
 
       - name: Send message to server
         env:

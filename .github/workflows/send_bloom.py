@@ -4,7 +4,7 @@ import os
 from pathlib import Path
 import time
 
-PACK = "build/super_smash_bros_recrafted_data_pack.zip"
+PACK = "build/super_smash_bros_re_crafted_data_pack.zip"
 TARGET = "world/datapacks/" + PACK
 URL = "https://mc.bloom.host/api/client/servers/e2d8cd97/"
 HEADERS = {
