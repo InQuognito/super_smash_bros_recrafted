@@ -40,6 +40,9 @@ jobs:
       - name: Install dependencies
         run: pip install beet
 
+      - name: Install dependencies
+        run: pip install bolt
+
       - name: Build Beet
         run: beet build
 
