@@ -1,0 +1,27 @@
+{
+	"model": {
+		"type": "minecraft:select",
+		"property": "minecraft:custom_model_data",
+		"cases": [
+			{
+				"when": "gold",
+				"model": {
+					"type": "minecraft:model",
+					"model": "ssbrc:fighter/shadow/item/sword/gold"
+				}
+			},
+			{
+				"when": "sir_lancelot",
+				"model": {
+					"type": "minecraft:model",
+					"model": "ssbrc:fighter/shadow/item/sword/sir_lancelot"
+				}
+			}
+		],
+		"fallback": {
+			"type": "minecraft:model",
+			"model": "ssbrc:fighter/shadow/item/sword/default"
+		}
+	},
+	"hand_animation_on_swap": false
+}

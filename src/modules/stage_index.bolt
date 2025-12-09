@@ -1,0 +1,35 @@
+from ssbrc.stages import stages, stage_count
+
+from ssbrc.ui import chest_map
+
+import math
+
+path = 'logic/pre_game/stage_select/stage_index/pages'
+
+pages = math.ceil(stage_count / len(chest_map))
+for prev in range(pages):
+	this = prev + 1
+	next = this + 1
+
+	function f'ssbrc:{path}/{this}':
+		data modify storage ssbrc:temp cache.ui merge value {'path':f'{path}/{this}','ui_color':'red'}
+		function ssbrc:logic/ui/reset with storage ssbrc:temp cache.ui
+
+		function ssbrc:logic/ui/buttons/placeholder/get {'slot':0}
+		if prev != 0:
+			function ssbrc:logic/ui/buttons/navigator {'path':f'{path}/{prev}','type':'back','slot':9}
+		else:
+			function ssbrc:logic/ui/buttons/placeholder/get {'slot':9}
+		function ssbrc:logic/ui/buttons/placeholder/get {'slot':18}
+
+		n = 1
+		for stage in list(stages.keys())[(prev * 15):(prev * 15) + 15]:
+			function ssbrc:logic/pre_game/stage_select/stage_index/buttons/stage/get {'name':stage,'slot':chest_map[n]}
+			n += 1
+
+		function ssbrc:logic/ui/buttons/placeholder/get {'slot':8}
+		if prev == (pages - 1):
+			function ssbrc:logic/ui/buttons/placeholder/get {'slot':17}
+		else:
+			function ssbrc:logic/ui/buttons/navigator {'path':f'{path}/{next}','type':'forward','slot':17}
+		function ssbrc:logic/ui/buttons/placeholder/get {'slot':26}

@@ -1,0 +1,79 @@
+{
+	"description": "",
+	"supported_items": "minecraft:iron_ingot",
+	"weight": 1,
+	"max_level": 1,
+	"min_cost": {
+		"base": 0,
+		"per_level_above_first": 0
+	},
+	"max_cost": {
+		"base": 0,
+		"per_level_above_first": 0
+	},
+	"anvil_cost": 0,
+	"slots": [
+		"chest"
+	],
+	"effects": {
+		"minecraft:post_attack": [
+			{
+				"enchanted": "victim",
+				"affected": "victim",
+				"effect": {
+					"type": "minecraft:run_function",
+					"function": "ssbrc:logic/training_dummy/damage_number/type/generic"
+				},
+				"requirements": {
+					"condition": "minecraft:damage_source_properties",
+					"predicate": {
+						"tags": [
+							{
+								"id": "ssbrc:generic",
+								"expected": true
+							}
+						]
+					}
+				}
+			},
+			{
+				"enchanted": "victim",
+				"affected": "victim",
+				"effect": {
+					"type": "minecraft:run_function",
+					"function": "ssbrc:logic/training_dummy/damage_number/type/burning"
+				},
+				"requirements": {
+					"condition": "minecraft:damage_source_properties",
+					"predicate": {
+						"tags": [
+							{
+								"id": "ssbrc:burning",
+								"expected": true
+							}
+						]
+					}
+				}
+			},
+			{
+				"enchanted": "victim",
+				"affected": "victim",
+				"effect": {
+					"type": "minecraft:run_function",
+					"function": "ssbrc:logic/training_dummy/damage_number/type/poison"
+				},
+				"requirements": {
+					"condition": "minecraft:damage_source_properties",
+					"predicate": {
+						"tags": [
+							{
+								"id": "ssbrc:poison",
+								"expected": true
+							}
+						]
+					}
+				}
+			}
+		]
+	}
+}

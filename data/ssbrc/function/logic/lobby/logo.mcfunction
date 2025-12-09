@@ -1,3 +1,0 @@
-$summon minecraft:item_display ~ ~ ~ {data:{interaction:{action:"tellraw @s [{\"text\":\"[\",\"color\":\"dark_$(color)\",\"bold\":true},{\"translate\":\"$(id)\",\"color\":\"$(color)\",\"click_event\":{\"action\":\"open_url\",\"url\":\"$(link)\"}},\"]\"]",type:"logo"}},item:{id:"minecraft:glowstone_dust",components:{"minecraft:item_model":"ssbrc:misc/logo/$(id)"}},Rotation:[-90f,0f],transformation:[0.75f,0f,0f,0f,0f,0.75f,0f,0f,0f,0f,0.75f,0f,0f,0f,0f,1f]}
-
-$summon minecraft:text_display ~ ~0.65 ~ {text:{"translate":"$(id)","color":"$(color)","bold":true},Rotation:[-90f,0f],transformation:[0.75f,0f,0f,0f,0f,0.75f,0f,0f,0f,0f,0.75f,0f,0f,0f,0f,1f],alignment:'center'}

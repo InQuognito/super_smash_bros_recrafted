@@ -1,0 +1,114 @@
+{
+	"model": {
+		"type": "minecraft:select",
+		"property": "minecraft:custom_model_data",
+		"cases": [
+			{
+				"when": "gold",
+				"model": {
+					"type": "minecraft:range_dispatch",
+					"property": "minecraft:custom_model_data",
+					"entries": [
+						{
+							"threshold": 1.0,
+							"model": {
+								"type": "minecraft:model",
+								"model": "ssbrc:fighter/rob/item/robo_beam/gold/ready"
+							}
+						},
+						{
+							"threshold": 2.0,
+							"model": {
+								"type": "minecraft:model",
+								"model": "ssbrc:fighter/rob/item/robo_beam/gold/charged"
+							}
+						}
+					],
+					"fallback": {
+						"type": "minecraft:model",
+						"model": "ssbrc:fighter/rob/item/robo_beam/gold/default"
+					}
+				}
+			},
+			{
+				"when": "ancient_minister",
+				"model": {
+					"type": "minecraft:range_dispatch",
+					"property": "minecraft:custom_model_data",
+					"entries": [
+						{
+							"threshold": 1.0,
+							"model": {
+								"type": "minecraft:model",
+								"model": "ssbrc:fighter/rob/item/robo_beam/ancient_minister/ready"
+							}
+						},
+						{
+							"threshold": 2.0,
+							"model": {
+								"type": "minecraft:model",
+								"model": "ssbrc:fighter/rob/item/robo_beam/ancient_minister/charged"
+							}
+						}
+					],
+					"fallback": {
+						"type": "minecraft:model",
+						"model": "ssbrc:fighter/rob/item/robo_beam/ancient_minister/default"
+					}
+				}
+			},
+			{
+				"when": "famicom",
+				"model": {
+					"type": "minecraft:range_dispatch",
+					"property": "minecraft:custom_model_data",
+					"entries": [
+						{
+							"threshold": 1.0,
+							"model": {
+								"type": "minecraft:model",
+								"model": "ssbrc:fighter/rob/item/robo_beam/famicom/ready"
+							}
+						},
+						{
+							"threshold": 2.0,
+							"model": {
+								"type": "minecraft:model",
+								"model": "ssbrc:fighter/rob/item/robo_beam/famicom/charged"
+							}
+						}
+					],
+					"fallback": {
+						"type": "minecraft:model",
+						"model": "ssbrc:fighter/rob/item/robo_beam/famicom/default"
+					}
+				}
+			}
+		],
+		"fallback": {
+			"type": "minecraft:range_dispatch",
+			"property": "minecraft:custom_model_data",
+			"entries": [
+				{
+					"threshold": 1.0,
+					"model": {
+						"type": "minecraft:model",
+						"model": "ssbrc:fighter/rob/item/robo_beam/default/ready"
+					}
+				},
+				{
+					"threshold": 2.0,
+					"model": {
+						"type": "minecraft:model",
+						"model": "ssbrc:fighter/rob/item/robo_beam/default/charged"
+					}
+				}
+			],
+			"fallback": {
+				"type": "minecraft:model",
+				"model": "ssbrc:fighter/rob/item/robo_beam/default/default"
+			}
+		}
+	},
+	"hand_animation_on_swap": false
+}

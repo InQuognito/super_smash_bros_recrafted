@@ -1,0 +1,18 @@
+from ssbrc.fighters import fighters, count_skins, get_color
+
+from itertools import chain
+
+for fighter in fighters:
+	i = 1
+	function f'ssbrc:fighter/{fighter}/menu/skin/random':
+		if fighter in ['byleth', 'villager']:
+			obj = f'execute store result score random.output temp run random value 1..{count_skins(fighter)/2}'
+		else:
+			obj = f'execute store result score random.output temp run random value 1..{count_skins(fighter)}'
+		raw obj
+
+		for skin in chain(['default'], fighters[fighter]['skins']):
+			if score random.output temp matches i if entity @s[advancements={f'ssbrc:fighter/{fighter}/{skin}'=true}] return run function ssbrc:logic/fighter/select_skin {'fighter':fighter,'skin':skin,'color':get_color(fighter, skin)}
+			i += 1
+
+		function f'ssbrc:fighter/{fighter}/menu/skin/random'

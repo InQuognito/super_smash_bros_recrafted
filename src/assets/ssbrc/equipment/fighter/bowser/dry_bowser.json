@@ -1,0 +1,10 @@
+{
+	"layers": {
+		"humanoid": [
+			{ "texture": "ssbrc:fighter/bowser/dry_bowser" }
+		],
+		"humanoid_leggings": [
+			{ "texture": "ssbrc:fighter/bowser/dry_bowser" }
+		]
+	}
+}

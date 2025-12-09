@@ -1,0 +1,201 @@
+{
+	"description": "",
+	"supported_items": "minecraft:stick",
+	"weight": 1,
+	"max_level": 1,
+	"min_cost": {
+		"base": 0,
+		"per_level_above_first": 0
+	},
+	"max_cost": {
+		"base": 0,
+		"per_level_above_first": 0
+	},
+	"anvil_cost": 0,
+	"slots": [
+		"mainhand"
+	],
+	"effects": {
+		"minecraft:post_attack": [
+			{
+				"enchanted": "attacker",
+				"affected": "victim",
+				"effect": {
+					"type": "minecraft:damage_entity",
+					"damage_type": "ssbrc:generic",
+					"min_damage": 0.65,
+					"max_damage": 0.65
+				},
+				"requirements": {
+					"condition": "minecraft:entity_scores",
+					"entity": "attacker",
+					"scores": {
+						"health": {
+							"min": 33,
+							"max": 36
+						}
+					}
+				}
+			},
+			{
+				"enchanted": "attacker",
+				"affected": "victim",
+				"effect": {
+					"type": "minecraft:damage_entity",
+					"damage_type": "ssbrc:generic",
+					"min_damage": 1.49,
+					"max_damage": 1.49
+				},
+				"requirements": {
+					"condition": "minecraft:entity_scores",
+					"entity": "attacker",
+					"scores": {
+						"health": {
+							"min": 29,
+							"max": 32
+						}
+					}
+				}
+			},
+			{
+				"enchanted": "attacker",
+				"affected": "victim",
+				"effect": {
+					"type": "minecraft:damage_entity",
+					"damage_type": "ssbrc:generic",
+					"min_damage": 2.48,
+					"max_damage": 2.48
+				},
+				"requirements": {
+					"condition": "minecraft:entity_scores",
+					"entity": "attacker",
+					"scores": {
+						"health": {
+							"min": 25,
+							"max": 28
+						}
+					}
+				}
+			},
+			{
+				"enchanted": "attacker",
+				"affected": "victim",
+				"effect": {
+					"type": "minecraft:damage_entity",
+					"damage_type": "ssbrc:generic",
+					"min_damage": 3.60,
+					"max_damage": 3.60
+				},
+				"requirements": {
+					"condition": "minecraft:entity_scores",
+					"entity": "attacker",
+					"scores": {
+						"health": {
+							"min": 21,
+							"max": 24
+						}
+					}
+				}
+			},
+			{
+				"enchanted": "attacker",
+				"affected": "victim",
+				"effect": {
+					"type": "minecraft:damage_entity",
+					"damage_type": "ssbrc:generic",
+					"min_damage": 4.85,
+					"max_damage": 4.85
+				},
+				"requirements": {
+					"condition": "minecraft:entity_scores",
+					"entity": "attacker",
+					"scores": {
+						"health": {
+							"min": 17,
+							"max": 20
+						}
+					}
+				}
+			},
+			{
+				"enchanted": "attacker",
+				"affected": "victim",
+				"effect": {
+					"type": "minecraft:damage_entity",
+					"damage_type": "ssbrc:generic",
+					"min_damage": 6.20,
+					"max_damage": 6.20
+				},
+				"requirements": {
+					"condition": "minecraft:entity_scores",
+					"entity": "attacker",
+					"scores": {
+						"health": {
+							"min": 13,
+							"max": 16
+						}
+					}
+				}
+			},
+			{
+				"enchanted": "attacker",
+				"affected": "victim",
+				"effect": {
+					"type": "minecraft:damage_entity",
+					"damage_type": "ssbrc:generic",
+					"min_damage": 7.65,
+					"max_damage": 7.65
+				},
+				"requirements": {
+					"condition": "minecraft:entity_scores",
+					"entity": "attacker",
+					"scores": {
+						"health": {
+							"min": 9,
+							"max": 12
+						}
+					}
+				}
+			},
+			{
+				"enchanted": "attacker",
+				"affected": "victim",
+				"effect": {
+					"type": "minecraft:damage_entity",
+					"damage_type": "ssbrc:generic",
+					"min_damage": 9.20,
+					"max_damage": 9.20
+				},
+				"requirements": {
+					"condition": "minecraft:entity_scores",
+					"entity": "attacker",
+					"scores": {
+						"health": {
+							"min": 5,
+							"max": 8
+						}
+					}
+				}
+			},
+			{
+				"enchanted": "attacker",
+				"affected": "victim",
+				"effect": {
+					"type": "minecraft:damage_entity",
+					"damage_type": "ssbrc:generic",
+					"min_damage": 10.83,
+					"max_damage": 10.83
+				},
+				"requirements": {
+					"condition": "minecraft:entity_scores",
+					"entity": "attacker",
+					"scores": {
+						"health": {
+							"max": 4
+						}
+					}
+				}
+			}
+		]
+	}
+}

@@ -1,0 +1,31 @@
+{
+	"parent": "ssbrc:utility/use_item/fishing/root",
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:using_item",
+			"conditions": {
+				"player": {
+					"equipment": {
+						"mainhand": {
+							"predicates": {
+								"minecraft:custom_data": {
+									"item": "troupple"
+								}
+							}
+						}
+					}
+				},
+				"item": {
+					"predicates": {
+						"minecraft:custom_data": {
+							"item": "troupple"
+						}
+					}
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "ssbrc:logic/fishing/fish/troupple"
+	}
+}

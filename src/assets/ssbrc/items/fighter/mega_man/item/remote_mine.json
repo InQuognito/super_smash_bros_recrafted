@@ -1,0 +1,47 @@
+{
+	"model": {
+		"type": "minecraft:select",
+		"property": "minecraft:display_context",
+		"cases": [
+			{
+				"when": "gui",
+				"model": {
+					"type": "minecraft:model",
+					"model": "ssbrc:fighter/mega_man/misc/remote_mine"
+				}
+			}
+		],
+		"fallback": {
+			"type": "minecraft:select",
+			"property": "minecraft:custom_model_data",
+			"cases": [
+				{
+					"when": "x",
+					"model": {
+						"type": "minecraft:model",
+						"model": "ssbrc:fighter/mega_man/item/remote_mine/x"
+					}
+				},
+				{
+					"when": "star_force",
+					"model": {
+						"type": "minecraft:model",
+						"model": "ssbrc:fighter/mega_man/item/remote_mine/star_force"
+					}
+				},
+				{
+					"when": "bad_box_art",
+					"model": {
+						"type": "minecraft:model",
+						"model": "ssbrc:fighter/mega_man/item/mega_buster/bad_box_art"
+					}
+				}
+			],
+			"fallback": {
+				"type": "minecraft:model",
+				"model": "ssbrc:fighter/mega_man/item/remote_mine/default"
+			}
+		}
+	},
+	"hand_animation_on_swap": false
+}

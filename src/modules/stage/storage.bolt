@@ -1,0 +1,4 @@
+from ssbrc.stages import stages, stage_storage
+
+function ssbrc:logic/init/stage:
+	data modify storage ssbrc:data stage set value stage_storage()

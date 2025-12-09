@@ -1,0 +1,27 @@
+{
+	"model": {
+		"type": "minecraft:select",
+		"property": "minecraft:custom_model_data",
+		"cases": [
+			{
+				"when": "gold",
+				"model": {
+					"type": "minecraft:model",
+					"model": "ssbrc:fighter/ryu/misc/ashura_senku/gold/2"
+				}
+			},
+			{
+				"when": "hot_ryu",
+				"model": {
+					"type": "minecraft:model",
+					"model": "ssbrc:fighter/ryu/misc/ashura_senku/hot_ryu/2"
+				}
+			}
+		],
+		"fallback": {
+			"type": "minecraft:model",
+			"model": "ssbrc:fighter/ryu/misc/ashura_senku/default/2"
+		}
+	},
+	"hand_animation_on_swap": false
+}

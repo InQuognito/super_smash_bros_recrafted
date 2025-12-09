@@ -1,0 +1,25 @@
+from ssbrc.fighters import fighters
+
+from ssbrc.ui import chest_map
+
+for fighter in fighters:
+	n = 1
+	function f'ssbrc:shop/pages/skin/{fighter}':
+		data modify storage ssbrc:temp cache.ui merge value {path: "shop/buttons/skin/find_page", name: fighter}
+		$function ssbrc:logic/ui/page_color/skin {page: "$(page)"}
+		function ssbrc:logic/ui/fighter_reset with storage ssbrc:temp cache.ui
+
+		function ssbrc:logic/ui/buttons/fighter_placeholder/get {slot: 0}
+		$function ssbrc:logic/ui/buttons/navigator {path: "shop/pages/fighter/$(page)", type: "back", slot: 9}
+		function ssbrc:logic/ui/buttons/fighter_placeholder/get {slot: 18}
+
+		for skin in fighters[fighter]['skins']:
+			if skin == 'gold':
+				continue
+			if skin != 'shiny':
+				function ssbrc:shop/buttons/skin/get {skin: skin, slot: chest_map[n]}
+				n += 1
+
+		function ssbrc:logic/ui/buttons/fighter_placeholder/get {slot: 8}
+		function ssbrc:logic/ui/buttons/fighter_placeholder/get {slot: 17}
+		function ssbrc:logic/ui/buttons/fighter_placeholder/get {slot: 26}

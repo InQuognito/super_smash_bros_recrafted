@@ -1,0 +1,6 @@
+{
+	"parent": "ssbrc:fighter/alucard/item/alucard_sword/parent",
+	"textures": {
+		"layer0": "ssbrc:fighter/alucard/item/alucard_sword/default"
+	}
+}

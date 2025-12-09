@@ -1,0 +1,3369 @@
+{
+	"empty": {
+		"sounds": [
+		]
+	},
+	"one": {
+		"sounds": [
+			{
+				"name": "ssbrc:announcer/one",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"two": {
+		"sounds": [
+			{
+				"name": "ssbrc:announcer/two",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"three": {
+		"sounds": [
+			{
+				"name": "ssbrc:announcer/three",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"four": {
+		"sounds": [
+			{
+				"name": "ssbrc:announcer/four",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"five": {
+		"sounds": [
+			{
+				"name": "ssbrc:announcer/five",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"game": {
+		"sounds": [
+			{
+				"name": "ssbrc:announcer/game",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"go": {
+		"sounds": [
+			{
+				"name": "ssbrc:announcer/go",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"sudden_death": {
+		"sounds": [
+			{
+				"name": "ssbrc:announcer/sudden_death",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"time": {
+		"sounds": [
+			{
+				"name": "ssbrc:announcer/time",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"announcer.winner": {
+		"sounds": [
+			{
+				"name": "ssbrc:announcer/winner",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"fighter.altered_beast.werebear.petrifying_breath.activate": {
+		"sounds": [
+			{
+				"name": "ssbrc:fighter/altered_beast/werebear/petrifying_breath/activate",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"fighter.altered_beast.werebear.petrifying_breath.deactivate": {
+		"sounds": [
+			{
+				"name": "ssbrc:fighter/altered_beast/werebear/petrifying_breath/deactivate",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"fighter.altered_beast.werebear.petrifying_breath.hit": {
+		"sounds": [
+			{
+				"name": "ssbrc:fighter/altered_beast/werebear/petrifying_breath/hit",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"fighter.altered_beast.werebear.transform": {
+		"sounds": [
+			{
+				"name": "ssbrc:fighter/altered_beast/werebear/transform",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"fighter.altered_beast.weredragon.electrocution.hit": {
+		"sounds": [
+			{
+				"name": "ssbrc:fighter/altered_beast/weredragon/electrocution/hit",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"fighter.altered_beast.weredragon.electrocution.loop": {
+		"sounds": [
+			{
+				"name": "ssbrc:fighter/altered_beast/weredragon/electrocution/loop",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"fighter.altered_beast.weredragon.transform": {
+		"sounds": [
+			{
+				"name": "ssbrc:fighter/altered_beast/weredragon/transform",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"fighter.altered_beast.weretiger.transform": {
+		"sounds": [
+			{
+				"name": "ssbrc:fighter/altered_beast/weretiger/transform",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"fighter.altered_beast.werewolf.flame_arrow.activate": {
+		"sounds": [
+			{
+				"name": "ssbrc:fighter/altered_beast/werewolf/flame_arrow/activate",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"fighter.altered_beast.werewolf.flame_hands.activate": {
+		"sounds": [
+			{
+				"name": "ssbrc:fighter/altered_beast/werewolf/flame_hands/activate",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"fighter.altered_beast.werewolf.transform": {
+		"sounds": [
+			{
+				"name": "ssbrc:fighter/altered_beast/werewolf/transform",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"fighter.altered_beast.spawn": {
+		"sounds": [
+			{
+				"name": "ssbrc:fighter/altered_beast/spawn",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"fighter.alucard.holy_water.activate": {
+		"sounds": [
+			{
+				"name": "ssbrc:fighter/alucard/holy_water/activate",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"fighter.alucard.holy_water.break": {
+		"sounds": [
+			{
+				"name": "ssbrc:fighter/alucard/holy_water/break",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"fighter.alucard.holy_water.fire": {
+		"sounds": [
+			{
+				"name": "ssbrc:fighter/alucard/holy_water/fire",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"fighter.alucard.mist.deactivate": {
+		"sounds": [
+			{
+				"name": "ssbrc:fighter/alucard/mist/deactivate",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"fighter.alucard.mist.activate": {
+		"sounds": [
+			{
+				"name": "ssbrc:fighter/alucard/mist/activate",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"fighter.bowser.fire_breath.activate": {
+		"sounds": [
+			{
+				"name": "ssbrc:fighter/bowser/fire_breath/activate",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"fighter.bowser.fire_breath.loop": {
+		"sounds": [
+			{
+				"name": "ssbrc:fighter/bowser/fire_breath/loop/1",
+				"stream": false,
+				"volume": 1.0
+			},
+			{
+				"name": "ssbrc:fighter/bowser/fire_breath/loop/2",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"fighter.bowser.rage.activate": {
+		"sounds": [
+			{
+				"name": "ssbrc:fighter/bowser/rage/activate",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"fighter.bowser.rage.deactivate": {
+		"sounds": [
+			{
+				"name": "ssbrc:fighter/bowser/rage/deactivate",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"fighter.byleth.black_eagles.aymr.activate": {
+		"sounds": [
+			{
+				"name": "ssbrc:fighter/byleth/black_eagles/aymr/activate",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"fighter.byleth.black_eagles.aymr.charge": {
+		"sounds": [
+			{
+				"name": "ssbrc:fighter/byleth/black_eagles/aymr/charge",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"fighter.byleth.blue_lions.spin_attack.default": {
+		"sounds": [
+			{
+				"name": "ssbrc:fighter/byleth/blue_lions/spin_attack/default",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"fighter.byleth.blue_lions.spin_attack.awakened": {
+		"sounds": [
+			{
+				"name": "ssbrc:fighter/byleth/blue_lions/spin_attack/awakened",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"fighter.byleth.golden_deer.failnaught.awakened": {
+		"sounds": [
+			{
+				"name": "ssbrc:fighter/byleth/golden_deer/failnaught/awakened",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"fighter.byleth.golden_deer.failnaught.charge": {
+		"sounds": [
+			{
+				"name": "ssbrc:fighter/byleth/golden_deer/failnaught/charge",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"fighter.captain_falcon.falcon_charge.activate": {
+		"sounds": [
+			{
+				"name": "ssbrc:fighter/captain_falcon/falcon_charge/activate",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"fighter.captain_falcon.falcon_charge.deactivate": {
+		"sounds": [
+			{
+				"name": "ssbrc:fighter/captain_falcon/falcon_charge/deactivate",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"fighter.captain_falcon.falcon_kick.activate": {
+		"sounds": [
+			{
+				"name": "ssbrc:fighter/captain_falcon/falcon_kick/activate",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"fighter.captain_falcon.falcon_kick.voice": {
+		"sounds": [
+			{
+				"name": "ssbrc:fighter/captain_falcon/falcon_kick/voice",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"fighter.captain_falcon.falcon_punch.default.charge_voice": {
+		"sounds": [
+			{
+				"name": "ssbrc:fighter/captain_falcon/falcon_punch/default/charge_voice",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"fighter.captain_falcon.falcon_punch.default.charge": {
+		"sounds": [
+			{
+				"name": "ssbrc:fighter/captain_falcon/falcon_punch/default/charge",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"fighter.captain_falcon.falcon_punch.default.unleash_voice": {
+		"sounds": [
+			{
+				"name": "ssbrc:fighter/captain_falcon/falcon_punch/default/unleash_voice",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"fighter.captain_falcon.falcon_punch.default.unleash": {
+		"sounds": [
+			{
+				"name": "ssbrc:fighter/captain_falcon/falcon_punch/default/unleash",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"fighter.captain_falcon.raptor_boost.activate": {
+		"sounds": [
+			{
+				"name": "ssbrc:fighter/captain_falcon/raptor_boost/activate",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"fighter.captain_falcon.raptor_boost.hit": {
+		"sounds": [
+			{
+				"name": "ssbrc:fighter/captain_falcon/raptor_boost/hit",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"fighter.cloud.blade_beam.activate_limit": {
+		"sounds": [
+			{
+				"name": "ssbrc:fighter/cloud/blade_beam/activate_limit",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"fighter.cloud.blade_beam.activate": {
+		"sounds": [
+			{
+				"name": "ssbrc:fighter/cloud/blade_beam/activate",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"fighter.cloud.cross_slash.activate": {
+		"sounds": [
+			{
+				"name": "ssbrc:fighter/cloud/cross_slash/activate",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"fighter.cloud.cross_slash.hit1": {
+		"sounds": [
+			{
+				"name": "ssbrc:fighter/cloud/cross_slash/hit1",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"fighter.cloud.cross_slash.hit2": {
+		"sounds": [
+			{
+				"name": "ssbrc:fighter/cloud/cross_slash/hit2",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"fighter.cloud.cross_slash.hit3": {
+		"sounds": [
+			{
+				"name": "ssbrc:fighter/cloud/cross_slash/hit3",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"fighter.cloud.cross_slash.hit4": {
+		"sounds": [
+			{
+				"name": "ssbrc:fighter/cloud/cross_slash/hit4",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"fighter.cloud.limit.ready": {
+		"sounds": [
+			{
+				"name": "ssbrc:fighter/cloud/limit/ready",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"fighter.cloud.mode_switch.operator": {
+		"sounds": [
+			{
+				"name": "ssbrc:fighter/cloud/mode_switch/operator",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"fighter.cloud.mode_switch.punisher": {
+		"sounds": [
+			{
+				"name": "ssbrc:fighter/cloud/mode_switch/punisher",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"fighter.dark_samus.phazon_beam.activate.1": {
+		"sounds": [
+			{
+				"name": "ssbrc:fighter/dark_samus/phazon_beam/activate/1",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"fighter.dark_samus.phazon_beam.activate.2": {
+		"sounds": [
+			{
+				"name": "ssbrc:fighter/dark_samus/phazon_beam/activate/2",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"fighter.dark_samus.phazon_beam.activate.3": {
+		"sounds": [
+			{
+				"name": "ssbrc:fighter/dark_samus/phazon_beam/activate/3",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},"fighter.dark_samus.phazon_beam.activate.4": {
+		"sounds": [
+			{
+				"name": "ssbrc:fighter/dark_samus/phazon_beam/activate/4",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"fighter.dark_samus.phazon_overload.activate": {
+		"sounds": [
+			{
+				"name": "ssbrc:fighter/dark_samus/phazon_overload/activate",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"fighter.dark_samus.phazon_spike.activate": {
+		"sounds": [
+			{
+				"name": "ssbrc:fighter/dark_samus/phazon_spike/activate",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"fighter.donkey_kong.barrel.activate": {
+		"sounds": [
+			{
+				"name": "ssbrc:fighter/donkey_kong/barrel/activate",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"fighter.donkey_kong.barrel.bounce": {
+		"sounds": [
+			{
+				"name": "ssbrc:fighter/donkey_kong/barrel/bounce",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"fighter.donkey_kong.barrel.explode": {
+		"sounds": [
+			{
+				"name": "ssbrc:fighter/donkey_kong/barrel/explode",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"fighter.donkey_kong.hand_slap.activate": {
+		"sounds": [
+			{
+				"name": "ssbrc:fighter/donkey_kong/hand_slap/activate",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"fighter.donkey_kong.orange_grenade.bounce": {
+		"sounds": [
+			{
+				"name": "ssbrc:fighter/donkey_kong/orange_grenade/bounce",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"fighter.fox.blaster.activate": {
+		"sounds": [
+			{
+				"name": "ssbrc:fighter/fox/blaster/activate",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"fighter.fox.blaster.hit": {
+		"sounds": [
+			{
+				"name": "ssbrc:fighter/fox/blaster/hit",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"fighter.fox.fire_fox.activate": {
+		"sounds": [
+			{
+				"name": "ssbrc:fighter/fox/fire_fox/activate",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"fighter.fox.fire_fox.charge": {
+		"sounds": [
+			{
+				"name": "ssbrc:fighter/fox/fire_fox/charge",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"fighter.fox.krazoan_staff.activate": {
+		"sounds": [
+			{
+				"name": "ssbrc:fighter/fox/krazoan_staff/activate",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"fighter.fox.reflector.activate": {
+		"sounds": [
+			{
+				"name": "ssbrc:fighter/fox/reflector/activate",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"fighter.fox.reflector.loop": {
+		"sounds": [
+			{
+				"name": "ssbrc:fighter/fox/reflector/loop",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"fighter.fox.reflector.reflect": {
+		"sounds": [
+			{
+				"name": "ssbrc:fighter/fox/reflector/reflect",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"fighter.giegue.pk_beam.activate": {
+		"sounds": [
+			{
+				"name": "ssbrc:fighter/giegue/pk_beam/activate",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"fighter.giegue.pk_beam.charge": {
+		"sounds": [
+			{
+				"name": "ssbrc:fighter/giegue/pk_beam/charge",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"fighter.giegue.pk_freeze.activate": {
+		"sounds": [
+			{
+				"name": "ssbrc:fighter/giegue/pk_freeze/activate",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"fighter.giegue.pk_freeze.split": {
+		"sounds": [
+			{
+				"name": "ssbrc:fighter/giegue/pk_freeze/split",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"fighter.giegue.4th_dimensional_slip.activate": {
+		"sounds": [
+			{
+				"name": "ssbrc:fighter/giegue/4th_dimensional_slip/activate",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"fighter.greninja.shadow_sneak.activate": {
+		"sounds": [
+			{
+				"name": "ssbrc:fighter/greninja/shadow_sneak/activate",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"fighter.greninja.shadow_sneak.charge": {
+		"sounds": [
+			{
+				"name": "ssbrc:fighter/greninja/shadow_sneak/charge",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"fighter.greninja.water_shuriken.activate": {
+		"sounds": [
+			{
+				"name": "ssbrc:fighter/greninja/water_shuriken/activate",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"fighter.hero.bang.activate": {
+		"sounds": [
+			{
+				"name": "ssbrc:fighter/hero/bang/activate",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"fighter.hero.flame_slash.hit": {
+		"sounds": [
+			{
+				"name": "ssbrc:fighter/hero/flame_slash/hit",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"fighter.hero.kaclang.activate": {
+		"sounds": [
+			{
+				"name": "ssbrc:fighter/hero/kaclang/activate",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"fighter.hero.magic_burst.activate": {
+		"sounds": [
+			{
+				"name": "ssbrc:fighter/hero/magic_burst/activate",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"fighter.hero.magic_burst.unleash": {
+		"sounds": [
+			{
+				"name": "ssbrc:fighter/hero/magic_burst/unleash",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"fighter.hero.insufficient_magic": {
+		"sounds": [
+			{
+				"name": "ssbrc:fighter/hero/insufficient_magic",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"fighter.jigglypuff.hyper_voice.activate": {
+		"sounds": [
+			{
+				"name": "ssbrc:fighter/jigglypuff/hyper_voice/activate",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"fighter.jigglypuff.rest.snore.in": {
+		"sounds": [
+			{
+				"name": "ssbrc:fighter/jigglypuff/rest/snore/in",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"fighter.jigglypuff.rest.snore.out": {
+		"sounds": [
+			{
+				"name": "ssbrc:fighter/jigglypuff/rest/snore/out",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"fighter.jigglypuff.rest.activate": {
+		"sounds": [
+			{
+				"name": "ssbrc:fighter/jigglypuff/rest/activate",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"fighter.jigglypuff.rest.deactivate": {
+		"sounds": [
+			{
+				"name": "ssbrc:fighter/jigglypuff/rest/deactivate",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"fighter.joker.amrita_shower.activate": {
+		"sounds": [
+			{
+				"name": "ssbrc:fighter/joker/amrita_shower/activate",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"fighter.joker.dream_needle.activate": {
+		"sounds": [
+			{
+				"name": "ssbrc:fighter/joker/dream_needle/activate",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"fighter.joker.eiagon.activate": {
+		"sounds": [
+			{
+				"name": "ssbrc:fighter/joker/eiagon/activate",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"fighter.joker.eiagon.pool": {
+		"sounds": [
+			{
+				"name": "ssbrc:fighter/joker/eiagon/pool",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"fighter.joker.fire_boost.hit": {
+		"sounds": [
+			{
+				"name": "ssbrc:fighter/joker/fire_boost/hit",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"fighter.joker.freeze_boost.hit": {
+		"sounds": [
+			{
+				"name": "ssbrc:fighter/joker/freeze_boost/hit",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"fighter.joker.hama.activate": {
+		"sounds": [
+			{
+				"name": "ssbrc:fighter/joker/hama/activate",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"fighter.joker.hama.execute": {
+		"sounds": [
+			{
+				"name": "ssbrc:fighter/joker/hama/execute",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"fighter.joker.persona_awakening.activate": {
+		"sounds": [
+			{
+				"name": "ssbrc:fighter/joker/persona_awakening/activate",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"fighter.joker.persona_awakening.deactivate": {
+		"sounds": [
+			{
+				"name": "ssbrc:fighter/joker/persona_awakening/deactivate",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"fighter.joker.rebels_guard.physical": {
+		"sounds": [
+			{
+				"name": "ssbrc:fighter/joker/rebels_guard/physical",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"fighter.joker.rebels_guard.projectile": {
+		"sounds": [
+			{
+				"name": "ssbrc:fighter/joker/rebels_guard/projectile",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"fighter.joker.tt33.activate": {
+		"sounds": [
+			{
+				"name": "ssbrc:fighter/joker/tt33/activate",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"fighter.king_k_rool.adaptive_armor.activate": {
+		"sounds": [
+			{
+				"name": "ssbrc:fighter/king_k_rool/adaptive_armor/activate",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"fighter.king_k_rool.adaptive_armor.shatter": {
+		"sounds": [
+			{
+				"name": "ssbrc:fighter/king_k_rool/adaptive_armor/shatter",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"fighter.king_k_rool.blunderbuss.activate": {
+		"sounds": [
+			{
+				"name": "ssbrc:fighter/king_k_rool/blunderbuss/activate",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"fighter.king_k_rool.blunderbuss.land": {
+		"sounds": [
+			{
+				"name": "ssbrc:fighter/king_k_rool/blunderbuss/land",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"fighter.kirby.jump": {
+		"sounds": [
+			{
+				"name": "ssbrc:fighter/kirby/jump",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"fighter.link.boomerang.activate": {
+		"sounds": [
+			{
+				"name": "ssbrc:fighter/link/boomerang/activate",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"fighter.link.boomerang.loop": {
+		"sounds": [
+			{
+				"name": "ssbrc:fighter/link/boomerang/loop/1",
+				"stream": false,
+				"volume": 1.0
+			},
+			{
+				"name": "ssbrc:fighter/link/boomerang/loop/2",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"fighter.link.boomerang.regain": {
+		"sounds": [
+			{
+				"name": "ssbrc:fighter/link/boomerang/regain",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"fighter.link.low_health_alert.loop": {
+		"sounds": [
+			{
+				"name": "ssbrc:fighter/link/low_health_alert/loop",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"fighter.link.low_health_alert.start": {
+		"sounds": [
+			{
+				"name": "ssbrc:fighter/link/low_health_alert/start",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"fighter.link.sword_beam.activate": {
+		"sounds": [
+			{
+				"name": "ssbrc:fighter/link/sword_beam/activate",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"fighter.link.sword_spin.unleash": {
+		"sounds": [
+			{
+				"name": "ssbrc:fighter/link/sword_spin/unleash",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+
+	"fighter.luigi.ice_ball.activate": {
+		"sounds": [
+			{
+				"name": "ssbrc:fighter/luigi/ice_ball/activate",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"fighter.luigi.ice_ball.expire": {
+		"sounds": [
+			{
+				"name": "ssbrc:fighter/luigi/ice_ball/expire",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"fighter.luigi.ice_ball.hit": {
+		"sounds": [
+			{
+				"name": "ssbrc:fighter/luigi/ice_ball/hit",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"fighter.luigi.super_jump.gooigi_charge": {
+		"sounds": [
+			{
+				"name": "ssbrc:fighter/luigi/super_jump/gooigi_charge",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"fighter.mario.fireball.activate": {
+		"sounds": [
+			{
+				"name": "ssbrc:fighter/mario/fireball/activate",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"fighter.mario.fireball.expire": {
+		"sounds": [
+			{
+				"name": "ssbrc:fighter/mario/fireball/expire",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"fighter.mario.super_jump.activate": {
+		"sounds": [
+			{
+				"name": "ssbrc:fighter/mario/super_jump/activate",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"fighter.mario.super_jump.charge": {
+		"sounds": [
+			{
+				"name": "ssbrc:fighter/mario/super_jump/charge",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"fighter.mega_man.air_shooter.activate": {
+		"sounds": [
+			{
+				"name": "ssbrc:fighter/mega_man/air_shooter/activate",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"fighter.mega_man.beat_call.activate": {
+		"sounds": [
+			{
+				"name": "ssbrc:fighter/mega_man/beat_call/activate",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"fighter.mega_man.beat_call.loop": {
+		"sounds": [
+			{
+				"name": "ssbrc:fighter/mega_man/beat_call/loop",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"fighter.mega_man.drill_bomb.activate": {
+		"sounds": [
+			{
+				"name": "ssbrc:fighter/mega_man/drill_bomb/activate",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"fighter.mega_man.flame_sword.hit": {
+		"sounds": [
+			{
+				"name": "ssbrc:fighter/mega_man/flame_sword/hit",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"fighter.mega_man.hyper_bomb.explode": {
+		"sounds": [
+			{
+				"name": "ssbrc:fighter/mega_man/hyper_bomb/explode",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"fighter.mega_man.junk_shield.activate": {
+		"sounds": [
+			{
+				"name": "ssbrc:fighter/mega_man/junk_shield/activate",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"fighter.mega_man.junk_shield.deactivate": {
+		"sounds": [
+			{
+				"name": "ssbrc:fighter/mega_man/junk_shield/deactivate",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"fighter.mega_man.mega_buster.activate": {
+		"sounds": [
+			{
+				"name": "ssbrc:fighter/mega_man/mega_buster/activate",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"fighter.mega_man.metal_blade.activate": {
+		"sounds": [
+			{
+				"name": "ssbrc:fighter/mega_man/metal_blade/activate",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"fighter.mega_man.pile_driver.activate": {
+		"sounds": [
+			{
+				"name": "ssbrc:fighter/mega_man/pile_driver/activate",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"fighter.mega_man.remote_mine.activate": {
+		"sounds": [
+			{
+				"name": "ssbrc:fighter/mega_man/remote_mine/activate",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"fighter.mega_man.remote_mine.set": {
+		"sounds": [
+			{
+				"name": "ssbrc:fighter/mega_man/remote_mine/set",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"fighter.mega_man.death": {
+		"sounds": [
+			{
+				"name": "ssbrc:fighter/mega_man/death",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"fighter.mega_man.shockwave": {
+		"sounds": [
+			{
+				"name": "ssbrc:fighter/mega_man/shockwave",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"fighter.ness.pk_fire.activate": {
+		"sounds": [
+			{
+				"name": "ssbrc:fighter/ness/pk_fire/activate",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"fighter.ness.pk_fire.fire": {
+		"sounds": [
+			{
+				"name": "ssbrc:fighter/ness/pk_fire/fire",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"fighter.ness.pk_flash.activate": {
+		"sounds": [
+			{
+				"name": "ssbrc:fighter/ness/pk_flash/activate",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"fighter.ness.pk_flash.explode": {
+		"sounds": [
+			{
+				"name": "ssbrc:fighter/ness/pk_flash/explode",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"fighter.peach.turnip.pluck": {
+		"sounds": [
+			{
+				"name": "ssbrc:fighter/peach/turnip/pluck",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"fighter.peach.turnip.throw": {
+		"sounds": [
+			{
+				"name": "ssbrc:fighter/peach/turnip/throw",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"fighter.peach.float": {
+		"sounds": [
+			{
+				"name": "ssbrc:fighter/peach/float",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"fighter.peach.frying_pan": {
+		"sounds": [
+			{
+				"name": "ssbrc:fighter/peach/frying_pan",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"fighter.peach.golf_club": {
+		"sounds": [
+			{
+				"name": "ssbrc:fighter/peach/golf_club",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"fighter.peach.tennis_racket": {
+		"sounds": [
+			{
+				"name": "ssbrc:fighter/peach/tennis_racket",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"fighter.pikachu.electric_terrain.activate": {
+		"sounds": [
+			{
+				"name": "ssbrc:fighter/pikachu/electric_terrain/activate",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"fighter.pikachu.thunder_jolt.activate": {
+		"sounds": [
+			{
+				"name": "ssbrc:fighter/pikachu/thunder_jolt/activate",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"fighter.pit.guardian_orbitars.activate": {
+		"sounds": [
+			{
+				"name": "ssbrc:fighter/pit/guardian_orbitars/activate",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"fighter.pit.guardian_orbitars.break": {
+		"sounds": [
+			{
+				"name": "ssbrc:fighter/pit/guardian_orbitars/break",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"fighter.pit.palutena_bow.activate": {
+		"sounds": [
+			{
+				"name": "ssbrc:fighter/pit/palutena_bow/activate",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"fighter.pit.palutena_bow.charge": {
+		"sounds": [
+			{
+				"name": "ssbrc:fighter/pit/palutena_bow/charge",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"fighter.pit.palutena_bow.split": {
+		"sounds": [
+			{
+				"name": "ssbrc:fighter/pit/palutena_bow/split",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"fighter.pit.wings.lose": {
+		"sounds": [
+			{
+				"name": "ssbrc:fighter/pit/wings/lose",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"fighter.pit.wings.regain": {
+		"sounds": [
+			{
+				"name": "ssbrc:fighter/pit/wings/regain",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"fighter.pokemon_trainer.charizard.flare_blitz.activate.default": {
+		"sounds": [
+			{
+				"name": "ssbrc:fighter/pokemon_trainer/charizard/flare_blitz/activate/default",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"fighter.pokemon_trainer.charizard.flare_blitz.activate.dawn": {
+		"sounds": [
+			{
+				"name": "ssbrc:fighter/pokemon_trainer/charizard/flare_blitz/activate/dawn",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"fighter.pokemon_trainer.charizard.flare_blitz.activate.victor": {
+		"sounds": [
+			{
+				"name": "ssbrc:fighter/pokemon_trainer/charizard/flare_blitz/activate/victor",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"fighter.pokemon_trainer.ivysaur.knock_off.activate": {
+		"sounds": [
+			{
+				"name": "ssbrc:fighter/pokemon_trainer/ivysaur/knock_off/activate",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"fighter.pokemon_trainer.ivysaur.leech_seed.activate": {
+		"sounds": [
+			{
+				"name": "ssbrc:fighter/pokemon_trainer/ivysaur/leech_seed/activate",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"fighter.pokemon_trainer.ivysaur.poison_powder.activate": {
+		"sounds": [
+			{
+				"name": "ssbrc:fighter/pokemon_trainer/ivysaur/poison_powder/activate",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"fighter.pokemon_trainer.squirtle.water_gun.activate": {
+		"sounds": [
+			{
+				"name": "ssbrc:fighter/pokemon_trainer/squirtle/water_gun/activate/1",
+				"stream": false,
+				"volume": 1.0
+			},
+			{
+				"name": "ssbrc:fighter/pokemon_trainer/squirtle/water_gun/activate/2",
+				"stream": false,
+				"volume": 1.0
+			},
+			{
+				"name": "ssbrc:fighter/pokemon_trainer/squirtle/water_gun/activate/3",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"fighter.rob.robo_beam.activate.fail": {
+		"sounds": [
+			{
+				"name": "ssbrc:fighter/rob/robo_beam/activate/fail",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"fighter.rob.robo_beam.activate.large": {
+		"sounds": [
+			{
+				"name": "ssbrc:fighter/rob/robo_beam/activate/large",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"fighter.rob.robo_beam.activate.small": {
+		"sounds": [
+			{
+				"name": "ssbrc:fighter/rob/robo_beam/activate/small",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"fighter.rob.robo_beam.increase": {
+		"sounds": [
+			{
+				"name": "ssbrc:fighter/rob/robo_beam/increase",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"fighter.rob.robo_burner.activate": {
+		"sounds": [
+			{
+				"name": "ssbrc:fighter/rob/robo_burner/activate",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"fighter.roy.counter.activate": {
+		"sounds": [
+			{
+				"name": "ssbrc:fighter/roy/counter/activate",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"fighter.roy.counter.hit": {
+		"sounds": [
+			{
+				"name": "ssbrc:fighter/roy/counter/hit",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"fighter.roy.counter.success": {
+		"sounds": [
+			{
+				"name": "ssbrc:fighter/roy/counter/success",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"fighter.roy.double_edge_dance.hit": {
+		"sounds": [
+			{
+				"name": "ssbrc:fighter/roy/double_edge_dance/1",
+				"stream": false,
+				"volume": 1.0
+			},
+			{
+				"name": "ssbrc:fighter/roy/double_edge_dance/2",
+				"stream": false,
+				"volume": 1.0
+			},
+			{
+				"name": "ssbrc:fighter/roy/double_edge_dance/3",
+				"stream": false,
+				"volume": 1.0
+			},
+			{
+				"name": "ssbrc:fighter/roy/double_edge_dance/4",
+				"stream": false,
+				"volume": 1.0
+			},
+			{
+				"name": "ssbrc:fighter/roy/double_edge_dance/5",
+				"stream": false,
+				"volume": 1.0
+			},
+			{
+				"name": "ssbrc:fighter/roy/double_edge_dance/6",
+				"stream": false,
+				"volume": 1.0
+			},
+			{
+				"name": "ssbrc:fighter/roy/double_edge_dance/7",
+				"stream": false,
+				"volume": 1.0
+			},
+			{
+				"name": "ssbrc:fighter/roy/double_edge_dance/8",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"fighter.ryu.ashura_senku.activate": {
+		"sounds": [
+			{
+				"name": "ssbrc:fighter/ryu/ashura_senku/activate",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"fighter.ryu.hadouken.activate.strong": {
+		"sounds": [
+			{
+				"name": "ssbrc:fighter/ryu/hadouken/activate/strong",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"fighter.ryu.hadouken.activate.weak": {
+		"sounds": [
+			{
+				"name": "ssbrc:fighter/ryu/hadouken/activate/weak",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"fighter.ryu.satsui_no_hado_rage.activate": {
+		"sounds": [
+			{
+				"name": "ssbrc:fighter/ryu/satsui_no_hado_rage/activate",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"fighter.ryu.satsui_no_hado_rage.deactivate": {
+		"sounds": [
+			{
+				"name": "ssbrc:fighter/ryu/satsui_no_hado_rage/deactivate",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"fighter.ryu.tatsumaki_senpukyaku.loop": {
+		"sounds": [
+			{
+				"name": "ssbrc:fighter/ryu/tatsumaki_senpukyaku/loop",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"fighter.samus.plasma_beam.activate": {
+		"sounds": [
+			{
+				"name": "ssbrc:fighter/samus/plasma_beam/activate",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"fighter.samus.power_beam.activate": {
+		"sounds": [
+			{
+				"name": "ssbrc:fighter/samus/power_beam/activate",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"fighter.samus.wave_beam.activate": {
+		"sounds": [
+			{
+				"name": "ssbrc:fighter/samus/wave_beam/activate",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"fighter.samus.swap_weapon": {
+		"sounds": [
+			{
+				"name": "ssbrc:fighter/samus/swap_weapon",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"fighter.shadow.chaos_blast.activate": {
+		"sounds": [
+			{
+				"name": "ssbrc:fighter/shadow/chaos_blast/activate",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"fighter.shadow.chaos_blast.charge": {
+		"sounds": [
+			{
+				"name": "ssbrc:fighter/shadow/chaos_blast/charge",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"fighter.shadow.chaos_control.activate": {
+		"sounds": [
+			{
+				"name": "ssbrc:fighter/shadow/chaos_control/activate",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"fighter.shadow.chaos_control.hit": {
+		"sounds": [
+			{
+				"name": "ssbrc:fighter/shadow/chaos_control/hit",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"fighter.shadow.chaos_spear.activate": {
+		"sounds": [
+			{
+				"name": "ssbrc:fighter/shadow/chaos_spear/activate",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"fighter.shovel_knight.chaos_sphere.hit": {
+		"sounds": [
+			{
+				"name": "ssbrc:fighter/shovel_knight/chaos_sphere/hit",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"fighter.shovel_knight.flare_wand.activate": {
+		"sounds": [
+			{
+				"name": "ssbrc:fighter/shovel_knight/flare_wand/activate",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"fighter.shovel_knight.phase_locket.activate": {
+		"sounds": [
+			{
+				"name": "ssbrc:fighter/shovel_knight/phase_locket/activate",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"fighter.shovel_knight.phase_locket.warn": {
+		"sounds": [
+			{
+				"name": "ssbrc:fighter/shovel_knight/phase_locket/warn",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"fighter.shovel_knight.propeller_dagger.activate": {
+		"sounds": [
+			{
+				"name": "ssbrc:fighter/shovel_knight/propeller_dagger/activate",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"fighter.shovel_knight.shovel_drop.hit": {
+		"sounds": [
+			{
+				"name": "ssbrc:fighter/shovel_knight/shovel_drop/hit",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"fighter.shovel_knight.war_horn.activate": {
+		"sounds": [
+			{
+				"name": "ssbrc:fighter/shovel_knight/war_horn/activate",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"fighter.shovel_knight.insufficient_magic": {
+		"sounds": [
+			{
+				"name": "ssbrc:fighter/shovel_knight/insufficient_magic",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"generic_fire": {
+		"sounds": [
+			{
+				"name": "ssbrc:fighter/snake/gun/generic_fire",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"generic_misfire": {
+		"sounds": [
+			{
+				"name": "ssbrc:fighter/snake/gun/generic_misfire",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"generic_reload": {
+		"sounds": [
+			{
+				"name": "ssbrc:fighter/snake/gun/generic_reload",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"shotgun_fire": {
+		"sounds": [
+			{
+				"name": "ssbrc:fighter/snake/gun/shotgun_fire",
+				"stream": false,
+				"volume": 0.4
+			}
+		]
+	},
+	"shotgun_reload": {
+		"sounds": [
+			{
+				"name": "ssbrc:fighter/snake/gun/shotgun_reload",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"shotgun_shell": {
+		"sounds": [
+			{
+				"name": "ssbrc:fighter/snake/gun/shotgun_shell",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"sniper_fire": {
+		"sounds": [
+			{
+				"name": "ssbrc:fighter/snake/gun/sniper_fire",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"sniper_reload": {
+		"sounds": [
+			{
+				"name": "ssbrc:fighter/snake/gun/sniper_reload",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"fighter.snake.smoke_grenade.activate": {
+		"sounds": [
+			{
+				"name": "ssbrc:fighter/snake/smoke_grenade/activate",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"fighter.snake.status.detected": {
+		"sounds": [
+			{
+				"name": "ssbrc:fighter/snake/status/detected",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"fighter.sonic_the_hedgehog.drown": {
+		"sounds": [
+			{
+				"name": "ssbrc:fighter/sonic_the_hedgehog/drown",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"fighter.sonic_the_hedgehog.death": {
+		"sounds": [
+			{
+				"name": "ssbrc:fighter/sonic_the_hedgehog/death",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"fighter.sora.blizzaga.activate": {
+		"sounds": [
+			{
+				"name": "ssbrc:fighter/sora/blizzaga/activate",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"fighter.sora.blizzaza.activate": {
+		"sounds": [
+			{
+				"name": "ssbrc:fighter/sora/blizzaga/blizzaza/activate",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"fighter.sora.drive_forms.activate": {
+		"sounds": [
+			{
+				"name": "ssbrc:fighter/sora/drive_forms/activate",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"fighter.sora.firaga.activate": {
+		"sounds": [
+			{
+				"name": "ssbrc:fighter/sora/firaga/activate",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"fighter.sora.firaza.activate": {
+		"sounds": [
+			{
+				"name": "ssbrc:fighter/sora/firaga/firaza/activate",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"fighter.sora.strike_raid.loop": {
+		"sounds": [
+			{
+				"name": "ssbrc:fighter/sora/strike_raid/loop/1",
+				"stream": false,
+				"volume": 1.0
+			},
+			{
+				"name": "ssbrc:fighter/sora/strike_raid/loop/2",
+				"stream": false,
+				"volume": 1.0
+			},
+			{
+				"name": "ssbrc:fighter/sora/strike_raid/loop/3",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"fighter.sora.thundaga.activate": {
+		"sounds": [
+			{
+				"name": "ssbrc:fighter/sora/thundaga/activate",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"fighter.sora.low_health_alert": {
+		"sounds": [
+			{
+				"name": "ssbrc:fighter/sora/low_health_alert",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"fighter.super_mario_bros.death": {
+		"sounds": [
+			{
+				"name": "ssbrc:fighter/super_mario_bros/death",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"fighter.super_mario_bros.stomp": {
+		"sounds": [
+			{
+				"name": "ssbrc:fighter/super_mario_bros/stomp",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"fighter.team_rocket.arbok.acid.activate": {
+		"sounds": [
+			{
+				"name": "ssbrc:fighter/team_rocket/arbok/acid/activate",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"fighter.team_rocket.meowth.fury_swipes.activate": {
+		"sounds": [
+			{
+				"name": "ssbrc:fighter/team_rocket/meowth/fury_swipes/activate",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"fighter.team_rocket.meowth.fury_swipes.final": {
+		"sounds": [
+			{
+				"name": "ssbrc:fighter/team_rocket/meowth/fury_swipes/final",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"fighter.team_rocket.meowth.payday.activate": {
+		"sounds": [
+			{
+				"name": "ssbrc:fighter/team_rocket/meowth/payday/activate",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"fighter.team_rocket.meowth.payday.explode": {
+		"sounds": [
+			{
+				"name": "ssbrc:fighter/team_rocket/meowth/payday/explode",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"fighter.team_rocket.wobbuffet.destiny_bond.kill": {
+		"sounds": [
+			{
+				"name": "ssbrc:fighter/team_rocket/wobbuffet/destiny_bond/kill",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"fighter.team_rocket.wobbuffet.splash.activate": {
+		"sounds": [
+			{
+				"name": "ssbrc:fighter/team_rocket/wobbuffet/splash/activate",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"fighter.wolf.blaster.activate": {
+		"sounds": [
+			{
+				"name": "ssbrc:fighter/wolf/blaster/activate",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"fighter.wolf.grenade.throw": {
+		"sounds": [
+			{
+				"name": "ssbrc:fighter/wolf/grenade/throw",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"fighter.wolf.wolf_flash.activate": {
+		"sounds": [
+			{
+				"name": "ssbrc:fighter/wolf/wolf_flash/activate",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"fighter.wolf.wolf_flash.hit": {
+		"sounds": [
+			{
+				"name": "ssbrc:fighter/wolf/wolf_flash/hit",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"fighter.yar.drone.activate": {
+		"sounds": [
+			{
+				"name": "ssbrc:fighter/yar/drone/activate",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"fighter.yar.ray_blaster.activate": {
+		"sounds": [
+			{
+				"name": "ssbrc:fighter/yar/ray_blaster/activate",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"fighter.yar.gatling_gun.activate": {
+		"sounds": [
+			{
+				"name": "ssbrc:fighter/yar/gatling_gun/activate",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"fighter.yar.missile_launcher.activate": {
+		"sounds": [
+			{
+				"name": "ssbrc:fighter/yar/missile_launcher/activate",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"fighter.yar.missile_launcher.explode": {
+		"sounds": [
+			{
+				"name": "ssbrc:fighter/yar/missile_launcher/explode",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"fighter.yar.omnishot.activate": {
+		"sounds": [
+			{
+				"name": "ssbrc:fighter/yar/omnishot/activate",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"fighter.yar.railgun.activate": {
+		"sounds": [
+			{
+				"name": "ssbrc:fighter/yar/railgun/activate",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"fighter.yar.railgun.charge": {
+		"sounds": [
+			{
+				"name": "ssbrc:fighter/yar/railgun/charge",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"fighter.yar.triple_shot.activate": {
+		"sounds": [
+			{
+				"name": "ssbrc:fighter/yar/triple_shot/activate",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"fighter.zelda.bomb.activate": {
+		"sounds": [
+			{
+				"name": "ssbrc:fighter/zelda/bomb/activate",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"fighter.zelda.bomb.fuse": {
+		"sounds": [
+			{
+				"name": "ssbrc:fighter/zelda/bomb/fuse",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"fighter.zelda.fire_rod.activate": {
+		"sounds": [
+			{
+				"name": "ssbrc:fighter/zelda/fire_rod/activate",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"fighter.zelda.ice_rod.activate": {
+		"sounds": [
+			{
+				"name": "ssbrc:fighter/zelda/ice_rod/activate",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"fighter.zelda.nayrus_ring.restore": {
+		"sounds": [
+			{
+				"name": "ssbrc:fighter/zelda/nayrus_ring/restore",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"fighter.zelda.rupee.remove.end": {
+		"sounds": [
+			{
+				"name": "ssbrc:fighter/zelda/rupee/remove/end",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"fighter.zelda.rupee.remove.tick": {
+		"sounds": [
+			{
+				"name": "ssbrc:fighter/zelda/rupee/remove/tick",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"fighter.zelda.rupee.add.end": {
+		"sounds": [
+			{
+				"name": "ssbrc:fighter/zelda/rupee/add/end",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"fighter.zelda.rupee.add.tick": {
+		"sounds": [
+			{
+				"name": "ssbrc:fighter/zelda/rupee/add/tick",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"fighter.shockwave": {
+		"sounds": [
+			{
+				"name": "ssbrc:fighter/shockwave",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"item.angel_feather.activate": {
+		"sounds": [
+			{
+				"name": "ssbrc:smash_item/angel_feather/activate",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"item.black_hole.activate": {
+		"sounds": [
+			{
+				"name": "ssbrc:smash_item/black_hole/activate",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"item.mushroom.grow": {
+		"sounds": [
+			{
+				"name": "ssbrc:smash_item/mushroom/grow",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"item.mushroom.shrink": {
+		"sounds": [
+			{
+				"name": "ssbrc:smash_item/mushroom/shrink",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"item.poke_ball.open": {
+		"sounds": [
+			{
+				"name": "ssbrc:smash_item/poke_ball/open",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"item.ray_gun.activate": {
+		"sounds": [
+			{
+				"name": "ssbrc:smash_item/ray_gun/activate",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"item.special_flag.activate": {
+		"sounds": [
+			{
+				"name": "ssbrc:smash_item/special_flag/activate",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"stage.bowsers_castle.banzai_bill.activate": {
+		"sounds": [
+			{
+				"name": "ssbrc:stage/bowsers_castle/banzai_bill/activate",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"stage.bowsers_castle.thwomp.land": {
+		"sounds": [
+			{
+				"name": "ssbrc:stage/bowsers_castle/thwomp/land",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"stage.green_hill_zone.checkpoint": {
+		"sounds": [
+			{
+				"name": "ssbrc:stage/green_hill_zone/checkpoint",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"stage.green_hill_zone.spring": {
+		"sounds": [
+			{
+				"name": "ssbrc:stage/green_hill_zone/spring",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"stage.hyrule_castle.tornado.activate": {
+		"sounds": [
+			{
+				"name": "ssbrc:stage/hyrule_castle/tornado/activate",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"stage.hyrule_castle.tornado.hit": {
+		"sounds": [
+			{
+				"name": "ssbrc:stage/hyrule_castle/tornado/hit",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"stage.luigis_mansion.blackout": {
+		"sounds": [
+			{
+				"name": "ssbrc:stage/luigis_mansion/blackout/1",
+				"stream": false,
+				"volume": 1.0
+			},
+			{
+				"name": "ssbrc:stage/luigis_mansion/blackout/2",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"stage.luigis_mansion.boo.deactivate": {
+		"sounds": [
+			{
+				"name": "ssbrc:stage/luigis_mansion/boo/deactivate",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"stage.luigis_mansion.boo.laugh": {
+		"sounds": [
+			{
+				"name": "ssbrc:stage/luigis_mansion/boo/laugh",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"stage.pac_maze.pac_maze.eat_fruit": {
+		"sounds": [
+			{
+				"name": "ssbrc:stage/pac_maze/pac_maze/eat_fruit",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"stage.pac_maze.pac_maze.eat_ghost": {
+		"sounds": [
+			{
+				"name": "ssbrc:stage/pac_maze/pac_maze/eat_ghost",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"stage.pac_maze.pac_maze.munch": {
+		"sounds": [
+			{
+				"name": "ssbrc:stage/pac_maze/pac_maze/munch_1",
+				"stream": false,
+				"volume": 1.0
+			},
+			{
+				"name": "ssbrc:stage/pac_maze/pac_maze/munch_2",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"stage.pac_maze.pac_maze.power_pellet": {
+		"sounds": [
+			{
+				"name": "ssbrc:stage/pac_maze/pac_maze/power_pellet",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"stage.pac_maze.mrs_pac_maze.eat_fruit": {
+		"sounds": [
+			{
+				"name": "ssbrc:stage/pac_maze/mrs_pac_maze/eat_fruit",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"stage.pac_maze.mrs_pac_maze.eat_ghost": {
+		"sounds": [
+			{
+				"name": "ssbrc:stage/pac_maze/mrs_pac_maze/eat_ghost",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"stage.pac_maze.mrs_pac_maze.munch": {
+		"sounds": [
+			{
+				"name": "ssbrc:stage/pac_maze/mrs_pac_maze/munch_1",
+				"stream": false,
+				"volume": 1.0
+			},
+			{
+				"name": "ssbrc:stage/pac_maze/mrs_pac_maze/munch_2",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"stage.pac_maze.mrs_pac_maze.power_pellet": {
+		"sounds": [
+			{
+				"name": "ssbrc:stage/pac_maze/mrs_pac_maze/power_pellet",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"stage.pac_maze.extend": {
+		"sounds": [
+			{
+				"name": "ssbrc:stage/pac_maze/extend",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"stage.pac_maze.retreating": {
+		"sounds": [
+			{
+				"name": "ssbrc:stage/pac_maze/retreating",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"stage.pac_maze.siren": {
+		"sounds": [
+			{
+				"name": "ssbrc:stage/pac_maze/siren",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"stage.pallet_town.abra.appear": {
+		"sounds": [
+			{
+				"name": "ssbrc:stage/pallet_town/abra/appear",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"stage.pallet_town.abra.vanish": {
+		"sounds": [
+			{
+				"name": "ssbrc:stage/pallet_town/abra/vanish",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"stage.palutenas_temple.spring": {
+		"sounds": [
+			{
+				"name": "ssbrc:stage/palutenas_temple/spring",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"ui.shop.purchase": {
+		"sounds": [
+			{
+				"name": "ssbrc:ui/shop/purchase",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"victory_theme.fighter.byleth": {
+		"sounds": [
+			{
+				"name": "ssbrc:victory_theme/fighter/byleth",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"victory_theme.fighter.captain_falcon": {
+		"sounds": [
+			{
+				"name": "ssbrc:victory_theme/fighter/captain_falcon",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"victory_theme.fighter.giegue": {
+		"sounds": [
+			{
+				"name": "ssbrc:victory_theme/fighter/giegue",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"victory_theme.fighter.ice_climbers": {
+		"sounds": [
+			{
+				"name": "ssbrc:victory_theme/fighter/ice_climbers",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"victory_theme.fighter.joker": {
+		"sounds": [
+			{
+				"name": "ssbrc:victory_theme/fighter/joker",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"victory_theme.fighter.joker.persona_1": {
+		"sounds": [
+			{
+				"name": "ssbrc:victory_theme/fighter/joker/persona_1",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"victory_theme.fighter.joker.persona_2": {
+		"sounds": [
+			{
+				"name": "ssbrc:victory_theme/fighter/joker/persona_2",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"victory_theme.fighter.joker.persona_3": {
+		"sounds": [
+			{
+				"name": "ssbrc:victory_theme/fighter/joker/persona_3",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"victory_theme.fighter.joker.persona_4": {
+		"sounds": [
+			{
+				"name": "ssbrc:victory_theme/fighter/joker/persona_4",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"victory_theme.fighter.king_k_rool": {
+		"sounds": [
+			{
+				"name": "ssbrc:victory_theme/fighter/king_k_rool",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"victory_theme.fighter.mega_man": {
+		"sounds": [
+			{
+				"name": "ssbrc:victory_theme/fighter/mega_man",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"victory_theme.fighter.rob": {
+		"sounds": [
+			{
+				"name": "ssbrc:victory_theme/fighter/rob",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"victory_theme.fighter.sora": {
+		"sounds": [
+			{
+				"name": "ssbrc:victory_theme/fighter/sora",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"victory_theme.fighter.terry": {
+		"sounds": [
+			{
+				"name": "ssbrc:victory_theme/fighter/terry",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"victory_theme.series.animal_crossing": {
+		"sounds": [
+			{
+				"name": "ssbrc:victory_theme/series/animal_crossing",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"victory_theme.series.castlevania": {
+		"sounds": [
+			{
+				"name": "ssbrc:victory_theme/series/castlevania",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"victory_theme.series.donkey_kong": {
+		"sounds": [
+			{
+				"name": "ssbrc:victory_theme/series/donkey_kong",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"victory_theme.series.earthbound": {
+		"sounds": [
+			{
+				"name": "ssbrc:victory_theme/series/earthbound",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"victory_theme.series.final_fantasy": {
+		"sounds": [
+			{
+				"name": "ssbrc:victory_theme/series/final_fantasy",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"victory_theme.series.fire_emblem": {
+		"sounds": [
+			{
+				"name": "ssbrc:victory_theme/series/fire_emblem",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"victory_theme.series.kirby": {
+		"sounds": [
+			{
+				"name": "ssbrc:victory_theme/series/kirby",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"victory_theme.series.metal_gear": {
+		"sounds": [
+			{
+				"name": "ssbrc:victory_theme/series/metal_gear",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"victory_theme.series.metroid.hero": {
+		"sounds": [
+			{
+				"name": "ssbrc:victory_theme/series/metroid/hero",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"victory_theme.series.metroid.villain": {
+		"sounds": [
+			{
+				"name": "ssbrc:victory_theme/series/metroid/villain",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"victory_theme.series.pokemon": {
+		"sounds": [
+			{
+				"name": "ssbrc:victory_theme/series/pokemon",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"victory_theme.series.sonic_the_hedgehog": {
+		"sounds": [
+			{
+				"name": "ssbrc:victory_theme/series/sonic_the_hedgehog",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"victory_theme.series.star_fox": {
+		"sounds": [
+			{
+				"name": "ssbrc:victory_theme/series/star_fox",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"victory_theme.series.street_fighter": {
+		"sounds": [
+			{
+				"name": "ssbrc:victory_theme/series/street_fighter",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"victory_theme.series.super_mario_bros.hero": {
+		"sounds": [
+			{
+				"name": "ssbrc:victory_theme/series/super_mario_bros/hero",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"victory_theme.series.super_mario_bros.villain": {
+		"sounds": [
+			{
+				"name": "ssbrc:victory_theme/series/super_mario_bros/villain",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"victory_theme.series.the_legend_of_zelda": {
+		"sounds": [
+			{
+				"name": "ssbrc:victory_theme/series/the_legend_of_zelda",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"voice.altered_beast.win": {
+		"sounds": [
+			{
+				"name": "ssbrc:voice/altered_beast/win",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"voice.alucard.win": {
+		"sounds": [
+			{
+				"name": "ssbrc:voice/alucard/win",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"voice.bowser.win": {
+		"sounds": [
+			{
+				"name": "ssbrc:voice/bowser/win",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"voice.byleth.win.female": {
+		"sounds": [
+			{
+				"name": "ssbrc:voice/byleth/win/female",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"voice.byleth.win.male": {
+		"sounds": [
+			{
+				"name": "ssbrc:voice/byleth/win/male",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"voice.captain_falcon.win": {
+		"sounds": [
+			{
+				"name": "ssbrc:voice/captain_falcon/win",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"voice.cloud.win": {
+		"sounds": [
+			{
+				"name": "ssbrc:voice/cloud/win",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"voice.dark_samus.win": {
+		"sounds": [
+			{
+				"name": "ssbrc:voice/dark_samus/win",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"voice.donkey_kong.win": {
+		"sounds": [
+			{
+				"name": "ssbrc:voice/donkey_kong/win",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"voice.fox.win": {
+		"sounds": [
+			{
+				"name": "ssbrc:voice/fox/win",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"voice.ganondorf.win": {
+		"sounds": [
+			{
+				"name": "ssbrc:voice/ganondorf/win",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"voice.giegue.win": {
+		"sounds": [
+			{
+				"name": "ssbrc:voice/giegue/win",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"voice.greninja.win": {
+		"sounds": [
+			{
+				"name": "ssbrc:voice/greninja/win",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"voice.hero.win": {
+		"sounds": [
+			{
+				"name": "ssbrc:voice/hero/win",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"voice.ice_climbers.win": {
+		"sounds": [
+			{
+				"name": "ssbrc:voice/ice_climbers/win",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"voice.jigglypuff.win": {
+		"sounds": [
+			{
+				"name": "ssbrc:voice/jigglypuff/win",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"voice.joker.win": {
+		"sounds": [
+			{
+				"name": "ssbrc:voice/joker/win",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"voice.king_k_rool.win": {
+		"sounds": [
+			{
+				"name": "ssbrc:voice/king_k_rool/win",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"voice.kirby.win": {
+		"sounds": [
+			{
+				"name": "ssbrc:voice/kirby/win",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"voice.link.win": {
+		"sounds": [
+			{
+				"name": "ssbrc:voice/link/win",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"voice.lucario.win": {
+		"sounds": [
+			{
+				"name": "ssbrc:voice/lucario/win",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"voice.luigi.win": {
+		"sounds": [
+			{
+				"name": "ssbrc:voice/luigi/win",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"voice.mario.win": {
+		"sounds": [
+			{
+				"name": "ssbrc:voice/mario/win",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"voice.mega_man.win": {
+		"sounds": [
+			{
+				"name": "ssbrc:voice/mega_man/win",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"voice.ness.win": {
+		"sounds": [
+			{
+				"name": "ssbrc:voice/ness/win",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"voice.peach.win": {
+		"sounds": [
+			{
+				"name": "ssbrc:voice/peach/win",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"voice.pikachu.win": {
+		"sounds": [
+			{
+				"name": "ssbrc:voice/pikachu/win",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"voice.pit.win": {
+		"sounds": [
+			{
+				"name": "ssbrc:voice/pit/win",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"voice.pokemon_trainer.win.charizard": {
+		"sounds": [
+			{
+				"name": "ssbrc:voice/pokemon_trainer/win/charizard",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"voice.pokemon_trainer.win.ivysaur": {
+		"sounds": [
+			{
+				"name": "ssbrc:voice/pokemon_trainer/win/ivysaur",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"voice.pokemon_trainer.win.squirtle": {
+		"sounds": [
+			{
+				"name": "ssbrc:voice/pokemon_trainer/win/squirtle",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"voice.raiden.win": {
+		"sounds": [
+			{
+				"name": "ssbrc:voice/raiden/win",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"voice.rob.win": {
+		"sounds": [
+			{
+				"name": "ssbrc:voice/rob/win",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"voice.roy.win": {
+		"sounds": [
+			{
+				"name": "ssbrc:voice/roy/win",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"voice.ryu.win": {
+		"sounds": [
+			{
+				"name": "ssbrc:voice/ryu/win",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"voice.samus.win": {
+		"sounds": [
+			{
+				"name": "ssbrc:voice/samus/win",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"voice.snake.win": {
+		"sounds": [
+			{
+				"name": "ssbrc:voice/snake/win",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"voice.sonic.win": {
+		"sounds": [
+			{
+				"name": "ssbrc:voice/sonic/win",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"voice.sora.win": {
+		"sounds": [
+			{
+				"name": "ssbrc:voice/sora/win",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"voice.team_rocket.win": {
+		"sounds": [
+			{
+				"name": "ssbrc:voice/team_rocket/win",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"voice.terry.win": {
+		"sounds": [
+			{
+				"name": "ssbrc:voice/terry/win",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"voice.toon_link.win": {
+		"sounds": [
+			{
+				"name": "ssbrc:voice/toon_link/win",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"voice.wolf.win": {
+		"sounds": [
+			{
+				"name": "ssbrc:voice/wolf/win/default",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"voice.wolf.win.defeat_fox": {
+		"sounds": [
+			{
+				"name": "ssbrc:voice/wolf/win/defeat_fox",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"voice.yar.win": {
+		"sounds": [
+			{
+				"name": "ssbrc:voice/yar/win",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"voice.zelda.win": {
+		"sounds": [
+			{
+				"name": "ssbrc:voice/zelda/win",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"skin_equip": {
+		"sounds": [
+			{
+				"name": "minecraft:item/armor/equip_generic1",
+				"stream": false,
+				"volume": 1.0
+			},
+			{
+				"name": "minecraft:item/armor/equip_generic2",
+				"stream": false,
+				"volume": 1.0
+			},
+			{
+				"name": "minecraft:item/armor/equip_generic3",
+				"stream": false,
+				"volume": 1.0
+			},
+			{
+				"name": "minecraft:item/armor/equip_generic4",
+				"stream": false,
+				"volume": 1.0
+			},
+			{
+				"name": "minecraft:item/armor/equip_generic5",
+				"stream": false,
+				"volume": 1.0
+			},
+			{
+				"name": "minecraft:item/armor/equip_generic6",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	}
+}

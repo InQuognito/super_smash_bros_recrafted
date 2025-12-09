@@ -1,0 +1,6 @@
+{
+	"parent": "ssbrc:fighter/mega_man/item/mega_buster/parent/x",
+	"textures": {
+		"base": "ssbrc:fighter/mega_man/item/mega_buster/x/remote_mine"
+	}
+}

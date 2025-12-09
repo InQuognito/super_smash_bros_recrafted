@@ -1,0 +1,25 @@
+[
+	{
+		"function": "minecraft:set_lore",
+		"entity": "this",
+		"lore": [
+			{
+				"nbt": "collection.autumn",
+				"storage": "ssbrc:data",
+				"interpret": true,
+				"color": "gold",
+				"bold": true,
+				"italic": false,
+				"extra": [
+					{
+						"translate": "ssbrc.shop.collection.autumn",
+						"color": "white",
+						"bold": false,
+						"italic": false
+					}
+				]
+			}
+		],
+		"mode": "append"
+	}
+]

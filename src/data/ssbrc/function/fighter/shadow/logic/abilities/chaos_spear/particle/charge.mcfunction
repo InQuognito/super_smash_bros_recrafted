@@ -1,0 +1,10 @@
+$particle minecraft:dust{color:[$(color)],scale: 1} ^-0.6 ^-0.6 ^-.25 0.03 0.03 0.03 0 1 normal @a
+$particle minecraft:dust{color:[$(color)],scale: 1} ^-0.6 ^-0.6 ^.00 0.03 0.03 0.03 0 1 normal @a
+$particle minecraft:dust{color:[$(color)],scale: 1} ^-0.6 ^-0.6 ^.25 0.03 0.03 0.03 0 1 normal @a
+$particle minecraft:dust{color:[$(color)],scale: 1} ^-0.6 ^-0.6 ^.5 0.03 0.03 0.03 0 1 normal @a
+$particle minecraft:dust{color:[$(color)],scale: 1} ^-0.6 ^-0.6 ^.75 0.03 0.03 0.03 0 1 normal @a
+$particle minecraft:dust{color:[$(color)],scale: 1} ^-0.6 ^-0.6 ^1 0.03 0.03 0.03 0 1 normal @a
+$particle minecraft:dust{color:[$(color)],scale: 1} ^-0.45 ^-0.6 ^.75 0.03 0.03 0.03 0 1 normal @a
+$particle minecraft:dust{color:[$(color)],scale: 1} ^-.75 ^-0.6 ^.75 0.03 0.03 0.03 0 1 normal @a
+$particle minecraft:dust{color:[$(color)],scale: 1} ^-0.30 ^-0.6 ^.5 0.03 0.03 0.03 0 1 normal @a
+$particle minecraft:dust{color:[$(color)],scale: 1} ^-0.90 ^-0.6 ^.5 0.03 0.03 0.03 0 1 normal @a

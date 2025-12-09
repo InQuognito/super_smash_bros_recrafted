@@ -1,0 +1,82 @@
+{
+	"model": {
+		"type": "minecraft:select",
+		"property": "minecraft:custom_model_data",
+		"cases": [
+			{
+				"when": "gold",
+				"model": {
+					"type": "minecraft:condition",
+					"property": "minecraft:component",
+					"predicate": "minecraft:custom_data",
+					"value": {
+						"shovel_drop": "true"
+					},
+					"on_true": {
+						"type": "minecraft:model",
+						"model": "ssbrc:fighter/shovel_knight/item/shovel_blade/gold/shovel_drop"
+					},
+					"on_false": {
+						"type": "minecraft:model",
+						"model": "ssbrc:fighter/shovel_knight/item/shovel_blade/gold/default"
+					}
+				}
+			},
+			{
+				"when": "armor_of_chaos",
+				"model": {
+					"type": "minecraft:condition",
+					"property": "minecraft:component",
+					"predicate": "minecraft:custom_data",
+					"value": {
+						"shovel_drop": "true"
+					},
+					"on_true": {
+						"type": "minecraft:model",
+						"model": "ssbrc:fighter/shovel_knight/item/shovel_blade/armor_of_chaos/shovel_drop"
+					},
+					"on_false": {
+						"type": "minecraft:model",
+						"model": "ssbrc:fighter/shovel_knight/item/shovel_blade/armor_of_chaos/default"
+					}
+				}
+			},
+			{
+				"when": "toad_gear",
+				"model": {
+					"type": "minecraft:condition",
+					"property": "minecraft:component",
+					"predicate": "minecraft:custom_data",
+					"value": {
+						"shovel_drop": "true"
+					},
+					"on_true": {
+						"type": "minecraft:model",
+						"model": "ssbrc:fighter/shovel_knight/item/shovel_blade/toad_gear/shovel_drop"
+					},
+					"on_false": {
+						"type": "minecraft:model",
+						"model": "ssbrc:fighter/shovel_knight/item/shovel_blade/toad_gear/default"
+					}
+				}
+			}
+		],
+		"fallback": {
+			"type": "minecraft:condition",
+			"property": "minecraft:component",
+			"predicate": "minecraft:custom_data",
+			"value": {
+				"shovel_drop": "true"
+			},
+			"on_true": {
+				"type": "minecraft:model",
+				"model": "ssbrc:fighter/shovel_knight/item/shovel_blade/default/shovel_drop"
+			},
+			"on_false": {
+				"type": "minecraft:model",
+				"model": "ssbrc:fighter/shovel_knight/item/shovel_blade/default/default"
+			}
+		}
+	},
+	"hand_animation_on_swap": false
+}

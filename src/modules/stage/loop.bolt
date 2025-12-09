@@ -1,0 +1,6 @@
+from ssbrc.stages import stages
+
+function ssbrc:logic/stage/loop:
+	for stage in stages:
+		obj = f'$$(operation) with storage ssbrc:data stage.{stage}'
+		raw obj

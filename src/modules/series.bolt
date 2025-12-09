@@ -1,0 +1,17 @@
+from ssbrc.series import series
+
+for item in series:
+	color = series[item]['color']
+	item_modifier f'ssbrc:series/{item}' {
+		"function": "minecraft:set_lore",
+		"entity": "this",
+		"lore": [
+			{
+				"translate": f'ssbrc.series.{item}',
+				"color": color,
+				"bold": false,
+				"italic": false
+			}
+		],
+		"mode": "append"
+	}

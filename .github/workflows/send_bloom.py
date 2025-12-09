@@ -4,7 +4,7 @@ import os
 from pathlib import Path
 import time
 
-PACK = "datapack.zip"
+PACK = "build/super_smash_bros_recrafted_data_pack.zip"
 TARGET = "world/datapacks/" + PACK
 URL = "https://mc.bloom.host/api/client/servers/e2d8cd97/"
 HEADERS = {
@@ -31,4 +31,4 @@ make_request(
 )
 print("Success!")
 time.sleep(0.05)
-make_request(route="command", data={"command": "function ssbrc:logic/server/build_finish"})
+make_request(route="command", data={command: "function ssbrc:server/build/finish"})

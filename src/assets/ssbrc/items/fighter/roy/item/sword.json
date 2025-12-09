@@ -1,0 +1,41 @@
+{
+	"model": {
+		"type": "minecraft:select",
+		"property": "minecraft:custom_model_data",
+		"cases": [
+			{
+				"when": "gold",
+				"model": {
+					"type": "minecraft:model",
+					"model": "ssbrc:fighter/roy/item/sword/gold"
+				}
+			},
+			{
+				"when": "young_lion",
+				"model": {
+					"type": "minecraft:model",
+					"model": "ssbrc:fighter/roy/item/sword/young_lion"
+				}
+			},
+			{
+				"when": "awakening",
+				"model": {
+					"type": "minecraft:model",
+					"model": "ssbrc:fighter/roy/item/sword/awakening"
+				}
+			},
+			{
+				"when": "blazing_bachelor",
+				"model": {
+					"type": "minecraft:model",
+					"model": "ssbrc:fighter/roy/item/sword/blazing_bachelor"
+				}
+			}
+		],
+		"fallback": {
+			"type": "minecraft:model",
+			"model": "ssbrc:fighter/roy/item/sword/default"
+		}
+	},
+	"hand_animation_on_swap": false
+}

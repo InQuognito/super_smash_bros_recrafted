@@ -1,0 +1,6 @@
+{
+	"parent": "minecraft:block/cube_all",
+	"textures": {
+		"all": "ssbrc:stage/tower_of_fate/gold_brick"
+	}
+}

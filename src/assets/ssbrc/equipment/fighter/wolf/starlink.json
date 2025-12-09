@@ -1,0 +1,10 @@
+{
+	"layers": {
+		"humanoid": [
+			{ "texture": "ssbrc:fighter/wolf/starlink" }
+		],
+		"humanoid_leggings": [
+			{ "texture": "ssbrc:fighter/wolf/starlink" }
+		]
+	}
+}

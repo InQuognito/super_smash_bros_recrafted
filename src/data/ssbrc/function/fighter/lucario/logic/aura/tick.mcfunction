@@ -1,0 +1,9 @@
+execute if score @s charge.1 matches 9 run return run particle minecraft:dust_color_transition{from_color: [0,.5,1],to_color: [0,1,1],scale: 0.60} ~ ~.75 ~ .2 .4 .2 0 50 normal @a
+execute if score @s charge.1 matches 8 run return run particle minecraft:dust_color_transition{from_color: [0,.5,1],to_color: [0,1,1],scale: 0.59} ~ ~.75 ~ .2 .4 .2 0 45 normal @a
+execute if score @s charge.1 matches 7 run return run particle minecraft:dust_color_transition{from_color: [0,.5,1],to_color: [0,1,1],scale: 0.58} ~ ~.75 ~ .2 .4 .2 0 40 normal @a
+execute if score @s charge.1 matches 6 run return run particle minecraft:dust_color_transition{from_color: [0,.5,1],to_color: [0,1,1],scale: 0.57} ~ ~.75 ~ .2 .4 .2 0 35 normal @a
+execute if score @s charge.1 matches 5 run return run particle minecraft:dust_color_transition{from_color: [0,.5,1],to_color: [0,1,1],scale: 0.56} ~ ~.75 ~ .2 .4 .2 0 30 normal @a
+execute if score @s charge.1 matches 4 run return run particle minecraft:dust_color_transition{from_color: [0,.5,1],to_color: [0,1,1],scale: 0.55} ~ ~.75 ~ .2 .4 .2 0 25 normal @a
+execute if score @s charge.1 matches 3 run return run particle minecraft:dust_color_transition{from_color: [0,.5,1],to_color: [0,1,1],scale: 0.54} ~ ~.75 ~ .2 .4 .2 0 20 normal @a
+execute if score @s charge.1 matches 2 run return run particle minecraft:dust_color_transition{from_color: [0,.5,1],to_color: [0,1,1],scale: 0.53} ~ ~.75 ~ .2 .4 .2 0 15 normal @a
+execute if score @s charge.1 matches 1 run return run particle minecraft:dust_color_transition{from_color: [0,.5,1],to_color: [0,1,1],scale: 0.52} ~ ~.75 ~ .2 .4 .2 0 10 normal @a

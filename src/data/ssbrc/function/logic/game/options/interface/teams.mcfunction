@@ -1,0 +1,4 @@
+data modify storage ssbrc:temp cache.option.teams.header set value ["",{translate: "ssbrc.options.teams",bold: true,underlined: true,color: "black"},{text: " 🛈",color: "gray",hover_event: {action: "show_text",value: [{translate: "ssbrc.options.teams.description",color: "gold"}]}}]
+
+execute if data storage ssbrc:data option{teams: true} run return run data modify storage ssbrc:temp cache.option.teams.value set value ["",{translate: "ssbrc.options.on",color: "gold",bold: true},{text: " | ",color: "dark_gray"},{translate: "ssbrc.options.off",color: "gray",click_event: {action: "run_command",command: "trigger options_trigger set 13"}}]
+data modify storage ssbrc:temp cache.option.teams.value set value ["",{translate: "ssbrc.options.on",color: "gray",click_event: {action: "run_command",command: "trigger options_trigger set 12"}},{text: " | ",color: "dark_gray"},{translate: "ssbrc.options.off",color: "gold",bold: true}]

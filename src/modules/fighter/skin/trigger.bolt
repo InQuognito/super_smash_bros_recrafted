@@ -1,0 +1,15 @@
+from ssbrc.fighters import fighters, get_color
+
+from itertools import chain
+
+for fighter in fighters:
+	n = 1
+	function f'ssbrc:fighter/{fighter}/menu/skin/trigger':
+		for skin in chain(['default'], fighters[fighter]['skins']):
+			if fighter in ['byleth', 'villager']:
+				if score @s menu matches n return run function f'ssbrc:fighter/{fighter}/menu/skin' {'fighter':fighter,'skin':skin,'color':get_color(fighter, skin),'gender':'female'}
+				if score @s menu matches (n + 1) return run function f'ssbrc:fighter/{fighter}/menu/skin' {'fighter':fighter,'skin':skin,'color':get_color(fighter, skin),'gender':'male'}
+				n += 2
+			else:
+				if score @s menu matches n return run function ssbrc:logic/fighter/select_skin {'fighter':fighter,'skin':skin,'color':get_color(fighter, skin)}
+				n += 1

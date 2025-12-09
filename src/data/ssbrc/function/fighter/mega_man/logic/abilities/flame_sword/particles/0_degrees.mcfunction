@@ -1,0 +1,9 @@
+particle minecraft:flame ^-1 ^1 ^1 .05 .05 .05 .005 5 force @a
+particle minecraft:flame ^-.75 ^1 ^1.2 .05 .05 .05 .005 5 force @a
+particle minecraft:flame ^-0.5 ^1 ^1.4 .05 .05 .05 .005 5 force @a
+particle minecraft:flame ^-.25 ^1 ^1.6 .05 .05 .05 .005 5 force @a
+particle minecraft:flame ^ ^1 ^1.8 .05 .05 .05 .005 5 force @a
+particle minecraft:flame ^.25 ^1 ^1.6 .05 .05 .05 .005 5 force @a
+particle minecraft:flame ^.5 ^1 ^1.4 .05 .05 .05 .005 5 force @a
+particle minecraft:flame ^.75 ^1 ^1.2 .05 .05 .05 .005 5 force @a
+particle minecraft:flame ^1 ^1 ^1 .05 .05 .05 .005 5 force @a

@@ -1,0 +1,43 @@
+{
+	"model": {
+		"type": "minecraft:condition",
+		"property": "minecraft:component",
+		"predicate": "minecraft:custom_data",
+		"value": {
+			"doom": "true"
+		},
+		"on_true": {
+			"type": "minecraft:condition",
+			"property": "minecraft:component",
+			"predicate": "minecraft:custom_data",
+			"value": {
+				"enabled": "true"
+			},
+			"on_true": {
+				"type": "minecraft:model",
+				"model": "ssbrc:fighter/shadow/item/chaos_spear/default/doom/default"
+			},
+			"on_false": {
+				"type": "minecraft:model",
+				"model": "ssbrc:fighter/shadow/item/chaos_spear/default/doom/disabled"
+			}
+		},
+		"on_false": {
+			"type": "minecraft:condition",
+			"property": "minecraft:component",
+			"predicate": "minecraft:custom_data",
+			"value": {
+				"enabled": "true"
+			},
+			"on_true": {
+				"type": "minecraft:model",
+				"model": "ssbrc:fighter/shadow/item/chaos_spear/default/defalt/default"
+			},
+			"on_false": {
+				"type": "minecraft:model",
+				"model": "ssbrc:fighter/shadow/item/chaos_spear/default/defalt/disabled"
+			}
+		}
+	},
+	"hand_animation_on_swap": false
+}

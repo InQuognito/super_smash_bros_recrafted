@@ -1,0 +1,63 @@
+from ssbrc.fighters import fighters, has_forms, forms_isolated_to, get_color
+
+from ssbrc.ui import collections
+
+from itertools import chain
+
+for fighter in fighters:
+	for skin in chain(['default'], fighters[fighter]['skins']):
+		if skin != 'gold':
+			if skin == 'default':
+				text = f'fighter.{fighter}'
+			else:
+				text = f'skin.{skin}'
+
+			if skin != 'default' and 'collection' in fighters[fighter]['skins'][skin].keys():
+				collection = fighters[fighter]['skins'][skin]['collection']
+				collection_text = collections[collection]['text']
+				collection_color = collections[collection]['color']
+
+				collection_wrapper = [
+					{
+						"function": "minecraft:set_lore",
+						"entity": "this",
+						"lore": [
+							{
+								"text": collection_text,
+								"color": collection_color,
+								"bold": true,
+								"italic": false,
+								"extra": [
+									{
+										"translate": f'ssbrc.shop.collection.{collection}',
+										"color": "white",
+										"bold": false,
+										"italic": false
+									}
+								]
+							}
+						],
+						"mode": "append"
+					}
+				]
+			else:
+				collection_wrapper = []
+
+			if has_forms(fighter) and forms_isolated_to(fighter, skin) != 'body':
+				default_form = fighters[fighter]['forms'][0]
+				if fighter == 'pokemon_trainer' and skin == 'shiny':
+					model = f'ssbrc:fighter/{fighter}/skin/default/{default_form}'
+				else:
+					model = f'ssbrc:fighter/{fighter}/skin/{skin}/{default_form}'
+			else:
+				model = f'ssbrc:fighter/{fighter}/skin/{skin}'
+
+			item_modifier f'ssbrc:fighter/{fighter}/skin/{skin}' [
+				*collection_wrapper,
+				{
+					"function": "minecraft:set_components",
+					"components": {
+						"minecraft:item_model": model
+					}
+				}
+			]

@@ -1,0 +1,56 @@
+{
+	"name": "Super Smash Bros. Re:Crafted",
+	"author": "InQuognito",
+	"description": "Datapack/Assets idk",
+
+	"data_pack": {
+		"load": [
+			"src"
+		],
+		"filter": {
+			"block": [
+				{
+					"namespace": "minecraft",
+					"path": "recipe/.*"
+				},
+				{
+					"namespace": "minecraft",
+					"path": "advancement/.*"
+				}
+			]
+		},
+		"zipped": true
+	},
+
+	"resource_pack": {
+		"load": [
+			"src"
+		],
+		"zipped": false
+	},
+
+	"pipeline": [
+		{
+			"require": [
+				"bolt",
+				"ssbrc.livelyreload"
+			],
+			"data_pack": {
+				"load": {
+					"data/ssbrc/module": "src/modules"
+				}
+			},
+			"pipeline": [
+				"mecha"
+			],
+			"meta": {
+				"bolt": {
+					"entrypoint": "*"
+				}
+			}
+		},
+		"beet.contrib.minify_json"
+	],
+
+	"output": "build"
+}

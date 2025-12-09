@@ -1,0 +1,27 @@
+{
+	"model": {
+		"type": "minecraft:select",
+		"property": "minecraft:custom_model_data",
+		"cases": [
+			{
+				"when": "dawn",
+				"model": {
+					"type": "minecraft:model",
+					"model": "ssbrc:fighter/pokemon_trainer/item/bite/dawn"
+				}
+			},
+			{
+				"when": "victor",
+				"model": {
+					"type": "minecraft:model",
+					"model": "ssbrc:fighter/pokemon_trainer/item/bite/dawn"
+				}
+			}
+		],
+		"fallback": {
+			"type": "minecraft:model",
+			"model": "minecraft:item/netherite_sword"
+		}
+	},
+	"hand_animation_on_swap": false
+}

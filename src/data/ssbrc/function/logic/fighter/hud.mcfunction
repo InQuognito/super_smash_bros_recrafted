@@ -1,0 +1,3 @@
+$execute unless entity @s[tag=hud_disabled] run function ssbrc:fighter/$(fighter)/logic/hud with entity @s equipment.body.components."minecraft:custom_data"
+
+scoreboard players set @s hud 0

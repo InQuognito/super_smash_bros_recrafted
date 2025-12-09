@@ -1,0 +1,6 @@
+{
+	"parent": "ssbrc:stage/icon",
+	"textures": {
+		"base": "ssbrc:stage/hoenn_pokemon_league/icon"
+	}
+}

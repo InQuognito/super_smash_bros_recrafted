@@ -1,0 +1,11 @@
+# UV DOCS
+https://docs.astral.sh/uv/
+
+# UV ESSENTIALS
+uv init
+uv add <dependency>
+
+beet link --minecraft <directory> <world_name>
+
+Notes:
+	fighter folder, each fighter has own json file

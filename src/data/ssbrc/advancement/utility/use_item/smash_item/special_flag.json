@@ -1,0 +1,20 @@
+{
+	"parent": "ssbrc:utility/use_item/root",
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:consume_item",
+			"conditions": {
+				"item": {
+					"predicates": {
+						"minecraft:custom_data": {
+							"item": "special_flag"
+						}
+					}
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "ssbrc:smash_item/special_flag/activate"
+	}
+}

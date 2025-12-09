@@ -1,0 +1,4 @@
+from ssbrc.fighters import fighters, fighter_storage
+
+function ssbrc:logic/init/fighter:
+	data modify storage ssbrc:data fighter set value fighter_storage()

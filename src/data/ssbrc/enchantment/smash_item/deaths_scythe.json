@@ -1,0 +1,41 @@
+{
+	"description": "",
+	"supported_items": "minecraft:emerald",
+	"weight": 1,
+	"max_level": 1,
+	"min_cost": {
+		"base": 0,
+		"per_level_above_first": 0
+	},
+	"max_cost": {
+		"base": 0,
+		"per_level_above_first": 0
+	},
+	"anvil_cost": 0,
+	"slots": [
+		"mainhand"
+	],
+	"effects": {
+		"minecraft:post_attack": [
+			{
+				"requirements": {
+					"condition": "minecraft:entity_scores",
+					"entity": "this",
+					"scores": {
+						"health": {
+							"max": 12
+						}
+					}
+				},
+				"effect": {
+					"type": "minecraft:damage_entity",
+					"damage_type": "ssbrc:generic",
+					"min_damage": 999.9,
+					"max_damage": 999.9
+				},
+				"enchanted": "attacker",
+				"affected": "victim"
+			}
+		]
+	}
+}

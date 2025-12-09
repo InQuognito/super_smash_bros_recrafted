@@ -1,0 +1,6 @@
+from ssbrc.fighters import fighters
+
+function ssbrc:logic/fighter/loop:
+	for fighter in fighters:
+		obj = f'$function $(function) with storage ssbrc:data fighter.{fighter}'
+		raw obj

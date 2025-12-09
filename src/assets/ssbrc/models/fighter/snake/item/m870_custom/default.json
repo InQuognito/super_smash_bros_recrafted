@@ -1,0 +1,6 @@
+{
+	"parent": "ssbrc:fighter/snake/item/m870_custom/parent",
+	"textures": {
+		"layer0": "ssbrc:fighter/snake/item/m870_custom/default"
+	}
+}

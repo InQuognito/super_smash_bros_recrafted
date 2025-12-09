@@ -1,0 +1,13 @@
+{
+	"variants": {
+		"type=bottom": {
+			"model": "minecraft:block/tuff_brick_slab"
+		},
+		"type=double": {
+			"model": "ssbrc:stage/tower_of_fate/gold_brick"
+		},
+		"type=top": {
+			"model": "minecraft:block/tuff_brick_slab_top"
+		}
+	}
+}

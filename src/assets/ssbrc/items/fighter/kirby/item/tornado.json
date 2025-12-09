@@ -1,0 +1,26 @@
+{
+	"model": {
+		"type": "minecraft:select",
+		"property": "minecraft:custom_model_data",
+		"cases": [
+			{
+				"when": "gold",
+				"model": {
+					"type": "minecraft:model",
+					"model": "minecraft:item/string",
+					"tints": [
+						{
+							"type": "minecraft:constant",
+							"value": 14202382
+						}
+					]
+				}
+			}
+		],
+		"fallback": {
+			"type": "minecraft:model",
+			"model": "minecraft:item/string"
+		}
+	},
+	"hand_animation_on_swap": false
+}

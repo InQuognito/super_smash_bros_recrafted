@@ -1,0 +1,11 @@
+{
+	"type": "ssbrc:default",
+	"generator": {
+		"type": "minecraft:flat",
+		"settings": {
+			"biome": "ssbrc:smash_plaza",
+			"layers": [],
+			"structure_overrides": []
+		}
+	}
+}

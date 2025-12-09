@@ -1,0 +1,6 @@
+{
+	"parent": "ssbrc:fighter/gooey/item/love_love_stick/parent",
+	"textures": {
+		"layer0": "ssbrc:fighter/gooey/item/love_love_stick/default"
+	}
+}

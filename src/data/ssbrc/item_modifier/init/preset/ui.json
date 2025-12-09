@@ -1,0 +1,39 @@
+[
+	{
+		"function": "minecraft:reference",
+		"name": "ssbrc:init/tooltip/separator"
+	},
+	{
+		"function": "minecraft:reference",
+		"name": "ssbrc:init/ability/instrument/default"
+	},
+	{
+		"function": "minecraft:reference",
+		"name": "ssbrc:init/ability/stats"
+	},
+	{
+		"function": "minecraft:set_components",
+		"components": {
+			"minecraft:attribute_modifiers": [
+				{
+					"type": "minecraft:entity_interaction_range",
+					"id": "ssbrc:ui",
+					"amount": -1,
+					"operation": "add_multiplied_total",
+					"slot": "mainhand"
+				}
+			],
+			"minecraft:swing_animation": {
+				"type": "none",
+				"duration": 1
+			},
+			"minecraft:tooltip_display": {
+				"hidden_components": [
+					"minecraft:attribute_modifiers",
+					"minecraft:instrument",
+					"minecraft:written_book_content"
+				]
+			}
+		}
+	}
+]

@@ -1,0 +1,87 @@
+scoreboard players add @s stage_select 1
+
+$execute if score @s stage_select matches 1 run particle $(particle) ^-.5 ^ ^ 0 0 0 0 1 force @s
+$execute if score @s stage_select matches 2 run particle $(particle) ^-.5 ^.05 ^ 0 0 0 0 1 force @s
+$execute if score @s stage_select matches 3 run particle $(particle) ^-.5 ^.10 ^ 0 0 0 0 1 force @s
+$execute if score @s stage_select matches 4 run particle $(particle) ^-.5 ^.15 ^ 0 0 0 0 1 force @s
+$execute if score @s stage_select matches 5 run particle $(particle) ^-.5 ^.20 ^ 0 0 0 0 1 force @s
+$execute if score @s stage_select matches 6 run particle $(particle) ^-.5 ^.25 ^ 0 0 0 0 1 force @s
+$execute if score @s stage_select matches 7 run particle $(particle) ^-.5 ^.30 ^ 0 0 0 0 1 force @s
+$execute if score @s stage_select matches 8 run particle $(particle) ^-.5 ^.35 ^ 0 0 0 0 1 force @s
+$execute if score @s stage_select matches 9 run particle $(particle) ^-.5 ^.40 ^ 0 0 0 0 1 force @s
+$execute if score @s stage_select matches 10 run particle $(particle) ^-.5 ^.45 ^ 0 0 0 0 1 force @s
+$execute if score @s stage_select matches 11 run particle $(particle) ^-.5 ^.5 ^ 0 0 0 0 1 force @s
+$execute if score @s stage_select matches 12 run particle $(particle) ^-.45 ^.5 ^ 0 0 0 0 1 force @s
+$execute if score @s stage_select matches 13 run particle $(particle) ^-.40 ^.5 ^ 0 0 0 0 1 force @s
+$execute if score @s stage_select matches 14 run particle $(particle) ^-.35 ^.5 ^ 0 0 0 0 1 force @s
+$execute if score @s stage_select matches 15 run particle $(particle) ^-.30 ^.5 ^ 0 0 0 0 1 force @s
+$execute if score @s stage_select matches 16 run particle $(particle) ^-.25 ^.5 ^ 0 0 0 0 1 force @s
+$execute if score @s stage_select matches 17 run particle $(particle) ^-.20 ^.5 ^ 0 0 0 0 1 force @s
+$execute if score @s stage_select matches 18 run particle $(particle) ^-.15 ^.5 ^ 0 0 0 0 1 force @s
+$execute if score @s stage_select matches 19 run particle $(particle) ^-.10 ^.5 ^ 0 0 0 0 1 force @s
+$execute if score @s stage_select matches 20 run particle $(particle) ^-.05 ^.5 ^ 0 0 0 0 1 force @s
+
+$execute if score @s stage_select matches 1 run particle $(particle) ^ ^.5 ^ 0 0 0 0 1 force @s
+$execute if score @s stage_select matches 2 run particle $(particle) ^.05 ^.5 ^ 0 0 0 0 1 force @s
+$execute if score @s stage_select matches 3 run particle $(particle) ^.10 ^.5 ^ 0 0 0 0 1 force @s
+$execute if score @s stage_select matches 4 run particle $(particle) ^.15 ^.5 ^ 0 0 0 0 1 force @s
+$execute if score @s stage_select matches 5 run particle $(particle) ^.20 ^.5 ^ 0 0 0 0 1 force @s
+$execute if score @s stage_select matches 6 run particle $(particle) ^.25 ^.5 ^ 0 0 0 0 1 force @s
+$execute if score @s stage_select matches 7 run particle $(particle) ^.30 ^.5 ^ 0 0 0 0 1 force @s
+$execute if score @s stage_select matches 8 run particle $(particle) ^.35 ^.5 ^ 0 0 0 0 1 force @s
+$execute if score @s stage_select matches 9 run particle $(particle) ^.40 ^.5 ^ 0 0 0 0 1 force @s
+$execute if score @s stage_select matches 10 run particle $(particle) ^.45 ^.5 ^ 0 0 0 0 1 force @s
+$execute if score @s stage_select matches 11 run particle $(particle) ^.5 ^.50 ^ 0 0 0 0 1 force @s
+$execute if score @s stage_select matches 12 run particle $(particle) ^.5 ^.45 ^ 0 0 0 0 1 force @s
+$execute if score @s stage_select matches 13 run particle $(particle) ^.5 ^.40 ^ 0 0 0 0 1 force @s
+$execute if score @s stage_select matches 14 run particle $(particle) ^.5 ^.35 ^ 0 0 0 0 1 force @s
+$execute if score @s stage_select matches 15 run particle $(particle) ^.5 ^.30 ^ 0 0 0 0 1 force @s
+$execute if score @s stage_select matches 16 run particle $(particle) ^.5 ^.25 ^ 0 0 0 0 1 force @s
+$execute if score @s stage_select matches 17 run particle $(particle) ^.5 ^.20 ^ 0 0 0 0 1 force @s
+$execute if score @s stage_select matches 18 run particle $(particle) ^.5 ^.15 ^ 0 0 0 0 1 force @s
+$execute if score @s stage_select matches 19 run particle $(particle) ^.5 ^.10 ^ 0 0 0 0 1 force @s
+$execute if score @s stage_select matches 20 run particle $(particle) ^.5 ^.05 ^ 0 0 0 0 1 force @s
+
+$execute if score @s stage_select matches 1 run particle $(particle) ^.5 ^ ^ 0 0 0 0 1 force @s
+$execute if score @s stage_select matches 2 run particle $(particle) ^.5 ^-.05 ^ 0 0 0 0 1 force @s
+$execute if score @s stage_select matches 3 run particle $(particle) ^.5 ^-.10 ^ 0 0 0 0 1 force @s
+$execute if score @s stage_select matches 4 run particle $(particle) ^.5 ^-.15 ^ 0 0 0 0 1 force @s
+$execute if score @s stage_select matches 5 run particle $(particle) ^.5 ^-.20 ^ 0 0 0 0 1 force @s
+$execute if score @s stage_select matches 6 run particle $(particle) ^.5 ^-.25 ^ 0 0 0 0 1 force @s
+$execute if score @s stage_select matches 7 run particle $(particle) ^.5 ^-.30 ^ 0 0 0 0 1 force @s
+$execute if score @s stage_select matches 8 run particle $(particle) ^.5 ^-.35 ^ 0 0 0 0 1 force @s
+$execute if score @s stage_select matches 9 run particle $(particle) ^.5 ^-.40 ^ 0 0 0 0 1 force @s
+$execute if score @s stage_select matches 10 run particle $(particle) ^.5 ^-.45 ^ 0 0 0 0 1 force @s
+$execute if score @s stage_select matches 11 run particle $(particle) ^.5 ^-.5 ^ 0 0 0 0 1 force @s
+$execute if score @s stage_select matches 12 run particle $(particle) ^.45 ^-.5 ^ 0 0 0 0 1 force @s
+$execute if score @s stage_select matches 13 run particle $(particle) ^.40 ^-.5 ^ 0 0 0 0 1 force @s
+$execute if score @s stage_select matches 14 run particle $(particle) ^.35 ^-.5 ^ 0 0 0 0 1 force @s
+$execute if score @s stage_select matches 15 run particle $(particle) ^.30 ^-.5 ^ 0 0 0 0 1 force @s
+$execute if score @s stage_select matches 16 run particle $(particle) ^.25 ^-.5 ^ 0 0 0 0 1 force @s
+$execute if score @s stage_select matches 17 run particle $(particle) ^.20 ^-.5 ^ 0 0 0 0 1 force @s
+$execute if score @s stage_select matches 18 run particle $(particle) ^.15 ^-.5 ^ 0 0 0 0 1 force @s
+$execute if score @s stage_select matches 19 run particle $(particle) ^.10 ^-.5 ^ 0 0 0 0 1 force @s
+$execute if score @s stage_select matches 20 run particle $(particle) ^.05 ^-.5 ^ 0 0 0 0 1 force @s
+
+$execute if score @s stage_select matches 1 run particle $(particle) ^ ^-.5 ^ 0 0 0 0 1 force @s
+$execute if score @s stage_select matches 2 run particle $(particle) ^-.05 ^-.5 ^ 0 0 0 0 1 force @s
+$execute if score @s stage_select matches 3 run particle $(particle) ^-.10 ^-.5 ^ 0 0 0 0 1 force @s
+$execute if score @s stage_select matches 4 run particle $(particle) ^-.15 ^-.5 ^ 0 0 0 0 1 force @s
+$execute if score @s stage_select matches 5 run particle $(particle) ^-.20 ^-.5 ^ 0 0 0 0 1 force @s
+$execute if score @s stage_select matches 6 run particle $(particle) ^-.25 ^-.5 ^ 0 0 0 0 1 force @s
+$execute if score @s stage_select matches 7 run particle $(particle) ^-.30 ^-.5 ^ 0 0 0 0 1 force @s
+$execute if score @s stage_select matches 8 run particle $(particle) ^-.35 ^-.5 ^ 0 0 0 0 1 force @s
+$execute if score @s stage_select matches 9 run particle $(particle) ^-.40 ^-.5 ^ 0 0 0 0 1 force @s
+$execute if score @s stage_select matches 10 run particle $(particle) ^-.45 ^-.5 ^ 0 0 0 0 1 force @s
+$execute if score @s stage_select matches 11 run particle $(particle) ^-.5 ^-.5 ^ 0 0 0 0 1 force @s
+$execute if score @s stage_select matches 12 run particle $(particle) ^-.5 ^-.45 ^ 0 0 0 0 1 force @s
+$execute if score @s stage_select matches 13 run particle $(particle) ^-.5 ^-.40 ^ 0 0 0 0 1 force @s
+$execute if score @s stage_select matches 14 run particle $(particle) ^-.5 ^-.35 ^ 0 0 0 0 1 force @s
+$execute if score @s stage_select matches 15 run particle $(particle) ^-.5 ^-.30 ^ 0 0 0 0 1 force @s
+$execute if score @s stage_select matches 16 run particle $(particle) ^-.5 ^-.25 ^ 0 0 0 0 1 force @s
+$execute if score @s stage_select matches 17 run particle $(particle) ^-.5 ^-.20 ^ 0 0 0 0 1 force @s
+$execute if score @s stage_select matches 18 run particle $(particle) ^-.5 ^-.15 ^ 0 0 0 0 1 force @s
+$execute if score @s stage_select matches 19 run particle $(particle) ^-.5 ^-.10 ^ 0 0 0 0 1 force @s
+$execute if score @s stage_select matches 20 run particle $(particle) ^-.5 ^-.05 ^ 0 0 0 0 1 force @s
+
+scoreboard players set @s[scores={stage_select=20..}] stage_select 0

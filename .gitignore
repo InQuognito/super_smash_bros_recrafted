@@ -1,4 +1,2 @@
-scripts/__pycache__/
-scripts/lib/__pycache__/
-
-scripts/bin/
+__pycache__
+build/

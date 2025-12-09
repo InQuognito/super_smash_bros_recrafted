@@ -1,0 +1,27 @@
+{
+	"model": {
+		"type": "minecraft:select",
+		"property": "minecraft:custom_model_data",
+		"cases": [
+			{
+				"when": "gold",
+				"model": {
+					"type": "minecraft:model",
+					"model": "ssbrc:fighter/donkey_kong/item/barrel/gold"
+				}
+			},
+			{
+				"when": "flower_power",
+				"model": {
+					"type": "minecraft:model",
+					"model": "ssbrc:fighter/donkey_kong/item/barrel/flower_power"
+				}
+			}
+		],
+		"fallback": {
+			"type": "minecraft:model",
+			"model": "ssbrc:fighter/donkey_kong/item/barrel/default"
+		}
+	},
+	"hand_animation_on_swap": false
+}

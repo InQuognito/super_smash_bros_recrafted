@@ -1,0 +1,25 @@
+[
+	{
+		"function": "minecraft:set_lore",
+		"entity": "this",
+		"lore": [
+			{
+				"nbt": "collection.winter",
+				"storage": "ssbrc:data",
+				"interpret": true,
+				"color": "aqua",
+				"bold": true,
+				"italic": false,
+				"extra": [
+					{
+						"translate": "ssbrc.shop.collection.winter",
+						"color": "white",
+						"bold": false,
+						"italic": false
+					}
+				]
+			}
+		],
+		"mode": "append"
+	}
+]

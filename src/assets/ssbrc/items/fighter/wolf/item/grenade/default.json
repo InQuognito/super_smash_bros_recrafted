@@ -1,0 +1,88 @@
+{
+	"model": {
+		"type": "minecraft:condition",
+		"property": "minecraft:using_item",
+		"on_true": {
+			"type": "minecraft:range_dispatch",
+			"property": "minecraft:use_cycle",
+			"period": 20,
+			"entries": [
+				{
+					"threshold": 0,
+					"model": {
+						"type": "minecraft:select",
+						"property": "minecraft:display_context",
+						"cases": [
+							{
+								"when": "gui",
+								"model": {
+									"type": "minecraft:model",
+									"model": "ssbrc:fighter/wolf/misc/grenade/beep"
+								}
+							}
+						],
+						"fallback": {
+							"type": "minecraft:model",
+							"model": "ssbrc:fighter/wolf/item/grenade/beep"
+						}
+					}
+				},
+				{
+					"threshold": 2,
+					"model": {
+						"type": "minecraft:select",
+						"property": "minecraft:display_context",
+						"cases": [
+							{
+								"when": "gui",
+								"model": {
+									"type": "minecraft:model",
+									"model": "ssbrc:fighter/wolf/misc/grenade/default"
+								}
+							}
+						],
+						"fallback": {
+							"type": "minecraft:model",
+							"model": "ssbrc:fighter/wolf/item/grenade/default"
+						}
+					}
+				}
+			],
+			"fallback": {
+				"type": "minecraft:select",
+				"property": "minecraft:display_context",
+				"cases": [
+					{
+						"when": "gui",
+						"model": {
+							"type": "minecraft:model",
+							"model": "ssbrc:fighter/wolf/misc/grenade/default"
+						}
+					}
+				],
+				"fallback": {
+					"type": "minecraft:model",
+					"model": "ssbrc:fighter/wolf/item/grenade/default"
+				}
+			}
+		},
+		"on_false": {
+			"type": "minecraft:select",
+			"property": "minecraft:display_context",
+			"cases": [
+				{
+					"when": "gui",
+					"model": {
+						"type": "minecraft:model",
+						"model": "ssbrc:fighter/wolf/misc/grenade/default"
+					}
+				}
+			],
+			"fallback": {
+				"type": "minecraft:model",
+				"model": "ssbrc:fighter/wolf/item/grenade/default"
+			}
+		}
+	},
+	"hand_animation_on_swap": false
+}

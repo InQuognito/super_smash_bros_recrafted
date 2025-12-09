@@ -1,0 +1,37 @@
+{
+	"type": "minecraft:command",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:goat_horn",
+					"functions": [
+						{
+							"function": "minecraft:reference",
+							"name": "ssbrc:init/preset/gun"
+						},
+						{
+							"function": "minecraft:set_components",
+							"components": {
+								"minecraft:use_cooldown": {
+									"seconds": 1.0,
+									"cooldown_group": "ssbrc:snake/m870_custom"
+								},
+								"minecraft:item_model": "ssbrc:fighter/snake/item/m870_custom"
+							}
+						},
+						{
+							"function": "minecraft:set_custom_data",
+							"tag": {
+								"item": "m870_custom",
+								"group": "snake.weapon"
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}

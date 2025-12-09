@@ -1,0 +1,47 @@
+{
+	"model": {
+		"type": "minecraft:select",
+		"property": "minecraft:display_context",
+		"cases": [
+			{
+				"when": "gui",
+				"model": {
+					"type": "minecraft:model",
+					"model": "ssbrc:fighter/mega_man/misc/drill_bomb"
+				}
+			}
+		],
+		"fallback": {
+			"type": "minecraft:select",
+			"property": "minecraft:custom_model_data",
+			"cases": [
+				{
+					"when": "x",
+					"model": {
+						"type": "minecraft:model",
+						"model": "ssbrc:fighter/mega_man/item/drill_bomb/x"
+					}
+				},
+				{
+					"when": "star_force",
+					"model": {
+						"type": "minecraft:model",
+						"model": "ssbrc:fighter/mega_man/item/drill_bomb/star_force"
+					}
+				},
+				{
+					"when": "bad_box_art",
+					"model": {
+						"type": "minecraft:model",
+						"model": "ssbrc:fighter/mega_man/item/mega_buster/bad_box_art"
+					}
+				}
+			],
+			"fallback": {
+				"type": "minecraft:model",
+				"model": "ssbrc:fighter/mega_man/item/drill_bomb/default"
+			}
+		}
+	},
+	"hand_animation_on_swap": false
+}

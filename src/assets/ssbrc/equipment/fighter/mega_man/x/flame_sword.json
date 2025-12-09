@@ -1,0 +1,10 @@
+{
+	"layers": {
+		"humanoid": [
+			{ "texture": "ssbrc:fighter/mega_man/x//flame_sword" }
+		],
+		"humanoid_leggings": [
+			{ "texture": "ssbrc:fighter/mega_man/x//flame_sword" }
+		]
+	}
+}

@@ -1,0 +1,63 @@
+data modify storage ssbrc:temp cache.option.hazards.header set value [ \
+	"", \
+	{ \
+		translate: "ssbrc.options.hazards", \
+		bold: true, \
+		underlined: true, \
+		color: "black", \
+	}, \
+	{ \
+		text: " 🛈", \
+		color: "gray", \
+		hover_event: { \
+			action: "show_text", \
+			value: [ \
+				{ \
+					translate: "ssbrc.options.hazards.description", \
+					color: "gold", \
+				}, \
+			], \
+		}, \
+	}, \
+]
+
+execute if data storage ssbrc:data option{hazards: true} run return run data modify storage ssbrc:temp cache.option.hazards.value set value [ \
+	"", \
+	{ \
+		translate: "ssbrc.options.on", \
+		color: "gold", \
+		bold: true, \
+	}, \
+	{ \
+		text: " | ", \
+		color: "dark_gray", \
+	}, \
+	{ \
+		translate: "ssbrc.options.off", \
+		color: "gray", \
+		click_event: { \
+			action: "run_command", \
+			command: "trigger options_trigger set 17", \
+		}, \
+	}, \
+]
+data modify storage ssbrc:temp cache.option.hazards.value set value [ \
+	"", \
+	{ \
+		translate: "ssbrc.options.on", \
+		color: "gray", \
+		click_event: { \
+			action: "run_command", \
+			command: "trigger options_trigger set 16", \
+		}, \
+	}, \
+	{ \
+		text: " | ", \
+		color: "dark_gray", \
+	}, \
+	{ \
+		translate: "ssbrc.options.off", \
+		color: "gold", \
+		bold: true, \
+	}, \
+]

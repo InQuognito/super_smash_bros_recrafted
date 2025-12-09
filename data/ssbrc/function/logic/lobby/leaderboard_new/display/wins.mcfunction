@@ -1,1 +1,0 @@
-$data modify storage ssbrc:temp leaderboard.$(index).string set value '["",{"text":"$(index). ","bold":true,"color":"gold"},{"text":$(name),"color":"yellow"}," - ",{"text":$(value),"color":"aqua"}," | ",{"text":$(ratio),"color":"light_purple"},{"text":"%","color":"light_purple"}]'

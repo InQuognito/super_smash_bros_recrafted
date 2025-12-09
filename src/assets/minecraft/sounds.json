@@ -1,0 +1,278 @@
+{
+	"block.honey_block.fall": {
+		"sounds": [
+			{
+				"name": "minecraft:step/sand1",
+				"stream": false,
+				"volume": 1.0
+			},
+			{
+				"name": "minecraft:step/sand2",
+				"stream": false,
+				"volume": 1.0
+			},
+			{
+				"name": "minecraft:step/sand3",
+				"stream": false,
+				"volume": 1.0
+			},
+			{
+				"name": "minecraft:step/sand4",
+				"stream": false,
+				"volume": 1.0
+			},
+			{
+				"name": "minecraft:step/sand5",
+				"stream": false,
+				"volume": 1.0
+			}
+		],
+		"replace": true
+	},
+	"block.honey_block.slide": {
+		"sounds": [
+			{
+				"name": "minecraft:step/sand1",
+				"stream": false,
+				"volume": 1.0
+			},
+			{
+				"name": "minecraft:step/sand2",
+				"stream": false,
+				"volume": 1.0
+			},
+			{
+				"name": "minecraft:step/sand3",
+				"stream": false,
+				"volume": 1.0
+			},
+			{
+				"name": "minecraft:step/sand4",
+				"stream": false,
+				"volume": 1.0
+			},
+			{
+				"name": "minecraft:step/sand5",
+				"stream": false,
+				"volume": 1.0
+			}
+		],
+		"replace": true
+	},
+	"block.honey_block.step": {
+		"sounds": [
+			{
+				"name": "minecraft:step/sand1",
+				"stream": false,
+				"volume": 1.0
+			},
+			{
+				"name": "minecraft:step/sand2",
+				"stream": false,
+				"volume": 1.0
+			},
+			{
+				"name": "minecraft:step/sand3",
+				"stream": false,
+				"volume": 1.0
+			},
+			{
+				"name": "minecraft:step/sand4",
+				"stream": false,
+				"volume": 1.0
+			},
+			{
+				"name": "minecraft:step/sand5",
+				"stream": false,
+				"volume": 1.0
+			}
+		],
+		"replace": true
+	},
+	"entity.horse.saddle": {
+		"sounds": [],
+		"replace": true
+	},
+	"entity.generic.eat": {
+		"sounds": [],
+		"replace": true
+	},
+	"entity.player.burp": {
+		"sounds": [],
+		"replace": true
+	},
+	"item.armor.equip_generic": {
+		"sounds": [],
+		"replace": true
+	},
+	"item.armor.equip_iron": {
+		"sounds": [],
+		"replace": true
+	},
+	"item.book.page_turn": {
+		"sounds": [
+			{
+				"name": "ssbrc:ui/change_page",
+				"stream": false,
+				"volume": 0.1
+			}
+		],
+		"replace": true
+	},
+	"item.goat_horn.sound.0": {
+		"sounds": [],
+		"replace": true
+	},
+	"item.goat_horn.sound.1": {
+		"sounds": [],
+		"replace": true
+	},
+	"item.goat_horn.sound.2": {
+		"sounds": [],
+		"replace": true
+	},
+	"item.goat_horn.sound.3": {
+		"sounds": [],
+		"replace": true
+	},
+	"item.goat_horn.sound.4": {
+		"sounds": [],
+		"replace": true
+	},
+	"item.goat_horn.sound.5": {
+		"sounds": [],
+		"replace": true
+	},
+	"item.goat_horn.sound.6": {
+		"sounds": [],
+		"replace": true
+	},
+	"item.goat_horn.sound.7": {
+		"sounds": [],
+		"replace": true
+	},
+	"music.creative": {
+		"sounds": [],
+		"replace": true
+	},
+	"music.credits": {
+		"sounds": [],
+		"replace": true
+	},
+	"music.dragon": {
+		"sounds": [],
+		"replace": true
+	},
+	"music.end": {
+		"sounds": [],
+		"replace": true
+	},
+	"music.game": {
+		"sounds": [],
+		"replace": true
+	},
+	"music.menu": {
+		"sounds": [],
+		"replace": true
+	},
+	"music.nether.basalt_deltas": {
+		"sounds": [],
+		"replace": true
+	},
+	"music.nether.crimson_forest": {
+		"sounds": [],
+		"replace": true
+	},
+	"music.nether.nether_wastes": {
+		"sounds": [],
+		"replace": true
+	},
+	"music.nether.soul_sand_valley": {
+		"sounds": [],
+		"replace": true
+	},
+	"music.nether.warped_forest": {
+		"sounds": [],
+		"replace": true
+	},
+	"music.overworld.badlands": {
+		"sounds": [],
+		"replace": true
+	},
+	"music.overworld.bamboo_jungle": {
+		"sounds": [],
+		"replace": true
+	},
+	"music.overworld.cherry_grove": {
+		"sounds": [],
+		"replace": true
+	},
+	"music.overworld.deep_dark": {
+		"sounds": [],
+		"replace": true
+	},
+	"music.overworld.desert": {
+		"sounds": [],
+		"replace": true
+	},
+	"music.overworld.dripstone_caves": {
+		"sounds": [],
+		"replace": true
+	},
+	"music.overworld.flower_forest": {
+		"sounds": [],
+		"replace": true
+	},
+	"music.overworld.forest": {
+		"sounds": [],
+		"replace": true
+	},
+	"music.overworld.frozen_peaks": {
+		"sounds": [],
+		"replace": true
+	},
+	"music.overworld.grove": {
+		"sounds": [],
+		"replace": true
+	},
+	"music.overworld.jagged_peaks": {
+		"sounds": [],
+		"replace": true
+	},
+	"music.overworld.jungle": {
+		"sounds": [],
+		"replace": true
+	},
+	"music.overworld.lush_caves": {
+		"sounds": [],
+		"replace": true
+	},
+	"music.overworld.meadow": {
+		"sounds": [],
+		"replace": true
+	},
+	"music.overworld.old_growth_taiga": {
+		"sounds": [],
+		"replace": true
+	},
+	"music.overworld.snowy_slopes": {
+		"sounds": [],
+		"replace": true
+	},
+	"music.overworld.sparse_jungle": {
+		"sounds": [],
+		"replace": true
+	},
+	"music.overworld.stony_peaks": {
+		"sounds": [],
+		"replace": true
+	},
+	"music.overworld.swamp": {
+		"sounds": [],
+		"replace": true
+	},
+	"music.under_water": {
+		"sounds": [],
+		"replace": true
+	}
+}

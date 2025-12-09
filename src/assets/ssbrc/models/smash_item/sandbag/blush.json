@@ -1,0 +1,6 @@
+{
+	"parent": "ssbrc:smash_item/sandbag/parent",
+	"textures": {
+		"base": "ssbrc:smash_item/sandbag/blush"
+	}
+}

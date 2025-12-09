@@ -1,0 +1,50 @@
+[
+	{
+		"function": "minecraft:set_components",
+		"components": {
+			"minecraft:consumable": {
+				"consume_seconds": 0.01,
+				"animation": "none",
+				"sound": {
+					"sound_id": "ssbrc:empty"
+				},
+				"has_consume_particles": false
+			},
+			"minecraft:use_cooldown": {
+				"seconds": 0.25,
+				"cooldown_group": "ssbrc:identify_fish"
+			}
+		}
+	},
+	{
+		"function": "minecraft:reference",
+		"name": "ssbrc:ui/separator"
+	},
+	{
+		"function": "minecraft:set_lore",
+		"entity": "this",
+		"lore": [
+			{
+				"text": "[",
+				"color": "gray",
+				"bold": false,
+				"italic": false,
+				"extra": [
+					{
+						"keybind": "key.use",
+						"color": "gray",
+						"bold": false,
+						"italic": false
+					},
+					{
+						"text": "] to inspect",
+						"color": "gray",
+						"bold": false,
+						"italic": false
+					}
+				]
+			}
+		],
+		"mode": "append"
+	}
+]

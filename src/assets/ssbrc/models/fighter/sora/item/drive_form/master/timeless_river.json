@@ -1,0 +1,7 @@
+{
+	"parent": "ssbrc:fighter/sora/item/drive_form/parent",
+	"textures": {
+		"back": "ssbrc:fighter/sora/item/drive_form/master/back",
+		"front": "ssbrc:fighter/sora/item/drive_form/master/front/timeless_river"
+	}
+}

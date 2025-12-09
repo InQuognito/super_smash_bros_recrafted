@@ -1,0 +1,26 @@
+from ssbrc.stages import stages
+
+for stage in stages:
+	dimension f'ssbrc:smash/{stage}' {
+		"type": "ssbrc:default",
+		"generator": {
+			"type": "minecraft:flat",
+			"settings": {
+				"biome": f'ssbrc:stage/{stage}',
+				"layers": [],
+				"structure_overrides": []
+			}
+		}
+	}
+
+	dimension f'ssbrc:ctf/{stage}' {
+		"type": "ssbrc:default",
+		"generator": {
+			"type": "minecraft:flat",
+			"settings": {
+				"biome": f'ssbrc:stage/{stage}',
+				"layers": [],
+				"structure_overrides": []
+			}
+		}
+	}

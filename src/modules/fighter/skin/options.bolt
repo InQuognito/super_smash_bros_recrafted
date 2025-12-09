@@ -1,0 +1,102 @@
+from ssbrc.fighters import fighters, has_forms, forms_isolated_to, gendered_skin_menu, get_color_wrapper
+
+from itertools import chain
+
+for fighter in fighters:
+	n = 1
+	function f'ssbrc:fighter/{fighter}/menu/skin/options':
+		tellraw @s ["=== ",{translate: "ssbrc.fighter.menu.choose_skin",bold: true,color: "yellow"}," ==="]
+
+		if fighter in ['byleth', 'villager']:
+			for skin in chain(['default'], fighters[fighter]['skins']):
+				if skin == 'default':
+					unless items entity @s armor.body *[minecraft:custom_data~{'skin':skin}] tellraw @s gendered_skin_menu(fighter, skin, n)
+				else:
+					unless items entity @s armor.body *[minecraft:custom_data~{'skin':skin}] tellraw @s[advancements={f'ssbrc:fighter/{fighter}/{skin}'=true}] gendered_skin_menu(fighter, skin, n)
+				if items entity @s armor.body *[minecraft:custom_data~{'skin':skin,'form':'female'}] tellraw @s [
+					"",
+					{
+						translate: f'ssbrc.skin.{skin}',
+						**get_color_wrapper(fighter, skin)
+					},
+					" - ",
+					{
+						translate: 'ssbrc.fighter.menu.gender.female.abv',
+						color: 'light_purple',
+						strikethrough: true
+					},
+					" ",
+					{
+						translate: 'ssbrc.fighter.menu.gender.male.abv',
+						color: 'blue',
+						click_event: {
+							action: 'run_command',
+							command: f'trigger menu set {str(n + 1)}'
+						}
+					},
+					{
+						text: ' \u2714',
+						color: 'green'
+					}
+				]
+				if items entity @s armor.body *[minecraft:custom_data~{'skin':skin,'form':'male'}] tellraw @s [
+					"",
+					{
+						translate: f'ssbrc.skin.{skin}',
+						**get_color_wrapper(fighter, skin)
+					},
+					" - ",
+					{
+						translate: 'ssbrc.fighter.menu.gender.female.abv',
+						color: 'light_purple',
+						click_event: {
+							action: 'run_command',
+							command: f'trigger menu set {str(n)}'
+						}
+					},
+					" ",
+					{
+						translate: 'ssbrc.fighter.menu.gender.male.abv',
+						color: 'blue',
+						strikethrough: true
+					},
+					{
+						text: ' \u2714',
+						color: 'green'
+					}
+				]
+				n += 2
+		else:
+			for skin in chain(['default'], fighters[fighter]['skins']):
+				if skin == 'default':
+					unless items entity @s armor.body *[minecraft:custom_data~{'skin':skin}] tellraw @s {
+						translate: f'ssbrc.skin.{skin}',
+						**get_color_wrapper(fighter, skin),
+						click_event: {
+							action: 'run_command',
+							command: f'trigger menu set {str(n)}'
+						}
+					}
+				else:
+					unless items entity @s armor.body *[minecraft:custom_data~{'skin':skin}] tellraw @s[advancements={f'ssbrc:fighter/{fighter}/{skin}'=true}] {
+						translate: f'ssbrc.skin.{skin}',
+						**get_color_wrapper(fighter, skin),
+						click_event: {
+							action: 'run_command',
+							command: f'trigger menu set {str(n)}'
+						}
+					}
+				if items entity @s armor.body *[minecraft:custom_data~{'skin':skin}] tellraw @s [
+					"",
+					{
+						translate: f'ssbrc.skin.{skin}',
+						**get_color_wrapper(fighter, skin)
+					},
+					{
+						text: ' \u2714',
+						color: 'green'
+					}
+				]
+				n += 1
+
+		function ssbrc:logic/fighter/menu/skin_options
