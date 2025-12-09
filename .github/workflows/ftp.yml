@@ -38,7 +38,7 @@ jobs:
         run: pip install requests
 
       - name: Build Beet
-        run: uv run beet build
+        run: beet build
 
       - name: Upload Resourcepack
         uses: actions/upload-artifact@v4
