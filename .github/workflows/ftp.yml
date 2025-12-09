@@ -35,7 +35,10 @@ jobs:
           python-version: ${{ env.PYTHON_VERSION }}
 
       - name: Install dependencies
-        run: pip install requests; beet
+        run: pip install requests
+
+      - name: Install dependencies
+        run: pip install beet
 
       - name: Build Beet
         run: beet build
