@@ -181,4 +181,6 @@ execute if entity @s[tag=drone.bullet] run return run function ssbrc:fighter/yar
 # Items
 execute if entity @s[tag=item.black_hole] run return run function ssbrc:smash_item/black_hole/tick
 execute if entity @s[tag=item.cracker_launcher] run return run function ssbrc:smash_item/cracker_launcher/tick
+execute if entity @s[tag=item.freezie] run return run function ssbrc:smash_item/freezie/tick
+execute if entity @s[tag=item.motion_sensor_bomb] run return run function ssbrc:smash_item/motion_sensor_bomb/tick
 execute if entity @s[tag=item.ray_gun] run return run function ssbrc:smash_item/ray_gun/tick
