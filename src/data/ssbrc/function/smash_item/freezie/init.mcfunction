@@ -14,6 +14,10 @@ item modify entity @s contents [ \
 		name: "ssbrc:init/tooltip/item/throwing", \
 	}, \
 	{ \
+		function: "minecraft:reference", \
+		name: "ssbrc:init/ability/default", \
+	}, \
+	{ \
 		function: "minecraft:set_lore", \
 		entity: "this", \
 		lore: [ \
