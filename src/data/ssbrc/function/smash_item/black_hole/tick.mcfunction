@@ -1,7 +1,5 @@
-particle minecraft:dust_color_transition{from_color: [.25,0,.25],to_color: [0,0,0],scale: 1} ~ ~ ~ .5 .5 .5 0 150 force @a
-particle minecraft:dust_color_transition{from_color: [.5,0,.5],to_color: [.25,0,.25],scale: 1} ~ ~ ~ 1 1 1 0 50 force @a
-
-execute as @e[type=!minecraft:bee,predicate=ssbrc:target,distance=..10] at @s run function ssbrc:smash_item/black_hole/pull
+execute if predicate ssbrc:flag/on_ground run function ssbrc:smash_item/black_hole/tick_active
+execute if predicate ssbrc:flag/in_water run function ssbrc:smash_item/black_hole/tick_active
 
 scoreboard players add @s temp 1
 kill @s[scores={temp=100..}]
