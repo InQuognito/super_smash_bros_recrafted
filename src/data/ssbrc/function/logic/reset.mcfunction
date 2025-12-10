@@ -40,8 +40,6 @@ worldborder center 0 0
 time set noon
 weather clear
 
-setworldspawn 0 0 0
-
 execute unless score num hard_resets matches -2147483648..2147483647 run scoreboard players set num hard_resets 0
 
 scoreboard players set game_stage temp -1

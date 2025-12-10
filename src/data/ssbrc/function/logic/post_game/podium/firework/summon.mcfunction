@@ -1,7 +1,7 @@
 function ssbrc:logic/post_game/podium/firework/offset {axis: "x"}
 function ssbrc:logic/post_game/podium/firework/offset {axis: "z"}
 
-execute store result storage ssbrc:temp cache.firework.duration int 1 run random value 20..60
+execute store result storage ssbrc:temp cache.firework.duration int 1 run random value 20..40
 
 execute store result score firework_shape temp run random value 1..4
 execute if score firework_shape temp matches 1 run data modify storage ssbrc:temp cache.firework.shape set value "small_ball"

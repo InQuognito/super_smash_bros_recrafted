@@ -65,12 +65,12 @@ execute if data storage ssbrc:data option{debug: true} run tellraw @a [ \
 	}, \
 ]
 
-execute if predicate ssbrc:input/left run scoreboard players add $x player_motion.api.launch 1000
-execute if predicate ssbrc:input/right run scoreboard players remove $x player_motion.api.launch 1000
+#execute if predicate ssbrc:input/left run scoreboard players add $x player_motion.api.launch 1000
+#execute if predicate ssbrc:input/right run scoreboard players remove $x player_motion.api.launch 1000
 
-scoreboard players set $y player_motion.api.launch 0
+#scoreboard players set $y player_motion.api.launch 0
 
-execute if predicate ssbrc:input/forward run scoreboard players add $z player_motion.api.launch 1000
-execute if predicate ssbrc:input/backward run scoreboard players remove $z player_motion.api.launch 1000
+#execute if predicate ssbrc:input/forward run scoreboard players add $z player_motion.api.launch 1000
+#execute if predicate ssbrc:input/backward run scoreboard players remove $z player_motion.api.launch 1000
 
-function player_motion:api/launch_local_xyz
+#function player_motion:api/launch_local_xyz
