@@ -2345,7 +2345,7 @@
 			}
 		]
 	},
-	"item.angel_feather.activate": {
+	"smash_item.angel_feather.activate": {
 		"sounds": [
 			{
 				"name": "ssbrc:smash_item/angel_feather/activate",
@@ -2354,7 +2354,7 @@
 			}
 		]
 	},
-	"item.black_hole.activate": {
+	"smash_item.black_hole.activate": {
 		"sounds": [
 			{
 				"name": "ssbrc:smash_item/black_hole/activate",
@@ -2363,7 +2363,7 @@
 			}
 		]
 	},
-	"item.mushroom.grow": {
+	"smash_item.mushroom.grow": {
 		"sounds": [
 			{
 				"name": "ssbrc:smash_item/mushroom/grow",
@@ -2372,7 +2372,7 @@
 			}
 		]
 	},
-	"item.mushroom.shrink": {
+	"smash_item.mushroom.shrink": {
 		"sounds": [
 			{
 				"name": "ssbrc:smash_item/mushroom/shrink",
@@ -2381,7 +2381,7 @@
 			}
 		]
 	},
-	"item.poke_ball.open": {
+	"smash_item.poke_ball.open": {
 		"sounds": [
 			{
 				"name": "ssbrc:smash_item/poke_ball/open",
@@ -2390,7 +2390,7 @@
 			}
 		]
 	},
-	"item.ray_gun.activate": {
+	"smash_item.ray_gun.activate": {
 		"sounds": [
 			{
 				"name": "ssbrc:smash_item/ray_gun/activate",
@@ -2399,7 +2399,7 @@
 			}
 		]
 	},
-	"item.special_flag.activate": {
+	"smash_item.special_flag.activate": {
 		"sounds": [
 			{
 				"name": "ssbrc:smash_item/special_flag/activate",
