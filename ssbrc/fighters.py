@@ -1020,6 +1020,12 @@ fighters = {
 				},
 				'assault': {
 					'color': 'green'
+				},
+				'star_fox_2': {
+					'color': 'gold'
+				},
+				'starlink': {
+					'color': 'gold'
 				}
 			},
 			'wolf_blaster': {
@@ -1042,6 +1048,12 @@ fighters = {
 				},
 				'assault': {
 					'color': 'green'
+				},
+				'star_fox_2': {
+					'color': 'dark_gray'
+				},
+				'starlink': {
+					'color': 'dark_gray'
 				}
 			}
 		}
@@ -3105,26 +3117,6 @@ def init_item_data(fighter, skin, item, data):
 
 	data[skin_check] = skin_data
 
-def item_weapon(item_stats, stat):
-	item_stats['attack_damage'] = stat['attack_damage']
-	item_stats['attack_speed'] = stat['attack_speed']
-	if 'minimum_attack_charge' in stat.keys():
-		item_stats['minimum_attack_charge'] = stat['minimum_attack_charge']
-	else:
-		item_stats['minimum_attack_charge'] = 1.0
-	if 'item_damage_on_attack' in stat.keys():
-		item_stats['item_damage_on_attack'] = stat['item_damage_on_attack']
-	else:
-		item_stats['item_damage_on_attack'] = 0
-	if 'disable_blocking_for_seconds' in stat.keys():
-		item_stats['disable_blocking_for_seconds'] = stat['disable_blocking_for_seconds']
-	else:
-		item_stats['disable_blocking_for_seconds'] = 0.0
-
-def item_ability(item_stats, stat):
-	item_stats['cooldown'] = stat['cooldown']
-	item_stats['cooldown_group'] = stat['cooldown_group']
-
 def fighter_storage():
 	fighter_data = {}
 
@@ -3178,20 +3170,49 @@ def fighter_storage():
 
 					match type:
 						case 'weapon':
-							item_weapon(item_stats, stat)
+							item_stats['attack_damage'] = stat['attack_damage']
+							item_stats['attack_speed'] = stat['attack_speed']
+							if 'minimum_attack_charge' in stat.keys():
+								item_stats['minimum_attack_charge'] = stat['minimum_attack_charge']
+							else:
+								item_stats['minimum_attack_charge'] = 1.0
+							if 'item_damage_on_attack' in stat.keys():
+								item_stats['item_damage_on_attack'] = stat['item_damage_on_attack']
+							else:
+								item_stats['item_damage_on_attack'] = 0
+							if 'disable_blocking_for_seconds' in stat.keys():
+								item_stats['disable_blocking_for_seconds'] = stat['disable_blocking_for_seconds']
+							else:
+								item_stats['disable_blocking_for_seconds'] = 0.0
 						case 'shield':
 							item_stats['max_damage'] = stat['max_damage']
 							item_stats['block_delay_seconds'] = stat['block_delay_seconds']
 							item_stats['block_sound'] = stat['block_sound']
 							item_stats['disabled_sound'] = stat['disabled_sound']
 						case 'ability':
-							item_ability(item_stats, stat)
+							item_stats['cooldown'] = stat['cooldown']
+							item_stats['cooldown_group'] = stat['cooldown_group']
 						case 'charge_ability':
-							item_ability(item_stats, stat)
+							item_stats['cooldown'] = stat['cooldown']
+							item_stats['cooldown_group'] = stat['cooldown_group']
 							item_stats['use_duration'] = stat['use_duration']
 						case 'hybrid':
-							item_weapon(item_stats, stat)
-							item_ability(item_stats, stat)
+							item_stats['attack_damage'] = stat['attack_damage']
+							item_stats['attack_speed'] = stat['attack_speed']
+							if 'minimum_attack_charge' in stat.keys():
+								item_stats['minimum_attack_charge'] = stat['minimum_attack_charge']
+							else:
+								item_stats['minimum_attack_charge'] = 1.0
+							if 'item_damage_on_attack' in stat.keys():
+								item_stats['item_damage_on_attack'] = stat['item_damage_on_attack']
+							else:
+								item_stats['item_damage_on_attack'] = 0
+							if 'disable_blocking_for_seconds' in stat.keys():
+								item_stats['disable_blocking_for_seconds'] = stat['disable_blocking_for_seconds']
+							else:
+								item_stats['disable_blocking_for_seconds'] = 0.0
+							item_stats['cooldown'] = stat['cooldown']
+							item_stats['cooldown_group'] = stat['cooldown_group']
 						case _:
 							pass
 
