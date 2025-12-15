@@ -1,6 +1,3 @@
-# Hyper Voice
-function ssbrc:logic/item/cooldown/decrease {item: "hyper_voice"}
-
 # Rest
 execute if items entity @s armor.body *[minecraft:custom_data~{form: "rest"}] run function ssbrc:fighter/jigglypuff/logic/abilities/rest/tick
 

@@ -12,6 +12,10 @@ $item modify entity @s $(slot) { \
 			can_sprint: true, \
 			speed_multiplier: 1, \
 		}, \
+		"minecraft:use_cooldown": { \
+			seconds: $(cooldown), \
+			cooldown_group: "ssbrc:$(cooldown_group)", \
+		}, \
 		"minecraft:custom_model_data": { \
 			strings: { \
 				values: [ \

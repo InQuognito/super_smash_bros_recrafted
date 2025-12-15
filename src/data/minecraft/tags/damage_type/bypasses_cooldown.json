@@ -2,6 +2,7 @@
 	"values": [
 		"#ssbrc:status",
 		"ssbrc:generic",
-		"minecraft:arrow"
+		"minecraft:arrow",
+		"minecraft:player_attack"
 	]
 }
