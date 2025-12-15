@@ -11,6 +11,14 @@ $item replace entity @s $(slot) with minecraft:stick[ \
 		disable_blocking_for_seconds: $(disable_blocking_for_seconds), \
 	}, \
 	minecraft:minimum_attack_charge = $(minimum_attack_charge), \
+	minecraft:use_effects = { \
+		can_sprint: true, \
+		speed_multiplier: 1, \
+	}, \
+	minecraft:use_cooldown = { \
+		seconds: $(cooldown), \
+		cooldown_group: $(cooldown_group), \
+	}, \
 	minecraft:attribute_modifiers = [ \
 		{ \
 			type: "minecraft:attack_damage", \
