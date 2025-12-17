@@ -6,7 +6,7 @@ execute if items entity @s[tag=weapon_broken] armor.body *[minecraft:custom_data
 execute if items entity @s armor.body *[minecraft:custom_data~{fighter: "ganondorf"}] run return run function ssbrc:fighter/ganondorf/logic/stalfos/activate
 execute if items entity @s armor.body *[minecraft:custom_data~{fighter: "pikachu"}] run return run function ssbrc:fighter/pikachu/logic/get_kill
 execute if items entity @s armor.body *[minecraft:custom_data~{fighter: "joker"}] unless score @s duration.1 matches 1.. run return run function ssbrc:fighter/joker/logic/masks/get
-execute if items entity @s armor.body *[minecraft:custom_data~{fighter: "snake"}] if items entity @s weapon.* *[minecraft:custom_data~{item: "cqc_knife"}] unless score players.ingame temp matches 1 run return run function ssbrc:fighter/snake/logic/get_kill
+execute if items entity @s armor.body *[minecraft:custom_data~{fighter: "snake"}] unless score players.ingame temp matches 1 run return run function ssbrc:fighter/snake/logic/get_kill
 execute if items entity @s armor.body *[minecraft:custom_data~{fighter: "sora"}] run return run function ssbrc:fighter/sora/logic/get_kill
 execute if items entity @s armor.body *[minecraft:custom_data~{fighter: "yar"}] run return run function ssbrc:fighter/yar/logic/get_kill
 execute if items entity @s armor.body *[minecraft:custom_data~{fighter: "zelda"}] run return run function ssbrc:fighter/zelda/logic/get_kill/player
