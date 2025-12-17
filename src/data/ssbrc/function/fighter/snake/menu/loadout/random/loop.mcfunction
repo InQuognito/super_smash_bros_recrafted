@@ -7,7 +7,7 @@ execute if score random.output temp matches 1 run function ssbrc:fighter/snake/m
 execute if score random.output temp matches 2 run function ssbrc:fighter/snake/menu/loadout/item/check {item: "famas",undo:"4"}
 execute if score random.output temp matches 3 run function ssbrc:fighter/snake/menu/loadout/item/check {item: "m870_custom",undo:"6"}
 execute if score random.output temp matches 4 run function ssbrc:fighter/snake/menu/loadout/item/check {item: "socom",undo:"8"}
-execute if score random.output temp matches 5 run function ssbrc:fighter/snake/menu/loadout/item/check {item: "anti_personnel_mine",undo:"10"}
+execute if score random.output temp matches 5 run function ssbrc:fighter/snake/menu/loadout/item/check {item: "claymore",undo:"10"}
 execute if score random.output temp matches 6 run function ssbrc:fighter/snake/menu/loadout/item/check {item: "smoke_grenade",undo:"12"}
 
 execute if score item temp > snake.weight.max const run return 1

@@ -145,9 +145,9 @@ scoreboard players set snake.m870_custom.scavenger const 2
 scoreboard players set snake.socom.weight const 3
 scoreboard players set snake.socom.reload const 40
 scoreboard players set snake.socom.scavenger const 2
-scoreboard players set snake.anti_personnel_mine.cooldown const 20
-scoreboard players set snake.anti_personnel_mine.weight const 2
-scoreboard players set snake.anti_personnel_mine.scavenger const 2
+scoreboard players set snake.claymore.cooldown const 20
+scoreboard players set snake.claymore.weight const 2
+scoreboard players set snake.claymore.scavenger const 2
 scoreboard players set snake.smoke_grenade.cooldown const 300
 scoreboard players set snake.smoke_grenade.weight const 2
 scoreboard players set snake.smoke_grenade.scavenger const 2

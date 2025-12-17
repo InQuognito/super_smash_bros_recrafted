@@ -325,7 +325,7 @@ tellraw @s [ \
 		color: "dark_green", \
 	}, \
 	{ \
-		translate: "ssbrc.fighter.snake.anti_personnel_mine", \
+		translate: "ssbrc.fighter.snake.claymore", \
 		color: "green", \
 		"click_event": { \
 			action: "run_command", \
@@ -334,7 +334,7 @@ tellraw @s [ \
 		hover_event: { \
 			action: "show_text", \
 			"value": { \
-				translate: "ssbrc.fighter.snake.anti_personnel_mine.description", \
+				translate: "ssbrc.fighter.snake.claymore.description", \
 				color: "gray", \
 			}, \
 		}, \
@@ -344,11 +344,11 @@ tellraw @s [ \
 		color: "dark_green", \
 	}, \
 	{ \
-		translate: "ssbrc.fighter.snake.anti_personnel_mine.type", \
+		translate: "ssbrc.fighter.snake.claymore.type", \
 	}, \
 	{ \
 		score: { \
-			name: "snake.anti_personnel_mine.weight", \
+			name: "snake.claymore.weight", \
 			objective: "const", \
 		}, \
 		color: "red", \

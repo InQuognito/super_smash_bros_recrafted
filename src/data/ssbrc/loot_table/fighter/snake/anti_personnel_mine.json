@@ -33,7 +33,7 @@
 											"italic": false
 										},
 										{
-											"translate": "ssbrc.fighter.snake.anti_personnel_mine.description.1",
+											"translate": "ssbrc.fighter.snake.claymore.description.1",
 											"color": "gray",
 											"bold": false,
 											"italic": false
@@ -41,7 +41,7 @@
 									]
 								},
 								{
-									"translate": "ssbrc.fighter.snake.anti_personnel_mine.description.2",
+									"translate": "ssbrc.fighter.snake.claymore.description.2",
 									"color": "gray",
 									"bold": false,
 									"italic": false
@@ -54,15 +54,15 @@
 							"components": {
 								"minecraft:use_cooldown": {
 									"seconds": 1.0,
-									"cooldown_group": "ssbrc:snake/anti_personnel_mine"
+									"cooldown_group": "ssbrc:snake/claymore"
 								},
-								"minecraft:item_model": "ssbrc:fighter/snake/item/anti_personnel_mine/default"
+								"minecraft:item_model": "ssbrc:fighter/snake/item/claymore/default"
 							}
 						},
 						{
 							"function": "minecraft:set_custom_data",
 							"tag": {
-								"item": "anti_personnel_mine",
+								"item": "claymore",
 								"group": "snake.weapon"
 							}
 						}

@@ -1,0 +1,7 @@
+{
+	"parent": "ssbrc:fighter/snake/item/claymore/parent",
+	"textures": {
+		"base": "ssbrc:fighter/snake/item/claymore/base/gold",
+		"status": "ssbrc:fighter/snake/item/claymore/priming_1"
+	}
+}

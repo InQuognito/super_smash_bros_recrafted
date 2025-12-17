@@ -7,13 +7,13 @@
 				"when": "gold",
 				"model": {
 					"type": "minecraft:model",
-					"model": "ssbrc:fighter/snake/item/anti_personnel_mine/gold/active"
+					"model": "ssbrc:fighter/snake/item/claymore/gold/active"
 				}
 			}
 		],
 		"fallback": {
 			"type": "minecraft:model",
-			"model": "ssbrc:fighter/snake/item/anti_personnel_mine/default/active"
+			"model": "ssbrc:fighter/snake/item/claymore/default/active"
 		}
 	},
 	"hand_animation_on_swap": false

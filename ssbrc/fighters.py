@@ -1774,9 +1774,9 @@ fighters = {
 			'night_vision_goggles'
 		],
 		'items': {
-			'anti_personnel_mine': {
+			'claymore': {
 				'default': {
-					'name': 'ssbrc.fighter.snake.anti_personnel_mine',
+					'name': 'ssbrc.fighter.snake.claymore',
 					'color': 'green'
 				},
 				'gold': {

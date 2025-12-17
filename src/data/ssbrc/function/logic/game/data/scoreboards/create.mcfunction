@@ -114,7 +114,7 @@ scoreboard objectives add slope dummy
 scoreboard objectives add smash_item.poison_mushroom.timer dummy
 scoreboard objectives add smash_item.super_mushroom.timer dummy
 scoreboard objectives add snake.capacity dummy
-scoreboard objectives add snake.anti_personnel_mine.ammo dummy
+scoreboard objectives add snake.claymore.ammo dummy
 scoreboard objectives add snake.smoke_grenade.ammo dummy
 scoreboard objectives add sprint_distance minecraft.custom:minecraft.sprint_one_cm
 scoreboard objectives add stage_select dummy

@@ -95,7 +95,7 @@ tag @s remove phase_locket
 tag @s remove war_horn.active
 
 # Snake
-tag @s remove anti_personnel_mine
+tag @s remove claymore
 tag @s remove famas
 tag @s remove items_given
 tag @s remove night_vision_goggles
