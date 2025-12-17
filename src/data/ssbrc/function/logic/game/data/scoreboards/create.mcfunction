@@ -7,7 +7,6 @@ scoreboard objectives add charge.1 dummy
 scoreboard objectives add charge.2 dummy
 scoreboard objectives add charge.3 dummy
 scoreboard objectives add charge.4 dummy
-scoreboard objectives add charge.input minecraft.used:minecraft.carrot_on_a_stick
 scoreboard objectives add charge.output dummy
 scoreboard objectives add charge.step dummy
 scoreboard objectives add combo.count dummy

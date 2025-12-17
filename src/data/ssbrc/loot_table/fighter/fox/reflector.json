@@ -6,7 +6,7 @@
 			"entries": [
 				{
 					"type": "minecraft:item",
-					"name": "minecraft:goat_horn",
+					"name": "minecraft:stick",
 					"functions": [
 						{
 							"function": "minecraft:reference",

@@ -1,4 +1,4 @@
-$item replace entity @s hotbar.$(slot) with minecraft:goat_horn[ \
+$item replace entity @s hotbar.$(slot) with minecraft:stick[ \
 	minecraft:item_name = { \
 		translate: "ssbrc.fighter.hero.$(item)", \
 		color: "$(color)", \

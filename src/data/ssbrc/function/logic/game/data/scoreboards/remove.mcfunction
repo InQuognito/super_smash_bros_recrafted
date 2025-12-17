@@ -7,7 +7,6 @@ scoreboard objectives remove charge.1
 scoreboard objectives remove charge.2
 scoreboard objectives remove charge.3
 scoreboard objectives remove charge.4
-scoreboard objectives remove charge.input
 scoreboard objectives remove charge.output
 scoreboard objectives remove charge.step
 scoreboard objectives remove combo.count

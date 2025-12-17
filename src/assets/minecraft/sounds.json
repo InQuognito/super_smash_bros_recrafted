@@ -119,38 +119,6 @@
 		],
 		"replace": true
 	},
-	"item.goat_horn.sound.0": {
-		"sounds": [],
-		"replace": true
-	},
-	"item.goat_horn.sound.1": {
-		"sounds": [],
-		"replace": true
-	},
-	"item.goat_horn.sound.2": {
-		"sounds": [],
-		"replace": true
-	},
-	"item.goat_horn.sound.3": {
-		"sounds": [],
-		"replace": true
-	},
-	"item.goat_horn.sound.4": {
-		"sounds": [],
-		"replace": true
-	},
-	"item.goat_horn.sound.5": {
-		"sounds": [],
-		"replace": true
-	},
-	"item.goat_horn.sound.6": {
-		"sounds": [],
-		"replace": true
-	},
-	"item.goat_horn.sound.7": {
-		"sounds": [],
-		"replace": true
-	},
 	"music.creative": {
 		"sounds": [],
 		"replace": true
