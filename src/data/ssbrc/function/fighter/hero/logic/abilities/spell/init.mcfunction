@@ -24,7 +24,7 @@ $item modify entity @s hotbar.$(slot) [ \
 	}, \
 	{ \
 		function: "minecraft:reference", \
-		name: "ssbrc:init/ability/instrument/default", \
+		name: "ssbrc:init/ability/default", \
 	}, \
 	{ \
 		function: "minecraft:set_lore", \

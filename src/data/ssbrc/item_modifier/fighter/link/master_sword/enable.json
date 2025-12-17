@@ -1,7 +1,7 @@
 [
 	{
 		"function": "minecraft:reference",
-		"name": "ssbrc:init/ability/instrument/default"
+		"name": "ssbrc:init/ability/default"
 	},
 	{
 		"function": "minecraft:set_custom_data",
