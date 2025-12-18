@@ -1,2 +1,2 @@
-scoreboard players operation @s weapon_2.reload = snake.psg1.reload const
+scoreboard players set @s weapon_2.reload 40
 tag @s add reloading

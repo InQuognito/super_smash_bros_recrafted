@@ -1,2 +1,2 @@
-scoreboard players operation @s weapon_3.reload = snake.famas.reload const
+scoreboard players set @s weapon_3.reload 50
 tag @s add reloading

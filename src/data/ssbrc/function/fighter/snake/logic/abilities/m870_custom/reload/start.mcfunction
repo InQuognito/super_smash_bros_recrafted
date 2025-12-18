@@ -1,2 +1,2 @@
-scoreboard players operation @s weapon_1.reload = snake.m870_custom.reload const
+scoreboard players set @s weapon_1.reload 60
 tag @s add reloading

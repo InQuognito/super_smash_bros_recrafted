@@ -134,21 +134,15 @@ scoreboard players set sora.thundaza.range const 30
 
 scoreboard players set snake.weight.max const 10
 scoreboard players set snake.psg1.weight const 5
-scoreboard players set snake.psg1.reload const 100
-scoreboard players set snake.psg1.scavenger const 3
+scoreboard players set snake.psg1.scavenger const 1
 scoreboard players set snake.famas.weight const 5
-scoreboard players set snake.famas.reload const 50
 scoreboard players set snake.famas.scavenger const 1
 scoreboard players set snake.m870_custom.weight const 4
-scoreboard players set snake.m870_custom.reload const 60
-scoreboard players set snake.m870_custom.scavenger const 2
+scoreboard players set snake.m870_custom.scavenger const 1
 scoreboard players set snake.socom.weight const 3
-scoreboard players set snake.socom.reload const 40
 scoreboard players set snake.socom.scavenger const 2
-scoreboard players set snake.claymore.cooldown const 20
 scoreboard players set snake.claymore.weight const 2
 scoreboard players set snake.claymore.scavenger const 2
-scoreboard players set snake.smoke_grenade.cooldown const 300
 scoreboard players set snake.smoke_grenade.weight const 2
 scoreboard players set snake.smoke_grenade.scavenger const 2
 

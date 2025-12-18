@@ -1,2 +1,2 @@
-scoreboard players operation @s weapon_4.reload = snake.socom.reload const
+scoreboard players set @s weapon_4.reload 40
 tag @s add reloading
