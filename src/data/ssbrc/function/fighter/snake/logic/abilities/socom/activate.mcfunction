@@ -13,6 +13,7 @@ execute anchored eyes positioned ^ ^ ^.5 run function ssbrc:fighter/snake/logic/
 scoreboard players remove @s weapon_4.ammo 1
 execute if entity @s[scores={weapon_4.mags=1..,weapon_4.ammo=0}] run function ssbrc:fighter/snake/logic/abilities/socom/reload/start
 
-playsound ssbrc:generic_fire player @a
+playsound ssbrc:generic_fire player @a[predicate=ssbrc:team_match,distance=..12]
+playsound ssbrc:generic_fire player @a[predicate=!ssbrc:team_match,distance=..4]
 
 function ssbrc:logic/fighter/ability/deinit

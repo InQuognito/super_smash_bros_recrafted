@@ -1,4 +1,4 @@
-particle minecraft:dust_color_transition{from_color: [1,.5,0],to_color: [1,.75,0],scale:.5} ~ ~ ~ .075 .075 .075 .01 25 force @a
+particle minecraft:dust_color_transition{from_color: [1,.5,0],to_color: [1,.75,0],scale: .5} ~ ~ ~ .075 .075 .075 .01 25 force @a
 
 execute positioned ~-.375 ~-.375 ~-.375 as @e[tag=!self,predicate=ssbrc:target,dx=0] positioned ~-.25 ~-.25 ~-.25 if entity @s[dx=0] as @n[type=minecraft:marker,tag=orange_grenade] at @s run function ssbrc:fighter/donkey_kong/logic/abilities/orange_grenade/explode
 
