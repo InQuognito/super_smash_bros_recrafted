@@ -1,5 +1,5 @@
 {
-	"parent": "minecraft:item/tooting_stick",
+	"parent": "minecraft:item/tooting_goat_horn",
 	"textures": {
 		"layer0": "ssbrc:fighter/shovel_knight/item/war_horn/default"
 	}
