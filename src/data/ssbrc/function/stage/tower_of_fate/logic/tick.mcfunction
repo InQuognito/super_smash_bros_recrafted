@@ -10,19 +10,4 @@ execute if score tower_of_fate.explodatorium temp matches 1 as @a[predicate=ssbr
 # Lost City
 execute if score tower_of_fate.lost_city temp matches 1 run function ssbrc:stage/tower_of_fate/logic/lower_tower/tower/lost_city/tick
 
-kill @e[ \
-	predicate = ssbrc:killbox_vulnerable, \
-	predicate = { \
-		condition: "minecraft:entity_properties", \
-		entity: "this", \
-		predicate: { \
-			location: { \
-				position: { \
-					y: { \
-						max: -20, \
-					}, \
-				}, \
-			}, \
-		}, \
-	}, \
-]
+kill @e[predicate=ssbrc:killbox_vulnerable,predicate=ssbrc:below_y/-20]

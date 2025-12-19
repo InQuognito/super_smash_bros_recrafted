@@ -5,19 +5,4 @@ execute positioned -24.5 17.5 252.5 as @p[predicate=ssbrc:player] if entity @s[d
 
 fill -4 14 229 0 14 233 minecraft:campfire[facing=east,lit=false] replace
 
-kill @e[ \
-	predicate = ssbrc:killbox_vulnerable, \
-	predicate = { \
-		condition: "minecraft:entity_properties", \
-		entity: "this", \
-		predicate: { \
-			location: { \
-				position: { \
-					y: { \
-						max: -18, \
-					}, \
-				}, \
-			}, \
-		}, \
-	}, \
-]
+kill @e[predicate=ssbrc:killbox_vulnerable,predicate=ssbrc:below_y/-18]
