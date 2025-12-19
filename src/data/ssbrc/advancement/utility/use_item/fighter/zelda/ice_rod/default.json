@@ -35,10 +35,7 @@
 				],
 				"item": {
 					"predicates": {
-						"minecraft:custom_data": "{item:\"ice_rod\"}",
-						"minecraft:damage": {
-							"damage": 0
-						}
+						"minecraft:custom_data": "{item:\"ice_rod\"}"
 					}
 				}
 			}

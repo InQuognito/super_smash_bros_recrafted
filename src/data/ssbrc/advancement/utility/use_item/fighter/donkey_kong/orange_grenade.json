@@ -24,10 +24,7 @@
 				],
 				"item": {
 					"predicates": {
-						"minecraft:custom_data": "{item:\"orange_grenade\"}",
-						"minecraft:damage": {
-							"damage": 0
-						}
+						"minecraft:custom_data": "{item:\"orange_grenade\"}"
 					}
 				}
 			}

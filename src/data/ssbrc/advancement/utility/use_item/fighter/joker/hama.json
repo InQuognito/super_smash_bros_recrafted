@@ -21,10 +21,7 @@
 				],
 				"item": {
 					"predicates": {
-						"minecraft:custom_data": "{item:\"hama\"}",
-						"minecraft:damage": {
-							"damage": 0
-						}
+						"minecraft:custom_data": "{item:\"hama\"}"
 					}
 				}
 			}

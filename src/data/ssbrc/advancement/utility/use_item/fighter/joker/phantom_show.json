@@ -21,10 +21,7 @@
 				],
 				"item": {
 					"predicates": {
-						"minecraft:custom_data": "{item:\"phantom_show\"}",
-						"minecraft:damage": {
-							"damage": 0
-						}
+						"minecraft:custom_data": "{item:\"phantom_show\"}"
 					}
 				}
 			}

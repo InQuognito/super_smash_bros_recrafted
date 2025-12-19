@@ -23,10 +23,7 @@
 				],
 				"item": {
 					"predicates": {
-						"minecraft:custom_data": "{item:\"buster_sword\"}",
-						"minecraft:damage": {
-							"damage": 0
-						}
+						"minecraft:custom_data": "{item:\"buster_sword\"}"
 					}
 				}
 			}
