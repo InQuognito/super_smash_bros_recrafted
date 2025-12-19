@@ -1,5 +1,3 @@
-say default weapon
-
 $item replace entity @s $(slot) with minecraft:stick[ \
 	minecraft:item_name = { \
 		translate: "$(name)", \

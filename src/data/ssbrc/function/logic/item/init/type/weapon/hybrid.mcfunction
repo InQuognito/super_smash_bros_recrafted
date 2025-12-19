@@ -1,5 +1,3 @@
-say hybrid weapon
-
 $item replace entity @s $(slot) with minecraft:goat_horn[ \
 	minecraft:item_name = { \
 		translate: "$(name)", \
@@ -51,5 +49,5 @@ $item replace entity @s $(slot) with minecraft:goat_horn[ \
 
 $item modify entity @s $(slot) { \
 	function: "minecraft:reference", \
-	name: "ssbrc:init/item/melee", \
+	name: "ssbrc:init/item/hybrid", \
 }
