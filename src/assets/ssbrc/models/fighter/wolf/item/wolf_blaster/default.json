@@ -1,0 +1,6 @@
+{
+	"parent": "ssbrc:fighter/wolf/item/wolf_blaster/parent",
+	"textures": {
+		"layer0": "ssbrc:fighter/wolf/item/wolf_blaster/default"
+	}
+}

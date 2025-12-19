@@ -8,4 +8,4 @@ execute if score entity_hit temp matches 1 run return run kill @s
 teleport @s ^ ^ ^0.25
 
 scoreboard players remove n temp 1
-execute if score n temp matches 1.. at @s run function ssbrc:fighter/fox/logic/abilities/blaster/move_forward
+execute if score n temp matches 1.. at @s run function ssbrc:fighter/fox/logic/abilities/fox_blaster/move_forward

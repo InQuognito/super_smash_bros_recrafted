@@ -619,19 +619,19 @@
 			}
 		]
 	},
-	"fighter.fox.blaster.activate": {
+	"fighter.fox.fox_blaster.activate": {
 		"sounds": [
 			{
-				"name": "ssbrc:fighter/fox/blaster/activate",
+				"name": "ssbrc:fighter/fox/fox_blaster/activate",
 				"stream": false,
 				"volume": 1.0
 			}
 		]
 	},
-	"fighter.fox.blaster.hit": {
+	"fighter.fox.fox_blaster.hit": {
 		"sounds": [
 			{
-				"name": "ssbrc:fighter/fox/blaster/hit",
+				"name": "ssbrc:fighter/fox/fox_blaster/hit",
 				"stream": false,
 				"volume": 1.0
 			}
@@ -2138,10 +2138,10 @@
 			}
 		]
 	},
-	"fighter.wolf.blaster.activate": {
+	"fighter.wolf.wolf_blaster.activate": {
 		"sounds": [
 			{
-				"name": "ssbrc:fighter/wolf/blaster/activate",
+				"name": "ssbrc:fighter/wolf/wolf_blaster/activate",
 				"stream": false,
 				"volume": 1.0
 			}

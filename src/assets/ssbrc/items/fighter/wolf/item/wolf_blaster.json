@@ -7,34 +7,34 @@
 				"when": "gold",
 				"model": {
 					"type": "minecraft:model",
-					"model": "ssbrc:fighter/wolf/item/blaster/gold"
+					"model": "ssbrc:fighter/wolf/item/wolf_blaster/gold"
 				}
 			},
 			{
 				"when": "assault",
 				"model": {
 					"type": "minecraft:model",
-					"model": "ssbrc:fighter/wolf/item/blaster/assault"
+					"model": "ssbrc:fighter/wolf/item/wolf_blaster/assault"
 				}
 			},
 			{
 				"when": "star_fox_2",
 				"model": {
 					"type": "minecraft:model",
-					"model": "ssbrc:fighter/wolf/item/blaster/star_fox_2"
+					"model": "ssbrc:fighter/wolf/item/wolf_blaster/star_fox_2"
 				}
 			},
 			{
 				"when": "starlink",
 				"model": {
 					"type": "minecraft:model",
-					"model": "ssbrc:fighter/wolf/item/blaster/star_fox_2"
+					"model": "ssbrc:fighter/wolf/item/wolf_blaster/star_fox_2"
 				}
 			}
 		],
 		"fallback": {
 			"type": "minecraft:model",
-			"model": "ssbrc:fighter/wolf/item/blaster/default"
+			"model": "ssbrc:fighter/wolf/item/wolf_blaster/default"
 		}
 	},
 	"hand_animation_on_swap": false

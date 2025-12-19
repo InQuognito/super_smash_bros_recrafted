@@ -7,13 +7,13 @@
 				"when": "gold",
 				"model": {
 					"type": "minecraft:model",
-					"model": "ssbrc:fighter/fox/item/blaster/gold"
+					"model": "ssbrc:fighter/fox/item/fox_blaster/gold"
 				}
 			}
 		],
 		"fallback": {
 			"type": "minecraft:model",
-			"model": "ssbrc:fighter/fox/item/blaster/default"
+			"model": "ssbrc:fighter/fox/item/fox_blaster/default"
 		}
 	},
 	"hand_animation_on_swap": false

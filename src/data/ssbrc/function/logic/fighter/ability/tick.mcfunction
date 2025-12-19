@@ -20,7 +20,7 @@ execute if entity @s[tag=orange_grenade] run return run function ssbrc:fighter/d
 
 # Fox
 execute if entity @s[tag=krazoan_fireball] run return run function ssbrc:fighter/fox/logic/abilities/krazoan_fireball/tick
-execute if entity @s[tag=fox.blaster] run return run function ssbrc:fighter/fox/logic/abilities/blaster/tick
+execute if entity @s[tag=fox_blaster] run return run function ssbrc:fighter/fox/logic/abilities/fox_blaster/tick
 execute if entity @s[tag=fire_fox] run return run function ssbrc:fighter/fox/logic/abilities/fire_fox/tick
 
 # Greninja
@@ -125,7 +125,7 @@ execute if entity @s[tag=strike_raid] run return run function ssbrc:fighter/sora
 execute if entity @s[nbt={Item:{tag: {Tags:[steve.item]}}}] run return run function ssbrc:fighter/steve/logic/item/tick
 
 # Wolf
-execute if entity @s[tag=wolf.blaster] run return run function ssbrc:fighter/wolf/logic/abilities/blaster/tick
+execute if entity @s[tag=wolf_blaster] run return run function ssbrc:fighter/wolf/logic/abilities/wolf_blaster/tick
 execute if entity @s[tag=grenade] run return run function ssbrc:fighter/wolf/logic/abilities/grenade/tick
 
 # Zelda

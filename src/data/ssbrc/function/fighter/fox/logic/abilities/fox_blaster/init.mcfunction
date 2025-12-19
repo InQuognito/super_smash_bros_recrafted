@@ -1,3 +1,3 @@
-tag @s add fox.blaster
+tag @s add fox_blaster
 
 function ssbrc:logic/init/projectile

@@ -8,13 +8,21 @@
 					{
 						"condition": "minecraft:reference",
 						"name": "ssbrc:cooldown/universal"
+					},
+					{
+						"condition": "minecraft:entity_scores",
+						"entity": "this",
+						"scores": {
+							"duration.1": {
+								"max": 0
+							}
+						}
 					}
 				],
 				"item": {
 					"predicates": {
-						"minecraft:custom_data": "{item:\"wolf.blaster\"}",
-						"minecraft:damage": {
-							"damage": 0
+						"minecraft:custom_data": {
+							"item": "fox_blaster"
 						}
 					}
 				}
@@ -22,6 +30,6 @@
 		}
 	},
 	"rewards": {
-		"function": "ssbrc:fighter/wolf/logic/abilities/blaster/activate"
+		"function": "ssbrc:fighter/fox/logic/abilities/fox_blaster/activate"
 	}
 }
