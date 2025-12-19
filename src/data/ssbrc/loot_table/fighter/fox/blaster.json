@@ -50,7 +50,7 @@
 									"seconds": 0.5,
 									"cooldown_group": "ssbrc:fox/projectile"
 								},
-								"minecraft:item_model": "ssbrc:fighter/fox/item/blaster"
+								"minecraft:item_model": "ssbrc:fighter/fox/item/fox_blaster"
 							}
 						},
 						{

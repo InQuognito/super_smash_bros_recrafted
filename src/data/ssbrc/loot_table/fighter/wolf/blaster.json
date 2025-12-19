@@ -46,7 +46,7 @@
 						{
 							"function": "minecraft:set_components",
 							"components": {
-								"minecraft:item_model": "ssbrc:fighter/wolf/item/blaster"
+								"minecraft:item_model": "ssbrc:fighter/wolf/item/wolf_blaster"
 							}
 						},
 						{

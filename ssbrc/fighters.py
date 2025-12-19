@@ -1036,7 +1036,7 @@ fighters = {
 						'type': 'generic',
 						'amount': 8
 					},
-					'cooldown_group': 'wolf/blaster',
+					'cooldown_group': 'wolf/wolf_blaster',
 					'cooldown': 2
 				},
 				'default': {
