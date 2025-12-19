@@ -1,6 +1,6 @@
 {
 	"parent": "minecraft:item/generated",
 	"textures": {
-		"layer0": "ssbrc:smash_item/healing_field"
+		"layer0": "ssbrc:smash_item/healing_field/icon"
 	}
 }

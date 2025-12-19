@@ -1,6 +1,6 @@
 {
 	"textures": {
-		"base": "ssbrc:smash_item/motion_sensor_bomb",
+		"base": "ssbrc:smash_item/motion_sensor_bomb/model",
 		"particle": "ssbrc:miscellaneous/empty"
 	},
 	"elements": [

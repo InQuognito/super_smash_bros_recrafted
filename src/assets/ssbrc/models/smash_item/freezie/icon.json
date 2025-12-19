@@ -1,6 +1,6 @@
 {
 	"parent": "minecraft:item/generated",
 	"textures": {
-		"layer0": "ssbrc:smash_item/green_shell"
+		"layer0": "ssbrc:smash_item/freezie/icon"
 	}
 }

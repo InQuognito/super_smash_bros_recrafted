@@ -1,6 +1,6 @@
 {
 	"parent": "minecraft:item/generated",
 	"textures": {
-		"layer0": "ssbrc:smash_item/bob_omb"
+		"layer0": "ssbrc:smash_item/black_hole/icon"
 	}
 }

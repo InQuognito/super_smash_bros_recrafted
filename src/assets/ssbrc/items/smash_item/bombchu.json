@@ -1,6 +1,19 @@
 {
 	"model": {
-		"type": "minecraft:model",
-		"model": "ssbrc:smash_item/bombchu"
+		"type": "minecraft:select",
+		"property": "minecraft:display_context",
+		"cases": [
+			{
+				"when": "head",
+				"model": {
+					"type": "minecraft:model",
+					"model": "smash_item/bombchu/model"
+				}
+			}
+		],
+		"fallback": {
+			"type": "minecraft:model",
+			"model": "smash_item/bombchu/icon"
+		}
 	}
 }

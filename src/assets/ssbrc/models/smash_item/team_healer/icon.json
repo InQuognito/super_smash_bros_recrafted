@@ -1,6 +1,6 @@
 {
 	"parent": "minecraft:item/generated",
 	"textures": {
-		"layer0": "ssbrc:smash_item/banana_peel"
+		"layer0": "ssbrc:smash_item/team_healer/icon"
 	}
 }

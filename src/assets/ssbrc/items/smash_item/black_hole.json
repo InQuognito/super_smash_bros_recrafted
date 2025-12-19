@@ -1,6 +1,19 @@
 {
 	"model": {
-		"type": "minecraft:model",
-		"model": "ssbrc:smash_item/black_hole"
+		"type": "minecraft:select",
+		"property": "minecraft:display_context",
+		"cases": [
+			{
+				"when": "head",
+				"model": {
+					"type": "minecraft:model",
+					"model": "smash_item/black_hole/model"
+				}
+			}
+		],
+		"fallback": {
+			"type": "minecraft:model",
+			"model": "smash_item/black_hole/icon"
+		}
 	}
 }
