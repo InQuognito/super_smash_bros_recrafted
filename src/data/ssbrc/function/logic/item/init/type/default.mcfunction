@@ -11,7 +11,7 @@ $item modify entity @s $(slot) { \
 			bold: true, \
 			italic: false, \
 		}, \
-		"minecraft:minimum_attack_charge" = 1, \
+		"minecraft:minimum_attack_charge": 1, \
 		"minecraft:use_effects": { \
 			can_sprint: true, \
 			speed_multiplier: 1, \

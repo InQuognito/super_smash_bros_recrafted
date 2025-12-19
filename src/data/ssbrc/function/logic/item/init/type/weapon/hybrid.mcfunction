@@ -19,7 +19,7 @@ $item replace entity @s $(slot) with minecraft:goat_horn[ \
 	}, \
 	minecraft:use_cooldown = { \
 		seconds: $(cooldown), \
-		cooldown_group: $(cooldown_group), \
+		cooldown_group: "ssbrc:$(cooldown_group)", \
 	}, \
 	minecraft:attribute_modifiers = [ \
 		{ \
