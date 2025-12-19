@@ -14,9 +14,13 @@ $item replace entity @s $(slot) with minecraft:goat_horn[ \
 		seconds: $(cooldown), \
 		cooldown_group: "ssbrc:$(cooldown_group)", \
 	}, \
+	minecraft:item_model = "ssbrc:fighter/$(fighter)/item/$(item)", \
 	minecraft:custom_model_data = { \
 		strings: [ \
 			"$(skin)", \
 		], \
+	}, \
+	minecraft:custom_data = { \
+		item: "$(item)", \
 	}, \
 ]
