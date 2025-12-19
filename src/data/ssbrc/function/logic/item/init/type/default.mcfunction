@@ -6,6 +6,12 @@ $item replace entity @s $(slot) with minecraft:goat_horn[ \
 		italic: false, \
 	}, \
 	minecraft:minimum_attack_charge = 1, \
+	minecraft:instrument = { \
+		sound_event: "ssbrc:empty", \
+		range: 1, \
+		use_duration: .05, \
+		description: "", \
+	}, \
 	minecraft:use_effects = { \
 		can_sprint: true, \
 		speed_multiplier: 1, \
