@@ -1,3 +1,5 @@
+say default type
+
 $say $(name) $(slot) $(color) $(cooldown) $(cooldown_group) $(skin)
 
 $item modify entity @s $(slot) { \

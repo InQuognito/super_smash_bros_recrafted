@@ -1,4 +1,6 @@
-$item replace entity @s $(slot) with minecraft:stick[ \
+say hybrid weapon
+
+$item replace entity @s $(slot) with minecraft:goat_horn[ \
 	minecraft:item_name = { \
 		translate: "$(name)", \
 		color: "$(color)", \
