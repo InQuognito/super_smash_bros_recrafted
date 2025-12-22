@@ -1,0 +1,7 @@
+{
+	"parent": "ssbrc:common/super_mario_bros/shell/parent",
+	"textures": {
+		"base": "ssbrc:smash_item/green_shell/model",
+		"particle": "ssbrc:miscellaneous/empty"
+	}
+}
