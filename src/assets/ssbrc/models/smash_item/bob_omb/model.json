@@ -1,7 +1,7 @@
 {
 	"texture_size": [64, 64],
 	"textures": {
-		"base": "ssbrc:stage/bowsers_castle/bob_omb",
+		"base": "ssbrc:smash_item/bob_omb/model",
 		"particle": "ssbrc:miscellaneous/empty"
 	},
 	"elements": [

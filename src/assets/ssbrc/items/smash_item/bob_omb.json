@@ -1,0 +1,19 @@
+{
+	"model": {
+		"type": "minecraft:select",
+		"property": "minecraft:display_context",
+		"cases": [
+			{
+				"when": "head",
+				"model": {
+					"type": "minecraft:model",
+					"model": "smash_item/bob_omb/model"
+				}
+			}
+		],
+		"fallback": {
+			"type": "minecraft:model",
+			"model": "smash_item/bob_omb/icon"
+		}
+	}
+}
