@@ -3,8 +3,8 @@ item modify entity @s contents [ \
 		function: "minecraft:set_name", \
 		entity: "this", \
 		name: { \
-			translate: "ssbrc.smash_item.green_shell", \
-			color: "green", \
+			translate: "ssbrc.smash_item.bombchu", \
+			color: "yellow", \
 			bold: true, \
 			italic: false, \
 		}, \
@@ -14,15 +14,11 @@ item modify entity @s contents [ \
 		name: "ssbrc:init/tooltip/item/throwing", \
 	}, \
 	{ \
-		function: "minecraft:reference", \
-		name: "ssbrc:init/ability/default", \
-	}, \
-	{ \
 		function: "minecraft:set_lore", \
 		entity: "this", \
 		lore: [ \
 			{ \
-				translate: "ssbrc.smash_item.green_shell.description", \
+				translate: "ssbrc.smash_item.bombchu.description", \
 				color: "gray", \
 				bold: false, \
 				italic: false, \
@@ -33,13 +29,13 @@ item modify entity @s contents [ \
 	{ \
 		function: "minecraft:set_components", \
 		components: { \
-			"minecraft:item_model": "ssbrc:smash_item/green_shell", \
+			"minecraft:item_model": "ssbrc:smash_item/bombchu", \
 		}, \
 	}, \
 	{ \
 		function: "minecraft:set_custom_data", \
 		tag: { \
-			item: "green_shell", \
+			item: "bombchu", \
 		}, \
 	}, \
 ]

@@ -3,8 +3,8 @@ item modify entity @s contents [ \
 		function: "minecraft:set_name", \
 		entity: "this", \
 		name: { \
-			translate: "ssbrc.smash_item.green_shell", \
-			color: "green", \
+			translate: "ssbrc.smash_item.banana_peel", \
+			color: "gold", \
 			bold: true, \
 			italic: false, \
 		}, \
@@ -22,7 +22,7 @@ item modify entity @s contents [ \
 		entity: "this", \
 		lore: [ \
 			{ \
-				translate: "ssbrc.smash_item.green_shell.description", \
+				translate: "ssbrc.smash_item.banana_peel.description", \
 				color: "gray", \
 				bold: false, \
 				italic: false, \
@@ -33,13 +33,13 @@ item modify entity @s contents [ \
 	{ \
 		function: "minecraft:set_components", \
 		components: { \
-			"minecraft:item_model": "ssbrc:smash_item/green_shell", \
+			"minecraft:item_model": "ssbrc:smash_item/banana_peel", \
 		}, \
 	}, \
 	{ \
 		function: "minecraft:set_custom_data", \
 		tag: { \
-			item: "green_shell", \
+			item: "banana_peel", \
 		}, \
 	}, \
 ]

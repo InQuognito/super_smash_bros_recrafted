@@ -3,6 +3,7 @@
 		"#ssbrc:status",
 		"ssbrc:generic",
 		"minecraft:arrow",
-		"minecraft:player_attack"
+		"minecraft:player_attack",
+		"minecraft:spear"
 	]
 }
