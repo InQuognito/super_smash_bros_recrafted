@@ -20,6 +20,7 @@ execute if score random.output temp matches 4 run data modify storage ssbrc:temp
 execute if score random.output temp matches 5 run data modify storage ssbrc:temp cache.weapon.enchant set value "ruby"
 execute if score random.output temp matches 6 run data modify storage ssbrc:temp cache.weapon.enchant set value "titanium"
 
+data modify storage ssbrc:temp cache.weapon.slot set value "hotbar.0"
 function ssbrc:fighter/zelda/kit/weapon/set with storage ssbrc:temp cache.weapon
 
 execute store result score random.output temp run random value 1..7
