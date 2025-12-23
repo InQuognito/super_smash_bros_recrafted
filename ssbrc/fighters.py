@@ -3186,8 +3186,8 @@ def extend_martial(data, path):
 	data['cooldown_ticks'] = init_stat('cooldown_ticks', path, 10)
 	data['visual_reach'] = init_stat('visual_reach', path, 0)
 	data['speed_damage_multiplier'] = init_stat('min_reach', path, 0)
-	data['use_sound'] = init_stat('use_sound', path, '')
-	data['hit_sound'] = init_stat('hit_sound', path, '')
+	data['use_sound'] = init_stat('use_sound', path, 'empty')
+	data['hit_sound'] = init_stat('hit_sound', path, 'empty')
 
 def extend_shield(data, path):
 	data['max_damage'] = init_stat('max_damage', path, 1)
