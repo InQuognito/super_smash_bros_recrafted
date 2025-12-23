@@ -6,10 +6,10 @@ effect clear @s minecraft:resistance
 
 execute store result score random.output temp run random value 1..4
 
-execute if score random.output temp matches 1 run data modify storage ssbrc:temp cache.weapon.type set value "dagger"
-execute if score random.output temp matches 2 run data modify storage ssbrc:temp cache.weapon.type set value "flail"
-execute if score random.output temp matches 3 run data modify storage ssbrc:temp cache.weapon.type set value "rapier"
-execute if score random.output temp matches 4 run data modify storage ssbrc:temp cache.weapon.type set value "spear"
+execute if score random.output temp matches 1 run data modify storage ssbrc:temp cache.weapon set value {name: "dagger", type: "default"}
+execute if score random.output temp matches 2 run data modify storage ssbrc:temp cache.weapon set value {name: "flail", type: "default"}
+execute if score random.output temp matches 3 run data modify storage ssbrc:temp cache.weapon set value {name: "rapier", type: "default"}
+execute if score random.output temp matches 4 run data modify storage ssbrc:temp cache.weapon set value {name: "spear", type: "martial"}
 
 execute store result score random.output temp run random value 1..6
 
