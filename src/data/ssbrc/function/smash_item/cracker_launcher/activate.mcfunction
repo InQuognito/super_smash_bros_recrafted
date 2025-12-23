@@ -6,7 +6,7 @@ scoreboard players set @s cooldown 15
 
 scoreboard players set durability.modify temp 1
 function ssbrc:logic/item/durability/remove
-clear @s minecraft:emerald[minecraft:custom_data~{item: "cracker_launcher"},minecraft:damage~{durability:0}]
+clear @s *[minecraft:custom_data~{item: "cracker_launcher"},minecraft:damage~{durability:0}]
 
 playsound ssbrc:smash_item.cracker_launcher.activate player @a
 

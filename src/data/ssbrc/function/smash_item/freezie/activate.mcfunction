@@ -4,7 +4,7 @@ execute anchored eyes positioned ^ ^ ^.5 summon minecraft:marker run function ss
 
 scoreboard players set @s cooldown 10
 
-clear @s minecraft:emerald[minecraft:custom_data~{item: "freezie"}]
+clear @s *[minecraft:custom_data~{item: "freezie"}]
 
 playsound ssbrc:smash_item.freezie.activate player @a
 

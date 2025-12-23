@@ -11,7 +11,6 @@
 					}
 				],
 				"item": {
-					"items": "minecraft:emerald",
 					"predicates": {
 						"minecraft:custom_data": "{item:\"ramblin_evil_mushroom\"}"
 					}

@@ -1,6 +1,6 @@
 summon minecraft:item ~ ~ ~ { \
 	Item: { \
-		id: "minecraft:emerald", \
+		id: "minecraft:goat_horn", \
 		components: { \
 			"minecraft:max_stack_size": 1, \
 			"minecraft:custom_data": { \

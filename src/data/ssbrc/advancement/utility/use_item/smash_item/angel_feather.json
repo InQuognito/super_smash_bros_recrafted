@@ -21,7 +21,6 @@
 					}
 				],
 				"item": {
-					"items": "minecraft:emerald",
 					"predicates": {
 						"minecraft:custom_data": "{item:\"angel_feather\"}"
 					}
