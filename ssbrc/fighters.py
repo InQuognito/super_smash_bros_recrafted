@@ -544,7 +544,55 @@ fighters = {
 		},
 		'forms': [
 			'default'
-		]
+		],
+		'items': {
+			'dagger': {
+				'type': 'weapon',
+				'stats': {
+					'attack_damage': 2,
+					'attack_speed': 2.5
+				},
+				'default': {
+					'name': 'ssbrc.fighter.zelda.weapon.dagger.default',
+					'color': 'white'
+				}
+			},
+			'flail': {
+				'type': 'weapon',
+				'stats': {
+					'attack_damage': 8,
+					'attack_speed': 0.75,
+					'min_range': 2,
+					'hitbox_margin': 1
+				},
+				'default': {
+					'name': 'ssbrc.fighter.zelda.weapon.flail.default',
+					'color': 'white'
+				}
+			},
+			'rapier': {
+				'type': 'weapon',
+				'stats': {
+					'attack_damage': 4,
+					'attack_speed': 1
+				},
+				'default': {
+					'name': 'ssbrc.fighter.zelda.weapon.rapier.default',
+					'color': 'white'
+				}
+			},
+			'spear': {
+				'type': 'martial',
+				'stats': {
+					'attack_damage': 8,
+					'attack_speed': 0.3,
+				},
+				'default': {
+					'name': 'ssbrc.fighter.zelda.weapon.spear.default',
+					'color': 'white'
+				}
+			}
+		}
 	},
 	'ganondorf': {
 		'series': 'the_legend_of_zelda',
@@ -3117,6 +3165,40 @@ def init_item_data(fighter, skin, item, data):
 
 	data[skin_check] = skin_data
 
+def init_stat(stat: str, path: str, fallback):
+	if stat in path.keys():
+		return path[stat]
+	else:
+		return fallback
+
+def extend_weapon(data, path):
+	data['attack_damage'] = init_stat('attack_damage', path, 0)
+	data['attack_speed'] = init_stat('attack_speed', path, 0)
+	data['minimum_attack_charge'] = init_stat('minimum_attack_charge', path, 1.0)
+	data['min_reach'] = init_stat('min_reach', path, 0)
+	data['max_reach'] = init_stat('max_reach', path, 3.0)
+	data['hitbox_margin'] = init_stat('hitbox_margin', path, 0.3)
+	data['item_damage_on_attack'] = init_stat('item_damage_on_attack', path, 0)
+	data['disable_blocking_for_seconds'] = init_stat('disable_blocking_for_seconds', path, 0.0)
+
+def extend_martial(data, path):
+	data['startup_ticks'] = init_stat('startup_ticks', path, 0)
+	data['cooldown_ticks'] = init_stat('cooldown_ticks', path, 10)
+	data['visual_reach'] = init_stat('visual_reach', path, 0)
+	data['speed_damage_multiplier'] = init_stat('min_reach', path, 0)
+	data['use_sound'] = init_stat('use_sound', path, '')
+	data['hit_sound'] = init_stat('hit_sound', path, '')
+
+def extend_shield(data, path):
+	data['max_damage'] = init_stat('max_damage', path, 1)
+	data['block_delay_seconds'] = init_stat('block_delay_seconds', path, 0)
+	data['block_sound'] = init_stat('block_sound', path, '')
+	data['disabled_sound'] = init_stat('disabled_sound', path, '')
+
+def extend_ability(data, path):
+	data['cooldown'] = init_stat('cooldown', path, 1)
+	data['cooldown_group'] = init_stat('cooldown_group', path, 'fallback')
+
 def fighter_storage():
 	fighter_data = {}
 
@@ -3163,56 +3245,27 @@ def fighter_storage():
 				item_entry = {}
 
 				if 'type' in path['items'][item].keys():
-					stat = path['items'][item]['stats']
+					stat_path = path['items'][item]['stats']
 					type = path['items'][item]['type']
 
 					item_stats = {}
 
 					match type:
 						case 'weapon':
-							item_stats['attack_damage'] = stat['attack_damage']
-							item_stats['attack_speed'] = stat['attack_speed']
-							if 'minimum_attack_charge' in stat.keys():
-								item_stats['minimum_attack_charge'] = stat['minimum_attack_charge']
-							else:
-								item_stats['minimum_attack_charge'] = 1.0
-							if 'item_damage_on_attack' in stat.keys():
-								item_stats['item_damage_on_attack'] = stat['item_damage_on_attack']
-							else:
-								item_stats['item_damage_on_attack'] = 0
-							if 'disable_blocking_for_seconds' in stat.keys():
-								item_stats['disable_blocking_for_seconds'] = stat['disable_blocking_for_seconds']
-							else:
-								item_stats['disable_blocking_for_seconds'] = 0.0
+							extend_weapon(item_stats, stat_path)
+						case 'martial':
+							extend_weapon(item_stats, stat_path)
+							extend_martial(item_stats, stat_path)
 						case 'shield':
-							item_stats['max_damage'] = stat['max_damage']
-							item_stats['block_delay_seconds'] = stat['block_delay_seconds']
-							item_stats['block_sound'] = stat['block_sound']
-							item_stats['disabled_sound'] = stat['disabled_sound']
+							extend_shield(item_stats, stat_path)
 						case 'ability':
-							item_stats['cooldown'] = stat['cooldown']
-							item_stats['cooldown_group'] = stat['cooldown_group']
+							extend_ability(item_stats, stat_path)
 						case 'charge_ability':
-							item_stats['cooldown'] = stat['cooldown']
-							item_stats['cooldown_group'] = stat['cooldown_group']
-							item_stats['use_duration'] = stat['use_duration']
+							item_stats['use_duration'] = init_stat('use_duration', stat_path, 1)
+							extend_ability(item_stats, stat_path)
 						case 'hybrid':
-							item_stats['attack_damage'] = stat['attack_damage']
-							item_stats['attack_speed'] = stat['attack_speed']
-							if 'minimum_attack_charge' in stat.keys():
-								item_stats['minimum_attack_charge'] = stat['minimum_attack_charge']
-							else:
-								item_stats['minimum_attack_charge'] = 1.0
-							if 'item_damage_on_attack' in stat.keys():
-								item_stats['item_damage_on_attack'] = stat['item_damage_on_attack']
-							else:
-								item_stats['item_damage_on_attack'] = 0
-							if 'disable_blocking_for_seconds' in stat.keys():
-								item_stats['disable_blocking_for_seconds'] = stat['disable_blocking_for_seconds']
-							else:
-								item_stats['disable_blocking_for_seconds'] = 0.0
-							item_stats['cooldown'] = stat['cooldown']
-							item_stats['cooldown_group'] = stat['cooldown_group']
+							extend_weapon(item_stats, stat_path)
+							extend_ability(item_stats, stat_path)
 						case _:
 							pass
 

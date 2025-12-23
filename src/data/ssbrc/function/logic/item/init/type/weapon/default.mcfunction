@@ -11,6 +11,11 @@ $item replace entity @s $(slot) with minecraft:stick[ \
 		disable_blocking_for_seconds: $(disable_blocking_for_seconds), \
 	}, \
 	minecraft:minimum_attack_charge = $(minimum_attack_charge), \
+	minecraft:attack_range = { \
+		min_reach: $(min_reach), \
+		max_reach: $(max_reach), \
+		hitbox_margin: $(hitbox_margin), \
+	}, \
 	minecraft:attribute_modifiers = [ \
 		{ \
 			type: "minecraft:attack_damage", \
