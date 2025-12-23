@@ -552,7 +552,7 @@ fighters = {
 					'attack_damage': 2,
 					'attack_speed': 2.5
 				},
-				'default': {
+				'static_data': {
 					'name': 'ssbrc.fighter.zelda.weapon.dagger.default',
 					'color': 'white'
 				}
@@ -565,7 +565,7 @@ fighters = {
 					'min_range': 2,
 					'hitbox_margin': 1
 				},
-				'default': {
+				'static_data': {
 					'name': 'ssbrc.fighter.zelda.weapon.flail.default',
 					'color': 'white'
 				}
@@ -576,7 +576,7 @@ fighters = {
 					'attack_damage': 4,
 					'attack_speed': 1
 				},
-				'default': {
+				'static_data': {
 					'name': 'ssbrc.fighter.zelda.weapon.rapier.default',
 					'color': 'white'
 				}
@@ -587,7 +587,7 @@ fighters = {
 					'attack_damage': 8,
 					'attack_speed': 0.3,
 				},
-				'default': {
+				'static_data': {
 					'name': 'ssbrc.fighter.zelda.weapon.spear.default',
 					'color': 'white'
 				}
