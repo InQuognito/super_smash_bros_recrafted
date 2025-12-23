@@ -179,8 +179,14 @@ execute if entity @s[tag=drone] run return run function ssbrc:fighter/yar/logic/
 execute if entity @s[tag=drone.bullet] run return run function ssbrc:fighter/yar/logic/abilities/drone/projectile/tick
 
 # Items
+execute if entity @s[tag=item.banana_peel] run return run function ssbrc:smash_item/banana_peel/tick
 execute if entity @s[tag=item.black_hole] run return run function ssbrc:smash_item/black_hole/tick
+execute if entity @s[tag=item.bob_omb] run return run function ssbrc:smash_item/bob_omb/tick
+execute if entity @s[tag=item.bombchu] run return run function ssbrc:smash_item/bombchu/tick
 execute if entity @s[tag=item.cracker_launcher] run return run function ssbrc:smash_item/cracker_launcher/tick
 execute if entity @s[tag=item.freezie] run return run function ssbrc:smash_item/freezie/tick
+execute if entity @s[tag=item.green_shell] run return run function ssbrc:smash_item/green_shell/tick
+execute if entity @s[tag=item.healing_field] run return run function ssbrc:smash_item/healing_field/tick
 execute if entity @s[tag=item.motion_sensor_bomb] run return run function ssbrc:smash_item/motion_sensor_bomb/tick
 execute if entity @s[tag=item.ray_gun] run return run function ssbrc:smash_item/ray_gun/tick
+execute if entity @s[tag=item.team_healer] run return run function ssbrc:smash_item/team_healer/tick
