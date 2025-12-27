@@ -7,13 +7,13 @@
 				"when": "head",
 				"model": {
 					"type": "minecraft:model",
-					"model": "smash_item/green_shell/model"
+					"model": "ssbrc:smash_item/green_shell/model"
 				}
 			}
 		],
 		"fallback": {
 			"type": "minecraft:model",
-			"model": "smash_item/green_shell/icon"
+			"model": "ssbrc:smash_item/green_shell/icon"
 		}
 	}
 }

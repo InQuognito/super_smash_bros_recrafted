@@ -7,13 +7,13 @@
 				"when": "head",
 				"model": {
 					"type": "minecraft:model",
-					"model": "smash_item/motion_sensor_bomb/model"
+					"model": "ssbrc:smash_item/motion_sensor_bomb/model"
 				}
 			}
 		],
 		"fallback": {
 			"type": "minecraft:model",
-			"model": "smash_item/motion_sensor_bomb/icon"
+			"model": "ssbrc:smash_item/motion_sensor_bomb/icon"
 		}
 	}
 }

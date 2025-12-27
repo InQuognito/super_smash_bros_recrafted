@@ -7,13 +7,13 @@
 				"when": "head",
 				"model": {
 					"type": "minecraft:model",
-					"model": "smash_item/banana_peel/model"
+					"model": "ssbrc:smash_item/banana_peel/model"
 				}
 			}
 		],
 		"fallback": {
 			"type": "minecraft:model",
-			"model": "smash_item/banana_peel/icon"
+			"model": "ssbrc:smash_item/banana_peel/icon"
 		}
 	}
 }

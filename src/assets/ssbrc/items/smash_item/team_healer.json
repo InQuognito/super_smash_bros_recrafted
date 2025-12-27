@@ -7,13 +7,13 @@
 				"when": "head",
 				"model": {
 					"type": "minecraft:model",
-					"model": "smash_item/team_healer/model"
+					"model": "ssbrc:smash_item/team_healer/model"
 				}
 			}
 		],
 		"fallback": {
 			"type": "minecraft:model",
-			"model": "smash_item/team_healer/icon"
+			"model": "ssbrc:smash_item/team_healer/icon"
 		}
 	}
 }

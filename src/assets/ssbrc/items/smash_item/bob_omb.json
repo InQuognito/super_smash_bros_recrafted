@@ -7,13 +7,13 @@
 				"when": "head",
 				"model": {
 					"type": "minecraft:model",
-					"model": "smash_item/bob_omb/model"
+					"model": "ssbrc:smash_item/bob_omb/model"
 				}
 			}
 		],
 		"fallback": {
 			"type": "minecraft:model",
-			"model": "smash_item/bob_omb/icon"
+			"model": "ssbrc:smash_item/bob_omb/icon"
 		}
 	}
 }
