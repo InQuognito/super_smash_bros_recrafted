@@ -17,7 +17,7 @@ item modify entity @s contents [ \
 		function: "minecraft:set_lore", \
 		entity: "this", \
 		lore: [ \
-				{
+				{ \
 					translate: "ssbrc.smash_item.super_mushroom.description.1", \
 					color: "gray", \
 					italic: false, \
