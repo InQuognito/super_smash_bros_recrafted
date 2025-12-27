@@ -1,0 +1,44 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"group": "smash_item",
+	"ingredients": [
+		[
+			"minecraft:petrified_oak_slab"
+		]
+	],
+	"result": {
+		"id": "minecraft:emerald",
+		"components": {
+			"minecraft:item_name": {
+				"translate": "ssbrc.smash_item.super_mushroom"
+			},
+			"minecraft:lore": [
+				{
+					"translate": "ssbrc.smash_item.super_mushroom.description.1",
+					"color": "gray"
+				},
+				{
+					"text": "+ 30% ",
+					"color": "gray",
+					"extra": [
+						{
+							"translate": "attribute.name.attack_damage",
+							"color": "gray"
+						}
+					]
+				},
+				{
+					"text": "+ 50% ",
+					"color": "gray",
+					"extra": [
+						{
+							"translate": "attribute.name.knockback_resistance",
+							"color": "gray"
+						}
+					]
+				}
+			],
+			"minecraft:item_model": "ssbrc:smash_item/super_mushroom"
+		}
+	}
+}

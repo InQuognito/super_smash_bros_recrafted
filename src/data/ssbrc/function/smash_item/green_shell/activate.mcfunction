@@ -1,6 +1,6 @@
 function ssbrc:logic/fighter/ability/init
 
-execute anchored eyes positioned ^ ^ ^.5 summon minecraft:armor_stand run function ssbrc:smash_item/green_shell/init/projectile
+execute anchored feet positioned ^ ^ ^.5 summon minecraft:armor_stand run function ssbrc:smash_item/green_shell/init/projectile
 
 scoreboard players set @s cooldown 10
 

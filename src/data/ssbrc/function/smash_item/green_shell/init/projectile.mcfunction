@@ -1,4 +1,5 @@
 tag @s add item.green_shell
+tag @s add override_bounce_limit
 
 item replace entity @s armor.head with minecraft:emerald[minecraft:item_model="ssbrc:smash_item/green_shell"]
 

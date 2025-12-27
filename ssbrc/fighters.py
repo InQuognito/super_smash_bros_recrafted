@@ -3270,7 +3270,6 @@ def fighter_storage():
 							pass
 
 					item_entry['stats'] = item_stats
-					print(item_entry)
 
 				if sum(bool(value) for key, value in path['items'][item].items() if key not in {'type', 'stats'}) > 1:
 					for skin in chain(['default'], path['skins']):
