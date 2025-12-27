@@ -1720,7 +1720,7 @@
 	"ssbrc.smash_item.special_flag": "Special Flag",
 	"ssbrc.smash_item.steel_diver": "Steel Diver",
 	"ssbrc.smash_item.super_mushroom": "Super Mushroom",
-	"ssbrc.smash_item.super_mushroom.description.1": "On pickup, the user grows in size for 10 seconds, gaining the following buffs:",
+	"ssbrc.smash_item.super_mushroom.description.1": "On pickup, the user grows in size for 10 seconds,\ngaining the following buffs:",
 	"ssbrc.smash_item.team_healer": "Team Healer",
 
 	"ssbrc.smash_item.activation": "Activation Item",

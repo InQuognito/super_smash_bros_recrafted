@@ -1,6 +1,4 @@
 {
-	"advancements.toast.task": "Fighter Tip",
-
 	"block.minecraft.cyan_carpet": "Quicksand",
 
 	"book.pageIndicator": "",
@@ -26,5 +24,8 @@
 	"key.keyboard.right.win": "R Win",
 	"key.mouse.left": "L Click",
 	"key.mouse.right": "R Click",
-	"key.mouse.middle": "M Click"
+	"key.mouse.middle": "M Click",
+
+	"recipe.toast.description": "Check your inventory",
+	"recipe.toast.title": "Codex Updated!"
 }

@@ -15,11 +15,13 @@
 			"minecraft:lore": [
 				{
 					"translate": "ssbrc.smash_item.super_mushroom.description.1",
-					"color": "gray"
+					"color": "gray",
+					"italic": false
 				},
 				{
 					"text": "+ 30% ",
 					"color": "gray",
+					"italic": false,
 					"extra": [
 						{
 							"translate": "attribute.name.attack_damage",
@@ -30,6 +32,7 @@
 				{
 					"text": "+ 50% ",
 					"color": "gray",
+					"italic": false,
 					"extra": [
 						{
 							"translate": "attribute.name.knockback_resistance",
