@@ -16,14 +16,35 @@ item modify entity @s contents [ \
 	{ \
 		function: "minecraft:set_lore", \
 		entity: "this", \
-		lore: [ \
-			{ \
-				translate: "ssbrc.smash_item.super_mushroom.description", \
-				color: "gray", \
-				bold: false, \
-				italic: false, \
-			}, \
-		], \
+		lore: [
+				{
+					translate: "ssbrc.smash_item.super_mushroom.description.1",
+					color: "gray",
+					italic: false
+				},
+				{
+					text: "+ 30% ",
+					color: "gray",
+					italic: false,
+					extra: [
+						{
+							translate: "attribute.name.attack_damage",
+							color: "gray"
+						}
+					]
+				},
+				{
+					text: "+ 50% ",
+					color: "gray",
+					italic: false,
+					extra: [
+						{
+							translate: "attribute.name.knockback_resistance",
+							color: "gray"
+						}
+					]
+				}
+			], \
 		mode: "append", \
 	}, \
 	{ \
