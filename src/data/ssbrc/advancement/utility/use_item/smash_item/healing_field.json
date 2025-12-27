@@ -1,0 +1,24 @@
+{
+	"parent": "ssbrc:utility/use_item/root",
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:using_item",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:reference",
+						"name": "ssbrc:cooldown/universal"
+					}
+				],
+				"item": {
+					"predicates": {
+						"minecraft:custom_data": "{item:\"healing_field\"}"
+					}
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "ssbrc:smash_item/healing_field/activate"
+	}
+}
