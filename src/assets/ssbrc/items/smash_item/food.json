@@ -1,6 +1,118 @@
 {
 	"model": {
-		"type": "minecraft:model",
-		"model": "minecraft:item/cooked_beef"
-	}
+		"type": "minecraft:select",
+		"property": "minecraft:custom_model_data",
+		"cases": [
+			{
+				"when": "bananas",
+				"model": {
+					"type": "minecraft:model",
+					"model": "ssbrc:smash_item/food/bananas"
+				}
+			},
+			{
+				"when": "chili_dog",
+				"model": {
+					"type": "minecraft:model",
+					"model": "ssbrc:smash_item/food/chili_dog"
+				}
+			},
+			{
+				"when": "dubious_food",
+				"model": {
+					"type": "minecraft:model",
+					"model": "ssbrc:smash_item/food/dubious_food"
+				}
+			},
+			{
+				"when": "eggplant",
+				"model": {
+					"type": "minecraft:model",
+					"model": "ssbrc:smash_item/food/eggplant"
+				}
+			},
+			{
+				"when": "ice_cream_cone",
+				"model": {
+					"type": "minecraft:model",
+					"model": "ssbrc:smash_item/food/ice_cream_cone"
+				}
+			},
+			{
+				"when": "juice",
+				"model": {
+					"type": "minecraft:model",
+					"model": "ssbrc:smash_item/food/juice"
+				}
+			},
+			{
+				"when": "pot_roast",
+				"model": {
+					"type": "minecraft:model",
+					"model": "ssbrc:smash_item/food/pot_roast"
+				}
+			},
+			{
+				"when": "ramen",
+				"model": {
+					"type": "minecraft:model",
+					"model": "ssbrc:smash_item/food/ramen"
+				}
+			},
+			{
+				"when": "ration",
+				"model": {
+					"type": "minecraft:model",
+					"model": "ssbrc:smash_item/food/ration"
+				}
+			},
+			{
+				"when": "rice_ball",
+				"model": {
+					"type": "minecraft:model",
+					"model": "ssbrc:smash_item/food/rice_ball"
+				}
+			},
+			{
+				"when": "sea_salt_ice_cream",
+				"model": {
+					"type": "minecraft:model",
+					"model": "ssbrc:smash_item/food/sea_salt_ice_cream"
+				}
+			},
+			{
+				"when": "smoked_tail_curry",
+				"model": {
+					"type": "minecraft:model",
+					"model": "ssbrc:smash_item/food/smoked_tail_curry"
+				}
+			},
+			{
+				"when": "star_bits",
+				"model": {
+					"type": "minecraft:model",
+					"model": "ssbrc:smash_item/food/star_bits"
+				}
+			},
+			{
+				"when": "strawberry_tofu",
+				"model": {
+					"type": "minecraft:model",
+					"model": "ssbrc:smash_item/food/strawberry_tofu"
+				}
+			},
+			{
+				"when": "yoshi_berry",
+				"model": {
+					"type": "minecraft:model",
+					"model": "ssbrc:smash_item/food/yoshi_berry"
+				}
+			}
+		],
+		"fallback": {
+			"type": "minecraft:model",
+			"model": "minecraft:item/cooked_beef"
+		}
+	},
+	"hand_animation_on_swap": false
 }

@@ -40,3 +40,155 @@ item modify entity @s contents [ \
 		}, \
 	}, \
 ]
+
+execute store result score random.output temp run random value 1..15
+
+execute if score random.output temp matches 1 run return run item modify entity @s contents { \
+	function: "minecraft:set_custom_model_data", \
+	strings: { \
+		values: [ \
+			"bananas", \
+		], \
+		mode: "replace_all", \
+	}, \
+}
+
+execute if score random.output temp matches 2 run return run item modify entity @s contents { \
+	function: "minecraft:set_custom_model_data", \
+	strings: { \
+		values: [ \
+			"chili_dog", \
+		], \
+		mode: "replace_all", \
+	}, \
+}
+
+execute if score random.output temp matches 3 run return run item modify entity @s contents { \
+	function: "minecraft:set_custom_model_data", \
+	strings: { \
+		values: [ \
+			"dubious_food", \
+		], \
+		mode: "replace_all", \
+	}, \
+}
+
+execute if score random.output temp matches 4 run return run item modify entity @s contents { \
+	function: "minecraft:set_custom_model_data", \
+	strings: { \
+		values: [ \
+			"eggplant", \
+		], \
+		mode: "replace_all", \
+	}, \
+}
+
+execute if score random.output temp matches 5 run return run item modify entity @s contents { \
+	function: "minecraft:set_custom_model_data", \
+	strings: { \
+		values: [ \
+			"ice_cream_cone", \
+		], \
+		mode: "replace_all", \
+	}, \
+}
+
+execute if score random.output temp matches 6 run return run item modify entity @s contents { \
+	function: "minecraft:set_custom_model_data", \
+	strings: { \
+		values: [ \
+			"juice", \
+		], \
+		mode: "replace_all", \
+	}, \
+}
+
+execute if score random.output temp matches 7 run return run item modify entity @s contents { \
+	function: "minecraft:set_custom_model_data", \
+	strings: { \
+		values: [ \
+			"pot_roast", \
+		], \
+		mode: "replace_all", \
+	}, \
+}
+
+execute if score random.output temp matches 8 run return run item modify entity @s contents { \
+	function: "minecraft:set_custom_model_data", \
+	strings: { \
+		values: [ \
+			"ramen", \
+		], \
+		mode: "replace_all", \
+	}, \
+}
+
+execute if score random.output temp matches 9 run return run item modify entity @s contents { \
+	function: "minecraft:set_custom_model_data", \
+	strings: { \
+		values: [ \
+			"ration", \
+		], \
+		mode: "replace_all", \
+	}, \
+}
+
+execute if score random.output temp matches 10 run return run item modify entity @s contents { \
+	function: "minecraft:set_custom_model_data", \
+	strings: { \
+		values: [ \
+			"rice_ball", \
+		], \
+		mode: "replace_all", \
+	}, \
+}
+
+execute if score random.output temp matches 11 run return run item modify entity @s contents { \
+	function: "minecraft:set_custom_model_data", \
+	strings: { \
+		values: [ \
+			"sea_salt_ice_cream", \
+		], \
+		mode: "replace_all", \
+	}, \
+}
+
+execute if score random.output temp matches 12 run return run item modify entity @s contents { \
+	function: "minecraft:set_custom_model_data", \
+	strings: { \
+		values: [ \
+			"smoked_tail_curry", \
+		], \
+		mode: "replace_all", \
+	}, \
+}
+
+execute if score random.output temp matches 13 run return run item modify entity @s contents { \
+	function: "minecraft:set_custom_model_data", \
+	strings: { \
+		values: [ \
+			"star_bits", \
+		], \
+		mode: "replace_all", \
+	}, \
+}
+
+execute if score random.output temp matches 14 run return run item modify entity @s contents { \
+	function: "minecraft:set_custom_model_data", \
+	strings: { \
+		values: [ \
+			"strawberry_tofu", \
+		], \
+		mode: "replace_all", \
+	}, \
+}
+
+execute if score random.output temp matches 15 run return run item modify entity @s contents { \
+	function: "minecraft:set_custom_model_data", \
+	strings: { \
+		values: [ \
+			"yoshi_berry", \
+		], \
+		mode: "replace_all", \
+	}, \
+}

@@ -2345,6 +2345,33 @@
 			}
 		]
 	},
+	"smash_item.heal": {
+		"sounds": [
+			{
+				"name": "ssbrc:smash_item/heal",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"smash_item.pickup": {
+		"sounds": [
+			{
+				"name": "ssbrc:smash_item/pickup",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"smash_item.throw": {
+		"sounds": [
+			{
+				"name": "ssbrc:smash_item/throw",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
 	"smash_item.angel_feather.activate": {
 		"sounds": [
 			{
@@ -2354,10 +2381,231 @@
 			}
 		]
 	},
+	"smash_item.banana_peel.activate": {
+		"sounds": [
+			{
+				"name": "ssbrc:smash_item/banana_peel/activate",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"smash_item.banana_peel.hit": {
+		"sounds": [
+			{
+				"name": "ssbrc:smash_item/banana_peel/hit",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"smash_item.beam_sword.hit": {
+		"sounds": [
+			{
+				"name": "ssbrc:smash_item/beam_sword/hit_1",
+				"stream": false,
+				"volume": 1.0
+			},
+			{
+				"name": "ssbrc:smash_item/beam_sword/hit_2",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
 	"smash_item.black_hole.activate": {
 		"sounds": [
 			{
 				"name": "ssbrc:smash_item/black_hole/activate",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"smash_item.black_hole.loop": {
+		"sounds": [
+			{
+				"name": "ssbrc:smash_item/black_hole/loop",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"smash_item.bombchu.loop": {
+		"sounds": [
+			{
+				"name": "ssbrc:smash_item/bombchu/loop",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"smash_item.bunny_hood.activate": {
+		"sounds": [
+			{
+				"name": "ssbrc:smash_item/bunny_hood/activate",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"smash_item.bunny_hood.sprint": {
+		"sounds": [
+			{
+				"name": "ssbrc:smash_item/bunny_hood/sprint",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"smash_item.cracker_launcher.activate": {
+		"sounds": [
+			{
+				"name": "ssbrc:smash_item/cracker_launcher/activate",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"smash_item.cracker_launcher.explode": {
+		"sounds": [
+			{
+				"name": "ssbrc:smash_item/cracker_launcher/explode",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"smash_item.death_scythe.hit": {
+		"sounds": [
+			{
+				"name": "ssbrc:smash_item/death_scythe/hit",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"smash_item.death_scythe.kill": {
+		"sounds": [
+			{
+				"name": "ssbrc:smash_item/death_scythe/kill",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"smash_item.franklin_badge.activate": {
+		"sounds": [
+			{
+				"name": "ssbrc:smash_item/franklin_badge/activate",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"smash_item.franklin_badge.reflect": {
+		"sounds": [
+			{
+				"name": "ssbrc:smash_item/franklin_badge/reflect",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"smash_item.freezie.hit": {
+		"sounds": [
+			{
+				"name": "ssbrc:smash_item/freezie/hit",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"smash_item.green_shell.hit": {
+		"sounds": [
+			{
+				"name": "ssbrc:smash_item/green_shell/hit",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"smash_item.healing_field.activate": {
+		"sounds": [
+			{
+				"name": "ssbrc:smash_item/healing_field/activate",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"smash_item.healing_field.heal": {
+		"sounds": [
+			{
+				"name": "ssbrc:smash_item/healing_field/heal",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"smash_item.killing_edge.hit.critical": {
+		"sounds": [
+			{
+				"name": "ssbrc:smash_item/killing_edge/hit/critical",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"smash_item.killing_edge.hit.default": {
+		"sounds": [
+			{
+				"name": "ssbrc:smash_item/killing_edge/hit/default",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"smash_item.killing_edge.activate": {
+		"sounds": [
+			{
+				"name": "ssbrc:smash_item/killing_edge/activate",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"smash_item.lips_stick.hit": {
+		"sounds": [
+			{
+				"name": "ssbrc:smash_item/lips_stick/hit",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"smash_item.motion_sensor_bomb.activate": {
+		"sounds": [
+			{
+				"name": "ssbrc:smash_item/motion_sensor_bomb/activate",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"smash_item.motion_sensor_bomb.loop": {
+		"sounds": [
+			{
+				"name": "ssbrc:smash_item/motion_sensor_bomb/loop",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"smash_item.motion_sensor_bomb.prime_explode": {
+		"sounds": [
+			{
+				"name": "ssbrc:smash_item/motion_sensor_bomb/prime_explode",
 				"stream": false,
 				"volume": 1.0
 			}
@@ -2381,10 +2629,37 @@
 			}
 		]
 	},
-	"smash_item.poke_ball.open": {
+	"smash_item.pitfall_seed.hit": {
 		"sounds": [
 			{
-				"name": "ssbrc:smash_item/poke_ball/open",
+				"name": "ssbrc:smash_item/pitfall_seed/hit",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"smash_item.poke_ball.activate": {
+		"sounds": [
+			{
+				"name": "ssbrc:smash_item/poke_ball/activate",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"smash_item.pow_block.activate": {
+		"sounds": [
+			{
+				"name": "ssbrc:smash_item/pow_block/activate",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"smash_item.ramblin_evil_mushroom.activate": {
+		"sounds": [
+			{
+				"name": "ssbrc:smash_item/ramblin_evil_mushroom/activate",
 				"stream": false,
 				"volume": 1.0
 			}
@@ -2403,6 +2678,15 @@
 		"sounds": [
 			{
 				"name": "ssbrc:smash_item/special_flag/activate",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"smash_item.special_flag.loop": {
+		"sounds": [
+			{
+				"name": "ssbrc:smash_item/special_flag/loop",
 				"stream": false,
 				"volume": 1.0
 			}
