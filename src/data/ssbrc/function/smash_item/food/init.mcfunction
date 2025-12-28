@@ -41,7 +41,7 @@ item modify entity @s contents [ \
 	}, \
 ]
 
-execute store result score random.output temp run random value 1..15
+execute store result score random.output temp run random value 1..16
 
 execute if score random.output temp matches 1 run return run item modify entity @s contents { \
 	function: "minecraft:set_custom_model_data", \
