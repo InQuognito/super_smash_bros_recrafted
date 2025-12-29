@@ -1,3 +1,4 @@
-execute store result score random temp run random value 1..4
-
-execute if score random temp matches 1 run return run function ssbrc:fighter/alucard/abilities/alucard_sword/particles/1
+execute positioned -162 87 18 run function ssbrc:stage/tortimer_island/quadrant {quadrant: "nw"}
+execute positioned -143 87 18 run function ssbrc:stage/tortimer_island/quadrant {quadrant: "ne"}
+execute positioned -162 86 35 run function ssbrc:stage/tortimer_island/quadrant {quadrant: "sw"}
+execute positioned -143 89 35 run function ssbrc:stage/tortimer_island/quadrant {quadrant: "se"}
