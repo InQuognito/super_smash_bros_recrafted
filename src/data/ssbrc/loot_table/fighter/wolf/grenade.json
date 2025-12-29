@@ -69,7 +69,7 @@
 							"function": "minecraft:set_custom_data",
 							"tag": {
 								"item": "grenade",
-								"path": "wolf/logic/abilities/grenade/check",
+								"path": "wolf/abilities/grenade/check",
 								"cooldown": 20
 							}
 						}

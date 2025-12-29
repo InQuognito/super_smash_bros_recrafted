@@ -26,6 +26,6 @@
 		}
 	},
 	"rewards": {
-		"function": "ssbrc:fighter/pit/logic/abilities/palutena_bow/charge"
+		"function": "ssbrc:fighter/pit/abilities/palutena_bow/charge"
 	}
 }

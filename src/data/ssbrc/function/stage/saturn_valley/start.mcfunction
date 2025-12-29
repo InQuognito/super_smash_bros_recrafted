@@ -1,1 +1,1 @@
-function ssbrc:stage/saturn_valley/logic/well/on
+function ssbrc:stage/saturn_valley/well/on

@@ -13,6 +13,6 @@
 		}
 	},
 	"rewards": {
-		"function": "ssbrc:fighter/sora/logic/drive_forms/anti/slash/check"
+		"function": "ssbrc:fighter/sora/drive_forms/anti/slash/check"
 	}
 }

@@ -29,6 +29,6 @@
 		}
 	},
 	"rewards": {
-		"function": "ssbrc:stage/palutenas_temple/logic/angel_feather/activate"
+		"function": "ssbrc:stage/palutenas_temple/angel_feather/activate"
 	}
 }

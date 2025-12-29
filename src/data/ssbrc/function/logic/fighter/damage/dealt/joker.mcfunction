@@ -1,3 +1,3 @@
 scoreboard players operation @s charge.1 += damage_dealt temp
 
-execute unless items entity @s[scores={duration.1=..0}] weapon.mainhand *[minecraft:custom_data~{item: "tt33"}] run function ssbrc:fighter/joker/logic/abilities/persona_awakening/check
+execute unless items entity @s[scores={duration.1=..0}] weapon.mainhand *[minecraft:custom_data~{item: "tt33"}] run function ssbrc:fighter/joker/abilities/persona_awakening/check

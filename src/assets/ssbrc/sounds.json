@@ -2431,6 +2431,15 @@
 			}
 		]
 	},
+	"smash_item.black_hole.throw": {
+		"sounds": [
+			{
+				"name": "ssbrc:smash_item/black_hole/throw",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
 	"smash_item.bombchu.loop": {
 		"sounds": [
 			{
@@ -2602,10 +2611,10 @@
 			}
 		]
 	},
-	"smash_item.motion_sensor_bomb.prime_explode": {
+	"smash_item.motion_sensor_bomb.prime": {
 		"sounds": [
 			{
-				"name": "ssbrc:smash_item/motion_sensor_bomb/prime_explode",
+				"name": "ssbrc:smash_item/motion_sensor_bomb/prime",
 				"stream": false,
 				"volume": 1.0
 			}

@@ -1,5 +1,5 @@
 # Neutral Zone
-function ssbrc:stage/planet_epp/logic/hazards/neutral_zone/deactivate
+function ssbrc:stage/planet_epp/hazards/neutral_zone/deactivate
 
 # Caves
 summon minecraft:marker 9963.5 19.5 19914.5 {Tags:["collision.left"]}

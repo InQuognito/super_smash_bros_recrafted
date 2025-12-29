@@ -37,6 +37,6 @@
 		}
 	},
 	"rewards": {
-		"function": "ssbrc:fighter/sora/logic/spell_switch/thunder"
+		"function": "ssbrc:fighter/sora/spell_switch/thunder"
 	}
 }

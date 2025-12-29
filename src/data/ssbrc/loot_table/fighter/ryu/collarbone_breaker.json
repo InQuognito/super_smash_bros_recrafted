@@ -79,7 +79,7 @@
 							"tag": {
 								"item": "collarbone_breaker",
 								"evil": "false",
-								"path": "ryu/logic/abilities/hadouken/check",
+								"path": "ryu/abilities/hadouken/check",
 								"damage": 6,
 								"cooldown": 5,
 								"alt_cooldown": 10

@@ -26,6 +26,6 @@
 		}
 	},
 	"rewards": {
-		"function": "ssbrc:fighter/ness/logic/abilities/pk_flash/check"
+		"function": "ssbrc:fighter/ness/abilities/pk_flash/check"
 	}
 }

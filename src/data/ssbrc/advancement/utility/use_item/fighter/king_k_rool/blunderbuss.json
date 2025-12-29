@@ -19,6 +19,6 @@
 		}
 	},
 	"rewards": {
-		"function": "ssbrc:fighter/king_k_rool/logic/abilities/blunderbuss/activate"
+		"function": "ssbrc:fighter/king_k_rool/abilities/blunderbuss/activate"
 	}
 }

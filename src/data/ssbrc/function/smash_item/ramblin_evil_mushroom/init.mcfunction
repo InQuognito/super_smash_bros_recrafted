@@ -1,0 +1,45 @@
+item modify entity @s contents [ \
+	{ \
+		function: "minecraft:set_name", \
+		entity: "this", \
+		name: { \
+			translate: "ssbrc.smash_item.ramblin_evil_mushroom", \
+			color: "red", \
+			bold: true, \
+			italic: false, \
+		}, \
+	}, \
+	{ \
+		function: "minecraft:reference", \
+		name: "ssbrc:init/tooltip/item/shooting", \
+	}, \
+	{ \
+		function: "minecraft:reference", \
+		name: "ssbrc:init/ability/default", \
+	}, \
+	{ \
+		function: "minecraft:set_lore", \
+		entity: "this", \
+		lore: [ \
+			{ \
+				translate: "ssbrc.smash_item.ramblin_evil_mushroom.description", \
+				color: "gray", \
+				bold: false, \
+				italic: false, \
+			}, \
+		], \
+		mode: "append", \
+	}, \
+	{ \
+		function: "minecraft:set_components", \
+		components: { \
+			"minecraft:item_model": "ssbrc:smash_item/ramblin_evil_mushroom", \
+		}, \
+	}, \
+	{ \
+		function: "minecraft:set_custom_data", \
+		tag: { \
+			item: "ramblin_evil_mushroom", \
+		}, \
+	}, \
+]

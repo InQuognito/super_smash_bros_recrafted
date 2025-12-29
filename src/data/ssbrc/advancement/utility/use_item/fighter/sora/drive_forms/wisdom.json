@@ -22,6 +22,6 @@
 		}
 	},
 	"rewards": {
-		"function": "ssbrc:fighter/sora/logic/drive_forms/check/wisdom"
+		"function": "ssbrc:fighter/sora/drive_forms/check/wisdom"
 	}
 }

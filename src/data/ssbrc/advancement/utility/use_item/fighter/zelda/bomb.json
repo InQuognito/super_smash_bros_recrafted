@@ -19,6 +19,6 @@
 		}
 	},
 	"rewards": {
-		"function": "ssbrc:fighter/zelda/logic/abilities/bomb/check"
+		"function": "ssbrc:fighter/zelda/abilities/bomb/check"
 	}
 }

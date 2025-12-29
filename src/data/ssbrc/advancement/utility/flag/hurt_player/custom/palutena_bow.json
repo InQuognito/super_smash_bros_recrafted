@@ -43,6 +43,6 @@
 		}
 	},
 	"rewards": {
-		"function": "ssbrc:fighter/pit/logic/abilities/palutena_bow/split"
+		"function": "ssbrc:fighter/pit/abilities/palutena_bow/split"
 	}
 }

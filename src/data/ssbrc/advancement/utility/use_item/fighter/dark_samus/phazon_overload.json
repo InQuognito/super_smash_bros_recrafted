@@ -19,6 +19,6 @@
 		}
 	},
 	"rewards": {
-		"function": "ssbrc:fighter/dark_samus/logic/abilities/phazon_overload/activate"
+		"function": "ssbrc:fighter/dark_samus/abilities/phazon_overload/activate"
 	}
 }

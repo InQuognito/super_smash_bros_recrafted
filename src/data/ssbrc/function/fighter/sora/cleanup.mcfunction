@@ -1,4 +1,4 @@
-function ssbrc:fighter/sora/logic/drive_forms/default
+function ssbrc:fighter/sora/drive_forms/default
 
 scoreboard players set @s charge.3 0
 

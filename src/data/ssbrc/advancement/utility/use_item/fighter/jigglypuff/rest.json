@@ -19,6 +19,6 @@
 		}
 	},
 	"rewards": {
-		"function": "ssbrc:fighter/jigglypuff/logic/abilities/rest/activate"
+		"function": "ssbrc:fighter/jigglypuff/abilities/rest/activate"
 	}
 }

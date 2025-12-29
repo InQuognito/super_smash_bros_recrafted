@@ -19,6 +19,6 @@
 		}
 	},
 	"rewards": {
-		"function": "ssbrc:fighter/joker/logic/masks/activate"
+		"function": "ssbrc:fighter/joker/masks/activate"
 	}
 }

@@ -19,6 +19,6 @@
 		}
 	},
 	"rewards": {
-		"function": "ssbrc:fighter/byleth/logic/golden_deer/failnaught/charge"
+		"function": "ssbrc:fighter/byleth/golden_deer/failnaught/charge"
 	}
 }

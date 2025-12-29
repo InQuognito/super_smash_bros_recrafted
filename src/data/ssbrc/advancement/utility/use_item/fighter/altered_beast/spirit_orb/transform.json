@@ -29,6 +29,6 @@
 		}
 	},
 	"rewards": {
-		"function": "ssbrc:fighter/altered_beast/logic/spirit_orb/check"
+		"function": "ssbrc:fighter/altered_beast/spirit_orb/check"
 	}
 }

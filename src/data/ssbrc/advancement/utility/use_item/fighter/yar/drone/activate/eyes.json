@@ -22,6 +22,6 @@
 		}
 	},
 	"rewards": {
-		"function": "ssbrc:fighter/yar/logic/abilities/drone/activate/eyes"
+		"function": "ssbrc:fighter/yar/abilities/drone/activate/eyes"
 	}
 }

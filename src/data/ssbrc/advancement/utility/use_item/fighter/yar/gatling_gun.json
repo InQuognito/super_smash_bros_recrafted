@@ -19,6 +19,6 @@
 		}
 	},
 	"rewards": {
-		"function": "ssbrc:fighter/yar/logic/abilities/gatling_gun/charge"
+		"function": "ssbrc:fighter/yar/abilities/gatling_gun/charge"
 	}
 }

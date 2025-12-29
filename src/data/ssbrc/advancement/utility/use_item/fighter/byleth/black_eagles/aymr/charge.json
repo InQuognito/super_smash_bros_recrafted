@@ -26,6 +26,6 @@
 		}
 	},
 	"rewards": {
-		"function": "ssbrc:fighter/byleth/logic/black_eagles/aymr/check"
+		"function": "ssbrc:fighter/byleth/black_eagles/aymr/check"
 	}
 }

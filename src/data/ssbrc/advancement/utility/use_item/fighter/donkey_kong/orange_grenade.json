@@ -31,6 +31,6 @@
 		}
 	},
 	"rewards": {
-		"function": "ssbrc:fighter/donkey_kong/logic/abilities/orange_grenade/activate"
+		"function": "ssbrc:fighter/donkey_kong/abilities/orange_grenade/activate"
 	}
 }

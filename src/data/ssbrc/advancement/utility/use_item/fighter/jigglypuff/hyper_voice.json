@@ -19,6 +19,6 @@
 		}
 	},
 	"rewards": {
-		"function": "ssbrc:fighter/jigglypuff/logic/abilities/hyper_voice/check"
+		"function": "ssbrc:fighter/jigglypuff/abilities/hyper_voice/check"
 	}
 }

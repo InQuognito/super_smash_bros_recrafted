@@ -16,38 +16,38 @@
 #execute as @e[type=minecraft:marker,tag=door] at @s run function ssbrc:logic/stage/doors/close with entity @s data
 
 # Paintings
-#execute positioned -322.5 18.5 -1108.5 rotated 90 0 summon minecraft:item_display run function ssbrc:stage/luigis_mansion/logic/painting/fake
-#execute positioned -302.5 18.5 -1108.5 rotated -90 0 summon minecraft:item_display run function ssbrc:stage/luigis_mansion/logic/painting/fake
+#execute positioned -322.5 18.5 -1108.5 rotated 90 0 summon minecraft:item_display run function ssbrc:stage/luigis_mansion/painting/fake
+#execute positioned -302.5 18.5 -1108.5 rotated -90 0 summon minecraft:item_display run function ssbrc:stage/luigis_mansion/painting/fake
 
-#execute positioned -295.5 19.5 -1104.01 rotated 180 0 summon minecraft:item_display run function ssbrc:stage/luigis_mansion/logic/painting/default
-#execute positioned -336.99 18.5 -1119.5 rotated -90 0 summon minecraft:item_display run function ssbrc:stage/luigis_mansion/logic/painting/default
-#execute positioned -298.5 18.5 -1134.99 rotated 0 0 summon minecraft:item_display run function ssbrc:stage/luigis_mansion/logic/painting/default
+#execute positioned -295.5 19.5 -1104.01 rotated 180 0 summon minecraft:item_display run function ssbrc:stage/luigis_mansion/painting/default
+#execute positioned -336.99 18.5 -1119.5 rotated -90 0 summon minecraft:item_display run function ssbrc:stage/luigis_mansion/painting/default
+#execute positioned -298.5 18.5 -1134.99 rotated 0 0 summon minecraft:item_display run function ssbrc:stage/luigis_mansion/painting/default
 
-#execute positioned -310.5 18.5 -1102.01 rotated 0 0 summon minecraft:item_display run function ssbrc:stage/luigis_mansion/logic/painting/decide
-#execute positioned -312.5 19.5 -1102.01 rotated 0 0 summon minecraft:item_display run function ssbrc:stage/luigis_mansion/logic/painting/decide
-#execute positioned -314.5 18.5 -1102.01 rotated 0 0 summon minecraft:item_display run function ssbrc:stage/luigis_mansion/logic/painting/decide
+#execute positioned -310.5 18.5 -1102.01 rotated 0 0 summon minecraft:item_display run function ssbrc:stage/luigis_mansion/painting/decide
+#execute positioned -312.5 19.5 -1102.01 rotated 0 0 summon minecraft:item_display run function ssbrc:stage/luigis_mansion/painting/decide
+#execute positioned -314.5 18.5 -1102.01 rotated 0 0 summon minecraft:item_display run function ssbrc:stage/luigis_mansion/painting/decide
 
 # Chairs
-#execute positioned -323.5 16.75 -1145.5 rotated 0 0 summon minecraft:item_display run function ssbrc:stage/luigis_mansion/logic/chair
-#execute positioned -320.5 16.75 -1145.5 rotated 0 0 summon minecraft:item_display run function ssbrc:stage/luigis_mansion/logic/chair
+#execute positioned -323.5 16.75 -1145.5 rotated 0 0 summon minecraft:item_display run function ssbrc:stage/luigis_mansion/chair
+#execute positioned -320.5 16.75 -1145.5 rotated 0 0 summon minecraft:item_display run function ssbrc:stage/luigis_mansion/chair
 
-#execute positioned -317.5 16.75 -1142.5 rotated 90 0 summon minecraft:item_display run function ssbrc:stage/luigis_mansion/logic/chair
-#execute positioned -317.5 16.75 -1139.5 rotated 90 0 summon minecraft:item_display run function ssbrc:stage/luigis_mansion/logic/chair
+#execute positioned -317.5 16.75 -1142.5 rotated 90 0 summon minecraft:item_display run function ssbrc:stage/luigis_mansion/chair
+#execute positioned -317.5 16.75 -1139.5 rotated 90 0 summon minecraft:item_display run function ssbrc:stage/luigis_mansion/chair
 
-#execute positioned -320.5 16.75 -1124.5 rotated 180 0 summon minecraft:item_display run function ssbrc:stage/luigis_mansion/logic/chair
-#execute positioned -323.5 16.75 -1124.5 rotated 180 0 summon minecraft:item_display run function ssbrc:stage/luigis_mansion/logic/chair
+#execute positioned -320.5 16.75 -1124.5 rotated 180 0 summon minecraft:item_display run function ssbrc:stage/luigis_mansion/chair
+#execute positioned -323.5 16.75 -1124.5 rotated 180 0 summon minecraft:item_display run function ssbrc:stage/luigis_mansion/chair
 
-#execute positioned -338.5 16.75 -1127.5 rotated -90 0 summon minecraft:item_display run function ssbrc:stage/luigis_mansion/logic/chair
-#execute positioned -338.5 16.75 -1130.5 rotated -90 0 summon minecraft:item_display run function ssbrc:stage/luigis_mansion/logic/chair
+#execute positioned -338.5 16.75 -1127.5 rotated -90 0 summon minecraft:item_display run function ssbrc:stage/luigis_mansion/chair
+#execute positioned -338.5 16.75 -1130.5 rotated -90 0 summon minecraft:item_display run function ssbrc:stage/luigis_mansion/chair
 
-#execute positioned -338.5 16.75 -1139.5 rotated -90 0 summon minecraft:item_display run function ssbrc:stage/luigis_mansion/logic/chair
-#execute positioned -338.5 16.75 -1142.5 rotated -90 0 summon minecraft:item_display run function ssbrc:stage/luigis_mansion/logic/chair
+#execute positioned -338.5 16.75 -1139.5 rotated -90 0 summon minecraft:item_display run function ssbrc:stage/luigis_mansion/chair
+#execute positioned -338.5 16.75 -1142.5 rotated -90 0 summon minecraft:item_display run function ssbrc:stage/luigis_mansion/chair
 
 # Easels
-#execute positioned -291.5 16.5 -1113.5 rotated 225 0 summon minecraft:item_display run function ssbrc:stage/luigis_mansion/logic/easel
-#execute positioned -289.5 16.5 -1111.5 rotated -90 0 summon minecraft:item_display run function ssbrc:stage/luigis_mansion/logic/easel
-#execute positioned -289.5 16.5 -1108.5 rotated -90 0 summon minecraft:item_display run function ssbrc:stage/luigis_mansion/logic/easel
-#execute positioned -291.5 16.5 -1106.5 rotated 315 0 summon minecraft:item_display run function ssbrc:stage/luigis_mansion/logic/easel
+#execute positioned -291.5 16.5 -1113.5 rotated 225 0 summon minecraft:item_display run function ssbrc:stage/luigis_mansion/easel
+#execute positioned -289.5 16.5 -1111.5 rotated -90 0 summon minecraft:item_display run function ssbrc:stage/luigis_mansion/easel
+#execute positioned -289.5 16.5 -1108.5 rotated -90 0 summon minecraft:item_display run function ssbrc:stage/luigis_mansion/easel
+#execute positioned -291.5 16.5 -1106.5 rotated 315 0 summon minecraft:item_display run function ssbrc:stage/luigis_mansion/easel
 
 # Lanterns
 #summon minecraft:item_display -295.5 20.5 -1112.5 {Tags:["static_object","lantern_off","hanging"]}
@@ -60,4 +60,4 @@
 
 #summon minecraft:item_display -293.5 11.5 -1149.5 {Tags:["static_object","lantern_off","floor"]}
 
-#function ssbrc:stage/luigis_mansion/logic/blackout/deactivate
+#function ssbrc:stage/luigis_mansion/blackout/deactivate

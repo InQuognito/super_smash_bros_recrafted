@@ -22,6 +22,6 @@
 		}
 	},
 	"rewards": {
-		"function": "ssbrc:fighter/yar/logic/abilities/triple_shot/activate"
+		"function": "ssbrc:fighter/yar/abilities/triple_shot/activate"
 	}
 }

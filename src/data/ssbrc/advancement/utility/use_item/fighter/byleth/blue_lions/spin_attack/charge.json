@@ -32,6 +32,6 @@
 		}
 	},
 	"rewards": {
-		"function": "ssbrc:fighter/byleth/logic/blue_lions/spin_attack/check"
+		"function": "ssbrc:fighter/byleth/blue_lions/spin_attack/check"
 	}
 }

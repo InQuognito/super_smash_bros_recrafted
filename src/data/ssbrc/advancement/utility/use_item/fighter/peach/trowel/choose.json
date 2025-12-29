@@ -45,6 +45,6 @@
 		}
 	},
 	"rewards": {
-		"function": "ssbrc:fighter/peach/logic/abilities/trowel/choose"
+		"function": "ssbrc:fighter/peach/abilities/trowel/choose"
 	}
 }

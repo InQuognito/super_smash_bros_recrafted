@@ -20,7 +20,7 @@
 			{
 				"effect": {
 					"type": "minecraft:run_function",
-					"function": "ssbrc:fighter/byleth/logic/black_eagles/aymr/break"
+					"function": "ssbrc:fighter/byleth/black_eagles/aymr/break"
 				},
 				"requirements": {
 					"condition": "minecraft:entity_properties",

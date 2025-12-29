@@ -1,1 +1,1 @@
-function ssbrc:fighter/shovel_knight/logic/kill_entities
+function ssbrc:fighter/shovel_knight/kill_entities

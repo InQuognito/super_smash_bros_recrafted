@@ -19,6 +19,6 @@
 		}
 	},
 	"rewards": {
-		"function": "ssbrc:fighter/altered_beast/logic/werebear/petrifying_breath/activate"
+		"function": "ssbrc:fighter/altered_beast/werebear/petrifying_breath/activate"
 	}
 }

@@ -21,6 +21,6 @@
 		}
 	},
 	"rewards": {
-		"function": "ssbrc:fighter/mario/logic/abilities/fireball/activate"
+		"function": "ssbrc:fighter/mario/abilities/fireball/activate"
 	}
 }

@@ -17,6 +17,6 @@
 		}
 	},
 	"rewards": {
-		"function": "ssbrc:fighter/ganondorf/logic/stalfos/kill"
+		"function": "ssbrc:fighter/ganondorf/stalfos/kill"
 	}
 }

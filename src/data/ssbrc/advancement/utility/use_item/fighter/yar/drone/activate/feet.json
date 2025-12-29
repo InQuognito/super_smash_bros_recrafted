@@ -23,6 +23,6 @@
 		}
 	},
 	"rewards": {
-		"function": "ssbrc:fighter/yar/logic/abilities/drone/activate/feet"
+		"function": "ssbrc:fighter/yar/abilities/drone/activate/feet"
 	}
 }

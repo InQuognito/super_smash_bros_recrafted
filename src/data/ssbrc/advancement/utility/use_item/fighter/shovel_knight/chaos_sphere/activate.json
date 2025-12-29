@@ -38,6 +38,6 @@
 		}
 	},
 	"rewards": {
-		"function": "ssbrc:fighter/shovel_knight/logic/abilities/chaos_sphere/activate"
+		"function": "ssbrc:fighter/shovel_knight/abilities/chaos_sphere/activate"
 	}
 }

@@ -40,6 +40,6 @@
 		}
 	},
 	"rewards": {
-		"function": "ssbrc:fighter/snake/logic/abilities/smoke_grenade/activate"
+		"function": "ssbrc:fighter/snake/abilities/smoke_grenade/activate"
 	}
 }

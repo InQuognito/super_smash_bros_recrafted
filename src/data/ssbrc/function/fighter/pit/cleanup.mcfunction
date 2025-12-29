@@ -1,1 +1,1 @@
-function ssbrc:fighter/pit/logic/abilities/guardian_orbitars/deactivate
+function ssbrc:fighter/pit/abilities/guardian_orbitars/deactivate

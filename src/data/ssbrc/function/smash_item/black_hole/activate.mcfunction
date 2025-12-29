@@ -4,4 +4,4 @@ execute anchored eyes positioned ^ ^ ^.5 summon minecraft:marker run function ss
 
 clear @s *[minecraft:custom_data~{item: "black_hole"}]
 
-playsound ssbrc:smash_item.black_hole.activate player @a
+playsound ssbrc:smash_item.black_hole.throw player @a

@@ -1,1 +1,1 @@
-function ssbrc:fighter/steve/logic/equipment/tier/wooden
+function ssbrc:fighter/steve/equipment/tier/wooden

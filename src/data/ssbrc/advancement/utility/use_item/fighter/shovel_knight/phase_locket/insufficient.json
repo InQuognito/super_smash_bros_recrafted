@@ -47,6 +47,6 @@
 		}
 	},
 	"rewards": {
-		"function": "ssbrc:fighter/shovel_knight/logic/magic/insufficient"
+		"function": "ssbrc:fighter/shovel_knight/magic/insufficient"
 	}
 }

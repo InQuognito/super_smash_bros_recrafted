@@ -19,6 +19,6 @@
 		}
 	},
 	"rewards": {
-		"function": "ssbrc:fighter/byleth/logic/blue_lions/steed_charge/activate"
+		"function": "ssbrc:fighter/byleth/blue_lions/steed_charge/activate"
 	}
 }

@@ -19,6 +19,6 @@
 		}
 	},
 	"rewards": {
-		"function": "ssbrc:fighter/team_rocket/logic/arbok/acid/activate"
+		"function": "ssbrc:fighter/team_rocket/arbok/acid/activate"
 	}
 }

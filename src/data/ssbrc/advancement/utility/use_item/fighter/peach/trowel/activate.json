@@ -37,6 +37,6 @@
 		}
 	},
 	"rewards": {
-		"function": "ssbrc:fighter/peach/logic/abilities/trowel/activate"
+		"function": "ssbrc:fighter/peach/abilities/trowel/activate"
 	}
 }

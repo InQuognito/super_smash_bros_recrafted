@@ -1,1 +1,1 @@
-function ssbrc:fighter/rob/logic/abilities/robo_beam/reset
+function ssbrc:fighter/rob/abilities/robo_beam/reset

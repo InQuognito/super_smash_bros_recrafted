@@ -1,6 +1,7 @@
 {
-	"texture_size": [32, 32],
+	"parent": "minecraft:block/cube_all",
 	"textures": {
+		"all": "minecraft:block/iron_ore",
 		"particle": "ssbrc:ui/locked"
 	}
 }

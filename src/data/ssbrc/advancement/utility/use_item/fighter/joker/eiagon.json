@@ -28,6 +28,6 @@
 		}
 	},
 	"rewards": {
-		"function": "ssbrc:fighter/joker/logic/abilities/eiagon/activate"
+		"function": "ssbrc:fighter/joker/abilities/eiagon/activate"
 	}
 }

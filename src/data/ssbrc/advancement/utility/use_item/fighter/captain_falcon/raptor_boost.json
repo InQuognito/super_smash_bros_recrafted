@@ -19,6 +19,6 @@
 		}
 	},
 	"rewards": {
-		"function": "ssbrc:fighter/captain_falcon/logic/abilities/raptor_boost/activate"
+		"function": "ssbrc:fighter/captain_falcon/abilities/raptor_boost/activate"
 	}
 }

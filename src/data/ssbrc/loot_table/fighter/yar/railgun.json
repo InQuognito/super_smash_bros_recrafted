@@ -65,7 +65,7 @@
 								"item": "railgun",
 								"group": "ray_blaster",
 								"power_up": "false",
-								"path": "yar/logic/abilities/railgun/check"
+								"path": "yar/abilities/railgun/check"
 							}
 						}
 					]

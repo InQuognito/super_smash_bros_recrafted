@@ -60,7 +60,7 @@
 							"function": "minecraft:set_custom_data",
 							"tag": {
 								"item": "failnaught",
-								"path": "byleth/logic/golden_deer/failnaught/check"
+								"path": "byleth/golden_deer/failnaught/check"
 							}
 						}
 					]

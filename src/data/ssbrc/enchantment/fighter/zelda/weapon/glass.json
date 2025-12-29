@@ -68,7 +68,7 @@
 					"effects": [
 						{
 							"type": "minecraft:run_function",
-							"function": "ssbrc:fighter/zelda/logic/shatter_glass_weapon"
+							"function": "ssbrc:fighter/zelda/shatter_glass_weapon"
 						},
 						{
 							"type": "minecraft:play_sound",

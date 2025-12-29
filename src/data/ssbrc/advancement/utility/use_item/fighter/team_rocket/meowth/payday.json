@@ -19,6 +19,6 @@
 		}
 	},
 	"rewards": {
-		"function": "ssbrc:fighter/team_rocket/logic/meowth/payday/activate"
+		"function": "ssbrc:fighter/team_rocket/meowth/payday/activate"
 	}
 }

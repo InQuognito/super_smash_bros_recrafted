@@ -26,6 +26,6 @@
 		}
 	},
 	"rewards": {
-		"function": "ssbrc:fighter/byleth/logic/black_eagles/ground_pound/check"
+		"function": "ssbrc:fighter/byleth/black_eagles/ground_pound/check"
 	}
 }

@@ -30,6 +30,6 @@
 		}
 	},
 	"rewards": {
-		"function": "ssbrc:fighter/fox/logic/abilities/fox_blaster/activate"
+		"function": "ssbrc:fighter/fox/abilities/fox_blaster/activate"
 	}
 }

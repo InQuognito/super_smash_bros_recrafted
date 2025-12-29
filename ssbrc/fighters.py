@@ -1620,7 +1620,7 @@ fighters = {
 				'rarity': 'uncommon',
 				'color': 'white'
 			},
-			'climbing_gear': {
+			'tundra_climbers': {
 				'rarity': 'uncommon',
 				'color': 'gold'
 			}
@@ -1635,6 +1635,7 @@ fighters = {
 		'series': 'fire_emblem',
 		'stats': {
 			'armor': 'low',
+			'max_health': 48.0,
 			'safe_fall_distance': 'medium',
 			'weight': 'medium'
 		},

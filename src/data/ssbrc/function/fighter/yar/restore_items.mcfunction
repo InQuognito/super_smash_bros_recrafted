@@ -1,1 +1,1 @@
-function ssbrc:fighter/yar/logic/abilities/power_ups/reset
+function ssbrc:fighter/yar/abilities/power_ups/reset

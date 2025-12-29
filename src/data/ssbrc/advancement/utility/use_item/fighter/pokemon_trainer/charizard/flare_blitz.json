@@ -28,6 +28,6 @@
 		}
 	},
 	"rewards": {
-		"function": "ssbrc:fighter/pokemon_trainer/logic/charizard/flare_blitz/activate"
+		"function": "ssbrc:fighter/pokemon_trainer/charizard/flare_blitz/activate"
 	}
 }

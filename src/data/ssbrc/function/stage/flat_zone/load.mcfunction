@@ -18,10 +18,10 @@
 #execute unless data storage ssbrc:data option{hazards: true} run function ssbrc:stage/flat_zone/load/hazards_off
 #execute if data storage ssbrc:data option{hazards: true} run function ssbrc:stage/flat_zone/load/hazards_on
 
-#function ssbrc:stage/flat_zone/logic/gas_station_guy/1/left
-#function ssbrc:stage/flat_zone/logic/gas_station_guy/2/left
-#function ssbrc:stage/flat_zone/logic/house_light_random
-#function ssbrc:stage/flat_zone/logic/lion/1
-#function ssbrc:stage/flat_zone/logic/lion/2
-#function ssbrc:stage/flat_zone/logic/zookeeper/1
-#function ssbrc:stage/flat_zone/logic/zookeeper/2
+#function ssbrc:stage/flat_zone/gas_station_guy/1/left
+#function ssbrc:stage/flat_zone/gas_station_guy/2/left
+#function ssbrc:stage/flat_zone/house_light_random
+#function ssbrc:stage/flat_zone/lion/1
+#function ssbrc:stage/flat_zone/lion/2
+#function ssbrc:stage/flat_zone/zookeeper/1
+#function ssbrc:stage/flat_zone/zookeeper/2

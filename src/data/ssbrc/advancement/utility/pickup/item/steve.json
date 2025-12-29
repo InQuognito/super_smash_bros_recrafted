@@ -41,6 +41,6 @@
 		}
 	},
 	"rewards": {
-		"function": "ssbrc:fighter/steve/logic/item/pickup/check"
+		"function": "ssbrc:fighter/steve/item/pickup/check"
 	}
 }

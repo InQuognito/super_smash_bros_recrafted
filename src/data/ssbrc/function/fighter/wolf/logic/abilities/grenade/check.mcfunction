@@ -1,1 +1,0 @@
-execute if items entity @s[predicate=ssbrc:cooldown/universal] weapon.* *[minecraft:custom_data~{item: "grenade"},minecraft:damage~{damage:0}] run function ssbrc:fighter/wolf/logic/abilities/grenade/activate

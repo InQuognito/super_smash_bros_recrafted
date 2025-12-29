@@ -5,4 +5,4 @@ scoreboard players operation limit_gain temp /= 30 const
 
 scoreboard players operation @s resource += limit_gain temp
 
-function ssbrc:fighter/cloud/logic/limit/update
+function ssbrc:fighter/cloud/limit/update

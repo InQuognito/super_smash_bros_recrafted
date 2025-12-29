@@ -19,6 +19,6 @@
 		}
 	},
 	"rewards": {
-		"function": "ssbrc:fighter/alucard/logic/abilities/blood_metamorphosis/activate"
+		"function": "ssbrc:fighter/alucard/abilities/blood_metamorphosis/activate"
 	}
 }

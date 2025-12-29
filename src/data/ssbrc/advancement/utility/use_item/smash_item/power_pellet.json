@@ -19,6 +19,6 @@
 		}
 	},
 	"rewards": {
-		"function": "ssbrc:stage/pac_maze/logic/power_pellet/activate"
+		"function": "ssbrc:stage/pac_maze/power_pellet/activate"
 	}
 }

@@ -14,4 +14,4 @@ execute if data storage ssbrc:data option{teams: true} as @a[predicate=ssbrc:tea
 weather clear
 scoreboard players set game_stage temp 5
 
-execute if score blackout temp matches 1 run function ssbrc:stage/luigis_mansion/logic/blackout/deactivate
+execute if score blackout temp matches 1 run function ssbrc:stage/luigis_mansion/blackout/deactivate

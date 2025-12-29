@@ -37,6 +37,6 @@
 		}
 	},
 	"rewards": {
-		"function": "ssbrc:fighter/sora/logic/spell_switch/fire/hand"
+		"function": "ssbrc:fighter/sora/spell_switch/fire/hand"
 	}
 }

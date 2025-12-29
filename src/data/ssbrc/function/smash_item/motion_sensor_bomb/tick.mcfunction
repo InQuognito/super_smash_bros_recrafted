@@ -2,3 +2,6 @@ execute if predicate ssbrc:flag/on_ground run function ssbrc:smash_item/motion_s
 
 scoreboard players add @s temp 1
 execute if score @s temp matches 1200.. run function ssbrc:smash_item/motion_sensor_bomb/explode
+
+scoreboard players add @s[tag=primed] timer 1
+execute if score @s timer matches 5.. run function ssbrc:smash_item/motion_sensor_bomb/explode

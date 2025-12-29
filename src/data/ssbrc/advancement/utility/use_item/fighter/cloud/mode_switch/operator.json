@@ -30,6 +30,6 @@
 		}
 	},
 	"rewards": {
-		"function": "ssbrc:fighter/cloud/logic/abilities/buster_sword/mode_switch/operator"
+		"function": "ssbrc:fighter/cloud/abilities/buster_sword/mode_switch/operator"
 	}
 }

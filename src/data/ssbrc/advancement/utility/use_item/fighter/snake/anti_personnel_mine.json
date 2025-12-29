@@ -40,6 +40,6 @@
 		}
 	},
 	"rewards": {
-		"function": "ssbrc:fighter/snake/logic/abilities/claymore/activate"
+		"function": "ssbrc:fighter/snake/abilities/claymore/activate"
 	}
 }

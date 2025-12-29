@@ -21,6 +21,6 @@
 		}
 	},
 	"rewards": {
-		"function": "ssbrc:fighter/joker/logic/abilities/tt33/check"
+		"function": "ssbrc:fighter/joker/abilities/tt33/check"
 	}
 }

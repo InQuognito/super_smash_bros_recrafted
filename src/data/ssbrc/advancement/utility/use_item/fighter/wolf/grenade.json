@@ -35,6 +35,6 @@
 		}
 	},
 	"rewards": {
-		"function": "ssbrc:fighter/wolf/logic/abilities/grenade/explode_in_hand"
+		"function": "ssbrc:fighter/wolf/abilities/grenade/explode_in_hand"
 	}
 }

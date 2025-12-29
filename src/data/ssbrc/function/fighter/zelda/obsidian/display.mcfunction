@@ -1,0 +1,7 @@
+scoreboard players operation obsidian.count temp = @s combo.count
+execute if score obsidian.count temp matches 16.. run scoreboard players set obsidian.count temp 15
+
+execute store result storage ssbrc:temp cache.combo.count int 1 run scoreboard players get obsidian.count temp
+function ssbrc:fighter/zelda/obsidian/apply with storage ssbrc:temp cache.combo
+
+data modify storage ssbrc:hud temp.value set value [{score:{name: "obsidian.count", objective: "temp"}, color: "light_purple"},{text: "x", color: "dark_purple"}]

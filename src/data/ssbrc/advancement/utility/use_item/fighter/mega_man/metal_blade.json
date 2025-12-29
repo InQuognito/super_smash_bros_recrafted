@@ -30,6 +30,6 @@
 		}
 	},
 	"rewards": {
-		"function": "ssbrc:fighter/mega_man/logic/abilities/metal_blade/activate"
+		"function": "ssbrc:fighter/mega_man/abilities/metal_blade/activate"
 	}
 }

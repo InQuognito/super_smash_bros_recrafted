@@ -19,6 +19,6 @@
 		}
 	},
 	"rewards": {
-		"function": "ssbrc:fighter/ryu/logic/abilities/satsui_no_hado_rage/activate"
+		"function": "ssbrc:fighter/ryu/abilities/satsui_no_hado_rage/activate"
 	}
 }

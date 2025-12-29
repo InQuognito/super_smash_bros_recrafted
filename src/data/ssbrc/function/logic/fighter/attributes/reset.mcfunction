@@ -24,10 +24,10 @@ function ssbrc:logic/fighter/attributes/modifiers/frostbite/remove
 function ssbrc:logic/fighter/effects/mobility/mobilize
 
 # Alucard
-function ssbrc:fighter/alucard/logic/abilities/mist/reset
+function ssbrc:fighter/alucard/abilities/mist/reset
 
 # Bowser
-function ssbrc:fighter/bowser/logic/abilities/rage/reset
+function ssbrc:fighter/bowser/abilities/rage/reset
 
 # Byleth
 attribute @s minecraft:armor modifier remove ssbrc:fighter/byleth/heavy_armor
@@ -37,7 +37,7 @@ attribute @s minecraft:movement_speed modifier remove ssbrc:fighter/byleth/golde
 attribute @s minecraft:movement_speed modifier remove ssbrc:falcon_charge
 
 # Cloud
-function ssbrc:fighter/cloud/logic/abilities/buster_sword/mode_switch/reset
+function ssbrc:fighter/cloud/abilities/buster_sword/mode_switch/reset
 
 # Greninja
 attribute @s minecraft:oxygen_bonus modifier remove ssbrc:greninja
@@ -90,8 +90,8 @@ function ssbrc:smash_item/poison_mushroom/deactivate
 function ssbrc:smash_item/super_mushroom/deactivate
 
 # Stages
-function ssbrc:stage/pac_maze/logic/fruit/fruit/galaxian_flagship/reset
-function ssbrc:stage/palutenas_temple/logic/fiends_cauldron/reset
+function ssbrc:stage/pac_maze/fruit/fruit/galaxian_flagship/reset
+function ssbrc:stage/palutenas_temple/fiends_cauldron/reset
 attribute @s minecraft:movement_speed modifier remove ssbrc:quicksand
 attribute @s minecraft:movement_speed modifier remove ssbrc:vent
 attribute @s minecraft:safe_fall_distance modifier remove ssbrc:sector_z

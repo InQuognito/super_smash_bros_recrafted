@@ -19,6 +19,6 @@
 		}
 	},
 	"rewards": {
-		"function": "ssbrc:fighter/altered_beast/logic/weredragon/electrocution/activate"
+		"function": "ssbrc:fighter/altered_beast/weredragon/electrocution/activate"
 	}
 }

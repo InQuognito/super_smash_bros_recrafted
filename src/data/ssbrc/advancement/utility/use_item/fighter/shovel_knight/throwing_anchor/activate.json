@@ -35,6 +35,6 @@
 		}
 	},
 	"rewards": {
-		"function": "ssbrc:fighter/shovel_knight/logic/abilities/throwing_anchor/activate"
+		"function": "ssbrc:fighter/shovel_knight/abilities/throwing_anchor/activate"
 	}
 }

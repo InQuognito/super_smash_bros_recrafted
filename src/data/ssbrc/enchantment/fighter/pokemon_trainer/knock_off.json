@@ -25,7 +25,7 @@
 					"effects": [
 						{
 							"type": "minecraft:run_function",
-							"function": "ssbrc:fighter/pokemon_trainer/logic/ivysaur/knock_off"
+							"function": "ssbrc:fighter/pokemon_trainer/ivysaur/knock_off"
 						}
 					]
 				},

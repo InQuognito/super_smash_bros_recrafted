@@ -22,6 +22,6 @@
 		}
 	},
 	"rewards": {
-		"function": "ssbrc:fighter/sora/logic/abilities/blizzard/check"
+		"function": "ssbrc:fighter/sora/abilities/blizzard/check"
 	}
 }

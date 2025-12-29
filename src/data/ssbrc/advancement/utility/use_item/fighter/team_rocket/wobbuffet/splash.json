@@ -23,6 +23,6 @@
 		}
 	},
 	"rewards": {
-		"function": "ssbrc:fighter/team_rocket/logic/wobbuffet/splash/activate"
+		"function": "ssbrc:fighter/team_rocket/wobbuffet/splash/activate"
 	}
 }

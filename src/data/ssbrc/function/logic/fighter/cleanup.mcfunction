@@ -7,7 +7,7 @@ scoreboard players set @s flag.sprinting 0
 
 # Clear effects
 tag @s remove cross_slash.target
-function ssbrc:fighter/pokemon_trainer/logic/ivysaur/leech_seed/reset
+function ssbrc:fighter/pokemon_trainer/ivysaur/leech_seed/reset
 
 scoreboard players set @s burning 0
 scoreboard players reset @s fiends_cauldron

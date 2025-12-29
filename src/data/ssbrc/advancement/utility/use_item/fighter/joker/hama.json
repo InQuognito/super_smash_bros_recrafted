@@ -28,6 +28,6 @@
 		}
 	},
 	"rewards": {
-		"function": "ssbrc:fighter/joker/logic/abilities/hama/activate"
+		"function": "ssbrc:fighter/joker/abilities/hama/activate"
 	}
 }

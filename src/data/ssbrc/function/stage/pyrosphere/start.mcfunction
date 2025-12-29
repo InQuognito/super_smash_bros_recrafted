@@ -1,1 +1,1 @@
-function ssbrc:stage/pyrosphere/logic/fgii_graham/activate
+function ssbrc:stage/pyrosphere/fgii_graham/activate

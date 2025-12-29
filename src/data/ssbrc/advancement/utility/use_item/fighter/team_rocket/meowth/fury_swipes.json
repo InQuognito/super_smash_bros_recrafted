@@ -19,6 +19,6 @@
 		}
 	},
 	"rewards": {
-		"function": "ssbrc:fighter/team_rocket/logic/meowth/fury_swipes/activate"
+		"function": "ssbrc:fighter/team_rocket/meowth/fury_swipes/activate"
 	}
 }

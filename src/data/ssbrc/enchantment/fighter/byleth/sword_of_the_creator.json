@@ -20,7 +20,7 @@
 			{
 				"effect": {
 					"type": "minecraft:run_function",
-					"function": "ssbrc:fighter/byleth/logic/sword_of_the_creator/break"
+					"function": "ssbrc:fighter/byleth/sword_of_the_creator/break"
 				},
 				"requirements": {
 					"condition": "minecraft:entity_properties",

@@ -1,0 +1,6 @@
+scoreboard players set dots temp 0
+scoreboard players add fruit temp 1
+
+kill @e[type=minecraft:item_display,tag=fruit]
+
+$execute if data storage ssbrc:data option{items: 1} run function ssbrc:stage/pac_maze/$(variant)/fruit/spawn

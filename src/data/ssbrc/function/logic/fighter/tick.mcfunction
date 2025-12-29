@@ -59,10 +59,9 @@ execute if score @s hud >= hud_frequency const run function ssbrc:logic/fighter/
 
 # Items
 #execute if score @s smash_item.cloaking_device matches 1.. run function ssbrc:smash_item/cloaking_device/tick
-#execute if score @s smash_item.franklin_badge matches 1.. positioned ~ ~.75 ~ run function ssbrc:smash_item/franklin_badge/tick
+execute if score @s smash_item.franklin_badge.timer matches 1.. positioned ~ ~.75 ~ run function ssbrc:smash_item/franklin_badge/tick
 execute if score @s smash_item.poison_mushroom.timer matches 1.. run function ssbrc:smash_item/poison_mushroom/tick
 execute if score @s smash_item.super_mushroom.timer matches 1.. run function ssbrc:smash_item/super_mushroom/tick
-#function ssbrc:smash_item/killing_edge/tick
 
 # Fighter Effects
 execute if items entity @s armor.body *[minecraft:custom_data~{skin: "gold"}] run function ssbrc:logic/fighter/gold_trail
@@ -74,10 +73,10 @@ execute if score @s player_motion.timer matches 1 run function ssbrc:logic/fight
 execute if score @s immobile matches 1.. run function ssbrc:logic/fighter/effects/mobility/tick
 
 scoreboard players add @s[tag=armor_break] armor_break 1
-execute if score @s armor_break matches 60.. run function ssbrc:fighter/pokemon_trainer/logic/charizard/rock_smash/deactivate
+execute if score @s armor_break matches 60.. run function ssbrc:fighter/pokemon_trainer/charizard/rock_smash/deactivate
 
-execute if score @s leech_seed.timer matches 1.. run function ssbrc:fighter/pokemon_trainer/logic/ivysaur/leech_seed/calculate
-execute if score @s leech_seed.stacks matches 1.. run function ssbrc:fighter/pokemon_trainer/logic/ivysaur/leech_seed/calculate_healing
+execute if score @s leech_seed.timer matches 1.. run function ssbrc:fighter/pokemon_trainer/ivysaur/leech_seed/calculate
+execute if score @s leech_seed.stacks matches 1.. run function ssbrc:fighter/pokemon_trainer/ivysaur/leech_seed/calculate_healing
 
 scoreboard players remove @s[scores={shadow.chaos_control=1..}] shadow.chaos_control 1
 attribute @s[scores={shadow.chaos_control=1}] minecraft:movement_speed modifier remove ssbrc:chaos_control
@@ -88,7 +87,7 @@ execute if block ~ ~ ~ minecraft:lava run scoreboard players add @s flag.in_lava
 kill @s[scores={flag.in_lava=60..}]
 scoreboard players reset @s[scores={flag.in_lava=60..}] flag.in_lava
 
-execute if data storage ssbrc:temp game.stage{name:"luigis_mansion"} run function ssbrc:stage/luigis_mansion/logic/block_interaction_range
+execute if data storage ssbrc:temp game.stage{name:"luigis_mansion"} run function ssbrc:stage/luigis_mansion/block_interaction_range
 
 # Bonuses
 execute if score @s revenge.timer matches 0.. run function ssbrc:logic/fighter/bonuses/revenge/tick

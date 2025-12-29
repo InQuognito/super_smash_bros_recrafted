@@ -22,6 +22,6 @@
 		}
 	},
 	"rewards": {
-		"function": "ssbrc:fighter/sora/logic/abilities/fire/check"
+		"function": "ssbrc:fighter/sora/abilities/fire/check"
 	}
 }

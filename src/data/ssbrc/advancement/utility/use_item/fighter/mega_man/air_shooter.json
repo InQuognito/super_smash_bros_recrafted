@@ -30,6 +30,6 @@
 		}
 	},
 	"rewards": {
-		"function": "ssbrc:fighter/mega_man/logic/abilities/air_shooter/activate"
+		"function": "ssbrc:fighter/mega_man/abilities/air_shooter/activate"
 	}
 }

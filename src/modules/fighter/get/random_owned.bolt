@@ -1,12 +1,12 @@
 from ssbrc.fighters import fighters, adj_fighter_count
 
 function ssbrc:logic/fighter/get/random_owned:
-	obj = f'execute store result score random.output temp run random value 1..{adj_fighter_count}'
+	obj = f'execute store result score random temp run random value 1..{adj_fighter_count}'
 	raw obj
 
 	i = 1
 	for fighter in fighters:
-		obj = f'$execute if score random.output temp matches {i} if entity @s[advancements={{ssbrc:fighter/{fighter}/default=true}}] run return run function $(function) with storage ssbrc:data fighter.{fighter}'
+		obj = f'$execute if score random temp matches {i} if entity @s[advancements={{ssbrc:fighter/{fighter}/default=true}}] run return run function $(function) with storage ssbrc:data fighter.{fighter}'
 		raw obj
 		i += 1
 

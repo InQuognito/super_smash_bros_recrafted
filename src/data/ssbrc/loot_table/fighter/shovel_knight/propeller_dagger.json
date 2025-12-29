@@ -72,7 +72,7 @@
 							"tag": {
 								"item": "propeller_dagger",
 								"disabled": "false",
-								"path": "shovel_knight/logic/abilities/propeller_dagger/check/default",
+								"path": "shovel_knight/abilities/propeller_dagger/check/default",
 								"cooldown": 60
 							}
 						}

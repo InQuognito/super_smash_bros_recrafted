@@ -29,6 +29,6 @@
 		}
 	},
 	"rewards": {
-		"function": "ssbrc:fighter/greninja/logic/abilities/shadow_sneak/activate"
+		"function": "ssbrc:fighter/greninja/abilities/shadow_sneak/activate"
 	}
 }

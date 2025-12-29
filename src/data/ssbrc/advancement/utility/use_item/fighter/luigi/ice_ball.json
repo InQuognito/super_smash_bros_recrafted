@@ -21,6 +21,6 @@
 		}
 	},
 	"rewards": {
-		"function": "ssbrc:fighter/luigi/logic/abilities/ice_ball/activate"
+		"function": "ssbrc:fighter/luigi/abilities/ice_ball/activate"
 	}
 }

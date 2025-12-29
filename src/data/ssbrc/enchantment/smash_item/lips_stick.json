@@ -21,12 +21,25 @@
 				"enchanted": "attacker",
 				"affected": "victim",
 				"effect": {
-					"type": "minecraft:apply_mob_effect",
-					"to_apply": "minecraft:poison",
-					"min_duration": 3,
-					"max_duration": 3,
-					"min_amplifier": 2,
-					"max_amplifier": 2
+					"type": "minecraft:all_of",
+					"effects": [
+						{
+							"type": "minecraft:apply_mob_effect",
+							"to_apply": "minecraft:poison",
+							"min_duration": 3,
+							"max_duration": 3,
+							"min_amplifier": 2,
+							"max_amplifier": 2
+						},
+						{
+							"type": "minecraft:play_sound",
+							"sound": {
+								"sound_id": "ssbrc:smash_item.lips_stick.hit"
+							},
+							"volume": 1,
+							"pitch": 1
+						}
+					]
 				}
 			}
 		]

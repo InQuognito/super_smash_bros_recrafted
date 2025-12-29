@@ -19,6 +19,6 @@
 		}
 	},
 	"rewards": {
-		"function": "ssbrc:fighter/team_rocket/logic/wobbuffet/destiny_bond/activate"
+		"function": "ssbrc:fighter/team_rocket/wobbuffet/destiny_bond/activate"
 	}
 }

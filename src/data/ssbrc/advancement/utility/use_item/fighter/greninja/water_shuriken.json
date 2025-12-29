@@ -28,6 +28,6 @@
 		}
 	},
 	"rewards": {
-		"function": "ssbrc:fighter/greninja/logic/abilities/water_shuriken/activate"
+		"function": "ssbrc:fighter/greninja/abilities/water_shuriken/activate"
 	}
 }

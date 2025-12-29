@@ -35,6 +35,6 @@
 		}
 	},
 	"rewards": {
-		"function": "ssbrc:fighter/byleth/logic/blue_lions/spin_attack/deactivate"
+		"function": "ssbrc:fighter/byleth/blue_lions/spin_attack/deactivate"
 	}
 }

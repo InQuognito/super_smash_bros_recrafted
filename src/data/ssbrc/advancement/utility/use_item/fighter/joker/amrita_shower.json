@@ -28,6 +28,6 @@
 		}
 	},
 	"rewards": {
-		"function": "ssbrc:fighter/joker/logic/abilities/amrita_shower/activate"
+		"function": "ssbrc:fighter/joker/abilities/amrita_shower/activate"
 	}
 }

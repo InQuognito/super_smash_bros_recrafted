@@ -39,6 +39,6 @@
 		}
 	},
 	"rewards": {
-		"function": "ssbrc:fighter/zelda/logic/abilities/ice_rod/alternate_function/activate"
+		"function": "ssbrc:fighter/zelda/abilities/ice_rod/alternate_function/activate"
 	}
 }

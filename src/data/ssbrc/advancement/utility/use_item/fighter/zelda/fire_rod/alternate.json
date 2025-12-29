@@ -39,6 +39,6 @@
 		}
 	},
 	"rewards": {
-		"function": "ssbrc:fighter/zelda/logic/abilities/fire_rod/alternate_function/activate"
+		"function": "ssbrc:fighter/zelda/abilities/fire_rod/alternate_function/activate"
 	}
 }

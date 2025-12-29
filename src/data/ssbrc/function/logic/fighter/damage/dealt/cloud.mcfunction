@@ -8,4 +8,4 @@ execute if entity @s[tag=punisher] run scoreboard players operation limit_gain t
 
 scoreboard players operation @s resource += limit_gain temp
 
-function ssbrc:fighter/cloud/logic/limit/update
+function ssbrc:fighter/cloud/limit/update

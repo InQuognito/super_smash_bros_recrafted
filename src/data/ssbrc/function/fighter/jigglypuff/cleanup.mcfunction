@@ -1,1 +1,1 @@
-function ssbrc:fighter/jigglypuff/logic/abilities/rest/deactivate
+function ssbrc:fighter/jigglypuff/abilities/rest/deactivate
