@@ -30,6 +30,6 @@
 		}
 	},
 	"rewards": {
-		"function": "ssbrc:fighter/lucario/abilities/close_combat/activate"
+		"function": "ssbrc:fighter/lucario/close_combat/activate"
 	}
 }

@@ -5,4 +5,4 @@ function ssbrc:logic/item/init/slot {item: "rebel_knife", slot: "hotbar.0", clas
 
 function ssbrc:logic/item/init/slot {item: "tt33", slot: "hotbar.1", class: "default", type: "default"}
 
-function ssbrc:fighter/joker/abilities/tt33/reset
+function ssbrc:fighter/joker/tt33/reset

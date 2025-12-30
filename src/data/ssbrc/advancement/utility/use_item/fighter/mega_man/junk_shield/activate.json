@@ -40,6 +40,6 @@
 		}
 	},
 	"rewards": {
-		"function": "ssbrc:fighter/mega_man/abilities/junk_shield/check"
+		"function": "ssbrc:fighter/mega_man/junk_shield/check"
 	}
 }

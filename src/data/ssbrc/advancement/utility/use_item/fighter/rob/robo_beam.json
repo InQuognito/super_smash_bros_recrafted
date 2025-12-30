@@ -28,6 +28,6 @@
 		}
 	},
 	"rewards": {
-		"function": "ssbrc:fighter/rob/abilities/robo_beam/check"
+		"function": "ssbrc:fighter/rob/robo_beam/check"
 	}
 }

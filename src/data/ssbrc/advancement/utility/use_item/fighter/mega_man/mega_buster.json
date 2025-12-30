@@ -21,6 +21,6 @@
 		}
 	},
 	"rewards": {
-		"function": "ssbrc:fighter/mega_man/abilities/mega_buster/check"
+		"function": "ssbrc:fighter/mega_man/mega_buster/check"
 	}
 }

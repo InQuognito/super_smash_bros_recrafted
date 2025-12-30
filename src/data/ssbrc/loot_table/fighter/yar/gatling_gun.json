@@ -61,7 +61,7 @@
 							"function": "minecraft:set_custom_data",
 							"tag": {
 								"item": "gatling_gun",
-								"path": "yar/abilities/gatling_gun/charge/off"
+								"path": "yar/gatling_gun/charge/off"
 							}
 						}
 					]

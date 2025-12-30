@@ -1,1 +1,1 @@
-function ssbrc:fighter/bowser/abilities/rage/deactivate
+function ssbrc:fighter/bowser/rage/deactivate

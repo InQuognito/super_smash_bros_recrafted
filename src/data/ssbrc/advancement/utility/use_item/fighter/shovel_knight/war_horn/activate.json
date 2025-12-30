@@ -44,6 +44,6 @@
 		}
 	},
 	"rewards": {
-		"function": "ssbrc:fighter/shovel_knight/abilities/war_horn/activate"
+		"function": "ssbrc:fighter/shovel_knight/war_horn/activate"
 	}
 }

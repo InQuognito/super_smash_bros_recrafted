@@ -21,6 +21,6 @@
 		}
 	},
 	"rewards": {
-		"function": "ssbrc:fighter/snake/abilities/famas/check"
+		"function": "ssbrc:fighter/snake/famas/check"
 	}
 }

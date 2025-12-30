@@ -21,6 +21,6 @@
 		}
 	},
 	"rewards": {
-		"function": "ssbrc:fighter/snake/abilities/psg1/check"
+		"function": "ssbrc:fighter/snake/psg1/check"
 	}
 }

@@ -37,6 +37,6 @@
 		}
 	},
 	"rewards": {
-		"function": "ssbrc:fighter/shadow/abilities/chaos_control/activate"
+		"function": "ssbrc:fighter/shadow/chaos_control/activate"
 	}
 }

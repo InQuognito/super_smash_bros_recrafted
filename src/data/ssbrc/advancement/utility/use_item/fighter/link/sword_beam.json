@@ -22,6 +22,6 @@
 		}
 	},
 	"rewards": {
-		"function": "ssbrc:fighter/link/abilities/sword_beam/activate"
+		"function": "ssbrc:fighter/link/sword_beam/activate"
 	}
 }

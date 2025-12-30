@@ -3,6 +3,6 @@ execute if score @s zelda.magic_transfusion matches 1.. run effect give @s minec
 
 function ssbrc:fighter/zelda/magic/update
 
-execute unless items entity @s container.* minecraft:arrow run function ssbrc:fighter/zelda/abilities/bow/regain
+execute unless items entity @s container.* minecraft:arrow run function ssbrc:fighter/zelda/bow/regain
 
 scoreboard players reset @s timer

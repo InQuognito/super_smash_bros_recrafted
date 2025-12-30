@@ -19,6 +19,6 @@
 		}
 	},
 	"rewards": {
-		"function": "ssbrc:fighter/giegue/abilities/pk_freeze/activate"
+		"function": "ssbrc:fighter/giegue/pk_freeze/activate"
 	}
 }

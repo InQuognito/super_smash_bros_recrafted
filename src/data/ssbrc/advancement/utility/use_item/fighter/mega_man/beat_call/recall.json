@@ -22,6 +22,6 @@
 		}
 	},
 	"rewards": {
-		"function": "ssbrc:fighter/mega_man/abilities/beat_call/commands/recall"
+		"function": "ssbrc:fighter/mega_man/beat_call/commands/recall"
 	}
 }

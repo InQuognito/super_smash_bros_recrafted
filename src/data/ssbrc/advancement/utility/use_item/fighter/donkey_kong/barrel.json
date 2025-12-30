@@ -19,6 +19,6 @@
 		}
 	},
 	"rewards": {
-		"function": "ssbrc:fighter/donkey_kong/abilities/barrel/activate"
+		"function": "ssbrc:fighter/donkey_kong/barrel/activate"
 	}
 }

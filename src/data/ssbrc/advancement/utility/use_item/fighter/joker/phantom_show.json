@@ -28,6 +28,6 @@
 		}
 	},
 	"rewards": {
-		"function": "ssbrc:fighter/joker/abilities/phantom_show/activate"
+		"function": "ssbrc:fighter/joker/phantom_show/activate"
 	}
 }

@@ -1,5 +1,5 @@
 # Dungeon Items
-execute if items entity @s container.* *[minecraft:custom_data~{item: "bomb"}] run function ssbrc:fighter/zelda/abilities/bomb/in_kit
+execute if items entity @s container.* *[minecraft:custom_data~{item: "bomb"}] run function ssbrc:fighter/zelda/bomb/in_kit
 
 function ssbrc:logic/item/cooldown/decrease {item: "zelda.boomerang"}
 

@@ -22,7 +22,7 @@
 				"affected": "attacker",
 				"effect": {
 					"type": "minecraft:run_function",
-					"function": "ssbrc:fighter/peach/abilities/golf_club/hit"
+					"function": "ssbrc:fighter/peach/golf_club/hit"
 				}
 			}
 		]

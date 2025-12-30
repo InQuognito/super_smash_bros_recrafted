@@ -22,6 +22,6 @@
 		}
 	},
 	"rewards": {
-		"function": "ssbrc:fighter/sora/abilities/thunder/check"
+		"function": "ssbrc:fighter/sora/thunder/check"
 	}
 }

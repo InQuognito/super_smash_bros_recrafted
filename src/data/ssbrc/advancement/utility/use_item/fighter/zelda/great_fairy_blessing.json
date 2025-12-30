@@ -28,6 +28,6 @@
 		}
 	},
 	"rewards": {
-		"function": "ssbrc:fighter/zelda/abilities/great_fairy_blessing/check"
+		"function": "ssbrc:fighter/zelda/great_fairy_blessing/check"
 	}
 }

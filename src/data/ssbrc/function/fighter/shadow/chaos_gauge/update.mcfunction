@@ -1,7 +1,7 @@
 data modify storage ssbrc:hud temp set value {key: "hud_1", value: []}
 
-function ssbrc:fighter/shadow/abilities/chaos_spear/check
-function ssbrc:fighter/shadow/abilities/chaos_control/check
+function ssbrc:fighter/shadow/chaos_spear/check
+function ssbrc:fighter/shadow/chaos_control/check
 
 execute if score @s resource >= shadow.chaos_gauge.max const run function ssbrc:fighter/shadow/chaos_gauge/full
 

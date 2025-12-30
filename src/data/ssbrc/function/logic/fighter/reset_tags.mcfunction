@@ -114,7 +114,7 @@ tag @s remove wisdom
 tag @s remove destiny_bond
 
 # Yar
-function ssbrc:fighter/yar/abilities/power_ups/reset_tags
+function ssbrc:fighter/yar/power_ups/reset_tags
 
 # Zelda
 function ssbrc:fighter/zelda/blessings/reset

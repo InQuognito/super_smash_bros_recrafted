@@ -19,6 +19,6 @@
 		}
 	},
 	"rewards": {
-		"function": "ssbrc:fighter/link/abilities/boomerang/activate"
+		"function": "ssbrc:fighter/link/boomerang/activate"
 	}
 }

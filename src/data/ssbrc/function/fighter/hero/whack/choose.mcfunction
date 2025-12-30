@@ -1,0 +1,3 @@
+$execute if score random temp matches 11 run return run function ssbrc:fighter/hero/spell/init {item: "thwack",color: "dark_purple",cost:30,slot:$(slot)}
+
+$function ssbrc:fighter/hero/spell/init {item: "whack",color: "dark_purple",cost:10,slot:$(slot)}

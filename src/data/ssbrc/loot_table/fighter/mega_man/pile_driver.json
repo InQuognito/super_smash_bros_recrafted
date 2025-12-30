@@ -54,7 +54,7 @@
 							"tag": {
 								"item": "pile_driver",
 								"group": "mega_buster",
-								"path": "mega_man/abilities/pile_driver/check",
+								"path": "mega_man/pile_driver/check",
 								"cooldown": 40
 							}
 						}

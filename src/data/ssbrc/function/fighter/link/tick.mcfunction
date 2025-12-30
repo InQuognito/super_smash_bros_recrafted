@@ -1,7 +1,7 @@
 # Master Sword
-execute if score @s charge.1 matches 1.. run function ssbrc:fighter/link/abilities/sword_spin/charge
+execute if score @s charge.1 matches 1.. run function ssbrc:fighter/link/sword_spin/charge
 
-execute if score @s rotation matches 1000.. run function ssbrc:fighter/link/abilities/sword_spin/tick
+execute if score @s rotation matches 1000.. run function ssbrc:fighter/link/sword_spin/tick
 
 tag @s[tag=no_spin,predicate=ssbrc:flag/on_ground] remove no_spin
 

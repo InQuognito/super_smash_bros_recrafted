@@ -33,6 +33,6 @@
 		}
 	},
 	"rewards": {
-		"function": "ssbrc:fighter/cloud/abilities/buster_sword/blade_beam/activate"
+		"function": "ssbrc:fighter/cloud/buster_sword/blade_beam/activate"
 	}
 }

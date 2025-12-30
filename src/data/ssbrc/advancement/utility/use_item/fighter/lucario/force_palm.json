@@ -30,6 +30,6 @@
 		}
 	},
 	"rewards": {
-		"function": "ssbrc:fighter/lucario/abilities/force_palm/activate"
+		"function": "ssbrc:fighter/lucario/force_palm/activate"
 	}
 }

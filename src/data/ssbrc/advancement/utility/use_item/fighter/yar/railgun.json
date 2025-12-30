@@ -26,6 +26,6 @@
 		}
 	},
 	"rewards": {
-		"function": "ssbrc:fighter/yar/abilities/railgun/activate"
+		"function": "ssbrc:fighter/yar/railgun/activate"
 	}
 }

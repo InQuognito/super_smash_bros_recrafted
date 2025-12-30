@@ -28,6 +28,6 @@
 		}
 	},
 	"rewards": {
-		"function": "ssbrc:fighter/zelda/abilities/inventory_refresh/check"
+		"function": "ssbrc:fighter/zelda/inventory_refresh/check"
 	}
 }

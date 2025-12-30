@@ -19,6 +19,6 @@
 		}
 	},
 	"rewards": {
-		"function": "ssbrc:fighter/yar/abilities/power_ups/missile_launcher"
+		"function": "ssbrc:fighter/yar/power_ups/missile_launcher"
 	}
 }

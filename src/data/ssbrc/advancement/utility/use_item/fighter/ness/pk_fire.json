@@ -19,6 +19,6 @@
 		}
 	},
 	"rewards": {
-		"function": "ssbrc:fighter/ness/abilities/pk_fire/activate"
+		"function": "ssbrc:fighter/ness/pk_fire/activate"
 	}
 }

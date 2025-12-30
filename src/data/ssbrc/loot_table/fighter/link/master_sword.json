@@ -111,7 +111,7 @@
 							"function": "minecraft:set_custom_data",
 							"tag": {
 								"item": "master_sword",
-								"path": "link/abilities/sword_spin/activate/check",
+								"path": "link/sword_spin/activate/check",
 								"damage": 6,
 								"cooldown": 20
 							}

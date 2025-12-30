@@ -19,6 +19,6 @@
 		}
 	},
 	"rewards": {
-		"function": "ssbrc:fighter/giegue/abilities/pk_beam/activate"
+		"function": "ssbrc:fighter/giegue/pk_beam/activate"
 	}
 }

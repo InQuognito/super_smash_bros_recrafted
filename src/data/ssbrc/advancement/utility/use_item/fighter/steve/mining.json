@@ -19,6 +19,6 @@
 		}
 	},
 	"rewards": {
-		"function": "ssbrc:fighter/steve/abilities/mining/activate"
+		"function": "ssbrc:fighter/steve/mining/activate"
 	}
 }

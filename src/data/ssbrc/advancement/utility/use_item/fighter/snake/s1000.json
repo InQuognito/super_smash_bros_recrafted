@@ -21,6 +21,6 @@
 		}
 	},
 	"rewards": {
-		"function": "ssbrc:fighter/snake/abilities/m870_custom/check"
+		"function": "ssbrc:fighter/snake/m870_custom/check"
 	}
 }

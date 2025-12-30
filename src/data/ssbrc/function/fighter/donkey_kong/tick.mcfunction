@@ -2,8 +2,8 @@
 function ssbrc:logic/item/cooldown/decrease {item: "barrel"}
 
 # Hand Slap
-execute if entity @s[tag=!silenced,tag=!hand_slap,predicate=ssbrc:flag/sneaking] rotated ~ 0 positioned ^ ^ ^1 unless block ~ ~-0.1 ~ #ssbrc:passthrough run function ssbrc:fighter/donkey_kong/abilities/hand_slap/activate
-execute if entity @s[tag=hand_slap,predicate=!ssbrc:flag/sneaking] run function ssbrc:fighter/donkey_kong/abilities/hand_slap/deactivate
+execute if entity @s[tag=!silenced,tag=!hand_slap,predicate=ssbrc:flag/sneaking] rotated ~ 0 positioned ^ ^ ^1 unless block ~ ~-0.1 ~ #ssbrc:passthrough run function ssbrc:fighter/donkey_kong/hand_slap/activate
+execute if entity @s[tag=hand_slap,predicate=!ssbrc:flag/sneaking] run function ssbrc:fighter/donkey_kong/hand_slap/deactivate
 
 # Orange Grenade
 function ssbrc:logic/item/cooldown/decrease {item: "orange_grenade"}

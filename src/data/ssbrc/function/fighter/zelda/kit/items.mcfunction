@@ -36,7 +36,7 @@ execute if score random temp matches 7 run loot replace entity @s hotbar.1 loot 
 function ssbrc:fighter/zelda/kit/items/passive_item
 
 scoreboard players set @s charge.2 0
-function ssbrc:fighter/zelda/abilities/great_fairy_blessing/calculate
+function ssbrc:fighter/zelda/great_fairy_blessing/calculate
 loot replace entity @s hotbar.4 loot ssbrc:fighter/zelda/great_fairy_blessing
 
 loot replace entity @s hotbar.5 loot ssbrc:fighter/zelda/inventory_refresh

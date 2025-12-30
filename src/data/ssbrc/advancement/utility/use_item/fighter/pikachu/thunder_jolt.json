@@ -19,6 +19,6 @@
 		}
 	},
 	"rewards": {
-		"function": "ssbrc:fighter/pikachu/abilities/thunder_jolt/check"
+		"function": "ssbrc:fighter/pikachu/thunder_jolt/check"
 	}
 }
