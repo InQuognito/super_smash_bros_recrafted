@@ -1662,16 +1662,18 @@ fighters = {
 			'default'
 		],
 		'items': {
-			'type': 'hybrid',
-			'stats': {
-				'attack_damage': 5,
-				'attack_speed': 1.5,
-				'damage': {
-					'type': 'generic',
-					'amount': 14
-				},
-				'cooldown_group': 'roy/sword',
-				'cooldown': 0.05
+			'sword': {
+				'type': 'hybrid',
+				'stats': {
+					'attack_damage': 5,
+					'attack_speed': 1.5,
+					'damage': {
+						'type': 'generic',
+						'amount': 14
+					},
+					'cooldown_group': 'roy/sword',
+					'cooldown': 0.05
+				}
 			}
 		}
 	},
