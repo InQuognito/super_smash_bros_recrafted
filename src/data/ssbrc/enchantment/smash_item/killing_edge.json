@@ -82,7 +82,7 @@
 					"effects": [
 						{
 							"type": "minecraft:damage_entity",
-							"damage_type": "ssbrc:player_attack",
+							"damage_type": "minecraft:player_attack",
 							"min_damage": 10,
 							"max_damage": 10
 						},
