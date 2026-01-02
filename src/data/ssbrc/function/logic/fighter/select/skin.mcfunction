@@ -1,6 +1,6 @@
 execute at @s run playsound ssbrc:skin_equip ui @s
 
-$execute if entity @s[tag=picking_random] run return run function ssbrc:logic/fighter/select with storage ssbrc:data fighter.$(fighter)
+$execute if entity @s[tag=picking_random] run return run function ssbrc:logic/fighter/select/default with storage ssbrc:data fighter.$(fighter)
 
 $function ssbrc:logic/player/data/set {key: "skin", value: "$(skin)"}
 $function ssbrc:logic/player/data/set {key: "$(fighter)_skin", value: "$(skin)"}

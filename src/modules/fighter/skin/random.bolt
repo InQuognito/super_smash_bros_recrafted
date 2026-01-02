@@ -12,7 +12,7 @@ for fighter in fighters:
 		raw obj
 
 		for skin in chain(['default'], fighters[fighter]['skins']):
-			if score random temp matches i if entity @s[advancements={f'ssbrc:fighter/{fighter}/{skin}'=true}] return run function ssbrc:logic/fighter/select_skin {'fighter':fighter,'skin':skin,'color':get_color(fighter, skin)}
+			if score random temp matches i if entity @s[advancements={f'ssbrc:fighter/{fighter}/{skin}'=true}] return run function ssbrc:logic/fighter/select/skin {'fighter':fighter,'skin':skin,'color':get_color(fighter, skin)}
 			i += 1
 
 		function f'ssbrc:fighter/{fighter}/menu/skin/random'

@@ -2,7 +2,7 @@ $function ssbrc:logic/player/data/set {key: "fighter", value: "$(fighter)"}
 $function ssbrc:logic/player/data/set {key: "series", value: "$(series)"}
 
 $data modify storage ssbrc:temp cache.fighter.fighter set value "$(fighter)"
-$data modify storage ssbrc:temp cache.fighter.skin set from entity @s equipment.body.components."minecraft:custom_data".$(fighter)_skin
+$function ssbrc:logic/fighter/skin/check {fighter: "$(fighter)"}
 
 function ssbrc:logic/fighter/skin/set with storage ssbrc:temp cache.fighter
 
