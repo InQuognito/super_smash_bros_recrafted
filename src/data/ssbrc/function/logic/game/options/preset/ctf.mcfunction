@@ -16,4 +16,6 @@ data modify storage ssbrc:data option.point_limit set value 3
 
 data modify storage ssbrc:data option.time_limit set value -1
 
+function ssbrc:logic/game/options/teams/update
+
 function ssbrc:logic/game/options/set
