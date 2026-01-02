@@ -11,6 +11,7 @@ item replace entity @s armor.chest with minecraft:iron_ingot[ \
 		color: "blue", \
 		bold: true, \
 	}, \
+	minecraft:item_model = "ssbrc:ui/ability/passive", \
 	minecraft:equippable = { \
 		slot: "chest", \
 	}, \
@@ -32,6 +33,7 @@ item replace entity @s armor.legs with minecraft:iron_ingot[ \
 		color: "green", \
 		bold: true, \
 	}, \
+	minecraft:item_model = "ssbrc:ui/ability/utility", \
 	minecraft:equippable = { \
 		slot: "legs", \
 	}, \
@@ -59,10 +61,8 @@ item modify entity @s[predicate=ssbrc:fighter/enchantments/swift_sneak] armor.le
 item modify entity @s armor.head ssbrc:enchantments/binding_curse
 item modify entity @s armor.chest ssbrc:enchantments/binding_curse
 item modify entity @s armor.legs ssbrc:enchantments/binding_curse
-item modify entity @s armor.feet ssbrc:enchantments/binding_curse
 
 item modify entity @s armor.chest ssbrc:fighter/remove_armor_value
 item modify entity @s armor.legs ssbrc:fighter/remove_armor_value
-item modify entity @s armor.feet ssbrc:fighter/remove_armor_value
 
 function ssbrc:logic/fighter/armor/update with entity @s equipment.body.components."minecraft:custom_data"
