@@ -17,6 +17,6 @@ function ssbrc:logic/block/execute_at_ground {result:"execute summon minecraft:i
 
 scoreboard players remove @s mega_man.junk_shield 1
 
-function ssbrc:logic/fighter/effects/mobility/immobilize {type: "air_stall",duration:15}
+function ssbrc:logic/fighter/effects/mobility/immobilize {type: "air_stall", duration: 15}
 
 playsound ssbrc:fighter.mega_man.junk_shield.activate player @a

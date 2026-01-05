@@ -4,7 +4,7 @@ execute facing ~ ~-1 ~ run function ssbrc:fighter/king_k_rool/blunderbuss/partic
 execute facing ~ ~-1 ~ run function ssbrc:fighter/king_k_rool/blunderbuss/particles/4
 execute facing ~ ~-1 ~ run function ssbrc:fighter/king_k_rool/blunderbuss/particles/5
 
-execute as @e[tag=!self,predicate=ssbrc:target,distance=..2] unless block ~ ~-0.1 ~ #ssbrc:passthrough run function ssbrc:logic/damage/generic {amount: 8, type: "generic", kb_resist: 0, source: " by @a[tag=self,limit=1]"}
+execute as @e[tag=!self,predicate=ssbrc:target,distance=..2] unless block ~ ~-.1 ~ #ssbrc:passthrough run function ssbrc:logic/damage/generic {amount: 8, type: "generic", kb_resist: 0, source: " by @a[tag=self,limit=1]"}
 execute as @a[tag=self,limit=1,distance=..2] run function ssbrc:logic/damage/generic {amount: 8, type: "generic", kb_resist: 0, source: ""}
 
 playsound ssbrc:fighter.shockwave player @a

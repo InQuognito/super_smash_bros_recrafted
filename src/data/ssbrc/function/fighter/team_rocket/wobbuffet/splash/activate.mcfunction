@@ -6,8 +6,6 @@ execute as @e[tag=!self,predicate=ssbrc:target,distance=..0.5] run damage @s .1 
 
 function ssbrc:logic/fighter/jump/impulse {strength: 5000}
 
-function ssbrc:logic/item/durability/reset/hand {key:"item", value: "splash", source: "cooldown"}
-
 playsound ssbrc:fighter.team_rocket.wobbuffet.splash.activate player @a
 
 function ssbrc:logic/fighter/ability/deinit

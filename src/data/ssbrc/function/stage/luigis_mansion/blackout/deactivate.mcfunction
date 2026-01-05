@@ -1,6 +1,6 @@
 scoreboard players reset blackout temp
 
-execute as @a[tag=alive] unless items entity @s armor.body *[minecraft:custom_data~{fighter: "snake"}] run function ssbrc:logic/fighter/effects/glowing/uncloak
+execute as @a[tag=alive] unless items entity @s armor.body *[minecraft:custom_data~{temp: {fighter: {fighter: "snake"}}}] run function ssbrc:logic/fighter/effects/glowing/uncloak
 execute as @e[type=minecraft:item] if items entity @s contents minecraft:lapis_lazuli run data merge entity @s {Glowing:1b}
 
 fill -340 8 -1165 -285 24 -1145 minecraft:light[level=15] replace minecraft:light

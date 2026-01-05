@@ -17,4 +17,4 @@ execute if score @s flag.sprinting matches 57.. run data modify storage ssbrc:hu
 data modify storage ssbrc:hud temp.key set value "hud_2"
 function ssbrc:logic/player/data/set_storage with storage ssbrc:hud temp
 
-scoreboard players operation @s hud = hud_frequency const
+scoreboard players operation @s hud = #hud_frequency const

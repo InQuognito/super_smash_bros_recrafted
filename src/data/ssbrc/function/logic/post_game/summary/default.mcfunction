@@ -1,7 +1,7 @@
 scoreboard players operation seconds temp = game_time timer
 scoreboard players operation minutes temp = seconds temp
-scoreboard players operation minutes temp /= 60 const
-scoreboard players operation seconds temp %= 60 const
+scoreboard players operation minutes temp /= #60 const
+scoreboard players operation seconds temp %= #60 const
 
 scoreboard players operation team temp = @a[tag=winner,limit=1] team
 

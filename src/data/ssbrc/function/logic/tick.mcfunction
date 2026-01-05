@@ -5,14 +5,10 @@ execute as @e[type=minecraft:item_display,nbt={data:{interaction:{id:"sandbag"}}
 
 function ssbrc:logic/lobby/credits/tick
 
-execute as @a[scores={debug=1..}] run function ssbrc:logic/game/options/debug/trigger
-
 # Tick during certain game stage
 execute unless score game_stage temp matches 2.. as @a run function ssbrc:logic/lobby/trigger
 execute if score game_stage temp matches 3 run function ssbrc:logic/stage/tick/before_start with storage ssbrc:temp game.stage
 execute if score game_stage temp matches 4.. run function ssbrc:logic/game/tick
-
-execute as @a[gamemode=adventure] positioned 0. 0. 0. run function ssbrc:logic/player/tick
 
 # Training Dummy
 execute as @e[type=minecraft:text_display,tag=training_dummy.damage_number] at @s run function ssbrc:logic/training_dummy/damage_number/tick

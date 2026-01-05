@@ -18,5 +18,5 @@ scoreboard players remove @e[type=minecraft:marker,tag=spawnpoint,scores={cooldo
 
 function ssbrc:logic/fighter/post_checks
 
-scoreboard players reset entity_hit temp
+scoreboard players reset #entity_hit temp
 scoreboard players reset entity_killed temp

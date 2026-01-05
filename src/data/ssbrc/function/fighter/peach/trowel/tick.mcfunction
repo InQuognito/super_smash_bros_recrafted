@@ -1,4 +1,4 @@
-execute positioned ~-0.4 ~-0.4 ~-0.4 as @e[tag=!self,predicate=ssbrc:target,dx=0] positioned ~-0.2 ~-0.2 ~-0.2 if entity @s[dx=0] run function ssbrc:logic/damage/generic {amount: 6, type: "pierce", kb_resist: 0, source: " by @a[tag=self,limit=1]"}
+execute positioned ~-.4 ~-.4 ~-.4 as @e[tag=!self,predicate=ssbrc:target,dx=0] positioned ~-.2 ~-.2 ~-.2 if entity @s[dx=0] run function ssbrc:logic/damage/generic {amount: 6, type: "pierce", kb_resist: 0, source: " by @a[tag=self,limit=1]"}
 
 scoreboard players add @s[predicate=ssbrc:flag/on_ground] timer 1
 kill @s[scores={timer=20..}]

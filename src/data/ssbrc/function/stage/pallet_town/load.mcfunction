@@ -1,7 +1,7 @@
 # Metapod
-execute store result score random temp run random value 1..2
-execute if score random temp matches 1 positioned -568.5 19.1 -123.5 rotated -135 0 summon minecraft:item_display run function ssbrc:logic/pokemon/summon {name:"metapod",animation:"ground_idle"}
-execute if score random temp matches 2 positioned -578.5 19.1 -128.5 rotated -110 0 summon minecraft:item_display run function ssbrc:logic/pokemon/summon {name:"metapod",animation:"ground_idle"}
+execute store result score #random temp run random value 1..2
+execute if score #random temp matches 1 positioned -568.5 19.1 -123.5 rotated -135 0 summon minecraft:item_display run function ssbrc:logic/pokemon/summon {name:"metapod",animation:"ground_idle"}
+execute if score #random temp matches 2 positioned -578.5 19.1 -128.5 rotated -110 0 summon minecraft:item_display run function ssbrc:logic/pokemon/summon {name:"metapod",animation:"ground_idle"}
 
 # Diglett / Dugtrio
 execute positioned -594.5 21 -135.5 rotated -90 0 run function ssbrc:stage/pallet_town/pokemon/diglett
@@ -12,9 +12,9 @@ execute positioned -593.5 21 -140.5 rotated -90 0 run function ssbrc:stage/palle
 function ssbrc:logic/pokemon/summon {name:"abra",animation:"ground_idle"}
 
 # Magnemite
-execute store result score random temp run random value 1..2
-execute if score random temp matches 1 positioned -530.5 24.5 -153.5 rotated 75 0 run function ssbrc:logic/pokemon/summon {name:"magnemite",animation:"air_idle"}
-execute if score random temp matches 2 positioned -549.5 26.5 -121.5 rotated 180 0 run function ssbrc:logic/pokemon/summon {name:"magnemite",animation:"air_idle"}
+execute store result score #random temp run random value 1..2
+execute if score #random temp matches 1 positioned -530.5 24.5 -153.5 rotated 75 0 run function ssbrc:logic/pokemon/summon {name:"magnemite",animation:"air_idle"}
+execute if score #random temp matches 2 positioned -549.5 26.5 -121.5 rotated 180 0 run function ssbrc:logic/pokemon/summon {name:"magnemite",animation:"air_idle"}
 
 # Snorlax
 execute positioned -560.5 12 -123.5 rotated 90 0 run function ssbrc:logic/pokemon/summon {name:"snorlax",animation:"sleep"}

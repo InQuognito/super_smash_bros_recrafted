@@ -1,5 +1,5 @@
-function ssbrc:logic/player/data/set {key: "skin", value: "shiny"}
-tag @s add natural_shiny
+function ssbrc:logic/player/data/set {temp: {fighter: {skin: "shiny"}}}
+function ssbrc:logic/player/data/set {temp: {flags: {natural_shiny: true}}}
 
 scoreboard players add @a[predicate=ssbrc:player] shiny_encounter 1
 

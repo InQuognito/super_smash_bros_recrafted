@@ -1,5 +1,5 @@
 # Destroy Tower
-execute if score tower_of_fate.destroyed temp matches 1.. run function ssbrc:stage/tower_of_fate/lower_tower/check
+execute if score #tower_of_fate.destroyed temp matches 1.. run function ssbrc:stage/tower_of_fate/lower_tower/check
 
 # Clockwork Tower
 execute if score tower_of_fate.clockwork_tower temp matches 1 run function ssbrc:stage/tower_of_fate/lower_tower/tower/clockwork_tower/tick

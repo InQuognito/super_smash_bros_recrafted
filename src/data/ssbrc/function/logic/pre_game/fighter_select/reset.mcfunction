@@ -8,7 +8,7 @@ scoreboard players add fighter_count temp 2
 
 # Entrance cushion - Amount of fighter slots to "skip" at beginning and end of room
 scoreboard players set entrance_cushion temp 2
-scoreboard players operation entrance_cushion temp *= 2 const
+scoreboard players operation entrance_cushion temp *= #2 const
 
 # Final calculations
 scoreboard players operation fighter_count temp += entrance_cushion temp

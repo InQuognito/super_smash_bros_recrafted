@@ -1,6 +1,6 @@
 particle minecraft:poof ~ ~.75 ~ .2 .4 .2 .01 25 normal @a
 
-execute positioned ~ ~0.1 ~ summon minecraft:marker run function ssbrc:fighter/mega_man/pile_driver/init
+execute positioned ~ ~.1 ~ summon minecraft:marker run function ssbrc:fighter/mega_man/pile_driver/init
 
 scoreboard players set @s duration.2 10
 

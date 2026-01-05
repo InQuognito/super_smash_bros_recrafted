@@ -10,7 +10,7 @@ scoreboard players add @s cooldown 10
 
 item modify entity @s weapon.mainhand ssbrc:fighter/byleth/black_eagles/aymr/default
 
-scoreboard players set durability.modify temp 4
+scoreboard players set #durability.modify temp 4
 function ssbrc:logic/item/durability/remove
 
 playsound ssbrc:fighter.byleth.black_eagles.aymr.activate player @a

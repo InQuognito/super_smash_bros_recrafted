@@ -4,4 +4,4 @@ function ssbrc:logic/fighter/attributes/modifiers/frostbite/increase
 scoreboard players set drive_gain temp 10
 execute as @a[tag=self,limit=1] run function ssbrc:fighter/sora/drive/increase
 
-scoreboard players set entity_hit temp 1
+scoreboard players set #entity_hit temp 1

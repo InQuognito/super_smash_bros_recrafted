@@ -18,7 +18,6 @@ scoreboard objectives remove cooldown.2
 scoreboard objectives remove cooldown.3
 scoreboard objectives remove crawling
 scoreboard objectives remove deaths
-scoreboard objectives remove debug
 scoreboard objectives remove drop_item
 scoreboard objectives remove durability
 scoreboard objectives remove duration.1
@@ -91,8 +90,6 @@ scoreboard objectives remove quitter
 scoreboard objectives remove ray.max
 scoreboard objectives remove ray.min
 scoreboard objectives remove ray.ticks
-scoreboard objectives remove raycast
-scoreboard objectives remove raycast_success
 scoreboard objectives remove reflect
 scoreboard objectives remove reset
 scoreboard objectives remove resource

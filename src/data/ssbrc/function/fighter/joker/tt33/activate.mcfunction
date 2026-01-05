@@ -8,4 +8,4 @@ execute anchored eyes positioned ^ ^ ^.5 run function ssbrc:fighter/joker/tt33/s
 scoreboard players remove @s weapon_1.ammo 1
 execute if score @s weapon_1.ammo matches 0 run function ssbrc:fighter/joker/tt33/reload/start
 
-scoreboard players operation @s hud = hud_frequency const
+scoreboard players operation @s hud = #hud_frequency const

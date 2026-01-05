@@ -7,9 +7,9 @@ execute if score fruit temp matches 6 run data modify storage ssbrc:temp cache.f
 execute if score fruit temp matches 7 run data modify storage ssbrc:temp cache.fruit set value "banana"
 execute if score fruit temp matches 7.. run scoreboard players set fruit temp 0
 
-execute store result score random temp run random value 1..4
+execute store result score #random temp run random value 1..4
 
-execute if score random temp matches 1 positioned 23287.5 6 8629.5 rotated -90 0 summon minecraft:item_display run function ssbrc:stage/pac_maze/fruit/init with storage ssbrc:temp cache
-execute if score random temp matches 2 positioned 23331.5 6 8629.5 rotated 90 0 summon minecraft:item_display run function ssbrc:stage/pac_maze/fruit/init with storage ssbrc:temp cache
-execute if score random temp matches 3 positioned 23287.5 6 8648.5 rotated -90 0 summon minecraft:item_display run function ssbrc:stage/pac_maze/fruit/init with storage ssbrc:temp cache
-execute if score random temp matches 4 positioned 23331.5 6 8648.5 rotated 90 0 summon minecraft:item_display run function ssbrc:stage/pac_maze/fruit/init with storage ssbrc:temp cache
+execute if score #random temp matches 1 positioned 23287.5 6 8629.5 rotated -90 0 summon minecraft:item_display run function ssbrc:stage/pac_maze/fruit/init with storage ssbrc:temp cache
+execute if score #random temp matches 2 positioned 23331.5 6 8629.5 rotated 90 0 summon minecraft:item_display run function ssbrc:stage/pac_maze/fruit/init with storage ssbrc:temp cache
+execute if score #random temp matches 3 positioned 23287.5 6 8648.5 rotated -90 0 summon minecraft:item_display run function ssbrc:stage/pac_maze/fruit/init with storage ssbrc:temp cache
+execute if score #random temp matches 4 positioned 23331.5 6 8648.5 rotated 90 0 summon minecraft:item_display run function ssbrc:stage/pac_maze/fruit/init with storage ssbrc:temp cache

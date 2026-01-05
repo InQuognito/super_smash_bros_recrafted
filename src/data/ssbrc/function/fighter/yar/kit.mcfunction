@@ -4,4 +4,4 @@ function ssbrc:logic/item/init/slot {item: "ray_blaster", slot: "hotbar.1", clas
 
 function ssbrc:logic/item/init/slot {item: "drone", slot: "hotbar.2", class: "default", type: "default"}
 
-scoreboard players operation @s yar.drone.health = yar.drone.drone.health.cushion const
+scoreboard players operation @s yar.drone.health = #yar.drone.health.cushion const

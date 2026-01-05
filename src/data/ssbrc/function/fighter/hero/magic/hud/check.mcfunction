@@ -2,5 +2,5 @@ execute unless score magic.available.counter temp matches 1.. run function ssbrc
 
 execute if score magic.available.counter temp matches 1.. run function ssbrc:fighter/hero/magic/hud/available
 
-scoreboard players remove n temp 1
-execute if score n temp matches 1.. run function ssbrc:fighter/hero/magic/hud/check
+scoreboard players remove #n temp 1
+execute if score #n temp matches 1.. run function ssbrc:fighter/hero/magic/hud/check

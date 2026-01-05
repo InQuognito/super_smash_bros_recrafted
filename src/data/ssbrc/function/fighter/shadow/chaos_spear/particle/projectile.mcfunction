@@ -4,7 +4,7 @@ $particle minecraft:dust_color_transition{from_color: [$(from_color)],to_color: 
 $particle minecraft:dust_color_transition{from_color: [$(from_color)],to_color: [$(to_color)],scale: 1} ^ ^ ^-.5 0.03 0.03 0.03 0 1 force @a
 $particle minecraft:dust_color_transition{from_color: [$(from_color)],to_color: [$(to_color)],scale: 1} ^ ^ ^-.25 0.03 0.03 0.03 0 1 force @a
 $particle minecraft:dust_color_transition{from_color: [$(from_color)],to_color: [$(to_color)],scale: 1} ^ ^ ^ 0.03 0.03 0.03 0 1 force @a
-$particle minecraft:dust_color_transition{from_color: [$(from_color)],to_color: [$(to_color)],scale: 1} ^0.15 ^ ^-.25 0.03 0.03 0.03 0 1 force @a
-$particle minecraft:dust_color_transition{from_color: [$(from_color)],to_color: [$(to_color)],scale: 1} ^-0.15 ^ ^-.25 0.03 0.03 0.03 0 1 force @a
-$particle minecraft:dust_color_transition{from_color: [$(from_color)],to_color: [$(to_color)],scale: 1} ^0.30 ^ ^-.5 0.03 0.03 0.03 0 1 force @a
-$particle minecraft:dust_color_transition{from_color: [$(from_color)],to_color: [$(to_color)],scale: 1} ^-0.30 ^ ^-.5 0.03 0.03 0.03 0 1 force @a
+$particle minecraft:dust_color_transition{from_color: [$(from_color)],to_color: [$(to_color)],scale: 1} ^.15 ^ ^-.25 0.03 0.03 0.03 0 1 force @a
+$particle minecraft:dust_color_transition{from_color: [$(from_color)],to_color: [$(to_color)],scale: 1} ^-.15 ^ ^-.25 0.03 0.03 0.03 0 1 force @a
+$particle minecraft:dust_color_transition{from_color: [$(from_color)],to_color: [$(to_color)],scale: 1} ^.3 ^ ^-.5 0.03 0.03 0.03 0 1 force @a
+$particle minecraft:dust_color_transition{from_color: [$(from_color)],to_color: [$(to_color)],scale: 1} ^-.3 ^ ^-.5 0.03 0.03 0.03 0 1 force @a

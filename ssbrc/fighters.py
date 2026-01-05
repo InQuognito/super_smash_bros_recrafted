@@ -1394,7 +1394,36 @@ fighters = {
 		},
 		'forms': [
 			'default'
-		]
+		],
+		'items': {
+			'night_slash': {
+				'type': 'weapon',
+				'stats': {
+					'attack_damage': 5,
+					'attack_speed': 2
+				},
+				'static_data': {
+					'name': 'ssbrc.fighter.greninja.night_slash',
+					'color': 'dark_gray'
+				}
+			},
+			'water_shuriken': {
+				'type': 'ability',
+				'stats': {
+					'tag': 'ranged',
+					'damage': {
+						'type': 'generic',
+						'amount': 4
+					},
+					'cooldown_group': 'greninja/water_shuriken',
+					'cooldown': 1
+				},
+				'static_data': {
+					'name': 'ssbrc.fighter.greninja.water_shuriken',
+					'color': 'blue'
+				}
+			}
+		}
 	},
 	'team_rocket': {
 		'series': 'pokemon',

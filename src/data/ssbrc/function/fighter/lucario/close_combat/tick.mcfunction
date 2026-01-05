@@ -1,5 +1,4 @@
 function ssbrc:fighter/lucario/close_combat/raycast/start
-scoreboard players reset close_combat temp
 
 function ssbrc:fighter/lucario/close_combat/fist/activate
 function ssbrc:fighter/lucario/close_combat/fist/activate

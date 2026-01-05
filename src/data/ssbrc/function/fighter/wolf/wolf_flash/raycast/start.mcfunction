@@ -1,4 +1,3 @@
-scoreboard players operation ray_length temp = wolf.wolf_flash const
-scoreboard players operation ray_length temp *= 10 const
+scoreboard players set #n temp 60
 
 function ssbrc:fighter/wolf/wolf_flash/raycast/loop

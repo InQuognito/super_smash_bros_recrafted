@@ -1,4 +1,5 @@
 tag @s add close_combat.fist
+function ssbrc:logic/init/id
 
 item replace entity @s contents with minecraft:stick[minecraft:item_model="ssbrc:fighter/lucario/projectile/close_combat"]
 

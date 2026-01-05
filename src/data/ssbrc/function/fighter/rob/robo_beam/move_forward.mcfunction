@@ -16,5 +16,5 @@ execute if score robo_beam_size temp matches 2 positioned ~-.5 ~-.5 ~-.5 as @e[t
 
 execute rotated as @s run teleport @s ^ ^ ^.5
 
-scoreboard players remove n temp 1
-execute if score n temp matches 1.. at @s run function ssbrc:fighter/rob/robo_beam/move_forward
+scoreboard players remove #n temp 1
+execute if score #n temp matches 1.. at @s run function ssbrc:fighter/rob/robo_beam/move_forward

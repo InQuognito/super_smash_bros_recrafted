@@ -10,13 +10,12 @@ scoreboard players add @s temp 1
 execute if score @s temp matches 50.. run function ssbrc:fighter/sora/strike_raid/deactivate
 
 scoreboard players operation display temp = @s temp
-scoreboard players operation display temp %= 6 const
+scoreboard players operation display temp %= #6 const
 execute if score display temp matches 0 run function ssbrc:fighter/sora/strike_raid/animation/1
 execute if score display temp matches 2 run function ssbrc:fighter/sora/strike_raid/animation/2
 execute if score display temp matches 4 run function ssbrc:fighter/sora/strike_raid/animation/3
 scoreboard players reset display temp
 
-scoreboard players operation loop temp = @s temp
-scoreboard players operation loop temp %= 3 const
-execute if score loop temp matches 0 run playsound ssbrc:fighter.sora.strike_raid.loop player @a
-scoreboard players reset loop temp
+scoreboard players operation #cache temp = @s temp
+scoreboard players operation #cache temp %= #3 const
+execute if score #cache temp matches 0 run playsound ssbrc:fighter.sora.strike_raid.loop player @a

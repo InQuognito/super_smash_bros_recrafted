@@ -1,5 +1,4 @@
-scoreboard players operation @s raycast = dark_samus.phazon_overload.range const
-scoreboard players operation @s raycast *= 10 const
+scoreboard players set #n temp 80
 
 function ssbrc:logic/fighter/ability/init
 

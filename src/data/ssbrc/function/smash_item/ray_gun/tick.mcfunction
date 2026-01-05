@@ -1,4 +1,4 @@
-scoreboard players set n temp 10
+scoreboard players set #n temp 10
 
 function ssbrc:smash_item/ray_gun/move_forward
 

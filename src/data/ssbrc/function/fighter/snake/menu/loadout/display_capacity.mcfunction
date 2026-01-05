@@ -17,7 +17,7 @@ tellraw @s [ \
 	"/", \
 	{ \
 		score: { \
-			name: "snake.weight.max", \
+			name: "#snake.weight", \
 			objective: "const", \
 		}, \
 		color: "red", \

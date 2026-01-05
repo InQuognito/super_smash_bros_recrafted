@@ -41,9 +41,9 @@ item modify entity @s contents [ \
 	}, \
 ]
 
-execute store result score random temp run random value 1..16
+execute store result score #random temp run random value 1..16
 
-execute if score random temp matches 1 run return run item modify entity @s contents { \
+execute if score #random temp matches 1 run return run item modify entity @s contents { \
 	function: "minecraft:set_custom_model_data", \
 	strings: { \
 		values: [ \
@@ -53,7 +53,7 @@ execute if score random temp matches 1 run return run item modify entity @s cont
 	}, \
 }
 
-execute if score random temp matches 2 run return run item modify entity @s contents { \
+execute if score #random temp matches 2 run return run item modify entity @s contents { \
 	function: "minecraft:set_custom_model_data", \
 	strings: { \
 		values: [ \
@@ -63,7 +63,7 @@ execute if score random temp matches 2 run return run item modify entity @s cont
 	}, \
 }
 
-execute if score random temp matches 3 run return run item modify entity @s contents { \
+execute if score #random temp matches 3 run return run item modify entity @s contents { \
 	function: "minecraft:set_custom_model_data", \
 	strings: { \
 		values: [ \
@@ -73,7 +73,7 @@ execute if score random temp matches 3 run return run item modify entity @s cont
 	}, \
 }
 
-execute if score random temp matches 4 run return run item modify entity @s contents { \
+execute if score #random temp matches 4 run return run item modify entity @s contents { \
 	function: "minecraft:set_custom_model_data", \
 	strings: { \
 		values: [ \
@@ -83,7 +83,7 @@ execute if score random temp matches 4 run return run item modify entity @s cont
 	}, \
 }
 
-execute if score random temp matches 5 run return run item modify entity @s contents { \
+execute if score #random temp matches 5 run return run item modify entity @s contents { \
 	function: "minecraft:set_custom_model_data", \
 	strings: { \
 		values: [ \
@@ -93,7 +93,7 @@ execute if score random temp matches 5 run return run item modify entity @s cont
 	}, \
 }
 
-execute if score random temp matches 6 run return run item modify entity @s contents { \
+execute if score #random temp matches 6 run return run item modify entity @s contents { \
 	function: "minecraft:set_custom_model_data", \
 	strings: { \
 		values: [ \
@@ -103,7 +103,7 @@ execute if score random temp matches 6 run return run item modify entity @s cont
 	}, \
 }
 
-execute if score random temp matches 7 run return run item modify entity @s contents { \
+execute if score #random temp matches 7 run return run item modify entity @s contents { \
 	function: "minecraft:set_custom_model_data", \
 	strings: { \
 		values: [ \
@@ -113,7 +113,7 @@ execute if score random temp matches 7 run return run item modify entity @s cont
 	}, \
 }
 
-execute if score random temp matches 8 run return run item modify entity @s contents { \
+execute if score #random temp matches 8 run return run item modify entity @s contents { \
 	function: "minecraft:set_custom_model_data", \
 	strings: { \
 		values: [ \
@@ -123,7 +123,7 @@ execute if score random temp matches 8 run return run item modify entity @s cont
 	}, \
 }
 
-execute if score random temp matches 9 run return run item modify entity @s contents { \
+execute if score #random temp matches 9 run return run item modify entity @s contents { \
 	function: "minecraft:set_custom_model_data", \
 	strings: { \
 		values: [ \
@@ -133,7 +133,7 @@ execute if score random temp matches 9 run return run item modify entity @s cont
 	}, \
 }
 
-execute if score random temp matches 10 run return run item modify entity @s contents { \
+execute if score #random temp matches 10 run return run item modify entity @s contents { \
 	function: "minecraft:set_custom_model_data", \
 	strings: { \
 		values: [ \
@@ -143,7 +143,7 @@ execute if score random temp matches 10 run return run item modify entity @s con
 	}, \
 }
 
-execute if score random temp matches 11 run return run item modify entity @s contents { \
+execute if score #random temp matches 11 run return run item modify entity @s contents { \
 	function: "minecraft:set_custom_model_data", \
 	strings: { \
 		values: [ \
@@ -153,7 +153,7 @@ execute if score random temp matches 11 run return run item modify entity @s con
 	}, \
 }
 
-execute if score random temp matches 12 run return run item modify entity @s contents { \
+execute if score #random temp matches 12 run return run item modify entity @s contents { \
 	function: "minecraft:set_custom_model_data", \
 	strings: { \
 		values: [ \
@@ -163,7 +163,7 @@ execute if score random temp matches 12 run return run item modify entity @s con
 	}, \
 }
 
-execute if score random temp matches 13 run return run item modify entity @s contents { \
+execute if score #random temp matches 13 run return run item modify entity @s contents { \
 	function: "minecraft:set_custom_model_data", \
 	strings: { \
 		values: [ \
@@ -173,7 +173,7 @@ execute if score random temp matches 13 run return run item modify entity @s con
 	}, \
 }
 
-execute if score random temp matches 14 run return run item modify entity @s contents { \
+execute if score #random temp matches 14 run return run item modify entity @s contents { \
 	function: "minecraft:set_custom_model_data", \
 	strings: { \
 		values: [ \
@@ -183,7 +183,7 @@ execute if score random temp matches 14 run return run item modify entity @s con
 	}, \
 }
 
-execute if score random temp matches 15 run return run item modify entity @s contents { \
+execute if score #random temp matches 15 run return run item modify entity @s contents { \
 	function: "minecraft:set_custom_model_data", \
 	strings: { \
 		values: [ \

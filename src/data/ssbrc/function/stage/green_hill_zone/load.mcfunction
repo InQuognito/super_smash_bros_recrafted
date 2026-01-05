@@ -14,5 +14,5 @@
 #execute positioned -15.5 31 274.5 summon minecraft:armor_stand run function ssbrc:stage/green_hill_zone/armor_stands/silver
 #execute positioned 31.25 25.5 238.5 summon minecraft:armor_stand run function ssbrc:stage/green_hill_zone/armor_stands/tails
 #execute positioned -6.5 25 275.5 summon minecraft:armor_stand run function ssbrc:stage/green_hill_zone/armor_stands/vector
-#execute as @a[predicate=ssbrc:player] if items entity @s armor.body *[minecraft:custom_data~{fighter: "shadow"}] run return -1
+#execute as @a[predicate=ssbrc:player] if items entity @s armor.body *[minecraft:custom_data~{temp: {fighter: {fighter: "shadow"}}}] run return -1
 #execute positioned -29.5 31 196.5 summon minecraft:armor_stand run function ssbrc:stage/green_hill_zone/armor_stands/shadow

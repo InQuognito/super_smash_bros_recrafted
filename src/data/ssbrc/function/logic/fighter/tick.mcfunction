@@ -6,13 +6,13 @@ execute store result score @s motion_x run data get entity @s Motion[0] 10000
 execute store result score @s motion_y run data get entity @s Motion[1] 10000
 execute store result score @s motion_z run data get entity @s Motion[2] 10000
 
-scoreboard players operation health temp = @s health
-scoreboard players operation health temp *= 100 const
-scoreboard players operation health temp /= 40 const
+scoreboard players operation #health temp = @s health
+scoreboard players operation #health temp *= #100 const
+scoreboard players operation #health temp /= #40 const
 
 # Crawl
 execute if score @s crawling matches 1 run function ssbrc:logic/fighter/crawl/off
-execute unless score @s crawling matches 1 positioned ~ ~0.601 ~ unless entity @s[dx=0] unless predicate ssbrc:flag/flying run function ssbrc:logic/fighter/crawl/on
+execute unless score @s crawling matches 1 positioned ~ ~.601 ~ unless entity @s[dx=0] unless predicate ssbrc:flag/flying run function ssbrc:logic/fighter/crawl/on
 
 scoreboard players remove @s[scores={cooldown.1=1..}] cooldown.1 1
 scoreboard players remove @s[scores={cooldown.2=1..}] cooldown.2 1
@@ -30,13 +30,11 @@ execute if entity @s[tag=safe_launch,scores={motion_y=..-100}] unless block ~ ~-
 execute if entity @s[tag=launched,predicate=ssbrc:flag/on_ground] unless score @s player_motion.timer matches 1.. run function ssbrc:logic/fighter/grounded
 scoreboard players set @s[predicate=ssbrc:flag/on_ground] jump 0
 
-function ssbrc:logic/fighter/tick_specific with entity @s equipment.body.components."minecraft:custom_data"
-
 execute if score @s charge.input matches 1.. run function ssbrc:logic/fighter/item/tick
 execute if score @s charge.input matches 2.. run function ssbrc:logic/fighter/item/refresh
 
 execute store result score @s selected_item run data get entity @s SelectedItemSlot
-execute unless score @s selected_item.prev = @s selected_item run function ssbrc:logic/fighter/change_slot with entity @s equipment.body.components."minecraft:custom_data"
+execute unless score @s selected_item.prev = @s selected_item run function ssbrc:logic/fighter/change_slot with entity @s equipment.body.components."minecraft:custom_data".temp.fighter
 
 execute if items entity @s[scores={charge.output=1..},advancements={ssbrc:utility/use_item/any=false}] weapon.* #ssbrc:equipment/ability[minecraft:custom_data~{chargable:"true"}] run function ssbrc:logic/fighter/charge/activate
 execute if items entity @s[advancements={ssbrc:utility/use_item/any=true}] weapon.mainhand #ssbrc:equipment/ability[minecraft:custom_data~{chargable:"true"}] run function ssbrc:logic/fighter/charge/tick
@@ -50,12 +48,12 @@ execute if score @s fall_distance matches 1.. run function ssbrc:logic/fighter/s
 execute if data storage ssbrc:data option{game_mode: "ctf"} run function ssbrc:logic/ctf/fighter/tick
 
 # Combo
-execute unless score @s combo.duration < combo.threshold const run scoreboard players remove @s combo.duration 1
-execute if score @s combo.duration < combo.threshold const run function ssbrc:logic/fighter/combo/expire
+execute unless score @s combo.duration < #combo const run scoreboard players remove @s combo.duration 1
+execute if score @s combo.duration < #combo const run function ssbrc:logic/fighter/combo/expire
 
 # HUD
 scoreboard players add @s hud 1
-execute if score @s hud >= hud_frequency const run function ssbrc:logic/fighter/hud with entity @s equipment.body.components."minecraft:custom_data"
+execute if score @s hud >= #hud_frequency const run function ssbrc:logic/fighter/hud with entity @s equipment.body.components."minecraft:custom_data".temp.fighter
 
 # Items
 #execute if score @s smash_item.cloaking_device matches 1.. run function ssbrc:smash_item/cloaking_device/tick
@@ -64,7 +62,7 @@ execute if score @s smash_item.poison_mushroom.timer matches 1.. run function ss
 execute if score @s smash_item.super_mushroom.timer matches 1.. run function ssbrc:smash_item/super_mushroom/tick
 
 # Fighter Effects
-execute if items entity @s armor.body *[minecraft:custom_data~{skin: "gold"}] run function ssbrc:logic/fighter/gold_trail
+execute if items entity @s armor.body *[minecraft:custom_data~{temp: {fighter: {skin: "gold"}}}] run function ssbrc:logic/fighter/gold_trail
 scoreboard players reset @s flag.walking
 
 scoreboard players remove @s[scores={player_motion.timer=1..}] player_motion.timer 1

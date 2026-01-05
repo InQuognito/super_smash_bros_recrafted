@@ -1,5 +1,0 @@
-execute positioned ~-.5 ~ ~-.5 as @e[tag=!self,predicate=ssbrc:target,dy=1] run function ssbrc:fighter/altered_beast/werewolf/flame_arrow/hit
-
-scoreboard players remove ray_length temp 1
-execute if score ray_length temp matches 0 positioned ^ ^ ^.1 run function ssbrc:logic/fighter/check/raycast/update
-execute if score ray_length temp matches 1.. positioned ^ ^ ^.1 run function ssbrc:fighter/altered_beast/werewolf/flame_arrow/raycast/loop

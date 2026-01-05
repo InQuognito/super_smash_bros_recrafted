@@ -1,6 +1,3 @@
-scoreboard players operation raycast temp = selector_range const
-scoreboard players operation raycast temp *= 10 const
+scoreboard players set #n temp 200
 
-function ssbrc:logic/player/selector/raycast/loop
-
-scoreboard players reset clicked temp
+execute anchored eyes positioned ^ ^ ^ run function ssbrc:logic/player/selector/raycast/loop

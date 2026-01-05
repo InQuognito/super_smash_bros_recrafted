@@ -10,10 +10,10 @@ for fighter in fighters:
 		if fighter in ['byleth', 'villager']:
 			for skin in chain(['default'], fighters[fighter]['skins']):
 				if skin == 'default':
-					unless items entity @s armor.body *[minecraft:custom_data~{'skin':skin}] tellraw @s gendered_skin_menu(fighter, skin, n)
+					unless items entity @s armor.body *[minecraft:custom_data~{'temp': {'fighter': {'skin': skin}}}] tellraw @s gendered_skin_menu(fighter, skin, n)
 				else:
-					unless items entity @s armor.body *[minecraft:custom_data~{'skin':skin}] tellraw @s[advancements={f'ssbrc:fighter/{fighter}/{skin}'=true}] gendered_skin_menu(fighter, skin, n)
-				if items entity @s armor.body *[minecraft:custom_data~{'skin':skin,'form':'female'}] tellraw @s [
+					unless items entity @s armor.body *[minecraft:custom_data~{'temp': {'fighter': {'skin': skin}}}] tellraw @s[advancements={f'ssbrc:fighter/{fighter}/{skin}'=true}] gendered_skin_menu(fighter, skin, n)
+				if items entity @s armor.body *[minecraft:custom_data~{'temp': {'fighter': {'skin': skin, 'form': 'female'}}}] tellraw @s [
 					"",
 					{
 						translate: f'ssbrc.skin.{skin}',
@@ -39,7 +39,7 @@ for fighter in fighters:
 						color: 'green'
 					}
 				]
-				if items entity @s armor.body *[minecraft:custom_data~{'skin':skin,'form':'male'}] tellraw @s [
+				if items entity @s armor.body *[minecraft:custom_data~{'temp': {'fighter': {'skin': skin, 'form': 'male'}}}] tellraw @s [
 					"",
 					{
 						translate: f'ssbrc.skin.{skin}',
@@ -69,7 +69,7 @@ for fighter in fighters:
 		else:
 			for skin in chain(['default'], fighters[fighter]['skins']):
 				if skin == 'default':
-					unless items entity @s armor.body *[minecraft:custom_data~{'skin':skin}] tellraw @s {
+					unless items entity @s armor.body *[minecraft:custom_data~{'temp': {'fighter': {'skin': skin}}}] tellraw @s {
 						translate: f'ssbrc.skin.{skin}',
 						**get_color_wrapper(fighter, skin),
 						click_event: {
@@ -78,7 +78,7 @@ for fighter in fighters:
 						}
 					}
 				else:
-					unless items entity @s armor.body *[minecraft:custom_data~{'skin':skin}] tellraw @s[advancements={f'ssbrc:fighter/{fighter}/{skin}'=true}] {
+					unless items entity @s armor.body *[minecraft:custom_data~{'temp': {'fighter': {'skin': skin}}}] tellraw @s[advancements={f'ssbrc:fighter/{fighter}/{skin}'=true}] {
 						translate: f'ssbrc.skin.{skin}',
 						**get_color_wrapper(fighter, skin),
 						click_event: {
@@ -86,7 +86,7 @@ for fighter in fighters:
 							command: f'trigger menu set {str(n)}'
 						}
 					}
-				if items entity @s armor.body *[minecraft:custom_data~{'skin':skin}] tellraw @s [
+				if items entity @s armor.body *[minecraft:custom_data~{'temp': {'fighter': {'skin': skin}}}] tellraw @s [
 					"",
 					{
 						translate: f'ssbrc.skin.{skin}',

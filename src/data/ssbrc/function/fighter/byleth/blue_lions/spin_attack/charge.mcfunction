@@ -1,6 +1,6 @@
-scoreboard players operation spin_attack temp = @s charge.output
-scoreboard players operation spin_attack temp %= 5 const
-execute if score spin_attack temp matches 0 run function ssbrc:fighter/byleth/blue_lions/spin_attack/raycast/start
+scoreboard players operation #cache temp = @s charge.output
+scoreboard players operation #cache temp %= #5 const
+execute if score #cache temp matches 0 run function ssbrc:fighter/byleth/blue_lions/spin_attack/raycast/start
 
 execute if score @s charge.output matches ..40 run function ssbrc:fighter/byleth/blue_lions/spin_attack/particles/rotate {type: "1"}
 execute if score @s charge.output matches 41..60 run function ssbrc:fighter/byleth/blue_lions/spin_attack/particles/rotate {type: "2"}

@@ -1,3 +1,3 @@
-execute if entity @s[scores={duration.3=1..}] as @a[predicate=ssbrc:player,predicate=ssbrc:team_match] run function ssbrc:fighter/joker/amrita_shower/tick_active
+function ssbrc:fighter/joker/amrita_shower/particles/get
 
-function ssbrc:logic/item/cooldown/decrease {item: "amrita_shower"}
+function ssbrc:logic/fighter/effects/cleanse

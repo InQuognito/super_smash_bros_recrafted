@@ -3,7 +3,7 @@ execute as @a[tag=self,limit=1,distance=..3] run function ssbrc:logic/damage/exp
 
 particle minecraft:explosion_emitter ~ ~ ~ 0 0 0 0 1 normal @a
 
-scoreboard players set entity_hit temp 1
+scoreboard players set #entity_hit temp 1
 
 playsound ssbrc:fighter.yar.missile_launcher.explode player @a
 playsound minecraft:entity.generic.explode player @a

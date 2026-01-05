@@ -1,9 +1,8 @@
 tag @s add intangible
 
 scoreboard players set @s duration.1 40
-scoreboard players operation @s[tag=blood_metamorphosis] duration.1 *= 2 const
 
-execute if entity @s[tag=blood_metamorphosis] summon minecraft:marker run function ssbrc:fighter/alucard/mist/summon
+execute if items entity @s armor.body *[minecraft:custom_data~{temp: {fighter: {form: "blood_metamorphosis"}}}] run function ssbrc:fighter/alucard/mist/blood_metamorphosis
 
 function ssbrc:fighter/alucard/mist/shield
 

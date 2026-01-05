@@ -4,9 +4,9 @@ scoreboard players set @s respawn 0
 
 gamemode adventure @s
 
-execute if entity @s[tag=alive] run function ssbrc:logic/fighter/restore_items with entity @s equipment.body.components."minecraft:custom_data"
+execute if entity @s[tag=alive] run function ssbrc:logic/fighter/restore_items with entity @s equipment.body.components."minecraft:custom_data".temp.fighter
 
-function ssbrc:logic/fighter/attributes/defaults with entity @s equipment.body.components."minecraft:custom_data"
+function ssbrc:logic/fighter/attributes/defaults with entity @s equipment.body.components."minecraft:custom_data".temp.fighter
 function ssbrc:logic/fighter/effects/default
 
 execute store result storage ssbrc:temp cache.team int 1 run scoreboard players get @s team

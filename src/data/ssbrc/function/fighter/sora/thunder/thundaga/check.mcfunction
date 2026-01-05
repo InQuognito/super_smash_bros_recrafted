@@ -1,4 +1,4 @@
-scoreboard players operation sora.spell.cost temp = sora.thundaga.cost const
+scoreboard players operation sora.spell.cost temp = #sora.thundaga const
 
 function ssbrc:fighter/sora/thunder/electric_terrain
 

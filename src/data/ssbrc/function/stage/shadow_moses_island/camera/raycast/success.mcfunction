@@ -6,5 +6,3 @@ data modify storage ssbrc:temp cache.pose set value [0f,0f,0f]
 data modify storage ssbrc:temp cache.pose[0] set from entity @s Rotation[1]
 
 data modify entity @s Pose.Head set from storage ssbrc:temp cache.pose
-
-scoreboard players set @s raycast_success 1

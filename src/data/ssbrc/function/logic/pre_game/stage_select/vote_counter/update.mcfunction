@@ -1,4 +1,4 @@
-$scoreboard players remove @n[type=minecraft:text_display,tag=vote_counter,nbt={data:{id:"$(stage_vote)"}}] stage_vote 1
+$scoreboard players remove @n[type=minecraft:text_display,tag=vote_counter,nbt={data:{id:"$(selected_stage)"}}] stage_vote 1
 
 execute as @e[type=minecraft:text_display,tag=vote_counter,tag=selected] at @s run data modify entity @s text set value [ \
 	{ \

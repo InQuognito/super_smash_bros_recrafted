@@ -1,12 +1,12 @@
-particle minecraft:cloud ~-0.4 ~ ~-0.4 ^ ^1000000 ^ .0000005 0
-particle minecraft:cloud ~-0.4 ~ ~0.4 ^ ^1000000 ^ .0000005 0
-particle minecraft:cloud ~0.4 ~ ~-0.4 ^ ^1000000 ^ .0000005 0
-particle minecraft:cloud ~0.4 ~ ~0.4 ^ ^1000000 ^ .0000005 0
+particle minecraft:cloud ~-.4 ~ ~-.4 ^ ^1000000 ^ .0000005 0
+particle minecraft:cloud ~-.4 ~ ~.4 ^ ^1000000 ^ .0000005 0
+particle minecraft:cloud ~.4 ~ ~-.4 ^ ^1000000 ^ .0000005 0
+particle minecraft:cloud ~.4 ~ ~.4 ^ ^1000000 ^ .0000005 0
 
-particle minecraft:cloud ~-0.25 ~ ~ ^ ^1000000 ^ .0000005 0
-particle minecraft:cloud ~0.25 ~ ~ ^ ^1000000 ^ .0000005 0
-particle minecraft:cloud ~ ~ ~-0.25 ^ ^1000000 ^ .0000005 0
-particle minecraft:cloud ~ ~ ~0.25 ^ ^1000000 ^ .0000005 0
+particle minecraft:cloud ~-.25 ~ ~ ^ ^1000000 ^ .0000005 0
+particle minecraft:cloud ~.25 ~ ~ ^ ^1000000 ^ .0000005 0
+particle minecraft:cloud ~ ~ ~-.25 ^ ^1000000 ^ .0000005 0
+particle minecraft:cloud ~ ~ ~.25 ^ ^1000000 ^ .0000005 0
 
 execute if score @s temp matches 20.. run particle minecraft:block{block_state:"water"} ~ ~8 ~ .5 1.75 .5 10 25
 

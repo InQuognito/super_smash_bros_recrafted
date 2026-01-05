@@ -6,13 +6,13 @@ for fighter in fighters:
 	i = 1
 	function f'ssbrc:fighter/{fighter}/menu/skin/random':
 		if fighter in ['byleth', 'villager']:
-			obj = f'execute store result score random temp run random value 1..{count_skins(fighter)/2}'
+			obj = f'execute store result score #random temp run random value 1..{count_skins(fighter)/2}'
 		else:
-			obj = f'execute store result score random temp run random value 1..{count_skins(fighter)}'
+			obj = f'execute store result score #random temp run random value 1..{count_skins(fighter)}'
 		raw obj
 
 		for skin in chain(['default'], fighters[fighter]['skins']):
-			if score random temp matches i if entity @s[advancements={f'ssbrc:fighter/{fighter}/{skin}'=true}] return run function ssbrc:logic/fighter/select/skin {'fighter':fighter,'skin':skin,'color':get_color(fighter, skin)}
+			if score #random temp matches i if entity @s[advancements={f'ssbrc:fighter/{fighter}/{skin}'=true}] return run function ssbrc:logic/fighter/select/skin {'fighter':fighter,'skin':skin,'color':get_color(fighter, skin)}
 			i += 1
 
 		function f'ssbrc:fighter/{fighter}/menu/skin/random'

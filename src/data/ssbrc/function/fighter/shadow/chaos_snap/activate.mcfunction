@@ -4,4 +4,4 @@ execute at @n[tag=!self,predicate=ssbrc:target,distance=..10] facing ^ ^ ^1 run 
 
 scoreboard players add @s cooldown.1 40
 
-scoreboard players operation @s resource -= shadow.chaos_snap.cost const
+scoreboard players operation @s resource -= #shadow.chaos_snap const

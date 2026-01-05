@@ -23,7 +23,7 @@
 		"data_pack": "C:\\Users\\Patri\\AppData\\Roaming\\PrismLauncher\\instances\\Main (Experimental)\\minecraft\\saves\\SSBRC\\datapacks\\super_smash_bros_recrafted",
 		"summon_commands": "function ssbrc:logic/pokemon/int {name:\"lapras\"}",
 		"remove_commands": "",
-		"ticking_commands": "particle minecraft:cloud ~ ~0.5 ~ 0.5 0.1 0.5 0 5 normal @a",
+		"ticking_commands": "particle minecraft:cloud ~ ~.5 ~ .5 .1 .5 0 5 normal @a",
 		"interpolation_duration": 1,
 		"teleportation_duration": 1,
 		"use_storage_for_animation": false,

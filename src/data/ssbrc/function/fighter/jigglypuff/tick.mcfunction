@@ -1,7 +1,5 @@
 # Rest
-execute if items entity @s armor.body *[minecraft:custom_data~{form: "rest"}] run function ssbrc:fighter/jigglypuff/rest/tick
-
-execute unless items entity @s armor.body *[minecraft:custom_data~{form: "rest"}] run function ssbrc:logic/item/cooldown/decrease {item: "rest"}
+execute if items entity @s armor.body *[minecraft:custom_data~{temp: {fighter: {form: "rest"}}}] run return run function ssbrc:fighter/jigglypuff/rest/tick
 
 # Hot Air
-execute unless items entity @s[scores={cooldown.2=..0},predicate=ssbrc:flag/sneaking] armor.body *[minecraft:custom_data~{form: "rest"}] run function ssbrc:fighter/jigglypuff/hot_air/tick
+execute if entity @s[scores={cooldown.2=..0},predicate=ssbrc:flag/sneaking] run function ssbrc:fighter/jigglypuff/hot_air/tick

@@ -4,7 +4,7 @@ execute anchored eyes positioned ^ ^ ^.5 summon minecraft:marker run function ss
 
 scoreboard players add @s cooldown 10
 
-scoreboard players set durability.modify temp 1
+scoreboard players set #durability.modify temp 1
 function ssbrc:logic/item/durability/remove
 clear @s *[minecraft:custom_data~{item: "ray_gun"},minecraft:damage~{durability: 0}]
 

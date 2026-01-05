@@ -8,6 +8,6 @@ scoreboard players add @s[advancements={ssbrc:utility/flag/get_kill/distance/30=
 
 function ssbrc:logic/fighter/bonuses/rapid_kill
 
-function ssbrc:logic/stats/kills with entity @s equipment.body.components."minecraft:custom_data"
+function ssbrc:logic/stats/kills with entity @s equipment.body.components."minecraft:custom_data".temp.fighter
 
 tag @s add check_kill

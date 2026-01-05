@@ -1,4 +1,4 @@
-scoreboard players set n temp 7
+scoreboard players set #n temp 7
 
 function ssbrc:fighter/samus/plasma_beam/move_forward
 

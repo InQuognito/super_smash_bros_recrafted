@@ -25,8 +25,8 @@
 
 #execute if predicate ssbrc:random_chance/30 run function ssbrc:stage/lake_of_rage/load/rain
 
-#execute store result score random temp run random value 1..3
+#execute store result score #random temp run random value 1..3
 
-#execute if score random temp matches 1 run return run function ssbrc:stage/lake_of_rage/load/morning
-#execute if score random temp matches 2 run return run function ssbrc:stage/lake_of_rage/load/day
+#execute if score #random temp matches 1 run return run function ssbrc:stage/lake_of_rage/load/morning
+#execute if score #random temp matches 2 run return run function ssbrc:stage/lake_of_rage/load/day
 #function ssbrc:stage/lake_of_rage/load/night

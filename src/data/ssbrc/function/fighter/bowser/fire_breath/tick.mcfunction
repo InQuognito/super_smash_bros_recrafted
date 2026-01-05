@@ -19,9 +19,8 @@ execute anchored eyes positioned ^ ^ ^.5 run function ssbrc:fighter/bowser/fire_
 scoreboard players set @s bowser.fire_breath 0
 execute anchored eyes positioned ^ ^-.3 ^.3 run function ssbrc:fighter/bowser/fire_breath/raycast
 
-scoreboard players operation fire_breath temp = @s charge.1
-scoreboard players operation fire_breath temp %= 3 const
-execute if score @s charge.1 matches 1.. if score fire_breath temp matches 0 run playsound ssbrc:fighter.bowser.fire_breath.loop player @a
-scoreboard players reset fire_breath temp
+scoreboard players operation #cache temp = @s charge.1
+scoreboard players operation #cache temp %= #3 const
+execute if score @s charge.1 matches 1.. if score #cache temp matches 0 run playsound ssbrc:fighter.bowser.fire_breath.loop player @a
 
 advancement grant @s only ssbrc:ui/popup/bowser

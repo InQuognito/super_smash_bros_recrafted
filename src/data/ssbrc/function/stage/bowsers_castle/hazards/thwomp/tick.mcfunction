@@ -6,9 +6,9 @@ execute if entity @s[tag=left] run function ssbrc:stage/bowsers_castle/hazards/t
 execute if entity @s[tag=middle] run function ssbrc:stage/bowsers_castle/hazards/thwomp/middle/tick
 execute if entity @s[tag=right] run function ssbrc:stage/bowsers_castle/hazards/thwomp/right/tick
 
-execute if score @s temp < thwomp_time const positioned ~ ~-0.1 ~ if block ~ ~ ~ #ssbrc:passthrough run kill @e[predicate=ssbrc:target,dx=1.5,dy=0,dz=1.5]
-execute if score @s temp = thwomp_time const run function ssbrc:stage/bowsers_castle/hazards/thwomp/idle
-execute if score @s[tag=!sinking] temp >= thwomp_time const run function ssbrc:stage/bowsers_castle/hazards/thwomp/move_upward
+execute if score @s temp < #thwomp_time const positioned ~ ~-.1 ~ if block ~ ~ ~ #ssbrc:passthrough run kill @e[predicate=ssbrc:target,dx=1.5,dy=0,dz=1.5]
+execute if score @s temp = #thwomp_time const run function ssbrc:stage/bowsers_castle/hazards/thwomp/idle
+execute if score @s[tag=!sinking] temp >= #thwomp_time const run function ssbrc:stage/bowsers_castle/hazards/thwomp/move_upward
 
-execute unless block ~ ~-0.1 ~ #ssbrc:passthrough run function ssbrc:stage/bowsers_castle/hazards/thwomp/grounded
+execute unless block ~ ~-.1 ~ #ssbrc:passthrough run function ssbrc:stage/bowsers_castle/hazards/thwomp/grounded
 execute if score thwomp.middle temp matches 2 run scoreboard players add @s[tag=middle] temp 1

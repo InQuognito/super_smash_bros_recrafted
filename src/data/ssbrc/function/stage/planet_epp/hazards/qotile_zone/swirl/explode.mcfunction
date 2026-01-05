@@ -3,4 +3,4 @@ execute as @e[predicate=ssbrc:target,distance=..5] run function ssbrc:logic/dama
 particle minecraft:explosion_emitter ~ ~ ~ 0 0 0 0 1 force @a
 execute as @a[predicate=ssbrc:ingame] at @s run playsound minecraft:entity.generic.explode player @s ~ ~ ~
 
-scoreboard players set entity_hit temp 1
+scoreboard players set #entity_hit temp 1

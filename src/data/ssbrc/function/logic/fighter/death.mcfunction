@@ -7,7 +7,7 @@ execute unless data storage ssbrc:data option{singleplayer: true} run scoreboard
 function ssbrc:logic/fighter/stock/check
 execute unless data storage ssbrc:data option{point_limit: -1} run function ssbrc:logic/fighter/stock/lose
 
-function ssbrc:logic/fighter/cleanup with entity @s equipment.body.components."minecraft:custom_data"
+function ssbrc:logic/fighter/cleanup with entity @s equipment.body.components."minecraft:custom_data".temp.fighter
 
 tag @s add check_death
 scoreboard players reset @s flag.dead

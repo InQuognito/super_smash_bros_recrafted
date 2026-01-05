@@ -1,4 +1,4 @@
-scoreboard players operation n temp > @a id
+scoreboard players operation #n temp > @a id
 execute positioned -682.5 18 601.5 run function ssbrc:stage/miiverse/posts/origin/summon
 
 execute as @e[type=minecraft:marker,tag=post.origin] at @s anchored eyes run function ssbrc:stage/miiverse/posts/summon

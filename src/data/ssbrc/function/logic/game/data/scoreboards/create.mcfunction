@@ -18,7 +18,6 @@ scoreboard objectives add cooldown.2 dummy
 scoreboard objectives add cooldown.3 dummy
 scoreboard objectives add crawling dummy
 scoreboard objectives add deaths deathCount
-scoreboard objectives add debug trigger
 scoreboard objectives add drop_item minecraft.custom:minecraft.drop
 scoreboard objectives add durability dummy
 scoreboard objectives add duration.1 dummy
@@ -91,8 +90,6 @@ scoreboard objectives add quitter dummy
 scoreboard objectives add ray.max dummy
 scoreboard objectives add ray.min dummy
 scoreboard objectives add ray.ticks dummy
-scoreboard objectives add raycast dummy
-scoreboard objectives add raycast_success dummy
 scoreboard objectives add reflect dummy
 scoreboard objectives add reset dummy
 scoreboard objectives add resource dummy

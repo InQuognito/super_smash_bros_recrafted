@@ -2,7 +2,6 @@ tag @s remove operator
 tag @s add punisher
 
 function ssbrc:logic/item/data/get {item: "buster_sword",flag_key:"mode",flag_value: "punisher"}
-function ssbrc:logic/item/durability/reset/hand {key:"item", value: "buster_sword", source: "cooldown"}
 
 attribute @s minecraft:armor modifier add ssbrc:punisher -1 add_multiplied_total
 attribute @s minecraft:attack_damage modifier add ssbrc:punisher 2 add_multiplied_base

@@ -2,7 +2,7 @@
 # in is the number
 # in1 is the power
 
-scoreboard players operation out math = in math
-scoreboard players operation temp math = in1 math
+scoreboard players operation #out math = #in math
+scoreboard players operation #temp math = in1 math
 function math:zprivate/power
-scoreboard players operation in1 math = temp math
+scoreboard players operation #in1 math = temp math

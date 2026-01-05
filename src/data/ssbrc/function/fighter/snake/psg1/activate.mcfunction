@@ -3,10 +3,10 @@ function ssbrc:logic/fighter/ability/init
 execute store result score temp health run scoreboard players get @s health
 
 function ssbrc:fighter/snake/psg1/offset
-execute store result storage ssbrc:temp cache.rotation.x float .1 run scoreboard players get random temp
+execute store result storage ssbrc:temp cache.rotation.x float .1 run scoreboard players get #random temp
 
 function ssbrc:fighter/snake/psg1/offset
-execute store result storage ssbrc:temp cache.rotation.y float .1 run scoreboard players get random temp
+execute store result storage ssbrc:temp cache.rotation.y float .1 run scoreboard players get #random temp
 
 execute anchored eyes positioned ^ ^ ^.5 run function ssbrc:fighter/snake/psg1/start with storage ssbrc:temp cache.rotation
 

@@ -1,6 +1,6 @@
 scoreboard players set @s fuse 1
 
-execute unless score @s zelda.magic_fountain matches 1.. run scoreboard players operation @s magic -= zelda.bomb.cost const
+execute unless score @s zelda.magic_fountain matches 1.. run scoreboard players operation @s magic -= #zelda.bomb const
 function ssbrc:fighter/zelda/magic/update
 
 scoreboard players add @s cooldown 3

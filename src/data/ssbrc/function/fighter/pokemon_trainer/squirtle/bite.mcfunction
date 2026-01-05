@@ -1,4 +1,4 @@
-function ssbrc:logic/fighter/effects/mobility/immobilize {type: "default",duration:20}
+function ssbrc:logic/fighter/effects/mobility/immobilize {type: "default", duration: 20}
 
 effect give @s minecraft:blindness 1 0 true
 

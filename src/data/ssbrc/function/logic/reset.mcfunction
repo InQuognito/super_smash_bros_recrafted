@@ -6,7 +6,6 @@ function ssbrc:logic/init/stage
 function ssbrc:logic/game/data/scoreboards/remove
 function ssbrc:logic/game/data/scoreboards/create
 function ssbrc:logic/game/data/scoreboards/constants
-function ssbrc:logic/game/data/scoreboards/variables
 
 stopwatch remove ssbrc:game_time
 stopwatch create ssbrc:game_time

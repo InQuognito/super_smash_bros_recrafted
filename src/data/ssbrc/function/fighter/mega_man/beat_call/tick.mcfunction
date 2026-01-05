@@ -1,12 +1,12 @@
 execute store result score @s health run data get entity @s Health 1.0
-scoreboard players operation @s health -= yar.drone.drone.health.threshold const
+scoreboard players operation @s health -= #yar.drone.health.threshold const
 
 function math:percentage {val:"@s health",div:"yar.drone.health const"}
 
-execute if score percentage temp matches ..50 run particle minecraft:electric_spark ~ ~.5 ~ .2 .2 .2 .5 1 normal @a
-execute if score percentage temp matches ..25 run particle minecraft:smoke ~ ~.5 ~ .2 .2 .2 .01 1 normal @a
-execute if score percentage temp matches ..10 run particle minecraft:small_flame ~ ~.5 ~ .2 .2 .2 .025 1 normal @a
-execute unless entity @s[tag=dead] if score percentage temp matches ..0 run function ssbrc:fighter/mega_man/beat_call/commands/entity/dead
+execute if score #percentage temp matches ..50 run particle minecraft:electric_spark ~ ~.5 ~ .2 .2 .2 .5 1 normal @a
+execute if score #percentage temp matches ..25 run particle minecraft:smoke ~ ~.5 ~ .2 .2 .2 .01 1 normal @a
+execute if score #percentage temp matches ..10 run particle minecraft:small_flame ~ ~.5 ~ .2 .2 .2 .025 1 normal @a
+execute unless entity @s[tag=dead] if score #percentage temp matches ..0 run function ssbrc:fighter/mega_man/beat_call/commands/entity/dead
 
 scoreboard players add @s rotation 4
 scoreboard players set @s[scores={rotation=360..}] rotation 0

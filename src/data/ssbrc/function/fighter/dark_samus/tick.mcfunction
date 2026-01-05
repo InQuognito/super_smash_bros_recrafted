@@ -1,7 +1,5 @@
 # Phazon Beam
-execute if items entity @s[tag=!silenced,scores={charge.output=1..,cooldown=..0,duration.1=..0},predicate=ssbrc:flag/sneaking] weapon.* *[minecraft:custom_data~{item: "phazon_beam"},minecraft:damage~{damage:0}] run function ssbrc:fighter/dark_samus/phazon_beam/charge
-
-function ssbrc:logic/item/cooldown/decrease {item: "phazon_beam"}
+execute if items entity @s[tag=!silenced,scores={charge.output=1..,cooldown=..0,duration.1=..0},predicate=ssbrc:flag/sneaking] weapon.* *[minecraft:custom_data~{item: "phazon_beam"}] run function ssbrc:fighter/dark_samus/phazon_beam/charge
 
 # Phazon Overload
 execute if score @s duration.1 matches 1.. run function ssbrc:fighter/dark_samus/phazon_overload/tick

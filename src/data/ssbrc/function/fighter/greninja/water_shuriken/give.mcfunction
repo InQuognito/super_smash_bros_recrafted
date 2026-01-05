@@ -1,4 +1,78 @@
 scoreboard players set @s charge.2 0
-scoreboard players add @s charge.1 1
 
-execute unless items entity @s container.* *[minecraft:custom_data~{item: "water_shuriken"}] run loot give @s loot ssbrc:fighter/greninja/water_shuriken
+loot give @s loot ssbrc:fighter/greninja/water_shuriken
+
+give @s minecraft:stick{
+	"type": "minecraft:command",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:stick",
+					"functions": [
+						{
+							"function": "minecraft:set_name",
+							"entity": "this",
+							"name": {
+								"translate": "ssbrc.fighter.greninja.water_shuriken",
+								"color": "blue",
+								"bold": true,
+								"italic": false
+							}
+						},
+						{
+							"function": "minecraft:reference",
+							"name": "ssbrc:init/preset/ranged"
+						},
+						{
+							"function": "minecraft:reference",
+							"name": "ssbrc:init/ability/default"
+						},
+						{
+							"function": "minecraft:set_lore",
+							"entity": "this",
+							"lore": [
+								{
+									"text": "- [",
+									"color": "gray",
+									"bold": false,
+									"italic": false,
+									"extra": [
+										{
+											"keybind": "key.use",
+											"color": "gray",
+											"bold": false,
+											"italic": false
+										},
+										{
+											"translate": "ssbrc.fighter.greninja.water_shuriken.description.1",
+											"color": "gray",
+											"bold": false,
+											"italic": false
+										}
+									]
+								}
+							],
+							"mode": "append"
+						},
+						{
+							"function": "minecraft:set_components",
+							"components": {
+								"minecraft:item_model": "ssbrc:fighter/greninja/item/water_shuriken"
+							}
+						},
+						{
+							"function": "minecraft:set_custom_data",
+							"tag": {
+								"item": "water_shuriken",
+								"cooldown": 3
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}

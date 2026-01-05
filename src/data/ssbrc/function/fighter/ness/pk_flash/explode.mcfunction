@@ -6,7 +6,7 @@ execute as @e[tag=!self,predicate=ssbrc:target,distance=..2.5] run function ssbr
 
 kill @s
 
-execute as @a[tag=self,limit=1] run function ssbrc:fighter/ness/pk_flash/deactivate
+tag @a[tag=self,limit=1] remove pk_flash
 
 playsound minecraft:entity.generic.explode player @a
 playsound ssbrc:fighter.ness.pk_flash.explode player @a

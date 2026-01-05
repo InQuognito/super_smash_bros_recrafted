@@ -1,5 +1,5 @@
 tag @s add holy_water
-execute if entity @p[tag=self,tag=blood_metamorphosis] run tag @s add pending_blood_metamorphosis
+execute if items entity @p[tag=self,limit=1] armor.body *[minecraft:custom_data~{temp: {fighter: {form: "blood_metamorphosis"}}}] run tag @s add pending_blood_metamorphosis
 
 function ssbrc:logic/init/projectile
 

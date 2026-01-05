@@ -6,7 +6,7 @@ execute if score @s charge.2 matches 1.. positioned ~ ~.75 ~ run function ssbrc:
 scoreboard players set @s[scores={charge.2=101..}] charge.2 0
 
 # Chaos Snap
-execute if score @s[tag=chaos_boost,tag=!silenced,scores={jump.cooldown=..0,cooldown.1=..0},predicate=ssbrc:input/jump] resource >= shadow.chaos_snap.cost const run function ssbrc:fighter/shadow/chaos_snap/activate
+execute if score @s[tag=chaos_boost,tag=!silenced,scores={jump.cooldown=..0,cooldown.1=..0},predicate=ssbrc:input/jump] resource >= #shadow.chaos_snap const run function ssbrc:fighter/shadow/chaos_snap/activate
 
 # Acceleration
 scoreboard players set @s[scores={flag.sprinting=..-1}] flag.sprinting 0

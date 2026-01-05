@@ -1,4 +1,4 @@
-scoreboard players set n temp 4
+scoreboard players set #n temp 4
 
 function ssbrc:fighter/fox/fox_blaster/move_forward
 

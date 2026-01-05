@@ -1,5 +1,5 @@
-scoreboard players set entity_hit temp 1
+scoreboard players set #entity_hit temp 1
 
-function ssbrc:logic/fighter/check/raycast/reset
+scoreboard players reset #n temp
 
 $scoreboard players set @a[tag=self,limit=1] duration.$(type) 2

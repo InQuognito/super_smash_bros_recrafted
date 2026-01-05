@@ -1,5 +1,5 @@
-scoreboard players set durability.modify temp 1
-execute if score entity_hit temp matches 1 run scoreboard players add durability.modify temp 1
+scoreboard players set #durability.modify temp 1
+execute if score #entity_hit temp matches 1 run scoreboard players add #durability.modify temp 1
 function ssbrc:logic/item/durability/remove
 
 function ssbrc:logic/item/data/get {item: "areadbhar",flag_key:"spinning",flag_value: "true"}

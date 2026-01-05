@@ -3,11 +3,11 @@ data modify storage ssbrc:temp cache.rotation set from entity @s Rotation
 
 execute store result score offset temp run data get storage ssbrc:temp cache.rotation[0] 10
 function ssbrc:fighter/pokemon_trainer/squirtle/water_gun/offset
-execute store result storage ssbrc:temp cache.rotation[0] float .1 run scoreboard players operation offset temp += random temp
+execute store result storage ssbrc:temp cache.rotation[0] float .1 run scoreboard players operation offset temp += #random temp
 
 execute store result score offset temp run data get storage ssbrc:temp cache.rotation[1] 10
 function ssbrc:fighter/pokemon_trainer/squirtle/water_gun/offset
-execute store result storage ssbrc:temp cache.rotation[1] float .1 run scoreboard players operation offset temp += random temp
+execute store result storage ssbrc:temp cache.rotation[1] float .1 run scoreboard players operation offset temp += #random temp
 
 data modify entity @s Rotation set from storage ssbrc:temp cache.rotation
 

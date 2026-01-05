@@ -110,8 +110,8 @@ execute if entity @s[tag=wave_beam] run return run function ssbrc:fighter/samus/
 execute if entity @s[tag=plasma_beam] run return run function ssbrc:fighter/samus/plasma_beam/tick
 
 # Snake
-execute if entity @s[tag=claymore] unless block ~ ~-0.1 ~ #ssbrc:passthrough run return run function ssbrc:fighter/snake/claymore/tick
-execute if entity @s[tag=smoke_grenade] unless block ~ ~-0.1 ~ #ssbrc:passthrough run return run function ssbrc:fighter/snake/smoke_grenade/tick
+execute if entity @s[tag=claymore] unless block ~ ~-.1 ~ #ssbrc:passthrough run return run function ssbrc:fighter/snake/claymore/tick
+execute if entity @s[tag=smoke_grenade] unless block ~ ~-.1 ~ #ssbrc:passthrough run return run function ssbrc:fighter/snake/smoke_grenade/tick
 
 # Sora
 execute if entity @s[tag=firaga] run return run function ssbrc:fighter/sora/fire/firaga/tick

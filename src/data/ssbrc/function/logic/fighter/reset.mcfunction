@@ -11,7 +11,6 @@ tag @s remove hud_disabled
 tag @s remove ignore_feedback
 tag @s remove intangible
 tag @s remove launched
-tag @s remove natural_shiny
 tag @s remove safe_launch
 tag @s remove shield_broken
 tag @s remove silenced
@@ -20,9 +19,6 @@ tag @s remove silenced
 tag @s remove altered_beast.is_beast
 tag @s remove shirtless
 tag @s remove wings_flapped
-
-# Alucard
-tag @s remove blood_metamorphosis
 
 # Bowser
 tag @s remove fire_breath

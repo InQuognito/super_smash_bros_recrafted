@@ -4,4 +4,4 @@ particle minecraft:item{item: "minecraft:glass"} ~ ~.75 ~ 0 0 0 1 100 normal @a
 
 playsound minecraft:block.glass.break player @a
 
-function ssbrc:logic/item/modify {search_key: "item", search_value: "nayrus_ring",path:"ssbrc:fighter/zelda/shatter_nayrus_ring"}
+function ssbrc:logic/item/modify {search_key: "item", search_value: "nayrus_ring", path: "ssbrc:fighter/zelda/shatter_nayrus_ring"}

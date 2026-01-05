@@ -1,5 +1,5 @@
 scoreboard players operation odd temp = @s id
-scoreboard players operation odd temp %= 2 const
+scoreboard players operation odd temp %= #2 const
 
 execute if score odd temp matches 0 run rotate @s ~1 ~
 execute if score odd temp matches 1 run rotate @s ~-1 ~

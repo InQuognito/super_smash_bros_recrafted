@@ -1,15 +1,7 @@
 # Dungeon Items
-execute if items entity @s container.* *[minecraft:custom_data~{item: "bomb"}] run function ssbrc:fighter/zelda/bomb/in_kit
-
-function ssbrc:logic/item/cooldown/decrease {item: "zelda.boomerang"}
-
-execute if items entity @s container.* *[minecraft:custom_data~{item: "fire_rod"}] run function ssbrc:logic/item/cooldown/decrease {item: "fire_rod"}
-
-execute if items entity @s container.* *[minecraft:custom_data~{item: "ice_rod"}] run function ssbrc:logic/item/cooldown/decrease {item: "ice_rod"}
+execute if items entity @s[scores={fuse=1..}] container.* *[minecraft:custom_data~{item: "bomb"}] run function ssbrc:fighter/zelda/bomb/fuse_tick
 
 execute if items entity @s container.* *[minecraft:custom_data~{extra:"magic_rod"}] run function ssbrc:fighter/zelda/magic/update
-
-function ssbrc:logic/item/cooldown/decrease {item: "magic_boomerang"}
 
 # Passive Items
 execute if items entity @s container.* *[minecraft:custom_data~{item: "goron_locket"}] run effect clear @s minecraft:wither
@@ -21,7 +13,7 @@ execute if items entity @s container.* *[minecraft:custom_data~{item: "torch_of_
 execute if items entity @s[scores={health=11..}] container.* *[minecraft:custom_data~{item: "ring_of_risk"}] run attribute @s minecraft:attack_damage modifier remove ssbrc:fighter/zelda/ring_of_risk
 
 # Rupees
-execute if score @s[scores={zelda.rupee.add=1..}] resource >= zelda.rupees.max const run scoreboard players set @s zelda.rupee.add 0
+scoreboard players set @s[scores={zelda.rupee.add=1..,resource=50..}] zelda.rupee.add 0
 execute if score @s zelda.rupee.add matches 1.. run function ssbrc:fighter/zelda/rupees/change {mode:"add"}
 
 execute if score @s zelda.rupee.remove matches 1.. run function ssbrc:fighter/zelda/rupees/change {mode:"remove"}

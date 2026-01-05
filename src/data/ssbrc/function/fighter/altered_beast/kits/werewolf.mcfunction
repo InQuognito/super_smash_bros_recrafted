@@ -1,6 +1,6 @@
 function ssbrc:fighter/altered_beast/kits/update {form: "werewolf"}
 
-execute if score @s resource >= altered_beast.spirit.max const run tag @s add feral_instincts
+execute if score @s resource >= #altered_beast.spirit.max const run tag @s add feral_instincts
 
 loot replace entity @s hotbar.0 loot ssbrc:fighter/altered_beast/flame_hands
 execute if items entity @s weapon.mainhand *[minecraft:custom_data~{item: "flame_hands"}] run loot replace entity @s weapon.offhand loot ssbrc:fighter/altered_beast/flame_hands

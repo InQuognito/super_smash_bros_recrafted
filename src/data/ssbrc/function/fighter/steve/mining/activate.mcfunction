@@ -1,5 +1,4 @@
-scoreboard players operation raycast temp = steve.mining.range const
-scoreboard players operation raycast temp *= 10 const
+scoreboard players set #n temp 30
 
 execute anchored eyes positioned ^ ^ ^ run function ssbrc:fighter/steve/mining/loop
 

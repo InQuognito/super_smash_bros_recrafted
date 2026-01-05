@@ -1,4 +1,4 @@
-scoreboard players set n temp 15
+scoreboard players set #n temp 15
 
 function ssbrc:fighter/yar/drone/projectile/move_forward
 

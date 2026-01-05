@@ -1,0 +1,40 @@
+{
+	"description": "",
+	"supported_items": "minecraft:iron_ingot",
+	"weight": 1,
+	"max_level": 1,
+	"min_cost": {
+		"base": 0,
+		"per_level_above_first": 0
+	},
+	"max_cost": {
+		"base": 0,
+		"per_level_above_first": 0
+	},
+	"anvil_cost": 0,
+	"slots": [
+		"chest"
+	],
+	"effects": {
+		"minecraft:tick": [
+			{
+				"requirements": {
+					"condition": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"type_specific": {
+							"type": "minecraft:player",
+							"gamemode": [
+								"adventure"
+							]
+						}
+					}
+				},
+				"effect": {
+					"type": "minecraft:run_function",
+					"function": "ssbrc:logic/player/tick"
+				}
+			}
+		]
+	}
+}

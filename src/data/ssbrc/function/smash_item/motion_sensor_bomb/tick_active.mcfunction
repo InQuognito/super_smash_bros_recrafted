@@ -1,6 +1,6 @@
-scoreboard players operation loop temp = @s temp
-scoreboard players operation loop temp %= 100 const
-execute if score loop temp matches 0 run playsound ssbrc:smash_item.motion_sensor_bomb.loop hostile @a
+scoreboard players operation #cache temp = @s temp
+scoreboard players operation #cache temp %= #100 const
+execute if score #cache temp matches 0 run playsound ssbrc:smash_item.motion_sensor_bomb.loop hostile @a
 
 execute if entity @s[tag=primed] run return 1
 
