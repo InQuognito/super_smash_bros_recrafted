@@ -1,2 +1,5 @@
-scoreboard players set @s walk_distance 0
-scoreboard players set @s sprint_distance 0
+scoreboard players set @s charge.1 0
+
+function ssbrc:logic/fighter/jump/super_jump/untrack
+
+$function ssbrc:fighter/$(fighter)/super_jump/reset

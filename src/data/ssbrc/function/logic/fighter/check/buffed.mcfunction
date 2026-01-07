@@ -16,10 +16,10 @@ execute if items entity @s[scores={health=40..}] armor.body *[minecraft:custom_d
 
 execute if items entity @s[scores={duration.1=1..}] armor.body *[minecraft:custom_data~{temp: {fighter: {fighter: "ryu"}}}] run return 1
 
-execute if items entity @s[predicate=ssbrc:flag/effects/resistance] armor.body *[minecraft:custom_data~{temp: {fighter: {fighter: "pokemon_trainer",form: "squirtle"}}}] run return 1
+execute if items entity @s[predicate=ssbrc:flag/effects/resistance] armor.body *[minecraft:custom_data~{temp: {fighter: {fighter: "pokemon_trainer", form: "squirtle"}}}] run return 1
 
-execute if items entity @s armor.body *[minecraft:custom_data~{temp: {fighter: {fighter: "sora",form: "valor"}}}] run return 1
-execute if items entity @s armor.body *[minecraft:custom_data~{temp: {fighter: {fighter: "sora",form: "wisdom"}}}] run return 1
+execute if items entity @s armor.body *[minecraft:custom_data~{temp: {fighter: {fighter: "sora", form: "valor"}}}] run return 1
+execute if items entity @s armor.body *[minecraft:custom_data~{temp: {fighter: {fighter: "sora", form: "wisdom"}}}] run return 1
 
 execute if items entity @s[scores={zelda.enchant_armor=1..}] armor.body *[minecraft:custom_data~{temp: {fighter: {fighter: "zelda"}}}] run return 1
 execute if items entity @s[scores={zelda.magic_fountain=1..}] armor.body *[minecraft:custom_data~{temp: {fighter: {fighter: "zelda"}}}] run return 1
