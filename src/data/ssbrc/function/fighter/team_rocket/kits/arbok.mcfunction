@@ -1,4 +1,4 @@
-function ssbrc:fighter/team_rocket/kits/update {form: "arbok",color: "light_purple"}
+function ssbrc:fighter/team_rocket/kits/update {form: "arbok", color: "light_purple"}
 
 loot replace entity @s hotbar.0 loot ssbrc:fighter/team_rocket/arbok/poison_jab
 

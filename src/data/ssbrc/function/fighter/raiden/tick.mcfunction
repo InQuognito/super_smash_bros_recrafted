@@ -3,7 +3,7 @@ function ssbrc:fighter/snake/glowing
 
 # Ammo HUD
 execute if entity @s[tag=!silenced] run function ssbrc:fighter/snake/hud/check
-title @s[tag=silenced] actionbar {text: "⌛",color: "yellow"}
+title @s[tag=silenced] actionbar {text: "⌛", color: "yellow"}
 
 # Reload
 execute if score @s weapon_3.reload matches 1.. run function ssbrc:fighter/snake/aks_74u/reload/tick

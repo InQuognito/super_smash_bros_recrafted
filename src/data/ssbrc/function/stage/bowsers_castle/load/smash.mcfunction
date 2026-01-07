@@ -77,6 +77,6 @@ fill -21 6 24 -20 7 24 minecraft:ladder[facing=south] replace
 
 # Armor Stands
 #execute positioned -734.9 27 854.5 summon minecraft:armor_stand run function ssbrc:stage/bowsers_castle/armor_stands/peach
-#execute positioned -735 27.5 834.5 rotated -90 0 summon minecraft:item_display run function ssbrc:stage/bowsers_castle/armor_stands/toad {pose:"clutching_bars",color: "red"}
-#execute positioned -737.7 27.2 833.2 rotated -45 0 summon minecraft:item_display run function ssbrc:stage/bowsers_castle/armor_stands/toad {pose:"sitting",color: "yellow"}
-#execute positioned -736.5 27.5 836 rotated 0 0 summon minecraft:item_display run function ssbrc:stage/bowsers_castle/armor_stands/toad {pose:"clutching_bars",color: "blue"}
+#execute positioned -735 27.5 834.5 rotated -90 0 summon minecraft:item_display run function ssbrc:stage/bowsers_castle/armor_stands/toad {pose:"clutching_bars", color: "red"}
+#execute positioned -737.7 27.2 833.2 rotated -45 0 summon minecraft:item_display run function ssbrc:stage/bowsers_castle/armor_stands/toad {pose:"sitting", color: "yellow"}
+#execute positioned -736.5 27.5 836 rotated 0 0 summon minecraft:item_display run function ssbrc:stage/bowsers_castle/armor_stands/toad {pose:"clutching_bars", color: "blue"}

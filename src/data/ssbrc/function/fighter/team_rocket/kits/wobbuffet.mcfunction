@@ -1,4 +1,4 @@
-function ssbrc:fighter/team_rocket/kits/update {form: "wobbuffet",color: "aqua"}
+function ssbrc:fighter/team_rocket/kits/update {form: "wobbuffet", color: "aqua"}
 
 loot replace entity @s hotbar.0 loot ssbrc:fighter/team_rocket/wobbuffet/counter
 

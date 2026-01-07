@@ -4,10 +4,10 @@ execute if data entity @s data{state:"dead"} run function ssbrc:stage/pac_maze/g
 
 execute if score power_pellet temp matches 1 run function ssbrc:stage/pac_maze/ghosts/states/retreating/deactivate
 
-execute if entity @s[tag=blinky,scores={cooldown=1}] run function ssbrc:stage/pac_maze/ghosts/release/activate {name:"blinky",color: "red"}
-execute if entity @s[tag=clyde,scores={cooldown=1}] run function ssbrc:stage/pac_maze/ghosts/release/activate {name:"clyde",color: "gold"}
-execute if entity @s[tag=inky,scores={cooldown=1}] run function ssbrc:stage/pac_maze/ghosts/release/activate {name:"inky",color: "aqua"}
-execute if entity @s[tag=pinky,scores={cooldown=1}] run function ssbrc:stage/pac_maze/ghosts/release/activate {name:"pinky",color: "light_purple"}
+execute if entity @s[tag=blinky,scores={cooldown=1}] run function ssbrc:stage/pac_maze/ghosts/release/activate {name:"blinky", color: "red"}
+execute if entity @s[tag=clyde,scores={cooldown=1}] run function ssbrc:stage/pac_maze/ghosts/release/activate {name:"clyde", color: "gold"}
+execute if entity @s[tag=inky,scores={cooldown=1}] run function ssbrc:stage/pac_maze/ghosts/release/activate {name:"inky", color: "aqua"}
+execute if entity @s[tag=pinky,scores={cooldown=1}] run function ssbrc:stage/pac_maze/ghosts/release/activate {name:"pinky", color: "light_purple"}
 
 scoreboard players remove @s[scores={cooldown=1..}] cooldown 1
 

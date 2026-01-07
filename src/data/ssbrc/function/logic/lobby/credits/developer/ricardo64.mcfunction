@@ -1,1 +1,1 @@
-tellraw @s ["",{translate: "ssbrc.lobby.credits.developer_bio.ricardo64"},{translate: "ssbrc.lobby.credits.developer_bio.ricardo64_link",color: "yellow",click_event: {action: "open_url","url":"https://kugzone.carrd.co/"}}]
+tellraw @s ["",{translate: "ssbrc.lobby.credits.developer_bio.ricardo64"},{translate: "ssbrc.lobby.credits.developer_bio.ricardo64_link", color: "yellow",click_event: {action: "open_url","url":"https://kugzone.carrd.co/"}}]

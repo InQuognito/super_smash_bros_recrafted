@@ -19,7 +19,7 @@ tellraw @s [ \
 		color: "green", \
 		"click_event": { \
 			action: "run_command", \
-			"command": "trigger fighter_trigger set 2", \
+			"command": "trigger fighter_trigger set 1", \
 		}, \
 		hover_event: { \
 			action: "show_text", \
@@ -96,7 +96,7 @@ tellraw @s [ \
 		color: "green", \
 		"click_event": { \
 			action: "run_command", \
-			"command": "trigger fighter_trigger set 4", \
+			"command": "trigger fighter_trigger set 2", \
 		}, \
 		hover_event: { \
 			action: "show_text", \
@@ -178,7 +178,7 @@ tellraw @s [ \
 		color: "green", \
 		"click_event": { \
 			action: "run_command", \
-			"command": "trigger fighter_trigger set 5", \
+			"command": "trigger fighter_trigger set 3", \
 		}, \
 		hover_event: { \
 			action: "show_text", \
@@ -216,7 +216,7 @@ tellraw @s [ \
 		color: "green", \
 		"click_event": { \
 			action: "run_command", \
-			"command": "trigger fighter_trigger set 6", \
+			"command": "trigger fighter_trigger set 4", \
 		}, \
 		hover_event: { \
 			action: "show_text", \

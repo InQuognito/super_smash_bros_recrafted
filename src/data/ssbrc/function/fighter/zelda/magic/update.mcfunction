@@ -9,7 +9,7 @@ scoreboard players operation magic.available temp = @s magic
 scoreboard players operation magic.available.counter temp = magic.available temp
 
 function ssbrc:fighter/zelda/magic/hud/check
-execute if score @s zelda.magic_fountain matches 1.. run data modify storage ssbrc:hud zelda.magic append value {text: " ∞",color: "aqua"}
+execute if score @s zelda.magic_fountain matches 1.. run data modify storage ssbrc:hud zelda.magic append value {text: " ∞", color: "aqua"}
 
 function ssbrc:logic/player/data/set_storage with storage ssbrc:hud temp
 

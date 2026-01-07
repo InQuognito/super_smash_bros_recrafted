@@ -10,7 +10,7 @@ $execute unless items entity @s armor.body *[minecraft:custom_data~{temp: {fight
 
 tag @s add fighter_picked
 
-$tellraw @s[tag=!picking_random] ["",{translate: "ssbrc.fighter.menu.selected"},{translate: "ssbrc.fighter.$(fighter)",color: "$(color)"}]
+$tellraw @s[tag=!picking_random] ["",{translate: "ssbrc.fighter.menu.selected"},{translate: "ssbrc.fighter.$(fighter)", color: "$(color)"}]
 $function ssbrc:fighter/$(fighter)/menu/select
 
 execute if entity @s[team=spectator] run function ssbrc:logic/game/team/join/red
