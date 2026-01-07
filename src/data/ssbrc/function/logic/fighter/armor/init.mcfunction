@@ -1,4 +1,8 @@
 item replace entity @s armor.head with minecraft:iron_ingot[ \
+	minecraft:enchantments = { \
+		"minecraft:binding_curse": 1, \
+	}, \
+	minecraft:max_stack_size = 1, \
 	minecraft:tooltip_display = { \
 		hide_tooltip: true \
 	}, \
@@ -15,13 +19,14 @@ item replace entity @s armor.chest with minecraft:iron_ingot[ \
 	minecraft:equippable = { \
 		slot: "chest", \
 	}, \
-	minecraft:unbreakable = {}, \
+	minecraft:enchantments = { \
+		"minecraft:binding_curse": 1, \
+	}, \
 	minecraft:max_stack_size = 1, \
 	minecraft:tooltip_display = { \
 		hidden_components: [ \
 			"minecraft:attribute_modifiers", \
 			"minecraft:enchantments", \
-			"minecraft:unbreakable", \
 		] \
 	}, \
 	minecraft:enchantment_glint_override = false \
@@ -37,13 +42,14 @@ item replace entity @s armor.legs with minecraft:iron_ingot[ \
 	minecraft:equippable = { \
 		slot: "legs", \
 	}, \
-	minecraft:unbreakable = {}, \
+	minecraft:enchantments = { \
+		"minecraft:binding_curse": 1, \
+	}, \
 	minecraft:max_stack_size = 1, \
 	minecraft:tooltip_display = { \
 		hidden_components: [ \
 			"minecraft:attribute_modifiers", \
 			"minecraft:enchantments", \
-			"minecraft:unbreakable", \
 		] \
 	}, \
 	minecraft:enchantment_glint_override = false \
@@ -57,10 +63,6 @@ item modify entity @s[predicate=ssbrc:fighter/enchantments/fire_protection] armo
 item modify entity @s[predicate=ssbrc:fighter/enchantments/thorns] armor.chest ssbrc:enchantments/thorns
 
 item modify entity @s[predicate=ssbrc:fighter/enchantments/swift_sneak] armor.legs ssbrc:enchantments/swift_sneak
-
-item modify entity @s armor.head ssbrc:enchantments/binding_curse
-item modify entity @s armor.chest ssbrc:enchantments/binding_curse
-item modify entity @s armor.legs ssbrc:enchantments/binding_curse
 
 item modify entity @s armor.chest ssbrc:fighter/remove_armor_value
 item modify entity @s armor.legs ssbrc:fighter/remove_armor_value

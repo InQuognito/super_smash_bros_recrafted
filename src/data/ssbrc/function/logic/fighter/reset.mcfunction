@@ -81,11 +81,6 @@ function ssbrc:fighter/pokemon_trainer/kits/reset
 function ssbrc:fighter/pokemon_trainer/ivysaur/leech_seed/reset
 tag @s remove armor_break
 
-# Shadow
-tag @s remove alignment.hero
-tag @s remove alignment.neutral
-tag @s remove alignment.villain
-
 # Shovel Knight
 tag @s remove phase_locket
 tag @s remove war_horn.active
