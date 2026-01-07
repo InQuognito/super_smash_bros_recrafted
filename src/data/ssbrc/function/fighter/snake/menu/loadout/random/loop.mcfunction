@@ -1,5 +1,5 @@
-execute if score @s snake.capacity matches ..0 if predicate ssbrc:random_chance/10 run return 1
-execute if score @s snake.capacity matches 1.. if predicate ssbrc:random_chance/20 run return 1
+execute if score @s capacity matches ..0 if predicate ssbrc:random_chance/10 run return 1
+execute if score @s capacity matches 1.. if predicate ssbrc:random_chance/20 run return 1
 
 execute store result score #random temp run random value 1..6
 

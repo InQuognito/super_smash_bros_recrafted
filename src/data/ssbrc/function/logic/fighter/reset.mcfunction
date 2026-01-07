@@ -91,7 +91,6 @@ tag @s remove famas
 tag @s remove items_given
 tag @s remove night_vision_goggles
 tag @s remove psg1
-tag @s remove reloading
 tag @s remove m870_custom
 tag @s remove smoke_grenade
 tag @s remove socom

@@ -1,0 +1,9 @@
+teleport @s ~ ~ ~ ~ ~
+
+execute rotated as @s positioned 0. 0. 0. run teleport @s ^ ^ ^.4
+
+data modify storage ssbrc:temp cache.motion set from entity @s Pos
+
+execute positioned ^ ^ ^1 summon minecraft:armor_stand run function ssbrc:fighter/raiden/c4/init/projectile with entity @a[tag=self,limit=1] equipment.body.components."minecraft:custom_data".temp.fighter
+
+kill @s

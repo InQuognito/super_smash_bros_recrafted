@@ -1,4 +1,4 @@
-function math:percentage {val:"@s charge.1",div:"bowser.fire_breath.max const"}
+function math:percentage {output: "#percentage temp", val: "@s charge.1", div: "bowser.fire_breath.max const"}
 
 execute if score #percentage temp matches 1..10 run return run title @s actionbar {text: "\u25ae",color: "red"}
 execute if score #percentage temp matches 11..20 run return run title @s actionbar {text: "\u25ae\u25ae",color: "red"}

@@ -1,4 +1,4 @@
-function math:percentage {val:"@s resource",div:"rob.fuel.max const"}
+function math:percentage {output: "#percentage temp", val: "@s resource", div: "rob.fuel.max const"}
 
 execute if score #percentage temp matches 1..5 run return run title @s actionbar ["",{translate: "ssbrc.fighter.rob.fuel",bold: true},"\u25ae"]
 execute if score #percentage temp matches 6..10 run return run title @s actionbar ["",{translate: "ssbrc.fighter.rob.fuel",bold: true},"\u25ae\u25ae"]

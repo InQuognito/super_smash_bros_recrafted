@@ -4,7 +4,7 @@ execute anchored eyes positioned ^ ^ ^.5 summon minecraft:marker run function ss
 
 function ssbrc:fighter/snake/load/decrease
 
-scoreboard players remove @s snake.claymore.ammo 1
-item replace entity @s[scores={snake.claymore.ammo=..0}] weapon.mainhand with minecraft:air
+scoreboard players remove @s weapon_9.ammo 1
+item replace entity @s[scores={weapon_9.ammo=..0}] weapon.mainhand with minecraft:air
 
 function ssbrc:logic/fighter/ability/deinit

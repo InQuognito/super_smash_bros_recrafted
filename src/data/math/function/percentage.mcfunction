@@ -1,5 +1,5 @@
-$scoreboard players operation #percentage temp = $(val)
+$scoreboard players operation $(output) = $(val)
 
-scoreboard players operation #percentage temp *= #100 const
+scoreboard players operation $(output) *= #100 const
 
-$scoreboard players operation #percentage temp /= $(div)
+$scoreboard players operation $(output) /= $(div)

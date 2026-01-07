@@ -3,6 +3,7 @@ scoreboard objectives remove armor_break
 scoreboard objectives remove bowser.fire_breath
 scoreboard objectives remove bowser.fire_breath.target
 scoreboard objectives remove burning
+scoreboard objectives remove capacity
 scoreboard objectives remove charge.1
 scoreboard objectives remove charge.2
 scoreboard objectives remove charge.3
@@ -107,9 +108,6 @@ scoreboard objectives remove smash_item.franklin_badge.counter
 scoreboard objectives remove smash_item.franklin_badge.timer
 scoreboard objectives remove smash_item.poison_mushroom.timer
 scoreboard objectives remove smash_item.super_mushroom.timer
-scoreboard objectives remove snake.capacity
-scoreboard objectives remove snake.claymore.ammo
-scoreboard objectives remove snake.smoke_grenade.ammo
 scoreboard objectives remove sprint_distance
 scoreboard objectives remove stage_select
 scoreboard objectives remove stage_vote

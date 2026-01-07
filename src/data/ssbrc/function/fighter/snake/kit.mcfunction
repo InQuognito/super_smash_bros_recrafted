@@ -22,8 +22,8 @@ scoreboard players set @s[tag=famas] weapon_3.mags 1
 scoreboard players set @s[tag=famas] weapon_3.ammo 24
 scoreboard players set @s[tag=socom] weapon_4.mags 2
 scoreboard players set @s[tag=socom] weapon_4.ammo 8
-scoreboard players set @s[tag=claymore] snake.claymore.ammo 2
-scoreboard players set @s[tag=smoke_grenade] snake.smoke_grenade.ammo 2
+scoreboard players set @s[tag=claymore] weapon_9.ammo 2
+scoreboard players set @s[tag=smoke_grenade] weapon_10.ammo 2
 
 function ssbrc:fighter/snake/load/set
 

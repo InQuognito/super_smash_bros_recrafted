@@ -3,6 +3,7 @@ scoreboard objectives add armor_break dummy
 scoreboard objectives add bowser.fire_breath dummy
 scoreboard objectives add bowser.fire_breath.target dummy
 scoreboard objectives add burning dummy
+scoreboard objectives add capacity dummy
 scoreboard objectives add charge.1 dummy
 scoreboard objectives add charge.2 dummy
 scoreboard objectives add charge.3 dummy
@@ -111,9 +112,6 @@ scoreboard objectives add smash_item.franklin_badge.counter dummy
 scoreboard objectives add smash_item.franklin_badge.timer dummy
 scoreboard objectives add smash_item.poison_mushroom.timer dummy
 scoreboard objectives add smash_item.super_mushroom.timer dummy
-scoreboard objectives add snake.capacity dummy
-scoreboard objectives add snake.claymore.ammo dummy
-scoreboard objectives add snake.smoke_grenade.ammo dummy
 scoreboard objectives add sprint_distance minecraft.custom:minecraft.sprint_one_cm
 scoreboard objectives add stage_select dummy
 scoreboard objectives add stage_vote dummy

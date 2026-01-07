@@ -2,7 +2,7 @@ particle minecraft:dust_color_transition{from_color: [.3,0,0],to_color: [.6,0,0]
 
 execute if score @s duration.1 matches 1 run function ssbrc:fighter/ryu/satsui_no_hado_rage/deactivate
 
-function math:percentage {val:"@s duration.1",div:"400 const"}
+function math:percentage {output: "#percentage temp", val: "@s duration.1", div: "400 const"}
 
 execute if score #percentage temp matches 1..5 run return run title @s actionbar "\u25ae"
 execute if score #percentage temp matches 6..10 run return run title @s actionbar "\u25ae\u25ae"

@@ -1,2 +1,2 @@
 scoreboard players set @s weapon_1.reload 60
-tag @s add reloading
+tag @s add silenced

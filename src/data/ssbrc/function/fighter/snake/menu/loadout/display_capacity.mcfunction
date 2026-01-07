@@ -6,7 +6,7 @@ tellraw @s [ \
 	{ \
 		score: { \
 			name: "@s", \
-			objective: "snake.capacity", \
+			objective: "capacity", \
 		}, \
 		color: "gold", \
 	}, \

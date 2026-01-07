@@ -54,6 +54,16 @@ scoreboard players set #mario.fireball const 160
 
 scoreboard players set #pikachu.thunder_jolt const 160
 
+scoreboard players set #raiden.weight const 10
+scoreboard players set #raiden.aks_74u.weight const 5
+scoreboard players set #raiden.aks_74u.scavenger const 1
+scoreboard players set #raiden.throwing_knives.weight const 3
+scoreboard players set #raiden.c4.weight const 3
+scoreboard players set #raiden.c4.scavenger const 3
+scoreboard players set #raiden.smoke_grenade.weight const 2
+scoreboard players set #raiden.smoke_grenade.scavenger const 2
+scoreboard players set #raiden.nano.weight const 3
+
 scoreboard players set #samus.wave_beam const 3
 
 scoreboard players set #shadow.chaos_gauge const 20

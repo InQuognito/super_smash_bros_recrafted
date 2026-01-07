@@ -1,0 +1,26 @@
+{
+	"parent": "ssbrc:utility/use_item/root",
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:using_item",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:reference",
+						"name": "ssbrc:cooldown/universal"
+					}
+				],
+				"item": {
+					"predicates": {
+						"minecraft:custom_data": {
+							"item": "aks_74u"
+						}
+					}
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "ssbrc:fighter/raiden/aks_74u/check"
+	}
+}

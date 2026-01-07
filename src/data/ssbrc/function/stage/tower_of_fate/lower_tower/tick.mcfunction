@@ -1,6 +1,6 @@
 scoreboard players add #tower_of_fate.destroyed temp 1
 
-function math:percentage {val:"tower_of_fate.destroyed temp",div:"tower_of_fate.destruction_timer const"}
+function math:percentage {output: "#percentage temp", val: "tower_of_fate.destroyed temp", div: "tower_of_fate.destruction_timer const"}
 
 execute if score #percentage temp matches 1 if score tower_of_fate.explosions temp matches 0 positioned ~-8 ~2 ~ run function ssbrc:stage/tower_of_fate/lower_tower/explosion/get {type: "small",variant:"default"}
 execute if score #percentage temp matches 5 if score tower_of_fate.explosions temp matches 1 positioned ~-8 ~2 ~ run function ssbrc:stage/tower_of_fate/explode_platform

@@ -13,18 +13,8 @@
 						"condition": "minecraft:entity_scores",
 						"entity": "this",
 						"scores": {
-							"snake.smoke_grenade.ammo": {
+							"weapon_10.ammo": {
 								"min": 1
-							}
-						}
-					},
-					{
-						"condition": "minecraft:inverted",
-						"term": {
-							"condition": "minecraft:entity_properties",
-							"entity": "this",
-							"predicate": {
-								"nbt": "{Tags:[\"reloading\"]}"
 							}
 						}
 					}

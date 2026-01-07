@@ -10,7 +10,7 @@
 				"condition": "minecraft:entity_scores",
 				"entity": "this",
 				"scores": {
-					"snake.capacity": {
+					"capacity": {
 						"max": 2
 					}
 				}
@@ -28,7 +28,7 @@
 				"condition": "minecraft:entity_scores",
 				"entity": "this",
 				"scores": {
-					"snake.capacity": {
+					"capacity": {
 						"min": 3,
 						"max": 4
 					}
@@ -47,7 +47,7 @@
 				"condition": "minecraft:entity_scores",
 				"entity": "this",
 				"scores": {
-					"snake.capacity": {
+					"capacity": {
 						"min": 5,
 						"max": 6
 					}
@@ -66,7 +66,7 @@
 				"condition": "minecraft:entity_scores",
 				"entity": "this",
 				"scores": {
-					"snake.capacity": {
+					"capacity": {
 						"min": 7,
 						"max": 8
 					}

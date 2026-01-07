@@ -1877,6 +1877,11 @@ fighters = {
 				}
 			},
 			'cqc_knife': {
+				'type': 'weapon',
+				'stats': {
+					'attack_damage': 4,
+					'attack_speed': 3
+				},
 				'default': {
 					'name': 'ssbrc.fighter.snake.cqc_knife',
 					'color': 'green'
@@ -1962,7 +1967,89 @@ fighters = {
 		},
 		'forms': [
 			'default'
-		]
+		],
+		'items': {
+			'aks_74u': {
+				'type': 'ability',
+				'stats': {
+					'tag': 'ranged',
+					'damage': {
+						'type': 'generic',
+						'amount': 0.8
+					},
+					'cooldown_group': 'raiden/aks_74u',
+					'cooldown': 0.15
+				},
+				'default': {
+					'name': 'ssbrc.fighter.raiden.aks_74u',
+					'color': 'green'
+				},
+				'gold': {
+					'color': 'gold'
+				}
+			},
+			'c4': {
+				'type': 'ability',
+				'stats': {
+					'tag': 'ranged',
+					'damage': {
+						'type': 'explosive',
+						'amount': 10
+					},
+					'cooldown_group': 'raiden/c4',
+					'cooldown': 0.6
+				},
+				'default': {
+					'name': 'ssbrc.fighter.raiden.c4',
+					'color': 'gray'
+				},
+				'gold': {
+					'color': 'gold'
+				}
+			},
+			'high_frequency_blade': {
+				'type': 'weapon',
+				'stats': {
+					'attack_damage': 6,
+					'attack_speed': 2.5
+				},
+				'default': {
+					'name': 'ssbrc.fighter.raiden.high_frequency_blade',
+					'color': 'gray'
+				},
+				'gold': {
+					'color': 'gold'
+				}
+			},
+			'smoke_grenade': {
+				'default': {
+					'name': 'ssbrc.fighter.snake.smoke_grenade',
+					'color': 'gray'
+				},
+				'gold': {
+					'color': 'gold'
+				}
+			},
+			'throwing_knives': {
+				'type': 'ability',
+				'stats': {
+					'tag': 'ranged',
+					'damage': {
+						'type': 'generic',
+						'amount': 2
+					},
+					'cooldown_group': 'raiden/throwing_knives',
+					'cooldown': 1
+				},
+				'default': {
+					'name': 'ssbrc.fighter.raiden.throwing_knives',
+					'color': 'gray'
+				},
+				'gold': {
+					'color': 'gold'
+				}
+			}
+		}
 	},
 	'sonic': {
 		'series': 'sonic_the_hedgehog',
