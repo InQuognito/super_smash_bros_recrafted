@@ -26,7 +26,7 @@ execute if data storage ssbrc:data option{items: 1} unless data storage ssbrc:da
 tag @e[type=minecraft:marker,tag=tp_dest] remove tp_dest
 
 scoreboard players set game_stage temp 4
-scoreboard players reset countdown timer
+scoreboard players reset #countdown temp
 
 stopwatch restart ssbrc:game_time
 

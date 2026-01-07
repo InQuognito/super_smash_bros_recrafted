@@ -6,5 +6,5 @@ execute if score game_stage temp matches 2 run function ssbrc:logic/pre_game/sta
 execute if score game_stage temp matches 3 run function ssbrc:logic/game/timer/countdown/iterate
 execute if score game_stage temp matches 4 run function ssbrc:logic/game/timer
 
-execute if score game_stage temp matches 0..4 run scoreboard players remove countdown timer 1
+execute if score game_stage temp matches 0..4 run scoreboard players remove #countdown temp 1
 schedule function ssbrc:logic/timer 1s replace

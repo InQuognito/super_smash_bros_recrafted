@@ -9,8 +9,8 @@ execute positioned -528.5 6 -1939.5 run data modify entity @n[type=minecraft:tex
 	}, \
 	{ \
 		score: { \
-			name: "countdown", \
-			objective: "timer", \
+			name: "#countdown", \
+			objective: "temp", \
 		}, \
 		color: "yellow", \
 	}, \
