@@ -13,7 +13,7 @@
 	},
 	"anvil_cost": 0,
 	"slots": [
-		"chest"
+		"body"
 	],
 	"effects": {
 		"minecraft:tick": [

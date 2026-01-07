@@ -52,6 +52,9 @@
 						{
 							"function": "minecraft:set_components",
 							"components": {
+								"minecraft:enchantments": {
+									"ssbrc:selector": 1
+								},
 								"minecraft:use_cooldown": {
 									"seconds": 0.5,
 									"cooldown_group": "ssbrc:ui"
