@@ -1,3 +1,3 @@
 scoreboard players operation countdown timer = #quick_start const
 
-tellraw @a[tag=fighter_select] {translate: "ssbrc.game.start.warn.same_teams",color: "red"}
+execute as @a if dimension ssbrc:fighter_select run tellraw @s {translate: "ssbrc.game.start.warn.same_teams",color: "red"}

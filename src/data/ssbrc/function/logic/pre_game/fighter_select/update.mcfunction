@@ -1,4 +1,4 @@
-execute if score players.ingame temp matches 8.. run return run data modify entity @s text set value { \
+execute if score #players.ingame temp matches 8.. run return run data modify entity @s text set value { \
 	translate: "ssbrc.lobby.full", \
 	color: "red", \
 }

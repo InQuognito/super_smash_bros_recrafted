@@ -1,3 +1,3 @@
-execute store result score players temp if entity @a[tag=fighter_select]
+execute as @a if dimension ssbrc:fighter_select run scoreboard players add #players temp 1
 
-execute store result score players.ingame temp if entity @a[tag=fighter_select,team=!spectator]
+execute as @a[team=!spectator] if dimension ssbrc:fighter_select run scoreboard players add #players.ingame temp 1

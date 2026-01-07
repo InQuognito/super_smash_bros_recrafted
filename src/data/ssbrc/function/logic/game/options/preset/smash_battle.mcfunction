@@ -1,4 +1,4 @@
-tellraw @a[tag=fighter_select] [ \
+execute as @a if dimension ssbrc:fighter_select run tellraw @s [ \
 	{ \
 		translate: "ssbrc.options.preset", \
 		color: "yellow", \
