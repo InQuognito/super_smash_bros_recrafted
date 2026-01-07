@@ -23,8 +23,6 @@ effect give @s[team=!spectator] minecraft:glowing infinite 0 true
 
 function ssbrc:logic/pre_game/stage_select/stage_index/pages/1
 
-tag @s remove smash_plaza
-tag @s remove fighter_select
-tag @s add stage_select
+function ssbrc:logic/player/data/set {data: {temp: {room: "stage_select"}}}
 
 advancement grant @s[advancements={ssbrc:tutorial/stage_select/1=false}] only ssbrc:tutorial/stage_select/1

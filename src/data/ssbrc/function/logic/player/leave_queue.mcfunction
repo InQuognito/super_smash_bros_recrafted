@@ -44,8 +44,6 @@ function ssbrc:logic/player/data/stats/init/set {value: "hard_resets"}
 tag @s remove soft_load
 tag @s add loaded
 
-tag @s add smash_plaza
-tag @s remove fighter_select
-tag @s remove stage_select
+function ssbrc:logic/player/data/set {data: {temp: {room: "smash_plaza"}}}
 
 advancement grant @s[scores={stats.games_played=1..},advancements={ssbrc:tutorial/stage_select/1=true}] only ssbrc:tutorial/outro/1

@@ -1,7 +1,5 @@
 execute in ssbrc:fighter_select run teleport @s 0 0 0 0 0
 
-function ssbrc:logic/player/data/init
-
 execute unless data storage ssbrc:data option{teams: true} run team join waiting @s
 execute if data storage ssbrc:data option{teams: true} run function ssbrc:logic/game/team/join/red
 
@@ -15,8 +13,6 @@ function ssbrc:logic/pre_game/fighter_select/count/activate
 function ssbrc:logic/pre_game/fighter_select/participation/check
 scoreboard players remove @s[tag=!exempt_influence,scores={influence=1..}] influence 1
 
-tag @s remove smash_plaza
-tag @s add fighter_select
-tag @s remove stage_select
+function ssbrc:logic/player/data/set {data: {temp: {room: "fighter_select"}}}
 
 advancement grant @s[advancements={ssbrc:tutorial/fighter_select/1=false}] only ssbrc:tutorial/fighter_select/1

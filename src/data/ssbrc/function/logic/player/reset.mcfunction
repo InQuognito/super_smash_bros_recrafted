@@ -1,3 +1,5 @@
+function ssbrc:logic/player/data/init
+
 function ssbrc:logic/player/leave_queue
 
 function ssbrc:logic/player/data/stats/calculate/run

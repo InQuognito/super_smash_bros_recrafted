@@ -19,7 +19,3 @@ tag @s remove team6
 tag @s remove team7
 tag @s remove team8
 tag @s remove teleport_me
-
-tag @s remove smash_plaza
-tag @s remove fighter_select
-tag @s remove stage_select
