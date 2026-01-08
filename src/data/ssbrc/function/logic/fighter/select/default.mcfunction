@@ -1,5 +1,6 @@
 $function ssbrc:logic/player/data/set {data: {temp: {fighter: {fighter: "$(fighter)"}}}}
 $function ssbrc:logic/player/data/set {data: {temp: {fighter: {series: "$(series)"}}}}
+$function ssbrc:logic/player/data/set {data: {temp: {fighter: {alignment: "$(alignment)"}}}}
 
 $data modify storage ssbrc:temp cache.fighter.fighter set value "$(fighter)"
 $function ssbrc:logic/fighter/skin/check {fighter: "$(fighter)"}

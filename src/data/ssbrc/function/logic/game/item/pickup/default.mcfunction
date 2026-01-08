@@ -1,4 +1,4 @@
-scoreboard players remove items temp 1
+scoreboard players remove #items temp 1
 
 function ssbrc:logic/game/item/pickup/find
 

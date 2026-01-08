@@ -1,3 +1,3 @@
 kill @s
 
-scoreboard players remove items temp 1
+scoreboard players remove #items temp 1
