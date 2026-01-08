@@ -398,6 +398,16 @@ fighters = {
 				}
 			},
 			'blunderbuss': {
+				'type': 'ability',
+				'stats': {
+					'tag': 'ranged',
+					'damage': {
+						'type': 'generic',
+						'amount': 6
+					},
+					'cooldown_group': 'king_k_rool/blunderbuss',
+					'cooldown': 2
+				},
 				'default': {
 					'name': 'ssbrc.fighter.king_k_rool.blunderbuss',
 					'color': 'dark_gray'
@@ -1594,6 +1604,17 @@ fighters = {
 		],
 		'items': {
 			'fists_of_fury': {
+				'type': 'hybrid',
+				'stats': {
+					'attack_damage': 5,
+					'attack_speed': 2.5,
+					'damage': {
+						'type': 'generic',
+						'amount': 5
+					},
+					'cooldown_group': 'captain_falcon/fists_of_fury',
+					'cooldown': 1.5
+				},
 				'default': {
 					'name': 'ssbrc.fighter.captain_falcon.fists_of_fury',
 					'color': 'red'
@@ -1606,6 +1627,17 @@ fighters = {
 				}
 			},
 			'falcon_punch': {
+				'type': 'ability',
+				'stats': {
+					'tag': 'offensive',
+					'damage': {
+						'type': 'fire',
+						'amount': 20,
+						'duration': 40
+					},
+					'cooldown_group': 'captain_falcon/falcon_punch',
+					'cooldown': 0.25
+				},
 				'default': {
 					'name': 'ssbrc.fighter.captain_falcon.falcon_punch',
 					'color': 'red'
@@ -1615,6 +1647,12 @@ fighters = {
 				}
 			},
 			'falcon_charge': {
+				'type': 'ability',
+				'stats': {
+					'tag': 'utility',
+					'cooldown_group': 'captain_falcon/falcon_charge',
+					'cooldown': 1
+				},
 				'default': {
 					'name': 'ssbrc.fighter.captain_falcon.falcon_charge.default',
 					'color': 'red'
