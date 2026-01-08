@@ -29,4 +29,4 @@ execute positioned -528.5 6 -1939.5 run data modify entity @n[type=minecraft:tex
 	}, \
 ]
 
-execute if score game_stage temp matches 4 run function ssbrc:logic/post_game/winner/calculate
+execute if score #game_stage temp matches 4 run function ssbrc:logic/post_game/winner/calculate

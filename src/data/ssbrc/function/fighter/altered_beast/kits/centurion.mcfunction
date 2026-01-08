@@ -10,5 +10,5 @@ function ssbrc:logic/fighter/armor/update with entity @s equipment.body.componen
 
 advancement grant @s[tag=shirtless] only ssbrc:ui/popup/altered_beast
 
-execute if entity @s[tag=shirtless] run return run function ssbrc:logic/player/data/set {temp: {fighter: {form: "shirtless"}}}
-function ssbrc:logic/player/data/set {temp: {fighter: {form: "centurion"}}}
+execute if entity @s[tag=shirtless] run return run function ssbrc:logic/player/data/set {data: {temp: {fighter: {form: "shirtless"}}}}
+function ssbrc:logic/player/data/set {data: {temp: {fighter: {form: "centurion"}}}}

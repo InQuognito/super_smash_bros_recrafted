@@ -1,4 +1,4 @@
-$function ssbrc:logic/player/data/set {temp: {fighter: {form: "$(form)"}}}
+$function ssbrc:logic/player/data/set {data: {temp: {fighter: {form: "$(form)"}}}}
 
 $tellraw @s { \
 	translate: "ssbrc.fighter.team_rocket.$(form).switch", \

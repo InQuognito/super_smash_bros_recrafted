@@ -1,5 +1,5 @@
 execute if items entity @s armor.body *[minecraft:custom_data~{temp: {fighter: {form: "rest"}}}] run playsound ssbrc:fighter.jigglypuff.rest.deactivate player @a
-function ssbrc:logic/player/data/set {temp: {fighter: {form: "default"}}}
+function ssbrc:logic/player/data/set {data: {temp: {fighter: {form: "default"}}}}
 
 function ssbrc:logic/item/modify {search_key: "item", search_value: "rest", path: "ssbrc:fighter/jigglypuff/rest/default"}
 

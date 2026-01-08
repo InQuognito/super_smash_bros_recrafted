@@ -10,4 +10,4 @@ $item modify entity @s armor.chest { \
 	add: false, \
 }
 
-$function ssbrc:logic/player/data/set {temp: {alignment: "$(alignment)"}}
+$function ssbrc:logic/player/data/set {data: {temp: {alignment: "$(alignment)"}}}

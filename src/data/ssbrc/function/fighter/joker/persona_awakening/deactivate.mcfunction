@@ -9,7 +9,7 @@ clear @s *[minecraft:custom_data~{group:"persona_awakening"}]
 
 attribute @s minecraft:knockback_resistance modifier remove ssbrc:yatagarasu
 
-function ssbrc:logic/player/data/set {temp: {fighter: {form: "default"}}}
+function ssbrc:logic/player/data/set {data: {temp: {fighter: {form: "default"}}}}
 function ssbrc:logic/fighter/armor/update with entity @s equipment.body.components."minecraft:custom_data".temp.fighter
 
 playsound ssbrc:fighter.joker.persona_awakening.deactivate player @a

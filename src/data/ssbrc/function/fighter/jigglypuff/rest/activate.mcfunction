@@ -9,7 +9,7 @@ function ssbrc:logic/fighter/effects/mobility/immobilize {type: "default", durat
 effect give @s minecraft:blindness infinite 255 true
 effect give @s minecraft:regeneration infinite 2 true
 
-function ssbrc:logic/player/data/set {temp: {fighter: {form: "rest"}}}
+function ssbrc:logic/player/data/set {data: {temp: {fighter: {form: "rest"}}}}
 function ssbrc:logic/fighter/armor/update with entity @s equipment.body.components."minecraft:custom_data".temp.fighter
 
 playsound ssbrc:fighter.jigglypuff.rest.activate player @a

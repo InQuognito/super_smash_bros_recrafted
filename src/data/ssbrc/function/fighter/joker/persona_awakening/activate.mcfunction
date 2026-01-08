@@ -16,7 +16,7 @@ execute if items entity @s armor.body *[minecraft:custom_data~{temp: {fighter: {
 execute if items entity @s armor.body *[minecraft:custom_data~{temp: {fighter: {persona:"raoul"}}}] run loot give @s loot ssbrc:fighter/joker/personas/raoul/phantom_show
 execute if items entity @s armor.body *[minecraft:custom_data~{temp: {fighter: {persona:"yatagarasu"}}}] run attribute @s minecraft:knockback_resistance modifier add ssbrc:yatagarasu .25 add_value
 
-function ssbrc:logic/player/data/set {temp: {fighter: {form: "maskless"}}}
+function ssbrc:logic/player/data/set {data: {temp: {fighter: {form: "maskless"}}}}
 function ssbrc:logic/fighter/armor/update with entity @s equipment.body.components."minecraft:custom_data".temp.fighter
 
 playsound ssbrc:fighter.joker.persona_awakening.activate player @a

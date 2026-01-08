@@ -3,7 +3,7 @@ function ssbrc:fighter/altered_beast/kits/reset
 tag @s add altered_beast.is_beast
 
 tag @s add shirtless
-$function ssbrc:logic/player/data/set {temp: {fighter: {form: "$(form)"}}}
+$function ssbrc:logic/player/data/set {data: {temp: {fighter: {form: "$(form)"}}}}
 
 item modify entity @s hotbar.8 {function: "minecraft:set_components","components":{"minecraft:item_model":"ssbrc:fighter/altered_beast/item/spirit_orb/centurion"}}
 

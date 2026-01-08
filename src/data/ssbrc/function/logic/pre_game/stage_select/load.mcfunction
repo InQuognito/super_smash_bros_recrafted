@@ -26,7 +26,7 @@ execute store result score players.playing temp if entity @a[predicate=ssbrc:ing
 
 execute if score #players.ingame temp matches 1 run function ssbrc:logic/game/options/preset/singleplayer/on
 
-scoreboard players set game_stage temp 2
+scoreboard players set #game_stage temp 2
 scoreboard players set #countdown temp 30
 
 #execute positioned -528.5 6.5 -1939.5 run data modify entity @n[type=minecraft:text_display,tag=lobby.status,distance=..0.01] text set value [{translate: "ssbrc.lobby.status", color: "gold"},{translate: "ssbrc.lobby.status.stage_select", color: "yellow"}]

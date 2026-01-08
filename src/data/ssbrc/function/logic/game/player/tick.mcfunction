@@ -1,5 +1,5 @@
 execute if score @s flag.dead matches 1.. run function ssbrc:logic/fighter/death
-execute if score game_stage temp matches 4 if score @s respawn matches 2.. run function ssbrc:logic/fighter/respawn/tick
+execute if score #game_stage temp matches 4 if score @s respawn matches 2.. run function ssbrc:logic/fighter/respawn/tick
 
 gamemode spectator @s[team=dead]
 gamemode spectator @s[team=spectator]

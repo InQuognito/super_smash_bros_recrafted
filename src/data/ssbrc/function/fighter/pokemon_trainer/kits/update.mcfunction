@@ -1,5 +1,5 @@
 function ssbrc:fighter/pokemon_trainer/kits/reset
-$function ssbrc:logic/player/data/set {temp: {fighter: {form: "$(form)"}}}
+$function ssbrc:logic/player/data/set {data: {temp: {fighter: {form: "$(form)"}}}}
 
 clear @s #ssbrc:equipment/ability
 

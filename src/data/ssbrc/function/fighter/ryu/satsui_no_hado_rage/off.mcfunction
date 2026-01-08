@@ -2,7 +2,7 @@ effect clear @s minecraft:absorption
 effect clear @s minecraft:speed
 attribute @s minecraft:attack_damage modifier remove ssbrc:fighter/ryu/satsui_no_hado_rage
 
-function ssbrc:logic/player/data/set {temp: {fighter: {form: "default"}}}
+function ssbrc:logic/player/data/set {data: {temp: {fighter: {form: "default"}}}}
 
 function ssbrc:logic/item/data/get {item: "collarbone_breaker",flag_key:"evil",flag_value: "false"}
 function ssbrc:logic/item/data/get {item: "collarbone_breaker",flag_key:"evil",flag_value: "false"}

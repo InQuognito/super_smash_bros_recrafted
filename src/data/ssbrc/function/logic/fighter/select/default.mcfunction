@@ -1,12 +1,12 @@
-$function ssbrc:logic/player/data/set {temp: {fighter: {fighter: "$(fighter)"}}}
-$function ssbrc:logic/player/data/set {temp: {fighter: {series: "$(series)"}}}
+$function ssbrc:logic/player/data/set {data: {temp: {fighter: {fighter: "$(fighter)"}}}}
+$function ssbrc:logic/player/data/set {data: {temp: {fighter: {series: "$(series)"}}}}
 
 $data modify storage ssbrc:temp cache.fighter.fighter set value "$(fighter)"
 $function ssbrc:logic/fighter/skin/check {fighter: "$(fighter)"}
 
 function ssbrc:logic/fighter/skin/set with storage ssbrc:temp cache.fighter
 
-$execute unless items entity @s armor.body *[minecraft:custom_data~{temp: {fighter: {fighter: "team_rocket"}}}] run function ssbrc:logic/player/data/set {temp: {fighter: {form: "$(default_form)"}}}
+$execute unless items entity @s armor.body *[minecraft:custom_data~{temp: {fighter: {fighter: "team_rocket"}}}] run function ssbrc:logic/player/data/set {data: {temp: {fighter: {form: "$(default_form)"}}}}
 
 tag @s add fighter_picked
 
