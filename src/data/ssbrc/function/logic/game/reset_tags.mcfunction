@@ -1,6 +1,6 @@
-function ssbrc:logic/fighter/reset_tags
+function ssbrc:logic/fighter/reset
 
-function ssbrc:logic/stage/reset_tags
+function ssbrc:logic/stage/reset
 
 # Misc
 tag @s remove admin
