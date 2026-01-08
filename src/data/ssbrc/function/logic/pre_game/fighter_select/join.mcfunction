@@ -13,6 +13,4 @@ function ssbrc:logic/pre_game/fighter_select/count/activate
 function ssbrc:logic/pre_game/fighter_select/participation/check
 scoreboard players remove @s[tag=!exempt_influence,scores={influence=1..}] influence 1
 
-function ssbrc:logic/player/data/set {data: {temp: {room: "fighter_select"}}}
-
 advancement grant @s[advancements={ssbrc:tutorial/fighter_select/1=false}] only ssbrc:tutorial/fighter_select/1

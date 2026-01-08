@@ -23,6 +23,4 @@ effect give @s[team=!spectator] minecraft:glowing infinite 0 true
 
 function ssbrc:logic/pre_game/stage_select/stage_index/pages/1
 
-function ssbrc:logic/player/data/set {data: {temp: {room: "stage_select"}}}
-
 advancement grant @s[advancements={ssbrc:tutorial/stage_select/1=false}] only ssbrc:tutorial/stage_select/1
