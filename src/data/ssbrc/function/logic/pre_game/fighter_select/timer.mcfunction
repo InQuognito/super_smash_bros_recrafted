@@ -1,4 +1,4 @@
-execute if score #countdown temp matches ..90 as @a if dimension ssbrc:fighter_select run function ssbrc:logic/pre_game/fighter_select/countdown
+execute if score #countdown temp matches ..90 as @a at @s if dimension ssbrc:fighter_select run function ssbrc:logic/pre_game/fighter_select/countdown
 execute if score #countdown temp matches 60 run function ssbrc:logic/pre_game/fighter_select/participation/check
 execute if score #countdown temp matches 0 run function ssbrc:logic/pre_game/fighter_select/start/check
 

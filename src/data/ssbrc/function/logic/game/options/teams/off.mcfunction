@@ -1,4 +1,4 @@
-execute as @a if dimension ssbrc:fighter_select run function ssbrc:logic/game/options/teams/set
+execute as @a at @s if dimension ssbrc:fighter_select run function ssbrc:logic/game/options/teams/set
 
 data modify storage ssbrc:data option.teams set value false
 

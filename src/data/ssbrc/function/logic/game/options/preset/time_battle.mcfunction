@@ -1,4 +1,4 @@
-execute as @a if dimension ssbrc:fighter_select run tellraw @s [ \
+execute as @a at @s if dimension ssbrc:fighter_select run tellraw @s [ \
 	{ \
 		translate: "ssbrc.options.preset", \
 		color: "yellow", \
