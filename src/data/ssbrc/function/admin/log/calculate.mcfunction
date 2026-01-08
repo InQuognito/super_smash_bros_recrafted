@@ -4,7 +4,7 @@ $tellraw @s [ \
 	{ \
 		translate: "ssbrc.fighter.$(fighter)", \
 	}, \
-	" - "
+	" - ", \
 	{ \
 		score: { \
 			name: "$(fighter)", \
