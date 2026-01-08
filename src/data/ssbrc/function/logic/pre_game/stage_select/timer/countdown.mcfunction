@@ -1,3 +1,3 @@
-execute if score #countdown temp matches ..30 run title @a[tag=stage_select] actionbar [{translate: "ssbrc.lobby.time_remaining", color: "gold"},{score:{name:"#countdown",objective:"temp"},color: "yellow"},{translate: "s", color: "gold"}]
+execute if score #countdown temp matches ..30 as @a at @s if dimension ssbrc:stage_select run function ssbrc:logic/pre_game/countdown
 
 execute if score #countdown temp matches 0 run function ssbrc:logic/pre_game/stage_select/calculate {function: "ssbrc:logic/pre_game/stage_select/pick_stage/load_stage"}
