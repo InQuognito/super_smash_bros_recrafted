@@ -2,5 +2,13 @@
 	"parent": "minecraft:item/handheld",
 	"textures": {
 		"layer0": "ssbrc:smash_item/cracker_launcher"
+	},
+	"display": {
+		"firstperson_righthand": {
+			"rotation": [-130.75, 90, 0]
+		},
+		"firstperson_lefthand": {
+			"rotation": [-130.75, -90, 0]
+		}
 	}
 }
