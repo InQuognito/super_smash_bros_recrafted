@@ -493,6 +493,25 @@ fighters = {
 				'dark_link': {
 					'color': 'red'
 				}
+			},
+			'link_boomerang': {
+				'type': 'ability',
+				'stats': {
+					'tag': 'ranged',
+					'damage': {
+						'type': 'generic',
+						'amount': 6
+					},
+					'cooldown_group': 'link/boomerang',
+					'cooldown': 1
+				},
+				'default': {
+					'name': 'ssbrc.fighter.link.boomerang',
+					'color': 'red'
+				},
+				'gold': {
+					'color': 'gold'
+				}
 			}
 		}
 	},
@@ -1569,6 +1588,38 @@ fighters = {
 					'name': 'ssbrc.fighter.giegue.devastation_strike',
 					'color': 'dark_gray'
 				}
+			},
+			'pk_freeze': {
+				'type': 'ability',
+				'stats': {
+					'tag': 'ranged',
+					'damage': {
+						'type': 'frost',
+						'amount': 4
+					},
+					'cooldown_group': 'giegue/pk_freeze',
+					'cooldown': 1
+				},
+				'static_data': {
+					'name': 'ssbrc.fighter.giegue.pk_freeze',
+					'color': 'aqua'
+				}
+			},
+			'pk_beam': {
+				'type': 'ability',
+				'stats': {
+					'tag': 'ranged',
+					'damage': {
+						'type': 'generic',
+						'amount': 10
+					},
+					'cooldown_group': 'giegue/pk_beam',
+					'cooldown': 5
+				},
+				'static_data': {
+					'name': 'ssbrc.fighter.giegue.pk_beam',
+					'color': 'gold'
+				}
 			}
 		}
 	},
@@ -2184,6 +2235,23 @@ fighters = {
 				'sir_lancelot': {
 					'name': 'ssbrc.fighter.shadow.sword.sir_lancelot',
 					'color': 'gray'
+				}
+			},
+			'chaos_spear': {
+				'type': 'ability',
+				'stats': {
+					'tag': 'ranged',
+					'damage': {
+						'type': 'fire',
+						'amount': 4,
+						'duration': 30
+					},
+					'cooldown_group': 'mario/fireball',
+					'cooldown': 1
+				},
+				'static_data': {
+					'name': 'ssbrc.fighter.shadow.chaos_spear',
+					'color': 'yellow'
 				}
 			}
 		}
