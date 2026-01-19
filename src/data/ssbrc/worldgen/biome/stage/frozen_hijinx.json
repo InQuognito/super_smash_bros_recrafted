@@ -2,15 +2,8 @@
 	"carvers": [],
 	"downfall": 0.9,
 	"effects": {
-		"fog_color": 12638463,
 		"grass_color": 16777215,
-		"foliage_color": 16777215,
-		"dry_foliage_color": 16777215,
-		"music": [],
-		"music_volume": 0,
-		"sky_color": 7842047,
-		"water_color": 4159204,
-		"water_fog_color": 329011
+		"water_color": 4159204
 	},
 	"features": [],
 	"has_precipitation": false,

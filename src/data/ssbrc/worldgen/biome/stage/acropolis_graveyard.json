@@ -1,16 +1,14 @@
 {
+	"attributes": {
+		"minecraft:visual/sky_color": 5206653
+	},
 	"carvers": [],
 	"downfall": 0.9,
 	"effects": {
 		"dry_foliage_color": 8082228,
-		"fog_color": 12638463,
 		"foliage_color": 6975545,
 		"grass_color_modifier": "swamp",
-		"music": [],
-		"music_volume": 0,
-		"sky_color": 7907327,
-		"water_color": 6388580,
-		"water_fog_color": 2302743
+		"water_color": 6388580
 	},
 	"features": [],
 	"has_precipitation": false,

@@ -12,7 +12,7 @@ gamerule mob_drops false
 gamerule drowning_damage true
 gamerule fall_damage true
 gamerule fire_damage true
-gamerule fire_spread_radius_around_player 0
+gamerule fire_spread_radius_around_player -1
 gamerule forgive_dead_players true
 gamerule freeze_damage false
 gamerule global_sound_events false

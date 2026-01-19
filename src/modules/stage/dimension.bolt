@@ -7,8 +7,9 @@ for stage in stages:
 			"type": "minecraft:flat",
 			"settings": {
 				"biome": f'ssbrc:stage/{stage}',
-				"layers": [],
-				"structure_overrides": []
+				"lakes": false,
+				"features": false,
+				"layers": []
 			}
 		}
 	}
@@ -19,8 +20,9 @@ for stage in stages:
 			"type": "minecraft:flat",
 			"settings": {
 				"biome": f'ssbrc:stage/{stage}',
-				"layers": [],
-				"structure_overrides": []
+				"lakes": false,
+				"features": false,
+				"layers": []
 			}
 		}
 	}

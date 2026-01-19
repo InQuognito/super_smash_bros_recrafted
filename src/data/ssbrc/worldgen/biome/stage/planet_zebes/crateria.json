@@ -1,14 +1,15 @@
 {
 	"attributes": {
-		"minecraft:visual/cloud_height": -8
+		"minecraft:visual/cloud_color": 4539717,
+		"minecraft:visual/sky_color": 7566195
 	},
 	"carvers": [],
 	"downfall": 0.4,
 	"effects": {
-		"water_color": 4159204
+		"water_color": 14935011
 	},
 	"features": [],
-	"has_precipitation": false,
+	"has_precipitation": true,
 	"spawn_costs": {},
 	"spawners": {},
 	"temperature": 0.8
