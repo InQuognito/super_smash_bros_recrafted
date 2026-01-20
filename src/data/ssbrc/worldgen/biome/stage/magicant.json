@@ -1,6 +1,11 @@
 {
 	"attributes": {
-		"minecraft:visual/cloud_color": 16681940,
+		"minecraft:visual/cloud_color": [
+			1,
+			1,
+			1,
+			0.2
+		],
 		"minecraft:visual/sky_color": 16765415
 	},
 	"carvers": [],
