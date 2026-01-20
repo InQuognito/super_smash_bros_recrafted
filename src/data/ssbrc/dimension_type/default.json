@@ -17,7 +17,7 @@
 		"minecraft:gameplay/surface_slime_spawn_chance": 0,
 		"minecraft:gameplay/turtle_egg_hatch_chance": 0,
 		"minecraft:gameplay/water_evaporates": false,
-		"minecraft:visual/cloud_color": 16250871,
+		"minecraft:visual/cloud_color": "#ccffffff",
 		"minecraft:visual/cloud_height": 64,
 		"minecraft:visual/sky_color": 7907327,
 		"minecraft:visual/water_fog_color": 329011
