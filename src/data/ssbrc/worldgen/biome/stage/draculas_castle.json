@@ -2,9 +2,9 @@
 	"attributes": {
 		"minecraft:visual/cloud_color": [
 			1,
-			0.1,
 			0,
-			0
+			0,
+			1
 		],
 		"minecraft:visual/sky_color": 10027008
 	},
