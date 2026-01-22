@@ -3,7 +3,7 @@
 	"generator": {
 		"type": "minecraft:flat",
 		"settings": {
-			"biome": "ssbrc:smash_plaza",
+			"biome": "ssbrc:stage_select",
 			"layers": [],
 			"structure_overrides": []
 		}
