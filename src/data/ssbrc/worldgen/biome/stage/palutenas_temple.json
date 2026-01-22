@@ -1,4 +1,7 @@
 {
+	"attributes": {
+		"minecraft:visual/cloud_height": -16
+	},
 	"carvers": [],
 	"downfall": 0.4,
 	"effects": {

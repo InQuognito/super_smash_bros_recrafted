@@ -1,6 +1,6 @@
 {
 	"attributes": {
-		"minecraft:visual/cloud_height": -999,
+		"minecraft:visual/cloud_color": 0,
 		"minecraft:visual/sky_color": 6684927
 	},
 	"carvers": [],
