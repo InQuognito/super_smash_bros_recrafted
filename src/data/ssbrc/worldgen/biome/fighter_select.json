@@ -1,17 +1,11 @@
 {
 	"attributes": {
-		"minecraft:visual/cloud_color": [
-			0.5,
-			0.5,
-			0.5,
-			0.75
-		],
-		"minecraft:visual/sky_color": 7566195
+		"minecraft:visual/sky_color": 13107440
 	},
 	"carvers": [],
 	"downfall": 0.4,
 	"effects": {
-		"water_color": 14935011
+		"water_color": 4159204
 	},
 	"features": [],
 	"has_precipitation": true,

@@ -1,4 +1,5 @@
 #forceload add ~-50 ~-50 ~50 ~50
+fillbiome -50 -50 -50 50 50 50 ssbrc:fighter_select
 
 # Fighter count
 scoreboard players set fighter_count temp 47

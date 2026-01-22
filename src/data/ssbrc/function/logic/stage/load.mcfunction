@@ -1,4 +1,5 @@
 forceload add -50 -50 50 50
+$fillbiome -50 -50 -50 50 50 50 ssbrc:stage/$(name)
 
 $data modify storage ssbrc:temp game.stage set from storage ssbrc:data stage.$(name)
 
