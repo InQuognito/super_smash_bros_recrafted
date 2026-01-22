@@ -3175,6 +3175,16 @@ fighters = {
 		],
 		'items': {
 			'drone': {
+				'type': 'ability',
+				'stats': {
+					'tag': 'ranged',
+					'damage': {
+						'type': 'generic',
+						'amount': 4
+					},
+					'cooldown_group': 'yar/drone',
+					'cooldown': 0.25
+				},
 				'default': {
 					'name': 'ssbrc.fighter.yar.drone',
 					'color': 'yellow'
@@ -3211,6 +3221,16 @@ fighters = {
 				}
 			},
 			'ray_blaster': {
+				'type': 'ability',
+				'stats': {
+					'tag': 'ranged',
+					'damage': {
+						'type': 'generic',
+						'amount': 4
+					},
+					'cooldown_group': 'yar/ray_blaster',
+					'cooldown': 0.75
+				},
 				'default': {
 					'name': 'ssbrc.fighter.yar.ray_blaster',
 					'color': 'white'
