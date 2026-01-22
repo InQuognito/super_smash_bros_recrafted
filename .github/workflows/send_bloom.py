@@ -32,4 +32,4 @@ make_request(
 )
 print("Success!")
 time.sleep(0.05)
-make_request(route="command", data={"command": "function ssbrc:server/build/finish"})
+make_request(route="command", data={"command": "function ssbrc:server/finish"})

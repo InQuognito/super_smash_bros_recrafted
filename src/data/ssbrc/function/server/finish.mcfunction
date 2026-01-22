@@ -1,0 +1,1 @@
+tellraw @a [{text: "[",color: "dark_red"},{text: "Server",color: "red"},{text: "]",color: "dark_red"},{text: " Build complete! Please ",color: "green"},{text: "/reload",color: "yellow"},{text: " to apply the latest changes.",color: "green"}]
