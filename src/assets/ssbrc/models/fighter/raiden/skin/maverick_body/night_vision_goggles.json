@@ -1,0 +1,6 @@
+{
+	"parent": "ssbrc:template/fighter/head",
+	"textures": {
+		"base": "ssbrc:fighter/raiden/skin/maverick_body/night_vision_goggles"
+	}
+}

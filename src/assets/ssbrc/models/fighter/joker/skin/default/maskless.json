@@ -1,6 +1,6 @@
 {
 	"parent": "ssbrc:template/fighter/head",
 	"textures": {
-		"base": "ssbrc:fighter/joker/skin/default/maskless"
+		"base": "ssbrc:fighter/joker/skin/default/awakening"
 	}
 }

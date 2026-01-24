@@ -1,5 +1,6 @@
 {
 	"attributes": {
+		"minecraft:visual/cloud_color": 0,
 		"minecraft:visual/fog_color": 15167501
 	},
 	"carvers": [],

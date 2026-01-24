@@ -1,4 +1,5 @@
 item replace entity @s armor.head with minecraft:iron_ingot[ \
+	minecraft:item_model = "ssbrc:fighter/head", \
 	minecraft:enchantments = { \
 		"minecraft:binding_curse": 1, \
 	}, \

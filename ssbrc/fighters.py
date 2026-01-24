@@ -2664,7 +2664,7 @@ fighters = {
 		'forms_isolated_to': 'head',
 		'forms': [
 			'default',
-			'maskless'
+			'awakening'
 		],
 		'items': {
 			'rebel_knife': {

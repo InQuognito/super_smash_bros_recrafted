@@ -1,0 +1,3371 @@
+{
+	"model": {
+		"type": "minecraft:composite",
+		"models": [
+			{
+				"type": "minecraft:condition",
+				"property": "minecraft:component",
+				"predicate": "minecraft:custom_data",
+				"value": {
+					"bunny_hood": "true"
+				},
+				"on_true": {
+					"type": "minecraft:model",
+					"model": "ssbrc:smash_item/bunny_hood/model"
+				},
+				"on_false": {
+					"type": "minecraft:empty"
+				}
+			},
+			{
+				"type": "minecraft:select",
+				"property": "minecraft:custom_model_data",
+				"cases": [
+					{
+						"when": "altered_beast",
+						"model": {
+							"type": "minecraft:select",
+							"property": "minecraft:custom_model_data",
+							"index": 1,
+							"cases": [
+								{
+									"when": "gold",
+									"model": {
+										"type": "minecraft:select",
+										"property": "minecraft:custom_model_data",
+										"index": 2,
+										"cases": [
+											{
+												"when": "werebear",
+												"model": {
+													"type": "minecraft:model",
+													"model": "ssbrc:fighter/altered_beast/skin/gold/werebear"
+												}
+											},
+											{
+												"when": "weredragon",
+												"model": {
+													"type": "minecraft:model",
+													"model": "ssbrc:fighter/altered_beast/skin/gold/weredragon"
+												}
+											},
+											{
+												"when": "weretiger",
+												"model": {
+													"type": "minecraft:model",
+													"model": "ssbrc:fighter/altered_beast/skin/gold/weretiger"
+												}
+											},
+											{
+												"when": "werewolf",
+												"model": {
+													"type": "minecraft:model",
+													"model": "ssbrc:fighter/altered_beast/skin/gold/werewolf"
+												}
+											}
+										],
+										"fallback": {
+											"type": "minecraft:model",
+											"model": "ssbrc:fighter/altered_beast/skin/gold/centurion"
+										}
+									}
+								},
+								{
+									"when": "player_2",
+									"model": {
+										"type": "minecraft:select",
+										"property": "minecraft:custom_model_data",
+										"index": 2,
+										"cases": [
+											{
+												"when": "werebear",
+												"model": {
+													"type": "minecraft:model",
+													"model": "ssbrc:fighter/altered_beast/skin/player_2/werebear"
+												}
+											},
+											{
+												"when": "weredragon",
+												"model": {
+													"type": "minecraft:model",
+													"model": "ssbrc:fighter/altered_beast/skin/player_2/weredragon"
+												}
+											},
+											{
+												"when": "weretiger",
+												"model": {
+													"type": "minecraft:model",
+													"model": "ssbrc:fighter/altered_beast/skin/player_2/weretiger"
+												}
+											},
+											{
+												"when": "werewolf",
+												"model": {
+													"type": "minecraft:model",
+													"model": "ssbrc:fighter/altered_beast/skin/player_2/werewolf"
+												}
+											}
+										],
+										"fallback": {
+											"type": "minecraft:model",
+											"model": "ssbrc:fighter/altered_beast/skin/default/centurion"
+										}
+									}
+								},
+								{
+									"when": "luke_custer",
+									"model": {
+										"type": "minecraft:select",
+										"property": "minecraft:custom_model_data",
+										"index": 2,
+										"cases": [
+											{
+												"when": "werebear",
+												"model": {
+													"type": "minecraft:model",
+													"model": "ssbrc:fighter/altered_beast/skin/luke_custer/werebear"
+												}
+											},
+											{
+												"when": "weredragon",
+												"model": {
+													"type": "minecraft:model",
+													"model": "ssbrc:fighter/altered_beast/skin/luke_custer/weredragon"
+												}
+											},
+											{
+												"when": "weretiger",
+												"model": {
+													"type": "minecraft:model",
+													"model": "ssbrc:fighter/altered_beast/skin/luke_custer/weretiger"
+												}
+											},
+											{
+												"when": "werewolf",
+												"model": {
+													"type": "minecraft:model",
+													"model": "ssbrc:fighter/altered_beast/skin/luke_custer/werewolf"
+												}
+											}
+										],
+										"fallback": {
+											"type": "minecraft:model",
+											"model": "ssbrc:fighter/altered_beast/skin/luke_custer/centurion"
+										}
+									}
+								}
+							],
+							"fallback": {
+								"type": "minecraft:select",
+								"property": "minecraft:custom_model_data",
+								"index": 2,
+								"cases": [
+									{
+										"when": "werebear",
+										"model": {
+											"type": "minecraft:model",
+											"model": "ssbrc:fighter/altered_beast/skin/default/werebear"
+										}
+									},
+									{
+										"when": "weredragon",
+										"model": {
+											"type": "minecraft:model",
+											"model": "ssbrc:fighter/altered_beast/skin/default/weredragon"
+										}
+									},
+									{
+										"when": "weretiger",
+										"model": {
+											"type": "minecraft:model",
+											"model": "ssbrc:fighter/altered_beast/skin/default/weretiger"
+										}
+									},
+									{
+										"when": "werewolf",
+										"model": {
+											"type": "minecraft:model",
+											"model": "ssbrc:fighter/altered_beast/skin/default/werewolf"
+										}
+									}
+								],
+								"fallback": {
+									"type": "minecraft:model",
+									"model": "ssbrc:fighter/altered_beast/skin/default/centurion"
+								}
+							}
+						}
+					},
+					{
+						"when": "alucard",
+						"model": {
+							"type": "minecraft:composite",
+							"models": [
+								{
+									"type": "minecraft:condition",
+									"property": "minecraft:component",
+									"predicate": "minecraft:custom_data",
+									"value": {
+										"blood_metamorphosis": "true"
+									},
+									"on_true": {
+										"type": "minecraft:model",
+										"model": "ssbrc:fighter/alucard/skin/accessory/blood_metamorphosis"
+									},
+									"on_false": {
+										"type": "minecraft:empty"
+									}
+								},
+								{
+									"type": "minecraft:select",
+									"property": "minecraft:custom_model_data",
+									"index": 1,
+									"cases": [
+										{
+											"when": "gold",
+											"model": {
+												"type": "minecraft:model",
+												"model": "ssbrc:fighter/alucard/skin/gold"
+											}
+										},
+										{
+											"when": "judgement",
+											"model": {
+												"type": "minecraft:model",
+												"model": "ssbrc:fighter/alucard/skin/judgement"
+											}
+										},
+										{
+											"when": "lords_of_shadow",
+											"model": {
+												"type": "minecraft:model",
+												"model": "ssbrc:fighter/alucard/skin/lords_of_shadow"
+											}
+										},
+										{
+											"when": "moonlit_rhapsody",
+											"model": {
+												"type": "minecraft:model",
+												"model": "ssbrc:fighter/alucard/skin/moonlit_rhapsody"
+											}
+										}
+									],
+									"fallback": {
+										"type": "minecraft:model",
+										"model": "ssbrc:fighter/alucard/skin/default"
+									}
+								}
+							]
+						}
+					},
+					{
+						"when": "bowser",
+						"model": {
+							"type": "minecraft:select",
+							"property": "minecraft:custom_model_data",
+							"index": 1,
+							"cases": [
+								{
+									"when": "gold",
+									"model": {
+										"type": "minecraft:model",
+										"model": "ssbrc:fighter/bowser/skin/gold"
+									}
+								},
+								{
+									"when": "flower_power",
+									"model": {
+										"type": "minecraft:model",
+										"model": "ssbrc:fighter/bowser/skin/flower_power"
+									}
+								},
+								{
+									"when": "rookie",
+									"model": {
+										"type": "minecraft:model",
+										"model": "ssbrc:fighter/bowser/skin/rookie"
+									}
+								},
+								{
+									"when": "dry_bowser",
+									"model": {
+										"type": "minecraft:model",
+										"model": "ssbrc:fighter/bowser/skin/dry_bowser"
+									}
+								},
+								{
+									"when": "bowsette",
+									"model": {
+										"type": "minecraft:model",
+										"model": "ssbrc:fighter/bowser/skin/bowsette"
+									}
+								}
+							],
+							"fallback": {
+								"type": "minecraft:model",
+								"model": "ssbrc:fighter/bowser/skin/default"
+							}
+						}
+					},
+					{
+						"when": "byleth",
+						"model": {
+							"type": "minecraft:select",
+							"property": "minecraft:custom_model_data",
+							"index": 1,
+							"cases": [
+								{
+									"when": "awakened",
+									"model": {
+										"type": "minecraft:select",
+										"property": "minecraft:custom_model_data",
+										"index": 2,
+										"cases": [
+											{
+												"when": "male",
+												"model": {
+													"type": "minecraft:model",
+													"model": "ssbrc:fighter/byleth/skin/awakened/male"
+												}
+											}
+										],
+										"fallback": {
+											"type": "minecraft:model",
+											"model": "ssbrc:fighter/byleth/skin/awakened/female"
+										}
+									}
+								}
+							],
+							"fallback": {
+								"type": "minecraft:select",
+								"property": "minecraft:custom_model_data",
+								"index": 2,
+								"cases": [
+									{
+										"when": "male",
+										"model": {
+											"type": "minecraft:model",
+											"model": "ssbrc:fighter/byleth/skin/default/male"
+										}
+									}
+								],
+								"fallback": {
+									"type": "minecraft:model",
+									"model": "ssbrc:fighter/byleth/skin/default/female"
+								}
+							}
+						}
+					},
+					{
+						"when": "captain_falcon",
+						"model": {
+							"type": "minecraft:select",
+							"property": "minecraft:custom_model_data",
+							"index": 1,
+							"cases": [
+								{
+									"when": "gold",
+									"model": {
+										"type": "minecraft:model",
+										"model": "ssbrc:fighter/captain_falcon/skin/gold"
+									}
+								},
+								{
+									"when": "super_falcon",
+									"model": {
+										"type": "minecraft:model",
+										"model": "ssbrc:fighter/captain_falcon/skin/super_falcon"
+									}
+								},
+								{
+									"when": "blood_falcon",
+									"model": {
+										"type": "minecraft:model",
+										"model": "ssbrc:fighter/captain_falcon/skin/blood_falcon"
+									}
+								},
+								{
+									"when": "rick_wheeler",
+									"model": {
+										"type": "minecraft:model",
+										"model": "ssbrc:fighter/captain_falcon/skin/rick_wheeler"
+									}
+								}
+							],
+							"fallback": {
+								"type": "minecraft:model",
+								"model": "ssbrc:fighter/captain_falcon/skin/default"
+							}
+						}
+					},
+					{
+						"when": "cloud",
+						"model": {
+							"type": "minecraft:select",
+							"property": "minecraft:custom_model_data",
+							"index": 1,
+							"cases": [
+								{
+									"when": "midgar_infantry",
+									"model": {
+										"type": "minecraft:model",
+										"model": "ssbrc:fighter/cloud/skin/midgar_infantry"
+									}
+								}
+							],
+							"fallback": {
+								"type": "minecraft:model",
+								"model": "ssbrc:fighter/cloud/skin/default"
+							}
+						}
+					},
+					{
+						"when": "dark_samus",
+						"model": {
+							"type": "minecraft:select",
+							"property": "minecraft:custom_model_data",
+							"index": 1,
+							"cases": [
+								{
+									"when": "gold",
+									"model": {
+										"type": "minecraft:model",
+										"model": "ssbrc:fighter/dark_samus/skin/gold"
+									}
+								},
+								{
+									"when": "prime_2",
+									"model": {
+										"type": "minecraft:model",
+										"model": "ssbrc:fighter/dark_samus/skin/prime_2"
+									}
+								},
+								{
+									"when": "prime_3",
+									"model": {
+										"type": "minecraft:model",
+										"model": "ssbrc:fighter/dark_samus/skin/prime_3"
+									}
+								},
+								{
+									"when": "prototype",
+									"model": {
+										"type": "minecraft:model",
+										"model": "ssbrc:fighter/dark_samus/skin/prototype"
+									}
+								}
+							],
+							"fallback": {
+								"type": "minecraft:model",
+								"model": "ssbrc:fighter/dark_samus/skin/default"
+							}
+						}
+					},
+					{
+						"when": "donkey_kong",
+						"model": {
+							"type": "minecraft:select",
+							"property": "minecraft:custom_model_data",
+							"index": 1,
+							"cases": [
+								{
+									"when": "gold",
+									"model": {
+										"type": "minecraft:model",
+										"model": "ssbrc:fighter/donkey_kong/skin/gold"
+									}
+								},
+								{
+									"when": "flower_power",
+									"model": {
+										"type": "minecraft:model",
+										"model": "ssbrc:fighter/donkey_kong/skin/flower_power"
+									}
+								},
+								{
+									"when": "super_kong",
+									"model": {
+										"type": "minecraft:model",
+										"model": "ssbrc:fighter/donkey_kong/skin/super_kong"
+									}
+								}
+							],
+							"fallback": {
+								"type": "minecraft:model",
+								"model": "ssbrc:fighter/donkey_kong/skin/default"
+							}
+						}
+					},
+					{
+						"when": "fox",
+						"model": {
+							"type": "minecraft:select",
+							"property": "minecraft:custom_model_data",
+							"index": 1,
+							"cases": [
+								{
+									"when": "assault",
+									"model": {
+										"type": "minecraft:model",
+										"model": "ssbrc:fighter/fox/skin/assault"
+									}
+								},
+								{
+									"when": "adventures",
+									"model": {
+										"type": "minecraft:model",
+										"model": "ssbrc:fighter/fox/skin/assault"
+									}
+								},
+								{
+									"when": "g_zero",
+									"model": {
+										"type": "minecraft:model",
+										"model": "ssbrc:fighter/fox/skin/assault"
+									}
+								}
+							],
+							"fallback": {
+								"type": "minecraft:model",
+								"model": "ssbrc:fighter/fox/skin/default"
+							}
+						}
+					},
+					{
+						"when": "ganondorf",
+						"model": {
+							"type": "minecraft:select",
+							"property": "minecraft:custom_model_data",
+							"index": 1,
+							"cases": [
+								{
+									"when": "gold",
+									"model": {
+										"type": "minecraft:model",
+										"model": "ssbrc:fighter/ganondorf/skin/gold"
+									}
+								},
+								{
+									"when": "ocarina_of_time",
+									"model": {
+										"type": "minecraft:model",
+										"model": "ssbrc:fighter/ganondorf/skin/ocarina_of_time"
+									}
+								},
+								{
+									"when": "wind_waker",
+									"model": {
+										"type": "minecraft:model",
+										"model": "ssbrc:fighter/ganondorf/skin/wind_waker"
+									}
+								},
+								{
+									"when": "tears_of_the_kingdom",
+									"model": {
+										"type": "minecraft:model",
+										"model": "ssbrc:fighter/ganondorf/skin/tears_of_the_kingdom"
+									}
+								}
+							],
+							"fallback": {
+								"type": "minecraft:model",
+								"model": "ssbrc:fighter/ganondorf/skin/default"
+							}
+						}
+					},
+					{
+						"when": "giegue",
+						"model": {
+							"type": "minecraft:select",
+							"property": "minecraft:custom_model_data",
+							"index": 1,
+							"cases": [
+								{
+									"when": "gold",
+									"model": {
+										"type": "minecraft:model",
+										"model": "ssbrc:fighter/giegue/skin/gold"
+									}
+								},
+								{
+									"when": "moonside",
+									"model": {
+										"type": "minecraft:model",
+										"model": "ssbrc:fighter/giegue/skin/moonside"
+									}
+								},
+								{
+									"when": "manga",
+									"model": {
+										"type": "minecraft:model",
+										"model": "ssbrc:fighter/giegue/skin/manga"
+									}
+								},
+								{
+									"when": "niiue",
+									"model": {
+										"type": "minecraft:model",
+										"model": "ssbrc:fighter/giegue/skin/niiue"
+									}
+								}
+							],
+							"fallback": {
+								"type": "minecraft:model",
+								"model": "ssbrc:fighter/giegue/skin/default"
+							}
+						}
+					},
+					{
+						"when": "greninja",
+						"model": {
+							"type": "minecraft:select",
+							"property": "minecraft:custom_model_data",
+							"index": 1,
+							"cases": [
+								{
+									"when": "gold",
+									"model": {
+										"type": "minecraft:model",
+										"model": "ssbrc:fighter/greninja/skin/gold"
+									}
+								},
+								{
+									"when": "shiny",
+									"model": {
+										"type": "minecraft:model",
+										"model": "ssbrc:fighter/greninja/skin/shiny"
+									}
+								},
+								{
+									"when": "shadow",
+									"model": {
+										"type": "minecraft:model",
+										"model": "ssbrc:fighter/greninja/skin/shadow"
+									}
+								}
+							],
+							"fallback": {
+								"type": "minecraft:model",
+								"model": "ssbrc:fighter/giegue/skin/default"
+							}
+						}
+					},
+					{
+						"when": "hero",
+						"model": {
+							"type": "minecraft:select",
+							"property": "minecraft:custom_model_data",
+							"index": 2,
+							"cases": [
+								{
+									"when": "kaclang",
+									"model": {
+										"type": "minecraft:select",
+										"property": "minecraft:custom_model_data",
+										"index": 1,
+										"cases": [
+											{
+												"when": "gold",
+												"model": {
+													"type": "minecraft:model",
+													"model": "ssbrc:fighter/hero/skin/gold/kaclang"
+												}
+											},
+											{
+												"when": "erdrick",
+												"model": {
+													"type": "minecraft:model",
+													"model": "ssbrc:fighter/hero/skin/erdrick/kaclang"
+												}
+											},
+											{
+												"when": "rek",
+												"model": {
+													"type": "minecraft:model",
+													"model": "ssbrc:fighter/hero/skin/rek/kaclang"
+												}
+											},
+											{
+												"when": "solo",
+												"model": {
+													"type": "minecraft:model",
+													"model": "ssbrc:fighter/hero/skin/solo/kaclang"
+												}
+											},
+											{
+												"when": "sofia",
+												"model": {
+													"type": "minecraft:model",
+													"model": "ssbrc:fighter/hero/skin/sofia/kaclang"
+												}
+											}
+										],
+										"fallback": {
+											"type": "minecraft:model",
+											"model": "ssbrc:fighter/hero/skin/default/kaclang"
+										}
+									}
+								}
+							],
+							"fallback": {
+								"type": "minecraft:select",
+								"property": "minecraft:custom_model_data",
+								"index": 1,
+								"cases": [
+									{
+										"when": "erdrick",
+										"model": {
+											"type": "minecraft:model",
+											"model": "ssbrc:fighter/hero/skin/erdrick/default"
+										}
+									},
+									{
+										"when": "rek",
+										"model": {
+											"type": "minecraft:model",
+											"model": "ssbrc:fighter/hero/skin/rek/default"
+										}
+									},
+									{
+										"when": "solo",
+										"model": {
+											"type": "minecraft:model",
+											"model": "ssbrc:fighter/hero/skin/solo/default"
+										}
+									},
+									{
+										"when": "sofia",
+										"model": {
+											"type": "minecraft:model",
+											"model": "ssbrc:fighter/hero/skin/sofia/default"
+										}
+									}
+								],
+								"fallback": {
+									"type": "minecraft:model",
+									"model": "ssbrc:fighter/hero/skin/default/default"
+								}
+							}
+						}
+					},
+					{
+						"when": "ice_climbers",
+						"model": {
+							"type": "minecraft:select",
+							"property": "minecraft:custom_model_data",
+							"index": 2,
+							"cases": [
+								{
+									"when": "popo",
+									"model": {
+										"type": "minecraft:select",
+										"property": "minecraft:custom_model_data",
+										"index": 1,
+										"cases": [
+											{
+												"when": "gold",
+												"model": {
+													"type": "minecraft:model",
+													"model": "ssbrc:fighter/ice_climbers/skin/gold/popo"
+												}
+											}
+										],
+										"fallback": {
+											"type": "minecraft:model",
+											"model": "ssbrc:fighter/ice_climbers/skin/default/popo"
+										}
+									}
+								}
+							],
+							"fallback": {
+								"type": "minecraft:select",
+								"property": "minecraft:custom_model_data",
+								"index": 1,
+								"cases": [
+									{
+										"when": "gold",
+										"model": {
+											"type": "minecraft:model",
+											"model": "ssbrc:fighter/ice_climbers/skin/gold/nana"
+										}
+									}
+								],
+								"fallback": {
+									"type": "minecraft:model",
+									"model": "ssbrc:fighter/ice_climbers/skin/default/nana"
+								}
+							}
+						}
+					},
+					{
+						"when": "jigglypuff",
+						"model": {
+							"type": "minecraft:select",
+							"property": "minecraft:custom_model_data",
+							"index": 2,
+							"cases": [
+								{
+									"when": "rest",
+									"model": {
+										"type": "minecraft:select",
+										"property": "minecraft:custom_model_data",
+										"index": 1,
+										"cases": [
+											{
+												"when": "gold",
+												"model": {
+													"type": "minecraft:model",
+													"model": "ssbrc:fighter/jigglypuff/skin/gold/rest"
+												}
+											},
+											{
+												"when": "shiny",
+												"model": {
+													"type": "minecraft:model",
+													"model": "ssbrc:fighter/jigglypuff/skin/shiny/rest"
+												}
+											},
+											{
+												"when": "ditto",
+												"model": {
+													"type": "minecraft:model",
+													"model": "ssbrc:fighter/jigglypuff/skin/ditto/rest"
+												}
+											},
+											{
+												"when": "scream_tail",
+												"model": {
+													"type": "minecraft:model",
+													"model": "ssbrc:fighter/jigglypuff/skin/scream_tail/rest"
+												}
+											}
+										],
+										"fallback": {
+											"type": "minecraft:model",
+											"model": "ssbrc:fighter/jigglypuff/skin/default/rest"
+										}
+									}
+								}
+							],
+							"fallback": {
+								"type": "minecraft:select",
+								"property": "minecraft:custom_model_data",
+								"index": 1,
+								"cases": [
+									{
+										"when": "gold",
+										"model": {
+											"type": "minecraft:model",
+											"model": "ssbrc:fighter/jigglypuff/skin/gold/default"
+										}
+									},
+									{
+										"when": "shiny",
+										"model": {
+											"type": "minecraft:model",
+											"model": "ssbrc:fighter/jigglypuff/skin/shiny/default"
+										}
+									},
+									{
+										"when": "ditto",
+										"model": {
+											"type": "minecraft:model",
+											"model": "ssbrc:fighter/jigglypuff/skin/ditto/default"
+										}
+									},
+									{
+										"when": "shadow",
+										"model": {
+											"type": "minecraft:model",
+											"model": "ssbrc:fighter/jigglypuff/skin/shadow/default"
+										}
+									},
+									{
+										"when": "scream_tail",
+										"model": {
+											"type": "minecraft:model",
+											"model": "ssbrc:fighter/jigglypuff/skin/scream_tail/default"
+										}
+									}
+								],
+								"fallback": {
+									"type": "minecraft:model",
+									"model": "ssbrc:fighter/jigglypuff/skin/default/default"
+								}
+							}
+						}
+					},
+					{
+						"when": "joker",
+						"model": {
+							"type": "minecraft:select",
+							"property": "minecraft:custom_model_data",
+							"index": 1,
+							"cases": [
+								{
+									"when": "gold",
+									"model": {
+										"type": "minecraft:select",
+										"property": "minecraft:custom_model_data",
+										"index": 2,
+										"cases": [
+											{
+												"when": "awakening",
+												"model": {
+													"type": "minecraft:model",
+													"model": "ssbrc:fighter/joker/skin/default/awakening"
+												}
+											}
+										],
+										"fallback": {
+											"type": "minecraft:model",
+											"model": "ssbrc:fighter/joker/skin/gold/default"
+										}
+									}
+								},
+								{
+									"when": "shujin_academy",
+									"model": {
+										"type": "minecraft:select",
+										"property": "minecraft:custom_model_data",
+										"index": 2,
+										"cases": [
+											{
+												"when": "awakening",
+												"model": {
+													"type": "minecraft:model",
+													"model": "ssbrc:fighter/joker/skin/shujin_academy/awakening"
+												}
+											}
+										],
+										"fallback": {
+											"type": "minecraft:model",
+											"model": "ssbrc:fighter/joker/skin/shujin_academy/default"
+										}
+									}
+								},
+								{
+									"when": "prisoner_of_fate",
+									"model": {
+										"type": "minecraft:model",
+										"model": "ssbrc:fighter/joker/skin/prisoner_of_fate"
+									}
+								},
+								{
+									"when": "christmas_outfit",
+									"model": {
+										"type": "minecraft:select",
+										"property": "minecraft:custom_model_data",
+										"index": 2,
+										"cases": [
+											{
+												"when": "awakening",
+												"model": {
+													"type": "minecraft:model",
+													"model": "ssbrc:fighter/joker/skin/christmas_outfit/awakening"
+												}
+											}
+										],
+										"fallback": {
+											"type": "minecraft:model",
+											"model": "ssbrc:fighter/joker/skin/christmas_outfit/default"
+										}
+									}
+								}
+							],
+							"fallback": {
+								"type": "minecraft:select",
+								"property": "minecraft:custom_model_data",
+								"index": 2,
+								"cases": [
+									{
+										"when": "awakening",
+										"model": {
+											"type": "minecraft:model",
+											"model": "ssbrc:fighter/joker/skin/default/awakening"
+										}
+									}
+								],
+								"fallback": {
+									"type": "minecraft:model",
+									"model": "ssbrc:fighter/joker/skin/default/default"
+								}
+							}
+						}
+					},
+					{
+						"when": "king_k_rool",
+						"model": {
+							"type": "minecraft:select",
+							"property": "minecraft:custom_model_data",
+							"index": 1,
+							"cases": [
+								{
+									"when": "gold",
+									"model": {
+										"type": "minecraft:model",
+										"model": "ssbrc:fighter/king_k_rool/skin/gold"
+									}
+								}
+							],
+							"fallback": {
+								"type": "minecraft:model",
+								"model": "ssbrc:fighter/king_k_rool/skin/default"
+							}
+						}
+					},
+					{
+						"when": "kirby",
+						"model": {
+							"type": "minecraft:composite",
+							"models": [
+								{
+									"type": "minecraft:select",
+									"property": "minecraft:custom_model_data",
+									"index": 1,
+									"cases": [
+										{
+											"when": "gold",
+											"model": {
+												"type": "minecraft:model",
+												"model": "ssbrc:fighter/kirby/skin/default"
+											}
+										},
+										{
+											"when": "red",
+											"model": {
+												"type": "minecraft:model",
+												"model": "ssbrc:fighter/kirby/skin/default",
+												"tints": [
+													{
+														"type": "minecraft:constant",
+														"value": 13125190
+													}
+												]
+											}
+										},
+										{
+											"when": "orange",
+											"model": {
+												"type": "minecraft:model",
+												"model": "ssbrc:fighter/kirby/skin/default",
+												"tints": [
+													{
+														"type": "minecraft:constant",
+														"value": 16226347
+													}
+												]
+											}
+										},
+										{
+											"when": "yellow",
+											"model": {
+												"type": "minecraft:model",
+												"model": "ssbrc:fighter/kirby/skin/default",
+												"tints": [
+													{
+														"type": "minecraft:constant",
+														"value": 16772393
+													}
+												]
+											}
+										},
+										{
+											"when": "green",
+											"model": {
+												"type": "minecraft:model",
+												"model": "ssbrc:fighter/kirby/skin/default",
+												"tints": [
+													{
+														"type": "minecraft:constant",
+														"value": 3669801
+													}
+												]
+											}
+										},
+										{
+											"when": "ocean",
+											"model": {
+												"type": "minecraft:model",
+												"model": "ssbrc:fighter/kirby/skin/default",
+												"tints": [
+													{
+														"type": "minecraft:constant",
+														"value": 2736127
+													}
+												]
+											}
+										},
+										{
+											"when": "grape",
+											"model": {
+												"type": "minecraft:model",
+												"model": "ssbrc:fighter/kirby/skin/default",
+												"tints": [
+													{
+														"type": "minecraft:constant",
+														"value": 13460222
+													}
+												]
+											}
+										},
+										{
+											"when": "white",
+											"model": {
+												"type": "minecraft:model",
+												"model": "ssbrc:fighter/kirby/skin/default"
+											}
+										},
+										{
+											"when": "chalk",
+											"model": {
+												"type": "minecraft:model",
+												"model": "ssbrc:fighter/kirby/skin/default",
+												"tints": [
+													{
+														"type": "minecraft:constant",
+														"value": 10066329
+													}
+												]
+											}
+										},
+										{
+											"when": "shadow",
+											"model": {
+												"type": "minecraft:model",
+												"model": "ssbrc:fighter/kirby/skin/default",
+												"tints": [
+													{
+														"type": "minecraft:constant",
+														"value": 3552822
+													}
+												]
+											}
+										}
+									],
+									"fallback": {
+										"type": "minecraft:model",
+										"model": "ssbrc:fighter/kirby/skin/default",
+										"tints": [
+											{
+												"type": "minecraft:constant",
+												"value": 16664782
+											}
+										]
+									}
+								}
+							]
+						}
+					},
+					{
+						"when": "link",
+						"model": {
+							"type": "minecraft:select",
+							"property": "minecraft:custom_model_data",
+							"index": 1,
+							"cases": [
+								{
+									"when": "gold",
+									"model": {
+										"type": "minecraft:model",
+										"model": "ssbrc:fighter/link/skin/gold"
+									}
+								},
+								{
+									"when": "awakening",
+									"model": {
+										"type": "minecraft:model",
+										"model": "ssbrc:fighter/link/skin/awakening"
+									}
+								},
+								{
+									"when": "tunic_of_time",
+									"model": {
+										"type": "minecraft:model",
+										"model": "ssbrc:fighter/link/skin/tunic_of_time"
+									}
+								},
+								{
+									"when": "dark_tunic",
+									"model": {
+										"type": "minecraft:model",
+										"model": "ssbrc:fighter/link/skin/dark_tunic"
+									}
+								}
+							],
+							"fallback": {
+								"type": "minecraft:model",
+								"model": "ssbrc:fighter/link/skin/default"
+							}
+						}
+					},
+					{
+						"when": "lucario",
+						"model": {
+							"type": "minecraft:select",
+							"property": "minecraft:custom_model_data",
+							"index": 1,
+							"cases": [
+								{
+									"when": "gold",
+									"model": {
+										"type": "minecraft:model",
+										"model": "ssbrc:fighter/lucario/skin/gold"
+									}
+								},
+								{
+									"when": "shiny",
+									"model": {
+										"type": "minecraft:model",
+										"model": "ssbrc:fighter/lucario/skin/shiny"
+									}
+								},
+								{
+									"when": "ditto",
+									"model": {
+										"type": "minecraft:model",
+										"model": "ssbrc:fighter/lucario/skin/ditto"
+									}
+								},
+								{
+									"when": "shadow",
+									"model": {
+										"type": "minecraft:model",
+										"model": "ssbrc:fighter/lucario/skin/shadow"
+									}
+								},
+								{
+									"when": "mirror",
+									"model": {
+										"type": "minecraft:model",
+										"model": "ssbrc:fighter/lucario/skin/mirror"
+									}
+								},
+								{
+									"when": "costume_party",
+									"model": {
+										"type": "minecraft:model",
+										"model": "ssbrc:fighter/lucario/skin/costume_party"
+									}
+								}
+							],
+							"fallback": {
+								"type": "minecraft:model",
+								"model": "ssbrc:fighter/lucario/skin/default"
+							}
+						}
+					},
+					{
+						"when": "luigi",
+						"model": {
+							"type": "minecraft:select",
+							"property": "minecraft:custom_model_data",
+							"index": 1,
+							"cases": [
+								{
+									"when": "gold",
+									"model": {
+										"type": "minecraft:model",
+										"model": "ssbrc:fighter/luigi/skin/gold"
+									}
+								},
+								{
+									"when": "flower_power",
+									"model": {
+										"type": "minecraft:model",
+										"model": "ssbrc:fighter/luigi/skin/flower_power"
+									}
+								},
+								{
+									"when": "penguin",
+									"model": {
+										"type": "minecraft:model",
+										"model": "ssbrc:fighter/luigi/skin/penguin"
+									}
+								},
+								{
+									"when": "gooigi",
+									"model": {
+										"type": "minecraft:model",
+										"model": "ssbrc:fighter/luigi/skin/gooigi"
+									}
+								}
+							],
+							"fallback": {
+								"type": "minecraft:model",
+								"model": "ssbrc:fighter/luigi/skin/default"
+							}
+						}
+					},
+					{
+						"when": "mario",
+						"model": {
+							"type": "minecraft:select",
+							"property": "minecraft:custom_model_data",
+							"index": 1,
+							"cases": [
+								{
+									"when": "gold",
+									"model": {
+										"type": "minecraft:model",
+										"model": "ssbrc:fighter/mario/skin/gold"
+									}
+								},
+								{
+									"when": "flower_power",
+									"model": {
+										"type": "minecraft:model",
+										"model": "ssbrc:fighter/mario/skin/flower_power"
+									}
+								},
+								{
+									"when": "penguin",
+									"model": {
+										"type": "minecraft:model",
+										"model": "ssbrc:fighter/mario/skin/penguin"
+									}
+								},
+								{
+									"when": "skeleton",
+									"model": {
+										"type": "minecraft:model",
+										"model": "ssbrc:fighter/mario/skin/skeleton"
+									}
+								}
+							],
+							"fallback": {
+								"type": "minecraft:model",
+								"model": "ssbrc:fighter/mario/skin/default"
+							}
+						}
+					},
+					{
+						"when": "mega_man",
+						"model": {
+							"type": "minecraft:select",
+							"property": "minecraft:custom_model_data",
+							"index": 2,
+							"cases": [
+								{
+									"when": "air_shooter",
+									"model": {
+										"type": "minecraft:select",
+										"property": "minecraft:custom_model_data",
+										"index": 1,
+										"cases": [
+											{
+												"when": "x",
+												"model": {
+													"type": "minecraft:model",
+													"model": "ssbrc:fighter/mega_man/skin/x/air_shooter"
+												}
+											},
+											{
+												"when": "star_force",
+												"model": {
+													"type": "minecraft:model",
+													"model": "ssbrc:fighter/mega_man/skin/star_force/air_shooter"
+												}
+											},
+											{
+												"when": "bad_box_art",
+												"model": {
+													"type": "minecraft:model",
+													"model": "ssbrc:fighter/mega_man/skin/bad_box_art/air_shooter"
+												}
+											}
+										],
+										"fallback": {
+											"type": "minecraft:model",
+											"model": "ssbrc:fighter/mega_man/skin/default/air_shooter"
+										}
+									}
+								},
+								{
+									"when": "drill_bomb",
+									"model": {
+										"type": "minecraft:select",
+										"property": "minecraft:custom_model_data",
+										"index": 1,
+										"cases": [
+											{
+												"when": "x",
+												"model": {
+													"type": "minecraft:model",
+													"model": "ssbrc:fighter/mega_man/skin/x/drill_bomb"
+												}
+											},
+											{
+												"when": "star_force",
+												"model": {
+													"type": "minecraft:model",
+													"model": "ssbrc:fighter/mega_man/skin/star_force/drill_bomb"
+												}
+											},
+											{
+												"when": "bad_box_art",
+												"model": {
+													"type": "minecraft:model",
+													"model": "ssbrc:fighter/mega_man/skin/bad_box_art/drill_bomb"
+												}
+											}
+										],
+										"fallback": {
+											"type": "minecraft:model",
+											"model": "ssbrc:fighter/mega_man/skin/default/drill_bomb"
+										}
+									}
+								},
+								{
+									"when": "flame_sword",
+									"model": {
+										"type": "minecraft:select",
+										"property": "minecraft:custom_model_data",
+										"index": 1,
+										"cases": [
+											{
+												"when": "x",
+												"model": {
+													"type": "minecraft:model",
+													"model": "ssbrc:fighter/mega_man/skin/x/flame_sword"
+												}
+											},
+											{
+												"when": "star_force",
+												"model": {
+													"type": "minecraft:model",
+													"model": "ssbrc:fighter/mega_man/skin/star_force/flame_sword"
+												}
+											},
+											{
+												"when": "bad_box_art",
+												"model": {
+													"type": "minecraft:model",
+													"model": "ssbrc:fighter/mega_man/skin/bad_box_art/flame_sword"
+												}
+											}
+										],
+										"fallback": {
+											"type": "minecraft:model",
+											"model": "ssbrc:fighter/mega_man/skin/default/flame_sword"
+										}
+									}
+								},
+								{
+									"when": "hyper_bomb",
+									"model": {
+										"type": "minecraft:select",
+										"property": "minecraft:custom_model_data",
+										"index": 1,
+										"cases": [
+											{
+												"when": "x",
+												"model": {
+													"type": "minecraft:model",
+													"model": "ssbrc:fighter/mega_man/skin/x/hyper_bomb"
+												}
+											},
+											{
+												"when": "star_force",
+												"model": {
+													"type": "minecraft:model",
+													"model": "ssbrc:fighter/mega_man/skin/star_force/hyper_bomb"
+												}
+											},
+											{
+												"when": "bad_box_art",
+												"model": {
+													"type": "minecraft:model",
+													"model": "ssbrc:fighter/mega_man/skin/bad_box_art/hyper_bomb"
+												}
+											}
+										],
+										"fallback": {
+											"type": "minecraft:model",
+											"model": "ssbrc:fighter/mega_man/skin/default/hyper_bomb"
+										}
+									}
+								},
+								{
+									"when": "junk_shield",
+									"model": {
+										"type": "minecraft:select",
+										"property": "minecraft:custom_model_data",
+										"index": 1,
+										"cases": [
+											{
+												"when": "x",
+												"model": {
+													"type": "minecraft:model",
+													"model": "ssbrc:fighter/mega_man/skin/x/junk_shield"
+												}
+											},
+											{
+												"when": "star_force",
+												"model": {
+													"type": "minecraft:model",
+													"model": "ssbrc:fighter/mega_man/skin/star_force/junk_shield"
+												}
+											},
+											{
+												"when": "bad_box_art",
+												"model": {
+													"type": "minecraft:model",
+													"model": "ssbrc:fighter/mega_man/skin/bad_box_art/junk_shield"
+												}
+											}
+										],
+										"fallback": {
+											"type": "minecraft:model",
+											"model": "ssbrc:fighter/mega_man/skin/default/junk_shield"
+										}
+									}
+								},
+								{
+									"when": "metal_blade",
+									"model": {
+										"type": "minecraft:select",
+										"property": "minecraft:custom_model_data",
+										"index": 1,
+										"cases": [
+											{
+												"when": "x",
+												"model": {
+													"type": "minecraft:model",
+													"model": "ssbrc:fighter/mega_man/skin/x/metal_blade"
+												}
+											},
+											{
+												"when": "star_force",
+												"model": {
+													"type": "minecraft:model",
+													"model": "ssbrc:fighter/mega_man/skin/star_force/metal_blade"
+												}
+											},
+											{
+												"when": "bad_box_art",
+												"model": {
+													"type": "minecraft:model",
+													"model": "ssbrc:fighter/mega_man/skin/bad_box_art/metal_blade"
+												}
+											}
+										],
+										"fallback": {
+											"type": "minecraft:model",
+											"model": "ssbrc:fighter/mega_man/skin/default/metal_blade"
+										}
+									}
+								},
+								{
+									"when": "pile_driver",
+									"model": {
+										"type": "minecraft:select",
+										"property": "minecraft:custom_model_data",
+										"index": 1,
+										"cases": [
+											{
+												"when": "x",
+												"model": {
+													"type": "minecraft:model",
+													"model": "ssbrc:fighter/mega_man/skin/x/pile_driver"
+												}
+											},
+											{
+												"when": "star_force",
+												"model": {
+													"type": "minecraft:model",
+													"model": "ssbrc:fighter/mega_man/skin/star_force/pile_driver"
+												}
+											},
+											{
+												"when": "bad_box_art",
+												"model": {
+													"type": "minecraft:model",
+													"model": "ssbrc:fighter/mega_man/skin/bad_box_art/pile_driver"
+												}
+											}
+										],
+										"fallback": {
+											"type": "minecraft:model",
+											"model": "ssbrc:fighter/mega_man/skin/default/pile_driver"
+										}
+									}
+								},
+								{
+									"when": "remote_mine",
+									"model": {
+										"type": "minecraft:select",
+										"property": "minecraft:custom_model_data",
+										"index": 1,
+										"cases": [
+											{
+												"when": "x",
+												"model": {
+													"type": "minecraft:model",
+													"model": "ssbrc:fighter/mega_man/skin/x/remote_mine"
+												}
+											},
+											{
+												"when": "star_force",
+												"model": {
+													"type": "minecraft:model",
+													"model": "ssbrc:fighter/mega_man/skin/star_force/remote_mine"
+												}
+											},
+											{
+												"when": "bad_box_art",
+												"model": {
+													"type": "minecraft:model",
+													"model": "ssbrc:fighter/mega_man/skin/bad_box_art/remote_mine"
+												}
+											}
+										],
+										"fallback": {
+											"type": "minecraft:model",
+											"model": "ssbrc:fighter/mega_man/skin/default/remote_mine"
+										}
+									}
+								}
+							],
+							"fallback": {
+								"type": "minecraft:select",
+								"property": "minecraft:custom_model_data",
+								"index": 1,
+								"cases": [
+									{
+										"when": "gold",
+										"model": {
+											"type": "minecraft:model",
+											"model": "ssbrc:fighter/mega_man/skin/gold/mega_buster"
+										}
+									},
+									{
+										"when": "x",
+										"model": {
+											"type": "minecraft:model",
+											"model": "ssbrc:fighter/mega_man/skin/x/mega_buster"
+										}
+									},
+									{
+										"when": "star_force",
+										"model": {
+											"type": "minecraft:model",
+											"model": "ssbrc:fighter/mega_man/skin/star_force/mega_buster"
+										}
+									},
+									{
+										"when": "bad_box_art",
+										"model": {
+											"type": "minecraft:model",
+											"model": "ssbrc:fighter/mega_man/skin/bad_box_art/mega_buster"
+										}
+									}
+								],
+								"fallback": {
+									"type": "minecraft:model",
+									"model": "ssbrc:fighter/mega_man/skin/default/mega_buster"
+								}
+							}
+						}
+					},
+					{
+						"when": "ness",
+						"model": {
+							"type": "minecraft:select",
+							"property": "minecraft:custom_model_data",
+							"index": 1,
+							"cases": [
+								{
+									"when": "gold",
+									"model": {
+										"type": "minecraft:model",
+										"model": "ssbrc:fighter/ness/skin/gold"
+									}
+								},
+								{
+									"when": "moonside",
+									"model": {
+										"type": "minecraft:model",
+										"model": "ssbrc:fighter/ness/skin/moonside"
+									}
+								},
+								{
+									"when": "pajamas",
+									"model": {
+										"type": "minecraft:model",
+										"model": "ssbrc:fighter/ness/skin/pajamas"
+									}
+								},
+								{
+									"when": "phase_distortion",
+									"model": {
+										"type": "minecraft:model",
+										"model": "ssbrc:fighter/ness/skin/phase_distortion"
+									}
+								}
+							],
+							"fallback": {
+								"type": "minecraft:model",
+								"model": "ssbrc:fighter/ness/skin/default"
+							}
+						}
+					},
+					{
+						"when": "peach",
+						"model": {
+							"type": "minecraft:select",
+							"property": "minecraft:custom_model_data",
+							"index": 1,
+							"cases": [
+								{
+									"when": "gold",
+									"model": {
+										"type": "minecraft:model",
+										"model": "ssbrc:fighter/peach/skin/gold"
+									}
+								},
+								{
+									"when": "shadow_queen",
+									"model": {
+										"type": "minecraft:model",
+										"model": "ssbrc:fighter/peach/skin/shadow_queen"
+									}
+								}
+							],
+							"fallback": {
+								"type": "minecraft:model",
+								"model": "ssbrc:fighter/peach/skin/default"
+							}
+						}
+					},
+					{
+						"when": "pikachu",
+						"model": {
+							"type": "minecraft:select",
+							"property": "minecraft:custom_model_data",
+							"index": 1,
+							"cases": [
+								{
+									"when": "gold",
+									"model": {
+										"type": "minecraft:model",
+										"model": "ssbrc:fighter/pikachu/skin/gold"
+									}
+								},
+								{
+									"when": "shiny",
+									"model": {
+										"type": "minecraft:model",
+										"model": "ssbrc:fighter/pikachu/skin/shiny"
+									}
+								},
+								{
+									"when": "ditto",
+									"model": {
+										"type": "minecraft:model",
+										"model": "ssbrc:fighter/pikachu/skin/ditto"
+									}
+								},
+								{
+									"when": "shadow",
+									"model": {
+										"type": "minecraft:model",
+										"model": "ssbrc:fighter/pikachu/skin/shadow"
+									}
+								},
+								{
+									"when": "cosplay_libre",
+									"model": {
+										"type": "minecraft:model",
+										"model": "ssbrc:fighter/pikachu/skin/cosplay_libre"
+									}
+								},
+								{
+									"when": "holiday",
+									"model": {
+										"type": "minecraft:model",
+										"model": "ssbrc:fighter/pikachu/skin/holiday"
+									}
+								}
+							],
+							"fallback": {
+								"type": "minecraft:model",
+								"model": "ssbrc:fighter/pikachu/skin/default"
+							}
+						}
+					},
+					{
+						"when": "pit",
+						"model": {
+							"type": "minecraft:select",
+							"property": "minecraft:custom_model_data",
+							"index": 1,
+							"cases": [
+								{
+									"when": "gold",
+									"model": {
+										"type": "minecraft:model",
+										"model": "ssbrc:fighter/pit/skin/gold"
+									}
+								},
+								{
+									"when": "retro",
+									"model": {
+										"type": "minecraft:model",
+										"model": "ssbrc:fighter/pit/skin/retro"
+									}
+								},
+								{
+									"when": "revived",
+									"model": {
+										"type": "minecraft:model",
+										"model": "ssbrc:fighter/pit/skin/revived"
+									}
+								},
+								{
+									"when": "eggplant",
+									"model": {
+										"type": "minecraft:model",
+										"model": "ssbrc:fighter/pit/skin/eggplant"
+									}
+								}
+							],
+							"fallback": {
+								"type": "minecraft:model",
+								"model": "ssbrc:fighter/pit/skin/default"
+							}
+						}
+					},
+					{
+						"when": "pokemon_trainer",
+						"model": {
+							"type": "minecraft:select",
+							"property": "minecraft:custom_model_data",
+							"index": 2,
+							"cases": [
+								{
+									"when": "charizard",
+									"model": {
+										"type": "minecraft:select",
+										"property": "minecraft:custom_model_data",
+										"index": 1,
+										"cases": [
+											{
+												"when": "gold",
+												"model": {
+													"type": "minecraft:model",
+													"model": "ssbrc:fighter/pokemon_trainer/skin/gold/charizard"
+												}
+											},
+											{
+												"when": "shiny",
+												"model": {
+													"type": "minecraft:model",
+													"model": "ssbrc:fighter/pokemon_trainer/skin/shiny/charizard"
+												}
+											},
+											{
+												"when": "dawn",
+												"model": {
+													"type": "minecraft:model",
+													"model": "ssbrc:fighter/pokemon_trainer/skin/dawn/charizard"
+												}
+											},
+											{
+												"when": "victor",
+												"model": {
+													"type": "minecraft:model",
+													"model": "ssbrc:fighter/pokemon_trainer/skin/victor/charizard"
+												}
+											},
+											{
+												"when": "juliana",
+												"model": {
+													"type": "minecraft:model",
+													"model": "ssbrc:fighter/pokemon_trainer/skin/juliana/charizard"
+												}
+											}
+										],
+										"fallback": {
+											"type": "minecraft:model",
+											"model": "ssbrc:fighter/pokemon_trainer/skin/default/charizard"
+										}
+									}
+								},
+								{
+									"when": "ivysaur",
+									"model": {
+										"type": "minecraft:select",
+										"property": "minecraft:custom_model_data",
+										"index": 1,
+										"cases": [
+											{
+												"when": "gold",
+												"model": {
+													"type": "minecraft:model",
+													"model": "ssbrc:fighter/pokemon_trainer/skin/gold/ivysaur"
+												}
+											},
+											{
+												"when": "shiny",
+												"model": {
+													"type": "minecraft:model",
+													"model": "ssbrc:fighter/pokemon_trainer/skin/shiny/ivysaur"
+												}
+											},
+											{
+												"when": "dawn",
+												"model": {
+													"type": "minecraft:model",
+													"model": "ssbrc:fighter/pokemon_trainer/skin/dawn/ivysaur"
+												}
+											},
+											{
+												"when": "victor",
+												"model": {
+													"type": "minecraft:model",
+													"model": "ssbrc:fighter/pokemon_trainer/skin/victor/ivysaur"
+												}
+											},
+											{
+												"when": "juliana",
+												"model": {
+													"type": "minecraft:model",
+													"model": "ssbrc:fighter/pokemon_trainer/skin/juliana/ivysaur"
+												}
+											}
+										],
+										"fallback": {
+											"type": "minecraft:model",
+											"model": "ssbrc:fighter/pokemon_trainer/skin/default/ivysaur"
+										}
+									}
+								},
+								{
+									"when": "squirtle",
+									"model": {
+										"type": "minecraft:select",
+										"property": "minecraft:custom_model_data",
+										"index": 1,
+										"cases": [
+											{
+												"when": "gold",
+												"model": {
+													"type": "minecraft:model",
+													"model": "ssbrc:fighter/pokemon_trainer/skin/gold/squirtle"
+												}
+											},
+											{
+												"when": "shiny",
+												"model": {
+													"type": "minecraft:model",
+													"model": "ssbrc:fighter/pokemon_trainer/skin/shiny/squirtle"
+												}
+											},
+											{
+												"when": "dawn",
+												"model": {
+													"type": "minecraft:model",
+													"model": "ssbrc:fighter/pokemon_trainer/skin/dawn/squirtle"
+												}
+											},
+											{
+												"when": "victor",
+												"model": {
+													"type": "minecraft:model",
+													"model": "ssbrc:fighter/pokemon_trainer/skin/victor/squirtle"
+												}
+											},
+											{
+												"when": "juliana",
+												"model": {
+													"type": "minecraft:model",
+													"model": "ssbrc:fighter/pokemon_trainer/skin/juliana/squirtle"
+												}
+											}
+										],
+										"fallback": {
+											"type": "minecraft:model",
+											"model": "ssbrc:fighter/pokemon_trainer/skin/default/squirtle"
+										}
+									}
+								}
+							],
+							"fallback": {
+								"type": "minecraft:select",
+								"property": "minecraft:custom_model_data",
+								"index": 1,
+								"cases": [
+									{
+										"when": "gold",
+										"model": {
+											"type": "minecraft:model",
+											"model": "ssbrc:fighter/pokemon_trainer/skin/gold/trainer"
+										}
+									},
+									{
+										"when": "dawn",
+										"model": {
+											"type": "minecraft:model",
+											"model": "ssbrc:fighter/pokemon_trainer/skin/dawn/trainer"
+										}
+									},
+									{
+										"when": "victor",
+										"model": {
+											"type": "minecraft:model",
+											"model": "ssbrc:fighter/pokemon_trainer/skin/victor/trainer"
+										}
+									},
+									{
+										"when": "juliana",
+										"model": {
+											"type": "minecraft:model",
+											"model": "ssbrc:fighter/pokemon_trainer/skin/juliana/trainer"
+										}
+									}
+								],
+								"fallback": {
+									"type": "minecraft:model",
+									"model": "ssbrc:fighter/pokemon_trainer/skin/default/trainer"
+								}
+							}
+						}
+					},
+					{
+						"when": "raiden",
+						"model": {
+							"type": "minecraft:select",
+							"property": "minecraft:custom_model_data",
+							"index": 1,
+							"cases": [
+								{
+									"when": "cyborg_body",
+									"model": {
+										"type": "minecraft:select",
+										"property": "minecraft:custom_model_data",
+										"index": 2,
+										"cases": [
+											{
+												"when": "night_vision_goggles",
+												"model": {
+													"type": "minecraft:model",
+													"model": "ssbrc:fighter/raiden/skin/cyborg_body/night_vision_goggles"
+												}
+											}
+										],
+										"fallback": {
+											"type": "minecraft:model",
+											"model": "ssbrc:fighter/raiden/skin/cyborg_body/default"
+										}
+									}
+								},
+								{
+									"when": "maverick_body",
+									"model": {
+										"type": "minecraft:select",
+										"property": "minecraft:custom_model_data",
+										"index": 2,
+										"cases": [
+											{
+												"when": "night_vision_goggles",
+												"model": {
+													"type": "minecraft:model",
+													"model": "ssbrc:fighter/raiden/skin/maverick_body/night_vision_goggles"
+												}
+											}
+										],
+										"fallback": {
+											"type": "minecraft:model",
+											"model": "ssbrc:fighter/raiden/skin/maverick_body/default"
+										}
+									}
+								},
+								{
+									"when": "business_suit",
+									"model": {
+										"type": "minecraft:select",
+										"property": "minecraft:custom_model_data",
+										"index": 2,
+										"cases": [
+											{
+												"when": "night_vision_goggles",
+												"model": {
+													"type": "minecraft:model",
+													"model": "ssbrc:fighter/raiden/skin/business_suit/night_vision_goggles"
+												}
+											}
+										],
+										"fallback": {
+											"type": "minecraft:model",
+											"model": "ssbrc:fighter/raiden/skin/business_suit/default"
+										}
+									}
+								}
+							],
+							"fallback": {
+								"type": "minecraft:select",
+								"property": "minecraft:custom_model_data",
+								"index": 2,
+								"cases": [
+									{
+										"when": "night_vision_goggles",
+										"model": {
+											"type": "minecraft:model",
+											"model": "ssbrc:fighter/raiden/skin/default/night_vision_goggles"
+										}
+									}
+								],
+								"fallback": {
+									"type": "minecraft:model",
+									"model": "ssbrc:fighter/raiden/skin/default/default"
+								}
+							}
+						}
+					},
+					{
+						"when": "rob",
+						"model": {
+							"type": "minecraft:select",
+							"property": "minecraft:custom_model_data",
+							"index": 1,
+							"cases": [
+								{
+									"when": "ancient_minister",
+									"model": {
+										"type": "minecraft:model",
+										"model": "ssbrc:fighter/rob/skin/ancient_minister"
+									}
+								}
+							],
+							"fallback": {
+								"type": "minecraft:composite",
+								"models": [
+									{
+										"type": "minecraft:select",
+										"property": "minecraft:custom_model_data",
+										"index": 2,
+										"cases": [
+											{
+												"when": "ready",
+												"model": {
+													"type": "minecraft:model",
+													"model": "ssbrc:fighter/rob/skin/accessory/indicator/ready"
+												}
+											},
+											{
+												"when": "charged",
+												"model": {
+													"type": "minecraft:model",
+													"model": "ssbrc:fighter/rob/skin/accessory/indicator/charged"
+												}
+											}
+										],
+										"fallback": {
+											"type": "minecraft:model",
+											"model": "ssbrc:fighter/rob/skin/accessory/indicator/default"
+										}
+									},
+									{
+										"type": "minecraft:select",
+										"property": "minecraft:custom_model_data",
+										"index": 1,
+										"cases": [
+											{
+												"when": "gold",
+												"model": {
+													"type": "minecraft:model",
+													"model": "ssbrc:fighter/rob/skin/gold"
+												}
+											},
+											{
+												"when": "famicom",
+												"model": {
+													"type": "minecraft:model",
+													"model": "ssbrc:fighter/rob/skin/famicom"
+												}
+											},
+											{
+												"when": "rob_blaster",
+												"model": {
+													"type": "minecraft:model",
+													"model": "ssbrc:fighter/rob/skin/rob_blaster"
+												}
+											}
+										],
+										"fallback": {
+											"type": "minecraft:model",
+											"model": "ssbrc:fighter/rob/skin/default"
+										}
+									}
+								]
+							}
+						}
+					},
+					{
+						"when": "roy",
+						"model": {
+							"type": "minecraft:select",
+							"property": "minecraft:custom_model_data",
+							"index": 1,
+							"cases": [
+								{
+									"when": "gold",
+									"model": {
+										"type": "minecraft:model",
+										"model": "ssbrc:fighter/roy/skin/gold"
+									}
+								},
+								{
+									"when": "young_lion",
+									"model": {
+										"type": "minecraft:model",
+										"model": "ssbrc:fighter/roy/skin/young_lion"
+									}
+								},
+								{
+									"when": "blazing_bachelor",
+									"model": {
+										"type": "minecraft:model",
+										"model": "ssbrc:fighter/roy/skin/blazing_bachelor"
+									}
+								}
+							],
+							"fallback": {
+								"type": "minecraft:model",
+								"model": "ssbrc:fighter/roy/skin/default"
+							}
+						}
+					},
+					{
+						"when": "ryu",
+						"model": {
+							"type": "minecraft:select",
+							"property": "minecraft:custom_model_data",
+							"index": 1,
+							"cases": [
+								{
+									"when": "gold",
+									"model": {
+										"type": "minecraft:select",
+										"property": "minecraft:custom_model_data",
+										"index": 2,
+										"cases": [
+											{
+												"when": "evil",
+												"model": {
+													"type": "minecraft:model",
+													"model": "ssbrc:fighter/ryu/skin/gold/evil"
+												}
+											}
+										],
+										"fallback": {
+											"type": "minecraft:model",
+											"model": "ssbrc:fighter/ryu/skin/gold/default"
+										}
+									}
+								},
+								{
+									"when": "super_turbo",
+									"model": {
+										"type": "minecraft:select",
+										"property": "minecraft:custom_model_data",
+										"index": 2,
+										"cases": [
+											{
+												"when": "evil",
+												"model": {
+													"type": "minecraft:model",
+													"model": "ssbrc:fighter/ryu/skin/super_turbo/evil"
+												}
+											}
+										],
+										"fallback": {
+											"type": "minecraft:model",
+											"model": "ssbrc:fighter/ryu/skin/super_turbo/default"
+										}
+									}
+								},
+								{
+									"when": "hot_ryu",
+									"model": {
+										"type": "minecraft:select",
+										"property": "minecraft:custom_model_data",
+										"index": 2,
+										"cases": [
+											{
+												"when": "evil",
+												"model": {
+													"type": "minecraft:model",
+													"model": "ssbrc:fighter/ryu/skin/hot_ryu/evil"
+												}
+											}
+										],
+										"fallback": {
+											"type": "minecraft:model",
+											"model": "ssbrc:fighter/ryu/skin/hot_ryu/default"
+										}
+									}
+								},
+								{
+									"when": "iron_fist",
+									"model": {
+										"type": "minecraft:select",
+										"property": "minecraft:custom_model_data",
+										"index": 2,
+										"cases": [
+											{
+												"when": "evil",
+												"model": {
+													"type": "minecraft:model",
+													"model": "ssbrc:fighter/ryu/skin/iron_fist/evil"
+												}
+											}
+										],
+										"fallback": {
+											"type": "minecraft:model",
+											"model": "ssbrc:fighter/ryu/skin/iron_fist/default"
+										}
+									}
+								}
+							],
+							"fallback": {
+								"type": "minecraft:select",
+								"property": "minecraft:custom_model_data",
+								"index": 2,
+								"cases": [
+									{
+										"when": "evil",
+										"model": {
+											"type": "minecraft:model",
+											"model": "ssbrc:fighter/ryu/skin/default/evil"
+										}
+									}
+								],
+								"fallback": {
+									"type": "minecraft:model",
+									"model": "ssbrc:fighter/ryu/skin/default/default"
+								}
+							}
+						}
+					},
+					{
+						"when": "samus",
+						"model": {
+							"type": "minecraft:select",
+							"property": "minecraft:custom_model_data",
+							"index": 1,
+							"cases": [
+								{
+									"when": "gold",
+									"model": {
+										"type": "minecraft:model",
+										"model": "ssbrc:fighter/samus/skin/gold"
+									}
+								},
+								{
+									"when": "power_suit_dread",
+									"model": {
+										"type": "minecraft:model",
+										"model": "ssbrc:fighter/samus/skin/power_suit_dread"
+									}
+								},
+								{
+									"when": "varia_suit_super",
+									"model": {
+										"type": "minecraft:model",
+										"model": "ssbrc:fighter/samus/skin/varia_suit_super"
+									}
+								},
+								{
+									"when": "gravity_suit_super",
+									"model": {
+										"type": "minecraft:model",
+										"model": "ssbrc:fighter/samus/skin/gravity_suit_super"
+									}
+								},
+								{
+									"when": "phazon_suit",
+									"model": {
+										"type": "minecraft:model",
+										"model": "ssbrc:fighter/samus/skin/phazon_suit"
+									}
+								},
+								{
+									"when": "cloaked",
+									"model": {
+										"type": "minecraft:model",
+										"model": "ssbrc:fighter/samus/skin/cloaked"
+									}
+								}
+							],
+							"fallback": {
+								"type": "minecraft:model",
+								"model": "ssbrc:fighter/samus/skin/default"
+							}
+						}
+					},
+					{
+						"when": "shadow",
+						"model": {
+							"type": "minecraft:select",
+							"property": "minecraft:custom_model_data",
+							"index": 1,
+							"cases": [
+								{
+									"when": "gold",
+									"model": {
+										"type": "minecraft:model",
+										"model": "ssbrc:fighter/shadow/skin/gold"
+									}
+								},
+								{
+									"when": "yellow_android",
+									"model": {
+										"type": "minecraft:model",
+										"model": "ssbrc:fighter/shadow/skin/yellow_android"
+									}
+								},
+								{
+									"when": "sir_lancelot",
+									"model": {
+										"type": "minecraft:model",
+										"model": "ssbrc:fighter/shadow/skin/sir_lancelot"
+									}
+								},
+								{
+									"when": "dark_knight",
+									"model": {
+										"type": "minecraft:model",
+										"model": "ssbrc:fighter/shadow/skin/dark_knight"
+									}
+								}
+							],
+							"fallback": {
+								"type": "minecraft:model",
+								"model": "ssbrc:fighter/shadow/skin/default"
+							}
+						}
+					},
+					{
+						"when": "shovel_knight",
+						"model": {
+							"type": "minecraft:select",
+							"property": "minecraft:custom_model_data",
+							"index": 2,
+							"cases": [
+								{
+									"when": "phase_locket",
+									"model": {
+										"type": "minecraft:composite",
+										"models": [
+											{
+												"type": "minecraft:model",
+												"model": "ssbrc:fighter/shovel_knight/skin/phase_locket"
+											},
+											{
+												"type": "minecraft:model",
+												"model": "ssbrc:fighter/shovel_knight/skin/accessory/horns/phase_locket"
+											}
+										]
+									}
+								}
+							],
+							"fallback": {
+								"type": "minecraft:select",
+								"property": "minecraft:custom_model_data",
+								"index": 1,
+								"cases": [
+									{
+										"when": "gold",
+										"model": {
+											"type": "minecraft:composite",
+											"models": [
+												{
+													"type": "minecraft:model",
+													"model": "ssbrc:fighter/shovel_knight/skin/gold"
+												},
+												{
+													"type": "minecraft:model",
+													"model": "ssbrc:fighter/shovel_knight/skin/accessory/horns/gold"
+												}
+											]
+										}
+									},
+									{
+										"when": "conjurers_coat",
+										"model": {
+											"type": "minecraft:composite",
+											"models": [
+												{
+													"type": "minecraft:model",
+													"model": "ssbrc:fighter/shovel_knight/skin/conjurers_coat"
+												},
+												{
+													"type": "minecraft:model",
+													"model": "ssbrc:fighter/shovel_knight/skin/accessory/horns/conjurers_coat"
+												}
+											]
+										}
+									},
+									{
+										"when": "armor_of_chaos",
+										"model": {
+											"type": "minecraft:composite",
+											"models": [
+												{
+													"type": "minecraft:model",
+													"model": "ssbrc:fighter/shovel_knight/skin/armor_of_chaos"
+												},
+												{
+													"type": "minecraft:model",
+													"model": "ssbrc:fighter/shovel_knight/skin/accessory/horns/armor_of_chaos"
+												}
+											]
+										}
+									},
+									{
+										"when": "toad_gear",
+										"model": {
+											"type": "minecraft:composite",
+											"models": [
+												{
+													"type": "minecraft:model",
+													"model": "ssbrc:fighter/shovel_knight/skin/toad_gear"
+												},
+												{
+													"type": "minecraft:model",
+													"model": "ssbrc:fighter/shovel_knight/skin/accessory/horns/toad_gear"
+												}
+											]
+										}
+									}
+								],
+								"fallback": {
+									"type": "minecraft:composite",
+									"models": [
+										{
+											"type": "minecraft:model",
+											"model": "ssbrc:fighter/shovel_knight/skin/default"
+										},
+										{
+											"type": "minecraft:model",
+											"model": "ssbrc:fighter/shovel_knight/skin/accessory/horns/default"
+										}
+									]
+								}
+							}
+						}
+					},
+					{
+						"when": "snake",
+						"model": {
+							"type": "minecraft:select",
+							"property": "minecraft:custom_model_data",
+							"index": 1,
+							"cases": [
+								{
+									"when": "iroquois_pliskin",
+									"model": {
+										"type": "minecraft:select",
+										"property": "minecraft:custom_model_data",
+										"index": 2,
+										"cases": [
+											{
+												"when": "night_vision_goggles",
+												"model": {
+													"type": "minecraft:model",
+													"model": "ssbrc:fighter/snake/skin/iroquois_pliskin/night_vision_goggles"
+												}
+											}
+										],
+										"fallback": {
+											"type": "minecraft:model",
+											"model": "ssbrc:fighter/snake/skin/iroquois_pliskin/default"
+										}
+									}
+								},
+								{
+									"when": "old_snake",
+									"model": {
+										"type": "minecraft:select",
+										"property": "minecraft:custom_model_data",
+										"index": 2,
+										"cases": [
+											{
+												"when": "night_vision_goggles",
+												"model": {
+													"type": "minecraft:model",
+													"model": "ssbrc:fighter/snake/skin/old_snake/night_vision_goggles"
+												}
+											}
+										],
+										"fallback": {
+											"type": "minecraft:model",
+											"model": "ssbrc:fighter/snake/skin/old_snake/default"
+										}
+									}
+								}
+							],
+							"fallback": {
+								"type": "minecraft:select",
+								"property": "minecraft:custom_model_data",
+								"index": 2,
+								"cases": [
+									{
+										"when": "night_vision_goggles",
+										"model": {
+											"type": "minecraft:model",
+											"model": "ssbrc:fighter/snake/skin/default/night_vision_goggles"
+										}
+									}
+								],
+								"fallback": {
+									"type": "minecraft:model",
+									"model": "ssbrc:fighter/snake/skin/default/default"
+								}
+							}
+						}
+					},
+					{
+						"when": "sonic",
+						"model": {
+							"type": "minecraft:select",
+							"property": "minecraft:custom_model_data",
+							"index": 1,
+							"cases": [
+								{
+									"when": "gold",
+									"model": {
+										"type": "minecraft:model",
+										"model": "ssbrc:fighter/sonic/skin/gold"
+									}
+								},
+								{
+									"when": "classic",
+									"model": {
+										"type": "minecraft:model",
+										"model": "ssbrc:fighter/sonic/skin/classic"
+									}
+								},
+								{
+									"when": "werehog",
+									"model": {
+										"type": "minecraft:model",
+										"model": "ssbrc:fighter/sonic/skin/werehog"
+									}
+								},
+								{
+									"when": "hylian_tunic",
+									"model": {
+										"type": "minecraft:model",
+										"model": "ssbrc:fighter/sonic/skin/hylian_tunic"
+									}
+								}
+							],
+							"fallback": {
+								"type": "minecraft:model",
+								"model": "ssbrc:fighter/sonic/skin/default"
+							}
+						}
+					},
+					{
+						"when": "sora",
+						"model": {
+							"type": "minecraft:select",
+							"property": "minecraft:custom_model_data",
+							"index": 1,
+							"cases": [
+								{
+									"when": "gold",
+									"model": {
+										"type": "minecraft:composite",
+										"models": [
+											{
+												"type": "minecraft:select",
+												"property": "minecraft:custom_model_data",
+												"index": 2,
+												"cases": [
+													{
+														"when": "master",
+														"model": {
+															"type": "minecraft:model",
+															"model": "ssbrc:fighter/sora/skin/gold/master"
+														}
+													},
+													{
+														"when": "anti",
+														"model": {
+															"type": "minecraft:model",
+															"model": "ssbrc:fighter/sora/skin/gold/anti"
+														}
+													}
+												],
+												"fallback": {
+													"type": "minecraft:model",
+													"model": "ssbrc:fighter/sora/skin/gold/default"
+												}
+											},
+											{
+												"type": "minecraft:select",
+												"property": "minecraft:custom_model_data",
+												"index": 2,
+												"cases": [
+													{
+														"when": "anti",
+														"model": {
+															"type": "minecraft:model",
+															"model": "ssbrc:fighter/sora/skin/accessory/crown/anti"
+														}
+													}
+												],
+												"fallback": {
+													"type": "minecraft:model",
+													"model": "ssbrc:fighter/sora/skin/accessory/crown/default"
+												}
+											}
+										]
+									}
+								},
+								{
+									"when": "timeless_river",
+									"model": {
+										"type": "minecraft:select",
+										"property": "minecraft:custom_model_data",
+										"index": 2,
+										"cases": [
+											{
+												"when": "valor",
+												"model": {
+													"type": "minecraft:model",
+													"model": "ssbrc:fighter/sora/skin/timeless_river/valor"
+												}
+											},
+											{
+												"when": "wisdom",
+												"model": {
+													"type": "minecraft:model",
+													"model": "ssbrc:fighter/sora/skin/timeless_river/wisdom"
+												}
+											},
+											{
+												"when": "master",
+												"model": {
+													"type": "minecraft:model",
+													"model": "ssbrc:fighter/sora/skin/timeless_river/master"
+												}
+											},
+											{
+												"when": "anti",
+												"model": {
+													"type": "minecraft:model",
+													"model": "ssbrc:fighter/sora/skin/timeless_river/anti"
+												}
+											}
+										],
+										"fallback": {
+											"type": "minecraft:model",
+											"model": "ssbrc:fighter/sora/skin/timeless_river/default"
+										}
+									}
+								},
+								{
+									"when": "space_paranoids",
+									"model": {
+										"type": "minecraft:select",
+										"property": "minecraft:custom_model_data",
+										"index": 2,
+										"cases": [
+											{
+												"when": "valor",
+												"model": {
+													"type": "minecraft:model",
+													"model": "ssbrc:fighter/sora/skin/space_paranoids/valor"
+												}
+											},
+											{
+												"when": "wisdom",
+												"model": {
+													"type": "minecraft:model",
+													"model": "ssbrc:fighter/sora/skin/space_paranoids/wisdom"
+												}
+											},
+											{
+												"when": "master",
+												"model": {
+													"type": "minecraft:model",
+													"model": "ssbrc:fighter/sora/skin/space_paranoids/master"
+												}
+											},
+											{
+												"when": "anti",
+												"model": {
+													"type": "minecraft:model",
+													"model": "ssbrc:fighter/sora/skin/space_paranoids/anti"
+												}
+											}
+										],
+										"fallback": {
+											"type": "minecraft:model",
+											"model": "ssbrc:fighter/sora/skin/space_paranoids/default"
+										}
+									}
+								},
+								{
+									"when": "birth_by_sleep",
+									"model": {
+										"type": "minecraft:select",
+										"property": "minecraft:custom_model_data",
+										"index": 2,
+										"cases": [
+											{
+												"when": "valor",
+												"model": {
+													"type": "minecraft:model",
+													"model": "ssbrc:fighter/sora/skin/birth_by_sleep/valor"
+												}
+											},
+											{
+												"when": "wisdom",
+												"model": {
+													"type": "minecraft:model",
+													"model": "ssbrc:fighter/sora/skin/birth_by_sleep/wisdom"
+												}
+											},
+											{
+												"when": "master",
+												"model": {
+													"type": "minecraft:model",
+													"model": "ssbrc:fighter/sora/skin/birth_by_sleep/master"
+												}
+											},
+											{
+												"when": "anti",
+												"model": {
+													"type": "minecraft:model",
+													"model": "ssbrc:fighter/sora/skin/birth_by_sleep/anti"
+												}
+											}
+										],
+										"fallback": {
+											"type": "minecraft:model",
+											"model": "ssbrc:fighter/sora/skin/birth_by_sleep/default"
+										}
+									}
+								}
+							],
+							"fallback": {
+								"type": "minecraft:select",
+								"property": "minecraft:custom_model_data",
+								"index": 2,
+								"cases": [
+									{
+										"when": "valor",
+										"model": {
+											"type": "minecraft:model",
+											"model": "ssbrc:fighter/sora/skin/default/valor"
+										}
+									},
+									{
+										"when": "wisdom",
+										"model": {
+											"type": "minecraft:model",
+											"model": "ssbrc:fighter/sora/skin/default/wisdom"
+										}
+									},
+									{
+										"when": "master",
+										"model": {
+											"type": "minecraft:model",
+											"model": "ssbrc:fighter/sora/skin/default/master"
+										}
+									},
+									{
+										"when": "anti",
+										"model": {
+											"type": "minecraft:model",
+											"model": "ssbrc:fighter/sora/skin/default/anti"
+										}
+									}
+								],
+								"fallback": {
+									"type": "minecraft:model",
+									"model": "ssbrc:fighter/sora/skin/default/default"
+								}
+							}
+						}
+					},
+					{
+						"when": "steve",
+						"model": {
+							"type": "minecraft:select",
+							"property": "minecraft:custom_model_data",
+							"index": 1,
+							"cases": [
+								{
+									"when": "alex",
+									"model": {
+										"type": "minecraft:model",
+										"model": "ssbrc:fighter/steve/skin/alex"
+									}
+								},
+								{
+									"when": "ari",
+									"model": {
+										"type": "minecraft:model",
+										"model": "ssbrc:fighter/steve/skin/ari"
+									}
+								},
+								{
+									"when": "efe",
+									"model": {
+										"type": "minecraft:model",
+										"model": "ssbrc:fighter/steve/skin/efe"
+									}
+								},
+								{
+									"when": "kai",
+									"model": {
+										"type": "minecraft:model",
+										"model": "ssbrc:fighter/steve/skin/kai"
+									}
+								},
+								{
+									"when": "makena",
+									"model": {
+										"type": "minecraft:model",
+										"model": "ssbrc:fighter/steve/skin/makena"
+									}
+								},
+								{
+									"when": "noor",
+									"model": {
+										"type": "minecraft:model",
+										"model": "ssbrc:fighter/steve/skin/noor"
+									}
+								},
+								{
+									"when": "sunny",
+									"model": {
+										"type": "minecraft:model",
+										"model": "ssbrc:fighter/steve/skin/sunny"
+									}
+								},
+								{
+									"when": "zuri",
+									"model": {
+										"type": "minecraft:model",
+										"model": "ssbrc:fighter/steve/skin/zuri"
+									}
+								},
+								{
+									"when": "herobrine",
+									"model": {
+										"type": "minecraft:model",
+										"model": "ssbrc:fighter/steve/skin/herobrine"
+									}
+								}
+							],
+							"fallback": {
+								"type": "minecraft:model",
+								"model": "ssbrc:fighter/zelda/skin/default"
+							}
+						}
+					},
+					{
+						"when": "team_rocket",
+						"model": {
+							"type": "minecraft:select",
+							"property": "minecraft:custom_model_data",
+							"index": 2,
+							"cases": [
+								{
+									"when": "jesse",
+									"model": {
+										"type": "minecraft:model",
+										"model": "ssbrc:fighter/team_rocket/skin/default/jesse"
+									}
+								},
+								{
+									"when": "james",
+									"model": {
+										"type": "minecraft:model",
+										"model": "ssbrc:fighter/team_rocket/skin/default/james"
+									}
+								},
+								{
+									"when": "arbok",
+									"model": {
+										"type": "minecraft:select",
+										"property": "minecraft:custom_model_data",
+										"index": 1,
+										"cases": [
+											{
+												"when": "gold",
+												"model": {
+													"type": "minecraft:model",
+													"model": "ssbrc:fighter/team_rocket/skin/gold/arbok"
+												}
+											},
+											{
+												"when": "alternate_world",
+												"model": {
+													"type": "minecraft:model",
+													"model": "ssbrc:fighter/team_rocket/skin/alternate_world/arbok"
+												}
+											}
+										],
+										"fallback": {
+											"type": "minecraft:model",
+											"model": "ssbrc:fighter/team_rocket/skin/default/arbok"
+										}
+									}
+								},
+								{
+									"when": "wobbuffet",
+									"model": {
+										"type": "minecraft:select",
+										"property": "minecraft:custom_model_data",
+										"index": 1,
+										"cases": [
+											{
+												"when": "gold",
+												"model": {
+													"type": "minecraft:model",
+													"model": "ssbrc:fighter/team_rocket/skin/gold/wobbuffet"
+												}
+											},
+											{
+												"when": "alternate_world",
+												"model": {
+													"type": "minecraft:model",
+													"model": "ssbrc:fighter/team_rocket/skin/alternate_world/wobbuffet"
+												}
+											}
+										],
+										"fallback": {
+											"type": "minecraft:model",
+											"model": "ssbrc:fighter/team_rocket/skin/default/wobbuffet"
+										}
+									}
+								}
+							],
+							"fallback": {
+								"type": "minecraft:select",
+								"property": "minecraft:custom_model_data",
+								"index": 1,
+								"cases": [
+									{
+										"when": "gold",
+										"model": {
+											"type": "minecraft:model",
+											"model": "ssbrc:fighter/team_rocket/skin/gold/meowth"
+										}
+									}
+								],
+								"fallback": {
+									"type": "minecraft:model",
+									"model": "ssbrc:fighter/team_rocket/skin/default/meowth"
+								}
+							}
+						}
+					},
+					{
+						"when": "terry",
+						"model": {
+							"type": "minecraft:select",
+							"property": "minecraft:custom_model_data",
+							"index": 1,
+							"cases": [
+								{
+									"when": "gold",
+									"model": {
+										"type": "minecraft:model",
+										"model": "ssbrc:fighter/terry/skin/gold"
+									}
+								},
+								{
+									"when": "mirror",
+									"model": {
+										"type": "minecraft:model",
+										"model": "ssbrc:fighter/terry/skin/mirror"
+									}
+								},
+								{
+									"when": "garou",
+									"model": {
+										"type": "minecraft:model",
+										"model": "ssbrc:fighter/terry/skin/garou"
+									}
+								},
+								{
+									"when": "kof_14",
+									"model": {
+										"type": "minecraft:model",
+										"model": "ssbrc:fighter/terry/skin/kof_14"
+									}
+								}
+							],
+							"fallback": {
+								"type": "minecraft:model",
+								"model": "ssbrc:fighter/terry/skin/default"
+							}
+						}
+					},
+					{
+						"when": "toon_link",
+						"model": {
+							"type": "minecraft:select",
+							"property": "minecraft:custom_model_data",
+							"index": 1,
+							"cases": [
+								{
+									"when": "gold",
+									"model": {
+										"type": "minecraft:model",
+										"model": "ssbrc:fighter/toon_link/skin/gold"
+									}
+								},
+								{
+									"when": "second_sword",
+									"model": {
+										"type": "minecraft:model",
+										"model": "ssbrc:fighter/toon_link/skin/second_sword"
+									}
+								},
+								{
+									"when": "third_sword",
+									"model": {
+										"type": "minecraft:model",
+										"model": "ssbrc:fighter/toon_link/skin/third_sword"
+									}
+								},
+								{
+									"when": "fourth_sword",
+									"model": {
+										"type": "minecraft:model",
+										"model": "ssbrc:fighter/toon_link/skin/fourth_sword"
+									}
+								}
+							],
+							"fallback": {
+								"type": "minecraft:model",
+								"model": "ssbrc:fighter/toon_link/skin/default"
+							}
+						}
+					},
+					{
+						"when": "villager",
+						"model": {
+							"type": "minecraft:select",
+							"property": "minecraft:custom_model_data",
+							"index": 1,
+							"cases": [
+								{
+									"when": "retro",
+									"model": {
+										"type": "minecraft:select",
+										"property": "minecraft:custom_model_data",
+										"index": 2,
+										"cases": [
+											{
+												"when": "male",
+												"model": {
+													"type": "minecraft:model",
+													"model": "ssbrc:fighter/villager/skin/retro/male"
+												}
+											}
+										],
+										"fallback": {
+											"type": "minecraft:model",
+											"model": "ssbrc:fighter/villager/skin/retro/female"
+										}
+									}
+								},
+								{
+									"when": "new_leaf",
+									"model": {
+										"type": "minecraft:select",
+										"property": "minecraft:custom_model_data",
+										"index": 2,
+										"cases": [
+											{
+												"when": "male",
+												"model": {
+													"type": "minecraft:model",
+													"model": "ssbrc:fighter/villager/skin/new_leaf/male"
+												}
+											}
+										],
+										"fallback": {
+											"type": "minecraft:model",
+											"model": "ssbrc:fighter/villager/skin/new_leaf/female"
+										}
+									}
+								},
+								{
+									"when": "mario_kart",
+									"model": {
+										"type": "minecraft:select",
+										"property": "minecraft:custom_model_data",
+										"index": 2,
+										"cases": [
+											{
+												"when": "male",
+												"model": {
+													"type": "minecraft:model",
+													"model": "ssbrc:fighter/villager/skin/mario_kart/male"
+												}
+											}
+										],
+										"fallback": {
+											"type": "minecraft:model",
+											"model": "ssbrc:fighter/villager/skin/mario_kart/female"
+										}
+									}
+								}
+							],
+							"fallback": {
+								"type": "minecraft:select",
+								"property": "minecraft:custom_model_data",
+								"index": 2,
+								"cases": [
+									{
+										"when": "male",
+										"model": {
+											"type": "minecraft:model",
+											"model": "ssbrc:fighter/villager/skin/default/male"
+										}
+									}
+								],
+								"fallback": {
+									"type": "minecraft:model",
+									"model": "ssbrc:fighter/villager/skin/default/female"
+								}
+							}
+						}
+					},
+					{
+						"when": "wolf",
+						"model": {
+							"type": "minecraft:select",
+							"property": "minecraft:custom_model_data",
+							"index": 1,
+							"cases": [
+								{
+									"when": "assault",
+									"model": {
+										"type": "minecraft:model",
+										"model": "ssbrc:fighter/wolf/skin/assault"
+									}
+								},
+								{
+									"when": "star_fox_2",
+									"model": {
+										"type": "minecraft:model",
+										"model": "ssbrc:fighter/wolf/skin/star_fox_2"
+									}
+								},
+								{
+									"when": "starlink",
+									"model": {
+										"type": "minecraft:model",
+										"model": "ssbrc:fighter/wolf/skin/starlink"
+									}
+								}
+							],
+							"fallback": {
+								"type": "minecraft:model",
+								"model": "ssbrc:fighter/wolf/skin/default"
+							}
+						}
+					},
+					{
+						"when": "yar",
+						"model": {
+							"type": "minecraft:select",
+							"property": "minecraft:custom_model_data",
+							"index": 1,
+							"cases": [
+								{
+									"when": "gold",
+									"model": {
+										"type": "minecraft:model",
+										"model": "ssbrc:fighter/yar/skin/gold"
+									}
+								},
+								{
+									"when": "player_2",
+									"model": {
+										"type": "minecraft:model",
+										"model": "ssbrc:fighter/yar/skin/player_2"
+									}
+								},
+								{
+									"when": "recruit",
+									"model": {
+										"type": "minecraft:model",
+										"model": "ssbrc:fighter/yar/skin/recruit"
+									}
+								},
+								{
+									"when": "emi",
+									"model": {
+										"type": "minecraft:model",
+										"model": "ssbrc:fighter/yar/skin/emi"
+									}
+								}
+							],
+							"fallback": {
+								"type": "minecraft:model",
+								"model": "ssbrc:fighter/yar/skin/default"
+							}
+						}
+					},
+					{
+						"when": "zelda",
+						"model": {
+							"type": "minecraft:select",
+							"property": "minecraft:custom_model_data",
+							"index": 1,
+							"cases": [
+								{
+									"when": "gold",
+									"model": {
+										"type": "minecraft:model",
+										"model": "ssbrc:fighter/zelda/skin/gold"
+									}
+								},
+								{
+									"when": "twilight_princess",
+									"model": {
+										"type": "minecraft:model",
+										"model": "ssbrc:fighter/zelda/skin/twilight_princess"
+									}
+								},
+								{
+									"when": "hyrule_warriors",
+									"model": {
+										"type": "minecraft:model",
+										"model": "ssbrc:fighter/zelda/skin/hyrule_warriors"
+									}
+								},
+								{
+									"when": "shadow_zelda",
+									"model": {
+										"type": "minecraft:model",
+										"model": "ssbrc:fighter/zelda/skin/shadow_zelda"
+									}
+								}
+							],
+							"fallback": {
+								"type": "minecraft:model",
+								"model": "ssbrc:fighter/zelda/skin/default"
+							}
+						}
+					}
+				]
+			}
+		]
+	}
+}

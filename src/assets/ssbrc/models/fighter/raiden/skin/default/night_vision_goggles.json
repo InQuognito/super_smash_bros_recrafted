@@ -1,6 +1,6 @@
 {
 	"parent": "ssbrc:template/fighter/head",
 	"textures": {
-		"base": "ssbrc:fighter/joker/skin/christmas_outfit/awakening"
+		"base": "ssbrc:fighter/raiden/skin/default/night_vision_goggles"
 	}
 }
