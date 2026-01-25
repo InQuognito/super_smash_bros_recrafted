@@ -7,6 +7,7 @@ attribute @s minecraft:attack_speed base set 100.0
 attribute @s minecraft:block_interaction_range base set 10.0
 
 attribute @s minecraft:fall_damage_multiplier base set 0.0
+attribute @s minecraft:fall_damage_multiplier modifier remove ssbrc:launched
 
 attribute @s minecraft:gravity base reset
 attribute @s minecraft:gravity modifier remove ssbrc:zero

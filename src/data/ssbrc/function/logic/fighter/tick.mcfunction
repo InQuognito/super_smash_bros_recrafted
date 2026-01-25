@@ -26,8 +26,8 @@ execute if entity @e[type=minecraft:marker,tag=electric_terrain,distance=..12] r
 tag @s[tag=vented] add silenced
 
 execute unless score @s[predicate=ssbrc:input/jump] jump.cooldown matches 1.. run function ssbrc:logic/fighter/jump
-execute if entity @s[tag=safe_launch,scores={motion_y=..-100}] unless block ~ ~-10 ~ #ssbrc:passthrough_charge run effect give @s minecraft:slow_falling 1 0 true
-execute if entity @s[tag=launched,predicate=ssbrc:flag/on_ground] unless score @s player_motion.timer matches 1.. run function ssbrc:logic/fighter/grounded
+
+execute if entity @s[tag=launched] run function ssbrc:logic/fighter/motion/launched
 scoreboard players set @s[predicate=ssbrc:flag/on_ground] jump 0
 
 execute if score @s charge.input matches 1.. run function ssbrc:logic/fighter/item/tick
@@ -64,9 +64,6 @@ execute if score @s smash_item.super_mushroom.timer matches 1.. run function ssb
 # Fighter Effects
 execute if items entity @s armor.body *[minecraft:custom_data~{temp: {fighter: {skin: "gold"}}}] run function ssbrc:logic/fighter/gold_trail
 scoreboard players reset @s flag.walking
-
-scoreboard players remove @s[scores={player_motion.timer=1..}] player_motion.timer 1
-execute if score @s player_motion.timer matches 1 run function ssbrc:logic/fighter/motion/reset
 
 execute if score @s immobile matches 1.. run function ssbrc:logic/fighter/effects/mobility/tick
 
