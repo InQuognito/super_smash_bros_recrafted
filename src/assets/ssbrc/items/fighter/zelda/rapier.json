@@ -1,0 +1,56 @@
+{
+	"model": {
+		"type": "minecraft:select",
+		"property": "minecraft:custom_model_data",
+		"cases": [
+			{
+				"when": "emerald",
+				"model": {
+					"type": "minecraft:model",
+					"model": "ssbrc:fighter/zelda/item/rapier/emerald"
+				}
+			},
+			{
+				"when": "glass",
+				"model": {
+					"type": "minecraft:condition",
+					"property": "minecraft:has_component",
+					"component": "minecraft:unbreakable",
+					"on_true": {
+						"type": "minecraft:model",
+						"model": "ssbrc:fighter/zelda/item/rapier/glass/shattered"
+					},
+					"on_false": {
+						"type": "minecraft:model",
+						"model": "ssbrc:fighter/zelda/item/rapier/glass/default"
+					}
+				}
+			},
+			{
+				"when": "obsidian",
+				"model": {
+					"type": "minecraft:model",
+					"model": "ssbrc:fighter/zelda/item/rapier/obsidian"
+				}
+			},
+			{
+				"when": "ruby",
+				"model": {
+					"type": "minecraft:model",
+					"model": "ssbrc:fighter/zelda/item/rapier/ruby"
+				}
+			},
+			{
+				"when": "titanium",
+				"model": {
+					"type": "minecraft:model",
+					"model": "ssbrc:fighter/zelda/item/rapier/titanium"
+				}
+			}
+		],
+		"fallback": {
+			"type": "minecraft:model",
+			"model": "ssbrc:fighter/zelda/item/rapier/default"
+		}
+	}
+}

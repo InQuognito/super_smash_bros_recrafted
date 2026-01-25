@@ -1,0 +1,337 @@
+{
+	"model": {
+		"type": "minecraft:select",
+		"property": "minecraft:custom_model_data",
+		"cases": [
+			{
+				"when": "altered_beast",
+				"model": {
+					"type": "minecraft:model",
+					"model": "ssbrc:fighter/altered_beast/skin/full"
+				}
+			},
+			{
+				"when": "alucard",
+				"model": {
+					"type": "minecraft:model",
+					"model": "ssbrc:fighter/alucard/skin/full"
+				}
+			},
+			{
+				"when": "bowser",
+				"model": {
+					"type": "minecraft:model",
+					"model": "ssbrc:fighter/bowser/skin/full"
+				}
+			},
+			{
+				"when": "byleth",
+				"model": {
+					"type": "minecraft:model",
+					"model": "ssbrc:fighter/byleth/skin/full"
+				}
+			},
+			{
+				"when": "captain_falcon",
+				"model": {
+					"type": "minecraft:model",
+					"model": "ssbrc:fighter/captain_falcon/skin/full"
+				}
+			},
+			{
+				"when": "cloud",
+				"model": {
+					"type": "minecraft:model",
+					"model": "ssbrc:fighter/cloud/skin/full"
+				}
+			},
+			{
+				"when": "dark_samus",
+				"model": {
+					"type": "minecraft:model",
+					"model": "ssbrc:fighter/dark_samus/skin/full"
+				}
+			},
+			{
+				"when": "donkey_kong",
+				"model": {
+					"type": "minecraft:model",
+					"model": "ssbrc:fighter/donkey_kong/skin/full"
+				}
+			},
+			{
+				"when": "fox",
+				"model": {
+					"type": "minecraft:model",
+					"model": "ssbrc:fighter/fox/skin/full"
+				}
+			},
+			{
+				"when": "ganondorf",
+				"model": {
+					"type": "minecraft:model",
+					"model": "ssbrc:fighter/ganondorf/skin/full"
+				}
+			},
+			{
+				"when": "giegue",
+				"model": {
+					"type": "minecraft:model",
+					"model": "ssbrc:fighter/giegue/skin/full"
+				}
+			},
+			{
+				"when": "gooey",
+				"model": {
+					"type": "minecraft:model",
+					"model": "ssbrc:fighter/gooey/skin/full"
+				}
+			},
+			{
+				"when": "greninja",
+				"model": {
+					"type": "minecraft:model",
+					"model": "ssbrc:fighter/greninja/skin/full"
+				}
+			},
+			{
+				"when": "hero",
+				"model": {
+					"type": "minecraft:model",
+					"model": "ssbrc:fighter/hero/skin/full"
+				}
+			},
+			{
+				"when": "ice_climbers",
+				"model": {
+					"type": "minecraft:model",
+					"model": "ssbrc:fighter/ice_climbers/skin/full"
+				}
+			},
+			{
+				"when": "jigglypuff",
+				"model": {
+					"type": "minecraft:model",
+					"model": "ssbrc:fighter/jigglypuff/skin/full"
+				}
+			},
+			{
+				"when": "joker",
+				"model": {
+					"type": "minecraft:model",
+					"model": "ssbrc:fighter/joker/skin/full"
+				}
+			},
+			{
+				"when": "king_k_rool",
+				"model": {
+					"type": "minecraft:model",
+					"model": "ssbrc:fighter/king_k_rool/skin/full"
+				}
+			},
+			{
+				"when": "kirby",
+				"model": {
+					"type": "minecraft:model",
+					"model": "ssbrc:fighter/kirby/skin/full"
+				}
+			},
+			{
+				"when": "link",
+				"model": {
+					"type": "minecraft:model",
+					"model": "ssbrc:fighter/link/skin/full"
+				}
+			},
+			{
+				"when": "lucario",
+				"model": {
+					"type": "minecraft:model",
+					"model": "ssbrc:fighter/lucario/skin/full"
+				}
+			},
+			{
+				"when": "luigi",
+				"model": {
+					"type": "minecraft:model",
+					"model": "ssbrc:fighter/luigi/skin/full"
+				}
+			},
+			{
+				"when": "mario",
+				"model": {
+					"type": "minecraft:model",
+					"model": "ssbrc:fighter/mario/skin/full"
+				}
+			},
+			{
+				"when": "mega_man",
+				"model": {
+					"type": "minecraft:model",
+					"model": "ssbrc:fighter/mega_man/skin/full"
+				}
+			},
+			{
+				"when": "ness",
+				"model": {
+					"type": "minecraft:model",
+					"model": "ssbrc:fighter/ness/skin/full"
+				}
+			},
+			{
+				"when": "peach",
+				"model": {
+					"type": "minecraft:model",
+					"model": "ssbrc:fighter/peach/skin/full"
+				}
+			},
+			{
+				"when": "pikachu",
+				"model": {
+					"type": "minecraft:model",
+					"model": "ssbrc:fighter/pikachu/skin/full"
+				}
+			},
+			{
+				"when": "pit",
+				"model": {
+					"type": "minecraft:model",
+					"model": "ssbrc:fighter/pit/skin/full"
+				}
+			},
+			{
+				"when": "pokemon_trainer",
+				"model": {
+					"type": "minecraft:model",
+					"model": "ssbrc:fighter/pokemon_trainer/skin/full"
+				}
+			},
+			{
+				"when": "raiden",
+				"model": {
+					"type": "minecraft:model",
+					"model": "ssbrc:fighter/raiden/skin/full"
+				}
+			},
+			{
+				"when": "rob",
+				"model": {
+					"type": "minecraft:model",
+					"model": "ssbrc:fighter/rob/skin/full"
+				}
+			},
+			{
+				"when": "roy",
+				"model": {
+					"type": "minecraft:model",
+					"model": "ssbrc:fighter/roy/skin/full"
+				}
+			},
+			{
+				"when": "ryu",
+				"model": {
+					"type": "minecraft:model",
+					"model": "ssbrc:fighter/ryu/skin/full"
+				}
+			},
+			{
+				"when": "samus",
+				"model": {
+					"type": "minecraft:model",
+					"model": "ssbrc:fighter/samus/skin/full"
+				}
+			},
+			{
+				"when": "shadow",
+				"model": {
+					"type": "minecraft:model",
+					"model": "ssbrc:fighter/shadow/skin/full"
+				}
+			},
+			{
+				"when": "shovel_knight",
+				"model": {
+					"type": "minecraft:model",
+					"model": "ssbrc:fighter/shovel_knight/skin/full"
+				}
+			},
+			{
+				"when": "snake",
+				"model": {
+					"type": "minecraft:model",
+					"model": "ssbrc:fighter/snake/skin/full"
+				}
+			},
+			{
+				"when": "sonic",
+				"model": {
+					"type": "minecraft:model",
+					"model": "ssbrc:fighter/sonic/skin/full"
+				}
+			},
+			{
+				"when": "sora",
+				"model": {
+					"type": "minecraft:model",
+					"model": "ssbrc:fighter/sora/skin/full"
+				}
+			},
+			{
+				"when": "steve",
+				"model": {
+					"type": "minecraft:model",
+					"model": "ssbrc:fighter/steve/skin/full"
+				}
+			},
+			{
+				"when": "team_rocket",
+				"model": {
+					"type": "minecraft:model",
+					"model": "ssbrc:fighter/team_rocket/skin/full"
+				}
+			},
+			{
+				"when": "terry",
+				"model": {
+					"type": "minecraft:model",
+					"model": "ssbrc:fighter/terry/skin/full"
+				}
+			},
+			{
+				"when": "toon_link",
+				"model": {
+					"type": "minecraft:model",
+					"model": "ssbrc:fighter/toon_link/skin/full"
+				}
+			},
+			{
+				"when": "villager",
+				"model": {
+					"type": "minecraft:model",
+					"model": "ssbrc:fighter/villager/skin/full"
+				}
+			},
+			{
+				"when": "wolf",
+				"model": {
+					"type": "minecraft:model",
+					"model": "ssbrc:fighter/wolf/skin/full"
+				}
+			},
+			{
+				"when": "yar",
+				"model": {
+					"type": "minecraft:model",
+					"model": "ssbrc:fighter/yar/skin/full"
+				}
+			},
+			{
+				"when": "zelda",
+				"model": {
+					"type": "minecraft:model",
+					"model": "ssbrc:fighter/zelda/skin/full"
+				}
+			}
+		]
+	}
+}

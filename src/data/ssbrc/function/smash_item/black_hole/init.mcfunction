@@ -28,7 +28,7 @@ item modify entity @s contents [ \
 				italic: false, \
 				"extra": [ \
 					{ \
-						"keybind": "key.use", \
+						keybind: "key.use", \
 						color: "gray", \
 						bold: false, \
 						italic: false, \

@@ -1,5 +1,19 @@
 [
 	{
+		"function": "minecraft:set_components",
+		"components": {
+			"minecraft:enchantments": {
+				"ssbrc:fighter/zelda/weapon/glass": 1
+			},
+			"minecraft:max_damage": 6,
+			"minecraft:custom_model_data": {
+				"strings": [
+					"glass"
+				]
+			}
+		}
+	},
+	{
 		"function": "minecraft:set_lore",
 		"entity": "this",
 		"lore": [
@@ -13,23 +27,13 @@
 		"mode": "append"
 	},
 	{
-		"function": "minecraft:set_components",
-		"components": {
-			"minecraft:enchantments": {
-				"ssbrc:fighter/zelda/weapon/glass": 1
-			},
-			"minecraft:max_damage": 6
-		}
-	},
-	{
 		"function": "minecraft:reference",
 		"name": "ssbrc:init/item/melee"
 	},
 	{
 		"function": "minecraft:set_custom_data",
 		"tag": {
-			"enchanted": "true",
-			"enchantment": "glass"
+			"enchanted": "true"
 		}
 	}
 ]

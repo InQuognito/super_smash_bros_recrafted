@@ -1,6 +1,6 @@
 execute if score @s burning matches 1.. run function ssbrc:logic/fighter/effects/burning/tick
 
-execute if entity @s[predicate=ssbrc:fighter/effects/has/poison] run particle minecraft:dust{color:[0,1,0],scale: .5} ~ ~.75 ~ .2 .4 .2 0 1 normal @a
+execute if entity @s[predicate=ssbrc:fighter/effects/poison] run particle minecraft:dust{color:[0,1,0],scale: .5} ~ ~.75 ~ .2 .4 .2 0 1 normal @a
 
 execute if score @s frostbite.timer matches 1.. run function ssbrc:logic/fighter/attributes/modifiers/frostbite/tick
 

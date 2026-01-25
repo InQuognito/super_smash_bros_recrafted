@@ -1,0 +1,27 @@
+{
+	"model": {
+		"type": "minecraft:condition",
+		"property": "minecraft:component",
+		"predicate": "minecraft:custom_data",
+		"value": {
+			"disabled": "true"
+		},
+		"on_true": {
+			"type": "minecraft:model",
+			"model": "ssbrc:fighter/shovel_knight/item/war_horn/disabled"
+		},
+		"on_false": {
+			"type": "minecraft:condition",
+			"property": "minecraft:using_item",
+			"on_true": {
+				"type": "minecraft:model",
+				"model": "ssbrc:fighter/shovel_knight/item/war_horn/tooting"
+			},
+			"on_false": {
+				"type": "minecraft:model",
+				"model": "ssbrc:fighter/shovel_knight/item/war_horn/default"
+			}
+		}
+	},
+	"hand_animation_on_swap": false
+}

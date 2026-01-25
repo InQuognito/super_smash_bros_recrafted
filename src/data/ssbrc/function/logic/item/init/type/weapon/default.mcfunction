@@ -32,7 +32,7 @@ $item replace entity @s $(slot) with minecraft:stick[ \
 			slot: "mainhand", \
 		}, \
 	], \
-	minecraft:item_model = "ssbrc:fighter/$(fighter)/item/$(item)", \
+	minecraft:item_model = "ssbrc:fighter/$(fighter)/$(item)", \
 	minecraft:custom_model_data = { \
 		strings: [ \
 			"$(skin)", \

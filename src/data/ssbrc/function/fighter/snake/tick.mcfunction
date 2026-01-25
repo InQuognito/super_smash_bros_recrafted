@@ -2,8 +2,12 @@
 function ssbrc:fighter/snake/glowing
 
 # Ammo HUD
-execute if entity @s[tag=!silenced] run function ssbrc:fighter/snake/hud/check
-title @s[tag=silenced] actionbar {text: "⌛", color: "yellow"}
+function ssbrc:fighter/snake/hud/check
+title @s actionbar { \
+	nbt: "cache.snake.ammo", \
+	storage: "ssbrc:temp", \
+	interpret: true, \
+}
 
 # Reload
 execute if score @s weapon_1.reload matches 1.. run function ssbrc:fighter/snake/m870_custom/reload/tick
@@ -11,11 +15,7 @@ execute if score @s weapon_2.reload matches 1.. run function ssbrc:fighter/snake
 execute if score @s weapon_3.reload matches 1.. run function ssbrc:fighter/snake/famas/reload/tick
 execute if score @s weapon_4.reload matches 1.. run function ssbrc:fighter/snake/socom/reload/tick
 
-# PSG-1
-attribute @s[predicate=!ssbrc:fighter/snake/psg1_zoom] minecraft:movement_speed modifier remove ssbrc:fighter/snake/psg1
-attribute @s[predicate=ssbrc:fighter/snake/psg1_zoom] minecraft:movement_speed modifier add ssbrc:fighter/snake/psg1 -1 add_multiplied_base
-
-# m870_custom
+# M870-Custom
 scoreboard players remove @s[scores={weapon_1.fire_rate=1..}] weapon_1.fire_rate 1
 execute if entity @s[scores={weapon_1.ammo=1..,weapon_1.fire_rate=15}] run playsound ssbrc:shotgun_reload player @a
 

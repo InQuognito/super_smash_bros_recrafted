@@ -3131,6 +3131,18 @@ fighters = {
 					'color': 'gold'
 				}
 			},
+			'spirit_orb': {
+				'type': 'ability',
+				'stats': {
+					'tag': 'utility',
+					'cooldown_group': 'altered_beast/spirit_orb',
+					'cooldown': 40
+				},
+				'static_data': {
+					'name': 'ssbrc.fighter.altered_beast.spirit_orb',
+					'color': 'red'
+				}
+			},
 			'tiger_claw': {
 				'type': 'weapon',
 				'stats': {

@@ -18,9 +18,9 @@ $data modify storage ssbrc:temp cache.raiden.ammo set value [ \
 ]
 
 $title @s[scores={weapon_$(id).ammo=1..}] actionbar { \
-	"nbt": "cache.raiden.ammo", \
-	"storage": "ssbrc:temp", \
-	"interpret": true \
+	nbt: "cache.raiden.ammo", \
+	storage: "ssbrc:temp", \
+	interpret: true \
 }
 
 $title @s[scores={weapon_$(id).mags=0,weapon_$(id).ammo=0}] actionbar [ \
@@ -39,16 +39,16 @@ $title @s[scores={weapon_$(id).mags=0,weapon_$(id).ammo=0}] actionbar [ \
 $title @s[scores={weapon_$(id).mags=1..,weapon_$(id).ammo=0}] actionbar [ \
 	"", \
 	{ \
-		"nbt": "cache.raiden.ammo", \
-		"storage": "ssbrc:temp", \
-		"interpret": true \
+		nbt: "cache.raiden.ammo", \
+		storage: "ssbrc:temp", \
+		interpret: true \
 	}, \
 	{ \
 		translate: "ssbrc.fighter.snake.reload.prefix", \
 		color: "gray", \
 	}, \
 	{ \
-		"keybind": "key.drop", \
+		keybind: "key.drop", \
 	}, \
 	{ \
 		translate: "ssbrc.fighter.snake.reload.suffix", \

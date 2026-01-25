@@ -17,13 +17,29 @@ $data modify storage ssbrc:temp cache.snake.ammo set value [ \
 	}, \
 ]
 
-$title @s[scores={weapon_$(id).ammo=1..}] actionbar { \
-	"nbt": "cache.snake.ammo", \
-	"storage": "ssbrc:temp", \
-	"interpret": true \
-}
+$execute if score @s weapon_$(id).ammo matches 1.. run return run data modify storage ssbrc:temp cache.snake.hud append from storage ssbrc:temp cache.snake.ammo
 
-$title @s[scores={weapon_$(id).mags=0,weapon_$(id).ammo=0}] actionbar [ \
+$execute if score @s weapon_$(id).mags matches 1.. run return run data modify storage ssbrc:temp cache.snake.hud append value [ \
+	"", \
+	{ \
+		nbt: "cache.snake.ammo", \
+		storage: "ssbrc:temp", \
+		interpret: true, \
+	}, \
+	{ \
+		translate: "ssbrc.fighter.snake.reload.prefix", \
+		color: "gray", \
+	}, \
+	{ \
+		keybind: "key.drop", \
+	}, \
+	{ \
+		translate: "ssbrc.fighter.snake.reload.suffix", \
+		color: "gray", \
+	}, \
+]
+
+$data modify storage ssbrc:temp cache.snake.hud append value [ \
 	"", \
 	{ \
 		text: "-", \
@@ -33,25 +49,5 @@ $title @s[scores={weapon_$(id).mags=0,weapon_$(id).ammo=0}] actionbar [ \
 	{ \
 		text: "-", \
 		color: "red", \
-	}, \
-]
-
-$title @s[scores={weapon_$(id).mags=1..,weapon_$(id).ammo=0}] actionbar [ \
-	"", \
-	{ \
-		"nbt": "cache.snake.ammo", \
-		"storage": "ssbrc:temp", \
-		"interpret": true \
-	}, \
-	{ \
-		translate: "ssbrc.fighter.snake.reload.prefix", \
-		color: "gray", \
-	}, \
-	{ \
-		"keybind": "key.drop", \
-	}, \
-	{ \
-		translate: "ssbrc.fighter.snake.reload.suffix", \
-		color: "gray", \
 	}, \
 ]

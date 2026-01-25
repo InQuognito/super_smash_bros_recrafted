@@ -1,0 +1,41 @@
+{
+	"model": {
+		"type": "minecraft:select",
+		"property": "minecraft:custom_model_data",
+		"cases": [
+			{
+				"when": "werebear",
+				"model": {
+					"type": "minecraft:model",
+					"model": "ssbrc:fighter/altered_beast/item/spirit_orb/werebear"
+				}
+			},
+			{
+				"when": "weredragon",
+				"model": {
+					"type": "minecraft:model",
+					"model": "ssbrc:fighter/altered_beast/item/spirit_orb/weredragon"
+				}
+			},
+			{
+				"when": "weretiger",
+				"model": {
+					"type": "minecraft:model",
+					"model": "ssbrc:fighter/altered_beast/item/spirit_orb/weretiger"
+				}
+			},
+			{
+				"when": "werewolf",
+				"model": {
+					"type": "minecraft:model",
+					"model": "ssbrc:fighter/altered_beast/item/spirit_orb/werewolf"
+				}
+			}
+		],
+		"fallback": {
+			"type": "minecraft:model",
+			"model": "ssbrc:fighter/altered_beast/item/spirit_orb/centurion"
+		}
+	},
+	"hand_animation_on_swap": false
+}

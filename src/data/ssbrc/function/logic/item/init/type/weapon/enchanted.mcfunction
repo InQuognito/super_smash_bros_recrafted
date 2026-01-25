@@ -34,7 +34,7 @@ $item replace entity @s $(slot) with minecraft:stick[ \
 	minecraft:enchantments = { \
 		"ssbrc:fighter/$(fighter)/$(item)": 1, \
 	}, \
-	minecraft:item_model = "ssbrc:fighter/$(fighter)/item/$(item)", \
+	minecraft:item_model = "ssbrc:fighter/$(fighter)/$(item)", \
 	minecraft:custom_model_data = { \
 		strings: [ \
 			"$(skin)", \

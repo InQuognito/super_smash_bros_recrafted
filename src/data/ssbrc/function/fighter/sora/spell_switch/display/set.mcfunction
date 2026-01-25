@@ -38,7 +38,7 @@ $item modify entity @s $(slot) [ \
 				italic: false, \
 				extra: [ \
 					{ \
-						"keybind": "key.use", \
+						keybind: "key.use", \
 						color: "gray", \
 					}, \
 					{ \
