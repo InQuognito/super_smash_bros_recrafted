@@ -1,4 +1,4 @@
-execute positioned ~ ~.5 ~ positioned ^ ^ ^.5 unless function ssbrc:logic/fighter/check/raycast/block run return run function ssbrc:logic/fighter/check/raycast/abort {type: 1}
+execute positioned ~ ~.5 ~ positioned ^ ^ ^.5 if function ssbrc:logic/fighter/check/raycast/block run return run function ssbrc:logic/fighter/check/raycast/abort {type: 1}
 
 scoreboard players operation #cache temp = @s temp
 scoreboard players operation #cache temp %= #3 const

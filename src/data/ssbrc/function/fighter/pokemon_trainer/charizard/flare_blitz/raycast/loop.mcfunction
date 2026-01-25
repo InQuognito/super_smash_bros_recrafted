@@ -1,4 +1,4 @@
-execute positioned ~ ~.5 ~ positioned ^ ^ ^.5 unless function ssbrc:logic/fighter/check/raycast/block run return run function ssbrc:fighter/pokemon_trainer/charizard/flare_blitz/raycast/abort
+execute positioned ~ ~.5 ~ positioned ^ ^ ^.5 if function ssbrc:logic/fighter/check/raycast/block run return run function ssbrc:fighter/pokemon_trainer/charizard/flare_blitz/raycast/abort
 
 execute positioned ~-.5 ~ ~-.5 as @e[tag=!self,predicate=ssbrc:target,dy=1] run return run function ssbrc:fighter/pokemon_trainer/charizard/flare_blitz/hit
 
