@@ -85,7 +85,7 @@ execute if block ~ ~ ~ minecraft:lava run scoreboard players add @s flag.in_lava
 kill @s[scores={flag.in_lava=60..}]
 scoreboard players reset @s[scores={flag.in_lava=60..}] flag.in_lava
 
-execute if data storage ssbrc:temp game.stage{name:"luigis_mansion"} run function ssbrc:stage/luigis_mansion/block_interaction_range
+execute if data storage ssbrc:temp game.stage{name: "luigis_mansion"} run function ssbrc:stage/luigis_mansion/block_interaction_range
 
 # Bonuses
 execute if score @s revenge.timer matches 0.. run function ssbrc:logic/fighter/bonuses/revenge/tick

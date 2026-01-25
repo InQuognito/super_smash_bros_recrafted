@@ -1,2 +1,0 @@
-teleport 0 0 0
-teleport ~ ~ ~

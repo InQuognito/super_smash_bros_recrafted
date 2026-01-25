@@ -7,13 +7,13 @@ bossbar add ssbrc:timer ""
 # Modify
 bossbar set ssbrc:timer color blue
 bossbar set ssbrc:timer max 1
-bossbar set ssbrc:timer name {translate: "ssbrc.game.time_remaining",bold: true,color: "yellow"}
+bossbar set ssbrc:timer name {translate: "ssbrc.game.time_remaining", bold: true, color: "yellow"}
 bossbar set ssbrc:timer players @a
 bossbar set ssbrc:timer style progress
 bossbar set ssbrc:timer value 1
 bossbar set ssbrc:timer visible false
 
-function ssbrc:logic/ui/popup/reset {name:"tutorial"}
+function ssbrc:logic/ui/popup/reset {name: "tutorial"}
 
 function ssbrc:logic/fighter/loop {function: "ssbrc:logic/ui/popup/reset"}
 

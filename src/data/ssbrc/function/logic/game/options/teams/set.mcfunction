@@ -1,4 +1,4 @@
-tellraw @s [{translate: "ssbrc.options.teams", color: "yellow"}," -> ",{translate: "ssbrc.options.off", color: "blue"}]
+tellraw @s [{translate: "ssbrc.options.teams", color: "yellow"}," -> ", {translate: "ssbrc.options.off", color: "blue"}]
 
 execute if entity @s[team=spectator] run return fail
 

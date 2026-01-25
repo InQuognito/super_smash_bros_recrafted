@@ -1,7 +1,6 @@
 {
 	"values": [
 		"ssbrc:load",
-		"motion:load",
 		"player_motion:internal/technical/load",
 		"animated_java:global/internal/gu/load",
 		"animated_java:global/on_load"

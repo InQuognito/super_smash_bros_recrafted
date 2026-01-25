@@ -5,8 +5,8 @@
 #
 # in = number to root
 
-execute if score #in math matches 214748.. run tellraw @a [{text: "MATH Error:", color: "red"},{text: " Fast Sqrt() Overflow. Input too large!", color: "white"}]
-execute if score #in math matches ..-1 run tellraw @a [{text: "MATH Error:", color: "red"},{text: " Fast Sqrt() Imaginary Number (input negative)", color: "white"}]
+execute if score #in math matches 214748.. run tellraw @a [{text: "MATH Error:", color: "red"}, {text: " Fast Sqrt() Overflow. Input too large!", color: "white"}]
+execute if score #in math matches ..-1 run tellraw @a [{text: "MATH Error:", color: "red"}, {text: " Fast Sqrt() Imaginary Number (input negative)", color: "white"}]
 
 scoreboard players operation #temp1 math = #in math
 scoreboard players operation #in math *= #10000 const

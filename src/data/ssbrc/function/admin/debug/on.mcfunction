@@ -1,4 +1,4 @@
-tellraw @a ["Debug Mode: ",{text: "ENABLED", color: "yellow"}]
+tellraw @a ["Debug Mode: ", {text: "ENABLED", color: "yellow"}]
 
 data modify storage ssbrc:data option.debug set value true
 

@@ -1,1 +1,0 @@
-$gamemode $(game_mode)
