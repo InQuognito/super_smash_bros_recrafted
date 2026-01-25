@@ -26,9 +26,9 @@ scoreboard objectives add player_motion.internal.store dummy
 function player_motion:internal/convert_from_legacy/scoreboard_constants
 
 ## Forceload
-forceload remove 0 0
-forceload add 0 0
+execute in minecraft:overworld run forceload remove 0 0
+execute in minecraft:overworld run forceload add 0 0
 
 ## Marker
-kill d4bd74a7-4e82-4a07-8850-dfc4d89f9e2f
-summon marker 0.0 0.0 0.0 {UUID:[I; -725781337, 1317161479, -2007965756, -660627921], Tags:["smithed.strict", "smithed.entity"]}
+execute in minecraft:overworld run kill d4bd74a7-4e82-4a07-8850-dfc4d89f9e2f
+execute in minecraft:overworld run summon marker 0.0 0.0 0.0 {UUID:[I; -725781337, 1317161479, -2007965756, -660627921], Tags:["smithed.strict", "smithed.entity"]}
