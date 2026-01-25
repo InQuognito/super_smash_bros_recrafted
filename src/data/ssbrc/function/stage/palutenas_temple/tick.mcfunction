@@ -2,4 +2,4 @@ execute as @a[predicate=ssbrc:player] unless score @s player_motion.timer matche
 
 execute if data storage ssbrc:data option{hazards: true} run function ssbrc:stage/palutenas_temple/hazards
 
-kill @e[predicate=ssbrc:killbox_vulnerable,predicate=ssbrc:below_y/195]
+kill @e[predicate=ssbrc:killbox_vulnerable,predicate=ssbrc:below_y/-45]
