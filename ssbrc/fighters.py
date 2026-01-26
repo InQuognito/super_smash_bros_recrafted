@@ -52,6 +52,10 @@ fighters = {
 				},
 				'gold': {
 					'color': 'gold'
+				},
+				'tennis': {
+					'name': 'ssbrc.fighter.super_mario_bros.tennis_racket',
+					'color': 'red'
 				}
 			},
 			'fireball': {
@@ -125,6 +129,10 @@ fighters = {
 				},
 				'gold': {
 					'color': 'gold'
+				},
+				'tennis': {
+					'name': 'ssbrc.fighter.super_mario_bros.tennis_racket',
+					'color': 'green'
 				}
 			},
 			'ice_ball': {
@@ -216,7 +224,7 @@ fighters = {
 					'minimum_attack_charge': 0.75
 				},
 				'default': {
-					'name': 'ssbrc.fighter.peach.tennis_racket',
+					'name': 'ssbrc.fighter.super_mario_bros.tennis_racket',
 					'color': 'light_purple'
 				},
 				'gold': {
