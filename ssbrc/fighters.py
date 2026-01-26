@@ -29,6 +29,10 @@ fighters = {
 				'price': 9999,
 				'color': 'white',
 				'invisible_player': True
+			},
+			'tennis': {
+				'rarity': 'rare',
+				'color': 'red'
 			}
 		},
 		'forms': [
@@ -97,6 +101,10 @@ fighters = {
 			},
 			'gooigi': {
 				'rarity': 'uncommon',
+				'color': 'green'
+			},
+			'tennis': {
+				'rarity': 'rare',
 				'color': 'green'
 			}
 		},
