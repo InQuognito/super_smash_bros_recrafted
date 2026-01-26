@@ -1,3 +1,1 @@
-function ssbrc:fighter/mario/super_jump/reset
-
-playsound ssbrc:fighter.mario.super_jump.activate player @a
+attribute @s minecraft:jump_strength modifier remove ssbrc:super_jump

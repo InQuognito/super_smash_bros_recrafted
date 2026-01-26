@@ -8,4 +8,4 @@ $execute if score @s charge.1 = #super_mario_bros.super_jump const run function 
 particle minecraft:glow ~ ~.01 ~ .2 .2 .2 0 2 normal @a
 
 function ssbrc:logic/fighter/jump/super_jump/calculate
-$execute if score super_jump.falloff temp matches 200.. run function ssbrc:fighter/$(fighter)/super_jump/reset with entity @s equipment.body.components."minecraft:custom_data".temp.fighter
+execute if score #super_jump.falloff temp matches 200.. run function ssbrc:logic/fighter/jump/super_jump/reset

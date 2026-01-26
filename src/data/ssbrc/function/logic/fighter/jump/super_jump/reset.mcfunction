@@ -1,5 +1,6 @@
 scoreboard players set @s charge.1 0
 
-function ssbrc:logic/fighter/jump/super_jump/untrack
+scoreboard players set @s walk_distance 0
+scoreboard players set @s sprint_distance 0
 
-$function ssbrc:fighter/$(fighter)/super_jump/reset
+scoreboard players reset #super_jump.falloff temp
