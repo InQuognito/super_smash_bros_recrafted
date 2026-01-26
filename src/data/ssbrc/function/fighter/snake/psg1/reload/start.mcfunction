@@ -1,4 +1,3 @@
-scoreboard players set @s weapon_2.reload 40
-tag @s add silenced
+function ssbrc:logic/fighter/effects/reload {id: 2, duration: 40}
 
 playsound ssbrc:sniper_reload player @a

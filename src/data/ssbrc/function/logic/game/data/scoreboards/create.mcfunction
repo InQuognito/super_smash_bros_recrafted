@@ -107,6 +107,7 @@ scoreboard objectives add selected_item.prev dummy
 scoreboard objectives add shadow.chaos_control dummy
 scoreboard objectives add shadow.meter.hero dummy
 scoreboard objectives add shadow.meter.dark dummy
+scoreboard objectives add silenced dummy
 scoreboard objectives add slope dummy
 scoreboard objectives add smash_item.franklin_badge.counter dummy
 scoreboard objectives add smash_item.franklin_badge.timer dummy

@@ -4,6 +4,6 @@ kill @e[type=minecraft:item_display,tag=guardian_orbitar,predicate=ssbrc:id_matc
 
 item replace entity @s inventory.0 with minecraft:spectral_arrow
 
-function ssbrc:logic/fighter/effects/mobility/mobilize
+function ssbrc:logic/fighter/effects/immobile/deactivate
 
 function ssbrc:logic/item/cooldown/set/const {type: "2", value: "60"}

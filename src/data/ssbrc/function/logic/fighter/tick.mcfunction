@@ -11,8 +11,7 @@ scoreboard players operation #health temp *= #100 const
 scoreboard players operation #health temp /= #40 const
 
 # Crawl
-execute if score @s crawling matches 1 run function ssbrc:logic/fighter/crawl/off
-execute unless score @s crawling matches 1 positioned ~ ~.601 ~ unless entity @s[dx=0] unless predicate ssbrc:flag/flying run function ssbrc:logic/fighter/crawl/on
+execute unless score @s crawling matches 1 positioned ~ ~.601 ~ unless entity @s[dx=0] unless predicate ssbrc:flag/flying run function ssbrc:logic/fighter/crawl
 
 scoreboard players remove @s[scores={cooldown.1=1..}] cooldown.1 1
 scoreboard players remove @s[scores={cooldown.2=1..}] cooldown.2 1
@@ -22,8 +21,6 @@ scoreboard players remove @s[scores={jump.cooldown=1..}] jump.cooldown 1
 scoreboard players remove @s[scores={weapon_1.fire_rate=1..}] weapon_1.fire_rate 1
 
 execute if entity @e[type=minecraft:marker,tag=electric_terrain,distance=..12] run scoreboard players set in_electric_terrain temp 1
-
-tag @s[tag=vented] add silenced
 
 execute unless score @s[predicate=ssbrc:input/jump] jump.cooldown matches 1.. run function ssbrc:logic/fighter/jump
 
@@ -65,7 +62,7 @@ execute if score @s smash_item.super_mushroom.timer matches 1.. run function ssb
 execute if items entity @s armor.body *[minecraft:custom_data~{temp: {fighter: {skin: "gold"}}}] run function ssbrc:logic/fighter/gold_trail
 scoreboard players reset @s flag.walking
 
-execute if score @s immobile matches 1.. run function ssbrc:logic/fighter/effects/mobility/tick
+execute if score @s petrified matches 1.. run function ssbrc:fighter/altered_beast/werebear/petrifying_breath/tick_target
 
 scoreboard players add @s[tag=armor_break] armor_break 1
 execute if score @s armor_break matches 60.. run function ssbrc:fighter/pokemon_trainer/charizard/rock_smash/deactivate
@@ -87,7 +84,3 @@ execute if data storage ssbrc:temp game.stage{name: "luigis_mansion"} run functi
 # Bonuses
 execute if score @s revenge.timer matches 0.. run function ssbrc:logic/fighter/bonuses/revenge/tick
 scoreboard players remove @s[scores={rapid_kill.tracking=1..}] rapid_kill.tracking 1
-
-# Reset Conditionals
-tag @s[tag=vented] remove silenced
-tag @s remove vented

@@ -2,7 +2,7 @@ playsound ssbrc:fighter.pit.guardian_orbitars.break player @a
 
 kill @s
 
-execute as @a[tag=self,limit=1] run function ssbrc:logic/fighter/effects/mobility/immobilize {type: "default", duration: 40}
+execute as @a[tag=self,limit=1] run function ssbrc:logic/fighter/effects/immobile/activate {type: "default", duration: 40}
 
 $particle minecraft:item{ \
 	item: { \

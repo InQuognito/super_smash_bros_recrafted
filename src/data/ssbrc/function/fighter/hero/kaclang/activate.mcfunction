@@ -1,7 +1,8 @@
 tag @s add kaclang
 scoreboard players set @s duration.1 200
 
-function ssbrc:logic/fighter/effects/mobility/immobilize {type: "default", duration: 200}
+function ssbrc:logic/fighter/effects/immobile/activate {type: "default", duration: 200}
+attribute @s minecraft:knockback_resistance modifier add ssbrc:immobile 1 add_value
 
 effect give @s minecraft:resistance infinite 255 true
 

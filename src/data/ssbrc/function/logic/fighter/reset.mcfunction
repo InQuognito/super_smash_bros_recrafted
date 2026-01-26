@@ -1,4 +1,4 @@
-function ssbrc:logic/fighter/effects/mobility/reset
+function ssbrc:logic/fighter/effects/immobile/reset
 
 tag @s remove ability_used
 tag @s remove cloaked
@@ -12,7 +12,6 @@ tag @s remove ignore_feedback
 tag @s remove intangible
 tag @s remove launched
 tag @s remove shield_broken
-tag @s remove silenced
 
 # Altered Beast
 tag @s remove altered_beast.is_beast

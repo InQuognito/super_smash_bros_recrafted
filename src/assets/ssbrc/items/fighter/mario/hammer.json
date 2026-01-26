@@ -9,6 +9,13 @@
 					"type": "minecraft:model",
 					"model": "ssbrc:fighter/mario/item/hammer/gold"
 				}
+			},
+			{
+				"when": "tennis",
+				"model": {
+					"type": "minecraft:model",
+					"model": "ssbrc:fighter/mario/item/hammer/tennis"
+				}
 			}
 		],
 		"fallback": {

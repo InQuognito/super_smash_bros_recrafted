@@ -5,7 +5,7 @@ function ssbrc:logic/item/modify {search_key: "item", search_value: "rest", path
 
 scoreboard players set @s charge.1 0
 
-function ssbrc:logic/fighter/effects/mobility/mobilize
+function ssbrc:logic/fighter/effects/immobile/deactivate
 
 effect clear @s minecraft:blindness
 effect clear @s minecraft:regeneration

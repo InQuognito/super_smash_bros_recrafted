@@ -4,4 +4,4 @@ tag @s remove falcon_punch_missed
 
 title @s actionbar ""
 
-function ssbrc:logic/fighter/effects/mobility/mobilize
+execute unless score @s immobile matches 1.. run function ssbrc:logic/fighter/effects/immobile/effects/deactivate

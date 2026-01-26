@@ -1,6 +1,7 @@
 tag @s remove kaclang
 
 effect clear @s minecraft:resistance
+attribute @s minecraft:knockback_resistance modifier remove ssbrc:immobile
 
 function ssbrc:fighter/hero/magic/check
 

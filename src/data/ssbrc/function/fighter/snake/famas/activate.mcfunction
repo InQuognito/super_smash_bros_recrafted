@@ -11,7 +11,7 @@ execute store result storage ssbrc:temp cache.rotation.y float .1 run scoreboard
 execute anchored eyes positioned ^ ^ ^.5 run function ssbrc:fighter/snake/famas/start with storage ssbrc:temp cache.rotation
 
 scoreboard players remove @s weapon_3.ammo 1
-execute if entity @s[scores={weapon_3.mags=1..,weapon_3.ammo=0}] run function ssbrc:fighter/snake/famas/reload/start
+execute if entity @s[scores={weapon_3.mags=1..,weapon_3.ammo=0}] run function ssbrc:logic/fighter/effects/reload {id: 3, duration: 50}
 
 playsound ssbrc:generic_fire player @a
 

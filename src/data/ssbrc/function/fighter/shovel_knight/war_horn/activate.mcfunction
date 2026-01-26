@@ -4,7 +4,7 @@ execute positioned ~ ~.75 ~ summon minecraft:marker run function ssbrc:fighter/s
 
 tag @s add war_horn.active
 
-function ssbrc:logic/fighter/effects/mobility/immobilize {type: "default", duration: 100}
+function ssbrc:logic/fighter/effects/immobile/activate {type: "default", duration: 100}
 
 scoreboard players operation @s magic -= #shovel_knight.war_horn const
 function ssbrc:fighter/shovel_knight/magic/update

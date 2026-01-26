@@ -1289,6 +1289,13 @@
 										"type": "minecraft:model",
 										"model": "ssbrc:fighter/luigi/skin/gooigi"
 									}
+								},
+								{
+									"when": "tennis",
+									"model": {
+										"type": "minecraft:model",
+										"model": "ssbrc:fighter/luigi/skin/tennis"
+									}
 								}
 							],
 							"fallback": {
@@ -1330,6 +1337,13 @@
 									"model": {
 										"type": "minecraft:model",
 										"model": "ssbrc:fighter/mario/skin/skeleton"
+									}
+								},
+								{
+									"when": "tennis",
+									"model": {
+										"type": "minecraft:model",
+										"model": "ssbrc:fighter/mario/skin/tennis"
 									}
 								}
 							],

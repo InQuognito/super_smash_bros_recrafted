@@ -9,6 +9,13 @@
 					"type": "minecraft:model",
 					"model": "ssbrc:fighter/luigi/item/hammer/gold"
 				}
+			},
+			{
+				"when": "tennis",
+				"model": {
+					"type": "minecraft:model",
+					"model": "ssbrc:fighter/luigi/item/hammer/tennis"
+				}
 			}
 		],
 		"fallback": {

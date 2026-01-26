@@ -1092,7 +1092,15 @@
 			}
 		]
 	},
-
+	"fighter.luigi.double_jump": {
+		"sounds": [
+			{
+				"name": "ssbrc:fighter/mario/double_jump",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
 	"fighter.luigi.ice_ball.activate": {
 		"sounds": [
 			{
@@ -1129,6 +1137,15 @@
 			}
 		]
 	},
+	"fighter.mario.double_jump": {
+		"sounds": [
+			{
+				"name": "ssbrc:fighter/mario/double_jump",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
 	"fighter.mario.fireball.activate": {
 		"sounds": [
 			{
@@ -1142,6 +1159,15 @@
 		"sounds": [
 			{
 				"name": "ssbrc:fighter/mario/fireball/expire",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"fighter.mario.ground_pound": {
+		"sounds": [
+			{
+				"name": "ssbrc:fighter/mario/ground_pound",
 				"stream": false,
 				"volume": 1.0
 			}

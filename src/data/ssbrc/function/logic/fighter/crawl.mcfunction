@@ -1,3 +1,3 @@
 scoreboard players set @s crawling 1
 
-tag @s add silenced
+scoreboard players set @s silenced 1

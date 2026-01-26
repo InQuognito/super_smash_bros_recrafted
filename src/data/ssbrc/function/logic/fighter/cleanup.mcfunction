@@ -13,8 +13,9 @@ scoreboard players set @s burning 0
 scoreboard players reset @s fiends_cauldron
 scoreboard players set @s frostbite 0
 scoreboard players reset @s frostbite.timer
+scoreboard players set @s silenced 0
 
-function ssbrc:logic/fighter/effects/mobility/mobilize
+function ssbrc:logic/fighter/effects/immobile/deactivate
 
 scoreboard players reset @s tornado
 

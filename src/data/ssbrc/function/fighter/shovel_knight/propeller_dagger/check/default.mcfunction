@@ -1,1 +1,1 @@
-execute if items entity @s[scores={duration.2=..0}] weapon.* *[minecraft:damage~{damage:0}] run function ssbrc:fighter/shovel_knight/propeller_dagger/check/magic
+execute if entity @s[scores={silenced=..0,duration.2=..0}] run function ssbrc:fighter/shovel_knight/propeller_dagger/check/magic

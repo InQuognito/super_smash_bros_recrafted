@@ -4,7 +4,7 @@ item modify entity @s weapon.mainhand ssbrc:fighter/jigglypuff/rest/disabled
 
 scoreboard players set @s charge.1 1
 
-function ssbrc:logic/fighter/effects/mobility/immobilize {type: "default", duration: 400}
+function ssbrc:logic/fighter/effects/immobile/activate {type: "default", duration: 400}
 
 effect give @s minecraft:blindness infinite 255 true
 effect give @s minecraft:regeneration infinite 2 true

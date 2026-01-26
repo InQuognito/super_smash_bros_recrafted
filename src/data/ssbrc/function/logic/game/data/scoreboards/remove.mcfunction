@@ -103,6 +103,7 @@ scoreboard objectives remove selected_item.prev
 scoreboard objectives remove shadow.chaos_control
 scoreboard objectives remove shadow.meter.hero
 scoreboard objectives remove shadow.meter.dark
+scoreboard objectives remove silenced
 scoreboard objectives remove slope
 scoreboard objectives remove smash_item.franklin_badge.counter
 scoreboard objectives remove smash_item.franklin_badge.timer

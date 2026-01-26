@@ -1,3 +1,3 @@
 scoreboard players reset ctf.flag_pickup temp
 
-tag @s add silenced
+function ssbrc:logic/fighter/effects/silenced/activate {duration: 1000000}

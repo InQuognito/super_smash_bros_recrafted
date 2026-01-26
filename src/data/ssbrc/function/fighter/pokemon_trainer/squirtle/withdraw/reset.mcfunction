@@ -1,4 +1,4 @@
-function ssbrc:logic/fighter/effects/mobility/mobilize
+function ssbrc:logic/fighter/effects/immobile/deactivate
 
 scoreboard players set @s charge.2 0
 
