@@ -1,0 +1,44 @@
+{
+	"model": {
+		"type": "minecraft:select",
+		"property": "minecraft:custom_model_data",
+		"cases": [
+			{
+				"when": "gold",
+				"model": {
+					"type": "minecraft:condition",
+					"property": "minecraft:component",
+					"predicate": "minecraft:custom_data",
+					"value": {
+						"spinning": "true"
+					},
+					"on_true": {
+						"type": "minecraft:model",
+						"model": "ssbrc:fighter/toon_link/item/master_sword/gold/spinning"
+					},
+					"on_false": {
+						"type": "minecraft:model",
+						"model": "ssbrc:fighter/toon_link/item/master_sword/gold/default"
+					}
+				}
+			}
+		],
+		"fallback": {
+			"type": "minecraft:condition",
+			"property": "minecraft:component",
+			"predicate": "minecraft:custom_data",
+			"value": {
+				"spinning": "true"
+			},
+			"on_true": {
+				"type": "minecraft:model",
+				"model": "ssbrc:fighter/toon_link/item/master_sword/default/spinning"
+			},
+			"on_false": {
+				"type": "minecraft:model",
+				"model": "ssbrc:fighter/toon_link/item/master_sword/default/default"
+			}
+		}
+	},
+	"hand_animation_on_swap": false
+}

@@ -1,0 +1,24 @@
+{
+	"criteria": {
+		"a": {
+			"trigger": "minecraft:fishing_rod_hooked",
+			"conditions": {
+				"entity": {
+					"flags": {
+						"is_sneaking": false
+					}
+				},
+				"rod": {
+					"predicates": {
+						"minecraft:custom_data": {
+							"item": "grappling_hook"
+						}
+					}
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "ssbrc:fighter/toon_link/grappling_hook/pull_target"
+	}
+}

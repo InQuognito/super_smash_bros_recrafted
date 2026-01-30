@@ -1,0 +1,46 @@
+{
+	"model": {
+		"type": "minecraft:select",
+		"property": "minecraft:custom_model_data",
+		"cases": [
+			{
+				"when": "gold",
+				"model": {
+					"type": "minecraft:select",
+					"property": "minecraft:display_context",
+					"cases": [
+						{
+							"when": "gui",
+							"model": {
+								"type": "minecraft:model",
+								"model": "ssbrc:fighter/toon_link/item/grappling_hook/gold/icon"
+							}
+						}
+					],
+					"fallback": {
+						"type": "minecraft:model",
+						"model": "ssbrc:fighter/toon_link/item/grappling_hook/gold/model"
+					}
+				}
+			}
+		],
+		"fallback": {
+			"type": "minecraft:select",
+			"property": "minecraft:display_context",
+			"cases": [
+				{
+					"when": "gui",
+					"model": {
+						"type": "minecraft:model",
+						"model": "ssbrc:fighter/toon_link/item/grappling_hook/default/icon"
+					}
+				}
+			],
+			"fallback": {
+				"type": "minecraft:model",
+				"model": "ssbrc:fighter/toon_link/item/grappling_hook/default/model"
+			}
+		}
+	},
+	"hand_animation_on_swap": false
+}

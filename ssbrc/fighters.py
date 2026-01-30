@@ -488,14 +488,8 @@ fighters = {
 				'gold': {
 					'color': 'gold'
 				},
-				'dark_link': {
+				'dark_tunic': {
 					'color': 'red'
-				},
-				'goron_tunic': {
-					'model': 'default'
-				},
-				'zora_tunic': {
-					'model': 'default'
 				}
 			},
 			'master_sword': {
@@ -506,11 +500,11 @@ fighters = {
 				'gold': {
 					'color': 'gold'
 				},
-				'dark_link': {
+				'dark_tunic': {
 					'color': 'red'
 				}
 			},
-			'link_boomerang': {
+			'sheikah_slate': {
 				'type': 'ability',
 				'stats': {
 					'tag': 'ranged',
@@ -518,14 +512,11 @@ fighters = {
 						'type': 'generic',
 						'amount': 6
 					},
-					'cooldown_group': 'link/boomerang',
+					'cooldown_group': 'link/sheikah_slate',
 					'cooldown': 1
 				},
-				'default': {
-					'name': 'ssbrc.fighter.link.boomerang',
-					'color': 'red'
-				},
-				'gold': {
+				'static_data': {
+					'name': 'ssbrc.fighter.link.sheikah_slate',
 					'color': 'gold'
 				}
 			}
@@ -559,7 +550,87 @@ fighters = {
 		},
 		'forms': [
 			'default'
-		]
+		],
+		'items': {
+			'grappling_hook': {
+				'type': 'ability',
+				'stats': {
+					'tag': 'ranged',
+					'damage': {
+						'type': 'generic',
+						'amount': 4
+					},
+					'cooldown_group': 'toon_link/grappling_hook',
+					'cooldown': 1
+				},
+				'static_data': {
+					'name': 'ssbrc.fighter.toon_link.grappling_hook',
+					'color': 'white'
+				}
+			},
+			'heros_bow': {
+				'default': {
+					'name': 'ssbrc.fighter.toon_link.heros_bow',
+					'color': 'blue'
+				},
+				'gold': {
+					'color': 'gold'
+				}
+			},
+			'heros_shield': {
+				'type': 'shield',
+				'stats': {
+					'max_damage': 30,
+					'block_delay_seconds': 0.0,
+					"block_sound": "minecraft:item.shield.block",
+					"disabled_sound": "minecraft:item.shield.break"
+				},
+				'default': {
+					'name': 'ssbrc.fighter.toon_link.heros_shield',
+					'color': 'blue'
+				},
+				'gold': {
+					'color': 'gold'
+				},
+				'dark_tunic': {
+					'color': 'red'
+				},
+				'goron_tunic': {
+					'model': 'default'
+				},
+				'zora_tunic': {
+					'model': 'default'
+				}
+			},
+			'master_sword': {
+				'default': {
+					'name': 'ssbrc.fighter.link.master_sword',
+					'color': 'aqua'
+				},
+				'gold': {
+					'color': 'gold'
+				}
+			},
+			'toon_link_boomerang': {
+				'type': 'ability',
+				'stats': {
+					'tag': 'ranged',
+					'damage': {
+						'type': 'generic',
+						'amount': 6
+					},
+					'cooldown_group': 'toon_link/boomerang',
+					'cooldown': 1
+				},
+				'default': {
+					'name': 'ssbrc.fighter.toon_link.boomerang',
+					'color': 'red'
+				},
+				'gold': {
+					'color': 'gold'
+				}
+			}
+		}
 	},
 	'zelda': {
 		'series': 'the_legend_of_zelda',
