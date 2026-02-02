@@ -1,0 +1,6 @@
+{
+  "values": [
+    "#load:gm4_hooked_entity/enumerate",
+    "#load:gm4_hooked_entity/resolve_load"
+  ]
+}

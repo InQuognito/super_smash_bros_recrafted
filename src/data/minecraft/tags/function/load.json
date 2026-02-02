@@ -4,6 +4,6 @@
 		"player_motion:internal/init",
 		"animated_java:global/internal/gu/load",
 		"animated_java:global/on_load",
-		"hooked_entity_lib:init"
+		"#load:_private/load"
 	]
 }

@@ -1,0 +1,21 @@
+{
+  "criteria": {
+    "fishing_rod_hooked": {
+      "trigger": "minecraft:fishing_rod_hooked",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "gm4_hooked_entity.id_bit.11": 0
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "gm4_hooked_entity-1.0:player/bits/bit_11_0"
+  }
+}
