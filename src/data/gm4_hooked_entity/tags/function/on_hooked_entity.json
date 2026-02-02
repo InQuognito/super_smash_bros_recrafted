@@ -1,3 +1,5 @@
 {
-  "values": []
+	"values": [
+		"ssbrc:fighter/toon_link/grappling_hook/target/check"
+	]
 }
