@@ -3,8 +3,6 @@
 
 advancement revoke @s only gm4_hooked_entity-1.0:bit_9_1
 
-execute if entity @s[gamemode=adventure] run return fail
-
 data modify storage gm4_hooked_entity:temp bit_data set value {bit_score:"gm4_hooked_entity.id_bit.9=1", bit:"9"}
 data modify storage gm4_hooked_entity:temp bit_data.UUID set from entity @s UUID
 function gm4_hooked_entity-1.0:player/received_bit with storage gm4_hooked_entity:temp bit_data
