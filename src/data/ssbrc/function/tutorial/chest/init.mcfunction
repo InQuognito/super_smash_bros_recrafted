@@ -22,7 +22,7 @@ summon minecraft:block_display ~ ~ ~ { \
 		transformation: { \
 			left_rotation: [ 0f, 0f, 0f, 1f ], \
 			right_rotation: [ 0f, 0f, 0f, 1f ], \
-			translation: [ .5f, 0f, .5f ], \
+			translation: [ 1f, 0f, 1f ], \
 			scale: [ 0f, 0f, 0f ], \
 		}, \
 	}, \
