@@ -603,6 +603,11 @@ fighters = {
 				}
 			},
 			'master_sword': {
+				'type': 'weapon',
+				'stats': {
+					'attack_damage': 6,
+					'attack_speed': 2
+				},
 				'default': {
 					'name': 'ssbrc.fighter.link.master_sword',
 					'color': 'aqua'
