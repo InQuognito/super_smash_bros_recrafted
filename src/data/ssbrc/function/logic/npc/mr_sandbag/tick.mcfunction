@@ -1,11 +1,7 @@
-execute positioned ~-.5 ~-1.5 ~-.5 as @a[distance=..4] run function ssbrc:logic/npc/mr_sandbag/player
-
-execute on attacker run function ssbrc:logic/npc/mr_sandbag/interact
-execute on target run function ssbrc:logic/npc/mr_sandbag/interact
+execute on vehicle run function ssbrc:logic/npc/mr_sandbag/tick_hitbox
 execute if score #interact temp matches 1 run function ssbrc:logic/npc/mr_sandbag/emotions/blush
 
-data remove entity @s attacker
-data remove entity @s target
+execute positioned ~-.5 ~-1.5 ~-.5 as @a[distance=..4] run function ssbrc:logic/npc/mr_sandbag/player
 
 scoreboard players remove @s[scores={animation=1..}] animation 1
 
