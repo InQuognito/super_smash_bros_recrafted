@@ -11,10 +11,14 @@ data merge entity @s { \
 }
 
 summon minecraft:block_display ~ ~ ~ { \
+	Rotation: [ 180f, 0f ], \
 	Tags: [ \
 		"chest.display", \
 	], \
 	block_state: { \
 		Name: "minecraft:chest", \
+	}, \
+	transformation: { \
+		translation: [ -.5f, 0f, -.5f ], \
 	}, \
 }
