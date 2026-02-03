@@ -7,7 +7,7 @@ function ssbrc:logic/player/data/stats/calculate/run
 advancement grant @s only ssbrc:tutorial/intro/1
 function ssbrc:logic/ui/popup/update
 
-execute if entity @s[advancements={ssbrc:tutorial/intro/1=true}] run return fail
+execute if entity @s[advancements={ssbrc:tutorial/intro/2=true}] run return fail
 
 # Start Tutorial
 function ssbrc:logic/fighter/select/default with storage ssbrc:data fighter.toon_link
