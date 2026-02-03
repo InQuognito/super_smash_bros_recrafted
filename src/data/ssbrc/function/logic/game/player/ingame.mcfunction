@@ -7,9 +7,6 @@ execute at @s[predicate=ssbrc:player] run function ssbrc:logic/fighter/tick
 
 execute as @e[type=!minecraft:player,predicate=ssbrc:id_match] at @s run function ssbrc:logic/fighter/ability/tick
 
-execute if entity @s[tag=launched] run function ssbrc:logic/fighter/motion/launched
-scoreboard players set @s[predicate=ssbrc:flag/on_ground] jump 0
-
 scoreboard players reset in_electric_terrain temp
 
 scoreboard players remove @s[scores={duration.1=1..}] duration.1 1
