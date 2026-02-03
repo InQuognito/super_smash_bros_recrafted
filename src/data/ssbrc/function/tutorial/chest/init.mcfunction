@@ -19,6 +19,6 @@ summon minecraft:block_display ~ ~ ~ { \
 		Name: "minecraft:chest", \
 	}, \
 	transformation: { \
-		translation: [ -.5f, 0f, -.5f ], \
+		translation: [ .5f, 0f, .5f ], \
 	}, \
 }
