@@ -3,7 +3,7 @@ tag @s add hitbox.humanoid
 
 rotate @s 180 0
 
-item replace entity @s contents with minecraft:emerald[ \
+item replace entity @s armor.head with minecraft:emerald[ \
 	minecraft:enchantments = { \
 		"ssbrc:npc": 1, \
 		"ssbrc:npc/mr_sandbag": 1, \
@@ -14,7 +14,7 @@ item replace entity @s contents with minecraft:emerald[ \
 data merge entity @s { \
 	data: { \
 		interaction: { \
-			id:"sandbag", \
+			id: "sandbag", \
 			action: "function ssbrc:logic/npc/mr_sandbag/interact", \
 		}, \
 	}, \
