@@ -8,4 +8,5 @@ $data merge entity @s { \
 	}, \
 	height: 1, \
 	width: 1, \
+	response: true, \
 }
