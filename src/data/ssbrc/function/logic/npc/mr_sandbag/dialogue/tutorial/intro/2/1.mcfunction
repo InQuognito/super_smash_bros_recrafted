@@ -11,5 +11,5 @@ tellraw @s [ \
 	}, \
 ]
 
-function ssbrc:logic/player/data/set {data: {temp: {dialogue_path: "logic/npc/mr_sandbag/dialogue/tutorial/intro/2/2"}}}
+function ssbrc:logic/player/data/set {data: {temp: {dialogue_path: "mr_sandbag/dialogue/tutorial/intro/2/2"}}}
 scoreboard players set @s dialogue 40
