@@ -6,7 +6,7 @@ item replace entity @s contents with minecraft:chest[ \
 
 data merge entity @s { \
 	transformation: { \
-		translation: [0f, .5f, 0f], \
+		translation: [0f, -.5f, 0f], \
 	}, \
 }
 
