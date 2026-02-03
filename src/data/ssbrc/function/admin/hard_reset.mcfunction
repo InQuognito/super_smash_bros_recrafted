@@ -26,5 +26,5 @@ function ssbrc:reset
 
 tellraw @a {translate: "ssbrc.admin.force_reset", color: "dark_red"}
 
-scoreboard players add num hard_resets 1
+scoreboard players add #num hard_resets 1
 scoreboard players operation @a hard_resets = num hard_resets

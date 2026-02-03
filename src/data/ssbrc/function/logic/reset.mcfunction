@@ -43,6 +43,7 @@ execute unless score num hard_resets matches -2147483648..2147483647 run scorebo
 
 scoreboard players set #game_stage temp -1
 
+execute in ssbrc:tutorial positioned 0 0 0 run function ssbrc:tutorial/init
 execute in ssbrc:smash_plaza positioned .5 .5 .5 run function ssbrc:logic/lobby/reset
 execute in ssbrc:fighter_select positioned .5 1.1 .5 run function ssbrc:logic/pre_game/fighter_select/reset
 
