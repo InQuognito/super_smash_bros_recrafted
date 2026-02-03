@@ -6,8 +6,8 @@ $data merge entity @s { \
 		class: "$(class)", \
 		type: "$(type)", \
 	}, \
-	height: 1, \
-	width: 1, \
+	height: 1.1, \
+	width: 1.1, \
 	response: true, \
 }
 
