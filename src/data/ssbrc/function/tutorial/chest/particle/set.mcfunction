@@ -1,1 +1,1 @@
-particle minecraft:trail{duration: 15, color: 9999999, target: [ -3.5, 2.5, 8.5 ]} ~ ~.5 ~ 0 0 0 0 1 force @a
+$particle minecraft:trail{duration: 15, color: 9999999, target: [ $(0), $(1_offset), $(2) ]} $(0) $(1) $(2) .1 .1 .1 0 1 normal @s
