@@ -10,3 +10,5 @@ $data merge entity @s { \
 	width: 1, \
 	response: true, \
 }
+
+execute summon minecraft:item_display run function ssbrc:tutorial/chest/model
