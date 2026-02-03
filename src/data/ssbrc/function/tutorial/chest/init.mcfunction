@@ -1,6 +1,6 @@
 tag @s add chest
 
-data merge entity @s { \
+$data merge entity @s { \
 	data: { \
 		item: "$(item)", \
 		class: "$(class)", \
