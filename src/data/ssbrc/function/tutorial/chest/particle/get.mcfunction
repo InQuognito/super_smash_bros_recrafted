@@ -13,5 +13,3 @@ execute if score @s animation matches 1 on passengers run item modify entity @s 
 		"minecraft:item_model": "ssbrc:misc/chest/closed", \
 	}, \
 }
-
-scoreboard players remove @s animation 1
