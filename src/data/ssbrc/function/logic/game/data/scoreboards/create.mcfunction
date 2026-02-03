@@ -19,6 +19,7 @@ scoreboard objectives add cooldown.2 dummy
 scoreboard objectives add cooldown.3 dummy
 scoreboard objectives add crawling dummy
 scoreboard objectives add deaths deathCount
+scoreboard objectives add dialogue dummy
 scoreboard objectives add drop_item minecraft.custom:minecraft.drop
 scoreboard objectives add durability dummy
 scoreboard objectives add duration.1 dummy

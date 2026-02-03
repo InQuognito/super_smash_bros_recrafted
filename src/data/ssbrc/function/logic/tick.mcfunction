@@ -1,8 +1,6 @@
 scoreboard players operation #old_online temp = #online temp
 scoreboard players operation #old_players temp = #players temp
 
-execute as @e[type=minecraft:item_display,nbt={data:{interaction:{id:"sandbag"}}},scores={animation=1..},limit=1] run function ssbrc:logic/lobby/mr_sandbag/tick
-
 execute in ssbrc:tutorial positioned 0 0 0 run function ssbrc:tutorial/tick
 
 function ssbrc:logic/lobby/credits/tick

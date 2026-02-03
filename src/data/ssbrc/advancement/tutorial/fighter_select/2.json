@@ -6,6 +6,6 @@
 		}
 	},
 	"rewards": {
-		"function": "ssbrc:tutorial/fighter_select/2"
+		"function": "ssbrc:logic/npc/mr_sandbag/dialogue/tutorial/fighter_select/2"
 	}
 }

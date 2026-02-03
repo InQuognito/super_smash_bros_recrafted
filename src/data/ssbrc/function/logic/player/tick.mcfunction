@@ -7,6 +7,9 @@ function ssbrc:logic/ui/tick
 
 scoreboard players remove @s[scores={cooldown=1..}] cooldown 1
 
+scoreboard players remove @s[scores={dialogue=1..}] dialogue 1
+execute if score @s dialogue matches 1 run function ssbrc:logic/npc/dialogue/check with entity @s equipment.body.components."minecraft:custom_data".temp
+
 scoreboard players add @s[scores={popup_timer=1..}] popup_timer 1
 execute if score @s popup_timer matches 81.. run function ssbrc:logic/ui/popup/clear
 

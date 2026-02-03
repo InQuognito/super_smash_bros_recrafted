@@ -1,4 +1,4 @@
-execute positioned ~-.5 ~-1.5 ~-.5 as @a[distance=..4] run function ssbrc:logic/lobby/mr_sandbag/player
+execute positioned ~-.5 ~-1.5 ~-.5 as @a[distance=..4] run function ssbrc:logic/npc/mr_sandbag/player
 
 scoreboard players remove @s[scores={animation=1..}] animation 1
 

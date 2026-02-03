@@ -6,6 +6,6 @@
 		}
 	},
 	"rewards": {
-		"function": "ssbrc:tutorial/stage_select/1"
+		"function": "ssbrc:logic/npc/mr_sandbag/dialogue/tutorial/stage_select/1"
 	}
 }

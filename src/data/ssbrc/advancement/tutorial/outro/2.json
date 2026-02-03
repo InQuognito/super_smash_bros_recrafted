@@ -6,6 +6,6 @@
 		}
 	},
 	"rewards": {
-		"function": "ssbrc:tutorial/outro/2"
+		"function": "ssbrc:logic/npc/mr_sandbag/dialogue/tutorial/outro/2"
 	}
 }
