@@ -24,9 +24,6 @@ execute if entity @e[type=minecraft:marker,tag=electric_terrain,distance=..12] r
 
 execute unless score @s[predicate=ssbrc:input/jump] jump.cooldown matches 1.. run function ssbrc:logic/fighter/jump
 
-execute if entity @s[tag=launched] run function ssbrc:logic/fighter/motion/launched
-scoreboard players set @s[predicate=ssbrc:flag/on_ground] jump 0
-
 execute if score @s charge.input matches 1.. run function ssbrc:logic/fighter/item/tick
 execute if score @s charge.input matches 2.. run function ssbrc:logic/fighter/item/refresh
 
