@@ -19,11 +19,9 @@ summon minecraft:block_display ~ ~ ~ { \
 		Name: "minecraft:chest", \
 	}, \
 	transformation: { \
-		transformation: { \
-			left_rotation: [ 0f, 0f, 0f, 1f ], \
-			right_rotation: [ 0f, 0f, 0f, 1f ], \
-			translation: [ 1f, 0f, 1f ], \
-			scale: [ 0f, 0f, 0f ], \
-		}, \
+		left_rotation: [ 0f, 0f, 0f, 1f ], \
+		right_rotation: [ 0f, 0f, 0f, 1f ], \
+		translation: [ 1f, 0f, 1f ], \
+		scale: [ 0f, 0f, 0f ], \
 	}, \
 }
