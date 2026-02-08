@@ -1,0 +1,10 @@
+{
+	"layers": {
+		"humanoid": [
+			{ "texture": "ssbrc:fighter/king_k_rool/baron_k_roolenstein" }
+		],
+		"humanoid_leggings": [
+			{ "texture": "ssbrc:fighter/king_k_rool/baron_k_roolenstein/cracked" }
+		]
+	}
+}
