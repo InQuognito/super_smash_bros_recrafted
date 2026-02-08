@@ -1,4 +1,4 @@
-data modify storage ssbrc:temp game.stage.variant set value "yellow"
+data modify storage ssbrc:temp game.stage.variant set value "persona_4"
 
 time set day
 

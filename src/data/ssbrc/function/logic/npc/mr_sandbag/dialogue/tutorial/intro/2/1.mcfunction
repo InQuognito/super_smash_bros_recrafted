@@ -7,7 +7,7 @@ tellraw @s [ \
 		color: "yellow", \
 	}, \
 	{ \
-		translate: "ssbrc.sandbag.intro.2.1", \
+		translate: "ssbrc.tutorial.intro.2.1", \
 	}, \
 ]
 
