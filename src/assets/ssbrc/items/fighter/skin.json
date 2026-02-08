@@ -156,11 +156,11 @@
 					"models": [
 						{
 							"type": "minecraft:model",
-							"model": "ssbrc:fighter/king_k_rool/skin/full/crown"
+							"model": "ssbrc:fighter/king_k_rool/skin/accessory/crown"
 						},
 						{
 							"type": "minecraft:model",
-							"model": "ssbrc:fighter/king_k_rool/skin/full/body"
+							"model": "ssbrc:fighter/king_k_rool/skin/full"
 						}
 					]
 				}

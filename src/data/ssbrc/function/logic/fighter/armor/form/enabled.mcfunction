@@ -1,9 +1,12 @@
 $item modify entity @s armor.head { \
-	function: "minecraft:set_custom_data", \
-	tag: { \
-		fighter: "$(fighter)", \
-		skin: "$(skin)", \
-		form: "$(form)", \
+	function: "minecraft:set_custom_model_data", \
+	strings: { \
+		values: [ \
+			"$(fighter)", \
+			"$(skin)", \
+			"$(form)", \
+		], \
+		mode: "replace_all", \
 	}, \
 }
 
