@@ -1003,14 +1003,71 @@
 								{
 									"when": "gold",
 									"model": {
+										"type": "minecraft:composite",
+										"models": [
+											{
+												"type": "minecraft:model",
+												"model": "ssbrc:fighter/king_k_rool/skin/gold"
+											},
+											{
+												"type": "minecraft:model",
+												"model": "ssbrc:fighter/king_k_rool/skin/accessory/crown"
+											}
+										]
+									}
+								},
+								{
+									"when": "kaptain_k_rool",
+									"model": {
+										"type": "minecraft:composite",
+										"models": [
+											{
+												"type": "minecraft:model",
+												"model": "ssbrc:fighter/king_k_rool/skin/kaptain_k_rool"
+											},
+											{
+												"type": "minecraft:model",
+												"model": "ssbrc:fighter/king_k_rool/skin/accessory/pirate_hat"
+											}
+										]
+									}
+								},
+								{
+									"when": "baron_k_roolenstein",
+									"model": {
+										"type": "minecraft:composite",
+										"models": [
+											{
+												"type": "minecraft:model",
+												"model": "ssbrc:fighter/king_k_rool/skin/baron_k_roolenstein"
+											},
+											{
+												"type": "minecraft:model",
+												"model": "ssbrc:fighter/king_k_rool/skin/accessory/head_mirror"
+											}
+										]
+									}
+								},
+								{
+									"when": "krusha_k_rool",
+									"model": {
 										"type": "minecraft:model",
-										"model": "ssbrc:fighter/king_k_rool/skin/gold"
+										"model": "ssbrc:fighter/king_k_rool/skin/krusha_k_rool"
 									}
 								}
 							],
 							"fallback": {
-								"type": "minecraft:model",
-								"model": "ssbrc:fighter/king_k_rool/skin/default"
+								"type": "minecraft:composite",
+								"models": [
+									{
+										"type": "minecraft:model",
+										"model": "ssbrc:fighter/king_k_rool/skin/default"
+									},
+									{
+										"type": "minecraft:model",
+										"model": "ssbrc:fighter/king_k_rool/skin/accessory/crown"
+									}
+								]
 							}
 						}
 					},

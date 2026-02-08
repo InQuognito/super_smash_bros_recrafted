@@ -1,6 +1,6 @@
 {
 	"parent": "ssbrc:template/fighter/head",
 	"textures": {
-		"base": "ssbrc:fighter/king_k_rool/skin/gold/default"
+		"base": "ssbrc:fighter/king_k_rool/skin/kaptain_k_rool/default"
 	}
 }

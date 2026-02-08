@@ -1,6 +1,6 @@
 {
-	"parent": "ssbrc:fighter/king_k_rool/skin/parent",
+	"parent": "ssbrc:template/fighter/head",
 	"textures": {
-		"base": "ssbrc:fighter/king_k_rool/skin/default"
+		"base": "ssbrc:fighter/king_k_rool/skin/default/default"
 	}
 }
