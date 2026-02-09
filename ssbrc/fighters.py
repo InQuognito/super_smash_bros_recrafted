@@ -515,7 +515,7 @@ fighters = {
 					'cooldown_group': 'link/sheikah_slate',
 					'cooldown': 1
 				},
-				'static_data': {
+				'default': {
 					'name': 'ssbrc.fighter.link.sheikah_slate',
 					'color': 'gold'
 				}
@@ -563,7 +563,7 @@ fighters = {
 					'cooldown_group': 'toon_link/grappling_hook',
 					'cooldown': 1
 				},
-				'static_data': {
+				'default': {
 					'name': 'ssbrc.fighter.toon_link.grappling_hook',
 					'color': 'white'
 				}
@@ -673,7 +673,7 @@ fighters = {
 					'attack_damage': 2,
 					'attack_speed': 2.5
 				},
-				'static_data': {
+				'default': {
 					'name': 'ssbrc.fighter.zelda.weapon.dagger.default',
 					'color': 'white'
 				}
@@ -686,7 +686,7 @@ fighters = {
 					'min_range': 2,
 					'hitbox_margin': 1
 				},
-				'static_data': {
+				'default': {
 					'name': 'ssbrc.fighter.zelda.weapon.flail.default',
 					'color': 'white'
 				}
@@ -697,7 +697,7 @@ fighters = {
 					'attack_damage': 4,
 					'attack_speed': 1
 				},
-				'static_data': {
+				'default': {
 					'name': 'ssbrc.fighter.zelda.weapon.rapier.default',
 					'color': 'white'
 				}
@@ -708,7 +708,7 @@ fighters = {
 					'attack_damage': 8,
 					'attack_speed': 0.3,
 				},
-				'static_data': {
+				'default': {
 					'name': 'ssbrc.fighter.zelda.weapon.spear.default',
 					'color': 'white'
 				}
@@ -1346,7 +1346,7 @@ fighters = {
 					'cooldown_group': 'pikachu/thunder_jolt',
 					'cooldown': 1
 				},
-				'static_data': {
+				'default': {
 					'name': 'ssbrc.fighter.pikachu.thunder_jolt',
 					'color': 'yellow'
 				}
@@ -1358,7 +1358,7 @@ fighters = {
 					'cooldown_group': 'pikachu/electric_terrain',
 					'cooldown': 1
 				},
-				'static_data': {
+				'default': {
 					'name': 'ssbrc.fighter.pikachu.electric_terrain',
 					'color': 'yellow'
 				}
@@ -1551,7 +1551,7 @@ fighters = {
 					'attack_damage': 5,
 					'attack_speed': 2
 				},
-				'static_data': {
+				'default': {
 					'name': 'ssbrc.fighter.greninja.night_slash',
 					'color': 'dark_gray'
 				}
@@ -1567,7 +1567,7 @@ fighters = {
 					'cooldown_group': 'greninja/water_shuriken',
 					'cooldown': 1
 				},
-				'static_data': {
+				'default': {
 					'name': 'ssbrc.fighter.greninja.water_shuriken',
 					'color': 'blue'
 				}
@@ -1720,7 +1720,7 @@ fighters = {
 					'cooldown_group': 'giegue/pk_freeze',
 					'cooldown': 1
 				},
-				'static_data': {
+				'default': {
 					'name': 'ssbrc.fighter.giegue.pk_freeze',
 					'color': 'aqua'
 				}
@@ -1736,7 +1736,7 @@ fighters = {
 					'cooldown_group': 'giegue/pk_beam',
 					'cooldown': 5
 				},
-				'static_data': {
+				'default': {
 					'name': 'ssbrc.fighter.giegue.pk_beam',
 					'color': 'gold'
 				}
@@ -2369,7 +2369,7 @@ fighters = {
 					'cooldown_group': 'shadow/chaos_spear',
 					'cooldown': 1
 				},
-				'static_data': {
+				'default': {
 					'name': 'ssbrc.fighter.shadow.chaos_spear',
 					'color': 'yellow'
 				}
@@ -3258,7 +3258,7 @@ fighters = {
 					'cooldown_group': 'altered_beast/spirit_orb',
 					'cooldown': 40
 				},
-				'static_data': {
+				'default': {
 					'name': 'ssbrc.fighter.altered_beast.spirit_orb',
 					'color': 'red'
 				}
@@ -3525,35 +3525,31 @@ def init_item_data(fighter, skin, item, data):
 
 	skin_data = {}
 
-	if skin == 'static_data':
-		skin_check = 'default'
-	else:
-		skin_check = skin
-		fallback = path['default']
-	if skin_check in path.keys():
-		if 'name' in path[skin_check].keys():
-			skin_data['name'] = path[skin_check]['name']
+	fallback = path['default']
+	if skin in path.keys():
+		if 'name' in path[skin].keys():
+			skin_data['name'] = path[skin]['name']
 		else:
 			skin_data['name'] = fallback['name']
 
-		if 'color' in path[skin_check].keys():
-			skin_data['color'] = path[skin_check]['color']
+		if 'color' in path[skin].keys():
+			skin_data['color'] = path[skin]['color']
 		else:
 			skin_data['color'] = fallback['color']
 
 		if 'type' in path.keys():
 			match path['type']:
 				case 'shield':
-					if 'model' in path[skin_check].keys():
-						skin_data['model'] = path[skin_check]['model']
+					if 'model' in path[skin].keys():
+						skin_data['model'] = path[skin]['model']
 					else:
-						skin_data['model'] = skin_check
+						skin_data['model'] = skin
 				case _:
 					pass
 	else:
 		skin_data['inherit'] = 'default'
 
-	data[skin_check] = skin_data
+	data[skin] = skin_data
 
 def init_stat(stat: str, path: str, fallback):
 	if stat in path.keys():
