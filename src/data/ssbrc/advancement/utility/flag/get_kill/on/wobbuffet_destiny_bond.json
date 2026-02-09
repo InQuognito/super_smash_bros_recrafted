@@ -9,7 +9,11 @@
 						"condition": "minecraft:entity_properties",
 						"entity": "this",
 						"predicate": {
-							"nbt": "{Tags:[\"destiny_bond\"]}"
+							"nbt": {
+								"Tags": [
+									"destiny_bond"
+								]
+							}
 						}
 					},
 					{

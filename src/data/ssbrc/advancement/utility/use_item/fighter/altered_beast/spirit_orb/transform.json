@@ -15,14 +15,20 @@
 							"condition": "minecraft:entity_properties",
 							"entity": "this",
 							"predicate": {
-								"nbt": "{Tags:[\"altered_beast.is_beast\"]}"
+								"nbt": {
+								"Tags": [
+									"altered_beast.is_beast"
+							]
+						}
 							}
 						}
 					}
 				],
 				"item": {
 					"predicates": {
-						"minecraft:custom_data": "{item:\"spirit_orb\"}"
+						"minecraft:custom_data": {
+							"item": "spirit_orb"
+						}
 					}
 				}
 			}

@@ -12,13 +12,15 @@
 				],
 				"item": {
 					"predicates": {
-						"minecraft:custom_data": "{item:\"thunder_jolt\"}"
+						"minecraft:custom_data": {
+							"item": "thunder_jolt"
+						}
 					}
 				}
 			}
 		}
 	},
 	"rewards": {
-		"function": "ssbrc:fighter/pikachu/thunder_jolt/check"
+		"function": "ssbrc:fighter/pikachu/thunder_jolt/activate"
 	}
 }

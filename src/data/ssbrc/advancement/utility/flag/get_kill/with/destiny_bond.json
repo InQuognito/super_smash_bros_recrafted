@@ -10,7 +10,11 @@
 						"entity": "this",
 						"predicate": {
 							"type": "minecraft:player",
-							"nbt": "{Tags:[\"wobbuffet\"]}"
+							"nbt": {
+								"Tags": [
+									"wobbuffet"
+							]
+						}
 						}
 					},
 					{

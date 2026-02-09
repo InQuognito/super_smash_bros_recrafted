@@ -11,7 +11,11 @@
 							"condition": "minecraft:entity_properties",
 							"entity": "this",
 							"predicate": {
-								"nbt": "{Tags:[\"palutena_bow.split\"]}"
+								"nbt": {
+								"Tags": [
+									"palutena_bow.split"
+							]
+						}
 							}
 						}
 					},
@@ -22,7 +26,9 @@
 							"equipment": {
 								"mainhand": {
 									"predicates": {
-										"minecraft:custom_data": "{item:\"palutena_bow\"}"
+										"minecraft:custom_data": {
+											"item": "palutena_bow"
+										}
 									}
 								}
 							}

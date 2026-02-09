@@ -31,7 +31,9 @@
 				],
 				"item": {
 					"predicates": {
-						"minecraft:custom_data": "{item:\"throwing_anchor\"}"
+						"minecraft:custom_data": {
+							"item": "throwing_anchor"
+						}
 					}
 				}
 			}

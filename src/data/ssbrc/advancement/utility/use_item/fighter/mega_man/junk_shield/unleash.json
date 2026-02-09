@@ -13,7 +13,11 @@
 						"condition": "minecraft:entity_properties",
 						"entity": "this",
 						"predicate": {
-							"nbt": "{Tags:[\"junk_shield\"]}"
+							"nbt": {
+								"Tags": [
+									"junk_shield"
+							]
+						}
 						}
 					}
 				],

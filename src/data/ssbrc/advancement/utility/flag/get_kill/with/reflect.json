@@ -6,7 +6,11 @@
 			"conditions": {
 				"killing_blow": {
 					"direct_entity": {
-						"nbt": "{Tags:[\"reflected\"]}"
+						"nbt": {
+							"Tags": [
+								"reflected"
+							]
+						}
 					}
 				}
 			}

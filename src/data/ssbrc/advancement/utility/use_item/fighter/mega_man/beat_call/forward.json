@@ -13,7 +13,11 @@
 						"condition": "minecraft:entity_properties",
 						"entity": "this",
 						"predicate": {
-							"nbt": "{Tags:[\"beat_call\"]}"
+							"nbt": {
+								"Tags": [
+									"beat_call"
+							]
+						}
 						}
 					},
 					{

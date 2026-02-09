@@ -24,7 +24,9 @@
 				],
 				"item": {
 					"predicates": {
-						"minecraft:custom_data": "{item:\"pile_driver\"}"
+						"minecraft:custom_data": {
+							"item": "pile_driver"
+						}
 					}
 				}
 			}

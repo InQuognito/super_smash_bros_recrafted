@@ -12,7 +12,8 @@
 				],
 				"item": {
 					"predicates": {
-						"minecraft:custom_data": "{group:\"mask\"}"
+						"minecraft:custom_data": "{group:\"mask"
+						}
 					}
 				}
 			}

@@ -12,7 +12,9 @@
 				],
 				"item": {
 					"predicates": {
-						"minecraft:custom_data": "{item:\"healing_field\"}"
+						"minecraft:custom_data": {
+							"item": "healing_field"
+						}
 					}
 				}
 			}

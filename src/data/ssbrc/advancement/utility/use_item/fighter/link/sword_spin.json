@@ -19,7 +19,11 @@
 							"condition": "minecraft:entity_properties",
 							"entity": "this",
 							"predicate": {
-								"nbt": "{Tags:[\"no_spin\"]}"
+								"nbt": {
+								"Tags": [
+									"no_spin"
+							]
+						}
 							}
 						}
 					}

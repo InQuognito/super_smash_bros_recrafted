@@ -12,7 +12,9 @@
 				],
 				"item": {
 					"predicates": {
-						"minecraft:custom_data": "{item:\"holy_water\"}"
+						"minecraft:custom_data": {
+							"item": "holy_water"
+						}
 					}
 				}
 			}

@@ -17,7 +17,9 @@
 				],
 				"item": {
 					"predicates": {
-						"minecraft:custom_data": "{item:\"bomb\"}"
+						"minecraft:custom_data": {
+							"item": "bomb"
+						}
 					}
 				}
 			}

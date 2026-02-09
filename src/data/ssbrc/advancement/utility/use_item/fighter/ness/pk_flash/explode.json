@@ -13,13 +13,19 @@
 						"condition": "minecraft:entity_properties",
 						"entity": "this",
 						"predicate": {
-							"nbt": "{Tags:[\"pk_flash\"]}"
+							"nbt": {
+								"Tags": [
+									"pk_flash"
+							]
+						}
 						}
 					}
 				],
 				"item": {
 					"predicates": {
-						"minecraft:custom_data": "{item:\"pk_flash\"}"
+						"minecraft:custom_data": {
+							"item": "pk_flash"
+						}
 					}
 				}
 			}

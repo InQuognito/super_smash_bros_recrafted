@@ -15,14 +15,20 @@
 							"condition": "minecraft:entity_properties",
 							"entity": "this",
 							"predicate": {
-								"nbt": "{Tags:[\"shadow_sneak\"]}"
+								"nbt": {
+								"Tags": [
+									"shadow_sneak"
+							]
+						}
 							}
 						}
 					}
 				],
 				"item": {
 					"predicates": {
-						"minecraft:custom_data": "{item:\"night_slash\"}"
+						"minecraft:custom_data": {
+							"item": "night_slash"
+						}
 					}
 				}
 			}

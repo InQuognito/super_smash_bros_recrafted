@@ -9,7 +9,11 @@
 						"condition": "minecraft:entity_properties",
 						"entity": "this",
 						"predicate": {
-							"nbt": "{Tags:[\"stalfos\"]}"
+							"nbt": {
+								"Tags": [
+									"stalfos"
+							]
+						}
 						}
 					}
 				]

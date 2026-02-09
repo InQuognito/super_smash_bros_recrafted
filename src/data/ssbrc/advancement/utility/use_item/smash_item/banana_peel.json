@@ -12,7 +12,9 @@
 				],
 				"item": {
 					"predicates": {
-						"minecraft:custom_data": "{item:\"banana_peel\"}"
+						"minecraft:custom_data": {
+							"item": "banana_peel"
+						}
 					}
 				}
 			}

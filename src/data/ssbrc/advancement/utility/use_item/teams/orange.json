@@ -17,7 +17,8 @@
 				],
 				"item": {
 					"predicates": {
-						"minecraft:custom_data": "{team:\"orange\"}"
+						"minecraft:custom_data": "{team:\"orange"
+						}
 					}
 				}
 			}

@@ -13,7 +13,11 @@
 						"condition": "minecraft:entity_properties",
 						"entity": "this",
 						"predicate": {
-							"nbt": "{Tags:[\"operator\"]}"
+							"nbt": {
+								"Tags": [
+									"operator"
+							]
+						}
 						}
 					},
 					{
@@ -23,7 +27,9 @@
 				],
 				"item": {
 					"predicates": {
-						"minecraft:custom_data": "{item:\"buster_sword\"}"
+						"minecraft:custom_data": {
+							"item": "buster_sword"
+						}
 					}
 				}
 			}
