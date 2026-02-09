@@ -1,5 +1,5 @@
 function ssbrc:logic/item/init/slot {item: "mega_punch", slot: "hotbar.0", class: "weapon", type: "default"}
 
-loot replace entity @s hotbar.1 loot ssbrc:fighter/pikachu/thunder_jolt
+function ssbrc:logic/item/init/slot {item: "thunder_jolt", slot: "hotbar.1", class: "default", type: "default"}
 
 scoreboard players set @s charge.1 5

@@ -21,7 +21,7 @@ function ssbrc:logic/game/music/decide_schedule
 
 execute if data storage ssbrc:data option{hazards: true} run function ssbrc:logic/game/start/hazards
 
-execute if data storage ssbrc:data option{items: 1} unless data storage ssbrc:data option{item_rate: "fixed"} run function ssbrc:logic/game/item/check
+execute if data storage ssbrc:data option{items: true} unless data storage ssbrc:data option{item_rate: "fixed"} run function ssbrc:logic/game/item/check
 
 tag @e[type=minecraft:marker,tag=tp_dest] remove tp_dest
 

@@ -1,4 +1,7 @@
-execute as @a[predicate=ssbrc:player] unless score @s player_motion.timer matches 1.. run function ssbrc:stage/palutenas_temple/tick_players
+# Bounce Pads
+execute positioned -9 1 -16 as @a[tag=!launched,dy=0] run return run function ssbrc:stage/palutenas_temple/bounce_pad
+execute positioned -18 3 -24 as @a[tag=!launched,dy=0] run return run function ssbrc:stage/palutenas_temple/bounce_pad
+execute positioned -26 1 -13 as @a[tag=!launched,dy=0] run return run function ssbrc:stage/palutenas_temple/bounce_pad
 
 execute if data storage ssbrc:data option{hazards: true} run function ssbrc:stage/palutenas_temple/hazards
 

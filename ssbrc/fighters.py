@@ -1334,6 +1334,34 @@ fighters = {
 					'name': 'ssbrc.fighter.pokemon.mega_punch',
 					'color': 'white'
 				}
+			},
+			'thunder_jolt': {
+				'type': 'ability',
+				'stats': {
+					'tag': 'ranged',
+					'damage': {
+						'type': 'generic',
+						'amount': 4
+					},
+					'cooldown_group': 'pikachu/thunder_jolt',
+					'cooldown': 1
+				},
+				'static_data': {
+					'name': 'ssbrc.fighter.pikachu.thunder_jolt',
+					'color': 'yellow'
+				}
+			},
+			'electric_terrain': {
+				'type': 'ability',
+				'stats': {
+					'tag': 'utility',
+					'cooldown_group': 'pikachu/electric_terrain',
+					'cooldown': 1
+				},
+				'static_data': {
+					'name': 'ssbrc.fighter.pikachu.electric_terrain',
+					'color': 'yellow'
+				}
 			}
 		}
 	},
@@ -2338,7 +2366,7 @@ fighters = {
 						'amount': 4,
 						'duration': 30
 					},
-					'cooldown_group': 'mario/fireball',
+					'cooldown_group': 'shadow/chaos_spear',
 					'cooldown': 1
 				},
 				'static_data': {
