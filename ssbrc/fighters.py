@@ -3522,7 +3522,9 @@ def movement_speed(fighter):
 
 def init_item_data(fighter, skin, item, data):
 	path = fighters[fighter]['items'][item]
-	fallback = path['default']
+
+	if 'default' in path.keys():
+		fallback = path['default']
 
 	skin_data = {}
 
