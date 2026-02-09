@@ -5,4 +5,4 @@ execute if score #entity_hit temp matches 1 run return run function ssbrc:fighte
 
 scoreboard players remove #n temp 1
 execute if score #n temp matches 1.. positioned ^ ^ ^.1 run return run function ssbrc:fighter/captain_falcon/raptor_boost/raycast/loop
-execute positioned ^ ^ ^.1 run function ssbrc:logic/fighter/check/raycast/update
+function ssbrc:logic/fighter/check/raycast/update

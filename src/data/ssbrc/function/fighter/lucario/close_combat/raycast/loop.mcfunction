@@ -6,4 +6,4 @@ execute if score #cache temp matches 0 positioned ^ ^ ^.5 positioned ~-1 ~ ~-1 a
 
 scoreboard players remove #n temp 1
 execute if score #n temp matches 1.. positioned ^ ^ ^.1 run return run function ssbrc:fighter/lucario/close_combat/raycast/loop
-execute positioned ^ ^ ^.1 run function ssbrc:logic/fighter/check/raycast/update
+function ssbrc:logic/fighter/check/raycast/update

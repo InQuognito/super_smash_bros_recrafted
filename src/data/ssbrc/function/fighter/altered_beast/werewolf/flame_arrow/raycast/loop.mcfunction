@@ -4,4 +4,4 @@ execute positioned ~-.5 ~ ~-.5 as @e[tag=!self,predicate=ssbrc:target,dy=1] run 
 
 scoreboard players remove #n temp 1
 execute if score #n temp matches 1.. positioned ^ ^ ^.1 run return run function ssbrc:fighter/altered_beast/werewolf/flame_arrow/raycast/loop
-execute positioned ^ ^ ^.1 run function ssbrc:logic/fighter/check/raycast/update
+function ssbrc:logic/fighter/check/raycast/update
