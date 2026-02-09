@@ -3525,18 +3525,11 @@ def init_item_data(fighter, skin, item, data):
 
 	skin_data = {}
 
-	fallback = path['default']
 	if skin in path.keys():
 		if 'name' in path[skin].keys():
 			skin_data['name'] = path[skin]['name']
-		else:
-			skin_data['name'] = fallback['name']
-
 		if 'color' in path[skin].keys():
 			skin_data['color'] = path[skin]['color']
-		else:
-			skin_data['color'] = fallback['color']
-
 		if 'type' in path.keys():
 			match path['type']:
 				case 'shield':
