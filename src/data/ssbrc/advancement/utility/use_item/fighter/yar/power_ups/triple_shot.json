@@ -12,7 +12,8 @@
 				],
 				"item": {
 					"predicates": {
-						"minecraft:custom_data": "{power_up:\"triple_shot"
+						"minecraft:custom_data": {
+							"power_up": "triple_shot"
 						}
 					}
 				}
