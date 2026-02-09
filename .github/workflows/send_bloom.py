@@ -32,4 +32,5 @@ make_request(
 )
 print("Success!")
 time.sleep(0.05)
-make_request(route="command", data={"command": "function ssbrc:server/finish"})
+make_request(route="command", data={"command": "function ssbrc_server:finish"})
+make_request(route="command", data={"command": "fetchhash reload"})
