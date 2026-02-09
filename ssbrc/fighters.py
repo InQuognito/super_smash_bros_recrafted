@@ -3522,14 +3522,21 @@ def movement_speed(fighter):
 
 def init_item_data(fighter, skin, item, data):
 	path = fighters[fighter]['items'][item]
+	fallback = path['default']
 
 	skin_data = {}
 
 	if skin in path.keys():
 		if 'name' in path[skin].keys():
 			skin_data['name'] = path[skin]['name']
+		else:
+			skin_data['name'] = fallback['name']
+
 		if 'color' in path[skin].keys():
 			skin_data['color'] = path[skin]['color']
+		else:
+			skin_data['color'] = fallback['color']
+
 		if 'type' in path.keys():
 			match path['type']:
 				case 'shield':
@@ -3650,11 +3657,8 @@ def fighter_storage():
 
 					item_entry['stats'] = item_stats
 
-				if sum(bool(value) for key, value in path['items'][item].items() if key not in {'type', 'stats'}) > 1:
-					for skin in chain(['default'], path['skins']):
-						init_item_data(fighter, skin, item, item_entry)
-				else:
-					init_item_data(fighter, 'static_data', item, item_entry)
+				for skin in chain(['default'], path['skins']):
+					init_item_data(fighter, skin, item, item_entry)
 
 				item_data[item] = item_entry
 

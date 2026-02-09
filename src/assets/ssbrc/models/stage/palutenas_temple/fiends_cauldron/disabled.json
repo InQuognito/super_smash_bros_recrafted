@@ -1,7 +1,7 @@
 {
 	"texture_size": [128, 128],
 	"textures": {
-		"base": "ssbrc:stage/palutenas_temple/fiends_cauldron/empty",
+		"base": "ssbrc:stage/palutenas_temple/fiends_cauldron/disabled",
 		"particle": "ssbrc:miscellaneous/empty"
 	},
 	"elements": [
