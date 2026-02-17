@@ -1,4 +1,4 @@
-execute as @a[predicate=ssbrc:ingame] at @s run function ssbrc:logic/post_game/end/announce
+execute as @a[predicate=ssbrc:ingame] at @s run function ssbrc:logic/post_game/end/player
 
 scoreboard objectives setdisplay sidebar
 

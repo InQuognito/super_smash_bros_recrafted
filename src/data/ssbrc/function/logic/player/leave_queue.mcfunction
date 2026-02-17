@@ -16,11 +16,7 @@ function ssbrc:logic/game/team/count/all
 xp set @s 0 levels
 xp set @s 0 points
 
-effect clear @s
-effect give @s minecraft:regeneration infinite 255 true
-effect give @s minecraft:resistance infinite 255 true
-effect give @s minecraft:saturation infinite 255 true
-effect give @s minecraft:water_breathing infinite 255 true
+function ssbrc:logic/fighter/effects/lobby
 
 title @s clear
 title @s reset
