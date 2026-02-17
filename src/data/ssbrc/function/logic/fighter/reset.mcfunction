@@ -29,7 +29,6 @@ tag @s remove weapon_broken
 # Captain Falcon
 tag @s remove falcon_charge
 tag @s remove falcon_punch_missed
-tag @s remove falcon_punched
 
 # Cloud
 tag @s remove cross_slash.target

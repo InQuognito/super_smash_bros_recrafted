@@ -816,18 +816,48 @@ fighters = {
 		],
 		'items': {
 			'power_beam': {
+				'type': 'ability',
+				'stats': {
+					'tag': 'ranged',
+					'damage': {
+						'type': 'generic',
+						'amount': 4
+					},
+					'cooldown_group': 'samus/power_beam',
+					'cooldown': 0.25
+				},
 				'default': {
 					'name': 'ssbrc.fighter.samus.power_beam',
 					'color': 'gold'
 				}
 			},
 			'plasma_beam': {
+				'type': 'ability',
+				'stats': {
+					'tag': 'ranged',
+					'damage': {
+						'type': 'generic',
+						'amount': 4
+					},
+					'cooldown_group': 'samus/plasma_beam',
+					'cooldown': 3
+				},
 				'default': {
 					'name': 'ssbrc.fighter.samus.plasma_beam',
 					'color': 'dark_red'
 				}
 			},
 			'wave_beam': {
+				'type': 'ability',
+				'stats': {
+					'tag': 'ranged',
+					'damage': {
+						'type': 'generic',
+						'amount': 4
+					},
+					'cooldown_group': 'samus/wave_beam',
+					'cooldown': 1
+				},
 				'default': {
 					'name': 'ssbrc.fighter.samus.wave_beam',
 					'color': 'dark_purple'
@@ -1266,21 +1296,100 @@ fighters = {
 		],
 		'items': {
 			'bite': {
+				'type': 'weapon',
+				'stats': {
+					'attack_damage': 7,
+					'attack_speed': 0.5
+				},
 				'default': {
 					'name': 'ssbrc.fighter.pokemon_trainer.bite',
 					'color': 'dark_gray'
 				}
 			},
+			'water_gun': {
+				'type': 'ability',
+				'stats': {
+					'tag': 'ranged',
+					'damage': {
+						'type': 'generic',
+						'amount': 4
+					},
+					'cooldown_group': 'pokemon_trainer/water_gun',
+					'cooldown': 2
+				},
+				'default': {
+					'name': 'ssbrc.fighter.pokemon_trainer.water_gun',
+					'color': 'blue'
+				}
+			},
 			'knock_off': {
+				'type': 'weapon',
+				'stats': {
+					'attack_damage': 7,
+					'attack_speed': 0.5
+				},
 				'default': {
 					'name': 'ssbrc.fighter.pokemon_trainer.knock_off',
 					'color': 'dark_gray'
 				}
 			},
+			'leech_seed': {
+				'type': 'ability',
+				'stats': {
+					'tag': 'ranged',
+					'cooldown_group': 'pokemon_trainer/leech_seed',
+					'cooldown': 5
+				},
+				'default': {
+					'name': 'ssbrc.fighter.pokemon_trainer.leech_seed',
+					'color': 'green'
+				}
+			},
+			'poison_powder': {
+				'type': 'ability',
+				'stats': {
+					'tag': 'ranged',
+					'cooldown_group': 'pokemon_trainer/poison_powder',
+					'cooldown': 10
+				},
+				'default': {
+					'name': 'ssbrc.fighter.pokemon_trainer.poison_powder',
+					'color': 'light_purple'
+				}
+			},
 			'rock_smash': {
+				'type': 'weapon',
+				'stats': {
+					'attack_damage': 7,
+					'attack_speed': 0.5
+				},
 				'default': {
 					'name': 'ssbrc.fighter.pokemon_trainer.rock_smash',
 					'color': 'dark_gray'
+				}
+			},
+			'flare_blitz': {
+				'type': 'ability',
+				'stats': {
+					'tag': 'ranged',
+					'cooldown_group': 'pokemon_trainer/flare_blitz',
+					'cooldown': 4.5
+				},
+				'default': {
+					'name': 'ssbrc.fighter.pokemon_trainer.flare_blitz',
+					'color': 'red'
+				}
+			},
+			'earthquake': {
+				'type': 'ability',
+				'stats': {
+					'tag': 'ranged',
+					'cooldown_group': 'pokemon_trainer/earthquake',
+					'cooldown': 3
+				},
+				'default': {
+					'name': 'ssbrc.fighter.pokemon_trainer.earthquake',
+					'color': 'gold'
 				}
 			}
 		}
@@ -2027,6 +2136,15 @@ fighters = {
 		],
 		'items': {
 			'palutena_bow': {
+				'type': 'weapon',
+				'stats': {
+					'attack_damage': 5,
+					'attack_speed': 1.5,
+					'damage': {
+						'type': 'generic',
+						'amount': 14
+					}
+				},
 				'default': {
 					'name': 'ssbrc.fighter.pit.palutena_bow',
 					'color': 'white'

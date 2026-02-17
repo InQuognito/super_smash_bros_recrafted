@@ -10,4 +10,4 @@ execute if score @s silenced matches 1.. run function ssbrc:logic/fighter/effect
 
 execute if entity @e[type=minecraft:marker,tag=electric_terrain,distance=..12] if block ~ ~ ~ minecraft:water run function ssbrc:logic/damage/generic {amount: 4, type: "pierce", kb_resist: 1, source: ""}
 
-execute if data storage ssbrc:temp game.stage{name: "sand_ocean"} if data storage ssbrc:data option{hazards: true} run function ssbrc:logic/fighter/quicksand/tick
+execute if data storage ssbrc:temp game.stage{name: "sand_ocean"} if data storage ssbrc:data option{hazards: "true"} run function ssbrc:logic/fighter/quicksand/tick

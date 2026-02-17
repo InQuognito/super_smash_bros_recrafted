@@ -21,7 +21,7 @@ data modify storage ssbrc:temp cache.option.hazards.header set value [ \
 	}, \
 ]
 
-execute if data storage ssbrc:data option{hazards: true} run return run data modify storage ssbrc:temp cache.option.hazards.value set value [ \
+execute if data storage ssbrc:data option{hazards: "true"} run return run data modify storage ssbrc:temp cache.option.hazards.value set value [ \
 	"", \
 	{ \
 		translate: "ssbrc.options.on", \

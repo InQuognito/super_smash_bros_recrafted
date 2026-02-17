@@ -1,4 +1,4 @@
-execute if data storage ssbrc:data option{hazards: true} as @e[type=minecraft:item_display,tag=aj.gyarados.root] at @s run function ssbrc:stage/lake_of_rage/hazards
+execute if data storage ssbrc:data option{hazards: "true"} as @e[type=minecraft:item_display,tag=aj.gyarados.root] at @s run function ssbrc:stage/lake_of_rage/hazards
 
 execute as @e[type=minecraft:item_display,tag=aj.gastly.root] at @s run function ssbrc:stage/lake_of_rage/pokemon/gastly/move
 

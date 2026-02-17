@@ -16,7 +16,7 @@ execute if score game_time timer matches 2 as @a[predicate=ssbrc:ingame] at @s r
 execute if score game_time timer matches 1 as @a[predicate=ssbrc:ingame] at @s run playsound ssbrc:one voice @s
 execute if score game_time timer matches ..0 run function ssbrc:logic/post_game/winner/time
 
-execute if data storage ssbrc:temp game.stage{name: "tower_of_fate"} if data storage ssbrc:data option{hazards: true} unless score #tower_of_fate.destroyed temp matches 1.. if score game_time.percent temp matches ..50 run function ssbrc:stage/tower_of_fate/lower_tower/start
+execute if data storage ssbrc:temp game.stage{name: "tower_of_fate"} if data storage ssbrc:data option{hazards: "true"} unless score #tower_of_fate.destroyed temp matches 1.. if score game_time.percent temp matches ..50 run function ssbrc:stage/tower_of_fate/lower_tower/start
 
 execute positioned -528.5 6 -1939.5 run data modify entity @n[type=minecraft:text_display,tag=lobby.timer,distance=...01] text set value [ \
 	{ \

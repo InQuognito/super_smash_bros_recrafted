@@ -9,4 +9,4 @@ summon minecraft:marker -231.5 4.5 606.5 {Tags:["door","static_object"],data:{ty
 execute as @e[type=minecraft:marker,tag=door] at @s run function ssbrc:logic/stage/doors/close with entity @s data
 
 function ssbrc:stage/saturn_valley/well/off
-execute unless data storage ssbrc:data option{hazards: true} run schedule clear ssbrc:stage/saturn_valley/well/on
+execute unless data storage ssbrc:data option{hazards: "true"} run schedule clear ssbrc:stage/saturn_valley/well/on

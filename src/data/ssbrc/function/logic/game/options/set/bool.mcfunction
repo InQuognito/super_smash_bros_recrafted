@@ -10,6 +10,6 @@ $execute as @a at @s if dimension ssbrc:fighter_select run tellraw @s [ \
 	}, \
 ]
 
-$data modify storage ssbrc:data option.$(option) set value $(value)
+$data modify storage ssbrc:data option.$(option) set value "$(value)"
 
 function ssbrc:logic/game/options/set

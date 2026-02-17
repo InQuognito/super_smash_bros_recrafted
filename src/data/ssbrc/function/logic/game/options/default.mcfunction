@@ -1,12 +1,12 @@
 data modify storage ssbrc:data option set value { \
-	friendly_fire: false, \
+	friendly_fire: "false", \
 	game_mode: "smash", \
-	hazards: true, \
+	hazards: "true", \
 	item_rate: "medium", \
-	items: 1, \
+	items: "true", \
 	music: "loop", \
 	point_limit: 3, \
-	teams: false, \
+	teams: "false", \
 	time_limit: -1, \
 }
 

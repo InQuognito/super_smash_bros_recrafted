@@ -9,5 +9,5 @@ execute as @e[type=minecraft:armor_stand,tag=camera] run function ssbrc:stage/sh
 function ssbrc:stage/shadow_moses_island/helicopter/propeller/1
 
 # Hazards
-execute if data storage ssbrc:data option{hazards: true} run return run function ssbrc:stage/shadow_moses_island/load/hazards_on
+execute if data storage ssbrc:data option{hazards: "true"} run return run function ssbrc:stage/shadow_moses_island/load/hazards_on
 function ssbrc:stage/shadow_moses_island/load/hazards_off

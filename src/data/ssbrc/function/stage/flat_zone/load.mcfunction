@@ -15,8 +15,8 @@
 
 #fill 775 6 188 785 13 188 minecraft:white_concrete replace
 
-#execute unless data storage ssbrc:data option{hazards: true} run function ssbrc:stage/flat_zone/load/hazards_off
-#execute if data storage ssbrc:data option{hazards: true} run function ssbrc:stage/flat_zone/load/hazards_on
+#execute unless data storage ssbrc:data option{hazards: "true"} run function ssbrc:stage/flat_zone/load/hazards_off
+#execute if data storage ssbrc:data option{hazards: "true"} run function ssbrc:stage/flat_zone/load/hazards_on
 
 #function ssbrc:stage/flat_zone/gas_station_guy/1/left
 #function ssbrc:stage/flat_zone/gas_station_guy/2/left

@@ -8,6 +8,6 @@ effect clear @s minecraft:invisibility
 
 kill @n[type=minecraft:item_display,tag=squirtle_shell,predicate=ssbrc:id_match]
 
-function ssbrc:logic/item/init/slot {item: "bite", slot: "hotbar.0", class: "default", type: "default"}
+function ssbrc:logic/item/init/slot {item: "bite", slot: "hotbar.0", class: "weapon", type: "default"}
 
-loot replace entity @s hotbar.1 loot ssbrc:fighter/pokemon_trainer/water_gun
+function ssbrc:logic/item/init/slot {item: "water_gun", slot: "hotbar.1", class: "default", type: "default"}
