@@ -39,7 +39,7 @@ $execute if score @s weapon_$(id).mags matches 1.. run return run data modify st
 	}, \
 ]
 
-$data modify storage ssbrc:temp cache.snake.hud append value [ \
+data modify storage ssbrc:temp cache.snake.hud append value [ \
 	"", \
 	{ \
 		text: "-", \

@@ -1017,13 +1017,13 @@
 									}
 								},
 								{
-									"when": "kaptain_k_rool",
+									"when": "kaptain",
 									"model": {
 										"type": "minecraft:composite",
 										"models": [
 											{
 												"type": "minecraft:model",
-												"model": "ssbrc:fighter/king_k_rool/skin/kaptain_k_rool"
+												"model": "ssbrc:fighter/king_k_rool/skin/kaptain"
 											},
 											{
 												"type": "minecraft:model",
@@ -1033,13 +1033,13 @@
 									}
 								},
 								{
-									"when": "baron_k_roolenstein",
+									"when": "baron",
 									"model": {
 										"type": "minecraft:composite",
 										"models": [
 											{
 												"type": "minecraft:model",
-												"model": "ssbrc:fighter/king_k_rool/skin/baron_k_roolenstein"
+												"model": "ssbrc:fighter/king_k_rool/skin/baron"
 											},
 											{
 												"type": "minecraft:model",
@@ -1049,10 +1049,10 @@
 									}
 								},
 								{
-									"when": "krusha_k_rool",
+									"when": "krusha",
 									"model": {
 										"type": "minecraft:model",
-										"model": "ssbrc:fighter/king_k_rool/skin/krusha_k_rool"
+										"model": "ssbrc:fighter/king_k_rool/skin/krusha"
 									}
 								}
 							],
