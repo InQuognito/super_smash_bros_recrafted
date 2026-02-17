@@ -1976,7 +1976,54 @@ fighters = {
 		'forms': [
 			'popo',
 			'nana'
-		]
+		],
+		'items': {
+			'hammer': {
+				'type': 'hybrid',
+				'stats': {
+					'attack_damage': 4,
+					'attack_speed': 1.5,
+					'cooldown_group': 'ice_climbers/hammer',
+					'cooldown': 1.5
+				},
+				'default': {
+					'name': 'ssbrc.fighter.ice_climbers.hammer',
+					'color': 'gold'
+				}
+			},
+			'snowstorm': {
+				'type': 'ability',
+				'stats': {
+					'tag': 'ranged',
+					'damage': {
+						'type': 'frost',
+						'amount': 4
+					},
+					'cooldown_group': 'ice_climbers/snowstorm',
+					'cooldown': 0.15
+				},
+				'default': {
+					'name': 'ssbrc.fighter.ice_climbers.snowstorm',
+					'color': 'aqua'
+				}
+			},
+			'windstorm': {
+				'type': 'ability',
+				'stats': {
+					'tag': 'ranged',
+					'damage': {
+						'type': 'frost',
+						'amount': 4
+					},
+					'cooldown_group': 'ice_climbers/windstorm',
+					'cooldown': 1
+				},
+				'default': {
+					'name': 'ssbrc.fighter.ice_climbers.windstorm',
+					'color': 'green'
+				}
+			}
+		}
 	},
 	'roy': {
 		'series': 'fire_emblem',
@@ -2771,6 +2818,13 @@ fighters = {
 		],
 		'items': {
 			'buster_sword': {
+				'type': 'hybrid',
+				'stats': {
+					'attack_damage': 7,
+					'attack_speed': 1,
+					'cooldown_group': 'cloud/buster_sword',
+					'cooldown': 1.5
+				},
 				'default': {
 					'name': 'ssbrc.fighter.cloud.buster_sword',
 					'color': 'gray'
