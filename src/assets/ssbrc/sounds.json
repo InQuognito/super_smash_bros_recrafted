@@ -3111,6 +3111,15 @@
 			}
 		]
 	},
+	"victory_theme.series.dragon_quest": {
+		"sounds": [
+			{
+				"name": "ssbrc:victory_theme/series/dragon_quest",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
 	"victory_theme.series.earthbound": {
 		"sounds": [
 			{

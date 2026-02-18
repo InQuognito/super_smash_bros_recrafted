@@ -1,8 +1,8 @@
 function ssbrc:fighter/team_rocket/kits/update {form: "arbok", color: "light_purple"}
 
-loot replace entity @s hotbar.0 loot ssbrc:fighter/team_rocket/arbok/poison_jab
+function ssbrc:logic/item/init/slot {item: "poison_jab", slot: "hotbar.0", class: "weapon", type: "enchanted"}
 
-loot replace entity @s hotbar.1 loot ssbrc:fighter/team_rocket/arbok/acid
+function ssbrc:logic/item/init/slot {item: "acid", slot: "hotbar.1", class: "default", type: "default"}
 
 item modify entity @s armor.chest [ \
 	{ \

@@ -1719,14 +1719,74 @@ fighters = {
 		],
 		'items': {
 			'scratch': {
+				'type': 'hybrid',
+				'stats': {
+					'attack_damage': 3,
+					'attack_speed': 3.5,
+					'cooldown_group': 'team_rocket/scratch',
+					'cooldown': 2
+				},
+				'default': {
+					'name': 'ssbrc.fighter.team_rocket.scratch',
+					'color': 'white'
+				}
+			},
+			'poison_jab': {
 				'type': 'weapon',
 				'stats': {
 					'attack_damage': 3,
-					'attack_speed': 3.5
+					'attack_speed': 2.5
 				},
 				'default': {
-					'name': 'ssbrc.fighter.team_rocket.meowth.scratch',
-					'color': 'white'
+					'name': 'ssbrc.fighter.team_rocket.poison_jab',
+					'color': 'dark_gray'
+				}
+			},
+			'acid': {
+				'type': 'ability',
+				'stats': {
+					'tag': 'ranged',
+					'cooldown_group': 'team_rocket/acid',
+					'cooldown': 15
+				},
+				'default': {
+					'name': 'ssbrc.fighter.team_rocket.acid',
+					'color': 'light_purple'
+				}
+			},
+			'counter': {
+				'type': 'weapon',
+				'stats': {
+					'attack_damage': 0.35,
+					'attack_speed': 2.5
+				},
+				'default': {
+					'name': 'ssbrc.fighter.team_rocket.counter',
+					'color': 'dark_gray'
+				}
+			},
+			'destiny_bond': {
+				'type': 'ability',
+				'stats': {
+					'tag': 'ranged',
+					'cooldown_group': 'team_rocket/destiny_bond',
+					'cooldown': 30
+				},
+				'default': {
+					'name': 'ssbrc.fighter.team_rocket.destiny_bond',
+					'color': 'dark_gray'
+				}
+			},
+			'splash': {
+				'type': 'ability',
+				'stats': {
+					'tag': 'ranged',
+					'cooldown_group': 'team_rocket/splash',
+					'cooldown': 1
+				},
+				'default': {
+					'name': 'ssbrc.fighter.team_rocket.splash',
+					'color': 'blue'
 				}
 			}
 		}

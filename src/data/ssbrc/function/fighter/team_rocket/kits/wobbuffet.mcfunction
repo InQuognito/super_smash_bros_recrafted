@@ -1,9 +1,9 @@
 function ssbrc:fighter/team_rocket/kits/update {form: "wobbuffet", color: "aqua"}
 
-loot replace entity @s hotbar.0 loot ssbrc:fighter/team_rocket/wobbuffet/counter
+function ssbrc:logic/item/init/slot {item: "counter", slot: "hotbar.0", class: "weapon", type: "enchanted"}
 
-loot replace entity @s hotbar.1 loot ssbrc:fighter/team_rocket/wobbuffet/destiny_bond
+function ssbrc:logic/item/init/slot {item: "destiny_bond", slot: "hotbar.1", class: "default", type: "default"}
 
-loot replace entity @s hotbar.2 loot ssbrc:fighter/team_rocket/wobbuffet/splash
+function ssbrc:logic/item/init/slot {item: "splash", slot: "hotbar.2", class: "default", type: "default"}
 
 attribute @s minecraft:movement_speed base set 0.085
