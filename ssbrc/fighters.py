@@ -1589,32 +1589,56 @@ fighters = {
 		],
 		'items': {
 			'aura_sphere': {
+				'type': 'ability',
+				'stats': {
+					'tag': 'ranged',
+					'damage': {
+						'type': 'generic',
+						'amount': 4
+					},
+					'cooldown_group': 'lucario/aura_sphere',
+					'cooldown': 3
+				},
 				'default': {
 					'name': 'ssbrc.fighter.pokemon.aura_sphere',
 					'color': 'blue'
 				},
 				'mirror': {
-					'name': 'ssbrc.fighter.pokemon.aura_sphere',
 					'color': 'red'
 				}
 			},
 			'close_combat': {
+				'type': 'ability',
+				'stats': {
+					'tag': 'ranged',
+					'damage': {
+						'type': 'generic',
+						'amount': 4
+					},
+					'cooldown_group': 'lucario/close_combat',
+					'cooldown': 8
+				},
 				'default': {
 					'name': 'ssbrc.fighter.pokemon.close_combat',
 					'color': 'blue'
 				},
 				'mirror': {
-					'name': 'ssbrc.fighter.pokemon.close_combat',
 					'color': 'red'
 				}
 			},
 			'force_palm': {
+				'type': 'hybrid',
+				'stats': {
+					'attack_damage': 6,
+					'attack_speed': 2,
+					'cooldown_group': 'lucario/force_palm',
+					'cooldown': 3
+				},
 				'default': {
 					'name': 'ssbrc.fighter.pokemon.force_palm',
 					'color': 'blue'
 				},
 				'mirror': {
-					'name': 'ssbrc.fighter.pokemon.force_palm',
 					'color': 'red'
 				}
 			}
