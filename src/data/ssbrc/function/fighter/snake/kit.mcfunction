@@ -1,4 +1,4 @@
-function ssbrc:logic/item/give/default {item: "cqc_knife", class: "default", type: "default"}
+function ssbrc:logic/item/give/default {item: "cqc_knife", class: "weapon", type: "default"}
 
 execute if entity @s[tag=psg1] run function ssbrc:logic/item/give/default {item: "psg1", class: "default", type: "default"}
 
