@@ -10,6 +10,7 @@ $item replace entity @s $(slot) with minecraft:stick[ \
 		item_damage_on_attack: $(item_damage_on_attack), \
 		disable_blocking_for_seconds: $(disable_blocking_for_seconds), \
 	}, \
+	minecraft:swing_animation = "$(swing_animation)", \
 	minecraft:minimum_attack_charge = $(minimum_attack_charge), \
 	minecraft:attack_range = { \
 		min_reach: $(min_reach), \
@@ -47,4 +48,16 @@ $item replace entity @s $(slot) with minecraft:stick[ \
 $item modify entity @s $(slot) { \
 	function: "minecraft:reference", \
 	name: "ssbrc:init/item/melee", \
+}
+
+$item modify entity @s $(slot) { \
+	function: "minecraft:set_enchantments", \
+	enchantments: { \
+		"ssbrc:fighter/$(fighter)/$(item)": 1, \
+	}, \
+}
+
+$item modify entity @s $(slot) { \
+	function: "minecraft:reference", \
+	name: "ssbrc:fighter/$(fighter)/$(item)", \
 }

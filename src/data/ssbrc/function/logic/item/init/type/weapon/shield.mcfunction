@@ -39,3 +39,8 @@ $item modify entity @s $(slot) [ \
 		name: "ssbrc:init/item/defensive", \
 	}, \
 ]
+
+$item modify entity @s $(slot) { \
+	function: "minecraft:reference", \
+	name: "ssbrc:fighter/$(fighter)/$(item)", \
+}

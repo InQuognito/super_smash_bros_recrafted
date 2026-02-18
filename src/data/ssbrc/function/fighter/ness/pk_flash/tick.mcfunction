@@ -9,6 +9,6 @@ execute if score @s temp matches 80.. run return run function ssbrc:fighter/ness
 teleport @s[scores={temp=..19}] ~ ~.2 ~
 teleport @s[scores={temp=20..}] ~ ~-.3 ~
 
-execute if entity @a[tag=self,limit=1,predicate=!ssbrc:flag/sneaking] at @s[scores={temp=20..}] run function ssbrc:fighter/ness/pk_flash/adjust
+execute if entity @a[tag=self,limit=1,predicate=!ssbrc:flag/sneaking] at @s[scores={temp=20..}] anchored eyes rotated as @a[tag=self,limit=1] rotated ~ 0 positioned ^ ^ ^5 rotated as @s positioned ^ ^ ^.1 facing entity @s eyes facing ^ ^ ^-1 positioned as @s run teleport @s ^ ^ ^.3 ~ ~
 
 scoreboard players add @s temp 1

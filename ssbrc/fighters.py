@@ -703,7 +703,7 @@ fighters = {
 				}
 			},
 			'spear': {
-				'type': 'martial',
+				'type': 'custom_swing',
 				'stats': {
 					'attack_damage': 8,
 					'attack_speed': 0.3,
@@ -3316,64 +3316,136 @@ fighters = {
 		],
 		'items': {
 			'keyblade_primary': {
+				'type': 'hybrid',
+				'stats': {
+					'attack_damage': 5,
+					'attack_speed': 1.5,
+					'cooldown_group': 'sora/keyblade',
+					'cooldown': 0.2
+				},
 				'default': {
-					'name': 'ssbrc.fighter.sora.kingdom_key',
+					'name': 'ssbrc.fighter.sora.keyblade_primary.default',
 					'color': 'yellow'
 				},
 				'gold': {
 					'color': 'gold'
 				},
 				'timeless_river': {
-					'name': 'ssbrc.fighter.sora.monochrome',
+					'name': 'ssbrc.fighter.sora.keyblade_primary.timeless_river',
 					'color': 'gray'
+				},
+				'space_paranoids': {
+					'name': 'ssbrc.fighter.sora.keyblade_primary.space_paranoids',
+					'color': 'aqua'
+				},
+				'birth_by_sleep': {
+					'name': 'ssbrc.fighter.sora.keyblade_primary.birth_by_sleep',
+					'color': 'dark_gray'
 				}
 			},
 			'keyblade_secondary': {
+				'type': 'hybrid',
+				'stats': {
+					'attack_damage': 5,
+					'attack_speed': 1.5,
+					'cooldown_group': 'sora/keyblade',
+					'cooldown': 0.2
+				},
 				'default': {
-					'name': 'ssbrc.fighter.sora.star_seeker',
+					'name': 'ssbrc.fighter.sora.keyblade_secondary.default',
 					'color': 'blue'
 				},
 				'gold': {
 					'color': 'gold'
 				},
 				'timeless_river': {
-					'name': 'ssbrc.fighter.sora.classic_tone',
+					'name': 'ssbrc.fighter.sora.keyblade_secondary.timeless_river',
 					'color': 'gray'
+				},
+				'space_paranoids': {
+					'name': 'ssbrc.fighter.sora.keyblade_secondary.space_paranoids',
+					'color': 'red'
+				},
+				'birth_by_sleep': {
+					'name': 'ssbrc.fighter.sora.keyblade_secondary.birth_by_sleep',
+					'color': 'dark_red'
 				}
 			},
-			'keyblade_strike_raid': {
+			'keyblade_valor': {
+				'type': 'hybrid',
+				'stats': {
+					'attack_damage': 5,
+					'attack_speed': 1.5,
+					'cooldown_group': 'sora/keyblade',
+					'cooldown': 0.2
+				},
 				'default': {
-					'name': 'ssbrc.fighter.sora.kingdom_key',
+					'name': 'ssbrc.fighter.sora.keyblade_primary.default',
 					'color': 'yellow'
 				},
 				'gold': {
 					'color': 'gold'
 				},
 				'timeless_river': {
-					'name': 'ssbrc.fighter.sora.monochrome',
+					'name': 'ssbrc.fighter.sora.keyblade_primary.timeless_river',
 					'color': 'gray'
+				},
+				'space_paranoids': {
+					'name': 'ssbrc.fighter.sora.keyblade_primary.space_paranoids',
+					'color': 'aqua'
+				},
+				'birth_by_sleep': {
+					'name': 'ssbrc.fighter.sora.keyblade_valor.birth_by_sleep',
+					'color': 'dark_gray'
 				}
 			},
 			'keyblade_wisdom': {
+				'type': 'custom_hybrid',
+				'stats': {
+					'attack_damage': 5,
+					'attack_speed': 1.5,
+					'max_reach': 0,
+					'swing_animation': 'none',
+					'cooldown_group': 'sora/keyblade',
+					'cooldown': 0.2
+				},
 				'default': {
-					'name': 'ssbrc.fighter.sora.kingdom_key',
+					'name': 'ssbrc.fighter.sora.keyblade_primary.default',
 					'color': 'yellow'
 				},
 				'gold': {
 					'color': 'gold'
 				},
 				'timeless_river': {
-					'name': 'ssbrc.fighter.sora.monochrome',
+					'name': 'ssbrc.fighter.sora.keyblade_primary.timeless_river',
 					'color': 'gray'
+				},
+				'space_paranoids': {
+					'name': 'ssbrc.fighter.sora.keyblade_primary.space_paranoids',
+					'color': 'aqua'
+				},
+				'birth_by_sleep': {
+					'name': 'ssbrc.fighter.sora.keyblade_wisdom.birth_by_sleep',
+					'color': 'dark_gray'
 				}
 			},
 			'valor_form': {
+				'type': 'ability',
+				'stats': {
+					'cooldown_group': 'sora/keyblade',
+					'cooldown': 0.05
+				},
 				'default': {
 					'name': 'ssbrc.fighter.sora.valor_form',
 					'color': 'red'
 				}
 			},
 			'wisdom_form': {
+				'type': 'ability',
+				'stats': {
+					'cooldown_group': 'sora/keyblade',
+					'cooldown': 0.05
+				},
 				'default': {
 					'name': 'ssbrc.fighter.sora.wisdom_form',
 					'color': 'blue'
@@ -3824,8 +3896,9 @@ def extend_weapon(data, path):
 	data['hitbox_margin'] = init_stat('hitbox_margin', path, 0.3)
 	data['item_damage_on_attack'] = init_stat('item_damage_on_attack', path, 0)
 	data['disable_blocking_for_seconds'] = init_stat('disable_blocking_for_seconds', path, 0.0)
+	data['swing_animation'] = init_stat('swing_animation', path, "whack")
 
-def extend_martial(data, path):
+def extend_custom_swing(data, path):
 	data['startup_ticks'] = init_stat('startup_ticks', path, 0)
 	data['cooldown_ticks'] = init_stat('cooldown_ticks', path, 10)
 	data['visual_reach'] = init_stat('visual_reach', path, 0)
@@ -3897,9 +3970,9 @@ def fighter_storage():
 					match type:
 						case 'weapon':
 							extend_weapon(item_stats, stat_path)
-						case 'martial':
+						case 'custom_swing':
 							extend_weapon(item_stats, stat_path)
-							extend_martial(item_stats, stat_path)
+							extend_custom_swing(item_stats, stat_path)
 						case 'shield':
 							extend_shield(item_stats, stat_path)
 						case 'ability':
@@ -3909,6 +3982,10 @@ def fighter_storage():
 							extend_ability(item_stats, stat_path)
 						case 'hybrid':
 							extend_weapon(item_stats, stat_path)
+							extend_ability(item_stats, stat_path)
+						case 'custom_hybrid':
+							extend_weapon(item_stats, stat_path)
+							extend_custom_swing(item_stats, stat_path)
 							extend_ability(item_stats, stat_path)
 						case _:
 							pass

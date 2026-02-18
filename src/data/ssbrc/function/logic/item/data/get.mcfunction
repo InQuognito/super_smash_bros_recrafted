@@ -1,4 +1,4 @@
-$data modify storage ssbrc:temp cache.item merge value {search_value: "$(item)",flag_key:"$(flag_key)",flag_value: "$(flag_value)"}
+$data modify storage ssbrc:temp cache.item merge value {search_value: "$(item)", flag_key: "$(flag_key)", flag_value: "$(flag_value)"}
 
 function ssbrc:logic/item/data/find with storage ssbrc:temp cache.item
 

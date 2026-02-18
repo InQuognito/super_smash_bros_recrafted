@@ -59,3 +59,8 @@ $item modify entity @s $(slot) { \
 	function: "minecraft:reference", \
 	name: "ssbrc:init/item/hybrid", \
 }
+
+$item modify entity @s $(slot) { \
+	function: "minecraft:reference", \
+	name: "ssbrc:fighter/$(fighter)/$(item)", \
+}

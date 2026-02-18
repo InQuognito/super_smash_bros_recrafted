@@ -3,7 +3,7 @@
 		"function": "minecraft:set_components",
 		"components": {
 			"minecraft:enchantments": {
-				"ssbrc:fighter/zelda/weapon/glass": 1
+				"ssbrc:fighter/zelda/enchant/glass": 1
 			},
 			"minecraft:max_damage": 6,
 			"minecraft:custom_model_data": {

@@ -7,7 +7,7 @@ function ssbrc:fighter/link/sword_spin/hit
 
 execute unless predicate ssbrc:flag/on_ground run function ssbrc:fighter/link/sword_spin/levitate
 
-function ssbrc:logic/item/data/get {item: "master_sword",flag_key:"spinning",flag_value: "true"}
+function ssbrc:logic/item/data/get {item: "master_sword", flag_key: "spinning", flag_value: "true"}
 
 playsound ssbrc:fighter.link.sword_spin.unleash player @a
 

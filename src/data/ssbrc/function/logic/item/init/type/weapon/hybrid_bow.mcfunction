@@ -48,3 +48,8 @@ $item modify entity @s $(slot) { \
 	function: "minecraft:reference", \
 	name: "ssbrc:init/item/ranged", \
 }
+
+$item modify entity @s $(slot) { \
+	function: "minecraft:reference", \
+	name: "ssbrc:fighter/$(fighter)/$(item)", \
+}

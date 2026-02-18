@@ -10,10 +10,32 @@ $item replace entity @s $(slot) with minecraft:stick[ \
 		item_damage_on_attack: $(item_damage_on_attack), \
 		disable_blocking_for_seconds: $(disable_blocking_for_seconds), \
 	}, \
+	minecraft:kinetic_weapon = { \
+		delay_ticks: $(startup_ticks), \
+		contact_cooldown_ticks: $(cooldown_ticks), \
+		dismount_conditions: { \
+			max_duration_ticks: 10, \
+		}, \
+		knockback_conditions: { \
+			max_duration_ticks: 10, \
+		}, \
+		damage_conditions: { \
+			max_duration_ticks: 10, \
+		}, \
+		forward_movement: 0, \
+		damage_multiplier: 0, \
+		sound: { \
+			sound_id: "ssbrc:$(use_sound)", \
+		}, \
+		hit_sound: { \
+			sound_id: "ssbrc:$(hit_sound)", \
+		}, \
+	}, \
 	minecraft:minimum_attack_charge = $(minimum_attack_charge), \
-	minecraft:use_effects = { \
-		can_sprint: true, \
-		speed_multiplier: 1, \
+	minecraft:attack_range = { \
+		min_reach: $(min_reach), \
+		max_reach: $(max_reach), \
+		hitbox_margin: $(hitbox_margin), \
 	}, \
 	minecraft:attribute_modifiers = [ \
 		{ \
@@ -31,9 +53,6 @@ $item replace entity @s $(slot) with minecraft:stick[ \
 			slot: "mainhand", \
 		}, \
 	], \
-	minecraft:enchantments = { \
-		"ssbrc:fighter/$(fighter)/$(item)": 1, \
-	}, \
 	minecraft:item_model = "ssbrc:fighter/$(fighter)/$(item)", \
 	minecraft:custom_model_data = { \
 		strings: [ \
@@ -49,4 +68,9 @@ $item replace entity @s $(slot) with minecraft:stick[ \
 $item modify entity @s $(slot) { \
 	function: "minecraft:reference", \
 	name: "ssbrc:init/item/melee", \
+}
+
+$item modify entity @s $(slot) { \
+	function: "minecraft:reference", \
+	name: "ssbrc:fighter/$(fighter)/$(item)", \
 }

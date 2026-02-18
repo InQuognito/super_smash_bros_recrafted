@@ -3,7 +3,7 @@
 		"function": "minecraft:set_components",
 		"components": {
 			"minecraft:enchantments": {
-				"ssbrc:fighter/zelda/weapon/emerald": 1
+				"ssbrc:fighter/zelda/enchant/emerald": 1
 			},
 			"minecraft:custom_model_data": {
 				"strings": [

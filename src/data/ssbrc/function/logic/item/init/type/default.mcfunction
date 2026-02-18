@@ -32,3 +32,15 @@ $item replace entity @s $(slot) with minecraft:goat_horn[ \
 		item: "$(item)", \
 	}, \
 ]
+
+$item modify entity @s $(slot) { \
+	function: "minecraft:set_enchantments", \
+	enchantments: { \
+		"ssbrc:fighter/$(fighter)/$(item)": 1, \
+	}, \
+}
+
+$item modify entity @s $(slot) { \
+	function: "minecraft:reference", \
+	name: "ssbrc:fighter/$(fighter)/$(item)", \
+}
