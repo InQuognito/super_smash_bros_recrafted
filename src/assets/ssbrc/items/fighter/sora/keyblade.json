@@ -64,6 +64,80 @@
 						}
 					}
 				}
+			},
+			{
+				"when": "space_paranoids",
+				"model": {
+					"type": "minecraft:condition",
+					"property": "minecraft:component",
+					"predicate": "minecraft:custom_data",
+					"value": {
+						"hand": "secondary"
+					},
+					"on_true": {
+						"type": "minecraft:model",
+						"model": "ssbrc:fighter/sora/item/keyblade/space_paranoids/secondary"
+					},
+					"on_false": {
+						"type": "minecraft:condition",
+						"property": "minecraft:component",
+						"predicate": "minecraft:custom_data",
+						"value": {
+							"form": "wisdom"
+						},
+						"on_true": {
+							"type": "minecraft:model",
+							"model": "ssbrc:fighter/sora/item/keyblade/space_paranoids/wisdom"
+						},
+						"on_false": {
+							"type": "minecraft:model",
+							"model": "ssbrc:fighter/sora/item/keyblade/space_paranoids/default"
+						}
+					}
+				}
+			},
+			{
+				"when": "birth_by_sleep",
+				"model": {
+					"type": "minecraft:condition",
+					"property": "minecraft:component",
+					"predicate": "minecraft:custom_data",
+					"value": {
+						"hand": "secondary"
+					},
+					"on_true": {
+						"type": "minecraft:model",
+						"model": "ssbrc:fighter/sora/item/keyblade/birth_by_sleep/secondary"
+					},
+					"on_false": {
+						"type": "minecraft:condition",
+						"property": "minecraft:component",
+						"predicate": "minecraft:custom_data",
+						"value": {
+							"form": "valor"
+						},
+						"on_true": {
+							"type": "minecraft:model",
+							"model": "ssbrc:fighter/sora/item/keyblade/birth_by_sleep/valor"
+						},
+						"on_false": {
+							"type": "minecraft:condition",
+							"property": "minecraft:component",
+							"predicate": "minecraft:custom_data",
+							"value": {
+								"form": "wisdom"
+							},
+							"on_true": {
+								"type": "minecraft:model",
+								"model": "ssbrc:fighter/sora/item/keyblade/birth_by_sleep/wisdom"
+							},
+							"on_false": {
+								"type": "minecraft:model",
+								"model": "ssbrc:fighter/sora/item/keyblade/birth_by_sleep/default"
+							}
+						}
+					}
+				}
 			}
 		],
 		"fallback": {

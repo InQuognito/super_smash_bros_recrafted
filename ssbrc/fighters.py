@@ -3785,9 +3785,10 @@ def movement_speed(fighter):
 def init_item_data(fighter, skin, item, data):
 	skin_data = {}
 
+	temp_path = fighters[fighter]['items'][item]
+	if 'inherit' in temp_path.keys():
+		item = temp_path['inherit']
 	path = fighters[fighter]['items'][item]
-	if 'inherit' in path.keys():
-		path = fighters[fighter]['items']['inherit']
 
 	if 'default' in path.keys():
 		fallback = path['default']
