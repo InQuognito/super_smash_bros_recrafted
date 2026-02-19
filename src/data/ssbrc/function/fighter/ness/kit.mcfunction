@@ -1,5 +1,5 @@
 function ssbrc:logic/item/init/slot {item: "mr_baseball_bat", slot: "hotbar.0", class: "weapon", type: "default"}
 
-loot replace entity @s hotbar.1 loot ssbrc:fighter/ness/pk_fire
+function ssbrc:logic/item/init/slot {item: "pk_fire", slot: "hotbar.1", class: "default", type: "default"}
 
-loot replace entity @s hotbar.2 loot ssbrc:fighter/ness/pk_flash
+function ssbrc:logic/item/init/slot {item: "pk_flash", slot: "hotbar.2", class: "default", type: "default"}

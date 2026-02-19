@@ -1849,7 +1849,7 @@ fighters = {
 				'type': 'weapon',
 				'stats': {
 					'attack_damage': 7,
-					'attack_speed': 2
+					'attack_speed': 0.75
 				},
 				'default': {
 					'name': 'ssbrc.fighter.ness.mr_baseball_bat',
@@ -1857,6 +1857,38 @@ fighters = {
 				},
 				'gold': {
 					'color': 'gold'
+				}
+			},
+			'pk_fire': {
+				'type': 'ability',
+				'stats': {
+					'tag': 'ranged',
+					'damage': {
+						'type': 'fire',
+						'amount': 4
+					},
+					'cooldown_group': 'ness/pk_fire',
+					'cooldown': 2
+				},
+				'default': {
+					'name': 'ssbrc.fighter.ness.pk_fire',
+					'color': 'red'
+				}
+			},
+			'pk_flash': {
+				'type': 'ability',
+				'stats': {
+					'tag': 'ranged',
+					'damage': {
+						'type': 'generic',
+						'amount': 4
+					},
+					'cooldown_group': 'ness/pk_flash',
+					'cooldown': 5
+				},
+				'default': {
+					'name': 'ssbrc.fighter.ness.pk_flash',
+					'color': 'green'
 				}
 			}
 		}
@@ -1895,7 +1927,7 @@ fighters = {
 				'type': 'weapon',
 				'stats': {
 					'attack_damage': 7,
-					'attack_speed': 2
+					'attack_speed': 0.75
 				},
 				'default': {
 					'name': 'ssbrc.fighter.giegue.devastation_strike',
