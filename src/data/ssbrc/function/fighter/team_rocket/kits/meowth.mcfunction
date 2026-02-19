@@ -30,6 +30,6 @@ item modify entity @s armor.chest [ \
 				italic: false, \
 			}, \
 		], \
-		mode: append, \
+		mode: "append", \
 	}, \
 ]

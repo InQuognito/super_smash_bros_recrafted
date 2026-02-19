@@ -34,7 +34,7 @@ $item modify entity @s $(slot) [ \
 				] \
 			}, \
 		], \
-		mode: append, \
+		mode: "append", \
 	}, \
 	{ \
 		function: "minecraft:set_custom_data", \

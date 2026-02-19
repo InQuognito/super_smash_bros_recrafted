@@ -1,4 +1,4 @@
-function ssbrc:fighter/sora/drive_forms/update {form: "valor"}
+function ssbrc:fighter/sora/drive_forms/update {form: "master"}
 
 tag @s add hud_disabled
 title @s actionbar ""
@@ -10,7 +10,3 @@ item modify entity @s hotbar.0 {function: "minecraft:set_custom_data", tag: {han
 
 function ssbrc:logic/item/init/slot {item: "keyblade", slot: "weapon.offhand", class: "weapon", type: "hybrid"}
 item modify entity @s weapon.offhand {function: "minecraft:set_custom_data", tag: {hand: "secondary"}}
-
-attribute @s minecraft:attack_damage modifier add ssbrc:valor_form .4 add_multiplied_base
-
-attribute @s minecraft:jump_strength modifier add ssbrc:valor_form .2 add_multiplied_base

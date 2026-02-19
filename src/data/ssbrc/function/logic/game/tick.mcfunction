@@ -6,7 +6,7 @@ execute as @a at @s run function ssbrc:logic/game/player/tick
 
 execute as @e[predicate=ssbrc:target] at @s run function ssbrc:logic/game/target/tick
 
-execute as @e[type=minecraft:item,nbt={Item:{components:{"minecraft:custom_data":{group:"item"}}}}] run function ssbrc:logic/game/item/tick
+execute as @e[type=minecraft:item,nbt={Item:{components:{"minecraft:custom_data":{group: "item"}}}}] run function ssbrc:logic/game/item/tick
 
 execute if data storage ssbrc:data option{game_mode: "ctf"} as @e[type=minecraft:block_display,tag=flag] at @s run function ssbrc:logic/ctf/flag/tick
 

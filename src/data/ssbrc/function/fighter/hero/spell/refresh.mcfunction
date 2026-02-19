@@ -1,4 +1,4 @@
-clear @s *[minecraft:custom_data~{group:"hero.spell"}]
+clear @s *[minecraft:custom_data~{group: "hero.spell"}]
 
 function ssbrc:fighter/hero/spell/choose {slot:1}
 function ssbrc:fighter/hero/spell/choose {slot:2}

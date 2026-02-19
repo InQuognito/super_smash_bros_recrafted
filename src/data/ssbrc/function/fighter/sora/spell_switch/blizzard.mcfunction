@@ -2,7 +2,7 @@ advancement revoke @s only ssbrc:utility/use_item/fighter/sora/spell/switch/bliz
 
 function ssbrc:fighter/sora/spell_switch/display/start {slot: "weapon.mainhand",spell:"blizza",spell_color: "aqua"}
 
-execute unless score wisdom_form temp matches 1 run item modify entity @s weapon.mainhand { \
+execute unless score #wisdom_form temp matches 1 run item modify entity @s weapon.mainhand { \
 	function: "minecraft:set_components", \
 	components: { \
 		"minecraft:use_cooldown": { \
@@ -12,7 +12,7 @@ execute unless score wisdom_form temp matches 1 run item modify entity @s weapon
 	}, \
 }
 
-execute if score wisdom_form temp matches 1 run item modify entity @s weapon.mainhand [ \
+execute if score #wisdom_form temp matches 1 run item modify entity @s weapon.mainhand [ \
 	{ \
 		function: "minecraft:set_lore", \
 		entity: "this", \
@@ -23,7 +23,7 @@ execute if score wisdom_form temp matches 1 run item modify entity @s weapon.mai
 				italic: false, \
 			}, \
 		], \
-		mode: append, \
+		mode: "append", \
 	}, \
 	{ \
 		function: "minecraft:set_components", \
@@ -46,7 +46,7 @@ item modify entity @s weapon.mainhand { \
 			italic: false, \
 		}, \
 	], \
-	mode: append, \
+	mode: "append", \
 }
 
 function ssbrc:fighter/sora/spell_switch/display/spell_order {slot: "weapon.mainhand",spell_1:"blizzard",spell_1_color: "aqua",spell_2:"thunder",spell_2_color: "yellow",spell_3:"fire",spell_3_color: "red"}

@@ -51,6 +51,6 @@ $item modify entity @s hotbar.$(slot) [ \
 				], \
 			}, \
 		], \
-		mode: append, \
+		mode: "append", \
 	}, \
 ]

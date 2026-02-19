@@ -1,3 +1,5 @@
-function ssbrc:logic/item/init/slot {item: "valor_form", slot: "hotbar.2", class: "default", type: "default"}
+function ssbrc:logic/item/give/default {item: "valor_form", class: "default", type: "default"}
 
-function ssbrc:logic/item/init/slot {item: "wisdom_form", slot: "hotbar.3", class: "default", type: "default"}
+function ssbrc:logic/item/give/default {item: "wisdom_form", class: "default", type: "default"}
+
+function ssbrc:logic/item/give/default {item: "master_form", class: "default", type: "default"}

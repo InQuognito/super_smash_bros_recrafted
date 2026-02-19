@@ -1,4 +1,4 @@
-clear @s *[minecraft:custom_data~{group:"power_up"}]
+clear @s *[minecraft:custom_data~{group: "power_up"}]
 
 execute store result score #random temp run random value 1..5
 

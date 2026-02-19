@@ -3315,7 +3315,7 @@ fighters = {
 			'master'
 		],
 		'items': {
-			'keyblade_primary': {
+			'keyblade': {
 				'type': 'hybrid',
 				'stats': {
 					'attack_damage': 5,
@@ -3324,82 +3324,23 @@ fighters = {
 					'cooldown': 0.2
 				},
 				'default': {
-					'name': 'ssbrc.fighter.sora.keyblade_primary.default',
+					'name': 'null',
 					'color': 'yellow'
 				},
 				'gold': {
 					'color': 'gold'
 				},
 				'timeless_river': {
-					'name': 'ssbrc.fighter.sora.keyblade_primary.timeless_river',
 					'color': 'gray'
 				},
 				'space_paranoids': {
-					'name': 'ssbrc.fighter.sora.keyblade_primary.space_paranoids',
 					'color': 'aqua'
 				},
 				'birth_by_sleep': {
-					'name': 'ssbrc.fighter.sora.keyblade_primary.birth_by_sleep',
 					'color': 'dark_gray'
 				}
 			},
-			'keyblade_secondary': {
-				'type': 'hybrid',
-				'stats': {
-					'attack_damage': 5,
-					'attack_speed': 1.5,
-					'cooldown_group': 'sora/keyblade',
-					'cooldown': 0.2
-				},
-				'default': {
-					'name': 'ssbrc.fighter.sora.keyblade_secondary.default',
-					'color': 'blue'
-				},
-				'gold': {
-					'color': 'gold'
-				},
-				'timeless_river': {
-					'name': 'ssbrc.fighter.sora.keyblade_secondary.timeless_river',
-					'color': 'gray'
-				},
-				'space_paranoids': {
-					'name': 'ssbrc.fighter.sora.keyblade_secondary.space_paranoids',
-					'color': 'red'
-				},
-				'birth_by_sleep': {
-					'name': 'ssbrc.fighter.sora.keyblade_secondary.birth_by_sleep',
-					'color': 'dark_red'
-				}
-			},
-			'keyblade_valor': {
-				'type': 'hybrid',
-				'stats': {
-					'attack_damage': 5,
-					'attack_speed': 1.5,
-					'cooldown_group': 'sora/keyblade',
-					'cooldown': 0.2
-				},
-				'default': {
-					'name': 'ssbrc.fighter.sora.keyblade_primary.default',
-					'color': 'yellow'
-				},
-				'gold': {
-					'color': 'gold'
-				},
-				'timeless_river': {
-					'name': 'ssbrc.fighter.sora.keyblade_primary.timeless_river',
-					'color': 'gray'
-				},
-				'space_paranoids': {
-					'name': 'ssbrc.fighter.sora.keyblade_primary.space_paranoids',
-					'color': 'aqua'
-				},
-				'birth_by_sleep': {
-					'name': 'ssbrc.fighter.sora.keyblade_valor.birth_by_sleep',
-					'color': 'dark_gray'
-				}
-			},
-			'keyblade_wisdom': {
+			'wisdom_keyblade': {
 				'type': 'custom_hybrid',
 				'stats': {
 					'attack_damage': 5,
@@ -3409,30 +3350,12 @@ fighters = {
 					'cooldown_group': 'sora/keyblade',
 					'cooldown': 0.2
 				},
-				'default': {
-					'name': 'ssbrc.fighter.sora.keyblade_primary.default',
-					'color': 'yellow'
-				},
-				'gold': {
-					'color': 'gold'
-				},
-				'timeless_river': {
-					'name': 'ssbrc.fighter.sora.keyblade_primary.timeless_river',
-					'color': 'gray'
-				},
-				'space_paranoids': {
-					'name': 'ssbrc.fighter.sora.keyblade_primary.space_paranoids',
-					'color': 'aqua'
-				},
-				'birth_by_sleep': {
-					'name': 'ssbrc.fighter.sora.keyblade_wisdom.birth_by_sleep',
-					'color': 'dark_gray'
-				}
+				'inherit': 'keyblade',
 			},
 			'valor_form': {
 				'type': 'ability',
 				'stats': {
-					'cooldown_group': 'sora/keyblade',
+					'cooldown_group': 'sora/form_card',
 					'cooldown': 0.05
 				},
 				'default': {
@@ -3443,12 +3366,23 @@ fighters = {
 			'wisdom_form': {
 				'type': 'ability',
 				'stats': {
-					'cooldown_group': 'sora/keyblade',
+					'cooldown_group': 'sora/form_card',
 					'cooldown': 0.05
 				},
 				'default': {
 					'name': 'ssbrc.fighter.sora.wisdom_form',
 					'color': 'blue'
+				}
+			},
+			'master_form': {
+				'type': 'ability',
+				'stats': {
+					'cooldown_group': 'sora/form_card',
+					'cooldown': 0.05
+				},
+				'default': {
+					'name': 'ssbrc.fighter.sora.master_form',
+					'color': 'yellow'
 				}
 			}
 		}
@@ -3849,12 +3783,14 @@ def movement_speed(fighter):
 		return 0.1
 
 def init_item_data(fighter, skin, item, data):
+	skin_data = {}
+
 	path = fighters[fighter]['items'][item]
+	if 'inherit' in path.keys():
+		path = fighters[fighter]['items']['inherit']
 
 	if 'default' in path.keys():
 		fallback = path['default']
-
-	skin_data = {}
 
 	if skin in path.keys():
 		if 'name' in path[skin].keys():

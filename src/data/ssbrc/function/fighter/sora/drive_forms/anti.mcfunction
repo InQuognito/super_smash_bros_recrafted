@@ -1,5 +1,4 @@
 function ssbrc:fighter/sora/drive_forms/enter {form: "anti"}
-tag @s add anti
 
 tag @s add hud_disabled
 title @s actionbar ""

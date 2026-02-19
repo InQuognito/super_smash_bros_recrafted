@@ -7,7 +7,7 @@ $item modify entity @s $(slot) [ \
 			italic: false, \
 			extra: [ \
 				{ \
-					translate: "$(fighter)", \
+					translate: "ssbrc.fighter.sora.keyblade_$(hand).$(skin)", \
 					color: "$(color)", \
 					bold: true, \
 				}, \
@@ -48,6 +48,6 @@ $item modify entity @s $(slot) [ \
 				] \
 			}, \
 		], \
-		mode: append, \
+		mode: "append", \
 	}, \
 ]

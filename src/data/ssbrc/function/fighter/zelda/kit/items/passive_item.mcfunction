@@ -1,4 +1,4 @@
-clear @s #ssbrc:fighter/zelda/passive_items[minecraft:custom_data~{group:"passive_item"}]
+clear @s #ssbrc:fighter/zelda/passive_items[minecraft:custom_data~{group: "passive_item"}]
 
 execute store result score #random temp run random value 1..10
 
@@ -13,4 +13,4 @@ execute if score #random temp matches 8 if function ssbrc:logic/stage/has_water 
 execute if score #random temp matches 9 run loot replace entity @s hotbar.2 loot ssbrc:fighter/zelda/torch_of_wisdom
 execute if score #random temp matches 10 if function ssbrc:logic/stage/has_water run loot replace entity @s hotbar.2 loot ssbrc:fighter/zelda/zoras_flippers
 
-execute unless items entity @s container.* #ssbrc:fighter/zelda/passive_items[minecraft:custom_data~{group:"passive_item"}] unless items entity @s weapon.offhand #ssbrc:fighter/zelda/passive_items[minecraft:custom_data~{group:"passive_item"}] run function ssbrc:fighter/zelda/kit/items/passive_item
+execute unless items entity @s container.* #ssbrc:fighter/zelda/passive_items[minecraft:custom_data~{group: "passive_item"}] unless items entity @s weapon.offhand #ssbrc:fighter/zelda/passive_items[minecraft:custom_data~{group: "passive_item"}] run function ssbrc:fighter/zelda/kit/items/passive_item

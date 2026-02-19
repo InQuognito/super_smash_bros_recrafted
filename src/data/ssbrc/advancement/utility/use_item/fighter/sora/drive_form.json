@@ -1,5 +1,5 @@
 {
-	"parent": "ssbrc:utility/use_item/root",
+	"parent": "ssbrc:utility/root",
 	"criteria": {
 		"requirement": {
 			"trigger": "minecraft:using_item",
@@ -13,8 +13,7 @@
 				"item": {
 					"predicates": {
 						"minecraft:custom_data": {
-							"group": "drive_form",
-							"form": "valor"
+							"group": "drive_form"
 						}
 					}
 				}
@@ -22,6 +21,6 @@
 		}
 	},
 	"rewards": {
-		"function": "ssbrc:fighter/sora/drive_forms/check/valor"
+		"function": "ssbrc:fighter/sora/drive_forms/anti/check"
 	}
 }

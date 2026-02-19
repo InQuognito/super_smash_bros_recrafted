@@ -1,27 +1,27 @@
-$execute positioned 23288.5 5.75 8615.5 summon minecraft:item_display run function ssbrc:stage/pac_maze/dot/init {group:"$(group)"}
-$execute positioned 23289.5 5.75 8615.5 summon minecraft:item_display run function ssbrc:stage/pac_maze/dot/init {group:"$(group)"}
-$execute positioned 23290.5 5.75 8615.5 summon minecraft:item_display run function ssbrc:stage/pac_maze/dot/init {group:"$(group)"}
-$execute positioned 23291.5 5.75 8615.5 summon minecraft:item_display run function ssbrc:stage/pac_maze/dot/init {group:"$(group)"}
-$execute positioned 23292.5 5.75 8615.5 summon minecraft:item_display run function ssbrc:stage/pac_maze/dot/init {group:"$(group)"}
-$execute positioned 23293.5 5.75 8615.5 summon minecraft:item_display run function ssbrc:stage/pac_maze/dot/init {group:"$(group)"}
-$execute positioned 23294.5 5.75 8615.5 summon minecraft:item_display run function ssbrc:stage/pac_maze/dot/init {group:"$(group)"}
-$execute positioned 23295.5 5.75 8615.5 summon minecraft:item_display run function ssbrc:stage/pac_maze/dot/init {group:"$(group)"}
-$execute positioned 23296.5 5.75 8615.5 summon minecraft:item_display run function ssbrc:stage/pac_maze/dot/init {group:"$(group)"}
-$execute positioned 23288.5 5.75 8616.5 summon minecraft:item_display run function ssbrc:stage/pac_maze/dot/init {group:"$(group)"}
-$execute positioned 23296.5 5.75 8616.5 summon minecraft:item_display run function ssbrc:stage/pac_maze/dot/init {group:"$(group)"}
-$execute positioned 23296.5 5.75 8617.5 summon minecraft:item_display run function ssbrc:stage/pac_maze/dot/init {group:"$(group)"}
-$execute positioned 23288.5 5.75 8618.5 summon minecraft:item_display run function ssbrc:stage/pac_maze/dot/init {group:"$(group)"}
-$execute positioned 23296.5 5.75 8618.5 summon minecraft:item_display run function ssbrc:stage/pac_maze/dot/init {group:"$(group)"}
-$execute positioned 23288.5 5.75 8619.5 summon minecraft:item_display run function ssbrc:stage/pac_maze/dot/init {group:"$(group)"}
-$execute positioned 23296.5 5.75 8619.5 summon minecraft:item_display run function ssbrc:stage/pac_maze/dot/init {group:"$(group)"}
-$execute positioned 23288.5 5.75 8620.5 summon minecraft:item_display run function ssbrc:stage/pac_maze/dot/init {group:"$(group)"}
-$execute positioned 23296.5 5.75 8620.5 summon minecraft:item_display run function ssbrc:stage/pac_maze/dot/init {group:"$(group)"}
-$execute positioned 23288.5 5.75 8621.5 summon minecraft:item_display run function ssbrc:stage/pac_maze/dot/init {group:"$(group)"}
-$execute positioned 23289.5 5.75 8621.5 summon minecraft:item_display run function ssbrc:stage/pac_maze/dot/init {group:"$(group)"}
-$execute positioned 23290.5 5.75 8621.5 summon minecraft:item_display run function ssbrc:stage/pac_maze/dot/init {group:"$(group)"}
-$execute positioned 23291.5 5.75 8621.5 summon minecraft:item_display run function ssbrc:stage/pac_maze/dot/init {group:"$(group)"}
-$execute positioned 23292.5 5.75 8621.5 summon minecraft:item_display run function ssbrc:stage/pac_maze/dot/init {group:"$(group)"}
-$execute positioned 23293.5 5.75 8621.5 summon minecraft:item_display run function ssbrc:stage/pac_maze/dot/init {group:"$(group)"}
-$execute positioned 23294.5 5.75 8621.5 summon minecraft:item_display run function ssbrc:stage/pac_maze/dot/init {group:"$(group)"}
-$execute positioned 23295.5 5.75 8621.5 summon minecraft:item_display run function ssbrc:stage/pac_maze/dot/init {group:"$(group)"}
-$execute positioned 23296.5 5.75 8621.5 summon minecraft:item_display run function ssbrc:stage/pac_maze/dot/init {group:"$(group)"}
+$execute positioned 23288.5 5.75 8615.5 summon minecraft:item_display run function ssbrc:stage/pac_maze/dot/init {group: "$(group)"}
+$execute positioned 23289.5 5.75 8615.5 summon minecraft:item_display run function ssbrc:stage/pac_maze/dot/init {group: "$(group)"}
+$execute positioned 23290.5 5.75 8615.5 summon minecraft:item_display run function ssbrc:stage/pac_maze/dot/init {group: "$(group)"}
+$execute positioned 23291.5 5.75 8615.5 summon minecraft:item_display run function ssbrc:stage/pac_maze/dot/init {group: "$(group)"}
+$execute positioned 23292.5 5.75 8615.5 summon minecraft:item_display run function ssbrc:stage/pac_maze/dot/init {group: "$(group)"}
+$execute positioned 23293.5 5.75 8615.5 summon minecraft:item_display run function ssbrc:stage/pac_maze/dot/init {group: "$(group)"}
+$execute positioned 23294.5 5.75 8615.5 summon minecraft:item_display run function ssbrc:stage/pac_maze/dot/init {group: "$(group)"}
+$execute positioned 23295.5 5.75 8615.5 summon minecraft:item_display run function ssbrc:stage/pac_maze/dot/init {group: "$(group)"}
+$execute positioned 23296.5 5.75 8615.5 summon minecraft:item_display run function ssbrc:stage/pac_maze/dot/init {group: "$(group)"}
+$execute positioned 23288.5 5.75 8616.5 summon minecraft:item_display run function ssbrc:stage/pac_maze/dot/init {group: "$(group)"}
+$execute positioned 23296.5 5.75 8616.5 summon minecraft:item_display run function ssbrc:stage/pac_maze/dot/init {group: "$(group)"}
+$execute positioned 23296.5 5.75 8617.5 summon minecraft:item_display run function ssbrc:stage/pac_maze/dot/init {group: "$(group)"}
+$execute positioned 23288.5 5.75 8618.5 summon minecraft:item_display run function ssbrc:stage/pac_maze/dot/init {group: "$(group)"}
+$execute positioned 23296.5 5.75 8618.5 summon minecraft:item_display run function ssbrc:stage/pac_maze/dot/init {group: "$(group)"}
+$execute positioned 23288.5 5.75 8619.5 summon minecraft:item_display run function ssbrc:stage/pac_maze/dot/init {group: "$(group)"}
+$execute positioned 23296.5 5.75 8619.5 summon minecraft:item_display run function ssbrc:stage/pac_maze/dot/init {group: "$(group)"}
+$execute positioned 23288.5 5.75 8620.5 summon minecraft:item_display run function ssbrc:stage/pac_maze/dot/init {group: "$(group)"}
+$execute positioned 23296.5 5.75 8620.5 summon minecraft:item_display run function ssbrc:stage/pac_maze/dot/init {group: "$(group)"}
+$execute positioned 23288.5 5.75 8621.5 summon minecraft:item_display run function ssbrc:stage/pac_maze/dot/init {group: "$(group)"}
+$execute positioned 23289.5 5.75 8621.5 summon minecraft:item_display run function ssbrc:stage/pac_maze/dot/init {group: "$(group)"}
+$execute positioned 23290.5 5.75 8621.5 summon minecraft:item_display run function ssbrc:stage/pac_maze/dot/init {group: "$(group)"}
+$execute positioned 23291.5 5.75 8621.5 summon minecraft:item_display run function ssbrc:stage/pac_maze/dot/init {group: "$(group)"}
+$execute positioned 23292.5 5.75 8621.5 summon minecraft:item_display run function ssbrc:stage/pac_maze/dot/init {group: "$(group)"}
+$execute positioned 23293.5 5.75 8621.5 summon minecraft:item_display run function ssbrc:stage/pac_maze/dot/init {group: "$(group)"}
+$execute positioned 23294.5 5.75 8621.5 summon minecraft:item_display run function ssbrc:stage/pac_maze/dot/init {group: "$(group)"}
+$execute positioned 23295.5 5.75 8621.5 summon minecraft:item_display run function ssbrc:stage/pac_maze/dot/init {group: "$(group)"}
+$execute positioned 23296.5 5.75 8621.5 summon minecraft:item_display run function ssbrc:stage/pac_maze/dot/init {group: "$(group)"}

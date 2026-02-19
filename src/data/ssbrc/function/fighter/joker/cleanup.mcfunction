@@ -1,1 +1,1 @@
-clear @s *[minecraft:custom_data~{group:"mask"}]
+clear @s *[minecraft:custom_data~{group: "mask"}]

@@ -1,5 +1,5 @@
 advancement revoke @s only ssbrc:utility/use_item/fighter/sora/spell/switch/fire
 
-execute if items entity @s weapon.mainhand *[minecraft:custom_data~{item: "keyblade"}] run return run function ssbrc:fighter/sora/spell_switch/fire/set {slot: "weapon.mainhand"}
+execute if items entity @s weapon.mainhand *[minecraft:custom_data~{item: "keyblade"}] run return run function ssbrc:fighter/sora/spell_switch/fire/set {hand: "primary", slot: "weapon.mainhand"}
 
-execute if items entity @s weapon.offhand *[minecraft:custom_data~{item: "keyblade"}] run function ssbrc:fighter/sora/spell_switch/fire/set {slot: "weapon.offhand"}
+execute if items entity @s weapon.offhand *[minecraft:custom_data~{item: "keyblade"}] run function ssbrc:fighter/sora/spell_switch/fire/set {hand: "secondary", slot: "weapon.offhand"}

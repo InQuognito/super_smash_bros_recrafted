@@ -1,4 +1,4 @@
-execute unless items entity @s weapon.mainhand *[minecraft:custom_data~{group:"raiden.weapon"}] run title @s actionbar ""
+execute unless items entity @s weapon.mainhand *[minecraft:custom_data~{group: "raiden.weapon"}] run title @s actionbar ""
 
 execute if items entity @s weapon.mainhand *[minecraft:custom_data~{item: "aks_74u"}] run function ssbrc:fighter/raiden/hud/display {id:"3"}
 

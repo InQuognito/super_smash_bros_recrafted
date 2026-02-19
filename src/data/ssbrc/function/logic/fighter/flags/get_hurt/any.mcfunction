@@ -6,7 +6,7 @@ execute store result score @s health run data get entity @s Health
 scoreboard players operation id_to_match temp = @s id
 
 execute if items entity @s[predicate=ssbrc:random_chance/15] armor.body *[minecraft:custom_data~{temp: {fighter: {fighter: "jigglypuff", form: "rest"}}}] run return run function ssbrc:fighter/jigglypuff/rest/deactivate
-execute if items entity @s[scores={health=..39}] armor.body *[minecraft:custom_data~{temp: {fighter: {fighter: "link"}}}] if items entity @s container.* *[minecraft:custom_data~{item: "master_sword",awakened:"true"}] run return run function ssbrc:logic/item/data/get {item: "master_sword", flag_key: "awakened", flag_value: "false"}
+execute if items entity @s[scores={health=..39}] armor.body *[minecraft:custom_data~{temp: {fighter: {fighter: "link"}}}] if items entity @s container.* *[minecraft:custom_data~{item: "master_sword",awakened:"true"}] run return run function ssbrc:logic/item/data/set {item: "master_sword", flag_key: "awakened", flag_value: "false"}
 execute if items entity @s armor.body *[minecraft:custom_data~{temp: {fighter: {fighter: "lucario"}}}] run return run function ssbrc:fighter/lucario/aura/check
 execute if items entity @s[scores={charge.2=1..}] armor.body *[minecraft:custom_data~{temp: {fighter: {fighter: "pokemon_trainer", form: "squirtle"}}}] run return run function ssbrc:fighter/pokemon_trainer/squirtle/withdraw/reset
 execute if items entity @s armor.body *[minecraft:custom_data~{temp: {fighter: {fighter: "roy"}}}] run return run function ssbrc:fighter/roy/get_hurt

@@ -1,6 +1,6 @@
 clear @s *[minecraft:custom_data~{item: "skin_options"}]
 
-clear @s *[minecraft:custom_data~{group:"team_flag"}]
+clear @s *[minecraft:custom_data~{group: "team_flag"}]
 
 clear @s minecraft:written_book
 

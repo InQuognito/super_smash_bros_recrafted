@@ -14,7 +14,7 @@ item modify entity @s armor.chest { \
 			italic: false, \
 		}, \
 	], \
-	mode: append, \
+	mode: "append", \
 }
 
 item modify entity @s armor.legs ssbrc:fighter/no_utilities
