@@ -3834,6 +3834,7 @@ def extend_weapon(data, path):
 	data['item_damage_on_attack'] = init_stat('item_damage_on_attack', path, 0)
 	data['disable_blocking_for_seconds'] = init_stat('disable_blocking_for_seconds', path, 0.0)
 	data['swing_animation'] = init_stat('swing_animation', path, "whack")
+	data['swing_duration'] = init_stat('swing_duration', path, 6)
 
 def extend_custom_swing(data, path):
 	data['startup_ticks'] = init_stat('startup_ticks', path, 0)

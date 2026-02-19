@@ -10,7 +10,10 @@ $item replace entity @s $(slot) with minecraft:stick[ \
 		item_damage_on_attack: $(item_damage_on_attack), \
 		disable_blocking_for_seconds: $(disable_blocking_for_seconds), \
 	}, \
-	minecraft:swing_animation = "$(swing_animation)", \
+	minecraft:swing_animation = { \
+		type: "$(swing_animation)", \
+		duration: $(swing_duration), \
+	}, \
 	minecraft:minimum_attack_charge = $(minimum_attack_charge), \
 	minecraft:attack_range = { \
 		min_reach: $(min_reach), \
