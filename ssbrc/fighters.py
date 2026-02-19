@@ -2151,6 +2151,22 @@ fighters = {
 					},
 					'cooldown_group': 'roy/sword',
 					'cooldown': 0.05
+				},
+				'default': {
+					'name': 'ssbrc.fighter.roy.sword.default',
+					'color': 'gold'
+				},
+				'young_lion': {
+					'name': 'ssbrc.fighter.zelda.weapon.rapier.default',
+					'color': 'blue'
+				},
+				'awakening': {
+					'name': 'ssbrc.fighter.roy.sword.awakening',
+					'color': 'blue'
+				},
+				'blazing_bachelor': {
+					'name': 'ssbrc.fighter.roy.sword.blazing_bachelor',
+					'color': 'white'
 				}
 			}
 		}
