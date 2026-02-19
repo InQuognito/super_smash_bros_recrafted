@@ -7,7 +7,7 @@ $item replace entity @s $(slot) with minecraft:shield[ \
 	}, \
 	minecraft:swing_animation = { \
 		type: "none", \
-		duration: 0, \
+		duration: 1, \
 	}, \
 	minecraft:blocks_attacks = { \
 		block_delay_seconds: $(block_delay_seconds), \

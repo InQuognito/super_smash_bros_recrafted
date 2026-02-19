@@ -7,7 +7,7 @@ $item replace entity @s $(slot) with minecraft:goat_horn[ \
 	}, \
 	minecraft:swing_animation = { \
 		type: "none", \
-		duration: 0, \
+		duration: 1, \
 	}, \
 	minecraft:minimum_attack_charge = 1, \
 	minecraft:instrument = { \
