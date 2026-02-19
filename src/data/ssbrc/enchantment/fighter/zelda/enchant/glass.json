@@ -1,6 +1,6 @@
 {
 	"description": "",
-	"supported_items": "minecraft:stick",
+	"supported_items": "#ssbrc:equipment/ability",
 	"weight": 1,
 	"max_level": 2,
 	"min_cost": {

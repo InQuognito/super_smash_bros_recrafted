@@ -1,4 +1,4 @@
-$item replace entity @s $(slot) with minecraft:stick[ \
+$item replace entity @s $(slot) with minecraft:goat_horn[ \
 	minecraft:item_name = { \
 		translate: "$(name)", \
 		color: "$(color)", \
@@ -15,10 +15,21 @@ $item replace entity @s $(slot) with minecraft:stick[ \
 		duration: $(swing_duration), \
 	}, \
 	minecraft:minimum_attack_charge = $(minimum_attack_charge), \
-	minecraft:attack_range = { \
-		min_reach: $(min_reach), \
-		max_reach: $(max_reach), \
-		hitbox_margin: $(hitbox_margin), \
+	minecraft:instrument = { \
+		sound_event: { \
+			sound_id: "ssbrc:empty", \
+		}, \
+		range: 1, \
+		use_duration: .05, \
+		description: "", \
+	}, \
+	minecraft:use_effects = { \
+		can_sprint: true, \
+		speed_multiplier: 1, \
+	}, \
+	minecraft:use_cooldown = { \
+		seconds: $(cooldown), \
+		cooldown_group: "ssbrc:$(cooldown_group)", \
 	}, \
 	minecraft:attribute_modifiers = [ \
 		{ \
@@ -36,6 +47,9 @@ $item replace entity @s $(slot) with minecraft:stick[ \
 			slot: "mainhand", \
 		}, \
 	], \
+	minecraft:enchantments = { \
+		"ssbrc:fighter/$(fighter)/$(item)": 1, \
+	}, \
 	minecraft:item_model = "ssbrc:fighter/$(fighter)/$(item)", \
 	minecraft:custom_model_data = { \
 		strings: [ \
@@ -50,7 +64,7 @@ $item replace entity @s $(slot) with minecraft:stick[ \
 
 $item modify entity @s $(slot) { \
 	function: "minecraft:reference", \
-	name: "ssbrc:init/item/melee", \
+	name: "ssbrc:init/item/hybrid", \
 }
 
 $item modify entity @s $(slot) { \

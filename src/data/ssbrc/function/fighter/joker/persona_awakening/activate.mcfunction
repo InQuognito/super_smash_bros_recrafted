@@ -21,6 +21,6 @@ function ssbrc:logic/fighter/armor/update with entity @s equipment.body.componen
 
 playsound ssbrc:fighter.joker.persona_awakening.activate player @a
 
-execute if items entity @s armor.body *[minecraft:custom_data~{temp: {fighter: {persona:"jack_frost"}}}] run return run function ssbrc:logic/item/init/replace {search_key: "item", search_value: "rebel_knife", item: "rebel_knife_freeze", class: "default", type: "default"}
-execute if items entity @s armor.body *[minecraft:custom_data~{temp: {fighter: {persona:"jack_o_lantern"}}}] run return run function ssbrc:logic/item/init/replace {search_key: "item", search_value: "rebel_knife", item: "rebel_knife_fire", class: "default", type: "default"}
-function ssbrc:logic/item/init/replace {search_key: "item", search_value: "rebel_knife", item: "rebel_knife", class: "default", type: "default"}
+execute if items entity @s armor.body *[minecraft:custom_data~{temp: {fighter: {persona:"jack_frost"}}}] run return run function ssbrc:logic/item/init/replace {search_key: "item", search_value: "rebel_knife", item: "rebel_knife_freeze", class: "weapon", type: "enchanted"}
+execute if items entity @s armor.body *[minecraft:custom_data~{temp: {fighter: {persona:"jack_o_lantern"}}}] run return run function ssbrc:logic/item/init/replace {search_key: "item", search_value: "rebel_knife", item: "rebel_knife_fire", class: "weapon", type: "enchanted"}
+function ssbrc:logic/item/init/replace {search_key: "item", search_value: "rebel_knife", item: "rebel_knife", class: "weapon", type: "enchanted"}

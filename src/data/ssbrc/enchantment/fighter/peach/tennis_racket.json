@@ -1,6 +1,6 @@
 {
 	"description": "",
-	"supported_items": "minecraft:stick",
+	"supported_items": "#ssbrc:equipment/ability",
 	"weight": 1,
 	"max_level": 1,
 	"min_cost": {
@@ -22,7 +22,7 @@
 				"affected": "attacker",
 				"effect": {
 					"type": "minecraft:run_function",
-					"function": "ssbrc:fighter/peach/tennis_racket/hit"
+					"function": "ssbrc:fighter/peach/kit/golf_club"
 				}
 			}
 		]
