@@ -4,11 +4,19 @@ $item replace entity @s enderchest.$(slot) with minecraft:saddle[ \
 		color: "gold", \
 		bold: true, \
 	}, \
+	minecraft:item_model = "ssbrc:fighter/head", \
+	minecraft:custom_model_data = { \
+		strings: [ \
+			"$(fighter)", \
+			"default", \
+			"default", \
+		], \
+	}, \
 ]
 
 $item modify entity @s enderchest.$(slot) { \
 	function: "minecraft:reference", \
-	name: "ssbrc:fighter/$(fighter)/skin/default", \
+	name: "ssbrc:shop_tooltip/$(fighter)/skin/default", \
 }
 
 $execute if score @s[advancements={ssbrc:fighter/$(fighter)/default=false}] stats.credits < #price.fighter const run item modify entity @s enderchest.$(slot) [{function: "minecraft:reference",name: "ssbrc:ui/shop/price/fighter"}, {function: "minecraft:reference",name: "ssbrc:ui/shop/cannot_afford"}, {function: "minecraft:set_custom_data", tag: {ui:{type: "default",navigation:"$(path)"}}}]
