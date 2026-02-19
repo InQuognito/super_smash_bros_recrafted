@@ -10,6 +10,10 @@ $item replace entity @s $(slot) with minecraft:goat_horn[ \
 		item_damage_on_attack: $(item_damage_on_attack), \
 		disable_blocking_for_seconds: $(disable_blocking_for_seconds), \
 	}, \
+	minecraft:swing_animation = { \
+		type: "$(swing_animation)", \
+		duration: $(swing_duration), \
+	}, \
 	minecraft:minimum_attack_charge = $(minimum_attack_charge), \
 	minecraft:instrument = { \
 		sound_event: { \

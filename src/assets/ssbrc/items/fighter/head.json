@@ -646,7 +646,7 @@
 							],
 							"fallback": {
 								"type": "minecraft:model",
-								"model": "ssbrc:fighter/giegue/skin/default"
+								"model": "ssbrc:fighter/greninja/skin/default"
 							}
 						}
 					},
@@ -3039,7 +3039,7 @@
 							],
 							"fallback": {
 								"type": "minecraft:model",
-								"model": "ssbrc:fighter/zelda/skin/default"
+								"model": "ssbrc:fighter/steve/skin/default"
 							}
 						}
 					},

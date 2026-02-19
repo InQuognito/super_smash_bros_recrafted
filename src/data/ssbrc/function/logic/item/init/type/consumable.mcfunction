@@ -5,6 +5,10 @@ $item replace entity @s $(slot) with minecraft:stick[ \
 		bold: true, \
 		italic: false, \
 	}, \
+	minecraft:swing_animation = { \
+		type: "none", \
+		duration: 0, \
+	}, \
 	minecraft:minimum_attack_charge = 1, \
 	minecraft:consumable = { \
 		consume_seconds: .05, \

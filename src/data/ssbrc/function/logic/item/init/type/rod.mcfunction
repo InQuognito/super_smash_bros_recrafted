@@ -5,6 +5,10 @@ $item replace entity @s $(slot) with minecraft:fishing_rod[ \
 		bold: true, \
 		italic: false, \
 	}, \
+	minecraft:swing_animation = { \
+		type: "none", \
+		duration: 0, \
+	}, \
 	minecraft:minimum_attack_charge = 1, \
 	minecraft:use_cooldown = { \
 		seconds: $(cooldown), \

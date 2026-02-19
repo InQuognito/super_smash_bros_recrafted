@@ -10,6 +10,10 @@ $item replace entity @s $(slot) with minecraft:stick[ \
 		item_damage_on_attack: $(item_damage_on_attack), \
 		disable_blocking_for_seconds: $(disable_blocking_for_seconds), \
 	}, \
+	minecraft:swing_animation = { \
+		type: "$(swing_animation)", \
+		duration: $(swing_duration), \
+	}, \
 	minecraft:kinetic_weapon = { \
 		delay_ticks: $(startup_ticks), \
 		contact_cooldown_ticks: $(cooldown_ticks), \

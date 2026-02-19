@@ -5,6 +5,10 @@ $item replace entity @s $(slot) with minecraft:shield[ \
 		bold: true, \
 		italic: false, \
 	}, \
+	minecraft:swing_animation = { \
+		type: "none", \
+		duration: 0, \
+	}, \
 	minecraft:blocks_attacks = { \
 		block_delay_seconds: $(block_delay_seconds), \
 		block_sound: "$(block_sound)", \
