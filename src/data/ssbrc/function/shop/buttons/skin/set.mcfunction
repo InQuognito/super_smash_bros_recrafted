@@ -1,6 +1,15 @@
 $data modify storage ssbrc:temp cache.ui.price set from storage ssbrc:data fighter.$(fighter).skins.$(skin).price
 
-$item replace entity @s enderchest.$(slot) with minecraft:saddle
+$item replace entity @s enderchest.$(slot) with minecraft:saddle[ \
+	minecraft:item_model = "ssbrc:fighter/head", \
+	minecraft:custom_model_data = { \
+		strings: [ \
+			"$(fighter)", \
+			"$(skin)", \
+			"default", \
+		], \
+	}, \
+]
 
 function ssbrc:shop/buttons/skin/set/price with storage ssbrc:temp cache.ui
 
