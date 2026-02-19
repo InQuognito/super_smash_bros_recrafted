@@ -3,22 +3,23 @@ from ssbrc.fighters import fighters
 from itertools import chain
 
 for fighter in fighters:
-	for skin in chain(['default'], fighters[fighter]['skins']):
-		if skin == 'default':
-			parent = 'fighter'
-		else:
-			parent = 'skin'
+	if fighter != 'terry':
+		for skin in chain(['default'], fighters[fighter]['skins']):
+			if skin == 'default':
+				parent = 'fighter'
+			else:
+				parent = 'skin'
 
-		if fighters[fighter]['default'] and skin == 'default':
-			trigger = 'tick'
-		else:
-			trigger = 'impossible'
+			if fighters[fighter]['default'] and skin == 'default':
+				trigger = 'tick'
+			else:
+				trigger = 'impossible'
 
-		advancement f'ssbrc:fighter/{fighter}/{skin}' {
-			"parent": f'ssbrc:{parent}',
-			"criteria": {
-				"default": {
-					"trigger": f'minecraft:{trigger}'
+			advancement f'ssbrc:fighter/{fighter}/{skin}' {
+				"parent": f'ssbrc:{parent}',
+				"criteria": {
+					"default": {
+						"trigger": f'minecraft:{trigger}'
+					}
 				}
 			}
-		}

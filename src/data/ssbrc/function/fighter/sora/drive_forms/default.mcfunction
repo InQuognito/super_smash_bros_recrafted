@@ -1,9 +1,9 @@
 function ssbrc:fighter/sora/drive_forms/reset
 
-function ssbrc:logic/item/init/slot {item: "keyblade", slot: "hotbar.0", class: "weapon", type: "hybrid"}
-item modify entity @s hotbar.0 {function: "minecraft:set_custom_data", tag: {hand: "primary"}}
+function ssbrc:logic/item/init/replace {search_key: "group", search_value: "keyblade", item: "keyblade", class: "weapon", type: "hybrid"}
+function ssbrc:logic/item/modify {search_key: "item", search_value: "keyblade", path: {function: "minecraft:set_custom_data", tag: {hand: "primary"}}}
 
-function ssbrc:fighter/sora/spell_switch/fire/find/get
+function ssbrc:fighter/sora/spell_switch/fire/set {slot: "hotbar.0"}
 
 function ssbrc:logic/player/data/set {data: {temp: {fighter: {form: "default"}}}}
 
