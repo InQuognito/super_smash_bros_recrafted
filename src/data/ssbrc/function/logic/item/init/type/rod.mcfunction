@@ -21,6 +21,7 @@ $item replace entity @s $(slot) with minecraft:fishing_rod[ \
 	}, \
 	minecraft:custom_data = { \
 		item: "$(item)", \
+		group: "$(group)", \
 	}, \
 ]
 

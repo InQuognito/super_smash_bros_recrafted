@@ -47,6 +47,7 @@ $item replace entity @s $(slot) with minecraft:bow[ \
 	}, \
 	minecraft:custom_data = { \
 		item: "$(item)", \
+		group: "$(group)", \
 		damage: $(attack_damage), \
 	}, \
 ]

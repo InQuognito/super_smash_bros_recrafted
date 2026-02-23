@@ -26,6 +26,7 @@ $item replace entity @s $(slot) with minecraft:shield[ \
 	}, \
 	minecraft:custom_data = { \
 		item: "$(item)", \
+		group: "$(group)", \
 	}, \
 ]
 

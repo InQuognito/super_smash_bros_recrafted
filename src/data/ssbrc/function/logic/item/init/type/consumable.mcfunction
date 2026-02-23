@@ -30,6 +30,7 @@ $item replace entity @s $(slot) with minecraft:stick[ \
 	}, \
 	minecraft:custom_data = { \
 		item: "$(item)", \
+		group: "$(group)", \
 	}, \
 ]
 

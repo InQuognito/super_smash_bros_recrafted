@@ -55,6 +55,7 @@ $item replace entity @s $(slot) with minecraft:goat_horn[ \
 	}, \
 	minecraft:custom_data = { \
 		item: "$(item)", \
+		group: "$(group)", \
 		damage: $(attack_damage), \
 	}, \
 ]
