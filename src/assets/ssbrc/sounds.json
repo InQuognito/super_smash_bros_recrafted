@@ -3147,6 +3147,15 @@
 			}
 		]
 	},
+	"victory_theme.series.kid_icarus": {
+		"sounds": [
+			{
+				"name": "ssbrc:victory_theme/series/kid_icarus",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
 	"victory_theme.series.kirby": {
 		"sounds": [
 			{

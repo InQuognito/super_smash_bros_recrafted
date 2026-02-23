@@ -32,6 +32,9 @@ execute if entity @s[tag=bang] run return run function ssbrc:fighter/hero/bang/t
 execute if entity @s[tag=frizz] run return run function ssbrc:fighter/hero/frizz/tick
 execute if entity @s[tag=frizzle] run return run function ssbrc:fighter/hero/frizzle/tick
 execute if entity @s[tag=kafrizz] run return run function ssbrc:fighter/hero/kafrizz/tick
+execute if entity @s[tag=kazap] run return run function ssbrc:fighter/hero/kazap/tick
+execute if entity @s[tag=zap] run return run function ssbrc:fighter/hero/zap/tick
+execute if entity @s[tag=zapple] run return run function ssbrc:fighter/hero/zapple/tick
 
 # Jigglypuff
 execute if entity @s[tag=hyper_voice] run return run function ssbrc:fighter/jigglypuff/hyper_voice/tick

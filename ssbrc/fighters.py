@@ -3471,6 +3471,18 @@ fighters = {
 					'color': 'light_purple'
 				}
 			},
+			'twhack': {
+				'type': 'ability',
+				'group': 'hero.spell',
+				'stats': {
+					'cooldown_group': 'hero/spell',
+					'cooldown': 1.5
+				},
+				'default': {
+					'name': 'ssbrc.fighter.hero.twhack',
+					'color': 'dark_purple'
+				}
+			},
 			'whack': {
 				'type': 'ability',
 				'group': 'hero.spell',
@@ -3483,7 +3495,7 @@ fighters = {
 					'color': 'dark_purple'
 				}
 			},
-			'whoosh': {
+			'woosh': {
 				'type': 'ability',
 				'group': 'hero.spell',
 				'stats': {
@@ -3491,7 +3503,7 @@ fighters = {
 					'cooldown': 1.5
 				},
 				'default': {
-					'name': 'ssbrc.fighter.hero.whoosh',
+					'name': 'ssbrc.fighter.hero.woosh',
 					'color': 'green'
 				}
 			},

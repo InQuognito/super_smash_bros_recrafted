@@ -5,7 +5,7 @@ execute if score @s charge.1 matches 4 run function ssbrc:fighter/dark_samus/pha
 
 scoreboard players operation check_damage temp = @s charge.1
 
-execute unless block ~ ~ ~ #ssbrc:passthrough run kill @s
+execute unless block ~ ~ ~ #ssbrc:passthrough run return run kill @s
 
 execute positioned ~-.2 ~-.2 ~-.2 as @e[tag=!self,predicate=ssbrc:target,dx=0] positioned ~-.6 ~-.6 ~-.6 if entity @s[dx=0] run function ssbrc:fighter/dark_samus/phazon_beam/hit
 execute if score #entity_hit temp matches 1 run return run kill @s
