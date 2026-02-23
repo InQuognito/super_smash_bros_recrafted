@@ -1,4 +1,4 @@
-function ssbrc:logic/item/give/default {item: "high_frequency_blade", class: "weapon", type: "hybrid"}
+function ssbrc:logic/item/give/default {item: "high_frequency_blade", class: "weapon", type: "hybrid_shield"}
 
 execute if entity @s[tag=aks_74u] run function ssbrc:logic/item/give/default {item: "aks_74u", class: "default", type: "default"}
 
@@ -7,8 +7,6 @@ execute if entity @s[tag=throwing_knives] run function ssbrc:logic/item/give/def
 execute if entity @s[tag=c4] run function ssbrc:logic/item/give/default {item: "c4", class: "default", type: "default"}
 
 execute if entity @s[tag=smoke_grenade] run function ssbrc:logic/item/give/default {item: "smoke_grenade", class: "default", type: "default"}
-
-loot replace entity @s hotbar.8 loot ssbrc:fighter/snake/status/undetected
 
 scoreboard players set @s[tag=m870_custom] weapon_1.mags 4
 scoreboard players set @s[tag=m870_custom] weapon_1.ammo 4

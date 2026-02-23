@@ -478,8 +478,8 @@ fighters = {
 				'stats': {
 					'max_damage': 30,
 					'block_delay_seconds': 0.0,
-					"block_sound": "minecraft:item.shield.block",
-					"disabled_sound": "minecraft:item.shield.break"
+					'block_sound': 'minecraft:item.shield.block',
+					'disabled_sound': 'minecraft:item.shield.break'
 				},
 				'default': {
 					'name': 'ssbrc.fighter.link.hylian_shield',
@@ -582,8 +582,8 @@ fighters = {
 				'stats': {
 					'max_damage': 30,
 					'block_delay_seconds': 0.0,
-					"block_sound": "minecraft:item.shield.block",
-					"disabled_sound": "minecraft:item.shield.break"
+					'block_sound': 'minecraft:item.shield.block',
+					'disabled_sound': 'minecraft:item.shield.break'
 				},
 				'default': {
 					'name': 'ssbrc.fighter.toon_link.heros_shield',
@@ -2265,8 +2265,8 @@ fighters = {
 				'stats': {
 					'max_damage': 20,
 					'block_delay_seconds': 0.0,
-					"block_sound": "minecraft:item.shield.block",
-					"disabled_sound": "minecraft:item.shield.break"
+					'block_sound': 'minecraft:item.shield.block',
+					'disabled_sound': 'minecraft:item.shield.break'
 				},
 				'default': {
 					'name': 'ssbrc.fighter.byleth.steel_shield',
@@ -2521,10 +2521,13 @@ fighters = {
 				}
 			},
 			'high_frequency_blade': {
-				'type': 'weapon',
+				'type': 'hybrid_shield',
 				'stats': {
 					'attack_damage': 6,
-					'attack_speed': 2.5
+					'attack_speed': 2.5,
+					'block_delay_seconds': 0.0,
+					'block_sound': 'minecraft:item.shield.block',
+					'disabled_sound': 'minecraft:item.shield.break'
 				},
 				'default': {
 					'name': 'ssbrc.fighter.raiden.high_frequency_blade',
@@ -3052,8 +3055,8 @@ fighters = {
 				'stats': {
 					'max_damage': 20,
 					'block_delay_seconds': 0.0,
-					"block_sound": "minecraft:item.shield.block",
-					"disabled_sound": "minecraft:item.shield.break"
+					'block_sound': 'minecraft:item.shield.block',
+					'disabled_sound': 'minecraft:item.shield.break'
 				},
 				'default': {
 					'name': 'ssbrc.fighter.alucard.alucard_shield',
@@ -3243,8 +3246,8 @@ fighters = {
 				'stats': {
 					'max_damage': 30,
 					'block_delay_seconds': 0.0,
-					"block_sound": "minecraft:item.shield.block",
-					"disabled_sound": "minecraft:item.shield.break"
+					'block_sound': 'minecraft:item.shield.block',
+					'disabled_sound': 'minecraft:item.shield.break'
 				},
 				'default': {
 					'name': 'ssbrc.fighter.hero.shield.default',
@@ -3792,8 +3795,8 @@ fighters = {
 				'stats': {
 					'max_damage': 10,
 					'block_delay_seconds': 0.0,
-					"block_sound": "minecraft:item.shield.block",
-					"disabled_sound": "minecraft:item.shield.break"
+					'block_sound': 'minecraft:item.shield.block',
+					'disabled_sound': 'minecraft:item.shield.break'
 				},
 				'default': {
 					'name': 'item.minecraft.shield',
