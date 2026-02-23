@@ -5,6 +5,7 @@ function ssbrc:fighter/ice_climbers/snowstorm/offset {axis:"y"}
 
 function ssbrc:fighter/ice_climbers/snowstorm/summon with storage ssbrc:temp cache.rotation
 
-playsound ssbrc:fighter.zelda.ice_rod.activate player @a
+scoreboard players remove @s resource 10
+scoreboard players remove @s cooldown.1 60
 
 function ssbrc:logic/fighter/ability/deinit

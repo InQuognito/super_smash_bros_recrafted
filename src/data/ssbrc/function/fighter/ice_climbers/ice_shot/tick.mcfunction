@@ -9,5 +9,5 @@ execute unless block ~.5 ~ ~ #ssbrc:passthrough run function ssbrc:logic/fighter
 execute unless block ~ ~ ~-.5 #ssbrc:passthrough run function ssbrc:logic/fighter/projectile/bounce/forward
 execute unless block ~ ~ ~.5 #ssbrc:passthrough run function ssbrc:logic/fighter/projectile/bounce/forward
 
-execute at @s if block ~ ~-.2 ~ #ssbrc:passthrough run teleport @s ~ ~-.2 ~
+execute at @s if block ~ ~-.3 ~ #ssbrc:passthrough run teleport @s ~ ~-.3 ~
 execute at @s run teleport @s ^ ^ ^.5
