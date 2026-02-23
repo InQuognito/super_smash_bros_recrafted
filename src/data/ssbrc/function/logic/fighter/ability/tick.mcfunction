@@ -41,6 +41,11 @@ execute if entity @s[tag=swoosh] run return run function ssbrc:fighter/hero/swoo
 execute if entity @s[tag=zap] run return run function ssbrc:fighter/hero/zap/tick
 execute if entity @s[tag=zapple] run return run function ssbrc:fighter/hero/zapple/tick
 
+# Ice Climbers
+execute if entity @s[tag=ice_shot] run return run function ssbrc:fighter/ice_climbers/ice_shot/tick
+execute if entity @s[tag=snowstorm] run return run function ssbrc:fighter/ice_climbers/snowstorm/tick
+execute if entity @s[tag=windstorm] run return run function ssbrc:fighter/ice_climbers/windstorm/tick
+
 # Jigglypuff
 execute if entity @s[tag=hyper_voice] run return run function ssbrc:fighter/jigglypuff/hyper_voice/tick
 
