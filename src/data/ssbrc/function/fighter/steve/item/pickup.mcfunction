@@ -1,6 +1,5 @@
 function ssbrc:fighter/steve/item/pickup/get
 
-execute if items entity @s container.* minecraft:lapis_lazuli[minecraft:custom_data~{"item_type":"tier"}] run function ssbrc:fighter/steve/item/pickup/tier
 clear @s minecraft:lapis_lazuli
 
 function ssbrc:fighter/steve/item/get

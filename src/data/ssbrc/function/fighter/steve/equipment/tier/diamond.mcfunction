@@ -1,6 +1,9 @@
 scoreboard players set @s steve.tier 4
 
-loot give @s loot ssbrc:fighter/steve/sword/diamond
-loot give @s loot ssbrc:fighter/steve/pickaxe/diamond
+function ssbrc:logic/item/give/default {item: "diamond_sword", class: "weapon", type: "default"}
+function ssbrc:logic/item/give/default {item: "diamond_pickaxe", class: "default", type: "default"}
 
-tellraw @s[tag=get_diamond] {translate: "ssbrc.fighter.steve.craft_diamond", color: "green"}
+title @s[tag=get_diamond] actionbar { \
+	translate: "ssbrc.fighter.steve.craft_diamond", \
+	color: "green", \
+}

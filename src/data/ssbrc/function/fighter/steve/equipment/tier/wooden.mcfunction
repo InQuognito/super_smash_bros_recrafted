@@ -1,4 +1,4 @@
 scoreboard players set @s steve.tier 0
 
-loot replace entity @s hotbar.0 loot ssbrc:fighter/steve/sword/wooden
-loot replace entity @s hotbar.1 loot ssbrc:fighter/steve/pickaxe/wooden
+function ssbrc:logic/item/give/default {item: "wooden_sword", class: "weapon", type: "default"}
+function ssbrc:logic/item/give/default {item: "wooden_pickaxe", class: "default", type: "default"}

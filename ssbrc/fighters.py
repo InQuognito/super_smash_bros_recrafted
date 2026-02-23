@@ -594,12 +594,6 @@ fighters = {
 				},
 				'dark_tunic': {
 					'color': 'red'
-				},
-				'goron_tunic': {
-					'model': 'default'
-				},
-				'zora_tunic': {
-					'model': 'default'
 				}
 			},
 			'master_sword': {
@@ -2280,9 +2274,6 @@ fighters = {
 				},
 				'gold': {
 					'color': 'gold'
-				},
-				'awakened': {
-					'model': 'default'
 				}
 			},
 			'steel_sword': {
@@ -3070,9 +3061,6 @@ fighters = {
 				},
 				'gold': {
 					'color': 'gold'
-				},
-				'lords_of_shadow': {
-					'model': 'default'
 				}
 			},
 			'alucard_sword': {
@@ -3266,19 +3254,16 @@ fighters = {
 					'color': 'gold'
 				},
 				'erdrick': {
-					'name': 'ssbrc.fighter.hero.shield.erdrick',
-					'model': 'default'
+					'name': 'ssbrc.fighter.hero.shield.erdrick'
 				},
 				'rek': {
 					'name': 'ssbrc.fighter.hero.shield.rek'
 				},
 				'solo': {
-					'name': 'ssbrc.fighter.hero.shield.rek',
-					'model': 'rek'
+					'inherit': 'rek'
 				},
 				'sofia': {
-					'name': 'ssbrc.fighter.hero.shield.rek',
-					'model': 'rek'
+					'inherit': 'rek'
 				}
 			},
 			'accelerate': {
@@ -3658,6 +3643,150 @@ fighters = {
 			'default'
 		],
 		'items': {
+			'wooden_sword': {
+				'type': 'weapon',
+				'group': 'steve_equipment',
+				'stats': {
+					'attack_damage': 5.5,
+					'attack_speed': 1.5
+				},
+				'default': {
+					'name': 'item.minecraft.wooden_sword',
+					'color': 'dark_gray'
+				}
+			},
+			'wooden_pickaxe': {
+				'type': 'ability',
+				'group': 'steve_equipment',
+				'stats': {
+					'cooldown_group': 'steve/pickaxe',
+					'cooldown': 0
+				},
+				'default': {
+					'name': 'item.minecraft.wooden_pickaxe',
+					'color': 'dark_gray'
+				}
+			},
+			'stone_sword': {
+				'type': 'weapon',
+				'group': 'steve_equipment',
+				'stats': {
+					'attack_damage': 6,
+					'attack_speed': 1.5
+				},
+				'default': {
+					'name': 'item.minecraft.stone_sword',
+					'color': 'gray'
+				}
+			},
+			'stone_pickaxe': {
+				'type': 'ability',
+				'group': 'steve_equipment',
+				'stats': {
+					'cooldown_group': 'steve/pickaxe',
+					'cooldown': 0
+				},
+				'default': {
+					'name': 'item.minecraft.stone_pickaxe',
+					'color': 'gray'
+				}
+			},
+			'golden_sword': {
+				'type': 'weapon',
+				'group': 'steve_equipment',
+				'stats': {
+					'attack_damage': 6,
+					'attack_speed': 2
+				},
+				'default': {
+					'name': 'item.minecraft.golden_sword',
+					'color': 'gold'
+				}
+			},
+			'golden_pickaxe': {
+				'type': 'ability',
+				'group': 'steve_equipment',
+				'stats': {
+					'cooldown_group': 'steve/pickaxe',
+					'cooldown': 0
+				},
+				'default': {
+					'name': 'item.minecraft.golden_pickaxe',
+					'color': 'gold'
+				}
+			},
+			'iron_sword': {
+				'type': 'weapon',
+				'group': 'steve_equipment',
+				'stats': {
+					'attack_damage': 6.5,
+					'attack_speed': 1.5
+				},
+				'default': {
+					'name': 'item.minecraft.iron_sword',
+					'color': 'white'
+				}
+			},
+			'iron_pickaxe': {
+				'type': 'ability',
+				'group': 'steve_equipment',
+				'stats': {
+					'cooldown_group': 'steve/pickaxe',
+					'cooldown': 0
+				},
+				'default': {
+					'name': 'item.minecraft.iron_pickaxe',
+					'color': 'white'
+				}
+			},
+			'diamond_sword': {
+				'type': 'weapon',
+				'group': 'steve_equipment',
+				'stats': {
+					'attack_damage': 7,
+					'attack_speed': 1.5
+				},
+				'default': {
+					'name': 'item.minecraft.diamond_sword',
+					'color': 'aqua'
+				}
+			},
+			'diamond_pickaxe': {
+				'type': 'ability',
+				'group': 'steve_equipment',
+				'stats': {
+					'cooldown_group': 'steve/pickaxe',
+					'cooldown': 0
+				},
+				'default': {
+					'name': 'item.minecraft.diamond_pickaxe',
+					'color': 'aqua'
+				}
+			},
+			'netherite_axe': {
+				'type': 'weapon',
+				'group': 'steve_equipment',
+				'stats': {
+					'attack_damage': 7.5,
+					'attack_speed': 0.75
+				},
+				'default': {
+					'name': 'item.minecraft.netherite_axe',
+					'color': 'dark_red'
+				}
+			},
+			'netherite_pickaxe': {
+				'type': 'ability',
+				'group': 'steve_equipment',
+				'stats': {
+					'cooldown_group': 'steve/pickaxe',
+					'cooldown': 0
+				},
+				'default': {
+					'name': 'item.minecraft.netherite_pickaxe',
+					'color': 'dark_red'
+				}
+			},
 			'shield': {
 				'type': 'shield',
 				'stats': {
@@ -3669,15 +3798,6 @@ fighters = {
 				'default': {
 					'name': 'item.minecraft.shield',
 					'color': 'white'
-				},
-				'gold': {
-					'model': 'default'
-				},
-				'alex': {
-					'model': 'default'
-				},
-				'herobrine': {
-					'model': 'default'
 				}
 			}
 		}
@@ -3823,6 +3943,11 @@ fighters = {
 		],
 		'items': {
 			'shovel_blade': {
+				'type': 'weapon',
+				'stats': {
+					'attack_damage': 6,
+					'attack_speed': 1.5
+				},
 				'default': {
 					'name': 'ssbrc.fighter.shovel_knight.shovel_blade',
 					'color': 'dark_aqua'

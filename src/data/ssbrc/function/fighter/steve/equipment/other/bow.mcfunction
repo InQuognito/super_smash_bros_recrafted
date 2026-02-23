@@ -1,5 +1,10 @@
-clear @s *[minecraft:custom_data~{item: "crossbow"}]
+clear @s minecraft:crossbow
 
-loot give @s loot ssbrc:fighter/steve/bow
+give @s minecraft:bow[ \
+	minecraft:unbreakable = {}, \
+]
 
-tellraw @s {translate: "ssbrc.fighter.steve.craft_bow", color: "green"}
+title @s actionbar { \
+	translate: "ssbrc.fighter.steve.craft_bow", \
+	color: "green", \
+}

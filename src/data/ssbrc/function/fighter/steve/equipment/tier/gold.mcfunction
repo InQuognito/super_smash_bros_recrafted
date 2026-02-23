@@ -1,6 +1,9 @@
 scoreboard players set @s steve.tier 2
 
-loot give @s loot ssbrc:fighter/steve/sword/golden
-loot give @s loot ssbrc:fighter/steve/pickaxe/golden
+function ssbrc:logic/item/give/default {item: "gold_sword", class: "weapon", type: "default"}
+function ssbrc:logic/item/give/default {item: "gold_pickaxe", class: "default", type: "default"}
 
-tellraw @s[tag=get_gold] {translate: "ssbrc.fighter.steve.craft_gold", color: "green"}
+title @s[tag=get_gold] actionbar { \
+	translate: "ssbrc.fighter.steve.craft_gold", \
+	color: "green", \
+}
