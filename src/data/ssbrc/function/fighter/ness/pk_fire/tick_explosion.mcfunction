@@ -10,7 +10,7 @@ execute if score @s temp matches 38.. run particle minecraft:large_smoke ~ ~.25 
 
 execute positioned ~ ~-.1 ~ if block ~ ~ ~ #ssbrc:passthrough run teleport @s ~ ~ ~
 
-execute as @e[predicate=ssbrc:target,tag=!self,distance=..1.5] run function ssbrc:logic/damage/fire {amount: 4, burning: 10, type: "pierce",kb_resist:.9, source: " by @a[tag=self,limit=1]"}
+execute as @e[predicate=ssbrc:target,tag=!self,distance=..1.5] run function ssbrc:logic/damage/fire {amount: 4, burning: 10, type: "pierce", kb_resist: .9, source: " by @a[tag=self,limit=1]"}
 
 scoreboard players add @s temp 1
 kill @s[scores={temp=40..}]
