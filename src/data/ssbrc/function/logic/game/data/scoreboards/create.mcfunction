@@ -43,12 +43,14 @@ scoreboard objectives add frostbite dummy
 scoreboard objectives add frostbite.cooldown dummy
 scoreboard objectives add frostbite.timer dummy
 scoreboard objectives add fuse dummy
+scoreboard objectives add gigantic dummy
 scoreboard objectives add health dummy
 scoreboard objectives add health_timer dummy
 scoreboard objectives add hud dummy
 scoreboard objectives add id dummy
 scoreboard objectives add immobile dummy
 scoreboard objectives add influence dummy
+scoreboard objectives add invincible dummy
 scoreboard objectives add item_count dummy
 scoreboard objectives add jump dummy
 scoreboard objectives add jump.cooldown dummy
@@ -108,7 +110,9 @@ scoreboard objectives add selected_item.prev dummy
 scoreboard objectives add shadow.chaos_control dummy
 scoreboard objectives add shadow.meter.hero dummy
 scoreboard objectives add shadow.meter.dark dummy
+scoreboard objectives add shrink dummy
 scoreboard objectives add silenced dummy
+scoreboard objectives add sleep dummy
 scoreboard objectives add slope dummy
 scoreboard objectives add smash_item.franklin_badge.counter dummy
 scoreboard objectives add smash_item.franklin_badge.timer dummy

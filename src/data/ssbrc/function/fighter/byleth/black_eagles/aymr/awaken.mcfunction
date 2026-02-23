@@ -12,8 +12,8 @@ item modify entity @s weapon.mainhand [ \
 	{ \
 		function: "minecraft:set_custom_data", \
 		tag: { \
-			"awakened": "true", \
-			"chargable": "false", \
+			awakened: "true", \
+			chargable: "false", \
 		}, \
 	}, \
 ]

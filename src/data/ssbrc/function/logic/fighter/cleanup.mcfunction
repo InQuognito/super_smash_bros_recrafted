@@ -5,17 +5,12 @@ function ssbrc:logic/game/data/scoreboards/duration
 
 scoreboard players set @s flag.sprinting 0
 
-# Clear effects
+function ssbrc:logic/fighter/effects/cleanse
+
 tag @s remove cross_slash.target
 function ssbrc:fighter/pokemon_trainer/ivysaur/leech_seed/reset
 
-scoreboard players set @s burning 0
 scoreboard players reset @s fiends_cauldron
-scoreboard players set @s frostbite 0
-scoreboard players reset @s frostbite.timer
-scoreboard players set @s silenced 0
-
-function ssbrc:logic/fighter/effects/immobile/deactivate
 
 scoreboard players reset @s tornado
 

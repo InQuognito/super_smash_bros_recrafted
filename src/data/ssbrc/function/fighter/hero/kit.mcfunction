@@ -6,5 +6,4 @@ function ssbrc:logic/item/init/slot {item: "shield", slot: "weapon.offhand", cla
 
 function ssbrc:fighter/hero/spell/refresh
 
-scoreboard players operation @s magic = #hero.magic const
-function ssbrc:fighter/hero/magic/update
+function ssbrc:fighter/hero/magic/max

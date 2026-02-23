@@ -21,8 +21,7 @@ attribute @s minecraft:movement_speed base set 0.15
 attribute @s minecraft:safe_fall_distance base set 999.0
 attribute @s minecraft:safe_fall_distance modifier remove ssbrc:launched
 
-function ssbrc:logic/fighter/attributes/modifiers/frostbite/remove
-function ssbrc:logic/fighter/effects/immobile/deactivate
+function ssbrc:logic/fighter/effects/cleanse
 
 # Alucard
 function ssbrc:fighter/alucard/mist/reset

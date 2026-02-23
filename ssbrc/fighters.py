@@ -3201,6 +3201,29 @@ fighters = {
 			'kaclang'
 		],
 		'items': {
+			'sword': {
+				'type': 'weapon',
+				'stats': {
+					'attack_damage': 4,
+					'attack_speed': 1.5
+				},
+				'default': {
+					'name': 'ssbrc.fighter.hero.sword.default',
+					'color': 'yellow'
+				},
+				'gold': {
+					'color': 'gold'
+				},
+				'rek': {
+					'name': 'ssbrc.fighter.hero.sword.rek'
+				},
+				'solo': {
+					'name': 'ssbrc.fighter.hero.sword.solo'
+				},
+				'sofia': {
+					'name': 'ssbrc.fighter.hero.sword.solo'
+				}
+			},
 			'shield': {
 				'type': 'shield',
 				'stats': {
@@ -3232,27 +3255,257 @@ fighters = {
 					'model': 'rek'
 				}
 			},
-			'sword': {
-				'type': 'weapon',
+			'accelerate': {
+				'type': 'ability',
 				'stats': {
-					'attack_damage': 4,
-					'attack_speed': 1.5
+					'cooldown_group': 'hero/spell',
+					'cooldown': 1.5
 				},
 				'default': {
-					'name': 'ssbrc.fighter.hero.sword.default',
-					'color': 'yellow'
+					'name': 'ssbrc.fighter.hero.accelerate',
+					'color': 'green'
+				}
+			},
+			'acceleratle': {
+				'type': 'ability',
+				'stats': {
+					'cooldown_group': 'hero/spell',
+					'cooldown': 1.5
 				},
-				'gold': {
+				'default': {
+					'name': 'ssbrc.fighter.hero.acceleratle',
+					'color': 'green'
+				}
+			},
+			'bang': {
+				'type': 'ability',
+				'stats': {
+					'cooldown_group': 'hero/spell',
+					'cooldown': 1.5
+				},
+				'default': {
+					'name': 'ssbrc.fighter.hero.bang',
 					'color': 'gold'
+				}
+			},
+			'flame_slash': {
+				'type': 'ability',
+				'stats': {
+					'cooldown_group': 'hero/spell',
+					'cooldown': 1.5
 				},
-				'rek': {
-					'name': 'ssbrc.fighter.hero.sword.rek'
+				'default': {
+					'name': 'ssbrc.fighter.hero.flame_slash',
+					'color': 'red'
+				}
+			},
+			'frizz': {
+				'type': 'ability',
+				'stats': {
+					'cooldown_group': 'hero/spell',
+					'cooldown': 1.5
 				},
-				'solo': {
-					'name': 'ssbrc.fighter.hero.sword.solo'
+				'default': {
+					'name': 'ssbrc.fighter.hero.frizz',
+					'color': 'red'
+				}
+			},
+			'frizzle': {
+				'type': 'ability',
+				'stats': {
+					'cooldown_group': 'hero/spell',
+					'cooldown': 1.5
 				},
-				'sofia': {
-					'name': 'ssbrc.fighter.hero.sword.solo'
+				'default': {
+					'name': 'ssbrc.fighter.hero.frizzle',
+					'color': 'red'
+				}
+			},
+			'heal': {
+				'type': 'ability',
+				'stats': {
+					'cooldown_group': 'hero/spell',
+					'cooldown': 1.5
+				},
+				'default': {
+					'name': 'ssbrc.fighter.hero.heal',
+					'color': 'green'
+				}
+			},
+			'hocus_pocus': {
+				'type': 'ability',
+				'stats': {
+					'cooldown_group': 'hero/spell',
+					'cooldown': 1.5
+				},
+				'default': {
+					'name': 'ssbrc.fighter.hero.hocus_pocus',
+					'color': 'light_purple'
+				}
+			},
+			'kaclang': {
+				'type': 'ability',
+				'stats': {
+					'cooldown_group': 'hero/spell',
+					'cooldown': 1.5
+				},
+				'default': {
+					'name': 'ssbrc.fighter.hero.kaclang',
+					'color': 'gray'
+				}
+			},
+			'kacrackle_slash': {
+				'type': 'ability',
+				'stats': {
+					'cooldown_group': 'hero/spell',
+					'cooldown': 1.5
+				},
+				'default': {
+					'name': 'ssbrc.fighter.hero.kacrackle_slash',
+					'color': 'aqua'
+				}
+			},
+			'kafrizz': {
+				'type': 'ability',
+				'stats': {
+					'cooldown_group': 'hero/spell',
+					'cooldown': 1.5
+				},
+				'default': {
+					'name': 'ssbrc.fighter.hero.kafrizz',
+					'color': 'red'
+				}
+			},
+			'kamikazee': {
+				'type': 'ability',
+				'stats': {
+					'cooldown_group': 'hero/spell',
+					'cooldown': 1.5
+				},
+				'default': {
+					'name': 'ssbrc.fighter.hero.kamikazee',
+					'color': 'gold'
+				}
+			},
+			'kazap': {
+				'type': 'ability',
+				'stats': {
+					'cooldown_group': 'hero/spell',
+					'cooldown': 1.5
+				},
+				'default': {
+					'name': 'ssbrc.fighter.hero.kazap',
+					'color': 'yellow'
+				}
+			},
+			'magic_burst': {
+				'type': 'ability',
+				'stats': {
+					'cooldown_group': 'hero/spell',
+					'cooldown': 1.5
+				},
+				'default': {
+					'name': 'ssbrc.fighter.hero.magic_burst',
+					'color': 'light_purple'
+				}
+			},
+			'metal_slash': {
+				'type': 'ability',
+				'stats': {
+					'cooldown_group': 'hero/spell',
+					'cooldown': 1.5
+				},
+				'default': {
+					'name': 'ssbrc.fighter.hero.metal_slash',
+					'color': 'gray'
+				}
+			},
+			'multiheal': {
+				'type': 'ability',
+				'stats': {
+					'cooldown_group': 'hero/spell',
+					'cooldown': 1.5
+				},
+				'default': {
+					'name': 'ssbrc.fighter.hero.multiheal',
+					'color': 'green'
+				}
+			},
+			'oomph': {
+				'type': 'ability',
+				'stats': {
+					'cooldown_group': 'hero/spell',
+					'cooldown': 1.5
+				},
+				'default': {
+					'name': 'ssbrc.fighter.hero.oomph',
+					'color': 'red'
+				}
+			},
+			'snooze': {
+				'type': 'ability',
+				'stats': {
+					'cooldown_group': 'hero/spell',
+					'cooldown': 1.5
+				},
+				'default': {
+					'name': 'ssbrc.fighter.hero.snooze',
+					'color': 'light_purple'
+				}
+			},
+			'whack': {
+				'type': 'ability',
+				'stats': {
+					'cooldown_group': 'hero/spell',
+					'cooldown': 1.5
+				},
+				'default': {
+					'name': 'ssbrc.fighter.hero.whack',
+					'color': 'dark_purple'
+				}
+			},
+			'whoosh': {
+				'type': 'ability',
+				'stats': {
+					'cooldown_group': 'hero/spell',
+					'cooldown': 1.5
+				},
+				'default': {
+					'name': 'ssbrc.fighter.hero.whoosh',
+					'color': 'green'
+				}
+			},
+			'zap': {
+				'type': 'ability',
+				'stats': {
+					'cooldown_group': 'hero/spell',
+					'cooldown': 1.5
+				},
+				'default': {
+					'name': 'ssbrc.fighter.hero.zap',
+					'color': 'yellow'
+				}
+			},
+			'zapple': {
+				'type': 'ability',
+				'stats': {
+					'cooldown_group': 'hero/spell',
+					'cooldown': 1.5
+				},
+				'default': {
+					'name': 'ssbrc.fighter.hero.zapple',
+					'color': 'yellow'
+				}
+			},
+			'zoom': {
+				'type': 'ability',
+				'stats': {
+					'cooldown_group': 'hero/spell',
+					'cooldown': 1.5
+				},
+				'default': {
+					'name': 'ssbrc.fighter.hero.zoom',
+					'color': 'blue'
 				}
 			}
 		}

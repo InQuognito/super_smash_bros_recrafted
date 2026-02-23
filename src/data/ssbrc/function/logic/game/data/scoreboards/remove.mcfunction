@@ -43,12 +43,14 @@ scoreboard objectives remove frostbite
 scoreboard objectives remove frostbite.cooldown
 scoreboard objectives remove frostbite.timer
 scoreboard objectives remove fuse
+scoreboard objectives remove gigantic
 scoreboard objectives remove health
 scoreboard objectives remove health_timer
 scoreboard objectives remove hud
 scoreboard objectives remove id
 scoreboard objectives remove immobile
 #scoreboard objectives remove influence
+scoreboard objectives remove invincible
 scoreboard objectives remove item_count
 scoreboard objectives remove jump
 scoreboard objectives remove jump.cooldown
@@ -104,7 +106,9 @@ scoreboard objectives remove selected_item.prev
 scoreboard objectives remove shadow.chaos_control
 scoreboard objectives remove shadow.meter.hero
 scoreboard objectives remove shadow.meter.dark
+scoreboard objectives remove shrink
 scoreboard objectives remove silenced
+scoreboard objectives remove sleep
 scoreboard objectives remove slope
 scoreboard objectives remove smash_item.franklin_badge.counter
 scoreboard objectives remove smash_item.franklin_badge.timer

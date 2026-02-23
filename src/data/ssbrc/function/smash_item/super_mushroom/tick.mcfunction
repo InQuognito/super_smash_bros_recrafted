@@ -11,5 +11,3 @@ execute if score @s smash_item.super_mushroom.timer matches 7 run function ssbrc
 execute if score @s smash_item.super_mushroom.timer matches 4 run function ssbrc:smash_item/super_mushroom/adjust {value: .1}
 
 scoreboard players remove @s smash_item.super_mushroom.timer 1
-
-execute if score @s smash_item.super_mushroom.timer matches 1 run function ssbrc:smash_item/super_mushroom/deactivate
