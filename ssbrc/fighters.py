@@ -4455,6 +4455,9 @@ def fighter_storage():
 						case 'hybrid':
 							extend_weapon(item_stats, stat_path)
 							extend_ability(item_stats, stat_path)
+						case 'hybrid_shield':
+							extend_weapon(item_stats, stat_path)
+							extend_shield(item_stats, stat_path)
 						case 'custom_hybrid':
 							extend_weapon(item_stats, stat_path)
 							extend_custom_swing(item_stats, stat_path)
