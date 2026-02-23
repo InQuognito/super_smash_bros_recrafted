@@ -1085,7 +1085,13 @@
 											"when": "gold",
 											"model": {
 												"type": "minecraft:model",
-												"model": "ssbrc:fighter/kirby/skin/default"
+												"model": "ssbrc:fighter/kirby/skin/default",
+												"tints": [
+													{
+														"type": "minecraft:constant",
+														"value": 15507992
+													}
+												]
 											}
 										},
 										{
