@@ -23,6 +23,9 @@ execute if entity @s[tag=krazoan_fireball] run return run function ssbrc:fighter
 execute if entity @s[tag=fox_blaster] run return run function ssbrc:fighter/fox/fox_blaster/tick
 execute if entity @s[tag=fire_fox] run return run function ssbrc:fighter/fox/fire_fox/tick
 
+# Gooey
+execute if entity @s[tag=love_love_stick] run return run function ssbrc:fighter/gooey/love_love_stick/tick
+
 # Greninja
 execute if entity @s[tag=water_shuriken] run return run function ssbrc:fighter/greninja/water_shuriken/tick
 execute if entity @s[tag=shadow_sneak] run return run function ssbrc:fighter/greninja/shadow_sneak/tick

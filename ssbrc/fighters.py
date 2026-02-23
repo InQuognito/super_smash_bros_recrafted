@@ -1074,7 +1074,22 @@ fighters = {
 		},
 		'forms': [
 			'default'
-		]
+		],
+		'items': {
+			'love_love_stick': {
+				'type': 'hybrid',
+				'stats': {
+					'attack_damage': 4,
+					'attack_speed': 1,
+					'cooldown_group': 'gooey/love_love_stick',
+					'cooldown': 0.75
+				},
+				'default': {
+					'name': 'ssbrc.fighter.gooey.love_love_stick',
+					'color': 'yellow'
+				}
+			}
+		}
 	},
 	'fox': {
 		'series': 'star_fox',
