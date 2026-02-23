@@ -1,4 +1,4 @@
-$function math:percentage {output: "$(fighter).win_loss temp", val: "$(fighter) log.wins", div: "$(fighter) log.games_played"}
+$function math:percentage {output: "#$(fighter).win_loss temp", val: "#$(fighter) log.wins", div: "#$(fighter) log.games_played"}
 
 $tellraw @s [ \
 	{ \
@@ -7,7 +7,7 @@ $tellraw @s [ \
 	" - ", \
 	{ \
 		score: { \
-			name: "$(fighter)", \
+			name: "#$(fighter)", \
 			objective: "log.games_played", \
 		}, \
 		color: "yellow", \
@@ -15,7 +15,7 @@ $tellraw @s [ \
 	" | ", \
 	{ \
 		score: { \
-			name: "$(fighter)", \
+			name: "#$(fighter)", \
 			objective: "log.wins", \
 		}, \
 		color: "aqua", \
@@ -23,7 +23,7 @@ $tellraw @s [ \
 	" | ", \
 	{ \
 		score: { \
-			name: "$(fighter).win_loss", \
+			name: "#$(fighter).win_loss", \
 			objective: "temp", \
 		}, \
 		color: "light_purple", \

@@ -1,4 +1,4 @@
-function math:percentage {output: "#percentage temp", val: "@s resource", div: "cloud.limit.max const"}
+function math:percentage {output: "#percentage temp", val: "@s resource", div: "#cloud.limit.max const"}
 
 execute if score @s resource = #cloud.limit const run playsound ssbrc:fighter.cloud.limit.ready player @a
 execute if score @s resource > #cloud.limit const run scoreboard players operation @s resource = #cloud.limit const

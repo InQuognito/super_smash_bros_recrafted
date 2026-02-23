@@ -1,4 +1,4 @@
-summon minecraft:item_display ~.5 ~3.5 ~.5 { \
+summon minecraft:item_display 0 2.5 0 { \
 	Tags: [ \
 		"static_object", \
 		"statue", \

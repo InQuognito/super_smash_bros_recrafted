@@ -1,4 +1,4 @@
-function math:percentage {output: "#percentage temp", val: "@s duration.1", div: "400 const"}
+function math:percentage {output: "#percentage temp", val: "@s duration.1", div: "#400 const"}
 
 execute if score #percentage temp matches 1..5 run return run title @s actionbar [{text: "\u25ae", color: "aqua"}]
 execute if score #percentage temp matches 6..10 run return run title @s actionbar [{text: "\u25ae\u25ae", color: "aqua"}]

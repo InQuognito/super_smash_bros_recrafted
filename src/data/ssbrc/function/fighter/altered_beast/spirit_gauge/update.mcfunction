@@ -1,4 +1,4 @@
-function math:percentage {output: "#percentage temp", val: "@s resource", div: "altered_beast.spirit.max const"}
+function math:percentage {output: "#percentage temp", val: "@s resource", div: "#altered_beast.spirit.max const"}
 
 execute if score #percentage temp matches 1..10 run return run title @s actionbar ["", {translate: "ssbrc.fighter.altered_beast.spirit", bold: true}, {text: "\u25ae", color: "dark_red"}, {text: "\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae", color: "gray"}]
 execute if score #percentage temp matches 11..20 run return run title @s actionbar ["", {translate: "ssbrc.fighter.altered_beast.spirit", bold: true}, {text: "\u25ae\u25ae", color: "dark_red"}, {text: "\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae", color: "gray"}]
