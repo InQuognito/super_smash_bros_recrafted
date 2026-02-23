@@ -810,13 +810,10 @@ fighters = {
 		],
 		'items': {
 			'power_beam': {
-				'type': 'ability',
+				'type': 'hybrid',
 				'stats': {
-					'tag': 'ranged',
-					'damage': {
-						'type': 'generic',
-						'amount': 4
-					},
+					'attack_damage': 1.5,
+					'attack_speed': 0.5,
 					'cooldown_group': 'samus/power_beam',
 					'cooldown': 0.25
 				},
@@ -826,13 +823,10 @@ fighters = {
 				}
 			},
 			'plasma_beam': {
-				'type': 'ability',
+				'type': 'hybrid',
 				'stats': {
-					'tag': 'ranged',
-					'damage': {
-						'type': 'generic',
-						'amount': 4
-					},
+					'attack_damage': 1.5,
+					'attack_speed': 0.5,
 					'cooldown_group': 'samus/plasma_beam',
 					'cooldown': 3
 				},
@@ -842,13 +836,10 @@ fighters = {
 				}
 			},
 			'wave_beam': {
-				'type': 'ability',
+				'type': 'hybrid',
 				'stats': {
-					'tag': 'ranged',
-					'damage': {
-						'type': 'generic',
-						'amount': 4
-					},
+					'attack_damage': 1.5,
+					'attack_speed': 0.5,
 					'cooldown_group': 'samus/wave_beam',
 					'cooldown': 1
 				},
@@ -891,6 +882,13 @@ fighters = {
 		],
 		'items': {
 			'phazon_beam': {
+				'type': 'hybrid',
+				'stats': {
+					'attack_damage': 1.5,
+					'attack_speed': 0.5,
+					'cooldown_group': 'dark_samus/phazon_beam',
+					'cooldown': 0.5
+				},
 				'default': {
 					'name': 'ssbrc.fighter.dark_samus.phazon_beam',
 					'color': 'aqua'
@@ -900,6 +898,11 @@ fighters = {
 				}
 			},
 			'phazon_overload': {
+				'type': 'ability',
+				'stats': {
+					'cooldown_group': 'dark_samus/phazon_overload',
+					'cooldown': 0.05
+				},
 				'default': {
 					'name': 'ssbrc.fighter.dark_samus.phazon_overload',
 					'color': 'aqua'
@@ -1129,11 +1132,6 @@ fighters = {
 				'stats': {
 					'attack_damage': 5,
 					'attack_speed': 3,
-					'damage': {
-						'type': 'fire',
-						'amount': 4,
-						'duration': 40
-					},
 					'cooldown_group': 'fox/projectile',
 					'cooldown': 1.5
 				},
