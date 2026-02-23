@@ -3507,28 +3507,109 @@
 			}
 		]
 	},
-	"voice.pokemon_trainer.win.charizard": {
+	"voice.pokemon_trainer.win.default.charizard": {
 		"sounds": [
 			{
-				"name": "ssbrc:voice/pokemon_trainer/win/charizard",
+				"name": "ssbrc:voice/pokemon_trainer/win/default/charizard",
 				"stream": false,
 				"volume": 1.0
 			}
 		]
 	},
-	"voice.pokemon_trainer.win.ivysaur": {
+	"voice.pokemon_trainer.win.default.ivysaur": {
 		"sounds": [
 			{
-				"name": "ssbrc:voice/pokemon_trainer/win/ivysaur",
+				"name": "ssbrc:voice/pokemon_trainer/win/default/ivysaur",
 				"stream": false,
 				"volume": 1.0
 			}
 		]
 	},
-	"voice.pokemon_trainer.win.squirtle": {
+	"voice.pokemon_trainer.win.default.squirtle": {
 		"sounds": [
 			{
-				"name": "ssbrc:voice/pokemon_trainer/win/squirtle",
+				"name": "ssbrc:voice/pokemon_trainer/win/default/squirtle",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"voice.pokemon_trainer.win.dawn.charizard": {
+		"sounds": [
+			{
+				"name": "ssbrc:voice/pokemon_trainer/win/dawn/charizard",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"voice.pokemon_trainer.win.dawn.ivysaur": {
+		"sounds": [
+			{
+				"name": "ssbrc:voice/pokemon_trainer/win/dawn/ivysaur",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"voice.pokemon_trainer.win.dawn.squirtle": {
+		"sounds": [
+			{
+				"name": "ssbrc:voice/pokemon_trainer/win/dawn/squirtle",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"voice.pokemon_trainer.win.juliana.charizard": {
+		"sounds": [
+			{
+				"name": "ssbrc:voice/pokemon_trainer/win/juliana/charizard",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"voice.pokemon_trainer.win.juliana.ivysaur": {
+		"sounds": [
+			{
+				"name": "ssbrc:voice/pokemon_trainer/win/juliana/ivysaur",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"voice.pokemon_trainer.win.juliana.squirtle": {
+		"sounds": [
+			{
+				"name": "ssbrc:voice/pokemon_trainer/win/juliana/squirtle",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"voice.pokemon_trainer.win.victor.charizard": {
+		"sounds": [
+			{
+				"name": "ssbrc:voice/pokemon_trainer/win/victor/charizard",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"voice.pokemon_trainer.win.victor.ivysaur": {
+		"sounds": [
+			{
+				"name": "ssbrc:voice/pokemon_trainer/win/victor/ivysaur",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
+	"voice.pokemon_trainer.win.victor.squirtle": {
+		"sounds": [
+			{
+				"name": "ssbrc:voice/pokemon_trainer/win/victor/squirtle",
 				"stream": false,
 				"volume": 1.0
 			}
