@@ -31,11 +31,11 @@
 			},
 			"on_true": {
 				"type": "minecraft:model",
-				"model": "ssbrc:fighter/shadow/item/chaos_spear/default/defalt/default"
+				"model": "ssbrc:fighter/shadow/item/chaos_spear/default/default/default"
 			},
 			"on_false": {
 				"type": "minecraft:model",
-				"model": "ssbrc:fighter/shadow/item/chaos_spear/default/defalt/disabled"
+				"model": "ssbrc:fighter/shadow/item/chaos_spear/default/default/disabled"
 			}
 		}
 	},

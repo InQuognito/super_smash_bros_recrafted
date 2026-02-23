@@ -1911,7 +1911,7 @@ fighters = {
 				'color': 'red'
 			},
 			'manga': {
-				'rarity': 'rare',
+				'rarity': 'legendary',
 				'color': 'light_purple'
 			},
 			'niiue': {
@@ -2763,7 +2763,47 @@ fighters = {
 		'forms': [
 			'male',
 			'female'
-		]
+		],
+		'items': {
+			'axe': {
+				'type': 'weapon',
+				'stats': {
+					'attack_damage': 5,
+					'attack_speed': 0.75
+				},
+				'default': {
+					'name': 'ssbrc.fighter.villager.axe',
+					'color': 'red'
+				},
+				'gold': {
+					'color': 'light_purple'
+				}
+			},
+			'slingshot': {
+				'type': 'ability',
+				'stats': {
+					'tag': 'utility',
+					'cooldown_group': 'villager/watering_can',
+					'cooldown': 1
+				},
+				'default': {
+					'name': 'ssbrc.fighter.villager.watering_can',
+					'color': 'gray'
+				}
+			},
+			'watering_can': {
+				'type': 'ability',
+				'stats': {
+					'tag': 'utility',
+					'cooldown_group': 'villager/watering_can',
+					'cooldown': 1
+				},
+				'default': {
+					'name': 'ssbrc.fighter.villager.watering_can',
+					'color': 'gray'
+				}
+			}
+		}
 	},
 	'mega_man': {
 		'series': 'mega_man',
