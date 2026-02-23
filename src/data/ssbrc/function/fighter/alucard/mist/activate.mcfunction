@@ -6,8 +6,6 @@ execute if items entity @s armor.body *[minecraft:custom_data~{temp: {fighter: {
 
 function ssbrc:fighter/alucard/mist/shield
 
-clear @s #ssbrc:equipment/all
-
 function ssbrc:logic/fighter/effects/cleanse
 
 function ssbrc:logic/fighter/effects/glowing/cloak

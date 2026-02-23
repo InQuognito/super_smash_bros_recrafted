@@ -1,6 +1,5 @@
 tag @s remove intangible
 
-function ssbrc:logic/fighter/armor/init
 function ssbrc:fighter/alucard/items
 
 effect clear @s minecraft:invisibility

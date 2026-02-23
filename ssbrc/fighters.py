@@ -977,6 +977,12 @@ fighters = {
 		],
 		'items': {
 			'hammer': {
+				'type': 'weapon',
+				'stats': {
+					'attack_damage': 6,
+					'attack_speed': 1,
+					'disable_blocking_for_seconds': 5
+				},
 				'default': {
 					'name': 'ssbrc.fighter.kirby.hammer',
 					'color': 'light_purple'
@@ -986,6 +992,11 @@ fighters = {
 				}
 			},
 			'katana': {
+				'type': 'weapon',
+				'stats': {
+					'attack_damage': 5,
+					'attack_speed': 2
+				},
 				'default': {
 					'name': 'ssbrc.fighter.kirby.katana',
 					'color': 'light_purple'
@@ -995,6 +1006,11 @@ fighters = {
 				}
 			},
 			'tornado': {
+				'type': 'weapon',
+				'stats': {
+					'attack_damage': 4,
+					'attack_speed': 3
+				},
 				'default': {
 					'name': 'ssbrc.fighter.kirby.tornado',
 					'color': 'light_purple'
@@ -3078,6 +3094,11 @@ fighters = {
 				}
 			},
 			'blood_metamorphosis': {
+				'type': 'ability',
+				'stats': {
+					'cooldown_group': 'alucard/blood_metamorphosis',
+					'cooldown': 0.5
+				},
 				'default': {
 					'name': 'ssbrc.fighter.alucard.blood_metamorphosis',
 					'color': 'dark_red'
@@ -3087,6 +3108,11 @@ fighters = {
 				}
 			},
 			'holy_water': {
+				'type': 'ability',
+				'stats': {
+					'cooldown_group': 'alucard/holy_water',
+					'cooldown': 0.5
+				},
 				'default': {
 					'name': 'ssbrc.fighter.alucard.holy_water',
 					'color': 'blue'
