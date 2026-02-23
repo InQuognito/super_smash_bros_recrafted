@@ -811,6 +811,7 @@ fighters = {
 		'items': {
 			'power_beam': {
 				'type': 'hybrid',
+				'group': 'arm_cannon',
 				'stats': {
 					'attack_damage': 1.5,
 					'attack_speed': 0.5,
@@ -824,6 +825,7 @@ fighters = {
 			},
 			'plasma_beam': {
 				'type': 'hybrid',
+				'group': 'arm_cannon',
 				'stats': {
 					'attack_damage': 1.5,
 					'attack_speed': 0.5,
@@ -837,6 +839,7 @@ fighters = {
 			},
 			'wave_beam': {
 				'type': 'hybrid',
+				'group': 'arm_cannon',
 				'stats': {
 					'attack_damage': 1.5,
 					'attack_speed': 0.5,
