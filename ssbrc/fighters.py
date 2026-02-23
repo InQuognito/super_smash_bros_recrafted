@@ -1810,7 +1810,7 @@ fighters = {
 				},
 				'default': {
 					'name': 'ssbrc.fighter.team_rocket.splash',
-					'color': 'blue'
+					'color': 'white'
 				}
 			}
 		}
