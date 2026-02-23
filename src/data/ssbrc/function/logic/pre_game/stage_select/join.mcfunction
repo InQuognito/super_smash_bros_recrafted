@@ -13,6 +13,7 @@ scoreboard players set @s duration.3 1
 execute if items entity @s[predicate=ssbrc:fighter/pokemon/shiny_chance] armor.body *[minecraft:custom_data~{temp: {fighter: {series: "pokemon"}}}] run function ssbrc:logic/fighter/pokemon/shiny with entity @s equipment.body.components."minecraft:custom_data".temp.fighter
 
 function ssbrc:logic/fighter/armor/init
+function ssbrc:logic/player/data/set {data: {temp: {selected_stage: ""}}}
 
 function ssbrc:logic/game/data/scoreboards/duration
 
