@@ -3257,6 +3257,7 @@ fighters = {
 			},
 			'accelerate': {
 				'type': 'ability',
+				'group': 'hero.spell',
 				'stats': {
 					'cooldown_group': 'hero/spell',
 					'cooldown': 1.5
@@ -3268,6 +3269,7 @@ fighters = {
 			},
 			'acceleratle': {
 				'type': 'ability',
+				'group': 'hero.spell',
 				'stats': {
 					'cooldown_group': 'hero/spell',
 					'cooldown': 1.5
@@ -3279,6 +3281,7 @@ fighters = {
 			},
 			'bang': {
 				'type': 'ability',
+				'group': 'hero.spell',
 				'stats': {
 					'cooldown_group': 'hero/spell',
 					'cooldown': 1.5
@@ -3290,6 +3293,7 @@ fighters = {
 			},
 			'flame_slash': {
 				'type': 'ability',
+				'group': 'hero.spell',
 				'stats': {
 					'cooldown_group': 'hero/spell',
 					'cooldown': 1.5
@@ -3301,6 +3305,7 @@ fighters = {
 			},
 			'frizz': {
 				'type': 'ability',
+				'group': 'hero.spell',
 				'stats': {
 					'cooldown_group': 'hero/spell',
 					'cooldown': 1.5
@@ -3312,6 +3317,7 @@ fighters = {
 			},
 			'frizzle': {
 				'type': 'ability',
+				'group': 'hero.spell',
 				'stats': {
 					'cooldown_group': 'hero/spell',
 					'cooldown': 1.5
@@ -3323,6 +3329,7 @@ fighters = {
 			},
 			'heal': {
 				'type': 'ability',
+				'group': 'hero.spell',
 				'stats': {
 					'cooldown_group': 'hero/spell',
 					'cooldown': 1.5
@@ -3334,6 +3341,7 @@ fighters = {
 			},
 			'hocus_pocus': {
 				'type': 'ability',
+				'group': 'hero.spell',
 				'stats': {
 					'cooldown_group': 'hero/spell',
 					'cooldown': 1.5
@@ -3345,6 +3353,7 @@ fighters = {
 			},
 			'kaclang': {
 				'type': 'ability',
+				'group': 'hero.spell',
 				'stats': {
 					'cooldown_group': 'hero/spell',
 					'cooldown': 1.5
@@ -3356,6 +3365,7 @@ fighters = {
 			},
 			'kacrackle_slash': {
 				'type': 'ability',
+				'group': 'hero.spell',
 				'stats': {
 					'cooldown_group': 'hero/spell',
 					'cooldown': 1.5
@@ -3367,6 +3377,7 @@ fighters = {
 			},
 			'kafrizz': {
 				'type': 'ability',
+				'group': 'hero.spell',
 				'stats': {
 					'cooldown_group': 'hero/spell',
 					'cooldown': 1.5
@@ -3378,6 +3389,7 @@ fighters = {
 			},
 			'kamikazee': {
 				'type': 'ability',
+				'group': 'hero.spell',
 				'stats': {
 					'cooldown_group': 'hero/spell',
 					'cooldown': 1.5
@@ -3389,6 +3401,7 @@ fighters = {
 			},
 			'kazap': {
 				'type': 'ability',
+				'group': 'hero.spell',
 				'stats': {
 					'cooldown_group': 'hero/spell',
 					'cooldown': 1.5
@@ -3400,6 +3413,7 @@ fighters = {
 			},
 			'magic_burst': {
 				'type': 'ability',
+				'group': 'hero.spell',
 				'stats': {
 					'cooldown_group': 'hero/spell',
 					'cooldown': 1.5
@@ -3411,6 +3425,7 @@ fighters = {
 			},
 			'metal_slash': {
 				'type': 'ability',
+				'group': 'hero.spell',
 				'stats': {
 					'cooldown_group': 'hero/spell',
 					'cooldown': 1.5
@@ -3422,6 +3437,7 @@ fighters = {
 			},
 			'multiheal': {
 				'type': 'ability',
+				'group': 'hero.spell',
 				'stats': {
 					'cooldown_group': 'hero/spell',
 					'cooldown': 1.5
@@ -3433,6 +3449,7 @@ fighters = {
 			},
 			'oomph': {
 				'type': 'ability',
+				'group': 'hero.spell',
 				'stats': {
 					'cooldown_group': 'hero/spell',
 					'cooldown': 1.5
@@ -3444,6 +3461,7 @@ fighters = {
 			},
 			'snooze': {
 				'type': 'ability',
+				'group': 'hero.spell',
 				'stats': {
 					'cooldown_group': 'hero/spell',
 					'cooldown': 1.5
@@ -3455,6 +3473,7 @@ fighters = {
 			},
 			'whack': {
 				'type': 'ability',
+				'group': 'hero.spell',
 				'stats': {
 					'cooldown_group': 'hero/spell',
 					'cooldown': 1.5
@@ -3466,6 +3485,7 @@ fighters = {
 			},
 			'whoosh': {
 				'type': 'ability',
+				'group': 'hero.spell',
 				'stats': {
 					'cooldown_group': 'hero/spell',
 					'cooldown': 1.5
@@ -3477,6 +3497,7 @@ fighters = {
 			},
 			'zap': {
 				'type': 'ability',
+				'group': 'hero.spell',
 				'stats': {
 					'cooldown_group': 'hero/spell',
 					'cooldown': 1.5
@@ -3488,6 +3509,7 @@ fighters = {
 			},
 			'zapple': {
 				'type': 'ability',
+				'group': 'hero.spell',
 				'stats': {
 					'cooldown_group': 'hero/spell',
 					'cooldown': 1.5
@@ -3499,6 +3521,7 @@ fighters = {
 			},
 			'zoom': {
 				'type': 'ability',
+				'group': 'hero.spell',
 				'stats': {
 					'cooldown_group': 'hero/spell',
 					'cooldown': 1.5
@@ -3658,6 +3681,7 @@ fighters = {
 		'items': {
 			'keyblade': {
 				'type': 'hybrid',
+				'group': 'keyblade',
 				'stats': {
 					'attack_damage': 5,
 					'attack_speed': 1.5,
@@ -4239,10 +4263,13 @@ def fighter_storage():
 			item_data = {}
 			for item in path['items']:
 				item_entry = {}
+				item_path = path['items'][item]
 
-				if 'type' in path['items'][item].keys():
-					stat_path = path['items'][item]['stats']
-					type = path['items'][item]['type']
+				item_entry['group'] = init_stat('group', item_path, 'ssbrc')
+
+				if 'type' in item_path.keys():
+					stat_path = item_path['stats']
+					type = item_path['type']
 
 					item_stats = {}
 
