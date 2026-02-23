@@ -151,10 +151,8 @@ execute if entity @s[tag=flame_arrow] run return run function ssbrc:fighter/alte
 
 # Alucard
 execute if entity @s[tag=mist] run return run function ssbrc:fighter/alucard/mist/tick_entity
-execute if entity @s[tag=holy_water.display,tag=!falling,predicate=ssbrc:flag/no_vehicle] run return run function ssbrc:fighter/alucard/holy_water/drip_below
-execute if entity @s[tag=holy_water.display] if predicate ssbrc:flag/on_ground run return run function ssbrc:fighter/alucard/holy_water/kill_item
-execute if entity @s[tag=holy_water,tag=!blood_metamorphosis,tag=!active,predicate=ssbrc:flag/no_vehicle] run return run function ssbrc:fighter/alucard/holy_water/enable
-execute if entity @s[tag=holy_water,tag=blood_metamorphosis] run return run function ssbrc:fighter/alucard/holy_water/tick
+execute if entity @s[tag=holy_water.vehicle,tag=!falling] if function ssbrc:logic/fighter/check/raycast/block run return run function ssbrc:fighter/alucard/holy_water/drip_below
+execute if entity @s[tag=holy_water,predicate=ssbrc:flag/on_ground] run return run function ssbrc:fighter/alucard/holy_water/tick
 
 # Giegue
 execute if entity @s[tag=pk_freeze] run return run function ssbrc:fighter/giegue/pk_freeze/tick

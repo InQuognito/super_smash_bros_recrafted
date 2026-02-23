@@ -1,8 +1,6 @@
-particle minecraft:soul_fire_flame ~ ~ ~ .75 .2 .75 .01 50 force @a
-
-execute positioned ~-1 ~ ~-1 as @e[tag=!self,predicate=ssbrc:target,dx=1,dz=1] run function ssbrc:logic/damage/fire {amount: 8, burning: 40, type: "pierce", kb_resist: 0, source: " by @a[tag=self,limit=1]"}
-
-teleport @s ^ ^ ^.3
-
 scoreboard players add @s temp 1
-kill @s[scores={temp=60..}]
+kill @s[scores={temp=200..}]
+
+execute if entity @s[tag=blood_metamorphosis] run return run function ssbrc:fighter/alucard/holy_water/tick/blood_metamorphosis
+
+function ssbrc:fighter/alucard/holy_water/tick/default

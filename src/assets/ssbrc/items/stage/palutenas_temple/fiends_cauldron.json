@@ -1,17 +1,19 @@
 {
-	"type": "minecraft:select",
-	"property": "minecraft:custom_model_data",
-	"cases": [
-		{
-			"when": "disabled",
-			"model": {
-				"type": "minecraft:model",
-				"model": "ssbrc:stage/palutenas_temple/fiends_cauldron/disabled"
+	"model": {
+		"type": "minecraft:select",
+		"property": "minecraft:custom_model_data",
+		"cases": [
+			{
+				"when": "disabled",
+				"model": {
+					"type": "minecraft:model",
+					"model": "ssbrc:stage/palutenas_temple/fiends_cauldron/disabled"
+				}
 			}
+		],
+		"fallback": {
+			"type": "minecraft:model",
+			"model": "ssbrc:stage/palutenas_temple/fiends_cauldron/default"
 		}
-	],
-	"fallback": {
-		"type": "minecraft:model",
-		"model": "ssbrc:stage/palutenas_temple/fiends_cauldron/default"
 	}
 }
