@@ -2121,13 +2121,13 @@
 												"when": "night_vision_goggles",
 												"model": {
 													"type": "minecraft:model",
-													"model": "ssbrc:fighter/raiden/skin/cyborg_body/night_vision_goggles"
+													"model": "ssbrc:fighter/raiden/skin/cyborg_body"
 												}
 											}
 										],
 										"fallback": {
 											"type": "minecraft:model",
-											"model": "ssbrc:fighter/raiden/skin/cyborg_body/default"
+											"model": "ssbrc:fighter/raiden/skin/cyborg_body"
 										}
 									}
 								},
@@ -2142,13 +2142,13 @@
 												"when": "night_vision_goggles",
 												"model": {
 													"type": "minecraft:model",
-													"model": "ssbrc:fighter/raiden/skin/maverick_body/night_vision_goggles"
+													"model": "ssbrc:fighter/raiden/skin/maverick_body"
 												}
 											}
 										],
 										"fallback": {
 											"type": "minecraft:model",
-											"model": "ssbrc:fighter/raiden/skin/maverick_body/default"
+											"model": "ssbrc:fighter/raiden/skin/maverick_body"
 										}
 									}
 								},
@@ -2163,13 +2163,13 @@
 												"when": "night_vision_goggles",
 												"model": {
 													"type": "minecraft:model",
-													"model": "ssbrc:fighter/raiden/skin/business_suit/night_vision_goggles"
+													"model": "ssbrc:fighter/raiden/skin/business_suit"
 												}
 											}
 										],
 										"fallback": {
 											"type": "minecraft:model",
-											"model": "ssbrc:fighter/raiden/skin/business_suit/default"
+											"model": "ssbrc:fighter/raiden/skin/business_suit"
 										}
 									}
 								}
@@ -2183,13 +2183,13 @@
 										"when": "night_vision_goggles",
 										"model": {
 											"type": "minecraft:model",
-											"model": "ssbrc:fighter/raiden/skin/default/night_vision_goggles"
+											"model": "ssbrc:fighter/raiden/skin/default"
 										}
 									}
 								],
 								"fallback": {
 									"type": "minecraft:model",
-									"model": "ssbrc:fighter/raiden/skin/default/default"
+									"model": "ssbrc:fighter/raiden/skin/default"
 								}
 							}
 						}

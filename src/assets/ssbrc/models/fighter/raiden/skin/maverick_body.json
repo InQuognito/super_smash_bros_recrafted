@@ -1,6 +1,6 @@
 {
 	"parent": "ssbrc:template/fighter/head",
 	"textures": {
-		"base": "ssbrc:fighter/raiden/skin/default/default"
+		"base": "ssbrc:fighter/raiden/skin/maverick_body"
 	}
 }
