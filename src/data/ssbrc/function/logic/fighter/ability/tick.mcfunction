@@ -108,6 +108,9 @@ execute if entity @s[tag=leech_seed] run return run function ssbrc:fighter/pokem
 execute if entity @s[tag=leech_seed.healing_orb] run return run function ssbrc:fighter/pokemon_trainer/ivysaur/leech_seed/healing_orb/tick
 execute if entity @s[tag=water_gun] run return run function ssbrc:fighter/pokemon_trainer/squirtle/water_gun/tick
 
+# Raiden
+execute if entity @s[tag=throwing_knives] run return run function ssbrc:fighter/raiden/throwing_knives/tick
+
 # R.O.B.
 execute if entity @s[tag=robo_beam] run return run function ssbrc:fighter/rob/robo_beam/tick
 
