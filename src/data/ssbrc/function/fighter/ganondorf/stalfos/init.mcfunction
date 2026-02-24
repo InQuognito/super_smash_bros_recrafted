@@ -32,7 +32,7 @@ item replace entity @s armor.chest with minecraft:air
 item replace entity @s armor.legs with minecraft:air
 item replace entity @s armor.feet with minecraft:air
 
-execute unless score blackout temp matches 1 run data merge entity @s {Glowing:1b}
+execute unless score #blackout temp matches 1 run data merge entity @s {Glowing:1b}
 
 data merge entity @s { \
 	Health: 12, \

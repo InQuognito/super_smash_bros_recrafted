@@ -2493,7 +2493,7 @@
 									"when": "cloaked",
 									"model": {
 										"type": "minecraft:model",
-										"model": "ssbrc:fighter/samus/skin/cloaked"
+										"model": "ssbrc:fighter/samus/skin/default"
 									}
 								}
 							],

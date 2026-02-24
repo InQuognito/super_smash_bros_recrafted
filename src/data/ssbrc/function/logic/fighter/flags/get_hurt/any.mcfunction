@@ -11,7 +11,7 @@ execute if items entity @s armor.body *[minecraft:custom_data~{temp: {fighter: {
 execute if items entity @s[scores={charge.2=1..}] armor.body *[minecraft:custom_data~{temp: {fighter: {fighter: "pokemon_trainer", form: "squirtle"}}}] run return run function ssbrc:fighter/pokemon_trainer/squirtle/withdraw/reset
 execute if items entity @s armor.body *[minecraft:custom_data~{temp: {fighter: {fighter: "roy"}}}] run return run function ssbrc:fighter/roy/get_hurt
 execute if items entity @s armor.body *[minecraft:custom_data~{temp: {fighter: {fighter: "shadow"}}}] run return run scoreboard players set @s flag.sprinting 0
-execute if items entity @s armor.body *[minecraft:custom_data~{temp: {fighter: {fighter: "snake"}}}] unless score blackout temp matches 1 run return run function ssbrc:fighter/snake/get_hurt
+execute if items entity @s armor.body *[minecraft:custom_data~{temp: {fighter: {fighter: "snake"}}}] unless score #blackout temp matches 1 run return run function ssbrc:fighter/snake/get_hurt
 execute if items entity @s armor.body *[minecraft:custom_data~{temp: {fighter: {fighter: "sonic"}}}] run return run scoreboard players set @s flag.sprinting 0
 execute if items entity @s armor.body *[minecraft:custom_data~{temp: {fighter: {fighter: "steve"}}}] run return run scoreboard players set @s charge.1 0
 execute if items entity @s armor.body *[minecraft:custom_data~{temp: {fighter: {fighter: "yar"}}}] run return run scoreboard players set @s charge.2 0

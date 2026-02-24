@@ -1,3 +1,3 @@
-scoreboard players set blackout temp 1
+scoreboard players set #blackout temp 1
 function ssbrc:stage/luigis_mansion/blackout/check
-scoreboard players reset blackout temp
+scoreboard players reset #blackout temp
