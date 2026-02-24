@@ -1,8 +1,6 @@
 title @s title ""
 
-scoreboard players set @s respawn 0
-
-gamemode adventure @s
+function ssbrc:logic/fighter/respawn/effects
 
 execute if entity @s[tag=alive] run function ssbrc:logic/fighter/restore_items with entity @s equipment.body.components."minecraft:custom_data".temp.fighter
 

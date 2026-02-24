@@ -11,7 +11,7 @@ tellraw @a[predicate=ssbrc:ingame] [ \
 
 tag @s remove alive
 team join dead
-scoreboard players reset @s stocks
+scoreboard players reset @s points
 
 title @s actionbar ""
 
