@@ -73,8 +73,8 @@ attribute @s[scores={shadow.chaos_control=1}] minecraft:movement_speed modifier 
 # Stage Effects
 execute unless block ~ ~ ~ minecraft:lava run scoreboard players remove @s[scores={flag.in_lava=1..}] flag.in_lava 1
 execute if block ~ ~ ~ minecraft:lava run scoreboard players add @s flag.in_lava 1
-kill @s[scores={flag.in_lava=60..}]
-scoreboard players reset @s[scores={flag.in_lava=60..}] flag.in_lava
+execute if entity @s[tag=electrified] run function ssbrc:stage/gyromite/hazard/electric_floor/tick
+execute if score @s flag.in_lava matches 40.. run function ssbrc:logic/fighter/death_lava
 
 execute if data storage ssbrc:temp game.stage{name: "luigis_mansion"} run function ssbrc:stage/luigis_mansion/block_interaction_range
 

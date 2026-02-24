@@ -1,5 +1,6 @@
 function ssbrc:fighter/pokemon_trainer/kits/reset
 $function ssbrc:logic/player/data/set {data: {temp: {fighter: {form: "$(form)"}}}}
+function ssbrc:logic/fighter/armor/update with entity @s equipment.body.components."minecraft:custom_data".temp.fighter
 
 clear @s #ssbrc:equipment/ability
 
