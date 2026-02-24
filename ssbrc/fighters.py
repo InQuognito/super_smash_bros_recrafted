@@ -3072,6 +3072,13 @@ fighters = {
 		],
 		'items': {
 			'collarbone_breaker': {
+				'type': 'hybrid',
+				'stats': {
+					'attack_damage': 6,
+					'attack_speed': 2,
+					'cooldown_group': 'ryu/hadouken',
+					'cooldown': 1
+				},
 				'default': {
 					'name': 'ssbrc.fighter.ryu.collarbone_breaker',
 					'color': 'white'
