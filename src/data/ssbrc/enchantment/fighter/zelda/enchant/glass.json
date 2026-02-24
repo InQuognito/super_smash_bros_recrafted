@@ -87,7 +87,7 @@
 								"predicates": {
 									"minecraft:enchantments": [
 										{
-											"enchantments": "ssbrc:fighter/zelda/weapon/glass",
+											"enchantments": "ssbrc:fighter/zelda/enchant/glass",
 											"levels": 1
 										}
 									],
