@@ -465,6 +465,7 @@ fighters = {
 		],
 		'items': {
 			'fairy_bow': {
+				'type': 'null',
 				'default': {
 					'name': 'ssbrc.fighter.link.fairy_bow',
 					'color': 'blue'
@@ -493,6 +494,11 @@ fighters = {
 				}
 			},
 			'master_sword': {
+				'type': 'weapon',
+				'stats': {
+					'attack_damage': 6,
+					'attack_speed': 2
+				},
 				'default': {
 					'name': 'ssbrc.fighter.link.master_sword',
 					'color': 'aqua'
@@ -507,11 +513,6 @@ fighters = {
 			'sheikah_slate': {
 				'type': 'ability',
 				'stats': {
-					'tag': 'ranged',
-					'damage': {
-						'type': 'generic',
-						'amount': 6
-					},
 					'cooldown_group': 'link/sheikah_slate',
 					'cooldown': 1
 				},

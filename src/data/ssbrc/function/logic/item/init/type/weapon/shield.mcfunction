@@ -30,9 +30,6 @@ $item replace entity @s $(slot) with minecraft:shield[ \
 	}, \
 ]
 
-execute store result storage ssbrc:temp cache.item.damage int 1 run scoreboard players get @s durability
-function ssbrc:logic/item/init/type/durability with storage ssbrc:temp cache.item
-
 $item modify entity @s $(slot) [ \
 	{ \
 		function: "minecraft:reference", \
