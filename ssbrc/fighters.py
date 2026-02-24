@@ -190,7 +190,7 @@ fighters = {
 				'type': 'weapon',
 				'stats': {
 					'attack_damage': 6,
-					'attack_speed': 0.5,
+					'attack_speed': 0.25,
 					'minimum_attack_charge': 0.75
 				},
 				'default': {
@@ -205,7 +205,7 @@ fighters = {
 				'type': 'weapon',
 				'stats': {
 					'attack_damage': 4,
-					'attack_speed': 1.25,
+					'attack_speed': 0.75,
 					'minimum_attack_charge': 0.75
 				},
 				'default': {
@@ -220,7 +220,7 @@ fighters = {
 				'type': 'weapon',
 				'stats': {
 					'attack_damage': 2,
-					'attack_speed': 2,
+					'attack_speed': 1.5,
 					'minimum_attack_charge': 0.75
 				},
 				'default': {

@@ -24,6 +24,24 @@
 					"type": "minecraft:run_function",
 					"function": "ssbrc:fighter/peach/kit/frying_pan"
 				}
+			},
+			{
+				"effect": {
+					"type": "minecraft:apply_impulse",
+					"direction": [
+						0,
+						0,
+						1
+					],
+					"coordinate_scale": [
+						1,
+						1,
+						1
+					],
+					"magnitude": 1
+				},
+				"enchanted": "attacker",
+				"affected": "victim"
 			}
 		]
 	}
