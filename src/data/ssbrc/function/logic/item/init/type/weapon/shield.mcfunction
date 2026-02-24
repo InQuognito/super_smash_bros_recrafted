@@ -5,6 +5,7 @@ $item replace entity @s $(slot) with minecraft:shield[ \
 		bold: true, \
 		italic: false, \
 	}, \
+	minecraft:max_stack_size = 1, \
 	minecraft:swing_animation = { \
 		type: "none", \
 	}, \

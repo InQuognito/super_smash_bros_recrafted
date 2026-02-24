@@ -16,25 +16,27 @@
 		"mainhand"
 	],
 	"effects": {
-		"minecraft:ammo_use": [
-			{
-				"effect": {
-					"type": "minecraft:set",
-					"value": 0
-				},
-				"requirements": {
-					"condition": "minecraft:match_tool",
-					"predicate": {
-						"items": "minecraft:arrow"
-					}
-				}
-			}
-		],
 		"minecraft:projectile_spawned": [
 			{
 				"effect": {
 					"type": "minecraft:run_function",
 					"function": "ssbrc:fighter/zelda/bow/activate/fire"
+				}
+			}
+		],
+		"minecraft:ammo_use": [
+			{
+				"effect": {
+					"type": "minecraft:set",
+					"value": 0.0
+				}
+			}
+		],
+		"minecraft:item_damage": [
+			{
+				"effect": {
+					"type": "minecraft:set",
+					"value": 0
 				}
 			}
 		]

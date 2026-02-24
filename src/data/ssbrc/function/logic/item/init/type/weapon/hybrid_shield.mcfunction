@@ -5,6 +5,7 @@ $item replace entity @s $(slot) with minecraft:shield[ \
 		bold: true, \
 		italic: false, \
 	}, \
+	minecraft:max_stack_size = 1, \
 	minecraft:weapon = { \
 		item_damage_on_attack: $(item_damage_on_attack), \
 		disable_blocking_for_seconds: $(disable_blocking_for_seconds), \

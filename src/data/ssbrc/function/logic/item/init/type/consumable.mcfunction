@@ -5,6 +5,7 @@ $item replace entity @s $(slot) with minecraft:stick[ \
 		bold: true, \
 		italic: false, \
 	}, \
+	minecraft:max_stack_size = $(max_stack_size), \
 	minecraft:swing_animation = { \
 		type: "none", \
 	}, \

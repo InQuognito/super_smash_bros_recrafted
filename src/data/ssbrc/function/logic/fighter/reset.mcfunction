@@ -78,6 +78,14 @@ function ssbrc:fighter/pokemon_trainer/kits/reset
 function ssbrc:fighter/pokemon_trainer/ivysaur/leech_seed/reset
 tag @s remove armor_break
 
+# Raiden
+tag @s remove aks_74u
+tag @s remove c4
+tag @s remove focus_nanos
+tag @s remove guard_nanos
+tag @s remove throwing_knives
+tag @s remove zandatsu_nanos
+
 # Shovel Knight
 tag @s remove phase_locket
 tag @s remove war_horn.active

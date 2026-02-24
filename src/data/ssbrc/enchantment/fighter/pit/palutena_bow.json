@@ -29,12 +29,14 @@
 				"effect": {
 					"type": "minecraft:set",
 					"value": 0.0
-				},
-				"requirements": {
-					"condition": "minecraft:match_tool",
-					"predicate": {
-						"items": "#minecraft:arrows"
-					}
+				}
+			}
+		],
+		"minecraft:item_damage": [
+			{
+				"effect": {
+					"type": "minecraft:set",
+					"value": 0
 				}
 			}
 		]
