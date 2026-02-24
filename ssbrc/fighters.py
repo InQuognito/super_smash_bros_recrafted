@@ -2850,6 +2850,11 @@ fighters = {
 				}
 			},
 			'robo_beam': {
+				'type': 'ability',
+				'stats': {
+					'cooldown_group': 'rob/robo_beam',
+					'cooldown': 1
+				},
 				'default': {
 					'name': 'ssbrc.fighter.rob.robo_beam',
 					'color': 'white'
@@ -2909,7 +2914,6 @@ fighters = {
 			'slingshot': {
 				'type': 'ability',
 				'stats': {
-					'tag': 'utility',
 					'cooldown_group': 'villager/watering_can',
 					'cooldown': 1
 				},
