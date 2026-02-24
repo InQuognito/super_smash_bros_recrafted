@@ -466,6 +466,7 @@ fighters = {
 		'items': {
 			'fairy_bow': {
 				'type': 'null',
+				'stats': {},
 				'default': {
 					'name': 'ssbrc.fighter.link.fairy_bow',
 					'color': 'blue'
