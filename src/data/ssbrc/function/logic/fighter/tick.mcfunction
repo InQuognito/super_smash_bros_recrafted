@@ -71,7 +71,7 @@ scoreboard players remove @s[scores={shadow.chaos_control=1..}] shadow.chaos_con
 attribute @s[scores={shadow.chaos_control=1}] minecraft:movement_speed modifier remove ssbrc:chaos_control
 
 # Stage Effects
-execute unless block ~ ~ ~ minecraft:lava run scoreboard players remove @s[scores={flag.in_lava=1..}] flag.in_lava 1
+execute unless block ~ ~ ~ minecraft:lava run scoreboard players remove @s[tag=!electrified,scores={flag.in_lava=1..}] flag.in_lava 1
 execute if block ~ ~ ~ minecraft:lava run scoreboard players add @s flag.in_lava 1
 execute if entity @s[tag=electrified] run function ssbrc:stage/gyromite/hazard/electric_floor/tick
 execute if score @s flag.in_lava matches 40.. run function ssbrc:logic/fighter/death_lava

@@ -1817,15 +1817,11 @@ fighters = {
 				}
 			},
 			'water_shuriken': {
-				'type': 'ability',
+				'type': 'consumable',
 				'stats': {
-					'tag': 'ranged',
-					'damage': {
-						'type': 'generic',
-						'amount': 4
-					},
 					'cooldown_group': 'greninja/water_shuriken',
-					'cooldown': 1
+					'cooldown': 1,
+					'max_stack_size': 4
 				},
 				'default': {
 					'name': 'ssbrc.fighter.greninja.water_shuriken',
@@ -4570,6 +4566,9 @@ def fighter_storage():
 							extend_shield(item_stats, stat_path)
 						case 'ability':
 							extend_ability(item_stats, stat_path)
+						case 'consumable':
+							extend_ability(item_stats, stat_path)
+							item_stats['max_stack_size'] = init_stat('max_stack_size', stat_path, 1)
 						case 'charge_ability':
 							item_stats['use_duration'] = init_stat('use_duration', stat_path, 1)
 							extend_ability(item_stats, stat_path)

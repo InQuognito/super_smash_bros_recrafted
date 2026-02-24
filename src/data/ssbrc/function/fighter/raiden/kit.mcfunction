@@ -4,9 +4,9 @@ execute if entity @s[tag=aks_74u] run function ssbrc:logic/item/give/default {it
 
 execute if entity @s[tag=throwing_knives] run function ssbrc:logic/item/give/default {item: "throwing_knives", class: "default", type: "default"}
 
-execute if entity @s[tag=c4] run function ssbrc:logic/item/give/default {item: "c4", class: "default", type: "default"}
+execute if entity @s[tag=c4] run function ssbrc:logic/item/give/default {item: "c4", class: "default", type: "consumable"}
 
-execute if entity @s[tag=smoke_grenade] run function ssbrc:logic/item/give/default {item: "smoke_grenade", class: "default", type: "default"}
+execute if entity @s[tag=smoke_grenade] run function ssbrc:logic/item/give/default {item: "smoke_grenade", class: "default", type: "consumable"}
 
 scoreboard players set @s[tag=m870_custom] weapon_1.mags 4
 scoreboard players set @s[tag=m870_custom] weapon_1.ammo 4
