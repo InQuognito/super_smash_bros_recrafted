@@ -616,6 +616,27 @@
 						}
 					},
 					{
+						"when": "gooey",
+						"model": {
+							"type": "minecraft:select",
+							"property": "minecraft:custom_model_data",
+							"index": 1,
+							"cases": [
+								{
+									"when": "gold",
+									"model": {
+										"type": "minecraft:model",
+										"model": "ssbrc:fighter/gooey/skin/gold/default"
+									}
+								}
+							],
+							"fallback": {
+								"type": "minecraft:model",
+								"model": "ssbrc:fighter/gooey/skin/default/default"
+							}
+						}
+					},
+					{
 						"when": "greninja",
 						"model": {
 							"type": "minecraft:select",
@@ -1713,34 +1734,34 @@
 										"when": "gold",
 										"model": {
 											"type": "minecraft:model",
-											"model": "ssbrc:fighter/mega_man/skin/gold/mega_buster"
+											"model": "ssbrc:fighter/mega_man/skin/gold/default"
 										}
 									},
 									{
 										"when": "x",
 										"model": {
 											"type": "minecraft:model",
-											"model": "ssbrc:fighter/mega_man/skin/x/mega_buster"
+											"model": "ssbrc:fighter/mega_man/skin/x/default"
 										}
 									},
 									{
 										"when": "star_force",
 										"model": {
 											"type": "minecraft:model",
-											"model": "ssbrc:fighter/mega_man/skin/star_force/mega_buster"
+											"model": "ssbrc:fighter/mega_man/skin/star_force/default"
 										}
 									},
 									{
 										"when": "bad_box_art",
 										"model": {
 											"type": "minecraft:model",
-											"model": "ssbrc:fighter/mega_man/skin/bad_box_art/mega_buster"
+											"model": "ssbrc:fighter/mega_man/skin/bad_box_art/default"
 										}
 									}
 								],
 								"fallback": {
 									"type": "minecraft:model",
-									"model": "ssbrc:fighter/mega_man/skin/default/mega_buster"
+									"model": "ssbrc:fighter/mega_man/skin/default/default"
 								}
 							}
 						}

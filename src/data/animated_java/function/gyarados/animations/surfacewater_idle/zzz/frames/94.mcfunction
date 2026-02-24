@@ -87,4 +87,5 @@ $data merge entity $(bone_segment13) {transformation: [-1.0212f,0.0807f,0.0519f,
 $data merge entity $(bone_segment12) {transformation: [-1.1153f,0.0053f,0.0228f,0.0318f,0.0225f,-0.0707f,1.1131f,-0.2899f,0.0068f,1.1133f,0.0705f,-0.9302f,0f,0f,0f,1f],start_interpolation: 0,interpolation_duration: 1}
 $data merge entity $(bone_segment11) {transformation: [-1.1898f,-0.0342f,0.0173f,-0.0024f,-0.0018f,0.5866f,1.0358f,0.388f,-0.0383f,1.0353f,-0.5864f,0.2664f,0f,0f,0f,1f],start_interpolation: 0,interpolation_duration: 1}
 $data merge entity $(bone_segment10) {transformation: [-1.0477f,-0.0186f,0.0268f,-0.0218f,0f,0.861f,0.5978f,1.2695f,-0.0326f,0.5975f,-0.8606f,0.878f,0f,0f,0f,1f],start_interpolation: 0,interpolation_duration: 1}
-data modify entity @s data merge value {"cameras":{},"locators":{"mouth":{"posx":-0.11444205763269137,"posy":3.133527583266819,"posz":3.85580476976397,"roty":181.78201304837674,"rotx":56.29735304017922}}}
+data modify entity @s data merge value {"cameras":{},"locators":{"mouth":{"px":-0.11444205763269137,"py":3.133527583266819,"pz":3.85580476976397,"ry":181.78201304837674,"rx":56.29735304017922}}}
+function animated_java:gyarados/animations/surfacewater_idle/zzz/frames/on_tick/transform_floating_entities

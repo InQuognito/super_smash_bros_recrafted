@@ -1,45 +1,23 @@
 {
 	"meta": {
-		"format": "animated_java_blueprint",
-		"format_version": "1.7.2",
+		"format": "animated-java:format/blueprint",
+		"format_version": "1.8.1",
 		"uuid": "cda4790c-c30d-91b5-4e34-55a965d7b844",
-		"save_location": "C:\\Users\\Patri\\AppData\\Roaming\\PrismLauncher\\instances\\Main (Experimental)\\minecraft\\resourcepacks\\super_smash_bros_recrafted_assets\\ajblueprints\\pokemon\\slowpoke.ajblueprint",
+		"save_location": "C:\\Patrick\\Minecraft\\projects\\ssbrc\\ajblueprints\\pokemon\\slowpoke.ajblueprint",
 		"last_used_export_namespace": "slowpoke"
-	},
-	"blueprint_settings": {
-		"export_namespace": "slowpoke",
-		"show_bounding_box": false,
-		"auto_bounding_box": true,
-		"bounding_box": [48, 48],
-		"enable_plugin_mode": false,
-		"resource_pack_export_mode": "raw",
-		"data_pack_export_mode": "raw",
-		"target_minecraft_versions": ["1.21.5"],
-		"display_item": "minecraft:diamond",
-		"custom_model_data_offset": 0,
-		"enable_advanced_resource_pack_settings": false,
-		"resource_pack": "C:\\Users\\Patri\\AppData\\Roaming\\PrismLauncher\\instances\\Main (Experimental)\\minecraft\\resourcepacks\\super_smash_bros_recrafted_assets",
-		"enable_advanced_data_pack_settings": false,
-		"data_pack": "C:\\Users\\Patri\\AppData\\Roaming\\PrismLauncher\\instances\\Main (Experimental)\\minecraft\\saves\\SSBRC\\datapacks\\super_smash_bros_recrafted",
-		"summon_commands": "function ssbrc:logic/pokemon/init {name:\"slowpoke\"}",
-		"remove_commands": "",
-		"ticking_commands": "",
-		"interpolation_duration": 1,
-		"teleportation_duration": 1,
-		"use_storage_for_animation": false,
-		"show_function_errors": true,
-		"show_outdated_warning": true,
-		"baked_animations": true,
-		"json_file": "",
-		"target_minecraft_version": "1.21.4",
-		"enable_advanced_resource_pack_folders": false,
-		"display_item_path": "",
-		"model_folder": "",
-		"texture_folder": ""
 	},
 	"resolution": {
 		"width": 64,
 		"height": 64
+	},
+	"blueprint_settings": {
+		"export_namespace": "slowpoke",
+		"render_box": [48, 48],
+		"display_item": "minecraft:diamond",
+		"resource_pack": "C:\\Patrick\\Minecraft\\projects\\ssbrc\\src",
+		"data_pack": "C:\\Patrick\\Minecraft\\projects\\ssbrc\\src",
+		"on_summon_function": "function ssbrc:logic/pokemon/init {name:\"slowpoke\"}",
+		"auto_update_rig_orientation": false
 	},
 	"elements": [
 		{
@@ -1171,6 +1149,7 @@
 			"name": "slowpoke1",
 			"origin": [0, 0, 0],
 			"color": 0,
+			"onSummonFunction": "",
 			"configs": {
 				"variants": {}
 			},
@@ -1187,6 +1166,7 @@
 					"name": "body1",
 					"origin": [0, 6, 0],
 					"color": 1,
+					"onSummonFunction": "",
 					"configs": {
 						"variants": {}
 					},
@@ -1203,6 +1183,7 @@
 							"name": "torso1",
 							"origin": [2, 3.75, 4.75],
 							"color": 2,
+							"onSummonFunction": "",
 							"configs": {
 								"variants": {}
 							},
@@ -1220,6 +1201,7 @@
 									"name": "tail1",
 									"origin": [0, 5.5, 5.5],
 									"color": 3,
+									"onSummonFunction": "",
 									"configs": {
 										"variants": {}
 									},
@@ -1237,6 +1219,7 @@
 											"name": "tail5",
 											"origin": [0, 5.5, 10.5],
 											"color": 4,
+											"onSummonFunction": "",
 											"configs": {
 												"variants": {}
 											},
@@ -1254,6 +1237,7 @@
 													"name": "tail6",
 													"origin": [0, 5.5, 15.5],
 													"color": 5,
+													"onSummonFunction": "",
 													"configs": {
 														"variants": {}
 													},
@@ -1271,6 +1255,7 @@
 															"name": "tail7",
 															"origin": [0, 5.5, 20.5],
 															"color": 6,
+															"onSummonFunction": "",
 															"configs": {
 																"variants": {}
 															},
@@ -1294,6 +1279,7 @@
 									"name": "head1",
 									"origin": [0, 6, -7],
 									"color": 7,
+									"onSummonFunction": "",
 									"configs": {
 										"variants": {}
 									},
@@ -1315,6 +1301,7 @@
 											"origin": [-3.5, 8.5, -9],
 											"rotation": [0, 0, 45],
 											"color": 8,
+											"onSummonFunction": "",
 											"configs": {
 												"variants": {}
 											},
@@ -1333,6 +1320,7 @@
 											"origin": [3.5, 8.5, -9],
 											"rotation": [0, 0, -45],
 											"color": 9,
+											"onSummonFunction": "",
 											"configs": {
 												"variants": {}
 											},
@@ -1350,6 +1338,7 @@
 											"name": "eye_left1",
 											"origin": [-3.135, 6.25, -11.5125],
 											"color": 0,
+											"onSummonFunction": "",
 											"configs": {
 												"variants": {}
 											},
@@ -1368,6 +1357,7 @@
 													"name": "eyelid_left1",
 													"origin": [-3.01, 6.25, -12.01],
 													"color": 1,
+													"onSummonFunction": "",
 													"configs": {
 														"variants": {}
 													},
@@ -1387,6 +1377,7 @@
 											"name": "eye_right1",
 											"origin": [3.135, 6.25, -11.5125],
 											"color": 2,
+											"onSummonFunction": "",
 											"configs": {
 												"variants": {}
 											},
@@ -1405,6 +1396,7 @@
 													"name": "eyelid_right1",
 													"origin": [2.91, 6.25, -11.41],
 													"color": 3,
+													"onSummonFunction": "",
 													"configs": {
 														"variants": {}
 													},
@@ -1424,6 +1416,7 @@
 											"name": "jaw1",
 											"origin": [0, 3.5, -12],
 											"color": 4,
+											"onSummonFunction": "",
 											"configs": {
 												"variants": {}
 											},
@@ -1445,6 +1438,7 @@
 							"name": "leftfrontleg1",
 							"origin": [-4, 3.5, -3.5],
 							"color": 5,
+							"onSummonFunction": "",
 							"configs": {
 								"variants": {}
 							},
@@ -1462,6 +1456,7 @@
 							"name": "leftbackleg1",
 							"origin": [-4, 3.5, 4.5],
 							"color": 6,
+							"onSummonFunction": "",
 							"configs": {
 								"variants": {}
 							},
@@ -1479,6 +1474,7 @@
 							"name": "rightfrontleg1",
 							"origin": [4, 3.5, -3.5],
 							"color": 7,
+							"onSummonFunction": "",
 							"configs": {
 								"variants": {}
 							},
@@ -1496,6 +1492,7 @@
 							"name": "rightbackleg1",
 							"origin": [4, 3.5, 4.5],
 							"color": 8,
+							"onSummonFunction": "",
 							"configs": {
 								"variants": {}
 							},
@@ -1516,7 +1513,7 @@
 	],
 	"textures": [
 		{
-			"path": "C:\\Users\\Patri\\AppData\\Roaming\\PrismLauncher\\instances\\Main (Experimental)\\minecraft\\resourcepacks\\super_smash_bros_recrafted_assets\\assets\\ssbrc\\textures\\common\\pokemon\\pokemon\\slowpoke\\default.png",
+			"path": "C:\\Patrick\\Minecraft\\projects\\ssbrc\\src\\assets\\ssbrc\\textures\\common\\pokemon\\pokemon\\slowpoke\\default.png",
 			"name": "default.png",
 			"folder": "",
 			"namespace": "",
@@ -1541,10 +1538,10 @@
 			"internal": false,
 			"saved": true,
 			"uuid": "158c2e90-9b8a-a3d1-fa98-4c1bab5390ec",
-			"relative_path": "../../assets/ssbrc/textures/common/pokemon/pokemon/slowpoke/default.png"
+			"relative_path": "../../src/assets/ssbrc/textures/common/pokemon/pokemon/slowpoke/default.png"
 		},
 		{
-			"path": "C:\\Users\\Patri\\AppData\\Roaming\\PrismLauncher\\instances\\Main (Experimental)\\minecraft\\resourcepacks\\super_smash_bros_recrafted_assets\\assets\\ssbrc\\textures\\common\\pokemon\\pokemon\\slowpoke\\shiny.png",
+			"path": "C:\\Patrick\\Minecraft\\projects\\ssbrc\\src\\assets\\ssbrc\\textures\\common\\pokemon\\pokemon\\slowpoke\\shiny.png",
 			"name": "shiny.png",
 			"folder": "",
 			"namespace": "",
@@ -1569,7 +1566,7 @@
 			"internal": false,
 			"saved": true,
 			"uuid": "2104ceb7-b6ce-8dd8-7a3e-a3a7cd00ff92",
-			"relative_path": "../../assets/ssbrc/textures/common/pokemon/pokemon/slowpoke/shiny.png"
+			"relative_path": "../../src/assets/ssbrc/textures/common/pokemon/pokemon/slowpoke/shiny.png"
 		}
 	],
 	"variants": {
@@ -1602,7 +1599,7 @@
 			"length": 2.65,
 			"snapping": 20,
 			"selected": false,
-			"saved": false,
+			"saved": true,
 			"path": "C:\\Users\\Patri\\OneDrive\\Documents\\Patrick\\Minecraft\\cobblemon\\cobblemon\\common\\src\\main\\resources\\assets\\cobblemon\\bedrock\\pokemon\\animations\\0079_slowpoke\\slowpoke.animation.json",
 			"anim_time_update": "",
 			"blend_weight": "",
@@ -1992,7 +1989,7 @@
 			"length": 3.95,
 			"snapping": 20,
 			"selected": true,
-			"saved": false,
+			"saved": true,
 			"path": "C:\\Users\\Patri\\OneDrive\\Documents\\Patrick\\Minecraft\\cobblemon\\cobblemon\\common\\src\\main\\resources\\assets\\cobblemon\\bedrock\\pokemon\\animations\\0079_slowpoke\\slowpoke.animation.json",
 			"anim_time_update": "",
 			"blend_weight": "",
@@ -2418,6 +2415,5 @@
 				}
 			}
 		}
-	],
-	"animation_controllers": []
+	]
 }

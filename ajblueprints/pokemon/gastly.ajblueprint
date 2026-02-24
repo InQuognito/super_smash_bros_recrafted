@@ -1,45 +1,23 @@
 {
 	"meta": {
-		"format": "animated_java_blueprint",
-		"format_version": "1.7.2",
+		"format": "animated-java:format/blueprint",
+		"format_version": "1.8.1",
 		"uuid": "16e9ad6d-2a62-0125-1681-3df898e5feec",
-		"save_location": "C:\\Users\\Patri\\AppData\\Roaming\\PrismLauncher\\instances\\Main (Experimental)\\minecraft\\resourcepacks\\super_smash_bros_recrafted_assets\\ajblueprints\\pokemon\\gastly.ajblueprint",
+		"save_location": "C:\\Patrick\\Minecraft\\projects\\ssbrc\\ajblueprints\\pokemon\\gastly.ajblueprint",
 		"last_used_export_namespace": "gastly"
-	},
-	"blueprint_settings": {
-		"export_namespace": "gastly",
-		"show_bounding_box": false,
-		"auto_bounding_box": true,
-		"bounding_box": [48, 48],
-		"enable_plugin_mode": false,
-		"resource_pack_export_mode": "raw",
-		"data_pack_export_mode": "raw",
-		"target_minecraft_versions": ["1.21.5"],
-		"display_item": "minecraft:diamond",
-		"custom_model_data_offset": 0,
-		"enable_advanced_resource_pack_settings": false,
-		"resource_pack": "C:\\Users\\Patri\\AppData\\Roaming\\PrismLauncher\\instances\\Main (Experimental)\\minecraft\\resourcepacks\\super_smash_bros_recrafted_assets",
-		"enable_advanced_data_pack_settings": false,
-		"data_pack": "C:\\Users\\Patri\\AppData\\Roaming\\PrismLauncher\\instances\\Main (Experimental)\\minecraft\\saves\\SSBRC\\datapacks\\super_smash_bros_recrafted",
-		"summon_commands": "function ssbrc:logic/pokemon/init {name:\"gastly\"}",
-		"remove_commands": "",
-		"ticking_commands": "",
-		"interpolation_duration": 1,
-		"teleportation_duration": 1,
-		"use_storage_for_animation": false,
-		"show_function_errors": true,
-		"show_outdated_warning": true,
-		"baked_animations": true,
-		"json_file": "",
-		"target_minecraft_version": "1.21.4",
-		"enable_advanced_resource_pack_folders": false,
-		"display_item_path": "",
-		"model_folder": "",
-		"texture_folder": ""
 	},
 	"resolution": {
 		"width": 64,
 		"height": 64
+	},
+	"blueprint_settings": {
+		"export_namespace": "gastly",
+		"render_box": [48, 48],
+		"display_item": "minecraft:diamond",
+		"resource_pack": "C:\\Patrick\\Minecraft\\projects\\ssbrc\\src",
+		"data_pack": "C:\\Patrick\\Minecraft\\projects\\ssbrc\\src",
+		"on_summon_function": "function ssbrc:logic/pokemon/init {name:\"gastly\"}",
+		"auto_update_rig_orientation": false
 	},
 	"elements": [
 		{
@@ -1288,6 +1266,7 @@
 			"name": "gastly1",
 			"origin": [0, 0, 0],
 			"color": 0,
+			"onSummonFunction": "",
 			"configs": {
 				"variants": {}
 			},
@@ -1304,6 +1283,7 @@
 					"name": "body1",
 					"origin": [0, 6, 0],
 					"color": 1,
+					"onSummonFunction": "",
 					"configs": {
 						"variants": {}
 					},
@@ -1321,6 +1301,7 @@
 							"name": "torso1",
 							"origin": [0, 6, 0],
 							"color": 2,
+							"onSummonFunction": "",
 							"configs": {
 								"variants": {}
 							},
@@ -1340,6 +1321,7 @@
 									"name": "mouths1",
 									"origin": [0, 3.75, -5],
 									"color": 3,
+									"onSummonFunction": "",
 									"configs": {
 										"variants": {}
 									},
@@ -1356,6 +1338,7 @@
 											"name": "closed_mouth1",
 											"origin": [1, 3.25, -5],
 											"color": 4,
+											"onSummonFunction": "",
 											"configs": {
 												"variants": {}
 											},
@@ -1375,6 +1358,7 @@
 													"name": "closed_mouth_left1",
 													"origin": [-4.5, 3.75, -5],
 													"color": 5,
+													"onSummonFunction": "",
 													"configs": {
 														"variants": {}
 													},
@@ -1392,6 +1376,7 @@
 													"name": "closed_mouth_right1",
 													"origin": [4.5, 3.75, -5],
 													"color": 6,
+													"onSummonFunction": "",
 													"configs": {
 														"variants": {}
 													},
@@ -1411,6 +1396,7 @@
 											"name": "mouth_expressions1",
 											"origin": [0, 0, 0.1],
 											"color": 7,
+											"onSummonFunction": "",
 											"configs": {
 												"variants": {}
 											},
@@ -1427,6 +1413,7 @@
 													"name": "mouth_half_open1",
 													"origin": [0, 2.75, -5],
 													"color": 8,
+													"onSummonFunction": "",
 													"configs": {
 														"variants": {}
 													},
@@ -1444,6 +1431,7 @@
 													"name": "mouth_full_open1",
 													"origin": [0, 4, -4.9],
 													"color": 9,
+													"onSummonFunction": "",
 													"configs": {
 														"variants": {}
 													},
@@ -1461,6 +1449,7 @@
 													"name": "mouth_tongue_full_open1",
 													"origin": [0, 3, -4.9],
 													"color": 0,
+													"onSummonFunction": "",
 													"configs": {
 														"variants": {}
 													},
@@ -1478,6 +1467,7 @@
 															"name": "tougue1",
 															"origin": [0, 2.5, -5],
 															"color": 1,
+															"onSummonFunction": "",
 															"configs": {
 																"variants": {}
 															},
@@ -1495,6 +1485,7 @@
 																	"name": "tougue6",
 																	"origin": [0, 2.5, -9.5],
 																	"color": 2,
+																	"onSummonFunction": "",
 																	"configs": {
 																		"variants": {}
 																	},
@@ -1512,6 +1503,7 @@
 																			"name": "tougue7",
 																			"origin": [0, 2.5, -9.5],
 																			"color": 3,
+																			"onSummonFunction": "",
 																			"configs": {
 																				"variants": {}
 																			},
@@ -1529,6 +1521,7 @@
 																					"name": "tougue8",
 																					"origin": [0, 2.5, -15.5],
 																					"color": 4,
+																					"onSummonFunction": "",
 																					"configs": {
 																						"variants": {}
 																					},
@@ -1546,6 +1539,7 @@
 																							"name": "tougue9",
 																							"origin": [0, 2.5, -15.5],
 																							"color": 5,
+																							"onSummonFunction": "",
 																							"configs": {
 																								"variants": {}
 																							},
@@ -1575,6 +1569,7 @@
 											"name": "blush1",
 											"origin": [-0.5, -0.5, 2],
 											"color": 6,
+											"onSummonFunction": "",
 											"configs": {
 												"variants": {}
 											},
@@ -1591,6 +1586,7 @@
 													"name": "blush_right1",
 													"origin": [5.4, 4, -3],
 													"color": 7,
+													"onSummonFunction": "",
 													"configs": {
 														"variants": {}
 													},
@@ -1608,6 +1604,7 @@
 													"name": "blush_left1",
 													"origin": [-5.4, 4, -3],
 													"color": 8,
+													"onSummonFunction": "",
 													"configs": {
 														"variants": {}
 													},
@@ -1629,6 +1626,7 @@
 									"name": "eyes1",
 									"origin": [0, 7.25, -5],
 									"color": 9,
+									"onSummonFunction": "",
 									"configs": {
 										"variants": {}
 									},
@@ -1645,6 +1643,7 @@
 											"name": "left_eye1",
 											"origin": [-5.75, 8.25, -5.1],
 											"color": 0,
+											"onSummonFunction": "",
 											"configs": {
 												"variants": {}
 											},
@@ -1661,6 +1660,7 @@
 													"name": "left_eye_rotation1",
 													"origin": [-1.75, 6.25, -5],
 													"color": 1,
+													"onSummonFunction": "",
 													"configs": {
 														"variants": {}
 													},
@@ -1678,6 +1678,7 @@
 													"name": "left_angry_eye1",
 													"origin": [1.25, 5.5, -3.1],
 													"color": 2,
+													"onSummonFunction": "",
 													"configs": {
 														"variants": {}
 													},
@@ -1695,6 +1696,7 @@
 													"name": "left_pupil1",
 													"origin": [-3.25, 6.75, -5.1],
 													"color": 3,
+													"onSummonFunction": "",
 													"configs": {
 														"variants": {}
 													},
@@ -1712,6 +1714,7 @@
 													"name": "left_pupil_closed1",
 													"origin": [-4.5, 6.75, -5],
 													"color": 4,
+													"onSummonFunction": "",
 													"configs": {
 														"variants": {}
 													},
@@ -1729,6 +1732,7 @@
 															"name": "left_pupil_closed3",
 															"origin": [-3, 6.25, -5],
 															"color": 5,
+															"onSummonFunction": "",
 															"configs": {
 																"variants": {}
 															},
@@ -1750,6 +1754,7 @@
 											"name": "right_eye1",
 											"origin": [5.75, 8.25, -5.1],
 											"color": 6,
+											"onSummonFunction": "",
 											"configs": {
 												"variants": {}
 											},
@@ -1766,6 +1771,7 @@
 													"name": "right_eye_rotation1",
 													"origin": [1.75, 6.25, -5],
 													"color": 7,
+													"onSummonFunction": "",
 													"configs": {
 														"variants": {}
 													},
@@ -1783,6 +1789,7 @@
 													"name": "right_angry_eye1",
 													"origin": [-1.25, 5.5, -3.1],
 													"color": 8,
+													"onSummonFunction": "",
 													"configs": {
 														"variants": {}
 													},
@@ -1800,6 +1807,7 @@
 													"name": "right_pupil1",
 													"origin": [3.25, 6.75, -5.1],
 													"color": 9,
+													"onSummonFunction": "",
 													"configs": {
 														"variants": {}
 													},
@@ -1817,6 +1825,7 @@
 													"name": "right_pupil_closed1",
 													"origin": [4.5, 6.75, -5],
 													"color": 0,
+													"onSummonFunction": "",
 													"configs": {
 														"variants": {}
 													},
@@ -1834,6 +1843,7 @@
 															"name": "right_pupil_closed3",
 															"origin": [3, 6.25, -5],
 															"color": 1,
+															"onSummonFunction": "",
 															"configs": {
 																"variants": {}
 															},
@@ -1862,7 +1872,7 @@
 	],
 	"textures": [
 		{
-			"path": "C:\\Users\\Patri\\AppData\\Roaming\\PrismLauncher\\instances\\Main (Experimental)\\minecraft\\resourcepacks\\super_smash_bros_recrafted_assets\\assets\\ssbrc\\textures\\common\\pokemon\\pokemon\\gastly\\default.png",
+			"path": "C:\\Patrick\\Minecraft\\projects\\ssbrc\\src\\assets\\ssbrc\\textures\\common\\pokemon\\pokemon\\gastly\\default.png",
 			"name": "default.png",
 			"folder": "",
 			"namespace": "",
@@ -1887,10 +1897,10 @@
 			"internal": false,
 			"saved": true,
 			"uuid": "82d75bd8-22a7-9951-be29-4d5b0050d917",
-			"relative_path": "../../assets/ssbrc/textures/common/pokemon/pokemon/gastly/default.png"
+			"relative_path": "../../src/assets/ssbrc/textures/common/pokemon/pokemon/gastly/default.png"
 		},
 		{
-			"path": "C:\\Users\\Patri\\AppData\\Roaming\\PrismLauncher\\instances\\Main (Experimental)\\minecraft\\resourcepacks\\super_smash_bros_recrafted_assets\\assets\\ssbrc\\textures\\common\\pokemon\\pokemon\\gastly\\shiny.png",
+			"path": "C:\\Patrick\\Minecraft\\projects\\ssbrc\\src\\assets\\ssbrc\\textures\\common\\pokemon\\pokemon\\gastly\\shiny.png",
 			"name": "shiny.png",
 			"folder": "",
 			"namespace": "",
@@ -1915,7 +1925,7 @@
 			"internal": false,
 			"saved": true,
 			"uuid": "504a30ac-5b9c-fcbb-9593-3df1e958cf01",
-			"relative_path": "../../assets/ssbrc/textures/common/pokemon/pokemon/gastly/shiny.png"
+			"relative_path": "../../src/assets/ssbrc/textures/common/pokemon/pokemon/gastly/shiny.png"
 		}
 	],
 	"variants": {
@@ -1948,7 +1958,7 @@
 			"length": 2,
 			"snapping": 20,
 			"selected": true,
-			"saved": false,
+			"saved": true,
 			"path": "C:\\Users\\Patri\\OneDrive\\Documents\\Patrick\\Minecraft\\cobblemon\\cobblemon\\common\\src\\main\\resources\\assets\\cobblemon\\bedrock\\pokemon\\animations\\0092_gastly\\gastly.animation.json",
 			"anim_time_update": "",
 			"blend_weight": "",
@@ -2096,6 +2106,5 @@
 				}
 			}
 		}
-	],
-	"animation_controllers": []
+	]
 }

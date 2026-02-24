@@ -1,45 +1,23 @@
 {
 	"meta": {
-		"format": "animated_java_blueprint",
-		"format_version": "1.7.2",
+		"format": "animated-java:format/blueprint",
+		"format_version": "1.8.1",
 		"uuid": "25168702-0a26-8ce8-5211-620acb2e223b",
-		"save_location": "C:\\Users\\Patri\\AppData\\Roaming\\PrismLauncher\\instances\\Main (Experimental)\\minecraft\\resourcepacks\\super_smash_bros_recrafted_assets\\ajblueprints\\pokemon\\diglett.ajblueprint",
+		"save_location": "C:\\Patrick\\Minecraft\\projects\\ssbrc\\ajblueprints\\pokemon\\diglett.ajblueprint",
 		"last_used_export_namespace": "diglett"
-	},
-	"blueprint_settings": {
-		"export_namespace": "diglett",
-		"show_bounding_box": false,
-		"auto_bounding_box": true,
-		"bounding_box": [48, 48],
-		"enable_plugin_mode": false,
-		"resource_pack_export_mode": "raw",
-		"data_pack_export_mode": "raw",
-		"target_minecraft_versions": ["1.21.5"],
-		"display_item": "minecraft:diamond",
-		"custom_model_data_offset": 0,
-		"enable_advanced_resource_pack_settings": false,
-		"resource_pack": "C:\\Users\\Patri\\AppData\\Roaming\\PrismLauncher\\instances\\Main (Experimental)\\minecraft\\resourcepacks\\super_smash_bros_recrafted_assets",
-		"enable_advanced_data_pack_settings": false,
-		"data_pack": "C:\\Users\\Patri\\AppData\\Roaming\\PrismLauncher\\instances\\Main (Experimental)\\minecraft\\saves\\SSBRC\\datapacks\\super_smash_bros_recrafted",
-		"summon_commands": "function ssbrc:logic/pokemon/init {name:\"diglett\"}",
-		"remove_commands": "",
-		"ticking_commands": "",
-		"interpolation_duration": 1,
-		"teleportation_duration": 1,
-		"use_storage_for_animation": false,
-		"show_function_errors": true,
-		"show_outdated_warning": true,
-		"baked_animations": true,
-		"json_file": "",
-		"target_minecraft_version": "1.21.4",
-		"enable_advanced_resource_pack_folders": false,
-		"display_item_path": "",
-		"model_folder": "",
-		"texture_folder": ""
 	},
 	"resolution": {
 		"width": 64,
 		"height": 32
+	},
+	"blueprint_settings": {
+		"export_namespace": "diglett",
+		"render_box": [48, 48],
+		"display_item": "minecraft:diamond",
+		"resource_pack": "C:\\Patrick\\Minecraft\\projects\\ssbrc\\src",
+		"data_pack": "C:\\Patrick\\Minecraft\\projects\\ssbrc\\src",
+		"on_summon_function": "function ssbrc:logic/pokemon/init {name:\"diglett\"}",
+		"auto_update_rig_orientation": false
 	},
 	"elements": [
 		{
@@ -526,6 +504,7 @@
 			"name": "diglett1",
 			"origin": [0, 1, 0],
 			"color": 0,
+			"onSummonFunction": "",
 			"configs": {
 				"variants": {}
 			},
@@ -542,6 +521,7 @@
 					"name": "ground1",
 					"origin": [0, 0, 0],
 					"color": 1,
+					"onSummonFunction": "",
 					"configs": {
 						"variants": {}
 					},
@@ -560,6 +540,7 @@
 							"name": "body1",
 							"origin": [0, 3, 0],
 							"color": 2,
+							"onSummonFunction": "",
 							"configs": {
 								"variants": {}
 							},
@@ -577,6 +558,7 @@
 									"name": "body3",
 									"origin": [0, 6, 0],
 									"color": 3,
+									"onSummonFunction": "",
 									"configs": {
 										"variants": {}
 									},
@@ -594,6 +576,7 @@
 											"name": "nose1",
 											"origin": [0, 7.25, -3.5],
 											"color": 4,
+											"onSummonFunction": "",
 											"configs": {
 												"variants": {}
 											},
@@ -611,6 +594,7 @@
 											"name": "eyes1",
 											"origin": [0, 9.5, -3.55],
 											"color": 5,
+											"onSummonFunction": "",
 											"configs": {
 												"variants": {}
 											},
@@ -627,6 +611,7 @@
 													"name": "eye_left1",
 													"origin": [-1.5, 9.5, -3.52],
 													"color": 6,
+													"onSummonFunction": "",
 													"configs": {
 														"variants": {}
 													},
@@ -644,6 +629,7 @@
 															"name": "pupil_left1",
 															"origin": [-1.5, 10, -3.53],
 															"color": 7,
+															"onSummonFunction": "",
 															"configs": {
 																"variants": {}
 															},
@@ -661,6 +647,7 @@
 															"name": "eyelid_left1",
 															"origin": [-1.5, 9.5, -2.93],
 															"color": 8,
+															"onSummonFunction": "",
 															"configs": {
 																"variants": {}
 															},
@@ -680,6 +667,7 @@
 													"name": "eye_right1",
 													"origin": [1.5, 9.5, -3.52],
 													"color": 9,
+													"onSummonFunction": "",
 													"configs": {
 														"variants": {}
 													},
@@ -697,6 +685,7 @@
 															"name": "pupil_right1",
 															"origin": [1.5, 10, -3.53],
 															"color": 0,
+															"onSummonFunction": "",
 															"configs": {
 																"variants": {}
 															},
@@ -714,6 +703,7 @@
 															"name": "eyelid_right1",
 															"origin": [1.5, 9.5, -2.93],
 															"color": 1,
+															"onSummonFunction": "",
 															"configs": {
 																"variants": {}
 															},
@@ -742,7 +732,7 @@
 	],
 	"textures": [
 		{
-			"path": "C:\\Users\\Patri\\AppData\\Roaming\\PrismLauncher\\instances\\Main (Experimental)\\minecraft\\resourcepacks\\super_smash_bros_recrafted_assets\\assets\\ssbrc\\textures\\common\\pokemon\\pokemon\\diglett\\default.png",
+			"path": "C:\\Patrick\\Minecraft\\projects\\ssbrc\\src\\assets\\ssbrc\\textures\\common\\pokemon\\pokemon\\diglett\\default.png",
 			"name": "default.png",
 			"folder": "",
 			"namespace": "",
@@ -767,10 +757,10 @@
 			"internal": false,
 			"saved": true,
 			"uuid": "306177ff-7f75-5c14-e613-26a6f36cae16",
-			"relative_path": "../../assets/ssbrc/textures/common/pokemon/pokemon/diglett/default.png"
+			"relative_path": "../../src/assets/ssbrc/textures/common/pokemon/pokemon/diglett/default.png"
 		},
 		{
-			"path": "C:\\Users\\Patri\\AppData\\Roaming\\PrismLauncher\\instances\\Main (Experimental)\\minecraft\\resourcepacks\\super_smash_bros_recrafted_assets\\assets\\ssbrc\\textures\\common\\pokemon\\pokemon\\diglett\\shiny.png",
+			"path": "C:\\Patrick\\Minecraft\\projects\\ssbrc\\src\\assets\\ssbrc\\textures\\common\\pokemon\\pokemon\\diglett\\shiny.png",
 			"name": "shiny.png",
 			"folder": "",
 			"namespace": "",
@@ -795,7 +785,7 @@
 			"internal": false,
 			"saved": true,
 			"uuid": "a9412073-ce7a-1a06-5447-cd226850ba15",
-			"relative_path": "../../assets/ssbrc/textures/common/pokemon/pokemon/diglett/shiny.png"
+			"relative_path": "../../src/assets/ssbrc/textures/common/pokemon/pokemon/diglett/shiny.png"
 		}
 	],
 	"variants": {
@@ -828,7 +818,7 @@
 			"length": 4,
 			"snapping": 20,
 			"selected": true,
-			"saved": false,
+			"saved": true,
 			"path": "C:\\Users\\Patri\\OneDrive\\Documents\\Patrick\\Minecraft\\cobblemon\\cobblemon\\common\\src\\main\\resources\\assets\\cobblemon\\bedrock\\pokemon\\animations\\0050_diglett\\diglett.animation.json",
 			"anim_time_update": "",
 			"blend_weight": "",
@@ -876,6 +866,5 @@
 				}
 			}
 		}
-	],
-	"animation_controllers": []
+	]
 }

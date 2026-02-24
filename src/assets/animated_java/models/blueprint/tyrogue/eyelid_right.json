@@ -1,6 +1,6 @@
 {
 	"textures": {
-		"0": "ssbrc:common/pokemon/pokemon/tyrogue/default",
+		"0": "cobblemon:pokemon/0236_tyrogue/tyrogue",
 		"particle": "minecraft:item/pufferfish"
 	},
 	"display": {
@@ -10,8 +10,13 @@
 	},
 	"elements": [
 		{
-			"from": [6.98525, 6.5552, 7.47],
-			"to": [10.00525, 9.5752, 8.49],
+			"from": [6.98525, 6.5552, 7.57],
+			"to": [10.00525, 9.5752, 8.59],
+			"rotation": {
+				"angle": 0,
+				"axis": "y",
+				"origin": [6.25, -11.5, 11.51]
+			},
 			"faces": {
 				"north": {
 					"uv": [6.25, 9.75, 7, 10.5],

@@ -23,4 +23,5 @@ $data merge entity $(bone_right_pupil1) {transformation: [1f,0.0027f,0f,0.2188f,
 $data merge entity $(bone_right_pupil_closed3) {transformation: [1f,0.0027f,0f,0.2031f,-0.0027f,0.9999f,-0.0149f,0.7217f,0f,0.0149f,0.9999f,-0.3312f,0f,0f,0f,1f],start_interpolation: 0,interpolation_duration: 1}
 $data merge entity $(bone_right_pupil_closed1) {transformation: [1f,0.0027f,0f,0.2969f,-0.0027f,0.9999f,-0.0149f,0.7527f,0f,0.0149f,0.9999f,-0.3307f,0f,0f,0f,1f],start_interpolation: 0,interpolation_duration: 1}
 $data merge entity $(bone_torso1) {transformation: [1f,0.0027f,0.0001f,0.0156f,-0.0027f,0.9996f,0.0287f,0.7152f,0f,-0.0287f,0.9996f,0f,0f,0f,0f,1f],start_interpolation: 0,interpolation_duration: 1}
-data modify entity @s data merge value {"cameras":{},"locators":{"gas":{"posx":0.015269820423977454,"posy":0.5974220700147453,"posz":0.25348596261922113,"roty":5.313796509917978,"rotx":88.3475789146687}}}
+data modify entity @s data merge value {"cameras":{},"locators":{"gas":{"px":0.015269820423977454,"py":0.5974220700147453,"pz":0.25348596261922113,"ry":5.313796509917978,"rx":88.3475789146687}}}
+function animated_java:gastly/animations/ground_idle/zzz/frames/on_tick/transform_floating_entities

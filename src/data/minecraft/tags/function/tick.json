@@ -1,3 +1,4 @@
 {
-	"values": ["animated_java:global/on_tick", "ssbrc:logic/tick"]
+	"replace": false,
+	"values": ["ssbrc:logic/tick", "animated_java:global/on_tick"]
 }

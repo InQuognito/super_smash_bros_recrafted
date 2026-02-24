@@ -1,6 +1,6 @@
 {
 	"textures": {
-		"0": "ssbrc:common/pokemon/pokemon/tyrogue/default",
+		"0": "cobblemon:pokemon/0236_tyrogue/tyrogue",
 		"particle": "minecraft:item/pufferfish"
 	},
 	"display": {

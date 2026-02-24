@@ -1,45 +1,23 @@
 {
 	"meta": {
-		"format": "animated_java_blueprint",
-		"format_version": "1.7.2",
+		"format": "animated-java:format/blueprint",
+		"format_version": "1.8.1",
 		"uuid": "009c6214-3fea-8e9d-7600-c026c91a6af5",
-		"save_location": "C:\\Users\\Patri\\AppData\\Roaming\\PrismLauncher\\instances\\Main (Experimental)\\minecraft\\resourcepacks\\super_smash_bros_recrafted_assets\\ajblueprints\\pokemon\\abra.ajblueprint",
+		"save_location": "C:\\Patrick\\Minecraft\\projects\\ssbrc\\ajblueprints\\pokemon\\abra.ajblueprint",
 		"last_used_export_namespace": "abra"
-	},
-	"blueprint_settings": {
-		"export_namespace": "abra",
-		"show_bounding_box": false,
-		"auto_bounding_box": true,
-		"bounding_box": [48, 48],
-		"enable_plugin_mode": false,
-		"resource_pack_export_mode": "raw",
-		"data_pack_export_mode": "raw",
-		"target_minecraft_versions": ["1.21.5"],
-		"display_item": "minecraft:diamond",
-		"custom_model_data_offset": 0,
-		"enable_advanced_resource_pack_settings": false,
-		"resource_pack": "C:\\Users\\Patri\\AppData\\Roaming\\PrismLauncher\\instances\\Main (Experimental)\\minecraft\\resourcepacks\\super_smash_bros_recrafted_assets",
-		"enable_advanced_data_pack_settings": false,
-		"data_pack": "C:\\Users\\Patri\\AppData\\Roaming\\PrismLauncher\\instances\\Main (Experimental)\\minecraft\\saves\\SSBRC\\datapacks\\super_smash_bros_recrafted",
-		"summon_commands": "function ssbrc:stage/pallet_town/logic/pokemon/abra/init",
-		"remove_commands": "",
-		"ticking_commands": "",
-		"interpolation_duration": 1,
-		"teleportation_duration": 1,
-		"use_storage_for_animation": false,
-		"show_function_errors": true,
-		"show_outdated_warning": true,
-		"baked_animations": true,
-		"json_file": "",
-		"target_minecraft_version": "1.21.4",
-		"enable_advanced_resource_pack_folders": false,
-		"display_item_path": "",
-		"model_folder": "",
-		"texture_folder": ""
 	},
 	"resolution": {
 		"width": 64,
 		"height": 32
+	},
+	"blueprint_settings": {
+		"export_namespace": "abra",
+		"render_box": [48, 48],
+		"display_item": "minecraft:diamond",
+		"resource_pack": "C:\\Patrick\\Minecraft\\projects\\ssbrc\\src",
+		"data_pack": "C:\\Patrick\\Minecraft\\projects\\ssbrc\\src",
+		"on_summon_function": "function ssbrc:stage/pallet_town/logic/pokemon/abra/init",
+		"auto_update_rig_orientation": false
 	},
 	"elements": [
 		{
@@ -2348,6 +2326,7 @@
 			"name": "abra1",
 			"origin": [0, 0, 0],
 			"color": 0,
+			"onSummonFunction": "",
 			"configs": {
 				"variants": {}
 			},
@@ -2364,6 +2343,7 @@
 					"name": "body1",
 					"origin": [0, 11.5, 0],
 					"color": 1,
+					"onSummonFunction": "",
 					"configs": {
 						"variants": {}
 					},
@@ -2380,6 +2360,7 @@
 							"name": "torso1",
 							"origin": [0, 8.5, 0],
 							"color": 2,
+							"onSummonFunction": "",
 							"configs": {
 								"variants": {}
 							},
@@ -2397,6 +2378,7 @@
 									"name": "tail1",
 									"origin": [0, 8.25, 1.75],
 									"color": 3,
+									"onSummonFunction": "",
 									"configs": {
 										"variants": {}
 									},
@@ -2414,6 +2396,7 @@
 											"name": "tail5",
 											"origin": [0, 6.75, 5.75],
 											"color": 4,
+											"onSummonFunction": "",
 											"configs": {
 												"variants": {}
 											},
@@ -2431,6 +2414,7 @@
 													"name": "tail6",
 													"origin": [0, 6.75, 9.75],
 													"color": 5,
+													"onSummonFunction": "",
 													"configs": {
 														"variants": {}
 													},
@@ -2448,6 +2432,7 @@
 															"name": "tail7",
 															"origin": [0, 8.25, 13.75],
 															"color": 6,
+															"onSummonFunction": "",
 															"configs": {
 																"variants": {}
 															},
@@ -2471,6 +2456,7 @@
 									"name": "chest1",
 									"origin": [0, 10, 2],
 									"color": 7,
+									"onSummonFunction": "",
 									"configs": {
 										"variants": {}
 									},
@@ -2488,6 +2474,7 @@
 											"name": "pad_right1",
 											"origin": [2.5, 13, 0],
 											"color": 8,
+											"onSummonFunction": "",
 											"configs": {
 												"variants": {}
 											},
@@ -2510,6 +2497,7 @@
 											"name": "pad_left1",
 											"origin": [-2.5, 13, 0],
 											"color": 9,
+											"onSummonFunction": "",
 											"configs": {
 												"variants": {}
 											},
@@ -2532,6 +2520,7 @@
 											"name": "head1",
 											"origin": [0, 15, 0],
 											"color": 0,
+											"onSummonFunction": "",
 											"configs": {
 												"variants": {}
 											},
@@ -2551,6 +2540,7 @@
 													"origin": [0, 15.25, -2.25],
 													"rotation": [-55, 0, 0],
 													"color": 1,
+													"onSummonFunction": "",
 													"configs": {
 														"variants": {}
 													},
@@ -2568,6 +2558,7 @@
 													"name": "eyes1",
 													"origin": [0, 17.85355, -3.05],
 													"color": 2,
+													"onSummonFunction": "",
 													"configs": {
 														"variants": {}
 													},
@@ -2585,6 +2576,7 @@
 															"origin": [2, 17.5, -3.01],
 															"rotation": [0, 0, 25],
 															"color": 3,
+															"onSummonFunction": "",
 															"configs": {
 																"variants": {}
 															},
@@ -2603,6 +2595,7 @@
 															"origin": [-2, 17.5, -3.01],
 															"rotation": [0, 0, -25],
 															"color": 4,
+															"onSummonFunction": "",
 															"configs": {
 																"variants": {}
 															},
@@ -2623,6 +2616,7 @@
 													"origin": [3.5, 19.25, 0.5],
 													"rotation": [0, 55, -15],
 													"color": 5,
+													"onSummonFunction": "",
 													"configs": {
 														"variants": {}
 													},
@@ -2641,6 +2635,7 @@
 													"origin": [-3.5, 19.25, 0.5],
 													"rotation": [0, -55, 15],
 													"color": 6,
+													"onSummonFunction": "",
 													"configs": {
 														"variants": {}
 													},
@@ -2660,6 +2655,7 @@
 											"name": "arm_right1",
 											"origin": [2.5, 14.25, 0],
 											"color": 7,
+											"onSummonFunction": "",
 											"configs": {
 												"variants": {}
 											},
@@ -2677,6 +2673,7 @@
 													"name": "forearm_right1",
 													"origin": [7, 13.5, 1],
 													"color": 8,
+													"onSummonFunction": "",
 													"configs": {
 														"variants": {}
 													},
@@ -2695,6 +2692,7 @@
 															"origin": [12, 14.25, -0.5],
 															"rotation": [0, 15, 0],
 															"color": 9,
+															"onSummonFunction": "",
 															"configs": {
 																"variants": {}
 															},
@@ -2712,6 +2710,7 @@
 																	"name": "finger_index_right3",
 																	"origin": [13, 14.25, -1],
 																	"color": 0,
+																	"onSummonFunction": "",
 																	"configs": {
 																		"variants": {}
 																	},
@@ -2731,6 +2730,7 @@
 															"name": "finger_middle_right1",
 															"origin": [12, 14.25, 0],
 															"color": 1,
+															"onSummonFunction": "",
 															"configs": {
 																"variants": {}
 															},
@@ -2748,6 +2748,7 @@
 																	"name": "finger_middle_right3",
 																	"origin": [13, 14.25, 0],
 																	"color": 2,
+																	"onSummonFunction": "",
 																	"configs": {
 																		"variants": {}
 																	},
@@ -2768,6 +2769,7 @@
 															"origin": [12, 14.25, 0.5],
 															"rotation": [0, -15, 0],
 															"color": 3,
+															"onSummonFunction": "",
 															"configs": {
 																"variants": {}
 															},
@@ -2785,6 +2787,7 @@
 																	"name": "finger_pinky_right3",
 																	"origin": [13, 14.25, 1],
 																	"color": 4,
+																	"onSummonFunction": "",
 																	"configs": {
 																		"variants": {}
 																	},
@@ -2808,6 +2811,7 @@
 											"name": "arm_left1",
 											"origin": [-2.5, 14.25, 0],
 											"color": 5,
+											"onSummonFunction": "",
 											"configs": {
 												"variants": {}
 											},
@@ -2825,6 +2829,7 @@
 													"name": "forearm_left1",
 													"origin": [-7, 13.5, 1],
 													"color": 6,
+													"onSummonFunction": "",
 													"configs": {
 														"variants": {}
 													},
@@ -2843,6 +2848,7 @@
 															"origin": [-12, 14.25, -0.5],
 															"rotation": [0, -15, 0],
 															"color": 7,
+															"onSummonFunction": "",
 															"configs": {
 																"variants": {}
 															},
@@ -2860,6 +2866,7 @@
 																	"name": "finger_index_left3",
 																	"origin": [-13, 14.25, -1],
 																	"color": 8,
+																	"onSummonFunction": "",
 																	"configs": {
 																		"variants": {}
 																	},
@@ -2879,6 +2886,7 @@
 															"name": "finger_middle_left1",
 															"origin": [-12, 14.25, 0],
 															"color": 9,
+															"onSummonFunction": "",
 															"configs": {
 																"variants": {}
 															},
@@ -2896,6 +2904,7 @@
 																	"name": "finger_middle_left3",
 																	"origin": [-13, 14.25, 0],
 																	"color": 0,
+																	"onSummonFunction": "",
 																	"configs": {
 																		"variants": {}
 																	},
@@ -2916,6 +2925,7 @@
 															"origin": [-12, 14.25, 0.5],
 															"rotation": [0, 15, 0],
 															"color": 1,
+															"onSummonFunction": "",
 															"configs": {
 																"variants": {}
 															},
@@ -2933,6 +2943,7 @@
 																	"name": "finger_pinky_left3",
 																	"origin": [-13, 14.25, 1],
 																	"color": 2,
+																	"onSummonFunction": "",
 																	"configs": {
 																		"variants": {}
 																	},
@@ -2960,6 +2971,7 @@
 							"name": "leg_right1",
 							"origin": [2, 8.75, 0],
 							"color": 3,
+							"onSummonFunction": "",
 							"configs": {
 								"variants": {}
 							},
@@ -2977,6 +2989,7 @@
 									"name": "knee_right1",
 									"origin": [2, 4.75, -1],
 									"color": 4,
+									"onSummonFunction": "",
 									"configs": {
 										"variants": {}
 									},
@@ -2994,6 +3007,7 @@
 											"name": "foot_right1",
 											"origin": [2, 1, 0],
 											"color": 5,
+											"onSummonFunction": "",
 											"configs": {
 												"variants": {}
 											},
@@ -3012,6 +3026,7 @@
 													"origin": [3, 1, -1.5],
 													"rotation": [0, -10, 0],
 													"color": 6,
+													"onSummonFunction": "",
 													"configs": {
 														"variants": {}
 													},
@@ -3029,6 +3044,7 @@
 															"name": "toe_outer_right3",
 															"origin": [2.5, 1, -2.5],
 															"color": 7,
+															"onSummonFunction": "",
 															"configs": {
 																"variants": {}
 															},
@@ -3049,6 +3065,7 @@
 													"origin": [1, 1, -1.5],
 													"rotation": [0, 10, 0],
 													"color": 8,
+													"onSummonFunction": "",
 													"configs": {
 														"variants": {}
 													},
@@ -3066,6 +3083,7 @@
 															"name": "toe_inner_right3",
 															"origin": [1.5, 1, -2.5],
 															"color": 9,
+															"onSummonFunction": "",
 															"configs": {
 																"variants": {}
 															},
@@ -3085,6 +3103,7 @@
 													"name": "toe_back_right1",
 													"origin": [2, 1, 1.75],
 													"color": 0,
+													"onSummonFunction": "",
 													"configs": {
 														"variants": {}
 													},
@@ -3108,6 +3127,7 @@
 							"name": "leg_left1",
 							"origin": [-2, 8.75, 0],
 							"color": 1,
+							"onSummonFunction": "",
 							"configs": {
 								"variants": {}
 							},
@@ -3125,6 +3145,7 @@
 									"name": "knee_left1",
 									"origin": [-2, 4.75, -1],
 									"color": 2,
+									"onSummonFunction": "",
 									"configs": {
 										"variants": {}
 									},
@@ -3142,6 +3163,7 @@
 											"name": "foot_left1",
 											"origin": [-2, 1, 0],
 											"color": 3,
+											"onSummonFunction": "",
 											"configs": {
 												"variants": {}
 											},
@@ -3160,6 +3182,7 @@
 													"origin": [-3, 1, -1.5],
 													"rotation": [0, 10, 0],
 													"color": 4,
+													"onSummonFunction": "",
 													"configs": {
 														"variants": {}
 													},
@@ -3177,6 +3200,7 @@
 															"name": "toe_outer_left3",
 															"origin": [-2.5, 1, -2.5],
 															"color": 5,
+															"onSummonFunction": "",
 															"configs": {
 																"variants": {}
 															},
@@ -3197,6 +3221,7 @@
 													"origin": [-1, 1, -1.5],
 													"rotation": [0, -10, 0],
 													"color": 6,
+													"onSummonFunction": "",
 													"configs": {
 														"variants": {}
 													},
@@ -3214,6 +3239,7 @@
 															"name": "toe_inner_left3",
 															"origin": [-1.5, 1, -2.5],
 															"color": 7,
+															"onSummonFunction": "",
 															"configs": {
 																"variants": {}
 															},
@@ -3233,6 +3259,7 @@
 													"name": "toe_back_left1",
 													"origin": [-2, 1, 1.75],
 													"color": 8,
+													"onSummonFunction": "",
 													"configs": {
 														"variants": {}
 													},
@@ -3259,7 +3286,7 @@
 	],
 	"textures": [
 		{
-			"path": "C:\\Users\\Patri\\AppData\\Roaming\\PrismLauncher\\instances\\Main (Experimental)\\minecraft\\resourcepacks\\super_smash_bros_recrafted_assets\\assets\\ssbrc\\textures\\common\\pokemon\\pokemon\\abra\\default.png",
+			"path": "C:\\Patrick\\Minecraft\\projects\\ssbrc\\src\\assets\\ssbrc\\textures\\common\\pokemon\\pokemon\\abra\\default.png",
 			"name": "default.png",
 			"folder": "",
 			"namespace": "",
@@ -3284,10 +3311,10 @@
 			"internal": false,
 			"saved": true,
 			"uuid": "eead6927-24d9-3e87-ae3e-5f8de0d56068",
-			"relative_path": "../../assets/ssbrc/textures/common/pokemon/pokemon/abra/default.png"
+			"relative_path": "../../src/assets/ssbrc/textures/common/pokemon/pokemon/abra/default.png"
 		},
 		{
-			"path": "C:\\Users\\Patri\\AppData\\Roaming\\PrismLauncher\\instances\\Main (Experimental)\\minecraft\\resourcepacks\\super_smash_bros_recrafted_assets\\assets\\ssbrc\\textures\\common\\pokemon\\pokemon\\abra\\shiny.png",
+			"path": "C:\\Patrick\\Minecraft\\projects\\ssbrc\\src\\assets\\ssbrc\\textures\\common\\pokemon\\pokemon\\abra\\shiny.png",
 			"name": "shiny.png",
 			"folder": "",
 			"namespace": "",
@@ -3312,7 +3339,7 @@
 			"internal": false,
 			"saved": true,
 			"uuid": "8dea8f5b-5fd0-06da-02cf-d43150a925fd",
-			"relative_path": "../../assets/ssbrc/textures/common/pokemon/pokemon/abra/shiny.png"
+			"relative_path": "../../src/assets/ssbrc/textures/common/pokemon/pokemon/abra/shiny.png"
 		}
 	],
 	"variants": {
@@ -3345,7 +3372,7 @@
 			"length": 4,
 			"snapping": 20,
 			"selected": true,
-			"saved": false,
+			"saved": true,
 			"path": "C:\\Users\\Patri\\OneDrive\\Documents\\Patrick\\Minecraft\\cobblemon\\cobblemon\\common\\src\\main\\resources\\assets\\cobblemon\\bedrock\\pokemon\\animations\\0063_abra\\abra.animation.json",
 			"anim_time_update": "",
 			"blend_weight": "",
@@ -4141,6 +4168,5 @@
 				}
 			}
 		}
-	],
-	"animation_controllers": []
+	]
 }

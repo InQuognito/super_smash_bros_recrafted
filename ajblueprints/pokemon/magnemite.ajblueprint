@@ -1,45 +1,23 @@
 {
 	"meta": {
-		"format": "animated_java_blueprint",
-		"format_version": "1.7.2",
+		"format": "animated-java:format/blueprint",
+		"format_version": "1.8.1",
 		"uuid": "6ab78e66-38d4-c926-8eef-22a4a44542fe",
-		"save_location": "C:\\Users\\Patri\\AppData\\Roaming\\PrismLauncher\\instances\\Main (Experimental)\\minecraft\\resourcepacks\\super_smash_bros_recrafted_assets\\ajblueprints\\pokemon\\magnemite.ajblueprint",
+		"save_location": "C:\\Patrick\\Minecraft\\projects\\ssbrc\\ajblueprints\\pokemon\\magnemite.ajblueprint",
 		"last_used_export_namespace": "magnemite"
-	},
-	"blueprint_settings": {
-		"export_namespace": "magnemite",
-		"show_bounding_box": false,
-		"auto_bounding_box": true,
-		"bounding_box": [48, 48],
-		"enable_plugin_mode": false,
-		"resource_pack_export_mode": "raw",
-		"data_pack_export_mode": "raw",
-		"target_minecraft_versions": ["1.21.5"],
-		"display_item": "minecraft:diamond",
-		"custom_model_data_offset": 0,
-		"enable_advanced_resource_pack_settings": false,
-		"resource_pack": "C:\\Users\\Patri\\AppData\\Roaming\\PrismLauncher\\instances\\Main (Experimental)\\minecraft\\resourcepacks\\super_smash_bros_recrafted_assets",
-		"enable_advanced_data_pack_settings": false,
-		"data_pack": "C:\\Users\\Patri\\AppData\\Roaming\\PrismLauncher\\instances\\Main (Experimental)\\minecraft\\saves\\SSBRC\\datapacks\\super_smash_bros_recrafted",
-		"summon_commands": "function ssbrc:logic/pokemon/init {name:\"magnemite\"}",
-		"remove_commands": "",
-		"ticking_commands": "",
-		"interpolation_duration": 1,
-		"teleportation_duration": 1,
-		"use_storage_for_animation": false,
-		"show_function_errors": true,
-		"show_outdated_warning": true,
-		"baked_animations": true,
-		"json_file": "",
-		"target_minecraft_version": "1.21.4",
-		"enable_advanced_resource_pack_folders": false,
-		"display_item_path": "",
-		"model_folder": "",
-		"texture_folder": ""
 	},
 	"resolution": {
 		"width": 64,
 		"height": 32
+	},
+	"blueprint_settings": {
+		"export_namespace": "magnemite",
+		"render_box": [48, 48],
+		"display_item": "minecraft:diamond",
+		"resource_pack": "C:\\Patrick\\Minecraft\\projects\\ssbrc\\src",
+		"data_pack": "C:\\Patrick\\Minecraft\\projects\\ssbrc\\src",
+		"on_summon_function": "function ssbrc:logic/pokemon/init {name:\"magnemite\"}",
+		"auto_update_rig_orientation": false
 	},
 	"elements": [
 		{
@@ -784,6 +762,7 @@
 			"name": "magnemite1",
 			"origin": [0, 0, 0],
 			"color": 0,
+			"onSummonFunction": "",
 			"configs": {
 				"variants": {}
 			},
@@ -800,6 +779,7 @@
 					"name": "body1",
 					"origin": [0, 4.5, 0],
 					"color": 1,
+					"onSummonFunction": "",
 					"configs": {
 						"variants": {}
 					},
@@ -817,6 +797,7 @@
 							"name": "eye1",
 							"origin": [0, 5, -4.01],
 							"color": 2,
+							"onSummonFunction": "",
 							"configs": {
 								"variants": {}
 							},
@@ -834,6 +815,7 @@
 									"name": "pupil1",
 									"origin": [0, 5, -4.1],
 									"color": 3,
+									"onSummonFunction": "",
 									"configs": {
 										"variants": {}
 									},
@@ -851,6 +833,7 @@
 									"name": "pupil_closed1",
 									"origin": [0, 5, -3.92],
 									"color": 4,
+									"onSummonFunction": "",
 									"configs": {
 										"variants": {}
 									},
@@ -870,6 +853,7 @@
 							"name": "nail_head1",
 							"origin": [0, 9, 0],
 							"color": 5,
+							"onSummonFunction": "",
 							"configs": {
 								"variants": {}
 							},
@@ -888,6 +872,7 @@
 							"origin": [-2.75, 2, -4],
 							"rotation": [0, 25, 0],
 							"color": 6,
+							"onSummonFunction": "",
 							"configs": {
 								"variants": {}
 							},
@@ -904,6 +889,7 @@
 									"name": "nail_left_rotation1",
 									"origin": [-2.75, 2, -4],
 									"color": 7,
+									"onSummonFunction": "",
 									"configs": {
 										"variants": {}
 									},
@@ -924,6 +910,7 @@
 							"origin": [2.75, 2, -4],
 							"rotation": [0, -25, 0],
 							"color": 8,
+							"onSummonFunction": "",
 							"configs": {
 								"variants": {}
 							},
@@ -940,6 +927,7 @@
 									"name": "nail_right_rotation1",
 									"origin": [2.75, 2, -4],
 									"color": 9,
+									"onSummonFunction": "",
 									"configs": {
 										"variants": {}
 									},
@@ -959,6 +947,7 @@
 							"name": "magnets1",
 							"origin": [-0.5, 0.5, 0],
 							"color": 0,
+							"onSummonFunction": "",
 							"configs": {
 								"variants": {}
 							},
@@ -975,6 +964,7 @@
 									"name": "magnet_left1",
 									"origin": [-4, 5, 0],
 									"color": 1,
+									"onSummonFunction": "",
 									"configs": {
 										"variants": {}
 									},
@@ -992,6 +982,7 @@
 									"name": "magnet_right1",
 									"origin": [4, 5, 0],
 									"color": 2,
+									"onSummonFunction": "",
 									"configs": {
 										"variants": {}
 									},
@@ -1011,6 +1002,7 @@
 							"name": "nails1",
 							"origin": [0, 4.5, 0],
 							"color": 3,
+							"onSummonFunction": "",
 							"configs": {
 								"variants": {}
 							},
@@ -1031,7 +1023,7 @@
 	],
 	"textures": [
 		{
-			"path": "C:\\Users\\Patri\\AppData\\Roaming\\PrismLauncher\\instances\\Main (Experimental)\\minecraft\\resourcepacks\\super_smash_bros_recrafted_assets\\assets\\ssbrc\\textures\\common\\pokemon\\pokemon\\magnemite\\default.png",
+			"path": "C:\\Patrick\\Minecraft\\projects\\ssbrc\\src\\assets\\ssbrc\\textures\\common\\pokemon\\pokemon\\magnemite\\default.png",
 			"name": "default.png",
 			"folder": "",
 			"namespace": "",
@@ -1056,10 +1048,10 @@
 			"internal": false,
 			"saved": true,
 			"uuid": "6338840a-2d0b-b615-54b2-72fd638b6f51",
-			"relative_path": "../../assets/ssbrc/textures/common/pokemon/pokemon/magnemite/default.png"
+			"relative_path": "../../src/assets/ssbrc/textures/common/pokemon/pokemon/magnemite/default.png"
 		},
 		{
-			"path": "C:\\Users\\Patri\\AppData\\Roaming\\PrismLauncher\\instances\\Main (Experimental)\\minecraft\\resourcepacks\\super_smash_bros_recrafted_assets\\assets\\ssbrc\\textures\\common\\pokemon\\pokemon\\magnemite\\shiny.png",
+			"path": "C:\\Patrick\\Minecraft\\projects\\ssbrc\\src\\assets\\ssbrc\\textures\\common\\pokemon\\pokemon\\magnemite\\shiny.png",
 			"name": "shiny.png",
 			"folder": "",
 			"namespace": "",
@@ -1084,7 +1076,7 @@
 			"internal": false,
 			"saved": true,
 			"uuid": "18c29317-b36c-63a1-0f85-2832f6b99632",
-			"relative_path": "../../assets/ssbrc/textures/common/pokemon/pokemon/magnemite/shiny.png"
+			"relative_path": "../../src/assets/ssbrc/textures/common/pokemon/pokemon/magnemite/shiny.png"
 		}
 	],
 	"variants": {
@@ -1117,7 +1109,7 @@
 			"length": 37.83333,
 			"snapping": 20,
 			"selected": true,
-			"saved": false,
+			"saved": true,
 			"path": "C:\\Users\\Patri\\OneDrive\\Documents\\Patrick\\Minecraft\\cobblemon\\cobblemon\\common\\src\\main\\resources\\assets\\cobblemon\\bedrock\\pokemon\\animations\\0081_magnemite\\magnemite.animation.json",
 			"anim_time_update": "",
 			"blend_weight": "",
@@ -1319,6 +1311,5 @@
 				}
 			}
 		}
-	],
-	"animation_controllers": []
+	]
 }

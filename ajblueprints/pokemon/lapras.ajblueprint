@@ -1,45 +1,24 @@
 {
 	"meta": {
-		"format": "animated_java_blueprint",
-		"format_version": "1.7.2",
+		"format": "animated-java:format/blueprint",
+		"format_version": "1.8.1",
 		"uuid": "50b1ae3c-91b5-eca0-e59a-926da9b8435d",
-		"save_location": "C:\\Users\\Patri\\AppData\\Roaming\\PrismLauncher\\instances\\Main (Experimental)\\minecraft\\resourcepacks\\super_smash_bros_recrafted_assets\\ajblueprints\\pokemon\\lapras.ajblueprint",
+		"save_location": "C:\\Patrick\\Minecraft\\projects\\ssbrc\\ajblueprints\\pokemon\\lapras.ajblueprint",
 		"last_used_export_namespace": "lapras"
-	},
-	"blueprint_settings": {
-		"export_namespace": "lapras",
-		"show_bounding_box": false,
-		"auto_bounding_box": true,
-		"bounding_box": [48, 48],
-		"enable_plugin_mode": false,
-		"resource_pack_export_mode": "raw",
-		"data_pack_export_mode": "raw",
-		"target_minecraft_versions": ["1.21.5"],
-		"display_item": "minecraft:diamond",
-		"custom_model_data_offset": 0,
-		"enable_advanced_resource_pack_settings": false,
-		"resource_pack": "C:\\Users\\Patri\\AppData\\Roaming\\PrismLauncher\\instances\\Main (Experimental)\\minecraft\\resourcepacks\\super_smash_bros_recrafted_assets",
-		"enable_advanced_data_pack_settings": false,
-		"data_pack": "C:\\Users\\Patri\\AppData\\Roaming\\PrismLauncher\\instances\\Main (Experimental)\\minecraft\\saves\\SSBRC\\datapacks\\super_smash_bros_recrafted",
-		"summon_commands": "function ssbrc:logic/pokemon/int {name:\"lapras\"}",
-		"remove_commands": "",
-		"ticking_commands": "particle minecraft:cloud ~ ~.5 ~ .5 .1 .5 0 5 normal @a",
-		"interpolation_duration": 1,
-		"teleportation_duration": 1,
-		"use_storage_for_animation": false,
-		"show_function_errors": true,
-		"show_outdated_warning": true,
-		"baked_animations": true,
-		"json_file": "",
-		"target_minecraft_version": "1.21.4",
-		"enable_advanced_resource_pack_folders": false,
-		"display_item_path": "",
-		"model_folder": "",
-		"texture_folder": ""
 	},
 	"resolution": {
 		"width": 256,
 		"height": 128
+	},
+	"blueprint_settings": {
+		"export_namespace": "lapras",
+		"render_box": [48, 48],
+		"display_item": "minecraft:diamond",
+		"resource_pack": "C:\\Patrick\\Minecraft\\projects\\ssbrc\\src",
+		"data_pack": "C:\\Patrick\\Minecraft\\projects\\ssbrc\\src",
+		"on_summon_function": "function ssbrc:logic/pokemon/int {name:\"lapras\"}",
+		"on_post_tick_function": "particle minecraft:cloud ~ ~.5 ~ .5 .1 .5 0 5 normal @a",
+		"auto_update_rig_orientation": false
 	},
 	"elements": [
 		{
@@ -2788,6 +2767,7 @@
 			"name": "lapras",
 			"origin": [0, 0, 0],
 			"color": 0,
+			"onSummonFunction": "",
 			"configs": {
 				"variants": {}
 			},
@@ -2804,6 +2784,7 @@
 					"name": "locator_root",
 					"origin": [0, 0, 0],
 					"color": 1,
+					"onSummonFunction": "",
 					"configs": {
 						"variants": {}
 					},
@@ -2821,6 +2802,7 @@
 					"name": "body1",
 					"origin": [0, 4.5, 2],
 					"color": 2,
+					"onSummonFunction": "",
 					"configs": {
 						"variants": {}
 					},
@@ -2837,6 +2819,7 @@
 							"name": "locator_target",
 							"origin": [0, 16, -25],
 							"color": 3,
+							"onSummonFunction": "",
 							"configs": {
 								"variants": {}
 							},
@@ -2854,6 +2837,7 @@
 							"name": "locator_body",
 							"origin": [0, 0, 0],
 							"color": 4,
+							"onSummonFunction": "",
 							"configs": {
 								"variants": {}
 							},
@@ -2871,6 +2855,7 @@
 							"name": "torso",
 							"origin": [0, 10, 1],
 							"color": 5,
+							"onSummonFunction": "",
 							"configs": {
 								"variants": {}
 							},
@@ -2890,6 +2875,7 @@
 									"origin": [0, 16.5, -9],
 									"rotation": [5, 0, 0],
 									"color": 6,
+									"onSummonFunction": "",
 									"configs": {
 										"variants": {}
 									},
@@ -2914,6 +2900,7 @@
 											"origin": [0, 20.25, 7],
 											"rotation": [7.5, 0, 0],
 											"color": 7,
+											"onSummonFunction": "",
 											"configs": {
 												"variants": {}
 											},
@@ -2939,6 +2926,7 @@
 									"origin": [0, 0.5, -9],
 									"rotation": [17.5, 0, 0],
 									"color": 8,
+									"onSummonFunction": "",
 									"configs": {
 										"variants": {}
 									},
@@ -2957,6 +2945,7 @@
 											"origin": [0, 1, -17],
 											"rotation": [-42.5, 0, 0],
 											"color": 9,
+											"onSummonFunction": "",
 											"configs": {
 												"variants": {}
 											},
@@ -2975,6 +2964,7 @@
 													"origin": [0, 15, -11.75],
 													"rotation": [5, 0, 0],
 													"color": 0,
+													"onSummonFunction": "",
 													"configs": {
 														"variants": {}
 													},
@@ -2992,6 +2982,7 @@
 															"name": "neck3",
 															"origin": [0, 22, -11],
 															"color": 1,
+															"onSummonFunction": "",
 															"configs": {
 																"variants": {}
 															},
@@ -3009,6 +3000,7 @@
 																	"name": "head1",
 																	"origin": [0, 33.5, -12.5],
 																	"color": 2,
+																	"onSummonFunction": "",
 																	"configs": {
 																		"variants": {}
 																	},
@@ -3025,6 +3017,7 @@
 																			"name": "head_correction",
 																			"origin": [0, 33.5, -12.5],
 																			"color": 3,
+																			"onSummonFunction": "",
 																			"configs": {
 																				"variants": {}
 																			},
@@ -3041,6 +3034,7 @@
 																					"name": "head_ai",
 																					"origin": [0, 33.5, -12.5],
 																					"color": 4,
+																					"onSummonFunction": "",
 																					"configs": {
 																						"variants": {}
 																					},
@@ -3057,6 +3051,7 @@
 																							"name": "head_angle",
 																							"origin": [0, 33.5, -12.5],
 																							"color": 5,
+																							"onSummonFunction": "",
 																							"configs": {
 																								"variants": {}
 																							},
@@ -3074,6 +3069,7 @@
 																									"name": "locator_head",
 																									"origin": [0, 40, -14.5],
 																									"color": 6,
+																									"onSummonFunction": "",
 																									"configs": {
 																										"variants": {}
 																									},
@@ -3091,6 +3087,7 @@
 																									"name": "locator_mouth",
 																									"origin": [0, 30.5, -17],
 																									"color": 7,
+																									"onSummonFunction": "",
 																									"configs": {
 																										"variants": {}
 																									},
@@ -3108,6 +3105,7 @@
 																									"name": "eyes",
 																									"origin": [0, 30.75, -11.15],
 																									"color": 8,
+																									"onSummonFunction": "",
 																									"configs": {
 																										"variants": {}
 																									},
@@ -3124,6 +3122,7 @@
 																											"name": "locator_face",
 																											"origin": [0, 36, -24.1],
 																											"color": 9,
+																											"onSummonFunction": "",
 																											"configs": {
 																												"variants": {}
 																											},
@@ -3142,6 +3141,7 @@
 																											"origin": [5.52, 36.25, -15.7],
 																											"rotation": [-5, 0, 0],
 																											"color": 0,
+																											"onSummonFunction": "",
 																											"configs": {
 																												"variants": {}
 																											},
@@ -3159,6 +3159,7 @@
 																													"name": "pupil_right",
 																													"origin": [5.52, 35.75, -15.7],
 																													"color": 1,
+																													"onSummonFunction": "",
 																													"configs": {
 																														"variants": {}
 																													},
@@ -3177,6 +3178,7 @@
 																															"name": "pupil_right2",
 																															"origin": [5.54, 36, -16.7],
 																															"color": 2,
+																															"onSummonFunction": "",
 																															"configs": {
 																																"variants": {}
 																															},
@@ -3194,6 +3196,7 @@
 																																	"name": "locator_eye_right",
 																																	"origin": [5.5, 36, -16.7],
 																																	"color": 3,
+																																	"onSummonFunction": "",
 																																	"configs": {
 																																		"variants": {}
 																																	},
@@ -3215,6 +3218,7 @@
 																													"name": "eyelid_right",
 																													"origin": [4.94, 36.25, -15.7],
 																													"color": 4,
+																													"onSummonFunction": "",
 																													"configs": {
 																														"variants": {}
 																													},
@@ -3235,6 +3239,7 @@
 																											"origin": [-5.52, 36.25, -15.7],
 																											"rotation": [-5, 0, 0],
 																											"color": 5,
+																											"onSummonFunction": "",
 																											"configs": {
 																												"variants": {}
 																											},
@@ -3252,6 +3257,7 @@
 																													"name": "pupil_left",
 																													"origin": [-5.52, 35.75, -15.7],
 																													"color": 6,
+																													"onSummonFunction": "",
 																													"configs": {
 																														"variants": {}
 																													},
@@ -3269,6 +3275,7 @@
 																															"name": "pupil_left2",
 																															"origin": [-5.54, 36, -16.7],
 																															"color": 7,
+																															"onSummonFunction": "",
 																															"configs": {
 																																"variants": {}
 																															},
@@ -3286,6 +3293,7 @@
 																																	"name": "locator_eye_left",
 																																	"origin": [-5.5, 36, -16.7],
 																																	"color": 8,
+																																	"onSummonFunction": "",
 																																	"configs": {
 																																		"variants": {}
 																																	},
@@ -3307,6 +3315,7 @@
 																													"name": "eyelid_left",
 																													"origin": [-4.94, 36.25, -15.7],
 																													"color": 9,
+																													"onSummonFunction": "",
 																													"configs": {
 																														"variants": {}
 																													},
@@ -3329,6 +3338,7 @@
 																									"origin": [0, 40, -14.5],
 																									"rotation": [-5, 0, 0],
 																									"color": 0,
+																									"onSummonFunction": "",
 																									"configs": {
 																										"variants": {}
 																									},
@@ -3347,6 +3357,7 @@
 																											"name": "locator_horn",
 																											"origin": [0, 42.5, -18.75],
 																											"color": 1,
+																											"onSummonFunction": "",
 																											"configs": {
 																												"variants": {}
 																											},
@@ -3364,6 +3375,7 @@
 																											"name": "locator_jaw_upper",
 																											"origin": [0, 31.5, -22.25],
 																											"color": 2,
+																											"onSummonFunction": "",
 																											"configs": {
 																												"variants": {}
 																											},
@@ -3382,6 +3394,7 @@
 																											"origin": [0, 38, -19.5],
 																											"rotation": [-5, 0, 0],
 																											"color": 3,
+																											"onSummonFunction": "",
 																											"configs": {
 																												"variants": {}
 																											},
@@ -3401,6 +3414,7 @@
 																									"name": "jaw",
 																									"origin": [0, 32, -14.5],
 																									"color": 4,
+																									"onSummonFunction": "",
 																									"configs": {
 																										"variants": {}
 																									},
@@ -3419,6 +3433,7 @@
 																											"name": "locator_jaw_lower",
 																											"origin": [0, 32.15, -21.5],
 																											"color": 5,
+																											"onSummonFunction": "",
 																											"configs": {
 																												"variants": {}
 																											},
@@ -3436,6 +3451,7 @@
 																											"name": "tongue",
 																											"origin": [0, 31.5, -14],
 																											"color": 6,
+																											"onSummonFunction": "",
 																											"configs": {
 																												"variants": {}
 																											},
@@ -3455,6 +3471,7 @@
 																									"name": "ears",
 																									"origin": [0, 39, -9.25],
 																									"color": 7,
+																									"onSummonFunction": "",
 																									"configs": {
 																										"variants": {}
 																									},
@@ -3472,6 +3489,7 @@
 																											"origin": [-5.6, 37.5, -10.25],
 																											"rotation": [0, 22.5, -7.5],
 																											"color": 8,
+																											"onSummonFunction": "",
 																											"configs": {
 																												"variants": {}
 																											},
@@ -3490,6 +3508,7 @@
 																											"origin": [5.6, 37.5, -10.25],
 																											"rotation": [0, -22.5, 7.5],
 																											"color": 9,
+																											"onSummonFunction": "",
 																											"configs": {
 																												"variants": {}
 																											},
@@ -3525,6 +3544,7 @@
 									"name": "tail",
 									"origin": [0, 9.5, 12],
 									"color": 0,
+									"onSummonFunction": "",
 									"configs": {
 										"variants": {}
 									},
@@ -3542,6 +3562,7 @@
 											"name": "tail2",
 											"origin": [0, 5.5, 18],
 											"color": 1,
+											"onSummonFunction": "",
 											"configs": {
 												"variants": {}
 											},
@@ -3559,6 +3580,7 @@
 													"name": "locator_tail_tip",
 													"origin": [0, 5.5, 24],
 													"color": 2,
+													"onSummonFunction": "",
 													"configs": {
 														"variants": {}
 													},
@@ -3582,6 +3604,7 @@
 							"name": "legs",
 							"origin": [0, 5, 0],
 							"color": 3,
+							"onSummonFunction": "",
 							"configs": {
 								"variants": {}
 							},
@@ -3598,6 +3621,7 @@
 									"name": "leg_front_left",
 									"origin": [-10, 5, -8],
 									"color": 4,
+									"onSummonFunction": "",
 									"configs": {
 										"variants": {}
 									},
@@ -3615,6 +3639,7 @@
 											"name": "leg_front_left2",
 											"origin": [-13.5, 5, -8],
 											"color": 5,
+											"onSummonFunction": "",
 											"configs": {
 												"variants": {}
 											},
@@ -3632,6 +3657,7 @@
 													"name": "leg_front_left3",
 													"origin": [-23.5, 4.75, -8],
 													"color": 6,
+													"onSummonFunction": "",
 													"configs": {
 														"variants": {}
 													},
@@ -3650,6 +3676,7 @@
 															"name": "leg_front_left4",
 															"origin": [-30, 4.5, -8],
 															"color": 7,
+															"onSummonFunction": "",
 															"configs": {
 																"variants": {}
 															},
@@ -3673,6 +3700,7 @@
 									"name": "leg_back_left",
 									"origin": [-9.5, 4.5, 10],
 									"color": 8,
+									"onSummonFunction": "",
 									"configs": {
 										"variants": {}
 									},
@@ -3690,6 +3718,7 @@
 											"name": "leg_back_left2",
 											"origin": [-11, 4.5, 10],
 											"color": 9,
+											"onSummonFunction": "",
 											"configs": {
 												"variants": {}
 											},
@@ -3707,6 +3736,7 @@
 													"name": "leg_back_left3",
 													"origin": [-17, 4.5, 10],
 													"color": 0,
+													"onSummonFunction": "",
 													"configs": {
 														"variants": {}
 													},
@@ -3724,6 +3754,7 @@
 															"name": "leg_back_left4",
 															"origin": [-20.5, 4.5, 10],
 															"color": 1,
+															"onSummonFunction": "",
 															"configs": {
 																"variants": {}
 															},
@@ -3747,6 +3778,7 @@
 									"name": "leg_front_right",
 									"origin": [10, 5, -8],
 									"color": 2,
+									"onSummonFunction": "",
 									"configs": {
 										"variants": {}
 									},
@@ -3764,6 +3796,7 @@
 											"name": "leg_front_right2",
 											"origin": [13.5, 5, -8],
 											"color": 3,
+											"onSummonFunction": "",
 											"configs": {
 												"variants": {}
 											},
@@ -3781,6 +3814,7 @@
 													"name": "leg_front_right3",
 													"origin": [23.5, 4.75, -8],
 													"color": 4,
+													"onSummonFunction": "",
 													"configs": {
 														"variants": {}
 													},
@@ -3799,6 +3833,7 @@
 															"name": "leg_front_right4",
 															"origin": [30, 4.5, -8],
 															"color": 5,
+															"onSummonFunction": "",
 															"configs": {
 																"variants": {}
 															},
@@ -3822,6 +3857,7 @@
 									"name": "leg_back_right",
 									"origin": [9.5, 4.5, 10],
 									"color": 6,
+									"onSummonFunction": "",
 									"configs": {
 										"variants": {}
 									},
@@ -3839,6 +3875,7 @@
 											"name": "leg_back_right2",
 											"origin": [11, 4.5, 10],
 											"color": 7,
+											"onSummonFunction": "",
 											"configs": {
 												"variants": {}
 											},
@@ -3856,6 +3893,7 @@
 													"name": "leg_back_right3",
 													"origin": [17, 4.5, 10],
 													"color": 8,
+													"onSummonFunction": "",
 													"configs": {
 														"variants": {}
 													},
@@ -3873,6 +3911,7 @@
 															"name": "leg_back_right4",
 															"origin": [20.5, 4.5, 10],
 															"color": 9,
+															"onSummonFunction": "",
 															"configs": {
 																"variants": {}
 															},
@@ -3902,6 +3941,7 @@
 			"name": "bone2",
 			"origin": [0, 0, 0],
 			"color": 0,
+			"onSummonFunction": "",
 			"configs": {
 				"variants": {}
 			},
@@ -3918,6 +3958,7 @@
 					"name": "bone4",
 					"origin": [0, 0, 0],
 					"color": 1,
+					"onSummonFunction": "",
 					"configs": {
 						"variants": {}
 					},
@@ -3937,6 +3978,7 @@
 			"name": "bone",
 			"origin": [0, 0, 0],
 			"color": 2,
+			"onSummonFunction": "",
 			"configs": {
 				"variants": {}
 			},
@@ -3954,6 +3996,7 @@
 			"name": "bone5",
 			"origin": [0, 0, 0],
 			"color": 3,
+			"onSummonFunction": "",
 			"configs": {
 				"variants": {}
 			},
@@ -3970,7 +4013,7 @@
 	],
 	"textures": [
 		{
-			"path": "C:\\Users\\Patri\\AppData\\Roaming\\PrismLauncher\\instances\\Main (Experimental)\\minecraft\\resourcepacks\\super_smash_bros_recrafted_assets\\assets\\ssbrc\\textures\\common\\pokemon\\pokemon\\lapras\\default.png",
+			"path": "C:\\Patrick\\Minecraft\\projects\\ssbrc\\src\\assets\\ssbrc\\textures\\common\\pokemon\\pokemon\\lapras\\default.png",
 			"name": "default.png",
 			"folder": "",
 			"namespace": "",
@@ -3995,10 +4038,10 @@
 			"internal": false,
 			"saved": true,
 			"uuid": "787b6b39-85b9-9f13-5062-a4eddf2dbf7a",
-			"relative_path": "../../assets/ssbrc/textures/common/pokemon/pokemon/lapras/default.png"
+			"relative_path": "../../src/assets/ssbrc/textures/common/pokemon/pokemon/lapras/default.png"
 		},
 		{
-			"path": "C:\\Users\\Patri\\AppData\\Roaming\\PrismLauncher\\instances\\Main (Experimental)\\minecraft\\resourcepacks\\super_smash_bros_recrafted_assets\\assets\\ssbrc\\textures\\common\\pokemon\\pokemon\\lapras\\shiny.png",
+			"path": "C:\\Patrick\\Minecraft\\projects\\ssbrc\\src\\assets\\ssbrc\\textures\\common\\pokemon\\pokemon\\lapras\\shiny.png",
 			"name": "shiny.png",
 			"folder": "",
 			"namespace": "",
@@ -4023,7 +4066,7 @@
 			"internal": false,
 			"saved": true,
 			"uuid": "8c81d11a-8160-8843-cdd5-55c921b62cb1",
-			"relative_path": "../../assets/ssbrc/textures/common/pokemon/pokemon/lapras/shiny.png"
+			"relative_path": "../../src/assets/ssbrc/textures/common/pokemon/pokemon/lapras/shiny.png"
 		}
 	],
 	"variants": {
@@ -4056,7 +4099,7 @@
 			"length": 7.8,
 			"snapping": 20,
 			"selected": true,
-			"saved": false,
+			"saved": true,
 			"path": "C:\\Users\\Patri\\OneDrive\\Documents\\Patrick\\Minecraft\\cobblemon\\cobblemon\\common\\src\\main\\resources\\assets\\cobblemon\\bedrock\\pokemon\\animations\\0131_lapras\\lapras.animation.json",
 			"anim_time_update": "",
 			"blend_weight": "",
@@ -4740,6 +4783,5 @@
 				}
 			}
 		}
-	],
-	"animation_controllers": []
+	]
 }

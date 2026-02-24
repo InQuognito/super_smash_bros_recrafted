@@ -1,45 +1,23 @@
 {
 	"meta": {
-		"format": "animated_java_blueprint",
-		"format_version": "1.7.2",
+		"format": "animated-java:format/blueprint",
+		"format_version": "1.8.1",
 		"uuid": "a4476ee3-c0f3-85b0-0ac4-98c365c6196a",
-		"save_location": "C:\\Users\\Patri\\AppData\\Roaming\\PrismLauncher\\instances\\Main (Experimental)\\minecraft\\resourcepacks\\super_smash_bros_recrafted_assets\\ajblueprints\\pokemon\\gyarados.ajblueprint",
+		"save_location": "C:\\Patrick\\Minecraft\\projects\\ssbrc\\ajblueprints\\pokemon\\gyarados.ajblueprint",
 		"last_used_export_namespace": "gyarados"
-	},
-	"blueprint_settings": {
-		"export_namespace": "gyarados",
-		"show_bounding_box": false,
-		"auto_bounding_box": true,
-		"bounding_box": [48, 48],
-		"enable_plugin_mode": false,
-		"resource_pack_export_mode": "raw",
-		"data_pack_export_mode": "raw",
-		"target_minecraft_versions": ["1.21.5"],
-		"display_item": "minecraft:diamond",
-		"custom_model_data_offset": 0,
-		"enable_advanced_resource_pack_settings": false,
-		"resource_pack": "C:\\Users\\Patri\\AppData\\Roaming\\PrismLauncher\\instances\\Main (Experimental)\\minecraft\\resourcepacks\\super_smash_bros_recrafted_assets",
-		"enable_advanced_data_pack_settings": false,
-		"data_pack": "C:\\Users\\Patri\\AppData\\Roaming\\PrismLauncher\\instances\\Main (Experimental)\\minecraft\\saves\\SSBRC\\datapacks\\super_smash_bros_recrafted",
-		"summon_commands": "function ssbrc:stage/lake_of_rage/logic/pokemon/gyarados/init\n",
-		"remove_commands": "",
-		"ticking_commands": "",
-		"interpolation_duration": 1,
-		"teleportation_duration": 1,
-		"use_storage_for_animation": false,
-		"show_function_errors": true,
-		"show_outdated_warning": true,
-		"baked_animations": true,
-		"json_file": "",
-		"target_minecraft_version": "1.21.4",
-		"enable_advanced_resource_pack_folders": false,
-		"display_item_path": "",
-		"model_folder": "",
-		"texture_folder": ""
 	},
 	"resolution": {
 		"width": 256,
 		"height": 256
+	},
+	"blueprint_settings": {
+		"export_namespace": "gyarados",
+		"render_box": [48, 48],
+		"display_item": "minecraft:diamond",
+		"resource_pack": "C:\\Patrick\\Minecraft\\projects\\ssbrc\\src",
+		"data_pack": "C:\\Patrick\\Minecraft\\projects\\ssbrc\\src",
+		"on_summon_function": "function ssbrc:stage/lake_of_rage/logic/pokemon/gyarados/init\n",
+		"auto_update_rig_orientation": false
 	},
 	"elements": [
 		{
@@ -4406,6 +4384,7 @@
 			"name": "gyarados1",
 			"origin": [0, 10.50203, 3.27506],
 			"color": 0,
+			"onSummonFunction": "",
 			"configs": {
 				"variants": {}
 			},
@@ -4422,6 +4401,7 @@
 					"name": "body1",
 					"origin": [0, 60.81453, 3.27506],
 					"color": 1,
+					"onSummonFunction": "",
 					"configs": {
 						"variants": {}
 					},
@@ -4438,6 +4418,7 @@
 							"name": "neck6",
 							"origin": [0, 15.89266, 3.27506],
 							"color": 2,
+							"onSummonFunction": "",
 							"configs": {
 								"variants": {}
 							},
@@ -4455,6 +4436,7 @@
 									"name": "neck7",
 									"origin": [0, 32.06453, 3.27506],
 									"color": 3,
+									"onSummonFunction": "",
 									"configs": {
 										"variants": {}
 									},
@@ -4472,6 +4454,7 @@
 											"name": "neck8",
 											"origin": [0, 49.13484, 3.27506],
 											"color": 4,
+											"onSummonFunction": "",
 											"configs": {
 												"variants": {}
 											},
@@ -4489,6 +4472,7 @@
 													"name": "neck9",
 													"origin": [0, 66.20515, 2.37662],
 													"color": 5,
+													"onSummonFunction": "",
 													"configs": {
 														"variants": {}
 													},
@@ -4507,6 +4491,7 @@
 															"origin": [-1.79687, 76.98641, 14.50552],
 															"rotation": [15, 0, 0],
 															"color": 6,
+															"onSummonFunction": "",
 															"configs": {
 																"variants": {}
 															},
@@ -4524,6 +4509,7 @@
 															"name": "neck10",
 															"origin": [0, 89.56453, 3.27506],
 															"color": 7,
+															"onSummonFunction": "",
 															"configs": {
 																"variants": {}
 															},
@@ -4542,6 +4528,7 @@
 																	"origin": [0, 107.53328, -5.70931],
 																	"rotation": [7.5, 0, 0],
 																	"color": 8,
+																	"onSummonFunction": "",
 																	"configs": {
 																		"variants": {}
 																	},
@@ -4560,6 +4547,7 @@
 																	"origin": [-12.57812, 93.15828, -7.05698],
 																	"rotation": [-12.5, 0, 15],
 																	"color": 9,
+																	"onSummonFunction": "",
 																	"configs": {
 																		"variants": {}
 																	},
@@ -4578,6 +4566,7 @@
 																	"origin": [12.57812, 93.15828, -7.05698],
 																	"rotation": [-12.5, 0, -15],
 																	"color": 0,
+																	"onSummonFunction": "",
 																	"configs": {
 																		"variants": {}
 																	},
@@ -4595,6 +4584,7 @@
 																	"name": "head1",
 																	"origin": [0, 96.75203, -13.79525],
 																	"color": 1,
+																	"onSummonFunction": "",
 																	"configs": {
 																		"variants": {}
 																	},
@@ -4612,6 +4602,7 @@
 																			"name": "blush1",
 																			"origin": [0, 98.54891, -25.47494],
 																			"color": 2,
+																			"onSummonFunction": "",
 																			"configs": {
 																				"variants": {}
 																			},
@@ -4628,6 +4619,7 @@
 																					"name": "blush_right1",
 																					"origin": [10.60156, 90.46297, -29.96713],
 																					"color": 3,
+																					"onSummonFunction": "",
 																					"configs": {
 																						"variants": {}
 																					},
@@ -4645,6 +4637,7 @@
 																					"name": "blush_left1",
 																					"origin": [-10.60156, 90.46297, -29.96713],
 																					"color": 4,
+																					"onSummonFunction": "",
 																					"configs": {
 																						"variants": {}
 																					},
@@ -4664,6 +4657,7 @@
 																			"name": "head_scales1",
 																			"origin": [-10.78125, 100.34578, -23.67806],
 																			"color": 5,
+																			"onSummonFunction": "",
 																			"configs": {
 																				"variants": {}
 																			},
@@ -4680,6 +4674,7 @@
 																					"name": "left_head_scales1",
 																					"origin": [-10.78125, 100.34578, -23.67806],
 																					"color": 6,
+																					"onSummonFunction": "",
 																					"configs": {
 																						"variants": {}
 																					},
@@ -4697,6 +4692,7 @@
 																							"origin": [-10.78125, 102.14266, -23.67806],
 																							"rotation": [0, 27.5, 0],
 																							"color": 0,
+																							"onSummonFunction": "",
 																							"configs": {
 																								"variants": {}
 																							},
@@ -4716,6 +4712,7 @@
 																							"origin": [-10.78125, 87.76766, -26.37338],
 																							"rotation": [0, 35, 0],
 																							"color": 0,
+																							"onSummonFunction": "",
 																							"configs": {
 																								"variants": {}
 																							},
@@ -4735,6 +4732,7 @@
 																					"name": "right_head_scales1",
 																					"origin": [10.78125, 100.34578, -23.67806],
 																					"color": 7,
+																					"onSummonFunction": "",
 																					"configs": {
 																						"variants": {}
 																					},
@@ -4752,6 +4750,7 @@
 																							"origin": [10.78125, 102.14266, -23.67806],
 																							"rotation": [0, -27.5, 0],
 																							"color": 0,
+																							"onSummonFunction": "",
 																							"configs": {
 																								"variants": {}
 																							},
@@ -4771,6 +4770,7 @@
 																							"origin": [10.78125, 87.76766, -26.37338],
 																							"rotation": [0, -35, 0],
 																							"color": 0,
+																							"onSummonFunction": "",
 																							"configs": {
 																								"variants": {}
 																							},
@@ -4792,6 +4792,7 @@
 																			"name": "head_fins1",
 																			"origin": [-10.78125, 93.6075, -22.33041],
 																			"color": 8,
+																			"onSummonFunction": "",
 																			"configs": {
 																				"variants": {}
 																			},
@@ -4808,6 +4809,7 @@
 																					"name": "head_left_fin1",
 																					"origin": [-10.78125, 93.6075, -22.33041],
 																					"color": 9,
+																					"onSummonFunction": "",
 																					"configs": {
 																						"variants": {}
 																					},
@@ -4825,6 +4827,7 @@
 																					"name": "head_right_fin1",
 																					"origin": [10.78125, 93.6075, -22.33041],
 																					"color": 0,
+																					"onSummonFunction": "",
 																					"configs": {
 																						"variants": {}
 																					},
@@ -4844,6 +4847,7 @@
 																			"name": "whiskers1",
 																			"origin": [0, 85.97078, -25.47494],
 																			"color": 1,
+																			"onSummonFunction": "",
 																			"configs": {
 																				"variants": {}
 																			},
@@ -4860,6 +4864,7 @@
 																					"name": "right_whisker1",
 																					"origin": [10.78125, 85.07234, -27.27181],
 																					"color": 2,
+																					"onSummonFunction": "",
 																					"configs": {
 																						"variants": {}
 																					},
@@ -4877,6 +4882,7 @@
 																							"name": "right_whisker10",
 																							"origin": [17.96875, 85.07234, -27.27181],
 																							"color": 3,
+																							"onSummonFunction": "",
 																							"configs": {
 																								"variants": {}
 																							},
@@ -4894,6 +4900,7 @@
 																									"name": "right_whisker11",
 																									"origin": [25.15625, 85.07234, -27.27181],
 																									"color": 4,
+																									"onSummonFunction": "",
 																									"configs": {
 																										"variants": {}
 																									},
@@ -4911,6 +4918,7 @@
 																											"name": "right_whisker12",
 																											"origin": [32.34375, 85.07234, -27.27181],
 																											"color": 5,
+																											"onSummonFunction": "",
 																											"configs": {
 																												"variants": {}
 																											},
@@ -4928,6 +4936,7 @@
 																													"name": "right_whisker13",
 																													"origin": [39.53125, 85.07234, -27.27181],
 																													"color": 6,
+																													"onSummonFunction": "",
 																													"configs": {
 																														"variants": {}
 																													},
@@ -4945,6 +4954,7 @@
 																															"name": "right_whisker14",
 																															"origin": [44.92188, 85.07234, -27.27181],
 																															"color": 7,
+																															"onSummonFunction": "",
 																															"configs": {
 																																"variants": {}
 																															},
@@ -4962,6 +4972,7 @@
 																																	"name": "right_whisker15",
 																																	"origin": [50.3125, 85.07234, -27.27181],
 																																	"color": 8,
+																																	"onSummonFunction": "",
 																																	"configs": {
 																																		"variants": {}
 																																	},
@@ -4979,6 +4990,7 @@
 																																			"name": "right_whisker16",
 																																			"origin": [55.70312, 85.07234, -27.27181],
 																																			"color": 9,
+																																			"onSummonFunction": "",
 																																			"configs": {
 																																				"variants": {}
 																																			},
@@ -5010,6 +5022,7 @@
 																					"name": "left_whisker1",
 																					"origin": [-10.78125, 85.07234, -27.27181],
 																					"color": 0,
+																					"onSummonFunction": "",
 																					"configs": {
 																						"variants": {}
 																					},
@@ -5027,6 +5040,7 @@
 																							"name": "left_whisker10",
 																							"origin": [-17.96875, 85.07234, -27.27181],
 																							"color": 1,
+																							"onSummonFunction": "",
 																							"configs": {
 																								"variants": {}
 																							},
@@ -5044,6 +5058,7 @@
 																									"name": "left_whisker11",
 																									"origin": [-25.15625, 85.07234, -27.27181],
 																									"color": 2,
+																									"onSummonFunction": "",
 																									"configs": {
 																										"variants": {}
 																									},
@@ -5061,6 +5076,7 @@
 																											"name": "left_whisker12",
 																											"origin": [-32.34375, 85.07234, -27.27181],
 																											"color": 3,
+																											"onSummonFunction": "",
 																											"configs": {
 																												"variants": {}
 																											},
@@ -5078,6 +5094,7 @@
 																													"name": "left_whisker13",
 																													"origin": [-39.53125, 85.07234, -27.27181],
 																													"color": 4,
+																													"onSummonFunction": "",
 																													"configs": {
 																														"variants": {}
 																													},
@@ -5095,6 +5112,7 @@
 																															"name": "left_whisker14",
 																															"origin": [-44.92187, 85.07234, -27.27181],
 																															"color": 5,
+																															"onSummonFunction": "",
 																															"configs": {
 																																"variants": {}
 																															},
@@ -5112,6 +5130,7 @@
 																																	"name": "left_whisker15",
 																																	"origin": [-50.3125, 85.07234, -27.27181],
 																																	"color": 6,
+																																	"onSummonFunction": "",
 																																	"configs": {
 																																		"variants": {}
 																																	},
@@ -5129,6 +5148,7 @@
 																																			"name": "left_whisker16",
 																																			"origin": [-55.70312, 85.07234, -27.27181],
 																																			"color": 7,
+																																			"onSummonFunction": "",
 																																			"configs": {
 																																				"variants": {}
 																																			},
@@ -5162,6 +5182,7 @@
 																			"name": "mouth1",
 																			"origin": [0, 95.85359, -32.66244],
 																			"color": 8,
+																			"onSummonFunction": "",
 																			"configs": {
 																				"variants": {}
 																			},
@@ -5179,6 +5200,7 @@
 																					"origin": [0, 95.85359, -32.66244],
 																					"rotation": [5, 0, 0],
 																					"color": 9,
+																					"onSummonFunction": "",
 																					"configs": {
 																						"variants": {}
 																					},
@@ -5196,6 +5218,7 @@
 																							"name": "upper_left_tooth1",
 																							"origin": [-4.9414, 91.18172, -41.64682],
 																							"color": 0,
+																							"onSummonFunction": "",
 																							"configs": {
 																								"variants": {}
 																							},
@@ -5213,6 +5236,7 @@
 																							"name": "upper_right_tooth1",
 																							"origin": [5.83985, 91.18172, -41.64682],
 																							"color": 1,
+																							"onSummonFunction": "",
 																							"configs": {
 																								"variants": {}
 																							},
@@ -5231,6 +5255,7 @@
 																							"origin": [0, 93.15828, -41.64682],
 																							"rotation": [20, 0, 0],
 																							"color": 2,
+																							"onSummonFunction": "",
 																							"configs": {
 																								"variants": {}
 																							},
@@ -5251,6 +5276,7 @@
 																					"origin": [-0.89844, 84.17391, -19.18588],
 																					"rotation": [-10, 0, 0],
 																					"color": 3,
+																					"onSummonFunction": "",
 																					"configs": {
 																						"variants": {}
 																					},
@@ -5269,6 +5295,7 @@
 																							"origin": [-0.89844, 84.17391, -33.56088],
 																							"rotation": [45, 0, 0],
 																							"color": 4,
+																							"onSummonFunction": "",
 																							"configs": {
 																								"variants": {}
 																							},
@@ -5287,6 +5314,7 @@
 																									"origin": [5.83985, 88.03719, -47.03744],
 																									"rotation": [10, 0, 0],
 																									"color": 5,
+																									"onSummonFunction": "",
 																									"configs": {
 																										"variants": {}
 																									},
@@ -5305,6 +5333,7 @@
 																									"origin": [-5.83984, 88.03719, -47.03744],
 																									"rotation": [10, 0, 0],
 																									"color": 6,
+																									"onSummonFunction": "",
 																									"configs": {
 																										"variants": {}
 																									},
@@ -5323,6 +5352,7 @@
 																									"origin": [-0.89844, 85.52157, -47.93588],
 																									"rotation": [-15, 0, 0],
 																									"color": 7,
+																									"onSummonFunction": "",
 																									"configs": {
 																										"variants": {}
 																									},
@@ -5342,6 +5372,7 @@
 																											"name": "tongue1",
 																											"origin": [0, 87.58797, -33.56088],
 																											"color": 8,
+																											"onSummonFunction": "",
 																											"configs": {
 																												"variants": {}
 																											},
@@ -5368,6 +5399,7 @@
 																			"name": "eyes1",
 																			"origin": [0, 97.65047, -23.67806],
 																			"color": 9,
+																			"onSummonFunction": "",
 																			"configs": {
 																				"variants": {}
 																			},
@@ -5384,6 +5416,7 @@
 																					"name": "right_eye1",
 																					"origin": [0, 97.65047, -23.67806],
 																					"color": 0,
+																					"onSummonFunction": "",
 																					"configs": {
 																						"variants": {}
 																					},
@@ -5401,6 +5434,7 @@
 																							"name": "tear_right1",
 																							"origin": [9.70313, 96.75203, -31.58431],
 																							"color": 1,
+																							"onSummonFunction": "",
 																							"configs": {
 																								"variants": {}
 																							},
@@ -5418,6 +5452,7 @@
 																							"name": "right_pupil1",
 																							"origin": [6.73829, 98.54891, -32.66244],
 																							"color": 2,
+																							"onSummonFunction": "",
 																							"configs": {
 																								"variants": {}
 																							},
@@ -5435,6 +5470,7 @@
 																							"name": "right_sad_pupil1",
 																							"origin": [6.73829, 98.54891, -32.48275],
 																							"color": 3,
+																							"onSummonFunction": "",
 																							"configs": {
 																								"variants": {}
 																							},
@@ -5452,6 +5488,7 @@
 																							"name": "right_happy_pupil1",
 																							"origin": [7.1875, 98.09969, -32.48275],
 																							"color": 4,
+																							"onSummonFunction": "",
 																							"configs": {
 																								"variants": {}
 																							},
@@ -5469,6 +5506,7 @@
 																							"name": "eyelid_right1",
 																							"origin": [-0.17969, 97.65047, -23.49838],
 																							"color": 5,
+																							"onSummonFunction": "",
 																							"configs": {
 																								"variants": {}
 																							},
@@ -5486,6 +5524,7 @@
 																							"name": "eyelid_expressions_right4",
 																							"origin": [-0.35937, 97.65047, -23.31869],
 																							"color": 6,
+																							"onSummonFunction": "",
 																							"configs": {
 																								"variants": {}
 																							},
@@ -5502,6 +5541,7 @@
 																									"name": "eyelid_expressions_right5",
 																									"origin": [8.80469, 100.34578, -32.48275],
 																									"color": 7,
+																									"onSummonFunction": "",
 																									"configs": {
 																										"variants": {}
 																									},
@@ -5519,6 +5559,7 @@
 																									"name": "eyelid_expressions_right6",
 																									"origin": [5.21094, 100.34578, -32.48275],
 																									"color": 8,
+																									"onSummonFunction": "",
 																									"configs": {
 																										"variants": {}
 																									},
@@ -5536,6 +5577,7 @@
 																											"name": "eyelid_expressions_right7",
 																											"origin": [3.41406, 100.34578, -32.48275],
 																											"color": 9,
+																											"onSummonFunction": "",
 																											"configs": {
 																												"variants": {}
 																											},
@@ -5559,6 +5601,7 @@
 																					"name": "left_eye1",
 																					"origin": [0, 97.65047, -23.67806],
 																					"color": 0,
+																					"onSummonFunction": "",
 																					"configs": {
 																						"variants": {}
 																					},
@@ -5576,6 +5619,7 @@
 																							"name": "tear_left1",
 																							"origin": [-9.70312, 96.75203, -31.58431],
 																							"color": 1,
+																							"onSummonFunction": "",
 																							"configs": {
 																								"variants": {}
 																							},
@@ -5593,6 +5637,7 @@
 																							"name": "left_sad_pupil1",
 																							"origin": [-6.73828, 98.54891, -32.48275],
 																							"color": 2,
+																							"onSummonFunction": "",
 																							"configs": {
 																								"variants": {}
 																							},
@@ -5610,6 +5655,7 @@
 																							"name": "left_pupil1",
 																							"origin": [-6.73828, 98.54891, -32.66244],
 																							"color": 3,
+																							"onSummonFunction": "",
 																							"configs": {
 																								"variants": {}
 																							},
@@ -5627,6 +5673,7 @@
 																							"name": "eyelid_left1",
 																							"origin": [0.17969, 97.65047, -23.49838],
 																							"color": 4,
+																							"onSummonFunction": "",
 																							"configs": {
 																								"variants": {}
 																							},
@@ -5644,6 +5691,7 @@
 																							"name": "left_happy_pupil1",
 																							"origin": [-7.1875, 98.09969, -32.48275],
 																							"color": 5,
+																							"onSummonFunction": "",
 																							"configs": {
 																								"variants": {}
 																							},
@@ -5661,6 +5709,7 @@
 																							"name": "eyelid_expressions_left4",
 																							"origin": [0.35938, 97.65047, -23.31869],
 																							"color": 6,
+																							"onSummonFunction": "",
 																							"configs": {
 																								"variants": {}
 																							},
@@ -5677,6 +5726,7 @@
 																									"name": "eyelid_expressions_left5",
 																									"origin": [-8.80469, 100.34578, -32.48275],
 																									"color": 7,
+																									"onSummonFunction": "",
 																									"configs": {
 																										"variants": {}
 																									},
@@ -5694,6 +5744,7 @@
 																									"name": "eyelid_expressions_left6",
 																									"origin": [-5.21094, 100.34578, -32.48275],
 																									"color": 8,
+																									"onSummonFunction": "",
 																									"configs": {
 																										"variants": {}
 																									},
@@ -5711,6 +5762,7 @@
 																											"name": "eyelid_expressions_left7",
 																											"origin": [-3.41406, 100.34578, -32.48275],
 																											"color": 9,
+																											"onSummonFunction": "",
 																											"configs": {
 																												"variants": {}
 																											},
@@ -5736,6 +5788,7 @@
 																			"name": "crest1",
 																			"origin": [-0.89844, 99.44734, -19.18588],
 																			"color": 0,
+																			"onSummonFunction": "",
 																			"configs": {
 																				"variants": {}
 																			},
@@ -5752,6 +5805,7 @@
 																					"name": "crest_center1",
 																					"origin": [0, 98.99813, -34.45932],
 																					"color": 1,
+																					"onSummonFunction": "",
 																					"configs": {
 																						"variants": {}
 																					},
@@ -5770,6 +5824,7 @@
 																							"origin": [0, 101.69344, -36.70541],
 																							"rotation": [12.5, 0, 0],
 																							"color": 2,
+																							"onSummonFunction": "",
 																							"configs": {
 																								"variants": {}
 																							},
@@ -5787,6 +5842,7 @@
 																									"name": "crest_middle4",
 																									"origin": [0, 109.77938, -35.35775],
 																									"color": 3,
+																									"onSummonFunction": "",
 																									"configs": {
 																										"variants": {}
 																									},
@@ -5804,6 +5860,7 @@
 																											"name": "crest_middle5",
 																											"origin": [0, 120.56063, -35.35775],
 																											"color": 4,
+																											"onSummonFunction": "",
 																											"configs": {
 																												"variants": {}
 																											},
@@ -5826,6 +5883,7 @@
 																							"origin": [1.79687, 99.44734, -34.45932],
 																							"rotation": [7.5, 0, -57.5],
 																							"color": 5,
+																							"onSummonFunction": "",
 																							"configs": {
 																								"variants": {}
 																							},
@@ -5843,6 +5901,7 @@
 																									"name": "crest_left4",
 																									"origin": [1.79687, 109.33015, -35.35775],
 																									"color": 6,
+																									"onSummonFunction": "",
 																									"configs": {
 																										"variants": {}
 																									},
@@ -5860,6 +5919,7 @@
 																											"name": "crest_left5",
 																											"origin": [1.79687, 118.31453, -35.35775],
 																											"color": 7,
+																											"onSummonFunction": "",
 																											"configs": {
 																												"variants": {}
 																											},
@@ -5884,6 +5944,7 @@
 																					"origin": [-1.79687, 99.44734, -34.45932],
 																					"rotation": [7.5, 0, 57.5],
 																					"color": 8,
+																					"onSummonFunction": "",
 																					"configs": {
 																						"variants": {}
 																					},
@@ -5901,6 +5962,7 @@
 																							"name": "crest_right4",
 																							"origin": [-1.79687, 109.33015, -35.35775],
 																							"color": 9,
+																							"onSummonFunction": "",
 																							"configs": {
 																								"variants": {}
 																							},
@@ -5918,6 +5980,7 @@
 																									"name": "crest_right5",
 																									"origin": [-1.79687, 118.31453, -35.35775],
 																									"color": 0,
+																									"onSummonFunction": "",
 																									"configs": {
 																										"variants": {}
 																									},
@@ -5953,6 +6016,7 @@
 							"name": "segment10",
 							"origin": [0, 16.79109, 3.27506],
 							"color": 1,
+							"onSummonFunction": "",
 							"configs": {
 								"variants": {}
 							},
@@ -5970,6 +6034,7 @@
 									"name": "segment11",
 									"origin": [0, -1.62687, 3.27506],
 									"color": 2,
+									"onSummonFunction": "",
 									"configs": {
 										"variants": {}
 									},
@@ -5987,6 +6052,7 @@
 											"name": "segment12",
 											"origin": [0, -23.63859, 3.27506],
 											"color": 3,
+											"onSummonFunction": "",
 											"configs": {
 												"variants": {}
 											},
@@ -6004,6 +6070,7 @@
 													"name": "segment13",
 													"origin": [0, -45.20109, 3.27506],
 													"color": 4,
+													"onSummonFunction": "",
 													"configs": {
 														"variants": {}
 													},
@@ -6022,6 +6089,7 @@
 															"origin": [0, -41.60734, 15.85318],
 															"rotation": [10, 0, 0],
 															"color": 5,
+															"onSummonFunction": "",
 															"configs": {
 																"variants": {}
 															},
@@ -6039,6 +6107,7 @@
 															"name": "segment14",
 															"origin": [0, -64.96672, 3.72427],
 															"color": 6,
+															"onSummonFunction": "",
 															"configs": {
 																"variants": {}
 															},
@@ -6056,6 +6125,7 @@
 																	"name": "segment15",
 																	"origin": [0, -83.83391, 3.72427],
 																	"color": 7,
+																	"onSummonFunction": "",
 																	"configs": {
 																		"variants": {}
 																	},
@@ -6074,6 +6144,7 @@
 																			"origin": [0, -98.20891, 10.91177],
 																			"rotation": [15, 0, 0],
 																			"color": 8,
+																			"onSummonFunction": "",
 																			"configs": {
 																				"variants": {}
 																			},
@@ -6091,6 +6162,7 @@
 																			"name": "segment16",
 																			"origin": [0, -102.70109, 3.72427],
 																			"color": 9,
+																			"onSummonFunction": "",
 																			"configs": {
 																				"variants": {}
 																			},
@@ -6108,6 +6180,7 @@
 																					"name": "segment17",
 																					"origin": [0, -117.97453, 3.72427],
 																					"color": 0,
+																					"onSummonFunction": "",
 																					"configs": {
 																						"variants": {}
 																					},
@@ -6125,6 +6198,7 @@
 																							"name": "segment18",
 																							"origin": [0, -129.65422, 3.72427],
 																							"color": 1,
+																							"onSummonFunction": "",
 																							"configs": {
 																								"variants": {}
 																							},
@@ -6142,6 +6216,7 @@
 																									"name": "tail4",
 																									"origin": [0, -138.6386, 3.72427],
 																									"color": 2,
+																									"onSummonFunction": "",
 																									"configs": {
 																										"variants": {}
 																									},
@@ -6159,6 +6234,7 @@
 																											"name": "tail5",
 																											"origin": [0, -145.8261, 3.72427],
 																											"color": 3,
+																											"onSummonFunction": "",
 																											"configs": {
 																												"variants": {}
 																											},
@@ -6176,6 +6252,7 @@
 																													"name": "tail6",
 																													"origin": [0, -160.2011, 3.72427],
 																													"color": 4,
+																													"onSummonFunction": "",
 																													"configs": {
 																														"variants": {}
 																													},
@@ -6218,7 +6295,7 @@
 	],
 	"textures": [
 		{
-			"path": "C:\\Users\\Patri\\AppData\\Roaming\\PrismLauncher\\instances\\Main (Experimental)\\minecraft\\resourcepacks\\super_smash_bros_recrafted_assets\\assets\\ssbrc\\textures\\common\\pokemon\\pokemon\\gyarados\\default.png",
+			"path": "C:\\Patrick\\Minecraft\\projects\\ssbrc\\src\\assets\\ssbrc\\textures\\common\\pokemon\\pokemon\\gyarados\\default.png",
 			"name": "default.png",
 			"folder": "",
 			"namespace": "",
@@ -6243,10 +6320,10 @@
 			"internal": false,
 			"saved": true,
 			"uuid": "2be0a132-b607-9e8d-c701-04355a9759fc",
-			"relative_path": "../../assets/ssbrc/textures/common/pokemon/pokemon/gyarados/default.png"
+			"relative_path": "../../src/assets/ssbrc/textures/common/pokemon/pokemon/gyarados/default.png"
 		},
 		{
-			"path": "C:\\Users\\Patri\\AppData\\Roaming\\PrismLauncher\\instances\\Main (Experimental)\\minecraft\\resourcepacks\\super_smash_bros_recrafted_assets\\assets\\ssbrc\\textures\\common\\pokemon\\pokemon\\gyarados\\shiny.png",
+			"path": "C:\\Patrick\\Minecraft\\projects\\ssbrc\\src\\assets\\ssbrc\\textures\\common\\pokemon\\pokemon\\gyarados\\shiny.png",
 			"name": "shiny.png",
 			"folder": "",
 			"namespace": "",
@@ -6271,7 +6348,7 @@
 			"internal": false,
 			"saved": true,
 			"uuid": "e1a379fc-58d8-8b07-2495-0090ed82cf9a",
-			"relative_path": "../../assets/ssbrc/textures/common/pokemon/pokemon/gyarados/shiny.png"
+			"relative_path": "../../src/assets/ssbrc/textures/common/pokemon/pokemon/gyarados/shiny.png"
 		}
 	],
 	"variants": {
@@ -9234,6 +9311,5 @@
 				}
 			}
 		}
-	],
-	"animation_controllers": []
+	]
 }

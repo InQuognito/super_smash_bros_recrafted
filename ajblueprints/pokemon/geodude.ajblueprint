@@ -1,45 +1,23 @@
 {
 	"meta": {
-		"format": "animated_java_blueprint",
-		"format_version": "1.7.2",
+		"format": "animated-java:format/blueprint",
+		"format_version": "1.8.1",
 		"uuid": "da5e94b6-7f9d-34c6-3cc1-3e13591fadd5",
-		"save_location": "C:\\Users\\Patri\\AppData\\Roaming\\PrismLauncher\\instances\\Main (Experimental)\\minecraft\\resourcepacks\\super_smash_bros_recrafted_assets\\ajblueprints\\pokemon\\geodude.ajblueprint",
+		"save_location": "C:\\Patrick\\Minecraft\\projects\\ssbrc\\ajblueprints\\pokemon\\geodude.ajblueprint",
 		"last_used_export_namespace": "geodude"
-	},
-	"blueprint_settings": {
-		"export_namespace": "geodude",
-		"show_bounding_box": false,
-		"auto_bounding_box": true,
-		"bounding_box": [48, 48],
-		"enable_plugin_mode": false,
-		"resource_pack_export_mode": "raw",
-		"data_pack_export_mode": "raw",
-		"target_minecraft_versions": ["1.21.5"],
-		"display_item": "minecraft:diamond",
-		"custom_model_data_offset": 0,
-		"enable_advanced_resource_pack_settings": false,
-		"resource_pack": "C:\\Users\\Patri\\AppData\\Roaming\\PrismLauncher\\instances\\Main (Experimental)\\minecraft\\resourcepacks\\super_smash_bros_recrafted_assets",
-		"enable_advanced_data_pack_settings": false,
-		"data_pack": "C:\\Users\\Patri\\AppData\\Roaming\\PrismLauncher\\instances\\Main (Experimental)\\minecraft\\saves\\SSBRC\\datapacks\\super_smash_bros_recrafted",
-		"summon_commands": "function ssbrc:logic/pokemon/init {name:\"geodude\"}",
-		"remove_commands": "",
-		"ticking_commands": "",
-		"interpolation_duration": 1,
-		"teleportation_duration": 1,
-		"use_storage_for_animation": false,
-		"show_function_errors": true,
-		"show_outdated_warning": true,
-		"baked_animations": true,
-		"json_file": "",
-		"target_minecraft_version": "1.21.4",
-		"enable_advanced_resource_pack_folders": false,
-		"display_item_path": "",
-		"model_folder": "",
-		"texture_folder": ""
 	},
 	"resolution": {
 		"width": 64,
 		"height": 64
+	},
+	"blueprint_settings": {
+		"export_namespace": "geodude",
+		"render_box": [48, 48],
+		"display_item": "minecraft:diamond",
+		"resource_pack": "C:\\Patrick\\Minecraft\\projects\\ssbrc\\src",
+		"data_pack": "C:\\Patrick\\Minecraft\\projects\\ssbrc\\src",
+		"on_summon_function": "function ssbrc:logic/pokemon/init {name:\"geodude\"}",
+		"auto_update_rig_orientation": false
 	},
 	"elements": [
 		{
@@ -1806,6 +1784,7 @@
 			"name": "geodude1",
 			"origin": [0, 0, 0],
 			"color": 0,
+			"onSummonFunction": "",
 			"configs": {
 				"variants": {}
 			},
@@ -1822,6 +1801,7 @@
 					"name": "body1",
 					"origin": [0, 0, 0],
 					"color": 1,
+					"onSummonFunction": "",
 					"configs": {
 						"variants": {}
 					},
@@ -1838,6 +1818,7 @@
 							"name": "torso1",
 							"origin": [0, 4, 0],
 							"color": 2,
+							"onSummonFunction": "",
 							"configs": {
 								"variants": {}
 							},
@@ -1861,6 +1842,7 @@
 									"name": "eye_right1",
 									"origin": [2.54168, 4.04548, -4.525],
 									"color": 3,
+									"onSummonFunction": "",
 									"configs": {
 										"variants": {}
 									},
@@ -1879,6 +1861,7 @@
 											"name": "eyelid_right1",
 											"origin": [2.54168, 4.04548, -3.925],
 											"color": 4,
+											"onSummonFunction": "",
 											"configs": {
 												"variants": {}
 											},
@@ -1898,6 +1881,7 @@
 									"name": "eye_left1",
 									"origin": [-2.54168, 4.04548, -4.525],
 									"color": 5,
+									"onSummonFunction": "",
 									"configs": {
 										"variants": {}
 									},
@@ -1916,6 +1900,7 @@
 											"name": "eyelid_left1",
 											"origin": [-2.54168, 4.04548, -3.925],
 											"color": 6,
+											"onSummonFunction": "",
 											"configs": {
 												"variants": {}
 											},
@@ -1935,6 +1920,7 @@
 									"name": "jaw1",
 									"origin": [0, 2, -0.5],
 									"color": 7,
+									"onSummonFunction": "",
 									"configs": {
 										"variants": {}
 									},
@@ -1952,6 +1938,7 @@
 									"name": "arm_right1",
 									"origin": [4.5, 4.5, 0.25],
 									"color": 8,
+									"onSummonFunction": "",
 									"configs": {
 										"variants": {}
 									},
@@ -1969,6 +1956,7 @@
 											"name": "arm_right3",
 											"origin": [9.5, 3.5, 1.25],
 											"color": 9,
+											"onSummonFunction": "",
 											"configs": {
 												"variants": {}
 											},
@@ -1986,6 +1974,7 @@
 													"name": "hand_right1",
 													"origin": [15.5, 4.25, 0.25],
 													"color": 0,
+													"onSummonFunction": "",
 													"configs": {
 														"variants": {}
 													},
@@ -2003,6 +1992,7 @@
 															"name": "finger_right_thumb1",
 															"origin": [17.5, 6, 0.25],
 															"color": 1,
+															"onSummonFunction": "",
 															"configs": {
 																"variants": {}
 															},
@@ -2020,6 +2010,7 @@
 																	"name": "finger_right_thumb3",
 																	"origin": [19.5, 6, -0.75],
 																	"color": 2,
+																	"onSummonFunction": "",
 																	"configs": {
 																		"variants": {}
 																	},
@@ -2039,6 +2030,7 @@
 															"name": "finger_right_index1",
 															"origin": [18.5, 5.75, 1.25],
 															"color": 3,
+															"onSummonFunction": "",
 															"configs": {
 																"variants": {}
 															},
@@ -2056,6 +2048,7 @@
 																	"name": "finger_right_index3",
 																	"origin": [20.5, 5.75, 1.25],
 																	"color": 4,
+																	"onSummonFunction": "",
 																	"configs": {
 																		"variants": {}
 																	},
@@ -2075,6 +2068,7 @@
 															"name": "finger_right_middle1",
 															"origin": [18.5, 4.75, 1.25],
 															"color": 5,
+															"onSummonFunction": "",
 															"configs": {
 																"variants": {}
 															},
@@ -2092,6 +2086,7 @@
 																	"name": "finger_right_middle3",
 																	"origin": [20.5, 4.75, 1.25],
 																	"color": 6,
+																	"onSummonFunction": "",
 																	"configs": {
 																		"variants": {}
 																	},
@@ -2111,6 +2106,7 @@
 															"name": "finger_right_ring1",
 															"origin": [18.5, 3.75, 1.25],
 															"color": 7,
+															"onSummonFunction": "",
 															"configs": {
 																"variants": {}
 															},
@@ -2128,6 +2124,7 @@
 																	"name": "finger_right_ring3",
 																	"origin": [20.5, 3.75, 1.25],
 																	"color": 8,
+																	"onSummonFunction": "",
 																	"configs": {
 																		"variants": {}
 																	},
@@ -2147,6 +2144,7 @@
 															"name": "finger_right_pinky1",
 															"origin": [18.5, 2.75, 1.25],
 															"color": 9,
+															"onSummonFunction": "",
 															"configs": {
 																"variants": {}
 															},
@@ -2164,6 +2162,7 @@
 																	"name": "finger_right_pinky3",
 																	"origin": [20.5, 2.75, 1.25],
 																	"color": 0,
+																	"onSummonFunction": "",
 																	"configs": {
 																		"variants": {}
 																	},
@@ -2189,6 +2188,7 @@
 									"name": "arm_left1",
 									"origin": [-4.5, 4.5, 0.25],
 									"color": 1,
+									"onSummonFunction": "",
 									"configs": {
 										"variants": {}
 									},
@@ -2206,6 +2206,7 @@
 											"name": "arm_left3",
 											"origin": [-9.5, 3.5, 1.25],
 											"color": 2,
+											"onSummonFunction": "",
 											"configs": {
 												"variants": {}
 											},
@@ -2223,6 +2224,7 @@
 													"name": "hand_left1",
 													"origin": [-15.5, 4.25, 0.25],
 													"color": 3,
+													"onSummonFunction": "",
 													"configs": {
 														"variants": {}
 													},
@@ -2240,6 +2242,7 @@
 															"name": "finger_left_thumb1",
 															"origin": [-17.5, 6, 0.25],
 															"color": 4,
+															"onSummonFunction": "",
 															"configs": {
 																"variants": {}
 															},
@@ -2257,6 +2260,7 @@
 																	"name": "finger_left_thumb3",
 																	"origin": [-19.5, 6, -0.75],
 																	"color": 5,
+																	"onSummonFunction": "",
 																	"configs": {
 																		"variants": {}
 																	},
@@ -2276,6 +2280,7 @@
 															"name": "finger_left_index1",
 															"origin": [-18.5, 5.75, 1.25],
 															"color": 6,
+															"onSummonFunction": "",
 															"configs": {
 																"variants": {}
 															},
@@ -2293,6 +2298,7 @@
 																	"name": "finger_left_index3",
 																	"origin": [-20.5, 5.75, 1.25],
 																	"color": 7,
+																	"onSummonFunction": "",
 																	"configs": {
 																		"variants": {}
 																	},
@@ -2312,6 +2318,7 @@
 															"name": "finger_left_middle1",
 															"origin": [-18.5, 4.75, 1.25],
 															"color": 8,
+															"onSummonFunction": "",
 															"configs": {
 																"variants": {}
 															},
@@ -2329,6 +2336,7 @@
 																	"name": "finger_left_middle3",
 																	"origin": [-20.5, 4.75, 1.25],
 																	"color": 9,
+																	"onSummonFunction": "",
 																	"configs": {
 																		"variants": {}
 																	},
@@ -2348,6 +2356,7 @@
 															"name": "finger_left_ring1",
 															"origin": [-18.5, 3.75, 1.25],
 															"color": 0,
+															"onSummonFunction": "",
 															"configs": {
 																"variants": {}
 															},
@@ -2365,6 +2374,7 @@
 																	"name": "finger_left_ring3",
 																	"origin": [-20.5, 3.75, 1.25],
 																	"color": 1,
+																	"onSummonFunction": "",
 																	"configs": {
 																		"variants": {}
 																	},
@@ -2384,6 +2394,7 @@
 															"name": "finger_left_pinky1",
 															"origin": [-18.5, 2.75, 1.25],
 															"color": 2,
+															"onSummonFunction": "",
 															"configs": {
 																"variants": {}
 															},
@@ -2401,6 +2412,7 @@
 																	"name": "finger_left_pinky3",
 																	"origin": [-20.5, 2.75, 1.25],
 																	"color": 3,
+																	"onSummonFunction": "",
 																	"configs": {
 																		"variants": {}
 																	},
@@ -2431,7 +2443,7 @@
 	],
 	"textures": [
 		{
-			"path": "C:\\Users\\Patri\\AppData\\Roaming\\PrismLauncher\\instances\\Main (Experimental)\\minecraft\\resourcepacks\\super_smash_bros_recrafted_assets\\assets\\ssbrc\\textures\\common\\pokemon\\pokemon\\geodude\\default.png",
+			"path": "C:\\Patrick\\Minecraft\\projects\\ssbrc\\src\\assets\\ssbrc\\textures\\common\\pokemon\\pokemon\\geodude\\default.png",
 			"name": "default.png",
 			"folder": "",
 			"namespace": "",
@@ -2456,10 +2468,10 @@
 			"internal": false,
 			"saved": true,
 			"uuid": "ace0c70f-1c8f-7b91-7757-7e8846738039",
-			"relative_path": "../../assets/ssbrc/textures/common/pokemon/pokemon/geodude/default.png"
+			"relative_path": "../../src/assets/ssbrc/textures/common/pokemon/pokemon/geodude/default.png"
 		},
 		{
-			"path": "C:\\Users\\Patri\\AppData\\Roaming\\PrismLauncher\\instances\\Main (Experimental)\\minecraft\\resourcepacks\\super_smash_bros_recrafted_assets\\assets\\ssbrc\\textures\\common\\pokemon\\pokemon\\geodude\\shiny.png",
+			"path": "C:\\Patrick\\Minecraft\\projects\\ssbrc\\src\\assets\\ssbrc\\textures\\common\\pokemon\\pokemon\\geodude\\shiny.png",
 			"name": "shiny.png",
 			"folder": "",
 			"namespace": "",
@@ -2484,7 +2496,7 @@
 			"internal": false,
 			"saved": true,
 			"uuid": "b2fbe6d9-cfdc-2624-645d-9154b8ebecd3",
-			"relative_path": "../../assets/ssbrc/textures/common/pokemon/pokemon/geodude/shiny.png"
+			"relative_path": "../../src/assets/ssbrc/textures/common/pokemon/pokemon/geodude/shiny.png"
 		}
 	],
 	"variants": {
@@ -2517,7 +2529,7 @@
 			"length": 2,
 			"snapping": 20,
 			"selected": true,
-			"saved": false,
+			"saved": true,
 			"path": "C:\\Users\\Patri\\OneDrive\\Documents\\Patrick\\Minecraft\\cobblemon\\cobblemon\\common\\src\\main\\resources\\assets\\cobblemon\\bedrock\\pokemon\\animations\\0074_geodude\\geodude.animation.json",
 			"anim_time_update": "",
 			"blend_weight": "",
@@ -3143,6 +3155,5 @@
 				}
 			}
 		}
-	],
-	"animation_controllers": []
+	]
 }

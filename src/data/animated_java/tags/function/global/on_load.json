@@ -1,4 +1,5 @@
 {
+	"replace": false,
 	"values": [
 		"animated_java:abra/on_load",
 		"animated_java:beat/on_load",

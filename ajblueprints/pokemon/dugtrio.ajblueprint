@@ -1,45 +1,23 @@
 {
 	"meta": {
-		"format": "animated_java_blueprint",
-		"format_version": "1.7.2",
+		"format": "animated-java:format/blueprint",
+		"format_version": "1.8.1",
 		"uuid": "8ddc7846-f9ed-d979-172e-579fb05874f6",
-		"save_location": "C:\\Users\\Patri\\AppData\\Roaming\\PrismLauncher\\instances\\Main (Experimental)\\minecraft\\resourcepacks\\super_smash_bros_recrafted_assets\\ajblueprints\\pokemon\\dugtrio.ajblueprint",
+		"save_location": "C:\\Patrick\\Minecraft\\projects\\ssbrc\\ajblueprints\\pokemon\\dugtrio.ajblueprint",
 		"last_used_export_namespace": "dugtrio"
-	},
-	"blueprint_settings": {
-		"export_namespace": "dugtrio",
-		"show_bounding_box": false,
-		"auto_bounding_box": true,
-		"bounding_box": [48, 48],
-		"enable_plugin_mode": false,
-		"resource_pack_export_mode": "raw",
-		"data_pack_export_mode": "raw",
-		"target_minecraft_versions": ["1.21.5"],
-		"display_item": "minecraft:diamond",
-		"custom_model_data_offset": 0,
-		"enable_advanced_resource_pack_settings": false,
-		"resource_pack": "C:\\Users\\Patri\\AppData\\Roaming\\PrismLauncher\\instances\\Main (Experimental)\\minecraft\\resourcepacks\\super_smash_bros_recrafted_assets",
-		"enable_advanced_data_pack_settings": false,
-		"data_pack": "C:\\Users\\Patri\\AppData\\Roaming\\PrismLauncher\\instances\\Main (Experimental)\\minecraft\\saves\\SSBRC\\datapacks\\super_smash_bros_recrafted",
-		"summon_commands": "function ssbrc:logic/pokemon/init {name:\"dugtrio\"}",
-		"remove_commands": "",
-		"ticking_commands": "",
-		"interpolation_duration": 1,
-		"teleportation_duration": 1,
-		"use_storage_for_animation": false,
-		"show_function_errors": true,
-		"show_outdated_warning": true,
-		"baked_animations": true,
-		"json_file": "",
-		"target_minecraft_version": "1.21.4",
-		"enable_advanced_resource_pack_folders": false,
-		"display_item_path": "",
-		"model_folder": "",
-		"texture_folder": ""
 	},
 	"resolution": {
 		"width": 128,
 		"height": 64
+	},
+	"blueprint_settings": {
+		"export_namespace": "dugtrio",
+		"render_box": [48, 48],
+		"display_item": "minecraft:diamond",
+		"resource_pack": "C:\\Patrick\\Minecraft\\projects\\ssbrc\\src",
+		"data_pack": "C:\\Patrick\\Minecraft\\projects\\ssbrc\\src",
+		"on_summon_function": "function ssbrc:logic/pokemon/init {name:\"dugtrio\"}",
+		"auto_update_rig_orientation": false
 	},
 	"elements": [
 		{
@@ -1448,6 +1426,7 @@
 			"name": "dugtrio1",
 			"origin": [0, 0, 0],
 			"color": 0,
+			"onSummonFunction": "",
 			"configs": {
 				"variants": {}
 			},
@@ -1464,6 +1443,7 @@
 					"name": "body4",
 					"origin": [0, 0, 0],
 					"color": 1,
+					"onSummonFunction": "",
 					"configs": {
 						"variants": {}
 					},
@@ -1480,6 +1460,7 @@
 							"name": "ground4",
 							"origin": [3.75, 0, -3.5],
 							"color": 2,
+							"onSummonFunction": "",
 							"configs": {
 								"variants": {}
 							},
@@ -1498,6 +1479,7 @@
 									"name": "body5",
 									"origin": [3.75, 3, -3.5],
 									"color": 3,
+									"onSummonFunction": "",
 									"configs": {
 										"variants": {}
 									},
@@ -1515,6 +1497,7 @@
 											"name": "body1_3",
 											"origin": [3.75, 7, -3.5],
 											"color": 4,
+											"onSummonFunction": "",
 											"configs": {
 												"variants": {}
 											},
@@ -1532,6 +1515,7 @@
 													"name": "nose4",
 													"origin": [3.75, 8.25, -7],
 													"color": 5,
+													"onSummonFunction": "",
 													"configs": {
 														"variants": {}
 													},
@@ -1549,6 +1533,7 @@
 													"name": "eyes4",
 													"origin": [3.75, 10.5, -7.05],
 													"color": 6,
+													"onSummonFunction": "",
 													"configs": {
 														"variants": {}
 													},
@@ -1565,6 +1550,7 @@
 															"name": "eye_left4",
 															"origin": [2.25, 10.5, -7.02],
 															"color": 7,
+															"onSummonFunction": "",
 															"configs": {
 																"variants": {}
 															},
@@ -1582,6 +1568,7 @@
 																	"name": "pupil_left4",
 																	"origin": [2.25, 11, -7.03],
 																	"color": 8,
+																	"onSummonFunction": "",
 																	"configs": {
 																		"variants": {}
 																	},
@@ -1599,6 +1586,7 @@
 																	"name": "eyelid_left4",
 																	"origin": [2.25, 10.5, -6.43],
 																	"color": 9,
+																	"onSummonFunction": "",
 																	"configs": {
 																		"variants": {}
 																	},
@@ -1618,6 +1606,7 @@
 															"name": "eye_right4",
 															"origin": [5.25, 10.5, -7.02],
 															"color": 0,
+															"onSummonFunction": "",
 															"configs": {
 																"variants": {}
 															},
@@ -1635,6 +1624,7 @@
 																	"name": "pupil_right4",
 																	"origin": [5.25, 11, -7.03],
 																	"color": 1,
+																	"onSummonFunction": "",
 																	"configs": {
 																		"variants": {}
 																	},
@@ -1652,6 +1642,7 @@
 																	"name": "eyelid_right4",
 																	"origin": [5.25, 10.5, -6.43],
 																	"color": 2,
+																	"onSummonFunction": "",
 																	"configs": {
 																		"variants": {}
 																	},
@@ -1679,6 +1670,7 @@
 							"name": "ground5",
 							"origin": [-3.75, 0, -3.5],
 							"color": 3,
+							"onSummonFunction": "",
 							"configs": {
 								"variants": {}
 							},
@@ -1697,6 +1689,7 @@
 									"name": "body6",
 									"origin": [-3.75, 3, -3.5],
 									"color": 4,
+									"onSummonFunction": "",
 									"configs": {
 										"variants": {}
 									},
@@ -1714,6 +1707,7 @@
 											"name": "nose5",
 											"origin": [-3.75, 4.75, -7],
 											"color": 5,
+											"onSummonFunction": "",
 											"configs": {
 												"variants": {}
 											},
@@ -1731,6 +1725,7 @@
 											"name": "eyes5",
 											"origin": [-3.75, 7, -7.05],
 											"color": 6,
+											"onSummonFunction": "",
 											"configs": {
 												"variants": {}
 											},
@@ -1747,6 +1742,7 @@
 													"name": "eye_left5",
 													"origin": [-5.25, 7, -7.02],
 													"color": 7,
+													"onSummonFunction": "",
 													"configs": {
 														"variants": {}
 													},
@@ -1764,6 +1760,7 @@
 															"name": "pupil_left5",
 															"origin": [-5.25, 7.5, -7.03],
 															"color": 8,
+															"onSummonFunction": "",
 															"configs": {
 																"variants": {}
 															},
@@ -1781,6 +1778,7 @@
 															"name": "eyelid_left5",
 															"origin": [-5.25, 7, -6.43],
 															"color": 9,
+															"onSummonFunction": "",
 															"configs": {
 																"variants": {}
 															},
@@ -1800,6 +1798,7 @@
 													"name": "eye_right5",
 													"origin": [-2.25, 7, -7.02],
 													"color": 0,
+													"onSummonFunction": "",
 													"configs": {
 														"variants": {}
 													},
@@ -1817,6 +1816,7 @@
 															"name": "pupil_right5",
 															"origin": [-2.25, 7.5, -7.03],
 															"color": 1,
+															"onSummonFunction": "",
 															"configs": {
 																"variants": {}
 															},
@@ -1834,6 +1834,7 @@
 															"name": "eyelid_right5",
 															"origin": [-2.25, 7, -6.43],
 															"color": 2,
+															"onSummonFunction": "",
 															"configs": {
 																"variants": {}
 															},
@@ -1859,6 +1860,7 @@
 							"name": "ground6",
 							"origin": [0, 0, 4],
 							"color": 3,
+							"onSummonFunction": "",
 							"configs": {
 								"variants": {}
 							},
@@ -1877,6 +1879,7 @@
 									"name": "body7",
 									"origin": [0, 3, 4],
 									"color": 4,
+									"onSummonFunction": "",
 									"configs": {
 										"variants": {}
 									},
@@ -1894,6 +1897,7 @@
 											"name": "body3_3",
 											"origin": [0, 10, 4],
 											"color": 5,
+											"onSummonFunction": "",
 											"configs": {
 												"variants": {}
 											},
@@ -1911,6 +1915,7 @@
 													"name": "nose6",
 													"origin": [0, 13.25, 0.5],
 													"color": 6,
+													"onSummonFunction": "",
 													"configs": {
 														"variants": {}
 													},
@@ -1928,6 +1933,7 @@
 													"name": "eyes6",
 													"origin": [0, 15.5, 0.45],
 													"color": 7,
+													"onSummonFunction": "",
 													"configs": {
 														"variants": {}
 													},
@@ -1944,6 +1950,7 @@
 															"name": "eye_left6",
 															"origin": [-1.5, 15.5, 0.48],
 															"color": 8,
+															"onSummonFunction": "",
 															"configs": {
 																"variants": {}
 															},
@@ -1961,6 +1968,7 @@
 																	"name": "pupil_left6",
 																	"origin": [-1.5, 16, 0.47],
 																	"color": 9,
+																	"onSummonFunction": "",
 																	"configs": {
 																		"variants": {}
 																	},
@@ -1978,6 +1986,7 @@
 																	"name": "eyelid_left6",
 																	"origin": [-1.5, 15.5, 1.07],
 																	"color": 0,
+																	"onSummonFunction": "",
 																	"configs": {
 																		"variants": {}
 																	},
@@ -1997,6 +2006,7 @@
 															"name": "eye_right6",
 															"origin": [1.5, 15.5, 0.48],
 															"color": 1,
+															"onSummonFunction": "",
 															"configs": {
 																"variants": {}
 															},
@@ -2014,6 +2024,7 @@
 																	"name": "pupil_right6",
 																	"origin": [1.5, 16, 0.47],
 																	"color": 2,
+																	"onSummonFunction": "",
 																	"configs": {
 																		"variants": {}
 																	},
@@ -2031,6 +2042,7 @@
 																	"name": "eyelid_right6",
 																	"origin": [1.5, 15.5, 1.07],
 																	"color": 3,
+																	"onSummonFunction": "",
 																	"configs": {
 																		"variants": {}
 																	},
@@ -2061,7 +2073,7 @@
 	],
 	"textures": [
 		{
-			"path": "C:\\Users\\Patri\\AppData\\Roaming\\PrismLauncher\\instances\\Main (Experimental)\\minecraft\\resourcepacks\\super_smash_bros_recrafted_assets\\assets\\ssbrc\\textures\\common\\pokemon\\pokemon\\dugtrio\\default.png",
+			"path": "C:\\Patrick\\Minecraft\\projects\\ssbrc\\src\\assets\\ssbrc\\textures\\common\\pokemon\\pokemon\\dugtrio\\default.png",
 			"name": "default.png",
 			"folder": "",
 			"namespace": "",
@@ -2086,10 +2098,10 @@
 			"internal": false,
 			"saved": true,
 			"uuid": "7e2eb569-9307-5d42-7e4c-d9db192544fc",
-			"relative_path": "../../assets/ssbrc/textures/common/pokemon/pokemon/dugtrio/default.png"
+			"relative_path": "../../src/assets/ssbrc/textures/common/pokemon/pokemon/dugtrio/default.png"
 		},
 		{
-			"path": "C:\\Users\\Patri\\AppData\\Roaming\\PrismLauncher\\instances\\Main (Experimental)\\minecraft\\resourcepacks\\super_smash_bros_recrafted_assets\\assets\\ssbrc\\textures\\common\\pokemon\\pokemon\\dugtrio\\shiny.png",
+			"path": "C:\\Patrick\\Minecraft\\projects\\ssbrc\\src\\assets\\ssbrc\\textures\\common\\pokemon\\pokemon\\dugtrio\\shiny.png",
 			"name": "shiny.png",
 			"folder": "",
 			"namespace": "",
@@ -2114,7 +2126,7 @@
 			"internal": false,
 			"saved": true,
 			"uuid": "3445b715-66e3-9a24-a50a-f229a296d151",
-			"relative_path": "../../assets/ssbrc/textures/common/pokemon/pokemon/dugtrio/shiny.png"
+			"relative_path": "../../src/assets/ssbrc/textures/common/pokemon/pokemon/dugtrio/shiny.png"
 		}
 	],
 	"variants": {
@@ -2147,7 +2159,7 @@
 			"length": 4,
 			"snapping": 20,
 			"selected": true,
-			"saved": false,
+			"saved": true,
 			"path": "C:\\Users\\Patri\\OneDrive\\Documents\\Patrick\\Minecraft\\cobblemon\\cobblemon\\common\\src\\main\\resources\\assets\\cobblemon\\bedrock\\pokemon\\animations\\0051_dugtrio\\dugtrio.animation.json",
 			"anim_time_update": "",
 			"blend_weight": "",
@@ -2293,6 +2305,5 @@
 				}
 			}
 		}
-	],
-	"animation_controllers": []
+	]
 }

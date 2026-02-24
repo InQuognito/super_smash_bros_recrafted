@@ -2,4 +2,4 @@
 scoreboard objectives remove aj.water_idle.frame
 scoreboard objectives remove aj.surfacewater_idle.frame
 scoreboard objectives remove aj.surfacewater_swim.frame
-tellraw @a [[{"text":"\n[",color:"gray"},{"text":"AJ",color:"aqua"},"] ",[{"text":"(from ",color:"gray",italic:true},"gyarados",")"]," -> "],{"text":"Successfully removed known animation scoreboard objectives.",color:"red"},{"text":"\nIf you have exported multiple times you may have to manually remove some objectives from previous exports manually, as Animated Java can only remove the latest export's objectives.",color:"gray",italic:true},["\n"]]
+tellraw @a [{color:'gray',text:'\n '},{color:'#00aced',text:'ᴀɴɪᴍᴀᴛᴇᴅ ᴊᴀᴠᴀ'},{color:'dark_gray',italic:true,text:'\n (animated_java:gyarados)'},'\n → ',{color:'green',text:'Successfully uninstalled '},{color:'yellow',text:'gyarados'},{color:'green',text:'!'},{color:'gray',italic:true,text:'\n If you have exported multiple times, you may have to remove objectives from previous exports manually, as Animated Java only knows about the objectives from the most recent export.'},'\n']

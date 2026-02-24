@@ -1,45 +1,23 @@
 {
 	"meta": {
-		"format": "animated_java_blueprint",
-		"format_version": "1.7.2",
+		"format": "animated-java:format/blueprint",
+		"format_version": "1.8.1",
 		"uuid": "2b26028d-3e18-2a08-6163-db7bc2d926f1",
-		"save_location": "C:\\Users\\Patri\\AppData\\Roaming\\PrismLauncher\\instances\\Main (Experimental)\\minecraft\\resourcepacks\\super_smash_bros_recrafted_assets\\ajblueprints\\pokemon\\snorlax.ajblueprint",
+		"save_location": "C:\\Patrick\\Minecraft\\projects\\ssbrc\\ajblueprints\\pokemon\\snorlax.ajblueprint",
 		"last_used_export_namespace": "snorlax"
-	},
-	"blueprint_settings": {
-		"export_namespace": "snorlax",
-		"show_bounding_box": false,
-		"auto_bounding_box": true,
-		"bounding_box": [48, 48],
-		"enable_plugin_mode": false,
-		"resource_pack_export_mode": "raw",
-		"data_pack_export_mode": "raw",
-		"target_minecraft_versions": ["1.21.5"],
-		"display_item": "minecraft:diamond",
-		"custom_model_data_offset": 0,
-		"enable_advanced_resource_pack_settings": false,
-		"resource_pack": "C:\\Users\\Patri\\AppData\\Roaming\\PrismLauncher\\instances\\Main (Experimental)\\minecraft\\resourcepacks\\super_smash_bros_recrafted_assets",
-		"enable_advanced_data_pack_settings": false,
-		"data_pack": "C:\\Users\\Patri\\AppData\\Roaming\\PrismLauncher\\instances\\Main (Experimental)\\minecraft\\saves\\SSBRC\\datapacks\\super_smash_bros_recrafted",
-		"summon_commands": "function ssbrc:logic/pokemon/init {name:\"snorlax\"}",
-		"remove_commands": "",
-		"ticking_commands": "",
-		"interpolation_duration": 1,
-		"teleportation_duration": 1,
-		"use_storage_for_animation": false,
-		"show_function_errors": true,
-		"show_outdated_warning": true,
-		"baked_animations": true,
-		"json_file": "",
-		"target_minecraft_version": "1.21.4",
-		"enable_advanced_resource_pack_folders": false,
-		"display_item_path": "",
-		"model_folder": "",
-		"texture_folder": ""
 	},
 	"resolution": {
 		"width": 256,
 		"height": 128
+	},
+	"blueprint_settings": {
+		"export_namespace": "snorlax",
+		"render_box": [48, 48],
+		"display_item": "minecraft:diamond",
+		"resource_pack": "C:\\Patrick\\Minecraft\\projects\\ssbrc\\src",
+		"data_pack": "C:\\Patrick\\Minecraft\\projects\\ssbrc\\src",
+		"on_summon_function": "function ssbrc:logic/pokemon/init {name:\"snorlax\"}",
+		"auto_update_rig_orientation": false
 	},
 	"elements": [
 		{
@@ -2682,6 +2660,7 @@
 			"name": "snorlax1",
 			"origin": [0, 0, 0],
 			"color": 0,
+			"onSummonFunction": "",
 			"configs": {
 				"variants": {}
 			},
@@ -2698,6 +2677,7 @@
 					"name": "body1",
 					"origin": [0, 25, 0],
 					"color": 1,
+					"onSummonFunction": "",
 					"configs": {
 						"variants": {}
 					},
@@ -2714,6 +2694,7 @@
 							"name": "torso1",
 							"origin": [0, 7, 0],
 							"color": 2,
+							"onSummonFunction": "",
 							"configs": {
 								"variants": {}
 							},
@@ -2730,6 +2711,7 @@
 									"name": "belly1",
 									"origin": [0, 20, 0],
 									"color": 3,
+									"onSummonFunction": "",
 									"configs": {
 										"variants": {}
 									},
@@ -2747,6 +2729,7 @@
 											"name": "belly3",
 											"origin": [0, 31, 0],
 											"color": 4,
+											"onSummonFunction": "",
 											"configs": {
 												"variants": {}
 											},
@@ -2766,6 +2749,7 @@
 									"name": "neck1",
 									"origin": [0, 38, 0],
 									"color": 5,
+									"onSummonFunction": "",
 									"configs": {
 										"variants": {}
 									},
@@ -2783,6 +2767,7 @@
 											"name": "head1",
 											"origin": [0, 38, 0],
 											"color": 6,
+											"onSummonFunction": "",
 											"configs": {
 												"variants": {}
 											},
@@ -2800,6 +2785,7 @@
 													"name": "face1",
 													"origin": [0, 45.5, -8.01],
 													"color": 8,
+													"onSummonFunction": "",
 													"configs": {
 														"variants": {}
 													},
@@ -2816,6 +2802,7 @@
 															"name": "eyes_right1",
 															"origin": [6, 47.5, -8.01],
 															"color": 9,
+															"onSummonFunction": "",
 															"configs": {
 																"variants": {}
 															},
@@ -2832,6 +2819,7 @@
 																	"name": "eye_right1",
 																	"origin": [5, 47.5, -8.01],
 																	"color": 0,
+																	"onSummonFunction": "",
 																	"configs": {
 																		"variants": {}
 																	},
@@ -2849,6 +2837,7 @@
 																	"name": "eye_happy_right1",
 																	"origin": [5, 48, -7.91],
 																	"color": 1,
+																	"onSummonFunction": "",
 																	"configs": {
 																		"variants": {}
 																	},
@@ -2866,6 +2855,7 @@
 																	"name": "eye_sad_right1",
 																	"origin": [5, 48, -7.91],
 																	"color": 2,
+																	"onSummonFunction": "",
 																	"configs": {
 																		"variants": {}
 																	},
@@ -2883,6 +2873,7 @@
 																	"name": "eye_wide_right1",
 																	"origin": [4.5, 47.5, -5.9],
 																	"color": 3,
+																	"onSummonFunction": "",
 																	"configs": {
 																		"variants": {}
 																	},
@@ -2902,6 +2893,7 @@
 															"name": "eyes_left1",
 															"origin": [-5, 47.5, -8.01],
 															"color": 4,
+															"onSummonFunction": "",
 															"configs": {
 																"variants": {}
 															},
@@ -2918,6 +2910,7 @@
 																	"name": "eye_left1",
 																	"origin": [-5, 47.5, -8.01],
 																	"color": 5,
+																	"onSummonFunction": "",
 																	"configs": {
 																		"variants": {}
 																	},
@@ -2935,6 +2928,7 @@
 																	"name": "eye_happy_left1",
 																	"origin": [-5, 48, -7.91],
 																	"color": 6,
+																	"onSummonFunction": "",
 																	"configs": {
 																		"variants": {}
 																	},
@@ -2952,6 +2946,7 @@
 																	"name": "eye_sad_left1",
 																	"origin": [-5, 48, -7.91],
 																	"color": 7,
+																	"onSummonFunction": "",
 																	"configs": {
 																		"variants": {}
 																	},
@@ -2969,6 +2964,7 @@
 																	"name": "eye_wide_left1",
 																	"origin": [-4.5, 47.5, -5.9],
 																	"color": 8,
+																	"onSummonFunction": "",
 																	"configs": {
 																		"variants": {}
 																	},
@@ -2988,6 +2984,7 @@
 															"name": "mouths1",
 															"origin": [0, 44, -8],
 															"color": 9,
+															"onSummonFunction": "",
 															"configs": {
 																"variants": {}
 															},
@@ -3004,6 +3001,7 @@
 																	"name": "mouth_closed1",
 																	"origin": [0, 44, -8],
 																	"color": 0,
+																	"onSummonFunction": "",
 																	"configs": {
 																		"variants": {}
 																	},
@@ -3021,6 +3019,7 @@
 																	"name": "mouth_closed_happy1",
 																	"origin": [0, 44, -7.9],
 																	"color": 1,
+																	"onSummonFunction": "",
 																	"configs": {
 																		"variants": {}
 																	},
@@ -3038,6 +3037,7 @@
 																	"name": "mouth_closed_sad1",
 																	"origin": [0, 44, -7.9],
 																	"color": 2,
+																	"onSummonFunction": "",
 																	"configs": {
 																		"variants": {}
 																	},
@@ -3055,6 +3055,7 @@
 																	"name": "mouth_open1",
 																	"origin": [0, 41, -7.9],
 																	"color": 3,
+																	"onSummonFunction": "",
 																	"configs": {
 																		"variants": {}
 																	},
@@ -3077,6 +3078,7 @@
 																	"name": "mouth_open_happy1",
 																	"origin": [0, 41, -7.9],
 																	"color": 4,
+																	"onSummonFunction": "",
 																	"configs": {
 																		"variants": {}
 																	},
@@ -3104,6 +3106,7 @@
 													"origin": [9.5, 50, 0],
 													"rotation": [0, 0, -24],
 													"color": 5,
+													"onSummonFunction": "",
 													"configs": {
 														"variants": {}
 													},
@@ -3122,6 +3125,7 @@
 													"origin": [-9.5, 50, 0],
 													"rotation": [0, 0, 24],
 													"color": 6,
+													"onSummonFunction": "",
 													"configs": {
 														"variants": {}
 													},
@@ -3143,6 +3147,7 @@
 									"name": "arm_right1",
 									"origin": [15, 35, 0],
 									"color": 7,
+									"onSummonFunction": "",
 									"configs": {
 										"variants": {}
 									},
@@ -3160,6 +3165,7 @@
 											"name": "arm_right3",
 											"origin": [28, 36, 6],
 											"color": 8,
+											"onSummonFunction": "",
 											"configs": {
 												"variants": {}
 											},
@@ -3177,6 +3183,7 @@
 													"name": "finger_pinky_right1",
 													"origin": [34, 33, 3.5],
 													"color": 9,
+													"onSummonFunction": "",
 													"configs": {
 														"variants": {}
 													},
@@ -3194,6 +3201,7 @@
 													"name": "finger_ring_right1",
 													"origin": [34, 34, 1.5],
 													"color": 0,
+													"onSummonFunction": "",
 													"configs": {
 														"variants": {}
 													},
@@ -3211,6 +3219,7 @@
 													"name": "finger_middle_right1",
 													"origin": [34, 34, -1.5],
 													"color": 1,
+													"onSummonFunction": "",
 													"configs": {
 														"variants": {}
 													},
@@ -3228,6 +3237,7 @@
 													"name": "finger_index_right1",
 													"origin": [34, 33, -3.5],
 													"color": 2,
+													"onSummonFunction": "",
 													"configs": {
 														"variants": {}
 													},
@@ -3245,6 +3255,7 @@
 													"name": "finger_thumb_right1",
 													"origin": [34, 29, -4],
 													"color": 3,
+													"onSummonFunction": "",
 													"configs": {
 														"variants": {}
 													},
@@ -3266,6 +3277,7 @@
 									"name": "arm_left1",
 									"origin": [-15, 35, 0],
 									"color": 4,
+									"onSummonFunction": "",
 									"configs": {
 										"variants": {}
 									},
@@ -3283,6 +3295,7 @@
 											"name": "arm_left3",
 											"origin": [-28, 36, 6],
 											"color": 5,
+											"onSummonFunction": "",
 											"configs": {
 												"variants": {}
 											},
@@ -3300,6 +3313,7 @@
 													"name": "finger_pinky_left1",
 													"origin": [-34, 33, 3.5],
 													"color": 6,
+													"onSummonFunction": "",
 													"configs": {
 														"variants": {}
 													},
@@ -3317,6 +3331,7 @@
 													"name": "finger_ring_left1",
 													"origin": [-34, 34, 1.5],
 													"color": 7,
+													"onSummonFunction": "",
 													"configs": {
 														"variants": {}
 													},
@@ -3334,6 +3349,7 @@
 													"name": "finger_middle_left1",
 													"origin": [-34, 34, -1.5],
 													"color": 8,
+													"onSummonFunction": "",
 													"configs": {
 														"variants": {}
 													},
@@ -3351,6 +3367,7 @@
 													"name": "finger_index_left1",
 													"origin": [-34, 33, -3.5],
 													"color": 9,
+													"onSummonFunction": "",
 													"configs": {
 														"variants": {}
 													},
@@ -3368,6 +3385,7 @@
 													"name": "finger_thumb_left1",
 													"origin": [-34, 29, -4],
 													"color": 0,
+													"onSummonFunction": "",
 													"configs": {
 														"variants": {}
 													},
@@ -3391,6 +3409,7 @@
 							"name": "leg_right1",
 							"origin": [9.5, 13, 1],
 							"color": 1,
+							"onSummonFunction": "",
 							"configs": {
 								"variants": {}
 							},
@@ -3409,6 +3428,7 @@
 									"name": "foot_right1",
 									"origin": [9.5, 5, 0.5],
 									"color": 2,
+									"onSummonFunction": "",
 									"configs": {
 										"variants": {}
 									},
@@ -3426,6 +3446,7 @@
 											"name": "toes_right1",
 											"origin": [9.5, 0, -8.5],
 											"color": 3,
+											"onSummonFunction": "",
 											"configs": {
 												"variants": {}
 											},
@@ -3442,6 +3463,7 @@
 													"name": "toe_inner_right1",
 													"origin": [4.5, 3, -8.5],
 													"color": 4,
+													"onSummonFunction": "",
 													"configs": {
 														"variants": {}
 													},
@@ -3459,6 +3481,7 @@
 													"name": "toe_middle_right1",
 													"origin": [9.5, 3, -8.5],
 													"color": 5,
+													"onSummonFunction": "",
 													"configs": {
 														"variants": {}
 													},
@@ -3476,6 +3499,7 @@
 													"name": "toe_outer_right1",
 													"origin": [14.5, 3, -8.5],
 													"color": 6,
+													"onSummonFunction": "",
 													"configs": {
 														"variants": {}
 													},
@@ -3499,6 +3523,7 @@
 							"name": "leg_left1",
 							"origin": [-9.5, 13, 1],
 							"color": 7,
+							"onSummonFunction": "",
 							"configs": {
 								"variants": {}
 							},
@@ -3517,6 +3542,7 @@
 									"name": "foot_left1",
 									"origin": [-9.5, 5, 0.5],
 									"color": 8,
+									"onSummonFunction": "",
 									"configs": {
 										"variants": {}
 									},
@@ -3534,6 +3560,7 @@
 											"name": "toes_left1",
 											"origin": [-9.5, 0, -8.5],
 											"color": 9,
+											"onSummonFunction": "",
 											"configs": {
 												"variants": {}
 											},
@@ -3550,6 +3577,7 @@
 													"name": "toe_inner_left1",
 													"origin": [-4.5, 3, -8.5],
 													"color": 0,
+													"onSummonFunction": "",
 													"configs": {
 														"variants": {}
 													},
@@ -3567,6 +3595,7 @@
 													"name": "toe_middle_left1",
 													"origin": [-9.5, 3, -8.5],
 													"color": 1,
+													"onSummonFunction": "",
 													"configs": {
 														"variants": {}
 													},
@@ -3584,6 +3613,7 @@
 													"name": "toe_outer_left1",
 													"origin": [-14.5, 3, -8.5],
 													"color": 2,
+													"onSummonFunction": "",
 													"configs": {
 														"variants": {}
 													},
@@ -3610,7 +3640,7 @@
 	],
 	"textures": [
 		{
-			"path": "C:\\Users\\Patri\\AppData\\Roaming\\PrismLauncher\\instances\\Main (Experimental)\\minecraft\\resourcepacks\\super_smash_bros_recrafted_assets\\assets\\ssbrc\\textures\\common\\pokemon\\pokemon\\snorlax\\default.png",
+			"path": "C:\\Patrick\\Minecraft\\projects\\ssbrc\\src\\assets\\ssbrc\\textures\\common\\pokemon\\pokemon\\snorlax\\default.png",
 			"name": "default.png",
 			"folder": "",
 			"namespace": "",
@@ -3635,10 +3665,10 @@
 			"internal": false,
 			"saved": true,
 			"uuid": "34269de5-a0a3-bc21-e64b-85735cdbade1",
-			"relative_path": "../../assets/ssbrc/textures/common/pokemon/pokemon/snorlax/default.png"
+			"relative_path": "../../src/assets/ssbrc/textures/common/pokemon/pokemon/snorlax/default.png"
 		},
 		{
-			"path": "C:\\Users\\Patri\\AppData\\Roaming\\PrismLauncher\\instances\\Main (Experimental)\\minecraft\\resourcepacks\\super_smash_bros_recrafted_assets\\assets\\ssbrc\\textures\\common\\pokemon\\pokemon\\snorlax\\shiny.png",
+			"path": "C:\\Patrick\\Minecraft\\projects\\ssbrc\\src\\assets\\ssbrc\\textures\\common\\pokemon\\pokemon\\snorlax\\shiny.png",
 			"name": "shiny.png",
 			"folder": "",
 			"namespace": "",
@@ -3663,7 +3693,7 @@
 			"internal": false,
 			"saved": true,
 			"uuid": "e384b236-6549-f3ae-3750-53869cf06acd",
-			"relative_path": "../../assets/ssbrc/textures/common/pokemon/pokemon/snorlax/shiny.png"
+			"relative_path": "../../src/assets/ssbrc/textures/common/pokemon/pokemon/snorlax/shiny.png"
 		}
 	],
 	"variants": {
@@ -3696,7 +3726,7 @@
 			"length": 0.05,
 			"snapping": 20,
 			"selected": false,
-			"saved": false,
+			"saved": true,
 			"path": "C:\\Users\\Patri\\OneDrive\\Documents\\Patrick\\Minecraft\\cobblemon\\cobblemon\\common\\src\\main\\resources\\assets\\cobblemon\\bedrock\\pokemon\\animations\\0143_snorlax\\snorlax.animation.json",
 			"anim_time_update": "",
 			"blend_weight": "",
@@ -3890,7 +3920,7 @@
 			"length": 0.05,
 			"snapping": 20,
 			"selected": false,
-			"saved": false,
+			"saved": true,
 			"path": "C:\\Users\\Patri\\OneDrive\\Documents\\Patrick\\Minecraft\\cobblemon\\cobblemon\\common\\src\\main\\resources\\assets\\cobblemon\\bedrock\\pokemon\\animations\\0143_snorlax\\snorlax.animation.json",
 			"anim_time_update": "",
 			"blend_weight": "",
@@ -4290,7 +4320,7 @@
 			"length": 0.05,
 			"snapping": 20,
 			"selected": true,
-			"saved": false,
+			"saved": true,
 			"path": "C:\\Users\\Patri\\OneDrive\\Documents\\Patrick\\Minecraft\\cobblemon\\cobblemon\\common\\src\\main\\resources\\assets\\cobblemon\\bedrock\\pokemon\\animations\\0143_snorlax\\snorlax.animation.json",
 			"anim_time_update": "",
 			"blend_weight": "",
@@ -4780,6 +4810,5 @@
 				}
 			}
 		}
-	],
-	"animation_controllers": []
+	]
 }

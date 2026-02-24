@@ -1,45 +1,23 @@
 {
 	"meta": {
-		"format": "animated_java_blueprint",
-		"format_version": "1.7.2",
+		"format": "animated-java:format/blueprint",
+		"format_version": "1.8.1",
 		"uuid": "5913b3fa-f67e-9e61-4d5d-8fefa17a37c0",
-		"save_location": "C:\\Users\\Patri\\AppData\\Roaming\\PrismLauncher\\instances\\Main (Experimental)\\minecraft\\resourcepacks\\super_smash_bros_recrafted_assets\\ajblueprints\\pokemon\\sudowoodo.ajblueprint",
+		"save_location": "C:\\Patrick\\Minecraft\\projects\\ssbrc\\ajblueprints\\pokemon\\sudowoodo.ajblueprint",
 		"last_used_export_namespace": "sudowoodo"
-	},
-	"blueprint_settings": {
-		"export_namespace": "sudowoodo",
-		"show_bounding_box": false,
-		"auto_bounding_box": true,
-		"bounding_box": [48, 48],
-		"enable_plugin_mode": false,
-		"resource_pack_export_mode": "raw",
-		"data_pack_export_mode": "raw",
-		"target_minecraft_versions": ["1.21.5"],
-		"display_item": "minecraft:diamond",
-		"custom_model_data_offset": 0,
-		"enable_advanced_resource_pack_settings": false,
-		"resource_pack": "C:\\Users\\Patri\\AppData\\Roaming\\PrismLauncher\\instances\\Main (Experimental)\\minecraft\\resourcepacks\\super_smash_bros_recrafted_assets",
-		"enable_advanced_data_pack_settings": false,
-		"data_pack": "C:\\Users\\Patri\\AppData\\Roaming\\PrismLauncher\\instances\\Main (Experimental)\\minecraft\\saves\\SSBRC\\datapacks\\super_smash_bros_recrafted",
-		"summon_commands": "function ssbrc:logic/pokemon/init {name:\"sudowoodo\"}",
-		"remove_commands": "",
-		"ticking_commands": "",
-		"interpolation_duration": 1,
-		"teleportation_duration": 1,
-		"use_storage_for_animation": false,
-		"show_function_errors": true,
-		"show_outdated_warning": true,
-		"baked_animations": true,
-		"json_file": "",
-		"target_minecraft_version": "1.21.4",
-		"enable_advanced_resource_pack_folders": false,
-		"display_item_path": "",
-		"model_folder": "",
-		"texture_folder": ""
 	},
 	"resolution": {
 		"width": 128,
 		"height": 64
+	},
+	"blueprint_settings": {
+		"export_namespace": "sudowoodo",
+		"render_box": [48, 48],
+		"display_item": "minecraft:diamond",
+		"resource_pack": "C:\\Patrick\\Minecraft\\projects\\ssbrc\\src",
+		"data_pack": "C:\\Patrick\\Minecraft\\projects\\ssbrc\\src",
+		"on_summon_function": "function ssbrc:logic/pokemon/init {name:\"sudowoodo\"}",
+		"auto_update_rig_orientation": false
 	},
 	"elements": [
 		{
@@ -1699,6 +1677,7 @@
 			"name": "sudowoodo1",
 			"origin": [0, 0, 0],
 			"color": 0,
+			"onSummonFunction": "",
 			"configs": {
 				"variants": {}
 			},
@@ -1715,6 +1694,7 @@
 					"name": "body1",
 					"origin": [0, 22, 0],
 					"color": 1,
+					"onSummonFunction": "",
 					"configs": {
 						"variants": {}
 					},
@@ -1731,6 +1711,7 @@
 							"name": "torso1",
 							"origin": [0, 7.5, 0],
 							"color": 2,
+							"onSummonFunction": "",
 							"configs": {
 								"variants": {}
 							},
@@ -1748,6 +1729,7 @@
 									"name": "torso3",
 									"origin": [0, 16.5, 0],
 									"color": 3,
+									"onSummonFunction": "",
 									"configs": {
 										"variants": {}
 									},
@@ -1765,6 +1747,7 @@
 											"name": "head1",
 											"origin": [0, 26, 0],
 											"color": 4,
+											"onSummonFunction": "",
 											"configs": {
 												"variants": {}
 											},
@@ -1783,6 +1766,7 @@
 													"name": "eye_left1",
 													"origin": [0, 6.5, 0],
 													"color": 5,
+													"onSummonFunction": "",
 													"configs": {
 														"variants": {}
 													},
@@ -1800,6 +1784,7 @@
 															"name": "eyelid_left1",
 															"origin": [0, 6.5, 0.1],
 															"color": 6,
+															"onSummonFunction": "",
 															"configs": {
 																"variants": {}
 															},
@@ -1819,6 +1804,7 @@
 													"name": "eye_right1",
 													"origin": [0, 6.5, 0],
 													"color": 7,
+													"onSummonFunction": "",
 													"configs": {
 														"variants": {}
 													},
@@ -1836,6 +1822,7 @@
 															"name": "eyelid_right1",
 															"origin": [0, 6.5, 0.1],
 															"color": 8,
+															"onSummonFunction": "",
 															"configs": {
 																"variants": {}
 															},
@@ -1855,6 +1842,7 @@
 													"name": "mouth_open1",
 													"origin": [0, 28.16119, -2.91],
 													"color": 9,
+													"onSummonFunction": "",
 													"configs": {
 														"variants": {}
 													},
@@ -1872,6 +1860,7 @@
 													"name": "mouth_closed1",
 													"origin": [0, 28.16119, -3.01],
 													"color": 0,
+													"onSummonFunction": "",
 													"configs": {
 														"variants": {}
 													},
@@ -1889,6 +1878,7 @@
 													"name": "stem1",
 													"origin": [0, 6.5, 0],
 													"color": 1,
+													"onSummonFunction": "",
 													"configs": {
 														"variants": {}
 													},
@@ -1906,6 +1896,7 @@
 															"origin": [0, 38.5, 0],
 															"rotation": [0, 0, 60],
 															"color": 2,
+															"onSummonFunction": "",
 															"configs": {
 																"variants": {}
 															},
@@ -1924,6 +1915,7 @@
 															"origin": [0, 38.5, 0],
 															"rotation": [0, 0, -60],
 															"color": 3,
+															"onSummonFunction": "",
 															"configs": {
 																"variants": {}
 															},
@@ -1945,13 +1937,14 @@
 											"name": "arm_left1",
 											"origin": [-3, 23, 0],
 											"color": 4,
+											"onSummonFunction": "",
 											"configs": {
 												"variants": {}
 											},
 											"uuid": "745681f7-2766-052d-1f36-7deaa8658568",
 											"export": true,
 											"mirror_uv": false,
-											"isOpen": false,
+											"isOpen": true,
 											"locked": false,
 											"visibility": true,
 											"autouv": 0,
@@ -1962,13 +1955,14 @@
 													"name": "arm_left3",
 													"origin": [-9.5, 23, 0],
 													"color": 5,
+													"onSummonFunction": "",
 													"configs": {
 														"variants": {}
 													},
 													"uuid": "d05f992b-872f-b856-1c02-f6e3a4dd8d4d",
 													"export": true,
 													"mirror_uv": false,
-													"isOpen": false,
+													"isOpen": true,
 													"locked": false,
 													"visibility": true,
 													"autouv": 0,
@@ -1979,13 +1973,14 @@
 															"name": "finger_left1",
 															"origin": [-14.5, 23, 0],
 															"color": 6,
+															"onSummonFunction": "",
 															"configs": {
 																"variants": {}
 															},
 															"uuid": "7ed06a5c-3752-a6aa-c2d1-a339a9e0802b",
 															"export": true,
 															"mirror_uv": false,
-															"isOpen": false,
+															"isOpen": true,
 															"locked": false,
 															"visibility": true,
 															"autouv": 0,
@@ -1996,13 +1991,14 @@
 																	"name": "leaf_left1",
 																	"origin": [-18, 23, 0],
 																	"color": 7,
+																	"onSummonFunction": "",
 																	"configs": {
 																		"variants": {}
 																	},
 																	"uuid": "17c22985-4011-5175-433e-a9959b5f8064",
 																	"export": true,
 																	"mirror_uv": false,
-																	"isOpen": false,
+																	"isOpen": true,
 																	"locked": false,
 																	"visibility": true,
 																	"autouv": 0,
@@ -2016,13 +2012,14 @@
 															"origin": [-12.5, 23, 0],
 															"rotation": [0, 0, -55],
 															"color": 8,
+															"onSummonFunction": "",
 															"configs": {
 																"variants": {}
 															},
 															"uuid": "c034a46d-84a8-d594-3f48-11f6befcecdd",
 															"export": true,
 															"mirror_uv": false,
-															"isOpen": false,
+															"isOpen": true,
 															"locked": false,
 															"visibility": true,
 															"autouv": 0,
@@ -2033,13 +2030,14 @@
 																	"name": "leaf_left4",
 																	"origin": [-15.5, 23, 0],
 																	"color": 9,
+																	"onSummonFunction": "",
 																	"configs": {
 																		"variants": {}
 																	},
 																	"uuid": "0266a561-6d17-76f9-89a5-5918b67c8190",
 																	"export": true,
 																	"mirror_uv": false,
-																	"isOpen": false,
+																	"isOpen": true,
 																	"locked": false,
 																	"visibility": true,
 																	"autouv": 0,
@@ -2053,13 +2051,14 @@
 															"origin": [-12.5, 23, 0],
 															"rotation": [0, 0, 55],
 															"color": 0,
+															"onSummonFunction": "",
 															"configs": {
 																"variants": {}
 															},
 															"uuid": "35b747f7-673d-dd44-dd82-ddf94f05c153",
 															"export": true,
 															"mirror_uv": false,
-															"isOpen": false,
+															"isOpen": true,
 															"locked": false,
 															"visibility": true,
 															"autouv": 0,
@@ -2070,6 +2069,7 @@
 																	"name": "leaf_left5",
 																	"origin": [-14.5, 21, 0],
 																	"color": 1,
+																	"onSummonFunction": "",
 																	"configs": {
 																		"variants": {}
 																	},
@@ -2093,6 +2093,7 @@
 											"name": "arm_right1",
 											"origin": [3, 23, 0],
 											"color": 2,
+											"onSummonFunction": "",
 											"configs": {
 												"variants": {}
 											},
@@ -2110,6 +2111,7 @@
 													"name": "arm_right3",
 													"origin": [9.5, 23, 0],
 													"color": 3,
+													"onSummonFunction": "",
 													"configs": {
 														"variants": {}
 													},
@@ -2127,6 +2129,7 @@
 															"name": "finger_right1",
 															"origin": [14.5, 23, 0],
 															"color": 4,
+															"onSummonFunction": "",
 															"configs": {
 																"variants": {}
 															},
@@ -2144,6 +2147,7 @@
 																	"name": "leaf_right1",
 																	"origin": [18, 23, 0],
 																	"color": 5,
+																	"onSummonFunction": "",
 																	"configs": {
 																		"variants": {}
 																	},
@@ -2164,6 +2168,7 @@
 															"origin": [12.5, 23, 0],
 															"rotation": [0, 0, 55],
 															"color": 6,
+															"onSummonFunction": "",
 															"configs": {
 																"variants": {}
 															},
@@ -2181,6 +2186,7 @@
 																	"name": "leaf_right4",
 																	"origin": [15.5, 23, 0],
 																	"color": 7,
+																	"onSummonFunction": "",
 																	"configs": {
 																		"variants": {}
 																	},
@@ -2201,6 +2207,7 @@
 															"origin": [12.5, 23, 0],
 															"rotation": [0, 0, -55],
 															"color": 8,
+															"onSummonFunction": "",
 															"configs": {
 																"variants": {}
 															},
@@ -2218,6 +2225,7 @@
 																	"name": "leaf_right5",
 																	"origin": [14.5, 21, 0],
 																	"color": 9,
+																	"onSummonFunction": "",
 																	"configs": {
 																		"variants": {}
 																	},
@@ -2245,13 +2253,14 @@
 							"name": "leg_left1",
 							"origin": [-3.5, 9, 0],
 							"color": 0,
+							"onSummonFunction": "",
 							"configs": {
 								"variants": {}
 							},
 							"uuid": "32df5815-4e16-b3ca-02e1-0ee435aae596",
 							"export": true,
 							"mirror_uv": false,
-							"isOpen": false,
+							"isOpen": true,
 							"locked": false,
 							"visibility": true,
 							"autouv": 0,
@@ -2262,13 +2271,14 @@
 									"name": "leg_left3",
 									"origin": [-3.5, 5, -1],
 									"color": 1,
+									"onSummonFunction": "",
 									"configs": {
 										"variants": {}
 									},
 									"uuid": "d1e863f4-7376-2bcd-3368-a582d0d816ec",
 									"export": true,
 									"mirror_uv": false,
-									"isOpen": false,
+									"isOpen": true,
 									"locked": false,
 									"visibility": true,
 									"autouv": 0,
@@ -2279,17 +2289,18 @@
 											"name": "foot_left1",
 											"origin": [-3.5, 1.5, 0.5],
 											"color": 2,
+											"onSummonFunction": "",
 											"configs": {
 												"variants": {}
 											},
 											"uuid": "c70fa443-8b59-77dc-4169-9ab64b905751",
 											"export": true,
 											"mirror_uv": false,
-											"isOpen": false,
+											"isOpen": true,
 											"locked": false,
 											"visibility": true,
 											"autouv": 0,
-											"selected": false,
+											"selected": true,
 											"children": ["435d3846-3413-7b1f-66ed-3fbafbed7113"]
 										}
 									]
@@ -2300,13 +2311,14 @@
 							"name": "leg_right1",
 							"origin": [3.5, 9, 0],
 							"color": 3,
+							"onSummonFunction": "",
 							"configs": {
 								"variants": {}
 							},
 							"uuid": "6f257272-bc91-f5f8-51c6-cdedffd66c94",
 							"export": true,
 							"mirror_uv": false,
-							"isOpen": false,
+							"isOpen": true,
 							"locked": false,
 							"visibility": true,
 							"autouv": 0,
@@ -2317,13 +2329,14 @@
 									"name": "leg_right3",
 									"origin": [3.5, 5, -1],
 									"color": 4,
+									"onSummonFunction": "",
 									"configs": {
 										"variants": {}
 									},
 									"uuid": "3baf2007-1491-2a56-133e-af057636bdb5",
 									"export": true,
 									"mirror_uv": false,
-									"isOpen": false,
+									"isOpen": true,
 									"locked": false,
 									"visibility": true,
 									"autouv": 0,
@@ -2334,13 +2347,14 @@
 											"name": "foot_right1",
 											"origin": [3.5, 1.5, 0.5],
 											"color": 5,
+											"onSummonFunction": "",
 											"configs": {
 												"variants": {}
 											},
 											"uuid": "ce3a9e52-7433-d5e0-de77-141ea8016ea7",
 											"export": true,
 											"mirror_uv": false,
-											"isOpen": false,
+											"isOpen": true,
 											"locked": false,
 											"visibility": true,
 											"autouv": 0,
@@ -2358,7 +2372,7 @@
 	],
 	"textures": [
 		{
-			"path": "C:\\Users\\Patri\\AppData\\Roaming\\PrismLauncher\\instances\\Main (Experimental)\\minecraft\\resourcepacks\\super_smash_bros_recrafted_assets\\assets\\ssbrc\\textures\\common\\pokemon\\pokemon\\sudowoodo\\default.png",
+			"path": "C:\\Patrick\\Minecraft\\projects\\ssbrc\\src\\assets\\ssbrc\\textures\\common\\pokemon\\pokemon\\sudowoodo\\default.png",
 			"name": "default.png",
 			"folder": "",
 			"namespace": "",
@@ -2370,8 +2384,8 @@
 			"uv_height": 64,
 			"particle": false,
 			"use_as_default": false,
-			"layers_enabled": false,
-			"sync_to_project": "",
+			"layers_enabled": true,
+			"sync_to_project": "e4d1b1e6-c98f-ba32-e1df-1bec55df54b5",
 			"render_mode": "default",
 			"render_sides": "auto",
 			"pbr_channel": "color",
@@ -2383,10 +2397,23 @@
 			"internal": false,
 			"saved": true,
 			"uuid": "e3c4bf97-14b0-5c66-94df-04de19282cf6",
-			"relative_path": "../../assets/ssbrc/textures/common/pokemon/pokemon/sudowoodo/default.png"
+			"layers": [
+				{
+					"name": "layer",
+					"offset": [0, 0],
+					"scale": [1, 1],
+					"opacity": 100,
+					"visible": true,
+					"blend_mode": "default",
+					"width": 128,
+					"height": 64,
+					"data_url": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAABACAYAAADS1n9/AAAAAXNSR0IArs4c6QAAC4dJREFUeF7tW1uIVlUUPoKEDab4FyEFRqkkQgUFCqFhgUEZPkQRGFRERD0IUfoSRA9BTwZBRPUSGRhJ5EPYBYWQkEChoB7McLooXSRsJJPJQphY+/+/43e+WXuffcYZnd9zBoZz35e1vvWty97/nKIoiiNvPj1hR/wtf+qNOXZ+4OVHJ8bGxvlROO/1RsLxspXfhPNDH11b2Ht2bv+rn98evvfafW3dukpfm/ftC+/i/d6CkWLs1Lk+cW3tx8aC/nigOx7fUOkHzx5+++Oyv0kTG4wZcwlzXdCfK49pdPRERQ42Z4zNG4vXz2y5N0eVxCAwAITJEwigfL2P71IA+Oz974qxM2eKh9avL3oLFxY7d+8OnwEEPBZWAvfljSUGAIyVv8kBQDmXgfJxDRCgPZaFGs9sUXDdOEoAqMCNBQwAjG5YPwQQs0gIRq2HrcRjAgDAU7LXFybnAeDTLQ8G8GL8+D4GgBj4PAZQoTJLoU+waJ0CLvbzAABQ2rJlV5XjsQnE2MFesm8gXO8IQZhwRn/uUyb+Du45Wqxfu7bYuXdvn0rnzQvHTU/eFqgWYCzdCrkFDxyesA0AcEk2VrR1z7YPXBegAMD4YwrSMbKLMjkODQBsguovYSU5AFABmSAYSN7zmJ/k/jQWSFmKJ2ywF8CK72MAwHMbg0fxUDBANaw+X+U4JxUsQSGgQfuY/WDKPQRBRSy3DgBefxi49+zgwWNlYKqWq3GAF0yyW9A5c/DHbhLnw2LpMQOqjYhZ4GgEQrEswP7+O3RLSbE5Pi0mtBTggmIlKAMgDQBQfCWCH2Qr5bgHwazGEwYAZTuPgZQZ+HpYgRACvdK6RGApoXvUzvfqAkS0zRaWsnJu21NOLH3MVUwsCGRfnwLAsKV/kGcJAC+laQKAYI2ULqYAwMrSKBvP9MhjAWi0Ha9+kAsAa1+NIZZ5mLKRZeTGFjnMeDHeKVO9VOcpn5xiAi9i94CWm2pxDOKNVyNzeycXAKx8dicxuSg46oLLi6HcnD4nAYBTr5jAWWHsc5UFvAFwyug+j1QCUwpHv1qksutcAKD9OstGeok+vXgiR/Cz5Z0KALz0BwNdtv54OB3du7gy9phfVDCwcmLuZipC8ViG+27qm5sCQOdZV2mcyhxn8ptJAFDlwMINAKf/+TvU/WPvsDCQbm189t8w/v3vLCrXCnhCyiB1k/XeVxDwdS4AkA4jz1cLh2LtPa/EjHEPJQDg81T4LOzFa46Ex8f3L4+mfBoE2vWax04GxQMA6KPOFaSAwL6+DjBNAFCWsAfZENcMGACpPocOAOzTPGR7dO3RLu7huHLjr4Et7KjAYWBpwSiWzgWQDuID7svz+9x+EwAwOIed2usMA8/LdAblW1WuWf78y68ofb9dgwVUYFhTsPt4TwdSFwukCk/qOlLXYLWpAMAT3rBZdjYAkP7wqhn7Qaz5m9Ltz66t8sc+Uuvj6JzZACzgKeSud5eEYtTc3khxdlBLODt2dtIcvnjmt8o+A2+1kcvTfI6xDNNCTa4Sz+e9SiWQI3pYaqrcyz7SCwxBxeYG7NyAEwOAKR9/BgIFwNze3OLzR46VAFCm8CqKHkNMJTU8HwHP9m+jO3ds4MYOsV0/TPc6SaNLLazEBGGAuHv3ikm7d86Mnio/MeXb31vjGyrNxBggpniNL5rWCGJzwM4pDU7r3AYyCgMl7zLKKSqlFvF4JVQDczZUk/2UdwSlAJBaDvaE+MLNB8JtuAA7nhk9EVgAyrd7r/9yZ9SgYjUMFixnHvZ+bnxQZ8W6cwpjqQMAB+BNAYB6BSvYxgnZs/vzxg+wBgB4uTV2BMUmX8cAsT0GXnv3fnnrBHw/XMHpg8eD8nFtz+EC6hRyoZ/zHgIvdUwxhz0zZfGKZg4D8H5NBn/Otzye5I4g3laFj5RSdHIp5JlFcMAHq7ejKZjjgGo8cG6TKAOC+84NIGcCHACAyiaXAQAA0HOOErVPGHHOtxUA2EXMWpmiPL9q99jv5UzgjlevmWBaVyXyNVgBAIFLUBBoANl/v5pFIIOYDgBw5sSGETMOZEm6mxjWr7UMbdMDEu+f5H4bAyA3mFAAYE+gCtQGYwP+Y9u2ENhdvWVLZdOJMoBSP1syzsEOyA4AIGYQDzgMgukEAO83jDGj+mZNT2P1EHYhWpPxKpU5zJxiotodQbE0kH2WDiLVITOAR+ExN6BWbSAwBc9ftbh0H8oY+IZTyOliAC1lq/V7ytOAFGPhCqzWLjS49dJtZWKdYxIAnK5diDrA1pH+TuC+9faViHOP2lOFIfvOAAAXAUawDILbsj6mkwG0eKYG4GUkXGgD9fMR554bAa0b7XMqq2nsn+89N8H1kJw0N5SCFYGMTM0QNNdl9OHcjlYKtnZtPYAXkmwy111/Q3APR3/6MTAQZwHsEtgFKFvEmEJBxKwAgAAwU80qvNgIivPkw/JlRSulK5AgT1iwKTjcG/xyygNA6rkyg12XawEaiKiPghJNoTzQWACjq4eY+FMfflV8f/hwceOKFaEZAwEAwAqfN/iNwjkG6GcCrHgFgSqb2UNTyvNhBf3Riac4FXYsO1I5ewywatWS6IbYINfIZlmMIcUEAQDWqRUQvHoAFGcKtedYE+AJ4jsODHkNgds1APCfAeCBw2smxsfGi5HeSGFHTQn7wV8/TcTRCxZh2WrpqgxkE1NlAM+SZvKe/l6iIvtT4xUAaEncwHHlpleisV4JAKQqimYglCnd83GIXvG+Bo/MAH+dHCsWLuqVDGAAsAtTPpRoCgYgcE8zBhYEA8RTeB8U52IOu57OuGAmAcCl3Vj527sPmdcyAA9eo1s0AoUyA3j+zt5ngOg7XkTKAIC191YtKQEBANj6ANcQFBC8iKTK9hQ0bADwGLouRjN9JgHAW5wUCB4wlPpVsJr/YiUQwNnxxO/hE7Nu/QP9MwvgXN81hrD/T27/etKClgIQIGaWmq51gJm0fLTNWYduyMXcvPv4PjXX8NMwLVIgJrAGOJiDdYPm+QeiLGQWin6//f4fguI8ANh3DAIGAgd4HPztue9wco+AjhkWk5MiXQjl5vThVR6VaVOGWQsAfKxFBgDA7sOC1cLxbey+AsAYAL5dQYAYAG1yBqDlXjDAi/tumrRJNfbDUo1d7HqYmCAHLE3fKX8cGqswYU8ffv/XBHneYOAC9BnAwCBAPMDvQvG4t3nX0nK3MftDzzd6AGhaO28q4Nn+fuXXwVqw8JhBLT32TWzicAF4HlM86N9rByAwgMAFxPpT+tTxAyhtZYLgP73KHNNwLMXKzaNtAUgt18q1atl1ysT73pIy2mNwvPTt6kofWoxRlmgjCEJZ1qvMaQ7uWWQuAGzLF3w42j1fALCi7Zzr/+jLMoQmW9NmO13PxPjKujwa58qc3ePqnAZnuQCwUi8Dys7HBr/p9yL6uokCUBxMWnvKMhYgNvlrLQPEKnMmPK7OgQVQhm0CAIAJCoHCuOyb6wKUUazNU7QCCGCAAWJ1eAZHG5Vv83drxFqaZUFxPp6rMGMADfpMYfhjys6xWI4pEEQyAAC2rbuWhuZyAGDvtREEYSVOrRNK0LxcXQAvzOgzb7m2ST+aAvIyL85jBaVUKpnLWjlAvBTeSQKAXQArmFfi7D6v0umqHQspVf2LtR9rr0k1Ea7Ljh0AqrANANAArSkDAAQs6BwGgKVy/9yGp3xt16smequI+C7XbV0K1p0zh5IBIHhPcbGNFurDUwCItaslXnUlPAmN8r0iUmzScCkdAwgDIKLWxZZY8UfB4LkADxh172nd3+uHmYaBk6omwj2hvQ4AAoAcmujeuXQlkNwWfulOu5sZJNABoOVY6ADQAaDlEmj59DsG6ADQcgm0fPodA3QAaLkEWj79jgE6ALRcAi2ffscAHQBaLoGWT79jgA4ALZdAy6ffMUAHgJZLoOXT7xig5QD4H/jVY4QFJsLVAAAAAElFTkSuQmCC"
+				}
+			],
+			"relative_path": "../../src/assets/ssbrc/textures/common/pokemon/pokemon/sudowoodo/default.png"
 		},
 		{
-			"path": "C:\\Users\\Patri\\AppData\\Roaming\\PrismLauncher\\instances\\Main (Experimental)\\minecraft\\resourcepacks\\super_smash_bros_recrafted_assets\\assets\\ssbrc\\textures\\common\\pokemon\\pokemon\\sudowoodo\\shiny.png",
+			"path": "C:\\Patrick\\Minecraft\\projects\\ssbrc\\src\\assets\\ssbrc\\textures\\common\\pokemon\\pokemon\\sudowoodo\\shiny.png",
 			"name": "shiny.png",
 			"folder": "",
 			"namespace": "",
@@ -2411,7 +2438,7 @@
 			"internal": false,
 			"saved": true,
 			"uuid": "4173e54d-6c8b-74f7-c211-91cc356c1303",
-			"relative_path": "../../assets/ssbrc/textures/common/pokemon/pokemon/sudowoodo/shiny.png"
+			"relative_path": "../../src/assets/ssbrc/textures/common/pokemon/pokemon/sudowoodo/shiny.png"
 		}
 	],
 	"variants": {
@@ -2444,7 +2471,7 @@
 			"length": 0.05,
 			"snapping": 20,
 			"selected": false,
-			"saved": false,
+			"saved": true,
 			"path": "C:\\Users\\Patri\\OneDrive\\Documents\\Patrick\\Minecraft\\cobblemon\\cobblemon\\common\\src\\main\\resources\\assets\\cobblemon\\bedrock\\pokemon\\animations\\0185_sudowoodo\\sudowoodo.animation.json",
 			"anim_time_update": "",
 			"blend_weight": "",
@@ -3816,6 +3843,5 @@
 				}
 			}
 		}
-	],
-	"animation_controllers": []
+	]
 }
