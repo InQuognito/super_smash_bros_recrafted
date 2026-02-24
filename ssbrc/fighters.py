@@ -708,6 +708,105 @@ fighters = {
 					'name': 'ssbrc.fighter.zelda.weapon.spear.default',
 					'color': 'white'
 				}
+			},
+			'bomb': {
+				'type': 'ability',
+				'group': 'dungeon_item',
+				'stats': {
+					'cooldown_group': 'zelda/bomb',
+					'cooldown': 1
+				},
+				'default': {
+					'name': 'ssbrc.fighter.zelda.dungeon_item.bomb',
+					'color': 'blue'
+				}
+			},
+			'zelda_boomerang': {
+				'type': 'ability',
+				'group': 'dungeon_item',
+				'stats': {
+					'cooldown_group': 'zelda/boomerang',
+					'cooldown': 0.05
+				},
+				'default': {
+					'name': 'ssbrc.fighter.the_legend_of_zelda.boomerang',
+					'color': 'gold'
+				}
+			},
+			'bow': {
+				'type': 'null',
+				'group': 'dungeon_item',
+				'stats': {},
+				'default': {
+					'name': 'item.minecraft.bow',
+					'color': 'white'
+				}
+			},
+			'fire_bow': {
+				'type': 'null',
+				'group': 'dungeon_item',
+				'stats': {},
+				'default': {
+					'name': 'ssbrc.fighter.zelda.dungeon_item.fire_bow',
+					'color': 'red'
+				}
+			},
+			'poison_bow': {
+				'type': 'null',
+				'group': 'dungeon_item',
+				'stats': {},
+				'default': {
+					'name': 'ssbrc.fighter.zelda.dungeon_item.poison_bow',
+					'color': 'green'
+				}
+			},
+			'fire_rod': {
+				'type': 'ability',
+				'group': 'dungeon_item',
+				'stats': {
+					'cooldown_group': 'zelda/fire_rod',
+					'cooldown': 1
+				},
+				'default': {
+					'name': 'ssbrc.fighter.zelda.dungeon_item.fire_rod',
+					'color': 'red'
+				}
+			},
+			'ice_rod': {
+				'type': 'ability',
+				'group': 'dungeon_item',
+				'stats': {
+					'cooldown_group': 'zelda/ice_rod',
+					'cooldown': 1
+				},
+				'default': {
+					'name': 'ssbrc.fighter.zelda.dungeon_item.ice_rod',
+					'color': 'aqua'
+				}
+			},
+			'magic_boomerang': {
+				'type': 'ability',
+				'group': 'dungeon_item',
+				'stats': {
+					'cooldown_group': 'zelda/boomerang',
+					'cooldown': 0.05
+				},
+				'default': {
+					'name': 'ssbrc.fighter.zelda.dungeon_item.magic_boomerang',
+					'color': 'blue'
+				}
+			},
+			'red_potion': {
+				'type': 'ability',
+				'group': 'dungeon_item',
+				'stats': {
+					'cooldown_group': 'zelda/red_potion',
+					'cooldown': 0.05
+				},
+				'default': {
+					'name': 'ssbrc.fighter.zelda.dungeon_item.red_potion',
+					'color': 'red'
+				}
 			}
 		}
 	},
@@ -3681,7 +3780,7 @@ fighters = {
 				'group': 'steve_equipment',
 				'stats': {
 					'cooldown_group': 'steve/pickaxe',
-					'cooldown': 0
+					'cooldown': 0.05
 				},
 				'default': {
 					'name': 'item.minecraft.wooden_pickaxe',
@@ -3705,7 +3804,7 @@ fighters = {
 				'group': 'steve_equipment',
 				'stats': {
 					'cooldown_group': 'steve/pickaxe',
-					'cooldown': 0
+					'cooldown': 0.05
 				},
 				'default': {
 					'name': 'item.minecraft.stone_pickaxe',
@@ -3729,7 +3828,7 @@ fighters = {
 				'group': 'steve_equipment',
 				'stats': {
 					'cooldown_group': 'steve/pickaxe',
-					'cooldown': 0
+					'cooldown': 0.05
 				},
 				'default': {
 					'name': 'item.minecraft.golden_pickaxe',
@@ -3753,7 +3852,7 @@ fighters = {
 				'group': 'steve_equipment',
 				'stats': {
 					'cooldown_group': 'steve/pickaxe',
-					'cooldown': 0
+					'cooldown': 0.05
 				},
 				'default': {
 					'name': 'item.minecraft.iron_pickaxe',
@@ -3777,7 +3876,7 @@ fighters = {
 				'group': 'steve_equipment',
 				'stats': {
 					'cooldown_group': 'steve/pickaxe',
-					'cooldown': 0
+					'cooldown': 0.05
 				},
 				'default': {
 					'name': 'item.minecraft.diamond_pickaxe',
@@ -3801,7 +3900,7 @@ fighters = {
 				'group': 'steve_equipment',
 				'stats': {
 					'cooldown_group': 'steve/pickaxe',
-					'cooldown': 0
+					'cooldown': 0.05
 				},
 				'default': {
 					'name': 'item.minecraft.netherite_pickaxe',

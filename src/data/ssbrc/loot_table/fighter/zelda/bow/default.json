@@ -26,7 +26,7 @@
 							"function": "minecraft:set_components",
 							"components": {
 								"minecraft:enchantments": {
-									"ssbrc:fighter/zelda/dungeon_item/bow/default": 1,
+									"ssbrc:fighter/zelda/bow/default": 1,
 									"minecraft:infinity": 1
 								},
 								"minecraft:item_model": "ssbrc:fighter/zelda/item/bow/default"

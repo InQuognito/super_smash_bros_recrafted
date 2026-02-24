@@ -16,6 +16,20 @@
 		"mainhand"
 	],
 	"effects": {
+		"minecraft:ammo_use": [
+			{
+				"effect": {
+					"type": "minecraft:set",
+					"value": 0
+				},
+				"requirements": {
+					"condition": "minecraft:match_tool",
+					"predicate": {
+						"items": "minecraft:arrow"
+					}
+				}
+			}
+		],
 		"minecraft:projectile_spawned": [
 			{
 				"effect": {
