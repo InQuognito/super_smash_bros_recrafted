@@ -1,3 +1,5 @@
+scoreboard players operation id_to_match temp = @s id
+
 function ssbrc:fighter/king_k_rool/blunderbuss/particle
 
 execute unless block ~ ~-.1 ~ #ssbrc:passthrough unless entity @s[tag=hit_ground] run function ssbrc:fighter/king_k_rool/blunderbuss/land
