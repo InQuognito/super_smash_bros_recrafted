@@ -22,7 +22,7 @@ scoreboard players remove @s[scores={weapon_1.fire_rate=1..}] weapon_1.fire_rate
 
 execute if entity @e[type=minecraft:marker,tag=electric_terrain,distance=..12] run scoreboard players set in_electric_terrain temp 1
 
-execute unless score @s[predicate=ssbrc:input/jump] jump.cooldown matches 1.. run function ssbrc:logic/fighter/jump
+execute unless score @s[scores={jumps=1..},predicate=ssbrc:input/jump] jump.cooldown matches 1.. run function ssbrc:logic/fighter/jump
 
 execute if score @s charge.input matches 1.. run function ssbrc:logic/fighter/item/tick
 execute if score @s charge.input matches 2.. run function ssbrc:logic/fighter/item/refresh

@@ -55,6 +55,7 @@ scoreboard objectives remove invincible
 scoreboard objectives remove item_count
 scoreboard objectives remove jump
 scoreboard objectives remove jump.cooldown
+scoreboard objectives remove jumps
 scoreboard objectives remove kills
 scoreboard objectives remove leaderboard.kills
 scoreboard objectives remove leaderboard.wins
