@@ -192,19 +192,19 @@
 			}
 		]
 	},
-	"fighter.altered_beast.spawn": {
+	"fighter.altered_beast.jump": {
 		"sounds": [
 			{
-				"name": "ssbrc:fighter/altered_beast/spawn",
+				"name": "ssbrc:fighter/altered_beast/jump",
 				"stream": false,
 				"volume": 1.0
 			}
 		]
 	},
-	"fighter.altered_beast.jump": {
+	"fighter.altered_beast.spawn": {
 		"sounds": [
 			{
-				"name": "ssbrc:fighter/altered_beast/jump",
+				"name": "ssbrc:fighter/altered_beast/spawn",
 				"stream": false,
 				"volume": 1.0
 			}
