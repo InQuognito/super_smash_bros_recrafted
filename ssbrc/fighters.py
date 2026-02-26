@@ -495,10 +495,12 @@ fighters = {
 				}
 			},
 			'master_sword': {
-				'type': 'weapon',
+				'type': 'hybrid',
 				'stats': {
 					'attack_damage': 6,
-					'attack_speed': 2
+					'attack_speed': 2,
+					'cooldown_group': 'link/master_sword',
+					'cooldown': 1
 				},
 				'default': {
 					'name': 'ssbrc.fighter.link.master_sword',
@@ -2494,6 +2496,11 @@ fighters = {
 		],
 		'items': {
 			'claymore': {
+				'type': 'ability',
+				'stats': {
+					'cooldown_group': 'snake/claymore',
+					'cooldown': 1
+				},
 				'default': {
 					'name': 'ssbrc.fighter.snake.claymore',
 					'color': 'green'
@@ -2517,6 +2524,11 @@ fighters = {
 				}
 			},
 			'famas': {
+				'type': 'ability',
+				'stats': {
+					'cooldown_group': 'snake/famas',
+					'cooldown': 0.2
+				},
 				'default': {
 					'name': 'ssbrc.fighter.snake.famas',
 					'color': 'green'
@@ -2526,6 +2538,11 @@ fighters = {
 				}
 			},
 			'psg1': {
+				'type': 'ability',
+				'stats': {
+					'cooldown_group': 'snake/psg1',
+					'cooldown': 1
+				},
 				'default': {
 					'name': 'ssbrc.fighter.snake.psg1',
 					'color': 'green'
@@ -2535,6 +2552,11 @@ fighters = {
 				}
 			},
 			'm870_custom': {
+				'type': 'ability',
+				'stats': {
+					'cooldown_group': 'snake/m870_custom',
+					'cooldown': 1
+				},
 				'default': {
 					'name': 'ssbrc.fighter.snake.m870_custom',
 					'color': 'green'
@@ -2544,6 +2566,11 @@ fighters = {
 				}
 			},
 			'smoke_grenade': {
+				'type': 'ability',
+				'stats': {
+					'cooldown_group': 'snake/smoke_grenade',
+					'cooldown': 15
+				},
 				'default': {
 					'name': 'ssbrc.fighter.snake.smoke_grenade',
 					'color': 'green'
@@ -2553,6 +2580,11 @@ fighters = {
 				}
 			},
 			'socom': {
+				'type': 'ability',
+				'stats': {
+					'cooldown_group': 'snake/socom',
+					'cooldown': 0.25
+				},
 				'default': {
 					'name': 'ssbrc.fighter.snake.socom',
 					'color': 'green'
@@ -2598,11 +2630,6 @@ fighters = {
 			'aks_74u': {
 				'type': 'ability',
 				'stats': {
-					'tag': 'ranged',
-					'damage': {
-						'type': 'generic',
-						'amount': 0.8
-					},
 					'cooldown_group': 'raiden/aks_74u',
 					'cooldown': 0.15
 				},
@@ -2617,11 +2644,6 @@ fighters = {
 			'c4': {
 				'type': 'ability',
 				'stats': {
-					'tag': 'ranged',
-					'damage': {
-						'type': 'explosive',
-						'amount': 10
-					},
 					'cooldown_group': 'raiden/c4',
 					'cooldown': 0.6
 				},
@@ -2651,6 +2673,11 @@ fighters = {
 				}
 			},
 			'smoke_grenade': {
+				'type': 'ability',
+				'stats': {
+					'cooldown_group': 'raiden/smoke_grenade',
+					'cooldown': 15
+				},
 				'default': {
 					'name': 'ssbrc.fighter.snake.smoke_grenade',
 					'color': 'gray'
@@ -2662,11 +2689,6 @@ fighters = {
 			'throwing_knives': {
 				'type': 'ability',
 				'stats': {
-					'tag': 'ranged',
-					'damage': {
-						'type': 'generic',
-						'amount': 2
-					},
 					'cooldown_group': 'raiden/throwing_knives',
 					'cooldown': 1
 				},
@@ -3223,7 +3245,7 @@ fighters = {
 				}
 			},
 			'holy_water': {
-				'type': 'ability',
+				'type': 'consumable',
 				'stats': {
 					'cooldown_group': 'alucard/holy_water',
 					'cooldown': 0.5
