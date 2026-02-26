@@ -1,5 +1,5 @@
-summon minecraft:salmon 6995.5 8.5 3008.5 {type: "medium", PersistenceRequired: 1b}
+summon minecraft:salmon 6 -4 -20 {type: "medium", PersistenceRequired: 1b}
 
-summon minecraft:salmon 7018.5 8.5 2971.5 {type: "medium", PersistenceRequired: 1b}
+summon minecraft:salmon 2 -3 -16 {type: "medium", PersistenceRequired: 1b}
 
-summon minecraft:salmon 7018.5 8.5 2969.5 {type: "medium", PersistenceRequired: 1b}
+summon minecraft:salmon -17 -3 18 {type: "medium", PersistenceRequired: 1b}

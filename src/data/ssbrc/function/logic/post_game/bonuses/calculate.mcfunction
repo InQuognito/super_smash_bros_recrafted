@@ -1,1 +1,1 @@
-$function ssbrc:logic/post_game/bonuses/calculate/$(type) {bonus:"$(bonus)"}
+$function ssbrc:logic/post_game/bonuses/calculate/$(type) {bonus: "$(bonus)"}

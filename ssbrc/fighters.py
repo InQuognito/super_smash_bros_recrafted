@@ -1880,6 +1880,17 @@ fighters = {
 					'color': 'white'
 				}
 			},
+			'payday': {
+				'type': 'ability',
+				'stats': {
+					'cooldown_group': 'team_rocket/payday',
+					'cooldown': 10
+				},
+				'default': {
+					'name': 'ssbrc.fighter.team_rocket.payday',
+					'color': 'white'
+				}
+			},
 			'poison_jab': {
 				'type': 'weapon',
 				'stats': {

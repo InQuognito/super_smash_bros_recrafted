@@ -1,0 +1,10 @@
+{
+	"layers": {
+		"humanoid": [
+			{ "texture": "ssbrc:fighter/bowser/flower_power" }
+		],
+		"humanoid_leggings": [
+			{ "texture": "ssbrc:fighter/bowser/flower_power" }
+		]
+	}
+}
