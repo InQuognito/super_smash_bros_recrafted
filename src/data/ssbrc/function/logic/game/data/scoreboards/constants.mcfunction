@@ -64,6 +64,8 @@ scoreboard players set #raiden.smoke_grenade.weight const 2
 scoreboard players set #raiden.smoke_grenade.scavenger const 2
 scoreboard players set #raiden.nano.weight const 3
 
+scoreboard players set #rob.fuel const 200
+
 scoreboard players set #samus.wave_beam const 3
 
 scoreboard players set #shadow.chaos_gauge const 20

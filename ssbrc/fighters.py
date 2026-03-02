@@ -615,13 +615,8 @@ fighters = {
 				}
 			},
 			'toon_link_boomerang': {
-				'type': 'ability',
+				'type': 'consumable',
 				'stats': {
-					'tag': 'ranged',
-					'damage': {
-						'type': 'generic',
-						'amount': 6
-					},
 					'cooldown_group': 'toon_link/boomerang',
 					'cooldown': 1
 				},

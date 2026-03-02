@@ -1,4 +1,4 @@
-tag @s add link.boomerang
+tag @s add toon_link_boomerang
 tag @s add delete_behavior.reflect
 tag @s add reflect_behavior.motion_only
 

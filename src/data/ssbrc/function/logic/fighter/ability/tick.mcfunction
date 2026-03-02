@@ -58,7 +58,6 @@ execute if entity @s[tag=phantom_show] run return run function ssbrc:fighter/jok
 
 # Link
 execute if entity @s[tag=sword_beam] run return run function ssbrc:fighter/link/sword_beam/tick
-execute if entity @s[tag=link.boomerang] run return run function ssbrc:fighter/link/boomerang/tick
 
 # Lucario
 execute if entity @s[tag=force_palm] run return run function ssbrc:fighter/lucario/force_palm/tick
@@ -136,6 +135,9 @@ execute if entity @s[tag=strike_raid] run return run function ssbrc:fighter/sora
 
 # Steve
 execute if entity @s[nbt={Item:{tag: {Tags:[steve.item]}}}] run return run function ssbrc:fighter/steve/item/tick
+
+# Toon Link
+execute if entity @s[tag=toon_link_boomerang] run return run function ssbrc:fighter/toon_link/boomerang/tick
 
 # Wolf
 execute if entity @s[tag=wolf_blaster] run return run function ssbrc:fighter/wolf/wolf_blaster/tick

@@ -1,6 +1,6 @@
 execute positioned ~ ~.5 ~ run spawnpoint
 
-execute store result score @s health run data get entity @s Health
+execute unless score #game_stage temp matches 5.. store result score @s health run data get entity @s Health
 
 execute store result score @s motion_x run data get entity @s Motion[0] 10000
 execute store result score @s motion_y run data get entity @s Motion[1] 10000

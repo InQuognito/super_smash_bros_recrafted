@@ -1,4 +1,4 @@
-scoreboard players operation id_to_match temp = @s id
+function ssbrc:logic/fighter/ability/init
 
 function ssbrc:fighter/king_k_rool/blunderbuss/particle
 
