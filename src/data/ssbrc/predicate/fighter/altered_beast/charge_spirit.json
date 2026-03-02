@@ -20,7 +20,7 @@
 						"type": "minecraft:score",
 						"target": {
 							"type": "minecraft:fixed",
-							"name": "altered_beast.spirit.max"
+							"name": "#altered_beast.spirit.max"
 						},
 						"score": "const"
 					}
