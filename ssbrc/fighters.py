@@ -3000,36 +3000,77 @@ fighters = {
 		],
 		'items': {
 			'air_shooter': {
+				'type': 'ability',
+				'stats': {
+					'cooldown_group': 'mega_man/air_shooter',
+					'cooldown': 2
+				},
 				'default': {
 					'name': 'ssbrc.fighter.mega_man.air_shooter',
 					'color': 'dark_aqua'
 				}
 			},
 			'beat_call': {
+				'type': 'ability',
+				'stats': {
+					'cooldown_group': 'mega_man/beat_call',
+					'cooldown': 0.25
+				},
 				'default': {
 					'name': 'ssbrc.fighter.mega_man.beat_call',
 					'color': 'red'
 				}
 			},
 			'drill_bomb': {
+				'type': 'ability',
+				'stats': {
+					'cooldown_group': 'mega_man/drill_bomb',
+					'cooldown': 2
+				},
 				'default': {
 					'name': 'ssbrc.fighter.mega_man.drill_bomb',
 					'color': 'red'
 				}
 			},
 			'flame_sword': {
+				'type': 'weapon',
+				'stats': {
+					'attack_damage': 5,
+					'attack_speed': 1.5
+				},
 				'default': {
 					'name': 'ssbrc.fighter.mega_man.flame_sword',
 					'color': 'red'
 				}
 			},
 			'hyper_bomb': {
+				'type': 'ability',
+				'stats': {
+					'cooldown_group': 'mega_man/hyper_bomb',
+					'cooldown': 2
+				},
 				'default': {
 					'name': 'ssbrc.fighter.mega_man.hyper_bomb',
 					'color': '#30993A'
 				}
 			},
+			'junk_shield': {
+				'type': 'ability',
+				'stats': {
+					'cooldown_group': 'mega_man/junk_shield',
+					'cooldown': 2
+				},
+				'default': {
+					'name': 'ssbrc.fighter.mega_man.junk_shield',
+					'color': 'gray'
+				}
+			},
 			'mega_buster': {
+				'type': 'ability',
+				'stats': {
+					'cooldown_group': 'mega_man/mega_buster',
+					'cooldown': 0.2
+				},
 				'default': {
 					'name': 'ssbrc.fighter.mega_man.mega_buster',
 					'color': 'blue'
@@ -3042,6 +3083,11 @@ fighters = {
 				}
 			},
 			'metal_blade': {
+				'type': 'ability',
+				'stats': {
+					'cooldown_group': 'mega_man/metal_blade',
+					'cooldown': 0.5
+				},
 				'default': {
 					'name': 'ssbrc.fighter.mega_man.metal_blade',
 					'color': 'gray'
@@ -3051,6 +3097,11 @@ fighters = {
 				}
 			},
 			'pile_driver': {
+				'type': 'ability',
+				'stats': {
+					'cooldown_group': 'mega_man/pile_driver',
+					'cooldown': 2
+				},
 				'default': {
 					'name': 'ssbrc.fighter.mega_man.pile_driver.default',
 					'color': '#E6771E'
@@ -3060,6 +3111,11 @@ fighters = {
 				}
 			},
 			'remote_mine': {
+				'type': 'ability',
+				'stats': {
+					'cooldown_group': 'mega_man/remote_mine',
+					'cooldown': 0.5
+				},
 				'default': {
 					'name': 'ssbrc.fighter.mega_man.remote_mine',
 					'color': '#E861A1'
