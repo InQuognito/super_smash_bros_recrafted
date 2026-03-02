@@ -2,7 +2,7 @@ scoreboard players add @s deaths 1
 
 # Tower of Fate
 scoreboard players reset #current_stocks temp
-scoreboard players operation #current_stocks temp += @a[tag=alive] stocks
+scoreboard players operation #current_stocks temp += @a[tag=alive] points
 
 function math:percentage {output: "#percentage temp", val: "#current_stocks temp", div: "#total_stocks temp"}
 

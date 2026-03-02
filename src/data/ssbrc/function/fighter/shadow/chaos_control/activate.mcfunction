@@ -1,6 +1,6 @@
 advancement revoke @s only ssbrc:utility/use_item/fighter/shadow/chaos_control
 
-scoreboard players operation team temp = @s team
+scoreboard players operation #team temp = @s team
 tag @s add self
 
 particle minecraft:sonic_boom ~ ~.75 ~ 0 0 0 0 1 normal @a

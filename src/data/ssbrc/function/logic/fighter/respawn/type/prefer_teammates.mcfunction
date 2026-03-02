@@ -1,4 +1,4 @@
-scoreboard players operation team temp = @a[tag=respawn_me,limit=1] team
+scoreboard players operation #team temp = @a[tag=respawn_me,limit=1] team
 
 execute if entity @a[predicate=ssbrc:player,predicate=ssbrc:team_match,distance=..10] run function ssbrc:logic/fighter/respawn/teleport
 

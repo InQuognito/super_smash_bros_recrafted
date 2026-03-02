@@ -1,4 +1,4 @@
-scoreboard players operation team temp = @s team
+scoreboard players operation #team temp = @s team
 
 effect give @a[tag=!self,predicate=ssbrc:player,predicate=!ssbrc:team_match] minecraft:nausea 15 255 true
 

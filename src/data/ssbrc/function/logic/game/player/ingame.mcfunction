@@ -1,7 +1,7 @@
 tag @s add self
 
 scoreboard players operation id_to_match temp = @s id
-scoreboard players operation team temp = @s team
+scoreboard players operation #team temp = @s team
 
 execute at @s[predicate=ssbrc:player] run function ssbrc:logic/fighter/tick
 

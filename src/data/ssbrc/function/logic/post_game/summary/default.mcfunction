@@ -3,7 +3,7 @@ scoreboard players operation minutes temp = seconds temp
 scoreboard players operation minutes temp /= #60 const
 scoreboard players operation seconds temp %= #60 const
 
-scoreboard players operation team temp = @a[tag=winner,limit=1] team
+scoreboard players operation #team temp = @a[tag=winner,limit=1] team
 
 execute unless data storage ssbrc:data option{teams: true} run tellraw @s [{translate: "ssbrc.game.end.summary.winner", color: "gold"}, {"selector":"@a[tag=winner,limit=1]", color: "yellow"}]
 execute if data storage ssbrc:data option{teams: true} run function ssbrc:logic/post_game/summary/team

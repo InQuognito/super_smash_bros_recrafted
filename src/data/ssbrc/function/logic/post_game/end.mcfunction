@@ -8,7 +8,7 @@ tag @a remove cannot_host
 
 execute unless data storage ssbrc:data option{teams: true} run function ssbrc:logic/post_game/winner/set
 
-scoreboard players operation team temp = @s team
+scoreboard players operation #team temp = @s team
 execute if data storage ssbrc:data option{teams: true} as @a[predicate=ssbrc:team_match] run function ssbrc:logic/post_game/winner/set
 
 weather clear
