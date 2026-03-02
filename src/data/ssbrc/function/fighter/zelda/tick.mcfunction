@@ -14,9 +14,9 @@ execute if items entity @s[scores={health=11..}] container.* *[minecraft:custom_
 
 # Rupees
 scoreboard players set @s[scores={zelda.rupee.add=1..,resource=50..}] zelda.rupee.add 0
-execute if score @s zelda.rupee.add matches 1.. run function ssbrc:fighter/zelda/rupees/change {mode:"add"}
+execute if score @s zelda.rupee.add matches 1.. run function ssbrc:fighter/zelda/rupees/change {mode: "add"}
 
-execute if score @s zelda.rupee.remove matches 1.. run function ssbrc:fighter/zelda/rupees/change {mode:"remove"}
+execute if score @s zelda.rupee.remove matches 1.. run function ssbrc:fighter/zelda/rupees/change {mode: "remove"}
 
 # Great Fairy Blessings
 execute if score @s zelda.enchant_armor matches 1.. run function ssbrc:fighter/zelda/blessings/enchant_armor/tick

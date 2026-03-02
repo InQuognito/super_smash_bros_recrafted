@@ -24,7 +24,7 @@ summon minecraft:text_display 0 2 -6 {Tags:["stage_index"],text:[{text: "", colo
 
 execute as @e[type=minecraft:text_display,tag=selected] at @s run data modify entity @s text set value [{translate: "ssbrc.stage_select.votes", color: "gold"}, {score: {name: "@n[type=minecraft:text_display,tag=vote_counter]", objective: "stage_vote"},bold: true, color: "yellow"}]
 
-execute store result score players.playing temp if entity @a[predicate=ssbrc:ingame,team=!spectator]
+execute store result score #players.playing temp if entity @a[predicate=ssbrc:ingame,team=!spectator]
 
 execute if score #players.ingame temp matches 1 run function ssbrc:logic/game/options/preset/singleplayer/on
 

@@ -10,21 +10,21 @@
 					"property": "minecraft:custom_model_data",
 					"entries": [
 						{
-							"threshold": 1.0,
+							"threshold": 1,
 							"model": {
 								"type": "minecraft:model",
 								"model": "ssbrc:fighter/snake/item/claymore/gold/priming_0"
 							}
 						},
 						{
-							"threshold": 2.0,
+							"threshold": 2,
 							"model": {
 								"type": "minecraft:model",
 								"model": "ssbrc:fighter/snake/item/claymore/gold/priming_1"
 							}
 						},
 						{
-							"threshold": 3.0,
+							"threshold": 3,
 							"model": {
 								"type": "minecraft:model",
 								"model": "ssbrc:fighter/snake/item/claymore/gold/active"
@@ -43,21 +43,21 @@
 			"property": "minecraft:custom_model_data",
 			"entries": [
 				{
-					"threshold": 1.0,
+					"threshold": 1,
 					"model": {
 						"type": "minecraft:model",
 						"model": "ssbrc:fighter/snake/item/claymore/default/priming_0"
 					}
 				},
 				{
-					"threshold": 2.0,
+					"threshold": 2,
 					"model": {
 						"type": "minecraft:model",
 						"model": "ssbrc:fighter/snake/item/claymore/default/priming_1"
 					}
 				},
 				{
-					"threshold": 3.0,
+					"threshold": 3,
 					"model": {
 						"type": "minecraft:model",
 						"model": "ssbrc:fighter/snake/item/claymore/default/active"

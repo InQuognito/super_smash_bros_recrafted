@@ -4,7 +4,7 @@
 		"property": "minecraft:custom_model_data",
 		"entries": [
 			{
-				"threshold": 5.0,
+				"threshold": 5,
 				"model": {
 					"type": "minecraft:model",
 					"model": "ssbrc:stage/pac_maze/ghost/eyes/2"

@@ -26,7 +26,8 @@ execute if data storage ssbrc:temp game.stage{name: "shadow_moses_island"} run r
 
 execute if data storage ssbrc:temp game.stage{name: "suzaku_castle"} run return 1
 
-execute if data storage ssbrc:temp game.stage{name: "tower_of_fate"} run return 1
+execute if data storage ssbrc:temp game.stage{name: "tower_of_fate", variant: "explodatorium"} run return 1
+execute if data storage ssbrc:temp game.stage{name: "tower_of_fate", variant: "iron_whale"} run return 1
 
 execute if data storage ssbrc:temp game.stage{name: "wily_castle"} run return 1
 

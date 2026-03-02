@@ -1,0 +1,19 @@
+{
+	"model": {
+		"type": "minecraft:select",
+		"property": "minecraft:custom_model_data",
+		"cases": [
+			{
+				"when": "half_price",
+				"model": {
+					"type": "minecraft:model",
+					"model": "ssbrc:fighter/zelda/item/inventory_refresh/half_price"
+				}
+			}
+		],
+		"fallback": {
+			"type": "minecraft:model",
+			"model": "ssbrc:fighter/zelda/item/inventory_refresh/full_price"
+		}
+	}
+}

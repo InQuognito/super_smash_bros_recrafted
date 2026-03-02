@@ -1,0 +1,6 @@
+{
+	"parent": "ssbrc:template/item/corner_overlay",
+	"textures": {
+		"base": "ssbrc:common/corner_overlay/15"
+	}
+}

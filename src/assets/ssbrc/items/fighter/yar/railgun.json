@@ -84,7 +84,7 @@
 								}
 							},
 							{
-								"threshold": 1.0,
+								"threshold": 1,
 								"model": {
 									"type": "minecraft:model",
 									"model": "ssbrc:fighter/yar/item/railgun/gold/charged"
@@ -182,7 +182,7 @@
 						}
 					},
 					{
-						"threshold": 1.0,
+						"threshold": 1,
 						"model": {
 							"type": "minecraft:model",
 							"model": "ssbrc:fighter/yar/item/railgun/default/charged"

@@ -1,0 +1,49 @@
+{
+	"model": {
+		"type": "minecraft:composite",
+		"models": [
+			{
+				"type": "minecraft:model",
+				"model": "ssbrc:fighter/zelda/item/great_fairy_blessing"
+			},
+			{
+				"type": "minecraft:range_dispatch",
+				"property": "minecraft:custom_model_data",
+				"entries": [
+					{
+						"threshold": 10,
+						"model": {
+							"type": "minecraft:model",
+							"model": "ssbrc:common/corner_overlay/10"
+						}
+					},
+					{
+						"threshold": 15,
+						"model": {
+							"type": "minecraft:model",
+							"model": "ssbrc:common/corner_overlay/15"
+						}
+					},
+					{
+						"threshold": 20,
+						"model": {
+							"type": "minecraft:model",
+							"model": "ssbrc:common/corner_overlay/20"
+						}
+					},
+					{
+						"threshold": 25,
+						"model": {
+							"type": "minecraft:model",
+							"model": "ssbrc:common/corner_overlay/25"
+						}
+					}
+				],
+				"fallback": {
+					"type": "minecraft:model",
+					"model": "ssbrc:common/corner_overlay/5"
+				}
+			}
+		]
+	}
+}

@@ -32,7 +32,7 @@
 									}
 								},
 								{
-									"threshold": 1.0,
+									"threshold": 1,
 									"model": {
 										"type": "minecraft:model",
 										"model": "ssbrc:fighter/pit/item/palutena_bow/retro/pulling_2"
@@ -79,7 +79,7 @@
 							}
 						},
 						{
-							"threshold": 1.0,
+							"threshold": 1,
 							"model": {
 								"type": "minecraft:model",
 								"model": "ssbrc:fighter/pit/item/palutena_bow/default/pulling_2"

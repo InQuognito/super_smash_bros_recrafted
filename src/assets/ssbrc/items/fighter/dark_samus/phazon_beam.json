@@ -10,21 +10,21 @@
 					"property": "minecraft:custom_model_data",
 					"entries": [
 						{
-							"threshold": 1.0,
+							"threshold": 1,
 							"model": {
 								"type": "minecraft:model",
 								"model": "ssbrc:fighter/dark_samus/item/phazon_beam/gold/charge_0"
 							}
 						},
 						{
-							"threshold": 2.0,
+							"threshold": 2,
 							"model": {
 								"type": "minecraft:model",
 								"model": "ssbrc:fighter/dark_samus/item/phazon_beam/gold/charge_1"
 							}
 						},
 						{
-							"threshold": 3.0,
+							"threshold": 3,
 							"model": {
 								"type": "minecraft:model",
 								"model": "ssbrc:fighter/dark_samus/item/phazon_beam/gold/charge_2"
@@ -44,21 +44,21 @@
 					"property": "minecraft:custom_model_data",
 					"entries": [
 						{
-							"threshold": 1.0,
+							"threshold": 1,
 							"model": {
 								"type": "minecraft:model",
 								"model": "ssbrc:fighter/dark_samus/item/phazon_beam/prime_3/charge_0"
 							}
 						},
 						{
-							"threshold": 2.0,
+							"threshold": 2,
 							"model": {
 								"type": "minecraft:model",
 								"model": "ssbrc:fighter/dark_samus/item/phazon_beam/prime_3/charge_1"
 							}
 						},
 						{
-							"threshold": 3.0,
+							"threshold": 3,
 							"model": {
 								"type": "minecraft:model",
 								"model": "ssbrc:fighter/dark_samus/item/phazon_beam/prime_3/charge_2"
@@ -77,21 +77,21 @@
 			"property": "minecraft:custom_model_data",
 			"entries": [
 				{
-					"threshold": 1.0,
+					"threshold": 1,
 					"model": {
 						"type": "minecraft:model",
 						"model": "ssbrc:fighter/dark_samus/item/phazon_beam/default/charge_0"
 					}
 				},
 				{
-					"threshold": 2.0,
+					"threshold": 2,
 					"model": {
 						"type": "minecraft:model",
 						"model": "ssbrc:fighter/dark_samus/item/phazon_beam/default/charge_1"
 					}
 				},
 				{
-					"threshold": 3.0,
+					"threshold": 3,
 					"model": {
 						"type": "minecraft:model",
 						"model": "ssbrc:fighter/dark_samus/item/phazon_beam/default/charge_2"
