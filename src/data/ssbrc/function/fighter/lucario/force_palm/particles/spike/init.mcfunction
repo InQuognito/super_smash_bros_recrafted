@@ -2,7 +2,7 @@ tag @s add force_palm
 
 function ssbrc:logic/init/id
 
-scoreboard players operation @s charge.1 = aura temp
+scoreboard players operation @s charge.1 = #aura temp
 
 item replace entity @s contents with minecraft:stick[minecraft:item_model="ssbrc:fighter/lucario/projectile/force_palm"]
 
