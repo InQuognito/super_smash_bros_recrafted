@@ -33,6 +33,7 @@ execute if score #random temp matches 5 run function ssbrc:logic/item/init/slot 
 execute if score #random temp matches 6 run function ssbrc:logic/item/init/slot {item: "magic_boomerang", slot: "hotbar.1", class: "default", type: "default"}
 execute if score #random temp matches 7 run function ssbrc:logic/item/init/slot {item: "red_potion", slot: "hotbar.1", class: "default", type: "default"}
 
+clear @s *[minecraft:custom_data~{group: "passive_item"}]
 function ssbrc:fighter/zelda/kit/items/passive_item
 
 scoreboard players set @s charge.2 0

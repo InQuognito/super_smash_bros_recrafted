@@ -804,6 +804,114 @@ fighters = {
 					'name': 'ssbrc.fighter.zelda.dungeon_item.red_potion',
 					'color': 'red'
 				}
+			},
+			'goron_locket': {
+				'type': 'null',
+				'group': 'passive_item',
+				'default': {
+					'name': 'ssbrc.fighter.zelda.passive_item.goron_locket',
+					'color': 'red'
+				}
+			},
+			'nayrus_ring': {
+				'type': 'null',
+				'group': 'passive_item',
+				'default': {
+					'name': 'ssbrc.fighter.zelda.passive_item.nayrus_ring',
+					'color': 'aqua'
+				}
+			},
+			'pegasus_anklet': {
+				'type': 'null',
+				'group': 'passive_item',
+				'default': {
+					'name': 'ssbrc.fighter.zelda.passive_item.pegasus_anklet',
+					'color': 'yellow'
+				}
+			},
+			'ring_of_blasting': {
+				'type': 'null',
+				'group': 'passive_item',
+				'default': {
+					'name': 'ssbrc.fighter.zelda.passive_item.ring_of_blasting',
+					'color': 'red'
+				}
+			},
+			'ring_of_charisma': {
+				'type': 'null',
+				'group': 'passive_item',
+				'default': {
+					'name': 'ssbrc.fighter.zelda.passive_item.ring_of_charisma',
+					'color': 'green'
+				}
+			},
+			'ring_of_risk': {
+				'type': 'null',
+				'group': 'passive_item',
+				'default': {
+					'name': 'ssbrc.fighter.zelda.passive_item.ring_of_risk',
+					'color': 'red'
+				}
+			},
+			'small_shield': {
+				'type': 'shield',
+				'group': 'passive_item',
+				'stats': {
+					'max_damage': 20,
+					'block_delay_seconds': 0.0,
+					'block_sound': 'minecraft:item.shield.block',
+					'disabled_sound': 'minecraft:item.shield.break'
+				},
+				'default': {
+					'name': 'ssbrc.fighter.zelda.passive_item.small_shield',
+					'color': 'blue'
+				}
+			},
+			'snorkel': {
+				'type': 'null',
+				'group': 'passive_item',
+				'default': {
+					'name': 'ssbrc.fighter.zelda.passive_item.snorkel',
+					'color': 'blue'
+				}
+			},
+			'torch_of_wisdom': {
+				'type': 'null',
+				'group': 'passive_item',
+				'default': {
+					'name': 'ssbrc.fighter.zelda.passive_item.torch_of_wisdom',
+					'color': 'yellow'
+				}
+			},
+			'zoras_flippers': {
+				'type': 'null',
+				'group': 'passive_item',
+				'default': {
+					'name': 'ssbrc.fighter.zelda.passive_item.zoras_flippers',
+					'color': 'blue'
+				}
+			},
+			'great_fairy_blessing': {
+				'type': 'ability',
+				'stats': {
+					'cooldown_group': 'zelda/great_fairy_blessing',
+					'cooldown': 0.5
+				},
+				'default': {
+					'name': 'ssbrc.fighter.zelda.great_fairy_blessing',
+					'color': 'green'
+				}
+			},
+			'inventory_refresh': {
+				'type': 'ability',
+				'stats': {
+					'cooldown_group': 'zelda/inventory_refresh',
+					'cooldown': 0.5
+				},
+				'default': {
+					'name': 'ssbrc.fighter.zelda.inventory_refresh',
+					'color': 'red'
+				}
 			}
 		}
 	},
@@ -1655,11 +1763,6 @@ fighters = {
 			'hyper_voice': {
 				'type': 'ability',
 				'stats': {
-					'tag': 'ranged',
-					'damage': {
-						'type': 'pierce',
-						'amount': 12
-					},
 					'cooldown_group': 'jigglypuff/hyper_voice',
 					'cooldown': 2
 				},
@@ -1669,6 +1772,17 @@ fighters = {
 				},
 				'gold': {
 					'color': 'gold'
+				}
+			},
+			'rest': {
+				'type': 'ability',
+				'stats': {
+					'cooldown_group': 'jigglypuff/rest',
+					'cooldown': 0.05
+				},
+				'default': {
+					'name': 'ssbrc.fighter.jigglypuff.rest',
+					'color': 'white'
 				}
 			}
 		}
