@@ -7,7 +7,7 @@
 				"type": "minecraft:score",
 				"target": {
 					"type": "minecraft:fixed",
-					"name": "id_to_match"
+					"name": "#id_to_match"
 				},
 				"score": "temp"
 			},

@@ -15,7 +15,7 @@ scoreboard players reset @s fiends_cauldron
 scoreboard players reset @s tornado
 
 # Misc
-scoreboard players operation id_to_match temp = @s id
+scoreboard players operation #id_to_match temp = @s id
 
 $function ssbrc:fighter/$(fighter)/cleanup with entity @s equipment.body.components."minecraft:custom_data".temp.fighter
 

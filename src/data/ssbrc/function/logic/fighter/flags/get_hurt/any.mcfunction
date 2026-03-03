@@ -3,7 +3,7 @@ advancement revoke @s only ssbrc:utility/flag/get_hurt/any
 scoreboard players reset @s coward.timer
 
 execute unless score #game_stage temp matches 5.. store result score @s health run data get entity @s Health
-scoreboard players operation id_to_match temp = @s id
+scoreboard players operation #id_to_match temp = @s id
 
 execute if items entity @s[predicate=ssbrc:random_chance/15] armor.body *[minecraft:custom_data~{temp: {fighter: {fighter: "jigglypuff", form: "rest"}}}] run return run function ssbrc:fighter/jigglypuff/rest/deactivate
 execute if items entity @s[scores={health=..39}] armor.body *[minecraft:custom_data~{temp: {fighter: {fighter: "link"}}}] if items entity @s container.* *[minecraft:custom_data~{item: "master_sword",awakened:"true"}] run return run function ssbrc:logic/item/data/set {item: "master_sword", flag_key: "awakened", flag_value: "false"}

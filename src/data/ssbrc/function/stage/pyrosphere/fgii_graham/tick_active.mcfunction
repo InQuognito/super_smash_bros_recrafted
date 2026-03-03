@@ -1,5 +1,5 @@
 tag @s add self
-scoreboard players operation id_to_match temp = @s id
+scoreboard players operation #id_to_match temp = @s id
 
 function ssbrc:stage/pyrosphere/fgii_graham/check
 

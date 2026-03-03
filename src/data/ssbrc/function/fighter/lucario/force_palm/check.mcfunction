@@ -7,11 +7,11 @@ execute anchored eyes positioned ^ ^ ^-.5 positioned ~ ~-1.25 ~ run function ssb
 execute anchored eyes positioned ^ ^ ^-.5 positioned ~ ~-1.25 ~ run function ssbrc:fighter/lucario/force_palm/particles/spike/summon
 execute anchored eyes positioned ^ ^ ^-.5 positioned ~ ~-1.25 ~ run function ssbrc:fighter/lucario/force_palm/particles/spike/summon
 
-execute if score #aura temp matches 9 positioned ^ ^ ^1.5 positioned ~-.6 ~-.6 ~-.6 as @e[tag=!self,predicate=ssbrc:target,dx=0.2] run return run function ssbrc:logic/damage/generic {amount: 8, type: "generic", kb_resist: 0, source: " by @a[tag=self,limit=1]"}
-execute if score #aura temp matches 8 positioned ^ ^ ^1.5 positioned ~-.55 ~-.55 ~-.55 as @e[tag=!self,predicate=ssbrc:target,dx=0.1] run return run function ssbrc:logic/damage/generic {amount: 7, type: "generic", kb_resist: .1, source: " by @a[tag=self,limit=1]"}
-execute if score #aura temp matches 7 positioned ^ ^ ^1.5 positioned ~-.5 ~-.5 ~-.5 as @e[tag=!self,predicate=ssbrc:target,dx=0] run return run function ssbrc:logic/damage/generic {amount: 6, type: "generic", kb_resist: .2, source: " by @a[tag=self,limit=1]"}
-execute if score #aura temp matches 6 positioned ^ ^ ^1.4 positioned ~-.45 ~-.45 ~-.45 as @e[tag=!self,predicate=ssbrc:target,dx=0] positioned ~-.3 ~-.3 ~-.3 if entity @s[dx=0] run return run function ssbrc:logic/damage/generic {amount: 5, type: "generic", kb_resist: .3, source: " by @a[tag=self,limit=1]"}
-execute if score #aura temp matches 5 positioned ^ ^ ^1.2 positioned ~-.4 ~-.4 ~-.4 as @e[tag=!self,predicate=ssbrc:target,dx=0] positioned ~-.35 ~-.35 ~-.35 if entity @s[dx=0] run return run function ssbrc:logic/damage/generic {amount: 4, type: "generic", kb_resist: .4, source: " by @a[tag=self,limit=1]"}
-execute if score #aura temp matches 4 positioned ^ ^ ^1 positioned ~-.35 ~-.35 ~-.35 as @e[tag=!self,predicate=ssbrc:target,dx=0] positioned ~-.4 ~-.4 ~-.4 if entity @s[dx=0] run return run function ssbrc:logic/damage/generic {amount: 3, type: "generic", kb_resist: .5, source: " by @a[tag=self,limit=1]"}
-execute if score #aura temp matches 3 positioned ^ ^ ^.8 positioned ~-.3 ~-.3 ~-.3 as @e[tag=!self,predicate=ssbrc:target,dx=0] positioned ~-.45 ~-.45 ~-.45 if entity @s[dx=0] run return run function ssbrc:logic/damage/generic {amount: 2, type: "generic", kb_resist: .6, source: " by @a[tag=self,limit=1]"}
-execute positioned ^ ^ ^.6 positioned ~-.25 ~-.25 ~-.25 as @e[tag=!self,predicate=ssbrc:target,dx=0] positioned ~-.5 ~-.5 ~-.5 if entity @s[dx=0] run function ssbrc:logic/damage/generic {amount: 1, type: "generic", kb_resist: .7, source: " by @a[tag=self,limit=1]"}
+execute if score #aura temp matches 9 run return run function ssbrc:fighter/lucario/force_palm/hit/start {range: 30, crit_threshold: 15, damage: 8, kb_resist: 0}
+execute if score #aura temp matches 8 run return run function ssbrc:fighter/lucario/force_palm/hit/start {range: 30, crit_threshold: 13, damage: 7, kb_resist: .1}
+execute if score #aura temp matches 7 run return run function ssbrc:fighter/lucario/force_palm/hit/start {range: 30, crit_threshold: 11, damage: 6, kb_resist: .2}
+execute if score #aura temp matches 6 run return run function ssbrc:fighter/lucario/force_palm/hit/start {range: 25, crit_threshold: 9, damage: 5, kb_resist: .3}
+execute if score #aura temp matches 5 run return run function ssbrc:fighter/lucario/force_palm/hit/start {range: 20, crit_threshold: 7, damage: 4, kb_resist: .4}
+execute if score #aura temp matches 4 run return run function ssbrc:fighter/lucario/force_palm/hit/start {range: 15, crit_threshold: 5, damage: 3, kb_resist: .5}
+execute if score #aura temp matches 3 run return run function ssbrc:fighter/lucario/force_palm/hit/start {range: 10, crit_threshold: 0, damage: 2, kb_resist: .6}
+function ssbrc:fighter/lucario/force_palm/hit/start {range: 5, crit_threshold: 0, damage: 1, kb_resist: .7}
