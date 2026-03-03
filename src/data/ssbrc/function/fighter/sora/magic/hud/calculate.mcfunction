@@ -7,6 +7,6 @@ execute if items entity @s weapon.mainhand *[minecraft:custom_data~{spell:"thund
 scoreboard players operation #magic.queued temp = cost temp
 scoreboard players operation #magic.queued.counter temp = #magic.queued temp
 
-scoreboard players operation magic.required temp = #magic.queued temp
-scoreboard players operation magic.required temp -= #magic.available temp
-scoreboard players operation magic.required.counter temp = magic.required temp
+scoreboard players operation #magic.required temp = #magic.queued temp
+scoreboard players operation #magic.required temp -= #magic.available temp
+scoreboard players operation #magic.required.counter temp = #magic.required temp

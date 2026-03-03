@@ -16,12 +16,12 @@
 							"duration.2": {
 								"max": 0
 							},
-							"magic": {
+							"resource": {
 								"min": {
 									"type": "minecraft:score",
 									"target": {
 										"type": "minecraft:fixed",
-										"name": "shovel_knight.chaos_sphere.cost"
+										"name": "#shovel_knight.chaos_sphere.cost"
 									},
 									"score": "const"
 								}

@@ -13,12 +13,12 @@
 						"condition": "minecraft:entity_scores",
 						"entity": "this",
 						"scores": {
-							"magic": {
+							"resource": {
 								"min": {
 									"type": "minecraft:score",
 									"target": {
 										"type": "minecraft:fixed",
-										"name": "shovel_knight.war_horn.cost"
+										"name": "#shovel_knight.war_horn.cost"
 									},
 									"score": "const"
 								}

@@ -8,5 +8,5 @@ function ssbrc:logic/item/init/slot {item: "shovel_blade", slot: "hotbar.0", cla
 function ssbrc:fighter/shovel_knight/get_relic
 function ssbrc:fighter/shovel_knight/get_relic
 
-scoreboard players set @s magic 10
+scoreboard players set @s resource 10
 function ssbrc:fighter/shovel_knight/magic/update

@@ -74,6 +74,8 @@ scoreboard players set #shadow.chaos_control const 7
 scoreboard players set #shadow.chaos_snap const 2
 
 scoreboard players set #shovel_knight.magic const 10
+scoreboard players operation #shovel_knight.magic.half const = #shovel_knight.magic const
+scoreboard players operation #shovel_knight.magic.half const /= #2 const
 scoreboard players set #shovel_knight.chaos_sphere.cost const 1
 scoreboard players set #shovel_knight.chaos_sphere.rotation const 160
 scoreboard players set #shovel_knight.flare_wand const 1
