@@ -808,6 +808,7 @@ fighters = {
 			'goron_locket': {
 				'type': 'null',
 				'group': 'passive_item',
+				'stats': {},
 				'default': {
 					'name': 'ssbrc.fighter.zelda.passive_item.goron_locket',
 					'color': 'red'
@@ -816,6 +817,7 @@ fighters = {
 			'nayrus_ring': {
 				'type': 'null',
 				'group': 'passive_item',
+				'stats': {},
 				'default': {
 					'name': 'ssbrc.fighter.zelda.passive_item.nayrus_ring',
 					'color': 'aqua'
@@ -824,6 +826,7 @@ fighters = {
 			'pegasus_anklet': {
 				'type': 'null',
 				'group': 'passive_item',
+				'stats': {},
 				'default': {
 					'name': 'ssbrc.fighter.zelda.passive_item.pegasus_anklet',
 					'color': 'yellow'
@@ -832,6 +835,7 @@ fighters = {
 			'ring_of_blasting': {
 				'type': 'null',
 				'group': 'passive_item',
+				'stats': {},
 				'default': {
 					'name': 'ssbrc.fighter.zelda.passive_item.ring_of_blasting',
 					'color': 'red'
@@ -840,6 +844,7 @@ fighters = {
 			'ring_of_charisma': {
 				'type': 'null',
 				'group': 'passive_item',
+				'stats': {},
 				'default': {
 					'name': 'ssbrc.fighter.zelda.passive_item.ring_of_charisma',
 					'color': 'green'
@@ -848,6 +853,7 @@ fighters = {
 			'ring_of_risk': {
 				'type': 'null',
 				'group': 'passive_item',
+				'stats': {},
 				'default': {
 					'name': 'ssbrc.fighter.zelda.passive_item.ring_of_risk',
 					'color': 'red'
@@ -867,17 +873,10 @@ fighters = {
 					'color': 'blue'
 				}
 			},
-			'snorkel': {
-				'type': 'null',
-				'group': 'passive_item',
-				'default': {
-					'name': 'ssbrc.fighter.zelda.passive_item.snorkel',
-					'color': 'blue'
-				}
-			},
 			'torch_of_wisdom': {
 				'type': 'null',
 				'group': 'passive_item',
+				'stats': {},
 				'default': {
 					'name': 'ssbrc.fighter.zelda.passive_item.torch_of_wisdom',
 					'color': 'yellow'
@@ -886,6 +885,7 @@ fighters = {
 			'zoras_flippers': {
 				'type': 'null',
 				'group': 'passive_item',
+				'stats': {},
 				'default': {
 					'name': 'ssbrc.fighter.zelda.passive_item.zoras_flippers',
 					'color': 'blue'
