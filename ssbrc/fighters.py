@@ -676,7 +676,7 @@ fighters = {
 				'stats': {
 					'attack_damage': 8,
 					'attack_speed': 0.75,
-					'min_range': 2,
+					'min_reach': 2,
 					'hitbox_margin': 1
 				},
 				'default': {
