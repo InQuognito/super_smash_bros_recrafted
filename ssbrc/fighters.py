@@ -4172,6 +4172,72 @@ fighters = {
 				'toad_gear': {
 					'color': 'green'
 				}
+			},
+			'chaos_sphere': {
+				'type': 'ability',
+				'stats': {
+					'cooldown_group': 'shovel_knight/chaos_sphere',
+					'cooldown': 1
+				},
+				'default': {
+					'name': 'ssbrc.fighter.shovel_knight.chaos_sphere',
+					'color': 'green'
+				}
+			},
+			'flare_wand': {
+				'type': 'ability',
+				'stats': {
+					'cooldown_group': 'shovel_knight/flare_wand',
+					'cooldown': 0.75
+				},
+				'default': {
+					'name': 'ssbrc.fighter.shovel_knight.flare_wand',
+					'color': 'green'
+				}
+			},
+			'phase_locket': {
+				'type': 'ability',
+				'stats': {
+					'cooldown_group': 'shovel_knight/phase_locket',
+					'cooldown': 15
+				},
+				'default': {
+					'name': 'ssbrc.fighter.shovel_knight.phase_locket',
+					'color': 'green'
+				}
+			},
+			'propeller_dagger': {
+				'type': 'ability',
+				'stats': {
+					'cooldown_group': 'shovel_knight/propeller_dagger',
+					'cooldown': 3
+				},
+				'default': {
+					'name': 'ssbrc.fighter.shovel_knight.propeller_dagger',
+					'color': 'green'
+				}
+			},
+			'throwing_anchor': {
+				'type': 'ability',
+				'stats': {
+					'cooldown_group': 'shovel_knight/throwing_anchor',
+					'cooldown': 0.5
+				},
+				'default': {
+					'name': 'ssbrc.fighter.shovel_knight.throwing_anchor',
+					'color': 'green'
+				}
+			},
+			'war_horn': {
+				'type': 'ability',
+				'stats': {
+					'cooldown_group': 'shovel_knight/war_horn',
+					'cooldown': 1
+				},
+				'default': {
+					'name': 'ssbrc.fighter.shovel_knight.war_horn',
+					'color': 'green'
+				}
 			}
 		}
 	},
@@ -4255,9 +4321,8 @@ fighters = {
 			'spirit_orb': {
 				'type': 'ability',
 				'stats': {
-					'tag': 'utility',
 					'cooldown_group': 'altered_beast/spirit_orb',
-					'cooldown': 40
+					'cooldown': 2
 				},
 				'default': {
 					'name': 'ssbrc.fighter.altered_beast.spirit_orb',

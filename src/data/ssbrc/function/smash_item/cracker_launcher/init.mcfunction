@@ -35,6 +35,10 @@ item modify entity @s contents [ \
 		components: { \
 			"minecraft:max_damage": 16, \
 			"minecraft:item_model": "ssbrc:smash_item/cracker_launcher", \
+			"minecraft:use_cooldown": { \
+				seconds: 1.5, \
+				cooldown_group: "ssbrc:smash_item", \
+			}, \
 		}, \
 	}, \
 	{ \
