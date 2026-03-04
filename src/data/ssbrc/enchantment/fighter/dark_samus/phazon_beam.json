@@ -18,6 +18,15 @@
 	"effects": {
 		"minecraft:post_piercing_attack": [
 			{
+				"requirements": {
+					"condition": "minecraft:entity_scores",
+					"entity": "this",
+					"scores": {
+						"silenced": {
+							"max": 0
+						}
+					}
+				},
 				"effect": {
 					"type": "minecraft:run_function",
 					"function": "ssbrc:fighter/dark_samus/phazon_beam/activate"
@@ -26,6 +35,15 @@
 		],
 		"minecraft:projectile_spawned": [
 			{
+				"requirements": {
+					"condition": "minecraft:entity_scores",
+					"entity": "this",
+					"scores": {
+						"silenced": {
+							"max": 0
+						}
+					}
+				},
 				"effect": {
 					"type": "minecraft:run_function",
 					"function": "ssbrc:fighter/dark_samus/phazon_beam/activate_projectile"

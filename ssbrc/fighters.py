@@ -1094,8 +1094,9 @@ fighters = {
 				'type': 'custom_swing',
 				'stats': {
 					'attack_damage': 0,
-					'attack_speed': 0,
+					'attack_speed': 0.5,
 					'max_reach': 0,
+					'swing_animation': 'none',
 					'use_sound': 'fighter.dark_samus.phazon_beam.activate.1'
 				},
 				'default': {
