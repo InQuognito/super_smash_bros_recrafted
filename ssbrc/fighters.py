@@ -4417,6 +4417,30 @@ fighters = {
 					'color': 'gold'
 				}
 			},
+			'electrocution': {
+				'type': 'ability',
+				'stats': {
+					'cooldown_group': 'altered_beast/electrocution',
+					'cooldown': 15
+				},
+				'default': {
+					'name': 'ssbrc.fighter.altered_beast.electrocution',
+					'color': 'yellow'
+				}
+			},
+			'flame_hands': {
+				'type': 'hybrid',
+				'stats': {
+					'attack_damage': 5,
+					'attack_speed': 2,
+					'cooldown_group': 'altered_beast/flame_hands',
+					'cooldown': 1
+				},
+				'default': {
+					'name': 'ssbrc.fighter.altered_beast.flame_hands',
+					'color': 'red'
+				}
+			},
 			'gladius': {
 				'type': 'weapon',
 				'stats': {
@@ -4432,6 +4456,28 @@ fighters = {
 					'color': 'gold'
 				}
 			},
+			'petrifying_breath': {
+				'type': 'ability',
+				'stats': {
+					'cooldown_group': 'altered_beast/petrifying_breath',
+					'cooldown': 5
+				},
+				'default': {
+					'name': 'ssbrc.fighter.altered_beast.petrifying_breath',
+					'color': 'white'
+				}
+			},
+			'sabretooth': {
+				'type': 'ability',
+				'stats': {
+					'cooldown_group': 'altered_beast/sabretooth',
+					'cooldown': 3
+				},
+				'default': {
+					'name': 'ssbrc.fighter.altered_beast.sabretooth',
+					'color': 'yellow'
+				}
+			},
 			'spirit_orb': {
 				'type': 'ability',
 				'stats': {
@@ -4444,7 +4490,7 @@ fighters = {
 				}
 			},
 			'tiger_claw': {
-				'type': 'weapon',
+				'type': 'custom_swing',
 				'stats': {
 					'attack_damage': 7,
 					'attack_speed': 0.5

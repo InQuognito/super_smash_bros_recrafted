@@ -1,4 +1,4 @@
-advancement revoke @s only ssbrc:utility/use_item/item/black_hole
+advancement revoke @s only ssbrc:utility/use_item/smash_item/black_hole
 
 execute anchored eyes positioned ^ ^ ^.5 summon minecraft:marker run function ssbrc:smash_item/black_hole/init/marker
 

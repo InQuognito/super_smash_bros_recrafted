@@ -1098,6 +1098,10 @@
 							"type": "minecraft:composite",
 							"models": [
 								{
+									"type": "minecraft:model",
+									"model": "ssbrc:fighter/kirby/skin/accessory/face"
+								},
+								{
 									"type": "minecraft:select",
 									"property": "minecraft:custom_model_data",
 									"index": 1,

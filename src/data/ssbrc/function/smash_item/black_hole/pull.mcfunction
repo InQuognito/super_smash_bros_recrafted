@@ -1,6 +1,3 @@
-execute unless entity @s[tag=self] if entity @n[type=minecraft:armor_stand,tag=item.black_hole,distance=..2] run function ssbrc:logic/damage/generic {amount: 2, type: "pierce", kb_resist: 1, source: " by @a[tag=self]"}
-execute if entity @s[tag=self] if entity @n[type=minecraft:armor_stand,tag=item.black_hole,distance=..2] run function ssbrc:logic/damage/generic {amount: 2, type: "pierce", kb_resist: 1, source: ""}
-
 execute facing entity @n[type=minecraft:armor_stand,tag=item.black_hole,distance=9..10] eyes positioned ^ ^ ^.08 if block ~ ~ ~ #ssbrc:passthrough_charge run return run teleport @s ~ ~ ~
 execute facing entity @n[type=minecraft:armor_stand,tag=item.black_hole,distance=8..9] eyes positioned ^ ^ ^.10 if block ~ ~ ~ #ssbrc:passthrough_charge run return run teleport @s ~ ~ ~
 execute facing entity @n[type=minecraft:armor_stand,tag=item.black_hole,distance=7..8] eyes positioned ^ ^ ^.12 if block ~ ~ ~ #ssbrc:passthrough_charge run return run teleport @s ~ ~ ~

@@ -1,6 +1,6 @@
 {
 	"textures": {
-		"base": "ssbrc:fighter/link/item/boomerang",
+		"base": "ssbrc:fighter/toon_link/item/boomerang",
 		"particle": "ssbrc:miscellaneous/empty"
 	},
 	"elements": [
