@@ -7,24 +7,24 @@
 				"when": "gold",
 				"model": {
 					"type": "minecraft:range_dispatch",
-					"property": "minecraft:custom_model_data",
+					"property": "minecraft:use_duration",
 					"entries": [
 						{
-							"threshold": 1,
+							"threshold": 10,
 							"model": {
 								"type": "minecraft:model",
 								"model": "ssbrc:fighter/dark_samus/item/phazon_beam/gold/charge_0"
 							}
 						},
 						{
-							"threshold": 2,
+							"threshold": 20,
 							"model": {
 								"type": "minecraft:model",
 								"model": "ssbrc:fighter/dark_samus/item/phazon_beam/gold/charge_1"
 							}
 						},
 						{
-							"threshold": 3,
+							"threshold": 40,
 							"model": {
 								"type": "minecraft:model",
 								"model": "ssbrc:fighter/dark_samus/item/phazon_beam/gold/charge_2"
@@ -41,24 +41,24 @@
 				"when": "prime_3",
 				"model": {
 					"type": "minecraft:range_dispatch",
-					"property": "minecraft:custom_model_data",
+					"property": "minecraft:use_duration",
 					"entries": [
 						{
-							"threshold": 1,
+							"threshold": 10,
 							"model": {
 								"type": "minecraft:model",
 								"model": "ssbrc:fighter/dark_samus/item/phazon_beam/prime_3/charge_0"
 							}
 						},
 						{
-							"threshold": 2,
+							"threshold": 20,
 							"model": {
 								"type": "minecraft:model",
 								"model": "ssbrc:fighter/dark_samus/item/phazon_beam/prime_3/charge_1"
 							}
 						},
 						{
-							"threshold": 3,
+							"threshold": 40,
 							"model": {
 								"type": "minecraft:model",
 								"model": "ssbrc:fighter/dark_samus/item/phazon_beam/prime_3/charge_2"
@@ -74,24 +74,24 @@
 		],
 		"fallback": {
 			"type": "minecraft:range_dispatch",
-			"property": "minecraft:custom_model_data",
+			"property": "minecraft:use_duration",
 			"entries": [
 				{
-					"threshold": 1,
+					"threshold": 10,
 					"model": {
 						"type": "minecraft:model",
 						"model": "ssbrc:fighter/dark_samus/item/phazon_beam/default/charge_0"
 					}
 				},
 				{
-					"threshold": 2,
+					"threshold": 20,
 					"model": {
 						"type": "minecraft:model",
 						"model": "ssbrc:fighter/dark_samus/item/phazon_beam/default/charge_1"
 					}
 				},
 				{
-					"threshold": 3,
+					"threshold": 40,
 					"model": {
 						"type": "minecraft:model",
 						"model": "ssbrc:fighter/dark_samus/item/phazon_beam/default/charge_2"

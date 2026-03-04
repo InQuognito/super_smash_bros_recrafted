@@ -1515,10 +1515,10 @@
 			}
 		]
 	},
-	"fighter.luigi.double_jump": {
+	"fighter.luigi.jump": {
 		"sounds": [
 			{
-				"name": "ssbrc:fighter/mario/double_jump",
+				"name": "ssbrc:fighter/mario/jump",
 				"stream": false,
 				"volume": 1.0
 			}
@@ -1560,10 +1560,10 @@
 			}
 		]
 	},
-	"fighter.mario.double_jump": {
+	"fighter.mario.jump": {
 		"sounds": [
 			{
-				"name": "ssbrc:fighter/mario/double_jump",
+				"name": "ssbrc:fighter/mario/jump",
 				"stream": false,
 				"volume": 1.0
 			}

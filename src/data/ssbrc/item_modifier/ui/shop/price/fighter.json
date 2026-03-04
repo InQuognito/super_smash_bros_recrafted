@@ -10,7 +10,7 @@
 			"extra": [
 				{
 					"score": {
-						"name": "price.fighter",
+						"name": "#price.fighter",
 						"objective": "const"
 					},
 					"bold": false,
