@@ -2,8 +2,8 @@ function ssbrc:fighter/altered_beast/kits/update {form: "werewolf"}
 
 execute if score @s resource >= #altered_beast.spirit.max const run tag @s add feral_instincts
 
-function ssbrc:logic/item/init/slot {item: "electrocution", slot: "hotbar.0", class: "weapon", type: "hybrid"}
-execute if items entity @s weapon.mainhand *[minecraft:custom_data~{item: "flame_hands"}] run function ssbrc:logic/item/init/slot {item: "weapon.offhand", slot: "hotbar.1", class: "weapon", type: "hybrid"}
+function ssbrc:logic/item/init/slot {item: "flame_hands", slot: "hotbar.0", class: "weapon", type: "hybrid"}
+execute if items entity @s weapon.mainhand *[minecraft:custom_data~{item: "flame_hands"}] run function ssbrc:logic/item/init/slot {item: "flame_hands", slot: "weapon.offhand", class: "weapon", type: "hybrid"}
 
 item modify entity @s armor.chest [{function: "minecraft:reference",name: "ssbrc:init/tooltip/separator"}, {function: "minecraft:set_lore",entity:"this",lore:[{translate: "ssbrc.fighter.altered_beast.werewolf.feral_instincts", color: "yellow",italic:false,underlined: true}, {translate: "ssbrc.fighter.altered_beast.werewolf.feral_instincts.description.1", color: "gray",italic:false}],mode:"append"}]
 

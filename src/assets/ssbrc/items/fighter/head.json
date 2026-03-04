@@ -1260,13 +1260,6 @@
 									}
 								},
 								{
-									"when": "awakening",
-									"model": {
-										"type": "minecraft:model",
-										"model": "ssbrc:fighter/link/skin/awakening"
-									}
-								},
-								{
 									"when": "tunic_of_time",
 									"model": {
 										"type": "minecraft:model",

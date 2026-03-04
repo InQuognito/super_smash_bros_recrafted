@@ -177,7 +177,7 @@ fighters = {
 				'rarity': 'uncommon',
 				'color': 'dark_gray'
 			},
-			'pink_gold': {
+			'golf': {
 				'rarity': 'uncommon',
 				'color': 'light_purple'
 			}
