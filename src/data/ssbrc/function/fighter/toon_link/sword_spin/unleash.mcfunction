@@ -1,4 +1,4 @@
-scoreboard players operation charge temp = @s charge.1
+scoreboard players operation #charge temp = @s charge.1
 scoreboard players set @s charge.1 0
 
 scoreboard players set @s rotation 1000
@@ -13,4 +13,4 @@ playsound ssbrc:fighter.link.sword_spin.unleash player @a
 
 advancement grant @s only ssbrc:ui/popup/link
 
-scoreboard players reset charge temp
+scoreboard players reset #charge temp

@@ -1,0 +1,16 @@
+{
+	"parent": "ssbrc:utility/use_item/root",
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:using_item",
+			"conditions": {
+				"item": {
+					"items": "minecraft:bow"
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "ssbrc:logic/fighter/charge/increase"
+	}
+}

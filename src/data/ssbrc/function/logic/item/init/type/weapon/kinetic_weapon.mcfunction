@@ -14,9 +14,20 @@ $item replace entity @s $(slot) with minecraft:stick[ \
 		type: "$(swing_animation)", \
 		duration: $(swing_duration), \
 	}, \
-	minecraft:piercing_weapon = { \
-		deals_knockback: $(deals_knockback), \
-		dismounts: $(dismounts), \
+	minecraft:kinetic_weapon = { \
+		delay_ticks: $(startup_ticks), \
+		contact_cooldown_ticks: $(cooldown_ticks), \
+		dismount_conditions: { \
+			max_duration_ticks: 10, \
+		}, \
+		knockback_conditions: { \
+			max_duration_ticks: 10, \
+		}, \
+		damage_conditions: { \
+			max_duration_ticks: 10, \
+		}, \
+		forward_movement: 0, \
+		damage_multiplier: 0, \
 		sound: { \
 			sound_id: "ssbrc:$(use_sound)", \
 		}, \

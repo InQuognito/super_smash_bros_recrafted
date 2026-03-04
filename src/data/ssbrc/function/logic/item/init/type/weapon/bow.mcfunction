@@ -12,6 +12,7 @@ $item replace entity @s $(slot) with minecraft:bow[ \
 	minecraft:minimum_attack_charge = $(minimum_attack_charge), \
 	minecraft:enchantments = { \
 		"ssbrc:fighter/$(fighter)/$(item)": 1, \
+		"ssbrc:charge_ability": 1, \
 	}, \
 	minecraft:item_model = "ssbrc:fighter/$(fighter)/$(item)", \
 	minecraft:custom_model_data = { \

@@ -1,3 +1,3 @@
-scoreboard players add @s charge.output 1
+scoreboard players set @s[tag=!charged_this_tick] charge.output 0
 
-advancement revoke @s only ssbrc:utility/use_item/any
+tag @s remove charged_this_tick

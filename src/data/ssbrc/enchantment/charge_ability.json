@@ -16,27 +16,11 @@
 		"mainhand"
 	],
 	"effects": {
-		"minecraft:projectile_spawned": [
+		"minecraft:tick": [
 			{
 				"effect": {
 					"type": "minecraft:run_function",
-					"function": "ssbrc:fighter/pit/palutena_bow/init"
-				}
-			}
-		],
-		"minecraft:ammo_use": [
-			{
-				"effect": {
-					"type": "minecraft:set",
-					"value": 0
-				}
-			}
-		],
-		"minecraft:item_damage": [
-			{
-				"effect": {
-					"type": "minecraft:set",
-					"value": 0
+					"function": "ssbrc:logic/fighter/charge/tick"
 				}
 			}
 		]

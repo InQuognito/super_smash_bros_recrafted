@@ -1,6 +1,6 @@
 {
 	"description": "",
-	"supported_items": "minecraft:bow",
+	"supported_items": "#ssbrc:equipment/ability",
 	"weight": 1,
 	"max_level": 1,
 	"min_cost": {
@@ -16,11 +16,19 @@
 		"mainhand"
 	],
 	"effects": {
+		"minecraft:post_piercing_attack": [
+			{
+				"effect": {
+					"type": "minecraft:run_function",
+					"function": "ssbrc:fighter/dark_samus/phazon_beam/activate"
+				}
+			}
+		],
 		"minecraft:projectile_spawned": [
 			{
 				"effect": {
 					"type": "minecraft:run_function",
-					"function": "ssbrc:fighter/pit/palutena_bow/init"
+					"function": "ssbrc:fighter/dark_samus/phazon_beam/activate_projectile"
 				}
 			}
 		],

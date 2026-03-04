@@ -1,4 +1,4 @@
-$item replace entity @s $(slot) with minecraft:stick[ \
+$item replace entity @s $(slot) with minecraft:bow[ \
 	minecraft:item_name = { \
 		translate: "$(name)", \
 		color: "$(color)", \
@@ -46,6 +46,10 @@ $item replace entity @s $(slot) with minecraft:stick[ \
 			slot: "mainhand", \
 		}, \
 	], \
+	minecraft:enchantments = { \
+		"ssbrc:fighter/$(fighter)/$(item)": 1, \
+		"ssbrc:charge_ability": 1, \
+	}, \
 	minecraft:item_model = "ssbrc:fighter/$(fighter)/$(item)", \
 	minecraft:custom_model_data = { \
 		strings: [ \
@@ -61,7 +65,7 @@ $item replace entity @s $(slot) with minecraft:stick[ \
 
 $item modify entity @s $(slot) { \
 	function: "minecraft:reference", \
-	name: "ssbrc:init/item/melee", \
+	name: "ssbrc:init/item/ranged", \
 }
 
 $item modify entity @s $(slot) { \

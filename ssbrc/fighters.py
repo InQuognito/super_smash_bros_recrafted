@@ -1091,12 +1091,12 @@ fighters = {
 		],
 		'items': {
 			'phazon_beam': {
-				'type': 'hybrid',
+				'type': 'custom_swing',
 				'stats': {
-					'attack_damage': 1.5,
-					'attack_speed': 0.5,
-					'cooldown_group': 'dark_samus/phazon_beam',
-					'cooldown': 0.5
+					'attack_damage': 0,
+					'attack_speed': 0,
+					'max_reach': 0,
+					'use_sound': 'fighter.dark_samus.phazon_beam.activate.1'
 				},
 				'default': {
 					'name': 'ssbrc.fighter.dark_samus.phazon_beam',
@@ -4801,10 +4801,16 @@ def extend_weapon(data, path):
 	data['swing_duration'] = init_stat('swing_duration', path, 6)
 
 def extend_custom_swing(data, path):
+	data['deals_knockback'] = init_stat('deals_knockback', path, True)
+	data['dismounts'] = init_stat('dismounts', path, False)
+	data['use_sound'] = init_stat('use_sound', path, 'empty')
+	data['hit_sound'] = init_stat('hit_sound', path, 'empty')
+
+def extend_kinetic_weapon(data, path):
 	data['startup_ticks'] = init_stat('startup_ticks', path, 0)
 	data['cooldown_ticks'] = init_stat('cooldown_ticks', path, 10)
 	data['visual_reach'] = init_stat('visual_reach', path, 0)
-	data['speed_damage_multiplier'] = init_stat('min_reach', path, 0)
+	data['speed_damage_multiplier'] = init_stat('speed_damage_multiplier', path, 1)
 	data['use_sound'] = init_stat('use_sound', path, 'empty')
 	data['hit_sound'] = init_stat('hit_sound', path, 'empty')
 
