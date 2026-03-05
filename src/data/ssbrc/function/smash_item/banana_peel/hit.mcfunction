@@ -1,5 +1,3 @@
-function ssbrc:logic/fighter/jump/impulse {strength: 5000}
-
-kill @s
+function ssbrc:logic/fighter/jump/activate
 
 playsound ssbrc:smash_item.banana_peel.hit hostile @a
