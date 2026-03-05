@@ -3,4 +3,4 @@ tag @s add hitbox.humanoid
 
 execute facing .5 ~ .5 run rotate @s ~ ~
 
-scoreboard players remove fighter_count temp 1
+scoreboard players remove #fighter_count temp 1
