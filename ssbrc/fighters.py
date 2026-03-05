@@ -1231,7 +1231,7 @@ fighters = {
 	'gooey': {
 		'series': 'kirby',
 		'stats': {
-			'armor': 'low',
+			'armor': 'negligible',
 			'safe_fall_distance': 'medium',
 			'weight': 'medium'
 		},

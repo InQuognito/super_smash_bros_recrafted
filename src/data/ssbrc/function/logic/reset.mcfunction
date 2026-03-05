@@ -28,10 +28,7 @@ function ssbrc:logic/game/data/gamerules
 function ssbrc:logic/game/data/schedule
 function ssbrc:logic/game/team/reset
 
-kill @e[type=!minecraft:player,tag=!smithed.strict]
 summon minecraft:marker 0 0 0 {Tags:["math"]}
-
-forceload remove all
 
 worldborder set 9999999
 worldborder center 0 0
@@ -43,8 +40,12 @@ execute unless score num hard_resets matches -2147483648..2147483647 run scorebo
 
 scoreboard players set #game_stage temp -1
 
-execute in ssbrc:tutorial positioned 0 0 0 run function ssbrc:tutorial/init
-execute in ssbrc:smash_plaza positioned .5 .5 .5 run function ssbrc:logic/lobby/reset
-execute in ssbrc:fighter_select positioned .5 1.1 .5 run function ssbrc:logic/pre_game/fighter_select/reset
+function ssbrc:logic/stage/loop {operation: "function ssbrc:logic/scene/deinit/stage"}
+
+execute unless data storage ssbrc:data.scene smash_plaza run function ssbrc:logic/scene/init {id: "tutorial"}
+execute unless data storage ssbrc:data.scene smash_plaza run function ssbrc:logic/scene/init {id: "smash_plaza"}
+
+tag @a remove winner
+function ssbrc:logic/lobby/leaderboard/load
 
 function ssbrc:logic/timer

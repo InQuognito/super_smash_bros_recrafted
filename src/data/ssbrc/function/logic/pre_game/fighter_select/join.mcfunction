@@ -1,3 +1,5 @@
+execute unless data storage ssbrc:data.scene fighter_select run function ssbrc:logic/scene/init {id: "fighter_select"}
+
 execute in ssbrc:fighter_select run teleport @s 0 0 0 0 0
 
 execute unless data storage ssbrc:data option{teams: true} run team join waiting @s
@@ -5,7 +7,7 @@ execute if data storage ssbrc:data option{teams: true} run function ssbrc:logic/
 
 effect give @s minecraft:glowing infinite 0 true
 
-scoreboard players add old_players temp 1
+scoreboard players add #old_players temp 1
 
 execute unless entity @s[tag=cannot_host] unless items entity @a container.* minecraft:written_book[minecraft:custom_data~{item: "options"}] run function ssbrc:logic/game/options/set
 

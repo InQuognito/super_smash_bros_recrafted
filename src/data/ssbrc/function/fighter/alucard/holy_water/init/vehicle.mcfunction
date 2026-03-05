@@ -6,7 +6,7 @@ item replace entity @s armor.head with minecraft:stick[ \
 
 $function ssbrc:logic/init/model {skin: "$(skin)"}
 
-data merge entity @s {Small:1b}
+data merge entity @s {Small: 1b}
 
 function ssbrc:logic/init/armor_stand/static
 

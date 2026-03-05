@@ -1,6 +1,6 @@
 function ssbrc:logic/fighter/ability/init
 
-execute anchored eyes positioned ^ ^ ^ summon minecraft:marker run function ssbrc:fighter/alucard/holy_water/init/marker
+execute anchored eyes positioned ^ ^ ^.5 summon minecraft:marker run function ssbrc:fighter/alucard/holy_water/init/marker
 
 function ssbrc:fighter/alucard/blood_metamorphosis/deactivate
 

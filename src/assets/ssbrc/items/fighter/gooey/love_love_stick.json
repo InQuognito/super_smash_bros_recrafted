@@ -1,7 +1,7 @@
 {
 	"model": {
 		"type": "minecraft:model",
-		"model": "ssbrc:fighter/gooey/item/love_love_stick"
+		"model": "ssbrc:fighter/gooey/item/love_love_stick/default"
 	},
 	"hand_animation_on_swap": false
 }

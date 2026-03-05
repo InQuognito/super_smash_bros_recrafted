@@ -11,7 +11,7 @@ data modify entity @s text set value [ \
 	}, \
 	{ \
 		score: { \
-			name: "players.ingame", \
+			name: "#players.ingame", \
 			objective: "temp", \
 		}, \
 		color: "yellow", \

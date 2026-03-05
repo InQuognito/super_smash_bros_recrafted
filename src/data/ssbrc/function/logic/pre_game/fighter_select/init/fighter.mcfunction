@@ -13,4 +13,4 @@ $item replace entity @s contents with minecraft:stick[ \
 	}, \
 ]
 
-$summon minecraft:text_display ~ ~1.25 ~ {Tags:["static_object"],text:{translate: "ssbrc.fighter.$(fighter)", color: "$(color)"},billboard: "center",alignment: "center"}
+$summon minecraft:text_display ~ ~1.25 ~ {Tags:["static_object"],text:{translate: "ssbrc.fighter.$(fighter)", color: "$(color)"}, billboard: "center", alignment: "center"}

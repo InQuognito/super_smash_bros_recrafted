@@ -15,14 +15,14 @@ scoreboard players reset @s points
 
 title @s actionbar ""
 
-execute positioned -528.5 6 -1939.5 run data modify entity @n[type=minecraft:text_display,tag=lobby.timer,distance=...01] text set value [ \
+#execute positioned -528.5 6 -1939.5 run data modify entity @n[type=minecraft:text_display,tag=lobby.timer,distance=...01] text set value [ \
 	{ \
 		translate: "ssbrc.lobby.players_remaining", \
 		color: "gold", \
 	}, \
 	{ \
 		score: { \
-			name: "players.ingame", \
+			name: "#players.ingame", \
 			objective: "temp", \
 		}, \
 		color: "yellow", \
