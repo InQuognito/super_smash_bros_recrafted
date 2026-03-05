@@ -11,6 +11,7 @@ tag @s remove hud_disabled
 tag @s remove ignore_feedback
 tag @s remove intangible
 tag @s remove launched
+tag @s remove respawn_me
 tag @s remove shield_broken
 
 # Altered Beast

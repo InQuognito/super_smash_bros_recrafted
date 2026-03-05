@@ -1,9 +1,5 @@
 advancement revoke @s only ssbrc:utility/use_item/fighter/jigglypuff/rest
 
-item modify entity @s weapon.mainhand ssbrc:fighter/jigglypuff/rest/disabled
-
-scoreboard players set @s charge.1 1
-
 function ssbrc:logic/fighter/effects/sleep/activate {duration: 400}
 effect give @s minecraft:regeneration infinite 2 true
 
