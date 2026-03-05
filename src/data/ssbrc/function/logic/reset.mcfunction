@@ -42,8 +42,8 @@ scoreboard players set #game_stage temp -1
 
 function ssbrc:logic/stage/loop {operation: "function ssbrc:logic/scene/deinit/stage"}
 
-execute unless data storage ssbrc:data.scene smash_plaza run function ssbrc:logic/scene/init {id: "tutorial"}
-execute unless data storage ssbrc:data.scene smash_plaza run function ssbrc:logic/scene/init {id: "smash_plaza"}
+execute unless data storage ssbrc:data scene.smash_plaza run function ssbrc:logic/scene/init {id: "tutorial"}
+execute unless data storage ssbrc:data scene.smash_plaza run function ssbrc:logic/scene/init {id: "smash_plaza"}
 
 tag @a remove winner
 function ssbrc:logic/lobby/leaderboard/load

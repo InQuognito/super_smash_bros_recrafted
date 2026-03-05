@@ -1,4 +1,4 @@
-execute unless data storage ssbrc:data.scene fighter_select run function ssbrc:logic/scene/init {id: "fighter_select"}
+execute unless data storage ssbrc:data scene.fighter_select run function ssbrc:logic/scene/init {id: "fighter_select"}
 
 execute in ssbrc:fighter_select run teleport @s 0 0 0 0 0
 
