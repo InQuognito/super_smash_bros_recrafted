@@ -1,3 +1,5 @@
+function ssbrc:logic/scene/init {id: "victory_podium"}
+
 team modify dead prefix ""
 
 time set midnight

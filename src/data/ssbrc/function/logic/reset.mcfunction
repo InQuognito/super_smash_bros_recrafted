@@ -41,6 +41,7 @@ execute unless score num hard_resets matches -2147483648..2147483647 run scorebo
 scoreboard players set #game_stage temp -1
 
 function ssbrc:logic/stage/loop {operation: "function ssbrc:logic/scene/deinit/stage"}
+execute in ssbrc:victory_podium run function ssbrc:logic/scene/deinit {id: "victory_podium"}
 
 execute unless data storage ssbrc:data scene.smash_plaza run function ssbrc:logic/scene/init {id: "tutorial"}
 execute unless data storage ssbrc:data scene.smash_plaza run function ssbrc:logic/scene/init {id: "smash_plaza"}
