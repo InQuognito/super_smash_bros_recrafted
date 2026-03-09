@@ -3472,6 +3472,11 @@ fighters = {
 		],
 		'items': {
 			'rebel_knife': {
+				'type': 'weapon',
+				'stats': {
+					'attack_damage': 5,
+					'attack_speed': 3
+				},
 				'default': {
 					'name': 'ssbrc.fighter.joker.rebel_knife',
 					'color': 'gray'
@@ -3481,18 +3486,33 @@ fighters = {
 				}
 			},
 			'rebel_knife_fire': {
+				'type': 'weapon',
+				'stats': {
+					'attack_damage': 5,
+					'attack_speed': 3
+				},
 				'default': {
 					'name': 'ssbrc.fighter.joker.rebel_knife.fire_boost',
 					'color': 'red'
 				}
 			},
 			'rebel_knife_freeze': {
+				'type': 'weapon',
+				'stats': {
+					'attack_damage': 5,
+					'attack_speed': 3
+				},
 				'default': {
 					'name': 'ssbrc.fighter.joker.rebel_knife.freeze_boost',
 					'color': 'aqua'
 				}
 			},
 			'tt33': {
+				'type': 'ability',
+				'stats': {
+					'cooldown_group': 'joker/tt33',
+					'cooldown': 0.2
+				},
 				'default': {
 					'name': 'ssbrc.fighter.joker.tt33',
 					'color': 'gray'
