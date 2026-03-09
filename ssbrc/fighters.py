@@ -2861,8 +2861,9 @@ fighters = {
 			'sonic_punch': {
 				'type': 'weapon',
 				'stats': {
-					'attack_damage': 4,
-					'attack_speed': 6
+					'attack_damage': 1.5,
+					'attack_speed': 5,
+					'max_reach': 1.5
 				},
 				'default': {
 					'name': 'ssbrc.fighter.sonic.sonic_punch',
@@ -2905,8 +2906,9 @@ fighters = {
 			'sword': {
 				'type': 'weapon',
 				'stats': {
-					'attack_damage': 3,
-					'attack_speed': 5
+					'attack_damage': 1.5,
+					'attack_speed': 4,
+					'max_reach': 1.5
 				},
 				'default': {
 					'name': 'ssbrc.fighter.shadow.sword.default',
