@@ -21,6 +21,10 @@ for fighter in fighters:
 		"effects": {
 			"minecraft:tick": [
 				{
+					"requirements": {
+						"condition": "minecraft:reference",
+						"name": "ssbrc:player"
+					},
 					"effect": {
 						"type": "minecraft:run_function",
 						"function": f'ssbrc:fighter/{fighter}/tick'
