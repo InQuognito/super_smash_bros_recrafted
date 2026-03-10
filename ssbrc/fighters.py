@@ -550,6 +550,14 @@ fighters = {
 			'fourth_sword': {
 				'rarity': 'uncommon',
 				'color': 'light_purple'
+			},
+			'pajamas': {
+				'rarity': 'uncommon',
+				'color': 'aqua'
+			},
+			'engineer': {
+				'rarity': 'rare',
+				'color': 'blue'
 			}
 		},
 		'forms': [
@@ -2861,7 +2869,7 @@ fighters = {
 			'sonic_punch': {
 				'type': 'weapon',
 				'stats': {
-					'attack_damage': 1.5,
+					'attack_damage': 1,
 					'attack_speed': 5,
 					'max_reach': 1.5
 				},
@@ -2906,7 +2914,7 @@ fighters = {
 			'sword': {
 				'type': 'weapon',
 				'stats': {
-					'attack_damage': 1.5,
+					'attack_damage': 1,
 					'attack_speed': 4,
 					'max_reach': 1.5
 				},
