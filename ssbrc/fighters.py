@@ -4688,9 +4688,9 @@ adj_fighter_count = fighter_count - 1
 def count_forms(fighter):
 	return len(fighters[fighter]['forms'])
 
-def count_skins(fighter):
+def count_skins(fighter, double = True):
 	n = len(fighters[fighter]['skins']) + 2
-	if fighter in ['byleth','villager']:
+	if double and fighter in ['byleth','villager']:
 		n *= 2
 	return n
 

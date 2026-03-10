@@ -4,7 +4,5 @@ execute if score #players.ingame temp matches 6.. run data modify storage ssbrc:
 
 function ssbrc:logic/pre_game/stage_select/featured/get with storage ssbrc:temp cache.stage_select
 
-scoreboard players remove featured_stage temp 1
-
-execute if score featured_stage temp matches 1.. run return run function ssbrc:logic/pre_game/stage_select/featured/loop
-execute as @a[predicate=ssbrc:ingame] run function ssbrc:logic/pre_game/stage_select/join
+scoreboard players remove #featured_stage temp 1
+execute if score #featured_stage temp matches 1.. run function ssbrc:logic/pre_game/stage_select/featured/loop

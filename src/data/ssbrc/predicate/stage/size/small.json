@@ -5,77 +5,121 @@
 			"condition": "minecraft:entity_properties",
 			"entity": "this",
 			"predicate": {
-				"nbt": "{data:{id:\"flat_zone\"}}"
+				"nbt": {
+					"data": {
+						"id": "flat_zone"
+					}
+				}
 			}
 		},
 		{
 			"condition": "minecraft:entity_properties",
 			"entity": "this",
 			"predicate": {
-				"nbt": "{data:{id:\"icicle_mountain\"}}"
+				"nbt": {
+					"data": {
+						"id": "icicle_mountain"
+					}
+				}
 			}
 		},
 		{
 			"condition": "minecraft:entity_properties",
 			"entity": "this",
 			"predicate": {
-				"nbt": "{data:{id:\"magicant\"}}"
+				"nbt": {
+					"data": {
+						"id": "magicant"
+					}
+				}
 			}
 		},
 		{
 			"condition": "minecraft:entity_properties",
 			"entity": "this",
 			"predicate": {
-				"nbt": "{data:{id:\"mementos\"}}"
+				"nbt": {
+					"data": {
+						"id": "mementos"
+					}
+				}
 			}
 		},
 		{
 			"condition": "minecraft:entity_properties",
 			"entity": "this",
 			"predicate": {
-				"nbt": "{data:{id:\"miiverse\"}}"
+				"nbt": {
+					"data": {
+						"id": "miiverse"
+					}
+				}
 			}
 		},
 		{
 			"condition": "minecraft:entity_properties",
 			"entity": "this",
 			"predicate": {
-				"nbt": "{data:{id:\"pallet_town\"}}"
+				"nbt": {
+					"data": {
+						"id": "pallet_town"
+					}
+				}
 			}
 		},
 		{
 			"condition": "minecraft:entity_properties",
 			"entity": "this",
 			"predicate": {
-				"nbt": "{data:{id:\"palutenas_temple\"}}"
+				"nbt": {
+					"data": {
+						"id": "palutenas_temple"
+					}
+				}
 			}
 		},
 		{
 			"condition": "minecraft:entity_properties",
 			"entity": "this",
 			"predicate": {
-				"nbt": "{data:{id:\"planet_zebes\"}}"
+				"nbt": {
+					"data": {
+						"id": "planet_zebes"
+					}
+				}
 			}
 		},
 		{
 			"condition": "minecraft:entity_properties",
 			"entity": "this",
 			"predicate": {
-				"nbt": "{data:{id:\"pyrosphere\"}}"
+				"nbt": {
+					"data": {
+						"id": "pyrosphere"
+					}
+				}
 			}
 		},
 		{
 			"condition": "minecraft:entity_properties",
 			"entity": "this",
 			"predicate": {
-				"nbt": "{data:{id:\"spear_pillar\"}}"
+				"nbt": {
+					"data": {
+						"id": "spear_pillar"
+					}
+				}
 			}
 		},
 		{
 			"condition": "minecraft:entity_properties",
 			"entity": "this",
 			"predicate": {
-				"nbt": "{data:{id:\"tower_of_fate\"}}"
+				"nbt": {
+					"data": {
+						"id": "tower_of_fate"
+					}
+				}
 			}
 		}
 	]

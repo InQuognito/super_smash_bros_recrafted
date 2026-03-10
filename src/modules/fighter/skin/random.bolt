@@ -6,7 +6,7 @@ for fighter in fighters:
 	i = 1
 	function f'ssbrc:fighter/{fighter}/menu/skin/random':
 		if fighter in ['byleth', 'villager']:
-			obj = f'execute store result score #random temp run random value 1..{count_skins(fighter)/2}'
+			obj = f'execute store result score #random temp run random value 1..{count_skins(fighter, False)}'
 		else:
 			obj = f'execute store result score #random temp run random value 1..{count_skins(fighter)}'
 		raw obj

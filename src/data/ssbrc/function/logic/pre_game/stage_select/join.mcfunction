@@ -17,7 +17,7 @@ function ssbrc:logic/player/data/set {data: {temp: {selected_stage: ""}}}
 
 function ssbrc:logic/game/data/scoreboards/duration
 
-execute in ssbrc:stage_select run teleport @s 0 0 0 0 0
+teleport @s 0 0 0 0 0
 
 execute unless data storage ssbrc:data option{teams: true} run team join waiting @s[team=!spectator]
 effect give @s[team=!spectator] minecraft:glowing infinite 0 true

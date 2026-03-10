@@ -1,7 +1,5 @@
 fillbiome -50 -50 -50 50 50 50 ssbrc:stage_select
 
-#execute positioned -528.5 6.75 -1939.5 run kill @n[type=minecraft:text_display,tag=lobby.action,distance=..0.01]
-
 data modify storage ssbrc:temp cache.stage_select.game_mode set from storage ssbrc:data option.game_mode
 
 # Blank Diorama
@@ -10,7 +8,7 @@ function ssbrc:logic/pre_game/stage_select/diorama {highest: "random"}
 function ssbrc:logic/stage/loop {operation: "function ssbrc:logic/pre_game/stage_select/vote_counter/init"}
 function ssbrc:logic/pre_game/stage_select/vote_counter/init {name: "random_stage"}
 
-scoreboard players set @e[type=minecraft:text_display,tag=vote_counter,distance=..0.01] stage_vote 0
+scoreboard players set @e[type=minecraft:text_display,tag=vote_counter,distance=...01] stage_vote 0
 
 execute positioned 10 2 -2 rotated 90 0 run function ssbrc:logic/pre_game/stage_select/featured/start
 
@@ -30,4 +28,4 @@ execute if score #players.ingame temp matches 1 run function ssbrc:logic/game/op
 scoreboard players set #game_stage temp 2
 scoreboard players set #countdown temp 30
 
-#execute positioned -528.5 6.5 -1939.5 run data modify entity @n[type=minecraft:text_display,tag=lobby.status,distance=..0.01] text set value [{translate: "ssbrc.lobby.status", color: "gold"}, {translate: "ssbrc.lobby.status.stage_select", color: "yellow"}]
+execute as @a[predicate=ssbrc:ingame] run function ssbrc:logic/pre_game/stage_select/join
