@@ -1917,10 +1917,12 @@ fighters = {
 		],
 		'items': {
 			'night_slash': {
-				'type': 'weapon',
+				'type': 'hybrid',
 				'stats': {
 					'attack_damage': 5,
-					'attack_speed': 2
+					'attack_speed': 2,
+					'cooldown_group': 'greninja/shadow_sneak',
+					'cooldown': 1
 				},
 				'default': {
 					'name': 'ssbrc.fighter.greninja.night_slash',

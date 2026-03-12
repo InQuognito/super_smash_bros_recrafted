@@ -44,6 +44,7 @@ tag @s remove shadow_sneak
 
 # Hero
 tag @s remove kaclang
+tag @s remove magic_burst
 tag @s remove magic_lost
 
 # Jigglypuff

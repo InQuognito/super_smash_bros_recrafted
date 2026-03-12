@@ -16,10 +16,10 @@
 							"entity": "this",
 							"predicate": {
 								"nbt": {
-								"Tags": [
-									"shadow_sneak"
-							]
-						}
+									"Tags": [
+										"shadow_sneak"
+									]
+								}
 							}
 						}
 					}
