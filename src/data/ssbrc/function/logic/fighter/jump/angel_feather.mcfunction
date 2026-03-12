@@ -1,6 +1,8 @@
 clear @s *[minecraft:custom_data~{item: "angel_feather"}]
 
-function ssbrc:logic/fighter/jump/impulse {strength: 15000}
+attribute @s minecraft:jump_strength modifier add ssbrc:jump_modifier 2 add_multiplied_total
+function ssbrc:logic/fighter/jump/impulse
+attribute @s minecraft:jump_strength modifier remove ssbrc:jump_modifier
 
 effect give @s minecraft:slow_falling 4 255 true
 

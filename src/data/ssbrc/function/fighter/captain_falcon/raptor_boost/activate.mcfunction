@@ -4,7 +4,7 @@ execute positioned ~ ~.1 ~ summon minecraft:marker run function ssbrc:fighter/ca
 
 effect give @s minecraft:levitation infinite 0 true
 
-scoreboard players set @s duration.1 6
+scoreboard players set @s duration.1 5
 
 playsound ssbrc:fighter.captain_falcon.raptor_boost.activate player @a
 

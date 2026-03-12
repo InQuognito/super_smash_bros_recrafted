@@ -2,4 +2,4 @@ tag @s add earthquake
 
 scoreboard players set @s charge.3 0
 
-function ssbrc:logic/fighter/jump/impulse {strength: -20000}
+execute rotated 0 90 run function ssbrc:logic/fighter/motion/safe_launch {strength: 20000}

@@ -56,6 +56,33 @@
 						"model": "ssbrc:fighter/captain_falcon/item/fists_of_fury/blood_falcon/default"
 					}
 				}
+			},
+			{
+				"when": "super_falcon",
+				"model": {
+					"type": "minecraft:select",
+					"property": "minecraft:display_context",
+					"cases": [
+						{
+							"when": "firstperson_lefthand",
+							"model": {
+								"type": "minecraft:model",
+								"model": "ssbrc:fighter/captain_falcon/item/fists_of_fury/super_falcon/left"
+							}
+						},
+						{
+							"when": "thirdperson_lefthand",
+							"model": {
+								"type": "minecraft:model",
+								"model": "ssbrc:fighter/captain_falcon/item/fists_of_fury/super_falcon/left"
+							}
+						}
+					],
+					"fallback": {
+						"type": "minecraft:model",
+						"model": "ssbrc:fighter/captain_falcon/item/fists_of_fury/super_falcon/default"
+					}
+				}
 			}
 		],
 		"fallback": {

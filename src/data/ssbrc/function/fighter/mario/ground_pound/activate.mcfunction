@@ -1,3 +1,3 @@
 tag @s add ground_pound
 
-function ssbrc:logic/fighter/jump/impulse {strength: -20000}
+execute rotated 0 90 run function ssbrc:logic/fighter/motion/safe_launch {strength: 20000}

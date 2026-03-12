@@ -1,1 +1,3 @@
-function ssbrc:logic/fighter/jump/impulse {strength: 6000}
+attribute @s minecraft:jump_strength modifier add ssbrc:jump_modifier -.15 add_multiplied_total
+function ssbrc:logic/fighter/jump/impulse
+attribute @s minecraft:jump_strength modifier remove ssbrc:jump_modifier

@@ -369,7 +369,7 @@ fighters = {
 			'armor': 16.0,
 			'jump_strength': 'low',
 			'max_health': 20.0,
-			'movement_speed': 0.085,
+			'movement_speed': 0.85,
 			'safe_fall_distance': 'medium',
 			'weight': 'medium'
 		},
@@ -928,7 +928,7 @@ fighters = {
 		'stats': {
 			'armor': 'medium',
 			'jump_strength': 'low',
-			'movement_speed': 0.075,
+			'movement_speed': 0.75,
 			'safe_fall_distance': 'medium',
 			'weight': 'medium'
 		},
@@ -987,7 +987,7 @@ fighters = {
 		'series': 'metroid',
 		'stats': {
 			'armor': 'low',
-			'movement_speed': 0.09,
+			'movement_speed': 0.9,
 			'safe_fall_distance': 'medium',
 			'weight': 'medium'
 		},
@@ -1071,7 +1071,7 @@ fighters = {
 		'series': 'metroid',
 		'stats': {
 			'armor': 'low',
-			'movement_speed': 0.095,
+			'movement_speed': 0.95,
 			'safe_fall_distance': 'medium',
 			'weight': 'medium'
 		},
@@ -1715,7 +1715,7 @@ fighters = {
 		'stats': {
 			'armor': 'low',
 			'jump_strength': 'low',
-			'movement_speed': 0.085,
+			'movement_speed': 0.85,
 			'safe_fall_distance': 'medium',
 			'weight': 'medium'
 		},
@@ -2219,7 +2219,7 @@ fighters = {
 		'series': 'f_zero',
 		'stats': {
 			'armor': 'low',
-			'movement_speed': 1.05,
+			'movement_speed': 1.15,
 			'safe_fall_distance': 'medium',
 			'weight': 'medium'
 		},
@@ -2643,7 +2643,7 @@ fighters = {
 		'series': 'metal_gear',
 		'stats': {
 			'armor': 'low',
-			'movement_speed': 0.105,
+			'movement_speed': 1.05,
 			'safe_fall_distance': 'medium',
 			'weight': 'medium'
 		},
@@ -2886,7 +2886,7 @@ fighters = {
 		'series': 'sonic_the_hedgehog',
 		'stats': {
 			'armor': 'low',
-			'movement_speed': 0.11,
+			'movement_speed': 1.1,
 			'safe_fall_distance': 'medium',
 			'weight': 'medium'
 		},
@@ -2931,7 +2931,7 @@ fighters = {
 		'series': 'sonic_the_hedgehog',
 		'stats': {
 			'armor': 'low',
-			'movement_speed': 0.105,
+			'movement_speed': 1.05,
 			'safe_fall_distance': 'medium',
 			'weight': 'medium'
 		},
@@ -4875,7 +4875,7 @@ def movement_speed(fighter):
 	if 'movement_speed' in path.keys():
 		return path['movement_speed']
 	else:
-		return 0.1
+		return 1
 
 def init_item_data(fighter, skin, item, data):
 	skin_data = {}

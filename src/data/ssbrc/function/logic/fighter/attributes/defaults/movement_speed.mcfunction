@@ -1,1 +1,1 @@
-$attribute @s minecraft:movement_speed base set $(movement_speed)
+$attribute @s minecraft:movement_speed modifier add ssbrc:fighter_speed $(movement_speed) add_multiplied_base

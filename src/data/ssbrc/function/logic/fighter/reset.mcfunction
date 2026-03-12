@@ -14,6 +14,8 @@ tag @s remove launched
 tag @s remove respawn_me
 tag @s remove shield_broken
 
+attribute @s minecraft:movement_speed modifier remove ssbrc:fighter_speed
+
 # Altered Beast
 tag @s remove altered_beast.is_beast
 tag @s remove shirtless
