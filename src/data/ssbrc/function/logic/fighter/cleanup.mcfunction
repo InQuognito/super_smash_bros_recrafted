@@ -14,6 +14,8 @@ scoreboard players reset @s fiends_cauldron
 
 scoreboard players reset @s tornado
 
+clear @s *[minecraft:custom_data~{group: "smash_item"}]
+
 # Misc
 scoreboard players operation #id_to_match temp = @s id
 

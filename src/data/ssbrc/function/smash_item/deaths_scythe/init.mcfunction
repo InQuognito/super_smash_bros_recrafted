@@ -59,7 +59,6 @@ item modify entity @s contents [ \
 		function: "minecraft:set_custom_data", \
 		tag: { \
 			item: "deaths_scythe", \
-			group: "smash_item", \
 		}, \
 	}, \
 ]

@@ -48,7 +48,6 @@ item modify entity @s contents [ \
 		function: "minecraft:set_custom_data", \
 		tag: { \
 			item: "special_flag", \
-			group: "smash_item", \
 		}, \
 	}, \
 ]

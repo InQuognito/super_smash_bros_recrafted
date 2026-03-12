@@ -41,7 +41,6 @@ item modify entity @s contents [ \
 		function: "minecraft:set_custom_data", \
 		tag: { \
 			item: "ray_gun", \
-			group: "smash_item", \
 		}, \
 	}, \
 ]
