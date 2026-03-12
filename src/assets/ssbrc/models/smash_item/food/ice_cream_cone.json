@@ -1,6 +1,6 @@
 {
 	"parent": "minecraft:item/generated",
 	"textures": {
-		"layer0": "ssbrc:smash_item/ice_cream_cone"
+		"layer0": "ssbrc:smash_item/food/ice_cream_cone"
 	}
 }

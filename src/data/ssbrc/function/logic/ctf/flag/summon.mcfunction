@@ -1,6 +1,6 @@
-$execute facing 0 0 0 summon minecraft:block_display run function ssbrc:logic/ctf/flag/init {team: $(team), color: "$(color)"}
-
 $execute summon minecraft:marker run function ssbrc:logic/ctf/flag/init_anchor {team: $(team)}
+
+$execute facing 0 0 0 summon minecraft:block_display run function ssbrc:logic/ctf/flag/init {team: $(team), color: "$(color)"}
 
 scoreboard players set #n temp 6
 scoreboard players set step temp 360

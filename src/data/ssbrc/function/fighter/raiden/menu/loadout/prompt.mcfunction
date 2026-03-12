@@ -17,7 +17,7 @@ tellraw @s [ \
 	{ \
 		translate: "ssbrc.fighter.raiden.aks_74u", \
 		color: "green", \
-		"click_event": { \
+		click_event: { \
 			action: "run_command", \
 			"command": "trigger fighter_trigger set 1", \
 		}, \
@@ -77,7 +77,7 @@ tellraw @s [ \
 	}, \
 	{ \
 		score: { \
-			name: "raiden.aks_74u.weight", \
+			name: "#raiden.aks_74u.weight", \
 			objective: "const", \
 		}, \
 		color: "red", \
@@ -94,7 +94,7 @@ tellraw @s [ \
 	{ \
 		translate: "ssbrc.fighter.raiden.throwing_knives", \
 		color: "green", \
-		"click_event": { \
+		click_event: { \
 			action: "run_command", \
 			"command": "trigger fighter_trigger set 2", \
 		}, \
@@ -154,7 +154,7 @@ tellraw @s [ \
 	}, \
 	{ \
 		score: { \
-			name: "raiden.throwing_knives.weight", \
+			name: "#raiden.throwing_knives.weight", \
 			objective: "const", \
 		}, \
 		color: "red", \
@@ -176,7 +176,7 @@ tellraw @s [ \
 	{ \
 		translate: "ssbrc.fighter.raiden.c4", \
 		color: "green", \
-		"click_event": { \
+		click_event: { \
 			action: "run_command", \
 			"command": "trigger fighter_trigger set 3", \
 		}, \
@@ -197,7 +197,7 @@ tellraw @s [ \
 	}, \
 	{ \
 		score: { \
-			name: "raiden.c4.weight", \
+			name: "#raiden.c4.weight", \
 			objective: "const", \
 		}, \
 		color: "red", \
@@ -214,7 +214,7 @@ tellraw @s [ \
 	{ \
 		translate: "ssbrc.fighter.snake.smoke_grenade", \
 		color: "green", \
-		"click_event": { \
+		click_event: { \
 			action: "run_command", \
 			"command": "trigger fighter_trigger set 4", \
 		}, \
@@ -235,7 +235,152 @@ tellraw @s [ \
 	}, \
 	{ \
 		score: { \
-			name: "snake.smoke_grenade.weight", \
+			name: "#snake.smoke_grenade.weight", \
+			objective: "const", \
+		}, \
+		color: "red", \
+	}, \
+	{ \
+		translate: "ssbrc.info.weight", \
+		color: "gray", \
+	}, \
+	")\n", \
+	{ \
+		text: "[ ", \
+		color: "dark_green", \
+	}, \
+	{ \
+		translate: "ssbrc.fighter.snake.cardboard_box", \
+		color: "green", \
+		click_event: { \
+			action: "run_command", \
+			"command": "trigger fighter_trigger set 5", \
+		}, \
+		hover_event: { \
+			action: "show_text", \
+			"value": { \
+				translate: "ssbrc.fighter.snake.cardboard_box.description", \
+				color: "gray", \
+			}, \
+		}, \
+	}, \
+	{ \
+		text: " ] x2", \
+		color: "dark_green", \
+	}, \
+	{ \
+		translate: "ssbrc.fighter.snake.cardboard_box.type", \
+	}, \
+	{ \
+		score: { \
+			name: "#snake.cardboard_box.weight", \
+			objective: "const", \
+		}, \
+		color: "red", \
+	}, \
+	{ \
+		translate: "ssbrc.info.weight", \
+		color: "gray", \
+	}, \
+	")\n     == ", \
+	{ \
+		translate: "ssbrc.fighter.snake.loadout.nanomachines", \
+		color: "yellow", \
+	}, \
+	" ==\n", \
+	{ \
+		text: "[ ", \
+		color: "dark_green", \
+	}, \
+	{ \
+		translate: "ssbrc.fighter.raiden.guard_nanos", \
+		color: "green", \
+		click_event: { \
+			action: "run_command", \
+			"command": "trigger fighter_trigger set 6", \
+		}, \
+		hover_event: { \
+			action: "show_text", \
+			"value": { \
+				translate: "ssbrc.fighter.raiden.guard_nanos.description", \
+				color: "gray", \
+			}, \
+		}, \
+	}, \
+	{ \
+		translate: "ssbrc.fighter.raiden.guard_nanos.type", \
+	}, \
+	{ \
+		score: { \
+			name: "#raiden.guard_nanos.weight", \
+			objective: "const", \
+		}, \
+		color: "red", \
+	}, \
+	{ \
+		translate: "ssbrc.info.weight", \
+		color: "gray", \
+	}, \
+	")\n", \
+	{ \
+		text: "[ ", \
+		color: "dark_green", \
+	}, \
+	{ \
+		translate: "ssbrc.fighter.raiden.zandatsu_nanos", \
+		color: "green", \
+		click_event: { \
+			action: "run_command", \
+			"command": "trigger fighter_trigger set 7", \
+		}, \
+		hover_event: { \
+			action: "show_text", \
+			"value": { \
+				translate: "ssbrc.fighter.raiden.zandatsu_nanos.description", \
+				color: "gray", \
+			}, \
+		}, \
+	}, \
+	{ \
+		translate: "ssbrc.fighter.raiden.zandatsu_nanos.type", \
+	}, \
+	{ \
+		score: { \
+			name: "#raiden.zandatsu_nanos.weight", \
+			objective: "const", \
+		}, \
+		color: "red", \
+	}, \
+	{ \
+		translate: "ssbrc.info.weight", \
+		color: "gray", \
+	}, \
+	")\n", \
+	{ \
+		text: "[ ", \
+		color: "dark_green", \
+	}, \
+	{ \
+		translate: "ssbrc.fighter.raiden.focus_nanos", \
+		color: "green", \
+		click_event: { \
+			action: "run_command", \
+			"command": "trigger fighter_trigger set 8", \
+		}, \
+		hover_event: { \
+			action: "show_text", \
+			"value": { \
+				translate: "ssbrc.fighter.raiden.focus_nanos.description", \
+				color: "gray", \
+			}, \
+		}, \
+	}, \
+	{ \
+		translate: "ssbrc.fighter.raiden.focus_nanos.type", \
+	}, \
+	{ \
+		score: { \
+			name: "#raiden.focus_nanos.weight", \
 			objective: "const", \
 		}, \
 		color: "red", \
@@ -258,7 +403,7 @@ tellraw @s [ \
 	"/", \
 	{ \
 		score: { \
-			name: "raiden.weight.max", \
+			name: "#raiden.weight.max", \
 			objective: "const", \
 		}, \
 		color: "red", \

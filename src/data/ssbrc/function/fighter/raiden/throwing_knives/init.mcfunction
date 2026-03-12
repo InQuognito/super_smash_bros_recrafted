@@ -2,7 +2,9 @@ tag @s add throwing_knives
 
 item replace entity @s contents with minecraft:iron_sword
 
-data merge entity @s {Small:1b}
+data merge entity @s { \
+	Small: 1b, \
+}
 
 function ssbrc:logic/init/armor_stand/projectile
 

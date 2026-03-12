@@ -1,0 +1,173 @@
+{
+	"model": {
+		"type": "minecraft:select",
+		"property": "minecraft:custom_model_data",
+		"cases": [
+			{
+				"when": "closed_eyes",
+				"model": {
+					"type": "minecraft:select",
+					"property": "minecraft:display_context",
+					"cases": [
+						{
+							"when": "gui",
+							"model": {
+								"type": "minecraft:model",
+								"model": "ssbrc:fighter/peach/item/turnip/icon/closed_eyes"
+							}
+						}
+					],
+					"fallback": {
+						"type": "minecraft:model",
+						"model": "ssbrc:fighter/peach/item/turnip/model/closed_eyes"
+					}
+				}
+			},
+			{
+				"when": "dot_eyes",
+				"model": {
+					"type": "minecraft:select",
+					"property": "minecraft:display_context",
+					"cases": [
+						{
+							"when": "gui",
+							"model": {
+								"type": "minecraft:model",
+								"model": "ssbrc:fighter/peach/item/turnip/icon/dot_eyes"
+							}
+						}
+					],
+					"fallback": {
+						"type": "minecraft:model",
+						"model": "ssbrc:fighter/peach/item/turnip/model/dot_eyes"
+					}
+				}
+			},
+			{
+				"when": "grin",
+				"model": {
+					"type": "minecraft:select",
+					"property": "minecraft:display_context",
+					"cases": [
+						{
+							"when": "gui",
+							"model": {
+								"type": "minecraft:model",
+								"model": "ssbrc:fighter/peach/item/turnip/icon/grin"
+							}
+						}
+					],
+					"fallback": {
+						"type": "minecraft:model",
+						"model": "ssbrc:fighter/peach/item/turnip/model/grin"
+					}
+				}
+			},
+			{
+				"when": "happy",
+				"model": {
+					"type": "minecraft:select",
+					"property": "minecraft:display_context",
+					"cases": [
+						{
+							"when": "gui",
+							"model": {
+								"type": "minecraft:model",
+								"model": "ssbrc:fighter/peach/item/turnip/icon/happy"
+							}
+						}
+					],
+					"fallback": {
+						"type": "minecraft:model",
+						"model": "ssbrc:fighter/peach/item/turnip/model/happy"
+					}
+				}
+			},
+			{
+				"when": "stare",
+				"model": {
+					"type": "minecraft:select",
+					"property": "minecraft:display_context",
+					"cases": [
+						{
+							"when": "gui",
+							"model": {
+								"type": "minecraft:model",
+								"model": "ssbrc:fighter/peach/item/turnip/icon/stare"
+							}
+						}
+					],
+					"fallback": {
+						"type": "minecraft:model",
+						"model": "ssbrc:fighter/peach/item/turnip/model/stare"
+					}
+				}
+			},
+			{
+				"when": "stitch_face",
+				"model": {
+					"type": "minecraft:select",
+					"property": "minecraft:display_context",
+					"cases": [
+						{
+							"when": "gui",
+							"model": {
+								"type": "minecraft:model",
+								"model": "ssbrc:fighter/peach/item/turnip/icon/stitch_face"
+							}
+						}
+					],
+					"fallback": {
+						"type": "minecraft:model",
+						"model": "ssbrc:fighter/peach/item/turnip/model/stitch_face"
+					}
+				}
+			},
+			{
+				"when": "surprised",
+				"model": {
+					"type": "minecraft:select",
+					"property": "minecraft:display_context",
+					"cases": [
+						{
+							"when": "gui",
+							"model": {
+								"type": "minecraft:model",
+								"model": "ssbrc:fighter/peach/item/turnip/icon/surprised"
+							}
+						}
+					],
+					"fallback": {
+						"type": "minecraft:model",
+						"model": "ssbrc:fighter/peach/item/turnip/model/surprised"
+					}
+				}
+			},
+			{
+				"when": "wink",
+				"model": {
+					"type": "minecraft:select",
+					"property": "minecraft:display_context",
+					"cases": [
+						{
+							"when": "gui",
+							"model": {
+								"type": "minecraft:model",
+								"model": "ssbrc:fighter/peach/item/turnip/icon/wink"
+							}
+						}
+					],
+					"fallback": {
+						"type": "minecraft:model",
+						"model": "ssbrc:fighter/peach/item/turnip/model/wink"
+					}
+				}
+			}
+		],
+		"fallback": {
+			"type": "minecraft:model",
+			"model": "ssbrc:fighter/peach/item/turnip/icon"
+		}
+	},
+	"hand_animation_on_swap": false
+}

@@ -44,6 +44,7 @@ scoreboard objectives remove frostbite.timer
 scoreboard objectives remove fuse
 scoreboard objectives remove gigantic
 scoreboard objectives remove health
+scoreboard objectives remove health.prev
 scoreboard objectives remove health_timer
 scoreboard objectives remove hit_count
 scoreboard objectives remove hud

@@ -9,6 +9,13 @@
 					"type": "minecraft:model",
 					"model": "ssbrc:common/pokemon/shiny_baton"
 				}
+			},
+			{
+				"when": "holiday",
+				"model": {
+					"type": "minecraft:model",
+					"model": "ssbrc:fighter/pikachu/item/mega_punch/holiday"
+				}
 			}
 		],
 		"fallback": {

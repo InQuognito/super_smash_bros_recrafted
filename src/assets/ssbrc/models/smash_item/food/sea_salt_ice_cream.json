@@ -1,6 +1,6 @@
 {
 	"parent": "minecraft:item/generated",
 	"textures": {
-		"layer0": "ssbrc:smash_item/sea_salt_ice_cream"
+		"layer0": "ssbrc:smash_item/food/sea_salt_ice_cream"
 	}
 }

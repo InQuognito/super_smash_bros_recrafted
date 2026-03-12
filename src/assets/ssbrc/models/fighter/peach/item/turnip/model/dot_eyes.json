@@ -1,0 +1,6 @@
+{
+	"parent": "ssbrc:fighter/peach/item/turnip/model/parent",
+	"textures": {
+		"face": "ssbrc:fighter/peach/item/turnip/model/dot_eyes"
+	}
+}

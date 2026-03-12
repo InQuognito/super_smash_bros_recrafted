@@ -63,9 +63,6 @@ attribute @s minecraft:armor modifier remove ssbrc:armor_break
 # Rob
 attribute @s minecraft:gravity modifier remove ssbrc:robo_burner
 
-# Ryu
-attribute @s minecraft:attack_damage modifier remove ssbrc:fighter/ryu/satsui_no_hado_rage
-
 # Sonic / Shadow
 attribute @s minecraft:movement_speed modifier remove ssbrc:acceleration
 attribute @s minecraft:movement_speed modifier remove ssbrc:chaos_control
@@ -84,10 +81,6 @@ attribute @s minecraft:fall_damage_multiplier modifier remove ssbrc:meowth
 # Zelda
 attribute @s minecraft:armor modifier remove ssbrc:fighter/zelda/enchant_armor
 attribute @s minecraft:attack_damage modifier remove ssbrc:fighter/zelda/ring_of_risk
-
-# Items
-function ssbrc:smash_item/poison_mushroom/deactivate
-function ssbrc:smash_item/super_mushroom/deactivate
 
 # Stages
 function ssbrc:stage/pac_maze/fruit/fruit/galaxian_flagship/reset

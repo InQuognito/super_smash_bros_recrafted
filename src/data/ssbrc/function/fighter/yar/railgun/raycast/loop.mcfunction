@@ -1,4 +1,4 @@
-particle minecraft:dust{color:[1,.75,0],scale:4.0} ~ ~ ~ 0 0 0 0 5 force @a
+particle minecraft:dust{color: [1,.75,0],scale:4.0} ~ ~ ~ 0 0 0 0 5 force @a
 
 execute unless block ~ ~ ~ #ssbrc:passthrough run scoreboard players add ray_piercing temp 1
 

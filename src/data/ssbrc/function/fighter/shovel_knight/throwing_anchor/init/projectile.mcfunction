@@ -4,7 +4,9 @@ item replace entity @s armor.head with minecraft:stick[ \
 	minecraft:item_model = "ssbrc:fighter/shovel_knight/throwing_anchor", \
 ]
 
-data merge entity @s {Small:1b}
+data merge entity @s { \
+	Small: 1b, \
+}
 
 data modify entity @s Rotation set from entity @a[tag=self,limit=1] Rotation
 

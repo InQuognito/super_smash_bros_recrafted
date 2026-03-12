@@ -11,6 +11,13 @@
 				}
 			},
 			{
+				"when": "candy_cane",
+				"model": {
+					"type": "minecraft:model",
+					"model": "ssbrc:smash_item/food/candy_cane"
+				}
+			},
+			{
 				"when": "chili_dog",
 				"model": {
 					"type": "minecraft:model",

@@ -658,10 +658,10 @@
 									}
 								},
 								{
-									"when": "shadow",
+									"when": "battle_bond",
 									"model": {
 										"type": "minecraft:model",
-										"model": "ssbrc:fighter/greninja/skin/shadow"
+										"model": "ssbrc:fighter/greninja/skin/battle_bond"
 									}
 								}
 							],
@@ -784,10 +784,17 @@
 										"index": 1,
 										"cases": [
 											{
-												"when": "gold",
+												"when": "frosted",
 												"model": {
 													"type": "minecraft:model",
-													"model": "ssbrc:fighter/ice_climbers/skin/gold/popo"
+													"model": "ssbrc:fighter/ice_climbers/skin/frosted/popo"
+												}
+											},
+											{
+												"when": "polar_parka",
+												"model": {
+													"type": "minecraft:model",
+													"model": "ssbrc:fighter/ice_climbers/skin/polar_parka/popo"
 												}
 											}
 										],
@@ -804,10 +811,17 @@
 								"index": 1,
 								"cases": [
 									{
-										"when": "gold",
+										"when": "frosted",
 										"model": {
 											"type": "minecraft:model",
-											"model": "ssbrc:fighter/ice_climbers/skin/gold/nana"
+											"model": "ssbrc:fighter/ice_climbers/skin/frosted/nana"
+										}
+									},
+									{
+										"when": "polar_parka",
+										"model": {
+											"type": "minecraft:model",
+											"model": "ssbrc:fighter/ice_climbers/skin/polar_parka/nana"
 										}
 									}
 								],
@@ -1299,13 +1313,6 @@
 									"model": {
 										"type": "minecraft:model",
 										"model": "ssbrc:fighter/lucario/skin/shiny"
-									}
-								},
-								{
-									"when": "ditto",
-									"model": {
-										"type": "minecraft:model",
-										"model": "ssbrc:fighter/lucario/skin/ditto"
 									}
 								},
 								{
@@ -1908,13 +1915,6 @@
 									"model": {
 										"type": "minecraft:model",
 										"model": "ssbrc:fighter/pit/skin/retro"
-									}
-								},
-								{
-									"when": "revived",
-									"model": {
-										"type": "minecraft:model",
-										"model": "ssbrc:fighter/pit/skin/revived"
 									}
 								},
 								{
@@ -3278,16 +3278,16 @@
 										"index": 2,
 										"cases": [
 											{
-												"when": "male",
+												"when": "female",
 												"model": {
 													"type": "minecraft:model",
-													"model": "ssbrc:fighter/villager/skin/retro/male"
+													"model": "ssbrc:fighter/villager/skin/retro/female"
 												}
 											}
 										],
 										"fallback": {
 											"type": "minecraft:model",
-											"model": "ssbrc:fighter/villager/skin/retro/female"
+											"model": "ssbrc:fighter/villager/skin/retro/male"
 										}
 									}
 								},
@@ -3299,16 +3299,16 @@
 										"index": 2,
 										"cases": [
 											{
-												"when": "male",
+												"when": "female",
 												"model": {
 													"type": "minecraft:model",
-													"model": "ssbrc:fighter/villager/skin/new_leaf/male"
+													"model": "ssbrc:fighter/villager/skin/new_leaf/female"
 												}
 											}
 										],
 										"fallback": {
 											"type": "minecraft:model",
-											"model": "ssbrc:fighter/villager/skin/new_leaf/female"
+											"model": "ssbrc:fighter/villager/skin/new_leaf/male"
 										}
 									}
 								},
@@ -3320,16 +3320,16 @@
 										"index": 2,
 										"cases": [
 											{
-												"when": "male",
+												"when": "female",
 												"model": {
 													"type": "minecraft:model",
-													"model": "ssbrc:fighter/villager/skin/mario_kart/male"
+													"model": "ssbrc:fighter/villager/skin/mario_kart/female"
 												}
 											}
 										],
 										"fallback": {
 											"type": "minecraft:model",
-											"model": "ssbrc:fighter/villager/skin/mario_kart/female"
+											"model": "ssbrc:fighter/villager/skin/mario_kart/male"
 										}
 									}
 								}
@@ -3340,16 +3340,16 @@
 								"index": 2,
 								"cases": [
 									{
-										"when": "male",
+										"when": "female",
 										"model": {
 											"type": "minecraft:model",
-											"model": "ssbrc:fighter/villager/skin/default/male"
+											"model": "ssbrc:fighter/villager/skin/default/female"
 										}
 									}
 								],
 								"fallback": {
 									"type": "minecraft:model",
-									"model": "ssbrc:fighter/villager/skin/default/female"
+									"model": "ssbrc:fighter/villager/skin/default/male"
 								}
 							}
 						}

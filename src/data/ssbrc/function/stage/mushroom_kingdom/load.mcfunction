@@ -5,7 +5,7 @@ summon minecraft:marker -206.5 32.5 -130.5 {Tags:["door","static_object"],data:{
 execute as @e[type=minecraft:marker,tag=door] at @s run function ssbrc:logic/stage/doors/close with entity @s data
 
 # Yoshi Egg
-summon minecraft:item_display -218.5 28.25 -144.5 {Rotation:[15f,0f],item:{id:"minecraft:stick",components:{"minecraft:item_model":"ssbrc:fighter/yoshi/item/egg/default"}}}
+summon minecraft:item_display -218.5 28.25 -144.5 {Rotation:[15f,0f],item:{id:"minecraft:stick",components:{"minecraft:item_model":"ssbrc:fighter/yoshi/egg"}}}
 
 # Warp Zone
 summon minecraft:text_display -249.5 28 -154.5 {Rotation:[-90f,0f],text:[{translate: "ssbrc.stage.mushroom_kingdom.warp_zone.1",font: "ssbrc:mario"}],line_width:500,background:0, alignment: "center"}

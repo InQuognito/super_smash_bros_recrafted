@@ -17,7 +17,7 @@ tellraw @s [ \
 	{ \
 		translate: "ssbrc.fighter.snake.psg1", \
 		color: "green", \
-		"click_event": { \
+		click_event: { \
 			action: "run_command", \
 			"command": "trigger fighter_trigger set 1", \
 		}, \
@@ -69,7 +69,7 @@ tellraw @s [ \
 	}, \
 	{ \
 		score: { \
-			name: "snake.psg1.weight", \
+			name: "#snake.psg1.weight", \
 			objective: "const", \
 		}, \
 		color: "red", \
@@ -86,7 +86,7 @@ tellraw @s [ \
 	{ \
 		translate: "ssbrc.fighter.snake.famas", \
 		color: "green", \
-		"click_event": { \
+		click_event: { \
 			action: "run_command", \
 			"command": "trigger fighter_trigger set 2", \
 		}, \
@@ -146,7 +146,7 @@ tellraw @s [ \
 	}, \
 	{ \
 		score: { \
-			name: "snake.famas.weight", \
+			name: "#snake.famas.weight", \
 			objective: "const", \
 		}, \
 		color: "red", \
@@ -155,12 +155,7 @@ tellraw @s [ \
 		translate: "ssbrc.info.weight", \
 		color: "gray", \
 	}, \
-	")\n   == ", \
-	{ \
-		translate: "ssbrc.fighter.snake.loadout.secondary", \
-		color: "yellow", \
-	}, \
-	" ==\n", \
+	")\n", \
 	{ \
 		text: "[ ", \
 		color: "dark_green", \
@@ -168,7 +163,7 @@ tellraw @s [ \
 	{ \
 		translate: "ssbrc.fighter.snake.m870_custom", \
 		color: "green", \
-		"click_event": { \
+		click_event: { \
 			action: "run_command", \
 			"command": "trigger fighter_trigger set 3", \
 		}, \
@@ -228,7 +223,7 @@ tellraw @s [ \
 	}, \
 	{ \
 		score: { \
-			name: "snake.m870_custom.weight", \
+			name: "#snake.m870_custom.weight", \
 			objective: "const", \
 		}, \
 		color: "red", \
@@ -245,7 +240,7 @@ tellraw @s [ \
 	{ \
 		translate: "ssbrc.fighter.snake.socom", \
 		color: "green", \
-		"click_event": { \
+		click_event: { \
 			action: "run_command", \
 			"command": "trigger fighter_trigger set 4", \
 		}, \
@@ -305,7 +300,7 @@ tellraw @s [ \
 	}, \
 	{ \
 		score: { \
-			name: "snake.socom.weight", \
+			name: "#snake.socom.weight", \
 			objective: "const", \
 		}, \
 		color: "red", \
@@ -327,7 +322,7 @@ tellraw @s [ \
 	{ \
 		translate: "ssbrc.fighter.snake.claymore", \
 		color: "green", \
-		"click_event": { \
+		click_event: { \
 			action: "run_command", \
 			"command": "trigger fighter_trigger set 5", \
 		}, \
@@ -348,7 +343,7 @@ tellraw @s [ \
 	}, \
 	{ \
 		score: { \
-			name: "snake.claymore.weight", \
+			name: "#snake.claymore.weight", \
 			objective: "const", \
 		}, \
 		color: "red", \
@@ -365,7 +360,7 @@ tellraw @s [ \
 	{ \
 		translate: "ssbrc.fighter.snake.smoke_grenade", \
 		color: "green", \
-		"click_event": { \
+		click_event: { \
 			action: "run_command", \
 			"command": "trigger fighter_trigger set 6", \
 		}, \
@@ -386,7 +381,7 @@ tellraw @s [ \
 	}, \
 	{ \
 		score: { \
-			name: "snake.smoke_grenade.weight", \
+			name: "#snake.smoke_grenade.weight", \
 			objective: "const", \
 		}, \
 		color: "red", \
@@ -409,7 +404,7 @@ tellraw @s [ \
 	"/", \
 	{ \
 		score: { \
-			name: "snake.weight.max", \
+			name: "#snake.weight.max", \
 			objective: "const", \
 		}, \
 		color: "red", \

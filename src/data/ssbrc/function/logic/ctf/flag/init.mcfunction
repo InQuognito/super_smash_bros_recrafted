@@ -1,6 +1,6 @@
-rotate @s ~ 0
-
 tag @s add flag
+
+rotate @s facing 0 ~ 0
 
 $team join team$(team)
 $scoreboard players set @s team $(team)

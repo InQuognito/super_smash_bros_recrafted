@@ -1,0 +1,10 @@
+{
+	"layers": {
+		"humanoid": [
+			{ "texture": "ssbrc:fighter/ice_climbers/frosted/nana" }
+		],
+		"humanoid_leggings": [
+			{ "texture": "ssbrc:fighter/ice_climbers/frosted/nana" }
+		]
+	}
+}

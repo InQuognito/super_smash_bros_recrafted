@@ -1,6 +1,6 @@
 {
 	"parent": "minecraft:item/generated",
 	"textures": {
-		"layer0": "ssbrc:smash_item/smoked_tail_curry"
+		"layer0": "ssbrc:smash_item/food/smoked_tail_curry"
 	}
 }

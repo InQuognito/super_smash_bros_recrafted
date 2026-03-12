@@ -16,13 +16,6 @@
 					"type": "minecraft:model",
 					"model": "ssbrc:fighter/sonic/item/sonic_punch/hylian_tunic"
 				}
-			},
-			{
-				"when": "scarlet_speedster",
-				"model": {
-					"type": "minecraft:model",
-					"model": "ssbrc:fighter/sonic/item/sonic_punch/scarlet_speedster"
-				}
 			}
 		],
 		"fallback": {

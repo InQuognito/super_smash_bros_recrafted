@@ -231,10 +231,10 @@ fighters = {
 					'color': 'gold'
 				}
 			},
-			'trowel': {
+			'turnip': {
 				'default': {
-					'name': 'ssbrc.fighter.peach.trowel',
-					'color': 'gray'
+					'name': 'ssbrc.fighter.peach.turnip',
+					'color': 'green'
 				}
 			}
 		}
@@ -1808,10 +1808,6 @@ fighters = {
 				'rarity': 'legendary',
 				'color': 'yellow'
 			},
-			'ditto': {
-				'rarity': 'common',
-				'color': 'light_purple'
-			},
 			'shadow': {
 				'rarity': 'common',
 				'color': 'dark_gray'
@@ -1903,13 +1899,13 @@ fighters = {
 				'rarity': 'legendary',
 				'color': 'dark_gray'
 			},
-			'ditto': {
-				'rarity': 'common',
-				'color': 'light_purple'
-			},
 			'shadow': {
-				'rarity': 'common',
+				'rarity': 'uncommon',
 				'color': 'dark_gray'
+			},
+			'battle_bond': {
+				'rarity': 'uncommon',
+				'color': 'red'
 			},
 			'hero_style': {
 				'rarity': 'uncommon',
@@ -2909,10 +2905,6 @@ fighters = {
 			'hylian_tunic': {
 				'rarity': 'uncommon',
 				'color': 'green'
-			},
-			'scarlet_speedster': {
-				'rarity': 'rare',
-				'color': 'red'
 			}
 		},
 		'forms': [

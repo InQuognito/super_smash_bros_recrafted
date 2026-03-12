@@ -1,6 +1,6 @@
 {
 	"parent": "minecraft:item/generated",
 	"textures": {
-		"layer0": "ssbrc:smash_item/eggplant"
+		"layer0": "ssbrc:smash_item/food/eggplant"
 	}
 }

@@ -41,7 +41,7 @@ item modify entity @s contents [ \
 	}, \
 ]
 
-execute store result score #random temp run random value 1..16
+function ssbrc:smash_item/food/choose
 
 execute if score #random temp matches 1 run return run item modify entity @s contents { \
 	function: "minecraft:set_custom_model_data", \
@@ -188,6 +188,16 @@ execute if score #random temp matches 15 run return run item modify entity @s co
 	strings: { \
 		values: [ \
 			"yoshi_berry", \
+		], \
+		mode: "replace_all", \
+	}, \
+}
+
+execute if score #random temp matches 16 run return run item modify entity @s contents { \
+	function: "minecraft:set_custom_model_data", \
+	strings: { \
+		values: [ \
+			"candy_cane", \
 		], \
 		mode: "replace_all", \
 	}, \

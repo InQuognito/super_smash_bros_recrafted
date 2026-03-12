@@ -1,6 +1,8 @@
 function ssbrc:logic/fighter/get_kill
 
-#execute if items entity @p[scores={flag.dead=1..}] armor.body *[minecraft:custom_data~{temp: {fighter: {fighter: "pokemon_trainer", form: "ivysaur"}}}] if score @p[tag=ivysaur,scores={flag.dead=1..}] id = @s leech_seed run function ssbrc:fighter/pokemon_trainer/ivysaur/leech_seed/reset
+scoreboard players operation #leech_seed temp = @s leech_seed
+execute as @p[scores={flag.dead=1..}] if items entity @s armor.body *[minecraft:custom_data~{temp: {fighter: {fighter: "pokemon_trainer", form: "ivysaur"}}}] if score @s id = #leech_seed temp run scoreboard players set #opponent_is_ivysaur temp 1
+execute if score #opponent_is_ivysaur temp matches 1 run function ssbrc:fighter/pokemon_trainer/ivysaur/leech_seed/reset
 
 execute if items entity @s[tag=weapon_broken] armor.body *[minecraft:custom_data~{temp: {fighter: {fighter: "byleth"}}}] run return run function ssbrc:fighter/byleth/get_kill/player
 execute if items entity @s armor.body *[minecraft:custom_data~{temp: {fighter: {fighter: "ganondorf"}}}] run return run function ssbrc:fighter/ganondorf/stalfos/activate

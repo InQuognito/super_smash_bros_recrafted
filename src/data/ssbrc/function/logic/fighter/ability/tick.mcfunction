@@ -87,7 +87,7 @@ execute if entity @s[tag=pk_fire,tag=exploded] run return run function ssbrc:fig
 execute if entity @s[tag=pk_flash] run return run function ssbrc:fighter/ness/pk_flash/tick
 
 # Peach
-execute if entity @s[tag=turnip] run return run function ssbrc:fighter/peach/trowel/tick
+execute if entity @s[tag=turnip] run return run function ssbrc:fighter/peach/turnip/tick
 
 # Pikachu
 execute if entity @s[tag=thunder_jolt] run return run function ssbrc:fighter/pikachu/thunder_jolt/tick
