@@ -1,6 +1,6 @@
 particle minecraft:flame ~ ~ ~ .05 .05 .05 .01 5 force @a
 particle minecraft:smoke ~ ~ ~ 0 0 0 .05 20 normal @a
-particle minecraft:dust_color_transition{from_color: [1,.5,0],to_color: [1,1,1],scale:.75} ~ ~ ~ .1 .1 .1 .01 25 normal @a
+particle minecraft:dust_color_transition{from_color: [1,.5,0], to_color: [1,1,1],scale:.75} ~ ~ ~ .1 .1 .1 .01 25 normal @a
 
 teleport @s ^ ^ ^.5
 

@@ -1,4 +1,4 @@
-particle minecraft:dust_color_transition{from_color: [.4,.9,1],to_color: [1,1,1],scale:.75} ~ ~ ~ .05 .05 .05 0 20 force @a
+particle minecraft:dust_color_transition{from_color: [.4,.9,1], to_color: [1,1,1],scale:.75} ~ ~ ~ .05 .05 .05 0 20 force @a
 particle minecraft:snowflake ~ ~ ~ 0 0 0 0 1 normal @a
 
 execute positioned ~-.375 ~-.375 ~-.375 as @e[tag=!self,predicate=ssbrc:target,dx=0] positioned ~-.25 ~-.25 ~-.25 if entity @s[dx=0] run function ssbrc:fighter/luigi/ice_ball/hit

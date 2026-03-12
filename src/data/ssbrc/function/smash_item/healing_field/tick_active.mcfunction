@@ -1,7 +1,7 @@
 execute unless entity @s[tag=active] run playsound ssbrc:smash_item.healing_field.activate hostile @a
 tag @s add active
 
-particle minecraft:dust_color_transition{from_color: [.25,1,.25],to_color: [.75,1,.75],scale: .25} ~ ~ ~ .5 .5 .5 0 50 force @a
+particle minecraft:dust_color_transition{from_color: [.25,1,.25], to_color: [.75,1,.75], scale: .25} ~ ~ ~ .5 .5 .5 0 50 force @a
 
 scoreboard players operation #cache temp = @s temp
 scoreboard players operation #cache temp %= #20 const

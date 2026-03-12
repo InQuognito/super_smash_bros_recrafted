@@ -1,4 +1,4 @@
-particle minecraft:dust_color_transition{from_color: [1,0,0],to_color: [1,.9,0],scale:3} ~ ~ ~ .15 .15 .15 0 3 force @a
+particle minecraft:dust_color_transition{from_color: [1,0,0], to_color: [1,.9,0],scale:3} ~ ~ ~ .15 .15 .15 0 3 force @a
 
 scoreboard players add rings temp 1
 

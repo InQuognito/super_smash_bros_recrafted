@@ -1,0 +1,10 @@
+{
+	"layers": {
+		"humanoid": [
+			{ "texture": "ssbrc:fighter/samus/power_suit_dread" }
+		],
+		"humanoid_leggings": [
+			{ "texture": "ssbrc:fighter/samus/power_suit_dread" }
+		]
+	}
+}

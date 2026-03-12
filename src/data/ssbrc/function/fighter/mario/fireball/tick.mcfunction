@@ -1,6 +1,6 @@
 particle minecraft:flame ~ ~ ~ .05 .05 .05 0 2 force @a
 particle minecraft:flame ^ ^ ^.25 .05 .05 .05 0 2 normal @a
-particle minecraft:dust_color_transition{from_color: [1,.5,0],to_color: [1,1,1],scale:.75} ^ ^ ^-.1 .075 .075 .075 0 10 normal @a
+particle minecraft:dust_color_transition{from_color: [1,.5,0], to_color: [1,1,1],scale:.75} ^ ^ ^-.1 .075 .075 .075 0 10 normal @a
 
 execute positioned ~-.375 ~-.375 ~-.375 as @e[tag=!self,predicate=ssbrc:target,dx=0] positioned ~-.25 ~-.25 ~-.25 if entity @s[dx=0] run function ssbrc:logic/damage/fire {amount: 4, burning: 30, type: "generic", kb_resist: 0, source: " by @a[tag=self,limit=1]"}
 execute if score #entity_hit temp matches 1 run return run kill @s

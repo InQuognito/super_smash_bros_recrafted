@@ -1,7 +1,7 @@
 particle minecraft:flame ~ ~2.5 ~ .15 .75 .15 .01 50 force @a
 particle minecraft:smoke ~ ~2 ~ .15 .5 .15 0 75 normal @a
 particle minecraft:campfire_cosy_smoke ~ ~ ~ .1 .15 .1 0 5 normal @a
-particle minecraft:dust_color_transition{from_color: [1,.5,0],to_color: [1,1,1],scale:.75} ~ ~1 ~ .2 .6 .2 .01 25 normal @a
+particle minecraft:dust_color_transition{from_color: [1,.5,0], to_color: [1,1,1],scale:.75} ~ ~1 ~ .2 .6 .2 .01 25 normal @a
 
 execute positioned ~ ~.2 ~ unless block ^ ^ ^.1 #ssbrc:passthrough run kill @s
 

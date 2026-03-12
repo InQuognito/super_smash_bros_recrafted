@@ -1,4 +1,4 @@
-particle minecraft:dust_color_transition{from_color: [0,1,0],to_color: [.75,1,0.75],scale: 1} ~ ~ ~ .2 .2 .2 0 50 force @a
+particle minecraft:dust_color_transition{from_color: [0,1,0], to_color: [.75,1,0.75], scale: 1} ~ ~ ~ .2 .2 .2 0 50 force @a
 particle minecraft:sneeze ~ ~ ~ .2 .2 .2 0 50 normal @a
 particle minecraft:composter ~ ~ ~ .25 .25 .25 0 25 normal @a
 

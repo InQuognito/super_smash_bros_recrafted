@@ -1,4 +1,4 @@
-particle minecraft:dust_color_transition{from_color: [.4,.9,1],to_color: [1,1,1],scale:.75} ~ ~1 ~ .5 .5 .5 0 10 normal @a
+particle minecraft:dust_color_transition{from_color: [.4,.9,1], to_color: [1,1,1],scale:.75} ~ ~1 ~ .5 .5 .5 0 10 normal @a
 particle minecraft:snowflake ~ ~1 ~ .5 0 .5 0 3 normal @a
 execute facing ~ ~-1 ~ run particle minecraft:snowflake ^ ^ ^-2 ^ ^ ^-1000000 .0000005 0 force @a
 execute facing ~.1 ~-1 ~ run particle minecraft:snowflake ^ ^ ^-2 ^ ^ ^-1000000 .0000005 0 force @a

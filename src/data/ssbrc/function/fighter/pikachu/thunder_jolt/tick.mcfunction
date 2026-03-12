@@ -1,4 +1,4 @@
-particle minecraft:dust_color_transition{from_color: [.5,1,1],to_color: [1,1,1],scale: 1.5} ~ ~ ~ .15 .15 .15 0 10 force @a
+particle minecraft:dust_color_transition{from_color: [.5,1,1], to_color: [1,1,1], scale: 1.5} ~ ~ ~ .15 .15 .15 0 10 force @a
 particle minecraft:electric_spark ~ ~ ~ .2 .2 .2 .05 5 normal @a
 
 execute positioned ~-.3 ~-.3 ~-.3 as @e[tag=!self,predicate=ssbrc:target,dx=0] positioned ~-.4 ~ ~-.4 if entity @s[dx=0] run function ssbrc:logic/damage/generic {amount: 6, type: "generic", kb_resist: 0, source: " by @a[tag=self,limit=1]"}

@@ -50,7 +50,8 @@ execute if score @s smash_item.poison_mushroom.timer matches 1.. run function ss
 execute if score @s smash_item.super_mushroom.timer matches 1.. run function ssbrc:smash_item/super_mushroom/tick
 
 # Fighter Effects
-execute if items entity @s armor.body *[minecraft:custom_data~{temp: {fighter: {skin: "gold"}}}] run function ssbrc:logic/fighter/gold_trail
+execute if items entity @s armor.body *[minecraft:custom_data~{temp: {fighter: {skin: "gold"}}}] positioned ~ ~.75 ~ run function ssbrc:logic/fighter/trail/gold
+execute if items entity @s armor.body *[minecraft:custom_data~{temp: {fighter: {skin: "shadow"}}}] positioned ~ ~.75 ~ run function ssbrc:logic/fighter/trail/shadow
 scoreboard players reset @s flag.walking
 
 execute if score @s petrified matches 1.. run function ssbrc:fighter/altered_beast/werebear/petrifying_breath/tick_target
