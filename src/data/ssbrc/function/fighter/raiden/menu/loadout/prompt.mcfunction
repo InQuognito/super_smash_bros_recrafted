@@ -265,7 +265,7 @@ tellraw @s [ \
 		}, \
 	}, \
 	{ \
-		text: " ] x2", \
+		text: " ] x3", \
 		color: "dark_green", \
 	}, \
 	{ \
@@ -312,7 +312,7 @@ tellraw @s [ \
 	}, \
 	{ \
 		score: { \
-			name: "#raiden.guard_nanos.weight", \
+			name: "#raiden.nano.weight", \
 			objective: "const", \
 		}, \
 		color: "red", \
@@ -346,7 +346,7 @@ tellraw @s [ \
 	}, \
 	{ \
 		score: { \
-			name: "#raiden.zandatsu_nanos.weight", \
+			name: "#raiden.nano.weight", \
 			objective: "const", \
 		}, \
 		color: "red", \
@@ -380,7 +380,7 @@ tellraw @s [ \
 	}, \
 	{ \
 		score: { \
-			name: "#raiden.focus_nanos.weight", \
+			name: "#raiden.nano.weight", \
 			objective: "const", \
 		}, \
 		color: "red", \

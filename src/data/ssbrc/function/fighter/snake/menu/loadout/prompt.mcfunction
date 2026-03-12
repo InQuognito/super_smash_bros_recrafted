@@ -161,6 +161,75 @@ tellraw @s [ \
 		color: "dark_green", \
 	}, \
 	{ \
+		translate: "ssbrc.fighter.snake.nikita", \
+		color: "green", \
+		click_event: { \
+			action: "run_command", \
+			"command": "trigger fighter_trigger set 3", \
+		}, \
+		hover_event: { \
+			action: "show_text", \
+			value: [ \
+				"", \
+				{ \
+					translate: "ssbrc.fighter.snake.nikita.description", \
+					color: "gray", \
+				}, \
+				"\n\nDMG - ", \
+				{ \
+					text: "\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae", \
+					color: "green", \
+				}, \
+				"\nSPD - ", \
+				{ \
+					text: "\u25ae", \
+					color: "red", \
+				}, \
+				{ \
+					text: "\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae", \
+					color: "gray", \
+				}, \
+				"\nACC - ", \
+				{ \
+					text: "\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae", \
+					color: "green", \
+				}, \
+				"\nAMM - ", \
+				{ \
+					text: "\u25ae\u25ae", \
+					color: "green", \
+				}, \
+				{ \
+					text: "\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae\u25ae", \
+					color: "gray", \
+				}, \
+			] \
+		}, \
+	}, \
+	{ \
+		text: " ]", \
+		color: "dark_green", \
+	}, \
+	{ \
+		translate: "ssbrc.fighter.snake.nikita.type", \
+	}, \
+	{ \
+		score: { \
+			name: "#snake.nikita.weight", \
+			objective: "const", \
+		}, \
+		color: "red", \
+	}, \
+	{ \
+		translate: "ssbrc.info.weight", \
+		color: "gray", \
+	}, \
+	")\n", \
+	{ \
+		text: "[ ", \
+		color: "dark_green", \
+	}, \
+	{ \
 		translate: "ssbrc.fighter.snake.m870_custom", \
 		color: "green", \
 		click_event: { \
@@ -358,7 +427,7 @@ tellraw @s [ \
 		color: "dark_green", \
 	}, \
 	{ \
-		translate: "ssbrc.fighter.snake.smoke_grenade", \
+		translate: "ssbrc.fighter.snake.cardboard_box", \
 		color: "green", \
 		click_event: { \
 			action: "run_command", \
@@ -367,7 +436,45 @@ tellraw @s [ \
 		hover_event: { \
 			action: "show_text", \
 			"value": { \
-				translate: "ssbrc.fighter.snake.smoke_grenade.description", \
+				translate: "ssbrc.fighter.snake.cardboard_box.description", \
+				color: "gray", \
+			}, \
+		}, \
+	}, \
+	{ \
+		text: " ] x3", \
+		color: "dark_green", \
+	}, \
+	{ \
+		translate: "ssbrc.fighter.snake.cardboard_box.type", \
+	}, \
+	{ \
+		score: { \
+			name: "#snake.cardboard_box.weight", \
+			objective: "const", \
+		}, \
+		color: "red", \
+	}, \
+	{ \
+		translate: "ssbrc.info.weight", \
+		color: "gray", \
+	}, \
+	")\n", \
+	{ \
+		text: "[ ", \
+		color: "dark_green", \
+	}, \
+	{ \
+		translate: "ssbrc.fighter.snake.supply_marker", \
+		color: "green", \
+		click_event: { \
+			action: "run_command", \
+			"command": "trigger fighter_trigger set 5", \
+		}, \
+		hover_event: { \
+			action: "show_text", \
+			"value": { \
+				translate: "ssbrc.fighter.snake.supply_marker.description", \
 				color: "gray", \
 			}, \
 		}, \
@@ -377,11 +484,11 @@ tellraw @s [ \
 		color: "dark_green", \
 	}, \
 	{ \
-		translate: "ssbrc.fighter.snake.smoke_grenade.type", \
+		translate: "ssbrc.fighter.snake.supply_marker.type", \
 	}, \
 	{ \
 		score: { \
-			name: "#snake.smoke_grenade.weight", \
+			name: "#snake.supply_marker.weight", \
 			objective: "const", \
 		}, \
 		color: "red", \

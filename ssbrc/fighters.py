@@ -379,15 +379,15 @@ fighters = {
 		'default': False,
 		'skins': {
 			'gold': {},
-			'kaptain_k_rool': {
+			'kaptain': {
 				'rarity': 'rare',
 				'color': 'gold'
 			},
-			'k_roolenstein': {
+			'baron': {
 				'rarity': 'rare',
 				'color': 'white'
 			},
-			'krusha_k_rool': {
+			'krusha': {
 				'rarity': 'rare',
 				'color': 'blue'
 			}

@@ -11,7 +11,7 @@ execute if score @s point < #mario.fireball const run scoreboard players operati
 execute if score @s point > #mario.fireball const run scoreboard players operation @s point = #mario.fireball const
 execute if score @s point < #mario.fireball const run scoreboard players remove @s slope 20
 
-execute if entity @s[scores={point=1..}] unless block ~ ~-.6 ~ #ssbrc:passthrough run function ssbrc:fighter/mario/fireball/bounce
+execute if score @s point matches 1.. unless block ~ ~-.6 ~ #ssbrc:passthrough run function ssbrc:fighter/mario/fireball/bounce
 
 execute rotated as @s run teleport @s ^ ^ ^.4
 

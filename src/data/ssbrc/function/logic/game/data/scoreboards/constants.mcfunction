@@ -62,6 +62,8 @@ scoreboard players set #raiden.c4.weight const 3
 scoreboard players set #raiden.c4.scavenger const 3
 scoreboard players set #raiden.smoke_grenade.weight const 2
 scoreboard players set #raiden.smoke_grenade.scavenger const 2
+scoreboard players set #raiden.cardboard_box.weight const 1
+scoreboard players set #raiden.cardboard_box.scavenger const 2
 scoreboard players set #raiden.nano.weight const 3
 
 scoreboard players set #rob.fuel const 200
@@ -106,8 +108,9 @@ scoreboard players set #snake.socom.weight const 3
 scoreboard players set #snake.socom.scavenger const 2
 scoreboard players set #snake.claymore.weight const 2
 scoreboard players set #snake.claymore.scavenger const 2
-scoreboard players set #snake.smoke_grenade.weight const 2
-scoreboard players set #snake.smoke_grenade.scavenger const 2
+scoreboard players set #snake.cardboard_box.weight const 1
+scoreboard players set #snake.cardboard_box.scavenger const 2
+scoreboard players set #snake.supply_marker.weight const 5
 
 scoreboard players set #yar.drone.health.cushion const 1024
 scoreboard players operation #yar.drone.health.threshold const = #yar.drone.health.cushion const
