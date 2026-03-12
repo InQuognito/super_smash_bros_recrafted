@@ -2495,7 +2495,20 @@ fighters = {
 			'male'
 		],
 		'items': {
+			'areadbhar': {
+				'type': 'weapon',
+				'stats': {
+					'attack_damage': 4,
+					'attack_speed': 1,
+					'max_reach': 3.5,
+				},
+				'default': {
+					'name': 'ssbrc.fighter.byleth.areadbhar',
+					'color': 'red'
+				}
+			},
 			'steel_bow': {
+				'type': 'null',
 				'default': {
 					'name': 'ssbrc.fighter.byleth.steel_bow',
 					'color': 'gray'
@@ -2521,6 +2534,11 @@ fighters = {
 				}
 			},
 			'steel_sword': {
+				'type': 'weapon',
+				'stats': {
+					'attack_damage': 3,
+					'attack_speed': 2.5
+				},
 				'default': {
 					'name': 'ssbrc.fighter.byleth.steel_sword',
 					'color': 'gray'

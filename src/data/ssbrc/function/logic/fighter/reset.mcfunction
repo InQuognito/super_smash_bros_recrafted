@@ -87,6 +87,9 @@ tag @s remove guard_nanos
 tag @s remove throwing_knives
 tag @s remove zandatsu_nanos
 
+# Shadow
+tag @s remove chaos_boost
+
 # Shovel Knight
 tag @s remove phase_locket
 tag @s remove war_horn.active

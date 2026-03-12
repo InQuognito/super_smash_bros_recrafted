@@ -9,7 +9,7 @@ scoreboard objectives remove charge.2
 scoreboard objectives remove charge.3
 scoreboard objectives remove charge.4
 scoreboard objectives remove charge.output
-scoreboard objectives remove charge.step
+scoreboard objectives remove charge.storage
 scoreboard objectives remove combo.count
 scoreboard objectives remove combo.duration
 scoreboard objectives remove const

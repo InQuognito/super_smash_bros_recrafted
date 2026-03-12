@@ -9,7 +9,7 @@ scoreboard objectives add charge.2 dummy
 scoreboard objectives add charge.3 dummy
 scoreboard objectives add charge.4 dummy
 scoreboard objectives add charge.output dummy
-scoreboard objectives add charge.step dummy
+scoreboard objectives add charge.storage dummy
 scoreboard objectives add combo.count dummy
 scoreboard objectives add combo.duration dummy
 scoreboard objectives add const dummy
