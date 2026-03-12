@@ -41,6 +41,7 @@ item modify entity @s contents [ \
 		function: "minecraft:set_custom_data", \
 		tag: { \
 			item: "steel_diver", \
+			group: "smash_item", \
 		}, \
 	}, \
 ]

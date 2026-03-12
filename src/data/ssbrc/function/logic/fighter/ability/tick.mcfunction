@@ -202,4 +202,5 @@ execute if entity @s[tag=item.green_shell] run return run function ssbrc:smash_i
 execute if entity @s[tag=item.healing_field] run return run function ssbrc:smash_item/healing_field/tick
 execute if entity @s[tag=item.motion_sensor_bomb] run return run function ssbrc:smash_item/motion_sensor_bomb/tick
 execute if entity @s[tag=item.ray_gun] run return run function ssbrc:smash_item/ray_gun/tick
+execute if entity @s[tag=item.steel_diver] run return run function ssbrc:smash_item/steel_diver/tick
 execute if entity @s[tag=item.team_healer] run return run function ssbrc:smash_item/team_healer/tick

@@ -42,6 +42,7 @@ item modify entity @s contents [ \
 		function: "minecraft:set_custom_data", \
 		tag: { \
 			item: "team_healer", \
+			group: "smash_item", \
 		}, \
 	}, \
 ]

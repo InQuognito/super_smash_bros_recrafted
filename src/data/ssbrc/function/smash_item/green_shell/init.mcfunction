@@ -40,6 +40,7 @@ item modify entity @s contents [ \
 		function: "minecraft:set_custom_data", \
 		tag: { \
 			item: "green_shell", \
+			group: "smash_item", \
 		}, \
 	}, \
 ]

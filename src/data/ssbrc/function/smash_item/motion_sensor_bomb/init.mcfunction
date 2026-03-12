@@ -40,6 +40,7 @@ item modify entity @s contents [ \
 		function: "minecraft:set_custom_data", \
 		tag: { \
 			item: "motion_sensor_bomb", \
+			group: "smash_item", \
 		}, \
 	}, \
 ]

@@ -59,6 +59,7 @@ item modify entity @s contents [ \
 		function: "minecraft:set_custom_data", \
 		tag: { \
 			item: "killing_edge", \
+			group: "smash_item", \
 			"active": "false", \
 		}, \
 	}, \
