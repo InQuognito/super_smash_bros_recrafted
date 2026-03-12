@@ -1,7 +1,6 @@
 {
 	"textures": {
 		"particle": "ssbrc:miscellaneous/empty",
-		"base": "ssbrc:fighter/shovel_knight/skin/default"
 	},
 	"elements": [
 		{
@@ -251,8 +250,7 @@
 	],
 	"display": {
 		"gui": {
-			"rotation": [30, -135, 0],
-			"translation": [0, 2.5, 0]
+			"rotation": [30, -135, 0]
 		},
 		"head": {
 			"scale": [1.85, 1.85, 1.85]

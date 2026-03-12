@@ -2598,7 +2598,7 @@
 												},
 												{
 													"type": "minecraft:model",
-													"model": "ssbrc:fighter/shovel_knight/skin/accessory/horns/conjurers_coat"
+													"model": "ssbrc:fighter/shovel_knight/skin/accessory/horns/default"
 												}
 											]
 										}
