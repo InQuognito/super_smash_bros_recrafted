@@ -1,4 +1,4 @@
-loot give @s loot ssbrc:fighter/zelda/boomerang
+function ssbrc:logic/item/give/default {item: "zelda_boomerang", class: "default", type: "default"}
 
 kill @n[type=minecraft:item_display,tag=zelda.boomerang,predicate=ssbrc:id_match]
 

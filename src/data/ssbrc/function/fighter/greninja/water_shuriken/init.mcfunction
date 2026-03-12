@@ -1,6 +1,8 @@
 tag @s add water_shuriken
 
-loot replace entity @s contents loot ssbrc:fighter/greninja/water_shuriken
+item replace entity @s contents with minecraft:stick[ \
+	minecraft:item_model = "ssbrc:fighter/greninja/water_shuriken", \
+]
 
 function ssbrc:logic/init/projectile
 

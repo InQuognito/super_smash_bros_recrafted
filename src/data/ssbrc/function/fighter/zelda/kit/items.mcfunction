@@ -38,9 +38,9 @@ function ssbrc:fighter/zelda/kit/items/passive_item
 
 scoreboard players set @s charge.2 0
 function ssbrc:fighter/zelda/great_fairy_blessing/calculate
-loot replace entity @s hotbar.4 loot ssbrc:fighter/zelda/great_fairy_blessing
+function ssbrc:logic/item/init/slot {item: "great_fairy_blessing", slot: "hotbar.4", class: "default", type: "default"}
 
-loot replace entity @s hotbar.5 loot ssbrc:fighter/zelda/inventory_refresh
+function ssbrc:logic/item/init/slot {item: "inventory_refresh", slot: "hotbar.5", class: "default", type: "default"}
 
 scoreboard players operation @s magic = #zelda.magic const
 

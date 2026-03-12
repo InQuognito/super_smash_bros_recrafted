@@ -1,6 +1,8 @@
 tag @s add throwing_anchor
 
-loot replace entity @s armor.head loot ssbrc:fighter/shovel_knight/throwing_anchor
+item replace entity @s armor.head with minecraft:stick[ \
+	minecraft:item_model = "ssbrc:fighter/shovel_knight/throwing_anchor", \
+]
 
 data merge entity @s {Small:1b}
 

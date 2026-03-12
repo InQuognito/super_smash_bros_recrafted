@@ -3,4 +3,4 @@ execute unless score @s[tag=chaos_boost] charge.2 matches 1.. run return run fun
 tag @s add chaos_boost
 scoreboard players set @s resource 0
 
-loot give @s loot ssbrc:fighter/shadow/chaos_control
+function ssbrc:logic/item/give/default {item: "chaos_control", class: "default", type: "default"}

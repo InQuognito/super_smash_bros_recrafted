@@ -1,4 +1,3 @@
-clear @s *[minecraft:custom_data~{item: "aymr"}]
-loot give @s loot ssbrc:fighter/byleth/sword_of_the_creator
+function ssbrc:logic/item/init/replace {search_key: "item", search_value: "aymr", item: "sword_of_the_creator", class: "weapon", type: "default"}
 
 tag @s add weapon_broken

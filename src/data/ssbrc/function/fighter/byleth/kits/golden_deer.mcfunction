@@ -1,3 +1,3 @@
-loot replace entity @s hotbar.0 loot ssbrc:fighter/byleth/failnaught
+function ssbrc:logic/item/init/slot {item: "failnaught", slot: "hotbar.0", class: "weapon", type: "bow"}
 
-loot replace entity @s hotbar.1 loot ssbrc:fighter/byleth/sword_of_the_creator
+function ssbrc:logic/item/init/slot {item: "sword_of_the_creator", slot: "hotbar.1", class: "weapon", type: "default"}

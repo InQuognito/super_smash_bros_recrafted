@@ -10,10 +10,10 @@ clear @s *[minecraft:custom_data~{group: "persona_awakening"}]
 
 $function ssbrc:logic/item/modify {search_key: "group", search_value: "persona",path: {function: "minecraft:set_components",components: {"minecraft:item_model":"ssbrc:fighter/joker/misc/portrait/$(persona)/active"}}}
 
-execute if items entity @s armor.body *[minecraft:custom_data~{temp: {fighter: {persona: "archangel"}}}] run loot give @s loot ssbrc:fighter/joker/personas/archangel/hama
-execute if items entity @s armor.body *[minecraft:custom_data~{temp: {fighter: {persona: "arsene"}}}] run loot give @s loot ssbrc:fighter/joker/personas/arsene/eiagon
-execute if items entity @s armor.body *[minecraft:custom_data~{temp: {fighter: {persona: "high_pixie"}}}] run loot give @s loot ssbrc:fighter/joker/personas/high_pixie/amrita_shower
-execute if items entity @s armor.body *[minecraft:custom_data~{temp: {fighter: {persona: "raoul"}}}] run loot give @s loot ssbrc:fighter/joker/personas/raoul/phantom_show
+execute if items entity @s armor.body *[minecraft:custom_data~{temp: {fighter: {persona: "archangel"}}}] run function ssbrc:logic/item/give/default {item: "hama", class: "default", type: "default"}
+execute if items entity @s armor.body *[minecraft:custom_data~{temp: {fighter: {persona: "arsene"}}}] run function ssbrc:logic/item/give/default {item: "eiagon", class: "default", type: "default"}
+execute if items entity @s armor.body *[minecraft:custom_data~{temp: {fighter: {persona: "high_pixie"}}}] run function ssbrc:logic/item/give/default {item: "amrita_shower", class: "default", type: "default"}
+execute if items entity @s armor.body *[minecraft:custom_data~{temp: {fighter: {persona: "raoul"}}}] run function ssbrc:logic/item/give/default {item: "phantom_show", class: "default", type: "default"}
 execute if items entity @s armor.body *[minecraft:custom_data~{temp: {fighter: {persona: "yatagarasu"}}}] run attribute @s minecraft:knockback_resistance modifier add ssbrc:yatagarasu .25 add_value
 
 function ssbrc:logic/player/data/set {data: {temp: {fighter: {form: "awakening"}}}}

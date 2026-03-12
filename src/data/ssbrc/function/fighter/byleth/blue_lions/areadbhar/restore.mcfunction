@@ -1,6 +1,5 @@
-clear @s *[minecraft:custom_data~{item: "steel_sword"}]
-clear @s *[minecraft:custom_data~{item: "sword_of_the_creator"}]
-loot give @s loot ssbrc:fighter/byleth/areadbhar
+#clear @s *[minecraft:custom_data~{item: "steel_sword"}]
+function ssbrc:logic/item/init/replace {search_key: "item", search_value: "sword_of_the_creator", item: "areadbhar", class: "weapon", type: "hybrid"}
 
 scoreboard players set @s charge.2 0
 tag @s remove weapon_broken

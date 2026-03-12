@@ -1,4 +1,4 @@
-loot replace entity @s hotbar.0 loot ssbrc:fighter/byleth/aymr
+function ssbrc:logic/item/init/slot {item: "aymr", slot: "hotbar.0", class: "weapon", type: "hybrid"}
 
 function ssbrc:logic/item/init/slot {item: "steel_bow", slot: "hotbar.1", class: "default", type: "default"}
 

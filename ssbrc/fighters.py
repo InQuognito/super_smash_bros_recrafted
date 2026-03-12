@@ -1425,11 +1425,6 @@ fighters = {
 			'grenade': {
 				'type': 'charge_ability',
 				'stats': {
-					'tag': 'ranged',
-					'damage': {
-						'type': 'explosive',
-						'amount': 12
-					},
 					'use_duration': 4,
 					'cooldown_group': 'wolf/grenade',
 					'cooldown': 1
@@ -2500,11 +2495,37 @@ fighters = {
 				'stats': {
 					'attack_damage': 4,
 					'attack_speed': 1,
-					'max_reach': 3.5,
+					'max_reach': 3.5
 				},
 				'default': {
 					'name': 'ssbrc.fighter.byleth.areadbhar',
 					'color': 'red'
+				}
+			},
+			'aymr': {
+				'type': 'weapon',
+				'stats': {
+					'attack_damage': 9,
+					'attack_speed': 0.5,
+					'max_reach': 2.8
+				},
+				'default': {
+					'name': 'ssbrc.fighter.byleth.areadbhar',
+					'color': 'red'
+				}
+			},
+			'steed_charge': {
+				'type': 'ability',
+				'stats': {
+					'cooldown_group': 'byleth/steed_charge',
+					'cooldown': 15
+				},
+				'default': {
+					'name': 'ssbrc.fighter.byleth.steed_charge',
+					'color': 'blue'
+				},
+				'gold': {
+					'color': 'gold'
 				}
 			},
 			'steel_bow': {
@@ -2538,7 +2559,7 @@ fighters = {
 				'type': 'weapon',
 				'stats': {
 					'attack_damage': 3,
-					'attack_speed': 2.5
+					'attack_speed': 1.5
 				},
 				'default': {
 					'name': 'ssbrc.fighter.byleth.steel_sword',
@@ -2546,6 +2567,19 @@ fighters = {
 				},
 				'gold': {
 					'color': 'gold'
+				}
+			},
+			'sword_of_the_creator': {
+				'type': 'weapon',
+				'stats': {
+					'attack_damage': 4,
+					'attack_speed': 1.5,
+					'max_reach': 3.25,
+					'hitbox_margin': 0.6
+				},
+				'default': {
+					'name': 'ssbrc.fighter.byleth.sword_of_the_creator',
+					'color': 'yellow'
 				}
 			}
 		}
@@ -2949,15 +2983,20 @@ fighters = {
 					'color': 'gray'
 				}
 			},
+			'chaos_control': {
+				'type': 'ability',
+				'stats': {
+					'cooldown_group': 'shadow/chaos_control',
+					'cooldown': 1
+				},
+				'default': {
+					'name': 'ssbrc.fighter.shadow.chaos_control',
+					'color': 'blue'
+				}
+			},
 			'chaos_spear': {
 				'type': 'ability',
 				'stats': {
-					'tag': 'ranged',
-					'damage': {
-						'type': 'fire',
-						'amount': 4,
-						'duration': 30
-					},
 					'cooldown_group': 'shadow/chaos_spear',
 					'cooldown': 1
 				},
@@ -3500,6 +3539,54 @@ fighters = {
 			'awakening'
 		],
 		'items': {
+			'amrita_shower': {
+				'type': 'ability',
+				'group': 'persona_awakening',
+				'stats': {
+					'cooldown_group': 'joker/amrita_shower',
+					'cooldown': 5
+				},
+				'default': {
+					'name': 'ssbrc.fighter.joker.amrita_shower',
+					'color': 'green'
+				}
+			},
+			'eiagon': {
+				'type': 'ability',
+				'group': 'persona_awakening',
+				'stats': {
+					'cooldown_group': 'joker/eiagon',
+					'cooldown': 2
+				},
+				'default': {
+					'name': 'ssbrc.fighter.joker.eiagon',
+					'color': 'dark_red'
+				}
+			},
+			'hama': {
+				'type': 'ability',
+				'group': 'persona_awakening',
+				'stats': {
+					'cooldown_group': 'joker/hama',
+					'cooldown': 15
+				},
+				'default': {
+					'name': 'ssbrc.fighter.joker.hama',
+					'color': 'yellow'
+				}
+			},
+			'phantom_show': {
+				'type': 'ability',
+				'group': 'persona_awakening',
+				'stats': {
+					'cooldown_group': 'joker/phantom_show',
+					'cooldown': 0.75
+				},
+				'default': {
+					'name': 'ssbrc.fighter.joker.phantom_show',
+					'color': 'yellow'
+				}
+			},
 			'rebel_knife': {
 				'type': 'weapon',
 				'stats': {

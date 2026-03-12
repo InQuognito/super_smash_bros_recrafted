@@ -1,4 +1,4 @@
-function ssbrc:fighter/joker/masks/set with entity @s SelectedItem.components.minecraft:custom_data
+function ssbrc:fighter/joker/mask/set with entity @s SelectedItem.components.minecraft:custom_data
 
 item replace entity @s weapon.mainhand with minecraft:air
 
