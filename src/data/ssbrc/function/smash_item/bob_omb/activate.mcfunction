@@ -4,4 +4,6 @@ execute anchored eyes positioned ^ ^ ^ summon minecraft:marker run function ssbr
 
 scoreboard players add @s cooldown 10
 
+clear @s *[minecraft:custom_data~{item: "bob_omb"}]
+
 function ssbrc:logic/fighter/ability/deinit

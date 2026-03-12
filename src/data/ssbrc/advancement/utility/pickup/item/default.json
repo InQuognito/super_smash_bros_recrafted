@@ -36,7 +36,7 @@
 					{
 						"predicates": {
 							"minecraft:custom_data": {
-								"group": "item"
+								"group": "smash_item"
 							}
 						}
 					}
