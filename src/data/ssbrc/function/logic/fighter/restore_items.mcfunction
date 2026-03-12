@@ -1,4 +1,4 @@
-scoreboard players set @s charge.output 0
+scoreboard players set @s charge 0
 
 scoreboard players reset @s fall_distance
 

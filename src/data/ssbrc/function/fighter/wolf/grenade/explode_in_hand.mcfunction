@@ -1,3 +1,5 @@
+advancement revoke @s only ssbrc:utility/use_item/fighter/wolf/grenade
+
 execute as @e[tag=!self,predicate=ssbrc:target,distance=..3] run function ssbrc:logic/damage/explosion {amount: 12, type: "generic", kb_resist: 0, source: " by @a[tag=self,limit=1]"}
 damage @s[distance=..3] 12 ssbrc:generic
 
@@ -8,6 +10,4 @@ playsound minecraft:entity.generic.explode player @a
 
 item modify entity @s weapon.mainhand {function: "minecraft:set_components",components: {"minecraft:item_model":"ssbrc:fighter/wolf/item/grenade/default"}}
 
-scoreboard players set @s charge.output 0
-
-advancement revoke @s only ssbrc:utility/use_item/fighter/wolf/grenade
+scoreboard players set @s charge 0

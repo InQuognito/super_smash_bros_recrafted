@@ -4,12 +4,11 @@ scoreboard objectives remove bowser.fire_breath
 scoreboard objectives remove bowser.fire_breath.target
 scoreboard objectives remove burning
 scoreboard objectives remove capacity
+scoreboard objectives remove charge
 scoreboard objectives remove charge.1
 scoreboard objectives remove charge.2
 scoreboard objectives remove charge.3
 scoreboard objectives remove charge.4
-scoreboard objectives remove charge.output
-scoreboard objectives remove charge.storage
 scoreboard objectives remove combo.count
 scoreboard objectives remove combo.duration
 scoreboard objectives remove const

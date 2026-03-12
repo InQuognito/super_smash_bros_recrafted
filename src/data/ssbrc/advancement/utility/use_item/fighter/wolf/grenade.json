@@ -13,12 +13,12 @@
 						"condition": "minecraft:entity_scores",
 						"entity": "this",
 						"scores": {
-							"charge.output": {
+							"charge": {
 								"min": {
 									"type": "minecraft:score",
 									"target": {
 										"type": "minecraft:fixed",
-										"name": "wolf.grenade.timer"
+										"name": "#wolf.grenade.timer"
 									},
 									"score": "const"
 								}

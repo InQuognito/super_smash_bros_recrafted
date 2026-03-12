@@ -1,10 +1,10 @@
-execute if score #charge.output temp matches 1..2 run teleport @s ^ ^ ^.075
-execute if score #charge.output temp matches 3..4 run teleport @s ^ ^ ^.1
-execute if score #charge.output temp matches 5..6 run teleport @s ^ ^ ^.4
-execute if score #charge.output temp matches 7..8 run teleport @s ^ ^ ^.7
-execute if score #charge.output temp matches 9..10 run teleport @s ^ ^ ^1.0
-execute if score #charge.output temp matches 11..12 run teleport @s ^ ^ ^1.25
-execute if score #charge.output temp matches 13..14 run teleport @s ^ ^ ^1.5
-execute if score #charge.output temp matches 15..16 run teleport @s ^ ^ ^1.75
-execute if score #charge.output temp matches 17..18 run teleport @s ^ ^ ^2.25
-execute if score #charge.output temp matches 19.. run teleport @s ^ ^ ^2.75
+execute if score @s charge matches 19.. run return run teleport @s ^ ^ ^2.75
+execute if score @s charge matches 17.. run return run teleport @s ^ ^ ^2.25
+execute if score @s charge matches 15.. run return run teleport @s ^ ^ ^1.75
+execute if score @s charge matches 13.. run return run teleport @s ^ ^ ^1.5
+execute if score @s charge matches 11.. run return run teleport @s ^ ^ ^1.25
+execute if score @s charge matches 9.. run return run teleport @s ^ ^ ^1.0
+execute if score @s charge matches 7.. run return run teleport @s ^ ^ ^.7
+execute if score @s charge matches 5.. run return run teleport @s ^ ^ ^.4
+execute if score @s charge matches 3.. run return run teleport @s ^ ^ ^.1
+execute if score @s charge matches 1.. run return run teleport @s ^ ^ ^.075

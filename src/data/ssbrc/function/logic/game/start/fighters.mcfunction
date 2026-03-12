@@ -7,7 +7,7 @@ effect clear @s minecraft:slowness
 
 execute store result score @s health run data get entity @s Health
 
-scoreboard players set @s charge.output 0
+scoreboard players set @s charge 0
 scoreboard players set @s combo.count 0
 scoreboard players set @s flag.sprinting 0
 scoreboard players set @s frostbite.cooldown 0

@@ -24,14 +24,8 @@ execute if entity @e[type=minecraft:marker,tag=electric_terrain,distance=..12] r
 
 execute unless score @s[scores={jumps=1..},predicate=ssbrc:input/jump] jump.cooldown matches 1.. run function ssbrc:logic/fighter/jump
 
-execute if score @s charge.input matches 1.. run function ssbrc:logic/fighter/item/tick
-execute if score @s charge.input matches 2.. run function ssbrc:logic/fighter/item/refresh
-
 execute store result score @s selected_item run data get entity @s SelectedItemSlot
 execute unless score @s selected_item.prev = @s selected_item run function ssbrc:logic/fighter/change_slot with entity @s equipment.body.components."minecraft:custom_data".temp.fighter
-
-execute if items entity @s[scores={charge.output=1..},advancements={ssbrc:utility/use_item/any=false}] weapon.* #ssbrc:equipment/ability[minecraft:custom_data~{chargable:"true"}] run function ssbrc:logic/fighter/charge/activate
-execute if items entity @s[advancements={ssbrc:utility/use_item/any=true}] weapon.mainhand #ssbrc:equipment/ability[minecraft:custom_data~{chargable:"true"}] run function ssbrc:logic/fighter/charge/tick
 
 execute if score @s flag.damage_dealt matches 1.. run function ssbrc:logic/fighter/damage/dealt
 execute if score @s flag.damage_taken matches 1.. run function ssbrc:logic/fighter/damage/taken

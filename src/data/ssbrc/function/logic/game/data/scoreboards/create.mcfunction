@@ -4,12 +4,11 @@ scoreboard objectives add bowser.fire_breath dummy
 scoreboard objectives add bowser.fire_breath.target dummy
 scoreboard objectives add burning dummy
 scoreboard objectives add capacity dummy
+scoreboard objectives add charge dummy
 scoreboard objectives add charge.1 dummy
 scoreboard objectives add charge.2 dummy
 scoreboard objectives add charge.3 dummy
 scoreboard objectives add charge.4 dummy
-scoreboard objectives add charge.output dummy
-scoreboard objectives add charge.storage dummy
 scoreboard objectives add combo.count dummy
 scoreboard objectives add combo.duration dummy
 scoreboard objectives add const dummy

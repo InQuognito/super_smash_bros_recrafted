@@ -5,5 +5,5 @@ function ssbrc:logic/item/durability/remove
 function ssbrc:logic/item/data/set {item: "areadbhar", flag_key: "spinning", flag_value: "true"}
 
 scoreboard players set @s rotation 1000
-execute if score @s charge.storage matches 81.. run return run function ssbrc:fighter/byleth/blue_lions/spin_attack/activate/awakened
+execute if score @s charge matches 81.. run return run function ssbrc:fighter/byleth/blue_lions/spin_attack/activate/awakened
 function ssbrc:fighter/byleth/blue_lions/spin_attack/activate/default

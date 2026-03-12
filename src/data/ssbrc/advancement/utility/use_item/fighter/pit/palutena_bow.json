@@ -13,7 +13,7 @@
 						"condition": "minecraft:entity_scores",
 						"entity": "this",
 						"scores": {
-							"charge.output": 1
+							"charge": 1
 						}
 					}
 				],
