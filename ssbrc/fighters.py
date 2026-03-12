@@ -2509,6 +2509,7 @@ fighters = {
 			},
 			'steel_bow': {
 				'type': 'null',
+				'stats': {},
 				'default': {
 					'name': 'ssbrc.fighter.byleth.steel_bow',
 					'color': 'gray'
