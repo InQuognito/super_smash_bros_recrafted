@@ -31,6 +31,6 @@ make_request(
     data=Path(PACK).read_bytes(),
 )
 print("Success!")
-time.sleep(0.05)
-make_request(route="command", data={"command": "function ssbrc_server:finish"})
+#time.sleep(0.05)
+#make_request(route="command", data={"command": "function ssbrc_server:finish"})
 #make_request(route="command", data={"command": "fetchhash"})

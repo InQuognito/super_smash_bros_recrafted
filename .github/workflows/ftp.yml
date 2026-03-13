@@ -13,6 +13,17 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+      - name: Build Start Notif
+        run: |
+          curl "https://mc.bloom.host/api/client/servers/e2d8cd97/command" \
+            -H 'Accept: application/json' \
+            -H 'Content-Type: application/json' \
+            -H 'Authorization: Bearer ${{ secrets.BLOOM_API_KEY }}' \
+            -X POST \
+            -d '{
+              "command": "function ssbrc_server:start"
+            }'
+
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
@@ -43,3 +54,8 @@ jobs:
             build/super_smash_bros_re_crafted_resource_pack/assets/
             build/super_smash_bros_re_crafted_resource_pack/pack.mcmeta
             build/super_smash_bros_re_crafted_resource_pack/pack.png
+
+      - name: Send message to server
+        env:
+          BLOOM_API_KEY: "${{ secrets.BLOOM_API_KEY }}"
+        run: python .github/workflows/send_bloom.py
