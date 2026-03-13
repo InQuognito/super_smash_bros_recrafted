@@ -21,6 +21,6 @@
 		}
 	},
 	"rewards": {
-		"function": "ssbrc:fighter/captain_falcon/falcon_punch/check"
+		"function": "ssbrc:fighter/captain_falcon/falcon_punch/activate"
 	}
 }

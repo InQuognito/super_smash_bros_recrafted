@@ -16,3 +16,18 @@ execute if score @s charge.1 matches 31..33 run return run title @s actionbar ["
 execute if score @s charge.1 matches 34..36 run return run title @s actionbar ["", {text: "\u25ae\u25ae\u25ae\u25ae\u25ae", color: "red"}, {text: "\u25ae\u25ae\u25ae\u25ae", color: "yellow"}, {text: "\u25ae\u25ae", color: "green"},"\u25ae", {text: "\u25ae\u25ae\u25ae\u25ae", color: "yellow"}, {text: "\u25ae\u25ae\u25ae\u25ae\u25ae", color: "red"}]
 
 tag @s add falcon_punch_missed
+
+function ssbrc:logic/item/modify { \
+	search_key: "item", \
+	search_value: "falcon_punch", \
+	path: { \
+		function: "minecraft:set_components", \
+		components: { \
+			"minecraft:attack_range": { \
+				min_reach: 0, \
+				max_reach: 0, \
+				hitbox_margin: 1, \
+			}, \
+		}, \
+	}, \
+}

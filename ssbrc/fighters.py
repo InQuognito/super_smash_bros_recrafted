@@ -2251,10 +2251,6 @@ fighters = {
 				'stats': {
 					'attack_damage': 5,
 					'attack_speed': 2.5,
-					'damage': {
-						'type': 'generic',
-						'amount': 5
-					},
 					'cooldown_group': 'captain_falcon/fists_of_fury',
 					'cooldown': 1.5
 				},
@@ -2270,14 +2266,12 @@ fighters = {
 				}
 			},
 			'falcon_punch': {
-				'type': 'ability',
+				'type': 'custom_hybrid',
 				'stats': {
-					'tag': 'offensive',
-					'damage': {
-						'type': 'fire',
-						'amount': 20,
-						'duration': 40
-					},
+					'attack_damage': 20,
+					'attack_speed': 0.5,
+					'max_reach': 0,
+					'hitbox_margin': 1,
 					'cooldown_group': 'captain_falcon/falcon_punch',
 					'cooldown': 0.25
 				},

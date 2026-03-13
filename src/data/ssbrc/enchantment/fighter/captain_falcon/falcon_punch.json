@@ -1,0 +1,87 @@
+{
+	"description": "",
+	"supported_items": "#ssbrc:equipment/ability",
+	"weight": 1,
+	"max_level": 1,
+	"min_cost": {
+		"base": 0,
+		"per_level_above_first": 0
+	},
+	"max_cost": {
+		"base": 0,
+		"per_level_above_first": 0
+	},
+	"anvil_cost": 0,
+	"slots": [
+		"mainhand"
+	],
+	"effects": {
+		"minecraft:post_piercing_attack": [
+			{
+				"effect": {
+					"type": "minecraft:run_function",
+					"function": "ssbrc:fighter/captain_falcon/falcon_punch/unleash"
+				},
+				"requirements": [
+					{
+						"condition": "minecraft:entity_scores",
+						"entity": "this",
+						"scores": {
+							"charge.1": {
+								"min": 28,
+								"max": 36
+							}
+						}
+					},
+					{
+						"condition": "minecraft:inverted",
+						"term": {
+							"condition": "minecraft:entity_properties",
+							"entity": "this",
+							"predicate": {
+								"nbt": {
+									"Tags": [
+										"falcon_punch_missed"
+									]
+								}
+							}
+						}
+					}
+				]
+			},
+			{
+				"effect": {
+					"type": "minecraft:run_function",
+					"function": "ssbrc:fighter/captain_falcon/falcon_punch/miss"
+				},
+				"requirements": {
+					"condition": "minecraft:all_of",
+					"terms": [
+						{
+							"condition": "minecraft:entity_scores",
+							"entity": "this",
+							"scores": {
+								"charge.1": {
+									"min": 1
+								}
+							}
+						},
+						{
+							"condition": "minecraft:inverted",
+							"term": {
+								"condition": "minecraft:entity_scores",
+								"entity": "this",
+								"scores": {
+									"charge.1": {
+										"min": 28,
+										"max": 36
+									}
+								}
+							}
+						}
+					]
+				}
+			}
+		]
+	}
+}
