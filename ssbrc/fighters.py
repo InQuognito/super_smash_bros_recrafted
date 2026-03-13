@@ -2322,7 +2322,7 @@ fighters = {
 		'default': False,
 		'skins': {
 			'gold': {},
-			'frostbite': {
+			'frosted': {
 				'rarity': 'uncommon',
 				'color': 'aqua'
 			},

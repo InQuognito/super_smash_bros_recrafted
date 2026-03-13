@@ -777,30 +777,23 @@
 							"index": 2,
 							"cases": [
 								{
-									"when": "popo",
+									"when": "nana",
 									"model": {
 										"type": "minecraft:select",
 										"property": "minecraft:custom_model_data",
 										"index": 1,
 										"cases": [
 											{
-												"when": "frosted",
-												"model": {
-													"type": "minecraft:model",
-													"model": "ssbrc:fighter/ice_climbers/skin/frosted/popo"
-												}
-											},
-											{
 												"when": "polar_parka",
 												"model": {
 													"type": "minecraft:model",
-													"model": "ssbrc:fighter/ice_climbers/skin/polar_parka/popo"
+													"model": "ssbrc:fighter/ice_climbers/skin/polar_parka/nana"
 												}
 											}
 										],
 										"fallback": {
 											"type": "minecraft:model",
-											"model": "ssbrc:fighter/ice_climbers/skin/default/popo"
+											"model": "ssbrc:fighter/ice_climbers/skin/default/nana"
 										}
 									}
 								}
@@ -811,23 +804,16 @@
 								"index": 1,
 								"cases": [
 									{
-										"when": "frosted",
-										"model": {
-											"type": "minecraft:model",
-											"model": "ssbrc:fighter/ice_climbers/skin/frosted/nana"
-										}
-									},
-									{
 										"when": "polar_parka",
 										"model": {
 											"type": "minecraft:model",
-											"model": "ssbrc:fighter/ice_climbers/skin/polar_parka/nana"
+											"model": "ssbrc:fighter/ice_climbers/skin/polar_parka/popo"
 										}
 									}
 								],
 								"fallback": {
 									"type": "minecraft:model",
-									"model": "ssbrc:fighter/ice_climbers/skin/default/nana"
+									"model": "ssbrc:fighter/ice_climbers/skin/default/popo"
 								}
 							}
 						}
