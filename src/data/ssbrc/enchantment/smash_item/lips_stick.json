@@ -18,6 +18,21 @@
 	"effects": {
 		"minecraft:post_attack": [
 			{
+				"requirements": {
+					"condition": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"equipment": {
+							"mainhand": {
+								"predicates": {
+									"minecraft:damage": {
+										"durability": 5
+									}
+								}
+							}
+						}
+					}
+				},
 				"enchanted": "attacker",
 				"affected": "victim",
 				"effect": {
@@ -26,10 +41,170 @@
 						{
 							"type": "minecraft:apply_mob_effect",
 							"to_apply": "minecraft:poison",
-							"min_duration": 3,
-							"max_duration": 3,
+							"min_duration": 5,
+							"max_duration": 5,
 							"min_amplifier": 2,
 							"max_amplifier": 2
+						},
+						{
+							"type": "minecraft:play_sound",
+							"sound": {
+								"sound_id": "ssbrc:smash_item.lips_stick.hit"
+							},
+							"volume": 1,
+							"pitch": 1
+						}
+					]
+				}
+			},
+			{
+				"requirements": {
+					"condition": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"equipment": {
+							"mainhand": {
+								"predicates": {
+									"minecraft:damage": {
+										"durability": 4
+									}
+								}
+							}
+						}
+					}
+				},
+				"enchanted": "attacker",
+				"affected": "victim",
+				"effect": {
+					"type": "minecraft:all_of",
+					"effects": [
+						{
+							"type": "minecraft:apply_mob_effect",
+							"to_apply": "minecraft:poison",
+							"min_duration": 4,
+							"max_duration": 4,
+							"min_amplifier": 2,
+							"max_amplifier": 2
+						},
+						{
+							"type": "minecraft:play_sound",
+							"sound": {
+								"sound_id": "ssbrc:smash_item.lips_stick.hit"
+							},
+							"volume": 1,
+							"pitch": 1
+						}
+					]
+				}
+			},
+			{
+				"requirements": {
+					"condition": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"equipment": {
+							"mainhand": {
+								"predicates": {
+									"minecraft:damage": {
+										"durability": 3
+									}
+								}
+							}
+						}
+					}
+				},
+				"enchanted": "attacker",
+				"affected": "victim",
+				"effect": {
+					"type": "minecraft:all_of",
+					"effects": [
+						{
+							"type": "minecraft:apply_mob_effect",
+							"to_apply": "minecraft:poison",
+							"min_duration": 5,
+							"max_duration": 5,
+							"min_amplifier": 1,
+							"max_amplifier": 1
+						},
+						{
+							"type": "minecraft:play_sound",
+							"sound": {
+								"sound_id": "ssbrc:smash_item.lips_stick.hit"
+							},
+							"volume": 1,
+							"pitch": 1
+						}
+					]
+				}
+			},
+			{
+				"requirements": {
+					"condition": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"equipment": {
+							"mainhand": {
+								"predicates": {
+									"minecraft:damage": {
+										"durability": 2
+									}
+								}
+							}
+						}
+					}
+				},
+				"enchanted": "attacker",
+				"affected": "victim",
+				"effect": {
+					"type": "minecraft:all_of",
+					"effects": [
+						{
+							"type": "minecraft:apply_mob_effect",
+							"to_apply": "minecraft:poison",
+							"min_duration": 4,
+							"max_duration": 4,
+							"min_amplifier": 1,
+							"max_amplifier": 1
+						},
+						{
+							"type": "minecraft:play_sound",
+							"sound": {
+								"sound_id": "ssbrc:smash_item.lips_stick.hit"
+							},
+							"volume": 1,
+							"pitch": 1
+						}
+					]
+				}
+			},
+			{
+				"requirements": {
+					"condition": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"equipment": {
+							"mainhand": {
+								"predicates": {
+									"minecraft:damage": {
+										"durability": 1
+									}
+								}
+							}
+						}
+					}
+				},
+				"enchanted": "attacker",
+				"affected": "victim",
+				"effect": {
+					"type": "minecraft:all_of",
+					"effects": [
+						{
+							"type": "minecraft:apply_mob_effect",
+							"to_apply": "minecraft:poison",
+							"min_duration": 5,
+							"max_duration": 5,
+							"min_amplifier": 0,
+							"max_amplifier": 0
 						},
 						{
 							"type": "minecraft:play_sound",

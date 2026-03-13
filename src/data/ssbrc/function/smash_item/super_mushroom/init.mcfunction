@@ -50,6 +50,7 @@ item modify entity @s contents [ \
 	{ \
 		function: "minecraft:set_components", \
 		components: { \
+			"minecraft:max_stack_size": 1, \
 			"minecraft:item_model": "ssbrc:smash_item/super_mushroom", \
 		}, \
 	}, \

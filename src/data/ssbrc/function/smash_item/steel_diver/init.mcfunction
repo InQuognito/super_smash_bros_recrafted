@@ -33,6 +33,7 @@ item modify entity @s contents [ \
 	{ \
 		function: "minecraft:set_components", \
 		components: { \
+			"minecraft:max_stack_size": 1, \
 			"minecraft:max_damage": 10, \
 			"minecraft:item_model": "ssbrc:smash_item/steel_diver", \
 		}, \

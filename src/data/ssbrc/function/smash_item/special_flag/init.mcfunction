@@ -41,6 +41,7 @@ item modify entity @s contents [ \
 				}, \
 				"has_consume_particles": false \
 			}, \
+			"minecraft:max_stack_size": 1, \
 			"minecraft:item_model": "ssbrc:smash_item/special_flag", \
 		}, \
 	}, \

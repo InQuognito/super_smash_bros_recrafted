@@ -34,6 +34,7 @@ item modify entity @s contents [ \
 			"minecraft:enchantments": { \
 				"ssbrc:smash_item/lips_stick": 1 \
 			}, \
+			"minecraft:max_stack_size": 1, \
 			"minecraft:max_damage": 5, \
 			"minecraft:item_model": "ssbrc:smash_item/lips_stick", \
 		}, \
