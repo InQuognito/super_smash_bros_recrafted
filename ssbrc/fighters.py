@@ -2273,7 +2273,7 @@ fighters = {
 					'max_reach': 0,
 					'hitbox_margin': 1,
 					'cooldown_group': 'captain_falcon/falcon_punch',
-					'cooldown': 0.25
+					'cooldown': 10
 				},
 				'default': {
 					'name': 'ssbrc.fighter.captain_falcon.falcon_punch',
