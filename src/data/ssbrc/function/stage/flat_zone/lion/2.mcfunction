@@ -1,12 +1,13 @@
-fill 780 12 188 782 12 188 minecraft:white_concrete replace
-setblock 778 9 188 minecraft:white_concrete replace
-setblock 782 6 188 minecraft:white_concrete replace
+setblock 0 1 -15 minecraft:white_concrete replace
+setblock -2 4 -15 minecraft:white_concrete replace
+setblock 2 4 -15 minecraft:white_concrete replace
+setblock 0 7 -15 minecraft:white_concrete replace
 
-execute store result score #random temp run random value 0..3
+execute store result score #random temp run random value 1..4
 
-execute if score #random temp matches 0 run setblock 780 12 188 minecraft:black_concrete replace
-execute if score #random temp matches 1 run setblock 782 12 188 minecraft:black_concrete replace
-execute if score #random temp matches 2 run setblock 778 9 188 minecraft:black_concrete replace
-execute if score #random temp matches 3 run setblock 782 6 188 minecraft:black_concrete replace
+execute if score #random temp matches 1 run setblock 0 1 -15 minecraft:black_concrete replace
+execute if score #random temp matches 2 run setblock -2 4 -15 minecraft:black_concrete replace
+execute if score #random temp matches 3 run setblock 2 4 -15 minecraft:black_concrete replace
+execute if score #random temp matches 4 run setblock 0 7 -15 minecraft:black_concrete replace
 
 schedule function ssbrc:stage/flat_zone/lion/2 12t replace

@@ -1,4 +1,4 @@
-fill 791 5 208 791 6 208 minecraft:white_concrete replace
-fill 791 5 207 791 6 207 minecraft:black_concrete replace
+execute positioned 11 0 4 run fill ~ ~ ~ ~ ~1 ~ minecraft:black_concrete replace
+execute positioned 11 0 5 run fill ~ ~ ~ ~ ~1 ~ minecraft:white_concrete replace
 
 schedule function ssbrc:stage/flat_zone/gas_station_guy/2/right 15t replace

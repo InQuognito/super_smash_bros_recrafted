@@ -1,3 +1,5 @@
+advancement revoke @s only ssbrc:utility/use_item/fighter/captain_falcon/falcon_punch
+
 scoreboard players set @s charge.1 1
 
 function ssbrc:logic/fighter/effects/immobile/effects/activate
