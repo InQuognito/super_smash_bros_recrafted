@@ -2,6 +2,7 @@ data remove storage ssbrc:temp cache
 
 function ssbrc:logic/init/fighter
 function ssbrc:logic/init/stage
+function ssbrc:logic/init/victory_podium
 
 function ssbrc:logic/game/data/scoreboards/remove
 function ssbrc:logic/game/data/scoreboards/create

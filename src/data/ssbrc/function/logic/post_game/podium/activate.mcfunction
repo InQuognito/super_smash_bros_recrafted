@@ -1,8 +1,9 @@
 function ssbrc:logic/scene/init {id: "victory_podium"}
 
-team modify dead prefix ""
+$time set $(time)
+$weather $(weather)
 
-time set midnight
+team modify dead prefix ""
 
 execute as @a[predicate=ssbrc:ingame] run function ssbrc:logic/post_game/podium/teleport
 

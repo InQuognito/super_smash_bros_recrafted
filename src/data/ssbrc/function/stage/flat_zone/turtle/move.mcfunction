@@ -4,4 +4,4 @@ execute if block ^ ^ ^-1 minecraft:green_terracotta run setblock ^ ^ ^-1 minecra
 teleport @s ^ ^ ^1
 
 scoreboard players add @s temp 1
-execute if score @s temp matches 26 run function ssbrc:stage/flat_zone/turtle/reset
+execute if score @s temp matches 26 at @s run function ssbrc:stage/flat_zone/turtle/reset
