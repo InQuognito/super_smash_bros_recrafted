@@ -2483,11 +2483,13 @@ fighters = {
 		],
 		'items': {
 			'areadbhar': {
-				'type': 'weapon',
+				'type': 'hybrid',
 				'stats': {
 					'attack_damage': 4,
 					'attack_speed': 1,
-					'max_reach': 3.5
+					'max_reach': 3.5,
+					'cooldown_group': 'byleth/areadbhar',
+					'cooldown': 1
 				},
 				'default': {
 					'name': 'ssbrc.fighter.byleth.areadbhar',
@@ -2495,11 +2497,13 @@ fighters = {
 				}
 			},
 			'aymr': {
-				'type': 'weapon',
+				'type': 'hybrid',
 				'stats': {
 					'attack_damage': 9,
 					'attack_speed': 0.5,
-					'max_reach': 2.8
+					'max_reach': 2.8,
+					'cooldown_group': 'byleth/aymr',
+					'cooldown': 1
 				},
 				'default': {
 					'name': 'ssbrc.fighter.byleth.areadbhar',

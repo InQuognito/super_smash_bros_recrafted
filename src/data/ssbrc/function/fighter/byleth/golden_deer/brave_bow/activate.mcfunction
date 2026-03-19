@@ -1,3 +1,5 @@
-execute unless score @s silenced matches 1.. anchored eyes positioned ^ ^ ^1 summon minecraft:marker run function ssbrc:fighter/byleth/golden_deer/brave_bow/init/marker
+execute anchored eyes positioned ^ ^ ^.5 summon minecraft:marker run function ssbrc:fighter/byleth/golden_deer/brave_bow/init/marker
 
-function ssbrc:logic/item/modify {search_key: "item", search_value: "brave_bow", path: "ssbrc:fighter/byleth/golden_deer/brave_bow/idle"}
+scoreboard players set @s charge.3 0
+
+playsound minecraft:entity.arrow.shoot player @a
