@@ -2066,6 +2066,7 @@ fighters = {
 		'series': 'earthbound',
 		'stats': {
 			'armor': 'low',
+			'double_jump_strength': 'low',
 			'safe_fall_distance': 'medium',
 			'weight': 'medium'
 		},
@@ -2219,6 +2220,8 @@ fighters = {
 		'series': 'f_zero',
 		'stats': {
 			'armor': 'medium',
+			'jump_strength': 'low',
+			'double_jump_strength': 'high',
 			'movement_speed': 0.15,
 			'safe_fall_distance': 'medium',
 			'weight': 'medium'
@@ -4861,6 +4864,13 @@ def jump_strength(fighter):
 	else:
 		return 0.63
 
+def double_jump_strength(fighter):
+	path = fighters[fighter]['stats']
+	if 'double_jump_strength' in path.keys():
+		return jump_strength_values[path['double_jump_strength']]
+	else:
+		return jump_strength_values[path['jump_strength']]
+
 def max_health(fighter):
 	path = fighters[fighter]['stats']
 	if 'max_health' in path.keys():
@@ -5048,6 +5058,7 @@ def fighter_storage():
 			'series': path['series'],
 			'armor': armor_values.get(armor_path, armor_path),
 			'jump_strength': jump_strength(fighter),
+			'double_jump_strength': double_jump_strength(fighter),
 			'max_health': max_health(fighter),
 			'movement_speed': movement_speed(fighter),
 			'safe_fall_distance': safe_fall_distance_values.get(safe_fall_distance_path, safe_fall_distance_path),
