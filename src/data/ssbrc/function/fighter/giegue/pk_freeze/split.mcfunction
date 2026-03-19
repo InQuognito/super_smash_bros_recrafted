@@ -1,5 +1,5 @@
-execute rotated ~-45 ~ summon minecraft:marker run function ssbrc:fighter/giegue/pk_freeze/init_small
-execute rotated ~45 ~ summon minecraft:marker run function ssbrc:fighter/giegue/pk_freeze/init_small
+execute summon minecraft:marker rotated ~-45 ~ run function ssbrc:fighter/giegue/pk_freeze/init_small
+execute summon minecraft:marker rotated ~45 ~ run function ssbrc:fighter/giegue/pk_freeze/init_small
 
 kill @s
 
