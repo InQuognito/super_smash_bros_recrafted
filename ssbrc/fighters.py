@@ -682,7 +682,7 @@ fighters = {
 			'flail': {
 				'type': 'weapon',
 				'stats': {
-					'attack_damage': 8,
+					'attack_damage': 5,
 					'attack_speed': 0.75,
 					'min_reach': 2,
 					'hitbox_margin': 1
@@ -802,7 +802,7 @@ fighters = {
 				}
 			},
 			'red_potion': {
-				'type': 'ability',
+				'type': 'consumable',
 				'group': 'dungeon_item',
 				'stats': {
 					'cooldown_group': 'zelda/red_potion',
@@ -2218,7 +2218,7 @@ fighters = {
 	'captain_falcon': {
 		'series': 'f_zero',
 		'stats': {
-			'armor': 'low',
+			'armor': 'medium',
 			'movement_speed': 0.15,
 			'safe_fall_distance': 'medium',
 			'weight': 'medium'
