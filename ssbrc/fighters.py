@@ -4869,7 +4869,7 @@ def double_jump_strength(fighter):
 	if 'double_jump_strength' in path.keys():
 		return jump_strength_values[path['double_jump_strength']]
 	else:
-		return jump_strength_values[path['jump_strength']]
+		return jump_strength(fighter)
 
 def max_health(fighter):
 	path = fighters[fighter]['stats']
