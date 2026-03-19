@@ -2,7 +2,7 @@ execute store result score #invert_g temp run data get entity @s Motion[1] -1000
 
 scoreboard players set $x player_motion.api.launch 0
 
-$execute store result score $y player_motion.api.launch run data get storage ssbrc:data fighter.$(fighter).stats.double_jump_strength 12000
+$execute store result score $y player_motion.api.launch run data get storage ssbrc:data fighter.$(fighter).double_jump_strength 12000
 scoreboard players operation $y player_motion.api.launch += #invert_g temp
 
 scoreboard players set $z player_motion.api.launch 0
