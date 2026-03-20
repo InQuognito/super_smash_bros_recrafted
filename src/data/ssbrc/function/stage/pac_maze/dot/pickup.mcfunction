@@ -1,6 +1,6 @@
 scoreboard players add @s pac_maze.scoreboard 10
 
-execute as @n[type=minecraft:item_display,tag=dot,distance=..0.75] run function ssbrc:stage/pac_maze/dot/get
+execute as @n[type=minecraft:item_display,tag=dot,distance=...75] run function ssbrc:stage/pac_maze/dot/get
 
 scoreboard players add dots temp 1
 $execute if score dots temp matches 120.. run function ssbrc:stage/pac_maze/fruit/spawn {variant:"$(variant)"}
