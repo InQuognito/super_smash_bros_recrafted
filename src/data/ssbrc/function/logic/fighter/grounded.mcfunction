@@ -1,3 +1,5 @@
+attribute InQuognito minecraft:gravity modifier remove ssbrc:jump
+
 scoreboard players set @s jump 0
 
 execute if items entity @s armor.body *[minecraft:custom_data~{temp: {fighter: {fighter: "altered_beast", form: "weredragon"}}}] run return run scoreboard players set @s jumps 3
