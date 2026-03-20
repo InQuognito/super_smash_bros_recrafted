@@ -10,6 +10,7 @@ attribute @s minecraft:fall_damage_multiplier base set 0.0
 attribute @s minecraft:fall_damage_multiplier modifier remove ssbrc:launched
 
 attribute @s minecraft:gravity base reset
+attribute @s minecraft:gravity modifier remove ssbrc:jump
 attribute @s minecraft:gravity modifier remove ssbrc:zero
 
 attribute @s minecraft:jump_strength base reset
