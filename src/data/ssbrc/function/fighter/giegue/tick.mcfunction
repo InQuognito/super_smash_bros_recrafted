@@ -4,5 +4,5 @@ execute if score @s charge.1 matches 1.. anchored eyes positioned ^ ^ ^.5 run fu
 # 4th Dimensional Slip
 execute if entity @s[scores={silenced=..0,cooldown.3=..0},predicate=ssbrc:flag/sneaking] positioned ~ ~.1 ~ run function ssbrc:fighter/giegue/4th_dimensional_slip/activate
 
-scoreboard players set @s[scores={charge.2=1..}] charge.2 1
+scoreboard players add @s[scores={charge.2=1..}] charge.2 1
 execute if score @s charge.2 matches 10.. run function ssbrc:fighter/giegue/jump/reset
