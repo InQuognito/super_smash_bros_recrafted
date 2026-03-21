@@ -4,7 +4,7 @@ particle minecraft:composter ~ ~ ~ .25 .25 .25 0 25 normal @a
 
 execute if score @s temp matches ..19 unless block ~ ~.2 ~ #ssbrc:passthrough run return run function ssbrc:fighter/ness/pk_flash/explode
 execute if score @s temp matches 20.. unless block ~ ~-.3 ~ #ssbrc:passthrough run return run function ssbrc:fighter/ness/pk_flash/explode
-execute if score @s temp matches 80.. run return run function ssbrc:fighter/ness/pk_flash/explode
+execute if score @s temp matches 120.. run return run function ssbrc:fighter/ness/pk_flash/explode
 
 function ssbrc:fighter/ness/pk_flash/vertical_movement
 
