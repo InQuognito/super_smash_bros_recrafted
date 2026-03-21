@@ -22,6 +22,6 @@
 		}
 	},
 	"rewards": {
-		"function": "ssbrc:fighter/yar/drone/commands/activtate/activate"
+		"function": "ssbrc:fighter/team_rocket/weezing/commands/stop/weezing"
 	}
 }

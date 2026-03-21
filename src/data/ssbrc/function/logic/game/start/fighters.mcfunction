@@ -15,9 +15,9 @@ scoreboard players set @s rotation 0
 scoreboard players set @s shadow.chaos_control 0
 scoreboard players set @s silenced 0
 
+function ssbrc:logic/fighter/attributes/defaults with entity @s equipment.body.components."minecraft:custom_data".temp.fighter
 function ssbrc:logic/fighter/kit with entity @s equipment.body.components."minecraft:custom_data".temp.fighter
 
-function ssbrc:logic/fighter/attributes/defaults with entity @s equipment.body.components."minecraft:custom_data".temp.fighter
 function ssbrc:logic/fighter/effects/default
 
 function ssbrc:logic/pre_game/bonuses/all
