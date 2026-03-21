@@ -4,7 +4,7 @@ $execute unless items entity @s container.* *[minecraft:custom_data~{item: "goro
 
 $execute unless items entity @s container.* *[minecraft:custom_data~{item: "goron_locket"}] store success score #damage_success temp run damage @s $(amount) ssbrc:$(type)$(source)
 
-$execute unless items entity @s container.* *[minecraft:custom_data~{item: "goron_locket"}] run scoreboard players set @s burning $(burning)
+$execute unless score @s burning matches 1.. unless items entity @s container.* *[minecraft:custom_data~{item: "goron_locket"}] run scoreboard players set @s burning $(burning)
 
 $data modify storage ssbrc:temp cache.damage.source set value "$(source)"
 function ssbrc:logic/damage/common
