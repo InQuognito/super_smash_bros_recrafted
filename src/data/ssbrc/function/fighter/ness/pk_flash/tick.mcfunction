@@ -8,7 +8,7 @@ execute if score @s temp matches 120.. run return run function ssbrc:fighter/nes
 
 function ssbrc:fighter/ness/pk_flash/vertical_movement
 
-function ssbrc:logic/block/execute_at_ground {result: "function ssbrc:logic/vfx/circle {radius: .5, particle: \"minecraft:dust{color: [0, 1, 0], scale: .25} ~ ~ ~ 0 0 0 0 1 force @s\"}"}
+function ssbrc:logic/block/execute_at_ground {result: "function ssbrc:logic/vfx/circle {radius: .5, particle: \"composter\", selector: \"force @s\"}"}
 
 execute unless score #pk_flash_down temp matches 1 at @s anchored eyes rotated as @a[tag=self,limit=1] rotated ~ 0 positioned ^ ^ ^5 rotated as @s positioned ^ ^ ^.1 facing entity @s eyes facing ^ ^ ^-1 positioned as @s run teleport @s ^ ^ ^.3 ~ ~
 scoreboard players reset #pk_flash_down temp
