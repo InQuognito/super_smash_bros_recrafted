@@ -1,6 +1,6 @@
 particle minecraft:portal ~ ~.75 ~ 0 0 0 .5 25 normal @a
 
-scoreboard players set #n temp 50
+scoreboard players set #n temp 40
 function ssbrc:fighter/giegue/jump/loop
 
 playsound ssbrc:fighter.giegue.4th_dimensional_slip.activate player @a
