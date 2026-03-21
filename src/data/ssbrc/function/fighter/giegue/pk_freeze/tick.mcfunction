@@ -1,4 +1,4 @@
-execute if entity @s[tag=!pk_freeze.split,scores={temp=30..}] run return run function ssbrc:fighter/giegue/pk_freeze/split
+execute if score @s[tag=!pk_freeze.split] temp matches 30.. run return run function ssbrc:fighter/giegue/pk_freeze/split
 
 scoreboard players set #n temp 4
 
