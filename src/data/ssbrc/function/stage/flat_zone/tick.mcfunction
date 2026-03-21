@@ -35,6 +35,7 @@ execute if score #flat_zone.middle_platform temp matches 280 positioned -6 -1 4 
 execute if score #flat_zone.middle_platform temp matches 360 positioned -6 -1 4 run function ssbrc:stage/flat_zone/middle_platform/warn
 execute if score #flat_zone.middle_platform temp matches 380 positioned -6 -1 -7 run function ssbrc:stage/flat_zone/middle_platform/activate
 execute if score #flat_zone.middle_platform temp matches 460 positioned -6 -1 -7 run function ssbrc:stage/flat_zone/middle_platform/warn
+execute if score #flat_zone.middle_platform temp matches 460 run scoreboard players reset #flat_zone.middle_platform temp
 
 scoreboard players add #flat_zone.parkour_platform temp 1
 execute if score #flat_zone.house_light temp matches 60 run function ssbrc:stage/flat_zone/parkour_platform/activate
