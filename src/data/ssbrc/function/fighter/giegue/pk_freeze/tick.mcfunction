@@ -1,5 +1,3 @@
-execute if score @s[tag=!pk_freeze.split] temp matches 30.. run return run function ssbrc:fighter/giegue/pk_freeze/split
-
 scoreboard players set #n temp 4
 
 function ssbrc:fighter/giegue/pk_freeze/move_forward
@@ -12,5 +10,6 @@ execute if score #cache temp matches 4 run function ssbrc:fighter/greninja/water
 scoreboard players reset #cache temp
 
 scoreboard players add @s temp 1
+execute if score @s[tag=!pk_freeze.split] temp matches 30.. run return run function ssbrc:fighter/giegue/pk_freeze/split
 kill @s[tag=pk_freeze.split,scores={temp=15..}]
 kill @s[scores={temp=30..}]
