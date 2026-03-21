@@ -1,6 +1,13 @@
 tag @s add pk_freeze
 tag @s add pk_freeze.split
 
-function ssbrc:logic/init/id
+item replace entity @s contents with minecraft:ice
 
-rotate @s ~ ~
+data merge entity @s { \
+	transformation: { \
+		scale: [.25f, .25f, .25f], \
+	}, \
+	teleport_duration: 1, \
+}
+
+function ssbrc:logic/init/projectile
