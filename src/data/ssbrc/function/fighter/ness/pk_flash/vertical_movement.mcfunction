@@ -1,4 +1,4 @@
-execute if score #pk_flash_down temp matches 1 run return run teleport @s ~ ~-.3 ~
+execute if score #pk_flash_down temp matches 1 run return run teleport @s ~ ~-.35 ~
 
 execute if score @s temp matches 46.. run return run teleport @s ~ ~-.25 ~
 execute if score @s temp matches 43..45 run return run teleport @s ~ ~-.225 ~

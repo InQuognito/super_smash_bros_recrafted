@@ -1,6 +1,7 @@
-particle minecraft:dust_color_transition{from_color: [.25,0,.25], to_color: [.75,.5,1], scale: .5} ~ ~ ~ .5 0 .5 0 50 force @a
+particle minecraft:dragon_breath ~ ~-.4 ~ .6 0 .6 0 30 force @a
+particle minecraft:dust_color_transition{from_color:[1,0,1],to_color:[0,0,0],scale:1} ~-2 ~-.3 ~ .5 0 .5 0 5 normal @a
 
-effect give @e[predicate=ssbrc:target,distance=..2] minecraft:poison 1 1 true
+effect give @e[predicate=ssbrc:target,distance=..2] minecraft:poison 3 2 true
 
 scoreboard players add @s temp 1
 kill @s[scores={temp=200..}]

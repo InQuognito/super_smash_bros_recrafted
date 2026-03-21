@@ -1,4 +1,4 @@
-advancement revoke @s only ssbrc:utility/use_item/fighter/team_rocket/meowth/fury_swipes
+advancement revoke @s only ssbrc:utility/use_item/fighter/team_rocket/meowth/scratch
 
 scoreboard players set @s charge.1 1
 

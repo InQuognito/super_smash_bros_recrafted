@@ -2016,12 +2016,22 @@ fighters = {
 			'acid': {
 				'type': 'ability',
 				'stats': {
-					'tag': 'ranged',
 					'cooldown_group': 'team_rocket/acid',
-					'cooldown': 15
+					'cooldown': 8
 				},
 				'default': {
 					'name': 'ssbrc.fighter.team_rocket.acid',
+					'color': 'light_purple'
+				}
+			},
+			'weezing': {
+				'type': 'ability',
+				'stats': {
+					'cooldown_group': 'team_rocket/weezing',
+					'cooldown': 0.25
+				},
+				'default': {
+					'name': 'ssbrc.fighter.team_rocket.weezing',
 					'color': 'light_purple'
 				}
 			},
@@ -2039,7 +2049,6 @@ fighters = {
 			'destiny_bond': {
 				'type': 'ability',
 				'stats': {
-					'tag': 'ranged',
 					'cooldown_group': 'team_rocket/destiny_bond',
 					'cooldown': 30
 				},
@@ -2051,7 +2060,6 @@ fighters = {
 			'splash': {
 				'type': 'ability',
 				'stats': {
-					'tag': 'ranged',
 					'cooldown_group': 'team_rocket/splash',
 					'cooldown': 1
 				},

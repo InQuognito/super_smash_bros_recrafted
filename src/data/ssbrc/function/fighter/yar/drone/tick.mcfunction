@@ -7,15 +7,15 @@ execute if score #percentage temp matches ..50 run particle minecraft:electric_s
 execute if score #percentage temp matches ..25 run particle minecraft:smoke ~ ~.5 ~ .2 .2 .2 .01 1 normal @a
 execute if score #percentage temp matches ..10 run particle minecraft:small_flame ~ ~.5 ~ .2 .2 .2 .025 1 normal @a
 
-execute unless data entity @s data{command:"stop"} unless block ^ ^ ^1 #ssbrc:passthrough run function ssbrc:fighter/yar/drone/commands/stop/drone_force
+execute unless data entity @s data{command: "stop"} unless block ^ ^ ^1 #ssbrc:passthrough run function ssbrc:fighter/yar/drone/commands/stop/drone_force
 
 teleport @e[type=minecraft:item,distance=..1] @s
 
 execute as @a[tag=cloaked,distance=..10] run function ssbrc:logic/fighter/effects/glowing/uncloak
 
-execute if data entity @s[scores={cooldown=..0}] data{command:"stop"} facing entity @n[tag=!self,predicate=ssbrc:target,distance=0.1..3] eyes run function ssbrc:fighter/yar/drone/projectile/activate
+execute if data entity @s[scores={cooldown=..0}] data{command: "stop"} facing entity @n[tag=!self,predicate=ssbrc:target,distance=0.1..3] eyes run function ssbrc:fighter/yar/drone/projectile/activate
 
-execute if data entity @s data{command:"recall"} positioned ~-.5 ~-.5 ~-.5 as @a[tag=self,limit=1,dx=0] run function ssbrc:fighter/yar/drone/recall
+execute if data entity @s data{command: "recall"} positioned ~-.5 ~-.5 ~-.5 as @a[tag=self,limit=1,dx=0] run function ssbrc:fighter/yar/drone/recall
 
 function ssbrc:fighter/yar/drone/check
 

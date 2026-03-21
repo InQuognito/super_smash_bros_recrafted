@@ -19,6 +19,7 @@ scoreboard objectives remove cooldown.3
 scoreboard objectives remove crawling
 scoreboard objectives remove deaths
 scoreboard objectives remove dialogue
+scoreboard objectives remove double_jump_strength
 scoreboard objectives remove drop_item
 scoreboard objectives remove durability
 scoreboard objectives remove duration.1

@@ -4,6 +4,10 @@ function ssbrc:logic/item/init/slot {item: "poison_jab", slot: "hotbar.0", class
 
 function ssbrc:logic/item/init/slot {item: "acid", slot: "hotbar.1", class: "default", type: "default"}
 
+function ssbrc:logic/item/init/slot {item: "weezing", slot: "hotbar.2", class: "default", type: "default"}
+
+execute anchored eyes positioned ^ ^ ^-1 summon minecraft:happy_ghast run function ssbrc:fighter/team_rocket/weezing/init
+
 item modify entity @s armor.chest [ \
 	{ \
 		function: "minecraft:reference", \
@@ -28,3 +32,7 @@ item modify entity @s armor.chest [ \
 		mode: "append", \
 	}, \
 ]
+
+attribute @s minecraft:max_health base set 32
+attribute @s minecraft:movement_speed modifier add ssbrc:fighter_speed .075 add_multiplied_base
+scoreboard players set @s double_jump_strength 5040
