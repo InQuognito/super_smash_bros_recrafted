@@ -1,10 +1,10 @@
-execute positioned 325.5 10 3261.5 summon minecraft:armor_stand run function ssbrc:stage/sector_z/armor_stands/krystal
-execute positioned 335.5 26 3306.5 summon minecraft:armor_stand run function ssbrc:stage/sector_z/armor_stands/leon
-execute positioned 255.5 16 3297.5 summon minecraft:armor_stand run function ssbrc:stage/sector_z/armor_stands/panther
-execute positioned 280.5 15 3298.5 summon minecraft:armor_stand run function ssbrc:stage/sector_z/armor_stands/peppy
-execute positioned 253.5 30 3259.5 summon minecraft:armor_stand run function ssbrc:stage/sector_z/armor_stands/pigma
-execute positioned 306.5 30 3253.5 summon minecraft:armor_stand run function ssbrc:stage/sector_z/armor_stands/rob_64
-execute positioned 293.5 28 3256.5 summon minecraft:armor_stand run function ssbrc:stage/sector_z/armor_stands/slippy
+execute positioned 19 -20 -10 rotated 90 0 summon minecraft:armor_stand run function ssbrc:stage/sector_z/npc/generic {name: "krystal"}
+execute positioned 29 -4 35 rotated 180 0 summon minecraft:armor_stand run function ssbrc:stage/sector_z/npc/generic {name: "leon"}
+execute positioned -51 -14 26 rotated -90 0 summon minecraft:armor_stand run function ssbrc:stage/sector_z/npc/generic {name: "panther"}
+execute positioned -26 -15 27 rotated -90 0 summon minecraft:armor_stand run function ssbrc:stage/sector_z/npc/generic {name: "peppy"}
+execute positioned -53 0 -12 rotated 180 0 summon minecraft:armor_stand run function ssbrc:stage/sector_z/npc/generic {name: "pigma"}
+execute positioned 0 0 -18 rotated 180 0 summon minecraft:armor_stand run function ssbrc:stage/sector_z/npc/rob_64
+execute positioned -13 -2 -15 rotated 180 0 summon minecraft:armor_stand run function ssbrc:stage/sector_z/npc/generic {name: "slippy"}
 
 scoreboard players operation #fall_distance.low const *= #2 const
 scoreboard players operation #fall_distance.medium const *= #2 const
