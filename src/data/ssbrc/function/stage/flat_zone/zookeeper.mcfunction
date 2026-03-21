@@ -1,3 +1,5 @@
+$scoreboard players reset #flat_zone.zookeeper.$(id) temp
+
 fill ~ ~ ~ ~ ~7 ~ minecraft:white_concrete replace
 
 execute store result score #random temp run random value 1..3
