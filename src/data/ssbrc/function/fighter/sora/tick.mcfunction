@@ -1,3 +1,5 @@
+function ssbrc:logic/fighter/ability/init
+
 # Health
 execute if score @s health matches ..6 run function ssbrc:fighter/sora/low_health_alert/check
 
@@ -15,3 +17,5 @@ execute if score @s charge.3 matches 1.. run function ssbrc:fighter/sora/fire/fi
 
 # Anti Form
 execute if items entity @s armor.body *[minecraft:custom_data~{temp: {fighter: {form: "anti"}}}] positioned ~ ~.75 ~ run function ssbrc:fighter/sora/drive_forms/anti/tick
+
+function ssbrc:logic/fighter/ability/deinit

@@ -1,3 +1,5 @@
+function ssbrc:logic/fighter/ability/init
+
 # Robo Beam
 execute if score @s charge.1 matches ..199 run function ssbrc:fighter/rob/robo_beam/charge
 
@@ -9,3 +11,5 @@ execute if entity @s[scores={silenced=..0,resource=1..,jump.cooldown=..0},predic
 execute unless predicate ssbrc:input/jump run function ssbrc:fighter/rob/robo_burner/deactivate
 
 function ssbrc:fighter/rob/robo_burner/update
+
+function ssbrc:logic/fighter/ability/deinit

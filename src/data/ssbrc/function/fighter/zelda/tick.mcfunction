@@ -1,3 +1,5 @@
+function ssbrc:logic/fighter/ability/init
+
 # Dungeon Items
 execute if items entity @s[scores={fuse=1..}] container.* *[minecraft:custom_data~{item: "bomb"}] run function ssbrc:fighter/zelda/bomb/fuse_tick
 
@@ -30,3 +32,5 @@ execute if score @s zelda.shatter_resist matches 1.. run function ssbrc:fighter/
 execute if score @s zelda.silent_princess matches 1.. run function ssbrc:fighter/zelda/blessings/silent_princess/tick
 
 execute if score @s zelda.special_bond matches 1.. run function ssbrc:fighter/zelda/blessings/special_bond/tick
+
+function ssbrc:logic/fighter/ability/deinit

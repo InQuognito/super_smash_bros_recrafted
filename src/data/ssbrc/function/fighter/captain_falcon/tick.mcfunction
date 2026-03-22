@@ -1,3 +1,5 @@
+function ssbrc:logic/fighter/ability/init
+
 # Raptor Boost
 execute if score @s duration.1 matches 1 run function ssbrc:fighter/captain_falcon/raptor_boost/deactivate
 
@@ -14,3 +16,5 @@ execute if entity @s[tag=!falcon_kick,scores={silenced=..0,cooldown.2=..0},predi
 execute if entity @s[tag=falcon_kick,predicate=ssbrc:flag/on_ground] run function ssbrc:fighter/captain_falcon/falcon_kick/deactivate
 
 execute if entity @s[tag=falcon_kick] run function ssbrc:fighter/captain_falcon/falcon_kick/tick
+
+function ssbrc:logic/fighter/ability/deinit

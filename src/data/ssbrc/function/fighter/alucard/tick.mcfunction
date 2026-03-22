@@ -1,3 +1,5 @@
+function ssbrc:logic/fighter/ability/init
+
 # Holy Water
 execute unless items entity @s[scores={cooldown.2=1,duration.1=..0}] container.* *[minecraft:custom_data~{item: "holy_water"}] run function ssbrc:logic/item/init/slot {item: "holy_water", slot: "hotbar.1", class: "default", type: "consumable"}
 
@@ -8,3 +10,5 @@ execute if score @s duration.1 matches 1.. positioned ~ ~.75 ~ run function ssbr
 
 # Blood Metamorphosis
 execute if items entity @s armor.body *[minecraft:custom_data~{temp: {fighter: {form: "blood_metamorphosis"}}}] run particle minecraft:mycelium ~ ~.5 ~ .35 .7 .35 1 5 normal @a
+
+function ssbrc:logic/fighter/ability/deinit

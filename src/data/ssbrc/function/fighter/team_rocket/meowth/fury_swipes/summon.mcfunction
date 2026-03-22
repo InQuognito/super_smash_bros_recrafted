@@ -4,4 +4,4 @@ execute summon minecraft:marker run function ssbrc:fighter/team_rocket/meowth/fu
 scoreboard players set @s charge.1 0
 
 scoreboard players remove @s charge.2 1
-execute if entity @s[scores={charge.2=0}] run function ssbrc:fighter/team_rocket/meowth/fury_swipes/deactivate
+execute if score @s charge.2 matches 0 run function ssbrc:fighter/team_rocket/meowth/fury_swipes/deactivate

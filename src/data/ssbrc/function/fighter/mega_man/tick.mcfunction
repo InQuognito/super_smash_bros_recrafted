@@ -1,3 +1,5 @@
+function ssbrc:logic/fighter/ability/init
+
 title @s actionbar ""
 
 execute if items entity @s[tag=mega_man.air_shooter] weapon.mainhand *[minecraft:custom_data~{item: "air_shooter"}] run function ssbrc:fighter/mega_man/update {item: "air_shooter"}
@@ -9,3 +11,5 @@ execute if items entity @s[tag=mega_man.junk_shield] weapon.mainhand *[minecraft
 execute if items entity @s[tag=mega_man.metal_blade] weapon.mainhand *[minecraft:custom_data~{item: "metal_blade"}] run function ssbrc:fighter/mega_man/update {item: "metal_blade"}
 execute if entity @s[tag=mega_man.pile_driver] run function ssbrc:fighter/mega_man/pile_driver/item
 execute if items entity @s[tag=mega_man.remote_mine] weapon.mainhand *[minecraft:custom_data~{item: "remote_mine"}] run function ssbrc:fighter/mega_man/update {item: "remote_mine"}
+
+function ssbrc:logic/fighter/ability/deinit

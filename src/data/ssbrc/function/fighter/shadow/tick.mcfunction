@@ -1,3 +1,5 @@
+function ssbrc:logic/fighter/ability/init
+
 # Chaos Spear
 execute if score @s charge.1 matches 1.. anchored eyes positioned ^ ^ ^ run function ssbrc:fighter/shadow/chaos_spear/charge
 
@@ -18,3 +20,5 @@ execute if score in_electric_terrain temp matches 1 run scoreboard players set @
 scoreboard players set @s[scores={silenced=1..}] flag.sprinting 0
 
 function ssbrc:fighter/shadow/speed/tick
+
+function ssbrc:logic/fighter/ability/deinit
