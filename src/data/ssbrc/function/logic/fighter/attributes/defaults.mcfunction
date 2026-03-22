@@ -4,7 +4,7 @@ $function ssbrc:logic/fighter/get/run {function: "ssbrc:logic/fighter/attributes
 
 $function ssbrc:logic/fighter/get/run {function: "ssbrc:logic/fighter/attributes/defaults/max_health", fighter: "$(fighter)"}
 
-execute store result score @s double_jump_strength run data get storage ssbrc:data fighter.$(fighter).double_jump_strength 12000
+$execute store result score @s double_jump_strength run data get storage ssbrc:data fighter.$(fighter).double_jump_strength 12000
 
 attribute @s minecraft:attack_damage base set 1.0
 
