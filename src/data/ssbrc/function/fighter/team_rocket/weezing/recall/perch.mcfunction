@@ -9,4 +9,4 @@ function ssbrc:logic/item/modify { \
 	}, \
 }
 
-execute as @e[type=minecraft:happy_ghast,tag=weezing,predicate=ssbrc:id_match] run data modify entity @s data.command set value "null"
+execute as @e[type=minecraft:bee,tag=weezing,predicate=ssbrc:id_match] run data modify entity @s data.command set value "null"

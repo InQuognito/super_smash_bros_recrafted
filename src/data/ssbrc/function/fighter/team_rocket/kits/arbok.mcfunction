@@ -6,7 +6,7 @@ function ssbrc:logic/item/init/slot {item: "acid", slot: "hotbar.1", class: "def
 
 function ssbrc:logic/item/init/slot {item: "weezing", slot: "hotbar.2", class: "default", type: "default"}
 
-execute anchored eyes positioned ^ ^ ^-1 summon minecraft:happy_ghast run function ssbrc:fighter/team_rocket/weezing/init
+execute anchored eyes positioned ^ ^ ^-1 summon minecraft:bee run function ssbrc:fighter/team_rocket/weezing/init
 
 item modify entity @s armor.chest [ \
 	{ \
