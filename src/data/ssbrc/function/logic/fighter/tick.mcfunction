@@ -18,13 +18,16 @@ execute unless score @s crawling matches 1 positioned ~ ~.601 ~ unless entity @s
 scoreboard players remove @s[scores={cooldown.1=1..}] cooldown.1 1
 scoreboard players remove @s[scores={cooldown.2=1..}] cooldown.2 1
 scoreboard players remove @s[scores={cooldown.3=1..}] cooldown.3 1
-scoreboard players remove @s[scores={jump.cooldown=1..}] jump.cooldown 1
+
 
 scoreboard players remove @s[scores={weapon_1.fire_rate=1..}] weapon_1.fire_rate 1
 
 execute if entity @e[type=minecraft:marker,tag=electric_terrain,distance=..12] run scoreboard players set in_electric_terrain temp 1
 
+scoreboard players remove @s[scores={jump.cooldown=1..}] jump.cooldown 1
+execute if items entity @s[scores={jump=1,jump.cooldown=3}] armor.body *[minecraft:custom_data~{temp: {fighter: {fighter: "ness"}}}] run attribute @s minecraft:gravity modifier add ssbrc:jump -.5 add_multiplied_total
 execute unless score @s[scores={jumps=1..},predicate=ssbrc:input/jump] jump.cooldown matches 1.. run function ssbrc:logic/fighter/jump
+attribute @s[scores={jump.cooldown=0}] minecraft:gravity modifier remove ssbrc:jump
 
 execute store result score @s selected_item run data get entity @s SelectedItemSlot
 execute unless score @s selected_item.prev = @s selected_item run function ssbrc:logic/fighter/change_slot with entity @s equipment.body.components."minecraft:custom_data".temp.fighter
