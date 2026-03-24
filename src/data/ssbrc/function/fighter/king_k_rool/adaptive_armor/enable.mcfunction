@@ -1,7 +1,7 @@
 tag @s add adaptive_armor
 
-attribute @s minecraft:armor modifier remove ssbrc:adaptive_armor
-attribute @s minecraft:knockback_resistance modifier add ssbrc:adaptive_armor .5 add_value
+attribute @s minecraft:armor modifier remove ssbrc:passive
+attribute @s minecraft:knockback_resistance modifier add ssbrc:passive .5 add_value
 
 effect clear @s minecraft:absorption
 execute if score @s charge.1 matches 1 run return run effect give @s minecraft:absorption infinite 1 true

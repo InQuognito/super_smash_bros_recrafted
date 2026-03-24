@@ -4,8 +4,8 @@ function ssbrc:logic/item/init/slot {item: "scratch", slot: "hotbar.0", class: "
 
 function ssbrc:logic/item/init/slot {item: "payday", slot: "hotbar.1", class: "default", type: "default"}
 
-attribute @s minecraft:movement_speed base set .125
-attribute @s minecraft:fall_damage_multiplier modifier add ssbrc:meowth -.75 add_multiplied_total
+attribute @s minecraft:movement_speed modifier add ssbrc:form .25 add_multiplied_total
+attribute @s minecraft:fall_damage_multiplier modifier add ssbrc:form -.75 add_multiplied_total
 
 item modify entity @s armor.chest [ \
 	{ \

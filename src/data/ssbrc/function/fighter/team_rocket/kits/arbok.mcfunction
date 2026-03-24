@@ -33,6 +33,6 @@ item modify entity @s armor.chest [ \
 	}, \
 ]
 
-attribute @s minecraft:max_health base set 32
-attribute @s minecraft:movement_speed modifier add ssbrc:fighter_speed .075 add_multiplied_base
+attribute @s minecraft:max_health modifier add ssbrc:form .075 add_value
+attribute @s minecraft:movement_speed modifier add ssbrc:form .075 add_multiplied_base
 scoreboard players set @s double_jump_strength 5040

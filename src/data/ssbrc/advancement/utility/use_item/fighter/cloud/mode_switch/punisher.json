@@ -13,11 +13,19 @@
 						"condition": "minecraft:entity_properties",
 						"entity": "this",
 						"predicate": {
-							"nbt": {
-								"Tags": [
-									"operator"
-							]
-						}
+							"equipment": {
+								"body": {
+									"predicates": {
+										"custom_data": {
+											"temp": {
+												"fighter": {
+													"form": "default"
+												}
+											}
+										}
+									}
+								}
+							}
 						}
 					},
 					{

@@ -35,8 +35,6 @@ tag @s remove falcon_punch_missed
 
 # Cloud
 tag @s remove cross_slash.target
-tag @s remove operator
-tag @s remove punisher
 
 # Donkey Kong
 tag @s remove hand_slap

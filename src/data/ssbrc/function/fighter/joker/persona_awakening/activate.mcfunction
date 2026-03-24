@@ -14,7 +14,7 @@ execute if items entity @s armor.body *[minecraft:custom_data~{temp: {fighter: {
 execute if items entity @s armor.body *[minecraft:custom_data~{temp: {fighter: {persona: "arsene"}}}] run function ssbrc:logic/item/give/default {item: "eiagon", class: "default", type: "default"}
 execute if items entity @s armor.body *[minecraft:custom_data~{temp: {fighter: {persona: "high_pixie"}}}] run function ssbrc:logic/item/give/default {item: "amrita_shower", class: "default", type: "default"}
 execute if items entity @s armor.body *[minecraft:custom_data~{temp: {fighter: {persona: "raoul"}}}] run function ssbrc:logic/item/give/default {item: "phantom_show", class: "default", type: "default"}
-execute if items entity @s armor.body *[minecraft:custom_data~{temp: {fighter: {persona: "yatagarasu"}}}] run attribute @s minecraft:knockback_resistance modifier add ssbrc:yatagarasu .25 add_value
+execute if items entity @s armor.body *[minecraft:custom_data~{temp: {fighter: {persona: "yatagarasu"}}}] run attribute @s minecraft:knockback_resistance modifier add ssbrc:passive .25 add_value
 
 function ssbrc:logic/player/data/set {data: {temp: {fighter: {form: "awakening"}}}}
 function ssbrc:logic/fighter/armor/update with entity @s equipment.body.components."minecraft:custom_data".temp.fighter

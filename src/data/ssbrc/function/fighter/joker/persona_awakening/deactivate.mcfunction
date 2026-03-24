@@ -7,7 +7,7 @@ $function ssbrc:logic/item/modify {search_key: "group", search_value: "persona",
 
 clear @s *[minecraft:custom_data~{group: "persona_awakening"}]
 
-attribute @s minecraft:knockback_resistance modifier remove ssbrc:yatagarasu
+attribute @s minecraft:knockback_resistance modifier remove ssbrc:passive
 
 function ssbrc:logic/player/data/set {data: {temp: {fighter: {form: "default"}}}}
 function ssbrc:logic/fighter/armor/update with entity @s equipment.body.components."minecraft:custom_data".temp.fighter

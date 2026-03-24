@@ -1,1 +1,1 @@
-attribute @s minecraft:jump_strength modifier remove ssbrc:super_jump
+attribute @s minecraft:jump_strength modifier remove ssbrc:active

@@ -3390,7 +3390,8 @@ fighters = {
 			}
 		},
 		'forms': [
-			'default'
+			'default',
+			'punisher'
 		],
 		'items': {
 			'buster_sword': {

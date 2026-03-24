@@ -7,5 +7,5 @@ scoreboard players set @s charge.2 0
 
 clear @s *[minecraft:custom_data~{item: "keyblade"}]
 
-attribute @s minecraft:attack_damage modifier add ssbrc:anti_form 4 add_multiplied_base
-attribute @s minecraft:attack_speed modifier add ssbrc:anti_form 1 add_multiplied_base
+attribute @s minecraft:attack_damage modifier add ssbrc:form 4 add_multiplied_base
+attribute @s minecraft:attack_speed modifier add ssbrc:form 1 add_multiplied_base
