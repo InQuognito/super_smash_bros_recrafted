@@ -13,20 +13,68 @@
 							"when": "firstperson_lefthand",
 							"model": {
 								"type": "minecraft:model",
-								"model": "ssbrc:fighter/captain_falcon/item/fists_of_fury/gold/left"
+								"model": "ssbrc:fighter/captain_falcon/item/fists_of_fury/gold",
+								"transformation": {
+									"translation": [
+										0,
+										0,
+										0
+									],
+									"left_rotation": [
+										0,
+										0,
+										0,
+										0
+									],
+									"right_rotation": [
+										0,
+										0,
+										0,
+										0
+									],
+									"scale": [
+										-1,
+										0,
+										0
+									]
+								}
 							}
 						},
 						{
 							"when": "thirdperson_lefthand",
 							"model": {
 								"type": "minecraft:model",
-								"model": "ssbrc:fighter/captain_falcon/item/fists_of_fury/gold/left"
+								"model": "ssbrc:fighter/captain_falcon/item/fists_of_fury/gold",
+								"transformation": {
+									"translation": [
+										0,
+										0,
+										0
+									],
+									"left_rotation": [
+										0,
+										0,
+										0,
+										0
+									],
+									"right_rotation": [
+										0,
+										0,
+										0,
+										0
+									],
+									"scale": [
+										-1,
+										0,
+										0
+									]
+								}
 							}
 						}
 					],
 					"fallback": {
 						"type": "minecraft:model",
-						"model": "ssbrc:fighter/captain_falcon/item/fists_of_fury/gold/default"
+						"model": "ssbrc:fighter/captain_falcon/item/fists_of_fury/gold"
 					}
 				}
 			},
@@ -40,20 +88,68 @@
 							"when": "firstperson_lefthand",
 							"model": {
 								"type": "minecraft:model",
-								"model": "ssbrc:fighter/captain_falcon/item/fists_of_fury/blood_falcon/left"
+								"model": "ssbrc:fighter/captain_falcon/item/fists_of_fury/blood_falcon",
+								"transformation": {
+									"translation": [
+										0,
+										0,
+										0
+									],
+									"left_rotation": [
+										0,
+										0,
+										0,
+										0
+									],
+									"right_rotation": [
+										0,
+										0,
+										0,
+										0
+									],
+									"scale": [
+										-1,
+										0,
+										0
+									]
+								}
 							}
 						},
 						{
 							"when": "thirdperson_lefthand",
 							"model": {
 								"type": "minecraft:model",
-								"model": "ssbrc:fighter/captain_falcon/item/fists_of_fury/blood_falcon/left"
+								"model": "ssbrc:fighter/captain_falcon/item/fists_of_fury/blood_falcon",
+								"transformation": {
+									"translation": [
+										0,
+										0,
+										0
+									],
+									"left_rotation": [
+										0,
+										0,
+										0,
+										0
+									],
+									"right_rotation": [
+										0,
+										0,
+										0,
+										0
+									],
+									"scale": [
+										-1,
+										0,
+										0
+									]
+								}
 							}
 						}
 					],
 					"fallback": {
 						"type": "minecraft:model",
-						"model": "ssbrc:fighter/captain_falcon/item/fists_of_fury/blood_falcon/default"
+						"model": "ssbrc:fighter/captain_falcon/item/fists_of_fury/blood_falcon"
 					}
 				}
 			},
@@ -67,20 +163,68 @@
 							"when": "firstperson_lefthand",
 							"model": {
 								"type": "minecraft:model",
-								"model": "ssbrc:fighter/captain_falcon/item/fists_of_fury/super_falcon/left"
+								"model": "ssbrc:fighter/captain_falcon/item/fists_of_fury/super_falcon",
+								"transformation": {
+									"translation": [
+										0,
+										0,
+										0
+									],
+									"left_rotation": [
+										0,
+										0,
+										0,
+										0
+									],
+									"right_rotation": [
+										0,
+										0,
+										0,
+										0
+									],
+									"scale": [
+										-1,
+										0,
+										0
+									]
+								}
 							}
 						},
 						{
 							"when": "thirdperson_lefthand",
 							"model": {
 								"type": "minecraft:model",
-								"model": "ssbrc:fighter/captain_falcon/item/fists_of_fury/super_falcon/left"
+								"model": "ssbrc:fighter/captain_falcon/item/fists_of_fury/super_falcon",
+								"transformation": {
+									"translation": [
+										0,
+										0,
+										0
+									],
+									"left_rotation": [
+										0,
+										0,
+										0,
+										0
+									],
+									"right_rotation": [
+										0,
+										0,
+										0,
+										0
+									],
+									"scale": [
+										-1,
+										0,
+										0
+									]
+								}
 							}
 						}
 					],
 					"fallback": {
 						"type": "minecraft:model",
-						"model": "ssbrc:fighter/captain_falcon/item/fists_of_fury/super_falcon/default"
+						"model": "ssbrc:fighter/captain_falcon/item/fists_of_fury/super_falcon"
 					}
 				}
 			},
@@ -94,20 +238,68 @@
 							"when": "firstperson_lefthand",
 							"model": {
 								"type": "minecraft:model",
-								"model": "ssbrc:fighter/captain_falcon/item/fists_of_fury/rick_wheeler/left"
+								"model": "ssbrc:fighter/captain_falcon/item/fists_of_fury/rick_wheeler",
+								"transformation": {
+									"translation": [
+										0,
+										0,
+										0
+									],
+									"left_rotation": [
+										0,
+										0,
+										0,
+										0
+									],
+									"right_rotation": [
+										0,
+										0,
+										0,
+										0
+									],
+									"scale": [
+										-1,
+										0,
+										0
+									]
+								}
 							}
 						},
 						{
 							"when": "thirdperson_lefthand",
 							"model": {
 								"type": "minecraft:model",
-								"model": "ssbrc:fighter/captain_falcon/item/fists_of_fury/rick_wheeler/left"
+								"model": "ssbrc:fighter/captain_falcon/item/fists_of_fury/rick_wheeler",
+								"transformation": {
+									"translation": [
+										0,
+										0,
+										0
+									],
+									"left_rotation": [
+										0,
+										0,
+										0,
+										0
+									],
+									"right_rotation": [
+										0,
+										0,
+										0,
+										0
+									],
+									"scale": [
+										-1,
+										0,
+										0
+									]
+								}
 							}
 						}
 					],
 					"fallback": {
 						"type": "minecraft:model",
-						"model": "ssbrc:fighter/captain_falcon/item/fists_of_fury/rick_wheeler/default"
+						"model": "ssbrc:fighter/captain_falcon/item/fists_of_fury/rick_wheeler"
 					}
 				}
 			}
@@ -120,20 +312,68 @@
 					"when": "firstperson_lefthand",
 					"model": {
 						"type": "minecraft:model",
-						"model": "ssbrc:fighter/captain_falcon/item/fists_of_fury/default/left"
+						"model": "ssbrc:fighter/captain_falcon/item/fists_of_fury/default",
+						"transformation": {
+							"translation": [
+								0,
+								0,
+								0
+							],
+							"left_rotation": [
+								0,
+								0,
+								0,
+								0
+							],
+							"right_rotation": [
+								0,
+								0,
+								0,
+								0
+							],
+							"scale": [
+								-1,
+								0,
+								0
+							]
+						}
 					}
 				},
 				{
 					"when": "thirdperson_lefthand",
 					"model": {
 						"type": "minecraft:model",
-						"model": "ssbrc:fighter/captain_falcon/item/fists_of_fury/default/left"
+						"model": "ssbrc:fighter/captain_falcon/item/fists_of_fury/default",
+						"transformation": {
+							"translation": [
+								0,
+								0,
+								0
+							],
+							"left_rotation": [
+								0,
+								0,
+								0,
+								0
+							],
+							"right_rotation": [
+								0,
+								0,
+								0,
+								0
+							],
+							"scale": [
+								-1,
+								0,
+								0
+							]
+						}
 					}
 				}
 			],
 			"fallback": {
 				"type": "minecraft:model",
-				"model": "ssbrc:fighter/captain_falcon/item/fists_of_fury/default/default"
+				"model": "ssbrc:fighter/captain_falcon/item/fists_of_fury/default"
 			}
 		}
 	},
