@@ -19,7 +19,6 @@ scoreboard players remove @s[scores={cooldown.1=1..}] cooldown.1 1
 scoreboard players remove @s[scores={cooldown.2=1..}] cooldown.2 1
 scoreboard players remove @s[scores={cooldown.3=1..}] cooldown.3 1
 
-
 scoreboard players remove @s[scores={weapon_1.fire_rate=1..}] weapon_1.fire_rate 1
 
 execute if entity @e[type=minecraft:marker,tag=electric_terrain,distance=..12] run scoreboard players set in_electric_terrain temp 1
