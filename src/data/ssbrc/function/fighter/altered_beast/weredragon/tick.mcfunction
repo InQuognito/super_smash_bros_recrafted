@@ -1,5 +1,5 @@
 # Wings
-execute if entity @s[predicate=ssbrc:flag/sneaking,predicate=!ssbrc:flag/on_ground] run function ssbrc:logic/fighter/slow_falling
+execute if entity @s[predicate=ssbrc:flag/sneaking] unless function ssbrc:logic/fighter/flags/grounded run function ssbrc:logic/fighter/slow_falling
 effect clear @s[predicate=!ssbrc:flag/sneaking] minecraft:slow_falling
 
 # Electrocution

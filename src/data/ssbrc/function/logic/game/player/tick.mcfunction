@@ -7,6 +7,6 @@ gamemode spectator @s[team=spectator]
 execute if predicate ssbrc:ingame run function ssbrc:logic/game/player/ingame
 
 execute if entity @s[tag=launched] run function ssbrc:logic/fighter/motion/launched
-execute if predicate ssbrc:flag/on_ground run function ssbrc:logic/fighter/grounded
+execute if function ssbrc:logic/fighter/flags/grounded run function ssbrc:logic/fighter/grounded
 
 execute if entity @s[team=!admin,tag=alive,scores={respawn=..0},gamemode=!adventure,gamemode=!spectator] run function ssbrc:logic/game/team/admin

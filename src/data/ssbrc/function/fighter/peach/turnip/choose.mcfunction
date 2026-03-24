@@ -1,5 +1,3 @@
-advancement revoke @s only ssbrc:utility/use_item/fighter/peach/turnip/choose
-
 execute store result score #random temp run random value 1..10054
 
 execute if score #random temp matches 6015..7028 run return run function ssbrc:fighter/peach/turnip/set {turnip: "stare"}

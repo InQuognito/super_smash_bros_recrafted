@@ -6,7 +6,7 @@ execute if entity @s[tag=flame_arrow] run return run function ssbrc:fighter/alte
 # Alucard
 execute if entity @s[tag=mist] run return run function ssbrc:fighter/alucard/mist/tick_entity
 execute if entity @s[tag=holy_water.vehicle,tag=!falling] if function ssbrc:logic/fighter/check/raycast/block run return run function ssbrc:fighter/alucard/holy_water/drip_below
-execute if entity @s[tag=holy_water,predicate=ssbrc:flag/on_ground] run return run function ssbrc:fighter/alucard/holy_water/tick
+execute if entity @s[tag=holy_water] if function ssbrc:logic/fighter/flags/grounded run return run function ssbrc:fighter/alucard/holy_water/tick
 
 # Byleth
 execute if entity @s[tag=steed_charge] run return run function ssbrc:fighter/byleth/blue_lions/steed_charge/tick

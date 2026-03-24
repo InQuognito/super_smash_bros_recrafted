@@ -1,1 +1,1 @@
-execute if entity @s[scores={motion_y=..-100},predicate=!ssbrc:flag/on_ground] positioned ~-.4 ~-.1 ~-.4 as @e[tag=!self,predicate=ssbrc:target,dy=0] positioned ~-.2 ~-.8 ~-.2 if entity @s[dy=0] run function ssbrc:fighter/mario/stomp/hit
+execute if score @s motion_y matches ..-100 unless function ssbrc:logic/fighter/flags/grounded positioned ~-.4 ~-.1 ~-.4 as @e[tag=!self,predicate=ssbrc:target,dy=0] positioned ~-.2 ~-.8 ~-.2 if entity @s[dy=0] run function ssbrc:fighter/mario/stomp/hit

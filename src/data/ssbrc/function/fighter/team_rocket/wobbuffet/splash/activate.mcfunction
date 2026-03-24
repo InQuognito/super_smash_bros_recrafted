@@ -7,5 +7,3 @@ execute as @e[tag=!self,predicate=ssbrc:target,distance=..0.5] run damage @s .1 
 function ssbrc:logic/fighter/jump/impulse with entity @s equipment.body.components."minecraft:custom_data".temp.fighter
 
 playsound ssbrc:fighter.team_rocket.wobbuffet.splash.activate player @a
-
-function ssbrc:logic/fighter/ability/deinit

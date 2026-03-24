@@ -5,7 +5,7 @@ scoreboard players set @s rotation 1000
 
 function ssbrc:fighter/toon_link/sword_spin/hit
 
-execute unless predicate ssbrc:flag/on_ground run function ssbrc:fighter/toon_link/sword_spin/levitate
+execute unless function ssbrc:logic/fighter/flags/grounded run function ssbrc:fighter/toon_link/sword_spin/levitate
 
 function ssbrc:logic/item/data/set {item: "master_sword", flag_key: "spinning", flag_value: "true"}
 

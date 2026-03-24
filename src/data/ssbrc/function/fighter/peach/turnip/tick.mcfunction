@@ -1,6 +1,6 @@
 execute positioned ~-.4 ~-.4 ~-.4 as @e[tag=!self,predicate=ssbrc:target,dx=0] positioned ~-.2 ~-.2 ~-.2 if entity @s[dx=0] run function ssbrc:logic/damage/generic {amount: 6, type: "pierce", kb_resist: 0, source: " by @a[tag=self,limit=1]"}
 
-scoreboard players add @s[predicate=ssbrc:flag/on_ground] timer 1
+execute if function ssbrc:logic/fighter/flags/grounded run scoreboard players add @s timer 1
 kill @s[scores={timer=20..}]
 
 scoreboard players add @s temp 1

@@ -2240,13 +2240,13 @@ fighters = {
 		'default': True,
 		'skins': {
 			'gold': {},
-			'super_falcon': {
-				'rarity': 'uncommon',
-				'color': 'gray'
-			},
 			'blood_falcon': {
 				'rarity': 'rare',
 				'color': 'dark_red'
+			},
+			'super_falcon': {
+				'rarity': 'uncommon',
+				'color': 'gray'
 			},
 			'rick_wheeler': {
 				'rarity': 'rare',
