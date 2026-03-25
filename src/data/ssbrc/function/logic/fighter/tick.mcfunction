@@ -21,7 +21,7 @@ scoreboard players remove @s[scores={cooldown.3=1..}] cooldown.3 1
 
 scoreboard players remove @s[scores={weapon_1.fire_rate=1..}] weapon_1.fire_rate 1
 
-execute if entity @e[type=minecraft:marker,tag=electric_terrain,distance=..12] run scoreboard players set in_electric_terrain temp 1
+execute if entity @e[type=minecraft:marker,tag=electric_terrain,distance=..12] run scoreboard players set #in_electric_terrain temp 1
 
 scoreboard players remove @s[scores={jump.cooldown=-4..}] jump.cooldown 1
 execute if items entity @s[scores={jump=1,jump.cooldown=3}] armor.body *[minecraft:custom_data~{temp: {fighter: {fighter: "ness"}}}] run attribute @s minecraft:gravity modifier add ssbrc:jump -.5 add_multiplied_total

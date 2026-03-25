@@ -20,6 +20,6 @@ execute if data entity @s data{command: "recall"} positioned ~-.5 ~-.5 ~-.5 as @
 function ssbrc:fighter/yar/drone/check
 
 execute if score #percentage temp matches ..0 run function ssbrc:fighter/yar/drone/kill
-execute if score in_electric_terrain temp matches 1 run function ssbrc:fighter/yar/drone/kill
+execute if score #in_electric_terrain temp matches 1 run function ssbrc:fighter/yar/drone/kill
 
 scoreboard players remove @s[scores={cooldown=1..}] cooldown 1

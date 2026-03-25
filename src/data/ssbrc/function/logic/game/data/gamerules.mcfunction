@@ -20,8 +20,8 @@ gamerule keep_inventory true
 gamerule lava_source_conversion false
 gamerule log_admin_commands true
 gamerule max_block_modifications 5000000
-gamerule max_command_forks 100000
-gamerule max_command_sequence_length 100000
+gamerule max_command_forks 10000000
+gamerule max_command_sequence_length 10000000
 gamerule max_entity_cramming 24
 gamerule max_snow_accumulation_height 0
 gamerule mob_explosion_drop_decay false
