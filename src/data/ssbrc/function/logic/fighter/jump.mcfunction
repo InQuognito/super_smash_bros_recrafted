@@ -1,7 +1,7 @@
 scoreboard players remove @s jumps 1
 
 execute store result storage ssbrc:temp cache.jump int 1 run scoreboard players add @s jump 1
-scoreboard players add @s jump.cooldown 8
+scoreboard players set @s jump.cooldown 8
 
 execute unless score @s silenced matches 1.. run function ssbrc:logic/fighter/jump/activate
 

@@ -4,7 +4,7 @@ function ssbrc:logic/fighter/armor/update with entity @s equipment.body.componen
 
 clear @s #ssbrc:equipment/ability
 
-playsound ssbrc:smash_item.poke_ball.open player @a
+playsound ssbrc:smash_item.poke_ball.activate player @a
 
 $execute if items entity @s armor.body *[minecraft:custom_data~{temp: {fighter: {skin: "dawn"}}}] run return run tellraw @s [{translate: "ssbrc.fighter.pokemon_trainer.i_choose_you.prefix", color: "$(color)"}, {translate: "ssbrc.fighter.pokemon_trainer.$(form).dawn", color: "$(color)"}, {translate: "ssbrc.fighter.pokemon_trainer.i_choose_you", color: "$(color)"}]
 $execute if items entity @s armor.body *[minecraft:custom_data~{temp: {fighter: {skin: "victor"}}}] run return run tellraw @s [{translate: "ssbrc.fighter.pokemon_trainer.i_choose_you.prefix", color: "$(color)"}, {translate: "ssbrc.fighter.pokemon_trainer.$(form).victor", color: "$(color)"}, {translate: "ssbrc.fighter.pokemon_trainer.i_choose_you", color: "$(color)"}]

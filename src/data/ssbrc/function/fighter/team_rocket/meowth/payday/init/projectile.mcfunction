@@ -1,9 +1,15 @@
 tag @s add payday
 
-item replace entity @s armor.head with minecraft:stick[minecraft:item_model="ssbrc:fighter/team_rocket/projectile/payday"]
+item replace entity @s contents with minecraft:stick[ \
+	minecraft:item_model = "ssbrc:fighter/team_rocket/projectile/payday", \
+]
 
 data merge entity @s { \
-	Small: 1b, \
+	transformation: { \
+		scale: [ .5f, .5f, .5f ], \
+	}, \
 }
 
-function ssbrc:logic/init/armor_stand/normal
+function ssbrc:logic/init/id
+
+ride @s mount @n[type=minecraft:snowball,tag=payday.vehicle,distance=...01]

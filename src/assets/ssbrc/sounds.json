@@ -2796,6 +2796,15 @@
 			}
 		]
 	},
+	"fighter.team_rocket.arbok.shed_skin": {
+		"sounds": [
+			{
+				"name": "ssbrc:fighter/team_rocket/arbok/shed_skin",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
 	"fighter.team_rocket.meowth.fury_swipes.activate": {
 		"sounds": [
 			{

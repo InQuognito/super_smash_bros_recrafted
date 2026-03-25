@@ -1,4 +1,4 @@
-function ssbrc:fighter/team_rocket/kits/update {form: "meowth", color: "yellow"}
+function ssbrc:fighter/team_rocket/update {form: "meowth"}
 
 function ssbrc:logic/item/init/slot {item: "scratch", slot: "hotbar.0", class: "weapon", type: "hybrid"}
 
