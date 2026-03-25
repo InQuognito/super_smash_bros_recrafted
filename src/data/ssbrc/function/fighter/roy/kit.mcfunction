@@ -1,1 +1,1 @@
-function ssbrc:logic/item/init/slot {item: "sword", slot: "hotbar.0", class: "weapon", type: "hybrid"}
+function ssbrc:logic/item/init/slot {item: "roy_sword", slot: "hotbar.0", class: "weapon", type: "hybrid_shield"}

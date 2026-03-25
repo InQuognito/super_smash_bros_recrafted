@@ -78,7 +78,6 @@ tag @s remove palutena_bow.split
 # Pokémon Trainer
 function ssbrc:fighter/pokemon_trainer/kits/reset
 function ssbrc:fighter/pokemon_trainer/ivysaur/leech_seed/reset
-tag @s remove armor_break
 
 # Raiden
 tag @s remove aks_74u

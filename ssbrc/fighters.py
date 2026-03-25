@@ -2424,17 +2424,14 @@ fighters = {
 			'default'
 		],
 		'items': {
-			'sword': {
-				'type': 'hybrid',
+			'roy_sword': {
+				'type': 'hybrid_shield',
 				'stats': {
 					'attack_damage': 5,
 					'attack_speed': 1.5,
-					'damage': {
-						'type': 'generic',
-						'amount': 14
-					},
-					'cooldown_group': 'roy/sword',
-					'cooldown': 0.05
+					'block_delay_seconds': 0.0,
+					'block_sound': 'minecraft:item.shield.block',
+					'disabled_sound': 'minecraft:item.shield.break'
 				},
 				'default': {
 					'name': 'ssbrc.fighter.roy.sword.default',

@@ -60,9 +60,6 @@ scoreboard players reset @s flag.walking
 
 execute if score @s petrified matches 1.. run function ssbrc:fighter/altered_beast/werebear/petrifying_breath/tick_target
 
-scoreboard players add @s[tag=armor_break] armor_break 1
-execute if score @s armor_break matches 60.. run function ssbrc:fighter/pokemon_trainer/charizard/rock_smash/deactivate
-
 execute if score @s leech_seed.timer matches 1.. run function ssbrc:fighter/pokemon_trainer/ivysaur/leech_seed/calculate
 execute if score @s leech_seed.stacks matches 1.. run function ssbrc:fighter/pokemon_trainer/ivysaur/leech_seed/calculate_healing
 

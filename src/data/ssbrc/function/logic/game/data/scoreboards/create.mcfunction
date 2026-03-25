@@ -31,6 +31,7 @@ scoreboard objectives add fiends_cauldron dummy
 scoreboard objectives add fiends_cauldron.timer dummy
 scoreboard objectives add fighter_picked dummy
 scoreboard objectives add fighter_trigger trigger
+scoreboard objectives add flag.damage_blocked minecraft.custom:minecraft.damage_blocked_by_shield
 scoreboard objectives add flag.damage_dealt minecraft.custom:minecraft.damage_dealt
 scoreboard objectives add flag.damage_taken minecraft.custom:minecraft.damage_taken
 scoreboard objectives add flag.dead deathCount
