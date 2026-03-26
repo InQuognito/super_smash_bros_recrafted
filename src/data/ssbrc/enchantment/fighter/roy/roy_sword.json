@@ -20,7 +20,7 @@
 			{
 				"requirements": {
 					"condition": "minecraft:entity_scores",
-					"entity": "this",
+					"entity": "target_entity",
 					"scores": {
 						"charge.1": {
 							"max": 5
