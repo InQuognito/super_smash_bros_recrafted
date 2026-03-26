@@ -1,6 +1,6 @@
 tag @s add palutena_bow.split
 
-function ssbrc:logic/item/init/slot {item: "palutena_bow", slot: "weapon.offhand", class: "default", type: "default"}
+function ssbrc:logic/item/init/slot {item: "palutena_bow", slot: "weapon.offhand", class: "weapon", type: "hybrid_bow"}
 function ssbrc:logic/item/data/set {item: "palutena_bow", flag_key: "split", flag_value: "true"}
 function ssbrc:logic/item/data/set {item: "palutena_bow", flag_key: "split", flag_value: "true"}
 

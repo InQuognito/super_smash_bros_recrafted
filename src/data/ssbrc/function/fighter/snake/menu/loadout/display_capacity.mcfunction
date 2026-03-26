@@ -1,7 +1,7 @@
 tellraw @s [ \
 	"", \
 	{ \
-		translate: "ssbrc.fighter.snake.capacity", \
+		translate: "ssbrc.series.metal_gear.capacity", \
 	}, \
 	{ \
 		score: { \

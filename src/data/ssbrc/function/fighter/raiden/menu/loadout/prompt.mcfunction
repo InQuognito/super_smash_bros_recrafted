@@ -1,12 +1,12 @@
 tellraw @s [ \
 	"=== ", \
 	{ \
-		translate: "ssbrc.fighter.snake.select_loadout", \
+		translate: "ssbrc.series.metal_gear.select_loadout", \
 		color: "gold", \
 	}, \
 	" ===\n     == ", \
 	{ \
-		translate: "ssbrc.fighter.raiden.loadout.ranged", \
+		translate: "ssbrc.series.metal_gear.loadout.ranged", \
 		color: "yellow", \
 	}, \
 	" ==\n", \
@@ -165,7 +165,7 @@ tellraw @s [ \
 	}, \
 	")\n     == ", \
 	{ \
-		translate: "ssbrc.fighter.snake.loadout.utility", \
+		translate: "ssbrc.series.metal_gear.loadout.utility", \
 		color: "yellow", \
 	}, \
 	" ==\n", \
@@ -212,7 +212,7 @@ tellraw @s [ \
 		color: "dark_green", \
 	}, \
 	{ \
-		translate: "ssbrc.fighter.snake.smoke_grenade", \
+		translate: "ssbrc.fighter.raiden.smoke_grenade", \
 		color: "green", \
 		click_event: { \
 			action: "run_command", \
@@ -221,7 +221,7 @@ tellraw @s [ \
 		hover_event: { \
 			action: "show_text", \
 			"value": { \
-				translate: "ssbrc.fighter.snake.smoke_grenade.description", \
+				translate: "ssbrc.fighter.raiden.smoke_grenade.description", \
 				color: "gray", \
 			}, \
 		}, \
@@ -231,11 +231,11 @@ tellraw @s [ \
 		color: "dark_green", \
 	}, \
 	{ \
-		translate: "ssbrc.fighter.snake.smoke_grenade.type", \
+		translate: "ssbrc.fighter.raiden.smoke_grenade.type", \
 	}, \
 	{ \
 		score: { \
-			name: "#snake.smoke_grenade.weight", \
+			name: "#raiden.smoke_grenade.weight", \
 			objective: "const", \
 		}, \
 		color: "red", \
@@ -250,7 +250,7 @@ tellraw @s [ \
 		color: "dark_green", \
 	}, \
 	{ \
-		translate: "ssbrc.fighter.snake.cardboard_box", \
+		translate: "ssbrc.series.metal_gear.cardboard_box", \
 		color: "green", \
 		click_event: { \
 			action: "run_command", \
@@ -259,7 +259,7 @@ tellraw @s [ \
 		hover_event: { \
 			action: "show_text", \
 			"value": { \
-				translate: "ssbrc.fighter.snake.cardboard_box.description", \
+				translate: "ssbrc.series.metal_gear.cardboard_box.description", \
 				color: "gray", \
 			}, \
 		}, \
@@ -269,7 +269,7 @@ tellraw @s [ \
 		color: "dark_green", \
 	}, \
 	{ \
-		translate: "ssbrc.fighter.snake.cardboard_box.type", \
+		translate: "ssbrc.series.metal_gear.cardboard_box.type", \
 	}, \
 	{ \
 		score: { \
@@ -284,7 +284,7 @@ tellraw @s [ \
 	}, \
 	")\n     == ", \
 	{ \
-		translate: "ssbrc.fighter.snake.loadout.nanomachines", \
+		translate: "ssbrc.series.metal_gear.loadout.nanomachines", \
 		color: "yellow", \
 	}, \
 	" ==\n", \
@@ -391,7 +391,7 @@ tellraw @s [ \
 	}, \
 	")\n=== ", \
 	{ \
-		translate: "ssbrc.fighter.snake.capacity", \
+		translate: "ssbrc.series.metal_gear.capacity", \
 	}, \
 	{ \
 		score: { \

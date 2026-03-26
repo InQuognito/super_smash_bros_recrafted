@@ -2450,6 +2450,7 @@ fighters = {
 					'color': 'white'
 				}
 			}
+
 		}
 	},
 	'byleth': {
@@ -2681,6 +2682,20 @@ fighters = {
 			'night_vision_goggles'
 		],
 		'items': {
+			'cardboard_box': {
+				'type': 'ability',
+				'stats': {
+					'cooldown_group': 'snake/cardboard_box',
+					'cooldown': 1
+				},
+				'default': {
+					'name': 'ssbrc.series.metal_gear.cardboard_box',
+					'color': 'yellow'
+				},
+				'gold': {
+					'color': 'gold'
+				}
+			},
 			'claymore': {
 				'type': 'ability',
 				'stats': {
@@ -2723,20 +2738,6 @@ fighters = {
 					'color': 'gold'
 				}
 			},
-			'psg1': {
-				'type': 'ability',
-				'stats': {
-					'cooldown_group': 'snake/psg1',
-					'cooldown': 1
-				},
-				'default': {
-					'name': 'ssbrc.fighter.snake.psg1',
-					'color': 'green'
-				},
-				'gold': {
-					'color': 'gold'
-				}
-			},
 			'm870_custom': {
 				'type': 'ability',
 				'stats': {
@@ -2745,6 +2746,20 @@ fighters = {
 				},
 				'default': {
 					'name': 'ssbrc.fighter.snake.m870_custom',
+					'color': 'green'
+				},
+				'gold': {
+					'color': 'gold'
+				}
+			},
+			'psg1': {
+				'type': 'ability',
+				'stats': {
+					'cooldown_group': 'snake/psg1',
+					'cooldown': 1
+				},
+				'default': {
+					'name': 'ssbrc.fighter.snake.psg1',
 					'color': 'green'
 				},
 				'gold': {
@@ -2839,6 +2854,17 @@ fighters = {
 				},
 				'gold': {
 					'color': 'gold'
+				}
+			},
+			'cardboard_box': {
+				'type': 'ability',
+				'stats': {
+					'cooldown_group': 'raiden/cardboard_box',
+					'cooldown': 1
+				},
+				'default': {
+					'name': 'ssbrc.series.metal_gear.cardboard_box',
+					'color': 'yellow'
 				}
 			},
 			'high_frequency_blade': {

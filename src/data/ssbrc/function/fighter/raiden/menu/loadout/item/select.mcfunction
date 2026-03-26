@@ -2,7 +2,7 @@ $scoreboard players operation @s capacity += #raiden.$(item).weight const
 
 $tellraw @s[tag=!ignore_feedback] [ \
 	{ \
-		translate: "ssbrc.fighter.snake.loadout.equip", \
+		translate: "ssbrc.series.metal_gear.loadout.equip", \
 		color: "green", \
 	}, \
 	{ \
@@ -14,7 +14,7 @@ $tellraw @s[tag=!ignore_feedback] [ \
 		color: "dark_red", \
 	}, \
 	{ \
-		translate: "ssbrc.fighter.snake.loadout.undo", \
+		translate: "ssbrc.series.metal_gear.loadout.undo", \
 		color: "red", \
 		click_event: { \
 			action: "run_command", \
@@ -23,7 +23,7 @@ $tellraw @s[tag=!ignore_feedback] [ \
 		hover_event: { \
 			action: "show_text", \
 			value: { \
-				translate: "ssbrc.fighter.snake.loadout.undo.description", \
+				translate: "ssbrc.series.metal_gear.loadout.undo.description", \
 				color: "gray", \
 			}, \
 		}, \
