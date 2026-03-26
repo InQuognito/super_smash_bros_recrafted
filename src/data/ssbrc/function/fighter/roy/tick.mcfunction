@@ -1,5 +1,5 @@
 function ssbrc:logic/fighter/ability/init
 
-scoreboard players set @s[advancements={ssbrc:utility/use_item/fighter/roy/counter=false}] charge.1 0
+execute if score #prev temp = @s charge.1 run scoreboard players set @s charge.1 0
 
 function ssbrc:logic/fighter/ability/deinit
