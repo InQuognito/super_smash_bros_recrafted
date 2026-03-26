@@ -2431,7 +2431,8 @@ fighters = {
 					'attack_speed': 1.5,
 					'block_delay_seconds': 0.0,
 					'block_sound': 'minecraft:item.shield.block',
-					'disabled_sound': 'minecraft:item.shield.break'
+					'disabled_sound': 'minecraft:item.shield.break',
+					'percent_blocked_damage': 0.3,
 				},
 				'default': {
 					'name': 'ssbrc.fighter.roy.sword.default',
@@ -4990,6 +4991,9 @@ def extend_shield(data, path):
 	data['block_delay_seconds'] = init_stat('block_delay_seconds', path, 0)
 	data['block_sound'] = init_stat('block_sound', path, '')
 	data['disabled_sound'] = init_stat('disabled_sound', path, '')
+	data['flat_blocked_damage'] = init_stat('flat_blocked_damage', path, 0)
+	data['percent_blocked_damage'] = init_stat('percent_blocked_damage', path, 1)
+	data['blocking_angle'] = init_stat('blocking_angle', path, 90)
 
 def extend_ability(data, path):
 	data['cooldown'] = init_stat('cooldown', path, 1)

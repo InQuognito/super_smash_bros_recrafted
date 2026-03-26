@@ -41,6 +41,11 @@ $item replace entity @s $(slot) with minecraft:shield[ \
 		block_delay_seconds: $(block_delay_seconds), \
 		block_sound: "$(block_sound)", \
 		disabled_sound: "$(disabled_sound)", \
+		damage_reductions: [ \
+			base: $(flat_blocked_damage), \
+			factor: $(percent_blocked_damage), \
+			horizontal_blocking_angle: $(blocking_angle), \
+		], \
 	}, \
 	minecraft:use_effects = { \
 		can_sprint: false, \
