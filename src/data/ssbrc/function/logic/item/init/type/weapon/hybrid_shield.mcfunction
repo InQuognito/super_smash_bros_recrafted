@@ -37,6 +37,9 @@ $item replace entity @s $(slot) with minecraft:shield[ \
 			slot: "mainhand", \
 		}, \
 	], \
+	minecraft:enchantments = { \
+		"ssbrc:fighter/$(fighter)/$(item)": 1, \
+	}, \
 	minecraft:blocks_attacks = { \
 		block_delay_seconds: $(block_delay_seconds), \
 		block_sound: "$(block_sound)", \
