@@ -25,9 +25,6 @@
 						"charge.1": {
 							"min": 1,
 							"max": 5
-						},
-						"cooldown.1": {
-							"max": 0
 						}
 					}
 				},
