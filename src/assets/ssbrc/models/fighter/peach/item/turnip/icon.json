@@ -1,5 +1,5 @@
 {
-	"parent": "minecraft:item/handheld",
+	"parent": "ssbrc:template/item/default",
 	"textures": {
 		"layer0": "ssbrc:fighter/peach/item/turnip/icon"
 	}

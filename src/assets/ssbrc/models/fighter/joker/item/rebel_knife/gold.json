@@ -1,5 +1,5 @@
 {
-	"parent": "ssbrc:fighter/joker/item/rebel_knife/parent",
+	"parent": "ssbrc:template/item/inverted",
 	"textures": {
 		"layer0": "ssbrc:fighter/joker/item/rebel_knife/gold"
 	}

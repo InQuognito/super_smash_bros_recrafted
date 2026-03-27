@@ -1,5 +1,5 @@
 {
-	"parent": "minecraft:item/handheld",
+	"parent": "ssbrc:template/item/default",
 	"textures": {
 		"layer0": "ssbrc:fighter/zelda/item/red_potion",
 		"particle": "ssbrc:miscellaneous/empty"

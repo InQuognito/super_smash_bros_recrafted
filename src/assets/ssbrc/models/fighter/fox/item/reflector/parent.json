@@ -1,5 +1,5 @@
 {
-	"parent": "minecraft:item/handheld",
+	"parent": "ssbrc:template/item/default",
 	"display": {
 		"thirdperson_righthand": {
 			"rotation": [67, 0, 0],
