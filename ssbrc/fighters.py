@@ -3145,6 +3145,17 @@ fighters = {
 					'color': 'light_purple'
 				}
 			},
+			'sapling': {
+				'type': 'ability',
+				'stats': {
+					'cooldown_group': 'villager/sapling',
+					'cooldown': 1
+				},
+				'default': {
+					'name': 'ssbrc.fighter.villager.watering_can',
+					'color': 'gray'
+				}
+			},
 			'slingshot': {
 				'type': 'ability',
 				'stats': {
@@ -3159,13 +3170,23 @@ fighters = {
 			'watering_can': {
 				'type': 'ability',
 				'stats': {
-					'tag': 'utility',
 					'cooldown_group': 'villager/watering_can',
 					'cooldown': 1
 				},
 				'default': {
 					'name': 'ssbrc.fighter.villager.watering_can',
 					'color': 'gray'
+				}
+			},
+			'timmy': {
+				'type': 'ability',
+				'stats': {
+					'cooldown_group': 'villager/timmy',
+					'cooldown': 1
+				},
+				'default': {
+					'name': 'ssbrc.fighter.villager.timmy',
+					'color': 'gold'
 				}
 			}
 		}

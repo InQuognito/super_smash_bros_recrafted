@@ -1,0 +1,6 @@
+{
+	"parent": "ssbrc:template/item/blocking",
+	"textures": {
+		"layer0": "ssbrc:fighter/roy/item/sword/blazing_bachelor"
+	}
+}

@@ -6,35 +6,75 @@
 			{
 				"when": "gold",
 				"model": {
-					"type": "minecraft:model",
-					"model": "ssbrc:fighter/roy/item/sword/gold"
+					"type": "minecraft:condition",
+					"property": "minecraft:using_item",
+					"on_true": {
+						"type": "minecraft:model",
+						"model": "ssbrc:fighter/roy/item/sword/blocking/gold"
+					},
+					"on_false": {
+						"type": "minecraft:model",
+						"model": "ssbrc:fighter/roy/item/sword/gold"
+					}
 				}
 			},
 			{
 				"when": "young_lion",
 				"model": {
-					"type": "minecraft:model",
-					"model": "ssbrc:fighter/roy/item/sword/young_lion"
+					"type": "minecraft:condition",
+					"property": "minecraft:using_item",
+					"on_true": {
+						"type": "minecraft:model",
+						"model": "ssbrc:fighter/roy/item/sword/blocking/young_lion"
+					},
+					"on_false": {
+						"type": "minecraft:model",
+						"model": "ssbrc:fighter/roy/item/sword/young_lion"
+					}
 				}
 			},
 			{
 				"when": "awakening",
 				"model": {
-					"type": "minecraft:model",
-					"model": "ssbrc:fighter/roy/item/sword/awakening"
+					"type": "minecraft:condition",
+					"property": "minecraft:using_item",
+					"on_true": {
+						"type": "minecraft:model",
+						"model": "ssbrc:fighter/roy/item/sword/blocking/awakening"
+					},
+					"on_false": {
+						"type": "minecraft:model",
+						"model": "ssbrc:fighter/roy/item/sword/awakening"
+					}
 				}
 			},
 			{
 				"when": "blazing_bachelor",
 				"model": {
-					"type": "minecraft:model",
-					"model": "ssbrc:fighter/roy/item/sword/blazing_bachelor"
+					"type": "minecraft:condition",
+					"property": "minecraft:using_item",
+					"on_true": {
+						"type": "minecraft:model",
+						"model": "ssbrc:fighter/roy/item/sword/blocking/blazing_bachelor"
+					},
+					"on_false": {
+						"type": "minecraft:model",
+						"model": "ssbrc:fighter/roy/item/sword/blazing_bachelor"
+					}
 				}
 			}
 		],
 		"fallback": {
-			"type": "minecraft:model",
-			"model": "ssbrc:fighter/roy/item/sword/default"
+			"type": "minecraft:condition",
+			"property": "minecraft:using_item",
+			"on_true": {
+				"type": "minecraft:model",
+				"model": "ssbrc:fighter/roy/item/sword/blocking/default"
+			},
+			"on_false": {
+				"type": "minecraft:model",
+				"model": "ssbrc:fighter/roy/item/sword/default"
+			}
 		}
 	},
 	"hand_animation_on_swap": false
