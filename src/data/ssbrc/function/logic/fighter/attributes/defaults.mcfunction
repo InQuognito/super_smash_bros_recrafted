@@ -18,7 +18,7 @@ attribute @s minecraft:movement_speed base set .1
 $function ssbrc:logic/fighter/get/run {function: "ssbrc:logic/fighter/attributes/defaults/movement_speed", fighter: "$(fighter)"}
 
 attribute @s minecraft:gravity base set .08
-execute if data storage ssbrc:temp game.stage{name: "sector_z"} run attribute @s minecraft:gravity modifier add ssbrc:stage .25 add_multiplied_total
+execute if data storage ssbrc:temp game.stage{name: "sector_z"} run attribute @s minecraft:gravity modifier add ssbrc:stage -.75 add_multiplied_total
 
 attribute @s minecraft:safe_fall_distance base set 12
 execute if data storage ssbrc:temp game.stage{name: "sector_z"} run attribute @s minecraft:safe_fall_distance modifier add ssbrc:stage 10 add_multiplied_base
