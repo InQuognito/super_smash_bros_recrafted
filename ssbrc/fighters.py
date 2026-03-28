@@ -2974,7 +2974,7 @@ fighters = {
 			'default'
 		],
 		'items': {
-			'sword': {
+			'shadow_sword': {
 				'type': 'weapon',
 				'stats': {
 					'attack_damage': 1,
