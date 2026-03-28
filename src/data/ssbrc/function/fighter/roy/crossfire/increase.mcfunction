@@ -1,1 +1,1 @@
-scoreboard players add @s resource 1
+scoreboard players add @s[scores={resource=..4}] resource 1
