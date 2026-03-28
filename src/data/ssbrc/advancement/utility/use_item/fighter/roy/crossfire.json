@@ -10,10 +10,16 @@
 						"name": "ssbrc:cooldown/universal"
 					},
 					{
-						"condition": "minecraft:inverted",
-						"term": {
-							"condition": "minecraft:reference",
-							"name": "ssbrc:flag/sneaking"
+						"condition": "minecraft:reference",
+						"name": "ssbrc:flag/sneaking"
+					},
+					{
+						"condition": "minecraft:entity_scores",
+						"entity": "this",
+						"scores": {
+							"resource": {
+								"min": 1
+							}
 						}
 					}
 				],
@@ -28,6 +34,6 @@
 		}
 	},
 	"rewards": {
-		"function": "ssbrc:fighter/roy/counter/tick"
+		"function": "ssbrc:fighter/roy/crossfire/activate"
 	}
 }

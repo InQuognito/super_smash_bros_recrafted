@@ -1,2 +1,1 @@
-execute if items entity @s[scores={resource=1..}] armor.body *[minecraft:custom_data~{temp: {fighter: {fighter: "roy"}}}] if items entity @s weapon.mainhand *[minecraft:custom_data~{item: "roy_sword"}] run function ssbrc:fighter/roy/crossfire/activate
 execute if items entity @s armor.body *[minecraft:custom_data~{temp: {fighter: {fighter: "snake"}}}] run function ssbrc:fighter/snake/manual_reload/check
