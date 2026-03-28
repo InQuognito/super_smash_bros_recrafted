@@ -6,4 +6,4 @@ item replace entity @s inventory.0 with minecraft:spectral_arrow
 
 function ssbrc:logic/fighter/effects/immobile/deactivate
 
-function ssbrc:logic/item/cooldown/set/const {type: "2", value: "60"}
+function ssbrc:logic/item/cooldown/set/const {type: "1", value: "60"}
