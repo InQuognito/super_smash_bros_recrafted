@@ -25,7 +25,7 @@ execute if entity @e[type=minecraft:marker,tag=electric_terrain,distance=..12] r
 
 scoreboard players remove @s[scores={jump.cooldown=-4..}] jump.cooldown 1
 execute if items entity @s[scores={jump=1,jump.cooldown=3}] armor.body *[minecraft:custom_data~{temp: {fighter: {fighter: "ness"}}}] run attribute @s minecraft:gravity modifier add ssbrc:jump -.5 add_multiplied_total
-execute unless score @s[scores={jumps=1..},predicate=ssbrc:input/jump] jump.cooldown matches 1.. run function ssbrc:logic/fighter/jump
+execute unless score @s[scores={jumps=1..},predicate=ssbrc:input/jump,predicate=ssbrc:flag/no_vehicle] jump.cooldown matches 1.. run function ssbrc:logic/fighter/jump
 attribute @s[scores={jump.cooldown=-2}] minecraft:gravity modifier remove ssbrc:jump
 
 execute store result score @s selected_item run data get entity @s SelectedItemSlot

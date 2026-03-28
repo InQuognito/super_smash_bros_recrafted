@@ -6,6 +6,7 @@ execute unless items entity @s[tag=guardian_orbitars] weapon.mainhand minecraft:
 execute if entity @s[tag=guardian_orbitars,predicate=!ssbrc:flag/sneaking] run function ssbrc:fighter/pit/guardian_orbitars/deactivate
 
 # Wings
+execute if score @s flight_time matches 4500.. run particle minecraft:small_flame ~ ~.75 ~ .2 .4 .2 .1 3 normal @a
 execute if score @s flight_time matches 5000.. run function ssbrc:fighter/pit/wings/burn
 execute if score @s timer matches 1.. run function ssbrc:fighter/pit/wings/regain/timer
 

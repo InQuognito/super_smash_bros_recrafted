@@ -4,21 +4,6 @@
 		"property": "minecraft:custom_model_data",
 		"cases": [
 			{
-				"when": "gold",
-				"model": {
-					"type": "minecraft:condition",
-					"property": "minecraft:using_item",
-					"on_true": {
-						"type": "minecraft:model",
-						"model": "ssbrc:fighter/roy/item/sword/blocking/gold"
-					},
-					"on_false": {
-						"type": "minecraft:model",
-						"model": "ssbrc:fighter/roy/item/sword/gold"
-					}
-				}
-			},
-			{
 				"when": "young_lion",
 				"model": {
 					"type": "minecraft:condition",

@@ -1,6 +1,6 @@
 tag @s add steed_charge
 
-rotate @s ~ ~
+rotate @s ~ 0
 
 $item replace entity @s saddle with minecraft:saddle[ \
 	minecraft:custom_data = { \

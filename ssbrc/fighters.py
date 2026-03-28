@@ -2472,18 +2472,6 @@ fighters = {
 			'awakened': {
 				'rarity': 'common',
 				'color': '#C7D6AF'
-			},
-			'holy_knight': {
-				'rarity': 'rare',
-				'color': 'white'
-			},
-			'sniper': {
-				'rarity': 'rare',
-				'color': 'yellow'
-			},
-			'fortress_knight': {
-				'rarity': 'rare',
-				'color': 'dark_gray'
 			}
 		},
 		'true_forms': True,
@@ -2610,11 +2598,6 @@ fighters = {
 			'revived': {
 				'rarity': 'uncommon',
 				'color': 'white'
-			},
-			'eggplant': {
-				'rarity': 'unique',
-				'price': 100,
-				'color': 'dark_purple'
 			}
 		},
 		'true_forms': True,
