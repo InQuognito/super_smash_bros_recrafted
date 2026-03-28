@@ -38,15 +38,6 @@
 				"effect": {
 					"type": "minecraft:run_function",
 					"function": "ssbrc:fighter/dark_samus/phazon_beam/activate_projectile"
-				},
-				"requirements": {
-					"condition": "minecraft:entity_scores",
-					"entity": "this",
-					"scores": {
-						"silenced": {
-							"max": 0
-						}
-					}
 				}
 			}
 		],
