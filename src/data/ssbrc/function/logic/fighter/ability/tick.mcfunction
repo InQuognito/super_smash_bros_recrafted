@@ -124,6 +124,9 @@ execute if entity @s[tag=throwing_knives] run return run function ssbrc:fighter/
 # R.O.B.
 execute if entity @s[tag=robo_beam] run return run function ssbrc:fighter/rob/robo_beam/tick
 
+# Roy
+execute if entity @s[tag=crossfire] run return run function ssbrc:fighter/roy/crossfire/tick
+
 # Ryu
 execute if entity @s[tag=hadouken] run return run function ssbrc:fighter/ryu/hadouken/tick
 execute if entity @s[tag=tatsumaki_senpukyaku] run return run function ssbrc:fighter/ryu/tatsumaki_senpukyaku/tick
