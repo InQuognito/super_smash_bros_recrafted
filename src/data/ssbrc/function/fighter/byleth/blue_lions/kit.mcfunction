@@ -4,4 +4,4 @@ function ssbrc:logic/item/init/slot {item: "steel_bow", slot: "hotbar.1", class:
 
 function ssbrc:logic/item/init/slot {item: "steed_charge", slot: "hotbar.2", class: "default", type: "default"}
 
-item replace entity @s hotbar.8 with minecraft:spectral_arrow 16
+function ssbrc:logic/item/init/type/arrow/set {count: 16}

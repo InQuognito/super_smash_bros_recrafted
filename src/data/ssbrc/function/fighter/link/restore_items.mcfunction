@@ -1,3 +1,3 @@
 function ssbrc:logic/item/init/slot {item: "hylian_shield", slot: "weapon.offhand", class: "weapon", type: "shield"}
 
-give @s minecraft:spectral_arrow 3
+function ssbrc:logic/item/init/type/arrow/add {count: 3}

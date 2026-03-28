@@ -1,3 +1,3 @@
 function ssbrc:logic/item/init/slot {item: "steel_shield", slot: "weapon.offhand", class: "weapon", type: "shield"}
 
-give @s[tag=weapon_broken] minecraft:spectral_arrow 4
+execute if entity @s[tag=weapon_broken] run function ssbrc:logic/item/init/type/arrow/add {count: 4}
