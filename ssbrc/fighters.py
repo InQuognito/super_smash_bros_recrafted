@@ -1933,7 +1933,7 @@ fighters = {
 				'type': 'consumable',
 				'stats': {
 					'cooldown_group': 'greninja/water_shuriken',
-					'cooldown': 1,
+					'cooldown': 0.25,
 					'max_stack_size': 4
 				},
 				'default': {
