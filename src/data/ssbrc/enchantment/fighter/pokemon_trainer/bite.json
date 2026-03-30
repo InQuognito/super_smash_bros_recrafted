@@ -28,25 +28,6 @@
 							"function": "ssbrc:fighter/pokemon_trainer/squirtle/bite"
 						},
 						{
-							"type": "minecraft:spawn_particles",
-							"particle": {
-								"type": "minecraft:ash"
-							},
-							"horizontal_position": {
-								"type": "entity_position"
-							},
-							"vertical_position": {
-								"type": "entity_position"
-							},
-							"horizontal_velocity": {
-								"base": 1
-							},
-							"vertical_velocity": {
-								"base": 1
-							},
-							"speed": 0.15
-						},
-						{
 							"type": "minecraft:play_sound",
 							"sound": "minecraft:entity.player.attack.crit",
 							"volume": 1,

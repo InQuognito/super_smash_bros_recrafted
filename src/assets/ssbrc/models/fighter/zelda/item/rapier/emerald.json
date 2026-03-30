@@ -1,5 +1,5 @@
 {
-	"parent": "ssbrc:fighter/zelda/item/rapier/parent",
+	"parent": "ssbrc:template/item/held_outward",
 	"textures": {
 		"layer0": "ssbrc:fighter/zelda/item/rapier/emerald"
 	}

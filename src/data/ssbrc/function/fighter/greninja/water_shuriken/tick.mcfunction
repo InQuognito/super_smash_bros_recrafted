@@ -2,7 +2,7 @@ execute unless block ~ ~ ~ #ssbrc:passthrough run return run kill @s
 
 particle minecraft:fishing ^ ^ ^ .3 .05 .3 .01 5 normal @a
 
-execute positioned ~-.5 ~-.5 ~-.5 as @e[tag=!self,predicate=ssbrc:target,dx=0] run function ssbrc:logic/damage/generic {amount: 3, type: "generic", kb_resist: 0, source: " by @a[tag=self,limit=1]"}
+execute positioned ~-.75 ~-.75 ~-.75 as @e[tag=!self,predicate=ssbrc:target,dx=0.5] run function ssbrc:logic/damage/generic {amount: 3, type: "generic", kb_resist: 0, source: " by @a[tag=self,limit=1]"}
 execute if score #entity_hit temp matches 1 run return run kill @s
 
 teleport @s ^ ^ ^1.5
