@@ -597,8 +597,17 @@
 								{
 									"when": "manga",
 									"model": {
-										"type": "minecraft:model",
-										"model": "ssbrc:fighter/giegue/skin/manga"
+										"type": "minecraft:composite",
+										"models": [
+											{
+												"type": "minecraft:model",
+												"model": "ssbrc:fighter/giegue/skin/manga"
+											},
+											{
+												"type": "minecraft:model",
+												"model": "ssbrc:fighter/giegue/skin/accessory/spiral"
+											}
+										]
 									}
 								},
 								{

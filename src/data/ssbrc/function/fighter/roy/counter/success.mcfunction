@@ -1,1 +1,1 @@
-function ssbrc:fighter/roy/crossfire/increase
+function ssbrc:fighter/roy/crossfire/check

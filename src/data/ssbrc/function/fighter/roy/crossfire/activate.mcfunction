@@ -1,11 +1,5 @@
-function ssbrc:logic/fighter/ability/init
+advancement revoke @s only ssbrc:utility/use_item/fighter/roy/crossfire
 
-scoreboard players operation #cache temp = @s resource
 scoreboard players set @s resource 0
 
-execute if score #cache temp matches 1.. positioned ^.75 ^1.5 ^-.5 summon minecraft:marker rotated ~15 ~ run function ssbrc:fighter/roy/crossfire/init
-execute if score #cache temp matches 2.. positioned ^-.75 ^1.5 ^-.5 summon minecraft:marker rotated ~-15 ~ run function ssbrc:fighter/roy/crossfire/init
-execute if score #cache temp matches 3.. positioned ^1.25 ^.75 ^-.5 summon minecraft:marker rotated ~20 ~ run function ssbrc:fighter/roy/crossfire/init
-execute if score #cache temp matches 4.. positioned ^-1.25 ^.75 ^-.5 summon minecraft:marker rotated ~-20 ~ run function ssbrc:fighter/roy/crossfire/init
-
-function ssbrc:logic/fighter/ability/deinit
+tag @e[type=minecraft:item_display,tag=crossfire,predicate=ssbrc:id_match,distance=..10] add active

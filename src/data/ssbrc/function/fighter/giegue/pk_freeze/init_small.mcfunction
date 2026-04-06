@@ -7,7 +7,6 @@ data merge entity @s { \
 	transformation: { \
 		scale: [.25f, .25f, .25f], \
 	}, \
-	teleport_duration: 1, \
 }
 
-function ssbrc:logic/init/projectile
+function ssbrc:logic/init/projectile/model/projectile

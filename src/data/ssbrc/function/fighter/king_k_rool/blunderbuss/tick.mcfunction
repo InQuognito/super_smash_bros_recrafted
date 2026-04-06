@@ -1,5 +1,3 @@
-function ssbrc:logic/fighter/ability/init
-
 function ssbrc:fighter/king_k_rool/blunderbuss/particle
 
 execute unless block ~ ~-.1 ~ #ssbrc:passthrough unless entity @s[tag=hit_ground] run function ssbrc:fighter/king_k_rool/blunderbuss/land

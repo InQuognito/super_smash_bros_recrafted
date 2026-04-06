@@ -9,4 +9,4 @@ item replace entity @s armor.feet with minecraft:golden_boots
 
 data merge entity @s {NoGravity:1b}
 
-function ssbrc:logic/init/armor_stand/data
+function ssbrc:logic/init/armor_stand/common

@@ -2,4 +2,4 @@ teleport @s ~ ~ ~ 270 0
 
 data merge entity @s {Pose:{Head:[10f,0f,0f]}}
 
-$function ssbrc:logic/stage/npc {path:"$(path)"}
+$function ssbrc:logic/npc/init/armor_stand {path:"$(path)"}

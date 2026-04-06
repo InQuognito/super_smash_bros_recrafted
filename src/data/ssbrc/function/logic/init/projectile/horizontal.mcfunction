@@ -1,3 +1,3 @@
 function ssbrc:logic/init/id
 
-rotate @s ~ 0.0
+rotate @s ~ 0

@@ -1,6 +1,6 @@
 tag @s add robo_beam
 
-function ssbrc:logic/init/projectile
+function ssbrc:logic/init/position
 
 scoreboard players operation @s charge.1 = robo_beam temp
 

@@ -1,4 +1,4 @@
 tag @s add zap
 tag @s add marker
 
-function ssbrc:logic/init/projectile_horizontal
+function ssbrc:logic/init/projectile/horizontal
