@@ -16,7 +16,6 @@ scoreboard objectives add cooldown dummy
 scoreboard objectives add cooldown.1 dummy
 scoreboard objectives add cooldown.2 dummy
 scoreboard objectives add cooldown.3 dummy
-scoreboard objectives add crawling dummy
 scoreboard objectives add deaths deathCount
 scoreboard objectives add dialogue dummy
 scoreboard objectives add double_jump_strength dummy

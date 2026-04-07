@@ -13,7 +13,7 @@ scoreboard players operation #health temp *= #100 const
 scoreboard players operation #health temp /= #40 const
 
 # Crawl
-execute unless score @s crawling matches 1 positioned ~ ~.601 ~ unless entity @s[dx=0] unless predicate ssbrc:flag/flying run function ssbrc:logic/fighter/crawl
+execute positioned ~ ~.601 ~ unless entity @s[dx=0] unless predicate ssbrc:flag/flying run function ssbrc:logic/fighter/crawl
 
 scoreboard players remove @s[scores={cooldown.1=1..}] cooldown.1 1
 scoreboard players remove @s[scores={cooldown.2=1..}] cooldown.2 1
@@ -65,6 +65,8 @@ execute if score @s leech_seed.stacks matches 1.. run function ssbrc:fighter/pok
 
 scoreboard players remove @s[scores={shadow.chaos_control=1..}] shadow.chaos_control 1
 attribute @s[scores={shadow.chaos_control=1}] minecraft:movement_speed modifier remove ssbrc:chaos_control
+
+tag @s remove crawling
 
 # Stage Effects
 execute unless block ~ ~ ~ minecraft:lava run scoreboard players remove @s[tag=!electrified,scores={flag.in_lava=1..}] flag.in_lava 1
