@@ -1,3 +1,5 @@
+scoreboard players operation #id_to_match temp = @s id
+
 execute anchored eyes positioned ^ ^ ^ anchored feet run function ssbrc:fighter/altered_beast/weretiger/sabretooth/raycast/loop
 
 teleport @s ^ ^ ^.5

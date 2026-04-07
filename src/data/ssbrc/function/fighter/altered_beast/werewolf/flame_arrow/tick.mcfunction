@@ -1,3 +1,5 @@
+scoreboard players operation #id_to_match temp = @s id
+
 particle minecraft:flame ~ ~.75 ~ .5 .5 .5 .05 50 force @a
 particle minecraft:smoke ~ ~.75 ~ .6 .6 .6 .01 100 normal @a
 
