@@ -1,4 +1,4 @@
-ride @a[tag=self,limit=1] dismount
+ride @a[predicate=ssbrc:id_match,limit=1] dismount
 
 kill @s
 

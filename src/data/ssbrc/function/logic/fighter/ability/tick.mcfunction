@@ -1,32 +1,12 @@
-# Altered Beast
-execute if entity @s[tag=sabretooth] run return run function ssbrc:fighter/altered_beast/weretiger/sabretooth/raycast/start
-execute if entity @s[tag=flame_hands] run return run function ssbrc:fighter/altered_beast/werewolf/flame_hands/tick
-execute if entity @s[tag=flame_arrow] run return run function ssbrc:fighter/altered_beast/werewolf/flame_arrow/tick
-
-# Alucard
-execute if entity @s[tag=mist] run return run function ssbrc:fighter/alucard/mist/tick_entity
-execute if entity @s[tag=holy_water.vehicle,tag=!falling] if function ssbrc:logic/fighter/check/raycast/block run return run function ssbrc:fighter/alucard/holy_water/drip_below
-execute if entity @s[tag=holy_water] if function ssbrc:logic/fighter/flags/grounded run return run function ssbrc:fighter/alucard/holy_water/tick
-
 # Byleth
-execute if entity @s[tag=steed_charge] run return run function ssbrc:fighter/byleth/blue_lions/steed_charge/tick
 execute if entity @s[tag=failnaught,tag=awakened] run return run function ssbrc:fighter/byleth/golden_deer/failnaught/tick
 
-# Captain Falcon
-execute if entity @s[tag=raptor_boost] run return run function ssbrc:fighter/captain_falcon/raptor_boost/tick
-execute if entity @s[tag=falcon_kick] run return run function ssbrc:fighter/captain_falcon/falcon_kick/tick
-
-# Cloud
-execute if entity @s[tag=blade_beam] run return run function ssbrc:fighter/cloud/buster_sword/blade_beam/tick
-
 # Dark Samus
-execute if entity @s[tag=phazon_beam] run return run function ssbrc:fighter/dark_samus/phazon_beam/tick
 execute if entity @s[tag=phazon_pool] run return run function ssbrc:fighter/dark_samus/phazon_spike/phazon_pool/tick
 execute if entity @s[tag=phazon_spike] run return run function ssbrc:fighter/dark_samus/phazon_spike/tick
 
 # Donkey Kong
 execute if entity @s[tag=barrel] run return run function ssbrc:fighter/donkey_kong/barrel/tick
-execute if entity @s[tag=orange_grenade] run return run function ssbrc:fighter/donkey_kong/orange_grenade/tick
 
 # Fox
 execute if entity @s[tag=krazoan_fireball] run return run function ssbrc:fighter/fox/krazoan_fireball/tick

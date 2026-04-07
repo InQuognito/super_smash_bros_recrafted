@@ -61,12 +61,6 @@ fighters = {
 			'fireball': {
 				'type': 'ability',
 				'stats': {
-					'tag': 'ranged',
-					'damage': {
-						'type': 'fire',
-						'amount': 4,
-						'duration': 30
-					},
 					'cooldown_group': 'mario/fireball',
 					'cooldown': 1
 				},
@@ -138,11 +132,6 @@ fighters = {
 			'ice_ball': {
 				'type': 'ability',
 				'stats': {
-					'tag': 'ranged',
-					'damage': {
-						'type': 'frost',
-						'amount': 6
-					},
 					'cooldown_group': 'luigi/ice_ball',
 					'cooldown': 1
 				},
@@ -344,22 +333,6 @@ fighters = {
 					'name': 'ssbrc.fighter.donkey_kong.barrel.flower_power',
 					'color': 'blue'
 				}
-			},
-			'orange_grenade': {
-				'type': 'ability',
-				'stats': {
-					'tag': 'ranged',
-					'damage': {
-						'type': 'explosive',
-						'amount': 6
-					},
-					'cooldown_group': 'donkey_kong/orange_grenade',
-					'cooldown': 1
-				},
-				'default': {
-					'name': 'ssbrc.fighter.donkey_kong.orange_grenade',
-					'color': 'gold'
-				}
 			}
 		}
 	},
@@ -416,11 +389,6 @@ fighters = {
 			'blunderbuss': {
 				'type': 'ability',
 				'stats': {
-					'tag': 'ranged',
-					'damage': {
-						'type': 'generic',
-						'amount': 6
-					},
 					'cooldown_group': 'king_k_rool/blunderbuss',
 					'cooldown': 2
 				},
@@ -567,11 +535,6 @@ fighters = {
 			'grappling_hook': {
 				'type': 'ability',
 				'stats': {
-					'tag': 'ranged',
-					'damage': {
-						'type': 'generic',
-						'amount': 4
-					},
 					'cooldown_group': 'toon_link/grappling_hook',
 					'cooldown': 1
 				},
@@ -1344,11 +1307,6 @@ fighters = {
 			'fox_blaster': {
 				'type': 'ability',
 				'stats': {
-					'tag': 'ranged',
-					'damage': {
-						'type': 'generic',
-						'amount': 1
-					},
 					'cooldown_group': 'fox/projectile',
 					'cooldown': 0.5
 				},
@@ -1376,7 +1334,6 @@ fighters = {
 			'reflector': {
 				'type': 'ability',
 				'stats': {
-					'tag': 'defensive',
 					'cooldown_group': 'fox/reflector',
 					'cooldown': 3
 				},
@@ -1466,11 +1423,6 @@ fighters = {
 			'wolf_blaster': {
 				'type': 'ability',
 				'stats': {
-					'tag': 'ranged',
-					'damage': {
-						'type': 'generic',
-						'amount': 8
-					},
 					'cooldown_group': 'wolf/wolf_blaster',
 					'cooldown': 2
 				},
@@ -1545,11 +1497,6 @@ fighters = {
 			'water_gun': {
 				'type': 'ability',
 				'stats': {
-					'tag': 'ranged',
-					'damage': {
-						'type': 'generic',
-						'amount': 4
-					},
 					'cooldown_group': 'pokemon_trainer/water_gun',
 					'cooldown': 2
 				},
@@ -1572,7 +1519,6 @@ fighters = {
 			'leech_seed': {
 				'type': 'ability',
 				'stats': {
-					'tag': 'ranged',
 					'cooldown_group': 'pokemon_trainer/leech_seed',
 					'cooldown': 5
 				},
@@ -1584,7 +1530,6 @@ fighters = {
 			'poison_powder': {
 				'type': 'ability',
 				'stats': {
-					'tag': 'ranged',
 					'cooldown_group': 'pokemon_trainer/poison_powder',
 					'cooldown': 10
 				},
@@ -1607,7 +1552,6 @@ fighters = {
 			'flare_blitz': {
 				'type': 'ability',
 				'stats': {
-					'tag': 'ranged',
 					'cooldown_group': 'pokemon_trainer/flare_blitz',
 					'cooldown': 4.5
 				},
@@ -1619,7 +1563,6 @@ fighters = {
 			'earthquake': {
 				'type': 'ability',
 				'stats': {
-					'tag': 'ranged',
 					'cooldown_group': 'pokemon_trainer/earthquake',
 					'cooldown': 3
 				},
@@ -1683,11 +1626,6 @@ fighters = {
 			'thunder_jolt': {
 				'type': 'ability',
 				'stats': {
-					'tag': 'ranged',
-					'damage': {
-						'type': 'generic',
-						'amount': 4
-					},
 					'cooldown_group': 'pikachu/thunder_jolt',
 					'cooldown': 1
 				},
@@ -1699,7 +1637,6 @@ fighters = {
 			'electric_terrain': {
 				'type': 'ability',
 				'stats': {
-					'tag': 'utility',
 					'cooldown_group': 'pikachu/electric_terrain',
 					'cooldown': 1
 				},
@@ -1829,11 +1766,6 @@ fighters = {
 			'aura_sphere': {
 				'type': 'ability',
 				'stats': {
-					'tag': 'ranged',
-					'damage': {
-						'type': 'generic',
-						'amount': 4
-					},
 					'cooldown_group': 'lucario/aura_sphere',
 					'cooldown': 3
 				},
@@ -1848,11 +1780,6 @@ fighters = {
 			'close_combat': {
 				'type': 'ability',
 				'stats': {
-					'tag': 'ranged',
-					'damage': {
-						'type': 'generic',
-						'amount': 4
-					},
 					'cooldown_group': 'lucario/close_combat',
 					'cooldown': 8
 				},
@@ -2118,11 +2045,6 @@ fighters = {
 			'pk_fire': {
 				'type': 'ability',
 				'stats': {
-					'tag': 'ranged',
-					'damage': {
-						'type': 'fire',
-						'amount': 4
-					},
 					'cooldown_group': 'ness/pk_fire',
 					'cooldown': 2
 				},
@@ -2134,11 +2056,6 @@ fighters = {
 			'pk_flash': {
 				'type': 'ability',
 				'stats': {
-					'tag': 'ranged',
-					'damage': {
-						'type': 'generic',
-						'amount': 4
-					},
 					'cooldown_group': 'ness/pk_flash',
 					'cooldown': 5
 				},
@@ -2193,11 +2110,6 @@ fighters = {
 			'pk_freeze': {
 				'type': 'ability',
 				'stats': {
-					'tag': 'ranged',
-					'damage': {
-						'type': 'frost',
-						'amount': 4
-					},
 					'cooldown_group': 'giegue/pk_freeze',
 					'cooldown': 1
 				},
@@ -2209,11 +2121,6 @@ fighters = {
 			'pk_beam': {
 				'type': 'ability',
 				'stats': {
-					'tag': 'ranged',
-					'damage': {
-						'type': 'generic',
-						'amount': 10
-					},
 					'cooldown_group': 'giegue/pk_beam',
 					'cooldown': 5
 				},
@@ -2297,7 +2204,6 @@ fighters = {
 			'falcon_charge': {
 				'type': 'ability',
 				'stats': {
-					'tag': 'utility',
 					'cooldown_group': 'captain_falcon/falcon_charge',
 					'cooldown': 1
 				},
@@ -2362,11 +2268,6 @@ fighters = {
 			'snowstorm': {
 				'type': 'ability',
 				'stats': {
-					'tag': 'ranged',
-					'damage': {
-						'type': 'frost',
-						'amount': 4
-					},
 					'cooldown_group': 'ice_climbers/snowstorm',
 					'cooldown': 0.15
 				},
@@ -2378,11 +2279,6 @@ fighters = {
 			'windstorm': {
 				'type': 'ability',
 				'stats': {
-					'tag': 'ranged',
-					'damage': {
-						'type': 'frost',
-						'amount': 4
-					},
 					'cooldown_group': 'ice_climbers/windstorm',
 					'cooldown': 1
 				},
@@ -4704,11 +4600,6 @@ fighters = {
 			'drone': {
 				'type': 'ability',
 				'stats': {
-					'tag': 'ranged',
-					'damage': {
-						'type': 'generic',
-						'amount': 4
-					},
 					'cooldown_group': 'yar/drone',
 					'cooldown': 0.25
 				},
@@ -4750,11 +4641,6 @@ fighters = {
 			'ray_blaster': {
 				'type': 'ability',
 				'stats': {
-					'tag': 'ranged',
-					'damage': {
-						'type': 'generic',
-						'amount': 4
-					},
 					'cooldown_group': 'yar/ray_blaster',
 					'cooldown': 0.75
 				},

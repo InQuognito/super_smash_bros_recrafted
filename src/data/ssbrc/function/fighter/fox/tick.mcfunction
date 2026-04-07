@@ -1,7 +1,7 @@
 function ssbrc:logic/fighter/ability/init
 
 # Reflector
-execute if score @s duration.2 matches 1.. anchored eyes positioned ^ ^ ^2 as @e[type=#ssbrc:projectile,predicate=!ssbrc:exceptions/reflect,distance=..2] unless score @s reflect matches 1.. at @s run function ssbrc:fighter/fox/reflector/check
+execute if score @s duration.2 matches 1.. anchored eyes positioned ^ ^ ^2 as @e[type=#ssbrc:projectile,predicate=!ssbrc:id_match,predicate=!ssbrc:exceptions/reflect,distance=..2] at @s run function ssbrc:fighter/fox/reflector/check
 
 # Fire Fox
 execute if entity @s[scores={duration.1=..0,duration.2=..0}] run function ssbrc:fighter/fox/fire_fox/check

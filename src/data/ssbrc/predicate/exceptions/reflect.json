@@ -6,6 +6,15 @@
 			"name": "ssbrc:exceptions/common"
 		},
 		{
+			"condition": "minecraft:entity_scores",
+			"entity": "this",
+			"scores": {
+				"reflect": {
+					"min": 1
+				}
+			}
+		},
+		{
 			"condition": "minecraft:entity_properties",
 			"entity": "this",
 			"predicate": {

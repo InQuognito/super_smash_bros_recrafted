@@ -1,4 +1,10 @@
-tag @s add blade_beam
-execute if score limit temp >= #cloud.limit const run tag @s add limit_break
+execute if score #cache temp >= #cloud.limit const run tag @s add limit_break
 
-function ssbrc:logic/init/projectile/horizontal
+item replace entity @s contents with minecraft:stick[ \
+	minecraft:enchantments = { \
+		"ssbrc:fighter/cloud/projectile/blade_beam": 1, \
+	}, \
+	minecraft:item_model = "ssbrc:empty", \
+]
+
+function ssbrc:logic/init/projectile/model/horizontal

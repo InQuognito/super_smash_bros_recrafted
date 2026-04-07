@@ -1,3 +1,3 @@
-playsound ssbrc:fighter.cloud.blade_beam.activate_limit player @a
+scoreboard players set #limit_break temp 1
 
-scoreboard players set @s resource 0
+scoreboard players add #n temp 1

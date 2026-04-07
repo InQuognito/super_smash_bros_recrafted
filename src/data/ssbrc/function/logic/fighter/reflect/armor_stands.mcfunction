@@ -1,2 +1,3 @@
-execute if entity @s[nbt=!{NoGravity:1b}] run function ssbrc:logic/fighter/reflect/motion
-execute if entity @s[nbt={NoGravity:1b}] run rotate @s facing ^ ^ ^-1
+execute if data entity @s NoGravity run return run rotate @s facing ^ ^ ^-1
+
+function ssbrc:logic/fighter/reflect/motion

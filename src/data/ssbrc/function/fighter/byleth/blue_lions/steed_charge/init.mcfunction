@@ -1,8 +1,9 @@
-tag @s add steed_charge
-
 rotate @s ~ 0
 
 $item replace entity @s saddle with minecraft:saddle[ \
+	minecraft:enchantments = { \
+		"ssbrc:fighter/byleth/projectile/steed_charge": 1, \
+	}, \
 	minecraft:custom_data = { \
 		skin: "$(skin)", \
 	}, \
@@ -13,7 +14,11 @@ attribute @s minecraft:jump_strength base set .7
 attribute @s minecraft:max_health base set 16
 attribute @s minecraft:movement_speed base set .3
 
-data merge entity @s {Variant:3,Tame:1b,Glowing:1b,PersistenceRequired:1b}
+data merge entity @s { \
+	Variant: 3, \
+	Tame: true, \
+	Glowing: true, \
+}
 
 function ssbrc:logic/init/entity/living
 
