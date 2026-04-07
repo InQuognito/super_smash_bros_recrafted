@@ -31,6 +31,11 @@ item modify entity @s contents [ \
 					slot: "mainhand", \
 				}, \
 			], \
+			"minecraft:attack_range": { \
+				hitbox_margin: 0.3, \
+				min_reach: 0, \
+				max_reach: 3, \
+			}, \
 			"minecraft:enchantments": { \
 				"ssbrc:smash_item/lips_stick": 1 \
 			}, \

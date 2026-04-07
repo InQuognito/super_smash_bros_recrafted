@@ -4853,12 +4853,12 @@ def init_stat(stat: str, path: str, fallback):
 def extend_weapon(data, path):
 	data['attack_damage'] = init_stat('attack_damage', path, 0)
 	data['attack_speed'] = init_stat('attack_speed', path, 0)
-	data['minimum_attack_charge'] = init_stat('minimum_attack_charge', path, 1.0)
+	data['minimum_attack_charge'] = init_stat('minimum_attack_charge', path, 1)
 	data['min_reach'] = init_stat('min_reach', path, 0)
-	data['max_reach'] = init_stat('max_reach', path, 3.0)
+	data['max_reach'] = init_stat('max_reach', path, 3)
 	data['hitbox_margin'] = init_stat('hitbox_margin', path, 0.3)
 	data['item_damage_on_attack'] = init_stat('item_damage_on_attack', path, 0)
-	data['disable_blocking_for_seconds'] = init_stat('disable_blocking_for_seconds', path, 0.0)
+	data['disable_blocking_for_seconds'] = init_stat('disable_blocking_for_seconds', path, 0)
 	data['swing_animation'] = init_stat('swing_animation', path, "whack")
 	data['swing_duration'] = init_stat('swing_duration', path, 6)
 

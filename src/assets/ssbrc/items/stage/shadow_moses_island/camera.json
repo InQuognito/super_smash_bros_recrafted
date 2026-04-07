@@ -1,0 +1,19 @@
+{
+	"model": {
+		"type": "minecraft:select",
+		"property": "minecraft:custom_model_data",
+		"cases": [
+			{
+				"when": "disabled",
+				"model": {
+					"type": "minecraft:model",
+					"model": "ssbrc:stage/shadow_moses_island/camera/off"
+				}
+			}
+		],
+		"fallback": {
+			"type": "minecraft:model",
+			"model": "ssbrc:stage/shadow_moses_island/camera/on"
+		}
+	}
+}
