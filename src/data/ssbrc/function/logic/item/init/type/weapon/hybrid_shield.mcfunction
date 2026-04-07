@@ -1,21 +1,4 @@
 $item replace entity @s $(slot) with minecraft:shield[ \
-	minecraft:item_name = { \
-		translate: "$(name)", \
-		color: "$(color)", \
-		bold: true, \
-		italic: false, \
-	}, \
-	minecraft:max_stack_size = 1, \
-	minecraft:weapon = { \
-		item_damage_on_attack: $(item_damage_on_attack), \
-		disable_blocking_for_seconds: $(disable_blocking_for_seconds), \
-	}, \
-	minecraft:unbreakable = {}, \
-	minecraft:swing_animation = { \
-		type: "$(swing_animation)", \
-		duration: $(swing_duration), \
-	}, \
-	minecraft:minimum_attack_charge = 1, \
 	minecraft:attack_range = { \
 		min_reach: $(min_reach), \
 		max_reach: $(max_reach), \
@@ -37,9 +20,6 @@ $item replace entity @s $(slot) with minecraft:shield[ \
 			slot: "mainhand", \
 		}, \
 	], \
-	minecraft:enchantments = { \
-		"ssbrc:fighter/$(fighter)/$(item)": 1, \
-	}, \
 	minecraft:blocks_attacks = { \
 		block_delay_seconds: $(block_delay_seconds), \
 		block_sound: "$(block_sound)", \
@@ -52,19 +32,39 @@ $item replace entity @s $(slot) with minecraft:shield[ \
 			}, \
 		], \
 	}, \
-	minecraft:use_effects = { \
-		can_sprint: false, \
-		speed_multiplier: .33, \
+	minecraft:custom_data = { \
+		item: "$(item)", \
+		group: "$(group)", \
 	}, \
-	minecraft:item_model = "ssbrc:fighter/$(fighter)/$(item)", \
 	minecraft:custom_model_data = { \
 		strings: [ \
 			"$(skin)", \
 		], \
 	}, \
-	minecraft:custom_data = { \
-		item: "$(item)", \
-		group: "$(group)", \
+	minecraft:enchantments = { \
+		"ssbrc:fighter/$(fighter)/$(item)": 1, \
+	}, \
+	minecraft:item_model = "ssbrc:fighter/$(fighter)/$(item)", \
+	minecraft:item_name = { \
+		translate: "$(name)", \
+		color: "$(color)", \
+		bold: true, \
+		italic: false, \
+	}, \
+	minecraft:max_stack_size = 1, \
+	minecraft:minimum_attack_charge = 1, \
+	minecraft:swing_animation = { \
+		type: "$(swing_animation)", \
+		duration: $(swing_duration), \
+	}, \
+	minecraft:unbreakable = {}, \
+	minecraft:use_effects = { \
+		can_sprint: false, \
+		speed_multiplier: .33, \
+	}, \
+	minecraft:weapon = { \
+		item_damage_on_attack: $(item_damage_on_attack), \
+		disable_blocking_for_seconds: $(disable_blocking_for_seconds), \
 	}, \
 ]
 

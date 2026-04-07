@@ -1,20 +1,4 @@
 $item replace entity @s $(slot) with minecraft:stick[ \
-	minecraft:item_name = { \
-		translate: "$(name)", \
-		color: "$(color)", \
-		bold: true, \
-		italic: false, \
-	}, \
-	minecraft:max_stack_size = 1, \
-	minecraft:weapon = { \
-		item_damage_on_attack: $(item_damage_on_attack), \
-		disable_blocking_for_seconds: $(disable_blocking_for_seconds), \
-	}, \
-	minecraft:swing_animation = { \
-		type: "$(swing_animation)", \
-		duration: $(swing_duration), \
-	}, \
-	minecraft:minimum_attack_charge = $(minimum_attack_charge), \
 	minecraft:attack_range = { \
 		min_reach: $(min_reach), \
 		max_reach: $(max_reach), \
@@ -36,16 +20,32 @@ $item replace entity @s $(slot) with minecraft:stick[ \
 			slot: "mainhand", \
 		}, \
 	], \
-	minecraft:item_model = "ssbrc:fighter/$(fighter)/$(item)", \
+	minecraft:custom_data = { \
+		item: "$(item)", \
+		group: "$(group)", \
+		damage: $(attack_damage), \
+	}, \
 	minecraft:custom_model_data = { \
 		strings: [ \
 			"$(skin)", \
 		], \
 	}, \
-	minecraft:custom_data = { \
-		item: "$(item)", \
-		group: "$(group)", \
-		damage: $(attack_damage), \
+	minecraft:item_model = "ssbrc:fighter/$(fighter)/$(item)", \
+	minecraft:item_name = { \
+		translate: "$(name)", \
+		color: "$(color)", \
+		bold: true, \
+		italic: false, \
+	}, \
+	minecraft:max_stack_size = 1, \
+	minecraft:minimum_attack_charge = $(minimum_attack_charge), \
+	minecraft:swing_animation = { \
+		type: "$(swing_animation)", \
+		duration: $(swing_duration), \
+	}, \
+	minecraft:weapon = { \
+		item_damage_on_attack: $(item_damage_on_attack), \
+		disable_blocking_for_seconds: $(disable_blocking_for_seconds), \
 	}, \
 ]
 

@@ -1,4 +1,18 @@
 $item replace entity @s $(slot) with minecraft:bow[ \
+	minecraft:custom_data = { \
+		item: "$(item)", \
+		group: "$(group)", \
+	}, \
+	minecraft:custom_model_data = { \
+		strings: [ \
+			"$(skin)", \
+		], \
+	}, \
+	minecraft:enchantments = { \
+		"ssbrc:fighter/$(fighter)/$(item)": 1, \
+		"ssbrc:charge_ability": 1, \
+	}, \
+	minecraft:item_model = "ssbrc:fighter/$(fighter)/$(item)", \
 	minecraft:item_name = { \
 		translate: "$(name)", \
 		color: "$(color)", \
@@ -6,23 +20,9 @@ $item replace entity @s $(slot) with minecraft:bow[ \
 		italic: false, \
 	}, \
 	minecraft:max_stack_size = 1, \
+	minecraft:minimum_attack_charge = $(minimum_attack_charge), \
 	minecraft:swing_animation = { \
 		type: "none", \
-	}, \
-	minecraft:minimum_attack_charge = $(minimum_attack_charge), \
-	minecraft:enchantments = { \
-		"ssbrc:fighter/$(fighter)/$(item)": 1, \
-		"ssbrc:charge_ability": 1, \
-	}, \
-	minecraft:item_model = "ssbrc:fighter/$(fighter)/$(item)", \
-	minecraft:custom_model_data = { \
-		strings: [ \
-			"$(skin)", \
-		], \
-	}, \
-	minecraft:custom_data = { \
-		item: "$(item)", \
-		group: "$(group)", \
 	}, \
 ]
 
