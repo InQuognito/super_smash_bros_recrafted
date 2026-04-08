@@ -1,6 +1,173 @@
 {
 	"model": {
-		"type": "minecraft:model",
-		"model": "ssbrc:fighter/lucario/item/force_palm"
+		"type": "minecraft:composite",
+		"models": [
+			{
+				"type": "minecraft:select",
+				"property": "minecraft:custom_model_data",
+				"cases": [
+					{
+						"when": "gold",
+						"model": {
+							"type": "minecraft:model",
+							"model": "ssbrc:fighter/lucario/item/force_palm/gold/model"
+						}
+					},
+					{
+						"when": "shiny",
+						"model": {
+							"type": "minecraft:model",
+							"model": "ssbrc:fighter/lucario/item/force_palm/shiny/model"
+						}
+					},
+					{
+						"when": "mirror",
+						"model": {
+							"type": "minecraft:model",
+							"model": "ssbrc:fighter/lucario/item/force_palm/mirror/model"
+						}
+					}
+				],
+				"fallback": {
+					"type": "minecraft:model",
+					"model": "ssbrc:fighter/lucario/item/force_palm/default/model"
+				}
+			},
+			{
+				"type": "minecraft:range_dispatch",
+				"property": "minecraft:custom_model_data",
+				"entries": [
+					{
+						"threshold": 5,
+						"model": {
+							"type": "minecraft:select",
+							"property": "minecraft:custom_model_data",
+							"cases": [
+								{
+									"when": "mirror",
+									"model": {
+										"type": "minecraft:model",
+										"model": "ssbrc:fighter/lucario/item/force_palm/aura/mirror"
+									}
+								}
+							],
+							"fallback": {
+								"type": "minecraft:model",
+								"model": "ssbrc:fighter/lucario/item/force_palm/aura/default"
+							}
+						}
+					},
+					{
+						"threshold": 7,
+						"model": {
+							"type": "minecraft:select",
+							"property": "minecraft:custom_model_data",
+							"cases": [
+								{
+									"when": "mirror",
+									"model": {
+										"type": "minecraft:condition",
+										"property": "minecraft:using_item",
+										"on_true": {
+											"type": "minecraft:range_dispatch",
+											"property": "minecraft:use_cycle",
+											"period": 4,
+											"entries": [
+												{
+													"threshold": 1,
+													"model": {
+														"type": "minecraft:model",
+														"model": "ssbrc:fighter/lucario/item/force_palm/bone_rush/mirror/model"
+													}
+												},
+												{
+													"threshold": 2,
+													"model": {
+														"type": "minecraft:model",
+														"model": "ssbrc:fighter/lucario/item/force_palm/bone_rush/mirror/model"
+													}
+												},
+												{
+													"threshold": 3,
+													"model": {
+														"type": "minecraft:model",
+														"model": "ssbrc:fighter/lucario/item/force_palm/bone_rush/mirror/model"
+													}
+												},
+												{
+													"threshold": 4,
+													"model": {
+														"type": "minecraft:model",
+														"model": "ssbrc:fighter/lucario/item/force_palm/bone_rush/mirror/model"
+													}
+												}
+											],
+											"fallback": {
+												"type": "minecraft:model",
+												"model": "ssbrc:fighter/lucario/item/force_palm/bone_rush/mirror/model"
+											}
+										},
+										"on_false": {
+											"type": "minecraft:model",
+											"model": "ssbrc:fighter/lucario/item/force_palm/bone_rush/mirror/model"
+										}
+									}
+								}
+							],
+							"fallback": {
+								"type": "minecraft:condition",
+								"property": "minecraft:using_item",
+								"on_true": {
+									"type": "minecraft:range_dispatch",
+									"property": "minecraft:use_cycle",
+									"period": 4,
+									"entries": [
+										{
+											"threshold": 1,
+											"model": {
+												"type": "minecraft:model",
+												"model": "ssbrc:fighter/lucario/item/force_palm/bone_rush/default/model"
+											}
+										},
+										{
+											"threshold": 2,
+											"model": {
+												"type": "minecraft:model",
+												"model": "ssbrc:fighter/lucario/item/force_palm/bone_rush/default/model"
+											}
+										},
+										{
+											"threshold": 3,
+											"model": {
+												"type": "minecraft:model",
+												"model": "ssbrc:fighter/lucario/item/force_palm/bone_rush/default/model"
+											}
+										},
+										{
+											"threshold": 4,
+											"model": {
+												"type": "minecraft:model",
+												"model": "ssbrc:fighter/lucario/item/force_palm/bone_rush/default/model"
+											}
+										}
+									],
+									"fallback": {
+										"type": "minecraft:model",
+										"model": "ssbrc:fighter/lucario/item/force_palm/bone_rush/default/model"
+									}
+								},
+								"on_false": {
+									"type": "minecraft:model",
+									"model": "ssbrc:fighter/lucario/item/force_palm/bone_rush/default/model"
+								}
+							}
+						}
+					}
+				],
+				"fallback": {
+					"type": "minecraft:empty"
+				}
+			}
+		]
 	}
 }

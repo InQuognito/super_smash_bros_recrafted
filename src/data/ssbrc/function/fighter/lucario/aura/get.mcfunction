@@ -1,3 +1,17 @@
+$function ssbrc:logic/item/modify { \
+	search_key: "item", \
+	search_value: "force_palm", \
+	path: { \
+		function: "minecraft:set_custom_model_data", \
+		floats: { \
+			values: [ \
+				$(aura), \
+			], \
+			mode: "replace_all", \
+		}, \
+	}, \
+}
+
 function ssbrc:fighter/lucario/aura/reset
 
 execute if score @s charge.1 matches 9 run return run function ssbrc:fighter/lucario/aura/set {damage: .40, jump: .30}

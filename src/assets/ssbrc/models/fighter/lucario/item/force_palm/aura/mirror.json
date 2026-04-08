@@ -1,0 +1,7 @@
+{
+	"parent": "ssbrc:fighter/lucario/item/force_palm/aura/parent",
+	"textures": {
+		"1": "ssbrc:fighter/lucario/item/force_palm/aura/mirror/1",
+		"2": "ssbrc:fighter/lucario/item/force_palm/aura/mirror/2"
+	}
+}

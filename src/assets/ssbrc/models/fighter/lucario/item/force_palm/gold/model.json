@@ -1,0 +1,6 @@
+{
+	"parent": "ssbrc:fighter/lucario/item/force_palm/parent",
+	"textures": {
+		"base": "ssbrc:fighter/lucario/item/force_palm/gold/model"
+	}
+}
