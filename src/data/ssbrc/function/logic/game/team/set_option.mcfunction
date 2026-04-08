@@ -1,0 +1,8 @@
+$team modify team1 $(key) $(value)
+$team modify team2 $(key) $(value)
+$team modify team3 $(key) $(value)
+$team modify team4 $(key) $(value)
+$team modify team5 $(key) $(value)
+$team modify team6 $(key) $(value)
+$team modify team7 $(key) $(value)
+$team modify team8 $(key) $(value)

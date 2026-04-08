@@ -12,14 +12,9 @@
 #	}, \
 #]
 
-team modify team1 nametagVisibility hideForOtherTeams
-team modify team2 nametagVisibility hideForOtherTeams
-team modify team3 nametagVisibility hideForOtherTeams
-team modify team4 nametagVisibility hideForOtherTeams
-team modify team5 nametagVisibility hideForOtherTeams
-team modify team6 nametagVisibility hideForOtherTeams
-team modify team7 nametagVisibility hideForOtherTeams
-team modify team8 nametagVisibility hideForOtherTeams
+function ssbrc:logic/game/team/modify
+
+function ssbrc:logic/game/team/set_option {key: "nametagVisibility", value: "hideForOtherTeams"}
 
 teleport @a[team=spectator] 0 10 0
 

@@ -10,5 +10,5 @@ $execute unless data storage ssbrc:data option{game_mode: "ctf"} run function ss
 
 $function ssbrc:stage/$(name)/load with storage ssbrc:temp cache.stage_select
 
-execute as @a[predicate=ssbrc:ingame] run function ssbrc:logic/pre_game/prepare_players
 function ssbrc:logic/pre_game/prepare_match
+execute as @a[predicate=ssbrc:ingame] run function ssbrc:logic/pre_game/prepare_players

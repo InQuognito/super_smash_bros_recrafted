@@ -1,11 +1,11 @@
 function ssbrc:fighter/lucario/aura/reset
 
-execute if score @s charge.1 matches 9 run return run function ssbrc:fighter/lucario/aura/set {damage:0.50,jump:0.30}
-execute if score @s charge.1 matches 8 run return run function ssbrc:fighter/lucario/aura/set {damage:0.45,jump:0.27}
-execute if score @s charge.1 matches 7 run return run function ssbrc:fighter/lucario/aura/set {damage:0.40,jump:0.24}
-execute if score @s charge.1 matches 6 run return run function ssbrc:fighter/lucario/aura/set {damage:0.35,jump:0.21}
-execute if score @s charge.1 matches 5 run return run function ssbrc:fighter/lucario/aura/set {damage:0.30,jump:0.18}
-execute if score @s charge.1 matches 4 run return run function ssbrc:fighter/lucario/aura/set {damage:0.25,jump:0.15}
-execute if score @s charge.1 matches 3 run return run function ssbrc:fighter/lucario/aura/set {damage:0.20,jump:0.12}
-execute if score @s charge.1 matches 2 run return run function ssbrc:fighter/lucario/aura/set {damage:0.15,jump:0.09}
-execute if score @s charge.1 matches 1 run return run function ssbrc:fighter/lucario/aura/set {damage:0.10,jump:0.06}
+execute if score @s charge.1 matches 9 run return run function ssbrc:fighter/lucario/aura/set {damage: .40, jump: .30}
+execute if score @s charge.1 matches 8 run return run function ssbrc:fighter/lucario/aura/set {damage: .36, jump: .27}
+execute if score @s charge.1 matches 7 run return run function ssbrc:fighter/lucario/aura/set {damage: .32, jump: .24}
+execute if score @s charge.1 matches 6 run return run function ssbrc:fighter/lucario/aura/set {damage: .28, jump: .21}
+execute if score @s charge.1 matches 5 run return run function ssbrc:fighter/lucario/aura/set {damage: .24, jump: .18}
+execute if score @s charge.1 matches 4 run return run function ssbrc:fighter/lucario/aura/set {damage: .20, jump: .15}
+execute if score @s charge.1 matches 3 run return run function ssbrc:fighter/lucario/aura/set {damage: .16, jump: .12}
+execute if score @s charge.1 matches 2 run return run function ssbrc:fighter/lucario/aura/set {damage: .12, jump: .09}
+execute if score @s charge.1 matches 1 run return run function ssbrc:fighter/lucario/aura/set {damage: .08, jump: .06}

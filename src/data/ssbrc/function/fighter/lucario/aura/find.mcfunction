@@ -1,4 +1,4 @@
-execute if score @s health matches 1..4 run return run scoreboard players set @s charge.1 9
+execute if score @s health matches ..4 run return run scoreboard players set @s charge.1 9
 execute if score @s health matches 5..8 run return run scoreboard players set @s charge.1 8
 execute if score @s health matches 9..12 run return run scoreboard players set @s charge.1 7
 execute if score @s health matches 13..16 run return run scoreboard players set @s charge.1 6

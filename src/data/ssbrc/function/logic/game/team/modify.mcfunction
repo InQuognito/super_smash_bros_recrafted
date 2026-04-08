@@ -1,54 +1,11 @@
 function ssbrc:logic/game/team/modify/friendly_fire
 function ssbrc:logic/game/team/modify/teams
 
-team modify team1 collisionRule always
-team modify team1 deathMessageVisibility never
-team modify team1 nametagVisibility always
-team modify team1 prefix ""
-team modify team1 suffix ""
-
-team modify team2 collisionRule always
-team modify team2 deathMessageVisibility never
-team modify team2 nametagVisibility always
-team modify team2 prefix ""
-team modify team2 suffix ""
-
-team modify team3 color green
-team modify team3 collisionRule always
-team modify team3 deathMessageVisibility never
-team modify team3 nametagVisibility always
-team modify team3 prefix ""
-team modify team3 suffix ""
-
-team modify team4 collisionRule always
-team modify team4 deathMessageVisibility never
-team modify team4 nametagVisibility always
-team modify team4 prefix ""
-team modify team4 suffix ""
-
-team modify team5 collisionRule always
-team modify team5 deathMessageVisibility never
-team modify team5 nametagVisibility always
-team modify team5 prefix ""
-team modify team5 suffix ""
-
-team modify team6 collisionRule always
-team modify team6 deathMessageVisibility never
-team modify team6 nametagVisibility always
-team modify team6 prefix ""
-team modify team6 suffix ""
-
-team modify team7 collisionRule always
-team modify team7 deathMessageVisibility never
-team modify team7 nametagVisibility always
-team modify team7 prefix ""
-team modify team7 suffix ""
-
-team modify team8 collisionRule always
-team modify team8 deathMessageVisibility never
-team modify team8 nametagVisibility always
-team modify team8 prefix ""
-team modify team8 suffix ""
+function ssbrc:logic/game/team/set_option {key: "collisionRule", value: "always"}
+function ssbrc:logic/game/team/set_option {key: "deathMessageVisibility", value: "never"}
+function ssbrc:logic/game/team/set_option {key: "nametagVisibility", value: "always"}
+function ssbrc:logic/game/team/set_option {key: "prefix", value: ""}
+function ssbrc:logic/game/team/set_option {key: "suffix", value: ""}
 
 team modify admin color black
 team modify admin collisionRule never

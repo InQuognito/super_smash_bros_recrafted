@@ -10,3 +10,5 @@ tag @s remove stage_select
 attribute @s minecraft:block_interaction_range base set 0.0
 
 execute if entity @s[tag=alive] run function ssbrc:logic/pre_game/prepare_fighters
+
+function ssbrc:logic/fighter/motion/safe_launch {strength: 0}
