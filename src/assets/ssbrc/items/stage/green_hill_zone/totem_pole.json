@@ -1,0 +1,286 @@
+{
+	"model": {
+		"type": "minecraft:composite",
+		"models": [
+			{
+				"type": "minecraft:model",
+				"model": "ssbrc:stage/green_hill_zone/totem_pole/base"
+			},
+			{
+				"type": "minecraft:model",
+				"model": "ssbrc:stage/green_hill_zone/totem_pole/base",
+				"transformation": {
+					"translation": [
+						0,
+						1,
+						0
+					],
+					"left_rotation": [
+						0,
+						0,
+						0,
+						0
+					],
+					"right_rotation": [
+						0,
+						0,
+						0,
+						0
+					],
+					"scale": [
+						0,
+						0,
+						0
+					]
+				}
+			},
+			{
+				"type": "minecraft:model",
+				"model": "ssbrc:stage/green_hill_zone/totem_pole/base",
+				"transformation": {
+					"translation": [
+						0,
+						2,
+						0
+					],
+					"left_rotation": [
+						0,
+						0,
+						0,
+						0
+					],
+					"right_rotation": [
+						0,
+						0,
+						0,
+						0
+					],
+					"scale": [
+						0,
+						0,
+						0
+					]
+				}
+			},
+			{
+				"type": "minecraft:select",
+				"property": "minecraft:custom_model_data",
+				"cases": [
+					{
+						"when": "0",
+						"model": {
+							"type": "minecraft:model",
+							"model": "ssbrc:stage/green_hill_zone/totem_pole/wings"
+						}
+					},
+					{
+						"when": "1",
+						"model": {
+							"type": "minecraft:model",
+							"model": "ssbrc:stage/green_hill_zone/totem_pole/wings",
+							"transformation": {
+								"translation": [
+									0,
+									1,
+									0
+								],
+								"left_rotation": [
+									0,
+									0,
+									0,
+									0
+								],
+								"right_rotation": [
+									0,
+									0,
+									0,
+									0
+								],
+								"scale": [
+									0,
+									0,
+									0
+								]
+							}
+						}
+					},
+					{
+						"when": "2",
+						"model": {
+							"type": "minecraft:model",
+							"model": "ssbrc:stage/green_hill_zone/totem_pole/wings",
+							"transformation": {
+								"translation": [
+									0,
+									2,
+									0
+								],
+								"left_rotation": [
+									0,
+									0,
+									0,
+									0
+								],
+								"right_rotation": [
+									0,
+									0,
+									0,
+									0
+								],
+								"scale": [
+									0,
+									0,
+									0
+								]
+							}
+						}
+					}
+				],
+				"fallback": {
+					"type": "minecraft:empty"
+				}
+			},
+			{
+				"type": "minecraft:select",
+				"property": "minecraft:custom_model_data",
+				"index": 1,
+				"cases": [
+					{
+						"when": "angry",
+						"model": {
+							"type": "minecraft:model",
+							"model": "ssbrc:stage/green_hill_zone/totem_pole/face/angry"
+						}
+					},
+					{
+						"when": "shocked",
+						"model": {
+							"type": "minecraft:model",
+							"model": "ssbrc:stage/green_hill_zone/totem_pole/face/shocked"
+						}
+					},
+					{
+						"when": "suspicious",
+						"model": {
+							"type": "minecraft:model",
+							"model": "ssbrc:stage/green_hill_zone/totem_pole/face/suspicious"
+						}
+					}
+				],
+				"fallback": {
+					"type": "minecraft:empty"
+				}
+			},
+			{
+				"type": "minecraft:select",
+				"property": "minecraft:custom_model_data",
+				"index": 2,
+				"cases": [
+					{
+						"when": "angry",
+						"model": {
+							"type": "minecraft:model",
+							"model": "ssbrc:stage/green_hill_zone/totem_pole/face/angry"
+						}
+					},
+					{
+						"when": "shocked",
+						"model": {
+							"type": "minecraft:model",
+							"model": "ssbrc:stage/green_hill_zone/totem_pole/face/shocked"
+						}
+					},
+					{
+						"when": "suspicious",
+						"model": {
+							"type": "minecraft:model",
+							"model": "ssbrc:stage/green_hill_zone/totem_pole/face/suspicious"
+						}
+					}
+				],
+				"fallback": {
+					"type": "minecraft:empty"
+				},
+				"transformation": {
+					"translation": [
+						0,
+						1,
+						0
+					],
+					"left_rotation": [
+						0,
+						0,
+						0,
+						0
+					],
+					"right_rotation": [
+						0,
+						0,
+						0,
+						0
+					],
+					"scale": [
+						0,
+						0,
+						0
+					]
+				}
+			},
+			{
+				"type": "minecraft:select",
+				"property": "minecraft:custom_model_data",
+				"index": 3,
+				"cases": [
+					{
+						"when": "angry",
+						"model": {
+							"type": "minecraft:model",
+							"model": "ssbrc:stage/green_hill_zone/totem_pole/face/angry"
+						}
+					},
+					{
+						"when": "shocked",
+						"model": {
+							"type": "minecraft:model",
+							"model": "ssbrc:stage/green_hill_zone/totem_pole/face/shocked"
+						}
+					},
+					{
+						"when": "suspicious",
+						"model": {
+							"type": "minecraft:model",
+							"model": "ssbrc:stage/green_hill_zone/totem_pole/face/suspicious"
+						}
+					}
+				],
+				"fallback": {
+					"type": "minecraft:empty"
+				},
+				"transformation": {
+					"translation": [
+						0,
+						2,
+						0
+					],
+					"left_rotation": [
+						0,
+						0,
+						0,
+						0
+					],
+					"right_rotation": [
+						0,
+						0,
+						0,
+						0
+					],
+					"scale": [
+						0,
+						0,
+						0
+					]
+				}
+			}
+		]
+	}
+}
