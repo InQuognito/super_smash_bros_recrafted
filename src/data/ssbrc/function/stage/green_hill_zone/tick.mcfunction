@@ -1,8 +1,7 @@
-execute positioned -30 18.1 228 as @a[predicate=ssbrc:player,predicate=!ssbrc:fighter/effects/levitation,dy=0] run function ssbrc:stage/green_hill_zone/spring
+execute positioned -5 .1 -6 as @a[predicate=ssbrc:player,predicate=!ssbrc:fighter/effects/levitation,dy=0] run function ssbrc:stage/green_hill_zone/spring
 
-execute positioned -24.5 17.5 252.5 as @p[predicate=ssbrc:player] if block ~ ~ ~ minecraft:lapis_block if entity @s[distance=..4] run function ssbrc:stage/green_hill_zone/checkpoint
-execute positioned -24.5 17.5 252.5 as @p[predicate=ssbrc:player] if entity @s[distance=4.1..] run setblock ~ ~ ~ minecraft:lapis_block replace
+execute positioned 0 -1 18 as @p[predicate=ssbrc:player] run function ssbrc:stage/green_hill_zone/checkpoint/tick
 
-fill -4 14 229 0 14 233 minecraft:campfire[facing=east,lit=false] replace
+fill 21 -4 -5 25 -4 -1 minecraft:campfire[facing=east,lit=false] replace
 
 kill @e[predicate=ssbrc:killbox_vulnerable,predicate=ssbrc:below_y/-18]
