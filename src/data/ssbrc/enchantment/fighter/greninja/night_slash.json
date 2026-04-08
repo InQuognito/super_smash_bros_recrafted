@@ -32,12 +32,6 @@
 						{
 							"type": "minecraft:run_function",
 							"function": "ssbrc:fighter/greninja/night_slash/activate"
-						},
-						{
-							"type": "minecraft:play_sound",
-							"sound": "ssbrc:fighter.greninja.night_slash",
-							"volume": 1,
-							"pitch": 1
 						}
 					]
 				},
