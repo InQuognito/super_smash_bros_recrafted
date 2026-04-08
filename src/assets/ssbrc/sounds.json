@@ -889,6 +889,15 @@
 			}
 		]
 	},
+	"fighter.greninja.night_slash": {
+		"sounds": [
+			{
+				"name": "ssbrc:fighter/greninja/night_slash",
+				"stream": false,
+				"volume": 1.0
+			}
+		]
+	},
 	"fighter.hero.bang.activate": {
 		"sounds": [
 			{

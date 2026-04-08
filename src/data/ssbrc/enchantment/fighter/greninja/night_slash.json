@@ -35,7 +35,7 @@
 						},
 						{
 							"type": "minecraft:play_sound",
-							"sound": "minecraft:entity.player.attack.crit",
+							"sound": "ssbrc:fighter.greninja.night_slash",
 							"volume": 1,
 							"pitch": 1
 						}
