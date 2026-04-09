@@ -1,5 +1,5 @@
 {
-	"clock": "minecraft:overworld",
+	"clock": "ssbrc:smash_plaza",
 	"period_ticks": 24000,
 	"time_markers": {
 		"minecraft:day": {
