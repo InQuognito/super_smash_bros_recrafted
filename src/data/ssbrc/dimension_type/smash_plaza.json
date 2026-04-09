@@ -22,6 +22,7 @@
 		"minecraft:visual/sky_color": 7907327,
 		"minecraft:visual/water_fog_color": 329011
 	},
+	"default_clock": "minecraft:overworld",
 	"has_skylight": true,
 	"has_ceiling": false,
 	"has_ender_dragon_fight": false,
@@ -33,5 +34,5 @@
 	"height": 384,
 	"monster_spawn_light_level": 0,
 	"monster_spawn_block_light_limit": 0,
-	"timelines": "#minecraft:in_overworld"
+	"timelines": "ssbrc:default"
 }

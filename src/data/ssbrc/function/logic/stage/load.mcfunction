@@ -3,7 +3,9 @@ $fillbiome -50 -50 -50 50 50 50 ssbrc:stage/$(name)
 
 $data modify storage ssbrc:temp game.stage set from storage ssbrc:data stage.$(name)
 
-$time set $(time)
+$time of ssbrc:stage set $(time)
+function ssbrc:logic/stage/load/time
+
 $weather $(weather)
 
 $execute unless data storage ssbrc:data option{game_mode: "ctf"} run function ssbrc:logic/stage/load/smash {name: "$(name)"}

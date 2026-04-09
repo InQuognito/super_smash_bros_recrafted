@@ -1,5 +1,8 @@
 fillbiome -50 -50 -50 50 50 50 ssbrc:smash_plaza
 
+time of ssbrc:smash_plaza set 0
+time of ssbrc:smash_plaza resume
+
 setworldspawn 0 0 0
 
 summon minecraft:text_display -4 .5 0 {text:[{translate: "ssbrc.lobby.welcome", color: "yellow"},"\n", {translate: "ssbrc.name", bold: true, color: "gold"}], billboard: "center", alignment: "center"}

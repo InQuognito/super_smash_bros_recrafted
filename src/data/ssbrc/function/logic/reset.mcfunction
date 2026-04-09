@@ -34,7 +34,9 @@ summon minecraft:marker 0 0 0 {Tags:["math"]}
 worldborder set 9999999
 worldborder center 0 0
 
-time set noon
+time of ssbrc:static set 12000
+time of ssbrc:static pause
+
 weather clear
 
 execute unless score num hard_resets matches -2147483648..2147483647 run scoreboard players set num hard_resets 0

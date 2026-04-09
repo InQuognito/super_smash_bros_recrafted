@@ -2382,6 +2382,7 @@ fighters = {
 					'attack_damage': 4,
 					'attack_speed': 1,
 					'max_reach': 3.5,
+					'item_damage_on_attack': 1,
 					'cooldown_group': 'byleth/areadbhar',
 					'cooldown': 1
 				},
@@ -2396,12 +2397,21 @@ fighters = {
 					'attack_damage': 9,
 					'attack_speed': 0.5,
 					'max_reach': 2.8,
+					'item_damage_on_attack': 1,
 					'cooldown_group': 'byleth/aymr',
 					'cooldown': 1
 				},
 				'default': {
 					'name': 'ssbrc.fighter.byleth.areadbhar',
 					'color': 'red'
+				}
+			},
+			'failnaught': {
+				'type': 'null',
+				'stats': {},
+				'default': {
+					'name': 'ssbrc.fighter.byleth.failnaught',
+					'color': 'yellow'
 				}
 			},
 			'steed_charge': {
@@ -2465,7 +2475,8 @@ fighters = {
 					'attack_damage': 4,
 					'attack_speed': 1.5,
 					'max_reach': 3.25,
-					'hitbox_margin': 0.6
+					'hitbox_margin': 0.6,
+					'item_damage_on_attack': 1
 				},
 				'default': {
 					'name': 'ssbrc.fighter.byleth.sword_of_the_creator',

@@ -8,6 +8,7 @@ stages = {
 		'altered_beast_form': 'bear',
 		'song_count': 2,
 		'time': 'midnight',
+		'time_passage': 'true',
 		'weather': 'clear',
 		'spawnpoints': {
 			'1': '-12 0 0',
@@ -389,6 +390,7 @@ stages = {
 		'altered_beast_form': 'bear',
 		'song_count': 2,
 		'time': 'noon',
+		'time_passage': 'true',
 		'weather': 'clear',
 		'spawnpoints': {
 			'1': '-2 -2 -21',
@@ -1324,14 +1326,14 @@ stages = {
 		'time': 'noon',
 		'weather': 'clear',
 		'spawnpoints': {
-			'1': '0 0 0',
-			'2': '0 0 0',
-			'3': '0 0 0',
-			'4': '0 0 0',
-			'5': '0 0 0',
-			'6': '0 0 0',
-			'7': '0 0 0',
-			'8': '0 0 0',
+			'1': '-17 0 1',
+			'2': '-6 0 7',
+			'3': '-9 0 -11',
+			'4': '9 -1 -8',
+			'5': '14 -2 5',
+			'6': '6 -2 17',
+			'7': '-27 -2 12',
+			'8': '-25 -3 -20',
 		},
 		'item_spawnpoints': {
 			'1': '0 0 0',
@@ -1698,6 +1700,7 @@ stages = {
 		'altered_beast_form': 'bear',
 		'song_count': 2,
 		'time': 'noon',
+		'time_passage': 'true',
 		'weather': 'clear',
 		'spawnpoints': {
 			'1': '0 0 0',
@@ -1926,6 +1929,11 @@ def stage_storage():
 
 		if 'tick' in path:
 			stage_entry['tick'] = path['tick']
+
+		if 'time_passage' in path:
+			stage_entry['time_passage'] = 'true'
+		else:
+			stage_entry['time_passage'] = 'false'
 
 		stage_data[stage] = stage_entry
 

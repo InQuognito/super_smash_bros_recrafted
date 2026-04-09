@@ -2,7 +2,7 @@ from ssbrc.stages import stages
 
 for stage in stages:
 	dimension f'ssbrc:smash/{stage}' {
-		"type": "ssbrc:default",
+		"type": "ssbrc:stage",
 		"generator": {
 			"type": "minecraft:flat",
 			"settings": {
@@ -15,7 +15,7 @@ for stage in stages:
 	}
 
 	dimension f'ssbrc:ctf/{stage}' {
-		"type": "ssbrc:default",
+		"type": "ssbrc:stage",
 		"generator": {
 			"type": "minecraft:flat",
 			"settings": {

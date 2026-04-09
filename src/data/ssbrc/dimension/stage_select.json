@@ -1,5 +1,5 @@
 {
-	"type": "ssbrc:default",
+	"type": "ssbrc:static",
 	"generator": {
 		"type": "minecraft:flat",
 		"settings": {

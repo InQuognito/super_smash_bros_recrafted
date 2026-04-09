@@ -1,0 +1,38 @@
+{
+	"attributes": {
+		"minecraft:gameplay/bed_rule": {
+			"can_sleep": "never",
+			"can_set_spawn": "never",
+			"explodes": false
+		},
+		"minecraft:gameplay/can_start_raid": false,
+		"minecraft:gameplay/fast_lava": false,
+		"minecraft:gameplay/increased_fire_burnout": true,
+		"minecraft:gameplay/monsters_burn": false,
+		"minecraft:gameplay/nether_portal_spawns_piglin": false,
+		"minecraft:gameplay/piglins_zombify": false,
+		"minecraft:gameplay/respawn_anchor_works": false,
+		"minecraft:gameplay/sky_light_level": 0,
+		"minecraft:gameplay/snow_golem_melts": false,
+		"minecraft:gameplay/surface_slime_spawn_chance": 0,
+		"minecraft:gameplay/turtle_egg_hatch_chance": 0,
+		"minecraft:gameplay/water_evaporates": false,
+		"minecraft:visual/cloud_color": "#ccffffff",
+		"minecraft:visual/cloud_height": 64,
+		"minecraft:visual/sky_color": 7907327,
+		"minecraft:visual/water_fog_color": 329011
+	},
+	"default_clock": "ssbrc:stage",
+	"has_skylight": true,
+	"has_ceiling": false,
+	"has_ender_dragon_fight": false,
+	"coordinate_scale": 1,
+	"ambient_light": 0,
+	"logical_height": 384,
+	"infiniburn": "#minecraft:infiniburn_overworld",
+	"min_y": -64,
+	"height": 384,
+	"monster_spawn_light_level": 0,
+	"monster_spawn_block_light_limit": 0,
+	"timelines": "ssbrc:default"
+}
