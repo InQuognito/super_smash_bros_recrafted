@@ -34,8 +34,8 @@ summon minecraft:marker 0 0 0 {Tags:["math"]}
 worldborder set 9999999
 worldborder center 0 0
 
-time of ssbrc:static set 12000
-time of ssbrc:static pause
+#time of ssbrc:static set 12000
+#time of ssbrc:static pause
 
 weather clear
 

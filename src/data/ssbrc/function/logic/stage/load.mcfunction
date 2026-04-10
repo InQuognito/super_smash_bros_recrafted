@@ -3,8 +3,8 @@ $fillbiome -50 -50 -50 50 50 50 ssbrc:stage/$(name)
 
 $data modify storage ssbrc:temp game.stage set from storage ssbrc:data stage.$(name)
 
-$time of ssbrc:stage set $(time)
-function ssbrc:logic/stage/load/time
+#$time of ssbrc:stage set $(time)
+#function ssbrc:logic/stage/load/time
 
 $weather $(weather)
 
