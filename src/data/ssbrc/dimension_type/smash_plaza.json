@@ -34,5 +34,5 @@
 	"height": 384,
 	"monster_spawn_light_level": 0,
 	"monster_spawn_block_light_limit": 0,
-	"timelines": "ssbrc:smash_plaza"
+	"timelines": "#minecraft:in_overworld"
 }
