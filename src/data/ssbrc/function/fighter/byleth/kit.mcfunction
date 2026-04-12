@@ -1,6 +1,6 @@
 function ssbrc:logic/item/init/slot {item: "sword_of_the_creator", slot: "hotbar.0", class: "weapon", type: "default"}
 
-function ssbrc:logic/item/init/slot {item: "divine_pulse", slot: "hotbar.4", class: "default", type: "default"}
+function ssbrc:logic/item/init/slot {item: "divine_pulse", slot: "hotbar.3", class: "default", type: "default"}
 
 execute if entity @s[tag=black_eagles] run return run function ssbrc:fighter/byleth/black_eagles/kit
 
