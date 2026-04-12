@@ -1,7 +1,7 @@
 scoreboard players set @s cooldown.1 6
 
 scoreboard players remove @s charge.1 1
-execute if score @s charge.1 matches 0 run function ssbrc:fighter/byleth/divine_pulse/deactivate
+attribute @s[scores={charge.1=0}] minecraft:gravity modifier remove ssbrc:zero
 
 teleport @s ~ ~ ~ ~ ~
 
