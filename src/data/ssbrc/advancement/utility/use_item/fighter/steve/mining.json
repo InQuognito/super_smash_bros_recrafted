@@ -13,7 +13,7 @@
 				"item": {
 					"predicates": {
 						"minecraft:custom_data": {
-							"item": "steve.pickaxe"
+							"group": "steve_pickaxe"
 						}
 					}
 				}

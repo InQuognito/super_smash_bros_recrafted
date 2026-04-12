@@ -4085,7 +4085,7 @@ fighters = {
 			},
 			'wooden_pickaxe': {
 				'type': 'ability',
-				'group': 'steve_equipment',
+				'group': 'steve_pickaxe',
 				'stats': {
 					'cooldown_group': 'steve/pickaxe',
 					'cooldown': 0.05
@@ -4109,7 +4109,7 @@ fighters = {
 			},
 			'stone_pickaxe': {
 				'type': 'ability',
-				'group': 'steve_equipment',
+				'group': 'steve_pickaxe',
 				'stats': {
 					'cooldown_group': 'steve/pickaxe',
 					'cooldown': 0.05
@@ -4133,7 +4133,7 @@ fighters = {
 			},
 			'golden_pickaxe': {
 				'type': 'ability',
-				'group': 'steve_equipment',
+				'group': 'steve_pickaxe',
 				'stats': {
 					'cooldown_group': 'steve/pickaxe',
 					'cooldown': 0.05
@@ -4157,7 +4157,7 @@ fighters = {
 			},
 			'iron_pickaxe': {
 				'type': 'ability',
-				'group': 'steve_equipment',
+				'group': 'steve_pickaxe',
 				'stats': {
 					'cooldown_group': 'steve/pickaxe',
 					'cooldown': 0.05
@@ -4181,7 +4181,7 @@ fighters = {
 			},
 			'diamond_pickaxe': {
 				'type': 'ability',
-				'group': 'steve_equipment',
+				'group': 'steve_pickaxe',
 				'stats': {
 					'cooldown_group': 'steve/pickaxe',
 					'cooldown': 0.05
@@ -4205,7 +4205,7 @@ fighters = {
 			},
 			'netherite_pickaxe': {
 				'type': 'ability',
-				'group': 'steve_equipment',
+				'group': 'steve_pickaxe',
 				'stats': {
 					'cooldown_group': 'steve/pickaxe',
 					'cooldown': 0.05
