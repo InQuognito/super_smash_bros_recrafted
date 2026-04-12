@@ -2405,13 +2405,14 @@ fighters = {
 				}
 			},
 			'aymr': {
-				'type': 'hybrid_bow',
+				'type': 'hybrid',
 				'group': 'byleth_relic',
 				'stats': {
 					'attack_damage': 9,
 					'attack_speed': 0.5,
 					'max_reach': 2.8,
-					'item_damage_on_attack': 1
+					'item_damage_on_attack': 1,
+					'speed_multiplier': 0
 				},
 				'default': {
 					'name': 'ssbrc.fighter.byleth.aymr',
