@@ -4084,9 +4084,10 @@ fighters = {
 				}
 			},
 			'wooden_pickaxe': {
-				'type': 'ability',
+				'type': 'charge_ability',
 				'group': 'steve_pickaxe',
 				'stats': {
+					'use_duration': 1.5,
 					'cooldown_group': 'steve/pickaxe',
 					'cooldown': 0.05
 				},
@@ -4108,9 +4109,10 @@ fighters = {
 				}
 			},
 			'stone_pickaxe': {
-				'type': 'ability',
+				'type': 'charge_ability',
 				'group': 'steve_pickaxe',
 				'stats': {
+					'use_duration': 1.25,
 					'cooldown_group': 'steve/pickaxe',
 					'cooldown': 0.05
 				},
@@ -4132,9 +4134,10 @@ fighters = {
 				}
 			},
 			'golden_pickaxe': {
-				'type': 'ability',
+				'type': 'charge_ability',
 				'group': 'steve_pickaxe',
 				'stats': {
+					'use_duration': 0.5,
 					'cooldown_group': 'steve/pickaxe',
 					'cooldown': 0.05
 				},
@@ -4156,9 +4159,10 @@ fighters = {
 				}
 			},
 			'iron_pickaxe': {
-				'type': 'ability',
+				'type': 'charge_ability',
 				'group': 'steve_pickaxe',
 				'stats': {
+					'use_duration': 1,
 					'cooldown_group': 'steve/pickaxe',
 					'cooldown': 0.05
 				},
@@ -4180,9 +4184,10 @@ fighters = {
 				}
 			},
 			'diamond_pickaxe': {
-				'type': 'ability',
+				'type': 'charge_ability',
 				'group': 'steve_pickaxe',
 				'stats': {
+					'use_duration': 0.75,
 					'cooldown_group': 'steve/pickaxe',
 					'cooldown': 0.05
 				},
@@ -4204,9 +4209,10 @@ fighters = {
 				}
 			},
 			'netherite_pickaxe': {
-				'type': 'ability',
+				'type': 'charge_ability',
 				'group': 'steve_pickaxe',
 				'stats': {
+					'use_duration': 0.5,
 					'cooldown_group': 'steve/pickaxe',
 					'cooldown': 0.05
 				},
