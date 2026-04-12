@@ -1,5 +1,6 @@
 # Byleth
 execute if entity @s[tag=failnaught,tag=awakened] run return run function ssbrc:fighter/byleth/golden_deer/failnaught/tick
+execute if entity @s[tag=divine_pulse] run return run function ssbrc:fighter/byleth/divine_pulse/mark
 
 # Dark Samus
 execute if entity @s[tag=phazon_pool] run return run function ssbrc:fighter/dark_samus/phazon_spike/phazon_pool/tick

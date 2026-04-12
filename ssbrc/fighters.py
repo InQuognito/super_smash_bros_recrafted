@@ -2385,7 +2385,7 @@ fighters = {
 		],
 		'items': {
 			'areadbhar': {
-				'type': 'hybrid',
+				'type': 'kinetic_weapon',
 				'group': 'byleth_relic',
 				'stats': {
 					'attack_damage': 4,
@@ -2402,7 +2402,7 @@ fighters = {
 				}
 			},
 			'aymr': {
-				'type': 'weapon',
+				'type': 'hybrid_bow',
 				'group': 'byleth_relic',
 				'stats': {
 					'attack_damage': 9,
