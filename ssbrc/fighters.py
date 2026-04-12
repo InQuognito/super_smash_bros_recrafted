@@ -2386,6 +2386,7 @@ fighters = {
 		'items': {
 			'areadbhar': {
 				'type': 'hybrid',
+				'group': 'byleth_relic',
 				'stats': {
 					'attack_damage': 4,
 					'attack_speed': 1,
@@ -2402,6 +2403,7 @@ fighters = {
 			},
 			'aymr': {
 				'type': 'weapon',
+				'group': 'byleth_relic',
 				'stats': {
 					'attack_damage': 9,
 					'attack_speed': 0.5,
@@ -2436,6 +2438,7 @@ fighters = {
 			},
 			'failnaught': {
 				'type': 'bow',
+				'group': 'byleth_relic',
 				'stats': {
 					'speed_multiplier': 0.6
 				},
