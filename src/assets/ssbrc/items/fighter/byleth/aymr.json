@@ -7,13 +7,13 @@
 				"threshold": 10,
 				"model": {
 					"type": "minecraft:model",
-					"model": "ssbrc:fighter/byleth/item/areadbhar/awakened"
+					"model": "ssbrc:fighter/byleth/item/aymr/awakened"
 				}
 			}
 		],
 		"fallback": {
 			"type": "minecraft:model",
-			"model": "ssbrc:fighter/byleth/item/areadbhar/default"
+			"model": "ssbrc:fighter/byleth/item/aymr/default"
 		}
 	}
 }
