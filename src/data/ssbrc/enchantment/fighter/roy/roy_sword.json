@@ -53,6 +53,42 @@
 				"enchanted": "victim",
 				"affected": "victim"
 			}
+		],
+		"minecraft:damage": [
+			{
+				"requirements": {
+					"condition": "minecraft:entity_properties",
+					"entity": "attacker",
+					"predicate": {
+						"distance": {
+							"absolute": {
+								"min": 1
+							}
+						}
+					}
+				},
+				"effect": {
+					"type": "minecraft:multiply",
+					"factor": 0.66
+				}
+			},
+			{
+				"requirements": {
+					"condition": "minecraft:entity_properties",
+					"entity": "attacker",
+					"predicate": {
+						"distance": {
+							"absolute": {
+								"min": 2
+							}
+						}
+					}
+				},
+				"effect": {
+					"type": "minecraft:multiply",
+					"factor": 0.66
+				}
+			}
 		]
 	}
 }
