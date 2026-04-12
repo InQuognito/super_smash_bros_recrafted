@@ -2388,6 +2388,7 @@ fighters = {
 				'type': 'kinetic_weapon',
 				'group': 'byleth_relic',
 				'stats': {
+					'max_damage': 30,
 					'can_sprint': True,
 					'speed_multiplier': 1,
 					'attack_damage': 4,
@@ -2408,6 +2409,7 @@ fighters = {
 				'type': 'hybrid',
 				'group': 'byleth_relic',
 				'stats': {
+					'max_damage': 20,
 					'attack_damage': 9,
 					'attack_speed': 0.5,
 					'max_reach': 2.8,
@@ -2444,6 +2446,7 @@ fighters = {
 				'type': 'bow',
 				'group': 'byleth_relic',
 				'stats': {
+					'max_damage': 15,
 					'speed_multiplier': 0.6
 				},
 				'default': {
@@ -2494,28 +2497,13 @@ fighters = {
 					'color': 'gold'
 				}
 			},
-			'steel_sword': {
-				'type': 'weapon',
-				'stats': {
-					'attack_damage': 3,
-					'attack_speed': 1.5
-				},
-				'default': {
-					'name': 'ssbrc.fighter.byleth.steel_sword',
-					'color': 'gray'
-				},
-				'gold': {
-					'color': 'gold'
-				}
-			},
 			'sword_of_the_creator': {
 				'type': 'weapon',
 				'stats': {
 					'attack_damage': 4,
 					'attack_speed': 1.5,
 					'max_reach': 3.25,
-					'hitbox_margin': 0.6,
-					'item_damage_on_attack': 1
+					'hitbox_margin': 0.6
 				},
 				'default': {
 					'name': 'ssbrc.fighter.byleth.sword_of_the_creator',
@@ -4900,11 +4888,15 @@ def init_stat(stat: str, path: str, fallback):
 	else:
 		return fallback
 
+def extend_equipment(data, path):
+	data['max_damage'] = init_stat('max_damage', path, 1)
+
 def extend_usable(data, path):
 	data['can_sprint'] = init_stat('can_sprint', path, False)
 	data['speed_multiplier'] = init_stat('speed_multiplier', path, 6)
 
 def extend_weapon(data, path):
+	extend_equipment(data, path)
 	data['attack_damage'] = init_stat('attack_damage', path, 0)
 	data['attack_speed'] = init_stat('attack_speed', path, 0)
 	data['minimum_attack_charge'] = init_stat('minimum_attack_charge', path, 1)
@@ -4932,8 +4924,8 @@ def extend_kinetic_weapon(data, path):
 	data['hit_sound'] = init_stat('hit_sound', path, 'empty')
 
 def extend_shield(data, path):
+	extend_equipment(data, path)
 	extend_usable(data, path)
-	data['max_damage'] = init_stat('max_damage', path, 1)
 	data['block_delay_seconds'] = init_stat('block_delay_seconds', path, 0)
 	data['block_sound'] = init_stat('block_sound', path, '')
 	data['disabled_sound'] = init_stat('disabled_sound', path, '')
