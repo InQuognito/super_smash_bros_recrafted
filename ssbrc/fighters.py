@@ -2388,9 +2388,12 @@ fighters = {
 				'type': 'kinetic_weapon',
 				'group': 'byleth_relic',
 				'stats': {
+					'can_sprint': True,
+					'speed_multiplier': 1,
 					'attack_damage': 4,
 					'attack_speed': 1,
 					'max_reach': 3.5,
+					'item_damage_on_attack': 1,
 					'swing_animation': 'stab',
 					'startup_ticks': 10,
 					'cooldown_ticks': 20,
@@ -4896,6 +4899,10 @@ def init_stat(stat: str, path: str, fallback):
 	else:
 		return fallback
 
+def extend_usable(data, path):
+	data['can_sprint'] = init_stat('can_sprint', path, False)
+	data['speed_multiplier'] = init_stat('speed_multiplier', path, 6)
+
 def extend_weapon(data, path):
 	data['attack_damage'] = init_stat('attack_damage', path, 0)
 	data['attack_speed'] = init_stat('attack_speed', path, 0)
@@ -4915,6 +4922,7 @@ def extend_custom_swing(data, path):
 	data['hit_sound'] = init_stat('hit_sound', path, 'empty')
 
 def extend_kinetic_weapon(data, path):
+	extend_usable(data, path)
 	data['startup_ticks'] = init_stat('startup_ticks', path, 0)
 	data['cooldown_ticks'] = init_stat('cooldown_ticks', path, 10)
 	data['visual_reach'] = init_stat('visual_reach', path, 0)
@@ -4923,6 +4931,7 @@ def extend_kinetic_weapon(data, path):
 	data['hit_sound'] = init_stat('hit_sound', path, 'empty')
 
 def extend_shield(data, path):
+	extend_usable(data, path)
 	data['max_damage'] = init_stat('max_damage', path, 1)
 	data['block_delay_seconds'] = init_stat('block_delay_seconds', path, 0)
 	data['block_sound'] = init_stat('block_sound', path, '')
@@ -4932,6 +4941,7 @@ def extend_shield(data, path):
 	data['blocking_angle'] = init_stat('blocking_angle', path, 90)
 
 def extend_ability(data, path):
+	extend_usable(data, path)
 	data['cooldown'] = init_stat('cooldown', path, 1)
 	data['cooldown_group'] = init_stat('cooldown_group', path, 'fallback')
 
@@ -4999,7 +5009,7 @@ def fighter_storage():
 							extend_weapon(item_stats, stat_path)
 							extend_kinetic_weapon(item_stats, stat_path)
 						case 'bow':
-							item_stats['sprint_multiplier'] = init_stat('sprint_multiplier', stat_path, 0.2)
+							extend_usable(item_stats, stat_path)
 						case 'shield':
 							extend_shield(item_stats, stat_path)
 						case 'ability':
