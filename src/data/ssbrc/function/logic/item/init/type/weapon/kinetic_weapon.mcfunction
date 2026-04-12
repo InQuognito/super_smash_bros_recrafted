@@ -64,6 +64,10 @@ $item replace entity @s $(slot) with minecraft:stick[ \
 		type: "$(swing_animation)", \
 		duration: $(swing_duration), \
 	}, \
+	minecraft:use_effects = { \
+		can_sprint: true, \
+		speed_multiplier: 1, \
+	}, \
 	minecraft:weapon = { \
 		item_damage_on_attack: $(item_damage_on_attack), \
 		disable_blocking_for_seconds: $(disable_blocking_for_seconds), \

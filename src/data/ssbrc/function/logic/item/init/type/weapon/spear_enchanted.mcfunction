@@ -63,6 +63,16 @@ $item replace entity @s $(slot) with minecraft:stick[ \
 	}, \
 	minecraft:max_stack_size = 1, \
 	minecraft:minimum_attack_charge = $(minimum_attack_charge), \
+	minecraft:piercing_weapon = { \
+		deals_knockback: $(deals_knockback), \
+		dismounts: $(dismounts), \
+		sound: { \
+			sound_id: "ssbrc:$(use_sound)", \
+		}, \
+		hit_sound: { \
+			sound_id: "ssbrc:$(hit_sound)", \
+		}, \
+	}, \
 	minecraft:swing_animation = { \
 		type: "$(swing_animation)", \
 		duration: $(swing_duration), \
