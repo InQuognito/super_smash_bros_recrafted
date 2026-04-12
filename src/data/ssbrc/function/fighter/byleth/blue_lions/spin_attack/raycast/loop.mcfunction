@@ -1,7 +1,0 @@
-execute if score @s charge matches 21..40 run particle minecraft:dust{color: [1,1,0], scale: 1} ^ ^ ^2.25 0 0 0 0 1 force @s
-execute if score @s charge matches 41..60 run particle minecraft:dust{color: [1,.5,0], scale: 1} ^ ^ ^2.5 0 0 0 0 1 force @s
-execute if score @s charge matches 61..80 run particle minecraft:dust{color: [1,0,0], scale: 1} ^ ^ ^2.75 0 0 0 0 1 force @s
-execute if score @s charge matches 81.. run particle minecraft:dust{color: [.25,0,0], scale: 1} ^ ^ ^3 0 0 0 0 1 force @s
-
-scoreboard players remove #n temp 1
-execute if score #n temp matches 1.. rotated ~1 ~ run function ssbrc:fighter/byleth/blue_lions/spin_attack/raycast/loop

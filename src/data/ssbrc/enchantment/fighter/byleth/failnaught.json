@@ -22,29 +22,6 @@
 					"type": "minecraft:run_function",
 					"function": "ssbrc:fighter/byleth/golden_deer/failnaught/activate"
 				}
-			},
-			{
-				"effect": {
-					"type": "minecraft:run_function",
-					"function": "ssbrc:fighter/byleth/golden_deer/failnaught/break"
-				},
-				"requirements": {
-					"condition": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"equipment": {
-							"mainhand": {
-								"predicates": {
-									"minecraft:damage": {
-										"durability": {
-											"max": 2
-										}
-									}
-								}
-							}
-						}
-					}
-				}
 			}
 		],
 		"minecraft:ammo_use": [
@@ -59,26 +36,6 @@
 			{
 				"effect": {
 					"type": "minecraft:set",
-					"value": 0
-				}
-			},
-			{
-				"requirements": {
-					"condition": "minecraft:value_check",
-					"value": {
-						"type": "minecraft:score",
-						"target": {
-							"type": "minecraft:fixed",
-							"name": "#charge"
-						},
-						"score": "temp"
-					},
-					"range": {
-						"min": 30
-					}
-				},
-				"effect": {
-					"type": "minecraft:add",
 					"value": 1
 				}
 			},
@@ -94,7 +51,7 @@
 						"score": "temp"
 					},
 					"range": {
-						"min": 80
+						"min": 40
 					}
 				},
 				"effect": {
@@ -110,23 +67,6 @@
 					"entity": "this",
 					"scores": {
 						"charge": 40
-					}
-				},
-				"effect": {
-					"type": "minecraft:play_sound",
-					"sound": {
-						"sound_id": "ssbrc:fighter.byleth.golden_deer.failnaught.charge"
-					},
-					"pitch": 1,
-					"volume": 1
-				}
-			},
-			{
-				"requirements": {
-					"condition": "minecraft:entity_scores",
-					"entity": "this",
-					"scores": {
-						"charge": 80
 					}
 				},
 				"effect": {

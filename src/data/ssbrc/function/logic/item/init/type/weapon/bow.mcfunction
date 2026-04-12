@@ -24,6 +24,10 @@ $item replace entity @s $(slot) with minecraft:bow[ \
 	minecraft:swing_animation = { \
 		type: "none", \
 	}, \
+	minecraft:use_effects = { \
+		can_sprint: false, \
+		speed_multiplier: $(speed_multiplier), \
+	}, \
 ]
 
 $item modify entity @s $(slot) { \

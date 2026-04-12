@@ -433,8 +433,10 @@ fighters = {
 		],
 		'items': {
 			'fairy_bow': {
-				'type': 'null',
-				'stats': {},
+				'type': 'bow',
+				'stats': {
+					'speed_multiplier': 0.2
+				},
 				'default': {
 					'name': 'ssbrc.fighter.link.fairy_bow',
 					'color': 'blue'
@@ -702,27 +704,33 @@ fighters = {
 				}
 			},
 			'bow': {
-				'type': 'null',
+				'type': 'bow',
+				'stats': {
+					'speed_multiplier': 0.2
+				},
 				'group': 'dungeon_item',
-				'stats': {},
 				'default': {
 					'name': 'item.minecraft.bow',
 					'color': 'white'
 				}
 			},
 			'fire_bow': {
-				'type': 'null',
+				'type': 'bow',
+				'stats': {
+					'speed_multiplier': 0.2
+				},
 				'group': 'dungeon_item',
-				'stats': {},
 				'default': {
 					'name': 'ssbrc.fighter.zelda.dungeon_item.fire_bow',
 					'color': 'red'
 				}
 			},
 			'poison_bow': {
-				'type': 'null',
+				'type': 'bow',
+				'stats': {
+					'speed_multiplier': 0.2
+				},
 				'group': 'dungeon_item',
-				'stats': {},
 				'default': {
 					'name': 'ssbrc.fighter.zelda.dungeon_item.poison_bow',
 					'color': 'green'
@@ -2382,9 +2390,10 @@ fighters = {
 					'attack_damage': 4,
 					'attack_speed': 1,
 					'max_reach': 3.5,
-					'item_damage_on_attack': 1,
-					'cooldown_group': 'byleth/areadbhar',
-					'cooldown': 1
+					'swing_animation': 'stab',
+					'startup_ticks': 10,
+					'cooldown_ticks': 20,
+					'speed_damage_multiplier': 2
 				},
 				'default': {
 					'name': 'ssbrc.fighter.byleth.areadbhar',
@@ -2392,23 +2401,44 @@ fighters = {
 				}
 			},
 			'aymr': {
-				'type': 'hybrid',
+				'type': 'weapon',
 				'stats': {
 					'attack_damage': 9,
 					'attack_speed': 0.5,
 					'max_reach': 2.8,
-					'item_damage_on_attack': 1,
-					'cooldown_group': 'byleth/aymr',
-					'cooldown': 1
+					'item_damage_on_attack': 1
 				},
 				'default': {
-					'name': 'ssbrc.fighter.byleth.areadbhar',
+					'name': 'ssbrc.fighter.byleth.aymr',
 					'color': 'red'
 				}
 			},
+			'brave_bow': {
+				'type': 'bow',
+				'stats': {
+					'speed_multiplier': 0.8
+				},
+				'default': {
+					'name': 'ssbrc.fighter.byleth.brave_bow',
+					'color': 'yellow'
+				}
+			},
+			'divine_pulse': {
+				'type': 'ability',
+				'stats': {
+					'cooldown_group': 'byleth/divine_pulse',
+					'cooldown': 120
+				},
+				'default': {
+					'name': 'ssbrc.fighter.byleth.divine_pulse',
+					'color': 'light_purple'
+				}
+			},
 			'failnaught': {
-				'type': 'null',
-				'stats': {},
+				'type': 'bow',
+				'stats': {
+					'speed_multiplier': 0.6
+				},
 				'default': {
 					'name': 'ssbrc.fighter.byleth.failnaught',
 					'color': 'yellow'
@@ -2429,8 +2459,10 @@ fighters = {
 				}
 			},
 			'steel_bow': {
-				'type': 'null',
-				'stats': {},
+				'type': 'bow',
+				'stats': {
+					'speed_multiplier': 0.2
+				},
 				'default': {
 					'name': 'ssbrc.fighter.byleth.steel_bow',
 					'color': 'gray'
@@ -4960,6 +4992,11 @@ def fighter_storage():
 						case 'custom_swing':
 							extend_weapon(item_stats, stat_path)
 							extend_custom_swing(item_stats, stat_path)
+						case 'kinetic_weapon':
+							extend_weapon(item_stats, stat_path)
+							extend_kinetic_weapon(item_stats, stat_path)
+						case 'bow':
+							item_stats['sprint_multiplier'] = init_stat('sprint_multiplier', stat_path, 0.2)
 						case 'shield':
 							extend_shield(item_stats, stat_path)
 						case 'ability':

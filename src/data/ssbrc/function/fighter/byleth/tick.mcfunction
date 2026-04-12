@@ -1,9 +1,7 @@
 function ssbrc:logic/fighter/ability/init
 
-execute if entity @s[tag=black_eagles] run return run function ssbrc:fighter/byleth/black_eagles/tick
+function ssbrc:fighter/byleth/tick_class
 
-execute if entity @s[tag=blue_lions] run return run function ssbrc:fighter/byleth/blue_lions/tick
-
-function ssbrc:fighter/byleth/golden_deer/tick
+function ssbrc:fighter/byleth/divine_pulse/tick
 
 function ssbrc:logic/fighter/ability/deinit

@@ -1,4 +1,4 @@
-execute if score #charge temp matches 80.. run return run function ssbrc:fighter/byleth/golden_deer/failnaught/awakened/activate
+execute if score #charge temp matches 40.. run return run function ssbrc:fighter/byleth/golden_deer/failnaught/awakened/activate
 
 tag @s add failnaught
 

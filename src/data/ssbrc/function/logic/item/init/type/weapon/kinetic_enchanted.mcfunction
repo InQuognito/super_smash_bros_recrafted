@@ -1,4 +1,4 @@
-$item replace entity @s $(slot) with minecraft:bow[ \
+$item replace entity @s $(slot) with minecraft:stick[ \
 	minecraft:attack_range = { \
 		min_reach: $(min_reach), \
 		max_reach: $(max_reach), \
@@ -32,7 +32,6 @@ $item replace entity @s $(slot) with minecraft:bow[ \
 	}, \
 	minecraft:enchantments = { \
 		"ssbrc:fighter/$(fighter)/$(item)": 1, \
-		"ssbrc:charge_ability": 1, \
 	}, \
 	minecraft:item_model = "ssbrc:fighter/$(fighter)/$(item)", \
 	minecraft:item_name = { \
@@ -41,15 +40,32 @@ $item replace entity @s $(slot) with minecraft:bow[ \
 		bold: true, \
 		italic: false, \
 	}, \
+	minecraft:kinetic_weapon = { \
+		delay_ticks: $(startup_ticks), \
+		contact_cooldown_ticks: $(cooldown_ticks), \
+		dismount_conditions: { \
+			max_duration_ticks: 10, \
+		}, \
+		knockback_conditions: { \
+			max_duration_ticks: 10, \
+		}, \
+		damage_conditions: { \
+			max_duration_ticks: 10, \
+		}, \
+		forward_movement: 0, \
+		damage_multiplier: 0, \
+		sound: { \
+			sound_id: "ssbrc:$(use_sound)", \
+		}, \
+		hit_sound: { \
+			sound_id: "ssbrc:$(hit_sound)", \
+		}, \
+	}, \
 	minecraft:max_stack_size = 1, \
 	minecraft:minimum_attack_charge = $(minimum_attack_charge), \
 	minecraft:swing_animation = { \
 		type: "$(swing_animation)", \
 		duration: $(swing_duration), \
-	}, \
-	minecraft:use_effects = { \
-		can_sprint: false, \
-		speed_multiplier: $(speed_multiplier), \
 	}, \
 	minecraft:weapon = { \
 		item_damage_on_attack: $(item_damage_on_attack), \
@@ -59,7 +75,7 @@ $item replace entity @s $(slot) with minecraft:bow[ \
 
 $item modify entity @s $(slot) { \
 	function: "minecraft:reference", \
-	name: "ssbrc:init/item/ranged", \
+	name: "ssbrc:init/item/melee", \
 }
 
 $item modify entity @s $(slot) { \

@@ -6,11 +6,4 @@ particle minecraft:crimson_spore ~ ~ ~ .05 0 .05 0 100 normal @a
 
 execute as @e[predicate=ssbrc:target,tag=!self,distance=..6] at @s unless block ~ ~-.5 ~ #ssbrc:passthrough run function ssbrc:logic/damage/generic {amount: 16, type: "generic", kb_resist: 0, source: " by @a[tag=self,limit=1]"}
 
-scoreboard players add @s cooldown 10
-
-item modify entity @s weapon.mainhand ssbrc:fighter/byleth/black_eagles/aymr/default
-
-scoreboard players set #durability.modify temp 4
-function ssbrc:logic/item/durability/remove
-
 playsound ssbrc:fighter.byleth.black_eagles.aymr.activate player @a

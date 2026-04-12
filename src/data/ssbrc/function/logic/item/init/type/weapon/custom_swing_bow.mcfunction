@@ -57,6 +57,10 @@ $item replace entity @s $(slot) with minecraft:bow[ \
 		type: "$(swing_animation)", \
 		duration: $(swing_duration), \
 	}, \
+	minecraft:use_effects = { \
+		can_sprint: false, \
+		speed_multiplier: $(speed_multiplier), \
+	}, \
 	minecraft:weapon = { \
 		item_damage_on_attack: $(item_damage_on_attack), \
 		disable_blocking_for_seconds: $(disable_blocking_for_seconds), \

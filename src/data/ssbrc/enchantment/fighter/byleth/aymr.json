@@ -16,28 +16,25 @@
 		"mainhand"
 	],
 	"effects": {
-		"minecraft:tick": [
+		"minecraft:projectile_spawned": [
 			{
 				"effect": {
 					"type": "minecraft:run_function",
-					"function": "ssbrc:fighter/byleth/black_eagles/aymr/break"
-				},
-				"requirements": {
-					"condition": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"equipment": {
-							"mainhand": {
-								"predicates": {
-									"minecraft:damage": {
-										"durability": {
-											"max": 4
-										}
-									}
-								}
-							}
-						}
-					}
+					"function": "ssbrc:fighter/byleth/black_eagles/ground_pound/check"
+				}
+			},
+			{
+				"effect": {
+					"type": "minecraft:change_item_damage",
+					"amount": 1
+				}
+			}
+		],
+		"minecraft:ammo_use": [
+			{
+				"effect": {
+					"type": "minecraft:set",
+					"value": 0.0
 				}
 			}
 		]
