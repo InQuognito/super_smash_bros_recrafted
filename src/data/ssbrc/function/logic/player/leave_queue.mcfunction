@@ -5,6 +5,7 @@ function ssbrc:logic/game/data/triggers
 gamemode adventure @s
 
 clear @s #ssbrc:equipment/all
+clear @s #minecraft:arrows
 
 loot give @s[advancements={ssbrc:tutorial/intro/2=true}] loot ssbrc:selector
 #item replace entity @s hotbar.8 with minecraft:fishing_rod[minecraft:enchantments={"minecraft:lure":5},minecraft:unbreakable={}]

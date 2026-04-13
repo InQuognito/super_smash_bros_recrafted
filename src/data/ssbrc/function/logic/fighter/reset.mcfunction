@@ -26,7 +26,6 @@ tag @s remove fire_breath
 tag @s remove rage_used
 
 # Byleth
-function ssbrc:fighter/byleth/menu/loadout/reset
 tag @s remove divine_pulse
 
 # Captain Falcon
