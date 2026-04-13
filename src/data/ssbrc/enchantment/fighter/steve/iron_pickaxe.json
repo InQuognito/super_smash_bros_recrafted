@@ -16,13 +16,9 @@
 		"hand"
 	],
 	"effects": {
-		"minecraft:knockback": [
-			{
-				"effect": {
-					"type": "minecraft:set",
-					"value": -10
-				}
-			}
-		]
+		"minecraft:crossbow_charge_time": {
+			"type": "minecraft:set",
+			"value": 1
+		}
 	}
 }

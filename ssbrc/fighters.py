@@ -2385,7 +2385,7 @@ fighters = {
 		],
 		'items': {
 			'areadbhar': {
-				'type': 'kinetic_weapon',
+				'type': 'spear',
 				'group': 'byleth_relic',
 				'stats': {
 					'max_damage': 30,
@@ -4084,7 +4084,7 @@ fighters = {
 				}
 			},
 			'wooden_pickaxe': {
-				'type': 'charge_ability',
+				'type': 'bow',
 				'group': 'steve_pickaxe',
 				'stats': {
 					'use_duration': 1.5,
@@ -5006,6 +5006,10 @@ def fighter_storage():
 							extend_custom_swing(item_stats, stat_path)
 						case 'kinetic_weapon':
 							extend_weapon(item_stats, stat_path)
+							extend_kinetic_weapon(item_stats, stat_path)
+						case 'spear':
+							extend_weapon(item_stats, stat_path)
+							extend_custom_swing(item_stats, stat_path)
 							extend_kinetic_weapon(item_stats, stat_path)
 						case 'bow':
 							extend_usable(item_stats, stat_path)

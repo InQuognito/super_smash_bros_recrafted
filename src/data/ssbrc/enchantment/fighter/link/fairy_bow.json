@@ -13,7 +13,7 @@
 	},
 	"anvil_cost": 0,
 	"slots": [
-		"mainhand"
+		"hand"
 	],
 	"effects": {
 		"minecraft:item_damage": [
