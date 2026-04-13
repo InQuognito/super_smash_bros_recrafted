@@ -1,6 +1,4 @@
-function ssbrc:fighter/byleth/menu/loadout/reset
-
-$tag @s add $(house)
+$function ssbrc:logic/player/data/set {data: {temp: {fighter: {house: "$(house)"}}}}
 
 $tellraw @s[tag=!picking_random] [ \
 	"", \

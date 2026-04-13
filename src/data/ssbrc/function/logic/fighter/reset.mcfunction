@@ -27,7 +27,7 @@ tag @s remove rage_used
 
 # Byleth
 function ssbrc:fighter/byleth/menu/loadout/reset
-tag @s remove weapon_broken
+tag @s remove divine_pulse
 
 # Captain Falcon
 tag @s remove falcon_charge

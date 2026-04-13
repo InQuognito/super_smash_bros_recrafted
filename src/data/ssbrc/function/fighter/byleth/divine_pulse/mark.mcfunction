@@ -1,3 +1,5 @@
+scoreboard players set @s charge.2 0
+
 execute store result storage ssbrc:temp cache.divine_pulse.health int 1 run scoreboard players get @s health
 
 execute store result storage ssbrc:temp cache.divine_pulse.rotation_x float 1 run data get entity @s Rotation[0]
