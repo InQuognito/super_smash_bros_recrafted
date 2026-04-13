@@ -51,6 +51,7 @@ $item replace entity @s $(slot) with minecraft:shield[ \
 		bold: true, \
 		italic: false, \
 	}, \
+	minecraft:max_damage = $(max_damage), \
 	minecraft:max_stack_size = 1, \
 	minecraft:minimum_attack_charge = 1, \
 	minecraft:swing_animation = { \

@@ -61,6 +61,7 @@ $item replace entity @s $(slot) with minecraft:stick[ \
 			sound_id: "ssbrc:$(hit_sound)", \
 		}, \
 	}, \
+	minecraft:max_damage = $(max_damage), \
 	minecraft:max_stack_size = 1, \
 	minecraft:minimum_attack_charge = $(minimum_attack_charge), \
 	minecraft:piercing_weapon = { \
