@@ -359,10 +359,10 @@
 			}
 		]
 	},
-	"fighter.byleth.divine_pulse.end": {
+	"fighter.byleth.divine_pulse.deactivate": {
 		"sounds": [
 			{
-				"name": "ssbrc:fighter/byleth/divine_pulse/end",
+				"name": "ssbrc:fighter/byleth/divine_pulse/deactivate",
 				"stream": false,
 				"volume": 1.0
 			}

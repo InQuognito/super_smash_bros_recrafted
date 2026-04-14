@@ -1,5 +1,3 @@
-tag @s remove divine_pulse
-
 effect clear @s minecraft:resistance
 
 attribute @s minecraft:gravity modifier remove ssbrc:zero
