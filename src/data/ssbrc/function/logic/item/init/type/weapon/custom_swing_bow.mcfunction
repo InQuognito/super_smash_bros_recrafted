@@ -42,7 +42,7 @@ $item replace entity @s $(slot) with minecraft:bow[ \
 		italic: false, \
 	}, \
 	minecraft:max_damage = $(max_damage), \
-	minecraft:max_stack_size = 1, \
+	minecraft:max_stack_size = $(max_stack_size), \
 	minecraft:minimum_attack_charge = $(minimum_attack_charge), \
 	minecraft:piercing_weapon = { \
 		deals_knockback: $(deals_knockback), \

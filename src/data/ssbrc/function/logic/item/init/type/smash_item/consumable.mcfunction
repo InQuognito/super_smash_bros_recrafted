@@ -24,7 +24,7 @@ $item replace entity @s $(slot) with minecraft:goat_horn[ \
 		italic: false, \
 	}, \
 	minecraft:max_damage = $(max_damage), \
-	minecraft:max_stack_size = 1, \
+	minecraft:max_stack_size = $(max_stack_size), \
 	minecraft:minimum_attack_charge = 1, \
 	minecraft:swing_animation = { \
 		type: "none", \

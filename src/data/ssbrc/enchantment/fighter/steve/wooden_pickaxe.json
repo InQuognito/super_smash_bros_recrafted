@@ -16,9 +16,21 @@
 		"hand"
 	],
 	"effects": {
-		"minecraft:crossbow_charge_time": {
-			"type": "minecraft:set",
-			"value": 1.5
-		}
+		"minecraft:projectile_spawned": [
+			{
+				"effect": {
+					"type": "minecraft:run_function",
+					"function": "ssbrc:fighter/steve/mining/deactivate"
+				}
+			}
+		],
+		"minecraft:ammo_use": [
+			{
+				"effect": {
+					"type": "minecraft:set",
+					"value": 0
+				}
+			}
+		]
 	}
 }

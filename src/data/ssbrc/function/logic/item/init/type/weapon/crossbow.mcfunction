@@ -1,25 +1,4 @@
-$item replace entity @s $(slot) with minecraft:bow[ \
-	minecraft:attack_range = { \
-		min_reach: $(min_reach), \
-		max_reach: $(max_reach), \
-		hitbox_margin: $(hitbox_margin), \
-	}, \
-	minecraft:attribute_modifiers = [ \
-		{ \
-			type: "minecraft:attack_damage", \
-			id: "ssbrc:attack_damage", \
-			amount: $(attack_damage), \
-			operation: "add_multiplied_base", \
-			slot: "mainhand", \
-		}, \
-		{ \
-			type: "minecraft:attack_speed", \
-			id: "ssbrc:attack_speed", \
-			amount: $(attack_speed), \
-			operation: "add_multiplied_base", \
-			slot: "mainhand", \
-		}, \
-	], \
+$item replace entity @s $(slot) with minecraft:crossbow[ \
 	minecraft:custom_data = { \
 		item: "$(item)", \
 		group: "$(group)", \
@@ -45,8 +24,7 @@ $item replace entity @s $(slot) with minecraft:bow[ \
 	minecraft:max_stack_size = $(max_stack_size), \
 	minecraft:minimum_attack_charge = $(minimum_attack_charge), \
 	minecraft:swing_animation = { \
-		type: "$(swing_animation)", \
-		duration: $(swing_duration), \
+		type: "none", \
 	}, \
 	minecraft:tooltip_display = { \
 		hidden_components: [ \
@@ -59,10 +37,6 @@ $item replace entity @s $(slot) with minecraft:bow[ \
 	minecraft:use_effects = { \
 		can_sprint: false, \
 		speed_multiplier: $(speed_multiplier), \
-	}, \
-	minecraft:weapon = { \
-		item_damage_on_attack: $(item_damage_on_attack), \
-		disable_blocking_for_seconds: $(disable_blocking_for_seconds), \
 	}, \
 ]
 

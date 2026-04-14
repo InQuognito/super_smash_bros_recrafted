@@ -4065,8 +4065,8 @@ fighters = {
 		],
 		'items': {
 			'wooden_sword': {
-				'type': 'weapon',
 				'group': 'steve_equipment',
+				'type': 'weapon',
 				'stats': {
 					'attack_damage': 5.5,
 					'attack_speed': 1.5
@@ -4077,12 +4077,10 @@ fighters = {
 				}
 			},
 			'wooden_pickaxe': {
-				'type': 'bow',
 				'group': 'steve_pickaxe',
+				'type': 'bow',
 				'stats': {
-					'use_duration': 1.5,
-					'cooldown_group': 'steve/pickaxe',
-					'cooldown': 0.05
+					'speed_multiplier': 0.8,
 				},
 				'default': {
 					'name': 'item.minecraft.wooden_pickaxe',
@@ -4090,8 +4088,8 @@ fighters = {
 				}
 			},
 			'stone_sword': {
-				'type': 'weapon',
 				'group': 'steve_equipment',
+				'type': 'weapon',
 				'stats': {
 					'attack_damage': 6,
 					'attack_speed': 1.5
@@ -4102,12 +4100,10 @@ fighters = {
 				}
 			},
 			'stone_pickaxe': {
-				'type': 'charge',
 				'group': 'steve_pickaxe',
+				'type': 'bow',
 				'stats': {
-					'use_duration': 1.25,
-					'cooldown_group': 'steve/pickaxe',
-					'cooldown': 0.05
+					'speed_multiplier': 0.8,
 				},
 				'default': {
 					'name': 'item.minecraft.stone_pickaxe',
@@ -4115,8 +4111,8 @@ fighters = {
 				}
 			},
 			'golden_sword': {
-				'type': 'weapon',
 				'group': 'steve_equipment',
+				'type': 'weapon',
 				'stats': {
 					'attack_damage': 6,
 					'attack_speed': 2
@@ -4127,12 +4123,10 @@ fighters = {
 				}
 			},
 			'golden_pickaxe': {
-				'type': 'charge',
 				'group': 'steve_pickaxe',
+				'type': 'bow',
 				'stats': {
-					'use_duration': 0.5,
-					'cooldown_group': 'steve/pickaxe',
-					'cooldown': 0.05
+					'speed_multiplier': 0.8,
 				},
 				'default': {
 					'name': 'item.minecraft.golden_pickaxe',
@@ -4140,8 +4134,8 @@ fighters = {
 				}
 			},
 			'iron_sword': {
-				'type': 'weapon',
 				'group': 'steve_equipment',
+				'type': 'weapon',
 				'stats': {
 					'attack_damage': 6.5,
 					'attack_speed': 1.5
@@ -4152,12 +4146,10 @@ fighters = {
 				}
 			},
 			'iron_pickaxe': {
-				'type': 'charge',
 				'group': 'steve_pickaxe',
+				'type': 'bow',
 				'stats': {
-					'use_duration': 1,
-					'cooldown_group': 'steve/pickaxe',
-					'cooldown': 0.05
+					'speed_multiplier': 0.8,
 				},
 				'default': {
 					'name': 'item.minecraft.iron_pickaxe',
@@ -4165,8 +4157,8 @@ fighters = {
 				}
 			},
 			'diamond_sword': {
-				'type': 'weapon',
 				'group': 'steve_equipment',
+				'type': 'weapon',
 				'stats': {
 					'attack_damage': 7,
 					'attack_speed': 1.5
@@ -4177,12 +4169,10 @@ fighters = {
 				}
 			},
 			'diamond_pickaxe': {
-				'type': 'charge',
 				'group': 'steve_pickaxe',
+				'type': 'bow',
 				'stats': {
-					'use_duration': 0.75,
-					'cooldown_group': 'steve/pickaxe',
-					'cooldown': 0.05
+					'speed_multiplier': 0.8,
 				},
 				'default': {
 					'name': 'item.minecraft.diamond_pickaxe',
@@ -4190,8 +4180,8 @@ fighters = {
 				}
 			},
 			'netherite_axe': {
-				'type': 'weapon',
 				'group': 'steve_equipment',
+				'type': 'weapon',
 				'stats': {
 					'attack_damage': 7.5,
 					'attack_speed': 0.75
@@ -4202,12 +4192,10 @@ fighters = {
 				}
 			},
 			'netherite_pickaxe': {
-				'type': 'charge',
 				'group': 'steve_pickaxe',
+				'type': 'bow',
 				'stats': {
-					'use_duration': 0.5,
-					'cooldown_group': 'steve/pickaxe',
-					'cooldown': 0.05
+					'speed_multiplier': 0.8,
 				},
 				'default': {
 					'name': 'item.minecraft.netherite_pickaxe',
