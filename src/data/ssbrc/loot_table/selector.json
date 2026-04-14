@@ -55,10 +55,6 @@
 								"minecraft:enchantments": {
 									"ssbrc:selector": 1
 								},
-								"minecraft:use_cooldown": {
-									"seconds": 0.5,
-									"cooldown_group": "ssbrc:ui"
-								},
 								"minecraft:item_model": "ssbrc:ui/selector"
 							}
 						},
