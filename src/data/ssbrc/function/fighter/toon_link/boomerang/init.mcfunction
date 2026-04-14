@@ -2,7 +2,7 @@ tag @s add toon_link_boomerang
 tag @s add delete_behavior.reflect
 tag @s add reflect_behavior.motion_only
 
-item replace entity @s contents with minecraft:stick[minecraft:item_model="ssbrc:fighter/toon_link/item/boomerang"]
+item replace entity @s contents with minecraft:stick[minecraft:item_model="ssbrc:fighter/toon_link/toon_link_boomerang"]
 
 function ssbrc:logic/init/projectile/horizontal
 

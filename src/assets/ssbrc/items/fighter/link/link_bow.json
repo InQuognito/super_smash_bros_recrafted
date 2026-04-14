@@ -17,25 +17,25 @@
 								"threshold": 0.65,
 								"model": {
 									"type": "minecraft:model",
-									"model": "ssbrc:fighter/link/item/fairy_bow/gold/pulling_1"
+									"model": "ssbrc:fighter/link/item/link_bow/gold/pulling_1"
 								}
 							},
 							{
 								"threshold": 0.9,
 								"model": {
 									"type": "minecraft:model",
-									"model": "ssbrc:fighter/link/item/fairy_bow/gold/pulling_2"
+									"model": "ssbrc:fighter/link/item/link_bow/gold/pulling_2"
 								}
 							}
 						],
 						"fallback": {
 							"type": "minecraft:model",
-							"model": "ssbrc:fighter/link/item/fairy_bow/gold/pulling_0"
+							"model": "ssbrc:fighter/link/item/link_bow/gold/pulling_0"
 						}
 					},
 					"on_false": {
 						"type": "minecraft:model",
-						"model": "ssbrc:fighter/link/item/fairy_bow/gold/default"
+						"model": "ssbrc:fighter/link/item/link_bow/gold/default"
 					}
 				}
 			}
@@ -52,25 +52,25 @@
 						"threshold": 0.65,
 						"model": {
 							"type": "minecraft:model",
-							"model": "ssbrc:fighter/link/item/fairy_bow/default/pulling_1"
+							"model": "ssbrc:fighter/link/item/link_bow/default/pulling_1"
 						}
 					},
 					{
 						"threshold": 0.9,
 						"model": {
 							"type": "minecraft:model",
-							"model": "ssbrc:fighter/link/item/fairy_bow/default/pulling_2"
+							"model": "ssbrc:fighter/link/item/link_bow/default/pulling_2"
 						}
 					}
 				],
 				"fallback": {
 					"type": "minecraft:model",
-					"model": "ssbrc:fighter/link/item/fairy_bow/default/pulling_0"
+					"model": "ssbrc:fighter/link/item/link_bow/default/pulling_0"
 				}
 			},
 			"on_false": {
 				"type": "minecraft:model",
-				"model": "ssbrc:fighter/link/item/fairy_bow/default/default"
+				"model": "ssbrc:fighter/link/item/link_bow/default/default"
 			}
 		}
 	},

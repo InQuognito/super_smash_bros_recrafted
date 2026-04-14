@@ -1,7 +1,7 @@
 {
 	"model": {
 		"type": "minecraft:model",
-		"model": "ssbrc:fighter/toon_link/item/boomerang"
+		"model": "ssbrc:fighter/toon_link/item/boomerang/default"
 	},
 	"hand_animation_on_swap": false
 }

@@ -1,6 +1,6 @@
 {
 	"parent": "minecraft:item/bow_pulling_1",
 	"textures": {
-		"layer0": "ssbrc:fighter/link/item/fairy_bow/gold/pulling_1"
+		"layer0": "ssbrc:fighter/link/item/link_bow/gold/pulling_1"
 	}
 }

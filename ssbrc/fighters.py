@@ -432,17 +432,22 @@ fighters = {
 			'default'
 		],
 		'items': {
-			'fairy_bow': {
+			'link_bow': {
 				'type': 'bow',
 				'stats': {
 					'speed_multiplier': 0.2
 				},
 				'default': {
-					'name': 'ssbrc.fighter.link.fairy_bow',
-					'color': 'blue'
+					'name': 'ssbrc.fighter.link.link_bow.default',
+					'color': 'gray'
 				},
 				'gold': {
+					'name': 'ssbrc.fighter.link.link_bow.gold',
 					'color': 'gold'
+				},
+				'tunic_of_time': {
+					'name': 'ssbrc.fighter.link.link_bow.tunic_of_time',
+					'color': 'blue'
 				}
 			},
 			'hylian_shield': {
